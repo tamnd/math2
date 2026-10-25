@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tamnd/math2/schema/review.v1.json",
+  "title": "math2 fidelity reviews",
+  "description": "The file reviews/<shard>/<tag>.yaml. It holds the fidelity reviews of the node with the tag. The shard is the first two characters of the tag. See spec 10.6 and 15.3 in tamnd/math2-agent, and reviews/README.md.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["reviews"],
+  "properties": {
+    "reviews": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/review"}
+    }
+  },
+  "$defs": {
+    "hash": {"type": "string", "pattern": "^blake3:[0-9a-f]{64}$"},
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "reviewer", "date", "decl", "statement_hash", "type_hash", "verdict"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^r-[0-9A-HJKMNP-TV-Z]{6}-[0-9]{2,}$", "description": "r-, the tag of the node, - and a number, for example r-3C53TD-01. A formal binding of the node lists the id in fidelity_reviews."},
+        "reviewer": {"type": "string", "pattern": "^(orcid:[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{3}[0-9X]|github:[A-Za-z0-9](-?[A-Za-z0-9])*)$", "description": "The reviewer as in registers/reviewers.reg."},
+        "date": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"},
+        "decl": {"type": "string", "minLength": 1, "description": "The declaration that the reviewer read. When the binding has an adapter, it is the adapter."},
+        "statement_hash": {"$ref": "#/$defs/hash", "description": "The hash of the informal statement section of the node. m2 review prints it."},
+        "type_hash": {"$ref": "#/$defs/hash", "description": "The hash of the elaborated type of decl. m2 review prints it."},
+        "verdict": {"enum": ["faithful", "faithful-with-conventions", "not-faithful"]},
+        "conventions": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}, "description": "The conventions under which the Lean statement says what the informal statement says."},
+        "class": {"enum": ["M-hyp-missing", "M-hyp-extra", "M-quant", "M-vacuous", "M-junk", "M-def", "M-type", "M-conv", "M-weak", "M-strong", "M-context", "M-tamper"], "description": "The class of the fault (spec 10.5)."},
+        "notes": {"type": "string"}
+      },
+      "allOf": [
+        {"if": {"properties": {"verdict": {"const": "faithful-with-conventions"}}}, "then": {"required": ["conventions"]}},
+        {"if": {"properties": {"verdict": {"const": "not-faithful"}}}, "then": {"required": ["class"]}, "else": {"not": {"required": ["class"]}}}
+      ]
+    }
+  }
+}

@@ -38,6 +38,36 @@ jobs:
         run: python .github/scripts/check_nodes.py
       - name: check the curricula
         run: python .github/scripts/check_curricula.py
+      - name: check the reviews
+        run: python .github/scripts/check_reviews.py
+
+  # A review is a statement by a person, thus each commit of a pull request that changes reviews/ must have a signature that GitHub verifies (reviews/README.md).
+  signed:
+    name: signed reviews
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - name: check the signatures
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          BASE: ${{ github.event.pull_request.base.sha }}
+          HEAD: ${{ github.event.pull_request.head.sha }}
+        run: |
+          bad=0
+          for sha in $(git rev-list "$BASE..$HEAD" -- reviews/); do
+            verified=$(gh api "repos/$REPO/commits/$sha" --jq .commit.verification.verified)
+            if [ "$verified" != true ]; then
+              echo "::error::the commit $sha changes reviews/ and GitHub does not verify its signature"
+              bad=1
+            fi
+          done
+          exit "$bad"
 
   # Rule T03: no provisional id reaches main. This job fails on a pull request with a new node until a maintainer runs the mint workflow. It is a required check, so that the pull request cannot merge before then.
   tags:
