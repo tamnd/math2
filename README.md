@@ -117,9 +117,21 @@ lake build
 
 The full audit is `m2 audit` from tamnd/math2-agent. Run it in the root of the repository. `m2 audit -changed` audits only the changes of your branch against `origin/main`. The check workflow runs `m2 audit -changed` on each pull request and the full audit on each push to `main`. The report goes to `reports/audit/`.
 
+CI installs the `m2` version that `manifests/releases/next.yaml` pins. Move the pin in a pull request after each release of tamnd/math2-agent. Each day the audit workflow builds `main`, runs the full audit and opens a pull request when the report in `reports/audit/` changes.
+
 ## Releases
 
 Releases use calendar versions, `YYYY.MM`, one each month. Each release pins one Lean stable release, one Mathlib tag, the container images, the model ids and the prompt versions. The first release is 2027.03. It gets a DOI and goes to Software Heritage and Zenodo.
+
+Each week the bump workflow runs `m2 bump`. It moves `lean/` to the newest Mathlib release and opens a pull request with the report from `reports/bump/`. It also builds Mathlib `master` as an early warning. That build never becomes a pull request.
+
+The release workflow cuts a release with `m2 release cut`:
+
+1. The step `cut` builds `main`, writes the manifest, the levels and the notes of the release into `manifests/releases/`, and opens the pull request `release/NAME`. Then a second runner rebuilds the release with `m2 release verify` and adds the rebuild check to the pull request.
+2. A person writes the summary of the notes and merges the pull request.
+3. The step `tag` runs the full audit on `main`, and makes the tag and the GitHub release only when the audit passes.
+
+The schedule runs the step `cut` on the first day of each month when the repository variable `M2_RELEASES` is `true`. With `dry-run`, the step makes no commit and no pull request, and the files go into an artefact of the run.
 
 ## Contribute
 

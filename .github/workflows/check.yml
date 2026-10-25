@@ -152,14 +152,8 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 0
-      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
-        with:
-          go-version: "1.27.x"
-          check-latest: true
-          cache: false
-      # Pin m2 to a release, not to a branch. A push to the toolchain must not break this repository with no commit here. Move the pin as part of each m2 release.
-      - name: install m2
-        run: go install github.com/tamnd/math2-agent/cmd/m2@v0.1.9
+      # The m2 version is in manifests/releases/next.yaml.
+      - uses: ./.github/actions/m2
       - name: m2 check
         run: m2 check
       # A pull request gets the audit of its changes. A push to main gets the full audit.

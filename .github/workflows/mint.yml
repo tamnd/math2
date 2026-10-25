@@ -68,9 +68,15 @@ jobs:
           go-version: "1.27.x"
           check-latest: true
           cache: false
-      # Pin m2 to a release. Move the pin as part of each m2 release.
+      # This job checks out the pull request, thus it does not run the local action .github/actions/m2 from there. A pull request can change the m2 version in manifests/releases/next.yaml, but only to a release of tamnd/math2-agent.
       - name: install m2
-        run: go install github.com/tamnd/math2-agent/cmd/m2@v0.1.9
+        run: |
+          version=$(sed -n 's/^m2: *//p' manifests/releases/next.yaml)
+          if [[ ! "$version" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "::error file=manifests/releases/next.yaml::m2 must be a release tag of tamnd/math2-agent, for example v0.1.11"
+            exit 1
+          fi
+          go install "github.com/tamnd/math2-agent/cmd/m2@$version"
       - name: m2 mint
         env:
           SHA: ${{ steps.pr.outputs.sha }}
