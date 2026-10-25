@@ -143,7 +143,8 @@ jobs:
           DRY: ${{ inputs.dry-run }}
         run: |
           if [ "$DRY" = true ]; then cp "$RUNNER_TEMP"/release/manifests/releases/"$NAME".* manifests/releases/; fi
-          runner="$(. /etc/os-release && echo "$ID-$VERSION_ID")/$(uname -m)/$(nproc)c/$(( $(awk '/MemTotal/ {print $2}' /proc/meminfo) / 1048576 ))G"
+          os=$(awk -F= '$1 == "ID" {id = $2} $1 == "VERSION_ID" {v = $2} END {gsub(/"/, "", v); print id "-" v}' /etc/os-release)
+          runner="$os/$(uname -m)/$(nproc)c/$(( $(awk '/MemTotal/ {print $2}' /proc/meminfo) / 1048576 ))G"
           code=0
           m2 release verify -oleans "$RUNNER_TEMP/rebuild" -against "$RUNNER_TEMP/release/lean/.lake/build/lib/lean" -record "$runner" "$NAME" | tee "$RUNNER_TEMP/verify.txt" || code=$?
           {
