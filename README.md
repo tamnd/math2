@@ -73,6 +73,17 @@ The build computes two levels for each statement. No person and no agent writes 
 
 A review is bound to the hash of the informal statement and to the hash of the elaborated Lean type. If either hash changes, the review stops counting.
 
+## Add a node
+
+1. Install Go 1.27 or later. Then install the toolchain: `go install github.com/tamnd/math2-agent/cmd/m2@latest`.
+2. Fork this repository, or make a branch if you can push to it.
+3. Run `m2 new <kind>`, for example `m2 new statement`. It makes a file in `nodes/~/` with a provisional id. The 11 kinds are concept, definition, statement, conjecture, problem, example, counterexample, object, proof, computation and topic.
+4. Write a value for each field that has the value `null`. Write the body under the headings. Use the example in "A node file". Write each sentence on one line.
+5. Run `m2 fmt`, then `m2 check`. `m2 check` must report 0 findings.
+6. Open a pull request. The `tags` check fails while the pull request has a provisional id. This is correct. A maintainer gives the tags before the merge. The other checks must pass.
+
+CONTRIBUTING.md has the rules and the steps for the maintainer.
+
 ## Check the content
 
 You can check the node files with Python, PyYAML and jsonschema. You do not need the toolchain.
