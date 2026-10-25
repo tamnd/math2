@@ -60,8 +60,11 @@ One record for each change of a formal binding. The record answers the question 
 | new | the new declaration, or `-` when the binding is removed |
 | cause | `bind`, `rename`, `refactor` or `rebind` |
 | mathlib | the Mathlib commit at which the change occurs |
+| author | the person who made the change, as `orcid:` and an ORCID iD or `github:` and a GitHub login, or `-` |
 
-Example: `7K3QX2 lean4 Subgroup.card_subgroup_dvd_card Subgroup.card_dvd_of_le rename 0123456789abcdef0123456789abcdef01234567`
+Example: `7K3QX2 lean4 Subgroup.card_subgroup_dvd_card Subgroup.card_dvd_of_le rename 0123456789abcdef0123456789abcdef01234567 github:octocat`
+
+The author of a binding is the author of its `bind` or `rebind` record. A `rename` or a `refactor` keeps the author. A reviewer cannot review a binding that the reviewer wrote (rule V02).
 
 ## reviewers.reg
 
@@ -72,5 +75,8 @@ One record for each reviewer. Rule V02 uses it to check that two fidelity review
 | reviewer | `orcid:` and an ORCID iD, or `github:` and a GitHub login |
 | first | the date of the first review |
 | areas | the MSC2020 codes of the areas, with a comma between them |
+| affiliations | the ROR ids of the affiliations of the reviewer, for example `ror:03vek6s52`, with a comma between them, or `-` |
 
-Example: `github:octocat 2026-12-01 20D,20E`
+Example: `github:octocat 2026-12-01 20D,20E ror:03vek6s52`
+
+A review counts for the fidelity level only when its reviewer has a record. F3 needs two reviewers with no shared affiliation.
