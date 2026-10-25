@@ -159,7 +159,7 @@ jobs:
           cache: false
       # Pin m2 to a release, not to a branch. A push to the toolchain must not break this repository with no commit here. Move the pin as part of each m2 release.
       - name: install m2
-        run: go install github.com/tamnd/math2-agent/cmd/m2@v0.1.5
+        run: go install github.com/tamnd/math2-agent/cmd/m2@v0.1.6
       - name: m2 check
         run: m2 check
       # A pull request gets the audit of its changes. A push to main gets the full audit.
