@@ -1,0 +1,419 @@
+{
+  "files": 2,
+  "results": [
+    {
+      "rule": "T01",
+      "state": "pass",
+      "checked": 4,
+      "findings": 0
+    },
+    {
+      "rule": "T02",
+      "state": "pass",
+      "checked": 4,
+      "findings": 0
+    },
+    {
+      "rule": "T03",
+      "state": "pass",
+      "checked": 8,
+      "findings": 0
+    },
+    {
+      "rule": "T04",
+      "state": "pass",
+      "checked": 3,
+      "findings": 0
+    },
+    {
+      "rule": "T05",
+      "state": "pass",
+      "checked": 4,
+      "findings": 0
+    },
+    {
+      "rule": "T06",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
+    },
+    {
+      "rule": "S01",
+      "state": "pass",
+      "checked": 2,
+      "findings": 0
+    },
+    {
+      "rule": "S02",
+      "state": "pass",
+      "checked": 2,
+      "findings": 0
+    },
+    {
+      "rule": "S03",
+      "state": "pass",
+      "checked": 2,
+      "findings": 0
+    },
+    {
+      "rule": "S04",
+      "state": "pass",
+      "checked": 2,
+      "findings": 0
+    },
+    {
+      "rule": "S09",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
+    },
+    {
+      "rule": "B01",
+      "state": "pass",
+      "checked": 23,
+      "findings": 0
+    },
+    {
+      "rule": "B02",
+      "state": "pass",
+      "checked": 3,
+      "findings": 0
+    },
+    {
+      "rule": "B03",
+      "state": "pass",
+      "checked": 2,
+      "findings": 0
+    },
+    {
+      "rule": "B04",
+      "state": "pass",
+      "checked": 1,
+      "findings": 0
+    },
+    {
+      "rule": "B05",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
+    },
+    {
+      "rule": "G01",
+      "state": "pass",
+      "checked": 1,
+      "findings": 0
+    },
+    {
+      "rule": "G02",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
+    },
+    {
+      "rule": "G03",
+      "state": "pass",
+      "checked": 2,
+      "findings": 0
+    },
+    {
+      "rule": "G04",
+      "state": "pass",
+      "checked": 1,
+      "findings": 0
+    },
+    {
+      "rule": "G05",
+      "state": "pass",
+      "checked": 1,
+      "findings": 0
+    },
+    {
+      "rule": "G06",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
+    },
+    {
+      "rule": "G07",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
+    },
+    {
+      "rule": "G08",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
+    },
+    {
+      "rule": "G09",
+      "state": "pass",
+      "checked": 1,
+      "findings": 0
+    },
+    {
+      "rule": "G10",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
+    },
+    {
+      "rule": "F01",
+      "state": "pass",
+      "checked": 2,
+      "findings": 0
+    },
+    {
+      "rule": "F02",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
+    },
+    {
+      "rule": "F03",
+      "state": "pass",
+      "checked": 1,
+      "findings": 0
+    },
+    {
+      "rule": "F04",
+      "state": "pass",
+      "checked": 1,
+      "findings": 0
+    },
+    {
+      "rule": "F05",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
+    },
+    {
+      "rule": "F06",
+      "state": "pass",
+      "checked": 3,
+      "findings": 0
+    },
+    {
+      "rule": "F07",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
+    },
+    {
+      "rule": "F08",
+      "state": "pass",
+      "checked": 2,
+      "findings": 0
+    },
+    {
+      "rule": "F09",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
+    },
+    {
+      "rule": "V01",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
+    },
+    {
+      "rule": "V02",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
+    },
+    {
+      "rule": "V03",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
+    },
+    {
+      "rule": "V04",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
+    },
+    {
+      "rule": "C01",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "not written yet"
+    },
+    {
+      "rule": "C02",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "not written yet"
+    },
+    {
+      "rule": "C03",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "not written yet"
+    },
+    {
+      "rule": "C04",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "not written yet"
+    },
+    {
+      "rule": "C05",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "not written yet"
+    },
+    {
+      "rule": "A01",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
+    },
+    {
+      "rule": "A02",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "the tree has no provenance in prov/, thus the writer of a same_as value is not known"
+    },
+    {
+      "rule": "A03",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "the tree has no records of the systems of its same_as values"
+    },
+    {
+      "rule": "A04",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
+    },
+    {
+      "rule": "L01",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
+    },
+    {
+      "rule": "L02",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "build/records has no records that agree with an import manifest. Run m2 ingest first"
+    },
+    {
+      "rule": "L03",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "build/records has no records that agree with an import manifest. Run m2 ingest first"
+    },
+    {
+      "rule": "L04",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "build/records has no records that agree with an import manifest. Run m2 ingest first"
+    },
+    {
+      "rule": "P01",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "not written yet"
+    },
+    {
+      "rule": "P02",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "not written yet"
+    },
+    {
+      "rule": "P03",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "not written yet"
+    },
+    {
+      "rule": "P04",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "not written yet"
+    },
+    {
+      "rule": "R01",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "the tree has no release manifest in manifests/releases"
+    },
+    {
+      "rule": "R02",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "the tree has no release manifest in manifests/releases"
+    },
+    {
+      "rule": "R03",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "the tree has no release manifest in manifests/releases"
+    },
+    {
+      "rule": "R04",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "the tree has no record of a restore drill in reports/restore"
+    },
+    {
+      "rule": "R05",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "the tree has no release manifest in manifests/releases"
+    },
+    {
+      "rule": "X01",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "not written yet"
+    },
+    {
+      "rule": "X02",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "not written yet"
+    },
+    {
+      "rule": "X03",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "not written yet"
+    },
+    {
+      "rule": "X04",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "not written yet"
+    }
+  ],
+  "findings": null
+}

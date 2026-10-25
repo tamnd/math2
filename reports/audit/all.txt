@@ -1,0 +1,67 @@
+rule  state  checked  findings
+T01   pass   4
+T02   pass   4
+T03   pass   8
+T04   pass   3
+T05   pass   4
+T06   n/a    0
+S01   pass   2
+S02   pass   2
+S03   pass   2
+S04   pass   2
+S09   n/a    0
+B01   pass   23
+B02   pass   3
+B03   pass   2
+B04   pass   1
+B05   n/a    0
+G01   pass   1
+G02   n/a    0
+G03   pass   2
+G04   pass   1
+G05   pass   1
+G06   n/a    0
+G07   n/a    0
+G08   n/a    0
+G09   pass   1
+G10   n/a    0
+F01   pass   2
+F02   n/a    0
+F03   pass   1
+F04   pass   1
+F05   n/a    0
+F06   pass   3
+F07   n/a    0
+F08   pass   2
+F09   n/a    0
+V01   n/a    0
+V02   n/a    0
+V03   n/a    0
+V04   n/a    0
+C01   skip   0        not written yet
+C02   skip   0        not written yet
+C03   skip   0        not written yet
+C04   skip   0        not written yet
+C05   skip   0        not written yet
+A01   n/a    0
+A02   skip   0        the tree has no provenance in prov/, thus the writer of a same_as value is not known
+A03   skip   0        the tree has no records of the systems of its same_as values
+A04   n/a    0
+L01   n/a    0
+L02   skip   0        build/records has no records that agree with an import manifest. Run m2 ingest first
+L03   skip   0        build/records has no records that agree with an import manifest. Run m2 ingest first
+L04   skip   0        build/records has no records that agree with an import manifest. Run m2 ingest first
+P01   skip   0        not written yet
+P02   skip   0        not written yet
+P03   skip   0        not written yet
+P04   skip   0        not written yet
+R01   skip   0        the tree has no release manifest in manifests/releases
+R02   skip   0        the tree has no release manifest in manifests/releases
+R03   skip   0        the tree has no release manifest in manifests/releases
+R04   skip   0        the tree has no record of a restore drill in reports/restore
+R05   skip   0        the tree has no release manifest in manifests/releases
+X01   skip   0        not written yet
+X02   skip   0        not written yet
+X03   skip   0        not written yet
+X04   skip   0        not written yet
+2 files, 0 findings, nothing failed
