@@ -10,7 +10,13 @@ Read the content as a wiki at https://tamnd.github.io/math2. Each node has a pag
 
 ## Status
 
-The project is at milestone M1. The repository has its first two nodes: the group concept and Lagrange's theorem. The wiki shows the spec, the plan and each node. The Lean package pins Lean v4.35.0 and Mathlib v4.35.0. It has the `@[m2 "TAG"]` attribute and one adapter. The adapter derives the form of Lagrange's theorem in node 3C53TD from the Mathlib theorem `Subgroup.card_subgroup_dvd_card`. Refer to the [milestones](https://github.com/tamnd/math2-agent/milestones) for the plan.
+The project is at milestone M1. The repository has its first two nodes: the group concept and Lagrange's theorem. The wiki shows the spec, the plan and each node. The Lean package pins Lean v4.35.0 and Mathlib v4.35.0. It has the `@[m2 "TAG"]` attribute and one adapter. The adapter derives the form of Lagrange's theorem in node 3C53TD from the Mathlib theorem `Subgroup.card_subgroup_dvd_card`. The seed list `topics/curricula/seed.yaml` has 2,416 items in 14 courses of the first and second year. The seed nodes come from this list. Refer to the [milestones](https://github.com/tamnd/math2-agent/milestones) for the plan.
+
+## The seed list
+
+The file `topics/curricula/seed.yaml` lists the concepts, the definitions and the main statements of 14 courses, from logic and sets to probability. The courses and the items are in teaching order. An item that two courses teach is in the first of them only.
+
+Each item has a name, a kind and at least one source. A source is an article of the English Wikipedia, with its Wikidata item, or a Mathlib list. 1,771 items have the Mathlib declaration that defines or states them, at the pinned Mathlib commit. An item without a declaration has no declaration in Mathlib that matches it. The field `node` gives the tag of the node for the item, when the node exists. The schema is `schema/curriculum.v1.json`.
 
 ## A node file
 
@@ -91,7 +97,10 @@ You can check the node files with Python, PyYAML and jsonschema. You do not need
 ```sh
 pip install --require-hashes -r .github/scripts/requirements.txt
 python .github/scripts/check_nodes.py
+python .github/scripts/check_curricula.py
 ```
+
+`check_curricula.py --decls FILE` also reports each declaration that is not a line of FILE. Make the file from the `.ilean` files of the Lean build.
 
 To build the Lean package, install [elan](https://github.com/leanprover/elan) and run these commands:
 
