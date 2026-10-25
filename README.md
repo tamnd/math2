@@ -73,7 +73,7 @@ A review is bound to the hash of the informal statement and to the hash of the e
 
 ## Check the content
 
-You can check the node files with Python and PyYAML only. You do not need the toolchain.
+You can check the node files with Python, PyYAML and jsonschema. You do not need the toolchain.
 
 ```sh
 pip install --require-hashes -r .github/scripts/requirements.txt
