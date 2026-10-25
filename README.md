@@ -46,7 +46,7 @@ Let $G$ be a finite [[group|1A2B3C]] and let $H$ be a [[subgroup|1H8D2C]] of $G$
 
 A tag has 6 characters of Crockford base32, for example `7K3QX2`. A tag does not change, and nobody uses it again for a different node. To remove a node, retire it. The retired tag points to the node that replaces it. Tags that start with `0` are the M1 seed.
 
-A new node has a provisional id until it merges, for example `~3fa94c01`. The merge bot changes it to a tag.
+A new node has a provisional id until it merges, for example `~3fa94c01`. Before the merge, the mint workflow changes it to a tag and adds the tag to `registers/tags.reg`. CONTRIBUTING.md has the steps.
 
 The URI of a node is `m2://7K3QX2`. To refer to a node in a release, add the release, for example `m2://7K3QX2@2027.03`.
 

@@ -1,8 +1,10 @@
 """Check the node files in nodes/ without the m2 toolchain.
 
-This check needs only Python, PyYAML and jsonschema. It finds the errors that a person can make with a text editor: a bad tag, a file in the wrong shard, front matter that does not agree with schema/node.v1.json, a body section that the kind does not have, or a link to a node that does not exist. The full audit is `m2 audit` in tamnd/math2-agent.
+This check needs only Python, PyYAML and jsonschema. It finds the errors that a person can make with a text editor: a bad tag, a file in the wrong shard, front matter that does not agree with schema/node.v1.json, a body section that the kind does not have, a link to a node that does not exist, or a tag that is not in registers/tags.reg (rule T05). The full audit is `m2 audit` in tamnd/math2-agent.
 
-Usage: python check_nodes.py [root]
+With --no-provisional, the check finds only the provisional ids in the content directories (rule T03). A pull request has provisional ids until the mint workflow changes them to tags. Thus this check fails on a pull request before the mint workflow runs, and it must pass before the pull request merges.
+
+Usage: python check_nodes.py [--no-provisional] [root]
 """
 
 import json
@@ -18,8 +20,14 @@ SCHEMA = Path(__file__).resolve().parents[2] / "schema" / "node.v1.json"
 # Crockford base32 without I, L, O and U.
 TAG = re.compile(r"^[0-9A-HJKMNP-TV-Z]{6}$")
 PROVISIONAL = re.compile(r"^~[0-9a-f]{8}$")
+PROVISIONAL_IN_TEXT = re.compile(r"~[0-9a-f]{8}")
+COMMIT = re.compile(r"^[0-9a-f]{7,40}$")
 LINK = re.compile(r"\[\[([^\]|]+)\|([^\]]+)\]\]")
 SECTION = re.compile(r"^## (.+?)\s*$", re.MULTILINE)
+
+# The directories that can refer to a node. m2 mint changes the provisional ids in these directories, and in no other files.
+CONTENT_DIRS = ("nodes", "topics", "reviews", "compute", "lean")
+TEXT_SUFFIXES = {".md", ".yaml", ".yml", ".lean"}
 
 KINDS = {
     "concept",
@@ -98,13 +106,86 @@ def split_front_matter(text):
     return text[4:end], text[end + 5 :]
 
 
+def read_register(path):
+    """Return the records of a register as (line number, fields) pairs. A register that does not exist has no records."""
+    if not path.is_file():
+        return []
+    records = []
+    for number, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+        fields = line.split()
+        if fields and not fields[0].startswith("#"):
+            records.append((number, fields))
+    return records
+
+
+def register_errors(root, kinds):
+    """Return the errors of tags.reg and retired.reg against the node files. kinds maps the tag of each node file to its kind."""
+    errors = []
+    tags = {}
+    rel = Path("registers") / "tags.reg"
+    previous = ""
+    for number, fields in read_register(root / rel):
+        where = f"{rel}:{number}"
+        if len(fields) != 3:
+            errors.append(f"{where}: the record has {len(fields)} fields, and a record has 3: tag, commit, kind")
+            continue
+        tag, commit, kind = fields
+        if not TAG.match(tag):
+            errors.append(f"{where}: {tag!r} is not a tag")
+        if not COMMIT.match(commit):
+            errors.append(f"{where}: {commit!r} is not a commit")
+        if kind not in KINDS:
+            errors.append(f"{where}: kind {kind!r} is not one of the 11 kinds")
+        if tag in tags:
+            errors.append(f"{where}: the tag {tag} has two records")
+        elif tag < previous:
+            errors.append(f"{where}: the records must be sorted by tag")
+        tags[tag] = kind
+        previous = tag
+
+    retired = set()
+    for number, fields in read_register(root / "registers" / "retired.reg"):
+        if not TAG.match(fields[0]):
+            errors.append(f"registers/retired.reg:{number}: {fields[0]!r} is not a tag")
+        retired.add(fields[0])
+
+    for tag, kind in sorted(kinds.items()):
+        if tag not in tags:
+            errors.append(f"nodes/{tag[:2]}/{tag}.md: the tag is not in {rel}. Only the mint workflow gives tags (rule T05)")
+        elif tags[tag] != kind and kind in KINDS:
+            errors.append(f"nodes/{tag[:2]}/{tag}.md: the kind is {kind}, but {rel} says {tags[tag]}")
+    for tag in sorted(tags):
+        if tag not in kinds and tag not in retired:
+            errors.append(f"{rel}: the tag {tag} has no node file and no record in registers/retired.reg (rule T05)")
+    return errors
+
+
+def provisional_errors(root):
+    """Return an error for each provisional id in the content directories (rule T03)."""
+    errors = []
+    for name in CONTENT_DIRS:
+        top = root / name
+        if not top.is_dir():
+            continue
+        for path in sorted(p for p in top.rglob("*") if p.is_file() and ".lake" not in p.parts):
+            rel = path.relative_to(root)
+            if PROVISIONAL_IN_TEXT.search(path.name):
+                errors.append(f"{rel}: the file name has a provisional id")
+            if path.suffix not in TEXT_SUFFIXES:
+                continue
+            for number, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+                for found in PROVISIONAL_IN_TEXT.findall(line):
+                    errors.append(f"{rel}:{number}: {found} is a provisional id (rule T03)")
+    return errors
+
+
 def check(root, schema=SCHEMA):
     """Return a list of errors and the number of node files under root."""
     validator, forbidden, sections = load_schema(schema)
     errors = []
     nodes_dir = root / "nodes"
     if not nodes_dir.is_dir():
-        return errors, 0
+        return register_errors(root, {}), 0
 
     files = sorted(p for p in nodes_dir.rglob("*") if p.is_file())
     ids = set()
@@ -126,6 +207,7 @@ def check(root, schema=SCHEMA):
         ids.add(node_id)
         parsed.append((path, rel, node_id))
 
+    kinds = {}
     for path, rel, node_id in parsed:
         parts = split_front_matter(path.read_text(encoding="utf-8"))
         if parts is None:
@@ -143,6 +225,8 @@ def check(root, schema=SCHEMA):
         if str(meta.get("tag")) != node_id:
             errors.append(f"{rel}: tag is {meta.get('tag')!r}, but the file name says {node_id!r}")
         kind = meta.get("kind")
+        if TAG.match(node_id):
+            kinds[node_id] = kind
         if kind not in KINDS:
             errors.append(f"{rel}: kind {kind!r} is not one of the 11 kinds")
         errors += [f"{rel}: {err}" for err in schema_errors(meta, validator, forbidden)]
@@ -152,11 +236,24 @@ def check(root, schema=SCHEMA):
             if target not in ids:
                 errors.append(f"{rel}: the link to {target!r} goes to a node that does not exist")
 
+    errors += register_errors(root, kinds)
     return errors, len(parsed)
 
 
 def main(argv):
-    root = Path(argv[1]) if len(argv) > 1 else Path(".")
+    args = argv[1:]
+    no_provisional = "--no-provisional" in args
+    args = [a for a in args if a != "--no-provisional"]
+    root = Path(args[0]) if args else Path(".")
+    if no_provisional:
+        errors = provisional_errors(root)
+        for error in errors:
+            print(error)
+        if errors:
+            print(f"{len(errors)} errors. A maintainer runs the mint workflow before merge. CONTRIBUTING.md has the steps.")
+        else:
+            print("no provisional ids")
+        return 1 if errors else 0
     errors, count = check(root)
     for error in errors:
         print(error)

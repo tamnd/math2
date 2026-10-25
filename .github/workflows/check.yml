@@ -37,6 +37,23 @@ jobs:
       - name: check the node files
         run: python .github/scripts/check_nodes.py
 
+  # Rule T03: no provisional id reaches main. This job fails on a pull request with a new node until a maintainer runs the mint workflow. It is a required check, so that the pull request cannot merge before then.
+  tags:
+    name: tags
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.13"
+      - name: install the Python packages
+        run: pip install --disable-pip-version-check --require-hashes -r .github/scripts/requirements.txt
+      - name: check that no provisional id is left
+        run: python .github/scripts/check_nodes.py --no-provisional
+
   # Build the Math2 Lean package against the pinned Lean release and the pinned Mathlib tag.
   lean:
     name: lean build
