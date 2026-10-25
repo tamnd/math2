@@ -8,6 +8,11 @@ on:
         description: The number of the pull request
         required: true
         type: number
+      seed:
+        description: Give tags that start with 0. Only for the nodes of the M1 seed.
+        required: false
+        type: boolean
+        default: false
 
 permissions: {}
 
@@ -65,11 +70,15 @@ jobs:
           cache: false
       # Pin m2 to a release. Move the pin as part of each m2 release.
       - name: install m2
-        run: go install github.com/tamnd/math2-agent/cmd/m2@v0.0.5
+        run: go install github.com/tamnd/math2-agent/cmd/m2@v0.1.7
       - name: m2 mint
         env:
           SHA: ${{ steps.pr.outputs.sha }}
-        run: m2 mint -commit "$SHA" | tee "$RUNNER_TEMP/minted.txt"
+          SEED: ${{ inputs.seed }}
+        run: |
+          flags=()
+          if [ "$SEED" = true ]; then flags+=(-seed); fi
+          m2 mint -commit "$SHA" "${flags[@]}" | tee "$RUNNER_TEMP/minted.txt"
       - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
           python-version: "3.13"
