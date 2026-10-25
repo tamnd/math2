@@ -1,0 +1,23 @@
+name: Error in a node
+description: A statement, a proof, a source or a link is wrong.
+labels: ["type: fix", "area: nodes"]
+body:
+  - type: input
+    id: tag
+    attributes:
+      label: Tag
+      description: The tag of the node, for example 7K3QX2.
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Error
+      description: Say what is wrong. Give a reference or a counterexample if you have one.
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Correction
+      description: Say what the node must say.

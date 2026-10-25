@@ -1,0 +1,20 @@
+version = 1
+
+# The default for paths that a more specific entry does not cover.
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 the math2 contributors"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = ["nodes/**", "topics/**", "reviews/**", "README.md", "CONTRIBUTING.md"]
+precedence = "override"
+SPDX-FileCopyrightText = "2026 the math2 contributors"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = ["lean/**", "compute/**", ".github/**", "macros/**"]
+precedence = "override"
+SPDX-FileCopyrightText = "2026 the math2 contributors"
+SPDX-License-Identifier = "Apache-2.0"

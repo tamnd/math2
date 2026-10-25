@@ -1,0 +1,111 @@
+name: check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  merge_group:
+  workflow_dispatch:
+
+# No job in this workflow writes to the repository.
+permissions:
+  contents: read
+
+concurrency:
+  group: check-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+
+jobs:
+  # This check needs only Python. It works before the m2 toolchain has a release.
+  nodes:
+    name: node files
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.13"
+      - name: install PyYAML
+        run: pip install --disable-pip-version-check --require-hashes -r .github/scripts/requirements.txt
+      - name: test the check script
+        run: python -m unittest discover -s .github/scripts
+      - name: check the node files
+        run: python .github/scripts/check_nodes.py
+
+  # Build the Math2 Lean package against the pinned Lean release and the pinned Mathlib tag.
+  lean:
+    name: lean build
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: leanprover/lean-action@24581d74d674803a25a81b10b059c5c0cdd344c6 # v1.6.2
+        with:
+          lake-package-directory: lean
+          use-mathlib-cache: true
+          build: true
+          build-args: "--wfail"
+          test: false
+          lint: false
+          leanchecker: true
+          leanchecker-args: "Math2"
+          axiom-audit: true
+          axiom-audit-allow: "propext,Classical.choice,Quot.sound"
+
+  # Each file must have a licence. REUSE.toml gives the licence for each part of the tree.
+  licences:
+    name: reuse lint
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: fsfe/reuse-action@676e2d560c9a403aa252096d99fcab3e1132b0f5 # v6.0.0
+
+  workflows:
+    name: workflow lint
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
+        with:
+          go-version: "1.27.x"
+          check-latest: true
+          cache: false
+      - name: actionlint
+        run: go run github.com/rhysd/actionlint/cmd/actionlint@v1.7.12
+      - name: zizmor
+        uses: zizmorcore/zizmor-action@53290badfa369cb0bf7ad16342cb62c2fa47ac7b # v0.8.0
+        with:
+          version: 1.31.1
+          advanced-security: false
+
+  # The full audit is in tamnd/math2-agent. This job is off until m2 has a release. The repository variable M2_READY turns it on, so the off state is visible in the settings. Set M2_READY to true in M1, and do not set it back.
+  audit:
+    name: m2 check
+    if: vars.M2_READY == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
+        with:
+          go-version: "1.27.x"
+          check-latest: true
+          cache: false
+      # Pin m2 to a release, not to a branch. A push to the toolchain must not break this repository with no commit here. Move the pin as part of each m2 release.
+      - name: install m2
+        run: go install github.com/tamnd/math2-agent/cmd/m2@v0.1.0
+      - name: m2 check
+        run: m2 check

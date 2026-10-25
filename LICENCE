@@ -1,0 +1,11 @@
+This repository uses three licences. REUSE.toml gives the licence for each path. The full texts are in LICENSES/.
+
+1. Prose is CC BY-SA 4.0. This is the text of the nodes, the topics and the reviews. Share-alike keeps the prose open, and it is compatible with Wikipedia, ProofWiki and zbMATH Open.
+
+2. Code is Apache-2.0. This is the Lean library, the computation code and the CI scripts. Apache-2.0 is the licence of Mathlib, so code can move to Mathlib with no change of licence.
+
+3. Metadata is CC0 1.0. This is the manifests, the registers, the provenance records and the schemas. Anyone can copy identifiers and links with no conditions, and other indexes can use them.
+
+Some external sources do not allow copies. math2 holds only a link and a locator for these sources. Examples are the Stacks Project (GFDL), arXiv papers under the default arXiv licence and the MSC2020 class descriptions (CC BY-NC-SA). The audit rejects a node that copies text from such a source.
+
+Copyright 2026 the math2 contributors.

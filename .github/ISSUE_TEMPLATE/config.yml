@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Toolchain problem
+    url: https://github.com/tamnd/math2-agent/issues/new/choose
+    about: A problem with the m2 command, the agents or the site goes to tamnd/math2-agent.

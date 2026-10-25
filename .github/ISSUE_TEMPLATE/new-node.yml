@@ -1,0 +1,24 @@
+name: Request a node
+description: Ask for a concept, a statement or a problem that math2 does not have.
+labels: ["type: content", "area: nodes"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options: [concept, definition, statement, conjecture, problem, example, counterexample, object, proof, computation, topic]
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Give one or more sources, for example a DOI, an arXiv id, a book with a page or a Mathlib declaration.
+    validations:
+      required: true

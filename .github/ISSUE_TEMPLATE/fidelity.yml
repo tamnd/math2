@@ -1,0 +1,24 @@
+name: Formal statement does not agree
+description: A formal Lean statement does not say the same thing as its informal statement.
+labels: ["type: fix", "area: reviews"]
+body:
+  - type: input
+    id: tag
+    attributes:
+      label: Tag
+    validations:
+      required: true
+  - type: input
+    id: decl
+    attributes:
+      label: Lean declaration
+      description: The full name, for example Subgroup.card_subgroup_dvd_card.
+    validations:
+      required: true
+  - type: textarea
+    id: difference
+    attributes:
+      label: Difference
+      description: Say how the two statements are different. Examples are a missing hypothesis, a wrong quantifier, a weaker conclusion or a statement that is true for a trivial reason.
+    validations:
+      required: true

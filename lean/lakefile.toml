@@ -1,0 +1,16 @@
+name = "Math2"
+version = "0.1.0"
+defaultTargets = ["Math2"]
+
+[leanOptions]
+autoImplicit = false
+relaxedAutoImplicit = false
+
+# Pin Mathlib to a release tag. Do not pin it to a branch. The monthly bump changes this tag and the toolchain together.
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "v4.35.0"
+
+[[lean_lib]]
+name = "Math2"
