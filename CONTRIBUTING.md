@@ -24,7 +24,7 @@ Install `m2` with `go install github.com/tamnd/math2-agent/cmd/m2@latest`. It ne
 
 A maintainer does these steps after the review and before the merge:
 
-1. In the Actions tab, run the `mint` workflow. Give the number of the pull request.
+1. In the Actions tab, run the `mint` workflow. Give the number of the pull request. For a batch of seed nodes, also select `seed`. The tags of the M1 seed start with `0`.
 2. The workflow runs `m2 mint`. It changes each provisional id in the pull request to a new tag. It changes the file name, the front matter, each link and each Lean attribute. It adds each new tag to `registers/tags.reg`.
 3. The workflow pushes one commit with the new tags to the branch of the pull request. Then it runs the checks on that commit.
 4. When the `tags` check and the other checks pass, merge the pull request.
