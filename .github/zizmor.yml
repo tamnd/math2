@@ -1,0 +1,4 @@
+rules:
+  # GitHub added the self-repository syntax (uses: $/...) in July 2026, and actionlint v1.7.12 refuses it. The workflows that use a local action do not check out other code before that step, thus ./ loads the action of the commit of the workflow. Change to $/ when actionlint reads it.
+  self-repository:
+    disable: true

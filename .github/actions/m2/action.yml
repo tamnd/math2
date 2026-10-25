@@ -1,0 +1,28 @@
+name: install m2
+description: Install Go and the m2 version that manifests/releases/next.yaml pins.
+
+outputs:
+  version:
+    description: The m2 version, for example v0.1.11.
+    value: ${{ steps.install.outputs.version }}
+
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
+      with:
+        go-version: "1.27.x"
+        check-latest: true
+        cache: false
+    # Pin m2 to a release, not to a branch. A push to the toolchain must not break this repository with no commit here.
+    - name: install m2
+      id: install
+      shell: bash
+      run: |
+        version=$(sed -n 's/^m2: *//p' manifests/releases/next.yaml)
+        if [[ ! "$version" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+          echo "::error file=manifests/releases/next.yaml::m2 must be a release tag of tamnd/math2-agent, for example v0.1.11"
+          exit 1
+        fi
+        go install "github.com/tamnd/math2-agent/cmd/m2@$version"
+        echo "version=$version" >> "$GITHUB_OUTPUT"

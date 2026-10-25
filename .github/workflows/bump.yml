@@ -1,0 +1,138 @@
+name: bump
+
+# Each week this workflow moves lean/ to the newest Mathlib release with m2 bump, and opens a pull request with the report (spec 07.9). A second job builds Mathlib master as an early warning. That build never becomes a pull request.
+on:
+  schedule:
+    - cron: "17 5 * * 1"
+  workflow_dispatch:
+    inputs:
+      to:
+        description: The Mathlib tag. Empty means the newest release tag.
+        required: false
+        type: string
+
+permissions: {}
+
+concurrency:
+  group: bump-${{ github.ref }}
+  cancel-in-progress: false
+
+# With shell bash, a step fails when a command in a pipe fails.
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  bump:
+    name: bump Mathlib
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    permissions:
+      # Push the branch bump/TAG.
+      contents: write
+      # Open the pull request.
+      pull-requests: write
+      # Run the check workflow on the branch. A push with the workflow token does not start a workflow.
+      actions: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: ./.github/actions/m2
+      - uses: ./.github/actions/lean
+      - name: find the tag
+        id: tag
+        env:
+          TO: ${{ inputs.to }}
+        run: |
+          args=()
+          if [ -n "$TO" ]; then args+=(-to "$TO"); fi
+          out=$(m2 bump -n "${args[@]}")
+          echo "$out"
+          if [[ "$out" != "m2 bump moves Mathlib from "* ]]; then
+            echo "$out" >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          tag=${out##* }
+          if [[ ! "$tag" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "::error::m2 bump gives the tag '$tag', which is not a release tag"
+            exit 1
+          fi
+          if git ls-remote --exit-code --heads origin "bump/$tag" > /dev/null; then
+            echo "The branch bump/$tag is there already. Merge or close its pull request first." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+      # m2 bump makes the branch and the commit also when the build or the audit fails with the new pins, thus the breaks go into the pull request.
+      - name: m2 bump
+        id: bump
+        if: steps.tag.outputs.tag != ''
+        env:
+          TAG: ${{ steps.tag.outputs.tag }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          code=0
+          m2 bump -to "$TAG" || code=$?
+          if [ "$(git log -1 --format=%s)" != "Bump Mathlib to $TAG" ]; then
+            echo "::error::m2 bump made no commit. Its output is above."
+            exit 1
+          fi
+          echo "green=$([ "$code" = 0 ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+      - name: open the pull request
+        if: steps.tag.outputs.tag != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.tag.outputs.tag }}
+          GREEN: ${{ steps.bump.outputs.green }}
+          REPO: ${{ github.repository }}
+        run: |
+          report=$(git show --name-only --format= HEAD -- reports/bump/)
+          {
+            if [ "$GREEN" = true ]; then
+              echo "This moves lean/ to Mathlib $TAG. The build and the audit pass with the new pins."
+            else
+              echo "This moves lean/ to Mathlib $TAG. The build or the audit fails with the new pins. Fix the breaks on this branch before the merge."
+            fi
+            echo
+            echo "The workflow bump made this pull request with m2 bump. The report is in \`$report\`:"
+            echo
+            cat "$report"
+          } > "$RUNNER_TEMP/body.md"
+          auth=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
+          echo "::add-mask::$auth"
+          git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $auth" push origin "HEAD:refs/heads/bump/$TAG"
+          url=$(gh pr create --repo "$REPO" --base main --head "bump/$TAG" --title "Bump Mathlib to $TAG" --body-file "$RUNNER_TEMP/body.md" --label "type: chore" --label "area: lean" --label dependencies)
+          gh workflow run check.yml --repo "$REPO" --ref "bump/$TAG"
+          echo "m2 bump opened $url." >> "$GITHUB_STEP_SUMMARY"
+          if [ "$GREEN" != true ]; then
+            echo "::warning::The build or the audit fails with Mathlib $TAG. The pull request $url has the breaks."
+          fi
+
+  # A break with Mathlib master comes to the next release of Mathlib. This job shows it early. The job does not fail on a break.
+  master:
+    name: Mathlib master
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: ./.github/actions/m2
+      - uses: ./.github/actions/lean
+      - name: m2 bump -master
+        run: |
+          code=0
+          m2 bump -master -no-commit || code=$?
+          report=$(git status --porcelain -uall -- reports/bump/ | sed -n 's/^.. //p' | head -n 1)
+          if [ -z "$report" ]; then
+            echo "::error::m2 bump -master wrote no report. Its output is above."
+            exit 1
+          fi
+          cat "$report" >> "$GITHUB_STEP_SUMMARY"
+          if [ "$code" != 0 ]; then
+            echo "::warning::The build or the audit fails with Mathlib master. The summary of this run has the report."
+          fi

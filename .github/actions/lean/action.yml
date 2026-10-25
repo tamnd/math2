@@ -1,0 +1,22 @@
+name: install Lean
+description: Install elan for the toolchain of lean/, and bwrap for the sandbox of the checkers. m2 build gets the Mathlib cache and builds.
+
+runs:
+  using: composite
+  steps:
+    - uses: leanprover/lean-action@24581d74d674803a25a81b10b059c5c0cdd344c6 # v1.6.2
+      with:
+        lake-package-directory: lean
+        auto-config: false
+        build: false
+        test: false
+        lint: false
+        use-mathlib-cache: false
+        use-github-cache: false
+    # The replay step of m2 build runs each checker in a bwrap sandbox (spec 07.7). Ubuntu 24.04 blocks the user namespaces that bwrap needs, thus the step lifts that block for this runner.
+    - name: install bwrap
+      shell: bash
+      run: |
+        sudo apt-get update -q
+        sudo apt-get install -y -q bubblewrap
+        sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
