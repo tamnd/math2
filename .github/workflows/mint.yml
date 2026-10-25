@@ -1,0 +1,108 @@
+name: mint
+
+# A maintainer runs this workflow on a pull request before merge. It changes each provisional id in the pull request to a tag with m2 mint, and it adds the new tags to registers/tags.reg (spec 04.3). Then it runs the check workflow on the new commit. CONTRIBUTING.md gives the reasons for this design.
+on:
+  workflow_dispatch:
+    inputs:
+      pr:
+        description: The number of the pull request
+        required: true
+        type: number
+
+permissions: {}
+
+concurrency:
+  group: mint-${{ inputs.pr }}
+  cancel-in-progress: false
+
+# With shell bash, a step fails when a command in a pipe fails.
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  mint:
+    name: mint tags
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      # Push the commit with the tags to the branch of the pull request.
+      contents: write
+      # Run the check workflow on that commit. A push with the workflow token does not start a workflow.
+      actions: write
+      pull-requests: read
+    steps:
+      - name: find the branch of the pull request
+        id: pr
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ inputs.pr }}
+          REPO: ${{ github.repository }}
+        run: |
+          info=$(gh api "repos/$REPO/pulls/$PR" --jq '[.state, .head.repo.full_name, .head.ref, .head.sha] | @tsv')
+          IFS=$'\t' read -r state head branch sha <<< "$info"
+          if [ "$state" != open ]; then
+            echo "::error::Pull request $PR is $state. Run this workflow on an open pull request."
+            exit 1
+          fi
+          if [ "$head" != "$REPO" ]; then
+            echo "::error::Pull request $PR comes from the fork $head. The workflow token cannot push to a fork. Run m2 mint on the branch and push the commit. CONTRIBUTING.md has the steps."
+            exit 1
+          fi
+          {
+            echo "branch=$branch"
+            echo "sha=$sha"
+          } >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ steps.pr.outputs.sha }}
+          # The check step runs a script from the pull request. Only the push step has the token.
+          persist-credentials: false
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
+        with:
+          go-version: "1.27.x"
+          check-latest: true
+          cache: false
+      # Pin m2 to a release. Move the pin as part of each m2 release.
+      - name: install m2
+        run: go install github.com/tamnd/math2-agent/cmd/m2@v0.0.5
+      - name: m2 mint
+        env:
+          SHA: ${{ steps.pr.outputs.sha }}
+        run: m2 mint -commit "$SHA" | tee "$RUNNER_TEMP/minted.txt"
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.13"
+      - name: check the result
+        run: |
+          pip install --disable-pip-version-check --require-hashes -r .github/scripts/requirements.txt
+          python .github/scripts/check_nodes.py --no-provisional
+          python .github/scripts/check_nodes.py
+      - name: push the tags
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH: ${{ steps.pr.outputs.branch }}
+          PR: ${{ inputs.pr }}
+          REPO: ${{ github.repository }}
+        run: |
+          if [ ! -s "$RUNNER_TEMP/minted.txt" ]; then
+            echo "Pull request $PR has no provisional ids." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for dir in nodes registers topics reviews compute lean; do
+            if [ -e "$dir" ]; then git add -A -- "$dir"; fi
+          done
+          git commit -q -m "Give tags to the provisional ids" -m "$(cat "$RUNNER_TEMP/minted.txt")"
+          auth=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
+          echo "::add-mask::$auth"
+          git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $auth" push origin "HEAD:refs/heads/$BRANCH"
+          gh workflow run check.yml --repo "$REPO" --ref "$BRANCH"
+          {
+            echo "Pull request $PR has these new tags:"
+            echo
+            echo "| provisional id | tag | kind |"
+            echo "|---|---|---|"
+            while read -r id tag kind; do echo "| $id | $tag | $kind |"; done < "$RUNNER_TEMP/minted.txt"
+          } >> "$GITHUB_STEP_SUMMARY"

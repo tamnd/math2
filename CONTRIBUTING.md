@@ -11,13 +11,43 @@
 ## Add a node
 
 1. Make a branch from `main`.
-2. Make the file `nodes/~/~<8 hex characters>.md`. The name is a provisional id, for example `~3fa94c01`. Do not choose a tag. The merge bot gives the tag.
-3. Write the front matter and the body. Use the example in the README.
+2. Run `m2 new <kind>`, for example `m2 new statement`. It makes the file `nodes/~/~<8 hex characters>.md`. The name is a provisional id, for example `~3fa94c01`. Do not choose a tag. A maintainer gives the tag before merge.
+3. Write the front matter and the body. Each field that has the value `null` needs a value. Use the example in the README.
 4. Write each sentence on one line. Do not break a sentence across lines.
-5. Run `python .github/scripts/check_nodes.py`. It must report 0 errors.
-6. Open a pull request.
+5. Link to a new node of the same pull request with its provisional id, for example `[[a group|~3fa94c01]]`. Do not link to a provisional id of a different pull request.
+6. Run `m2 fmt` and `m2 check`. `m2 check` must report 0 findings. If you do not have `m2`, run `python .github/scripts/check_nodes.py`. It must report 0 errors.
+7. Open a pull request. The `tags` check fails while the pull request has provisional ids. This is correct. The other checks must pass.
 
-When `m2` has a release, use `m2 new <kind>` for step 2 and `m2 check` for step 5.
+Install `m2` with `go install github.com/tamnd/math2-agent/cmd/m2@latest`. It needs Go 1.27 or later.
+
+## Give the tags before merge
+
+A maintainer does these steps after the review and before the merge:
+
+1. In the Actions tab, run the `mint` workflow. Give the number of the pull request.
+2. The workflow runs `m2 mint`. It changes each provisional id in the pull request to a new tag. It changes the file name, the front matter, each link and each Lean attribute. It adds each new tag to `registers/tags.reg`.
+3. The workflow pushes one commit with the new tags to the branch of the pull request. Then it runs the checks on that commit.
+4. When the `tags` check and the other checks pass, merge the pull request.
+
+If the pull request comes from a fork, the workflow cannot push to it. Then the maintainer runs `m2 mint` on the branch and pushes the commit. This needs "Allow edits by maintainers" on the pull request:
+
+```sh
+gh pr checkout <number>
+m2 mint
+git add -A nodes registers
+git commit -m "Give tags to the provisional ids"
+git push
+```
+
+### Why the tags are given this way
+
+These are the reasons for this decision (spec 04.3 and rule T03).
+
+1. A tag is permanent. Thus the repository gives a tag only to a node that merges. A pull request that does not merge does not use a tag.
+2. The tags are given before the merge, and not after it. Thus `main` never has a provisional id, and no commit on `main` changes a tag.
+3. The tags are in a commit on the branch of the pull request. Thus the reviewer and the checks see the final files before the merge.
+4. A maintainer starts the workflow. Thus the workflow runs one time, after the review. It does not run on each push of the author.
+5. The `tags` check is a required check. Thus a pull request with a provisional id cannot merge.
 
 ## Rules
 

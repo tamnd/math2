@@ -1,10 +1,13 @@
 """Tests for check_nodes.py. Run them with: python -m unittest discover -s .github/scripts"""
 
+import re
 import tempfile
 import unittest
 from pathlib import Path
 
-from check_nodes import check
+from check_nodes import check, provisional_errors
+
+COMMIT = "3d3c42e5aac5ba805825da76410c181273ba90b1"
 
 GOOD = """---
 tag: {tag}
@@ -32,12 +35,16 @@ class CheckNodesTest(unittest.TestCase):
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(text, encoding="utf-8")
 
+    def register(self, *records):
+        self.write("registers/tags.reg", "# tag commit kind\n" + "".join(f"{r}\n" for r in records))
+
     def test_no_nodes_directory(self):
         self.assertEqual(check(self.root), ([], 0))
 
     def test_good_nodes(self):
         self.write("nodes/7K/7K3QX2.md", GOOD.format(tag="7K3QX2", link="1H8D2C"))
         self.write("nodes/1H/1H8D2C.md", GOOD.format(tag="1H8D2C", link="7K3QX2"))
+        self.register(f"1H8D2C {COMMIT} statement", f"7K3QX2 {COMMIT} statement")
         self.assertEqual(check(self.root), ([], 2))
 
     def test_provisional_id(self):
@@ -77,6 +84,8 @@ class CheckNodesTest(unittest.TestCase):
 
     def errors_for(self, front, body=""):
         self.write("nodes/7K/7K3QX2.md", f"---\ntag: 7K3QX2\n{front}---\n{body}")
+        kind = re.search(r"kind: (\w+)", front).group(1)
+        self.register(f"7K3QX2 {COMMIT} {kind}")
         errors, _ = check(self.root)
         return errors
 
@@ -123,6 +132,52 @@ class CheckNodesTest(unittest.TestCase):
     def test_date_stays_a_string(self):
         front = "kind: statement\nrole: lemma\nname: A node\nretired:\n  date: 2026-10-25\n  reason: duplicate\n  successor: [1H8D2C]\n"
         self.assertEqual(self.errors_for(front, "## Statement\n"), [])
+
+    def test_tag_not_in_register(self):
+        self.write("nodes/7K/7K3QX2.md", GOOD.format(tag="7K3QX2", link="7K3QX2"))
+        errors, _ = check(self.root)
+        self.assertEqual(len(errors), 1)
+        self.assertIn("rule T05", errors[0])
+
+    def test_register_kind(self):
+        self.write("nodes/7K/7K3QX2.md", GOOD.format(tag="7K3QX2", link="7K3QX2"))
+        self.register(f"7K3QX2 {COMMIT} concept")
+        errors, _ = check(self.root)
+        self.assertIn("registers/tags.reg says concept", " ".join(errors))
+
+    def test_register_records(self):
+        self.register("7K3QX2 x statement", f"1H8D2C {COMMIT} statement", f"1H8D2C {COMMIT} statement", "7I3QX2 aaaaaaa lemma", "short")
+        errors = " ".join(check(self.root)[0])
+        for want in ["'x' is not a commit", "must be sorted by tag", "has two records", "'7I3QX2' is not a tag", "'lemma' is not one of", "has 1 fields"]:
+            self.assertIn(want, errors)
+
+    def test_register_tag_with_no_node(self):
+        self.register(f"1H8D2C {COMMIT} statement", f"7K3QX2 {COMMIT} statement")
+        self.write("registers/retired.reg", "# tag date reason successors\n1H8D2C 2027-01-15 duplicate 7K3QX2\n")
+        errors, _ = check(self.root)
+        self.assertEqual(errors, ["registers/tags.reg: the tag 7K3QX2 has no node file and no record in registers/retired.reg (rule T05)"])
+
+    def test_no_provisional(self):
+        self.write("nodes/~/~3fa94c01.md", GOOD.format(tag="~3fa94c01", link="7K3QX2"))
+        self.write("nodes/7K/7K3QX2.md", GOOD.format(tag="7K3QX2", link="~3fa94c01"))
+        self.write("lean/Math2/A.lean", '@[m2 "~3fa94c01"]\ntheorem a : True := trivial\n')
+        self.write("lean/.lake/B.lean", '@[m2 "~3fa94c02"]\n')
+        self.write("README.md", "For example `~3fa94c01`.\n")
+        errors = provisional_errors(self.root)
+        self.assertEqual(
+            errors,
+            [
+                "nodes/7K/7K3QX2.md:10: ~3fa94c01 is a provisional id (rule T03)",
+                "nodes/~/~3fa94c01.md: the file name has a provisional id",
+                "nodes/~/~3fa94c01.md:2: ~3fa94c01 is a provisional id (rule T03)",
+                "lean/Math2/A.lean:1: ~3fa94c01 is a provisional id (rule T03)",
+            ],
+        )
+
+    def test_no_provisional_after_mint(self):
+        self.write("nodes/7K/7K3QX2.md", GOOD.format(tag="7K3QX2", link="7K3QX2"))
+        self.write("README.md", "For example `~3fa94c01`.\n")
+        self.assertEqual(provisional_errors(self.root), [])
 
 
 IMAGE = "m2-sage@sha256:" + "0" * 64
