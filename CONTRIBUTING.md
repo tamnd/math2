@@ -25,10 +25,20 @@ When `m2` has a release, use `m2 new <kind>` for step 2 and `m2 check` for step 
 2. Do not copy text from a source that does not allow copies. Add a link and a locator. The LICENCE file names these sources.
 3. Each node has one or more sources, unless it is a topic.
 4. The statement section states one thing. Put a proof in a proof node. Put history in the history section.
-5. Use only the LaTeX that KaTeX and MathJax can both show.
+5. Use only the LaTeX that KaTeX and MathJax can both show, and the macros in `macros/m2.sty`.
 6. A link to another node is `[[text|TAG]]`. Do not link to a URL in the statement section.
 7. Do not add `axiom` to the Lean package. A conditional result uses a named hypothesis in `lean/Math2/Hypotheses/`.
 8. Do not use `sorry` or `native_decide` in the Lean package.
+
+## Propose a macro
+
+1. Make sure that KaTeX and MathJax do not already have the macro, and that `macros/m2.sty` does not have it.
+2. Add one `\newcommand` line to `macros/m2.sty`. Write the full definition on one line.
+3. Add the same macro with the same expansion to `macros/m2.katex.json`.
+4. Run `python -m unittest discover -s .github/scripts`. The test compares the two files.
+5. In the pull request, give one node that needs the macro.
+
+Do not change the expansion of a macro that nodes use. Add a new macro.
 
 ## Reviews
 
