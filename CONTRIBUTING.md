@@ -71,6 +71,10 @@ These are the reasons for this decision (spec 04.3 and rule T03).
 
 Do not change the expansion of a macro that nodes use. Add a new macro.
 
+## Alignment proposals
+
+`m2 align` proposes edges from nodes to external records. A person accepts or rejects each proposal. [CURATION.md](CURATION.md) has the steps, the roles and the time limits.
+
 ## Reviews
 
 A fidelity review is a file in `reviews/`. You cannot review a binding that you wrote. A review is bound to the statement hash. If the statement changes, the review stops counting and the node goes back to the review queue.

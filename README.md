@@ -135,7 +135,7 @@ The schedule runs the step `cut` on the first day of each month when the reposit
 
 ## Contribute
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md). Each change is a pull request. The checks are the gate.
+Read [CONTRIBUTING.md](CONTRIBUTING.md). To decide on the proposals of `m2 align`, read [CURATION.md](CURATION.md). Each change is a pull request. The checks are the gate.
 
 ## Licence
 
