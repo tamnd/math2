@@ -8,7 +8,7 @@ SPDX-FileCopyrightText = "2026 the math2 contributors"
 SPDX-License-Identifier = "CC0-1.0"
 
 [[annotations]]
-path = ["nodes/**", "topics/**", "reviews/**", "README.md", "CONTRIBUTING.md"]
+path = ["nodes/**", "topics/**", "reviews/**", "README.md", "CONTRIBUTING.md", "CURATION.md"]
 precedence = "override"
 SPDX-FileCopyrightText = "2026 the math2 contributors"
 SPDX-License-Identifier = "CC-BY-SA-4.0"
