@@ -30,7 +30,7 @@ jobs:
           python-version: "3.13"
       - name: install PyYAML
         run: pip install --disable-pip-version-check --require-hashes -r .github/scripts/requirements.txt
-      - name: test the check script
+      - name: test the scripts and the macros
         run: python -m unittest discover -s .github/scripts
       - name: check that schema/edges.md is up to date
         run: python .github/scripts/gen_edges.py --check
