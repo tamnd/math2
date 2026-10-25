@@ -59,6 +59,7 @@ These are the reasons for this decision (spec 04.3 and rule T03).
 6. A link to another node is `[[text|TAG]]`. Do not link to a URL in the statement section.
 7. Do not add `axiom` to the Lean package. A conditional result uses a named hypothesis in `lean/Math2/Hypotheses/`.
 8. Do not use `sorry` or `native_decide` in the Lean package.
+9. In the Explanations section, start each explanation with a level 3 heading that gives the level, L1 to L4, and the reader, `human` or `agent`. An example is `### L2 human`. Do not write text before the first heading. Audit rule B05 checks this.
 
 ## Propose a macro
 
