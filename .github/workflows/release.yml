@@ -4,7 +4,7 @@ name: release
 #
 # 1. The step cut builds main, writes the manifest, the levels and the notes of the release, and opens the pull request release/NAME with them. The job verify then rebuilds the release on a second runner with m2 release verify, and adds the rebuild check to the pull request.
 # 2. A person writes the summary of the notes in the pull request and merges it.
-# 3. The step tag runs the full audit on main, makes the tag of the release, and makes the GitHub release.
+# 3. The step tag runs the full audit on main, makes the tag of the release, and makes the GitHub release with the offline archive of the site. The job pages then publishes the same build of the site.
 #
 # The schedule runs the step cut on the first day of each month. The repository variable M2_RELEASES turns the schedule on, so the off state is visible in the settings. With dry-run, the step cut makes no commit and no pull request, and the files of the release go into an artefact of the run.
 on:
@@ -186,6 +186,7 @@ jobs:
           persist-credentials: false
           fetch-depth: 0
       - uses: ./.github/actions/m2
+        id: m2
       - uses: ./.github/actions/lean
       - name: m2 build
         run: m2 build
@@ -205,6 +206,43 @@ jobs:
             exit 1
           fi
           echo "name=$name" >> "$GITHUB_OUTPUT"
+      # The site and the offline archive of the release come from one build of the site (spec 13.7). The spec pages come from the m2 version that CI uses. The date is the time of the commit, so a second build gives the same bytes.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          repository: tamnd/math2-agent
+          ref: ${{ steps.m2.outputs.version }}
+          path: .toolchain
+          sparse-checkout: spec
+      - name: the site and the offline archive
+        env:
+          NAME: ${{ steps.tag.outputs.name }}
+          URL: https://tamnd.github.io/math2
+        run: |
+          commit=$(git rev-parse "$NAME^{commit}")
+          SOURCE_DATE_EPOCH=$(git log -1 --format=%ct "$commit")
+          export SOURCE_DATE_EPOCH
+          m2 site build -content . -spec .toolchain/spec -build build -out "$RUNNER_TEMP/site" -url "$URL" -commit "$commit"
+          m2 site check -url "$URL" "$RUNNER_TEMP/site" | tee "$RUNNER_TEMP/site-check.txt"
+          mkdir -p "$RUNNER_TEMP/archive"
+          m2 site archive -url "$URL" -o "$RUNNER_TEMP/archive/math2-$NAME-site.zip" "$RUNNER_TEMP/site" | tee -a "$RUNNER_TEMP/site-check.txt"
+          {
+            echo '```'
+            cat "$RUNNER_TEMP/site-check.txt"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+      # In a dry run, the archive goes into an artefact of the run, and Pages does not change.
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        if: inputs.dry-run == true
+        with:
+          name: site-archive
+          path: ${{ runner.temp }}/archive
+          if-no-files-found: error
+          retention-days: 7
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        if: inputs.dry-run != true
+        with:
+          path: ${{ runner.temp }}/site
       - name: push the tag
         if: inputs.dry-run != true
         env:
@@ -215,4 +253,24 @@ jobs:
           auth=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
           echo "::add-mask::$auth"
           git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $auth" push origin "refs/tags/$NAME"
-          gh release create "$NAME" --repo "$REPO" --verify-tag --title "math2 $NAME" --notes-file "manifests/releases/$NAME.md" "manifests/releases/$NAME.yaml" "manifests/releases/$NAME.levels"
+          gh release create "$NAME" --repo "$REPO" --verify-tag --title "math2 $NAME" --notes-file "manifests/releases/$NAME.md" "manifests/releases/$NAME.yaml" "manifests/releases/$NAME.levels" "$RUNNER_TEMP/archive/math2-$NAME-site.zip"
+
+  # Pages shows the site of the release, the same build as the archive. The workflow pages builds main again after the next push or the next night.
+  pages:
+    name: publish the site of the release
+    needs: tag
+    if: inputs.dry-run != true
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

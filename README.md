@@ -129,7 +129,7 @@ The release workflow cuts a release with `m2 release cut`:
 
 1. The step `cut` builds `main`, writes the manifest, the levels and the notes of the release into `manifests/releases/`, and opens the pull request `release/NAME`. Then a second runner rebuilds the release with `m2 release verify` and adds the rebuild check to the pull request.
 2. A person writes the summary of the notes and merges the pull request.
-3. The step `tag` runs the full audit on `main`, and makes the tag and the GitHub release only when the audit passes.
+3. The step `tag` runs the full audit on `main`, and makes the tag and the GitHub release only when the audit passes. It builds the site of the release, checks it with `m2 site check`, and attaches the offline archive `math2-NAME-site.zip` to the GitHub release. Then the job `pages` publishes the same build of the site to https://tamnd.github.io/math2. To read a release with no network, unzip the archive and open `index.html` in a web browser.
 
 The schedule runs the step `cut` on the first day of each month when the repository variable `M2_RELEASES` is `true`. With `dry-run`, the step makes no commit and no pull request, and the files go into an artefact of the run.
 
