@@ -1,0 +1,69 @@
+# The number of documents in each MSC2020 class, which is the denominator of C0 (spec 18.1).
+# m2 coverage -count writes this file. Do not edit it.
+source: zbmath
+url: https://api.zbmath.org/v1/document/_search?page=0&results_per_page=1&search_string=cc%3A11
+date: "2026-10-25"
+counts:
+  00-XX: 92840
+  01-XX: 68116
+  03-XX: 139651
+  05-XX: 253085
+  06-XX: 44320
+  08-XX: 16153
+  11-XX: 191324
+  12-XX: 22964
+  13-XX: 51378
+  14-XX: 119347
+  15-XX: 84168
+  16-XX: 80102
+  17-XX: 55687
+  18-XX: 39701
+  19-XX: 10150
+  20-XX: 141913
+  22-XX: 48269
+  26-XX: 78531
+  28-XX: 45361
+  30-XX: 99452
+  31-XX: 22601
+  32-XX: 59934
+  33-XX: 50744
+  34-XX: 227543
+  35-XX: 452897
+  37-XX: 154604
+  39-XX: 38357
+  40-XX: 17558
+  41-XX: 64733
+  42-XX: 73428
+  43-XX: 21106
+  44-XX: 19790
+  45-XX: 46299
+  46-XX: 153649
+  47-XX: 185676
+  49-XX: 110727
+  51-XX: 43714
+  52-XX: 45536
+  53-XX: 156037
+  54-XX: 90600
+  55-XX: 40227
+  57-XX: 71264
+  58-XX: 78997
+  60-XX: 267128
+  62-XX: 322915
+  65-XX: 383027
+  68-XX: 439604
+  70-XX: 78879
+  74-XX: 208066
+  76-XX: 273045
+  78-XX: 47695
+  80-XX: 47911
+  81-XX: 212902
+  82-XX: 102419
+  83-XX: 94702
+  85-XX: 17554
+  86-XX: 28065
+  90-XX: 278771
+  91-XX: 206134
+  92-XX: 157565
+  93-XX: 231634
+  94-XX: 162990
+  97-XX: 8285
