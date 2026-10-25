@@ -1,4 +1,4 @@
-"""Check the certificate of the subgroups of S4, for the computation node ~4ba583eb.
+"""Check the certificate of the subgroups of S4, for the computation node AAYEQE.
 
 The certificate is /work/certificate. It has one line for each subgroup of S4: the order, and then the elements. An element is the string of the images of 1, 2, 3 and 4. The checker does not use GAP. It finds the subgroups of S4 again with its own search, and it accepts the certificate only when these things are true:
 

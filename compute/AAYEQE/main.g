@@ -1,4 +1,4 @@
-# The subgroups of the symmetric group S4, for the computation node ~4ba583eb.
+# The subgroups of the symmetric group S4, for the computation node AAYEQE.
 #
 # The program lists each subgroup of S4 with the sorted list of its elements, and writes the list to /out/certificate. An element is the string of the images of 1, 2, 3 and 4, for example 2134 for the transposition (1,2). A line of the certificate is the order of the subgroup and then its elements, with a space between them. The lines are sorted, so the certificate does not depend on the order in which GAP finds the subgroups. The standard output gives the number of subgroups of each order.
 
