@@ -70,7 +70,7 @@ jobs:
           cache: false
       # Pin m2 to a release. Move the pin as part of each m2 release.
       - name: install m2
-        run: go install github.com/tamnd/math2-agent/cmd/m2@v0.1.7
+        run: go install github.com/tamnd/math2-agent/cmd/m2@v0.1.8
       - name: m2 mint
         env:
           SHA: ${{ steps.pr.outputs.sha }}
