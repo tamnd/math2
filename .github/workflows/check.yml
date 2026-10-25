@@ -69,12 +69,11 @@ jobs:
           use-mathlib-cache: true
           build: true
           build-args: "--wfail"
-          test: false
+          test: true
           lint: false
           leanchecker: true
           leanchecker-args: "Math2"
-          # The axiom audit fails when the library has no declarations. Turn it on with the first declaration in M1 (math2#9).
-          axiom-audit: false
+          axiom-audit: true
           axiom-audit-allow: "propext,Classical.choice,Quot.sound"
 
   # Each file must have a licence. REUSE.toml gives the licence for each part of the tree.
