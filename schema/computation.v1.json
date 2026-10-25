@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tamnd/math2/schema/computation.v1.json",
+  "title": "math2 computation run, schema v1",
+  "description": "The file build/compute/<tag>/<arch>/run.json. m2 compute run and m2 compute verify write it for each run of a computation node, and the compute workflow keeps it as an artefact. The rules C02 and C05 read it. The record of the computation is the front matter of the node (schema/node.v1.json, kind computation). See spec 08.2, 08.3 and 08.6 in tamnd/math2-agent.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["tag", "image", "digest", "entry", "arch", "runtime", "network", "exit_code", "seconds", "output"],
+  "properties": {
+    "tag": {"type": "string", "pattern": "^[0-9A-HJKMNP-TV-Z]{6}$", "description": "The tag of the computation node."},
+    "image": {"$ref": "#/$defs/image", "description": "The image of the record, engine.image of the node."},
+    "digest": {"$ref": "#/$defs/digest", "description": "The digest that ran. It is the digest of the same image in manifests/images.yaml for the architecture of the run."},
+    "entry": {"type": "string", "minLength": 1, "description": "The entry point, relative to compute/<tag>/."},
+    "arch": {"enum": ["amd64", "arm64"]},
+    "runtime": {"type": "string", "minLength": 1, "description": "The container runtime, for example runc or runsc."},
+    "network": {"type": "string", "description": "The network of the container. Rule C05 needs none."},
+    "exit_code": {"type": "integer"},
+    "timed_out": {"type": "boolean"},
+    "truncated": {"type": "boolean", "description": "The standard output or the standard error was longer than the limit of the sandbox."},
+    "seconds": {"type": "number", "minimum": 0},
+    "output": {"$ref": "#/$defs/hash", "description": "The hash of the standard output. It must be output.hash of the node."},
+    "certificate": {"$ref": "#/$defs/hash", "description": "The hash of the file /out/certificate that the run wrote. It must be certificate.artefact of the node."},
+    "verified": {"type": "boolean", "description": "The output and the certificate are the ones of the node, and the checker accepts the certificate. Only m2 compute verify sets it."},
+    "problem": {"type": "string", "minLength": 1, "description": "Why the run is not verified."},
+    "check": {"$ref": "#/$defs/check"}
+  },
+  "$defs": {
+    "hash": {"type": "string", "pattern": "^blake3:[0-9a-f]{64}$"},
+    "digest": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "image": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*@sha256:[0-9a-f]{64}$"},
+    "check": {
+      "description": "The run of the checker of the certificate. It reads a copy of compute/<tag>/ and the certificate at /work.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["image", "digest", "entry", "exit_code", "seconds", "accepted"],
+      "properties": {
+        "image": {"$ref": "#/$defs/image", "description": "certificate.checker of the node."},
+        "digest": {"$ref": "#/$defs/digest"},
+        "entry": {"type": "string", "minLength": 1, "description": "certificate.checker_entry of the node."},
+        "exit_code": {"type": "integer"},
+        "timed_out": {"type": "boolean"},
+        "seconds": {"type": "number", "minimum": 0},
+        "accepted": {"type": "boolean", "description": "The checker exits with the code 0 in time."}
+      }
+    }
+  }
+}

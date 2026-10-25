@@ -39,7 +39,7 @@ class SchemaTest(unittest.TestCase):
 
 class OtherSchemasTest(unittest.TestCase):
     def test_valid_json_schemas(self):
-        for name in ["curriculum.v1.json", "review.v1.json"]:
+        for name in ["computation.v1.json", "curriculum.v1.json", "review.v1.json"]:
             with self.subTest(name):
                 Draft202012Validator.check_schema(json.loads((SCHEMA.parent / name).read_text(encoding="utf-8")))
 
