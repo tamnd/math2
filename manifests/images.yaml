@@ -1,0 +1,20 @@
+# The images of the computational engine (spec 08.1). images/flake.nix in tamnd/math2-agent builds each image, and its images workflow checks that two builds give the same digest. The digest of an image is the sha256 of its config, for each architecture. The digests come from the output of that workflow. An image with no digest is not built yet, and a computation cannot name it.
+#
+# A computation names an image as name@sha256:DIGEST, with the digest of one architecture. The digests of one entry are the same image on two architectures, and rule C02 compares the outputs of the two.
+images:
+  - name: m2-pari
+    contents: PARI/GP
+  - name: m2-gap
+    contents: GAP with its standard packages
+  - name: m2-python
+    contents: CPython with SymPy, NumPy, SciPy, mpmath and NetworkX
+  - name: m2-smt
+    contents: Z3, cvc5 and Bitwuzla
+  - name: m2-sat
+    contents: CaDiCaL, Kissat and drat-trim
+  - name: m2-lp
+    contents: SCIP and HiGHS
+  - name: m2-m2
+    contents: Macaulay2
+  - name: m2-sage
+    contents: SageMath
