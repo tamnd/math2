@@ -37,5 +37,12 @@ class SchemaTest(unittest.TestCase):
         self.assertEqual(len({e["name"] for e in self.schema["x-m2-edges"]}), 23)
 
 
+class OtherSchemasTest(unittest.TestCase):
+    def test_valid_json_schemas(self):
+        for name in ["curriculum.v1.json", "review.v1.json"]:
+            with self.subTest(name):
+                Draft202012Validator.check_schema(json.loads((SCHEMA.parent / name).read_text(encoding="utf-8")))
+
+
 if __name__ == "__main__":
     unittest.main()

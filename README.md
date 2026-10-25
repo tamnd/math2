@@ -90,6 +90,10 @@ A review is bound to the hash of the informal statement and to the hash of the e
 
 CONTRIBUTING.md has the rules and the steps for the maintainer.
 
+## Fidelity reviews
+
+A fidelity review says that the Lean statement of a node says what its informal statement says. One review gives the binding F2, and E5 needs F2. The reviews are in `reviews/`, and `reviews/README.md` is the guide for reviewers. Each commit that changes `reviews/` must be signed.
+
 ## Check the content
 
 You can check the node files with Python, PyYAML and jsonschema. You do not need the toolchain.
@@ -98,6 +102,7 @@ You can check the node files with Python, PyYAML and jsonschema. You do not need
 pip install --require-hashes -r .github/scripts/requirements.txt
 python .github/scripts/check_nodes.py
 python .github/scripts/check_curricula.py
+python .github/scripts/check_reviews.py
 ```
 
 `check_curricula.py --decls FILE` also reports each declaration that is not a line of FILE. Make the file from the `.ilean` files of the Lean build.
