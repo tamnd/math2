@@ -6,9 +6,11 @@ Each node is one file. A node is a concept, a definition, a statement, a conject
 
 The toolchain that builds and checks this content is in [tamnd/math2-agent](https://github.com/tamnd/math2-agent).
 
+Read the content as a wiki at https://tamnd.github.io/math2. Each node has a page for people and a copy for programs: Markdown, JSON and `llms.txt`. The wiki is rebuilt on each push to `main` and each night.
+
 ## Status
 
-The project is at milestone M0. The repository has no nodes yet. The Lean package pins Lean v4.35.0 and Mathlib v4.35.0. It has no declarations yet. Refer to the [milestones](https://github.com/tamnd/math2-agent/milestones) for the plan.
+The project is at milestone M0. The repository has no nodes yet. The wiki shows the spec, the plan and the empty lists. The Lean package pins Lean v4.35.0 and Mathlib v4.35.0. It has no declarations yet. Refer to the [milestones](https://github.com/tamnd/math2-agent/milestones) for the plan.
 
 ## A node file
 
