@@ -10,7 +10,7 @@ Read the content as a wiki at https://tamnd.github.io/math2. Each node has a pag
 
 ## Status
 
-The project is at milestone M1. The repository has its first two nodes: the group concept and Lagrange's theorem. The wiki shows the spec, the plan and each node. The Lean package pins Lean v4.35.0 and Mathlib v4.35.0. It has no declarations yet. Refer to the [milestones](https://github.com/tamnd/math2-agent/milestones) for the plan.
+The project is at milestone M1. The repository has its first two nodes: the group concept and Lagrange's theorem. The wiki shows the spec, the plan and each node. The Lean package pins Lean v4.35.0 and Mathlib v4.35.0. It has the `@[m2 "TAG"]` attribute and one adapter. The adapter derives the form of Lagrange's theorem in node 3C53TD from the Mathlib theorem `Subgroup.card_subgroup_dvd_card`. Refer to the [milestones](https://github.com/tamnd/math2-agent/milestones) for the plan.
 
 ## A node file
 

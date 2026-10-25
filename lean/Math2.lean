@@ -1,6 +1,7 @@
 module
 
-public import Mathlib.Logic.Function.Basic
+public import Math2.Meta.Attr
+public import Math2.Meta.Match
 
 /-!
 # Math2
