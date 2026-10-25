@@ -1,20 +1,36 @@
-# The images of the computational engine (spec 08.1). images/flake.nix in tamnd/math2-agent builds each image, and its images workflow checks that two builds give the same digest. The digest of an image is the sha256 of its config, for each architecture. The digests come from the output of that workflow. An image with no digest is not built yet, and a computation cannot name it.
+# The images of the computational engine (spec 08.1). images/flake.nix in tamnd/math2-agent builds each image, and its images workflow checks that two builds give the same digest. The digest of an image is the sha256 of its config, for each architecture. The digests come from the output of that workflow. These come from run 40237871283, with the images/flake.lock of tamnd/math2-agent#144. An image with no digest is not built yet, and a computation cannot name it.
 #
 # A computation names an image as name@sha256:DIGEST, with the digest of one architecture. The digests of one entry are the same image on two architectures, and rule C02 compares the outputs of the two.
 images:
   - name: m2-pari
     contents: PARI/GP
+    amd64: sha256:ebf1a57f48f17c8734e9074b3095e45ce874242069271582e53afb7dcc209ea1
+    arm64: sha256:8d92cee48ccb3d2cd955689a6cf41eeabc6b9bf542926cbdc88722367436d267
   - name: m2-gap
     contents: GAP with its standard packages
+    amd64: sha256:1378718f9f1cbc151d7c44f33b246be3069087a55f8bfc44ea4fda4b0350d748
+    arm64: sha256:07dd21b4314065e23f73c91b95f12efe17500736adcc5a0a20fd42b7e9b97af5
   - name: m2-python
     contents: CPython with SymPy, NumPy, SciPy, mpmath and NetworkX
+    amd64: sha256:84f284326896a049f22d31677fe9a7ee8dcc4d37261650c0a4b32e05f5e525f5
+    arm64: sha256:00ad375e46eefadf47fb01fb29fb819ddcec5c3c4a1f4591776844e46619f72b
   - name: m2-smt
     contents: Z3, cvc5 and Bitwuzla
+    amd64: sha256:51074daa662650401267eca32f91f2a9e280a84d86cfcf2aab84e17724a44b4f
+    arm64: sha256:4f488f82c040b97f8e4135ac02ef6ef813414a1e7fc13d9ea3a78378cb6879c7
   - name: m2-sat
     contents: CaDiCaL, Kissat and drat-trim
+    amd64: sha256:86dcce2ae0c9708fa34c3aee2285978681f98c7154f936dd2fd2f8b67912c2dc
+    arm64: sha256:6873c0351ff1d5ba3482ed6e8e42a6e919c10642b6f012f29c02ffc96595a03d
   - name: m2-lp
     contents: SCIP and HiGHS
+    amd64: sha256:c4eba92bc32f31e84f240b19845db287fde2378c22642ade33e0d00dfec2aa16
+    arm64: sha256:72176d628122aa9627d5fbe7913453295302feea038f06e517b45e2fe29a8cb4
   - name: m2-m2
     contents: Macaulay2
+    amd64: sha256:5f6de0e8e6ed13fc78c9605f8620cd3f745078b6d216fa077f95beaf995326fa
+    arm64: sha256:5bfa7c10793fe5a827cf868ecbaaaf7e4952e0baf56397260cb7c17cc6eca22b
   - name: m2-sage
     contents: SageMath
+    amd64: sha256:933273737724c225b255fee759251d22792a257ff60cca8d115237c8b3bba982
+    arm64: sha256:aafde889d75c794031054d992e321255e851d5be3a117e6a94d698f6a5fcc531
