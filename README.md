@@ -101,7 +101,7 @@ lake exe cache get
 lake build
 ```
 
-The full audit is `m2 audit` from tamnd/math2-agent. It arrives in M1.
+The full audit is `m2 audit` from tamnd/math2-agent. Run it in the root of the repository. `m2 audit -changed` audits only the changes of your branch against `origin/main`. The check workflow runs `m2 audit -changed` on each pull request and the full audit on each push to `main`. The report goes to `reports/audit/`.
 
 ## Releases
 
