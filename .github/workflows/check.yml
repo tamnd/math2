@@ -36,7 +36,7 @@ jobs:
         run: python .github/scripts/gen_edges.py --check
       - name: check the node files
         run: python .github/scripts/check_nodes.py
-      - name: check the curricula
+      - name: check the curricula and the skeletons
         run: python .github/scripts/check_curricula.py
       - name: check the reviews
         run: python .github/scripts/check_reviews.py

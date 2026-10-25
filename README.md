@@ -18,6 +18,12 @@ The file `topics/curricula/seed.yaml` lists the concepts, the definitions and th
 
 Each item has a name, a kind and at least one source. A source is an article of the English Wikipedia, with its Wikidata item, or a Mathlib list. 1,771 items have the Mathlib declaration that defines or states them, at the pinned Mathlib commit. An item without a declaration has no declaration in Mathlib that matches it. The field `node` gives the tag of the node for the item, when the node exists. The schema is `schema/curriculum.v1.json`.
 
+## The skeletons
+
+A skeleton is the list of the main concepts, definitions and named theorems of one top-level MSC2020 class. It is the file `topics/skeletons/NN.yaml`, where NN is the first two characters of the code, for example `topics/skeletons/20.yaml` for 20-XX. The items have the same fields as the items of the seed list. The schema is `schema/skeleton.v1.json`.
+
+The coverage report gives C2 for each class with a skeleton (spec 18.1). C2 is the share of the items whose node is live and has at least one source. A person who works in the area reviews each change of a skeleton in its pull request.
+
 ## A node file
 
 A node file is `nodes/<first two characters of the tag>/<tag>.md`. It has YAML front matter and a Markdown body. This example shows the form:
@@ -105,7 +111,7 @@ python .github/scripts/check_curricula.py
 python .github/scripts/check_reviews.py
 ```
 
-`check_curricula.py --decls FILE` also reports each declaration that is not a line of FILE. Make the file from the `.ilean` files of the Lean build.
+`check_curricula.py` also checks the skeletons. With `--decls FILE`, it also reports each declaration that is not a line of FILE. Make the file from the `.ilean` files of the Lean build.
 
 To build the Lean package, install [elan](https://github.com/leanprover/elan) and run these commands:
 
