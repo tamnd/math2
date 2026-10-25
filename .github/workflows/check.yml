@@ -32,6 +32,8 @@ jobs:
         run: pip install --disable-pip-version-check --require-hashes -r .github/scripts/requirements.txt
       - name: test the check script
         run: python -m unittest discover -s .github/scripts
+      - name: check that schema/edges.md is up to date
+        run: python .github/scripts/gen_edges.py --check
       - name: check the node files
         run: python .github/scripts/check_nodes.py
 
