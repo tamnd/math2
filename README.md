@@ -10,11 +10,11 @@ Read the content as a wiki at https://tamnd.github.io/math2. Each node has a pag
 
 ## Status
 
-The project is at milestone M0. The repository has no nodes yet. The wiki shows the spec, the plan and the empty lists. The Lean package pins Lean v4.35.0 and Mathlib v4.35.0. It has no declarations yet. Refer to the [milestones](https://github.com/tamnd/math2-agent/milestones) for the plan.
+The project is at milestone M1. The repository has its first two nodes: the group concept and Lagrange's theorem. The wiki shows the spec, the plan and each node. The Lean package pins Lean v4.35.0 and Mathlib v4.35.0. It has no declarations yet. Refer to the [milestones](https://github.com/tamnd/math2-agent/milestones) for the plan.
 
 ## A node file
 
-A node file is `nodes/<first two characters of the tag>/<tag>.md`. It has YAML front matter and a Markdown body. The schema is not final until M0 closes. This example shows the planned form:
+A node file is `nodes/<first two characters of the tag>/<tag>.md`. It has YAML front matter and a Markdown body. This example shows the form:
 
 ```markdown
 ---
