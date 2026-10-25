@@ -1,4 +1,5 @@
 import Math2
+import Math2Test.Cert
 
 /-!
 # Golden tests of the m2 attribute
