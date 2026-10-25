@@ -36,6 +36,8 @@ jobs:
         run: python .github/scripts/gen_edges.py --check
       - name: check the node files
         run: python .github/scripts/check_nodes.py
+      - name: check the curricula
+        run: python .github/scripts/check_curricula.py
 
   # Rule T03: no provisional id reaches main. This job fails on a pull request with a new node until a maintainer runs the mint workflow. It is a required check, so that the pull request cannot merge before then.
   tags:
