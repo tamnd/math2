@@ -1,0 +1,66 @@
+name: pages
+
+# Build the wiki with m2 site build and publish it to https://tamnd.github.io/math2.
+# The nightly run picks up changes to the toolchain and the spec in tamnd/math2-agent.
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Do not cancel a deploy that has started. Each run publishes the newest main.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: build the wiki
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          path: content
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          repository: tamnd/math2-agent
+          ref: main
+          path: toolchain
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
+        with:
+          go-version-file: toolchain/go.mod
+          cache-dependency-path: toolchain/go.sum
+      - name: build m2
+        working-directory: toolchain
+        run: go build -trimpath -o "$RUNNER_TEMP/m2" ./cmd/m2
+      - name: build the site
+        env:
+          COMMIT: ${{ github.sha }}
+        run: |
+          "$RUNNER_TEMP/m2" site build -content content -spec toolchain/spec -out _site -url https://tamnd.github.io/math2 -commit "$COMMIT" -date now
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: _site
+
+  deploy:
+    name: publish the wiki
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    # Only this job can write to Pages.
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
