@@ -1,0 +1,14 @@
+---
+tag: 06RW4RKWH7
+kind: concept
+name: Completion of a metric space
+msc: ["54E50"]
+sources:
+  - url: https://en.wikipedia.org/wiki/Complete_metric_space
+    locator: Completion
+---
+
+## Summary
+
+The completion of a metric space is a complete metric space that contains an isometric copy of the space as a dense subset.
+It is unique up to an isometric isomorphism that fixes the copy.

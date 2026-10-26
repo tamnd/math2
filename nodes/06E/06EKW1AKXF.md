@@ -1,0 +1,18 @@
+---
+tag: 06EKW1AKXF
+kind: concept
+name: Operator norm
+aliases: [norm-of-a-linear-map]
+msc: [47A30]
+sources:
+  - url: https://en.wikipedia.org/wiki/Operator_norm
+    locator: lead section
+same_as:
+  wikidata: Q980557
+  wikipedia: Operator norm
+---
+
+## Summary
+
+The operator norm of a continuous linear map measures the largest factor by which the map can stretch a vector.
+It makes the space of continuous linear maps into a normed space.

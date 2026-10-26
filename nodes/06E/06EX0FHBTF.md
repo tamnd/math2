@@ -1,0 +1,32 @@
+---
+tag: 06EX0FHBTF
+kind: definition
+name: Basis of a topology
+aliases: [base-of-a-topology, topological-basis]
+msc: [54A05]
+defines: 0NA0732YAG
+uses: [0CNQXVBHCX, 05GK32H72H]
+sources:
+  - url: https://en.wikipedia.org/wiki/Base_(topology)
+    locator: Definition and basic properties
+---
+
+## Definition
+
+Let $(X, \tau)$ be a [[topological space|0CNQXVBHCX]].
+A basis of $\tau$ is a set $\mathcal{B} \subseteq \tau$ such that each $U \in \tau$ is a [[union|05GK32H72H]] of members of $\mathcal{B}$.
+Equivalently, $\mathcal{B} \subseteq \tau$ and for each $U \in \tau$ and each $x \in U$ there is $B \in \mathcal{B}$ with $x \in B \subseteq U$.
+
+## Remarks
+
+A family $\mathcal{B}$ of subsets of a set $X$ is a basis of some topology on $X$ if and only if two conditions hold.
+First, the members of $\mathcal{B}$ cover $X$. Second, for all $B_1, B_2 \in \mathcal{B}$ and $x \in B_1 \cap B_2$ there is $B_3 \in \mathcal{B}$ with $x \in B_3 \subseteq B_1 \cap B_2$. This topology is then unique.
+The open intervals form a basis of the usual topology of $\mathbb{R}$. The intervals with rational endpoints form a countable basis.
+In a metric space, the [[open balls form a basis|02EEX96DFS]] of the metric topology.
+
+## Explanations
+
+### L1 human
+
+A basis is a set of building blocks: each open set is a union of blocks.
+In the plane, you can build each open set from open discs, or from open squares.

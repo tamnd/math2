@@ -1,0 +1,15 @@
+---
+tag: 0YCG648KDD
+kind: concept
+name: Open map
+aliases: [open-mapping]
+msc: [54C10]
+sources:
+  - url: https://en.wikipedia.org/wiki/Open_and_closed_maps
+    locator: lead section
+---
+
+## Summary
+
+An open map is a function between topological spaces that sends open sets to open sets.
+Open maps need not be continuous, and continuous maps need not be open.

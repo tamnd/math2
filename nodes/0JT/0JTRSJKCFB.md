@@ -1,0 +1,42 @@
+---
+tag: 0JTRSJKCFB
+kind: statement
+role: theorem
+name: Tychonoff's theorem
+aliases: [tychonoff-theorem]
+msc: [54D30]
+uses: [04S9HX3GAP, 0QPHW703PV, 09ZKE5XQ74]
+sources:
+  - url: https://en.wikipedia.org/wiki/Tychonoff%27s_theorem
+    locator: Statement
+  - url: https://en.wikipedia.org/wiki/Tychonoff%27s_theorem
+    locator: Strength
+  - url: https://en.wikipedia.org/wiki/Tychonoff%27s_theorem
+    locator: lead section
+same_as:
+  wikidata: Q1137014
+  wikipedia: Tychonoff's theorem
+---
+
+## Statement
+
+Let $(X_i)_{i \in I}$ be a family of [[compact spaces|0QPHW703PV]], indexed by any set $I$.
+Then the product $\prod_{i \in I} X_i$, with the [[product topology|04S9HX3GAP]], is compact.
+
+## Remarks
+
+For finitely many factors, the statement follows from [[product of compact sets is compact|09ZKE5XQ74]].
+For arbitrary products, the theorem is equivalent to the axiom of choice.
+The statement fails for the [[box topology|0CTM1EHG9P]]: the box topology on $\{0, 1\}^{\mathbb{N}}$ is discrete and infinite.
+For example, $[0, 1]^I$ is compact for each set $I$.
+
+## History
+
+Andrey Tikhonov proved the theorem in 1930 for powers of the closed unit interval. He stated the general theorem in 1935, with the remark that the same proof works.
+
+## Explanations
+
+### L1 human
+
+Any product of compact spaces is compact, even with infinitely many factors.
+It works because a basic open set of the product restricts only finitely many coordinates.

@@ -1,0 +1,16 @@
+---
+tag: 0A3HJX3KTF
+kind: concept
+name: Pseudometric space
+msc: ["54E35"]
+sources:
+  - url: https://en.wikipedia.org/wiki/Pseudometric_space
+    locator: lead section
+same_as:
+  wikidata: Q1397059
+  wikipedia: Pseudometric space
+---
+
+## Summary
+
+A pseudometric space is a set with a distance function that is almost a metric. The difference: two different points can have distance zero.

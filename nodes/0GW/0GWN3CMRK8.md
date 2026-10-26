@@ -1,0 +1,18 @@
+---
+tag: 0GWN3CMRK8
+kind: concept
+name: One-point compactification
+aliases: [alexandroff-extension, alexandroff-compactification]
+msc: [54D35]
+sources:
+  - url: https://en.wikipedia.org/wiki/Alexandroff_extension
+    locator: lead section
+same_as:
+  wikidata: Q864919
+  wikipedia: Alexandroff extension
+---
+
+## Summary
+
+The one-point compactification of a topological space adds one point at infinity and makes the space compact.
+For example, the plane with one added point is the sphere.
