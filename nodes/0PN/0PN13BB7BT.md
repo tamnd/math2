@@ -1,0 +1,30 @@
+---
+tag: 0PN13BB7BT
+kind: statement
+role: theorem
+name: The Gaussian integers are a Euclidean domain
+msc: [11R11]
+uses: [0K5W69AC0J, 03AN1V4ZFJ, 0GJ2HRG95T]
+sources:
+  - url: https://en.wikipedia.org/wiki/Gaussian_integer
+    locator: Euclidean division
+---
+
+## Statement
+
+The ring of [[Gaussian integers|0K5W69AC0J]] $\mathbb{Z}[i]$ is a [[Euclidean domain|0GJ2HRG95T]], with the [[norm|03AN1V4ZFJ]] $N(a + b i) = a^2 + b^2$ as Euclidean function.
+That is, for all $z, w \in \mathbb{Z}[i]$ with $w \neq 0$, there are $q, r \in \mathbb{Z}[i]$ with $z = q w + r$ and $N(r) < N(w)$.
+
+## Remarks
+
+The proof: write $z / w = x + y i$ in $\mathbb{C}$. Let $q = m + n i$, where $m$ and $n$ are integers nearest to $x$ and $y$.
+Then $|z/w - q|^2 \le \tfrac{1}{4} + \tfrac{1}{4} = \tfrac{1}{2}$, so $r = z - q w$ has $N(r) \le \tfrac{1}{2} N(w) < N(w)$.
+A consequence is that $\mathbb{Z}[i]$ is a principal ideal domain and a unique factorization domain.
+
+## Explanations
+
+### L1 human
+
+To divide $z$ by $w$, compute the complex quotient and round both coordinates to the nearest integer.
+The rounding error is small, so the remainder is smaller than $w$ in norm.
+This makes the Euclidean algorithm work for Gaussian integers.

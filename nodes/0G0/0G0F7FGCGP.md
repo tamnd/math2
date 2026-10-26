@@ -1,0 +1,37 @@
+---
+tag: 0G0F7FGCGP
+kind: statement
+role: theorem
+name: Transcendence of pi
+aliases: [lindemann-s-theorem]
+msc: [11J81]
+uses: [00SW8B91E7]
+sources:
+  - url: https://en.wikipedia.org/wiki/Lindemann%E2%80%93Weierstrass_theorem
+    locator: Transcendence of  e  and π
+  - url: https://en.wikipedia.org/wiki/Lindemann%E2%80%93Weierstrass_theorem
+    locator: lead section
+---
+
+## Statement
+
+The number $\pi$ is [[transcendental|00SW8B91E7]] over $\mathbb{Q}$.
+
+## Remarks
+
+The statement follows from the Lindemann–Weierstrass theorem: $e^\alpha$ is transcendental for every nonzero algebraic number $\alpha$.
+Indeed, if $\pi$ were algebraic, then $i \pi$ would be algebraic and nonzero, but $e^{i \pi} = -1$ is algebraic.
+So $\sqrt{\pi}$ is also transcendental, and it is not [[constructible|0FMN2MN7TM]].
+
+## History
+
+Charles Hermite proved the transcendence of $e$ in 1873.
+Ferdinand von Lindemann proved in 1882 that $e^\alpha$ is transcendental for every nonzero algebraic $\alpha$, and so that $\pi$ is transcendental.
+Karl Weierstrass proved a more general statement in 1885.
+
+## Explanations
+
+### L1 human
+
+The number $\pi$ is not a root of any nonzero polynomial with rational coefficients.
+This is much stronger than the irrationality of $\pi$, and the proof is much harder.

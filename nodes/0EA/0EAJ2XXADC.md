@@ -1,0 +1,18 @@
+---
+tag: 0EAJ2XXADC
+kind: concept
+name: Degree of a field extension
+msc: [12F05]
+sources:
+  - url: https://en.wikipedia.org/wiki/Degree_of_a_field_extension
+    locator: lead section
+same_as:
+  wikidata: Q3493864
+  wikipedia: Degree of a field extension
+---
+
+## Summary
+
+The degree of a field extension $L/K$ is the dimension of $L$ as a vector space over $K$.
+It is written $[L : K]$.
+The [[definition of the degree|0GS74FGFEK]] states it.

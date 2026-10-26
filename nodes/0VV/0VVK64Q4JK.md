@@ -1,0 +1,17 @@
+---
+tag: 0VVK64Q4JK
+kind: concept
+name: Discriminant of a polynomial
+msc: ["12E05"]
+sources:
+  - url: https://en.wikipedia.org/wiki/Discriminant
+    locator: lead section
+same_as:
+  wikidata: Q192487
+  wikipedia: Discriminant
+---
+
+## Summary
+
+The discriminant of a polynomial is a quantity computed from its coefficients that is zero exactly when the polynomial has a repeated root.
+The [[definition of the discriminant|0CCPN09EMJ]] gives the formula in terms of the roots.

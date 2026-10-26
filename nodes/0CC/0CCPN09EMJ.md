@@ -1,0 +1,35 @@
+---
+tag: 0CCPN09EMJ
+kind: definition
+name: Discriminant of a polynomial
+msc: ["12E05"]
+defines: 0VVK64Q4JK
+uses: [0SHMC00RJV, 0GW1ZZH0R4, 067F8YVYMH]
+sources:
+  - url: https://en.wikipedia.org/wiki/Discriminant
+    locator: Expression in terms of the roots
+  - url: https://en.wikipedia.org/wiki/Discriminant
+    locator: Low degrees
+---
+
+## Definition
+
+Let $K$ be a [[field|0QA8CHH8MG]] and let $f = a_n x^n + \dots + a_0 \in K[x]$ with $n \ge 1$ and $a_n \neq 0$.
+Let $f = a_n (x - r_1) \cdots (x - r_n)$ in a [[splitting field|02NZZ1J0FH]] of $f$.
+The discriminant of $f$ is
+$$\operatorname{Disc}(f) = a_n^{2n-2} \prod_{1 \le i < j \le n} (r_i - r_j)^2.$$
+
+## Remarks
+
+The product is symmetric in the roots, so $\operatorname{Disc}(f) \in K$, by the [[fundamental theorem of symmetric polynomials|0GW1ZZH0R4]]. It is a polynomial with integer coefficients in $a_0, \dots, a_n$.
+So $\operatorname{Disc}(f) = 0$ if and only if $f$ has a [[repeated root|067F8YVYMH]].
+For $f = a x^2 + b x + c$, $\operatorname{Disc}(f) = b^2 - 4ac$.
+For $f = x^3 + p x + q$, $\operatorname{Disc}(f) = -4p^3 - 27q^2$.
+
+## Explanations
+
+### L1 human
+
+The discriminant measures how far apart the roots of a polynomial are.
+It is zero when two roots coincide.
+For a real quadratic, its sign tells whether the roots are real or complex.
