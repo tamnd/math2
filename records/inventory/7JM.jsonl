@@ -1,2 +1,2 @@
 {"id":"7JMEFT7RBN","mentions":["m2://rec/wikidata/Q1361055#1"],"kind":"unknown","name":"discrete group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"7JMXEECNSG","mentions":["m2://rec/wikidata/Q864480#1"],"kind":"unknown","name":"truncated cube","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"7JMXEECNSG","mentions":["m2://rec/wikidata/Q864480#1"],"kind":"object","name":"truncated cube","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

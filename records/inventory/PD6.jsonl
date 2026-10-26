@@ -1,2 +1,2 @@
 {"id":"PD6A689QDS","mentions":["m2://rec/wikidata/Q109942027#1"],"kind":"unknown","name":"extensionally defined set","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"PD6GZ1MSMZ","mentions":["m2://rec/wikidata/Q77507#1"],"kind":"unknown","name":"Andreas Floer","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"PD6GZ1MSMZ","mentions":["m2://rec/wikidata/Q77507#1"],"kind":"unknown","name":"Andreas Floer","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

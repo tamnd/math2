@@ -1,2 +1,2 @@
-{"id":"AYY6X2G7QQ","mentions":["m2://rec/wikidata/Q71192128#1"],"kind":"unknown","name":"Kiyoshi Igusa","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"AYY6X2G7QQ","mentions":["m2://rec/wikidata/Q71192128#1"],"kind":"unknown","name":"Kiyoshi Igusa","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"AYYBB0AYPH","mentions":["m2://rec/wikidata/Q56298896#1"],"kind":"unknown","name":"translation surface","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

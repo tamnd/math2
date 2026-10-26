@@ -1,3 +1,3 @@
-{"id":"F58GD7621C","mentions":["m2://rec/wikidata/Q1935541#1"],"kind":"unknown","name":"Seifert fiber space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"F58GD7621C","mentions":["m2://rec/wikidata/Q1935541#1"],"kind":"concept","name":"Seifert fiber space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"F58R3VNA5N","mentions":["m2://rec/wikidata/Q970119#1"],"kind":"definition","name":"paracompact space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"F58TSK0RGM","mentions":["m2://rec/wikidata/Q7617833#1"],"kind":"topic","name":"stochastic quantization","msc":["81S20"],"layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

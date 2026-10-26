@@ -1,2 +1,2 @@
 {"id":"YHKAB5DZGC","mentions":["m2://rec/wikidata/Q332772#1"],"kind":"unknown","name":"Gray code","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"YHKG2T1HJ5","mentions":["m2://rec/wikidata/Q1944434#1"],"kind":"unknown","name":"Monge point","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"YHKG2T1HJ5","mentions":["m2://rec/wikidata/Q1944434#1"],"kind":"concept","name":"Monge point","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

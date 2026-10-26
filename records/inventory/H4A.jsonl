@@ -1,2 +1,2 @@
 {"id":"H4AH70B7J4","mentions":["m2://rec/wikidata/Q41803#1"],"kind":"definition","name":"gram","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"H4AN5553Q5","mentions":["m2://rec/wikidata/Q4680481#1"],"kind":"unknown","name":"Adams spectral sequence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"H4AN5553Q5","mentions":["m2://rec/wikidata/Q4680481#1"],"kind":"concept","name":"Adams spectral sequence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

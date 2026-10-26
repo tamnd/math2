@@ -1,2 +1,2 @@
-{"id":"87K1PN04MJ","mentions":["m2://rec/wikidata/Q56948614#1"],"kind":"unknown","name":"Anna Ceresole","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"87K1PN04MJ","mentions":["m2://rec/wikidata/Q56948614#1"],"kind":"unknown","name":"Anna Ceresole","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"87KR3Q7SWD","mentions":["m2://rec/wikidata/Q103983#1"],"kind":"definition","name":"heliocentrism","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

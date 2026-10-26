@@ -1,2 +1,2 @@
 {"id":"SEA6KVKJ18","mentions":["m2://rec/wikidata/Q1047547#1"],"kind":"unknown","name":"algebraically closed field","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"SEAJ2R3ZGQ","mentions":["m2://rec/wikidata/Q3527183#1"],"kind":"unknown","name":"Wittenbauer's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"SEAJ2R3ZGQ","mentions":["m2://rec/wikidata/Q3527183#1"],"kind":"statement","name":"Wittenbauer's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

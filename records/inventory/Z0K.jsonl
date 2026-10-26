@@ -1,2 +1,2 @@
 {"id":"Z0K2N1D30F","mentions":["m2://rec/wikidata/Q377798#1"],"kind":"unknown","name":"Poincaré metric","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"Z0KCT42J4Q","mentions":["m2://rec/wikidata/Q107634572#1"],"kind":"unknown","name":"Moessner's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"Z0KCT42J4Q","mentions":["m2://rec/wikidata/Q107634572#1"],"kind":"statement","name":"Moessner's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

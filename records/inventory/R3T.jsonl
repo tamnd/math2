@@ -1,2 +1,2 @@
 {"id":"R3T4EB7S3Z","mentions":["m2://rec/wikidata/Q6902008#1"],"kind":"unknown","name":"monothetic group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"R3TB62EWAJ","mentions":["m2://rec/wikidata/Q5082931#1"],"kind":"unknown","name":"Charles Thorn","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"R3TB62EWAJ","mentions":["m2://rec/wikidata/Q5082931#1"],"kind":"unknown","name":"Charles Thorn","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

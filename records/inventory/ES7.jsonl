@@ -1,2 +1,2 @@
-{"id":"ES7J2PEHE8","mentions":["m2://rec/wikidata/Q5105518#1"],"kind":"unknown","name":"Chow variety","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"ES7X4DVZKE","mentions":["m2://rec/wikidata/Q937921#1"],"kind":"unknown","name":"Simson line","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"ES7J2PEHE8","mentions":["m2://rec/wikidata/Q5105518#1"],"kind":"concept","name":"Chow variety","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"ES7X4DVZKE","mentions":["m2://rec/wikidata/Q937921#1"],"kind":"statement","name":"Simson line","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

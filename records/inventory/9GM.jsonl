@@ -1,2 +1,2 @@
-{"id":"9GMWRR2KKJ","mentions":["m2://rec/wikidata/Q16320789#1"],"kind":"unknown","name":"Sárközy's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"9GMZ8DRQ2D","mentions":["m2://rec/wikidata/Q1786640#1"],"kind":"unknown","name":"wreath product","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9GMWRR2KKJ","mentions":["m2://rec/wikidata/Q16320789#1"],"kind":"statement","name":"Sárközy's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9GMZ8DRQ2D","mentions":["m2://rec/wikidata/Q1786640#1"],"kind":"concept","name":"wreath product","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

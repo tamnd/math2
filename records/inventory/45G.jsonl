@@ -1,2 +1,2 @@
 {"id":"45G6Y1VJ05","mentions":["m2://rec/wikidata/Q1100466#1"],"kind":"unknown","name":"present value","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"45GECMBSQT","mentions":["m2://rec/wikidata/Q28500849#1"],"kind":"unknown","name":"Arkady Tseytlin","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"45GECMBSQT","mentions":["m2://rec/wikidata/Q28500849#1"],"kind":"unknown","name":"Arkady Tseytlin","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

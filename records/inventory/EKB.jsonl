@@ -1,2 +1,2 @@
 {"id":"EKB42Y33WK","mentions":["m2://rec/wikidata/Q5891#1"],"kind":"definition","name":"philosophy","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"EKBYTCM9DG","mentions":["m2://rec/wikidata/Q11210#1"],"kind":"unknown","name":"coordinate system","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"EKBYTCM9DG","mentions":["m2://rec/wikidata/Q11210#1"],"kind":"concept","name":"coordinate system","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,2 +1,2 @@
 {"id":"WJJQHEMH8Y","mentions":["m2://rec/wikidata/Q557781#1"],"kind":"unknown","name":"horseshoe map","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"WJJVQKJ7BH","mentions":["m2://rec/wikidata/Q401319#1"],"kind":"unknown","name":"Puiseux series","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"WJJVQKJ7BH","mentions":["m2://rec/wikidata/Q401319#1"],"kind":"concept","name":"Puiseux series","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

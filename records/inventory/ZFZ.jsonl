@@ -1,2 +1,2 @@
 {"id":"ZFZ2W77E3F","mentions":["m2://rec/wikidata/Q19241840#1"],"kind":"statement","name":"2144","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"ZFZ9B60ZJA","mentions":["m2://rec/wikidata/Q62691414#1"],"kind":"unknown","name":"Jonathan Bagger","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"ZFZ9B60ZJA","mentions":["m2://rec/wikidata/Q62691414#1"],"kind":"unknown","name":"Jonathan Bagger","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

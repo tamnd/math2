@@ -1,2 +1,2 @@
-{"id":"ZSCDZNY9DF","mentions":["m2://rec/wikidata/Q2735874#1"],"kind":"unknown","name":"ergodic theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"ZSCEQJ5ECH","mentions":["m2://rec/wikidata/Q584110#1"],"kind":"unknown","name":"elongated pentagonal cupola","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"ZSCDZNY9DF","mentions":["m2://rec/wikidata/Q2735874#1"],"kind":"statement","name":"ergodic theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"ZSCEQJ5ECH","mentions":["m2://rec/wikidata/Q584110#1"],"kind":"object","name":"elongated pentagonal cupola","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

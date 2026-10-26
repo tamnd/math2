@@ -1,2 +1,2 @@
 {"id":"Y0E0K39E1V","mentions":["m2://rec/wikidata/Q91783823#1"],"kind":"unknown","name":"global section","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"Y0E7A1R1QA","mentions":["m2://rec/wikidata/Q91915305#1"],"kind":"unknown","name":"differential algebra","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"Y0E7A1R1QA","mentions":["m2://rec/wikidata/Q91915305#1"],"kind":"topic","name":"differential algebra","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

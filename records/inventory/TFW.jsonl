@@ -1,2 +1,2 @@
 {"id":"TFWFGGBE3S","mentions":["m2://rec/wikidata/Q111207795#1"],"kind":"unknown","name":"pedial circle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"TFWYE91SCD","mentions":["m2://rec/wikidata/Q388660#1"],"kind":"unknown","name":"Lebesgue point","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"TFWYE91SCD","mentions":["m2://rec/wikidata/Q388660#1"],"kind":"concept","name":"Lebesgue point","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

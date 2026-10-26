@@ -1,2 +1,2 @@
-{"id":"CZY3ASW7ZX","mentions":["m2://rec/wikidata/Q122897527#1"],"kind":"unknown","name":"196-algorithm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"CZYAEDWX8K","mentions":["m2://rec/wikidata/Q48995716#1"],"kind":"unknown","name":"Hamiltonian decomposition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"CZY3ASW7ZX","mentions":["m2://rec/wikidata/Q122897527#1"],"kind":"concept","name":"196-algorithm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"CZYAEDWX8K","mentions":["m2://rec/wikidata/Q48995716#1"],"kind":"concept","name":"Hamiltonian decomposition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

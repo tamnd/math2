@@ -1,2 +1,2 @@
-{"id":"MFZ08T9ZP1","mentions":["m2://rec/wikidata/Q64038643#1"],"kind":"unknown","name":"Maxim Zabzine","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"MFZ08T9ZP1","mentions":["m2://rec/wikidata/Q64038643#1"],"kind":"unknown","name":"Maxim Zabzine","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"MFZKR01FXS","mentions":["m2://rec/wikidata/Q27997208#1"],"kind":"unknown","name":"Bernoulli's triangle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,2 +1,2 @@
 {"id":"YEEMJF24SP","mentions":["m2://rec/wikidata/Q696920#1"],"kind":"unknown","name":"Yahtzee","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"YEEPWYWHMS","mentions":["m2://rec/wikidata/Q515893#1"],"kind":"unknown","name":"free probability","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"YEEPWYWHMS","mentions":["m2://rec/wikidata/Q515893#1"],"kind":"topic","name":"free probability","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

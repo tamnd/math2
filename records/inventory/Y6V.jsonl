@@ -1,2 +1,2 @@
-{"id":"Y6VHTRT0KC","mentions":["m2://rec/wikidata/Q962585#1"],"kind":"unknown","name":"colatitude","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"Y6VY1XQ22M","mentions":["m2://rec/wikidata/Q6453393#1"],"kind":"unknown","name":"Kähler–Einstein manifold","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"Y6VHTRT0KC","mentions":["m2://rec/wikidata/Q962585#1"],"kind":"concept","name":"colatitude","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"Y6VY1XQ22M","mentions":["m2://rec/wikidata/Q6453393#1"],"kind":"concept","name":"Kähler–Einstein manifold","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

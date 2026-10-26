@@ -1,2 +1,2 @@
 {"id":"R04C181XXQ","mentions":["m2://rec/wikidata/Q5638117#1"],"kind":"unknown","name":"Hadwiger number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"R04XRR40YW","mentions":["m2://rec/wikidata/Q23908421#1"],"kind":"unknown","name":"Andor Lukács","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"R04XRR40YW","mentions":["m2://rec/wikidata/Q23908421#1"],"kind":"unknown","name":"Andor Lukács","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,2 +1,2 @@
-{"id":"4Z0F289903","mentions":["m2://rec/wikidata/Q1190223#1"],"kind":"definition","name":"non-deterministic Turing machine","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4Z0F289903","mentions":["m2://rec/wikidata/Q1190223#1"],"kind":"concept","name":"non-deterministic Turing machine","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"4Z0PD7S6SP","mentions":["m2://rec/wikidata/Q12405820#1"],"kind":"unknown","name":"polykite","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

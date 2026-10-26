@@ -1,2 +1,2 @@
-{"id":"ZWDMCQB660","mentions":["m2://rec/wikidata/Q3063656#1"],"kind":"unknown","name":"Truncated hexagonal tiling","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"ZWDQJRXBFK","mentions":["m2://rec/wikidata/Q3500555#1"],"kind":"unknown","name":"thirty-six officers problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"ZWDMCQB660","mentions":["m2://rec/wikidata/Q3063656#1"],"kind":"concept","name":"Truncated hexagonal tiling","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"ZWDQJRXBFK","mentions":["m2://rec/wikidata/Q3500555#1"],"kind":"problem","name":"thirty-six officers problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

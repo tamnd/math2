@@ -1,2 +1,2 @@
-{"id":"4XW7VGREVY","mentions":["m2://rec/wikidata/Q6501221#1"],"kind":"unknown","name":"control theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"4XWPFEYY05","mentions":["m2://rec/wikidata/Q2755127#1"],"kind":"unknown","name":"wedge","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4XW7VGREVY","mentions":["m2://rec/wikidata/Q6501221#1"],"kind":"topic","name":"control theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4XWPFEYY05","mentions":["m2://rec/wikidata/Q2755127#1"],"kind":"object","name":"wedge","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

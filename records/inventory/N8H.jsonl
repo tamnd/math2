@@ -1,2 +1,2 @@
-{"id":"N8HCZR3V4Y","mentions":["m2://rec/wikidata/Q29034984#1"],"kind":"unknown","name":"Jean Gallier","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"N8HYBZM129","mentions":["m2://rec/wikidata/Q1402534#1"],"kind":"unknown","name":"Polignac's conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"N8HCZR3V4Y","mentions":["m2://rec/wikidata/Q29034984#1"],"kind":"unknown","name":"Jean Gallier","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"N8HYBZM129","mentions":["m2://rec/wikidata/Q1402534#1"],"kind":"conjecture","name":"Polignac's conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

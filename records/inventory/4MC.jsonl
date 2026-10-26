@@ -1,2 +1,2 @@
 {"id":"4MCDT43V05","mentions":["m2://rec/wikidata/Q3360633#1"],"kind":"unknown","name":"commuting matrices","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"4MCGY2XW14","mentions":["m2://rec/wikidata/Q7884743#1"],"kind":"unknown","name":"unicoherent space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4MCGY2XW14","mentions":["m2://rec/wikidata/Q7884743#1"],"kind":"concept","name":"unicoherent space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

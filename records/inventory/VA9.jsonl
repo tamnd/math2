@@ -1,2 +1,2 @@
 {"id":"VA9ANRP752","mentions":["m2://rec/wikidata/Q834025#1"],"kind":"statement","name":"Cauchy's integral theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"VA9SDP84HD","mentions":["m2://rec/wikidata/Q5251702#1"],"kind":"unknown","name":"deformation theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"VA9SDP84HD","mentions":["m2://rec/wikidata/Q5251702#1"],"kind":"topic","name":"deformation theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

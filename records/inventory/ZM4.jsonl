@@ -1,2 +1,2 @@
 {"id":"ZM41Z4T1CK","mentions":["m2://rec/wikidata/Q33145#1"],"kind":"unknown","name":"potato paradox","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"ZM4RS11Y7B","mentions":["m2://rec/wikidata/Q1751577#1"],"kind":"unknown","name":"Gergonne point","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"ZM4RS11Y7B","mentions":["m2://rec/wikidata/Q1751577#1"],"kind":"concept","name":"Gergonne point","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,2 +1,2 @@
 {"id":"QBBNJWYZRD","mentions":["m2://rec/wikidata/Q77615305#1"],"kind":"unknown","name":"boundary point","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"QBBV3KR4BH","mentions":["m2://rec/wikidata/Q1970172#1"],"kind":"unknown","name":"von Neumann algebra","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"QBBV3KR4BH","mentions":["m2://rec/wikidata/Q1970172#1"],"kind":"concept","name":"von Neumann algebra","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

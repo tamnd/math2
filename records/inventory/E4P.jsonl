@@ -1,2 +1,2 @@
-{"id":"E4P1DC0JHQ","mentions":["m2://rec/wikidata/Q25383044#1"],"kind":"unknown","name":"difference operator","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"E4PD02SH5P","mentions":["m2://rec/wikidata/Q7306554#1"],"kind":"unknown","name":"Ree group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"E4P1DC0JHQ","mentions":["m2://rec/wikidata/Q25383044#1"],"kind":"concept","name":"difference operator","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"E4PD02SH5P","mentions":["m2://rec/wikidata/Q7306554#1"],"kind":"concept","name":"Ree group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

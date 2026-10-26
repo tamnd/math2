@@ -1,2 +1,2 @@
 {"id":"KX8G06S23V","mentions":["m2://rec/wikidata/Q379380#1"],"kind":"unknown","name":"Euler line","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"KX8YP5EV4X","mentions":["m2://rec/wikidata/Q87701643#1"],"kind":"unknown","name":"Taylor Dupuy","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"KX8YP5EV4X","mentions":["m2://rec/wikidata/Q87701643#1"],"kind":"unknown","name":"Taylor Dupuy","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

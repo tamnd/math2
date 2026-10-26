@@ -1,1 +1,1 @@
-{"id":"NY8GWYTZ36","mentions":["m2://rec/wikidata/Q133740#1"],"kind":"unknown","name":"A History of Western Philosophy","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"NY8GWYTZ36","mentions":["m2://rec/wikidata/Q133740#1"],"kind":"unknown","name":"A History of Western Philosophy","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a book or a journal, not an item of mathematics","rule":"book","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

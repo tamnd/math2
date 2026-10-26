@@ -1,2 +1,2 @@
-{"id":"FBS6VZ29YY","mentions":["m2://rec/wikidata/Q1668861#1"],"kind":"unknown","name":"Picard theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"FBSCJEFRQ0","mentions":["m2://rec/wikidata/Q15454216#1"],"kind":"unknown","name":"Kari Vilonen","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FBS6VZ29YY","mentions":["m2://rec/wikidata/Q1668861#1"],"kind":"statement","name":"Picard theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FBSCJEFRQ0","mentions":["m2://rec/wikidata/Q15454216#1"],"kind":"unknown","name":"Kari Vilonen","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

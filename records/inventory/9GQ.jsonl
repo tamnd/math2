@@ -1,2 +1,2 @@
 {"id":"9GQ3ZS8VCH","mentions":["m2://rec/wikidata/Q3358290#1"],"kind":"unknown","name":"pyramid","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"9GQ9EHTCMF","mentions":["m2://rec/wikidata/Q684933#1"],"kind":"unknown","name":"Wojciech H. Zurek","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9GQ9EHTCMF","mentions":["m2://rec/wikidata/Q684933#1"],"kind":"unknown","name":"Wojciech H. Zurek","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

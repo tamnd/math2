@@ -1,2 +1,2 @@
 {"id":"F758SQC7KS","mentions":["m2://rec/wikidata/Q7942158#1"],"kind":"unknown","name":"voter model","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"F75D8T8J5E","mentions":["m2://rec/wikidata/Q2226748#1"],"kind":"unknown","name":"Mackey topology","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"F75D8T8J5E","mentions":["m2://rec/wikidata/Q2226748#1"],"kind":"statement","name":"Mackey topology","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

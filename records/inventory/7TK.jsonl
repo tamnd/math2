@@ -1,2 +1,2 @@
 {"id":"7TKABEMEVN","mentions":["m2://rec/wikidata/Q4927124#1"],"kind":"unknown","name":"block","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"7TKR8HFW3R","mentions":["m2://rec/wikidata/Q2308311#1"],"kind":"unknown","name":"Specker sequence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"7TKR8HFW3R","mentions":["m2://rec/wikidata/Q2308311#1"],"kind":"concept","name":"Specker sequence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

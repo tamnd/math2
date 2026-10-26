@@ -1,2 +1,2 @@
-{"id":"9PZ11MEREJ","mentions":["m2://rec/wikidata/Q1314574#1"],"kind":"unknown","name":"Neil Strickland","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9PZ11MEREJ","mentions":["m2://rec/wikidata/Q1314574#1"],"kind":"unknown","name":"Neil Strickland","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"9PZSXA8EPG","mentions":["m2://rec/wikidata/Q5254796#1"],"kind":"unknown","name":"Delta operator","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

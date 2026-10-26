@@ -1,3 +1,3 @@
 {"id":"4WJ2V1VVWJ","mentions":["m2://rec/wikidata/Q781833#1"],"kind":"topic","name":"temporal logic","msc":["03B44"],"layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"4WJDESA8FV","mentions":["m2://rec/wikidata/Q1234054#1"],"kind":"unknown","name":"small stellated dodecahedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"4WJE4CP17S","mentions":["m2://rec/wikidata/Q1816316#1"],"kind":"unknown","name":"Stieltjes constants","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4WJDESA8FV","mentions":["m2://rec/wikidata/Q1234054#1"],"kind":"object","name":"small stellated dodecahedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4WJE4CP17S","mentions":["m2://rec/wikidata/Q1816316#1"],"kind":"concept","name":"Stieltjes constants","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

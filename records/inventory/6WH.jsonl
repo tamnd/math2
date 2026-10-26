@@ -1,2 +1,2 @@
-{"id":"6WHB3WDT92","mentions":["m2://rec/wikidata/Q137885#1"],"kind":"unknown","name":"Schinzel's hypothesis H","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"6WHB3WDT92","mentions":["m2://rec/wikidata/Q137885#1"],"kind":"conjecture","name":"Schinzel's hypothesis H","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"6WHNQZ67HW","mentions":["m2://rec/wikidata/Q6800114#1"],"kind":"unknown","name":"Amnon Pazy","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,2 +1,2 @@
 {"id":"6W7BCRM4E6","mentions":["m2://rec/wikidata/Q2493581#1"],"kind":"unknown","name":"free tree","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"6W7H3KJCTT","mentions":["m2://rec/wikidata/Q2421733#1"],"kind":"unknown","name":"Thom space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"6W7H3KJCTT","mentions":["m2://rec/wikidata/Q2421733#1"],"kind":"concept","name":"Thom space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

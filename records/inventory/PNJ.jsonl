@@ -1,2 +1,2 @@
 {"id":"PNJ3JVHY2H","mentions":["m2://rec/wikidata/Q7130424#1"],"kind":"unknown","name":"pancyclic graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"PNJ96T5T9M","mentions":["m2://rec/wikidata/Q3984001#1"],"kind":"unknown","name":"Cauchy's mean-value theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"PNJ96T5T9M","mentions":["m2://rec/wikidata/Q3984001#1"],"kind":"statement","name":"Cauchy's mean-value theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

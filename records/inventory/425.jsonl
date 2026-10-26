@@ -1,2 +1,2 @@
 {"id":"42518XC42Y","mentions":["m2://rec/wikidata/Q42515#1"],"kind":"unknown","name":"cartography","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"425FFH2Y28","mentions":["m2://rec/wikidata/Q4230490#1"],"kind":"unknown","name":"Dodgson condensation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"425FFH2Y28","mentions":["m2://rec/wikidata/Q4230490#1"],"kind":"concept","name":"Dodgson condensation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

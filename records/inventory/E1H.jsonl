@@ -1,3 +1,3 @@
 {"id":"E1HF4JVVCD","mentions":["m2://rec/wikidata/Q649470#1"],"kind":"unknown","name":"Leibniz harmonic triangle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"E1HFE60RR6","mentions":["m2://rec/wikidata/Q1914255#1"],"kind":"topic","name":"maximum principle","msc":["35B50"],"layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"E1HKTMTM8B","mentions":["m2://rec/wikidata/Q2940480#1"],"kind":"unknown","name":"combinatorial map","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"E1HKTMTM8B","mentions":["m2://rec/wikidata/Q2940480#1"],"kind":"concept","name":"combinatorial map","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

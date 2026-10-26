@@ -1,2 +1,2 @@
 {"id":"VZ08NH5AR1","mentions":["m2://rec/wikidata/Q7543046#1"],"kind":"unknown","name":"small dodecicosacron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"VZ0PYTC0F7","mentions":["m2://rec/wikidata/Q371957#1"],"kind":"unknown","name":"Jean Dieudonné","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"VZ0PYTC0F7","mentions":["m2://rec/wikidata/Q371957#1"],"kind":"unknown","name":"Jean Dieudonné","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

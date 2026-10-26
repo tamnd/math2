@@ -1,2 +1,2 @@
-{"id":"283N2GJPSQ","mentions":["m2://rec/wikidata/Q78040124#1"],"kind":"unknown","name":"Chandrashekar Devchand","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"283N2GJPSQ","mentions":["m2://rec/wikidata/Q78040124#1"],"kind":"unknown","name":"Chandrashekar Devchand","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"283WF1NBMM","mentions":["m2://rec/wikidata/Q112300321#1"],"kind":"definition","name":"second radiation constant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

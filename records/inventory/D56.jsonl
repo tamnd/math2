@@ -1,2 +1,2 @@
-{"id":"D563H563X0","mentions":["m2://rec/wikidata/Q2096184#1"],"kind":"unknown","name":"Plancherel theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"D56PK89YF2","mentions":["m2://rec/wikidata/Q377047#1"],"kind":"unknown","name":"butterfly theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"D563H563X0","mentions":["m2://rec/wikidata/Q2096184#1"],"kind":"statement","name":"Plancherel theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"D56PK89YF2","mentions":["m2://rec/wikidata/Q377047#1"],"kind":"statement","name":"butterfly theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

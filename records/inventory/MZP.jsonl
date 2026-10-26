@@ -1,2 +1,2 @@
-{"id":"MZP05ND2K9","mentions":["m2://rec/wikidata/Q98916880#1"],"kind":"unknown","name":"Yonatan Harpaz","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"MZP05ND2K9","mentions":["m2://rec/wikidata/Q98916880#1"],"kind":"unknown","name":"Yonatan Harpaz","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"MZPY2C5KRF","mentions":["m2://rec/wikidata/Q1332313#1"],"kind":"definition","name":"number of edges","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

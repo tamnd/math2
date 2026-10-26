@@ -1,2 +1,2 @@
-{"id":"E8AWA23DZ4","mentions":["m2://rec/wikidata/Q3116079#1"],"kind":"unknown","name":"pentagonal trapezohedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"E8AWA23DZ4","mentions":["m2://rec/wikidata/Q3116079#1"],"kind":"object","name":"pentagonal trapezohedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"E8AZS0W7MD","mentions":["m2://rec/wikidata/Q42194628#1"],"kind":"unknown","name":"Problemes plaisans et delectables qui se font par les nombres","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a book, not an item of mathematics","rule":"book","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

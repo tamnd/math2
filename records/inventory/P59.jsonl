@@ -1,2 +1,2 @@
 {"id":"P59GC90ZAR","mentions":["m2://rec/wikidata/Q130379395#1"],"kind":"unknown","name":"bridgeless graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"P59VTB7VJK","mentions":["m2://rec/wikidata/Q7359380#1"],"kind":"unknown","name":"Rogers–Ramanujan identities","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"P59VTB7VJK","mentions":["m2://rec/wikidata/Q7359380#1"],"kind":"statement","name":"Rogers–Ramanujan identities","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

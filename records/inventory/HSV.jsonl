@@ -1,2 +1,2 @@
-{"id":"HSV9H26942","mentions":["m2://rec/wikidata/Q7310358#1"],"kind":"unknown","name":"Reinhardt domain","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"HSVXM8CNXQ","mentions":["m2://rec/wikidata/Q7782345#1"],"kind":"unknown","name":"theorem of Bertini","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"HSV9H26942","mentions":["m2://rec/wikidata/Q7310358#1"],"kind":"concept","name":"Reinhardt domain","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"HSVXM8CNXQ","mentions":["m2://rec/wikidata/Q7782345#1"],"kind":"statement","name":"theorem of Bertini","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

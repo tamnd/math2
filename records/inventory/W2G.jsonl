@@ -1,3 +1,3 @@
 {"id":"W2G1Q20EE8","mentions":["m2://rec/wikidata/Q201321#1"],"kind":"unknown","name":"Navier–Stokes equations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"W2G59K9D5H","mentions":["m2://rec/wikidata/Q17101799#1"],"kind":"unknown","name":"intersection number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"W2GTR93JDY","mentions":["m2://rec/wikidata/Q330828#1","m2://rec/wikidata/Q9051521#1"],"kind":"unknown","name":"coefficient of skewness","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"W2GTR93JDY","mentions":["m2://rec/wikidata/Q330828#1","m2://rec/wikidata/Q9051521#1"],"kind":"concept","name":"coefficient of skewness","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,2 +1,2 @@
-{"id":"H9WSAZZZQ2","mentions":["m2://rec/wikidata/Q18411092#1"],"kind":"unknown","name":"Cheeger finiteness theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"H9WTV5BC9H","mentions":["m2://rec/wikidata/Q5284051#1"],"kind":"unknown","name":"dividing a circle into areas","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"H9WSAZZZQ2","mentions":["m2://rec/wikidata/Q18411092#1"],"kind":"statement","name":"Cheeger finiteness theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"H9WTV5BC9H","mentions":["m2://rec/wikidata/Q5284051#1"],"kind":"object","name":"dividing a circle into areas","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

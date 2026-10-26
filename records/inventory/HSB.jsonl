@@ -1,2 +1,2 @@
-{"id":"HSB7SZ20SY","mentions":["m2://rec/wikidata/Q547394#1"],"kind":"unknown","name":"Robert Mills","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"HSB7SZ20SY","mentions":["m2://rec/wikidata/Q547394#1"],"kind":"unknown","name":"Robert Mills","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"HSBQV3NNHT","mentions":["m2://rec/wikidata/Q5014001#1"],"kind":"unknown","name":"CR manifold","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

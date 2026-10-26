@@ -1,3 +1,3 @@
 {"id":"DR88A0HAVY","mentions":["m2://rec/wikidata/Q16937600#1"],"kind":"unknown","name":"nonabelian cohomology","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"DR8AF0FV4N","mentions":["m2://rec/wikidata/Q1289248#1"],"kind":"unknown","name":"scalar","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"DR8GN20BKF","mentions":["m2://rec/wikidata/Q1495163#1"],"kind":"unknown","name":"truncated triangular trapezohedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"DR8GN20BKF","mentions":["m2://rec/wikidata/Q1495163#1"],"kind":"object","name":"truncated triangular trapezohedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

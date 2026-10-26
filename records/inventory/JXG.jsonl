@@ -1,2 +1,2 @@
-{"id":"JXGHXVBFTW","mentions":["m2://rec/wikidata/Q515591#1"],"kind":"unknown","name":"Cramér's conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"JXGYMM0JYK","mentions":["m2://rec/wikidata/Q120358757#1"],"kind":"unknown","name":"upper and lower topology","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"JXGHXVBFTW","mentions":["m2://rec/wikidata/Q515591#1"],"kind":"conjecture","name":"Cramér's conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"JXGYMM0JYK","mentions":["m2://rec/wikidata/Q120358757#1"],"kind":"concept","name":"upper and lower topology","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

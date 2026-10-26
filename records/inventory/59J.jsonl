@@ -1,2 +1,2 @@
-{"id":"59J3G8WGQ4","mentions":["m2://rec/wikidata/Q11538#1"],"kind":"unknown","name":"mathematical proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"59JDJ8C7DN","mentions":["m2://rec/wikidata/Q381892#1"],"kind":"definition","name":"compact space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"59J3G8WGQ4","mentions":["m2://rec/wikidata/Q11538#1"],"kind":"concept","name":"mathematical proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"59JDJ8C7DN","mentions":["m2://rec/wikidata/Q381892#1"],"kind":"concept","name":"compact space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

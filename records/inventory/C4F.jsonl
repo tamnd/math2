@@ -1,2 +1,2 @@
-{"id":"C4FV8XGKVK","mentions":["m2://rec/wikidata/Q1809260#1"],"kind":"unknown","name":"Lawrence Sklar","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"C4FV8XGKVK","mentions":["m2://rec/wikidata/Q1809260#1"],"kind":"unknown","name":"Lawrence Sklar","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"C4FVT41XMA","mentions":["m2://rec/wikidata/Q1307987#1"],"kind":"unknown","name":"suspension","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

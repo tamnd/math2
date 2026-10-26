@@ -1,3 +1,3 @@
-{"id":"H603EHCT3F","mentions":["m2://rec/wikidata/Q63356872#1"],"kind":"unknown","name":"Paul Langacker","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"H60R2RHXY6","mentions":["m2://rec/wikidata/Q2997642#1"],"kind":"unknown","name":"tridiminished icosahedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"H603EHCT3F","mentions":["m2://rec/wikidata/Q63356872#1"],"kind":"unknown","name":"Paul Langacker","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"H60R2RHXY6","mentions":["m2://rec/wikidata/Q2997642#1"],"kind":"object","name":"tridiminished icosahedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"H60XHBJQEM","mentions":["m2://rec/wikidata/Q465274#1"],"kind":"topic","name":"ordinary differential equation","msc":["34-XX"],"layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

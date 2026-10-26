@@ -1,2 +1,2 @@
 {"id":"VYZ2HP5VN1","mentions":["m2://rec/wikidata/Q6786#1"],"kind":"unknown","name":"bottom quark","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"VYZWZR0MTG","mentions":["m2://rec/wikidata/Q894242#1"],"kind":"unknown","name":"Borsuk's conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"VYZWZR0MTG","mentions":["m2://rec/wikidata/Q894242#1"],"kind":"conjecture","name":"Borsuk's conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

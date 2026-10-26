@@ -1,2 +1,2 @@
 {"id":"TT47XM8HHF","mentions":["m2://rec/wikidata/Q8073863#1"],"kind":"topic","name":"Zonal spherical function","msc":["43A90"],"layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"TT4RQ5D88B","mentions":["m2://rec/wikidata/Q313386#1"],"kind":"unknown","name":"Gilbert Ryle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"TT4RQ5D88B","mentions":["m2://rec/wikidata/Q313386#1"],"kind":"unknown","name":"Gilbert Ryle","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

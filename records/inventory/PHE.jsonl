@@ -1,2 +1,2 @@
-{"id":"PHE8D4P950","mentions":["m2://rec/wikidata/Q120336340#1"],"kind":"unknown","name":"Uban number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"PHES42VYDM","mentions":["m2://rec/wikidata/Q64007986#1"],"kind":"unknown","name":"Igor Khavkine","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"PHE8D4P950","mentions":["m2://rec/wikidata/Q120336340#1"],"kind":"object","name":"Uban number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"PHES42VYDM","mentions":["m2://rec/wikidata/Q64007986#1"],"kind":"unknown","name":"Igor Khavkine","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

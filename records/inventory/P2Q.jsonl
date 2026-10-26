@@ -1,2 +1,2 @@
-{"id":"P2Q06T8FHT","mentions":["m2://rec/wikidata/Q1622692#1"],"kind":"unknown","name":"Hodge star operator","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"P2Q9E9Q54R","mentions":["m2://rec/wikidata/Q124168363#1"],"kind":"unknown","name":"type","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"P2Q06T8FHT","mentions":["m2://rec/wikidata/Q1622692#1"],"kind":"concept","name":"Hodge star operator","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"P2Q9E9Q54R","mentions":["m2://rec/wikidata/Q124168363#1"],"kind":"concept","name":"type","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

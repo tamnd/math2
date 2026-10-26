@@ -1,2 +1,2 @@
-{"id":"XE0SJ237FC","mentions":["m2://rec/wikidata/Q5000158#1"],"kind":"unknown","name":"Burnside ring","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"XE0VFCFDTJ","mentions":["m2://rec/wikidata/Q4795562#1"],"kind":"unknown","name":"Aronson's sequence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"XE0SJ237FC","mentions":["m2://rec/wikidata/Q5000158#1"],"kind":"concept","name":"Burnside ring","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"XE0VFCFDTJ","mentions":["m2://rec/wikidata/Q4795562#1"],"kind":"object","name":"Aronson's sequence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,2 +1,2 @@
-{"id":"17Z5WGWR0S","mentions":["m2://rec/wikidata/Q3406235#1"],"kind":"unknown","name":"Prouhet–Tarry–Escott problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"17ZDEV57F5","mentions":["m2://rec/wikidata/Q5115177#1"],"kind":"unknown","name":"Chu space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"17Z5WGWR0S","mentions":["m2://rec/wikidata/Q3406235#1"],"kind":"problem","name":"Prouhet–Tarry–Escott problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"17ZDEV57F5","mentions":["m2://rec/wikidata/Q5115177#1"],"kind":"concept","name":"Chu space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,2 +1,2 @@
 {"id":"QHY34QDW43","mentions":["m2://rec/wikidata/Q576135#1"],"kind":"unknown","name":"anticlastic","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"QHYTXM0Y3P","mentions":["m2://rec/wikidata/Q7835490#1"],"kind":"unknown","name":"Transylvania lottery","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"QHYTXM0Y3P","mentions":["m2://rec/wikidata/Q7835490#1"],"kind":"concept","name":"Transylvania lottery","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

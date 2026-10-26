@@ -1,2 +1,2 @@
 {"id":"KBY8NW1PDG","mentions":["m2://rec/wikidata/Q844937#1"],"kind":"unknown","name":"multiple integral","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"KBYEC356KH","mentions":["m2://rec/wikidata/Q3363319#1"],"kind":"unknown","name":"Cramer's paradox","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"KBYEC356KH","mentions":["m2://rec/wikidata/Q3363319#1"],"kind":"concept","name":"Cramer's paradox","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,3 +1,3 @@
 {"id":"2HSM4TW6Y6","mentions":["m2://rec/wikidata/Q6586607#1"],"kind":"unknown","name":"scalar matrix","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"2HSMA1GXYM","mentions":["m2://rec/wikidata/Q32178732#1"],"kind":"unknown","name":"cannonball problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"2HSN822GMM","mentions":["m2://rec/wikidata/Q1754097#1"],"kind":"unknown","name":"Hermite constant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"2HSN822GMM","mentions":["m2://rec/wikidata/Q1754097#1"],"kind":"concept","name":"Hermite constant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
