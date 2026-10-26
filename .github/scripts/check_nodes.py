@@ -18,7 +18,7 @@ from jsonschema import Draft202012Validator
 SCHEMA = Path(__file__).resolve().parents[2] / "schema" / "node.v1.json"
 
 # Crockford base32 without I, L, O and U.
-TAG = re.compile(r"^[0-9A-HJKMNP-TV-Z]{6}$")
+TAG = re.compile(r"^([0-9A-HJKMNP-TV-Z]{6}|[0-9A-HJKMNP-TV-Z]{10})$")
 PROVISIONAL = re.compile(r"^~[0-9a-f]{8}$")
 PROVISIONAL_IN_TEXT = re.compile(r"~[0-9a-f]{8}")
 COMMIT = re.compile(r"^[0-9a-f]{7,40}$")

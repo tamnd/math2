@@ -1,0 +1,12 @@
+# The external sources of math2 and each snapshot that math2 used (spec 09.2). m2 ingest writes this file. A maintainer approves the class of each new source.
+sources:
+  - id: wikidata
+    name: Wikidata
+    home: https://www.wikidata.org
+    licence: CC0-1.0
+    class: open
+    attribution: Wikidata, the Wikimedia Foundation, https://www.wikidata.org, CC0 1.0
+    snapshots:
+      - url: https://query.wikidata.org/sparql
+        hash: blake3:651ed2748546bb40b554b6c5b2bb97d20dbdc89babecb0205552d99ba5a87729
+        date: "2026-10-26"

@@ -1,0 +1,2 @@
+{"id":"EC90K01S8M","mentions":["m2://rec/wikidata/Q6969052#1"],"kind":"unknown","name":"Nathan Fine","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"EC9BACDQ9R","mentions":["m2://rec/wikidata/Q5106672#1"],"kind":"unknown","name":"Chris Godsil","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

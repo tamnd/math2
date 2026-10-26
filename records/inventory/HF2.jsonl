@@ -1,0 +1,2 @@
+{"id":"HF25B4ZJMH","mentions":["m2://rec/wikidata/Q56653513#1"],"kind":"unknown","name":"open map","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"HF27RW7GWZ","mentions":["m2://rec/wikidata/Q9890#1"],"kind":"unknown","name":"Ω/ω","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a notation: the notation register holds it (corpus spec K10.4)","rule":"symbol","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,0 +1,18 @@
+# The rules that give outcomes to many rows of the inventory (corpus spec K4.4). A curator approves each rule once. Each outcome that a rule gives names the rule in its field rule, and rule I04 checks that the rule is in this file. The code of each rule is in the inventory package of tamnd/math2-agent.
+rules:
+  - id: person
+    outcome: out_of_scope
+    reason: a person, not an item of mathematics
+    match: each mention of the row is a ProofWiki page in the namespace Mathematician
+  - id: book
+    outcome: out_of_scope
+    reason: a book, not an item of mathematics
+    match: each mention of the row is a ProofWiki page in the namespace Book
+  - id: symbol
+    outcome: out_of_scope
+    reason: "a notation: the notation register holds it (corpus spec K10.4)"
+    match: each mention of the row is a ProofWiki page in the namespace Symbols
+  - id: identifiers
+    outcome: merged
+    reason: the row has a shared identifier with an older row
+    match: the import found that two rows have a mention with the same identifier, and it kept the older row
