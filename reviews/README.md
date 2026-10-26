@@ -18,6 +18,16 @@ A `not-faithful` review is as useful as a positive review. It sends the binding 
 - You cannot review a binding that you wrote. The author of a binding is in `registers/bindings.reg` (rule V02).
 - Your review counts only when you have a record in `registers/reviewers.reg`. Add the record in the pull request of your first review. The fields are in `registers/README.md`.
 
+## Start as a reviewer
+
+1. Do the practice set in [PRACTICE.md](PRACTICE.md). It has 20 items with the answers, and it takes about 20 minutes.
+2. Find a binding to review. After `m2 build`, `m2 review queue -reviewer github:octocat -area 20` lists the bindings at F1 that wait for a review, in an area of MSC2020. The nodes that more nodes use come first. The list leaves out the bindings that you wrote.
+3. Do the review with `m2 review`, as in the next section.
+4. In the pull request of your first review, add your record to `registers/reviewers.reg`. The fields are in `registers/README.md`. Without the record, your review does not count.
+5. Sign the commit, as in "Sign the commit".
+
+After the merge, the site has a page for you at `reviewers/SLUG/`, with each review that you did. The slug is your reviewer id with each character that is not a letter, a digit or a hyphen changed to a hyphen, for example `github-octocat`. `m2 review export github:octocat` writes the same list as text that you can put in a CV or a report. Each line has the date, the review id, the node and the verdict. Give `-json` for JSON.
+
 ## With m2 review
 
 1. Install the m2 toolchain and run `m2 build`, as in the next section.

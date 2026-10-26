@@ -100,7 +100,7 @@ CONTRIBUTING.md has the rules and the steps for the maintainer.
 
 ## Fidelity reviews
 
-A fidelity review says that the Lean statement of a node says what its informal statement says. One review gives the binding F2, and E5 needs F2. The reviews are in `reviews/`, and `reviews/README.md` is the guide for reviewers. Each commit that changes `reviews/` must be signed.
+A fidelity review says that the Lean statement of a node says what its informal statement says. One review gives the binding F2, and E5 needs F2. The reviews are in `reviews/`, and `reviews/README.md` is the guide for reviewers. A new reviewer starts with the practice set in `reviews/PRACTICE.md`. Each commit that changes `reviews/` must be signed.
 
 ## Check the content
 
