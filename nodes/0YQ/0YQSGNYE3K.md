@@ -1,0 +1,17 @@
+---
+tag: 0YQSGNYE3K
+kind: concept
+name: Matrix of a linear map
+msc: [15A04]
+sources:
+  - url: https://en.wikipedia.org/wiki/Transformation_matrix
+    locator: lead section
+same_as:
+  wikidata: Q1482183
+  wikipedia: Transformation matrix
+---
+
+## Summary
+
+The matrix of a linear map in two bases is a matrix with one column for each basis vector of the domain.
+Its column $j$ is the coordinate vector of the image of basis vector $j$.

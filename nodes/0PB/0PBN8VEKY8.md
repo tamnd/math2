@@ -1,0 +1,13 @@
+---
+tag: 0PBN8VEKY8
+kind: concept
+name: Annihilating polynomial
+msc: [15A18]
+sources:
+  - url: https://en.wikipedia.org/wiki/Minimal_polynomial_(linear_algebra)
+    locator: Formal definition
+---
+
+## Summary
+
+An annihilating polynomial of an endomorphism $T$ is a polynomial $p$ with $p(T) = 0$.

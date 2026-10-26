@@ -1,0 +1,32 @@
+---
+tag: 09DZ8CD1AK
+kind: statement
+role: proposition
+name: Coordinates in an orthonormal basis
+msc: [15A63, 46C05]
+uses: [0FWJ0VW561]
+sources:
+  - url: https://en.wikipedia.org/wiki/Orthonormal_basis
+    locator: Basic formula
+---
+
+## Statement
+
+Let $V$ be a finite-dimensional inner product space over $\R$ or $\C$, and let $(e_1, \dots, e_n)$ be an [[orthonormal basis|0S9GGTR0EX]] of $V$.
+Then, for each $v \in V$,
+$$v = \sum_{i=1}^{n} \langle v, e_i \rangle\, e_i.$$
+So the coordinates of $v$ in this basis are the inner products $\langle v, e_i \rangle$.
+
+## Remarks
+
+If $v = \sum_j a_j e_j$, then $\langle v, e_i \rangle = \sum_j a_j \langle e_j, e_i \rangle = a_i$.
+For the basis $\frac{1}{\sqrt 2}(1, 1)$, $\frac{1}{\sqrt 2}(1, -1)$ of $\R^2$, the vector $(3, 1)$ has the coordinates $4/\sqrt 2$ and $2/\sqrt 2$.
+With the convention of linearity in the second argument, the coefficient is written $\langle e_i, v \rangle$.
+
+## Explanations
+
+### L1 human
+
+In an orthonormal basis, we find each coordinate of a vector with one inner product.
+This is much easier than solving a linear system.
+It is the finite-dimensional form of a Fourier expansion.

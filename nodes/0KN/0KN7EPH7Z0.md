@@ -1,0 +1,13 @@
+---
+tag: 0KN7EPH7Z0
+kind: concept
+name: Restriction of an endomorphism to an invariant subspace
+msc: [15A04, 47A15]
+sources:
+  - url: https://en.wikipedia.org/wiki/Invariant_subspace
+    locator: For a single operator
+---
+
+## Summary
+
+The restriction of an endomorphism to an invariant subspace is the endomorphism of the subspace that agrees with the original map on it.

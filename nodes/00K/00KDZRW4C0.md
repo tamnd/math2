@@ -1,0 +1,17 @@
+---
+tag: 00KDZRW4C0
+kind: concept
+name: Determinant
+msc: [15A15]
+sources:
+  - url: https://en.wikipedia.org/wiki/Determinant
+    locator: As an alternating multilinear form
+same_as:
+  wikidata: Q178546
+  wikipedia: Determinant
+---
+
+## Summary
+
+The determinant is the unique function of square matrices that is multilinear and alternating in the rows and is $1$ on the identity matrix.
+It is zero exactly for the singular matrices, over a field.

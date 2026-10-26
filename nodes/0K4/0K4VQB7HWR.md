@@ -1,0 +1,30 @@
+---
+tag: 0K4VQB7HWR
+kind: statement
+role: proposition
+name: Determinant of a matrix with two equal rows
+msc: [15A15]
+uses: [0C3CFHDN6R]
+sources:
+  - url: https://en.wikipedia.org/wiki/Determinant
+    locator: Basic rules
+---
+
+## Statement
+
+Let $K$ be a commutative ring and let $A$ be an $n \times n$ matrix over $K$.
+If two different rows of $A$ are equal, then $\det A = 0$, where $\det$ is the [[determinant|00KDZRW4C0]].
+
+## Remarks
+
+This is property 2 of the definition of the determinant.
+The same holds for two equal columns.
+Over a field, more generally, $\det A = 0$ when the rows of $A$ are linearly dependent.
+
+## Explanations
+
+### L1 human
+
+Two equal rows mean that the rows span less than the full space.
+Then the box spanned by the rows is flat, and its volume is zero.
+So the determinant is zero.

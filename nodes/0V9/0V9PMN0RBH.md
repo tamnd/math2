@@ -1,0 +1,37 @@
+---
+tag: 0V9PMN0RBH
+kind: object
+name: Special linear group
+msc: [15A15, 20G15]
+instance_of: [G5S1M9]
+uses: [0C3CFHDN6R, 0FCHE902D7]
+sources:
+  - url: https://en.wikipedia.org/wiki/Special_linear_group
+    locator: lead section
+same_as:
+  wikidata: Q2140900
+  wikipedia: Special linear group
+---
+
+## Description
+
+Let $F$ be a field and let $n \ge 1$.
+The *special linear group* is the set
+$$SL_n(F) = \{A \in GL_n(F) : \det A = 1\}$$
+of $n \times n$ matrices over $F$ with [[determinant|00KDZRW4C0]] $1$, with matrix multiplication.
+It is a subgroup of the [[general linear group|0FCHE902D7]] $GL_n(F)$.
+
+## Remarks
+
+It is the kernel of the group homomorphism $\det \colon GL_n(F) \to F^\times$, so it is a normal subgroup.
+The quotient $GL_n(F) / SL_n(F)$ is isomorphic to $F^\times$.
+Over $\R$, its elements are the linear maps that keep volume and orientation.
+$SL_2(\Z)$ is the analogous group of integer matrices with determinant $1$.
+
+## Explanations
+
+### L1 human
+
+The special linear group collects the matrices with determinant $1$.
+In the real case, these maps keep the volume of every region, and they do not flip orientation.
+Shears, such as $\begin{pmatrix} 1 & t \\ 0 & 1 \end{pmatrix}$, are typical elements.

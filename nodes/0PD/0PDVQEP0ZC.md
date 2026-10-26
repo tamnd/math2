@@ -1,0 +1,14 @@
+---
+tag: 0PDVQEP0ZC
+kind: concept
+name: Matrix–vector product
+msc: [15A99]
+sources:
+  - url: https://en.wikipedia.org/wiki/Matrix_multiplication
+    locator: lead section
+---
+
+## Summary
+
+The product of an $m \times n$ matrix and a column vector with $n$ entries is a column vector with $m$ entries.
+Its entry $i$ is the dot product of row $i$ of the matrix with the vector.

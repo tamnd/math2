@@ -1,0 +1,31 @@
+---
+tag: 0BVTDM872V
+kind: statement
+role: theorem
+name: Pythagorean theorem in an inner product space
+msc: [46C05]
+uses: [0TS7VZJBWD, 0KG4D8AP6G]
+sources:
+  - url: https://en.wikipedia.org/wiki/Pythagorean_theorem
+    locator: Inner product spaces
+---
+
+## Statement
+
+Let $V$ be an inner product space over $\R$ or $\C$, with the [[induced norm|0MFJJV97RJ]] $\norm{\cdot}$.
+If $x, y \in V$ are [[orthogonal|0Y2X7P2WB7]], then
+$$\norm{x + y}^2 = \norm{x}^2 + \norm{y}^2.$$
+
+## Remarks
+
+The proof: $\norm{x + y}^2 = \norm{x}^2 + 2 \operatorname{Re} \langle x, y \rangle + \norm{y}^2$.
+For pairwise orthogonal $x_1, \dots, x_k$, $\norm{x_1 + \cdots + x_k}^2 = \norm{x_1}^2 + \cdots + \norm{x_k}^2$.
+In a real space, the converse holds; in a complex space, the equality only gives $\operatorname{Re} \langle x, y \rangle = 0$.
+
+## Explanations
+
+### L1 human
+
+This is the theorem of Pythagoras for vectors.
+Two orthogonal vectors are the legs of a right triangle, and their sum is the hypotenuse.
+It holds in every inner product space, even in spaces of functions.

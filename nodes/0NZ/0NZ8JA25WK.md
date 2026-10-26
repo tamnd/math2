@@ -1,0 +1,17 @@
+---
+tag: 0NZ8JA25WK
+kind: concept
+name: Module over a ring
+msc: [16D10, 13C05]
+sources:
+  - url: https://en.wikipedia.org/wiki/Module_(mathematics)
+    locator: Formal definition
+same_as:
+  wikidata: Q18848
+  wikipedia: Module (mathematics)
+---
+
+## Summary
+
+A module over a ring is an abelian group with a multiplication by the elements of the ring.
+This multiplication satisfies the same axioms as for a vector space.

@@ -1,0 +1,17 @@
+---
+tag: 0NRYHJPQG2
+kind: concept
+name: Linear map
+aliases: [linear-transformation]
+msc: [15A04]
+sources:
+  - url: https://en.wikipedia.org/wiki/Linear_map
+    locator: Definition and first consequences
+same_as:
+  wikidata: Q207643
+  wikipedia: Linear map
+---
+
+## Summary
+
+A linear map is a map between vector spaces over the same field that preserves addition and scalar multiplication.
