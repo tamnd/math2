@@ -1,0 +1,35 @@
+---
+tag: 0N3WFZEFPM
+kind: statement
+role: theorem
+name: Liouville's theorem on Diophantine approximation
+msc: [11J68]
+uses: [0J1R5NP36S, 0MB4TGMXG6, 079EGSD32Y]
+sources:
+  - url: https://en.wikipedia.org/wiki/Liouville_number
+    locator: Liouville numbers and transcendence
+---
+
+## Statement
+
+Let $\alpha$ be a real [[algebraic number|0MB4TGMXG6]] of degree $d \ge 2$.
+Then there is a constant $c > 0$ such that $\left| \alpha - \frac{p}{q} \right| > \frac{c}{q^d}$ for all integers $p$ and $q$ with $q > 0$.
+As a consequence, each [[Liouville number|0J1R5NP36S]] is [[transcendental|079EGSD32Y]].
+
+## Remarks
+
+The proof uses the minimal polynomial $f$ of $\alpha$: $q^d f(p/q)$ is a nonzero integer, and the mean value theorem bounds $f(p/q)$ by $|\alpha - p/q|$.
+For a Liouville number $x$, the approximations are better than $c / q^d$ for every $d$, so $x$ is not algebraic.
+Roth's theorem improves the exponent $d$ to $2 + \varepsilon$ for each $\varepsilon > 0$.
+
+## History
+
+Joseph Liouville proved the bound in 1844. With it, he gave the first proof that transcendental numbers exist.
+
+## Explanations
+
+### L1 human
+
+Algebraic numbers cannot be approximated by fractions too well: the error is at least a constant times $1/q^d$.
+A number with better approximations of every order cannot be algebraic.
+This gave the first explicit transcendental numbers.

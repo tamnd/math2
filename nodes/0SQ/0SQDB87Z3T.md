@@ -1,0 +1,32 @@
+---
+tag: 0SQDB87Z3T
+kind: definition
+name: Quadratic residue
+aliases: [quadratic-nonresidue]
+msc: [11A15]
+defines: 0DKCECSYCF
+uses: [0TPW25CBN6]
+sources:
+  - url: https://en.wikipedia.org/wiki/Quadratic_residue
+    locator: History, conventions, and elementary facts
+---
+
+## Definition
+
+Let $n$ be a positive integer and let $q$ be an integer.
+Then $q$ is a quadratic residue modulo $n$ if there is an integer $x$ with $x^2 \equiv q \pmod n$.
+Otherwise $q$ is a quadratic nonresidue modulo $n$.
+
+## Remarks
+
+Many texts also require $\gcd(q, n) = 1$, and so they do not count $0$ as a quadratic residue.
+Modulo $7$, the squares of $1, \dots, 6$ are $1, 4, 2, 2, 4, 1$. So the nonzero quadratic residues modulo $7$ are $1$, $2$ and $4$.
+Modulo an odd prime $p$, exactly $(p - 1)/2$ of the classes $1, \dots, p - 1$ are quadratic residues.
+The product of two quadratic residues is a quadratic residue.
+
+## Explanations
+
+### L1 human
+
+A quadratic residue modulo $n$ is a number that is a perfect square in the arithmetic modulo $n$.
+For example, $2$ is not a square in the integers, but $3^2 = 9 \equiv 2 \pmod 7$. So $2$ is a quadratic residue modulo $7$.

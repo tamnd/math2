@@ -1,0 +1,18 @@
+---
+tag: 03BR7SAX0Q
+kind: concept
+name: Modulo operation
+msc: [11A07]
+sources:
+  - url: https://en.wikipedia.org/wiki/Modulo
+    locator: lead section
+same_as:
+  wikidata: Q1799665
+  wikipedia: Modulo
+---
+
+## Summary
+
+The modulo operation takes two integers $a$ and $n$ with $n \neq 0$, and gives the remainder of the division of $a$ by $n$.
+We write the result as $a \bmod n$.
+The [[definition of the modulo operation|04FHQSJCQ5]] gives the convention that this graph uses.

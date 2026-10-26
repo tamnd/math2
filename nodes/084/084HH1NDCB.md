@@ -1,0 +1,40 @@
+---
+tag: 084HH1NDCB
+kind: statement
+role: theorem
+name: Fundamental theorem of arithmetic
+aliases: [unique-factorization-theorem, unique-prime-factorization-theorem]
+msc: [11A51]
+uses: [0AEKDFCYFA, 020K0X7HVR, 051VYKA1EX]
+sources:
+  - url: https://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic
+    locator: lead section
+same_as:
+  wikidata: Q670235
+  wikipedia: Fundamental theorem of arithmetic
+---
+
+## Statement
+
+Each positive integer $n$ has exactly one [[prime factorization|0AEKDFCYFA]].
+That is, there are [[primes|0SN0MAEKYX]] $p_1 \le p_2 \le \dots \le p_k$ with $n = p_1 p_2 \cdots p_k$.
+If also $n = q_1 q_2 \cdots q_l$ with primes $q_1 \le q_2 \le \dots \le q_l$, then $k = l$ and $p_i = q_i$ for each $i$.
+
+## Remarks
+
+The [[existence of prime factorization|020K0X7HVR]] gives the first part. The uniqueness follows from [[Euclid's lemma|051VYKA1EX]].
+The statement uses the convention that $1$ is not prime. If $1$ were prime, $6 = 2 \cdot 3 = 1 \cdot 2 \cdot 3$ would have two factorizations.
+Unique factorization fails in some rings. In $\mathbb{Z}[\sqrt{-5}]$, $6 = 2 \cdot 3 = (1 + \sqrt{-5})(1 - \sqrt{-5})$ gives two different factorizations into irreducible elements.
+
+## History
+
+Euclid's Elements contains the main steps of the proof, in Book VII, Propositions 30 to 32, and in Book IX, Proposition 14.
+Gauss proved the uniqueness in his Disquisitiones Arithmeticae of 1801.
+
+## Explanations
+
+### L1 human
+
+Each positive integer has one and only one recipe as a product of primes.
+You can multiply the primes in any order, but the list of primes stays the same.
+For example, $12 = 2 \cdot 2 \cdot 3$, and no other list of primes has the product $12$.

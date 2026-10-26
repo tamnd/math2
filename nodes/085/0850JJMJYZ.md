@@ -1,0 +1,29 @@
+---
+tag: 0850JJMJYZ
+kind: statement
+role: proposition
+name: P-adic valuation of a product
+msc: [11A51]
+uses: [04VCPS30ZE]
+sources:
+  - url: https://en.wikipedia.org/wiki/P-adic_valuation
+    locator: Definition and properties
+---
+
+## Statement
+
+Let $p$ be a prime number, and let $a$ and $b$ be nonzero integers.
+Then $\nu_p(a b) = \nu_p(a) + \nu_p(b)$, where $\nu_p$ is the [[p-adic valuation|04VCPS30ZE]].
+
+## Remarks
+
+With the convention $\nu_p(0) = \infty$, the formula holds for all integers $a$ and $b$.
+The proof uses [[Euclid's lemma|051VYKA1EX]]. Write $a = p^i a'$ and $b = p^j b'$ with $p \nmid a'$ and $p \nmid b'$. Then $p \nmid a' b'$, so $\nu_p(a b) = i + j$.
+For example, $\nu_2(12 \cdot 10) = \nu_2(120) = 3 = 2 + 1$.
+
+## Explanations
+
+### L1 human
+
+The factors $p$ in $a b$ come from $a$ or from $b$, and no new factor $p$ appears.
+So the number of factors $p$ in the product is the sum of the numbers of factors $p$ in $a$ and in $b$.

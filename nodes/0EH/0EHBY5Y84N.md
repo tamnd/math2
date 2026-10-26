@@ -1,0 +1,40 @@
+---
+tag: 0EHBY5Y84N
+kind: statement
+role: theorem
+name: Prime number theorem
+msc: [11N05]
+uses: [0XRJB5SSNE]
+sources:
+  - url: https://en.wikipedia.org/wiki/Prime_number_theorem
+    locator: Statement
+same_as:
+  wikidata: Q386292
+  wikipedia: Prime number theorem
+---
+
+## Statement
+
+Let $\pi(x)$ be the [[prime-counting function|0XRJB5SSNE]], and let $\ln$ be the natural logarithm.
+Then
+$$\lim_{x \to \infty} \frac{\pi(x)}{x / \ln x} = 1.$$
+
+## Remarks
+
+We write this as $\pi(x) \sim x / \ln x$.
+An equivalent form: the $n$-th prime $p_n$ satisfies $p_n \sim n \ln n$.
+The logarithmic integral $\operatorname{li}(x) = \int_2^x \frac{dt}{\ln t}$ gives a better approximation of $\pi(x)$, with the same limit.
+For example, $\pi(10^6) = 78498$ and $10^6 / \ln 10^6 \approx 72382$.
+
+## History
+
+Legendre and Gauss conjectured the result from tables of primes, at the end of the 18th century.
+Hadamard and de la Vallée Poussin proved it independently in 1896, with methods of complex analysis. Selberg and Erdős found elementary proofs in 1949.
+
+## Explanations
+
+### L1 human
+
+Near a large number $x$, about one number in $\ln x$ is prime.
+For numbers with $100$ digits, $\ln x \approx 230$, so about one number in $230$ is prime.
+The theorem makes this rough rule precise.
