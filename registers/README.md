@@ -26,7 +26,7 @@ A new tag has ten characters: nine random characters and one check character (co
 
 Cut-over commit: `fef69d19795485811da7b6aa4a91d889c1a7324c`
 
-The cut-over commit is the last commit of main at which the mint workflow made tags of six characters. Rule T10: the commit of each record of a tag of six characters is the cut-over commit or an ancestor of it.
+The cut-over commit is the last commit of main at which the mint workflow made tags of six characters. Rule T10: the commit of main that added each record of a tag of six characters to this file is the cut-over commit or an ancestor of it. The rule finds that commit with `git blame`. It does not use the commit field of the record, because that field is the commit of the pull request at which the mint ran.
 
 ## aliases.reg
 
