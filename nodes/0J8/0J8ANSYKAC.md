@@ -1,0 +1,29 @@
+---
+tag: 0J8ANSYKAC
+kind: definition
+name: Composition of an integer
+msc: [05A17]
+defines: 0P7FZHXZ5S
+sources:
+  - url: https://en.wikipedia.org/wiki/Composition_(combinatorics)
+    locator: lead section
+---
+
+## Definition
+
+Let $n$ be a natural number.
+A composition of $n$ is a finite sequence $(a_1, \dots, a_k)$ of positive integers with $a_1 + \dots + a_k = n$.
+The number $k$ is the number of parts of the composition.
+
+## Remarks
+
+Unlike a [[partition|0404R9P9J3]], a composition records the order of its parts.
+The compositions of $3$ are $(3)$, $(2, 1)$, $(1, 2)$ and $(1, 1, 1)$.
+The number $0$ has exactly one composition, the empty sequence.
+
+## Explanations
+
+### L1 human
+
+A composition of $n$ writes $n$ as an ordered sum of positive integers.
+So $2 + 1$ and $1 + 2$ are two different compositions of $3$.

@@ -1,0 +1,27 @@
+---
+tag: 0N5FCV2YV6
+kind: definition
+name: Boolean ring
+msc: ["06E20"]
+defines: 0RCV1ZFP8G
+sources:
+  - url: https://en.wikipedia.org/wiki/Boolean_ring
+    locator: lead section
+---
+
+## Definition
+
+A Boolean ring is a ring $R$ with identity such that $x^2 = x$ for every $x \in R$.
+
+## Remarks
+
+In a Boolean ring, $x + x = 0$ for every $x$, and the ring is commutative.
+The ring $\mathbb{Z}/2\mathbb{Z}$ is a Boolean ring. The power set of a set is a Boolean ring, with symmetric difference as addition and intersection as multiplication.
+Each Boolean ring is a [[Boolean algebra|06GKBTAA5E]] with $x \wedge y = xy$, $x \vee y = x + y + xy$ and $\neg x = 1 + x$. This gives a correspondence between Boolean rings and Boolean algebras.
+
+## Explanations
+
+### L1 human
+
+A Boolean ring is a ring in which squaring changes nothing.
+It is the same thing as a Boolean algebra, written with plus and times instead of or and and.

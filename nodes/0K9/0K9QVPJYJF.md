@@ -1,0 +1,13 @@
+---
+tag: 0K9QVPJYJF
+kind: concept
+name: Ramsey number
+msc: [05C55, 05D10]
+sources:
+  - url: https://en.wikipedia.org/wiki/Ramsey's_theorem
+    locator: lead section
+---
+
+## Summary
+
+The Ramsey number $R(r, s)$ is the least $n$ such that every two-colouring of the edges of $K_n$ has a blue $K_r$ or a red $K_s$. Ramsey numbers measure how large a structure must be to contain order. The node [[Ramsey number|01DSVCRF6X]] gives the precise definition.

@@ -1,0 +1,30 @@
+---
+tag: 0ZN07RQ3JS
+kind: definition
+name: Stirling numbers of the second kind
+msc: [11B73]
+defines: 0JCQGPY8Z4
+sources:
+  - url: https://en.wikipedia.org/wiki/Stirling_numbers_of_the_second_kind
+    locator: Definition
+---
+
+## Definition
+
+Let $n$ and $k$ be natural numbers.
+The Stirling number of the second kind $S(n, k)$ is the number of partitions of an $n$-element set into $k$ nonempty blocks.
+A partition into blocks is a set of pairwise disjoint nonempty subsets whose union is the whole set.
+
+## Remarks
+
+Other notations are $\left\{ {n \atop k} \right\}$ and $S_n^{(k)}$.
+Boundary values: $S(0, 0) = 1$, $S(n, 0) = 0$ for $n \ge 1$, and $S(n, k) = 0$ for $k > n$.
+Example: $S(4, 2) = 7$. The partitions of $\{1, 2, 3, 4\}$ into two blocks are $1|234$, $2|134$, $3|124$, $4|123$, $12|34$, $13|24$ and $14|23$.
+The values satisfy a [[recurrence|0C019SDTER]], and the sum $\sum_k S(n, k)$ is the [[Bell number|0WW85SQVS3]] $B_n$.
+
+## Explanations
+
+### L1 human
+
+$S(n, k)$ counts the ways to split $n$ labelled objects into $k$ groups, when the groups have no labels and none is empty.
+For example, there are $S(3, 2) = 3$ ways to split three people into two teams.

@@ -1,0 +1,30 @@
+---
+tag: 0WFCGVMRRC
+kind: definition
+name: Factorial
+msc: [05A10]
+defines: 0XWG0JGDFW
+sources:
+  - url: https://en.wikipedia.org/wiki/Factorial
+    locator: Definition
+---
+
+## Definition
+
+Let $n$ be a natural number.
+The factorial of $n$ is the natural number $n!$ defined by the recursion
+$$0! = 1, \qquad (n+1)! = (n+1) \cdot n!.$$
+For $n \ge 1$ this gives $n! = 1 \cdot 2 \cdots n$, the product of the positive integers up to $n$.
+
+## Remarks
+
+The first values are $0! = 1$, $1! = 1$, $2! = 2$, $3! = 6$, $4! = 24$ and $5! = 120$.
+The value $n!$ is the [[number of permutations|0CEBCS0E0E]] of an $n$-element set.
+The convention $0! = 1$ agrees with the empty product, and it makes the [[factorial formula for binomial coefficients|033KTKKRV6]] true for $k = 0$ and $k = n$.
+
+## Explanations
+
+### L1 human
+
+The factorial $n!$ multiplies all whole numbers from $1$ to $n$.
+It counts the ways to put $n$ different books in a row: $n$ choices for the first place, $n - 1$ for the second, and so on.
