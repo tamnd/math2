@@ -1,0 +1,3072 @@
+{
+  "floor": 0.9,
+  "areas": [
+    {
+      "msc": "00",
+      "rows": 51,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 0.6116941529235382,
+      "low": 0.4339630302282112,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 44,
+          "in_b": 14,
+          "in_both": 7,
+          "total": 83.375,
+          "low": 51,
+          "high": 117.52153166867757,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 44,
+          "in_b": 14,
+          "in_both": 7,
+          "total": 83.375,
+          "low": 51,
+          "high": 117.52153166867757
+        }
+      ]
+    },
+    {
+      "msc": "01",
+      "rows": 6,
+      "sources": 1,
+      "method": "none",
+      "recall": null,
+      "low": null,
+      "high": null
+    },
+    {
+      "msc": "03",
+      "rows": 79,
+      "sources": 5,
+      "method": "lincoln-petersen",
+      "recall": 0.7077267637178052,
+      "low": 0.5835134546223493,
+      "high": 0.8991246635725071,
+      "captures": [
+        {
+          "a": "mathlib_100",
+          "b": "mathlib_1000",
+          "in_a": 3,
+          "in_b": 50,
+          "in_both": 3,
+          "total": 50,
+          "low": 50,
+          "high": 50
+        },
+        {
+          "a": "mathlib_100",
+          "b": "thousand_plus",
+          "in_a": 3,
+          "in_b": 52,
+          "in_both": 3,
+          "total": 52,
+          "low": 52,
+          "high": 52
+        },
+        {
+          "a": "mathlib_100",
+          "b": "wikidata",
+          "in_a": 3,
+          "in_b": 50,
+          "in_both": 3,
+          "total": 50,
+          "low": 50,
+          "high": 50
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_overview",
+          "in_a": 50,
+          "in_b": 3,
+          "in_both": 3,
+          "total": 50,
+          "low": 50,
+          "high": 50
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 50,
+          "in_b": 50,
+          "in_both": 22,
+          "total": 112.08695652173913,
+          "low": 87.24700053883701,
+          "high": 136.92691250464122
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "thousand_plus",
+          "in_a": 3,
+          "in_b": 52,
+          "in_both": 3,
+          "total": 52,
+          "low": 52,
+          "high": 52
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "wikidata",
+          "in_a": 3,
+          "in_b": 50,
+          "in_both": 3,
+          "total": 50,
+          "low": 50,
+          "high": 50
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 52,
+          "in_b": 50,
+          "in_both": 23,
+          "total": 111.625,
+          "low": 87.86323320962855,
+          "high": 135.38676679037147,
+          "default": true
+        }
+      ]
+    },
+    {
+      "msc": "05",
+      "rows": 89,
+      "sources": 5,
+      "method": "lincoln-petersen",
+      "recall": 0.892294471498138,
+      "low": 0.8055065793387526,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_100",
+          "b": "mathlib_1000",
+          "in_a": 2,
+          "in_b": 81,
+          "in_both": 2,
+          "total": 81,
+          "low": 81,
+          "high": 81
+        },
+        {
+          "a": "mathlib_100",
+          "b": "thousand_plus",
+          "in_a": 2,
+          "in_b": 81,
+          "in_both": 2,
+          "total": 81,
+          "low": 81,
+          "high": 81
+        },
+        {
+          "a": "mathlib_100",
+          "b": "wikidata",
+          "in_a": 2,
+          "in_b": 42,
+          "in_both": 2,
+          "total": 42,
+          "low": 42,
+          "high": 42
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_overview",
+          "in_a": 81,
+          "in_b": 7,
+          "in_both": 7,
+          "total": 81,
+          "low": 81,
+          "high": 81
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 81,
+          "in_b": 42,
+          "in_both": 34,
+          "total": 99.74285714285715,
+          "low": 89,
+          "high": 110.4894761667383,
+          "default": true
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "thousand_plus",
+          "in_a": 7,
+          "in_b": 81,
+          "in_both": 7,
+          "total": 81,
+          "low": 81,
+          "high": 81
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "wikidata",
+          "in_a": 7,
+          "in_b": 42,
+          "in_both": 3,
+          "total": 85,
+          "low": 46,
+          "high": 135.76362162021147
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 81,
+          "in_b": 42,
+          "in_both": 34,
+          "total": 99.74285714285715,
+          "low": 89,
+          "high": 110.4894761667383
+        }
+      ]
+    },
+    {
+      "msc": "06",
+      "rows": 15,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 0.5172413793103449,
+      "low": 0.3055984194044033,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 9,
+          "in_b": 8,
+          "in_both": 2,
+          "total": 29,
+          "low": 15,
+          "high": 49.08402350128081,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 9,
+          "in_b": 8,
+          "in_both": 2,
+          "total": 29,
+          "low": 15,
+          "high": 49.08402350128081
+        }
+      ]
+    },
+    {
+      "msc": "08",
+      "rows": 5,
+      "sources": 1,
+      "method": "none",
+      "recall": null,
+      "low": null,
+      "high": null
+    },
+    {
+      "msc": "11",
+      "rows": 161,
+      "sources": 6,
+      "method": "lincoln-petersen",
+      "recall": 0.8237269166200336,
+      "low": 0.7472602056784043,
+      "high": 0.9176271832777186,
+      "captures": [
+        {
+          "a": "mathlib_100",
+          "b": "mathlib_1000",
+          "in_a": 14,
+          "in_b": 126,
+          "in_both": 14,
+          "total": 126,
+          "low": 126,
+          "high": 126
+        },
+        {
+          "a": "mathlib_100",
+          "b": "thousand_plus",
+          "in_a": 14,
+          "in_b": 126,
+          "in_both": 14,
+          "total": 126,
+          "low": 126,
+          "high": 126
+        },
+        {
+          "a": "mathlib_100",
+          "b": "wikidata",
+          "in_a": 14,
+          "in_b": 98,
+          "in_both": 12,
+          "total": 113.23076923076923,
+          "low": 100,
+          "high": 133.59538176788817
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_overview",
+          "in_a": 126,
+          "in_b": 10,
+          "in_both": 8,
+          "total": 154.22222222222223,
+          "low": 128,
+          "high": 193.7650539335841
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_undergrad",
+          "in_a": 126,
+          "in_b": 4,
+          "in_both": 3,
+          "total": 157.75,
+          "low": 127,
+          "high": 218.99215949817577
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 126,
+          "in_b": 98,
+          "in_both": 63,
+          "total": 195.453125,
+          "low": 175.45251811843238,
+          "high": 215.45373188156762,
+          "default": true
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "thousand_plus",
+          "in_a": 10,
+          "in_b": 126,
+          "in_both": 8,
+          "total": 154.22222222222223,
+          "low": 128,
+          "high": 193.7650539335841
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "wikidata",
+          "in_a": 10,
+          "in_b": 98,
+          "in_both": 8,
+          "total": 120,
+          "low": 100,
+          "high": 150.49044440476393
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "thousand_plus",
+          "in_a": 4,
+          "in_b": 126,
+          "in_both": 3,
+          "total": 157.75,
+          "low": 127,
+          "high": 218.99215949817577
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "wikidata",
+          "in_a": 4,
+          "in_b": 98,
+          "in_both": 4,
+          "total": 98,
+          "low": 98,
+          "high": 98
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 126,
+          "in_b": 98,
+          "in_both": 63,
+          "total": 195.453125,
+          "low": 175.45251811843238,
+          "high": 215.45373188156762
+        }
+      ]
+    },
+    {
+      "msc": "12",
+      "rows": 26,
+      "sources": 4,
+      "method": "lincoln-petersen",
+      "recall": 0.8478260869565217,
+      "low": 0.6975192926014409,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_100",
+          "b": "mathlib_1000",
+          "in_a": 3,
+          "in_b": 18,
+          "in_both": 3,
+          "total": 18,
+          "low": 18,
+          "high": 18
+        },
+        {
+          "a": "mathlib_100",
+          "b": "thousand_plus",
+          "in_a": 3,
+          "in_b": 18,
+          "in_both": 3,
+          "total": 18,
+          "low": 18,
+          "high": 18
+        },
+        {
+          "a": "mathlib_100",
+          "b": "wikidata",
+          "in_a": 3,
+          "in_b": 19,
+          "in_both": 3,
+          "total": 19,
+          "low": 19,
+          "high": 19
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 18,
+          "in_b": 19,
+          "in_both": 11,
+          "total": 30.666666666666668,
+          "low": 26,
+          "high": 37.274954651119984,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 18,
+          "in_b": 19,
+          "in_both": 11,
+          "total": 30.666666666666668,
+          "low": 26,
+          "high": 37.274954651119984
+        }
+      ]
+    },
+    {
+      "msc": "13",
+      "rows": 32,
+      "sources": 4,
+      "method": "lincoln-petersen",
+      "recall": 0.4610951008645533,
+      "low": 0.2897016866732872,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_overview",
+          "in_a": 15,
+          "in_b": 1,
+          "in_both": 1,
+          "total": 15,
+          "low": 15,
+          "high": 15
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 15,
+          "in_b": 21,
+          "in_both": 4,
+          "total": 69.4,
+          "low": 32,
+          "high": 110.4584525118357,
+          "default": true
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "thousand_plus",
+          "in_a": 1,
+          "in_b": 15,
+          "in_both": 1,
+          "total": 15,
+          "low": 15,
+          "high": 15
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "wikidata",
+          "in_a": 1,
+          "in_b": 21,
+          "in_both": 1,
+          "total": 21,
+          "low": 21,
+          "high": 21
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 15,
+          "in_b": 21,
+          "in_both": 4,
+          "total": 69.4,
+          "low": 32,
+          "high": 110.4584525118357
+        }
+      ]
+    },
+    {
+      "msc": "14",
+      "rows": 73,
+      "sources": 4,
+      "method": "lincoln-petersen",
+      "recall": 0.8476544356711565,
+      "low": 0.7365139691475969,
+      "high": 0.9982983453282842,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_overview",
+          "in_a": 65,
+          "in_b": 1,
+          "in_both": 1,
+          "total": 65,
+          "low": 65,
+          "high": 65
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 65,
+          "in_b": 32,
+          "in_both": 24,
+          "total": 86.12,
+          "low": 73.12443253223505,
+          "high": 99.11556746776496,
+          "default": true
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "thousand_plus",
+          "in_a": 1,
+          "in_b": 65,
+          "in_both": 1,
+          "total": 65,
+          "low": 65,
+          "high": 65
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "wikidata",
+          "in_a": 1,
+          "in_b": 32,
+          "in_both": 1,
+          "total": 32,
+          "low": 32,
+          "high": 32
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 65,
+          "in_b": 32,
+          "in_both": 24,
+          "total": 86.12,
+          "low": 73.12443253223505,
+          "high": 99.11556746776496
+        }
+      ]
+    },
+    {
+      "msc": "15",
+      "rows": 28,
+      "sources": 6,
+      "method": "lincoln-petersen",
+      "recall": 0.7159090909090908,
+      "low": 0.5364404645500092,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_100",
+          "b": "mathlib_1000",
+          "in_a": 1,
+          "in_b": 18,
+          "in_both": 1,
+          "total": 18,
+          "low": 18,
+          "high": 18
+        },
+        {
+          "a": "mathlib_100",
+          "b": "thousand_plus",
+          "in_a": 1,
+          "in_b": 18,
+          "in_both": 1,
+          "total": 18,
+          "low": 18,
+          "high": 18
+        },
+        {
+          "a": "mathlib_100",
+          "b": "wikidata",
+          "in_a": 1,
+          "in_b": 18,
+          "in_both": 1,
+          "total": 18,
+          "low": 18,
+          "high": 18
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_overview",
+          "in_a": 18,
+          "in_b": 1,
+          "in_both": 1,
+          "total": 18,
+          "low": 18,
+          "high": 18
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_undergrad",
+          "in_a": 18,
+          "in_b": 1,
+          "in_both": 1,
+          "total": 18,
+          "low": 18,
+          "high": 18
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 18,
+          "in_b": 18,
+          "in_both": 8,
+          "total": 39.111111111111114,
+          "low": 28,
+          "high": 52.19591334051894,
+          "default": true
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "thousand_plus",
+          "in_a": 1,
+          "in_b": 18,
+          "in_both": 1,
+          "total": 18,
+          "low": 18,
+          "high": 18
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "wikidata",
+          "in_a": 1,
+          "in_b": 18,
+          "in_both": 1,
+          "total": 18,
+          "low": 18,
+          "high": 18
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "thousand_plus",
+          "in_a": 1,
+          "in_b": 18,
+          "in_both": 1,
+          "total": 18,
+          "low": 18,
+          "high": 18
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "wikidata",
+          "in_a": 1,
+          "in_b": 18,
+          "in_both": 1,
+          "total": 18,
+          "low": 18,
+          "high": 18
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 18,
+          "in_b": 18,
+          "in_both": 8,
+          "total": 39.111111111111114,
+          "low": 28,
+          "high": 52.19591334051894
+        }
+      ]
+    },
+    {
+      "msc": "16",
+      "rows": 15,
+      "sources": 4,
+      "method": "lincoln-petersen",
+      "recall": 0.7142857142857143,
+      "low": 0.4968003591210373,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_overview",
+          "in_a": 9,
+          "in_b": 2,
+          "in_both": 2,
+          "total": 9,
+          "low": 9,
+          "high": 9
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 9,
+          "in_b": 10,
+          "in_both": 4,
+          "total": 21,
+          "low": 15,
+          "high": 30.193214889253923,
+          "default": true
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "thousand_plus",
+          "in_a": 2,
+          "in_b": 9,
+          "in_both": 2,
+          "total": 9,
+          "low": 9,
+          "high": 9
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "wikidata",
+          "in_a": 2,
+          "in_b": 10,
+          "in_both": 1,
+          "total": 15.5,
+          "low": 11,
+          "high": 25.250876883644874
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 9,
+          "in_b": 10,
+          "in_both": 4,
+          "total": 21,
+          "low": 15,
+          "high": 30.193214889253923
+        }
+      ]
+    },
+    {
+      "msc": "17",
+      "rows": 13,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 0.7647058823529411,
+      "low": 0.5464563757974038,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 9,
+          "in_b": 8,
+          "in_both": 4,
+          "total": 17,
+          "low": 13,
+          "high": 23.78963916567,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 9,
+          "in_b": 8,
+          "in_both": 4,
+          "total": 17,
+          "low": 13,
+          "high": 23.78963916567
+        }
+      ]
+    },
+    {
+      "msc": "18",
+      "rows": 5,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 0.8823529411764706,
+      "low": 0.6466056763043516,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 3,
+          "in_b": 4,
+          "in_both": 2,
+          "total": 5.666666666666667,
+          "low": 5,
+          "high": 7.732688071310008,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 3,
+          "in_b": 4,
+          "in_both": 2,
+          "total": 5.666666666666667,
+          "low": 5,
+          "high": 7.732688071310008
+        }
+      ]
+    },
+    {
+      "msc": "19",
+      "rows": 1,
+      "sources": 1,
+      "method": "none",
+      "recall": null,
+      "low": null,
+      "high": null
+    },
+    {
+      "msc": "20",
+      "rows": 59,
+      "sources": 6,
+      "method": "lincoln-petersen",
+      "recall": 0.7850562947799385,
+      "low": 0.6308360927779838,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_100",
+          "b": "mathlib_1000",
+          "in_a": 2,
+          "in_b": 54,
+          "in_both": 2,
+          "total": 54,
+          "low": 54,
+          "high": 54
+        },
+        {
+          "a": "mathlib_100",
+          "b": "thousand_plus",
+          "in_a": 2,
+          "in_b": 54,
+          "in_both": 2,
+          "total": 54,
+          "low": 54,
+          "high": 54
+        },
+        {
+          "a": "mathlib_100",
+          "b": "wikidata",
+          "in_a": 2,
+          "in_b": 17,
+          "in_both": 2,
+          "total": 17,
+          "low": 17,
+          "high": 17
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_overview",
+          "in_a": 54,
+          "in_b": 4,
+          "in_both": 4,
+          "total": 54,
+          "low": 54,
+          "high": 54
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_undergrad",
+          "in_a": 54,
+          "in_b": 2,
+          "in_both": 2,
+          "total": 54,
+          "low": 54,
+          "high": 54
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 54,
+          "in_b": 17,
+          "in_both": 12,
+          "total": 75.15384615384616,
+          "low": 59,
+          "high": 93.52667146894595,
+          "default": true
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "thousand_plus",
+          "in_a": 4,
+          "in_b": 54,
+          "in_both": 4,
+          "total": 54,
+          "low": 54,
+          "high": 54
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "wikidata",
+          "in_a": 4,
+          "in_b": 17,
+          "in_both": 4,
+          "total": 17,
+          "low": 17,
+          "high": 17
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "thousand_plus",
+          "in_a": 2,
+          "in_b": 54,
+          "in_both": 2,
+          "total": 54,
+          "low": 54,
+          "high": 54
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "wikidata",
+          "in_a": 2,
+          "in_b": 17,
+          "in_both": 2,
+          "total": 17,
+          "low": 17,
+          "high": 17
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 54,
+          "in_b": 17,
+          "in_both": 12,
+          "total": 75.15384615384616,
+          "low": 59,
+          "high": 93.52667146894595
+        }
+      ]
+    },
+    {
+      "msc": "22",
+      "rows": 13,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 0.23636363636363636,
+      "low": 0.10637079348594894,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 6,
+          "in_b": 7,
+          "in_both": 0,
+          "total": 55,
+          "low": 13,
+          "high": 122.21399854197041,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 6,
+          "in_b": 7,
+          "in_both": 0,
+          "total": 55,
+          "low": 13,
+          "high": 122.21399854197041
+        }
+      ]
+    },
+    {
+      "msc": "26",
+      "rows": 59,
+      "sources": 6,
+      "method": "lincoln-petersen",
+      "recall": 0.9274486094316808,
+      "low": 0.8413024174142472,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_100",
+          "b": "mathlib_1000",
+          "in_a": 6,
+          "in_b": 55,
+          "in_both": 6,
+          "total": 55,
+          "low": 55,
+          "high": 55
+        },
+        {
+          "a": "mathlib_100",
+          "b": "thousand_plus",
+          "in_a": 6,
+          "in_b": 55,
+          "in_both": 6,
+          "total": 55,
+          "low": 55,
+          "high": 55
+        },
+        {
+          "a": "mathlib_100",
+          "b": "wikidata",
+          "in_a": 6,
+          "in_b": 29,
+          "in_both": 6,
+          "total": 29,
+          "low": 29,
+          "high": 29
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_overview",
+          "in_a": 55,
+          "in_b": 11,
+          "in_both": 10,
+          "total": 60.09090909090909,
+          "low": 56,
+          "high": 69.03556537458249
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_undergrad",
+          "in_a": 55,
+          "in_b": 9,
+          "in_both": 8,
+          "total": 61.22222222222222,
+          "low": 56,
+          "high": 72.39488020587827
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 55,
+          "in_b": 29,
+          "in_both": 25,
+          "total": 63.61538461538461,
+          "low": 59,
+          "high": 70.12935988147662,
+          "default": true
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "thousand_plus",
+          "in_a": 11,
+          "in_b": 55,
+          "in_both": 10,
+          "total": 60.09090909090909,
+          "low": 56,
+          "high": 69.03556537458249
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "wikidata",
+          "in_a": 11,
+          "in_b": 29,
+          "in_both": 10,
+          "total": 31.727272727272727,
+          "low": 30,
+          "high": 35.981305330395294
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "thousand_plus",
+          "in_a": 9,
+          "in_b": 55,
+          "in_both": 8,
+          "total": 61.22222222222222,
+          "low": 56,
+          "high": 72.39488020587827
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "wikidata",
+          "in_a": 9,
+          "in_b": 29,
+          "in_both": 8,
+          "total": 32.333333333333336,
+          "low": 30,
+          "high": 37.799512173355964
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 55,
+          "in_b": 29,
+          "in_both": 25,
+          "total": 63.61538461538461,
+          "low": 59,
+          "high": 70.12935988147662
+        }
+      ]
+    },
+    {
+      "msc": "28",
+      "rows": 27,
+      "sources": 5,
+      "method": "lincoln-petersen",
+      "recall": 0.9310344827586207,
+      "low": 0.7987929375814404,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_overview",
+          "in_a": 26,
+          "in_b": 2,
+          "in_both": 2,
+          "total": 26,
+          "low": 26,
+          "high": 26
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_undergrad",
+          "in_a": 26,
+          "in_b": 2,
+          "in_both": 2,
+          "total": 26,
+          "low": 26,
+          "high": 26
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 26,
+          "in_b": 9,
+          "in_both": 8,
+          "total": 29,
+          "low": 27,
+          "high": 33.80099989585503,
+          "default": true
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "thousand_plus",
+          "in_a": 2,
+          "in_b": 26,
+          "in_both": 2,
+          "total": 26,
+          "low": 26,
+          "high": 26
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "wikidata",
+          "in_a": 2,
+          "in_b": 9,
+          "in_both": 2,
+          "total": 9,
+          "low": 9,
+          "high": 9
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "thousand_plus",
+          "in_a": 2,
+          "in_b": 26,
+          "in_both": 2,
+          "total": 26,
+          "low": 26,
+          "high": 26
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "wikidata",
+          "in_a": 2,
+          "in_b": 9,
+          "in_both": 2,
+          "total": 9,
+          "low": 9,
+          "high": 9
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 26,
+          "in_b": 9,
+          "in_both": 8,
+          "total": 29,
+          "low": 27,
+          "high": 33.80099989585503
+        }
+      ]
+    },
+    {
+      "msc": "30",
+      "rows": 67,
+      "sources": 6,
+      "method": "lincoln-petersen",
+      "recall": 0.8779035139964265,
+      "low": 0.7675742010350313,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_100",
+          "b": "mathlib_1000",
+          "in_a": 1,
+          "in_b": 62,
+          "in_both": 1,
+          "total": 62,
+          "low": 62,
+          "high": 62
+        },
+        {
+          "a": "mathlib_100",
+          "b": "thousand_plus",
+          "in_a": 1,
+          "in_b": 62,
+          "in_both": 1,
+          "total": 62,
+          "low": 62,
+          "high": 62
+        },
+        {
+          "a": "mathlib_100",
+          "b": "wikidata",
+          "in_a": 1,
+          "in_b": 26,
+          "in_both": 1,
+          "total": 26,
+          "low": 26,
+          "high": 26
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_overview",
+          "in_a": 62,
+          "in_b": 5,
+          "in_both": 4,
+          "total": 74.6,
+          "low": 63,
+          "high": 98.29574341522121
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_undergrad",
+          "in_a": 62,
+          "in_b": 1,
+          "in_both": 1,
+          "total": 62,
+          "low": 62,
+          "high": 62
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 62,
+          "in_b": 26,
+          "in_both": 21,
+          "total": 76.31818181818181,
+          "low": 67,
+          "high": 87.28797803476748,
+          "default": true
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "thousand_plus",
+          "in_a": 5,
+          "in_b": 62,
+          "in_both": 4,
+          "total": 74.6,
+          "low": 63,
+          "high": 98.29574341522121
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "wikidata",
+          "in_a": 5,
+          "in_b": 26,
+          "in_both": 3,
+          "total": 39.5,
+          "low": 28,
+          "high": 58.416792539963005
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "thousand_plus",
+          "in_a": 1,
+          "in_b": 62,
+          "in_both": 1,
+          "total": 62,
+          "low": 62,
+          "high": 62
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "wikidata",
+          "in_a": 1,
+          "in_b": 26,
+          "in_both": 0,
+          "total": 53,
+          "low": 27,
+          "high": 104.93075389400774
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 62,
+          "in_b": 26,
+          "in_both": 21,
+          "total": 76.31818181818181,
+          "low": 67,
+          "high": 87.28797803476748
+        }
+      ]
+    },
+    {
+      "msc": "31",
+      "rows": 1,
+      "sources": 1,
+      "method": "none",
+      "recall": null,
+      "low": null,
+      "high": null
+    },
+    {
+      "msc": "32",
+      "rows": 14,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 0.6086956521739131,
+      "low": 0.37430152974212944,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 11,
+          "in_b": 5,
+          "in_both": 2,
+          "total": 23,
+          "low": 14,
+          "high": 37.402999687565085,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 11,
+          "in_b": 5,
+          "in_both": 2,
+          "total": 23,
+          "low": 14,
+          "high": 37.402999687565085
+        }
+      ]
+    },
+    {
+      "msc": "33",
+      "rows": 9,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 0.72,
+      "low": 0.4438196153653351,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 2,
+          "in_b": 8,
+          "in_both": 1,
+          "total": 12.5,
+          "low": 9,
+          "high": 20.278508854529896,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 2,
+          "in_b": 8,
+          "in_both": 1,
+          "total": 12.5,
+          "low": 9,
+          "high": 20.278508854529896
+        }
+      ]
+    },
+    {
+      "msc": "34",
+      "rows": 13,
+      "sources": 4,
+      "method": "lincoln-petersen",
+      "recall": 0.6753246753246753,
+      "low": 0.44656567290571947,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_undergrad",
+          "in_a": 8,
+          "in_b": 1,
+          "in_both": 1,
+          "total": 8,
+          "low": 8,
+          "high": 8
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 8,
+          "in_b": 8,
+          "in_both": 3,
+          "total": 19.25,
+          "low": 13,
+          "high": 29.111059780774074,
+          "default": true
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "thousand_plus",
+          "in_a": 1,
+          "in_b": 8,
+          "in_both": 1,
+          "total": 8,
+          "low": 8,
+          "high": 8
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "wikidata",
+          "in_a": 1,
+          "in_b": 8,
+          "in_both": 1,
+          "total": 8,
+          "low": 8,
+          "high": 8
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 8,
+          "in_b": 8,
+          "in_both": 3,
+          "total": 19.25,
+          "low": 13,
+          "high": 29.111059780774074
+        }
+      ]
+    },
+    {
+      "msc": "35",
+      "rows": 25,
+      "sources": 5,
+      "method": "lincoln-petersen",
+      "recall": 0.6410256410256411,
+      "low": 0.4422370100076802,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_overview",
+          "in_a": 10,
+          "in_b": 1,
+          "in_both": 1,
+          "total": 10,
+          "low": 10,
+          "high": 10
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_undergrad",
+          "in_a": 10,
+          "in_b": 1,
+          "in_both": 1,
+          "total": 10,
+          "low": 10,
+          "high": 10
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 10,
+          "in_b": 19,
+          "in_both": 4,
+          "total": 43,
+          "low": 25,
+          "high": 65.51868557442907
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "thousand_plus",
+          "in_a": 1,
+          "in_b": 11,
+          "in_both": 1,
+          "total": 11,
+          "low": 11,
+          "high": 11
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "wikidata",
+          "in_a": 1,
+          "in_b": 19,
+          "in_both": 0,
+          "total": 39,
+          "low": 20,
+          "high": 77.20743383165113
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "thousand_plus",
+          "in_a": 1,
+          "in_b": 11,
+          "in_both": 1,
+          "total": 11,
+          "low": 11,
+          "high": 11
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "wikidata",
+          "in_a": 1,
+          "in_b": 19,
+          "in_both": 0,
+          "total": 39,
+          "low": 20,
+          "high": 77.20743383165113
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 11,
+          "in_b": 19,
+          "in_both": 5,
+          "total": 39,
+          "low": 25,
+          "high": 56.53077294359835,
+          "default": true
+        }
+      ]
+    },
+    {
+      "msc": "37",
+      "rows": 27,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 0.6923076923076923,
+      "low": 0.4776159708082946,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 24,
+          "in_b": 7,
+          "in_both": 4,
+          "total": 39,
+          "low": 27,
+          "high": 56.53077294359835,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 24,
+          "in_b": 7,
+          "in_both": 4,
+          "total": 39,
+          "low": 27,
+          "high": 56.53077294359835
+        }
+      ]
+    },
+    {
+      "msc": "39",
+      "rows": 2,
+      "sources": 1,
+      "method": "none",
+      "recall": null,
+      "low": null,
+      "high": null
+    },
+    {
+      "msc": "40",
+      "rows": 3,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 1,
+      "low": 1,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 3,
+          "in_b": 2,
+          "in_both": 2,
+          "total": 3,
+          "low": 3,
+          "high": 3,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 3,
+          "in_b": 2,
+          "in_both": 2,
+          "total": 3,
+          "low": 3,
+          "high": 3
+        }
+      ]
+    },
+    {
+      "msc": "41",
+      "rows": 1,
+      "sources": 2,
+      "method": "none",
+      "recall": null,
+      "low": null,
+      "high": null
+    },
+    {
+      "msc": "42",
+      "rows": 8,
+      "sources": 5,
+      "method": "lincoln-petersen",
+      "recall": 0.8421052631578947,
+      "low": 0.6163966954940847,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_overview",
+          "in_a": 5,
+          "in_b": 1,
+          "in_both": 1,
+          "total": 5,
+          "low": 5,
+          "high": 5
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_undergrad",
+          "in_a": 5,
+          "in_b": 2,
+          "in_both": 2,
+          "total": 5,
+          "low": 5,
+          "high": 5
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 5,
+          "in_b": 6,
+          "in_both": 3,
+          "total": 9.5,
+          "low": 8,
+          "high": 12.978654912462574,
+          "default": true
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "thousand_plus",
+          "in_a": 1,
+          "in_b": 5,
+          "in_both": 1,
+          "total": 5,
+          "low": 5,
+          "high": 5
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "wikidata",
+          "in_a": 1,
+          "in_b": 6,
+          "in_both": 1,
+          "total": 6,
+          "low": 6,
+          "high": 6
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "thousand_plus",
+          "in_a": 2,
+          "in_b": 5,
+          "in_both": 2,
+          "total": 5,
+          "low": 5,
+          "high": 5
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "wikidata",
+          "in_a": 2,
+          "in_b": 6,
+          "in_both": 2,
+          "total": 6,
+          "low": 6,
+          "high": 6
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 5,
+          "in_b": 6,
+          "in_both": 3,
+          "total": 9.5,
+          "low": 8,
+          "high": 12.978654912462574
+        }
+      ]
+    },
+    {
+      "msc": "43",
+      "rows": 3,
+      "sources": 5,
+      "method": "lincoln-petersen",
+      "recall": 0.8571428571428571,
+      "low": 0.5772105953534605,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_overview",
+          "in_a": 2,
+          "in_b": 1,
+          "in_both": 1,
+          "total": 2,
+          "low": 2,
+          "high": 2
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_undergrad",
+          "in_a": 2,
+          "in_b": 1,
+          "in_both": 1,
+          "total": 2,
+          "low": 2,
+          "high": 2
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 2,
+          "in_b": 2,
+          "in_both": 1,
+          "total": 3.5,
+          "low": 3,
+          "high": 5.1974097914175,
+          "default": true
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "thousand_plus",
+          "in_a": 1,
+          "in_b": 2,
+          "in_both": 1,
+          "total": 2,
+          "low": 2,
+          "high": 2
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "wikidata",
+          "in_a": 1,
+          "in_b": 2,
+          "in_both": 1,
+          "total": 2,
+          "low": 2,
+          "high": 2
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "thousand_plus",
+          "in_a": 1,
+          "in_b": 2,
+          "in_both": 1,
+          "total": 2,
+          "low": 2,
+          "high": 2
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "wikidata",
+          "in_a": 1,
+          "in_b": 2,
+          "in_both": 1,
+          "total": 2,
+          "low": 2,
+          "high": 2
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 2,
+          "in_b": 2,
+          "in_both": 1,
+          "total": 3.5,
+          "low": 3,
+          "high": 5.1974097914175
+        }
+      ]
+    },
+    {
+      "msc": "44",
+      "rows": 4,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 0.8,
+      "low": 0.514677404081293,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 2,
+          "in_b": 3,
+          "in_both": 1,
+          "total": 5,
+          "low": 4,
+          "high": 7.771858582251267,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 2,
+          "in_b": 3,
+          "in_both": 1,
+          "total": 5,
+          "low": 4,
+          "high": 7.771858582251267
+        }
+      ]
+    },
+    {
+      "msc": "45",
+      "rows": 1,
+      "sources": 1,
+      "method": "none",
+      "recall": null,
+      "low": null,
+      "high": null
+    },
+    {
+      "msc": "46",
+      "rows": 62,
+      "sources": 5,
+      "method": "lincoln-petersen",
+      "recall": 0.8252911813643927,
+      "low": 0.687734617192769,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_overview",
+          "in_a": 57,
+          "in_b": 6,
+          "in_both": 6,
+          "total": 57,
+          "low": 57,
+          "high": 57
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_undergrad",
+          "in_a": 57,
+          "in_b": 4,
+          "in_both": 4,
+          "total": 57,
+          "low": 57,
+          "high": 57
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 57,
+          "in_b": 20,
+          "in_both": 15,
+          "total": 75.125,
+          "low": 62,
+          "high": 90.15105310980977,
+          "default": true
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "thousand_plus",
+          "in_a": 6,
+          "in_b": 57,
+          "in_both": 6,
+          "total": 57,
+          "low": 57,
+          "high": 57
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "wikidata",
+          "in_a": 6,
+          "in_b": 20,
+          "in_both": 4,
+          "total": 28.4,
+          "low": 22,
+          "high": 39.376
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "thousand_plus",
+          "in_a": 4,
+          "in_b": 57,
+          "in_both": 4,
+          "total": 57,
+          "low": 57,
+          "high": 57
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "wikidata",
+          "in_a": 4,
+          "in_b": 20,
+          "in_both": 2,
+          "total": 34,
+          "low": 22,
+          "high": 54.08402350128081
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 57,
+          "in_b": 20,
+          "in_both": 15,
+          "total": 75.125,
+          "low": 62,
+          "high": 90.15105310980977
+        }
+      ]
+    },
+    {
+      "msc": "47",
+      "rows": 21,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 0.509090909090909,
+      "low": 0.3139541147835055,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 12,
+          "in_b": 12,
+          "in_both": 3,
+          "total": 41.25,
+          "low": 21,
+          "high": 66.8887554300126,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 12,
+          "in_b": 12,
+          "in_both": 3,
+          "total": 41.25,
+          "low": 21,
+          "high": 66.8887554300126
+        }
+      ]
+    },
+    {
+      "msc": "49",
+      "rows": 5,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 0.45454545454545453,
+      "low": 0.21968365553602814,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 3,
+          "in_b": 2,
+          "in_both": 0,
+          "total": 11,
+          "low": 5,
+          "high": 22.759999999999998,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 3,
+          "in_b": 2,
+          "in_both": 0,
+          "total": 11,
+          "low": 5,
+          "high": 22.759999999999998
+        }
+      ]
+    },
+    {
+      "msc": "51",
+      "rows": 101,
+      "sources": 6,
+      "method": "lincoln-petersen",
+      "recall": 0.9847007649617519,
+      "low": 0.956032690056095,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_100",
+          "b": "mathlib_1000",
+          "in_a": 4,
+          "in_b": 98,
+          "in_both": 4,
+          "total": 98,
+          "low": 98,
+          "high": 98
+        },
+        {
+          "a": "mathlib_100",
+          "b": "thousand_plus",
+          "in_a": 4,
+          "in_b": 98,
+          "in_both": 4,
+          "total": 98,
+          "low": 98,
+          "high": 98
+        },
+        {
+          "a": "mathlib_100",
+          "b": "wikidata",
+          "in_a": 4,
+          "in_b": 67,
+          "in_both": 4,
+          "total": 67,
+          "low": 67,
+          "high": 67
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_overview",
+          "in_a": 98,
+          "in_b": 1,
+          "in_both": 1,
+          "total": 98,
+          "low": 98,
+          "high": 98
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_undergrad",
+          "in_a": 98,
+          "in_b": 1,
+          "in_both": 1,
+          "total": 98,
+          "low": 98,
+          "high": 98
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 98,
+          "in_b": 67,
+          "in_both": 64,
+          "total": 102.56923076923077,
+          "low": 101,
+          "high": 105.64492307692308,
+          "default": true
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "thousand_plus",
+          "in_a": 1,
+          "in_b": 98,
+          "in_both": 1,
+          "total": 98,
+          "low": 98,
+          "high": 98
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "wikidata",
+          "in_a": 1,
+          "in_b": 67,
+          "in_both": 0,
+          "total": 135,
+          "low": 68,
+          "high": 267.29637032057985
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "thousand_plus",
+          "in_a": 1,
+          "in_b": 98,
+          "in_both": 1,
+          "total": 98,
+          "low": 98,
+          "high": 98
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "wikidata",
+          "in_a": 1,
+          "in_b": 67,
+          "in_both": 0,
+          "total": 135,
+          "low": 68,
+          "high": 267.29637032057985
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 98,
+          "in_b": 67,
+          "in_both": 64,
+          "total": 102.56923076923077,
+          "low": 101,
+          "high": 105.64492307692308
+        }
+      ]
+    },
+    {
+      "msc": "52",
+      "rows": 18,
+      "sources": 5,
+      "method": "lincoln-petersen",
+      "recall": 0.8235294117647058,
+      "low": 0.6346127329379789,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_100",
+          "b": "mathlib_1000",
+          "in_a": 1,
+          "in_b": 15,
+          "in_both": 1,
+          "total": 15,
+          "low": 15,
+          "high": 15
+        },
+        {
+          "a": "mathlib_100",
+          "b": "thousand_plus",
+          "in_a": 1,
+          "in_b": 15,
+          "in_both": 1,
+          "total": 15,
+          "low": 15,
+          "high": 15
+        },
+        {
+          "a": "mathlib_100",
+          "b": "wikidata",
+          "in_a": 1,
+          "in_b": 9,
+          "in_both": 1,
+          "total": 9,
+          "low": 9,
+          "high": 9
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_overview",
+          "in_a": 15,
+          "in_b": 1,
+          "in_both": 1,
+          "total": 15,
+          "low": 15,
+          "high": 15
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 15,
+          "in_b": 9,
+          "in_both": 6,
+          "total": 21.857142857142858,
+          "low": 18,
+          "high": 28.363754878771317,
+          "default": true
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "thousand_plus",
+          "in_a": 1,
+          "in_b": 15,
+          "in_both": 1,
+          "total": 15,
+          "low": 15,
+          "high": 15
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "wikidata",
+          "in_a": 1,
+          "in_b": 9,
+          "in_both": 1,
+          "total": 9,
+          "low": 9,
+          "high": 9
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 15,
+          "in_b": 9,
+          "in_both": 6,
+          "total": 21.857142857142858,
+          "low": 18,
+          "high": 28.363754878771317
+        }
+      ]
+    },
+    {
+      "msc": "53",
+      "rows": 43,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 0.7448818897637796,
+      "low": 0.5782133579046392,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 37,
+          "in_b": 16,
+          "in_both": 10,
+          "total": 57.72727272727273,
+          "low": 43,
+          "high": 74.36701247412499,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 37,
+          "in_b": 16,
+          "in_both": 10,
+          "total": 57.72727272727273,
+          "low": 43,
+          "high": 74.36701247412499
+        }
+      ]
+    },
+    {
+      "msc": "54",
+      "rows": 31,
+      "sources": 5,
+      "method": "lincoln-petersen",
+      "recall": 0.9441624365482233,
+      "low": 0.8522404216939564,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_overview",
+          "in_a": 28,
+          "in_b": 2,
+          "in_both": 2,
+          "total": 28,
+          "low": 28,
+          "high": 28
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_undergrad",
+          "in_a": 28,
+          "in_b": 1,
+          "in_both": 1,
+          "total": 28,
+          "low": 28,
+          "high": 28
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 28,
+          "in_b": 20,
+          "in_both": 17,
+          "total": 32.833333333333336,
+          "low": 31,
+          "high": 36.37471212452329,
+          "default": true
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "thousand_plus",
+          "in_a": 2,
+          "in_b": 28,
+          "in_both": 2,
+          "total": 28,
+          "low": 28,
+          "high": 28
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "wikidata",
+          "in_a": 2,
+          "in_b": 20,
+          "in_both": 2,
+          "total": 20,
+          "low": 20,
+          "high": 20
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "thousand_plus",
+          "in_a": 1,
+          "in_b": 28,
+          "in_both": 1,
+          "total": 28,
+          "low": 28,
+          "high": 28
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "wikidata",
+          "in_a": 1,
+          "in_b": 20,
+          "in_both": 1,
+          "total": 20,
+          "low": 20,
+          "high": 20
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 28,
+          "in_b": 20,
+          "in_both": 17,
+          "total": 32.833333333333336,
+          "low": 31,
+          "high": 36.37471212452329
+        }
+      ]
+    },
+    {
+      "msc": "55",
+      "rows": 22,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 0.8461538461538461,
+      "low": 0.6844742025997953,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 14,
+          "in_b": 17,
+          "in_both": 9,
+          "total": 26,
+          "low": 22,
+          "high": 32.14145970211702,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 14,
+          "in_b": 17,
+          "in_both": 9,
+          "total": 26,
+          "low": 22,
+          "high": 32.14145970211702
+        }
+      ]
+    },
+    {
+      "msc": "57",
+      "rows": 23,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 0.7931034482758621,
+      "low": 0.6090232921931028,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 19,
+          "in_b": 11,
+          "in_both": 7,
+          "total": 29,
+          "low": 23,
+          "high": 37.765386471799175,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 19,
+          "in_b": 11,
+          "in_both": 7,
+          "total": 29,
+          "low": 23,
+          "high": 37.765386471799175
+        }
+      ]
+    },
+    {
+      "msc": "58",
+      "rows": 6,
+      "sources": 1,
+      "method": "none",
+      "recall": null,
+      "low": null,
+      "high": null
+    },
+    {
+      "msc": "60",
+      "rows": 52,
+      "sources": 6,
+      "method": "lincoln-petersen",
+      "recall": 0.6190476190476191,
+      "low": 0.447022856597896,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_100",
+          "b": "mathlib_1000",
+          "in_a": 3,
+          "in_b": 44,
+          "in_both": 3,
+          "total": 44,
+          "low": 44,
+          "high": 44
+        },
+        {
+          "a": "mathlib_100",
+          "b": "thousand_plus",
+          "in_a": 3,
+          "in_b": 44,
+          "in_both": 3,
+          "total": 44,
+          "low": 44,
+          "high": 44
+        },
+        {
+          "a": "mathlib_100",
+          "b": "wikidata",
+          "in_a": 3,
+          "in_b": 16,
+          "in_both": 2,
+          "total": 21.666666666666668,
+          "low": 17,
+          "high": 31.74580243208712
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_overview",
+          "in_a": 44,
+          "in_b": 2,
+          "in_both": 2,
+          "total": 44,
+          "low": 44,
+          "high": 44
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_undergrad",
+          "in_a": 44,
+          "in_b": 1,
+          "in_both": 1,
+          "total": 44,
+          "low": 44,
+          "high": 44
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 44,
+          "in_b": 16,
+          "in_both": 8,
+          "total": 84,
+          "low": 52,
+          "high": 116.32514810484246,
+          "default": true
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "thousand_plus",
+          "in_a": 2,
+          "in_b": 44,
+          "in_both": 2,
+          "total": 44,
+          "low": 44,
+          "high": 44
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "wikidata",
+          "in_a": 2,
+          "in_b": 16,
+          "in_both": 1,
+          "total": 24.5,
+          "low": 17,
+          "high": 40.14934503421789
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "thousand_plus",
+          "in_a": 1,
+          "in_b": 44,
+          "in_both": 1,
+          "total": 44,
+          "low": 44,
+          "high": 44
+        },
+        {
+          "a": "mathlib_undergrad",
+          "b": "wikidata",
+          "in_a": 1,
+          "in_b": 16,
+          "in_both": 1,
+          "total": 16,
+          "low": 16,
+          "high": 16
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 44,
+          "in_b": 16,
+          "in_both": 8,
+          "total": 84,
+          "low": 52,
+          "high": 116.32514810484246
+        }
+      ]
+    },
+    {
+      "msc": "62",
+      "rows": 24,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 0.48,
+      "low": 0.2929740205219135,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 16,
+          "in_b": 11,
+          "in_both": 3,
+          "total": 50,
+          "low": 24,
+          "high": 81.91852628176933,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 16,
+          "in_b": 11,
+          "in_both": 3,
+          "total": 50,
+          "low": 24,
+          "high": 81.91852628176933
+        }
+      ]
+    },
+    {
+      "msc": "65",
+      "rows": 13,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 0.3023255813953488,
+      "low": 0.13925590599947407,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 3,
+          "in_b": 10,
+          "in_both": 0,
+          "total": 43,
+          "low": 13,
+          "high": 93.3533117083673,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 3,
+          "in_b": 10,
+          "in_both": 0,
+          "total": 43,
+          "low": 13,
+          "high": 93.3533117083673
+        }
+      ]
+    },
+    {
+      "msc": "68",
+      "rows": 40,
+      "sources": 4,
+      "method": "lincoln-petersen",
+      "recall": 0.43243243243243246,
+      "low": 0.25988798322087575,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "mathlib_overview",
+          "in_a": 32,
+          "in_b": 1,
+          "in_both": 1,
+          "total": 32,
+          "low": 32,
+          "high": 32
+        },
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 32,
+          "in_b": 10,
+          "in_both": 3,
+          "total": 89.75,
+          "low": 39,
+          "high": 149.23567709961785
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "thousand_plus",
+          "in_a": 1,
+          "in_b": 33,
+          "in_both": 1,
+          "total": 33,
+          "low": 33,
+          "high": 33
+        },
+        {
+          "a": "mathlib_overview",
+          "b": "wikidata",
+          "in_a": 1,
+          "in_b": 10,
+          "in_both": 1,
+          "total": 10,
+          "low": 10,
+          "high": 10
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 33,
+          "in_b": 10,
+          "in_both": 3,
+          "total": 92.5,
+          "low": 40,
+          "high": 153.91246453286172,
+          "default": true
+        }
+      ]
+    },
+    {
+      "msc": "70",
+      "rows": 9,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 0.3103448275862069,
+      "low": 0.14297470930766007,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 4,
+          "in_b": 5,
+          "in_both": 0,
+          "total": 29,
+          "low": 9,
+          "high": 62.948195828349995,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 4,
+          "in_b": 5,
+          "in_both": 0,
+          "total": 29,
+          "low": 9,
+          "high": 62.948195828349995
+        }
+      ]
+    },
+    {
+      "msc": "74",
+      "rows": 7,
+      "sources": 1,
+      "method": "none",
+      "recall": null,
+      "low": null,
+      "high": null
+    },
+    {
+      "msc": "76",
+      "rows": 8,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 1,
+      "low": 1,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 1,
+          "in_b": 8,
+          "in_both": 1,
+          "total": 8,
+          "low": 8,
+          "high": 8,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 1,
+          "in_b": 8,
+          "in_both": 1,
+          "total": 8,
+          "low": 8,
+          "high": 8
+        }
+      ]
+    },
+    {
+      "msc": "78",
+      "rows": 8,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 0.34782608695652173,
+      "low": 0.16228444760954788,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 5,
+          "in_b": 3,
+          "in_both": 0,
+          "total": 23,
+          "low": 8,
+          "high": 49.296159415397526,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 5,
+          "in_b": 3,
+          "in_both": 0,
+          "total": 23,
+          "low": 8,
+          "high": 49.296159415397526
+        }
+      ]
+    },
+    {
+      "msc": "80",
+      "rows": 5,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 0.45454545454545453,
+      "low": 0.21968365553602814,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 2,
+          "in_b": 3,
+          "in_both": 0,
+          "total": 11,
+          "low": 5,
+          "high": 22.759999999999998,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 2,
+          "in_b": 3,
+          "in_both": 0,
+          "total": 11,
+          "low": 5,
+          "high": 22.759999999999998
+        }
+      ]
+    },
+    {
+      "msc": "81",
+      "rows": 44,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 0.41379310344827586,
+      "low": 0.2635866663184324,
+      "high": 0.9619873364523638,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 22,
+          "in_b": 27,
+          "in_both": 5,
+          "total": 106.33333333333333,
+          "low": 45.73864783112851,
+          "high": 166.92801883553815,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 22,
+          "in_b": 27,
+          "in_both": 5,
+          "total": 106.33333333333333,
+          "low": 45.73864783112851,
+          "high": 166.92801883553815
+        }
+      ]
+    },
+    {
+      "msc": "82",
+      "rows": 6,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 0.42857142857142855,
+      "low": 0.20560552825830372,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 2,
+          "in_b": 4,
+          "in_both": 0,
+          "total": 14,
+          "low": 6,
+          "high": 29.182094717133076,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 2,
+          "in_b": 4,
+          "in_both": 0,
+          "total": 14,
+          "low": 6,
+          "high": 29.182094717133076
+        }
+      ]
+    },
+    {
+      "msc": "83",
+      "rows": 7,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 0.7368421052631579,
+      "low": 0.45758338667873144,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 2,
+          "in_b": 6,
+          "in_both": 1,
+          "total": 9.5,
+          "low": 7,
+          "high": 15.297758187437624,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 2,
+          "in_b": 6,
+          "in_both": 1,
+          "total": 9.5,
+          "low": 7,
+          "high": 15.297758187437624
+        }
+      ]
+    },
+    {
+      "msc": "85",
+      "rows": 2,
+      "sources": 1,
+      "method": "none",
+      "recall": null,
+      "low": null,
+      "high": null
+    },
+    {
+      "msc": "86",
+      "rows": 5,
+      "sources": 1,
+      "method": "none",
+      "recall": null,
+      "low": null,
+      "high": null
+    },
+    {
+      "msc": "90",
+      "rows": 3,
+      "sources": 1,
+      "method": "none",
+      "recall": null,
+      "low": null,
+      "high": null
+    },
+    {
+      "msc": "91",
+      "rows": 40,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 0.43243243243243246,
+      "low": 0.25988798322087575,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 33,
+          "in_b": 10,
+          "in_both": 3,
+          "total": 92.5,
+          "low": 40,
+          "high": 153.91246453286172,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 33,
+          "in_b": 10,
+          "in_both": 3,
+          "total": 92.5,
+          "low": 40,
+          "high": 153.91246453286172
+        }
+      ]
+    },
+    {
+      "msc": "92",
+      "rows": 5,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 0.5555555555555556,
+      "low": 0.2814461710662481,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 1,
+          "in_b": 4,
+          "in_both": 0,
+          "total": 9,
+          "low": 5,
+          "high": 17.765386471799175,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 1,
+          "in_b": 4,
+          "in_both": 0,
+          "total": 9,
+          "low": 5,
+          "high": 17.765386471799175
+        }
+      ]
+    },
+    {
+      "msc": "93",
+      "rows": 8,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 0.3333333333333333,
+      "low": 0.15468327048721559,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 4,
+          "in_b": 4,
+          "in_both": 0,
+          "total": 24,
+          "low": 8,
+          "high": 51.718585822512665,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 4,
+          "in_b": 4,
+          "in_both": 0,
+          "total": 24,
+          "low": 8,
+          "high": 51.718585822512665
+        }
+      ]
+    },
+    {
+      "msc": "94",
+      "rows": 9,
+      "sources": 3,
+      "method": "lincoln-petersen",
+      "recall": 0.5454545454545454,
+      "low": 0.3054556266274866,
+      "high": 1,
+      "captures": [
+        {
+          "a": "mathlib_1000",
+          "b": "wikidata",
+          "in_a": 4,
+          "in_b": 6,
+          "in_both": 1,
+          "total": 16.5,
+          "low": 9,
+          "high": 29.464181424216495,
+          "default": true
+        },
+        {
+          "a": "thousand_plus",
+          "b": "wikidata",
+          "in_a": 4,
+          "in_b": 6,
+          "in_both": 1,
+          "total": 16.5,
+          "low": 9,
+          "high": 29.464181424216495
+        }
+      ]
+    },
+    {
+      "msc": "97",
+      "rows": 1,
+      "sources": 1,
+      "method": "none",
+      "recall": null,
+      "low": null,
+      "high": null
+    }
+  ]
+}
