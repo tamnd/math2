@@ -2,7 +2,6 @@
 tag: 0DZS7ZG0QY
 kind: definition
 name: Length of a vector
-aliases: [magnitude-of-a-vector, euclidean-norm]
 msc: [51N20]
 defines: 0XKBKGTCPC
 uses: [0QN3D80AWP]

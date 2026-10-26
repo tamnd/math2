@@ -10,7 +10,7 @@ sources:
     locator: Statement of the theorem
 same_as:
   wikidata: Q897769
-  wikipedia: "Kőnig's theorem (graph theory)"
+  wikipedia: Kőnig's theorem (graph theory)
 ---
 
 ## Statement

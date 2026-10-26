@@ -2,7 +2,6 @@
 tag: 0R37DFJKFW
 kind: definition
 name: Connected set
-aliases: [connected-subset]
 msc: [54D05]
 defines: 0SPE8WNWFV
 uses: [0D939CMME7, 0D5YHQGDJY]

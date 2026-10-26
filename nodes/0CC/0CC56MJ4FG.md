@@ -2,7 +2,6 @@
 tag: 0CC56MJ4FG
 kind: definition
 name: Harmonic conjugate
-aliases: [conjugate-harmonic-function]
 msc: [31A05]
 defines: 050F2FMTKF
 uses: [0DG0Z72CQD, 031BG625Y3]

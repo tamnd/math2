@@ -2,7 +2,6 @@
 tag: 00EBGSR5NY
 kind: definition
 name: Euclidean vector
-aliases: [vector, geometric-vector]
 msc: [51N20]
 defines: 0QN3D80AWP
 uses: [0XPR1E85W0]

@@ -2,7 +2,6 @@
 tag: 0CMC2KAXFS
 kind: definition
 name: Cyclic quadrilateral
-aliases: [inscribed-quadrilateral]
 msc: [51M04]
 defines: 0RCP929Y1M
 uses: [049DCJZ448, 03VZJE6C8C]

@@ -2,7 +2,6 @@
 tag: 0A6YRNZB2R
 kind: definition
 name: Metric topology
-aliases: [topology-of-a-metric-space]
 msc: ["54E35"]
 defines: 0YVKNB7V5F
 uses: [063W5JMY85, 0DC3MPR7C9, 0CNQXVBHCX]

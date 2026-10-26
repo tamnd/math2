@@ -2,7 +2,6 @@
 tag: 0VRD8GC5BM
 kind: definition
 name: Isometric isomorphism
-aliases: [surjective-isometry, bijective-isometry]
 msc: ["54E40"]
 defines: 0ZXSF2YQV2
 uses: [0878DN3WCS, 0SNQEF7Z53]

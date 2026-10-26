@@ -2,7 +2,6 @@
 tag: 0NSD1TPHR0
 kind: definition
 name: Meromorphic function
-aliases: [meromorphic]
 msc: [30D30]
 defines: 0ZZ7ZYDR8W
 uses: [0DG0Z72CQD, 0WPQYW8MTE]

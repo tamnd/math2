@@ -2,7 +2,6 @@
 tag: 0B0WE1GKTK
 kind: definition
 name: Faithful action
-aliases: [effective-action]
 msc: [20B05]
 defines: 0P7G9NGG2G
 uses: [0YSE802YCQ, 0Z424HK8CQ]

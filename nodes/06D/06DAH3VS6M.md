@@ -2,7 +2,6 @@
 tag: 06DAH3VS6M
 kind: definition
 name: P-group
-aliases: [p-group]
 msc: [20D15]
 defines: 06QYRTX9KQ
 uses: [0JPYSD5E0B]

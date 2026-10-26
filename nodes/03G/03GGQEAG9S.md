@@ -7,7 +7,7 @@ msc: [26B10]
 uses: [0EAAS2EHDR, 0YF0VXKXGB]
 sources:
   - url: https://en.wikipedia.org/wiki/Chain_rule
-    locator: "General rule: Vector-valued multivariate functions"
+    locator: 'General rule: Vector-valued multivariate functions'
 ---
 
 ## Statement

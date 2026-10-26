@@ -2,7 +2,6 @@
 tag: 0FFAE5P6R4
 kind: definition
 name: Affine span
-aliases: [affine-hull]
 msc: [51N10]
 defines: 0YMB1676R1
 uses: [0PYW26VNT6, 0KJH6SRFZK]

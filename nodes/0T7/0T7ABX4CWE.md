@@ -2,7 +2,6 @@
 tag: 0T7ABX4CWE
 kind: definition
 name: Circle integral
-aliases: [integral-over-a-circle]
 msc: ["30E20"]
 defines: 0AP750DHVP
 uses: [00FWNP9TXY, 054VXHMCA3]

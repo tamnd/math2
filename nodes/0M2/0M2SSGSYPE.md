@@ -10,7 +10,7 @@ sources:
     locator: lead section
 same_as:
   wikidata: Q859176
-  wikipedia: "Cayley's formula"
+  wikipedia: Cayley's formula
 ---
 
 ## Statement

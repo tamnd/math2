@@ -2,7 +2,7 @@
 tag: 07EGCNHAVW
 kind: definition
 name: Limit point of a set
-aliases: [accumulation-point, cluster-point-of-a-set]
+aliases: [cluster-point-of-a-set]
 msc: [26A03]
 defines: 0E3X7TXS67
 sources:

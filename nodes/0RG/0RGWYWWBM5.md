@@ -2,7 +2,6 @@
 tag: 0RGWYWWBM5
 kind: definition
 name: Incircle
-aliases: [inscribed-circle]
 msc: [51M04]
 defines: 07DFG5JYPT
 uses: [0M9MX8YW0A, 060W5CBZP6]

@@ -2,7 +2,6 @@
 tag: 00BETAJNZ4
 kind: definition
 name: Platonic solid
-aliases: [regular-polyhedron]
 msc: [51M20]
 defines: 017E5PRS1Q
 uses: [0325SGSJAR, 01KJJ9A400]

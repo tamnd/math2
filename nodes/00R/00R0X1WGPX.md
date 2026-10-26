@@ -2,7 +2,6 @@
 tag: 00R0X1WGPX
 kind: definition
 name: Compact set
-aliases: [compact-subset]
 msc: [54D30]
 defines: 0R6EWFKRCF
 uses: [0QPHW703PV, 0D5YHQGDJY]

@@ -2,7 +2,7 @@
 tag: 0YKY4M3KRQ
 kind: definition
 name: Principal branch
-aliases: [principal-value, principal-branch-of-the-logarithm]
+aliases: [principal-branch-of-the-logarithm]
 msc: [30A99]
 defines: 017BPGVEE8
 uses: [03CPD1HGF3, 0X2FY491PF, 0SQSQP748R, 0KW2X0TFBX]

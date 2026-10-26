@@ -10,7 +10,7 @@ sources:
     locator: Formal statement
 same_as:
   wikidata: Q225973
-  wikipedia: "Ore's theorem"
+  wikipedia: Ore's theorem
 ---
 
 ## Statement

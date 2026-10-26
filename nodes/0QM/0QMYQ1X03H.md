@@ -2,7 +2,6 @@
 tag: 0QMYQ1X03H
 kind: definition
 name: Orthocentre
-aliases: [orthocenter]
 msc: [51M04]
 defines: 0WB619CA0V
 uses: [0CTNFGYMM2, 0C9MZY2RNA, 0MP9BCF6DP]

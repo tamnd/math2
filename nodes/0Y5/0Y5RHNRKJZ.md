@@ -2,7 +2,6 @@
 tag: 0Y5RHNRKJZ
 kind: definition
 name: Centroid
-aliases: [barycentre, centre-of-mass]
 msc: [51M04]
 defines: 0X7EEWES5G
 uses: [0KJH6SRFZK]

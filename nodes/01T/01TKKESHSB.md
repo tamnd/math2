@@ -2,7 +2,7 @@
 tag: 01TKKESHSB
 kind: example
 name: Diffie–Hellman key exchange
-msc: ["94A60"]
+msc: [94A60]
 instance_of: [01E9MNJYEX]
 uses: [0KM2CJ80G7, 09B4X51J09, 04DR5PM25N]
 sources:

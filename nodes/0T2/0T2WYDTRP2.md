@@ -2,7 +2,6 @@
 tag: 0T2WYDTRP2
 kind: definition
 name: Subspace metric
-aliases: [induced-metric]
 msc: ["54E35"]
 defines: 0QBYFZV91P
 uses: [063W5JMY85, 0FE8Q5S42Y, 0D2MXBV21T]

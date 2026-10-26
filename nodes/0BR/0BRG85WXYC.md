@@ -3,7 +3,7 @@ tag: 0BRG85WXYC
 kind: statement
 role: theorem
 name: Goursat's theorem
-aliases: [cauchy-goursat-theorem, goursat-lemma]
+aliases: [goursat-lemma]
 msc: ["30E20"]
 uses: [0DG0Z72CQD, 00FWNP9TXY]
 sources:

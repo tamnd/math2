@@ -2,7 +2,6 @@
 tag: 06JYPJ4WHH
 kind: definition
 name: Convergence of a sequence in a metric space
-aliases: [limit-of-a-sequence-in-a-metric-space]
 msc: ["54E35"]
 defines: 090AA928Y7
 uses: [063W5JMY85]

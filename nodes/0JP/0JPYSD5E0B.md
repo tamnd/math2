@@ -2,7 +2,6 @@
 tag: 0JPYSD5E0B
 kind: definition
 name: Order of an element
-aliases: [period-of-an-element]
 msc: [20A05]
 defines: 0WE2NHZJ7B
 uses: [G5S1M9, 00DRK90Z6K]

@@ -2,7 +2,6 @@
 tag: 0CNQXVBHCX
 kind: definition
 name: Topological space
-aliases: [topology]
 msc: [54A05]
 defines: 0CQHFPGJ45
 uses: [0FE8Q5S42Y, 05GK32H72H, 0HBRW4E6G1, 0ECVK59Y03]

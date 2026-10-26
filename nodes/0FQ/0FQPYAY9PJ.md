@@ -2,7 +2,6 @@
 tag: 0FQPYAY9PJ
 kind: definition
 name: Meagre set
-aliases: [meager-set, first-category-set]
 msc: ["54E52"]
 defines: 0XGCZ4GDZ6
 uses: [0KSM23SN3H, 0ZG61TFBES]

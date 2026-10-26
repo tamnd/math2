@@ -2,7 +2,6 @@
 tag: 0NXJM01QX1
 kind: definition
 name: Euclidean isometry
-aliases: [rigid-transformation, euclidean-transformation]
 msc: [51F20]
 defines: 0J1N3WTKM4
 uses: [0XPR1E85W0, 0NPPGHQNXQ, 0JF0TVYGWT]

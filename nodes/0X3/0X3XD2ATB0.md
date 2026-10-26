@@ -2,7 +2,6 @@
 tag: 0X3XD2ATB0
 kind: definition
 name: Laurent series
-aliases: [laurent-expansion]
 msc: [30B10]
 defines: 0GXMPDNYX3
 uses: [0VARVQ9ZW1]

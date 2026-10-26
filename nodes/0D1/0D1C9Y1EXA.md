@@ -2,7 +2,6 @@
 tag: 0D1C9Y1EXA
 kind: definition
 name: Complex differentiability
-aliases: [complex-differentiable, complex-derivative]
 msc: [30A99]
 defines: 09E6T7VYAG
 uses: [09FTAET5Z4, 0KW2X0TFBX]

@@ -2,7 +2,6 @@
 tag: 0BMYPJBJH4
 kind: definition
 name: Line
-aliases: [straight-line]
 msc: [51N20]
 defines: 0MP9BCF6DP
 uses: [0XPR1E85W0, 0QN3D80AWP]

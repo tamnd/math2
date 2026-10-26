@@ -2,7 +2,6 @@
 tag: 0QHX5GGABE
 kind: definition
 name: Affine map
-aliases: [affine-transformation]
 msc: [51N10]
 defines: 0JF0TVYGWT
 uses: [09XNAPTJQ7]

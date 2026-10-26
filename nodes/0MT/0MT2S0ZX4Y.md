@@ -2,7 +2,6 @@
 tag: 0MT2S0ZX4Y
 kind: definition
 name: Contraction mapping
-aliases: [contraction, contraction-map]
 msc: [47H09]
 defines: 0QN69YA357
 uses: [063W5JMY85, 0TMZ21WKCN]

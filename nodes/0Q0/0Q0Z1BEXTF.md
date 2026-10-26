@@ -2,7 +2,6 @@
 tag: 0Q0Z1BEXTF
 kind: definition
 name: Centraliser
-aliases: [centralizer]
 msc: [20A05]
 defines: 02YYV36BFM
 uses: [0N0PXCTYA7]

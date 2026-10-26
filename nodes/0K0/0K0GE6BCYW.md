@@ -2,7 +2,6 @@
 tag: 0K0GE6BCYW
 kind: definition
 name: Path-connected space
-aliases: [pathwise-connected-space]
 msc: [54D05]
 defines: 0WB6DH499T
 uses: [0CNQXVBHCX, 0SY9ECQ19Q]

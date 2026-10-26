@@ -2,7 +2,6 @@
 tag: 0VARVQ9ZW1
 kind: definition
 name: Power series in the complex plane
-aliases: [complex-power-series, power-series]
 msc: [30B10]
 defines: 0D6KXBHKC0
 uses: [09FTAET5Z4]

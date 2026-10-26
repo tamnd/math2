@@ -2,7 +2,6 @@
 tag: 0SEDGXG9S3
 kind: definition
 name: Cross product
-aliases: [vector-product]
 msc: [15A72]
 defines: 0N5N15HWZ7
 uses: [0QN3D80AWP]

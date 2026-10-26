@@ -2,7 +2,6 @@
 tag: 05GZ11PWRY
 kind: definition
 name: Homeomorphism
-aliases: [topological-isomorphism, homeomorphic-spaces]
 msc: [54C05]
 defines: 0QT00PB5G2
 uses: [0SY9ECQ19Q, 0SNQEF7Z53, 0W766JAPSN]

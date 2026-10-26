@@ -2,7 +2,7 @@
 tag: 06JYC06JHY
 kind: definition
 name: Branch cut
-aliases: [cut, slit-plane]
+aliases: [slit-plane]
 msc: [30A99]
 defines: 0W8QHVSN95
 uses: [03CPD1HGF3, 0SQ1F2BEDS]

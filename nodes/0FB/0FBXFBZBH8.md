@@ -2,7 +2,6 @@
 tag: 0FBXFBZBH8
 kind: definition
 name: Affine subspace
-aliases: [flat, affine-subset]
 msc: [51N10]
 defines: 0PYW26VNT6
 uses: [09XNAPTJQ7]

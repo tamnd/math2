@@ -10,7 +10,7 @@ sources:
     locator: Statement
 same_as:
   wikidata: Q837902
-  wikipedia: "Kuratowski's theorem"
+  wikipedia: Kuratowski's theorem
 ---
 
 ## Statement

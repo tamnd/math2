@@ -2,7 +2,6 @@
 tag: 0YK27TJ4WF
 kind: definition
 name: Order of a pole
-aliases: [multiplicity-of-a-pole]
 msc: [30D30]
 defines: 073MWACF1K
 uses: [0WPQYW8MTE, 064N002TX4]

@@ -9,7 +9,7 @@ sources:
     locator: Statement
 same_as:
   wikidata: Q536640
-  wikipedia: "Hall's marriage theorem"
+  wikipedia: Hall's marriage theorem
 ---
 
 ## Statement

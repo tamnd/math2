@@ -2,7 +2,6 @@
 tag: 0C38S0KMJK
 kind: definition
 name: Interior
-aliases: [interior-of-a-set]
 msc: [54A05]
 defines: 0RZH6W98HK
 uses: [0CNQXVBHCX, 01ZQQDCERP, 05GK32H72H]

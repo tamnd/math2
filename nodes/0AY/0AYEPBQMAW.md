@@ -7,7 +7,7 @@ defines: 0G0RFPG8HR
 uses: [0B5H4208Z9, 02YFME3RGW]
 sources:
   - url: https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors
-    locator: "Eigenspaces, geometric multiplicity, and the eigenbasis"
+    locator: Eigenspaces, geometric multiplicity, and the eigenbasis
 ---
 
 ## Definition

@@ -10,7 +10,7 @@ sources:
   - url: https://en.wikipedia.org/wiki/Logistic_function
     locator: Logistic differential equation
   - url: https://en.wikipedia.org/wiki/Logistic_function
-    locator: "In ecology: modeling population growth"
+    locator: 'In ecology: modeling population growth'
 ---
 
 ## Example

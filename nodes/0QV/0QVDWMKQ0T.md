@@ -2,7 +2,6 @@
 tag: 0QVDWMKQ0T
 kind: definition
 name: Homothety
-aliases: [dilation, central-similarity]
 msc: [51N10]
 defines: 0ZG1PNEP35
 uses: [09XNAPTJQ7, 0JF0TVYGWT]

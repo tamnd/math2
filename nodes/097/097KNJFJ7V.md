@@ -2,7 +2,6 @@
 tag: 097KNJFJ7V
 kind: definition
 name: Domain in the complex plane
-aliases: [region, complex-domain]
 msc: [30A99]
 defines: 0EWMDD6C14
 uses: [0CTE7A31XQ, 0KW2X0TFBX]

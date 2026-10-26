@@ -2,7 +2,6 @@
 tag: 0TCHAS04WK
 kind: definition
 name: Convex hull
-aliases: [convex-envelope, convex-closure]
 msc: [52A20]
 defines: 0FQSDC2EQ2
 uses: [02AS45T3H9, 0KJH6SRFZK]

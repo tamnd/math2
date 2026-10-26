@@ -2,7 +2,6 @@
 tag: 0TWPTQ0AD7
 kind: definition
 name: Incentre
-aliases: [incenter]
 msc: [51M04]
 defines: 0M9MX8YW0A
 uses: [0CTNFGYMM2, 01AAYNSBN6, 0NPPGHQNXQ]

@@ -2,7 +2,6 @@
 tag: 0RQPZZ44T4
 kind: definition
 name: Identity element
-aliases: [neutral-element]
 msc: [08A02]
 defines: 07WYQPB8E3
 uses: [0580ZJSA3Q]

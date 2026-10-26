@@ -2,7 +2,6 @@
 tag: 0ZV9A7EV0F
 kind: definition
 name: Complex power
-aliases: [complex-exponentiation, cpow]
 msc: [33B10]
 defines: 0RNGDMHT7M
 uses: [054VXHMCA3, 0X2FY491PF, 0YKY4M3KRQ]

@@ -2,7 +2,6 @@
 tag: 05GQJXBP3F
 kind: definition
 name: T1 space
-aliases: [accessible-space]
 msc: [54D10]
 defines: 0NW6CH38YR
 uses: [0CNQXVBHCX, 01ZQQDCERP, 0G5AV9Q4RR]

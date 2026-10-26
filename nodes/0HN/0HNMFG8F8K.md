@@ -7,7 +7,7 @@ msc: [15A18]
 uses: [0B5H4208Z9, 0EVHJFTG9Z]
 sources:
   - url: https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors
-    locator: "Eigenspaces, geometric multiplicity, and the eigenbasis"
+    locator: Eigenspaces, geometric multiplicity, and the eigenbasis
 ---
 
 ## Statement

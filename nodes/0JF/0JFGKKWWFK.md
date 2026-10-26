@@ -2,7 +2,6 @@
 tag: 0JFGKKWWFK
 kind: definition
 name: Residue
-aliases: [residue-of-a-function]
 msc: ["30E20"]
 defines: 0PHN07KVQT
 uses: [0TYB3HM9KE, 06WHRARZKY, 0T7ABX4CWE]

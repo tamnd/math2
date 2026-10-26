@@ -2,7 +2,7 @@
 tag: 00FWNP9TXY
 kind: definition
 name: Contour integral
-aliases: [complex-line-integral, path-integral, curve-integral]
+aliases: [curve-integral]
 msc: ["30E20"]
 defines: 06ZGPYTWK8
 uses: [09FTAET5Z4]

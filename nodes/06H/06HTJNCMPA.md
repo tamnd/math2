@@ -2,7 +2,7 @@
 tag: 06HTJNCMPA
 kind: statement
 role: theorem
-name: "Grassmann's formula"
+name: Grassmann's formula
 aliases: [dimension-formula]
 msc: [15A03]
 uses: [0RMKABS2S5, 0V33SPH7RR, 05G2G0P224]

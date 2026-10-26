@@ -2,7 +2,6 @@
 tag: 05MW7MPRBS
 kind: definition
 name: Cross-ratio
-aliases: [cross-ratio, double-ratio, anharmonic-ratio]
 msc: [30C35]
 defines: 09ASMRMD67
 uses: [0CDMXGPSES]

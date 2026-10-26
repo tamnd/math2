@@ -2,7 +2,6 @@
 tag: 0W77CVBCHQ
 kind: definition
 name: Normal subgroup
-aliases: [invariant-subgroup]
 msc: [20A05]
 defines: 0CB0DX5BVV
 uses: [0N0PXCTYA7, 0D6WHTTH7T]

@@ -2,7 +2,6 @@
 tag: 0S3SMRH0Z5
 kind: definition
 name: Continuous linear map
-aliases: [bounded-linear-operator]
 msc: [47B01]
 defines: 03TM135G0N
 uses: [0J3578562S, 0SY9ECQ19Q]

@@ -2,7 +2,6 @@
 tag: 09KDHB82SG
 kind: definition
 name: Metrizable space
-aliases: [metrisable-space]
 msc: ["54E35"]
 defines: 091GJ3FYD7
 uses: [0CNQXVBHCX, 0A6YRNZB2R]

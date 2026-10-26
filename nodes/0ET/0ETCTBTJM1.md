@@ -2,7 +2,6 @@
 tag: 0ETCTBTJM1
 kind: definition
 name: Collinear points
-aliases: [collinearity]
 msc: [51N10]
 defines: 0AFNNTRTJE
 uses: [09XNAPTJQ7, 0YMB1676R1]

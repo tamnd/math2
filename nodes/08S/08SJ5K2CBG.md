@@ -2,7 +2,6 @@
 tag: 08SJ5K2CBG
 kind: definition
 name: Commutator subgroup
-aliases: [derived-subgroup]
 msc: [20F12]
 defines: 0ASGSTXSBW
 uses: [06RGT4V6Y6, 0RG9SPQSWM]

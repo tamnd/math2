@@ -2,7 +2,6 @@
 tag: 0CEGEASY49
 kind: definition
 name: Zero of a holomorphic function
-aliases: [zero, root-of-a-function]
 msc: [30C15]
 defines: 00GC8ZQP4Q
 uses: [0DG0Z72CQD]

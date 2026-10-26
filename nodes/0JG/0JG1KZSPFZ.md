@@ -10,7 +10,7 @@ sources:
     locator: Statement
 same_as:
   wikidata: Q1047749
-  wikipedia: "Turán's theorem"
+  wikipedia: Turán's theorem
 ---
 
 ## Statement

@@ -7,7 +7,7 @@ msc: [05C10]
 uses: [0W1C598HMS]
 sources:
   - url: https://en.wikipedia.org/wiki/Planar_graph
-    locator: "Euler's formula"
+    locator: Euler's formula
 ---
 
 ## Statement

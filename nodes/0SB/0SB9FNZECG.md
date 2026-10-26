@@ -2,7 +2,6 @@
 tag: 0SB9FNZECG
 kind: definition
 name: Path component
-aliases: [path-connected-component]
 msc: [54D05]
 defines: 0X3EG7Y65T
 uses: [0K0GE6BCYW, 0SGTMBEWRF]

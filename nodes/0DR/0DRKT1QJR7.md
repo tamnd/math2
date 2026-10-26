@@ -2,7 +2,6 @@
 tag: 0DRKT1QJR7
 kind: definition
 name: Closure
-aliases: [closure-of-a-set]
 msc: [54A05]
 defines: 0QEAJB91GZ
 uses: [0CNQXVBHCX, 0G5AV9Q4RR, 0839XNQXDK]
