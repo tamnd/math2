@@ -1,16 +1,10 @@
 name: import
 
-# Import the external sources and update the inventory (corpus spec K4 and K5). Each Monday the run downloads a new snapshot of each source, makes the records with m2 ingest, and adds the new mentions and rows with m2 corpus import. When the tree changes, the run opens a pull request. A pull request or a merge with the workflow token does not start a workflow. Thus the run starts the check workflow on the branch, waits for it, merges the pull request when the checks pass, and then starts the pages workflow.
+# Import the external sources and update the inventory (corpus spec K4, K5 and K12.1). Each Monday the run runs m2 corpus import with the plan corpus/plan.yaml: it downloads each source of the plan, makes the records, and adds the new mentions and rows. When the tree changes, the run opens a pull request with the summary of the import. A pull request or a merge with the workflow token does not start a workflow. Thus the run starts the check workflow on the branch, waits for it, merges the pull request when the checks pass, and then starts the pages workflow. When the checks fail, the pull request stays open with a comment.
 on:
   schedule:
     - cron: "41 4 * * 1"
   workflow_dispatch:
-    inputs:
-      sources:
-        description: The sources to import, with a space between two sources
-        required: false
-        type: string
-        default: wikidata
 
 permissions: {}
 
@@ -53,27 +47,10 @@ jobs:
       - name: build m2
         working-directory: toolchain
         run: go build -trimpath -o "$RUNNER_TEMP/m2" ./cmd/m2
-      - name: m2 ingest
-        working-directory: content
-        env:
-          SOURCES: ${{ inputs.sources || 'wikidata' }}
-        run: |
-          for source in $SOURCES; do
-            if [[ ! "$source" =~ ^[a-z0-9_]+$ ]]; then
-              echo "::error::$source is not the id of a source"
-              exit 1
-            fi
-            "$RUNNER_TEMP/m2" ingest -root . -cache "$RUNNER_TEMP/cache" "$source"
-          done
       - name: m2 corpus import
         working-directory: content
-        env:
-          SOURCES: ${{ inputs.sources || 'wikidata' }}
         run: |
-          # SOURCES has only ids that the step m2 ingest checked.
-          # shellcheck disable=SC2086
-          "$RUNNER_TEMP/m2" corpus import -root . -commit "$GITHUB_SHA" $SOURCES | tee "$RUNNER_TEMP/import.txt"
-          "$RUNNER_TEMP/m2" corpus status -root . > "$RUNNER_TEMP/status.txt"
+          "$RUNNER_TEMP/m2" corpus import -plan corpus/plan.yaml -root . -commit "$GITHUB_SHA" -cache "$RUNNER_TEMP/cache" -summary "$RUNNER_TEMP/summary.md"
       - name: open and merge the pull request
         working-directory: content
         env:
@@ -94,13 +71,9 @@ jobs:
           git commit -q -m "Import the sources of $day"
           git push -q "https://x-access-token:$GH_TOKEN@github.com/$REPO.git" "HEAD:refs/heads/$branch"
           {
-            echo "The import workflow made this pull request on $day. It ran m2 ingest and m2 corpus import on main."
+            echo "The import workflow made this pull request on $day. It ran m2 corpus import with corpus/plan.yaml on main."
             echo
-            echo '```'
-            cat "$RUNNER_TEMP/import.txt"
-            echo
-            cat "$RUNNER_TEMP/status.txt"
-            echo '```'
+            cat "$RUNNER_TEMP/summary.md"
           } > "$RUNNER_TEMP/body.md"
           url=$(gh pr create -R "$REPO" --head "$branch" --base main --title "Import the sources of $day" --body-file "$RUNNER_TEMP/body.md" --label "area: inventory" --label "area: sources")
           sha=$(git rev-parse HEAD)
@@ -117,6 +90,7 @@ jobs:
             exit 1
           fi
           if ! gh run watch "$run" -R "$REPO" --exit-status --interval 30 > /dev/null; then
+            gh pr comment "$url" -R "$REPO" --body "The checks failed in run $GITHUB_SERVER_URL/$REPO/actions/runs/$run. The pull request stays open for a person."
             echo "::error::The checks failed on $branch. Pull request $url stays open for a person."
             exit 1
           fi

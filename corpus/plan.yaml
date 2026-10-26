@@ -1,0 +1,13 @@
+# The import plan of the pipeline (corpus spec K12.1). The import workflow runs m2 corpus import -plan corpus/plan.yaml each week. Each import names a source with an adapter. A url pins the bulk channel, for example a raw file at a commit. An import with no url downloads the bulk channel of the adapter. To move a pinned source to a new commit, change its url in a pull request.
+imports:
+  - source: wikidata
+  - source: mathlib_100
+    url: https://raw.githubusercontent.com/leanprover-community/mathlib4/9bdd0bc71aaae0fd83889f9aacd70c32fccd1bcd/docs/100.yaml
+  - source: mathlib_1000
+    url: https://raw.githubusercontent.com/leanprover-community/mathlib4/9bdd0bc71aaae0fd83889f9aacd70c32fccd1bcd/docs/1000.yaml
+  - source: mathlib_undergrad
+    url: https://raw.githubusercontent.com/leanprover-community/mathlib4/9bdd0bc71aaae0fd83889f9aacd70c32fccd1bcd/docs/undergrad.yaml
+  - source: mathlib_overview
+    url: https://raw.githubusercontent.com/leanprover-community/mathlib4/9bdd0bc71aaae0fd83889f9aacd70c32fccd1bcd/docs/overview.yaml
+  - source: thousand_plus
+    url: https://github.com/1000-plus/1000-plus.github.io/archive/8e04b97dd24adc6e931be78a884da7e935bc8780.tar.gz
