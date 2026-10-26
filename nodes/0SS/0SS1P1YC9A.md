@@ -15,9 +15,9 @@ sources:
 ## Definition
 
 Let $U$ be an open subset of $\mathbb{R}^n$ and let $f : U \to \mathbb{R}^n$ be a function.
-A first integral of the [[autonomous system|07BNRFQ0PJ]] $x' = f(x)$ is a continuously differentiable function $H : U \to \mathbb{R}$ such that
+Let $H : U \to \mathbb{R}$ be a continuously differentiable function. It is a first integral of the [[autonomous system|07BNRFQ0PJ]] $x' = f(x)$ if
 $$\nabla H(x) \cdot f(x) = 0 \quad \text{for each } x \in U,$$
-and such that $H$ is not constant on any non-empty open subset of $U$.
+and if $H$ is not constant on any non-empty open subset of $U$.
 
 ## Remarks
 

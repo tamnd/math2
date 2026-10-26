@@ -15,9 +15,9 @@ sources:
 ## Definition
 
 Let $U \subseteq \mathbb{R}^n$ be open, and let $0 \le k \le n$.
-For a multi-index $I = (i_1, \dots, i_k)$ with $1 \le i_1 < \dots < i_k \le n$, let $dx_I$ be the function of $k$ vectors $v_1, \dots, v_k \in \mathbb{R}^n$ given by
+Take a multi-index $I = (i_1, \dots, i_k)$ with $1 \le i_1 < \dots < i_k \le n$. Let $dx_I$ be the function of $k$ vectors $v_1, \dots, v_k \in \mathbb{R}^n$ given by
 $$dx_I(v_1, \dots, v_k) = \det \big[ (v_j)_{i_l} \big]_{l, j = 1}^{k},$$
-the determinant of the $k \times k$ matrix whose entry in row $l$ and column $j$ is the $i_l$-th component of $v_j$.
+the determinant of a $k \times k$ matrix. The entry of this matrix in row $l$ and column $j$ is the $i_l$-th component of $v_j$.
 A differential $k$-form on $U$ is a sum $\omega = \sum_I f_I \, dx_I$ over these multi-indices, where each $f_I \colon U \to \mathbb{R}$ is a function. At $x \in U$, it gives the function $\omega_x(v_1, \dots, v_k) = \sum_I f_I(x) \, dx_I(v_1, \dots, v_k)$.
 
 ## Remarks

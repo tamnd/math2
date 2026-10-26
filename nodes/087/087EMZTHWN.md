@@ -14,7 +14,7 @@ sources:
 
 The von Mangoldt function $\Lambda$ is the arithmetic function given, for each positive integer $n$, by
 $$\Lambda(n) = \begin{cases} \log p & \text{if } n = p^k \text{ for a prime } p \text{ and an integer } k \ge 1, \\ 0 & \text{otherwise}. \end{cases}$$
-Here $\log$ is the natural logarithm, and prime has the meaning of the [[definition of a prime number|0SN0MAEKYX]].
+Here $\log$ is the natural logarithm. The word prime has the meaning of the [[definition of a prime number|0SN0MAEKYX]].
 
 ## Remarks
 

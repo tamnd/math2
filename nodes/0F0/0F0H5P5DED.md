@@ -17,7 +17,7 @@ Let $U \subseteq \mathbb{C}$ be an open set and let $f : U \to \mathbb{C}$ be [[
 Let $c \in \mathbb{C}$ and $r > 0$ be such that the closed disc $\{z : |z - c| \le r\}$ is contained in $U$.
 Then for each integer $n \ge 0$ and each $a \in \mathbb{C}$ with $|a - c| < r$,
 $$f^{(n)}(a) = \frac{n!}{2 \pi i} \oint_{|z - c| = r} \frac{f(z)}{(z - a)^{n+1}} \, dz,$$
-where $f^{(n)}$ is the $n$-th complex derivative of $f$, which exists by [[holomorphic functions are infinitely differentiable|0QEBN8DGVE]].
+where $f^{(n)}$ is the $n$-th complex derivative of $f$. This derivative exists by [[holomorphic functions are infinitely differentiable|0QEBN8DGVE]].
 
 ## Remarks
 

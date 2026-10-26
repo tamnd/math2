@@ -29,4 +29,4 @@ The checker is a short Python program that does not use GAP. It finds the subgro
 
 ## Remarks
 
-The orders divide 24, as [[Lagrange's theorem|3C53TD]] says. The converse of the theorem is not true for each finite group, but it is true for $S_4$: for each divisor $d$ of 24, $S_4$ has a subgroup of order $d$. The alternating group $A_4$ of order 12 has no subgroup of order 6, so the converse is false for $A_4$.
+The orders divide 24, as [[Lagrange's theorem|3C53TD]] says. The converse of the theorem is not true for each finite group, but it is true for $S_4$. For each divisor $d$ of 24, $S_4$ has a subgroup of order $d$. The alternating group $A_4$ of order 12 has no subgroup of order 6, so the converse is false for $A_4$.

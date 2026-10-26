@@ -17,7 +17,7 @@ sources:
 Let $R = [a, b] \times [c, d]$ with $a < b$ and $c < d$, and let $f \colon R \to \mathbb{R}$ be bounded.
 Choose partitions $a = x_0 < \dots < x_k = b$ and $c = y_0 < \dots < y_l = d$, and let $R_{ij} = [x_{i-1}, x_i] \times [y_{j-1}, y_j]$ with area $\Delta A_{ij} = (x_i - x_{i-1})(y_j - y_{j-1})$.
 For points $p_{ij} \in R_{ij}$, the sum $S = \sum_{i, j} f(p_{ij}) \, \Delta A_{ij}$ is a Riemann sum of $f$.
-The function $f$ is Riemann integrable on $R$ if there is $I \in \mathbb{R}$ with this property: for each $\varepsilon > 0$ there is $\delta > 0$ such that $|S - I| < \varepsilon$ for all such sums whose rectangles have diameter less than $\delta$.
+The function $f$ is Riemann integrable on $R$ if there is $I \in \mathbb{R}$ with the following property. For each $\varepsilon > 0$ there is $\delta > 0$ such that $|S - I| < \varepsilon$ for all such sums whose rectangles have diameter less than $\delta$.
 Then $I$ is the double integral of $f$ over $R$, written $\iint_R f(x, y) \, dA$ or $\iint_R f(x, y) \, dx \, dy$.
 
 ## Remarks

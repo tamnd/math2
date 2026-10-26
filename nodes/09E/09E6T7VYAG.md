@@ -11,6 +11,6 @@ sources:
 
 ## Summary
 
-A complex function is complex differentiable at a point when its difference quotient has a limit as the complex increment goes to $0$, see the [[definition|0D1C9Y1EXA]].
+A complex function is complex differentiable at a point when its difference quotient has a limit as the complex increment goes to $0$. See the [[definition|0D1C9Y1EXA]].
 The limit is the complex derivative.
 A function that is complex differentiable at each point of an open set is holomorphic on that set.

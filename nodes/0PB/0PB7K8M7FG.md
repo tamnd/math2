@@ -13,7 +13,7 @@ sources:
 ## Definition
 
 Let $n \ge 1$, let $I$ be an open [[interval|0Q1D85B8G6]], and let $a_0, \dots, a_{n-1}, b : I \to \mathbb{R}$ be continuous functions.
-The linear differential equation of order $n$ with these coefficients and right side $b$ is the equation
+The linear differential equation of order $n$ with these coefficients and right side $b$ is
 $$y^{(n)} + a_{n-1}(x)\, y^{(n-1)} + \dots + a_1(x)\, y' + a_0(x)\, y = b(x)$$
 for an unknown $n$ times differentiable function $y : I \to \mathbb{R}$.
 With the operator $L y = y^{(n)} + a_{n-1} y^{(n-1)} + \dots + a_0 y$, the equation is $L y = b$.

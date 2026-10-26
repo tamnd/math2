@@ -14,7 +14,7 @@ sources:
 Let $F$ be a field and let $n \ge 1$ be an integer.
 A *linear equation* over $F$ in the unknowns $x_1, \dots, x_n$ is an equation of the form
 $$a_1 x_1 + a_2 x_2 + \cdots + a_n x_n = b,$$
-where the coefficients $a_1, \dots, a_n$ and the constant term $b$ are elements of $F$.
+where the coefficients $a_1, \dots, a_n$ are elements of $F$. The constant term $b$ is also an element of the field.
 A *solution* of the equation is a tuple $(s_1, \dots, s_n) \in F^n$ such that $a_1 s_1 + \cdots + a_n s_n = b$.
 
 ## Remarks

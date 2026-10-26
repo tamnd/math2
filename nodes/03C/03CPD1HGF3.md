@@ -16,7 +16,7 @@ same_as:
 
 ## Summary
 
-A multivalued function from a set $X$ to a set $Y$ assigns to each $x \in X$ a subset $F(x)$ of $Y$, and $F(x)$ has two or more elements for at least one $x$.
+A multivalued function from a set $X$ to a set $Y$ assigns to each $x \in X$ a subset $F(x)$ of $Y$. For at least one $x$, the subset $F(x)$ has two or more elements.
 In complex analysis, the main examples come from the inverses of functions that are not injective.
 For example, each $z \neq 0$ has two square roots, and it has infinitely many [[logarithms|0X2FY491PF]] and [[arguments|0ZZRSX91QR]].
 

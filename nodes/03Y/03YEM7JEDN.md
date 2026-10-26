@@ -24,7 +24,7 @@ Then $f$ is an open map: for each open set $V \subseteq D$, the image $f(V)$ is 
 
 ## Remarks
 
-The [[maximum modulus principle|048F2P90WR]] follows: if $|f|$ had a local maximum at $z_0$, then $f$ would map a small disc around $z_0$ onto a set that contains no disc around $f(z_0)$.
+The [[maximum modulus principle|048F2P90WR]] follows. If $|f|$ had a local maximum at $z_0$, then $f$ would map a small disc around $z_0$ onto a set that contains no disc around $f(z_0)$.
 The connectedness of $D$ matters only to exclude functions that are constant on one part of $D$.
 There is no real analogue: $x \mapsto x^2$ maps $(-1, 1)$ onto $[0, 1)$, which is not open in $\mathbb{R}$. In contrast, $z \mapsto z^2$ maps the unit disc onto the unit disc.
 

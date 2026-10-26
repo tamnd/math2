@@ -10,4 +10,4 @@ sources:
 
 ## Summary
 
-A directrix of a conic is a line with this property: for each point of the conic, the distance to a focus divided by the distance to the line is the same constant. This constant is the eccentricity.
+A directrix of a conic is a line with the following property. For each point of the conic, the distance to a focus divided by the distance to the line is the same constant. This constant is the eccentricity.

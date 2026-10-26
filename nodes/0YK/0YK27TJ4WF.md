@@ -13,7 +13,7 @@ sources:
 ## Definition
 
 Let $c$ be a [[pole|0WPQYW8MTE]] of $f$.
-The order of the pole $c$ is the unique integer $m \ge 1$ such that, on some punctured disc $0 < |z - c| < \delta$,
+The order of the pole $c$ is the unique integer $m \ge 1$ with the following property. On some punctured disc $0 < |z - c| < \delta$,
 $$f(z) = \frac{g(z)}{(z - c)^m},$$
 where $g$ is [[holomorphic|0DG0Z72CQD]] on the disc $|z - c| < \delta$ and $g(c) \neq 0$.
 A pole of order $1$ is a simple pole.

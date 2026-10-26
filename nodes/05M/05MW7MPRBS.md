@@ -17,7 +17,7 @@ sources:
 Let $z_1, z_2, z_3, z_4$ be four distinct complex numbers.
 Their cross-ratio is
 $$(z_1, z_2; z_3, z_4) = \frac{(z_3 - z_1)(z_4 - z_2)}{(z_3 - z_2)(z_4 - z_1)}.$$
-If one of the four points is the point $\infty$ of the [[Riemann sphere|0CDMXGPSES]] and the other three are distinct complex numbers, the cross-ratio is the same formula without the two factors that contain $\infty$.
+Suppose that one of the four points is the point $\infty$ of the [[Riemann sphere|0CDMXGPSES]] and the other three are distinct complex numbers. Then the cross-ratio is the same formula without the two factors that contain $\infty$.
 
 ## Remarks
 

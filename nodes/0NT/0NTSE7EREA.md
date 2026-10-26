@@ -26,7 +26,7 @@ A consequence is that the exterior angle is greater than each of the two remote 
 
 ## History
 
-Euclid's Elements gives the weaker form as Proposition 16 of Book I. The form with the sum is part of Proposition 32 of Book I. Many school books call the form with the sum the exterior angle theorem.
+In Book I of Euclid's Elements, the weaker form is Proposition 16. The form with the sum is part of Proposition 32 of the same book. Many school books call the form with the sum the exterior angle theorem.
 
 ## Explanations
 

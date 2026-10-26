@@ -16,7 +16,7 @@ sources:
 ## Definition
 
 Let $c$ be an [[isolated singularity|0TYB3HM9KE]] of $f$, so that $f$ is holomorphic on $0 < |z - c| < r$ for some $r > 0$.
-The singularity $c$ is a pole of $f$ if $|f(z)| \to \infty$ as $z \to c$: for each $K > 0$ there is $\delta > 0$ such that $|f(z)| > K$ for each $z$ with $0 < |z - c| < \delta$.
+The singularity $c$ is a pole of $f$ if $|f(z)| \to \infty$ as $z \to c$. This means that for each $K > 0$ there is $\delta > 0$ such that $|f(z)| > K$ for each $z$ with $0 < |z - c| < \delta$.
 
 ## Remarks
 

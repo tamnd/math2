@@ -11,5 +11,5 @@ sources:
 
 ## Summary
 
-A branch cut is a curve that is removed from the plane so that a multivalued function has a continuous single-valued branch on the rest, see the [[definition|06JYC06JHY]].
+A branch cut is a curve that is removed from the plane so that a multivalued function has a continuous single-valued branch on the rest. See the [[definition|06JYC06JHY]].
 The usual branch cut for the logarithm is the negative real axis.

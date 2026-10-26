@@ -16,7 +16,7 @@ sources:
 
 Let $U$ be an open subset of the [[complex plane|0CTE7A31XQ]], identified with $\mathbb{R}^2$, and let $z_0 \in U$.
 Let $f : U \to \mathbb{C}$ be differentiable at $z_0$ as a map from an open subset of $\mathbb{R}^2$ to $\mathbb{R}^2$, with Jacobian matrix $J$ at $z_0$.
-The map $f$ is conformal at $z_0$ if $J = \lambda Q$ for a real number $\lambda > 0$ and a rotation matrix $Q$, that is, an orthogonal $2 \times 2$ matrix with determinant $1$.
+The map $f$ is conformal at $z_0$ if $J = \lambda Q$ for a real number $\lambda > 0$ and a rotation matrix $Q$. A rotation matrix is an orthogonal $2 \times 2$ matrix with determinant $1$.
 The map $f$ is conformal on $U$ if it is conformal at each point of $U$.
 
 ## Remarks

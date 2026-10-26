@@ -17,7 +17,7 @@ Let $m = m_1 + \cdots + m_p$ and $n = n_1 + \cdots + n_q$ with positive integers
 For each $i \le p$ and $j \le q$, let $A_{ij}$ be an $m_i \times n_j$ [[matrix|0VD9ZSWWJG]] over $R$.
 The *block matrix* with blocks $A_{ij}$ is the $m \times n$ matrix
 $$A = \begin{pmatrix} A_{11} & \cdots & A_{1q} \\ \vdots & \ddots & \vdots \\ A_{p1} & \cdots & A_{pq} \end{pmatrix},$$
-in which the rows $m_1 + \cdots + m_{i-1} + 1$ to $m_1 + \cdots + m_i$ and the columns $n_1 + \cdots + n_{j-1} + 1$ to $n_1 + \cdots + n_j$ hold the entries of $A_{ij}$.
+in which $A_{ij}$ fills rows $m_1 + \cdots + m_{i-1} + 1$ to $m_1 + \cdots + m_i$ and columns $n_1 + \cdots + n_{j-1} + 1$ to $n_1 + \cdots + n_j$.
 
 ## Remarks
 

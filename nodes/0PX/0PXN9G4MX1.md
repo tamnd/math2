@@ -19,7 +19,7 @@ where $W^\perp$ is the [[orthogonal complement|0XJXTBCB2T]] of $W$.
 
 ## Remarks
 
-Clearly $W \subseteq (W^\perp)^\perp$, and both have dimension $\dim V - \dim W^\perp = \dim W$.
+Each vector of the subspace is orthogonal to each vector of its orthogonal complement, so $W \subseteq (W^\perp)^\perp$. Both have dimension $\dim V - \dim W^\perp = \dim W$.
 In an infinite-dimensional Hilbert space, $(W^\perp)^\perp$ is the closure of $W$.
 
 ## Explanations

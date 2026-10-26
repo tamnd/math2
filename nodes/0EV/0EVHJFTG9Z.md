@@ -13,7 +13,7 @@ sources:
 ## Definition
 
 Let $F$ be a field and let $V$ be a vector space over $F$.
-A family $(v_1, \dots, v_k)$ of vectors of $V$ is *linearly independent* when the only [[linear combination|0V8F3E48E6]] of them that equals $0$ is the trivial one:
+A family $(v_1, \dots, v_k)$ of vectors of $V$ is *linearly independent* when the only [[linear combination|0V8F3E48E6]] of them that equals $0$ is the trivial one. This means that
 $$a_1 v_1 + \cdots + a_k v_k = 0 \implies a_1 = \cdots = a_k = 0$$
 for all $a_1, \dots, a_k \in F$.
 An arbitrary family $(v_i)_{i \in I}$ is *linearly independent* when each finite subfamily is linearly independent.

@@ -12,9 +12,9 @@ sources:
 
 ## Definition
 
-The Möbius function $\mu$ is the arithmetic function given, for each positive integer $n$, by
+The Möbius function $\mu$ is an arithmetic function. For each positive integer $n$, it is given by
 $$\mu(n) = \begin{cases} (-1)^{\omega(n)} & \text{if } n \text{ is squarefree}, \\ 0 & \text{otherwise}. \end{cases}$$
-Here $\omega(n)$ is the [[number of distinct prime factors|0YVVXT3A0B]] of $n$, and squarefree has the meaning of the [[definition of a squarefree integer|004JW7A2N5]].
+Here $\omega(n)$ is the [[number of distinct prime factors|0YVVXT3A0B]] of $n$. The word squarefree has the meaning of the [[definition of a squarefree integer|004JW7A2N5]].
 
 ## Remarks
 

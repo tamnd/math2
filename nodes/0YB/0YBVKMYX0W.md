@@ -20,7 +20,7 @@ same_as:
 
 Let $D \subseteq \mathbb{C}$ be a [[domain|097KNJFJ7V]] and let $f, g : D \to \mathbb{C}$ be [[holomorphic|0DG0Z72CQD]] on $D$.
 Let $S = \{z \in D : f(z) = g(z)\}$.
-Assume that $S$ has an accumulation point in $D$: there is $z_0 \in D$ such that each disc with center $z_0$ contains a point of $S$ other than $z_0$.
+Assume that $S$ has an accumulation point in $D$. This means that there is $z_0 \in D$ such that each disc with center $z_0$ contains a point of $S$ other than $z_0$.
 Then $f(z) = g(z)$ for each $z \in D$.
 
 ## Remarks

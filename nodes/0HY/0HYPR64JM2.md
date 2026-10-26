@@ -31,5 +31,5 @@ The property also holds for averages over the solid disc. A continuous function 
 
 ### L1 human
 
-If $u$ is harmonic, its value at a point is the average of its values on each circle around that point, as long as the closed disc stays in the domain.
+If $u$ is harmonic, its value at a point is the average of its values on each circle around that point. This is true as long as the closed disc stays in the domain.
 For example, $u = x^2 - y^2$ at $0$ is $0$, and on the unit circle it is $\cos 2\theta$, whose average is $0$.

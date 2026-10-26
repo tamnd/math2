@@ -18,7 +18,7 @@ same_as:
 
 ## Statement
 
-Let $U \subseteq \mathbb{C}$ be a simply connected open set: $U$ is connected, and each closed path in $U$ can be continuously deformed in $U$ to a constant path.
+Let $U \subseteq \mathbb{C}$ be a simply connected open set. This means that $U$ is connected, and each closed path in $U$ can be continuously deformed in $U$ to a constant path.
 Let $f : U \to \mathbb{C}$ be [[holomorphic|0DG0Z72CQD]] on $U$.
 Let $\gamma : [a, b] \to U$ be a closed path that is continuous and piecewise continuously differentiable.
 Then the [[contour integral|00FWNP9TXY]] of $f$ along $\gamma$ is
