@@ -13,7 +13,7 @@ sources:
 ## Definition
 
 Let $S$ be a nonempty [[countable set|0ZG61TFBES]].
-A Markov chain with state space $S$ is a [[stochastic process|0QH5ENKZM1]] $(X_n)_{n \ge 0}$ with values in $S$ such that
+Let $(X_n)_{n \ge 0}$ be a [[stochastic process|0QH5ENKZM1]] with values in $S$. It is a Markov chain with state space $S$ if
 $$P(X_{n+1} = j \mid X_0 = i_0, \dots, X_{n-1} = i_{n-1}, X_n = i) = P(X_{n+1} = j \mid X_n = i)$$
 for each $n \ge 0$ and all states $i_0, \dots, i_{n-1}, i, j \in S$ with $P(X_0 = i_0, \dots, X_n = i) > 0$.
 The chain is time-homogeneous if $p_{ij} = P(X_{n+1} = j \mid X_n = i)$ does not depend on $n$.

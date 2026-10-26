@@ -20,7 +20,7 @@ Then $\mathcal{F}$ has a transversal if and only if $\left| \bigcup_{i \in I} S_
 
 ## Remarks
 
-The condition on all subfamilies is the marriage condition. It is clearly necessary, because $f$ maps $I$ injectively into $\bigcup_{i \in I} S_i$.
+The condition on all subfamilies is the marriage condition. It is necessary, because a transversal $f$ maps $I$ injectively into $\bigcup_{i \in I} S_i$.
 A transversal is also called a system of distinct representatives. The sets $S_i$ may repeat in the family.
 The theorem is equivalent to [[Hall's theorem for bipartite graphs|0X2GJPNPFN]].
 

@@ -15,7 +15,7 @@ sources:
 Let $I$ be an open interval, let $P, Q : I \to \mathbb{R}$ be continuous functions, and let $n$ be a real number.
 A Bernoulli equation is an [[ordinary differential equation|0P97V20RW7]] of the form
 $$y' + P(x)\, y = Q(x)\, y^{n}$$
-for an unknown function $y$ on a subinterval of $I$, with $y > 0$ when $n$ is not an integer.
+for an unknown function $y$ on a subinterval of $I$. If $n$ is not an integer, the function must satisfy $y > 0$.
 
 ## Remarks
 

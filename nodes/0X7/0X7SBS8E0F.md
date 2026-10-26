@@ -15,7 +15,7 @@ sources:
 
 ## Definition
 
-Let $\gamma : [a, b] \to \mathbb{C}$ be a closed path that is continuous and piecewise continuously differentiable, and let $w \in \mathbb{C}$ be a point that is not on the image of $\gamma$.
+Let $\gamma : [a, b] \to \mathbb{C}$ be a closed path that is continuous and piecewise continuously differentiable. Let $w \in \mathbb{C}$ be a point that is not on the image of $\gamma$.
 The winding number of $\gamma$ around $w$ is
 $$n(\gamma, w) = \frac{1}{2 \pi i} \oint_\gamma \frac{dz}{z - w},$$
 where the integral is a [[contour integral|00FWNP9TXY]].

@@ -11,7 +11,7 @@ sources:
 
 ## Counterexample
 
-One could guess this: a function of two variables is continuous when it is continuous in each variable for each fixed value of the other variable.
+One could guess the following. A function of two variables is continuous when it is continuous in each variable for each fixed value of the other variable.
 This is false.
 Let $f \colon \mathbb{R}^2 \to \mathbb{R}$ be given by $f(x, y) = \dfrac{xy}{x^2 + y^2}$ for $(x, y) \ne (0, 0)$ and $f(0, 0) = 0$.
 For each fixed $b$, the function $x \mapsto f(x, b)$ is continuous on $\mathbb{R}$, and for each fixed $a$, the function $y \mapsto f(a, y)$ is continuous on $\mathbb{R}$.

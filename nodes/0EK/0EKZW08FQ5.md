@@ -17,7 +17,7 @@ sources:
 ## Definition
 
 Let $S \subseteq \mathbb{R}^3$ be a surface that has a tangent plane at each point.
-The surface $S$ is orientable if there is a continuous map $n \colon S \to \mathbb{R}^3$ with this property: for each $p \in S$, $n(p)$ is a [[unit normal vector|0BJDQ2HBH1]] of $S$ at $p$.
+The surface $S$ is orientable if there is a continuous map $n \colon S \to \mathbb{R}^3$ with the following property. For each $p \in S$, $n(p)$ is a [[unit normal vector|0BJDQ2HBH1]] of $S$ at $p$.
 Such a map $n$ is an orientation of $S$, and $S$ together with $n$ is an oriented surface.
 
 ## Remarks

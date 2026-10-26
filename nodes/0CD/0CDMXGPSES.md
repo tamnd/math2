@@ -16,7 +16,7 @@ sources:
 
 The Riemann sphere, or extended complex plane, is the set $\widehat{\mathbb{C}} = \mathbb{C} \cup \{\infty\}$, where $\mathbb{C}$ is the set of [[complex numbers|09FTAET5Z4]] and $\infty$ is one new point.
 Its topology is as follows.
-A set $V \subseteq \widehat{\mathbb{C}}$ is open if $V \cap \mathbb{C}$ is open in the [[complex plane|0CTE7A31XQ]] and, in the case $\infty \in V$, $V$ also contains the set $\{ z \in \mathbb{C} : |z| > R \}$ for some $R > 0$.
+A set $V \subseteq \widehat{\mathbb{C}}$ is open if the following two conditions hold. First, $V \cap \mathbb{C}$ is open in the [[complex plane|0CTE7A31XQ]]. Second, in the case $\infty \in V$, $V$ also contains the set $\{ z \in \mathbb{C} : |z| > R \}$ for some $R > 0$.
 Let $S^2 = \{ (x_1, x_2, x_3) \in \mathbb{R}^3 : x_1^2 + x_2^2 + x_3^2 = 1 \}$ and $N = (0, 0, 1)$.
 The stereographic projection $\sigma : S^2 \to \widehat{\mathbb{C}}$ is $\sigma(x_1, x_2, x_3) = \frac{x_1 + i x_2}{1 - x_3}$ for points other than $N$, and $\sigma(N) = \infty$.
 The map $\sigma$ is a homeomorphism, so $\widehat{\mathbb{C}}$ is a sphere as a topological space.

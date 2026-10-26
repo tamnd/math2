@@ -12,5 +12,5 @@ sources:
 
 ## Summary
 
-A function between subsets of Euclidean spaces is continuous at a point $a$ when this is true: small changes of the input near $a$ give small changes of the value.
+Take a function between subsets of Euclidean spaces, and a point $a$. The function is continuous at this point when small changes of the input near $a$ give small changes of the value.
 For a function of several variables, the input can change in all coordinates at once.

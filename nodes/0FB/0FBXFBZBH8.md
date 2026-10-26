@@ -13,7 +13,7 @@ sources:
 ## Definition
 
 Let $K$ be a field, let $V$ be a vector space over $K$, and let $A$ be an [[affine space|09XNAPTJQ7]] over $V$.
-A nonempty subset $S$ of $A$ is an affine subspace if $S = p + W$ for a point $p$ of $A$ and a linear subspace $W$ of $V$:
+A nonempty subset $S$ of $A$ is an affine subspace if $S = p + W$ for a point $p$ of $A$ and a linear subspace $W$ of $V$. This means that
 $$S = p + W = \{\, p + w \;:\; w \in W \,\}.$$
 The subspace $W$ is the direction of $S$. It is unique: $W = \{\, q - r : q, r \in S \,\}$. The dimension of $S$ is the dimension of $W$.
 

@@ -16,7 +16,7 @@ Let $V$ and $W$ be finite-dimensional inner product spaces over $\R$ or $\C$, wi
 Let $T \colon V \to W$ be a linear map.
 Then the matrix of the [[adjoint|0R9NMSM1ZP]] is
 $$[T^*]_{B,C} = \left([T]_{C,B}\right)^*,$$
-where $^*$ on the right is the [[conjugate transpose|0DXKE10PHF]] and $[\,\cdot\,]$ is the [[matrix of a linear map|0YQSGNYE3K]].
+where $^*$ on the right is the [[conjugate transpose|0DXKE10PHF]]. Here $[\,\cdot\,]$ is the [[matrix of a linear map|0YQSGNYE3K]].
 
 ## Remarks
 

@@ -15,7 +15,7 @@ sources:
 Let $J$ be an open interval and let $F : J \to \mathbb{R}$ be a continuous function.
 A homogeneous first-order equation is an [[ordinary differential equation|0P97V20RW7]] of the form
 $$y' = F\left(\frac{y}{x}\right)$$
-for an unknown function $y$ of $x$, on an interval that does not contain $0$, with $y(x)/x \in J$.
+for an unknown function $y$ of $x$. Its domain is an interval that does not contain $0$, with $y(x)/x \in J$.
 
 ## Remarks
 

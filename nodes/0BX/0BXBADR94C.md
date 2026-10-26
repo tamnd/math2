@@ -21,7 +21,7 @@ same_as:
 Let $\Omega \subseteq \mathbb{R}^n \times \mathbb{R}^m$ be open, and let $F \colon \Omega \to \mathbb{R}^m$ be of [[class C^1|0TCBZMEYGN]], written $F(x, y)$ with $x \in \mathbb{R}^n$ and $y \in \mathbb{R}^m$.
 Let $(a, b) \in \Omega$ with $F(a, b) = 0$.
 Suppose that the $m \times m$ matrix $D_y F(a, b) = \left( \partial F_i / \partial y_j (a, b) \right)_{i, j}$ is invertible.
-Then there are open sets $U \subseteq \mathbb{R}^n$ and $V \subseteq \mathbb{R}^m$ with $a \in U$ and $b \in V$, and a unique function $g \colon U \to V$ with this property: for $(x, y) \in U \times V$, $F(x, y) = 0$ if and only if $y = g(x)$.
+Then there are open sets $U \subseteq \mathbb{R}^n$ and $V \subseteq \mathbb{R}^m$ with $a \in U$ and $b \in V$, and a unique function $g \colon U \to V$ with the following property. For $(x, y) \in U \times V$, $F(x, y) = 0$ if and only if $y = g(x)$.
 The function $g$ is of class $C^1$, and $Dg(x) = -\big( D_y F(x, g(x)) \big)^{-1} D_x F(x, g(x))$ for each $x \in U$.
 
 ## Remarks

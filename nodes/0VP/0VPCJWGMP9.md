@@ -13,7 +13,7 @@ sources:
 ## Definition
 
 Let $F$ be a field and let $V$ and $W$ be vector spaces over $F$.
-The *space of linear maps* $\Hom_F(V, W)$, also written $L(V, W)$, is the set of all [[linear maps|0NRYHJPQG2]] $V \to W$, with the operations
+The *space of linear maps* $\Hom_F(V, W)$, also written $L(V, W)$, is the set of all [[linear maps|0NRYHJPQG2]] $V \to W$. It has the operations
 $$(S + T)(v) = S(v) + T(v), \qquad (aT)(v) = a\, T(v)$$
 for $S, T \in \Hom_F(V, W)$, $a \in F$ and $v \in V$.
 It is a vector space over $F$, with the zero map as zero vector.

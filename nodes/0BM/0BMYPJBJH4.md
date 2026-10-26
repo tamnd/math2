@@ -14,7 +14,7 @@ sources:
 
 Let $n \geq 2$ be an integer. A line in the [[Euclidean space|0XPR1E85W0]] $\mathbb{R}^n$ is a set of the form
 $$L = \{\, p + t v \;:\; t \in \mathbb{R} \,\},$$
-where $p$ is a point of $\mathbb{R}^n$ and $v$ is a nonzero [[vector|0QN3D80AWP]] of $\mathbb{R}^n$. The vector $v$ is a direction vector of $L$.
+where $p$ is a point of $\mathbb{R}^n$. Here $v$ is a nonzero [[vector|0QN3D80AWP]] of $\mathbb{R}^n$. The vector $v$ is a direction vector of $L$.
 
 ## Remarks
 

@@ -12,7 +12,7 @@ sources:
 
 ## Definition
 
-The inverse trigonometric functions are the inverses of the restrictions of the trigonometric functions to the following intervals:
+The inverse trigonometric functions are the inverses of the restrictions of the trigonometric functions. The restrictions are to the following intervals:
 $\sin$ on $[-\pi/2, \pi/2]$, $\cos$ on $[0, \pi]$, and $\tan$ on $(-\pi/2, \pi/2)$.
 They are the [[arcsine|0B89D93YA1]] $\arcsin \colon [-1, 1] \to [-\pi/2, \pi/2]$, the [[arccosine|0RDP2HEFEW]] $\arccos \colon [-1, 1] \to [0, \pi]$ and the [[arctangent|065XW2V6C3]] $\arctan \colon \mathbb{R} \to (-\pi/2, \pi/2)$.
 

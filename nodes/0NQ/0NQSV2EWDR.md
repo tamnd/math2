@@ -14,4 +14,4 @@ same_as:
 
 ## Summary
 
-The winding number of a closed curve around a point is the integer that counts the number of counterclockwise turns of the curve around the point, see the [[definition|0X7SBS8E0F]].
+The winding number of a closed curve around a point is the integer that counts the counterclockwise turns of the curve around the point. See the [[definition|0X7SBS8E0F]].
