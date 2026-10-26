@@ -1,0 +1,142 @@
+# The symbols of all areas. A body of each topic can use them (corpus K10.4).
+# m2 notation build writes macros/m2.sty and macros/m2.katex.json from this file. Change this file, and not the macro files.
+
+# Number systems.
+- macro: \N
+  denotes: 0MWKJ44V5A
+  args: 0
+  latex: '\mathbb{N}'
+  reads: 'N'
+  lean: Nat
+- macro: \Z
+  denotes: 0C4JS9RF5M
+  args: 0
+  latex: '\mathbb{Z}'
+  reads: 'Z'
+  lean: Int
+- macro: \Q
+  denotes: 0NCJ5WXN6Z
+  args: 0
+  latex: '\mathbb{Q}'
+  reads: 'Q'
+  lean: Rat
+- macro: \R
+  denotes: 08J2M1JYAG
+  args: 0
+  latex: '\mathbb{R}'
+  reads: 'R'
+  lean: Real
+- macro: \C
+  denotes: 09FTAET5Z4
+  args: 0
+  latex: '\mathbb{C}'
+  reads: 'C'
+  lean: Complex
+- macro: \F
+  denotes: 0ZXZ82FTX2
+  args: 0
+  latex: '\mathbb{F}'
+  reads: 'F'
+  lean: GaloisField
+
+# Delimiters.
+- macro: \abs
+  denotes: 0FFXKTKKQC
+  args: 1
+  latex: '\left|#1\right|'
+  reads: 'the absolute value of #1'
+  lean: abs
+- macro: \norm
+  denotes: 0V2WP9B1MF
+  args: 1
+  latex: '\left\|#1\right\|'
+  reads: 'the norm of #1'
+  lean: Norm.norm
+- macro: \set
+  denotes: 0BSJ7RQ9BW
+  args: 1
+  latex: '\left\{#1\right\}'
+  reads: 'the set of #1'
+- macro: \ip
+  denotes: 0NB0AWGJBW
+  args: 2
+  latex: '\left\langle #1, #2\right\rangle'
+  reads: 'the inner product of #1 and #2'
+  lean: inner
+- macro: \floor
+  denotes: 08GR54CKEA
+  args: 1
+  latex: '\left\lfloor #1\right\rfloor'
+  reads: 'the floor of #1'
+  lean: Int.floor
+- macro: \ceil
+  denotes: 0EA4XFB0EY
+  args: 1
+  latex: '\left\lceil #1\right\rceil'
+  reads: 'the ceiling of #1'
+  lean: Int.ceil
+
+# Operators. Do not add an operator that LaTeX already has, for example \ker or \deg.
+- macro: \id
+  denotes: 0PSKT5W817
+  args: 0
+  latex: '\operatorname{id}'
+  reads: 'the identity'
+  lean: id
+- macro: \im
+  denotes: 0WSFKKT6FF
+  args: 0
+  latex: '\operatorname{im}'
+  reads: 'the image of'
+  lean: LinearMap.range
+- macro: \Hom
+  denotes: 0X9MBPP2Z3
+  args: 0
+  latex: '\operatorname{Hom}'
+  reads: 'Hom'
+- macro: \End
+  denotes: 0E3X2G1ZQB
+  args: 0
+  latex: '\operatorname{End}'
+  reads: 'End'
+  lean: Module.End
+- macro: \Aut
+  denotes: 0K1SCPBNKJ
+  args: 0
+  latex: '\operatorname{Aut}'
+  reads: 'Aut'
+- macro: \Gal
+  denotes: 0XTY86BZKY
+  args: 0
+  latex: '\operatorname{Gal}'
+  reads: 'the Galois group of'
+- macro: \rank
+  denotes: 0ZC9YTXZRY
+  args: 0
+  latex: '\operatorname{rank}'
+  reads: 'the rank of'
+  lean: Matrix.rank
+- macro: \tr
+  denotes: 0XC1RDBY7A
+  args: 0
+  latex: '\operatorname{tr}'
+  reads: 'the trace of'
+  lean: Matrix.trace
+- macro: \sgn
+  denotes: 02DKV69ZH0
+  args: 0
+  latex: '\operatorname{sgn}'
+  reads: 'the sign of'
+  lean: Equiv.Perm.sign
+- macro: \lcm
+  denotes: 007NPQX34K
+  args: 0
+  latex: '\operatorname{lcm}'
+  reads: 'the least common multiple of'
+  lean: lcm
+- macro: \ord
+  denotes: 0WE2NHZJ7B
+  args: 0
+  latex: '\operatorname{ord}'
+  reads: 'the order of'
+  lean: orderOf

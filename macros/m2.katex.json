@@ -17,12 +17,9 @@
   "\\End": "\\operatorname{End}",
   "\\Aut": "\\operatorname{Aut}",
   "\\Gal": "\\operatorname{Gal}",
-  "\\Spec": "\\operatorname{Spec}",
   "\\rank": "\\operatorname{rank}",
   "\\tr": "\\operatorname{tr}",
   "\\sgn": "\\operatorname{sgn}",
   "\\lcm": "\\operatorname{lcm}",
-  "\\ord": "\\operatorname{ord}",
-  "\\supp": "\\operatorname{supp}",
-  "\\dd": "\\mathrm{d}"
+  "\\ord": "\\operatorname{ord}"
 }

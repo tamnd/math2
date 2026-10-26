@@ -55,7 +55,7 @@ These are the reasons for this decision (spec 04.3 and rule T03).
 2. Do not copy text from a source that does not allow copies. Add a link and a locator. The LICENCE file names these sources.
 3. Each node has one or more sources, unless it is a topic.
 4. The statement section states one thing. Put a proof in a proof node. Put history in the history section.
-5. Use only the LaTeX that KaTeX and MathJax can both show, and the macros in `macros/m2.sty`.
+5. Use only the LaTeX that KaTeX and MathJax can both show, and the macros of the notation register in `notation/`.
 6. A link to another node is `[[text|TAG]]`. Do not link to a URL in the statement section.
 7. Do not add `axiom` to the Lean package. A conditional result uses a named hypothesis in `lean/Math2/Hypotheses/`.
 8. Do not use `sorry` or `native_decide` in the Lean package.
@@ -63,11 +63,14 @@ These are the reasons for this decision (spec 04.3 and rule T03).
 
 ## Propose a macro
 
-1. Make sure that KaTeX and MathJax do not already have the macro, and that `macros/m2.sty` does not have it.
-2. Add one `\newcommand` line to `macros/m2.sty`. Write the full definition on one line.
-3. Add the same macro with the same expansion to `macros/m2.katex.json`.
-4. Run `python -m unittest discover -s .github/scripts`. The test compares the two files.
-5. In the pull request, give one node that needs the macro.
+The notation register in `notation/` gives each macro its meaning (corpus K10.4). `notation/global.yaml` has the symbols of all areas, and a file `notation/<topic>.yaml` has the symbols of one topic. `m2 notation build` writes `macros/m2.sty` and `macros/m2.katex.json` from the register. Do not change the two macro files by hand.
+
+1. Make sure that KaTeX and MathJax do not already have the macro, and that the register does not have it.
+2. Add an entry to the register file of the topic, or to `notation/global.yaml` for a symbol of all areas. Give the macro, the tag of the node that it denotes, the number of arguments, the expansion and how a person reads it. Put quotes around an expansion that has `#`.
+3. When a definition introduces the symbol, list the macro in the `notation` field of the definition, and give the tag of the definition in the field `introduced_by` of the entry.
+4. When the glyph of the macro is the same as the glyph of another entry in a scope with a topic in common, list each entry in the `conflicts` field of the other.
+5. Run `m2 notation build`, then `python -m unittest discover -s .github/scripts`. Audit rules N01 to N07 check the register.
+6. In the pull request, give one node that needs the macro.
 
 Do not change the expansion of a macro that nodes use. Add a new macro.
 
