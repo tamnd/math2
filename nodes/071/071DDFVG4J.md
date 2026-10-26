@@ -2,7 +2,6 @@
 tag: 071DDFVG4J
 kind: definition
 name: Abelian group
-aliases: [commutative-group]
 msc: [20Kxx]
 defines: 082GHNPJ53
 uses: [G5S1M9, 04E4V9G5FR]

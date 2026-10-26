@@ -2,7 +2,6 @@
 tag: 08FHNR8Z5D
 kind: definition
 name: Group of units of a monoid
-aliases: [units-of-a-monoid]
 msc: [20M10]
 defines: 0FJ90Y9926
 uses: [0R47MAD57S, 0BRHKKP333]

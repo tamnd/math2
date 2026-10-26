@@ -2,7 +2,6 @@
 tag: 0VHNKP1N3K
 kind: definition
 name: Conformal map
-aliases: [conformal-mapping, angle-preserving-map]
 msc: [30C35]
 defines: 0YYT36R4YD
 uses: [0CTE7A31XQ]

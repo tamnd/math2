@@ -2,7 +2,7 @@
 tag: 0TMZ21WKCN
 kind: definition
 name: Lipschitz map
-aliases: [lipschitz-continuity, lipschitz-function]
+aliases: [lipschitz-function]
 msc: [26A16]
 defines: 0AW1E6YTJY
 uses: [063W5JMY85]

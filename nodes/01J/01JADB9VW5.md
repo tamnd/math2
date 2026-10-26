@@ -10,7 +10,7 @@ sources:
     locator: lead section
 same_as:
   wikidata: Q3147827
-  wikipedia: "Vandermonde's identity"
+  wikipedia: Vandermonde's identity
 ---
 
 ## Statement

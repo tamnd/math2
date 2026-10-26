@@ -2,7 +2,6 @@
 tag: 0WE5BBHGM6
 kind: definition
 name: Totally bounded set
-aliases: [totally-bounded-space, precompact-set]
 msc: ["54E35"]
 defines: 020Q06TYYH
 uses: [063W5JMY85, 0692CGQF00]

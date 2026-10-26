@@ -2,7 +2,6 @@
 tag: 0D5YHQGDJY
 kind: definition
 name: Subspace topology
-aliases: [induced-topology, relative-topology]
 msc: [54B05]
 defines: 0WS9P12FQR
 uses: [0CNQXVBHCX, 0HBRW4E6G1, 0FE8Q5S42Y]

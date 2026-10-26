@@ -8,7 +8,7 @@ sources:
     locator: Formula
 same_as:
   wikidata: Q177051
-  wikipedia: "Pascal's triangle"
+  wikipedia: Pascal's triangle
 ---
 
 ## Description

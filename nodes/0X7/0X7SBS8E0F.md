@@ -2,7 +2,7 @@
 tag: 0X7SBS8E0F
 kind: definition
 name: Winding number
-aliases: [winding-index, index-of-a-curve]
+aliases: [index-of-a-curve]
 msc: [55M25]
 defines: 0NQSV2EWDR
 uses: [00FWNP9TXY]

@@ -2,7 +2,6 @@
 tag: 0ZDDNBQSC4
 kind: definition
 name: Angle at a point
-aliases: [unoriented-angle]
 msc: [51M05]
 defines: 0GJAJC6TNZ
 uses: [0ZEHZY85E6, 0XPR1E85W0]

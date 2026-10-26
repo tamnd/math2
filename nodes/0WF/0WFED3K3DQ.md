@@ -2,7 +2,7 @@
 tag: 0WFED3K3DQ
 kind: statement
 role: theorem
-name: "Sylvester's law of inertia"
+name: Sylvester's law of inertia
 msc: [15A63, "11E04"]
 uses: [0N28QN4CYA, 0SPYAGE7T0]
 sources:
@@ -10,7 +10,7 @@ sources:
     locator: Statement
 same_as:
   wikidata: Q1752621
-  wikipedia: "Sylvester's law of inertia"
+  wikipedia: Sylvester's law of inertia
 ---
 
 ## Statement

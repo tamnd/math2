@@ -7,10 +7,13 @@ engine:
   image: m2-gap@sha256:1378718f9f1cbc151d7c44f33b246be3069087a55f8bfc44ea4fda4b0350d748
   entry: compute/AAY/AAYEQE/main.g
   seed: null
-  resources: {cpu: 1, mem: 2G, wall: 10m}
+  resources:
+    cpu: 1
+    mem: 2G
+    wall: 10m
 output:
   hash: blake3:1f659e57b810fc209eeca3571bd7939cd6858d6a6eea06e77f448514ae842fd9
-  summary: "subgroups of S4: 30. Orders 1, 2, 3, 4, 6, 8, 12 and 24: 1, 9, 4, 7, 4, 3, 1 and 1 subgroups."
+  summary: 'subgroups of S4: 30. Orders 1, 2, 3, 4, 6, 8, 12 and 24: 1, 9, 4, 7, 4, 3, 1 and 1 subgroups.'
 certificate:
   kind: witness-table
   artefact: blake3:2357b50189dc3ede995f7fd2f95cece3c9c18015d73b2388e9e69c37eb529b4f

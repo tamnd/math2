@@ -2,7 +2,6 @@
 tag: 0HBQC2GJXT
 kind: definition
 name: Limit point
-aliases: [accumulation-point, cluster-point]
 msc: [54A05]
 defines: 0E3X7TXS67
 uses: [0CNQXVBHCX, 01ZQQDCERP]

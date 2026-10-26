@@ -2,7 +2,6 @@
 tag: 0P3KZK0FTV
 kind: definition
 name: Solvable group
-aliases: [soluble-group]
 msc: [20F16]
 defines: 0FXJ7YFMMX
 uses: [096HN851YZ, 071DDFVG4J]

@@ -2,7 +2,6 @@
 tag: 0G4W89YJRK
 kind: definition
 name: Oriented angle
-aliases: [signed-angle, directed-angle]
 msc: [51M05]
 defines: 03YN70NK0Z
 uses: [0XW7V9ZZ05, 0ZEHZY85E6]

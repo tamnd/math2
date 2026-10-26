@@ -32,4 +32,3 @@ Menaechmus studied conic sections in the 4th century BC. Archimedes found the ar
 ### L1 human
 
 A parabola is the set of points that are as far from a point as from a line. For the focus $(0, 1)$ and the line $y = -1$, the parabola is $y = x^2 / 4$.>>>
-

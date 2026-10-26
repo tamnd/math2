@@ -2,7 +2,6 @@
 tag: 0HG11FW8MJ
 kind: definition
 name: First-countable space
-aliases: [first-axiom-of-countability]
 msc: [54D70]
 defines: 0CP5NDD21C
 uses: [0CNQXVBHCX, 09CJ00H3NW, 0ZG61TFBES]

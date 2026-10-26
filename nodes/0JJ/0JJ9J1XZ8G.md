@@ -2,7 +2,6 @@
 tag: 0JJ9J1XZ8G
 kind: definition
 name: Boundary
-aliases: [frontier, boundary-of-a-set]
 msc: [54A05]
 defines: 05D5EGMFYV
 uses: [0DRKT1QJR7, 0C38S0KMJK, 0DT0TCV75N]

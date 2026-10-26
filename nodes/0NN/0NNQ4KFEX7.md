@@ -2,7 +2,6 @@
 tag: 0NNQ4KFEX7
 kind: definition
 name: Associativity
-aliases: [associative-property]
 msc: [08A02]
 defines: 0K8F7PVDMX
 uses: [0580ZJSA3Q]

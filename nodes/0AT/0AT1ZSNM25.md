@@ -2,7 +2,6 @@
 tag: 0AT1ZSNM25
 kind: definition
 name: Normaliser
-aliases: [normalizer]
 msc: [20A05]
 defines: 0YGN3VAA0D
 uses: [0N0PXCTYA7, 0D6WHTTH7T]

@@ -2,7 +2,6 @@
 tag: 0DG0Z72CQD
 kind: definition
 name: Holomorphic function
-aliases: [holomorphic, complex-analytic-function]
 msc: [30A99]
 defines: 0NAHXR1FRH
 uses: [0D1C9Y1EXA]

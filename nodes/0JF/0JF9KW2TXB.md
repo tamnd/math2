@@ -2,7 +2,6 @@
 tag: 0JF9KW2TXB
 kind: definition
 name: Regular space
-aliases: [t3-space]
 msc: [54D15]
 defines: 03HMJASQBQ
 uses: [0CNQXVBHCX, 01ZQQDCERP, 0G5AV9Q4RR]

@@ -2,7 +2,6 @@
 tag: 0RGGF8ZS6D
 kind: definition
 name: Stabiliser
-aliases: [stabilizer, isotropy-group]
 msc: [20B05]
 defines: 0AYMP41THN
 uses: [0YSE802YCQ, 0N0PXCTYA7]

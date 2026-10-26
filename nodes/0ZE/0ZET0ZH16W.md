@@ -2,7 +2,6 @@
 tag: 0ZET0ZH16W
 kind: definition
 name: Median of a triangle
-aliases: [median]
 msc: [51M04]
 defines: 0XW8HX8VEV
 uses: [0CTNFGYMM2, 0S706JBZBG]

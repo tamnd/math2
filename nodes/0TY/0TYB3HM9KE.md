@@ -2,7 +2,6 @@
 tag: 0TYB3HM9KE
 kind: definition
 name: Isolated singularity
-aliases: [isolated-singular-point]
 msc: [30D30]
 defines: 05Z3FC0154
 uses: [0DG0Z72CQD]

@@ -2,7 +2,7 @@
 tag: 0HNK6KT05K
 kind: concept
 name: Centre of mass
-aliases: [center-of-mass, centroid, barycentre]
+aliases: [center-of-mass, centroid]
 msc: [26B15]
 uses: [0698M7C7AX, 0XPR1E85W0]
 sources:

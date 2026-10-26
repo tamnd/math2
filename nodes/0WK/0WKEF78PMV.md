@@ -2,7 +2,7 @@
 tag: 0WKEF78PMV
 kind: statement
 role: theorem
-name: "Sylvester's criterion"
+name: Sylvester's criterion
 msc: [15B57, 15A15]
 uses: [0QQCG3JWJ4, 0SD528P0EK]
 sources:
@@ -10,7 +10,7 @@ sources:
     locator: lead section
 same_as:
   wikidata: Q2709660
-  wikipedia: "Sylvester's criterion"
+  wikipedia: Sylvester's criterion
 ---
 
 ## Statement

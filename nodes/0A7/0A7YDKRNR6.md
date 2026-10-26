@@ -2,7 +2,6 @@
 tag: 0A7YDKRNR6
 kind: definition
 name: Complex sine and cosine
-aliases: [complex-sine, complex-cosine]
 msc: [33B10]
 defines: 00NZKRSWNX
 uses: [054VXHMCA3]

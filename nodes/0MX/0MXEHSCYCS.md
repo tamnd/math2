@@ -7,7 +7,7 @@ msc: [05C35]
 uses: [03WKB2H474]
 sources:
   - url: https://en.wikipedia.org/wiki/Turán's_theorem
-    locator: "Mantel's theorem"
+    locator: Mantel's theorem
 ---
 
 ## Statement

@@ -2,7 +2,6 @@
 tag: 0T0KMZPYV9
 kind: definition
 name: Normal core
-aliases: [core-of-a-subgroup]
 msc: [20D25]
 defines: 0GETX79CJN
 uses: [0D6WHTTH7T, 0W77CVBCHQ, 0ZTGMDNVTB]

@@ -3,7 +3,7 @@ tag: 01E9MNJYEX
 kind: concept
 name: Public-key cryptography
 aliases: [asymmetric-cryptography]
-msc: ["94A60"]
+msc: [94A60]
 sources:
   - url: https://en.wikipedia.org/wiki/Public-key_cryptography
     locator: lead section

@@ -2,7 +2,7 @@
 tag: 0SY9ECQ19Q
 kind: definition
 name: Continuous map of topological spaces
-aliases: [continuous-map, continuous-function]
+aliases: [continuous-map]
 msc: [54C05]
 defines: 0VGFHTM75Y
 uses: [0CNQXVBHCX, 01ZQQDCERP, 0FGCFY1AZX]

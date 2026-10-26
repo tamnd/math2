@@ -2,7 +2,6 @@
 tag: 0RKB5MKC05
 kind: definition
 name: Circumcircle
-aliases: [circumscribed-circle]
 msc: [51M04]
 defines: 03VZJE6C8C
 uses: [0F98FZK14A, 060W5CBZP6]

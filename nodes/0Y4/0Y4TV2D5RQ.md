@@ -10,7 +10,7 @@ sources:
     locator: Formal statement
 same_as:
   wikidata: Q512897
-  wikipedia: "Brooks' theorem"
+  wikipedia: Brooks' theorem
 ---
 
 ## Statement

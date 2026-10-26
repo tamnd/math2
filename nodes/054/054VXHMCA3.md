@@ -2,7 +2,6 @@
 tag: 054VXHMCA3
 kind: definition
 name: Complex exponential
-aliases: [exponential-function, exp]
 msc: [33B10]
 defines: 07GJV36896
 uses: [09FTAET5Z4]

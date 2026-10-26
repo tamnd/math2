@@ -7,7 +7,7 @@ defines: 0DGDS5XY84
 uses: [0P799D6AMN]
 sources:
   - url: https://en.wikipedia.org/wiki/Bilinear_form
-    locator: "Symmetric, skew-symmetric, and alternating forms"
+    locator: Symmetric, skew-symmetric, and alternating forms
 ---
 
 ## Definition

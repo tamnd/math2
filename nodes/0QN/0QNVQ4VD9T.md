@@ -2,7 +2,6 @@
 tag: 0QNVQ4VD9T
 kind: definition
 name: Lipschitz continuity
-aliases: [lipschitz-function]
 msc: [26A16]
 defines: 0AW1E6YTJY
 sources:

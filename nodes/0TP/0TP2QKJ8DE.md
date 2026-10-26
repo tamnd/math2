@@ -2,7 +2,6 @@
 tag: 0TP2QKJ8DE
 kind: definition
 name: Circumcentre
-aliases: [circumcenter]
 msc: [51M04]
 defines: 0F98FZK14A
 uses: [0CTNFGYMM2, 0YMB1676R1, 0NPPGHQNXQ, 055VNYT0PB]

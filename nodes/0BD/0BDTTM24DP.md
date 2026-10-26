@@ -2,7 +2,6 @@
 tag: 0BDTTM24DP
 kind: definition
 name: Banach space
-aliases: [complete-normed-space]
 msc: [46B99]
 defines: 06GZ956657
 uses: [0J3578562S, 08EWT7J0SC]

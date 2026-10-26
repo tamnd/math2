@@ -2,7 +2,6 @@
 tag: 0MM45BT6HC
 kind: definition
 name: One-point compactification
-aliases: [alexandroff-extension, alexandroff-compactification]
 msc: [54D35]
 defines: 0GWN3CMRK8
 uses: [0CNQXVBHCX, 00R0X1WGPX, 0G5AV9Q4RR, 0EQMWQ4WMJ, 0MXB4CKHFW]

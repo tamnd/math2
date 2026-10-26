@@ -2,7 +2,6 @@
 tag: 0RV3AEXPT6
 kind: definition
 name: Focus of a conic
-aliases: [focus]
 msc: [51N20]
 defines: 0RBKKNH4GV
 uses: [0VKCCEXBJ1, 0WN5G117YC, 04S2GMHX82, 060W5CBZP6]

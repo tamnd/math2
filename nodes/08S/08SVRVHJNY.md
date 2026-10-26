@@ -2,7 +2,6 @@
 tag: 08SVRVHJNY
 kind: definition
 name: Topological embedding
-aliases: [embedding]
 msc: [54C25]
 defines: 00ZG9Y9TR4
 uses: [05GZ11PWRY, 0D5YHQGDJY, 0PVG1CRAJN, 0Q3F20XB0A]

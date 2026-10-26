@@ -10,7 +10,7 @@ sources:
     locator: lead section
 same_as:
   wikidata: Q17099544
-  wikipedia: "Pascal's rule"
+  wikipedia: Pascal's rule
 ---
 
 ## Statement

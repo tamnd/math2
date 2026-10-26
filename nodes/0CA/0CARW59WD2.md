@@ -2,7 +2,6 @@
 tag: 0CARW59WD2
 kind: definition
 name: Sequential compactness
-aliases: [sequentially-compact-space, sequentially-compact-set]
 msc: [54D30]
 defines: 0FRMJH3CY7
 uses: [0CNQXVBHCX]

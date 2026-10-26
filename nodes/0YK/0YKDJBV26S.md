@@ -2,7 +2,6 @@
 tag: 0YKDJBV26S
 kind: definition
 name: Essential singularity
-aliases: [essential-singular-point]
 msc: [30D30]
 defines: 0B8837S5T3
 uses: [0TYB3HM9KE, 0P18JC72RE, 0WPQYW8MTE]

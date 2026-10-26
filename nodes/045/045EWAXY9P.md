@@ -2,7 +2,6 @@
 tag: 045EWAXY9P
 kind: definition
 name: Disc of convergence
-aliases: [disk-of-convergence, radius-of-convergence]
 msc: [30B10]
 defines: 0CH4VG15RE
 uses: [0VARVQ9ZW1]

@@ -2,7 +2,6 @@
 tag: 0SQ1F2BEDS
 kind: definition
 name: Branch of the logarithm
-aliases: [branch-of-log, logarithm-branch]
 msc: [33B10]
 defines: 02YSJPQYQH
 uses: [0X2FY491PF, 054VXHMCA3]

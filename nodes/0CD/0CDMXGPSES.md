@@ -2,7 +2,6 @@
 tag: 0CDMXGPSES
 kind: definition
 name: Riemann sphere
-aliases: [extended-complex-plane, extended-complex-numbers]
 msc: [30F10]
 defines: 0J78KBPFZB
 uses: [09FTAET5Z4, 0CTE7A31XQ]

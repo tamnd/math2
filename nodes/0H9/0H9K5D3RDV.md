@@ -2,7 +2,6 @@
 tag: 0H9K5D3RDV
 kind: definition
 name: Abelianisation
-aliases: [abelianization]
 msc: [20F12]
 defines: 0AQZV0905N
 uses: [08SJ5K2CBG, 0YYWCNTPWR]

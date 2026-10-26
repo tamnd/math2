@@ -2,7 +2,7 @@
 tag: 0TWQ5PRKWS
 kind: definition
 name: Equivalent metrics
-aliases: [equivalence-of-metrics, topologically-equivalent-metrics]
+aliases: [topologically-equivalent-metrics]
 msc: ["54E35"]
 defines: 09V3NASXND
 uses: [063W5JMY85, 01ZQQDCERP, 0A6YRNZB2R]

@@ -2,7 +2,6 @@
 tag: 0XYP2KKSPC
 kind: definition
 name: Normal vector
-aliases: [normal]
 msc: [51N20]
 defines: 0WQJJCCTC8
 uses: [0V3XAMF3C1, 0MP9BCF6DP, 03NK6RSRQ1]

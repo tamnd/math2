@@ -2,7 +2,6 @@
 tag: 0ZTEH055YF
 kind: definition
 name: Operator norm
-aliases: [norm-of-a-linear-map]
 msc: [47A30]
 defines: 06EKW1AKXF
 uses: [0S3SMRH0Z5, 0F3K4C7XYW, 0BTMQ04556]

@@ -2,7 +2,6 @@
 tag: 0MXB4CKHFW
 kind: definition
 name: Hausdorff space
-aliases: [t2-space, separated-space]
 msc: [54D10]
 defines: 0S1FJ8VEX9
 uses: [0CNQXVBHCX, 01ZQQDCERP]

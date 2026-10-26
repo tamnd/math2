@@ -2,7 +2,7 @@
 tag: 0WPQYW8MTE
 kind: definition
 name: Pole
-aliases: [pole-of-a-function, simple-pole]
+aliases: [simple-pole]
 msc: [30D30]
 defines: 066E7PJCYE
 uses: [0TYB3HM9KE, 0DG0Z72CQD]

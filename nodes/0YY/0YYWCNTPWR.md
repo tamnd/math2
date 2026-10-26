@@ -2,7 +2,6 @@
 tag: 0YYWCNTPWR
 kind: definition
 name: Quotient group
-aliases: [factor-group]
 msc: [20A05]
 defines: 0KYX2N69J0
 uses: [0W77CVBCHQ, 05FD317V2W, 01E7SWYJX3]

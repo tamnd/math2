@@ -2,7 +2,6 @@
 tag: 06EX0FHBTF
 kind: definition
 name: Basis of a topology
-aliases: [base-of-a-topology, topological-basis]
 msc: [54A05]
 defines: 0NA0732YAG
 uses: [0CNQXVBHCX, 05GK32H72H]

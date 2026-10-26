@@ -2,7 +2,7 @@
 tag: 047RFCNVSK
 kind: statement
 role: theorem
-name: "Parseval's identity"
+name: Parseval's identity
 msc: [46C05]
 uses: [0FWJ0VW561, 0KG4D8AP6G]
 sources:
@@ -10,7 +10,7 @@ sources:
     locator: lead section
 same_as:
   wikidata: Q944238
-  wikipedia: "Parseval's identity"
+  wikipedia: Parseval's identity
 ---
 
 ## Statement

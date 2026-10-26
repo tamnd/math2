@@ -2,7 +2,6 @@
 tag: 0NDV5R6Z6X
 kind: definition
 name: Principal part
-aliases: [principal-part-of-a-laurent-series, singular-part]
 msc: [30B10]
 defines: 0TZ2DPT0JV
 uses: [0X3XD2ATB0, 06WHRARZKY]

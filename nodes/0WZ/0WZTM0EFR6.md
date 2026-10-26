@@ -2,7 +2,6 @@
 tag: 0WZTM0EFR6
 kind: definition
 name: Hölder continuity
-aliases: [holder-condition, holder-continuous-map]
 msc: [26A16]
 defines: 012PBA0FMD
 uses: [063W5JMY85, 0TMZ21WKCN]

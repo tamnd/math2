@@ -2,7 +2,6 @@
 tag: 0E4WH0R7HG
 kind: definition
 name: Cayley table
-aliases: [multiplication-table]
 msc: [20A05]
 defines: 0YB2NRP0T5
 uses: [0580ZJSA3Q]

@@ -2,7 +2,6 @@
 tag: 0JWCX0TW2S
 kind: definition
 name: Concyclic points
-aliases: [cocyclic-points]
 msc: [51M04]
 defines: 049DCJZ448
 uses: [060W5CBZP6, 0V3XAMF3C1, 0NPPGHQNXQ]

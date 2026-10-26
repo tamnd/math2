@@ -2,7 +2,6 @@
 tag: 08XFJJ8EYW
 kind: definition
 name: Comparison of topologies
-aliases: [finer-topology, coarser-topology]
 msc: [54A10]
 defines: 072J68M6HX
 uses: [0CNQXVBHCX, 0FE8Q5S42Y]

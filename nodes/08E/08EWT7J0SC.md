@@ -2,7 +2,6 @@
 tag: 08EWT7J0SC
 kind: definition
 name: Complete metric space
-aliases: [complete-space]
 msc: ["54E50"]
 defines: 0BY52JW6NK
 uses: [063W5JMY85, 0MCK8K2D7Z, 06JYPJ4WHH]

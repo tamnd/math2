@@ -2,7 +2,6 @@
 tag: 0MW2WXTHMC
 kind: definition
 name: Equicontinuity
-aliases: [equicontinuous-family]
 msc: [54C35]
 defines: 0XN66MZN0Y
 uses: [063W5JMY85, 0EKGKY5TGH]

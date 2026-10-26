@@ -2,7 +2,6 @@
 tag: 0V3RDQV3ZX
 kind: definition
 name: Cauchy principal value
-aliases: [principal-value-integral]
 msc: [26A42]
 defines: 0SYR10HD4R
 uses: [08J2M1JYAG]

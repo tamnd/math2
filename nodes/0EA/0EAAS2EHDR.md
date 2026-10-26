@@ -8,7 +8,7 @@ msc: [26B05]
 uses: [0135XZZQ8M, 08EVNYZF42, 0THBK9V825]
 sources:
   - url: https://en.wikipedia.org/wiki/Chain_rule
-    locator: "General rule: Vector-valued multivariate functions"
+    locator: 'General rule: Vector-valued multivariate functions'
   - url: https://en.wikipedia.org/wiki/Fr%C3%A9chet_derivative
     locator: Properties
 ---

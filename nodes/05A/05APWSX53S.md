@@ -7,7 +7,7 @@ msc: [40A05]
 uses: [0MNM54WB99]
 sources:
   - url: https://en.wikipedia.org/wiki/Geometric_series
-    locator: "Definition: finite geometric series"
+    locator: 'Definition: finite geometric series'
 ---
 
 ## Statement

@@ -10,7 +10,7 @@ sources:
     locator: lead section
 same_as:
   wikidata: Q1188392
-  wikipedia: "Zeckendorf's theorem"
+  wikipedia: Zeckendorf's theorem
 ---
 
 ## Statement

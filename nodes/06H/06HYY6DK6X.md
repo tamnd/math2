@@ -2,7 +2,6 @@
 tag: 06HYY6DK6X
 kind: definition
 name: Affine combination
-aliases: [barycentre-of-weighted-points]
 msc: [51N10]
 defines: 0KJH6SRFZK
 uses: [09XNAPTJQ7]

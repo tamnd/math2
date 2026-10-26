@@ -2,7 +2,7 @@
 tag: 0RBT5PB74K
 kind: statement
 role: theorem
-name: "Bessel's inequality"
+name: Bessel's inequality
 msc: [46C05]
 uses: [09VYHEF2VT, 0KG4D8AP6G]
 sources:
@@ -10,7 +10,7 @@ sources:
     locator: Statement of the inequality
 same_as:
   wikidata: Q794042
-  wikipedia: "Bessel's inequality"
+  wikipedia: Bessel's inequality
 ---
 
 ## Statement

@@ -3,7 +3,6 @@ tag: 0W0TZDRF9C
 kind: statement
 role: theorem
 name: Continuous functions on a closed bounded interval are uniformly continuous
-aliases: [heine-cantor-theorem]
 msc: [26A15]
 uses: [0P27W9RW0G, 0A3CK6DVVB, 0KDJD249DT]
 sources:

@@ -2,7 +2,6 @@
 tag: 0CHR35YNJQ
 kind: definition
 name: Subbasis
-aliases: [subbase, prebase]
 msc: [54A05]
 defines: 09S8DV34Y0
 uses: [0CNQXVBHCX, 06EX0FHBTF, 0839XNQXDK]
