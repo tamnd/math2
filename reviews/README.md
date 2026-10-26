@@ -4,7 +4,7 @@ A fidelity review is a statement by a person. It says that a Lean statement says
 
 The kernel checks that a proof proves a Lean statement. It does not check that the Lean statement is the correct statement. A review checks that. One review that counts gives the binding the fidelity level F2. Two reviews that count, by reviewers with no shared affiliation, give F3. E5 needs F2.
 
-In M1 there is no review tool. You write each review by hand. `m2 review` comes in M4.
+`m2 review` shows what you need to review a binding, and it writes the review for you. You can also write a review by hand, as the sections below tell.
 
 ## What you sign
 
@@ -17,6 +17,22 @@ A `not-faithful` review is as useful as a positive review. It sends the binding 
 - A person with an ORCID iD or a GitHub login. An agent cannot review (rule V03).
 - You cannot review a binding that you wrote. The author of a binding is in `registers/bindings.reg` (rule V02).
 - Your review counts only when you have a record in `registers/reviewers.reg`. Add the record in the pull request of your first review. The fields are in `registers/README.md`.
+
+## With m2 review
+
+1. Install the m2 toolchain and run `m2 build`, as in the next section.
+2. Run `m2 review TAG`. The command shows the review packet: the statement section and the Lean statement side by side, the Lean statement without notation, each constant of the Lean statement with its type and the nodes that bind it, the battery report and the reviews of the binding. When the node has more than one Lean binding, give the declaration with `-decl`.
+3. Read the packet and the definitions, as in "How to review".
+4. Write the review:
+
+   ```sh
+   m2 review -reviewer github:octocat -verdict faithful -dry-run 3C53TD
+   m2 review -reviewer github:octocat -verdict faithful-with-conventions -convention "the order of a finite group is Nat.card" -commit 3C53TD
+   ```
+
+   Give `-convention` once for each convention, and `-class` for the verdict `not-faithful`. `-notes` adds your notes. `-dry-run` checks the review and changes no file. Without `-dry-run`, the command copies the two hashes from the build, gives the review the next id, adds it to the review file and adds the id to the binding. `-commit` commits the two files with `git commit -S`, so your key signs the commit. You can set `M2_REVIEWER` instead of `-reviewer`.
+
+The command refuses the review when you wrote the binding, when the reviewer is not a person, or when the statement changed after the last build.
 
 ## Before you start
 
