@@ -1,0 +1,2 @@
+{"id":"DJR23DY4TR","mentions":["m2://rec/wikidata/Q19978167#1"],"kind":"unknown","name":"model","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"DJRVETRQZB","mentions":["m2://rec/wikidata/Q9893#1"],"kind":"unknown","name":"I/i","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a notation: the notation register holds it (corpus spec K10.4)","rule":"symbol","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,0 +1,2 @@
+{"id":"DCM1BG01RR","mentions":["m2://rec/wikidata/Q7719307#1"],"kind":"unknown","name":"The Book of Squares","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a book, not an item of mathematics","rule":"book","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"DCM9VYYENX","mentions":["m2://rec/wikidata/Q733336#1"],"kind":"unknown","name":"Sperner's lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

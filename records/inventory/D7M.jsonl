@@ -1,0 +1,2 @@
+{"id":"D7M0DF684H","mentions":["m2://rec/wikidata/Q92928#1"],"kind":"unknown","name":"Nicholas Metropolis","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"D7MJ476140","mentions":["m2://rec/wikidata/Q4666687#1"],"kind":"topic","name":"abelian von Neumann algebra","msc":["46L05"],"layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

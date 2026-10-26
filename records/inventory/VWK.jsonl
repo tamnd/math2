@@ -1,0 +1,2 @@
+{"id":"VWKFZB1YHA","mentions":["m2://rec/wikidata/Q20#1"],"kind":"unknown","name":"Norway","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"VWKYK9VF74","mentions":["m2://rec/wikidata/Q5441592#1"],"kind":"statement","name":"Feit–Thompson conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

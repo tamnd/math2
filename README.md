@@ -26,6 +26,21 @@ The coverage report gives C2 for each class with a skeleton (spec 18.1). C2 is t
 
 The 60 skeletons are drafts. They cover each class of the statement plane (spec 18.2), which is each class but 00, 01 and 97. They have 12,761 items, and 2,324 items have a Mathlib declaration. No person who works in these areas has reviewed them yet. Until a review, treat the C2 numbers of these classes as provisional. The classes 00, 01 and 97 have no skeleton, because they are not in the statement plane.
 
+## The inventory
+
+The inventory is the list of each item of mathematics that an external source presents (corpus spec K4). Each row is one item, with a tag of 10 characters. It groups the mentions of the item in the sources. The import workflow runs each Monday. It runs `m2 ingest` and `m2 corpus import`, and it merges the new rows in a pull request. Read the inventory at https://tamnd.github.io/math2/inventory/.
+
+| Path | Content |
+|---|---|
+| `records/mentions/<source>/` | one line for each item of each source, in shards of 3 characters |
+| `records/inventory/` | the rows, in shards of the first 3 characters of the tag |
+| `registers/inventory/` | each tag that the inventory has used, and the commit that added it |
+| `manifests/sources.yaml` | the sources, their licences and each snapshot |
+| `manifests/ingest/` | the import manifest of each source |
+| `schema/outcomes.v1.yaml` | the rules that give an outcome to many rows |
+
+The first source is Wikidata (CC0 1.0). It gives 12,302 items with an identifier in a mathematical source, for example MathWorld, the nLab, ProofWiki or the EoM. The first import has 12,235 rows, and 11,420 of them are open.
+
 ## A node file
 
 A node file is `nodes/<first two characters of the tag>/<tag>.md`. It has YAML front matter and a Markdown body. This example shows the form:

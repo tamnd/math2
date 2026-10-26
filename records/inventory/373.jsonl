@@ -1,0 +1,2 @@
+{"id":"37346QVXQ3","mentions":["m2://rec/wikidata/Q7316304#1"],"kind":"unknown","name":"restricted product","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"373A5JNHEF","mentions":["m2://rec/wikidata/Q110208840#1"],"kind":"unknown","name":"little o notation","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a notation: the notation register holds it (corpus spec K10.4)","rule":"symbol","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
