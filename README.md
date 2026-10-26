@@ -102,6 +102,10 @@ CONTRIBUTING.md has the rules and the steps for the maintainer.
 
 A fidelity review says that the Lean statement of a node says what its informal statement says. One review gives the binding F2, and E5 needs F2. The reviews are in `reviews/`, and `reviews/README.md` is the guide for reviewers. A new reviewer starts with the practice set in `reviews/PRACTICE.md`. Each commit that changes `reviews/` must be signed.
 
+## Projects
+
+A project is a campaign with a goal in the graph, a monthly budget for agent runs and the people who run it. Each project is a file in `projects/`, and `projects/README.md` says how to start one. The wiki has a page for each project.
+
 ## Check the content
 
 You can check the node files with Python, PyYAML and jsonschema. You do not need the toolchain.
@@ -153,6 +157,6 @@ This repository has three licence zones. [REUSE.toml](REUSE.toml) gives the lice
 |---|---|
 | Prose in `nodes/`, `topics/` and `reviews/` | CC BY-SA 4.0 |
 | Code in `lean/`, `compute/` and `.github/` | Apache-2.0 |
-| Metadata in `manifests/`, `registers/`, `prov/` and `schema/` | CC0 1.0 |
+| Metadata in `manifests/`, `registers/`, `prov/`, `projects/` and `schema/` | CC0 1.0 |
 
 Refer to [LICENCE](LICENCE) for the reasons.
