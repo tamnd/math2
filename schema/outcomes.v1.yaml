@@ -3,15 +3,19 @@ rules:
   - id: person
     outcome: out_of_scope
     reason: a person, not an item of mathematics
-    match: each mention of the row is a ProofWiki page in the namespace Mathematician
+    match: each mention of the row is a ProofWiki page in the namespace Mathematician, or a Wikidata item of the class human (Q5)
   - id: book
     outcome: out_of_scope
-    reason: a book, not an item of mathematics
-    match: each mention of the row is a ProofWiki page in the namespace Book
+    reason: a book or a journal, not an item of mathematics
+    match: each mention of the row is a ProofWiki page in the namespace Book, or a Wikidata item of the class written work (Q47461344), literary work (Q7725634) or scientific journal (Q5633421)
   - id: symbol
     outcome: out_of_scope
     reason: "a notation: the notation register holds it (corpus spec K10.4)"
     match: each mention of the row is a ProofWiki page in the namespace Symbols
+  - id: place
+    outcome: out_of_scope
+    reason: a country, not an item of mathematics
+    match: each mention of the row is a Wikidata item of the class country (Q6256) or sovereign state (Q3624078)
   - id: identifiers
     outcome: merged
     reason: the row has a shared identifier with an older row
