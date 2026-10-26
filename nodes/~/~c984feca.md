@@ -1,0 +1,36 @@
+---
+tag: ~c984feca
+kind: statement
+role: proposition
+name: Laplacian as a sum of second partial derivatives
+aliases: [cartesian-formula-for-the-laplacian]
+msc: [35J05]
+uses: [~6fcd46e7, ~7f42c53b, ~35460963, ~ff1fb7d0, ~c1eee70a]
+sources:
+  - url: https://en.wikipedia.org/wiki/Laplace_operator
+    locator: Definition
+  - url: https://en.wikipedia.org/wiki/Laplace_operator
+    locator: N dimensions
+  - url: https://en.wikipedia.org/wiki/Laplace_operator
+    locator: Two dimensions
+---
+
+## Statement
+
+Let $U \subseteq \mathbb{R}^n$ be open, and let $f \colon U \to \mathbb{R}$ be twice differentiable on $U$.
+Then
+$$\Delta f = \frac{\partial^2 f}{\partial x_1^2} + \frac{\partial^2 f}{\partial x_2^2} + \dots + \frac{\partial^2 f}{\partial x_n^2}.$$
+
+## Remarks
+
+Proof: $\nabla f = (\partial f / \partial x_1, \dots, \partial f / \partial x_n)$, and the [[divergence|~7f42c53b]] adds the derivative of the $i$-th component with respect to $x_i$.
+So $\Delta f$ is the trace of the [[Hessian matrix|~c1eee70a]] of $f$. The trace does not change under a rotation of coordinates, so neither does $\Delta f$.
+Examples: $\Delta (x^2 + y^2) = 4$, $\Delta (x^2 - y^2) = 0$ and $\Delta \|x\|^2 = 2n$ on $\mathbb{R}^n$.
+In polar coordinates in the plane, $\Delta f = f_{rr} + \tfrac{1}{r} f_r + \tfrac{1}{r^2} f_{\theta\theta}$ for $r > 0$.
+
+## Explanations
+
+### L1 human
+
+In Cartesian coordinates, the Laplacian adds up the second derivatives of $f$ in the $n$ coordinate directions.
+Only the unmixed second partial derivatives appear, not mixed ones like $f_{xy}$.

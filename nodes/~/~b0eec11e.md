@@ -1,0 +1,36 @@
+---
+tag: ~b0eec11e
+kind: definition
+name: Rectifiable curve
+msc: [26A45]
+defines: ~2209befd
+uses: [~2abc903b]
+sources:
+  - url: https://en.wikipedia.org/wiki/Arc_length
+    locator: Definition
+  - url: https://en.wikipedia.org/wiki/Arc_length
+    locator: Curves with infinite length
+---
+
+## Definition
+
+Let $\gamma \colon [a, b] \to \mathbb{R}^n$ be a [[parametrised curve|~2abc903b]].
+For a partition $P$ given by $a = t_0 < t_1 < \dots < t_k = b$, let
+$$L(\gamma, P) = \sum_{i = 1}^{k} \|\gamma(t_i) - \gamma(t_{i-1})\|$$
+be the length of the inscribed polygonal path.
+The curve $\gamma$ is rectifiable if $\sup_P L(\gamma, P) < \infty$, where the supremum is over all partitions of $[a, b]$.
+Then the length of $\gamma$ is $\ell(\gamma) = \sup_P L(\gamma, P)$.
+
+## Remarks
+
+If $\gamma$ is of class $C^1$, then it is rectifiable and $\ell(\gamma) = \int_a^b \|\gamma'(t)\| \, dt$.
+A refinement of $P$ does not decrease $L(\gamma, P)$, by the triangle inequality.
+The graph of $f(x) = x \sin(1/x)$ for $0 < x \le 1$, $f(0) = 0$, is a continuous curve that is not rectifiable. The Koch curve is another example.
+A curve is rectifiable if and only if each component $\gamma_i$ has bounded variation on $[a, b]$.
+
+## Explanations
+
+### L1 human
+
+Approximate the curve by a chain of straight segments between points on it, and add up their lengths.
+Finer chains give longer totals. If the totals stay bounded, the curve has a finite length, and the length is their least upper bound.
