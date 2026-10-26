@@ -38,6 +38,7 @@ The inventory is the list of each item of mathematics that an external source pr
 | `manifests/sources.yaml` | the sources, their licences and each snapshot |
 | `manifests/ingest/` | the import manifest of each source |
 | `schema/outcomes.v1.yaml` | the rules that give an outcome to many rows |
+| `schema/cards.v1.yaml` | the node cards of corpus K08: the sections and the edges of a good node of each kind, and the writing level that needs each one |
 
 The first source is Wikidata (CC0 1.0). It gives 12,302 items with an identifier in a mathematical source, for example MathWorld, the nLab, ProofWiki or the EoM. The first import has 12,235 rows, and 11,420 of them are open.
 
