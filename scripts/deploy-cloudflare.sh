@@ -41,7 +41,7 @@ fi
 echo "$(date -u +%FT%TZ) deploy math2 $content, math2-agent $toolchain"
 (cd "$dir/toolchain" && go build -trimpath -o "$dir/m2" ./cmd/m2)
 rm -rf "$dir/site"
-"$dir/m2" site build -content "$dir/content" -spec "$dir/toolchain/spec" -out "$dir/site" -url "$url" -commit "$content" -date now
+"$dir/m2" site build -content "$dir/content" -spec "$dir/toolchain/spec" -out "$dir/site" -url "$url" -commit "$content" -date now -cloudflare
 files=$(find "$dir/site" -type f | wc -l)
 big=$(find "$dir/site" -type f -size +24M | head -1)
 if [ "$files" -gt "$limit" ] || [ -n "$big" ]; then
