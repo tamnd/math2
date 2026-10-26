@@ -1,0 +1,29 @@
+---
+tag: ~ba186afb
+kind: statement
+role: proposition
+name: Limit of a product of sequences
+msc: [40A05]
+uses: [~23896e76, ~41e9a955]
+sources:
+  - url: https://en.wikipedia.org/wiki/Limit_of_a_sequence
+    locator: Properties
+---
+
+## Statement
+
+Let $(a_n)$ and $(b_n)$ be real sequences, and let $a$ and $b$ be real numbers.
+If $a_n \to a$ and $b_n \to b$ as $n \to \infty$, then $a_n b_n \to a b$ as $n \to \infty$.
+
+## Remarks
+
+The proof uses the identity $a_n b_n - a b = a_n (b_n - b) + b (a_n - a)$. The sequence $(a_n)$ is bounded, because [[convergent sequences are bounded|~41e9a955]].
+With a constant sequence $a_n = c$, it gives $c\, b_n \to c\, b$.
+By induction, it gives $a_n^k \to a^k$ for each natural number $k$.
+
+## Explanations
+
+### L1 human
+
+We may multiply the limits to get the limit of the product.
+For example, $(1 + 1/n)(2 - 1/n) \to 1 \cdot 2 = 2$.
