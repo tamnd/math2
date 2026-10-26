@@ -81,6 +81,12 @@ class CheckNodesTest(unittest.TestCase):
         errors, _ = check(self.root)
         self.assertIn("does not exist", errors[0])
 
+    def test_bar_in_link_text(self):
+        # The target is after the last bar, as in m2 check, so a bar in a formula of the text is allowed.
+        from check_nodes import LINK
+
+        self.assertEqual(LINK.findall("[[each coset has $|H|$ elements|1H8D2C]]"), [("each coset has $|H|$ elements", "1H8D2C")])
+
 
     def errors_for(self, front, body=""):
         self.write("nodes/7K3/7K3QX2.md", f"---\ntag: 7K3QX2\n{front}---\n{body}")

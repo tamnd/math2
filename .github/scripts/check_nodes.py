@@ -24,7 +24,7 @@ SHARD_LEN = 3
 PROVISIONAL = re.compile(r"^~[0-9a-f]{8}$")
 PROVISIONAL_IN_TEXT = re.compile(r"~[0-9a-f]{8}")
 COMMIT = re.compile(r"^[0-9a-f]{7,40}$")
-LINK = re.compile(r"\[\[([^\]|]+)\|([^\]]+)\]\]")
+LINK = re.compile(r"\[\[([^\]]+)\|([^\]|]+)\]\]")
 SECTION = re.compile(r"^## (.+?)\s*$", re.MULTILINE)
 
 # The directories that can refer to a node. m2 mint changes the provisional ids in these directories, and in no other files.
