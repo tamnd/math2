@@ -1,2 +1,2 @@
 {"id":"RBN7THBT3P","mentions":["m2://rec/wikidata/Q78155084#1"],"kind":"unknown","name":"Abel integral equation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"RBNAP6C301","mentions":["m2://rec/wikidata/Q254347#1"],"kind":"definition","name":"Dedekind domain","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"RBNAP6C301","mentions":["m2://rec/wikidata/Q254347#1"],"kind":"concept","name":"Dedekind domain","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

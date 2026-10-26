@@ -1,2 +1,2 @@
-{"id":"AFS9QJ16FT","mentions":["m2://rec/wikidata/Q129638#1"],"kind":"unknown","name":"Grassmannian","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"AFSNJ4WSYX","mentions":["m2://rec/wikidata/Q4666730#1"],"kind":"unknown","name":"Abel–Plana formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"AFS9QJ16FT","mentions":["m2://rec/wikidata/Q129638#1"],"kind":"concept","name":"Grassmannian","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"AFSNJ4WSYX","mentions":["m2://rec/wikidata/Q4666730#1"],"kind":"concept","name":"Abel–Plana formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,2 +1,2 @@
 {"id":"WJE7YZHBTK","mentions":["m2://rec/wikidata/Q946489#1"],"kind":"unknown","name":"Pollard's rho algorithm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"WJECV37HFP","mentions":["m2://rec/wikidata/Q1033772#1"],"kind":"unknown","name":"Happy Ending problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"WJECV37HFP","mentions":["m2://rec/wikidata/Q1033772#1"],"kind":"problem","name":"Happy Ending problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

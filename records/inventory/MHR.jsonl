@@ -1,2 +1,2 @@
-{"id":"MHR6F4T52F","mentions":["m2://rec/wikidata/Q2403973#1"],"kind":"unknown","name":"class number problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"MHR6F4T52F","mentions":["m2://rec/wikidata/Q2403973#1"],"kind":"problem","name":"class number problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"MHRFA5S6YQ","mentions":["m2://rec/wikidata/Q2881932#1"],"kind":"definition","name":"sulfur-36","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

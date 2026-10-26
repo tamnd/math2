@@ -1,2 +1,2 @@
 {"id":"7AYSVF8WX5","mentions":["m2://rec/wikidata/Q2940415#1"],"kind":"unknown","name":"trimagic square","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"7AYVNHTMH8","mentions":["m2://rec/wikidata/Q842172#1"],"kind":"unknown","name":"Ulam spiral","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"7AYVNHTMH8","mentions":["m2://rec/wikidata/Q842172#1"],"kind":"concept","name":"Ulam spiral","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

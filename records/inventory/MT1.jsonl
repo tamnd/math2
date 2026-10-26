@@ -1,2 +1,2 @@
-{"id":"MT13TNJVSV","mentions":["m2://rec/wikidata/Q4795328#1"],"kind":"unknown","name":"Arnold diffusion","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"MT13TNJVSV","mentions":["m2://rec/wikidata/Q4795328#1"],"kind":"concept","name":"Arnold diffusion","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"MT1PQTZ5T3","mentions":["m2://rec/wikidata/Q3730870#1"],"kind":"definition","name":"linear diophantine equation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

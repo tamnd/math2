@@ -1,3 +1,3 @@
 {"id":"YG5CRE0NSP","mentions":["m2://rec/wikidata/Q5054344#1"],"kind":"unknown","name":"Cauchy space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"YG5E1JTMV7","mentions":["m2://rec/wikidata/Q5254628#1"],"kind":"unknown","name":"power center","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"YG5E1JTMV7","mentions":["m2://rec/wikidata/Q5254628#1"],"kind":"concept","name":"power center","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"YG5VD2TPJ2","mentions":["m2://rec/wikidata/Q2343600#1"],"kind":"unknown","name":"Weierstrass's elliptic functions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

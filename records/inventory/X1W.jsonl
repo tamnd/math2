@@ -1,2 +1,2 @@
-{"id":"X1WMNQE0A5","mentions":["m2://rec/wikidata/Q1825985#1"],"kind":"unknown","name":"Lindeberg's condition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"X1WMNQE0A5","mentions":["m2://rec/wikidata/Q1825985#1"],"kind":"statement","name":"Lindeberg's condition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"X1WN7AERXF","mentions":["m2://rec/wikidata/Q33059348#1"],"kind":"definition","name":"full functor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

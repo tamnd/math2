@@ -1,2 +1,2 @@
-{"id":"CN5484Y1N8","mentions":["m2://rec/wikidata/Q1124546#1"],"kind":"unknown","name":"Laguerre polynomial","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"CN5Z45NZ0K","mentions":["m2://rec/wikidata/Q184563#1"],"kind":"unknown","name":"Shinichiro Tomonaga","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"CN5484Y1N8","mentions":["m2://rec/wikidata/Q1124546#1"],"kind":"concept","name":"Laguerre polynomial","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"CN5Z45NZ0K","mentions":["m2://rec/wikidata/Q184563#1"],"kind":"unknown","name":"Shinichiro Tomonaga","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

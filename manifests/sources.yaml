@@ -10,3 +10,6 @@ sources:
       - url: https://query.wikidata.org/sparql
         hash: blake3:651ed2748546bb40b554b6c5b2bb97d20dbdc89babecb0205552d99ba5a87729
         date: "2026-10-26"
+      - url: https://query.wikidata.org/sparql
+        hash: blake3:1cd3736f1d17b31845a83622a8dbb299c1fd61e251be94083e9c45841c9a3c7b
+        date: "2026-10-26"

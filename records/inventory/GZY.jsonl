@@ -1,2 +1,2 @@
 {"id":"GZYHZXG936","mentions":["m2://rec/wikidata/Q18882864#1"],"kind":"definition","name":"tungsten-182","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"GZYSPJWX85","mentions":["m2://rec/wikidata/Q697181#1"],"kind":"unknown","name":"Riemann integral","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"GZYSPJWX85","mentions":["m2://rec/wikidata/Q697181#1"],"kind":"concept","name":"Riemann integral","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

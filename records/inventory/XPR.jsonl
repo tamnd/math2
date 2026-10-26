@@ -1,2 +1,2 @@
-{"id":"XPR8DFT096","mentions":["m2://rec/wikidata/Q2623611#1"],"kind":"unknown","name":"Smith–Minkowski–Siegel mass formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"XPR8DFT096","mentions":["m2://rec/wikidata/Q2623611#1"],"kind":"concept","name":"Smith–Minkowski–Siegel mass formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"XPRH198G2Y","mentions":["m2://rec/wikidata/Q433933#1"],"kind":"unknown","name":"Vincent Rijmen","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

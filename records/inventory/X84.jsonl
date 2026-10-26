@@ -1,2 +1,2 @@
-{"id":"X847RCYX4F","mentions":["m2://rec/wikidata/Q59622848#1"],"kind":"unknown","name":"Ingemar Bengtsson","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"X8496MFBVC","mentions":["m2://rec/wikidata/Q321237#1"],"kind":"unknown","name":"Green's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"X847RCYX4F","mentions":["m2://rec/wikidata/Q59622848#1"],"kind":"unknown","name":"Ingemar Bengtsson","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"X8496MFBVC","mentions":["m2://rec/wikidata/Q321237#1"],"kind":"statement","name":"Green's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

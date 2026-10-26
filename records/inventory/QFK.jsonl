@@ -1,2 +1,2 @@
-{"id":"QFKE0PEZ3P","mentions":["m2://rec/wikidata/Q7199658#1"],"kind":"unknown","name":"Pivot theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"QFKQT6M09E","mentions":["m2://rec/wikidata/Q976607#1"],"kind":"unknown","name":"Erdős–Szekeres theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"QFKE0PEZ3P","mentions":["m2://rec/wikidata/Q7199658#1"],"kind":"statement","name":"Pivot theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"QFKQT6M09E","mentions":["m2://rec/wikidata/Q976607#1"],"kind":"statement","name":"Erdős–Szekeres theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

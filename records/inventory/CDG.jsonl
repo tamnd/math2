@@ -1,4 +1,4 @@
 {"id":"CDG41A411Z","mentions":["m2://rec/wikidata/Q100193315#1"],"kind":"object","name":"Number of unlabeled strength-2 Eulerian graphs with n nodes.","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"CDGV94P1MJ","mentions":["m2://rec/wikidata/Q83163#1"],"kind":"unknown","name":"Srinivasa Ramanujan","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"CDGWY26Y93","mentions":["m2://rec/wikidata/Q12656492#1","m2://rec/wikidata/Q41719#1"],"kind":"unknown","name":"hypothesis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"CDGWYN42E6","mentions":["m2://rec/wikidata/Q6470127#1"],"kind":"unknown","name":"snark","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"CDGWYN42E6","mentions":["m2://rec/wikidata/Q6470127#1"],"kind":"concept","name":"snark","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

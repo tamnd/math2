@@ -1,2 +1,2 @@
 {"id":"C433DH6BR8","mentions":["m2://rec/wikidata/Q191853#1"],"kind":"unknown","name":"Zermelo set theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"C43MWATBCF","mentions":["m2://rec/wikidata/Q599876#1"],"kind":"unknown","name":"Cochran's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"C43MWATBCF","mentions":["m2://rec/wikidata/Q599876#1"],"kind":"statement","name":"Cochran's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

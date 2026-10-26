@@ -1,2 +1,2 @@
-{"id":"1GY6RQP3Q4","mentions":["m2://rec/wikidata/Q17002576#1"],"kind":"unknown","name":"AW*-algebra","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"1GYG4CW6N3","mentions":["m2://rec/wikidata/Q5958000#1"],"kind":"unknown","name":"Hyperfinite set","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"1GY6RQP3Q4","mentions":["m2://rec/wikidata/Q17002576#1"],"kind":"concept","name":"AW*-algebra","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"1GYG4CW6N3","mentions":["m2://rec/wikidata/Q5958000#1"],"kind":"concept","name":"Hyperfinite set","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

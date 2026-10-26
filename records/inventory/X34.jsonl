@@ -1,2 +1,2 @@
-{"id":"X3420SZHGE","mentions":["m2://rec/wikidata/Q320405#1"],"kind":"unknown","name":"snub dodecahedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"X3420SZHGE","mentions":["m2://rec/wikidata/Q320405#1"],"kind":"object","name":"snub dodecahedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"X3490CJYY5","mentions":["m2://rec/wikidata/Q506265#1"],"kind":"topic","name":"triangular matrix","msc":["15B57"],"layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,2 +1,2 @@
-{"id":"NP476PG3M1","mentions":["m2://rec/wikidata/Q7432782#1"],"kind":"unknown","name":"Schouten–Nijenhuis bracket","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"NP4FM3YXAE","mentions":["m2://rec/wikidata/Q2706626#1"],"kind":"unknown","name":"Padovan sequence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"NP476PG3M1","mentions":["m2://rec/wikidata/Q7432782#1"],"kind":"concept","name":"Schouten–Nijenhuis bracket","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"NP4FM3YXAE","mentions":["m2://rec/wikidata/Q2706626#1"],"kind":"object","name":"Padovan sequence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

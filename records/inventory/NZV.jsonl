@@ -1,2 +1,2 @@
 {"id":"NZV0KESZYV","mentions":["m2://rec/wikidata/Q6664565#1"],"kind":"unknown","name":"local system","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"NZVZWM1E11","mentions":["m2://rec/wikidata/Q1293666#1"],"kind":"unknown","name":"rencontres numbers","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"NZVZWM1E11","mentions":["m2://rec/wikidata/Q1293666#1"],"kind":"concept","name":"rencontres numbers","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

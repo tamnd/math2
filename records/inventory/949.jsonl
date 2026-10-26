@@ -1,2 +1,2 @@
-{"id":"9493PK3WYP","mentions":["m2://rec/wikidata/Q3024615#1"],"kind":"unknown","name":"dessin d'enfant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9493PK3WYP","mentions":["m2://rec/wikidata/Q3024615#1"],"kind":"concept","name":"dessin d'enfant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"949QQ02JT7","mentions":["m2://rec/wikidata/Q11061460#1"],"kind":"unknown","name":"join","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

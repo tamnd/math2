@@ -1,2 +1,2 @@
-{"id":"YT2EWDPH67","mentions":["m2://rec/wikidata/Q461112#1"],"kind":"unknown","name":"Yvonne Choquet-Bruhat","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"YT2RG0G1PX","mentions":["m2://rec/wikidata/Q7133115#1"],"kind":"unknown","name":"Pappus configuration","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"YT2EWDPH67","mentions":["m2://rec/wikidata/Q461112#1"],"kind":"unknown","name":"Yvonne Choquet-Bruhat","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"YT2RG0G1PX","mentions":["m2://rec/wikidata/Q7133115#1"],"kind":"statement","name":"Pappus configuration","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

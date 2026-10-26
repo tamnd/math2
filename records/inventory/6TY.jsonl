@@ -1,2 +1,2 @@
 {"id":"6TY5VZR32A","mentions":["m2://rec/wikidata/Q179436#1"],"kind":"unknown","name":"asymptote","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"6TYQBDB2BN","mentions":["m2://rec/wikidata/Q910563#1"],"kind":"unknown","name":"Young's inequality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"6TYQBDB2BN","mentions":["m2://rec/wikidata/Q910563#1"],"kind":"statement","name":"Young's inequality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

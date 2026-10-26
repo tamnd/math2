@@ -1,2 +1,2 @@
 {"id":"KZ5C43DVJZ","mentions":["m2://rec/wikidata/Q77594945#1"],"kind":"unknown","name":"positive-semidefinite quadratic form","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"KZ5CCJR19P","mentions":["m2://rec/wikidata/Q7432936#1"],"kind":"unknown","name":"Schubert calculus","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"KZ5CCJR19P","mentions":["m2://rec/wikidata/Q7432936#1"],"kind":"topic","name":"Schubert calculus","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

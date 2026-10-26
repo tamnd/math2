@@ -1,2 +1,2 @@
 {"id":"XM60VJ7129","mentions":["m2://rec/wikidata/Q529985#1"],"kind":"unknown","name":"brachistochrone curve","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"XM6EGVNXS0","mentions":["m2://rec/wikidata/Q3895298#1"],"kind":"unknown","name":"ridge","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"XM6EGVNXS0","mentions":["m2://rec/wikidata/Q3895298#1"],"kind":"concept","name":"ridge","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

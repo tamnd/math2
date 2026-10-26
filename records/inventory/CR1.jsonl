@@ -1,2 +1,2 @@
 {"id":"CR1CD9331M","mentions":["m2://rec/wikidata/Q1856609#1"],"kind":"unknown","name":"scalar potential","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"CR1E47A9XS","mentions":["m2://rec/wikidata/Q1896470#1"],"kind":"unknown","name":"Prime zeta function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"CR1E47A9XS","mentions":["m2://rec/wikidata/Q1896470#1"],"kind":"concept","name":"Prime zeta function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

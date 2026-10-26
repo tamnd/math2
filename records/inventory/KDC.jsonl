@@ -1,2 +1,2 @@
 {"id":"KDC8PQDTER","mentions":["m2://rec/wikidata/Q1136376#1"],"kind":"unknown","name":"support","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"KDCY8XT4XN","mentions":["m2://rec/wikidata/Q1972803#1"],"kind":"unknown","name":"perfect power","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"KDCY8XT4XN","mentions":["m2://rec/wikidata/Q1972803#1"],"kind":"concept","name":"perfect power","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,2 +1,2 @@
 {"id":"TG2SAPWGAQ","mentions":["m2://rec/wikidata/Q515874#1"],"kind":"unknown","name":"abscissa","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"TG2WJ41345","mentions":["m2://rec/wikidata/Q653242#1"],"kind":"unknown","name":"QR decomposition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"TG2WJ41345","mentions":["m2://rec/wikidata/Q653242#1"],"kind":"concept","name":"QR decomposition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

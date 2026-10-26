@@ -1,2 +1,2 @@
-{"id":"JZ1JRNDNFN","mentions":["m2://rec/wikidata/Q851503#1"],"kind":"definition","name":"Riccati equation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"JZ1ZKPK9RX","mentions":["m2://rec/wikidata/Q2845197#1"],"kind":"unknown","name":"constructive analysis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"JZ1JRNDNFN","mentions":["m2://rec/wikidata/Q851503#1"],"kind":"concept","name":"Riccati equation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"JZ1ZKPK9RX","mentions":["m2://rec/wikidata/Q2845197#1"],"kind":"topic","name":"constructive analysis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

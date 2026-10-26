@@ -1,2 +1,2 @@
 {"id":"N2VN4A5YVP","mentions":["m2://rec/wikidata/Q138568936#1"],"kind":"unknown","name":"decreasing sequence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"N2VXHH5YBD","mentions":["m2://rec/wikidata/Q6678209#1"],"kind":"unknown","name":"game value","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"N2VXHH5YBD","mentions":["m2://rec/wikidata/Q6678209#1"],"kind":"concept","name":"game value","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

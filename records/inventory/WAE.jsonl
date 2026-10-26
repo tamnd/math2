@@ -1,2 +1,2 @@
 {"id":"WAE0ECNBG2","mentions":["m2://rec/wikidata/Q12969754#1"],"kind":"unknown","name":"electromagnetic radiation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"WAEBV22MVE","mentions":["m2://rec/wikidata/Q26201838#1"],"kind":"unknown","name":"Tomasz Maszczyk","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"WAEBV22MVE","mentions":["m2://rec/wikidata/Q26201838#1"],"kind":"unknown","name":"Tomasz Maszczyk","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

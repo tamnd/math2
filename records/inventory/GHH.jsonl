@@ -1,2 +1,2 @@
 {"id":"GHHHQBZBT1","mentions":["m2://rec/wikidata/Q601362#1"],"kind":"unknown","name":"impossible object","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"GHHRSFD0WY","mentions":["m2://rec/wikidata/Q1060321#1"],"kind":"unknown","name":"Gaussian integral","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"GHHRSFD0WY","mentions":["m2://rec/wikidata/Q1060321#1"],"kind":"statement","name":"Gaussian integral","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

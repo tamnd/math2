@@ -1,2 +1,2 @@
-{"id":"2585JHJ73T","mentions":["m2://rec/wikidata/Q18640217#1"],"kind":"unknown","name":"Fermat's right triangle theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"258E6VFR6G","mentions":["m2://rec/wikidata/Q196593#1"],"kind":"unknown","name":"elongated pentagonal bipyramid","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"2585JHJ73T","mentions":["m2://rec/wikidata/Q18640217#1"],"kind":"statement","name":"Fermat's right triangle theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"258E6VFR6G","mentions":["m2://rec/wikidata/Q196593#1"],"kind":"object","name":"elongated pentagonal bipyramid","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

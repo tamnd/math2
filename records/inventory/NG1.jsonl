@@ -1,2 +1,2 @@
-{"id":"NG12D2PKBF","mentions":["m2://rec/wikidata/Q1144925#1"],"kind":"unknown","name":"currying","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"NG12D2PKBF","mentions":["m2://rec/wikidata/Q1144925#1"],"kind":"concept","name":"currying","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"NG1WAHYV8T","mentions":["m2://rec/wikidata/Q4688931#1"],"kind":"unknown","name":"affine Grassmannian","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,2 +1,2 @@
-{"id":"NXVH8CRH90","mentions":["m2://rec/wikidata/Q3527141#1"],"kind":"unknown","name":"Puiseux's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"NXVRWT9JXQ","mentions":["m2://rec/wikidata/Q4123769#1"],"kind":"unknown","name":"Aleksandr Volodin","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"NXVH8CRH90","mentions":["m2://rec/wikidata/Q3527141#1"],"kind":"statement","name":"Puiseux's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"NXVRWT9JXQ","mentions":["m2://rec/wikidata/Q4123769#1"],"kind":"unknown","name":"Aleksandr Volodin","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

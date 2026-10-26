@@ -1,2 +1,2 @@
-{"id":"Q5AMHF7FVY","mentions":["m2://rec/wikidata/Q25492942#1"],"kind":"unknown","name":"Joshua J. Schwartz","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"Q5AMHF7FVY","mentions":["m2://rec/wikidata/Q25492942#1"],"kind":"unknown","name":"Joshua J. Schwartz","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"Q5AQ41TBR7","mentions":["m2://rec/wikidata/Q1162676#1"],"kind":"topic","name":"Haar measure","msc":["20H05"],"layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

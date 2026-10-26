@@ -1,2 +1,2 @@
 {"id":"GP5KMEBQWF","mentions":["m2://rec/wikidata/Q5870972#1"],"kind":"definition","name":"Schwartz function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"GP5P6E1YCQ","mentions":["m2://rec/wikidata/Q7306976#1"],"kind":"unknown","name":"Rees algebra","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"GP5P6E1YCQ","mentions":["m2://rec/wikidata/Q7306976#1"],"kind":"concept","name":"Rees algebra","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

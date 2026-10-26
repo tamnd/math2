@@ -1,2 +1,2 @@
-{"id":"VQS3CS28W6","mentions":["m2://rec/wikidata/Q1985198#1"],"kind":"definition","name":"nonlinear dynamics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"VQS3CS28W6","mentions":["m2://rec/wikidata/Q1985198#1"],"kind":"topic","name":"nonlinear dynamics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"VQSD4VB873","mentions":["m2://rec/wikidata/Q7097841#1"],"kind":"topic","name":"operator space","msc":["46L07"],"layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

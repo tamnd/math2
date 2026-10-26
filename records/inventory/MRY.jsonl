@@ -1,3 +1,3 @@
 {"id":"MRY77B6E08","mentions":["m2://rec/wikidata/Q732374#1"],"kind":"unknown","name":"pyramidal number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"MRYCA0TT1H","mentions":["m2://rec/wikidata/Q97621521#1"],"kind":"unknown","name":"McCoy's Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"MRYCA0TT1H","mentions":["m2://rec/wikidata/Q97621521#1"],"kind":"statement","name":"McCoy's Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"MRYG7JTRH2","mentions":["m2://rec/wikidata/Q1516865#1"],"kind":"unknown","name":"prime triplet","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

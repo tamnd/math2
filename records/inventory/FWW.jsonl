@@ -1,3 +1,3 @@
 {"id":"FWW9WYGKYW","mentions":["m2://rec/wikidata/Q107715#1"],"kind":"definition","name":"physical quantity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"FWWBGJJ2NX","mentions":["m2://rec/wikidata/Q49908#1"],"kind":"unknown","name":"sampling","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"FWWJ3J3XRF","mentions":["m2://rec/wikidata/Q10944557#1"],"kind":"unknown","name":"word","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FWWJ3J3XRF","mentions":["m2://rec/wikidata/Q10944557#1"],"kind":"concept","name":"word","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

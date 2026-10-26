@@ -1,2 +1,2 @@
-{"id":"XC1140SSNQ","mentions":["m2://rec/wikidata/Q54246577#1"],"kind":"unknown","name":"ambiguous","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"XC1140SSNQ","mentions":["m2://rec/wikidata/Q54246577#1"],"kind":"concept","name":"ambiguous","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"XC173BPP7E","mentions":["m2://rec/wikidata/Q114715748#1"],"kind":"topic","name":"theory of schemes","msc":["14A15"],"layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

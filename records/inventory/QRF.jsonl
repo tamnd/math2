@@ -1,2 +1,2 @@
-{"id":"QRF8BS1CCY","mentions":["m2://rec/wikidata/Q191693#1"],"kind":"unknown","name":"Lebesgue's decomposition theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"QRFB2PPQTX","mentions":["m2://rec/wikidata/Q18207846#1"],"kind":"unknown","name":"Hopf algebroid","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"QRF8BS1CCY","mentions":["m2://rec/wikidata/Q191693#1"],"kind":"statement","name":"Lebesgue's decomposition theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"QRFB2PPQTX","mentions":["m2://rec/wikidata/Q18207846#1"],"kind":"concept","name":"Hopf algebroid","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,2 +1,2 @@
-{"id":"NS4F453165","mentions":["m2://rec/wikidata/Q48089267#1"],"kind":"unknown","name":"Mirjam Cvetic","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"NS4F453165","mentions":["m2://rec/wikidata/Q48089267#1"],"kind":"unknown","name":"Mirjam Cvetic","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"NS4VX74D6P","mentions":["m2://rec/wikidata/Q714737#1"],"kind":"unknown","name":"category of being","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

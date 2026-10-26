@@ -1,2 +1,2 @@
 {"id":"T0HBQ7W2XH","mentions":["m2://rec/wikidata/Q121357184#1"],"kind":"unknown","name":"special orthogonal matrix","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"T0HZ9RB6PP","mentions":["m2://rec/wikidata/Q2164163#1"],"kind":"unknown","name":"pentagonal orthobicupola","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"T0HZ9RB6PP","mentions":["m2://rec/wikidata/Q2164163#1"],"kind":"object","name":"pentagonal orthobicupola","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

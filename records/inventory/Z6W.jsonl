@@ -1,2 +1,2 @@
-{"id":"Z6WGFNRYN5","mentions":["m2://rec/wikidata/Q5384439#1"],"kind":"unknown","name":"Equichordal point","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"Z6WWVJDXNV","mentions":["m2://rec/wikidata/Q7100975#1"],"kind":"unknown","name":"Ore extension","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"Z6WGFNRYN5","mentions":["m2://rec/wikidata/Q5384439#1"],"kind":"concept","name":"Equichordal point","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"Z6WWVJDXNV","mentions":["m2://rec/wikidata/Q7100975#1"],"kind":"concept","name":"Ore extension","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

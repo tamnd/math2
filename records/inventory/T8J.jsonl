@@ -1,2 +1,2 @@
 {"id":"T8J6XTGK8Z","mentions":["m2://rec/wikidata/Q130377759#1"],"kind":"definition","name":"circumference","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"T8JDEQ7K8D","mentions":["m2://rec/wikidata/Q5693407#1"],"kind":"unknown","name":"Heath-Brown–Moroz constant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"T8JDEQ7K8D","mentions":["m2://rec/wikidata/Q5693407#1"],"kind":"object","name":"Heath-Brown–Moroz constant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

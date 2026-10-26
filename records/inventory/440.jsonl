@@ -1,2 +1,2 @@
-{"id":"440770N1BX","mentions":["m2://rec/wikidata/Q878259#1"],"kind":"unknown","name":"quadratic residue","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"440YH4Q72N","mentions":["m2://rec/wikidata/Q318767#1"],"kind":"unknown","name":"Abel's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"440770N1BX","mentions":["m2://rec/wikidata/Q878259#1"],"kind":"concept","name":"quadratic residue","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"440YH4Q72N","mentions":["m2://rec/wikidata/Q318767#1"],"kind":"statement","name":"Abel's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

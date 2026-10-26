@@ -1,2 +1,2 @@
-{"id":"3HGMBPDGD4","mentions":["m2://rec/wikidata/Q167#1"],"kind":"definition","name":"pi","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"3HGMBPDGD4","mentions":["m2://rec/wikidata/Q167#1"],"kind":"object","name":"pi","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"3HGW4QVC8T","mentions":["m2://rec/wikidata/Q2586745#1"],"kind":"unknown","name":"general Leibniz rule","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

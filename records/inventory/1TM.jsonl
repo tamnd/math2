@@ -1,3 +1,3 @@
 {"id":"1TM1Z1PX72","mentions":["m2://rec/wikidata/Q3654641#1"],"kind":"unknown","name":"field with one element","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"1TM215FP1W","mentions":["m2://rec/wikidata/Q597663#1"],"kind":"definition","name":"universe","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"1TM215FP1W","mentions":["m2://rec/wikidata/Q597663#1"],"kind":"concept","name":"universe","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"1TMDZZ15DF","mentions":["m2://rec/wikidata/Q39046230#1"],"kind":"unknown","name":"derived tensor product","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

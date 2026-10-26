@@ -1,2 +1,2 @@
-{"id":"V1RFPQKAEQ","mentions":["m2://rec/wikidata/Q284129#1"],"kind":"unknown","name":"Charles Fefferman","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"V1RFPQKAEQ","mentions":["m2://rec/wikidata/Q284129#1"],"kind":"unknown","name":"Charles Fefferman","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"V1RH32J6YP","mentions":["m2://rec/wikidata/Q936674#1"],"kind":"definition","name":"dense-in-itself space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

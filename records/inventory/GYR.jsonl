@@ -1,2 +1,2 @@
-{"id":"GYR9625PQA","mentions":["m2://rec/wikidata/Q5784439#1"],"kind":"unknown","name":"du Bois-Reymond constants","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"GYRKQCRMRC","mentions":["m2://rec/wikidata/Q748233#1"],"kind":"unknown","name":"Sylvester–Gallai theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"GYR9625PQA","mentions":["m2://rec/wikidata/Q5784439#1"],"kind":"concept","name":"du Bois-Reymond constants","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"GYRKQCRMRC","mentions":["m2://rec/wikidata/Q748233#1"],"kind":"statement","name":"Sylvester–Gallai theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

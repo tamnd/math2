@@ -1,2 +1,2 @@
-{"id":"XEDM07C6H1","mentions":["m2://rec/wikidata/Q82737#1"],"kind":"unknown","name":"The Bottle Imp","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"XEDM07C6H1","mentions":["m2://rec/wikidata/Q82737#1"],"kind":"unknown","name":"The Bottle Imp","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a book or a journal, not an item of mathematics","rule":"book","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"XEDMR8XK6P","mentions":["m2://rec/wikidata/Q3006684#1"],"kind":"unknown","name":"cube number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

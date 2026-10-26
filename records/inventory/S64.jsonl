@@ -1,2 +1,2 @@
 {"id":"S6463NNT97","mentions":["m2://rec/wikidata/Q16946670#1"],"kind":"unknown","name":"John Amazigo","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"S64KNZGEVW","mentions":["m2://rec/wikidata/Q1868414#1"],"kind":"unknown","name":"Local property","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"S64KNZGEVW","mentions":["m2://rec/wikidata/Q1868414#1"],"kind":"concept","name":"Local property","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

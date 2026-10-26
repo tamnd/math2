@@ -1,2 +1,2 @@
-{"id":"NJGBXQPWS9","mentions":["m2://rec/wikidata/Q2886564#1"],"kind":"unknown","name":"Delannoy number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"NJGVN5X17D","mentions":["m2://rec/wikidata/Q1255240#1"],"kind":"unknown","name":"Vitali's convergence theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"NJGBXQPWS9","mentions":["m2://rec/wikidata/Q2886564#1"],"kind":"concept","name":"Delannoy number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"NJGVN5X17D","mentions":["m2://rec/wikidata/Q1255240#1"],"kind":"statement","name":"Vitali's convergence theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

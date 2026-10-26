@@ -1,2 +1,2 @@
-{"id":"FTF3NNKP6Y","mentions":["m2://rec/wikidata/Q3023699#1"],"kind":"unknown","name":"Pillai's conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"FTFP98D8B2","mentions":["m2://rec/wikidata/Q990530#1"],"kind":"unknown","name":"Erdős–Mordell inequality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FTF3NNKP6Y","mentions":["m2://rec/wikidata/Q3023699#1"],"kind":"conjecture","name":"Pillai's conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FTFP98D8B2","mentions":["m2://rec/wikidata/Q990530#1"],"kind":"statement","name":"Erdős–Mordell inequality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

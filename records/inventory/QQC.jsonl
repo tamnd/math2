@@ -1,2 +1,2 @@
 {"id":"QQCFMG49QT","mentions":["m2://rec/wikidata/Q3115551#1"],"kind":"unknown","name":"graph of groups","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"QQCVFKK3TQ","mentions":["m2://rec/wikidata/Q15264444#1"],"kind":"unknown","name":"Schröder–Hipparchus number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"QQCVFKK3TQ","mentions":["m2://rec/wikidata/Q15264444#1"],"kind":"concept","name":"Schröder–Hipparchus number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
