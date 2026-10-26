@@ -1,0 +1,254 @@
+# The C2 skeleton of 52-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 52-XX
+title: discrete and convex geometry
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+  mathlib-undergrad: {title: "Mathlib, the list of undergraduate topics", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/undergrad.yaml'}
+  mathlib-overview: {title: "Mathlib, the overview of the library", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/overview.yaml'}
+  mathlib-100: {title: "Mathlib, the status of Freek Wiedijk's 100 theorems", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/100.yaml'}
+  mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
+items:
+  # Convex sets: basic notions
+  - {name: convex set, kind: definition, decl: Convex, wikipedia: Convex set, wikidata: Q193657, mathlib: [mathlib-undergrad]}
+  - {name: convex hull, kind: definition, decl: convexHull, wikipedia: Convex hull, wikidata: Q1138624, mathlib: [mathlib-undergrad]}
+  - {name: convex combination, kind: definition, decl: Finset.centerMass, wikipedia: Convex combination, wikidata: Q2627315}
+  - {name: line segment, kind: definition, decl: segment, wikipedia: Line segment, wikidata: Q166154}
+  - {name: open segment, kind: definition, decl: openSegment, wikipedia: Line segment, wikidata: Q166154}
+  - {name: convex join, kind: definition, decl: convexJoin, wikipedia: Convex hull, wikidata: Q1138624}
+  - {name: strictly convex set, kind: definition, decl: StrictConvex, wikipedia: Convex set, wikidata: Q193657}
+  - {name: convex body, kind: definition, wikipedia: Convex body, wikidata: Q5166516}
+  - {name: convex cone, kind: definition, decl: ConvexCone, wikipedia: Convex cone, wikidata: Q2256541, mathlib: [mathlib-overview]}
+  - {name: pointed cone, kind: definition, decl: PointedCone, wikipedia: Convex cone, wikidata: Q2256541, mathlib: [mathlib-overview]}
+  - {name: proper cone, kind: definition, decl: ProperCone, wikipedia: Convex cone, wikidata: Q2256541}
+  - {name: dual cone, kind: definition, wikipedia: Dual cone and polar cone, wikidata: Q2687694}
+  - {name: polar set, kind: definition, wikipedia: Polar set, wikidata: Q2101025}
+  - {name: convex function, kind: definition, decl: ConvexOn, wikipedia: Convex function, wikidata: Q319913, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: concave function, kind: definition, decl: ConcaveOn, wikipedia: Concave function, wikidata: Q2914302}
+  - {name: Jensen's inequality, kind: statement, wikipedia: Jensen's inequality, wikidata: Q518131}
+  - {name: epigraph, kind: definition, wikipedia: Epigraph (mathematics), wikidata: Q1347059}
+  - {name: support function, kind: definition, wikipedia: Support function, wikidata: Q3075191}
+  - {name: supporting hyperplane, kind: definition, wikipedia: Supporting hyperplane, wikidata: Q1134296}
+  - {name: supporting hyperplane theorem, kind: statement, wikipedia: Supporting hyperplane, wikidata: Q1134296}
+  - {name: hyperplane separation theorem, kind: statement, decl: geometric_hahn_banach_compact_closed, wikipedia: Hyperplane separation theorem, wikidata: Q6795830}
+  - {name: Hahn–Banach separation theorem, kind: statement, decl: geometric_hahn_banach_open, wikipedia: Hahn–Banach theorem, wikidata: Q866116}
+  - {name: Minkowski functional, kind: definition, decl: gauge, wikipedia: Minkowski functional, wikidata: Q649472}
+  - {name: extreme point, kind: definition, decl: Set.extremePoints, wikipedia: Extreme point, wikidata: Q1385465, mathlib: [mathlib-undergrad]}
+  - {name: extreme set, kind: definition, decl: IsExtreme, wikipedia: Extreme point, wikidata: Q1385465}
+  - {name: exposed point, kind: definition, decl: IsExposed, wikipedia: Exposed point, wikidata: Q21072692}
+  - {name: face of a convex set, kind: definition, wikipedia: Face (geometry), wikidata: Q3064117}
+  - {name: Krein–Milman theorem, kind: statement, decl: closure_convexHull_extremePoints, wikipedia: Krein–Milman theorem, wikidata: Q642620, mathlib: [mathlib-1000]}
+  - {name: Minkowski–Carathéodory theorem, kind: statement, wikipedia: Krein–Milman theorem, wikidata: Q642620}
+  - {name: Straszewicz's theorem, kind: statement, wikipedia: Exposed point, wikidata: Q21072692}
+  - {name: Choquet theory, kind: concept, wikipedia: Choquet theory, wikidata: Q1076274}
+  - {name: Carathéodory's theorem, kind: statement, decl: convexHull_eq_union, wikipedia: Carathéodory's theorem (convex hull), wikidata: Q2471737, mathlib: [mathlib-overview, mathlib-1000]}
+  - {name: Radon's theorem, kind: statement, decl: Convex.radon_partition, wikipedia: Radon's theorem, wikidata: Q1471282, mathlib: [mathlib-1000]}
+  - {name: Helly's theorem, kind: statement, decl: Convex.helly_theorem, wikipedia: Helly's theorem, wikidata: Q1632433, mathlib: [mathlib-1000]}
+  - {name: Tverberg's theorem, kind: statement, wikipedia: Tverberg's theorem, wikidata: Q7857350}
+  - {name: Kirchberger's theorem, kind: statement, wikipedia: Kirchberger's theorem, wikidata: Q31838822}
+  - {name: Steinitz theorem on convex hull interiors, kind: statement, wikipedia: Carathéodory's theorem (convex hull), wikidata: Q2471737}
+  - {name: colorful Carathéodory theorem, kind: statement, wikipedia: Carathéodory's theorem (convex hull), wikidata: Q2471737}
+  - {name: fractional Helly theorem, kind: statement, wikipedia: Helly's theorem, wikidata: Q1632433}
+  - {name: centerpoint theorem, kind: statement, wikipedia: Centerpoint (geometry), wikidata: Q5060048}
+  - {name: ham sandwich theorem, kind: statement, wikipedia: Ham sandwich theorem, wikidata: Q730222}
+  - {name: convex independence, kind: definition, decl: ConvexIndependent, wikipedia: Convex position, wikidata: Q17007762}
+  - {name: Farkas' lemma, kind: statement, wikipedia: Farkas' lemma, wikidata: Q606254}
+  - {name: Gordan's lemma, kind: statement, wikipedia: Gordan's lemma, wikidata: Q25098650}
+  - {name: Fenchel conjugate, kind: definition, wikipedia: Convex conjugate, wikidata: Q3075186}
+  - {name: Fenchel–Moreau theorem, kind: statement, wikipedia: Fenchel–Moreau theorem, wikidata: Q5443005}
+  - {name: Shapley–Folkman lemma, kind: statement, wikipedia: Shapley–Folkman lemma, wikidata: Q3788045}
+  - {name: Blaschke selection theorem, kind: statement, wikipedia: Blaschke selection theorem, wikidata: Q784049}
+  - {name: Hausdorff distance, kind: definition, wikipedia: Hausdorff distance, wikidata: Q1501997}
+  # Convex geometric analysis and geometric inequalities
+  - {name: Minkowski addition, kind: definition, wikipedia: Minkowski addition, wikidata: Q1322294}
+  - {name: mixed volume, kind: definition, wikipedia: Mixed volume, wikidata: Q4424496}
+  - {name: Steiner formula, kind: statement, wikipedia: Mixed volume, wikidata: Q4424496}
+  - {name: quermassintegral, kind: definition, wikipedia: Mixed volume, wikidata: Q4424496}
+  - {name: intrinsic volume, kind: definition, wikipedia: Hadwiger's theorem, wikidata: Q5638112}
+  - {name: Hadwiger's theorem, kind: statement, wikipedia: Hadwiger's theorem, wikidata: Q5638112}
+  - {name: valuation on convex bodies, kind: definition, wikipedia: Valuation (geometry), wikidata: Q85812715}
+  - {name: Brunn–Minkowski inequality, kind: statement, wikipedia: Brunn–Minkowski theorem, wikidata: Q3915398}
+  - {name: Prékopa–Leindler inequality, kind: statement, wikipedia: Prékopa–Leindler inequality, wikidata: Q7253815}
+  - {name: Alexandrov–Fenchel inequality, kind: statement, wikipedia: Mixed volume, wikidata: Q4424496}
+  - {name: Minkowski's first inequality, kind: statement, wikipedia: Mixed volume, wikidata: Q4424496}
+  - {name: isoperimetric inequality, kind: statement, wikipedia: Isoperimetric inequality, wikidata: Q617417}
+  - {name: Blaschke–Santaló inequality, kind: statement, wikipedia: Mahler volume, wikidata: Q15864883}
+  - {name: Mahler conjecture, kind: conjecture, wikipedia: Mahler volume, wikidata: Q15864883}
+  - {name: John ellipsoid, kind: definition, wikipedia: John ellipsoid, wikidata: Q1699024}
+  - {name: Löwner–John theorem, kind: statement, wikipedia: John ellipsoid, wikidata: Q1699024}
+  - {name: Dvoretzky's theorem, kind: statement, wikipedia: Dvoretzky's theorem, wikidata: Q5317821}
+  - {name: Busemann–Petty problem, kind: problem, wikipedia: Busemann–Petty problem, wikidata: Q5001330}
+  - {name: Kakeya problem, kind: problem, wikipedia: Kakeya set, wikidata: Q3054869}
+  - {name: Steiner symmetrization, kind: definition, wikipedia: Isoperimetric inequality, wikidata: Q617417}
+  - {name: intersection body, kind: definition, wikipedia: Busemann–Petty problem, wikidata: Q5001330}
+  - {name: projection body, kind: definition, wikipedia: Projection body, wikidata: Q7249443}
+  - {name: zonoid, kind: definition, wikipedia: Zonoid, wikidata: Q131417845}
+  - {name: Banach–Mazur distance, kind: definition, wikipedia: Banach–Mazur compactum, wikidata: Q806050}
+  - {name: curve of constant width, kind: definition, wikipedia: Curve of constant width, wikidata: Q1192156}
+  - {name: Reuleaux triangle, kind: example, wikipedia: Reuleaux triangle, wikidata: Q959203}
+  - {name: Barbier's theorem, kind: statement, wikipedia: Barbier's theorem, wikidata: Q1188048}
+  - {name: Blaschke–Lebesgue theorem, kind: statement, wikipedia: Blaschke–Lebesgue theorem, wikidata: Q4925292}
+  - {name: Jung's theorem, kind: statement, wikipedia: Jung's theorem, wikidata: Q1075398}
+  - {name: Borsuk's conjecture, kind: counterexample, wikipedia: Borsuk's conjecture, wikidata: Q894242}
+  - {name: Lebesgue's universal covering problem, kind: problem, wikipedia: Lebesgue's universal covering problem, wikidata: Q28456108}
+  - {name: Moser's worm problem, kind: problem, wikipedia: Moser's worm problem, wikidata: Q15904307}
+  - {name: Hadwiger covering conjecture, kind: conjecture, wikipedia: Hadwiger conjecture (combinatorial geometry), wikidata: Q5638115}
+  - {name: illumination problem, kind: problem, wikipedia: Hadwiger conjecture (combinatorial geometry), wikidata: Q5638115}
+  - {name: integral geometry, kind: concept, wikipedia: Integral geometry, wikidata: Q2725319}
+  - {name: Crofton formula, kind: statement, wikipedia: Crofton formula, wikidata: Q3077613}
+  - {name: Buffon's needle problem, kind: problem, wikipedia: Buffon's needle problem, wikidata: Q1753097}
+  - {name: Minkowski problem, kind: problem, wikipedia: Minkowski problem, wikidata: Q4183831}
+  - {name: Brunn–Minkowski theory, kind: concept, wikipedia: Brunn–Minkowski theorem, wikidata: Q3915398}
+  - {name: concentration of measure, kind: concept, wikipedia: Concentration of measure, wikidata: Q5158327}
+  # Polytopes and polyhedra
+  - {name: convex polytope, kind: definition, wikipedia: Convex polytope, wikidata: Q4129097}
+  - {name: polytope, kind: definition, wikipedia: Polytope, wikidata: Q747980}
+  - {name: polyhedron, kind: definition, wikipedia: Polyhedron, wikidata: Q172937}
+  - {name: Minkowski–Weyl theorem, kind: statement, wikipedia: Convex polytope, wikidata: Q4129097}
+  - {name: H-representation and V-representation, kind: concept, wikipedia: Convex polytope, wikidata: Q4129097}
+  - {name: face lattice, kind: definition, wikipedia: Abstract polytope, wikidata: Q4669958}
+  - {name: facet, kind: definition, wikipedia: Facet (geometry), wikidata: Q3847020}
+  - {name: vertex of a polytope, kind: definition, wikipedia: Vertex (geometry), wikidata: Q26401}
+  - {name: simplex, kind: definition, decl: stdSimplex, wikipedia: Simplex, wikidata: Q331350}
+  - {name: simplicial polytope, kind: definition, wikipedia: Simplicial polytope, wikidata: Q7520906}
+  - {name: simple polytope, kind: definition, wikipedia: Simple polytope, wikidata: Q4381515}
+  - {name: hypercube, kind: example, wikipedia: Hypercube, wikidata: Q213723}
+  - {name: cross-polytope, kind: example, wikipedia: Cross-polytope, wikidata: Q1187914}
+  - {name: cyclic polytope, kind: definition, wikipedia: Cyclic polytope, wikidata: Q245469}
+  - {name: neighborly polytope, kind: definition, wikipedia: Neighborly polytope, wikidata: Q17099348}
+  - {name: zonotope, kind: definition, wikipedia: Zonohedron, wikidata: Q2485866}
+  - {name: permutohedron, kind: example, wikipedia: Permutohedron, wikidata: Q1710083}
+  - {name: associahedron, kind: example, wikipedia: Associahedron, wikidata: Q4809117}
+  - {name: Birkhoff polytope, kind: example, wikipedia: Birkhoff polytope, wikidata: Q4916482}
+  - {name: Birkhoff–von Neumann theorem, kind: statement, wikipedia: Doubly stochastic matrix, wikidata: Q1243340}
+  - {name: order polytope, kind: example, wikipedia: Order polytope, wikidata: Q85791185}
+  - {name: polar polytope, kind: definition, wikipedia: Dual polyhedron, wikidata: Q1053857}
+  - {name: f-vector, kind: definition, wikipedia: Simplicial complex, wikidata: Q994399}
+  - {name: Euler's formula for polytopes, kind: statement, wikipedia: Euler characteristic, wikidata: Q852973}
+  - {name: Dehn–Sommerville equations, kind: statement, wikipedia: Dehn–Sommerville equations, wikidata: Q4027001}
+  - {name: upper bound theorem, kind: statement, wikipedia: Upper bound theorem, wikidata: Q17104455}
+  - {name: g-theorem, kind: statement, wikipedia: Simplicial sphere, wikidata: Q7520908}
+  - {name: Steinitz's theorem, kind: statement, wikipedia: Steinitz's theorem, wikidata: Q7606897}
+  - {name: Balinski's theorem, kind: statement, wikipedia: Balinski's theorem, wikidata: Q32182}
+  - {name: Hirsch conjecture, kind: counterexample, wikipedia: Hirsch conjecture, wikidata: Q2993326}
+  - {name: polynomial Hirsch conjecture, kind: conjecture, wikipedia: Hirsch conjecture, wikidata: Q2993326}
+  - {name: Schlegel diagram, kind: concept, wikipedia: Schlegel diagram, wikidata: Q2004228}
+  - {name: Gale diagram, kind: concept, wikipedia: Gale diagram, wikidata: Q99675552}
+  - {name: oriented matroid, kind: definition, wikipedia: Oriented matroid, wikidata: Q16155113}
+  - {name: hyperplane arrangement, kind: definition, wikipedia: Arrangement of hyperplanes, wikidata: Q4795851}
+  - {name: Zaslavsky's theorem, kind: statement, wikipedia: Arrangement of hyperplanes, wikidata: Q4795851}
+  - {name: Minkowski sum of polytopes, kind: definition, wikipedia: Minkowski addition, wikidata: Q1322294}
+  - {name: normal fan, kind: definition, wikipedia: Toric variety, wikidata: Q1528306}
+  - {name: Newton polytope, kind: definition, wikipedia: Newton polygon, wikidata: Q115646}
+  - {name: lattice polytope, kind: definition, wikipedia: Integral polytope, wikidata: Q5166519}
+  - {name: Ehrhart polynomial, kind: definition, wikipedia: Ehrhart polynomial, wikidata: Q5348622}
+  - {name: Ehrhart–Macdonald reciprocity, kind: statement, wikipedia: Ehrhart polynomial, wikidata: Q5348622}
+  - {name: Pick's theorem, kind: statement, wikipedia: Pick's theorem, wikidata: Q646523}
+  - {name: regular polytope, kind: definition, wikipedia: Regular polytope, wikidata: Q2745944}
+  - {name: Schläfli symbol, kind: definition, wikipedia: Schläfli symbol, wikidata: Q1347011}
+  - {name: classification of regular polytopes, kind: statement, wikipedia: List of regular polytopes, wikidata: Q2534367}
+  - {name: Platonic solid, kind: object, wikipedia: Platonic solid, wikidata: Q188745}
+  - {name: 24-cell, kind: object, wikipedia: 24-cell, wikidata: Q539008}
+  - {name: 120-cell, kind: object, wikipedia: 120-cell, wikidata: Q736191}
+  - {name: 600-cell, kind: object, wikipedia: 600-cell, wikidata: Q2610844}
+  - {name: Archimedean solid, kind: object, wikipedia: Archimedean solid, wikidata: Q213486}
+  - {name: Kepler–Poinsot polyhedron, kind: object, wikipedia: Kepler–Poinsot polyhedron, wikidata: Q1023978}
+  - {name: Johnson solid, kind: object, wikipedia: Johnson solid, wikidata: Q1059659}
+  - {name: uniform polytope, kind: definition, wikipedia: Uniform polytope, wikidata: Q3887718}
+  - {name: Wythoff construction, kind: definition, wikipedia: Wythoff construction, wikidata: Q2995289}
+  - {name: abstract polytope, kind: definition, wikipedia: Abstract polytope, wikidata: Q4669958}
+  - {name: Cauchy's rigidity theorem for polytopes, kind: statement, wikipedia: Cauchy's theorem (geometry), wikidata: Q3527034}
+  - {name: Alexandrov's theorem on polyhedra, kind: statement, wikipedia: Alexandrov's theorem on polyhedra, wikidata: Q17003552}
+  - {name: Dehn invariant, kind: definition, wikipedia: Dehn invariant, wikidata: Q30587580}
+  - {name: Hilbert's third problem, kind: problem, wikipedia: Hilbert's third problem, wikidata: Q2667025}
+  - {name: net of a polyhedron, kind: definition, wikipedia: Net (polyhedron), wikidata: Q253829}
+  - {name: Dürer's conjecture, kind: conjecture, wikipedia: Net (polyhedron), wikidata: Q253829}
+  - {name: Descartes's theorem on total angular defect, kind: statement, wikipedia: Angular defect, wikidata: Q2533936}
+  - {name: linear programming, kind: concept, wikipedia: Linear programming, wikidata: Q202843}
+  - {name: simplex algorithm, kind: concept, wikipedia: Simplex algorithm, wikidata: Q134164}
+  - {name: Fourier–Motzkin elimination, kind: concept, wikipedia: Fourier–Motzkin elimination, wikidata: Q1440012}
+  - {name: polyhedral combinatorics, kind: concept, wikipedia: Polyhedral combinatorics, wikidata: Q8348314}
+  - {name: toric variety, kind: concept, wikipedia: Toric variety, wikidata: Q1528306}
+  # Lattices and geometry of numbers
+  - {name: lattice, kind: definition, decl: IsZLattice, wikipedia: Lattice (group), wikidata: Q1096885}
+  - {name: Minkowski's theorem, kind: statement, decl: MeasureTheory.exists_ne_zero_mem_lattice_of_measure_mul_two_pow_lt_measure, wikipedia: Minkowski's theorem, wikidata: Q1097021, mathlib: [mathlib-100, mathlib-1000]}
+  - {name: Minkowski's second theorem, kind: statement, wikipedia: Minkowski's second theorem, wikidata: Q6867853}
+  - {name: successive minima, kind: definition, wikipedia: Minkowski's second theorem, wikidata: Q6867853}
+  - {name: Blichfeldt's theorem, kind: statement, wikipedia: Blichfeldt's theorem, wikidata: Q104902490}
+  - {name: geometry of numbers, kind: concept, wikipedia: Geometry of numbers, wikidata: Q1466519}
+  - {name: Voronoi cell, kind: definition, wikipedia: Voronoi diagram, wikidata: Q757267}
+  - {name: parallelohedron, kind: definition, wikipedia: Parallelohedron, wikidata: Q23823961}
+  - {name: Voronoi's conjecture on parallelohedra, kind: conjecture, wikipedia: Parallelohedron, wikidata: Q23823961}
+  # Packing and covering
+  - {name: sphere packing, kind: concept, wikipedia: Sphere packing, wikidata: Q900117}
+  - {name: packing density, kind: definition, wikipedia: Packing density, wikidata: Q18385933}
+  - {name: circle packing, kind: concept, wikipedia: Circle packing, wikidata: Q5121501}
+  - {name: Thue's theorem, kind: statement, wikipedia: Circle packing, wikidata: Q5121501}
+  - {name: Kepler conjecture, kind: statement, wikipedia: Kepler conjecture, wikidata: Q966873}
+  - {name: sphere packing in dimensions 8 and 24, kind: statement, wikipedia: Sphere packing, wikidata: Q900117}
+  - {name: E8 lattice, kind: object, wikipedia: E8 lattice, wikidata: Q4662154}
+  - {name: Leech lattice, kind: object, wikipedia: Leech lattice, wikidata: Q2510203}
+  - {name: kissing number, kind: definition, wikipedia: Kissing number, wikidata: Q1371530}
+  - {name: kissing number problem in three dimensions, kind: statement, wikipedia: Kissing number, wikidata: Q1371530}
+  - {name: Minkowski–Hlawka theorem, kind: statement, wikipedia: Minkowski–Hlawka theorem, wikidata: Q6867867}
+  - {name: covering density, kind: definition, wikipedia: Covering problems, wikidata: Q5179260}
+  - {name: Koebe–Andreev–Thurston theorem, kind: statement, wikipedia: Circle packing theorem, wikidata: Q5121504}
+  - {name: Apollonian gasket, kind: example, wikipedia: Apollonian gasket, wikidata: Q1184368}
+  - {name: packing problem, kind: problem, wikipedia: Packing problems, wikidata: Q3851477}
+  - {name: Rogers' bound, kind: statement, wikipedia: Sphere packing, wikidata: Q900117}
+  - {name: Tammes problem, kind: problem, wikipedia: Tammes problem, wikidata: Q3406239}
+  - {name: Thomson problem, kind: problem, wikipedia: Thomson problem, wikidata: Q7795912}
+  - {name: spherical code, kind: definition, wikipedia: Spherical code, wikidata: Q7576702}
+  - {name: Delsarte linear programming bound, kind: statement, wikipedia: Kissing number, wikidata: Q1371530}
+  # Tilings
+  - {name: tessellation, kind: definition, wikipedia: Tessellation, wikidata: Q214856}
+  - {name: periodic tiling, kind: definition, wikipedia: Tessellation, wikidata: Q214856}
+  - {name: wallpaper group, kind: object, wikipedia: Wallpaper group, wikidata: Q906867}
+  - {name: space group, kind: object, wikipedia: Space group, wikidata: Q899033}
+  - {name: Euclidean tilings by convex regular polygons, kind: example, wikipedia: Euclidean tilings by convex regular polygons, wikidata: Q2995026}
+  - {name: Penrose tiling, kind: example, wikipedia: Penrose tiling, wikidata: Q585688}
+  - {name: aperiodic set of prototiles, kind: definition, wikipedia: Aperiodic set of prototiles, wikidata: Q17002261}
+  - {name: einstein problem, kind: statement, wikipedia: Einstein problem, wikidata: Q18204561}
+  - {name: Wang tile, kind: definition, wikipedia: Wang tile, wikidata: Q474147}
+  - {name: domino tiling, kind: concept, wikipedia: Domino tiling, wikidata: Q21042776}
+  - {name: Keller's conjecture, kind: statement, wikipedia: Keller's conjecture, wikidata: Q4802474}
+  - {name: honeycomb, kind: definition, wikipedia: Honeycomb (geometry), wikidata: Q1189295}
+  - {name: Delaunay triangulation, kind: definition, wikipedia: Delaunay triangulation, wikidata: Q192445}
+  - {name: Voronoi diagram, kind: definition, wikipedia: Voronoi diagram, wikidata: Q757267}
+  - {name: triangulation of a point set, kind: definition, wikipedia: Point-set triangulation, wikidata: Q17078161}
+  - {name: dissection problem, kind: problem, wikipedia: Dissection problem, wikidata: Q765035}
+  - {name: squaring the square, kind: problem, wikipedia: Squaring the square, wikidata: Q2994174}
+  - {name: Hilbert's eighteenth problem, kind: problem, wikipedia: Hilbert's eighteenth problem, wikidata: Q11059889}
+  # Discrete and combinatorial geometry
+  - {name: discrete geometry, kind: concept, wikipedia: Discrete geometry, wikidata: Q906377}
+  - {name: Sylvester–Gallai theorem, kind: statement, wikipedia: Sylvester–Gallai theorem, wikidata: Q748233}
+  - {name: Erdős distinct distances problem, kind: problem, wikipedia: Erdős distinct distances problem, wikidata: Q3406261}
+  - {name: unit distance problem, kind: problem, wikipedia: Unit distance graph, wikidata: Q745378}
+  - {name: Hadwiger–Nelson problem, kind: problem, wikipedia: Hadwiger–Nelson problem, wikidata: Q1383936}
+  - {name: Szemerédi–Trotter theorem, kind: statement, wikipedia: Szemerédi–Trotter theorem, wikidata: Q721695}
+  - {name: crossing number inequality, kind: statement, wikipedia: Crossing number inequality, wikidata: Q24896206}
+  - {name: Beck's theorem, kind: statement, wikipedia: Beck's theorem (geometry), wikidata: Q3527011}
+  - {name: happy ending problem, kind: problem, wikipedia: Happy ending problem, wikidata: Q1033772}
+  - {name: Erdős–Szekeres theorem, kind: statement, wikipedia: Erdős–Szekeres theorem, wikidata: Q976607}
+  - {name: no-three-in-line problem, kind: problem, wikipedia: No-three-in-line problem, wikidata: Q6580594}
+  - {name: Heilbronn triangle problem, kind: problem, wikipedia: Heilbronn triangle problem, wikidata: Q5699425}
+  - {name: orchard-planting problem, kind: problem, wikipedia: Orchard-planting problem, wikidata: Q7100169}
+  - {name: Danzer set, kind: problem, wikipedia: Danzer set, wikidata: Q65121675}
+  - {name: Erdős–Anning theorem, kind: statement, wikipedia: Erdős–Anning theorem, wikidata: Q3526982}
+  - {name: polygon triangulation, kind: concept, wikipedia: Polygon triangulation, wikidata: Q3045660}
+  - {name: art gallery theorem, kind: statement, wikipedia: Art gallery problem, wikidata: Q2000090}
+  - {name: Jordan curve theorem for polygons, kind: statement, wikipedia: Jordan curve theorem, wikidata: Q260928}
+  - {name: inscribed square problem, kind: conjecture, wikipedia: Inscribed square problem, wikidata: Q2264221}
+  - {name: Kakeya needle problem, kind: problem, wikipedia: Kakeya set, wikidata: Q3054869}
+  - {name: Borsuk–Ulam theorem in combinatorial geometry, kind: statement, wikipedia: Borsuk–Ulam theorem, wikidata: Q848092}
+  - {name: necklace splitting problem, kind: statement, wikipedia: Necklace splitting problem, wikidata: Q6985587}
+  - {name: VC dimension of geometric set systems, kind: concept, wikipedia: Vapnik–Chervonenkis dimension, wikidata: Q2662236}
+  - {name: epsilon-net, kind: definition, wikipedia: Ε-net (computational geometry), wikidata: Q8083987}
+  - {name: geometric graph, kind: concept, wikipedia: Geometric graph theory, wikidata: Q1503271}
+  - {name: Fáry's theorem, kind: statement, wikipedia: Fáry's theorem, wikidata: Q4455031}
+  - {name: penny graph, kind: definition, wikipedia: Penny graph, wikidata: Q30592245}
+  - {name: rigidity theory, kind: concept, wikipedia: Structural rigidity, wikidata: Q7625050}
+  - {name: discrete differential geometry, kind: concept, wikipedia: Discrete differential geometry, wikidata: Q958922}
+  - {name: computational geometry, kind: concept, wikipedia: Computational geometry, wikidata: Q874709}
+  - {name: convex hull algorithms, kind: concept, wikipedia: Convex hull algorithms, wikidata: Q5166520}

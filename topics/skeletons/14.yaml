@@ -1,0 +1,266 @@
+# The C2 skeleton of 14-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 14-XX
+title: algebraic geometry
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+  mathlib-undergrad: {title: "Mathlib, the list of undergraduate topics", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/undergrad.yaml'}
+  mathlib-overview: {title: "Mathlib, the overview of the library", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/overview.yaml'}
+  mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
+items:
+  # Classical varieties
+  - {name: affine space, kind: definition, decl: AlgebraicGeometry.AffineSpace, wikipedia: Affine space, wikidata: Q382698}
+  - {name: algebraic set, kind: definition, decl: MvPolynomial.zeroLocus, wikipedia: Algebraic variety, wikidata: Q648995}
+  - {name: affine variety, kind: definition, wikipedia: Affine variety, wikidata: Q3554813}
+  - {name: ideal of an algebraic set, kind: definition, decl: MvPolynomial.vanishingIdeal, wikipedia: Affine variety, wikidata: Q3554813}
+  - {name: Zariski topology, kind: definition, decl: PrimeSpectrum.zariskiTopology, wikipedia: Zariski topology, wikidata: Q147978, mathlib: [mathlib-overview]}
+  - {name: Hilbert's Nullstellensatz, kind: statement, decl: MvPolynomial.vanishingIdeal_zeroLocus_eq_radical, wikipedia: Hilbert's Nullstellensatz, wikidata: Q1068976, mathlib: [mathlib-overview, mathlib-1000]}
+  - {name: coordinate ring, kind: definition, wikipedia: Affine variety, wikidata: Q3554813}
+  - {name: irreducible component, kind: definition, wikipedia: Irreducible component, wikidata: Q6073574}
+  - {name: regular function, kind: definition, wikipedia: Morphism of algebraic varieties, wikidata: Q7309604}
+  - {name: morphism of varieties, kind: definition, wikipedia: Morphism of algebraic varieties, wikidata: Q7309604}
+  - {name: projective space, kind: definition, decl: Projectivization, wikipedia: Projective space, wikidata: Q877775}
+  - {name: projective variety, kind: definition, wikipedia: Projective variety, wikidata: Q3554818}
+  - {name: quasi-projective variety, kind: definition, wikipedia: Quasi-projective variety, wikidata: Q7269519}
+  - {name: algebraic variety, kind: definition, wikipedia: Algebraic variety, wikidata: Q648995}
+  - {name: dimension of an algebraic variety, kind: definition, wikipedia: Dimension of an algebraic variety, wikidata: Q5277261}
+  - {name: tangent space, kind: definition, wikipedia: Zariski tangent space, wikidata: Q2031596}
+  - {name: singular point, kind: definition, wikipedia: Singular point of an algebraic variety, wikidata: Q7524253}
+  - {name: rational map, kind: definition, decl: AlgebraicGeometry.Scheme.RationalMap, wikipedia: Rational mapping, wikidata: Q987226}
+  - {name: birational map, kind: definition, wikipedia: Birational geometry, wikidata: Q1879333}
+  - {name: function field of a variety, kind: definition, decl: AlgebraicGeometry.Scheme.functionField, wikipedia: Function field of an algebraic variety, wikidata: Q5508773}
+  - {name: Segre embedding, kind: example, wikipedia: Segre embedding, wikidata: Q3392521}
+  - {name: Veronese embedding, kind: example, wikipedia: Veronese surface, wikidata: Q2899466}
+  - {name: Grassmannian, kind: object, decl: Module.Grassmannian, wikipedia: Grassmannian, wikidata: Q129638}
+  - {name: complete intersection, kind: definition, wikipedia: Complete intersection, wikidata: Q5156502}
+  # Schemes
+  - {name: prime spectrum of a ring, kind: definition, decl: PrimeSpectrum, wikipedia: Spectrum of a ring, wikidata: Q1154351, mathlib: [mathlib-overview]}
+  - {name: sheaf, kind: definition, decl: TopCat.Sheaf, wikipedia: Sheaf (mathematics), wikidata: Q595298}
+  - {name: stalk, kind: definition, decl: TopCat.Presheaf.stalk, wikipedia: Stalk (sheaf), wikidata: Q17103642}
+  - {name: ringed space, kind: definition, decl: AlgebraicGeometry.SheafedSpace, wikipedia: Ringed space, wikidata: Q168344, mathlib: [mathlib-overview]}
+  - {name: locally ringed space, kind: definition, decl: AlgebraicGeometry.LocallyRingedSpace, wikipedia: Ringed space, wikidata: Q168344, mathlib: [mathlib-overview]}
+  - {name: affine scheme, kind: definition, decl: AlgebraicGeometry.IsAffine, wikipedia: Spectrum of a ring, wikidata: Q1154351}
+  - {name: scheme, kind: definition, decl: AlgebraicGeometry.Scheme, wikipedia: Scheme (mathematics), wikidata: Q1155772, mathlib: [mathlib-overview]}
+  - {name: morphism of schemes, kind: definition, decl: AlgebraicGeometry.Scheme.Hom, wikipedia: Morphism of schemes, wikidata: Q25303616}
+  - {name: anti-equivalence of affine schemes and rings, kind: statement, decl: AlgebraicGeometry.Spec.fullyFaithful, wikipedia: Spectrum of a ring, wikidata: Q1154351}
+  - {name: gluing of schemes, kind: concept, wikipedia: Gluing schemes, wikidata: Q85763749}
+  - {name: fiber product of schemes, kind: definition, wikipedia: Fiber product of schemes, wikidata: Q49001120}
+  - {name: fiber of a morphism, kind: definition, decl: AlgebraicGeometry.Scheme.Hom.fiber, wikipedia: Fiber product of schemes, wikidata: Q49001120}
+  - {name: residue field of a point, kind: definition, decl: AlgebraicGeometry.Scheme.residueField, wikipedia: Residue field, wikidata: Q7315530}
+  - {name: generic point, kind: definition, decl: genericPoint, wikipedia: Generic point, wikidata: Q449470}
+  - {name: functor of points, kind: concept, wikipedia: Functor represented by a scheme, wikidata: Q85762285}
+  - {name: Proj construction, kind: definition, decl: AlgebraicGeometry.Proj, wikipedia: Proj construction, wikidata: Q7248935}
+  - {name: reduced scheme, kind: definition, decl: AlgebraicGeometry.IsReduced, wikipedia: Glossary of algebraic geometry, wikidata: Q16783922}
+  - {name: integral scheme, kind: definition, decl: AlgebraicGeometry.IsIntegral, wikipedia: Glossary of algebraic geometry, wikidata: Q16783922}
+  - {name: Noetherian scheme, kind: definition, decl: AlgebraicGeometry.IsNoetherian, wikipedia: Noetherian scheme, wikidata: Q3475675}
+  - {name: normal scheme, kind: definition, wikipedia: Normal scheme, wikidata: Q7051829}
+  - {name: normalization, kind: definition, decl: AlgebraicGeometry.Scheme.Hom.toNormalization, wikipedia: Normal scheme, wikidata: Q7051829}
+  - {name: regular scheme, kind: definition, wikipedia: Regular scheme, wikidata: Q18393924}
+  - {name: closed immersion, kind: definition, decl: AlgebraicGeometry.IsClosedImmersion, wikipedia: Closed immersion, wikidata: Q5135342}
+  - {name: open immersion, kind: definition, decl: AlgebraicGeometry.IsOpenImmersion, wikipedia: Glossary of algebraic geometry, wikidata: Q16783922}
+  - {name: quasi-compact morphism, kind: definition, decl: AlgebraicGeometry.QuasiCompact, wikipedia: Quasi-compact morphism, wikidata: Q7269441}
+  - {name: morphism of finite type, kind: definition, decl: AlgebraicGeometry.LocallyOfFiniteType, wikipedia: Morphism of finite type, wikidata: Q112108702}
+  - {name: finite morphism, kind: definition, decl: AlgebraicGeometry.IsFinite, wikipedia: Finite morphism, wikidata: Q2370289}
+  - {name: affine morphism, kind: definition, decl: AlgebraicGeometry.IsAffineHom, wikipedia: Sheaf of algebras, wikidata: Q48971898}
+  - {name: separated morphism, kind: definition, decl: AlgebraicGeometry.IsSeparated, wikipedia: Diagonal morphism (algebraic geometry), wikidata: Q60794278}
+  - {name: proper morphism, kind: definition, decl: AlgebraicGeometry.IsProper, wikipedia: Proper morphism, wikidata: Q7250176}
+  - {name: universally closed morphism, kind: definition, decl: AlgebraicGeometry.UniversallyClosed, wikipedia: Proper morphism, wikidata: Q7250176}
+  - {name: valuative criterion, kind: statement, decl: AlgebraicGeometry.IsProper.eq_valuativeCriterion, wikipedia: Valuative criterion, wikidata: Q17104492}
+  - {name: projective morphism, kind: definition, wikipedia: Glossary of algebraic geometry, wikidata: Q16783922}
+  - {name: flat morphism, kind: definition, decl: AlgebraicGeometry.Flat, wikipedia: Flat morphism, wikidata: Q3324325}
+  - {name: smooth morphism, kind: definition, decl: AlgebraicGeometry.Smooth, wikipedia: Smooth morphism, wikidata: Q7546425}
+  - {name: étale morphism, kind: definition, decl: AlgebraicGeometry.Etale, wikipedia: Étale morphism, wikidata: Q8078428}
+  - {name: unramified morphism, kind: definition, decl: AlgebraicGeometry.FormallyUnramified, wikipedia: Unramified morphism, wikidata: Q85812355}
+  - {name: Chevalley's theorem on constructible sets, kind: statement, decl: PrimeSpectrum.isConstructible_comap_image, wikipedia: Constructible set (topology), wikidata: Q3366885}
+  - {name: generic smoothness, kind: statement, decl: AlgebraicGeometry.Scheme.Hom.dense_smoothLocus_of_perfectField, wikipedia: Smooth scheme, wikidata: Q7546431}
+  - {name: generic flatness, kind: statement, wikipedia: Generic flatness, wikidata: Q5532671}
+  - {name: Zariski's main theorem, kind: statement, wikipedia: Zariski's main theorem, wikidata: Q8066795}
+  - {name: Stein factorization, kind: statement, wikipedia: Stein factorization, wikidata: Q7606788}
+  - {name: group scheme, kind: definition, wikipedia: Group scheme, wikidata: Q5611270}
+  - {name: algebraic space, kind: definition, wikipedia: Algebraic space, wikidata: Q4724016}
+  - {name: algebraic stack, kind: definition, wikipedia: Algebraic stack, wikidata: Q1687845}
+  # Sheaves and line bundles
+  - {name: sheaf of modules, kind: definition, decl: AlgebraicGeometry.Scheme.Modules, wikipedia: Sheaf of modules, wikidata: Q18695611}
+  - {name: quasi-coherent sheaf, kind: definition, decl: SheafOfModules.IsQuasicoherent, wikipedia: Coherent sheaf, wikidata: Q906907}
+  - {name: coherent sheaf, kind: definition, wikipedia: Coherent sheaf, wikidata: Q906907}
+  - {name: ideal sheaf, kind: definition, decl: AlgebraicGeometry.Scheme.IdealSheafData, wikipedia: Ideal sheaf, wikidata: Q5988009}
+  - {name: invertible sheaf, kind: definition, wikipedia: Invertible sheaf, wikidata: Q2905137}
+  - {name: vector bundle, kind: definition, wikipedia: Coherent sheaf, wikidata: Q906907}
+  - {name: Serre's twisting sheaf, kind: definition, wikipedia: Proj construction, wikidata: Q7248935}
+  - {name: tautological line bundle, kind: definition, wikipedia: Tautological bundle, wikidata: Q2397465}
+  - {name: Picard group, kind: definition, decl: CommRing.Pic, wikipedia: Picard group, wikidata: Q2042963}
+  - {name: Weil divisor, kind: definition, wikipedia: Divisor (algebraic geometry), wikidata: Q909669}
+  - {name: Cartier divisor, kind: definition, wikipedia: Divisor (algebraic geometry), wikidata: Q909669}
+  - {name: linear system of divisors, kind: definition, wikipedia: Linear system of divisors, wikidata: Q17098493}
+  - {name: ample line bundle, kind: definition, wikipedia: Ample line bundle, wikidata: Q4748472}
+  - {name: nef line bundle, kind: definition, wikipedia: Nef line bundle, wikidata: Q6987000}
+  - {name: Kodaira dimension, kind: definition, wikipedia: Kodaira dimension, wikidata: Q6425087}
+  - {name: sheaf of differentials, kind: definition, wikipedia: Cotangent sheaf, wikidata: Q19596510}
+  - {name: canonical bundle, kind: definition, wikipedia: Canonical bundle, wikidata: Q844128}
+  - {name: adjunction formula, kind: statement, wikipedia: Adjunction formula, wikidata: Q4683187}
+  - {name: Birkhoff–Grothendieck theorem, kind: statement, wikipedia: Birkhoff–Grothendieck theorem, wikidata: Q4916483}
+  # Cohomology
+  - {name: sheaf cohomology, kind: definition, decl: CategoryTheory.Sheaf.H, wikipedia: Sheaf cohomology, wikidata: Q1493952}
+  - {name: Čech cohomology, kind: definition, wikipedia: Čech cohomology, wikidata: Q1095535}
+  - {name: Serre's vanishing theorem on affine schemes, kind: statement, wikipedia: Coherent sheaf cohomology, wikidata: Q25303633}
+  - {name: Serre duality, kind: statement, wikipedia: Serre duality, wikidata: Q11095962}
+  - {name: Grothendieck duality, kind: statement, wikipedia: Coherent duality, wikidata: Q5141352}
+  - {name: Hirzebruch–Riemann–Roch theorem, kind: statement, wikipedia: Hirzebruch–Riemann–Roch theorem, wikidata: Q4663326}
+  - {name: Grothendieck–Riemann–Roch theorem, kind: statement, wikipedia: Grothendieck–Riemann–Roch theorem, wikidata: Q1899432}
+  - {name: Kodaira vanishing theorem, kind: statement, wikipedia: Kodaira vanishing theorem, wikidata: Q2518048}
+  - {name: Kawamata–Viehweg vanishing theorem, kind: statement, wikipedia: Kawamata–Viehweg vanishing theorem, wikidata: Q6379606}
+  - {name: base change theorems, kind: statement, wikipedia: Base change theorems, wikidata: Q4866385}
+  - {name: GAGA, kind: statement, wikipedia: Algebraic geometry and analytic geometry, wikidata: Q4724004}
+  - {name: Hodge theory, kind: concept, wikipedia: Hodge theory, wikidata: Q1317202}
+  - {name: Hodge decomposition, kind: statement, wikipedia: Hodge theory, wikidata: Q1317202}
+  - {name: Hodge structure, kind: definition, wikipedia: Hodge structure, wikidata: Q4444341}
+  - {name: Hodge conjecture, kind: conjecture, wikipedia: Hodge conjecture, wikidata: Q1143138}
+  - {name: Lefschetz hyperplane theorem, kind: statement, wikipedia: Lefschetz hyperplane theorem, wikidata: Q6516731}
+  - {name: hard Lefschetz theorem, kind: statement, wikipedia: Lefschetz hyperplane theorem, wikidata: Q6516731}
+  - {name: de Rham cohomology of varieties, kind: definition, wikipedia: Kähler differential, wikidata: Q1609490}
+  - {name: étale cohomology, kind: definition, wikipedia: Étale cohomology, wikidata: Q8078429}
+  - {name: l-adic cohomology, kind: definition, wikipedia: Étale cohomology, wikidata: Q8078429}
+  - {name: étale fundamental group, kind: definition, wikipedia: Étale fundamental group, wikidata: Q288764}
+  - {name: Weil conjectures, kind: statement, wikipedia: Weil conjectures, wikidata: Q1479613}
+  - {name: Grothendieck–Lefschetz trace formula, kind: statement, wikipedia: Grothendieck trace formula, wikidata: Q5610732}
+  - {name: crystalline cohomology, kind: definition, wikipedia: Crystalline cohomology, wikidata: Q5191431}
+  - {name: motive, kind: concept, wikipedia: Motive (algebraic geometry), wikidata: Q840594}
+  - {name: standard conjectures on algebraic cycles, kind: conjecture, wikipedia: Standard conjectures on algebraic cycles, wikidata: Q7598336}
+  - {name: derived category of coherent sheaves, kind: definition, wikipedia: Derived category, wikidata: Q5262626}
+  # Cycles and intersection theory
+  - {name: algebraic cycle, kind: definition, wikipedia: Algebraic cycle, wikidata: Q4723996}
+  - {name: rational equivalence, kind: definition, wikipedia: Chow group, wikidata: Q5105523}
+  - {name: Chow group, kind: definition, wikipedia: Chow group, wikidata: Q5105523}
+  - {name: intersection theory, kind: concept, wikipedia: Intersection theory, wikidata: Q15176852}
+  - {name: intersection multiplicity, kind: definition, wikipedia: Intersection number, wikidata: Q638846}
+  - {name: Bézout's theorem, kind: statement, wikipedia: Bézout's theorem, wikidata: Q1542114}
+  - {name: Chern class, kind: definition, wikipedia: Chern class, wikidata: Q1069818}
+  - {name: Todd class, kind: definition, wikipedia: Todd class, wikidata: Q2438393}
+  - {name: Néron–Severi group, kind: definition, wikipedia: Néron–Severi group, wikidata: Q7071450}
+  - {name: Hilbert scheme, kind: object, wikipedia: Hilbert scheme, wikidata: Q5761225}
+  - {name: algebraic K-theory of schemes, kind: concept, wikipedia: Algebraic K-theory, wikidata: Q2553675}
+  # Families and moduli
+  - {name: moduli space, kind: concept, wikipedia: Moduli space, wikidata: Q845677}
+  - {name: moduli of curves, kind: object, wikipedia: Moduli of algebraic curves, wikidata: Q6889798}
+  - {name: deformation theory, kind: concept, wikipedia: Deformation (mathematics), wikidata: Q5251702}
+  - {name: geometric invariant theory, kind: concept, wikipedia: Geometric invariant theory, wikidata: Q5535491}
+  - {name: stable vector bundle, kind: definition, wikipedia: Stable vector bundle, wikidata: Q2325488}
+  - {name: fibration, kind: concept, wikipedia: Fibration, wikidata: Q493941}
+  - {name: semistable reduction theorem, kind: statement, wikipedia: Stable curve, wikidata: Q3001219}
+  - {name: Torelli theorem, kind: statement, wikipedia: Torelli theorem, wikidata: Q7825663}
+  # Birational geometry
+  - {name: birational geometry, kind: concept, wikipedia: Birational geometry, wikidata: Q1879333}
+  - {name: rational variety, kind: definition, wikipedia: Rational variety, wikidata: Q3554829}
+  - {name: unirational variety, kind: definition, wikipedia: Rational variety, wikidata: Q3554829}
+  - {name: Lüroth problem, kind: problem, wikipedia: Lüroth's theorem, wikidata: Q3527115}
+  - {name: blowing up, kind: definition, wikipedia: Blowing up, wikidata: Q1036595}
+  - {name: resolution of singularities, kind: statement, wikipedia: Resolution of singularities, wikidata: Q10942247}
+  - {name: Castelnuovo's contraction theorem, kind: statement, wikipedia: Enriques–Kodaira classification, wikidata: Q2584390}
+  - {name: minimal model program, kind: concept, wikipedia: Minimal model program, wikidata: Q6865325}
+  - {name: cone theorem, kind: statement, wikipedia: Cone of curves, wikidata: Q5159467}
+  - {name: abundance conjecture, kind: conjecture, wikipedia: Abundance conjecture, wikidata: Q55642851}
+  - {name: Fano variety, kind: definition, wikipedia: Fano variety, wikidata: Q846881}
+  - {name: Calabi–Yau manifold, kind: definition, wikipedia: Calabi–Yau manifold, wikidata: Q549959}
+  # Local theory and singularities
+  - {name: singularity theory, kind: concept, wikipedia: Singularity theory, wikidata: Q4245771}
+  - {name: ADE singularity, kind: definition, wikipedia: Du Val singularity, wikidata: Q5310086}
+  - {name: rational singularity, kind: definition, wikipedia: Rational singularity, wikidata: Q7295783}
+  # Algebraic curves
+  - {name: algebraic curve, kind: definition, wikipedia: Algebraic curve, wikidata: Q266237}
+  - {name: plane curve, kind: definition, wikipedia: Plane curve, wikidata: Q1060874}
+  - {name: conic section, kind: example, wikipedia: Conic section, wikidata: Q124255}
+  - {name: genus of a curve, kind: definition, wikipedia: Geometric genus, wikidata: Q5535484}
+  - {name: arithmetic genus, kind: definition, wikipedia: Arithmetic genus, wikidata: Q4791125}
+  - {name: genus–degree formula, kind: statement, wikipedia: Genus–degree formula, wikidata: Q5533839}
+  - {name: Riemann–Roch theorem, kind: statement, wikipedia: Riemann–Roch theorem, wikidata: Q379048}
+  - {name: Riemann–Hurwitz formula, kind: statement, wikipedia: Riemann–Hurwitz formula, wikidata: Q494995}
+  - {name: hyperelliptic curve, kind: definition, wikipedia: Hyperelliptic curve, wikidata: Q850110}
+  - {name: elliptic curve, kind: definition, decl: WeierstrassCurve.IsElliptic, wikipedia: Elliptic curve, wikidata: Q268493}
+  - {name: Weierstrass equation, kind: definition, decl: WeierstrassCurve, wikipedia: Weierstrass elliptic function, wikidata: Q2343600}
+  - {name: group law on an elliptic curve, kind: statement, decl: WeierstrassCurve.Affine.Point.add, wikipedia: Elliptic curve, wikidata: Q268493}
+  - {name: j-invariant of an elliptic curve, kind: definition, decl: WeierstrassCurve.j, wikipedia: J-invariant, wikidata: Q287419}
+  - {name: Jacobian variety, kind: definition, wikipedia: Jacobian variety, wikidata: Q845729}
+  - {name: Abel–Jacobi theorem, kind: statement, wikipedia: Abel–Jacobi map, wikidata: Q4666729}
+  - {name: Clifford's theorem on special divisors, kind: statement, wikipedia: Clifford's theorem on special divisors, wikidata: Q5132840}
+  - {name: Brill–Noether theory, kind: concept, wikipedia: Brill–Noether theory, wikidata: Q3032324}
+  - {name: Cayley–Bacharach theorem, kind: statement, wikipedia: Cayley–Bacharach theorem, wikidata: Q4455043}
+  - {name: Hurwitz's automorphisms theorem, kind: statement, wikipedia: Hurwitz's automorphisms theorem, wikidata: Q2226695}
+  # Surfaces and higher-dimensional varieties
+  - {name: algebraic surface, kind: definition, wikipedia: Algebraic surface, wikidata: Q1434805}
+  - {name: Enriques–Kodaira classification, kind: statement, wikipedia: Enriques–Kodaira classification, wikidata: Q2584390}
+  - {name: Hodge index theorem, kind: statement, wikipedia: Hodge index theorem, wikidata: Q5876058}
+  - {name: ruled surface, kind: definition, wikipedia: Ruled surface, wikidata: Q840376}
+  - {name: rational surface, kind: definition, wikipedia: Rational surface, wikidata: Q208756}
+  - {name: del Pezzo surface, kind: definition, wikipedia: Del Pezzo surface, wikidata: Q2067112}
+  - {name: cubic surface, kind: example, wikipedia: Cubic surface, wikidata: Q3505260}
+  - {name: twenty-seven lines on a cubic surface, kind: statement, wikipedia: Cubic surface, wikidata: Q3505260}
+  - {name: K3 surface, kind: definition, wikipedia: K3 surface, wikidata: Q1969721}
+  - {name: Enriques surface, kind: definition, wikipedia: Enriques surface, wikidata: Q5379864}
+  - {name: elliptic surface, kind: definition, wikipedia: Elliptic surface, wikidata: Q8519884}
+  - {name: surface of general type, kind: definition, wikipedia: Surface of general type, wikidata: Q16766069}
+  - {name: Bogomolov–Miyaoka–Yau inequality, kind: statement, wikipedia: Bogomolov–Miyaoka–Yau inequality, wikidata: Q4937705}
+  - {name: Castelnuovo's rationality criterion, kind: statement, wikipedia: Rational surface, wikidata: Q208756}
+  # Abelian varieties
+  - {name: abelian variety, kind: definition, wikipedia: Abelian variety, wikidata: Q318751}
+  - {name: complex torus, kind: definition, wikipedia: Complex torus, wikidata: Q5156610}
+  - {name: dual abelian variety, kind: definition, wikipedia: Dual abelian variety, wikidata: Q5310181}
+  - {name: theorem of the cube, kind: statement, wikipedia: Theorem of the cube, wikidata: Q7782346}
+  - {name: Tate module, kind: definition, wikipedia: Tate module, wikidata: Q7687981}
+  - {name: abelian scheme, kind: definition, wikipedia: Abelian variety, wikidata: Q318751}
+  - {name: Néron model, kind: definition, wikipedia: Néron model, wikidata: Q7071448}
+  - {name: Schottky problem, kind: problem, wikipedia: Schottky problem, wikidata: Q7432779}
+  # Algebraic groups
+  - {name: algebraic group, kind: definition, wikipedia: Algebraic group, wikidata: Q1695400}
+  - {name: linear algebraic group, kind: definition, decl: Matrix.SpecialLinearGroup, wikipedia: Linear algebraic group, wikidata: Q6553407, mathlib: [mathlib-undergrad]}
+  - {name: algebraic torus, kind: definition, wikipedia: Algebraic torus, wikidata: Q4724022}
+  - {name: reductive group, kind: definition, wikipedia: Reductive group, wikidata: Q1006450}
+  - {name: Borel subgroup, kind: definition, wikipedia: Borel subgroup, wikidata: Q4944913}
+  - {name: Borel fixed-point theorem, kind: statement, wikipedia: Borel fixed-point theorem, wikidata: Q4944908}
+  - {name: Chevalley's structure theorem, kind: statement, wikipedia: Chevalley's structure theorem, wikidata: Q5094298}
+  - {name: group action on a variety, kind: concept, wikipedia: Group action, wikidata: Q288465}
+  - {name: homogeneous space, kind: definition, wikipedia: Homogeneous space, wikidata: Q1324364}
+  - {name: flag variety, kind: definition, wikipedia: Generalized flag variety, wikidata: Q938283}
+  - {name: torsor, kind: definition, wikipedia: Principal homogeneous space, wikidata: Q3755543}
+  # Special varieties
+  - {name: toric variety, kind: definition, wikipedia: Toric variety, wikidata: Q1528306}
+  - {name: Schubert variety, kind: definition, wikipedia: Schubert variety, wikidata: Q7432938}
+  - {name: determinantal variety, kind: definition, wikipedia: Determinantal variety, wikidata: Q5265691}
+  # Projective and enumerative geometry
+  - {name: enumerative geometry, kind: concept, wikipedia: Enumerative geometry, wikidata: Q2429676}
+  - {name: Schubert calculus, kind: concept, wikipedia: Schubert calculus, wikidata: Q7432936}
+  - {name: Hilbert's fifteenth problem, kind: problem, wikipedia: Hilbert's fifteenth problem, wikidata: Q5761149}
+  - {name: Gromov–Witten invariant, kind: definition, wikipedia: Gromov–Witten invariant, wikidata: Q1547297}
+  - {name: mirror symmetry, kind: concept, wikipedia: Mirror symmetry (string theory), wikidata: Q5914418}
+  - {name: Hilbert polynomial of a projective variety, kind: definition, wikipedia: Hilbert series and Hilbert polynomial, wikidata: Q5761236}
+  - {name: degree of a projective variety, kind: definition, wikipedia: Degree of an algebraic variety, wikidata: Q5251838}
+  # Arithmetic and Diophantine geometry
+  - {name: arithmetic geometry, kind: concept, wikipedia: Arithmetic geometry, wikidata: Q2179749}
+  - {name: rational point, kind: definition, wikipedia: Rational point, wikidata: Q3393476}
+  - {name: Mordell–Weil theorem, kind: statement, wikipedia: Mordell–Weil theorem, wikidata: Q284960}
+  - {name: Faltings's theorem, kind: statement, wikipedia: Faltings' theorem, wikidata: Q240950}
+  - {name: height on projective space, kind: definition, wikipedia: Height function, wikidata: Q65088643}
+  - {name: Lang's conjectures, kind: conjecture, wikipedia: Bombieri–Lang conjecture, wikidata: Q65088644}
+  - {name: Vojta's conjecture, kind: conjecture, wikipedia: Vojta's conjecture, wikidata: Q7939859}
+  - {name: Manin conjecture, kind: conjecture, wikipedia: Manin conjecture, wikidata: Q17080204}
+  - {name: Brauer–Manin obstruction, kind: concept, wikipedia: Manin obstruction, wikidata: Q6749775}
+  - {name: Arakelov theory, kind: concept, wikipedia: Arakelov theory, wikidata: Q4783822}
+  - {name: Shimura variety, kind: definition, wikipedia: Shimura variety, wikidata: Q7497063}
+  - {name: modular curve, kind: definition, wikipedia: Modular curve, wikidata: Q3001220}
+  - {name: perfectoid space, kind: definition, wikipedia: Perfectoid space, wikidata: Q17075276}
+  - {name: rigid analytic space, kind: definition, wikipedia: Rigid analytic space, wikidata: Q7333799}
+  # Real algebraic geometry
+  - {name: real algebraic geometry, kind: concept, wikipedia: Real algebraic geometry, wikidata: Q7301119}
+  - {name: semialgebraic set, kind: definition, wikipedia: Semialgebraic set, wikidata: Q7449354}
+  - {name: Positivstellensatz, kind: statement, wikipedia: Positive polynomial, wikidata: Q7233283}
+  - {name: Hilbert's sixteenth problem, kind: problem, wikipedia: Hilbert's sixteenth problem, wikidata: Q2509489}
+  # Affine and computational geometry
+  - {name: Jacobian conjecture, kind: conjecture, wikipedia: Jacobian conjecture, wikidata: Q2605695}
+  - {name: resultant, kind: definition, decl: Polynomial.resultant, wikipedia: Resultant, wikidata: Q1168321}
+  # Tropical geometry
+  - {name: tropical semiring, kind: definition, decl: Tropical, wikipedia: Tropical semiring, wikidata: Q60790098}
+  - {name: tropical geometry, kind: concept, wikipedia: Tropical geometry, wikidata: Q2982669}
+  - {name: tropical variety, kind: definition, wikipedia: Tropical geometry, wikidata: Q2982669}
+  - {name: Newton polytope, kind: definition, wikipedia: Newton polytope, wikidata: Q99705926}
+  - {name: amoeba, kind: definition, wikipedia: Amoeba (mathematics), wikidata: Q2328765}
+  - {name: Bernstein–Kushnirenko theorem, kind: statement, wikipedia: Bernstein–Kushnirenko theorem, wikidata: Q19596039}

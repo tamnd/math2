@@ -1,0 +1,249 @@
+# The C2 skeleton of 35-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 35-XX
+title: partial differential equations
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+  mathlib-undergrad: {title: "Mathlib, the list of undergraduate topics", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/undergrad.yaml'}
+  mathlib-overview: {title: "Mathlib, the overview of the library", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/overview.yaml'}
+  mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
+items:
+  # Basic notions and classification
+  - {name: partial differential equation, kind: definition, wikipedia: Partial differential equation, wikidata: Q271977}
+  - {name: order of a PDE, kind: definition, wikipedia: Partial differential equation, wikidata: Q271977}
+  - {name: linear PDE, kind: definition, wikipedia: Partial differential equation, wikidata: Q271977}
+  - {name: semilinear PDE, kind: definition, wikipedia: Nonlinear partial differential equation, wikidata: Q28088256}
+  - {name: quasilinear PDE, kind: definition, wikipedia: Nonlinear partial differential equation, wikidata: Q28088256}
+  - {name: fully nonlinear PDE, kind: definition, wikipedia: Nonlinear partial differential equation, wikidata: Q28088256}
+  - {name: principal symbol, kind: definition, wikipedia: Differential operator, wikidata: Q1058681}
+  - {name: characteristic variety, kind: definition, wikipedia: Characteristic variety, wikidata: Q16858979}
+  - {name: classification of second-order PDEs, kind: concept, wikipedia: Partial differential equation, wikidata: Q271977}
+  - {name: elliptic partial differential equation, kind: definition, wikipedia: Elliptic partial differential equation, wikidata: Q3607962}
+  - {name: parabolic partial differential equation, kind: definition, wikipedia: Parabolic partial differential equation, wikidata: Q1575416}
+  - {name: hyperbolic partial differential equation, kind: definition, wikipedia: Hyperbolic partial differential equation, wikidata: Q2627459}
+  - {name: mixed-type equation, kind: definition, wikipedia: Euler–Tricomi equation, wikidata: Q5409013}
+  - {name: well-posed problem, kind: definition, wikipedia: Well-posed problem, wikidata: Q1455898}
+  - {name: Cauchy problem, kind: definition, wikipedia: Cauchy problem, wikidata: Q1412436}
+  - {name: boundary value problem, kind: definition, wikipedia: Boundary value problem, wikidata: Q1332643}
+  - {name: Dirichlet problem, kind: problem, wikipedia: Dirichlet problem, wikidata: Q1192869}
+  - {name: Neumann problem, kind: problem, wikipedia: Neumann boundary condition, wikidata: Q1149279}
+  - {name: Robin boundary condition, kind: definition, wikipedia: Robin boundary condition, wikidata: Q748993}
+  - {name: free boundary problem, kind: problem, wikipedia: Free boundary problem, wikidata: Q5500196}
+  - {name: Stefan problem, kind: problem, wikipedia: Stefan problem, wikidata: Q3775789}
+  - {name: obstacle problem, kind: problem, wikipedia: Obstacle problem, wikidata: Q3406250}
+  - {name: overdetermined system, kind: concept, wikipedia: Overdetermined system, wikidata: Q331348}
+  # Existence theory
+  - {name: Cauchy–Kovalevskaya theorem, kind: statement, wikipedia: Cauchy–Kovalevskaya theorem, wikidata: Q1614464}
+  - {name: Holmgren's uniqueness theorem, kind: statement, wikipedia: Holmgren's uniqueness theorem, wikidata: Q5883744}
+  - {name: Lewy's example, kind: counterexample, wikipedia: Lewy's example, wikidata: Q814880}
+  - {name: Malgrange–Ehrenpreis theorem, kind: statement, wikipedia: Malgrange–Ehrenpreis theorem, wikidata: Q2226750}
+  - {name: fundamental solution, kind: definition, wikipedia: Fundamental solution, wikidata: Q1474123}
+  - {name: Green's function, kind: definition, wikipedia: Green's function, wikidata: Q378435}
+  - {name: Hadamard's example of ill-posedness, kind: counterexample, wikipedia: Well-posed problem, wikidata: Q1455898}
+  - {name: local solvability, kind: concept, wikipedia: Lewy's example, wikidata: Q814880}
+  # Generalized solutions and function spaces
+  - {name: distribution, kind: definition, decl: Distribution, wikipedia: Distribution (mathematical analysis), wikidata: Q865811, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: Dirac delta function, kind: object, decl: Distribution.delta, wikipedia: Dirac delta function, wikidata: Q209675}
+  - {name: test function, kind: definition, decl: ContDiffBump, wikipedia: Bump function, wikidata: Q1143737}
+  - {name: Schwartz space, kind: definition, decl: SchwartzMap, wikipedia: Schwartz space, wikidata: Q1369621, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: tempered distribution, kind: definition, decl: TemperedDistribution, wikipedia: Distribution (mathematical analysis), wikidata: Q865811, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: weak derivative, kind: definition, wikipedia: Weak derivative, wikidata: Q2143116}
+  - {name: weak solution, kind: definition, wikipedia: Weak solution, wikidata: Q7977966}
+  - {name: Sobolev space, kind: definition, decl: TemperedDistribution.MemSobolev, wikipedia: Sobolev space, wikidata: Q1501536}
+  - {name: Sobolev inequality, kind: statement, decl: MeasureTheory.eLpNorm_le_eLpNorm_fderiv, wikipedia: Sobolev inequality, wikidata: Q3711848}
+  - {name: Gagliardo–Nirenberg interpolation inequality, kind: statement, wikipedia: Gagliardo–Nirenberg interpolation inequality, wikidata: Q5516877}
+  - {name: Morrey's inequality, kind: statement, wikipedia: Sobolev inequality, wikidata: Q3711848}
+  - {name: Rellich–Kondrachov theorem, kind: statement, wikipedia: Rellich–Kondrachov theorem, wikidata: Q3527151}
+  - {name: Poincaré inequality, kind: statement, wikipedia: Poincaré inequality, wikidata: Q1751496}
+  - {name: trace operator, kind: definition, wikipedia: Trace operator, wikidata: Q13581708}
+  - {name: Hölder space, kind: definition, wikipedia: Hölder condition, wikidata: Q91259930}
+  - {name: Besov space, kind: definition, wikipedia: Besov space, wikidata: Q526261}
+  - {name: Triebel–Lizorkin space, kind: definition, wikipedia: Triebel–Lizorkin space, wikidata: Q7841428}
+  - {name: fractional Sobolev space, kind: definition, wikipedia: Sobolev space, wikidata: Q1501536}
+  - {name: Bessel potential, kind: definition, decl: BesselPotentialSpace, wikipedia: Bessel potential, wikidata: Q4896404}
+  - {name: Hardy inequality in Sobolev spaces, kind: statement, wikipedia: Hardy's inequality, wikidata: Q944228}
+  - {name: Lax–Milgram theorem, kind: statement, decl: IsCoercive.continuousLinearEquivOfBilin, wikipedia: Babuška–Lax–Milgram theorem, wikidata: Q4838119, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000]}
+  - {name: Galerkin method, kind: concept, wikipedia: Galerkin method, wikidata: Q1491980}
+  - {name: viscosity solution, kind: definition, wikipedia: Viscosity solution, wikidata: Q7935676}
+  - {name: entropy solution, kind: definition, wikipedia: Conservation law, wikidata: Q205805}
+  - {name: mild solution, kind: definition, wikipedia: C0-semigroup, wikidata: Q846542}
+  # Elliptic equations
+  - {name: Laplace's equation, kind: definition, decl: Laplacian, wikipedia: Laplace's equation, wikidata: Q339444}
+  - {name: Laplace operator, kind: definition, decl: Laplacian, wikipedia: Laplace operator, wikidata: Q203484}
+  - {name: harmonic function, kind: definition, decl: InnerProductSpace.HarmonicOnNhd, wikipedia: Harmonic function, wikidata: Q599027}
+  - {name: mean value property, kind: statement, decl: InnerProductSpace.HarmonicOnNhd.circleAverage_eq, wikipedia: Harmonic function, wikidata: Q599027}
+  - {name: Poisson's equation, kind: definition, wikipedia: Poisson's equation, wikidata: Q827688}
+  - {name: Poisson kernel, kind: definition, decl: poissonKernel, wikipedia: Poisson kernel, wikidata: Q2596534}
+  - {name: Newtonian potential, kind: definition, wikipedia: Newtonian potential, wikidata: Q4328383}
+  - {name: maximum principle, kind: statement, wikipedia: Maximum principle, wikidata: Q1914255}
+  - {name: Hopf lemma, kind: statement, wikipedia: Hopf lemma, wikidata: Q17027555}
+  - {name: Harnack's inequality, kind: statement, wikipedia: Harnack's inequality, wikidata: Q868279}
+  - {name: Liouville's theorem for harmonic functions, kind: statement, wikipedia: Harmonic function, wikidata: Q599027}
+  - {name: Weyl's lemma, kind: statement, wikipedia: Weyl's lemma (Laplace equation), wikidata: Q7990327}
+  - {name: Dirichlet's principle, kind: statement, wikipedia: Dirichlet's principle, wikidata: Q975727}
+  - {name: Perron method, kind: concept, wikipedia: Perron method, wikidata: Q7169664}
+  - {name: Kelvin transform, kind: definition, wikipedia: Kelvin transform, wikidata: Q4377358}
+  - {name: Schauder estimates, kind: statement, wikipedia: Schauder estimates, wikidata: Q7430990}
+  - {name: elliptic regularity, kind: statement, wikipedia: Elliptic operator, wikidata: Q427625}
+  - {name: Calderón–Zygmund estimates, kind: statement, wikipedia: Singular integral, wikidata: Q888122}
+  - {name: De Giorgi–Nash–Moser theorem, kind: statement, wikipedia: Hilbert's nineteenth problem, wikidata: Q5761157}
+  - {name: Krylov–Safonov estimate, kind: statement, wikipedia: Harnack's inequality, wikidata: Q868279}
+  - {name: Fredholm alternative, kind: statement, wikipedia: Fredholm alternative, wikidata: Q657820}
+  - {name: Helmholtz equation, kind: definition, wikipedia: Helmholtz equation, wikidata: Q860615}
+  - {name: biharmonic equation, kind: definition, wikipedia: Biharmonic equation, wikidata: Q859808}
+  - {name: p-Laplacian, kind: definition, wikipedia: P-Laplacian, wikidata: Q7116898}
+  - {name: Monge–Ampère equation, kind: definition, wikipedia: Monge–Ampère equation, wikidata: Q1552291}
+  - {name: minimal surface equation, kind: definition, wikipedia: Minimal surface, wikidata: Q1545397}
+  - {name: Bernstein's problem, kind: problem, wikipedia: Bernstein's problem, wikidata: Q4894564}
+  - {name: Plateau's problem, kind: problem, wikipedia: Plateau's problem, wikidata: Q1972021}
+  - {name: Yamabe problem, kind: problem, wikipedia: Yamabe problem, wikidata: Q3406245}
+  - {name: Liouville's equation, kind: definition, wikipedia: Liouville's equation, wikidata: Q2184037}
+  - {name: Lane–Emden equation, kind: definition, wikipedia: Lane–Emden equation, wikidata: Q1804812}
+  - {name: mountain pass theorem, kind: statement, wikipedia: Mountain pass theorem, wikidata: Q6925496}
+  - {name: Lopatinskii–Shapiro condition, kind: definition, wikipedia: Elliptic boundary value problem, wikidata: Q5365788}
+  - {name: elliptic boundary value problem, kind: definition, wikipedia: Elliptic boundary value problem, wikidata: Q5365788}
+  - {name: hypoelliptic operator, kind: definition, wikipedia: Hypoelliptic operator, wikidata: Q4138816}
+  - {name: Hörmander's condition, kind: definition, wikipedia: Hörmander's condition, wikidata: Q5964696}
+  - {name: Cauchy–Riemann operator, kind: definition, wikipedia: Cauchy–Riemann equations, wikidata: Q622741}
+  # Parabolic equations
+  - {name: heat equation, kind: definition, wikipedia: Heat equation, wikidata: Q6510488}
+  - {name: heat kernel, kind: definition, wikipedia: Heat kernel, wikidata: Q3345669}
+  - {name: parabolic maximum principle, kind: statement, wikipedia: Maximum principle, wikidata: Q1914255}
+  - {name: Tychonoff's non-uniqueness example, kind: counterexample, wikipedia: Heat equation, wikidata: Q6510488}
+  - {name: Widder's theorem, kind: statement, wikipedia: Heat equation, wikidata: Q6510488}
+  - {name: reaction–diffusion system, kind: definition, wikipedia: Reaction–diffusion system, wikidata: Q901210}
+  - {name: Fisher's equation, kind: definition, wikipedia: KPP–Fisher equation, wikidata: Q1763840}
+  - {name: Allen–Cahn equation, kind: definition, wikipedia: Allen–Cahn equation, wikidata: Q4732089}
+  - {name: Cahn–Hilliard equation, kind: definition, wikipedia: Cahn–Hilliard equation, wikidata: Q5017440}
+  - {name: porous medium equation, kind: definition, wikipedia: Porous medium equation, wikidata: Q116986877}
+  - {name: Fokker–Planck equation, kind: definition, wikipedia: Fokker–Planck equation, wikidata: Q891766}
+  - {name: Black–Scholes equation, kind: definition, wikipedia: Black–Scholes equation, wikidata: Q17005676}
+  - {name: Feynman–Kac formula, kind: statement, wikipedia: Feynman–Kac formula, wikidata: Q1317359}
+  - {name: Ricci flow, kind: definition, wikipedia: Ricci flow, wikidata: Q1361396}
+  - {name: mean curvature flow, kind: definition, wikipedia: Mean curvature flow, wikidata: Q6803617}
+  - {name: Kardar–Parisi–Zhang equation, kind: definition, wikipedia: Kardar–Parisi–Zhang equation, wikidata: Q6369122}
+  - {name: Keller–Segel model, kind: definition, wikipedia: Chemotaxis, wikidata: Q658145}
+  - {name: Turing pattern, kind: concept, wikipedia: Turing pattern, wikidata: Q56273850}
+  - {name: Harnack inequality for parabolic equations, kind: statement, wikipedia: Harnack's inequality, wikidata: Q868279}
+  # Hyperbolic equations
+  - {name: wave equation, kind: definition, wikipedia: Wave equation, wikidata: Q193846}
+  - {name: d'Alembert's formula, kind: statement, wikipedia: D'Alembert's formula, wikidata: Q2388753}
+  - {name: Huygens principle, kind: statement, wikipedia: Huygens–Fresnel principle, wikidata: Q188321}
+  - {name: method of descent, kind: concept, wikipedia: Hadamard's method of descent, wikidata: Q17020301}
+  - {name: finite speed of propagation, kind: statement, wikipedia: Wave equation, wikidata: Q193846}
+  - {name: energy method, kind: concept, wikipedia: Well-posed problem, wikidata: Q1455898}
+  - {name: Klein–Gordon equation, kind: definition, wikipedia: Klein–Gordon equation, wikidata: Q868967}
+  - {name: telegrapher's equations, kind: definition, wikipedia: Telegrapher's equations, wikidata: Q1156880}
+  - {name: strict hyperbolicity, kind: definition, wikipedia: Hyperbolic partial differential equation, wikidata: Q2627459}
+  - {name: Strichartz estimate, kind: statement, wikipedia: Strichartz estimate, wikidata: Q18393075}
+  - {name: dispersive partial differential equation, kind: definition, wikipedia: Dispersive partial differential equation, wikidata: Q5282591}
+  - {name: geometric optics, kind: concept, wikipedia: Geometrical optics, wikidata: Q467980}
+  - {name: propagation of singularities, kind: statement, wikipedia: Wave front set, wikidata: Q7975304}
+  - {name: wave front set, kind: definition, wikipedia: Wave front set, wikidata: Q7975304}
+  - {name: Christodoulou–Klainerman stability of Minkowski space, kind: statement, wikipedia: Minkowski spacetime, wikidata: Q464794}
+  # First-order equations and conservation laws
+  - {name: method of characteristics, kind: concept, wikipedia: Method of characteristics, wikidata: Q1785085}
+  - {name: transport equation, kind: definition, wikipedia: Advection, wikidata: Q379788}
+  - {name: Hamilton–Jacobi equation, kind: definition, wikipedia: Hamilton–Jacobi equation, wikidata: Q1060137}
+  - {name: eikonal equation, kind: definition, wikipedia: Eikonal equation, wikidata: Q1303846}
+  - {name: Hopf–Lax formula, kind: statement, wikipedia: Hamilton–Jacobi equation, wikidata: Q1060137}
+  - {name: complete integral, kind: definition, wikipedia: First-order partial differential equation, wikidata: Q4381442}
+  - {name: conservation law, kind: definition, wikipedia: Conservation law, wikidata: Q205805}
+  - {name: hyperbolic conservation law, kind: definition, wikipedia: Hyperbolic partial differential equation, wikidata: Q2627459}
+  - {name: Burgers' equation, kind: definition, wikipedia: Burgers' equation, wikidata: Q1014918}
+  - {name: shock wave, kind: concept, wikipedia: Shock wave, wikidata: Q190688}
+  - {name: Rankine–Hugoniot conditions, kind: statement, wikipedia: Rankine–Hugoniot conditions, wikidata: Q1192131}
+  - {name: Riemann problem, kind: problem, wikipedia: Riemann problem, wikidata: Q2152221}
+  - {name: rarefaction wave, kind: concept, wikipedia: Rarefaction, wikidata: Q7294544}
+  - {name: Glimm scheme, kind: concept, wikipedia: Riemann problem, wikidata: Q2152221}
+  - {name: Cole–Hopf transformation, kind: concept, wikipedia: Cole–Hopf transformation, wikidata: Q116980355}
+  - {name: Lax–Friedrichs method, kind: concept, wikipedia: Lax–Friedrichs method, wikidata: Q6505312}
+  - {name: Godunov's scheme, kind: concept, wikipedia: Godunov's scheme, wikidata: Q4291826}
+  - {name: Courant–Friedrichs–Lewy condition, kind: statement, wikipedia: Courant–Friedrichs–Lewy condition, wikidata: Q1023483}
+  # Solution representations and transform methods
+  - {name: separation of variables, kind: concept, wikipedia: Separation of variables, wikidata: Q913323}
+  - {name: Fourier series method, kind: concept, decl: fourierBasis, wikipedia: Fourier series, wikidata: Q179467, mathlib: [mathlib-undergrad]}
+  - {name: Fourier transform, kind: definition, decl: VectorFourier.fourierIntegral, wikipedia: Fourier transform, wikidata: Q6520159}
+  - {name: Laplace transform, kind: definition, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: Duhamel's principle, kind: statement, wikipedia: Duhamel's principle, wikidata: Q4378863}
+  - {name: method of images, kind: concept, wikipedia: Method of images, wikidata: Q2563425}
+  - {name: spherical harmonics, kind: object, wikipedia: Spherical harmonics, wikidata: Q877100}
+  - {name: similarity solution, kind: concept, wikipedia: Self-similar solution, wikidata: Q4056366}
+  - {name: traveling wave, kind: concept, wikipedia: Wave, wikidata: Q37172}
+  - {name: Lie group method for PDEs, kind: concept, wikipedia: Lie point symmetry, wikidata: Q6543828}
+  - {name: Bäcklund transform, kind: concept, wikipedia: Bäcklund transform, wikidata: Q3537515}
+  - {name: inverse scattering transform, kind: concept, wikipedia: Inverse scattering transform, wikidata: Q17098188}
+  - {name: Lax pair, kind: definition, wikipedia: Lax pair, wikidata: Q4115796}
+  - {name: soliton, kind: concept, wikipedia: Soliton, wikidata: Q464949}
+  # Spectral theory and eigenvalue problems
+  - {name: Dirichlet eigenvalue, kind: definition, wikipedia: Dirichlet eigenvalue, wikidata: Q5280763}
+  - {name: Rayleigh quotient, kind: definition, decl: ContinuousLinearMap.rayleighQuotient, wikipedia: Rayleigh quotient, wikidata: Q1665115}
+  - {name: min-max theorem, kind: statement, wikipedia: Min-max theorem, wikidata: Q4454958}
+  - {name: Weyl's law, kind: statement, wikipedia: Weyl law, wikidata: Q7990330}
+  - {name: Faber–Krahn inequality, kind: statement, wikipedia: Rayleigh–Faber–Krahn inequality, wikidata: Q7298491}
+  - {name: hearing the shape of a drum, kind: problem, wikipedia: Hearing the shape of a drum, wikidata: Q5691670}
+  - {name: Schiffer's conjecture, kind: conjecture, wikipedia: Pompeiu problem, wikidata: Q3406234}
+  - {name: Pompeiu problem, kind: problem, wikipedia: Pompeiu problem, wikidata: Q3406234}
+  - {name: Schrödinger operator, kind: definition, wikipedia: Schrödinger equation, wikidata: Q165498}
+  - {name: Steklov eigenvalue problem, kind: problem, wikipedia: Poincaré–Steklov operator, wikidata: Q17099589}
+  - {name: Cheeger constant, kind: definition, wikipedia: Cheeger constant, wikidata: Q5089259}
+  # Qualitative behavior and nonlinear analysis
+  - {name: a priori estimate, kind: concept, wikipedia: A priori estimate, wikidata: Q4660961}
+  - {name: regularity theory, kind: concept, wikipedia: Elliptic operator, wikidata: Q427625}
+  - {name: comparison principle, kind: statement, wikipedia: Comparison theorem, wikidata: Q5156040}
+  - {name: symmetric decreasing rearrangement, kind: concept, wikipedia: Symmetric decreasing rearrangement, wikidata: Q2502733}
+  - {name: global attractor, kind: concept, wikipedia: Attractor, wikidata: Q507187}
+  - {name: homogenization, kind: concept, wikipedia: Asymptotic homogenization, wikidata: Q4812185}
+  - {name: calculus of variations, kind: concept, wikipedia: Calculus of variations, wikidata: Q216861}
+  - {name: Euler–Lagrange equation, kind: definition, wikipedia: Euler–Lagrange equation, wikidata: Q875744}
+  - {name: direct method in the calculus of variations, kind: concept, wikipedia: Direct method in the calculus of variations, wikidata: Q5280366}
+  - {name: Hilbert's nineteenth problem, kind: problem, wikipedia: Hilbert's nineteenth problem, wikidata: Q5761157}
+  - {name: Hilbert's twentieth problem, kind: problem, wikipedia: Hilbert's twentieth problem, wikidata: Q5761174}
+  - {name: Leray–Schauder degree, kind: definition, wikipedia: Leray–Schauder degree, wikidata: Q111912958}
+  - {name: Nash–Moser theorem, kind: statement, wikipedia: Nash–Moser theorem, wikidata: Q6967039}
+  - {name: Aubin–Lions lemma, kind: statement, wikipedia: Aubin–Lions lemma, wikidata: Q4819058}
+  # Equations of mathematical physics
+  - {name: Schrödinger equation, kind: definition, wikipedia: Schrödinger equation, wikidata: Q165498}
+  - {name: nonlinear Schrödinger equation, kind: definition, wikipedia: Nonlinear Schrödinger equation, wikidata: Q2579914}
+  - {name: Korteweg–De Vries equation, kind: definition, wikipedia: Korteweg–De Vries equation, wikidata: Q601796}
+  - {name: sine-Gordon equation, kind: definition, wikipedia: Sine-Gordon equation, wikidata: Q2558473}
+  - {name: Kadomtsev–Petviashvili equation, kind: definition, wikipedia: Kadomtsev–Petviashvili equation, wikidata: Q6345653}
+  - {name: Navier–Stokes equations, kind: definition, wikipedia: Navier–Stokes equations, wikidata: Q201321}
+  - {name: Navier–Stokes existence and smoothness, kind: conjecture, wikipedia: Navier–Stokes existence and smoothness, wikidata: Q1098081}
+  - {name: Leray weak solution, kind: statement, wikipedia: Navier–Stokes existence and smoothness, wikidata: Q1098081}
+  - {name: Euler equations, kind: definition, wikipedia: Euler equations (fluid dynamics), wikidata: Q375175}
+  - {name: Stokes flow, kind: definition, wikipedia: Stokes flow, wikidata: Q674202}
+  - {name: Boltzmann equation, kind: definition, wikipedia: Boltzmann equation, wikidata: Q891653}
+  - {name: Vlasov equation, kind: definition, wikipedia: Vlasov equation, wikidata: Q2323892}
+  - {name: Maxwell's equations, kind: definition, wikipedia: Maxwell's equations, wikidata: Q51501}
+  - {name: Dirac equation, kind: definition, wikipedia: Dirac equation, wikidata: Q272621}
+  - {name: Yang–Mills equations, kind: definition, wikipedia: Yang–Mills equations, wikidata: Q85816613}
+  - {name: Einstein field equations, kind: definition, wikipedia: Einstein field equations, wikidata: Q273711}
+  - {name: Ginzburg–Landau equation, kind: definition, wikipedia: Ginzburg–Landau theory, wikidata: Q900905}
+  - {name: Gross–Pitaevskii equation, kind: definition, wikipedia: Gross–Pitaevskii equation, wikidata: Q910667}
+  - {name: Hamilton–Jacobi–Bellman equation, kind: definition, wikipedia: Hamilton–Jacobi–Bellman equation, wikidata: Q3302775}
+  - {name: mean-field game, kind: concept, wikipedia: Mean-field game theory, wikidata: Q15883550}
+  - {name: Lamé equations of elasticity, kind: definition, wikipedia: Linear elasticity, wikidata: Q3851760}
+  - {name: shallow water equations, kind: definition, wikipedia: Shallow water equations, wikidata: Q4008384}
+  - {name: Darcy's law, kind: statement, wikipedia: Darcy's law, wikidata: Q392416}
+  - {name: Tricomi equation, kind: definition, wikipedia: Euler–Tricomi equation, wikidata: Q5409013}
+  # Pseudodifferential and microlocal methods
+  - {name: pseudo-differential operator, kind: definition, wikipedia: Pseudo-differential operator, wikidata: Q1644451}
+  - {name: symbol class, kind: definition, wikipedia: Differential operator, wikidata: Q1058681}
+  - {name: Fourier integral operator, kind: definition, wikipedia: Fourier integral operator, wikidata: Q4262191}
+  - {name: microlocal analysis, kind: concept, wikipedia: Microlocal analysis, wikidata: Q430450}
+  - {name: Atiyah–Singer index theorem, kind: statement, wikipedia: Atiyah–Singer index theorem, wikidata: Q755991}
+  - {name: Calderón projector, kind: definition, wikipedia: Calderón projector, wikidata: Q25304637}
+  - {name: Dirichlet-to-Neumann operator, kind: definition, wikipedia: Poincaré–Steklov operator, wikidata: Q17099589}
+  - {name: Calderón problem, kind: problem, wikipedia: Electrical impedance tomography, wikidata: Q1326472}
+  - {name: fractional Laplacian, kind: definition, wikipedia: Fractional Laplacian, wikidata: Q30694381}
+  - {name: Riesz potential, kind: definition, wikipedia: Riesz potential, wikidata: Q7333166}
+  # Further topics
+  - {name: stochastic partial differential equation, kind: definition, wikipedia: Stochastic partial differential equation, wikidata: Q16979017}
+  - {name: regularity structures, kind: concept, wikipedia: Regularity structure, wikidata: Q28401890}
+  - {name: inverse problem, kind: concept, wikipedia: Inverse problem, wikidata: Q1567213}
+  - {name: finite element method, kind: concept, wikipedia: Finite element method, wikidata: Q220184}
+  - {name: finite difference method, kind: concept, wikipedia: Finite difference method, wikidata: Q1147751}
+  - {name: Lax equivalence theorem, kind: statement, wikipedia: Lax equivalence theorem, wikidata: Q256303}
+  - {name: optimal transport and the Monge problem, kind: problem, wikipedia: Transportation theory (mathematics), wikidata: Q1929885}

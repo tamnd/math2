@@ -1,0 +1,253 @@
+# The C2 skeleton of 06-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 06-XX
+title: orders, lattices and ordered structures
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+  mathlib-overview: {title: "Mathlib, the overview of the library", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/overview.yaml'}
+  mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
+items:
+  # Binary relations and basic order notions
+  - {name: order theory, kind: concept, wikipedia: Order theory, wikidata: Q24175351}
+  - {name: binary relation, kind: definition, wikipedia: Binary relation, wikidata: Q130901}
+  - {name: preorder, kind: definition, decl: Preorder, wikipedia: Preorder, wikidata: Q1425985}
+  - {name: partially ordered set, kind: definition, decl: PartialOrder, wikipedia: Partially ordered set, wikidata: Q474715}
+  - {name: strict partial order, kind: definition, decl: IsStrictOrder, wikipedia: Partially ordered set, wikidata: Q474715}
+  - {name: total order, kind: definition, decl: LinearOrder, wikipedia: Total order, wikidata: Q369377}
+  - {name: strict total order, kind: definition, decl: IsStrictTotalOrder, wikipedia: Total order, wikidata: Q369377}
+  - {name: weak ordering, kind: definition, wikipedia: Weak ordering, wikidata: Q1414271}
+  - {name: Hasse diagram, kind: definition, wikipedia: Hasse diagram, wikidata: Q901446}
+  - {name: covering relation, kind: definition, decl: CovBy, wikipedia: Covering relation, wikidata: Q5179263}
+  - {name: duality in order theory, kind: concept, decl: OrderDual, wikipedia: Duality (order theory), wikidata: Q554403}
+  - {name: upper and lower bounds, kind: definition, decl: upperBounds, wikipedia: Upper and lower bounds, wikidata: Q13222579}
+  - {name: greatest and least elements, kind: definition, decl: IsGreatest, wikipedia: Greatest element and least element, wikidata: Q1196892}
+  - {name: maximal and minimal elements, kind: definition, decl: IsMax, wikipedia: Maximal and minimal elements, wikidata: Q1475294}
+  - {name: supremum, kind: definition, decl: IsLUB, wikipedia: Infimum and supremum, wikidata: Q17502105}
+  - {name: infimum, kind: definition, decl: IsGLB, wikipedia: Infimum and supremum, wikidata: Q17502105}
+  - {name: bounded poset, kind: definition, decl: BoundedOrder, wikipedia: Greatest element and least element, wikidata: Q1196892}
+  - {name: interval, kind: definition, decl: Set.Icc, wikipedia: Interval (mathematics), wikidata: Q185148}
+  - {name: upper set, kind: definition, decl: IsUpperSet, wikipedia: Upper and lower sets, wikidata: Q2528262}
+  - {name: down-closure, kind: definition, decl: lowerClosure, wikipedia: Upper and lower sets, wikidata: Q2528262}
+  - {name: dense order, kind: definition, decl: DenselyOrdered, wikipedia: Dense order, wikidata: Q194699}
+  - {name: Cantor's isomorphism theorem, kind: statement, wikipedia: Cantor's isomorphism theorem, wikidata: Q3527028}
+  - {name: order type, kind: definition, wikipedia: Order type, wikidata: Q620006}
+  - {name: Suslin line, kind: object, wikipedia: Suslin's problem, wikidata: Q2296408}
+  # Maps between ordered sets
+  - {name: monotonic function, kind: definition, decl: Monotone, wikipedia: Monotonic function, wikidata: Q194404}
+  - {name: strictly monotone function, kind: definition, decl: StrictMono, wikipedia: Monotonic function, wikidata: Q194404}
+  - {name: order embedding, kind: definition, decl: OrderEmbedding, wikipedia: Order embedding, wikidata: Q3796691}
+  - {name: order isomorphism, kind: definition, decl: OrderIso, wikipedia: Order isomorphism, wikidata: Q997521}
+  - {name: Galois connection, kind: definition, decl: GaloisConnection, wikipedia: Galois connection, wikidata: Q1491747}
+  - {name: Galois insertion, kind: definition, decl: GaloisInsertion, wikipedia: Galois connection, wikidata: Q1491747}
+  - {name: residuated mapping, kind: definition, wikipedia: Residuated mapping, wikidata: Q7315523}
+  - {name: closure operator, kind: definition, decl: ClosureOperator, wikipedia: Closure operator, wikidata: Q10564851}
+  - {name: Moore family, kind: definition, wikipedia: Closure operator, wikidata: Q10564851}
+  - {name: interior operator, kind: definition, wikipedia: Interior algebra, wikidata: Q10894825}
+  - {name: category of posets, kind: concept, wikipedia: Category of preordered sets, wikidata: Q5051853}
+  # Chains, antichains, dimension
+  - {name: chain, kind: definition, decl: IsChain, wikipedia: Total order, wikidata: Q369377}
+  - {name: maximal chain, kind: definition, decl: IsMaxChain, wikipedia: Total order, wikidata: Q369377}
+  - {name: antichain, kind: definition, decl: IsAntichain, wikipedia: Antichain, wikidata: Q431937}
+  - {name: Hausdorff maximal principle, kind: statement, wikipedia: Hausdorff maximal principle, wikidata: Q738328}
+  - {name: Zorn's lemma for posets, kind: statement, decl: zorn_le, wikipedia: Zorn's lemma, wikidata: Q290810}
+  - {name: Dilworth's theorem for posets, kind: statement, wikipedia: Dilworth's theorem, wikidata: Q1134776}
+  - {name: Mirsky's theorem, kind: statement, wikipedia: Mirsky's theorem, wikidata: Q6874717}
+  - {name: Szpilrajn extension theorem, kind: statement, decl: extend_partialOrder, wikipedia: Szpilrajn extension theorem, wikidata: Q869647, mathlib: [mathlib-1000]}
+  - {name: linear extension, kind: definition, decl: LinearExtension, wikipedia: Linear extension, wikidata: Q6553442}
+  - {name: order dimension, kind: definition, wikipedia: Order dimension, wikidata: Q7100431}
+  - {name: 1/3–2/3 conjecture, kind: conjecture, wikipedia: 1/3–2/3 conjecture, wikidata: Q4545863}
+  - {name: width of a poset, kind: definition, wikipedia: Dilworth's theorem, wikidata: Q1134776}
+  - {name: height of a poset, kind: definition, decl: Order.height, wikipedia: Graded poset, wikidata: Q5591878}
+  - {name: graded poset, kind: definition, decl: GradeOrder, wikipedia: Graded poset, wikidata: Q5591878}
+  - {name: Jordan–Dedekind chain condition, kind: definition, wikipedia: Graded poset, wikidata: Q5591878}
+  - {name: Krull dimension of a poset, kind: definition, decl: Order.krullDim, wikipedia: Krull dimension, wikidata: Q1225713}
+  - {name: comparability graph, kind: definition, wikipedia: Comparability graph, wikidata: Q5155607}
+  - {name: interval order, kind: definition, wikipedia: Interval order, wikidata: Q6057290}
+  - {name: semiorder, kind: definition, wikipedia: Semiorder, wikidata: Q7449567}
+  - {name: series-parallel partial order, kind: definition, wikipedia: Series-parallel partial order, wikidata: Q7454786}
+  - {name: crown, kind: example, wikipedia: Crown graph, wikidata: Q3115466}
+  - {name: fence, kind: example, wikipedia: Fence (mathematics), wikidata: Q5442977}
+  # Constructions of ordered sets
+  - {name: product order, kind: definition, decl: Pi.partialOrder, wikipedia: Product order, wikidata: Q7247786}
+  - {name: lexicographic order, kind: definition, decl: Prod.Lex, wikipedia: Lexicographic order, wikidata: Q1144915}
+  - {name: ordinal sum of posets, kind: definition, wikipedia: Partially ordered set, wikidata: Q474715}
+  - {name: disjoint union of posets, kind: definition, wikipedia: Disjoint union, wikidata: Q842620}
+  - {name: power set lattice, kind: example, wikipedia: Power set, wikidata: Q205170}
+  - {name: divisibility poset, kind: example, wikipedia: Divisor, wikidata: Q50708}
+  - {name: Young's lattice, kind: example, wikipedia: Young's lattice, wikidata: Q932141}
+  - {name: Tamari lattice, kind: example, wikipedia: Tamari lattice, wikidata: Q7680890}
+  - {name: lattice of partitions, kind: example, wikipedia: Partition of a set, wikidata: Q381060}
+  - {name: Bruhat order, kind: example, wikipedia: Bruhat order, wikidata: Q4978697}
+  - {name: weak order of permutations, kind: example, wikipedia: Inversion (discrete mathematics), wikidata: Q1368009}
+  - {name: face lattice, kind: example, wikipedia: Abstract polytope, wikidata: Q4669958}
+  # Well-orders, well-founded orders, well-quasi-orders
+  - {name: well-founded order, kind: definition, decl: WellFoundedLT, wikipedia: Well-founded relation, wikidata: Q338021}
+  - {name: well-ordering, kind: definition, decl: IsWellOrder, wikipedia: Well-order, wikidata: Q659746}
+  - {name: well-quasi-ordering, kind: definition, decl: WellQuasiOrdered, wikipedia: Well-quasi-ordering, wikidata: Q2894153}
+  - {name: partially well-ordered set, kind: definition, decl: Set.IsPWO, wikipedia: Well-quasi-ordering, wikidata: Q2894153}
+  - {name: Higman's lemma, kind: statement, decl: Set.PartiallyWellOrderedOn.partiallyWellOrderedOn_sublistForall₂, wikipedia: Higman's lemma, wikidata: Q3229340}
+  - {name: Dickson's lemma, kind: statement, wikipedia: Dickson's lemma, wikidata: Q5273779}
+  - {name: Kruskal's tree theorem on well-quasi-orders, kind: statement, wikipedia: Kruskal's tree theorem, wikidata: Q3527100}
+  - {name: ascending chain condition, kind: definition, decl: WellFoundedGT, wikipedia: Ascending chain condition, wikidata: Q2528476}
+  - {name: descending chain condition, kind: definition, wikipedia: Ascending chain condition, wikidata: Q2528476}
+  - {name: successor order, kind: definition, decl: SuccOrder, wikipedia: Successor function, wikidata: Q7632653}
+  - {name: locally finite poset, kind: definition, decl: LocallyFiniteOrder, wikipedia: Locally finite poset, wikidata: Q6664687}
+  - {name: cofinal subset, kind: definition, decl: Order.Cofinal, wikipedia: Cofinal (mathematics), wikidata: Q5141045}
+  - {name: directed set, kind: definition, decl: IsDirected, wikipedia: Directed set, wikidata: Q1513048}
+  # Combinatorics of posets
+  - {name: incidence algebra of a poset, kind: definition, wikipedia: Incidence algebra, wikidata: Q371133}
+  - {name: Möbius function of a poset, kind: definition, wikipedia: Incidence algebra, wikidata: Q371133}
+  - {name: Möbius inversion formula for posets, kind: statement, wikipedia: Möbius inversion formula, wikidata: Q1072771}
+  - {name: Eulerian poset, kind: definition, wikipedia: Eulerian poset, wikidata: Q5409003}
+  - {name: order polynomial, kind: definition, wikipedia: Order polynomial, wikidata: Q55627850}
+  - {name: order polytope, kind: definition, wikipedia: Order polytope, wikidata: Q85791185}
+  - {name: Sperner property, kind: definition, wikipedia: Sperner property of a partially ordered set, wikidata: Q7576398}
+  - {name: Fishburn's theorem on interval orders, kind: statement, wikipedia: Interval order, wikidata: Q6057290}
+  - {name: FKG inequality, kind: statement, wikipedia: FKG inequality, wikidata: Q1784730}
+  - {name: XYZ inequality, kind: statement, wikipedia: XYZ inequality, wikidata: Q5454716}
+  - {name: order complex, kind: definition, wikipedia: Poset topology, wikidata: Q7233030}
+  # Fixed point theorems
+  - {name: Knaster–Tarski theorem, kind: statement, decl: fixedPoints.completeLattice, wikipedia: Knaster–Tarski theorem, wikidata: Q609612, mathlib: [mathlib-1000]}
+  - {name: least fixed point, kind: definition, decl: OrderHom.lfp, wikipedia: Least fixed point, wikidata: Q6134913}
+  - {name: Kleene fixed-point theorem, kind: statement, decl: fixedPoints.lfp_eq_sSup_iterate, wikipedia: Kleene fixed-point theorem, wikidata: Q3527263, mathlib: [mathlib-1000]}
+  - {name: Bourbaki–Witt theorem, kind: statement, wikipedia: Bourbaki–Witt theorem, wikidata: Q4950096}
+  - {name: Abian–Brown theorem, kind: statement, wikipedia: Knaster–Tarski theorem, wikidata: Q609612}
+  - {name: fixed-point property of posets, kind: definition, wikipedia: Fixed-point property, wikidata: Q5456331}
+  # Lattices: basic notions
+  - {name: lattice, kind: definition, decl: Lattice, wikipedia: Lattice (order), wikidata: Q595364}
+  - {name: semilattice, kind: definition, decl: SemilatticeSup, wikipedia: Semilattice, wikidata: Q834585}
+  - {name: join and meet, kind: definition, wikipedia: Join and meet, wikidata: Q6269005}
+  - {name: bounded lattice, kind: definition, wikipedia: Bounded lattice, wikidata: Q10326443}
+  - {name: sublattice, kind: definition, decl: Sublattice, wikipedia: Lattice (order), wikidata: Q595364}
+  - {name: lattice homomorphism, kind: definition, decl: LatticeHom, wikipedia: Lattice (order), wikidata: Q595364}
+  - {name: lattice congruence, kind: definition, decl: LatticeCon, wikipedia: Congruence relation, wikidata: Q8349849}
+  - {name: lattice ideal, kind: definition, decl: Order.Ideal, wikipedia: Ideal (order theory), wikidata: Q1656686}
+  - {name: order filter, kind: definition, decl: Order.PFilter, wikipedia: Filter (mathematics), wikidata: Q1052692}
+  - {name: prime ideal of a lattice, kind: definition, decl: Order.Ideal.IsPrime, wikipedia: Ideal (order theory), wikidata: Q1656686}
+  - {name: principal ideal, kind: definition, decl: Order.Ideal.principal, wikipedia: Ideal (order theory), wikidata: Q1656686}
+  - {name: atom, kind: definition, decl: IsAtom, wikipedia: Atom (order theory), wikidata: Q261484}
+  - {name: atomic lattice, kind: definition, decl: IsAtomic, wikipedia: Atom (order theory), wikidata: Q261484}
+  - {name: atomistic lattice, kind: definition, decl: IsAtomistic, wikipedia: Atom (order theory), wikidata: Q261484}
+  - {name: join-irreducible element, kind: definition, decl: SupIrred, wikipedia: Join and meet, wikidata: Q6269005}
+  - {name: join-prime element, kind: definition, decl: SupPrime, wikipedia: Prime element, wikidata: Q240651}
+  - {name: free lattice, kind: definition, wikipedia: Free lattice, wikidata: Q5500254}
+  - {name: Whitman's condition, kind: statement, wikipedia: Free lattice, wikidata: Q5500254}
+  - {name: word problem for free lattices, kind: statement, wikipedia: Free lattice, wikidata: Q5500254}
+  - {name: lattice of subgroups, kind: example, wikipedia: Lattice of subgroups, wikidata: Q3538331}
+  - {name: lattice of subspaces, kind: example, wikipedia: Projective geometry, wikidata: Q177409}
+  - {name: Grätzer–Schmidt theorem, kind: statement, wikipedia: Congruence lattice problem, wikidata: Q5160997}
+  - {name: finite lattice representation problem, kind: problem, wikipedia: Lattice of subgroups, wikidata: Q3538331}
+  - {name: Davis's converse of the Knaster–Tarski theorem, kind: statement, wikipedia: Knaster–Tarski theorem, wikidata: Q609612}
+  - {name: formal concept analysis, kind: concept, decl: Concept, wikipedia: Formal concept analysis, wikidata: Q1437394}
+  # Complete lattices and completions
+  - {name: complete lattice, kind: definition, decl: CompleteLattice, wikipedia: Complete lattice, wikidata: Q2362924}
+  - {name: conditionally complete lattice, kind: definition, decl: ConditionallyCompleteLattice, wikipedia: Completeness (order theory), wikidata: Q5156540}
+  - {name: completeness in order theory, kind: concept, wikipedia: Completeness (order theory), wikidata: Q5156540}
+  - {name: least-upper-bound property, kind: definition, decl: Real.instConditionallyCompleteLinearOrder, wikipedia: Least-upper-bound property, wikidata: Q1254734}
+  - {name: Dedekind–MacNeille completion, kind: definition, decl: DedekindCut, wikipedia: Dedekind–MacNeille completion, wikidata: Q5249756}
+  - {name: Dedekind cut, kind: definition, wikipedia: Dedekind cut, wikidata: Q851333}
+  - {name: ideal completion, kind: definition, wikipedia: Ideal (order theory), wikidata: Q1656686}
+  - {name: compact element, kind: definition, decl: IsCompactElement, wikipedia: Compact element, wikidata: Q5155306}
+  - {name: algebraic lattice, kind: definition, decl: IsCompactlyGenerated, wikipedia: Compact element, wikidata: Q5155306}
+  - {name: continuous lattice, kind: definition, wikipedia: Continuous poset, wikidata: Q113216894}
+  - {name: completely distributive lattice, kind: definition, decl: CompleteDistribLattice, wikipedia: Completely distributive lattice, wikidata: Q5156529}
+  - {name: frame, kind: definition, decl: Order.Frame, wikipedia: Complete Heyting algebra, wikidata: Q5156470}
+  - {name: locale, kind: definition, decl: Locale, wikipedia: Pointless topology, wikidata: Q7208386}
+  - {name: Birkhoff–Frink theorem, kind: statement, wikipedia: Compact element, wikidata: Q5155306}
+  # Domain theory
+  - {name: domain theory, kind: concept, wikipedia: Domain theory, wikidata: Q1079166}
+  - {name: directed-complete partial order, kind: definition, wikipedia: Complete partial order, wikidata: Q3082805}
+  - {name: omega-complete partial order, kind: definition, decl: OmegaCompletePartialOrder, wikipedia: Complete partial order, wikidata: Q3082805}
+  - {name: Scott continuity, kind: definition, decl: ScottContinuous, wikipedia: Scott continuity, wikidata: Q895815}
+  - {name: Scott topology, kind: definition, decl: Topology.IsScott, wikipedia: Scott continuity, wikidata: Q895815}
+  - {name: way-below relation, kind: definition, wikipedia: Domain theory, wikidata: Q1079166}
+  - {name: Scott domain, kind: definition, wikipedia: Scott domain, wikidata: Q7437566}
+  - {name: Lawson topology, kind: definition, decl: Topology.IsLawson, wikipedia: Lawson topology, wikidata: Q6505020}
+  - {name: order topology, kind: definition, decl: OrderTopology, wikipedia: Order topology, wikidata: Q1321469, mathlib: [mathlib-overview]}
+  - {name: Alexandrov topology, kind: definition, wikipedia: Alexandrov topology, wikidata: Q3532117}
+  - {name: specialization preorder, kind: definition, wikipedia: Specialization preorder, wikidata: Q5569420}
+  # Modular and complemented lattices
+  - {name: modular lattice, kind: definition, decl: IsModularLattice, wikipedia: Modular lattice, wikidata: Q1538614}
+  - {name: Dedekind's characterization of modular lattices, kind: statement, wikipedia: Modular lattice, wikidata: Q1538614}
+  - {name: pentagon lattice N5, kind: example, wikipedia: Modular lattice, wikidata: Q1538614}
+  - {name: diamond lattice M3, kind: example, wikipedia: Distributive lattice, wikidata: Q2363730}
+  - {name: semimodular lattice, kind: definition, wikipedia: Semimodular lattice, wikidata: Q1748671}
+  - {name: geometric lattice, kind: definition, wikipedia: Geometric lattice, wikidata: Q5535493}
+  - {name: Jordan–Hölder theorem for modular lattices, kind: statement, decl: JordanHolderLattice, wikipedia: Composition series, wikidata: Q2525646}
+  - {name: complemented lattice, kind: definition, decl: ComplementedLattice, wikipedia: Complemented lattice, wikidata: Q5156434}
+  - {name: relatively complemented lattice, kind: definition, wikipedia: Complemented lattice, wikidata: Q5156434}
+  - {name: orthocomplemented lattice, kind: definition, wikipedia: Complemented lattice, wikidata: Q5156434}
+  - {name: orthomodular lattice, kind: definition, wikipedia: Complemented lattice, wikidata: Q5156434}
+  - {name: continuous geometry, kind: definition, wikipedia: Continuous geometry, wikidata: Q5165479}
+  - {name: von Neumann coordinatization theorem, kind: statement, wikipedia: Continuous geometry, wikidata: Q5165479}
+  - {name: quantum logic, kind: concept, wikipedia: Quantum logic, wikidata: Q1206311}
+  # Distributive lattices
+  - {name: distributive lattice, kind: definition, decl: DistribLattice, wikipedia: Distributive lattice, wikidata: Q2363730}
+  - {name: M3–N5 characterization of distributivity, kind: statement, wikipedia: Distributive lattice, wikidata: Q2363730}
+  - {name: Birkhoff's representation theorem, kind: statement, decl: OrderIso.lowerSetSupIrred, wikipedia: Birkhoff's representation theorem, wikidata: Q17005116}
+  - {name: prime ideal theorem for distributive lattices, kind: statement, decl: DistribLattice.prime_ideal_of_disjoint_filter_ideal, wikipedia: Boolean prime ideal theorem, wikidata: Q872088, mathlib: [mathlib-1000]}
+  - {name: Priestley space, kind: definition, decl: PriestleySpace, wikipedia: Priestley space, wikidata: Q7242916}
+  - {name: Priestley duality, kind: statement, wikipedia: Duality theory for distributive lattices, wikidata: Q5310267}
+  - {name: spectral space, kind: definition, wikipedia: Spectral space, wikidata: Q7575210}
+  - {name: median algebra, kind: definition, wikipedia: Median algebra, wikidata: Q6806108}
+  - {name: Heyting algebra, kind: definition, decl: HeytingAlgebra, wikipedia: Heyting algebra, wikidata: Q1617044}
+  - {name: co-Heyting algebra, kind: definition, decl: CoheytingAlgebra, wikipedia: Heyting algebra, wikidata: Q1617044}
+  - {name: Esakia space, kind: definition, wikipedia: Esakia space, wikidata: Q5396698}
+  - {name: Esakia duality, kind: statement, wikipedia: Esakia duality, wikidata: Q5396694}
+  - {name: pseudocomplement, kind: definition, wikipedia: Pseudocomplement, wikidata: Q18345290}
+  - {name: Stone algebra, kind: definition, wikipedia: Stone algebra, wikidata: Q7619048}
+  - {name: De Morgan algebra, kind: definition, wikipedia: De Morgan algebra, wikidata: Q5244640}
+  - {name: Dedekind number, kind: definition, wikipedia: Dedekind number, wikidata: Q5249753}
+  - {name: free distributive lattice, kind: definition, wikipedia: Free lattice, wikidata: Q5500254}
+  - {name: Dedekind's problem, kind: problem, wikipedia: Dedekind number, wikidata: Q5249753}
+  # Boolean algebras
+  - {name: Boolean algebra, kind: definition, decl: BooleanAlgebra, wikipedia: Boolean algebra (structure), wikidata: Q4973304}
+  - {name: Boolean ring, kind: definition, decl: BooleanRing, wikipedia: Boolean ring, wikidata: Q2634401}
+  - {name: equivalence of Boolean rings and Boolean algebras, kind: statement, decl: AsBoolRing, wikipedia: Boolean ring, wikidata: Q2634401}
+  - {name: two-element Boolean algebra, kind: example, wikipedia: Two-element Boolean algebra, wikidata: Q7858706}
+  - {name: field of sets, kind: definition, wikipedia: Field of sets, wikidata: Q246506}
+  - {name: Stone's representation theorem for Boolean algebras, kind: statement, wikipedia: Stone's representation theorem for Boolean algebras, wikidata: Q1166774}
+  - {name: Stone space, kind: definition, wikipedia: Stone space, wikidata: Q30587585}
+  - {name: Stone duality, kind: statement, wikipedia: Stone duality, wikidata: Q7619060}
+  - {name: ultrafilter on a Boolean algebra, kind: definition, wikipedia: Ultrafilter, wikidata: Q1571831}
+  - {name: ultrafilter lemma, kind: statement, decl: Ultrafilter.exists_le, wikipedia: Ultrafilter on a set, wikidata: Q106671513}
+  - {name: complete Boolean algebra, kind: definition, decl: CompleteBooleanAlgebra, wikipedia: Complete Boolean algebra, wikidata: Q5156447}
+  - {name: complete atomic Boolean algebra, kind: definition, decl: CompleteAtomicBooleanAlgebra, wikipedia: Complete Boolean algebra, wikidata: Q5156447}
+  - {name: regular open algebra, kind: example, decl: Heyting.Regular, wikipedia: Regular open set, wikidata: Q110745661}
+  - {name: free Boolean algebra, kind: definition, wikipedia: Free Boolean algebra, wikidata: Q5499761}
+  - {name: atomless Boolean algebra, kind: definition, wikipedia: Atom (order theory), wikidata: Q261484}
+  - {name: measure algebra, kind: definition, wikipedia: Measure algebra, wikidata: Q6804179}
+  - {name: Boolean algebras canonically defined, kind: concept, wikipedia: Boolean algebras canonically defined, wikidata: Q4943350}
+  - {name: Huntington's axioms, kind: definition, wikipedia: Boolean algebra (structure), wikidata: Q4973304}
+  - {name: Robbins algebra, kind: statement, wikipedia: Robbins algebra, wikidata: Q7341067}
+  - {name: generalized Boolean algebra, kind: definition, decl: GeneralizedBooleanAlgebra, wikipedia: Boolean algebra (structure), wikidata: Q4973304}
+  - {name: interior algebra, kind: definition, wikipedia: Interior algebra, wikidata: Q10894825}
+  - {name: residuated lattice, kind: definition, wikipedia: Residuated lattice, wikidata: Q9462417}
+  - {name: MV-algebra, kind: definition, wikipedia: MV-algebra, wikidata: Q6719122}
+  # Ordered algebraic structures
+  - {name: ordered group, kind: definition, decl: IsOrderedAddMonoid, wikipedia: Partially ordered group, wikidata: Q2715875}
+  - {name: linearly ordered group, kind: definition, wikipedia: Linearly ordered group, wikidata: Q10292020}
+  - {name: lattice-ordered group, kind: definition, wikipedia: Partially ordered group, wikidata: Q2715875}
+  - {name: Riesz space, kind: definition, wikipedia: Riesz space, wikidata: Q2152570}
+  - {name: Archimedean property, kind: definition, decl: Archimedean, wikipedia: Archimedean property, wikidata: Q634579}
+  - {name: Hölder's theorem on Archimedean groups, kind: statement, decl: Archimedean.exists_orderAddMonoidHom_real_injective, wikipedia: Archimedean group, wikidata: Q4786884}
+  - {name: Archimedean equivalence classes, kind: definition, decl: ArchimedeanClass, wikipedia: Archimedean property, wikidata: Q634579}
+  - {name: Hahn embedding theorem, kind: statement, wikipedia: Hahn embedding theorem, wikidata: Q5638886}
+  - {name: Hahn series, kind: definition, decl: HahnSeries, wikipedia: Hahn series, wikidata: Q5638887}
+  - {name: orderable group, kind: definition, wikipedia: Partially ordered group, wikidata: Q2715875}
+  - {name: left-orderable group, kind: definition, wikipedia: Linearly ordered group, wikidata: Q10292020}
+  - {name: ordered semigroup, kind: definition, wikipedia: Ordered semigroup, wikidata: Q7100714}
+  - {name: ordered ring, kind: definition, decl: IsOrderedRing, wikipedia: Ordered ring, wikidata: Q3782642, mathlib: [mathlib-overview]}
+  - {name: ordered field, kind: definition, wikipedia: Ordered field, wikidata: Q909412}
+  - {name: Artin–Schreier theorem on formally real fields, kind: statement, wikipedia: Formally real field, wikidata: Q17097900}
+  - {name: positive cone, kind: definition, wikipedia: Ordered vector space, wikidata: Q1503340}
+  - {name: ordered vector space, kind: definition, wikipedia: Ordered vector space, wikidata: Q1503340}
+  - {name: partially ordered ring, kind: definition, wikipedia: Partially ordered ring, wikidata: Q7140405}
+  - {name: f-ring, kind: definition, wikipedia: Partially ordered ring, wikidata: Q7140405}
+  - {name: valuation and value group, kind: definition, decl: Valuation, wikipedia: Valuation (algebra), wikidata: Q852757}
+  - {name: idempotent semiring, kind: definition, wikipedia: Semiring, wikidata: Q1333055}
+  - {name: tropical semiring, kind: example, wikipedia: Tropical semiring, wikidata: Q60790098}
+  - {name: quantale, kind: definition, wikipedia: Quantale, wikidata: Q7268888}
+  - {name: Kleene algebra, kind: definition, wikipedia: Kleene algebra, wikidata: Q2634506}
+  - {name: surreal number, kind: object, wikipedia: Surreal number, wikidata: Q875333}

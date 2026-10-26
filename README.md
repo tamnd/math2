@@ -24,6 +24,8 @@ A skeleton is the list of the main concepts, definitions and named theorems of o
 
 The coverage report gives C2 for each class with a skeleton (spec 18.1). C2 is the share of the items whose node is live and has at least one source. A person who works in the area reviews each change of a skeleton in its pull request.
 
+The first 30 skeletons are drafts. They cover the classes 03, 05, 06, 11 to 18, 20, 22, 26, 28, 30, 34, 35, 37, 40, 46, 47, 51 to 55, 57, 60 and 68, with 6,812 items. 2,066 items have a Mathlib declaration. No person who works in these areas has reviewed them yet. Until a review, treat the C2 numbers of these classes as provisional. The other 33 classes have no skeleton yet.
+
 ## A node file
 
 A node file is `nodes/<first two characters of the tag>/<tag>.md`. It has YAML front matter and a Markdown body. This example shows the form:

@@ -1,0 +1,273 @@
+# The C2 skeleton of 11-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 11-XX
+title: number theory
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+  mathlib-undergrad: {title: "Mathlib, the list of undergraduate topics", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/undergrad.yaml'}
+  mathlib-overview: {title: "Mathlib, the overview of the library", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/overview.yaml'}
+  mathlib-100: {title: "Mathlib, the status of Freek Wiedijk's 100 theorems", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/100.yaml'}
+  mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
+items:
+  # Divisibility and primes
+  - {name: divisibility, kind: definition, wikipedia: Divisor, wikidata: Q50708}
+  - {name: prime number, kind: definition, decl: Nat.Prime, wikipedia: Prime number, wikidata: Q49008}
+  - {name: greatest common divisor, kind: definition, decl: Nat.gcd, wikipedia: Greatest common divisor, wikidata: Q131752}
+  - {name: least common multiple, kind: definition, decl: Nat.lcm, wikipedia: Least common multiple, wikidata: Q102761}
+  - {name: coprime integers, kind: definition, decl: Nat.Coprime, wikipedia: Coprime integers, wikidata: Q104752}
+  - {name: Euclidean algorithm, kind: concept, wikipedia: Euclidean algorithm, wikidata: Q230848}
+  - {name: extended Euclidean algorithm, kind: concept, decl: Nat.xgcd, wikipedia: Extended Euclidean algorithm, wikidata: Q1362750, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: Bézout's identity, kind: statement, decl: Int.gcd_eq_gcd_ab, wikipedia: Bézout's identity, wikidata: Q513028}
+  - {name: Euclid's lemma, kind: statement, decl: Nat.Prime.dvd_mul, wikipedia: Euclid's lemma, wikidata: Q206793}
+  - {name: fundamental theorem of arithmetic, kind: statement, decl: Nat.primeFactorsList, wikipedia: Fundamental theorem of arithmetic, wikidata: Q670235}
+  - {name: Euclid's theorem, kind: statement, decl: Nat.exists_infinite_primes, wikipedia: Euclid's theorem, wikidata: Q1506253, mathlib: [mathlib-100, mathlib-1000]}
+  - {name: p-adic valuation, kind: definition, decl: padicValNat, wikipedia: P-adic valuation, wikidata: Q4008396}
+  - {name: Legendre's formula, kind: statement, decl: padicValNat_factorial, wikipedia: Legendre's formula, wikidata: Q23041626}
+  - {name: Kummer's theorem, kind: statement, wikipedia: Kummer's theorem, wikidata: Q6443980}
+  - {name: square-free integer, kind: definition, decl: Squarefree, wikipedia: Square-free integer, wikidata: Q50706}
+  - {name: sieve of Eratosthenes, kind: concept, wikipedia: Sieve of Eratosthenes, wikidata: Q177898}
+  - {name: Mersenne prime, kind: definition, decl: mersenne, wikipedia: Mersenne prime, wikidata: Q186875}
+  - {name: Fermat number, kind: definition, decl: Nat.fermatNumber, wikipedia: Fermat number, wikidata: Q207264}
+  - {name: perfect number, kind: definition, decl: Nat.Perfect, wikipedia: Perfect number, wikidata: Q170043}
+  - {name: Euclid–Euler theorem, kind: statement, wikipedia: Euclid–Euler theorem, wikidata: Q18206266}
+  - {name: Bertrand's postulate, kind: statement, decl: Nat.bertrand, wikipedia: Bertrand's postulate, wikidata: Q632546, mathlib: [mathlib-100, mathlib-1000]}
+  - {name: twin prime conjecture, kind: conjecture, wikipedia: Twin prime, wikidata: Q110863}
+  - {name: Goldbach's conjecture, kind: conjecture, wikipedia: Goldbach's conjecture, wikidata: Q485520}
+  # Congruences
+  - {name: modular arithmetic, kind: concept, decl: Nat.ModEq, wikipedia: Modular arithmetic, wikidata: Q319400}
+  - {name: integers modulo n, kind: object, decl: ZMod, wikipedia: Modular arithmetic, wikidata: Q319400}
+  - {name: Chinese remainder theorem, kind: statement, decl: Nat.chineseRemainder, wikipedia: Chinese remainder theorem, wikidata: Q193878}
+  - {name: Euler's totient function, kind: definition, decl: Nat.totient, wikipedia: Euler's totient function, wikidata: Q190026, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: Fermat's little theorem, kind: statement, decl: ZMod.pow_card_sub_one_eq_one, wikipedia: Fermat's little theorem, wikidata: Q188295, mathlib: [mathlib-1000]}
+  - {name: Euler's theorem, kind: statement, decl: ZMod.pow_totient, wikipedia: Euler's theorem, wikidata: Q193910}
+  - {name: Wilson's theorem, kind: statement, decl: ZMod.wilsons_lemma, wikipedia: Wilson's theorem, wikidata: Q276082, mathlib: [mathlib-100, mathlib-1000]}
+  - {name: multiplicative group of integers modulo n, kind: object, decl: ZMod.card_units_eq_totient, wikipedia: Multiplicative group of integers modulo n, wikidata: Q1169249}
+  - {name: primitive root modulo n, kind: definition, decl: ZMod.isCyclic_units_iff, wikipedia: Primitive root modulo n, wikidata: Q948010}
+  - {name: multiplicative order, kind: definition, wikipedia: Multiplicative order, wikidata: Q282723}
+  - {name: Carmichael number, kind: definition, wikipedia: Carmichael number, wikidata: Q849530}
+  - {name: Hensel's lemma, kind: statement, decl: hensels_lemma, wikipedia: Hensel's lemma, wikidata: Q1424496, mathlib: [mathlib-overview]}
+  - {name: Lucas's theorem, kind: statement, wikipedia: Lucas's theorem, wikidata: Q1186808}
+  - {name: Artin's conjecture on primitive roots, kind: conjecture, wikipedia: Artin's conjecture on primitive roots, wikidata: Q2319635}
+  # Quadratic residues and reciprocity
+  - {name: quadratic residue, kind: definition, wikipedia: Quadratic residue, wikidata: Q878259}
+  - {name: Legendre symbol, kind: definition, decl: legendreSym, wikipedia: Legendre symbol, wikidata: Q748339}
+  - {name: Jacobi symbol, kind: definition, decl: jacobiSym, wikipedia: Jacobi symbol, wikidata: Q241015}
+  - {name: Euler's criterion, kind: statement, decl: ZMod.euler_criterion, wikipedia: Euler's criterion, wikidata: Q2346904}
+  - {name: quadratic reciprocity, kind: statement, decl: legendreSym.quadratic_reciprocity, wikipedia: Quadratic reciprocity, wikidata: Q472883, mathlib: [mathlib-overview, mathlib-100, mathlib-1000]}
+  - {name: Gauss's lemma (number theory), kind: statement, wikipedia: Gauss's lemma (number theory), wikidata: Q2526246}
+  - {name: cubic reciprocity, kind: statement, wikipedia: Cubic reciprocity, wikidata: Q2443110}
+  - {name: quartic reciprocity, kind: statement, wikipedia: Quartic reciprocity, wikidata: Q4495708}
+  - {name: Gauss sum, kind: definition, decl: gaussSum, wikipedia: Gauss sum, wikidata: Q526221}
+  - {name: Jacobi sum, kind: definition, decl: jacobiSum, wikipedia: Jacobi sum, wikidata: Q6119648}
+  # Arithmetic functions
+  - {name: arithmetic function, kind: definition, decl: ArithmeticFunction, wikipedia: Arithmetic function, wikidata: Q140744, mathlib: [mathlib-overview]}
+  - {name: multiplicative function, kind: definition, decl: ArithmeticFunction.IsMultiplicative, wikipedia: Multiplicative function, wikidata: Q1048447}
+  - {name: divisor function, kind: definition, decl: ArithmeticFunction.sigma, wikipedia: Divisor function, wikidata: Q915474}
+  - {name: Möbius function, kind: definition, decl: ArithmeticFunction.moebius, wikipedia: Möbius function, wikidata: Q205243}
+  - {name: Möbius inversion formula, kind: statement, decl: ArithmeticFunction.sum_eq_iff_sum_mul_moebius_eq, wikipedia: Möbius inversion formula, wikidata: Q1072771}
+  - {name: Dirichlet convolution, kind: definition, wikipedia: Dirichlet convolution, wikidata: Q6453184}
+  - {name: von Mangoldt function, kind: definition, decl: ArithmeticFunction.vonMangoldt, wikipedia: Von Mangoldt function, wikidata: Q282327}
+  - {name: Liouville function, kind: definition, wikipedia: Liouville function, wikidata: Q385019}
+  - {name: prime omega function, kind: definition, decl: ArithmeticFunction.cardFactors, wikipedia: Prime omega function, wikidata: Q55630466}
+  # Sequences and sets of integers
+  - {name: Fibonacci sequence, kind: object, decl: Nat.fib, wikipedia: Fibonacci sequence, wikidata: Q23835349}
+  - {name: Bernoulli number, kind: definition, decl: bernoulli, wikipedia: Bernoulli number, wikidata: Q694114, mathlib: [mathlib-overview]}
+  - {name: Schnirelmann density, kind: definition, decl: schnirelmannDensity, wikipedia: Schnirelmann density, wikidata: Q2482753}
+  - {name: natural density, kind: definition, wikipedia: Natural density, wikidata: Q752723}
+  - {name: Szemerédi's theorem, kind: statement, wikipedia: Szemerédi's theorem, wikidata: Q1046232}
+  - {name: Green–Tao theorem, kind: statement, wikipedia: Green–Tao theorem, wikidata: Q922012}
+  - {name: Collatz conjecture, kind: conjecture, wikipedia: Collatz conjecture, wikidata: Q837314}
+  - {name: Frobenius coin problem, kind: problem, decl: FrobeniusNumber, wikipedia: Coin problem, wikidata: Q2295746}
+  # Diophantine equations
+  - {name: Diophantine equation, kind: definition, wikipedia: Diophantine equation, wikidata: Q905896}
+  - {name: Pythagorean triple, kind: definition, decl: PythagoreanTriple.classification, wikipedia: Pythagorean triple, wikidata: Q208225, mathlib: [mathlib-100]}
+  - {name: Pell's equation, kind: definition, decl: Pell.exists_of_not_isSquare, wikipedia: Pell's equation, wikidata: Q853067, mathlib: [mathlib-100, mathlib-1000]}
+  - {name: Fermat's theorem on sums of two squares, kind: statement, decl: Nat.Prime.sq_add_sq, wikipedia: Fermat's theorem on sums of two squares, wikidata: Q914517, mathlib: [mathlib-overview, mathlib-100, mathlib-1000]}
+  - {name: sum of two squares theorem, kind: statement, decl: Nat.eq_sq_add_sq_iff, wikipedia: Sum of two squares theorem, wikidata: Q25303848}
+  - {name: Lagrange's four-square theorem, kind: statement, decl: Nat.sum_four_squares, wikipedia: Lagrange's four-square theorem, wikidata: Q756946, mathlib: [mathlib-overview, mathlib-100, mathlib-1000]}
+  - {name: Legendre's three-square theorem, kind: statement, wikipedia: Legendre's three-square theorem, wikidata: Q15940470}
+  - {name: Fermat's Last Theorem, kind: statement, decl: FermatLastTheoremFor, wikipedia: Fermat's Last Theorem, wikidata: Q132469}
+  - {name: Fermat's Last Theorem for exponent four, kind: statement, decl: fermatLastTheoremFour, wikipedia: Fermat's right triangle theorem, wikidata: Q18640217}
+  - {name: Catalan's conjecture, kind: statement, wikipedia: Catalan's conjecture, wikidata: Q174955}
+  - {name: Thue equation, kind: definition, wikipedia: Thue equation, wikidata: Q2378270}
+  - {name: Hilbert's tenth problem, kind: problem, wikipedia: Hilbert's tenth problem, wikidata: Q986147}
+  - {name: Hasse principle, kind: concept, wikipedia: Hasse principle, wikidata: Q2115578}
+  - {name: Hasse–Minkowski theorem, kind: statement, wikipedia: Hasse–Minkowski theorem, wikidata: Q1938251}
+  - {name: Chevalley–Warning theorem, kind: statement, wikipedia: Chevalley–Warning theorem, wikidata: Q720469}
+  - {name: abc conjecture, kind: conjecture, wikipedia: Abc conjecture, wikidata: Q306393}
+  - {name: Mason–Stothers theorem, kind: statement, decl: Polynomial.abc, wikipedia: Mason–Stothers theorem, wikidata: Q6783821, mathlib: [mathlib-1000]}
+  - {name: congruent number problem, kind: problem, wikipedia: Congruent number, wikidata: Q325978}
+  # Quadratic forms and geometry of numbers
+  - {name: binary quadratic form, kind: definition, wikipedia: Binary quadratic form, wikidata: Q864134}
+  - {name: integral quadratic form, kind: definition, wikipedia: Quadratic form, wikidata: Q736753}
+  - {name: class number formula, kind: statement, wikipedia: Class number formula, wikidata: Q3291120}
+  - {name: lattice (group), kind: definition, decl: IsZLattice, wikipedia: Lattice (group), wikidata: Q1096885}
+  - {name: Minkowski's theorem, kind: statement, decl: MeasureTheory.exists_ne_zero_mem_lattice_of_measure_mul_two_pow_lt_measure, wikipedia: Minkowski's theorem, wikidata: Q1097021, mathlib: [mathlib-100, mathlib-1000]}
+  - {name: Minkowski's second theorem, kind: statement, wikipedia: Minkowski's second theorem, wikidata: Q6867853}
+  - {name: Gauss circle problem, kind: problem, wikipedia: Gauss circle problem, wikidata: Q2096220}
+  # Diophantine approximation and transcendence
+  - {name: irrational number, kind: definition, decl: Irrational, wikipedia: Irrational number, wikidata: Q607728}
+  - {name: irrationality of the square root of two, kind: statement, decl: irrational_sqrt_two, wikipedia: Square root of 2, wikidata: Q389813, mathlib: [mathlib-100]}
+  - {name: irrationality of pi, kind: statement, decl: irrational_pi, wikipedia: Proof that pi is irrational, wikidata: Q3267775}
+  - {name: continued fraction, kind: definition, decl: GenContFract, wikipedia: Continued fraction, wikidata: Q4115724}
+  - {name: simple continued fraction, kind: definition, wikipedia: Simple continued fraction, wikidata: Q206816}
+  - {name: convergents of a continued fraction, kind: definition, decl: GenContFract.convs, wikipedia: Simple continued fraction, wikidata: Q206816}
+  - {name: Dirichlet's approximation theorem, kind: statement, decl: Real.exists_int_int_abs_mul_sub_le, wikipedia: Dirichlet's approximation theorem, wikidata: Q1227703, mathlib: [mathlib-1000]}
+  - {name: Hurwitz's theorem (number theory), kind: statement, wikipedia: Hurwitz's theorem (number theory), wikidata: Q1630588}
+  - {name: Liouville number, kind: definition, decl: Liouville, wikipedia: Liouville number, wikidata: Q1755697}
+  - {name: Liouville's theorem on Diophantine approximation, kind: statement, decl: Liouville.transcendental, wikipedia: Liouville number, wikidata: Q1755697, mathlib: [mathlib-100]}
+  - {name: Thue–Siegel–Roth theorem, kind: statement, wikipedia: Roth's theorem, wikidata: Q751120}
+  - {name: Schmidt subspace theorem, kind: statement, wikipedia: Subspace theorem, wikidata: Q7632041}
+  - {name: transcendental number, kind: definition, decl: Transcendental, wikipedia: Transcendental number, wikidata: Q173091, mathlib: [mathlib-undergrad]}
+  - {name: Lindemann–Weierstrass theorem, kind: statement, wikipedia: Lindemann–Weierstrass theorem, wikidata: Q1572474}
+  - {name: Gelfond–Schneider theorem, kind: statement, wikipedia: Gelfond–Schneider theorem, wikidata: Q976033}
+  - {name: Baker's theorem, kind: statement, wikipedia: Baker's theorem, wikidata: Q3527009}
+  - {name: Schanuel's conjecture, kind: conjecture, wikipedia: Schanuel's conjecture, wikidata: Q1579982}
+  - {name: Apéry's theorem, kind: statement, wikipedia: Apéry's theorem, wikidata: Q1095330}
+  - {name: normal number, kind: definition, wikipedia: Normal number, wikidata: Q902708}
+  # Equidistribution and exponential sums
+  - {name: equidistribution modulo one, kind: definition, wikipedia: Equidistributed sequence, wikidata: Q1530388}
+  - {name: equidistribution theorem, kind: statement, wikipedia: Equidistribution theorem, wikidata: Q3984052}
+  - {name: exponential sum, kind: definition, wikipedia: Exponential sum, wikidata: Q4446020}
+  - {name: character sum, kind: definition, wikipedia: Character sum, wikidata: Q5073749}
+  - {name: Kloosterman sum, kind: definition, wikipedia: Kloosterman sum, wikidata: Q6421354}
+  # Analytic number theory
+  - {name: prime-counting function, kind: definition, decl: Nat.primeCounting, wikipedia: Prime-counting function, wikidata: Q251922}
+  - {name: prime number theorem, kind: statement, wikipedia: Prime number theorem, wikidata: Q386292}
+  - {name: Chebyshev functions, kind: definition, decl: Chebyshev.psi, wikipedia: Chebyshev function, wikidata: Q1046711}
+  - {name: divergence of the sum of the reciprocals of the primes, kind: statement, decl: not_summable_one_div_on_primes, wikipedia: Divergence of the sum of the reciprocals of the primes, wikidata: Q1343972, mathlib: [mathlib-100]}
+  - {name: Mertens' theorems, kind: statement, wikipedia: Mertens' theorems, wikidata: Q1196729}
+  - {name: Riemann zeta function, kind: definition, decl: riemannZeta, wikipedia: Riemann zeta function, wikidata: Q187235}
+  - {name: Euler product, kind: statement, decl: riemannZeta_eulerProduct_tprod, wikipedia: Euler product, wikidata: Q1194667}
+  - {name: Basel problem, kind: statement, decl: hasSum_zeta_two, wikipedia: Basel problem, wikidata: Q810431, mathlib: [mathlib-100, mathlib-1000]}
+  - {name: functional equation of the zeta function, kind: statement, decl: riemannZeta_one_sub, wikipedia: Riemann zeta function, wikidata: Q187235}
+  - {name: non-vanishing of zeta on the line Re s = 1, kind: statement, decl: riemannZeta_ne_zero_of_one_le_re, wikipedia: Prime number theorem, wikidata: Q386292}
+  - {name: Riemann hypothesis, kind: conjecture, decl: RiemannHypothesis, wikipedia: Riemann hypothesis, wikidata: Q205966}
+  - {name: explicit formula, kind: statement, wikipedia: Explicit formulae for L-functions, wikidata: Q5421272}
+  - {name: Dirichlet series, kind: definition, decl: LSeries, wikipedia: Dirichlet series, wikidata: Q620595}
+  - {name: Dirichlet character, kind: definition, decl: DirichletCharacter, wikipedia: Dirichlet character, wikidata: Q1063579}
+  - {name: Dirichlet L-function, kind: definition, decl: DirichletCharacter.LFunction, wikipedia: Dirichlet L-function, wikidata: Q2264419}
+  - {name: Dirichlet's theorem on arithmetic progressions, kind: statement, decl: Nat.infinite_setOf_prime_and_eq_mod, wikipedia: Dirichlet's theorem on arithmetic progressions, wikidata: Q550402}
+  - {name: Hurwitz zeta function, kind: definition, decl: HurwitzZeta.hurwitzZeta, wikipedia: Hurwitz zeta function, wikidata: Q1638777}
+  - {name: Siegel–Walfisz theorem, kind: statement, wikipedia: Siegel–Walfisz theorem, wikidata: Q7510574}
+  - {name: Siegel zero, kind: concept, wikipedia: Siegel zero, wikidata: Q1773226}
+  - {name: Bombieri–Vinogradov theorem, kind: statement, wikipedia: Bombieri–Vinogradov theorem, wikidata: Q2612539}
+  - {name: generalized Riemann hypothesis, kind: conjecture, wikipedia: Generalized Riemann hypothesis, wikidata: Q685140}
+  - {name: Lindelöf hypothesis, kind: conjecture, wikipedia: Lindelöf hypothesis, wikidata: Q911528}
+  - {name: Brun sieve, kind: concept, wikipedia: Brun sieve, wikidata: Q17003952}
+  - {name: Selberg sieve, kind: concept, wikipedia: Selberg sieve, wikidata: Q15777141}
+  - {name: large sieve, kind: concept, wikipedia: Large sieve, wikidata: Q5495242}
+  - {name: Chen's theorem, kind: statement, wikipedia: Chen's theorem, wikidata: Q1317350}
+  - {name: bounded gaps between primes, kind: statement, wikipedia: Prime gap, wikidata: Q1377044}
+  - {name: Erdős–Kac theorem, kind: statement, wikipedia: Erdős–Kac theorem, wikidata: Q846840}
+  # Additive number theory and partitions
+  - {name: Waring's problem, kind: problem, wikipedia: Waring's problem, wikidata: Q657903}
+  - {name: Hardy–Littlewood circle method, kind: concept, wikipedia: Hardy–Ramanujan–Littlewood circle method, wikidata: Q2543359}
+  - {name: Vinogradov's theorem, kind: statement, wikipedia: Vinogradov's theorem, wikidata: Q1694565}
+  - {name: Cauchy–Davenport theorem, kind: statement, decl: ZMod.cauchy_davenport, wikipedia: Restricted sumset, wikidata: Q859107, mathlib: [mathlib-overview]}
+  - {name: Erdős–Ginzburg–Ziv theorem, kind: statement, decl: ZMod.erdos_ginzburg_ziv, wikipedia: Zero-sum problem, wikidata: Q716171, mathlib: [mathlib-overview, mathlib-1000]}
+  - {name: Freiman's theorem, kind: statement, wikipedia: Freiman's theorem, wikidata: Q3527079}
+  - {name: sumset, kind: definition, wikipedia: Minkowski addition, wikidata: Q1322294}
+  - {name: integer partition, kind: definition, decl: Nat.Partition, wikipedia: Integer partition, wikidata: Q1082910}
+  - {name: partition function, kind: definition, wikipedia: Partition function (number theory), wikidata: Q15846551}
+  - {name: pentagonal number theorem, kind: statement, wikipedia: Pentagonal number theorem, wikidata: Q282649}
+  - {name: Rogers–Ramanujan identities, kind: statement, wikipedia: Rogers–Ramanujan identities, wikidata: Q7359380}
+  # Algebraic number theory
+  - {name: algebraic number, kind: definition, wikipedia: Algebraic number, wikidata: Q168817}
+  - {name: algebraic number field, kind: definition, decl: NumberField, wikipedia: Algebraic number field, wikidata: Q616608}
+  - {name: ring of integers, kind: definition, decl: NumberField.RingOfIntegers, wikipedia: Ring of integers, wikidata: Q1358313}
+  - {name: Gaussian integer, kind: object, decl: GaussianInt, wikipedia: Gaussian integer, wikidata: Q724975}
+  - {name: quadratic integer, kind: definition, decl: Zsqrtd, wikipedia: Quadratic integer, wikidata: Q803531}
+  - {name: quadratic field, kind: definition, wikipedia: Quadratic field, wikidata: Q625519}
+  - {name: cyclotomic field, kind: definition, decl: IsCyclotomicExtension, wikipedia: Cyclotomic field, wikidata: Q1554628}
+  - {name: Dedekind domain, kind: definition, decl: IsDedekindDomain, wikipedia: Dedekind domain, wikidata: Q254347}
+  - {name: fractional ideal, kind: definition, decl: FractionalIdeal, wikipedia: Fractional ideal, wikidata: Q1497184, mathlib: [mathlib-overview]}
+  - {name: ideal class group, kind: definition, decl: ClassGroup, wikipedia: Ideal class group, wikidata: Q912083}
+  - {name: class number, kind: definition, decl: NumberField.classNumber, wikipedia: Ideal class group, wikidata: Q912083}
+  - {name: finiteness of the class number, kind: statement, wikipedia: Ideal class group, wikidata: Q912083}
+  - {name: ideal norm, kind: definition, decl: Ideal.absNorm, wikipedia: Ideal norm, wikidata: Q5988007}
+  - {name: discriminant of a number field, kind: definition, decl: NumberField.discr, wikipedia: Discriminant of an algebraic number field, wikidata: Q1228885}
+  - {name: Minkowski bound, kind: statement, wikipedia: Minkowski's bound, wikidata: Q6867845}
+  - {name: Hermite–Minkowski theorem, kind: statement, decl: NumberField.abs_discr_gt_two, wikipedia: Discriminant of an algebraic number field, wikidata: Q1228885}
+  - {name: Dirichlet's unit theorem, kind: statement, decl: NumberField.Units.rank, wikipedia: Dirichlet's unit theorem, wikidata: Q1227702}
+  - {name: regulator of a number field, kind: definition, wikipedia: Dirichlet's unit theorem, wikidata: Q1227702}
+  - {name: splitting of prime ideals, kind: concept, wikipedia: Splitting of prime ideals in Galois extensions, wikidata: Q3042809}
+  - {name: ramification, kind: definition, decl: Ideal.ramificationIdx, wikipedia: Ramification (mathematics), wikidata: Q225527}
+  - {name: fundamental identity for ramification and inertia, kind: statement, decl: Ideal.sum_ramification_inertia, wikipedia: Splitting of prime ideals in Galois extensions, wikidata: Q3042809}
+  - {name: decomposition group, kind: definition, wikipedia: Splitting of prime ideals in Galois extensions, wikidata: Q3042809}
+  - {name: Frobenius element, kind: definition, wikipedia: Frobenius endomorphism, wikidata: Q769124}
+  - {name: Chebotarev's density theorem, kind: statement, wikipedia: Chebotarev density theorem, wikidata: Q1425529}
+  - {name: Dedekind zeta function, kind: definition, wikipedia: Dedekind zeta function, wikidata: Q1182160}
+  - {name: place (number field), kind: definition, decl: NumberField.InfinitePlace, wikipedia: Algebraic number theory, wikidata: Q613048}
+  - {name: Ostrowski's theorem, kind: statement, decl: Rat.AbsoluteValue.equiv_real_or_padic, wikipedia: Ostrowski's theorem, wikidata: Q2919401, mathlib: [mathlib-1000]}
+  - {name: Kronecker–Weber theorem, kind: statement, wikipedia: Kronecker–Weber theorem, wikidata: Q1369453}
+  - {name: regular prime, kind: definition, wikipedia: Regular prime, wikidata: Q426491}
+  - {name: Kummer theory, kind: concept, wikipedia: Kummer theory, wikidata: Q1548483}
+  - {name: Iwasawa theory, kind: concept, wikipedia: Iwasawa theory, wikidata: Q1392559}
+  - {name: Iwasawa main conjecture, kind: statement, wikipedia: Main conjecture of Iwasawa theory, wikidata: Q6736209}
+  - {name: Stark–Heegner theorem, kind: statement, wikipedia: Stark–Heegner theorem, wikidata: Q2793600}
+  - {name: class number problem, kind: problem, wikipedia: Class number problem, wikidata: Q2403973}
+  # Class field theory and adeles
+  - {name: class field theory, kind: concept, wikipedia: Class field theory, wikidata: Q1744580}
+  - {name: Artin reciprocity law, kind: statement, wikipedia: Artin reciprocity, wikidata: Q713069}
+  - {name: Hilbert class field, kind: definition, wikipedia: Hilbert class field, wikidata: Q2916820}
+  - {name: adele ring, kind: definition, decl: NumberField.AdeleRing, wikipedia: Adele ring, wikidata: Q355356}
+  - {name: idele class group, kind: definition, wikipedia: Adelic algebraic group, wikidata: Q525964}
+  - {name: Tate's thesis, kind: concept, wikipedia: Tate's thesis, wikidata: Q7687933}
+  - {name: Hecke character, kind: definition, wikipedia: Hecke character, wikidata: Q1948965}
+  - {name: global field, kind: definition, wikipedia: Global field, wikidata: Q1531713}
+  # Local fields
+  - {name: p-adic number, kind: definition, decl: Padic, wikipedia: P-adic number, wikidata: Q311627, mathlib: [mathlib-overview]}
+  - {name: p-adic integer, kind: definition, decl: PadicInt, wikipedia: P-adic number, wikidata: Q311627, mathlib: [mathlib-overview]}
+  - {name: p-adic absolute value, kind: definition, decl: padicNorm, wikipedia: P-adic valuation, wikidata: Q4008396}
+  - {name: local field, kind: definition, wikipedia: Local field, wikidata: Q1868517}
+  - {name: local class field theory, kind: concept, wikipedia: Local class field theory, wikidata: Q3526829}
+  - {name: ramification group, kind: definition, wikipedia: Ramification group, wikidata: Q7289549}
+  - {name: Hilbert symbol, kind: definition, wikipedia: Hilbert symbol, wikidata: Q740060}
+  # Automorphic forms
+  - {name: modular form, kind: definition, decl: ModularForm, wikipedia: Modular form, wikidata: Q870797}
+  - {name: cusp form, kind: definition, decl: CuspForm, wikipedia: Cusp form, wikidata: Q2400580}
+  - {name: modular group, kind: object, decl: ModularGroup.S, wikipedia: Modular group, wikidata: Q1834342}
+  - {name: upper half-plane, kind: object, decl: UpperHalfPlane, wikipedia: Upper half-plane, wikidata: Q3258885}
+  - {name: congruence subgroup, kind: definition, decl: CongruenceSubgroup.Gamma, wikipedia: Congruence subgroup, wikidata: Q5161000}
+  - {name: Eisenstein series, kind: definition, decl: EisensteinSeries.eisensteinSeriesSIF, wikipedia: Eisenstein series, wikidata: Q1313257}
+  - {name: Dedekind eta function, kind: definition, wikipedia: Dedekind eta function, wikidata: Q1182161}
+  - {name: j-invariant, kind: definition, wikipedia: J-invariant, wikidata: Q287419}
+  - {name: Hecke operator, kind: definition, wikipedia: Hecke operator, wikidata: Q1592959}
+  - {name: Petersson inner product, kind: definition, wikipedia: Petersson inner product, wikidata: Q2079742}
+  - {name: Ramanujan tau function, kind: definition, wikipedia: Ramanujan tau function, wikidata: Q3535240}
+  - {name: Ramanujan–Petersson conjecture, kind: statement, wikipedia: Ramanujan–Petersson conjecture, wikidata: Q630650}
+  - {name: theta function, kind: definition, wikipedia: Theta function, wikidata: Q1154787}
+  - {name: Jacobi's four-square theorem, kind: statement, wikipedia: Jacobi's four-square theorem, wikidata: Q3527095}
+  - {name: Maass wave form, kind: definition, wikipedia: Maass wave form, wikidata: Q6721246}
+  - {name: automorphic form, kind: definition, wikipedia: Automorphic form, wikidata: Q1134435}
+  - {name: Langlands program, kind: conjecture, wikipedia: Langlands program, wikidata: Q1393253}
+  - {name: monstrous moonshine, kind: statement, wikipedia: Monstrous moonshine, wikidata: Q392440}
+  # Arithmetic geometry
+  - {name: elliptic curve, kind: definition, decl: WeierstrassCurve, wikipedia: Elliptic curve, wikidata: Q268493}
+  - {name: group law on an elliptic curve, kind: concept, decl: WeierstrassCurve.Affine.Point, wikipedia: Elliptic curve, wikidata: Q268493}
+  - {name: Mordell's theorem, kind: statement, wikipedia: Mordell–Weil theorem, wikidata: Q284960}
+  - {name: Nagell–Lutz theorem, kind: statement, wikipedia: Nagell–Lutz theorem, wikidata: Q3527132}
+  - {name: Mazur's torsion theorem, kind: statement, wikipedia: Torsion conjecture, wikidata: Q7827204}
+  - {name: Hasse's theorem on elliptic curves, kind: statement, wikipedia: Hasse's theorem on elliptic curves, wikidata: Q3502015}
+  - {name: complex multiplication, kind: concept, wikipedia: Complex multiplication, wikidata: Q2654923}
+  - {name: modularity theorem, kind: statement, wikipedia: Modularity theorem, wikidata: Q649469}
+  - {name: Birch and Swinnerton-Dyer conjecture, kind: conjecture, wikipedia: Birch and Swinnerton-Dyer conjecture, wikidata: Q527863}
+  - {name: Tate–Shafarevich group, kind: definition, wikipedia: Tate–Shafarevich group, wikidata: Q7688027}
+  - {name: Selmer group, kind: definition, wikipedia: Selmer group, wikidata: Q7448760}
+  - {name: Heegner point, kind: definition, wikipedia: Heegner point, wikidata: Q5697927}
+  - {name: Gross–Zagier theorem, kind: statement, wikipedia: Heegner point, wikidata: Q5697927}
+  - {name: Faltings's theorem, kind: statement, wikipedia: Faltings' theorem, wikidata: Q240950}
+  - {name: Siegel's theorem on integral points, kind: statement, wikipedia: Siegel's theorem on integral points, wikidata: Q7510553}
+  - {name: height function, kind: definition, wikipedia: Height function, wikidata: Q65088643}
+  - {name: Galois representation, kind: definition, wikipedia: Galois representation, wikidata: Q3427418}
+  - {name: Serre's modularity conjecture, kind: statement, wikipedia: Serre's modularity conjecture, wikidata: Q681147}
+  - {name: Sato–Tate conjecture, kind: statement, wikipedia: Sato–Tate conjecture, wikidata: Q2993331}
+  - {name: Hasse–Weil zeta function, kind: definition, wikipedia: Hasse–Weil zeta function, wikidata: Q2372257}
+  # Finite fields and computational number theory
+  - {name: finite field, kind: definition, decl: GaloisField, wikipedia: Finite field, wikidata: Q603880}
+  - {name: primality test, kind: concept, wikipedia: Primality test, wikidata: Q829546}
+  - {name: Lucas–Lehmer primality test, kind: statement, decl: lucas_lehmer_sufficiency, wikipedia: Lucas–Lehmer primality test, wikidata: Q1138992, mathlib: [mathlib-overview]}
+  - {name: AKS primality test, kind: statement, wikipedia: Agrawal–Kayal–Saxena primality test, wikidata: Q294284}
+  - {name: integer factorization, kind: problem, wikipedia: Integer factorization, wikidata: Q4846249}
