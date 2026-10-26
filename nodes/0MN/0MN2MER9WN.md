@@ -1,0 +1,40 @@
+---
+tag: 0MN2MER9WN
+kind: statement
+role: axiom
+name: Continuum hypothesis
+aliases: [ch]
+msc: ["03E50"]
+uses: [0V2H5PGJ9B, 0WC28W9DNM, 01GTP8M5RG]
+sources:
+  - url: https://en.wikipedia.org/wiki/Continuum_hypothesis
+    locator: lead section
+same_as:
+  wikidata: Q208416
+  wikipedia: Continuum hypothesis
+---
+
+## Statement
+
+There is no [[set|0SJ3RX9TXA]] $S$ with $\aleph_0 < |S| < 2^{\aleph_0}$.
+Equivalently, with the axiom of choice, $2^{\aleph_0} = \aleph_1$.
+
+## Remarks
+
+In words: each infinite subset of $\mathbb{R}$ is countable or equinumerous with $\mathbb{R}$.
+The hypothesis is independent of ZFC: if ZFC is consistent, then ZFC proves neither the hypothesis nor its negation.
+The generalized continuum hypothesis says that $2^{\aleph_\alpha} = \aleph_{\alpha + 1}$ for each ordinal $\alpha$.
+
+## History
+
+Georg Cantor proposed the hypothesis in 1878.
+It was the first of the problems that David Hilbert presented in 1900.
+Kurt Gödel showed in 1940 that ZFC does not refute it, and Paul Cohen showed in 1963 that ZFC does not prove it.
+
+## Explanations
+
+### L1 human
+
+Cantor showed that $\mathbb{R}$ is larger than $\mathbb{N}$.
+The continuum hypothesis says that no size lies strictly between them.
+The usual axioms of set theory cannot decide whether this is true.

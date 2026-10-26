@@ -1,0 +1,18 @@
+---
+tag: 0JNXSS9TJ9
+kind: concept
+name: Universal set
+aliases: [universe-of-discourse]
+msc: ["03E20"]
+sources:
+  - url: https://en.wikipedia.org/wiki/Universal_set
+    locator: lead section
+same_as:
+  wikidata: Q1378301
+  wikipedia: Universal set
+---
+
+## Summary
+
+A universal set is a set that contains all the objects under discussion.
+In most set theories, there is no set of all sets, so a universal set is always relative to a context.

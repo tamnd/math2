@@ -1,0 +1,16 @@
+---
+tag: 0ZNMMA9TF5
+kind: concept
+name: Intersection
+msc: ["03E20"]
+sources:
+  - url: https://en.wikipedia.org/wiki/Intersection_(set_theory)
+    locator: lead section
+same_as:
+  wikidata: Q185837
+  wikipedia: Intersection (set theory)
+---
+
+## Summary
+
+The intersection of sets is the set of all objects that are elements of each of the sets.

@@ -1,0 +1,17 @@
+---
+tag: 0Q4CBD3HX0
+kind: concept
+name: Domain
+aliases: [domain-of-a-function]
+msc: ["03E20"]
+sources:
+  - url: https://en.wikipedia.org/wiki/Domain_of_a_function
+    locator: lead section
+same_as:
+  wikidata: Q192439
+  wikipedia: Domain of a function
+---
+
+## Summary
+
+The domain of a function is the set of its inputs.
