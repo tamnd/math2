@@ -1,0 +1,33 @@
+---
+tag: 06HYY6DK6X
+kind: definition
+name: Affine combination
+aliases: [barycentre-of-weighted-points]
+msc: [51N10]
+defines: 0KJH6SRFZK
+uses: [09XNAPTJQ7]
+sources:
+  - url: https://en.wikipedia.org/wiki/Affine_space
+    locator: Affine combinations and barycenter
+---
+
+## Definition
+
+Let $K$ be a field and let $A$ be an [[affine space|09XNAPTJQ7]] over a vector space $V$ over $K$.
+Let $p_1, \dots, p_k$ be points of $A$, and let $w_1, \dots, w_k$ be elements of $K$ with $w_1 + \dots + w_k = 1$.
+The affine combination of the points $p_i$ with the weights $w_i$ is the point
+$$\sum_{i=1}^{k} w_i p_i = o + \sum_{i=1}^{k} w_i (p_i - o),$$
+where $o$ is a point of $A$. The result does not depend on the choice of $o$, because the weights add up to 1.
+
+## Remarks
+
+In a vector space with $o = 0$, the affine combination is the linear combination $w_1 p_1 + \dots + w_k p_k$.
+The [[midpoint|0S706JBZBG]] of $p$ and $q$ is the affine combination with the weights $\frac{1}{2}$ and $\frac{1}{2}$.
+Affine maps keep affine combinations: $f\left(\sum_i w_i p_i\right) = \sum_i w_i f(p_i)$.
+An affine combination with all weights $w_i \geq 0$, over the real numbers, is a convex combination.
+
+## Explanations
+
+### L1 human
+
+You cannot add two points of the plane in a sensible way without an origin. But a weighted average of points, with weights that sum to 1, gives the same point for each choice of origin. For example, $\frac{1}{3}A + \frac{1}{3}B + \frac{1}{3}C$ is the centroid of the triangle $ABC$.

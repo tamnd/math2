@@ -1,0 +1,18 @@
+---
+tag: 0QN3D80AWP
+kind: concept
+name: Euclidean vector
+aliases: [vector, geometric-vector]
+msc: [51N20]
+sources:
+  - url: https://en.wikipedia.org/wiki/Euclidean_vector
+    locator: lead section
+same_as:
+  wikidata: Q44528
+  wikipedia: Euclidean vector
+---
+
+## Summary
+
+A Euclidean vector is a geometric quantity with a length and a direction, often drawn as an arrow from one point to another.
+Vectors can be added and multiplied by real numbers, and with these operations they form a real vector space.

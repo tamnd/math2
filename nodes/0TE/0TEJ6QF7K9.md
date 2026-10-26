@@ -1,0 +1,32 @@
+---
+tag: 0TEJ6QF7K9
+kind: definition
+name: Affine space
+msc: [51N10]
+defines: 09XNAPTJQ7
+sources:
+  - url: https://en.wikipedia.org/wiki/Affine_space
+    locator: Definition
+---
+
+## Definition
+
+Let $K$ be a field and let $V$ be a vector space over $K$.
+An affine space over $V$ is a nonempty set $A$ with a map $A \times V \to A$, written $(p, v) \mapsto p + v$, that has these properties.
+For each point $p$ of $A$: $p + 0 = p$.
+For each point $p$ of $A$ and all vectors $u$ and $v$ of $V$: $(p + u) + v = p + (u + v)$.
+For all points $p$ and $q$ of $A$, there is exactly one vector $v$ of $V$ with $p + v = q$. This vector is written $q - p$ or $\overrightarrow{pq}$.
+The elements of $A$ are the points, and $V$ is the space of translations of $A$. The dimension of $A$ is the dimension of $V$.
+
+## Remarks
+
+Each vector space $V$ is an affine space over itself, with the addition of $V$ as the action. In particular $\mathbb{R}^n$ is an affine space over $\mathbb{R}^n$.
+For all points $p$, $q$ and $r$, Chasles's relation holds: $(q - p) + (r - q) = r - p$.
+Mathlib calls this structure an additive torsor, `AddTorsor`. Its definition works for an additive group $V$ in place of a vector space.
+A [[Euclidean space|0XPR1E85W0]] is a real affine space of finite dimension whose space of translations has an inner product.
+
+## Explanations
+
+### L1 human
+
+In an affine space you can subtract two points to get the arrow from one to the other. You can also add an arrow to a point. But you cannot add two points: there is no special origin. A good picture is the plane without its coordinate axes.

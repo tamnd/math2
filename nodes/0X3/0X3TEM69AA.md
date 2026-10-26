@@ -1,0 +1,30 @@
+---
+tag: 0X3TEM69AA
+kind: definition
+name: Congruent triangles
+msc: [51M04]
+defines: 093EDENVA1
+uses: [0CTNFGYMM2, 0NPPGHQNXQ]
+sources:
+  - url: https://en.wikipedia.org/wiki/Congruence_(geometry)
+    locator: Definition of congruence in analytic geometry
+---
+
+## Definition
+
+Let $n$ be a positive integer, and let $ABC$ and $A'B'C'$ be [[triangles|0CTNFGYMM2]] in the Euclidean space $\mathbb{R}^n$.
+The triangles are congruent, written $ABC \cong A'B'C'$, if there is an isometry $f : \mathbb{R}^n \to \mathbb{R}^n$ with $f(A) = A'$, $f(B) = B'$ and $f(C) = C'$.
+An isometry is a map $f$ with $d(f(x), f(y)) = d(x, y)$ for all points $x$ and $y$, where $d$ is the [[Euclidean distance|0NPPGHQNXQ]].
+
+## Remarks
+
+Congruence is an equivalence relation on triangles.
+Congruent triangles have equal corresponding sides and equal corresponding angles. The [[side-side-side criterion|0BRBYRK6PA]] gives the converse.
+The definition depends on the order of the vertices. For example, $ABC \cong ACB$ holds only when $d(A, B) = d(A, C)$.
+Mathlib's `Congruent` asks for equal distances between all pairs of corresponding points of two indexed families. In a Euclidean space this is equivalent, by the side-side-side criterion.
+
+## Explanations
+
+### L1 human
+
+Two triangles are congruent if you can cut one out of paper and lay it exactly on the other. You may slide it, turn it, and flip it over. Then corresponding sides and corresponding angles match.
