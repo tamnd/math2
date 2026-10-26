@@ -1,0 +1,29 @@
+---
+tag: 02CDYWSWSY
+kind: definition
+name: Edge colouring
+msc: [05C15]
+defines: 0B5WCC02AN
+sources:
+  - url: https://en.wikipedia.org/wiki/Edge_coloring
+    locator: Definitions
+---
+
+## Definition
+
+Let $G$ be a [[graph|0JD5C82QMB]] with edge set $E$, and let $C$ be a set of colours.
+An edge colouring of $G$ is a function $c : E \to C$ such that $c(e) \neq c(e')$ for any two distinct edges $e$ and $e'$ with a common end.
+The chromatic index $\chi'(G)$ is the smallest number of colours in an edge colouring of a finite graph $G$.
+
+## Remarks
+
+Each colour class is a [[matching|0Z87BHAFTB]]. Thus an edge colouring is a partition of the edges into matchings.
+The edges at a vertex need different colours, so $\chi'(G) \ge \Delta(G)$.
+Vizing's theorem of 1964 says that a simple graph has $\chi'(G) = \Delta(G)$ or $\chi'(G) = \Delta(G) + 1$.
+
+## Explanations
+
+### L1 human
+
+An edge colouring colours the lines instead of the points: lines that meet must have different colours.
+In a sports schedule, each colour is a round, and each team plays at most one game per round.

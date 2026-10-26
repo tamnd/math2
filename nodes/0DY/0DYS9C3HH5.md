@@ -1,0 +1,34 @@
+---
+tag: 0DYS9C3HH5
+kind: statement
+role: theorem
+name: Stone's representation theorem for finite Boolean algebras
+msc: ["06E05", "06E15"]
+uses: [06GKBTAA5E, 004J7ZEFAT]
+sources:
+  - url: https://en.wikipedia.org/wiki/Stone's_representation_theorem_for_Boolean_algebras
+    locator: Representation theorem
+---
+
+## Statement
+
+An atom of a [[Boolean algebra|06GKBTAA5E]] $B$ is a minimal element of $B \setminus \{0\}$.
+Let $B$ be a finite Boolean algebra, and let $\operatorname{At}(B)$ be its set of atoms.
+Then the map $b \mapsto \{ x \in \operatorname{At}(B) : x \le b \}$ is an isomorphism from $B$ to the [[power set Boolean algebra|004J7ZEFAT]] of $\operatorname{At}(B)$.
+
+## Remarks
+
+A consequence: a finite Boolean algebra with $n$ atoms has $2^n$ elements.
+The general theorem says that every Boolean algebra is isomorphic to the algebra of clopen subsets of its Stone space. For a finite Boolean algebra this space is finite and discrete, and its points correspond to the atoms.
+The general theorem needs a weak form of the axiom of choice, but the finite case does not.
+
+## History
+
+Marshall Stone published the representation theorem for all Boolean algebras in 1936.
+
+## Explanations
+
+### L1 human
+
+Each finite Boolean algebra is the algebra of all subsets of some finite set.
+Each element is the set of atoms below it, and the atoms are the smallest nonzero elements.

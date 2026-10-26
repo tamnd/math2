@@ -1,0 +1,16 @@
+---
+tag: 08ANQHHG3P
+kind: concept
+name: Independent set
+msc: [05C69]
+sources:
+  - url: https://en.wikipedia.org/wiki/Independent_set_(graph_theory)
+    locator: lead section
+same_as:
+  wikidata: Q1060343
+  wikipedia: Independent set (graph theory)
+---
+
+## Summary
+
+An independent set in a graph is a set of vertices with no edges between them. Independent sets are dual to cliques and to vertex covers, and they are the colour classes of colourings. The node [[independent set|0KZJ82WEPP]] gives the precise definition.

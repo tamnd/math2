@@ -1,0 +1,16 @@
+---
+tag: 0EREPBVG2G
+kind: concept
+name: Induced subgraph
+msc: [05C99]
+sources:
+  - url: https://en.wikipedia.org/wiki/Induced_subgraph
+    locator: Definition
+same_as:
+  wikidata: Q24743362
+  wikipedia: Induced subgraph
+---
+
+## Summary
+
+An induced subgraph is the subgraph on a chosen set of vertices that keeps all edges between them. Induced subgraphs describe the structure of a graph on a part of its vertex set. The node [[induced subgraph|0V05FC4GKQ]] gives the precise definition.

@@ -419,7 +419,7 @@ courses:
       - {name: planar graph, kind: definition, wikipedia: Planar graph, wikidata: Q547823}
       - {name: Euler's formula for planar graphs, kind: statement, wikipedia: Euler characteristic, wikidata: Q852973}
       - {name: edge bound for planar graphs, kind: statement, wikipedia: Planar graph, wikidata: Q547823}
-      - {name: K5 and K3, kind: statement, wikipedia: Three utilities problem, wikidata: Q32918}
+      - {name: "K5 and K3,3 are not planar", kind: statement, wikipedia: Three utilities problem, wikidata: Q32918}
       - {name: Kuratowski's theorem, kind: statement, wikipedia: Kuratowski's theorem, wikidata: Q837902}
       - {name: graph colouring, kind: definition, decl: SimpleGraph.Coloring, wikipedia: Graph coloring, wikidata: Q504843}
       - {name: k-colourable graph, kind: definition, decl: SimpleGraph.Colorable, wikipedia: Graph coloring, wikidata: Q504843}

@@ -1,0 +1,30 @@
+---
+tag: 033KTKKRV6
+kind: statement
+role: theorem
+name: Factorial formula for binomial coefficients
+msc: [05A10]
+uses: [0WFCGVMRRC, 092GEF38YD]
+sources:
+  - url: https://en.wikipedia.org/wiki/Binomial_coefficient
+    locator: Factorial formula
+---
+
+## Statement
+
+Let $n$ and $k$ be natural numbers with $k \le n$.
+Then
+$$\binom{n}{k} = \frac{n!}{k!\,(n - k)!}.$$
+
+## Remarks
+
+Equivalently, $k!\,(n-k)!\,\binom{n}{k} = n!$. In this form the identity has no division.
+The formula needs $k \le n$. For $k > n$ the left side is $0$ and $(n - k)!$ has no meaning in the natural numbers.
+A cancelled form is $\binom{n}{k} = \frac{(n)_k}{k!}$, with the [[falling factorial|0N5M924N3P]] $(n)_k$.
+
+## Explanations
+
+### L1 human
+
+Arrange all $n$ objects in a row in $n!$ ways, and take the first $k$ as the chosen set.
+Each choice of set appears $k!\,(n-k)!$ times, because the first $k$ and the last $n-k$ objects can be reordered freely.

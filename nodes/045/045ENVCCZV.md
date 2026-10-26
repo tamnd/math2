@@ -1,0 +1,28 @@
+---
+tag: 045ENVCCZV
+kind: statement
+role: theorem
+name: The derangement numbers count derangements
+msc: [05A05]
+uses: [0TH61JR04G, 03WY4HHMT1]
+sources:
+  - url: https://en.wikipedia.org/wiki/Derangement
+    locator: Counting derangements
+---
+
+## Statement
+
+Let $X$ be a finite set with $|X| = n$.
+Then the number of [[derangements|0TH61JR04G]] of $X$ is the derangement number $D_n$ of the node [[number of derangements|03WY4HHMT1]].
+
+## Remarks
+
+The proof checks the recursion $D_{n+2} = (n + 1)(D_n + D_{n+1})$, as in the node [[recurrence for derangements|0QRRYXG7V7]].
+For $n = 4$ there are $9$ derangements among the $24$ permutations.
+
+## Explanations
+
+### L1 human
+
+The derangement numbers are defined by a recursion, and this result says that they really count the permutations with no fixed point.
+For example, $D_3 = 2$, and $\{1, 2, 3\}$ has exactly the two derangements $231$ and $312$.
