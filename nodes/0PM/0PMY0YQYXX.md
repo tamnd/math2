@@ -1,0 +1,31 @@
+---
+tag: 0PMY0YQYXX
+kind: statement
+role: theorem
+name: The continued fraction of a rational number terminates
+msc: [11A55]
+uses: [0SJ7Z6VKWK, 0TRNT4X7J0]
+sources:
+  - url: https://en.wikipedia.org/wiki/Simple_continued_fraction
+    locator: Finite continued fractions
+---
+
+## Statement
+
+Let $x$ be a real number.
+The [[continued fraction expansion|0SJ7Z6VKWK]] of $x$ is finite if and only if $x$ is rational.
+
+## Remarks
+
+If $x = a/b$ with $b > 0$, the expansion follows the [[Euclidean algorithm|0TRNT4X7J0]] on $a$ and $b$. So it stops after finitely many steps.
+Conversely, a finite simple continued fraction is a rational number.
+For example, $\frac{43}{19}$: $43 = 2 \cdot 19 + 5$, $19 = 3 \cdot 5 + 4$, $5 = 1 \cdot 4 + 1$, $4 = 4 \cdot 1$. So $\frac{43}{19} = [2; 3, 1, 4]$.
+A rational number has exactly two finite expansions, since $[a_0; \dots, a_n] = [a_0; \dots, a_n - 1, 1]$ when $a_n > 1$.
+
+## Explanations
+
+### L1 human
+
+For a fraction, the continued fraction algorithm is the Euclidean algorithm in another form.
+The remainders get smaller, so the process must end.
+An irrational number gives an infinite continued fraction.

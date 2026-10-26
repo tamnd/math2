@@ -1,0 +1,14 @@
+---
+tag: 0QG0Q3NDT9
+kind: concept
+name: Fundamental solution of Pell's equation
+msc: [11D09]
+sources:
+  - url: https://en.wikipedia.org/wiki/Pell%27s_equation
+    locator: lead section
+---
+
+## Summary
+
+The fundamental solution of Pell's equation $x^2 - d y^2 = 1$ is its smallest solution in positive integers.
+The [[definition of the fundamental solution|0KCYJSB9FW]] gives the precise form.

@@ -1,0 +1,29 @@
+---
+tag: 06RJWZCG95
+kind: statement
+role: proposition
+name: Number of invertible residues modulo n
+msc: [11A07]
+uses: [01N3AYAA6N, 0VV04M41AN, 0M67FWZWPQ]
+sources:
+  - url: https://en.wikipedia.org/wiki/Euler%27s_totient_function
+    locator: Euler's theorem
+---
+
+## Statement
+
+Let $n$ be a positive integer.
+The number of invertible elements of the ring $\mathbb{Z}/n\mathbb{Z}$ of the [[integers modulo n|01N3AYAA6N]] is $\varphi(n)$, where $\varphi$ is [[Euler's totient function|0VV04M41AN]].
+
+## Remarks
+
+By the [[existence of inverses modulo n|0M67FWZWPQ]], the class $\overline{a}$ is invertible if and only if $\gcd(a, n) = 1$. The classes of $1, \dots, n$ that are coprime to $n$ give $\varphi(n)$ classes.
+The invertible elements form a group under multiplication, the group of units $(\mathbb{Z}/n\mathbb{Z})^\times$. It has order $\varphi(n)$.
+For example, $(\mathbb{Z}/8\mathbb{Z})^\times = \{ \overline{1}, \overline{3}, \overline{5}, \overline{7} \}$ has $\varphi(8) = 4$ elements.
+
+## Explanations
+
+### L1 human
+
+Modulo $n$, you can divide by exactly $\varphi(n)$ of the $n$ residues.
+For $n = 9$, these are the residues of $1, 2, 4, 5, 7, 8$, and $\varphi(9) = 6$.

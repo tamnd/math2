@@ -1,0 +1,32 @@
+---
+tag: 01N3AYAA6N
+kind: definition
+name: Integers modulo n
+aliases: [ring-of-integers-modulo-n, residue-class-ring]
+msc: [11A07]
+defines: 03VFZ2WETT
+uses: [0QRV8FPK5M, 00FWBN7F0Y, 072D5G4SK6]
+sources:
+  - url: https://en.wikipedia.org/wiki/Modular_arithmetic
+    locator: Integers modulo m
+---
+
+## Definition
+
+Let $n$ be a positive integer.
+The integers modulo $n$ form the set $\mathbb{Z}/n\mathbb{Z} = \{ \overline{0}, \overline{1}, \dots, \overline{n - 1} \}$ of the [[residue classes|0QRV8FPK5M]] modulo $n$.
+Addition and multiplication on $\mathbb{Z}/n\mathbb{Z}$ are $\overline{a} + \overline{b} = \overline{a + b}$ and $\overline{a} \cdot \overline{b} = \overline{a b}$.
+
+## Remarks
+
+The operations are well defined: the result does not depend on the choice of $a$ and $b$ in their classes. This follows from [[compatibility with addition|00FWBN7F0Y]] and [[compatibility with multiplication|072D5G4SK6]].
+With these operations, $\mathbb{Z}/n\mathbb{Z}$ is a commutative ring with $n$ elements, with zero $\overline{0}$ and identity $\overline{1}$.
+Other notations are $\mathbb{Z}_n$ and $\mathbb{Z}/(n)$. The Lean library Mathlib writes `ZMod n`, and it sets `ZMod 0` to be $\mathbb{Z}$.
+The ring is a field if and only if $n$ is prime. See [[integers modulo a prime form a field|0R8YXRC9AJ]].
+
+## Explanations
+
+### L1 human
+
+In $\mathbb{Z}/12\mathbb{Z}$ you compute as on a clock: $\overline{9} + \overline{5} = \overline{14} = \overline{2}$.
+Products work the same way: $\overline{5} \cdot \overline{7} = \overline{35} = \overline{11}$.

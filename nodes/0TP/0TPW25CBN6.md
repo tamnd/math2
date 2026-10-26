@@ -1,0 +1,32 @@
+---
+tag: 0TPW25CBN6
+kind: definition
+name: Congruence modulo n
+aliases: [congruence, modular-congruence]
+msc: [11A07]
+defines: 0WAY5WX8NY
+uses: [096PW7Q014]
+sources:
+  - url: https://en.wikipedia.org/wiki/Modular_arithmetic
+    locator: Congruence
+---
+
+## Definition
+
+Let $n$ be a positive integer, and let $a$ and $b$ be integers.
+The integer $a$ is congruent to $b$ modulo $n$ when $n$ [[divides|096PW7Q014]] $a - b$.
+We write $a \equiv b \pmod{n}$. The integer $n$ is the modulus of the congruence.
+
+## Remarks
+
+Equivalently, $a \equiv b \pmod n$ if and only if $a$ and $b$ have the same remainder on division by $n$, that is, $a \bmod n = b \bmod n$.
+Congruence modulo $n$ is an equivalence relation on the integers. Its classes are the [[residue classes|0QRV8FPK5M]] modulo $n$.
+For example, $38 \equiv 14 \pmod{12}$, because $12 \mid 24$.
+Some texts allow each integer $n$ as a modulus. Then congruence modulo $0$ is equality, and congruence modulo $-n$ is congruence modulo $n$.
+
+## Explanations
+
+### L1 human
+
+Two integers are congruent modulo $n$ when they differ by a multiple of $n$.
+On a $12$-hour clock, $14$ o'clock and $2$ o'clock show the same time, because $14 \equiv 2 \pmod{12}$.

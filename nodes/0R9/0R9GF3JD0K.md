@@ -1,0 +1,30 @@
+---
+tag: 0R9GF3JD0K
+kind: concept
+name: Linear Diophantine equation
+msc: [11D04]
+sources:
+  - url: https://en.wikipedia.org/wiki/Diophantine_equation
+    locator: Linear Diophantine equations
+---
+
+## Summary
+
+A linear Diophantine equation in two unknowns is an equation $a x + b y = c$ with given integers $a$, $b$ and $c$.
+Its solutions are the pairs of integers $(x, y)$ that satisfy it.
+When $a$ and $b$ are not both $0$, the equation has an integer solution if and only if $\gcd(a, b)$ divides $c$.
+In this case, let $d = \gcd(a, b)$ and let $(x_0, y_0)$ be one solution. Then the solutions are the pairs $(x_0 + k b / d, \; y_0 - k a / d)$ with $k$ an integer.
+
+## Remarks
+
+[[Bézout's identity|0DQVHMYAGA]] gives the existence of a solution, and the [[extended Euclidean algorithm|0964YQFSA8]] computes one.
+For example, $6 x + 10 y = 7$ has no integer solution, because $\gcd(6, 10) = 2$ does not divide $7$.
+The equation is a special case of a [[Diophantine equation|08B1RTW7VZ]].
+
+## Explanations
+
+### L1 human
+
+Ask whether you can pay $c$ with coins of value $a$ and $b$, when you can also get coins back as change.
+Each amount that you can pay is a multiple of $\gcd(a, b)$, and each such multiple is possible.
+For example, $3 x + 5 y = 1$ has the solution $x = 2$, $y = -1$.

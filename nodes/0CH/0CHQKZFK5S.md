@@ -1,0 +1,34 @@
+---
+tag: 0CHQKZFK5S
+kind: statement
+role: theorem
+name: Division algorithm
+aliases: [euclidean-division, division-with-remainder]
+msc: [11A05]
+uses: [096PW7Q014]
+sources:
+  - url: https://en.wikipedia.org/wiki/Euclidean_division
+    locator: Division theorem
+same_as:
+  wikidata: Q181054
+  wikipedia: Euclidean division
+---
+
+## Statement
+
+Let $a$ and $b$ be integers with $b \neq 0$.
+Then there is exactly one pair of integers $(q, r)$ such that $a = b q + r$ and $0 \le r < |b|$.
+
+## Remarks
+
+The integer $q$ is the quotient and the integer $r$ is the remainder of the division of $a$ by $b$.
+The remainder is $0$ if and only if $b$ [[divides|096PW7Q014]] $a$.
+For example, $-7 = 3 \cdot (-3) + 2$, so the quotient of $-7$ by $3$ is $-3$ and the remainder is $2$.
+
+## Explanations
+
+### L1 human
+
+You can share $a$ objects into groups of $b$ objects, with some objects left over.
+The theorem says that the number of full groups and the rest are unique, if the rest is smaller than $|b|$.
+For example, $17 = 5 \cdot 3 + 2$: you get $3$ groups of $5$, and $2$ objects stay.

@@ -1,0 +1,29 @@
+---
+tag: 0N3ADXHNTQ
+kind: definition
+name: Composite number
+msc: [11A41]
+defines: 008BH74D7R
+uses: [0SN0MAEKYX]
+sources:
+  - url: https://en.wikipedia.org/wiki/Composite_number
+    locator: lead section
+---
+
+## Definition
+
+A composite number is a natural number $n$ such that $n > 1$ and $n$ is not a [[prime number|0SN0MAEKYX]].
+
+## Remarks
+
+Equivalently, $n$ is composite when $n = a b$ for some natural numbers $a$ and $b$ with $1 < a < n$ and $1 < b < n$.
+The first composite numbers are $4, 6, 8, 9, 10, 12$.
+The number $1$ is neither prime nor composite.
+
+## Explanations
+
+### L1 human
+
+A composite number is a number that you can write as a product of two smaller numbers, each greater than $1$.
+For example, $15 = 3 \cdot 5$ is composite.
+You can arrange a composite number of dots as a rectangle with at least two rows and at least two columns.

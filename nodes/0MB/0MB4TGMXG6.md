@@ -1,0 +1,29 @@
+---
+tag: 0MB4TGMXG6
+kind: definition
+name: Algebraic number
+msc: [11R04]
+defines: 0MNF0BYFQC
+sources:
+  - url: https://en.wikipedia.org/wiki/Algebraic_number
+    locator: lead section
+---
+
+## Definition
+
+A complex number $\alpha$ is algebraic if there is a nonzero polynomial $f$ with rational coefficients such that $f(\alpha) = 0$.
+The degree of $\alpha$ is the smallest degree of such a polynomial.
+
+## Remarks
+
+One may use integer coefficients instead, by clearing denominators.
+Examples are each rational number (degree $1$), $\sqrt{2}$ and $i$ (degree $2$), and $\sqrt[3]{2}$ (degree $3$).
+The algebraic numbers form a field, and this field is countable.
+A complex number that is not algebraic is [[transcendental|079EGSD32Y]].
+
+## Explanations
+
+### L1 human
+
+An algebraic number is a solution of a polynomial equation with integer coefficients.
+For example, $\sqrt{2}$ is algebraic because it solves $x^2 - 2 = 0$.

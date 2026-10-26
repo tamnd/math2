@@ -1,0 +1,31 @@
+---
+tag: 0ASC73QEQT
+kind: statement
+role: theorem
+name: The Möbius function is the inverse of the constant function 1
+msc: [11A25]
+uses: [0C8QENHYZW, 0KH1N66QWW]
+sources:
+  - url: https://en.wikipedia.org/wiki/M%C3%B6bius_function
+    locator: Properties
+---
+
+## Statement
+
+Let $\mathbf{1}$ be the arithmetic function with $\mathbf{1}(n) = 1$ for all $n$, and let $\varepsilon$ be the function with $\varepsilon(1) = 1$ and $\varepsilon(n) = 0$ for $n > 1$.
+Then $\mu * \mathbf{1} = \varepsilon$, where $\mu$ is the [[Möbius function|0C8QENHYZW]] and $*$ is the [[Dirichlet convolution|0KH1N66QWW]].
+That is, for each positive integer $n$,
+$$\sum_{d \mid n} \mu(d) = \begin{cases} 1 & \text{if } n = 1, \\ 0 & \text{if } n > 1. \end{cases}$$
+
+## Remarks
+
+The proof for $n > 1$: let $k = \omega(n) \ge 1$. Only squarefree divisors count, so the sum is $\sum_{j=0}^{k} \binom{k}{j} (-1)^j = (1 - 1)^k = 0$.
+For example, the divisors of $12$ give $\mu(1) + \mu(2) + \mu(3) + \mu(6) = 1 - 1 - 1 + 1 = 0$.
+This identity is the key step in the [[Möbius inversion formula|07Q4TBTFVB]].
+
+## Explanations
+
+### L1 human
+
+The signs $\mu(d)$ over the divisors of $n$ cancel out, except for $n = 1$.
+This is the same cancellation as in the principle of inclusion and exclusion.
