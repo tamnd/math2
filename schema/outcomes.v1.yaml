@@ -20,3 +20,7 @@ rules:
     outcome: merged
     reason: the row has a shared identifier with an older row
     match: the import found that two rows have a mention with the same identifier, and it kept the older row
+  - id: equivalence
+    outcome: merged
+    reason: the row has a formal statement with the same canonical type as a statement of an older row
+    match: pass 2 of the clustering found that two rows have statements of a formal library with the same canonical type hash, so Lean proves each from the other with the identity, and it kept the older row
