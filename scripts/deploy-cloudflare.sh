@@ -9,6 +9,8 @@ set -eu
 dir=${M2_DEPLOY:-$HOME/math2-deploy}
 project=${M2_PAGES_PROJECT:-math2}
 url=${M2_SITE_URL:-https://math2.tamnd.com}
+# Cloudflare Pages takes at most 20,000 files and 25 MiB for each file in one deployment. The margin leaves room for the files that wrangler adds.
+limit=${M2_PAGES_FILES:-19500}
 force=${1:-}
 
 mkdir -p "$dir"
@@ -40,5 +42,11 @@ echo "$(date -u +%FT%TZ) deploy math2 $content, math2-agent $toolchain"
 (cd "$dir/toolchain" && go build -trimpath -o "$dir/m2" ./cmd/m2)
 rm -rf "$dir/site"
 "$dir/m2" site build -content "$dir/content" -spec "$dir/toolchain/spec" -out "$dir/site" -url "$url" -commit "$content" -date now
+files=$(find "$dir/site" -type f | wc -l)
+big=$(find "$dir/site" -type f -size +24M | head -1)
+if [ "$files" -gt "$limit" ] || [ -n "$big" ]; then
+	echo "the site has $files files (the limit is $limit) or a file over 24 MB ($big). The deploy stops and the last deployment stays."
+	exit 1
+fi
 npx --yes wrangler@4 pages deploy "$dir/site" --project-name "$project" --branch main --commit-hash "$content" --commit-message "math2 $content" --commit-dirty=true
 echo "$state" >"$dir/deployed"
