@@ -1,0 +1,40 @@
+---
+tag: 0Q3AKZV74D
+kind: statement
+role: theorem
+name: Stolz–Cesàro theorem
+msc: [40A05]
+uses: [0XKWSSY8P2, 0KN22AAW5R, 09AZCV6GMC]
+sources:
+  - url: https://en.wikipedia.org/wiki/Stolz–Cesàro_theorem
+    locator: Statement of the theorem for the */∞ case
+same_as:
+  wikidata: Q1052752
+  wikipedia: Stolz–Cesàro theorem
+---
+
+## Statement
+
+Let $(a_n)$ and $(b_n)$ be real sequences and let $L$ be a real number.
+Assume that $(b_n)$ is strictly increasing and that $b_n \to +\infty$ as $n \to \infty$.
+Assume that
+$$\lim_{n \to \infty} \frac{a_{n+1} - a_n}{b_{n+1} - b_n} = L.$$
+Then $a_n / b_n \to L$ as $n \to \infty$.
+
+## Remarks
+
+There is also a $0/0$ form. If $a_n \to 0$, $b_n \to 0$, $(b_n)$ is strictly decreasing and the quotient of the differences tends to $L$, then $a_n / b_n \to L$.
+With $b_n = n$ it gives the [[convergence of the Cesàro means|0RDRPBMNAC]].
+For example, with $a_n = 1 + 2 + \cdots + n$ and $b_n = n^2$, the quotient of differences is $(n+1)/(2n+1) \to 1/2$, so $a_n / n^2 \to 1/2$.
+It is a discrete analogue of [[L'Hôpital's rule|0JWT4PPQ7B]].
+
+## History
+
+Otto Stolz proved the $\infty/\infty$ case in a book of 1885. Ernesto Cesàro gave it in an article of 1888.
+
+## Explanations
+
+### L1 human
+
+To compare two sequences that grow without bound, it is enough to compare their steps.
+If each step of $a_n$ is about $L$ times the step of $b_n$, then $a_n$ is about $L$ times $b_n$ in the long run.

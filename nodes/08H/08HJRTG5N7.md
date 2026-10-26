@@ -1,0 +1,29 @@
+---
+tag: 08HJRTG5N7
+kind: definition
+name: Uniform convergence on a set
+msc: [40A30]
+defines: 0W1QMKJ9W8
+uses: [08FPABDQ4C]
+sources:
+  - url: https://en.wikipedia.org/wiki/Uniform_convergence
+    locator: Definition
+---
+
+## Definition
+
+Let $D$ be a set, let $f_n \colon D \to \mathbb{R}$ for $n \ge 1$ and $f \colon D \to \mathbb{R}$ be functions, and let $S \subseteq D$.
+The sequence $(f_n)$ converges uniformly to $f$ on $S$ if for every $\varepsilon > 0$ there is $N$ with $|f_n(x) - f(x)| < \varepsilon$ for all $n \ge N$ and all $x \in S$.
+
+## Remarks
+
+This is [[uniform convergence|08FPABDQ4C]] of the restrictions of $f_n$ and $f$ to $S$.
+A sequence can converge uniformly on each $[0, r]$ with $r < 1$, but not on $[0, 1)$. The sequence $x^n$ is an example.
+Mathlib defines it as `TendstoUniformlyOn`.
+
+## Explanations
+
+### L1 human
+
+We often get uniform convergence only on part of the domain.
+This definition measures the distance between $f_n$ and $f$ only on that part.

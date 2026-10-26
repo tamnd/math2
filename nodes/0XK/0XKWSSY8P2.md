@@ -1,0 +1,35 @@
+---
+tag: 0XKWSSY8P2
+kind: definition
+name: Limit of a sequence
+msc: [40A05]
+defines: 05M5SWSZZD
+uses: [0CTV783HYT]
+sources:
+  - url: https://en.wikipedia.org/wiki/Limit_of_a_sequence
+    locator: Real numbers
+  - url: https://en.wikipedia.org/wiki/Limit_of_a_sequence
+    locator: Topological spaces
+---
+
+## Definition
+
+Let $(a_n)$ be a [[real sequence|0CTV783HYT]] and let $L$ be a real number.
+The sequence $(a_n)$ converges to $L$ if the following holds for each open interval $U$ that contains $L$.
+There is a natural number $N$ such that $a_n \in U$ for all $n \ge N$.
+Then $L$ is a limit of $(a_n)$, and we write $\lim_{n \to \infty} a_n = L$ or $a_n \to L$ as $n \to \infty$.
+
+## Remarks
+
+The [[epsilon-N definition of the limit of a sequence|09G6KHS6GY]] is an equivalent form, with intervals $(L - \varepsilon, L + \varepsilon)$.
+A sequence has at most one limit, by the [[uniqueness of limits|0ZXJ2455NJ]]. So the notation $\lim_{n \to \infty} a_n$ is well defined.
+The same definition works in each topological space, with open neighbourhoods of $L$ in place of open intervals.
+In Mathlib, the limit is the statement `Filter.Tendsto a Filter.atTop (nhds L)`.
+
+## Explanations
+
+### L1 human
+
+The sequence $(a_n)$ tends to $L$ when its terms come close to $L$ and stay close.
+However small a window around $L$ you choose, from some index on, all terms are inside the window.
+For example, $1/(n+1)$ tends to $0$.

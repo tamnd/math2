@@ -1,0 +1,32 @@
+---
+tag: 0VP56B4EMX
+kind: definition
+name: Power series
+msc: [30B10]
+defines: 0MZB06ST2B
+uses: [0JH4MN4K1C]
+sources:
+  - url: https://en.wikipedia.org/wiki/Power_series
+    locator: lead section
+---
+
+## Definition
+
+Let $c$ be a real number and let $(a_n)_{n \ge 0}$ be a real sequence.
+The power series with center $c$ and coefficients $a_n$ is the [[series|0JH4MN4K1C]]
+$$\sum_{n=0}^{\infty} a_n (x - c)^n,$$
+taken as a function of the real variable $x$.
+
+## Remarks
+
+The series always converges at $x = c$, with sum $a_0$.
+The set of $x$ where it converges is an interval around $c$. Its half length is the [[radius of convergence|0660QX1VPR]].
+Polynomials are power series with only finitely many nonzero coefficients.
+Complex power series use the same definition, with a complex variable $z$.
+
+## Explanations
+
+### L1 human
+
+A power series is a polynomial with infinitely many terms.
+For each $x$, we put $x$ into every term and add up the resulting series of numbers.

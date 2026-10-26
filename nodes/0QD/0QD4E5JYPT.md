@@ -1,0 +1,33 @@
+---
+tag: 0QD4E5JYPT
+kind: statement
+role: proposition
+name: Reciprocal rule
+msc: [26A24]
+uses: [0F1WR9C83K, 07ZMX4ANJS]
+sources:
+  - url: https://en.wikipedia.org/wiki/Reciprocal_rule
+    locator: Proof
+same_as:
+  wikidata: Q1246553
+  wikipedia: Reciprocal rule
+---
+
+## Statement
+
+Let $g$ be a real function on an open interval $I$, differentiable at $a \in I$, with $g(a) \ne 0$.
+Then $1/g$ is differentiable at $a$, and
+$$\left( \frac{1}{g} \right)'(a) = -\frac{g'(a)}{g(a)^2}.$$
+
+## Remarks
+
+The difference quotient is $-\frac{g(a + h) - g(a)}{h} \cdot \frac{1}{g(a + h) g(a)}$. Continuity of $g$ at $a$ gives the limit.
+For example, $(1/x)' = -1/x^2$ for $x \ne 0$.
+Mathlib states it as `HasDerivAt.inv`.
+
+## Explanations
+
+### L1 human
+
+When $g$ grows, $1/g$ shrinks, so the two derivatives have opposite signs.
+The factor $1/g^2$ shows that $1/g$ changes fast where $g$ is small.

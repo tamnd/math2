@@ -7,9 +7,6 @@ msc: [54C05]
 sources:
   - url: https://en.wikipedia.org/wiki/Continuous_function
     locator: lead section
-same_as:
-  wikidata: Q170058
-  wikipedia: Continuous function
 ---
 
 ## Summary

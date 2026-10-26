@@ -1,0 +1,28 @@
+---
+tag: 0P9BNBW2W3
+kind: statement
+role: proposition
+name: The exponential function is positive
+msc: [33B10]
+uses: [0RMVS7RXZX, 0E8HNVBCSP]
+sources:
+  - url: https://en.wikipedia.org/wiki/Exponential_function
+    locator: Properties
+---
+
+## Statement
+
+For every real $x$, $\exp(x) > 0$.
+
+## Remarks
+
+By [[the sum rule|0E8HNVBCSP]], $\exp(x) = \exp(x/2)^2 \ge 0$. Also $\exp(x) \exp(-x) = 1$, so $\exp(x) \ne 0$.
+For $x \ge 0$, it also follows from the series, since all terms are nonnegative and the first is $1$.
+Mathlib states it as `Real.exp_pos`.
+
+## Explanations
+
+### L1 human
+
+The graph of $e^x$ stays above the $x$-axis.
+It comes close to $0$ as $x \to -\infty$, but it never reaches $0$.

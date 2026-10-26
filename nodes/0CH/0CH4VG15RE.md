@@ -7,9 +7,6 @@ msc: [30B10]
 sources:
   - url: https://en.wikipedia.org/wiki/Radius_of_convergence
     locator: lead section
-same_as:
-  wikidata: Q1428097
-  wikipedia: Radius of convergence
 ---
 
 ## Summary

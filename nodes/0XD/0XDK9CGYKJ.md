@@ -1,0 +1,16 @@
+---
+tag: 0XDK9CGYKJ
+kind: concept
+name: Rational function
+msc: [26A09]
+sources:
+  - url: https://en.wikipedia.org/wiki/Rational_function
+    locator: lead section
+same_as:
+  wikidata: Q41237
+  wikipedia: Rational function
+---
+
+## Summary
+
+A rational function is a function given by a quotient of two polynomials. It is defined and continuous wherever the denominator is not zero. The node [[rational function|0WCZH4AFMT]] gives the precise definition.

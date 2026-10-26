@@ -1,0 +1,38 @@
+---
+tag: 0PK8QH1W1V
+kind: statement
+role: theorem
+name: Alternating series test
+aliases: [leibniz-test]
+msc: [40A05]
+uses: [017BR1M98J, 0KN22AAW5R, 0FM6N4R0VB]
+sources:
+  - url: https://en.wikipedia.org/wiki/Alternating_series_test
+    locator: Formal statement
+same_as:
+  wikidata: Q914099
+  wikipedia: Alternating series test
+---
+
+## Statement
+
+Let $(b_n)$ be a decreasing real sequence with $b_n \to 0$ as $n \to \infty$.
+Then the [[alternating series|017BR1M98J]] $\sum_{n=0}^{\infty} (-1)^n b_n$ converges.
+Moreover, its sum $S$ and its partial sums $s_N = \sum_{n=0}^{N} (-1)^n b_n$ satisfy $|S - s_N| \le b_{N+1}$ for each $N$.
+
+## Remarks
+
+The even partial sums $s_0, s_2, s_4, \dots$ decrease, and the odd partial sums $s_1, s_3, \dots$ increase. Each odd partial sum is below each even one, so both sequences converge by the [[monotone convergence theorem|0FM6N4R0VB]]. Their limits agree, since $s_{2k} - s_{2k+1} = b_{2k+1} \to 0$.
+The hypothesis that $(b_n)$ decreases is needed. Without it, an alternating series with terms tending to $0$ can diverge.
+Mathlib states the convergence for an antitone sequence, in `Antitone.tendsto_alternating_series_of_tendsto_zero`.
+
+## History
+
+Leibniz discussed the criterion in an unpublished work of 1676. For this reason it is also called the Leibniz test.
+
+## Explanations
+
+### L1 human
+
+Each step goes in the other direction and is shorter than the step before.
+So the partial sums swing back and forth with smaller and smaller swings, and they settle down.

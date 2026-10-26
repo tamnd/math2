@@ -1,0 +1,35 @@
+---
+tag: 0M0TKFRX2A
+kind: statement
+role: theorem
+name: Linearity of differentiation
+aliases: [sum-rule-for-derivatives]
+msc: [26A24]
+uses: [0F1WR9C83K, 0RAM4E07NR]
+sources:
+  - url: https://en.wikipedia.org/wiki/Linearity_of_differentiation
+    locator: Statement and derivation
+same_as:
+  wikidata: Q4895685
+  wikipedia: Linearity of differentiation
+---
+
+## Statement
+
+Let $f$ and $g$ be real functions on an open interval $I$, both differentiable at $a \in I$.
+Let $\alpha$ and $\beta$ be real numbers.
+Then $\alpha f + \beta g$ is differentiable at $a$, and
+$$(\alpha f + \beta g)'(a) = \alpha f'(a) + \beta g'(a).$$
+
+## Remarks
+
+The difference quotient of $\alpha f + \beta g$ is $\alpha$ times that of $f$ plus $\beta$ times that of $g$. The limit laws give the result.
+The case $\alpha = \beta = 1$ is the sum rule $(f + g)' = f' + g'$. The case $\beta = 0$ is the [[constant multiple rule|0Z9JB71BS0]].
+Mathlib states the sum rule as `deriv_add`.
+
+## Explanations
+
+### L1 human
+
+Differentiation respects sums and constant factors.
+So we can differentiate a sum term by term.

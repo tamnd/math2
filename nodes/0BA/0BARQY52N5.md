@@ -1,0 +1,38 @@
+---
+tag: 0BARQY52N5
+kind: statement
+role: theorem
+name: Mean value theorem
+aliases: [lagrange-mean-value-theorem]
+msc: [26A24]
+uses: [0194DY35BG]
+sources:
+  - url: https://en.wikipedia.org/wiki/Mean_value_theorem
+    locator: Statement
+same_as:
+  wikidata: Q189136
+  wikipedia: Mean value theorem
+---
+
+## Statement
+
+Let $a < b$ and let $f \colon [a, b] \to \mathbb{R}$ be continuous on $[a, b]$ and differentiable on $(a, b)$.
+Then there is $c \in (a, b)$ with
+$$f'(c) = \frac{f(b) - f(a)}{b - a}.$$
+
+## Remarks
+
+Apply [[Rolle's theorem|0194DY35BG]] to $g(x) = f(x) - \frac{f(b) - f(a)}{b - a} (x - a)$, which has $g(a) = g(b)$.
+It turns bounds on $f'$ into bounds on $f$. It gives [[zero derivative implies constant|003QDZ4T16]] and the [[monotonicity tests|07J5X2T1ZX]].
+Mathlib states it as `exists_deriv_eq_slope`.
+
+## History
+
+Augustin-Louis Cauchy stated and proved the theorem in its modern form in 1823.
+
+## Explanations
+
+### L1 human
+
+Somewhere between $a$ and $b$, the tangent line is parallel to the chord from $(a, f(a))$ to $(b, f(b))$.
+If a car travels 100 km in one hour, at some moment its speed is exactly 100 km per hour.

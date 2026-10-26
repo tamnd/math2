@@ -1,0 +1,30 @@
+---
+tag: 0HM732ZNVC
+kind: statement
+role: proposition
+name: A sequence converges iff its liminf and limsup agree
+msc: [40A05]
+uses: [0H4R3RESGV, 0P8BA7T7S5, 0AZ3R52593, 0XMF00T4XQ]
+sources:
+  - url: https://en.wikipedia.org/wiki/Limit_inferior_and_limit_superior
+    locator: Properties
+---
+
+## Statement
+
+Let $(a_n)$ be a bounded real sequence.
+Then $(a_n)$ converges if and only if $\liminf_{n \to \infty} a_n = \limsup_{n \to \infty} a_n$.
+In this case, $\lim_{n \to \infty} a_n$ is equal to this common value.
+
+## Remarks
+
+The proof of the direction from right to left uses $\inf_{k \ge n} a_k \le a_n \le \sup_{k \ge n} a_k$ and the [[squeeze theorem|0XMF00T4XQ]].
+In the extended real line, the statement holds for every sequence. Then convergence to $+\infty$ or to $-\infty$ is allowed.
+For $(-1)^n$, the two values are $-1$ and $1$. They differ, so the sequence diverges.
+
+## Explanations
+
+### L1 human
+
+The limit inferior and the limit superior are the lowest and the highest points where the sequence keeps returning.
+If these two points are the same, the sequence has nowhere else to go, so it converges to that point.
