@@ -1,6 +1,6 @@
 name: import
 
-# Import the external sources and update the inventory (corpus spec K4 and K5). Each Monday the run downloads a new snapshot of each source, makes the records with m2 ingest, and adds the new mentions and rows with m2 corpus import. When the tree changes, the run opens a pull request and merges it. A merge with the workflow token does not start a workflow, so the run then starts the check and pages workflows.
+# Import the external sources and update the inventory (corpus spec K4 and K5). Each Monday the run downloads a new snapshot of each source, makes the records with m2 ingest, and adds the new mentions and rows with m2 corpus import. When the tree changes, the run opens a pull request. A pull request or a merge with the workflow token does not start a workflow. Thus the run starts the check workflow on the branch, waits for it, merges the pull request when the checks pass, and then starts the pages workflow.
 on:
   schedule:
     - cron: "41 4 * * 1"
@@ -27,7 +27,7 @@ jobs:
   import:
     name: import the sources
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 150
     permissions:
       # Push the branch of the import and merge its pull request.
       contents: write
@@ -103,6 +103,22 @@ jobs:
             echo '```'
           } > "$RUNNER_TEMP/body.md"
           url=$(gh pr create -R "$REPO" --head "$branch" --base main --title "Import the sources of $day" --body-file "$RUNNER_TEMP/body.md" --label "area: inventory" --label "area: sources")
+          sha=$(git rev-parse HEAD)
+          # The required checks of main come from the check workflow. Start it on the branch and wait for it.
+          gh workflow run check.yml -R "$REPO" --ref "$branch"
+          run=""
+          for _ in $(seq 30); do
+            run=$(gh run list -R "$REPO" --workflow check.yml --branch "$branch" --event workflow_dispatch --commit "$sha" --limit 1 --json databaseId --jq '.[0].databaseId // empty')
+            [ -n "$run" ] && break
+            sleep 10
+          done
+          if [ -z "$run" ]; then
+            echo "::error::The check workflow did not start on $branch. Pull request $url stays open."
+            exit 1
+          fi
+          if ! gh run watch "$run" -R "$REPO" --exit-status --interval 30 > /dev/null; then
+            echo "::error::The checks failed on $branch. Pull request $url stays open for a person."
+            exit 1
+          fi
           gh pr merge "$url" --squash --delete-branch
-          gh workflow run check.yml -R "$REPO" --ref main
           gh workflow run pages.yml -R "$REPO" --ref main
