@@ -1,0 +1,36 @@
+---
+tag: 0A7KJ68XHT
+kind: statement
+role: theorem
+name: Tower law
+aliases: [multiplicativity-formula-for-degrees]
+msc: [12F05]
+uses: [0GS74FGFEK, 02NBKVQFRQ]
+sources:
+  - url: https://en.wikipedia.org/wiki/Degree_of_a_field_extension
+    locator: The multiplicativity formula for degrees
+  - url: https://en.wikipedia.org/wiki/Degree_of_a_field_extension
+    locator: Proof of the multiplicativity formula in the finite case
+---
+
+## Statement
+
+Let $K \subseteq L \subseteq M$ be fields.
+Then
+$$[M : K] = [M : L] \cdot [L : K].$$
+
+## Remarks
+
+The proof: let $u_1, \dots, u_d$ be a basis of $L$ over $K$, and let $w_1, \dots, w_e$ be a basis of $M$ over $L$.
+Then the products $u_i w_j$ are a basis of $M$ over $K$.
+The formula also holds for infinite degrees, as a product of cardinals.
+So $M/K$ is finite if and only if $M/L$ and $L/K$ are finite.
+If $[M : K]$ is a prime number, then $M/K$ has no [[intermediate field|02NBKVQFRQ]] other than $K$ and $M$.
+
+## Explanations
+
+### L1 human
+
+Degrees multiply along a tower of fields.
+For example, $[\mathbb{Q}(\sqrt{2}, \sqrt{3}) : \mathbb{Q}] = 2 \cdot 2 = 4$.
+The law is like Lagrange's theorem for groups, and it is the main tool to compute degrees.

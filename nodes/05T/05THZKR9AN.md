@@ -1,0 +1,32 @@
+---
+tag: 05THZKR9AN
+kind: definition
+name: Group of units of a ring
+msc: [16U60]
+defines: 07C6ECNJET
+uses: [019NFGFPR5, G5S1M9]
+sources:
+  - url: https://en.wikipedia.org/wiki/Unit_(ring_theory)
+    locator: Group of units
+---
+
+## Definition
+
+Let $R$ be a [[ring|0894J980RK]].
+The group of units of $R$ is the set $R^\times$ of the [[units|019NFGFPR5]] of $R$, with the multiplication of $R$.
+It is a [[group|G5S1M9]] with identity element $1$.
+
+## Remarks
+
+The set $R^\times$ is closed under multiplication: if $u$ and $v$ are units, then $(u v)^{-1} = v^{-1} u^{-1}$.
+Other notations for $R^\times$ are $R^*$ and $U(R)$.
+The group $\mathbb{Z}^\times = \{1, -1\}$ has order $2$.
+For a field $K$, $K^\times = K \setminus \{0\}$.
+
+## Explanations
+
+### L1 human
+
+The units of a ring are the elements with an inverse.
+If you multiply two units, you get a unit again.
+So the units form a group under multiplication.

@@ -1,0 +1,18 @@
+---
+tag: 04C5ZBG1WT
+kind: concept
+name: Field
+msc: ["12E99"]
+sources:
+  - url: https://en.wikipedia.org/wiki/Field_(mathematics)
+    locator: lead section
+same_as:
+  wikidata: Q190109
+  wikipedia: Field (mathematics)
+---
+
+## Summary
+
+A field is a commutative ring in which you can divide by every nonzero element.
+The rational numbers, the real numbers and the complex numbers are fields.
+The [[definition of a field|0QA8CHH8MG]] gives the axioms.

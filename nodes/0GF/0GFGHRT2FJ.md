@@ -1,0 +1,14 @@
+---
+tag: 0GFGHRT2FJ
+kind: concept
+name: Subfield
+msc: [12F99]
+sources:
+  - url: https://en.wikipedia.org/wiki/Field_extension
+    locator: Subfield
+---
+
+## Summary
+
+A subfield of a field is a subset that is a field with the same addition and multiplication.
+The [[definition of a subfield|07QY5RPFBR]] lists the closure conditions.

@@ -1,0 +1,47 @@
+---
+tag: 02BPKD7TMD
+kind: statement
+role: theorem
+name: Eisenstein's criterion
+msc: ["12E05"]
+uses: [00X2A9G9W3, 0QFV5Y1Z5X, 0SP14DZN0G]
+sources:
+  - url: https://en.wikipedia.org/wiki/Eisenstein%27s_criterion
+    locator: Criterion
+  - url: https://en.wikipedia.org/wiki/Eisenstein%27s_criterion
+    locator: History
+same_as:
+  wikidata: Q1057416
+  wikipedia: Eisenstein's criterion
+---
+
+## Statement
+
+Let $f = a_n x^n + a_{n-1} x^{n-1} + \dots + a_0 \in \mathbb{Z}[x]$ with $n \ge 1$, and let $p$ be a prime number with these three properties.
+
+1. $p$ divides $a_i$ for each $i$ with $0 \le i < n$.
+2. $p$ does not divide $a_n$.
+3. $p^2$ does not divide $a_0$.
+
+Then $f$ is [[irreducible|00X2A9G9W3]] in $\mathbb{Q}[x]$.
+
+## Remarks
+
+If $f$ is also [[primitive|0SP14DZN0G]], then $f$ is irreducible in $\mathbb{Z}[x]$, by [[Gauss's lemma|0QFV5Y1Z5X]].
+For example, $x^n - 2$ is irreducible over $\mathbb{Q}$ for each $n \ge 1$, with $p = 2$.
+A change of variable can help: $f(x + 1)$ is irreducible if and only if $f(x)$ is. This proves that $x^{p-1} + \dots + x + 1$ is irreducible for $p$ prime.
+The criterion holds more generally for a prime ideal $P$ of an integral domain $R$, with $P^2$ in place of $p^2$.
+
+## History
+
+Theodor Schönemann published a version of the criterion in 1846.
+Gotthold Eisenstein published a different version in 1850.
+Both papers appeared in Crelle's Journal.
+
+## Explanations
+
+### L1 human
+
+The criterion is a quick test of irreducibility over the rationals.
+Find one prime that divides all the coefficients except the leading one, and whose square does not divide the constant term.
+For $x^5 + 6x + 3$, the prime $3$ works, so the polynomial is irreducible.
