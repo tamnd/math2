@@ -6,8 +6,9 @@ name: Convolution theorem for the Laplace transform
 msc: [44A10, 44A35]
 uses: [05XT5AVJBK]
 sources:
-  - url: https://en.wikipedia.org/wiki/Convolution_theorem
-    locator: lead section
+  - url: https://www.jirka.org/diffyqs/html/convolution_section.html
+    locator: Section 6.3, Theorem 6.3.1
+    note: J. Lebl, Notes on Diffy Qs. The theorem states the result for functions of exponential order.
   - url: https://en.wikipedia.org/wiki/Laplace_transform
     locator: Properties and theorems
 ---

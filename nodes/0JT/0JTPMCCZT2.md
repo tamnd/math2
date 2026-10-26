@@ -6,6 +6,9 @@ name: Estimate for approximate solutions
 msc: [34A12, 34A45]
 uses: [0FRX8JD7QH, 055VVSN00V, 07EJHQYR9A]
 sources:
+  - url: https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/Mathlib/Analysis/ODE/Gronwall.lean#L162
+    locator: theorem dist_le_of_approx_trajectories_ODE_of_mem
+    note: Mathlib at the commit that lean/lake-manifest.json pins. The theorem states the estimate with gronwallBound for two approximate solutions that stay in a set where the field is K-Lipschitz.
   - url: https://en.wikipedia.org/wiki/Gr%C3%B6nwall%27s_inequality
     locator: lead section
 ---

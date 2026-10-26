@@ -6,6 +6,9 @@ name: Discrete Grönwall inequality
 msc: [26D15, 39A22]
 uses: [07EJHQYR9A]
 sources:
+  - url: https://www.ceremade.dauphine.fr/~mischler/Enseignements/M2evol2018/chap0.pdf
+    locator: Lemma 5.1 and (5.4)
+    note: S. Mischler, lecture notes "Chapter 0, on the Gronwall lemma", Section 5. Lemma 5.1 is the product form of the remark. With 1 + c <= e^c it gives the statement, and (5.4) is the case of a constant c_k.
   - url: https://en.wikipedia.org/wiki/Gr%C3%B6nwall%27s_inequality
     locator: lead section
 ---
