@@ -1,0 +1,32 @@
+---
+tag: 0F2VBPXNP9
+kind: statement
+role: proposition
+name: Superposition principle
+msc: [34A30]
+uses: [0EQZSAB9EC, 0PB7K8M7FG]
+sources:
+  - url: https://en.wikipedia.org/wiki/Superposition_principle
+    locator: lead section
+same_as:
+  wikidata: Q284885
+  wikipedia: Superposition principle
+---
+
+## Statement
+
+Let $I$ be an open interval, and let $L y = y^{(n)} + a_{n-1}(x) y^{(n-1)} + \dots + a_0(x) y$ with continuous functions $a_0, \dots, a_{n-1}$ on $I$.
+Let $y_1$ and $y_2$ be solutions of the [[homogeneous linear equation|0EQZSAB9EC]] $L y = 0$ on $I$, and let $c_1, c_2$ be real numbers. Then $c_1 y_1 + c_2 y_2$ is a solution of $L y = 0$ on $I$.
+
+## Remarks
+
+The proof is the linearity of $L$: $L(c_1 y_1 + c_2 y_2) = c_1 L y_1 + c_2 L y_2 = 0$.
+The same argument gives a variant for right sides: if $L y_1 = b_1$ and $L y_2 = b_2$, then $L(y_1 + y_2) = b_1 + b_2$.
+The principle fails for nonlinear equations. For $y' = y^2$, the function $y = -1/x$ is a solution on $x > 0$, but $2y$ is not.
+
+## Explanations
+
+### L1 human
+
+For a linear equation, you can add solutions and scale them, and you get solutions again.
+In physics this is superposition: two waves that solve a linear wave equation add up to a third solution.

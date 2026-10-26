@@ -1,0 +1,32 @@
+---
+tag: 0GK68PZ6KH
+kind: statement
+role: theorem
+name: Solution space of a homogeneous linear equation has dimension n
+msc: [34A30]
+uses: [0EQZSAB9EC, 0F2VBPXNP9, 0PB7K8M7FG]
+sources:
+  - url: https://en.wikipedia.org/wiki/Linear_differential_equation
+    locator: Linear differential operator
+---
+
+## Statement
+
+Let $n \ge 1$, let $I$ be an open interval, and let $a_0, \dots, a_{n-1} : I \to \mathbb{R}$ be continuous.
+Let $S$ be the set of solutions $y : I \to \mathbb{R}$ of $y^{(n)} + a_{n-1}(x) y^{(n-1)} + \dots + a_0(x) y = 0$.
+Then $S$ is a real vector space of dimension $n$.
+More precisely, for each $x_0 \in I$, the map $S \to \mathbb{R}^n$, $y \mapsto \left(y(x_0), y'(x_0), \dots, y^{(n-1)}(x_0)\right)$ is a linear bijection.
+
+## Remarks
+
+The [[superposition principle|0F2VBPXNP9]] gives that $S$ is a vector space. The map is injective by the uniqueness of solutions of the initial value problem, and surjective by their existence on all of $I$.
+A basis of $S$ is a [[fundamental system of solutions|0H4KNNCHPY]].
+Example: the solutions of $y'' + y = 0$ on $\mathbb{R}$ are $C_1 \cos x + C_2 \sin x$, a space of dimension $2$.
+
+## Explanations
+
+### L1 human
+
+A solution is fixed by its starting data: the value and the first $n - 1$ derivatives at one point.
+These are $n$ numbers that you can choose freely.
+So there are exactly $n$ independent solutions, and each solution is a combination of them.

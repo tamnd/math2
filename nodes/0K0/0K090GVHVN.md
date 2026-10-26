@@ -1,0 +1,33 @@
+---
+tag: 0K090GVHVN
+kind: statement
+role: proposition
+name: Laplace transform of a derivative
+msc: [44A10]
+uses: [05XT5AVJBK]
+sources:
+  - url: https://en.wikipedia.org/wiki/Laplace_transform
+    locator: Transform of a function's derivative
+  - url: https://en.wikipedia.org/wiki/Laplace_transform
+    locator: Properties and theorems
+---
+
+## Statement
+
+Let $f : [0, \infty) \to \mathbb{C}$ be continuously differentiable, and let $M, a$ be real constants with $|f(t)| \le M e^{a t}$ for all $t \ge 0$.
+Let $F$ be the [[Laplace transform|05XT5AVJBK]] of $f$.
+Then for each $s \in \mathbb{C}$ with $\operatorname{Re} s > a$, the Laplace transform of $f'$ converges at $s$ and
+$$\mathcal{L}\{f'\}(s) = s F(s) - f(0).$$
+
+## Remarks
+
+Proof: integration by parts gives $\int_0^T f'(t) e^{-st}\, dt = f(T) e^{-sT} - f(0) + s \int_0^T f(t) e^{-st}\, dt$. The term $f(T) e^{-sT}$ tends to $0$ for $\operatorname{Re} s > a$.
+Applied twice, under the same hypotheses on $f$ and $f'$: $\mathcal{L}\{f''\}(s) = s^2 F(s) - s f(0) - f'(0)$.
+This rule is the basis of [[solving initial value problems with the Laplace transform|0K3HFZJK5Q]]. The initial values enter the transformed equation directly.
+
+## Explanations
+
+### L1 human
+
+Differentiation in time becomes multiplication by $s$ after the transform, with a correction by the initial value.
+So a differential equation becomes an algebraic equation for $F$.

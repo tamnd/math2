@@ -1,0 +1,34 @@
+---
+tag: 08XDXP86XE
+kind: statement
+role: lemma
+name: An iterate of the Picard operator is a contraction
+msc: [34A12, 47H10]
+uses: [00WAVB68F9, 0J7HF2PF1H, 055VVSN00V]
+sources:
+  - url: https://en.wikipedia.org/wiki/Picard%E2%80%93Lindel%C3%B6f_theorem
+    locator: Detailed proof
+---
+
+## Statement
+
+Let $f$ satisfy the [[Picard–Lindelöf hypotheses|0J7HF2PF1H]] at $(t_0, x_0)$ on $J = [t_{\min}, t_{\max}]$ with constants $a, L, K$.
+Let $X$ be the set of continuous curves $\gamma : J \to \mathbb{R}^n$ with $\|\gamma(t) - x_0\| \le a$ for each $t \in J$, with the distance $d(\gamma, \delta) = \sup_{t \in J} \|\gamma(t) - \delta(t)\|$.
+Let $P : X \to X$ be the [[Picard operator|00WAVB68F9]] and let $T = \max(t_{\max} - t_0,\ t_0 - t_{\min})$.
+Then for each integer $m \ge 0$ and all $\gamma, \delta \in X$,
+$$d\left(P^m \gamma, P^m \delta\right) \le \frac{(K T)^m}{m!}\, d(\gamma, \delta).$$
+In particular, there is an $m \ge 1$ such that $P^m$ is a contraction of $X$: $(KT)^m / m! < 1$.
+
+## Remarks
+
+Proof idea: by induction on $m$, $\|(P^m \gamma)(t) - (P^m \delta)(t)\| \le \frac{(K |t - t_0|)^m}{m!}\, d(\gamma, \delta)$ for each $t \in J$. The induction step integrates the bound of the previous step.
+The space $X$ is a complete metric space. So the Banach fixed point theorem applies to $P^m$, and it gives a unique fixed point of $P$.
+If $K T < 1$, then $P$ itself is a contraction. The power $P^m$ avoids the need for a short time interval.
+
+## Explanations
+
+### L1 human
+
+A contraction brings any two points closer by a fixed factor smaller than one.
+The Picard operator may not do this in one step, but after enough steps it does, because $m!$ grows faster than $(KT)^m$.
+That is enough to get a unique fixed point.

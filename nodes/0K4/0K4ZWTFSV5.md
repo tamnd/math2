@@ -1,0 +1,33 @@
+---
+tag: 0K4ZWTFSV5
+kind: definition
+name: Homogeneous first-order equation
+msc: [34A05]
+defines: 0RN88KZBJ3
+uses: [0P97V20RW7, 0V4E623THY]
+sources:
+  - url: https://en.wikipedia.org/wiki/Homogeneous_differential_equation
+    locator: Homogeneous first-order differential equations
+---
+
+## Definition
+
+Let $J$ be an open interval and let $F : J \to \mathbb{R}$ be a continuous function.
+A homogeneous first-order equation is an [[ordinary differential equation|0P97V20RW7]] of the form
+$$y' = F\left(\frac{y}{x}\right)$$
+for an unknown function $y$ of $x$, on an interval that does not contain $0$, with $y(x)/x \in J$.
+
+## Remarks
+
+An equivalent form is $M(x, y)\, dx + N(x, y)\, dy = 0$, where $M$ and $N$ are homogeneous functions of the same degree $d$: $M(t x, t y) = t^d M(x, y)$ and $N(t x, t y) = t^d N(x, y)$ for $t \ne 0$.
+The substitution $y = x v$ gives $x v' = F(v) - v$. This is a [[separable equation|0V4E623THY]] for $v$.
+Example: $y' = (x + y)/x = 1 + y/x$ gives $x v' = 1$, so $v = \ln|x| + C$ and $y = x \ln|x| + C x$.
+This use of the word homogeneous is different from its use for [[homogeneous linear equations|0EQZSAB9EC]].
+
+## Explanations
+
+### L1 human
+
+In a homogeneous equation, the slope $y'$ depends only on the ratio $y/x$.
+So the slope field is the same along each line through the origin.
+The new unknown $v = y/x$ captures this, and the equation becomes separable.

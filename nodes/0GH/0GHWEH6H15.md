@@ -1,0 +1,33 @@
+---
+tag: 0GHWEH6H15
+kind: statement
+role: theorem
+name: General solution of an inhomogeneous linear equation
+msc: [34A30]
+uses: [0PB7K8M7FG, 0EQZSAB9EC, 0H4KNNCHPY, 0F2VBPXNP9]
+sources:
+  - url: https://en.wikipedia.org/wiki/Linear_differential_equation
+    locator: Linear differential operator
+---
+
+## Statement
+
+Let $I$ be an open interval, let $a_0, \dots, a_{n-1}, b : I \to \mathbb{R}$ be continuous, and let $L y = y^{(n)} + a_{n-1}(x) y^{(n-1)} + \dots + a_0(x) y$.
+Let $y_p$ be a solution of $L y = b$ on $I$, and let $(y_1, \dots, y_n)$ be a [[fundamental system|0H4KNNCHPY]] of $L y = 0$ on $I$.
+Then a function $y : I \to \mathbb{R}$ is a solution of $L y = b$ on $I$ if and only if
+$$y = y_p + c_1 y_1 + \dots + c_n y_n$$
+for some real numbers $c_1, \dots, c_n$.
+
+## Remarks
+
+Proof: $y$ solves $L y = b$ if and only if $L(y - y_p) = 0$, by linearity. Then $y - y_p$ is a combination of the fundamental system.
+The [[method of undetermined coefficients|0XRB469Z32]] and [[variation of parameters|0Y6TH5PQVS]] find a particular solution $y_p$.
+Example: $y'' + y = 1$ has $y_p = 1$, so its solutions are $1 + c_1 \cos x + c_2 \sin x$.
+
+## Explanations
+
+### L1 human
+
+To solve a linear equation with a right side, find one solution by any method.
+Then add all the solutions of the equation without right side.
+This gives every solution, and each only one time.

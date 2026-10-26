@@ -1,0 +1,30 @@
+---
+tag: 0JJ6GDDE7Z
+kind: concept
+name: Underdamped
+msc: [70J30]
+uses: [0RNXVVTJTJ]
+sources:
+  - url: https://en.wikipedia.org/wiki/Damping
+    locator: Oscillation cases
+---
+
+## Summary
+
+A [[damped harmonic oscillator|0RNXVVTJTJ]] $x'' + 2 \zeta \omega_0 x' + \omega_0^2 x = 0$ with $\omega_0 > 0$ is underdamped when its damping ratio satisfies $0 < \zeta < 1$.
+Then the characteristic roots are $-\zeta \omega_0 \pm i \omega_1$ with $\omega_1 = \omega_0 \sqrt{1 - \zeta^2}$.
+Each nonzero solution has the form $x(t) = A e^{-\zeta \omega_0 t} \cos(\omega_1 t + \varphi)$ with $A > 0$: an oscillation whose amplitude decays exponentially.
+
+## Remarks
+
+The other cases are critical damping, $\zeta = 1$, and overdamping, $\zeta > 1$. In these cases the solution changes sign at most one time.
+The damped frequency $\omega_1$ is smaller than the undamped frequency $\omega_0$.
+The zeros of an underdamped solution are spaced $\pi / \omega_1$ apart.
+
+## Explanations
+
+### L1 human
+
+An underdamped system overshoots its rest position again and again.
+Each swing is smaller than the previous one, by the same factor.
+A guitar string or a car on soft springs behaves like this.

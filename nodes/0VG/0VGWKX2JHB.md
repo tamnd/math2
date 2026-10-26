@@ -1,0 +1,38 @@
+---
+tag: 0VGWKX2JHB
+kind: statement
+role: theorem
+name: Abel's identity
+aliases: [abel-formula]
+msc: [34A30]
+uses: [0N5NF1RGBP, 0EQZSAB9EC]
+sources:
+  - url: https://en.wikipedia.org/wiki/Abel%27s_identity
+    locator: Statement
+same_as:
+  wikidata: Q318714
+  wikipedia: Abel's identity
+---
+
+## Statement
+
+Let $I$ be an open interval, let $p, q : I \to \mathbb{R}$ be continuous, and let $y_1, y_2$ be solutions on $I$ of
+$$y'' + p(x)\, y' + q(x)\, y = 0.$$
+Let $W = y_1 y_2' - y_1' y_2$ be their [[Wronskian|0N5NF1RGBP]], and let $x_0 \in I$.
+Then for each $x \in I$,
+$$W(x) = W(x_0) \exp\left( -\int_{x_0}^{x} p(t)\, dt \right).$$
+
+## Remarks
+
+Proof idea: a computation with the equation gives $W' = -p W$, a linear first-order equation for $W$.
+So $W$ is zero at each point or at no point of $I$.
+For an equation of order $n$ with coefficient $a_{n-1}$ of $y^{(n-1)}$, the same formula holds with $p$ replaced by $a_{n-1}$. [[Liouville's formula|09PS3S0EF6]] extends it to linear systems.
+Niels Henrik Abel found the identity.
+
+## Explanations
+
+### L1 human
+
+You can find the Wronskian of two solutions without knowing the solutions.
+Only the coefficient $p$ of $y'$ matters.
+For $y'' + y = 0$, we have $p = 0$, so the Wronskian of two solutions is constant.

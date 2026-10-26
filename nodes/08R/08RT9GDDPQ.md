@@ -1,0 +1,34 @@
+---
+tag: 08RT9GDDPQ
+kind: concept
+name: Power series solution
+msc: [34A25]
+uses: [0EQZSAB9EC, 033WGN00BF]
+sources:
+  - url: https://en.wikipedia.org/wiki/Power_series_solution_of_differential_equations
+    locator: Method
+same_as:
+  wikidata: Q7236612
+  wikipedia: Power series solution of differential equations
+---
+
+## Summary
+
+The power series method looks for a solution of a differential equation in the form $y = \sum_{k \ge 0} a_k (x - x_0)^k$.
+Consider $y'' + p(x) y' + q(x) y = 0$, where $p$ and $q$ are analytic at $x_0$: they equal convergent power series near $x_0$.
+One puts the series into the equation and compares the coefficients of each power $(x - x_0)^k$. This gives a recurrence for the $a_k$, with $a_0$ and $a_1$ free.
+The resulting series converge at least on each disc around $x_0$ where the series of $p$ and $q$ converge, and they give two independent solutions.
+
+## Remarks
+
+Example: for $y' = y$, the series $\sum a_k x^k$ gives $(k + 1) a_{k+1} = a_k$, so $a_k = a_0 / k!$ and $y = a_0 e^x$.
+Example: for $y'' + y = 0$, the recurrence is $a_{k+2} = -a_k / \left((k+1)(k+2)\right)$. It gives the series of $\cos x$ and $\sin x$.
+At a point where a leading coefficient vanishes, the Frobenius method, a variant with a factor $(x - x_0)^r$, is used.
+
+## Explanations
+
+### L1 human
+
+Write the unknown function as a power series with unknown coefficients.
+The equation turns into a rule that gives each coefficient from the earlier ones.
+So you can compute the solution term by term, even when there is no closed formula.

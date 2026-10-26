@@ -1,0 +1,33 @@
+---
+tag: 07BNRFQ0PJ
+kind: definition
+name: Autonomous system
+msc: [34A34, 37C10]
+defines: 0673D85QKZ
+uses: [0P97V20RW7, 04SW7WECS8]
+sources:
+  - url: https://en.wikipedia.org/wiki/Autonomous_system_(mathematics)
+    locator: Definition
+---
+
+## Definition
+
+Let $U$ be an open subset of $\mathbb{R}^n$ and let $f : U \to \mathbb{R}^n$ be a function.
+The autonomous system with vector field $f$ is the system of [[ordinary differential equations|0P97V20RW7]]
+$$x'(t) = f\left(x(t)\right).$$
+A [[solution|04SW7WECS8]] is a differentiable function $\gamma : I \to U$ on an interval $I$ with $\gamma'(t) = f(\gamma(t))$ for each $t \in I$.
+The set $U$ is the phase space, or state space, of the system.
+
+## Remarks
+
+The right side depends on the state $x$ only, not on the time $t$ directly.
+A non-autonomous system $x' = f(t, x)$ becomes autonomous with the extra state variable $s$ and the extra equation $s' = 1$.
+The equation $x' = k x$ of [[exponential growth|00SVP6W3CB]] and the [[logistic equation|0CC4VC7KR3]] are autonomous. The equation $x' = t x$ is not.
+Solutions of an autonomous system can be [[translated in time|0WA7ZR95V4]].
+
+## Explanations
+
+### L1 human
+
+In an autonomous system, the law of motion does not change with time.
+The velocity depends only on where the state is, not on when it is there.
