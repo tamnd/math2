@@ -22,6 +22,18 @@ courses:
       - {name: Lagrange's theorem, kind: statement, wikipedia: "Lagrange's theorem (group theory)"}
 """
 
+SKELETON = """skeleton: 20-XX
+title: Group theory
+sources:
+  wikipedia: {title: English Wikipedia, url: "https://en.wikipedia.org/wiki/"}
+items:
+  - {name: group, kind: concept, wikipedia: Group (mathematics), wikidata: Q83478}
+  - {name: Sylow theorems, kind: statement, wikipedia: Sylow theorems}
+  - {name: simple group, kind: definition, wikipedia: Simple group}
+"""
+
+MSC = '"11-XX": {label: number theory}\n"20-XX": {label: groups}\n'
+
 
 class CheckCurriculaTest(unittest.TestCase):
     def setUp(self):
@@ -70,6 +82,36 @@ class CheckCurriculaTest(unittest.TestCase):
         code, out = self.run_check("--decls", str(self.root / "decls.txt"))
         self.assertEqual(code, 1, out)
         self.assertIn("the decl Group is not in the declaration list", out)
+
+
+    def test_skeleton(self):
+        self.write("topics/msc2020.yaml", MSC)
+        self.write("topics/curricula/core.yaml", GOOD)
+        self.write("topics/skeletons/20.yaml", SKELETON)
+        code, out = self.run_check()
+        self.assertEqual(code, 0, out)
+        self.assertIn("5 items, 0 errors", out)
+
+    def test_skeleton_errors(self):
+        self.write("topics/msc2020.yaml", MSC)
+        cases = {
+            "the wrong file name": ("11.yaml", SKELETON, "the skeleton is '20-XX', and the name of the file is '11'"),
+            "a code that is not top-level": ("20.yaml", SKELETON.replace("20-XX", "20Axx"), "does not match"),
+            "a code that is not in the map": ("30.yaml", SKELETON.replace("20-XX", "30-XX"), "the code 30-XX is not in topics/msc2020.yaml"),
+            "a name two times": ("20.yaml", SKELETON.replace("simple group", "Group"), "the name is also the name of item 1"),
+            "an item without a source": ("20.yaml", SKELETON.replace(", wikipedia: Simple group", ""), "is not valid under any of the given schemas"),
+            "a source that is not defined": ("20.yaml", SKELETON.replace("Sylow theorems}", "Sylow theorems, mathlib: [undergrad]}"), "the file defines no source 'undergrad'"),
+            "a node that does not exist": ("20.yaml", SKELETON.replace("Simple group}", "Simple group, node: 7K3QX2}"), "the node 7K3QX2 does not exist"),
+            "an unknown field": ("20.yaml", SKELETON.replace("title: Group theory", "title: Group theory\nreview: yes"), "Additional properties are not allowed"),
+        }
+        for name, (file, text, want) in cases.items():
+            with self.subTest(name):
+                path = self.root / "topics" / "skeletons" / file
+                self.write(path.relative_to(self.root), text)
+                code, out = self.run_check()
+                path.unlink()
+                self.assertEqual(code, 1, out)
+                self.assertIn(want, out)
 
 
 if __name__ == "__main__":
