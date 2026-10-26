@@ -1,0 +1,31 @@
+---
+tag: ~c8fb2b4d
+kind: definition
+name: Ascending chain condition
+msc: [06A06]
+defines: ~e35f55a6
+sources:
+  - url: https://en.wikipedia.org/wiki/Ascending_chain_condition
+    locator: Definition
+---
+
+## Definition
+
+Let $(P, \le)$ be a partially ordered set.
+The set $P$ satisfies the ascending chain condition if every sequence $a_1 \le a_2 \le a_3 \le \dots$ of elements of $P$ is eventually constant.
+That is, there is an integer $N$ with $a_n = a_N$ for all $n \ge N$.
+
+## Remarks
+
+Equivalently, every nonempty subset of $P$ has a maximal element. This equivalence uses the axiom of dependent choice.
+The set $\mathbb{N}$ with its usual order does not satisfy the condition. With the reverse order, it does.
+For the set of the ideals of a ring, ordered by inclusion, the condition defines [[Noetherian rings|~e586f13b]].
+The ideals of $\mathbb{Z}$ satisfy the condition: a chain $(a_1) \subseteq (a_2) \subseteq \dots$ means $a_2 \mid a_1$, $a_3 \mid a_2$, and so on.
+
+## Explanations
+
+### L1 human
+
+The condition says that you cannot climb forever.
+Every increasing chain stops growing after a finite number of steps.
+For the ideals of the integers, a strictly increasing chain like $(12) \subset (6) \subset (3) \subset (1)$ must end.
