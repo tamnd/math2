@@ -1,0 +1,34 @@
+---
+tag: 0PDBVPP233
+kind: counterexample
+name: Converse of Lagrange's theorem fails for the alternating group A4
+msc: [20D60]
+uses: [3C53TD]
+sources:
+  - url: https://en.wikipedia.org/wiki/Lagrange's_theorem_(group_theory)
+    locator: Existence of subgroups of given order
+  - url: https://en.wikipedia.org/wiki/Lagrange's_theorem_(group_theory)
+    locator: Counterexample of the converse of Lagrange's theorem
+---
+
+## Counterexample
+
+The converse of [[Lagrange's theorem|3C53TD]] would say this. If $G$ is a finite group and $d$ is a positive divisor of $|G|$, then $G$ has a subgroup of order $d$.
+This is false.
+Let $A_4$ be the group of the even permutations of $\{1, 2, 3, 4\}$, under composition.
+It has order $12$, and $6$ divides $12$, but $A_4$ has no subgroup of order $6$.
+
+## Remarks
+
+The elements of $A_4$ are the identity, the three products of two disjoint transpositions, and the eight $3$-cycles.
+A subgroup $H$ of order $6$ would have index $2$, and thus it would contain the square of each element of $A_4$.
+The square of each $3$-cycle is a $3$-cycle, and each $3$-cycle is such a square. So $H$ would contain all eight $3$-cycles, which is too many.
+The group $A_4$ is the smallest group for which the converse fails.
+
+## Explanations
+
+### L1 human
+
+Lagrange's theorem says which sizes a subgroup can have, but it does not promise that each allowed size occurs.
+The group $A_4$ has $12$ elements, and $6$ is an allowed size, but no subgroup has $6$ elements.
+For cyclic groups the converse is true, so a counterexample must be a group that is not cyclic.

@@ -1,0 +1,29 @@
+---
+tag: 08V7JHS3QZ
+kind: statement
+role: corollary
+name: Order of an element divides the order of the group
+msc: [20D60]
+uses: [3C53TD, 031M8HX7DA]
+sources:
+  - url: https://en.wikipedia.org/wiki/Lagrange's_theorem_(group_theory)
+    locator: Applications
+---
+
+## Statement
+
+Let $G$ be a finite [[group|G5S1M9]] and let $g \in G$.
+Then the [[order|0WE2NHZJ7B]] of $g$ divides the [[order|0B85S2V2DR]] $|G|$ of $G$.
+
+## Remarks
+
+The order of $g$ is the order of the cyclic subgroup $\langle g \rangle$, [[by this fact|031M8HX7DA]], and [[Lagrange's theorem|3C53TD]] applies to $\langle g \rangle$.
+For example, in a group of order $10$, each element has order $1, 2, 5$ or $10$.
+
+## Explanations
+
+### L1 human
+
+An element generates a subgroup with as many elements as its order.
+The size of a subgroup always divides the size of the group.
+So the order of an element divides the order of the group.

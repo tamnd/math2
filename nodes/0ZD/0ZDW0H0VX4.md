@@ -1,0 +1,14 @@
+---
+tag: 0ZDW0H0VX4
+kind: concept
+name: Exponent of a group
+msc: [20F50]
+sources:
+  - url: https://en.wikipedia.org/wiki/Torsion_group
+    locator: lead section
+---
+
+## Summary
+
+The exponent of a group is the least positive integer $n$ with $g^n = e$ for each element $g$, when such an integer exists.
+It is the least common multiple of the orders of the elements.

@@ -1,0 +1,30 @@
+---
+tag: 0PMT9YJZVW
+kind: statement
+role: proposition
+name: Order of an inverse
+msc: [20A05]
+uses: [0JPYSD5E0B, 00DRK90Z6K]
+sources:
+  - url: https://en.wikipedia.org/wiki/Order_(group_theory)
+    locator: Order and structure
+---
+
+## Statement
+
+Let $G$ be a [[group|G5S1M9]] and let $g \in G$.
+Then $g$ and its inverse $g^{-1}$ have the same [[order|0WE2NHZJ7B]].
+In particular, $g$ has infinite order if and only if $g^{-1}$ has infinite order.
+
+## Remarks
+
+For each positive integer $n$, $(g^{-1})^n = (g^n)^{-1}$, and $g^n = e$ if and only if $(g^n)^{-1} = e$.
+For example, in $\{1, i, -1, -i\}$, both $i$ and $i^{-1} = -i$ have order $4$.
+
+## Explanations
+
+### L1 human
+
+The inverse of an element walks the same path back to the identity, in the opposite direction.
+It needs the same number of steps.
+A rotation by $90$ degrees and a rotation by $-90$ degrees both have order $4$.

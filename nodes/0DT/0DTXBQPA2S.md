@@ -1,0 +1,17 @@
+---
+tag: 0DTXBQPA2S
+kind: concept
+name: Index of a subgroup
+msc: [20A05]
+sources:
+  - url: https://en.wikipedia.org/wiki/Index_of_a_subgroup
+    locator: lead section
+same_as:
+  wikidata: Q1464168
+  wikipedia: Index of a subgroup
+---
+
+## Summary
+
+The index of a subgroup $H$ in a group $G$ is the number of left cosets of $H$ in $G$.
+For finite groups, it is $|G| / |H|$.

@@ -1,0 +1,14 @@
+---
+tag: 0DXD4QSZ8A
+kind: concept
+name: Conjugate elements
+msc: ["20E45"]
+sources:
+  - url: https://en.wikipedia.org/wiki/Conjugacy_class
+    locator: Definition
+---
+
+## Summary
+
+Two elements $a$ and $b$ of a group $G$ are conjugate when $b = gag^{-1}$ for some $g \in G$.
+Conjugate elements play the same role in the group, up to a change of names given by $g$.

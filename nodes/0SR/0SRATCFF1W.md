@@ -1,0 +1,30 @@
+---
+tag: 0SRATCFF1W
+kind: statement
+role: proposition
+name: Subgroups of the integers
+msc: [20K27]
+uses: [0KB1ND7XDS, 0BSCJA5G53]
+sources:
+  - url: https://en.wikipedia.org/wiki/Cyclic_group
+    locator: Subgroups
+---
+
+## Statement
+
+Let $H$ be a [[subgroup|0X1JXT47GA]] of the [[additive group of integers|0BSCJA5G53]] $(\mathbb{Z}, +)$.
+Then there is exactly one integer $n \geq 0$ with $H = n\mathbb{Z} = \{nk : k \in \mathbb{Z}\}$.
+
+## Remarks
+
+When $H \neq \{0\}$, the integer $n$ is the smallest positive element of $H$.
+For $m, n \geq 0$, $m\mathbb{Z} \subseteq n\mathbb{Z}$ holds exactly when $n$ divides $m$.
+A consequence is that, for integers $a$ and $b$, the subgroup $a\mathbb{Z} + b\mathbb{Z}$ is $d\mathbb{Z}$ with $d = \gcd(a, b)$, which gives Bezout's identity.
+
+## Explanations
+
+### L1 human
+
+Each subgroup of the integers is the set of multiples of one number.
+For example, the set of all sums $4x + 6y$ with integers $x, y$ is the set of multiples of $2$.
+The number $0$ gives the trivial subgroup $\{0\}$.
