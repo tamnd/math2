@@ -1,0 +1,29 @@
+---
+tag: ~9acf4bb6
+kind: definition
+name: Primitive root of unity
+msc: [11R18]
+defines: ~d862b719
+uses: [~c96389e8]
+sources:
+  - url: https://en.wikipedia.org/wiki/Root_of_unity
+    locator: General definition
+---
+
+## Definition
+
+Let $n$ be a positive integer.
+A complex number $\zeta$ is a primitive $n$th root of unity when $\zeta^n = 1$ and $\zeta^k \neq 1$ for each integer $k$ with $1 \le k < n$.
+
+## Remarks
+
+Equivalently, $\zeta$ has order exactly $n$ in the multiplicative group $\mathbb{C} \setminus \{0\}$.
+If $\zeta$ is a primitive $n$th root of unity, then $1, \zeta, \zeta^2, \dots, \zeta^{n-1}$ are all the $n$th [[roots of unity|~c96389e8]].
+The number $e^{2 \pi i k / n}$ is primitive exactly when $\gcd(k, n) = 1$. Thus there are $\varphi(n)$ primitive $n$th roots of unity, where $\varphi$ is Euler's totient function.
+
+## Explanations
+
+### L1 human
+
+The number $i$ is a primitive $4$th root of unity: $i, i^2 = -1, i^3 = -i$ are not $1$, and $i^4 = 1$.
+The number $-1$ is a $4$th root of unity, but not a primitive one, because already $(-1)^2 = 1$.
