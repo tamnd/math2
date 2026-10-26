@@ -156,6 +156,12 @@ jobs:
       - uses: ./.github/actions/m2
       - name: m2 check
         run: m2 check
+      # Each volume must pass the pack checks PC1 to PC10 of corpus K11.6. The check writes no file.
+      - name: m2 pack
+        run: |
+          for v in volumes/*.yaml; do
+            m2 pack -check -q "$v"
+          done
       # A pull request gets the audit of its changes. A push to main gets the full audit.
       - name: m2 audit
         env:

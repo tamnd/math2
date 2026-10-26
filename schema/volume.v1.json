@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tamnd/math2/schema/volume.v1.json",
+  "title": "math2 volume",
+  "description": "A volume in volumes/. m2 pack assembles it into an edition from the nodes of the tree. See corpus K11 in tamnd/math2-agent.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "editors", "kind", "targets"],
+  "$defs": {
+    "slug": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+    "tag": {"type": "string", "pattern": "^([0-9A-Z]{6}|[0-9A-Z]{10})$"},
+    "person": {"type": "string", "pattern": "^(github:[A-Za-z0-9-]+|orcid:[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{3}[0-9X])$"},
+    "nonempty": {"type": "string", "minLength": 1}
+  },
+  "properties": {
+    "id": {"$ref": "#/$defs/slug", "description": "The id of the volume. It is the name of the file without .yaml."},
+    "title": {"$ref": "#/$defs/nonempty"},
+    "editors": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/person"}, "description": "The people who are responsible for the volume."},
+    "kind": {"enum": ["course", "book", "notes", "survey", "article", "reference", "problems"]},
+    "audience": {"$ref": "#/$defs/nonempty", "description": "The level of the reader, as in corpus K8.3."},
+    "targets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"type": "string", "pattern": "^([0-9A-Z]{6}|[0-9A-Z]{10}|curriculum:[a-z0-9]+(-[a-z0-9]+)*(/[a-z0-9]+(-[a-z0-9]+)*)?|msc:[0-9]{2}([A-Z-]([0-9]{2}|xx|XX)?)?)$"},
+      "description": "The nodes that the volume must have: tags, topic tags, curriculum:ID, curriculum:ID/COURSE or msc:CODE. The volume has their closure."
+    },
+    "assumes": {"type": "array", "items": {"$ref": "#/$defs/tag"}, "description": "The nodes that the reader knows. The closure stops at them."},
+    "release": {"type": "string", "minLength": 1, "description": "The math2 release that the edition pins. Without it, the edition is a draft."},
+    "levels": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "writing": {"enum": ["W0", "W1", "W2", "W3"]},
+        "evidence": {"type": "string", "pattern": "^E[0-5]$"}
+      }
+    },
+    "proofs": {"enum": ["all", "main", "none"]},
+    "exercises": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "per_section": {"type": "integer", "minimum": 0},
+        "difficulty": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "integer", "minimum": 1, "maximum": 5}}
+      }
+    },
+    "choose": {"type": "object", "propertyNames": {"$ref": "#/$defs/tag"}, "additionalProperties": {"$ref": "#/$defs/tag"}, "description": "The definition that the volume uses for a concept with two or more, by the tag of the concept."},
+    "conventions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["convention", "option"],
+        "properties": {
+          "convention": {"$ref": "#/$defs/nonempty"},
+          "option": {"$ref": "#/$defs/nonempty"},
+          "differ": {"type": "object", "propertyNames": {"$ref": "#/$defs/tag"}, "additionalProperties": {"$ref": "#/$defs/nonempty"}}
+        }
+      }
+    },
+    "notation": {"type": "object", "additionalProperties": {"$ref": "#/$defs/nonempty"}, "description": "The variant that the volume uses, by the id of the register entry."},
+    "outline": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["title", "sections"],
+        "properties": {
+          "id": {"$ref": "#/$defs/slug"},
+          "title": {"$ref": "#/$defs/nonempty"},
+          "sections": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["title", "nodes"],
+              "properties": {
+                "id": {"$ref": "#/$defs/slug"},
+                "title": {"$ref": "#/$defs/nonempty"},
+                "nodes": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/tag"}}
+              }
+            }
+          }
+        }
+      }
+    },
+    "glue": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["at", "writer"],
+        "oneOf": [{"required": ["text"]}, {"required": ["file"]}],
+        "properties": {
+          "at": {"$ref": "#/$defs/slug", "description": "preface, or the id of a chapter or a section."},
+          "text": {"$ref": "#/$defs/nonempty", "description": "Markdown with no mathematics (check PC7)."},
+          "file": {"type": "string", "pattern": "^[A-Za-z0-9_-]+(/[A-Za-z0-9_-]+)*\\.md$", "description": "A Markdown file in volumes/<id>/."},
+          "writer": {"$ref": "#/$defs/nonempty"},
+          "run": {"type": "string", "pattern": "^r-[0-9]{4}-[0-9]{2}-[0-9]{2}-[0-9]{4}$"},
+          "confirmed": {"$ref": "#/$defs/person"}
+        }
+      }
+    },
+    "formats": {"type": "array", "items": {"enum": ["html", "latex", "pretext", "jats", "cartridge", "blueprint", "myst", "typst", "slides"]}}
+  }
+}
