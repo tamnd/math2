@@ -2,10 +2,23 @@
 sources:
   - id: wikidata
     name: Wikidata
+    kind: database
     home: https://www.wikidata.org
     licence: CC0-1.0
     class: open
+    licence_read:
+      at: https://www.wikidata.org/wiki/Wikidata:Copyright
+      on: "2026-10-27"
+      by: Claude Code, for tamnd
+    authored: human
+    channel: api
+    terms:
+      robots: n/a, the importer uses the query service and not the pages
+      rate: one query for each snapshot, with the User-Agent of m2
+      ai: none stated
     attribution: Wikidata, the Wikimedia Foundation, https://www.wikidata.org, CC0 1.0
+    adapter: wikidata/2
+    approved_by: tamnd
     snapshots:
       - url: https://query.wikidata.org/sparql
         hash: blake3:651ed2748546bb40b554b6c5b2bb97d20dbdc89babecb0205552d99ba5a87729
