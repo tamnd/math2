@@ -1,0 +1,226 @@
+# The C2 skeleton of 34-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 34-XX
+title: ordinary differential equations
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+  mathlib-undergrad: {title: "Mathlib, the list of undergraduate topics", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/undergrad.yaml'}
+  mathlib-overview: {title: "Mathlib, the overview of the library", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/overview.yaml'}
+items:
+  # Basic notions
+  - {name: ordinary differential equation, kind: definition, wikipedia: Ordinary differential equation, wikidata: Q465274}
+  - {name: order of a differential equation, kind: definition, wikipedia: Differential equation, wikidata: Q11214}
+  - {name: initial value problem, kind: definition, wikipedia: Initial value problem, wikidata: Q10167591}
+  - {name: autonomous system, kind: definition, wikipedia: Autonomous system (mathematics), wikidata: Q788009}
+  - {name: integral curve, kind: definition, decl: IsIntegralCurve, wikipedia: Integral curve, wikidata: Q1665406}
+  - {name: direction field, kind: concept, wikipedia: Slope field, wikidata: Q2336508}
+  - {name: phase space, kind: concept, wikipedia: Phase space, wikidata: Q62542}
+  - {name: phase portrait, kind: concept, wikipedia: Phase portrait, wikidata: Q2532943}
+  - {name: first integral, kind: definition, wikipedia: Constant of motion, wikidata: Q647631}
+  - {name: differential-algebraic system of equations, kind: definition, wikipedia: Differential-algebraic system of equations, wikidata: Q955889}
+  - {name: stiff equation, kind: definition, wikipedia: Stiff equation, wikidata: Q29744}
+  # Existence, uniqueness and dependence on data
+  - {name: Picard–Lindelöf theorem, kind: statement, decl: IsPicardLindelof, wikipedia: Picard–Lindelöf theorem, wikidata: Q530152}
+  - {name: Picard iteration, kind: concept, wikipedia: Picard–Lindelöf theorem, wikidata: Q530152}
+  - {name: Peano existence theorem, kind: statement, wikipedia: Peano existence theorem, wikidata: Q740093}
+  - {name: Carathéodory's existence theorem, kind: statement, wikipedia: Carathéodory's existence theorem, wikidata: Q5037752}
+  - {name: uniqueness of solutions under a Lipschitz condition, kind: statement, decl: ODE_solution_unique, wikipedia: Picard–Lindelöf theorem, wikidata: Q530152}
+  - {name: Osgood uniqueness criterion, kind: statement, wikipedia: Osgood's lemma, wikidata: Q7106530}
+  - {name: Grönwall's inequality, kind: statement, decl: norm_le_gronwallBound_of_norm_deriv_right_le, wikipedia: Grönwall's inequality, wikidata: Q510733, mathlib: [mathlib-undergrad]}
+  - {name: Bihari–LaSalle inequality, kind: statement, wikipedia: Bihari–LaSalle inequality, wikidata: Q4907094}
+  - {name: maximal solution, kind: definition, wikipedia: Ordinary differential equation, wikidata: Q465274}
+  - {name: continuous dependence on initial conditions, kind: statement, wikipedia: Well-posed problem, wikidata: Q1455898}
+  - {name: differentiable dependence on parameters, kind: statement, wikipedia: Picard–Lindelöf theorem, wikidata: Q530152}
+  - {name: comparison theorem, kind: statement, wikipedia: Comparison theorem, wikidata: Q5156040}
+  - {name: Kneser's theorem on solution sets, kind: statement, wikipedia: Peano existence theorem, wikidata: Q740093}
+  - {name: Banach fixed-point theorem, kind: statement, decl: ContractingWith.fixedPoint, wikipedia: Banach fixed-point theorem, wikidata: Q220680}
+  # Elementary methods of solution
+  - {name: separation of variables, kind: concept, wikipedia: Separation of variables, wikidata: Q913323}
+  - {name: exact differential equation, kind: definition, wikipedia: Exact differential equation, wikidata: Q1366795}
+  - {name: integrating factor, kind: concept, wikipedia: Integrating factor, wikidata: Q2734005}
+  - {name: linear differential equation, kind: definition, wikipedia: Linear differential equation, wikidata: Q1129902}
+  - {name: homogeneous differential equation, kind: definition, wikipedia: Homogeneous differential equation, wikidata: Q2434565}
+  - {name: Bernoulli differential equation, kind: example, wikipedia: Bernoulli differential equation, wikidata: Q793674}
+  - {name: Riccati equation, kind: example, wikipedia: Riccati equation, wikidata: Q851503}
+  - {name: Clairaut's equation, kind: example, wikipedia: Clairaut's equation, wikidata: Q1094772}
+  - {name: d'Alembert's equation, kind: example, wikipedia: D'Alembert's equation, wikidata: Q1272852}
+  - {name: Abel equation of the first kind, kind: example, wikipedia: Abel equation of the first kind, wikidata: Q3730861}
+  - {name: singular solution, kind: definition, wikipedia: Singular solution, wikidata: Q4338245}
+  - {name: envelope, kind: concept, wikipedia: Envelope (mathematics), wikidata: Q1060372}
+  - {name: method of undetermined coefficients, kind: concept, wikipedia: Method of undetermined coefficients, wikidata: Q1036452}
+  - {name: variation of parameters, kind: concept, wikipedia: Variation of parameters, wikidata: Q1205942}
+  - {name: reduction of order, kind: concept, wikipedia: Reduction of order, wikidata: Q1430365}
+  - {name: Laplace transform applied to differential equations, kind: concept, wikipedia: Laplace transform applied to differential equations, wikidata: Q2858841}
+  - {name: Lie symmetry method, kind: concept, wikipedia: Lie point symmetry, wikidata: Q6543828}
+  - {name: Picard–Vessiot theory, kind: concept, wikipedia: Picard–Vessiot theory, wikidata: Q7190519}
+  - {name: Liouvillian function, kind: definition, wikipedia: Liouvillian function, wikidata: Q25303953}
+  - {name: Kovacic's algorithm, kind: concept, wikipedia: Picard–Vessiot theory, wikidata: Q7190519}
+  # Linear equations and systems
+  - {name: linear system of ODEs, kind: definition, wikipedia: Linear differential equation, wikidata: Q1129902}
+  - {name: fundamental matrix, kind: definition, wikipedia: Fundamental matrix (linear differential equation), wikidata: Q17014996}
+  - {name: Wronskian, kind: definition, wikipedia: Wronskian, wikidata: Q124743}
+  - {name: Abel's identity, kind: statement, wikipedia: Abel's identity, wikidata: Q318714}
+  - {name: matrix exponential, kind: definition, decl: NormedSpace.exp, wikipedia: Matrix exponential, wikidata: Q1191722, mathlib: [mathlib-undergrad]}
+  - {name: characteristic equation, kind: definition, wikipedia: Characteristic equation (calculus), wikidata: Q1062971}
+  - {name: superposition principle, kind: statement, wikipedia: Superposition principle, wikidata: Q284885}
+  - {name: Cauchy–Euler equation, kind: example, wikipedia: Cauchy–Euler equation, wikidata: Q1196465}
+  - {name: Floquet theory, kind: concept, wikipedia: Floquet theory, wikidata: Q902618}
+  - {name: Hill differential equation, kind: example, wikipedia: Hill differential equation, wikidata: Q1169848}
+  - {name: Mathieu function, kind: object, wikipedia: Mathieu function, wikidata: Q1908689}
+  - {name: Magnus expansion, kind: concept, wikipedia: Magnus expansion, wikidata: Q6732207}
+  - {name: Liouville's formula, kind: statement, wikipedia: Liouville's formula, wikidata: Q1827325}
+  - {name: Lyapunov exponent, kind: definition, wikipedia: Lyapunov exponent, wikidata: Q1238630}
+  - {name: Duhamel's principle, kind: statement, wikipedia: Duhamel's principle, wikidata: Q4378863}
+  - {name: Green's function, kind: definition, wikipedia: Green's function, wikidata: Q378435}
+  - {name: harmonic oscillator, kind: example, wikipedia: Harmonic oscillator, wikidata: Q190070}
+  - {name: resonance, kind: concept, wikipedia: Resonance, wikidata: Q172858}
+  # Complex domain and special equations
+  - {name: ordinary point and singular point, kind: definition, wikipedia: Frobenius method, wikidata: Q1340153}
+  - {name: regular singular point, kind: definition, wikipedia: Regular singular point, wikidata: Q3925845}
+  - {name: Frobenius method, kind: concept, wikipedia: Frobenius method, wikidata: Q1340153}
+  - {name: Fuchs' theorem, kind: statement, wikipedia: Fuchs's theorem, wikidata: Q5506929}
+  - {name: Fuchsian equation, kind: definition, wikipedia: Fuchsian theory, wikidata: Q55647818}
+  - {name: Riemann's differential equation, kind: example, wikipedia: Riemann's differential equation, wikidata: Q974071}
+  - {name: hypergeometric differential equation, kind: example, wikipedia: Hypergeometric function, wikidata: Q21028472}
+  - {name: Heun function, kind: object, wikipedia: Heun function, wikidata: Q5748204}
+  - {name: Bessel's equation, kind: example, wikipedia: Bessel function, wikidata: Q219637}
+  - {name: Legendre's equation, kind: example, wikipedia: Legendre polynomials, wikidata: Q215405}
+  - {name: Hermite equation, kind: example, wikipedia: Hermite polynomials, wikidata: Q658574}
+  - {name: Airy equation, kind: example, wikipedia: Airy function, wikidata: Q409415}
+  - {name: Laguerre equation, kind: example, wikipedia: Laguerre polynomials, wikidata: Q1124546}
+  - {name: monodromy, kind: definition, wikipedia: Monodromy, wikidata: Q543956}
+  - {name: Riemann–Hilbert problem, kind: problem, wikipedia: Riemann–Hilbert problem, wikidata: Q5986515}
+  - {name: Hilbert's twenty-first problem, kind: problem, wikipedia: Hilbert's twenty-first problem, wikidata: Q4155615}
+  - {name: Stokes phenomenon, kind: concept, wikipedia: Stokes phenomenon, wikidata: Q7618550}
+  - {name: irregular singularity, kind: definition, wikipedia: Regular singular point, wikidata: Q3925845}
+  - {name: Painlevé transcendents, kind: object, wikipedia: Painlevé transcendents, wikidata: Q907724}
+  - {name: Painlevé property, kind: definition, wikipedia: Painlevé transcendents, wikidata: Q907724}
+  - {name: isomonodromic deformation, kind: concept, wikipedia: Isomonodromic deformation, wikidata: Q6086086}
+  - {name: Schwarzian derivative, kind: definition, wikipedia: Schwarzian derivative, wikidata: Q864589}
+  - {name: Lamé function, kind: object, wikipedia: Lamé function, wikidata: Q3127537}
+  - {name: Cauchy–Kovalevskaya theorem for ODEs, kind: statement, wikipedia: Cauchy–Kovalevskaya theorem, wikidata: Q1614464}
+  # Boundary value problems and Sturm–Liouville theory
+  - {name: boundary value problem, kind: definition, wikipedia: Boundary value problem, wikidata: Q1332643}
+  - {name: Dirichlet boundary condition, kind: definition, wikipedia: Dirichlet boundary condition, wikidata: Q1193699}
+  - {name: Neumann boundary condition, kind: definition, wikipedia: Neumann boundary condition, wikidata: Q1149279}
+  - {name: Robin boundary condition, kind: definition, wikipedia: Robin boundary condition, wikidata: Q748993}
+  - {name: periodic boundary conditions, kind: definition, wikipedia: Periodic boundary conditions, wikidata: Q2992284}
+  - {name: Fredholm alternative, kind: statement, wikipedia: Fredholm alternative, wikidata: Q657820}
+  - {name: shooting method, kind: concept, wikipedia: Shooting method, wikidata: Q1749769}
+  - {name: Sturm–Liouville theory, kind: concept, wikipedia: Sturm–Liouville theory, wikidata: Q1154082}
+  - {name: Sturm comparison theorem, kind: statement, wikipedia: Sturm–Picone comparison theorem, wikidata: Q3983968}
+  - {name: Sturm separation theorem, kind: statement, wikipedia: Sturm separation theorem, wikidata: Q7629089}
+  - {name: oscillation theory, kind: concept, wikipedia: Oscillation theory, wikidata: Q289610}
+  - {name: Weyl–Titchmarsh theory, kind: concept, wikipedia: Sturm–Liouville theory, wikidata: Q1154082}
+  - {name: limit-point and limit-circle, kind: definition, wikipedia: Sturm–Liouville theory, wikidata: Q1154082}
+  - {name: Schrödinger operator, kind: definition, wikipedia: Schrödinger equation, wikidata: Q165498}
+  - {name: inverse spectral problem, kind: problem, wikipedia: Inverse problem, wikidata: Q1567213}
+  - {name: Gelfand–Levitan theory, kind: concept, wikipedia: Inverse scattering transform, wikidata: Q17098188}
+  - {name: Borg–Marchenko uniqueness theorem, kind: statement, wikipedia: Inverse scattering transform, wikidata: Q17098188}
+  - {name: hearing the shape of a drum, kind: problem, wikipedia: Hearing the shape of a drum, wikidata: Q5691670}
+  - {name: Rayleigh quotient, kind: definition, decl: ContinuousLinearMap.rayleighQuotient, wikipedia: Rayleigh quotient, wikidata: Q1665115}
+  - {name: Weyl's law, kind: statement, wikipedia: Weyl law, wikidata: Q7990330}
+  - {name: Hartman–Wintner theorem, kind: statement, wikipedia: Oscillation theory, wikidata: Q289610}
+  - {name: Hamiltonian system of ODEs, kind: definition, wikipedia: Hamiltonian system, wikidata: Q2072471}
+  # Qualitative theory
+  - {name: equilibrium point, kind: definition, wikipedia: Equilibrium point (mathematics), wikidata: Q1530271}
+  - {name: periodic solution, kind: definition, wikipedia: Periodic function, wikidata: Q184743}
+  - {name: limit cycle, kind: definition, wikipedia: Limit cycle, wikidata: Q1545916}
+  - {name: limit set, kind: definition, decl: omegaLimit, wikipedia: Limit set, wikidata: Q1825444, mathlib: [mathlib-overview]}
+  - {name: invariant set, kind: definition, decl: IsInvariant, wikipedia: Invariant (mathematics), wikidata: Q188211}
+  - {name: Poincaré–Bendixson theorem, kind: statement, wikipedia: Poincaré–Bendixson theorem, wikidata: Q248931}
+  - {name: Bendixson–Dulac theorem, kind: statement, wikipedia: Bendixson–Dulac theorem, wikidata: Q737892}
+  - {name: Poincaré map, kind: definition, wikipedia: Poincaré map, wikidata: Q339199}
+  - {name: Hartman–Grobman theorem, kind: statement, wikipedia: Hartman–Grobman theorem, wikidata: Q211981}
+  - {name: stable manifold theorem, kind: statement, wikipedia: Stable manifold theorem, wikidata: Q7595768}
+  - {name: center manifold, kind: definition, wikipedia: Center manifold, wikidata: Q4504202}
+  - {name: normal form, kind: concept, wikipedia: Normal form (dynamical systems), wikidata: Q18354536}
+  - {name: hyperbolic equilibrium point, kind: definition, wikipedia: Hyperbolic equilibrium point, wikidata: Q3925833}
+  - {name: saddle point, kind: definition, wikipedia: Saddle point, wikidata: Q690935}
+  - {name: homoclinic orbit, kind: definition, wikipedia: Homoclinic orbit, wikidata: Q690494}
+  - {name: heteroclinic orbit, kind: definition, wikipedia: Heteroclinic orbit, wikidata: Q1992087}
+  - {name: Liénard equation, kind: example, wikipedia: Liénard equation, wikidata: Q2500406}
+  - {name: Liénard's theorem, kind: statement, wikipedia: Liénard equation, wikidata: Q2500406}
+  - {name: Van der Pol oscillator, kind: example, wikipedia: Van der Pol oscillator, wikidata: Q2081515}
+  - {name: Duffing equation, kind: example, wikipedia: Duffing equation, wikidata: Q675387}
+  - {name: Lotka–Volterra equations, kind: example, wikipedia: Lotka–Volterra equations, wikidata: Q150052}
+  - {name: Lorenz system, kind: example, wikipedia: Lorenz system, wikidata: Q899844}
+  - {name: Rössler attractor, kind: example, wikipedia: Rössler attractor, wikidata: Q720574}
+  - {name: pendulum, kind: example, wikipedia: Pendulum (mechanics), wikidata: Q829360}
+  - {name: Kepler problem, kind: example, wikipedia: Kepler problem, wikidata: Q2564682}
+  - {name: Hilbert's sixteenth problem, kind: problem, wikipedia: Hilbert's sixteenth problem, wikidata: Q2509489}
+  - {name: Dulac's theorem on finiteness of limit cycles, kind: statement, wikipedia: Hilbert's sixteenth problem, wikidata: Q2509489}
+  - {name: Melnikov method, kind: concept, wikipedia: Melnikov distance, wikidata: Q6813255}
+  - {name: Hopf bifurcation, kind: concept, wikipedia: Hopf bifurcation, wikidata: Q531126}
+  - {name: saddle-node bifurcation, kind: concept, wikipedia: Saddle-node bifurcation, wikidata: Q740190}
+  - {name: pitchfork bifurcation, kind: concept, wikipedia: Pitchfork bifurcation, wikidata: Q1785924}
+  - {name: transcritical bifurcation, kind: concept, wikipedia: Transcritical bifurcation, wikidata: Q1502581}
+  - {name: Bogdanov–Takens bifurcation, kind: concept, wikipedia: Bogdanov–Takens bifurcation, wikidata: Q4937510}
+  - {name: Krylov–Bogolyubov averaging, kind: concept, wikipedia: Krylov–Bogoliubov averaging method, wikidata: Q6439640}
+  - {name: relaxation oscillation, kind: concept, wikipedia: Relaxation oscillator, wikidata: Q1421688}
+  - {name: Floquet multiplier, kind: definition, wikipedia: Floquet theory, wikidata: Q902618}
+  - {name: Lyapunov–Schmidt reduction, kind: concept, wikipedia: Lyapunov–Schmidt reduction, wikidata: Q6707091}
+  # Stability
+  - {name: Lyapunov stability, kind: definition, wikipedia: Lyapunov stability, wikidata: Q1341651}
+  - {name: asymptotic stability, kind: definition, wikipedia: Lyapunov stability, wikidata: Q1341651}
+  - {name: exponential stability, kind: definition, wikipedia: Exponential stability, wikidata: Q17011487}
+  - {name: Lyapunov function, kind: definition, wikipedia: Lyapunov function, wikidata: Q2337858}
+  - {name: Lyapunov's direct method, kind: statement, wikipedia: Lyapunov stability, wikidata: Q1341651}
+  - {name: LaSalle's invariance principle, kind: statement, wikipedia: LaSalle's invariance principle, wikidata: Q3922068}
+  - {name: Lyapunov equation, kind: definition, wikipedia: Lyapunov equation, wikidata: Q1028945}
+  - {name: linearization, kind: concept, wikipedia: Linearization, wikidata: Q1520713}
+  - {name: Routh–Hurwitz stability criterion, kind: statement, wikipedia: Routh–Hurwitz stability criterion, wikidata: Q2621270}
+  - {name: Hurwitz-stable matrix, kind: definition, wikipedia: Hurwitz-stable matrix, wikidata: Q131293245}
+  - {name: structural stability, kind: definition, wikipedia: Structural stability, wikidata: Q1648886}
+  - {name: Peixoto's theorem, kind: statement, wikipedia: Peixoto's theorem, wikidata: Q7160983}
+  - {name: input-to-state stability, kind: definition, wikipedia: Input-to-state stability, wikidata: Q48995800}
+  - {name: Barbalat's lemma, kind: statement, wikipedia: Lyapunov stability, wikidata: Q1341651}
+  - {name: Markus–Yamabe conjecture, kind: counterexample, wikipedia: Markus–Yamabe conjecture, wikidata: Q6771536}
+  - {name: Aizerman's conjecture, kind: counterexample, wikipedia: Aizerman's conjecture, wikidata: Q4699429}
+  - {name: Kalman's conjecture, kind: counterexample, wikipedia: Kalman's conjecture, wikidata: Q6354006}
+  # Asymptotic and perturbation methods
+  - {name: asymptotic analysis, kind: concept, wikipedia: Asymptotic analysis, wikidata: Q752718}
+  - {name: WKB approximation, kind: concept, wikipedia: WKB approximation, wikidata: Q907306}
+  - {name: Liouville–Green method, kind: concept, wikipedia: WKB approximation, wikidata: Q907306}
+  - {name: singular perturbation, kind: concept, wikipedia: Singular perturbation, wikidata: Q7524249}
+  - {name: method of matched asymptotic expansions, kind: concept, wikipedia: Method of matched asymptotic expansions, wikidata: Q17098224}
+  - {name: boundary layer, kind: concept, wikipedia: Boundary layer, wikidata: Q752193}
+  - {name: Poincaré–Lindstedt method, kind: concept, wikipedia: Poincaré–Lindstedt method, wikidata: Q7207873}
+  - {name: method of multiple scales, kind: concept, wikipedia: Multiple-scale analysis, wikidata: Q6934874}
+  - {name: Tikhonov's theorem on slow-fast systems, kind: statement, wikipedia: Tikhonov's theorem (dynamical systems), wikidata: Q7801912}
+  - {name: Levinson's theorem on asymptotic integration, kind: statement, wikipedia: Levinson's theorem, wikidata: Q25110385}
+  - {name: Fenichel's theorem, kind: statement, wikipedia: Slow manifold, wikidata: Q7542110}
+  # Delay, functional and abstract differential equations
+  - {name: delay differential equation, kind: definition, wikipedia: Delay differential equation, wikidata: Q2146125}
+  - {name: method of steps, kind: concept, wikipedia: Delay differential equation, wikidata: Q2146125}
+  - {name: functional differential equation, kind: definition, wikipedia: Functional differential equation, wikidata: Q28406324}
+  - {name: neutral differential equation, kind: definition, wikipedia: Delay differential equation, wikidata: Q2146125}
+  - {name: integro-differential equation, kind: definition, wikipedia: Integro-differential equation, wikidata: Q2380676}
+  - {name: Volterra integral equation, kind: definition, wikipedia: Volterra integral equation, wikidata: Q2632613}
+  - {name: differential equations in Banach spaces, kind: concept, wikipedia: Abstract differential equation, wikidata: Q55603110}
+  - {name: C0-semigroup, kind: definition, wikipedia: C0-semigroup, wikidata: Q846542}
+  - {name: Hille–Yosida theorem, kind: statement, wikipedia: Hille–Yosida theorem, wikidata: Q974405}
+  - {name: differential inclusion, kind: definition, wikipedia: Differential inclusion, wikidata: Q1054638}
+  - {name: fractional differential equation, kind: definition, wikipedia: Fractional calculus, wikidata: Q1339058}
+  - {name: dynamic equation on time scales, kind: definition, wikipedia: Time-scale calculus, wikidata: Q7804838}
+  - {name: random ordinary differential equation, kind: definition, wikipedia: Random dynamical system, wikidata: Q7291964}
+  - {name: stochastic differential equation, kind: definition, wikipedia: Stochastic differential equation, wikidata: Q1545585}
+  - {name: hybrid system, kind: definition, wikipedia: Hybrid system, wikidata: Q2665508}
+  # Control
+  - {name: control system, kind: concept, wikipedia: Control theory, wikidata: Q6501221}
+  - {name: controllability, kind: definition, wikipedia: Controllability, wikidata: Q1331104}
+  - {name: observability, kind: definition, wikipedia: Observability, wikidata: Q1369844}
+  - {name: Kalman rank condition, kind: statement, wikipedia: Controllability, wikidata: Q1331104}
+  - {name: Pontryagin's maximum principle, kind: statement, wikipedia: Pontryagin's maximum principle, wikidata: Q3491629}
+  - {name: Hamilton–Jacobi–Bellman equation, kind: definition, wikipedia: Hamilton–Jacobi–Bellman equation, wikidata: Q3302775}
+  - {name: Chow–Rashevskii theorem, kind: statement, wikipedia: Chow–Rashevsky theorem, wikidata: Q5105585}
+  - {name: bang–bang control, kind: concept, wikipedia: Bang–bang control, wikidata: Q1432859}
+  - {name: feedback linearization, kind: concept, wikipedia: Feedback linearization, wikidata: Q672139}
+  # Numerical methods for ODEs
+  - {name: Euler method, kind: concept, wikipedia: Euler method, wikidata: Q868454}
+  - {name: Runge–Kutta methods, kind: concept, wikipedia: Runge–Kutta methods, wikidata: Q725944}
+  - {name: linear multistep method, kind: concept, wikipedia: Linear multistep method, wikidata: Q1462003}
+  - {name: symplectic integrator, kind: concept, wikipedia: Symplectic integrator, wikidata: Q7661847}
+  - {name: backward differentiation formula, kind: concept, wikipedia: Backward differentiation formula, wikidata: Q795746}
+  - {name: Dahlquist barriers, kind: statement, wikipedia: Linear multistep method, wikidata: Q1462003}

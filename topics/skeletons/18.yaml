@@ -1,0 +1,270 @@
+# The C2 skeleton of 18-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 18-XX
+title: categories and homological algebra
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+  mathlib-overview: {title: "Mathlib, the overview of the library", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/overview.yaml'}
+  mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
+items:
+  # Categories, functors, natural transformations
+  - {name: category theory, kind: concept, wikipedia: Category theory, wikidata: Q217413}
+  - {name: category, kind: definition, decl: CategoryTheory.Category, wikipedia: Category (mathematics), wikidata: Q719395, mathlib: [mathlib-overview]}
+  - {name: morphism, kind: definition, wikipedia: Morphism, wikidata: Q1948412}
+  - {name: isomorphism, kind: definition, decl: CategoryTheory.Iso, wikipedia: Isomorphism, wikidata: Q189112, mathlib: [mathlib-overview]}
+  - {name: monomorphism, kind: definition, decl: CategoryTheory.Mono, wikipedia: Monomorphism, wikidata: Q1945067}
+  - {name: epimorphism, kind: definition, decl: CategoryTheory.Epi, wikipedia: Epimorphism, wikidata: Q1347208}
+  - {name: section and retraction, kind: definition, decl: CategoryTheory.SplitMono, wikipedia: Section (category theory), wikidata: Q60727552}
+  - {name: opposite category, kind: definition, decl: Opposite, wikipedia: Opposite category, wikidata: Q7098616}
+  - {name: duality in category theory, kind: concept, wikipedia: Dual (category theory), wikidata: Q2361385}
+  - {name: subcategory, kind: definition, decl: CategoryTheory.ObjectProperty, wikipedia: Subcategory, wikidata: Q541563}
+  - {name: full subcategory, kind: definition, decl: CategoryTheory.InducedCategory, wikipedia: Subcategory, wikidata: Q541563}
+  - {name: product category, kind: definition, wikipedia: Product category, wikidata: Q13443840}
+  - {name: functor, kind: definition, decl: CategoryTheory.Functor, wikipedia: Functor, wikidata: Q864475, mathlib: [mathlib-overview]}
+  - {name: contravariant functor, kind: definition, decl: CategoryTheory.Functor.op, wikipedia: Functor, wikidata: Q864475}
+  - {name: forgetful functor, kind: definition, wikipedia: Forgetful functor, wikidata: Q2646117}
+  - {name: full and faithful functors, kind: definition, decl: CategoryTheory.Functor.FullyFaithful, wikipedia: Full and faithful functors, wikidata: Q1064276}
+  - {name: essentially surjective functor, kind: definition, decl: CategoryTheory.Functor.EssSurj, wikipedia: Essentially surjective functor, wikidata: Q140283}
+  - {name: natural transformation, kind: definition, decl: CategoryTheory.NatTrans, wikipedia: Natural transformation, wikidata: Q1442189, mathlib: [mathlib-overview]}
+  - {name: functor category, kind: definition, wikipedia: Functor category, wikidata: Q2007878}
+  - {name: equivalence of categories, kind: definition, decl: CategoryTheory.Equivalence, wikipedia: Equivalence of categories, wikidata: Q1082992}
+  - {name: fully faithful essentially surjective functor is an equivalence, kind: statement, decl: CategoryTheory.Functor.IsEquivalence.mk', wikipedia: Equivalence of categories, wikidata: Q1082992}
+  - {name: skeleton of a category, kind: definition, decl: CategoryTheory.Skeleton, wikipedia: Skeleton (category theory), wikidata: Q2291918}
+  - {name: commutative diagram, kind: definition, wikipedia: Commutative diagram, wikidata: Q621542}
+  - {name: concrete category, kind: definition, decl: CategoryTheory.ConcreteCategory, wikipedia: Concrete category, wikidata: Q1575634}
+  - {name: comma category, kind: definition, decl: CategoryTheory.Comma, wikipedia: Comma category, wikidata: Q1780005, mathlib: [mathlib-overview]}
+  - {name: slice category, kind: definition, decl: CategoryTheory.Over, wikipedia: Comma category, wikidata: Q1780005}
+  - {name: category of elements, kind: definition, decl: CategoryTheory.Functor.Elements, wikipedia: Category of elements, wikidata: Q5051844}
+  - {name: Grothendieck construction, kind: definition, decl: CategoryTheory.Grothendieck, wikipedia: Category of elements, wikidata: Q5051844}
+  - {name: quotient category, kind: definition, decl: CategoryTheory.Quotient, wikipedia: Quotient category, wikidata: Q7272896}
+  - {name: free category, kind: definition, decl: CategoryTheory.Paths, wikipedia: Free category, wikidata: Q5500202}
+  - {name: quiver, kind: definition, decl: Quiver, wikipedia: Quiver (mathematics), wikidata: Q493980}
+  # Representability and the Yoneda lemma
+  - {name: hom functor, kind: definition, decl: CategoryTheory.coyoneda, wikipedia: Hom functor, wikidata: Q5887297}
+  - {name: Yoneda lemma, kind: statement, decl: CategoryTheory.yonedaEquiv, wikipedia: Yoneda lemma, wikidata: Q320577}
+  - {name: Yoneda embedding, kind: definition, decl: CategoryTheory.yoneda, wikipedia: Yoneda lemma, wikidata: Q320577, mathlib: [mathlib-overview]}
+  - {name: representable functor, kind: definition, decl: CategoryTheory.Functor.IsRepresentable, wikipedia: Representable functor, wikidata: Q386320}
+  - {name: presheaf, kind: definition, wikipedia: Presheaf (category theory), wikidata: Q7241077}
+  - {name: density theorem, kind: statement, decl: CategoryTheory.Presheaf.isColimitTautologicalCocone, wikipedia: Density theorem (category theory), wikidata: Q48996306}
+  - {name: universal property, kind: concept, wikipedia: Universal property, wikidata: Q1417809}
+  - {name: initial and terminal objects, kind: definition, decl: CategoryTheory.Limits.IsTerminal, wikipedia: Initial and terminal objects, wikidata: Q529752}
+  - {name: zero object, kind: definition, decl: CategoryTheory.Limits.HasZeroObject, wikipedia: Zero object (algebra), wikidata: Q16089841}
+  - {name: zero morphism, kind: definition, decl: CategoryTheory.Limits.HasZeroMorphisms, wikipedia: Zero morphism, wikidata: Q2905069}
+  - {name: generator, kind: definition, decl: CategoryTheory.IsSeparator, wikipedia: Generator (category theory), wikidata: Q17000267}
+  - {name: subobject, kind: definition, decl: CategoryTheory.Subobject, wikipedia: Subobject, wikidata: Q2547089}
+  - {name: well-powered category, kind: definition, wikipedia: Subobject, wikidata: Q2547089}
+  # Limits and colimits
+  - {name: diagram, kind: definition, wikipedia: Diagram (category theory), wikidata: Q843237}
+  - {name: cone, kind: definition, decl: CategoryTheory.Limits.Cone, wikipedia: Cone (category theory), wikidata: Q1850712}
+  - {name: limit, kind: definition, decl: CategoryTheory.Limits.IsLimit, wikipedia: Limit (category theory), wikidata: Q1322614, mathlib: [mathlib-overview]}
+  - {name: colimit, kind: definition, decl: CategoryTheory.Limits.colimit, wikipedia: Limit (category theory), wikidata: Q1322614}
+  - {name: product, kind: definition, decl: CategoryTheory.Limits.prod, wikipedia: Product (category theory), wikidata: Q919107}
+  - {name: coproduct, kind: definition, decl: CategoryTheory.Limits.coprod, wikipedia: Coproduct, wikidata: Q692689}
+  - {name: equalizer, kind: definition, decl: CategoryTheory.Limits.equalizer, wikipedia: Equaliser (mathematics), wikidata: Q1224487}
+  - {name: coequalizer, kind: definition, decl: CategoryTheory.Limits.coequalizer, wikipedia: Coequalizer, wikidata: Q5140810}
+  - {name: pullback, kind: definition, decl: CategoryTheory.Limits.pullback, wikipedia: Pullback (category theory), wikidata: Q1397439}
+  - {name: pushout, kind: definition, decl: CategoryTheory.Limits.pushout, wikipedia: Pushout (category theory), wikidata: Q1633079}
+  - {name: pullback pasting lemma, kind: statement, decl: CategoryTheory.IsPullback.paste_horiz, wikipedia: Pullback (category theory), wikidata: Q1397439}
+  - {name: inverse limit, kind: definition, wikipedia: Inverse limit, wikidata: Q2634828}
+  - {name: direct limit, kind: definition, wikipedia: Direct limit, wikidata: Q906015}
+  - {name: complete category, kind: definition, decl: CategoryTheory.Limits.HasLimits, wikipedia: Complete category, wikidata: Q4370335}
+  - {name: existence of limits from products and equalizers, kind: statement, decl: CategoryTheory.Limits.has_limits_of_hasEqualizers_and_products, wikipedia: Complete category, wikidata: Q4370335}
+  - {name: finitely complete category, kind: definition, decl: CategoryTheory.Limits.HasFiniteLimits, wikipedia: Complete category, wikidata: Q4370335}
+  - {name: preservation of limits, kind: definition, decl: CategoryTheory.Limits.PreservesLimits, wikipedia: Limit (category theory), wikidata: Q1322614}
+  - {name: filtered category, kind: definition, decl: CategoryTheory.IsFiltered, wikipedia: Filtered category, wikidata: Q5449247}
+  - {name: filtered colimits commute with finite limits, kind: statement, decl: CategoryTheory.Limits.colimitLimitToLimitColimit_isIso, wikipedia: Filtered category, wikidata: Q5449247}
+  - {name: final functor, kind: definition, decl: CategoryTheory.Functor.Final, wikipedia: Final functor, wikidata: Q18207102}
+  - {name: kernel pair, kind: definition, wikipedia: Regular category, wikidata: Q2844249}
+  - {name: end and coend, kind: definition, wikipedia: End (category theory), wikidata: Q5375781}
+  # Adjunctions
+  - {name: adjoint functors, kind: definition, decl: CategoryTheory.Adjunction, wikipedia: Adjoint functors, wikidata: Q357858, mathlib: [mathlib-overview]}
+  - {name: unit and counit, kind: definition, decl: CategoryTheory.Adjunction.unit, wikipedia: Adjoint functors, wikidata: Q357858}
+  - {name: hom-set characterization of adjunctions, kind: statement, decl: CategoryTheory.Adjunction.homEquiv, wikipedia: Adjoint functors, wikidata: Q357858}
+  - {name: uniqueness of adjoints, kind: statement, decl: CategoryTheory.Adjunction.leftAdjointUniq, wikipedia: Adjoint functors, wikidata: Q357858}
+  - {name: right adjoints preserve limits, kind: statement, decl: CategoryTheory.Adjunction.rightAdjoint_preservesLimits, wikipedia: Adjoint functors, wikidata: Q357858}
+  - {name: free object, kind: definition, wikipedia: Free object, wikidata: Q5500272}
+  - {name: Freyd's adjoint functor theorem, kind: statement, decl: CategoryTheory.isRightAdjoint_of_preservesLimits_of_solutionSetCondition, wikipedia: Adjoint functors, wikidata: Q357858}
+  - {name: solution set condition, kind: definition, decl: CategoryTheory.SolutionSetCondition, wikipedia: Adjoint functors, wikidata: Q357858}
+  - {name: special adjoint functor theorem, kind: statement, decl: CategoryTheory.isRightAdjoint_of_preservesLimits_of_isCoseparating, wikipedia: Adjoint functors, wikidata: Q357858}
+  - {name: reflective subcategory, kind: definition, decl: CategoryTheory.Reflective, wikipedia: Reflective subcategory, wikidata: Q6101219}
+  - {name: exponential object, kind: definition, wikipedia: Exponential object, wikidata: Q4391173}
+  - {name: Cartesian closed category, kind: definition, wikipedia: Cartesian closed category, wikidata: Q1725874}
+  - {name: Kan extension, kind: definition, decl: CategoryTheory.Functor.IsLeftKanExtension, wikipedia: Kan extension, wikidata: Q1723418}
+  - {name: pointwise Kan extension formula, kind: statement, decl: CategoryTheory.Functor.pointwiseLeftKanExtension, wikipedia: Kan extension, wikidata: Q1723418}
+  # Monads and categorical algebra
+  - {name: monad, kind: definition, decl: CategoryTheory.Monad, wikipedia: Monad (category theory), wikidata: Q1630568, mathlib: [mathlib-overview]}
+  - {name: comonad, kind: definition, decl: CategoryTheory.Comonad, wikipedia: Monad (category theory), wikidata: Q1630568}
+  - {name: algebra over a monad, kind: definition, decl: CategoryTheory.Monad.Algebra, wikipedia: Monad (category theory), wikidata: Q1630568}
+  - {name: Eilenberg–Moore category, kind: definition, wikipedia: Monad (category theory), wikidata: Q1630568}
+  - {name: Kleisli category, kind: definition, decl: CategoryTheory.Kleisli, wikipedia: Kleisli category, wikidata: Q1773982}
+  - {name: monad from an adjunction, kind: statement, decl: CategoryTheory.Adjunction.toMonad, wikipedia: Monad (category theory), wikidata: Q1630568}
+  - {name: monadic functor, kind: definition, decl: CategoryTheory.MonadicRightAdjoint, wikipedia: Monad (category theory), wikidata: Q1630568}
+  - {name: Beck's monadicity theorem, kind: statement, decl: CategoryTheory.Monad.monadicOfCreatesGSplitCoequalizers, wikipedia: Beck's monadicity theorem, wikidata: Q4878586, mathlib: [mathlib-1000]}
+  - {name: F-algebra, kind: definition, decl: CategoryTheory.Endofunctor.Algebra, wikipedia: F-algebra, wikidata: Q1386213}
+  - {name: Lambek's lemma, kind: statement, decl: CategoryTheory.Endofunctor.Algebra.Initial.str_isIso, wikipedia: Initial algebra, wikidata: Q6034125}
+  - {name: F-coalgebra, kind: definition, wikipedia: F-coalgebra, wikidata: Q3062935}
+  - {name: Lawvere theory, kind: definition, wikipedia: Lawvere theory, wikidata: Q6505076}
+  - {name: sketch, kind: definition, wikipedia: Sketch (mathematics), wikidata: Q7534724}
+  - {name: locally presentable category, kind: definition, decl: CategoryTheory.IsLocallyPresentable, wikipedia: Accessible category, wikidata: Q4672496}
+  - {name: accessible category, kind: definition, decl: CategoryTheory.IsAccessibleCategory, wikipedia: Accessible category, wikidata: Q4672496}
+  - {name: regular category, kind: definition, decl: CategoryTheory.Regular, wikipedia: Regular category, wikidata: Q2844249}
+  - {name: exact category in the sense of Barr, kind: definition, wikipedia: Exact category, wikidata: Q5419218}
+  - {name: extensive category, kind: definition, decl: CategoryTheory.FinitaryExtensive, wikipedia: Extensive category, wikidata: Q55611299}
+  - {name: Ind-completion, kind: definition, decl: CategoryTheory.Ind, wikipedia: Ind-completion, wikidata: Q134469743}
+  - {name: pro-object, kind: definition, wikipedia: Ind-completion, wikidata: Q134469743}
+  - {name: Karoubi envelope, kind: definition, decl: CategoryTheory.Idempotents.Karoubi, wikipedia: Karoubi envelope, wikidata: Q3055409}
+  - {name: factorization system, kind: definition, wikipedia: Factorization system, wikidata: Q5428747}
+  - {name: lifting property, kind: definition, decl: CategoryTheory.HasLiftingProperty, wikipedia: Lifting property, wikidata: Q30672450}
+  - {name: fibred category, kind: definition, decl: CategoryTheory.Functor.IsFibered, wikipedia: Fibred category, wikidata: Q5446431}
+  - {name: groupoid, kind: definition, decl: CategoryTheory.Groupoid, wikipedia: Groupoid, wikidata: Q1196038}
+  # Special categories
+  - {name: category of sets, kind: example, decl: CategoryTheory.types, wikipedia: Category of sets, wikidata: Q2518298}
+  - {name: category of groups, kind: example, decl: GrpCat, wikipedia: Category of groups, wikidata: Q3912012}
+  - {name: category of abelian groups, kind: example, decl: AddCommGrpCat, wikipedia: Category of abelian groups, wikidata: Q1956793}
+  - {name: category of modules, kind: example, decl: ModuleCat, wikipedia: Category of modules, wikidata: Q5051857, mathlib: [mathlib-overview]}
+  - {name: category of rings, kind: example, decl: RingCat, wikipedia: Category of rings, wikidata: Q5051859, mathlib: [mathlib-overview]}
+  - {name: category of topological spaces, kind: example, decl: TopCat, wikipedia: Category of topological spaces, wikidata: Q2000555, mathlib: [mathlib-overview]}
+  - {name: category of small categories, kind: example, decl: CategoryTheory.Cat, wikipedia: Category of small categories, wikidata: Q5051852}
+  - {name: simplex category, kind: object, decl: SimplexCategory, wikipedia: Simplex category, wikidata: Q10906333}
+  - {name: simplicial set, kind: definition, decl: SSet, wikipedia: Simplicial set, wikidata: Q1467124}
+  - {name: simplicial object, kind: definition, decl: CategoryTheory.SimplicialObject, wikipedia: Simplicial set, wikidata: Q1467124}
+  - {name: nerve of a category, kind: definition, decl: CategoryTheory.nerve, wikipedia: Nerve (category theory), wikidata: Q17099363}
+  - {name: Galois category, kind: definition, decl: CategoryTheory.GaloisCategory, wikipedia: Grothendieck's Galois theory, wikidata: Q5610719}
+  - {name: condensed set, kind: definition, decl: CondensedSet, wikipedia: Condensed mathematics, wikidata: Q107427296}
+  # Categorical logic and toposes
+  - {name: categorical logic, kind: concept, wikipedia: Categorical logic, wikidata: Q5051813}
+  - {name: Grothendieck topology, kind: definition, decl: CategoryTheory.GrothendieckTopology, wikipedia: Grothendieck topology, wikidata: Q1062242, mathlib: [mathlib-overview]}
+  - {name: sieve, kind: definition, decl: CategoryTheory.Sieve, wikipedia: Sieve (category theory), wikidata: Q7511782}
+  - {name: site, kind: definition, wikipedia: Grothendieck topology, wikidata: Q1062242}
+  - {name: sheaf on a site, kind: definition, decl: CategoryTheory.Sheaf, wikipedia: Sheaf (mathematics), wikidata: Q595298}
+  - {name: sheafification, kind: definition, decl: CategoryTheory.presheafToSheaf, wikipedia: Sheaf (mathematics), wikidata: Q595298}
+  - {name: topos, kind: definition, wikipedia: Topos, wikidata: Q2143621}
+  - {name: Grothendieck topos, kind: definition, wikipedia: Topos, wikidata: Q2143621}
+  - {name: subobject classifier, kind: definition, decl: CategoryTheory.HasSubobjectClassifier, wikipedia: Subobject classifier, wikidata: Q7631737}
+  - {name: Giraud's theorem, kind: statement, wikipedia: Topos, wikidata: Q2143621}
+  - {name: geometric morphism, kind: definition, wikipedia: Topos, wikidata: Q2143621}
+  - {name: Lawvere–Tierney topology, kind: definition, wikipedia: Lawvere–Tierney topology, wikidata: Q30704544}
+  - {name: internal language, kind: concept, wikipedia: Categorical logic, wikidata: Q5051813}
+  - {name: Diaconescu's theorem, kind: statement, wikipedia: Diaconescu's theorem, wikidata: Q3527059}
+  - {name: classifying topos, kind: definition, wikipedia: Classifying topos, wikidata: Q17006942}
+  - {name: Lawvere's fixed-point theorem, kind: statement, wikipedia: Lawvere's fixed-point theorem, wikidata: Q15809744}
+  - {name: Elementary Theory of the Category of Sets, kind: definition, wikipedia: Elementary theory of the category of sets, wikidata: Q131470959}
+  # Monoidal, enriched and higher categories
+  - {name: monoidal category, kind: definition, decl: CategoryTheory.MonoidalCategory, wikipedia: Monoidal category, wikidata: Q1945014, mathlib: [mathlib-overview]}
+  - {name: pentagon identity, kind: statement, decl: CategoryTheory.MonoidalCategory.pentagon, wikipedia: Monoidal category, wikidata: Q1945014}
+  - {name: Mac Lane's coherence theorem, kind: statement, decl: CategoryTheory.FreeMonoidalCategory.fullNormalizeIso, wikipedia: Coherency (homotopy theory), wikidata: Q85753249}
+  - {name: monoidal functor, kind: definition, decl: CategoryTheory.Functor.LaxMonoidal, wikipedia: Monoidal functor, wikidata: Q6901642}
+  - {name: braided monoidal category, kind: definition, decl: CategoryTheory.BraidedCategory, wikipedia: Braided monoidal category, wikidata: Q2943034}
+  - {name: symmetric monoidal category, kind: definition, decl: CategoryTheory.SymmetricCategory, wikipedia: Symmetric monoidal category, wikidata: Q17103860}
+  - {name: closed monoidal category, kind: definition, decl: CategoryTheory.MonoidalClosed, wikipedia: Closed monoidal category, wikidata: Q5135347, mathlib: [mathlib-overview]}
+  - {name: monoid object, kind: definition, decl: CategoryTheory.MonObj, wikipedia: Monoid (category theory), wikidata: Q2785361}
+  - {name: rigid monoidal category, kind: definition, decl: CategoryTheory.RigidCategory, wikipedia: Rigid category, wikidata: Q7333804}
+  - {name: dual object, kind: definition, decl: CategoryTheory.ExactPairing, wikipedia: Dual object, wikidata: Q5310222}
+  - {name: fusion category, kind: definition, wikipedia: Fusion category, wikidata: Q30672665}
+  - {name: Day convolution, kind: definition, decl: CategoryTheory.MonoidalCategory.DayConvolution, wikipedia: Day convolution, wikidata: Q85755931}
+  - {name: Tannaka–Krein duality, kind: statement, wikipedia: Tannaka–Krein duality, wikidata: Q7683608}
+  - {name: enriched category, kind: definition, decl: CategoryTheory.EnrichedCategory, wikipedia: Enriched category, wikidata: Q5379515}
+  - {name: profunctor, kind: definition, decl: CategoryTheory.Profunctor, wikipedia: Profunctor, wikidata: Q7248328}
+  - {name: 2-category, kind: definition, wikipedia: 2-category, wikidata: Q4596935}
+  - {name: bicategory, kind: definition, decl: CategoryTheory.Bicategory, wikipedia: 2-category, wikidata: Q4596935}
+  - {name: pseudofunctor, kind: definition, decl: CategoryTheory.Pseudofunctor, wikipedia: Pseudo-functor, wikidata: Q16919007}
+  - {name: higher category theory, kind: concept, wikipedia: Higher category theory, wikidata: Q5758318}
+  - {name: quasi-category, kind: definition, decl: SSet.Quasicategory, wikipedia: Quasi-category, wikidata: Q7269442}
+  - {name: '(∞,1)-category', kind: definition, wikipedia: Quasi-category, wikidata: Q7269442}
+  - {name: homotopy hypothesis, kind: conjecture, wikipedia: Homotopy hypothesis, wikidata: Q16879377}
+  - {name: cobordism hypothesis, kind: statement, wikipedia: Cobordism hypothesis, wikidata: Q16910990}
+  - {name: operad, kind: definition, wikipedia: Operad, wikidata: Q842072}
+  - {name: algebra over an operad, kind: definition, wikipedia: Operad algebra, wikidata: Q16827071}
+  - {name: E∞-operad, kind: example, wikipedia: E∞-operad, wikidata: Q5423545}
+  - {name: little cubes operad, kind: example, wikipedia: Operad, wikidata: Q842072}
+  - {name: multicategory, kind: definition, wikipedia: Multicategory, wikidata: Q6934590}
+  - {name: string diagram, kind: concept, wikipedia: String diagram, wikidata: Q7623974}
+  # Homotopical algebra
+  - {name: model category, kind: definition, decl: HomotopicalAlgebra.ModelCategory, wikipedia: Model category, wikidata: Q1941896}
+  - {name: fibration and cofibration, kind: definition, wikipedia: Model category, wikidata: Q1941896}
+  - {name: weak equivalence, kind: definition, wikipedia: Weak equivalence (homotopy theory), wikidata: Q20878207}
+  - {name: Kan complex, kind: definition, decl: SSet.KanComplex, wikipedia: Kan fibration, wikidata: Q3915873}
+  - {name: homotopy category, kind: definition, decl: HomotopyCategory, wikipedia: Homotopy category, wikidata: Q14775269}
+  - {name: localization of a category, kind: definition, decl: CategoryTheory.Functor.IsLocalization, wikipedia: Localization of a category, wikidata: Q6664610}
+  - {name: Quillen adjunction, kind: definition, wikipedia: Quillen adjunction, wikidata: Q7271995}
+  - {name: small object argument, kind: statement, decl: CategoryTheory.SmallObject.hasFunctorialFactorization, wikipedia: Small object argument, wikidata: Q133844248}
+  - {name: Dold–Kan correspondence, kind: statement, decl: CategoryTheory.Abelian.DoldKan.equivalence, wikipedia: Dold–Kan correspondence, wikidata: Q16962174}
+  - {name: homotopy limit, kind: definition, wikipedia: Homotopy colimit and limit, wikidata: Q17030678}
+  # Additive and abelian categories
+  - {name: preadditive category, kind: definition, decl: CategoryTheory.Preadditive, wikipedia: Preadditive category, wikidata: Q2099981}
+  - {name: additive category, kind: definition, wikipedia: Additive category, wikidata: Q4681343}
+  - {name: biproduct, kind: definition, decl: CategoryTheory.Limits.biprod, wikipedia: Biproduct, wikidata: Q4915506}
+  - {name: additive functor, kind: definition, decl: CategoryTheory.Functor.Additive, wikipedia: Preadditive category, wikidata: Q2099981}
+  - {name: kernel, kind: definition, decl: CategoryTheory.Limits.kernel, wikipedia: Kernel (category theory), wikidata: Q2920416}
+  - {name: cokernel, kind: definition, decl: CategoryTheory.Limits.cokernel, wikipedia: Cokernel, wikidata: Q2156511}
+  - {name: abelian category, kind: definition, decl: CategoryTheory.Abelian, wikipedia: Abelian category, wikidata: Q318737, mathlib: [mathlib-overview]}
+  - {name: Grothendieck category, kind: definition, decl: CategoryTheory.IsGrothendieckAbelian, wikipedia: Grothendieck category, wikidata: Q5610721}
+  - {name: Freyd–Mitchell embedding theorem, kind: statement, decl: CategoryTheory.Abelian.freyd_mitchell, wikipedia: Mitchell's embedding theorem, wikidata: Q1148215, mathlib: [mathlib-1000]}
+  - {name: Gabriel–Popescu theorem, kind: statement, wikipedia: Gabriel–Popescu theorem, wikidata: Q5516119}
+  - {name: pseudo-element, kind: definition, decl: CategoryTheory.Abelian.Pseudoelement, wikipedia: Abelian category, wikidata: Q318737}
+  - {name: Schur's lemma in abelian categories, kind: statement, decl: CategoryTheory.isIso_of_hom_simple, wikipedia: Schur's lemma, wikidata: Q1816952}
+  - {name: Serre subcategory, kind: definition, wikipedia: Localizing subcategory, wikidata: Q25303774}
+  - {name: exact functor, kind: definition, wikipedia: Exact functor, wikidata: Q381725}
+  - {name: exact category, kind: definition, wikipedia: Exact category, wikidata: Q5419218}
+  # Homological algebra: complexes and exact sequences
+  - {name: homological algebra, kind: concept, wikipedia: Homological algebra, wikidata: Q579978}
+  - {name: exact sequence, kind: definition, decl: CategoryTheory.ShortComplex.Exact, wikipedia: Exact sequence, wikidata: Q1326955}
+  - {name: short exact sequence, kind: definition, decl: CategoryTheory.ShortComplex.ShortExact, wikipedia: Exact sequence, wikidata: Q1326955}
+  - {name: split exact sequence, kind: definition, wikipedia: Split exact sequence, wikidata: Q65122157}
+  - {name: splitting lemma, kind: statement, wikipedia: Splitting lemma, wikidata: Q2757856}
+  - {name: chain complex, kind: definition, decl: HomologicalComplex, wikipedia: Chain complex, wikidata: Q1143328}
+  - {name: homology of a chain complex, kind: definition, decl: HomologicalComplex.homology, wikipedia: Homology (mathematics), wikidata: Q1144780, mathlib: [mathlib-overview]}
+  - {name: chain map, kind: definition, wikipedia: Chain complex, wikidata: Q1143328}
+  - {name: chain homotopy, kind: definition, decl: Homotopy, wikipedia: Homotopy category of chain complexes, wikidata: Q1430845}
+  - {name: quasi-isomorphism, kind: definition, wikipedia: Quasi-isomorphism, wikidata: Q3413378}
+  - {name: mapping cone, kind: definition, wikipedia: Mapping cone (homological algebra), wikidata: Q6754178}
+  - {name: snake lemma, kind: statement, decl: CategoryTheory.ShortComplex.SnakeInput.snake_lemma, wikipedia: Snake lemma, wikidata: Q1064342}
+  - {name: five lemma, kind: statement, decl: CategoryTheory.Abelian.isIso_of_epi_of_isIso_of_isIso_of_mono, wikipedia: Five lemma, wikidata: Q1479523}
+  - {name: four lemma, kind: statement, decl: CategoryTheory.Abelian.mono_of_epi_of_mono_of_mono, wikipedia: Five lemma, wikidata: Q1479523}
+  - {name: nine lemma, kind: statement, wikipedia: Nine lemma, wikidata: Q2645980}
+  - {name: long exact sequence in homology, kind: statement, decl: HomologicalComplex.HomologySequence.composableArrows₃_exact, wikipedia: Exact sequence, wikidata: Q1326955}
+  - {name: double complex, kind: definition, wikipedia: Double complex, wikidata: Q107490138}
+  # Derived functors
+  - {name: projective object, kind: definition, decl: CategoryTheory.Projective, wikipedia: Projective object, wikidata: Q2112502}
+  - {name: injective object, kind: definition, decl: CategoryTheory.Injective, wikipedia: Injective object, wikidata: Q1625040}
+  - {name: enough projectives, kind: definition, decl: CategoryTheory.EnoughProjectives, wikipedia: Projective object, wikidata: Q2112502}
+  - {name: projective resolution, kind: definition, decl: CategoryTheory.ProjectiveResolution, wikipedia: Resolution (algebra), wikidata: Q2112483}
+  - {name: injective resolution, kind: definition, decl: CategoryTheory.InjectiveResolution, wikipedia: Injective module, wikidata: Q2716519}
+  - {name: horseshoe lemma, kind: statement, wikipedia: Horseshoe lemma, wikidata: Q5906080}
+  - {name: derived functor, kind: definition, decl: CategoryTheory.Functor.leftDerived, wikipedia: Derived functor, wikidata: Q320245}
+  - {name: Ext functor, kind: definition, decl: CategoryTheory.Abelian.Ext, wikipedia: Ext functor, wikidata: Q1384902}
+  - {name: Tor functor, kind: definition, wikipedia: Tor functor, wikidata: Q988381}
+  - {name: Yoneda Ext and extensions, kind: statement, wikipedia: Ext functor, wikidata: Q1384902}
+  - {name: delta functor, kind: definition, wikipedia: Delta-functor, wikidata: Q5254536}
+  - {name: Grothendieck spectral sequence, kind: statement, wikipedia: Grothendieck spectral sequence, wikidata: Q5610729}
+  - {name: spectral sequence, kind: definition, decl: CategoryTheory.SpectralSequence, wikipedia: Spectral sequence, wikidata: Q3503315}
+  - {name: acyclic object, kind: definition, wikipedia: Acyclic object, wikidata: Q4677987}
+  - {name: Künneth theorem, kind: statement, wikipedia: Künneth theorem, wikidata: Q1307676}
+  - {name: universal coefficient theorem, kind: statement, wikipedia: Universal coefficient theorem, wikidata: Q2495664}
+  - {name: Cartan–Eilenberg resolution, kind: definition, wikipedia: Cartan–Eilenberg resolution, wikidata: Q5047047}
+  - {name: homological dimension, kind: definition, wikipedia: Global dimension, wikidata: Q5570832}
+  - {name: Hilbert's syzygy theorem, kind: statement, wikipedia: Hilbert's syzygy theorem, wikidata: Q779220}
+  - {name: Koszul complex, kind: definition, wikipedia: Koszul complex, wikidata: Q6433699}
+  - {name: bar resolution, kind: definition, wikipedia: Bar complex, wikidata: Q17103661}
+  - {name: group cohomology, kind: concept, wikipedia: Group cohomology, wikidata: Q1408937}
+  - {name: Hochschild homology, kind: concept, wikipedia: Hochschild homology, wikidata: Q1622047}
+  - {name: cyclic homology, kind: concept, wikipedia: Cyclic homology, wikidata: Q939179}
+  - {name: Lie algebra cohomology, kind: concept, wikipedia: Lie algebra cohomology, wikidata: Q6543809}
+  - {name: sheaf cohomology, kind: concept, wikipedia: Sheaf cohomology, wikidata: Q1493952}
+  - {name: Mayer–Vietoris sequence, kind: statement, wikipedia: Mayer–Vietoris sequence, wikidata: Q2421905}
+  # Derived and triangulated categories
+  - {name: homotopy category of chain complexes, kind: definition, wikipedia: Homotopy category of chain complexes, wikidata: Q1430845}
+  - {name: derived category, kind: definition, decl: DerivedCategory, wikipedia: Derived category, wikidata: Q5262626}
+  - {name: triangulated category, kind: definition, decl: CategoryTheory.IsTriangulated, wikipedia: Triangulated category, wikidata: Q7840150}
+  - {name: distinguished triangle, kind: definition, decl: CategoryTheory.Pretriangulated.Triangle, wikipedia: Triangulated category, wikidata: Q7840150}
+  - {name: octahedral axiom, kind: definition, decl: CategoryTheory.Triangulated.Octahedron, wikipedia: Triangulated category, wikidata: Q7840150}
+  - {name: t-structure, kind: definition, wikipedia: T-structure, wikidata: Q21071553}
+  - {name: Brown representability theorem, kind: statement, wikipedia: Brown's representability theorem, wikidata: Q4975963}
+  - {name: exceptional collection, kind: definition, wikipedia: Semiorthogonal decomposition, wikidata: Q85800327}
+  - {name: Fourier–Mukai transform, kind: definition, wikipedia: Fourier–Mukai transform, wikidata: Q3537566}
+  - {name: stability condition, kind: definition, wikipedia: Bridgeland stability condition, wikidata: Q96373948}
+  - {name: dg category, kind: definition, wikipedia: Differential graded category, wikidata: Q5275347}
+  - {name: stable ∞-category, kind: definition, wikipedia: Stable ∞-category, wikidata: Q17073594}
+  - {name: algebraic K-theory, kind: concept, wikipedia: Algebraic K-theory, wikidata: Q2553675}
+  - {name: Morita equivalence, kind: definition, wikipedia: Morita equivalence, wikidata: Q6912366}

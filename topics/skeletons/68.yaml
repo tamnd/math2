@@ -1,0 +1,264 @@
+# The C2 skeleton of 68-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 68-XX
+title: computer science
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+  mathlib-undergrad: {title: "Mathlib, the list of undergraduate topics", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/undergrad.yaml'}
+  mathlib-overview: {title: "Mathlib, the overview of the library", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/overview.yaml'}
+  mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
+items:
+  # Models of computation
+  - {name: theory of computation, kind: concept, wikipedia: Theory of computation, wikidata: Q844718}
+  - {name: model of computation, kind: concept, wikipedia: Model of computation, wikidata: Q2651576}
+  - {name: Turing machine, kind: definition, decl: Turing.TM0.Machine, wikipedia: Turing machine, wikidata: Q163310, mathlib: [mathlib-overview]}
+  - {name: multitape Turing machine, kind: definition, decl: Turing.TM2.Stmt, wikipedia: Multitape Turing machine, wikidata: Q1392048}
+  - {name: nondeterministic Turing machine, kind: definition, wikipedia: Nondeterministic Turing machine, wikidata: Q1190223}
+  - {name: probabilistic Turing machine, kind: definition, wikipedia: Probabilistic Turing machine, wikidata: Q1191836}
+  - {name: random-access machine, kind: definition, wikipedia: Random-access machine, wikidata: Q2565212}
+  - {name: register machine, kind: definition, wikipedia: Register machine, wikidata: Q1930388}
+  - {name: cellular automaton, kind: definition, wikipedia: Cellular automaton, wikidata: Q189156}
+  - {name: Rule 110, kind: example, wikipedia: Rule 110, wikidata: Q1876486}
+  - {name: Boolean circuit, kind: definition, wikipedia: Boolean circuit, wikidata: Q837479}
+  - {name: decision tree model, kind: definition, wikipedia: Decision tree model, wikidata: Q5249246}
+  - {name: Turing completeness, kind: concept, wikipedia: Turing completeness, wikidata: Q197970}
+  - {name: equivalence of Turing machines and partial recursive functions, kind: statement, decl: Turing.PartrecToTM2.tr_eval, wikipedia: Church–Turing thesis, wikidata: Q309157}
+  - {name: Church–Turing thesis, kind: concept, wikipedia: Church–Turing thesis, wikidata: Q309157}
+  - {name: Busy Beaver function, kind: definition, wikipedia: Busy beaver, wikidata: Q1427965}
+  # Computability as used in CS
+  - {name: decision problem, kind: definition, wikipedia: Decision problem, wikidata: Q3262192}
+  - {name: decidable language, kind: definition, decl: ComputablePred, wikipedia: Recursive language, wikidata: Q1455907}
+  - {name: recursively enumerable language, kind: definition, decl: REPred, wikipedia: Recursively enumerable language, wikidata: Q1073063}
+  - {name: decidable iff recognizable and co-recognizable, kind: statement, decl: ComputablePred.computable_iff_re_compl_re, wikipedia: Recursively enumerable language, wikidata: Q1073063}
+  - {name: undecidability of the halting problem, kind: statement, decl: ComputablePred.halting_problem, wikipedia: Halting problem, wikidata: Q622849, mathlib: [mathlib-overview]}
+  - {name: Rice's theorem, kind: statement, decl: ComputablePred.rice, wikipedia: Rice's theorem, wikidata: Q1893717, mathlib: [mathlib-overview, mathlib-1000]}
+  - {name: Post correspondence problem, kind: problem, wikipedia: Post correspondence problem, wikidata: Q798572}
+  - {name: Wang tile undecidability, kind: statement, wikipedia: Wang tile, wikidata: Q474147}
+  - {name: smn theorem, kind: statement, decl: Nat.Partrec.Code.smn, wikipedia: Smn theorem, wikidata: Q1766814, mathlib: [mathlib-1000]}
+  - {name: Kleene's recursion theorem, kind: statement, decl: Nat.Partrec.Code.fixed_point, wikipedia: Kleene's recursion theorem, wikidata: Q1933521}
+  - {name: mapping reduction, kind: definition, wikipedia: Many-one reduction, wikidata: Q3300648}
+  - {name: encoding of data, kind: definition, decl: Computability.Encoding, wikipedia: Gödel numbering, wikidata: Q1451046}
+  # Automata and formal languages
+  - {name: alphabet, kind: definition, wikipedia: Alphabet (formal languages), wikidata: Q837518}
+  - {name: string, kind: definition, decl: FreeMonoid, wikipedia: String (computer science), wikidata: Q184754}
+  - {name: formal language, kind: definition, decl: Language, wikipedia: Formal language, wikidata: Q192161, mathlib: [mathlib-overview]}
+  - {name: Kleene star, kind: definition, decl: KStar, wikipedia: Kleene star, wikidata: Q849775}
+  - {name: automata theory, kind: concept, wikipedia: Automata theory, wikidata: Q214526}
+  - {name: finite-state machine, kind: concept, wikipedia: Finite-state machine, wikidata: Q176452}
+  - {name: deterministic finite automaton, kind: definition, decl: DFA, wikipedia: Deterministic finite automaton, wikidata: Q837528, mathlib: [mathlib-overview]}
+  - {name: nondeterministic finite automaton, kind: definition, decl: NFA, wikipedia: Nondeterministic finite automaton, wikidata: Q617295, mathlib: [mathlib-overview]}
+  - {name: epsilon-NFA, kind: definition, decl: εNFA, wikipedia: Nondeterministic finite automaton, wikidata: Q617295, mathlib: [mathlib-overview]}
+  - {name: powerset construction, kind: statement, decl: NFA.toDFA_correct, wikipedia: Powerset construction, wikidata: Q2106494}
+  - {name: regular language, kind: definition, decl: Language.IsRegular, wikipedia: Regular language, wikidata: Q752532, mathlib: [mathlib-overview]}
+  - {name: regular expression, kind: definition, decl: RegularExpression, wikipedia: Regular expression, wikidata: Q185612, mathlib: [mathlib-overview]}
+  - {name: Kleene's theorem, kind: statement, wikipedia: Kleene's algorithm, wikidata: Q17102078}
+  - {name: Brzozowski derivative, kind: definition, decl: RegularExpression.deriv, wikipedia: Brzozowski derivative, wikidata: Q17005656}
+  - {name: closure properties of regular languages, kind: statement, decl: Language.IsRegular.compl, wikipedia: Regular language, wikidata: Q752532}
+  - {name: pumping lemma for regular languages, kind: statement, decl: DFA.pumping_lemma, wikipedia: Pumping lemma for regular languages, wikidata: Q2292874}
+  - {name: Myhill–Nerode theorem, kind: statement, decl: Language.isRegular_iff_finite_range_leftQuotient, wikipedia: Myhill–Nerode theorem, wikidata: Q422187, mathlib: [mathlib-1000]}
+  - {name: DFA minimization, kind: definition, wikipedia: DFA minimization, wikidata: Q5204896}
+  - {name: syntactic monoid, kind: definition, wikipedia: Syntactic monoid, wikidata: Q3321297}
+  - {name: star-free language, kind: definition, wikipedia: Star-free language, wikidata: Q3217203}
+  - {name: Schützenberger's theorem on star-free languages, kind: statement, wikipedia: Star-free language, wikidata: Q3217203}
+  - {name: Kleene algebra, kind: definition, decl: KleeneAlgebra, wikipedia: Kleene algebra, wikidata: Q2634506}
+  - {name: Mealy machine, kind: definition, wikipedia: Mealy machine, wikidata: Q1126309}
+  - {name: Moore machine, kind: definition, wikipedia: Moore machine, wikidata: Q640119}
+  - {name: finite-state transducer, kind: definition, wikipedia: Finite-state transducer, wikidata: Q2166395}
+  - {name: weighted automaton, kind: definition, wikipedia: Weighted automaton, wikidata: Q109535851}
+  - {name: Büchi automaton, kind: definition, wikipedia: Büchi automaton, wikidata: Q1020380}
+  - {name: omega-regular language, kind: definition, wikipedia: Omega-regular language, wikidata: Q309558}
+  - {name: tree automaton, kind: definition, wikipedia: Tree automaton, wikidata: Q2872598}
+  - {name: two-way finite automaton, kind: definition, wikipedia: Two-way finite automaton, wikidata: Q243800}
+  - {name: Chomsky hierarchy, kind: concept, wikipedia: Chomsky hierarchy, wikidata: Q190913}
+  - {name: formal grammar, kind: definition, wikipedia: Formal grammar, wikidata: Q373045}
+  - {name: context-free grammar, kind: definition, decl: ContextFreeGrammar, wikipedia: Context-free grammar, wikidata: Q338047, mathlib: [mathlib-overview]}
+  - {name: context-free language, kind: definition, decl: Language.IsContextFree, wikipedia: Context-free language, wikidata: Q729271, mathlib: [mathlib-overview]}
+  - {name: Chomsky normal form, kind: definition, wikipedia: Chomsky normal form, wikidata: Q1076039}
+  - {name: Greibach normal form, kind: definition, wikipedia: Greibach normal form, wikidata: Q1499325}
+  - {name: pushdown automaton, kind: definition, wikipedia: Pushdown automaton, wikidata: Q751443}
+  - {name: pumping lemma for context-free languages, kind: statement, wikipedia: Pumping lemma for context-free languages, wikidata: Q2596624}
+  - {name: Ogden's lemma, kind: statement, wikipedia: Ogden's lemma, wikidata: Q1855893}
+  - {name: Chomsky–Schützenberger representation theorem, kind: statement, wikipedia: Chomsky–Schützenberger representation theorem, wikidata: Q3527040}
+  - {name: Parikh's theorem, kind: statement, wikipedia: Parikh's theorem, wikidata: Q7137090}
+  - {name: Dyck language, kind: example, wikipedia: Dyck language, wikidata: Q1268618}
+  - {name: ambiguous grammar, kind: definition, wikipedia: Ambiguous grammar, wikidata: Q1917459}
+  - {name: CYK algorithm, kind: definition, wikipedia: CYK algorithm, wikidata: Q954821}
+  - {name: deterministic context-free language, kind: definition, wikipedia: Deterministic context-free language, wikidata: Q450569}
+  - {name: context-sensitive language, kind: definition, wikipedia: Context-sensitive language, wikidata: Q1430282}
+  - {name: linear bounded automaton, kind: definition, wikipedia: Linear bounded automaton, wikidata: Q1149323}
+  - {name: Immerman–Szelepcsényi theorem, kind: statement, wikipedia: Immerman–Szelepcsényi theorem, wikidata: Q744440}
+  - {name: unrestricted grammar, kind: definition, wikipedia: Unrestricted grammar, wikidata: Q602934}
+  - {name: rewriting system, kind: definition, wikipedia: Rewriting, wikidata: Q1668499}
+  - {name: confluence, kind: definition, wikipedia: Confluence (abstract rewriting), wikidata: Q1140902}
+  - {name: Newman's lemma, kind: statement, wikipedia: Newman's lemma, wikidata: Q1208706}
+  - {name: Knuth–Bendix completion, kind: definition, wikipedia: Knuth–Bendix completion algorithm, wikidata: Q2835803}
+  # Computational complexity: resources and classes
+  - {name: computational complexity theory, kind: concept, wikipedia: Computational complexity theory, wikidata: Q205084}
+  - {name: time complexity, kind: definition, decl: Turing.TM2ComputableInTime, wikipedia: Time complexity, wikidata: Q2393193}
+  - {name: space complexity, kind: definition, wikipedia: Space complexity, wikidata: Q2098905}
+  - {name: complexity class, kind: definition, wikipedia: Complexity class, wikidata: Q908207}
+  - {name: P, kind: definition, decl: Turing.TM2ComputableInPolyTime, wikipedia: P (complexity), wikidata: Q846354, mathlib: [mathlib-overview]}
+  - {name: NP, kind: definition, wikipedia: NP (complexity), wikidata: Q628036}
+  - {name: co-NP, kind: definition, wikipedia: Co-NP, wikidata: Q955748}
+  - {name: P versus NP problem, kind: problem, wikipedia: P versus NP problem, wikidata: Q746242}
+  - {name: NP-completeness, kind: definition, wikipedia: NP-completeness, wikidata: Q215206}
+  - {name: NP-hardness, kind: definition, wikipedia: NP-hardness, wikidata: Q1137554}
+  - {name: polynomial-time reduction, kind: definition, wikipedia: Polynomial-time reduction, wikidata: Q2103034}
+  - {name: Cook–Levin theorem, kind: statement, wikipedia: Cook–Levin theorem, wikidata: Q377276}
+  - {name: Boolean satisfiability problem, kind: problem, wikipedia: Boolean satisfiability problem, wikidata: Q875276}
+  - {name: Karp's 21 NP-complete problems, kind: example, wikipedia: Karp's 21 NP-complete problems, wikidata: Q1734364}
+  - {name: travelling salesman problem, kind: problem, wikipedia: Travelling salesman problem, wikidata: Q322212}
+  - {name: subset sum problem, kind: problem, wikipedia: Subset sum problem, wikidata: Q1154420}
+  - {name: graph isomorphism problem, kind: problem, wikipedia: Graph isomorphism problem, wikidata: Q3738036}
+  - {name: Ladner's theorem, kind: statement, wikipedia: NP-intermediate, wikidata: Q1130846}
+  - {name: Schaefer's dichotomy theorem, kind: statement, wikipedia: Schaefer's dichotomy theorem, wikidata: Q7430892}
+  - {name: constraint satisfaction problem, kind: problem, wikipedia: Constraint satisfaction problem, wikidata: Q1128326}
+  - {name: time hierarchy theorem, kind: statement, wikipedia: Time hierarchy theorem, wikidata: Q5251122}
+  - {name: space hierarchy theorem, kind: statement, wikipedia: Space hierarchy theorem, wikidata: Q7572588}
+  - {name: Savitch's theorem, kind: statement, wikipedia: Savitch's theorem, wikidata: Q954210}
+  - {name: L, kind: definition, wikipedia: L (complexity), wikidata: Q1192782}
+  - {name: NL, kind: definition, wikipedia: NL (complexity), wikidata: Q12857599}
+  - {name: PSPACE, kind: definition, wikipedia: PSPACE, wikidata: Q500716}
+  - {name: PSPACE-completeness, kind: definition, wikipedia: PSPACE-complete, wikidata: Q905967}
+  - {name: true quantified Boolean formula, kind: problem, wikipedia: True quantified Boolean formula, wikidata: Q1350285}
+  - {name: EXPTIME, kind: definition, wikipedia: EXPTIME, wikidata: Q1276570}
+  - {name: polynomial hierarchy, kind: definition, wikipedia: Polynomial hierarchy, wikidata: Q2103021}
+  - {name: oracle relativization and Baker–Gill–Solovay theorem, kind: statement, wikipedia: Oracle machine, wikidata: Q1143357}
+  - {name: natural proofs barrier, kind: statement, wikipedia: Natural proof, wikidata: Q6980761}
+  - {name: Blum's speedup theorem, kind: statement, wikipedia: Blum's speedup theorem, wikidata: Q1751105}
+  # Randomized, circuit, counting and interactive complexity
+  - {name: BPP, kind: definition, wikipedia: BPP (complexity), wikidata: Q796890}
+  - {name: RP, kind: definition, wikipedia: RP (complexity), wikidata: Q1190846}
+  - {name: ZPP, kind: definition, wikipedia: ZPP (complexity), wikidata: Q136355}
+  - {name: Sipser–Lautemann theorem, kind: statement, wikipedia: Sipser–Lautemann theorem, wikidata: Q7525845}
+  - {name: derandomization and pseudorandom generators, kind: concept, wikipedia: Pseudorandom generator, wikidata: Q7255474}
+  - {name: PRIMES is in P, kind: statement, wikipedia: Agrawal–Kayal–Saxena primality test, wikidata: Q294284}
+  - {name: circuit complexity, kind: concept, wikipedia: Circuit complexity, wikidata: Q1055112}
+  - {name: P/poly, kind: definition, wikipedia: P/poly, wikidata: Q7117817}
+  - {name: Karp–Lipton theorem, kind: statement, wikipedia: Karp–Lipton theorem, wikidata: Q6373327}
+  - {name: AC0, kind: definition, wikipedia: AC0, wikidata: Q287954}
+  - {name: parity not in AC0, kind: statement, wikipedia: AC0, wikidata: Q287954}
+  - {name: NC, kind: definition, wikipedia: NC (complexity), wikidata: Q1141840}
+  - {name: Shannon's counting argument for circuit size, kind: statement, wikipedia: Circuit complexity, wikidata: Q1055112}
+  - {name: Razborov's monotone circuit lower bound, kind: statement, wikipedia: Circuit complexity, wikidata: Q1055112}
+  - {name: '#P', kind: definition, wikipedia: ♯P, wikidata: Q1322138}
+  - {name: Valiant's theorem on the permanent, kind: statement, wikipedia: Permanent (mathematics), wikidata: Q1344007}
+  - {name: Toda's theorem, kind: statement, wikipedia: Toda's theorem, wikidata: Q719966}
+  - {name: interactive proof system, kind: definition, wikipedia: Interactive proof system, wikidata: Q1665886}
+  - {name: IP = PSPACE, kind: statement, wikipedia: IP (complexity), wikidata: Q5973158}
+  - {name: Arthur–Merlin protocol, kind: definition, wikipedia: Arthur–Merlin protocol, wikidata: Q4800823}
+  - {name: zero-knowledge proof, kind: definition, wikipedia: Zero-knowledge proof, wikidata: Q191943}
+  - {name: PCP theorem, kind: statement, wikipedia: PCP theorem, wikidata: Q1140200}
+  - {name: hardness of approximation, kind: concept, wikipedia: Hardness of approximation, wikidata: Q5656275}
+  - {name: unique games conjecture, kind: conjecture, wikipedia: Unique games conjecture, wikidata: Q7886950}
+  - {name: exponential time hypothesis, kind: conjecture, wikipedia: Exponential time hypothesis, wikidata: Q5421532}
+  - {name: parameterized complexity, kind: concept, wikipedia: Parameterized complexity, wikidata: Q1570441}
+  - {name: communication complexity, kind: concept, wikipedia: Communication complexity, wikidata: Q5154130}
+  - {name: quantum complexity class BQP, kind: definition, wikipedia: BQP, wikidata: Q601325}
+  - {name: quantum Turing machine, kind: definition, wikipedia: Quantum Turing machine, wikidata: Q765620}
+  - {name: Shor's algorithm, kind: statement, wikipedia: Shor's algorithm, wikidata: Q940334}
+  - {name: Grover's algorithm, kind: statement, wikipedia: Grover's algorithm, wikidata: Q1028292}
+  - {name: one-way function, kind: definition, wikipedia: One-way function, wikidata: Q720931}
+  - {name: descriptive complexity theory, kind: concept, wikipedia: Descriptive complexity theory, wikidata: Q1200755}
+  - {name: Kolmogorov complexity, kind: definition, wikipedia: Kolmogorov complexity, wikidata: Q1456811}
+  # Lambda calculus and combinatory logic
+  - {name: lambda calculus, kind: concept, wikipedia: Lambda calculus, wikidata: Q242028}
+  - {name: beta reduction, kind: definition, wikipedia: Lambda calculus, wikidata: Q242028}
+  - {name: eta conversion, kind: definition, wikipedia: Lambda calculus, wikidata: Q242028}
+  - {name: beta normal form, kind: definition, wikipedia: Beta normal form, wikidata: Q4897305}
+  - {name: Church–Rosser theorem, kind: statement, wikipedia: Church–Rosser theorem, wikidata: Q1308502}
+  - {name: normalization property, kind: definition, wikipedia: Normal form (abstract rewriting), wikidata: Q7051809}
+  - {name: evaluation strategy, kind: definition, wikipedia: Evaluation strategy, wikidata: Q2881121}
+  - {name: Church encoding, kind: definition, wikipedia: Church encoding, wikidata: Q1089708}
+  - {name: fixed-point combinator, kind: definition, wikipedia: Fixed-point combinator, wikidata: Q2976255}
+  - {name: SKI combinator calculus, kind: definition, wikipedia: SKI combinator calculus, wikidata: Q857813}
+  - {name: De Bruijn index, kind: definition, wikipedia: De Bruijn index, wikidata: Q5244288}
+  - {name: Lambda cube, kind: concept, wikipedia: Lambda cube, wikidata: Q2036661}
+  # Type theory
+  - {name: type theory, kind: concept, wikipedia: Type theory, wikidata: Q1056428}
+  - {name: type system, kind: concept, wikipedia: Type system, wikidata: Q865760}
+  - {name: simply typed lambda calculus, kind: definition, wikipedia: Simply typed lambda calculus, wikidata: Q855192}
+  - {name: strong normalization of simply typed lambda calculus, kind: statement, wikipedia: Normal form (abstract rewriting), wikidata: Q7051809}
+  - {name: type safety, kind: statement, wikipedia: Type safety, wikidata: Q736866}
+  - {name: Hindley–Milner type system, kind: definition, wikipedia: Hindley–Milner type system, wikidata: Q200996}
+  - {name: type inference, kind: definition, wikipedia: Type inference, wikidata: Q586459}
+  - {name: unification, kind: definition, wikipedia: Unification (computer science), wikidata: Q609057}
+  - {name: System F, kind: definition, wikipedia: System F, wikidata: Q2552799}
+  - {name: Girard's paradox, kind: counterexample, wikipedia: System U, wikidata: Q22909237}
+  - {name: parametricity, kind: concept, wikipedia: Parametricity, wikidata: Q17144895}
+  - {name: dependent type, kind: definition, wikipedia: Dependent type, wikidata: Q997433}
+  - {name: calculus of constructions, kind: definition, wikipedia: Calculus of constructions, wikidata: Q858320}
+  - {name: calculus of inductive constructions, kind: definition, wikipedia: Calculus of constructions, wikidata: Q858320}
+  - {name: inductive type, kind: definition, wikipedia: Inductive type, wikidata: Q17092426}
+  - {name: Martin-Löf type theory, kind: definition, wikipedia: Intuitionistic type theory, wikidata: Q6059147}
+  - {name: propositions as types, kind: concept, wikipedia: Curry–Howard correspondence, wikidata: Q975734}
+  - {name: univalence axiom, kind: definition, wikipedia: Univalent foundations, wikidata: Q25303740}
+  - {name: subtyping, kind: definition, wikipedia: Subtyping, wikidata: Q2713292}
+  - {name: linear type system, kind: definition, wikipedia: Substructural type system, wikidata: Q7632172}
+  - {name: monad in functional programming, kind: definition, decl: Monad, wikipedia: Monad (functional programming), wikidata: Q1579914}
+  # Semantics and logic in computer science
+  - {name: denotational semantics, kind: concept, wikipedia: Denotational semantics, wikidata: Q1189746}
+  - {name: operational semantics, kind: concept, wikipedia: Operational semantics, wikidata: Q1930895}
+  - {name: Hoare logic, kind: definition, wikipedia: Hoare logic, wikidata: Q1375924}
+  - {name: weakest precondition, kind: definition, wikipedia: Predicate transformer semantics, wikidata: Q291929}
+  - {name: separation logic, kind: definition, wikipedia: Separation logic, wikidata: Q3257964}
+  - {name: process calculus, kind: concept, wikipedia: Process calculus, wikidata: Q1970286}
+  - {name: pi-calculus, kind: definition, wikipedia: Π-calculus, wikidata: Q602886}
+  - {name: bisimulation, kind: definition, wikipedia: Bisimulation, wikidata: Q866364}
+  - {name: linear temporal logic, kind: definition, wikipedia: Linear temporal logic, wikidata: Q1536492}
+  - {name: computation tree logic, kind: definition, wikipedia: Computation tree logic, wikidata: Q1040040}
+  - {name: modal mu-calculus, kind: definition, wikipedia: Modal μ-calculus, wikidata: Q5275729}
+  - {name: model checking, kind: concept, wikipedia: Model checking, wikidata: Q1569697}
+  - {name: Petri net, kind: definition, wikipedia: Petri net, wikidata: Q724168}
+  # Algorithms as mathematical objects
+  - {name: algorithm, kind: concept, wikipedia: Algorithm, wikidata: Q8366}
+  - {name: analysis of algorithms, kind: concept, wikipedia: Analysis of algorithms, wikidata: Q333464}
+  - {name: asymptotic notation, kind: definition, wikipedia: Big O notation, wikidata: Q269878}
+  - {name: master theorem, kind: statement, wikipedia: Master theorem (analysis of algorithms), wikidata: Q922367}
+  - {name: Akra–Bazzi method, kind: statement, wikipedia: Akra–Bazzi method, wikidata: Q420714}
+  - {name: amortized analysis, kind: concept, wikipedia: Amortized analysis, wikidata: Q331716}
+  - {name: Euclidean algorithm, kind: definition, decl: Nat.gcd, wikipedia: Euclidean algorithm, wikidata: Q230848}
+  - {name: extended Euclidean algorithm, kind: definition, decl: Nat.xgcd, wikipedia: Extended Euclidean algorithm, wikidata: Q1362750, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: Lamé's theorem, kind: statement, wikipedia: Euclidean algorithm, wikidata: Q230848}
+  - {name: sorting algorithm, kind: concept, wikipedia: Sorting algorithm, wikidata: Q181593}
+  - {name: comparison sort lower bound, kind: statement, wikipedia: Comparison sort, wikidata: Q2632949}
+  - {name: merge sort, kind: definition, decl: List.mergeSort, wikipedia: Merge sort, wikidata: Q189057}
+  - {name: insertion sort, kind: definition, decl: List.insertionSort, wikipedia: Insertion sort, wikidata: Q117241}
+  - {name: quicksort, kind: definition, decl: Array.qsort, wikipedia: Quicksort, wikidata: Q486598}
+  - {name: binary search, kind: definition, wikipedia: Binary search, wikidata: Q243754}
+  - {name: heap, kind: definition, decl: Batteries.BinaryHeap, wikipedia: Heap (data structure), wikidata: Q274089}
+  - {name: dynamic programming, kind: concept, wikipedia: Dynamic programming, wikidata: Q380679}
+  - {name: greedy algorithm, kind: concept, wikipedia: Greedy algorithm, wikidata: Q504353}
+  - {name: divide-and-conquer algorithm, kind: concept, wikipedia: Divide-and-conquer algorithm, wikidata: Q671298}
+  - {name: breadth-first search, kind: definition, wikipedia: Breadth-first search, wikidata: Q325904}
+  - {name: depth-first search, kind: definition, wikipedia: Depth-first search, wikidata: Q816319}
+  - {name: Dijkstra's algorithm, kind: definition, wikipedia: Dijkstra's algorithm, wikidata: Q8548}
+  - {name: Bellman–Ford algorithm, kind: definition, wikipedia: Bellman–Ford algorithm, wikidata: Q816022}
+  - {name: Floyd–Warshall algorithm, kind: definition, wikipedia: Floyd–Warshall algorithm, wikidata: Q1047576}
+  - {name: Kruskal's algorithm, kind: definition, wikipedia: Kruskal's algorithm, wikidata: Q797860}
+  - {name: Prim's algorithm, kind: definition, wikipedia: Prim's algorithm, wikidata: Q470813}
+  - {name: topological sorting, kind: definition, wikipedia: Topological sorting, wikidata: Q753127}
+  - {name: Ford–Fulkerson algorithm, kind: definition, wikipedia: Ford–Fulkerson algorithm, wikidata: Q284695}
+  - {name: Hopcroft–Karp algorithm, kind: definition, wikipedia: Hopcroft–Karp algorithm, wikidata: Q1516988}
+  - {name: Karatsuba algorithm, kind: definition, wikipedia: Karatsuba algorithm, wikidata: Q629940}
+  - {name: Strassen algorithm, kind: definition, wikipedia: Strassen algorithm, wikidata: Q728507}
+  - {name: matrix multiplication exponent, kind: problem, wikipedia: Matrix multiplication algorithm, wikidata: Q17082383}
+  - {name: fast Fourier transform, kind: definition, wikipedia: Fast Fourier transform, wikidata: Q623950}
+  - {name: string-searching algorithm, kind: concept, wikipedia: String-searching algorithm, wikidata: Q374040}
+  - {name: Knuth–Morris–Pratt algorithm, kind: definition, wikipedia: Knuth–Morris–Pratt algorithm, wikidata: Q45285}
+  - {name: edit distance, kind: definition, wikipedia: Edit distance, wikidata: Q5338467}
+  - {name: randomized algorithm, kind: concept, wikipedia: Randomized algorithm, wikidata: Q583461}
+  - {name: Miller–Rabin primality test, kind: definition, wikipedia: Miller–Rabin primality test, wikidata: Q980224}
+  - {name: approximation algorithm, kind: concept, wikipedia: Approximation algorithm, wikidata: Q621751}
+  - {name: linear programming and the simplex method, kind: concept, wikipedia: Simplex algorithm, wikidata: Q134164}
+  - {name: ellipsoid method, kind: definition, wikipedia: Ellipsoid method, wikidata: Q378574}
+  - {name: online algorithm and competitive analysis, kind: concept, wikipedia: Competitive analysis (online algorithm), wikidata: Q5156350}
+  # Discrete structures and information for computer science
+  - {name: Boolean function, kind: definition, wikipedia: Boolean function, wikidata: Q942353}
+  - {name: binary decision diagram, kind: definition, wikipedia: Binary decision diagram, wikidata: Q864155}
+  - {name: sensitivity theorem, kind: statement, wikipedia: Sensitivity theorem, wikidata: Q125935416}
+  - {name: binary tree, kind: definition, decl: Tree, wikipedia: Binary tree, wikidata: Q380172}
+  - {name: Hamming distance, kind: definition, decl: hammingDist, wikipedia: Hamming distance, wikidata: Q272172}
+  - {name: Shannon's source coding theorem, kind: statement, wikipedia: Shannon's source coding theorem, wikidata: Q2411312}
+  - {name: Kraft–McMillan inequality, kind: statement, wikipedia: Kraft–McMillan inequality, wikidata: Q371685}

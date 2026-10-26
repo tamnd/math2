@@ -1,0 +1,267 @@
+# The C2 skeleton of 55-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 55-XX
+title: algebraic topology
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+  mathlib-overview: {title: "Mathlib, the overview of the library", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/overview.yaml'}
+items:
+  # Homotopy: basic notions
+  - {name: homotopy, kind: definition, decl: ContinuousMap.Homotopy, wikipedia: Homotopy, wikidata: Q746083}
+  - {name: homotopic maps, kind: definition, decl: ContinuousMap.Homotopic, wikipedia: Homotopy, wikidata: Q746083}
+  - {name: relative homotopy, kind: definition, decl: ContinuousMap.HomotopyRel, wikipedia: Homotopy, wikidata: Q746083}
+  - {name: homotopy equivalence, kind: definition, decl: ContinuousMap.HomotopyEquiv, wikipedia: Homotopy, wikidata: Q746083}
+  - {name: homotopy type, kind: concept, wikipedia: Homotopy, wikidata: Q746083}
+  - {name: contractible space, kind: definition, decl: ContractibleSpace, wikipedia: Contractible space, wikidata: Q230689}
+  - {name: null-homotopic map, kind: definition, decl: ContinuousMap.Nullhomotopic, wikipedia: Homotopy, wikidata: Q746083}
+  - {name: deformation retract, kind: definition, wikipedia: Retraction (topology), wikidata: Q2141963}
+  - {name: retraction, kind: definition, wikipedia: Retraction (topology), wikidata: Q2141963}
+  - {name: path, kind: definition, decl: Path, wikipedia: Path (topology), wikidata: Q1366002}
+  - {name: path homotopy, kind: definition, decl: Path.Homotopy, wikipedia: Homotopy, wikidata: Q746083}
+  - {name: mapping cylinder, kind: definition, wikipedia: Mapping cylinder, wikidata: Q1014869}
+  - {name: mapping cone, kind: definition, wikipedia: Mapping cone (topology), wikidata: Q306560}
+  - {name: suspension, kind: definition, wikipedia: Suspension (topology), wikidata: Q1307987}
+  - {name: loop space, kind: definition, decl: LoopSpace, wikipedia: Loop space, wikidata: Q2066070}
+  - {name: cone, kind: definition, wikipedia: Cone (topology), wikidata: Q1635267}
+  - {name: wedge sum, kind: definition, wikipedia: Wedge sum, wikidata: Q1781358}
+  - {name: smash product, kind: definition, wikipedia: Smash product, wikidata: Q2295009}
+  - {name: join, kind: definition, wikipedia: Join (topology), wikidata: Q3183033}
+  - {name: pointed space, kind: definition, wikipedia: Pointed space, wikidata: Q1419329}
+  - {name: compactly generated space, kind: definition, wikipedia: Compactly generated space, wikidata: Q1738274}
+  - {name: homotopy category, kind: definition, wikipedia: Homotopy category, wikidata: Q14775269}
+  - {name: cofibration, kind: definition, wikipedia: Cofibration, wikidata: Q1048949}
+  - {name: homotopy extension property, kind: definition, wikipedia: Homotopy extension property, wikidata: Q9382514}
+  - {name: Puppe sequence, kind: statement, wikipedia: Puppe sequence, wikidata: Q7260695}
+  - {name: Eckmann–Hilton duality, kind: concept, wikipedia: Eckmann–Hilton duality, wikidata: Q5332931}
+  - {name: Eckmann–Hilton argument, kind: statement, wikipedia: Eckmann–Hilton argument, wikidata: Q5332932}
+  # Fundamental group and covering spaces
+  - {name: fundamental group, kind: definition, decl: FundamentalGroup, wikipedia: Fundamental group, wikidata: Q662830}
+  - {name: fundamental groupoid, kind: definition, decl: FundamentalGroupoid, wikipedia: Fundamental groupoid, wikidata: Q85174068}
+  - {name: simply connected space, kind: definition, decl: SimplyConnectedSpace, wikipedia: Simply connected space, wikidata: Q912058}
+  - {name: fundamental group of the circle, kind: statement, wikipedia: Fundamental group, wikidata: Q662830}
+  - {name: Seifert–van Kampen theorem, kind: statement, wikipedia: Seifert–Van Kampen theorem, wikidata: Q372037}
+  - {name: covering space, kind: definition, decl: IsCoveringMap, wikipedia: Covering space, wikidata: Q332648}
+  - {name: path lifting property, kind: statement, decl: IsCoveringMap.liftPath, wikipedia: Covering space, wikidata: Q332648}
+  - {name: homotopy lifting for covering maps, kind: statement, decl: IsCoveringMap.liftHomotopy, wikipedia: Covering space, wikidata: Q332648}
+  - {name: universal cover, kind: definition, wikipedia: Covering space, wikidata: Q332648}
+  - {name: classification of covering spaces, kind: statement, wikipedia: Covering space, wikidata: Q332648}
+  - {name: deck transformation group, kind: definition, wikipedia: Covering group, wikidata: Q5179253}
+  - {name: semilocally simply connected space, kind: definition, wikipedia: Semi-locally simply connected, wikidata: Q7449310}
+  - {name: Galois correspondence for coverings, kind: statement, wikipedia: Covering space, wikidata: Q332648}
+  # Homotopy groups
+  - {name: homotopy group, kind: definition, decl: HomotopyGroup, wikipedia: Homotopy group, wikidata: Q1626416}
+  - {name: higher homotopy groups are abelian, kind: statement, decl: HomotopyGroup.commGroup, wikipedia: Homotopy group, wikidata: Q1626416}
+  - {name: relative homotopy group, kind: definition, wikipedia: Homotopy group, wikidata: Q1626416}
+  - {name: long exact sequence of homotopy groups, kind: statement, wikipedia: Fibration, wikidata: Q493941}
+  - {name: homotopy groups of spheres, kind: concept, wikipedia: Homotopy groups of spheres, wikidata: Q3118090}
+  - {name: stable homotopy groups of spheres, kind: concept, wikipedia: Homotopy groups of spheres, wikidata: Q3118090}
+  - {name: Hopf fibration, kind: example, wikipedia: Hopf fibration, wikidata: Q1627604}
+  - {name: Hopf invariant, kind: definition, wikipedia: Hopf invariant, wikidata: Q5900509}
+  - {name: Hopf invariant one problem, kind: statement, wikipedia: Hopf invariant, wikidata: Q5900509}
+  - {name: Freudenthal suspension theorem, kind: statement, wikipedia: Freudenthal suspension theorem, wikidata: Q1455794}
+  - {name: Whitehead product, kind: definition, wikipedia: Whitehead product, wikidata: Q7996042}
+  - {name: Whitehead theorem, kind: statement, wikipedia: Whitehead theorem, wikidata: Q3527185}
+  - {name: Hurewicz theorem, kind: statement, wikipedia: Hurewicz theorem, wikidata: Q2394548}
+  - {name: weak homotopy equivalence, kind: definition, wikipedia: Weak equivalence (homotopy theory), wikidata: Q20878207}
+  - {name: n-connected space, kind: definition, wikipedia: Homotopical connectivity, wikidata: Q6358325}
+  - {name: Blakers–Massey theorem, kind: statement, wikipedia: Blakers–Massey theorem, wikidata: Q4924632}
+  - {name: J-homomorphism, kind: definition, wikipedia: J-homomorphism, wikidata: Q6103838}
+  - {name: image of J, kind: concept, wikipedia: J-homomorphism, wikidata: Q6103838}
+  - {name: Serre's finiteness theorem, kind: statement, wikipedia: Homotopy groups of spheres, wikidata: Q3118090}
+  - {name: Toda bracket, kind: definition, wikipedia: Toda bracket, wikidata: Q7812118}
+  - {name: Kervaire invariant, kind: definition, wikipedia: Kervaire invariant, wikidata: Q6394805}
+  - {name: Kervaire invariant problem, kind: problem, wikipedia: Kervaire invariant, wikidata: Q6394805}
+  - {name: Nishida nilpotence theorem, kind: statement, wikipedia: Homotopy groups of spheres, wikidata: Q3118090}
+  - {name: Nilpotence theorem, kind: statement, wikipedia: Nilpotence theorem, wikidata: Q17099400}
+  - {name: homotopy group with coefficients, kind: definition, wikipedia: Homotopy group with coefficients, wikidata: Q16928261}
+  # Cell complexes and simplicial methods
+  - {name: CW complex, kind: definition, decl: Topology.CWComplex, wikipedia: CW complex, wikidata: Q189061}
+  - {name: relative CW complex, kind: definition, decl: Topology.RelCWComplex, wikipedia: CW complex, wikidata: Q189061}
+  - {name: cellular approximation theorem, kind: statement, wikipedia: Cellular approximation theorem, wikidata: Q5058350}
+  - {name: CW approximation, kind: statement, wikipedia: CW complex, wikidata: Q189061}
+  - {name: simplicial complex, kind: definition, decl: Geometry.SimplicialComplex, wikipedia: Simplicial complex, wikidata: Q994399}
+  - {name: abstract simplicial complex, kind: definition, wikipedia: Abstract simplicial complex, wikidata: Q4669959}
+  - {name: simplicial approximation theorem, kind: statement, wikipedia: Simplicial approximation theorem, wikidata: Q3983972}
+  - {name: barycentric subdivision, kind: definition, wikipedia: Barycentric subdivision, wikidata: Q4078260}
+  - {name: simplicial set, kind: definition, decl: SSet, wikipedia: Simplicial set, wikidata: Q1467124}
+  - {name: simplex category, kind: definition, decl: SimplexCategory, wikipedia: Simplex category, wikidata: Q10906333}
+  - {name: Kan complex, kind: definition, decl: SSet.KanComplex, wikipedia: Kan fibration, wikidata: Q3915873}
+  - {name: horn, kind: definition, decl: SSet.horn, wikipedia: Simplicial set, wikidata: Q1467124}
+  - {name: singular simplicial set, kind: definition, decl: TopCat.toSSet, wikipedia: Simplicial set, wikidata: Q1467124}
+  - {name: geometric realization, kind: definition, wikipedia: Simplicial set, wikidata: Q1467124}
+  - {name: nerve of a category, kind: definition, decl: CategoryTheory.nerve, wikipedia: Nerve (category theory), wikidata: Q17099363}
+  - {name: nerve of a cover, kind: definition, wikipedia: Nerve complex, wikidata: Q1424012}
+  - {name: nerve theorem, kind: statement, wikipedia: Nerve complex, wikidata: Q1424012}
+  - {name: Dold–Kan correspondence, kind: statement, wikipedia: Dold–Kan correspondence, wikidata: Q16962174}
+  - {name: quasi-category, kind: definition, decl: SSet.Quasicategory, wikipedia: Quasi-category, wikidata: Q7269442}
+  - {name: Δ-complex, kind: definition, wikipedia: Delta set, wikidata: Q5254799}
+  - {name: Moore space, kind: definition, wikipedia: Moore space (algebraic topology), wikidata: Q4381562}
+  - {name: Eilenberg–MacLane space, kind: definition, wikipedia: Eilenberg–MacLane space, wikidata: Q5349490}
+  - {name: Postnikov tower, kind: definition, wikipedia: Postnikov system, wikidata: Q6941533}
+  - {name: Whitehead tower, kind: definition, wikipedia: Postnikov system, wikidata: Q6941533}
+  - {name: Lusternik–Schnirelmann category, kind: definition, wikipedia: Lusternik–Schnirelmann category, wikidata: Q2361277}
+  # Homology and cohomology
+  - {name: chain complex, kind: definition, decl: ChainComplex, wikipedia: Chain complex, wikidata: Q1143328, mathlib: [mathlib-overview]}
+  - {name: homology of a chain complex, kind: definition, decl: HomologicalComplex.homology, wikipedia: Homology (mathematics), wikidata: Q1144780, mathlib: [mathlib-overview]}
+  - {name: chain homotopy, kind: definition, decl: Homotopy, wikipedia: Chain complex, wikidata: Q1143328}
+  - {name: simplicial homology, kind: definition, wikipedia: Simplicial homology, wikidata: Q7520902}
+  - {name: singular homology, kind: definition, decl: AlgebraicTopology.singularHomologyFunctor, wikipedia: Singular homology, wikidata: Q1095056}
+  - {name: cellular homology, kind: definition, wikipedia: Cellular homology, wikidata: Q3139849}
+  - {name: relative homology, kind: definition, wikipedia: Relative homology, wikidata: Q1959911}
+  - {name: reduced homology, kind: definition, wikipedia: Reduced homology, wikidata: Q7306331}
+  - {name: Betti number, kind: definition, wikipedia: Betti number, wikidata: Q429593}
+  - {name: Euler characteristic, kind: definition, decl: HomologicalComplex.eulerChar, wikipedia: Euler characteristic, wikidata: Q852973}
+  - {name: homotopy invariance of homology, kind: statement, wikipedia: Singular homology, wikidata: Q1095056}
+  - {name: excision theorem, kind: statement, wikipedia: Excision theorem, wikidata: Q3526998}
+  - {name: long exact sequence of a pair, kind: statement, wikipedia: Relative homology, wikidata: Q1959911}
+  - {name: Mayer–Vietoris sequence, kind: statement, wikipedia: Mayer–Vietoris sequence, wikidata: Q2421905}
+  - {name: snake lemma, kind: statement, decl: CategoryTheory.ShortComplex.SnakeInput, wikipedia: Snake lemma, wikidata: Q1064342}
+  - {name: five lemma, kind: statement, wikipedia: Five lemma, wikidata: Q1479523}
+  - {name: Eilenberg–Steenrod axioms, kind: definition, wikipedia: Eilenberg–Steenrod axioms, wikidata: Q5349493}
+  - {name: generalized cohomology theory, kind: definition, wikipedia: Cohomology, wikidata: Q1198376}
+  - {name: homology with coefficients, kind: definition, wikipedia: Homology (mathematics), wikidata: Q1144780}
+  - {name: universal coefficient theorem, kind: statement, wikipedia: Universal coefficient theorem, wikidata: Q2495664}
+  - {name: Künneth theorem, kind: statement, wikipedia: Künneth theorem, wikidata: Q1307676}
+  - {name: Eilenberg–Zilber theorem, kind: statement, wikipedia: Eilenberg–Zilber theorem, wikidata: Q1349282}
+  - {name: Tor functor, kind: definition, wikipedia: Tor functor, wikidata: Q988381}
+  - {name: Ext functor, kind: definition, decl: CategoryTheory.Abelian.Ext, wikipedia: Ext functor, wikidata: Q1384902}
+  - {name: singular cohomology, kind: definition, wikipedia: Cohomology, wikidata: Q1198376}
+  - {name: cup product, kind: definition, wikipedia: Cup product, wikidata: Q3388699}
+  - {name: cap product, kind: definition, wikipedia: Cap product, wikidata: Q5034459}
+  - {name: cohomology ring, kind: definition, wikipedia: Cohomology ring, wikidata: Q5141399}
+  - {name: Poincaré duality, kind: statement, wikipedia: Poincaré duality, wikidata: Q2063099}
+  - {name: Alexander duality, kind: statement, wikipedia: Alexander duality, wikidata: Q4720484}
+  - {name: Lefschetz duality, kind: statement, wikipedia: Lefschetz duality, wikidata: Q6516730}
+  - {name: Thom isomorphism, kind: statement, wikipedia: Thom space, wikidata: Q2421733}
+  - {name: Gysin sequence, kind: statement, wikipedia: Gysin homomorphism, wikidata: Q1558545}
+  - {name: Wang sequence, kind: statement, wikipedia: Spectral sequence, wikidata: Q3503315}
+  - {name: orientation of a manifold, kind: definition, wikipedia: Orientability, wikidata: Q2748415}
+  - {name: fundamental class, kind: definition, wikipedia: Fundamental class, wikidata: Q4493388}
+  - {name: intersection form, kind: definition, wikipedia: Intersection form of a 4-manifold, wikidata: Q6056717}
+  - {name: linking number, kind: definition, wikipedia: Linking number, wikidata: Q2000614}
+  - {name: Čech cohomology, kind: definition, wikipedia: Čech cohomology, wikidata: Q1095535}
+  - {name: Alexander–Spanier cohomology, kind: definition, wikipedia: Alexander–Spanier cohomology, wikidata: Q4143007}
+  - {name: de Rham theorem, kind: statement, wikipedia: De Rham cohomology, wikidata: Q1179446}
+  - {name: sheaf cohomology in topology, kind: definition, decl: TopCat.Sheaf, wikipedia: Sheaf cohomology, wikidata: Q1493952}
+  - {name: local coefficient system, kind: definition, wikipedia: Local system, wikidata: Q6664565}
+  - {name: Borel–Moore homology, kind: definition, wikipedia: Borel–Moore homology, wikidata: Q4944924}
+  - {name: equivariant cohomology, kind: definition, wikipedia: Equivariant cohomology, wikidata: Q5384738}
+  - {name: Bredon cohomology, kind: definition, wikipedia: Bredon cohomology, wikidata: Q65089963}
+  - {name: persistent homology, kind: concept, wikipedia: Persistent homology, wikidata: Q17099562}
+  - {name: homology manifold, kind: definition, wikipedia: Homology manifold, wikidata: Q5891460}
+  - {name: homology sphere, kind: definition, wikipedia: Homology sphere, wikidata: Q1502277}
+  # Fixed points and degree
+  - {name: Brouwer fixed-point theorem, kind: statement, wikipedia: Brouwer fixed-point theorem, wikidata: Q1144897}
+  - {name: degree of a continuous map, kind: definition, wikipedia: Degree of a continuous mapping, wikidata: Q306564}
+  - {name: Hopf degree theorem, kind: statement, wikipedia: Degree of a continuous mapping, wikidata: Q306564}
+  - {name: hairy ball theorem, kind: statement, wikipedia: Hairy ball theorem, wikidata: Q1077741}
+  - {name: Borsuk–Ulam theorem, kind: statement, wikipedia: Borsuk–Ulam theorem, wikidata: Q848092}
+  - {name: Lusternik–Schnirelmann theorem, kind: statement, wikipedia: Lusternik–Schnirelmann theorem, wikidata: Q25098919}
+  - {name: Lefschetz fixed-point theorem, kind: statement, wikipedia: Lefschetz fixed-point theorem, wikidata: Q657469}
+  - {name: Lefschetz number, kind: definition, wikipedia: Lefschetz fixed-point theorem, wikidata: Q657469}
+  - {name: Nielsen fixed-point theory, kind: concept, wikipedia: Fixed-point theorem, wikidata: Q1422068}
+  - {name: Poincaré–Hopf theorem, kind: statement, wikipedia: Poincaré–Hopf theorem, wikidata: Q1305766}
+  - {name: invariance of domain, kind: statement, wikipedia: Invariance of domain, wikidata: Q3527201}
+  - {name: Jordan–Brouwer separation theorem, kind: statement, wikipedia: Jordan curve theorem, wikidata: Q260928}
+  - {name: no-retraction theorem, kind: statement, wikipedia: Brouwer fixed-point theorem, wikidata: Q1144897}
+  - {name: dimension theory, kind: concept, wikipedia: Lebesgue covering dimension, wikidata: Q164262}
+  - {name: Tucker's lemma, kind: statement, wikipedia: Tucker's lemma, wikidata: Q7851042}
+  - {name: Sperner's lemma, kind: statement, wikipedia: Sperner's lemma, wikidata: Q733336}
+  # Fibrations and bundles
+  - {name: fibration, kind: definition, wikipedia: Fibration, wikidata: Q493941}
+  - {name: Hurewicz fibration, kind: definition, wikipedia: Fibration, wikidata: Q493941}
+  - {name: Serre fibration, kind: definition, wikipedia: Fibration, wikidata: Q493941}
+  - {name: homotopy lifting property, kind: definition, wikipedia: Homotopy lifting property, wikidata: Q3983973}
+  - {name: fiber bundle, kind: definition, decl: FiberBundle, wikipedia: Fiber bundle, wikidata: Q1154996, mathlib: [mathlib-overview]}
+  - {name: local trivialization, kind: definition, decl: Bundle.Trivialization, wikipedia: Fiber bundle, wikidata: Q1154996}
+  - {name: vector bundle, kind: definition, decl: VectorBundle, wikipedia: Vector bundle, wikidata: Q658429, mathlib: [mathlib-overview]}
+  - {name: principal bundle, kind: definition, wikipedia: Principal bundle, wikidata: Q1365548}
+  - {name: associated bundle, kind: definition, wikipedia: Associated bundle, wikidata: Q427018}
+  - {name: homotopy fiber, kind: definition, wikipedia: Homotopy fiber, wikidata: Q5891822}
+  - {name: path space fibration, kind: definition, wikipedia: Path space fibration, wikidata: Q25100552}
+  - {name: classifying space, kind: definition, wikipedia: Classifying space, wikidata: Q5128445}
+  - {name: universal bundle, kind: definition, wikipedia: Universal bundle, wikidata: Q7894108}
+  - {name: Grassmannian as classifying space, kind: example, wikipedia: Grassmannian, wikidata: Q129638}
+  - {name: characteristic class, kind: definition, wikipedia: Characteristic class, wikidata: Q1062978}
+  - {name: Stiefel–Whitney class, kind: definition, wikipedia: Stiefel–Whitney class, wikidata: Q1293273}
+  - {name: Chern class, kind: definition, wikipedia: Chern class, wikidata: Q1069818}
+  - {name: Pontryagin class, kind: definition, wikipedia: Pontryagin class, wikidata: Q40007}
+  - {name: Euler class, kind: definition, wikipedia: Euler class, wikidata: Q2193452}
+  - {name: Thom space, kind: definition, wikipedia: Thom space, wikidata: Q2421733}
+  - {name: splitting principle, kind: statement, wikipedia: Splitting principle, wikidata: Q7578745}
+  - {name: Wu's formula, kind: statement, wikipedia: Stiefel–Whitney class, wikidata: Q1293273}
+  - {name: cobordism, kind: concept, wikipedia: Cobordism, wikidata: Q2546666}
+  - {name: Thom's cobordism theorem, kind: statement, wikipedia: Cobordism, wikidata: Q2546666}
+  - {name: sphere bundle, kind: definition, wikipedia: Sphere bundle, wikidata: Q51544038}
+  - {name: Stiefel manifold, kind: example, wikipedia: Stiefel manifold, wikidata: Q7616373}
+  - {name: Whitney sum, kind: definition, wikipedia: Vector bundle, wikidata: Q658429}
+  - {name: Bott periodicity theorem, kind: statement, wikipedia: Bott periodicity theorem, wikidata: Q4948983}
+  - {name: vector fields on spheres, kind: statement, wikipedia: Vector fields on spheres, wikidata: Q7917824}
+  # Cohomology operations and obstruction theory
+  - {name: cohomology operation, kind: definition, wikipedia: Cohomology operation, wikidata: Q5141397}
+  - {name: Steenrod square, kind: definition, wikipedia: Steenrod algebra, wikidata: Q7605884}
+  - {name: Steenrod algebra, kind: definition, wikipedia: Steenrod algebra, wikidata: Q7605884}
+  - {name: Steenrod reduced power, kind: definition, wikipedia: Steenrod algebra, wikidata: Q7605884}
+  - {name: Adem relations, kind: statement, wikipedia: Steenrod algebra, wikidata: Q7605884}
+  - {name: Cartan formula, kind: statement, wikipedia: Steenrod algebra, wikidata: Q7605884}
+  - {name: Bockstein homomorphism, kind: definition, wikipedia: Bockstein homomorphism, wikidata: Q4936292}
+  - {name: Massey product, kind: definition, wikipedia: Massey product, wikidata: Q6784627}
+  - {name: representability of cohomology by Eilenberg–MacLane spaces, kind: statement, wikipedia: Eilenberg–MacLane space, wikidata: Q5349490}
+  - {name: Brown representability theorem, kind: statement, wikipedia: Brown's representability theorem, wikidata: Q4975963}
+  - {name: obstruction theory, kind: concept, wikipedia: Obstruction theory, wikidata: Q1017338}
+  - {name: primary obstruction, kind: definition, wikipedia: Obstruction theory, wikidata: Q1017338}
+  - {name: Adams' theorem on Hopf invariant one, kind: statement, wikipedia: Hopf invariant, wikidata: Q5900509}
+  # Spectral sequences
+  - {name: spectral sequence, kind: definition, decl: CategoryTheory.SpectralSequence, wikipedia: Spectral sequence, wikidata: Q3503315}
+  - {name: Serre spectral sequence, kind: statement, wikipedia: Serre spectral sequence, wikidata: Q7455410}
+  - {name: Leray spectral sequence, kind: statement, wikipedia: Leray spectral sequence, wikidata: Q6528749}
+  - {name: Atiyah–Hirzebruch spectral sequence, kind: statement, wikipedia: Atiyah–Hirzebruch spectral sequence, wikidata: Q17004665}
+  - {name: Adams spectral sequence, kind: statement, wikipedia: Adams spectral sequence, wikidata: Q4680481}
+  - {name: Adams–Novikov spectral sequence, kind: statement, wikipedia: Adams spectral sequence, wikidata: Q4680481}
+  - {name: Eilenberg–Moore spectral sequence, kind: statement, wikipedia: Eilenberg–Moore spectral sequence, wikidata: Q5349492}
+  - {name: Bockstein spectral sequence, kind: statement, wikipedia: Bockstein spectral sequence, wikidata: Q4936293}
+  - {name: exact couple, kind: definition, wikipedia: Exact couple, wikidata: Q25098609}
+  # Stable homotopy theory and generalized cohomology
+  - {name: stable homotopy theory, kind: concept, wikipedia: Stable homotopy theory, wikidata: Q7595767}
+  - {name: spectrum, kind: definition, wikipedia: Spectrum (topology), wikidata: Q7575269}
+  - {name: stable homotopy category, kind: definition, wikipedia: Spectrum (topology), wikidata: Q7575269}
+  - {name: sphere spectrum, kind: object, wikipedia: Sphere spectrum, wikidata: Q7576683}
+  - {name: Eilenberg–MacLane spectrum, kind: object, wikipedia: Eilenberg–MacLane spectrum, wikidata: Q134310487}
+  - {name: ring spectrum, kind: definition, wikipedia: Ring spectrum, wikidata: Q7334821}
+  - {name: symmetric spectrum, kind: definition, wikipedia: Symmetric spectrum, wikidata: Q17090831}
+  - {name: topological K-theory, kind: definition, wikipedia: Topological K-theory, wikidata: Q2111307}
+  - {name: Adams operations, kind: definition, wikipedia: Adams operation, wikidata: Q4680478}
+  - {name: cobordism ring, kind: definition, wikipedia: Cobordism ring, wikidata: Q19596423}
+  - {name: complex cobordism, kind: definition, wikipedia: Complex cobordism, wikidata: Q5156571}
+  - {name: Thom spectrum, kind: definition, wikipedia: Thom space, wikidata: Q2421733}
+  - {name: Brown–Peterson cohomology, kind: definition, wikipedia: Brown–Peterson cohomology, wikidata: Q17097796}
+  - {name: Morava K-theory, kind: definition, wikipedia: Morava K-theory, wikidata: Q6909307}
+  - {name: formal group law in topology, kind: concept, wikipedia: Formal group law, wikidata: Q5469970}
+  - {name: Quillen's theorem on complex cobordism, kind: statement, wikipedia: Complex cobordism, wikidata: Q5156571}
+  - {name: chromatic homotopy theory, kind: concept, wikipedia: Chromatic homotopy theory, wikidata: Q16958142}
+  - {name: Ravenel conjectures, kind: statement, wikipedia: Ravenel's conjectures, wikidata: Q7296445}
+  - {name: telescope conjecture, kind: counterexample, wikipedia: Ravenel's conjectures, wikidata: Q7296445}
+  - {name: elliptic cohomology, kind: definition, wikipedia: Elliptic cohomology, wikidata: Q5365789}
+  - {name: topological modular forms, kind: definition, wikipedia: Topological modular forms, wikidata: Q7825037}
+  - {name: localization of a space, kind: concept, wikipedia: Localization of a topological space, wikidata: Q6664613}
+  - {name: rational homotopy theory, kind: concept, wikipedia: Rational homotopy theory, wikidata: Q4391254}
+  - {name: Sullivan minimal model, kind: definition, wikipedia: Rational homotopy theory, wikidata: Q4391254}
+  - {name: Segal conjecture, kind: statement, wikipedia: Segal's conjecture, wikidata: Q7446189}
+  - {name: Sullivan conjecture, kind: statement, wikipedia: Sullivan conjecture, wikidata: Q17089125}
+  - {name: E-infinity operad, kind: definition, wikipedia: E∞-operad, wikidata: Q5423545}
+  - {name: infinite loop space, kind: definition, wikipedia: Infinite loop space machine, wikidata: Q16926157}
+  - {name: May recognition principle, kind: statement, wikipedia: Infinite loop space machine, wikidata: Q16926157}
+  - {name: H-space, kind: definition, wikipedia: H-space, wikidata: Q1562471}
+  - {name: Hopf algebra structure on cohomology, kind: concept, wikipedia: Hopf algebra, wikidata: Q1627597}
+  - {name: Barratt–Priddy–Quillen theorem, kind: statement, wikipedia: Barratt–Priddy theorem, wikidata: Q4863268}
+  # Abstract homotopy theory
+  - {name: model category, kind: definition, decl: HomotopicalAlgebra.ModelCategory, wikipedia: Model category, wikidata: Q1941896}
+  - {name: Quillen equivalence, kind: definition, wikipedia: Quillen adjunction, wikidata: Q7271995}
+  - {name: homotopy limit, kind: definition, wikipedia: Homotopy colimit and limit, wikidata: Q17030678}
+  - {name: derived functor, kind: definition, decl: CategoryTheory.Functor.leftDerived, wikipedia: Derived functor, wikidata: Q320245}
+  - {name: triangulated category, kind: definition, wikipedia: Triangulated category, wikidata: Q7840150}
+  - {name: homotopy hypothesis, kind: conjecture, wikipedia: Homotopy hypothesis, wikidata: Q16879377}
+  - {name: higher category theory, kind: concept, wikipedia: Higher category theory, wikidata: Q5758318}
+  - {name: operad, kind: definition, wikipedia: Operad, wikidata: Q842072}
+  - {name: homotopy type theory, kind: concept, wikipedia: Homotopy type theory, wikidata: Q5891840}

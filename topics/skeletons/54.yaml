@@ -1,0 +1,243 @@
+# The C2 skeleton of 54-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 54-XX
+title: general topology
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+  mathlib-undergrad: {title: "Mathlib, the list of undergraduate topics", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/undergrad.yaml'}
+  mathlib-overview: {title: "Mathlib, the overview of the library", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/overview.yaml'}
+  mathlib-100: {title: "Mathlib, the status of Freek Wiedijk's 100 theorems", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/100.yaml'}
+  mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
+items:
+  # Basic notions: open sets, neighbourhoods, bases
+  - {name: topological space, kind: definition, decl: TopologicalSpace, wikipedia: Topological space, wikidata: Q179899, mathlib: [mathlib-overview]}
+  - {name: open set, kind: definition, decl: IsOpen, wikipedia: Open set, wikidata: Q213363}
+  - {name: closed set, kind: definition, decl: IsClosed, wikipedia: Closed set, wikidata: Q320357}
+  - {name: clopen set, kind: definition, decl: IsClopen, wikipedia: Clopen set, wikidata: Q320369}
+  - {name: neighbourhood, kind: definition, decl: nhds, wikipedia: Neighbourhood (mathematics), wikidata: Q2478475}
+  - {name: base for a topology, kind: definition, decl: TopologicalSpace.IsTopologicalBasis, wikipedia: Base (topology), wikidata: Q810214}
+  - {name: subbase, kind: definition, decl: TopologicalSpace.generateFrom, wikipedia: Subbase, wikidata: Q2739990}
+  - {name: comparison of topologies, kind: concept, wikipedia: Comparison of topologies, wikidata: Q906456}
+  - {name: interior, kind: definition, decl: interior, wikipedia: Interior (topology), wikidata: Q862761}
+  - {name: closure, kind: definition, decl: closure, wikipedia: Closure (topology), wikidata: Q320346, mathlib: [mathlib-overview]}
+  - {name: boundary, kind: definition, decl: frontier, wikipedia: Boundary (topology), wikidata: Q875399}
+  - {name: Kuratowski closure axioms, kind: definition, wikipedia: Kuratowski closure axioms, wikidata: Q10286397}
+  - {name: Kuratowski's closure-complement problem, kind: problem, wikipedia: Kuratowski's closure-complement problem, wikidata: Q6445654}
+  - {name: dense set, kind: definition, decl: Dense, wikipedia: Dense set, wikidata: Q673444}
+  - {name: nowhere dense set, kind: definition, decl: IsNowhereDense, wikipedia: Nowhere dense set, wikidata: Q1991405}
+  - {name: regular open set, kind: definition, wikipedia: Regular open set, wikidata: Q110745661}
+  - {name: accumulation point, kind: definition, decl: AccPt, wikipedia: Accumulation point, wikidata: Q858223}
+  - {name: isolated point, kind: definition, wikipedia: Isolated point, wikidata: Q1142889}
+  - {name: derived set, kind: definition, wikipedia: Derived set (mathematics), wikidata: Q322340}
+  - {name: perfect set, kind: definition, wikipedia: Perfect set, wikidata: Q7168101}
+  - {name: G-delta set, kind: definition, decl: IsGδ, wikipedia: Gδ set, wikidata: Q127244}
+  - {name: F-sigma set, kind: definition, wikipedia: Fσ set, wikidata: Q4392123}
+  - {name: specialization preorder, kind: definition, decl: Specializes, wikipedia: Specialization preorder, wikidata: Q5569420}
+  # Standard examples of topologies
+  - {name: discrete topology, kind: example, decl: DiscreteTopology, wikipedia: Discrete space, wikidata: Q175116}
+  - {name: trivial topology, kind: example, wikipedia: Trivial topology, wikidata: Q1418327}
+  - {name: cofinite topology, kind: example, decl: CofiniteTopology, wikipedia: Cofiniteness, wikidata: Q3491998}
+  - {name: Sierpiński space, kind: example, decl: sierpinskiSpace, wikipedia: Sierpiński space, wikidata: Q2119470}
+  - {name: particular point topology, kind: example, wikipedia: Particular point topology, wikidata: Q7140510}
+  - {name: excluded point topology, kind: example, wikipedia: Excluded point topology, wikidata: Q5419668}
+  - {name: Alexandrov topology, kind: definition, decl: AlexandrovDiscrete, wikipedia: Alexandrov topology, wikidata: Q3532117}
+  - {name: Zariski topology, kind: example, wikipedia: Zariski topology, wikidata: Q147978}
+  - {name: order topology, kind: definition, decl: OrderTopology, wikipedia: Order topology, wikidata: Q1321469, mathlib: [mathlib-overview]}
+  - {name: Scott topology, kind: definition, wikipedia: Scott continuity, wikidata: Q895815}
+  # Filters, nets and convergence
+  - {name: filter, kind: definition, decl: Filter, wikipedia: Filter (mathematics), wikidata: Q1052692, mathlib: [mathlib-overview]}
+  - {name: convergence of filters, kind: definition, decl: Filter.Tendsto, wikipedia: Filters in topology, wikidata: Q104901581, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: ultrafilter, kind: definition, decl: Ultrafilter, wikipedia: Ultrafilter, wikidata: Q1571831}
+  - {name: net, kind: definition, wikipedia: Net (mathematics), wikidata: Q1191147}
+  - {name: cluster point, kind: definition, decl: ClusterPt, wikipedia: Accumulation point, wikidata: Q858223, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: germ, kind: definition, decl: Filter.Germ, wikipedia: Germ (mathematics), wikidata: Q2520842}
+  # Continuous maps
+  - {name: continuous map, kind: definition, decl: Continuous, wikipedia: Continuous function, wikidata: Q170058, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: continuity at a point, kind: definition, decl: ContinuousAt, wikipedia: Continuous function, wikidata: Q170058}
+  - {name: sequentially continuous function, kind: definition, decl: SeqContinuous, wikipedia: Sequential space, wikidata: Q2740469}
+  - {name: homeomorphism, kind: definition, decl: Homeomorph, wikipedia: Homeomorphism, wikidata: Q202906, mathlib: [mathlib-undergrad]}
+  - {name: open map, kind: definition, decl: IsOpenMap, wikipedia: Open and closed maps, wikidata: Q2632649, mathlib: [mathlib-overview]}
+  - {name: closed map, kind: definition, decl: IsClosedMap, wikipedia: Open and closed maps, wikidata: Q2632649, mathlib: [mathlib-overview]}
+  - {name: topological embedding, kind: definition, decl: Topology.IsEmbedding, wikipedia: Embedding, wikidata: Q980509}
+  - {name: quotient map, kind: definition, decl: Topology.IsQuotientMap, wikipedia: Quotient space (topology), wikidata: Q1139111}
+  - {name: local homeomorphism, kind: definition, decl: IsLocalHomeomorph, wikipedia: Local homeomorphism, wikidata: Q1052761}
+  - {name: proper map, kind: definition, decl: IsProperMap, wikipedia: Proper map, wikidata: Q1090009}
+  - {name: perfect map, kind: definition, wikipedia: Perfect map, wikidata: Q7168087}
+  - {name: semicontinuity, kind: definition, wikipedia: Semi-continuity, wikidata: Q955072}
+  - {name: hemicontinuity, kind: definition, wikipedia: Hemicontinuity, wikidata: Q5711478}
+  - {name: Michael selection theorem, kind: statement, wikipedia: Michael selection theorem, wikidata: Q6835566}
+  - {name: intermediate value theorem, kind: statement, decl: intermediate_value_Icc, wikipedia: Intermediate value theorem, wikidata: Q245098, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-100, mathlib-1000]}
+  - {name: extreme value theorem, kind: statement, decl: IsCompact.exists_isMinOn, wikipedia: Extreme value theorem, wikidata: Q752375, mathlib: [mathlib-overview, mathlib-1000]}
+  - {name: retraction, kind: definition, wikipedia: Retraction (topology), wikidata: Q2141963}
+  - {name: absolute neighborhood retract, kind: definition, wikipedia: Absolute neighborhood retract, wikidata: Q137596576}
+  - {name: Dugundji extension theorem, kind: statement, wikipedia: Dugundji extension theorem, wikidata: Q974873}
+  # Constructions of spaces
+  - {name: subspace topology, kind: definition, decl: instTopologicalSpaceSubtype, wikipedia: Subspace topology, wikidata: Q660730}
+  - {name: product topology, kind: definition, decl: Pi.topologicalSpace, wikipedia: Product topology, wikidata: Q1070472}
+  - {name: box topology, kind: definition, wikipedia: Box topology, wikidata: Q4951625}
+  - {name: disjoint union topology, kind: definition, decl: instTopologicalSpaceSigma, wikipedia: Disjoint union (topology), wikidata: Q5282259}
+  - {name: quotient space, kind: definition, wikipedia: Quotient space (topology), wikidata: Q1139111}
+  - {name: initial topology, kind: definition, wikipedia: Initial topology, wikidata: Q13416298}
+  - {name: final topology, kind: definition, wikipedia: Final topology, wikidata: Q1416138}
+  - {name: adjunction space, kind: definition, wikipedia: Adjunction space, wikidata: Q4683190}
+  - {name: cone, kind: definition, wikipedia: Cone (topology), wikidata: Q1635267}
+  - {name: suspension, kind: definition, wikipedia: Suspension (topology), wikidata: Q1307987}
+  - {name: inverse limit, kind: definition, wikipedia: Inverse limit, wikidata: Q2634828}
+  - {name: compact-open topology, kind: definition, decl: ContinuousMap.compactOpen, wikipedia: Compact-open topology, wikidata: Q1669863, mathlib: [mathlib-overview]}
+  - {name: topology of pointwise convergence, kind: definition, wikipedia: Pointwise convergence, wikidata: Q1778098}
+  - {name: topology of uniform convergence, kind: definition, wikipedia: Uniform convergence, wikidata: Q1411887}
+  - {name: Vietoris topology, kind: definition, wikipedia: Hypertopology, wikidata: Q5958737}
+  - {name: Hausdorff distance, kind: definition, decl: Metric.hausdorffDist, wikipedia: Hausdorff distance, wikidata: Q1501997}
+  # Separation axioms
+  - {name: separation axiom, kind: concept, wikipedia: Separation axiom, wikidata: Q1140985}
+  - {name: T0 space, kind: definition, decl: T0Space, wikipedia: Kolmogorov space, wikidata: Q1148924}
+  - {name: Kolmogorov quotient, kind: definition, decl: SeparationQuotient, wikipedia: Kolmogorov space, wikidata: Q1148924}
+  - {name: T1 space, kind: definition, decl: T1Space, wikipedia: T1 space, wikidata: Q284347}
+  - {name: Hausdorff space, kind: definition, decl: T2Space, wikipedia: Hausdorff space, wikidata: Q326908, mathlib: [mathlib-overview]}
+  - {name: Urysohn space, kind: definition, decl: T25Space, wikipedia: Urysohn and completely Hausdorff spaces, wikidata: Q1135782}
+  - {name: regular space, kind: definition, decl: RegularSpace, wikipedia: Regular space, wikidata: Q1193403}
+  - {name: Tychonoff space, kind: definition, decl: CompletelyRegularSpace, wikipedia: Tychonoff space, wikidata: Q1191433}
+  - {name: normal space, kind: definition, decl: NormalSpace, wikipedia: Normal space, wikidata: Q1071795}
+  - {name: completely normal space, kind: definition, decl: T5Space, wikipedia: Normal space, wikidata: Q1071795}
+  - {name: perfectly normal space, kind: definition, decl: PerfectlyNormalSpace, wikipedia: Normal space, wikidata: Q1071795}
+  - {name: sober space, kind: definition, decl: QuasiSober, wikipedia: Sober space, wikidata: Q8778429}
+  - {name: Urysohn's lemma, kind: statement, decl: exists_continuous_zero_one_of_isClosed, wikipedia: Urysohn's lemma, wikidata: Q1816967, mathlib: [mathlib-overview]}
+  - {name: Tietze extension theorem, kind: statement, decl: ContinuousMap.exists_extension, wikipedia: Tietze extension theorem, wikidata: Q1346677}
+  # Countability axioms
+  - {name: first-countable space, kind: definition, decl: FirstCountableTopology, wikipedia: First-countable space, wikidata: Q926996}
+  - {name: second-countable space, kind: definition, decl: SecondCountableTopology, wikipedia: Second-countable space, wikidata: Q1363919}
+  - {name: separable space, kind: definition, decl: TopologicalSpace.SeparableSpace, wikipedia: Separable space, wikidata: Q680081}
+  - {name: sequential space, kind: definition, decl: SequentialSpace, wikipedia: Sequential space, wikidata: Q2740469, mathlib: [mathlib-overview]}
+  - {name: Fréchet–Urysohn space, kind: definition, decl: FrechetUrysohnSpace, wikipedia: Fréchet–Urysohn space, wikidata: Q96378800}
+  - {name: cardinal function, kind: definition, wikipedia: Cardinal function, wikidata: Q4352241}
+  # Compactness
+  - {name: open cover, kind: definition, wikipedia: Cover (topology), wikidata: Q331481}
+  - {name: compact space, kind: definition, decl: IsCompact, wikipedia: Compact space, wikidata: Q381892, mathlib: [mathlib-overview]}
+  - {name: finite intersection property, kind: definition, wikipedia: Finite intersection property, wikidata: Q2915225}
+  - {name: continuous image of a compact set is compact, kind: statement, decl: IsCompact.image, wikipedia: Compact space, wikidata: Q381892}
+  - {name: compact subsets of Hausdorff spaces are closed, kind: statement, decl: IsCompact.isClosed, wikipedia: Compact space, wikidata: Q381892}
+  - {name: compactness via ultrafilters, kind: statement, decl: isCompact_iff_ultrafilter_le_nhds, wikipedia: Ultrafilter, wikidata: Q1571831}
+  - {name: Heine–Borel theorem, kind: statement, decl: Metric.isCompact_iff_isClosed_bounded, wikipedia: Heine–Borel theorem, wikidata: Q253214, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000]}
+  - {name: Tychonoff's theorem, kind: statement, decl: isCompact_univ_pi, wikipedia: Tychonoff's theorem, wikidata: Q1137014}
+  - {name: Alexander subbase theorem, kind: statement, decl: compactSpace_generateFrom, wikipedia: Alexander's subbase lemma, wikidata: Q26882835}
+  - {name: Cantor's intersection theorem, kind: statement, decl: IsCompact.nonempty_iInter_of_sequence_nonempty_isCompact_isClosed, wikipedia: Cantor's intersection theorem, wikidata: Q858052}
+  - {name: Lebesgue's number lemma, kind: statement, decl: lebesgue_number_lemma_of_metric, wikipedia: Lebesgue's number lemma, wikidata: Q1049869}
+  - {name: tube lemma, kind: statement, wikipedia: Tube lemma, wikidata: Q3830116}
+  - {name: locally compact space, kind: definition, decl: LocallyCompactSpace, wikipedia: Locally compact space, wikidata: Q583034}
+  - {name: sigma-compact space, kind: definition, decl: SigmaCompactSpace, wikipedia: Σ-compact space, wikidata: Q290618}
+  - {name: countably compact space, kind: definition, wikipedia: Countably compact space, wikidata: Q859275}
+  - {name: sequentially compact space, kind: definition, decl: SeqCompactSpace, wikipedia: Sequentially compact space, wikidata: Q1135427}
+  - {name: compactness equals sequential compactness for metric spaces, kind: statement, decl: isCompact_iff_isSeqCompact, wikipedia: Sequentially compact space, wikidata: Q1135427, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: limit point compact space, kind: definition, wikipedia: Limit point compact, wikidata: Q6549451}
+  - {name: pseudocompact space, kind: definition, wikipedia: Pseudocompact space, wikidata: Q5362132}
+  - {name: Lindelöf space, kind: definition, decl: LindelofSpace, wikipedia: Lindelöf space, wikidata: Q936155}
+  - {name: locally finite family, kind: definition, decl: LocallyFinite, wikipedia: Locally finite collection, wikidata: Q643300}
+  - {name: paracompact space, kind: definition, decl: ParacompactSpace, wikipedia: Paracompact space, wikidata: Q970119}
+  - {name: Stone's theorem on paracompactness of metric spaces, kind: statement, decl: Metric.instParacompactSpace, wikipedia: Paracompact space, wikidata: Q970119}
+  - {name: Dieudonné's theorem on paracompact Hausdorff spaces, kind: statement, decl: NormalSpace.of_paracompactSpace_r1Space, wikipedia: Paracompact space, wikidata: Q970119}
+  - {name: metacompact space, kind: definition, wikipedia: Metacompact space, wikidata: Q6822437}
+  - {name: compactly generated space, kind: definition, decl: CompactlyGeneratedSpace, wikipedia: Compactly generated space, wikidata: Q1738274}
+  # Compactifications
+  - {name: compactification, kind: definition, wikipedia: Compactification (mathematics), wikidata: Q546145}
+  - {name: one-point compactification, kind: definition, decl: OnePoint, wikipedia: Alexandroff extension, wikidata: Q864919}
+  - {name: Stone–Čech compactification, kind: definition, decl: StoneCech, wikipedia: Stone–Čech compactification, wikidata: Q2033899, mathlib: [mathlib-overview]}
+  - {name: Stone space, kind: definition, decl: Profinite, wikipedia: Stone space, wikidata: Q30587585}
+  - {name: Stone's representation theorem for Boolean algebras, kind: statement, wikipedia: Stone's representation theorem for Boolean algebras, wikidata: Q1166774}
+  - {name: extremally disconnected space, kind: definition, decl: ExtremallyDisconnected, wikipedia: Extremally disconnected space, wikidata: Q1385462}
+  - {name: Gleason's theorem on projective compact spaces, kind: statement, decl: CompactT2.projective_iff_extremallyDisconnected, wikipedia: Extremally disconnected space, wikidata: Q1385462}
+  # Baire category
+  - {name: Baire space, kind: definition, decl: BaireSpace, wikipedia: Baire space, wikidata: Q1150180}
+  - {name: Baire category theorem, kind: statement, decl: dense_iInter_of_isOpen, wikipedia: Baire category theorem, wikidata: Q1052678}
+  - {name: meagre set, kind: definition, decl: IsMeagre, wikipedia: Meagre set, wikidata: Q1747745}
+  - {name: residual set, kind: definition, decl: residual, wikipedia: Meagre set, wikidata: Q1747745}
+  # Connectedness
+  - {name: connected space, kind: definition, decl: ConnectedSpace, wikipedia: Connected space, wikidata: Q1491995, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: path-connected space, kind: definition, decl: PathConnectedSpace, wikipedia: Connected space, wikidata: Q1491995}
+  - {name: connectedness of real intervals, kind: statement, decl: isConnected_Icc, wikipedia: Connected space, wikidata: Q1491995}
+  - {name: connected component, kind: definition, decl: connectedComponent, wikipedia: Connected space, wikidata: Q1491995, mathlib: [mathlib-undergrad]}
+  - {name: locally connected space, kind: definition, decl: LocallyConnectedSpace, wikipedia: Locally connected space, wikidata: Q865967}
+  - {name: locally path-connected space, kind: definition, decl: LocPathConnectedSpace, wikipedia: Locally connected space, wikidata: Q865967}
+  - {name: totally disconnected space, kind: definition, decl: TotallyDisconnectedSpace, wikipedia: Totally disconnected space, wikidata: Q1544261}
+  - {name: zero-dimensional space, kind: definition, decl: ZeroDimensionalSpace, wikipedia: Zero-dimensional space, wikidata: Q1801244}
+  - {name: hyperconnected space, kind: definition, decl: IrreducibleSpace, wikipedia: Hyperconnected space, wikidata: Q1673182}
+  - {name: Noetherian topological space, kind: definition, decl: TopologicalSpace.NoetherianSpace, wikipedia: Noetherian topological space, wikidata: Q590554}
+  - {name: spectral space, kind: definition, decl: SpectralSpace, wikipedia: Spectral space, wikidata: Q7575210}
+  - {name: topologist's sine curve, kind: counterexample, wikipedia: Topologist's sine curve, wikidata: Q1148367}
+  - {name: comb space, kind: counterexample, wikipedia: Comb space, wikidata: Q5150587}
+  # Metric spaces
+  - {name: metric space, kind: definition, decl: MetricSpace, wikipedia: Metric space, wikidata: Q180953, mathlib: [mathlib-overview]}
+  - {name: pseudometric space, kind: definition, decl: PseudoMetricSpace, wikipedia: Pseudometric space, wikidata: Q1397059}
+  - {name: ultrametric space, kind: definition, wikipedia: Ultrametric space, wikidata: Q1897429}
+  - {name: open ball, kind: definition, decl: Metric.ball, wikipedia: Ball (mathematics), wikidata: Q838611, mathlib: [mathlib-overview]}
+  - {name: Cauchy sequence, kind: definition, decl: CauchySeq, wikipedia: Cauchy sequence, wikidata: Q217847, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: complete metric space, kind: definition, decl: CompleteSpace, wikipedia: Complete metric space, wikidata: Q848569, mathlib: [mathlib-overview]}
+  - {name: completion of a metric space, kind: definition, decl: UniformSpace.Completion, wikipedia: Complete metric space, wikidata: Q848569, mathlib: [mathlib-overview]}
+  - {name: totally bounded space, kind: definition, decl: TotallyBounded, wikipedia: Totally bounded space, wikidata: Q1362228}
+  - {name: compact iff complete and totally bounded, kind: statement, decl: isCompact_iff_totallyBounded_isComplete, wikipedia: Compact space, wikidata: Q381892}
+  - {name: Lipschitz continuity, kind: definition, decl: LipschitzWith, wikipedia: Lipschitz continuity, wikidata: Q652707, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: isometry, kind: definition, decl: Isometry, wikipedia: Isometry, wikidata: Q740207}
+  - {name: Banach fixed-point theorem, kind: statement, decl: ContractingWith.fixedPoint, wikipedia: Banach fixed-point theorem, wikidata: Q220680}
+  - {name: Kuratowski embedding, kind: statement, wikipedia: Kuratowski embedding, wikidata: Q3984015}
+  - {name: Kirszbraun theorem, kind: statement, wikipedia: Kirszbraun theorem, wikidata: Q4454954}
+  - {name: Polish space, kind: definition, decl: PolishSpace, wikipedia: Polish space, wikidata: Q1207972}
+  - {name: Gromov–Hausdorff space, kind: object, decl: GromovHausdorff.GHSpace, wikipedia: Gromov–Hausdorff convergence, wikidata: Q929777, mathlib: [mathlib-overview]}
+  - {name: Urysohn universal space, kind: object, wikipedia: Urysohn universal space, wikidata: Q7901611}
+  - {name: Hilbert cube, kind: object, wikipedia: Hilbert cube, wikidata: Q1618171}
+  # Metrization
+  - {name: metrizable space, kind: definition, decl: TopologicalSpace.MetrizableSpace, wikipedia: Metrizable space, wikidata: Q1194053}
+  - {name: Urysohn metrization theorem, kind: statement, decl: TopologicalSpace.metrizableSpace_of_t3_secondCountable, wikipedia: Metrizable space, wikidata: Q1194053, mathlib: [mathlib-1000]}
+  - {name: Nagata–Smirnov metrization theorem, kind: statement, wikipedia: Nagata–Smirnov metrization theorem, wikidata: Q2621667}
+  - {name: Bing metrization theorem, kind: statement, wikipedia: Bing metrization theorem, wikidata: Q17081508}
+  - {name: Moore space, kind: definition, wikipedia: Moore space (topology), wikidata: Q6908267}
+  - {name: normal Moore space problem, kind: problem, wikipedia: Moore space (topology), wikidata: Q6908267}
+  # Uniform and proximity structures
+  - {name: uniform space, kind: definition, decl: UniformSpace, wikipedia: Uniform space, wikidata: Q652446, mathlib: [mathlib-overview]}
+  - {name: entourage, kind: definition, decl: uniformity, wikipedia: Uniform space, wikidata: Q652446}
+  - {name: uniform continuity, kind: definition, decl: UniformContinuous, wikipedia: Uniform continuity, wikidata: Q741865}
+  - {name: Heine–Cantor theorem, kind: statement, decl: CompactSpace.uniformContinuous_of_continuous, wikipedia: Heine–Cantor theorem, wikidata: Q765987, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000]}
+  - {name: Cauchy filter, kind: definition, decl: Cauchy, wikipedia: Uniform space, wikidata: Q652446, mathlib: [mathlib-overview]}
+  - {name: equicontinuity, kind: definition, decl: Equicontinuous, wikipedia: Equicontinuity, wikidata: Q249092}
+  - {name: Arzelà–Ascoli theorem, kind: statement, decl: ArzelaAscoli.isCompact_of_equicontinuous, wikipedia: Arzelà–Ascoli theorem, wikidata: Q1477053}
+  - {name: proximity space, kind: definition, wikipedia: Proximity space, wikidata: Q7252877}
+  # Continua and dimension theory
+  - {name: continuum, kind: definition, wikipedia: Continuum (topology), wikidata: Q5165551}
+  - {name: Hahn–Mazurkiewicz theorem, kind: statement, wikipedia: Space-filling curve, wikidata: Q567843}
+  - {name: space-filling curve, kind: example, wikipedia: Space-filling curve, wikidata: Q567843}
+  - {name: indecomposable continuum, kind: definition, wikipedia: Indecomposable continuum, wikidata: Q2995675}
+  - {name: pseudo-arc, kind: example, wikipedia: Pseudo-arc, wikidata: Q4382843}
+  - {name: Warsaw circle, kind: example, wikipedia: Shape theory (mathematics), wikidata: Q7489245}
+  - {name: Lakes of Wada, kind: example, wikipedia: Lakes of Wada, wikidata: Q1331442}
+  - {name: Knaster–Kuratowski fan, kind: counterexample, wikipedia: Knaster–Kuratowski fan, wikidata: Q4105873}
+  - {name: Lebesgue covering dimension, kind: definition, wikipedia: Lebesgue covering dimension, wikidata: Q164262}
+  - {name: inductive dimension, kind: definition, wikipedia: Inductive dimension, wikidata: Q841816}
+  - {name: Sierpiński carpet, kind: example, wikipedia: Sierpiński carpet, wikidata: Q280081}
+  - {name: Menger sponge, kind: example, wikipedia: Menger sponge, wikidata: Q749773}
+  # Cantor sets and descriptive spaces
+  - {name: Cantor set, kind: object, decl: cantorSet, wikipedia: Cantor set, wikidata: Q273188}
+  - {name: Cantor space, kind: object, wikipedia: Cantor space, wikidata: Q616653}
+  - {name: Brouwer's characterization of the Cantor space, kind: statement, wikipedia: Cantor space, wikidata: Q616653}
+  - {name: Baire space of sequences, kind: object, wikipedia: Baire space (set theory), wikidata: Q803936}
+  - {name: Smith–Volterra–Cantor set, kind: example, wikipedia: Smith–Volterra–Cantor set, wikidata: Q909569}
+  # Ordered spaces and set-theoretic topology
+  - {name: linear continuum, kind: definition, wikipedia: Linear continuum, wikidata: Q3688953}
+  - {name: long line, kind: counterexample, wikipedia: Long line (topology), wikidata: Q1804923}
+  - {name: Suslin's problem, kind: problem, wikipedia: Suslin's problem, wikidata: Q2296408}
+  - {name: Dowker space, kind: definition, wikipedia: Dowker space, wikidata: Q5302693}
+  # Exotic spaces and counterexamples
+  - {name: Sorgenfrey line, kind: counterexample, wikipedia: Lower limit topology, wikidata: Q1543600}
+  - {name: Sorgenfrey plane, kind: counterexample, wikipedia: Sorgenfrey plane, wikidata: Q1570438}
+  - {name: Moore plane, kind: counterexample, wikipedia: Moore plane, wikidata: Q839999}
+  - {name: line with two origins, kind: counterexample, wikipedia: Non-Hausdorff manifold, wikidata: Q7048762}
+  - {name: Tychonoff plank, kind: counterexample, wikipedia: Tychonoff plank, wikidata: Q250509}
+  - {name: Arens–Fort space, kind: counterexample, wikipedia: Arens–Fort space, wikidata: Q642105}
+  - {name: Fort space, kind: counterexample, wikipedia: Fort space, wikidata: Q5472501}
+  - {name: Hawaiian earring, kind: example, wikipedia: Hawaiian earring, wikidata: Q5684591}
+  # Topology together with algebraic and other structures
+  - {name: topological group, kind: definition, decl: IsTopologicalGroup, wikipedia: Topological group, wikidata: Q1046291, mathlib: [mathlib-overview]}
+  - {name: Birkhoff–Kakutani theorem, kind: statement, wikipedia: Topological group, wikidata: Q1046291}
+  - {name: topological ring, kind: definition, decl: IsTopologicalRing, wikipedia: Topological ring, wikidata: Q922339, mathlib: [mathlib-overview]}
+  - {name: fixed-point property, kind: definition, wikipedia: Fixed-point property, wikidata: Q5456331}
+  - {name: pointless topology, kind: concept, decl: Order.Frame, wikipedia: Pointless topology, wikidata: Q7208386}
+  - {name: digital topology, kind: concept, wikipedia: Digital topology, wikidata: Q5276205}
+  - {name: monad in nonstandard topology, kind: concept, wikipedia: Monad (nonstandard analysis), wikidata: Q6897850}

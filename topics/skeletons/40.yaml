@@ -1,0 +1,231 @@
+# The C2 skeleton of 40-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 40-XX
+title: sequences, series and summation methods
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+  mathlib-undergrad: {title: "Mathlib, the list of undergraduate topics", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/undergrad.yaml'}
+  mathlib-overview: {title: "Mathlib, the overview of the library", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/overview.yaml'}
+  mathlib-100: {title: "Mathlib, the status of Freek Wiedijk's 100 theorems", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/100.yaml'}
+  mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
+items:
+  # Sequences and limits
+  - {name: sequence, kind: definition, wikipedia: Sequence, wikidata: Q133250}
+  - {name: limit of a sequence, kind: definition, decl: Filter.Tendsto, wikipedia: Limit of a sequence, wikidata: Q847204, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: uniqueness of limits, kind: statement, decl: tendsto_nhds_unique, wikipedia: Limit of a sequence, wikidata: Q847204}
+  - {name: bounded sequence, kind: definition, wikipedia: Bounded function, wikidata: Q2267362}
+  - {name: monotone sequence, kind: definition, wikipedia: Monotonic function, wikidata: Q194404}
+  - {name: monotone convergence theorem for sequences, kind: statement, decl: tendsto_atTop_ciSup, wikipedia: Monotone convergence theorem, wikidata: Q1153584}
+  - {name: squeeze theorem, kind: statement, decl: tendsto_of_tendsto_of_tendsto_of_le_of_le, wikipedia: Squeeze theorem, wikidata: Q1065257}
+  - {name: Cauchy sequence, kind: definition, decl: CauchySeq, wikipedia: Cauchy sequence, wikidata: Q217847, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: Cauchy criterion for convergence, kind: statement, decl: cauchySeq_tendsto_of_complete, wikipedia: Cauchy sequence, wikidata: Q217847}
+  - {name: subsequence, kind: definition, wikipedia: Subsequence, wikidata: Q1332977}
+  - {name: Bolzano–Weierstrass theorem, kind: statement, decl: tendsto_subseq_of_bounded, wikipedia: Bolzano–Weierstrass theorem, wikidata: Q468391, mathlib: [mathlib-undergrad, mathlib-1000]}
+  - {name: limit superior and limit inferior, kind: definition, decl: Filter.limsup, wikipedia: Limit inferior and limit superior, wikidata: Q1076611}
+  - {name: limit point of a sequence, kind: definition, wikipedia: Accumulation point, wikidata: Q858223}
+  - {name: convergence when limsup equals liminf, kind: statement, decl: tendsto_of_liminf_eq_limsup, wikipedia: Limit inferior and limit superior, wikidata: Q1076611}
+  - {name: Stolz–Cesàro theorem, kind: statement, wikipedia: Stolz–Cesàro theorem, wikidata: Q1052752}
+  - {name: Cesàro mean, kind: definition, decl: Filter.Tendsto.cesaro, wikipedia: Cesàro summation, wikidata: Q2082317}
+  - {name: subadditivity lemma, kind: statement, wikipedia: Subadditivity, wikidata: Q1934099}
+  - {name: Fekete's lemma, kind: statement, wikipedia: Subadditivity, wikidata: Q1934099}
+  - {name: geometric sequence, kind: example, decl: tendsto_pow_atTop_nhds_zero_of_lt_one, wikipedia: Geometric progression, wikidata: Q173523}
+  - {name: arithmetic progression, kind: example, wikipedia: Arithmetic progression, wikidata: Q170008}
+  - {name: e as a limit, kind: statement, decl: Real.tendsto_one_add_div_pow_exp, wikipedia: E (mathematical constant), wikidata: Q82435}
+  - {name: Euler–Mascheroni constant, kind: object, decl: Real.eulerMascheroniConstant, wikipedia: Euler's constant, wikidata: Q273023}
+  - {name: rate of convergence, kind: definition, wikipedia: Rate of convergence, wikidata: Q1783502}
+  - {name: big O notation, kind: definition, decl: Asymptotics.IsBigO, wikipedia: Big O notation, wikidata: Q269878}
+  - {name: asymptotic equivalence, kind: definition, decl: Asymptotics.IsEquivalent, wikipedia: Asymptotic analysis, wikidata: Q752718}
+  - {name: equidistributed sequence, kind: definition, wikipedia: Equidistributed sequence, wikidata: Q1530388}
+  - {name: Weyl's criterion, kind: statement, wikipedia: Equidistributed sequence, wikidata: Q1530388}
+  - {name: Kronecker's theorem on density of multiples, kind: statement, wikipedia: Kronecker's theorem, wikidata: Q848810}
+  - {name: recurrence relation, kind: definition, wikipedia: Recurrence relation, wikidata: Q740970}
+  - {name: fixed-point iteration, kind: definition, wikipedia: Fixed-point iteration, wikidata: Q1030759}
+  # Series: basic notions
+  - {name: series, kind: definition, decl: HasSum, wikipedia: Series (mathematics), wikidata: Q170198, mathlib: [mathlib-overview]}
+  - {name: partial sum, kind: definition, decl: HasSum.tendsto_sum_nat, wikipedia: Series (mathematics), wikidata: Q170198}
+  - {name: convergent series, kind: definition, decl: Summable, wikipedia: Convergent series, wikidata: Q1211057}
+  - {name: divergent series, kind: definition, wikipedia: Divergent series, wikidata: Q906520}
+  - {name: sum of a series, kind: definition, wikipedia: Series (mathematics), wikidata: Q170198}
+  - {name: term test, kind: statement, decl: Summable.tendsto_atTop_zero, wikipedia: Nth-term test, wikidata: Q2576932}
+  - {name: Cauchy criterion for series, kind: statement, decl: summable_iff_cauchySeq_finset, wikipedia: Cauchy's convergence test, wikidata: Q859102}
+  - {name: geometric series, kind: example, decl: hasSum_geometric_of_lt_one, wikipedia: Geometric series, wikidata: Q1306887}
+  - {name: harmonic series, kind: example, decl: Real.tendsto_sum_range_one_div_nat_succ_atTop, wikipedia: Harmonic series (mathematics), wikidata: Q464100, mathlib: [mathlib-100]}
+  - {name: harmonic number, kind: definition, decl: harmonic, wikipedia: Harmonic number, wikidata: Q13407133}
+  - {name: harmonic numbers minus logarithm converge, kind: statement, decl: Real.tendsto_harmonic_sub_log, wikipedia: Euler's constant, wikidata: Q273023}
+  - {name: p-series, kind: example, decl: Real.summable_one_div_nat_rpow, wikipedia: Harmonic series (mathematics), wikidata: Q464100, mathlib: [mathlib-undergrad]}
+  - {name: Basel problem, kind: statement, decl: hasSum_zeta_two, wikipedia: Basel problem, wikidata: Q810431, mathlib: [mathlib-100, mathlib-1000]}
+  - {name: telescoping series, kind: example, wikipedia: Telescoping series, wikidata: Q2164293}
+  - {name: alternating series, kind: definition, wikipedia: Alternating series, wikidata: Q438842}
+  - {name: alternating harmonic series, kind: example, wikipedia: Harmonic series (mathematics), wikidata: Q464100}
+  - {name: Leibniz formula for pi, kind: statement, decl: Real.tendsto_sum_pi_div_four, wikipedia: Leibniz formula for π, wikidata: Q97226587, mathlib: [mathlib-100]}
+  - {name: Grandi's series, kind: example, wikipedia: Grandi's series, wikidata: Q967588}
+  - {name: 1 + 2 + 3 + 4 + ⋯, kind: example, wikipedia: 1 + 2 + 3 + 4 + ⋯, wikidata: Q2605420}
+  - {name: 1 − 2 + 3 − 4 + ⋯, kind: example, wikipedia: 1 − 2 + 3 − 4 + ⋯, wikidata: Q438859}
+  - {name: 1 + 1 + 1 + 1 + ⋯, kind: example, wikipedia: 1 + 1 + 1 + 1 + ⋯, wikidata: Q2555219}
+  - {name: 1 − 1 + 2 − 6 + 24 − 120 + ⋯, kind: example, wikipedia: 1 − 1 + 2 − 6 + 24 − 120 + ⋯, wikidata: Q3511165}
+  - {name: series of reciprocals of primes, kind: statement, wikipedia: Divergence of the sum of the reciprocals of the primes, wikidata: Q1343972}
+  - {name: Kempner series, kind: example, wikipedia: Kempner series, wikidata: Q928481}
+  - {name: Riemann zeta function as a series, kind: example, decl: riemannZeta, wikipedia: Riemann zeta function, wikidata: Q187235}
+  - {name: Dirichlet series, kind: definition, decl: LSeries, wikipedia: Dirichlet series, wikidata: Q620595}
+  - {name: power series, kind: definition, decl: FormalMultilinearSeries, wikipedia: Power series, wikidata: Q206925}
+  - {name: radius of convergence, kind: definition, decl: FormalMultilinearSeries.radius, wikipedia: Radius of convergence, wikidata: Q1428097, mathlib: [mathlib-undergrad]}
+  - {name: Cauchy–Hadamard theorem, kind: statement, wikipedia: Cauchy–Hadamard theorem, wikidata: Q859122}
+  - {name: Taylor series, kind: definition, wikipedia: Taylor series, wikidata: Q131187}
+  - {name: exponential series, kind: example, decl: Real.summable_pow_div_factorial, wikipedia: Exponential function, wikidata: Q168698}
+  - {name: Fourier series, kind: definition, wikipedia: Fourier series, wikidata: Q179467}
+  - {name: Lambert series, kind: definition, wikipedia: Lambert series, wikidata: Q1577138}
+  - {name: hypergeometric series, kind: definition, wikipedia: Hypergeometric function, wikidata: Q21028472}
+  # Convergence tests
+  - {name: convergence tests, kind: concept, wikipedia: Convergence tests, wikidata: Q3979448}
+  - {name: direct comparison test, kind: statement, decl: Summable.of_nonneg_of_le, wikipedia: Direct comparison test, wikidata: Q1050206}
+  - {name: limit comparison test, kind: statement, decl: summable_of_isBigO_nat, wikipedia: Limit comparison test, wikidata: Q6549441}
+  - {name: ratio test, kind: statement, decl: summable_of_ratio_test_tendsto_lt_one, wikipedia: Ratio test, wikidata: Q165638}
+  - {name: root test, kind: statement, wikipedia: Root test, wikidata: Q846705}
+  - {name: integral test, kind: statement, decl: AntitoneOn.sum_le_integral, wikipedia: Integral test for convergence, wikidata: Q1155313}
+  - {name: Cauchy condensation test, kind: statement, decl: summable_condensed_iff_of_nonneg, wikipedia: Cauchy condensation test, wikidata: Q1051423}
+  - {name: Schlömilch's generalization of condensation, kind: statement, decl: summable_schlomilch_iff_of_nonneg, wikipedia: Cauchy condensation test, wikidata: Q1051423}
+  - {name: alternating series test, kind: statement, decl: Antitone.tendsto_alternating_series_of_tendsto_zero, wikipedia: Alternating series test, wikidata: Q914099, mathlib: [mathlib-undergrad]}
+  - {name: Dirichlet's test, kind: statement, decl: Monotone.cauchySeq_series_mul_of_tendsto_zero_of_bounded, wikipedia: Dirichlet's test, wikidata: Q1149255}
+  - {name: Abel's test, kind: statement, wikipedia: Abel's test, wikidata: Q479834}
+  - {name: Raabe's test, kind: statement, wikipedia: Ratio test, wikidata: Q165638}
+  - {name: Gauss's test, kind: statement, wikipedia: Ratio test, wikidata: Q165638}
+  - {name: Kummer's test, kind: statement, wikipedia: Ratio test, wikidata: Q165638}
+  - {name: Bertrand's test, kind: statement, wikipedia: Ratio test, wikidata: Q165638}
+  - {name: summation by parts, kind: statement, decl: Finset.sum_range_by_parts, wikipedia: Summation by parts, wikidata: Q318754}
+  - {name: Abel's summation formula, kind: statement, decl: sum_mul_eq_sub_integral_mul, wikipedia: Abel's summation formula, wikidata: Q1659643}
+  - {name: Euler–Maclaurin formula, kind: statement, wikipedia: Euler–Maclaurin formula, wikidata: Q282023}
+  - {name: Kronecker's lemma, kind: statement, wikipedia: Kronecker's lemma, wikidata: Q911141}
+  - {name: Abel–Dini theorem, kind: statement, wikipedia: Convergence tests, wikidata: Q3979448}
+  # Absolute and conditional convergence, rearrangements, products of series
+  - {name: absolute convergence, kind: definition, decl: Summable.of_norm, wikipedia: Absolute convergence, wikidata: Q332465, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: conditional convergence, kind: definition, wikipedia: Conditional convergence, wikidata: Q2425336}
+  - {name: unconditional convergence, kind: definition, decl: Equiv.summable_iff, wikipedia: Unconditional convergence, wikidata: Q1630320}
+  - {name: Riemann series theorem, kind: statement, wikipedia: Riemann series theorem, wikidata: Q1752516}
+  - {name: Lévy–Steinitz theorem, kind: statement, wikipedia: Lévy–Steinitz theorem, wikidata: Q2341004}
+  - {name: Dvoretzky–Rogers theorem, kind: statement, wikipedia: Unconditional convergence, wikidata: Q1630320}
+  - {name: Cauchy product, kind: definition, decl: tsum_mul_tsum_eq_tsum_sum_antidiagonal_of_summable_norm, wikipedia: Cauchy product, wikidata: Q1051404}
+  - {name: Mertens' theorem on Cauchy products, kind: statement, wikipedia: Cauchy product, wikidata: Q1051404}
+  - {name: summation of families over arbitrary index sets, kind: definition, decl: summable_iff_vanishing, wikipedia: Series (mathematics), wikidata: Q170198}
+  - {name: Weierstrass M-test, kind: statement, decl: tendstoUniformlyOn_tsum, wikipedia: Weierstrass M-test, wikidata: Q1072412}
+  - {name: uniform convergence of series, kind: definition, decl: TendstoUniformlyOn, wikipedia: Uniform convergence, wikidata: Q1411887}
+  - {name: Tannery's theorem, kind: statement, decl: tendsto_tsum_of_dominated_convergence, wikipedia: Tannery's theorem, wikidata: Q60791768}
+  - {name: Dini's theorem, kind: statement, wikipedia: Dini's theorem, wikidata: Q595466}
+  # Infinite products
+  - {name: infinite product, kind: definition, decl: HasProd, wikipedia: Infinite product, wikidata: Q2266843}
+  - {name: convergence of an infinite product, kind: definition, decl: Multipliable, wikipedia: Infinite product, wikidata: Q2266843}
+  - {name: product converges iff log series converges, kind: statement, decl: Real.multipliable_one_add_of_summable, wikipedia: Infinite product, wikidata: Q2266843}
+  - {name: Wallis product, kind: statement, decl: Real.tendsto_prod_pi_div_two, wikipedia: Wallis product, wikidata: Q1501324}
+  - {name: Euler product, kind: statement, wikipedia: Euler product, wikidata: Q1194667}
+  - {name: Euler's sine product, kind: statement, decl: Real.tendsto_euler_sin_prod, wikipedia: Sine and cosine, wikidata: Q13647261}
+  - {name: Weierstrass factorization theorem, kind: statement, wikipedia: Weierstrass factorization theorem, wikidata: Q1330788}
+  - {name: Viète's formula, kind: statement, wikipedia: Viète's formula, wikidata: Q949597}
+  - {name: q-Pochhammer symbol, kind: definition, wikipedia: Q-Pochhammer symbol, wikidata: Q518706}
+  # Multiple series and sequences
+  - {name: double series, kind: definition, decl: Summable.prod, wikipedia: Series (mathematics), wikidata: Q170198}
+  - {name: iterated sums and Fubini for series, kind: statement, decl: HasSum.prod_fiberwise, wikipedia: Fubini's theorem, wikidata: Q1149022}
+  - {name: interchange of summation order, kind: statement, decl: Summable.tsum_comm, wikipedia: Series (mathematics), wikidata: Q170198}
+  - {name: double sequence, kind: definition, wikipedia: Iterated limit, wikidata: Q17100668}
+  - {name: Pringsheim convergence, kind: definition, wikipedia: Iterated limit, wikidata: Q17100668}
+  - {name: Moore–Osgood theorem, kind: statement, wikipedia: Iterated limit, wikidata: Q17100668}
+  - {name: Eisenstein series as a double series, kind: example, wikipedia: Eisenstein series, wikidata: Q1313257}
+  # Continued fractions and limit processes
+  - {name: continued fraction, kind: definition, decl: GenContFract, wikipedia: Continued fraction, wikidata: Q4115724}
+  - {name: generalized continued fraction, kind: definition, wikipedia: Continued fraction, wikidata: Q4115724}
+  - {name: convergent of a continued fraction, kind: definition, wikipedia: Simple continued fraction, wikidata: Q206816}
+  - {name: fundamental recurrence formulas, kind: statement, wikipedia: Continued fraction, wikidata: Q4115724}
+  - {name: Śleszyński–Pringsheim theorem, kind: statement, wikipedia: Śleszyński–Pringsheim theorem, wikidata: Q8081891}
+  - {name: Van Vleck's theorem, kind: statement, wikipedia: Convergence problem, wikidata: Q5166389}
+  - {name: Euler's continued fraction formula, kind: statement, wikipedia: Euler's continued fraction formula, wikidata: Q5361532}
+  - {name: Padé approximant, kind: definition, wikipedia: Padé approximant, wikidata: Q2452504}
+  - {name: infinite compositions of functions, kind: definition, wikipedia: Infinite compositions of analytic functions, wikidata: Q6029837}
+  - {name: nested radical, kind: example, wikipedia: Nested radical, wikidata: Q2670069}
+  - {name: iterated exponentiation, kind: example, wikipedia: Tetration, wikidata: Q194324}
+  # Series acceleration
+  - {name: series acceleration, kind: concept, wikipedia: Series acceleration, wikidata: Q1783478}
+  - {name: Aitken's delta-squared process, kind: definition, wikipedia: Aitken's delta-squared process, wikidata: Q492177}
+  - {name: Richardson extrapolation, kind: definition, wikipedia: Richardson extrapolation, wikidata: Q1063089}
+  - {name: Shanks transformation, kind: definition, wikipedia: Shanks transformation, wikidata: Q3537519}
+  - {name: Euler transform, kind: definition, wikipedia: Binomial transform, wikidata: Q2604449}
+  - {name: van Wijngaarden transformation, kind: definition, wikipedia: Van Wijngaarden transformation, wikidata: Q7913772}
+  - {name: Wynn's epsilon algorithm, kind: definition, wikipedia: Shanks transformation, wikidata: Q3537519}
+  - {name: Levin-type transformations, kind: definition, wikipedia: Series acceleration, wikidata: Q1783478}
+  # General summability methods
+  - {name: summability method, kind: concept, wikipedia: Divergent series, wikidata: Q906520}
+  - {name: regular summability method, kind: definition, wikipedia: Divergent series, wikidata: Q906520}
+  - {name: linear and stable summation methods, kind: definition, wikipedia: Divergent series, wikidata: Q906520}
+  - {name: matrix summability method, kind: definition, wikipedia: Silverman–Toeplitz theorem, wikidata: Q7516736}
+  - {name: Silverman–Toeplitz theorem, kind: statement, wikipedia: Silverman–Toeplitz theorem, wikidata: Q7516736}
+  - {name: Kojima–Schur theorem, kind: statement, wikipedia: Silverman–Toeplitz theorem, wikidata: Q7516736}
+  - {name: Steinhaus theorem on regular methods, kind: statement, wikipedia: Silverman–Toeplitz theorem, wikidata: Q7516736}
+  - {name: consistency of summability methods, kind: concept, wikipedia: Divergent series, wikidata: Q906520}
+  - {name: Mazur–Orlicz theorem, kind: statement, wikipedia: Divergent series, wikidata: Q906520}
+  # Special summability methods
+  - {name: Cesàro summation, kind: definition, wikipedia: Cesàro summation, wikidata: Q2082317}
+  - {name: Hölder summation, kind: definition, wikipedia: Hölder summation, wikidata: Q15694035}
+  - {name: Abel summation, kind: definition, wikipedia: Abelian and Tauberian theorems, wikidata: Q2376918}
+  - {name: Abel's theorem, kind: statement, decl: Complex.tendsto_tsum_powerSeries_nhdsWithin_stolzCone, wikipedia: Abel's theorem, wikidata: Q318767, mathlib: [mathlib-1000]}
+  - {name: Borel summation, kind: definition, wikipedia: Borel summation, wikidata: Q2329388}
+  - {name: Euler summation, kind: definition, wikipedia: Euler summation, wikidata: Q374926}
+  - {name: Nörlund mean, kind: definition, wikipedia: Divergent series, wikidata: Q906520}
+  - {name: Riesz mean, kind: definition, wikipedia: Riesz mean, wikidata: Q2152569}
+  - {name: Hausdorff summation, kind: definition, wikipedia: Divergent series, wikidata: Q906520}
+  - {name: Lindelöf summation, kind: definition, wikipedia: Divergent series, wikidata: Q906520}
+  - {name: Mittag-Leffler summation, kind: definition, wikipedia: Mittag-Leffler summation, wikidata: Q6883441}
+  - {name: Lambert summation, kind: definition, wikipedia: Lambert summation, wikidata: Q6481320}
+  - {name: Ramanujan summation, kind: definition, wikipedia: Ramanujan summation, wikidata: Q3533072}
+  - {name: zeta function regularization, kind: definition, wikipedia: Zeta function regularization, wikidata: Q1048264}
+  - {name: Euler–Boole summation, kind: definition, wikipedia: Euler–Boole summation, wikidata: Q30676419}
+  - {name: Fejér's theorem, kind: statement, wikipedia: Fejér's theorem, wikidata: Q571154}
+  - {name: Fejér kernel, kind: definition, wikipedia: Fejér kernel, wikidata: Q1402176}
+  - {name: Abel–Poisson summation of Fourier series, kind: definition, wikipedia: Poisson kernel, wikidata: Q2596534}
+  - {name: Frobenius theorem on Cesàro and Abel summability, kind: statement, wikipedia: Abelian and Tauberian theorems, wikidata: Q2376918}
+  - {name: Mittag-Leffler star, kind: definition, wikipedia: Mittag-Leffler star, wikidata: Q4189397}
+  # Abelian and Tauberian theorems
+  - {name: Abelian and Tauberian theorems, kind: concept, wikipedia: Abelian and Tauberian theorems, wikidata: Q2376918}
+  - {name: Tauber's theorem, kind: statement, wikipedia: Abelian and Tauberian theorems, wikidata: Q2376918}
+  - {name: Hardy's Tauberian theorem for Cesàro means, kind: statement, wikipedia: Abelian and Tauberian theorems, wikidata: Q2376918}
+  - {name: Littlewood's Tauberian theorem, kind: statement, wikipedia: Littlewood's Tauberian theorem, wikidata: Q16249478}
+  - {name: Hardy–Littlewood Tauberian theorem, kind: statement, wikipedia: Hardy–Littlewood Tauberian theorem, wikidata: Q5656673}
+  - {name: Karamata's Tauberian theorem, kind: statement, wikipedia: Hardy–Littlewood Tauberian theorem, wikidata: Q5656673}
+  - {name: Wiener's Tauberian theorem, kind: statement, wikipedia: Wiener's Tauberian theorem, wikidata: Q3527279}
+  - {name: Wiener–Ikehara theorem, kind: statement, wikipedia: Wiener–Ikehara theorem, wikidata: Q7999144}
+  - {name: Tauberian condition, kind: definition, wikipedia: Abelian and Tauberian theorems, wikidata: Q2376918}
+  - {name: slowly varying function, kind: definition, wikipedia: Slowly varying function, wikidata: Q4287804}
+  - {name: regular variation, kind: definition, wikipedia: Slowly varying function, wikidata: Q4287804}
+  - {name: high indices theorem, kind: statement, wikipedia: Lacunary function, wikidata: Q1986013}
+  - {name: Hadamard gap theorem, kind: statement, wikipedia: Hadamard gap theorem, wikidata: Q4454910}
+  - {name: Ostrowski–Hadamard gap theorem, kind: statement, wikipedia: Hadamard gap theorem, wikidata: Q4454910}
+  - {name: Fabry gap theorem, kind: statement, wikipedia: Fabry gap theorem, wikidata: Q17011576}
+  # Absolute and strong summability
+  - {name: absolute summability, kind: definition, wikipedia: Absolute convergence, wikidata: Q332465}
+  - {name: strong Cesàro summability, kind: definition, wikipedia: Cesàro summation, wikidata: Q2082317}
+  - {name: almost convergence, kind: definition, wikipedia: Banach limit, wikidata: Q806060}
+  - {name: Lorentz's characterization of almost convergence, kind: statement, wikipedia: Banach limit, wikidata: Q806060}
+  # Functional analytic methods and sequence spaces
+  - {name: sequence space, kind: definition, wikipedia: Sequence space, wikidata: Q289411}
+  - {name: space of convergent sequences, kind: example, wikipedia: Sequence space, wikidata: Q289411}
+  - {name: space of null sequences, kind: example, wikipedia: Sequence space, wikidata: Q289411}
+  - {name: ℓp space, kind: definition, decl: lp, wikipedia: Lp space, wikidata: Q305936}
+  - {name: bounded sequences ℓ∞, kind: example, wikipedia: Sequence space, wikidata: Q289411}
+  - {name: Banach limit, kind: definition, wikipedia: Banach limit, wikidata: Q806060}
+  - {name: Köthe–Toeplitz dual, kind: definition, wikipedia: Beta-dual space, wikidata: Q4897205}
+  - {name: FK-space, kind: definition, wikipedia: FK-space, wikidata: Q5426006}
+  - {name: BK-space, kind: definition, wikipedia: BK-space, wikidata: Q4835784}
+  - {name: summability field of a matrix method, kind: definition, wikipedia: Silverman–Toeplitz theorem, wikidata: Q7516736}
+  - {name: Schauder basis, kind: definition, wikipedia: Schauder basis, wikidata: Q777879}
+  # Abstract settings for convergence
+  - {name: filter limit, kind: definition, decl: Filter.atTop, wikipedia: Filter (mathematics), wikidata: Q1052692}
+  - {name: net, kind: definition, wikipedia: Net (mathematics), wikidata: Q1191147}
+  - {name: statistical convergence, kind: definition, wikipedia: Natural density, wikidata: Q752723}
+  - {name: natural density, kind: definition, wikipedia: Natural density, wikidata: Q752723}
+  - {name: convergence along an ultrafilter, kind: definition, wikipedia: Ultrafilter on a set, wikidata: Q106671513}
+  - {name: summation in topological groups, kind: concept, decl: HasSum.unique, wikipedia: Series (mathematics), wikidata: Q170198}
+  - {name: series in Banach spaces, kind: concept, decl: Summable.of_norm_bounded, wikipedia: Absolute convergence, wikidata: Q332465}
+  - {name: Orlicz–Pettis theorem, kind: statement, wikipedia: Orlicz–Pettis theorem, wikidata: Q1621180}
+  # Asymptotic expansions and divergent series in analysis
+  - {name: asymptotic expansion, kind: definition, wikipedia: Asymptotic expansion, wikidata: Q752726}
+  - {name: Stirling's series, kind: example, wikipedia: Stirling's approximation, wikidata: Q470877}
+  - {name: Borel–Ritt theorem, kind: statement, wikipedia: Borel's lemma, wikidata: Q3527022}
+  - {name: resurgent function, kind: definition, wikipedia: Resurgent function, wikidata: Q108530228}
+  - {name: Watson's lemma, kind: statement, wikipedia: Watson's lemma, wikidata: Q7974787}

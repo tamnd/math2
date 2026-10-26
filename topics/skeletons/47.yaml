@@ -1,0 +1,195 @@
+# The C2 skeleton of 47-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 47-XX
+title: operator theory
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+  mathlib-undergrad: {title: "Mathlib, the list of undergraduate topics", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/undergrad.yaml'}
+  mathlib-overview: {title: "Mathlib, the overview of the library", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/overview.yaml'}
+items:
+  # Basic notions: bounded and unbounded operators
+  - {name: operator theory, kind: concept, wikipedia: Operator theory, wikidata: Q1198874}
+  - {name: linear operator, kind: definition, wikipedia: Operator (mathematics), wikidata: Q131030}
+  - {name: bounded operator, kind: definition, decl: ContinuousLinearMap, wikipedia: Bounded operator, wikidata: Q2342396, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: operator norm, kind: definition, decl: ContinuousLinearMap.opNorm, wikipedia: Operator norm, wikidata: Q980557}
+  - {name: invertible operator, kind: definition, decl: ContinuousLinearMap.IsInvertible, wikipedia: Inverse element, wikidata: Q338057}
+  - {name: Neumann series, kind: statement, decl: NormedRing.inverse_one_sub, wikipedia: Neumann series, wikidata: Q584910}
+  - {name: exponential of a bounded operator, kind: definition, decl: NormedSpace.exp, wikipedia: Matrix exponential, wikidata: Q1191722, mathlib: [mathlib-undergrad]}
+  - {name: unbounded operator, kind: definition, decl: LinearPMap, wikipedia: Unbounded operator, wikidata: Q5108738}
+  - {name: densely defined operator, kind: definition, wikipedia: Densely defined operator, wikidata: Q5259314}
+  - {name: graph of an operator, kind: definition, decl: LinearPMap.graph, wikipedia: Unbounded operator, wikidata: Q5108738}
+  - {name: closed operator, kind: definition, decl: LinearPMap.IsClosed, wikipedia: Closed linear operator, wikidata: Q320370}
+  - {name: closable operator, kind: definition, decl: LinearPMap.IsClosable, wikipedia: Unbounded operator, wikidata: Q5108738}
+  - {name: closure of an operator, kind: definition, decl: LinearPMap.closure, wikipedia: Closure (topology), wikidata: Q320346}
+  - {name: Hellinger–Toeplitz theorem, kind: statement, wikipedia: Hellinger–Toeplitz theorem, wikidata: Q1472120}
+  - {name: dual operator, kind: definition, wikipedia: Transpose of a linear map, wikidata: Q2858846}
+  - {name: Hilbert space adjoint, kind: definition, decl: ContinuousLinearMap.adjoint, wikipedia: Hermitian adjoint, wikidata: Q1509647}
+  - {name: adjoint of an unbounded operator, kind: definition, decl: LinearPMap.adjoint, wikipedia: Unbounded operator, wikidata: Q5108738, mathlib: [mathlib-overview]}
+  - {name: Cayley transform, kind: definition, wikipedia: Cayley transform, wikidata: Q2778065}
+  # Spectral theory: foundations
+  - {name: spectral theory, kind: concept, wikipedia: Spectral theory, wikidata: Q2409122}
+  - {name: spectrum of an operator, kind: definition, decl: spectrum, wikipedia: Spectrum (functional analysis), wikidata: Q1365748}
+  - {name: resolvent set, kind: definition, decl: resolventSet, wikipedia: Resolvent set, wikidata: Q7315720}
+  - {name: resolvent, kind: definition, decl: resolvent, wikipedia: Resolvent formalism, wikidata: Q1426722}
+  - {name: eigenvalue, kind: definition, decl: Module.End.HasEigenvalue, wikipedia: Eigenvalues and eigenvectors, wikidata: Q190524, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: eigenspace, kind: definition, decl: Module.End.eigenspace, wikipedia: Eigenvalues and eigenvectors, wikidata: Q190524}
+  - {name: point spectrum, kind: definition, wikipedia: Spectrum (functional analysis), wikidata: Q1365748}
+  - {name: continuous and residual spectrum, kind: definition, wikipedia: Decomposition of spectrum (functional analysis), wikidata: Q130603417}
+  - {name: approximate point spectrum, kind: definition, wikipedia: Spectrum (functional analysis), wikidata: Q1365748}
+  - {name: essential spectrum, kind: definition, wikipedia: Essential spectrum, wikidata: Q917390}
+  - {name: discrete spectrum, kind: definition, wikipedia: Discrete spectrum (mathematics), wikidata: Q97359748}
+  - {name: spectral radius, kind: definition, decl: spectralRadius, wikipedia: Spectral radius, wikidata: Q249748}
+  - {name: spectral radius formula, kind: statement, decl: spectrum.gelfand_formula, wikipedia: Spectral radius, wikidata: Q249748}
+  - {name: Riesz projector, kind: definition, wikipedia: Riesz projector, wikidata: Q96401996}
+  - {name: holomorphic functional calculus, kind: concept, wikipedia: Holomorphic functional calculus, wikidata: Q1625064}
+  - {name: numerical range, kind: definition, wikipedia: Numerical range, wikidata: Q1579053}
+  - {name: Toeplitz–Hausdorff theorem, kind: statement, wikipedia: Numerical range, wikidata: Q1579053}
+  # Invariant subspaces and dilations
+  - {name: invariant subspace, kind: definition, decl: Module.End.invtSubmodule, wikipedia: Invariant subspace, wikidata: Q2706744, mathlib: [mathlib-undergrad]}
+  - {name: invariant subspace problem, kind: problem, wikipedia: Invariant subspace problem, wikidata: Q6059532}
+  - {name: Lomonosov's invariant subspace theorem, kind: statement, wikipedia: Lomonosov's invariant subspace theorem, wikidata: Q114425616}
+  - {name: Beurling's theorem on shift-invariant subspaces, kind: statement, wikipedia: Beurling–Lax theorem, wikidata: Q3527017}
+  - {name: Sz.-Nagy's dilation theorem, kind: statement, wikipedia: Sz.-Nagy's dilation theorem, wikidata: Q7664013}
+  - {name: von Neumann's inequality, kind: statement, wikipedia: Von Neumann's inequality, wikidata: Q7941493}
+  - {name: commutant lifting theorem, kind: statement, wikipedia: Commutant lifting theorem, wikidata: Q5155083}
+  - {name: Nevanlinna–Pick interpolation, kind: statement, wikipedia: Nevanlinna–Pick interpolation, wikidata: Q7190737}
+  - {name: Sylvester equation, kind: problem, wikipedia: Sylvester equation, wikidata: Q3730848}
+  - {name: Douglas' lemma, kind: statement, wikipedia: Douglas' lemma, wikidata: Q5301141}
+  # Particular families of operators
+  - {name: self-adjoint operator, kind: definition, decl: IsSelfAdjoint, wikipedia: Self-adjoint operator, wikidata: Q6500908, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: real spectrum of self-adjoint operators, kind: statement, decl: IsSelfAdjoint.mem_spectrum_eq_re, wikipedia: Self-adjoint operator, wikidata: Q6500908}
+  - {name: symmetric operator, kind: definition, decl: LinearMap.IsSymmetric, wikipedia: Self-adjoint operator, wikidata: Q6500908}
+  - {name: normal operator, kind: definition, decl: IsStarNormal, wikipedia: Normal operator, wikidata: Q854946, mathlib: [mathlib-undergrad]}
+  - {name: unitary operator, kind: definition, decl: unitary, wikipedia: Unitary operator, wikidata: Q1972470}
+  - {name: isometry, kind: definition, decl: LinearIsometry, wikipedia: Isometry, wikidata: Q740207}
+  - {name: partial isometry, kind: definition, wikipedia: Partial isometry, wikidata: Q904849}
+  - {name: shift operator, kind: example, wikipedia: Shift operator, wikidata: Q2278680}
+  - {name: positive operator, kind: definition, decl: ContinuousLinearMap.IsPositive, wikipedia: Positive operator, wikidata: Q2627013}
+  - {name: Loewner order, kind: definition, wikipedia: Loewner order, wikidata: Q25303887}
+  - {name: operator monotone function, kind: definition, wikipedia: Operator monotone function, wikidata: Q55627738}
+  - {name: square root of a positive operator, kind: definition, decl: CFC.sqrt, wikipedia: Square root of a matrix, wikidata: Q964330}
+  - {name: polar decomposition, kind: statement, wikipedia: Polar decomposition, wikidata: Q2101158}
+  - {name: orthogonal projection, kind: definition, decl: IsStarProjection, wikipedia: Projection (linear algebra), wikidata: Q519967}
+  - {name: Fuglede's theorem, kind: statement, wikipedia: Fuglede's theorem, wikidata: Q5507285}
+  - {name: subnormal operator, kind: definition, wikipedia: Subnormal operator, wikidata: Q7631728}
+  - {name: hyponormal operator, kind: definition, wikipedia: Hyponormal operator, wikidata: Q5959976}
+  - {name: nilpotent operator, kind: definition, wikipedia: Nilpotent operator, wikidata: Q7037181}
+  - {name: multiplication operator, kind: example, wikipedia: Multiplication operator, wikidata: Q6934990}
+  - {name: composition operator, kind: definition, wikipedia: Composition operator, wikidata: Q5156798}
+  - {name: Toeplitz operator, kind: definition, wikipedia: Toeplitz operator, wikidata: Q7812935}
+  - {name: Hankel operator, kind: definition, wikipedia: Hankel matrix, wikidata: Q1575637}
+  - {name: Volterra operator, kind: example, wikipedia: Volterra operator, wikidata: Q5313336}
+  - {name: Krein–Rutman theorem, kind: statement, wikipedia: Krein–Rutman theorem, wikidata: Q6436614}
+  - {name: Bishop–Phelps theorem, kind: statement, wikipedia: Bishop–Phelps theorem, wikidata: Q16842437}
+  # Compact and Fredholm operators
+  - {name: compact operator, kind: definition, decl: IsCompactOperator, wikipedia: Compact operator, wikidata: Q1780743}
+  - {name: ideal of compact operators, kind: concept, decl: compactOperator, wikipedia: Compact operator on Hilbert space, wikidata: Q5155314}
+  - {name: finite-rank operator, kind: definition, wikipedia: Finite-rank operator, wikidata: Q5450385}
+  - {name: Schauder's theorem on adjoints of compact operators, kind: statement, wikipedia: Compact operator, wikidata: Q1780743}
+  - {name: spectral theory of compact operators, kind: statement, wikipedia: Spectral theory of compact operators, wikidata: Q7575213}
+  - {name: Fredholm alternative, kind: statement, wikipedia: Fredholm alternative, wikidata: Q657820}
+  - {name: strictly singular operator, kind: definition, wikipedia: Strictly singular operator, wikidata: Q7623695}
+  - {name: Fredholm operator, kind: definition, decl: ContinuousLinearMap.IsFredholm, wikipedia: Fredholm operator, wikidata: Q573631}
+  - {name: Fredholm index, kind: definition, wikipedia: Fredholm theory, wikidata: Q4455098}
+  - {name: Atkinson's theorem, kind: statement, wikipedia: Atkinson's theorem, wikidata: Q4815899}
+  - {name: Calkin algebra, kind: object, wikipedia: Calkin algebra, wikidata: Q1027067}
+  - {name: Weyl's theorem on compact perturbations, kind: statement, wikipedia: Essential spectrum, wikidata: Q917390}
+  - {name: Weyl–von Neumann theorem, kind: statement, wikipedia: Weyl–von Neumann theorem, wikidata: Q7990342}
+  - {name: Hilbert–Schmidt operator, kind: definition, wikipedia: Hilbert–Schmidt operator, wikidata: Q1518047}
+  - {name: trace class operator, kind: definition, wikipedia: Trace class, wikidata: Q977297}
+  - {name: Schatten class, kind: definition, wikipedia: Schatten class operator, wikidata: Q2231600}
+  - {name: nuclear operator, kind: definition, wikipedia: Nuclear operator, wikidata: Q96396744}
+  - {name: Lidskii's theorem, kind: statement, wikipedia: Trace class, wikidata: Q977297}
+  - {name: singular values of a compact operator, kind: definition, wikipedia: Singular value, wikidata: Q4166054}
+  - {name: Fredholm determinant, kind: definition, wikipedia: Fredholm determinant, wikidata: Q3045336}
+  # Spectral theorems and functional calculus
+  - {name: spectral theorem for symmetric operators in finite dimension, kind: statement, decl: LinearMap.IsSymmetric.eigenvectorBasis, wikipedia: Spectral theorem, wikidata: Q1425077}
+  - {name: spectral theorem for compact self-adjoint operators, kind: statement, wikipedia: Compact operator on Hilbert space, wikidata: Q5155314}
+  - {name: spectral theorem for bounded normal operators, kind: statement, wikipedia: Spectral theorem, wikidata: Q1425077}
+  - {name: spectral theorem for unbounded self-adjoint operators, kind: statement, wikipedia: Self-adjoint operator, wikidata: Q6500908}
+  - {name: projection-valued measure, kind: definition, wikipedia: Projection-valued measure, wikidata: Q339722}
+  - {name: continuous functional calculus, kind: concept, decl: cfc, wikipedia: Continuous functional calculus, wikidata: Q1767119}
+  - {name: Borel functional calculus, kind: concept, wikipedia: Borel functional calculus, wikidata: Q829645}
+  - {name: Rayleigh quotient, kind: definition, wikipedia: Rayleigh quotient, wikidata: Q1665115}
+  - {name: min-max theorem, kind: statement, wikipedia: Min-max theorem, wikidata: Q4454958}
+  - {name: Hilbert–Pólya conjecture, kind: conjecture, wikipedia: Hilbert–Pólya conjecture, wikidata: Q2993323}
+  # Self-adjoint extensions and perturbation theory
+  - {name: essentially self-adjoint operator, kind: definition, wikipedia: Self-adjoint operator, wikidata: Q6500908}
+  - {name: deficiency indices, kind: definition, wikipedia: Extensions of symmetric operators, wikidata: Q5421962}
+  - {name: von Neumann's theorem on self-adjoint extensions, kind: statement, wikipedia: Extensions of symmetric operators, wikidata: Q5421962}
+  - {name: Friedrichs extension, kind: definition, wikipedia: Friedrichs extension, wikidata: Q1464339}
+  - {name: perturbation theory of linear operators, kind: concept, wikipedia: Perturbation theory, wikidata: Q10886678}
+  # Operator semigroups and groups
+  - {name: C0-semigroup, kind: definition, wikipedia: C0-semigroup, wikidata: Q846542}
+  - {name: generator of a semigroup, kind: definition, wikipedia: C0-semigroup, wikidata: Q846542}
+  - {name: Hille–Yosida theorem, kind: statement, wikipedia: Hille–Yosida theorem, wikidata: Q974405}
+  - {name: dissipative operator, kind: definition, wikipedia: Dissipative operator, wikidata: Q1229326}
+  - {name: Lumer–Phillips theorem, kind: statement, wikipedia: Lumer–Phillips theorem, wikidata: Q1602819}
+  - {name: contraction semigroup, kind: definition, wikipedia: C0-semigroup, wikidata: Q846542}
+  - {name: analytic semigroup, kind: definition, wikipedia: Analytic semigroup, wikidata: Q485292}
+  - {name: Stone's theorem on one-parameter unitary groups, kind: statement, wikipedia: Stone's theorem on one-parameter unitary groups, wikidata: Q4455030}
+  - {name: Lie–Trotter product formula, kind: statement, wikipedia: Lie product formula, wikidata: Q3077645}
+  # Ordinary and partial differential operators
+  - {name: Sturm–Liouville theory, kind: concept, wikipedia: Sturm–Liouville theory, wikidata: Q1154082}
+  - {name: Laplace operator, kind: definition, wikipedia: Laplace operator, wikidata: Q203484}
+  - {name: Schrödinger operator, kind: definition, wikipedia: Hamiltonian (quantum mechanics), wikidata: Q660488}
+  - {name: elliptic operator, kind: definition, wikipedia: Elliptic operator, wikidata: Q427625}
+  - {name: Gårding's inequality, kind: statement, wikipedia: Gårding's inequality, wikidata: Q5625933}
+  - {name: Weyl law, kind: statement, wikipedia: Weyl law, wikidata: Q7990330}
+  - {name: hearing the shape of a drum, kind: problem, wikipedia: Hearing the shape of a drum, wikidata: Q5691670}
+  - {name: Dirac operator, kind: definition, wikipedia: Dirac operator, wikidata: Q907439}
+  - {name: Atiyah–Singer index theorem, kind: statement, wikipedia: Atiyah–Singer index theorem, wikidata: Q755991}
+  - {name: Floquet theory, kind: concept, wikipedia: Floquet theory, wikidata: Q902618}
+  - {name: almost Mathieu operator, kind: example, wikipedia: Almost Mathieu operator, wikidata: Q4733975}
+  - {name: ten martini problem, kind: problem, wikipedia: Almost Mathieu operator, wikidata: Q4733975}
+  - {name: Anderson localization, kind: concept, wikipedia: Anderson localization, wikidata: Q491409}
+  - {name: Lieb–Thirring inequality, kind: statement, wikipedia: Lieb–Thirring inequality, wikidata: Q25303678}
+  # Integral and pseudodifferential operators
+  - {name: integral operator, kind: definition, wikipedia: Integral transform, wikidata: Q877802}
+  - {name: Hilbert–Schmidt integral operator, kind: definition, wikipedia: Hilbert–Schmidt integral operator, wikidata: Q5761249}
+  - {name: Schur test, kind: statement, wikipedia: Schur test, wikidata: Q4456448}
+  - {name: Fredholm integral equation, kind: problem, wikipedia: Fredholm integral equation, wikidata: Q2991898}
+  - {name: Volterra integral equation, kind: problem, wikipedia: Volterra integral equation, wikidata: Q2632613}
+  - {name: singular integral operator, kind: definition, wikipedia: Singular integral, wikidata: Q888122}
+  - {name: Hilbert transform, kind: example, wikipedia: Hilbert transform, wikidata: Q685437}
+  - {name: Calderón–Zygmund lemma, kind: statement, wikipedia: Calderón–Zygmund lemma, wikidata: Q1707076}
+  - {name: Fourier multiplier, kind: definition, wikipedia: Multiplier (Fourier analysis), wikidata: Q6935014}
+  - {name: Wiener–Hopf method, kind: concept, wikipedia: Wiener–Hopf method, wikidata: Q2079672}
+  - {name: pseudo-differential operator, kind: definition, wikipedia: Pseudo-differential operator, wikidata: Q1644451}
+  - {name: Fourier integral operator, kind: definition, wikipedia: Fourier integral operator, wikidata: Q4262191}
+  # Nonlinear operators and fixed points
+  - {name: contraction mapping, kind: definition, decl: ContractingWith, wikipedia: Contraction mapping, wikidata: Q515173}
+  - {name: Banach fixed-point theorem, kind: statement, decl: ContractingWith.fixedPoint, wikipedia: Banach fixed-point theorem, wikidata: Q220680}
+  - {name: nonexpansive map, kind: definition, wikipedia: Metric map, wikidata: Q2713824}
+  - {name: Brouwer fixed-point theorem, kind: statement, wikipedia: Brouwer fixed-point theorem, wikidata: Q1144897}
+  - {name: Schauder fixed-point theorem, kind: statement, wikipedia: Schauder fixed-point theorem, wikidata: Q656176}
+  - {name: Schaefer's fixed point theorem, kind: statement, wikipedia: Schauder fixed-point theorem, wikidata: Q656176}
+  - {name: Kakutani fixed-point theorem, kind: statement, wikipedia: Kakutani fixed-point theorem, wikidata: Q518524}
+  - {name: Markov–Kakutani fixed-point theorem, kind: statement, wikipedia: Markov–Kakutani fixed-point theorem, wikidata: Q6771347}
+  - {name: Ryll-Nardzewski fixed-point theorem, kind: statement, wikipedia: Ryll-Nardzewski fixed-point theorem, wikidata: Q1422083}
+  - {name: Caristi fixed-point theorem, kind: statement, wikipedia: Caristi fixed-point theorem, wikidata: Q2287393}
+  - {name: Leray–Schauder degree, kind: definition, wikipedia: Leray–Schauder degree, wikidata: Q111912958}
+  - {name: monotone operator, kind: definition, wikipedia: Monotonic function, wikidata: Q194404}
+  - {name: Browder–Minty theorem, kind: statement, wikipedia: Browder–Minty theorem, wikidata: Q25303622}
+  - {name: coercive bilinear form, kind: definition, decl: IsCoercive, wikipedia: Coercive function, wikidata: Q1597436}
+  # Equations involving nonlinear operators
+  - {name: variational inequality, kind: problem, wikipedia: Variational inequality, wikidata: Q4556320}
+  - {name: Ekeland's variational principle, kind: statement, wikipedia: Ekeland's variational principle, wikidata: Q1945203}
+  - {name: Palais–Smale compactness condition, kind: definition, wikipedia: Palais–Smale compactness condition, wikidata: Q3686430}
+  - {name: mountain pass theorem, kind: statement, wikipedia: Mountain pass theorem, wikidata: Q6925496}
+  - {name: bifurcation theory, kind: concept, wikipedia: Bifurcation theory, wikidata: Q1154357}
+  - {name: Newton–Kantorovich theorem, kind: statement, wikipedia: Kantorovich theorem, wikidata: Q2226698}
+  - {name: proximal operator, kind: definition, wikipedia: Proximal operator, wikidata: Q28130527}
+  # Operator spaces and operator algebras
+  - {name: algebra of bounded operators on a Hilbert space, kind: object, wikipedia: Bounded operator, wikidata: Q2342396}
+  - {name: weak operator topology, kind: definition, wikipedia: Weak operator topology, wikidata: Q3277121}
+  - {name: strong operator topology, kind: definition, wikipedia: Strong operator topology, wikidata: Q4392013}
+  - {name: operator space, kind: definition, wikipedia: Operator space, wikidata: Q7097841}
+  - {name: operator system, kind: definition, wikipedia: Operator system, wikidata: Q7097842}
+  - {name: completely positive map, kind: definition, decl: CompletelyPositiveMap, wikipedia: Completely positive map, wikidata: Q24107961}
+  - {name: Stinespring dilation theorem, kind: statement, wikipedia: Stinespring dilation theorem, wikidata: Q7617407}
+  - {name: nest algebra, kind: definition, wikipedia: Nest algebra, wikidata: Q6997759}
+  - {name: reflexive operator algebra, kind: definition, wikipedia: Reflexive operator algebra, wikidata: Q7307359}
+  - {name: Toeplitz algebra, kind: object, wikipedia: Toeplitz algebra, wikidata: Q2835942}
+  - {name: von Neumann algebra, kind: definition, decl: VonNeumannAlgebra, wikipedia: Von Neumann algebra, wikidata: Q1970172}

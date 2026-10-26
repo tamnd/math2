@@ -1,0 +1,243 @@
+# The C2 skeleton of 53-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 53-XX
+title: differential geometry
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+  mathlib-overview: {title: "Mathlib, the overview of the library", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/overview.yaml'}
+items:
+  # Curves in the plane and in space
+  - {name: differentiable curve, kind: definition, wikipedia: Differentiable curve, wikidata: Q2254404}
+  - {name: arc length, kind: definition, wikipedia: Arc length, wikidata: Q670036}
+  - {name: curvature of a curve, kind: definition, wikipedia: Curvature, wikidata: Q214881}
+  - {name: torsion of a curve, kind: definition, wikipedia: Torsion of a curve, wikidata: Q1892644}
+  - {name: Frenet–Serret formulas, kind: statement, wikipedia: Frenet–Serret formulas, wikidata: Q947922}
+  - {name: fundamental theorem of space curves, kind: statement, wikipedia: Fundamental theorem of curves, wikidata: Q57486}
+  - {name: osculating circle, kind: definition, wikipedia: Osculating circle, wikidata: Q2166240}
+  - {name: evolute, kind: definition, wikipedia: Evolute, wikidata: Q658654}
+  - {name: involute, kind: definition, wikipedia: Involute, wikidata: Q680712}
+  - {name: total curvature, kind: definition, wikipedia: Total curvature, wikidata: Q4370338}
+  - {name: four-vertex theorem, kind: statement, wikipedia: Four vertex theorem, wikidata: Q994401}
+  - {name: Fenchel's theorem, kind: statement, wikipedia: Fenchel's theorem, wikidata: Q5443004}
+  - {name: Fáry–Milnor theorem, kind: statement, wikipedia: Fáry–Milnor theorem, wikidata: Q3527071}
+  - {name: Whitney–Graustein theorem, kind: statement, wikipedia: Regular homotopy, wikidata: Q7309601}
+  - {name: isoperimetric inequality, kind: statement, wikipedia: Isoperimetric inequality, wikidata: Q617417}
+  # Surfaces in Euclidean space
+  - {name: regular surface, kind: definition, wikipedia: Differential geometry of surfaces, wikidata: Q2502381}
+  - {name: first fundamental form, kind: definition, wikipedia: First fundamental form, wikidata: Q939725}
+  - {name: second fundamental form, kind: definition, wikipedia: Second fundamental form, wikidata: Q233220}
+  - {name: shape operator, kind: definition, wikipedia: Differential geometry of surfaces, wikidata: Q2502381}
+  - {name: principal curvature, kind: definition, wikipedia: Principal curvature, wikidata: Q1589551}
+  - {name: Gaussian curvature, kind: definition, wikipedia: Gaussian curvature, wikidata: Q945953}
+  - {name: mean curvature, kind: definition, wikipedia: Mean curvature, wikidata: Q1318998}
+  - {name: umbilical point, kind: definition, wikipedia: Umbilical point, wikidata: Q3351935}
+  - {name: Gauss map, kind: definition, wikipedia: Gauss map, wikidata: Q575710}
+  - {name: Euler's theorem on normal curvatures, kind: statement, wikipedia: Euler's theorem (differential geometry), wikidata: Q3526990}
+  - {name: Theorema Egregium, kind: statement, wikipedia: Theorema Egregium, wikidata: Q1048874}
+  - {name: Gauss–Codazzi equations, kind: statement, wikipedia: Gauss–Codazzi equations, wikidata: Q3589432}
+  - {name: geodesic curvature, kind: definition, wikipedia: Geodesic curvature, wikidata: Q1460595}
+  - {name: Gauss–Bonnet theorem, kind: statement, wikipedia: Gauss–Bonnet theorem, wikidata: Q742833}
+  - {name: surface of revolution, kind: example, wikipedia: Surface of revolution, wikidata: Q849425}
+  - {name: ruled surface, kind: definition, wikipedia: Ruled surface, wikidata: Q840376}
+  - {name: developable surface, kind: definition, wikipedia: Developable surface, wikidata: Q336298}
+  - {name: pseudosphere, kind: example, wikipedia: Pseudosphere, wikidata: Q1458609}
+  - {name: Hilbert's theorem on the hyperbolic plane, kind: statement, wikipedia: Hilbert's theorem (differential geometry), wikidata: Q2008549}
+  - {name: Minkowski problem, kind: problem, wikipedia: Minkowski problem, wikidata: Q4183831}
+  - {name: affine differential geometry, kind: concept, wikipedia: Affine differential geometry, wikidata: Q4688939}
+  - {name: Crofton formula, kind: statement, wikipedia: Crofton formula, wikidata: Q3077613}
+  # Minimal and constant mean curvature surfaces
+  - {name: minimal surface, kind: definition, wikipedia: Minimal surface, wikidata: Q1545397}
+  - {name: catenoid, kind: example, wikipedia: Catenoid, wikidata: Q1999772}
+  - {name: helicoid, kind: example, wikipedia: Helicoid, wikidata: Q1072483}
+  - {name: Enneper surface, kind: example, wikipedia: Enneper surface, wikidata: Q615502}
+  - {name: Costa's minimal surface, kind: example, wikipedia: Costa's minimal surface, wikidata: Q2528773}
+  - {name: Weierstrass–Enneper parameterization, kind: statement, wikipedia: Weierstrass–Enneper parameterization, wikidata: Q7979830}
+  - {name: Plateau's problem, kind: problem, wikipedia: Plateau's problem, wikidata: Q1972021}
+  - {name: Bernstein's problem, kind: problem, wikipedia: Bernstein's problem, wikidata: Q4894564}
+  - {name: constant-mean-curvature surface, kind: definition, wikipedia: Constant-mean-curvature surface, wikidata: Q5163611}
+  - {name: Wente torus, kind: counterexample, wikipedia: Wente torus, wikidata: Q7982981}
+  - {name: Willmore energy, kind: definition, wikipedia: Willmore energy, wikidata: Q2581692}
+  - {name: Willmore conjecture, kind: statement, wikipedia: Willmore conjecture, wikidata: Q17091514}
+  # Smooth manifolds and bundles
+  - {name: smooth manifold, kind: definition, decl: IsManifold, wikipedia: Differentiable manifold, wikidata: Q3552958, mathlib: [mathlib-overview]}
+  - {name: tangent space, kind: definition, decl: TangentSpace, wikipedia: Tangent space, wikidata: Q909601}
+  - {name: tangent bundle, kind: definition, decl: TangentBundle, wikipedia: Tangent bundle, wikidata: Q746550, mathlib: [mathlib-overview]}
+  - {name: differential of a smooth map, kind: definition, decl: mfderiv, wikipedia: Pushforward (differential), wikidata: Q1969983}
+  - {name: diffeomorphism, kind: definition, decl: Diffeomorph, wikipedia: Diffeomorphism, wikidata: Q1058314}
+  - {name: partition of unity, kind: definition, decl: SmoothPartitionOfUnity, wikipedia: Partition of unity, wikidata: Q191690}
+  - {name: fiber bundle, kind: definition, decl: FiberBundle, wikipedia: Fiber bundle, wikidata: Q1154996, mathlib: [mathlib-overview]}
+  - {name: vector bundle, kind: definition, decl: VectorBundle, wikipedia: Vector bundle, wikidata: Q658429, mathlib: [mathlib-overview]}
+  - {name: section of a vector bundle, kind: definition, decl: ContMDiffSection, wikipedia: Section (fiber bundle), wikidata: Q11703678}
+  - {name: principal bundle, kind: definition, wikipedia: Principal bundle, wikidata: Q1365548}
+  - {name: frame bundle, kind: definition, wikipedia: Frame bundle, wikidata: Q5477902}
+  - {name: vector field, kind: definition, wikipedia: Vector field, wikidata: Q186247}
+  - {name: integral curve, kind: definition, decl: IsMIntegralCurve, wikipedia: Integral curve, wikidata: Q1665406, mathlib: [mathlib-overview]}
+  - {name: Lie bracket of vector fields, kind: definition, decl: VectorField.mlieBracket, wikipedia: Lie bracket of vector fields, wikidata: Q5478310, mathlib: [mathlib-overview]}
+  - {name: Lie derivative, kind: definition, wikipedia: Lie derivative, wikidata: Q579267}
+  - {name: tensor field, kind: definition, wikipedia: Tensor field, wikidata: Q1758924}
+  - {name: differential form, kind: definition, wikipedia: Differential form, wikidata: Q1047080}
+  - {name: exterior derivative, kind: definition, decl: extDeriv, wikipedia: Exterior derivative, wikidata: Q1754547}
+  - {name: Frobenius theorem, kind: statement, wikipedia: Frobenius theorem (differential topology), wikidata: Q837551}
+  - {name: Lie group, kind: definition, decl: LieGroup, wikipedia: Lie group, wikidata: Q622679, mathlib: [mathlib-overview]}
+  - {name: symplectic group, kind: object, decl: Matrix.symplecticGroup, wikipedia: Symplectic group, wikidata: Q936434}
+  - {name: G-structure, kind: definition, wikipedia: G-structure on a manifold, wikidata: Q5511959}
+  # Connections and curvature
+  - {name: affine connection, kind: definition, decl: CovariantDerivative, wikipedia: Affine connection, wikidata: Q1371213, mathlib: [mathlib-overview]}
+  - {name: covariant derivative, kind: definition, wikipedia: Covariant derivative, wikidata: Q2287715}
+  - {name: Christoffel symbols, kind: definition, wikipedia: Christoffel symbols, wikidata: Q847816}
+  - {name: connection on a vector bundle, kind: definition, wikipedia: Connection (vector bundle), wikidata: Q521075}
+  - {name: Ehresmann connection, kind: definition, wikipedia: Ehresmann connection, wikidata: Q2993471}
+  - {name: connection on a principal bundle, kind: definition, wikipedia: Connection (principal bundle), wikidata: Q2920850}
+  - {name: Cartan connection, kind: definition, wikipedia: Cartan connection, wikidata: Q1068049}
+  - {name: moving frame, kind: concept, wikipedia: Moving frame, wikidata: Q6927157}
+  - {name: torsion tensor, kind: definition, decl: CovariantDerivative.torsion, wikipedia: Torsion tensor, wikidata: Q13229797}
+  - {name: Riemann curvature tensor, kind: definition, wikipedia: Riemann curvature tensor, wikidata: Q855112}
+  - {name: curvature form, kind: definition, wikipedia: Curvature form, wikidata: Q839832}
+  - {name: Bianchi identities, kind: statement, wikipedia: Curvature form, wikidata: Q839832}
+  - {name: parallel transport, kind: definition, wikipedia: Parallel transport, wikidata: Q1814838}
+  - {name: holonomy, kind: definition, wikipedia: Holonomy, wikidata: Q907926}
+  - {name: Ambrose–Singer theorem, kind: statement, wikipedia: Holonomy, wikidata: Q907926}
+  - {name: Berger's classification of holonomy groups, kind: statement, wikipedia: Holonomy, wikidata: Q907926}
+  - {name: Chern–Weil homomorphism, kind: concept, wikipedia: Chern–Weil homomorphism, wikidata: Q3087844}
+  - {name: Chern–Simons form, kind: definition, wikipedia: Chern–Simons form, wikidata: Q375489}
+  - {name: projective connection, kind: definition, wikipedia: Projective connection, wikidata: Q7249464}
+  # Riemannian and pseudo-Riemannian manifolds
+  - {name: Riemannian metric, kind: definition, decl: Bundle.RiemannianMetric, wikipedia: Metric tensor, wikidata: Q757269, mathlib: [mathlib-overview]}
+  - {name: Riemannian manifold, kind: definition, decl: IsRiemannianManifold, wikipedia: Riemannian manifold, wikidata: Q632814, mathlib: [mathlib-overview]}
+  - {name: Riemannian distance, kind: definition, decl: Manifold.riemannianEDist, wikipedia: Riemannian manifold, wikidata: Q632814}
+  - {name: pseudo-Riemannian manifold, kind: definition, wikipedia: Pseudo-Riemannian manifold, wikidata: Q1510587}
+  - {name: Lorentzian manifold, kind: definition, wikipedia: Pseudo-Riemannian manifold, wikidata: Q1510587}
+  - {name: Levi-Civita connection, kind: definition, wikipedia: Levi-Civita connection, wikidata: Q548675}
+  - {name: fundamental theorem of Riemannian geometry, kind: statement, wikipedia: Fundamental theorem of Riemannian geometry, wikidata: Q2185349}
+  - {name: isometry of Riemannian manifolds, kind: definition, wikipedia: Isometry, wikidata: Q740207}
+  - {name: Killing vector field, kind: definition, wikipedia: Killing vector field, wikidata: Q1200279}
+  - {name: Myers–Steenrod theorem, kind: statement, wikipedia: Myers–Steenrod theorem, wikidata: Q6947443}
+  - {name: Nash embedding theorems, kind: statement, wikipedia: Nash embedding theorems, wikidata: Q1306092}
+  - {name: conformal geometry, kind: concept, wikipedia: Conformal geometry, wikidata: Q513175}
+  - {name: Weyl tensor, kind: definition, wikipedia: Weyl tensor, wikidata: Q869108}
+  - {name: Cotton tensor, kind: definition, wikipedia: Cotton tensor, wikidata: Q3518152}
+  - {name: Finsler manifold, kind: definition, wikipedia: Finsler manifold, wikidata: Q2498782}
+  - {name: sub-Riemannian manifold, kind: definition, wikipedia: Sub-Riemannian manifold, wikidata: Q7630587}
+  - {name: Chow–Rashevskii theorem, kind: statement, wikipedia: Chow–Rashevsky theorem, wikidata: Q5105585}
+  # Geodesics
+  - {name: geodesic, kind: definition, wikipedia: Geodesic, wikidata: Q213488}
+  - {name: exponential map, kind: definition, wikipedia: Exponential map (Riemannian geometry), wikidata: Q1384674}
+  - {name: normal coordinates, kind: definition, wikipedia: Normal coordinates, wikidata: Q2152232}
+  - {name: Gauss lemma, kind: statement, wikipedia: Gauss's lemma (Riemannian geometry), wikidata: Q3229339}
+  - {name: injectivity radius, kind: definition, wikipedia: Glossary of Riemannian and metric geometry, wikidata: Q3237377}
+  - {name: Hopf–Rinow theorem, kind: statement, wikipedia: Hopf–Rinow theorem, wikidata: Q2094241}
+  - {name: Jacobi field, kind: definition, wikipedia: Jacobi field, wikidata: Q1677714}
+  - {name: conjugate points, kind: definition, wikipedia: Conjugate points, wikidata: Q5161158}
+  - {name: cut locus, kind: definition, wikipedia: Cut locus, wikidata: Q55951116}
+  - {name: first and second variation of arc length, kind: statement, wikipedia: First variation of area formula, wikidata: Q5454260}
+  # Curvature and topology
+  - {name: sectional curvature, kind: definition, wikipedia: Sectional curvature, wikidata: Q855622}
+  - {name: Ricci curvature, kind: definition, wikipedia: Ricci curvature, wikidata: Q1195879}
+  - {name: scalar curvature, kind: definition, wikipedia: Scalar curvature, wikidata: Q1147161}
+  - {name: Einstein manifold, kind: definition, wikipedia: Einstein manifold, wikidata: Q1309313}
+  - {name: space form, kind: definition, wikipedia: Space form, wikidata: Q4381552}
+  - {name: Killing–Hopf theorem, kind: statement, wikipedia: Killing–Hopf theorem, wikidata: Q6407842}
+  - {name: Cartan–Hadamard theorem, kind: statement, wikipedia: Cartan–Hadamard theorem, wikidata: Q5047048}
+  - {name: Myers's theorem, kind: statement, wikipedia: Myers's theorem, wikidata: Q929547}
+  - {name: Synge's theorem, kind: statement, wikipedia: Synge's theorem, wikidata: Q3527171}
+  - {name: Preissmann's theorem, kind: statement, wikipedia: Preissmann's theorem, wikidata: Q7240001}
+  - {name: Rauch comparison theorem, kind: statement, wikipedia: Rauch comparison theorem, wikidata: Q7296106}
+  - {name: Toponogov's theorem, kind: statement, wikipedia: Toponogov's theorem, wikidata: Q7825061}
+  - {name: Bishop–Gromov inequality, kind: statement, wikipedia: Bishop–Gromov inequality, wikidata: Q4918129}
+  - {name: Cheeger–Gromoll splitting theorem, kind: statement, wikipedia: Splitting theorem, wikidata: Q7578748}
+  - {name: soul theorem, kind: statement, wikipedia: Soul theorem, wikidata: Q4171386}
+  - {name: sphere theorem, kind: statement, wikipedia: Sphere theorem, wikidata: Q2309682}
+  - {name: Bochner's formula, kind: statement, wikipedia: Bochner's formula, wikidata: Q4936239}
+  - {name: Weitzenböck identity, kind: statement, wikipedia: Weitzenböck identity, wikidata: Q7980430}
+  - {name: Chern–Gauss–Bonnet theorem, kind: statement, wikipedia: Chern–Gauss–Bonnet theorem, wikidata: Q11704319}
+  - {name: Hopf conjecture, kind: conjecture, wikipedia: Hopf conjectures, wikidata: Q5900498}
+  - {name: Yamabe problem, kind: problem, wikipedia: Yamabe problem, wikidata: Q3406245}
+  - {name: positive mass theorem, kind: statement, wikipedia: Positive energy theorem, wikidata: Q4179283}
+  # Analysis on Riemannian manifolds
+  - {name: Hodge star operator, kind: definition, wikipedia: Hodge star operator, wikidata: Q1622692}
+  - {name: Laplace–Beltrami operator, kind: definition, wikipedia: Laplace–Beltrami operator, wikidata: Q1071846}
+  - {name: Hodge theorem, kind: statement, wikipedia: Hodge theory, wikidata: Q1317202}
+  - {name: harmonic map, kind: definition, wikipedia: Harmonic map, wikidata: Q5659257}
+  - {name: spin structure, kind: definition, wikipedia: Spin structure, wikidata: Q7577418}
+  - {name: spinor bundle, kind: definition, wikipedia: Spinor bundle, wikidata: Q1049915}
+  - {name: Yang–Mills equations, kind: definition, wikipedia: Yang–Mills equations, wikidata: Q85816613}
+  - {name: instanton, kind: definition, wikipedia: Instanton, wikidata: Q1192916}
+  # Metric and synthetic methods in global geometry
+  - {name: Gromov–Hausdorff convergence, kind: definition, wikipedia: Gromov–Hausdorff convergence, wikidata: Q929777}
+  - {name: Gromov's compactness theorem, kind: statement, wikipedia: Gromov's compactness theorem (geometry), wikidata: Q5610188}
+  - {name: CAT(k) space, kind: definition, wikipedia: CAT(k) space, wikidata: Q5008891}
+  - {name: Alexandrov space, kind: definition, wikipedia: Alexandrov space, wikidata: Q28401130}
+  - {name: systolic geometry, kind: concept, wikipedia: Systolic geometry, wikidata: Q2454208}
+  - {name: Loewner's torus inequality, kind: statement, wikipedia: Loewner's torus inequality, wikidata: Q3154012}
+  - {name: Gromov's systolic inequality, kind: statement, wikipedia: Gromov's systolic inequality for essential manifolds, wikidata: Q5610194}
+  # Homogeneous and symmetric spaces
+  - {name: homogeneous space, kind: definition, wikipedia: Homogeneous space, wikidata: Q1324364}
+  - {name: symmetric space, kind: definition, wikipedia: Symmetric space, wikidata: Q3058244}
+  - {name: Cartan's classification of symmetric spaces, kind: statement, wikipedia: Symmetric space, wikidata: Q3058244}
+  # Complex, Kähler and special holonomy geometry
+  - {name: almost complex manifold, kind: definition, wikipedia: Almost complex manifold, wikidata: Q2995691}
+  - {name: Newlander–Nirenberg theorem, kind: statement, wikipedia: Almost complex manifold, wikidata: Q2995691}
+  - {name: Hermitian manifold, kind: definition, wikipedia: Hermitian manifold, wikidata: Q5741935}
+  - {name: Kähler manifold, kind: definition, wikipedia: Kähler manifold, wikidata: Q1353916}
+  - {name: Kähler–Einstein metric, kind: definition, wikipedia: Kähler–Einstein metric, wikidata: Q6453393}
+  - {name: Calabi conjecture, kind: statement, wikipedia: Calabi conjecture, wikidata: Q5018293}
+  - {name: Yau–Tian–Donaldson conjecture, kind: statement, wikipedia: K-stability, wikidata: Q85772692}
+  - {name: Calabi–Yau manifold, kind: definition, wikipedia: Calabi–Yau manifold, wikidata: Q549959}
+  - {name: hyperkähler manifold, kind: definition, wikipedia: Hyperkähler manifold, wikidata: Q3082377}
+  - {name: quaternion-Kähler manifold, kind: definition, wikipedia: Quaternion-Kähler manifold, wikidata: Q7269561}
+  - {name: G2 manifold, kind: definition, wikipedia: G2 manifold, wikidata: Q5512692}
+  - {name: Spin(7)-manifold, kind: definition, wikipedia: Spin(7)-manifold, wikidata: Q7577346}
+  - {name: Sasakian manifold, kind: definition, wikipedia: Sasakian manifold, wikidata: Q7424986}
+  # Symplectic geometry
+  - {name: symplectic vector space, kind: definition, wikipedia: Symplectic vector space, wikidata: Q766774}
+  - {name: symplectic manifold, kind: definition, wikipedia: Symplectic manifold, wikidata: Q1064500}
+  - {name: Darboux's theorem, kind: statement, wikipedia: Darboux's theorem, wikidata: Q1058662}
+  - {name: Moser's trick, kind: statement, wikipedia: Moser's trick, wikidata: Q3333609}
+  - {name: symplectomorphism, kind: definition, wikipedia: Symplectomorphism, wikidata: Q1049064}
+  - {name: Lagrangian submanifold, kind: definition, wikipedia: Symplectic manifold, wikidata: Q1064500}
+  - {name: tautological one-form, kind: definition, wikipedia: Tautological one-form, wikidata: Q1014878}
+  - {name: Hamiltonian vector field, kind: definition, wikipedia: Hamiltonian vector field, wikidata: Q2256693}
+  - {name: Poisson bracket, kind: definition, wikipedia: Poisson bracket, wikidata: Q1052775}
+  - {name: Liouville's theorem on phase-space volume, kind: statement, wikipedia: Liouville's theorem (Hamiltonian), wikidata: Q766722}
+  - {name: Liouville–Arnold theorem, kind: statement, wikipedia: Action-angle coordinates, wikidata: Q1000646}
+  - {name: moment map, kind: definition, wikipedia: Momentum map, wikidata: Q6897118}
+  - {name: Marsden–Weinstein reduction, kind: concept, wikipedia: Momentum map, wikidata: Q6897118}
+  - {name: Atiyah–Guillemin–Sternberg convexity theorem, kind: statement, wikipedia: Momentum map, wikidata: Q6897118}
+  - {name: Duistermaat–Heckman formula, kind: statement, wikipedia: Duistermaat–Heckman formula, wikidata: Q5312666}
+  - {name: Delzant's theorem on toric manifolds, kind: statement, wikipedia: Toric manifold, wikidata: Q7825778}
+  - {name: Gromov's non-squeezing theorem, kind: statement, wikipedia: Non-squeezing theorem, wikidata: Q3527214}
+  - {name: symplectic capacity, kind: definition, wikipedia: Non-squeezing theorem, wikidata: Q3527214}
+  - {name: pseudoholomorphic curve, kind: definition, wikipedia: Pseudoholomorphic curve, wikidata: Q2115749}
+  - {name: Gromov–Witten invariant, kind: definition, wikipedia: Gromov–Witten invariant, wikidata: Q1547297}
+  - {name: Floer homology, kind: concept, wikipedia: Floer homology, wikidata: Q652525}
+  - {name: Arnold conjecture, kind: conjecture, wikipedia: Arnold conjecture, wikidata: Q115803233}
+  - {name: Fukaya category, kind: definition, wikipedia: Fukaya category, wikidata: Q5507585}
+  - {name: homological mirror symmetry, kind: conjecture, wikipedia: Homological mirror symmetry, wikidata: Q11338004}
+  - {name: Poisson manifold, kind: definition, wikipedia: Poisson manifold, wikidata: Q1464936}
+  - {name: deformation quantization, kind: concept, wikipedia: Deformation quantization, wikidata: Q131143202}
+  - {name: Kontsevich quantization formula, kind: statement, wikipedia: Kontsevich quantization formula, wikidata: Q6430406}
+  - {name: geometric quantization, kind: concept, wikipedia: Geometric quantization, wikidata: Q630426}
+  # Contact geometry
+  - {name: contact manifold, kind: definition, wikipedia: Contact geometry, wikidata: Q1783105}
+  - {name: Reeb vector field, kind: definition, wikipedia: Reeb vector field, wikidata: Q7306558}
+  - {name: Legendrian submanifold, kind: definition, wikipedia: Contact geometry, wikidata: Q1783105}
+  - {name: tight and overtwisted contact structures, kind: definition, wikipedia: Contact geometry, wikidata: Q1783105}
+  - {name: Giroux correspondence, kind: statement, wikipedia: Open book decomposition, wikidata: Q3527238}
+  - {name: Weinstein conjecture, kind: conjecture, wikipedia: Weinstein conjecture, wikidata: Q966711}
+  # Geometric evolution equations
+  - {name: curve-shortening flow, kind: definition, wikipedia: Curve-shortening flow, wikidata: Q18349490}
+  - {name: Gage–Hamilton–Grayson theorem, kind: statement, wikipedia: Curve-shortening flow, wikidata: Q18349490}
+  - {name: mean curvature flow, kind: definition, wikipedia: Mean curvature flow, wikidata: Q6803617}
+  - {name: Huisken's theorem on convex hypersurfaces, kind: statement, wikipedia: Mean curvature flow, wikidata: Q6803617}
+  - {name: inverse mean curvature flow, kind: definition, wikipedia: Inverse mean curvature flow, wikidata: Q6060395}
+  - {name: Riemannian Penrose inequality, kind: statement, wikipedia: Riemannian Penrose inequality, wikidata: Q7333121}
+  - {name: Ricci flow, kind: definition, wikipedia: Ricci flow, wikidata: Q1361396}
+  - {name: Yamabe flow, kind: definition, wikipedia: Yamabe flow, wikidata: Q8047576}
+  - {name: Calabi flow, kind: definition, wikipedia: Calabi flow, wikidata: Q5018295}
+  - {name: Willmore flow, kind: definition, wikipedia: Willmore energy, wikidata: Q2581692}
+  # Applications to physics and science
+  - {name: Einstein field equations, kind: definition, wikipedia: Einstein field equations, wikidata: Q273711}
+  - {name: Schwarzschild metric, kind: example, wikipedia: Schwarzschild metric, wikidata: Q742969}
+  - {name: Penrose–Hawking singularity theorems, kind: statement, wikipedia: Penrose–Hawking singularity theorems, wikidata: Q1452678}
+  - {name: information geometry, kind: concept, wikipedia: Information geometry, wikidata: Q3798604}

@@ -1,0 +1,270 @@
+# The C2 skeleton of 51-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 51-XX
+title: geometry
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+  mathlib-undergrad: {title: "Mathlib, the list of undergraduate topics", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/undergrad.yaml'}
+  mathlib-overview: {title: "Mathlib, the overview of the library", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/overview.yaml'}
+  mathlib-100: {title: "Mathlib, the status of Freek Wiedijk's 100 theorems", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/100.yaml'}
+  mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
+items:
+  # Foundations and axiom systems
+  - {name: Euclid's Elements, kind: object, wikipedia: Euclid's Elements, wikidata: Q172891}
+  - {name: Euclidean geometry, kind: concept, wikipedia: Euclidean geometry, wikidata: Q162886}
+  - {name: parallel postulate, kind: statement, wikipedia: Parallel postulate, wikidata: Q207014}
+  - {name: Playfair's axiom, kind: statement, wikipedia: Playfair's axiom, wikidata: Q3915714}
+  - {name: Hilbert's axioms, kind: definition, wikipedia: Hilbert's axioms, wikidata: Q840243}
+  - {name: Tarski's axioms, kind: definition, wikipedia: Tarski's axioms, wikidata: Q7686757}
+  - {name: Birkhoff's axioms, kind: definition, wikipedia: Birkhoff's axioms, wikidata: Q3625630}
+  - {name: Pasch's axiom, kind: statement, wikipedia: Pasch's axiom, wikidata: Q792528}
+  - {name: absolute geometry, kind: concept, wikipedia: Absolute geometry, wikidata: Q332430}
+  - {name: ordered geometry, kind: concept, wikipedia: Ordered geometry, wikidata: Q7100712}
+  - {name: betweenness, kind: definition, decl: Wbtw, wikipedia: Ordered geometry, wikidata: Q7100712}
+  - {name: Saccheri quadrilateral, kind: definition, wikipedia: Saccheri quadrilateral, wikidata: Q138224}
+  - {name: Lambert quadrilateral, kind: definition, wikipedia: Lambert quadrilateral, wikidata: Q4117142}
+  - {name: Legendre's theorem on the angle sum, kind: statement, wikipedia: Saccheri–Legendre theorem, wikidata: Q7396621}
+  - {name: Erlangen program, kind: concept, wikipedia: Erlangen program, wikidata: Q315296}
+  - {name: synthetic geometry, kind: concept, wikipedia: Synthetic geometry, wikidata: Q249148}
+  - {name: compass and straightedge constructions, kind: concept, wikipedia: Straightedge and compass construction, wikidata: Q115368}
+  - {name: Mohr–Mascheroni theorem, kind: statement, wikipedia: Mohr–Mascheroni theorem, wikidata: Q1152521}
+  - {name: Poncelet–Steiner theorem, kind: statement, wikipedia: Poncelet–Steiner theorem, wikidata: Q1186134}
+  - {name: angle trisection, kind: problem, wikipedia: Angle trisection, wikidata: Q733081}
+  - {name: doubling the cube, kind: problem, wikipedia: Doubling the cube, wikidata: Q213673}
+  - {name: squaring the circle, kind: problem, wikipedia: Squaring the circle, wikidata: Q193394}
+  - {name: constructible polygon, kind: statement, wikipedia: Constructible polygon, wikidata: Q268132}
+  - {name: Hilbert's third problem, kind: problem, wikipedia: Hilbert's third problem, wikidata: Q2667025}
+  - {name: Dehn invariant, kind: definition, wikipedia: Dehn invariant, wikidata: Q30587580}
+  - {name: Wallace–Bolyai–Gerwien theorem, kind: statement, wikipedia: Wallace–Bolyai–Gerwien theorem, wikidata: Q834211}
+  - {name: Hilbert's fourth problem, kind: problem, wikipedia: Hilbert's fourth problem, wikidata: Q4515035}
+  # Affine geometry
+  - {name: affine space, kind: definition, decl: AddTorsor, wikipedia: Affine space, wikidata: Q382698, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: affine subspace, kind: definition, decl: AffineSubspace, wikipedia: Affine space, wikidata: Q382698, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: affine map, kind: definition, decl: AffineMap, wikipedia: Affine transformation, wikidata: Q382497, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: affine group, kind: definition, decl: AffineEquiv, wikipedia: Affine group, wikidata: Q686291}
+  - {name: affine independence, kind: definition, decl: AffineIndependent, wikipedia: Affine space, wikidata: Q382698}
+  - {name: affine combination, kind: definition, decl: Finset.centerMass, wikipedia: Affine combination, wikidata: Q938614}
+  - {name: barycentric coordinates, kind: definition, wikipedia: Barycentric coordinate system, wikidata: Q738422}
+  - {name: collinearity, kind: definition, decl: Collinear, wikipedia: Collinearity, wikidata: Q1419761}
+  - {name: coplanarity, kind: definition, decl: Coplanar, wikipedia: Coplanarity, wikidata: Q543533}
+  - {name: affine plane, kind: definition, wikipedia: Affine plane (incidence geometry), wikidata: Q382491}
+  - {name: fundamental theorem of affine geometry, kind: statement, wikipedia: Affine transformation, wikidata: Q382497}
+  # Projective geometry and linear incidence geometry
+  - {name: incidence structure, kind: definition, wikipedia: Incidence structure, wikidata: Q367329}
+  - {name: incidence geometry, kind: concept, wikipedia: Incidence geometry, wikidata: Q4582901}
+  - {name: projective plane, kind: definition, decl: Configuration.ProjectivePlane, wikipedia: Projective plane, wikidata: Q1475760}
+  - {name: projective space, kind: definition, decl: Projectivization, wikipedia: Projective space, wikidata: Q877775}
+  - {name: projective subspace, kind: definition, decl: Projectivization.Subspace, wikipedia: Projective space, wikidata: Q877775}
+  - {name: projective geometry, kind: concept, wikipedia: Projective geometry, wikidata: Q177409}
+  - {name: homogeneous coordinates, kind: definition, wikipedia: Homogeneous coordinates, wikidata: Q528525}
+  - {name: projective transformation, kind: definition, wikipedia: Homography, wikidata: Q2112539}
+  - {name: collineation, kind: definition, wikipedia: Collineation, wikidata: Q390741}
+  - {name: fundamental theorem of projective geometry, kind: statement, wikipedia: Homography, wikidata: Q2112539}
+  - {name: duality in projective geometry, kind: concept, decl: Configuration.Dual, wikipedia: Duality (projective geometry), wikidata: Q735346}
+  - {name: cross-ratio, kind: definition, wikipedia: Cross-ratio, wikidata: Q899539}
+  - {name: harmonic conjugate, kind: definition, wikipedia: Projective harmonic conjugate, wikidata: Q1101140}
+  - {name: perspectivity, kind: definition, wikipedia: Perspectivity, wikidata: Q3924142}
+  - {name: Desargues's theorem, kind: statement, wikipedia: Desargues's theorem, wikidata: Q841893}
+  - {name: Pappus's hexagon theorem, kind: statement, wikipedia: Pappus's hexagon theorem, wikidata: Q851166}
+  - {name: Pascal's theorem, kind: statement, wikipedia: Pascal's theorem, wikidata: Q899002}
+  - {name: Brianchon's theorem, kind: statement, wikipedia: Brianchon's theorem, wikidata: Q119450}
+  - {name: non-Desarguesian plane, kind: example, wikipedia: Non-Desarguesian plane, wikidata: Q3391357}
+  - {name: Moulton plane, kind: example, wikipedia: Moulton plane, wikidata: Q650995}
+  - {name: Desarguesian plane, kind: definition, wikipedia: Projective plane, wikidata: Q1475760}
+  - {name: Moufang plane, kind: definition, wikipedia: Moufang plane, wikidata: Q1950188}
+  - {name: octonionic projective plane, kind: example, wikipedia: Cayley plane, wikidata: Q16858508}
+  - {name: planar ternary ring, kind: definition, wikipedia: Planar ternary ring, wikidata: Q2405012}
+  - {name: coordinatization of projective planes, kind: statement, wikipedia: Planar ternary ring, wikidata: Q2405012}
+  - {name: quasifield, kind: definition, wikipedia: Quasifield, wikidata: Q1553741}
+  - {name: translation plane, kind: definition, wikipedia: Translation plane, wikidata: Q382515}
+  - {name: Veblen–Young theorem, kind: statement, wikipedia: Projective space, wikidata: Q877775}
+  - {name: projective conic, kind: definition, wikipedia: Conic section, wikidata: Q124255}
+  - {name: Steiner conic, kind: definition, wikipedia: Steiner conic, wikidata: Q15844090}
+  - {name: quadric, kind: definition, wikipedia: Quadric, wikidata: Q852117}
+  - {name: polarity, kind: definition, wikipedia: Duality (projective geometry), wikidata: Q735346}
+  - {name: Grassmannian, kind: definition, wikipedia: Grassmannian, wikidata: Q129638}
+  - {name: Plücker coordinates, kind: definition, wikipedia: Plücker coordinates, wikidata: Q2559456}
+  - {name: Klein quadric, kind: object, wikipedia: Klein quadric, wikidata: Q6420195}
+  - {name: polar space, kind: definition, wikipedia: Polar space, wikidata: Q3058226}
+  - {name: generalized polygon, kind: definition, wikipedia: Generalized polygon, wikidata: Q5532502}
+  - {name: Feit–Higman theorem, kind: statement, wikipedia: Generalized polygon, wikidata: Q5532502}
+  - {name: Tits building, kind: definition, wikipedia: Building (mathematics), wikidata: Q4986445}
+  - {name: partial linear space, kind: definition, wikipedia: Partial linear space, wikidata: Q7140375}
+  - {name: linear space, kind: definition, wikipedia: Linear space (geometry), wikidata: Q1826459}
+  - {name: Sylvester–Gallai theorem, kind: statement, wikipedia: Sylvester–Gallai theorem, wikidata: Q748233}
+  - {name: de Bruijn–Erdős theorem, kind: statement, wikipedia: De Bruijn–Erdős theorem (incidence geometry), wikidata: Q3527056}
+  # Finite geometry
+  - {name: finite geometry, kind: concept, wikipedia: Finite geometry, wikidata: Q1077896}
+  - {name: Fano plane, kind: object, wikipedia: Fano plane, wikidata: Q1395814}
+  - {name: order of a projective plane, kind: definition, decl: Configuration.ProjectivePlane.order, wikipedia: Projective plane, wikidata: Q1475760}
+  - {name: number of points of a finite projective plane, kind: statement, decl: Configuration.ProjectivePlane.card_points, wikipedia: Projective plane, wikidata: Q1475760}
+  - {name: prime power conjecture for projective planes, kind: conjecture, wikipedia: Projective plane, wikidata: Q1475760}
+  - {name: Bruck–Ryser–Chowla theorem, kind: statement, wikipedia: Bruck–Ryser–Chowla theorem, wikidata: Q2226624}
+  - {name: nonexistence of a projective plane of order 10, kind: statement, wikipedia: Lam's problem, wikidata: Q106696246}
+  - {name: Wedderburn's little theorem and finite Desarguesian planes, kind: statement, wikipedia: Wedderburn's little theorem, wikidata: Q943246}
+  - {name: projective geometry over a finite field, kind: example, wikipedia: Projective space, wikidata: Q877775}
+  - {name: oval, kind: definition, wikipedia: Oval (projective plane), wikidata: Q7113209}
+  - {name: hyperoval, kind: definition, wikipedia: Oval (projective plane), wikidata: Q7113209}
+  - {name: Segre's theorem, kind: statement, wikipedia: Segre's theorem, wikidata: Q23021008}
+  - {name: arc in a finite plane, kind: definition, wikipedia: Arc (projective geometry), wikidata: Q4785004}
+  - {name: ovoid, kind: definition, wikipedia: Ovoid (projective geometry), wikidata: Q7114196}
+  - {name: unital, kind: definition, wikipedia: Unital (geometry), wikidata: Q17148807}
+  - {name: blocking set, kind: definition, wikipedia: Blocking set, wikidata: Q17005980}
+  - {name: spread, kind: definition, wikipedia: Spread (projective geometry), wikidata: Q106611350}
+  - {name: generalized quadrangle, kind: definition, wikipedia: Generalized quadrangle, wikidata: Q2754558}
+  - {name: block design, kind: definition, wikipedia: Block design, wikidata: Q751484}
+  - {name: Steiner system, kind: definition, wikipedia: Steiner system, wikidata: Q4420916}
+  - {name: Kirkman's schoolgirl problem, kind: problem, wikipedia: Kirkman's schoolgirl problem, wikidata: Q966333}
+  - {name: affine plane over a finite field, kind: example, wikipedia: Affine plane (incidence geometry), wikidata: Q382491}
+  - {name: configuration, kind: definition, wikipedia: Configuration (geometry), wikidata: Q1866689}
+  - {name: Möbius–Kantor configuration, kind: example, wikipedia: Möbius–Kantor configuration, wikidata: Q6950325}
+  - {name: Desargues configuration, kind: example, wikipedia: Desargues configuration, wikidata: Q15720456}
+  - {name: Pappus configuration, kind: example, wikipedia: Pappus configuration, wikidata: Q7133115}
+  - {name: Kakeya problem over finite fields, kind: statement, wikipedia: Kakeya set, wikidata: Q3054869}
+  # Nonlinear incidence geometry and closure systems
+  - {name: Möbius plane, kind: definition, wikipedia: Möbius plane, wikidata: Q1392693}
+  - {name: Laguerre plane, kind: definition, wikipedia: Laguerre plane, wikidata: Q15825031}
+  - {name: Minkowski plane, kind: definition, wikipedia: Minkowski plane, wikidata: Q4381561}
+  - {name: Benz plane, kind: definition, wikipedia: Benz plane, wikidata: Q3210599}
+  - {name: inversive geometry, kind: concept, wikipedia: Inversive geometry, wikidata: Q9267097}
+  - {name: inversion in a circle, kind: definition, decl: EuclideanGeometry.inversion, wikipedia: Inversive geometry, wikidata: Q9267097}
+  - {name: projective line over a ring, kind: definition, wikipedia: Projective line over a ring, wikidata: Q7249472}
+  - {name: matroid, kind: definition, wikipedia: Matroid, wikidata: Q898572}
+  - {name: closure operator, kind: definition, wikipedia: Closure operator, wikidata: Q10564851}
+  - {name: geometric lattice, kind: definition, wikipedia: Geometric lattice, wikidata: Q5535493}
+  - {name: Buekenhout geometry, kind: concept, wikipedia: Buekenhout geometry, wikidata: Q4985363}
+  # Metric and reflection geometry
+  - {name: metric geometry, kind: concept, wikipedia: Metric space, wikidata: Q180953}
+  - {name: isometry, kind: definition, decl: Isometry, wikipedia: Isometry, wikidata: Q740207}
+  - {name: Euclidean group, kind: definition, wikipedia: Euclidean group, wikidata: Q852195}
+  - {name: reflection, kind: definition, decl: EuclideanGeometry.reflection, wikipedia: Reflection (mathematics), wikidata: Q426221}
+  - {name: Cartan–Dieudonné theorem, kind: statement, wikipedia: Cartan–Dieudonné theorem, wikidata: Q2540738}
+  - {name: Bachmann's reflection geometry, kind: concept, wikipedia: Absolute geometry, wikidata: Q332430}
+  - {name: Mazur–Ulam theorem, kind: statement, wikipedia: Mazur–Ulam theorem, wikidata: Q1660147}
+  - {name: Beckman–Quarles theorem, kind: statement, wikipedia: Beckman–Quarles theorem, wikidata: Q2226606}
+  - {name: similarity transformation, kind: definition, wikipedia: Similarity (geometry), wikidata: Q254465}
+  - {name: congruence, kind: definition, wikipedia: Congruence (geometry), wikidata: Q154210}
+  - {name: orthogonal projection, kind: definition, decl: EuclideanGeometry.orthogonalProjection, wikipedia: Projection (linear algebra), wikidata: Q519967}
+  - {name: Cayley–Klein metric, kind: definition, wikipedia: Cayley–Klein metric, wikidata: Q5055329}
+  - {name: Hilbert metric, kind: definition, wikipedia: Hilbert metric, wikidata: Q5761213}
+  - {name: taxicab geometry, kind: example, wikipedia: Taxicab geometry, wikidata: Q573509}
+  - {name: Busemann G-space, kind: definition, wikipedia: Busemann G-space, wikidata: Q55606213}
+  # Distance geometry
+  - {name: distance geometry, kind: concept, wikipedia: Distance geometry, wikidata: Q2088417}
+  - {name: Cayley–Menger determinant, kind: definition, wikipedia: Cayley–Menger determinant, wikidata: Q60790093}
+  - {name: Euclidean distance matrix, kind: definition, wikipedia: Euclidean distance matrix, wikidata: Q5406122}
+  - {name: Schoenberg's embedding criterion, kind: statement, wikipedia: Euclidean distance matrix, wikidata: Q5406122}
+  - {name: rigidity of frameworks, kind: concept, wikipedia: Structural rigidity, wikidata: Q7625050}
+  - {name: Laman graph, kind: definition, wikipedia: Laman graph, wikidata: Q4253458}
+  - {name: Cauchy's rigidity theorem, kind: statement, wikipedia: Cauchy's theorem (geometry), wikidata: Q3527034}
+  - {name: flexible polyhedron, kind: example, wikipedia: Flexible polyhedron, wikidata: Q3889052}
+  - {name: bellows conjecture, kind: statement, wikipedia: Flexible polyhedron, wikidata: Q3889052}
+  # Triangles and circles
+  - {name: triangle, kind: definition, decl: Affine.Triangle, wikipedia: Triangle, wikidata: Q19821}
+  - {name: simplex, kind: definition, decl: Affine.Simplex, wikipedia: Simplex, wikidata: Q331350}
+  - {name: angle, kind: definition, decl: EuclideanGeometry.angle, wikipedia: Angle, wikidata: Q11352}
+  - {name: oriented angle, kind: definition, decl: EuclideanGeometry.oangle, wikipedia: Angle, wikidata: Q11352}
+  - {name: triangle angle sum, kind: statement, decl: EuclideanGeometry.angle_add_angle_add_angle_eq_pi, wikipedia: Sum of angles of a triangle, wikidata: Q7840113, mathlib: [mathlib-100]}
+  - {name: Pythagorean theorem, kind: statement, decl: EuclideanGeometry.dist_sq_eq_dist_sq_add_dist_sq_iff_angle_eq_pi_div_two, wikipedia: Pythagorean theorem, wikidata: Q11518, mathlib: [mathlib-100, mathlib-1000]}
+  - {name: law of cosines, kind: statement, decl: EuclideanGeometry.law_cos, wikipedia: Law of cosines, wikidata: Q164321}
+  - {name: law of sines, kind: statement, decl: EuclideanGeometry.law_sin, wikipedia: Law of sines, wikidata: Q170181}
+  - {name: congruence of triangles, kind: statement, wikipedia: Congruence (geometry), wikidata: Q154210}
+  - {name: similar triangles, kind: concept, decl: EuclideanGeometry.dist_mul_of_eq_angle_of_dist_mul, wikipedia: Similarity (geometry), wikidata: Q254465}
+  - {name: intercept theorem, kind: statement, wikipedia: Intercept theorem, wikidata: Q3757563}
+  - {name: Heron's formula, kind: statement, wikipedia: Heron's formula, wikidata: Q182714}
+  - {name: Apollonius's theorem, kind: statement, decl: EuclideanGeometry.dist_sq_add_dist_sq_eq_two_mul_dist_midpoint_sq_add_half_dist_sq, wikipedia: Apollonius's theorem, wikidata: Q877489, mathlib: [mathlib-1000]}
+  - {name: Stewart's theorem, kind: statement, decl: EuclideanGeometry.dist_sq_mul_dist_add_dist_sq_mul_dist, wikipedia: Stewart's theorem, wikidata: Q739403, mathlib: [mathlib-1000]}
+  - {name: angle bisector theorem, kind: statement, wikipedia: Angle bisector theorem, wikidata: Q925854}
+  - {name: triangle inequality, kind: statement, wikipedia: Triangle inequality, wikidata: Q208216}
+  - {name: centroid, kind: definition, decl: Affine.Simplex.centroid, wikipedia: Centroid, wikidata: Q511093}
+  - {name: circumcenter, kind: definition, decl: Affine.Simplex.circumcenter, wikipedia: Circumcircle, wikidata: Q2946460}
+  - {name: circumsphere, kind: definition, decl: Affine.Simplex.circumsphere, wikipedia: Circumscribed sphere, wikidata: Q1414689}
+  - {name: orthocenter, kind: definition, decl: Affine.Triangle.orthocenter, wikipedia: Altitude (triangle), wikidata: Q339495}
+  - {name: incircle and excircles, kind: definition, wikipedia: Incircle and excircles, wikidata: Q10615255}
+  - {name: Euler line, kind: statement, wikipedia: Euler line, wikidata: Q379380}
+  - {name: nine-point circle, kind: definition, decl: Affine.Simplex.ninePointCircle, wikipedia: Nine-point circle, wikidata: Q214533}
+  - {name: Feuerbach's theorem, kind: statement, wikipedia: Feuerbach point, wikidata: Q2190744}
+  - {name: Monge point, kind: definition, decl: Affine.Simplex.mongePoint, wikipedia: Tetrahedron, wikidata: Q160003}
+  - {name: orthocentric system, kind: definition, decl: EuclideanGeometry.OrthocentricSystem, wikipedia: Orthocentric system, wikidata: Q897296}
+  - {name: Euler's theorem in geometry, kind: statement, wikipedia: Euler's theorem in geometry, wikidata: Q1423818}
+  - {name: Ceva's theorem, kind: statement, wikipedia: Ceva's theorem, wikidata: Q213603}
+  - {name: Menelaus's theorem, kind: statement, wikipedia: Menelaus's theorem, wikidata: Q193882}
+  - {name: Morley's trisector theorem, kind: statement, wikipedia: Morley's trisector theorem, wikidata: Q913447}
+  - {name: Napoleon's theorem, kind: statement, wikipedia: Napoleon's theorem, wikidata: Q637418}
+  - {name: Simson line, kind: definition, wikipedia: Simson line, wikidata: Q937921}
+  - {name: Fermat point, kind: definition, wikipedia: Fermat point, wikidata: Q914929}
+  - {name: triangle center, kind: definition, wikipedia: Triangle center, wikidata: Q778806}
+  - {name: Routh's theorem, kind: statement, wikipedia: Routh's theorem, wikidata: Q1789863}
+  - {name: Erdős–Mordell inequality, kind: statement, wikipedia: Erdős–Mordell inequality, wikidata: Q990530}
+  - {name: circle, kind: definition, wikipedia: Circle, wikidata: Q17278}
+  - {name: sphere, kind: definition, decl: EuclideanGeometry.Sphere, wikipedia: Sphere, wikidata: Q12507}
+  - {name: concyclic points, kind: definition, decl: EuclideanGeometry.Concyclic, wikipedia: Concyclic points, wikidata: Q1783746, mathlib: [mathlib-undergrad]}
+  - {name: cospherical points, kind: definition, decl: EuclideanGeometry.Cospherical, wikipedia: Concyclic points, wikidata: Q1783746}
+  - {name: Thales's theorem, kind: statement, wikipedia: Thales's theorem, wikidata: Q285719}
+  - {name: inscribed angle theorem, kind: statement, decl: EuclideanGeometry.Cospherical.two_zsmul_oangle_eq, wikipedia: Inscribed angle, wikidata: Q915985}
+  - {name: Ptolemy's theorem, kind: statement, decl: EuclideanGeometry.mul_dist_add_mul_dist_eq_mul_dist_of_cospherical, wikipedia: Ptolemy's theorem, wikidata: Q459547, mathlib: [mathlib-100, mathlib-1000]}
+  - {name: intersecting chords theorem, kind: statement, decl: EuclideanGeometry.mul_dist_eq_mul_dist_of_cospherical_of_angle_eq_pi, wikipedia: Intersecting chords theorem, wikidata: Q2266397, mathlib: [mathlib-100]}
+  - {name: intersecting secants theorem, kind: statement, decl: EuclideanGeometry.mul_dist_eq_mul_dist_of_cospherical_of_angle_eq_zero, wikipedia: Intersecting secants theorem, wikidata: Q1727461}
+  - {name: power of a point, kind: definition, decl: EuclideanGeometry.Sphere.power, wikipedia: Power of a point, wikidata: Q898575}
+  - {name: tangent line to a circle, kind: definition, decl: EuclideanGeometry.Sphere.IsTangent, wikipedia: Tangent lines to circles, wikidata: Q647040}
+  - {name: radical axis, kind: definition, wikipedia: Radical axis, wikidata: Q2106473}
+  - {name: cyclic quadrilateral, kind: definition, wikipedia: Cyclic quadrilateral, wikidata: Q692086}
+  - {name: Brahmagupta's formula, kind: statement, wikipedia: Brahmagupta's formula, wikidata: Q1149348}
+  - {name: Apollonius problem, kind: problem, wikipedia: Problem of Apollonius, wikidata: Q619449}
+  - {name: Descartes' theorem, kind: statement, wikipedia: Descartes's theorem, wikidata: Q1196538}
+  - {name: Steiner chain, kind: example, wikipedia: Steiner chain, wikidata: Q1368121}
+  - {name: Poncelet's closure theorem, kind: statement, wikipedia: Poncelet's closure theorem, wikidata: Q1785610}
+  - {name: Miquel's theorem, kind: statement, wikipedia: Miquel's theorem, wikidata: Q2449984}
+  - {name: butterfly theorem, kind: statement, wikipedia: Butterfly theorem, wikidata: Q377047}
+  - {name: isoperimetric inequality, kind: statement, wikipedia: Isoperimetric inequality, wikidata: Q617417}
+  # Polygons, polyhedra and solid geometry
+  - {name: polygon, kind: definition, wikipedia: Polygon, wikidata: Q37555}
+  - {name: regular polygon, kind: definition, wikipedia: Regular polygon, wikidata: Q714886}
+  - {name: Varignon's theorem, kind: statement, wikipedia: Varignon's theorem, wikidata: Q1896455}
+  - {name: Pick's theorem, kind: statement, wikipedia: Pick's theorem, wikidata: Q646523}
+  - {name: shoelace formula, kind: statement, wikipedia: Shoelace formula, wikidata: Q3748369}
+  - {name: Platonic solid, kind: object, wikipedia: Platonic solid, wikidata: Q188745}
+  - {name: Archimedean solid, kind: object, wikipedia: Archimedean solid, wikidata: Q213486}
+  - {name: Euler's polyhedron formula, kind: statement, wikipedia: Euler characteristic, wikidata: Q852973}
+  - {name: Cavalieri's principle, kind: statement, wikipedia: Cavalieri's principle, wikidata: Q586686}
+  - {name: tetrahedron, kind: definition, wikipedia: Tetrahedron, wikidata: Q160003}
+  # Non-Euclidean geometries
+  - {name: non-Euclidean geometry, kind: concept, wikipedia: Non-Euclidean geometry, wikidata: Q233858}
+  - {name: hyperbolic geometry, kind: concept, wikipedia: Hyperbolic geometry, wikidata: Q209306}
+  - {name: Poincaré half-plane model, kind: example, decl: UpperHalfPlane, wikipedia: Poincaré half-plane model, wikidata: Q2534886}
+  - {name: Poincaré disk model, kind: example, wikipedia: Poincaré disk model, wikidata: Q2617832}
+  - {name: Beltrami–Klein model, kind: example, wikipedia: Beltrami–Klein model, wikidata: Q1189065}
+  - {name: hyperboloid model, kind: example, wikipedia: Hyperboloid model, wikidata: Q3318095}
+  - {name: hyperbolic triangle, kind: definition, wikipedia: Hyperbolic triangle, wikidata: Q2246553}
+  - {name: hyperbolic law of cosines, kind: statement, wikipedia: Hyperbolic law of cosines, wikidata: Q17028374}
+  - {name: angle of parallelism, kind: definition, wikipedia: Angle of parallelism, wikidata: Q3617405}
+  - {name: horocycle, kind: definition, wikipedia: Horocycle, wikidata: Q2246795}
+  - {name: ultraparallel theorem, kind: statement, wikipedia: Ultraparallel theorem, wikidata: Q7880612}
+  - {name: elliptic geometry, kind: concept, wikipedia: Elliptic geometry, wikidata: Q1332450}
+  - {name: spherical geometry, kind: concept, wikipedia: Spherical geometry, wikidata: Q326905}
+  - {name: spherical trigonometry, kind: concept, wikipedia: Spherical trigonometry, wikidata: Q46463}
+  - {name: Girard's theorem, kind: statement, wikipedia: Spherical trigonometry, wikidata: Q46463}
+  - {name: real projective plane, kind: example, wikipedia: Real projective plane, wikidata: Q633815}
+  - {name: complex projective plane, kind: example, wikipedia: Complex projective plane, wikidata: Q4426755}
+  - {name: Lie sphere geometry, kind: concept, wikipedia: Lie sphere geometry, wikidata: Q17103254}
+  - {name: Laguerre geometry, kind: concept, wikipedia: Laguerre transformations, wikidata: Q97357520}
+  - {name: conformal geometry, kind: concept, wikipedia: Conformal geometry, wikidata: Q513175}
+  - {name: Möbius transformation, kind: definition, wikipedia: Möbius transformation, wikidata: Q595742}
+  - {name: Liouville's theorem on conformal mappings, kind: statement, wikipedia: Liouville's theorem (conformal mappings), wikidata: Q4454976}
+  # Analytic and descriptive geometry
+  - {name: analytic geometry, kind: concept, wikipedia: Analytic geometry, wikidata: Q134787}
+  - {name: Cartesian coordinate system, kind: definition, wikipedia: Cartesian coordinate system, wikidata: Q62912}
+  - {name: conic section, kind: definition, wikipedia: Conic section, wikidata: Q124255}
+  - {name: ellipse, kind: definition, wikipedia: Ellipse, wikidata: Q40112}
+  - {name: parabola, kind: definition, wikipedia: Parabola, wikidata: Q48297}
+  - {name: hyperbola, kind: definition, wikipedia: Hyperbola, wikidata: Q165301}
+  - {name: Dandelin spheres, kind: concept, wikipedia: Dandelin spheres, wikidata: Q676413}
+  - {name: descriptive geometry, kind: concept, wikipedia: Descriptive geometry, wikidata: Q638755}
+  - {name: perspective projection, kind: concept, wikipedia: Perspective (graphical), wikidata: Q1900281}
+  - {name: stereographic projection, kind: definition, wikipedia: Stereographic projection, wikidata: Q866099}
+  # Geometry and physics
+  - {name: screw theory, kind: concept, wikipedia: Screw theory, wikidata: Q7891441}
+  - {name: Minkowski spacetime geometry, kind: concept, wikipedia: Minkowski spacetime, wikidata: Q464794}
+  - {name: geometric algebra, kind: concept, wikipedia: Geometric algebra, wikidata: Q1186649}
+  - {name: conformal geometric algebra, kind: concept, wikipedia: Conformal geometric algebra, wikidata: Q5160252}

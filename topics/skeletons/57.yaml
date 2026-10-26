@@ -1,0 +1,242 @@
+# The C2 skeleton of 57-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 57-XX
+title: manifolds and CW complexes
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+  mathlib-overview: {title: "Mathlib, the overview of the library", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/overview.yaml'}
+  mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
+items:
+  # Topological manifolds: basic notions
+  - {name: topological manifold, kind: definition, wikipedia: Topological manifold, wikidata: Q2721559}
+  - {name: atlas, kind: definition, decl: ChartedSpace, wikipedia: Atlas (topology), wikidata: Q1303310}
+  - {name: manifold with boundary, kind: definition, decl: ModelWithCorners.boundary, wikipedia: Manifold, wikidata: Q203920, mathlib: [mathlib-overview]}
+  - {name: manifold with corners, kind: definition, decl: ModelWithCorners, wikipedia: Manifold, wikidata: Q203920}
+  - {name: invariance of domain, kind: statement, wikipedia: Invariance of domain, wikidata: Q3527201}
+  - {name: orientability, kind: definition, wikipedia: Orientability, wikidata: Q2748415}
+  - {name: connected sum, kind: definition, wikipedia: Connected sum, wikidata: Q1890389}
+  - {name: classification of manifolds, kind: problem, wikipedia: Classification of manifolds, wikidata: Q5128404}
+  - {name: n-sphere, kind: object, decl: EuclideanSpace.instChartedSpaceSphere, wikipedia: N-sphere, wikidata: Q306610}
+  - {name: circle, kind: object, decl: Circle, wikipedia: Circle, wikidata: Q17278}
+  - {name: torus, kind: object, decl: AddCircle, wikipedia: Torus, wikidata: Q12510}
+  - {name: real projective space, kind: object, wikipedia: Real projective space, wikidata: Q2597317}
+  - {name: complex projective space, kind: object, wikipedia: Complex projective space, wikidata: Q2538404}
+  - {name: Grassmannian, kind: object, wikipedia: Grassmannian, wikidata: Q129638}
+  - {name: Stiefel manifold, kind: object, wikipedia: Stiefel manifold, wikidata: Q7616373}
+  - {name: Jordan curve theorem, kind: statement, wikipedia: Jordan curve theorem, wikidata: Q260928}
+  - {name: Jordan–Brouwer separation theorem, kind: statement, wikipedia: Jordan curve theorem, wikidata: Q260928}
+  - {name: Schoenflies problem, kind: statement, wikipedia: Schoenflies problem, wikidata: Q495412}
+  - {name: Alexander horned sphere, kind: counterexample, wikipedia: Alexander horned sphere, wikidata: Q1361755}
+  - {name: wild knot, kind: counterexample, wikipedia: Wild knot, wikidata: Q2489408}
+  - {name: annulus theorem, kind: statement, wikipedia: Annulus theorem, wikidata: Q4769755}
+  - {name: Poincaré duality, kind: statement, wikipedia: Poincaré duality, wikidata: Q2063099}
+  - {name: Lefschetz duality, kind: statement, wikipedia: Lefschetz duality, wikidata: Q6516730}
+  - {name: Alexander duality, kind: statement, wikipedia: Alexander duality, wikidata: Q4720484}
+  - {name: Euler characteristic, kind: definition, wikipedia: Euler characteristic, wikidata: Q852973}
+  - {name: generalized Poincaré conjecture, kind: statement, wikipedia: Generalized Poincaré conjecture, wikidata: Q5532452}
+  - {name: Kirby–Siebenmann class, kind: definition, wikipedia: Kirby–Siebenmann class, wikidata: Q6414983}
+  # Generalized manifolds
+  - {name: homology manifold, kind: definition, wikipedia: Homology manifold, wikidata: Q5891460}
+  - {name: Bing–Borsuk conjecture, kind: conjecture, wikipedia: Bing–Borsuk conjecture, wikidata: Q55605472}
+  # CW complexes
+  - {name: CW complex, kind: definition, decl: Topology.CWComplex, wikipedia: CW complex, wikidata: Q189061}
+  - {name: relative CW complex, kind: definition, decl: Topology.RelCWComplex, wikipedia: CW complex, wikidata: Q189061}
+  - {name: n-skeleton, kind: definition, wikipedia: N-skeleton, wikidata: Q5154570}
+  - {name: cellular approximation theorem, kind: statement, wikipedia: Cellular approximation theorem, wikidata: Q5058350}
+  # Simplicial complexes and piecewise-linear topology
+  - {name: simplicial complex, kind: definition, decl: Geometry.SimplicialComplex, wikipedia: Simplicial complex, wikidata: Q994399}
+  - {name: abstract simplicial complex, kind: definition, decl: AbstractSimplicialComplex, wikipedia: Abstract simplicial complex, wikidata: Q4669959}
+  - {name: barycentric subdivision, kind: definition, wikipedia: Barycentric subdivision, wikidata: Q4078260}
+  - {name: simplicial approximation theorem, kind: statement, wikipedia: Simplicial approximation theorem, wikidata: Q3983972}
+  - {name: triangulation, kind: definition, wikipedia: Triangulation (topology), wikidata: Q7840154}
+  - {name: Radó's theorem on triangulation of surfaces, kind: statement, wikipedia: Radó's theorem (Riemann surfaces), wikidata: Q3527149}
+  - {name: Moise's theorem, kind: statement, wikipedia: Moise's theorem, wikidata: Q6894771}
+  - {name: Hauptvermutung, kind: problem, wikipedia: Hauptvermutung, wikidata: Q5682772}
+  - {name: triangulation conjecture, kind: problem, wikipedia: Triangulation (topology), wikidata: Q7840154}
+  - {name: piecewise linear manifold, kind: definition, wikipedia: Piecewise linear manifold, wikidata: Q7191425}
+  - {name: simple homotopy equivalence, kind: definition, wikipedia: Simple homotopy theory, wikidata: Q113504696}
+  - {name: Whitehead torsion, kind: definition, wikipedia: Whitehead torsion, wikidata: Q7996043}
+  - {name: Reidemeister torsion, kind: definition, wikipedia: Analytic torsion, wikidata: Q4751142}
+  # Differential topology: smooth manifolds and maps
+  - {name: smooth manifold, kind: definition, decl: IsManifold, wikipedia: Differentiable manifold, wikidata: Q3552958, mathlib: [mathlib-overview]}
+  - {name: smooth structure, kind: definition, wikipedia: Smooth structure, wikidata: Q7546440}
+  - {name: diffeomorphism, kind: definition, decl: Diffeomorph, wikipedia: Diffeomorphism, wikidata: Q1058314}
+  - {name: tangent bundle, kind: definition, decl: TangentBundle, wikipedia: Tangent bundle, wikidata: Q746550, mathlib: [mathlib-overview]}
+  - {name: partition of unity, kind: definition, decl: SmoothPartitionOfUnity, wikipedia: Partition of unity, wikidata: Q191690}
+  - {name: immersion, kind: definition, decl: Manifold.IsImmersion, wikipedia: Immersion (mathematics), wikidata: Q574523, mathlib: [mathlib-overview]}
+  - {name: submersion, kind: definition, decl: Manifold.IsSubmersion, wikipedia: Submersion (mathematics), wikidata: Q1420023}
+  - {name: submanifold, kind: definition, wikipedia: Submanifold, wikidata: Q125539}
+  - {name: regular value theorem, kind: statement, wikipedia: Submersion (mathematics), wikidata: Q1420023}
+  - {name: Sard's theorem, kind: statement, wikipedia: Sard's theorem, wikidata: Q583147}
+  - {name: Whitney embedding theorem, kind: statement, decl: exists_embedding_euclidean_of_compact, wikipedia: Whitney embedding theorem, wikidata: Q1306095, mathlib: [mathlib-1000]}
+  - {name: Whitney immersion theorem, kind: statement, decl: SmoothBumpCovering.exists_immersion_euclidean, wikipedia: Whitney immersion theorem, wikidata: Q7996769}
+  - {name: transversality, kind: definition, wikipedia: Transversality, wikidata: Q7835414}
+  - {name: Thom transversality theorem, kind: statement, wikipedia: Transversality theorem, wikidata: Q116677}
+  - {name: tubular neighborhood theorem, kind: statement, wikipedia: Tubular neighborhood, wikidata: Q1141920}
+  - {name: collar neighbourhood theorem, kind: statement, wikipedia: Collar neighbourhood, wikidata: Q25383585}
+  - {name: degree of a map, kind: definition, wikipedia: Degree of a continuous mapping, wikidata: Q306564}
+  - {name: Lefschetz fixed-point theorem, kind: statement, wikipedia: Lefschetz fixed-point theorem, wikidata: Q657469}
+  - {name: Poincaré–Hopf theorem, kind: statement, wikipedia: Poincaré–Hopf theorem, wikidata: Q1305766}
+  - {name: hairy ball theorem, kind: statement, wikipedia: Hairy ball theorem, wikidata: Q1077741}
+  - {name: parallelizable manifold, kind: definition, wikipedia: Parallelizable manifold, wikidata: Q1014612}
+  - {name: vector fields on spheres, kind: statement, wikipedia: Vector fields on spheres, wikidata: Q7917824}
+  - {name: generalized Stokes theorem, kind: statement, wikipedia: Generalized Stokes theorem, wikidata: Q10861254}
+  - {name: de Rham cohomology, kind: definition, wikipedia: De Rham cohomology, wikidata: Q1179446}
+  - {name: de Rham's theorem, kind: statement, wikipedia: De Rham theorem, wikidata: Q129064812}
+  - {name: homotopy principle, kind: concept, wikipedia: Homotopy principle, wikidata: Q5891835}
+  - {name: Smale–Hirsch theorem, kind: statement, wikipedia: Immersion (mathematics), wikidata: Q574523}
+  - {name: sphere eversion, kind: statement, wikipedia: Sphere eversion, wikidata: Q565198}
+  # Morse theory and handles
+  - {name: Morse function, kind: definition, wikipedia: Morse theory, wikidata: Q2296951}
+  - {name: Morse lemma, kind: statement, wikipedia: Morse theory, wikidata: Q2296951}
+  - {name: Morse inequalities, kind: statement, wikipedia: Morse theory, wikidata: Q2296951}
+  - {name: Morse homology, kind: concept, wikipedia: Morse homology, wikidata: Q3139850}
+  - {name: Cerf theory, kind: concept, wikipedia: Cerf theory, wikidata: Q5064229}
+  - {name: handle decomposition, kind: definition, wikipedia: Handle decomposition, wikidata: Q2852446}
+  - {name: handlebody, kind: definition, wikipedia: Handlebody, wikidata: Q1143042}
+  - {name: Kirby calculus, kind: concept, wikipedia: Kirby calculus, wikidata: Q5956316}
+  # Characteristic classes of manifolds and bundles
+  - {name: characteristic class, kind: concept, wikipedia: Characteristic class, wikidata: Q1062978}
+  - {name: Stiefel–Whitney class, kind: definition, wikipedia: Stiefel–Whitney class, wikidata: Q1293273}
+  - {name: Pontryagin class, kind: definition, wikipedia: Pontryagin class, wikidata: Q40007}
+  - {name: Chern class, kind: definition, wikipedia: Chern class, wikidata: Q1069818}
+  - {name: Euler class, kind: definition, wikipedia: Euler class, wikidata: Q2193452}
+  - {name: Thom space and Thom isomorphism, kind: definition, wikipedia: Thom space, wikidata: Q2421733}
+  - {name: spin structure, kind: definition, wikipedia: Spin structure, wikidata: Q7577418}
+  - {name: Hirzebruch signature theorem, kind: statement, wikipedia: Hirzebruch signature theorem, wikidata: Q7512855}
+  # Cobordism and surgery
+  - {name: cobordism, kind: definition, decl: SingularManifold, wikipedia: Cobordism, wikidata: Q2546666}
+  - {name: Pontryagin–Thom construction, kind: concept, wikipedia: Cobordism, wikidata: Q2546666}
+  - {name: h-cobordism theorem, kind: statement, wikipedia: H-cobordism, wikidata: Q1946642}
+  - {name: s-cobordism theorem, kind: statement, wikipedia: H-cobordism, wikidata: Q1946642}
+  - {name: exotic sphere, kind: object, wikipedia: Exotic sphere, wikidata: Q3105146}
+  - {name: Kervaire invariant problem, kind: problem, wikipedia: Kervaire invariant, wikidata: Q6394805}
+  - {name: surgery theory, kind: concept, wikipedia: Surgery theory, wikidata: Q2963975}
+  - {name: surgery exact sequence, kind: statement, wikipedia: Surgery exact sequence, wikidata: Q7646195}
+  - {name: Novikov conjecture, kind: conjecture, wikipedia: Novikov conjecture, wikidata: Q7064908}
+  - {name: Borel conjecture, kind: conjecture, wikipedia: Borel conjecture, wikidata: Q4138792}
+  # Foliations
+  - {name: foliation, kind: definition, wikipedia: Foliation, wikidata: Q684220}
+  - {name: Reeb foliation, kind: example, wikipedia: Reeb foliation, wikidata: Q564842}
+  - {name: Reeb stability theorem, kind: statement, wikipedia: Reeb stability theorem, wikidata: Q4455018}
+  # Surfaces
+  - {name: surface, kind: definition, wikipedia: Surface (topology), wikidata: Q484298}
+  - {name: classification of surfaces, kind: statement, wikipedia: Surface (topology), wikidata: Q484298}
+  - {name: genus, kind: definition, wikipedia: Genus (mathematics), wikidata: Q28517129}
+  - {name: Möbius strip, kind: example, wikipedia: Möbius strip, wikidata: Q226843}
+  - {name: Klein bottle, kind: example, wikipedia: Klein bottle, wikidata: Q23638}
+  - {name: real projective plane, kind: example, wikipedia: Real projective plane, wikidata: Q633815}
+  - {name: Boy's surface, kind: example, wikipedia: Boy's surface, wikidata: Q896057}
+  - {name: mapping class group, kind: definition, wikipedia: Mapping class group, wikidata: Q3845212}
+  - {name: Dehn twist, kind: definition, wikipedia: Dehn twist, wikidata: Q5252320}
+  - {name: Dehn–Lickorish theorem, kind: statement, wikipedia: Dehn twist, wikidata: Q5252320}
+  - {name: Teichmüller space, kind: definition, wikipedia: Teichmüller space, wikidata: Q2400539}
+  - {name: Nielsen–Thurston classification, kind: statement, wikipedia: Nielsen–Thurston classification, wikidata: Q7031628}
+  - {name: pseudo-Anosov map, kind: definition, wikipedia: Pseudo-Anosov map, wikidata: Q7254395}
+  - {name: curve complex, kind: definition, wikipedia: Curve complex, wikidata: Q28455227}
+  - {name: train track, kind: definition, wikipedia: Train track (mathematics), wikidata: Q7832909}
+  # Three-manifolds
+  - {name: 3-manifold, kind: definition, wikipedia: 3-manifold, wikidata: Q526901}
+  - {name: Heegaard splitting, kind: definition, wikipedia: Heegaard splitting, wikidata: Q5697916}
+  - {name: Dehn surgery, kind: definition, wikipedia: Dehn surgery, wikidata: Q3675173}
+  - {name: Lickorish–Wallace theorem, kind: statement, wikipedia: Lickorish–Wallace theorem, wikidata: Q17125544}
+  - {name: lens space, kind: example, wikipedia: Lens space, wikidata: Q2470499}
+  - {name: Poincaré homology sphere, kind: example, wikipedia: Homology sphere, wikidata: Q1502277}
+  - {name: prime decomposition of 3-manifolds, kind: statement, wikipedia: Prime decomposition of 3-manifolds, wikidata: Q3527192}
+  - {name: Dehn's lemma, kind: statement, wikipedia: Dehn's lemma, wikidata: Q3229337}
+  - {name: loop theorem, kind: statement, wikipedia: Loop theorem, wikidata: Q3822213}
+  - {name: sphere theorem for 3-manifolds, kind: statement, wikipedia: Sphere theorem (3-manifolds), wikidata: Q7576684}
+  - {name: incompressible surface, kind: definition, wikipedia: Incompressible surface, wikidata: Q2656522}
+  - {name: Haken manifold, kind: definition, wikipedia: Haken manifold, wikidata: Q2589609}
+  - {name: Seifert fiber space, kind: definition, wikipedia: Seifert fiber space, wikidata: Q1935541}
+  - {name: JSJ decomposition, kind: statement, wikipedia: JSJ decomposition, wikidata: Q683430}
+  - {name: Poincaré conjecture, kind: statement, wikipedia: Poincaré conjecture, wikidata: Q203586}
+  - {name: geometrization conjecture, kind: statement, wikipedia: Geometrization conjecture, wikidata: Q1503309}
+  - {name: hyperbolic 3-manifold, kind: definition, wikipedia: Hyperbolic 3-manifold, wikidata: Q5957770}
+  - {name: Mostow rigidity theorem, kind: statement, wikipedia: Mostow rigidity theorem, wikidata: Q3984063}
+  - {name: hyperbolic Dehn surgery theorem, kind: statement, wikipedia: Hyperbolic Dehn surgery, wikidata: Q5957776}
+  - {name: Weeks manifold, kind: example, wikipedia: Weeks manifold, wikidata: Q7979541}
+  - {name: Seifert–Weber space, kind: example, wikipedia: Seifert–Weber space, wikidata: Q7446658}
+  - {name: Kleinian group, kind: definition, wikipedia: Kleinian group, wikidata: Q4116484}
+  - {name: tameness theorem, kind: statement, wikipedia: Tameness theorem, wikidata: Q3893473}
+  - {name: ending lamination theorem, kind: statement, wikipedia: Ending lamination theorem, wikidata: Q5376147}
+  - {name: virtually Haken conjecture, kind: statement, wikipedia: Virtually Haken conjecture, wikidata: Q7935203}
+  - {name: Thurston norm, kind: definition, wikipedia: Thurston norm, wikidata: Q28401506}
+  - {name: Casson invariant, kind: definition, wikipedia: Casson invariant, wikidata: Q5049507}
+  - {name: quantum invariant of 3-manifolds, kind: definition, wikipedia: Quantum invariant, wikidata: Q625841}
+  - {name: Chern–Simons theory, kind: concept, wikipedia: Chern–Simons theory, wikidata: Q1528019}
+  - {name: volume conjecture, kind: conjecture, wikipedia: Volume conjecture, wikidata: Q7940887}
+  # Four-manifolds
+  - {name: 4-manifold, kind: definition, wikipedia: 4-manifold, wikidata: Q2566544}
+  - {name: intersection form, kind: definition, wikipedia: Intersection form of a 4-manifold, wikidata: Q6056717}
+  - {name: E8 manifold, kind: object, wikipedia: E8 manifold, wikidata: Q2788118}
+  - {name: Freedman's classification of simply connected 4-manifolds, kind: statement, wikipedia: 4-manifold, wikidata: Q2566544}
+  - {name: Donaldson's theorem, kind: statement, wikipedia: Donaldson's theorem, wikidata: Q5295351}
+  - {name: Rokhlin's theorem, kind: statement, wikipedia: Rokhlin's theorem, wikidata: Q7359997}
+  - {name: Donaldson theory, kind: concept, wikipedia: Donaldson theory, wikidata: Q5295371}
+  - {name: Seiberg–Witten invariants, kind: definition, wikipedia: Seiberg–Witten invariants, wikidata: Q7446569}
+  - {name: exotic R4, kind: object, wikipedia: Exotic R4, wikidata: Q2436606}
+  - {name: 11/8 conjecture, kind: conjecture, wikipedia: 4-manifold, wikidata: Q2566544}
+  - {name: smooth four-dimensional Poincaré conjecture, kind: conjecture, wikipedia: Generalized Poincaré conjecture, wikidata: Q5532452}
+  - {name: Heegaard Floer homology, kind: concept, wikipedia: Floer homology, wikidata: Q652525}
+  # Knot theory
+  - {name: knot, kind: definition, wikipedia: Knot (mathematics), wikidata: Q1188853}
+  - {name: link, kind: definition, wikipedia: Link (knot theory), wikidata: Q1760728}
+  - {name: Reidemeister move, kind: statement, wikipedia: Reidemeister move, wikidata: Q1636327}
+  - {name: knot invariant, kind: concept, wikipedia: Knot invariant, wikidata: Q1862434}
+  - {name: unknot, kind: example, wikipedia: Unknot, wikidata: Q1188344}
+  - {name: trefoil knot, kind: example, wikipedia: Trefoil knot, wikidata: Q168620}
+  - {name: figure-eight knot, kind: example, wikipedia: Figure-eight knot (mathematics), wikidata: Q168697}
+  - {name: Hopf link, kind: example, wikipedia: Hopf link, wikidata: Q864313}
+  - {name: Borromean rings, kind: example, wikipedia: Borromean rings, wikidata: Q894166}
+  - {name: Whitehead link, kind: example, wikipedia: Whitehead link, wikidata: Q2588098}
+  - {name: Conway knot, kind: example, wikipedia: Conway knot, wikidata: Q94806552}
+  - {name: linking number, kind: definition, wikipedia: Linking number, wikidata: Q2000614}
+  - {name: knot group, kind: definition, wikipedia: Knot group, wikidata: Q1777486}
+  - {name: Wirtinger presentation, kind: statement, wikipedia: Wirtinger presentation, wikidata: Q8027029}
+  - {name: Seifert surface, kind: definition, wikipedia: Seifert surface, wikidata: Q1554293}
+  - {name: crossing number, kind: definition, wikipedia: Crossing number (knot theory), wikidata: Q2548661}
+  - {name: unknotting number, kind: definition, wikipedia: Unknotting number, wikidata: Q7896949}
+  - {name: bridge number, kind: definition, wikipedia: Bridge number, wikidata: Q4966409}
+  - {name: tricolorability, kind: definition, wikipedia: Tricolorability, wikidata: Q7841270}
+  - {name: knot sum, kind: definition, wikipedia: Connected sum, wikidata: Q1890389}
+  - {name: prime knot, kind: definition, wikipedia: Prime knot, wikidata: Q1014491}
+  - {name: torus knot, kind: definition, wikipedia: Torus knot, wikidata: Q1892897}
+  - {name: satellite knot, kind: definition, wikipedia: Satellite knot, wikidata: Q7426084}
+  - {name: hyperbolic knot, kind: definition, wikipedia: Hyperbolic link, wikidata: Q5957788}
+  - {name: Alexander polynomial, kind: definition, wikipedia: Alexander polynomial, wikidata: Q1634206}
+  - {name: Jones polynomial, kind: definition, wikipedia: Jones polynomial, wikidata: Q1528291}
+  - {name: HOMFLY polynomial, kind: definition, wikipedia: HOMFLY polynomial, wikidata: Q996437}
+  - {name: Kauffman bracket, kind: definition, wikipedia: Bracket polynomial, wikidata: Q4953698}
+  - {name: Khovanov homology, kind: definition, wikipedia: Khovanov homology, wikidata: Q6402652}
+  - {name: knot Floer homology, kind: definition, wikipedia: Floer homology, wikidata: Q652525}
+  - {name: finite type invariant, kind: definition, wikipedia: Finite type invariant, wikidata: Q1443624}
+  - {name: Kontsevich integral, kind: definition, wikipedia: Kontsevich invariant, wikidata: Q623129}
+  - {name: slice knot, kind: definition, wikipedia: Slice knot, wikidata: Q7540228}
+  - {name: knot concordance, kind: definition, wikipedia: Slice knot, wikidata: Q7540228}
+  - {name: virtual knot, kind: definition, wikipedia: Virtual knot, wikidata: Q7935129}
+  - {name: Gordon–Luecke theorem, kind: statement, wikipedia: Gordon–Luecke theorem, wikidata: Q5586065}
+  - {name: Tait conjectures, kind: statement, wikipedia: Tait conjectures, wikidata: Q7676466}
+  - {name: Smith conjecture, kind: statement, wikipedia: Smith conjecture, wikidata: Q7545379}
+  - {name: Property P conjecture, kind: statement, wikipedia: Property P conjecture, wikidata: Q7250222}
+  - {name: Milnor conjecture on slice genus of torus knots, kind: statement, wikipedia: Torus knot, wikidata: Q1892897}
+  - {name: slice-ribbon conjecture, kind: conjecture, wikipedia: Slice knot, wikidata: Q7540228}
+  - {name: unknotting problem, kind: problem, wikipedia: Unknotting problem, wikidata: Q7896950}
+  - {name: braid group, kind: definition, wikipedia: Braid group, wikidata: Q220409}
+  - {name: Alexander's theorem on closed braids, kind: statement, wikipedia: Braid group, wikidata: Q220409}
+  - {name: Markov theorem, kind: statement, wikipedia: Markov theorem, wikidata: Q48971805}
+  # Covering spaces and transformation groups
+  - {name: covering space, kind: definition, decl: IsCoveringMap, wikipedia: Covering space, wikidata: Q332648}
+  - {name: branched covering, kind: definition, wikipedia: Branched covering, wikidata: Q4956410}
+  - {name: properly discontinuous action, kind: definition, decl: ProperlyDiscontinuousSMul, wikipedia: Group action, wikidata: Q288465}
+  - {name: orbifold, kind: definition, wikipedia: Orbifold, wikidata: Q40460}
+  - {name: slice theorem, kind: statement, wikipedia: Slice theorem (differential geometry), wikidata: Q17093903}
+  - {name: Hilbert's fifth problem, kind: problem, wikipedia: Hilbert's fifth problem, wikidata: Q3893331}
+  - {name: Hilbert–Smith conjecture, kind: conjecture, wikipedia: Hilbert–Smith conjecture, wikidata: Q5761258}
+  - {name: Lie group, kind: definition, decl: LieGroup, wikipedia: Lie group, wikidata: Q622679, mathlib: [mathlib-overview]}
+  # Topological groups and H-spaces
+  - {name: H-space, kind: definition, wikipedia: H-space, wikidata: Q1562471}
+  - {name: classifying space, kind: definition, wikipedia: Classifying space, wikidata: Q5128445}
+  # Connections with physics
+  - {name: topological quantum field theory, kind: concept, wikipedia: Topological quantum field theory, wikidata: Q721094}

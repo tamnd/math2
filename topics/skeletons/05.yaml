@@ -1,0 +1,263 @@
+# The C2 skeleton of 05-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 05-XX
+title: combinatorics
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+  mathlib-undergrad: {title: "Mathlib, the list of undergraduate topics", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/undergrad.yaml'}
+  mathlib-overview: {title: "Mathlib, the overview of the library", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/overview.yaml'}
+  mathlib-100: {title: "Mathlib, the status of Freek Wiedijk's 100 theorems", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/100.yaml'}
+  mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
+items:
+  # Basic counting
+  - {name: combinatorics, kind: concept, wikipedia: Combinatorics, wikidata: Q76592}
+  - {name: double counting, kind: concept, decl: Finset.sum_card_bipartiteAbove_eq_sum_card_bipartiteBelow, wikipedia: Double counting (proof technique), wikidata: Q1191750}
+  - {name: pigeonhole principle, kind: statement, decl: Finset.exists_ne_map_eq_of_card_lt_of_maps_to, wikipedia: Pigeonhole principle, wikidata: Q188276}
+  - {name: factorial, kind: definition, decl: Nat.factorial, wikipedia: Factorial, wikidata: Q120976}
+  - {name: permutation, kind: definition, decl: Equiv.Perm, wikipedia: Permutation, wikidata: Q161519, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: falling and rising factorials, kind: definition, decl: Nat.descFactorial, wikipedia: Falling and rising factorials, wikidata: Q2339261}
+  - {name: combination, kind: definition, decl: Finset.powersetCard, wikipedia: Combination, wikidata: Q202805}
+  - {name: binomial coefficient, kind: definition, decl: Nat.choose, wikipedia: Binomial coefficient, wikidata: Q209875}
+  - {name: binomial theorem, kind: statement, decl: add_pow, wikipedia: Binomial theorem, wikidata: Q26708, mathlib: [mathlib-100, mathlib-1000]}
+  - {name: Pascal's rule, kind: statement, decl: Nat.choose_succ_succ, wikipedia: Pascal's rule, wikidata: Q17099544}
+  - {name: Pascal's triangle, kind: object, wikipedia: Pascal's triangle, wikidata: Q177051}
+  - {name: Vandermonde's identity, kind: statement, decl: Nat.add_choose_eq, wikipedia: Vandermonde's identity, wikidata: Q3147827}
+  - {name: Lucas's theorem, kind: statement, decl: Choose.lucas_theorem, wikipedia: Lucas's theorem, wikidata: Q1186808, mathlib: [mathlib-1000]}
+  - {name: multinomial theorem, kind: statement, wikipedia: Multinomial theorem, wikidata: Q619985}
+  - {name: stars and bars, kind: statement, wikipedia: Stars and bars (combinatorics), wikidata: Q7602343}
+  - {name: twelvefold way, kind: concept, wikipedia: Twelvefold way, wikidata: Q7857666}
+  - {name: inclusion–exclusion principle, kind: statement, decl: Finset.inclusion_exclusion_card_biUnion, wikipedia: Inclusion–exclusion principle, wikidata: Q849335, mathlib: [mathlib-100]}
+  - {name: derangement, kind: definition, decl: derangements, wikipedia: Derangement, wikidata: Q1207920}
+  - {name: central binomial coefficient, kind: definition, decl: Nat.centralBinom, wikipedia: Central binomial coefficient, wikidata: Q1045966}
+  # Enumerative combinatorics: sequences and numbers
+  - {name: enumerative combinatorics, kind: concept, wikipedia: Enumerative combinatorics, wikidata: Q336787}
+  - {name: Catalan number, kind: definition, decl: catalan, wikipedia: Catalan number, wikidata: Q270513, mathlib: [mathlib-overview]}
+  - {name: Dyck path, kind: definition, decl: DyckWord, wikipedia: Dyck language, wikidata: Q1268618, mathlib: [mathlib-overview]}
+  - {name: Stirling numbers of the first kind, kind: definition, decl: Nat.stirlingFirst, wikipedia: Stirling numbers of the first kind, wikidata: Q2657556}
+  - {name: Stirling numbers of the second kind, kind: definition, decl: Nat.stirlingSecond, wikipedia: Stirling numbers of the second kind, wikidata: Q2601117}
+  - {name: Bell number, kind: definition, decl: Nat.bell, wikipedia: Bell number, wikidata: Q816063}
+  - {name: Eulerian number, kind: definition, wikipedia: Eulerian number, wikidata: Q1373849}
+  - {name: Fibonacci sequence, kind: example, decl: Nat.fib, wikipedia: Fibonacci sequence, wikidata: Q23835349}
+  - {name: Bernoulli number, kind: definition, decl: bernoulli, wikipedia: Bernoulli number, wikidata: Q694114, mathlib: [mathlib-overview]}
+  - {name: Motzkin number, kind: definition, wikipedia: Motzkin number, wikidata: Q2915234}
+  - {name: ballot problem, kind: statement, wikipedia: Bertrand's ballot theorem, wikidata: Q2253746}
+  - {name: recurrence relation, kind: definition, wikipedia: Recurrence relation, wikidata: Q740970}
+  # Generating functions and asymptotics
+  - {name: generating function, kind: definition, wikipedia: Generating function, wikidata: Q860609}
+  - {name: formal power series, kind: definition, decl: PowerSeries, wikipedia: Formal power series, wikidata: Q1003025, mathlib: [mathlib-overview]}
+  - {name: Lagrange inversion theorem, kind: statement, wikipedia: Lagrange inversion theorem, wikidata: Q544292}
+  - {name: symbolic method, kind: concept, wikipedia: Symbolic method (combinatorics), wikidata: Q124054218}
+  - {name: combinatorial species, kind: definition, wikipedia: Combinatorial species, wikidata: Q4457949}
+  - {name: analytic combinatorics, kind: concept, wikipedia: Analytic combinatorics, wikidata: Q2985062}
+  - {name: Stirling's approximation, kind: statement, decl: Stirling.factorial_isEquivalent_stirling, wikipedia: Stirling's approximation, wikidata: Q470877}
+  - {name: WZ theory, kind: concept, wikipedia: Wilf–Zeilberger pair, wikidata: Q3147828}
+  # Permutations, partitions, words
+  - {name: parity of a permutation, kind: definition, decl: Equiv.Perm.sign, wikipedia: Parity of a permutation, wikidata: Q1064405, mathlib: [mathlib-undergrad]}
+  - {name: permutation pattern, kind: definition, wikipedia: Permutation pattern, wikidata: Q7169371}
+  - {name: Stanley–Wilf conjecture, kind: statement, wikipedia: Stanley–Wilf conjecture, wikidata: Q7600088}
+  - {name: Erdős–Szekeres theorem, kind: statement, wikipedia: Erdős–Szekeres theorem, wikidata: Q976607}
+  - {name: integer partition, kind: definition, decl: Nat.Partition, wikipedia: Integer partition, wikidata: Q1082910}
+  - {name: partition function, kind: definition, wikipedia: Partition function (number theory), wikidata: Q15846551}
+  - {name: Young diagram, kind: definition, decl: YoungDiagram, wikipedia: Young tableau, wikidata: Q2166280}
+  - {name: Euler's pentagonal number theorem, kind: statement, wikipedia: Pentagonal number theorem, wikidata: Q282649}
+  - {name: Rogers–Ramanujan identities, kind: statement, wikipedia: Rogers–Ramanujan identities, wikidata: Q7359380}
+  - {name: partition of a set, kind: definition, decl: Finpartition, wikipedia: Partition of a set, wikidata: Q381060}
+  - {name: combinatorics on words, kind: concept, wikipedia: Combinatorics on words, wikidata: Q2985058}
+  - {name: de Bruijn sequence, kind: object, wikipedia: De Bruijn sequence, wikidata: Q1953457}
+  - {name: Thue–Morse sequence, kind: object, wikipedia: Thue–Morse sequence, wikidata: Q1477120}
+  - {name: Burnside's lemma, kind: statement, decl: MulAction.sum_card_fixedBy_eq_card_orbits_mul_card_group, wikipedia: Burnside's lemma, wikidata: Q1330377, mathlib: [mathlib-overview]}
+  - {name: Pólya enumeration theorem, kind: statement, wikipedia: Pólya enumeration theorem, wikidata: Q1037559}
+  - {name: q-analog, kind: concept, wikipedia: Q-analog, wikidata: Q3491352}
+  - {name: Gaussian binomial coefficient, kind: definition, wikipedia: Gaussian binomial coefficient, wikidata: Q5527834}
+  # Algebraic combinatorics
+  - {name: algebraic combinatorics, kind: concept, wikipedia: Algebraic combinatorics, wikidata: Q1005603}
+  - {name: symmetric function, kind: definition, wikipedia: Ring of symmetric functions, wikidata: Q17102788}
+  - {name: Schur polynomial, kind: definition, wikipedia: Schur polynomial, wikidata: Q4298935}
+  - {name: Young tableau, kind: definition, decl: SemistandardYoungTableau, wikipedia: Young tableau, wikidata: Q2166280}
+  - {name: hook length formula, kind: statement, wikipedia: Hook length formula, wikidata: Q17163411}
+  - {name: Robinson–Schensted correspondence, kind: statement, wikipedia: Robinson–Schensted correspondence, wikidata: Q2997917}
+  - {name: Robinson–Schensted–Knuth correspondence, kind: statement, wikipedia: Robinson–Schensted–Knuth correspondence, wikidata: Q2997914}
+  - {name: Littlewood–Richardson rule, kind: statement, wikipedia: Littlewood–Richardson rule, wikidata: Q15304008}
+  - {name: Macdonald polynomial, kind: definition, wikipedia: Macdonald polynomials, wikidata: Q17098676}
+  - {name: Möbius inversion on posets, kind: statement, wikipedia: Incidence algebra, wikidata: Q371133}
+  - {name: incidence algebra, kind: definition, wikipedia: Incidence algebra, wikidata: Q371133}
+  - {name: association scheme, kind: definition, wikipedia: Association scheme, wikidata: Q4810150}
+  - {name: combinatorial Nullstellensatz, kind: statement, wikipedia: Restricted sumset, wikidata: Q859107}
+  - {name: Lindström–Gessel–Viennot lemma, kind: statement, wikipedia: Lindström–Gessel–Viennot lemma, wikidata: Q6552939}
+  - {name: Kirchhoff's matrix tree theorem, kind: statement, wikipedia: Kirchhoff's theorem, wikidata: Q2226691}
+  - {name: Cayley's formula, kind: statement, wikipedia: Cayley's formula, wikidata: Q859176}
+  - {name: polytope combinatorics, kind: concept, wikipedia: Polyhedral combinatorics, wikidata: Q8348314}
+  - {name: f-vector and h-vector, kind: definition, wikipedia: H-vector, wikidata: Q5627866}
+  - {name: Dehn–Sommerville equations, kind: statement, wikipedia: Dehn–Sommerville equations, wikidata: Q4027001}
+  - {name: g-theorem, kind: statement, wikipedia: Simplicial sphere, wikidata: Q7520908}
+  - {name: simplicial complex, kind: definition, wikipedia: Abstract simplicial complex, wikidata: Q4669959}
+  - {name: matroid, kind: definition, decl: Matroid, wikipedia: Matroid, wikidata: Q898572}
+  - {name: basis of a matroid, kind: definition, decl: Matroid.IsBase, wikipedia: Basis of a matroid, wikidata: Q104866035}
+  - {name: matroid rank, kind: definition, decl: Matroid.eRank, wikipedia: Matroid rank, wikidata: Q3851976}
+  - {name: dual matroid, kind: definition, decl: Matroid.dual, wikipedia: Dual matroid, wikidata: Q5310216}
+  - {name: matroid minor, kind: definition, decl: Matroid.IsMinor, wikipedia: Matroid minor, wikidata: Q17086290}
+  - {name: Tutte polynomial, kind: definition, wikipedia: Tutte polynomial, wikidata: Q7857002}
+  - {name: Rota's basis conjecture, kind: conjecture, wikipedia: Rota's basis conjecture, wikidata: Q7370200}
+  # Designs and configurations
+  - {name: combinatorial design, kind: concept, wikipedia: Combinatorial design, wikidata: Q5150824}
+  - {name: block design, kind: definition, wikipedia: Block design, wikidata: Q751484}
+  - {name: Fisher's inequality, kind: statement, wikipedia: Fisher's inequality, wikidata: Q5454735}
+  - {name: Steiner system, kind: definition, wikipedia: Steiner system, wikidata: Q4420916}
+  - {name: Kirkman's schoolgirl problem, kind: problem, wikipedia: Kirkman's schoolgirl problem, wikidata: Q966333}
+  - {name: Latin square, kind: definition, wikipedia: Latin square, wikidata: Q679367}
+  - {name: mutually orthogonal Latin squares, kind: definition, wikipedia: Mutually orthogonal Latin squares, wikidata: Q615342}
+  - {name: Euler's thirty-six officers problem, kind: problem, wikipedia: Mutually orthogonal Latin squares, wikidata: Q615342}
+  - {name: finite projective plane, kind: object, wikipedia: Projective plane, wikidata: Q1475760}
+  - {name: Bruck–Ryser–Chowla theorem, kind: statement, wikipedia: Bruck–Ryser–Chowla theorem, wikidata: Q2226624}
+  - {name: Fano plane, kind: object, wikipedia: Fano plane, wikidata: Q1395814}
+  - {name: Hadamard matrix, kind: definition, wikipedia: Hadamard matrix, wikidata: Q1422682}
+  - {name: Hadamard conjecture, kind: conjecture, wikipedia: Hadamard matrix, wikidata: Q1422682}
+  - {name: difference set, kind: definition, wikipedia: Difference set, wikidata: Q5275281}
+  - {name: error-correcting code, kind: concept, decl: hammingDist, wikipedia: Error correction code, wikidata: Q55611017}
+  - {name: Golay code, kind: object, wikipedia: Binary Golay code, wikidata: Q1534522}
+  # Graph theory: basic notions
+  - {name: graph theory, kind: concept, wikipedia: Graph theory, wikidata: Q131476}
+  - {name: graph, kind: definition, decl: SimpleGraph, wikipedia: Graph (discrete mathematics), wikidata: Q141488, mathlib: [mathlib-overview]}
+  - {name: degree, kind: definition, decl: SimpleGraph.degree, wikipedia: Degree (graph theory), wikidata: Q383444}
+  - {name: handshaking lemma, kind: statement, decl: SimpleGraph.sum_degrees_eq_twice_card_edges, wikipedia: Handshaking lemma, wikidata: Q954454, mathlib: [mathlib-overview]}
+  - {name: subgraph, kind: definition, decl: SimpleGraph.Subgraph, wikipedia: Glossary of graph theory, wikidata: Q166507}
+  - {name: graph isomorphism, kind: definition, decl: SimpleGraph.Iso, wikipedia: Graph isomorphism, wikidata: Q303100}
+  - {name: graph homomorphism, kind: definition, decl: SimpleGraph.Hom, wikipedia: Graph homomorphism, wikidata: Q3385162}
+  - {name: path, kind: definition, decl: SimpleGraph.Walk.IsPath, wikipedia: Path (graph theory), wikidata: Q1415372}
+  - {name: cycle, kind: definition, decl: SimpleGraph.Walk.IsCycle, wikipedia: Cycle (graph theory), wikidata: Q245595}
+  - {name: connected graph, kind: definition, decl: SimpleGraph.Connected, wikipedia: Connectivity (graph theory), wikidata: Q72897900}
+  - {name: girth, kind: definition, decl: SimpleGraph.girth, wikipedia: Girth (graph theory), wikidata: Q959831}
+  - {name: complete graph, kind: example, decl: SimpleGraph.completeGraph, wikipedia: Complete graph, wikidata: Q45715}
+  - {name: complete bipartite graph, kind: example, decl: completeBipartiteGraph, wikipedia: Complete bipartite graph, wikidata: Q913598}
+  - {name: bipartite graph, kind: definition, decl: SimpleGraph.IsBipartite, wikipedia: Bipartite graph, wikidata: Q174733}
+  - {name: regular graph, kind: definition, decl: SimpleGraph.IsRegularOfDegree, wikipedia: Regular graph, wikidata: Q826467}
+  - {name: strongly regular graph, kind: definition, decl: SimpleGraph.IsSRGWith, wikipedia: Strongly regular graph, wikidata: Q692823, mathlib: [mathlib-overview]}
+  - {name: Petersen graph, kind: object, wikipedia: Petersen graph, wikidata: Q835614}
+  - {name: line graph, kind: definition, decl: SimpleGraph.lineGraph, wikipedia: Line graph, wikidata: Q1378376}
+  - {name: directed graph, kind: definition, decl: Digraph, wikipedia: Directed graph, wikidata: Q1137726}
+  - {name: hypergraph, kind: definition, wikipedia: Hypergraph, wikidata: Q840247}
+  - {name: Cayley graph, kind: definition, wikipedia: Cayley graph, wikidata: Q859174}
+  - {name: graph reconstruction conjecture, kind: conjecture, wikipedia: Reconstruction conjecture, wikidata: Q7302789}
+  # Trees, paths, cycles, connectivity
+  - {name: tree, kind: definition, decl: SimpleGraph.IsTree, wikipedia: Tree (graph theory), wikidata: Q272735}
+  - {name: spanning tree, kind: definition, wikipedia: Spanning tree, wikidata: Q831672}
+  - {name: Eulerian path, kind: definition, decl: SimpleGraph.Walk.IsEulerian, wikipedia: Eulerian path, wikidata: Q624580}
+  - {name: Euler's theorem on Eulerian circuits, kind: statement, decl: SimpleGraph.Walk.IsEulerian.even_degree_iff, wikipedia: Eulerian path, wikidata: Q624580}
+  - {name: Hamiltonian path, kind: definition, decl: SimpleGraph.Walk.IsHamiltonian, wikipedia: Hamiltonian path, wikidata: Q273037}
+  - {name: Dirac's theorem on Hamiltonian cycles, kind: statement, wikipedia: Hamiltonian path, wikidata: Q273037}
+  - {name: Ore's theorem, kind: statement, wikipedia: Ore's theorem, wikidata: Q225973}
+  - {name: k-vertex-connected graph, kind: definition, wikipedia: Vertex connectivity, wikidata: Q72898059}
+  - {name: Menger's theorem, kind: statement, wikipedia: Menger's theorem, wikidata: Q928813}
+  - {name: max-flow min-cut theorem, kind: statement, wikipedia: Max-flow min-cut theorem, wikidata: Q608294}
+  - {name: expander graph, kind: definition, wikipedia: Expander graph, wikidata: Q776602}
+  # Matchings and covers
+  - {name: matching, kind: definition, decl: SimpleGraph.Subgraph.IsMatching, wikipedia: Matching (graph theory), wikidata: Q1065144, mathlib: [mathlib-overview]}
+  - {name: perfect matching, kind: definition, decl: SimpleGraph.Subgraph.IsPerfectMatching, wikipedia: Perfect matching, wikidata: Q99567093}
+  - {name: Hall's marriage theorem, kind: statement, decl: Finset.all_card_le_biUnion_card_iff_exists_injective, wikipedia: Hall's marriage theorem, wikidata: Q536640, mathlib: [mathlib-overview, mathlib-1000]}
+  - {name: Kőnig's theorem, kind: statement, wikipedia: Kőnig's theorem (graph theory), wikidata: Q897769}
+  - {name: Tutte theorem, kind: statement, decl: SimpleGraph.tutte, wikipedia: Tutte's theorem on perfect matchings, wikidata: Q510197, mathlib: [mathlib-1000]}
+  - {name: Petersen's theorem, kind: statement, wikipedia: Petersen's theorem, wikidata: Q7178199}
+  - {name: vertex cover, kind: definition, decl: SimpleGraph.IsVertexCover, wikipedia: Vertex cover, wikidata: Q11515519}
+  - {name: independent set, kind: definition, wikipedia: Independent set (graph theory), wikidata: Q1060343}
+  - {name: clique, kind: definition, decl: SimpleGraph.IsClique, wikipedia: Clique (graph theory), wikidata: Q761631}
+  - {name: Birkhoff–von Neumann theorem, kind: statement, wikipedia: Doubly stochastic matrix, wikidata: Q1243340}
+  # Coloring
+  - {name: graph coloring, kind: definition, decl: SimpleGraph.Coloring, wikipedia: Graph coloring, wikidata: Q504843}
+  - {name: chromatic number, kind: definition, decl: SimpleGraph.chromaticNumber, wikipedia: Graph coloring, wikidata: Q504843}
+  - {name: chromatic polynomial, kind: definition, wikipedia: Chromatic polynomial, wikidata: Q1087609}
+  - {name: Brooks' theorem, kind: statement, wikipedia: Brooks' theorem, wikidata: Q512897}
+  - {name: edge coloring, kind: definition, wikipedia: Edge coloring, wikidata: Q1050972}
+  - {name: Vizing's theorem, kind: statement, wikipedia: Vizing's theorem, wikidata: Q2226822}
+  - {name: list coloring, kind: definition, wikipedia: List coloring, wikidata: Q1130404}
+  - {name: perfect graph, kind: definition, wikipedia: Perfect graph, wikidata: Q1187620}
+  - {name: strong perfect graph theorem, kind: statement, wikipedia: Strong perfect graph theorem, wikidata: Q16680059}
+  - {name: Hadwiger conjecture, kind: conjecture, wikipedia: Hadwiger conjecture (graph theory), wikidata: Q1128435}
+  - {name: Hedetniemi's conjecture, kind: counterexample, wikipedia: Hedetniemi's conjecture, wikidata: Q17022106}
+  # Planar graphs, embeddings, minors
+  - {name: planar graph, kind: definition, wikipedia: Planar graph, wikidata: Q547823}
+  - {name: Euler's formula for planar graphs, kind: statement, wikipedia: Euler characteristic, wikidata: Q852973}
+  - {name: Kuratowski's theorem, kind: statement, wikipedia: Kuratowski's theorem, wikidata: Q837902}
+  - {name: Wagner's theorem, kind: statement, wikipedia: Wagner's theorem, wikidata: Q7959587}
+  - {name: four color theorem, kind: statement, wikipedia: Four color theorem, wikidata: Q184410}
+  - {name: five color theorem, kind: statement, wikipedia: Five color theorem, wikidata: Q105222412}
+  - {name: Grötzsch's theorem, kind: statement, wikipedia: Grötzsch's theorem, wikidata: Q5612871}
+  - {name: dual graph, kind: definition, wikipedia: Dual graph, wikidata: Q2294516}
+  - {name: graph embedding, kind: definition, wikipedia: Graph embedding, wikidata: Q5597085}
+  - {name: graph minor, kind: definition, wikipedia: Graph minor, wikidata: Q905837}
+  - {name: Robertson–Seymour theorem, kind: statement, wikipedia: Robertson–Seymour theorem, wikidata: Q3527155}
+  - {name: treewidth, kind: definition, wikipedia: Treewidth, wikidata: Q5067368}
+  - {name: Kruskal's tree theorem, kind: statement, wikipedia: Kruskal's tree theorem, wikidata: Q3527100}
+  # Spectral and algebraic graph theory
+  - {name: adjacency matrix, kind: definition, decl: SimpleGraph.adjMatrix, wikipedia: Adjacency matrix, wikidata: Q727035, mathlib: [mathlib-overview]}
+  - {name: Laplacian matrix, kind: definition, decl: SimpleGraph.lapMatrix, wikipedia: Laplacian matrix, wikidata: Q772067}
+  - {name: incidence matrix, kind: definition, decl: SimpleGraph.incMatrix, wikipedia: Incidence matrix, wikidata: Q939272}
+  - {name: spectral graph theory, kind: concept, wikipedia: Spectral graph theory, wikidata: Q3180727}
+  - {name: Cheeger constant, kind: definition, wikipedia: Cheeger constant (graph theory), wikidata: Q5089262}
+  - {name: friendship theorem, kind: statement, wikipedia: Friendship graph, wikidata: Q5504427}
+  - {name: random graph, kind: definition, wikipedia: Random graph, wikidata: Q910404}
+  - {name: Erdős–Rényi model, kind: definition, wikipedia: Erdős–Rényi model, wikidata: Q605807}
+  - {name: graph enumeration, kind: concept, wikipedia: Graph enumeration, wikidata: Q5597086}
+  # Extremal combinatorics
+  - {name: extremal graph theory, kind: concept, decl: SimpleGraph.extremalNumber, wikipedia: Extremal graph theory, wikidata: Q739245}
+  - {name: Mantel's theorem, kind: statement, wikipedia: Turán's theorem, wikidata: Q1047749}
+  - {name: Turán's theorem, kind: statement, decl: SimpleGraph.isTuranMaximal_iff_nonempty_iso_turanGraph, wikipedia: Turán's theorem, wikidata: Q1047749, mathlib: [mathlib-overview, mathlib-1000]}
+  - {name: Turán graph, kind: example, decl: SimpleGraph.turanGraph, wikipedia: Turán graph, wikidata: Q720459}
+  - {name: Erdős–Stone theorem, kind: statement, wikipedia: Erdős–Stone theorem, wikidata: Q5385326}
+  - {name: Zarankiewicz problem, kind: problem, wikipedia: Zarankiewicz problem, wikidata: Q8066611}
+  - {name: Szemerédi regularity lemma, kind: statement, decl: szemeredi_regularity, wikipedia: Szemerédi regularity lemma, wikidata: Q1295910, mathlib: [mathlib-overview]}
+  - {name: triangle removal lemma, kind: statement, decl: SimpleGraph.triangle_removal, wikipedia: Graph removal lemma, wikidata: Q62931187, mathlib: [mathlib-overview]}
+  - {name: Sidorenko's conjecture, kind: conjecture, wikipedia: Sidorenko's conjecture, wikidata: Q85801084}
+  - {name: graphon, kind: definition, wikipedia: Graphon, wikidata: Q5165480}
+  - {name: Sperner's theorem, kind: statement, decl: IsAntichain.sperner, wikipedia: Sperner family, wikidata: Q819142, mathlib: [mathlib-overview, mathlib-1000]}
+  - {name: LYM inequality, kind: statement, decl: Finset.lubell_yamamoto_meshalkin_inequality_sum_card_div_choose, wikipedia: Lubell–Yamamoto–Meshalkin inequality, wikidata: Q1872826, mathlib: [mathlib-overview]}
+  - {name: Erdős–Ko–Rado theorem, kind: statement, decl: Finset.erdos_ko_rado, wikipedia: Erdős–Ko–Rado theorem, wikidata: Q718875, mathlib: [mathlib-1000]}
+  - {name: Kruskal–Katona theorem, kind: statement, decl: Finset.kruskal_katona, wikipedia: Kruskal–Katona theorem, wikidata: Q3527102, mathlib: [mathlib-overview, mathlib-1000]}
+  - {name: Sauer–Shelah lemma, kind: statement, decl: Finset.card_shatterer_le_sum_vcDim, wikipedia: Sauer–Shelah lemma, wikidata: Q17156650, mathlib: [mathlib-overview]}
+  - {name: VC dimension, kind: definition, decl: Finset.vcDim, wikipedia: Vapnik–Chervonenkis dimension, wikidata: Q2662236, mathlib: [mathlib-overview]}
+  - {name: Ahlswede–Daykin inequality, kind: statement, decl: four_functions_theorem, wikipedia: Ahlswede–Daykin inequality, wikidata: Q4695203, mathlib: [mathlib-overview, mathlib-1000]}
+  - {name: Harris inequality, kind: statement, wikipedia: FKG inequality, wikidata: Q1784730}
+  - {name: union-closed sets conjecture, kind: conjecture, wikipedia: Union-closed sets conjecture, wikidata: Q2993338}
+  - {name: sunflower lemma, kind: statement, wikipedia: Sunflower (mathematics), wikidata: Q423986}
+  - {name: Bondy's theorem, kind: statement, wikipedia: Bondy's theorem, wikidata: Q3443426}
+  - {name: linear algebra method, kind: concept, wikipedia: Polynomial method in combinatorics, wikidata: Q97359605}
+  - {name: cap set problem, kind: statement, wikipedia: Cap set, wikidata: Q28455422}
+  # Ramsey theory
+  - {name: Ramsey theory, kind: concept, wikipedia: Ramsey theory, wikidata: Q1336170}
+  - {name: Ramsey's theorem, kind: statement, wikipedia: Ramsey's theorem, wikidata: Q918099}
+  - {name: Ramsey number, kind: definition, wikipedia: Ramsey's theorem, wikidata: Q918099}
+  - {name: Schur's theorem, kind: statement, wikipedia: Schur's theorem, wikidata: Q1786292}
+  - {name: van der Waerden's theorem, kind: statement, wikipedia: Van der Waerden's theorem, wikidata: Q764287}
+  - {name: Hales–Jewett theorem, kind: statement, decl: Combinatorics.Line.exists_mono_in_high_dimension, wikipedia: Hales–Jewett theorem, wikidata: Q1032886, mathlib: [mathlib-overview, mathlib-1000]}
+  - {name: Rado's theorem, kind: statement, wikipedia: Rado's theorem (Ramsey theory), wikidata: Q3527146}
+  - {name: Hindman's theorem, kind: statement, decl: Hindman.exists_FS_of_large, wikipedia: IP set, wikidata: Q1566341}
+  - {name: Szemerédi's theorem, kind: statement, wikipedia: Szemerédi's theorem, wikidata: Q1046232}
+  - {name: Roth's theorem on arithmetic progressions, kind: statement, decl: rothNumberNat, wikipedia: Roth's theorem on arithmetic progressions, wikidata: Q56313802}
+  - {name: Green–Tao theorem, kind: statement, wikipedia: Green–Tao theorem, wikidata: Q922012}
+  - {name: Erdős conjecture on arithmetic progressions, kind: conjecture, wikipedia: Erdős conjecture on arithmetic progressions, wikidata: Q1991239}
+  - {name: happy ending problem, kind: problem, wikipedia: Happy ending problem, wikidata: Q1033772}
+  - {name: Erdős–Hajnal conjecture, kind: conjecture, wikipedia: Erdős–Hajnal conjecture, wikidata: Q16974940}
+  # Additive combinatorics
+  - {name: additive combinatorics, kind: concept, wikipedia: Additive combinatorics, wikidata: Q56313053}
+  - {name: sumset, kind: definition, wikipedia: Minkowski addition, wikidata: Q1322294}
+  - {name: Cauchy–Davenport theorem, kind: statement, decl: ZMod.cauchy_davenport, wikipedia: Restricted sumset, wikidata: Q859107, mathlib: [mathlib-overview]}
+  - {name: Erdős–Ginzburg–Ziv theorem, kind: statement, decl: ZMod.erdos_ginzburg_ziv, wikipedia: Zero-sum problem, wikidata: Q716171, mathlib: [mathlib-overview, mathlib-1000]}
+  - {name: Plünnecke–Ruzsa inequality, kind: statement, decl: Finset.pluennecke_petridis_inequality_add, wikipedia: Plünnecke–Ruzsa inequality, wikidata: Q85793713, mathlib: [mathlib-overview]}
+  - {name: Ruzsa triangle inequality, kind: statement, decl: Finset.ruzsa_triangle_inequality_sub_sub_sub, wikipedia: Ruzsa triangle inequality, wikidata: Q85798239, mathlib: [mathlib-overview]}
+  - {name: Freiman's theorem, kind: statement, wikipedia: Freiman's theorem, wikidata: Q3527079}
+  - {name: additive energy, kind: definition, decl: Finset.addEnergy, wikipedia: Additive combinatorics, wikidata: Q56313053, mathlib: [mathlib-overview]}
+  - {name: Balog–Szemerédi–Gowers theorem, kind: statement, wikipedia: Additive combinatorics, wikidata: Q56313053}
+  - {name: sum-free set, kind: definition, wikipedia: Sum-free set, wikidata: Q3054917}
+  - {name: Sidon set, kind: definition, wikipedia: Sidon sequence, wikidata: Q748968}
+  - {name: Gowers norm, kind: definition, wikipedia: Gowers norm, wikidata: Q5590057}
+  # Probabilistic and discrete-geometric methods
+  - {name: probabilistic method, kind: concept, wikipedia: Probabilistic method, wikidata: Q3333679}
+  - {name: Lovász local lemma, kind: statement, wikipedia: Lovász local lemma, wikidata: Q831721}
+  - {name: Janson inequality, kind: statement, wikipedia: Janson inequality, wikidata: Q96384187}
+  - {name: Szemerédi–Trotter theorem, kind: statement, wikipedia: Szemerédi–Trotter theorem, wikidata: Q721695}
+  - {name: Sylvester–Gallai theorem, kind: statement, wikipedia: Sylvester–Gallai theorem, wikidata: Q748233}
+  - {name: Erdős distinct distances problem, kind: problem, wikipedia: Erdős distinct distances problem, wikidata: Q3406261}
+  - {name: Hadwiger–Nelson problem, kind: problem, wikipedia: Hadwiger–Nelson problem, wikidata: Q1383936}
+  - {name: Dilworth's theorem, kind: statement, wikipedia: Dilworth's theorem, wikidata: Q1134776}
+  - {name: graceful tree conjecture, kind: conjecture, wikipedia: Graceful labeling, wikidata: Q1386718}
+  - {name: cycle double cover conjecture, kind: conjecture, wikipedia: Cycle double cover, wikidata: Q5198159}

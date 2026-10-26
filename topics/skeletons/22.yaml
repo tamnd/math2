@@ -1,0 +1,243 @@
+# The C2 skeleton of 22-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 22-XX
+title: topological and Lie groups
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+  mathlib-undergrad: {title: "Mathlib, the list of undergraduate topics", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/undergrad.yaml'}
+  mathlib-overview: {title: "Mathlib, the overview of the library", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/overview.yaml'}
+items:
+  # Topological groups: basic notions
+  - {name: topological group, kind: definition, decl: IsTopologicalGroup, wikipedia: Topological group, wikidata: Q1046291, mathlib: [mathlib-overview]}
+  - {name: continuous multiplication, kind: definition, decl: ContinuousMul, wikipedia: Topological group, wikidata: Q1046291}
+  - {name: semitopological group, kind: definition, wikipedia: Semitopological group, wikidata: Q55632841}
+  - {name: paratopological group, kind: definition, wikipedia: Paratopological group, wikidata: Q7136179}
+  - {name: topological monoid, kind: definition, wikipedia: Topological monoid, wikidata: Q25098802}
+  - {name: topological semigroup, kind: definition, wikipedia: Topological semigroup, wikidata: Q7825043}
+  - {name: topological ring, kind: definition, decl: IsTopologicalRing, wikipedia: Topological ring, wikidata: Q922339, mathlib: [mathlib-overview]}
+  - {name: topological vector space, kind: definition, wikipedia: Topological vector space, wikidata: Q1455249}
+  - {name: continuous group homomorphism, kind: definition, decl: ContinuousMonoidHom, wikipedia: Topological group, wikidata: Q1046291}
+  - {name: isomorphism of topological groups, kind: definition, decl: ContinuousMulEquiv, wikipedia: Topological group, wikidata: Q1046291}
+  - {name: open subgroup, kind: definition, decl: OpenSubgroup, wikipedia: Topological group, wikidata: Q1046291}
+  - {name: open subgroups are closed, kind: statement, decl: Subgroup.isClosed_of_isOpen, wikipedia: Topological group, wikidata: Q1046291}
+  - {name: quotient of a topological group, kind: definition, decl: QuotientGroup.isOpenMap_coe, wikipedia: Topological group, wikidata: Q1046291}
+  - {name: identity component, kind: definition, decl: Subgroup.connectedComponentOfOne, wikipedia: Identity component, wikidata: Q5988368}
+  - {name: totally disconnected group, kind: definition, wikipedia: Totally disconnected group, wikidata: Q7828252}
+  - {name: uniform structure of a topological group, kind: concept, decl: IsUniformGroup, wikipedia: Uniform space, wikidata: Q652446}
+  - {name: completion of a topological group, kind: definition, wikipedia: Complete topological vector space, wikidata: Q104842536}
+  - {name: Birkhoff–Kakutani theorem, kind: statement, wikipedia: Topological group, wikidata: Q1046291}
+  - {name: Hausdorff topological group, kind: concept, wikipedia: Topological group, wikidata: Q1046291}
+  - {name: topological homogeneity, kind: concept, wikipedia: Homogeneous space, wikidata: Q1324364}
+  - {name: Pettis lemma, kind: statement, wikipedia: Steinhaus theorem, wikidata: Q3527166}
+  - {name: Steinhaus theorem, kind: statement, wikipedia: Steinhaus theorem, wikidata: Q3527166}
+  - {name: Polish group, kind: definition, wikipedia: Polish space, wikidata: Q1207972}
+  - {name: topological transformation group, kind: definition, decl: ContinuousSMul, wikipedia: Continuous group action, wikidata: Q16951242, mathlib: [mathlib-overview]}
+  - {name: homogeneous space, kind: definition, wikipedia: Homogeneous space, wikidata: Q1324364}
+  - {name: profinite group, kind: definition, decl: ProfiniteGrp, wikipedia: Profinite group, wikidata: Q1428923}
+  - {name: profinite completion, kind: definition, wikipedia: Profinite integer, wikidata: Q23018462}
+  - {name: pro-p group, kind: definition, wikipedia: Pro-p group, wikidata: Q7246615}
+  - {name: p-adic Lie group, kind: definition, wikipedia: Pro-p group, wikidata: Q7246615}
+  - {name: Lazard's theorem on p-adic analytic groups, kind: statement, wikipedia: Pro-p group, wikidata: Q7246615}
+  - {name: solenoid, kind: example, wikipedia: Solenoid (mathematics), wikidata: Q3489713}
+  - {name: Cantor group, kind: example, wikipedia: Cantor space, wikidata: Q616653}
+  - {name: Hilbert's fifth problem, kind: problem, wikipedia: Hilbert's fifth problem, wikidata: Q3893331}
+  - {name: Gleason–Yamabe theorem, kind: statement, wikipedia: Hilbert's fifth problem, wikidata: Q3893331}
+  - {name: no small subgroups, kind: definition, wikipedia: No small subgroup, wikidata: Q7045262}
+  - {name: Hilbert–Smith conjecture, kind: conjecture, wikipedia: Hilbert–Smith conjecture, wikidata: Q5761258}
+  # Locally compact groups and Haar measure
+  - {name: locally compact group, kind: definition, wikipedia: Locally compact group, wikidata: Q2147620}
+  - {name: Haar measure, kind: definition, decl: MeasureTheory.Measure.IsHaarMeasure, wikipedia: Haar measure, wikidata: Q1162676}
+  - {name: existence of Haar measure, kind: statement, decl: MeasureTheory.Measure.haarMeasure, wikipedia: Haar measure, wikidata: Q1162676, mathlib: [mathlib-overview]}
+  - {name: uniqueness of Haar measure, kind: statement, decl: MeasureTheory.Measure.isMulLeftInvariant_eq_smul, wikipedia: Haar measure, wikidata: Q1162676}
+  - {name: modular function, kind: definition, wikipedia: Haar measure, wikidata: Q1162676}
+  - {name: unimodular group, kind: definition, wikipedia: Haar measure, wikidata: Q1162676}
+  - {name: lattice in a locally compact group, kind: definition, wikipedia: Lattice (discrete subgroup), wikidata: Q6497088}
+  - {name: fundamental domain, kind: definition, decl: MeasureTheory.IsFundamentalDomain, wikipedia: Fundamental domain, wikidata: Q1474108}
+  - {name: group algebra of a locally compact group, kind: definition, wikipedia: Group algebra of a locally compact group, wikidata: Q17019511}
+  - {name: convolution, kind: definition, wikipedia: Convolution, wikidata: Q210857}
+  - {name: group C*-algebra, kind: definition, wikipedia: Group algebra of a locally compact group, wikidata: Q17019511}
+  - {name: group von Neumann algebra, kind: definition, wikipedia: Von Neumann algebra, wikidata: Q1970172}
+  - {name: unitary representation, kind: definition, wikipedia: Unitary representation, wikidata: Q10359539}
+  - {name: Gelfand–Raikov theorem, kind: statement, wikipedia: Gelfand–Raikov theorem, wikidata: Q18207320}
+  - {name: positive-definite function on a group, kind: definition, wikipedia: Positive-definite function on a group, wikidata: Q7233206}
+  - {name: Gelfand–Naimark–Segal construction, kind: definition, wikipedia: Gelfand–Naimark–Segal construction, wikidata: Q5530428}
+  - {name: unitary dual, kind: definition, wikipedia: Unitary representation, wikidata: Q10359539}
+  - {name: Plancherel theorem for groups, kind: statement, wikipedia: Plancherel theorem for spherical functions, wikidata: Q11573495}
+  - {name: induced representation of a locally compact group, kind: definition, wikipedia: Induced representation, wikidata: Q3427423}
+  - {name: Mackey machine, kind: concept, wikipedia: System of imprimitivity, wikidata: Q7663731}
+  - {name: Mackey imprimitivity theorem, kind: statement, wikipedia: System of imprimitivity, wikidata: Q7663731}
+  - {name: amenable group, kind: definition, wikipedia: Amenable group, wikidata: Q1857002}
+  - {name: Følner condition, kind: definition, wikipedia: Følner sequence, wikidata: Q5511721}
+  - {name: Kazhdan's property (T), kind: definition, wikipedia: Kazhdan's property (T), wikidata: Q30765715}
+  - {name: Haagerup property, kind: definition, wikipedia: Haagerup property, wikidata: Q5636478}
+  - {name: Gelfand pair, kind: definition, wikipedia: Gelfand pair, wikidata: Q5530423}
+  - {name: spherical function, kind: definition, wikipedia: Zonal spherical function, wikidata: Q8073863}
+  - {name: Hecke algebra of a locally compact group, kind: definition, wikipedia: Hecke algebra of a pair, wikidata: Q5696375}
+  - {name: Kazhdan–Margulis theorem, kind: statement, wikipedia: Kazhdan–Margulis theorem, wikidata: Q28401823}
+  - {name: Borel–Harish-Chandra theorem, kind: statement, wikipedia: Arithmetic group, wikidata: Q4791126}
+  - {name: Margulis arithmeticity theorem, kind: statement, wikipedia: Arithmetic group, wikidata: Q4791126}
+  - {name: Margulis normal subgroup theorem, kind: statement, wikipedia: Lattice (discrete subgroup), wikidata: Q6497088}
+  - {name: Mostow rigidity theorem, kind: statement, wikipedia: Mostow rigidity theorem, wikidata: Q3984063}
+  - {name: Borel density theorem, kind: statement, wikipedia: Lattice (discrete subgroup), wikidata: Q6497088}
+  - {name: Ratner's theorems, kind: statement, wikipedia: Ratner's theorems, wikidata: Q7295875}
+  - {name: Raghunathan's conjecture, kind: statement, wikipedia: Ratner's theorems, wikidata: Q7295875}
+  - {name: Mahler's compactness theorem, kind: statement, wikipedia: Mahler's compactness theorem, wikidata: Q6734194}
+  - {name: Zassenhaus neighbourhood, kind: concept, wikipedia: Margulis lemma, wikidata: Q6760835}
+  - {name: Margulis lemma, kind: statement, wikipedia: Margulis lemma, wikidata: Q6760835}
+  - {name: Tits alternative for linear groups, kind: statement, wikipedia: Tits alternative, wikidata: Q3613173}
+  - {name: structure theory of totally disconnected locally compact groups, kind: concept, wikipedia: Locally compact group, wikidata: Q2147620}
+  - {name: van Dantzig's theorem, kind: statement, wikipedia: Totally disconnected group, wikidata: Q7828252}
+  - {name: Cayley–Abels graph, kind: definition, wikipedia: Cayley graph, wikidata: Q859174}
+  # Locally compact abelian groups and Pontryagin duality
+  - {name: locally compact abelian group, kind: definition, wikipedia: Locally compact abelian group, wikidata: Q65122103}
+  - {name: character of an abelian group, kind: definition, decl: AddChar, wikipedia: Character group, wikidata: Q2720844}
+  - {name: Pontryagin dual, kind: definition, decl: PontryaginDual, wikipedia: Pontryagin duality, wikidata: Q1632419}
+  - {name: Pontryagin duality theorem, kind: statement, wikipedia: Pontryagin duality, wikidata: Q1632419}
+  - {name: circle group, kind: example, decl: Circle, wikipedia: Circle group, wikidata: Q105356493}
+  - {name: additive circle, kind: example, decl: AddCircle, wikipedia: Circle group, wikidata: Q105356493}
+  - {name: torus as a group, kind: example, wikipedia: Torus, wikidata: Q12510}
+  - {name: Bohr compactification, kind: definition, wikipedia: Bohr compactification, wikidata: Q4938217}
+  - {name: Fourier transform on locally compact abelian groups, kind: definition, wikipedia: Fourier transform on finite groups, wikidata: Q5475803}
+  - {name: Plancherel theorem for abelian groups, kind: statement, wikipedia: Plancherel theorem, wikidata: Q2096184}
+  - {name: Bochner's theorem, kind: statement, wikipedia: Bochner's theorem, wikidata: Q4936242}
+  - {name: Poisson summation formula, kind: statement, wikipedia: Poisson summation formula, wikidata: Q387743}
+  - {name: harmonic analysis on groups, kind: concept, wikipedia: Harmonic analysis, wikidata: Q876215}
+  - {name: structure theorem for compactly generated LCA groups, kind: statement, wikipedia: Locally compact abelian group, wikidata: Q65122103}
+  - {name: adele ring, kind: example, wikipedia: Adele ring, wikidata: Q355356}
+  - {name: Tate's thesis, kind: concept, wikipedia: Tate's thesis, wikidata: Q7687933}
+  - {name: Wiener's Tauberian theorem, kind: statement, wikipedia: Wiener's Tauberian theorem, wikidata: Q3527279}
+  # Compact groups
+  - {name: compact group, kind: definition, wikipedia: Compact group, wikidata: Q1887083}
+  - {name: Peter–Weyl theorem, kind: statement, wikipedia: Peter–Weyl theorem, wikidata: Q1529941}
+  - {name: Weyl's unitary trick, kind: concept, wikipedia: Unitarian trick, wikidata: Q7887223}
+  - {name: complete reducibility of representations of compact groups, kind: statement, wikipedia: Compact group, wikidata: Q1887083}
+  - {name: Schur orthogonality for compact groups, kind: statement, wikipedia: Schur orthogonality relations, wikidata: Q7433034}
+  - {name: Tannaka–Krein duality, kind: statement, wikipedia: Tannaka–Krein duality, wikidata: Q7683608}
+  - {name: maximal torus, kind: definition, wikipedia: Maximal torus, wikidata: Q1000120}
+  - {name: conjugacy of maximal tori, kind: statement, wikipedia: Maximal torus, wikidata: Q1000120}
+  - {name: Weyl group of a compact Lie group, kind: definition, wikipedia: Weyl group, wikidata: Q768074}
+  - {name: Weyl integration formula, kind: statement, wikipedia: Weyl integration formula, wikidata: Q96414618}
+  - {name: Weyl character formula for compact groups, kind: statement, wikipedia: Weyl character formula, wikidata: Q7990328}
+  - {name: Borel–Weil–Bott theorem, kind: statement, wikipedia: Borel–Weil–Bott theorem, wikidata: Q4944923}
+  - {name: Kronecker's theorem, kind: statement, wikipedia: Kronecker's theorem, wikidata: Q848810}
+  # Lie groups: basic notions
+  - {name: Lie group, kind: definition, decl: LieGroup, wikipedia: Lie group, wikidata: Q622679, mathlib: [mathlib-overview]}
+  - {name: Lie algebra of a Lie group, kind: definition, decl: GroupLieAlgebra, wikipedia: Lie group–Lie algebra correspondence, wikidata: Q18353697, mathlib: [mathlib-overview]}
+  - {name: left-invariant vector field, kind: definition, wikipedia: Lie group, wikidata: Q622679}
+  - {name: exponential map of a Lie group, kind: definition, wikipedia: Exponential map (Lie theory), wikidata: Q19810382}
+  - {name: one-parameter subgroup, kind: definition, wikipedia: One-parameter group, wikidata: Q1308481}
+  - {name: adjoint representation of a Lie group, kind: definition, wikipedia: Adjoint representation, wikidata: Q1017106}
+  - {name: Maurer–Cartan form, kind: definition, wikipedia: Maurer–Cartan form, wikidata: Q552787}
+  - {name: Baker–Campbell–Hausdorff formula, kind: statement, wikipedia: Baker–Campbell–Hausdorff formula, wikidata: Q804316}
+  - {name: Lie's third theorem, kind: statement, wikipedia: Lie's third theorem, wikidata: Q15080987}
+  - {name: Lie group–Lie algebra correspondence, kind: statement, wikipedia: Lie group–Lie algebra correspondence, wikidata: Q18353697}
+  - {name: closed subgroup theorem, kind: statement, wikipedia: Closed-subgroup theorem, wikidata: Q18206032}
+  - {name: Lie subgroup, kind: definition, wikipedia: Lie group, wikidata: Q622679}
+  - {name: universal covering group, kind: definition, wikipedia: Covering group, wikidata: Q5179253}
+  - {name: matrix Lie group, kind: definition, wikipedia: Lie group, wikidata: Q622679}
+  - {name: Lie's theorems on transformation groups, kind: statement, wikipedia: Lie's third theorem, wikidata: Q15080987}
+  - {name: Cartan's theorem on continuous homomorphisms, kind: statement, wikipedia: Closed-subgroup theorem, wikidata: Q18206032}
+  - {name: Haar measure on a Lie group, kind: concept, wikipedia: Haar measure, wikidata: Q1162676}
+  - {name: Lie group action, kind: definition, wikipedia: Lie group action, wikidata: Q17098482}
+  - {name: Lie groupoid, kind: definition, wikipedia: Lie groupoid, wikidata: Q6543824}
+  - {name: Lie supergroup, kind: definition, wikipedia: Supergroup (physics), wikidata: Q7643409}
+  - {name: diffeomorphism group, kind: example, wikipedia: Diffeomorphism, wikidata: Q1058314}
+  - {name: loop group, kind: example, wikipedia: Loop group, wikidata: Q6675827}
+  # Classical Lie groups
+  - {name: general linear group GL(n), kind: example, wikipedia: General linear group, wikidata: Q524607}
+  - {name: special linear group SL(n), kind: example, wikipedia: Special linear group, wikidata: Q2140900}
+  - {name: orthogonal group O(n), kind: example, wikipedia: Orthogonal group, wikidata: Q1783179}
+  - {name: special orthogonal group SO(n), kind: example, decl: Matrix.specialOrthogonalGroup, wikipedia: Orthogonal group, wikidata: Q1783179, mathlib: [mathlib-undergrad]}
+  - {name: unitary group U(n), kind: example, decl: Matrix.unitaryGroup, wikipedia: Unitary group, wikidata: Q1500617, mathlib: [mathlib-undergrad]}
+  - {name: special unitary group SU(n), kind: example, decl: Matrix.specialUnitaryGroup, wikipedia: Special unitary group, wikidata: Q684363, mathlib: [mathlib-undergrad]}
+  - {name: symplectic group Sp(2n), kind: example, decl: Matrix.symplecticGroup, wikipedia: Symplectic group, wikidata: Q936434}
+  - {name: compact symplectic group, kind: example, wikipedia: Symplectic group, wikidata: Q936434}
+  - {name: indefinite orthogonal group, kind: example, wikipedia: Indefinite orthogonal group, wikidata: Q11061828}
+  - {name: rotation group SO(3), kind: example, wikipedia: 3D rotation group, wikidata: Q1256500}
+  - {name: SU(2), kind: example, wikipedia: Special unitary group, wikidata: Q684363}
+  - {name: 'SL(2,R)', kind: example, wikipedia: SL2(R), wikidata: Q307169}
+  - {name: 'SL(2,C)', kind: example, wikipedia: Special linear group, wikidata: Q2140900}
+  - {name: Lorentz group, kind: example, wikipedia: Lorentz group, wikidata: Q1334417}
+  - {name: Poincaré group, kind: example, wikipedia: Poincaré group, wikidata: Q1066449}
+  - {name: Euclidean group, kind: example, wikipedia: Euclidean group, wikidata: Q852195}
+  - {name: Heisenberg group, kind: example, wikipedia: Heisenberg group, wikidata: Q1601337}
+  - {name: spin group, kind: example, wikipedia: Spin group, wikidata: Q2031467}
+  - {name: pin group, kind: example, wikipedia: Pin group, wikidata: Q7194770}
+  - {name: metaplectic group, kind: example, wikipedia: Metaplectic group, wikidata: Q17098877}
+  - {name: exceptional Lie group G2, kind: example, wikipedia: G2 (mathematics), wikidata: Q869338}
+  - {name: exceptional Lie group E8, kind: example, wikipedia: E8 (mathematics), wikidata: Q1200244}
+  - {name: table of Lie groups, kind: example, wikipedia: Table of Lie groups, wikidata: Q3981612}
+  - {name: list of simple Lie groups, kind: example, wikipedia: Simple Lie group, wikidata: Q1003162}
+  # Structure of Lie groups
+  - {name: semisimple Lie group, kind: definition, wikipedia: Simple Lie group, wikidata: Q1003162}
+  - {name: simple Lie group, kind: definition, wikipedia: Simple Lie group, wikidata: Q1003162}
+  - {name: reductive Lie group, kind: definition, wikipedia: Reductive group, wikidata: Q1006450}
+  - {name: solvable Lie group, kind: definition, wikipedia: Solvmanifold, wikidata: Q7559043}
+  - {name: nilpotent Lie group, kind: definition, wikipedia: Nilpotent group, wikidata: Q1755242}
+  - {name: compact Lie group, kind: definition, wikipedia: Compact group, wikidata: Q1887083}
+  - {name: Levi–Malcev decomposition, kind: statement, wikipedia: Levi decomposition, wikidata: Q6535568}
+  - {name: Cartan decomposition of a Lie group, kind: statement, wikipedia: Cartan decomposition, wikidata: Q3042798}
+  - {name: Iwasawa decomposition of a Lie group, kind: statement, wikipedia: Iwasawa decomposition, wikidata: Q750099}
+  - {name: KAK decomposition, kind: statement, wikipedia: Cartan decomposition, wikidata: Q3042798}
+  - {name: Langlands decomposition, kind: statement, wikipedia: Langlands decomposition, wikidata: Q6486187}
+  - {name: polar decomposition, kind: statement, wikipedia: Polar decomposition, wikidata: Q2101158}
+  - {name: Bruhat decomposition of a Lie group, kind: statement, wikipedia: Bruhat decomposition, wikidata: Q4978699}
+  - {name: parabolic subgroup, kind: definition, wikipedia: Parabolic subgroup of a reflection group, wikidata: Q124328767}
+  - {name: maximal compact subgroup, kind: definition, wikipedia: Maximal compact subgroup, wikidata: Q6795635}
+  - {name: Cartan–Iwasawa–Malcev theorem, kind: statement, wikipedia: Maximal compact subgroup, wikidata: Q6795635}
+  - {name: Lie algebra of a compact group is reductive, kind: statement, wikipedia: Compact Lie algebra, wikidata: Q5155287}
+  - {name: complexification of a Lie group, kind: definition, wikipedia: Complexification (Lie group), wikidata: Q17005573}
+  - {name: real form of a Lie group, kind: definition, wikipedia: Real form (Lie theory), wikidata: Q7301156}
+  - {name: Riemannian symmetric space, kind: definition, wikipedia: Symmetric space, wikidata: Q3058244}
+  - {name: Hermitian symmetric space, kind: definition, wikipedia: Hermitian symmetric space, wikidata: Q5741926}
+  - {name: flag manifold, kind: definition, wikipedia: Generalized flag variety, wikidata: Q938283}
+  - {name: nilmanifold, kind: definition, wikipedia: Nilmanifold, wikidata: Q4321368}
+  - {name: solvmanifold, kind: definition, wikipedia: Solvmanifold, wikidata: Q7559043}
+  - {name: Malcev completion, kind: concept, wikipedia: Nilmanifold, wikidata: Q4321368}
+  - {name: cohomology of Lie groups, kind: concept, wikipedia: Lie algebra cohomology, wikidata: Q6543809}
+  - {name: Hopf's theorem on cohomology of compact Lie groups, kind: statement, wikipedia: Hopf algebra, wikidata: Q1627597}
+  - {name: Bott periodicity theorem, kind: statement, wikipedia: Bott periodicity theorem, wikidata: Q4948983}
+  # Representation theory of Lie groups
+  - {name: representation of a Lie group, kind: definition, wikipedia: Representation of a Lie group, wikidata: Q763735}
+  - {name: representation theory of SU(2), kind: example, wikipedia: Representation theory of SU(2), wikidata: Q7314224}
+  - {name: representation theory of SL2(R), kind: example, wikipedia: Representation theory of SL2(R), wikidata: Q7314223}
+  - {name: representation theory of the Lorentz group, kind: example, wikipedia: Representation theory of the Lorentz group, wikidata: Q7314228}
+  - {name: Wigner's classification, kind: statement, wikipedia: Wigner's classification, wikidata: Q12609547}
+  - {name: admissible representation, kind: definition, wikipedia: Admissible representation, wikidata: Q4683806}
+  - {name: Harish-Chandra module, kind: definition, wikipedia: '(g,K)-module', wikidata: Q4544947}
+  - {name: Harish-Chandra character, kind: definition, wikipedia: Harish-Chandra character, wikidata: Q5657842}
+  - {name: Harish-Chandra's regularity theorem, kind: statement, wikipedia: Harish-Chandra's regularity theorem, wikidata: Q5657833}
+  - {name: discrete series representation, kind: definition, wikipedia: Discrete series representation, wikidata: Q5282059}
+  - {name: principal series representation, kind: definition, wikipedia: Principal series representation, wikidata: Q7245090}
+  - {name: Langlands classification, kind: statement, wikipedia: Langlands classification, wikidata: Q6486186}
+  - {name: Stone–von Neumann theorem, kind: statement, wikipedia: Stone–von Neumann theorem, wikidata: Q7619449}
+  - {name: Kirillov orbit method, kind: concept, wikipedia: Orbit method, wikidata: Q7100049}
+  - {name: oscillator representation, kind: definition, wikipedia: Oscillator representation, wikidata: Q7106417}
+  - {name: theta correspondence, kind: concept, wikipedia: Theta correspondence, wikidata: Q7783546}
+  - {name: Selberg trace formula, kind: statement, wikipedia: Selberg trace formula, wikidata: Q3077649}
+  - {name: Arthur–Selberg trace formula, kind: statement, wikipedia: Arthur–Selberg trace formula, wikidata: Q4800826}
+  - {name: automorphic form, kind: definition, wikipedia: Automorphic form, wikidata: Q1134435}
+  - {name: Ramanujan–Petersson conjecture, kind: conjecture, wikipedia: Ramanujan–Petersson conjecture, wikidata: Q630650}
+  - {name: Selberg's 1/4 conjecture, kind: conjecture, wikipedia: Selberg's 1/4 conjecture, wikidata: Q7447522}
+  - {name: unitary dual problem, kind: problem, wikipedia: Unitary representation, wikidata: Q10359539}
+  # Transformation groups and discrete subgroups of Lie groups
+  - {name: proper group action, kind: definition, decl: ProperSMul, wikipedia: Proper map, wikidata: Q1090009}
+  - {name: properly discontinuous action, kind: definition, decl: ProperlyDiscontinuousSMul, wikipedia: Covering space, wikidata: Q332648}
+  - {name: discrete subgroup, kind: definition, wikipedia: Discrete group, wikidata: Q1361055}
+  - {name: Fuchsian group, kind: definition, wikipedia: Fuchsian group, wikidata: Q205124}
+  - {name: Kleinian group, kind: definition, wikipedia: Kleinian group, wikidata: Q4116484}
+  - {name: modular group action on the upper half-plane, kind: example, decl: UpperHalfPlane.modular_S_smul, wikipedia: Modular group, wikidata: Q1834342}
+  - {name: fundamental domain of the modular group, kind: example, decl: ModularGroup.fd, wikipedia: Fundamental domain, wikidata: Q1474108}
+  - {name: arithmetic subgroup, kind: definition, wikipedia: Arithmetic group, wikidata: Q4791126}
+  - {name: Bieberbach's theorem on crystallographic groups, kind: statement, wikipedia: Space group, wikidata: Q899033}
+  - {name: Clifford–Klein form, kind: definition, wikipedia: Clifford–Klein form, wikidata: Q5133088}
+  - {name: geodesic flow on a locally symmetric space, kind: example, wikipedia: Geodesic, wikidata: Q213488}
+  - {name: Zimmer program, kind: concept, wikipedia: Zimmer's conjecture, wikidata: Q58087817}
+  - {name: Zimmer's conjecture, kind: conjecture, wikipedia: Zimmer's conjecture, wikidata: Q58087817}
+  - {name: Oppenheim conjecture, kind: statement, wikipedia: Oppenheim conjecture, wikidata: Q7098547}
+  - {name: Littlewood conjecture, kind: conjecture, wikipedia: Littlewood conjecture, wikidata: Q6653177}
+  - {name: lattice in a Lie group, kind: definition, wikipedia: Lattice (discrete subgroup), wikidata: Q6497088}
+  - {name: Wang's finiteness theorem, kind: statement, wikipedia: Lattice (discrete subgroup), wikidata: Q6497088}
+  - {name: Weil's local rigidity theorem, kind: statement, wikipedia: Local rigidity, wikidata: Q25143915}
+  - {name: Calabi–Weil rigidity, kind: statement, wikipedia: Local rigidity, wikidata: Q25143915}
