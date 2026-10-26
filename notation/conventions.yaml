@@ -1,0 +1,9 @@
+# The register of conventions (corpus K10.5). Each entry is a choice where sources differ, with the option of math2 as its default.
+# The default follows Mathlib where Mathlib has one. A node that uses another option names it in its conventions field.
+- id: natural-numbers
+  concept: 0MWKJ44V5A
+  default: with-zero
+  options:
+    - option: with-zero
+      sources: ['https://leanprover-community.github.io/mathlib4_docs/Init/Prelude.html#Nat']
+    - option: without-zero
