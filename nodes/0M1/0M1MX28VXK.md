@@ -1,0 +1,34 @@
+---
+tag: 0M1MX28VXK
+kind: statement
+role: theorem
+name: Bernoulli's inequality
+msc: [26D05]
+uses: [0ASJVEFA9J]
+sources:
+  - url: https://en.wikipedia.org/wiki/Bernoulli%27s_inequality
+    locator: Integer exponent
+same_as:
+  wikidata: Q728662
+  wikipedia: Bernoulli's inequality
+---
+
+## Statement
+
+Let $x$ be a real number with $x \ge -1$, and let $n$ be a natural number.
+Then
+$$(1 + x)^n \ge 1 + n x.$$
+
+## Remarks
+
+When $x \neq 0$ and $n \ge 2$, the inequality is strict.
+For natural numbers $n$, the inequality also holds when $x \ge -2$.
+A proof by [[induction|0ASJVEFA9J]] on $n$ multiplies $(1 + x)^n \ge 1 + n x$ by $1 + x \ge 0$ and uses $n x^2 \ge 0$.
+
+## Explanations
+
+### L1 human
+
+A small growth rate $x$, applied $n$ times, gives at least $n$ times that growth.
+For example, $1.1^{10}$ is at least $1 + 10 \cdot 0.1 = 2$; its true value is about $2.59$.
+The difference comes from the growth on the growth, which the right side ignores.

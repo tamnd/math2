@@ -1,0 +1,38 @@
+---
+tag: 09FTAET5Z4
+kind: object
+name: Complex numbers
+aliases: [complex-number, set-of-complex-numbers]
+msc: [30A99]
+sources:
+  - url: https://en.wikipedia.org/wiki/Complex_number
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Complex_number
+    locator: Definition and basic operations
+same_as:
+  wikidata: Q11567
+  wikipedia: Complex number
+---
+
+## Description
+
+A complex number is a number of the form $a + b i$, where $a$ and $b$ are [[real numbers|08J2M1JYAG]] and $i$ is the [[imaginary unit|0ESCX36MMC]], with $i^2 = -1$.
+We write $\mathbb{C}$ for the set of complex numbers.
+The real number $a$ is the real part and $b$ is the imaginary part of $a + b i$, see [[real and imaginary parts|02ZE6JHJ7G]].
+Addition and multiplication follow the usual rules of algebra together with $i^2 = -1$:
+$$(a + b i) + (c + d i) = (a + c) + (b + d) i, \qquad (a + b i)(c + d i) = (a c - b d) + (a d + b c) i.$$
+With these operations, $\mathbb{C}$ is a [[field|0FRSR10DWF]] that contains $\mathbb{R}$ as the numbers $a + 0 i$.
+
+## Remarks
+
+We picture $\mathbb{C}$ as the [[complex plane|0CTE7A31XQ]], with the point $(a, b)$ for $a + b i$.
+Every polynomial equation of positive degree with complex coefficients has a solution in $\mathbb{C}$. This is the fundamental theorem of algebra.
+Unlike $\mathbb{R}$, the field $\mathbb{C}$ [[cannot be ordered|01CJRJKDAA]].
+
+## Explanations
+
+### L1 human
+
+The equation $x^2 = -1$ has no real solution, because a real square is never negative.
+The complex numbers add a new number $i$ with $i^2 = -1$, and then all the numbers $a + b i$ that you can build from it.
+For example, $(1 + 2 i)(3 - i) = 3 - i + 6 i - 2 i^2 = 5 + 5 i$.

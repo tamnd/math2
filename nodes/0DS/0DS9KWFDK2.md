@@ -8,9 +8,6 @@ uses: [0SEZ3JGZP7, 066RJJVWH9, 08G4XH86JC]
 sources:
   - url: https://en.wikipedia.org/wiki/Rational_number
     locator: Countability
-same_as:
-  wikidata: Q1244890
-  wikipedia: Rational number
 ---
 
 ## Statement

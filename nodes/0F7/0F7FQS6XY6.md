@@ -1,0 +1,18 @@
+---
+tag: 0F7FQS6XY6
+kind: concept
+name: Square root
+msc: [26A09]
+sources:
+  - url: https://en.wikipedia.org/wiki/Square_root
+    locator: lead section
+same_as:
+  wikidata: Q134237
+  wikipedia: Square root
+---
+
+## Summary
+
+A square root of a number $x$ is a number $y$ with $y^2 = x$.
+Each nonnegative real number $x$ has exactly one nonnegative square root, the principal square root $\sqrt{x}$.
+For example, $\sqrt{9} = 3$, and the square roots of $9$ are $3$ and $-3$.

@@ -1,0 +1,30 @@
+---
+tag: 0CBAB9QQ9X
+kind: concept
+name: Complex numbers as pairs of reals
+msc: [30A99]
+sources:
+  - url: https://en.wikipedia.org/wiki/Complex_number
+    locator: Abstract and algebraic definitions
+---
+
+## Summary
+
+The complex numbers can be constructed as ordered pairs of [[real numbers|08J2M1JYAG]].
+On $\mathbb{R}^2$, define addition by $(a, b) + (c, d) = (a + c, b + d)$ and multiplication by $(a, b) \cdot (c, d) = (a c - b d, a d + b c)$.
+With these operations, $\mathbb{R}^2$ is a field. It is the field $\mathbb{C}$ of [[complex numbers|09FTAET5Z4]].
+The pair $(a, 0)$ is the real number $a$, and the pair $(0, 1)$ is the [[imaginary unit|0ESCX36MMC]] $i$.
+Then $(a, b) = a + b i$, and the map $a + b i \mapsto (a, b)$ is a bijection $\mathbb{C} \to \mathbb{R}^2$.
+
+## Remarks
+
+This construction shows that the complex numbers exist, without the assumption of a mysterious square root of $-1$.
+The bijection with $\mathbb{R}^2$ respects addition and multiplication by real numbers. It is the base of the [[complex plane|0CTE7A31XQ]].
+Another construction is the quotient ring $\mathbb{R}[X]/(X^2 + 1)$.
+
+## Explanations
+
+### L1 human
+
+A complex number is just a pair of real numbers with a special rule for multiplication.
+The rule is made so that $(0, 1) \cdot (0, 1) = (-1, 0)$, which says $i^2 = -1$.

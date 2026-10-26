@@ -1,0 +1,31 @@
+---
+tag: 0GF6AJEBZ0
+kind: statement
+role: theorem
+name: Induction from an arbitrary base case
+msc: [03F30]
+uses: [0ASJVEFA9J, 0Y9H52BT03]
+sources:
+  - url: https://en.wikipedia.org/wiki/Mathematical_induction
+    locator: Base case other than 0 or 1
+---
+
+## Statement
+
+Let $m$ be a natural number and let $P(n)$ be a property of natural numbers $n$ with $n \ge m$.
+Suppose that $P(m)$ holds.
+Suppose also that for each natural number $n \ge m$, $P(n)$ implies $P(n + 1)$.
+Then $P(n)$ holds for every natural number $n \ge m$.
+
+## Remarks
+
+The proof applies ordinary [[induction|0ASJVEFA9J]] to the property $Q(k)$: "$P(m + k)$ holds".
+For example, induction from $m = 4$ shows that $2^n \ge n^2$ for every natural number $n \ge 4$.
+
+## Explanations
+
+### L1 human
+
+Sometimes a property is false for small numbers and true from some point on.
+Then you start the induction at that point instead of at $0$.
+The dominoes start falling at domino number $m$, and the dominoes before it do not matter.

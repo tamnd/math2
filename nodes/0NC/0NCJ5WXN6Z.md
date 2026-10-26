@@ -1,0 +1,37 @@
+---
+tag: 0NCJ5WXN6Z
+kind: object
+name: Rational numbers
+aliases: [rational-number, rationals, set-of-rational-numbers]
+msc: [11A99]
+sources:
+  - url: https://en.wikipedia.org/wiki/Rational_number
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Rational_number
+    locator: Arithmetic
+same_as:
+  wikidata: Q1244890
+  wikipedia: Rational number
+---
+
+## Description
+
+A rational number is a number of the form $a / b$, where $a$ and $b$ are [[integers|0C4JS9RF5M]] and $b \neq 0$.
+We write $\mathbb{Q}$ for the set of rational numbers.
+Two fractions $a / b$ and $c / d$ are the same rational number when $a d = b c$.
+With addition and multiplication, $\mathbb{Q}$ is a [[field|0N2WPCC00T]], and with its usual order it is an [[ordered field|09RFKMBQ63]].
+The set $\mathbb{Q}$ contains $\mathbb{Z}$, because each integer $a$ is the fraction $a / 1$.
+
+## Remarks
+
+Each rational number has exactly one [[representation in lowest terms|0R64A2CVN4]] $a / b$ with $b > 0$.
+The set $\mathbb{Q}$ is countable.
+Not every real number is rational: $\sqrt{2}$ is [[irrational|0DZGSDHD92]].
+
+## Explanations
+
+### L1 human
+
+The rational numbers are the fractions, such as $1/2$, $-3/4$ and $7 = 7/1$.
+Many fractions name the same number: $1/2$, $2/4$ and $3/6$ are all equal.
+In $\mathbb{Q}$, you can divide by any number except $0$.

@@ -1,0 +1,34 @@
+---
+tag: 0GSZ7B0CGR
+kind: object
+name: Extended real number line
+aliases: [extended-reals]
+msc: [26A03]
+sources:
+  - url: https://en.wikipedia.org/wiki/Extended_real_number_line
+    locator: lead section
+  - url: https://en.wikipedia.org/wiki/Extended_real_number_line
+    locator: Order and topological properties
+same_as:
+  wikidata: Q2039387
+  wikipedia: Extended real number line
+---
+
+## Description
+
+The extended real number line is the set $\overline{\mathbb{R}} = \mathbb{R} \cup \{-\infty, +\infty\}$.
+It has two new elements, $-\infty$ and $+\infty$, that are not [[real numbers|08J2M1JYAG]].
+Its order extends the order of $\mathbb{R}$, with $-\infty < x < +\infty$ for each real number $x$.
+
+## Remarks
+
+In $\overline{\mathbb{R}}$, each subset has a [[supremum|0BTMQ04556]] and an infimum. For example, $\sup \mathbb{N} = +\infty$ and $\sup \emptyset = -\infty$.
+Some operations extend: $x + \infty = +\infty$ for each real $x$. Other expressions, such as $\infty - \infty$, stay undefined.
+The set $\overline{\mathbb{R}}$ is not a field.
+
+## Explanations
+
+### L1 human
+
+The extended real line adds two end points to the number line, one at each end.
+This lets you write $\lim_{x \to \infty}$ and $\sup$ of unbounded sets with symbols instead of words.

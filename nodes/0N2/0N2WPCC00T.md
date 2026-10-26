@@ -1,0 +1,29 @@
+---
+tag: 0N2WPCC00T
+kind: statement
+role: theorem
+name: The rationals form a field
+msc: ["12E99"]
+uses: [0NCJ5WXN6Z, 0BXA4Q0JHW]
+sources:
+  - url: https://en.wikipedia.org/wiki/Rational_number
+    locator: Properties
+---
+
+## Statement
+
+The [[rational numbers|0NCJ5WXN6Z]] $\mathbb{Q}$, with their addition and multiplication, form a field.
+That is, $\mathbb{Q}$ is a commutative ring with $0 \neq 1$, and each rational number $q \neq 0$ has a multiplicative inverse $q^{-1}$ with $q \cdot q^{-1} = 1$.
+
+## Remarks
+
+The inverse of $a / b$ with $a \neq 0$ is $b / a$.
+The field $\mathbb{Q}$ is the smallest subfield of the real numbers. Each field of characteristic $0$ contains a copy of $\mathbb{Q}$.
+The [[integers|0C4JS9RF5M]] are not a field, and $\mathbb{Q}$ is the field of fractions of $\mathbb{Z}$.
+
+## Explanations
+
+### L1 human
+
+In the rational numbers, you can add, subtract, multiply, and divide by any number that is not zero.
+The result is always a rational number again.

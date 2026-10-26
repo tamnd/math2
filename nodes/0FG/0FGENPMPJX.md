@@ -1,0 +1,28 @@
+---
+tag: 0FGENPMPJX
+kind: statement
+role: theorem
+name: The reals form a field
+msc: [12D99]
+uses: [08J2M1JYAG]
+sources:
+  - url: https://en.wikipedia.org/wiki/Real_number
+    locator: Arithmetic
+---
+
+## Statement
+
+The [[real numbers|08J2M1JYAG]] $\mathbb{R}$, with their addition and multiplication, form a field.
+That is, $\mathbb{R}$ is a commutative ring with $0 \neq 1$, and each real number $x \neq 0$ has a multiplicative inverse $x^{-1}$ with $x \cdot x^{-1} = 1$.
+
+## Remarks
+
+The field $\mathbb{R}$ contains the field $\mathbb{Q}$ of rational numbers as a subfield.
+In the axiomatic approach, this is part of the axioms. In a construction of $\mathbb{R}$, for example with [[Cauchy sequences|0D8HE681SC]], it is a theorem.
+
+## Explanations
+
+### L1 human
+
+The usual rules of arithmetic hold for the real numbers.
+You can add, subtract and multiply real numbers, and you can divide by each real number that is not zero.
