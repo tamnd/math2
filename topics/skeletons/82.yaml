@@ -1,0 +1,247 @@
+# The C2 skeleton of 82-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 82-XX
+title: statistical mechanics and the structure of matter
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+items:
+  # Foundations of equilibrium statistical mechanics
+  - {name: statistical mechanics, kind: concept, wikipedia: Statistical mechanics, wikidata: Q188715}
+  - {name: microstate, kind: definition, wikipedia: Microstate (statistical mechanics), wikidata: Q611952}
+  - {name: statistical ensemble, kind: definition, wikipedia: Ensemble (mathematical physics), wikidata: Q898535}
+  - {name: microcanonical ensemble, kind: definition, wikipedia: Microcanonical ensemble, wikidata: Q1077769}
+  - {name: canonical ensemble, kind: definition, wikipedia: Canonical ensemble, wikidata: Q1077753}
+  - {name: grand canonical ensemble, kind: definition, wikipedia: Grand canonical ensemble, wikidata: Q1153553}
+  - {name: isothermal–isobaric ensemble, kind: definition, wikipedia: Isothermal–isobaric ensemble, wikidata: Q13638506}
+  - {name: partition function, kind: definition, wikipedia: Partition function (statistical mechanics), wikidata: Q230963}
+  - {name: Boltzmann distribution, kind: definition, wikipedia: Boltzmann distribution, wikidata: Q834200}
+  - {name: Boltzmann's entropy formula, kind: statement, wikipedia: Boltzmann's entropy formula, wikidata: Q375553}
+  - {name: Gibbs entropy, kind: definition, wikipedia: Entropy (statistical thermodynamics), wikidata: Q12727673}
+  - {name: principle of maximum entropy, kind: statement, wikipedia: Principle of maximum entropy, wikidata: Q1417473}
+  - {name: equipartition theorem, kind: statement, wikipedia: Equipartition theorem, wikidata: Q255996}
+  - {name: Gibbs paradox, kind: problem, wikipedia: Gibbs paradox, wikidata: Q691387}
+  - {name: Sackur–Tetrode equation, kind: statement, wikipedia: Sackur–Tetrode equation, wikidata: Q1426583}
+  - {name: Gibbs–Bogoliubov inequality, kind: statement, wikipedia: Helmholtz free energy, wikidata: Q865821}
+  - {name: thermodynamic limit, kind: concept, wikipedia: Thermodynamic limit, wikidata: Q1103484}
+  - {name: equivalence of ensembles, kind: statement, wikipedia: Ensemble (mathematical physics), wikidata: Q898535}
+  - {name: fluctuations and the canonical ensemble, kind: statement, wikipedia: Canonical ensemble, wikidata: Q1077753}
+  - {name: chemical potential, kind: definition, wikipedia: Chemical potential, wikidata: Q737004}
+  # Rigorous equilibrium theory
+  - {name: Gibbs measure, kind: definition, wikipedia: Gibbs measure, wikidata: Q2510435}
+  - {name: Dobrushin–Lanford–Ruelle equations, kind: statement, wikipedia: Gibbs measure, wikidata: Q2510435}
+  - {name: Gibbs variational principle, kind: statement, wikipedia: Gibbs measure, wikidata: Q2510435}
+  - {name: Dobrushin uniqueness criterion, kind: statement, wikipedia: Gibbs measure, wikidata: Q2510435}
+  - {name: cluster expansion, kind: concept, wikipedia: Cluster expansion, wikidata: Q5136697}
+  - {name: Mayer f-function, kind: definition, wikipedia: Mayer f-function, wikidata: Q3075227}
+  - {name: virial expansion, kind: definition, wikipedia: Virial expansion, wikidata: Q900846}
+  - {name: KMS state, kind: definition, wikipedia: KMS state, wikidata: Q3591812}
+  - {name: quantum statistical mechanics, kind: concept, wikipedia: Quantum statistical mechanics, wikidata: Q845260}
+  # Quantum statistics and ideal gases
+  - {name: Maxwell–Boltzmann statistics, kind: definition, wikipedia: Maxwell–Boltzmann statistics, wikidata: Q1206235}
+  - {name: Maxwell–Boltzmann distribution, kind: definition, wikipedia: Maxwell–Boltzmann distribution, wikidata: Q634965}
+  - {name: Fermi–Dirac statistics, kind: definition, wikipedia: Fermi–Dirac statistics, wikidata: Q274072}
+  - {name: Bose–Einstein statistics, kind: definition, wikipedia: Bose–Einstein statistics, wikidata: Q191076}
+  - {name: Fermi gas, kind: example, wikipedia: Fermi gas, wikidata: Q1072904}
+  - {name: Bose gas, kind: example, wikipedia: Bose gas, wikidata: Q1143503}
+  - {name: Bose–Einstein condensation, kind: statement, wikipedia: Bose–Einstein condensate, wikidata: Q46202}
+  - {name: Gross–Pitaevskii equation, kind: definition, wikipedia: Gross–Pitaevskii equation, wikidata: Q910667}
+  - {name: Lieb–Liniger model, kind: example, wikipedia: Lieb–Liniger model, wikidata: Q6543926}
+  - {name: Sommerfeld expansion, kind: statement, wikipedia: Sommerfeld expansion, wikidata: Q7560453}
+  - {name: Planck's law, kind: statement, wikipedia: Planck's law, wikidata: Q212986}
+  - {name: Einstein solid, kind: example, wikipedia: Einstein solid, wikidata: Q1190709}
+  - {name: Debye model, kind: example, wikipedia: Debye model, wikidata: Q1151031}
+  - {name: anyon, kind: concept, wikipedia: Anyon, wikidata: Q5528}
+  - {name: parastatistics, kind: concept, wikipedia: Parastatistics, wikidata: Q7136015}
+  # Classical fluids and liquids
+  - {name: hard spheres, kind: example, wikipedia: Hard spheres, wikidata: Q2435125}
+  - {name: Lennard-Jones potential, kind: example, wikipedia: Lennard-Jones potential, wikidata: Q898493}
+  - {name: van der Waals equation, kind: statement, wikipedia: Van der Waals equation, wikidata: Q254329}
+  - {name: radial distribution function, kind: definition, wikipedia: Radial distribution function, wikidata: Q651160}
+  - {name: Ornstein–Zernike equation, kind: definition, wikipedia: Ornstein–Zernike equation, wikidata: Q3277494}
+  - {name: Percus–Yevick approximation, kind: concept, wikipedia: Percus–Yevick approximation, wikidata: Q3620962}
+  # Lattice spin systems
+  - {name: lattice model, kind: concept, wikipedia: Lattice model (physics), wikidata: Q4394145}
+  - {name: Ising model, kind: example, wikipedia: Ising model, wikidata: Q1076349}
+  - {name: Onsager's solution of the two-dimensional Ising model, kind: statement, wikipedia: Square lattice Ising model, wikidata: Q7581981}
+  - {name: Peierls argument, kind: statement, wikipedia: Ising model, wikidata: Q1076349}
+  - {name: Lee–Yang theorem, kind: statement, wikipedia: Lee–Yang theorem, wikidata: Q6516611}
+  - {name: Griffiths inequality, kind: statement, wikipedia: Griffiths inequality, wikidata: Q5608940}
+  - {name: GHS inequality, kind: statement, wikipedia: Griffiths inequality, wikidata: Q5608940}
+  - {name: Kramers–Wannier duality, kind: statement, wikipedia: Kramers–Wannier duality, wikidata: Q6436046}
+  - {name: Mermin–Wagner theorem, kind: statement, wikipedia: Mermin–Wagner theorem, wikidata: Q1547975}
+  - {name: Aizenman–Higuchi theorem, kind: statement, wikipedia: Ising model, wikidata: Q1076349}
+  - {name: Potts model, kind: example, wikipedia: Potts model, wikidata: Q7235385}
+  - {name: XY model, kind: example, wikipedia: Classical XY model, wikidata: Q469596}
+  - {name: classical Heisenberg model, kind: example, wikipedia: Classical Heisenberg model, wikidata: Q5128287}
+  - {name: n-vector model, kind: example, wikipedia: N-vector model, wikidata: Q1959618}
+  - {name: spherical model, kind: example, wikipedia: Spherical model, wikidata: Q7576711}
+  - {name: Ashkin–Teller model, kind: example, wikipedia: Potts model, wikidata: Q7235385}
+  - {name: ANNNI model, kind: example, wikipedia: ANNNI model, wikidata: Q295734}
+  - {name: Curie–Weiss model, kind: example, wikipedia: Curie–Weiss law, wikidata: Q1144548}
+  - {name: Berezinskii–Kosterlitz–Thouless transition, kind: statement, wikipedia: Berezinskii–Kosterlitz–Thouless transition, wikidata: Q898780}
+  - {name: Fortuin–Kasteleyn random cluster model, kind: definition, wikipedia: Random cluster model, wikidata: Q65067094}
+  - {name: lattice gas, kind: example, wikipedia: Ising model, wikidata: Q1076349}
+  # Exactly solved models
+  - {name: exactly solvable model, kind: concept, wikipedia: Integrable system, wikidata: Q1957758}
+  - {name: transfer matrix method, kind: concept, wikipedia: Transfer-matrix method (statistical mechanics), wikidata: Q7833983}
+  - {name: Bethe lattice, kind: object, wikipedia: Bethe lattice, wikidata: Q794168}
+  - {name: Bethe ansatz, kind: concept, wikipedia: Bethe ansatz, wikidata: Q831226}
+  - {name: quantum inverse scattering method, kind: concept, wikipedia: Quantum inverse scattering method, wikidata: Q17105415}
+  - {name: six-vertex model, kind: example, wikipedia: Ice-type model, wikidata: Q5985139}
+  - {name: Lieb's square ice constant, kind: statement, wikipedia: Lieb's square ice constant, wikidata: Q17097221}
+  - {name: eight-vertex model, kind: example, wikipedia: Eight-vertex model, wikidata: Q5348943}
+  - {name: star–triangle relation, kind: statement, wikipedia: Yang–Baxter equation, wikidata: Q4476530}
+  - {name: hard hexagon model, kind: example, wikipedia: Hard hexagon model, wikidata: Q17020934}
+  - {name: corner transfer matrix, kind: concept, wikipedia: Corner transfer matrix, wikidata: Q5171639}
+  - {name: dimer model, kind: example, wikipedia: Domino tiling, wikidata: Q21042776}
+  - {name: FKT algorithm, kind: statement, wikipedia: FKT algorithm, wikidata: Q5426031}
+  - {name: arctic circle theorem, kind: statement, wikipedia: Aztec diamond, wikidata: Q4832965}
+  - {name: chiral Potts model, kind: example, wikipedia: Chiral Potts model, wikidata: Q17004982}
+  # Disordered systems
+  - {name: spin glass, kind: concept, wikipedia: Spin glass, wikidata: Q1490646}
+  - {name: Edwards–Anderson model, kind: example, wikipedia: Spin glass, wikidata: Q1490646}
+  - {name: Sherrington–Kirkpatrick model, kind: example, wikipedia: Spin glass, wikidata: Q1490646}
+  - {name: Parisi formula, kind: statement, wikipedia: Spin glass, wikidata: Q1490646}
+  - {name: replica trick, kind: concept, wikipedia: Replica trick, wikidata: Q503658}
+  - {name: cavity method, kind: concept, wikipedia: Cavity method, wikidata: Q5055181}
+  - {name: random energy model, kind: example, wikipedia: Random energy model, wikidata: Q2130737}
+  # Phase transitions and critical phenomena
+  - {name: phase transition, kind: concept, wikipedia: Phase transition, wikidata: Q185357}
+  - {name: Ehrenfest classification of phase transitions, kind: definition, wikipedia: Phase transition, wikidata: Q185357}
+  - {name: order parameter, kind: definition, wikipedia: Phase transition, wikidata: Q185357}
+  - {name: Landau theory, kind: concept, wikipedia: Landau theory, wikidata: Q1626812}
+  - {name: mean-field theory, kind: concept, wikipedia: Mean-field theory, wikidata: Q626011}
+  - {name: Ginzburg criterion, kind: statement, wikipedia: Ginzburg criterion, wikidata: Q5563311}
+  - {name: critical phenomena, kind: concept, wikipedia: Critical phenomena, wikidata: Q900634}
+  - {name: critical exponent, kind: definition, wikipedia: Critical exponent, wikidata: Q901927}
+  - {name: scaling relations among critical exponents, kind: statement, wikipedia: Critical exponent, wikidata: Q901927}
+  - {name: Widom scaling hypothesis, kind: statement, wikipedia: Widom scaling, wikidata: Q7998780}
+  - {name: Rushbrooke inequality, kind: statement, wikipedia: Rushbrooke inequality, wikidata: Q7380772}
+  - {name: universality class, kind: concept, wikipedia: Universality class, wikidata: Q25098515}
+  - {name: upper critical dimension, kind: definition, wikipedia: Critical dimension, wikidata: Q3028070}
+  - {name: correlation function, kind: definition, wikipedia: Correlation function (statistical mechanics), wikidata: Q5172856}
+  - {name: Ornstein–Zernike correlation decay, kind: statement, wikipedia: Ornstein–Zernike equation, wikidata: Q3277494}
+  - {name: spontaneous magnetization, kind: concept, wikipedia: Spontaneous magnetization, wikidata: Q7579060}
+  - {name: Lee–Yang zeros, kind: concept, wikipedia: Lee–Yang theorem, wikidata: Q6516611}
+  - {name: quantum phase transition, kind: concept, wikipedia: Quantum phase transition, wikidata: Q2118253}
+  - {name: topological order, kind: concept, wikipedia: Topological order, wikidata: Q17165159}
+  # Renormalization group in statistical mechanics
+  - {name: renormalization group, kind: concept, wikipedia: Renormalization group, wikidata: Q1203669}
+  - {name: block spin transformation, kind: concept, wikipedia: Renormalization group, wikidata: Q1203669}
+  - {name: fixed point of the renormalization group, kind: definition, wikipedia: Renormalization group, wikidata: Q1203669}
+  - {name: relevant and irrelevant operators, kind: definition, wikipedia: Renormalization group, wikidata: Q1203669}
+  - {name: Zamolodchikov c-theorem, kind: statement, wikipedia: C-theorem, wikidata: Q5005965}
+  - {name: Coulomb gas method, kind: concept, wikipedia: Coulomb gas, wikidata: Q121590477}
+  # Percolation and random geometry
+  - {name: bond percolation, kind: definition, wikipedia: Percolation theory, wikidata: Q900918}
+  - {name: directed percolation, kind: example, wikipedia: Directed percolation, wikidata: Q5280413}
+  - {name: Cardy's formula, kind: statement, wikipedia: Cardy formula, wikidata: Q15302927}
+  - {name: Smirnov's theorem on conformal invariance of percolation, kind: statement, wikipedia: Cardy formula, wikidata: Q15302927}
+  - {name: connective constant, kind: definition, wikipedia: Connective constant, wikidata: Q5161701}
+  - {name: Duminil-Copin–Smirnov theorem, kind: statement, wikipedia: Connective constant, wikidata: Q5161701}
+  - {name: invasion percolation, kind: example, wikipedia: Invasion percolation, wikidata: Q24902133}
+  - {name: diffusion-limited aggregation, kind: example, wikipedia: Diffusion-limited aggregation, wikidata: Q1224521}
+  - {name: Eden growth model, kind: example, wikipedia: Eden growth model, wikidata: Q5336964}
+  - {name: abelian sandpile model, kind: example, wikipedia: Abelian sandpile model, wikidata: Q4666685}
+  - {name: self-organized criticality, kind: concept, wikipedia: Self-organized criticality, wikidata: Q1326714}
+  # Kinetic theory
+  - {name: kinetic theory of gases, kind: concept, wikipedia: Kinetic theory of gases, wikidata: Q200286}
+  - {name: Boltzmann equation, kind: definition, wikipedia: Boltzmann equation, wikidata: Q891653}
+  - {name: H-theorem, kind: statement, wikipedia: H-theorem, wikidata: Q899853}
+  - {name: Loschmidt's paradox, kind: problem, wikipedia: Loschmidt's paradox, wikidata: Q3895095}
+  - {name: BBGKY hierarchy, kind: definition, wikipedia: BBGKY hierarchy, wikidata: Q653679}
+  - {name: Lanford's theorem on the Boltzmann–Grad limit, kind: statement, wikipedia: Boltzmann equation, wikidata: Q891653}
+  - {name: Chapman–Enskog theory, kind: concept, wikipedia: Chapman–Enskog theory, wikidata: Q4133108}
+  - {name: Bhatnagar–Gross–Krook operator, kind: definition, wikipedia: Bhatnagar–Gross–Krook operator, wikidata: Q4901423}
+  - {name: Landau damping, kind: statement, wikipedia: Landau damping, wikidata: Q675721}
+  - {name: Vlasov–Poisson system, kind: definition, wikipedia: Vlasov equation, wikidata: Q2323892}
+  - {name: mean free path, kind: definition, wikipedia: Mean free path, wikidata: Q756307}
+  - {name: Kac ring, kind: example, wikipedia: Kac ring, wikidata: Q121879025}
+  - {name: Ehrenfest model, kind: example, wikipedia: Ehrenfest model, wikidata: Q3318105}
+  - {name: Smoluchowski coagulation equation, kind: definition, wikipedia: Smoluchowski coagulation equation, wikidata: Q971184}
+  # Nonequilibrium statistical mechanics
+  - {name: master equation, kind: definition, wikipedia: Master equation, wikidata: Q722878}
+  - {name: detailed balance, kind: definition, wikipedia: Detailed balance, wikidata: Q1201087}
+  - {name: Einstein relation for diffusion, kind: statement, wikipedia: Einstein relation (kinetic theory), wikidata: Q900855}
+  - {name: fluctuation–dissipation theorem, kind: statement, wikipedia: Fluctuation–dissipation theorem, wikidata: Q1434158}
+  - {name: linear response function, kind: definition, wikipedia: Linear response function, wikidata: Q3261000}
+  - {name: Kubo formula, kind: statement, wikipedia: Kubo formula, wikidata: Q114769}
+  - {name: Green–Kubo relations, kind: statement, wikipedia: Green–Kubo relations, wikidata: Q4390265}
+  - {name: Onsager reciprocal relations, kind: statement, wikipedia: Onsager reciprocal relations, wikidata: Q901483}
+  - {name: Kramers–Kronig relations, kind: statement, wikipedia: Kramers–Kronig relations, wikidata: Q1424764}
+  - {name: fluctuation theorem, kind: statement, wikipedia: Fluctuation theorem, wikidata: Q900831}
+  - {name: Jarzynski equality, kind: statement, wikipedia: Jarzynski equality, wikidata: Q864883}
+  - {name: Crooks fluctuation theorem, kind: statement, wikipedia: Crooks fluctuation theorem, wikidata: Q5187911}
+  - {name: Mori–Zwanzig formalism, kind: concept, wikipedia: Mori–Zwanzig formalism, wikidata: Q63966659}
+  - {name: Glauber dynamics, kind: definition, wikipedia: Glauber dynamics, wikidata: Q72148753}
+  - {name: totally asymmetric simple exclusion process, kind: example, wikipedia: Asymmetric simple exclusion process, wikidata: Q297612}
+  - {name: Allen–Cahn equation, kind: definition, wikipedia: Allen–Cahn equation, wikidata: Q4732089}
+  - {name: Cahn–Hilliard equation, kind: definition, wikipedia: Cahn–Hilliard equation, wikidata: Q5017440}
+  - {name: Lifshitz–Slyozov–Wagner theory of coarsening, kind: statement, wikipedia: Ostwald ripening, wikidata: Q903984}
+  - {name: eigenstate thermalization hypothesis, kind: conjecture, wikipedia: Eigenstate thermalization hypothesis, wikidata: Q17008931}
+  - {name: many-body localization, kind: concept, wikipedia: Many-body localization, wikidata: Q60791227}
+  # Quantum spin chains and lattice fermions
+  - {name: quantum Heisenberg model, kind: example, wikipedia: Quantum Heisenberg model, wikidata: Q899196}
+  - {name: transverse-field Ising model, kind: example, wikipedia: Transverse-field Ising model, wikidata: Q85810512}
+  - {name: XXZ model, kind: example, wikipedia: Quantum Heisenberg model, wikidata: Q899196}
+  - {name: AKLT model, kind: example, wikipedia: AKLT model, wikidata: Q4652175}
+  - {name: Lieb–Schultz–Mattis theorem, kind: statement, wikipedia: Quantum Heisenberg model, wikidata: Q899196}
+  - {name: Haldane conjecture, kind: conjecture, wikipedia: AKLT model, wikidata: Q4652175}
+  - {name: Majumdar–Ghosh model, kind: example, wikipedia: Majumdar–Ghosh model, wikidata: Q6738495}
+  - {name: Kitaev chain, kind: example, wikipedia: Kitaev chain, wikidata: Q130781668}
+  - {name: Hubbard model, kind: example, wikipedia: Hubbard model, wikidata: Q1571298}
+  - {name: Lieb–Wu solution of the one-dimensional Hubbard model, kind: statement, wikipedia: Hubbard model, wikidata: Q1571298}
+  - {name: Nagaoka ferromagnetism, kind: statement, wikipedia: Hubbard model, wikidata: Q1571298}
+  - {name: t–J model, kind: example, wikipedia: T-J model, wikidata: Q1049381}
+  - {name: Anderson impurity model, kind: example, wikipedia: Anderson impurity model, wikidata: Q4754237}
+  - {name: Kondo model, kind: example, wikipedia: Kondo model, wikidata: Q1781236}
+  - {name: Jordan–Wigner transformation, kind: definition, wikipedia: Jordan–Wigner transformation, wikidata: Q898893}
+  - {name: Holstein–Primakoff transformation, kind: definition, wikipedia: Holstein–Primakoff transformation, wikidata: Q1625120}
+  - {name: matrix product state, kind: definition, wikipedia: Matrix product state, wikidata: Q17149634}
+  - {name: density matrix renormalization group, kind: concept, wikipedia: Density matrix renormalization group, wikidata: Q5259335}
+  # Condensed matter and the structure of matter
+  - {name: Bravais lattice, kind: definition, wikipedia: Bravais lattice, wikidata: Q865788}
+  - {name: reciprocal lattice, kind: definition, wikipedia: Reciprocal lattice, wikidata: Q164129}
+  - {name: Brillouin zone, kind: definition, wikipedia: Brillouin zone, wikidata: Q917246}
+  - {name: Bloch's theorem, kind: statement, wikipedia: Bloch's theorem, wikidata: Q4454926}
+  - {name: electronic band structure, kind: concept, wikipedia: Electronic band structure, wikidata: Q806380}
+  - {name: Kronig–Penney model, kind: example, wikipedia: Particle in a one-dimensional lattice, wikidata: Q178825}
+  - {name: tight-binding model, kind: example, wikipedia: Tight binding, wikidata: Q902168}
+  - {name: Wannier function, kind: definition, wikipedia: Wannier function, wikidata: Q1152058}
+  - {name: Hofstadter's butterfly, kind: object, wikipedia: Hofstadter's butterfly, wikidata: Q2913166}
+  - {name: Fermi surface, kind: definition, wikipedia: Fermi surface, wikidata: Q1406417}
+  - {name: Fermi liquid theory, kind: concept, wikipedia: Fermi liquid theory, wikidata: Q1890239}
+  - {name: Luttinger liquid, kind: concept, wikipedia: Luttinger liquid, wikidata: Q1430514}
+  - {name: Luttinger's theorem, kind: statement, wikipedia: Luttinger's theorem, wikidata: Q6705975}
+  - {name: quasicrystal, kind: concept, wikipedia: Quasicrystal, wikidata: Q263214}
+  - {name: quantum Hall effect, kind: concept, wikipedia: Quantum Hall effect, wikidata: Q1047822}
+  - {name: TKNN invariant, kind: definition, wikipedia: Quantum Hall effect, wikidata: Q1047822}
+  - {name: Laughlin wavefunction, kind: definition, wikipedia: Laughlin wavefunction, wikidata: Q6498183}
+  - {name: topological insulator, kind: concept, wikipedia: Topological insulator, wikidata: Q1488689}
+  - {name: periodic table of topological insulators, kind: statement, wikipedia: Periodic table of topological insulators and topological superconductors, wikidata: Q55629489}
+  - {name: Su–Schrieffer–Heeger model, kind: example, wikipedia: Su–Schrieffer–Heeger model, wikidata: Q113012911}
+  - {name: BCS theory, kind: concept, wikipedia: BCS theory, wikidata: Q722131}
+  - {name: Ginzburg–Landau theory, kind: concept, wikipedia: Ginzburg–Landau theory, wikidata: Q900905}
+  - {name: Abrikosov vortex lattice, kind: object, wikipedia: Abrikosov vortex, wikidata: Q844575}
+  - {name: London equations, kind: definition, wikipedia: London equations, wikidata: Q1338834}
+  - {name: Bogoliubov theory of the weakly interacting Bose gas, kind: concept, wikipedia: Bogoliubov transformation, wikidata: Q3813244}
+  - {name: Debye–Hückel theory, kind: concept, wikipedia: Debye–Hückel theory, wikidata: Q3526757}
+  - {name: Debye length, kind: definition, wikipedia: Debye length, wikidata: Q898268}
+  # Polymers and soft matter
+  - {name: ideal chain, kind: example, wikipedia: Ideal chain, wikidata: Q1453564}
+  - {name: worm-like chain, kind: example, wikipedia: Worm-like chain, wikidata: Q503490}
+  - {name: Flory–Huggins solution theory, kind: concept, wikipedia: Flory–Huggins solution theory, wikidata: Q5461964}
+  - {name: reptation, kind: concept, wikipedia: Reptation, wikidata: Q7314336}
+  - {name: Oseen–Frank elastic energy of liquid crystals, kind: definition, wikipedia: Distortion free energy density, wikidata: Q5283071}
+  - {name: Landau–de Gennes theory, kind: concept, wikipedia: Landau–de Gennes theory, wikidata: Q129738018}
+  - {name: Onsager's theory of the isotropic–nematic transition, kind: statement, wikipedia: Liquid crystal, wikidata: Q203989}
+  # Computational and analytical techniques
+  - {name: Monte Carlo method in statistical physics, kind: concept, wikipedia: Monte Carlo method in statistical mechanics, wikidata: Q6904698}
+  - {name: Swendsen–Wang algorithm, kind: concept, wikipedia: Swendsen–Wang algorithm, wikidata: Q7655875}
+  - {name: Wolff algorithm, kind: concept, wikipedia: Wolff algorithm, wikidata: Q2588971}
+  - {name: Wang–Landau algorithm, kind: concept, wikipedia: Wang and Landau algorithm, wikidata: Q6522961}
+  - {name: parallel tempering, kind: concept, wikipedia: Parallel tempering, wikidata: Q7135015}
+  - {name: molecular dynamics, kind: concept, wikipedia: Molecular dynamics, wikidata: Q901663}
+  - {name: Hubbard–Stratonovich transformation, kind: definition, wikipedia: Hubbard–Stratonovich transformation, wikidata: Q17027759}
+  - {name: Matsubara frequency, kind: definition, wikipedia: Matsubara summation, wikidata: Q6788014}

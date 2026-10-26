@@ -1,0 +1,219 @@
+# The C2 skeleton of 74-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 74-XX
+title: solid mechanics
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+items:
+  # Foundations of continuum mechanics
+  - {name: continuum mechanics, kind: concept, wikipedia: Continuum mechanics, wikidata: Q193463}
+  - {name: solid mechanics, kind: concept, wikipedia: Solid mechanics, wikidata: Q1080293}
+  - {name: deformation, kind: definition, wikipedia: Deformation (physics), wikidata: Q193514}
+  - {name: Lagrangian and Eulerian description, kind: concept, wikipedia: Lagrangian and Eulerian specification of the flow field, wikidata: Q6418927}
+  - {name: deformation gradient, kind: definition, wikipedia: Finite strain theory, wikidata: Q15300737}
+  - {name: finite strain theory, kind: concept, wikipedia: Finite strain theory, wikidata: Q15300737}
+  - {name: infinitesimal strain theory, kind: concept, wikipedia: Infinitesimal strain theory, wikidata: Q935731}
+  - {name: strain tensor, kind: definition, wikipedia: Strain (mechanics), wikidata: Q1990546}
+  - {name: Cauchy–Green deformation tensor, kind: definition, wikipedia: Finite strain theory, wikidata: Q15300737}
+  - {name: Green–Lagrange strain tensor, kind: definition, wikipedia: Finite strain theory, wikidata: Q15300737}
+  - {name: polar decomposition of the deformation gradient, kind: statement, wikipedia: Polar decomposition, wikidata: Q2101158}
+  - {name: compatibility conditions, kind: statement, wikipedia: Compatibility (mechanics), wikidata: Q5156153}
+  - {name: Saint-Venant compatibility condition, kind: statement, wikipedia: Saint-Venant's compatibility condition, wikidata: Q7400838}
+  - {name: stress, kind: definition, wikipedia: Stress (mechanics), wikidata: Q206175}
+  - {name: Cauchy stress tensor, kind: definition, wikipedia: Cauchy stress tensor, wikidata: Q13409892}
+  - {name: Cauchy's stress theorem, kind: statement, wikipedia: Cauchy stress tensor, wikidata: Q13409892}
+  - {name: Piola–Kirchhoff stress tensors, kind: definition, wikipedia: Piola–Kirchhoff stress tensors, wikidata: Q9291589}
+  - {name: principal stresses, kind: definition, wikipedia: Cauchy stress tensor, wikidata: Q13409892}
+  - {name: stress deviator tensor, kind: definition, wikipedia: Cauchy stress tensor, wikidata: Q13409892}
+  - {name: Mohr's circle, kind: concept, wikipedia: Mohr's circle, wikidata: Q360655}
+  - {name: Cauchy momentum equation, kind: statement, wikipedia: Cauchy momentum equation, wikidata: Q4178434}
+  - {name: Euler's laws of motion, kind: statement, wikipedia: Euler's laws of motion, wikidata: Q5408983}
+  - {name: Reynolds transport theorem, kind: statement, wikipedia: Reynolds transport theorem, wikidata: Q953062}
+  - {name: constitutive equation, kind: concept, wikipedia: Constitutive equation, wikidata: Q1937401}
+  - {name: principle of material frame-indifference, kind: concept, wikipedia: Objective stress rate, wikidata: Q17105043}
+  - {name: objective stress rates, kind: definition, wikipedia: Objective stress rate, wikidata: Q17105043}
+  - {name: Clausius–Duhem inequality, kind: statement, wikipedia: Clausius–Duhem inequality, wikidata: Q5129547}
+  - {name: peridynamics, kind: concept, wikipedia: Peridynamics, wikidata: Q4351291}
+  # Linear elasticity
+  - {name: linear elasticity, kind: concept, wikipedia: Linear elasticity, wikidata: Q3851760}
+  - {name: Hooke's law, kind: statement, wikipedia: Hooke's law, wikidata: Q170282}
+  - {name: elasticity tensor, kind: definition, wikipedia: Elasticity tensor, wikidata: Q18708823}
+  - {name: Young's modulus, kind: definition, wikipedia: Young's modulus, wikidata: Q2091584}
+  - {name: Poisson's ratio, kind: definition, wikipedia: Poisson's ratio, wikidata: Q190453}
+  - {name: shear modulus, kind: definition, wikipedia: Shear modulus, wikidata: Q461466}
+  - {name: bulk modulus, kind: definition, wikipedia: Bulk modulus, wikidata: Q900371}
+  - {name: Lamé parameters, kind: definition, wikipedia: Lamé parameters, wikidata: Q1066623}
+  - {name: Navier–Cauchy equations, kind: definition, wikipedia: Linear elasticity, wikidata: Q3851760}
+  - {name: Beltrami–Michell compatibility equations, kind: statement, wikipedia: Linear elasticity, wikidata: Q3851760}
+  - {name: Airy stress function, kind: definition, wikipedia: Stress functions, wikidata: Q7623439}
+  - {name: plane stress, kind: definition, wikipedia: Plane stress, wikidata: Q7201019}
+  - {name: plane strain, kind: definition, wikipedia: Infinitesimal strain theory, wikidata: Q935731}
+  - {name: Saint-Venant's principle, kind: statement, wikipedia: Saint-Venant's principle, wikidata: Q632673}
+  - {name: Betti's reciprocal theorem, kind: statement, wikipedia: Betti's theorem, wikidata: Q794269}
+  - {name: Castigliano's method, kind: statement, wikipedia: Castigliano's method, wikidata: Q858978}
+  - {name: Clapeyron's theorem, kind: statement, wikipedia: Clapeyron's theorem, wikidata: Q5125859}
+  - {name: Korn's inequality, kind: statement, wikipedia: Korn's inequality, wikidata: Q3154002}
+  - {name: Kelvin solution for a point force, kind: example, wikipedia: Linear elasticity, wikidata: Q3851760}
+  - {name: Boussinesq problem, kind: problem, wikipedia: Contact mechanics, wikidata: Q1783143}
+  - {name: Kirsch equations for a hole in a plate, kind: example, wikipedia: Stress concentration, wikidata: Q542690}
+  - {name: Lamé problem of a thick-walled cylinder, kind: example, wikipedia: Cylinder stress, wikidata: Q5199275}
+  - {name: Papkovich–Neuber solution, kind: statement, wikipedia: Papkovich–Neuber solution, wikidata: Q7133037}
+  - {name: Kolosov–Muskhelishvili formulas, kind: statement, wikipedia: Linear elasticity, wikidata: Q3851760}
+  - {name: Eshelby's inclusion problem, kind: problem, wikipedia: Eshelby's inclusion, wikidata: Q17010929}
+  - {name: anisotropic elasticity, kind: concept, wikipedia: Orthotropic material, wikidata: Q901006}
+  - {name: transverse isotropy, kind: definition, wikipedia: Transverse isotropy, wikidata: Q2449817}
+  - {name: torsion of prismatic bars, kind: problem, wikipedia: Torsion (mechanics), wikidata: Q826575}
+  - {name: Prandtl stress function, kind: definition, wikipedia: Stress functions, wikidata: Q7623439}
+  # Nonlinear elasticity
+  - {name: hyperelastic material, kind: definition, wikipedia: Hyperelastic material, wikidata: Q3801506}
+  - {name: strain energy density function, kind: definition, wikipedia: Strain energy density function, wikidata: Q17106073}
+  - {name: Cauchy elastic material, kind: definition, wikipedia: Cauchy elastic material, wikidata: Q5054339}
+  - {name: neo-Hookean solid, kind: example, wikipedia: Neo-Hookean solid, wikidata: Q6991734}
+  - {name: Mooney–Rivlin solid, kind: example, wikipedia: Mooney–Rivlin solid, wikidata: Q6907763}
+  - {name: Ogden hyperelastic model, kind: example, wikipedia: Ogden hyperelastic model, wikidata: Q7079901}
+  - {name: Saint Venant–Kirchhoff model, kind: example, wikipedia: Hyperelastic material, wikidata: Q3801506}
+  - {name: polyconvexity, kind: definition, wikipedia: Polyconvex function, wikidata: Q7226241}
+  - {name: Ball's existence theorem in nonlinear elasticity, kind: statement, wikipedia: Polyconvex function, wikidata: Q7226241}
+  - {name: rank-one convexity, kind: definition, wikipedia: Polyconvex function, wikidata: Q7226241}
+  - {name: Ericksen's problem of universal deformations, kind: problem, wikipedia: Hyperelastic material, wikidata: Q3801506}
+  # Plasticity
+  - {name: plasticity, kind: concept, wikipedia: Plasticity (physics), wikidata: Q472074}
+  - {name: yield surface, kind: definition, wikipedia: Yield surface, wikidata: Q2288902}
+  - {name: von Mises yield criterion, kind: statement, wikipedia: Von Mises yield criterion, wikidata: Q1319519}
+  - {name: Tresca yield criterion, kind: statement, wikipedia: Yield surface, wikidata: Q2288902}
+  - {name: Mohr–Coulomb theory, kind: concept, wikipedia: Mohr–Coulomb theory, wikidata: Q3417792}
+  - {name: Drucker–Prager yield criterion, kind: statement, wikipedia: Drucker–Prager yield criterion, wikidata: Q421507}
+  - {name: flow plasticity theory, kind: concept, wikipedia: Flow plasticity theory, wikidata: Q1558058}
+  - {name: Drucker stability, kind: definition, wikipedia: Drucker stability, wikidata: Q16000080}
+  - {name: associated flow rule, kind: definition, wikipedia: Flow plasticity theory, wikidata: Q1558058}
+  - {name: work hardening, kind: concept, wikipedia: Work hardening, wikidata: Q1501203}
+  - {name: Prandtl–Reuss equations, kind: definition, wikipedia: Flow plasticity theory, wikidata: Q1558058}
+  - {name: slip-line field theory, kind: concept, wikipedia: Slip line field, wikidata: Q7540843}
+  - {name: limit analysis, kind: concept, wikipedia: Limit analysis, wikidata: Q6549440}
+  - {name: Hencky's theorems on slip lines, kind: statement, wikipedia: Slip line field, wikidata: Q7540843}
+  - {name: crystal plasticity, kind: concept, wikipedia: Crystal plasticity, wikidata: Q107087877}
+  - {name: multiplicative decomposition of the deformation gradient, kind: concept, wikipedia: Finite strain theory, wikidata: Q15300737}
+  - {name: Bauschinger effect, kind: concept, wikipedia: Bauschinger effect, wikidata: Q811864}
+  - {name: creep, kind: concept, wikipedia: Creep (deformation), wikidata: Q462188}
+  # Viscoelasticity and materials with memory
+  - {name: viscoelasticity, kind: concept, wikipedia: Viscoelasticity, wikidata: Q910483}
+  - {name: Maxwell material, kind: example, wikipedia: Maxwell model, wikidata: Q3046593}
+  - {name: Kelvin–Voigt material, kind: example, wikipedia: Kelvin–Voigt material, wikidata: Q3048149}
+  - {name: standard linear solid model, kind: example, wikipedia: Standard linear solid model, wikidata: Q4118814}
+  - {name: Burgers material, kind: example, wikipedia: Burgers material, wikidata: Q4998565}
+  - {name: generalized Maxwell model, kind: example, wikipedia: Generalized Maxwell model, wikidata: Q5532446}
+  - {name: Boltzmann superposition principle, kind: statement, wikipedia: Viscoelasticity, wikidata: Q910483}
+  - {name: relaxation modulus, kind: definition, wikipedia: Stress relaxation, wikidata: Q2576844}
+  - {name: Prony series, kind: definition, wikipedia: Generalized Maxwell model, wikidata: Q5532446}
+  - {name: correspondence principle of viscoelasticity, kind: statement, wikipedia: Viscoelasticity, wikidata: Q910483}
+  - {name: fractional viscoelastic models, kind: concept, wikipedia: Fractional calculus, wikidata: Q1339058}
+  # Coupled effects
+  - {name: thermoelasticity, kind: concept, wikipedia: Thermal stress, wikidata: Q2419918}
+  - {name: Duhamel–Neumann law, kind: statement, wikipedia: Thermal stress, wikidata: Q2419918}
+  - {name: poroelasticity, kind: concept, wikipedia: Poroelasticity, wikidata: Q27888546}
+  - {name: Biot consolidation theory, kind: concept, wikipedia: Poroelasticity, wikidata: Q27888546}
+  - {name: Terzaghi's principle of effective stress, kind: statement, wikipedia: Effective stress, wikidata: Q2251807}
+  - {name: piezoelectricity, kind: concept, wikipedia: Piezoelectricity, wikidata: Q183759}
+  - {name: magnetostriction, kind: concept, wikipedia: Magnetostriction, wikidata: Q840970}
+  - {name: electroactive polymer, kind: concept, wikipedia: Electroactive polymer, wikidata: Q543275}
+  - {name: fluid–structure interaction, kind: concept, wikipedia: Fluid–structure interaction, wikidata: Q478010}
+  # Static problems and stability
+  - {name: elastic instability, kind: concept, wikipedia: Elastic instability, wikidata: Q3799193}
+  - {name: Euler's critical load, kind: statement, wikipedia: Euler's critical load, wikidata: Q3658620}
+  - {name: buckling, kind: concept, wikipedia: Buckling, wikidata: Q693104}
+  - {name: Johnson's parabolic formula, kind: statement, wikipedia: Johnson's parabolic formula, wikidata: Q28405466}
+  - {name: Perry–Robertson formula, kind: statement, wikipedia: Perry–Robertson formula, wikidata: Q7169884}
+  - {name: Koiter's imperfection sensitivity theory, kind: concept, wikipedia: Buckling, wikidata: Q693104}
+  - {name: Lagrange's problem of the strongest column, kind: problem, wikipedia: Euler's critical load, wikidata: Q3658620}
+  - {name: statically indeterminate structure, kind: definition, wikipedia: Statically indeterminate, wikidata: Q333712}
+  - {name: truss, kind: definition, wikipedia: Truss, wikidata: Q1328068}
+  - {name: Maxwell's counting rule for frameworks, kind: statement, wikipedia: Structural rigidity, wikidata: Q7625050}
+  - {name: Cremona diagram, kind: concept, wikipedia: Cremona diagram, wikidata: Q1139590}
+  - {name: contact mechanics, kind: concept, wikipedia: Contact mechanics, wikidata: Q1783143}
+  - {name: Hertzian contact stress, kind: statement, wikipedia: Contact mechanics, wikidata: Q1783143}
+  - {name: Signorini problem, kind: problem, wikipedia: Signorini problem, wikidata: Q7513012}
+  - {name: Johnson–Kendall–Roberts model of adhesive contact, kind: concept, wikipedia: Contact mechanics, wikidata: Q1783143}
+  # Dynamics and waves in solids
+  - {name: elastodynamics, kind: concept, wikipedia: Linear elasticity, wikidata: Q3851760}
+  - {name: P-wave, kind: definition, wikipedia: P wave, wikidata: Q1208908}
+  - {name: S-wave, kind: definition, wikipedia: S wave, wikidata: Q2053186}
+  - {name: Rayleigh wave, kind: definition, wikipedia: Rayleigh wave, wikidata: Q2351144}
+  - {name: Love wave, kind: definition, wikipedia: Love wave, wikidata: Q2307937}
+  - {name: Lamb waves, kind: definition, wikipedia: Lamb waves, wikidata: Q375680}
+  - {name: Stoneley wave, kind: definition, wikipedia: Stoneley wave, wikidata: Q7619265}
+  - {name: Christoffel equation for anisotropic waves, kind: statement, wikipedia: Linear elasticity, wikidata: Q3851760}
+  - {name: acoustoelastic effect, kind: concept, wikipedia: Acoustoelastic effect, wikidata: Q16001652}
+  - {name: Cagniard–De Hoop method, kind: concept, wikipedia: Cagniard–De Hoop method, wikidata: Q5017373}
+  - {name: elastic wave scattering, kind: concept, wikipedia: Seismic wave, wikidata: Q186167}
+  - {name: phonon dispersion in lattices, kind: concept, wikipedia: Phonon, wikidata: Q186608}
+  - {name: elastic metamaterial, kind: concept, wikipedia: Acoustic metamaterial, wikidata: Q3002819}
+  # Thin bodies and structures
+  - {name: beam theory, kind: concept, wikipedia: Euler–Bernoulli beam theory, wikidata: Q805099}
+  - {name: Euler–Bernoulli beam equation, kind: definition, wikipedia: Euler–Bernoulli beam theory, wikidata: Q805099}
+  - {name: Timoshenko–Ehrenfest beam theory, kind: concept, wikipedia: Timoshenko–Ehrenfest beam theory, wikidata: Q2435044}
+  - {name: bending moment, kind: definition, wikipedia: Bending moment, wikidata: Q857244}
+  - {name: shear and moment diagram, kind: concept, wikipedia: Shear and moment diagram, wikidata: Q2037410}
+  - {name: second moment of area, kind: definition, wikipedia: Second moment of area, wikidata: Q835065}
+  - {name: Macaulay's method, kind: concept, wikipedia: Macaulay's method, wikidata: Q6722750}
+  - {name: three-moment equation, kind: statement, wikipedia: Theorem of three moments, wikidata: Q7782348}
+  - {name: conjugate beam method, kind: concept, wikipedia: Conjugate beam method, wikidata: Q5161152}
+  - {name: Euler–Bernoulli elastica, kind: example, wikipedia: Elastica theory, wikidata: Q1324959}
+  - {name: plate theory, kind: concept, wikipedia: Plate theory, wikidata: Q2098720}
+  - {name: Kirchhoff–Love plate theory, kind: concept, wikipedia: Kirchhoff–Love plate theory, wikidata: Q6415020}
+  - {name: Mindlin–Reissner plate theory, kind: concept, wikipedia: Reissner–Mindlin plate theory, wikidata: Q3564249}
+  - {name: biharmonic plate equation, kind: definition, wikipedia: Kirchhoff–Love plate theory, wikidata: Q6415020}
+  - {name: Föppl–von Kármán equations, kind: definition, wikipedia: Föppl–von Kármán equations, wikidata: Q5511705}
+  - {name: bending of plates, kind: concept, wikipedia: Bending of plates, wikidata: Q17004830}
+  - {name: vibration of plates, kind: concept, wikipedia: Vibration of plates, wikidata: Q7924649}
+  - {name: Chladni figures, kind: example, wikipedia: Ernst Chladni, wikidata: Q213579}
+  - {name: shell theory, kind: concept, wikipedia: Plate theory, wikidata: Q2098720}
+  - {name: membrane theory of shells, kind: concept, wikipedia: Membrane theory of shells, wikidata: Q18343730}
+  - {name: Koiter shell model, kind: concept, wikipedia: Plate theory, wikidata: Q2098720}
+  - {name: Gamma-convergence derivation of plate models, kind: concept, wikipedia: Γ-convergence, wikidata: Q278549}
+  - {name: tensegrity, kind: concept, wikipedia: Tensegrity, wikidata: Q1930978}
+  # Homogenization and composites
+  - {name: homogenization, kind: concept, wikipedia: Asymptotic homogenization, wikidata: Q4812185}
+  - {name: effective medium approximations, kind: concept, wikipedia: Effective medium approximations, wikidata: Q2894695}
+  - {name: Voigt and Reuss bounds, kind: statement, wikipedia: Rule of mixtures, wikidata: Q7378968}
+  - {name: Hashin–Shtrikman bounds, kind: statement, wikipedia: Effective medium approximations, wikidata: Q2894695}
+  - {name: representative elementary volume, kind: definition, wikipedia: Representative elementary volume, wikidata: Q7314248}
+  - {name: Mori–Tanaka method, kind: concept, wikipedia: Effective medium approximations, wikidata: Q2894695}
+  - {name: Hill–Mandel condition, kind: statement, wikipedia: Representative elementary volume, wikidata: Q7314248}
+  # Fracture and damage
+  - {name: fracture mechanics, kind: concept, wikipedia: Fracture mechanics, wikidata: Q957852}
+  - {name: Griffith criterion, kind: statement, wikipedia: Fracture mechanics, wikidata: Q957852}
+  - {name: stress intensity factor, kind: definition, wikipedia: Stress intensity factor, wikidata: Q1754376}
+  - {name: fracture toughness, kind: definition, wikipedia: Fracture toughness, wikidata: Q911969}
+  - {name: modes of fracture, kind: definition, wikipedia: Fracture mechanics, wikidata: Q957852}
+  - {name: energy release rate, kind: definition, wikipedia: Energy release rate (fracture mechanics), wikidata: Q7621121}
+  - {name: J-integral, kind: definition, wikipedia: J-integral, wikidata: Q6109458}
+  - {name: Williams crack-tip expansion, kind: statement, wikipedia: Fracture mechanics, wikidata: Q957852}
+  - {name: cohesive zone model, kind: concept, wikipedia: Cohesive zone model, wikidata: Q17007169}
+  - {name: Dugdale strip-yield model, kind: concept, wikipedia: Fracture mechanics, wikidata: Q957852}
+  - {name: crack tip opening displacement, kind: definition, wikipedia: Crack tip opening displacement, wikidata: Q17008045}
+  - {name: Paris' law, kind: statement, wikipedia: Paris' law, wikidata: Q7137166}
+  - {name: fatigue, kind: concept, wikipedia: Fatigue (material), wikidata: Q507234}
+  - {name: Miner's rule, kind: statement, wikipedia: Fatigue (material), wikidata: Q507234}
+  - {name: continuum damage mechanics, kind: concept, wikipedia: Damage mechanics, wikidata: Q2258205}
+  - {name: Eshelby energy-momentum tensor, kind: definition, wikipedia: Configurational mechanics, wikidata: Q16000067}
+  # Phase transitions in solids
+  - {name: martensitic transformation, kind: concept, wikipedia: Diffusionless transformation, wikidata: Q1977001}
+  - {name: shape-memory alloy, kind: concept, wikipedia: Shape-memory alloy, wikidata: Q898455}
+  - {name: Ball–James theory of microstructure, kind: concept, wikipedia: Diffusionless transformation, wikidata: Q1977001}
+  - {name: phase-field model, kind: concept, wikipedia: Phase-field model, wikidata: Q1640482}
+  # Optimization in solid mechanics
+  - {name: topology optimization, kind: concept, wikipedia: Topology optimization, wikidata: Q2443456}
+  - {name: shape optimization, kind: concept, wikipedia: Shape optimization, wikidata: Q7489239}
+  - {name: Michell structures, kind: example, wikipedia: Michell structures, wikidata: Q60790440}
+  # Methods
+  - {name: principle of minimum total potential energy, kind: statement, wikipedia: Minimum total potential energy principle, wikidata: Q6865491}
+  - {name: Hu–Washizu principle, kind: statement, wikipedia: Hu–Washizu principle, wikidata: Q17027345}
+  - {name: Hellinger–Reissner principle, kind: statement, wikipedia: Hu–Washizu principle, wikidata: Q17027345}
+  - {name: Rayleigh–Ritz method, kind: concept, wikipedia: Rayleigh–Ritz method, wikidata: Q852247}
+  - {name: finite element method in structural mechanics, kind: concept, wikipedia: Finite element method in structural mechanics, wikidata: Q5450397}
+  - {name: direct stiffness method, kind: concept, wikipedia: Direct stiffness method, wikidata: Q2280635}
+  - {name: flexibility method, kind: concept, wikipedia: Flexibility method, wikidata: Q492260}
+  - {name: patch test, kind: concept, wikipedia: Patch test (finite elements), wikidata: Q2056643}
+  - {name: boundary element method, kind: concept, wikipedia: Boundary element method, wikidata: Q1935004}
+  - {name: Somigliana identity, kind: statement, wikipedia: Boundary element method, wikidata: Q1935004}

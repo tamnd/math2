@@ -1,0 +1,260 @@
+# The C2 skeleton of 91-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 91-XX
+title: games, economics, finance and social sciences
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+items:
+  # Basic notions of noncooperative games
+  - {name: game theory, kind: concept, wikipedia: Game theory, wikidata: Q44455}
+  - {name: normal-form game, kind: definition, wikipedia: Normal-form game, wikidata: Q1069099}
+  - {name: extensive-form game, kind: definition, wikipedia: Extensive-form game, wikidata: Q656416}
+  - {name: pure and mixed strategy, kind: definition, wikipedia: Strategy (game theory), wikidata: Q1546627}
+  - {name: strategic dominance, kind: definition, wikipedia: Strategic dominance, wikidata: Q282491}
+  - {name: best response, kind: definition, wikipedia: Best response, wikidata: Q2733833}
+  - {name: rationalizability, kind: definition, wikipedia: Rationalizable strategy, wikidata: Q2132788}
+  - {name: Nash equilibrium, kind: definition, wikipedia: Nash equilibrium, wikidata: Q23389}
+  - {name: Nash's existence theorem, kind: statement, wikipedia: Nash equilibrium, wikidata: Q23389}
+  - {name: zero-sum game, kind: definition, wikipedia: Zero-sum game, wikidata: Q156612}
+  - {name: von Neumann's minimax theorem, kind: statement, wikipedia: Minimax theorem, wikidata: Q913849}
+  - {name: Lemke–Howson algorithm, kind: definition, wikipedia: Lemke–Howson algorithm, wikidata: Q6521170}
+  - {name: complexity of computing a Nash equilibrium, kind: statement, wikipedia: PPAD (complexity), wikidata: Q7120085}
+  - {name: correlated equilibrium, kind: definition, wikipedia: Correlated equilibrium, wikidata: Q964667}
+  - {name: potential game, kind: definition, wikipedia: Potential game, wikidata: Q288500}
+  - {name: congestion game, kind: definition, wikipedia: Congestion game, wikidata: Q5160467}
+  - {name: Blotto game, kind: example, wikipedia: Blotto game, wikidata: Q1280481}
+  # Classical example games
+  - {name: prisoner's dilemma, kind: example, wikipedia: Prisoner's dilemma, wikidata: Q41693}
+  - {name: matching pennies, kind: example, wikipedia: Matching pennies, wikidata: Q915573}
+  - {name: battle of the sexes, kind: example, wikipedia: Battle of the sexes (game theory), wikidata: Q1187614}
+  - {name: game of chicken, kind: example, wikipedia: Chicken (game), wikidata: Q41720}
+  - {name: stag hunt, kind: example, wikipedia: Stag hunt, wikidata: Q1025469}
+  - {name: centipede game, kind: example, wikipedia: Centipede game, wikidata: Q1463264}
+  - {name: ultimatum game, kind: example, wikipedia: Ultimatum game, wikidata: Q2295916}
+  # Dynamic games and refinements
+  - {name: backward induction, kind: definition, wikipedia: Backward induction, wikidata: Q968642}
+  - {name: Zermelo's theorem, kind: statement, wikipedia: Zermelo's theorem (game theory), wikidata: Q2468326}
+  - {name: subgame perfect equilibrium, kind: definition, wikipedia: Subgame perfect equilibrium, wikidata: Q1615834}
+  - {name: trembling hand perfect equilibrium, kind: definition, wikipedia: Trembling hand perfect equilibrium, wikidata: Q1039525}
+  - {name: proper equilibrium, kind: definition, wikipedia: Proper equilibrium, wikidata: Q4426118}
+  - {name: sequential equilibrium, kind: definition, wikipedia: Sequential equilibrium, wikidata: Q2897085}
+  - {name: repeated game, kind: definition, wikipedia: Repeated game, wikidata: Q1584646}
+  - {name: folk theorem, kind: statement, wikipedia: Folk theorem (game theory), wikidata: Q650738}
+  - {name: stochastic game, kind: definition, wikipedia: Stochastic game, wikidata: Q1074380}
+  - {name: differential game, kind: definition, wikipedia: Differential game, wikidata: Q1973196}
+  - {name: pursuit–evasion, kind: problem, wikipedia: Pursuit–evasion, wikidata: Q7261573}
+  - {name: homicidal chauffeur problem, kind: problem, wikipedia: Homicidal chauffeur problem, wikidata: Q5890773}
+  # Games of incomplete information
+  - {name: Bayesian game, kind: definition, wikipedia: Bayesian game, wikidata: Q812529}
+  - {name: Harsanyi's purification theorem, kind: statement, wikipedia: Purification theorem, wikidata: Q5313424}
+  - {name: perfect Bayesian equilibrium, kind: definition, wikipedia: Perfect Bayesian equilibrium, wikidata: Q2793291}
+  - {name: signaling game, kind: definition, wikipedia: Signaling game, wikidata: Q1086723}
+  - {name: cheap talk, kind: definition, wikipedia: Cheap talk, wikidata: Q5088884}
+  - {name: global game, kind: definition, wikipedia: Global game, wikidata: Q5570845}
+  - {name: common knowledge, kind: definition, wikipedia: Common knowledge (logic), wikidata: Q372650}
+  - {name: Aumann's agreement theorem, kind: statement, wikipedia: Aumann's agreement theorem, wikidata: Q4454919}
+  - {name: no-trade theorem, kind: statement, wikipedia: No-trade theorem, wikidata: Q7042801}
+  # Evolutionary games and learning
+  - {name: evolutionarily stable strategy, kind: definition, wikipedia: Evolutionarily stable strategy, wikidata: Q1069992}
+  - {name: replicator equation, kind: definition, wikipedia: Replicator equation, wikidata: Q2145081}
+  - {name: folk theorem of evolutionary game theory, kind: statement, wikipedia: Replicator equation, wikidata: Q2145081}
+  - {name: fictitious play, kind: definition, wikipedia: Fictitious play, wikidata: Q1411116}
+  - {name: regret matching and convergence to correlated equilibrium, kind: statement, wikipedia: Correlated equilibrium, wikidata: Q964667}
+  # Combinatorial games
+  - {name: combinatorial game theory, kind: concept, wikipedia: Combinatorial game theory, wikidata: Q1320931}
+  - {name: nim, kind: example, wikipedia: Nim, wikidata: Q724409}
+  - {name: Sprague–Grundy theorem, kind: statement, wikipedia: Sprague–Grundy theorem, wikidata: Q1687147}
+  - {name: strategy-stealing argument, kind: statement, wikipedia: Strategy-stealing argument, wikidata: Q1158962}
+  - {name: Hex theorem that the first player wins, kind: statement, wikipedia: Hex (board game), wikidata: Q844874}
+  # Cooperative games
+  - {name: cooperative game theory, kind: concept, wikipedia: Cooperative game theory, wikidata: Q1418321}
+  - {name: core of a cooperative game, kind: definition, wikipedia: Core (game theory), wikidata: Q2630146}
+  - {name: Bondareva–Shapley theorem, kind: statement, wikipedia: Bondareva–Shapley theorem, wikidata: Q4941364}
+  - {name: Shapley value, kind: definition, wikipedia: Shapley value, wikidata: Q240046}
+  - {name: nucleolus, kind: definition, wikipedia: Nucleolus (game theory), wikidata: Q19612787}
+  - {name: Banzhaf power index, kind: definition, wikipedia: Banzhaf power index, wikidata: Q2742375}
+  - {name: Shapley–Shubik power index, kind: definition, wikipedia: Shapley–Shubik power index, wikidata: Q2915939}
+  - {name: bargaining problem, kind: problem, wikipedia: Cooperative bargaining, wikidata: Q1516247}
+  - {name: Nash bargaining solution, kind: statement, wikipedia: Cooperative bargaining, wikidata: Q1516247}
+  - {name: Kalai–Smorodinsky bargaining solution, kind: definition, wikipedia: Kalai–Smorodinsky bargaining solution, wikidata: Q7029725}
+  - {name: Rubinstein bargaining model, kind: statement, wikipedia: Rubinstein bargaining model, wikidata: Q7376152}
+  # Matching theory
+  - {name: stable marriage problem, kind: problem, wikipedia: Stable matching problem, wikidata: Q620702}
+  - {name: Gale–Shapley algorithm, kind: statement, wikipedia: Gale–Shapley algorithm, wikidata: Q65123731}
+  - {name: lattice of stable matchings, kind: statement, wikipedia: Lattice of stable matchings, wikidata: Q85775934}
+  - {name: rural hospitals theorem, kind: statement, wikipedia: Rural hospitals theorem, wikidata: Q65119854}
+  - {name: stable roommates problem, kind: problem, wikipedia: Stable roommates problem, wikidata: Q3406260}
+  - {name: top trading cycle, kind: definition, wikipedia: Top trading cycle, wikidata: Q24964889}
+  # Mechanism design and auctions
+  - {name: mechanism design, kind: concept, wikipedia: Mechanism design, wikidata: Q26090}
+  - {name: incentive compatibility, kind: definition, wikipedia: Incentive compatibility, wikidata: Q7731670}
+  - {name: revelation principle, kind: statement, wikipedia: Revelation principle, wikidata: Q7317833}
+  - {name: auction theory, kind: concept, wikipedia: Auction theory, wikidata: Q771334}
+  - {name: Vickrey auction, kind: definition, wikipedia: Vickrey auction, wikidata: Q243758}
+  - {name: first-price sealed-bid auction, kind: definition, wikipedia: First-price sealed-bid auction, wikidata: Q1362360}
+  - {name: Vickrey–Clarke–Groves mechanism, kind: definition, wikipedia: Vickrey–Clarke–Groves mechanism, wikidata: Q25304551}
+  - {name: revenue equivalence theorem, kind: statement, wikipedia: Revenue equivalence, wikidata: Q431186}
+  - {name: Myerson's optimal auction, kind: statement, wikipedia: Auction theory, wikidata: Q771334}
+  - {name: Myerson–Satterthwaite theorem, kind: statement, wikipedia: Myerson–Satterthwaite theorem, wikidata: Q6947442}
+  - {name: winner's curse, kind: concept, wikipedia: Winner's curse, wikidata: Q617228}
+  # Social choice and voting
+  - {name: social choice theory, kind: concept, wikipedia: Social choice theory, wikidata: Q1971461}
+  - {name: social welfare function, kind: definition, wikipedia: Social welfare function, wikidata: Q1754086}
+  - {name: Condorcet paradox, kind: counterexample, wikipedia: Condorcet paradox, wikidata: Q745768}
+  - {name: Arrow's impossibility theorem, kind: statement, wikipedia: Arrow's impossibility theorem, wikidata: Q33481}
+  - {name: May's theorem, kind: statement, wikipedia: May's theorem, wikidata: Q1056283}
+  - {name: Gibbard–Satterthwaite theorem, kind: statement, wikipedia: Gibbard–Satterthwaite theorem, wikidata: Q612021}
+  - {name: Gibbard's theorem, kind: statement, wikipedia: Gibbard's theorem, wikidata: Q29479399}
+  - {name: Sen's liberal paradox, kind: statement, wikipedia: Liberal paradox, wikidata: Q1261223}
+  - {name: median voter theorem, kind: statement, wikipedia: Median voter theorem, wikidata: Q648511}
+  - {name: McKelvey–Schofield chaos theorem, kind: statement, wikipedia: McKelvey–Schofield chaos theorem, wikidata: Q25099354}
+  - {name: Condorcet's jury theorem, kind: statement, wikipedia: Condorcet's jury theorem, wikidata: Q744925}
+  - {name: Condorcet method, kind: definition, wikipedia: Condorcet method, wikidata: Q868720}
+  - {name: Borda count, kind: definition, wikipedia: Borda count, wikidata: Q576578}
+  - {name: Kemeny–Young method, kind: definition, wikipedia: Kemeny method, wikidata: Q6386915}
+  - {name: apportionment paradox, kind: counterexample, wikipedia: Apportionment paradox, wikidata: Q13627582}
+  - {name: Balinski–Young theorem, kind: statement, wikipedia: Apportionment paradox, wikidata: Q13627582}
+  # Fair division
+  - {name: fair division, kind: concept, wikipedia: Fair division, wikidata: Q1511081}
+  - {name: fair cake-cutting, kind: problem, wikipedia: Fair cake-cutting, wikidata: Q18206991}
+  - {name: envy-freeness, kind: definition, wikipedia: Envy-freeness, wikidata: Q24963523}
+  - {name: divide and choose, kind: definition, wikipedia: Divide and choose, wikidata: Q2139889}
+  - {name: Selfridge–Conway procedure, kind: definition, wikipedia: Selfridge–Conway procedure, wikidata: Q17145741}
+  - {name: Dubins–Spanier theorems, kind: statement, wikipedia: Dubins–Spanier theorems, wikidata: Q24963391}
+  - {name: rental harmony, kind: statement, wikipedia: Rental harmony, wikidata: Q24964528}
+  # Decision theory and utility
+  - {name: preference relation, kind: definition, wikipedia: Preference (economics), wikidata: Q1416170}
+  - {name: utility function, kind: definition, wikipedia: Utility, wikidata: Q466707}
+  - {name: Debreu's representation theorem, kind: statement, wikipedia: Debreu's representation theorems, wikidata: Q22907698}
+  - {name: expected utility hypothesis, kind: concept, wikipedia: Expected utility hypothesis, wikidata: Q2319304}
+  - {name: von Neumann–Morgenstern utility theorem, kind: statement, wikipedia: Von Neumann–Morgenstern utility theorem, wikidata: Q4358367}
+  - {name: subjective expected utility, kind: statement, wikipedia: Subjective expected utility, wikidata: Q1425777}
+  - {name: risk aversion, kind: definition, wikipedia: Risk aversion, wikidata: Q1426675}
+  - {name: Arrow–Pratt measure of risk aversion, kind: definition, wikipedia: Risk aversion, wikidata: Q1426675}
+  - {name: certainty equivalent, kind: definition, wikipedia: Expected utility hypothesis, wikidata: Q2319304}
+  - {name: stochastic dominance, kind: definition, wikipedia: Stochastic dominance, wikidata: Q3713315}
+  - {name: St. Petersburg paradox, kind: counterexample, wikipedia: St. Petersburg paradox, wikidata: Q874375}
+  - {name: Allais paradox, kind: counterexample, wikipedia: Allais paradox, wikidata: Q1890213}
+  - {name: Ellsberg paradox, kind: counterexample, wikipedia: Ellsberg paradox, wikidata: Q1332562}
+  - {name: prospect theory, kind: concept, wikipedia: Prospect theory, wikidata: Q1151839}
+  - {name: revealed preference, kind: concept, wikipedia: Revealed preference, wikidata: Q1323737}
+  - {name: Afriat's theorem, kind: statement, wikipedia: Revealed preference, wikidata: Q1323737}
+  # Consumer and producer theory
+  - {name: utility maximization problem, kind: problem, wikipedia: Utility maximization problem, wikidata: Q3274096}
+  - {name: Marshallian demand function, kind: definition, wikipedia: Marshallian demand function, wikidata: Q1902828}
+  - {name: Hicksian demand function, kind: definition, wikipedia: Hicksian demand function, wikidata: Q204922}
+  - {name: indirect utility function, kind: definition, wikipedia: Indirect utility function, wikidata: Q1573178}
+  - {name: expenditure minimization problem, kind: problem, wikipedia: Expenditure minimization problem, wikidata: Q5253365}
+  - {name: Slutsky equation, kind: statement, wikipedia: Slutsky equation, wikidata: Q431721}
+  - {name: Roy's identity, kind: statement, wikipedia: Roy's identity, wikidata: Q655196}
+  - {name: Shephard's lemma, kind: statement, wikipedia: Shephard's lemma, wikidata: Q1536466}
+  - {name: Hotelling's lemma, kind: statement, wikipedia: Hotelling's lemma, wikidata: Q139965}
+  - {name: envelope theorem, kind: statement, wikipedia: Envelope theorem, wikidata: Q2478371}
+  - {name: Berge's maximum theorem, kind: statement, wikipedia: Maximum theorem, wikidata: Q6795920}
+  - {name: Cobb–Douglas production function, kind: definition, wikipedia: Cobb–Douglas production function, wikidata: Q847163}
+  - {name: constant elasticity of substitution, kind: definition, wikipedia: Constant elasticity of substitution, wikidata: Q520134}
+  - {name: Leontief production function, kind: definition, wikipedia: Leontief production function, wikidata: Q1819524}
+  # General equilibrium and welfare
+  - {name: general equilibrium theory, kind: concept, wikipedia: General equilibrium theory, wikidata: Q282640}
+  - {name: Arrow–Debreu model, kind: definition, wikipedia: Arrow–Debreu model, wikidata: Q702933}
+  - {name: existence of competitive equilibrium, kind: statement, wikipedia: Arrow–Debreu model, wikidata: Q702933}
+  - {name: competitive equilibrium, kind: definition, wikipedia: Competitive equilibrium, wikidata: Q5156353}
+  - {name: Walras's law, kind: statement, wikipedia: Walras's law, wikidata: Q1089697}
+  - {name: Pareto efficiency, kind: definition, wikipedia: Pareto efficiency, wikidata: Q36829}
+  - {name: fundamental theorems of welfare economics, kind: statement, wikipedia: Fundamental theorems of welfare economics, wikidata: Q467205}
+  - {name: Edgeworth box, kind: definition, wikipedia: Edgeworth box, wikidata: Q987653}
+  - {name: Edgeworth's limit theorem, kind: statement, wikipedia: Edgeworth's limit theorem, wikidata: Q5337931}
+  - {name: Sonnenschein–Mantel–Debreu theorem, kind: statement, wikipedia: Sonnenschein–Mantel–Debreu theorem, wikidata: Q925224}
+  - {name: Fisher market, kind: definition, wikipedia: Fisher market, wikidata: Q25304970}
+  - {name: input–output model, kind: definition, wikipedia: Input–output model, wikidata: Q1140255}
+  - {name: Hawkins–Simon condition, kind: statement, wikipedia: Hawkins–Simon condition, wikidata: Q28456162}
+  # Market structure and information
+  - {name: Cournot competition, kind: definition, wikipedia: Cournot competition, wikidata: Q601799}
+  - {name: Bertrand competition, kind: definition, wikipedia: Bertrand competition, wikidata: Q828555}
+  - {name: Stackelberg competition, kind: definition, wikipedia: Stackelberg competition, wikidata: Q1184602}
+  - {name: Hotelling's law, kind: statement, wikipedia: Hotelling's law, wikidata: Q1631149}
+  - {name: principal–agent problem, kind: problem, wikipedia: Principal–agent problem, wikidata: Q1053211}
+  - {name: market for lemons, kind: example, wikipedia: The Market for Lemons, wikidata: Q555438}
+  - {name: Spence signaling model, kind: definition, wikipedia: Signalling (economics), wikidata: Q3262595}
+  # Economic growth and dynamics
+  - {name: Solow–Swan model, kind: definition, wikipedia: Solow–Swan model, wikidata: Q777494}
+  - {name: golden rule savings rate, kind: statement, wikipedia: Golden Rule savings rate, wikidata: Q1535347}
+  - {name: Ramsey–Cass–Koopmans model, kind: definition, wikipedia: Ramsey–Cass–Koopmans model, wikidata: Q3137640}
+  - {name: overlapping generations model, kind: definition, wikipedia: Overlapping generations model, wikidata: Q1036426}
+  - {name: cobweb model, kind: definition, wikipedia: Cobweb model, wikidata: Q593544}
+  - {name: Hotelling's rule, kind: statement, wikipedia: Hotelling's rule, wikidata: Q443972}
+  - {name: Ramsey problem of optimal taxation, kind: problem, wikipedia: Ramsey problem, wikidata: Q1757797}
+  # Inequality measurement
+  - {name: Lorenz curve, kind: definition, wikipedia: Lorenz curve, wikidata: Q430378}
+  - {name: Gini coefficient, kind: definition, wikipedia: Gini coefficient, wikidata: Q162455}
+  - {name: Atkinson index, kind: definition, wikipedia: Atkinson index, wikidata: Q165495}
+  - {name: Theil index, kind: definition, wikipedia: Theil index, wikidata: Q1655361}
+  # Portfolio theory
+  - {name: modern portfolio theory, kind: concept, wikipedia: Modern portfolio theory, wikidata: Q1072885}
+  - {name: efficient frontier, kind: definition, wikipedia: Efficient frontier, wikidata: Q16966861}
+  - {name: mutual fund separation theorem, kind: statement, wikipedia: Mutual fund separation theorem, wikidata: Q17082552}
+  - {name: capital asset pricing model, kind: definition, wikipedia: Capital asset pricing model, wikidata: Q848354}
+  - {name: arbitrage pricing theory, kind: definition, wikipedia: Arbitrage pricing theory, wikidata: Q629941}
+  - {name: Kelly criterion, kind: statement, wikipedia: Kelly criterion, wikidata: Q2065471}
+  - {name: Merton's portfolio problem, kind: problem, wikipedia: Merton's portfolio problem, wikidata: Q3467003}
+  # Arbitrage and derivative pricing
+  - {name: arbitrage, kind: definition, wikipedia: Arbitrage, wikidata: Q273088}
+  - {name: fundamental theorem of asset pricing, kind: statement, wikipedia: Fundamental theorem of asset pricing, wikidata: Q5508973}
+  - {name: risk-neutral measure, kind: definition, wikipedia: Risk-neutral measure, wikidata: Q1058362}
+  - {name: complete market, kind: definition, wikipedia: Complete market, wikidata: Q5156507}
+  - {name: put–call parity, kind: statement, wikipedia: Put–call parity, wikidata: Q1183706}
+  - {name: binomial options pricing model, kind: definition, wikipedia: Binomial options pricing model, wikidata: Q1138253}
+  - {name: Black–Scholes model, kind: definition, wikipedia: Black–Scholes model, wikidata: Q1338307}
+  - {name: Black–Scholes equation, kind: definition, wikipedia: Black–Scholes equation, wikidata: Q17005676}
+  - {name: Greeks, kind: definition, wikipedia: Greeks (finance), wikidata: Q1321169}
+  - {name: implied volatility, kind: definition, wikipedia: Implied volatility, wikidata: Q1660345}
+  - {name: volatility smile, kind: concept, wikipedia: Volatility smile, wikidata: Q915788}
+  - {name: local volatility and Dupire's formula, kind: statement, wikipedia: Local volatility, wikidata: Q6664586}
+  - {name: stochastic volatility, kind: concept, wikipedia: Stochastic volatility, wikidata: Q596307}
+  - {name: Heston model, kind: definition, wikipedia: Heston model, wikidata: Q5746554}
+  - {name: SABR volatility model, kind: definition, wikipedia: SABR volatility model, wikidata: Q7388452}
+  - {name: jump diffusion model, kind: definition, wikipedia: Jump diffusion, wikidata: Q6311158}
+  - {name: Monte Carlo methods in finance, kind: concept, wikipedia: Monte Carlo methods in finance, wikidata: Q6904707}
+  # Interest rate and credit models
+  - {name: short-rate model, kind: concept, wikipedia: Short-rate model, wikidata: Q4162534}
+  - {name: Vasicek model, kind: definition, wikipedia: Vasicek model, wikidata: Q2331759}
+  - {name: Cox–Ingersoll–Ross model, kind: definition, wikipedia: Cox–Ingersoll–Ross model, wikidata: Q4385634}
+  - {name: Hull–White model, kind: definition, wikipedia: Hull–White model, wikidata: Q6148579}
+  - {name: affine term structure model, kind: definition, wikipedia: Affine term structure model, wikidata: Q4688953}
+  - {name: Heath–Jarrow–Morton framework, kind: definition, wikipedia: Heath–Jarrow–Morton framework, wikidata: Q1563747}
+  - {name: LIBOR market model, kind: definition, wikipedia: LIBOR market model, wikidata: Q1225659}
+  - {name: Merton model of credit risk, kind: definition, wikipedia: Merton model, wikidata: Q85784999}
+  - {name: Jarrow–Turnbull model, kind: definition, wikipedia: Jarrow–Turnbull model, wikidata: Q6161129}
+  # Risk measures
+  - {name: value at risk, kind: definition, wikipedia: Value at risk, wikidata: Q963287}
+  - {name: expected shortfall, kind: definition, wikipedia: Expected shortfall, wikidata: Q5420856}
+  - {name: coherent risk measure, kind: definition, wikipedia: Coherent risk measure, wikidata: Q5141358}
+  - {name: spectral risk measure, kind: definition, wikipedia: Spectral risk measure, wikidata: Q7575204}
+  # Actuarial mathematics
+  - {name: ruin theory, kind: concept, wikipedia: Ruin theory, wikidata: Q17082609}
+  - {name: Cramér–Lundberg model, kind: definition, wikipedia: Ruin theory, wikidata: Q17082609}
+  - {name: Lundberg inequality, kind: statement, wikipedia: Ruin theory, wikidata: Q17082609}
+  - {name: credibility theory, kind: concept, wikipedia: Credibility theory, wikidata: Q3526803}
+  - {name: Bühlmann model, kind: definition, wikipedia: Bühlmann model, wikidata: Q5005264}
+  - {name: life table, kind: definition, wikipedia: Life table, wikidata: Q632184}
+  - {name: Gompertz–Makeham law of mortality, kind: definition, wikipedia: Gompertz–Makeham law of mortality, wikidata: Q2734378}
+  - {name: actuarial present value, kind: definition, wikipedia: Actuarial present value, wikidata: Q4677848}
+  - {name: chain-ladder method, kind: definition, wikipedia: Chain-ladder method, wikidata: Q24964664}
+  # Mathematical sociology
+  - {name: Schelling's segregation model, kind: definition, wikipedia: Schelling's model of segregation, wikidata: Q96405082}
+  - {name: threshold model of collective behavior, kind: definition, wikipedia: Threshold model, wikidata: Q7798106}
+  - {name: structural balance theorem, kind: statement, wikipedia: Balance theory, wikidata: Q445546}
+  - {name: DeGroot learning, kind: definition, wikipedia: DeGroot learning, wikidata: Q5243912}
+  - {name: centrality, kind: concept, wikipedia: Centrality, wikidata: Q5062194}
+  - {name: friendship paradox, kind: statement, wikipedia: Friendship paradox, wikidata: Q1455885}
+  # Mathematical psychology and other social sciences
+  - {name: signal detection theory, kind: concept, wikipedia: Detection theory, wikidata: Q120811}
+  - {name: Luce's choice axiom, kind: statement, wikipedia: Luce's choice axiom, wikidata: Q6696419}
+  - {name: law of comparative judgment, kind: definition, wikipedia: Law of comparative judgment, wikidata: Q2992415}
+  - {name: Rasch model, kind: definition, wikipedia: Rasch model, wikidata: Q2131821}
+  - {name: Rescorla–Wagner model, kind: definition, wikipedia: Rescorla–Wagner model, wikidata: Q1248527}
+  - {name: Weber–Fechner law, kind: statement, wikipedia: Weber–Fechner law, wikidata: Q835216}
+  - {name: knowledge space, kind: definition, wikipedia: Knowledge space, wikidata: Q6423397}
+  - {name: Lanchester's laws, kind: statement, wikipedia: Lanchester's laws, wikidata: Q388738}
+  - {name: Zipf's law, kind: statement, wikipedia: Zipf's law, wikidata: Q205472}

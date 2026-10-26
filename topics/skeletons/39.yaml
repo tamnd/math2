@@ -1,0 +1,182 @@
+# The C2 skeleton of 39-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 39-XX
+title: functional and difference equations
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+  mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
+items:
+  # Difference equations: basic notions
+  - {name: difference equation, kind: definition, wikipedia: Recurrence relation, wikidata: Q740970}
+  - {name: order of a difference equation, kind: definition, wikipedia: Recurrence relation, wikidata: Q740970}
+  - {name: initial value problem for a recurrence, kind: concept, wikipedia: Recurrence relation, wikidata: Q740970}
+  - {name: finite difference, kind: definition, wikipedia: Finite difference, wikidata: Q2068418}
+  - {name: forward difference operator, kind: definition, decl: fwdDiff, wikipedia: Finite difference, wikidata: Q2068418}
+  - {name: backward difference operator, kind: definition, wikipedia: Finite difference, wikidata: Q2068418}
+  - {name: central difference, kind: definition, wikipedia: Finite difference, wikidata: Q2068418}
+  - {name: higher-order differences, kind: definition, wikipedia: Finite difference, wikidata: Q2068418}
+  - {name: shift operator, kind: definition, wikipedia: Shift operator, wikidata: Q2278680}
+  - {name: expansion of iterated differences in shifts, kind: statement, decl: fwdDiff_iter_eq_sum_shift, wikipedia: Finite difference, wikidata: Q2068418}
+  - {name: Newton's forward difference formula, kind: statement, decl: shift_eq_sum_fwdDiff_iter, wikipedia: Newton polynomial, wikidata: Q2746387}
+  - {name: differences of polynomials vanish beyond the degree, kind: statement, decl: Polynomial.fwdDiff_iter_eq_zero_of_degree_lt, wikipedia: Finite difference, wikidata: Q2068418}
+  - {name: calculus of finite differences, kind: concept, wikipedia: Finite difference, wikidata: Q2068418}
+  - {name: difference quotient, kind: definition, wikipedia: Difference quotient, wikidata: Q1224446}
+  - {name: indefinite sum, kind: definition, wikipedia: Indefinite sum, wikidata: Q6015812}
+  - {name: fundamental theorem of the calculus of finite differences, kind: statement, decl: sum_range_shift_eq_sum_fwdDiff_iter, wikipedia: Indefinite sum, wikidata: Q6015812}
+  - {name: summation by parts, kind: statement, wikipedia: Summation by parts, wikidata: Q318754}
+  - {name: falling factorial power, kind: definition, wikipedia: Falling and rising factorials, wikidata: Q2339261}
+  - {name: Newton series, kind: definition, wikipedia: Finite difference, wikidata: Q2068418}
+  - {name: Nörlund–Rice integral, kind: statement, wikipedia: Nørlund–Rice integral, wikidata: Q3333616}
+  - {name: Mahler's theorem, kind: statement, decl: PadicInt.hasSum_mahler, wikipedia: Mahler's theorem, wikidata: Q3527118, mathlib: [mathlib-1000]}
+  - {name: discrete calculus, kind: concept, wikipedia: Discrete calculus, wikidata: Q20968946}
+  - {name: time-scale calculus, kind: concept, wikipedia: Time-scale calculus, wikidata: Q7804838}
+  - {name: delta derivative on a time scale, kind: definition, wikipedia: Time-scale calculus, wikidata: Q7804838}
+  # Linear difference equations
+  - {name: linear difference equation, kind: definition, wikipedia: Linear recurrence with constant coefficients, wikidata: Q364089}
+  - {name: linear recurrence with constant coefficients, kind: definition, decl: LinearRecurrence, wikipedia: Linear recurrence with constant coefficients, wikidata: Q364089}
+  - {name: solution of a linear recurrence, kind: definition, decl: LinearRecurrence.IsSolution, wikipedia: Linear recurrence with constant coefficients, wikidata: Q364089}
+  - {name: characteristic polynomial of a linear recurrence, kind: definition, decl: LinearRecurrence.charPoly, wikipedia: Linear recurrence with constant coefficients, wikidata: Q364089}
+  - {name: geometric solutions and roots of the characteristic polynomial, kind: statement, decl: LinearRecurrence.geom_sol_iff_root_charPoly, wikipedia: Linear recurrence with constant coefficients, wikidata: Q364089}
+  - {name: dimension of the solution space of a linear recurrence, kind: statement, decl: LinearRecurrence.solSpace_rank, wikipedia: Linear recurrence with constant coefficients, wikidata: Q364089}
+  - {name: uniqueness of solutions given initial values, kind: statement, decl: LinearRecurrence.eq_mk_of_is_sol_of_eq_init, wikipedia: Linear recurrence with constant coefficients, wikidata: Q364089}
+  - {name: homogeneous and inhomogeneous linear recurrences, kind: concept, wikipedia: Linear recurrence with constant coefficients, wikidata: Q364089}
+  - {name: superposition of solutions, kind: statement, wikipedia: Superposition principle, wikidata: Q284885}
+  - {name: variation of parameters for difference equations, kind: statement, wikipedia: Variation of parameters, wikidata: Q1205942}
+  - {name: method of undetermined coefficients, kind: concept, wikipedia: Method of undetermined coefficients, wikidata: Q1036452}
+  - {name: solution of recurrences by generating functions, kind: concept, wikipedia: Generating function, wikidata: Q860609}
+  - {name: matrix difference equation, kind: definition, wikipedia: Matrix difference equation, wikidata: Q6787869}
+  - {name: companion matrix of a recurrence, kind: definition, wikipedia: Companion matrix, wikidata: Q814361}
+  - {name: linear recurrence with polynomial coefficients, kind: definition, wikipedia: Holonomic function, wikidata: Q5884209}
+  - {name: holonomic sequence, kind: definition, wikipedia: Holonomic function, wikidata: Q5884209}
+  - {name: three-term recurrence relation, kind: definition, wikipedia: Recurrence relation, wikidata: Q740970}
+  - {name: Lucas sequence, kind: example, wikipedia: Lucas sequence, wikidata: Q1759646}
+  - {name: Fibonacci recurrence, kind: example, wikipedia: Fibonacci sequence, wikidata: Q23835349}
+  - {name: Binet's formula, kind: statement, wikipedia: Fibonacci sequence, wikidata: Q23835349}
+  - {name: Pell numbers, kind: example, wikipedia: Pell number, wikidata: Q1386491}
+  - {name: Skolem–Mahler–Lech theorem, kind: statement, wikipedia: Skolem–Mahler–Lech theorem, wikidata: Q2374733}
+  - {name: Skolem problem, kind: problem, wikipedia: Skolem problem, wikidata: Q25304237}
+  - {name: Akra–Bazzi theorem, kind: statement, decl: AkraBazziRecurrence.isTheta_asympBound, wikipedia: Akra–Bazzi method, wikidata: Q420714}
+  # Nonlinear difference equations
+  - {name: nonlinear difference equation, kind: concept, wikipedia: Recurrence relation, wikidata: Q740970}
+  - {name: rational difference equation, kind: definition, wikipedia: Rational difference equation, wikidata: Q7295762}
+  - {name: Riccati difference equation, kind: definition, wikipedia: Rational difference equation, wikidata: Q7295762}
+  - {name: Somos sequence, kind: example, wikipedia: Somos sequence, wikidata: Q7560513}
+  - {name: Laurent phenomenon, kind: statement, wikipedia: Cluster algebra, wikidata: Q5136690}
+  - {name: Hofstadter sequences, kind: example, wikipedia: Hofstadter sequence, wikidata: Q1623269}
+  - {name: Beverton–Holt model, kind: example, wikipedia: Beverton–Holt model, wikidata: Q4899640}
+  - {name: Ricker model, kind: example, wikipedia: Ricker model, wikidata: Q7331913}
+  # Stability, oscillation and asymptotics of difference equations
+  - {name: equilibrium of a difference equation, kind: definition, wikipedia: Fixed point (mathematics), wikidata: Q217608}
+  - {name: stability of a difference equation, kind: definition, wikipedia: Lyapunov stability, wikidata: Q1341651}
+  - {name: asymptotic stability of linear recurrences, kind: statement, wikipedia: Stable polynomial, wikidata: Q13424738}
+  - {name: Schur stable polynomial, kind: definition, wikipedia: Stable polynomial, wikidata: Q13424738}
+  - {name: Jury stability criterion, kind: statement, wikipedia: Jury stability criterion, wikidata: Q3697760}
+  - {name: linearized stability theorem for maps, kind: statement, wikipedia: Hartman–Grobman theorem, wikidata: Q211981}
+  - {name: Lyapunov function for a difference equation, kind: definition, wikipedia: Lyapunov function, wikidata: Q2337858}
+  - {name: discrete Gronwall inequality, kind: statement, wikipedia: Grönwall's inequality, wikidata: Q510733}
+  - {name: oscillatory solution of a difference equation, kind: definition, wikipedia: Oscillation theory, wikidata: Q289610}
+  - {name: periodic sequence, kind: definition, wikipedia: Periodic sequence, wikidata: Q3503302}
+  - {name: periodic solution of a difference equation, kind: concept, wikipedia: Periodic point, wikidata: Q116301}
+  - {name: almost periodic sequence, kind: definition, wikipedia: Almost periodic function, wikidata: Q1066983}
+  - {name: bifurcation in a family of maps, kind: concept, wikipedia: Bifurcation theory, wikidata: Q1154357}
+  - {name: period-doubling cascade, kind: concept, wikipedia: Period-doubling bifurcation, wikidata: Q2181373}
+  # Partial and q-difference equations
+  - {name: partial difference equation, kind: definition, wikipedia: Recurrence relation, wikidata: Q740970}
+  - {name: discrete Laplace operator, kind: definition, wikipedia: Discrete Laplace operator, wikidata: Q451881}
+  - {name: discrete Poisson equation, kind: definition, wikipedia: Discrete Poisson equation, wikidata: Q5282040}
+  - {name: discrete harmonic function, kind: definition, wikipedia: Discrete Laplace operator, wikidata: Q451881}
+  - {name: q-difference equation, kind: definition, wikipedia: Quantum calculus, wikidata: Q7269016}
+  - {name: q-derivative, kind: definition, wikipedia: Q-derivative, wikidata: Q7265300}
+  - {name: Jackson integral, kind: definition, wikipedia: Jackson integral, wikidata: Q6117826}
+  - {name: quantum calculus, kind: concept, wikipedia: Quantum calculus, wikidata: Q7269016}
+  - {name: q-exponential, kind: definition, wikipedia: Q-exponential, wikidata: Q1062655}
+  - {name: q-analog, kind: concept, wikipedia: Q-analog, wikidata: Q3491352}
+  # Integrable lattice and complex difference equations
+  - {name: discrete Painlevé equations, kind: definition, wikipedia: Painlevé transcendents, wikidata: Q907724}
+  - {name: Toda lattice, kind: example, wikipedia: Toda lattice, wikidata: Q572090}
+  - {name: Nevanlinna theory of difference equations, kind: concept, wikipedia: Nevanlinna theory, wikidata: Q1281926}
+  - {name: Malmquist's theorem, kind: statement, wikipedia: Malmquist's theorem, wikidata: Q17056925}
+  - {name: Barnes G-function, kind: example, wikipedia: Barnes G-function, wikidata: Q808463}
+  - {name: multiple gamma function, kind: definition, wikipedia: Multiple gamma function, wikidata: Q6934934}
+  - {name: Bohr–Mollerup theorem, kind: statement, decl: Real.eq_Gamma_of_log_convex, wikipedia: Bohr–Mollerup theorem, wikidata: Q2734084}
+  - {name: Wielandt's theorem, kind: statement, wikipedia: Wielandt theorem, wikidata: Q3527182}
+  - {name: multiplication theorem, kind: statement, wikipedia: Multiplication theorem, wikidata: Q98831}
+  # Stochastic difference equations
+  - {name: stochastic difference equation, kind: definition, wikipedia: Autoregressive model, wikidata: Q2202883}
+  - {name: random walk as a difference equation, kind: example, wikipedia: Random walk, wikidata: Q856741}
+  # Functional equations: foundations
+  - {name: functional equation, kind: definition, wikipedia: Functional equation, wikidata: Q594452}
+  - {name: Cauchy's functional equation, kind: definition, wikipedia: Cauchy's functional equation, wikidata: Q680611}
+  - {name: additive function, kind: definition, wikipedia: Additive map, wikidata: Q22963169}
+  - {name: continuous additive functions are linear, kind: statement, decl: AddMonoidHom.toRealLinearMap, wikipedia: Cauchy's functional equation, wikidata: Q680611}
+  - {name: measurable solutions of Cauchy's equation, kind: statement, wikipedia: Cauchy's functional equation, wikidata: Q680611}
+  - {name: Darboux's theorem on additive functions bounded on an interval, kind: statement, wikipedia: Cauchy's functional equation, wikidata: Q680611}
+  - {name: discontinuous additive functions via a Hamel basis, kind: example, wikipedia: Cauchy's functional equation, wikidata: Q680611}
+  - {name: density of the graph of a discontinuous additive function, kind: statement, wikipedia: Cauchy's functional equation, wikidata: Q680611}
+  - {name: Cauchy's exponential equation, kind: definition, wikipedia: Cauchy's functional equation, wikidata: Q680611}
+  - {name: Cauchy's logarithmic equation, kind: definition, wikipedia: Cauchy's functional equation, wikidata: Q680611}
+  - {name: Cauchy's power equation, kind: definition, wikipedia: Cauchy's functional equation, wikidata: Q680611}
+  - {name: Jensen's functional equation, kind: definition, wikipedia: Functional equation, wikidata: Q594452}
+  - {name: Pexider equation, kind: definition, wikipedia: Functional equation, wikidata: Q594452}
+  - {name: quadratic functional equation, kind: definition, wikipedia: Quadratic form, wikidata: Q736753}
+  - {name: Jordan–von Neumann theorem, kind: statement, wikipedia: Parallelogram law, wikidata: Q919125}
+  - {name: d'Alembert's functional equation, kind: definition, wikipedia: Functional equation, wikidata: Q594452}
+  - {name: sine and cosine addition equations, kind: definition, wikipedia: List of trigonometric identities, wikidata: Q273008}
+  - {name: homogeneity equation, kind: definition, wikipedia: Homogeneous function, wikidata: Q1132952}
+  - {name: periodicity equation, kind: definition, wikipedia: Periodic function, wikidata: Q184743}
+  - {name: translation equation, kind: definition, wikipedia: Flow (mathematics), wikidata: Q1434290}
+  - {name: associativity equation, kind: definition, wikipedia: Associative property, wikidata: Q177251}
+  - {name: quasi-arithmetic mean, kind: definition, wikipedia: Quasi-arithmetic mean, wikidata: Q583095}
+  - {name: Kolmogorov–Nagumo characterization of quasi-arithmetic means, kind: statement, wikipedia: Quasi-arithmetic mean, wikidata: Q583095}
+  - {name: characterization of Shannon entropy, kind: statement, wikipedia: Entropy (information theory), wikidata: Q204570}
+  - {name: functional equations on groups, kind: concept, wikipedia: Group homomorphism, wikidata: Q868169}
+  - {name: exponential functions on semigroups, kind: concept, wikipedia: Character (mathematics), wikidata: Q1062934}
+  # Iteration theory and iterative equations
+  - {name: iterative functional equation, kind: concept, wikipedia: Iterated function, wikidata: Q5254619}
+  - {name: Abel equation, kind: definition, wikipedia: Abel equation, wikidata: Q4666644}
+  - {name: Abel function, kind: definition, wikipedia: Abel equation, wikidata: Q4666644}
+  - {name: Schröder's equation, kind: definition, wikipedia: Schröder's equation, wikidata: Q7432911}
+  - {name: Koenigs function, kind: definition, wikipedia: Koenigs function, wikidata: Q4493449}
+  - {name: Böttcher's equation, kind: definition, wikipedia: Böttcher's equation, wikidata: Q5005188}
+  - {name: Böttcher's theorem, kind: statement, wikipedia: Böttcher's equation, wikidata: Q5005188}
+  - {name: functional square root, kind: definition, wikipedia: Functional square root, wikidata: Q3890203}
+  - {name: iterative root, kind: definition, wikipedia: Functional square root, wikidata: Q3890203}
+  - {name: fractional iteration, kind: concept, wikipedia: Iterated function, wikidata: Q5254619}
+  - {name: involution as solution of Babbage's equation, kind: example, wikipedia: Involution (mathematics), wikidata: Q846862}
+  - {name: Carleman matrix, kind: definition, wikipedia: Jabotinsky matrix, wikidata: Q5041155}
+  - {name: tetration, kind: example, wikipedia: Tetration, wikidata: Q194324}
+  - {name: Kneser's construction of real analytic tetration, kind: statement, wikipedia: Tetration, wikidata: Q194324}
+  - {name: Feigenbaum–Cvitanović functional equation, kind: definition, wikipedia: Feigenbaum constants, wikidata: Q673184}
+  - {name: de Rham curve, kind: example, wikipedia: De Rham curve, wikidata: Q5244711}
+  - {name: Takagi function, kind: example, wikipedia: Blancmange curve, wikidata: Q3001209}
+  - {name: Minkowski question-mark function, kind: example, wikipedia: Minkowski's question-mark function, wikidata: Q1967149}
+  # Functional equations of complex functions
+  - {name: functional equation of the gamma function, kind: statement, decl: Real.Gamma_add_one, wikipedia: Gamma function, wikidata: Q190573}
+  - {name: Euler's reflection formula, kind: statement, decl: Complex.Gamma_mul_Gamma_one_sub, wikipedia: Reflection formula, wikidata: Q4922429}
+  - {name: Legendre duplication formula, kind: statement, decl: Complex.Gamma_mul_Gamma_add_half, wikipedia: Multiplication theorem, wikidata: Q98831}
+  - {name: functional equation of the Jacobi theta function, kind: statement, decl: jacobiTheta_S_smul, wikipedia: Theta function, wikidata: Q1154787}
+  - {name: dilogarithm five-term relation, kind: statement, wikipedia: Dilogarithm, wikidata: Q1290753}
+  - {name: Poincaré's functional equation, kind: definition, wikipedia: Schröder's equation, wikidata: Q7432911}
+  # Functional inequalities and convexity
+  - {name: functional inequality, kind: concept, wikipedia: Functional equation, wikidata: Q594452}
+  - {name: subadditive function, kind: definition, wikipedia: Subadditivity, wikidata: Q1934099}
+  - {name: superadditive function, kind: definition, wikipedia: Superadditivity, wikidata: Q922087}
+  - {name: Fekete's subadditive lemma, kind: statement, wikipedia: Subadditivity, wikidata: Q1934099}
+  - {name: midpoint convex function, kind: definition, wikipedia: Convex function, wikidata: Q319913}
+  - {name: Bernstein–Doetsch theorem, kind: statement, wikipedia: Convex function, wikidata: Q319913}
+  - {name: Sierpiński's theorem on measurable midpoint convex functions, kind: statement, wikipedia: Convex function, wikidata: Q319913}
+  - {name: Jensen inequality as a functional inequality, kind: statement, wikipedia: Jensen's inequality, wikidata: Q518131}
+  - {name: submultiplicative function, kind: definition, wikipedia: Subadditivity, wikidata: Q1934099}
+  # Stability of functional equations
+  - {name: Ulam's stability problem, kind: problem, wikipedia: Hyers–Ulam–Rassias stability, wikidata: Q5955764}
+  - {name: Hyers–Ulam stability, kind: definition, wikipedia: Hyers–Ulam–Rassias stability, wikidata: Q5955764}
+  - {name: Hyers' theorem, kind: statement, wikipedia: Hyers–Ulam–Rassias stability, wikidata: Q5955764}
+  - {name: Aoki–Rassias theorem, kind: statement, wikipedia: Hyers–Ulam–Rassias stability, wikidata: Q5955764}
+  - {name: superstability of the exponential equation, kind: statement, wikipedia: Hyers–Ulam–Rassias stability, wikidata: Q5955764}
+  - {name: approximately additive function, kind: definition, wikipedia: Hyers–Ulam–Rassias stability, wikidata: Q5955764}
+  # Functional equations for matrices and operators
+  - {name: Stein equation, kind: definition, wikipedia: Lyapunov equation, wikidata: Q1028945}
+  - {name: discrete-time algebraic Riccati equation, kind: definition, wikipedia: Algebraic Riccati equation, wikidata: Q4723989}
+  - {name: operator Cauchy equation and one-parameter semigroups, kind: statement, wikipedia: C0-semigroup, wikidata: Q846542}
+  - {name: Cauchy's equation for matrix exponentials, kind: statement, decl: Matrix.exp_add_of_commute, wikipedia: Matrix exponential, wikidata: Q1191722}

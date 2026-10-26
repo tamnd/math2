@@ -1,0 +1,218 @@
+# The C2 skeleton of 44-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 44-XX
+title: integral transforms and operational calculus
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+  mathlib-undergrad: {title: "Mathlib, the list of undergraduate topics", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/undergrad.yaml'}
+  mathlib-overview: {title: "Mathlib, the overview of the library", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/overview.yaml'}
+  mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
+items:
+  # General theory of integral transforms
+  - {name: integral transform, kind: concept, wikipedia: Integral transform, wikidata: Q877802}
+  - {name: kernel of an integral transform, kind: definition, wikipedia: Integral transform, wikidata: Q877802}
+  - {name: transform pair, kind: concept, wikipedia: Integral transform, wikidata: Q877802}
+  - {name: inverse transform, kind: concept, wikipedia: Integral transform, wikidata: Q877802}
+  - {name: integral operator, kind: definition, wikipedia: Integral operator, wikidata: Q43230999}
+  - {name: symmetric and self-reciprocal kernels, kind: concept, wikipedia: Integral transform, wikidata: Q877802}
+  - {name: integral transforms of tempered distributions, kind: concept, wikipedia: Distribution (mathematical analysis), wikidata: Q865811}
+  - {name: Abelian theorems for integral transforms, kind: statement, wikipedia: Abelian and Tauberian theorems, wikidata: Q2376918}
+  - {name: Tauberian theorems for integral transforms, kind: statement, wikipedia: Abelian and Tauberian theorems, wikidata: Q2376918}
+  - {name: list of integral transforms, kind: concept, wikipedia: List of transforms, wikidata: Q6585617}
+  # Laplace transform: definition and convergence
+  - {name: Laplace transform, kind: definition, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: unilateral Laplace transform, kind: definition, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: function of exponential order, kind: definition, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: abscissa of convergence, kind: definition, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: abscissa of absolute convergence, kind: definition, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: analyticity of the Laplace transform in its half-plane, kind: statement, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: Laplace transform tends to zero at infinity, kind: statement, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: Laplace transform of the exponential function, kind: example, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: Laplace transform of a power function, kind: example, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: Laplace transforms of sine and cosine, kind: example, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: Laplace transform of the Heaviside step function, kind: example, wikipedia: Heaviside step function, wikidata: Q322339}
+  - {name: Laplace transform of the Dirac delta, kind: example, wikipedia: Dirac delta function, wikidata: Q209675}
+  - {name: Laplace transform of a periodic function, kind: example, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: Laplace transform of the error function, kind: example, wikipedia: Error function, wikidata: Q579262}
+  - {name: function with no Laplace transform, kind: counterexample, wikipedia: Laplace transform, wikidata: Q199691}
+  # Laplace transform: operational rules
+  - {name: linearity of the Laplace transform, kind: statement, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: frequency shift theorem, kind: statement, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: time shift theorem, kind: statement, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: scaling rule for the Laplace transform, kind: statement, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: Laplace transform of a derivative, kind: statement, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: Laplace transform of an integral, kind: statement, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: differentiation in the transform variable, kind: statement, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: integration in the transform variable, kind: statement, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: convolution theorem for the Laplace transform, kind: statement, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: initial value theorem, kind: statement, wikipedia: Initial value theorem, wikidata: Q4272300}
+  - {name: final value theorem, kind: statement, wikipedia: Final value theorem, wikidata: Q4272645}
+  - {name: Laplace transform method for linear ODEs, kind: concept, wikipedia: Laplace transform applied to differential equations, wikidata: Q2858841}
+  - {name: Laplace transform method for the heat equation, kind: example, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: resolvent as Laplace transform of a semigroup, kind: statement, wikipedia: C0-semigroup, wikidata: Q846542}
+  # Laplace transform: uniqueness and inversion
+  - {name: Lerch's uniqueness theorem, kind: statement, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: inverse Laplace transform, kind: definition, wikipedia: Inverse Laplace transform, wikidata: Q2162701}
+  - {name: Bromwich integral, kind: definition, wikipedia: Inverse Laplace transform, wikidata: Q2162701}
+  - {name: Mellin's inverse formula, kind: statement, wikipedia: Inverse Laplace transform, wikidata: Q2162701}
+  - {name: Post's inversion formula, kind: statement, wikipedia: Inverse Laplace transform, wikidata: Q2162701}
+  - {name: inversion of rational transforms by partial fractions, kind: concept, wikipedia: Partial fraction decomposition, wikidata: Q431617}
+  - {name: Heaviside cover-up method, kind: concept, wikipedia: Heaviside cover-up method, wikidata: Q5694970}
+  - {name: residue calculus for Laplace inversion, kind: concept, wikipedia: Residue theorem, wikidata: Q830513}
+  - {name: numerical inversion of the Laplace transform, kind: problem, wikipedia: Inverse Laplace transform, wikidata: Q2162701}
+  - {name: ill-posedness of real Laplace inversion, kind: concept, wikipedia: Well-posed problem, wikidata: Q1455898}
+  # Laplace–Stieltjes and bilateral transforms
+  - {name: Laplace–Stieltjes transform, kind: definition, wikipedia: Laplace–Stieltjes transform, wikidata: Q3997728}
+  - {name: completely monotone function, kind: definition, wikipedia: Bernstein's theorem on monotone functions, wikidata: Q3527015}
+  - {name: Bernstein's theorem on completely monotone functions, kind: statement, wikipedia: Bernstein's theorem on monotone functions, wikidata: Q3527015}
+  - {name: two-sided Laplace transform, kind: definition, wikipedia: Two-sided Laplace transform, wikidata: Q1785576}
+  - {name: strip of convergence of the bilateral transform, kind: definition, wikipedia: Two-sided Laplace transform, wikidata: Q1785576}
+  - {name: bilateral Laplace transform of a probability law, kind: example, decl: ProbabilityTheory.mgf, wikipedia: Two-sided Laplace transform, wikidata: Q1785576}
+  - {name: analyticity of the bilateral Laplace transform of a law, kind: statement, decl: ProbabilityTheory.analyticAt_mgf, wikipedia: Two-sided Laplace transform, wikidata: Q1785576}
+  - {name: Fourier transform as Laplace transform on the imaginary axis, kind: concept, wikipedia: Two-sided Laplace transform, wikidata: Q1785576}
+  # Mellin transform
+  - {name: Mellin transform, kind: definition, decl: mellin, wikipedia: Mellin transform, wikidata: Q606934}
+  - {name: Mellin convergence, kind: definition, decl: MellinConvergent, wikipedia: Mellin transform, wikidata: Q606934}
+  - {name: fundamental strip of a Mellin transform, kind: statement, decl: mellinConvergent_of_isBigO_rpow, wikipedia: Mellin transform, wikidata: Q606934}
+  - {name: function having a given Mellin transform, kind: definition, decl: HasMellin, wikipedia: Mellin transform, wikidata: Q606934}
+  - {name: inverse Mellin transform, kind: definition, decl: mellinInv, wikipedia: Mellin inversion theorem, wikidata: Q6813106}
+  - {name: Mellin inversion theorem, kind: statement, decl: mellinInv_mellin_eq, wikipedia: Mellin inversion theorem, wikidata: Q6813106, mathlib: [mathlib-1000]}
+  - {name: Mellin transform as a Fourier transform in logarithmic variables, kind: statement, decl: mellin_eq_fourier, wikipedia: Mellin transform, wikidata: Q606934}
+  - {name: inverse Mellin transform as inverse Fourier transform, kind: statement, decl: mellinInv_eq_fourierInv, wikipedia: Mellin inversion theorem, wikidata: Q6813106}
+  - {name: Mellin transform of a dilation, kind: statement, decl: mellin_comp_mul_left, wikipedia: Mellin transform, wikidata: Q606934}
+  - {name: Mellin transform under inversion of the variable, kind: statement, decl: mellin_comp_inv, wikipedia: Mellin transform, wikidata: Q606934}
+  - {name: Mellin transform under a power substitution, kind: statement, decl: mellin_comp_rpow, wikipedia: Mellin transform, wikidata: Q606934}
+  - {name: Mellin transform of a power times a function, kind: statement, decl: mellin_cpow_smul, wikipedia: Mellin transform, wikidata: Q606934}
+  - {name: differentiability of the Mellin transform, kind: statement, decl: mellin_hasDerivAt_of_isBigO_rpow, wikipedia: Mellin transform, wikidata: Q606934}
+  - {name: gamma function as Mellin transform of the exponential, kind: example, decl: Complex.GammaIntegral_eq_mellin, wikipedia: Gamma function, wikidata: Q190573}
+  - {name: Mellin convolution, kind: definition, wikipedia: Mellin transform, wikidata: Q606934}
+  - {name: Parseval formula for the Mellin transform, kind: statement, wikipedia: Mellin transform, wikidata: Q606934}
+  - {name: Mellin transform of a theta series and the zeta function, kind: example, decl: hasSum_mellin_pi_mul_sq, wikipedia: Riemann zeta function, wikidata: Q187235}
+  - {name: Dirichlet series as Mellin transforms, kind: concept, wikipedia: Dirichlet series, wikidata: Q620595}
+  - {name: Cahen–Mellin integral, kind: statement, wikipedia: Mellin transform, wikidata: Q606934}
+  - {name: Perron's formula, kind: statement, wikipedia: Perron's formula, wikidata: Q2759571}
+  - {name: Ramanujan's master theorem, kind: statement, wikipedia: Ramanujan's master theorem, wikidata: Q7288993}
+  - {name: Mellin–Barnes integral, kind: definition, wikipedia: Barnes integral, wikidata: Q4201931}
+  - {name: asymptotic expansion from poles of a Mellin transform, kind: concept, wikipedia: Mellin transform, wikidata: Q606934}
+  - {name: Poisson–Mellin–Newton cycle, kind: concept, wikipedia: Nørlund–Rice integral, wikidata: Q3333616}
+  # Stieltjes and Hilbert transforms
+  - {name: Stieltjes transform, kind: definition, wikipedia: Stieltjes transformation, wikidata: Q3537578}
+  - {name: Stieltjes inversion formula, kind: statement, wikipedia: Stieltjes transformation, wikidata: Q3537578}
+  - {name: iterated Laplace transform equals Stieltjes transform, kind: statement, wikipedia: Stieltjes transformation, wikidata: Q3537578}
+  - {name: Hilbert transform, kind: definition, wikipedia: Hilbert transform, wikidata: Q685437}
+  - {name: Hilbert transform of sinusoids, kind: example, wikipedia: Hilbert transform, wikidata: Q685437}
+  - {name: inversion of the Hilbert transform, kind: statement, wikipedia: Hilbert transform, wikidata: Q685437}
+  - {name: analytic signal, kind: definition, wikipedia: Analytic signal, wikidata: Q485394}
+  # Legendre and other special transforms
+  - {name: Legendre transform of a convex function, kind: definition, wikipedia: Legendre transformation, wikidata: Q908652}
+  - {name: Legendre integral transform, kind: definition, wikipedia: Legendre transform (integral transform), wikidata: Q30587593}
+  - {name: Hartley transform, kind: definition, wikipedia: Hartley transform, wikidata: Q1567607}
+  - {name: Weierstrass transform, kind: definition, wikipedia: Weierstrass transform, wikidata: Q7979829}
+  - {name: inversion of the Weierstrass transform, kind: statement, wikipedia: Weierstrass transform, wikidata: Q7979829}
+  - {name: fractional Fourier transform, kind: definition, wikipedia: Fractional Fourier transform, wikidata: Q4817582}
+  - {name: linear canonical transformation, kind: definition, wikipedia: Linear canonical transformation, wikidata: Q6553419}
+  - {name: Bargmann transform, kind: definition, wikipedia: Segal–Bargmann space, wikidata: Q17154659}
+  - {name: FBI transform, kind: definition, wikipedia: Fourier–Bros–Iagolnitzer transform, wikidata: Q5424638}
+  - {name: Bateman transform, kind: definition, wikipedia: Bateman transform, wikidata: Q4868770}
+  - {name: Sumudu transform, kind: definition, wikipedia: Sumudu transform, wikidata: Q123331358}
+  - {name: Abel transform, kind: definition, wikipedia: Abel transform, wikidata: Q4666656}
+  - {name: Abel transform as the projection of a radial function, kind: statement, wikipedia: Abel transform, wikidata: Q4666656}
+  # Transforms with special function kernels
+  - {name: Hankel transform, kind: definition, wikipedia: Hankel transform, wikidata: Q155208}
+  - {name: Hankel inversion theorem, kind: statement, wikipedia: Hankel transform, wikidata: Q155208}
+  - {name: Hankel transform of radial functions in the plane, kind: example, wikipedia: Hankel transform, wikidata: Q155208}
+  - {name: Kontorovich–Lebedev transform, kind: definition, wikipedia: Kontorovich–Lebedev transform, wikidata: Q6430373}
+  - {name: Mehler–Fock transform, kind: definition, wikipedia: Mehler–Fock transform, wikidata: Q13577951}
+  - {name: Meijer G-function transforms, kind: concept, wikipedia: Meijer G-function, wikidata: Q1917756}
+  - {name: Fox H-function transforms, kind: concept, wikipedia: Fox H-function, wikidata: Q8565199}
+  - {name: Laguerre series expansion of the Laplace transform, kind: concept, wikipedia: Laguerre polynomials, wikidata: Q1124546}
+  - {name: Jacobi transform, kind: definition, wikipedia: Jacobi polynomials, wikidata: Q371631}
+  - {name: Gegenbauer transform, kind: definition, wikipedia: Gegenbauer polynomials, wikidata: Q1498246}
+  - {name: Whittaker transform, kind: definition, wikipedia: Whittaker function, wikidata: Q3754618}
+  - {name: Y transform, kind: definition, wikipedia: Bessel function, wikidata: Q219637}
+  # Multidimensional transforms
+  - {name: multidimensional transform, kind: concept, wikipedia: Multidimensional transform, wikidata: Q17099178}
+  - {name: multidimensional Laplace transform, kind: definition, wikipedia: Multidimensional transform, wikidata: Q17099178}
+  - {name: multidimensional Z-transform, kind: definition, wikipedia: Multidimensional transform, wikidata: Q17099178}
+  - {name: multidimensional Mellin transform, kind: definition, wikipedia: Mellin transform, wikidata: Q606934}
+  - {name: Laplace transform on a convex cone, kind: concept, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: spherical mean transform, kind: definition, wikipedia: Spherical mean, wikidata: Q7576710}
+  # Radon transform and tomography
+  - {name: Radon transform, kind: definition, wikipedia: Radon transform, wikidata: Q979829}
+  - {name: dual Radon transform, kind: definition, wikipedia: Radon transform, wikidata: Q979829}
+  - {name: projection-slice theorem, kind: statement, wikipedia: Projection-slice theorem, wikidata: Q7249438}
+  - {name: Radon inversion formula, kind: statement, wikipedia: Radon transform, wikidata: Q979829}
+  - {name: filtered back-projection, kind: concept, wikipedia: Tomographic reconstruction, wikidata: Q7820109}
+  - {name: sinogram, kind: object, wikipedia: Radon transform, wikidata: Q979829}
+  - {name: Helgason support theorem, kind: statement, wikipedia: Radon transform, wikidata: Q979829}
+  - {name: range conditions for the Radon transform, kind: statement, wikipedia: Radon transform, wikidata: Q979829}
+  - {name: X-ray transform, kind: definition, wikipedia: X-ray transform, wikidata: Q8041582}
+  - {name: Funk transform, kind: definition, wikipedia: Funk transform, wikidata: Q5509245}
+  - {name: tomographic reconstruction, kind: problem, wikipedia: Tomographic reconstruction, wikidata: Q7820109}
+  - {name: computed tomography as an inverse problem, kind: example, wikipedia: Tomography, wikidata: Q841267}
+  - {name: Hough transform, kind: example, wikipedia: Hough transform, wikidata: Q195076}
+  # Convolution
+  - {name: convolution on the line, kind: definition, decl: MeasureTheory.convolution, wikipedia: Convolution, wikidata: Q210857, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: convolution on the half-line, kind: definition, wikipedia: Convolution, wikidata: Q210857}
+  - {name: commutativity of convolution, kind: statement, decl: MeasureTheory.convolution_flip, wikipedia: Convolution, wikidata: Q210857}
+  - {name: associativity of convolution, kind: statement, decl: MeasureTheory.convolution_assoc, wikipedia: Convolution, wikidata: Q210857}
+  - {name: support of a convolution, kind: statement, decl: HasCompactSupport.convolution, wikipedia: Convolution, wikidata: Q210857}
+  - {name: smoothing by convolution, kind: statement, decl: HasCompactSupport.contDiff_convolution_left, wikipedia: Convolution, wikidata: Q210857, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: derivative of a convolution, kind: statement, decl: HasCompactSupport.hasFDerivAt_convolution_right, wikipedia: Convolution, wikidata: Q210857}
+  - {name: convolution power, kind: definition, wikipedia: Convolution power, wikidata: Q5166605}
+  - {name: Titchmarsh convolution theorem, kind: statement, wikipedia: Titchmarsh convolution theorem, wikidata: Q7809920}
+  - {name: convolution ring has no zero divisors, kind: statement, wikipedia: Titchmarsh convolution theorem, wikidata: Q7809920}
+  - {name: Duhamel's integral, kind: statement, wikipedia: Duhamel's integral, wikidata: Q845685}
+  - {name: convolution of distributions, kind: definition, wikipedia: Distribution (mathematical analysis), wikidata: Q865811}
+  - {name: generalized convolution of an integral transform, kind: concept, wikipedia: Convolution, wikidata: Q210857}
+  # Classical operational calculus
+  - {name: operational calculus, kind: concept, wikipedia: Operational calculus, wikidata: Q1162633}
+  - {name: Heaviside operational calculus, kind: concept, wikipedia: Operational calculus, wikidata: Q1162633}
+  - {name: Heaviside step function, kind: definition, wikipedia: Heaviside step function, wikidata: Q322339}
+  - {name: Heaviside expansion theorem, kind: statement, wikipedia: Operational calculus, wikidata: Q1162633}
+  - {name: differentiation operator p, kind: definition, wikipedia: Operational calculus, wikidata: Q1162633}
+  - {name: shift operator as an exponential of differentiation, kind: statement, wikipedia: Shift operator, wikidata: Q2278680}
+  - {name: Bromwich justification of the Heaviside calculus, kind: concept, wikipedia: Operational calculus, wikidata: Q1162633}
+  - {name: Laplace transform of distributions, kind: concept, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: Pincherle derivative, kind: definition, wikipedia: Pincherle derivative, wikidata: Q7194927}
+  - {name: annihilator method, kind: concept, wikipedia: Annihilator method, wikidata: Q4769489}
+  # Mikusinski calculus and other operational calculi
+  - {name: Mikusiński operational calculus, kind: concept, wikipedia: Operational calculus, wikidata: Q1162633}
+  - {name: Mikusiński field of operators, kind: definition, wikipedia: Operational calculus, wikidata: Q1162633}
+  - {name: integration operator as convolution with the unit step, kind: statement, wikipedia: Operational calculus, wikidata: Q1162633}
+  - {name: differentiation operator as inverse of integration, kind: statement, wikipedia: Operational calculus, wikidata: Q1162633}
+  - {name: operator exponential and translation, kind: statement, wikipedia: Operational calculus, wikidata: Q1162633}
+  - {name: Jan Mikusiński, kind: object, wikipedia: Jan Mikusiński, wikidata: Q925832}
+  - {name: Oliver Heaviside, kind: object, wikipedia: Oliver Heaviside, wikidata: Q154345}
+  # Discrete operational calculus
+  - {name: Z-transform, kind: definition, wikipedia: Z-transform, wikidata: Q135810}
+  - {name: unilateral Z-transform, kind: definition, wikipedia: Z-transform, wikidata: Q135810}
+  - {name: bilateral Z-transform, kind: definition, wikipedia: Z-transform, wikidata: Q135810}
+  - {name: region of convergence, kind: definition, wikipedia: Radius of convergence, wikidata: Q1428097}
+  - {name: inverse Z-transform, kind: statement, wikipedia: Z-transform, wikidata: Q135810}
+  - {name: shift property of the Z-transform, kind: statement, wikipedia: Z-transform, wikidata: Q135810}
+  - {name: convolution property of the Z-transform, kind: statement, wikipedia: Z-transform, wikidata: Q135810}
+  - {name: solving linear difference equations by the Z-transform, kind: concept, wikipedia: Z-transform, wikidata: Q135810}
+  - {name: Z-transform as a generating function, kind: concept, wikipedia: Generating function, wikidata: Q860609}
+  - {name: starred transform, kind: definition, wikipedia: Starred transform, wikidata: Q7601294}
+  - {name: advanced Z-transform, kind: definition, wikipedia: Advanced z-transform, wikidata: Q1970283}
+  - {name: matched Z-transform method, kind: concept, wikipedia: Matched Z-transform method, wikidata: Q4678053}
+  - {name: Laplace transform of a sampled signal, kind: concept, wikipedia: Starred transform, wikidata: Q7601294}
+  # Moment problems
+  - {name: moment problem, kind: problem, wikipedia: Moment problem, wikidata: Q3406268}
+  - {name: determinate moment problem, kind: definition, wikipedia: Moment problem, wikidata: Q3406268}
+  - {name: indeterminate moment problem, kind: definition, wikipedia: Moment problem, wikidata: Q3406268}
+  - {name: Hamburger moment problem, kind: problem, wikipedia: Hamburger moment problem, wikidata: Q5644349}
+  - {name: Stieltjes moment problem, kind: problem, wikipedia: Stieltjes moment problem, wikidata: Q7616380}
+  - {name: Hausdorff moment problem, kind: problem, wikipedia: Hausdorff moment problem, wikidata: Q5682821}
+  - {name: positivity of Hankel matrices of moments, kind: statement, wikipedia: Hankel matrix, wikidata: Q1575637}
+  - {name: Carleman's condition, kind: statement, wikipedia: Carleman's condition, wikidata: Q5041151}
+  - {name: Krein's condition, kind: statement, wikipedia: Krein's condition, wikidata: Q6436610}
+  - {name: moments of the log-normal distribution, kind: counterexample, wikipedia: Log-normal distribution, wikidata: Q826116}
+  - {name: truncated moment problem, kind: problem, wikipedia: Moment problem, wikidata: Q3406268}
+  - {name: multivariate moment problem, kind: problem, wikipedia: Moment problem, wikidata: Q3406268}
+  - {name: M. Riesz extension theorem, kind: statement, wikipedia: M. Riesz extension theorem, wikidata: Q3527217}
+  - {name: Chebyshev–Markov–Stieltjes inequalities, kind: statement, wikipedia: Chebyshev–Markov–Stieltjes inequalities, wikidata: Q5089020}
+  - {name: Nevanlinna parametrization of solutions, kind: statement, wikipedia: Nevanlinna function, wikidata: Q7003746}
+  - {name: moments and orthogonal polynomials, kind: concept, wikipedia: Orthogonal polynomials, wikidata: Q619458}

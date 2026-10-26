@@ -1,0 +1,264 @@
+# The C2 skeleton of 65-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 65-XX
+title: numerical analysis
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+items:
+  # Basic notions and error analysis
+  - {name: condition number, kind: definition, wikipedia: Condition number, wikidata: Q1147936}
+  - {name: numerical analysis, kind: concept, wikipedia: Numerical analysis, wikidata: Q11216}
+  - {name: floating-point arithmetic, kind: definition, wikipedia: Floating-point arithmetic, wikidata: Q117879}
+  - {name: IEEE 754 standard, kind: definition, wikipedia: IEEE 754, wikidata: Q828287}
+  - {name: machine epsilon, kind: definition, wikipedia: Machine epsilon, wikidata: Q1780355}
+  - {name: unit in the last place, kind: definition, wikipedia: Unit in the last place, wikidata: Q7887129}
+  - {name: subnormal number, kind: definition, wikipedia: Subnormal number, wikidata: Q1070094}
+  - {name: rounding, kind: concept, wikipedia: Rounding, wikidata: Q663208}
+  - {name: round-off error, kind: concept, wikipedia: Round-off error, wikidata: Q2145211}
+  - {name: truncation error, kind: concept, wikipedia: Truncation error, wikidata: Q3434686}
+  - {name: catastrophic cancellation, kind: concept, wikipedia: Catastrophic cancellation, wikidata: Q104589774}
+  - {name: numerical stability, kind: concept, wikipedia: Numerical stability, wikidata: Q1430640}
+  - {name: backward error analysis, kind: concept, wikipedia: Error analysis (mathematics), wikidata: Q25340358}
+  - {name: propagation of uncertainty, kind: concept, wikipedia: Propagation of uncertainty, wikidata: Q1364905}
+  - {name: Kahan summation algorithm, kind: statement, wikipedia: Kahan summation algorithm, wikidata: Q2982293}
+  - {name: pairwise summation, kind: statement, wikipedia: Pairwise summation, wikidata: Q17104961}
+  - {name: arbitrary-precision arithmetic, kind: concept, wikipedia: Arbitrary-precision arithmetic, wikidata: Q527381}
+  - {name: affine arithmetic, kind: concept, wikipedia: Affine arithmetic, wikidata: Q3622729}
+  - {name: validated numerics, kind: concept, wikipedia: Validated numerics, wikidata: Q63307393}
+  - {name: Wilkinson's polynomial, kind: example, wikipedia: Wilkinson's polynomial, wikidata: Q2613931}
+  # Nonlinear equations
+  - {name: Newton's method, kind: statement, wikipedia: Newton's method, wikidata: Q374195}
+  - {name: fixed-point iteration, kind: statement, wikipedia: Fixed-point iteration, wikidata: Q1030759}
+  - {name: Aitken's delta-squared process, kind: statement, wikipedia: Aitken's delta-squared process, wikidata: Q492177}
+  - {name: Shanks transformation, kind: statement, wikipedia: Shanks transformation, wikidata: Q3537519}
+  - {name: root-finding algorithm, kind: concept, wikipedia: Root-finding algorithm, wikidata: Q1085860}
+  - {name: bisection method, kind: statement, wikipedia: Bisection method, wikidata: Q866300}
+  - {name: regula falsi, kind: statement, wikipedia: Regula falsi, wikidata: Q1476057}
+  - {name: secant method, kind: statement, wikipedia: Secant method, wikidata: Q14915286}
+  - {name: superlinear convergence of the secant method, kind: statement, wikipedia: Secant method, wikidata: Q14915286}
+  - {name: quadratic convergence of Newton's method, kind: statement, wikipedia: Newton's method, wikidata: Q374195}
+  - {name: Halley's method, kind: statement, wikipedia: Halley's method, wikidata: Q1476051}
+  - {name: Householder's method, kind: statement, wikipedia: Householder's method, wikidata: Q1631446}
+  - {name: Steffensen's method, kind: statement, wikipedia: Steffensen's method, wikidata: Q7606635}
+  - {name: inverse quadratic interpolation, kind: statement, wikipedia: Inverse quadratic interpolation, wikidata: Q3153554}
+  - {name: Brent's method, kind: statement, wikipedia: Brent's method, wikidata: Q905988}
+  - {name: Ridders' method, kind: statement, wikipedia: Ridders' method, wikidata: Q1864934}
+  - {name: Muller's method, kind: statement, wikipedia: Muller's method, wikidata: Q2090477}
+  - {name: Laguerre's method, kind: statement, wikipedia: Laguerre's method, wikidata: Q1171964}
+  - {name: Durand–Kerner method, kind: statement, wikipedia: Durand–Kerner method, wikidata: Q1299016}
+  - {name: Aberth method, kind: statement, wikipedia: Aberth method, wikidata: Q4667181}
+  - {name: Jenkins–Traub algorithm, kind: statement, wikipedia: Jenkins–Traub algorithm, wikidata: Q6177639}
+  - {name: Bairstow's method, kind: statement, wikipedia: Bairstow's method, wikidata: Q384021}
+  - {name: Graeffe's method, kind: statement, wikipedia: Graeffe's method, wikidata: Q5592179}
+  - {name: splitting circle method, kind: statement, wikipedia: Splitting circle method, wikidata: Q1269645}
+  - {name: Broyden's method, kind: statement, wikipedia: Broyden's method, wikidata: Q761993}
+  - {name: numerical continuation, kind: concept, wikipedia: Numerical continuation, wikidata: Q7069654}
+  - {name: homotopy continuation for polynomial systems, kind: concept, wikipedia: Numerical algebraic geometry, wikidata: Q28325010}
+  # Direct methods for linear systems
+  - {name: Gaussian elimination, kind: statement, wikipedia: Gaussian elimination, wikidata: Q2658}
+  - {name: LU decomposition, kind: statement, wikipedia: LU decomposition, wikidata: Q833089}
+  - {name: Cholesky decomposition, kind: statement, wikipedia: Cholesky decomposition, wikidata: Q515375}
+  - {name: QR decomposition, kind: statement, wikipedia: QR decomposition, wikidata: Q653242}
+  - {name: pivoting, kind: concept, wikipedia: Pivot element, wikidata: Q1425280}
+  - {name: Householder transformation, kind: definition, wikipedia: Householder transformation, wikidata: Q304490}
+  - {name: Givens rotation, kind: definition, wikipedia: Givens rotation, wikidata: Q1367799}
+  - {name: tridiagonal matrix algorithm, kind: statement, wikipedia: Tridiagonal matrix algorithm, wikidata: Q1819156}
+  - {name: iterative refinement, kind: statement, wikipedia: Iterative refinement, wikidata: Q6094420}
+  - {name: Levinson recursion, kind: statement, wikipedia: Levinson recursion, wikidata: Q11679774}
+  - {name: Bareiss algorithm, kind: statement, wikipedia: Bareiss algorithm, wikidata: Q4860404}
+  - {name: Cuthill–McKee algorithm, kind: statement, wikipedia: Cuthill–McKee algorithm, wikidata: Q1146458}
+  - {name: minimum degree algorithm, kind: statement, wikipedia: Minimum degree algorithm, wikidata: Q17098969}
+  - {name: nested dissection, kind: statement, wikipedia: Nested dissection, wikidata: Q6997812}
+  - {name: incomplete Cholesky factorization, kind: definition, wikipedia: Incomplete Cholesky factorization, wikidata: Q6015160}
+  - {name: incomplete LU factorization, kind: definition, wikipedia: Incomplete LU factorization, wikidata: Q1654069}
+  - {name: hierarchical matrix, kind: definition, wikipedia: Hierarchical matrix, wikidata: Q17029389}
+  # Iterative methods for linear systems
+  - {name: iterative method, kind: concept, wikipedia: Iterative method, wikidata: Q2321565}
+  - {name: Jacobi method, kind: statement, wikipedia: Jacobi method, wikidata: Q1481893}
+  - {name: Gauss–Seidel method, kind: statement, wikipedia: Gauss–Seidel method, wikidata: Q1069090}
+  - {name: successive over-relaxation, kind: statement, wikipedia: Successive over-relaxation, wikidata: Q1561270}
+  - {name: symmetric successive over-relaxation, kind: statement, wikipedia: Symmetric successive over-relaxation, wikidata: Q16937163}
+  - {name: modified Richardson iteration, kind: statement, wikipedia: Modified Richardson iteration, wikidata: Q1375161}
+  - {name: Chebyshev iteration, kind: statement, wikipedia: Chebyshev iteration, wikidata: Q2457511}
+  - {name: Kaczmarz method, kind: statement, wikipedia: Kaczmarz method, wikidata: Q288600}
+  - {name: Krylov subspace, kind: definition, wikipedia: Krylov subspace, wikidata: Q1757151}
+  - {name: conjugate gradient method, kind: statement, wikipedia: Conjugate gradient method, wikidata: Q1191895}
+  - {name: derivation of the conjugate gradient method, kind: statement, wikipedia: Derivation of the conjugate gradient method, wikidata: Q5262612}
+  - {name: preconditioner, kind: definition, wikipedia: Preconditioner, wikidata: Q1754327}
+  - {name: Arnoldi iteration, kind: statement, wikipedia: Arnoldi iteration, wikidata: Q696822}
+  - {name: generalized minimal residual method, kind: statement, wikipedia: Generalized minimal residual method, wikidata: Q1432976}
+  - {name: minimal residual method, kind: statement, wikipedia: Minimal residual method, wikidata: Q1453478}
+  - {name: conjugate residual method, kind: statement, wikipedia: Conjugate residual method, wikidata: Q5161159}
+  - {name: biconjugate gradient method, kind: statement, wikipedia: Biconjugate gradient method, wikidata: Q855169}
+  - {name: biconjugate gradient stabilized method, kind: statement, wikipedia: Biconjugate gradient stabilized method, wikidata: Q4903720}
+  - {name: multigrid method, kind: statement, wikipedia: Multigrid method, wikidata: Q1413101}
+  - {name: domain decomposition methods, kind: concept, wikipedia: Domain decomposition methods, wikidata: Q5289813}
+  - {name: Schwarz alternating method, kind: statement, wikipedia: Schwarz alternating method, wikidata: Q7433186}
+  - {name: additive Schwarz method, kind: statement, wikipedia: Additive Schwarz method, wikidata: Q4681340}
+  - {name: Schur complement method, kind: statement, wikipedia: Schur complement method, wikidata: Q17103137}
+  - {name: balancing domain decomposition, kind: statement, wikipedia: Balancing domain decomposition method, wikidata: Q4850008}
+  - {name: mortar methods, kind: concept, wikipedia: Mortar methods, wikidata: Q17099078}
+  # Eigenvalue computations
+  - {name: power iteration, kind: statement, wikipedia: Power iteration, wikidata: Q1426504}
+  - {name: QR algorithm, kind: statement, wikipedia: QR algorithm, wikidata: Q453132}
+  - {name: eigenvalue algorithm, kind: concept, wikipedia: Eigenvalue algorithm, wikidata: Q6766437}
+  - {name: inverse iteration, kind: statement, wikipedia: Inverse iteration, wikidata: Q1671724}
+  - {name: Rayleigh quotient iteration, kind: statement, wikipedia: Rayleigh quotient iteration, wikidata: Q7298489}
+  - {name: Jacobi eigenvalue algorithm, kind: statement, wikipedia: Jacobi eigenvalue algorithm, wikidata: Q1677726}
+  - {name: divide-and-conquer eigenvalue algorithm, kind: statement, wikipedia: Divide-and-conquer eigenvalue algorithm, wikidata: Q5283998}
+  - {name: Lanczos algorithm, kind: statement, wikipedia: Lanczos algorithm, wikidata: Q366640}
+  - {name: LOBPCG, kind: statement, wikipedia: LOBPCG, wikidata: Q6459462}
+  - {name: bidiagonalization, kind: statement, wikipedia: Bidiagonalization, wikidata: Q4904167}
+  - {name: pseudospectrum, kind: definition, wikipedia: Pseudospectrum, wikidata: Q7255579}
+  # Least squares and ill-posed problems
+  - {name: singular value decomposition, kind: statement, wikipedia: Singular value decomposition, wikidata: Q420904}
+  - {name: numerical methods for linear least squares, kind: concept, wikipedia: Numerical methods for linear least squares, wikidata: Q55627115}
+  - {name: non-negative least squares, kind: problem, wikipedia: Non-negative least squares, wikidata: Q17086437}
+  - {name: Gauss–Newton algorithm, kind: statement, wikipedia: Gauss–Newton algorithm, wikidata: Q1496373}
+  - {name: Levenberg–Marquardt algorithm, kind: statement, wikipedia: Levenberg–Marquardt algorithm, wikidata: Q1426494}
+  - {name: regularization of ill-posed problems, kind: concept, wikipedia: Regularization (mathematics), wikidata: Q2061913}
+  - {name: L-curve, kind: concept, wikipedia: L-curve, wikidata: Q136463112}
+  - {name: Landweber iteration, kind: statement, wikipedia: Landweber iteration, wikidata: Q6485285}
+  # Interpolation, splines and geometric modeling
+  - {name: polynomial interpolation, kind: concept, wikipedia: Polynomial interpolation, wikidata: Q637347}
+  - {name: Lagrange interpolation polynomial, kind: definition, wikipedia: Lagrange polynomial, wikidata: Q861606}
+  - {name: Runge's phenomenon, kind: example, wikipedia: Runge's phenomenon, wikidata: Q1990319}
+  - {name: Chebyshev nodes, kind: definition, wikipedia: Chebyshev nodes, wikidata: Q1052508}
+  - {name: spline, kind: definition, wikipedia: Spline (mathematics), wikidata: Q735256}
+  - {name: bilinear interpolation, kind: definition, wikipedia: Bilinear interpolation, wikidata: Q612143}
+  - {name: bicubic interpolation, kind: definition, wikipedia: Bicubic interpolation, wikidata: Q611705}
+  - {name: monotone cubic interpolation, kind: statement, wikipedia: Monotone cubic interpolation, wikidata: Q4044484}
+  - {name: subdivision surface, kind: concept, wikipedia: Subdivision surface, wikidata: Q1529124}
+  - {name: Catmull–Clark subdivision surface, kind: statement, wikipedia: Catmull–Clark subdivision surface, wikidata: Q1051211}
+  - {name: mesh generation, kind: concept, wikipedia: Mesh generation, wikidata: Q4418033}
+  # Numerical integration and differentiation
+  - {name: numerical integration, kind: concept, wikipedia: Numerical integration, wikidata: Q753445}
+  - {name: trapezoidal rule, kind: statement, wikipedia: Trapezoidal rule, wikidata: Q833293}
+  - {name: Simpson's rule, kind: statement, wikipedia: Simpson's rule, wikidata: Q722507}
+  - {name: Newton–Cotes formulas, kind: statement, wikipedia: Newton–Cotes formulas, wikidata: Q944241}
+  - {name: Gaussian quadrature, kind: statement, wikipedia: Gaussian quadrature, wikidata: Q767680}
+  - {name: Gauss–Kronrod quadrature, kind: statement, wikipedia: Gauss–Kronrod quadrature formula, wikidata: Q5527852}
+  - {name: Richardson extrapolation, kind: statement, wikipedia: Richardson extrapolation, wikidata: Q1063089}
+  - {name: Romberg's method, kind: statement, wikipedia: Romberg's method, wikidata: Q1078449}
+  - {name: adaptive quadrature, kind: statement, wikipedia: Adaptive quadrature, wikidata: Q4680758}
+  - {name: Gauss–Hermite quadrature, kind: statement, wikipedia: Gauss–Hermite quadrature, wikidata: Q5527850}
+  - {name: Gauss–Laguerre quadrature, kind: statement, wikipedia: Gauss–Laguerre quadrature, wikidata: Q4218412}
+  - {name: Gauss–Jacobi quadrature, kind: statement, wikipedia: Gauss–Jacobi quadrature, wikidata: Q5527851}
+  - {name: tanh-sinh quadrature, kind: statement, wikipedia: Tanh-sinh quadrature, wikidata: Q7683194}
+  - {name: Lebedev quadrature, kind: statement, wikipedia: Lebedev quadrature, wikidata: Q6511268}
+  - {name: Boole's rule, kind: statement, wikipedia: Boole's rule, wikidata: Q4943343}
+  - {name: numerical differentiation, kind: concept, wikipedia: Numerical differentiation, wikidata: Q1683292}
+  - {name: finite difference coefficients, kind: definition, wikipedia: Finite difference coefficient, wikidata: Q1747602}
+  - {name: five-point stencil, kind: definition, wikipedia: Five-point stencil, wikidata: Q5455804}
+  - {name: automatic differentiation, kind: concept, wikipedia: Automatic differentiation, wikidata: Q787371}
+  # Ordinary differential equations
+  - {name: Euler method, kind: statement, wikipedia: Euler method, wikidata: Q868454}
+  - {name: Runge–Kutta methods, kind: statement, wikipedia: Runge–Kutta methods, wikidata: Q725944}
+  - {name: linear multistep method, kind: statement, wikipedia: Linear multistep method, wikidata: Q1462003}
+  - {name: stiff equation, kind: concept, wikipedia: Stiff equation, wikidata: Q29744}
+  - {name: numerical methods for ordinary differential equations, kind: concept, wikipedia: Numerical methods for ordinary differential equations, wikidata: Q541182}
+  - {name: local truncation error, kind: definition, wikipedia: Truncation error (numerical integration), wikidata: Q1868494}
+  - {name: backward Euler method, kind: statement, wikipedia: Backward Euler method, wikidata: Q2736820}
+  - {name: midpoint method, kind: statement, wikipedia: Midpoint method, wikidata: Q17103851}
+  - {name: Heun's method, kind: statement, wikipedia: Heun's method, wikidata: Q1531998}
+  - {name: Butcher tableau, kind: definition, wikipedia: List of Runge–Kutta methods, wikidata: Q6596023}
+  - {name: Butcher group, kind: object, wikipedia: Butcher group, wikidata: Q5002457}
+  - {name: Runge–Kutta–Fehlberg method, kind: statement, wikipedia: Runge–Kutta–Fehlberg method, wikidata: Q7379856}
+  - {name: Dormand–Prince method, kind: statement, wikipedia: Dormand–Prince method, wikidata: Q5298067}
+  - {name: Gauss–Legendre Runge–Kutta methods, kind: statement, wikipedia: Gauss–Legendre method, wikidata: Q5527853}
+  - {name: adaptive step size, kind: concept, wikipedia: Adaptive step size, wikidata: Q4680766}
+  - {name: predictor–corrector method, kind: statement, wikipedia: Predictor–corrector method, wikidata: Q2650267}
+  - {name: Bulirsch–Stoer algorithm, kind: statement, wikipedia: Bulirsch–Stoer algorithm, wikidata: Q4996463}
+  - {name: Rosenbrock methods, kind: statement, wikipedia: Rosenbrock methods, wikidata: Q7368544}
+  - {name: exponential integrator, kind: statement, wikipedia: Exponential integrator, wikidata: Q16148845}
+  - {name: leapfrog integration, kind: statement, wikipedia: Leapfrog integration, wikidata: Q1810707}
+  - {name: Verlet integration, kind: statement, wikipedia: Verlet integration, wikidata: Q2984997}
+  - {name: Beeman's algorithm, kind: statement, wikipedia: Beeman's algorithm, wikidata: Q4879859}
+  - {name: geometric integrator, kind: concept, wikipedia: Geometric integrator, wikidata: Q5535490}
+  - {name: variational integrator, kind: concept, wikipedia: Variational integrator, wikidata: Q7915797}
+  - {name: energy drift, kind: concept, wikipedia: Energy drift, wikidata: Q5377040}
+  - {name: Strang splitting, kind: statement, wikipedia: Strang splitting, wikidata: Q25303744}
+  - {name: Parareal, kind: statement, wikipedia: Parareal, wikidata: Q25304113}
+  - {name: Milstein method, kind: statement, wikipedia: Milstein method, wikidata: Q1396217}
+  - {name: Runge–Kutta method for stochastic differential equations, kind: statement, wikipedia: Runge–Kutta method (SDE), wikidata: Q7379855}
+  # Time-dependent partial differential equations
+  - {name: finite difference method, kind: concept, wikipedia: Finite difference method, wikidata: Q1147751}
+  - {name: Crank–Nicolson method, kind: statement, wikipedia: Crank–Nicolson method, wikidata: Q588725}
+  - {name: Courant–Friedrichs–Lewy condition, kind: statement, wikipedia: Courant–Friedrichs–Lewy condition, wikidata: Q1023483}
+  - {name: Lax equivalence theorem, kind: statement, wikipedia: Lax equivalence theorem, wikidata: Q256303}
+  - {name: von Neumann stability analysis, kind: statement, wikipedia: Von Neumann stability analysis, wikidata: Q458556}
+  - {name: method of lines, kind: concept, wikipedia: Method of lines, wikidata: Q1826712}
+  - {name: alternating-direction implicit method, kind: statement, wikipedia: Alternating-direction implicit method, wikidata: Q4736413}
+  - {name: upwind scheme, kind: definition, wikipedia: Upwind scheme, wikidata: Q7899499}
+  - {name: Lax–Wendroff method, kind: definition, wikipedia: Lax–Wendroff method, wikidata: Q259958}
+  - {name: MacCormack method, kind: definition, wikipedia: MacCormack method, wikidata: Q6721779}
+  - {name: numerical diffusion, kind: concept, wikipedia: Numerical diffusion, wikidata: Q7069655}
+  - {name: Godunov's theorem, kind: statement, wikipedia: Godunov's theorem, wikidata: Q17017973}
+  - {name: total variation diminishing scheme, kind: definition, wikipedia: Total variation diminishing, wikidata: Q7828154}
+  - {name: flux limiter, kind: definition, wikipedia: Flux limiter, wikidata: Q5463027}
+  - {name: MUSCL scheme, kind: definition, wikipedia: MUSCL scheme, wikidata: Q6719085}
+  - {name: Riemann solver, kind: concept, wikipedia: Riemann solver, wikidata: Q6153788}
+  - {name: Roe solver, kind: statement, wikipedia: Roe solver, wikidata: Q7357538}
+  - {name: level-set method, kind: concept, wikipedia: Level-set method, wikidata: Q1751397}
+  - {name: fast marching method, kind: statement, wikipedia: Fast marching method, wikidata: Q5437042}
+  # Boundary value problems and finite elements
+  - {name: finite element method, kind: concept, wikipedia: Finite element method, wikidata: Q220184}
+  - {name: Galerkin method, kind: statement, wikipedia: Galerkin method, wikidata: Q1491980}
+  - {name: Céa's lemma, kind: statement, wikipedia: Céa's lemma, wikidata: Q1816912}
+  - {name: Bramble–Hilbert lemma, kind: statement, wikipedia: Bramble–Hilbert lemma, wikidata: Q1816909}
+  - {name: Ladyzhenskaya–Babuška–Brezzi condition, kind: statement, wikipedia: Ladyzhenskaya–Babuška–Brezzi condition, wikidata: Q55648034}
+  - {name: Petrov–Galerkin method, kind: statement, wikipedia: Petrov–Galerkin method, wikidata: Q7179155}
+  - {name: stiffness matrix, kind: definition, wikipedia: Stiffness matrix, wikidata: Q3851930}
+  - {name: mixed finite element method, kind: concept, wikipedia: Mixed finite element method, wikidata: Q16965966}
+  - {name: Raviart–Thomas elements, kind: object, wikipedia: Raviart–Thomas basis functions, wikidata: Q25304199}
+  - {name: finite element exterior calculus, kind: concept, wikipedia: Finite element exterior calculus, wikidata: Q19597249}
+  - {name: hp-FEM, kind: concept, wikipedia: Hp-FEM, wikidata: Q17027720}
+  - {name: discontinuous Galerkin method, kind: concept, wikipedia: Discontinuous Galerkin method, wikidata: Q428273}
+  - {name: extended finite element method, kind: concept, wikipedia: Extended finite element method, wikidata: Q3333647}
+  - {name: isogeometric analysis, kind: concept, wikipedia: Isogeometric analysis, wikidata: Q17082433}
+  - {name: adaptive mesh refinement, kind: concept, wikipedia: Adaptive mesh refinement, wikidata: Q4680751}
+  - {name: finite volume method, kind: concept, wikipedia: Finite volume method, wikidata: Q1401936}
+  - {name: spectral method, kind: concept, wikipedia: Spectral method, wikidata: Q2308831}
+  - {name: pseudo-spectral method, kind: concept, wikipedia: Pseudo-spectral method, wikidata: Q7254447}
+  - {name: spectral element method, kind: concept, wikipedia: Spectral element method, wikidata: Q7575186}
+  - {name: meshfree methods, kind: concept, wikipedia: Meshfree methods, wikidata: Q14866890}
+  - {name: method of fundamental solutions, kind: concept, wikipedia: Method of fundamental solutions, wikidata: Q6823714}
+  - {name: immersed boundary method, kind: concept, wikipedia: Immersed boundary method, wikidata: Q11425899}
+  # Integral equations
+  - {name: Nyström method, kind: statement, wikipedia: Nyström method, wikidata: Q7071295}
+  # Fourier and transform methods
+  - {name: discrete Fourier transform, kind: definition, wikipedia: Discrete Fourier transform, wikidata: Q2878}
+  - {name: fast Fourier transform, kind: statement, wikipedia: Fast Fourier transform, wikidata: Q623950}
+  - {name: Cooley–Tukey FFT algorithm, kind: statement, wikipedia: Cooley–Tukey FFT algorithm, wikidata: Q5167446}
+  - {name: non-uniform discrete Fourier transform, kind: definition, wikipedia: Non-uniform discrete Fourier transform, wikidata: Q7049066}
+  - {name: Bluestein's FFT algorithm, kind: statement, wikipedia: Chirp Z-transform, wikidata: Q886077}
+  - {name: Rader's FFT algorithm, kind: statement, wikipedia: Rader's FFT algorithm, wikidata: Q7280126}
+  - {name: prime-factor FFT algorithm, kind: statement, wikipedia: Prime-factor FFT algorithm, wikidata: Q7243214}
+  # Recurrences and evaluation of functions
+  - {name: Clenshaw algorithm, kind: statement, wikipedia: Clenshaw algorithm, wikidata: Q1067155}
+  - {name: CORDIC, kind: statement, wikipedia: CORDIC, wikidata: Q116076}
+  # Monte Carlo and quasi-Monte Carlo methods
+  - {name: Monte Carlo method, kind: concept, wikipedia: Monte Carlo method, wikidata: Q232207}
+  - {name: Monte Carlo integration, kind: statement, wikipedia: Monte Carlo integration, wikidata: Q39879}
+  - {name: pseudorandom number generator, kind: concept, wikipedia: Pseudorandom number generator, wikidata: Q1623338}
+  - {name: linear congruential generator, kind: definition, wikipedia: Linear congruential generator, wikidata: Q1190228}
+  - {name: Mersenne Twister, kind: object, wikipedia: Mersenne Twister, wikidata: Q1196406}
+  - {name: inverse transform sampling, kind: statement, wikipedia: Inverse transform sampling, wikidata: Q1377019}
+  - {name: rejection sampling, kind: statement, wikipedia: Rejection sampling, wikidata: Q381699}
+  - {name: Box–Muller transform, kind: statement, wikipedia: Box–Muller transform, wikidata: Q895514}
+  - {name: ziggurat algorithm, kind: statement, wikipedia: Ziggurat algorithm, wikidata: Q2894386}
+  - {name: variance reduction, kind: concept, wikipedia: Variance reduction, wikidata: Q3454689}
+  - {name: importance sampling, kind: statement, wikipedia: Importance sampling, wikidata: Q1539564}
+  - {name: antithetic variates, kind: statement, wikipedia: Antithetic variates, wikidata: Q3554719}
+  - {name: control variates, kind: statement, wikipedia: Control variates, wikidata: Q3554721}
+  - {name: multilevel Monte Carlo method, kind: statement, wikipedia: Multilevel Monte Carlo method, wikidata: Q48998192}
+  - {name: quasi-Monte Carlo method, kind: concept, wikipedia: Quasi-Monte Carlo method, wikidata: Q7269435}
+  - {name: low-discrepancy sequence, kind: definition, wikipedia: Low-discrepancy sequence, wikidata: Q6692743}
+  - {name: Koksma–Hlawka inequality, kind: statement, wikipedia: Low-discrepancy sequence, wikidata: Q6692743}
+  - {name: Halton sequence, kind: object, wikipedia: Halton sequence, wikidata: Q5643679}
+  - {name: Sobol sequence, kind: object, wikipedia: Sobol sequence, wikidata: Q7550116}
+  - {name: Hamiltonian Monte Carlo, kind: statement, wikipedia: Hamiltonian Monte Carlo, wikidata: Q1639846}
+  - {name: Gibbs sampling, kind: statement, wikipedia: Gibbs sampling, wikidata: Q1191905}
+  # Complexity of numerical problems
+  - {name: information-based complexity, kind: concept, wikipedia: Information-based complexity, wikidata: Q6030626}

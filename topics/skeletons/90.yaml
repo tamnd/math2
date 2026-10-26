@@ -1,0 +1,218 @@
+# The C2 skeleton of 90-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 90-XX
+title: mathematical programming and operations research
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+items:
+  # Basic notions of optimization
+  - {name: mathematical optimization, kind: concept, wikipedia: Mathematical optimization, wikidata: Q141495}
+  - {name: optimization problem, kind: definition, wikipedia: Optimization problem, wikidata: Q984063}
+  - {name: feasible region, kind: definition, wikipedia: Feasible region, wikidata: Q17013331}
+  - {name: constraint, kind: definition, wikipedia: Constraint (mathematics), wikidata: Q2303305}
+  - {name: slack variable, kind: definition, wikipedia: Slack variable, wikidata: Q1765718}
+  - {name: minimizer on a set, kind: definition, decl: IsMinOn, wikipedia: Maximum and minimum, wikidata: Q845060}
+  - {name: constrained optimization, kind: concept, wikipedia: Constrained optimization, wikidata: Q4477763}
+  - {name: Lagrange multiplier rule for equality constraints, kind: statement, decl: IsLocalExtrOn.exists_multipliers_of_hasStrictFDerivAt, wikipedia: Lagrange multiplier, wikidata: Q598870}
+  - {name: operations research, kind: concept, wikipedia: Operations research, wikidata: Q194292}
+  # Linear programming
+  - {name: linear programming, kind: concept, wikipedia: Linear programming, wikidata: Q202843}
+  - {name: linear program in standard form, kind: definition, wikipedia: Linear programming, wikidata: Q202843}
+  - {name: basic feasible solution, kind: definition, wikipedia: Basic feasible solution, wikidata: Q60790890}
+  - {name: fundamental theorem of linear programming, kind: statement, wikipedia: Fundamental theorem of linear programming, wikidata: Q57498}
+  - {name: dual linear program, kind: definition, wikipedia: Dual linear program, wikidata: Q910436}
+  - {name: weak duality, kind: statement, wikipedia: Weak duality, wikidata: Q7977943}
+  - {name: strong duality theorem of linear programming, kind: statement, wikipedia: Strong duality, wikidata: Q7624553}
+  - {name: complementary slackness, kind: statement, wikipedia: Linear programming, wikidata: Q202843}
+  - {name: Farkas' lemma, kind: statement, decl: ProperCone.hyperplane_separation, wikipedia: Farkas' lemma, wikidata: Q606254}
+  - {name: Fourier–Motzkin elimination, kind: definition, wikipedia: Fourier–Motzkin elimination, wikidata: Q1440012}
+  - {name: simplex algorithm, kind: definition, wikipedia: Simplex algorithm, wikidata: Q134164}
+  - {name: revised simplex method, kind: definition, wikipedia: Revised simplex method, wikidata: Q17085895}
+  - {name: Bland's rule, kind: definition, wikipedia: Bland's rule, wikidata: Q4924975}
+  - {name: degeneracy and cycling in the simplex method, kind: concept, wikipedia: Simplex algorithm, wikidata: Q134164}
+  - {name: criss-cross algorithm, kind: definition, wikipedia: Criss-cross algorithm, wikidata: Q17006040}
+  - {name: Klee–Minty cube, kind: counterexample, wikipedia: Klee–Minty cube, wikidata: Q6420102}
+  - {name: smoothed analysis of the simplex method, kind: statement, wikipedia: Smoothed analysis, wikidata: Q7546449}
+  - {name: ellipsoid method, kind: definition, wikipedia: Ellipsoid method, wikidata: Q378574}
+  - {name: Khachiyan's theorem that linear programming is in P, kind: statement, wikipedia: Ellipsoid method, wikidata: Q378574}
+  - {name: Karmarkar's algorithm, kind: definition, wikipedia: Karmarkar's algorithm, wikidata: Q2246305}
+  - {name: polynomial Hirsch conjecture, kind: conjecture, wikipedia: Hirsch conjecture, wikidata: Q2993326}
+  - {name: strongly polynomial algorithm for linear programming, kind: problem, wikipedia: Smale's problems, wikidata: Q2664496}
+  - {name: Dantzig–Wolfe decomposition, kind: definition, wikipedia: Dantzig–Wolfe decomposition, wikidata: Q4388617}
+  - {name: Benders decomposition, kind: definition, wikipedia: Benders decomposition, wikidata: Q3042795}
+  - {name: column generation, kind: definition, wikipedia: Column generation, wikidata: Q3123181}
+  - {name: parametric programming, kind: concept, wikipedia: Parametric programming, wikidata: Q25111241}
+  - {name: linear-fractional programming, kind: definition, wikipedia: Linear-fractional programming, wikidata: Q4168281}
+  - {name: goal programming, kind: definition, wikipedia: Goal programming, wikidata: Q1345279}
+  - {name: transportation problem, kind: problem, wikipedia: Transportation theory (mathematics), wikidata: Q1929885}
+  - {name: assignment problem, kind: problem, wikipedia: Assignment problem, wikidata: Q620614}
+  - {name: Hungarian algorithm, kind: definition, wikipedia: Hungarian algorithm, wikidata: Q281922}
+  - {name: data envelopment analysis, kind: definition, wikipedia: Data envelopment analysis, wikidata: Q647974}
+  # Integer programming
+  - {name: integer programming, kind: concept, wikipedia: Integer programming, wikidata: Q6042592}
+  - {name: mixed-integer linear program, kind: definition, wikipedia: Integer programming, wikidata: Q6042592}
+  - {name: linear programming relaxation, kind: definition, wikipedia: Linear programming relaxation, wikidata: Q1512771}
+  - {name: totally unimodular matrix, kind: definition, wikipedia: Unimodular matrix, wikidata: Q1367055}
+  - {name: Hoffman–Kruskal theorem, kind: statement, wikipedia: Unimodular matrix, wikidata: Q1367055}
+  - {name: integral polytope, kind: definition, wikipedia: Integral polytope, wikidata: Q5166519}
+  - {name: total dual integrality, kind: definition, wikipedia: Total dual integrality, wikidata: Q7828108}
+  - {name: branch and bound, kind: definition, wikipedia: Branch and bound, wikidata: Q897659}
+  - {name: cutting-plane method, kind: definition, wikipedia: Cutting-plane method, wikidata: Q1762039}
+  - {name: Gomory's fractional cut, kind: definition, wikipedia: Cutting-plane method, wikidata: Q1762039}
+  - {name: branch and cut, kind: definition, wikipedia: Branch and cut, wikidata: Q498566}
+  - {name: branch and price, kind: definition, wikipedia: Branch and price, wikidata: Q4956382}
+  - {name: Lagrangian relaxation, kind: definition, wikipedia: Lagrangian relaxation, wikidata: Q3424292}
+  - {name: Lenstra's algorithm for integer programming in fixed dimension, kind: statement, wikipedia: Integer programming, wikidata: Q6042592}
+  - {name: NP-hardness of integer programming, kind: statement, wikipedia: Karp's 21 NP-complete problems, wikidata: Q1734364}
+  # Combinatorial optimization
+  - {name: combinatorial optimization, kind: concept, wikipedia: Combinatorial optimization, wikidata: Q1333872}
+  - {name: polyhedral combinatorics, kind: concept, wikipedia: Polyhedral combinatorics, wikidata: Q8348314}
+  - {name: knapsack problem, kind: problem, wikipedia: Knapsack problem, wikidata: Q864457}
+  - {name: bin packing problem, kind: problem, wikipedia: Bin packing problem, wikidata: Q814581}
+  - {name: cutting stock problem, kind: problem, wikipedia: Cutting stock problem, wikidata: Q1306230}
+  - {name: set cover problem, kind: problem, wikipedia: Set cover problem, wikidata: Q1192100}
+  - {name: travelling salesman problem, kind: problem, wikipedia: Travelling salesman problem, wikidata: Q322212}
+  - {name: Held–Karp algorithm, kind: definition, wikipedia: Held–Karp algorithm, wikidata: Q20203442}
+  - {name: Christofides algorithm, kind: definition, wikipedia: Christofides algorithm, wikidata: Q498144}
+  - {name: vehicle routing problem, kind: problem, wikipedia: Vehicle routing problem, wikidata: Q944041}
+  - {name: Steiner tree problem, kind: problem, wikipedia: Steiner tree problem, wikidata: Q1764144}
+  - {name: quadratic assignment problem, kind: problem, wikipedia: Quadratic assignment problem, wikidata: Q7268356}
+  - {name: facility location problem, kind: problem, wikipedia: Optimal facility location, wikidata: Q1305598}
+  - {name: maximum cut, kind: problem, wikipedia: Maximum cut, wikidata: Q942557}
+  - {name: Goemans–Williamson algorithm, kind: statement, wikipedia: Semidefinite programming, wikidata: Q2269096}
+  - {name: blossom algorithm, kind: definition, wikipedia: Blossom algorithm, wikidata: Q1030529}
+  - {name: Edmonds' matching polytope theorem, kind: statement, wikipedia: Matching polytope, wikidata: Q97516289}
+  - {name: matroid intersection, kind: problem, wikipedia: Matroid intersection, wikidata: Q6787903}
+  - {name: greedy algorithm for matroids, kind: statement, wikipedia: Matroid, wikidata: Q898572}
+  - {name: submodular set function, kind: definition, wikipedia: Submodular set function, wikidata: Q7631710}
+  - {name: polynomial-time submodular minimization, kind: statement, wikipedia: Submodular set function, wikidata: Q7631710}
+  - {name: Lovász extension, kind: definition, wikipedia: Submodular set function, wikidata: Q7631710}
+  - {name: Lin–Kernighan heuristic, kind: definition, wikipedia: Lin–Kernighan heuristic, wikidata: Q2835802}
+  # Network flows
+  - {name: flow network, kind: definition, wikipedia: Flow network, wikidata: Q1412924}
+  - {name: maximum flow problem, kind: problem, wikipedia: Maximum flow problem, wikidata: Q2585642}
+  - {name: max-flow min-cut theorem, kind: statement, wikipedia: Max-flow min-cut theorem, wikidata: Q608294}
+  - {name: integral flow theorem, kind: statement, wikipedia: Ford–Fulkerson algorithm, wikidata: Q284695}
+  - {name: Ford–Fulkerson algorithm, kind: definition, wikipedia: Ford–Fulkerson algorithm, wikidata: Q284695}
+  - {name: Edmonds–Karp algorithm, kind: definition, wikipedia: Edmonds–Karp algorithm, wikidata: Q1302658}
+  - {name: Dinic's algorithm, kind: definition, wikipedia: Dinic's algorithm, wikidata: Q730933}
+  - {name: push–relabel maximum flow algorithm, kind: definition, wikipedia: Push–relabel maximum flow algorithm, wikidata: Q583889}
+  - {name: minimum-cost flow problem, kind: problem, wikipedia: Minimum-cost flow problem, wikidata: Q2897180}
+  - {name: network simplex algorithm, kind: definition, wikipedia: Network simplex algorithm, wikidata: Q1978970}
+  - {name: circulation problem, kind: problem, wikipedia: Circulation problem, wikidata: Q5121696}
+  - {name: multi-commodity flow problem, kind: problem, wikipedia: Multi-commodity flow problem, wikidata: Q6934437}
+  - {name: Gomory–Hu tree, kind: statement, wikipedia: Gomory–Hu tree, wikidata: Q5581241}
+  - {name: shortest path problem, kind: problem, wikipedia: Shortest path problem, wikidata: Q1058754}
+  - {name: critical path method, kind: definition, wikipedia: Critical path method, wikidata: Q825377}
+  - {name: Braess's paradox, kind: counterexample, wikipedia: Braess's paradox, wikidata: Q897194}
+  - {name: Wardrop equilibrium, kind: definition, wikipedia: Wardrop equilibrium, wikidata: Q123752521}
+  - {name: price of anarchy in routing, kind: statement, wikipedia: Price of anarchy, wikidata: Q7242623}
+  # Convex programming and duality
+  - {name: convex optimization, kind: concept, wikipedia: Convex optimization, wikidata: Q463359}
+  - {name: Lagrangian duality, kind: concept, wikipedia: Duality (optimization), wikidata: Q2275559}
+  - {name: duality gap, kind: definition, wikipedia: Duality gap, wikidata: Q5310264}
+  - {name: Slater's condition, kind: statement, wikipedia: Slater's condition, wikidata: Q7538885}
+  - {name: Karush–Kuhn–Tucker conditions, kind: statement, wikipedia: Karush–Kuhn–Tucker conditions, wikidata: Q2075125}
+  - {name: Fritz John conditions, kind: statement, wikipedia: Fritz John conditions, wikidata: Q5504940}
+  - {name: constraint qualifications, kind: definition, wikipedia: Karush–Kuhn–Tucker conditions, wikidata: Q2075125}
+  - {name: second-order sufficient optimality conditions, kind: statement, wikipedia: Karush–Kuhn–Tucker conditions, wikidata: Q2075125}
+  - {name: Fenchel's duality theorem, kind: statement, wikipedia: Fenchel's duality theorem, wikidata: Q5443003}
+  - {name: Sion's minimax theorem, kind: statement, decl: Sion.exists_isSaddlePointOn, wikipedia: Minimax theorem, wikidata: Q913849}
+  - {name: saddle point of a function on a product, kind: definition, decl: IsSaddlePointOn, wikipedia: Saddle point, wikidata: Q690935}
+  - {name: Danskin's theorem, kind: statement, wikipedia: Danskin's theorem, wikidata: Q5221089}
+  - {name: proximal operator, kind: definition, wikipedia: Proximal operator, wikidata: Q28130527}
+  - {name: Moreau envelope, kind: definition, wikipedia: Moreau envelope, wikidata: Q115978756}
+  - {name: self-concordant function, kind: definition, wikipedia: Self-concordant function, wikidata: Q4406886}
+  - {name: barrier function, kind: definition, wikipedia: Barrier function, wikidata: Q4863604}
+  - {name: interior-point method, kind: definition, wikipedia: Interior-point method, wikidata: Q461992}
+  - {name: central path, kind: definition, wikipedia: Interior-point method, wikidata: Q461992}
+  # Conic, quadratic and polynomial programming
+  - {name: conic optimization, kind: concept, wikipedia: Conic optimization, wikidata: Q2654791}
+  - {name: dual cone, kind: definition, decl: ProperCone.dual, wikipedia: Dual cone and polar cone, wikidata: Q2687694}
+  - {name: quadratic programming, kind: definition, wikipedia: Quadratic programming, wikidata: Q290117}
+  - {name: second-order cone programming, kind: definition, wikipedia: Second-order cone programming, wikidata: Q7442977}
+  - {name: semidefinite programming, kind: definition, wikipedia: Semidefinite programming, wikidata: Q2269096}
+  - {name: positive semidefinite matrix, kind: definition, decl: Matrix.PosSemidef, wikipedia: Definite matrix, wikidata: Q77601250}
+  - {name: S-lemma, kind: statement, wikipedia: S-procedure, wikidata: Q25111847}
+  - {name: sum-of-squares optimization, kind: definition, wikipedia: Sum-of-squares optimization, wikidata: Q7636875}
+  - {name: geometric programming, kind: definition, wikipedia: Geometric programming, wikidata: Q2078279}
+  - {name: fractional programming, kind: definition, wikipedia: Fractional programming, wikidata: Q5477546}
+  - {name: semi-infinite programming, kind: definition, wikipedia: Semi-infinite programming, wikidata: Q7449304}
+  # Complementarity problems
+  - {name: complementarity theory, kind: concept, wikipedia: Complementarity theory, wikidata: Q5156417}
+  - {name: linear complementarity problem, kind: problem, wikipedia: Linear complementarity problem, wikidata: Q783105}
+  - {name: Lemke's algorithm, kind: definition, wikipedia: Lemke's algorithm, wikidata: Q6521168}
+  - {name: mathematical programming with equilibrium constraints, kind: definition, wikipedia: Mathematical programming with equilibrium constraints, wikidata: Q1881744}
+  # Algorithms of nonlinear programming
+  - {name: nonlinear programming, kind: concept, wikipedia: Nonlinear programming, wikidata: Q769909}
+  - {name: gradient descent, kind: definition, wikipedia: Gradient descent, wikidata: Q1199743}
+  - {name: Nesterov's accelerated gradient method, kind: statement, wikipedia: Gradient descent, wikidata: Q1199743}
+  - {name: subgradient method, kind: definition, wikipedia: Subgradient method, wikidata: Q7631150}
+  - {name: proximal gradient method, kind: definition, wikipedia: Proximal gradient method, wikidata: Q17086765}
+  - {name: mirror descent, kind: definition, wikipedia: Mirror descent, wikidata: Q111939494}
+  - {name: coordinate descent, kind: definition, wikipedia: Coordinate descent, wikidata: Q5168004}
+  - {name: stochastic gradient descent, kind: definition, wikipedia: Stochastic gradient descent, wikidata: Q7617819}
+  - {name: Frank–Wolfe algorithm, kind: definition, wikipedia: Frank–Wolfe algorithm, wikidata: Q2020318}
+  - {name: Newton's method in optimization, kind: definition, wikipedia: Newton's method in optimization, wikidata: Q17086396}
+  - {name: quasi-Newton method, kind: definition, wikipedia: Quasi-Newton method, wikidata: Q1476018}
+  - {name: BFGS method, kind: definition, wikipedia: Broyden–Fletcher–Goldfarb–Shanno algorithm, wikidata: Q2877013}
+  - {name: line search, kind: definition, wikipedia: Line search, wikidata: Q3278015}
+  - {name: Wolfe conditions, kind: definition, wikipedia: Wolfe conditions, wikidata: Q3002999}
+  - {name: backtracking line search, kind: definition, wikipedia: Backtracking line search, wikidata: Q4839787}
+  - {name: trust region method, kind: definition, wikipedia: Trust region, wikidata: Q1535924}
+  - {name: penalty method, kind: definition, wikipedia: Penalty method, wikidata: Q3411771}
+  - {name: augmented Lagrangian method, kind: definition, wikipedia: Augmented Lagrangian method, wikidata: Q4820432}
+  - {name: alternating direction method of multipliers, kind: definition, wikipedia: Augmented Lagrangian method, wikidata: Q4820432}
+  - {name: sequential quadratic programming, kind: definition, wikipedia: Sequential quadratic programming, wikidata: Q4373881}
+  - {name: Nelder–Mead method, kind: definition, wikipedia: Nelder–Mead method, wikidata: Q1253278}
+  - {name: cutting-plane methods for convex optimization, kind: definition, wikipedia: Cutting-plane method, wikidata: Q1762039}
+  # Global, multiobjective and uncertain optimization
+  - {name: global optimization, kind: concept, wikipedia: Global optimization, wikidata: Q5570875}
+  - {name: simulated annealing, kind: definition, wikipedia: Simulated annealing, wikidata: Q863783}
+  - {name: no free lunch theorem for optimization, kind: statement, wikipedia: No free lunch in search and optimization, wikidata: Q255847}
+  - {name: multi-objective optimization, kind: concept, wikipedia: Multi-objective optimization, wikidata: Q2052203}
+  - {name: Pareto front, kind: definition, wikipedia: Pareto frontier, wikidata: Q55362336}
+  - {name: vector optimization, kind: concept, wikipedia: Vector optimization, wikidata: Q7917833}
+  - {name: bilevel optimization, kind: definition, wikipedia: Bilevel optimization, wikidata: Q4907693}
+  - {name: robust optimization, kind: definition, wikipedia: Robust optimization, wikidata: Q2160088}
+  - {name: stochastic programming, kind: definition, wikipedia: Stochastic programming, wikidata: Q7617831}
+  - {name: chance-constrained programming, kind: definition, wikipedia: Chance constrained programming, wikidata: Q131124952}
+  - {name: sample average approximation, kind: definition, wikipedia: Stochastic programming, wikidata: Q7617831}
+  # Dynamic programming and Markov decision processes
+  - {name: Bellman equation, kind: definition, wikipedia: Bellman equation, wikidata: Q1430750}
+  - {name: principle of optimality, kind: statement, wikipedia: Bellman equation, wikidata: Q1430750}
+  - {name: stochastic dynamic programming, kind: concept, wikipedia: Stochastic dynamic programming, wikidata: Q28137009}
+  - {name: Markov decision process, kind: definition, wikipedia: Markov decision process, wikidata: Q176789}
+  - {name: value iteration and policy iteration, kind: definition, wikipedia: Markov decision process, wikidata: Q176789}
+  - {name: existence of optimal stationary policies, kind: statement, wikipedia: Markov decision process, wikidata: Q176789}
+  - {name: partially observable Markov decision process, kind: definition, wikipedia: Partially observable Markov decision process, wikidata: Q176814}
+  - {name: multi-armed bandit, kind: problem, wikipedia: Multi-armed bandit, wikidata: Q2882343}
+  - {name: Gittins index theorem, kind: statement, wikipedia: Gittins index, wikidata: Q4200726}
+  - {name: secretary problem, kind: problem, wikipedia: Secretary problem, wikidata: Q1372364}
+  # Inventory, scheduling and location
+  - {name: inventory theory, kind: concept, wikipedia: Inventory theory, wikidata: Q252073}
+  - {name: economic order quantity, kind: statement, wikipedia: Economic order quantity, wikidata: Q451299}
+  - {name: newsvendor model, kind: problem, wikipedia: Newsvendor model, wikidata: Q3130009}
+  - {name: dynamic lot-size model, kind: problem, wikipedia: Dynamic lot-size model, wikidata: Q2539221}
+  - {name: optimal job scheduling, kind: concept, wikipedia: Optimal job scheduling, wikidata: Q7062516}
+  - {name: job-shop scheduling, kind: problem, wikipedia: Job-shop scheduling, wikidata: Q6206757}
+  - {name: flow-shop scheduling, kind: problem, wikipedia: Flow-shop scheduling, wikidata: Q3074426}
+  - {name: Johnson's rule, kind: statement, wikipedia: Johnson's rule, wikidata: Q1662347}
+  - {name: list scheduling and Graham's bound, kind: statement, wikipedia: List scheduling, wikidata: Q6646016}
+  - {name: Weber problem, kind: problem, wikipedia: Weber problem, wikidata: Q14325966}
+  - {name: linear search problem, kind: problem, wikipedia: Linear search problem, wikidata: Q6553518}
+  - {name: Bayesian search theory, kind: concept, wikipedia: Bayesian search theory, wikidata: Q4455102}
+  # Queueing models
+  - {name: Kendall's notation, kind: definition, wikipedia: Kendall's notation, wikidata: Q1738700}
+  - {name: M/M/c queue, kind: example, wikipedia: M/M/c queue, wikidata: Q2896016}
+  - {name: M/G/1 queue, kind: example, wikipedia: M/G/1 queue, wikidata: Q3916814}
+  - {name: Erlang B and C formulas, kind: statement, wikipedia: Erlang (unit), wikidata: Q225888}
+  - {name: Pollaczek–Khinchine formula, kind: statement, wikipedia: Pollaczek–Khinchine formula, wikidata: Q3726543}
+  - {name: Kingman's formula, kind: statement, wikipedia: Kingman's formula, wikidata: Q6412804}
+  - {name: Lindley equation, kind: definition, wikipedia: Lindley equation, wikidata: Q6552558}
+  - {name: Burke's theorem, kind: statement, wikipedia: Burke's theorem, wikidata: Q4998912}
+  - {name: Jackson network, kind: statement, wikipedia: Jackson network, wikidata: Q2524990}
+  - {name: Gordon–Newell theorem, kind: statement, wikipedia: Gordon–Newell theorem, wikidata: Q5586067}
+  - {name: BCMP network, kind: statement, wikipedia: BCMP network, wikidata: Q4835204}
+  - {name: heavy traffic approximation, kind: statement, wikipedia: Heavy traffic approximation, wikidata: Q17022030}

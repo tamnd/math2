@@ -1,0 +1,211 @@
+# The C2 skeleton of 80-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 80-XX
+title: thermodynamics and heat transfer
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+items:
+  # Basic notions of thermodynamics
+  - {name: thermodynamics, kind: concept, wikipedia: Thermodynamics, wikidata: Q11473}
+  - {name: thermodynamic system, kind: definition, wikipedia: Thermodynamic system, wikidata: Q503327}
+  - {name: thermodynamic state, kind: definition, wikipedia: Thermodynamic state, wikidata: Q230875}
+  - {name: state function, kind: definition, wikipedia: State function, wikidata: Q230937}
+  - {name: process function, kind: definition, wikipedia: Process function, wikidata: Q900800}
+  - {name: thermodynamic equilibrium, kind: definition, wikipedia: Thermodynamic equilibrium, wikidata: Q51363}
+  - {name: intensive and extensive properties, kind: definition, wikipedia: Intensive and extensive properties, wikidata: Q911916}
+  - {name: conjugate variables, kind: definition, wikipedia: Conjugate variables (thermodynamics), wikidata: Q2627460}
+  - {name: temperature, kind: definition, wikipedia: Temperature, wikidata: Q11466}
+  - {name: thermodynamic temperature, kind: definition, wikipedia: Thermodynamic temperature, wikidata: Q264647}
+  - {name: heat, kind: definition, wikipedia: Heat, wikidata: Q44432}
+  - {name: thermodynamic work, kind: definition, wikipedia: Work (thermodynamics), wikidata: Q900231}
+  - {name: internal energy, kind: definition, wikipedia: Internal energy, wikidata: Q180241}
+  - {name: entropy, kind: definition, wikipedia: Entropy, wikidata: Q45003}
+  - {name: quasistatic process, kind: definition, wikipedia: Quasistatic process, wikidata: Q900222}
+  - {name: reversible process, kind: definition, wikipedia: Reversible process (thermodynamics), wikidata: Q908691}
+  - {name: irreversible process, kind: definition, wikipedia: Irreversible process, wikidata: Q632388}
+  - {name: isothermal process, kind: definition, wikipedia: Isothermal process, wikidata: Q486921}
+  - {name: adiabatic process, kind: definition, wikipedia: Adiabatic process, wikidata: Q182453}
+  - {name: isentropic process, kind: definition, wikipedia: Isentropic process, wikidata: Q907271}
+  - {name: isobaric process, kind: definition, wikipedia: Isobaric process, wikidata: Q137649}
+  - {name: isochoric process, kind: definition, wikipedia: Isochoric process, wikidata: Q208388}
+  - {name: polytropic process, kind: definition, wikipedia: Polytropic process, wikidata: Q831024}
+  # Laws of thermodynamics
+  - {name: laws of thermodynamics, kind: statement, wikipedia: Laws of thermodynamics, wikidata: Q849392}
+  - {name: zeroth law of thermodynamics, kind: statement, wikipedia: Zeroth law of thermodynamics, wikidata: Q190983}
+  - {name: first law of thermodynamics, kind: statement, wikipedia: First law of thermodynamics, wikidata: Q179380}
+  - {name: second law of thermodynamics, kind: statement, wikipedia: Second law of thermodynamics, wikidata: Q177045}
+  - {name: Clausius statement of the second law, kind: statement, wikipedia: Second law of thermodynamics, wikidata: Q177045}
+  - {name: Kelvin–Planck statement of the second law, kind: statement, wikipedia: Second law of thermodynamics, wikidata: Q177045}
+  - {name: Clausius theorem, kind: statement, wikipedia: Clausius theorem, wikidata: Q2428364}
+  - {name: Carathéodory's principle, kind: statement, wikipedia: Second law of thermodynamics, wikidata: Q177045}
+  - {name: third law of thermodynamics, kind: statement, wikipedia: Third law of thermodynamics, wikidata: Q29166}
+  - {name: Nernst heat theorem, kind: statement, wikipedia: Nernst heat theorem, wikidata: Q5372452}
+  - {name: unattainability principle, kind: statement, wikipedia: Third law of thermodynamics, wikidata: Q29166}
+  - {name: Lieb–Yngvason axiomatization of entropy, kind: concept, wikipedia: Entropy, wikidata: Q45003}
+  - {name: principle of maximum entropy in thermodynamics, kind: statement, wikipedia: Principle of maximum entropy, wikidata: Q1417473}
+  - {name: principle of minimum energy, kind: statement, wikipedia: Principle of minimum energy, wikidata: Q3743693}
+  - {name: perpetual motion, kind: concept, wikipedia: Perpetual motion, wikidata: Q12623}
+  # Thermodynamic potentials and relations
+  - {name: thermodynamic potential, kind: definition, wikipedia: Thermodynamic potential, wikidata: Q2420179}
+  - {name: fundamental thermodynamic relation, kind: statement, wikipedia: Fundamental thermodynamic relation, wikidata: Q1474109}
+  - {name: enthalpy, kind: definition, wikipedia: Enthalpy, wikidata: Q161064}
+  - {name: Helmholtz free energy, kind: definition, wikipedia: Helmholtz free energy, wikidata: Q865821}
+  - {name: Gibbs free energy, kind: definition, wikipedia: Gibbs free energy, wikidata: Q334631}
+  - {name: grand potential, kind: definition, wikipedia: Grand potential, wikidata: Q902476}
+  - {name: Legendre transformation of thermodynamic potentials, kind: concept, wikipedia: Legendre transformation, wikidata: Q908652}
+  - {name: Maxwell relations, kind: statement, wikipedia: Maxwell relations, wikidata: Q187465}
+  - {name: Bridgman's thermodynamic equations, kind: statement, wikipedia: Bridgman's thermodynamic equations, wikidata: Q4966898}
+  - {name: thermodynamic square, kind: concept, wikipedia: Thermodynamic square, wikidata: Q63485}
+  - {name: Euler relation for internal energy, kind: statement, wikipedia: Fundamental thermodynamic relation, wikidata: Q1474109}
+  - {name: Gibbs–Duhem equation, kind: statement, wikipedia: Gibbs–Duhem equation, wikidata: Q899155}
+  - {name: Gibbs–Helmholtz equation, kind: statement, wikipedia: Gibbs–Helmholtz equation, wikidata: Q900590}
+  - {name: chemical potential, kind: definition, wikipedia: Chemical potential, wikidata: Q737004}
+  - {name: heat capacity, kind: definition, wikipedia: Heat capacity, wikidata: Q179388}
+  - {name: Mayer's relation, kind: statement, wikipedia: Mayer's relation, wikidata: Q6104964}
+  - {name: heat capacity ratio, kind: definition, wikipedia: Heat capacity ratio, wikidata: Q503869}
+  - {name: compressibility, kind: definition, wikipedia: Compressibility, wikidata: Q8067817}
+  - {name: thermal expansion coefficient, kind: definition, wikipedia: Thermal expansion, wikidata: Q6583695}
+  - {name: Joule–Thomson effect, kind: concept, wikipedia: Joule–Thomson effect, wikidata: Q724510}
+  - {name: Le Chatelier's principle, kind: statement, wikipedia: Le Chatelier's principle, wikidata: Q192690}
+  - {name: thermodynamic stability conditions, kind: statement, wikipedia: Thermodynamic equilibrium, wikidata: Q51363}
+  - {name: exergy, kind: definition, wikipedia: Exergy, wikidata: Q663290}
+  - {name: Gouy–Stodola theorem, kind: statement, wikipedia: Exergy, wikidata: Q663290}
+  - {name: geometrothermodynamics, kind: concept, wikipedia: Geometrothermodynamics, wikidata: Q5535512}
+  - {name: contact geometry of thermodynamics, kind: concept, wikipedia: Contact geometry, wikidata: Q1783105}
+  - {name: Ruppeiner geometry, kind: concept, wikipedia: Ruppeiner geometry, wikidata: Q7380427}
+  # Equations of state and phases
+  - {name: equation of state, kind: definition, wikipedia: Equation of state, wikidata: Q214967}
+  - {name: ideal gas law, kind: statement, wikipedia: Ideal gas law, wikidata: Q191785}
+  - {name: ideal gas, kind: definition, wikipedia: Ideal gas, wikidata: Q172280}
+  - {name: Boyle's law, kind: statement, wikipedia: Boyle's law, wikidata: Q175974}
+  - {name: Charles's law, kind: statement, wikipedia: Charles's law, wikidata: Q193523}
+  - {name: van der Waals equation, kind: definition, wikipedia: Van der Waals equation, wikidata: Q254329}
+  - {name: Maxwell equal-area construction, kind: concept, wikipedia: Maxwell construction, wikidata: Q15918317}
+  - {name: law of corresponding states, kind: statement, wikipedia: Theorem of corresponding states, wikidata: Q906849}
+  - {name: virial expansion, kind: concept, wikipedia: Virial expansion, wikidata: Q900846}
+  - {name: Redlich–Kwong equation of state, kind: definition, wikipedia: Redlich–Kwong equation of state, wikidata: Q903139}
+  - {name: compressibility factor, kind: definition, wikipedia: Compressibility factor, wikidata: Q736895}
+  - {name: phase transition, kind: concept, wikipedia: Phase transition, wikidata: Q185357}
+  - {name: phase diagram, kind: concept, wikipedia: Phase diagram, wikidata: Q186693}
+  - {name: Gibbs phase rule, kind: statement, wikipedia: Phase rule, wikidata: Q752412}
+  - {name: Clausius–Clapeyron relation, kind: statement, wikipedia: Clausius–Clapeyron relation, wikidata: Q745416}
+  - {name: Ehrenfest equations, kind: statement, wikipedia: Ehrenfest equations, wikidata: Q3656201}
+  - {name: Ehrenfest classification of phase transitions, kind: definition, wikipedia: Phase transition, wikidata: Q185357}
+  - {name: triple point, kind: definition, wikipedia: Triple point, wikidata: Q106410}
+  - {name: critical point, kind: definition, wikipedia: Critical point (thermodynamics), wikidata: Q111059}
+  - {name: latent heat, kind: definition, wikipedia: Latent heat, wikidata: Q207721}
+  - {name: Landau theory of phase transitions, kind: concept, wikipedia: Landau theory, wikidata: Q1626812}
+  - {name: lever rule, kind: statement, wikipedia: Lever rule, wikidata: Q1781829}
+  - {name: Raoult's law, kind: statement, wikipedia: Raoult's law, wikidata: Q241687}
+  - {name: Henry's law, kind: statement, wikipedia: Henry's law, wikidata: Q285804}
+  - {name: chemical equilibrium, kind: concept, wikipedia: Chemical equilibrium, wikidata: Q189520}
+  - {name: law of mass action, kind: statement, wikipedia: Law of mass action, wikidata: Q899494}
+  - {name: van 't Hoff equation, kind: statement, wikipedia: Van 't Hoff equation, wikidata: Q574862}
+  # Thermodynamic cycles
+  - {name: thermodynamic cycle, kind: definition, wikipedia: Thermodynamic cycle, wikidata: Q75920}
+  - {name: heat engine, kind: concept, wikipedia: Heat engine, wikidata: Q178185}
+  - {name: Carnot cycle, kind: example, wikipedia: Carnot cycle, wikidata: Q188910}
+  - {name: Carnot's theorem, kind: statement, wikipedia: Carnot's theorem (thermodynamics), wikidata: Q2347139}
+  - {name: thermal efficiency, kind: definition, wikipedia: Thermal efficiency, wikidata: Q1452104}
+  - {name: coefficient of performance, kind: definition, wikipedia: Coefficient of performance, wikidata: Q902090}
+  - {name: Otto cycle, kind: example, wikipedia: Otto cycle, wikidata: Q201762}
+  - {name: Diesel cycle, kind: example, wikipedia: Diesel cycle, wikidata: Q142663}
+  - {name: Brayton cycle, kind: example, wikipedia: Brayton cycle, wikidata: Q746338}
+  - {name: Rankine cycle, kind: example, wikipedia: Rankine cycle, wikidata: Q215612}
+  - {name: Stirling cycle, kind: example, wikipedia: Stirling cycle, wikidata: Q910550}
+  - {name: Ericsson cycle, kind: example, wikipedia: Ericsson cycle, wikidata: Q384539}
+  - {name: Curzon–Ahlborn efficiency, kind: statement, wikipedia: Endoreversible thermodynamics, wikidata: Q5376394}
+  - {name: finite-time thermodynamics, kind: concept, wikipedia: Endoreversible thermodynamics, wikidata: Q5376394}
+  # Non-equilibrium thermodynamics
+  - {name: non-equilibrium thermodynamics, kind: concept, wikipedia: Non-equilibrium thermodynamics, wikidata: Q2466686}
+  - {name: entropy production, kind: definition, wikipedia: Entropy production, wikidata: Q5380811}
+  - {name: local thermodynamic equilibrium, kind: concept, wikipedia: Non-equilibrium thermodynamics, wikidata: Q2466686}
+  - {name: Onsager reciprocal relations, kind: statement, wikipedia: Onsager reciprocal relations, wikidata: Q901483}
+  - {name: Prigogine's minimum entropy production principle, kind: statement, wikipedia: Entropy production, wikidata: Q5380811}
+  - {name: Curie's principle, kind: statement, wikipedia: Curie's principle, wikidata: Q3403596}
+  - {name: rational thermodynamics, kind: concept, wikipedia: Rational thermodynamics, wikidata: Q55631208}
+  - {name: extended irreversible thermodynamics, kind: concept, wikipedia: Extended irreversible thermodynamics, wikidata: Q5421889}
+  - {name: GENERIC formalism, kind: concept, wikipedia: GENERIC formalism, wikidata: Q4491865}
+  - {name: Coleman–Noll procedure, kind: concept, wikipedia: Clausius–Duhem inequality, wikidata: Q5129547}
+  - {name: thermoelectric effect, kind: concept, wikipedia: Thermoelectric effect, wikidata: Q552456}
+  - {name: Kelvin relations for thermoelectricity, kind: statement, wikipedia: Thermoelectric effect, wikidata: Q552456}
+  - {name: Soret effect, kind: concept, wikipedia: Thermophoresis, wikidata: Q610090}
+  - {name: fluctuation theorem, kind: statement, wikipedia: Fluctuation theorem, wikidata: Q900831}
+  - {name: Jarzynski equality, kind: statement, wikipedia: Jarzynski equality, wikidata: Q864883}
+  - {name: Crooks fluctuation theorem, kind: statement, wikipedia: Crooks fluctuation theorem, wikidata: Q5187911}
+  - {name: Landauer's principle, kind: statement, wikipedia: Landauer's principle, wikidata: Q657486}
+  - {name: Maxwell's demon, kind: problem, wikipedia: Maxwell's demon, wikidata: Q212397}
+  - {name: Szilard engine, kind: example, wikipedia: Entropy in thermodynamics and information theory, wikidata: Q5380803}
+  # Heat conduction
+  - {name: heat transfer, kind: concept, wikipedia: Heat transfer, wikidata: Q179635}
+  - {name: thermal conduction, kind: concept, wikipedia: Thermal conduction, wikidata: Q7465774}
+  - {name: Fourier's law of heat conduction, kind: statement, wikipedia: Thermal conduction, wikidata: Q7465774}
+  - {name: thermal conductivity, kind: definition, wikipedia: Thermal conductivity and resistivity, wikidata: Q487005}
+  - {name: thermal diffusivity, kind: definition, wikipedia: Thermal diffusivity, wikidata: Q3381809}
+  - {name: heat equation, kind: definition, wikipedia: Heat equation, wikidata: Q6510488}
+  - {name: heat flux, kind: definition, wikipedia: Heat flux, wikidata: Q1478382}
+  - {name: steady-state heat conduction, kind: concept, wikipedia: Heat equation, wikidata: Q6510488}
+  - {name: thermal resistance, kind: definition, wikipedia: Thermal conductance and resistance, wikidata: Q899628}
+  - {name: Biot number, kind: definition, wikipedia: Biot number, wikidata: Q864844}
+  - {name: Fourier number, kind: definition, wikipedia: Fourier number, wikidata: Q901793}
+  - {name: lumped-element thermal model, kind: concept, wikipedia: Lumped-element model, wikidata: Q2087545}
+  - {name: Newton's law of cooling, kind: statement, wikipedia: Newton's law of cooling, wikidata: Q2902868}
+  - {name: Robin boundary condition for convective cooling, kind: definition, wikipedia: Robin boundary condition, wikidata: Q748993}
+  - {name: fin heat transfer, kind: concept, wikipedia: Fin (extended surface), wikidata: Q604165}
+  - {name: Duhamel's principle for heat conduction, kind: statement, wikipedia: Duhamel's principle, wikidata: Q4378863}
+  - {name: anisotropic heat conduction, kind: concept, wikipedia: Thermal conduction, wikidata: Q7465774}
+  - {name: Cattaneo–Vernotte equation, kind: definition, wikipedia: Second sound, wikidata: Q233699}
+  - {name: second sound, kind: concept, wikipedia: Second sound, wikidata: Q233699}
+  - {name: Stefan problem, kind: problem, wikipedia: Stefan problem, wikidata: Q3775789}
+  - {name: Stefan number, kind: definition, wikipedia: Stefan number, wikidata: Q909876}
+  - {name: Neumann solution of the Stefan problem, kind: statement, wikipedia: Stefan problem, wikidata: Q3775789}
+  - {name: inverse heat conduction problem, kind: problem, wikipedia: Inverse problem, wikidata: Q1567213}
+  - {name: thermal contact conductance, kind: definition, wikipedia: Thermal contact conductance, wikidata: Q4119687}
+  # Convective heat transfer
+  - {name: convective heat transfer, kind: concept, wikipedia: Convection (heat transfer), wikidata: Q918227}
+  - {name: heat transfer coefficient, kind: definition, wikipedia: Heat transfer coefficient, wikidata: Q634340}
+  - {name: Nusselt number, kind: definition, wikipedia: Nusselt number, wikidata: Q898280}
+  - {name: Grashof number, kind: definition, wikipedia: Grashof number, wikidata: Q868719}
+  - {name: Stanton number, kind: definition, wikipedia: Stanton number, wikidata: Q901845}
+  - {name: thermal boundary layer, kind: concept, wikipedia: Thermal boundary layer thickness and shape, wikidata: Q55635672}
+  - {name: Reynolds analogy, kind: statement, wikipedia: Reynolds analogy, wikidata: Q2076621}
+  - {name: Chilton–Colburn J-factor analogy, kind: statement, wikipedia: Chilton and Colburn J-factor analogy, wikidata: Q3879391}
+  - {name: Dittus–Boelter equation, kind: statement, wikipedia: Nusselt number, wikidata: Q898280}
+  - {name: Graetz problem, kind: problem, wikipedia: Graetz number, wikidata: Q903886}
+  - {name: natural convection, kind: concept, wikipedia: Convection, wikidata: Q160329}
+  - {name: forced convection, kind: concept, wikipedia: Forced convection, wikidata: Q909313}
+  - {name: heat exchanger theory, kind: concept, wikipedia: Heat exchanger, wikidata: Q189124}
+  - {name: log mean temperature difference, kind: definition, wikipedia: Logarithmic mean temperature difference, wikidata: Q3272672}
+  - {name: NTU method, kind: concept, wikipedia: NTU method, wikidata: Q905855}
+  - {name: boiling heat transfer, kind: concept, wikipedia: Nucleate boiling, wikidata: Q7068214}
+  - {name: Nusselt film condensation theory, kind: concept, wikipedia: Condensation, wikidata: Q166583}
+  # Thermal radiation
+  - {name: thermal radiation, kind: concept, wikipedia: Thermal radiation, wikidata: Q192593}
+  - {name: black body, kind: definition, wikipedia: Black body, wikidata: Q161424}
+  - {name: Planck's law, kind: statement, wikipedia: Planck's law, wikidata: Q212986}
+  - {name: Stefan–Boltzmann law, kind: statement, wikipedia: Stefan–Boltzmann law, wikidata: Q704747}
+  - {name: Wien's displacement law, kind: statement, wikipedia: Wien's displacement law, wikidata: Q214336}
+  - {name: Rayleigh–Jeans law, kind: statement, wikipedia: Rayleigh–Jeans law, wikidata: Q849484}
+  - {name: Kirchhoff's law of thermal radiation, kind: statement, wikipedia: Kirchhoff's law of thermal radiation, wikidata: Q911035}
+  - {name: emissivity, kind: definition, wikipedia: Emissivity, wikidata: Q899670}
+  - {name: view factor, kind: definition, wikipedia: View factor, wikidata: Q166860}
+  - {name: radiosity, kind: definition, wikipedia: Radiosity (radiometry), wikidata: Q7281315}
+  - {name: Lambert's cosine law, kind: statement, wikipedia: Lambert's cosine law, wikidata: Q1190146}
+  - {name: radiative heat transfer in participating media, kind: concept, wikipedia: Radiative transfer, wikidata: Q1190858}
+  - {name: Rosseland approximation, kind: concept, wikipedia: Opacity, wikidata: Q691914}
+  # Combustion and chemically reacting systems
+  - {name: adiabatic flame temperature, kind: definition, wikipedia: Adiabatic flame temperature, wikidata: Q909060}
+  - {name: thermal runaway, kind: concept, wikipedia: Thermal runaway, wikidata: Q908282}
+  - {name: Frank-Kamenetskii theory of thermal explosion, kind: concept, wikipedia: Frank-Kamenetskii theory, wikidata: Q11199195}
+  - {name: Semenov's theory of thermal explosion, kind: concept, wikipedia: Thermal runaway, wikidata: Q908282}
+  - {name: Gelfand–Bratu problem, kind: problem, wikipedia: Liouville–Bratu–Gelfand equation, wikidata: Q30693537}
+  # Methods
+  - {name: method of separation of variables for heat conduction, kind: concept, wikipedia: Separation of variables, wikidata: Q913323}
+  - {name: Green's function for the heat equation, kind: definition, wikipedia: Green's function, wikidata: Q378435}
+  - {name: Laplace transform methods in heat conduction, kind: concept, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: Crank–Nicolson method, kind: concept, wikipedia: Crank–Nicolson method, wikidata: Q588725}
+  - {name: FTCS scheme, kind: concept, wikipedia: FTCS scheme, wikidata: Q5427183}
+  - {name: enthalpy method for phase change, kind: concept, wikipedia: Stefan problem, wikidata: Q3775789}
+  - {name: Monte Carlo method for radiative transfer, kind: concept, wikipedia: Monte Carlo method for photon transport, wikidata: Q6904697}
+  - {name: similarity solution for the heat equation, kind: concept, wikipedia: Self-similar solution, wikidata: Q4056366}

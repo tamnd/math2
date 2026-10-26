@@ -1,0 +1,185 @@
+# The C2 skeleton of 45-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 45-XX
+title: integral equations
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+items:
+  # Basic notions
+  - {name: integral equation, kind: concept, wikipedia: Integral equation, wikidata: Q580101}
+  - {name: integral operator, kind: definition, wikipedia: Integral transform, wikidata: Q877802}
+  - {name: kernel of an integral equation, kind: definition, wikipedia: Integral transform, wikidata: Q877802}
+  - {name: linear integral equation, kind: definition, wikipedia: Integral equation, wikidata: Q580101}
+  - {name: nonlinear integral equation, kind: definition, wikipedia: Integral equation, wikidata: Q580101}
+  - {name: integral equation of the first kind, kind: definition, wikipedia: Integral equation, wikidata: Q580101}
+  - {name: integral equation of the second kind, kind: definition, wikipedia: Integral equation, wikidata: Q580101}
+  - {name: integral equation of the third kind, kind: definition, wikipedia: Integral equation, wikidata: Q580101}
+  - {name: homogeneous integral equation, kind: definition, wikipedia: Integral equation, wikidata: Q580101}
+  - {name: adjoint integral equation, kind: definition, wikipedia: Integral equation, wikidata: Q580101}
+  - {name: continuous kernel, kind: definition, wikipedia: Integral equation, wikidata: Q580101}
+  - {name: square-integrable kernel, kind: definition, wikipedia: Hilbert–Schmidt integral operator, wikidata: Q5761249}
+  - {name: symmetric kernel, kind: definition, wikipedia: Hilbert–Schmidt integral operator, wikidata: Q5761249}
+  - {name: Hermitian kernel, kind: definition, wikipedia: Hilbert–Schmidt integral operator, wikidata: Q5761249}
+  - {name: degenerate kernel, kind: definition, wikipedia: Fredholm integral equation, wikidata: Q2991898}
+  - {name: weakly singular kernel, kind: definition, wikipedia: Integral equation, wikidata: Q580101}
+  - {name: difference kernel, kind: definition, wikipedia: Convolution, wikidata: Q210857}
+  - {name: reduction of an initial value problem to a Volterra equation, kind: statement, wikipedia: Volterra integral equation, wikidata: Q2632613}
+  - {name: reduction of a boundary value problem to a Fredholm equation, kind: statement, wikipedia: Green's function, wikidata: Q378435}
+  # Iteration and the resolvent kernel
+  - {name: iterated kernel, kind: definition, wikipedia: Liouville–Neumann series, wikidata: Q4402528}
+  - {name: Liouville–Neumann series, kind: statement, wikipedia: Liouville–Neumann series, wikidata: Q4402528}
+  - {name: resolvent kernel, kind: definition, wikipedia: Liouville–Neumann series, wikidata: Q4402528}
+  - {name: method of successive approximations, kind: concept, wikipedia: Fixed-point iteration, wikidata: Q1030759}
+  - {name: contraction mapping principle for integral equations, kind: statement, decl: ContractingWith.fixedPoint, wikipedia: Banach fixed-point theorem, wikidata: Q220680}
+  - {name: resolvent equation for kernels, kind: statement, wikipedia: Liouville–Neumann series, wikidata: Q4402528}
+  # Fredholm equations and Fredholm theory
+  - {name: Fredholm integral equation, kind: definition, wikipedia: Fredholm integral equation, wikidata: Q2991898}
+  - {name: Fredholm equation of the first kind, kind: definition, wikipedia: Fredholm integral equation, wikidata: Q2991898}
+  - {name: Fredholm equation of the second kind, kind: definition, wikipedia: Fredholm integral equation, wikidata: Q2991898}
+  - {name: Fredholm theory, kind: concept, wikipedia: Fredholm theory, wikidata: Q4455098}
+  - {name: Fredholm alternative, kind: statement, wikipedia: Fredholm alternative, wikidata: Q657820}
+  - {name: Fredholm's theorem, kind: statement, wikipedia: Fredholm's theorem, wikidata: Q3984069}
+  - {name: Fredholm determinant, kind: definition, wikipedia: Fredholm determinant, wikidata: Q3045336}
+  - {name: Fredholm minors, kind: definition, wikipedia: Fredholm theory, wikidata: Q4455098}
+  - {name: Fredholm series for the resolvent, kind: statement, wikipedia: Fredholm theory, wikidata: Q4455098}
+  - {name: Hadamard's inequality in Fredholm theory, kind: statement, wikipedia: Hadamard's inequality, wikidata: Q1365087}
+  - {name: solution of equations with degenerate kernels, kind: statement, wikipedia: Fredholm integral equation, wikidata: Q2991898}
+  - {name: approximation of a kernel by degenerate kernels, kind: statement, wikipedia: Fredholm integral equation, wikidata: Q2991898}
+  - {name: compactness of integral operators, kind: statement, wikipedia: Compact operator, wikidata: Q1780743}
+  - {name: Riesz–Schauder theory, kind: concept, wikipedia: Spectral theory of compact operators, wikidata: Q7575213}
+  - {name: Hilbert–Schmidt integral operator, kind: definition, wikipedia: Hilbert–Schmidt integral operator, wikidata: Q5761249}
+  # Eigenvalue problems for integral equations
+  - {name: characteristic value of a kernel, kind: definition, wikipedia: Eigenvalues and eigenvectors, wikidata: Q190524}
+  - {name: eigenfunction of an integral operator, kind: definition, wikipedia: Eigenfunction, wikidata: Q1307821}
+  - {name: Hilbert–Schmidt theorem, kind: statement, wikipedia: Hilbert–Schmidt theorem, wikidata: Q2022775}
+  - {name: Hilbert–Schmidt expansion theorem, kind: statement, wikipedia: Hilbert–Schmidt theorem, wikidata: Q2022775}
+  - {name: existence of an eigenvalue for a nonzero symmetric kernel, kind: statement, decl: LinearMap.IsSymmetric.hasEigenvalue_iSup_of_finiteDimensional, wikipedia: Hilbert–Schmidt theorem, wikidata: Q2022775}
+  - {name: bilinear series of a symmetric kernel, kind: statement, wikipedia: Mercer's theorem, wikidata: Q1716166}
+  - {name: Mercer's theorem, kind: statement, wikipedia: Mercer's theorem, wikidata: Q1716166}
+  - {name: positive-definite kernel, kind: definition, wikipedia: Positive-definite kernel, wikidata: Q7233207}
+  - {name: Schmidt's singular value decomposition of a kernel, kind: statement, wikipedia: Singular value decomposition, wikidata: Q420904}
+  - {name: Rayleigh quotient for symmetric kernels, kind: concept, wikipedia: Rayleigh quotient, wikidata: Q1665115}
+  - {name: Courant–Fischer characterization of characteristic values, kind: statement, wikipedia: Min-max theorem, wikidata: Q4454958}
+  - {name: Jentzsch's theorem on positive kernels, kind: statement, wikipedia: Krein–Rutman theorem, wikidata: Q6436614}
+  - {name: Karhunen–Loève expansion, kind: statement, wikipedia: Kosambi–Karhunen–Loève theorem, wikidata: Q2046647}
+  - {name: trace of an integral operator, kind: definition, wikipedia: Trace class, wikidata: Q977297}
+  - {name: Lidskii's trace formula for integral operators, kind: statement, wikipedia: Trace class, wikidata: Q977297}
+  - {name: Sturm–Liouville problem as an integral equation, kind: example, wikipedia: Sturm–Liouville theory, wikidata: Q1154082}
+  # Volterra equations
+  - {name: Volterra integral equation, kind: definition, wikipedia: Volterra integral equation, wikidata: Q2632613}
+  - {name: Volterra equation of the first kind, kind: definition, wikipedia: Volterra integral equation, wikidata: Q2632613}
+  - {name: Volterra equation of the second kind, kind: definition, wikipedia: Volterra integral equation, wikidata: Q2632613}
+  - {name: Volterra equation of convolution type, kind: definition, wikipedia: Volterra integral equation, wikidata: Q2632613}
+  - {name: convergence of the Neumann series for Volterra kernels, kind: statement, wikipedia: Liouville–Neumann series, wikidata: Q4402528}
+  - {name: unique solvability of Volterra equations of the second kind, kind: statement, wikipedia: Volterra integral equation, wikidata: Q2632613}
+  - {name: reduction of a first-kind Volterra equation to the second kind, kind: statement, wikipedia: Volterra integral equation, wikidata: Q2632613}
+  - {name: Volterra operator, kind: example, wikipedia: Volterra operator, wikidata: Q5313336}
+  - {name: Abel's integral equation, kind: example, wikipedia: Abel transform, wikidata: Q4666656}
+  - {name: tautochrone problem, kind: problem, wikipedia: Tautochrone curve, wikidata: Q3284444}
+  - {name: Abel inversion formula, kind: statement, wikipedia: Abel transform, wikidata: Q4666656}
+  - {name: Riemann–Liouville fractional integral equation, kind: example, wikipedia: Riemann–Liouville integral, wikidata: Q4162532}
+  - {name: Titchmarsh convolution theorem, kind: statement, wikipedia: Titchmarsh convolution theorem, wikidata: Q7809920}
+  - {name: Laplace transform method for convolution equations, kind: concept, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: renewal equation, kind: example, wikipedia: Renewal theory, wikidata: Q1356856}
+  - {name: Euler–Lotka equation, kind: example, wikipedia: Euler–Lotka equation, wikidata: Q5409005}
+  - {name: Grönwall's inequality in integral form, kind: statement, wikipedia: Grönwall's inequality, wikidata: Q510733}
+  - {name: Volterra equations with completely monotone kernels, kind: concept, wikipedia: Bernstein's theorem on monotone functions, wikidata: Q3527015}
+  # Singular integral equations
+  - {name: singular integral equation, kind: definition, wikipedia: Singular integral, wikidata: Q888122}
+  - {name: Cauchy principal value integral, kind: definition, wikipedia: Cauchy principal value, wikidata: Q769374}
+  - {name: Cauchy-type integral, kind: definition, wikipedia: Sokhotski–Plemelj theorem, wikidata: Q1543149}
+  - {name: Sokhotski–Plemelj formulae, kind: statement, wikipedia: Sokhotski–Plemelj theorem, wikidata: Q1543149}
+  - {name: Riemann–Hilbert problem, kind: problem, wikipedia: Riemann–Hilbert problem, wikidata: Q5986515}
+  - {name: index of a singular integral operator, kind: definition, wikipedia: Singular integral operators on closed curves, wikidata: Q7524243}
+  - {name: Noether theorems for singular integral equations, kind: statement, wikipedia: Singular integral operators on closed curves, wikidata: Q7524243}
+  - {name: Carleman's singular integral equation, kind: example, wikipedia: Singular integral operators on closed curves, wikidata: Q7524243}
+  - {name: airfoil equation, kind: example, wikipedia: Airfoil, wikidata: Q4698744}
+  - {name: Prandtl's lifting-line equation, kind: example, wikipedia: Lifting-line theory, wikidata: Q13582551}
+  - {name: finite Hilbert transform, kind: definition, wikipedia: Hilbert transform, wikidata: Q685437}
+  - {name: hypersingular integral equation, kind: definition, wikipedia: Hadamard regularization, wikidata: Q15998917}
+  - {name: Hadamard finite part, kind: definition, wikipedia: Hadamard regularization, wikidata: Q15998917}
+  # Wiener-Hopf equations
+  - {name: Wiener–Hopf equation, kind: definition, wikipedia: Wiener–Hopf method, wikidata: Q2079672}
+  - {name: Wiener–Hopf method, kind: concept, wikipedia: Wiener–Hopf method, wikidata: Q2079672}
+  - {name: Wiener–Hopf factorization, kind: statement, wikipedia: Wiener–Hopf method, wikidata: Q2079672}
+  - {name: Wiener filter equation, kind: example, wikipedia: Wiener filter, wikidata: Q25523}
+  - {name: Milne problem, kind: example, wikipedia: Wiener–Hopf method, wikidata: Q2079672}
+  - {name: Chandrasekhar's H-function, kind: example, wikipedia: Chandrasekhar's H-function, wikidata: Q48996454}
+  - {name: Chandrasekhar's X- and Y-functions, kind: example, wikipedia: Chandrasekhar's X- and Y-function, wikidata: Q48996583}
+  # Systems of integral equations
+  - {name: system of linear integral equations, kind: definition, wikipedia: Integral equation, wikidata: Q580101}
+  - {name: matrix Wiener–Hopf factorization, kind: statement, wikipedia: Wiener–Hopf method, wikidata: Q2079672}
+  - {name: matrix Riemann–Hilbert problem, kind: problem, wikipedia: Riemann–Hilbert problem, wikidata: Q5986515}
+  # Nonlinear integral equations
+  - {name: Hammerstein integral equation, kind: definition, wikipedia: Integral equation, wikidata: Q580101}
+  - {name: Urysohn integral equation, kind: definition, wikipedia: Integral equation, wikidata: Q580101}
+  - {name: nonlinear Volterra equation, kind: definition, wikipedia: Volterra integral equation, wikidata: Q2632613}
+  - {name: Nemytskii operator, kind: definition, wikipedia: Nemytskii operator, wikidata: Q6991377}
+  - {name: Schauder fixed-point theorem for integral equations, kind: statement, wikipedia: Schauder fixed-point theorem, wikidata: Q656176}
+  - {name: Leray–Schauder method, kind: concept, wikipedia: Leray–Schauder degree, wikidata: Q111912958}
+  - {name: monotone operator method for Hammerstein equations, kind: statement, wikipedia: Browder–Minty theorem, wikidata: Q25303622}
+  - {name: bifurcation from a characteristic value, kind: concept, wikipedia: Bifurcation theory, wikidata: Q1154357}
+  - {name: Lyapunov–Schmidt reduction, kind: concept, wikipedia: Lyapunov–Schmidt reduction, wikidata: Q6707091}
+  - {name: Volterra series, kind: concept, wikipedia: Volterra series, wikidata: Q3957891}
+  # Integral equations with special kernels
+  - {name: convolution integral equation, kind: definition, wikipedia: Convolution, wikidata: Q210857}
+  - {name: Fourier transform method for convolution equations, kind: concept, wikipedia: Fourier transform, wikidata: Q6520159}
+  - {name: Mellin transform method, kind: concept, wikipedia: Mellin transform, wikidata: Q606934}
+  - {name: Lieb–Liniger integral equation, kind: example, wikipedia: Lieb–Liniger model, wikidata: Q6543926}
+  - {name: Gelfand–Levitan–Marchenko equation, kind: definition, wikipedia: Marchenko equation, wikidata: Q17378628}
+  - {name: Lippmann–Schwinger equation, kind: example, wikipedia: Lippmann–Schwinger equation, wikidata: Q902575}
+  - {name: Born series, kind: concept, wikipedia: Born series, wikidata: Q18960800}
+  - {name: Ornstein–Zernike equation, kind: example, wikipedia: Ornstein–Zernike equation, wikidata: Q3277494}
+  - {name: Percus–Yevick approximation, kind: example, wikipedia: Percus–Yevick approximation, wikidata: Q3620962}
+  - {name: hypernetted-chain equation, kind: example, wikipedia: Hypernetted-chain equation, wikidata: Q5958347}
+  - {name: electric field integral equation, kind: example, wikipedia: Electric-field integral equation, wikidata: Q5357276}
+  # Integral equations of potential theory
+  - {name: single layer potential, kind: definition, wikipedia: Newtonian potential, wikidata: Q4328383}
+  - {name: double layer potential, kind: definition, wikipedia: Double layer potential, wikidata: Q5300057}
+  - {name: jump relations for layer potentials, kind: statement, wikipedia: Double layer potential, wikidata: Q5300057}
+  - {name: boundary integral equation for the Dirichlet problem, kind: statement, wikipedia: Double layer potential, wikidata: Q5300057}
+  - {name: boundary integral equation for the Neumann problem, kind: statement, wikipedia: Neumann boundary condition, wikidata: Q1149279}
+  - {name: Symm's integral equation, kind: example, wikipedia: Newtonian potential, wikidata: Q4328383}
+  - {name: Green's function, kind: definition, wikipedia: Green's function, wikidata: Q378435}
+  # Integro-differential equations
+  - {name: integro-differential equation, kind: definition, wikipedia: Integro-differential equation, wikidata: Q2380676}
+  - {name: Volterra integro-differential equation, kind: definition, wikipedia: Integro-differential equation, wikidata: Q2380676}
+  - {name: integro-partial differential equation, kind: definition, wikipedia: Integro-differential equation, wikidata: Q2380676}
+  - {name: Boltzmann equation, kind: example, wikipedia: Boltzmann equation, wikidata: Q891653}
+  - {name: radiative transfer equation, kind: example, wikipedia: Radiative transfer, wikidata: Q1190858}
+  - {name: Smoluchowski coagulation equation, kind: example, wikipedia: Smoluchowski coagulation equation, wikidata: Q971184}
+  - {name: population balance equation, kind: example, wikipedia: Population balance equation, wikidata: Q7229796}
+  - {name: peridynamics, kind: example, wikipedia: Peridynamics, wikidata: Q4351291}
+  - {name: Wilson–Cowan neural field equation, kind: example, wikipedia: Wilson–Cowan model, wikidata: Q8023317}
+  # Theoretical approximation of solutions
+  - {name: projection method for integral equations, kind: concept, wikipedia: Galerkin method, wikidata: Q1491980}
+  - {name: convergence of approximations for second-kind equations, kind: statement, wikipedia: Fredholm integral equation, wikidata: Q2991898}
+  - {name: collectively compact operator approximation, kind: concept, wikipedia: Compact operator, wikidata: Q1780743}
+  # Qualitative behavior of solutions
+  - {name: positive solutions of integral equations, kind: concept, wikipedia: Krein–Rutman theorem, wikidata: Q6436614}
+  - {name: asymptotic behavior of solutions of renewal equations, kind: statement, wikipedia: Renewal theory, wikidata: Q1356856}
+  - {name: Paley–Wiener theorem for Volterra resolvents, kind: statement, wikipedia: Paley–Wiener theorem, wikidata: Q1119094}
+  - {name: stability of Volterra equations, kind: concept, wikipedia: Volterra integral equation, wikidata: Q2632613}
+  - {name: periodic solutions of integral equations, kind: concept, wikipedia: Integral equation, wikidata: Q580101}
+  # Abstract integral equations
+  - {name: abstract Volterra equation, kind: definition, wikipedia: Volterra integral equation, wikidata: Q2632613}
+  - {name: mild solution as a solution of an integral equation, kind: concept, wikipedia: Duhamel's principle, wikidata: Q4378863}
+  - {name: Hilbert–Schmidt operator, kind: definition, wikipedia: Hilbert–Schmidt operator, wikidata: Q1518047}
+  # Integral operators
+  - {name: Schur test, kind: statement, wikipedia: Schur test, wikidata: Q4456448}
+  - {name: Young's inequality for integral operators, kind: statement, wikipedia: Young's convolution inequality, wikidata: Q30752114}
+  - {name: Hardy's integral inequality, kind: statement, wikipedia: Hardy's inequality, wikidata: Q944228}
+  - {name: Hilbert's inequality, kind: statement, wikipedia: Hilbert's inequality, wikidata: Q3153998}
+  - {name: Hilbert matrix, kind: example, wikipedia: Hilbert matrix, wikidata: Q612991}
+  - {name: Riesz potential operator, kind: definition, wikipedia: Riesz potential, wikidata: Q7333166}
+  # Inverse problems for integral equations
+  - {name: ill-posedness of first-kind equations, kind: statement, wikipedia: Well-posed problem, wikidata: Q1455898}
+  - {name: Hadamard well-posedness, kind: definition, wikipedia: Well-posed problem, wikidata: Q1455898}
+  - {name: Picard's criterion for first-kind equations, kind: statement, wikipedia: Singular value decomposition, wikidata: Q420904}
+  - {name: Tikhonov regularization, kind: concept, wikipedia: Ridge regression, wikidata: Q106091291}
+  - {name: deconvolution, kind: problem, wikipedia: Deconvolution, wikidata: Q1183700}
+  - {name: inverse scattering transform, kind: concept, wikipedia: Inverse scattering transform, wikidata: Q17098188}
+  # Random integral equations
+  - {name: random integral equation, kind: definition, wikipedia: Stochastic differential equation, wikidata: Q1545585}
+  - {name: stochastic Volterra equation, kind: definition, wikipedia: Stochastic differential equation, wikidata: Q1545585}
