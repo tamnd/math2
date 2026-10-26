@@ -6,7 +6,7 @@ Each node is one file. A node is a concept, a definition, a statement, a conject
 
 The toolchain that builds and checks this content is in [tamnd/math2-agent](https://github.com/tamnd/math2-agent).
 
-Read the content as a wiki at https://tamnd.github.io/math2. Each node has a page for people and a copy for programs: Markdown, JSON and `llms.txt`. The wiki is rebuilt on each push to `main` and each night.
+Read the content as a wiki at https://tamnd.github.io/math2. Each node has a page for people and a copy for programs: Markdown, JSON and `llms.txt`. The wiki is rebuilt on each push to `main` and each night. A mirror of the wiki is at https://math2.tamnd.com, on Cloudflare Pages. A build server runs `scripts/deploy-cloudflare.sh` every 5 minutes, and it publishes the mirror when `main` of this repository or of tamnd/math2-agent changes.
 
 ## Status
 
