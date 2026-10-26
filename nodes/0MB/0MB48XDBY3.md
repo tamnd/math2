@@ -1,0 +1,37 @@
+---
+tag: 0MB48XDBY3
+kind: statement
+role: lemma
+name: Schwarz lemma
+aliases: [schwarzs-lemma]
+msc: [30C80]
+uses: [0DG0Z72CQD, 048F2P90WR]
+sources:
+  - url: https://en.wikipedia.org/wiki/Schwarz_lemma
+    locator: Statement of the classical Schwarz Lemma
+  - url: https://en.wikipedia.org/wiki/Schwarz_lemma
+    locator: Proof of the classical Schwarz lemma
+same_as:
+  wikidata: Q1341771
+  wikipedia: Schwarz lemma
+---
+
+## Statement
+
+Let $\mathbb{D} = \{z \in \mathbb{C} : |z| < 1\}$ be the open unit disc.
+Let $f : \mathbb{D} \to \mathbb{D}$ be [[holomorphic|0DG0Z72CQD]] on $\mathbb{D}$ with $f(0) = 0$.
+Then $|f(z)| \le |z|$ for each $z \in \mathbb{D}$, and $|f'(0)| \le 1$.
+If $|f(z_0)| = |z_0|$ for some $z_0 \neq 0$ in $\mathbb{D}$, or if $|f'(0)| = 1$, then there is $a \in \mathbb{C}$ with $|a| = 1$ such that $f(z) = a z$ for each $z \in \mathbb{D}$.
+
+## Remarks
+
+Proof idea: $g(z) = f(z)/z$, with $g(0) = f'(0)$, is holomorphic on $\mathbb{D}$. The [[maximum modulus principle|048F2P90WR]] on the discs $|z| \le r$ gives $|g| \le 1/r$ for each $r < 1$, so $|g| \le 1$.
+It follows that the bijective holomorphic maps $\mathbb{D} \to \mathbb{D}$ with $f(0) = 0$ are the rotations $z \mapsto az$ with $|a| = 1$.
+The Schwarz–Pick theorem is the version without the condition $f(0) = 0$.
+
+## Explanations
+
+### L1 human
+
+A holomorphic map from the unit disc to itself that keeps $0$ fixed cannot move any point farther away from $0$.
+The only maps that keep the distance to $0$ of some point are the rotations.

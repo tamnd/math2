@@ -1,0 +1,37 @@
+---
+tag: 0DG10TVYPN
+kind: statement
+role: theorem
+name: Cauchy's integral formula
+aliases: [cauchy-integral-formula]
+msc: ["30E20"]
+uses: [0DG0Z72CQD, 0T7ABX4CWE]
+sources:
+  - url: https://en.wikipedia.org/wiki/Cauchy%27s_integral_formula
+    locator: Theorem
+same_as:
+  wikidata: Q913764
+  wikipedia: Cauchy's integral formula
+---
+
+## Statement
+
+Let $U \subseteq \mathbb{C}$ be an open set and let $f : U \to \mathbb{C}$ be [[holomorphic|0DG0Z72CQD]] on $U$.
+Let $c \in \mathbb{C}$ and $r > 0$ be such that the closed disc $\{z : |z - c| \le r\}$ is contained in $U$.
+Then for each $a \in \mathbb{C}$ with $|a - c| < r$,
+$$f(a) = \frac{1}{2 \pi i} \oint_{|z - c| = r} \frac{f(z)}{z - a} \, dz,$$
+where the integral is the [[circle integral|0T7ABX4CWE]] over the circle $|z - c| = r$.
+
+## Remarks
+
+The values of $f$ on the circle determine the values of $f$ at each point inside the circle.
+With $a = c$ and $z = c + r e^{i\theta}$, the formula gives $f(c) = \frac{1}{2\pi} \int_0^{2\pi} f(c + r e^{i\theta}) \, d\theta$. So $f(c)$ is the average of $f$ on the circle.
+For $f = 1$, the formula is the [[integral of 1/(z - a)|0SXZ68HV6F]].
+The formula gives [[the formula for the derivatives|0F0H5P5DED]], and it shows that [[holomorphic functions are analytic|0826SGV3R0]].
+
+## Explanations
+
+### L1 human
+
+If you know a holomorphic function on a circle, you know it everywhere inside the circle.
+The formula computes the value at an inside point $a$ as a weighted average of the values on the circle, with the weight $1/(z - a)$.

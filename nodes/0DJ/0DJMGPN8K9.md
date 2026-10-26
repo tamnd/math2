@@ -1,0 +1,36 @@
+---
+tag: 0DJMGPN8K9
+kind: statement
+role: lemma
+name: Estimation lemma
+aliases: [ml-inequality, ml-lemma]
+msc: [30A10]
+uses: [00FWNP9TXY, 0T7ABX4CWE]
+sources:
+  - url: https://en.wikipedia.org/wiki/Estimation_lemma
+    locator: lead section
+same_as:
+  wikidata: Q3229331
+  wikipedia: Estimation lemma
+---
+
+## Statement
+
+Let $\gamma : [a, b] \to \mathbb{C}$ be a continuous and piecewise continuously differentiable path with length $L(\gamma) = \int_a^b |\gamma'(t)| \, dt$.
+Let $f$ be a complex function that is continuous on the image of $\gamma$.
+Let $M \ge 0$ be a real number with $|f(z)| \le M$ for each $z$ on the image of $\gamma$.
+Then the [[contour integral|00FWNP9TXY]] of $f$ along $\gamma$ satisfies
+$$\left| \int_\gamma f(z) \, dz \right| \le M \, L(\gamma).$$
+
+## Remarks
+
+For a [[circle integral|0T7ABX4CWE]] over $|z - c| = R$, the bound is $\left| \oint f(z) \, dz \right| \le 2 \pi R M$.
+Proof: $\left| \int_a^b g(t) \, dt \right| \le \int_a^b |g(t)| \, dt$ for a complex function $g$, and $|f(\gamma(t)) \gamma'(t)| \le M |\gamma'(t)|$.
+A typical use shows that the integral over a large half-circle goes to $0$ as the radius goes to $\infty$.
+
+## Explanations
+
+### L1 human
+
+The integral cannot be larger than the largest size of the function times the length of the path.
+For example, if $|f| \le 1$ on a circle of radius $3$, then the integral over the circle has size at most $6\pi$.

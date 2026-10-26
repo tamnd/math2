@@ -1,0 +1,39 @@
+---
+tag: 0V3RDQV3ZX
+kind: definition
+name: Cauchy principal value
+aliases: [principal-value-integral]
+msc: [26A42]
+defines: 0SYR10HD4R
+uses: [08J2M1JYAG]
+sources:
+  - url: https://en.wikipedia.org/wiki/Cauchy_principal_value
+    locator: Formulation
+  - url: https://en.wikipedia.org/wiki/Cauchy_principal_value
+    locator: Examples
+---
+
+## Definition
+
+Let $a < b < c$ be [[real numbers|08J2M1JYAG]].
+Let $f$ be a function on $[a, c] \setminus \{b\}$ that is integrable on $[a, b - \varepsilon]$ and on $[b + \varepsilon, c]$ for each $\varepsilon$ with $0 < \varepsilon < \min(b - a, c - b)$.
+If the limit
+$$\operatorname{p.v.} \int_a^c f(x) \, dx = \lim_{\varepsilon \to 0^+} \left( \int_a^{b - \varepsilon} f(x) \, dx + \int_{b + \varepsilon}^{c} f(x) \, dx \right)$$
+exists, it is the Cauchy principal value of the integral of $f$ over $[a, c]$.
+Let $f$ be a function on $\mathbb{R}$ that is integrable on each interval $[-R, R]$.
+If the limit $\operatorname{p.v.} \int_{-\infty}^{\infty} f(x) \, dx = \lim_{R \to \infty} \int_{-R}^{R} f(x) \, dx$ exists, it is the Cauchy principal value of the integral of $f$ over $\mathbb{R}$.
+
+## Remarks
+
+The integral $\int_{-1}^{1} \frac{dx}{x}$ does not exist as an improper integral, but $\operatorname{p.v.} \int_{-1}^{1} \frac{dx}{x} = 0$, because the two parts cancel.
+Similarly, $\operatorname{p.v.} \int_{-\infty}^{\infty} x \, dx = 0$, because $\int_{-R}^{R} x \, dx = 0$ for each $R$.
+When the improper integral exists, the principal value exists and has the same value.
+Principal values occur in the [[evaluation of real integrals by residues|0476QH9846]] when the integrand has a pole on the real axis.
+
+## Explanations
+
+### L1 human
+
+Sometimes an integral is infinite on the left of a bad point and infinite on the right, with opposite signs.
+The principal value cuts out a small symmetric interval around the bad point, so that the two sides can cancel.
+For $\frac{1}{x}$ on $[-1, 1]$, the areas on the two sides cancel exactly.
