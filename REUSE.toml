@@ -14,7 +14,7 @@ SPDX-FileCopyrightText = "2026 the math2 contributors"
 SPDX-License-Identifier = "CC-BY-SA-4.0"
 
 [[annotations]]
-path = ["lean/**", "compute/**", ".github/**", "macros/**"]
+path = ["lean/**", "compute/**", ".github/**", "macros/**", "scripts/**"]
 precedence = "override"
 SPDX-FileCopyrightText = "2026 the math2 contributors"
 SPDX-License-Identifier = "Apache-2.0"
