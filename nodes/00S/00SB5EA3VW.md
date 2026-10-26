@@ -14,7 +14,7 @@ sources:
 
 Let $f$ and $g$ be real functions defined on an interval $[x_0, \infty)$.
 The functions are asymptotically equivalent as $x \to \infty$ if $f(x) - g(x) = o(g(x))$ as $x \to \infty$, in the sense of [[little o notation|04TSHB9H8D]].
-We then write $f(x) \sim g(x)$.
+The notation is $f(x) \sim g(x)$.
 
 ## Remarks
 

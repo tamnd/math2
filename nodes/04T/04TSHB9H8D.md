@@ -13,7 +13,7 @@ sources:
 ## Definition
 
 Let $f$ and $g$ be real functions defined on an interval $[x_0, \infty)$.
-We write $f(x) = o(g(x))$ as $x \to \infty$ if for each $\varepsilon > 0$ there is $x_1 \ge x_0$ with
+The notation $f(x) = o(g(x))$ as $x \to \infty$ means that for each $\varepsilon > 0$ there is $x_1 \ge x_0$ with
 $$|f(x)| \le \varepsilon |g(x)| \quad \text{for all } x \ge x_1.$$
 
 ## Remarks

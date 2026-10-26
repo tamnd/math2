@@ -14,7 +14,7 @@ sources:
 
 Let $(X, d)$ be a [[metric space|063W5JMY85]], let $(x_n)_{n \ge 1}$ be a sequence of points of $X$, and let $x \in X$.
 The sequence $(x_n)$ converges to $x$ when for each real $\varepsilon > 0$ there is an integer $N$ such that $d(x_n, x) < \varepsilon$ for all $n \ge N$.
-Then $x$ is a limit of $(x_n)$, and we write $x_n \to x$ or $\lim_{n \to \infty} x_n = x$.
+Then $x$ is a limit of $(x_n)$, with the notation $x_n \to x$ or $\lim_{n \to \infty} x_n = x$.
 
 ## Remarks
 

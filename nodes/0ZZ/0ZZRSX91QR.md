@@ -15,7 +15,7 @@ sources:
 Let $z$ be a [[complex number|09FTAET5Z4]] with $z \neq 0$, and let $|z|$ be its [[modulus|0KW2X0TFBX]].
 An argument of $z$ is a real number $\theta$ with
 $$z = |z| (\cos \theta + i \sin \theta).$$
-We write $\arg z$ for the set of all arguments of $z$, or for one chosen argument.
+The notation $\arg z$ means the set of all arguments of $z$, or one chosen argument.
 
 ## Remarks
 

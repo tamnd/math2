@@ -17,7 +17,7 @@ sources:
 The complex exponential is the function $\exp : \mathbb{C} \to \mathbb{C}$ given by
 $$\exp z = \sum_{n=0}^{\infty} \frac{z^n}{n!} = 1 + z + \frac{z^2}{2!} + \frac{z^3}{3!} + \cdots$$
 for each [[complex number|09FTAET5Z4]] $z$. The series converges absolutely for each $z \in \mathbb{C}$.
-We also write $e^z$ for $\exp z$.
+Another notation for $\exp z$ is $e^z$.
 
 ## Remarks
 

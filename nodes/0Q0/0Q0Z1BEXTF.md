@@ -14,7 +14,7 @@ sources:
 
 Let $G$ be a [[group|G5S1M9]] and let $S$ be a subset of $G$.
 The centraliser of $S$ in $G$ is the set $C_G(S) = \{g \in G : gs = sg \text{ for all } s \in S\}$.
-For an element $a \in G$, we write $C_G(a)$ for $C_G(\{a\})$.
+For an element $a \in G$, the notation $C_G(a)$ means $C_G(\{a\})$.
 
 ## Remarks
 

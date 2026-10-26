@@ -13,7 +13,7 @@ sources:
 ## Definition
 
 Let $F$ be a field and let $n \ge 1$ be an integer.
-An $n \times n$ *elementary matrix* over $F$ is a matrix that we get from the [[identity matrix|06DW9BAWB1]] $I_n$ by one [[elementary row operation|04XWH28452]].
+An $n \times n$ *elementary matrix* over $F$ is a matrix that results from the [[identity matrix|06DW9BAWB1]] $I_n$ by one [[elementary row operation|04XWH28452]].
 There are three types:
 
 1. $P_{ij}$, for $i \ne j$: exchange rows $i$ and $j$ of $I_n$.

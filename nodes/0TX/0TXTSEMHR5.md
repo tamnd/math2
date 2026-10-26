@@ -15,7 +15,7 @@ sources:
 Let $D$ be a subset of $\mathbb{R}$, let $f \colon D \to \mathbb{R}$ be a function, and let $a$ be a [[limit point|07EGCNHAVW]] of $D$.
 A real number $L$ is the limit of $f$ at $a$ if the following holds.
 For each open interval $V$ containing $L$ there is an open interval $U$ containing $a$ with $f(x) \in V$ for all $x \in U \cap D$ with $x \ne a$.
-We then write $\lim_{x \to a} f(x) = L$, or $f(x) \to L$ as $x \to a$.
+The notation is $\lim_{x \to a} f(x) = L$, or $f(x) \to L$ as $x \to a$.
 
 ## Remarks
 

@@ -13,7 +13,7 @@ sources:
 ## Statement
 
 Let $K$ be a commutative ring, let $A$ be an $n \times n$ matrix over $K$, and let $c \in K$.
-Let $B$ be the matrix that we get from $A$ when we multiply one row by $c$.
+Let $B$ be the matrix that results when one row of $A$ is multiplied by $c$.
 Then $\det B = c \det A$, where $\det$ is the [[determinant|00KDZRW4C0]].
 
 ## Remarks

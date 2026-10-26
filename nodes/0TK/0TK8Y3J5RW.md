@@ -15,11 +15,11 @@ sources:
 ## Definition
 
 A subset $I$ of $\mathbb{R}$ is an interval when, for all $x$ and $y$ in $I$ and each real $z$ with $x \le z \le y$, also $z \in I$.
-For real numbers $a \le b$, we write:
+For real numbers $a \le b$, the notation is:
 $$[a, b] = \{x \in \mathbb{R} : a \le x \le b\}, \qquad (a, b) = \{x \in \mathbb{R} : a < x < b\},$$
 $$[a, b) = \{x \in \mathbb{R} : a \le x < b\}, \qquad (a, b] = \{x \in \mathbb{R} : a < x \le b\}.$$
 The set $[a, b]$ is a closed interval and $(a, b)$ is an open interval.
-For each real $a$, we write $[a, \infty) = \{x : x \ge a\}$, $(a, \infty) = \{x : x > a\}$, $(-\infty, a] = \{x : x \le a\}$ and $(-\infty, a) = \{x : x < a\}$.
+For each real $a$, the notation is $[a, \infty) = \{x : x \ge a\}$, $(a, \infty) = \{x : x > a\}$, $(-\infty, a] = \{x : x \le a\}$ and $(-\infty, a) = \{x : x < a\}$.
 
 ## Remarks
 

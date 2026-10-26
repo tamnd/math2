@@ -13,7 +13,7 @@ sources:
 ## Statement
 
 Let $K$ be a commutative ring, let $A$ be an $n \times n$ matrix over $K$, and let $c \in K$.
-Let $i \ne j$, and let $B$ be the matrix that we get from $A$ when we add $c$ times row $j$ to row $i$.
+Let $i \ne j$, and let $B$ be the matrix that results when $c$ times row $j$ of $A$ is added to row $i$.
 Then $\det B = \det A$, where $\det$ is the [[determinant|00KDZRW4C0]].
 
 ## Remarks

@@ -13,8 +13,8 @@ sources:
 ## Definition
 
 Let $D \subseteq \mathbb{R}$, let $f \colon D \to \mathbb{R}$, and let $a$ be a limit point of $D$.
-We say $f(x) \to +\infty$ as $x \to a$ if for each real $M$ there is $\delta > 0$ with $f(x) > M$ for all $x \in D$ with $0 < |x - a| < \delta$.
-We define $f(x) \to -\infty$ in the same way, with $f(x) < M$.
+The notation $f(x) \to +\infty$ as $x \to a$ means that for each real $M$ there is $\delta > 0$ with $f(x) > M$ for all $x \in D$ with $0 < |x - a| < \delta$.
+The definition of $f(x) \to -\infty$ is the same, with $f(x) < M$.
 
 ## Remarks
 

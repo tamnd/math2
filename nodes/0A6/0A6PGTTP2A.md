@@ -15,7 +15,7 @@ sources:
 Let $n \ge 1$, let $a_0, \dots, a_{n-1}$ be real numbers, let $I$ be an open interval and let $b : I \to \mathbb{R}$ be continuous.
 A linear equation with constant coefficients is a [[linear differential equation|0PB7K8M7FG]] of the form
 $$y^{(n)} + a_{n-1}\, y^{(n-1)} + \dots + a_1\, y' + a_0\, y = b(x).$$
-Its homogeneous equation is the case $b = 0$, which we consider on $I = \mathbb{R}$.
+Its homogeneous equation is the case $b = 0$, on the interval $I = \mathbb{R}$.
 
 ## Remarks
 

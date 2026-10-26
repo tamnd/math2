@@ -16,7 +16,7 @@ Let $V$ and $W$ be normed vector spaces over $\mathbb{R}$, let $U \subseteq V$ b
 A bounded linear map $A \colon V \to W$ is a Fréchet derivative of $f$ at $x$ when
 $$\lim_{h \to 0} \frac{\|f(x + h) - f(x) - A h\|_W}{\|h\|_V} = 0.$$
 The limit is over $h \in V \setminus \{0\}$ with $x + h \in U$.
-When such an $A$ exists, $f$ is Fréchet differentiable at $x$, and we write $Df(x) = A$ or $f'(x) = A$.
+When such an $A$ exists, $f$ is Fréchet differentiable at $x$, with the notation $Df(x) = A$ or $f'(x) = A$.
 
 ## Remarks
 
