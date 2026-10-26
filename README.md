@@ -43,7 +43,7 @@ The first source is Wikidata (CC0 1.0). It gives 12,302 items with an identifier
 
 ## A node file
 
-A node file is `nodes/<first two characters of the tag>/<tag>.md`. It has YAML front matter and a Markdown body. This example shows the form:
+A node file is `nodes/<first three characters of the tag>/<tag>.md`. It has YAML front matter and a Markdown body. This example shows the form:
 
 ```markdown
 ---

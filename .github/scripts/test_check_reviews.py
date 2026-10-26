@@ -41,7 +41,7 @@ class CheckReviewsTest(unittest.TestCase):
     def setUp(self):
         self.dir = tempfile.TemporaryDirectory()
         self.root = Path(self.dir.name)
-        self.write("nodes/3C/3C53TD.md", "---\ntag: 3C53TD\n---\n")
+        self.write("nodes/3C5/3C53TD.md", "---\ntag: 3C53TD\n---\n")
         self.write("registers/reviewers.reg", REVIEWERS)
 
     def tearDown(self):
@@ -59,7 +59,7 @@ class CheckReviewsTest(unittest.TestCase):
         return code, out.getvalue()
 
     def test_good(self):
-        self.write("reviews/3C/3C53TD.yaml", GOOD)
+        self.write("reviews/3C5/3C53TD.yaml", GOOD)
         code, out = self.run_check()
         self.assertEqual(code, 0, out)
         self.assertIn("2 reviews, 0 errors", out)
@@ -83,16 +83,16 @@ class CheckReviewsTest(unittest.TestCase):
         }
         for name, (text, want) in cases.items():
             with self.subTest(name):
-                self.write("reviews/3C/3C53TD.yaml", text)
+                self.write("reviews/3C5/3C53TD.yaml", text)
                 code, out = self.run_check()
                 self.assertEqual(code, 1, out)
                 self.assertIn(want, out)
 
     def test_path(self):
         cases = {
-            "wrong shard": "reviews/G5/3C53TD.yaml",
+            "wrong shard": "reviews/G5S/3C53TD.yaml",
             "no shard": "reviews/3C53TD.yaml",
-            "no node": "reviews/G5/G5S1M8.yaml",
+            "no node": "reviews/G5S/G5S1M8.yaml",
         }
         for name, rel in cases.items():
             with self.subTest(name):

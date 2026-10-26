@@ -14,7 +14,7 @@ from pathlib import Path
 import yaml
 from jsonschema import Draft202012Validator
 
-from check_nodes import TAG, Loader
+from check_nodes import SHARD_LEN, TAG, Loader
 
 SCHEMA = Path(__file__).resolve().parents[2] / "schema" / "curriculum.v1.json"
 SKELETON_SCHEMA = SCHEMA.parent / "skeleton.v1.json"
@@ -40,7 +40,7 @@ def item_errors(where, item, sources, root, decls):
         if name not in sources:
             errors.append(f"{where}: the file defines no source {name!r}")
     tag = item.get("node")
-    if tag and TAG.match(tag) and not (root / "nodes" / tag[:2] / f"{tag}.md").is_file():
+    if tag and TAG.match(tag) and not (root / "nodes" / tag[:SHARD_LEN] / f"{tag}.md").is_file():
         errors.append(f"{where}: the node {tag} does not exist")
     if decls is not None and "decl" in item and item["decl"] not in decls:
         errors.append(f"{where}: the decl {item['decl']} is not in the declaration list")
