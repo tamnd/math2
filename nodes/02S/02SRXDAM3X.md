@@ -1,0 +1,34 @@
+---
+tag: 02SRXDAM3X
+kind: concept
+name: Reduction of order
+msc: [34A30]
+uses: [0EQZSAB9EC, 0H4KNNCHPY, 0N5NF1RGBP]
+sources:
+  - url: https://en.wikipedia.org/wiki/Reduction_of_order
+    locator: Second-order linear ordinary differential equations
+same_as:
+  wikidata: Q1430365
+  wikipedia: Reduction of order
+---
+
+## Summary
+
+Reduction of order is a method to find a second solution of a homogeneous linear equation from a known one.
+Let $p, q$ be continuous on an open interval $I$, and let $y_1$ be a solution of $y'' + p(x) y' + q(x) y = 0$ with no zero on $I$.
+Put $y = v\, y_1$. Then $y$ is a solution if and only if $y_1 v'' + (2 y_1' + p\, y_1) v' = 0$, a first-order linear equation for $v'$.
+One solution gives $y_2 = y_1 \int \frac{e^{-\int p\, dx}}{y_1^2}\, dx$, and $(y_1, y_2)$ is a [[fundamental system|0H4KNNCHPY]] on $I$.
+
+## Remarks
+
+Example: $y_1 = e^{x}$ solves $y'' - 2 y' + y = 0$. Here $p = -2$, so $v' = e^{2x}/e^{2x} = 1$, and $y_2 = x e^x$.
+The [[Wronskian|0N5NF1RGBP]] of $y_1$ and $y_2$ is $e^{-\int p\, dx}$, which has no zero. This is consistent with [[Abel's identity|0VGWKX2JHB]].
+The same idea lowers the order by one for a linear equation of order $n$.
+
+## Explanations
+
+### L1 human
+
+If you know one solution, look for a second one as the first one times an unknown function $v$.
+The terms without derivatives of $v$ cancel, because $y_1$ is a solution.
+What remains is a first-order equation for $v'$, which is easy to solve.

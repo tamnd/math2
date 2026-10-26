@@ -1,0 +1,31 @@
+---
+tag: 0VJF99CZ0Z
+kind: definition
+name: Homogeneous linear system with constant coefficients
+msc: [34A30]
+defines: 0469V0EN5N
+uses: [0A6QZ367GX]
+sources:
+  - url: https://en.wikipedia.org/wiki/Matrix_differential_equation
+    locator: Solution in matrix form
+---
+
+## Definition
+
+Let $n \ge 1$ and let $A$ be a real $n \times n$ matrix.
+The homogeneous linear system with constant coefficients given by $A$ is the [[system of linear differential equations|0A6QZ367GX]]
+$$x'(t) = A\, x(t)$$
+for an unknown differentiable function $x : \mathbb{R} \to \mathbb{R}^n$.
+
+## Remarks
+
+Its solutions are $x(t) = e^{t A} x(0)$. See [[the matrix exponential as the solution|0YC8JT513J]].
+If $A v = \lambda v$, then $x(t) = e^{\lambda t} v$ is a solution. The [[eigenvalue method|08ZWFDJP3H]] builds all solutions from such solutions.
+Example: for $A = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}$, the solutions are rotations: $x(t) = \left(a \cos t + b \sin t, -a \sin t + b \cos t\right)$.
+
+## Explanations
+
+### L1 human
+
+The rate of change of the vector $x$ is the matrix $A$ applied to $x$, and $A$ does not change with time.
+This is the vector version of $y' = a y$, whose solutions are $e^{a t} y(0)$.

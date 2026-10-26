@@ -1,0 +1,32 @@
+---
+tag: 019VSXSFMQ
+kind: definition
+name: Maximal solution
+aliases: [maximal-interval-of-existence]
+msc: [34A12]
+defines: 01J7FZ65J0
+uses: [04SW7WECS8, 075VBY4K4X, 025PKW8AMR]
+sources:
+  - url: https://en.wikipedia.org/wiki/Ordinary_differential_equation
+    locator: Global uniqueness and maximum domain of solution
+---
+
+## Definition
+
+Let $D$ be an open subset of $\mathbb{R} \times \mathbb{R}^n$ and let $f : D \to \mathbb{R}^n$ be continuous.
+Let $I$ be an open interval and let $\gamma : I \to \mathbb{R}^n$ be a [[solution|04SW7WECS8]] of $x' = f(t, x)$ whose graph lies in $D$.
+The solution $\gamma$ is maximal if there is no solution $\tilde{\gamma} : \tilde{I} \to \mathbb{R}^n$ on an open interval $\tilde{I}$ with $I \subsetneq \tilde{I}$ and $\tilde{\gamma}(t) = \gamma(t)$ for each $t \in I$.
+The interval $I$ of a maximal solution is its maximal interval of existence.
+
+## Remarks
+
+If $f$ is locally Lipschitz in $x$, each [[initial value problem|075VBY4K4X]] $x(t_0) = x_0$ with $(t_0, x_0) \in D$ has exactly one maximal solution. Each other solution of the problem is a restriction of it.
+The maximal interval $(t_-, t_+)$ can depend on the initial value, and it can be smaller than $\mathbb{R}$.
+If $t_+ < \infty$, then $(t, \gamma(t))$ leaves every compact subset of $D$ as $t \to t_+$. For $D = \mathbb{R} \times \mathbb{R}^n$, this means $\|\gamma(t)\| \to \infty$. See [[blow-up in finite time|0E4GXX7SJP]].
+
+## Explanations
+
+### L1 human
+
+A maximal solution is a solution that we cannot continue any further.
+Its interval ends only where the solution runs away to infinity or to the edge of the domain of the field.

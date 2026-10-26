@@ -1,0 +1,40 @@
+---
+tag: 0P6KRD5B7A
+kind: statement
+role: theorem
+name: Picard–Lindelöf theorem
+aliases: [cauchy-lipschitz-theorem, existence-and-uniqueness-theorem]
+msc: [34A12]
+uses: [0J7HF2PF1H, 075VBY4K4X, 08XDXP86XE, 015KK993C5]
+sources:
+  - url: https://en.wikipedia.org/wiki/Picard%E2%80%93Lindel%C3%B6f_theorem
+    locator: Theorem
+same_as:
+  wikidata: Q530152
+  wikipedia: Picard–Lindelöf theorem
+---
+
+## Statement
+
+Let $J = [t_{\min}, t_{\max}]$ and $t_0 \in J$, let $x_0 \in \mathbb{R}^n$, and let $f : J \times \mathbb{R}^n \to \mathbb{R}^n$ satisfy the [[Picard–Lindelöf hypotheses|0J7HF2PF1H]] at $(t_0, x_0)$ with constants $a, L, K$.
+Let $B$ be the closed ball of radius $a$ around $x_0$.
+Then there is exactly one continuous curve $\alpha : J \to B$ with $\alpha(t_0) = x_0$ and with this property. For each $t \in J$, $\alpha$ has the derivative $f(t, \alpha(t))$ at $t$ within $J$.
+
+## Remarks
+
+The proof uses the [[integral equation form|015KK993C5]] and the fact that [[an iterate of the Picard operator is a contraction|08XDXP86XE]]. The limit of [[Picard iteration|0RJ5NHWYTP]] is the solution.
+A common form: let $f$ be continuous on a neighbourhood of $(t_0, x_0)$ and locally Lipschitz in $x$. Then the [[initial value problem|075VBY4K4X]] has a unique solution on $[t_0 - \varepsilon, t_0 + \varepsilon]$ for some $\varepsilon > 0$.
+The theorem is local. For $x' = 1 + x^2$, $x(0) = 0$, the solution $\tan t$ exists only for $|t| < \pi/2$.
+Without the Lipschitz condition, solutions exist by the [[Peano existence theorem|098YP831QY]], but they need not be unique. See the [[non-uniqueness example|00K7ASZ1PR]].
+
+## History
+
+The theorem is named after Émile Picard and Ernst Lindelöf. It is also called the Cauchy–Lipschitz theorem, after Augustin-Louis Cauchy and Rudolf Lipschitz.
+
+## Explanations
+
+### L1 human
+
+If the vector field is regular enough, the present state determines the whole motion near the start time.
+Regular enough means continuous in time and Lipschitz in the state.
+Then there is one and only one solution through the initial point, at least for a short time.
