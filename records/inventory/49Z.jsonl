@@ -1,1 +1,1 @@
-{"id":"49ZE4S9J2S","mentions":["m2://rec/wikidata/Q474881#1"],"kind":"statement","name":"Cantor's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"49ZE4S9J2S","mentions":["m2://rec/mathlib_100/63#1","m2://rec/mathlib_1000/Q474881#1","m2://rec/thousand_plus/Q474881#1","m2://rec/wikidata/Q474881#1"],"kind":"statement","name":"Cantor's theorem","msc":["03-XX"],"layer":"textbook","spread":4,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

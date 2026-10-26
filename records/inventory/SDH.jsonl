@@ -1,1 +1,1 @@
-{"id":"SDH45D99SM","mentions":["m2://rec/wikidata/Q1766814#1"],"kind":"statement","name":"sₘₙ theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"SDH45D99SM","mentions":["m2://rec/mathlib_1000/Q1766814#1","m2://rec/thousand_plus/Q1766814#1","m2://rec/wikidata/Q1766814#1"],"kind":"statement","name":"sₘₙ theorem","msc":["68-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

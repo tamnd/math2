@@ -1,0 +1,1 @@
+{"id":"m2://rec/mathlib_100/38#1","source":"mathlib_100","snapshot":"blake3:70096cc136311ba4f8351383a1f666f39892036aabcfcb90857aa21c7302ddea","locator":"https://leanprover-community.github.io/100.html#38","native_id":"38","kind":"statement","name":"Arithmetic Mean/Geometric Mean","same":{"mathlib":["Real.geom_mean_le_arith_mean_weighted"]},"class":"open","by":"curricula/1"}

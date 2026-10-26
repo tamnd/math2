@@ -1,2 +1,2 @@
 {"id":"H6XPSHRMJR","mentions":["m2://rec/wikidata/Q740424#1"],"kind":"statement","name":"axiom of extensionality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"H6XS44WVJY","mentions":["m2://rec/wikidata/Q4783822#1"],"kind":"topic","name":"Arakelov theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"H6XS44WVJY","mentions":["m2://rec/mathlib_1000/Q4783822#1","m2://rec/thousand_plus/Q4783822#1","m2://rec/wikidata/Q4783822#1"],"kind":"statement","name":"Arakelov theory","msc":["14-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

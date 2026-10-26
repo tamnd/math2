@@ -1,1 +1,1 @@
-{"id":"K024HKY5ZT","mentions":["m2://rec/wikidata/Q10942247#1"],"kind":"unknown","name":"resolution of singularities","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"K024HKY5ZT","mentions":["m2://rec/mathlib_1000/Q10942247#1","m2://rec/thousand_plus/Q10942247#1","m2://rec/wikidata/Q10942247#1"],"kind":"statement","name":"resolution of singularities","msc":["14-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

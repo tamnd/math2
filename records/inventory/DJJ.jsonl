@@ -1,2 +1,2 @@
-{"id":"DJJCEAVM82","mentions":["m2://rec/wikidata/Q1068085#1"],"kind":"statement","name":"closed graph theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"DJJCEAVM82","mentions":["m2://rec/mathlib_1000/Q1068085#1","m2://rec/thousand_plus/Q1068085#1","m2://rec/wikidata/Q1068085#1"],"kind":"statement","name":"closed graph theorem","msc":["46-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"DJJR5283DY","mentions":["m2://rec/wikidata/Q199006#1"],"kind":"concept","name":"codomain","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

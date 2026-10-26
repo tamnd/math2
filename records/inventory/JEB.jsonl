@@ -1,1 +1,2 @@
-{"id":"JEB3YPH0T9","mentions":["m2://rec/wikidata/Q17104025#1"],"kind":"unknown","name":"theta divisor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"JEB3YPH0T9","mentions":["m2://rec/mathlib_1000/Q17104025#1","m2://rec/thousand_plus/Q17104025#1","m2://rec/wikidata/Q17104025#1"],"kind":"statement","name":"theta divisor","msc":["14-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"JEBSJ5W4XW","mentions":["m2://rec/mathlib_undergrad/Probability Theory > Random variables and their laws > probability generating functions#1"],"kind":"unknown","name":"probability generating functions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

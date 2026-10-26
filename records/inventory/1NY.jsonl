@@ -1,1 +1,2 @@
-{"id":"1NYS37BFMR","mentions":["m2://rec/wikidata/Q17029787#1"],"kind":"statement","name":"Higman's embedding theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"1NYS37BFMR","mentions":["m2://rec/mathlib_1000/Q17029787#1","m2://rec/thousand_plus/Q17029787#1","m2://rec/wikidata/Q17029787#1"],"kind":"statement","name":"Higman's embedding theorem","msc":["20-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"1NYSXWDS41","mentions":["m2://rec/mathlib_1000/Q6516611#1","m2://rec/thousand_plus/Q6516611#1"],"kind":"statement","name":"Lee–Yang theorem","msc":["82-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

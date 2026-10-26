@@ -1,1 +1,1 @@
-{"id":"FYR0RA1QX4","mentions":["m2://rec/wikidata/Q1361031#1"],"kind":"statement","name":"Frobenius theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FYR0RA1QX4","mentions":["m2://rec/mathlib_1000/Q1361031#1","m2://rec/thousand_plus/Q1361031#1","m2://rec/wikidata/Q1361031#1"],"kind":"statement","name":"Frobenius theorem","msc":["16-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

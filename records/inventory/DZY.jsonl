@@ -1,1 +1,1 @@
-{"id":"DZYCMXHZNB","mentions":["m2://rec/wikidata/Q6402928#1"],"kind":"statement","name":"Lagrange reversion theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"DZYCMXHZNB","mentions":["m2://rec/mathlib_1000/Q6402928#1","m2://rec/thousand_plus/Q6402928#1","m2://rec/wikidata/Q6402928#1"],"kind":"statement","name":"Lagrange reversion theorem","msc":["05-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

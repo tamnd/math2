@@ -1,1 +1,1 @@
-{"id":"Z1Q15DN2XH","mentions":["m2://rec/wikidata/Q6516731#1"],"kind":"statement","name":"Lefschetz hyperplane theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"Z1Q15DN2XH","mentions":["m2://rec/mathlib_1000/Q6516731#1","m2://rec/thousand_plus/Q6516731#1","m2://rec/wikidata/Q6516731#1"],"kind":"statement","name":"Lefschetz hyperplane theorem","msc":["55-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

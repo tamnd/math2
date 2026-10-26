@@ -1,1 +1,1 @@
-{"id":"4N3M7M4AGM","mentions":["m2://rec/wikidata/Q154210#1"],"kind":"unknown","name":"congruence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4N3M7M4AGM","mentions":["m2://rec/mathlib_1000/Q154210#1","m2://rec/thousand_plus/Q154210#1","m2://rec/wikidata/Q154210#1"],"kind":"statement","name":"congruence","msc":["51-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

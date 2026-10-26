@@ -1,0 +1,1 @@
+{"id":"m2://rec/mathlib_100/78#1","source":"mathlib_100","snapshot":"blake3:70096cc136311ba4f8351383a1f666f39892036aabcfcb90857aa21c7302ddea","locator":"https://leanprover-community.github.io/100.html#78","native_id":"78","kind":"statement","name":"The Cauchy-Schwarz Inequality","same":{"mathlib":["inner_mul_inner_self_le","norm_inner_le_norm"]},"class":"open","by":"curricula/1"}

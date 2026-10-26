@@ -1,1 +1,1 @@
-{"id":"YP9DQ1CPFJ","mentions":["m2://rec/wikidata/Q7617407#1"],"kind":"statement","name":"Stinespring factorization theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"YP9DQ1CPFJ","mentions":["m2://rec/mathlib_1000/Q7617407#1","m2://rec/thousand_plus/Q7617407#1","m2://rec/wikidata/Q7617407#1"],"kind":"statement","name":"Stinespring factorization theorem","msc":["47-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

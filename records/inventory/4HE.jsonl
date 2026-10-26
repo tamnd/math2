@@ -1,1 +1,1 @@
-{"id":"4HEG6H3G40","mentions":["m2://rec/wikidata/Q1287074#1","m2://rec/wikidata/Q578555#1"],"kind":"statement","name":"Noether normalization lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4HEG6H3G40","mentions":["m2://rec/mathlib_1000/Q578555#1","m2://rec/thousand_plus/Q578555#1","m2://rec/wikidata/Q1287074#1","m2://rec/wikidata/Q578555#1"],"kind":"statement","name":"Noether normalization lemma","msc":["37-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

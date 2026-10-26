@@ -1,1 +1,1 @@
-{"id":"TDPTED7C92","mentions":["m2://rec/wikidata/Q332465#1"],"kind":"unknown","name":"absolute convergence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"TDPTED7C92","mentions":["m2://rec/mathlib_1000/Q332465#1","m2://rec/thousand_plus/Q332465#1","m2://rec/wikidata/Q332465#1"],"kind":"statement","name":"absolute convergence","msc":["40-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

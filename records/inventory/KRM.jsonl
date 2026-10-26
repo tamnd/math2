@@ -1,2 +1,2 @@
-{"id":"KRMJM2HSTA","mentions":["m2://rec/wikidata/Q4455043#1"],"kind":"statement","name":"Cayley–Bacharach theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"KRMJM2HSTA","mentions":["m2://rec/mathlib_1000/Q4455043#1","m2://rec/thousand_plus/Q4455043#1","m2://rec/wikidata/Q4455043#1"],"kind":"statement","name":"Cayley–Bacharach theorem","msc":["51-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"KRMVCYHJDR","mentions":["m2://rec/wikidata/Q842436#1"],"kind":"statement","name":"Markov's inequality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

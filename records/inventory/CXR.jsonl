@@ -1,2 +1,2 @@
-{"id":"CXR9XXRJR5","mentions":["m2://rec/wikidata/Q213603#1"],"kind":"statement","name":"Ceva's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"CXR9XXRJR5","mentions":["m2://rec/mathlib_100/61#1","m2://rec/mathlib_1000/Q213603#1","m2://rec/thousand_plus/Q213603#1","m2://rec/wikidata/Q213603#1"],"kind":"statement","name":"Ceva's theorem","msc":["51-XX"],"layer":"textbook","spread":4,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"CXRMTFR6VM","mentions":["m2://rec/wikidata/Q3115464#1"],"kind":"unknown","name":"snub cubical graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

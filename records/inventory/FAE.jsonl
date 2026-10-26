@@ -1,4 +1,4 @@
-{"id":"FAE17MFYJR","mentions":["m2://rec/wikidata/Q1614464#1"],"kind":"statement","name":"Cauchy–Kowalevski theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FAE17MFYJR","mentions":["m2://rec/mathlib_1000/Q1614464#1","m2://rec/thousand_plus/Q1614464#1","m2://rec/wikidata/Q1614464#1"],"kind":"statement","name":"Cauchy–Kowalevski theorem","msc":["35-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"FAE2R19ZV0","mentions":["m2://rec/wikidata/Q130613819#1"],"kind":"unknown","name":"antipodal graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"FAEKZ91QWF","mentions":["m2://rec/wikidata/Q109497082#1"],"kind":"unknown","name":"divides","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"FAEW3E6MK5","mentions":["m2://rec/wikidata/Q13415176#1"],"kind":"unknown","name":"graph dimension","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

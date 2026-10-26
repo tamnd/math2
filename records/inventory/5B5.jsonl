@@ -1,1 +1,1 @@
-{"id":"5B5S1HPW1A","mentions":["m2://rec/wikidata/Q830513#1"],"kind":"statement","name":"residue theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"5B5S1HPW1A","mentions":["m2://rec/mathlib_1000/Q830513#1","m2://rec/thousand_plus/Q830513#1","m2://rec/wikidata/Q830513#1"],"kind":"statement","name":"residue theorem","msc":["30-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

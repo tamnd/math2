@@ -1,2 +1,2 @@
 {"id":"RV32YZYA7V","mentions":["m2://rec/wikidata/Q124178631#1"],"kind":"unknown","name":"unimodular group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"RV344HJR84","mentions":["m2://rec/wikidata/Q7601243#1"],"kind":"statement","name":"Star of David theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"RV344HJR84","mentions":["m2://rec/mathlib_1000/Q7601243#1","m2://rec/thousand_plus/Q7601243#1","m2://rec/wikidata/Q7601243#1"],"kind":"statement","name":"Star of David theorem","msc":["05-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

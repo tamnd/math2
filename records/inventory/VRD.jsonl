@@ -1,1 +1,1 @@
-{"id":"VRDAF4QBXP","mentions":["m2://rec/wikidata/Q740093#1"],"kind":"statement","name":"Peano existence theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"VRDAF4QBXP","mentions":["m2://rec/mathlib_1000/Q740093#1","m2://rec/thousand_plus/Q740093#1","m2://rec/wikidata/Q740093#1"],"kind":"statement","name":"Peano existence theorem","msc":["34-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

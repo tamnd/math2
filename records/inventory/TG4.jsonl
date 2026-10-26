@@ -1,1 +1,1 @@
-{"id":"TG4CN79TH6","mentions":["m2://rec/wikidata/Q608294#1"],"kind":"statement","name":"Max-flow min-cut theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"TG4CN79TH6","mentions":["m2://rec/mathlib_1000/Q608294#1","m2://rec/thousand_plus/Q608294#1","m2://rec/wikidata/Q608294#1"],"kind":"statement","name":"Max-flow min-cut theorem","msc":["05-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

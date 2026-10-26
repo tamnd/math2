@@ -1,1 +1,1 @@
-{"id":"N3YJ4KEKYW","mentions":["m2://rec/wikidata/Q205966#1"],"kind":"problem","name":"Riemann hypothesis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"N3YJ4KEKYW","mentions":["m2://rec/mathlib_1000/Q205966#1","m2://rec/thousand_plus/Q205966#1","m2://rec/wikidata/Q205966#1"],"kind":"statement","name":"Riemann hypothesis","msc":["11-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

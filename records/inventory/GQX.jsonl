@@ -1,2 +1,2 @@
 {"id":"GQX5NHB3S0","mentions":["m2://rec/wikidata/Q130246396#1"],"kind":"definition","name":"modulus","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"GQXRW68XRR","mentions":["m2://rec/wikidata/Q1568811#1"],"kind":"statement","name":"Hahn decomposition theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"GQXRW68XRR","mentions":["m2://rec/mathlib_1000/Q1568811#1","m2://rec/thousand_plus/Q1568811#1","m2://rec/wikidata/Q1568811#1"],"kind":"statement","name":"Hahn decomposition theorem","msc":["28-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

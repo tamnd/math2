@@ -1,2 +1,2 @@
-{"id":"C8C06867PM","mentions":["m2://rec/wikidata/Q4944923#1"],"kind":"statement","name":"Borel–Weil–Bott theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"C8C06867PM","mentions":["m2://rec/mathlib_1000/Q4944923#1","m2://rec/mathlib_1000/Q4944923X#1","m2://rec/thousand_plus/Q4944923#1","m2://rec/thousand_plus/Q4944923X#1","m2://rec/wikidata/Q4944923#1"],"kind":"statement","name":"Borel–Weil–Bott theorem","msc":["20-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"C8CDBB1RF2","mentions":["m2://rec/wikidata/Q3077635#1"],"kind":"unknown","name":"Machin-like formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,2 +1,2 @@
-{"id":"FJJ5DVNZJ2","mentions":["m2://rec/wikidata/Q208756#1"],"kind":"unknown","name":"rational surface","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FJJ5DVNZJ2","mentions":["m2://rec/mathlib_1000/Q208756#1","m2://rec/thousand_plus/Q208756#1","m2://rec/wikidata/Q208756#1"],"kind":"statement","name":"rational surface","msc":["14-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"FJJN6NV52N","mentions":["m2://rec/wikidata/Q3182292#1"],"kind":"unknown","name":"Dmitry Shirkov","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

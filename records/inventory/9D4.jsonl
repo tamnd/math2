@@ -1,2 +1,2 @@
 {"id":"9D42RF1W97","mentions":["m2://rec/wikidata/Q13698#1"],"kind":"definition","name":"puzzle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"9D4MF8R1YG","mentions":["m2://rec/wikidata/Q1888583#1"],"kind":"statement","name":"Holditch's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9D4MF8R1YG","mentions":["m2://rec/mathlib_1000/Q1888583#1","m2://rec/thousand_plus/Q1888583#1","m2://rec/wikidata/Q1888583#1"],"kind":"statement","name":"Holditch's theorem","msc":["51-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

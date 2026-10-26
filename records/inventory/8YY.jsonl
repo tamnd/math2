@@ -1,1 +1,2 @@
 {"id":"8YY2RQAEDF","mentions":["m2://rec/wikidata/Q7076766#1"],"kind":"unknown","name":"Octav Onicescu","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"8YYDRFXJRA","mentions":["m2://rec/mathlib_1000/Q966837#1","m2://rec/thousand_plus/Q966837#1"],"kind":"statement","name":"Cramér–Wold theorem","msc":["28-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

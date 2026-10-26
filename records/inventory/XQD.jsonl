@@ -1,2 +1,3 @@
 {"id":"XQDMH4QQN8","mentions":["m2://rec/wikidata/Q102192938#1"],"kind":"unknown","name":"Bert Mendelson","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"XQDT784T02","mentions":["m2://rec/mathlib_overview/Combinatorics > Pigeonhole principles > finite#1"],"kind":"unknown","name":"finite","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"XQDWA9C6RC","mentions":["m2://rec/wikidata/Q190893#1"],"kind":"unknown","name":"centered cube number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

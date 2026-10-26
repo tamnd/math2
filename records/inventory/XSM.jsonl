@@ -1,1 +1,1 @@
-{"id":"XSMZYEFJZA","mentions":["m2://rec/wikidata/Q1938251#1"],"kind":"statement","name":"Hasse–Minkowski theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"XSMZYEFJZA","mentions":["m2://rec/mathlib_1000/Q1938251#1","m2://rec/thousand_plus/Q1938251#1","m2://rec/wikidata/Q1938251#1"],"kind":"statement","name":"Hasse–Minkowski theorem","msc":["11-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,1 +1,2 @@
 {"id":"AA55W3XW6M","mentions":["m2://rec/wikidata/Q1047822#1"],"kind":"unknown","name":"quantum Hall effect","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"AA5BB9KM83","mentions":["m2://rec/mathlib_1000/Q4378889#1","m2://rec/thousand_plus/Q4378889#1"],"kind":"statement","name":"Carathéodory's theorem (conformal mapping)","msc":["30-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,1 +1,1 @@
-{"id":"GEKB5F7T3R","mentions":["m2://rec/wikidata/Q2267175#1"],"kind":"statement","name":"tangent-secant theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"GEKB5F7T3R","mentions":["m2://rec/mathlib_1000/Q2267175#1","m2://rec/thousand_plus/Q2267175#1","m2://rec/wikidata/Q2267175#1"],"kind":"statement","name":"tangent-secant theorem","msc":["51-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

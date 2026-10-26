@@ -1,1 +1,1 @@
-{"id":"520932DBGX","mentions":["m2://rec/wikidata/Q495412#1"],"kind":"problem","name":"Schoenflies problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"520932DBGX","mentions":["m2://rec/mathlib_1000/Q495412#1","m2://rec/thousand_plus/Q495412#1","m2://rec/wikidata/Q495412#1"],"kind":"statement","name":"Schoenflies problem","msc":["54-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,2 +1,2 @@
-{"id":"VQVEJKS7JP","mentions":["m2://rec/wikidata/Q3984053#1"],"kind":"statement","name":"Fourier inversion theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"VQVEJKS7JP","mentions":null,"kind":"statement","name":"Fourier inversion theorem","layer":"textbook","spread":1,"outcome":{"value":"merged","target":["96S7MFMTMA"],"rule":"identifiers","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"merge","at":"2026-10-26","by":"m2/dev","note":"merged into 96S7MFMTMA by a shared identifier"}]}
 {"id":"VQVS93ZDE5","mentions":["m2://rec/wikidata/Q132227547#1"],"kind":"definition","name":"proper ideal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

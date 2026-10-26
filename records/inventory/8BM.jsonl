@@ -1,1 +1,1 @@
-{"id":"8BMYMWEXJV","mentions":["m2://rec/wikidata/Q3526969#1"],"kind":"statement","name":"AF+BG theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"8BMYMWEXJV","mentions":["m2://rec/mathlib_1000/Q3526969#1","m2://rec/thousand_plus/Q3526969#1","m2://rec/wikidata/Q3526969#1"],"kind":"statement","name":"AF+BG theorem","msc":["14-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

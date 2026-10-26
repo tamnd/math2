@@ -1,2 +1,2 @@
 {"id":"QKHK4EFZMC","mentions":["m2://rec/wikidata/Q688945#1"],"kind":"unknown","name":"Dirac spinor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"QKHN2CG8BQ","mentions":["m2://rec/wikidata/Q1576235#1"],"kind":"statement","name":"Lochs' theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"QKHN2CG8BQ","mentions":["m2://rec/mathlib_1000/Q1576235#1","m2://rec/thousand_plus/Q1576235#1","m2://rec/wikidata/Q1576235#1"],"kind":"statement","name":"Lochs' theorem","msc":["11-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,1 +1,1 @@
-{"id":"N5GBNTH587","mentions":["m2://rec/wikidata/Q5498822#1"],"kind":"topic","name":"ergodic theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"N5GBNTH587","mentions":["m2://rec/mathlib_1000/Q5498822#1","m2://rec/thousand_plus/Q5498822#1","m2://rec/wikidata/Q5498822#1"],"kind":"statement","name":"ergodic theory","msc":["37-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,1 +1,1 @@
-{"id":"7YWJ22P50H","mentions":["m2://rec/wikidata/Q5567394#1"],"kind":"statement","name":"Gleason's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"7YWJ22P50H","mentions":["m2://rec/mathlib_1000/Q5567394#1","m2://rec/thousand_plus/Q5567394#1","m2://rec/wikidata/Q5567394#1"],"kind":"statement","name":"Gleason's theorem","msc":["46-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

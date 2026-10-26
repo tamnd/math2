@@ -1,1 +1,1 @@
-{"id":"BD3655C9MR","mentions":["m2://rec/wikidata/Q751120#1"],"kind":"statement","name":"Thue–Siegel–Roth theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"BD3655C9MR","mentions":["m2://rec/mathlib_1000/Q751120#1","m2://rec/thousand_plus/Q751120#1","m2://rec/wikidata/Q751120#1"],"kind":"statement","name":"Thue–Siegel–Roth theorem","msc":["11-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

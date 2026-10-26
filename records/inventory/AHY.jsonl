@@ -1,2 +1,3 @@
 {"id":"AHY1DBR5TD","mentions":["m2://rec/wikidata/Q131299#1"],"kind":"definition","name":"SI prefix","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"AHY9TYTGMM","mentions":["m2://rec/wikidata/Q684363#1"],"kind":"definition","name":"special unitary group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"AHYWTHEGBT","mentions":["m2://rec/mathlib_overview/Linear algebra > Fundamentals > multilinear map#1","m2://rec/mathlib_undergrad/Linear algebra > Multilinearity > multilinear map#1"],"kind":"unknown","name":"multilinear map","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

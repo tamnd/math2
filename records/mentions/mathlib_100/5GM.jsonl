@@ -1,0 +1,1 @@
+{"id":"m2://rec/mathlib_100/65#1","source":"mathlib_100","snapshot":"blake3:70096cc136311ba4f8351383a1f666f39892036aabcfcb90857aa21c7302ddea","locator":"https://leanprover-community.github.io/100.html#65","native_id":"65","kind":"statement","name":"Isosceles Triangle Theorem","same":{"mathlib":["EuclideanGeometry.angle_eq_angle_of_dist_eq"]},"class":"open","by":"curricula/1"}

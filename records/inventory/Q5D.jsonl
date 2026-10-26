@@ -1,2 +1,2 @@
-{"id":"Q5DF9J6JTC","mentions":["m2://rec/wikidata/Q3527247#1"],"kind":"statement","name":"Six circles theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"Q5DF9J6JTC","mentions":["m2://rec/mathlib_1000/Q3527247#1","m2://rec/thousand_plus/Q3527247#1","m2://rec/wikidata/Q3527247#1"],"kind":"statement","name":"Six circles theorem","msc":["51-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"Q5DGWF6YGF","mentions":["m2://rec/wikidata/Q5302692#1"],"kind":"topic","name":"Dowker–Thistlethwaite notation","msc":["57M25"],"layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

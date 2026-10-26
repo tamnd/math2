@@ -1,2 +1,3 @@
 {"id":"E10089DDX8","mentions":["m2://rec/wikidata/Q223683#1"],"kind":"unknown","name":"transpose matrix","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"E10Z49YQPJ","mentions":["m2://rec/wikidata/Q9382514#1"],"kind":"unknown","name":"homotopy extension property","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"E10ZC9JX8H","mentions":["m2://rec/mathlib_1000/Q5049717#1","m2://rec/thousand_plus/Q5049717#1"],"kind":"statement","name":"Castelnuovo–de Franchis theorem","msc":["14-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

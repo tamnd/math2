@@ -1,1 +1,1 @@
-{"id":"SVMVAYTRSW","mentions":["m2://rec/wikidata/Q5499906#1"],"kind":"unknown","name":"free Lie algebra","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"SVMVAYTRSW","mentions":["m2://rec/mathlib_1000/Q5499906#1","m2://rec/thousand_plus/Q5499906#1","m2://rec/wikidata/Q5499906#1"],"kind":"statement","name":"free Lie algebra","msc":["17-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

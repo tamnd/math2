@@ -1,2 +1,2 @@
-{"id":"S7Q18XVP9A","mentions":["m2://rec/wikidata/Q240950#1"],"kind":"conjecture","name":"Faltings' theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"S7Q18XVP9A","mentions":["m2://rec/mathlib_1000/Q240950#1","m2://rec/thousand_plus/Q240950#1","m2://rec/wikidata/Q240950#1"],"kind":"statement","name":"Faltings' theorem","msc":["14-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"S7Q1XZCXSM","mentions":["m2://rec/wikidata/Q772067#1"],"kind":"unknown","name":"Laplacian matrix","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

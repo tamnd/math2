@@ -1,1 +1,1 @@
-{"id":"DYF4S6E1FJ","mentions":["m2://rec/wikidata/Q536640#1"],"kind":"statement","name":"Hall's marriage theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"DYF4S6E1FJ","mentions":["m2://rec/mathlib_1000/Q536640#1","m2://rec/mathlib_overview/Combinatorics > Transversals > Hall's marriage theorem#1","m2://rec/thousand_plus/Q536640#1","m2://rec/wikidata/Q536640#1"],"kind":"statement","name":"Hall's marriage theorem","msc":["05-XX"],"layer":"textbook","spread":4,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

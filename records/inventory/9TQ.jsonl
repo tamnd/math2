@@ -1,2 +1,2 @@
 {"id":"9TQ7BTH126","mentions":["m2://rec/wikidata/Q3489713#1"],"kind":"unknown","name":"solenoid","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"9TQX3KBDN1","mentions":["m2://rec/wikidata/Q11352#1"],"kind":"unknown","name":"angle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9TQX3KBDN1","mentions":["m2://rec/mathlib_overview/Geometry > Affine and Euclidean geometry > angle#1","m2://rec/mathlib_undergrad/Affine and Euclidean Geometry > Euclidean affine spaces > angles between vectors#1","m2://rec/wikidata/Q11352#1"],"kind":"unknown","name":"angle","layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,1 +1,3 @@
 {"id":"RK0BA6SKN6","mentions":["m2://rec/wikidata/Q4978697#1"],"kind":"concept","name":"Bruhat order","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"RK0C4V1BX5","mentions":["m2://rec/mathlib_1000/Q1543149#1","m2://rec/thousand_plus/Q1543149#1"],"kind":"statement","name":"Sokhotski–Plemelj theorem","msc":["30-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"RK0E9P3F2D","mentions":["m2://rec/mathlib_1000/Q7980241#1","m2://rec/thousand_plus/Q7980241#1"],"kind":"statement","name":"Weinberg–Witten theorem","msc":["81-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

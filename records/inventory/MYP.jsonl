@@ -1,2 +1,2 @@
-{"id":"MYPKFPQXKJ","mentions":["m2://rec/wikidata/Q2270905#1"],"kind":"statement","name":"Poincaré–Birkhoff–Witt theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"MYPKFPQXKJ","mentions":["m2://rec/mathlib_1000/Q2270905#1","m2://rec/thousand_plus/Q2270905#1","m2://rec/wikidata/Q2270905#1"],"kind":"statement","name":"Poincaré–Birkhoff–Witt theorem","msc":["17-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"MYPM7KEQVD","mentions":["m2://rec/wikidata/Q2327764#1"],"kind":"unknown","name":"volume element","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

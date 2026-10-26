@@ -1,0 +1,8 @@
+# The import manifest of mathlib_undergrad. m2 ingest writes this file. Run m2 ingest mathlib_undergrad -snapshot blake3:5dc75b4fae97b252f4426509f5eafbf5428a0af093af47e40355a365d06bd5c8 to make the same records again.
+source: mathlib_undergrad
+adapter: curricula/1
+snapshot: blake3:5dc75b4fae97b252f4426509f5eafbf5428a0af093af47e40355a365d06bd5c8
+records: 566
+hash: blake3:3cd18c3ee78e2739ce97f751b4f6fa4cbe98973b037b6d599d2008dea03baeeb
+classes:
+  open: 566

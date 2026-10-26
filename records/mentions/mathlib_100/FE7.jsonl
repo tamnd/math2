@@ -1,0 +1,1 @@
+{"id":"m2://rec/mathlib_100/71#1","source":"mathlib_100","snapshot":"blake3:70096cc136311ba4f8351383a1f666f39892036aabcfcb90857aa21c7302ddea","locator":"https://leanprover-community.github.io/100.html#71","native_id":"71","kind":"statement","name":"Order of a Subgroup","same":{"mathlib":["Subgroup.card_subgroup_dvd_card"]},"class":"open","by":"curricula/1"}

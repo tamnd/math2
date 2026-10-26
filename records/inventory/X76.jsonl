@@ -1,1 +1,1 @@
-{"id":"X76SY7A05Q","mentions":["m2://rec/wikidata/Q6379715#1"],"kind":"statement","name":"Kawasaki's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"X76SY7A05Q","mentions":["m2://rec/mathlib_1000/Q6379715#1","m2://rec/thousand_plus/Q6379715#1","m2://rec/wikidata/Q6379715#1"],"kind":"statement","name":"Kawasaki's theorem","msc":["00-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,1 +1,1 @@
-{"id":"Z12F20JW24","mentions":["m2://rec/wikidata/Q1347094#1"],"kind":"definition","name":"transversal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"Z12F20JW24","mentions":["m2://rec/mathlib_1000/Q1347094#1","m2://rec/thousand_plus/Q1347094#1","m2://rec/wikidata/Q1347094#1"],"kind":"statement","name":"transversal","msc":["51-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

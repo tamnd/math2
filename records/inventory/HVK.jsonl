@@ -1,1 +1,2 @@
-{"id":"HVK10KNP5W","mentions":["m2://rec/wikidata/Q1179446#1"],"kind":"concept","name":"de Rham cohomology","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"HVK10KNP5W","mentions":["m2://rec/mathlib_1000/Q1179446#1","m2://rec/thousand_plus/Q1179446#1","m2://rec/wikidata/Q1179446#1"],"kind":"statement","name":"de Rham cohomology","msc":["57-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"HVKZZE1H8C","mentions":["m2://rec/mathlib_1000/Q62051012#1","m2://rec/thousand_plus/Q62051012#1"],"kind":"statement","name":"Behrend's theorem","msc":["11-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

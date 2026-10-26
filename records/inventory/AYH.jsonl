@@ -1,1 +1,1 @@
-{"id":"AYH3CZYN9D","mentions":["m2://rec/wikidata/Q646523#1"],"kind":"statement","name":"Pick's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"AYH3CZYN9D","mentions":["m2://rec/mathlib_1000/Q646523#1","m2://rec/thousand_plus/Q646523#1","m2://rec/wikidata/Q646523#1"],"kind":"statement","name":"Pick's theorem","msc":["51-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

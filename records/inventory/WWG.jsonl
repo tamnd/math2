@@ -1,1 +1,2 @@
 {"id":"WWGJMMS93S","mentions":["m2://rec/wikidata/Q3926560#1"],"kind":"unknown","name":"quadrant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"WWGKP9K5GM","mentions":["m2://rec/mathlib_1000/Q2524990#1","m2://rec/thousand_plus/Q2524990#1"],"kind":"statement","name":"Jackson's theorem (queueing theory)","msc":["60-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,1 +1,2 @@
 {"id":"M6RH5ZCYEM","mentions":["m2://rec/wikidata/Q3555169#1"],"kind":"unknown","name":"null vector","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"M6RXVPC4EY","mentions":["m2://rec/mathlib_1000/Q2621667#1","m2://rec/thousand_plus/Q2621667#1"],"kind":"statement","name":"Nagata–Smirnov metrization theorem","msc":["54-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

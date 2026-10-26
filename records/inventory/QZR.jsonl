@@ -1,1 +1,2 @@
 {"id":"QZR426XRC8","mentions":["m2://rec/wikidata/Q5527850#1"],"kind":"concept","name":"Gauss–Hermite quadrature","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"QZRSCF5EED","mentions":["m2://rec/mathlib_1000/Q4663326#1","m2://rec/thousand_plus/Q4663326#1"],"kind":"statement","name":"Hirzebruch–Riemann–Roch theorem","msc":["32-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

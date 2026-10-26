@@ -1,1 +1,2 @@
 {"id":"73F6YDSEV9","mentions":["m2://rec/wikidata/Q185049#1"],"kind":"definition","name":"geometric mean","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"73FGXM1642","mentions":["m2://rec/mathlib_1000/Q4998912#1","m2://rec/thousand_plus/Q4998912#1"],"kind":"statement","name":"Burke's theorem","msc":["60-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

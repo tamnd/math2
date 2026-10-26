@@ -1,1 +1,2 @@
 {"id":"MAB5890G17","mentions":["m2://rec/wikidata/Q18207102#1"],"kind":"unknown","name":"final functor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"MABB0816E0","mentions":["m2://rec/mathlib_1000/Q211981#1","m2://rec/thousand_plus/Q211981#1"],"kind":"statement","name":"Hartman–Grobman theorem","msc":["37-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

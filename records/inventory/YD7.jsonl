@@ -1,1 +1,1 @@
-{"id":"YD7M8J0RKK","mentions":["m2://rec/wikidata/Q2893695#1"],"kind":"concept","name":"Cohen–Macaulay ring","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"YD7M8J0RKK","mentions":["m2://rec/mathlib_1000/Q2893695#1","m2://rec/thousand_plus/Q2893695#1","m2://rec/wikidata/Q2893695#1"],"kind":"statement","name":"Cohen–Macaulay ring","msc":["14-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

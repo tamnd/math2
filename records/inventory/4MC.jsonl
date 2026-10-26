@@ -1,2 +1,3 @@
 {"id":"4MCDT43V05","mentions":["m2://rec/wikidata/Q3360633#1"],"kind":"unknown","name":"commuting matrices","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4MCGSQWMQP","mentions":["m2://rec/mathlib_1000/Q2993026#1","m2://rec/thousand_plus/Q2993026#1"],"kind":"statement","name":"Ankeny&ndash;Artin&ndash;Chowla theorem","msc":["11-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"4MCGY2XW14","mentions":["m2://rec/wikidata/Q7884743#1"],"kind":"concept","name":"unicoherent space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

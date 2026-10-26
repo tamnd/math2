@@ -1,1 +1,1 @@
-{"id":"TPW7FV5REY","mentions":["m2://rec/wikidata/Q1317367#1"],"kind":"statement","name":"Japanese theorem for cyclic polygons","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"TPW7FV5REY","mentions":["m2://rec/mathlib_1000/Q1317367#1","m2://rec/thousand_plus/Q1317367#1","m2://rec/wikidata/Q1317367#1"],"kind":"statement","name":"Japanese theorem for cyclic polygons","msc":["51-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

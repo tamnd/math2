@@ -1,2 +1,2 @@
-{"id":"FSCJXA7ZBQ","mentions":["m2://rec/wikidata/Q26708#1"],"kind":"statement","name":"binomial theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FSCJXA7ZBQ","mentions":["m2://rec/mathlib_100/44#1","m2://rec/mathlib_1000/Q26708#1","m2://rec/thousand_plus/Q26708#1","m2://rec/wikidata/Q26708#1"],"kind":"statement","name":"binomial theorem","msc":["05-XX"],"layer":"textbook","spread":4,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"FSCT77QBG7","mentions":["m2://rec/wikidata/Q1366592#1"],"kind":"unknown","name":"Hilbert curve","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
