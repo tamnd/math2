@@ -125,6 +125,26 @@ formal:
     fidelity_reviews: [r-3C53TD-01]
 ```
 
+## The monthly re-review sample
+
+Each month, a maintainer draws a sample of 1% of the bindings at F2 and 0.5% of the bindings at F3 (spec 10.8). A different reviewer reviews each binding in the sample again, blind. The results give the measured disagreement of each level, by area.
+
+```sh
+m2 build
+m2 review sample -month 2026-11 -write
+git commit -S -m "Draw the re-review sample of 2026-11" registers/samples.reg
+```
+
+`m2 review sample` writes the seed of the draw. With the same seed and the same build, anyone can draw the same sample again. The draw gives each binding to a registered reviewer who did not write the binding and has no review of it. It takes a reviewer with an area of the node first, then a reviewer with no affiliation of the first reviewers, then the reviewer with the fewest re-reviews in the month.
+
+The reviewer of a sample does the review as in "How to review", but starts with `m2 review -blind TAG`. The packet then does not show the reviews of the binding. The review files are public, thus do not open the review file of the node before you write your verdict. The re-review is a normal review: if it agrees, it counts for the binding as a second review.
+
+```sh
+m2 review measure 2026-11
+```
+
+`m2 review measure` shows each sample as done, open or with no reviewer, and the rate of disagreement of each level, in all areas and in each top-level MSC2020 class. A re-review with the verdict `not-faithful` disagrees. Fix the binding as for any other `not-faithful` review.
+
 ## Sign the commit
 
 Each commit that changes `reviews/` must have a signature that GitHub verifies. The check workflow fails on a pull request with an unsigned review commit. Set up a GPG or an SSH signing key as in the GitHub documentation "Signing commits", and commit with `git commit -S`.
