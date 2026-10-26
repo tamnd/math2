@@ -1,0 +1,30 @@
+---
+tag: 0T0EJDGHMB
+kind: definition
+name: Normal convergence
+msc: [40A30]
+defines: 0EJVD9K0K1
+uses: [0MRE6XRE5V, 0NX5NWAFC9]
+sources:
+  - url: https://en.wikipedia.org/wiki/Normal_convergence
+    locator: Definition
+---
+
+## Definition
+
+Let $S$ be a set and let $f_n \colon S \to \mathbb{R}$ be bounded functions for $n \ge 0$.
+The [[series of functions|0MRE6XRE5V]] $\sum_{n=0}^{\infty} f_n$ converges normally on $S$ if
+$$\sum_{n=0}^{\infty} \sup_{x \in S} |f_n(x)| < \infty.$$
+
+## Remarks
+
+By the [[Weierstrass M-test|0NX5NWAFC9]], a normally convergent series converges absolutely and uniformly on $S$.
+The converse fails. For constant functions $f_n = (-1)^n / (n + 1)$, the series converges uniformly but not normally.
+René Baire introduced the concept in 1908.
+
+## Explanations
+
+### L1 human
+
+Normal convergence means that the sizes of the functions, measured by their suprema, form a convergent series.
+It is a simple condition that is stronger than uniform convergence.

@@ -1,0 +1,13 @@
+---
+tag: 0XTNJ6SVAC
+kind: concept
+name: Cluster point of a sequence
+msc: [40A05]
+sources:
+  - url: https://en.wikipedia.org/wiki/Accumulation_point
+    locator: Accumulation points of sequences and nets
+---
+
+## Summary
+
+A cluster point of a sequence is a point near which infinitely many terms of the sequence lie. In the real numbers, the cluster points are exactly the limits of the convergent subsequences. The node [[cluster point of a sequence|0RCKQN1E09]] gives the precise definition.

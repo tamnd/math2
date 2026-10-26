@@ -1,0 +1,30 @@
+---
+tag: 02KTRHQMHN
+kind: statement
+role: theorem
+name: Power series of sine
+msc: [33B10, 30B10]
+uses: [0WB57D9488, 0JBMYAA9QH, 043SJ5RF59]
+sources:
+  - url: https://en.wikipedia.org/wiki/Sine_and_cosine
+    locator: Series and polynomials
+---
+
+## Statement
+
+For every real $x$, the series $\sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{(2n+1)!}$ converges absolutely, and
+$$\sin x = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \cdots.$$
+This series is the [[Maclaurin series|043SJ5RF59]] of the sine function.
+
+## Remarks
+
+The [[ratio of the terms|0JBMYAA9QH]] is $\frac{x^2}{(2n+2)(2n+3)} \to 0$. So the radius of convergence is $\infty$.
+With the series as the definition of $\sin$, the equality holds by definition. With a geometric definition, Taylor's theorem proves it.
+For $|x| \le 1$, the error after the term $x^{2n+1}$ is at most $\frac{1}{(2n+3)!}$. Mathlib states the series as `Real.hasSum_sin`.
+
+## Explanations
+
+### L1 human
+
+Sine is an infinite odd polynomial with alternating signs.
+Near $0$, $\sin x$ is close to $x$, and closer still to $x - x^3/6$.

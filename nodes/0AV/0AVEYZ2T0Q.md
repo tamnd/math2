@@ -1,0 +1,32 @@
+---
+tag: 0AVEYZ2T0Q
+kind: example
+name: The nth root of n tends to 1
+msc: [40A05]
+instance_of: [0W4CN9E2W5]
+uses: [0XKWSSY8P2, 0XMF00T4XQ]
+sources:
+  - url: https://en.wikipedia.org/wiki/Nth_root
+    locator: Definition and notation
+---
+
+## Example
+
+For each integer $n \ge 1$, let $a_n = n^{1/n}$ be the positive $n$-th root of $n$.
+Then $a_n \to 1$ as $n \to \infty$.
+For the proof, write $a_n = 1 + h_n$ with $h_n \ge 0$.
+For $n \ge 2$, the binomial theorem gives $n = (1 + h_n)^n \ge \binom{n}{2} h_n^2 = \frac{n(n-1)}{2} h_n^2$.
+Thus $0 \le h_n \le \sqrt{2/(n-1)}$, and the [[squeeze theorem|0XMF00T4XQ]] gives $h_n \to 0$.
+
+## Remarks
+
+The first terms are $1, \sqrt{2} \approx 1.414, 3^{1/3} \approx 1.442, 4^{1/4} \approx 1.414$. The largest term is at $n = 3$.
+In the same way, $c^{1/n} \to 1$ for each real $c > 0$.
+Mathlib proves the version for a real variable, $x^{1/x} \to 1$ as $x \to \infty$, in the lemma `tendsto_rpow_div`.
+
+## Explanations
+
+### L1 human
+
+The number $n$ grows, but the root index $n$ grows too, and the root wins.
+For example, $1000^{1/1000}$ is about $1.0069$, very close to $1$.

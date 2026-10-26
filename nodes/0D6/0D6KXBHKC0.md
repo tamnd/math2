@@ -7,9 +7,6 @@ msc: [30B10]
 sources:
   - url: https://en.wikipedia.org/wiki/Power_series
     locator: lead section
-same_as:
-  wikidata: Q206925
-  wikipedia: Power series
 ---
 
 ## Summary

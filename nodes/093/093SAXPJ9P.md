@@ -1,0 +1,13 @@
+---
+tag: 093SAXPJ9P
+kind: concept
+name: Mesh of a partition
+msc: [26A42]
+sources:
+  - url: https://en.wikipedia.org/wiki/Partition_of_an_interval
+    locator: Norm of a partition
+---
+
+## Summary
+
+The mesh of a partition is the length of its longest subinterval. Riemann sums approach the integral as the mesh tends to zero. The node [[mesh of a partition|04GM4NYXJB]] gives the precise definition.

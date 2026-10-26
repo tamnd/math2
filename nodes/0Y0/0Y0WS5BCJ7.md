@@ -1,0 +1,32 @@
+---
+tag: 0Y0WS5BCJ7
+kind: definition
+name: Inflection point
+msc: [26A51]
+defines: 06MG208MGR
+uses: [0VV0HSW1ZS, 0EF2VG8XKQ]
+sources:
+  - url: https://en.wikipedia.org/wiki/Inflection_point
+    locator: Definition
+---
+
+## Definition
+
+Let $I$ be an open interval, let $f \colon I \to \mathbb{R}$ be continuous, and let $c \in I$.
+The point $c$ is an inflection point of $f$ if there is $\delta > 0$ with one of the following properties.
+The function $f$ is [[convex|0VV0HSW1ZS]] on $(c - \delta, c]$ and [[concave|0EF2VG8XKQ]] on $[c, c + \delta)$.
+Or $f$ is concave on $(c - \delta, c]$ and convex on $[c, c + \delta)$.
+
+## Remarks
+
+If $f$ is twice differentiable at an inflection point $c$, then $f''(c) = 0$.
+The converse fails: $f(x) = x^4$ has $f''(0) = 0$, but $0$ is not an inflection point.
+The function $x^3$ has an inflection point at $0$. So does $\sin x$, at each multiple of $\pi$.
+Some texts also ask the graph to have a tangent line at $c$.
+
+## Explanations
+
+### L1 human
+
+At an inflection point, the graph changes from bending up to bending down, or the reverse.
+The graph crosses its tangent line there.

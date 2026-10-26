@@ -1,0 +1,34 @@
+---
+tag: 07EXVNF9VP
+kind: concept
+name: Newton's method
+aliases: [newton-raphson-method]
+msc: [65H05]
+uses: [01R1HW3Y42, 0F1WR9C83K]
+sources:
+  - url: https://en.wikipedia.org/wiki/Newton%27s_method
+    locator: Description
+same_as:
+  wikidata: Q374195
+  wikipedia: Newton's method
+---
+
+## Summary
+
+Newton's method finds approximate zeros of a differentiable function $f$.
+From a starting point $x_0$, it computes
+$$x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}.$$
+Each new point is the zero of the [[tangent line|01R1HW3Y42]] to the graph at the old point.
+
+## Remarks
+
+Assume $f$ is $C^2$ near a zero $r$ with $f'(r) \ne 0$. Then the method converges to $r$ for $x_0$ close to $r$. The convergence is quadratic: $|x_{n+1} - r| \le C |x_n - r|^2$.
+For $f(x) = x^2 - 2$, the step is $x_{n+1} = (x_n + 2/x_n)/2$. This is Heron's method for $\sqrt{2}$.
+The method can fail. It stops when $f'(x_n) = 0$, and it can cycle or diverge from a poor starting point.
+
+## Explanations
+
+### L1 human
+
+Replace the graph by its tangent line, and find where the line crosses the axis.
+Repeat from there. Near a simple root, each step roughly doubles the number of correct digits.

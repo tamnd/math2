@@ -1,0 +1,30 @@
+---
+tag: 0MVDQEAB60
+kind: definition
+name: Sequential continuity
+msc: [26A15]
+defines: 055Z15H69G
+uses: [0XKWSSY8P2]
+sources:
+  - url: https://en.wikipedia.org/wiki/Continuous_function
+    locator: Definition in terms of limits of sequences
+---
+
+## Definition
+
+Let $D \subseteq \mathbb{R}$ and let $f \colon D \to \mathbb{R}$ be a function.
+The function $f$ is sequentially continuous if the following holds.
+For each sequence $(x_n)$ in $D$ that [[converges|0XKWSSY8P2]] to a point $a \in D$, the sequence $(f(x_n))$ converges to $f(a)$.
+
+## Remarks
+
+For real functions, [[sequential continuity is the same as continuity|0PAQM3H57X]].
+The definition is useful to prove that a function is not continuous. It is enough to find one sequence $x_n \to a$ with $f(x_n) \not\to f(a)$.
+Mathlib defines it for topological spaces, as `SeqContinuous`.
+
+## Explanations
+
+### L1 human
+
+A sequentially continuous function preserves limits of sequences.
+The function of the limit is the limit of the function values.

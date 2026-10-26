@@ -1,0 +1,34 @@
+---
+tag: 0KN22AAW5R
+kind: definition
+name: Monotone sequence
+msc: [40A05]
+defines: 02JBEMG8R4
+uses: [0CTV783HYT]
+sources:
+  - url: https://en.wikipedia.org/wiki/Sequence
+    locator: Increasing and decreasing
+  - url: https://en.wikipedia.org/wiki/Monotonic_function
+    locator: In calculus and analysis
+---
+
+## Definition
+
+Let $(a_n)$ be a [[real sequence|0CTV783HYT]].
+The sequence is increasing if $a_n \le a_{n+1}$ for all $n \in \mathbb{N}$.
+The sequence is decreasing if $a_n \ge a_{n+1}$ for all $n \in \mathbb{N}$.
+The sequence is monotone if it is increasing or decreasing.
+The sequence is strictly increasing if $a_n < a_{n+1}$ for all $n$, and strictly decreasing if $a_n > a_{n+1}$ for all $n$.
+
+## Remarks
+
+Some texts say non-decreasing for increasing in this sense, and they keep the word increasing for strictly increasing.
+By induction, $(a_n)$ is increasing if and only if $a_m \le a_n$ for all $m \le n$. This is the definition of a monotone function on $\mathbb{N}$.
+The sequence $1/n$ is strictly decreasing. The sequence $(-1)^n$ is not monotone.
+
+## Explanations
+
+### L1 human
+
+A monotone sequence always moves in one direction.
+An increasing sequence never goes down, and a decreasing sequence never goes up.

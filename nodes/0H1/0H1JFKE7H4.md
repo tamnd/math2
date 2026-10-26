@@ -1,0 +1,13 @@
+---
+tag: 0H1JFKE7H4
+kind: concept
+name: Hyperbolic sine
+msc: [33B10]
+sources:
+  - url: https://en.wikipedia.org/wiki/Hyperbolic_functions
+    locator: Exponential definitions
+---
+
+## Summary
+
+The hyperbolic sine is half the difference of $e^x$ and $e^{-x}$. It is an odd, strictly increasing function on $\mathbb{R}$. The node [[hyperbolic sine|0GWD21EWRW]] gives the precise definition.

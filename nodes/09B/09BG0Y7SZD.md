@@ -9,9 +9,6 @@ uses: [0YKY4M3KRQ, 0VARVQ9ZW1, 045EWAXY9P]
 sources:
   - url: https://en.wikipedia.org/wiki/Mercator_series
     locator: Complex series
-same_as:
-  wikidata: Q677568
-  wikipedia: Mercator series
 ---
 
 ## Statement
