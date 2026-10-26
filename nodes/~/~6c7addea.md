@@ -1,0 +1,17 @@
+---
+tag: ~6c7addea
+kind: concept
+name: Glide reflection
+aliases: [transflection]
+msc: [51F20]
+sources:
+  - url: https://en.wikipedia.org/wiki/Glide_reflection
+    locator: lead section
+same_as:
+  wikidata: Q876450
+  wikipedia: Glide reflection
+---
+
+## Summary
+
+A glide reflection is a reflection in a hyperplane followed by a translation parallel to that hyperplane. In the plane, it is a reflection in a line followed by a shift along that line.
