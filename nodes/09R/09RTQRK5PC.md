@@ -1,0 +1,22 @@
+---
+tag: 09RTQRK5PC
+kind: concept
+name: Student's t-distribution
+aliases: [t-distribution, students-t-distribution]
+msc: ["60E05", "62E15"]
+sources:
+  - url: https://en.wikipedia.org/wiki/Student's_t-distribution
+    locator: lead section
+same_as:
+  wikidata: Q576072
+  wikipedia: Student's t-distribution
+---
+
+## Summary
+
+Student's t-distribution is a continuous law on $\mathbb{R}$ that is symmetric about $0$ and bell-shaped, like the standard normal law, but with heavier tails. It is the law of the standardized sample mean when one estimates the standard deviation from the data.
+The node [[Student's t-distribution|0NQ5798SB1]] gives the precise definition.
+
+## Remarks
+
+William Sealy Gosset published the distribution in 1908 under the pen name "Student".

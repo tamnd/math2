@@ -1,0 +1,33 @@
+---
+tag: 0NWXRAMEE7
+kind: statement
+role: lemma
+name: Second Borel–Cantelli lemma
+aliases: [converse-borel-cantelli-lemma]
+msc: [60F20]
+uses: [0T6WS7TT77, 0GCVEV6BJA, 0PQEBTYDZM]
+sources:
+  - url: https://en.wikipedia.org/wiki/Borel–Cantelli_lemma
+    locator: Converse result
+---
+
+## Statement
+
+Let $A_1, A_2, \dots$ be [[mutually independent|0GCVEV6BJA]] events in a probability space $(\Omega, \mathcal{F}, P)$ with $\sum_{n=1}^{\infty} P(A_n) = \infty$.
+Then
+$$P\left(\limsup_{n \to \infty} A_n\right) = 1.$$
+So almost surely, infinitely many of the events $A_n$ occur.
+
+## Remarks
+
+Proof: the complement of $\limsup_n A_n$ is $\bigcup_n \bigcap_{m \ge n} A_m^c$. By independence and $1 - x \le e^{-x}$, $P\left(\bigcap_{m = n}^{N} A_m^c\right) = \prod_{m=n}^{N} (1 - P(A_m)) \le \exp\left(-\sum_{m=n}^{N} P(A_m)\right)$.
+The right side tends to $0$ as $N \to \infty$. So each $\bigcap_{m \ge n} A_m^c$ has probability $0$, and so does their union.
+Independence is necessary. For $A_n = A$ with $0 < P(A) < 1$ for all $n$, the sum diverges but $P(\limsup_n A_n) = P(A) < 1$.
+With the [[first lemma|0T6WS7TT77]], it follows that for independent events, $P(\limsup_n A_n)$ is $0$ or $1$.
+
+## Explanations
+
+### L1 human
+
+If independent events have chances that add up to infinity, then infinitely many of them happen, with probability $1$.
+For example, in an infinite sequence of tosses of a fair coin, the pattern "ten heads in a row" appears infinitely often.

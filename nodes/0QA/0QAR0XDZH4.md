@@ -1,0 +1,33 @@
+---
+tag: 0QAR0XDZH4
+kind: definition
+name: Joint probability distribution
+msc: [62H05]
+defines: 0DR81R1F2B
+uses: [0DKRR22AEQ, 0TST4MHA3A, 0C81YBVTWH]
+sources:
+  - url: https://en.wikipedia.org/wiki/Joint_probability_distribution
+    locator: Joint cumulative distribution function
+---
+
+## Definition
+
+Let $X_1, \dots, X_n$ be real [[random variables|0DKRR22AEQ]] on one probability space $(\Omega, \mathcal{F}, P)$.
+Their joint distribution is the [[law|0TST4MHA3A]] of the random vector $(X_1, \dots, X_n) \colon \Omega \to \mathbb{R}^n$. It is the probability measure on the Borel sets of $\mathbb{R}^n$ with
+$$\mu(B) = P((X_1, \dots, X_n) \in B).$$
+Their joint cumulative distribution function is $F(x_1, \dots, x_n) = P(X_1 \le x_1, \dots, X_n \le x_n)$.
+
+## Remarks
+
+For discrete variables, the joint probability mass function $p(x_1, \dots, x_n) = P(X_1 = x_1, \dots, X_n = x_n)$ determines the joint distribution.
+The variables have a joint density $f$ if $\mu(B) = \int_B f(x) \, dx$ for each Borel set $B \subseteq \mathbb{R}^n$.
+The joint distribution determines the [[marginal distributions|0AXP2Z5N9H]], but the marginal distributions do not determine the joint distribution.
+For two rolls of a fair die, the joint mass function of the two results is $1/36$ at each pair $(i, j)$ with $1 \le i, j \le 6$.
+
+## Explanations
+
+### L1 human
+
+The joint distribution describes several random quantities together, not one by one.
+For example, it says how likely it is that a person is tall and also heavy.
+It gives more than the chance of each of the two alone.

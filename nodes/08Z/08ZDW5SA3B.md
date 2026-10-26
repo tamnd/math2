@@ -1,0 +1,15 @@
+---
+tag: 08ZDW5SA3B
+kind: concept
+name: Identically distributed random variables
+aliases: [equal-in-distribution]
+msc: ["60E05"]
+sources:
+  - url: https://en.wikipedia.org/wiki/Independent_and_identically_distributed_random_variables
+    locator: Definition for two random variables
+---
+
+## Summary
+
+Random variables are identically distributed when they have the same law, even if they live on different probability spaces.
+The node [[identically distributed random variables|01X8YSDTBW]] gives the precise definition.

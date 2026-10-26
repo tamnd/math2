@@ -1,0 +1,18 @@
+---
+tag: 0VW9E4QXR6
+kind: concept
+name: Likelihood function
+aliases: [likelihood]
+msc: [62F10]
+sources:
+  - url: https://en.wikipedia.org/wiki/Likelihood_function
+    locator: lead section
+same_as:
+  wikidata: Q45284
+  wikipedia: Likelihood function
+---
+
+## Summary
+
+The likelihood function gives, for each value of an unknown parameter, the probability or the density of the observed data under that value. It is a function of the parameter, with the data fixed.
+The node [[likelihood function|05FSTXM92W]] gives the precise definition.

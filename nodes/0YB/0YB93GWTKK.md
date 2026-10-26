@@ -1,0 +1,32 @@
+---
+tag: 0YB93GWTKK
+kind: definition
+name: Absorbing Markov chain
+msc: [60J10]
+defines: 03AN9X29R7
+uses: [033TJBZDG0, 0F1KBVY161, 01APZ8GDQH]
+sources:
+  - url: https://en.wikipedia.org/wiki/Absorbing_Markov_chain
+    locator: Formal definition
+---
+
+## Definition
+
+Let $(X_n)$ be a time-homogeneous [[Markov chain|033TJBZDG0]] with [[transition matrix|0F1KBVY161]] $P = (p_{ij})$ on a state space $S$.
+A state $i \in S$ is absorbing if $p_{ii} = 1$. A state that is not absorbing is transient.
+The chain is an absorbing Markov chain if it has at least one absorbing state and each state can reach an absorbing state.
+That is, for each $i \in S$ there are an absorbing state $j$ and an $n \ge 0$ with $p^{(n)}_{ij} > 0$.
+
+## Remarks
+
+For a finite absorbing chain, write $P$ in the canonical form with the transient states first: $P = \begin{pmatrix} Q & R \\ 0 & I \end{pmatrix}$.
+The fundamental matrix is $N = (I - Q)^{-1} = \sum_{n=0}^{\infty} Q^n$. The entry $N_{ij}$ is the expected number of visits to the transient state $j$, starting from the transient state $i$.
+The expected number of steps before absorption from $i$ is the $i$-th entry of $N \mathbf{1}$, where $\mathbf{1}$ is the column vector of ones. The absorption probabilities are the entries of $NR$.
+A finite absorbing chain reaches an absorbing state with probability $1$.
+
+## Explanations
+
+### L1 human
+
+An absorbing chain wanders for a while and then gets stuck in a trap state forever.
+The fortune in the gambler's ruin problem is an example: the states $0$ and $N$ are traps.

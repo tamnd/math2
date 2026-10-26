@@ -1,0 +1,18 @@
+---
+tag: 0F8GDKM0A7
+kind: concept
+name: Convolution of probability distributions
+aliases: [convolution-of-distributions, convolution-of-measures]
+msc: ["60E05"]
+sources:
+  - url: https://en.wikipedia.org/wiki/Convolution_of_probability_distributions
+    locator: lead section
+same_as:
+  wikidata: Q5166603
+  wikipedia: Convolution of probability distributions
+---
+
+## Summary
+
+The convolution of two probability distributions on $\mathbb{R}$ is the distribution of the sum of two independent random variables with these distributions.
+The node [[convolution of probability distributions|07CHJ5YX28]] gives the precise definition.

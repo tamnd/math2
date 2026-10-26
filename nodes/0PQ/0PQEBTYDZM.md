@@ -1,0 +1,32 @@
+---
+tag: 0PQEBTYDZM
+kind: statement
+role: proposition
+name: Probability of the complement
+aliases: [complement-rule]
+msc: [60A05]
+uses: [0ZYBZ34RT2, 00SQGJNRTB, 0B1FSS1VZW]
+sources:
+  - url: https://en.wikipedia.org/wiki/Complementary_event
+    locator: Complement rule
+---
+
+## Statement
+
+Let $(\Omega, \mathcal{F}, P)$ be a [[probability space|0ZYBZ34RT2]] and let $A \in \mathcal{F}$ be an [[event|00SQGJNRTB]].
+Let $A^c = \Omega \setminus A$ be the [[complement|0B1FSS1VZW]] of $A$.
+Then
+$$P(A^c) = 1 - P(A).$$
+
+## Remarks
+
+The proof: $A$ and $A^c$ are disjoint and $A \cup A^c = \Omega$, so $P(A) + P(A^c) = P(\Omega) = 1$ by additivity.
+With $A = \Omega$, the rule gives $P(\varnothing) = 0$.
+The rule is useful when $A^c$ is simpler than $A$. For example, the probability of at least one six in four rolls of a fair die is $1 - (5/6)^4 \approx 0.518$.
+
+## Explanations
+
+### L1 human
+
+Either $A$ happens or it does not, and the two chances add up to $1$.
+If the chance of rain is $0.3$, then the chance of no rain is $0.7$.

@@ -1,0 +1,35 @@
+---
+tag: 0XKTZRWTXX
+kind: statement
+role: theorem
+name: Poisson limit theorem
+aliases: [law-of-rare-events, poisson-approximation-to-the-binomial]
+msc: [60F05]
+uses: [0VRWZDWW6B, 0VEFSSKX18, 0JDAQHWA9N]
+sources:
+  - url: https://en.wikipedia.org/wiki/Poisson_limit_theorem
+    locator: Theorem
+same_as:
+  wikidata: Q7208500
+  wikipedia: Poisson limit theorem
+---
+
+## Statement
+
+Let $\lambda > 0$, and let $p_n \in [0, 1]$ satisfy $n p_n \to \lambda$ as $n \to \infty$. Let $S_n \sim \operatorname{Bin}(n, p_n)$.
+Then for each integer $k \ge 0$,
+$$\lim_{n \to \infty} P(S_n = k) = \lim_{n \to \infty} \binom{n}{k} p_n^k (1 - p_n)^{n - k} = e^{-\lambda} \frac{\lambda^k}{k!}.$$
+So $S_n$ converges [[in distribution|0JDAQHWA9N]] to the [[Poisson distribution|0VEFSSKX18]] with parameter $\lambda$.
+
+## Remarks
+
+Proof: write $\binom{n}{k} p_n^k = \frac{n(n-1)\cdots(n-k+1)}{n^k} \cdot \frac{(n p_n)^k}{k!}$. The first factor tends to $1$, and $(1 - p_n)^{n-k} \to e^{-\lambda}$.
+In practice, $\operatorname{Bin}(n, p)$ is close to $\operatorname{Poisson}(np)$ when $n$ is large and $p$ is small.
+Le Cam's inequality gives an explicit bound on the error of this approximation.
+
+## Explanations
+
+### L1 human
+
+The number of rare events among many independent chances is approximately Poisson.
+Examples are the number of misprints on a page, or the number of large insurance claims in a year.
