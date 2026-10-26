@@ -1,0 +1,17 @@
+---
+tag: 0SQTMQTSRZ
+kind: concept
+name: Even and odd permutations
+msc: [20B30]
+sources:
+  - url: https://en.wikipedia.org/wiki/Parity_of_a_permutation
+    locator: lead section
+same_as:
+  wikidata: Q1064405
+  wikipedia: Parity of a permutation
+---
+
+## Summary
+
+A permutation of a finite set is even when it is a product of an even number of transpositions, and odd otherwise.
+The even permutations form the alternating group.

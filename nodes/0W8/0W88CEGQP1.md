@@ -1,0 +1,17 @@
+---
+tag: 0W88CEGQP1
+kind: concept
+name: Kernel of a homomorphism
+msc: [20A05]
+sources:
+  - url: https://en.wikipedia.org/wiki/Kernel_(algebra)
+    locator: Group homomorphisms
+same_as:
+  wikidata: Q574844
+  wikipedia: Kernel (algebra)
+---
+
+## Summary
+
+The kernel of a group homomorphism is the set of elements that it sends to the identity.
+It is a normal subgroup, and it measures how far the homomorphism is from being injective.
