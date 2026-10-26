@@ -1,0 +1,25 @@
+---
+tag: 01QFQAQ2PA
+kind: concept
+name: Spherical coordinates
+aliases: [spherical-coordinate-system, spherical-polar-coordinates]
+msc: [51N20]
+uses: [0XPR1E85W0, 0BSW4T7THS]
+sources:
+  - url: https://en.wikipedia.org/wiki/Spherical_coordinate_system
+    locator: Definition
+  - url: https://en.wikipedia.org/wiki/Spherical_coordinate_system
+    locator: Conventions
+same_as:
+  wikidata: Q203218
+  wikipedia: Spherical coordinate system
+---
+
+## Summary
+
+Spherical coordinates describe a point of space by three numbers. They are its distance from the origin, the angle between its position vector and the positive $z$-axis, and an azimuth angle around the $z$-axis.
+They simplify problems with symmetry about a point, such as integrals over balls.
+
+## Remarks
+
+The names and the order of the two angles differ between mathematics and physics texts. Each text must state its convention.

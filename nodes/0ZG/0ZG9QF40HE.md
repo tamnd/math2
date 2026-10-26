@@ -1,0 +1,19 @@
+---
+tag: 0ZG9QF40HE
+kind: concept
+name: Parametrised surface
+aliases: [parametric-surface]
+msc: [53A05]
+sources:
+  - url: https://en.wikipedia.org/wiki/Parametric_surface
+    locator: lead section
+same_as:
+  wikidata: Q1071743
+  wikipedia: Parametric surface
+---
+
+## Summary
+
+A parametrised surface is a surface in $\mathbb{R}^3$ given by a map of two parameters into space.
+Surfaces in Stokes' theorem and the divergence theorem are often given in this form.
+From a parametrisation one can compute the surface area, the normal vectors and the curvature of the surface.

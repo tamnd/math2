@@ -1,0 +1,30 @@
+---
+tag: 03HGK7EW6R
+kind: statement
+role: theorem
+name: Mean value theorem in several variables
+msc: [26B05]
+uses: [0135XZZQ8M, 0NS2QYVC4Y, 0A8TJ0VHC7]
+sources:
+  - url: https://en.wikipedia.org/wiki/Mean_value_theorem
+    locator: Mean value theorem in several variables
+---
+
+## Statement
+
+Let $U \subseteq \mathbb{R}^n$ be open, let $f \colon U \to \mathbb{R}$ be [[differentiable|0135XZZQ8M]] on $U$, and let $x, y \in U$ be points such that the segment $\{x + t (y - x) : 0 \le t \le 1\}$ lies in $U$.
+Then there is a number $c \in (0, 1)$ such that
+$$f(y) - f(x) = \nabla f\big(x + c (y - x)\big) \cdot (y - x).$$
+
+## Remarks
+
+The proof applies the one-variable mean value theorem to $g(t) = f(x + t(y - x))$ on $[0, 1]$, with $g'(t) = \nabla f(x + t(y - x)) \cdot (y - x)$ by the [[chain rule for a curve|0A8TJ0VHC7]].
+The theorem is false for maps into $\mathbb{R}^m$ with $m \ge 2$. For $f(t) = (\cos t, \sin t)$ on $[0, 2\pi]$, $f(2\pi) - f(0) = 0$, but $f'(t) \ne 0$ for each $t$. The [[mean value inequality|02CYB184RC]] replaces it.
+By the Cauchy–Schwarz inequality, it gives $|f(y) - f(x)| \le \sup_{z} \|\nabla f(z)\| \, \|y - x\|$, with $z$ on the segment.
+
+## Explanations
+
+### L1 human
+
+On a straight path from $x$ to $y$, the average slope of $f$ equals the actual slope at some point between them.
+This reduces the problem to one variable, by looking at $f$ only along the segment.

@@ -1,0 +1,36 @@
+---
+tag: 0NKBMFC18R
+kind: definition
+name: Double integral
+msc: [26B15]
+defines: 0WAR4F23B4
+uses: [0JPCHTXWG0, 0S9EK5MQPE]
+sources:
+  - url: https://en.wikipedia.org/wiki/Multiple_integral
+    locator: Mathematical definition
+  - url: https://en.wikipedia.org/wiki/Multiple_integral
+    locator: Double integral over a rectangle
+---
+
+## Definition
+
+Let $R = [a, b] \times [c, d]$ with $a < b$ and $c < d$, and let $f \colon R \to \mathbb{R}$ be bounded.
+Choose partitions $a = x_0 < \dots < x_k = b$ and $c = y_0 < \dots < y_l = d$, and let $R_{ij} = [x_{i-1}, x_i] \times [y_{j-1}, y_j]$ with area $\Delta A_{ij} = (x_i - x_{i-1})(y_j - y_{j-1})$.
+For points $p_{ij} \in R_{ij}$, the sum $S = \sum_{i, j} f(p_{ij}) \, \Delta A_{ij}$ is a Riemann sum of $f$.
+The function $f$ is Riemann integrable on $R$ if there is $I \in \mathbb{R}$ with this property: for each $\varepsilon > 0$ there is $\delta > 0$ such that $|S - I| < \varepsilon$ for all such sums whose rectangles have diameter less than $\delta$.
+Then $I$ is the double integral of $f$ over $R$, written $\iint_R f(x, y) \, dA$ or $\iint_R f(x, y) \, dx \, dy$.
+
+## Remarks
+
+Each [[continuous|0S9EK5MQPE]] function on $R$ is Riemann integrable on $R$.
+For a bounded region $D \subseteq R$, one integrates $f \mathbf{1}_D$ over $R$, where $\mathbf{1}_D$ is $1$ on $D$ and $0$ elsewhere. This gives [[integrals over non-rectangular regions|0TXCQ9CST1]].
+In practice one computes double integrals as [[iterated integrals|0P4WX7Y502]], by [[Fubini's theorem|0R0T1VWH5X]]. For example, $\iint_{[0, 1]^2} x y \, dA = \int_0^1 \int_0^1 x y \, dy \, dx = 1/4$.
+The integral is linear in $f$, and $\iint_R 1 \, dA = (b - a)(d - c)$ is the area of $R$.
+
+## Explanations
+
+### L1 human
+
+Cut the rectangle into small pieces, multiply the area of each piece by a value of $f$ in it, and add.
+As the pieces get smaller, these sums approach the double integral.
+For $f \ge 0$ this is the volume under the graph of $f$.

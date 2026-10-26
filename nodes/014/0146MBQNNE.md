@@ -1,0 +1,32 @@
+---
+tag: 0146MBQNNE
+kind: definition
+name: Strict differentiability
+msc: [26B05]
+defines: 0B6QWX3086
+uses: [08EVNYZF42, 0135XZZQ8M]
+sources:
+  - url: https://en.wikipedia.org/wiki/Strict_differentiability
+    locator: Basic definition
+---
+
+## Definition
+
+Let $U \subseteq \mathbb{R}^n$ be open, let $f \colon U \to \mathbb{R}^m$, and let $a \in U$.
+The function $f$ is strictly differentiable at $a$ if there is a linear map $L \colon \mathbb{R}^n \to \mathbb{R}^m$ such that
+$$\lim_{\substack{(x, y) \to (a, a) \\ x \ne y}} \frac{\|f(x) - f(y) - L(x - y)\|}{\|x - y\|} = 0.$$
+
+## Remarks
+
+If $f$ is strictly differentiable at $a$, put $y = a$: then $f$ is [[differentiable|0135XZZQ8M]] at $a$ and $L = Df(a)$ is its [[Fréchet derivative|08EVNYZF42]].
+The converse is false. The function $f(x) = x^2 \sin(1/x)$ for $x \ne 0$, $f(0) = 0$, is differentiable at $0$, but it is not strictly differentiable at $0$ because $f'$ is not continuous at $0$.
+A function of class $C^1$ on $U$ is [[strictly differentiable|0STPPDXGME]] at each point of $U$.
+The same definition works for maps between Banach spaces, with norms in place of Euclidean norms.
+
+## Explanations
+
+### L1 human
+
+Ordinary differentiability compares $f(x)$ with $f(a)$ only.
+Strict differentiability compares $f(x)$ with $f(y)$ for all pairs of points near $a$.
+So the linear approximation is uniform in a small neighbourhood, not only at the single point.

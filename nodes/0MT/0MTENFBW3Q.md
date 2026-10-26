@@ -1,0 +1,35 @@
+---
+tag: 0MTENFBW3Q
+kind: definition
+name: One-form
+msc: [58A10]
+defines: 02Z5B2HA3F
+uses: [0QHTX7WQEY, 0YS8RX87F4, 05AXG3QRKR, 0N67NBKQ5T, 05R9NF2J49]
+sources:
+  - url: https://en.wikipedia.org/wiki/One-form
+    locator: Definition and local coordinate description
+  - url: https://en.wikipedia.org/wiki/One-form
+    locator: Examples
+  - url: https://en.wikipedia.org/wiki/One-form
+    locator: Differential of a function
+---
+
+## Definition
+
+Let $U \subseteq \mathbb{R}^n$ be open.
+A one-form on $U$ is a [[differential form|0QHTX7WQEY]] of degree $1$, that is, a sum $\omega = f_1 \, dx_1 + \dots + f_n \, dx_n$ with functions $f_i \colon U \to \mathbb{R}$.
+At $x \in U$, it gives the linear map $\omega_x(v) = f_1(x) v_1 + \dots + f_n(x) v_n$ for $v \in \mathbb{R}^n$.
+
+## Remarks
+
+For a differentiable function $g$ on $U$, the differential of $g$ is the one-form $dg = \sum_i \frac{\partial g}{\partial x_i} \, dx_i$. So $dg_x(v)$ is the directional derivative of $g$ at $x$ in direction $v$.
+For a continuous $\omega$ and a piecewise $C^1$ curve $\gamma \colon [a, b] \to U$, the integral is $\int_\gamma \omega = \int_a^b \omega_{\gamma(t)}\big( \gamma'(t) \big) \, dt$. This is the [[line integral|0YS8RX87F4]] of the [[vector field|0N67NBKQ5T]] $(f_1, \dots, f_n)$.
+Under this correspondence, $dg$ corresponds to $\nabla g$, and $\omega$ is of the form $dg$ exactly when the field is [[conservative|05R9NF2J49]].
+On $\mathbb{R}^2 \setminus \{0\}$, the angle form $d\theta = \frac{-y \, dx + x \, dy}{x^2 + y^2}$ is a one-form. Its integral around a closed curve is $2\pi$ times the winding number of the curve about the origin.
+
+## Explanations
+
+### L1 human
+
+A one-form is a rule that, at each point, turns a direction vector into a number, in a linear way.
+Integrating a one-form along a curve adds up these numbers for the velocity of the curve. It is the same thing as the work of a vector field.

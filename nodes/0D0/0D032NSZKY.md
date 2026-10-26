@@ -1,0 +1,33 @@
+---
+tag: 0D032NSZKY
+kind: definition
+name: Closed curve
+msc: [53A04]
+defines: 045YFKRW0P
+uses: [0JF1XXGWB4]
+sources:
+  - url: https://en.wikipedia.org/wiki/Curve
+    locator: Topological curve
+  - url: https://en.wikipedia.org/wiki/Differentiable_curve
+    locator: Definitions
+---
+
+## Definition
+
+Let $a < b$, and let $\gamma \colon [a, b] \to \mathbb{R}^n$ be a [[parametrised curve|0JF1XXGWB4]].
+The curve $\gamma$ is closed if $\gamma(a) = \gamma(b)$.
+A closed curve is simple if, in addition, $\gamma(s) \ne \gamma(t)$ for all $s < t$ in $[a, b]$ other than the pair $s = a$, $t = b$.
+
+## Remarks
+
+The unit circle $\gamma(t) = (\cos t, \sin t)$, $t \in [0, 2\pi]$, is a simple closed curve.
+The curve $t \mapsto (\sin 2t, \sin t)$, $t \in [0, 2\pi]$, is closed but not simple: it passes through the origin at $t = 0$, $t = \pi$ and $t = 2\pi$.
+The line integral of a vector field around a closed curve is often written $\oint_\gamma F \cdot d\mathbf{r}$. It is the circulation of $F$ around $\gamma$.
+A simple closed curve in the plane bounds a region. This is the setting of [[Green's theorem|0HR3N02317]].
+
+## Explanations
+
+### L1 human
+
+A closed curve is a path that comes back to where it started, like a lap around a track.
+It is simple if it never crosses itself on the way.

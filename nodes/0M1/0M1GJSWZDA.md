@@ -1,0 +1,35 @@
+---
+tag: 0M1GJSWZDA
+kind: definition
+name: Convex function on R^n
+msc: [26B25]
+defines: 07GR3TNW4H
+uses: [0JPCHTXWG0]
+sources:
+  - url: https://en.wikipedia.org/wiki/Convex_function
+    locator: Definition
+  - url: https://en.wikipedia.org/wiki/Convex_function
+    locator: Functions of several variables
+---
+
+## Definition
+
+A set $C \subseteq \mathbb{R}^n$ is convex if $t x + (1 - t) y \in C$ for all $x, y \in C$ and all $t \in [0, 1]$.
+Let $C \subseteq \mathbb{R}^n$ be convex.
+A function $f \colon C \to \mathbb{R}$ is convex if, for all $x, y \in C$ and all $t \in [0, 1]$,
+$$f(t x + (1 - t) y) \le t f(x) + (1 - t) f(y).$$
+The function $f$ is strictly convex if the inequality is strict for all $x \ne y$ and all $t \in (0, 1)$.
+
+## Remarks
+
+If $C$ is open and $f$ is differentiable on $C$, then $f$ is convex if and only if $f(y) \ge f(x) + \nabla f(x) \cdot (y - x)$ for all $x, y \in C$.
+Let $C$ be open and let $f$ be of class $C^2$. Then $f$ is convex if and only if its [[Hessian matrix|0SCSQWXRA4]] is positive semidefinite at each point of $C$.
+Each local minimum of a convex function is a global minimum, and a strictly convex function has at most one global minimum.
+A function can be convex in each variable separately but not convex. The function $f(x, y) = x y$ is linear in each variable, but $f(t, -t) = -t^2$ is not convex.
+
+## Explanations
+
+### L1 human
+
+A convex function is bowl-shaped: the straight segment between two points of its graph never goes below the graph.
+Examples are $\|x\|^2$ and, on all of $\mathbb{R}^n$, each linear function.
