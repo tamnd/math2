@@ -14,6 +14,8 @@ roles: [formalize, prove]
 members:
   - {id: github:your-login, role: owner}
   - {id: orcid:0000-0000-0000-0000, role: member}
+publications:
+  - {title: The title of the paper, doi: 10.0000/placeholder, year: 2027}
 ```
 
 | Field | Meaning |
@@ -24,16 +26,17 @@ members:
 | `level` | The evidence level that each member of the topic must reach, from E1 to E5. Leave it out for no level. |
 | `budget` | The most US dollars that the agent runs of the project can spend in a month. Use 0 for no agent work. |
 | `roles` | The agent roles that work for the project, for example `explore`, `prove` or `formalize`. Leave it out for no agent work. |
+| `publications` | The works in which the people of the project published what they did in it, for example a paper or a thesis. Each one has a `title`, a `doi` (such as `10.1234/abcd`, with no `https://doi.org/`) or an https `url`, and a `year`. Leave it out until the first work is out. |
 | `members` | The people of the project. Each one has an `id`, a GitHub login as `github:login` or an ORCID iD as `orcid:...`, and a `role`, `owner` or `member`. |
 
-The example uses placeholders for the topic, the logins and the iD. Put your own values in the file.
+The example uses placeholders for the topic, the logins, the iD and the publication. Put your own values in the file.
 
 ## What the project gives
 
 - The blueprint of the project is the blueprint of the topic: the members of the topic and each node that they need. The graph computes it, and nobody writes it by hand.
 - The tasks are the statements with no proof and the open conjectures and problems in the blueprint, and the members of the topic below the level of the goal.
 - An agent job works for the project when it runs on behalf of `project:<id>`. Only the roles of the project work for it, and only a member can request a job for it. The orchestrator stops the agent runs of the project when they spent the budget of the month.
-- The wiki has a page for each project at `projects/<id>/`, with the blueprint, the tasks, the members, the spend of each month and the run log.
+- The wiki has a page for each project at `projects/<id>/`, with the blueprint, the tasks, the members, the publications, the spend of each month and the run log.
 
 ## Start a project
 
