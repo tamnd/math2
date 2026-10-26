@@ -14,7 +14,7 @@ from pathlib import Path
 import yaml
 from jsonschema import Draft202012Validator
 
-from check_nodes import TAG, Loader, read_register
+from check_nodes import SHARD_LEN, TAG, Loader, read_register
 
 SCHEMA = Path(__file__).resolve().parents[2] / "schema" / "review.v1.json"
 
@@ -26,9 +26,9 @@ def review_errors(rel, data, validator, root, reviewers, seen):
         where = ".".join(str(p) for p in err.absolute_path) or "file"
         errors.append(f"{rel}: {where}: {err.message}")
     tag = rel.stem
-    if len(rel.parts) != 3 or not TAG.match(tag) or rel.parts[1] != tag[:2]:
-        errors.append(f"{rel}: the file must be reviews/<shard>/<tag>.yaml, and the shard is the first two characters of the tag")
-    elif not (root / "nodes" / tag[:2] / f"{tag}.md").is_file():
+    if len(rel.parts) != 3 or not TAG.match(tag) or rel.parts[1] != tag[:SHARD_LEN]:
+        errors.append(f"{rel}: the file must be reviews/<shard>/<tag>.yaml, and the shard is the first three characters of the tag")
+    elif not (root / "nodes" / tag[:SHARD_LEN] / f"{tag}.md").is_file():
         errors.append(f"{rel}: the node {tag} does not exist")
     if errors or not isinstance(data, dict):
         return errors

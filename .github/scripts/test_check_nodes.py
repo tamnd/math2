@@ -42,8 +42,8 @@ class CheckNodesTest(unittest.TestCase):
         self.assertEqual(check(self.root), ([], 0))
 
     def test_good_nodes(self):
-        self.write("nodes/7K/7K3QX2.md", GOOD.format(tag="7K3QX2", link="1H8D2C"))
-        self.write("nodes/1H/1H8D2C.md", GOOD.format(tag="1H8D2C", link="7K3QX2"))
+        self.write("nodes/7K3/7K3QX2.md", GOOD.format(tag="7K3QX2", link="1H8D2C"))
+        self.write("nodes/1H8/1H8D2C.md", GOOD.format(tag="1H8D2C", link="7K3QX2"))
         self.register(f"1H8D2C {COMMIT} statement", f"7K3QX2 {COMMIT} statement")
         self.assertEqual(check(self.root), ([], 2))
 
@@ -52,38 +52,38 @@ class CheckNodesTest(unittest.TestCase):
         self.assertEqual(check(self.root), ([], 1))
 
     def test_bad_tag_letter(self):
-        self.write("nodes/7I/7I3QX2.md", GOOD.format(tag="7I3QX2", link="7I3QX2"))
+        self.write("nodes/7I3/7I3QX2.md", GOOD.format(tag="7I3QX2", link="7I3QX2"))
         errors, _ = check(self.root)
         self.assertIn("is not a tag", errors[0])
 
     def test_wrong_shard(self):
         self.write("nodes/AB/7K3QX2.md", GOOD.format(tag="7K3QX2", link="7K3QX2"))
         errors, _ = check(self.root)
-        self.assertIn("must be in nodes/7K/", errors[0])
+        self.assertIn("must be in nodes/7K3/", errors[0])
 
     def test_tag_does_not_match_file_name(self):
-        self.write("nodes/7K/7K3QX2.md", GOOD.format(tag="7K3QX3", link="7K3QX2"))
+        self.write("nodes/7K3/7K3QX2.md", GOOD.format(tag="7K3QX3", link="7K3QX2"))
         errors, _ = check(self.root)
         self.assertIn("the file name says", errors[0])
 
     def test_unknown_kind(self):
-        self.write("nodes/7K/7K3QX2.md", "---\ntag: 7K3QX2\nkind: lemma\nname: A lemma\n---\n")
+        self.write("nodes/7K3/7K3QX2.md", "---\ntag: 7K3QX2\nkind: lemma\nname: A lemma\n---\n")
         errors, _ = check(self.root)
         self.assertIn("is not one of the 11 kinds", errors[0])
 
     def test_no_front_matter(self):
-        self.write("nodes/7K/7K3QX2.md", "## Statement\n")
+        self.write("nodes/7K3/7K3QX2.md", "## Statement\n")
         errors, _ = check(self.root)
         self.assertIn("must start with YAML front matter", errors[0])
 
     def test_dangling_link(self):
-        self.write("nodes/7K/7K3QX2.md", GOOD.format(tag="7K3QX2", link="1H8D2C"))
+        self.write("nodes/7K3/7K3QX2.md", GOOD.format(tag="7K3QX2", link="1H8D2C"))
         errors, _ = check(self.root)
         self.assertIn("does not exist", errors[0])
 
 
     def errors_for(self, front, body=""):
-        self.write("nodes/7K/7K3QX2.md", f"---\ntag: 7K3QX2\n{front}---\n{body}")
+        self.write("nodes/7K3/7K3QX2.md", f"---\ntag: 7K3QX2\n{front}---\n{body}")
         kind = re.search(r"kind: (\w+)", front).group(1)
         self.register(f"7K3QX2 {COMMIT} {kind}")
         errors, _ = check(self.root)
@@ -134,13 +134,13 @@ class CheckNodesTest(unittest.TestCase):
         self.assertEqual(self.errors_for(front, "## Statement\n"), [])
 
     def test_tag_not_in_register(self):
-        self.write("nodes/7K/7K3QX2.md", GOOD.format(tag="7K3QX2", link="7K3QX2"))
+        self.write("nodes/7K3/7K3QX2.md", GOOD.format(tag="7K3QX2", link="7K3QX2"))
         errors, _ = check(self.root)
         self.assertEqual(len(errors), 1)
         self.assertIn("rule T05", errors[0])
 
     def test_register_kind(self):
-        self.write("nodes/7K/7K3QX2.md", GOOD.format(tag="7K3QX2", link="7K3QX2"))
+        self.write("nodes/7K3/7K3QX2.md", GOOD.format(tag="7K3QX2", link="7K3QX2"))
         self.register(f"7K3QX2 {COMMIT} concept")
         errors, _ = check(self.root)
         self.assertIn("registers/tags.reg says concept", " ".join(errors))
@@ -159,7 +159,7 @@ class CheckNodesTest(unittest.TestCase):
 
     def test_no_provisional(self):
         self.write("nodes/~/~3fa94c01.md", GOOD.format(tag="~3fa94c01", link="7K3QX2"))
-        self.write("nodes/7K/7K3QX2.md", GOOD.format(tag="7K3QX2", link="~3fa94c01"))
+        self.write("nodes/7K3/7K3QX2.md", GOOD.format(tag="7K3QX2", link="~3fa94c01"))
         self.write("lean/Math2/A.lean", '@[m2 "~3fa94c01"]\ntheorem a : True := trivial\n')
         self.write("lean/.lake/B.lean", '@[m2 "~3fa94c02"]\n')
         self.write("README.md", "For example `~3fa94c01`.\n")
@@ -167,7 +167,7 @@ class CheckNodesTest(unittest.TestCase):
         self.assertEqual(
             errors,
             [
-                "nodes/7K/7K3QX2.md:10: ~3fa94c01 is a provisional id (rule T03)",
+                "nodes/7K3/7K3QX2.md:10: ~3fa94c01 is a provisional id (rule T03)",
                 "nodes/~/~3fa94c01.md: the file name has a provisional id",
                 "nodes/~/~3fa94c01.md:2: ~3fa94c01 is a provisional id (rule T03)",
                 "lean/Math2/A.lean:1: ~3fa94c01 is a provisional id (rule T03)",
@@ -175,7 +175,7 @@ class CheckNodesTest(unittest.TestCase):
         )
 
     def test_no_provisional_after_mint(self):
-        self.write("nodes/7K/7K3QX2.md", GOOD.format(tag="7K3QX2", link="7K3QX2"))
+        self.write("nodes/7K3/7K3QX2.md", GOOD.format(tag="7K3QX2", link="7K3QX2"))
         self.write("README.md", "For example `~3fa94c01`.\n")
         self.assertEqual(provisional_errors(self.root), [])
 

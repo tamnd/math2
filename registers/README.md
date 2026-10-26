@@ -12,13 +12,21 @@ One record for each tag that exists or existed. The records are sorted by tag. D
 
 | Field | Value |
 |---|---|
-| tag | the tag, for example `7K3QX2` |
+| tag | the tag, for example `7K3QX2M9R2`, or a tag of six characters of the legacy set |
 | commit | the commit of the pull request at which the tag was minted |
 | kind | the kind of the node when the tag was minted |
 
-Example: `7K3QX2 3d3c42e5aac5ba805825da76410c181273ba90b1 statement`
+Example: `7K3QX2M9R2 3d3c42e5aac5ba805825da76410c181273ba90b1 statement`
 
 Rule T05: each node file in `nodes/` has a record. Each record has a node file, or a record in `retired.reg`.
+
+### The cut-over to tags of ten characters
+
+A new tag has ten characters: nine random characters and one check character (corpus spec K3.2). The tags of six characters that exist stay valid. They are the legacy set, and the set does not grow. The comment at the top of `tags.reg` names it.
+
+Cut-over commit: `fef69d19795485811da7b6aa4a91d889c1a7324c`
+
+The cut-over commit is the last commit of main at which the mint workflow made tags of six characters. Rule T10: the commit of each record of a tag of six characters is the cut-over commit or an ancestor of it.
 
 ## aliases.reg
 

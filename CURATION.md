@@ -41,7 +41,7 @@ The fields are the id of the proposal, the score from 0 to 1, the tag of the nod
 
 Do these steps for each proposal. Do not decide on a proposal from the score alone. A high score tells you only that the names and the formulas are near.
 
-1. Open the node file `nodes/<first two characters of the tag>/<tag>.md`. Read the statement, the definitions that it uses and the `notes` section.
+1. Open the node file `nodes/<first three characters of the tag>/<tag>.md`. Read the statement, the definitions that it uses and the `notes` section.
 2. Open the record at its source. Use the page of the source, not the title in the queue. The table at the end of this guide gives the address of each system.
 3. Compare the two. Ask these questions:
    - Is it the same object or the same statement, and not a special case or a generalization?

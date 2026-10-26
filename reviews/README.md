@@ -83,7 +83,7 @@ An undergraduate statement takes about 3 minutes. If you need much more time, wr
 
 ## The review file
 
-The reviews of the node with the tag `3C53TD` are in `reviews/3C/3C53TD.yaml`. The directory is the first two characters of the tag. The file has a list under the key `reviews`. Add your review at the end of the list. Do not change or remove a review. A new review replaces an old review.
+The reviews of the node with the tag `3C53TD` are in `reviews/3C5/3C53TD.yaml`. The directory is the first three characters of the tag. The file has a list under the key `reviews`. Add your review at the end of the list. Do not change or remove a review. A new review replaces an old review.
 
 ```yaml
 reviews:

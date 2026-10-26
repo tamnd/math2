@@ -19,6 +19,8 @@ SCHEMA = Path(__file__).resolve().parents[2] / "schema" / "node.v1.json"
 
 # Crockford base32 without I, L, O and U.
 TAG = re.compile(r"^([0-9A-HJKMNP-TV-Z]{6}|[0-9A-HJKMNP-TV-Z]{10})$")
+# The shard of a node file is the first SHARD_LEN characters of its tag (corpus spec K3.5).
+SHARD_LEN = 3
 PROVISIONAL = re.compile(r"^~[0-9a-f]{8}$")
 PROVISIONAL_IN_TEXT = re.compile(r"~[0-9a-f]{8}")
 COMMIT = re.compile(r"^[0-9a-f]{7,40}$")
@@ -151,9 +153,9 @@ def register_errors(root, kinds):
 
     for tag, kind in sorted(kinds.items()):
         if tag not in tags:
-            errors.append(f"nodes/{tag[:2]}/{tag}.md: the tag is not in {rel}. Only the mint workflow gives tags (rule T05)")
+            errors.append(f"nodes/{tag[:SHARD_LEN]}/{tag}.md: the tag is not in {rel}. Only the mint workflow gives tags (rule T05)")
         elif tags[tag] != kind and kind in KINDS:
-            errors.append(f"nodes/{tag[:2]}/{tag}.md: the kind is {kind}, but {rel} says {tags[tag]}")
+            errors.append(f"nodes/{tag[:SHARD_LEN]}/{tag}.md: the kind is {kind}, but {rel} says {tags[tag]}")
     for tag in sorted(tags):
         if tag not in kinds and tag not in retired:
             errors.append(f"{rel}: the tag {tag} has no node file and no record in registers/retired.reg (rule T05)")
@@ -201,7 +203,7 @@ def check(root, schema=SCHEMA):
             errors.append(f"{rel}: {node_id!r} is not a tag or a provisional id")
             continue
         shard = path.parent.name
-        want = node_id[:2] if is_tag else "~"
+        want = node_id[:SHARD_LEN] if is_tag else "~"
         if path.parent.parent != nodes_dir or shard != want:
             errors.append(f"{rel}: the file must be in nodes/{want}/")
         ids.add(node_id)
