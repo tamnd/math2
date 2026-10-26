@@ -1,0 +1,119 @@
+name: compute
+
+# Run each computation node on x86-64 and on arm64, check its certificate, and run the rules C01 to C05 on the runs (spec 08.2, 08.3 and 08.6 of tamnd/math2-agent). Each job builds the images that the nodes name from images/flake.nix of tamnd/math2-agent, and checks that the build gives the digest of manifests/images.yaml. The images are not in a registry, so the digest of the build is the check that the image is the right one.
+on:
+  push:
+    branches: [main]
+    paths: ["compute/**", "nodes/**", "manifests/images.yaml", "manifests/releases/next.yaml", ".github/workflows/compute.yml"]
+  pull_request:
+    paths: ["compute/**", "nodes/**", "manifests/images.yaml", "manifests/releases/next.yaml", ".github/workflows/compute.yml"]
+  # Rule C03: a new image runs the computations again. The images of tamnd/math2-agent are refreshed on the first day of each month.
+  schedule:
+    - cron: "41 6 2 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: compute-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+
+env:
+  # The commit of tamnd/math2-agent with the images/flake.lock that gives the digests of manifests/images.yaml.
+  IMAGES_REV: 92b2f1674e6891f2f1e6e1788748cb98a3e0a3bf
+  GVISOR: "20261019"
+
+jobs:
+  run:
+    name: run (${{ matrix.arch }})
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - arch: amd64
+            os: ubuntu-latest
+            gvisor: x86_64
+            sha512: 7cbc2aeeee809dcccfb40e612504a1b76f2c119790cee59e482f7b35428cccc4f71705e7e322442d07d1f7d29b5d9e72e31319fc3088d6dcbec9fc7c1f0d8881
+          - arch: arm64
+            os: ubuntu-24.04-arm
+            gvisor: aarch64
+            sha512: 6b14b582cd3185169df54275eed8721d94c9b40e6cb1533d0d0c46573271c6d2d03db586ea1caac46a45e805797f00b115bead9fb93636a1ffa69f2430958977
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: ./.github/actions/m2
+      - uses: cachix/install-nix-action@75c75c31ebece974e48ebc36b4ad125bd97bd97b # 31.11.3
+        with:
+          extra_nix_config: |
+            sandbox = true
+      # The computations run on gVisor, a kernel in user space, as in the sandbox job of tamnd/math2-agent.
+      - name: install gVisor
+        env:
+          ARCH: ${{ matrix.gvisor }}
+          SHA512: ${{ matrix.sha512 }}
+        run: |
+          cd "$RUNNER_TEMP"
+          curl -fsSL -o gvisor.tar.bz2 "https://storage.googleapis.com/gvisor/releases/release/$GVISOR/$ARCH/gvisor.tar.bz2"
+          echo "$SHA512  gvisor.tar.bz2" | sha512sum -c -
+          mkdir gvisor
+          tar -xjf gvisor.tar.bz2 -C gvisor
+          runsc=$(find gvisor -type f -name runsc | head -1)
+          shim=$(find gvisor -type f -name containerd-shim-runsc-v1 | head -1)
+          sudo install -m 0755 "$runsc" "$shim" /usr/local/bin/
+          sudo /usr/local/bin/runsc install
+          sudo systemctl reload docker
+      - name: build and load the images
+        env:
+          ARCH: ${{ matrix.arch }}
+        run: |
+          grep -rhoE '^ *(image|checker): m2-[a-z0-9]+@' nodes | sed -E 's/^ *(image|checker): //; s/@$//' | sort -u > images.txt
+          echo "The nodes name these images:"
+          cat images.txt
+          while read -r image; do
+            want=$(awk -v i="$image" -v a="$ARCH" '$1 == "-" && $2 == "name:" { n = $3 } n == i && $1 == a":" { print $2 }' manifests/images.yaml)
+            if [ -z "$want" ]; then
+              echo "::error file=manifests/images.yaml::$image has no digest for $ARCH"
+              exit 1
+            fi
+            nix build "github:tamnd/math2-agent/$IMAGES_REV?dir=images#$image" -o "$RUNNER_TEMP/$image"
+            id=$(docker load -q < "$RUNNER_TEMP/$image" | sed -n 's/^Loaded image: //p' | xargs docker image inspect --format '{{.Id}}')
+            rm "$RUNNER_TEMP/$image"
+            if [ "$id" != "$want" ]; then
+              echo "::error file=manifests/images.yaml::$image on $ARCH builds to $id, and manifests/images.yaml has $want"
+              exit 1
+            fi
+            echo "$image on $ARCH: $id"
+          done < images.txt
+          rm images.txt
+      - name: m2 compute verify
+        run: m2 compute verify -runtime runsc -all
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        if: always()
+        with:
+          name: compute-${{ matrix.arch }}
+          path: build/compute
+          retention-days: 90
+
+  # Rule C02 compares the runs of the two architectures, thus this job reads the runs of both jobs.
+  audit:
+    name: rules C01 to C05
+    needs: run
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: ./.github/actions/m2
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          pattern: compute-*
+          path: build/compute
+          merge-multiple: true
+      - name: m2 audit
+        run: m2 audit -rule C01,C02,C03,C04,C05
