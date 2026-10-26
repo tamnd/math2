@@ -1,0 +1,18 @@
+---
+tag: 05D5EGMFYV
+kind: concept
+name: Boundary
+aliases: [frontier, boundary-of-a-set]
+msc: [54A05]
+sources:
+  - url: https://en.wikipedia.org/wiki/Boundary_(topology)
+    locator: lead section
+same_as:
+  wikidata: Q875399
+  wikipedia: Boundary (topology)
+---
+
+## Summary
+
+The boundary of a subset of a topological space is the set of points in its closure that are not in its interior.
+Each neighbourhood of a boundary point meets both the subset and its complement.

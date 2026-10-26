@@ -1,0 +1,32 @@
+---
+tag: 0T2WYDTRP2
+kind: definition
+name: Subspace metric
+aliases: [induced-metric]
+msc: ["54E35"]
+defines: 0QBYFZV91P
+uses: [063W5JMY85, 0FE8Q5S42Y, 0D2MXBV21T]
+sources:
+  - url: https://en.wikipedia.org/wiki/Metric_space
+    locator: Subspaces
+---
+
+## Definition
+
+Let $(X, d)$ be a [[metric space|063W5JMY85]] and let $A$ be a [[subset|0FE8Q5S42Y]] of $X$.
+The subspace metric on $A$ is the function $d_A \colon A \times A \to \mathbb{R}$ with $d_A(a, b) = d(a, b)$ for all $a, b \in A$.
+It is the [[restriction|0D2MXBV21T]] of $d$ to $A \times A$.
+The metric space $(A, d_A)$ is a subspace of $(X, d)$.
+
+## Remarks
+
+The function $d_A$ is a metric, because each axiom for $d_A$ is a special case of the same axiom for $d$.
+For example, the interval $[0, 1]$ with $d(x, y) = |x - y|$ is a subspace of the [[real line|0KXJTZSW9B]].
+The open sets of $(A, d_A)$ are the sets $U \cap A$ with $U$ open in $X$. Thus the topology of $d_A$ is the [[subspace topology|0D5YHQGDJY]].
+
+## Explanations
+
+### L1 human
+
+A subspace keeps the distances of the big space and forgets the other points.
+For example, the unit circle in the plane, with the Euclidean distance, is a subspace of $\mathbb{R}^2$. The distance between two points of the circle is the length of the straight chord, not of the arc.

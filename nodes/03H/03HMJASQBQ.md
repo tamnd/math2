@@ -1,0 +1,17 @@
+---
+tag: 03HMJASQBQ
+kind: concept
+name: Regular space
+aliases: [t3-space]
+msc: [54D15]
+sources:
+  - url: https://en.wikipedia.org/wiki/Regular_space
+    locator: lead section
+same_as:
+  wikidata: Q1193403
+  wikipedia: Regular space
+---
+
+## Summary
+
+A topological space is regular when each closed set and each point outside it lie in disjoint open sets.

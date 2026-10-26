@@ -1,0 +1,28 @@
+---
+tag: 0NA4FK7B8S
+kind: example
+name: Discrete metric
+msc: ["54E35"]
+instance_of: [0VKD1TP7F3]
+sources:
+  - url: https://en.wikipedia.org/wiki/Discrete_space
+    locator: Definitions
+---
+
+## Example
+
+Let $X$ be a set.
+For $x, y \in X$, let $d(x, y) = 0$ if $x = y$ and $d(x, y) = 1$ if $x \neq y$.
+Then $d$ is a [[metric|063W5JMY85]] on $X$, the discrete metric.
+
+## Remarks
+
+For each $x \in X$, the open ball of radius $1/2$ about $x$ is $\{x\}$. Thus each subset of $X$ is open, and the metric gives the [[discrete topology|0S2TEHX4E1]].
+A sequence converges in this metric if and only if it is eventually constant.
+
+## Explanations
+
+### L1 human
+
+In the discrete metric, two points are either equal or at distance $1$.
+No point is close to another point, so the space has no interesting limits.

@@ -1,0 +1,15 @@
+---
+tag: 0R6EWFKRCF
+kind: concept
+name: Compact set
+aliases: [compact-subset]
+msc: [54D30]
+sources:
+  - url: https://en.wikipedia.org/wiki/Compact_space
+    locator: Compactness of subsets
+---
+
+## Summary
+
+A compact subset of a topological space is a subset that is a compact space with the subspace topology.
+Equivalently, each cover of the subset by open sets of the space has a finite subcover.
