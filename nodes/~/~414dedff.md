@@ -1,0 +1,32 @@
+---
+tag: ~414dedff
+kind: statement
+role: theorem
+name: Product of a matrix and its adjugate
+msc: [15A09, 15A15]
+uses: [~ae0213c8, ~0dd14763]
+sources:
+  - url: https://en.wikipedia.org/wiki/Adjugate_matrix
+    locator: Definition
+---
+
+## Statement
+
+Let $K$ be a commutative ring, let $n \ge 2$, and let $A$ be an $n \times n$ matrix over $K$.
+Then
+$$A \operatorname{adj}(A) = \operatorname{adj}(A) A = \det(A)\, I_n,$$
+where $\operatorname{adj}(A)$ is the [[adjugate|~1a4769ff]] of $A$ and $\det$ is the [[determinant|~362fc72a]].
+
+## Remarks
+
+The diagonal entries of $A \operatorname{adj}(A)$ are the [[Laplace expansions|~0a44c9f7]] of $\det A$ along the rows.
+The entries off the diagonal are expansions of matrices with two equal rows, so they are zero.
+The identity holds for all square matrices, also for singular ones.
+
+## Explanations
+
+### L1 human
+
+Multiplying a matrix by its adjugate gives the determinant times the identity matrix.
+So, if the determinant is invertible, then dividing the adjugate by it gives the inverse.
+For a singular matrix, the product is the zero matrix.
