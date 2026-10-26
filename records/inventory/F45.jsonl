@@ -1,1 +1,1 @@
-{"id":"F45RHF864C","mentions":["m2://rec/wikidata/Q845088#1"],"kind":"statement","name":"Pappus's centroid theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"F45RHF864C","mentions":["m2://rec/mathlib_1000/Q845088#1","m2://rec/thousand_plus/Q845088#1","m2://rec/wikidata/Q845088#1"],"kind":"statement","name":"Pappus's centroid theorem","msc":["51-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

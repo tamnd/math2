@@ -1,1 +1,1 @@
-{"id":"8BVAJGREM7","mentions":["m2://rec/wikidata/Q204884#1"],"kind":"statement","name":"Löb's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"8BVAJGREM7","mentions":["m2://rec/mathlib_1000/Q204884#1","m2://rec/thousand_plus/Q204884#1","m2://rec/wikidata/Q204884#1"],"kind":"statement","name":"Löb's theorem","msc":["03-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,1 +1,2 @@
 {"id":"DGARXXHJ5K","mentions":["m2://rec/wikidata/Q110067857#1"],"kind":"unknown","name":"Ramanujan psi sum","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"DGAV887K70","mentions":["m2://rec/mathlib_1000/Q5580171#1","m2://rec/thousand_plus/Q5580171#1"],"kind":"statement","name":"Goldie's theorem","msc":["13-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

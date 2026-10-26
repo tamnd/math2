@@ -1,2 +1,3 @@
 {"id":"Z9AEZ52XFK","mentions":["m2://rec/wikidata/Q113401032#1"],"kind":"object","name":"power of four","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"Z9AKC5KBHZ","mentions":["m2://rec/mathlib_1000/Q4914101#1","m2://rec/thousand_plus/Q4914101#1"],"kind":"statement","name":"Bing's recognition theorem","msc":["54-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"Z9AWXRK3DH","mentions":["m2://rec/wikidata/Q5128339#1"],"kind":"unknown","name":"classical mathematics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

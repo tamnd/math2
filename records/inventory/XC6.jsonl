@@ -1,1 +1,1 @@
-{"id":"XC6NJ5QY01","mentions":["m2://rec/wikidata/Q780763#1"],"kind":"statement","name":"15 and 290 theorems","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"XC6NJ5QY01","mentions":["m2://rec/mathlib_1000/Q780763#1","m2://rec/thousand_plus/Q780763#1","m2://rec/wikidata/Q780763#1"],"kind":"statement","name":"15 and 290 theorems","msc":["11-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

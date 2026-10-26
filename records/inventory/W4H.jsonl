@@ -1,1 +1,1 @@
-{"id":"W4H813P3TE","mentions":["m2://rec/wikidata/Q852183#1"],"kind":"statement","name":"Viviani's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"W4H813P3TE","mentions":["m2://rec/mathlib_1000/Q852183#1","m2://rec/thousand_plus/Q852183#1","m2://rec/wikidata/Q852183#1"],"kind":"statement","name":"Viviani's theorem","msc":["51-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

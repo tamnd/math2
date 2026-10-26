@@ -1,1 +1,1 @@
-{"id":"1SB2PEE1GM","mentions":["m2://rec/wikidata/Q2120067#1"],"kind":"unknown","name":"Pythagorean field","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"1SB2PEE1GM","mentions":["m2://rec/mathlib_1000/Q2120067#1","m2://rec/thousand_plus/Q2120067#1","m2://rec/wikidata/Q2120067#1"],"kind":"statement","name":"Pythagorean field","msc":["12-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,1 +1,1 @@
-{"id":"HJN2536MP4","mentions":["m2://rec/wikidata/Q676413#1"],"kind":"concept","name":"Dandelin spheres","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"HJN2536MP4","mentions":["m2://rec/mathlib_1000/Q676413#1","m2://rec/thousand_plus/Q676413#1","m2://rec/wikidata/Q676413#1"],"kind":"statement","name":"Dandelin spheres","msc":["51-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

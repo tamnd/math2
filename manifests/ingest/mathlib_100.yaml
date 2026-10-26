@@ -1,0 +1,8 @@
+# The import manifest of mathlib_100. m2 ingest writes this file. Run m2 ingest mathlib_100 -snapshot blake3:70096cc136311ba4f8351383a1f666f39892036aabcfcb90857aa21c7302ddea to make the same records again.
+source: mathlib_100
+adapter: curricula/1
+snapshot: blake3:70096cc136311ba4f8351383a1f666f39892036aabcfcb90857aa21c7302ddea
+records: 100
+hash: blake3:1fb68b4f30334ed4dd01c6e09c25212091b519f98a23c8fc3164225455118934
+classes:
+  open: 100

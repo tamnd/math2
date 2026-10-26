@@ -1,1 +1,2 @@
 {"id":"FGX5EMZAW0","mentions":["m2://rec/wikidata/Q1012802#1"],"kind":"unknown","name":"cycle graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FGX90YYD14","mentions":["m2://rec/mathlib_1000/Q17080564#1","m2://rec/thousand_plus/Q17080564#1"],"kind":"statement","name":"Zariski's connectedness theorem","msc":["14-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,1 +1,1 @@
-{"id":"TWYJJZ8TR1","mentions":["m2://rec/wikidata/Q184410#1"],"kind":"statement","name":"four color theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"TWYJJZ8TR1","mentions":["m2://rec/mathlib_1000/Q184410#1","m2://rec/thousand_plus/Q184410#1","m2://rec/wikidata/Q184410#1"],"kind":"statement","name":"four color theorem","msc":["05-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

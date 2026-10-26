@@ -1,5 +1,125 @@
 # The external sources of math2 and each snapshot that math2 used (spec 09.2). m2 ingest writes this file. A maintainer approves the class of each new source.
 sources:
+  - id: mathlib_100
+    name: Mathlib, 100 theorems
+    kind: curriculum
+    home: https://leanprover-community.github.io/100.html
+    licence: Apache-2.0
+    class: open
+    licence_read:
+      at: https://github.com/leanprover-community/mathlib4/blob/9bdd0bc71aaae0fd83889f9aacd70c32fccd1bcd/LICENSE
+      on: "2026-10-26"
+      by: Claude Code, for tamnd
+    authored: human
+    channel: git
+    terms:
+      robots: n/a, the importer reads one file of the git repository at a commit and not the pages
+      rate: one download for each snapshot, with the User-Agent of m2
+      ai: none stated
+    attribution: Mathlib, the Mathlib Community, https://github.com/leanprover-community/mathlib4/blob/master/docs/100.yaml, Apache License 2.0
+    adapter: curricula/1
+    approved_by: tamnd
+    snapshots:
+      - url: https://raw.githubusercontent.com/leanprover-community/mathlib4/9bdd0bc71aaae0fd83889f9aacd70c32fccd1bcd/docs/100.yaml
+        hash: blake3:70096cc136311ba4f8351383a1f666f39892036aabcfcb90857aa21c7302ddea
+        date: "2026-10-26"
+        commit: 9bdd0bc71aaae0fd83889f9aacd70c32fccd1bcd
+  - id: mathlib_1000
+    name: Mathlib, 1000+ theorems
+    kind: curriculum
+    home: https://leanprover-community.github.io/1000.html
+    licence: Apache-2.0
+    class: open
+    licence_read:
+      at: https://github.com/leanprover-community/mathlib4/blob/9bdd0bc71aaae0fd83889f9aacd70c32fccd1bcd/LICENSE
+      on: "2026-10-26"
+      by: Claude Code, for tamnd
+    authored: human
+    channel: git
+    terms:
+      robots: n/a, the importer reads one file of the git repository at a commit and not the pages
+      rate: one download for each snapshot, with the User-Agent of m2
+      ai: none stated
+    attribution: Mathlib, the Mathlib Community, https://github.com/leanprover-community/mathlib4/blob/master/docs/1000.yaml, Apache License 2.0
+    adapter: curricula/1
+    approved_by: tamnd
+    snapshots:
+      - url: https://raw.githubusercontent.com/leanprover-community/mathlib4/9bdd0bc71aaae0fd83889f9aacd70c32fccd1bcd/docs/1000.yaml
+        hash: blake3:392d7cdc5714156a1651223c26135e0ba82851213184a454b8894878fe869739
+        date: "2026-10-26"
+        commit: 9bdd0bc71aaae0fd83889f9aacd70c32fccd1bcd
+  - id: mathlib_overview
+    name: Mathlib, overview
+    kind: curriculum
+    home: https://leanprover-community.github.io/mathlib-overview.html
+    licence: Apache-2.0
+    class: open
+    licence_read:
+      at: https://github.com/leanprover-community/mathlib4/blob/9bdd0bc71aaae0fd83889f9aacd70c32fccd1bcd/LICENSE
+      on: "2026-10-26"
+      by: Claude Code, for tamnd
+    authored: human
+    channel: git
+    terms:
+      robots: n/a, the importer reads one file of the git repository at a commit and not the pages
+      rate: one download for each snapshot, with the User-Agent of m2
+      ai: none stated
+    attribution: Mathlib, the Mathlib Community, https://github.com/leanprover-community/mathlib4/blob/master/docs/overview.yaml, Apache License 2.0
+    adapter: curricula/1
+    approved_by: tamnd
+    snapshots:
+      - url: https://raw.githubusercontent.com/leanprover-community/mathlib4/9bdd0bc71aaae0fd83889f9aacd70c32fccd1bcd/docs/overview.yaml
+        hash: blake3:daae467c5e3d950863b4efbe434049e3d87c8102aae500dc72f899aa7592c32d
+        date: "2026-10-26"
+        commit: 9bdd0bc71aaae0fd83889f9aacd70c32fccd1bcd
+  - id: mathlib_undergrad
+    name: Mathlib, undergraduate mathematics
+    kind: curriculum
+    home: https://leanprover-community.github.io/undergrad.html
+    licence: Apache-2.0
+    class: open
+    licence_read:
+      at: https://github.com/leanprover-community/mathlib4/blob/9bdd0bc71aaae0fd83889f9aacd70c32fccd1bcd/LICENSE
+      on: "2026-10-26"
+      by: Claude Code, for tamnd
+    authored: human
+    channel: git
+    terms:
+      robots: n/a, the importer reads one file of the git repository at a commit and not the pages
+      rate: one download for each snapshot, with the User-Agent of m2
+      ai: none stated
+    attribution: Mathlib, the Mathlib Community, https://github.com/leanprover-community/mathlib4/blob/master/docs/undergrad.yaml, Apache License 2.0
+    adapter: curricula/1
+    approved_by: tamnd
+    snapshots:
+      - url: https://raw.githubusercontent.com/leanprover-community/mathlib4/9bdd0bc71aaae0fd83889f9aacd70c32fccd1bcd/docs/undergrad.yaml
+        hash: blake3:5dc75b4fae97b252f4426509f5eafbf5428a0af093af47e40355a365d06bd5c8
+        date: "2026-10-26"
+        commit: 9bdd0bc71aaae0fd83889f9aacd70c32fccd1bcd
+  - id: thousand_plus
+    name: 1000+ theorems
+    kind: curriculum
+    home: https://1000-plus.github.io
+    licence: Unlicense
+    class: open
+    licence_read:
+      at: https://github.com/1000-plus/1000-plus.github.io/blob/8e04b97dd24adc6e931be78a884da7e935bc8780/LICENSE
+      on: "2026-10-26"
+      by: Claude Code, for tamnd
+    authored: human
+    channel: git
+    terms:
+      robots: n/a, the importer reads the git archive of the repository at a commit and not the pages
+      rate: one download for each snapshot, with the User-Agent of m2
+      ai: none stated
+    attribution: The contributors of the 1000+ theorems project, https://github.com/1000-plus/1000-plus.github.io, the Unlicense
+    adapter: thousand_plus/1
+    approved_by: tamnd
+    snapshots:
+      - url: https://github.com/1000-plus/1000-plus.github.io/archive/8e04b97dd24adc6e931be78a884da7e935bc8780.tar.gz
+        hash: blake3:1dd27669c4323cb8f581543c28fd857e9f43e03fcd863f6d964780abaf18fedb
+        date: "2026-10-26"
+        commit: 8e04b97dd24adc6e931be78a884da7e935bc8780
   - id: wikidata
     name: Wikidata
     kind: database
@@ -8,7 +128,7 @@ sources:
     class: open
     licence_read:
       at: https://www.wikidata.org/wiki/Wikidata:Copyright
-      on: "2026-10-27"
+      "on": "2026-10-27"
       by: Claude Code, for tamnd
     authored: human
     channel: api

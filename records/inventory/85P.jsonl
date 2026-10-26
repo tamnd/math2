@@ -1,2 +1,2 @@
 {"id":"85P2JQ0A78","mentions":["m2://rec/wikidata/Q371882#1"],"kind":"unknown","name":"Claude Gaspar Bachet de Méziriac","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"85PC1NKX1N","mentions":["m2://rec/wikidata/Q11567#1"],"kind":"definition","name":"complex number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"85PC1NKX1N","mentions":["m2://rec/mathlib_overview/General algebra > Numbers > complex number#1","m2://rec/wikidata/Q11567#1"],"kind":"definition","name":"complex number","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,1 +1,1 @@
-{"id":"GHRYMK3F54","mentions":["m2://rec/wikidata/Q656176#1"],"kind":"unknown","name":"Schauder fixed point theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"GHRYMK3F54","mentions":["m2://rec/mathlib_1000/Q656176#1","m2://rec/thousand_plus/Q656176#1","m2://rec/wikidata/Q656176#1"],"kind":"statement","name":"Schauder fixed point theorem","msc":["46-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

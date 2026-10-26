@@ -1,1 +1,2 @@
 {"id":"5WY9H6EZ2C","mentions":["m2://rec/wikidata/Q227444#1"],"kind":"unknown","name":"Zu Chongzhi","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"5WYSAWNKDW","mentions":["m2://rec/mathlib_1000/Q17008559#1","m2://rec/thousand_plus/Q17008559#1"],"kind":"statement","name":"Davenport–Schmidt theorem","msc":["11-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

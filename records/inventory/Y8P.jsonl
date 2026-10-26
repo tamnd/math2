@@ -1,1 +1,1 @@
-{"id":"Y8PR4M6WFM","mentions":["m2://rec/wikidata/Q1914905#1"],"kind":"statement","name":"Ramanujan–Nagell equation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"Y8PR4M6WFM","mentions":["m2://rec/mathlib_1000/Q1914905#1","m2://rec/thousand_plus/Q1914905#1","m2://rec/wikidata/Q1914905#1"],"kind":"statement","name":"Ramanujan–Nagell equation","msc":["11-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

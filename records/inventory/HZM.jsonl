@@ -1,2 +1,2 @@
-{"id":"HZM3C3ATDF","mentions":["m2://rec/wikidata/Q4878586#1"],"kind":"statement","name":"Beck's monadicity theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"HZM3C3ATDF","mentions":["m2://rec/mathlib_1000/Q4878586#1","m2://rec/thousand_plus/Q4878586#1","m2://rec/wikidata/Q4878586#1"],"kind":"statement","name":"Beck's monadicity theorem","msc":["18-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"HZM8EJA4SM","mentions":["m2://rec/wikidata/Q7661853#1"],"kind":"unknown","name":"symplectic vector field","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

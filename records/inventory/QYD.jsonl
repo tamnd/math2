@@ -1,1 +1,1 @@
-{"id":"QYDZ5ZT6JH","mentions":["m2://rec/wikidata/Q208416#1"],"kind":"topic","name":"continuum hypothesis","msc":["03E50"],"layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"QYDZ5ZT6JH","mentions":["m2://rec/mathlib_1000/Q208416#1","m2://rec/thousand_plus/Q208416#1","m2://rec/wikidata/Q208416#1"],"kind":"statement","name":"continuum hypothesis","msc":["03-XX","03E50"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

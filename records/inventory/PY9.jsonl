@@ -1,1 +1,1 @@
-{"id":"PY9XEMEKRP","mentions":["m2://rec/wikidata/Q649469#1"],"kind":"statement","name":"modularity theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"PY9XEMEKRP","mentions":["m2://rec/mathlib_1000/Q649469#1","m2://rec/thousand_plus/Q649469#1","m2://rec/wikidata/Q649469#1"],"kind":"statement","name":"modularity theorem","msc":["11-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

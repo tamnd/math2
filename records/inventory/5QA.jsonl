@@ -1,1 +1,1 @@
-{"id":"5QAC31Y4HM","mentions":["m2://rec/wikidata/Q810431#1"],"kind":"problem","name":"Basel problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"5QAC31Y4HM","mentions":["m2://rec/mathlib_100/14#1","m2://rec/mathlib_1000/Q810431#1","m2://rec/thousand_plus/Q810431#1","m2://rec/wikidata/Q810431#1"],"kind":"statement","name":"Basel problem","msc":["26-XX"],"layer":"textbook","spread":4,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

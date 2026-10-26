@@ -1,1 +1,1 @@
-{"id":"XJR3QFJC64","mentions":["m2://rec/wikidata/Q1632301#1"],"kind":"statement","name":"Sturm's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"XJR3QFJC64","mentions":["m2://rec/mathlib_1000/Q1632301#1","m2://rec/thousand_plus/Q1632301#1","m2://rec/wikidata/Q1632301#1"],"kind":"statement","name":"Sturm's theorem","msc":["12-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

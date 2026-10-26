@@ -1,1 +1,2 @@
 {"id":"4HM1ZY4XZW","mentions":["m2://rec/wikidata/Q120493775#1"],"kind":"unknown","name":"real polynomial","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4HMXE20V9P","mentions":["m2://rec/mathlib_1000/Q4455030#1","m2://rec/thousand_plus/Q4455030#1"],"kind":"statement","name":"Stone's theorem on one-parameter unitary groups","msc":["46-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

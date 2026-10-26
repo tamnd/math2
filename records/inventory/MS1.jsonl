@@ -1,1 +1,2 @@
 {"id":"MS1AABYPY3","mentions":["m2://rec/wikidata/Q1186007#1"],"kind":"definition","name":"Hartogs number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"MS1RJXXBV5","mentions":["m2://rec/mathlib_1000/Q3699212#1","m2://rec/thousand_plus/Q3699212#1"],"kind":"statement","name":"Saint-Venant's theorem","msc":["00-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,2 +1,2 @@
 {"id":"T5Y6PWF5YT","mentions":["m2://rec/wikidata/Q42400416#1"],"kind":"topic","name":"perfect obstruction theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"T5Y9VQJ2GA","mentions":["m2://rec/wikidata/Q3771212#1"],"kind":"statement","name":"Proth's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"T5Y9VQJ2GA","mentions":["m2://rec/mathlib_1000/Q3771212#1","m2://rec/thousand_plus/Q3771212#1","m2://rec/wikidata/Q3771212#1"],"kind":"statement","name":"Proth's theorem","msc":["11-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,1 +1,2 @@
 {"id":"8C18BCBE84","mentions":["m2://rec/wikidata/Q814556#1"],"kind":"problem","name":"Behrens–Fisher problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"8C1WB3CRGW","mentions":["m2://rec/mathlib_1000/Q3088644#1","m2://rec/thousand_plus/Q3088644#1"],"kind":"statement","name":"Goldstine theorem","msc":["46-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

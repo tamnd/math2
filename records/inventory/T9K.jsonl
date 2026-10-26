@@ -1,2 +1,3 @@
 {"id":"T9K4W8TT7S","mentions":["m2://rec/wikidata/Q273404#1"],"kind":"unknown","name":"pie chart","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"T9K80HY9YZ","mentions":["m2://rec/wikidata/Q76420#1"],"kind":"unknown","name":"Georg Cantor","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"T9KV7HKERV","mentions":["m2://rec/mathlib_1000/Q4454976#1","m2://rec/thousand_plus/Q4454976#1"],"kind":"statement","name":"Liouville's theorem (conformal mappings)","msc":["30-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,1 +1,1 @@
-{"id":"99ACFT0X9Y","mentions":["m2://rec/wikidata/Q2000090#1"],"kind":"problem","name":"art gallery problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"99ACFT0X9Y","mentions":["m2://rec/mathlib_1000/Q2000090#1","m2://rec/thousand_plus/Q2000090#1","m2://rec/wikidata/Q2000090#1"],"kind":"statement","name":"art gallery problem","msc":["51-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

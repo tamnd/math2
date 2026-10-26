@@ -1,1 +1,1 @@
-{"id":"WEXN402WRG","mentions":["m2://rec/wikidata/Q3984069#1"],"kind":"statement","name":"Fredholm's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"WEXN402WRG","mentions":["m2://rec/mathlib_1000/Q3984069#1","m2://rec/thousand_plus/Q3984069#1","m2://rec/wikidata/Q3984069#1"],"kind":"statement","name":"Fredholm's theorem","msc":["15-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

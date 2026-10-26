@@ -1,1 +1,1 @@
-{"id":"3FWB1RPQRR","mentions":["m2://rec/wikidata/Q909517#1"],"kind":"statement","name":"Feit–Thompson theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"3FWB1RPQRR","mentions":["m2://rec/mathlib_1000/Q909517#1","m2://rec/thousand_plus/Q909517#1","m2://rec/wikidata/Q909517#1"],"kind":"statement","name":"Feit–Thompson theorem","msc":["20-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

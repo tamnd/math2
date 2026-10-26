@@ -1,1 +1,2 @@
 {"id":"Q0NNKPPZAM","mentions":["m2://rec/wikidata/Q2786686#1"],"kind":"unknown","name":"quartile","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"Q0NRF80NKC","mentions":["m2://rec/mathlib_1000/Q117553#1","m2://rec/thousand_plus/Q117553#1"],"kind":"statement","name":"Modigliani–Miller theorem","msc":["91-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,2 +1,2 @@
 {"id":"QX7398VYVX","mentions":["m2://rec/wikidata/Q3234988#1"],"kind":"unknown","name":"ampersand curve","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"QX783ABM12","mentions":["m2://rec/wikidata/Q1893717#1"],"kind":"statement","name":"Rice's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"QX783ABM12","mentions":["m2://rec/mathlib_1000/Q1893717#1","m2://rec/mathlib_overview/Logic and computation > Computability > Rice theorem#1","m2://rec/thousand_plus/Q1893717#1","m2://rec/wikidata/Q1893717#1"],"kind":"statement","name":"Rice's theorem","msc":["68-XX"],"layer":"textbook","spread":4,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,3 +1,3 @@
 {"id":"V4Y92P82N8","mentions":["m2://rec/wikidata/Q1897973#1"],"kind":"unknown","name":"myriagon","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"V4YFRK89FY","mentions":["m2://rec/wikidata/Q1934233#1"],"kind":"concept","name":"Walsh function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"V4YRGTGRC4","mentions":["m2://rec/wikidata/Q203565#1"],"kind":"definition","name":"cubic equation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"V4YRGTGRC4","mentions":["m2://rec/mathlib_100/37#1","m2://rec/mathlib_1000/Q203565#1","m2://rec/thousand_plus/Q203565#1","m2://rec/wikidata/Q203565#1"],"kind":"statement","name":"cubic equation","msc":["12-XX"],"layer":"textbook","spread":4,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

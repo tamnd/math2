@@ -1,1 +1,1 @@
-{"id":"EF04WBTZPC","mentions":["m2://rec/wikidata/Q951327#1"],"kind":"statement","name":"Pasch's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"EF04WBTZPC","mentions":["m2://rec/mathlib_1000/Q951327#1","m2://rec/thousand_plus/Q951327#1","m2://rec/wikidata/Q951327#1"],"kind":"statement","name":"Pasch's theorem","msc":["06-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

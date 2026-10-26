@@ -1,1 +1,1 @@
-{"id":"FA232NEJXF","mentions":["m2://rec/wikidata/Q656198#1"],"kind":"statement","name":"Maschke's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FA232NEJXF","mentions":["m2://rec/mathlib_1000/Q656198#1","m2://rec/mathlib_undergrad/Group Theory > Representation theory of finite groups > Maschke theorem#1","m2://rec/thousand_plus/Q656198#1","m2://rec/wikidata/Q656198#1"],"kind":"statement","name":"Maschke's theorem","msc":["20-XX"],"layer":"textbook","spread":4,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

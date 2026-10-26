@@ -1,1 +1,1 @@
-{"id":"FDZAFM4G3W","mentions":["m2://rec/wikidata/Q2525646#1"],"kind":"unknown","name":"composition series","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FDZAFM4G3W","mentions":["m2://rec/mathlib_1000/Q2525646#1","m2://rec/thousand_plus/Q2525646#1","m2://rec/wikidata/Q2525646#1"],"kind":"statement","name":"composition series","msc":["20-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,2 +1,2 @@
 {"id":"4H889NWZZH","mentions":["m2://rec/wikidata/Q3115563#1"],"kind":"unknown","name":"fork graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"4H88G6SXB2","mentions":["m2://rec/wikidata/Q6516736#1"],"kind":"statement","name":"Lefschetz theorem on (1,1)-classes","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4H88G6SXB2","mentions":["m2://rec/mathlib_1000/Q6516736#1","m2://rec/thousand_plus/Q6516736#1","m2://rec/wikidata/Q6516736#1"],"kind":"statement","name":"Lefschetz theorem on (1,1)-classes","msc":["14-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

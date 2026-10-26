@@ -1,0 +1,8 @@
+# The import manifest of mathlib_overview. m2 ingest writes this file. Run m2 ingest mathlib_overview -snapshot blake3:daae467c5e3d950863b4efbe434049e3d87c8102aae500dc72f899aa7592c32d to make the same records again.
+source: mathlib_overview
+adapter: curricula/1
+snapshot: blake3:daae467c5e3d950863b4efbe434049e3d87c8102aae500dc72f899aa7592c32d
+records: 512
+hash: blake3:bc12e9a057aed2199c320e0e8c7efa953203a101dd4f6e5c227fc5d9b1540a96
+classes:
+  open: 512

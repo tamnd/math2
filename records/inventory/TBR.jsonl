@@ -1,2 +1,2 @@
 {"id":"TBRBSSZ0V2","mentions":["m2://rec/wikidata/Q8860529#1"],"kind":"unknown","name":"bipartite Kneser graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"TBRFF5YGZH","mentions":["m2://rec/wikidata/Q7686760#1"],"kind":"problem","name":"Tarski's plank problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"TBRFF5YGZH","mentions":["m2://rec/mathlib_1000/Q7686760#1","m2://rec/thousand_plus/Q7686760#1","m2://rec/wikidata/Q7686760#1"],"kind":"statement","name":"Tarski's plank problem","msc":["51-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

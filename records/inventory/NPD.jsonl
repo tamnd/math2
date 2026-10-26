@@ -1,1 +1,1 @@
-{"id":"NPDHSNR8BX","mentions":["m2://rec/wikidata/Q1146791#1"],"kind":"statement","name":"Fermat polygonal number theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"NPDHSNR8BX","mentions":["m2://rec/mathlib_1000/Q1146791#1","m2://rec/thousand_plus/Q1146791#1","m2://rec/wikidata/Q1146791#1"],"kind":"statement","name":"Fermat polygonal number theorem","msc":["11-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

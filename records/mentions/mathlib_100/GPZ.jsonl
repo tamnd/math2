@@ -1,0 +1,1 @@
+{"id":"m2://rec/mathlib_100/100#1","source":"mathlib_100","snapshot":"blake3:70096cc136311ba4f8351383a1f666f39892036aabcfcb90857aa21c7302ddea","locator":"https://leanprover-community.github.io/100.html#100","native_id":"100","kind":"statement","name":"Descartes Rule of Signs","same":{"mathlib":["Polynomial.roots_countP_pos_le_signVariations"]},"class":"open","by":"curricula/1"}

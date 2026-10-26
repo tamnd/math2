@@ -1,1 +1,1 @@
-{"id":"GHZ3SXVF3G","mentions":["m2://rec/wikidata/Q266291#1"],"kind":"statement","name":"Bloch's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"GHZ3SXVF3G","mentions":["m2://rec/mathlib_1000/Q266291#1","m2://rec/thousand_plus/Q266291#1","m2://rec/wikidata/Q266291#1"],"kind":"statement","name":"Bloch's theorem","msc":["30-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

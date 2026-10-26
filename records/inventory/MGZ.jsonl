@@ -1,1 +1,2 @@
 {"id":"MGZDA4BS68","mentions":["m2://rec/wikidata/Q9165172#1"],"kind":"unknown","name":"imaginary number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"MGZDWC817Q","mentions":["m2://rec/mathlib_1000/Q7042768#1","m2://rec/thousand_plus/Q7042768#1"],"kind":"statement","name":"No-broadcasting theorem","msc":["81-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

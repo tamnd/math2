@@ -1,0 +1,8 @@
+# The import manifest of thousand_plus. m2 ingest writes this file. Run m2 ingest thousand_plus -snapshot blake3:1dd27669c4323cb8f581543c28fd857e9f43e03fcd863f6d964780abaf18fedb to make the same records again.
+source: thousand_plus
+adapter: thousand_plus/1
+snapshot: blake3:1dd27669c4323cb8f581543c28fd857e9f43e03fcd863f6d964780abaf18fedb
+records: 1200
+hash: blake3:da3aa0167427532efae49f387ed53db562c5e810260daa4e9d1aa71096c078cd
+classes:
+  open: 1200

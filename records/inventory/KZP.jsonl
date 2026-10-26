@@ -1,1 +1,1 @@
-{"id":"KZP8HX5VZ1","mentions":["m2://rec/wikidata/Q567843#1"],"kind":"unknown","name":"space-filling curve","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"KZP8HX5VZ1","mentions":["m2://rec/mathlib_1000/Q567843#1","m2://rec/thousand_plus/Q567843#1","m2://rec/wikidata/Q567843#1"],"kind":"statement","name":"space-filling curve","msc":["54-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

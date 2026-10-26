@@ -1,1 +1,1 @@
-{"id":"MJ271HFN68","mentions":["m2://rec/wikidata/Q2197859#1"],"kind":"object","name":"squared triangular number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"MJ271HFN68","mentions":["m2://rec/mathlib_1000/Q2197859#1","m2://rec/thousand_plus/Q2197859#1","m2://rec/wikidata/Q2197859#1"],"kind":"statement","name":"squared triangular number","msc":["11-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

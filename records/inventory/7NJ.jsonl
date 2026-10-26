@@ -1,1 +1,1 @@
-{"id":"7NJNJY1XC9","mentions":["m2://rec/wikidata/Q550402#1"],"kind":"statement","name":"Dirichlet's theorem on arithmetic progressions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"7NJNJY1XC9","mentions":["m2://rec/mathlib_100/48#1","m2://rec/mathlib_1000/Q550402#1","m2://rec/thousand_plus/Q550402#1","m2://rec/wikidata/Q550402#1"],"kind":"statement","name":"Dirichlet's theorem on arithmetic progressions","msc":["11-XX"],"layer":"textbook","spread":4,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

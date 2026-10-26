@@ -1,1 +1,1 @@
-{"id":"FGAR8M8MW5","mentions":["m2://rec/wikidata/Q1153441#1"],"kind":"unknown","name":"Goldstone boson","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FGAR8M8MW5","mentions":["m2://rec/mathlib_1000/Q1153441#1","m2://rec/thousand_plus/Q1153441#1","m2://rec/wikidata/Q1153441#1"],"kind":"statement","name":"Goldstone boson","msc":["00-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

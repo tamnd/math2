@@ -1,0 +1,1 @@
+{"id":"m2://rec/mathlib_100/20#1","source":"mathlib_100","snapshot":"blake3:70096cc136311ba4f8351383a1f666f39892036aabcfcb90857aa21c7302ddea","locator":"https://leanprover-community.github.io/100.html#20","native_id":"20","kind":"statement","name":"All Primes (1 mod 4) Equal the Sum of Two Squares","same":{"mathlib":["Nat.Prime.sq_add_sq"]},"class":"open","by":"curricula/1"}

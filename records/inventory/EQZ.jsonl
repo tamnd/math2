@@ -1,1 +1,1 @@
-{"id":"EQZRV30AWS","mentions":["m2://rec/wikidata/Q282649#1"],"kind":"statement","name":"pentagonal number theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"EQZRV30AWS","mentions":["m2://rec/mathlib_1000/Q282649#1","m2://rec/thousand_plus/Q282649#1","m2://rec/wikidata/Q282649#1"],"kind":"statement","name":"pentagonal number theorem","msc":["11-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

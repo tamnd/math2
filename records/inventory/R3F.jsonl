@@ -1,1 +1,1 @@
-{"id":"R3FRXZGCVR","mentions":["m2://rec/wikidata/Q2607007#1"],"kind":"statement","name":"hinge theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"R3FRXZGCVR","mentions":["m2://rec/mathlib_1000/Q2607007#1","m2://rec/thousand_plus/Q2607007#1","m2://rec/wikidata/Q2607007#1"],"kind":"statement","name":"hinge theorem","msc":["51-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

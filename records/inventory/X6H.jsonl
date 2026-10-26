@@ -1,2 +1,2 @@
-{"id":"X6HCQK70KS","mentions":["m2://rec/wikidata/Q841893#1"],"kind":"statement","name":"Desargues' theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"X6HZWF2EE7","mentions":["m2://rec/wikidata/Q650738#1"],"kind":"statement","name":"folk theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"X6HCQK70KS","mentions":["m2://rec/mathlib_1000/Q841893#1","m2://rec/thousand_plus/Q841893#1","m2://rec/wikidata/Q841893#1"],"kind":"statement","name":"Desargues' theorem","msc":["51-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"X6HZWF2EE7","mentions":["m2://rec/mathlib_1000/Q650738#1","m2://rec/thousand_plus/Q650738#1","m2://rec/wikidata/Q650738#1"],"kind":"statement","name":"folk theorem","msc":["91-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

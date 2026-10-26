@@ -1,1 +1,1 @@
-{"id":"S7SYQ11ZWB","mentions":["m2://rec/wikidata/Q3527100#1"],"kind":"statement","name":"Kruskal's tree theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"S7SYQ11ZWB","mentions":["m2://rec/mathlib_1000/Q3527100#1","m2://rec/thousand_plus/Q3527100#1","m2://rec/wikidata/Q3527100#1"],"kind":"statement","name":"Kruskal's tree theorem","msc":["06-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

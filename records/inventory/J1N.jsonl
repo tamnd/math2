@@ -1,2 +1,3 @@
 {"id":"J1N0QC0X5D","mentions":["m2://rec/wikidata/Q3331475#1"],"kind":"unknown","name":"multivariate analysis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"J1N4EKAHPA","mentions":["m2://rec/mathlib_1000/Q7098850#1","m2://rec/thousand_plus/Q7098850#1"],"kind":"statement","name":"Optical equivalence theorem","msc":["81-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"J1NCJMQ0V4","mentions":["m2://rec/wikidata/Q904927#1"],"kind":"unknown","name":"tensor density","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

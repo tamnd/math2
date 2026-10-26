@@ -1,1 +1,1 @@
-{"id":"K449TA2RK2","mentions":["m2://rec/wikidata/Q1564541#1"],"kind":"statement","name":"Perron–Frobenius theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"K449TA2RK2","mentions":["m2://rec/mathlib_1000/Q1564541#1","m2://rec/thousand_plus/Q1564541#1","m2://rec/wikidata/Q1564541#1"],"kind":"statement","name":"Perron–Frobenius theorem","msc":["15-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

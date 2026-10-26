@@ -1,2 +1,2 @@
 {"id":"ABHK17ZN46","mentions":["m2://rec/wikidata/Q749893#1"],"kind":"unknown","name":"continuation-passing style","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"ABHX0B47XC","mentions":["m2://rec/wikidata/Q7818977#1"],"kind":"topic","name":"Tomita–Takesaki theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"ABHX0B47XC","mentions":["m2://rec/mathlib_1000/Q7818977#1","m2://rec/thousand_plus/Q7818977#1","m2://rec/wikidata/Q7818977#1"],"kind":"statement","name":"Tomita–Takesaki theory","msc":["47-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

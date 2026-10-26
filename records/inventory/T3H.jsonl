@@ -1,1 +1,2 @@
 {"id":"T3H054RMQ3","mentions":["m2://rec/wikidata/Q6901645#1"],"kind":"unknown","name":"monoidal monad","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"T3HV592463","mentions":["m2://rec/mathlib_1000/Q11722674#1","m2://rec/thousand_plus/Q11722674#1"],"kind":"statement","name":"Takens's theorem","msc":["37-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

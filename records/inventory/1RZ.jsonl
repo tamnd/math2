@@ -1,1 +1,1 @@
-{"id":"1RZM458SPG","mentions":["m2://rec/wikidata/Q576478#1"],"kind":"statement","name":"Liouville's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"1RZM458SPG","mentions":["m2://rec/mathlib_1000/Q576478#1","m2://rec/mathlib_overview/Analysis > Complex analysis > Liouville theorem#1","m2://rec/thousand_plus/Q576478#1","m2://rec/wikidata/Q576478#1"],"kind":"statement","name":"Liouville's theorem","msc":["30-XX"],"layer":"textbook","spread":4,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
