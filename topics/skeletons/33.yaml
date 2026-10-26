@@ -1,0 +1,230 @@
+# The C2 skeleton of 33-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 33-XX
+title: special functions
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+items:
+  # Basic notions
+  - {name: special functions, kind: concept, wikipedia: Special functions, wikidata: Q867707}
+  - {name: holonomic function, kind: definition, wikipedia: Holonomic function, wikidata: Q5884209}
+  - {name: falling factorial, kind: definition, decl: descPochhammer, wikipedia: Falling and rising factorials, wikidata: Q2339261}
+  - {name: Pochhammer symbol, kind: definition, decl: ascPochhammer, wikipedia: Falling and rising factorials, wikidata: Q2339261}
+  # Gamma function and related functions
+  - {name: gamma function, kind: definition, decl: Complex.Gamma, wikipedia: Gamma function, wikidata: Q190573}
+  - {name: real gamma function, kind: definition, decl: Real.Gamma, wikipedia: Gamma function, wikidata: Q190573}
+  - {name: Euler integral for the gamma function, kind: statement, decl: Complex.Gamma_eq_integral, wikipedia: Gamma function, wikidata: Q190573}
+  - {name: functional equation of the gamma function, kind: statement, decl: Complex.Gamma_add_one, wikipedia: Gamma function, wikidata: Q190573}
+  - {name: gamma function interpolates the factorial, kind: statement, decl: Real.Gamma_nat_eq_factorial, wikipedia: Gamma function, wikidata: Q190573}
+  - {name: gamma function has no zeros, kind: statement, decl: Complex.Gamma_ne_zero, wikipedia: Gamma function, wikidata: Q190573}
+  - {name: poles of the gamma function, kind: statement, wikipedia: Gamma function, wikidata: Q190573}
+  - {name: holomorphy of the gamma function, kind: statement, decl: Complex.differentiableAt_Gamma, wikipedia: Gamma function, wikidata: Q190573}
+  - {name: reciprocal gamma function, kind: definition, wikipedia: Reciprocal gamma function, wikidata: Q4810025}
+  - {name: Hankel contour integral for the gamma function, kind: statement, wikipedia: Reciprocal gamma function, wikidata: Q4810025}
+  - {name: Euler's reflection formula, kind: statement, decl: Complex.Gamma_mul_Gamma_one_sub, wikipedia: Reflection formula, wikidata: Q4922429}
+  - {name: Legendre duplication formula, kind: statement, decl: Complex.Gamma_mul_Gamma_add_half, wikipedia: Multiplication theorem, wikidata: Q98831}
+  - {name: Gauss multiplication formula, kind: statement, wikipedia: Multiplication theorem, wikidata: Q98831}
+  - {name: Euler–Gauss limit formula, kind: statement, decl: Complex.GammaSeq_tendsto_Gamma, wikipedia: Gamma function, wikidata: Q190573}
+  - {name: Weierstrass product for the gamma function, kind: statement, wikipedia: Gamma function, wikidata: Q190573}
+  - {name: Bohr–Mollerup theorem, kind: statement, decl: Real.eq_Gamma_of_log_convex, wikipedia: Bohr–Mollerup theorem, wikidata: Q2734084}
+  - {name: log-convexity of the gamma function, kind: statement, decl: Real.convexOn_log_Gamma, wikipedia: Bohr–Mollerup theorem, wikidata: Q2734084}
+  - {name: Wielandt's theorem, kind: statement, wikipedia: Wielandt theorem, wikidata: Q3527182}
+  - {name: Hölder's theorem, kind: statement, wikipedia: Hölder's theorem, wikidata: Q1995468}
+  - {name: gamma of one half, kind: statement, decl: Complex.Gamma_one_half_eq, wikipedia: Particular values of the gamma function, wikidata: Q7140511}
+  - {name: particular values of the gamma function, kind: example, wikipedia: Particular values of the gamma function, wikidata: Q7140511}
+  - {name: Stirling's formula for the gamma function, kind: statement, wikipedia: Stirling's approximation, wikidata: Q470877}
+  - {name: log-gamma function, kind: definition, wikipedia: Gamma function, wikidata: Q190573}
+  - {name: Binet's formulas for the log-gamma function, kind: statement, wikipedia: Gamma function, wikidata: Q190573}
+  - {name: digamma function, kind: definition, decl: Complex.digamma, wikipedia: Digamma function, wikidata: Q905326}
+  - {name: polygamma function, kind: definition, wikipedia: Polygamma function, wikidata: Q857956}
+  - {name: trigamma function, kind: definition, wikipedia: Trigamma function, wikidata: Q1244426}
+  - {name: beta function, kind: definition, decl: Complex.betaIntegral, wikipedia: Beta function, wikidata: Q468881}
+  - {name: beta function in terms of the gamma function, kind: statement, decl: Complex.Gamma_mul_Gamma_eq_betaIntegral, wikipedia: Beta function, wikidata: Q468881}
+  - {name: incomplete gamma function, kind: definition, wikipedia: Incomplete gamma function, wikidata: Q1319246}
+  - {name: incomplete beta function, kind: definition, wikipedia: Beta function, wikidata: Q468881}
+  - {name: Barnes G-function, kind: definition, wikipedia: Barnes G-function, wikidata: Q808463}
+  - {name: multiple gamma function, kind: definition, wikipedia: Multiple gamma function, wikidata: Q6934934}
+  - {name: K-function, kind: definition, wikipedia: K-function, wikidata: Q1541649}
+  - {name: p-adic gamma function, kind: definition, wikipedia: P-adic gamma function, wikidata: Q7116917}
+  - {name: q-gamma function, kind: definition, wikipedia: Q-gamma function, wikidata: Q7265303}
+  - {name: elliptic gamma function, kind: definition, wikipedia: Elliptic gamma function, wikidata: Q615862}
+  # Elementary and integral functions
+  - {name: sinc function, kind: definition, decl: Real.sinc, wikipedia: Sinc function, wikidata: Q855949}
+  - {name: error function, kind: definition, wikipedia: Error function, wikidata: Q579262}
+  - {name: complementary error function, kind: definition, wikipedia: Error function, wikidata: Q579262}
+  - {name: Fresnel integrals, kind: definition, wikipedia: Fresnel integral, wikidata: Q580253}
+  - {name: Dawson function, kind: definition, wikipedia: Dawson function, wikidata: Q3055353}
+  - {name: Faddeeva function, kind: definition, wikipedia: Faddeeva function, wikidata: Q4027138}
+  - {name: exponential integral, kind: definition, wikipedia: Exponential integral, wikidata: Q1419948}
+  - {name: logarithmic integral, kind: definition, wikipedia: Logarithmic integral function, wikidata: Q1350206}
+  - {name: trigonometric integrals, kind: definition, wikipedia: Trigonometric integral, wikidata: Q1094282}
+  - {name: Lambert W function, kind: definition, wikipedia: Lambert W function, wikidata: Q429331}
+  - {name: Wright omega function, kind: definition, wikipedia: Wright omega function, wikidata: Q8038235}
+  - {name: polylogarithm, kind: definition, wikipedia: Polylogarithm, wikidata: Q1238449}
+  - {name: dilogarithm, kind: definition, wikipedia: Dilogarithm, wikidata: Q1290753}
+  - {name: five-term relation for the dilogarithm, kind: statement, wikipedia: Dilogarithm, wikidata: Q1290753}
+  - {name: Bloch–Wigner function, kind: definition, wikipedia: Polylogarithm, wikidata: Q1238449}
+  - {name: quantum dilogarithm, kind: definition, wikipedia: Quantum dilogarithm, wikidata: Q7269036}
+  - {name: Clausen function, kind: definition, wikipedia: Clausen function, wikidata: Q823290}
+  - {name: inverse tangent integral, kind: definition, wikipedia: Inverse tangent integral, wikidata: Q107524938}
+  - {name: Lerch zeta function, kind: definition, wikipedia: Lerch transcendent, wikidata: Q1546155}
+  - {name: Fermi–Dirac integral, kind: definition, wikipedia: Complete Fermi–Dirac integral, wikidata: Q167476}
+  - {name: Mittag-Leffler function, kind: definition, wikipedia: Mittag-Leffler function, wikidata: Q1935235}
+  - {name: Fox–Wright function, kind: definition, wikipedia: Fox–Wright function, wikidata: Q5477346}
+  # Hypergeometric functions
+  - {name: hypergeometric function, kind: definition, decl: ordinaryHypergeometric, wikipedia: Hypergeometric function, wikidata: Q21028472}
+  - {name: hypergeometric series, kind: definition, decl: ordinaryHypergeometricSeries, wikipedia: Hypergeometric function, wikidata: Q21028472}
+  - {name: generalized hypergeometric function, kind: definition, wikipedia: Generalized hypergeometric function, wikidata: Q109744257}
+  - {name: hypergeometric differential equation, kind: definition, wikipedia: Hypergeometric function, wikidata: Q21028472}
+  - {name: Euler's integral representation of the hypergeometric function, kind: statement, wikipedia: Hypergeometric function, wikidata: Q21028472}
+  - {name: Gauss's hypergeometric theorem, kind: statement, wikipedia: Hypergeometric function, wikidata: Q21028472}
+  - {name: Chu–Vandermonde identity, kind: statement, wikipedia: Vandermonde's identity, wikidata: Q3147827}
+  - {name: Pfaff and Euler transformations, kind: statement, wikipedia: Hypergeometric function, wikidata: Q21028472}
+  - {name: Kummer's 24 solutions, kind: statement, wikipedia: Hypergeometric function, wikidata: Q21028472}
+  - {name: quadratic transformations of hypergeometric functions, kind: statement, wikipedia: Hypergeometric function, wikidata: Q21028472}
+  - {name: contiguous relations, kind: statement, wikipedia: Hypergeometric function, wikidata: Q21028472}
+  - {name: monodromy of the hypergeometric equation, kind: concept, wikipedia: Hypergeometric function, wikidata: Q21028472}
+  - {name: Schwarz's list, kind: statement, wikipedia: Schwarz's list, wikidata: Q7433183}
+  - {name: Schwarz triangle function, kind: definition, wikipedia: Schwarz triangle function, wikidata: Q30324144}
+  - {name: Riemann's differential equation, kind: definition, wikipedia: Riemann's differential equation, wikidata: Q974071}
+  - {name: Riemann P-symbol, kind: definition, wikipedia: Riemann's differential equation, wikidata: Q974071}
+  - {name: Barnes integral, kind: definition, wikipedia: Barnes integral, wikidata: Q4201931}
+  - {name: Pfaff–Saalschütz theorem, kind: statement, wikipedia: Generalized hypergeometric function, wikidata: Q109744257}
+  - {name: Dixon's identity, kind: statement, wikipedia: Dixon's identity, wikidata: Q5284938}
+  - {name: Dougall's formula, kind: statement, wikipedia: Generalized hypergeometric function, wikidata: Q109744257}
+  - {name: Clausen's formula, kind: statement, wikipedia: Clausen's formula, wikidata: Q5129539}
+  - {name: Whipple's transformation, kind: statement, wikipedia: Generalized hypergeometric function, wikidata: Q109744257}
+  - {name: confluent hypergeometric function, kind: definition, wikipedia: Confluent hypergeometric function, wikidata: Q783948}
+  - {name: Kummer's equation, kind: definition, wikipedia: Confluent hypergeometric function, wikidata: Q783948}
+  - {name: Tricomi confluent hypergeometric function, kind: definition, wikipedia: Confluent hypergeometric function, wikidata: Q783948}
+  - {name: Kummer's transformation, kind: statement, wikipedia: Confluent hypergeometric function, wikidata: Q783948}
+  - {name: Whittaker function, kind: definition, wikipedia: Whittaker function, wikidata: Q3754618}
+  - {name: parabolic cylinder function, kind: definition, wikipedia: Parabolic cylinder function, wikidata: Q3754582}
+  - {name: Coulomb wave function, kind: definition, wikipedia: Coulomb wave function, wikidata: Q17007968}
+  - {name: Appell series, kind: definition, wikipedia: Appell series, wikidata: Q4780998}
+  - {name: Lauricella hypergeometric series, kind: definition, wikipedia: Lauricella hypergeometric series, wikidata: Q3754612}
+  - {name: Horn hypergeometric series, kind: definition, wikipedia: Horn function, wikidata: Q17027577}
+  - {name: Meijer G-function, kind: definition, wikipedia: Meijer G-function, wikidata: Q1917756}
+  - {name: Fox H-function, kind: definition, wikipedia: Fox H-function, wikidata: Q8565199}
+  - {name: A-hypergeometric function, kind: definition, wikipedia: General hypergeometric function, wikidata: Q5532351}
+  - {name: hypergeometric function of a matrix argument, kind: definition, wikipedia: Hypergeometric function of a matrix argument, wikidata: Q5958021}
+  - {name: Heun function, kind: definition, wikipedia: Heun function, wikidata: Q5748204}
+  - {name: Lamé function, kind: definition, wikipedia: Lamé function, wikidata: Q3127537}
+  - {name: Mathieu function, kind: definition, wikipedia: Mathieu function, wikidata: Q1908689}
+  - {name: spheroidal wave function, kind: definition, wikipedia: Spheroidal wave function, wikidata: Q7576728}
+  - {name: Painlevé transcendents, kind: definition, wikipedia: Painlevé transcendents, wikidata: Q907724}
+  # Bessel and Airy functions
+  - {name: Bessel function of the first kind, kind: definition, decl: Complex.besselJ, wikipedia: Bessel function, wikidata: Q219637}
+  - {name: Bessel function of the second kind, kind: definition, wikipedia: Bessel function, wikidata: Q219637}
+  - {name: Hankel functions, kind: definition, wikipedia: Bessel function, wikidata: Q219637}
+  - {name: modified Bessel functions, kind: definition, wikipedia: Bessel function, wikidata: Q219637}
+  - {name: spherical Bessel functions, kind: definition, wikipedia: Bessel function, wikidata: Q219637}
+  - {name: Bessel's integral, kind: statement, wikipedia: Bessel function, wikidata: Q219637}
+  - {name: recurrence relations for Bessel functions, kind: statement, wikipedia: Bessel function, wikidata: Q219637}
+  - {name: asymptotics of Bessel functions, kind: statement, wikipedia: Bessel function, wikidata: Q219637}
+  - {name: zeros of Bessel functions, kind: concept, wikipedia: Bessel function, wikidata: Q219637}
+  - {name: Bourget's hypothesis, kind: statement, wikipedia: Bessel function, wikidata: Q219637}
+  - {name: Jacobi–Anger expansion, kind: statement, wikipedia: Jacobi–Anger expansion, wikidata: Q1099204}
+  - {name: Neumann's addition theorem, kind: statement, wikipedia: Bessel function, wikidata: Q219637}
+  - {name: Bessel–Clifford function, kind: definition, wikipedia: Bessel–Clifford function, wikidata: Q4896413}
+  - {name: Kelvin functions, kind: definition, wikipedia: Kelvin functions, wikidata: Q4493413}
+  - {name: Struve function, kind: definition, wikipedia: Struve function, wikidata: Q2607374}
+  - {name: Anger function, kind: definition, wikipedia: Anger function, wikidata: Q3754606}
+  - {name: Lommel function, kind: definition, wikipedia: Lommel function, wikidata: Q2279929}
+  - {name: Airy function, kind: definition, wikipedia: Airy function, wikidata: Q409415}
+  - {name: Scorer's function, kind: definition, wikipedia: Scorer's function, wikidata: Q1092942}
+  # Orthogonal polynomials
+  - {name: classical orthogonal polynomials, kind: concept, wikipedia: Classical orthogonal polynomials, wikidata: Q17006917}
+  - {name: Rodrigues' formula, kind: statement, wikipedia: Rodrigues' formula, wikidata: Q4491933}
+  - {name: Favard's theorem, kind: statement, wikipedia: Favard's theorem, wikidata: Q5438430}
+  - {name: three-term recurrence for orthogonal polynomials, kind: statement, wikipedia: Favard's theorem, wikidata: Q5438430}
+  - {name: Christoffel–Darboux formula, kind: statement, wikipedia: Christoffel–Darboux formula, wikidata: Q5111650}
+  - {name: Bochner's classification of orthogonal polynomial eigenfunctions, kind: statement, wikipedia: Classical orthogonal polynomials, wikidata: Q17006917}
+  - {name: Legendre polynomials, kind: definition, wikipedia: Legendre polynomials, wikidata: Q215405}
+  - {name: shifted Legendre polynomials, kind: definition, decl: Polynomial.shiftedLegendre, wikipedia: Legendre polynomials, wikidata: Q215405}
+  - {name: Legendre functions, kind: definition, wikipedia: Legendre function, wikidata: Q17098449}
+  - {name: associated Legendre polynomials, kind: definition, wikipedia: Associated Legendre polynomials, wikidata: Q228376}
+  - {name: Laplace's integral for Legendre polynomials, kind: statement, wikipedia: Legendre polynomials, wikidata: Q215405}
+  - {name: Chebyshev polynomials, kind: definition, decl: Polynomial.Chebyshev.T, wikipedia: Chebyshev polynomials, wikidata: Q619511}
+  - {name: Chebyshev polynomials of the second kind, kind: definition, decl: Polynomial.Chebyshev.U, wikipedia: Chebyshev polynomials, wikidata: Q619511}
+  - {name: Hermite polynomials, kind: definition, decl: Polynomial.hermite, wikipedia: Hermite polynomials, wikidata: Q658574}
+  - {name: Hermite functions, kind: definition, wikipedia: Hermite polynomials, wikidata: Q658574}
+  - {name: Mehler kernel, kind: statement, wikipedia: Mehler kernel, wikidata: Q6809515}
+  - {name: Laguerre polynomials, kind: definition, wikipedia: Laguerre polynomials, wikidata: Q1124546}
+  - {name: Jacobi polynomials, kind: definition, wikipedia: Jacobi polynomials, wikidata: Q371631}
+  - {name: Gegenbauer polynomials, kind: definition, wikipedia: Gegenbauer polynomials, wikidata: Q1498246}
+  - {name: Zernike polynomials, kind: definition, wikipedia: Zernike polynomials, wikidata: Q132146}
+  - {name: Bessel polynomials, kind: definition, wikipedia: Bessel polynomials, wikidata: Q4896402}
+  - {name: Mehler–Heine formula, kind: statement, wikipedia: Mehler–Heine formula, wikidata: Q17098827}
+  - {name: Askey–Gasper inequality, kind: statement, wikipedia: Askey–Gasper inequality, wikidata: Q4807194}
+  - {name: Turán's inequalities, kind: statement, wikipedia: Turán's inequalities, wikidata: Q7856594}
+  - {name: Charlier polynomials, kind: definition, wikipedia: Charlier polynomials, wikidata: Q5085761}
+  - {name: Krawtchouk polynomials, kind: definition, wikipedia: Kravchuk polynomials, wikidata: Q4298931}
+  - {name: Meixner polynomials, kind: definition, wikipedia: Meixner polynomials, wikidata: Q6810444}
+  - {name: Hahn polynomials, kind: definition, wikipedia: Hahn polynomials, wikidata: Q1568814}
+  - {name: Racah polynomials, kind: definition, wikipedia: Racah polynomials, wikidata: Q3907354}
+  - {name: Wilson polynomials, kind: definition, wikipedia: Wilson polynomials, wikidata: Q8023263}
+  - {name: Askey scheme, kind: concept, wikipedia: Askey scheme, wikidata: Q4807189}
+  # Spherical harmonics and group-theoretic special functions
+  - {name: spherical harmonics, kind: definition, wikipedia: Spherical harmonics, wikidata: Q877100}
+  - {name: addition theorem for spherical harmonics, kind: statement, wikipedia: Spherical harmonics, wikidata: Q877100}
+  - {name: zonal spherical harmonics, kind: definition, wikipedia: Zonal spherical harmonics, wikidata: Q8073864}
+  - {name: zonal spherical function, kind: definition, wikipedia: Zonal spherical function, wikidata: Q8073863}
+  - {name: Wigner D-matrix, kind: definition, wikipedia: Wigner D-matrix, wikidata: Q3299244}
+  - {name: Clebsch–Gordan coefficients, kind: definition, wikipedia: Clebsch–Gordan coefficients, wikidata: Q898619}
+  - {name: 3-j symbol, kind: definition, wikipedia: 3-j symbol, wikidata: Q2570568}
+  - {name: 6-j symbol, kind: definition, wikipedia: 6-j symbol, wikidata: Q2606520}
+  - {name: Jack function, kind: definition, wikipedia: Jack function, wikidata: Q6115970}
+  - {name: Macdonald polynomials, kind: definition, wikipedia: Macdonald polynomials, wikidata: Q17098676}
+  - {name: Dunkl operator, kind: definition, wikipedia: Dunkl operator, wikidata: Q5315392}
+  - {name: Selberg integral, kind: statement, wikipedia: Selberg integral, wikidata: Q7447525}
+  - {name: Mehta integral, kind: statement, wikipedia: Selberg integral, wikidata: Q7447525}
+  - {name: Dyson conjecture, kind: statement, wikipedia: Dyson conjecture, wikidata: Q5319505}
+  - {name: Macdonald constant term conjecture, kind: statement, wikipedia: Macdonald polynomials, wikidata: Q17098676}
+  # Basic hypergeometric functions
+  - {name: q-analog, kind: concept, wikipedia: Q-analog, wikidata: Q3491352}
+  - {name: basic hypergeometric series, kind: definition, wikipedia: Basic hypergeometric series, wikidata: Q1062958}
+  - {name: q-binomial theorem, kind: statement, wikipedia: Gaussian binomial coefficient, wikidata: Q5527834}
+  - {name: q-exponential, kind: definition, wikipedia: Q-exponential, wikidata: Q1062655}
+  - {name: Jackson integral, kind: definition, wikipedia: Jackson integral, wikidata: Q6117826}
+  - {name: Heine's transformation, kind: statement, wikipedia: Basic hypergeometric series, wikidata: Q1062958}
+  - {name: q-Vandermonde identity, kind: statement, wikipedia: Basic hypergeometric series, wikidata: Q1062958}
+  - {name: Ramanujan's 1psi1 summation, kind: statement, wikipedia: Basic hypergeometric series, wikidata: Q1062958}
+  - {name: Jacobi triple product, kind: statement, wikipedia: Jacobi triple product, wikidata: Q507393}
+  - {name: quintuple product identity, kind: statement, wikipedia: Quintuple product identity, wikidata: Q7272511}
+  - {name: Rogers–Ramanujan identities, kind: statement, wikipedia: Rogers–Ramanujan identities, wikidata: Q7359380}
+  - {name: Bailey's lemma, kind: statement, wikipedia: Bailey pair, wikidata: Q4848398}
+  - {name: Ramanujan theta function, kind: definition, wikipedia: Ramanujan theta function, wikidata: Q2630765}
+  - {name: Rogers–Ramanujan continued fraction, kind: definition, wikipedia: Rogers–Ramanujan continued fraction, wikidata: Q7359378}
+  - {name: Askey–Wilson polynomials, kind: definition, wikipedia: Askey–Wilson polynomials, wikidata: Q4807191}
+  - {name: Rogers polynomials, kind: definition, wikipedia: Rogers polynomials, wikidata: Q7359351}
+  - {name: continuous q-Hermite polynomials, kind: definition, wikipedia: Continuous q-Hermite polynomials, wikidata: Q5165508}
+  - {name: little q-Jacobi polynomials, kind: definition, wikipedia: Little q-Jacobi polynomials, wikidata: Q6652769}
+  - {name: elliptic hypergeometric series, kind: definition, wikipedia: Elliptic hypergeometric series, wikidata: Q5365800}
+  # Elliptic integrals and elliptic functions
+  - {name: elliptic integral, kind: definition, wikipedia: Elliptic integral, wikidata: Q1126603}
+  - {name: complete elliptic integral of the first kind, kind: definition, wikipedia: Elliptic integral, wikidata: Q1126603}
+  - {name: complete elliptic integral of the second kind, kind: definition, wikipedia: Elliptic integral, wikidata: Q1126603}
+  - {name: Legendre's relation, kind: statement, wikipedia: Legendre's relation, wikidata: Q6517885}
+  - {name: Carlson symmetric forms, kind: definition, wikipedia: Carlson symmetric form, wikidata: Q5042922}
+  - {name: arithmetic–geometric mean and elliptic integrals, kind: statement, wikipedia: Arithmetic–geometric mean, wikidata: Q476167}
+  - {name: Landen's transformation, kind: statement, wikipedia: Landen's transformation, wikidata: Q11347570}
+  - {name: Jacobi elliptic functions, kind: definition, wikipedia: Jacobi elliptic functions, wikidata: Q1473526}
+  - {name: Jacobi amplitude, kind: definition, wikipedia: Jacobi elliptic functions, wikidata: Q1473526}
+  - {name: addition formulas for Jacobi elliptic functions, kind: statement, wikipedia: Jacobi elliptic functions, wikidata: Q1473526}
+  - {name: Weierstrass elliptic function, kind: definition, decl: PeriodPair.weierstrassP, wikipedia: Weierstrass elliptic function, wikidata: Q2343600}
+  - {name: Weierstrass zeta and sigma functions, kind: definition, wikipedia: 'Weierstrass sigma, zeta, and eta functions', wikidata: Q3075283}
+  - {name: lemniscate elliptic functions, kind: definition, wikipedia: Lemniscate elliptic functions, wikidata: Q6521248}
+  - {name: lemniscate constant, kind: object, wikipedia: Lemniscate constant, wikidata: Q1248689}
+  - {name: Dixon elliptic functions, kind: definition, wikipedia: Dixon elliptic functions, wikidata: Q28402589}
+  - {name: Jacobi theta functions, kind: definition, decl: jacobiTheta₂, wikipedia: Theta function, wikidata: Q1154787}
+  - {name: theta transformation formula, kind: statement, decl: jacobiTheta_S_smul, wikipedia: Theta function, wikidata: Q1154787}
+  - {name: Neville theta functions, kind: definition, wikipedia: Neville theta functions, wikidata: Q19514367}
+  - {name: nome, kind: definition, wikipedia: Nome (mathematics), wikidata: Q7048497}
+  - {name: Ramanujan's series for 1/pi, kind: statement, wikipedia: Ramanujan–Sato series, wikidata: Q17164696}
+  # Computation and identities
+  - {name: Wilf–Zeilberger pair, kind: definition, wikipedia: Wilf–Zeilberger pair, wikidata: Q3147828}
+  - {name: Gosper's algorithm, kind: definition, wikipedia: Gosper's algorithm, wikidata: Q5587427}
+  - {name: Zeilberger's algorithm, kind: definition, wikipedia: Wilf–Zeilberger pair, wikidata: Q3147828}
+  - {name: Chudnovsky algorithm, kind: definition, wikipedia: Chudnovsky algorithm, wikidata: Q2208385}

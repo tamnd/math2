@@ -1,0 +1,164 @@
+# The C2 skeleton of 85-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 85-XX
+title: astronomy and astrophysics
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+items:
+  # Spherical astronomy and astrometry
+  - {name: spherical astronomy, kind: concept, wikipedia: Spherical astronomy, wikidata: Q1129343}
+  - {name: celestial sphere, kind: definition, wikipedia: Celestial sphere, wikidata: Q12134}
+  - {name: celestial coordinate system, kind: definition, wikipedia: Astronomical coordinate systems, wikidata: Q86394}
+  - {name: equatorial coordinate system, kind: definition, wikipedia: Equatorial coordinate system, wikidata: Q208617}
+  - {name: ecliptic coordinate system, kind: definition, wikipedia: Ecliptic coordinate system, wikidata: Q500348}
+  - {name: horizontal coordinate system, kind: definition, wikipedia: Horizontal coordinate system, wikidata: Q625696}
+  - {name: galactic coordinate system, kind: definition, wikipedia: Galactic coordinate system, wikidata: Q385487}
+  - {name: right ascension, kind: definition, wikipedia: Right ascension, wikidata: Q13442}
+  - {name: declination, kind: definition, wikipedia: Declination, wikidata: Q76287}
+  - {name: hour angle, kind: definition, wikipedia: Hour angle, wikidata: Q734439}
+  - {name: sidereal time, kind: definition, wikipedia: Sidereal time, wikidata: Q191747}
+  - {name: equation of time, kind: definition, wikipedia: Equation of time, wikidata: Q186058}
+  - {name: analemma, kind: example, wikipedia: Analemma, wikidata: Q484737}
+  - {name: sunrise equation, kind: statement, wikipedia: Sunrise equation, wikidata: Q492486}
+  - {name: Julian day, kind: definition, wikipedia: Julian day, wikidata: Q14267}
+  - {name: axial precession, kind: concept, wikipedia: Axial precession, wikidata: Q83094}
+  - {name: nutation, kind: concept, wikipedia: Astronomical nutation, wikidata: Q190009}
+  - {name: aberration of light, kind: statement, wikipedia: Aberration (astronomy), wikidata: Q211728}
+  - {name: stellar parallax, kind: definition, wikipedia: Stellar parallax, wikidata: Q906561}
+  - {name: proper motion, kind: definition, wikipedia: Proper motion, wikidata: Q193223}
+  - {name: atmospheric refraction, kind: concept, wikipedia: Atmospheric refraction, wikidata: Q254634}
+  - {name: apparent magnitude, kind: definition, wikipedia: Apparent magnitude, wikidata: Q124313}
+  - {name: absolute magnitude, kind: definition, wikipedia: Absolute magnitude, wikidata: Q159653}
+  - {name: distance modulus, kind: definition, wikipedia: Distance modulus, wikidata: Q1193682}
+  - {name: cosmic distance ladder, kind: concept, wikipedia: Cosmic distance ladder, wikidata: Q618164}
+  - {name: Lomb–Scargle periodogram, kind: concept, wikipedia: Least-squares spectral analysis, wikidata: Q10569022}
+  # Stellar structure
+  - {name: stellar structure, kind: concept, wikipedia: Stellar structure, wikidata: Q6495}
+  - {name: hydrostatic equilibrium, kind: statement, wikipedia: Hydrostatic equilibrium, wikidata: Q208641}
+  - {name: polytrope, kind: definition, wikipedia: Polytrope, wikidata: Q3110129}
+  - {name: Lane–Emden equation, kind: definition, wikipedia: Lane–Emden equation, wikidata: Q1804812}
+  - {name: Emden–Chandrasekhar equation, kind: definition, wikipedia: Emden–Chandrasekhar equation, wikidata: Q30693533}
+  - {name: Chandrasekhar's white dwarf equation, kind: definition, wikipedia: Chandrasekhar's white dwarf equation, wikidata: Q48773561}
+  - {name: Chandrasekhar limit, kind: statement, wikipedia: Chandrasekhar limit, wikidata: Q51366}
+  - {name: Tolman–Oppenheimer–Volkoff limit, kind: statement, wikipedia: Tolman–Oppenheimer–Volkoff limit, wikidata: Q1139232}
+  - {name: Vogt–Russell theorem, kind: statement, wikipedia: Vogt–Russell theorem, wikidata: Q458549}
+  - {name: Eddington luminosity, kind: definition, wikipedia: Eddington luminosity, wikidata: Q853005}
+  - {name: mass–luminosity relation, kind: statement, wikipedia: Mass–luminosity relation, wikidata: Q1907452}
+  - {name: Kelvin–Helmholtz mechanism, kind: concept, wikipedia: Kelvin–Helmholtz mechanism, wikidata: Q477816}
+  - {name: Kelvin–Helmholtz timescale, kind: definition, wikipedia: Kelvin–Helmholtz mechanism, wikidata: Q477816}
+  - {name: Schwarzschild criterion for convection, kind: statement, wikipedia: Convection zone, wikidata: Q128034}
+  - {name: Ledoux criterion, kind: statement, wikipedia: Convection zone, wikidata: Q128034}
+  - {name: mixing length theory, kind: concept, wikipedia: Mixing length model, wikidata: Q6884077}
+  - {name: Kramers' opacity law, kind: statement, wikipedia: Kramers' opacity law, wikidata: Q17007596}
+  - {name: Saha ionization equation, kind: statement, wikipedia: Saha ionization equation, wikidata: Q631222}
+  - {name: Gamow factor, kind: definition, wikipedia: Gamow factor, wikidata: Q1349836}
+  - {name: Schönberg–Chandrasekhar limit, kind: statement, wikipedia: Schönberg–Chandrasekhar limit, wikidata: Q3704789}
+  - {name: Hayashi track, kind: concept, wikipedia: Hayashi track, wikidata: Q504908}
+  - {name: Henyey track, kind: concept, wikipedia: Henyey track, wikidata: Q175876}
+  - {name: von Zeipel theorem, kind: statement, wikipedia: Von Zeipel theorem, wikidata: Q1616875}
+  - {name: Maclaurin spheroid, kind: example, wikipedia: Maclaurin spheroid, wikidata: Q1882430}
+  - {name: Jacobi ellipsoid, kind: example, wikipedia: Jacobi ellipsoid, wikidata: Q33728375}
+  - {name: Dedekind ellipsoid, kind: example, wikipedia: Jacobi ellipsoid, wikidata: Q33728375}
+  - {name: Riemann ellipsoid, kind: example, wikipedia: Jacobi ellipsoid, wikidata: Q33728375}
+  # Stellar pulsation and seismology
+  - {name: stellar pulsation, kind: concept, wikipedia: Stellar pulsation, wikidata: Q353834}
+  - {name: kappa mechanism, kind: concept, wikipedia: Kappa–mechanism, wikidata: Q125993}
+  - {name: helioseismology, kind: concept, wikipedia: Helioseismology, wikidata: Q1068381}
+  - {name: asteroseismology, kind: concept, wikipedia: Asteroseismology, wikidata: Q94529}
+  - {name: Chandrasekhar–Friedman–Schutz instability, kind: statement, wikipedia: Chandrasekhar–Friedman–Schutz instability, wikidata: Q124655742}
+  # Radiation processes and radiative transfer
+  - {name: optical depth, kind: definition, wikipedia: Optical depth, wikidata: Q890809}
+  - {name: Rosseland mean opacity, kind: definition, wikipedia: Opacity, wikidata: Q691914}
+  - {name: limb darkening, kind: concept, wikipedia: Limb darkening, wikidata: Q772102}
+  - {name: Kirchhoff's law of thermal radiation, kind: statement, wikipedia: Kirchhoff's law of thermal radiation, wikidata: Q911035}
+  - {name: Stefan–Boltzmann law, kind: statement, wikipedia: Stefan–Boltzmann law, wikidata: Q704747}
+  - {name: Wien's displacement law, kind: statement, wikipedia: Wien's displacement law, wikidata: Q214336}
+  - {name: effective temperature, kind: definition, wikipedia: Effective temperature, wikidata: Q854050}
+  - {name: synchrotron radiation, kind: concept, wikipedia: Synchrotron radiation, wikidata: Q212871}
+  - {name: inverse Compton scattering, kind: concept, wikipedia: Compton scattering, wikidata: Q25424022}
+  - {name: Kompaneets equation, kind: definition, wikipedia: Kompaneyets equation, wikidata: Q126975065}
+  - {name: Sunyaev–Zeldovich effect, kind: statement, wikipedia: Sunyaev–Zeldovich effect, wikidata: Q1519204}
+  - {name: bremsstrahlung, kind: concept, wikipedia: Bremsstrahlung, wikidata: Q655904}
+  - {name: Strömgren sphere, kind: definition, wikipedia: Strömgren sphere, wikidata: Q1504097}
+  # Star formation and the interstellar medium
+  - {name: Jeans instability, kind: statement, wikipedia: Jeans instability, wikidata: Q1130216}
+  - {name: Jeans length, kind: definition, wikipedia: Jeans instability, wikidata: Q1130216}
+  - {name: free-fall time, kind: definition, wikipedia: Free-fall time, wikidata: Q5499609}
+  - {name: Bonnor–Ebert mass, kind: definition, wikipedia: Bonnor–Ebert mass, wikidata: Q4942478}
+  - {name: initial mass function, kind: definition, wikipedia: Initial mass function, wikidata: Q1194026}
+  - {name: Jeans escape, kind: concept, wikipedia: Atmospheric escape, wikidata: Q2568436}
+  - {name: Parker instability, kind: concept, wikipedia: Magnetic buoyancy, wikidata: Q117468458}
+  # Astrophysical fluid dynamics and plasma
+  - {name: Bondi accretion, kind: statement, wikipedia: Bondi accretion, wikidata: Q4941412}
+  - {name: accretion disk, kind: concept, wikipedia: Accretion disk, wikidata: Q237604}
+  - {name: Shakura–Sunyaev alpha disk model, kind: concept, wikipedia: Accretion disk, wikidata: Q237604}
+  - {name: magnetorotational instability, kind: statement, wikipedia: Magnetorotational instability, wikidata: Q381093}
+  - {name: Roche lobe, kind: definition, wikipedia: Roche lobe, wikidata: Q848485}
+  - {name: Roche limit, kind: statement, wikipedia: Roche limit, wikidata: Q232086}
+  - {name: Parker solar wind model, kind: statement, wikipedia: Solar wind, wikidata: Q79833}
+  - {name: Parker spiral, kind: definition, wikipedia: Heliospheric current sheet, wikidata: Q619081}
+  - {name: Sedov–Taylor blast wave solution, kind: statement, wikipedia: Taylor–von Neumann–Sedov blast wave, wikidata: Q104868831}
+  - {name: Fermi acceleration, kind: concept, wikipedia: Fermi acceleration, wikidata: Q2822925}
+  - {name: Blandford–Znajek process, kind: concept, wikipedia: Blandford–Znajek process, wikidata: Q4925027}
+  - {name: Goldreich–Julian density, kind: definition, wikipedia: Pulsar, wikidata: Q4360}
+  - {name: magnetic braking, kind: concept, wikipedia: Magnetic braking (astronomy), wikidata: Q6731515}
+  - {name: solar dynamo, kind: concept, wikipedia: Solar dynamo, wikidata: Q2377388}
+  - {name: Babcock–Leighton model, kind: concept, wikipedia: Solar dynamo, wikidata: Q2377388}
+  # Stellar dynamics
+  - {name: stellar dynamics, kind: concept, wikipedia: Stellar dynamics, wikidata: Q6333}
+  - {name: collisionless Boltzmann equation, kind: definition, wikipedia: Stellar dynamics, wikidata: Q6333}
+  - {name: Jeans equations, kind: statement, wikipedia: Jeans equations, wikidata: Q17050625}
+  - {name: Jeans's theorem, kind: statement, wikipedia: Jeans's theorem, wikidata: Q6172415}
+  - {name: two-body relaxation time, kind: definition, wikipedia: Relaxation (physics), wikidata: Q2142629}
+  - {name: dynamical friction, kind: statement, wikipedia: Dynamical friction, wikidata: Q1268968}
+  - {name: Plummer model, kind: example, wikipedia: Plummer model, wikidata: Q2099709}
+  - {name: singular isothermal sphere, kind: example, wikipedia: Singular isothermal sphere profile, wikidata: Q7524245}
+  - {name: Navarro–Frenk–White profile, kind: example, wikipedia: Navarro–Frenk–White profile, wikidata: Q6982166}
+  - {name: Einasto profile, kind: example, wikipedia: Einasto profile, wikidata: Q5349727}
+  - {name: Sérsic profile, kind: definition, wikipedia: Sérsic profile, wikidata: Q4184811}
+  - {name: de Vaucouleurs's law, kind: statement, wikipedia: De Vaucouleurs's law, wikidata: Q1179455}
+  - {name: Bahcall–Wolf cusp, kind: statement, wikipedia: Bahcall–Wolf cusp, wikidata: Q4842517}
+  - {name: N-body simulation, kind: concept, wikipedia: N-body simulation, wikidata: Q85787439}
+  - {name: Barnes–Hut simulation, kind: concept, wikipedia: Barnes–Hut simulation, wikidata: Q808453}
+  # Galactic structure and dynamics
+  - {name: galaxy rotation curve, kind: concept, wikipedia: Galaxy rotation curve, wikidata: Q1475614}
+  - {name: Oort constants, kind: definition, wikipedia: Oort constants, wikidata: Q1775715}
+  - {name: epicyclic frequency, kind: definition, wikipedia: Epicyclic frequency, wikidata: Q5382669}
+  - {name: Lindblad resonance, kind: definition, wikipedia: Lindblad resonance, wikidata: Q1825951}
+  - {name: density wave theory, kind: concept, wikipedia: Density wave theory, wikidata: Q1209551}
+  - {name: Toomre's stability criterion, kind: statement, wikipedia: Toomre's stability criterion, wikidata: Q18353297}
+  - {name: virial mass, kind: definition, wikipedia: Virial mass, wikidata: Q7934789}
+  - {name: Schechter luminosity function, kind: definition, wikipedia: Luminosity function (astronomy), wikidata: Q2734497}
+  # Gravitational lensing
+  - {name: lens equation, kind: statement, wikipedia: Gravitational lens, wikidata: Q185243}
+  - {name: Einstein radius, kind: definition, wikipedia: Einstein radius, wikidata: Q5349805}
+  - {name: strong gravitational lensing, kind: concept, wikipedia: Strong gravitational lensing, wikidata: Q7624558}
+  - {name: weak gravitational lensing, kind: concept, wikipedia: Weak gravitational lensing, wikidata: Q2974316}
+  - {name: gravitational microlensing, kind: concept, wikipedia: Gravitational microlensing, wikidata: Q1028022}
+  # Large-scale structure and physical cosmology
+  - {name: physical cosmology, kind: concept, wikipedia: Physical cosmology, wikidata: Q18346}
+  - {name: Olbers' paradox, kind: problem, wikipedia: Olbers' paradox, wikidata: Q33558}
+  - {name: Big Bang nucleosynthesis, kind: concept, wikipedia: Big Bang nucleosynthesis, wikidata: Q837317}
+  - {name: recombination, kind: concept, wikipedia: Recombination (cosmology), wikidata: Q3373825}
+  - {name: CMB angular power spectrum, kind: definition, wikipedia: Cosmic microwave background, wikidata: Q15605}
+  - {name: Silk damping, kind: concept, wikipedia: Diffusion damping, wikidata: Q956803}
+  - {name: baryon acoustic oscillations, kind: concept, wikipedia: Baryon acoustic oscillations, wikidata: Q809676}
+  - {name: structure formation, kind: concept, wikipedia: Structure formation, wikidata: Q2914363}
+  - {name: Jeans instability in an expanding universe, kind: statement, wikipedia: Structure formation, wikidata: Q2914363}
+  - {name: matter power spectrum, kind: definition, wikipedia: Matter power spectrum, wikidata: Q6789742}
+  - {name: Harrison–Zeldovich spectrum, kind: definition, wikipedia: Primordial fluctuations, wikidata: Q934257}
+  - {name: Zel'dovich approximation, kind: concept, wikipedia: Structure formation, wikidata: Q2914363}
+  - {name: Zel'dovich pancake, kind: concept, wikipedia: Zeldovich pancake, wikidata: Q3006333}
+  - {name: spherical collapse model, kind: concept, wikipedia: Structure formation, wikidata: Q2914363}
+  - {name: Press–Schechter formalism, kind: concept, wikipedia: Press–Schechter formalism, wikidata: Q7241751}
+  - {name: halo mass function, kind: definition, wikipedia: Halo mass function, wikidata: Q16885409}
+  - {name: galaxy two-point correlation function, kind: definition, wikipedia: Correlation function (astronomy), wikidata: Q5172850}
+  - {name: Tolman surface brightness test, kind: statement, wikipedia: Tolman surface brightness test, wikidata: Q7814443}
+  # Planetary systems
+  - {name: tidal locking, kind: statement, wikipedia: Tidal locking, wikidata: Q109144}
+  - {name: planetary migration, kind: concept, wikipedia: Planetary migration, wikidata: Q1203642}
+  - {name: Goldreich–Tremaine theory of disk–satellite interaction, kind: concept, wikipedia: Planetary migration, wikidata: Q1203642}
+  - {name: transit light curve, kind: concept, wikipedia: Methods of detecting exoplanets, wikidata: Q591022}
+  - {name: Poynting–Robertson effect, kind: statement, wikipedia: Poynting–Robertson effect, wikidata: Q1127701}
+  - {name: Yarkovsky effect, kind: statement, wikipedia: Yarkovsky effect, wikidata: Q139771}

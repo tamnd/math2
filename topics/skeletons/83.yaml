@@ -1,0 +1,255 @@
+# The C2 skeleton of 83-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 83-XX
+title: relativity and gravitation
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+items:
+  # Special relativity: kinematics
+  - {name: special relativity, kind: concept, wikipedia: Special relativity, wikidata: Q11455}
+  - {name: postulates of special relativity, kind: statement, wikipedia: Postulates of special relativity, wikidata: Q1309317}
+  - {name: principle of relativity, kind: concept, wikipedia: Principle of relativity, wikidata: Q945995}
+  - {name: Minkowski space, kind: definition, wikipedia: Minkowski spacetime, wikidata: Q464794}
+  - {name: spacetime interval, kind: definition, wikipedia: Spacetime, wikidata: Q133327}
+  - {name: light cone, kind: definition, wikipedia: Light cone, wikidata: Q1137903}
+  - {name: Lorentz transformation, kind: definition, wikipedia: Lorentz transformation, wikidata: Q217255}
+  - {name: Lorentz factor, kind: definition, wikipedia: Lorentz factor, wikidata: Q599404}
+  - {name: rapidity, kind: definition, wikipedia: Rapidity, wikidata: Q1366833}
+  - {name: time dilation, kind: statement, wikipedia: Time dilation, wikidata: Q185918}
+  - {name: length contraction, kind: statement, wikipedia: Length contraction, wikidata: Q836595}
+  - {name: relativity of simultaneity, kind: statement, wikipedia: Relativity of simultaneity, wikidata: Q837505}
+  - {name: velocity-addition formula, kind: statement, wikipedia: Velocity-addition formula, wikidata: Q1715792}
+  - {name: relativistic Doppler effect, kind: statement, wikipedia: Relativistic Doppler effect, wikidata: Q579900}
+  - {name: proper time, kind: definition, wikipedia: Proper time, wikidata: Q1056595}
+  - {name: world line, kind: definition, wikipedia: World line, wikidata: Q856292}
+  - {name: four-vector, kind: definition, wikipedia: Four-vector, wikidata: Q844610}
+  - {name: four-velocity, kind: definition, wikipedia: Four-velocity, wikidata: Q1322540}
+  - {name: four-acceleration, kind: definition, wikipedia: Four-acceleration, wikidata: Q2283172}
+  - {name: Thomas precession, kind: statement, wikipedia: Thomas precession, wikidata: Q1760062}
+  - {name: Wigner rotation, kind: statement, wikipedia: Wigner rotation, wikidata: Q25303636}
+  - {name: Alexandrov–Zeeman theorem on causal automorphisms, kind: statement, wikipedia: Causal structure, wikidata: Q2364925}
+  - {name: Rindler coordinates, kind: definition, wikipedia: Rindler coordinates, wikidata: Q4232160}
+  - {name: hyperbolic motion, kind: example, wikipedia: Hyperbolic motion (relativity), wikidata: Q3866303}
+  - {name: Born rigidity, kind: definition, wikipedia: Born rigidity, wikidata: Q4945922}
+  - {name: Herglotz–Noether theorem, kind: statement, wikipedia: Born rigidity, wikidata: Q4945922}
+  - {name: twin paradox, kind: problem, wikipedia: Twin paradox, wikidata: Q33539}
+  - {name: ladder paradox, kind: problem, wikipedia: Ladder paradox, wikidata: Q511755}
+  - {name: Bell's spaceship paradox, kind: problem, wikipedia: Bell's spaceship paradox, wikidata: Q816054}
+  - {name: Ehrenfest paradox, kind: problem, wikipedia: Ehrenfest paradox, wikidata: Q988429}
+  # Special relativity: dynamics
+  - {name: relativistic mechanics, kind: concept, wikipedia: Relativistic mechanics, wikidata: Q4393075}
+  - {name: four-momentum, kind: definition, wikipedia: Four-momentum, wikidata: Q1068463}
+  - {name: energy–momentum relation, kind: statement, wikipedia: Energy–momentum relation, wikidata: Q3502299}
+  - {name: mass–energy equivalence, kind: statement, wikipedia: Mass–energy equivalence, wikidata: Q35875}
+  - {name: invariant mass, kind: definition, wikipedia: Invariant mass, wikidata: Q1097654}
+  - {name: relativistic angular momentum, kind: definition, wikipedia: Relativistic angular momentum, wikidata: Q17099729}
+  - {name: stress–energy tensor, kind: definition, wikipedia: Stress–energy tensor, wikidata: Q876346}
+  - {name: relativistic Lagrangian of a free particle, kind: definition, wikipedia: Relativistic Lagrangian mechanics, wikidata: Q25303649}
+  # Foundations of general relativity
+  - {name: general relativity, kind: concept, wikipedia: General relativity, wikidata: Q11452}
+  - {name: spacetime, kind: concept, wikipedia: Spacetime, wikidata: Q133327}
+  - {name: equivalence principle, kind: statement, wikipedia: Equivalence principle, wikidata: Q210546}
+  - {name: general covariance, kind: concept, wikipedia: General covariance, wikidata: Q2638561}
+  - {name: Mach's principle, kind: concept, wikipedia: Mach's principle, wikidata: Q917909}
+  - {name: geodesics in general relativity, kind: definition, wikipedia: Geodesics in general relativity, wikidata: Q5533988}
+  - {name: geodesic deviation equation, kind: statement, wikipedia: Geodesic deviation, wikidata: Q1206762}
+  - {name: frame fields in general relativity, kind: definition, wikipedia: Frame fields in general relativity, wikidata: Q3816758}
+  - {name: Fermi–Walker transport, kind: definition, wikipedia: Fermi–Walker transport, wikidata: Q5444419}
+  - {name: Fermi normal coordinates, kind: definition, wikipedia: Fermi coordinates, wikidata: Q5444397}
+  - {name: Einstein tensor, kind: definition, wikipedia: Einstein tensor, wikidata: Q550929}
+  - {name: Einstein field equations, kind: statement, wikipedia: Einstein field equations, wikidata: Q273711}
+  - {name: cosmological constant, kind: definition, wikipedia: Cosmological constant, wikidata: Q59151}
+  - {name: Einstein–Hilbert action, kind: definition, wikipedia: Einstein–Hilbert action, wikidata: Q239224}
+  - {name: Palatini variation, kind: concept, wikipedia: Palatini variation, wikidata: Q17104967}
+  - {name: Gibbons–Hawking–York boundary term, kind: definition, wikipedia: Gibbons–Hawking–York boundary term, wikidata: Q5558922}
+  - {name: Einstein–Infeld–Hoffmann equations, kind: definition, wikipedia: Einstein–Infeld–Hoffmann equations, wikidata: Q1309251}
+  - {name: Newtonian limit, kind: statement, wikipedia: Newtonian limit, wikidata: Q7020536}
+  - {name: linearized gravity, kind: concept, wikipedia: Linearized gravity, wikidata: Q546984}
+  - {name: gravitoelectromagnetism, kind: concept, wikipedia: Gravitoelectromagnetism, wikidata: Q1150290}
+  - {name: post-Newtonian expansion, kind: concept, wikipedia: Post-Newtonian expansion, wikidata: Q1002299}
+  - {name: parameterized post-Newtonian formalism, kind: concept, wikipedia: Parameterized post-Newtonian formalism, wikidata: Q2621284}
+  - {name: energy conditions, kind: definition, wikipedia: Energy condition, wikidata: Q986455}
+  - {name: perfect fluid, kind: definition, wikipedia: Perfect fluid, wikidata: Q613845}
+  - {name: Tolman–Oppenheimer–Volkoff equation, kind: statement, wikipedia: Tolman–Oppenheimer–Volkoff equation, wikidata: Q2735407}
+  - {name: Buchdahl's theorem, kind: statement, wikipedia: Buchdahl's theorem, wikidata: Q18415473}
+  - {name: Birkhoff's theorem, kind: statement, wikipedia: Birkhoff's theorem (relativity), wikidata: Q865665}
+  # Spacetime geometry and causal structure
+  - {name: causal structure, kind: concept, wikipedia: Causal structure, wikidata: Q2364925}
+  - {name: causality conditions, kind: definition, wikipedia: Causality conditions, wikidata: Q5054576}
+  - {name: globally hyperbolic spacetime, kind: definition, wikipedia: Globally hyperbolic spacetime, wikidata: Q5570942}
+  - {name: Cauchy surface, kind: definition, wikipedia: Cauchy surface, wikidata: Q5054343}
+  - {name: Geroch's splitting theorem, kind: statement, wikipedia: Globally hyperbolic spacetime, wikidata: Q5570942}
+  - {name: closed timelike curve, kind: definition, wikipedia: Closed timelike curve, wikidata: Q1876815}
+  - {name: chronology protection conjecture, kind: conjecture, wikipedia: Chronology protection conjecture, wikidata: Q2561743}
+  - {name: conformal compactification and Penrose diagram, kind: definition, wikipedia: Penrose diagram, wikidata: Q864015}
+  - {name: asymptotically flat spacetime, kind: definition, wikipedia: Asymptotically flat spacetime, wikidata: Q4812194}
+  - {name: Raychaudhuri equation, kind: statement, wikipedia: Raychaudhuri equation, wikidata: Q2134013}
+  - {name: congruence of geodesics, kind: definition, wikipedia: Congruence (general relativity), wikidata: Q2993021}
+  - {name: Petrov classification, kind: statement, wikipedia: Petrov classification, wikidata: Q4223027}
+  - {name: Newman–Penrose formalism, kind: concept, wikipedia: Newman–Penrose formalism, wikidata: Q17104790}
+  - {name: Goldberg–Sachs theorem, kind: statement, wikipedia: Goldberg–Sachs theorem, wikidata: Q5579030}
+  - {name: Bel–Robinson tensor, kind: definition, wikipedia: Bel–Robinson tensor, wikidata: Q4884978}
+  - {name: Killing horizon, kind: definition, wikipedia: Killing horizon, wikidata: Q6407790}
+  - {name: spin connection, kind: definition, wikipedia: Spin connection, wikidata: Q3687052}
+  - {name: twistor theory, kind: concept, wikipedia: Twistor theory, wikidata: Q279082}
+  - {name: Penrose transform, kind: statement, wikipedia: Penrose transform, wikidata: Q7164655}
+  # Initial value problem and Hamiltonian formulation
+  - {name: initial value formulation of general relativity, kind: concept, wikipedia: Initial value formulation (general relativity), wikidata: Q6034143}
+  - {name: Choquet-Bruhat–Geroch theorem on maximal developments, kind: statement, wikipedia: Initial value formulation (general relativity), wikidata: Q6034143}
+  - {name: ADM formalism, kind: concept, wikipedia: ADM formalism, wikidata: Q290420}
+  - {name: Hamiltonian constraint, kind: definition, wikipedia: Hamiltonian constraint, wikidata: Q5645295}
+  - {name: harmonic coordinate condition, kind: definition, wikipedia: Harmonic coordinate condition, wikidata: Q5659253}
+  - {name: BSSN formalism, kind: concept, wikipedia: BSSN formalism, wikidata: Q3748129}
+  - {name: numerical relativity, kind: concept, wikipedia: Numerical relativity, wikidata: Q10359034}
+  - {name: nonlinear stability of Minkowski space, kind: statement, wikipedia: Minkowski spacetime, wikidata: Q464794}
+  # Mass, energy and conserved quantities
+  - {name: mass in general relativity, kind: concept, wikipedia: Mass in general relativity, wikidata: Q6784057}
+  - {name: ADM energy, kind: definition, wikipedia: ADM formalism, wikidata: Q290420}
+  - {name: Komar mass, kind: definition, wikipedia: Komar mass, wikidata: Q6428138}
+  - {name: Bondi mass, kind: definition, wikipedia: Mass in general relativity, wikidata: Q6784057}
+  - {name: Landau–Lifshitz pseudotensor, kind: definition, wikipedia: Stress–energy–momentum pseudotensor, wikidata: Q7623461}
+  - {name: positive energy theorem, kind: statement, wikipedia: Positive energy theorem, wikidata: Q4179283}
+  - {name: Penrose inequality, kind: conjecture, wikipedia: Riemannian Penrose inequality, wikidata: Q7333121}
+  - {name: Bondi–Metzner–Sachs group, kind: object, wikipedia: Bondi–Metzner–Sachs group, wikidata: Q28456647}
+  # Exact solutions
+  - {name: exact solutions in general relativity, kind: concept, wikipedia: Exact solutions in general relativity, wikidata: Q5419229}
+  - {name: vacuum solution, kind: definition, wikipedia: Vacuum solution, wikidata: Q7908077}
+  - {name: electrovacuum solution, kind: definition, wikipedia: Electrovacuum solution, wikidata: Q5358583}
+  - {name: Schwarzschild metric, kind: example, wikipedia: Schwarzschild metric, wikidata: Q742969}
+  - {name: interior Schwarzschild metric, kind: example, wikipedia: Interior Schwarzschild metric, wikidata: Q25113032}
+  - {name: Eddington–Finkelstein coordinates, kind: definition, wikipedia: Eddington–Finkelstein coordinates, wikidata: Q5336608}
+  - {name: Kruskal–Szekeres coordinates, kind: definition, wikipedia: Kruskal–Szekeres coordinates, wikidata: Q1478885}
+  - {name: Reissner–Nordström metric, kind: example, wikipedia: Reissner–Nordström metric, wikidata: Q540664}
+  - {name: Kerr metric, kind: example, wikipedia: Kerr metric, wikidata: Q1068747}
+  - {name: Boyer–Lindquist coordinates, kind: definition, wikipedia: Boyer–Lindquist coordinates, wikidata: Q2996687}
+  - {name: Kerr–Newman metric, kind: example, wikipedia: Kerr–Newman metric, wikidata: Q1190600}
+  - {name: Carter constant, kind: definition, wikipedia: Carter constant, wikidata: Q2994909}
+  - {name: de Sitter space, kind: example, wikipedia: De Sitter space, wikidata: Q1179448}
+  - {name: anti-de Sitter space, kind: example, wikipedia: Anti-de Sitter space, wikidata: Q574780}
+  - {name: Gödel metric, kind: example, wikipedia: Gödel metric, wikidata: Q1559192}
+  - {name: pp-wave spacetime, kind: example, wikipedia: Pp-wave spacetime, wikidata: Q3966083}
+  - {name: Taub–NUT space, kind: example, wikipedia: Taub–NUT space, wikidata: Q4016655}
+  - {name: Kasner metric, kind: example, wikipedia: Kasner metric, wikidata: Q3333767}
+  - {name: Vaidya metric, kind: example, wikipedia: Vaidya metric, wikidata: Q7908710}
+  - {name: Lemaître–Tolman metric, kind: example, wikipedia: Lemaître–Tolman metric, wikidata: Q6521045}
+  - {name: Oppenheimer–Snyder model of collapse, kind: example, wikipedia: Oppenheimer–Snyder model, wikidata: Q121493524}
+  - {name: Ernst equation, kind: definition, wikipedia: Ernst equation, wikidata: Q5395202}
+  - {name: Weyl–Lewis–Papapetrou coordinates, kind: definition, wikipedia: Weyl–Lewis–Papapetrou coordinates, wikidata: Q17104686}
+  - {name: wormhole, kind: concept, wikipedia: Wormhole, wikidata: Q7544}
+  - {name: Ellis wormhole, kind: example, wikipedia: Ellis wormhole, wikidata: Q25313226}
+  - {name: Alcubierre metric, kind: example, wikipedia: Alcubierre drive, wikidata: Q169890}
+  # Black holes
+  - {name: black hole, kind: concept, wikipedia: Black hole, wikidata: Q589}
+  - {name: event horizon, kind: definition, wikipedia: Event horizon, wikidata: Q181741}
+  - {name: Schwarzschild radius, kind: definition, wikipedia: Schwarzschild radius, wikidata: Q72755}
+  - {name: trapped surface, kind: definition, wikipedia: Trapped surface, wikidata: Q7835643}
+  - {name: photon sphere, kind: definition, wikipedia: Photon sphere, wikidata: Q2361910}
+  - {name: innermost stable circular orbit, kind: definition, wikipedia: Innermost stable circular orbit, wikidata: Q25110047}
+  - {name: ergosphere, kind: definition, wikipedia: Ergosphere, wikidata: Q656650}
+  - {name: Penrose process, kind: statement, wikipedia: Penrose process, wikidata: Q616172}
+  - {name: gravitational singularity, kind: concept, wikipedia: Gravitational singularity, wikidata: Q201721}
+  - {name: Kretschmann scalar, kind: definition, wikipedia: Kretschmann scalar, wikidata: Q6436867}
+  - {name: Penrose–Hawking singularity theorems, kind: statement, wikipedia: Penrose–Hawking singularity theorems, wikidata: Q1452678}
+  - {name: weak cosmic censorship conjecture, kind: conjecture, wikipedia: Cosmic censorship hypothesis, wikidata: Q1191211}
+  - {name: strong cosmic censorship conjecture, kind: conjecture, wikipedia: Cosmic censorship hypothesis, wikidata: Q1191211}
+  - {name: hoop conjecture, kind: conjecture, wikipedia: Hoop conjecture, wikidata: Q1673713}
+  - {name: no-hair theorem, kind: statement, wikipedia: No-hair theorem, wikidata: Q1376515}
+  - {name: black hole uniqueness theorems, kind: statement, wikipedia: No-hair theorem, wikidata: Q1376515}
+  - {name: Hawking area theorem, kind: statement, wikipedia: Black hole thermodynamics, wikidata: Q911284}
+  - {name: laws of black hole mechanics, kind: statement, wikipedia: Black hole thermodynamics, wikidata: Q911284}
+  - {name: Bekenstein–Hawking entropy, kind: statement, wikipedia: Black hole thermodynamics, wikidata: Q911284}
+  - {name: Bekenstein bound, kind: statement, wikipedia: Bekenstein bound, wikidata: Q815018}
+  - {name: Hawking radiation, kind: statement, wikipedia: Hawking radiation, wikidata: Q497396}
+  - {name: black hole information paradox, kind: problem, wikipedia: Black hole information paradox, wikidata: Q1471710}
+  - {name: quasinormal mode, kind: definition, wikipedia: Quasinormal mode, wikidata: Q48937708}
+  - {name: black hole stability problem, kind: problem, wikipedia: Black hole, wikidata: Q589}
+  # Gravitational waves
+  - {name: gravitational wave, kind: concept, wikipedia: Gravitational wave, wikidata: Q190035}
+  - {name: quadrupole formula, kind: statement, wikipedia: Quadrupole formula, wikidata: Q18389841}
+  - {name: gravitational radiation reaction, kind: concept, wikipedia: Gravitational wave, wikidata: Q190035}
+  - {name: two-body problem in general relativity, kind: problem, wikipedia: Two-body problem in general relativity, wikidata: Q1006428}
+  - {name: Kepler problem in general relativity, kind: problem, wikipedia: Schwarzschild geodesics, wikidata: Q11757549}
+  - {name: gravitational memory effect, kind: statement, wikipedia: Gravitational memory effect, wikidata: Q97943607}
+  # Classical tests and observational relativity
+  - {name: tests of general relativity, kind: concept, wikipedia: Tests of general relativity, wikidata: Q2297564}
+  - {name: perihelion precession of Mercury, kind: statement, wikipedia: Tests of general relativity, wikidata: Q2297564}
+  - {name: gravitational deflection of light, kind: statement, wikipedia: Gravitational lens, wikidata: Q185243}
+  - {name: Einstein ring, kind: example, wikipedia: Einstein ring, wikidata: Q912471}
+  - {name: gravitational redshift, kind: statement, wikipedia: Gravitational redshift, wikidata: Q656181}
+  - {name: Shapiro time delay, kind: statement, wikipedia: Shapiro time delay, wikidata: Q1848968}
+  - {name: frame-dragging, kind: statement, wikipedia: Frame-dragging, wikidata: Q15149343}
+  - {name: Lense–Thirring precession, kind: statement, wikipedia: Lense–Thirring precession, wikidata: Q11083519}
+  - {name: geodetic effect, kind: statement, wikipedia: Geodetic effect, wikidata: Q2711882}
+  - {name: Sagnac effect, kind: statement, wikipedia: Sagnac effect, wikidata: Q582007}
+  # Alternative theories of gravity
+  - {name: alternatives to general relativity, kind: concept, wikipedia: Alternatives to general relativity, wikidata: Q3702775}
+  - {name: Nordström's theory of gravitation, kind: concept, wikipedia: Nordström's theory of gravitation, wikidata: Q4455094}
+  - {name: scalar–tensor theory, kind: concept, wikipedia: Scalar–tensor theory, wikidata: Q687027}
+  - {name: Brans–Dicke theory, kind: concept, wikipedia: Brans–Dicke theory, wikidata: Q898809}
+  - {name: Horndeski's theory, kind: concept, wikipedia: Horndeski's theory, wikidata: Q48998302}
+  - {name: f(R) gravity, kind: concept, wikipedia: F(R) gravity, wikidata: Q3266751}
+  - {name: Lovelock's theorem, kind: statement, wikipedia: Lovelock's theorem, wikidata: Q28194853}
+  - {name: Lovelock theory of gravity, kind: concept, wikipedia: Lovelock theory of gravity, wikidata: Q6692247}
+  - {name: Einstein–Gauss–Bonnet gravity, kind: concept, wikipedia: Gauss–Bonnet gravity, wikidata: Q5527855}
+  - {name: Einstein–Cartan theory, kind: concept, wikipedia: Einstein–Cartan theory, wikidata: Q1067602}
+  - {name: teleparallelism, kind: concept, wikipedia: Teleparallelism, wikidata: Q4454070}
+  - {name: massive gravity, kind: concept, wikipedia: Massive gravity, wikidata: Q4147361}
+  - {name: bimetric gravity, kind: concept, wikipedia: Bimetric gravity, wikidata: Q3318058}
+  - {name: Hořava–Lifshitz gravity, kind: concept, wikipedia: Hořava–Lifshitz gravity, wikidata: Q5923177}
+  - {name: modified Newtonian dynamics, kind: concept, wikipedia: Modified Newtonian dynamics, wikidata: Q1503556}
+  - {name: conformal gravity, kind: concept, wikipedia: Conformal gravity, wikidata: Q5160256}
+  # Unified and higher-dimensional theories
+  - {name: Kaluza–Klein theory, kind: concept, wikipedia: Kaluza–Klein theory, wikidata: Q944095}
+  - {name: supergravity, kind: concept, wikipedia: Supergravity, wikidata: Q958871}
+  - {name: eleven-dimensional supergravity, kind: concept, wikipedia: Eleven-dimensional supergravity, wikidata: Q128602199}
+  - {name: M-theory, kind: concept, wikipedia: M-theory, wikidata: Q232184}
+  - {name: brane, kind: concept, wikipedia: Brane, wikidata: Q385601}
+  - {name: Randall–Sundrum model, kind: concept, wikipedia: Randall–Sundrum model, wikidata: Q1135677}
+  - {name: holographic principle, kind: concept, wikipedia: Holographic principle, wikidata: Q911473}
+  - {name: Ryu–Takayanagi formula, kind: statement, wikipedia: Ryu–Takayanagi conjecture, wikidata: Q30673556}
+  # Quantum gravity
+  - {name: quantum gravity, kind: problem, wikipedia: Quantum gravity, wikidata: Q234181}
+  - {name: semiclassical gravity, kind: concept, wikipedia: Semiclassical gravity, wikidata: Q3775955}
+  - {name: Wheeler–DeWitt equation, kind: definition, wikipedia: Wheeler–DeWitt equation, wikidata: Q1368870}
+  - {name: problem of time, kind: problem, wikipedia: Problem of time, wikidata: Q18344764}
+  - {name: Euclidean quantum gravity, kind: concept, wikipedia: Euclidean quantum gravity, wikidata: Q2246283}
+  - {name: Hartle–Hawking state, kind: definition, wikipedia: Hartle–Hawking proposal, wikidata: Q958793}
+  - {name: loop quantum gravity, kind: concept, wikipedia: Loop quantum gravity, wikidata: Q739962}
+  - {name: Ashtekar variables, kind: definition, wikipedia: Ashtekar variables, wikidata: Q706376}
+  - {name: spin network, kind: definition, wikipedia: Spin network, wikidata: Q654081}
+  - {name: spin foam, kind: definition, wikipedia: Spin foam, wikidata: Q914299}
+  - {name: Regge calculus, kind: concept, wikipedia: Regge calculus, wikidata: Q1055042}
+  - {name: causal dynamical triangulation, kind: concept, wikipedia: Causal dynamical triangulation, wikidata: Q2247122}
+  - {name: causal sets, kind: concept, wikipedia: Causal sets, wikidata: Q1139715}
+  - {name: asymptotic safety in quantum gravity, kind: conjecture, wikipedia: Asymptotic safety, wikidata: Q17004315}
+  - {name: three-dimensional gravity and BTZ black hole, kind: example, wikipedia: BTZ black hole, wikidata: Q4836741}
+  # Relativistic cosmology
+  - {name: cosmological principle, kind: concept, wikipedia: Cosmological principle, wikidata: Q319903}
+  - {name: Friedmann–Lemaître–Robertson–Walker metric, kind: example, wikipedia: Friedmann–Lemaître–Robertson–Walker metric, wikidata: Q742982}
+  - {name: Friedmann equations, kind: statement, wikipedia: Friedmann equations, wikidata: Q467736}
+  - {name: scale factor, kind: definition, wikipedia: Scale factor (cosmology), wikidata: Q1332997}
+  - {name: Hubble's law, kind: statement, wikipedia: Hubble's law, wikidata: Q179916}
+  - {name: cosmological redshift, kind: definition, wikipedia: Redshift, wikidata: Q76250}
+  - {name: deceleration parameter, kind: definition, wikipedia: Deceleration parameter, wikidata: Q3363554}
+  - {name: equation of state in cosmology, kind: definition, wikipedia: Equation of state (cosmology), wikidata: Q2653702}
+  - {name: distance measures in cosmology, kind: definition, wikipedia: Distance measure, wikidata: Q1344778}
+  - {name: particle horizon, kind: definition, wikipedia: Particle horizon, wikidata: Q2482717}
+  - {name: cosmological horizon, kind: definition, wikipedia: Cosmological horizon, wikidata: Q2348536}
+  - {name: Einstein static universe, kind: example, wikipedia: Static universe, wikidata: Q1190516}
+  - {name: de Sitter universe, kind: example, wikipedia: De Sitter universe, wikidata: Q3036474}
+  - {name: Milne model, kind: example, wikipedia: Milne model, wikidata: Q1635593}
+  - {name: Einstein–de Sitter universe, kind: example, wikipedia: Einstein–de Sitter universe, wikidata: Q3058175}
+  - {name: Lambda-CDM model, kind: concept, wikipedia: Lambda-CDM model, wikidata: Q692197}
+  - {name: Bianchi classification of homogeneous cosmologies, kind: statement, wikipedia: Bianchi classification, wikidata: Q2976541}
+  - {name: mixmaster universe, kind: example, wikipedia: Mixmaster universe, wikidata: Q3551264}
+  - {name: BKL singularity, kind: statement, wikipedia: BKL singularity, wikidata: Q3484987}
+  - {name: Big Bang, kind: concept, wikipedia: Big Bang, wikidata: Q323}
+  - {name: cosmic inflation, kind: concept, wikipedia: Cosmic inflation, wikidata: Q273508}
+  - {name: horizon problem, kind: problem, wikipedia: Horizon problem, wikidata: Q590581}
+  - {name: flatness problem, kind: problem, wikipedia: Flatness problem, wikidata: Q2078326}
+  - {name: Borde–Guth–Vilenkin theorem, kind: statement, wikipedia: Borde–Guth–Vilenkin theorem, wikidata: Q85850287}
+  - {name: cosmological perturbation theory, kind: concept, wikipedia: Cosmological perturbation theory, wikidata: Q3526841}
+  - {name: Sachs–Wolfe effect, kind: statement, wikipedia: Sachs–Wolfe effect, wikidata: Q1617362}
+  - {name: cosmological constant problem, kind: problem, wikipedia: Cosmological constant problem, wikidata: Q4379531}
+  - {name: quintessence, kind: concept, wikipedia: Quintessence (physics), wikidata: Q1777391}

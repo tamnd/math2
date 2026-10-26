@@ -1,0 +1,220 @@
+# The C2 skeleton of 31-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 31-XX
+title: potential theory
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+items:
+  # Basic notions
+  - {name: potential theory, kind: concept, wikipedia: Potential theory, wikidata: Q1154848}
+  - {name: Laplace operator, kind: definition, decl: Laplacian, wikipedia: Laplace operator, wikidata: Q203484}
+  - {name: harmonic function, kind: definition, decl: InnerProductSpace.HarmonicOnNhd, wikipedia: Harmonic function, wikidata: Q599027}
+  - {name: harmonic at a point, kind: definition, decl: InnerProductSpace.HarmonicAt, wikipedia: Harmonic function, wikidata: Q599027}
+  - {name: harmonic polynomial, kind: definition, wikipedia: Harmonic polynomial, wikidata: Q4133834}
+  - {name: fundamental solution of the Laplacian, kind: definition, wikipedia: Fundamental solution, wikidata: Q1474123}
+  - {name: Newtonian kernel, kind: definition, wikipedia: Newtonian potential, wikidata: Q4328383}
+  - {name: logarithmic kernel, kind: definition, wikipedia: Fundamental solution, wikidata: Q1474123}
+  - {name: Newtonian potential, kind: definition, wikipedia: Newtonian potential, wikidata: Q4328383}
+  - {name: logarithmic potential, kind: definition, wikipedia: Potential theory, wikidata: Q1154848}
+  - {name: potential of a measure, kind: definition, wikipedia: Potential theory, wikidata: Q1154848}
+  - {name: Poisson's equation, kind: definition, wikipedia: Poisson's equation, wikidata: Q827688}
+  - {name: Green's identities, kind: statement, wikipedia: Green's identities, wikidata: Q1544810}
+  - {name: Gauss's law for potentials, kind: statement, wikipedia: Gauss's law for gravity, wikidata: Q3180597}
+  - {name: shell theorem, kind: statement, wikipedia: Shell theorem, wikidata: Q2222575}
+  - {name: Earnshaw's theorem, kind: statement, wikipedia: Earnshaw's theorem, wikidata: Q1064471}
+  # Harmonic functions
+  - {name: mean value property, kind: statement, decl: InnerProductSpace.HarmonicOnNhd.circleAverage_eq, wikipedia: Harmonic function, wikidata: Q599027}
+  - {name: converse of the mean value property, kind: statement, wikipedia: Harmonic function, wikidata: Q599027}
+  - {name: Koebe's theorem on the mean value property, kind: statement, wikipedia: Harmonic function, wikidata: Q599027}
+  - {name: maximum principle for harmonic functions, kind: statement, wikipedia: Maximum principle, wikidata: Q1914255}
+  - {name: minimum principle for harmonic functions, kind: statement, wikipedia: Maximum principle, wikidata: Q1914255}
+  - {name: Liouville's theorem for harmonic functions, kind: statement, wikipedia: Harmonic function, wikidata: Q599027}
+  - {name: smoothness and analyticity of harmonic functions, kind: statement, wikipedia: Harmonic function, wikidata: Q599027}
+  - {name: Weyl's lemma, kind: statement, wikipedia: Weyl's lemma (Laplace equation), wikidata: Q7990327}
+  - {name: Harnack's inequality, kind: statement, wikipedia: Harnack's inequality, wikidata: Q868279}
+  - {name: Harnack's principle, kind: statement, wikipedia: Harnack's principle, wikidata: Q1135706}
+  - {name: gradient estimates for harmonic functions, kind: statement, wikipedia: Harmonic function, wikidata: Q599027}
+  - {name: compactness of families of harmonic functions, kind: statement, wikipedia: Harnack's principle, wikidata: Q1135706}
+  - {name: removable singularities for harmonic functions, kind: statement, wikipedia: Removable singularity, wikidata: Q1974087}
+  - {name: Bôcher's theorem, kind: statement, wikipedia: Bôcher's theorem, wikidata: Q5005143}
+  - {name: Kelvin transform, kind: definition, wikipedia: Kelvin transform, wikidata: Q4377358}
+  - {name: Schwarz reflection principle for harmonic functions, kind: statement, wikipedia: Schwarz reflection principle, wikidata: Q4378892}
+  - {name: positive harmonic function, kind: definition, wikipedia: Positive harmonic function, wikidata: Q7233271}
+  - {name: harmonic function on a ball, kind: example, wikipedia: Poisson kernel, wikidata: Q2596534}
+  - {name: expansion in spherical harmonics, kind: statement, wikipedia: Spherical harmonics, wikidata: Q877100}
+  - {name: Fischer decomposition, kind: statement, wikipedia: Harmonic polynomial, wikidata: Q4133834}
+  - {name: polyharmonic function, kind: definition, wikipedia: Biharmonic equation, wikidata: Q859808}
+  - {name: biharmonic function, kind: definition, wikipedia: Biharmonic equation, wikidata: Q859808}
+  - {name: harmonic measure, kind: definition, wikipedia: Harmonic measure, wikidata: Q5659270}
+  # Dirichlet problem and Green's functions
+  - {name: Dirichlet problem, kind: problem, wikipedia: Dirichlet problem, wikidata: Q1192869}
+  - {name: Neumann problem, kind: problem, wikipedia: Neumann boundary condition, wikidata: Q1149279}
+  - {name: Poisson kernel, kind: definition, decl: poissonKernel, wikipedia: Poisson kernel, wikidata: Q2596534}
+  - {name: Poisson integral formula, kind: statement, decl: InnerProductSpace.HarmonicOnNhd.circleAverage_poissonKernel_smul, wikipedia: Poisson kernel, wikidata: Q2596534}
+  - {name: Poisson integral for the half-space, kind: statement, wikipedia: Poisson kernel, wikidata: Q2596534}
+  - {name: Green's function of a domain, kind: definition, wikipedia: Green's function, wikidata: Q378435}
+  - {name: symmetry of the Green function, kind: statement, wikipedia: Green's function, wikidata: Q378435}
+  - {name: Green's function of the ball, kind: example, wikipedia: Green's function for the three-variable Laplace equation, wikidata: Q5602166}
+  - {name: method of images, kind: concept, wikipedia: Method of image charges, wikidata: Q1372220}
+  - {name: Dirichlet's principle, kind: statement, wikipedia: Dirichlet's principle, wikidata: Q975727}
+  - {name: Dirichlet energy, kind: definition, wikipedia: Dirichlet energy, wikidata: Q5280760}
+  - {name: Perron method, kind: concept, wikipedia: Perron method, wikidata: Q7169664}
+  - {name: Perron–Wiener–Brelot solution, kind: definition, wikipedia: Perron method, wikidata: Q7169664}
+  - {name: barrier, kind: definition, wikipedia: Perron method, wikidata: Q7169664}
+  - {name: regular boundary point, kind: definition, wikipedia: Perron method, wikidata: Q7169664}
+  - {name: Wiener's criterion, kind: statement, wikipedia: Capacity of a set, wikidata: Q5034494}
+  - {name: Lebesgue spine, kind: counterexample, wikipedia: Lebesgue spine, wikidata: Q6511322}
+  - {name: Zaremba's punctured ball, kind: counterexample, wikipedia: Dirichlet problem, wikidata: Q1192869}
+  - {name: exterior cone condition, kind: statement, wikipedia: Dirichlet problem, wikidata: Q1192869}
+  - {name: Kellogg–Evans theorem, kind: statement, wikipedia: Polar set (potential theory), wikidata: Q7209102}
+  - {name: resolutivity of boundary functions, kind: definition, wikipedia: Perron method, wikidata: Q7169664}
+  - {name: Keldysh's theorem on stability of the Dirichlet problem, kind: statement, wikipedia: Dirichlet problem, wikidata: Q1192869}
+  - {name: single layer potential, kind: definition, wikipedia: Newtonian potential, wikidata: Q4328383}
+  - {name: double layer potential, kind: definition, wikipedia: Double layer potential, wikidata: Q5300057}
+  - {name: jump relations for layer potentials, kind: statement, wikipedia: Double layer potential, wikidata: Q5300057}
+  - {name: boundary integral method for the Dirichlet problem, kind: concept, wikipedia: Boundary element method, wikidata: Q1935004}
+  - {name: Robin problem, kind: problem, wikipedia: Robin boundary condition, wikidata: Q748993}
+  # Subharmonic functions
+  - {name: subharmonic function, kind: definition, wikipedia: Subharmonic function, wikidata: Q753658}
+  - {name: superharmonic function, kind: definition, wikipedia: Subharmonic function, wikidata: Q753658}
+  - {name: upper semicontinuous function, kind: definition, decl: UpperSemicontinuous, wikipedia: Semi-continuity, wikidata: Q955072}
+  - {name: sub-mean value property, kind: statement, wikipedia: Subharmonic function, wikidata: Q753658}
+  - {name: maximum principle for subharmonic functions, kind: statement, wikipedia: Subharmonic function, wikidata: Q753658}
+  - {name: log-modulus of a holomorphic function is subharmonic, kind: statement, wikipedia: Subharmonic function, wikidata: Q753658}
+  - {name: convex functions of subharmonic functions, kind: statement, wikipedia: Subharmonic function, wikidata: Q753658}
+  - {name: Riesz measure of a subharmonic function, kind: definition, wikipedia: Subharmonic function, wikidata: Q753658}
+  - {name: Riesz decomposition theorem, kind: statement, wikipedia: Subharmonic function, wikidata: Q753658}
+  - {name: harmonic majorant, kind: definition, wikipedia: Subharmonic function, wikidata: Q753658}
+  - {name: least harmonic majorant, kind: definition, wikipedia: Subharmonic function, wikidata: Q753658}
+  - {name: Hadamard three-circle theorem for subharmonic functions, kind: statement, wikipedia: Hadamard three-circle theorem, wikidata: Q729359}
+  - {name: Brelot–Cartan principle, kind: statement, wikipedia: Subharmonic function, wikidata: Q753658}
+  - {name: Phragmén–Lindelöf principle for subharmonic functions, kind: statement, wikipedia: Phragmén–Lindelöf principle, wikidata: Q4378868}
+  - {name: Hartogs lemma for subharmonic functions, kind: statement, wikipedia: Subharmonic function, wikidata: Q753658}
+  - {name: superharmonic potential, kind: definition, wikipedia: Subharmonic function, wikidata: Q753658}
+  # Potentials, energy and capacity
+  - {name: energy of a measure, kind: definition, wikipedia: Capacity of a set, wikidata: Q5034494}
+  - {name: mutual energy, kind: definition, wikipedia: Capacity of a set, wikidata: Q5034494}
+  - {name: positive definiteness of the energy, kind: statement, wikipedia: Capacity of a set, wikidata: Q5034494}
+  - {name: equilibrium measure, kind: definition, wikipedia: Capacity of a set, wikidata: Q5034494}
+  - {name: Frostman's theorem, kind: statement, wikipedia: Capacity of a set, wikidata: Q5034494}
+  - {name: Gauss variational problem, kind: problem, wikipedia: Capacity of a set, wikidata: Q5034494}
+  - {name: capacity of a set, kind: definition, wikipedia: Capacity of a set, wikidata: Q5034494}
+  - {name: Newtonian capacity, kind: definition, wikipedia: Capacity of a set, wikidata: Q5034494}
+  - {name: Wiener capacity, kind: definition, wikipedia: Capacity of a set, wikidata: Q5034494}
+  - {name: condenser capacity, kind: definition, wikipedia: Capacity of a set, wikidata: Q5034494}
+  - {name: variational capacity, kind: definition, wikipedia: Capacity of a set, wikidata: Q5034494}
+  - {name: logarithmic capacity, kind: definition, wikipedia: Conformal radius, wikidata: Q5160255}
+  - {name: Robin constant, kind: definition, wikipedia: Conformal radius, wikidata: Q5160255}
+  - {name: transfinite diameter, kind: definition, wikipedia: Conformal radius, wikidata: Q5160255}
+  - {name: Chebyshev constant, kind: definition, wikipedia: Conformal radius, wikidata: Q5160255}
+  - {name: Fekete points, kind: definition, wikipedia: Conformal radius, wikidata: Q5160255}
+  - {name: capacity equals transfinite diameter and Chebyshev constant, kind: statement, wikipedia: Conformal radius, wikidata: Q5160255}
+  - {name: capacity of a disc and a segment, kind: example, wikipedia: Conformal radius, wikidata: Q5160255}
+  - {name: capacitability of Borel sets, kind: statement, wikipedia: Choquet theory, wikidata: Q1076274}
+  - {name: polar set, kind: definition, wikipedia: Polar set (potential theory), wikidata: Q7209102}
+  - {name: sets of capacity zero, kind: definition, wikipedia: Capacity of a set, wikidata: Q5034494}
+  - {name: quasi-everywhere, kind: definition, wikipedia: Capacity of a set, wikidata: Q5034494}
+  - {name: Evans potential, kind: statement, wikipedia: Polar set (potential theory), wikidata: Q7209102}
+  - {name: removable sets for bounded harmonic functions, kind: statement, wikipedia: Polar set (potential theory), wikidata: Q7209102}
+  - {name: Frostman lemma, kind: statement, wikipedia: Frostman lemma, wikidata: Q5506220}
+  - {name: capacity and Hausdorff dimension, kind: statement, wikipedia: Frostman lemma, wikidata: Q5506220}
+  - {name: maximum principle for potentials, kind: statement, wikipedia: Maximum principle, wikidata: Q1914255}
+  - {name: domination principle, kind: statement, wikipedia: Potential theory, wikidata: Q1154848}
+  - {name: continuity principle, kind: statement, wikipedia: Potential theory, wikidata: Q1154848}
+  - {name: Riesz potential, kind: definition, wikipedia: Riesz potential, wikidata: Q7333166}
+  - {name: Bessel potential, kind: definition, wikipedia: Bessel potential, wikidata: Q4896404}
+  - {name: Riesz kernel energy, kind: definition, wikipedia: Riesz potential, wikidata: Q7333166}
+  - {name: equilibrium problem with an external field, kind: problem, wikipedia: Potential theory, wikidata: Q1154848}
+  - {name: minimal energy point configurations, kind: problem, wikipedia: Thomson problem, wikidata: Q7795912}
+  # Balayage and fine topology
+  - {name: balayage, kind: definition, wikipedia: Balayage, wikidata: Q4850161}
+  - {name: reduced function, kind: definition, wikipedia: Balayage, wikidata: Q4850161}
+  - {name: fine topology, kind: definition, wikipedia: Fine topology (potential theory), wikidata: Q5450128}
+  - {name: thin set, kind: definition, wikipedia: Fine topology (potential theory), wikidata: Q5450128}
+  - {name: Cartan's theorem on fine continuity of superharmonic functions, kind: statement, wikipedia: Fine topology (potential theory), wikidata: Q5450128}
+  - {name: fundamental convergence theorem, kind: statement, wikipedia: Fine topology (potential theory), wikidata: Q5450128}
+  # Boundary behaviour
+  - {name: Hardy spaces of harmonic functions, kind: definition, wikipedia: Hardy space, wikidata: Q1585233}
+  - {name: Fatou's theorem, kind: statement, wikipedia: Fatou's theorem, wikidata: Q4455033}
+  - {name: nontangential limit, kind: definition, wikipedia: Fatou's theorem, wikidata: Q4455033}
+  - {name: Herglotz representation of positive harmonic functions, kind: statement, wikipedia: Positive harmonic function, wikidata: Q7233271}
+  - {name: Martin boundary, kind: definition, wikipedia: Poisson boundary, wikidata: Q28402746}
+  - {name: Martin kernel, kind: definition, wikipedia: Poisson boundary, wikidata: Q28402746}
+  - {name: minimal harmonic function, kind: definition, wikipedia: Poisson boundary, wikidata: Q28402746}
+  - {name: Martin representation theorem, kind: statement, wikipedia: Poisson boundary, wikidata: Q28402746}
+  - {name: boundary Harnack principle, kind: statement, wikipedia: Harnack's inequality, wikidata: Q868279}
+  - {name: Lipschitz domain, kind: definition, wikipedia: Lipschitz domain, wikidata: Q1158876}
+  - {name: Dahlberg's theorem on harmonic measure, kind: statement, wikipedia: Harmonic measure, wikidata: Q5659270}
+  - {name: mutual absolute continuity of harmonic measures, kind: statement, wikipedia: Harmonic measure, wikidata: Q5659270}
+  - {name: Makarov's theorem on harmonic measure, kind: statement, wikipedia: Harmonic measure, wikidata: Q5659270}
+  - {name: Bourgain's dimension bound for harmonic measure, kind: statement, wikipedia: Harmonic measure, wikidata: Q5659270}
+  - {name: Riesz brothers theorem, kind: statement, wikipedia: F. and M. Riesz theorem, wikidata: Q3527067}
+  - {name: Carleman estimate for harmonic measure, kind: statement, wikipedia: Harmonic measure, wikidata: Q5659270}
+  - {name: Beurling's projection theorem, kind: statement, wikipedia: Harmonic measure, wikidata: Q5659270}
+  - {name: Milloux problem, kind: problem, wikipedia: Harmonic measure, wikidata: Q5659270}
+  # Planar potential theory
+  - {name: harmonic conjugate, kind: definition, wikipedia: Harmonic conjugate, wikidata: Q5659251}
+  - {name: real part of a holomorphic function is harmonic, kind: statement, decl: AnalyticAt.harmonicAt_re, wikipedia: Harmonic function, wikidata: Q599027}
+  - {name: local existence of harmonic conjugates, kind: statement, decl: InnerProductSpace.HarmonicOnNhd.exists_analyticOnNhd_ball_re_eq, wikipedia: Harmonic conjugate, wikidata: Q5659251}
+  - {name: Liouville's theorem for planar harmonic functions, kind: statement, decl: InnerProductSpace.bounded_harmonic_on_complex_plane_is_constant, wikipedia: Harmonic function, wikidata: Q599027}
+  - {name: conformal invariance of harmonic functions, kind: statement, wikipedia: Conformal map, wikidata: Q850275}
+  - {name: circle average, kind: definition, decl: Real.circleAverage, wikipedia: Mean value theorem, wikidata: Q189136}
+  - {name: Herglotz–Riesz kernel, kind: definition, decl: InnerProductSpace.HarmonicOnNhd.circleAverage_re_herglotzRieszKernel_smul, wikipedia: Positive harmonic function, wikidata: Q7233271}
+  - {name: Green's function of a planar domain, kind: definition, wikipedia: Green's function, wikidata: Q378435}
+  - {name: Green's function and the Riemann map, kind: statement, wikipedia: Riemann mapping theorem, wikidata: Q927051}
+  - {name: conformal radius, kind: definition, wikipedia: Conformal radius, wikidata: Q5160255}
+  - {name: Poisson–Jensen formula, kind: statement, wikipedia: Jensen's formula, wikidata: Q1048466}
+  - {name: Riesz–Herglotz formula, kind: statement, wikipedia: Positive harmonic function, wikidata: Q7233271}
+  - {name: Nevanlinna characteristic, kind: definition, decl: ValueDistribution.characteristic, wikipedia: Nevanlinna theory, wikidata: Q1281926}
+  - {name: Hadamard's two-constants theorem, kind: statement, wikipedia: Harmonic measure, wikidata: Q5659270}
+  - {name: Lindelöf's maximum principle, kind: statement, wikipedia: Phragmén–Lindelöf principle, wikidata: Q4378868}
+  - {name: parabolic and hyperbolic Riemann surfaces, kind: concept, wikipedia: Riemann surface, wikidata: Q753035}
+  - {name: harmonic functions on Riemann surfaces, kind: concept, wikipedia: Riemann surface, wikidata: Q753035}
+  # Probabilistic potential theory
+  - {name: Brownian motion, kind: definition, decl: ProbabilityTheory.IsBrownianReal, wikipedia: Wiener process, wikidata: Q1056809}
+  - {name: Kakutani's solution of the Dirichlet problem, kind: statement, wikipedia: Dirichlet problem, wikidata: Q1192869}
+  - {name: harmonic measure as exit distribution, kind: statement, wikipedia: Harmonic measure, wikidata: Q5659270}
+  - {name: polar sets and Brownian hitting, kind: statement, wikipedia: Polar set (potential theory), wikidata: Q7209102}
+  - {name: Doob's h-transform, kind: definition, wikipedia: Doob's h-transform, wikidata: Q140753206}
+  - {name: conditioned Brownian motion, kind: concept, wikipedia: Doob's h-transform, wikidata: Q140753206}
+  - {name: Hunt process, kind: definition, wikipedia: Hunt process, wikidata: Q5944024}
+  - {name: excessive function, kind: definition, wikipedia: Hunt process, wikidata: Q5944024}
+  - {name: potential operator of a Markov process, kind: definition, wikipedia: Markov kernel, wikidata: Q6771323}
+  - {name: Green's function of a Markov process, kind: definition, wikipedia: Green's function, wikidata: Q378435}
+  - {name: Dirichlet form, kind: definition, wikipedia: Dirichlet form, wikidata: Q5280765}
+  - {name: Beurling–Deny formula, kind: statement, wikipedia: Dirichlet form, wikidata: Q5280765}
+  - {name: Fukushima correspondence between Dirichlet forms and processes, kind: statement, wikipedia: Dirichlet form, wikidata: Q5280765}
+  # Discrete potential theory
+  - {name: discrete harmonic function, kind: definition, wikipedia: Discrete Laplace operator, wikidata: Q451881}
+  - {name: graph Laplacian, kind: definition, wikipedia: Laplacian matrix, wikidata: Q772067}
+  - {name: discrete Dirichlet problem, kind: problem, wikipedia: Discrete Laplace operator, wikidata: Q451881}
+  - {name: electrical network, kind: concept, wikipedia: Electrical network, wikidata: Q132629}
+  - {name: effective resistance, kind: definition, wikipedia: Resistance distance, wikidata: Q7315618}
+  - {name: Thomson's principle, kind: statement, wikipedia: Electrical network, wikidata: Q132629}
+  - {name: Rayleigh monotonicity law, kind: statement, wikipedia: Resistance distance, wikidata: Q7315618}
+  - {name: recurrence and capacity of graphs, kind: statement, wikipedia: Random walk, wikidata: Q856741}
+  - {name: Liouville property of graphs, kind: definition, wikipedia: Harmonic function, wikidata: Q599027}
+  - {name: Poisson boundary, kind: definition, wikipedia: Poisson boundary, wikidata: Q28402746}
+  # Axiomatic potential theory
+  - {name: axiomatic potential theory, kind: concept, wikipedia: Potential theory, wikidata: Q1154848}
+  - {name: harmonic space, kind: definition, wikipedia: Potential theory, wikidata: Q1154848}
+  - {name: Brelot space, kind: definition, wikipedia: Potential theory, wikidata: Q1154848}
+  - {name: Bauer harmonic space, kind: definition, wikipedia: Potential theory, wikidata: Q1154848}
+  - {name: balayage space, kind: definition, wikipedia: Balayage, wikidata: Q4850161}
+  - {name: H-cone, kind: definition, wikipedia: Potential theory, wikidata: Q1154848}
+  # Extensions of potential theory
+  - {name: p-harmonic function, kind: definition, wikipedia: P-Laplacian, wikidata: Q7116898}
+  - {name: nonlinear potential theory, kind: concept, wikipedia: P-Laplacian, wikidata: Q7116898}
+  - {name: Wolff potential, kind: definition, wikipedia: P-Laplacian, wikidata: Q7116898}
+  - {name: harmonic functions on Riemannian manifolds, kind: concept, wikipedia: Laplace–Beltrami operator, wikidata: Q1071846}
+  - {name: Cheng–Yau gradient estimate, kind: statement, wikipedia: Harnack's inequality, wikidata: Q868279}
+  - {name: heat potential, kind: definition, wikipedia: Heat equation, wikidata: Q6510488}
+  - {name: caloric function, kind: definition, wikipedia: Heat equation, wikidata: Q6510488}
+  - {name: fractional Laplacian and Riesz capacities, kind: concept, wikipedia: Fractional Laplacian, wikidata: Q30694381}
+  # Potential theory on fractals and metric spaces
+  - {name: analysis on fractals, kind: concept, wikipedia: Analysis on fractals, wikidata: Q4751108}
+  - {name: Laplacian on the Sierpinski gasket, kind: example, wikipedia: Analysis on fractals, wikidata: Q4751108}
+  - {name: resistance form, kind: definition, wikipedia: Analysis on fractals, wikidata: Q4751108}
+  - {name: Kigami's construction of Laplacians on post-critically finite fractals, kind: statement, wikipedia: Analysis on fractals, wikidata: Q4751108}
+  - {name: Newtonian space, kind: definition, wikipedia: Sobolev space, wikidata: Q1501536}

@@ -1,0 +1,212 @@
+# The C2 skeleton of 94-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 94-XX
+title: information theory, communication and circuits
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+items:
+  # Measures of information
+  - {name: information theory, kind: concept, wikipedia: Information theory, wikidata: Q131222}
+  - {name: Shannon entropy, kind: definition, wikipedia: Entropy (information theory), wikidata: Q204570}
+  - {name: binary entropy function, kind: definition, decl: Real.binEntropy, wikipedia: Binary entropy function, wikidata: Q4913893}
+  - {name: q-ary entropy function, kind: definition, decl: Real.qaryEntropy, wikipedia: Entropy (information theory), wikidata: Q204570}
+  - {name: information content, kind: definition, wikipedia: Information content, wikidata: Q735075}
+  - {name: joint entropy, kind: definition, wikipedia: Joint entropy, wikidata: Q1364826}
+  - {name: conditional entropy, kind: definition, wikipedia: Conditional entropy, wikidata: Q813908}
+  - {name: mutual information, kind: definition, wikipedia: Mutual information, wikidata: Q252973}
+  - {name: conditional mutual information, kind: definition, wikipedia: Conditional mutual information, wikidata: Q5159269}
+  - {name: Kullback–Leibler divergence, kind: definition, decl: InformationTheory.klDiv, wikipedia: Kullback–Leibler divergence, wikidata: Q255166}
+  - {name: Gibbs' inequality, kind: statement, wikipedia: Gibbs' inequality, wikidata: Q1425564}
+  - {name: cross-entropy, kind: definition, wikipedia: Cross-entropy, wikidata: Q1685498}
+  - {name: f-divergence, kind: definition, wikipedia: F-divergence, wikidata: Q5423634}
+  - {name: Rényi entropy, kind: definition, wikipedia: Rényi entropy, wikidata: Q1433083}
+  - {name: min-entropy, kind: definition, wikipedia: Min-entropy, wikidata: Q17103874}
+  - {name: differential entropy, kind: definition, wikipedia: Differential entropy, wikidata: Q3055345}
+  - {name: maximum entropy probability distribution, kind: statement, wikipedia: Maximum entropy probability distribution, wikidata: Q6795892}
+  - {name: data processing inequality, kind: statement, wikipedia: Data processing inequality, wikidata: Q20707568}
+  - {name: Fano's inequality, kind: statement, wikipedia: Fano's inequality, wikidata: Q1624376}
+  - {name: Pinsker's inequality, kind: statement, wikipedia: Pinsker's inequality, wikidata: Q7196482}
+  - {name: entropy power inequality, kind: statement, wikipedia: Entropy power inequality, wikidata: Q5380810}
+  - {name: inequalities in information theory, kind: concept, wikipedia: Inequalities in information theory, wikidata: Q17092428}
+  - {name: Zhang–Yeung non-Shannon inequality, kind: statement, wikipedia: Inequalities in information theory, wikidata: Q17092428}
+  # Source coding and data compression
+  - {name: asymptotic equipartition property, kind: statement, wikipedia: Asymptotic equipartition property, wikidata: Q4812181}
+  - {name: typical set, kind: definition, wikipedia: Typical set, wikidata: Q7861378}
+  - {name: Shannon's source coding theorem, kind: statement, wikipedia: Shannon's source coding theorem, wikidata: Q2411312}
+  - {name: variable-length code, kind: definition, wikipedia: Variable-length encoding, wikidata: Q2981616}
+  - {name: prefix code, kind: definition, decl: InformationTheory.IsPrefixFree, wikipedia: Prefix code, wikidata: Q1278039}
+  - {name: uniquely decodable code, kind: definition, decl: InformationTheory.IsUniquelyDecodable, wikipedia: Variable-length encoding, wikidata: Q2981616}
+  - {name: Kraft inequality, kind: statement, decl: InformationTheory.IsPrefixFree.tsum_one_div_card_pow_length_le_one, wikipedia: Kraft–McMillan inequality, wikidata: Q371685}
+  - {name: McMillan's inequality, kind: statement, decl: InformationTheory.kraft_mcmillan_inequality, wikipedia: Kraft–McMillan inequality, wikidata: Q371685}
+  - {name: Sardinas–Patterson algorithm, kind: definition, wikipedia: Sardinas–Patterson algorithm, wikidata: Q7423792}
+  - {name: Huffman coding, kind: definition, wikipedia: Huffman coding, wikidata: Q2647}
+  - {name: optimality of Huffman codes, kind: statement, wikipedia: Huffman coding, wikidata: Q2647}
+  - {name: Shannon–Fano coding, kind: definition, wikipedia: Shannon–Fano coding, wikidata: Q2645}
+  - {name: arithmetic coding, kind: definition, wikipedia: Arithmetic coding, wikidata: Q2651}
+  - {name: Lempel–Ziv coding, kind: definition, wikipedia: LZ77 and LZ78, wikidata: Q22670963}
+  - {name: universal code, kind: definition, wikipedia: Universal code (data compression), wikidata: Q4176366}
+  - {name: Slepian–Wolf theorem, kind: statement, wikipedia: Slepian–Wolf coding, wikidata: Q7540133}
+  - {name: distributed source coding, kind: concept, wikipedia: Distributed source coding, wikidata: Q5283181}
+  - {name: rate–distortion theory, kind: concept, wikipedia: Rate–distortion theory, wikidata: Q843483}
+  - {name: rate–distortion function, kind: definition, wikipedia: Rate–distortion theory, wikidata: Q843483}
+  - {name: Blahut–Arimoto algorithm, kind: definition, wikipedia: Blahut–Arimoto algorithm, wikidata: Q4923900}
+  - {name: quantization, kind: definition, wikipedia: Quantization (signal processing), wikidata: Q198099}
+  - {name: vector quantization, kind: definition, wikipedia: Vector quantization, wikidata: Q612536}
+  # Channels and capacity
+  - {name: communication channel, kind: definition, wikipedia: Communication channel, wikidata: Q733553}
+  - {name: channel capacity, kind: definition, wikipedia: Channel capacity, wikidata: Q870845}
+  - {name: noisy-channel coding theorem, kind: statement, wikipedia: Noisy-channel coding theorem, wikidata: Q2345282}
+  - {name: converse of the channel coding theorem, kind: statement, wikipedia: Noisy-channel coding theorem, wikidata: Q2345282}
+  - {name: source–channel separation theorem, kind: statement, wikipedia: Noisy-channel coding theorem, wikidata: Q2345282}
+  - {name: binary symmetric channel, kind: example, wikipedia: Binary symmetric channel, wikidata: Q863510}
+  - {name: binary erasure channel, kind: example, wikipedia: Binary erasure channel, wikidata: Q864142}
+  - {name: Z-channel, kind: example, wikipedia: Z-channel (information theory), wikidata: Q17145032}
+  - {name: additive white Gaussian noise channel, kind: example, wikipedia: Additive white Gaussian noise, wikidata: Q353292}
+  - {name: Shannon–Hartley theorem, kind: statement, wikipedia: Shannon–Hartley theorem, wikidata: Q1756194}
+  - {name: water-filling for parallel Gaussian channels, kind: statement, wikipedia: Water-filling algorithm, wikidata: Q7973497}
+  - {name: error exponent, kind: definition, wikipedia: Error exponent, wikidata: Q5395710}
+  - {name: Shannon capacity of a graph, kind: definition, wikipedia: Shannon capacity of a graph, wikidata: Q17105770}
+  - {name: Lovász bound on the Shannon capacity, kind: statement, wikipedia: Lovász number, wikidata: Q6692699}
+  # Multiuser channels and network coding
+  - {name: relay channel, kind: definition, wikipedia: Relay channel, wikidata: Q7310895}
+  - {name: dirty paper coding, kind: statement, wikipedia: Dirty paper coding, wikidata: Q3305007}
+  - {name: wiretap channel and secrecy capacity, kind: statement, wikipedia: Information-theoretic security, wikidata: Q3510462}
+  - {name: linear network coding theorem, kind: statement, wikipedia: Linear network coding, wikidata: Q1089578}
+  # Signal theory
+  - {name: Nyquist–Shannon sampling theorem, kind: statement, wikipedia: Nyquist–Shannon sampling theorem, wikidata: Q679800}
+  - {name: Whittaker–Shannon interpolation formula, kind: statement, wikipedia: Whittaker–Shannon interpolation formula, wikidata: Q2018853}
+  - {name: Nyquist rate, kind: definition, wikipedia: Nyquist rate, wikidata: Q6273772}
+  - {name: aliasing, kind: concept, wikipedia: Aliasing, wikidata: Q868732}
+  - {name: bandlimited signal, kind: definition, wikipedia: Bandlimiting, wikidata: Q806263}
+  - {name: prolate spheroidal wave functions and Slepian's concentration problem, kind: problem, wikipedia: Prolate spheroidal wave function, wikidata: Q7249549}
+  - {name: matched filter, kind: statement, wikipedia: Matched filter, wikidata: Q1759577}
+  - {name: compressed sensing, kind: concept, wikipedia: Compressed sensing, wikidata: Q2665459}
+  - {name: restricted isometry property, kind: definition, wikipedia: Restricted isometry property, wikidata: Q17099734}
+  - {name: basis pursuit, kind: definition, wikipedia: Basis pursuit, wikidata: Q4867576}
+  - {name: matching pursuit, kind: definition, wikipedia: Matching pursuit, wikidata: Q6786281}
+  # Shift-register sequences and sequence design
+  - {name: linear-feedback shift register, kind: definition, wikipedia: Linear-feedback shift register, wikidata: Q681101}
+  - {name: maximum length sequence, kind: definition, wikipedia: Maximum-length sequence, wikidata: Q1417719}
+  - {name: Berlekamp–Massey algorithm, kind: definition, wikipedia: Berlekamp–Massey algorithm, wikidata: Q821007}
+  - {name: linear complexity of a sequence, kind: definition, wikipedia: Berlekamp–Massey algorithm, wikidata: Q821007}
+  - {name: Gold code, kind: definition, wikipedia: Gold code, wikidata: Q2635984}
+  - {name: Barker code, kind: definition, wikipedia: Barker code, wikidata: Q808256}
+  - {name: Costas array, kind: definition, wikipedia: Costas array, wikidata: Q2114132}
+  - {name: bent function, kind: definition, wikipedia: Bent function, wikidata: Q4890350}
+  # Cryptography
+  - {name: cryptography, kind: concept, wikipedia: Cryptography, wikidata: Q8789}
+  - {name: one-time pad, kind: definition, wikipedia: One-time pad, wikidata: Q150474}
+  - {name: Shannon's perfect secrecy theorem, kind: statement, wikipedia: One-time pad, wikidata: Q150474}
+  - {name: unicity distance, kind: definition, wikipedia: Unicity distance, wikidata: Q1640661}
+  - {name: Feistel cipher, kind: definition, wikipedia: Feistel cipher, wikidata: Q1044361}
+  - {name: Luby–Rackoff theorem, kind: statement, wikipedia: Feistel cipher, wikidata: Q1044361}
+  - {name: public-key cryptography, kind: concept, wikipedia: Public-key cryptography, wikidata: Q201339}
+  - {name: RSA cryptosystem, kind: definition, wikipedia: RSA cryptosystem, wikidata: Q181551}
+  - {name: Diffie–Hellman key exchange, kind: definition, wikipedia: Diffie–Hellman key exchange, wikidata: Q623447}
+  - {name: ElGamal encryption, kind: definition, wikipedia: ElGamal encryption, wikidata: Q1162410}
+  - {name: elliptic-curve cryptography, kind: concept, wikipedia: Elliptic-curve cryptography, wikidata: Q1048911}
+  - {name: digital signature, kind: definition, wikipedia: Digital signature, wikidata: Q220849}
+  - {name: lattice-based cryptography, kind: concept, wikipedia: Lattice-based cryptography, wikidata: Q6497083}
+  - {name: learning with errors, kind: problem, wikipedia: Learning with errors, wikidata: Q6510239}
+  - {name: McEliece cryptosystem, kind: definition, wikipedia: McEliece cryptosystem, wikidata: Q1042583}
+  - {name: cryptographic hash function, kind: definition, wikipedia: Cryptographic hash function, wikidata: Q477202}
+  - {name: birthday attack, kind: statement, wikipedia: Birthday attack, wikidata: Q615485}
+  - {name: semantic security, kind: definition, wikipedia: Semantic security, wikidata: Q2333581}
+  - {name: ciphertext indistinguishability, kind: definition, wikipedia: Ciphertext indistinguishability, wikidata: Q840661}
+  - {name: random oracle model, kind: definition, wikipedia: Random oracle, wikidata: Q228184}
+  - {name: homomorphic encryption, kind: concept, wikipedia: Homomorphic encryption, wikidata: Q2154943}
+  - {name: secret sharing, kind: concept, wikipedia: Secret sharing, wikidata: Q1386603}
+  - {name: Shamir's secret sharing, kind: definition, wikipedia: Shamir's secret sharing, wikidata: Q935125}
+  # Block codes: basic notions
+  - {name: block code, kind: definition, wikipedia: Block code, wikidata: Q884707}
+  - {name: Hamming space, kind: definition, decl: Hamming, wikipedia: Hamming space, wikidata: Q5645799}
+  - {name: Hamming weight, kind: definition, decl: hammingNorm, wikipedia: Hamming weight, wikidata: Q5645805}
+  - {name: minimum distance of a code, kind: definition, wikipedia: Block code, wikidata: Q884707}
+  - {name: error detection and correction capability, kind: statement, wikipedia: Error detection and correction, wikidata: Q1062839}
+  - {name: linear code, kind: definition, wikipedia: Linear code, wikidata: Q1752667}
+  - {name: generator matrix, kind: definition, wikipedia: Generator matrix, wikidata: Q1502046}
+  - {name: parity-check matrix, kind: definition, wikipedia: Parity-check matrix, wikidata: Q3100414}
+  - {name: syndrome decoding, kind: definition, wikipedia: Decoding methods, wikidata: Q576722}
+  - {name: maximum likelihood decoding, kind: definition, wikipedia: Decoding methods, wikidata: Q576722}
+  - {name: dual code, kind: definition, wikipedia: Dual code, wikidata: Q5310189}
+  - {name: MacWilliams identity, kind: statement, wikipedia: Enumerator polynomial, wikidata: Q4454980}
+  - {name: repetition code, kind: example, wikipedia: Repetition code, wikidata: Q369367}
+  - {name: parity bit, kind: example, wikipedia: Parity bit, wikidata: Q625502}
+  - {name: Hamming code, kind: example, wikipedia: Hamming code, wikidata: Q853922}
+  - {name: Hadamard code, kind: example, wikipedia: Hadamard code, wikidata: Q1567339}
+  - {name: ternary Golay code, kind: object, wikipedia: Ternary Golay code, wikidata: Q7702927}
+  # Bounds on codes
+  - {name: Hamming bound, kind: statement, wikipedia: Hamming bound, wikidata: Q1970635}
+  - {name: perfect code, kind: definition, wikipedia: Hamming bound, wikidata: Q1970635}
+  - {name: classification of perfect codes, kind: statement, wikipedia: Hamming bound, wikidata: Q1970635}
+  - {name: Singleton bound, kind: statement, wikipedia: Singleton bound, wikidata: Q2116294}
+  - {name: maximum distance separable code, kind: definition, wikipedia: Singleton bound, wikidata: Q2116294}
+  - {name: MDS conjecture, kind: conjecture, wikipedia: Singleton bound, wikidata: Q2116294}
+  - {name: Gilbert–Varshamov bound, kind: statement, wikipedia: Gilbert–Varshamov bound, wikidata: Q2454864}
+  - {name: Plotkin bound, kind: statement, wikipedia: Plotkin bound, wikidata: Q1476195}
+  - {name: Griesmer bound, kind: statement, wikipedia: Griesmer bound, wikidata: Q5608716}
+  - {name: Johnson bound, kind: statement, wikipedia: Johnson bound, wikidata: Q4351986}
+  - {name: Elias–Bassalygo bound, kind: statement, wikipedia: Elias Bassalygo bound, wikidata: Q5360449}
+  # Algebraic codes
+  - {name: cyclic code, kind: definition, wikipedia: Cyclic code, wikidata: Q245464}
+  - {name: cyclic redundancy check, kind: definition, wikipedia: Cyclic redundancy check, wikidata: Q245471}
+  - {name: BCH code, kind: definition, wikipedia: BCH code, wikidata: Q795705}
+  - {name: BCH bound, kind: statement, wikipedia: BCH code, wikidata: Q795705}
+  - {name: Reed–Solomon code, kind: definition, wikipedia: Reed–Solomon error correction, wikidata: Q1061598}
+  - {name: Berlekamp–Welch algorithm, kind: definition, wikipedia: Berlekamp–Welch algorithm, wikidata: Q4892328}
+  - {name: list decoding, kind: concept, wikipedia: List decoding, wikidata: Q4437907}
+  - {name: Guruswami–Sudan algorithm, kind: statement, wikipedia: List decoding, wikidata: Q4437907}
+  - {name: Reed–Muller code, kind: definition, wikipedia: Reed–Muller code, wikidata: Q201972}
+  - {name: quadratic residue code, kind: definition, wikipedia: Quadratic residue code, wikidata: Q7268368}
+  - {name: Goppa code, kind: definition, wikipedia: Binary Goppa code, wikidata: Q4913867}
+  - {name: algebraic geometry code, kind: definition, wikipedia: Algebraic geometry code, wikidata: Q2981471}
+  - {name: Tsfasman–Vlăduț–Zink bound, kind: statement, wikipedia: Algebraic geometry code, wikidata: Q2981471}
+  - {name: concatenated code, kind: definition, wikipedia: Concatenated error correction code, wikidata: Q5158264}
+  - {name: Justesen code, kind: example, wikipedia: Justesen code, wikidata: Q13640215}
+  # Codes on graphs and modern coding
+  - {name: convolutional code, kind: definition, wikipedia: Convolutional code, wikidata: Q1395022}
+  - {name: Viterbi algorithm, kind: definition, wikipedia: Viterbi algorithm, wikidata: Q83886}
+  - {name: BCJR algorithm, kind: definition, wikipedia: BCJR algorithm, wikidata: Q625117}
+  - {name: turbo code, kind: definition, wikipedia: Turbo code, wikidata: Q2164281}
+  - {name: low-density parity-check code, kind: definition, wikipedia: Low-density parity-check code, wikidata: Q187444}
+  - {name: Tanner graph, kind: definition, wikipedia: Tanner graph, wikidata: Q7683664}
+  - {name: belief propagation decoding, kind: definition, wikipedia: Belief propagation, wikidata: Q4060686}
+  - {name: expander code, kind: definition, wikipedia: Expander code, wikidata: Q5420758}
+  - {name: polar code, kind: definition, wikipedia: Polar code (coding theory), wikidata: Q7209069}
+  - {name: channel polarization theorem, kind: statement, wikipedia: Polar code (coding theory), wikidata: Q7209069}
+  - {name: Luby transform code, kind: definition, wikipedia: Luby transform code, wikidata: Q13563306}
+  - {name: Raptor code, kind: definition, wikipedia: Raptor code, wikidata: Q7294373}
+  - {name: locally decodable code, kind: definition, wikipedia: Locally decodable code, wikidata: Q6664678}
+  - {name: locally testable code, kind: definition, wikipedia: Locally testable code, wikidata: Q6664705}
+  # Electrical networks
+  - {name: electrical network, kind: definition, wikipedia: Electrical network, wikidata: Q132629}
+  - {name: Kirchhoff's circuit laws, kind: statement, wikipedia: Kirchhoff's circuit laws, wikidata: Q187672}
+  - {name: Tellegen's theorem, kind: statement, wikipedia: Tellegen's theorem, wikidata: Q913327}
+  - {name: superposition theorem, kind: statement, wikipedia: Superposition principle, wikidata: Q284885}
+  - {name: Thévenin's theorem, kind: statement, wikipedia: Thévenin's theorem, wikidata: Q241868}
+  - {name: Norton's theorem, kind: statement, wikipedia: Norton's theorem, wikidata: Q651593}
+  - {name: Millman's theorem, kind: statement, wikipedia: Millman's theorem, wikidata: Q588736}
+  - {name: maximum power transfer theorem, kind: statement, wikipedia: Maximum power transfer theorem, wikidata: Q17103352}
+  - {name: Y-Δ transform, kind: statement, wikipedia: Y-Δ transform, wikidata: Q1110301}
+  - {name: nodal analysis, kind: definition, wikipedia: Nodal analysis, wikidata: Q1203451}
+  - {name: mesh analysis, kind: definition, wikipedia: Mesh analysis, wikidata: Q1852652}
+  - {name: modified nodal analysis, kind: definition, wikipedia: Modified nodal analysis, wikidata: Q6889414}
+  - {name: RLC circuit, kind: example, wikipedia: RLC circuit, wikidata: Q323477}
+  - {name: two-port network, kind: definition, wikipedia: Two-port network, wikidata: Q243745}
+  - {name: scattering parameters, kind: definition, wikipedia: Scattering parameters, wikidata: Q2165620}
+  - {name: telegrapher's equations, kind: definition, wikipedia: Telegrapher's equations, wikidata: Q1156880}
+  - {name: Foster's reactance theorem, kind: statement, wikipedia: Foster's reactance theorem, wikidata: Q5473574}
+  - {name: network synthesis, kind: concept, wikipedia: Network synthesis, wikidata: Q96395256}
+  - {name: Bott–Duffin synthesis, kind: statement, wikipedia: Network synthesis, wikidata: Q96395256}
+  - {name: Chua's circuit, kind: example, wikipedia: Chua's circuit, wikidata: Q258022}
+  # Switching circuits and logic networks
+  - {name: Boole's expansion theorem, kind: statement, wikipedia: Boole's expansion theorem, wikidata: Q2277040}
+  - {name: Karnaugh map, kind: definition, wikipedia: Karnaugh map, wikidata: Q461528}
+  - {name: Quine–McCluskey algorithm, kind: definition, wikipedia: Quine–McCluskey algorithm, wikidata: Q621409}
+  - {name: logic optimization, kind: problem, wikipedia: Logic optimization, wikidata: Q6667469}
+  - {name: sorting network, kind: definition, wikipedia: Sorting network, wikidata: Q646477}
+  - {name: zero–one principle for sorting networks, kind: statement, wikipedia: Sorting network, wikidata: Q646477}
+  - {name: Batcher odd–even mergesort, kind: definition, wikipedia: Batcher odd–even mergesort, wikidata: Q4868734}
+  - {name: bitonic sorter, kind: definition, wikipedia: Bitonic sorter, wikidata: Q4918918}
+  - {name: AKS sorting network, kind: statement, wikipedia: Sorting network, wikidata: Q646477}

@@ -1,0 +1,176 @@
+# The C2 skeleton of 43-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 43-XX
+title: harmonic analysis on groups
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+  mathlib-undergrad: {title: "Mathlib, the list of undergraduate topics", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/undergrad.yaml'}
+  mathlib-overview: {title: "Mathlib, the overview of the library", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/overview.yaml'}
+items:
+  # Basic notions
+  - {name: abstract harmonic analysis, kind: concept, wikipedia: Harmonic analysis, wikidata: Q876215}
+  - {name: noncommutative harmonic analysis, kind: concept, wikipedia: Noncommutative harmonic analysis, wikidata: Q7049222}
+  - {name: locally compact group, kind: definition, wikipedia: Locally compact group, wikidata: Q2147620}
+  - {name: locally compact abelian group, kind: definition, wikipedia: Locally compact abelian group, wikidata: Q65122103}
+  # Haar measure and measures on groups
+  - {name: Haar measure, kind: definition, decl: MeasureTheory.Measure.IsHaarMeasure, wikipedia: Haar measure, wikidata: Q1162676}
+  - {name: left-invariant measure, kind: definition, decl: MeasureTheory.Measure.IsMulLeftInvariant, wikipedia: Haar measure, wikidata: Q1162676}
+  - {name: existence of Haar measure, kind: statement, decl: MeasureTheory.Measure.haarMeasure, wikipedia: Haar measure, wikidata: Q1162676, mathlib: [mathlib-overview]}
+  - {name: uniqueness of Haar measure up to scaling, kind: statement, decl: MeasureTheory.Measure.isMulLeftInvariant_eq_smul, wikipedia: Haar measure, wikidata: Q1162676}
+  - {name: modular function, kind: definition, decl: MeasureTheory.Measure.modularCharacter, wikipedia: Haar measure, wikidata: Q1162676}
+  - {name: unimodular group, kind: definition, wikipedia: Haar measure, wikidata: Q1162676}
+  - {name: normalized Haar measure on a compact group, kind: definition, wikipedia: Haar measure, wikidata: Q1162676}
+  - {name: Haar measure on the circle, kind: example, decl: AddCircle.haarAddCircle, wikipedia: Haar measure, wikidata: Q1162676}
+  - {name: Lebesgue measure as Haar measure, kind: example, decl: MeasureTheory.Measure.IsAddHaarMeasure, wikipedia: Haar measure, wikidata: Q1162676}
+  - {name: Haar measure on the p-adic numbers, kind: example, wikipedia: P-adic number, wikidata: Q311627}
+  - {name: quasi-invariant measure, kind: definition, wikipedia: Quasi-invariant measure, wikidata: Q7269454}
+  - {name: invariant measure on a homogeneous space, kind: statement, wikipedia: Haar measure, wikidata: Q1162676}
+  - {name: Weil's quotient integral formula, kind: statement, wikipedia: Haar measure, wikidata: Q1162676}
+  - {name: Lp spaces on groups, kind: definition, wikipedia: Lp space, wikidata: Q305936}
+  # Group algebras
+  - {name: convolution on a locally compact group, kind: definition, wikipedia: Convolution, wikidata: Q210857}
+  - {name: group algebra L1(G), kind: definition, wikipedia: Group algebra of a locally compact group, wikidata: Q17019511}
+  - {name: measure algebra M(G), kind: definition, wikipedia: Group algebra of a locally compact group, wikidata: Q17019511}
+  - {name: bounded approximate identity of L1(G), kind: statement, wikipedia: Approximate identity, wikidata: Q621743}
+  - {name: Wendel's theorem on multipliers of L1(G), kind: statement, wikipedia: Group algebra of a locally compact group, wikidata: Q17019511}
+  - {name: group C*-algebra, kind: definition, wikipedia: Group algebra of a locally compact group, wikidata: Q17019511}
+  - {name: reduced group C*-algebra, kind: definition, wikipedia: Group algebra of a locally compact group, wikidata: Q17019511}
+  - {name: group von Neumann algebra, kind: definition, wikipedia: Von Neumann algebra, wikidata: Q1970172}
+  - {name: Fourier algebra, kind: definition, wikipedia: Fourier algebra, wikidata: Q5475787}
+  - {name: Fourier–Stieltjes algebra, kind: definition, wikipedia: Fourier algebra, wikidata: Q5475787}
+  - {name: Leptin's theorem, kind: statement, wikipedia: Fourier algebra, wikidata: Q5475787}
+  - {name: Johnson's theorem on amenable group algebras, kind: statement, wikipedia: Amenable Banach algebra, wikidata: Q4742386}
+  # Characters and Pontryagin duality
+  - {name: character of a locally compact abelian group, kind: definition, wikipedia: Pontryagin duality, wikidata: Q1632419}
+  - {name: dual group, kind: definition, decl: PontryaginDual, wikipedia: Pontryagin duality, wikidata: Q1632419}
+  - {name: Pontryagin duality theorem, kind: statement, wikipedia: Pontryagin duality, wikidata: Q1632419}
+  - {name: dual of a compact group is discrete, kind: statement, decl: PontryaginDual.instDiscreteTopologyOfCompactSpace, wikipedia: Pontryagin duality, wikidata: Q1632419}
+  - {name: dual groups of the integers and the real line, kind: example, wikipedia: Pontryagin duality, wikidata: Q1632419}
+  - {name: annihilator duality, kind: statement, wikipedia: Pontryagin duality, wikidata: Q1632419}
+  - {name: structure theorem for locally compact abelian groups, kind: statement, wikipedia: Locally compact abelian group, wikidata: Q65122103}
+  - {name: self-dual group, kind: example, wikipedia: Pontryagin duality, wikidata: Q1632419}
+  - {name: Gelfand spectrum of L1(G), kind: statement, wikipedia: Gelfand representation, wikidata: Q1499675}
+  - {name: character group, kind: definition, wikipedia: Character group, wikidata: Q2720844}
+  - {name: Bohr compactification, kind: definition, wikipedia: Bohr compactification, wikidata: Q4938217}
+  # Fourier analysis on locally compact abelian groups
+  - {name: Fourier transform on a locally compact abelian group, kind: definition, wikipedia: Pontryagin duality, wikidata: Q1632419}
+  - {name: Fourier–Stieltjes transform of a measure, kind: definition, wikipedia: Pontryagin duality, wikidata: Q1632419}
+  - {name: Riemann–Lebesgue lemma for abelian groups, kind: statement, wikipedia: Riemann–Lebesgue lemma, wikidata: Q9363284}
+  - {name: Fourier inversion on abelian groups, kind: statement, wikipedia: Pontryagin duality, wikidata: Q1632419}
+  - {name: Plancherel theorem for abelian groups, kind: statement, wikipedia: Plancherel theorem, wikidata: Q2096184}
+  - {name: uniqueness theorem for Fourier–Stieltjes transforms, kind: statement, wikipedia: Pontryagin duality, wikidata: Q1632419}
+  - {name: Poisson summation formula for abelian groups, kind: statement, wikipedia: Poisson summation formula, wikidata: Q387743}
+  - {name: Bochner's theorem, kind: statement, wikipedia: Bochner's theorem, wikidata: Q4936242}
+  - {name: Wiener's Tauberian theorem, kind: statement, wikipedia: Wiener's Tauberian theorem, wikidata: Q3527279}
+  - {name: Herglotz's theorem on positive definite sequences, kind: statement, wikipedia: Bochner's theorem, wikidata: Q4936242}
+  - {name: Cohen's idempotent theorem, kind: statement, wikipedia: Paul Cohen, wikidata: Q216809}
+  # Finite abelian groups
+  - {name: Fourier transform on finite groups, kind: definition, wikipedia: Fourier transform on finite groups, wikidata: Q5475803}
+  - {name: additive character, kind: definition, decl: AddChar, wikipedia: Character (mathematics), wikidata: Q1062934}
+  - {name: characters of a finite abelian group form a basis, kind: statement, decl: AddChar.complexBasis, wikipedia: Character group, wikidata: Q2720844}
+  - {name: orthogonality of characters, kind: statement, decl: AddChar.sum_apply_eq_ite, wikipedia: Character group, wikidata: Q2720844}
+  - {name: number of characters of a finite abelian group, kind: statement, decl: AddChar.card_eq, wikipedia: Character group, wikidata: Q2720844}
+  - {name: a finite abelian group is isomorphic to its dual, kind: statement, wikipedia: Character group, wikidata: Q2720844}
+  - {name: Dirichlet character, kind: example, wikipedia: Dirichlet character, wikidata: Q1063579}
+  - {name: Fourier analysis on the Boolean cube, kind: concept, wikipedia: Analysis of Boolean functions, wikidata: Q48996110}
+  - {name: Gauss sum, kind: example, wikipedia: Gauss sum, wikidata: Q526221}
+  # Positive definite functions
+  - {name: positive-definite function on a group, kind: definition, wikipedia: Positive-definite function on a group, wikidata: Q7233206}
+  - {name: Gelfand–Raikov theorem, kind: statement, wikipedia: Gelfand–Raikov theorem, wikidata: Q18207320}
+  - {name: positive-definite kernel, kind: definition, wikipedia: Positive-definite kernel, wikidata: Q7233207}
+  - {name: conditionally negative definite function, kind: definition, wikipedia: Positive-definite kernel, wikidata: Q7233207}
+  - {name: Schoenberg's theorem on negative definite kernels, kind: statement, wikipedia: Positive-definite kernel, wikidata: Q7233207}
+  - {name: Haagerup property, kind: definition, wikipedia: Haagerup property, wikidata: Q5636478}
+  - {name: Kazhdan's property (T), kind: definition, wikipedia: Kazhdan's property (T), wikidata: Q30765715}
+  # Spectral synthesis and thin sets
+  - {name: spectral synthesis, kind: concept, wikipedia: Wiener's Tauberian theorem, wikidata: Q3527279}
+  - {name: Malliavin's theorem on failure of spectral synthesis, kind: statement, wikipedia: Paul Malliavin, wikidata: Q441132}
+  - {name: Rajchman measure, kind: definition, wikipedia: Rajchman measure, wikidata: Q7285899}
+  - {name: Helson–Lowdenslager theorem, kind: statement, wikipedia: F. and M. Riesz theorem, wikidata: Q3527067}
+  # Almost periodic functions on groups
+  - {name: almost periodic function on a group, kind: definition, wikipedia: Almost periodic function, wikidata: Q1066983}
+  - {name: invariant mean on almost periodic functions, kind: statement, wikipedia: Almost periodic function, wikidata: Q1066983}
+  - {name: von Neumann's theory of almost periodic functions on groups, kind: statement, wikipedia: Almost periodic function, wikidata: Q1066983}
+  - {name: weakly almost periodic function, kind: definition, wikipedia: Almost periodic function, wikidata: Q1066983}
+  # Amenability and invariant means
+  - {name: amenable group, kind: definition, wikipedia: Amenable group, wikidata: Q1857002}
+  - {name: invariant mean, kind: definition, wikipedia: Amenable group, wikidata: Q1857002}
+  - {name: Banach limit, kind: example, wikipedia: Banach limit, wikidata: Q806060}
+  - {name: Følner sequence, kind: definition, decl: IsFoelner, wikipedia: Følner sequence, wikidata: Q5511721}
+  - {name: Følner condition implies amenability, kind: statement, decl: IsFoelner.amenable, wikipedia: Amenable group, wikidata: Q1857002}
+  - {name: Reiter's condition, kind: statement, wikipedia: Amenable group, wikidata: Q1857002}
+  - {name: Hulanicki's theorem, kind: statement, wikipedia: Amenable group, wikidata: Q1857002}
+  - {name: Kesten's criterion for amenability, kind: statement, wikipedia: Amenable group, wikidata: Q1857002}
+  - {name: Markov–Kakutani fixed-point theorem, kind: statement, wikipedia: Markov–Kakutani fixed-point theorem, wikidata: Q6771347}
+  - {name: Day's fixed point theorem, kind: statement, wikipedia: Amenable group, wikidata: Q1857002}
+  - {name: amenability of abelian and solvable groups, kind: statement, wikipedia: Amenable group, wikidata: Q1857002}
+  - {name: elementary amenable group, kind: definition, wikipedia: Elementary amenable group, wikidata: Q5358894}
+  - {name: non-amenability of free groups, kind: statement, wikipedia: Amenable group, wikidata: Q1857002}
+  - {name: paradoxical decomposition, kind: definition, wikipedia: Paradoxical set, wikidata: Q7134470}
+  - {name: Tarski's theorem on paradoxical groups, kind: statement, wikipedia: Amenable group, wikidata: Q1857002}
+  - {name: Banach–Tarski paradox, kind: statement, wikipedia: Banach–Tarski paradox, wikidata: Q737851}
+  - {name: von Neumann conjecture, kind: conjecture, wikipedia: Von Neumann conjecture, wikidata: Q939072}
+  - {name: Ol'shanskii's counterexample to the von Neumann conjecture, kind: counterexample, wikipedia: Von Neumann conjecture, wikidata: Q939072}
+  - {name: amenable semigroup, kind: definition, wikipedia: Amenable group, wikidata: Q1857002}
+  # Representations in harmonic analysis
+  - {name: unitary representation, kind: definition, wikipedia: Unitary representation, wikidata: Q10359539}
+  - {name: left regular representation, kind: definition, decl: Representation.leftRegular, wikipedia: Regular representation, wikidata: Q1555242}
+  - {name: induced representation, kind: definition, wikipedia: Induced representation, wikidata: Q3427423}
+  - {name: system of imprimitivity, kind: definition, wikipedia: System of imprimitivity, wikidata: Q7663731}
+  - {name: Mackey imprimitivity theorem, kind: statement, wikipedia: System of imprimitivity, wikidata: Q7663731}
+  - {name: Mackey machine, kind: concept, wikipedia: System of imprimitivity, wikidata: Q7663731}
+  - {name: Fell topology, kind: definition, wikipedia: Unitary representation, wikidata: Q10359539}
+  - {name: type I group, kind: definition, wikipedia: Unitary representation, wikidata: Q10359539}
+  - {name: Fourier transform on a nonabelian group, kind: definition, wikipedia: Noncommutative harmonic analysis, wikidata: Q7049222}
+  - {name: Plancherel measure, kind: definition, wikipedia: Plancherel measure, wikidata: Q7200979}
+  - {name: Plancherel theorem for unimodular type I groups, kind: statement, wikipedia: Plancherel measure, wikidata: Q7200979}
+  - {name: Heisenberg group, kind: example, wikipedia: Heisenberg group, wikidata: Q1601337}
+  - {name: Stone–von Neumann theorem, kind: statement, wikipedia: Stone–von Neumann theorem, wikidata: Q7619449}
+  - {name: Weil representation, kind: definition, wikipedia: Metaplectic group, wikidata: Q17098877}
+  - {name: orbit method, kind: concept, wikipedia: Orbit method, wikidata: Q7100049}
+  - {name: Kirillov character formula, kind: statement, wikipedia: Kirillov character formula, wikidata: Q6415283}
+  - {name: tempered representation, kind: definition, wikipedia: Tempered representation, wikidata: Q7698344}
+  - {name: discrete series representation, kind: definition, wikipedia: Discrete series representation, wikidata: Q5282059}
+  - {name: principal series representation, kind: definition, wikipedia: Principal series representation, wikidata: Q7245090}
+  - {name: Harish-Chandra character, kind: definition, wikipedia: Harish-Chandra character, wikidata: Q5657842}
+  - {name: Harish-Chandra's regularity theorem, kind: statement, wikipedia: Harish-Chandra's regularity theorem, wikidata: Q5657833}
+  - {name: Harish-Chandra's Schwartz space, kind: definition, wikipedia: Harish-Chandra's Schwartz space, wikidata: Q17021083}
+  - {name: Harish-Chandra Plancherel theorem, kind: statement, wikipedia: Plancherel theorem for spherical functions, wikidata: Q11573495}
+  - {name: representation theory of SL2(R), kind: concept, wikipedia: Representation theory of SL2(R), wikidata: Q7314223}
+  # Harmonic analysis on compact groups
+  - {name: Peter–Weyl theorem, kind: statement, wikipedia: Peter–Weyl theorem, wikidata: Q1529941}
+  - {name: matrix coefficient, kind: definition, wikipedia: Matrix coefficient, wikidata: Q4356506}
+  - {name: Schur orthogonality relations, kind: statement, wikipedia: Schur orthogonality relations, wikidata: Q7433034}
+  - {name: orthonormality of irreducible characters, kind: statement, decl: FDRep.char_orthonormal, wikipedia: Schur orthogonality relations, wikidata: Q7433034, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: complete reducibility of representations of compact groups, kind: statement, wikipedia: Peter–Weyl theorem, wikidata: Q1529941}
+  - {name: Fourier series on a compact group, kind: concept, wikipedia: Peter–Weyl theorem, wikidata: Q1529941}
+  - {name: Plancherel theorem for compact groups, kind: statement, wikipedia: Peter–Weyl theorem, wikidata: Q1529941}
+  - {name: Weyl integration formula, kind: statement, wikipedia: Weyl integration formula, wikidata: Q96414618}
+  - {name: Tannaka–Krein duality, kind: statement, wikipedia: Tannaka–Krein duality, wikidata: Q7683608}
+  - {name: harmonic analysis on SU(2), kind: example, wikipedia: Representation theory of SU(2), wikidata: Q7314224}
+  - {name: spherical harmonics as representations of SO(3), kind: example, wikipedia: Spherical harmonics, wikidata: Q877100}
+  - {name: Wigner D-matrix, kind: definition, wikipedia: Wigner D-matrix, wikidata: Q3299244}
+  # Homogeneous spaces, Gelfand pairs and spherical functions
+  - {name: homogeneous space, kind: definition, wikipedia: Homogeneous space, wikidata: Q1324364}
+  - {name: harmonic analysis on homogeneous spaces, kind: concept, wikipedia: Homogeneous space, wikidata: Q1324364}
+  - {name: Gelfand pair, kind: definition, wikipedia: Gelfand pair, wikidata: Q5530423}
+  - {name: Gelfand's trick, kind: statement, wikipedia: Gelfand pair, wikidata: Q5530423}
+  - {name: Hecke algebra of a locally compact group, kind: definition, wikipedia: Hecke algebra of a pair, wikidata: Q5696375}
+  - {name: zonal spherical function, kind: definition, wikipedia: Zonal spherical function, wikidata: Q8073863}
+  - {name: Harish-Chandra's formula for spherical functions, kind: statement, wikipedia: Zonal spherical function, wikidata: Q8073863}
+  - {name: spherical transform, kind: definition, wikipedia: Zonal spherical function, wikidata: Q8073863}
+  - {name: Plancherel theorem for spherical functions, kind: statement, wikipedia: Plancherel theorem for spherical functions, wikidata: Q11573495}
+  - {name: Harish-Chandra c-function, kind: definition, wikipedia: Harish-Chandra's c-function, wikidata: Q5657823}
+  - {name: Gindikin–Karpelevich formula, kind: statement, wikipedia: Harish-Chandra's c-function, wikidata: Q5657823}
+  - {name: Helgason Fourier transform, kind: definition, wikipedia: Plancherel theorem for spherical functions, wikidata: Q11573495}
+  - {name: Paley–Wiener theorem for symmetric spaces, kind: statement, wikipedia: Paley–Wiener theorem, wikidata: Q1119094}
+  - {name: Harish-Chandra isomorphism, kind: statement, wikipedia: Harish-Chandra isomorphism, wikidata: Q5657840}
+  - {name: zonal spherical harmonics, kind: definition, wikipedia: Zonal spherical harmonics, wikidata: Q8073864}
+  - {name: addition theorem for spherical harmonics, kind: statement, wikipedia: Spherical harmonics, wikidata: Q877100}
+  # Automorphic and arithmetic harmonic analysis
+  - {name: Selberg trace formula, kind: statement, wikipedia: Selberg trace formula, wikidata: Q3077649}
+  - {name: Arthur–Selberg trace formula, kind: statement, wikipedia: Arthur–Selberg trace formula, wikidata: Q4800826}
+  - {name: automorphic form, kind: definition, wikipedia: Automorphic form, wikidata: Q1134435}
+  - {name: Tate's thesis, kind: statement, wikipedia: Tate's thesis, wikidata: Q7687933}
+  - {name: harmonic analysis on the adeles, kind: concept, wikipedia: Adele ring, wikidata: Q355356}

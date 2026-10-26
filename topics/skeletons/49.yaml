@@ -1,0 +1,204 @@
+# The C2 skeleton of 49-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 49-XX
+title: calculus of variations, control and optimization
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+  mathlib-undergrad: {title: "Mathlib, the list of undergraduate topics", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/undergrad.yaml'}
+  mathlib-overview: {title: "Mathlib, the overview of the library", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/overview.yaml'}
+  mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
+items:
+  # Basic notions of the calculus of variations
+  - {name: calculus of variations, kind: concept, wikipedia: Calculus of variations, wikidata: Q216861}
+  - {name: functional, kind: definition, wikipedia: Functional (mathematics), wikidata: Q579600}
+  - {name: integral functional with a Lagrangian density, kind: definition, wikipedia: Calculus of variations, wikidata: Q216861}
+  - {name: admissible function, kind: definition, wikipedia: Calculus of variations, wikidata: Q216861}
+  - {name: weak and strong extremum, kind: definition, wikipedia: Calculus of variations, wikidata: Q216861}
+  - {name: first variation, kind: definition, wikipedia: First variation, wikidata: Q1362077}
+  - {name: Gateaux derivative, kind: definition, wikipedia: Gateaux derivative, wikidata: Q919459}
+  - {name: Fréchet derivative, kind: definition, decl: HasFDerivAt, wikipedia: Fréchet derivative, wikidata: Q1305350, mathlib: [mathlib-overview]}
+  - {name: Fermat's theorem on stationary points, kind: statement, decl: IsLocalMin.hasFDerivAt_eq_zero, wikipedia: Interior extremum theorem, wikidata: Q727102}
+  - {name: fundamental lemma of the calculus of variations, kind: statement, decl: ae_eq_zero_of_integral_contDiff_smul_eq_zero, wikipedia: Fundamental lemma of the calculus of variations, wikidata: Q2474925}
+  - {name: du Bois-Reymond lemma, kind: statement, wikipedia: Fundamental lemma of the calculus of variations, wikidata: Q2474925}
+  - {name: Euler–Lagrange equation, kind: definition, wikipedia: Euler–Lagrange equation, wikidata: Q875744}
+  - {name: Euler–Poisson equation for higher derivatives, kind: definition, wikipedia: Euler–Lagrange equation, wikidata: Q875744}
+  - {name: Euler–Lagrange equations for multiple integrals, kind: definition, wikipedia: Euler–Lagrange equation, wikidata: Q875744}
+  - {name: Beltrami identity, kind: statement, wikipedia: Beltrami identity, wikidata: Q3303275}
+  - {name: natural boundary condition, kind: definition, wikipedia: Calculus of variations, wikidata: Q216861}
+  - {name: transversality conditions for variable endpoints, kind: statement, wikipedia: Calculus of variations, wikidata: Q216861}
+  - {name: Lagrange multiplier rule, kind: statement, decl: IsLocalExtrOn.exists_multipliers_of_hasStrictFDerivAt, wikipedia: Lagrange multiplier, wikidata: Q598870}
+  - {name: Lagrange multipliers on Banach spaces, kind: statement, decl: IsLocalExtrOn.exists_linear_map_of_hasStrictFDerivAt, wikipedia: Lagrange multipliers on Banach spaces, wikidata: Q17086206}
+  - {name: isoperimetric problem of the calculus of variations, kind: problem, wikipedia: Calculus of variations, wikidata: Q216861}
+  - {name: Lyusternik's theorem on tangent spaces, kind: statement, wikipedia: Lagrange multipliers on Banach spaces, wikidata: Q17086206}
+  # Classical problems
+  - {name: brachistochrone problem, kind: problem, wikipedia: Brachistochrone curve, wikidata: Q529985}
+  - {name: catenary problem, kind: problem, wikipedia: Catenary, wikidata: Q214561}
+  - {name: Dido's problem, kind: problem, wikipedia: Isoperimetric inequality, wikidata: Q617417}
+  - {name: minimal surface of revolution, kind: problem, wikipedia: Minimal surface of revolution, wikidata: Q6865337}
+  - {name: Newton's minimal resistance problem, kind: problem, wikipedia: Newton's minimal resistance problem, wikidata: Q39087306}
+  - {name: Euler's elastica, kind: problem, wikipedia: Elastica theory, wikidata: Q1324959}
+  - {name: Zermelo's navigation problem, kind: problem, wikipedia: Zermelo's navigation problem, wikidata: Q28134370}
+  - {name: Goddard problem, kind: problem, wikipedia: Goddard problem, wikidata: Q5576265}
+  - {name: Hilbert's twenty-third problem, kind: problem, wikipedia: Hilbert's twenty-third problem, wikidata: Q5761180}
+  # Second variation and sufficient conditions
+  - {name: second variation, kind: definition, wikipedia: Second variation, wikidata: Q137710193}
+  - {name: Legendre condition, kind: statement, wikipedia: Legendre–Clebsch condition, wikidata: Q6517889}
+  - {name: Legendre–Hadamard condition, kind: statement, wikipedia: Legendre–Clebsch condition, wikidata: Q6517889}
+  - {name: Jacobi equation, kind: definition, wikipedia: Jacobi field, wikidata: Q1677714}
+  - {name: conjugate points and the Jacobi condition, kind: statement, wikipedia: Conjugate points, wikidata: Q5161158}
+  - {name: Weierstrass excess function, kind: definition, wikipedia: Weierstrass–Erdmann condition, wikidata: Q7979831}
+  - {name: Weierstrass–Erdmann corner conditions, kind: statement, wikipedia: Weierstrass–Erdmann condition, wikidata: Q7979831}
+  - {name: field of extremals, kind: concept, wikipedia: Calculus of variations, wikidata: Q216861}
+  - {name: Hilbert's invariant integral, kind: concept, wikipedia: Calculus of variations, wikidata: Q216861}
+  - {name: Legendre transformation, kind: definition, wikipedia: Legendre transformation, wikidata: Q908652}
+  - {name: Hamilton's canonical equations, kind: definition, wikipedia: Hamiltonian mechanics, wikidata: Q477921}
+  - {name: Noether's theorem, kind: statement, wikipedia: Noether's theorem, wikidata: Q578555}
+  - {name: Noether's second theorem, kind: statement, wikipedia: Noether's second theorem, wikidata: Q10369454}
+  # Direct methods and existence of minimizers
+  - {name: direct method in the calculus of variations, kind: concept, wikipedia: Direct method in the calculus of variations, wikidata: Q5280366}
+  - {name: extreme value theorem, kind: statement, decl: IsCompact.exists_isMinOn, wikipedia: Extreme value theorem, wikidata: Q752375, mathlib: [mathlib-overview, mathlib-1000]}
+  - {name: lower semicontinuous functional, kind: definition, decl: LowerSemicontinuous, wikipedia: Semi-continuity, wikidata: Q955072}
+  - {name: weak lower semicontinuity, kind: definition, wikipedia: Direct method in the calculus of variations, wikidata: Q5280366}
+  - {name: coercive functional, kind: definition, wikipedia: Coercive function, wikidata: Q1597436}
+  - {name: Tonelli's existence theorem, kind: statement, wikipedia: Direct method in the calculus of variations, wikidata: Q5280366}
+  - {name: convex integrand, kind: definition, decl: ConvexOn, wikipedia: Convex function, wikidata: Q319913, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: Morrey quasiconvexity, kind: definition, wikipedia: Quasiconvexity (calculus of variations), wikidata: Q113635253}
+  - {name: polyconvexity, kind: definition, wikipedia: Polyconvex function, wikidata: Q7226241}
+  - {name: rank-one convexity, kind: definition, wikipedia: Quasiconvexity (calculus of variations), wikidata: Q113635253}
+  - {name: Morrey's lower semicontinuity theorem, kind: statement, wikipedia: Quasiconvexity (calculus of variations), wikidata: Q113635253}
+  - {name: Ball's existence theorem in nonlinear elasticity, kind: statement, wikipedia: Polyconvex function, wikidata: Q7226241}
+  - {name: relaxation of a variational problem, kind: concept, wikipedia: Relaxation (approximation), wikidata: Q646590}
+  - {name: Young measure, kind: definition, wikipedia: Young measure, wikidata: Q8058552}
+  - {name: Dirichlet energy, kind: definition, wikipedia: Dirichlet energy, wikidata: Q5280760}
+  - {name: Weierstrass's counterexample to the Dirichlet principle, kind: counterexample, wikipedia: Dirichlet's principle, wikidata: Q975727}
+  - {name: regularity of minimizers, kind: concept, wikipedia: Hilbert's nineteenth problem, wikidata: Q5761157}
+  - {name: Ekeland's variational principle, kind: statement, wikipedia: Ekeland's variational principle, wikidata: Q1945203}
+  - {name: Caristi fixed-point theorem, kind: statement, wikipedia: Caristi fixed-point theorem, wikidata: Q2287393}
+  # Gamma-convergence and homogenization
+  - {name: Γ-convergence, kind: definition, wikipedia: Γ-convergence, wikidata: Q278549}
+  - {name: fundamental theorem of Γ-convergence, kind: statement, wikipedia: Γ-convergence, wikidata: Q278549}
+  - {name: Mosco convergence, kind: definition, wikipedia: Mosco convergence, wikidata: Q6915414}
+  - {name: Modica–Mortola theorem, kind: statement, wikipedia: Γ-convergence, wikidata: Q278549}
+  - {name: Ginzburg–Landau functional, kind: example, wikipedia: Ginzburg–Landau theory, wikidata: Q900905}
+  - {name: Mumford–Shah functional, kind: example, wikipedia: Mumford–Shah functional, wikidata: Q17144601}
+  - {name: total variation denoising, kind: example, wikipedia: Total variation denoising, wikidata: Q7828156}
+  # Variational inequalities
+  - {name: variational inequality, kind: problem, wikipedia: Variational inequality, wikidata: Q4556320}
+  - {name: Lions–Stampacchia theorem, kind: statement, wikipedia: Variational inequality, wikidata: Q4556320}
+  - {name: Signorini problem, kind: problem, wikipedia: Signorini problem, wikidata: Q7513012}
+  - {name: Stefan problem as a variational inequality, kind: example, wikipedia: Stefan problem, wikidata: Q3775789}
+  # Minimax and saddle points
+  - {name: saddle point of a Lagrangian, kind: definition, wikipedia: Saddle point, wikidata: Q690935}
+  - {name: von Neumann's minimax theorem, kind: statement, wikipedia: Minimax theorem, wikidata: Q913849}
+  - {name: Ky Fan minimax inequality, kind: statement, wikipedia: Ky Fan inequality, wikidata: Q366730}
+  # Nonsmooth analysis and set-valued analysis
+  - {name: subdifferential of a convex function, kind: definition, wikipedia: Subderivative, wikidata: Q289500}
+  - {name: Clarke generalized gradient, kind: definition, wikipedia: Clarke generalized derivative, wikidata: Q116858622}
+  - {name: limiting subdifferential, kind: definition, wikipedia: Subderivative, wikidata: Q289500}
+  - {name: convex conjugate, kind: definition, wikipedia: Convex conjugate, wikidata: Q3075186}
+  - {name: Fenchel–Moreau theorem, kind: statement, wikipedia: Fenchel–Moreau theorem, wikidata: Q5443005}
+  - {name: Fenchel–Young inequality, kind: statement, wikipedia: Convex conjugate, wikidata: Q3075186}
+  - {name: epigraph, kind: definition, decl: ConvexOn.convex_epigraph, wikipedia: Epigraph (mathematics), wikidata: Q1347059}
+  - {name: set-valued analysis, kind: concept, wikipedia: Set-valued function, wikidata: Q115988076}
+  - {name: envelope theorem, kind: statement, wikipedia: Envelope theorem, wikidata: Q2478371}
+  - {name: maximum theorem, kind: statement, wikipedia: Maximum theorem, wikidata: Q6795920}
+  # Optimal control: formulation and existence
+  - {name: optimal control, kind: concept, wikipedia: Optimal control, wikidata: Q1971426}
+  - {name: control system, kind: definition, wikipedia: Control theory, wikidata: Q6501221}
+  - {name: admissible control, kind: definition, wikipedia: Optimal control, wikidata: Q1971426}
+  - {name: Bolza problem, kind: problem, wikipedia: Optimal control, wikidata: Q1971426}
+  - {name: Mayer and Lagrange problems, kind: problem, wikipedia: Optimal control, wikidata: Q1971426}
+  - {name: Filippov's existence theorem, kind: statement, wikipedia: Differential inclusion, wikidata: Q1054638}
+  - {name: relaxed control, kind: definition, wikipedia: Optimal control, wikidata: Q1971426}
+  - {name: chattering control, kind: concept, wikipedia: Bang–bang control, wikidata: Q1432859}
+  - {name: optimal control of partial differential equations, kind: concept, wikipedia: PDE-constrained optimization, wikidata: Q97358887}
+  - {name: shape optimization, kind: problem, wikipedia: Shape optimization, wikidata: Q7489239}
+  - {name: shape derivative, kind: definition, wikipedia: Shape optimization, wikidata: Q7489239}
+  - {name: topology optimization, kind: problem, wikipedia: Topology optimization, wikidata: Q2443456}
+  # Optimality conditions in control
+  - {name: Pontryagin's maximum principle, kind: statement, wikipedia: Pontryagin's maximum principle, wikidata: Q3491629}
+  - {name: Hamiltonian of an optimal control problem, kind: definition, wikipedia: Hamiltonian (control theory), wikidata: Q5645293}
+  - {name: costate equation, kind: definition, wikipedia: Costate equation, wikidata: Q5175070}
+  - {name: bang-bang control, kind: concept, wikipedia: Bang–bang control, wikidata: Q1432859}
+  - {name: singular control, kind: concept, wikipedia: Singular control, wikidata: Q7524238}
+  - {name: Fuller's phenomenon, kind: example, wikipedia: Bang–bang control, wikidata: Q1432859}
+  - {name: linear-quadratic regulator, kind: problem, wikipedia: Linear–quadratic regulator, wikidata: Q2520550}
+  - {name: Riccati differential equation of optimal control, kind: definition, wikipedia: Riccati equation, wikidata: Q851503}
+  - {name: algebraic Riccati equation, kind: definition, wikipedia: Algebraic Riccati equation, wikidata: Q4723989}
+  - {name: linear-quadratic-Gaussian control, kind: problem, wikipedia: Linear–quadratic–Gaussian control, wikidata: Q1798304}
+  - {name: separation principle, kind: statement, wikipedia: Separation principle, wikidata: Q2271572}
+  - {name: time-optimal control, kind: problem, wikipedia: Bang–bang control, wikidata: Q1432859}
+  - {name: sub-Riemannian geodesic problem, kind: problem, wikipedia: Sub-Riemannian manifold, wikidata: Q7630587}
+  # Dynamic programming and Hamilton-Jacobi theory
+  - {name: value function, kind: definition, wikipedia: Value function, wikidata: Q65929180}
+  - {name: dynamic programming in continuous time, kind: concept, wikipedia: Dynamic programming, wikidata: Q380679}
+  - {name: Hamilton–Jacobi–Bellman equation, kind: definition, wikipedia: Hamilton–Jacobi–Bellman equation, wikidata: Q3302775}
+  - {name: verification theorem, kind: statement, wikipedia: Hamilton–Jacobi–Bellman equation, wikidata: Q3302775}
+  - {name: Hamilton–Jacobi theory of the calculus of variations, kind: concept, wikipedia: Hamilton–Jacobi equation, wikidata: Q1060137}
+  - {name: viscosity solution of the Hamilton–Jacobi–Bellman equation, kind: statement, wikipedia: Viscosity solution, wikidata: Q7935676}
+  - {name: Crandall–Lions uniqueness theorem, kind: statement, wikipedia: Viscosity solution, wikidata: Q7935676}
+  - {name: Carathéodory's royal road, kind: concept, wikipedia: Calculus of variations, wikidata: Q216861}
+  # Stochastic control and differential games
+  - {name: stochastic optimal control, kind: concept, wikipedia: Stochastic control, wikidata: Q7617811}
+  - {name: Merton's portfolio problem, kind: problem, wikipedia: Merton's portfolio problem, wikidata: Q3467003}
+  - {name: optimal stopping, kind: problem, wikipedia: Optimal stopping, wikidata: Q7098950}
+  - {name: differential game, kind: concept, wikipedia: Differential game, wikidata: Q1973196}
+  - {name: Hamilton–Jacobi–Isaacs equation, kind: definition, wikipedia: Differential game, wikidata: Q1973196}
+  - {name: pursuit–evasion game, kind: problem, wikipedia: Pursuit–evasion, wikidata: Q7261573}
+  - {name: homicidal chauffeur problem, kind: problem, wikipedia: Homicidal chauffeur problem, wikidata: Q5890773}
+  # Numerical methods for optimal control
+  - {name: indirect method by shooting, kind: concept, wikipedia: Shooting method, wikidata: Q1749769}
+  - {name: trajectory optimization, kind: concept, wikipedia: Trajectory optimization, wikidata: Q7833062}
+  - {name: direct collocation, kind: concept, wikipedia: Collocation method, wikidata: Q1779479}
+  - {name: pseudospectral optimal control, kind: concept, wikipedia: Pseudospectral optimal control, wikidata: Q7255577}
+  - {name: differential dynamic programming, kind: concept, wikipedia: Differential dynamic programming, wikidata: Q5275342}
+  - {name: adjoint state method, kind: concept, wikipedia: Adjoint state method, wikidata: Q4683172}
+  - {name: model predictive control, kind: concept, wikipedia: Model predictive control, wikidata: Q1782962}
+  # Variational methods for eigenvalues
+  - {name: Rayleigh quotient, kind: definition, wikipedia: Rayleigh quotient, wikidata: Q1665115}
+  - {name: Courant–Fischer–Weyl min-max principle, kind: statement, wikipedia: Min-max theorem, wikidata: Q4454958}
+  - {name: Rayleigh–Ritz method, kind: concept, wikipedia: Rayleigh–Ritz method, wikidata: Q852247}
+  - {name: Rayleigh–Faber–Krahn inequality, kind: statement, wikipedia: Rayleigh–Faber–Krahn inequality, wikidata: Q7298491}
+  - {name: Pólya's conjecture on Laplacian eigenvalues, kind: conjecture, wikipedia: Weyl law, wikidata: Q7990330}
+  # Geometric measure theory and optimization on manifolds
+  - {name: geometric measure theory, kind: concept, wikipedia: Geometric measure theory, wikidata: Q3526918}
+  - {name: rectifiable set, kind: definition, wikipedia: Rectifiable set, wikidata: Q3038340}
+  - {name: integral current, kind: definition, wikipedia: Current (mathematics), wikidata: Q3001145}
+  - {name: flat norm, kind: definition, wikipedia: Current (mathematics), wikidata: Q3001145}
+  - {name: Federer–Fleming compactness theorem, kind: statement, wikipedia: Current (mathematics), wikidata: Q3001145}
+  - {name: area-minimizing current, kind: definition, wikipedia: Current (mathematics), wikidata: Q3001145}
+  - {name: Caccioppoli set, kind: definition, wikipedia: Caccioppoli set, wikidata: Q17004137}
+  - {name: perimeter of a set, kind: definition, wikipedia: Caccioppoli set, wikidata: Q17004137}
+  - {name: De Giorgi's structure theorem, kind: statement, wikipedia: Caccioppoli set, wikidata: Q17004137}
+  - {name: coarea formula, kind: statement, wikipedia: Coarea formula, wikidata: Q2591257}
+  - {name: Allard regularity theorem, kind: statement, wikipedia: Varifold, wikidata: Q7915890}
+  - {name: Almgren's regularity theorem, kind: statement, wikipedia: Almgren regularity theorem, wikidata: Q4733800}
+  - {name: Simons cone, kind: example, wikipedia: Simons cone, wikidata: Q133933787}
+  - {name: Bombieri–De Giorgi–Giusti theorem, kind: statement, wikipedia: Bernstein's problem, wikidata: Q4894564}
+  - {name: Douglas–Radó solution of Plateau's problem, kind: statement, wikipedia: Plateau's problem, wikidata: Q1972021}
+  - {name: Jean Taylor's theorem on soap film singularities, kind: statement, wikipedia: Plateau's laws, wikidata: Q1974553}
+  - {name: Plateau's laws, kind: statement, wikipedia: Plateau's laws, wikidata: Q1974553}
+  - {name: double bubble theorem, kind: statement, wikipedia: Double bubble theorem, wikidata: Q5299978}
+  - {name: Kelvin problem, kind: problem, wikipedia: Weaire–Phelan structure, wikidata: Q869539}
+  - {name: Weaire–Phelan structure, kind: example, wikipedia: Weaire–Phelan structure, wikidata: Q869539}
+  - {name: honeycomb theorem, kind: statement, wikipedia: Honeycomb theorem, wikidata: Q3527261}
+  - {name: isoperimetric problem in Riemannian manifolds, kind: problem, wikipedia: Isoperimetric inequality, wikidata: Q617417}
+  # Optimal transport
+  - {name: Monge–Kantorovich transport problem, kind: problem, wikipedia: Transportation theory (mathematics), wikidata: Q1929885}
+  - {name: Kantorovich duality, kind: statement, wikipedia: Transportation theory (mathematics), wikidata: Q1929885}
+  - {name: transport plan, kind: definition, wikipedia: Transportation theory (mathematics), wikidata: Q1929885}
+  - {name: c-cyclical monotonicity, kind: definition, wikipedia: Transportation theory (mathematics), wikidata: Q1929885}
+  - {name: Brenier's theorem, kind: statement, wikipedia: Transportation theory (mathematics), wikidata: Q1929885}
+  - {name: Benamou–Brenier formula, kind: statement, wikipedia: Wasserstein metric, wikidata: Q768993}
+  - {name: displacement convexity, kind: definition, wikipedia: Wasserstein metric, wikidata: Q768993}
+  - {name: Jordan–Kinderlehrer–Otto scheme, kind: concept, wikipedia: Wasserstein metric, wikidata: Q768993}
+  # Variational principles of physics
+  - {name: stationary-action principle, kind: statement, wikipedia: Action principles, wikidata: Q722799}
+  - {name: Hamilton's principle, kind: statement, wikipedia: Hamilton's principle, wikidata: Q1145653}
+  - {name: Maupertuis's principle, kind: statement, wikipedia: Maupertuis's principle, wikidata: Q644922}
+  - {name: Fermat's principle, kind: statement, wikipedia: Fermat's principle, wikidata: Q331041}
+  - {name: Gauss's principle of least constraint, kind: statement, wikipedia: Gauss's principle of least constraint, wikidata: Q1477313}
+  - {name: d'Alembert's principle, kind: statement, wikipedia: D'Alembert's principle, wikidata: Q753007}
+  - {name: minimum total potential energy principle, kind: statement, wikipedia: Minimum total potential energy principle, wikidata: Q6865491}
+  - {name: Einstein–Hilbert action, kind: definition, wikipedia: Einstein–Hilbert action, wikidata: Q239224}

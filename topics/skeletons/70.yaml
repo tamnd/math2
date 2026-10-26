@@ -1,0 +1,230 @@
+# The C2 skeleton of 70-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 70-XX
+title: mechanics of point particles and systems
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+  mathlib-undergrad: {title: "Mathlib, the list of undergraduate topics", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/undergrad.yaml'}
+items:
+  # Foundations of particle mechanics
+  - {name: classical mechanics, kind: concept, wikipedia: Classical mechanics, wikidata: Q11397}
+  - {name: Newton's laws of motion, kind: statement, wikipedia: Newton's laws of motion, wikidata: Q38433}
+  - {name: inertial frame of reference, kind: definition, wikipedia: Inertial frame of reference, wikidata: Q192735}
+  - {name: Galilean transformation, kind: definition, wikipedia: Galilean transformation, wikidata: Q219207}
+  - {name: Galilean invariance, kind: concept, wikipedia: Galilean invariance, wikidata: Q2481895}
+  - {name: momentum, kind: definition, wikipedia: Momentum, wikidata: Q41273}
+  - {name: angular momentum, kind: definition, wikipedia: Angular momentum, wikidata: Q161254}
+  - {name: kinetic energy, kind: definition, wikipedia: Kinetic energy, wikidata: Q46276}
+  - {name: potential energy, kind: definition, wikipedia: Potential energy, wikidata: Q155640}
+  - {name: mechanical work, kind: definition, wikipedia: Work (physics), wikidata: Q42213}
+  - {name: work–energy theorem, kind: statement, wikipedia: Work (physics), wikidata: Q42213}
+  - {name: impulse, kind: definition, wikipedia: Impulse (physics), wikidata: Q837940}
+  - {name: conservative force, kind: definition, wikipedia: Conservative force, wikidata: Q822938}
+  - {name: conservation of energy, kind: statement, wikipedia: Conservation of energy, wikidata: Q11382}
+  - {name: conservation of momentum, kind: statement, wikipedia: Momentum, wikidata: Q41273}
+  - {name: conservation of angular momentum, kind: statement, wikipedia: Angular momentum, wikidata: Q161254}
+  - {name: center of mass, kind: definition, wikipedia: Center of mass, wikidata: Q2945123}
+  - {name: central force, kind: definition, wikipedia: Central force, wikidata: Q190663}
+  - {name: Newton's law of universal gravitation, kind: statement, wikipedia: Newton's law of universal gravitation, wikidata: Q134465}
+  - {name: shell theorem, kind: statement, wikipedia: Shell theorem, wikidata: Q2222575}
+  - {name: virial theorem, kind: statement, wikipedia: Virial theorem, wikidata: Q620602}
+  - {name: mechanical similarity, kind: concept, wikipedia: Mechanical similarity, wikidata: Q6804546}
+  - {name: friction, kind: concept, wikipedia: Friction, wikidata: Q82580}
+  - {name: elastic collision, kind: definition, wikipedia: Elastic collision, wikidata: Q1044799}
+  - {name: inelastic collision, kind: definition, wikipedia: Inelastic collision, wikidata: Q2074917}
+  - {name: coefficient of restitution, kind: definition, wikipedia: Coefficient of restitution, wikidata: Q1143011}
+  - {name: projectile motion, kind: example, wikipedia: Projectile motion, wikidata: Q10281355}
+  - {name: Atwood machine, kind: example, wikipedia: Atwood machine, wikidata: Q758291}
+  - {name: Norton's dome, kind: counterexample, wikipedia: Norton's dome, wikidata: Q18354955}
+  - {name: Painlevé paradox, kind: counterexample, wikipedia: Painlevé paradox, wikidata: Q7124903}
+  # Constraints and generalized coordinates
+  - {name: generalized coordinates, kind: definition, wikipedia: Generalized coordinates, wikidata: Q1057607}
+  - {name: degrees of freedom, kind: definition, wikipedia: Degrees of freedom (mechanics), wikidata: Q2480745}
+  - {name: configuration space, kind: definition, wikipedia: Configuration space (physics), wikidata: Q1156912}
+  - {name: holonomic constraint, kind: definition, wikipedia: Holonomic constraints, wikidata: Q1048005}
+  - {name: nonholonomic system, kind: definition, wikipedia: Nonholonomic system, wikidata: Q2478109}
+  - {name: scleronomous constraint, kind: definition, wikipedia: Scleronomous, wikidata: Q7434180}
+  - {name: rheonomous constraint, kind: definition, wikipedia: Rheonomous, wikidata: Q118875876}
+  - {name: generalized force, kind: definition, wikipedia: Generalized forces, wikidata: Q1153787}
+  - {name: principle of virtual work, kind: statement, wikipedia: Virtual work, wikidata: Q1144923}
+  - {name: d'Alembert's principle, kind: statement, wikipedia: D'Alembert's principle, wikidata: Q753007}
+  - {name: Gauss's principle of least constraint, kind: statement, wikipedia: Gauss's principle of least constraint, wikidata: Q1477313}
+  - {name: Hertz's principle of least curvature, kind: statement, wikipedia: Gauss's principle of least constraint, wikidata: Q1477313}
+  - {name: Appell's equation of motion, kind: statement, wikipedia: Appell's equation of motion, wikidata: Q1002309}
+  - {name: Udwadia–Kalaba equation, kind: statement, wikipedia: Udwadia–Kalaba formulation, wikidata: Q5508956}
+  - {name: Chaplygin sleigh, kind: example, wikipedia: Chaplygin sleigh, wikidata: Q17006435}
+  # Kinematics
+  - {name: kinematics, kind: concept, wikipedia: Kinematics, wikidata: Q11476}
+  - {name: velocity, kind: definition, wikipedia: Velocity, wikidata: Q11465}
+  - {name: acceleration, kind: definition, wikipedia: Acceleration, wikidata: Q11376}
+  - {name: jerk, kind: definition, wikipedia: Jerk (physics), wikidata: Q497332}
+  - {name: angular velocity, kind: definition, wikipedia: Angular velocity, wikidata: Q161635}
+  - {name: angular acceleration, kind: definition, wikipedia: Angular acceleration, wikidata: Q186300}
+  - {name: rotating reference frame, kind: concept, wikipedia: Rotating reference frame, wikidata: Q3310692}
+  - {name: fictitious force, kind: concept, wikipedia: Fictitious force, wikidata: Q212126}
+  - {name: Coriolis force, kind: definition, wikipedia: Coriolis force, wikidata: Q169973}
+  - {name: centrifugal force, kind: definition, wikipedia: Centrifugal force, wikidata: Q178733}
+  - {name: Euler force, kind: definition, wikipedia: Euler force, wikidata: Q963347}
+  - {name: rotation group SO(3), kind: object, decl: Matrix.specialOrthogonalGroup, wikipedia: 3D rotation group, wikidata: Q1256500, mathlib: [mathlib-undergrad]}
+  - {name: Euler angles, kind: definition, wikipedia: Euler angles, wikidata: Q751290}
+  - {name: Euler's rotation theorem, kind: statement, wikipedia: Euler's rotation theorem, wikidata: Q681406}
+  - {name: Rodrigues' rotation formula, kind: statement, wikipedia: Rodrigues' rotation formula, wikidata: Q1473494}
+  - {name: quaternions and spatial rotation, kind: concept, wikipedia: Quaternions and spatial rotation, wikidata: Q2634405}
+  - {name: Chasles' theorem, kind: statement, wikipedia: Chasles' theorem (kinematics), wikidata: Q17004813}
+  - {name: screw theory, kind: concept, wikipedia: Screw theory, wikidata: Q7891441}
+  - {name: instant centre of rotation, kind: definition, wikipedia: Instant centre of rotation, wikidata: Q1429043}
+  - {name: Kennedy's theorem on instant centres, kind: statement, wikipedia: Instant centre of rotation, wikidata: Q1429043}
+  - {name: Chebychev–Grübler–Kutzbach criterion, kind: statement, wikipedia: Chebychev–Grübler–Kutzbach criterion, wikidata: Q1322787}
+  - {name: four-bar linkage, kind: example, wikipedia: Four-bar linkage, wikidata: Q2102938}
+  - {name: Peaucellier–Lipkin linkage, kind: object, wikipedia: Peaucellier–Lipkin linkage, wikidata: Q388067}
+  - {name: Kempe's universality theorem, kind: statement, wikipedia: Kempe's universality theorem, wikidata: Q30692901}
+  - {name: forward kinematics, kind: concept, wikipedia: Forward kinematics, wikidata: Q1423222}
+  - {name: inverse kinematics, kind: problem, wikipedia: Inverse kinematics, wikidata: Q1501872}
+  - {name: Denavit–Hartenberg parameters, kind: definition, wikipedia: Denavit–Hartenberg parameters, wikidata: Q1186877}
+  # Statics
+  - {name: statics, kind: concept, wikipedia: Statics, wikidata: Q169019}
+  - {name: mechanical equilibrium, kind: definition, wikipedia: Mechanical equilibrium, wikidata: Q716915}
+  - {name: torque, kind: definition, wikipedia: Torque, wikidata: Q48103}
+  - {name: couple, kind: definition, wikipedia: Couple (mechanics), wikidata: Q253897}
+  - {name: Varignon's theorem, kind: statement, wikipedia: Varignon's theorem (mechanics), wikidata: Q4454932}
+  - {name: Lami's theorem, kind: statement, wikipedia: Lami's theorem, wikidata: Q1149522}
+  - {name: Lagrange–Dirichlet stability theorem, kind: statement, wikipedia: Lyapunov stability, wikidata: Q1341651}
+  - {name: catenary, kind: example, wikipedia: Catenary, wikidata: Q214561}
+  # Rigid body and multibody dynamics
+  - {name: rigid body, kind: definition, wikipedia: Rigid body, wikidata: Q192788}
+  - {name: rigid body dynamics, kind: concept, wikipedia: Rigid body dynamics, wikidata: Q2037529}
+  - {name: moment of inertia, kind: definition, wikipedia: Moment of inertia, wikidata: Q165618}
+  - {name: inertia tensor and principal axes, kind: definition, wikipedia: Moment of inertia, wikidata: Q165618}
+  - {name: parallel axis theorem, kind: statement, wikipedia: Parallel axis theorem, wikidata: Q828284}
+  - {name: perpendicular axis theorem, kind: statement, wikipedia: Perpendicular axis theorem, wikidata: Q995926}
+  - {name: Euler's equations of rigid body motion, kind: statement, wikipedia: Euler's equations (rigid body dynamics), wikidata: Q996383}
+  - {name: Poinsot's ellipsoid, kind: concept, wikipedia: Poinsot's ellipsoid, wikidata: Q1139169}
+  - {name: polhode, kind: definition, wikipedia: Polhode, wikidata: Q597659}
+  - {name: tennis racket theorem, kind: statement, wikipedia: Tennis racket theorem, wikidata: Q944604}
+  - {name: Euler top, kind: example, wikipedia: 'Lagrange, Euler, and Kovalevskaya tops', wikidata: Q6472659}
+  - {name: Lagrange top, kind: example, wikipedia: 'Lagrange, Euler, and Kovalevskaya tops', wikidata: Q6472659}
+  - {name: Kovalevskaya top, kind: example, wikipedia: 'Lagrange, Euler, and Kovalevskaya tops', wikidata: Q6472659}
+  - {name: Goryachev–Chaplygin top, kind: example, wikipedia: 'Lagrange, Euler, and Kovalevskaya tops', wikidata: Q6472659}
+  - {name: precession, kind: concept, wikipedia: Precession, wikidata: Q104225}
+  - {name: nutation, kind: concept, wikipedia: Nutation, wikidata: Q20180599}
+  - {name: rolling without slipping, kind: concept, wikipedia: Rolling, wikidata: Q2192732}
+  - {name: tippe top, kind: example, wikipedia: Tippe top, wikidata: Q2141510}
+  - {name: rattleback, kind: example, wikipedia: Rattleback, wikidata: Q1738399}
+  - {name: Euler's disk, kind: example, wikipedia: Euler's Disk, wikidata: Q10862754}
+  - {name: multibody system, kind: concept, wikipedia: Multibody system, wikidata: Q1917564}
+  - {name: Featherstone's algorithm, kind: concept, wikipedia: Featherstone's algorithm, wikidata: Q5439643}
+  # Lagrangian mechanics
+  - {name: Lagrangian mechanics, kind: concept, wikipedia: Lagrangian mechanics, wikidata: Q324669}
+  - {name: Lagrange's equations of motion, kind: statement, wikipedia: Euler–Lagrange equation, wikidata: Q875744}
+  - {name: Hamilton's principle, kind: statement, wikipedia: Hamilton's principle, wikidata: Q1145653}
+  - {name: principle of stationary action, kind: statement, wikipedia: Action principles, wikidata: Q722799}
+  - {name: action, kind: definition, wikipedia: Action (physics), wikidata: Q846785}
+  - {name: Maupertuis's principle, kind: statement, wikipedia: Maupertuis's principle, wikidata: Q644922}
+  - {name: Jacobi metric, kind: definition, wikipedia: Maupertuis's principle, wikidata: Q644922}
+  - {name: cyclic coordinate, kind: definition, wikipedia: Lagrangian mechanics, wikidata: Q324669}
+  - {name: Routhian mechanics, kind: concept, wikipedia: Routhian mechanics, wikidata: Q7371608}
+  - {name: Noether's theorem, kind: statement, wikipedia: Noether's theorem, wikidata: Q578555}
+  - {name: Rayleigh dissipation function, kind: definition, wikipedia: Rayleigh dissipation function, wikidata: Q4162366}
+  - {name: Lagrange multipliers for constraints, kind: concept, wikipedia: Lagrange multiplier, wikidata: Q598870}
+  - {name: inverse problem for Lagrangian mechanics, kind: problem, wikipedia: Inverse problem for Lagrangian mechanics, wikidata: Q6060414}
+  # Hamiltonian mechanics
+  - {name: Hamiltonian mechanics, kind: concept, wikipedia: Hamiltonian mechanics, wikidata: Q477921}
+  - {name: Legendre transformation, kind: definition, wikipedia: Legendre transformation, wikidata: Q908652}
+  - {name: Hamilton's equations, kind: statement, wikipedia: Hamiltonian mechanics, wikidata: Q477921}
+  - {name: phase space, kind: definition, wikipedia: Phase space, wikidata: Q62542}
+  - {name: Poisson bracket, kind: definition, wikipedia: Poisson bracket, wikidata: Q1052775}
+  - {name: canonical coordinates, kind: definition, wikipedia: Canonical coordinates, wikidata: Q1501876}
+  - {name: canonical transformation, kind: definition, wikipedia: Canonical transformation, wikidata: Q1366892}
+  - {name: generating function of a canonical transformation, kind: definition, wikipedia: Generating function (physics), wikidata: Q845581}
+  - {name: Liouville's theorem (Hamiltonian), kind: statement, wikipedia: Liouville's theorem (Hamiltonian), wikidata: Q766722}
+  - {name: Hamilton–Jacobi equation, kind: definition, wikipedia: Hamilton–Jacobi equation, wikidata: Q1060137}
+  - {name: Hamilton's principal function, kind: definition, wikipedia: Hamilton–Jacobi equation, wikidata: Q1060137}
+  - {name: separation of variables in the Hamilton–Jacobi equation, kind: concept, wikipedia: Hamilton–Jacobi equation, wikidata: Q1060137}
+  - {name: action-angle coordinates, kind: definition, wikipedia: Action-angle coordinates, wikidata: Q1000646}
+  - {name: adiabatic invariant, kind: definition, wikipedia: Adiabatic invariant, wikidata: Q2632009}
+  - {name: Dirac bracket, kind: definition, wikipedia: Dirac bracket, wikidata: Q3895805}
+  - {name: first class constraint, kind: definition, wikipedia: First-class constraint, wikidata: Q5454146}
+  - {name: Nambu mechanics, kind: concept, wikipedia: Nambu mechanics, wikidata: Q6273449}
+  - {name: Hamiltonian perturbation theory, kind: concept, wikipedia: Perturbation theory, wikidata: Q10886678}
+  - {name: Kolmogorov–Arnold–Moser theorem, kind: statement, wikipedia: Kolmogorov–Arnold–Moser theorem, wikidata: Q587081}
+  # Linear vibrations
+  - {name: harmonic oscillator, kind: example, wikipedia: Harmonic oscillator, wikidata: Q190070}
+  - {name: simple harmonic motion, kind: definition, wikipedia: Simple harmonic motion, wikidata: Q835975}
+  - {name: damping, kind: concept, wikipedia: Damping, wikidata: Q1127660}
+  - {name: resonance, kind: concept, wikipedia: Resonance, wikidata: Q172858}
+  - {name: Q factor, kind: definition, wikipedia: Q factor, wikidata: Q830521}
+  - {name: normal mode, kind: definition, wikipedia: Normal mode, wikidata: Q900488}
+  - {name: small oscillations about equilibrium, kind: concept, wikipedia: Normal mode, wikidata: Q900488}
+  - {name: Rayleigh's principle for natural frequencies, kind: statement, wikipedia: Rayleigh quotient, wikidata: Q1665115}
+  - {name: modal analysis, kind: concept, wikipedia: Modal analysis, wikidata: Q1416137}
+  - {name: pendulum, kind: example, wikipedia: Pendulum (mechanics), wikidata: Q829360}
+  - {name: spherical pendulum, kind: example, wikipedia: Spherical pendulum, wikidata: Q3299367}
+  - {name: Foucault pendulum, kind: example, wikipedia: Foucault pendulum, wikidata: Q178841}
+  - {name: tautochrone curve, kind: problem, wikipedia: Tautochrone curve, wikidata: Q3284444}
+  - {name: parametric oscillator, kind: concept, wikipedia: Parametric oscillator, wikidata: Q2632607}
+  - {name: Kapitza's pendulum, kind: example, wikipedia: Kapitza's pendulum, wikidata: Q4286430}
+  # Nonlinear mechanical dynamics
+  - {name: anharmonic oscillator, kind: concept, wikipedia: Anharmonicity, wikidata: Q545228}
+  - {name: Poincaré–Lindstedt method, kind: concept, wikipedia: Poincaré–Lindstedt method, wikidata: Q7207873}
+  - {name: double pendulum, kind: example, wikipedia: Double pendulum, wikidata: Q1243208}
+  - {name: elastic pendulum, kind: example, wikipedia: Elastic pendulum, wikidata: Q12714444}
+  - {name: Hénon–Heiles system, kind: example, wikipedia: Hénon–Heiles system, wikidata: Q5964294}
+  - {name: Arnold diffusion, kind: concept, wikipedia: Arnold diffusion, wikidata: Q4795328}
+  - {name: random vibration, kind: concept, wikipedia: Random vibration, wikidata: Q7291997}
+  # Particle systems and celestial mechanics
+  - {name: celestial mechanics, kind: concept, wikipedia: Celestial mechanics, wikidata: Q184274}
+  - {name: two-body problem, kind: problem, wikipedia: Two-body problem, wikidata: Q232976}
+  - {name: reduced mass, kind: definition, wikipedia: Reduced mass, wikidata: Q550046}
+  - {name: Kepler problem, kind: problem, wikipedia: Kepler problem, wikidata: Q2564682}
+  - {name: Kepler's laws of planetary motion, kind: statement, wikipedia: Kepler's laws of planetary motion, wikidata: Q83219}
+  - {name: Kepler's equation, kind: definition, wikipedia: Kepler's equation, wikidata: Q932001}
+  - {name: Laplace–Runge–Lenz vector, kind: definition, wikipedia: Laplace–Runge–Lenz vector, wikidata: Q1153324}
+  - {name: Bertrand's theorem, kind: statement, wikipedia: Bertrand's theorem, wikidata: Q2493651}
+  - {name: Binet equation, kind: definition, wikipedia: Binet equation, wikidata: Q497603}
+  - {name: Newton's theorem of revolving orbits, kind: statement, wikipedia: Newton's theorem of revolving orbits, wikidata: Q8273228}
+  - {name: n-body problem, kind: problem, wikipedia: N-body problem, wikidata: Q1199050}
+  - {name: three-body problem, kind: problem, wikipedia: Three-body problem, wikidata: Q607699}
+  - {name: circular restricted three-body problem, kind: problem, wikipedia: Three-body problem, wikidata: Q607699}
+  - {name: Lagrange points, kind: object, wikipedia: Lagrange point, wikidata: Q190463}
+  - {name: Jacobi integral, kind: definition, wikipedia: Jacobi integral, wikidata: Q3799277}
+  - {name: Hill sphere, kind: definition, wikipedia: Hill sphere, wikidata: Q498792}
+  - {name: Euler's three-body problem, kind: problem, wikipedia: Euler's three-body problem, wikidata: Q4177149}
+  - {name: Sitnikov problem, kind: problem, wikipedia: Sitnikov problem, wikidata: Q1697929}
+  - {name: Sundman's convergent series for the three-body problem, kind: statement, wikipedia: Three-body problem, wikidata: Q607699}
+  - {name: figure-eight solution of the three-body problem, kind: example, wikipedia: Three-body problem, wikidata: Q607699}
+  - {name: central configuration, kind: definition, wikipedia: Central configuration, wikidata: Q85751259}
+  - {name: finiteness of central configurations, kind: conjecture, wikipedia: Smale's problems, wikidata: Q2664496}
+  - {name: Painlevé conjecture on noncollision singularities, kind: statement, wikipedia: Painlevé conjecture, wikidata: Q18386040}
+  - {name: stability of the Solar System, kind: problem, wikipedia: Stability of the Solar System, wikidata: Q2497813}
+  # Orbital mechanics
+  - {name: orbital mechanics, kind: concept, wikipedia: Orbital mechanics, wikidata: Q842433}
+  - {name: orbital elements, kind: definition, wikipedia: Orbital elements, wikidata: Q272626}
+  - {name: Kepler orbit, kind: definition, wikipedia: Kepler orbit, wikidata: Q2946193}
+  - {name: vis-viva equation, kind: statement, wikipedia: Vis-viva equation, wikidata: Q1142411}
+  - {name: escape velocity, kind: definition, wikipedia: Escape velocity, wikidata: Q166530}
+  - {name: osculating orbit, kind: definition, wikipedia: Osculating orbit, wikidata: Q1116090}
+  - {name: orbital perturbation, kind: concept, wikipedia: Perturbation (astronomy), wikidata: Q803623}
+  - {name: Lagrange's planetary equations, kind: statement, wikipedia: Perturbation (astronomy), wikidata: Q803623}
+  - {name: orbital resonance, kind: concept, wikipedia: Orbital resonance, wikidata: Q271561}
+  - {name: Kozai mechanism, kind: concept, wikipedia: Kozai mechanism, wikidata: Q938901}
+  - {name: Tisserand's parameter, kind: definition, wikipedia: Tisserand's parameter, wikidata: Q1806612}
+  - {name: Hohmann transfer orbit, kind: example, wikipedia: Hohmann transfer orbit, wikidata: Q723861}
+  - {name: bi-elliptic transfer, kind: example, wikipedia: Bi-elliptic transfer, wikidata: Q3997712}
+  - {name: Lambert's problem, kind: problem, wikipedia: Lambert's problem, wikidata: Q6481210}
+  - {name: patched conic approximation, kind: concept, wikipedia: Patched conic approximation, wikidata: Q7144351}
+  - {name: gravity assist, kind: concept, wikipedia: Gravity assist, wikidata: Q223776}
+  - {name: Clohessy–Wiltshire equations, kind: definition, wikipedia: Clohessy–Wiltshire equations, wikidata: Q16910572}
+  # Variable mass systems and rockets
+  - {name: variable-mass system, kind: concept, wikipedia: Variable-mass system, wikidata: Q27826761}
+  - {name: Tsiolkovsky rocket equation, kind: statement, wikipedia: Tsiolkovsky rocket equation, wikidata: Q834199}
+  - {name: Goddard problem, kind: problem, wikipedia: Goddard problem, wikidata: Q5576265}
+  # Control of mechanical systems
+  - {name: inverted pendulum, kind: example, wikipedia: Inverted pendulum, wikidata: Q550134}
+  - {name: Furuta pendulum, kind: example, wikipedia: Furuta pendulum, wikidata: Q5509824}
+  - {name: underactuated system, kind: concept, wikipedia: Underactuation, wikidata: Q7883433}
+  # Classical field theories
+  - {name: classical field theory, kind: concept, wikipedia: Classical field theory, wikidata: Q2603912}
+  - {name: Lagrangian density, kind: definition, wikipedia: Lagrangian (field theory), wikidata: Q505735}
+  - {name: De Donder–Weyl theory, kind: concept, wikipedia: De Donder–Weyl theory, wikidata: Q5244342}
+  - {name: covariant Hamiltonian field theory, kind: concept, wikipedia: Hamiltonian field theory, wikidata: Q25304038}

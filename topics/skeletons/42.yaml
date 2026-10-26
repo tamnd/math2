@@ -1,0 +1,253 @@
+# The C2 skeleton of 42-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 42-XX
+title: Euclidean harmonic analysis
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+  mathlib-undergrad: {title: "Mathlib, the list of undergraduate topics", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/undergrad.yaml'}
+  mathlib-overview: {title: "Mathlib, the overview of the library", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/overview.yaml'}
+  mathlib-100: {title: "Mathlib, the status of Freek Wiedijk's 100 theorems", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/100.yaml'}
+  mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
+items:
+  # Basic notions
+  - {name: harmonic analysis, kind: concept, wikipedia: Harmonic analysis, wikidata: Q876215}
+  - {name: Fourier analysis, kind: concept, wikipedia: Fourier analysis, wikidata: Q1365258}
+  - {name: trigonometric polynomial, kind: definition, wikipedia: Trigonometric polynomial, wikidata: Q1969650}
+  - {name: trigonometric series, kind: definition, wikipedia: Trigonometric series, wikidata: Q1149336}
+  - {name: Fourier series, kind: definition, wikipedia: Fourier series, wikidata: Q179467}
+  - {name: Fourier coefficient, kind: definition, decl: fourierCoeff, wikipedia: Fourier series, wikidata: Q179467, mathlib: [mathlib-100]}
+  - {name: Fourier monomial on the circle, kind: definition, decl: fourier, wikipedia: Fourier series, wikidata: Q179467}
+  - {name: sine and cosine series, kind: definition, wikipedia: Sine and cosine transforms, wikidata: Q1328722}
+  - {name: density of trigonometric polynomials in continuous functions, kind: statement, decl: span_fourier_closure_eq_top, wikipedia: Fourier series, wikidata: Q179467, mathlib: [mathlib-undergrad]}
+  - {name: Fourier basis of L2 of the circle, kind: statement, decl: fourierBasis, wikipedia: Fourier series, wikidata: Q179467, mathlib: [mathlib-undergrad]}
+  - {name: Parseval's identity, kind: statement, decl: tsum_sq_fourierCoeff, wikipedia: Parseval's identity, wikidata: Q944238, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000]}
+  - {name: L2 convergence of Fourier series, kind: statement, decl: hasSum_fourier_series_L2, wikipedia: Convergence of Fourier series, wikidata: Q5166386, mathlib: [mathlib-100]}
+  - {name: Riemann–Lebesgue lemma, kind: statement, decl: tendsto_integral_exp_inner_smul_cocompact, wikipedia: Riemann–Lebesgue lemma, wikidata: Q9363284, mathlib: [mathlib-overview]}
+  - {name: decay of Fourier coefficients and smoothness, kind: statement, wikipedia: Fourier series, wikidata: Q179467}
+  - {name: Fourier series of Bernoulli polynomials, kind: example, decl: hasSum_one_div_nat_pow_mul_fourier, wikipedia: Bernoulli polynomials, wikidata: Q2346201}
+  - {name: Basel problem via Fourier series, kind: example, decl: hasSum_zeta_two, wikipedia: Basel problem, wikidata: Q810431, mathlib: [mathlib-100, mathlib-1000]}
+  - {name: square wave, kind: example, wikipedia: Square wave (waveform), wikidata: Q1136640}
+  - {name: sawtooth wave, kind: example, wikipedia: Sawtooth wave, wikidata: Q1742397}
+  # Convergence of Fourier series
+  - {name: convergence of Fourier series, kind: concept, wikipedia: Convergence of Fourier series, wikidata: Q5166386}
+  - {name: Dirichlet kernel, kind: definition, wikipedia: Dirichlet kernel, wikidata: Q906024}
+  - {name: Lebesgue constants of the Dirichlet kernel, kind: statement, wikipedia: Dirichlet kernel, wikidata: Q906024}
+  - {name: uniform convergence of absolutely summable Fourier series, kind: statement, decl: hasSum_fourier_series_of_summable, wikipedia: Convergence of Fourier series, wikidata: Q5166386}
+  - {name: Dirichlet conditions, kind: statement, wikipedia: Dirichlet–Jordan test, wikidata: Q1227685}
+  - {name: Dini test, kind: statement, wikipedia: Dini test, wikidata: Q898252}
+  - {name: Dini–Lipschitz criterion, kind: statement, wikipedia: Dini–Lipschitz criterion, wikidata: Q5278349}
+  - {name: Riemann localization principle, kind: statement, wikipedia: Convergence of Fourier series, wikidata: Q5166386}
+  - {name: Gibbs phenomenon, kind: concept, wikipedia: Gibbs phenomenon, wikidata: Q5374}
+  - {name: continuous function with divergent Fourier series, kind: counterexample, wikipedia: Convergence of Fourier series, wikidata: Q5166386}
+  - {name: Kolmogorov's everywhere divergent Fourier series, kind: counterexample, wikipedia: Convergence of Fourier series, wikidata: Q5166386}
+  - {name: Carleson's theorem, kind: statement, wikipedia: Carleson's theorem, wikidata: Q5041174}
+  - {name: Hunt's extension of Carleson's theorem, kind: statement, wikipedia: Carleson's theorem, wikidata: Q5041174}
+  - {name: Kahane–Katznelson theorem, kind: statement, wikipedia: Convergence of Fourier series, wikidata: Q5166386}
+  - {name: absolutely convergent Fourier series, kind: concept, wikipedia: Wiener algebra, wikidata: Q7999136}
+  - {name: Bernstein's theorem on absolutely convergent Fourier series, kind: statement, wikipedia: Convergence of Fourier series, wikidata: Q5166386}
+  - {name: Wiener algebra, kind: definition, wikipedia: Wiener algebra, wikidata: Q7999136}
+  # Summability of Fourier series
+  - {name: summability kernel, kind: definition, wikipedia: Dirac delta function, wikidata: Q209675}
+  - {name: Fejér kernel, kind: definition, wikipedia: Fejér kernel, wikidata: Q1402176}
+  - {name: Fejér's theorem, kind: statement, wikipedia: Fejér's theorem, wikidata: Q571154}
+  - {name: Cesàro means of Fourier series, kind: definition, wikipedia: Fejér's theorem, wikidata: Q571154}
+  - {name: Poisson kernel, kind: definition, decl: poissonKernel, wikipedia: Poisson kernel, wikidata: Q2596534}
+  - {name: Lanczos sigma factor, kind: concept, wikipedia: Sigma approximation, wikidata: Q2858951}
+  # Lacunary series and uniqueness
+  - {name: lacunary series, kind: definition, wikipedia: Lacunary function, wikidata: Q1986013}
+  - {name: Hadamard gap theorem, kind: statement, wikipedia: Lacunary function, wikidata: Q1986013}
+  - {name: set of uniqueness, kind: definition, wikipedia: Set of uniqueness, wikidata: Q7456288}
+  - {name: Cantor's uniqueness theorem for trigonometric series, kind: statement, wikipedia: Set of uniqueness, wikidata: Q7456288}
+  - {name: Cantor–Lebesgue theorem, kind: statement, wikipedia: Set of uniqueness, wikidata: Q7456288}
+  - {name: Menshov's set of multiplicity of measure zero, kind: example, wikipedia: Set of uniqueness, wikidata: Q7456288}
+  # Trigonometric polynomials and extremal problems
+  - {name: trigonometric moment problem, kind: problem, wikipedia: Trigonometric moment problem, wikidata: Q7841830}
+  - {name: Szegő limit theorems, kind: statement, wikipedia: Szegő limit theorems, wikidata: Q3458641}
+  - {name: Toeplitz matrix, kind: definition, wikipedia: Toeplitz matrix, wikidata: Q849428}
+  - {name: Littlewood polynomial, kind: definition, wikipedia: Littlewood polynomial, wikidata: Q3395696}
+  - {name: Rudin–Shapiro polynomials, kind: example, wikipedia: Rudin–Shapiro sequence, wikidata: Q3503247}
+  - {name: Littlewood's L1 norm conjecture, kind: statement, wikipedia: Littlewood conjecture, wikidata: Q6653177}
+  - {name: Khintchine inequality, kind: statement, wikipedia: Khintchine inequality, wikidata: Q6401711}
+  - {name: trigonometric interpolation, kind: concept, wikipedia: Trigonometric interpolation, wikidata: Q464356}
+  # Fourier transform
+  - {name: Fourier transform, kind: definition, decl: VectorFourier.fourierIntegral, wikipedia: Fourier transform, wikidata: Q6520159}
+  - {name: inverse Fourier transform, kind: definition, wikipedia: Fourier inversion theorem, wikidata: Q3984053}
+  - {name: Fourier inversion theorem, kind: statement, decl: MeasureTheory.Integrable.fourierInv_fourier_eq, wikipedia: Fourier inversion theorem, wikidata: Q3984053, mathlib: [mathlib-1000]}
+  - {name: Plancherel theorem, kind: statement, decl: MeasureTheory.Lp.fourierTransformₗᵢ, wikipedia: Plancherel theorem, wikidata: Q2096184, mathlib: [mathlib-undergrad]}
+  - {name: convolution theorem, kind: statement, decl: SchwartzMap.fourier_convolution, wikipedia: Convolution theorem, wikidata: Q2638931}
+  - {name: Fourier transform of the Gaussian, kind: statement, decl: fourierIntegral_gaussian, wikipedia: Gaussian function, wikidata: Q1054475}
+  - {name: differentiation and multiplication under the Fourier transform, kind: statement, decl: VectorFourier.fourierIntegral_fderiv, wikipedia: Fourier transform, wikidata: Q6520159}
+  - {name: multiplication formula for the Fourier transform, kind: statement, decl: VectorFourier.integral_fourierIntegral_smul_eq_flip, wikipedia: Fourier transform, wikidata: Q6520159}
+  - {name: Fourier transform on Schwartz space, kind: statement, wikipedia: Schwartz space, wikidata: Q1369621}
+  - {name: Poisson summation formula, kind: statement, decl: Real.tsum_eq_tsum_fourier, wikipedia: Poisson summation formula, wikidata: Q387743}
+  - {name: Hausdorff–Young inequality, kind: statement, wikipedia: Hausdorff–Young inequality, wikidata: Q5682823}
+  - {name: Babenko–Beckner inequality, kind: statement, wikipedia: Babenko–Beckner inequality, wikidata: Q4837774}
+  - {name: Fourier–Stieltjes transform, kind: definition, wikipedia: Fourier transform, wikidata: Q6520159}
+  - {name: sine and cosine transforms, kind: definition, wikipedia: Sine and cosine transforms, wikidata: Q1328722}
+  - {name: sinc function, kind: example, wikipedia: Sinc function, wikidata: Q855949}
+  - {name: rectangular function, kind: example, wikipedia: Rectangular function, wikidata: Q946860}
+  - {name: Dirac comb, kind: example, wikipedia: Dirac comb, wikidata: Q385599}
+  - {name: Fourier transform of radial functions, kind: statement, wikipedia: Hankel transform, wikidata: Q155208}
+  - {name: Fourier series on the torus, kind: definition, wikipedia: Fourier series, wikidata: Q179467}
+  # Uncertainty principles
+  - {name: uncertainty principle in Fourier analysis, kind: statement, wikipedia: Fourier transform, wikidata: Q6520159}
+  - {name: Heisenberg inequality for the Fourier transform, kind: statement, wikipedia: Uncertainty principle, wikidata: Q44746}
+  - {name: Hardy's uncertainty principle, kind: statement, wikipedia: Fourier transform, wikidata: Q6520159}
+  - {name: entropic uncertainty principle, kind: statement, wikipedia: Entropic uncertainty, wikidata: Q5380783}
+  - {name: Benedicks' theorem, kind: statement, wikipedia: Fourier transform, wikidata: Q6520159}
+  - {name: prolate spheroidal wave functions, kind: definition, wikipedia: Prolate spheroidal wave function, wikidata: Q7249549}
+  # Sampling and discrete Fourier analysis
+  - {name: Nyquist–Shannon sampling theorem, kind: statement, wikipedia: Nyquist–Shannon sampling theorem, wikidata: Q679800}
+  - {name: Whittaker–Shannon interpolation formula, kind: statement, wikipedia: Whittaker–Shannon interpolation formula, wikidata: Q2018853}
+  - {name: band-limited function, kind: definition, wikipedia: Bandlimiting, wikidata: Q806263}
+  - {name: discrete Fourier transform, kind: definition, decl: ZMod.dft, wikipedia: Discrete Fourier transform, wikidata: Q2878}
+  - {name: discrete-time Fourier transform, kind: definition, wikipedia: Discrete-time Fourier transform, wikidata: Q1440048}
+  - {name: circulant matrix, kind: definition, decl: Matrix.circulant, wikipedia: Circulant matrix, wikidata: Q245457}
+  # Fourier multipliers
+  - {name: Fourier multiplier, kind: definition, decl: SchwartzMap.fourierMultiplierCLM, wikipedia: Multiplier (Fourier analysis), wikidata: Q6935014}
+  - {name: Lp multiplier, kind: definition, wikipedia: Multiplier (Fourier analysis), wikidata: Q6935014}
+  - {name: Marcinkiewicz multiplier theorem, kind: statement, wikipedia: Multiplier (Fourier analysis), wikidata: Q6935014}
+  - {name: Hörmander–Mikhlin multiplier theorem, kind: statement, wikipedia: Multiplier (Fourier analysis), wikidata: Q6935014}
+  - {name: Fefferman's ball multiplier theorem, kind: statement, wikipedia: Bochner–Riesz mean, wikidata: Q4936247}
+  - {name: Bochner–Riesz means, kind: definition, wikipedia: Bochner–Riesz mean, wikidata: Q4936247}
+  - {name: Bochner–Riesz conjecture, kind: conjecture, wikipedia: Bochner–Riesz mean, wikidata: Q4936247}
+  - {name: Carleson–Sjölin theorem, kind: statement, wikipedia: Bochner–Riesz mean, wikidata: Q4936247}
+  # Restriction, Kakeya and oscillatory integrals
+  - {name: oscillatory integral, kind: definition, wikipedia: Oscillatory integral, wikidata: Q2036580}
+  - {name: van der Corput lemma, kind: statement, wikipedia: Van der Corput lemma (harmonic analysis), wikidata: Q3229353}
+  - {name: decay of the Fourier transform of surface measure, kind: statement, wikipedia: Oscillatory integral, wikidata: Q2036580}
+  - {name: Fourier restriction problem, kind: problem, wikipedia: Restriction conjecture, wikidata: Q135423966}
+  - {name: restriction conjecture, kind: conjecture, wikipedia: Restriction conjecture, wikidata: Q135423966}
+  - {name: Stein–Tomas restriction theorem, kind: statement, wikipedia: Restriction conjecture, wikidata: Q135423966}
+  - {name: Kakeya set, kind: definition, wikipedia: Kakeya set, wikidata: Q3054869}
+  - {name: Besicovitch set of measure zero, kind: example, wikipedia: Kakeya set, wikidata: Q3054869}
+  - {name: Kakeya conjecture, kind: conjecture, wikipedia: Kakeya set, wikidata: Q3054869}
+  - {name: Kakeya maximal function conjecture, kind: conjecture, wikipedia: Kakeya set, wikidata: Q3054869}
+  # Singular integrals and Calderón–Zygmund theory
+  - {name: singular integral, kind: definition, wikipedia: Singular integral, wikidata: Q888122}
+  - {name: conjugate function, kind: definition, wikipedia: Harmonic conjugate, wikidata: Q5659251}
+  - {name: Hilbert transform, kind: definition, wikipedia: Hilbert transform, wikidata: Q685437}
+  - {name: M. Riesz theorem on the Hilbert transform, kind: statement, wikipedia: Hilbert transform, wikidata: Q685437}
+  - {name: Kolmogorov's weak-type estimate for the conjugate function, kind: statement, wikipedia: Hilbert transform, wikidata: Q685437}
+  - {name: Riesz transform, kind: definition, wikipedia: Riesz transform, wikidata: Q7333169}
+  - {name: Calderón–Zygmund kernel, kind: definition, wikipedia: Singular integral operators of convolution type, wikidata: Q7524241}
+  - {name: Calderón–Zygmund operator, kind: definition, wikipedia: Singular integral, wikidata: Q888122}
+  - {name: Calderón–Zygmund theorem, kind: statement, wikipedia: Singular integral operators of convolution type, wikidata: Q7524241}
+  - {name: Calderón–Zygmund decomposition, kind: statement, wikipedia: Calderón–Zygmund lemma, wikidata: Q1707076}
+  - {name: Hörmander condition, kind: definition, wikipedia: Singular integral operators of convolution type, wikidata: Q7524241}
+  - {name: T(1) theorem, kind: statement, wikipedia: T(1) theorem, wikidata: Q7667741}
+  - {name: Cotlar–Stein lemma, kind: statement, wikipedia: Cotlar–Stein lemma, wikidata: Q5175397}
+  - {name: Cauchy integral on Lipschitz curves, kind: statement, wikipedia: Singular integral operators on closed curves, wikidata: Q7524243}
+  - {name: fractional integration, kind: concept, wikipedia: Riesz potential, wikidata: Q7333166}
+  - {name: Hardy–Littlewood–Sobolev inequality, kind: statement, wikipedia: Sobolev inequality, wikidata: Q3711848}
+  # Maximal functions and weights
+  - {name: Hardy–Littlewood maximal inequality, kind: statement, wikipedia: Hardy–Littlewood maximal function, wikidata: Q3075250}
+  - {name: weak-type estimate, kind: definition, wikipedia: Lp space, wikidata: Q305936}
+  - {name: strong maximal function, kind: definition, wikipedia: Hardy–Littlewood maximal function, wikidata: Q3075250}
+  - {name: Muckenhoupt weights, kind: definition, wikipedia: Muckenhoupt weights, wikidata: Q6931165}
+  - {name: Muckenhoupt's theorem, kind: statement, wikipedia: Muckenhoupt weights, wikidata: Q6931165}
+  - {name: Rubio de Francia extrapolation theorem, kind: statement, wikipedia: Muckenhoupt weights, wikidata: Q6931165}
+  - {name: Whitney decomposition, kind: statement, wikipedia: Whitney covering lemma, wikidata: Q7996763}
+  - {name: doubling measure, kind: definition, wikipedia: Doubling space, wikidata: Q5300173}
+  # Littlewood–Paley theory
+  - {name: Littlewood–Paley theory, kind: concept, wikipedia: Littlewood–Paley theory, wikidata: Q6653183}
+  - {name: Littlewood–Paley decomposition, kind: definition, wikipedia: Littlewood–Paley theory, wikidata: Q6653183}
+  - {name: Littlewood–Paley square function, kind: definition, wikipedia: Littlewood–Paley theory, wikidata: Q6653183}
+  - {name: Littlewood–Paley inequality, kind: statement, wikipedia: Littlewood–Paley theory, wikidata: Q6653183}
+  - {name: Lusin area integral, kind: definition, wikipedia: Littlewood–Paley theory, wikidata: Q6653183}
+  - {name: Marcinkiewicz–Zygmund inequality, kind: statement, wikipedia: Marcinkiewicz–Zygmund inequality, wikidata: Q6757294}
+  - {name: paraproduct, kind: definition, wikipedia: Paraproduct, wikidata: Q17096244}
+  # Hardy spaces and BMO
+  - {name: real Hardy space H1, kind: definition, wikipedia: Hardy space, wikidata: Q1585233}
+  - {name: atomic decomposition of Hardy spaces, kind: statement, wikipedia: Hardy space, wikidata: Q1585233}
+  - {name: bounded mean oscillation, kind: definition, wikipedia: Bounded mean oscillation, wikidata: Q796341}
+  - {name: John–Nirenberg inequality, kind: statement, wikipedia: Bounded mean oscillation, wikidata: Q796341}
+  - {name: Fefferman duality theorem, kind: statement, wikipedia: Bounded mean oscillation, wikidata: Q796341}
+  - {name: vanishing mean oscillation, kind: definition, wikipedia: Bounded mean oscillation, wikidata: Q796341}
+  - {name: Carleson measure, kind: definition, wikipedia: Carleson measure, wikidata: Q5041178}
+  - {name: Carleson embedding theorem, kind: statement, wikipedia: Carleson measure, wikidata: Q5041178}
+  - {name: Coifman–Rochberg–Weiss commutator theorem, kind: statement, wikipedia: Bounded mean oscillation, wikidata: Q796341}
+  # Function spaces in harmonic analysis
+  - {name: Lorentz space, kind: definition, wikipedia: Lorentz space, wikidata: Q6680542}
+  - {name: Triebel–Lizorkin space, kind: definition, wikipedia: Triebel–Lizorkin space, wikidata: Q7841428}
+  - {name: Bessel potential space, kind: definition, wikipedia: Bessel potential, wikidata: Q4896404}
+  - {name: Morrey–Campanato space, kind: definition, wikipedia: Morrey–Campanato space, wikidata: Q6913505}
+  - {name: modulation space, kind: definition, wikipedia: Modulation space, wikidata: Q6889770}
+  - {name: Wiener amalgam space, kind: definition, wikipedia: Wiener amalgam space, wikidata: Q7999135}
+  - {name: Stein interpolation theorem, kind: statement, wikipedia: Riesz–Thorin theorem, wikidata: Q245902}
+  - {name: mollifier, kind: definition, decl: ContDiffBump.normed, wikipedia: Mollifier, wikidata: Q2318637}
+  - {name: approximation by convolution with mollifiers, kind: statement, decl: ContDiffBump.convolution_tendsto_right, wikipedia: Mollifier, wikidata: Q2318637, mathlib: [mathlib-undergrad, mathlib-overview]}
+  # Harmonic analysis and PDE
+  - {name: Strichartz estimate, kind: statement, wikipedia: Strichartz estimate, wikidata: Q18393075}
+  - {name: dispersive estimate for the Schrödinger equation, kind: statement, wikipedia: Strichartz estimate, wikidata: Q18393075}
+  - {name: pseudo-differential operator, kind: definition, wikipedia: Pseudo-differential operator, wikidata: Q1644451}
+  - {name: Calderón–Vaillancourt theorem, kind: statement, wikipedia: Pseudo-differential operator, wikidata: Q1644451}
+  # Almost periodic and positive definite functions
+  - {name: almost periodic function, kind: definition, wikipedia: Almost periodic function, wikidata: Q1066983}
+  - {name: Bohr almost periodic function, kind: definition, wikipedia: Almost periodic function, wikidata: Q1066983}
+  - {name: Bohr's approximation theorem, kind: statement, wikipedia: Almost periodic function, wikidata: Q1066983}
+  - {name: Besicovitch almost periodic function, kind: definition, wikipedia: Almost periodic function, wikidata: Q1066983}
+  - {name: mean-periodic function, kind: definition, wikipedia: Mean-periodic function, wikidata: Q6803554}
+  - {name: positive-definite function, kind: definition, wikipedia: Positive-definite function, wikidata: Q2293170}
+  - {name: Herglotz representation theorem, kind: statement, wikipedia: Positive harmonic function, wikidata: Q7233271}
+  # Completeness of function systems
+  - {name: nonharmonic Fourier series, kind: concept, wikipedia: Riesz sequence, wikidata: Q4075274}
+  - {name: Riesz basis, kind: definition, wikipedia: Riesz sequence, wikidata: Q4075274}
+  - {name: Landau's necessary density conditions for sampling, kind: statement, wikipedia: Nyquist–Shannon sampling theorem, wikidata: Q679800}
+  # Orthogonal polynomials and expansions
+  - {name: generalized Fourier series, kind: definition, wikipedia: Generalized Fourier series, wikidata: Q5532436}
+  - {name: orthogonal polynomials, kind: definition, wikipedia: Orthogonal polynomials, wikidata: Q619458}
+  - {name: Favard's theorem, kind: statement, wikipedia: Favard's theorem, wikidata: Q5438430}
+  - {name: Christoffel–Darboux formula, kind: statement, wikipedia: Christoffel–Darboux formula, wikidata: Q5111650}
+  - {name: interlacing of zeros of orthogonal polynomials, kind: statement, wikipedia: Orthogonal polynomials, wikidata: Q619458}
+  - {name: classical orthogonal polynomials, kind: definition, wikipedia: Classical orthogonal polynomials, wikidata: Q17006917}
+  - {name: Legendre polynomials, kind: definition, wikipedia: Legendre polynomials, wikidata: Q215405}
+  - {name: Hermite functions, kind: definition, decl: Polynomial.hermite, wikipedia: Hermite polynomials, wikidata: Q658574}
+  - {name: Laguerre polynomials, kind: definition, wikipedia: Laguerre polynomials, wikidata: Q1124546}
+  - {name: Jacobi polynomials, kind: definition, wikipedia: Jacobi polynomials, wikidata: Q371631}
+  - {name: Gegenbauer polynomials, kind: definition, wikipedia: Gegenbauer polynomials, wikidata: Q1498246}
+  - {name: orthogonal polynomials on the unit circle, kind: definition, wikipedia: Orthogonal polynomials on the unit circle, wikidata: Q7104532}
+  - {name: Szegő recurrence and Verblunsky coefficients, kind: statement, wikipedia: Orthogonal polynomials on the unit circle, wikidata: Q7104532}
+  - {name: Szegő's theorem, kind: statement, wikipedia: Orthogonal polynomials on the unit circle, wikidata: Q7104532}
+  - {name: Fourier–Bessel series, kind: definition, wikipedia: Fourier–Bessel series, wikidata: Q5475809}
+  - {name: Fourier–Legendre series, kind: definition, wikipedia: Legendre polynomials, wikidata: Q215405}
+  - {name: Walsh function, kind: definition, wikipedia: Walsh function, wikidata: Q1934233}
+  - {name: Rademacher functions, kind: definition, wikipedia: Rademacher system, wikidata: Q2125570}
+  - {name: Walsh–Hadamard transform, kind: definition, wikipedia: Hadamard transform, wikidata: Q1014065}
+  - {name: Haar system, kind: definition, wikipedia: Haar wavelet, wikidata: Q766198}
+  # Frames and time-frequency analysis
+  - {name: frame, kind: definition, wikipedia: Frame (linear algebra), wikidata: Q194737}
+  - {name: tight frame, kind: definition, wikipedia: Frame (linear algebra), wikidata: Q194737}
+  - {name: frame operator, kind: definition, wikipedia: Frame (linear algebra), wikidata: Q194737}
+  - {name: time–frequency analysis, kind: concept, wikipedia: Time–frequency analysis, wikidata: Q7806653}
+  - {name: short-time Fourier transform, kind: definition, wikipedia: Short-time Fourier transform, wikidata: Q1477735}
+  - {name: Gabor transform, kind: definition, wikipedia: Gabor transform, wikidata: Q996397}
+  - {name: Gabor frame, kind: definition, wikipedia: Gabor transform, wikidata: Q996397}
+  - {name: Balian–Low theorem, kind: statement, wikipedia: Balian–Low theorem, wikidata: Q3527008}
+  - {name: Zak transform, kind: definition, wikipedia: Zak transform, wikidata: Q25303763}
+  - {name: Wigner distribution function, kind: definition, wikipedia: Wigner distribution function, wikidata: Q233415}
+  - {name: ambiguity function, kind: definition, wikipedia: Ambiguity function, wikidata: Q3206297}
+  - {name: Feichtinger conjecture, kind: statement, wikipedia: Kadison–Singer problem, wikidata: Q25304456}
+  # Wavelets
+  - {name: wavelet, kind: definition, wikipedia: Wavelet, wikidata: Q831390}
+  - {name: continuous wavelet transform, kind: definition, wikipedia: Continuous wavelet transform, wikidata: Q2622756}
+  - {name: admissibility condition for wavelets, kind: definition, wikipedia: Continuous wavelet transform, wikidata: Q2622756}
+  - {name: discrete wavelet transform, kind: definition, wikipedia: Discrete wavelet transform, wikidata: Q2414958}
+  - {name: Haar wavelet, kind: example, wikipedia: Haar wavelet, wikidata: Q766198}
+  - {name: multiresolution analysis, kind: definition, wikipedia: Multiresolution analysis, wikidata: Q1952516}
+  - {name: scaling function and refinement equation, kind: definition, wikipedia: Multiresolution analysis, wikidata: Q1952516}
+  - {name: Daubechies wavelet, kind: example, wikipedia: Daubechies wavelet, wikidata: Q1172774}
+  - {name: vanishing moments of a wavelet, kind: definition, wikipedia: Daubechies wavelet, wikidata: Q1172774}
+  - {name: Meyer wavelet, kind: example, wikipedia: Meyer wavelet, wikidata: Q12036496}
+  - {name: Morlet wavelet, kind: example, wikipedia: Morlet wavelet, wikidata: Q3505077}
+  - {name: Ricker wavelet, kind: example, wikipedia: Ricker wavelet, wikidata: Q1019202}
+  - {name: Shannon wavelet, kind: example, wikipedia: Shannon wavelet, wikidata: Q7488992}
+  - {name: Coiflet, kind: example, wikipedia: Coiflet, wikidata: Q3487000}
+  - {name: biorthogonal wavelet, kind: definition, wikipedia: Biorthogonal wavelet, wikidata: Q4915256}
+  - {name: fast wavelet transform, kind: concept, wikipedia: Fast wavelet transform, wikidata: Q338438}
+  - {name: cascade algorithm, kind: concept, wikipedia: Cascade algorithm, wikidata: Q5048176}
+  - {name: lifting scheme, kind: concept, wikipedia: Lifting scheme, wikidata: Q3238415}
+  - {name: wavelet packet decomposition, kind: concept, wikipedia: Wavelet packet decomposition, wikidata: Q2736187}
+  - {name: curvelet, kind: definition, wikipedia: Curvelet, wikidata: Q5196075}
+  - {name: shearlet, kind: definition, wikipedia: Shearlet, wikidata: Q17018993}

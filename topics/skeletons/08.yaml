@@ -1,0 +1,244 @@
+# The C2 skeleton of 08-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 08-XX
+title: general algebraic structures
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+  mathlib-overview: {title: "Mathlib, the overview of the library", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/overview.yaml'}
+items:
+  # Basic notions
+  - {name: universal algebra, kind: concept, wikipedia: Universal algebra, wikidata: Q1636734}
+  - {name: algebraic structure, kind: concept, wikipedia: Algebraic structure, wikidata: Q205464}
+  - {name: signature, kind: definition, decl: FirstOrder.Language, wikipedia: Signature (logic), wikidata: Q741810}
+  - {name: function symbols of a signature, kind: definition, decl: FirstOrder.Language.Functions, wikipedia: Signature (logic), wikidata: Q741810}
+  - {name: arity, kind: definition, wikipedia: Arity, wikidata: Q1315869}
+  - {name: finitary operation, kind: definition, wikipedia: Operation (mathematics), wikidata: Q3884033}
+  - {name: nullary operation, kind: definition, wikipedia: Arity, wikidata: Q1315869}
+  - {name: unary operation, kind: definition, wikipedia: Unary operation, wikidata: Q657596}
+  - {name: binary operation, kind: definition, decl: Mul, wikipedia: Binary operation, wikidata: Q164307}
+  - {name: ternary operation, kind: definition, wikipedia: Ternary operation, wikidata: Q1524945}
+  - {name: infinitary operation, kind: definition, wikipedia: Arity, wikidata: Q1315869}
+  - {name: structure for a signature, kind: definition, decl: FirstOrder.Language.Structure, wikipedia: Structure (mathematical logic), wikidata: Q1851710, mathlib: [mathlib-overview]}
+  - {name: relational structure, kind: definition, wikipedia: Structure (mathematical logic), wikidata: Q1851710}
+  - {name: associative property, kind: definition, decl: Std.Associative, wikipedia: Associative property, wikidata: Q177251}
+  - {name: commutative property, kind: definition, decl: Std.Commutative, wikipedia: Commutative property, wikidata: Q165474}
+  - {name: idempotence, kind: definition, decl: Std.IdempotentOp, wikipedia: Idempotence, wikidata: Q368988}
+  - {name: identity element, kind: definition, decl: Std.LawfulIdentity, wikipedia: Identity element, wikidata: Q185813}
+  - {name: absorbing element, kind: definition, wikipedia: Absorbing element, wikidata: Q187420}
+  - {name: inverse element, kind: definition, wikipedia: Inverse element, wikidata: Q338057}
+  - {name: distributive property, kind: definition, wikipedia: Distributive property, wikidata: Q187959}
+  - {name: cancellation property, kind: definition, decl: IsCancelMul, wikipedia: Cancellation property, wikidata: Q2298524}
+  - {name: involution, kind: definition, decl: InvolutiveInv, wikipedia: Involution (mathematics), wikidata: Q846862}
+  - {name: commuting elements, kind: definition, decl: Commute, wikipedia: Commutative property, wikidata: Q165474}
+  - {name: opposite structure, kind: definition, decl: MulOpposite, wikipedia: Opposite group, wikidata: Q3117899}
+  # Homomorphisms and substructures
+  - {name: homomorphism, kind: definition, decl: FirstOrder.Language.Hom, wikipedia: Homomorphism, wikidata: Q215111}
+  - {name: isomorphism, kind: definition, decl: FirstOrder.Language.Equiv, wikipedia: Isomorphism, wikidata: Q189112}
+  - {name: embedding of structures, kind: definition, decl: FirstOrder.Language.Embedding, wikipedia: Embedding, wikidata: Q980509}
+  - {name: endomorphism, kind: definition, wikipedia: Endomorphism, wikidata: Q1340800}
+  - {name: automorphism, kind: definition, wikipedia: Automorphism, wikidata: Q782566}
+  - {name: automorphism group, kind: definition, decl: MulAut, wikipedia: Automorphism group, wikidata: Q60790315}
+  - {name: endomorphism monoid, kind: definition, decl: Monoid.End, wikipedia: Endomorphism, wikidata: Q1340800}
+  - {name: subalgebra, kind: definition, decl: FirstOrder.Language.Substructure, wikipedia: Substructure (mathematics), wikidata: Q859254, mathlib: [mathlib-overview]}
+  - {name: generated subalgebra, kind: definition, decl: FirstOrder.Language.Substructure.closure, wikipedia: Substructure (mathematics), wikidata: Q859254}
+  - {name: finitely generated algebra, kind: definition, decl: FirstOrder.Language.Structure.FG, wikipedia: Substructure (mathematics), wikidata: Q859254}
+  - {name: countably generated structure, kind: definition, decl: FirstOrder.Language.Structure.CG, wikipedia: Substructure (mathematics), wikidata: Q859254}
+  - {name: subalgebra lattice, kind: concept, wikipedia: Compact element, wikidata: Q5155306}
+  - {name: closure operator, kind: definition, wikipedia: Closure operator, wikidata: Q10564851}
+  - {name: Birkhoff–Frink representation of algebraic closure systems, kind: statement, wikipedia: Closure operator, wikidata: Q10564851}
+  - {name: Grätzer–Schmidt theorem, kind: statement, wikipedia: Congruence lattice problem, wikidata: Q5160997}
+  - {name: retract, kind: definition, wikipedia: Section (category theory), wikidata: Q60727552}
+  # Congruences and quotients
+  - {name: congruence relation, kind: definition, decl: Con, wikipedia: Congruence relation, wikidata: Q8349849}
+  - {name: quotient algebra, kind: definition, decl: Con.Quotient, wikipedia: Quotient (universal algebra), wikidata: Q2589508}
+  - {name: kernel of a homomorphism, kind: definition, decl: Con.ker, wikipedia: Kernel (algebra), wikidata: Q574844}
+  - {name: congruence generated by a relation, kind: definition, decl: conGen, wikipedia: Congruence relation, wikidata: Q8349849}
+  - {name: congruence lattice, kind: concept, decl: Con.instCompleteLattice, wikipedia: Congruence lattice problem, wikidata: Q5160997}
+  - {name: congruence lattice problem, kind: problem, wikipedia: Congruence lattice problem, wikidata: Q5160997}
+  - {name: first isomorphism theorem, kind: statement, decl: Con.quotientKerEquivRange, wikipedia: Isomorphism theorems, wikidata: Q1065966}
+  - {name: second isomorphism theorem, kind: statement, wikipedia: Isomorphism theorems, wikidata: Q1065966}
+  - {name: third isomorphism theorem, kind: statement, decl: Con.quotientQuotientEquivQuotient, wikipedia: Isomorphism theorems, wikidata: Q1065966}
+  - {name: correspondence theorem for congruences, kind: statement, decl: Con.correspondence, wikipedia: Isomorphism theorems, wikidata: Q1065966}
+  - {name: homomorphism theorem, kind: statement, decl: Con.lift, wikipedia: Fundamental theorem on homomorphisms, wikidata: Q1187646}
+  - {name: factor congruence, kind: definition, wikipedia: Congruence relation, wikidata: Q8349849}
+  - {name: fully invariant congruence, kind: definition, wikipedia: Variety (universal algebra), wikidata: Q3502010}
+  - {name: permuting congruences, kind: definition, wikipedia: Congruence-permutable algebra, wikidata: Q19596444}
+  - {name: simple algebra, kind: definition, wikipedia: Simple algebra (universal algebra), wikidata: Q1405695}
+  # Products and constructions
+  - {name: direct product of algebras, kind: definition, wikipedia: Direct product, wikidata: Q1778193}
+  - {name: subdirect product, kind: definition, wikipedia: Subdirect product, wikidata: Q1691827}
+  - {name: subdirectly irreducible algebra, kind: definition, wikipedia: Subdirectly irreducible algebra, wikidata: Q7631005}
+  - {name: Birkhoff's subdirect representation theorem, kind: statement, wikipedia: Subdirectly irreducible algebra, wikidata: Q7631005}
+  - {name: directly indecomposable algebra, kind: definition, wikipedia: Direct product, wikidata: Q1778193}
+  - {name: reduced product, kind: definition, wikipedia: Reduced product, wikidata: Q7306336}
+  - {name: ultraproduct of algebras, kind: definition, wikipedia: Ultraproduct, wikidata: Q1535225}
+  - {name: Boolean product, kind: definition, wikipedia: Boolean algebras canonically defined, wikidata: Q4943350}
+  - {name: direct limit of algebras, kind: definition, decl: FirstOrder.Language.DirectLimit, wikipedia: Direct limit, wikidata: Q906015}
+  - {name: inverse limit of algebras, kind: definition, wikipedia: Inverse limit, wikidata: Q2634828}
+  - {name: free product of algebras, kind: definition, decl: Monoid.Coprod, wikipedia: Free product, wikidata: Q1454165}
+  - {name: amalgamated free product, kind: definition, decl: Monoid.PushoutI, wikipedia: Free product, wikidata: Q1454165}
+  - {name: amalgamation property, kind: definition, wikipedia: Amalgamation property, wikidata: Q4739384}
+  - {name: strong amalgamation property, kind: definition, wikipedia: Amalgamation property, wikidata: Q4739384}
+  - {name: injective algebra, kind: definition, wikipedia: Injective object, wikidata: Q1625040}
+  - {name: projective algebra, kind: definition, wikipedia: Projective object, wikidata: Q2112502}
+  - {name: essential extension, kind: definition, wikipedia: Essential extension, wikidata: Q2563809}
+  - {name: residually finite algebra, kind: definition, wikipedia: Residual property (mathematics), wikidata: Q16968884}
+  - {name: residually small variety, kind: definition, wikipedia: Residual property (mathematics), wikidata: Q16968884}
+  # Terms, identities and equational logic
+  - {name: term, kind: definition, decl: FirstOrder.Language.Term, wikipedia: Term (logic), wikidata: Q1318370}
+  - {name: term evaluation, kind: definition, decl: FirstOrder.Language.Term.realize, wikipedia: Term (logic), wikidata: Q1318370}
+  - {name: term algebra, kind: definition, wikipedia: Term algebra, wikidata: Q21998744}
+  - {name: term operation, kind: definition, wikipedia: Clone (algebra), wikidata: Q838048}
+  - {name: polynomial operation, kind: definition, wikipedia: Clone (algebra), wikidata: Q838048}
+  - {name: identity, kind: definition, wikipedia: Identity (mathematics), wikidata: Q609647}
+  - {name: equational theory, kind: definition, wikipedia: Equational logic, wikidata: Q5384236}
+  - {name: equational logic, kind: concept, wikipedia: Equational logic, wikidata: Q5384236}
+  - {name: Birkhoff's completeness theorem, kind: statement, wikipedia: Equational logic, wikidata: Q5384236}
+  - {name: substitution, kind: definition, wikipedia: Substitution (logic), wikidata: Q1522579}
+  - {name: unification, kind: definition, wikipedia: Unification (computer science), wikidata: Q609057}
+  - {name: equational basis, kind: definition, wikipedia: Variety (universal algebra), wikidata: Q3502010}
+  - {name: finitely based algebra, kind: definition, wikipedia: Variety (universal algebra), wikidata: Q3502010}
+  - {name: inherently nonfinitely based algebra, kind: definition, wikipedia: Variety (universal algebra), wikidata: Q3502010}
+  - {name: Lyndon's nonfinitely based algebra, kind: counterexample, wikipedia: Variety (universal algebra), wikidata: Q3502010}
+  - {name: Oates–Powell theorem, kind: statement, wikipedia: Variety (universal algebra), wikidata: Q3502010}
+  - {name: Baker's finite basis theorem, kind: statement, wikipedia: Congruence lattice problem, wikidata: Q5160997}
+  - {name: Tarski's finite basis problem, kind: problem, wikipedia: Variety (universal algebra), wikidata: Q3502010}
+  - {name: McKenzie's undecidability of the finite basis problem, kind: statement, wikipedia: Variety (universal algebra), wikidata: Q3502010}
+  - {name: Park's conjecture, kind: conjecture, wikipedia: Variety (universal algebra), wikidata: Q3502010}
+  - {name: Tarski's high school algebra problem, kind: problem, wikipedia: Tarski's high school algebra problem, wikidata: Q7686759}
+  - {name: Wilkie's identity, kind: example, wikipedia: Tarski's high school algebra problem, wikidata: Q7686759}
+  - {name: word problem for an algebra, kind: problem, wikipedia: Word problem (mathematics), wikidata: Q3406273}
+  - {name: word problem for free algebras of a variety, kind: problem, wikipedia: Word problem (mathematics), wikidata: Q3406273}
+  - {name: Evans's theorem on word problems, kind: statement, wikipedia: Word problem (mathematics), wikidata: Q3406273}
+  - {name: term rewriting for equational theories, kind: concept, wikipedia: Rewriting, wikidata: Q1668499}
+  # Free algebras
+  - {name: free algebra in a variety, kind: definition, wikipedia: Free object, wikidata: Q5500272}
+  - {name: universal property of free algebras, kind: statement, wikipedia: Free object, wikidata: Q5500272}
+  - {name: absolutely free algebra, kind: definition, wikipedia: Term algebra, wikidata: Q21998744}
+  - {name: relatively free algebra, kind: definition, wikipedia: Free object, wikidata: Q5500272}
+  - {name: free magma, kind: example, decl: FreeMagma, wikipedia: Magma (algebra), wikidata: Q679903}
+  - {name: universal property of the free magma, kind: statement, decl: FreeMagma.lift, wikipedia: Magma (algebra), wikidata: Q679903}
+  - {name: presentation of an algebra, kind: definition, decl: PresentedMonoid, wikipedia: Presentation of a group, wikidata: Q915906}
+  - {name: free spectrum of a variety, kind: definition, wikipedia: Variety (universal algebra), wikidata: Q3502010}
+  - {name: Herbrand universe, kind: example, wikipedia: Herbrand structure, wikidata: Q1609475}
+  # Varieties
+  - {name: variety of algebras, kind: definition, wikipedia: Variety (universal algebra), wikidata: Q3502010}
+  - {name: class operators H S P, kind: definition, wikipedia: Variety (universal algebra), wikidata: Q3502010}
+  - {name: Birkhoff's HSP theorem, kind: statement, wikipedia: Variety (universal algebra), wikidata: Q3502010}
+  - {name: Tarski's HSP formula, kind: statement, wikipedia: Variety (universal algebra), wikidata: Q3502010}
+  - {name: subvariety, kind: definition, wikipedia: Variety (universal algebra), wikidata: Q3502010}
+  - {name: lattice of subvarieties, kind: concept, wikipedia: Variety (universal algebra), wikidata: Q3502010}
+  - {name: lattice of equational theories, kind: concept, wikipedia: Equational logic, wikidata: Q5384236}
+  - {name: locally finite variety, kind: definition, wikipedia: Locally finite variety, wikidata: Q6664684}
+  - {name: finitely generated variety, kind: definition, wikipedia: Variety (universal algebra), wikidata: Q3502010}
+  - {name: minimal variety, kind: definition, wikipedia: Variety (universal algebra), wikidata: Q3502010}
+  - {name: trivial variety, kind: example, wikipedia: Variety (universal algebra), wikidata: Q3502010}
+  - {name: variety of groups, kind: example, wikipedia: Variety (universal algebra), wikidata: Q3502010}
+  - {name: variety of lattices, kind: example, wikipedia: Lattice (order), wikidata: Q595364}
+  - {name: interpretation of varieties, kind: definition, wikipedia: Interpretation (model theory), wikidata: Q17101792}
+  - {name: equivalence of varieties, kind: definition, wikipedia: Variety (universal algebra), wikidata: Q3502010}
+  - {name: Jónsson's lemma, kind: statement, wikipedia: Variety (universal algebra), wikidata: Q3502010}
+  - {name: McKenzie–Hobby tame congruence theory, kind: concept, wikipedia: Universal algebra, wikidata: Q1636734}
+  - {name: commutator theory, kind: concept, wikipedia: Universal algebra, wikidata: Q1636734}
+  - {name: abelian algebra, kind: definition, wikipedia: Universal algebra, wikidata: Q1636734}
+  - {name: residual bound conjecture, kind: conjecture, wikipedia: Residual property (mathematics), wikidata: Q16968884}
+  - {name: Quackenbush's problem, kind: problem, wikipedia: Residual property (mathematics), wikidata: Q16968884}
+  # Mal'cev conditions
+  - {name: Mal'cev condition, kind: definition, wikipedia: Congruence-permutable algebra, wikidata: Q19596444}
+  - {name: Mal'cev term, kind: definition, wikipedia: Congruence-permutable algebra, wikidata: Q19596444}
+  - {name: Mal'cev's theorem on congruence permutability, kind: statement, wikipedia: Congruence-permutable algebra, wikidata: Q19596444}
+  - {name: congruence-permutable variety, kind: definition, wikipedia: Congruence-permutable algebra, wikidata: Q19596444}
+  - {name: congruence-distributive variety, kind: definition, wikipedia: Distributive lattice, wikidata: Q2363730}
+  - {name: Jónsson terms, kind: definition, wikipedia: Distributive lattice, wikidata: Q2363730}
+  - {name: congruence-modular variety, kind: definition, wikipedia: Modular lattice, wikidata: Q1538614}
+  - {name: Day terms, kind: definition, wikipedia: Modular lattice, wikidata: Q1538614}
+  - {name: Gumm terms, kind: definition, wikipedia: Modular lattice, wikidata: Q1538614}
+  - {name: arithmetical variety, kind: definition, wikipedia: Congruence-permutable algebra, wikidata: Q19596444}
+  - {name: Pixley term, kind: definition, wikipedia: Congruence-permutable algebra, wikidata: Q19596444}
+  - {name: near-unanimity term, kind: definition, wikipedia: Majority function, wikidata: Q1053304}
+  - {name: majority term, kind: definition, wikipedia: Majority function, wikidata: Q1053304}
+  - {name: Baker–Pixley theorem, kind: statement, wikipedia: Majority function, wikidata: Q1053304}
+  - {name: discriminator variety, kind: definition, wikipedia: Discriminator, wikidata: Q5282088}
+  - {name: ternary discriminator, kind: definition, wikipedia: Discriminator, wikidata: Q5282088}
+  - {name: Taylor term, kind: definition, wikipedia: Constraint satisfaction problem, wikidata: Q1128326}
+  - {name: Siggers term, kind: definition, wikipedia: Constraint satisfaction problem, wikidata: Q1128326}
+  - {name: cyclic term theorem, kind: statement, wikipedia: Constraint satisfaction problem, wikidata: Q1128326}
+  # Clones and operations
+  - {name: clone, kind: definition, wikipedia: Clone (algebra), wikidata: Q838048}
+  - {name: projection operation, kind: definition, wikipedia: Projection (mathematics), wikidata: Q13415428}
+  - {name: polymorphism of a relation, kind: definition, wikipedia: Clone (algebra), wikidata: Q838048}
+  - {name: relational clone, kind: definition, wikipedia: Clone (algebra), wikidata: Q838048}
+  - {name: Pol–Inv Galois connection, kind: statement, wikipedia: Galois connection, wikidata: Q1491747}
+  - {name: lattice of clones, kind: concept, wikipedia: Clone (algebra), wikidata: Q838048}
+  - {name: Post's lattice, kind: object, wikipedia: Post's lattice, wikidata: Q11837622}
+  - {name: Rosenberg's classification of maximal clones, kind: statement, wikipedia: Clone (algebra), wikidata: Q838048}
+  - {name: minimal clone, kind: definition, wikipedia: Clone (algebra), wikidata: Q838048}
+  - {name: functional completeness, kind: definition, wikipedia: Functional completeness, wikidata: Q2348801}
+  - {name: Post's functional completeness theorem, kind: statement, wikipedia: Functional completeness, wikidata: Q2348801}
+  - {name: Sheffer function, kind: definition, wikipedia: Sheffer stroke, wikidata: Q3874243}
+  - {name: primal algebra, kind: definition, wikipedia: Functional completeness, wikidata: Q2348801}
+  - {name: Post algebra, kind: definition, wikipedia: Many-valued logic, wikidata: Q185502}
+  - {name: quasi-primal algebra, kind: definition, wikipedia: Functional completeness, wikidata: Q2348801}
+  - {name: Foster's theorem on primal algebras, kind: statement, wikipedia: Functional completeness, wikidata: Q2348801}
+  - {name: algebraic approach to constraint satisfaction, kind: concept, wikipedia: Constraint satisfaction problem, wikidata: Q1128326}
+  - {name: CSP dichotomy theorem, kind: statement, wikipedia: Constraint satisfaction problem, wikidata: Q1128326}
+  - {name: Feder–Vardi dichotomy conjecture, kind: conjecture, wikipedia: Constraint satisfaction problem, wikidata: Q1128326}
+  # Quasivarieties and model classes
+  - {name: quasi-identity, kind: definition, wikipedia: Quasivariety, wikidata: Q2752716}
+  - {name: quasivariety, kind: definition, wikipedia: Quasivariety, wikidata: Q2752716}
+  - {name: Mal'cev's characterization of quasivarieties, kind: statement, wikipedia: Quasivariety, wikidata: Q2752716}
+  - {name: prevariety, kind: definition, wikipedia: Quasivariety, wikidata: Q2752716}
+  - {name: Horn clause, kind: definition, wikipedia: Horn clause, wikidata: Q933932}
+  - {name: universal Horn class, kind: definition, wikipedia: Horn clause, wikidata: Q933932}
+  - {name: elementary class, kind: definition, decl: FirstOrder.Language.Theory.ModelType, wikipedia: Elementary class, wikidata: Q1327762}
+  - {name: universal class, kind: definition, wikipedia: Elementary class, wikidata: Q1327762}
+  - {name: Łoś–Tarski preservation theorem, kind: statement, wikipedia: Łoś–Tarski preservation theorem, wikidata: Q8080822}
+  - {name: pseudovariety, kind: definition, wikipedia: Variety (universal algebra), wikidata: Q3502010}
+  - {name: Reiterman's theorem, kind: statement, wikipedia: Variety (universal algebra), wikidata: Q3502010}
+  - {name: natural duality, kind: concept, wikipedia: Stone duality, wikidata: Q7619060}
+  - {name: Stone-type duality for varieties, kind: concept, wikipedia: Stone duality, wikidata: Q7619060}
+  # Categories of algebras
+  - {name: concrete category of algebras, kind: concept, wikipedia: Concrete category, wikidata: Q1575634}
+  - {name: forgetful functor, kind: definition, wikipedia: Forgetful functor, wikidata: Q2646117}
+  - {name: free functor, kind: definition, wikipedia: Free object, wikidata: Q5500272}
+  - {name: variety as a reflective subcategory, kind: statement, wikipedia: Reflective subcategory, wikidata: Q6101219}
+  - {name: non-surjective epimorphism of algebras, kind: example, wikipedia: Epimorphism, wikidata: Q1347208}
+  - {name: Lawvere theory, kind: definition, wikipedia: Lawvere theory, wikidata: Q6505076}
+  - {name: varieties as categories of algebras over a monad, kind: statement, decl: CategoryTheory.Monad.Algebra, wikipedia: Monad (category theory), wikidata: Q1630568}
+  - {name: Kleisli category, kind: definition, decl: CategoryTheory.Kleisli, wikipedia: Kleisli category, wikidata: Q1773982}
+  - {name: initial algebra, kind: definition, wikipedia: Initial algebra, wikidata: Q6034125}
+  - {name: F-algebra, kind: definition, decl: CategoryTheory.Endofunctor.Algebra, wikipedia: F-algebra, wikidata: Q1386213}
+  - {name: universal coalgebra, kind: concept, wikipedia: F-coalgebra, wikidata: Q3062935}
+  # Partial, multi-sorted and other generalized algebras
+  - {name: partial algebra, kind: definition, wikipedia: Partial algebra, wikidata: Q18386809}
+  - {name: many-sorted algebra, kind: definition, wikipedia: Many-sorted logic, wikidata: Q2303607}
+  - {name: heterogeneous algebra, kind: definition, wikipedia: Many-sorted logic, wikidata: Q2303607}
+  - {name: abstract data type as an algebra, kind: concept, wikipedia: Abstract data type, wikidata: Q827335}
+  - {name: initial algebra semantics, kind: concept, wikipedia: Initial algebra, wikidata: Q6034125}
+  - {name: multialgebra, kind: definition, wikipedia: Hyperstructure, wikidata: Q5958653}
+  - {name: hyperstructure, kind: definition, wikipedia: Hyperstructure, wikidata: Q5958653}
+  - {name: fuzzy algebraic structure, kind: concept, wikipedia: Fuzzy set, wikidata: Q1055058}
+  - {name: unary algebra, kind: definition, wikipedia: Unary operation, wikidata: Q657596}
+  - {name: semiautomaton as a unary algebra, kind: example, wikipedia: Semiautomaton, wikidata: Q7449364}
+  # Special classes of algebras
+  - {name: magma, kind: definition, wikipedia: Magma (algebra), wikidata: Q679903}
+  - {name: commutative magma, kind: definition, decl: CommMagma, wikipedia: Commutative magma, wikidata: Q5419309}
+  - {name: unital magma, kind: definition, decl: MulOneClass, wikipedia: Magma (algebra), wikidata: Q679903}
+  - {name: associative quotient of a magma, kind: definition, decl: Magma.AssocQuotient, wikipedia: Magma (algebra), wikidata: Q679903}
+  - {name: medial magma, kind: definition, wikipedia: Medial magma, wikidata: Q6806018}
+  - {name: entropic algebra, kind: definition, wikipedia: Medial magma, wikidata: Q6806018}
+  - {name: Toyoda–Bruck theorem, kind: statement, wikipedia: Medial magma, wikidata: Q6806018}
+  - {name: self-distributive operation, kind: definition, wikipedia: Distributive property, wikidata: Q187959}
+  - {name: shelf, kind: definition, decl: Shelf, wikipedia: Racks and quandles, wikidata: Q7279807}
+  - {name: rack, kind: definition, decl: Rack, wikipedia: Racks and quandles, wikidata: Q7279807}
+  - {name: quandle, kind: definition, decl: Quandle, wikipedia: Racks and quandles, wikidata: Q7279807}
+  - {name: dihedral quandle, kind: example, decl: Quandle.Dihedral, wikipedia: Racks and quandles, wikidata: Q7279807}
+  - {name: Laver table, kind: example, wikipedia: Laver table, wikidata: Q17144402}
+  - {name: heap, kind: definition, wikipedia: Heap (mathematics), wikidata: Q5691503}
+  - {name: affine space as an algebra, kind: example, wikipedia: Affine space, wikidata: Q382698}
+  - {name: Steiner quasigroup, kind: example, wikipedia: Steiner system, wikidata: Q4420916}
+  - {name: Jónsson–Tarski algebra, kind: example, wikipedia: Jónsson–Tarski algebra, wikidata: Q18208351}
+  - {name: Cantor algebra, kind: example, wikipedia: Cantor algebra, wikidata: Q18386550}
+  - {name: median algebra as a ternary algebra, kind: example, wikipedia: Median algebra, wikidata: Q6806108}
+  - {name: groupoid in the sense of a magma, kind: concept, wikipedia: Magma (algebra), wikidata: Q679903}

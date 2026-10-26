@@ -1,0 +1,197 @@
+# The C2 skeleton of 58-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 58-XX
+title: global analysis on manifolds
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+items:
+  # Basic notions and local calculus
+  - {name: global analysis, kind: concept, wikipedia: Global analysis, wikidata: Q17017346}
+  - {name: germ of a smooth function, kind: definition, wikipedia: Germ (mathematics), wikidata: Q2520842}
+  - {name: Hadamard's lemma, kind: statement, wikipedia: Hadamard's lemma, wikidata: Q2074239}
+  - {name: Borel's lemma, kind: statement, wikipedia: Borel's lemma, wikidata: Q3527022}
+  - {name: jet, kind: definition, wikipedia: Jet (mathematics), wikidata: Q923480}
+  - {name: jet bundle, kind: definition, wikipedia: Jet bundle, wikidata: Q6188933}
+  - {name: prolongation of a section to a jet bundle, kind: definition, wikipedia: Jet bundle, wikidata: Q6188933}
+  - {name: contact structure on a jet bundle, kind: definition, wikipedia: Jet bundle, wikidata: Q6188933}
+  - {name: Whitney C-infinity topology, kind: definition, wikipedia: Whitney topologies, wikidata: Q7996768}
+  - {name: Ehresmann's fibration theorem, kind: statement, wikipedia: Ehresmann's lemma, wikidata: Q867141}
+  - {name: Peetre theorem on local operators, kind: statement, wikipedia: Peetre theorem, wikidata: Q7160489}
+  # Differential forms and exterior differential systems
+  - {name: Poincaré lemma, kind: statement, wikipedia: Poincaré lemma, wikidata: Q18215105}
+  - {name: Cartan's magic formula, kind: statement, wikipedia: Lie derivative, wikidata: Q579267}
+  - {name: Frölicher–Nijenhuis bracket, kind: definition, wikipedia: Frölicher–Nijenhuis bracket, wikidata: Q5506750}
+  - {name: Schouten–Nijenhuis bracket, kind: definition, wikipedia: Schouten–Nijenhuis bracket, wikidata: Q7432782}
+  - {name: Nijenhuis tensor, kind: definition, wikipedia: Almost complex manifold, wikidata: Q2995691}
+  - {name: exterior differential system, kind: definition, wikipedia: Differential ideal, wikidata: Q5275350}
+  - {name: Pfaffian system, kind: definition, wikipedia: Differential ideal, wikidata: Q5275350}
+  - {name: Cartan–Kähler theorem, kind: statement, wikipedia: Cartan–Kähler theorem, wikidata: Q5047052}
+  - {name: Cartan's test for involutivity, kind: statement, wikipedia: Cartan–Kähler theorem, wikidata: Q5047052}
+  - {name: Spencer cohomology, kind: definition, wikipedia: Spencer cohomology, wikidata: Q7576231}
+  # Generalized smooth structures and supermanifolds
+  - {name: diffeology, kind: definition, wikipedia: Diffeology, wikidata: Q5275263}
+  - {name: Frölicher space, kind: definition, wikipedia: Frölicher space, wikidata: Q5506747}
+  - {name: synthetic differential geometry, kind: concept, wikipedia: Synthetic differential geometry, wikidata: Q7662747}
+  - {name: C-infinity ring, kind: definition, wikipedia: Synthetic differential geometry, wikidata: Q7662747}
+  - {name: supermanifold, kind: definition, wikipedia: Supermanifold, wikidata: Q3978062}
+  - {name: Berezin integral, kind: definition, wikipedia: Berezin integral, wikidata: Q4891358}
+  - {name: graded manifold, kind: definition, wikipedia: Graded manifold, wikidata: Q5591875}
+  - {name: Whitney stratification, kind: definition, wikipedia: Whitney conditions, wikidata: Q7996761}
+  - {name: Thom–Mather stratified space, kind: definition, wikipedia: Thom–Mather stratified space, wikidata: Q7825045}
+  - {name: Thom–Mather isotopy lemmas, kind: statement, wikipedia: Thom–Mather stratified space, wikidata: Q7825045}
+  # Infinite-dimensional manifolds
+  - {name: Banach manifold, kind: definition, wikipedia: Banach manifold, wikidata: Q3554819}
+  - {name: Hilbert manifold, kind: definition, wikipedia: Hilbert manifold, wikidata: Q3554824}
+  - {name: Fréchet manifold, kind: definition, wikipedia: Fréchet manifold, wikidata: Q3554820}
+  - {name: convenient vector space, kind: definition, wikipedia: Convenient vector space, wikidata: Q25303670}
+  - {name: tame Fréchet space, kind: definition, wikipedia: Nash–Moser theorem, wikidata: Q6967039}
+  - {name: Kuiper's theorem, kind: statement, wikipedia: Kuiper's theorem, wikidata: Q6442276}
+  - {name: Anderson–Kadec theorem, kind: statement, wikipedia: Anderson–Kadec theorem, wikidata: Q60790479}
+  - {name: open embedding theorem for Hilbert manifolds, kind: statement, wikipedia: Hilbert manifold, wikidata: Q3554824}
+  - {name: Banach–Lie group, kind: definition, wikipedia: Lie group, wikidata: Q622679}
+  - {name: diffeomorphism group, kind: object, wikipedia: Diffeomorphism, wikidata: Q1058314}
+  - {name: loop group, kind: object, wikipedia: Loop group, wikidata: Q6675827}
+  - {name: Banach bundle, kind: definition, wikipedia: Banach bundle, wikidata: Q4853761}
+  # Manifolds of mappings and moduli spaces
+  - {name: manifold of smooth mappings, kind: definition, wikipedia: Banach manifold, wikidata: Q3554819}
+  - {name: free loop space, kind: object, wikipedia: Free loop, wikidata: Q2015432}
+  - {name: path space of a manifold, kind: object, wikipedia: Path space (algebraic topology), wikidata: Q65155940}
+  - {name: gauge group, kind: object, wikipedia: Gauge group (mathematics), wikidata: Q11301672}
+  - {name: space of connections modulo gauge, kind: object, wikipedia: Gauge theory (mathematics), wikidata: Q97356881}
+  - {name: Ebin's slice theorem, kind: statement, wikipedia: Slice theorem (differential geometry), wikidata: Q17093903}
+  - {name: moduli space of instantons, kind: object, wikipedia: Instanton, wikidata: Q1192916}
+  - {name: Uhlenbeck compactness theorem, kind: statement, wikipedia: Uhlenbeck's compactness theorem, wikidata: Q135397856}
+  - {name: Uhlenbeck's removable singularity theorem, kind: statement, wikipedia: Gauge theory (mathematics), wikidata: Q97356881}
+  - {name: Kuranishi structure, kind: definition, wikipedia: Kuranishi structure, wikidata: Q25304228}
+  - {name: virtual fundamental class, kind: definition, wikipedia: Virtual fundamental class, wikidata: Q108101855}
+  # Nonlinear operators and calculus on manifolds
+  - {name: Fredholm map, kind: definition, wikipedia: Fredholm operator, wikidata: Q573631}
+  - {name: Sard–Smale theorem, kind: statement, wikipedia: Sard's theorem, wikidata: Q583147}
+  - {name: parametric transversality theorem, kind: statement, wikipedia: Transversality theorem, wikidata: Q116677}
+  - {name: multijet transversality theorem, kind: statement, wikipedia: Transversality theorem, wikidata: Q116677}
+  - {name: Smale's degree for proper Fredholm maps, kind: concept, wikipedia: Fredholm operator, wikidata: Q573631}
+  - {name: Atiyah–Bott fixed-point theorem, kind: statement, wikipedia: Atiyah–Bott fixed-point theorem, wikidata: Q755986}
+  - {name: Łojasiewicz inequality, kind: statement, wikipedia: Łojasiewicz inequality, wikidata: Q8080668}
+  - {name: gradient flow on a manifold, kind: concept, wikipedia: Gradient-like vector field, wikidata: Q17018645}
+  # Critical point theory and variational problems in infinite dimensions
+  - {name: critical point theory, kind: concept, wikipedia: Critical point (mathematics), wikidata: Q577705}
+  - {name: nondegenerate critical point, kind: definition, wikipedia: Morse theory, wikidata: Q2296951}
+  - {name: Morse index, kind: definition, wikipedia: Morse theory, wikidata: Q2296951}
+  - {name: Morse theory on Hilbert manifolds, kind: concept, wikipedia: Palais–Smale compactness condition, wikidata: Q3686430}
+  - {name: Palais–Smale theory of critical points, kind: statement, wikipedia: Palais–Smale compactness condition, wikidata: Q3686430}
+  - {name: Morse–Bott function, kind: definition, wikipedia: Morse theory, wikidata: Q2296951}
+  - {name: Bott's Morse-theoretic proof of periodicity, kind: statement, wikipedia: Bott periodicity theorem, wikidata: Q4948983}
+  - {name: Morse index theorem for geodesics, kind: statement, wikipedia: Conjugate points, wikidata: Q5161158}
+  - {name: energy functional on paths, kind: definition, wikipedia: Geodesic, wikidata: Q213488}
+  - {name: closed geodesic, kind: definition, wikipedia: Closed geodesic, wikidata: Q10288828}
+  - {name: Lyusternik–Fet theorem, kind: statement, wikipedia: Lyusternik–Fet theorem, wikidata: Q61761423}
+  - {name: theorem of the three geodesics, kind: statement, wikipedia: Theorem of the three geodesics, wikidata: Q25143636}
+  - {name: Gromoll–Meyer theorem on closed geodesics, kind: statement, wikipedia: Closed geodesic, wikidata: Q10288828}
+  - {name: Bangert–Franks theorem on closed geodesics on the sphere, kind: statement, wikipedia: Closed geodesic, wikidata: Q10288828}
+  - {name: Birkhoff min-max method, kind: concept, wikipedia: Closed geodesic, wikidata: Q10288828}
+  - {name: Almgren–Pitts min-max theory, kind: concept, wikipedia: Almgren–Pitts min-max theory, wikidata: Q19903256}
+  - {name: Yau's conjecture on infinitely many minimal surfaces, kind: statement, wikipedia: Almgren–Pitts min-max theory, wikidata: Q19903256}
+  - {name: Lusternik–Schnirelmann theory of critical points, kind: concept, wikipedia: Lusternik–Schnirelmann category, wikidata: Q2361277}
+  # Harmonic maps and gauge-theoretic variational problems
+  - {name: energy of a map between Riemannian manifolds, kind: definition, wikipedia: Harmonic map, wikidata: Q5659257}
+  - {name: tension field, kind: definition, wikipedia: Harmonic map, wikidata: Q5659257}
+  - {name: Eells–Sampson theorem, kind: statement, wikipedia: Harmonic map, wikidata: Q5659257}
+  - {name: harmonic map heat flow, kind: definition, wikipedia: Harmonic map, wikidata: Q5659257}
+  - {name: Sacks–Uhlenbeck bubbling, kind: statement, wikipedia: Harmonic map, wikidata: Q5659257}
+  - {name: Hartman's uniqueness theorem for harmonic maps, kind: statement, wikipedia: Harmonic map, wikidata: Q5659257}
+  - {name: Yang–Mills functional, kind: definition, wikipedia: Yang–Mills equations, wikidata: Q85816613}
+  - {name: Atiyah–Bott study of Yang–Mills over Riemann surfaces, kind: statement, wikipedia: Yang–Mills equations, wikidata: Q85816613}
+  # Groupoids, pseudogroups and general structures
+  - {name: pseudogroup, kind: definition, wikipedia: Pseudogroup, wikidata: Q4382845}
+  - {name: Lie pseudogroup, kind: definition, wikipedia: Pseudogroup, wikidata: Q4382845}
+  - {name: Haefliger structure, kind: definition, wikipedia: Haefliger structure, wikidata: Q5638159}
+  - {name: Lie groupoid, kind: definition, wikipedia: Lie groupoid, wikidata: Q6543824}
+  - {name: Lie algebroid, kind: definition, wikipedia: Lie algebroid, wikidata: Q6543810}
+  - {name: Crainic–Fernandes integrability theorem, kind: statement, wikipedia: Lie algebroid, wikidata: Q6543810}
+  - {name: Morita equivalence of Lie groupoids, kind: definition, wikipedia: Lie groupoid, wikidata: Q6543824}
+  - {name: holonomy groupoid of a foliation, kind: definition, wikipedia: Lie groupoid, wikidata: Q6543824}
+  # Differential operators on manifolds
+  - {name: differential operator between vector bundles, kind: definition, wikipedia: Differential operator, wikidata: Q1058681}
+  - {name: principal symbol of an operator on a manifold, kind: definition, wikipedia: Differential operator, wikidata: Q1058681}
+  - {name: elliptic operator on a compact manifold, kind: definition, wikipedia: Elliptic operator, wikidata: Q427625}
+  - {name: Fredholm property of elliptic operators, kind: statement, wikipedia: Elliptic operator, wikidata: Q427625}
+  - {name: parametrix, kind: definition, wikipedia: Parametrix, wikidata: Q2051684}
+  - {name: elliptic complex, kind: definition, wikipedia: Elliptic complex, wikidata: Q5365791}
+  - {name: Hodge Laplacian, kind: definition, wikipedia: Laplace operators in differential geometry, wikidata: Q2513431}
+  - {name: Dirac operator on a spin manifold, kind: definition, wikipedia: Spinor bundle, wikidata: Q1049915}
+  - {name: Clifford module, kind: definition, wikipedia: Clifford module, wikidata: Q7879936}
+  - {name: Dirac bundle, kind: definition, wikipedia: Dirac operator, wikidata: Q907439}
+  - {name: Lichnerowicz formula, kind: statement, wikipedia: Lichnerowicz formula, wikidata: Q6543306}
+  - {name: Lichnerowicz vanishing theorem, kind: statement, wikipedia: Genus of a multiplicative sequence, wikidata: Q5533833}
+  - {name: signature operator, kind: definition, wikipedia: Signature operator, wikidata: Q48995679}
+  - {name: Dolbeault operator, kind: definition, wikipedia: Complex differential form, wikidata: Q1780913}
+  - {name: complex powers of elliptic operators, kind: concept, wikipedia: Zeta function regularization, wikidata: Q1048264}
+  # Index theory
+  - {name: index theory, kind: concept, wikipedia: Atiyah–Singer index theorem, wikidata: Q755991}
+  - {name: analytic index, kind: definition, wikipedia: Atiyah–Singer index theorem, wikidata: Q755991}
+  - {name: topological index, kind: definition, wikipedia: Atiyah–Singer index theorem, wikidata: Q755991}
+  - {name: Atiyah–Singer index theorem, kind: statement, wikipedia: Atiyah–Singer index theorem, wikidata: Q755991}
+  - {name: Gelfand's problem on the index, kind: problem, wikipedia: Atiyah–Singer index theorem, wikidata: Q755991}
+  - {name: index of the de Rham complex, kind: example, wikipedia: Atiyah–Singer index theorem, wikidata: Q755991}
+  - {name: Â-genus as the index of the Dirac operator, kind: statement, wikipedia: Genus of a multiplicative sequence, wikidata: Q5533833}
+  - {name: equivariant index theorem, kind: statement, wikipedia: Atiyah–Singer index theorem, wikidata: Q755991}
+  - {name: G-signature theorem, kind: statement, wikipedia: Genus of a multiplicative sequence, wikidata: Q5533833}
+  - {name: Atiyah–Patodi–Singer index theorem, kind: statement, wikipedia: Eta invariant, wikidata: Q5402374}
+  - {name: eta invariant, kind: definition, wikipedia: Eta invariant, wikidata: Q5402374}
+  - {name: McKean–Singer formula, kind: statement, wikipedia: Atiyah–Singer index theorem, wikidata: Q755991}
+  - {name: local index theorem, kind: statement, wikipedia: Atiyah–Singer index theorem, wikidata: Q755991}
+  - {name: determinant line bundle, kind: definition, wikipedia: Determinant line bundle, wikidata: Q135648941}
+  - {name: Toeplitz index theorem, kind: statement, wikipedia: Toeplitz operator, wikidata: Q7812935}
+  # Heat kernels, zeta functions and determinants
+  - {name: heat kernel on a Riemannian manifold, kind: definition, wikipedia: Heat kernel, wikidata: Q3345669}
+  - {name: Minakshisundaram–Pleijel asymptotic expansion, kind: statement, wikipedia: Minakshisundaram–Pleijel zeta function, wikidata: Q11342341}
+  - {name: Minakshisundaram–Pleijel zeta function, kind: definition, wikipedia: Minakshisundaram–Pleijel zeta function, wikidata: Q11342341}
+  - {name: Seeley–DeWitt coefficients, kind: definition, wikipedia: Heat kernel, wikidata: Q3345669}
+  - {name: zeta-regularized determinant, kind: definition, wikipedia: Functional determinant, wikidata: Q2947601}
+  - {name: analytic torsion, kind: definition, wikipedia: Analytic torsion, wikidata: Q4751142}
+  - {name: Cheeger–Müller theorem, kind: statement, wikipedia: Analytic torsion, wikidata: Q4751142}
+  # Spectral geometry
+  - {name: spectral geometry, kind: concept, wikipedia: Spectral geometry, wikidata: Q3123529}
+  - {name: spectrum of the Laplace–Beltrami operator, kind: definition, wikipedia: Spectral geometry, wikidata: Q3123529}
+  - {name: isospectral manifolds, kind: concept, wikipedia: Isospectral, wikidata: Q6086323}
+  - {name: Milnor's isospectral flat tori, kind: example, wikipedia: Isospectral, wikidata: Q6086323}
+  - {name: Sunada's theorem, kind: statement, wikipedia: Isospectral, wikidata: Q6086323}
+  - {name: Lichnerowicz–Obata eigenvalue theorem, kind: statement, wikipedia: Laplace–Beltrami operator, wikidata: Q1071846}
+  - {name: Cheeger's inequality for the first eigenvalue, kind: statement, wikipedia: Cheeger constant, wikidata: Q5089259}
+  - {name: Selberg trace formula, kind: statement, wikipedia: Selberg trace formula, wikidata: Q3077649}
+  - {name: quantum ergodicity, kind: statement, wikipedia: Quantum ergodicity, wikidata: Q7269044}
+  - {name: quantum unique ergodicity conjecture, kind: conjecture, wikipedia: Quantum ergodicity, wikidata: Q7269044}
+  - {name: Laplacian eigenvalues of the round sphere, kind: example, wikipedia: Spherical harmonics, wikidata: Q877100}
+  # Singularities of smooth maps
+  - {name: singularity of a smooth map, kind: definition, wikipedia: Singularity theory, wikidata: Q4245771}
+  - {name: splitting lemma, kind: statement, wikipedia: Splitting lemma (functions), wikidata: Q7578744}
+  - {name: Malgrange preparation theorem, kind: statement, wikipedia: Malgrange preparation theorem, wikidata: Q6743217}
+  - {name: stable map, kind: definition, wikipedia: Singularity theory, wikidata: Q4245771}
+  - {name: infinitesimal stability, kind: definition, wikipedia: Singularity theory, wikidata: Q4245771}
+  - {name: Mather's stability theorem, kind: statement, wikipedia: Singularity theory, wikidata: Q4245771}
+  - {name: finite determinacy, kind: statement, wikipedia: Singularity theory, wikidata: Q4245771}
+  - {name: codimension of a singularity, kind: definition, wikipedia: Singularity theory, wikidata: Q4245771}
+  - {name: Whitney's theorem on folds and cusps, kind: statement, wikipedia: Singularity theory, wikidata: Q4245771}
+  - {name: Whitney umbrella, kind: example, wikipedia: Whitney umbrella, wikidata: Q2640354}
+  - {name: Thom–Boardman singularities, kind: definition, wikipedia: Singularity theory, wikidata: Q4245771}
+  - {name: Morin singularities, kind: definition, wikipedia: Singularity theory, wikidata: Q4245771}
+  - {name: versal unfolding, kind: definition, wikipedia: Catastrophe theory, wikidata: Q1345659}
+  - {name: Arnold's classification of simple critical points, kind: statement, wikipedia: ADE classification, wikidata: Q2976517}
+  - {name: modality of a singularity, kind: definition, wikipedia: Singularity theory, wikidata: Q4245771}
+  - {name: Milnor number, kind: definition, wikipedia: Milnor number, wikidata: Q6860251}
+  - {name: Tjurina number, kind: definition, wikipedia: Milnor number, wikidata: Q6860251}
+  - {name: Milnor fibration theorem, kind: statement, wikipedia: Milnor map, wikidata: Q6860249}
+  # Catastrophe theory
+  - {name: Thom's classification of elementary catastrophes, kind: statement, wikipedia: Catastrophe theory, wikidata: Q1345659}
+  - {name: fold catastrophe, kind: example, wikipedia: Catastrophe theory, wikidata: Q1345659}
+  - {name: cusp catastrophe, kind: example, wikipedia: Catastrophe theory, wikidata: Q1345659}
+  - {name: swallowtail catastrophe, kind: example, wikipedia: Catastrophe theory, wikidata: Q1345659}
+  - {name: butterfly catastrophe, kind: example, wikipedia: Catastrophe theory, wikidata: Q1345659}
+  - {name: umbilic catastrophes, kind: example, wikipedia: Umbilic torus, wikidata: Q7881309}
+  - {name: bifurcation set, kind: definition, wikipedia: Catastrophe theory, wikidata: Q1345659}
+  # Lagrangian and Legendrian singularities
+  - {name: caustic, kind: definition, wikipedia: Caustic (mathematics), wikidata: Q3492725}
+  - {name: Lagrangian singularity, kind: definition, wikipedia: Caustic (mathematics), wikidata: Q3492725}
+  - {name: wave front of a Legendrian map, kind: definition, wikipedia: Contact geometry, wikidata: Q1783105}
+  - {name: Maslov index, kind: definition, wikipedia: Maslov index, wikidata: Q78514551}

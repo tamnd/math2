@@ -1,0 +1,256 @@
+# The C2 skeleton of 81-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 81-XX
+title: quantum theory
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+items:
+  # Basic notions and postulates
+  - {name: quantum mechanics, kind: concept, wikipedia: Quantum mechanics, wikidata: Q944}
+  - {name: Dirac–von Neumann axioms, kind: concept, wikipedia: Dirac–von Neumann axioms, wikidata: Q2325846}
+  - {name: quantum state, kind: definition, wikipedia: Quantum state, wikidata: Q230883}
+  - {name: mixed state, kind: definition, wikipedia: Quantum state, wikidata: Q230883}
+  - {name: density matrix, kind: definition, wikipedia: Density matrix, wikidata: Q831774}
+  - {name: wave function, kind: definition, wikipedia: Wave function, wikidata: Q2362761}
+  - {name: projective Hilbert space, kind: definition, wikipedia: Projective Hilbert space, wikidata: Q3058230}
+  - {name: quantum superposition, kind: concept, wikipedia: Quantum superposition, wikidata: Q830791}
+  - {name: bra–ket notation, kind: concept, wikipedia: Bra–ket notation, wikidata: Q59090}
+  - {name: observable, kind: definition, wikipedia: Observable, wikidata: Q845789}
+  - {name: expectation value, kind: definition, wikipedia: Expectation value (quantum mechanics), wikidata: Q2918589}
+  - {name: Born rule, kind: statement, wikipedia: Born rule, wikidata: Q894014}
+  - {name: canonical commutation relation, kind: statement, wikipedia: Canonical commutation relation, wikidata: Q473322}
+  - {name: position operator, kind: definition, wikipedia: Position operator, wikidata: Q903835}
+  - {name: momentum operator, kind: definition, wikipedia: Momentum operator, wikidata: Q692457}
+  - {name: Hamiltonian operator, kind: definition, wikipedia: Hamiltonian (quantum mechanics), wikidata: Q660488}
+  - {name: Schrödinger equation, kind: definition, wikipedia: Schrödinger equation, wikidata: Q165498}
+  - {name: stationary state, kind: definition, wikipedia: Stationary state, wikidata: Q911951}
+  - {name: Heisenberg uncertainty principle, kind: statement, wikipedia: Uncertainty principle, wikidata: Q44746}
+  - {name: Robertson–Schrödinger uncertainty relation, kind: statement, wikipedia: Uncertainty principle, wikidata: Q44746}
+  - {name: entropic uncertainty relation, kind: statement, wikipedia: Entropic uncertainty, wikidata: Q5380783}
+  - {name: complete set of commuting observables, kind: definition, wikipedia: Complete set of commuting observables, wikidata: Q901157}
+  - {name: Schrödinger picture, kind: definition, wikipedia: Schrödinger picture, wikidata: Q898601}
+  - {name: Heisenberg picture, kind: definition, wikipedia: Heisenberg picture, wikidata: Q900653}
+  - {name: interaction picture, kind: definition, wikipedia: Interaction picture, wikidata: Q900638}
+  - {name: Ehrenfest theorem, kind: statement, wikipedia: Ehrenfest theorem, wikidata: Q908669}
+  - {name: Hellmann–Feynman theorem, kind: statement, wikipedia: Hellmann–Feynman theorem, wikidata: Q906809}
+  # Foundations and measurement
+  - {name: wave function collapse, kind: concept, wikipedia: Wave function collapse, wikidata: Q842189}
+  - {name: measurement problem, kind: problem, wikipedia: Measurement problem, wikidata: Q2590381}
+  - {name: quantum decoherence, kind: concept, wikipedia: Quantum decoherence, wikidata: Q578430}
+  - {name: quantum Zeno effect, kind: statement, wikipedia: Quantum Zeno effect, wikidata: Q1897309}
+  - {name: Wigner's theorem on symmetries, kind: statement, wikipedia: Wigner's theorem, wikidata: Q1135224}
+  - {name: Gleason's theorem, kind: statement, wikipedia: Gleason's theorem, wikidata: Q5567394}
+  - {name: Kochen–Specker theorem, kind: statement, wikipedia: Kochen–Specker theorem, wikidata: Q528955}
+  - {name: quantum contextuality, kind: concept, wikipedia: Quantum contextuality, wikidata: Q7269024}
+  - {name: EPR paradox, kind: problem, wikipedia: Einstein–Podolsky–Rosen paradox, wikidata: Q214975}
+  - {name: Bell's theorem, kind: statement, wikipedia: Bell's theorem, wikidata: Q388525}
+  - {name: CHSH inequality, kind: statement, wikipedia: CHSH inequality, wikidata: Q5011347}
+  - {name: Tsirelson's bound, kind: statement, wikipedia: Tsirelson's bound, wikidata: Q56324150}
+  - {name: GHZ state, kind: example, wikipedia: Greenberger–Horne–Zeilinger state, wikidata: Q11300563}
+  - {name: PBR theorem, kind: statement, wikipedia: Pusey–Barrett–Rudolph theorem, wikidata: Q17099549}
+  - {name: hidden-variable theory, kind: concept, wikipedia: Hidden-variable theory, wikidata: Q898521}
+  - {name: de Broglie–Bohm theory, kind: concept, wikipedia: De Broglie–Bohm theory, wikidata: Q899444}
+  - {name: POVM, kind: definition, wikipedia: POVM, wikidata: Q907206}
+  - {name: Naimark's dilation theorem, kind: statement, wikipedia: Naimark's dilation theorem, wikidata: Q6959669}
+  # Open quantum systems
+  - {name: open quantum system, kind: concept, wikipedia: Open quantum system, wikidata: Q2495111}
+  - {name: partial trace, kind: definition, wikipedia: Partial trace, wikidata: Q7140394}
+  - {name: quantum operation, kind: definition, wikipedia: Quantum operation, wikidata: Q7269080}
+  - {name: quantum channel, kind: definition, wikipedia: Quantum channel, wikidata: Q2122176}
+  - {name: Kraus representation of a channel, kind: statement, wikipedia: Quantum operation, wikidata: Q7269080}
+  - {name: quantum dynamical semigroup, kind: definition, wikipedia: Quantum Markov semigroup, wikidata: Q107285103}
+  - {name: Lindblad equation, kind: definition, wikipedia: Lindbladian, wikidata: Q4476520}
+  # Entanglement
+  - {name: quantum entanglement, kind: concept, wikipedia: Quantum entanglement, wikidata: Q215675}
+  - {name: separable state, kind: definition, wikipedia: Separable state, wikidata: Q614178}
+  - {name: Schmidt decomposition, kind: statement, wikipedia: Schmidt decomposition, wikidata: Q2246292}
+  - {name: purification of a quantum state, kind: statement, wikipedia: Quantum state purification, wikidata: Q133816092}
+  - {name: Bell state, kind: example, wikipedia: Bell state, wikidata: Q2898260}
+  - {name: Werner state, kind: example, wikipedia: Werner state, wikidata: Q7983528}
+  - {name: Peres–Horodecki criterion, kind: statement, wikipedia: Peres–Horodecki criterion, wikidata: Q7167895}
+  - {name: entanglement witness, kind: definition, wikipedia: Entanglement witness, wikidata: Q5380097}
+  - {name: monogamy of entanglement, kind: statement, wikipedia: Monogamy of entanglement, wikidata: Q106808950}
+  - {name: LOCC, kind: definition, wikipedia: LOCC, wikidata: Q6459475}
+  - {name: entanglement distillation, kind: concept, wikipedia: Entanglement distillation, wikidata: Q5380096}
+  # Quantum information theory
+  - {name: quantum information, kind: concept, wikipedia: Quantum information, wikidata: Q2122243}
+  - {name: qubit, kind: definition, wikipedia: Qubit, wikidata: Q378201}
+  - {name: Bloch sphere, kind: definition, wikipedia: Bloch sphere, wikidata: Q884593}
+  - {name: Pauli matrices, kind: object, wikipedia: Pauli matrices, wikidata: Q336233}
+  - {name: Pauli group, kind: object, wikipedia: Pauli group, wikidata: Q7154882}
+  - {name: Clifford group, kind: object, wikipedia: Clifford group, wikidata: Q137299855}
+  - {name: no-cloning theorem, kind: statement, wikipedia: No-cloning theorem, wikidata: Q1751823}
+  - {name: no-communication theorem, kind: statement, wikipedia: No-communication theorem, wikidata: Q3984056}
+  - {name: quantum teleportation, kind: concept, wikipedia: Quantum teleportation, wikidata: Q1135332}
+  - {name: superdense coding, kind: concept, wikipedia: Superdense coding, wikidata: Q2042163}
+  - {name: von Neumann entropy, kind: definition, wikipedia: Von Neumann entropy, wikidata: Q6961323}
+  - {name: quantum relative entropy, kind: definition, wikipedia: Quantum relative entropy, wikidata: Q7269091}
+  - {name: strong subadditivity of quantum entropy, kind: statement, wikipedia: Strong subadditivity of quantum entropy, wikidata: Q7624524}
+  - {name: quantum mutual information, kind: definition, wikipedia: Quantum mutual information, wikidata: Q3798613}
+  - {name: Holevo's theorem, kind: statement, wikipedia: Holevo's theorem, wikidata: Q3984018}
+  - {name: fidelity of quantum states, kind: definition, wikipedia: Fidelity of quantum states, wikidata: Q5446796}
+  - {name: Uhlmann's theorem, kind: statement, wikipedia: Fidelity of quantum states, wikidata: Q5446796}
+  - {name: trace distance, kind: definition, wikipedia: Trace distance, wikidata: Q7831154}
+  - {name: quantum Fisher information, kind: definition, wikipedia: Quantum Fisher information, wikidata: Q85795245}
+  - {name: channel capacity of a quantum channel, kind: definition, wikipedia: Quantum capacity, wikidata: Q7269015}
+  - {name: mutually unbiased bases, kind: definition, wikipedia: Mutually unbiased bases, wikidata: Q17160413}
+  - {name: SIC-POVM, kind: definition, wikipedia: SIC-POVM, wikidata: Q7390277}
+  - {name: Zauner's conjecture, kind: conjecture, wikipedia: SIC-POVM, wikidata: Q7390277}
+  - {name: quantum key distribution, kind: concept, wikipedia: Quantum key distribution, wikidata: Q1027298}
+  # Quantum computation and error correction
+  - {name: quantum computing, kind: concept, wikipedia: Quantum computing, wikidata: Q17995793}
+  - {name: quantum logic gate, kind: definition, wikipedia: Quantum logic gate, wikidata: Q2118982}
+  - {name: quantum circuit, kind: definition, wikipedia: Quantum circuit, wikidata: Q2122210}
+  - {name: Solovay–Kitaev theorem, kind: statement, wikipedia: Solovay–Kitaev theorem, wikidata: Q48999814}
+  - {name: Gottesman–Knill theorem, kind: statement, wikipedia: Gottesman–Knill theorem, wikidata: Q5588002}
+  - {name: quantum Fourier transform, kind: definition, wikipedia: Quantum Fourier transform, wikidata: Q1464944}
+  - {name: Shor's algorithm, kind: statement, wikipedia: Shor's algorithm, wikidata: Q940334}
+  - {name: Grover's algorithm, kind: statement, wikipedia: Grover's algorithm, wikidata: Q1028292}
+  - {name: quantum error correction, kind: concept, wikipedia: Quantum error correction, wikidata: Q1536431}
+  - {name: Knill–Laflamme conditions, kind: statement, wikipedia: Quantum error correction, wikidata: Q1536431}
+  - {name: stabilizer code, kind: definition, wikipedia: Stabilizer code, wikidata: Q2981610}
+  - {name: toric code, kind: example, wikipedia: Surface code, wikidata: Q134409768}
+  - {name: quantum threshold theorem, kind: statement, wikipedia: Threshold theorem, wikidata: Q7269106}
+  # Solvable models and approximation methods
+  - {name: particle in a box, kind: example, wikipedia: Particle in a box, wikidata: Q909221}
+  - {name: delta potential, kind: example, wikipedia: Delta potential, wikidata: Q2381860}
+  - {name: quantum tunnelling, kind: concept, wikipedia: Quantum tunnelling, wikidata: Q175751}
+  - {name: quantum harmonic oscillator, kind: example, wikipedia: Quantum harmonic oscillator, wikidata: Q677864}
+  - {name: hydrogen atom, kind: example, wikipedia: Hydrogen atom, wikidata: Q6643508}
+  - {name: two-state quantum system, kind: example, wikipedia: Two-state quantum system, wikidata: Q243821}
+  - {name: Landau levels, kind: example, wikipedia: Landau levels, wikidata: Q277967}
+  - {name: bound state, kind: definition, wikipedia: Bound state, wikidata: Q908049}
+  - {name: perturbation theory in quantum mechanics, kind: concept, wikipedia: Perturbation theory (quantum mechanics), wikidata: Q911364}
+  - {name: variational method, kind: statement, wikipedia: Variational method (quantum mechanics), wikidata: Q164296}
+  - {name: WKB approximation, kind: concept, wikipedia: WKB approximation, wikidata: Q907306}
+  - {name: Bohr–Sommerfeld quantization condition, kind: statement, wikipedia: Old quantum theory, wikidata: Q2566926}
+  - {name: adiabatic theorem, kind: statement, wikipedia: Adiabatic theorem, wikidata: Q356895}
+  - {name: geometric phase, kind: definition, wikipedia: Geometric phase, wikidata: Q3283}
+  - {name: Fermi's golden rule, kind: statement, wikipedia: Fermi's golden rule, wikidata: Q1073295}
+  - {name: Dyson series, kind: definition, wikipedia: Dyson series, wikidata: Q3957888}
+  - {name: Born–Oppenheimer approximation, kind: concept, wikipedia: Born–Oppenheimer approximation, wikidata: Q633824}
+  - {name: Hartree–Fock method, kind: concept, wikipedia: Hartree–Fock method, wikidata: Q7879841}
+  - {name: density functional theory, kind: concept, wikipedia: Density functional theory, wikidata: Q1048589}
+  - {name: Hohenberg–Kohn theorems, kind: statement, wikipedia: Density functional theory, wikidata: Q1048589}
+  - {name: stability of matter, kind: statement, wikipedia: Stability of matter, wikidata: Q112968598}
+  - {name: Aharonov–Bohm effect, kind: concept, wikipedia: Aharonov–Bohm effect, wikidata: Q400083}
+  - {name: Anderson localization, kind: statement, wikipedia: Anderson localization, wikidata: Q491409}
+  - {name: quantum chaos, kind: concept, wikipedia: Quantum chaos, wikidata: Q1502341}
+  - {name: quantum ergodicity theorem, kind: statement, wikipedia: Quantum ergodicity, wikidata: Q7269044}
+  - {name: quantum unique ergodicity conjecture, kind: conjecture, wikipedia: Quantum ergodicity, wikidata: Q7269044}
+  # Symmetries, angular momentum and identical particles
+  - {name: symmetry in quantum mechanics, kind: concept, wikipedia: Symmetry in quantum mechanics, wikidata: Q16726095}
+  - {name: angular momentum operator, kind: definition, wikipedia: Angular momentum operator, wikidata: Q1190143}
+  - {name: spin, kind: concept, wikipedia: Spin (physics), wikidata: Q133673}
+  - {name: Clebsch–Gordan coefficients, kind: definition, wikipedia: Clebsch–Gordan coefficients, wikidata: Q898619}
+  - {name: Wigner 3-j symbols, kind: definition, wikipedia: 3-j symbol, wikidata: Q2570568}
+  - {name: Wigner–Eckart theorem, kind: statement, wikipedia: Wigner–Eckart theorem, wikidata: Q195133}
+  - {name: time reversal symmetry, kind: definition, wikipedia: Time-reversal symmetry, wikidata: Q142270}
+  - {name: Kramers' theorem, kind: statement, wikipedia: Kramers' theorem, wikidata: Q1786419}
+  - {name: identical particles, kind: concept, wikipedia: Indistinguishable particles, wikidata: Q898351}
+  - {name: Pauli exclusion principle, kind: statement, wikipedia: Pauli exclusion principle, wikidata: Q131594}
+  - {name: Fock space, kind: object, wikipedia: Fock space, wikidata: Q899044}
+  - {name: creation and annihilation operators, kind: definition, wikipedia: Creation and annihilation operators, wikidata: Q902336}
+  - {name: canonical anticommutation relations, kind: definition, wikipedia: CCR and CAR algebras, wikidata: Q1022829}
+  - {name: CCR algebra, kind: definition, wikipedia: CCR and CAR algebras, wikidata: Q1022829}
+  - {name: Stone–von Neumann theorem, kind: statement, wikipedia: Stone–von Neumann theorem, wikidata: Q7619449}
+  - {name: coherent state, kind: definition, wikipedia: Coherent state, wikidata: Q1032070}
+  # Quantization
+  - {name: canonical quantization, kind: concept, wikipedia: Canonical quantization, wikidata: Q5961083}
+  - {name: Weyl quantization, kind: definition, wikipedia: Wigner–Weyl transform, wikidata: Q1431119}
+  - {name: Groenewold's theorem, kind: statement, wikipedia: Canonical quantization, wikidata: Q5961083}
+  - {name: phase space formulation, kind: concept, wikipedia: Phase-space formulation, wikidata: Q7180966}
+  - {name: Wigner quasiprobability distribution, kind: definition, wikipedia: Wigner quasiprobability distribution, wikidata: Q17119376}
+  - {name: Moyal product, kind: definition, wikipedia: Moyal product, wikidata: Q6927583}
+  - {name: deformation quantization, kind: concept, wikipedia: Deformation quantization, wikidata: Q131143202}
+  - {name: Kontsevich quantization formula, kind: statement, wikipedia: Kontsevich quantization formula, wikidata: Q6430406}
+  - {name: geometric quantization, kind: concept, wikipedia: Geometric quantization, wikidata: Q630426}
+  - {name: path integral formulation, kind: concept, wikipedia: Path-integral formulation, wikidata: Q898323}
+  - {name: Wick rotation, kind: concept, wikipedia: Wick rotation, wikidata: Q1807879}
+  - {name: second quantization, kind: concept, wikipedia: Second quantization, wikidata: Q1353947}
+  - {name: BRST quantization, kind: concept, wikipedia: BRST quantization, wikidata: Q2752849}
+  - {name: Batalin–Vilkovisky formalism, kind: concept, wikipedia: Batalin–Vilkovisky formalism, wikidata: Q4868564}
+  - {name: Faddeev–Popov ghost, kind: definition, wikipedia: Faddeev–Popov ghost, wikidata: Q1391812}
+  # Relativistic wave equations
+  - {name: Dirac equation, kind: definition, wikipedia: Dirac equation, wikidata: Q272621}
+  - {name: gamma matrices, kind: object, wikipedia: Gamma matrices, wikidata: Q1151645}
+  - {name: Weyl equation, kind: definition, wikipedia: Weyl equation, wikidata: Q2566340}
+  - {name: Klein paradox, kind: counterexample, wikipedia: Klein paradox, wikidata: Q2383018}
+  # Axiomatic and algebraic quantum field theory
+  - {name: quantum field theory, kind: concept, wikipedia: Quantum field theory, wikidata: Q54505}
+  - {name: Wightman axioms, kind: definition, wikipedia: Wightman axioms, wikidata: Q2874804}
+  - {name: Osterwalder–Schrader reconstruction theorem, kind: statement, wikipedia: Schwinger function, wikidata: Q7433295}
+  - {name: Haag–Kastler axioms, kind: definition, wikipedia: Algebraic quantum field theory, wikidata: Q602011}
+  - {name: Haag's theorem, kind: statement, wikipedia: Haag's theorem, wikidata: Q1566372}
+  - {name: Reeh–Schlieder theorem, kind: statement, wikipedia: Reeh–Schlieder theorem, wikidata: Q1555342}
+  - {name: spin–statistics theorem, kind: statement, wikipedia: Spin–statistics theorem, wikidata: Q523876}
+  - {name: CPT theorem, kind: statement, wikipedia: CPT symmetry, wikidata: Q260060}
+  - {name: Coleman–Mandula theorem, kind: statement, wikipedia: Coleman–Mandula theorem, wikidata: Q671663}
+  - {name: Haag–Łopuszański–Sohnius theorem, kind: statement, wikipedia: Haag–Łopuszański–Sohnius theorem, wikidata: Q586051}
+  - {name: Weinberg–Witten theorem, kind: statement, wikipedia: Weinberg–Witten theorem, wikidata: Q7980241}
+  - {name: constructive quantum field theory, kind: concept, wikipedia: Constructive quantum field theory, wikidata: Q5164498}
+  - {name: quartic interaction, kind: example, wikipedia: Quartic interaction, wikidata: Q6497970}
+  - {name: quantum triviality, kind: statement, wikipedia: Quantum triviality, wikidata: Q3999164}
+  # Perturbative quantum field theory and renormalization
+  - {name: propagator, kind: definition, wikipedia: Propagator, wikidata: Q302518}
+  - {name: Feynman diagram, kind: concept, wikipedia: Feynman diagram, wikidata: Q386272}
+  - {name: Wick's theorem, kind: statement, wikipedia: Wick's theorem, wikidata: Q850495}
+  - {name: LSZ reduction formula, kind: statement, wikipedia: LSZ reduction formula, wikidata: Q267449}
+  - {name: Schwinger–Dyson equation, kind: statement, wikipedia: Schwinger–Dyson equation, wikidata: Q1269302}
+  - {name: Ward–Takahashi identity, kind: statement, wikipedia: Ward–Takahashi identity, wikidata: Q353202}
+  - {name: renormalization, kind: concept, wikipedia: Renormalization, wikidata: Q1047702}
+  - {name: dimensional regularization, kind: concept, wikipedia: Dimensional regularization, wikidata: Q5277275}
+  - {name: zeta function regularization, kind: concept, wikipedia: Zeta function regularization, wikidata: Q1048264}
+  - {name: BPHZ theorem, kind: statement, wikipedia: Bogoliubov–Parasyuk theorem, wikidata: Q4937691}
+  - {name: Callan–Symanzik equation, kind: statement, wikipedia: Callan–Symanzik equation, wikidata: Q1027148}
+  - {name: beta function, kind: definition, wikipedia: Beta function (physics), wikidata: Q1750507}
+  - {name: asymptotic freedom, kind: statement, wikipedia: Asymptotic freedom, wikidata: Q752732}
+  - {name: anomaly, kind: concept, wikipedia: Anomaly (physics), wikidata: Q567560}
+  - {name: chiral anomaly, kind: statement, wikipedia: Chiral anomaly, wikidata: Q5101826}
+  - {name: Casimir effect, kind: statement, wikipedia: Casimir effect, wikidata: Q275393}
+  # Gauge theories
+  - {name: gauge theory, kind: concept, wikipedia: Gauge theory, wikidata: Q214850}
+  - {name: Yang–Mills theory, kind: concept, wikipedia: Yang–Mills theory, wikidata: Q1192873}
+  - {name: Yang–Mills existence and mass gap, kind: problem, wikipedia: Yang–Mills existence and mass gap, wikidata: Q1078496}
+  - {name: quantum electrodynamics, kind: concept, wikipedia: Quantum electrodynamics, wikidata: Q234881}
+  - {name: quantum chromodynamics, kind: concept, wikipedia: Quantum chromodynamics, wikidata: Q238170}
+  - {name: mathematical formulation of the Standard Model, kind: concept, wikipedia: Mathematical formulation of the Standard Model, wikidata: Q17106019}
+  - {name: spontaneous symmetry breaking, kind: concept, wikipedia: Spontaneous symmetry breaking, wikidata: Q736716}
+  - {name: Goldstone's theorem, kind: statement, wikipedia: Goldstone boson, wikidata: Q1153441}
+  - {name: Higgs mechanism, kind: concept, wikipedia: Higgs mechanism, wikidata: Q747702}
+  - {name: lattice gauge theory, kind: concept, wikipedia: Lattice gauge theory, wikidata: Q386769}
+  - {name: Wilson loop, kind: definition, wikipedia: Wilson loop, wikidata: Q206552}
+  - {name: BPST instanton, kind: object, wikipedia: BPST instanton, wikidata: Q4836279}
+  - {name: '''t Hooft–Polyakov monopole', kind: object, wikipedia: '''t Hooft–Polyakov monopole', wikidata: Q8170996}
+  - {name: Seiberg–Witten theory, kind: concept, wikipedia: Seiberg–Witten theory, wikidata: Q3526765}
+  # Two-dimensional, conformal and topological field theories
+  - {name: Schwinger model, kind: example, wikipedia: Schwinger model, wikidata: Q3318083}
+  - {name: non-linear sigma model, kind: example, wikipedia: Non-linear sigma model, wikidata: Q924571}
+  - {name: Wess–Zumino–Witten model, kind: example, wikipedia: Wess–Zumino–Witten model, wikidata: Q850946}
+  - {name: conformal field theory, kind: concept, wikipedia: Conformal field theory, wikidata: Q1191271}
+  - {name: operator product expansion, kind: concept, wikipedia: Operator product expansion, wikidata: Q3883909}
+  - {name: conformal bootstrap, kind: concept, wikipedia: Conformal bootstrap, wikidata: Q20707005}
+  - {name: Atiyah–Segal axioms, kind: definition, wikipedia: Topological quantum field theory, wikidata: Q721094}
+  # Supersymmetry and string theory
+  - {name: supersymmetry, kind: concept, wikipedia: Supersymmetry, wikidata: Q193442}
+  - {name: Wess–Zumino model, kind: example, wikipedia: Wess–Zumino model, wikidata: Q3859871}
+  - {name: string theory, kind: concept, wikipedia: String theory, wikidata: Q33198}
+  - {name: Nambu–Goto action, kind: definition, wikipedia: Nambu–Goto action, wikidata: Q1048768}
+  - {name: Polyakov action, kind: definition, wikipedia: Polyakov action, wikidata: Q1048763}
+  - {name: superstring theory, kind: concept, wikipedia: Superstring theory, wikidata: Q1437042}
+  - {name: T-duality, kind: concept, wikipedia: T-duality, wikidata: Q1366191}
+  - {name: AdS/CFT correspondence, kind: conjecture, wikipedia: AdS/CFT correspondence, wikidata: Q543413}
+  # Quantum field theory on curved spacetime
+  - {name: quantum field theory in curved spacetime, kind: concept, wikipedia: Quantum field theory in curved spacetime, wikidata: Q2246697}
+  - {name: Unruh effect, kind: statement, wikipedia: Unruh effect, wikidata: Q1568269}
+  - {name: Bogoliubov transformation, kind: definition, wikipedia: Bogoliubov transformation, wikidata: Q3813244}
+  # Scattering theory
+  - {name: scattering theory, kind: concept, wikipedia: Scattering, wikidata: Q210028}
+  - {name: S-matrix, kind: definition, wikipedia: S-matrix, wikidata: Q581505}
+  - {name: Lippmann–Schwinger equation, kind: definition, wikipedia: Lippmann–Schwinger equation, wikidata: Q902575}
+  - {name: Born approximation, kind: concept, wikipedia: Born approximation, wikidata: Q39325}
+  - {name: optical theorem, kind: statement, wikipedia: Optical theorem, wikidata: Q1136262}
+  - {name: Levinson's theorem, kind: statement, wikipedia: Levinson's theorem, wikidata: Q25110385}
+  - {name: Faddeev equations, kind: definition, wikipedia: Faddeev equations, wikidata: Q3777171}
+  - {name: inverse scattering problem, kind: problem, wikipedia: Inverse scattering problem, wikidata: Q11639409}

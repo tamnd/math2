@@ -1,0 +1,179 @@
+# The C2 skeleton of 41-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 41-XX
+title: approximation and expansions
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+  mathlib-undergrad: {title: "Mathlib, the list of undergraduate topics", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/undergrad.yaml'}
+  mathlib-100: {title: "Mathlib, the status of Freek Wiedijk's 100 theorems", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/100.yaml'}
+  mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
+items:
+  # Basic notions
+  - {name: approximation theory, kind: concept, wikipedia: Approximation theory, wikidata: Q774123}
+  - {name: function approximation, kind: concept, wikipedia: Function approximation, wikidata: Q3445816}
+  - {name: constructive function theory, kind: concept, wikipedia: Constructive function theory, wikidata: Q5164492}
+  - {name: best approximation, kind: definition, wikipedia: Approximation theory, wikidata: Q774123}
+  - {name: error of best approximation, kind: definition, wikipedia: Approximation theory, wikidata: Q774123}
+  - {name: uniform approximation, kind: concept, wikipedia: Uniform norm, wikidata: Q1202673}
+  - {name: modulus of continuity, kind: definition, wikipedia: Modulus of continuity, wikidata: Q1144872}
+  - {name: modulus of smoothness, kind: definition, wikipedia: Modulus of smoothness, wikidata: Q25109621}
+  - {name: Lipschitz class, kind: definition, wikipedia: Lipschitz continuity, wikidata: Q652707}
+  - {name: Peetre K-functional, kind: definition, wikipedia: Interpolation space, wikidata: Q3058180}
+  # Density theorems
+  - {name: Weierstrass approximation theorem, kind: statement, decl: exists_polynomial_near_continuousMap, wikipedia: Stone–Weierstrass theorem, wikidata: Q939927}
+  - {name: density of polynomials in continuous functions, kind: statement, decl: polynomialFunctions_closure_eq_top, wikipedia: Stone–Weierstrass theorem, wikidata: Q939927, mathlib: [mathlib-undergrad]}
+  - {name: Bernstein polynomial, kind: definition, decl: bernsteinPolynomial, wikipedia: Bernstein polynomial, wikidata: Q826841}
+  - {name: uniform convergence of Bernstein approximations, kind: statement, decl: bernsteinApproximation_uniform, wikipedia: Bernstein polynomial, wikidata: Q826841}
+  - {name: Müntz–Szász theorem, kind: statement, wikipedia: Müntz–Szász theorem, wikidata: Q3527129}
+  - {name: Korovkin's theorem, kind: statement, wikipedia: Korovkin approximation, wikidata: Q1784675}
+  - {name: Kolmogorov–Arnold representation theorem, kind: statement, wikipedia: Kolmogorov–Arnold representation theorem, wikidata: Q25099402}
+  - {name: Hilbert's thirteenth problem, kind: problem, wikipedia: Hilbert's thirteenth problem, wikidata: Q838094}
+  - {name: universal approximation theorem, kind: statement, wikipedia: Universal approximation theorem, wikidata: Q7894110}
+  # Best approximation and Chebyshev systems
+  - {name: existence of best approximations from finite-dimensional subspaces, kind: statement, wikipedia: Approximation theory, wikidata: Q774123}
+  - {name: best approximation in inner product spaces, kind: statement, decl: exists_norm_eq_iInf_of_complete_convex, wikipedia: Hilbert projection theorem, wikidata: Q3527215, mathlib: [mathlib-undergrad, mathlib-1000]}
+  - {name: uniqueness of best approximation in strictly convex spaces, kind: statement, wikipedia: Strictly convex space, wikidata: Q916093}
+  - {name: Chebyshev set, kind: definition, wikipedia: Metric projection, wikidata: Q130394910}
+  - {name: Chebyshev system, kind: definition, wikipedia: Equioscillation theorem, wikidata: Q5384549}
+  - {name: Haar's uniqueness theorem, kind: statement, wikipedia: Equioscillation theorem, wikidata: Q5384549}
+  - {name: Mairhuber–Curtis theorem, kind: statement, wikipedia: Radial basis function interpolation, wikidata: Q65063433}
+  - {name: equioscillation theorem, kind: statement, wikipedia: Equioscillation theorem, wikidata: Q5384549}
+  - {name: de la Vallée Poussin lower bound, kind: statement, wikipedia: Equioscillation theorem, wikidata: Q5384549}
+  - {name: Kolmogorov criterion for best approximation, kind: statement, wikipedia: Approximation theory, wikidata: Q774123}
+  - {name: minimax approximation, kind: concept, wikipedia: Minimax approximation algorithm, wikidata: Q6865376}
+  - {name: Remez algorithm, kind: concept, wikipedia: Remez algorithm, wikidata: Q2835816}
+  - {name: Chebyshev polynomials, kind: definition, decl: Polynomial.Chebyshev.T, wikipedia: Chebyshev polynomials, wikidata: Q619511}
+  - {name: Chebyshev polynomials of the second kind, kind: definition, decl: Polynomial.Chebyshev.U, wikipedia: Chebyshev polynomials, wikidata: Q619511}
+  - {name: trigonometric definition of Chebyshev polynomials, kind: statement, decl: Polynomial.Chebyshev.T_real_cos, wikipedia: Chebyshev polynomials, wikidata: Q619511}
+  - {name: minimal deviation property of Chebyshev polynomials, kind: statement, wikipedia: Chebyshev polynomials, wikidata: Q619511}
+  - {name: Chebyshev nodes, kind: definition, decl: Polynomial.Chebyshev.roots_T_real, wikipedia: Chebyshev nodes, wikidata: Q1052508}
+  - {name: Chebyshev series, kind: definition, wikipedia: Chebyshev polynomials, wikidata: Q619511}
+  - {name: Zolotarev polynomials, kind: definition, wikipedia: Zolotarev polynomials, wikidata: Q104845847}
+  - {name: least squares approximation, kind: concept, wikipedia: Least-squares function approximation, wikidata: Q6510405}
+  # Rates of approximation: direct and inverse theorems
+  - {name: direct and inverse theorems of approximation, kind: concept, wikipedia: Jackson's inequality, wikidata: Q4317418}
+  - {name: Jackson's inequality, kind: statement, wikipedia: Jackson's inequality, wikidata: Q4317418}
+  - {name: Jackson kernel, kind: definition, wikipedia: Jackson's inequality, wikidata: Q4317418}
+  - {name: Bernstein's inequality for trigonometric polynomials, kind: statement, wikipedia: Bernstein's theorem (polynomials), wikidata: Q25345912}
+  - {name: Bernstein's theorem on inverse approximation, kind: statement, wikipedia: Bernstein's theorem (approximation theory), wikidata: Q4894565}
+  - {name: Bernstein's theorem on analytic functions, kind: statement, wikipedia: Bernstein's theorem (approximation theory), wikidata: Q4894565}
+  - {name: Markov brothers' inequality, kind: statement, wikipedia: Markov brothers' inequality, wikidata: Q176674}
+  - {name: Remez inequality, kind: statement, wikipedia: Remez inequality, wikidata: Q7311758}
+  - {name: Turán's inequalities, kind: statement, wikipedia: Turán's inequalities, wikidata: Q7856594}
+  - {name: Favard constant, kind: definition, wikipedia: Favard constant, wikidata: Q5438429}
+  - {name: Favard's theorem on trigonometric approximation, kind: statement, wikipedia: Favard constant, wikidata: Q5438429}
+  - {name: Landau–Kolmogorov inequality, kind: statement, wikipedia: Landau–Kolmogorov inequality, wikidata: Q5638668}
+  - {name: saturation of approximation methods, kind: concept, wikipedia: Approximation theory, wikidata: Q774123}
+  # Approximation by linear operators
+  - {name: positive linear operator, kind: definition, wikipedia: Positive linear operator, wikidata: Q96399850}
+  - {name: Szász–Mirakyan operator, kind: definition, wikipedia: Szász–Mirakyan operator, wikidata: Q7665169}
+  - {name: Baskakov operator, kind: definition, wikipedia: Baskakov operator, wikidata: Q4867603}
+  - {name: Kantorovich polynomials, kind: definition, wikipedia: Bernstein polynomial, wikidata: Q826841}
+  - {name: Lebesgue constant, kind: definition, wikipedia: Lebesgue constant, wikidata: Q6511317}
+  - {name: Lebesgue's lemma on near-best approximation, kind: statement, wikipedia: Lebesgue constant, wikidata: Q6511317}
+  - {name: Faber's theorem on interpolation, kind: statement, wikipedia: Lebesgue constant, wikidata: Q6511317}
+  # Interpolation
+  - {name: polynomial interpolation, kind: concept, wikipedia: Polynomial interpolation, wikidata: Q637347}
+  - {name: unisolvent point set, kind: definition, wikipedia: Unisolvent point set, wikidata: Q16956925}
+  - {name: Lagrange interpolation polynomial, kind: definition, decl: Lagrange.interpolate, wikipedia: Lagrange polynomial, wikidata: Q861606, mathlib: [mathlib-undergrad]}
+  - {name: Lagrange basis polynomials, kind: definition, decl: Lagrange.basis, wikipedia: Lagrange polynomial, wikidata: Q861606}
+  - {name: barycentric interpolation formula, kind: statement, wikipedia: Lagrange polynomial, wikidata: Q861606}
+  - {name: interpolation error formula, kind: statement, wikipedia: Polynomial interpolation, wikidata: Q637347}
+  - {name: Newton polynomial, kind: definition, wikipedia: Newton polynomial, wikidata: Q2746387}
+  - {name: divided differences, kind: definition, wikipedia: Divided differences, wikidata: Q2993265}
+  - {name: Hermite–Genocchi formula, kind: statement, wikipedia: Divided differences, wikidata: Q2993265}
+  - {name: mean value theorem for divided differences, kind: statement, wikipedia: Mean value theorem (divided differences), wikidata: Q17098096}
+  - {name: Neville's algorithm, kind: concept, wikipedia: Neville's algorithm, wikidata: Q7884545}
+  - {name: Hermite interpolation, kind: definition, wikipedia: Hermite interpolation, wikidata: Q44451}
+  - {name: Birkhoff interpolation, kind: definition, wikipedia: Birkhoff interpolation, wikidata: Q3800523}
+  - {name: Runge's phenomenon, kind: example, wikipedia: Runge's phenomenon, wikidata: Q1990319}
+  - {name: Thiele's interpolation formula, kind: statement, wikipedia: Thiele's interpolation formula, wikidata: Q7783991}
+  - {name: multivariate interpolation, kind: concept, wikipedia: Multivariate interpolation, wikidata: Q6334079}
+  - {name: Padua points, kind: example, wikipedia: Padua points, wikidata: Q7123977}
+  - {name: Fekete points, kind: definition, wikipedia: Fekete problem, wikidata: Q5441610}
+  - {name: radial basis function, kind: definition, wikipedia: Radial basis function, wikidata: Q1588488}
+  - {name: radial basis function interpolation, kind: concept, wikipedia: Radial basis function interpolation, wikidata: Q65063433}
+  - {name: inverse distance weighting, kind: concept, wikipedia: Inverse distance weighting, wikidata: Q1430701}
+  - {name: moving least squares, kind: concept, wikipedia: Moving least squares, wikidata: Q6927143}
+  # Splines
+  - {name: spline, kind: definition, wikipedia: Spline (mathematics), wikidata: Q735256}
+  - {name: spline interpolation, kind: concept, wikipedia: Spline interpolation, wikidata: Q545002}
+  - {name: cubic spline, kind: definition, wikipedia: Spline interpolation, wikidata: Q545002}
+  - {name: minimal curvature property of natural cubic splines, kind: statement, wikipedia: Spline interpolation, wikidata: Q545002}
+  - {name: B-spline, kind: definition, wikipedia: B-spline, wikidata: Q2083109}
+  - {name: Curry–Schoenberg theorem, kind: statement, wikipedia: B-spline, wikidata: Q2083109}
+  - {name: Cox–de Boor recursion, kind: statement, wikipedia: B-spline, wikidata: Q2083109}
+  - {name: de Boor's algorithm, kind: concept, wikipedia: De Boor's algorithm, wikidata: Q5244271}
+  - {name: cubic Hermite spline, kind: definition, wikipedia: Cubic Hermite spline, wikidata: Q1537263}
+  - {name: smoothing spline, kind: definition, wikipedia: Smoothing spline, wikidata: Q7546460}
+  - {name: thin plate spline, kind: definition, wikipedia: Thin plate spline, wikidata: Q7784288}
+  - {name: polyharmonic spline, kind: definition, wikipedia: Polyharmonic spline, wikidata: Q7226491}
+  - {name: box spline, kind: definition, wikipedia: Box spline, wikidata: Q4951620}
+  - {name: non-uniform rational B-spline, kind: definition, wikipedia: Non-uniform rational B-spline, wikidata: Q734737}
+  - {name: Bézier curve, kind: definition, wikipedia: Bézier curve, wikidata: Q214728}
+  - {name: Bernstein–Bézier form, kind: concept, wikipedia: Bernstein polynomial, wikidata: Q826841}
+  - {name: de Casteljau's algorithm, kind: concept, wikipedia: De Casteljau's algorithm, wikidata: Q1179419}
+  # Rational and Padé approximation
+  - {name: rational approximation, kind: concept, wikipedia: Rational function, wikidata: Q41237}
+  - {name: Padé approximant, kind: definition, wikipedia: Padé approximant, wikidata: Q2452504}
+  - {name: Padé table, kind: definition, wikipedia: Padé table, wikidata: Q7124033}
+  - {name: Montessus de Ballore's theorem, kind: statement, wikipedia: Padé approximant, wikidata: Q2452504}
+  - {name: Baker–Gammel–Wills conjecture, kind: conjecture, wikipedia: Padé approximant, wikidata: Q2452504}
+  - {name: Newman's theorem on rational approximation of the absolute value, kind: statement, wikipedia: Rational function, wikidata: Q41237}
+  - {name: Prony's method, kind: concept, wikipedia: Prony's method, wikidata: Q7249979}
+  # Approximate quadrature
+  - {name: numerical integration, kind: concept, wikipedia: Numerical integration, wikidata: Q753445}
+  - {name: quadrature rule, kind: definition, wikipedia: Quadrature (mathematics), wikidata: Q576422}
+  - {name: degree of exactness of a quadrature rule, kind: definition, wikipedia: Numerical integration, wikidata: Q753445}
+  - {name: Newton–Cotes formulas, kind: definition, wikipedia: Newton–Cotes formulas, wikidata: Q944241}
+  - {name: trapezoidal rule, kind: definition, wikipedia: Trapezoidal rule, wikidata: Q833293}
+  - {name: error bound for the trapezoidal rule, kind: statement, decl: trapezoidal_error_le_of_c2, wikipedia: Trapezoidal rule, wikidata: Q833293}
+  - {name: Simpson's rule, kind: definition, wikipedia: Simpson's rule, wikidata: Q722507}
+  - {name: Gaussian quadrature, kind: definition, wikipedia: Gaussian quadrature, wikidata: Q767680}
+  - {name: Gauss–Legendre quadrature, kind: definition, wikipedia: Gauss–Legendre quadrature, wikidata: Q85762846}
+  - {name: Gauss–Kronrod quadrature formula, kind: definition, wikipedia: Gauss–Kronrod quadrature formula, wikidata: Q5527852}
+  - {name: Clenshaw–Curtis quadrature, kind: definition, wikipedia: Clenshaw–Curtis quadrature, wikidata: Q5131618}
+  - {name: Romberg's method, kind: concept, wikipedia: Romberg's method, wikidata: Q1078449}
+  - {name: Richardson extrapolation, kind: concept, wikipedia: Richardson extrapolation, wikidata: Q1063089}
+  - {name: Peano kernel theorem, kind: statement, wikipedia: Peano kernel theorem, wikidata: Q60741336}
+  - {name: sparse grid, kind: concept, wikipedia: Sparse grid, wikidata: Q7573793}
+  - {name: curse of dimensionality, kind: concept, wikipedia: Curse of dimensionality, wikidata: Q1430460}
+  # Taylor-type expansions and remainders
+  - {name: Lagrange form of the remainder, kind: statement, decl: taylor_mean_remainder_lagrange, wikipedia: Taylor's theorem, wikidata: Q1137206, mathlib: [mathlib-undergrad, mathlib-100, mathlib-1000]}
+  - {name: Cauchy form of the remainder, kind: statement, decl: taylor_mean_remainder_cauchy, wikipedia: Taylor's theorem, wikidata: Q1137206, mathlib: [mathlib-100, mathlib-1000]}
+  - {name: Taylor polynomial, kind: definition, decl: taylorWithinEval, wikipedia: Taylor's theorem, wikidata: Q1137206}
+  - {name: Bürmann–Lagrange series, kind: statement, wikipedia: Lagrange inversion theorem, wikidata: Q544292}
+  - {name: Newton–Gregory forward formula, kind: statement, wikipedia: Newton polynomial, wikidata: Q2746387}
+  - {name: Abel–Plana formula, kind: statement, wikipedia: Abel–Plana formula, wikidata: Q4666730}
+  - {name: Boole summation formula, kind: statement, wikipedia: Euler–Boole summation, wikidata: Q30676419}
+  # Asymptotic approximations and expansions
+  - {name: asymptotic analysis, kind: concept, wikipedia: Asymptotic analysis, wikidata: Q752718}
+  - {name: asymptotic expansion, kind: definition, wikipedia: Asymptotic expansion, wikidata: Q752726}
+  - {name: asymptotic equivalence, kind: definition, decl: Asymptotics.IsEquivalent, wikipedia: Asymptotic analysis, wikidata: Q752718}
+  - {name: little-o notation, kind: definition, decl: Asymptotics.IsLittleO, wikipedia: Big O notation, wikidata: Q269878}
+  - {name: asymptotic scale, kind: definition, wikipedia: Asymptotic expansion, wikidata: Q752726}
+  - {name: Poincaré asymptotic series, kind: definition, wikipedia: Asymptotic expansion, wikidata: Q752726}
+  - {name: divergent asymptotic series, kind: example, wikipedia: Divergent series, wikidata: Q906520}
+  - {name: optimal truncation, kind: concept, wikipedia: Asymptotic expansion, wikidata: Q752726}
+  - {name: Watson's lemma, kind: statement, wikipedia: Watson's lemma, wikidata: Q7974787}
+  - {name: method of steepest descent, kind: concept, wikipedia: Method of steepest descent, wikidata: Q1997812}
+  - {name: saddle point method, kind: concept, wikipedia: Method of steepest descent, wikidata: Q1997812}
+  - {name: stationary phase approximation, kind: statement, wikipedia: Stationary phase approximation, wikidata: Q1936897}
+  - {name: Laplace's method, kind: statement, wikipedia: Laplace's method, wikidata: Q2058297}
+  - {name: Stokes phenomenon, kind: concept, wikipedia: Stokes phenomenon, wikidata: Q7618550}
+  - {name: resurgence, kind: concept, wikipedia: Resurgent function, wikidata: Q108530228}
+  - {name: Stirling's formula, kind: statement, decl: Stirling.factorial_isEquivalent_stirling, wikipedia: Stirling's approximation, wikidata: Q470877}
+  - {name: Euler–Maclaurin formula, kind: statement, wikipedia: Euler–Maclaurin formula, wikidata: Q282023}
+  # Multivariate and nonlinear approximation
+  - {name: multivariate approximation, kind: concept, wikipedia: Approximation theory, wikidata: Q774123}
+  - {name: Kolmogorov epsilon-entropy, kind: definition, wikipedia: Covering number, wikidata: Q5179257}
+  - {name: nonlinear approximation, kind: concept, wikipedia: Approximation theory, wikidata: Q774123}
+  - {name: n-term approximation, kind: concept, wikipedia: Sparse approximation, wikidata: Q28684319}
+  - {name: sparse approximation, kind: concept, wikipedia: Sparse approximation, wikidata: Q28684319}
+  - {name: matching pursuit, kind: concept, wikipedia: Matching pursuit, wikidata: Q6786281}
+  - {name: compressed sensing, kind: concept, wikipedia: Compressed sensing, wikidata: Q2665459}
+  - {name: restricted isometry property, kind: definition, wikipedia: Restricted isometry property, wikidata: Q17099734}
+  - {name: neural network approximation, kind: concept, wikipedia: Universal approximation theorem, wikidata: Q7894110}
+  - {name: kernel approximation in reproducing kernel Hilbert spaces, kind: concept, wikipedia: Reproducing kernel Hilbert space, wikidata: Q3345678}
+  - {name: weighted polynomial approximation, kind: concept, wikipedia: Approximation theory, wikidata: Q774123}

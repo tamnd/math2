@@ -1,0 +1,268 @@
+# The C2 skeleton of 32-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 32-XX
+title: analytic spaces and several complex variables
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+  mathlib-undergrad: {title: "Mathlib, the list of undergraduate topics", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/undergrad.yaml'}
+  mathlib-overview: {title: "Mathlib, the overview of the library", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/overview.yaml'}
+items:
+  # Holomorphic functions of several variables
+  - {name: several complex variables, kind: concept, wikipedia: Function of several complex variables, wikidata: Q2052951}
+  - {name: holomorphic function of several variables, kind: definition, decl: DifferentiableOn, wikipedia: Function of several complex variables, wikidata: Q2052951, mathlib: [mathlib-undergrad]}
+  - {name: polydisc, kind: definition, wikipedia: Polydisc, wikidata: Q2103196}
+  - {name: distinguished boundary of a polydisc, kind: definition, wikipedia: Polydisc, wikidata: Q2103196}
+  - {name: unit ball in C^n, kind: object, wikipedia: Unit sphere, wikidata: Q1307800}
+  - {name: Cauchy integral formula on a polydisc, kind: statement, wikipedia: Cauchy's integral formula, wikidata: Q913764}
+  - {name: torus integral, kind: definition, decl: torusIntegral, wikipedia: Cauchy's integral formula, wikidata: Q913764}
+  - {name: power series in several variables, kind: definition, decl: FormalMultilinearSeries, wikipedia: Power series, wikidata: Q206925}
+  - {name: Abel's lemma for multiple power series, kind: statement, wikipedia: Function of several complex variables, wikidata: Q2052951}
+  - {name: Reinhardt domain, kind: definition, wikipedia: Function of several complex variables, wikidata: Q2052951}
+  - {name: logarithmically convex domain, kind: definition, wikipedia: Function of several complex variables, wikidata: Q2052951}
+  - {name: domain of convergence of a power series, kind: statement, wikipedia: Function of several complex variables, wikidata: Q2052951}
+  - {name: holomorphic functions are analytic, kind: statement, decl: DifferentiableOn.analyticAt, wikipedia: Analyticity of holomorphic functions, wikidata: Q4751162, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: identity theorem in several variables, kind: statement, decl: AnalyticOnNhd.eqOn_of_preconnected_of_eventuallyEq, wikipedia: Identity theorem, wikidata: Q1038716}
+  - {name: maximum modulus principle in several variables, kind: statement, decl: Complex.eqOn_of_isPreconnected_of_isMaxOn_norm, wikipedia: Maximum modulus principle, wikidata: Q1050230}
+  - {name: Osgood's lemma, kind: statement, wikipedia: Osgood's lemma, wikidata: Q7106530}
+  - {name: Hartogs's theorem on separate holomorphicity, kind: statement, wikipedia: Hartogs's theorem on separate holomorphicity, wikidata: Q1050932}
+  - {name: Cauchy–Riemann equations in several variables, kind: definition, wikipedia: Cauchy–Riemann equations, wikidata: Q622741}
+  - {name: Wirtinger derivatives, kind: definition, wikipedia: Wirtinger derivatives, wikidata: Q8027031}
+  - {name: dbar operator, kind: definition, wikipedia: Complex differential form, wikidata: Q1780913}
+  - {name: '(p,q)-form', kind: definition, wikipedia: Complex differential form, wikidata: Q1780913}
+  - {name: inhomogeneous Cauchy–Riemann equations, kind: problem, wikipedia: Dolbeault cohomology, wikidata: Q1235317}
+  - {name: Bochner–Martinelli formula, kind: statement, wikipedia: Bochner–Martinelli formula, wikidata: Q4936246}
+  - {name: Cauchy–Fantappiè formula, kind: statement, wikipedia: Bochner–Martinelli formula, wikidata: Q4936246}
+  - {name: holomorphic map, kind: definition, wikipedia: Holomorphic function, wikidata: Q207476}
+  - {name: biholomorphism, kind: definition, wikipedia: Biholomorphism, wikidata: Q377166}
+  - {name: holomorphic inverse function theorem, kind: statement, wikipedia: Inverse function theorem, wikidata: Q931001}
+  - {name: Poincaré's theorem that the ball and polydisc are not biholomorphic, kind: statement, wikipedia: Biholomorphism, wikidata: Q377166}
+  - {name: Cartan's uniqueness theorem, kind: statement, wikipedia: Biholomorphism, wikidata: Q377166}
+  - {name: Fatou–Bieberbach domain, kind: example, wikipedia: Fatou–Bieberbach domain, wikidata: Q1398230}
+  - {name: holomorphic automorphisms of C^n, kind: concept, wikipedia: Function of several complex variables, wikidata: Q2052951}
+  - {name: meromorphic function of several variables, kind: definition, wikipedia: Meromorphic function, wikidata: Q217616}
+  - {name: Levi's extension theorem for meromorphic functions, kind: statement, wikipedia: Hartogs's extension theorem, wikidata: Q383238}
+  - {name: Jacobian conjecture, kind: conjecture, wikipedia: Jacobian conjecture, wikidata: Q2605695}
+  # Extension phenomena and analytic continuation
+  - {name: Hartogs figure, kind: example, wikipedia: Hartogs's extension theorem, wikidata: Q383238}
+  - {name: Hartogs's extension theorem, kind: statement, wikipedia: Hartogs's extension theorem, wikidata: Q383238}
+  - {name: Hartogs domain, kind: definition, wikipedia: Pseudoconvexity, wikidata: Q7254693}
+  - {name: Riemann extension theorem in several variables, kind: statement, wikipedia: Removable singularity, wikidata: Q1974087}
+  - {name: zeros of holomorphic functions are not isolated, kind: statement, wikipedia: Function of several complex variables, wikidata: Q2052951}
+  - {name: analytic continuation in several variables, kind: concept, wikipedia: Analytic continuation, wikidata: Q485287}
+  - {name: Riemann domain over C^n, kind: definition, wikipedia: Function of several complex variables, wikidata: Q2052951}
+  - {name: domain of holomorphy, kind: definition, wikipedia: Domain of holomorphy, wikidata: Q1625065}
+  - {name: envelope of holomorphy, kind: definition, wikipedia: Domain of holomorphy, wikidata: Q1625065}
+  - {name: Cartan–Thullen theorem, kind: statement, wikipedia: Domain of holomorphy, wikidata: Q1625065}
+  - {name: Kontinuitätssatz, kind: statement, wikipedia: Pseudoconvexity, wikidata: Q7254693}
+  - {name: Bochner's tube theorem, kind: statement, wikipedia: Bochner's tube theorem, wikidata: Q107535899}
+  - {name: edge-of-the-wedge theorem, kind: statement, wikipedia: Edge-of-the-wedge theorem, wikidata: Q4454925}
+  - {name: Hartogs–Bochner extension theorem, kind: statement, wikipedia: Hartogs's extension theorem, wikidata: Q383238}
+  # Holomorphic convexity and pseudoconvexity
+  - {name: holomorphically convex hull, kind: definition, wikipedia: Function of several complex variables, wikidata: Q2052951}
+  - {name: holomorphically convex domain, kind: definition, wikipedia: Function of several complex variables, wikidata: Q2052951}
+  - {name: polynomially convex set, kind: definition, wikipedia: Function of several complex variables, wikidata: Q2052951}
+  - {name: Oka–Weil theorem, kind: statement, wikipedia: Oka–Weil theorem, wikidata: Q105742287}
+  - {name: Runge domain, kind: definition, wikipedia: Runge's theorem, wikidata: Q1505529}
+  - {name: pseudoconvexity, kind: definition, wikipedia: Pseudoconvexity, wikidata: Q7254693}
+  - {name: Levi form, kind: definition, wikipedia: Pseudoconvexity, wikidata: Q7254693}
+  - {name: Levi pseudoconvex domain, kind: definition, wikipedia: Pseudoconvexity, wikidata: Q7254693}
+  - {name: strongly pseudoconvex domain, kind: definition, wikipedia: Pseudoconvexity, wikidata: Q7254693}
+  - {name: plurisubharmonic exhaustion function, kind: definition, wikipedia: Pseudoconvexity, wikidata: Q7254693}
+  - {name: Levi problem, kind: problem, wikipedia: Stein manifold, wikidata: Q931187}
+  - {name: Oka's solution of the Levi problem, kind: statement, wikipedia: Stein manifold, wikidata: Q931187}
+  - {name: Grauert's solution of the Levi problem for manifolds, kind: statement, wikipedia: Stein manifold, wikidata: Q931187}
+  - {name: q-convex manifold, kind: definition, wikipedia: Andreotti–Grauert theorem, wikidata: Q57463}
+  - {name: Andreotti–Grauert theorem, kind: statement, wikipedia: Andreotti–Grauert theorem, wikidata: Q57463}
+  - {name: Hartogs triangle, kind: counterexample, wikipedia: Pseudoconvexity, wikidata: Q7254693}
+  - {name: domain of finite type, kind: definition, wikipedia: Pseudoconvexity, wikidata: Q7254693}
+  - {name: peak function, kind: definition, wikipedia: Pseudoconvexity, wikidata: Q7254693}
+  - {name: Narasimhan lemma, kind: statement, wikipedia: Pseudoconvexity, wikidata: Q7254693}
+  # Stein manifolds and coherent sheaves
+  - {name: Stein manifold, kind: definition, wikipedia: Stein manifold, wikidata: Q931187}
+  - {name: Stein space, kind: definition, wikipedia: Stein manifold, wikidata: Q931187}
+  - {name: Cartan's theorem A, kind: statement, wikipedia: Cartan's theorems A and B, wikidata: Q5047043}
+  - {name: Cartan's theorem B, kind: statement, wikipedia: Cartan's theorems A and B, wikidata: Q5047043}
+  - {name: first Cousin problem, kind: problem, wikipedia: Cousin problems, wikidata: Q5178830}
+  - {name: second Cousin problem, kind: problem, wikipedia: Cousin problems, wikidata: Q5178830}
+  - {name: Poincaré problem, kind: problem, wikipedia: Cousin problems, wikidata: Q5178830}
+  - {name: Oka principle, kind: statement, wikipedia: Stein manifold, wikidata: Q931187}
+  - {name: Grauert's Oka principle for vector bundles, kind: statement, wikipedia: Stein manifold, wikidata: Q931187}
+  - {name: Oka manifold, kind: definition, wikipedia: Stein manifold, wikidata: Q931187}
+  - {name: embedding theorem for Stein manifolds, kind: statement, wikipedia: Stein manifold, wikidata: Q931187}
+  - {name: Behnke–Stein theorem, kind: statement, wikipedia: Stein manifold, wikidata: Q931187}
+  - {name: Grauert's theorem on real analytic manifolds, kind: statement, wikipedia: Stein manifold, wikidata: Q931187}
+  - {name: Docquier–Grauert theorem, kind: statement, wikipedia: Stein manifold, wikidata: Q931187}
+  - {name: Hörmander's L2 estimates, kind: statement, wikipedia: Dolbeault cohomology, wikidata: Q1235317}
+  - {name: dbar-Neumann problem, kind: problem, wikipedia: Dolbeault cohomology, wikidata: Q1235317}
+  - {name: Kohn Laplacian, kind: definition, wikipedia: Dolbeault cohomology, wikidata: Q1235317}
+  - {name: Dolbeault cohomology, kind: definition, wikipedia: Dolbeault cohomology, wikidata: Q1235317}
+  - {name: Dolbeault–Grothendieck lemma, kind: statement, wikipedia: Dolbeault cohomology, wikidata: Q1235317}
+  - {name: Dolbeault isomorphism, kind: statement, wikipedia: Dolbeault cohomology, wikidata: Q1235317}
+  - {name: Ohsawa–Takegoshi extension theorem, kind: statement, wikipedia: Ohsawa–Takegoshi L2 extension theorem, wikidata: Q25111495}
+  # Local analytic geometry
+  - {name: germ of a holomorphic function, kind: definition, wikipedia: Germ (mathematics), wikidata: Q2520842}
+  - {name: ring of convergent power series, kind: definition, wikipedia: Function of several complex variables, wikidata: Q2052951}
+  - {name: Weierstrass polynomial, kind: definition, wikipedia: Weierstrass preparation theorem, wikidata: Q3527219}
+  - {name: Weierstrass preparation theorem, kind: statement, wikipedia: Weierstrass preparation theorem, wikidata: Q3527219}
+  - {name: Weierstrass division theorem, kind: statement, wikipedia: Weierstrass preparation theorem, wikidata: Q3527219}
+  - {name: the local ring of holomorphic germs is Noetherian and factorial, kind: statement, wikipedia: Function of several complex variables, wikidata: Q2052951}
+  - {name: analytic set, kind: definition, wikipedia: Analytic set, wikidata: Q485312}
+  - {name: complex analytic variety, kind: definition, wikipedia: Complex analytic variety, wikidata: Q3889649}
+  - {name: germ of an analytic set, kind: definition, wikipedia: Analytic set, wikidata: Q485312}
+  - {name: irreducible analytic germ, kind: definition, wikipedia: Analytic set, wikidata: Q485312}
+  - {name: local parametrization theorem, kind: statement, wikipedia: Analytic set, wikidata: Q485312}
+  - {name: Rückert Nullstellensatz, kind: statement, wikipedia: Analytic set, wikidata: Q485312}
+  - {name: dimension of an analytic set, kind: definition, wikipedia: Analytic set, wikidata: Q485312}
+  - {name: regular and singular points of an analytic set, kind: definition, wikipedia: Analytic set, wikidata: Q485312}
+  - {name: Remmert–Stein theorem, kind: statement, wikipedia: Remmert–Stein theorem, wikidata: Q7312009}
+  - {name: Chow's theorem, kind: statement, wikipedia: Algebraic geometry and analytic geometry, wikidata: Q4724004}
+  - {name: Bishop's theorem on analytic sets, kind: statement, wikipedia: Remmert–Stein theorem, wikidata: Q7312009}
+  - {name: semianalytic set, kind: definition, wikipedia: Subanalytic set, wikidata: Q7630735}
+  - {name: subanalytic set, kind: definition, wikipedia: Subanalytic set, wikidata: Q7630735}
+  - {name: Łojasiewicz inequality, kind: statement, wikipedia: Łojasiewicz inequality, wikidata: Q8080668}
+  - {name: Gabrielov's theorem of the complement, kind: statement, wikipedia: Subanalytic set, wikidata: Q7630735}
+  - {name: triangulability of analytic sets, kind: statement, wikipedia: Subanalytic set, wikidata: Q7630735}
+  - {name: Lelong number, kind: definition, wikipedia: Lelong number, wikidata: Q6520938}
+  - {name: Siu's semicontinuity theorem, kind: statement, wikipedia: Lelong number, wikidata: Q6520938}
+  - {name: Thie's theorem on multiplicity, kind: statement, wikipedia: Lelong number, wikidata: Q6520938}
+  # Analytic spaces
+  - {name: complex analytic space, kind: definition, wikipedia: Complex analytic variety, wikidata: Q3889649}
+  - {name: reduced complex space, kind: definition, wikipedia: Complex analytic variety, wikidata: Q3889649}
+  - {name: normal complex space, kind: definition, wikipedia: Complex analytic variety, wikidata: Q3889649}
+  - {name: Oka's normalization theorem, kind: statement, wikipedia: Normal scheme, wikidata: Q7051829}
+  - {name: coherent analytic sheaf, kind: definition, wikipedia: Coherent sheaf, wikidata: Q906907}
+  - {name: Oka coherence theorem, kind: statement, wikipedia: Oka coherence theorem, wikidata: Q7081700}
+  - {name: Cartan's coherence theorem for ideal sheaves, kind: statement, wikipedia: Oka coherence theorem, wikidata: Q7081700}
+  - {name: Remmert's proper mapping theorem, kind: statement, wikipedia: Proper map, wikidata: Q1090009}
+  - {name: Grauert's direct image theorem, kind: statement, wikipedia: Coherent sheaf, wikidata: Q906907}
+  - {name: Cartan–Serre finiteness theorem, kind: statement, wikipedia: Coherent sheaf cohomology, wikidata: Q25303633}
+  - {name: Grauert–Remmert finiteness theorem, kind: statement, wikipedia: Coherent sheaf, wikidata: Q906907}
+  - {name: Grauert's semicontinuity theorem, kind: statement, wikipedia: Coherent sheaf cohomology, wikidata: Q25303633}
+  - {name: modification of a complex space, kind: definition, wikipedia: Proper morphism, wikidata: Q7250176}
+  - {name: Hironaka's resolution for complex spaces, kind: statement, wikipedia: Resolution of singularities, wikidata: Q10942247}
+  - {name: real analytic manifold, kind: definition, wikipedia: Analytic manifold, wikidata: Q4751134}
+  - {name: complexification of a real analytic manifold, kind: statement, wikipedia: Complexification, wikidata: Q445569}
+  - {name: Banach analytic space, kind: definition, wikipedia: Infinite-dimensional holomorphy, wikidata: Q6029727}
+  - {name: infinite-dimensional holomorphy, kind: concept, wikipedia: Infinite-dimensional holomorphy, wikidata: Q6029727}
+  - {name: holomorphic functional calculus, kind: definition, wikipedia: Holomorphic functional calculus, wikidata: Q1625064}
+  # Pluripotential theory
+  - {name: plurisubharmonic function, kind: definition, wikipedia: Plurisubharmonic function, wikidata: Q7205565}
+  - {name: pluriharmonic function, kind: definition, wikipedia: Pluriharmonic function, wikidata: Q4365897}
+  - {name: pluripolar set, kind: definition, wikipedia: Pluripolar set, wikidata: Q7205562}
+  - {name: Josefson's theorem, kind: statement, wikipedia: Pluripolar set, wikidata: Q7205562}
+  - {name: complex Monge–Ampère operator, kind: definition, wikipedia: Monge–Ampère equation, wikidata: Q1552291}
+  - {name: Bedford–Taylor theory, kind: concept, wikipedia: Plurisubharmonic function, wikidata: Q7205565}
+  - {name: Siciak extremal function, kind: definition, wikipedia: Pluripolar set, wikidata: Q7205562}
+  - {name: pluricomplex Green function, kind: definition, wikipedia: Plurisubharmonic function, wikidata: Q7205565}
+  - {name: Lelong class, kind: definition, wikipedia: Plurisubharmonic function, wikidata: Q7205565}
+  - {name: current, kind: definition, wikipedia: Current (mathematics), wikidata: Q3001145}
+  - {name: positive current, kind: definition, wikipedia: Positive current, wikidata: Q7233260}
+  - {name: Poincaré–Lelong formula, kind: statement, wikipedia: Lelong number, wikidata: Q6520938}
+  - {name: multiplier ideal, kind: definition, wikipedia: Multiplier ideal, wikidata: Q17099212}
+  - {name: Demailly's regularization of currents, kind: statement, wikipedia: Positive current, wikidata: Q7233260}
+  # Holomorphic maps and invariant metrics
+  - {name: Kobayashi metric, kind: definition, wikipedia: Kobayashi metric, wikidata: Q6424284}
+  - {name: Carathéodory metric, kind: definition, wikipedia: Carathéodory metric, wikidata: Q5037756}
+  - {name: Kobayashi hyperbolic manifold, kind: definition, wikipedia: Kobayashi metric, wikidata: Q6424284}
+  - {name: Brody hyperbolicity, kind: definition, wikipedia: Kobayashi metric, wikidata: Q6424284}
+  - {name: Brody's lemma, kind: statement, wikipedia: Kobayashi metric, wikidata: Q6424284}
+  - {name: Kobayashi conjecture, kind: conjecture, wikipedia: Kobayashi metric, wikidata: Q6424284}
+  - {name: Green–Griffiths–Lang conjecture, kind: conjecture, wikipedia: Kobayashi metric, wikidata: Q6424284}
+  - {name: Lempert's theorem on convex domains, kind: statement, wikipedia: Kobayashi metric, wikidata: Q6424284}
+  - {name: complex geodesic, kind: definition, wikipedia: Kobayashi metric, wikidata: Q6424284}
+  - {name: Bergman kernel, kind: definition, wikipedia: Bergman kernel, wikidata: Q3345664}
+  - {name: Bergman metric, kind: definition, wikipedia: Bergman metric, wikidata: Q4891698}
+  - {name: Bergman projection, kind: definition, wikipedia: Bergman kernel, wikidata: Q3345664}
+  - {name: Szegő kernel, kind: definition, wikipedia: Szegő kernel, wikidata: Q7664533}
+  - {name: Fefferman's expansion of the Bergman kernel, kind: statement, wikipedia: Bergman kernel, wikidata: Q3345664}
+  - {name: Fefferman's theorem on extension of biholomorphisms, kind: statement, wikipedia: Bergman metric, wikidata: Q4891698}
+  - {name: proper holomorphic map, kind: definition, wikipedia: Proper map, wikidata: Q1090009}
+  - {name: Alexander's theorem on proper self-maps of the ball, kind: statement, wikipedia: Biholomorphism, wikidata: Q377166}
+  - {name: Nevanlinna theory in several variables, kind: concept, wikipedia: Nevanlinna theory, wikidata: Q1281926}
+  - {name: holomorphic dynamics in several variables, kind: concept, wikipedia: Complex dynamics, wikidata: Q264224}
+  - {name: Hénon map, kind: example, wikipedia: Hénon map, wikidata: Q1642961}
+  # Compact complex manifolds
+  - {name: complex manifold, kind: definition, wikipedia: Complex manifold, wikidata: Q578874}
+  - {name: holomorphic functions on compact complex manifolds are constant, kind: statement, decl: MDifferentiable.apply_eq_of_compactSpace, wikipedia: Complex manifold, wikidata: Q578874}
+  - {name: complex projective space, kind: example, wikipedia: Complex projective space, wikidata: Q2538404}
+  - {name: Hopf manifold, kind: example, wikipedia: Hopf manifold, wikidata: Q5900503}
+  - {name: Hopf surface, kind: example, wikipedia: Hopf surface, wikidata: Q5900512}
+  - {name: Inoue surface, kind: example, wikipedia: Inoue surface, wikidata: Q6036690}
+  - {name: Calabi–Eckmann manifold, kind: example, wikipedia: Calabi–Eckmann manifold, wikidata: Q5018296}
+  - {name: Iwasawa manifold, kind: example, wikipedia: Iwasawa manifold, wikidata: Q6100709}
+  - {name: algebraic dimension, kind: definition, wikipedia: Moishezon manifold, wikidata: Q17097705}
+  - {name: Siegel's theorem on meromorphic function fields, kind: statement, wikipedia: Moishezon manifold, wikidata: Q17097705}
+  - {name: Moishezon manifold, kind: definition, wikipedia: Moishezon manifold, wikidata: Q17097705}
+  - {name: Fujiki class C, kind: definition, wikipedia: Fujiki class C, wikidata: Q5507425}
+  - {name: Kodaira embedding theorem, kind: statement, wikipedia: Kodaira embedding theorem, wikidata: Q6425088}
+  - {name: Kähler manifold, kind: definition, wikipedia: Kähler manifold, wikidata: Q1353916}
+  - {name: Frankel conjecture, kind: statement, wikipedia: Frankel conjecture, wikidata: Q104862566}
+  - {name: complex structure on the six-sphere, kind: problem, wikipedia: Almost complex manifold, wikidata: Q2995691}
+  - {name: class VII surface, kind: definition, wikipedia: Surface of class VII, wikidata: Q7645998}
+  - {name: global spherical shell conjecture, kind: conjecture, wikipedia: Surface of class VII, wikidata: Q7645998}
+  # Holomorphic fiber spaces
+  - {name: holomorphic vector bundle, kind: definition, wikipedia: Holomorphic vector bundle, wikidata: Q9289328}
+  - {name: holomorphic line bundle, kind: definition, wikipedia: Holomorphic vector bundle, wikidata: Q9289328}
+  - {name: Hermitian metric on a vector bundle, kind: definition, wikipedia: Hermitian manifold, wikidata: Q5741935}
+  - {name: Chern connection, kind: definition, wikipedia: Hermitian connection, wikidata: Q5646449}
+  - {name: positive line bundle, kind: definition, wikipedia: Ample line bundle, wikidata: Q4748472}
+  - {name: Griffiths positivity, kind: definition, wikipedia: Ample line bundle, wikidata: Q4748472}
+  - {name: Nakano positivity, kind: definition, wikipedia: Kodaira vanishing theorem, wikidata: Q2518048}
+  - {name: Kodaira–Nakano vanishing theorem, kind: statement, wikipedia: Kodaira vanishing theorem, wikidata: Q2518048}
+  - {name: holomorphic fiber bundle, kind: definition, wikipedia: Fiber bundle, wikidata: Q1154996}
+  # Deformations of complex structures
+  - {name: deformation of complex structure, kind: concept, wikipedia: Kodaira–Spencer map, wikidata: Q6425091}
+  - {name: Kodaira–Spencer map, kind: definition, wikipedia: Kodaira–Spencer map, wikidata: Q6425091}
+  - {name: Kodaira–Nirenberg–Spencer existence theorem, kind: statement, wikipedia: Kodaira–Spencer map, wikidata: Q6425091}
+  - {name: Kuranishi family, kind: definition, wikipedia: Kuranishi structure, wikidata: Q25304228}
+  - {name: Tian–Todorov theorem, kind: statement, wikipedia: Calabi–Yau manifold, wikidata: Q549959}
+  - {name: period map, kind: definition, wikipedia: Period mapping, wikidata: Q7168619}
+  - {name: Griffiths transversality, kind: statement, wikipedia: Period mapping, wikidata: Q7168619}
+  # Complex spaces with automorphism groups
+  - {name: automorphism group of a bounded domain is a Lie group, kind: statement, wikipedia: Hermitian symmetric space, wikidata: Q5741926}
+  - {name: bounded symmetric domain, kind: definition, wikipedia: Hermitian symmetric space, wikidata: Q5741926}
+  - {name: Hermitian symmetric space, kind: definition, wikipedia: Hermitian symmetric space, wikidata: Q5741926}
+  - {name: Cartan's classification of bounded symmetric domains, kind: statement, wikipedia: Hermitian symmetric space, wikidata: Q5741926}
+  - {name: Harish-Chandra embedding, kind: statement, wikipedia: Hermitian symmetric space, wikidata: Q5741926}
+  - {name: Siegel upper half-space, kind: object, wikipedia: Siegel upper half-space, wikidata: Q2283003}
+  - {name: Siegel modular form, kind: definition, wikipedia: Siegel modular form, wikidata: Q7510567}
+  - {name: Baily–Borel compactification, kind: statement, wikipedia: Baily–Borel compactification, wikidata: Q4848497}
+  # Non-Archimedean analytic geometry
+  - {name: rigid analytic space, kind: definition, wikipedia: Rigid analytic space, wikidata: Q7333799}
+  - {name: Tate algebra, kind: definition, wikipedia: Restricted power series, wikidata: Q96401593}
+  - {name: Berkovich space, kind: definition, wikipedia: Berkovich space, wikidata: Q4892205}
+  - {name: adic space, kind: definition, wikipedia: Rigid analytic space, wikidata: Q7333799}
+  # Complex singularities
+  - {name: isolated hypersurface singularity, kind: definition, wikipedia: Milnor map, wikidata: Q6860249}
+  - {name: Milnor fibration, kind: statement, wikipedia: Milnor map, wikidata: Q6860249}
+  - {name: Milnor number, kind: definition, wikipedia: Milnor number, wikidata: Q6860251}
+  - {name: Milnor fiber is a bouquet of spheres, kind: statement, wikipedia: Milnor map, wikidata: Q6860249}
+  - {name: link of a singularity, kind: definition, wikipedia: Milnor map, wikidata: Q6860249}
+  - {name: Brieskorn manifold, kind: example, wikipedia: Brieskorn manifold, wikidata: Q4967112}
+  - {name: monodromy theorem for singularities, kind: statement, wikipedia: Milnor map, wikidata: Q6860249}
+  - {name: vanishing cycle, kind: definition, wikipedia: Vanishing cycle, wikidata: Q4205180}
+  - {name: Picard–Lefschetz theory, kind: concept, wikipedia: Picard–Lefschetz theory, wikidata: Q7190517}
+  - {name: Thom–Sebastiani theorem, kind: statement, wikipedia: Milnor number, wikidata: Q6860251}
+  - {name: Lê–Ramanujam theorem, kind: statement, wikipedia: Milnor number, wikidata: Q6860251}
+  - {name: Zariski's multiplicity conjecture, kind: conjecture, wikipedia: Singularity theory, wikidata: Q4245771}
+  - {name: Mather–Yau theorem, kind: statement, wikipedia: Milnor number, wikidata: Q6860251}
+  - {name: Arnold's classification of singularities, kind: statement, wikipedia: Singularity theory, wikidata: Q4245771}
+  - {name: Whitney stratification, kind: definition, wikipedia: Whitney conditions, wikidata: Q7996761}
+  - {name: perverse sheaf, kind: definition, wikipedia: Perverse sheaf, wikidata: Q17086746}
+  - {name: Riemann–Hilbert correspondence, kind: statement, wikipedia: Riemann–Hilbert correspondence, wikidata: Q5986522}
+  - {name: Bernstein–Sato polynomial, kind: definition, wikipedia: Bernstein–Sato polynomial, wikidata: Q17003059}
+  - {name: monodromy conjecture, kind: conjecture, wikipedia: Bernstein–Sato polynomial, wikidata: Q17003059}
+  - {name: Briançon–Skoda theorem, kind: statement, wikipedia: Multiplier ideal, wikidata: Q17099212}
+  # CR manifolds
+  - {name: CR manifold, kind: definition, wikipedia: CR manifold, wikidata: Q5014001}
+  - {name: CR function, kind: definition, wikipedia: CR manifold, wikidata: Q5014001}
+  - {name: tangential Cauchy–Riemann equations, kind: definition, wikipedia: CR manifold, wikidata: Q5014001}
+  - {name: Levi-flat hypersurface, kind: definition, wikipedia: CR manifold, wikidata: Q5014001}
+  - {name: Lewy extension theorem, kind: statement, wikipedia: CR manifold, wikidata: Q5014001}
+  - {name: Lewy's example, kind: counterexample, wikipedia: Lewy's example, wikidata: Q814880}
+  - {name: Chern–Moser normal form, kind: statement, wikipedia: CR manifold, wikidata: Q5014001}
+  - {name: Boutet de Monvel's embedding theorem, kind: statement, wikipedia: CR manifold, wikidata: Q5014001}
+  - {name: Rossi's non-embeddable CR structure, kind: counterexample, wikipedia: CR manifold, wikidata: Q5014001}
+  - {name: Baouendi–Trèves approximation theorem, kind: statement, wikipedia: CR manifold, wikidata: Q5014001}
+  - {name: Kohn–Rossi cohomology, kind: definition, wikipedia: CR manifold, wikidata: Q5014001}

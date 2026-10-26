@@ -1,0 +1,169 @@
+# The C2 skeleton of 92-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 92-XX
+title: biology and the natural sciences
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+items:
+  # General notions
+  - {name: mathematical biology, kind: concept, wikipedia: Mathematical and theoretical biology, wikidata: Q751611}
+  - {name: population dynamics, kind: concept, wikipedia: Population dynamics, wikidata: Q904564}
+  - {name: population model, kind: concept, wikipedia: Population model, wikidata: Q7229808}
+  # Single-species population growth
+  - {name: Malthusian growth model, kind: definition, wikipedia: Malthusian growth model, wikidata: Q2705584}
+  - {name: logistic growth equation, kind: definition, wikipedia: Logistic function, wikidata: Q1052379}
+  - {name: carrying capacity, kind: definition, wikipedia: Carrying capacity, wikidata: Q866283}
+  - {name: Gompertz growth model, kind: definition, wikipedia: Gompertz function, wikidata: Q1011785}
+  - {name: Allee effect, kind: concept, wikipedia: Allee effect, wikidata: Q2301505}
+  - {name: Ricker model, kind: definition, wikipedia: Ricker model, wikidata: Q7331913}
+  - {name: Beverton–Holt model, kind: definition, wikipedia: Beverton–Holt model, wikidata: Q4899640}
+  - {name: Mackey–Glass equation, kind: definition, wikipedia: Mackey–Glass equations, wikidata: Q104847195}
+  - {name: maximum sustainable yield, kind: statement, wikipedia: Maximum sustainable yield, wikidata: Q3425223}
+  - {name: metapopulation model of Levins, kind: definition, wikipedia: Metapopulation, wikidata: Q954495}
+  # Structured populations and demography
+  - {name: Leslie matrix, kind: definition, wikipedia: Leslie matrix, wikidata: Q943800}
+  - {name: stable age distribution, kind: statement, wikipedia: Leslie matrix, wikidata: Q943800}
+  - {name: matrix population model, kind: concept, wikipedia: Matrix population models, wikidata: Q4284947}
+  - {name: Euler–Lotka equation, kind: statement, wikipedia: Euler–Lotka equation, wikidata: Q5409005}
+  - {name: McKendrick–von Foerster equation, kind: definition, wikipedia: Von Foerster equation, wikidata: Q23579765}
+  - {name: mark and recapture estimation, kind: definition, wikipedia: Mark and recapture, wikidata: Q796147}
+  # Interacting species
+  - {name: Lotka–Volterra equations, kind: definition, wikipedia: Lotka–Volterra equations, wikidata: Q150052}
+  - {name: Volterra's principle, kind: statement, wikipedia: Lotka–Volterra equations, wikidata: Q150052}
+  - {name: competitive Lotka–Volterra equations, kind: definition, wikipedia: Competitive Lotka–Volterra equations, wikidata: Q5156344}
+  - {name: generalized Lotka–Volterra equation, kind: definition, wikipedia: Generalized Lotka–Volterra equation, wikidata: Q5532443}
+  - {name: competitive exclusion principle, kind: statement, wikipedia: Competitive exclusion principle, wikidata: Q1331830}
+  - {name: Holling functional response, kind: definition, wikipedia: Functional response, wikidata: Q5508845}
+  - {name: paradox of enrichment, kind: statement, wikipedia: Paradox of enrichment, wikidata: Q7134450}
+  - {name: Nicholson–Bailey model, kind: definition, wikipedia: Nicholson–Bailey model, wikidata: Q15635269}
+  - {name: food web, kind: concept, wikipedia: Food web, wikidata: Q1775153}
+  - {name: ecological stability, kind: concept, wikipedia: Ecological stability, wikidata: Q5333257}
+  - {name: diversity index, kind: definition, wikipedia: Diversity index, wikidata: Q1230601}
+  - {name: unified neutral theory of biodiversity, kind: concept, wikipedia: Unified neutral theory of biodiversity, wikidata: Q7884982}
+  - {name: Ewens's sampling formula, kind: statement, wikipedia: Ewens's sampling formula, wikidata: Q5419007}
+  - {name: theory of island biogeography, kind: concept, wikipedia: Insular biogeography, wikidata: Q1664460}
+  # Epidemiology
+  - {name: compartmental models in epidemiology, kind: concept, wikipedia: Compartmental models (epidemiology), wikidata: Q2572354}
+  - {name: SIR model, kind: definition, wikipedia: Compartmental models (epidemiology), wikidata: Q2572354}
+  - {name: SIS and SEIR models, kind: definition, wikipedia: Compartmental models (epidemiology), wikidata: Q2572354}
+  - {name: Kermack–McKendrick theory, kind: statement, wikipedia: Kermack–McKendrick theory, wikidata: Q17067396}
+  - {name: basic reproduction number, kind: definition, wikipedia: Basic reproduction number, wikidata: Q901464}
+  - {name: next-generation matrix, kind: definition, wikipedia: Next-generation matrix, wikidata: Q17071746}
+  - {name: threshold theorem of epidemiology, kind: statement, wikipedia: Basic reproduction number, wikidata: Q901464}
+  - {name: final size equation, kind: statement, wikipedia: Kermack–McKendrick theory, wikidata: Q17067396}
+  - {name: herd immunity threshold, kind: statement, wikipedia: Herd immunity, wikidata: Q736798}
+  - {name: Reed–Frost model, kind: definition, wikipedia: Reed–Frost model, wikidata: Q7306784}
+  - {name: Ross–Macdonald model of malaria, kind: definition, wikipedia: Mathematical modelling of infectious diseases, wikidata: Q990044}
+  - {name: mathematical modelling of infectious diseases, kind: concept, wikipedia: Mathematical modelling of infectious diseases, wikidata: Q990044}
+  # Population genetics
+  - {name: population genetics, kind: concept, wikipedia: Population genetics, wikidata: Q31151}
+  - {name: Hardy–Weinberg principle, kind: statement, wikipedia: Hardy–Weinberg principle, wikidata: Q49974}
+  - {name: linkage disequilibrium, kind: definition, wikipedia: Linkage disequilibrium, wikidata: Q2064311}
+  - {name: genetic drift, kind: concept, wikipedia: Genetic drift, wikidata: Q486420}
+  - {name: Wright–Fisher model, kind: definition, wikipedia: Genetic drift, wikidata: Q486420}
+  - {name: Moran process, kind: definition, wikipedia: Moran process, wikidata: Q17157279}
+  - {name: effective population size, kind: definition, wikipedia: Effective population size, wikidata: Q1295959}
+  - {name: fixation probability, kind: definition, wikipedia: Fixation (population genetics), wikidata: Q2914991}
+  - {name: Kimura's diffusion approximation, kind: statement, wikipedia: Fixation (population genetics), wikidata: Q2914991}
+  - {name: Fisher's fundamental theorem of natural selection, kind: statement, wikipedia: Fisher's fundamental theorem of natural selection, wikidata: Q197869}
+  - {name: Price equation, kind: statement, wikipedia: Price equation, wikidata: Q2109459}
+  - {name: Hamilton's rule, kind: statement, wikipedia: Kin selection, wikidata: Q741598}
+  - {name: Fisher's principle, kind: statement, wikipedia: Fisher's principle, wikidata: Q2621361}
+  - {name: mutation–selection balance, kind: statement, wikipedia: Mutation–selection balance, wikidata: Q3730906}
+  - {name: infinite alleles model, kind: definition, wikipedia: Infinite alleles model, wikidata: Q17101617}
+  - {name: infinite sites model, kind: definition, wikipedia: Infinite sites model, wikidata: Q25304701}
+  - {name: coalescent theory, kind: concept, wikipedia: Coalescent theory, wikidata: Q2698599}
+  - {name: Kingman's coalescent, kind: definition, wikipedia: Coalescent theory, wikidata: Q2698599}
+  - {name: Watterson estimator, kind: definition, wikipedia: Watterson estimator, wikidata: Q7974953}
+  - {name: Tajima's D, kind: definition, wikipedia: Tajima's D, wikidata: Q7676859}
+  - {name: Muller's ratchet, kind: concept, wikipedia: Muller's ratchet, wikidata: Q1154978}
+  - {name: quasispecies model, kind: definition, wikipedia: Quasispecies model, wikidata: Q456225}
+  - {name: error threshold, kind: statement, wikipedia: Error threshold (evolution), wikidata: Q5395724}
+  - {name: fitness landscape, kind: concept, wikipedia: Fitness landscape, wikidata: Q3307742}
+  - {name: NK model, kind: definition, wikipedia: NK model, wikidata: Q6954615}
+  - {name: heritability, kind: definition, wikipedia: Heritability, wikidata: Q1503548}
+  - {name: breeder's equation, kind: statement, wikipedia: Heritability, wikidata: Q1503548}
+  - {name: evolutionary graph theory, kind: concept, wikipedia: Evolutionary graph theory, wikidata: Q5418703}
+  # Phylogenetics
+  - {name: phylogenetic tree, kind: definition, wikipedia: Phylogenetic tree, wikidata: Q242125}
+  - {name: computational phylogenetics, kind: concept, wikipedia: Computational phylogenetics, wikidata: Q3772859}
+  - {name: number of rooted binary phylogenetic trees, kind: statement, wikipedia: Phylogenetic tree, wikidata: Q242125}
+  - {name: maximum parsimony, kind: definition, wikipedia: Maximum parsimony, wikidata: Q1805805}
+  - {name: long branch attraction, kind: counterexample, wikipedia: Long branch attraction, wikidata: Q2870169}
+  - {name: neighbor joining, kind: definition, wikipedia: Neighbor joining, wikidata: Q1935806}
+  - {name: UPGMA, kind: definition, wikipedia: UPGMA, wikidata: Q1779497}
+  - {name: four-point condition for tree metrics, kind: statement, wikipedia: Distance matrices in phylogeny, wikidata: Q5282866}
+  - {name: substitution model, kind: definition, wikipedia: Substitution model, wikidata: Q7632136}
+  - {name: models of DNA evolution, kind: concept, wikipedia: Models of DNA evolution, wikidata: Q6888417}
+  - {name: Jukes–Cantor model, kind: definition, wikipedia: Models of DNA evolution, wikidata: Q6888417}
+  - {name: Felsenstein's pruning algorithm, kind: definition, wikipedia: Felsenstein's tree-pruning algorithm, wikidata: Q5442616}
+  - {name: Robinson–Foulds metric, kind: definition, wikipedia: Robinson–Foulds metric, wikidata: Q7353146}
+  - {name: phylogenetic network, kind: definition, wikipedia: Phylogenetic network, wikidata: Q3142246}
+  - {name: birth–death model of speciation, kind: definition, wikipedia: Birth–death process, wikidata: Q1456275}
+  # Sequence analysis and molecular structure
+  - {name: sequence alignment, kind: concept, wikipedia: Sequence alignment, wikidata: Q827246}
+  - {name: Needleman–Wunsch algorithm, kind: definition, wikipedia: Needleman–Wunsch algorithm, wikidata: Q583546}
+  - {name: Smith–Waterman algorithm, kind: definition, wikipedia: Smith–Waterman algorithm, wikidata: Q1683352}
+  - {name: substitution matrix, kind: definition, wikipedia: Substitution matrix, wikidata: Q493281}
+  - {name: multiple sequence alignment, kind: problem, wikipedia: Multiple sequence alignment, wikidata: Q1377767}
+  - {name: Nussinov algorithm, kind: definition, wikipedia: Nussinov algorithm, wikidata: Q2005549}
+  - {name: nucleic acid structure prediction, kind: problem, wikipedia: Nucleic acid structure prediction, wikidata: Q7068225}
+  - {name: protein folding problem, kind: problem, wikipedia: Protein structure prediction, wikidata: Q899656}
+  - {name: HP lattice model of proteins, kind: definition, wikipedia: Hydrophobic-polar protein folding model, wikidata: Q5955260}
+  # Neurons and neural networks
+  - {name: biological neuron model, kind: concept, wikipedia: Biological neuron model, wikidata: Q1651163}
+  - {name: Hodgkin–Huxley model, kind: definition, wikipedia: Hodgkin–Huxley model, wikidata: Q995215}
+  - {name: FitzHugh–Nagumo model, kind: definition, wikipedia: FitzHugh–Nagumo model, wikidata: Q502563}
+  - {name: Morris–Lecar model, kind: definition, wikipedia: Morris–Lecar model, wikidata: Q6914151}
+  - {name: Hindmarsh–Rose model, kind: definition, wikipedia: Hindmarsh–Rose model, wikidata: Q3859862}
+  - {name: integrate-and-fire model, kind: definition, wikipedia: Biological neuron model, wikidata: Q1651163}
+  - {name: cable equation, kind: definition, wikipedia: Cable theory, wikidata: Q1327423}
+  - {name: Goldman equation, kind: statement, wikipedia: Goldman equation, wikidata: Q1535911}
+  - {name: Nernst equation, kind: statement, wikipedia: Nernst equation, wikidata: Q751124}
+  - {name: Wilson–Cowan model, kind: definition, wikipedia: Wilson–Cowan model, wikidata: Q8023317}
+  - {name: Hopfield network, kind: definition, wikipedia: Hopfield network, wikidata: Q1407668}
+  - {name: Hebbian learning, kind: concept, wikipedia: Hebbian theory, wikidata: Q1277874}
+  - {name: Oja's rule, kind: statement, wikipedia: Oja's rule, wikidata: Q7081581}
+  - {name: BCM theory, kind: definition, wikipedia: BCM theory, wikidata: Q4835208}
+  - {name: perceptron, kind: definition, wikipedia: Perceptron, wikidata: Q690207}
+  # Biological rhythms and physiology
+  - {name: Kuramoto model, kind: definition, wikipedia: Kuramoto model, wikidata: Q604374}
+  - {name: phase response curve, kind: definition, wikipedia: Phase response curve, wikidata: Q7180960}
+  - {name: Windkessel model, kind: definition, wikipedia: Windkessel effect, wikidata: Q488128}
+  - {name: multi-compartment model in pharmacokinetics, kind: definition, wikipedia: Multi-compartment model, wikidata: Q6934435}
+  - {name: Keller–Segel model of chemotaxis, kind: definition, wikipedia: Chemotaxis, wikidata: Q658145}
+  - {name: French flag model, kind: concept, wikipedia: French flag model, wikidata: Q5502127}
+  - {name: L-system, kind: definition, wikipedia: L-system, wikidata: Q1151098}
+  - {name: phyllotaxis and the golden angle, kind: statement, wikipedia: Phyllotaxis, wikidata: Q839659}
+  # Biochemical kinetics and systems biology
+  - {name: Michaelis–Menten kinetics, kind: statement, wikipedia: Michaelis–Menten kinetics, wikidata: Q613955}
+  - {name: quasi-steady-state approximation, kind: statement, wikipedia: Michaelis–Menten kinetics, wikidata: Q613955}
+  - {name: Hill equation, kind: definition, wikipedia: Hill equation (biochemistry), wikidata: Q2554020}
+  - {name: Monod equation, kind: definition, wikipedia: Monod equation, wikidata: Q1944979}
+  - {name: chemostat model, kind: definition, wikipedia: Chemostat, wikidata: Q902311}
+  - {name: gene regulatory network, kind: concept, wikipedia: Gene regulatory network, wikidata: Q1502576}
+  - {name: Boolean network, kind: definition, wikipedia: Boolean network, wikidata: Q585230}
+  - {name: biochemical systems theory, kind: concept, wikipedia: Biochemical systems theory, wikidata: Q4914715}
+  - {name: metabolic control analysis, kind: concept, wikipedia: Metabolic control analysis, wikidata: Q502671}
+  - {name: flux balance analysis, kind: definition, wikipedia: Flux balance analysis, wikidata: Q5463029}
+  # Chemical kinetics and reaction networks
+  - {name: law of mass action, kind: statement, wikipedia: Law of mass action, wikidata: Q899494}
+  - {name: rate equation, kind: definition, wikipedia: Rate equation, wikidata: Q904041}
+  - {name: Arrhenius equation, kind: statement, wikipedia: Arrhenius equation, wikidata: Q507505}
+  - {name: chemical reaction network theory, kind: concept, wikipedia: Chemical reaction network theory, wikidata: Q1069192}
+  - {name: deficiency zero theorem, kind: statement, wikipedia: Chemical reaction network theory, wikidata: Q1069192}
+  - {name: global attractor conjecture, kind: conjecture, wikipedia: Chemical reaction network theory, wikidata: Q1069192}
+  - {name: chemical master equation, kind: definition, wikipedia: Master equation, wikidata: Q722878}
+  - {name: Gillespie algorithm, kind: definition, wikipedia: Gillespie algorithm, wikidata: Q5562121}
+  - {name: Brusselator, kind: example, wikipedia: Brusselator, wikidata: Q906505}
+  - {name: Oregonator, kind: example, wikipedia: Oregonator, wikidata: Q536710}
+  - {name: Belousov–Zhabotinsky reaction, kind: example, wikipedia: Belousov–Zhabotinsky reaction, wikidata: Q816151}
+  # Chemical graph theory
+  - {name: chemical graph theory, kind: concept, wikipedia: Chemical graph theory, wikidata: Q381009}
+  - {name: topological index, kind: definition, wikipedia: Topological index, wikidata: Q904942}
+  - {name: Wiener index, kind: definition, wikipedia: Wiener index, wikidata: Q909065}
+  - {name: Hosoya index, kind: definition, wikipedia: Hosoya index, wikidata: Q4200699}
+  - {name: Randić index, kind: definition, wikipedia: Randić index, wikidata: Q4200698}
+  - {name: Hückel method, kind: definition, wikipedia: Hückel method, wikidata: Q901357}
+  - {name: fullerene graph, kind: object, wikipedia: Fullerene, wikidata: Q178026}

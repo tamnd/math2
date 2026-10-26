@@ -1,0 +1,208 @@
+# The C2 skeleton of 86-XX: the main concepts, definitions and named theorems of the class (issue #16, spec 18.1 and 18.3 in tamnd/math2-agent).
+# The items are in groups by sub-area. Each item has a kind and at least one source. The field decl is the Mathlib declaration that defines or states the item, at the pinned Mathlib commit. The field node is the tag of the node for the item, when the node exists.
+# The schema is schema/skeleton.v1.json. Check the file with: python .github/scripts/check_curricula.py
+skeleton: 86-XX
+title: geophysics
+sources:
+  wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
+items:
+  # Figure of the Earth and geodesy
+  - {name: geodesy, kind: concept, wikipedia: Geodesy, wikidata: Q131089}
+  - {name: figure of the Earth, kind: concept, wikipedia: Figure of the Earth, wikidata: Q437882}
+  - {name: reference ellipsoid, kind: definition, wikipedia: Earth ellipsoid, wikidata: Q1335878}
+  - {name: flattening, kind: definition, wikipedia: Flattening, wikidata: Q212750}
+  - {name: geodetic coordinates, kind: definition, wikipedia: Geodetic coordinates, wikidata: Q109252968}
+  - {name: geodetic datum, kind: definition, wikipedia: Geodetic datum, wikidata: Q1502887}
+  - {name: geodesics on an ellipsoid, kind: problem, wikipedia: Geodesics on an ellipsoid, wikidata: Q1408386}
+  - {name: Vincenty's formulae, kind: concept, wikipedia: Vincenty's formulae, wikidata: Q3077670}
+  - {name: great-circle distance, kind: definition, wikipedia: Great-circle distance, wikidata: Q912925}
+  - {name: haversine formula, kind: statement, wikipedia: Haversine formula, wikidata: Q587172}
+  - {name: Helmert transformation, kind: definition, wikipedia: Helmert transformation, wikidata: Q360886}
+  - {name: map projection, kind: concept, wikipedia: Map projection, wikidata: Q186386}
+  - {name: Mercator projection, kind: example, wikipedia: Mercator projection, wikidata: Q309372}
+  - {name: transverse Mercator projection, kind: example, wikipedia: Transverse Mercator projection, wikidata: Q1329238}
+  - {name: Tissot's indicatrix, kind: definition, wikipedia: Tissot's indicatrix, wikidata: Q534527}
+  - {name: Theorema Egregium and the impossibility of a distortion-free map, kind: statement, wikipedia: Theorema Egregium, wikidata: Q1048874}
+  - {name: geodetic triangulation, kind: concept, wikipedia: Triangulation (surveying), wikidata: Q25344447}
+  - {name: trilateration, kind: concept, wikipedia: True-range multilateration, wikidata: Q115650097}
+  - {name: GNSS positioning, kind: concept, wikipedia: Satellite navigation solution, wikidata: Q5514013}
+  # Gravity field of the Earth
+  - {name: physical geodesy, kind: concept, wikipedia: Physical geodesy, wikidata: Q1421717}
+  - {name: geopotential, kind: definition, wikipedia: Geopotential, wikidata: Q1423347}
+  - {name: geoid, kind: definition, wikipedia: Geoid, wikidata: Q185969}
+  - {name: geopotential model in spherical harmonics, kind: definition, wikipedia: Geopotential spherical harmonic model, wikidata: Q5535591}
+  - {name: normal gravity and Somigliana's formula, kind: statement, wikipedia: Theoretical gravity, wikidata: Q1795097}
+  - {name: Clairaut's theorem on gravity, kind: statement, wikipedia: Clairaut's theorem (gravity), wikidata: Q1068385}
+  - {name: gravity anomaly, kind: definition, wikipedia: Gravity anomaly, wikidata: Q1413914}
+  - {name: free-air anomaly, kind: definition, wikipedia: Free-air gravity anomaly, wikidata: Q3618213}
+  - {name: Bouguer anomaly, kind: definition, wikipedia: Bouguer anomaly, wikidata: Q749598}
+  - {name: Stokes' formula of physical geodesy, kind: statement, wikipedia: Physical geodesy, wikidata: Q1421717}
+  - {name: Molodensky's problem, kind: problem, wikipedia: Physical geodesy, wikidata: Q1421717}
+  - {name: geodetic boundary value problem, kind: problem, wikipedia: Physical geodesy, wikidata: Q1421717}
+  - {name: Bruns formula, kind: statement, wikipedia: Physical geodesy, wikidata: Q1421717}
+  - {name: deflection of the vertical, kind: definition, wikipedia: Vertical deflection, wikidata: Q159914}
+  - {name: isostasy, kind: concept, wikipedia: Isostasy, wikidata: Q188719}
+  - {name: Airy and Pratt models of isostasy, kind: concept, wikipedia: Isostasy, wikidata: Q188719}
+  - {name: gravity inversion, kind: problem, wikipedia: Gravity anomaly, wikidata: Q1413914}
+  - {name: non-uniqueness of potential field inversion, kind: statement, wikipedia: Inverse problem, wikidata: Q1567213}
+  # Earth rotation and tides
+  - {name: Earth's rotation, kind: concept, wikipedia: Earth's rotation, wikidata: Q244743}
+  - {name: polar motion, kind: concept, wikipedia: Polar motion, wikidata: Q2167025}
+  - {name: Chandler wobble, kind: statement, wikipedia: Chandler wobble, wikidata: Q2732048}
+  - {name: Euler free nutation, kind: concept, wikipedia: Chandler wobble, wikidata: Q2732048}
+  - {name: length of day variations, kind: concept, wikipedia: Day length fluctuations, wikidata: Q5462620}
+  - {name: tidal force, kind: definition, wikipedia: Tidal force, wikidata: Q223325}
+  - {name: tide-generating potential, kind: definition, wikipedia: Tide, wikidata: Q23384}
+  - {name: equilibrium theory of tides, kind: concept, wikipedia: Theory of tides, wikidata: Q857130}
+  - {name: Laplace tidal equations, kind: definition, wikipedia: Theory of tides, wikidata: Q857130}
+  - {name: amphidromic point, kind: definition, wikipedia: Amphidromic point, wikidata: Q474837}
+  - {name: tidal harmonic constituents, kind: definition, wikipedia: Theory of tides, wikidata: Q857130}
+  - {name: Doodson numbers, kind: definition, wikipedia: Theory of tides, wikidata: Q857130}
+  - {name: Love numbers, kind: definition, wikipedia: Love number, wikidata: Q1641286}
+  - {name: Earth tide, kind: concept, wikipedia: Earth tide, wikidata: Q1349211}
+  - {name: tidal acceleration, kind: concept, wikipedia: Tidal acceleration, wikidata: Q2477230}
+  # Seismology: waves and rays
+  - {name: seismology, kind: concept, wikipedia: Seismology, wikidata: Q83371}
+  - {name: P wave, kind: definition, wikipedia: P wave, wikidata: Q1208908}
+  - {name: S wave, kind: definition, wikipedia: S wave, wikidata: Q2053186}
+  - {name: Stoneley wave, kind: definition, wikipedia: Stoneley wave, wikidata: Q7619265}
+  - {name: seismic ray theory, kind: concept, wikipedia: Seismic wave, wikidata: Q186167}
+  - {name: Snell's law for seismic rays, kind: statement, wikipedia: Snell's law, wikidata: Q208391}
+  - {name: ray parameter, kind: definition, wikipedia: Seismic wave, wikidata: Q186167}
+  - {name: shadow zone, kind: concept, wikipedia: Shadow zone, wikidata: Q1053146}
+  - {name: travel-time curve, kind: concept, wikipedia: Seismic wave, wikidata: Q186167}
+  - {name: Zoeppritz equations, kind: definition, wikipedia: Zoeppritz equations, wikidata: Q8073330}
+  - {name: amplitude versus offset, kind: concept, wikipedia: Amplitude versus offset, wikidata: Q4748519}
+  - {name: Cagniard–de Hoop method, kind: concept, wikipedia: Cagniard–De Hoop method, wikidata: Q5017373}
+  - {name: seismic anisotropy, kind: concept, wikipedia: Seismic anisotropy, wikidata: Q17105691}
+  - {name: shear wave splitting, kind: concept, wikipedia: Shear wave splitting, wikidata: Q7492182}
+  - {name: dispersion of surface waves, kind: concept, wikipedia: Surface wave, wikidata: Q889796}
+  - {name: normal modes of the Earth, kind: concept, wikipedia: Normal mode, wikidata: Q900488}
+  - {name: Adams–Williamson equation, kind: statement, wikipedia: Adams–Williamson equation, wikidata: Q4680537}
+  - {name: Bullen parameter, kind: definition, wikipedia: Adams–Williamson equation, wikidata: Q4680537}
+  - {name: Preliminary reference Earth model, kind: object, wikipedia: Preliminary reference Earth model, wikidata: Q1318259}
+  # Seismology: sources and statistics
+  - {name: seismic moment, kind: definition, wikipedia: Seismic moment, wikidata: Q1481983}
+  - {name: moment tensor, kind: definition, wikipedia: Focal mechanism, wikidata: Q1609712}
+  - {name: focal mechanism, kind: concept, wikipedia: Focal mechanism, wikidata: Q1609712}
+  - {name: double-couple source, kind: definition, wikipedia: Focal mechanism, wikidata: Q1609712}
+  - {name: moment magnitude scale, kind: definition, wikipedia: Moment magnitude scale, wikidata: Q201605}
+  - {name: Richter magnitude scale, kind: definition, wikipedia: Richter scale, wikidata: Q38768}
+  - {name: Gutenberg–Richter law, kind: statement, wikipedia: Gutenberg–Richter law, wikidata: Q507905}
+  - {name: Omori's law, kind: statement, wikipedia: Aftershock, wikidata: Q308442}
+  - {name: Båth's law, kind: statement, wikipedia: Aftershock, wikidata: Q308442}
+  - {name: Olami–Feder–Christensen model, kind: concept, wikipedia: Olami–Feder–Christensen model, wikidata: Q3556930}
+  - {name: elastic-rebound theory, kind: concept, wikipedia: Elastic-rebound theory, wikidata: Q861025}
+  - {name: Coulomb stress transfer, kind: concept, wikipedia: Coulomb stress transfer, wikidata: Q5176156}
+  - {name: earthquake location problem, kind: problem, wikipedia: Epicenter, wikidata: Q106032}
+  - {name: probabilistic seismic hazard analysis, kind: concept, wikipedia: Seismic hazard, wikidata: Q1632490}
+  # Inverse problems and imaging
+  - {name: geophysical inversion, kind: concept, wikipedia: Inverse problem, wikidata: Q1567213}
+  - {name: seismic tomography, kind: concept, wikipedia: Seismic tomography, wikidata: Q1850768}
+  - {name: travel-time tomography, kind: concept, wikipedia: Seismic tomography, wikidata: Q1850768}
+  - {name: full waveform inversion, kind: concept, wikipedia: Seismic inversion, wikidata: Q7446968}
+  - {name: seismic migration, kind: concept, wikipedia: Seismic migration, wikidata: Q2111620}
+  - {name: Kirchhoff migration, kind: concept, wikipedia: Seismic migration, wikidata: Q2111620}
+  - {name: normal moveout, kind: definition, wikipedia: Normal moveout, wikidata: Q7051818}
+  - {name: common midpoint stacking, kind: concept, wikipedia: Reflection seismology, wikidata: Q1500431}
+  - {name: deconvolution of seismic data, kind: concept, wikipedia: Seismic inversion, wikidata: Q7446968}
+  - {name: Backus–Gilbert method, kind: concept, wikipedia: Backus–Gilbert method, wikidata: Q4839810}
+  - {name: magnetotellurics, kind: concept, wikipedia: Magnetotellurics, wikidata: Q1413106}
+  - {name: electrical resistivity tomography, kind: concept, wikipedia: Electrical resistivity tomography, wikidata: Q488986}
+  - {name: receiver function, kind: concept, wikipedia: Receiver function, wikidata: Q2135141}
+  - {name: ambient noise seismic interferometry, kind: concept, wikipedia: Seismic interferometry, wikidata: Q7446966}
+  # Geomagnetism and paleomagnetism
+  - {name: Earth's magnetic field, kind: concept, wikipedia: Earth's magnetic field, wikidata: Q6500960}
+  - {name: Gauss's spherical harmonic analysis of the geomagnetic field, kind: statement, wikipedia: Earth's magnetic field, wikidata: Q6500960}
+  - {name: International Geomagnetic Reference Field, kind: object, wikipedia: International Geomagnetic Reference Field, wikidata: Q3656071}
+  - {name: dipole model of the Earth's magnetic field, kind: definition, wikipedia: Dipole model of Earth's magnetic field, wikidata: Q1976304}
+  - {name: geomagnetic secular variation, kind: concept, wikipedia: Geomagnetic secular variation, wikidata: Q5535443}
+  - {name: geomagnetic reversal, kind: concept, wikipedia: Geomagnetic reversal, wikidata: Q1059740}
+  - {name: geodynamo, kind: concept, wikipedia: Dynamo theory, wikidata: Q1269129}
+  - {name: Bullard disc dynamo, kind: example, wikipedia: Dynamo theory, wikidata: Q1269129}
+  - {name: Herzenberg dynamo, kind: statement, wikipedia: Dynamo theory, wikidata: Q1269129}
+  - {name: alpha effect of mean-field dynamo theory, kind: concept, wikipedia: Dynamo theory, wikidata: Q1269129}
+  - {name: Taylor's constraint, kind: statement, wikipedia: Dynamo theory, wikidata: Q1269129}
+  - {name: Elsasser number, kind: definition, wikipedia: Elsasser number, wikidata: Q3343001}
+  - {name: Chapman–Ferraro problem, kind: problem, wikipedia: Magnetopause, wikidata: Q6981}
+  # Geodynamics and heat flow
+  - {name: geodynamics, kind: concept, wikipedia: Geodynamics, wikidata: Q152827}
+  - {name: plate tectonics, kind: concept, wikipedia: Plate tectonics, wikidata: Q7950}
+  - {name: Euler pole of plate motion, kind: statement, wikipedia: Plate reconstruction, wikidata: Q7202203}
+  - {name: plate reconstruction, kind: concept, wikipedia: Plate reconstruction, wikidata: Q7202203}
+  - {name: geothermal gradient, kind: definition, wikipedia: Geothermal gradient, wikidata: Q636340}
+  - {name: half-space cooling model, kind: statement, wikipedia: Mid-ocean ridge, wikidata: Q104698}
+  - {name: Kelvin's estimate of the age of the Earth, kind: statement, wikipedia: Age of Earth, wikidata: Q935310}
+  - {name: mantle convection, kind: concept, wikipedia: Mantle convection, wikidata: Q120005}
+  - {name: postglacial rebound, kind: concept, wikipedia: Post-glacial rebound, wikidata: Q1161410}
+  - {name: flexure of the lithosphere, kind: concept, wikipedia: Lithospheric flexure, wikidata: Q6648199}
+  - {name: Byerlee's law, kind: statement, wikipedia: Byerlee's law, wikidata: Q3955356}
+  - {name: Anderson's theory of faulting, kind: statement, wikipedia: Anderson's theory of faulting, wikidata: Q109544744}
+  # Atmospheric dynamics and meteorology
+  - {name: atmospheric dynamics, kind: concept, wikipedia: Meteorology, wikidata: Q25261}
+  - {name: barometric formula, kind: statement, wikipedia: Barometric formula, wikidata: Q808592}
+  - {name: scale height, kind: definition, wikipedia: Scale height, wikidata: Q548132}
+  - {name: hypsometric equation, kind: statement, wikipedia: Hypsometric equation, wikidata: Q1786344}
+  - {name: lapse rate, kind: definition, wikipedia: Lapse rate, wikidata: Q66900467}
+  - {name: potential temperature, kind: definition, wikipedia: Potential temperature, wikidata: Q760765}
+  - {name: equivalent potential temperature, kind: definition, wikipedia: Equivalent potential temperature, wikidata: Q3055058}
+  - {name: convective available potential energy, kind: definition, wikipedia: Convective available potential energy, wikidata: Q1129355}
+  - {name: thermal wind, kind: statement, wikipedia: Thermal wind, wikidata: Q2721218}
+  - {name: gradient wind, kind: definition, wikipedia: Balanced flow, wikidata: Q727568}
+  - {name: cyclostrophic wind, kind: definition, wikipedia: Balanced flow, wikidata: Q727568}
+  - {name: Rossby radius of deformation, kind: definition, wikipedia: Rossby radius of deformation, wikidata: Q3433864}
+  - {name: beta plane, kind: definition, wikipedia: Beta plane, wikidata: Q1797591}
+  - {name: f-plane, kind: definition, wikipedia: F-plane, wikidata: Q5423639}
+  - {name: barotropic vorticity equation, kind: definition, wikipedia: Barotropic vorticity equation, wikidata: Q4863070}
+  - {name: baroclinic instability, kind: concept, wikipedia: Baroclinity, wikidata: Q1548585}
+  - {name: Eady model, kind: example, wikipedia: Eady model, wikidata: Q23579953}
+  - {name: Charney–Stern theorem, kind: statement, wikipedia: Baroclinity, wikidata: Q1548585}
+  - {name: Charney–Hasegawa–Mima equation, kind: definition, wikipedia: Hasegawa–Mima equation, wikidata: Q5678777}
+  - {name: Hadley cell and Held–Hou model, kind: concept, wikipedia: Hadley cell, wikidata: Q338589}
+  - {name: Kelvin wave, kind: definition, wikipedia: Kelvin wave, wikidata: Q1738426}
+  - {name: equatorial wave theory of Matsuno, kind: concept, wikipedia: Equatorial wave, wikidata: Q530080}
+  - {name: atmospheric tide, kind: concept, wikipedia: Atmospheric tide, wikidata: Q1521192}
+  - {name: Monin–Obukhov similarity theory, kind: concept, wikipedia: Monin–Obukhov similarity theory, wikidata: Q18390975}
+  - {name: planetary boundary layer, kind: concept, wikipedia: Planetary boundary layer, wikidata: Q1757268}
+  - {name: Lorenz 96 model, kind: example, wikipedia: Lorenz 96 model, wikidata: Q6680551}
+  - {name: predictability and the butterfly effect, kind: concept, wikipedia: Butterfly effect, wikidata: Q187536}
+  - {name: numerical weather prediction, kind: concept, wikipedia: Numerical weather prediction, wikidata: Q837552}
+  - {name: data assimilation, kind: concept, wikipedia: Data assimilation, wikidata: Q2670177}
+  - {name: four-dimensional variational assimilation, kind: concept, wikipedia: Data assimilation, wikidata: Q2670177}
+  - {name: ensemble Kalman filter, kind: concept, wikipedia: Ensemble Kalman filter, wikidata: Q3072268}
+  # Physical oceanography
+  - {name: physical oceanography, kind: concept, wikipedia: Physical oceanography, wikidata: Q1337681}
+  - {name: Ekman spiral, kind: statement, wikipedia: Ekman transport, wikidata: Q1323309}
+  - {name: Sverdrup balance, kind: statement, wikipedia: Sverdrup balance, wikidata: Q1144436}
+  - {name: Stommel's model of western intensification, kind: statement, wikipedia: Boundary current, wikidata: Q3273117}
+  - {name: Munk's wind-driven circulation model, kind: concept, wikipedia: Ocean gyre, wikidata: Q1250263}
+  - {name: Stommel box model of thermohaline circulation, kind: concept, wikipedia: Thermohaline circulation, wikidata: Q463223}
+  - {name: equation of state of seawater, kind: definition, wikipedia: TEOS-10, wikidata: Q107040817}
+  - {name: Stokes drift, kind: concept, wikipedia: Stokes drift, wikidata: Q961596}
+  - {name: ocean wave spectrum, kind: definition, wikipedia: Sea state, wikidata: Q1569795}
+  - {name: Pierson–Moskowitz spectrum, kind: definition, wikipedia: Sea state, wikidata: Q1569795}
+  - {name: Hasselmann's kinetic equation for wind waves, kind: definition, wikipedia: Wind wave model, wikidata: Q8024055}
+  - {name: El Niño–Southern Oscillation models, kind: concept, wikipedia: El Niño–Southern Oscillation, wikidata: Q14524818}
+  # Climate dynamics
+  - {name: climate model, kind: concept, wikipedia: Climate model, wikidata: Q620920}
+  - {name: energy balance model, kind: concept, wikipedia: Climate model, wikidata: Q620920}
+  - {name: Budyko–Sellers model and ice–albedo feedback, kind: concept, wikipedia: Ice–albedo feedback, wikidata: Q1310671}
+  - {name: snowball Earth bifurcation, kind: statement, wikipedia: Snowball Earth, wikidata: Q214689}
+  - {name: climate sensitivity, kind: definition, wikipedia: Climate sensitivity, wikidata: Q521783}
+  - {name: radiative forcing, kind: definition, wikipedia: Radiative forcing, wikidata: Q1463606}
+  - {name: Milankovitch cycles, kind: concept, wikipedia: Milankovitch cycles, wikidata: Q211446}
+  - {name: tipping points in the climate system, kind: concept, wikipedia: Tipping points in the climate system, wikidata: Q1011078}
+  # Hydrology and glaciology
+  - {name: hydrology, kind: concept, wikipedia: Hydrology, wikidata: Q42250}
+  - {name: groundwater flow equation, kind: definition, wikipedia: Groundwater flow equation, wikidata: Q523759}
+  - {name: Richards equation, kind: definition, wikipedia: Richards equation, wikidata: Q2151066}
+  - {name: Theis solution, kind: statement, wikipedia: Aquifer test, wikidata: Q446124}
+  - {name: Dupuit–Forchheimer assumption, kind: concept, wikipedia: Dupuit–Forchheimer assumption, wikidata: Q5316065}
+  - {name: Green–Ampt infiltration model, kind: concept, wikipedia: Infiltration (hydrology), wikidata: Q1127330}
+  - {name: unit hydrograph, kind: concept, wikipedia: Hydrograph, wikidata: Q320062}
+  - {name: Horton's laws of stream networks, kind: statement, wikipedia: Strahler number, wikidata: Q1422857}
+  - {name: Hack's law, kind: statement, wikipedia: Hack's law, wikidata: Q1032350}
+  - {name: Muskingum routing method, kind: concept, wikipedia: Routing (hydrology), wikidata: Q7371615}
+  - {name: Glen's flow law, kind: statement, wikipedia: Glen–Nye flow law, wikidata: Q124485902}
+  - {name: shallow ice approximation, kind: concept, wikipedia: Ice-sheet model, wikidata: Q1319627}
+  - {name: Stefan's law of ice growth, kind: statement, wikipedia: Stefan problem, wikidata: Q3775789}
