@@ -1,0 +1,40 @@
+---
+tag: 0VX0CPRQTZ
+kind: statement
+role: theorem
+name: Euler line
+msc: [51M04]
+uses: [0F98FZK14A, 0X7EEWES5G, 0WB619CA0V, 0AFNNTRTJE]
+sources:
+  - url: https://en.wikipedia.org/wiki/Euler_line
+    locator: Individual centers
+  - url: https://en.wikipedia.org/wiki/Euler_line
+    locator: A vector proof
+  - url: https://en.wikipedia.org/wiki/Euler_line
+    locator: Distances between centers
+---
+
+## Statement
+
+Let $ABC$ be a triangle in the Euclidean space $\mathbb{R}^n$. Let $O$ be its [[circumcentre|0F98FZK14A]], $G = \frac{1}{3}(A + B + C)$ its [[centroid|0X7EEWES5G]] and $H$ its [[orthocentre|0WB619CA0V]].
+Then
+$$H = O + 3\,(G - O).$$
+In particular, the points $O$, $G$ and $H$ are [[collinear|0AFNNTRTJE]].
+If the triangle is not equilateral, then $O \neq G$, and the line through $O$ and $G$ is the Euler line of the triangle.
+
+## Remarks
+
+The formula says that $G$ lies between $O$ and $H$, with $d(G, H) = 2\, d(O, G)$.
+An equivalent form is $H - O = (A - O) + (B - O) + (C - O)$.
+The centre of the nine-point circle is the midpoint of $O$ and $H$, so it is also on the Euler line.
+In an equilateral triangle, the points $O$, $G$ and $H$ are the same point.
+
+## History
+
+Euler showed in 1765 that the orthocentre, the circumcentre and the centroid of a triangle are collinear.
+
+## Explanations
+
+### L1 human
+
+Three famous centres of a triangle always lie on one straight line. The centroid is on this line between the other two. It is twice as far from the orthocentre as from the circumcentre.

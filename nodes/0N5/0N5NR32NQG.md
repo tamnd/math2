@@ -1,0 +1,37 @@
+---
+tag: 0N5NR32NQG
+kind: statement
+role: theorem
+name: Classification of conics by the discriminant
+msc: [51N20]
+uses: [00HJCMC2CD, 0VKCCEXBJ1, 04S2GMHX82, 0WN5G117YC, 060W5CBZP6]
+sources:
+  - url: https://en.wikipedia.org/wiki/Matrix_representation_of_conic_sections
+    locator: Classification
+  - url: https://en.wikipedia.org/wiki/Conic_section
+    locator: Discriminant
+  - url: https://en.wikipedia.org/wiki/Conic_section
+    locator: Invariants
+---
+
+## Statement
+
+Let $Q = \{\, (x, y) \in \mathbb{R}^2 : A x^2 + B x y + C y^2 + D x + E y + F = 0 \,\}$ be a non-degenerate [[conic section|00HJCMC2CD]]. Let $\Delta = B^2 - 4AC$ be the discriminant.
+Then $Q$ is
+- an [[ellipse|0VKCCEXBJ1]] if and only if $\Delta < 0$,
+- a [[parabola|04S2GMHX82]] if and only if $\Delta = 0$,
+- a [[hyperbola|0WN5G117YC]] if and only if $\Delta > 0$.
+
+Moreover, $Q$ is a [[circle|060W5CBZP6]] if and only if $A = C$ and $B = 0$.
+
+## Remarks
+
+The discriminant is $-4$ times the determinant of $\begin{pmatrix} A & B/2 \\ B/2 & C \end{pmatrix}$, the matrix of the quadratic part.
+A rotation or a translation of the coordinates does not change $\Delta$ or $A + C$. So the type of a conic does not depend on the choice of Cartesian coordinates.
+A hyperbola with $A + C = 0$ is rectangular: its asymptotes are perpendicular.
+
+## Explanations
+
+### L1 human
+
+The terms of degree $2$ decide the shape of a conic. For $x^2 + y^2 = 1$, $\Delta = -4 < 0$ and we get a circle, a special ellipse. For $y = x^2$, $\Delta = 0$ and we get a parabola. For $x y = 1$, $\Delta = 1 > 0$ and we get a hyperbola.

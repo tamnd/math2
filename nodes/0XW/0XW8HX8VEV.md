@@ -1,0 +1,17 @@
+---
+tag: 0XW8HX8VEV
+kind: concept
+name: Median of a triangle
+aliases: [median]
+msc: [51M04]
+sources:
+  - url: https://en.wikipedia.org/wiki/Median_(geometry)
+    locator: lead section
+same_as:
+  wikidata: Q235001
+  wikipedia: Median (geometry)
+---
+
+## Summary
+
+A median of a triangle is the segment from a vertex to the midpoint of the opposite side. Each triangle has three medians, and they meet at one point, the centroid.

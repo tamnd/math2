@@ -1,0 +1,29 @@
+---
+tag: 07SDJ5DNE4
+kind: concept
+name: Equation of a plane
+aliases: [point-normal-form]
+msc: [51N20]
+sources:
+  - url: https://en.wikipedia.org/wiki/Euclidean_planes_in_three-dimensional_space
+    locator: Point–normal form and general form of the equation of a plane
+---
+
+## Summary
+
+A [[plane|0V3XAMF3C1]] in $\mathbb{R}^3$ is the set of the solutions of one linear equation in the coordinates.
+Let $p_0 = (x_0, y_0, z_0)$ be a point and let $n = (a, b, c)$ be a nonzero vector. The plane through $p_0$ with the normal vector $n$ is the set of the points $p$ with $n \cdot (p - p_0) = 0$. In coordinates this is the point-normal form
+$$a(x - x_0) + b(y - y_0) + c(z - z_0) = 0.$$
+Expanded, it is the general form $a x + b y + c z = d$ with $d = a x_0 + b y_0 + c z_0$. Conversely, for each real $d$ and each $(a, b, c) \neq (0, 0, 0)$, this equation defines a plane with the normal vector $(a, b, c)$.
+
+## Remarks
+
+Two equations define the same plane if and only if one is a nonzero multiple of the other.
+For a plane through the point $p_0$ that contains the linearly independent vectors $u$ and $v$, the [[cross product|0N5N15HWZ7]] $u \times v$ is a normal vector.
+Two planes are parallel or equal if and only if their normal vectors are multiples of each other.
+
+## Explanations
+
+### L1 human
+
+The normal vector of a plane points straight out of it. A point $p$ is on the plane exactly when the arrow from $p_0$ to $p$ lies flat in the plane. Then this arrow is perpendicular to the normal vector. The dot product test turns this into one equation. For example, $z = 0$ is the floor plane with the normal vector $(0, 0, 1)$.

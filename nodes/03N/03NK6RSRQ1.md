@@ -1,0 +1,31 @@
+---
+tag: 03NK6RSRQ1
+kind: statement
+role: proposition
+name: Vectors are perpendicular if and only if their dot product is zero
+msc: [51N20]
+uses: [0ZEHZY85E6, 070TXS9AXM]
+sources:
+  - url: https://en.wikipedia.org/wiki/Dot_product
+    locator: Scalar projection and first properties
+  - url: https://en.wikipedia.org/wiki/Perpendicular
+    locator: lead section
+---
+
+## Statement
+
+Let $n$ be a positive integer, and let $u$ and $v$ be nonzero vectors in $\mathbb{R}^n$, with dot product $u \cdot v = u_1 v_1 + \dots + u_n v_n$.
+Let $\theta$ be the [[angle between $u$ and $v$|0ZEHZY85E6]].
+Then $u \cdot v = 0$ if and only if $\theta = \pi / 2$.
+
+## Remarks
+
+The proof uses the [[geometric formula for the dot product|070TXS9AXM]]: $u \cdot v = \|u\| \, \|v\| \cos \theta$ with $\|u\| \neq 0$ and $\|v\| \neq 0$, and $\cos \theta = 0$ for $0 \leq \theta \leq \pi$ only when $\theta = \pi / 2$.
+Two vectors $u$ and $v$ with $u \cdot v = 0$ are called orthogonal. With this word, the zero vector is orthogonal to each vector.
+In Mathlib the angle with the zero vector is $\pi / 2$, so the equivalence holds there for all vectors.
+
+## Explanations
+
+### L1 human
+
+This gives a quick test for a right angle. The vectors $(2, 1)$ and $(-1, 2)$ have dot product $-2 + 2 = 0$, so they are perpendicular. You do not need to draw them or measure an angle.
