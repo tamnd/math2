@@ -1,0 +1,32 @@
+---
+tag: ~6efdba4c
+kind: definition
+name: Discrete logarithm
+aliases: [index]
+msc: [11A07]
+defines: ~d8c65635
+uses: [~8076de8a]
+sources:
+  - url: https://en.wikipedia.org/wiki/Discrete_logarithm
+    locator: Definition
+---
+
+## Definition
+
+Let $G$ be a finite cyclic [[group|G5S1M9]] of order $N$, with a generator $g$.
+For each $h \in G$, the discrete logarithm of $h$ to the base $g$ is the unique integer $k$ with $0 \le k < N$ such that $g^k = h$.
+We write $k = \log_g h$.
+
+## Remarks
+
+In elementary number theory, $G = (\mathbb{Z}/n\mathbb{Z})^\times$ and $g$ is a [[primitive root|~8076de8a]] modulo $n$. Then $\log_g a$ is also called the index of $a$, and $N = \varphi(n)$.
+The rule $\log_g (h_1 h_2) \equiv \log_g h_1 + \log_g h_2 \pmod N$ holds, as for ordinary logarithms.
+For example, $3$ is a primitive root modulo $7$, and $3^4 = 81 \equiv 4 \pmod 7$. So $\log_3 4 = 4$ modulo $7$.
+No efficient general algorithm to compute discrete logarithms is known. The [[Diffie–Hellman key exchange|~80318224]] uses this fact.
+
+## Explanations
+
+### L1 human
+
+[[Modular exponentiation|~757169f9]] computes $g^k \bmod p$ from $k$. The discrete logarithm goes back from the result to $k$.
+For small numbers, a table of powers is enough. For numbers with hundreds of digits, the problem seems very hard.
