@@ -1,0 +1,29 @@
+---
+tag: ~da01ede5
+kind: definition
+name: Simple group
+msc: ["20E32"]
+defines: ~468cb6a0
+uses: [~4f5a4072]
+sources:
+  - url: https://en.wikipedia.org/wiki/Simple_group
+    locator: lead section
+---
+
+## Definition
+
+A [[group|G5S1M9]] $G$ is simple when $G \neq \{e\}$ and the only [[normal subgroups|~ebf813cb]] of $G$ are $\{e\}$ and $G$.
+
+## Remarks
+
+The cyclic groups $\mathbb{Z}/p\mathbb{Z}$ of prime order $p$ are simple, and they are the only [[abelian simple groups|~9ade41c2]].
+The [[alternating group|~de0bd4cd]] $A_n$ is simple for $n \geq 5$, and $A_5$ is the smallest simple group that is not abelian.
+A simple group has only the trivial quotient and itself as quotients, so it cannot be split into smaller pieces by a quotient.
+
+## Explanations
+
+### L1 human
+
+A simple group cannot be broken into a normal subgroup and a quotient group.
+In this way, simple groups are like the prime numbers among the integers.
+Each finite group is built from simple groups, by the Jordan–Hölder theorem.

@@ -1,0 +1,34 @@
+---
+tag: ~acdd942b
+kind: example
+name: Trivial group
+aliases: [zero-group]
+msc: [20A05]
+instance_of: [G5S1M9]
+sources:
+  - url: https://en.wikipedia.org/wiki/Trivial_group
+    locator: lead section
+same_as:
+  wikidata: Q568687
+  wikipedia: Trivial group
+---
+
+## Example
+
+The trivial group is the [[group|G5S1M9]] $\{e\}$ with one element $e$ and the operation $e \cdot e = e$.
+The element $e$ is the identity element, and it is its own inverse.
+Each group with exactly one element is isomorphic to this group.
+
+## Remarks
+
+Each group $G$ contains a trivial subgroup $\{e\}$, where $e$ is the identity of $G$.
+In additive notation the trivial group is written $0$ or $\{0\}$.
+The trivial group is [[abelian|~b6df27fe]], and its order is $1$.
+
+## Explanations
+
+### L1 human
+
+The trivial group is the smallest possible group: it has only the identity element.
+It satisfies all the group axioms in a simple way.
+It is often an edge case in theorems, for example when a theorem asks for a group that is not trivial.

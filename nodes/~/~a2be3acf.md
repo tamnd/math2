@@ -1,0 +1,35 @@
+---
+tag: ~a2be3acf
+kind: definition
+name: Free group
+msc: ["20E05"]
+defines: ~4eb15bf1
+uses: [~f1d6fb44, ~b7c0f61d]
+sources:
+  - url: https://en.wikipedia.org/wiki/Free_group
+    locator: Construction
+  - url: https://en.wikipedia.org/wiki/Free_group
+    locator: lead section
+---
+
+## Definition
+
+Let $S$ be a set.
+The free group $F_S$ on $S$ is the set of [[reduced words|~db3fb6df]] on $S$.
+The product of two reduced words is their concatenation, followed by reduction.
+A [[group|G5S1M9]] $G$ is free when it is [[isomorphic|~4c4a647d]] to $F_S$ for some set $S$.
+
+## Remarks
+
+The identity of $F_S$ is the empty word, and the inverse of $t_1 \cdots t_n$ is $t_n^{-1} \cdots t_1^{-1}$.
+The set $S$ is a basis of $F_S$. Also $F_S \cong F_T$ if and only if $S$ and $T$ have the same cardinality, which is the rank.
+The free group of rank $1$ is the [[infinite cyclic group|~d925101f]], and for $|S| \geq 2$ the centre of $F_S$ is trivial.
+A nontrivial finite group is never free, because each element of a basis has infinite order.
+
+## Explanations
+
+### L1 human
+
+A free group has generators but no relations that you do not need.
+Two words give the same element only when the group axioms force it, as in $s t = s u u^{-1} t$.
+Each group is a quotient of a free group, so free groups are the starting point for presentations.
