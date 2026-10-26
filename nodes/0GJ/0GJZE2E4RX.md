@@ -1,0 +1,33 @@
+---
+tag: 0GJZE2E4RX
+kind: counterexample
+name: Function for which the iterated integrals differ
+aliases: [fubini-counterexample]
+msc: [26B15]
+uses: [0R0T1VWH5X, 0P4WX7Y502]
+sources:
+  - url: https://en.wikipedia.org/wiki/Fubini%27s_theorem
+    locator: Failure of Fubini's theorem for non-integrable functions
+  - url: https://en.wikipedia.org/wiki/Iterated_integral
+    locator: Lack of commutativity
+---
+
+## Counterexample
+
+One could guess that the two [[iterated integrals|0P4WX7Y502]] of a function over a square are always equal when both exist.
+This is false.
+Let $f(x, y) = \dfrac{x^2 - y^2}{(x^2 + y^2)^2}$ on $(0, 1] \times (0, 1]$. Then
+$$\int_0^1 \int_0^1 f(x, y) \, dy \, dx = \frac{\pi}{4}, \qquad \int_0^1 \int_0^1 f(x, y) \, dx \, dy = -\frac{\pi}{4}.$$
+
+## Remarks
+
+For fixed $x > 0$, $\partial_y \big( y / (x^2 + y^2) \big) = f(x, y)$. So the inner integral is $1/(1 + x^2)$, and its integral over $[0, 1]$ is $\pi / 4$. Since $f(y, x) = -f(x, y)$, the other order gives $-\pi / 4$.
+The function is not integrable on the square: $\int_0^1 \int_0^1 |f| \, dy \, dx = \infty$. So [[Fubini's theorem|0R0T1VWH5X]] does not apply.
+A discrete example is $a_{xy} = 1$ if $x = y$, $a_{xy} = -1$ if $x = y + 1$, and $a_{xy} = 0$ otherwise, on the positive integers. The two iterated sums are $0$ and $1$.
+
+## Explanations
+
+### L1 human
+
+Near the corner $(0, 0)$ the function has large positive values and large negative values.
+The two orders of integration cancel these parts in different ways, so they give different answers.

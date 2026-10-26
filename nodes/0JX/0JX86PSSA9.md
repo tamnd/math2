@@ -1,0 +1,44 @@
+---
+tag: 0JX86PSSA9
+kind: statement
+role: theorem
+name: Divergence theorem
+aliases: [gauss-theorem, gauss-ostrogradsky-theorem]
+msc: [26B20]
+uses: [02NSMQVQWK, 0YPRY7T4PK, 0EKZW08FQ5, 0GTBGMZXV8, 0GZ3D8F921, 0HPHKCGEQ0]
+sources:
+  - url: https://en.wikipedia.org/wiki/Divergence_theorem
+    locator: Mathematical statement
+  - url: https://en.wikipedia.org/wiki/Divergence_theorem
+    locator: History
+  - url: https://en.wikipedia.org/wiki/Divergence_theorem
+    locator: Corollaries
+same_as:
+  wikidata: Q338886
+  wikipedia: Divergence theorem
+---
+
+## Statement
+
+Let $V \subseteq \mathbb{R}^3$ be compact with a piecewise smooth boundary surface $S = \partial V$, oriented by the outward unit normal $n$.
+If $F$ is a vector field of class $C^1$ on an open set that contains $V$, then
+$$\iiint_V \nabla \cdot F \, dV = \iint_S F \cdot n \, dS.$$
+
+## Remarks
+
+The left side is the [[triple integral|0GTBGMZXV8]] of the [[divergence|02NSMQVQWK]], the total source strength in $V$. The right side is the outward [[flux|0YPRY7T4PK]] through the boundary.
+Example: for $F(x, y, z) = (x, y, z)$ and the unit ball, $\nabla \cdot F = 3$. So both sides equal $3 \cdot \tfrac{4}{3} \pi = 4\pi$.
+With $g F$ in place of $F$, for a $C^1$ function $g$, one gets $\iiint_V (F \cdot \nabla g + g \, \nabla \cdot F) \, dV = \iint_S g \, F \cdot n \, dS$. This is a form of integration by parts.
+The same statement holds in $\mathbb{R}^n$. For a [[rectangle in the plane|0GZ3D8F921]], the proof is a direct use of the fundamental theorem of calculus.
+
+## History
+
+Lagrange discovered the theorem in 1762, and Gauss proved special cases from 1813.
+Ostrogradsky gave the first proof of the general theorem in 1826, in his work on heat flow.
+
+## Explanations
+
+### L1 human
+
+What flows out of a closed surface must come from sources inside it.
+The divergence theorem makes this exact: the total divergence inside equals the net flux out through the boundary.

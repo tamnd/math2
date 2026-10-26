@@ -1,0 +1,16 @@
+---
+tag: 09ZXGX55DM
+kind: concept
+name: Higher partial derivatives
+aliases: [second-partial-derivative, mixed-partial-derivative, higher-order-partial-derivative]
+msc: [26B05]
+uses: [09EGC6F8PT]
+sources:
+  - url: https://en.wikipedia.org/wiki/Partial_derivative
+    locator: Higher order partial derivatives
+---
+
+## Summary
+
+A higher partial derivative of a function of several variables is a [[partial derivative|09EGC6F8PT]] of a partial derivative, taken one or more times.
+A second partial derivative such as $\partial^2 f / \partial y \, \partial x$, in which the two variables differ, is called a mixed partial derivative.

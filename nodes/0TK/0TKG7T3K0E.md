@@ -1,0 +1,32 @@
+---
+tag: 0TKG7T3K0E
+kind: statement
+role: corollary
+name: Bounded derivative on a convex set implies Lipschitz
+msc: [26B35]
+uses: [02CYB184RC, 0135XZZQ8M]
+sources:
+  - url: https://en.wikipedia.org/wiki/Lipschitz_continuity
+    locator: Properties
+  - url: https://en.wikipedia.org/wiki/Mean_value_theorem
+    locator: Mean value theorem in several variables
+---
+
+## Statement
+
+Let $U \subseteq \mathbb{R}^n$ be open, let $f \colon U \to \mathbb{R}^m$ be [[differentiable|0135XZZQ8M]] on $U$, and let $C \subseteq U$ be a convex set.
+Suppose that $M \ge 0$ and $\|Df(z)\| \le M$ for each $z \in C$, with the operator norm.
+Then $f$ is Lipschitz on $C$ with constant $M$: $\|f(y) - f(x)\| \le M \, \|y - x\|$ for all $x, y \in C$.
+
+## Remarks
+
+Because $C$ is convex, the segment between two points of $C$ lies in $C$. So this follows from the [[mean value inequality|02CYB184RC]].
+Convexity matters. Take the annulus $1 < \|x\| < 2$ in $\mathbb{R}^2$ without the points on the negative $x$-axis, and the polar angle $\theta \in (-\pi, \pi)$ on it. Then $\|\nabla \theta\| = 1/\|x\| \le 1$, but two points just above and just below the slit are close, and their angles differ by almost $2\pi$.
+A function of class $C^1$ on $U$ is Lipschitz on each closed ball in $U$, because $\|Df\|$ is bounded on the compact ball.
+
+## Explanations
+
+### L1 human
+
+A Lipschitz function cannot change faster than a fixed rate $M$ per unit of distance.
+A bound on the derivative gives such a rate. For this, you must be able to walk between any two points along a straight line inside the domain.
