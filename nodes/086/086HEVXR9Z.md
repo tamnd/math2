@@ -1,0 +1,29 @@
+---
+tag: 086HEVXR9Z
+kind: statement
+role: proposition
+name: Mean of the Poisson distribution
+msc: ["60E05"]
+uses: [0VEFSSKX18, 0DCT0QZVQ1]
+sources:
+  - url: https://en.wikipedia.org/wiki/Poisson_distribution
+    locator: Descriptive statistics
+---
+
+## Statement
+
+Let $\lambda > 0$ and let $X$ have the [[Poisson distribution|0VEFSSKX18]] with parameter $\lambda$. Then
+$$E[X] = \sum_{k=0}^{\infty} k \, e^{-\lambda} \frac{\lambda^k}{k!} = \lambda.$$
+
+## Remarks
+
+Proof: the term with $k = 0$ is zero. For $k \ge 1$, $k \lambda^k / k! = \lambda \cdot \lambda^{k-1}/(k-1)!$. So the sum is $\lambda e^{-\lambda} \sum_{j \ge 0} \lambda^j / j! = \lambda e^{-\lambda} e^{\lambda} = \lambda$.
+The variance of $X$ is also $\lambda$.
+So the parameter $\lambda$ is the mean number of events.
+
+## Explanations
+
+### L1 human
+
+The parameter of a Poisson distribution is its average.
+If a shop gets on average $4$ customers per hour, a Poisson model of the number of customers in one hour uses $\lambda = 4$.

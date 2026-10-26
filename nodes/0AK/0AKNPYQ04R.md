@@ -1,0 +1,33 @@
+---
+tag: 0AKNPYQ04R
+kind: definition
+name: Classical definition of probability
+aliases: [uniform-probability-on-a-finite-set]
+msc: [60A05]
+defines: 051CYS71H5
+uses: [0ZYBZ34RT2, 0BBTH3YSZA]
+sources:
+  - url: https://en.wikipedia.org/wiki/Classical_definition_of_probability
+    locator: lead section
+---
+
+## Definition
+
+Let $\Omega$ be a nonempty [[finite set|0BBTH3YSZA]] of equally likely outcomes.
+The classical probability of an event $A \subseteq \Omega$ is
+$$P(A) = \frac{|A|}{|\Omega|},$$
+the number of favourable outcomes divided by the number of all outcomes.
+
+## Remarks
+
+This $P$ is a [[probability measure|0VGMEBVW1M]] on the power set of $\Omega$, the uniform probability on $\Omega$. Each outcome has probability $1/|\Omega|$.
+For two rolls of a fair die, the probability that the sum is $7$ is $6/36 = 1/6$.
+Classical probability turns a probability problem into a counting problem. Binomial coefficients and the rule of product often give the counts.
+The definition is circular as a foundation, since "equally likely" already uses probability. It also does not apply to infinite sample spaces.
+
+## Explanations
+
+### L1 human
+
+When all outcomes have the same chance, a probability is a fraction: good cases over all cases.
+A fair die has $6$ faces and $3$ of them are even, so the chance of an even number is $3/6 = 1/2$.

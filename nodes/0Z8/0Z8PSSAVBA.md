@@ -1,0 +1,32 @@
+---
+tag: 0Z8PSSAVBA
+kind: definition
+name: Probability-generating function
+msc: ["60E05"]
+defines: 0EBCWQ8BVE
+uses: [0WF4EJP91W, 0DCT0QZVQ1, 0HH6JX5WZZ]
+sources:
+  - url: https://en.wikipedia.org/wiki/Probability_generating_function
+    locator: Univariate case
+---
+
+## Definition
+
+Let $X$ be a random variable with values in $\{0, 1, 2, \dots\}$ and with [[mass function|0WF4EJP91W]] $p(k) = P(X = k)$.
+The probability-generating function of $X$ is
+$$G_X(z) = E\left[z^X\right] = \sum_{k=0}^{\infty} p(k) \, z^k,$$
+for each complex $z$ with $|z| \le 1$.
+
+## Remarks
+
+$G_X$ is the [[generating function|0HH6JX5WZZ]] of the sequence $p(0), p(1), \dots$. The series converges absolutely for $|z| \le 1$, and $G_X(1) = 1$.
+$G_X$ determines the law of $X$: $P(X = k) = G_X^{(k)}(0)/k!$.
+If $E[X] < \infty$, then $E[X] = G_X'(1)$, with the left derivative at $1$. Also $E[X(X - 1)] = G_X''(1)$ when it is finite.
+For $X \sim \operatorname{Poisson}(\lambda)$, $G_X(z) = e^{\lambda(z - 1)}$. For $X \sim \operatorname{Bin}(n, p)$, $G_X(z) = (1 - p + pz)^n$.
+
+## Explanations
+
+### L1 human
+
+The probability-generating function packs all the probabilities of a count into one function.
+Derivatives of this function at $0$ give back the probabilities, and derivatives at $1$ give the moments.

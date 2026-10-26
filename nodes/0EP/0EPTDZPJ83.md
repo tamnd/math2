@@ -1,0 +1,30 @@
+---
+tag: 0EPTDZPJ83
+kind: statement
+role: theorem
+name: Convergence in probability implies convergence in distribution
+msc: [60F05]
+uses: [0EFDDXTVD6, 0JDAQHWA9N, 0MXMS3AE13]
+sources:
+  - url: https://en.wikipedia.org/wiki/Convergence_of_random_variables
+    locator: Properties
+---
+
+## Statement
+
+Let $X, X_1, X_2, \dots$ be real random variables on one probability space.
+If $X_n \to X$ [[in probability|0EFDDXTVD6]], then $X_n \to X$ [[in distribution|0JDAQHWA9N]].
+
+## Remarks
+
+Proof: for $\varepsilon > 0$, $F_n(x) \le F(x + \varepsilon) + P(|X_n - X| > \varepsilon)$ and $F(x - \varepsilon) \le F_n(x) + P(|X_n - X| > \varepsilon)$.
+Let $n \to \infty$ and then $\varepsilon \to 0$. At a continuity point $x$ of $F$, this gives $F_n(x) \to F(x)$.
+The converse is false. Let $X \sim \mathcal{N}(0, 1)$ and $X_n = -X$ for all $n$. Then $X_n \to X$ in distribution, but $P(|X_n - X| > 1) = P(|X| > 1/2)$ does not tend to $0$.
+The converse holds when the limit is a constant: if $X_n \to c$ in distribution for a real $c$, then $X_n \to c$ in probability.
+
+## Explanations
+
+### L1 human
+
+If $X_n$ is very likely to be close to $X$, then the probabilities for $X_n$ are close to those for $X$.
+But two variables can have the same law and still be far apart, so the converse fails.

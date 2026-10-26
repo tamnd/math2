@@ -1,0 +1,39 @@
+---
+tag: 02HZ1BK3MW
+kind: statement
+role: theorem
+name: Chebyshev's inequality
+aliases: [bienayme-chebyshev-inequality]
+msc: ["60E15"]
+uses: [05PWWHYBX5, 007QED3E0Y, 0VTN5RKNC5]
+sources:
+  - url: https://en.wikipedia.org/wiki/Chebyshev's_inequality
+    locator: Probabilistic statement
+same_as:
+  wikidata: Q249514
+  wikipedia: Chebyshev's inequality
+---
+
+## Statement
+
+Let $X$ be a real random variable with finite mean $\mu$ and finite [[variance|007QED3E0Y]] $\sigma^2$. Then for each $a > 0$,
+$$P(|X - \mu| \ge a) \le \frac{\sigma^2}{a^2}.$$
+Equivalently, if $\sigma > 0$, then $P(|X - \mu| \ge k\sigma) \le 1/k^2$ for each $k > 0$.
+
+## Remarks
+
+Proof: apply [[Markov's inequality|05PWWHYBX5]] to the nonnegative variable $(X - \mu)^2$ and the level $a^2$.
+For $k = 2$, at least $3/4$ of the mass is within two [[standard deviations|0VTN5RKNC5]] of the mean, for every distribution with finite variance.
+The bound is sharp: some distributions reach equality for a given $k \ge 1$.
+Chebyshev's inequality gives a short proof of the weak law of large numbers for variables with finite variance.
+
+## History
+
+The inequality is named after Pafnuty Chebyshev. Irénée-Jules Bienaymé formulated it first.
+
+## Explanations
+
+### L1 human
+
+The variance controls how often a variable can be far from its mean.
+For any distribution, at most $1/9$ of the mass lies three or more standard deviations away from the mean.

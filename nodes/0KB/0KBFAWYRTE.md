@@ -1,0 +1,17 @@
+---
+tag: 0KBFAWYRTE
+kind: concept
+name: Covariance
+msc: [60A05]
+sources:
+  - url: https://en.wikipedia.org/wiki/Covariance
+    locator: lead section
+same_as:
+  wikidata: Q201984
+  wikipedia: Covariance
+---
+
+## Summary
+
+The covariance of two random variables measures how they vary together. It is positive when large values of one go with large values of the other, and negative in the opposite case.
+The node [[covariance|0DJ8W3HP2D]] gives the precise definition.

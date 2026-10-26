@@ -1,0 +1,33 @@
+---
+tag: 0VGMEBVW1M
+kind: definition
+name: Probability measure
+msc: [60A10]
+defines: 059TJN0NZ1
+uses: [04WSW8T3SY, 0DAX8PMAJ4, 0TK8Y3J5RW]
+sources:
+  - url: https://en.wikipedia.org/wiki/Probability_measure
+    locator: Definition
+---
+
+## Definition
+
+Let $\Omega$ be a set and let $\mathcal{F}$ be a [[σ-algebra|04WSW8T3SY]] on $\Omega$.
+A probability measure on $(\Omega, \mathcal{F})$ is a function $P \colon \mathcal{F} \to [0, 1]$ with these two properties.
+$P(\Omega) = 1$.
+For each sequence $A_1, A_2, \dots$ of elements of $\mathcal{F}$ with $A_i \cap A_j = \varnothing$ for all $i \ne j$,
+$$P\left(\bigcup_{n=1}^{\infty} A_n\right) = \sum_{n=1}^{\infty} P(A_n).$$
+
+## Remarks
+
+These are the [[probability axioms|0DAX8PMAJ4]]. In other words, a probability measure is a measure of total mass $1$.
+Countable additivity implies $P(\varnothing) = 0$ and finite additivity: $P(A \cup B) = P(A) + P(B)$ for disjoint $A$ and $B$.
+On a finite set $\Omega$ with the power set as $\mathcal{F}$, each probability measure has the form $P(A) = \sum_{\omega \in A} p(\omega)$ with $p(\omega) \ge 0$ and $\sum_{\omega \in \Omega} p(\omega) = 1$.
+
+## Explanations
+
+### L1 human
+
+A probability measure is a rule that gives each event a number between $0$ and $1$.
+The whole sample space gets $1$, and the number of a union of separate pieces is the sum of the numbers of the pieces.
+For a fair die, each face gets $1/6$, and the event "even" gets $3/6 = 1/2$.

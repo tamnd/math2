@@ -1,0 +1,31 @@
+---
+tag: 0ZYBZ34RT2
+kind: definition
+name: Probability space
+msc: [60A05]
+defines: 0NFPJVJJHX
+uses: [0W7NFW23RF, 04WSW8T3SY, 0VGMEBVW1M]
+sources:
+  - url: https://en.wikipedia.org/wiki/Probability_space
+    locator: Definition
+---
+
+## Definition
+
+A probability space is a triple $(\Omega, \mathcal{F}, P)$ with these parts.
+$\Omega$ is a nonempty set, the [[sample space|0W7NFW23RF]].
+$\mathcal{F}$ is a [[σ-algebra|04WSW8T3SY]] on $\Omega$. Its elements are the events.
+$P$ is a [[probability measure|0VGMEBVW1M]] on $(\Omega, \mathcal{F})$.
+
+## Remarks
+
+For one roll of a fair die: $\Omega = \{1, \dots, 6\}$, $\mathcal{F}$ is the power set of $\Omega$, and $P(A) = |A| / 6$.
+A discrete probability space has a countable $\Omega$, the power set as $\mathcal{F}$, and $P(A) = \sum_{\omega \in A} p(\omega)$ for a function $p \ge 0$ with total sum $1$.
+The interval $[0, 1]$ with its Borel σ-algebra and the length of intervals as $P$ is a probability space. It models a point chosen uniformly at random in $[0, 1]$.
+
+## Explanations
+
+### L1 human
+
+A probability space puts three things together: what can happen, which questions we can ask about it, and how likely each answer is.
+Every problem in probability starts, at least in the background, with one probability space.

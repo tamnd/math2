@@ -1,0 +1,19 @@
+---
+tag: 0ZY9DX8FBF
+kind: concept
+name: Probability density function
+aliases: [pdf, density-function, density]
+msc: ["60E05"]
+sources:
+  - url: https://en.wikipedia.org/wiki/Probability_density_function
+    locator: lead section
+same_as:
+  wikidata: Q207522
+  wikipedia: Probability density function
+---
+
+## Summary
+
+A probability density function of a real random variable $X$ is a nonnegative function $f$ with this property.
+For each set $B$ of values, the integral of $f$ over $B$ is the probability that $X$ lies in $B$.
+The node [[probability density function|04YG690N5V]] gives the precise definition.

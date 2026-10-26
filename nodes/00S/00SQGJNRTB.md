@@ -1,0 +1,31 @@
+---
+tag: 00SQGJNRTB
+kind: definition
+name: Event
+msc: [60A05]
+defines: 031TPJVS74
+uses: [0W7NFW23RF, 04WSW8T3SY, 0FE8Q5S42Y]
+sources:
+  - url: https://en.wikipedia.org/wiki/Event_(probability_theory)
+    locator: Events in probability spaces
+---
+
+## Definition
+
+Let $\Omega$ be a [[sample space|0W7NFW23RF]] and let $\mathcal{F}$ be a [[σ-algebra|04WSW8T3SY]] on $\Omega$.
+An event is an element of $\mathcal{F}$, that is, a [[subset|0FE8Q5S42Y]] $A \subseteq \Omega$ with $A \in \mathcal{F}$.
+The event $A$ occurs in a trial when the outcome $\omega$ of the trial satisfies $\omega \in A$.
+
+## Remarks
+
+When $\Omega$ is finite or countable, one usually takes $\mathcal{F}$ to be the power set of $\Omega$. Then each subset of $\Omega$ is an event.
+For uncountable $\Omega$, such as $\Omega = \mathbb{R}$, one cannot in general give a probability to each subset. So only the sets in $\mathcal{F}$ are events.
+The set operations have probabilistic names: $A \cup B$ is "$A$ or $B$", $A \cap B$ is "$A$ and $B$", and $\Omega \setminus A$ is "not $A$". The empty set is the impossible event, and $\Omega$ is the sure event.
+Two events $A$ and $B$ are mutually exclusive when $A \cap B = \varnothing$.
+
+## Explanations
+
+### L1 human
+
+An event is a statement about the result of the experiment that is either true or false after the experiment.
+For a die, "the result is at least $5$" is the event $\{5, 6\}$. It happens when you roll a $5$ or a $6$.

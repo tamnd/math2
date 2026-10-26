@@ -1,0 +1,31 @@
+---
+tag: 03PGHKAJG3
+kind: statement
+role: theorem
+name: Cauchy–Schwarz inequality for expectations
+aliases: [cauchy-schwarz-inequality-for-random-variables]
+msc: ["60E15"]
+uses: [0DCT0QZVQ1, 0DJ8W3HP2D]
+sources:
+  - url: https://en.wikipedia.org/wiki/Cauchy–Schwarz_inequality
+    locator: Probability theory
+---
+
+## Statement
+
+Let $X$ and $Y$ be real random variables on one probability space with $E[X^2] < \infty$ and $E[Y^2] < \infty$. Then $XY$ is integrable and
+$$\left(E[XY]\right)^2 \le E[X^2] \, E[Y^2].$$
+Equality holds if and only if $aX + bY = 0$ almost surely for some reals $a$ and $b$, not both $0$.
+
+## Remarks
+
+Proof: for each real $s$, $0 \le E[(X + sY)^2] = E[X^2] + 2s E[XY] + s^2 E[Y^2]$. A quadratic polynomial in $s$ that is never negative has a discriminant that is not positive.
+This is the Cauchy–Schwarz inequality for the inner product $\langle X, Y \rangle = E[XY]$ on the space $L^2$ of square-integrable random variables.
+Applied to $X - E[X]$ and $Y - E[Y]$, it gives $\operatorname{Cov}(X, Y)^2 \le \operatorname{Var}(X) \operatorname{Var}(Y)$. So the correlation coefficient is in $[-1, 1]$.
+
+## Explanations
+
+### L1 human
+
+The average of a product cannot be larger than what the sizes of the two factors allow.
+This simple inequality is behind the fact that a correlation is always between $-1$ and $1$.

@@ -1,0 +1,37 @@
+---
+tag: 0WPDNXGSSN
+kind: statement
+role: theorem
+name: Hoeffding's inequality
+msc: ["60E15"]
+uses: [0XCE070V8B, 0DCT0QZVQ1, 014PEBGDYF]
+sources:
+  - url: https://en.wikipedia.org/wiki/Hoeffding's_inequality
+    locator: Statement
+same_as:
+  wikidata: Q1622794
+  wikipedia: Hoeffding's inequality
+---
+
+## Statement
+
+Let $X_1, \dots, X_n$ be [[independent|0XCE070V8B]] real random variables with $a_i \le X_i \le b_i$ almost surely, where $a_i < b_i$ are reals. Let $S_n = X_1 + \dots + X_n$.
+Then for each $t > 0$,
+$$P\left(S_n - E[S_n] \ge t\right) \le \exp\left(-\frac{2t^2}{\sum_{i=1}^n (b_i - a_i)^2}\right).$$
+
+## Remarks
+
+The same bound holds for $P(S_n - E[S_n] \le -t)$. So $P(|S_n - E[S_n]| \ge t) \le 2 \exp\left(-2t^2 / \sum_i (b_i - a_i)^2\right)$.
+The proof uses the [[Chernoff bound|014PEBGDYF]] together with Hoeffding's lemma: $E[e^{s(X - E[X])}] \le e^{s^2 (b - a)^2 / 8}$ if $a \le X \le b$.
+For $n$ independent tosses of a coin with $P(\text{heads}) = p$, the fraction $H$ of heads satisfies $P(|H - p| \ge \varepsilon) \le 2 e^{-2n\varepsilon^2}$.
+
+## History
+
+The inequality is named after Wassily Hoeffding.
+
+## Explanations
+
+### L1 human
+
+A sum of many independent bounded terms is very unlikely to be far from its mean.
+The probability of a large deviation decreases like $e^{-c t^2}$. This is why polls with a few thousand people give reliable results.
