@@ -2,7 +2,7 @@
 tag: 0VX9EP2GS8
 kind: concept
 name: Minimal polynomial (field theory)
-aliases: [minimal polynomial]
+aliases: [minimal-polynomial]
 msc: [12F05]
 sources:
   - url: https://en.wikipedia.org/wiki/Minimal_polynomial_(field_theory)
