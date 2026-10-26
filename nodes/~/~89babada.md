@@ -1,0 +1,14 @@
+---
+tag: ~89babada
+kind: concept
+name: Periodic orbit
+msc: [37C27]
+sources:
+  - url: https://en.wikipedia.org/wiki/Periodic_point
+    locator: Dynamical system
+---
+
+## Summary
+
+Let a point that is not an equilibrium return to itself after a fixed positive time. Its orbit is a periodic orbit of the dynamical system.
+For an autonomous differential equation, it is the closed curve traced by a non-constant periodic solution. See the [[definition|~382b6df2]].
