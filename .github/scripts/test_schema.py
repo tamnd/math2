@@ -33,8 +33,9 @@ class SchemaTest(unittest.TestCase):
                 sections = then["x-m2-sections"]
                 self.assertTrue(set(sections["required"]) <= set(sections["allowed"]))
 
-    def test_23_edge_types(self):
-        self.assertEqual(len({e["name"] for e in self.schema["x-m2-edges"]}), 23)
+    def test_25_edge_types(self):
+        # The 23 edge types of spec 05.2, and not_instance_of and illustrates of corpus K8.9.
+        self.assertEqual(len({e["name"] for e in self.schema["x-m2-edges"]}), 25)
 
 
 class OtherSchemasTest(unittest.TestCase):
