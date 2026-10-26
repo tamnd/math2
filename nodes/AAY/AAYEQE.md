@@ -5,7 +5,7 @@ name: The subgroups of the symmetric group S4
 claim: The symmetric group $S_4$ has 30 subgroups. It has 1, 9, 4, 7, 4, 3, 1 and 1 subgroups of the orders 1, 2, 3, 4, 6, 8, 12 and 24, and each of these orders divides 24.
 engine:
   image: m2-gap@sha256:1378718f9f1cbc151d7c44f33b246be3069087a55f8bfc44ea4fda4b0350d748
-  entry: compute/AAYEQE/main.g
+  entry: compute/AAY/AAYEQE/main.g
   seed: null
   resources: {cpu: 1, mem: 2G, wall: 10m}
 output:

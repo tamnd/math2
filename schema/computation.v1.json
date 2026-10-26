@@ -10,7 +10,7 @@
     "tag": {"type": "string", "pattern": "^[0-9A-HJKMNP-TV-Z]{6}$", "description": "The tag of the computation node."},
     "image": {"$ref": "#/$defs/image", "description": "The image of the record, engine.image of the node."},
     "digest": {"$ref": "#/$defs/digest", "description": "The digest that ran. It is the digest of the same image in manifests/images.yaml for the architecture of the run."},
-    "entry": {"type": "string", "minLength": 1, "description": "The entry point, relative to compute/<tag>/."},
+    "entry": {"type": "string", "minLength": 1, "description": "The entry point, relative to compute/<shard>/<tag>/. The shard is the first three characters of the tag, as for the node file."},
     "arch": {"enum": ["amd64", "arm64"]},
     "runtime": {"type": "string", "minLength": 1, "description": "The container runtime, for example runc or runsc."},
     "network": {"type": "string", "description": "The network of the container. Rule C05 needs none."},
@@ -29,7 +29,7 @@
     "digest": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
     "image": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*@sha256:[0-9a-f]{64}$"},
     "check": {
-      "description": "The run of the checker of the certificate. It reads a copy of compute/<tag>/ and the certificate at /work.",
+      "description": "The run of the checker of the certificate. It reads a copy of compute/<shard>/<tag>/ and the certificate at /work.",
       "type": "object",
       "additionalProperties": false,
       "required": ["image", "digest", "entry", "exit_code", "seconds", "accepted"],
