@@ -1,0 +1,35 @@
+---
+tag: 0D1C9Y1EXA
+kind: definition
+name: Complex differentiability
+aliases: [complex-differentiable, complex-derivative]
+msc: [30A99]
+defines: 09E6T7VYAG
+uses: [09FTAET5Z4, 0KW2X0TFBX]
+sources:
+  - url: https://en.wikipedia.org/wiki/Holomorphic_function
+    locator: Definition
+---
+
+## Definition
+
+Let $U \subseteq \mathbb{C}$ be an open set, let $f : U \to \mathbb{C}$ be a function, and let $z_0 \in U$.
+The function $f$ is complex differentiable at $z_0$ if the limit
+$$f'(z_0) = \lim_{h \to 0} \frac{f(z_0 + h) - f(z_0)}{h}$$
+exists in $\mathbb{C}$. Here $h$ runs through the nonzero [[complex numbers|09FTAET5Z4]] with $z_0 + h \in U$.
+The number $f'(z_0)$ is the complex derivative of $f$ at $z_0$.
+The limit means: for each $\varepsilon > 0$ there is $\delta > 0$ such that $\left| \frac{f(z_0 + h) - f(z_0)}{h} - f'(z_0) \right| < \varepsilon$ for all such $h$ with $0 < |h| < \delta$.
+
+## Remarks
+
+For example, $f(z) = z^2$ is complex differentiable at each $z_0$ with $f'(z_0) = 2 z_0$, because $\frac{(z_0 + h)^2 - z_0^2}{h} = 2 z_0 + h$.
+The number $h$ can go to $0$ from each direction in the plane. This makes the condition much stronger than real differentiability, see [[the conjugate is not holomorphic|0Z8ATBPM5W]].
+If $f$ is complex differentiable at $z_0$, then $f$ is continuous at $z_0$.
+The [[Cauchy–Riemann equations|0T71SSYZ39]] describe complex differentiability with partial derivatives.
+
+## Explanations
+
+### L1 human
+
+The definition is the same as the definition of the derivative of a real function, but $h$ is now a complex number.
+The quotient must have the same limit when $h$ goes to $0$ along the real axis, along the imaginary axis, or along any other path.

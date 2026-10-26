@@ -1,0 +1,39 @@
+---
+tag: 0PNPG2PP9H
+kind: statement
+role: lemma
+name: Jordan's lemma
+aliases: [jordan-lemma]
+msc: ["30E20"]
+uses: [00FWNP9TXY, 054VXHMCA3]
+sources:
+  - url: https://en.wikipedia.org/wiki/Jordan%27s_lemma
+    locator: Statement
+same_as:
+  wikidata: Q1816932
+  wikipedia: Jordan's lemma
+---
+
+## Statement
+
+Let $a > 0$ and $R > 0$ be real numbers.
+Let $C_R$ be the semicircle $\{ R e^{i\theta} : \theta \in [0, \pi] \}$ in the upper half-plane, with the parametrization $\theta \mapsto R e^{i\theta}$.
+Let $g$ be a continuous complex function on $C_R$, and let $f(z) = e^{iaz} g(z)$ for $z \in C_R$, where $e^w$ is the [[complex exponential|054VXHMCA3]].
+Let $M_R = \max_{\theta \in [0, \pi]} |g(R e^{i\theta})|$.
+Then the [[contour integral|00FWNP9TXY]] of $f$ along $C_R$ satisfies
+$$\left| \int_{C_R} f(z) \, dz \right| \le \frac{\pi}{a} M_R.$$
+
+## Remarks
+
+If $M_R \to 0$ as $R \to \infty$, then $\int_{C_R} f(z) \, dz \to 0$ as $R \to \infty$.
+The bound does not contain the length $\pi R$ of $C_R$, so it is stronger than the [[estimation lemma|0DJMGPN8K9]] for this type of integrand.
+A similar result holds for the semicircle in the lower half-plane when $a < 0$.
+The lemma is a main step in the [[evaluation of real integrals|0476QH9846]] such as $\int_{-\infty}^{\infty} \frac{e^{iax}}{x^2 + 1} \, dx$.
+
+## Explanations
+
+### L1 human
+
+On the semicircle, $|e^{iaz}| = e^{-aR \sin \theta}$, and this number is very small except near the two ends of the semicircle.
+So the factor $e^{iaz}$ kills most of the long path.
+This is why the bound stays small even when the radius $R$ is large.
