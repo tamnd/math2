@@ -1,0 +1,29 @@
+---
+tag: 034FGCEYX4
+kind: statement
+role: proposition
+name: Formula for the modulus
+msc: [30A99]
+uses: [0KW2X0TFBX]
+sources:
+  - url: https://en.wikipedia.org/wiki/Absolute_value
+    locator: Complex numbers
+---
+
+## Statement
+
+Let $x$ and $y$ be real numbers.
+Then the [[modulus|0KW2X0TFBX]] of the complex number $x + y i$ is
+$$|x + y i| = \sqrt{x^2 + y^2}.$$
+
+## Remarks
+
+This follows from the definition of the modulus, because $\operatorname{Re}(x + y i) = x$ and $\operatorname{Im}(x + y i) = y$ for real $x$ and $y$.
+The hypothesis that $x$ and $y$ are real is necessary. For example, $|i + i \cdot i| = |-1 + i| = \sqrt{2}$, but $\sqrt{i^2 + i^2} = \sqrt{-2}$ is not even real.
+
+## Explanations
+
+### L1 human
+
+To find the length of a complex number, square its two real coordinates, add them, and take the square root.
+For $1 - i$, this gives $\sqrt{1 + 1} = \sqrt{2}$.

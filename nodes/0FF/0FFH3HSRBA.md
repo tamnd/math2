@@ -1,0 +1,32 @@
+---
+tag: 0FFH3HSRBA
+kind: concept
+name: Construction of the rationals as fractions
+msc: [13B30]
+sources:
+  - url: https://en.wikipedia.org/wiki/Field_of_fractions
+    locator: Definition
+  - url: https://en.wikipedia.org/wiki/Rational_number
+    locator: Formal construction
+---
+
+## Summary
+
+The rational numbers can be constructed as classes of pairs of [[integers|0C4JS9RF5M]].
+The idea is that the pair $(a, b)$ with $b \neq 0$ stands for the fraction $a / b$.
+On the set of pairs $(a, b)$ with $a, b \in \mathbb{Z}$ and $b \neq 0$, define $(a, b) \sim (c, d)$ when $a d = b c$. This relation is an equivalence relation.
+The set $\mathbb{Q}$ of [[rational numbers|0NCJ5WXN6Z]] is the set of the equivalence classes, and we write $a / b$ for the class of $(a, b)$.
+The operations are $\frac{a}{b} + \frac{c}{d} = \frac{a d + b c}{b d}$ and $\frac{a}{b} \cdot \frac{c}{d} = \frac{a c}{b d}$. They do not depend on the choice of the pairs.
+
+## Remarks
+
+The same construction works for each integral domain $R$. It gives the field of fractions of $R$, the smallest field that contains $R$.
+The map $a \mapsto a / 1$ embeds $\mathbb{Z}$ in $\mathbb{Q}$.
+
+## Explanations
+
+### L1 human
+
+A fraction is a pair of a top number and a nonzero bottom number.
+The pairs $(1, 2)$ and $(2, 4)$ are different pairs, but $1 \cdot 4 = 2 \cdot 2$, so they give the same rational number.
+The construction makes this precise: a rational number is the collection of all the pairs that name it.

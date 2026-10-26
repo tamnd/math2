@@ -1,0 +1,32 @@
+---
+tag: 0KMVFSHFGZ
+kind: statement
+role: theorem
+name: Strong induction
+aliases: [complete-induction, course-of-values-induction]
+msc: [03F30]
+uses: [0ASJVEFA9J, 0Y9H52BT03]
+sources:
+  - url: https://en.wikipedia.org/wiki/Mathematical_induction
+    locator: Complete (strong) induction
+---
+
+## Statement
+
+Let $P(n)$ be a property of natural numbers $n$.
+Suppose that for each natural number $n$, if $P(k)$ holds for every natural number $k < n$, then $P(n)$ holds.
+Then $P(n)$ holds for every natural number $n$.
+
+## Remarks
+
+The hypothesis for $n = 0$ asks for a proof of $P(0)$ with no assumption, because no natural number is less than $0$.
+The proof applies ordinary [[induction|0ASJVEFA9J]] to the property "$P(k)$ holds for every $k < n$".
+A standard use is the proof that each integer $n \ge 2$ is a product of primes.
+
+## Explanations
+
+### L1 human
+
+In ordinary induction, you may use only the case just before $n$.
+In strong induction, you may use all the cases before $n$.
+This helps when $n$ breaks into smaller pieces that are not just $n - 1$, for example when $n = a b$ with $a$ and $b$ smaller than $n$.

@@ -1,0 +1,34 @@
+---
+tag: 0DRF0F3XC9
+kind: statement
+role: theorem
+name: Inequality of arithmetic and geometric means
+aliases: [am-gm-inequality]
+msc: ["26E60"]
+sources:
+  - url: https://en.wikipedia.org/wiki/AM%E2%80%93GM_inequality
+    locator: The inequality
+same_as:
+  wikidata: Q841170
+  wikipedia: AM–GM inequality
+---
+
+## Statement
+
+Let $n \ge 1$ and let $x_1, \dots, x_n$ be nonnegative real numbers.
+Then
+$$\sqrt[n]{x_1 x_2 \cdots x_n} \le \frac{x_1 + x_2 + \dots + x_n}{n},$$
+with equality if and only if $x_1 = x_2 = \dots = x_n$.
+
+## Remarks
+
+For $n = 2$, the inequality $\sqrt{x y} \le (x + y)/2$ follows from $(\sqrt{x} - \sqrt{y})^2 \ge 0$.
+The weighted form: for weights $w_i \ge 0$ with $w_1 + \dots + w_n = 1$, $x_1^{w_1} \cdots x_n^{w_n} \le w_1 x_1 + \dots + w_n x_n$.
+
+## Explanations
+
+### L1 human
+
+The geometric mean of some nonnegative numbers is never larger than their average.
+For example, for $2$ and $8$, the geometric mean is $\sqrt{16} = 4$ and the average is $5$.
+Among all rectangles with a fixed perimeter, the square has the largest area. This is the case $n = 2$.

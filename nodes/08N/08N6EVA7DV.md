@@ -9,9 +9,6 @@ uses: [07KVB4JSC7, 0HBRW4E6G1]
 sources:
   - url: https://en.wikipedia.org/wiki/Algebra_of_sets
     locator: lead section
-same_as:
-  wikidata: Q10565797
-  wikipedia: Algebra of sets
 ---
 
 ## Statement

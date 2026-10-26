@@ -1,0 +1,30 @@
+---
+tag: 0XWCKJZRYH
+kind: statement
+role: theorem
+name: A root of an integer is an integer or irrational
+msc: [11J72]
+uses: [080T2TXVQV, 0C4JS9RF5M]
+sources:
+  - url: https://en.wikipedia.org/wiki/Irrational_number
+    locator: General roots
+---
+
+## Statement
+
+Let $x$ be a real number, let $n$ be a positive integer and let $m$ be an [[integer|0C4JS9RF5M]] with $x^n = m$.
+If $x$ is not an integer, then $x$ is [[irrational|080T2TXVQV]].
+
+## Remarks
+
+Thus, a rational number $x$ with $x^n \in \mathbb{Z}$ is an integer.
+For example, $\sqrt[3]{2}$ is irrational, because $1^3 < 2 < 2^3$ shows that it is not an integer.
+The statement follows from the rational root theorem for the polynomial $X^n - m$.
+
+## Explanations
+
+### L1 human
+
+Take a root of a whole number, for example $\sqrt{10}$ or $\sqrt[3]{20}$.
+Either the root is a whole number, as for $\sqrt{9} = 3$, or it is not a fraction at all.
+A root of a whole number is never a fraction like $5/2$.
