@@ -1,0 +1,17 @@
+---
+tag: 0BJR9QR08E
+kind: concept
+name: Subset
+aliases: [inclusion, superset, proper-subset]
+msc: ["03E20"]
+sources:
+  - url: https://en.wikipedia.org/wiki/Subset
+    locator: lead section
+same_as:
+  wikidata: Q177646
+  wikipedia: Subset
+---
+
+## Summary
+
+A set $A$ is a subset of a set $B$ when each element of $A$ is an element of $B$.

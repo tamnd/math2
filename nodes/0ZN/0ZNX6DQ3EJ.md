@@ -1,0 +1,40 @@
+---
+tag: 0ZNX6DQ3EJ
+kind: definition
+name: Implication
+msc: [03B05]
+defines: 0NMG7W7Q11
+uses: [0ZGC7ZESYN]
+sources:
+  - url: https://en.wikipedia.org/wiki/Material_conditional
+    locator: lead section
+---
+
+## Definition
+
+Let $p$ and $q$ be [[propositions|0ZGC7ZESYN]].
+The implication from $p$ to $q$ is the proposition $p \to q$, read "if $p$, then $q$".
+The proposition $p$ is the hypothesis, and the proposition $q$ is the conclusion.
+The proposition $p \to q$ is false when $p$ is true and $q$ is false. In all other cases, $p \to q$ is true.
+
+| $p$ | $q$ | $p \to q$ |
+|---|---|---|
+| T | T | T |
+| T | F | F |
+| F | T | T |
+| F | F | T |
+
+## Remarks
+
+Another notation for $p \to q$ is $p \Rightarrow q$.
+The proposition $p \to q$ has the same truth value as $\neg p \lor q$.
+When $p$ is false, $p \to q$ is true. This is [[vacuous truth|0V4QXPGJQK]].
+The [[converse|0RVYE75E2M]] of $p \to q$ is $q \to p$. It can have a different truth value.
+
+## Explanations
+
+### L1 human
+
+Think of $p \to q$ as a promise: "if it rains, I take an umbrella".
+You break the promise only when it rains and you take no umbrella.
+When it does not rain, you keep the promise, whatever you do.

@@ -1,0 +1,18 @@
+---
+tag: 0G0ASKNA6Z
+kind: concept
+name: Cardinality
+aliases: [size-of-a-set, number-of-elements]
+msc: ["03E10"]
+sources:
+  - url: https://en.wikipedia.org/wiki/Cardinality
+    locator: lead section
+same_as:
+  wikidata: Q4049983
+  wikipedia: Cardinality
+---
+
+## Summary
+
+The cardinality of a set is a measure of its size, the number of its elements.
+Two sets have the same cardinality exactly when they are equinumerous.

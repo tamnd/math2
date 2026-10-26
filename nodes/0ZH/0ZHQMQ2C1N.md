@@ -1,0 +1,35 @@
+---
+tag: 0ZHQMQ2C1N
+kind: statement
+role: theorem
+name: Transfinite induction
+aliases: [well-founded-induction]
+msc: ["03E10"]
+uses: [0230ECX1Q5, 0T3DPBG981]
+sources:
+  - url: https://en.wikipedia.org/wiki/Transfinite_induction
+    locator: lead section
+same_as:
+  wikidata: Q840810
+  wikipedia: Transfinite induction
+---
+
+## Statement
+
+Let $R$ be a [[well-founded relation|0230ECX1Q5]] on a set $A$ and let $P(x)$ be a [[predicate|0T3DPBG981]] on $A$.
+Assume that, for each $x \in A$, if $P(y)$ holds for each $y \in A$ with $y \mathrel{R} x$, then $P(x)$ holds.
+Then $P(x)$ holds for each $x \in A$.
+
+## Remarks
+
+Proof: if the set of $x$ with $\neg P(x)$ is nonempty, it has an $R$-minimal element $m$. Then $P(y)$ holds for each $y \mathrel{R} m$, so $P(m)$ holds, a contradiction.
+For $<$ on $\mathbb{N}$, this is strong induction.
+For [[ordinal numbers|0RDJK7EQYY]], one often splits the step into three cases: zero, successor ordinals and limit ordinals.
+
+## Explanations
+
+### L1 human
+
+Transfinite induction extends induction on $\mathbb{N}$ to every well-founded order.
+You show: if the statement holds for everything below $x$, then it holds for $x$.
+Since you cannot go down forever, the statement holds everywhere.

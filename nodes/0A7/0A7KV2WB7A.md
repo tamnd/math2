@@ -1,0 +1,17 @@
+---
+tag: 0A7KV2WB7A
+kind: concept
+name: Monotone function
+aliases: [order-preserving-function, monotonic-function, isotone]
+msc: [06A06]
+sources:
+  - url: https://en.wikipedia.org/wiki/Monotonic_function
+    locator: In order theory
+same_as:
+  wikidata: Q194404
+  wikipedia: Monotonic function
+---
+
+## Summary
+
+A monotone function between ordered sets is a function that keeps the order.

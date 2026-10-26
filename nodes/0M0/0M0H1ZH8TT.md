@@ -1,0 +1,17 @@
+---
+tag: 0M0H1ZH8TT
+kind: concept
+name: Antisymmetric relation
+aliases: [antisymmetry]
+msc: ["03E20"]
+sources:
+  - url: https://en.wikipedia.org/wiki/Antisymmetric_relation
+    locator: lead section
+same_as:
+  wikidata: Q583760
+  wikipedia: Antisymmetric relation
+---
+
+## Summary
+
+A relation is antisymmetric when two different elements are never related in both directions.

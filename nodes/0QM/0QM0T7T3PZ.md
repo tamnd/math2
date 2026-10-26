@@ -1,0 +1,18 @@
+---
+tag: 0QM0T7T3PZ
+kind: concept
+name: Element
+aliases: [member, membership]
+msc: ["03E20"]
+sources:
+  - url: https://en.wikipedia.org/wiki/Element_of_a_set
+    locator: lead section
+same_as:
+  wikidata: Q379825
+  wikipedia: Element of a set
+---
+
+## Summary
+
+An element of a set is one of the objects that the set contains.
+The relation "is an element of" is written with the symbol $\in$.
