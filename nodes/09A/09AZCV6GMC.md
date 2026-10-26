@@ -14,7 +14,7 @@ sources:
 
 Let $(a_n)$ be a [[real sequence|0CTV783HYT]].
 The sequence tends to $+\infty$ if, for each real number $M$, there is a natural number $N$ such that $a_n > M$ for all $n \ge N$.
-Then we write $a_n \to +\infty$ as $n \to \infty$, or $\lim_{n \to \infty} a_n = +\infty$.
+Then the notation is $a_n \to +\infty$ as $n \to \infty$, or $\lim_{n \to \infty} a_n = +\infty$.
 The sequence tends to $-\infty$ if $-a_n \to +\infty$.
 
 ## Remarks

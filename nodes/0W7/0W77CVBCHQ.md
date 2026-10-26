@@ -14,7 +14,7 @@ sources:
 
 Let $G$ be a [[group|G5S1M9]] and let $N$ be a [[subgroup|0X1JXT47GA]] of $G$.
 The subgroup $N$ is normal in $G$ when $gng^{-1} \in N$ for all $g \in G$ and all $n \in N$.
-We write $N \trianglelefteq G$.
+The notation is $N \trianglelefteq G$.
 
 ## Remarks
 

@@ -15,7 +15,7 @@ sources:
 Let $I$ be an open interval, and let $p, q : I \to \mathbb{R}$ be continuous.
 An integrating factor of the [[linear first-order equation|0Z3YKRQZ48]] $y' + p(x) y = q(x)$ is a differentiable function $\mu : I \to \mathbb{R}$ with $\mu(x) \ne 0$ for each $x \in I$ and
 $$\mu'(x) = p(x)\, \mu(x) \quad \text{for each } x \in I.$$
-For such $\mu$ and each differentiable $y$ on $I$, we have $\mu \left(y' + p y\right) = (\mu y)'$.
+For such $\mu$ and each differentiable $y$ on $I$, $\mu \left(y' + p y\right) = (\mu y)'$.
 
 ## Remarks
 

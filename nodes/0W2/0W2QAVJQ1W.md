@@ -15,7 +15,7 @@ sources:
 Let $K$ be a commutative ring and let $A$ be an $n \times n$ matrix over $K$, with $n \ge 2$.
 The *cofactor* of $A$ in position $(i, j)$ is
 $$C_{ij} = (-1)^{i+j} M_{ij},$$
-where $M_{ij}$ is the first [[minor|0BT9BYWVRY]] of $A$ that we get by deleting row $i$ and column $j$.
+where $M_{ij}$ is the first [[minor|0BT9BYWVRY]] of $A$ that results when row $i$ and column $j$ are deleted.
 
 ## Remarks
 

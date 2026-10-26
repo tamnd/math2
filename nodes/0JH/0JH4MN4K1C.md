@@ -16,7 +16,7 @@ sources:
 Let $(a_n)_{n \in \mathbb{N}}$ be a [[real sequence|0CTV783HYT]].
 The series with terms $a_n$ is the sequence $(s_N)_{N \in \mathbb{N}}$ given by
 $$s_N = a_0 + a_1 + \cdots + a_N = \sum_{n=0}^{N} a_n.$$
-We write the series as $\sum_{n=0}^{\infty} a_n$, or as $\sum a_n$.
+The notation for the series is $\sum_{n=0}^{\infty} a_n$, or $\sum a_n$.
 
 ## Remarks
 

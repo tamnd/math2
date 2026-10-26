@@ -14,7 +14,7 @@ sources:
 
 Let $R$ be a [[ring|0894J980RK]].
 An element $u \in R$ is a unit of $R$ if there is an element $v \in R$ such that $u \cdot v = v \cdot u = 1$.
-The element $v$ is unique. It is the inverse of $u$, and we write it $u^{-1}$.
+The element $v$ is unique. It is the inverse of $u$, with the notation $u^{-1}$.
 
 ## Remarks
 

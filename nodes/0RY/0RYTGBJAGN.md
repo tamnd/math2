@@ -13,7 +13,7 @@ sources:
 ## Definition
 
 Let $f$ and $g$ be real functions defined on an interval $[x_0, \infty)$.
-We write $f(x) = O(g(x))$ as $x \to \infty$ if there are real numbers $C > 0$ and $x_1 \ge x_0$ with
+The notation $f(x) = O(g(x))$ as $x \to \infty$ means that there are real numbers $C > 0$ and $x_1 \ge x_0$ with
 $$|f(x)| \le C |g(x)| \quad \text{for all } x \ge x_1.$$
 
 ## Remarks

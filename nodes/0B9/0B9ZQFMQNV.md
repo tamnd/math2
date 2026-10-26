@@ -13,7 +13,7 @@ sources:
 ## Statement
 
 Let $S \subseteq \mathbb{R}$, where $\mathbb{R}$ has the usual topology.
-Then $S$ is [[connected|0R37DFJKFW]] if and only if $S$ is an [[interval|0TK8Y3J5RW]], that is, for all $a, b \in S$ and all $c \in \mathbb{R}$ with $a < c < b$ we have $c \in S$.
+Then $S$ is [[connected|0R37DFJKFW]] if and only if $S$ is an [[interval|0TK8Y3J5RW]], that is, for all $a, b \in S$ and all $c \in \mathbb{R}$ with $a < c < b$, $c \in S$.
 
 ## Remarks
 

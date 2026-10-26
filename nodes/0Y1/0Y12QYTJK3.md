@@ -14,7 +14,7 @@ sources:
 
 Let $D \subseteq \mathbb{R}$ be a set that is not bounded above, and let $f \colon D \to \mathbb{R}$ be a function.
 A real number $L$ is the limit of $f$ at $+\infty$ if for each $\varepsilon > 0$ there is $M$ with $|f(x) - L| < \varepsilon$ for all $x \in D$ with $x > M$.
-We then write $\lim_{x \to \infty} f(x) = L$.
+The notation is $\lim_{x \to \infty} f(x) = L$.
 The limit at $-\infty$ is defined in the same way, with $x < M$.
 
 ## Remarks

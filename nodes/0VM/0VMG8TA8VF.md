@@ -15,7 +15,7 @@ sources:
 Let $D \subseteq \mathbb{R}^n$ and let $f \colon D \to \mathbb{R}^m$.
 Let $a \in \mathbb{R}^n$ be a limit point of $D$: each open ball about $a$ contains a point of $D$ other than $a$.
 Let $L \in \mathbb{R}^m$.
-We say that $f(x)$ tends to $L$ as $x$ tends to $a$, and we write $\lim_{x \to a} f(x) = L$, when this holds.
+When this holds, $f(x)$ tends to $L$ as $x$ tends to $a$, with the notation $\lim_{x \to a} f(x) = L$.
 For each $\varepsilon > 0$ there is a $\delta > 0$ such that $\|f(x) - L\| < \varepsilon$ for each $x \in D$ with $0 < \|x - a\| < \delta$.
 Here $\|\cdot\|$ is the Euclidean norm of [[Euclidean space|0XPR1E85W0]].
 

@@ -16,7 +16,7 @@ sources:
 
 Let $a$ be a real number and let $F$ be a complex function on the half-plane $\{s \in \mathbb{C} : \operatorname{Re} s > a\}$.
 An inverse Laplace transform of $F$ is a piecewise continuous function $f : [0, \infty) \to \mathbb{C}$ with two properties. First, there are constants $M, b$ with $|f(t)| \le M e^{b t}$ for $t \ge 0$. Second, the [[Laplace transform|05XT5AVJBK]] of $f$ equals $F(s)$ for each $s$ with $\operatorname{Re} s > \max(a, b)$.
-We write $f = \mathcal{L}^{-1}\{F\}$.
+The notation is $f = \mathcal{L}^{-1}\{F\}$.
 
 ## Remarks
 

@@ -15,7 +15,7 @@ sources:
 
 Let $n$ be a positive integer and let $a$ be an integer [[coprime|0GFKP8F8AG]] to $n$.
 The multiplicative order of $a$ modulo $n$ is the smallest positive integer $k$ such that $a^k \equiv 1 \pmod n$.
-We write it as $\operatorname{ord}_n(a)$.
+The notation for it is $\operatorname{ord}_n(a)$.
 
 ## Remarks
 

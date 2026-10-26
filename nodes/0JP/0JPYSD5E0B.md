@@ -15,7 +15,7 @@ sources:
 Let $G$ be a [[group|G5S1M9]] with identity element $e$, and let $g \in G$.
 When there is a positive integer $n$ with $g^n = e$, the order of $g$ is the smallest such $n$.
 When there is no such $n$, the element $g$ has infinite order.
-We write $\operatorname{ord}(g)$ or $|g|$ for the order of $g$.
+The notation for the order of $g$ is $\operatorname{ord}(g)$ or $|g|$.
 
 ## Remarks
 

@@ -13,7 +13,7 @@ sources:
 
 A graph, or simple graph, is a pair $G = (V, E)$ of a set $V$ and a set $E$ of $2$-element subsets of $V$.
 The elements of $V$ are the vertices of $G$, and the elements of $E$ are its edges.
-Two vertices $u$ and $v$ are adjacent if $\{u, v\} \in E$. Then we write $uv$ for this edge, and $u \sim v$.
+Two vertices $u$ and $v$ are adjacent if $\{u, v\} \in E$. The notation for this edge is $uv$, and the notation for adjacency is $u \sim v$.
 
 Equivalently, a graph is a set $V$ with a relation $\sim$ on $V$ that is symmetric and irreflexive.
 A graph is finite if $V$ is finite.

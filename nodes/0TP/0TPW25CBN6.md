@@ -15,7 +15,7 @@ sources:
 
 Let $n$ be a positive integer, and let $a$ and $b$ be integers.
 The integer $a$ is congruent to $b$ modulo $n$ when $n$ [[divides|096PW7Q014]] $a - b$.
-We write $a \equiv b \pmod{n}$. The integer $n$ is the modulus of the congruence.
+The notation is $a \equiv b \pmod{n}$. The integer $n$ is the modulus of the congruence.
 
 ## Remarks
 

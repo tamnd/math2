@@ -15,7 +15,7 @@ sources:
 Let $G$ be a [[group|G5S1M9]].
 The order of $G$, written $|G|$, is the cardinality of the underlying set of $G$.
 When $G$ is finite, $|G|$ is the number of elements of $G$.
-When $G$ is infinite, we say that $G$ has infinite order.
+When $G$ is infinite, $G$ has infinite order.
 
 ## Remarks
 

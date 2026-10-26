@@ -13,8 +13,8 @@ sources:
 
 Let $X$ be a set.
 A sequence in $X$ is a function $a \colon \mathbb{N} \to X$, where $\mathbb{N} = \{0, 1, 2, \dots\}$.
-The value $a(n)$ is the $n$-th term of the sequence, and we write it as $a_n$.
-We write the sequence as $(a_n)_{n \in \mathbb{N}}$, or as $(a_n)$ when the index set is clear.
+The value $a(n)$ is the $n$-th term of the sequence, with the notation $a_n$.
+The notation for the sequence is $(a_n)_{n \in \mathbb{N}}$, or $(a_n)$ when the index set is clear.
 
 ## Remarks
 

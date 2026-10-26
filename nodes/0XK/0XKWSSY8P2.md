@@ -17,7 +17,7 @@ sources:
 Let $(a_n)$ be a [[real sequence|0CTV783HYT]] and let $L$ be a real number.
 The sequence $(a_n)$ converges to $L$ if the following holds for each open interval $U$ that contains $L$.
 There is a natural number $N$ such that $a_n \in U$ for all $n \ge N$.
-Then $L$ is a limit of $(a_n)$, and we write $\lim_{n \to \infty} a_n = L$ or $a_n \to L$ as $n \to \infty$.
+Then $L$ is a limit of $(a_n)$, with the notation $\lim_{n \to \infty} a_n = L$ or $a_n \to L$ as $n \to \infty$.
 
 ## Remarks
 

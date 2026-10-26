@@ -19,7 +19,7 @@ A subgroup of $G$ is a subset $H \subseteq G$ with these three properties.
 The identity $e$ is in $H$.
 For all $a, b \in H$, the product $ab$ is in $H$.
 For each $a \in H$, the inverse $a^{-1}$ is in $H$.
-We write $H \leq G$ when $H$ is a subgroup of $G$.
+The notation $H \leq G$ means that $H$ is a subgroup of $G$.
 
 ## Remarks
 
