@@ -27,6 +27,8 @@ Conceptual edges carry meaning. They are for navigation and search, and they do 
 |---|---|---|---|
 | `defines` | definition | concept | `defines` |
 | `instance_of` | example or object | concept | `instance_of` |
+| `not_instance_of` | example | concept or definition | `not_instance_of` |
+| `illustrates` | example | statement | `illustrates` |
 | `about` | statement, conjecture or problem | concept | `about` |
 | `specializes` | concept | concept | `specializes` |
 | `method` | proof | concept in the methods topic | `methods` |
