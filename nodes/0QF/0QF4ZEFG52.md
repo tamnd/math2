@@ -1,0 +1,31 @@
+---
+tag: 0QF4ZEFG52
+kind: statement
+role: theorem
+name: Eigenvalues are the roots of the minimal polynomial
+msc: [15A18]
+uses: [0V58FPM3EQ, 0ZND7NQ970]
+sources:
+  - url: https://en.wikipedia.org/wiki/Minimal_polynomial_(linear_algebra)
+    locator: Properties
+---
+
+## Statement
+
+Let $F$ be a field, let $V$ be a finite-dimensional vector space over $F$, and let $\lambda \in F$.
+Let $T \colon V \to V$ be an endomorphism with [[minimal polynomial|03NDVCSHSB]] $m_T$.
+Then $\lambda$ is an [[eigenvalue|0BQAA2BK3Q]] of $T$ if and only if $m_T(\lambda) = 0$.
+
+## Remarks
+
+If $T(v) = \lambda v$ with $v \ne 0$, then $0 = m_T(T) v = m_T(\lambda) v$, so $m_T(\lambda) = 0$.
+Conversely, if $m_T = (x - \lambda) q$, then $q(T) \ne 0$ and $T - \lambda \id_V$ kills the image of $q(T)$.
+So the minimal and the characteristic polynomial have the same roots, possibly with different multiplicities.
+
+## Explanations
+
+### L1 human
+
+The minimal polynomial and the characteristic polynomial have the same roots: the eigenvalues.
+Only the multiplicities of the roots can differ.
+So the minimal polynomial is a second way to find the eigenvalues.

@@ -1,0 +1,32 @@
+---
+tag: 0V33SPH7RR
+kind: statement
+role: proposition
+name: Intersection of subspaces
+msc: [15A03]
+uses: [0EPTJA5QV4]
+sources:
+  - url: https://en.wikipedia.org/wiki/Linear_subspace
+    locator: Operations and relations on subspaces
+---
+
+## Statement
+
+Let $F$ be a field, let $V$ be a vector space over $F$, and let $U$ and $W$ be [[linear subspaces|00YC1D652K]] of $V$.
+Then $U \cap W$ is a linear subspace of $V$.
+It is the largest subspace of $V$ that is contained in both $U$ and $W$.
+More generally, the intersection of each nonempty family of subspaces of $V$ is a subspace of $V$.
+
+## Remarks
+
+The union $U \cup W$ is a subspace only when $U \subseteq W$ or $W \subseteq U$.
+The smallest subspace that contains $U \cup W$ is the [[sum|0JMTY8MF54]] $U + W$.
+In $\R^3$, two different planes through the origin meet in a line through the origin.
+
+## Explanations
+
+### L1 human
+
+A vector that lies in two subspaces stays in both of them when we add or scale.
+So the common part of two subspaces is again a subspace.
+Two planes through the origin in space cross in a line, which is a subspace.

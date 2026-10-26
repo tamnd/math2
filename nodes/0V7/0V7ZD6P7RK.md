@@ -1,0 +1,36 @@
+---
+tag: 0V7ZD6P7RK
+kind: object
+name: Standard basis
+aliases: [canonical-basis]
+msc: [15A03]
+instance_of: [0KCQ9Y3QKA]
+sources:
+  - url: https://en.wikipedia.org/wiki/Standard_basis
+    locator: lead section
+same_as:
+  wikidata: Q2000912
+  wikipedia: Standard basis
+---
+
+## Description
+
+Let $F$ be a field and let $n \ge 1$ be an integer.
+For $i = 1, \dots, n$, let $e_i \in F^n$ be the vector with entry $1$ in position $i$ and $0$ in the other positions.
+The *standard basis* of the coordinate space $F^n$ is the family $(e_1, \dots, e_n)$.
+It is a [[basis|0KCQ9Y3QKA]] of $F^n$, and each $x = (x_1, \dots, x_n)$ is equal to $x_1 e_1 + \cdots + x_n e_n$.
+
+## Remarks
+
+The coordinates of a vector in the standard basis are its entries.
+In $\R^3$, the standard basis vectors are often written $\mathbf{i}, \mathbf{j}, \mathbf{k}$.
+The column $j$ of an $m \times n$ matrix $A$ is $A e_j$.
+The standard basis of $\R^n$ is an orthonormal basis for the dot product.
+
+## Explanations
+
+### L1 human
+
+The standard basis of $F^n$ consists of the vectors with one entry $1$ and all other entries $0$.
+In the plane, these are the unit arrows along the $x$-axis and the $y$-axis.
+The coordinates of a vector in this basis are just its entries.

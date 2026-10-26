@@ -1,0 +1,38 @@
+---
+tag: 0PSRCMCM5X
+kind: definition
+name: Moore–Penrose inverse
+msc: [15A09]
+defines: 0YY8VX28JR
+uses: [0EX045E2BP]
+sources:
+  - url: https://en.wikipedia.org/wiki/Moore–Penrose_inverse
+    locator: Definition
+---
+
+## Definition
+
+Let $A$ be an $m \times n$ complex matrix.
+There is exactly one $n \times m$ complex matrix $A^+$ with these four properties:
+
+1. $A A^+ A = A$.
+2. $A^+ A A^+ = A^+$.
+3. $(A A^+)^* = A A^+$.
+4. $(A^+ A)^* = A^+ A$.
+
+This matrix is the *Moore–Penrose inverse*, or *pseudoinverse*, of $A$, where $^*$ is the [[conjugate transpose|0DXKE10PHF]].
+
+## Remarks
+
+If $A$ is invertible, then $A^+ = A^{-1}$.
+If the columns of $A$ are linearly independent, then $A^+ = (A^* A)^{-1} A^*$.
+For $b \in \C^m$, the vector $A^+ b$ is the least squares solution of $Ax = b$ with the least norm.
+If $A = U \Sigma V^*$ is a singular value decomposition, then $A^+ = V \Sigma^+ U^*$, where $\Sigma^+$ inverts the nonzero singular values and transposes.
+
+## Explanations
+
+### L1 human
+
+The pseudoinverse extends the inverse to all matrices, also singular and rectangular ones.
+It gives the best possible solution of $Ax = b$ when no exact solution exists or when there are many.
+For the zero matrix, the pseudoinverse is the zero matrix of the transposed size.

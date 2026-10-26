@@ -1,0 +1,33 @@
+---
+tag: 06HN47VPTH
+kind: statement
+role: proposition
+name: Dimension of a direct product
+msc: [15A03]
+uses: [0MM085RX00, 05G2G0P224]
+sources:
+  - url: https://en.wikipedia.org/wiki/Direct_sum_of_modules
+    locator: Properties
+---
+
+## Statement
+
+Let $F$ be a field and let $V$ and $W$ be finite-dimensional vector spaces over $F$.
+Then the [[product|0EX2HPXPJ6]] $V \times W$ is finite-dimensional, and
+$$\dim(V \times W) = \dim V + \dim W,$$
+where $\dim$ is the [[dimension|03GSZ8RTZJ]].
+
+## Remarks
+
+Let $(v_i)$ be a basis of $V$ and let $(w_j)$ be a basis of $W$.
+Then the vectors $(v_i, 0)$ and $(0, w_j)$ together form a basis of $V \times W$.
+For example, $\dim(\R^2 \times \R^3) = 5$.
+By induction, $\dim(V_1 \times \cdots \times V_k) = \dim V_1 + \cdots + \dim V_k$.
+
+## Explanations
+
+### L1 human
+
+A vector of $V \times W$ is a pair, so we need the directions of $V$ and the directions of $W$.
+The dimensions add up.
+The plane is the product of two lines, and $1 + 1 = 2$.

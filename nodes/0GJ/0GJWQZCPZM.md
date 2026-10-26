@@ -1,0 +1,30 @@
+---
+tag: 0GJWQZCPZM
+kind: statement
+role: proposition
+name: Trace is linear
+msc: [15A15]
+uses: [07PTPSZPME]
+sources:
+  - url: https://en.wikipedia.org/wiki/Trace_(linear_algebra)
+    locator: Basic properties
+---
+
+## Statement
+
+Let $R$ be a commutative ring, let $A$ and $B$ be $n \times n$ matrices over $R$, and let $c \in R$.
+Then $\tr(A + B) = \tr A + \tr B$ and $\tr(cA) = c \tr A$, where $\tr$ is the [[trace|0XC1RDBY7A]].
+
+## Remarks
+
+Thus the trace is a linear map from $M_n(R)$ to $R$.
+Both identities follow at once from the definition, because the diagonal of $A + B$ is the sum of the diagonals.
+Over a field, the trace is a [[linear form|07YQ1C78G0]] on the vector space of $n \times n$ matrices.
+
+## Explanations
+
+### L1 human
+
+The trace of a sum is the sum of the traces.
+The trace of a multiple is the same multiple of the trace.
+This holds because we only add diagonal entries, and addition and scaling act entry by entry.

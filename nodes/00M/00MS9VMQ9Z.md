@@ -1,0 +1,31 @@
+---
+tag: 00MS9VMQ9Z
+kind: statement
+role: theorem
+name: Every vector space has a basis
+msc: [15A03, "03E25"]
+uses: [0VTQTPQGAV]
+sources:
+  - url: https://en.wikipedia.org/wiki/Basis_(linear_algebra)
+    locator: Proof that every vector space has a basis
+---
+
+## Statement
+
+Let $F$ be a field and let $V$ be a vector space over $F$.
+Then $V$ has a [[basis|0KCQ9Y3QKA]].
+
+## Remarks
+
+For a space with a finite spanning set, the proof is elementary: remove vectors from the spanning set until it is linearly independent.
+In general, the proof uses Zorn's lemma: a maximal linearly independent subset of $V$ is a basis.
+The statement for all vector spaces is equivalent to the axiom of choice, over set theory without choice.
+For example, the axiom of choice gives a basis of $\R$ as a vector space over $\Q$, a Hamel basis.
+
+## Explanations
+
+### L1 human
+
+Every vector space has a set of building blocks that is independent and reaches every vector.
+For finite-dimensional spaces, we can find one by hand.
+For very large spaces, we must use the axiom of choice, and we may not be able to write the basis down.

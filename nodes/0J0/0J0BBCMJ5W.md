@@ -1,0 +1,17 @@
+---
+tag: 0J0BBCMJ5W
+kind: concept
+name: Pivot
+msc: [15A06]
+sources:
+  - url: https://en.wikipedia.org/wiki/Pivot_element
+    locator: lead section
+same_as:
+  wikidata: Q1425280
+  wikipedia: Pivot element
+---
+
+## Summary
+
+A pivot of a matrix in row echelon form is the leading entry of a nonzero row.
+In elimination, a pivot is the entry that we use to clear the other entries of its column.

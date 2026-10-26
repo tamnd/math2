@@ -1,0 +1,36 @@
+---
+tag: 0PR5P9Z4KM
+kind: statement
+role: theorem
+name: Principal axis theorem
+msc: [15A63, 15A18]
+uses: [0HZNE5QZDJ, 0DGZBQWZWN]
+sources:
+  - url: https://en.wikipedia.org/wiki/Principal_axis_theorem
+    locator: Formal statement
+same_as:
+  wikidata: Q7245073
+  wikipedia: Principal axis theorem
+---
+
+## Statement
+
+Let $A$ be a real symmetric $n \times n$ matrix, and let $Q(x) = x^T A x$ for $x \in \R^n$.
+Then there are an [[orthogonal matrix|0W02QESPJQ]] $P$ and real numbers $\lambda_1, \dots, \lambda_n$ such that, for $x = P y$,
+$$Q(x) = \lambda_1 y_1^2 + \lambda_2 y_2^2 + \cdots + \lambda_n y_n^2.$$
+The numbers $\lambda_i$ are the eigenvalues of $A$, and the columns of $P$ are orthonormal eigenvectors of $A$.
+
+## Remarks
+
+It follows from the [[spectral theorem|0DGZBQWZWN]] $A = P D P^T$ with $D$ diagonal.
+The lines spanned by the columns of $P$ are the *principal axes* of $Q$.
+For example, $Q(x) = 5x_1^2 + 4x_1 x_2 + 2x_2^2$ has the eigenvalues $6$ and $1$, so it becomes $6y_1^2 + y_2^2$.
+So the curve $Q(x) = 1$ is an ellipse, with semi-axes $1/\sqrt 6$ and $1$.
+
+## Explanations
+
+### L1 human
+
+Each real quadratic form becomes a sum of squares after a rotation of the axes, possibly with a reflection.
+The new axes are the principal axes of the form.
+This is how we find the shape of an ellipse or a hyperbola from its equation.

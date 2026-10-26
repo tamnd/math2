@@ -1,0 +1,15 @@
+---
+tag: 0WSFKKT6FF
+kind: concept
+name: Image of a linear map
+aliases: [range-of-a-linear-map]
+msc: [15A04]
+sources:
+  - url: https://en.wikipedia.org/wiki/Image_(mathematics)
+    locator: lead section
+---
+
+## Summary
+
+The image of a linear map is the set of all values of the map.
+It is a subspace of the codomain.

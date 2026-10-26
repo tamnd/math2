@@ -1,0 +1,35 @@
+---
+tag: 0VGSYBWHV2
+kind: definition
+name: Inner product
+msc: [15A63, 46C05]
+defines: 0NB0AWGJBW
+uses: [05EGHEQZAW]
+sources:
+  - url: https://en.wikipedia.org/wiki/Inner_product_space
+    locator: Definition
+---
+
+## Definition
+
+Let $\mathbb{K}$ be $\R$ or $\C$, and let $V$ be a vector space over $\mathbb{K}$.
+An *inner product* on $V$ is a map $\langle \cdot, \cdot \rangle \colon V \times V \to \mathbb{K}$ such that, for all $x, y, z \in V$ and $a, b \in \mathbb{K}$:
+
+1. $\langle ax + by, z \rangle = a \langle x, z \rangle + b \langle y, z \rangle$.
+2. $\langle y, x \rangle = \overline{\langle x, y \rangle}$.
+3. $\langle x, x \rangle > 0$ if $x \ne 0$.
+
+## Remarks
+
+Over $\R$, the conjugation does nothing, so an inner product is a symmetric positive definite bilinear form.
+Over $\C$, conditions 1 and 2 give $\langle x, by \rangle = \bar b \langle x, y \rangle$, so the map is conjugate linear in the second argument.
+Many physicists, and Mathlib, use the opposite convention: linear in the second argument.
+The [[dot product|0S52TNNTH9]] on $\R^n$ and $\langle x, y \rangle = \sum_i x_i \overline{y_i}$ on $\C^n$ are inner products.
+
+## Explanations
+
+### L1 human
+
+An inner product generalises the dot product to abstract vector spaces.
+It lets us talk about lengths, angles and perpendicular vectors.
+On the space of continuous functions on $[0, 1]$, the integral $\int_0^1 f(t) g(t)\, dt$ is an inner product.

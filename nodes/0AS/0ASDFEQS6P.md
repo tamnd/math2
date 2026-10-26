@@ -1,0 +1,17 @@
+---
+tag: 0ASDFEQS6P
+kind: concept
+name: Block matrix
+aliases: [partitioned-matrix]
+msc: [15A99]
+sources:
+  - url: https://en.wikipedia.org/wiki/Block_matrix
+    locator: Formal definition
+same_as:
+  wikidata: Q884772
+  wikipedia: Block matrix
+---
+
+## Summary
+
+A block matrix is a matrix that is divided into smaller matrices, its blocks, by horizontal and vertical lines.

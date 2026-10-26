@@ -1,0 +1,17 @@
+---
+tag: 0E3MV6E6MG
+kind: concept
+name: Polynomial of an endomorphism
+msc: [15A04, 15A54]
+sources:
+  - url: https://en.wikipedia.org/wiki/Matrix_polynomial
+    locator: lead section
+same_as:
+  wikidata: Q6787887
+  wikipedia: Matrix polynomial
+---
+
+## Summary
+
+Let $p$ be a polynomial and let $A$ be a square matrix or an endomorphism.
+Then $p(A)$ is the result of substituting $A$ for the variable of $p$, with the identity in place of the constant $1$.
