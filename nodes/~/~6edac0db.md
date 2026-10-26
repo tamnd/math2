@@ -1,0 +1,32 @@
+---
+tag: ~6edac0db
+kind: definition
+name: Random walk
+msc: [60G50]
+defines: ~58f2d7f8
+uses: [~ef650a31, ~be5dd192]
+sources:
+  - url: https://en.wikipedia.org/wiki/Random_walk
+    locator: One-dimensional random walk
+---
+
+## Definition
+
+Let $d \ge 1$, let $x_0 \in \mathbb{R}^d$, and let $\xi_1, \xi_2, \dots$ be [[i.i.d.|~ef650a31]] random vectors in $\mathbb{R}^d$.
+The random walk with start $x_0$ and steps $\xi_i$ is the [[stochastic process|~be5dd192]] $(S_n)_{n \ge 0}$ with
+$$S_0 = x_0 \quad \text{and} \quad S_n = x_0 + \xi_1 + \dots + \xi_n \quad \text{for } n \ge 1.$$
+The simple random walk on $\mathbb{Z}$ has $d = 1$, $x_0 = 0$ and $P(\xi_i = 1) = P(\xi_i = -1) = 1/2$.
+
+## Remarks
+
+For the simple random walk on $\mathbb{Z}$, $E[S_n] = 0$ and $\operatorname{Var}(S_n) = n$. By the central limit theorem, $S_n/\sqrt{n}$ converges in distribution to $\mathcal{N}(0, 1)$.
+The simple random walk on $\mathbb{Z}^d$ returns to its start with probability $1$ if $d \le 2$, and with probability less than $1$ if $d \ge 3$. This is Pólya's theorem.
+A random walk is a Markov chain with transition probabilities that do not change under translation.
+After scaling of time and space, the simple random walk converges to the Wiener process.
+
+## Explanations
+
+### L1 human
+
+A random walk is the path of someone who, at each step, chooses a direction at random.
+It models the price of a share, the motion of a particle in a fluid, and the fortune of a gambler.

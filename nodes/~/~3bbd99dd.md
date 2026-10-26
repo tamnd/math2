@@ -1,0 +1,16 @@
+---
+tag: ~3bbd99dd
+kind: concept
+name: Random variable with a density
+aliases: [absolutely-continuous-random-variable, continuous-random-variable]
+msc: ["60E05"]
+sources:
+  - url: https://en.wikipedia.org/wiki/Probability_density_function
+    locator: Absolutely continuous univariate distributions
+---
+
+## Summary
+
+A real random variable has a density when there is a fixed nonnegative function with this property.
+The probability of each set of values is the integral of the function over that set.
+The node [[random variable with a density|~24cf07b9]] gives the precise definition.

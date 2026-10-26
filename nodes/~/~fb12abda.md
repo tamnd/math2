@@ -1,0 +1,15 @@
+---
+tag: ~fb12abda
+kind: concept
+name: Mutual independence of events
+aliases: [mutually-independent-events]
+msc: [60A05]
+sources:
+  - url: https://en.wikipedia.org/wiki/Independence_(probability_theory)
+    locator: More than two events
+---
+
+## Summary
+
+A family of events is mutually independent when, for each finite subfamily, the probability that all its events occur is the product of their probabilities.
+The node [[mutual independence of events|~b7246dcc]] gives the precise definition.
