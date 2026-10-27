@@ -3,6 +3,7 @@ tag: 0GXKM1R7E4
 kind: concept
 name: Telescoping series
 msc: [40A05]
+specializes: [0NM626FH6Q]
 uses: [0JH4MN4K1C, 0NB643K60Q]
 sources:
   - url: https://en.wikipedia.org/wiki/Telescoping_series

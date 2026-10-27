@@ -4,6 +4,7 @@ kind: concept
 name: Hausdorff space
 aliases: [t2-space, separated-space]
 msc: [54D10]
+specializes: [0NW6CH38YR]
 sources:
   - url: https://en.wikipedia.org/wiki/Hausdorff_space
     locator: lead section

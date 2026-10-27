@@ -4,6 +4,7 @@ kind: concept
 name: Second-countable space
 aliases: [second-axiom-of-countability, completely-separable-space]
 msc: [54D70]
+specializes: [0CP5NDD21C, 0Z2P41SVDP]
 sources:
   - url: https://en.wikipedia.org/wiki/Second-countable_space
     locator: lead section

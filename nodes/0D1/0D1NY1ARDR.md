@@ -3,6 +3,7 @@ tag: 0D1NY1ARDR
 kind: concept
 name: Geometric sequence
 msc: [40A05]
+specializes: [0G9EKM0E15]
 sources:
   - url: https://en.wikipedia.org/wiki/Geometric_progression
     locator: lead section

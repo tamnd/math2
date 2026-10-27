@@ -3,6 +3,7 @@ tag: 0TVJZYB6SH
 kind: concept
 name: Compact space
 msc: [54D30]
+specializes: [0CQHFPGJ45]
 sources:
   - url: https://en.wikipedia.org/wiki/Compact_space
     locator: lead section

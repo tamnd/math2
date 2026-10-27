@@ -3,6 +3,7 @@ tag: 0YBDSJARWN
 kind: concept
 name: Absolute convergence
 msc: [40A05]
+specializes: [0AF7X08PCR]
 sources:
   - url: https://en.wikipedia.org/wiki/Absolute_convergence
     locator: lead section

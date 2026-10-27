@@ -3,6 +3,7 @@ tag: 0EJVD9K0K1
 kind: concept
 name: Normal convergence
 msc: [40A30]
+specializes: [08VZ57PT26]
 sources:
   - url: https://en.wikipedia.org/wiki/Normal_convergence
     locator: lead section

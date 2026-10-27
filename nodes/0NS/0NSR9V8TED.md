@@ -4,6 +4,7 @@ kind: concept
 name: Normal space
 aliases: [t4-space]
 msc: [54D15]
+specializes: [0CQHFPGJ45]
 sources:
   - url: https://en.wikipedia.org/wiki/Normal_space
     locator: lead section

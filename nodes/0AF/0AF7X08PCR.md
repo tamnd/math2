@@ -3,6 +3,7 @@ tag: 0AF7X08PCR
 kind: concept
 name: Convergent series
 msc: [40A05]
+specializes: [0NM626FH6Q]
 sources:
   - url: https://en.wikipedia.org/wiki/Convergent_series
     locator: lead section

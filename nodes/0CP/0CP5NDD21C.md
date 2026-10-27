@@ -4,6 +4,7 @@ kind: concept
 name: First-countable space
 aliases: [first-axiom-of-countability]
 msc: [54D70]
+specializes: [0CQHFPGJ45]
 sources:
   - url: https://en.wikipedia.org/wiki/First-countable_space
     locator: lead section

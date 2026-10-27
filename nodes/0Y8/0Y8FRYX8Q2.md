@@ -3,6 +3,7 @@ tag: 0Y8FRYX8Q2
 kind: concept
 name: Sequence of functions
 msc: [40A30]
+specializes: [0G9EKM0E15]
 uses: [0QE8STGJH2, 056FSKG32J, 08FPABDQ4C]
 sources:
   - url: https://en.wikipedia.org/wiki/Function_series

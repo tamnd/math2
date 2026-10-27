@@ -3,6 +3,7 @@ tag: 04CC6K5VDT
 kind: concept
 name: Real sequence
 msc: [40A05]
+specializes: [0G9EKM0E15]
 sources:
   - url: https://en.wikipedia.org/wiki/Sequence
     locator: Limits and convergence

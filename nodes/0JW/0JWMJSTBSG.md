@@ -3,6 +3,7 @@ tag: 0JWMJSTBSG
 kind: concept
 name: Divergent series
 msc: [40A05]
+specializes: [0NM626FH6Q]
 sources:
   - url: https://en.wikipedia.org/wiki/Divergent_series
     locator: lead section

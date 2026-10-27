@@ -4,6 +4,7 @@ kind: concept
 name: Series of functions
 aliases: [function-series]
 msc: [40A30]
+specializes: [0NM626FH6Q]
 sources:
   - url: https://en.wikipedia.org/wiki/Function_series
     locator: lead section
