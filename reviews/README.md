@@ -109,6 +109,7 @@ reviews:
 | `verdict` | `faithful`, `faithful-with-conventions` or `not-faithful` |
 | `conventions` | the conventions, for the verdict `faithful-with-conventions` |
 | `class` | the class of the fault, for the verdict `not-faithful` only |
+| `minutes` | the time of the review in minutes, if you want to give it. `m2 review -minutes N` writes it. The project uses it to measure the review hours of each stage. |
 | `notes` | free text |
 
 The schema is `schema/review.v1.json`.
