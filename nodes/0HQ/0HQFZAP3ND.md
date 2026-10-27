@@ -3,6 +3,7 @@ tag: 0HQFZAP3ND
 kind: concept
 name: Coefficient matrix
 msc: [15A06]
+specializes: [0VD9ZSWWJG]
 sources:
   - url: https://en.wikipedia.org/wiki/Coefficient_matrix
     locator: lead section

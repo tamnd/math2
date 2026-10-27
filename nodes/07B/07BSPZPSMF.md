@@ -3,6 +3,7 @@ tag: 07BSPZPSMF
 kind: concept
 name: Nilpotent matrix
 msc: [15A99]
+specializes: [0JXZKX526R]
 sources:
   - url: https://en.wikipedia.org/wiki/Nilpotent_matrix
     locator: lead section

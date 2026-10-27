@@ -4,6 +4,7 @@ kind: concept
 name: Endomorphism
 aliases: [linear-operator]
 msc: [15A04]
+specializes: [0NRYHJPQG2]
 sources:
   - url: https://en.wikipedia.org/wiki/Endomorphism
     locator: lead section

@@ -4,6 +4,7 @@ kind: concept
 name: Hermitian matrix
 aliases: [self-adjoint-matrix]
 msc: [15B57]
+specializes: [0MR0BYF0K2]
 sources:
   - url: https://en.wikipedia.org/wiki/Hermitian_matrix
     locator: lead section

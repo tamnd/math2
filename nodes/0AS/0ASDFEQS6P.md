@@ -4,6 +4,7 @@ kind: concept
 name: Block matrix
 aliases: [partitioned-matrix]
 msc: [15A99]
+specializes: [0VD9ZSWWJG]
 sources:
   - url: https://en.wikipedia.org/wiki/Block_matrix
     locator: Formal definition

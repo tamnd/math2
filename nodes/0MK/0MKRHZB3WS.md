@@ -4,6 +4,7 @@ kind: concept
 name: Change of basis matrix
 aliases: [transition-matrix]
 msc: [15A03, 15A04]
+specializes: [0EB9N0S33C]
 sources:
   - url: https://en.wikipedia.org/wiki/Change_of_basis
     locator: Change-of-basis formula

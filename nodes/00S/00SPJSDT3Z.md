@@ -3,6 +3,7 @@ tag: 00SPJSDT3Z
 kind: concept
 name: Gram matrix
 msc: [15A63, 15B57]
+specializes: [0JXZKX526R]
 sources:
   - url: https://en.wikipedia.org/wiki/Gram_matrix
     locator: lead section

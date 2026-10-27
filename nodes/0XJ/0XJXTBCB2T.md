@@ -3,6 +3,7 @@ tag: 0XJXTBCB2T
 kind: concept
 name: Orthogonal complement
 msc: [15A63, 46C05]
+specializes: [00YC1D652K]
 sources:
   - url: https://en.wikipedia.org/wiki/Orthogonal_complement
     locator: Inner product spaces

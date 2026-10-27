@@ -3,6 +3,7 @@ tag: 0BR3FY5Q8M
 kind: concept
 name: Quotient space
 msc: [15A03]
+specializes: [000AYPA9AJ]
 sources:
   - url: https://en.wikipedia.org/wiki/Quotient_space_(linear_algebra)
     locator: Definition

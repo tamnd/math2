@@ -3,6 +3,7 @@ tag: 08SP3DF8NB
 kind: concept
 name: Permutation matrix
 msc: [15A99, 05A05]
+specializes: [0W02QESPJQ]
 sources:
   - url: https://en.wikipedia.org/wiki/Permutation_matrix
     locator: lead section

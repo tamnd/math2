@@ -4,6 +4,7 @@ kind: concept
 name: Dot product
 aliases: [scalar-product]
 msc: [15A63]
+specializes: [0NB0AWGJBW]
 sources:
   - url: https://en.wikipedia.org/wiki/Dot_product
     locator: Coordinate definition

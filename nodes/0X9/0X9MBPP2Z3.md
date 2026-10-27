@@ -3,6 +3,7 @@ tag: 0X9MBPP2Z3
 kind: concept
 name: Space of linear maps
 msc: [15A04]
+specializes: [000AYPA9AJ]
 sources:
   - url: https://en.wikipedia.org/wiki/Linear_map
     locator: Vector space of linear maps

@@ -3,6 +3,7 @@ tag: 067NKSBEWT
 kind: concept
 name: Scalar matrix
 msc: [15A99]
+specializes: [044JNC7ZAA]
 sources:
   - url: https://en.wikipedia.org/wiki/Diagonal_matrix
     locator: Scalar matrix

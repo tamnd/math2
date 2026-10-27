@@ -3,6 +3,7 @@ tag: 07SJXTWVQW
 kind: concept
 name: Linear isometry
 msc: [15A04, 46B04]
+specializes: [0NRYHJPQG2]
 sources:
   - url: https://en.wikipedia.org/wiki/Isometry
     locator: Linear isometry

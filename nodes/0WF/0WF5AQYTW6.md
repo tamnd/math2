@@ -4,6 +4,7 @@ kind: concept
 name: Reduced row echelon form
 aliases: [rref]
 msc: [15A06]
+specializes: [0VYCDGMJJJ]
 sources:
   - url: https://en.wikipedia.org/wiki/Row_echelon_form
     locator: Reduced row echelon form

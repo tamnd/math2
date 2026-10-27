@@ -3,6 +3,7 @@ tag: 0AJ035ZTZE
 kind: concept
 name: Generalised eigenspace
 msc: [15A18]
+specializes: [0ACX5QT8TE]
 sources:
   - url: https://en.wikipedia.org/wiki/Generalized_eigenvector
     locator: Overview and definition

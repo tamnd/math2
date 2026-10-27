@@ -3,6 +3,7 @@ tag: 0SQZMXB6GP
 kind: concept
 name: Bilinear form
 msc: [15A63]
+specializes: [0443XNARDV]
 sources:
   - url: https://en.wikipedia.org/wiki/Bilinear_form
     locator: lead section

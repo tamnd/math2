@@ -3,6 +3,7 @@ tag: 0ACX5QT8TE
 kind: concept
 name: Invariant subspace
 msc: [15A04, 47A15]
+specializes: [00YC1D652K]
 sources:
   - url: https://en.wikipedia.org/wiki/Invariant_subspace
     locator: For a single operator

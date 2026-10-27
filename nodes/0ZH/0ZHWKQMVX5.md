@@ -3,6 +3,7 @@ tag: 0ZHWKQMVX5
 kind: concept
 name: Finite-dimensional vector space
 msc: [15A03]
+specializes: [000AYPA9AJ]
 sources:
   - url: https://en.wikipedia.org/wiki/Dimension_(vector_space)
     locator: lead section

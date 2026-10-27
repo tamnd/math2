@@ -3,6 +3,7 @@ tag: 01REXW3WWE
 kind: concept
 name: Elementary matrix
 msc: [15A23]
+specializes: [0EB9N0S33C]
 sources:
   - url: https://en.wikipedia.org/wiki/Elementary_matrix
     locator: lead section

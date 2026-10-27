@@ -3,6 +3,7 @@ tag: 0ZD2CF6ZS0
 kind: concept
 name: Dual basis
 msc: [15A04]
+specializes: [0KCQ9Y3QKA]
 sources:
   - url: https://en.wikipedia.org/wiki/Dual_basis
     locator: Finite-dimensional vector spaces

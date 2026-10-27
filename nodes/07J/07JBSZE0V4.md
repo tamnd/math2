@@ -3,6 +3,7 @@ tag: 07JBSZE0V4
 kind: concept
 name: Dual space
 msc: [15A04]
+specializes: [000AYPA9AJ]
 sources:
   - url: https://en.wikipedia.org/wiki/Dual_space
     locator: Algebraic dual space
