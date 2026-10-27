@@ -1,2 +1,3 @@
+{"id":"GYVNGX0HDC","mentions":["ax://paper/2302.06336#9KNK"],"kind":"statement","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
 {"id":"GYVNPSJDGW","mentions":["m2://rec/wikidata/Q35875#1"],"kind":"concept","name":"mass–energy equivalence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"GYVQ93JWA9","mentions":["m2://rec/wikidata/Q201933#1"],"kind":"definition","name":"dyne","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

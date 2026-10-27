@@ -1,1 +1,2 @@
 {"id":"ZBY6CAMDS8","mentions":["m2://rec/wikidata/Q104841236#1"],"kind":"concept","name":"unitary element","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"ZBYG8WF2E1","mentions":["ax://paper/1907.01440#4J2N"],"kind":"definition","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}

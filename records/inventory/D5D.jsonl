@@ -1,1 +1,2 @@
 {"id":"D5D42CF6FH","mentions":["m2://rec/wikidata/Q174923#1"],"kind":"unknown","name":"optical illusion","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"D5DQCQYNZG","mentions":["ax://paper/2306.17260#VAWO"],"kind":"statement","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}

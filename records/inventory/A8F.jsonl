@@ -1,1 +1,2 @@
+{"id":"A8F6BZMGTX","mentions":["ax://paper/1607.01095#IXWH"],"kind":"definition","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
 {"id":"A8FVYJCBW0","mentions":["m2://rec/wikidata/Q318751#1"],"kind":"concept","name":"abelian variety","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

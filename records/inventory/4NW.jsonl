@@ -1,1 +1,2 @@
+{"id":"4NW61ZZQWM","mentions":["ax://paper/2401.00191#SOSY"],"kind":"statement","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
 {"id":"4NWG63AYHP","mentions":["m2://rec/wikidata/Q732332#1"],"kind":"unknown","name":"Weibull distribution","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
