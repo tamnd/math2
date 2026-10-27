@@ -1,0 +1,1 @@
+{"id":"5GQN0KWK3X","mentions":["ax://paper/2301.02848#HTA1"],"kind":"statement","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.6"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.6"}]}

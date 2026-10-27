@@ -1,1 +1,2 @@
+{"id":"5PK6M52HDP","mentions":["ax://paper/2208.07401#O2MN"],"kind":"statement","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.6"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.6"}]}
 {"id":"5PKH4GWQV9","mentions":["m2://rec/wikidata/Q6370925#1"],"kind":"statement","name":"1035","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

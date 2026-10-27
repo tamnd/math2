@@ -1,2 +1,3 @@
 {"id":"MHR6F4T52F","mentions":["m2://rec/wikidata/Q2403973#1"],"kind":"problem","name":"class number problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"MHRADZC4JH","mentions":["ax://paper/2508.21045#K2Q9"],"kind":"statement","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.6"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.6"}]}
 {"id":"MHRFA5S6YQ","mentions":["m2://rec/wikidata/Q2881932#1"],"kind":"definition","name":"sulfur-36","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

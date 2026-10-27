@@ -1,2 +1,3 @@
 {"id":"GKJ7B0TBTN","mentions":["m2://rec/wikidata/Q1137573#1"],"kind":"unknown","name":"polynomial time","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"GKJAB8YM9W","mentions":["ax://paper/2201.10697#ZW1O"],"kind":"conjecture","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.6"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.6"}]}
 {"id":"GKJFKZTBJD","mentions":["m2://rec/wikidata/Q77969871#1"],"kind":"unknown","name":"strictly upper triangular matrix","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
