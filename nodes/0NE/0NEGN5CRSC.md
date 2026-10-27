@@ -4,6 +4,7 @@ kind: concept
 name: Self-adjoint operator
 aliases: [hermitian-operator]
 msc: [47B15, 15B57]
+specializes: [0C8BR8XRTR]
 sources:
   - url: https://en.wikipedia.org/wiki/Self-adjoint_operator
     locator: Definitions

@@ -4,6 +4,7 @@ kind: concept
 name: Marginal distribution
 aliases: [marginal-probability]
 msc: [62H05]
+specializes: [0DVDCMA2DK]
 sources:
   - url: https://en.wikipedia.org/wiki/Marginal_distribution
     locator: lead section

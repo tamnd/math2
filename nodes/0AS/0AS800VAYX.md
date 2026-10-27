@@ -4,6 +4,7 @@ kind: concept
 name: Consistent estimator
 aliases: [consistency-of-an-estimator]
 msc: [62F12]
+specializes: [0SSS6ERQ0S]
 sources:
   - url: https://en.wikipedia.org/wiki/Consistent_estimator
     locator: lead section

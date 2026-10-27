@@ -4,6 +4,7 @@ kind: concept
 name: Diffeomorphism
 aliases: [smooth-isomorphism]
 msc: [58C25]
+specializes: [0QT00PB5G2]
 uses: [0HHHDCXZV4, 0JPCHTXWG0]
 sources:
   - url: https://en.wikipedia.org/wiki/Diffeomorphism

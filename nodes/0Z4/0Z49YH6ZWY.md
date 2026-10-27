@@ -3,6 +3,7 @@ tag: 0Z49YH6ZWY
 kind: concept
 name: Taylor series
 msc: [41A58]
+specializes: [0MZB06ST2B]
 sources:
   - url: https://en.wikipedia.org/wiki/Taylor_series
     locator: lead section

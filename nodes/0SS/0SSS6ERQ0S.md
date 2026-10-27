@@ -4,6 +4,7 @@ kind: concept
 name: Estimator
 aliases: [point-estimator]
 msc: [62F10]
+specializes: [0Q5CG2NEQ8]
 sources:
   - url: https://en.wikipedia.org/wiki/Estimator
     locator: lead section

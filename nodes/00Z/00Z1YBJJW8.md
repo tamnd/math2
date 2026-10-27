@@ -3,6 +3,7 @@ tag: 00Z1YBJJW8
 kind: concept
 name: Arcsine
 msc: [33B10]
+specializes: [05WEYX99X4]
 sources:
   - url: https://en.wikipedia.org/wiki/Inverse_trigonometric_functions
     locator: Principal values

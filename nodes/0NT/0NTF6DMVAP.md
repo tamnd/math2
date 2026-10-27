@@ -4,6 +4,7 @@ kind: concept
 name: Direct proof
 msc: [00A35]
 topics: [G9JFJGY4TQ]
+specializes: [0B94TKFQJX]
 uses: [0B94TKFQJX, 0ZNX6DQ3EJ]
 sources:
   - url: https://en.wikipedia.org/wiki/Direct_proof

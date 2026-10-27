@@ -4,6 +4,7 @@ kind: concept
 name: Sample variance
 aliases: [unbiased-sample-variance, corrected-sample-variance]
 msc: [62F10]
+specializes: [0Q5CG2NEQ8]
 sources:
   - url: https://en.wikipedia.org/wiki/Bessel's_correction
     locator: Formulation
