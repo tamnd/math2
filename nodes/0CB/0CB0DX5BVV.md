@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q743179
   wikipedia: Normal subgroup
+inventory: [F3D99PH13A]
 ---
 
 ## Summary

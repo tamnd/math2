@@ -12,6 +12,7 @@ sources:
     locator: A vector proof
   - url: https://en.wikipedia.org/wiki/Euler_line
     locator: Distances between centers
+inventory: [KX8G06S23V]
 ---
 
 ## Statement

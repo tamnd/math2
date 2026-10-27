@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q825857
   wikipedia: Riemann sphere
+inventory: [N5CPEK3S76]
 ---
 
 ## Summary

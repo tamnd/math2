@@ -10,6 +10,7 @@ sources:
     locator: Formal definition
   - url: https://en.wikipedia.org/wiki/Laplace_transform
     locator: Region of convergence
+inventory: [P5ZB1JKQQ3]
 ---
 
 ## Definition

@@ -8,6 +8,7 @@ uses: [096HN851YZ, 071DDFVG4J]
 sources:
   - url: https://en.wikipedia.org/wiki/Solvable_group
     locator: Definition
+inventory: [NDVKCTT0R6]
 ---
 
 ## Definition

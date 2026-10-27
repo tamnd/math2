@@ -8,6 +8,7 @@ uses: [09S3PFBEPM]
 sources:
   - url: https://en.wikipedia.org/wiki/Euclidean_domain
     locator: Definition
+inventory: [7FH8VCAA3H]
 ---
 
 ## Definition

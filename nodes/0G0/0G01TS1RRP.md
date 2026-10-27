@@ -8,6 +8,7 @@ uses: [009QCP5T3Z]
 sources:
   - url: https://en.wikipedia.org/wiki/Deficient_number
     locator: lead section
+inventory: [11EPCM4WQC]
 ---
 
 ## Definition

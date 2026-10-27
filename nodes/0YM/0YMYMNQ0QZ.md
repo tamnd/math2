@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q571124
   wikipedia: Simple group
+inventory: [AA3EVQBVEK]
 ---
 
 ## Summary

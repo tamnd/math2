@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q2750301
   wikipedia: Augmented matrix
+inventory: [7FF7WWJRZD]
 ---
 
 ## Summary

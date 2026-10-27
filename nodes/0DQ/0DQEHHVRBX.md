@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q2336508
   wikipedia: Slope field
+inventory: [5JB8AD3VH1]
 ---
 
 ## Summary

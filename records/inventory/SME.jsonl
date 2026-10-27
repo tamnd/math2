@@ -1,2 +1,2 @@
 {"id":"SMEBAYMHRN","mentions":["m2://rec/wikidata/Q3087844#1"],"kind":"concept","name":"Chern–Weil homomorphism","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"SMEW0A1CWG","mentions":["m2://rec/wikidata/Q557624#1"],"kind":"unknown","name":"rule of product","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"SMEW0A1CWG","mentions":["m2://rec/wikidata/Q557624#1"],"kind":"unknown","name":"rule of product","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0VPK4X73Q0"}],"outcome":{"value":"node","target":["0VPK4X73Q0"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}

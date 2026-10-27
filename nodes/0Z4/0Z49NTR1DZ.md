@@ -8,6 +8,7 @@ uses: [0DT0TCV75N, 07KVB4JSC7]
 sources:
   - url: https://en.wikipedia.org/wiki/Symmetric_difference
     locator: lead section
+inventory: [EA7MJB7FQW]
 ---
 
 ## Definition

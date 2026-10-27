@@ -10,6 +10,7 @@ sources:
     locator: lead section
   - url: https://en.wikipedia.org/wiki/Isolated_singularity
     locator: Examples
+inventory: [ESMYZJ99FT]
 ---
 
 ## Definition

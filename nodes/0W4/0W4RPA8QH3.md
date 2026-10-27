@@ -8,6 +8,7 @@ uses: [0HBRW4E6G1, 0ECVK59Y03]
 sources:
   - url: https://en.wikipedia.org/wiki/Disjoint_sets
     locator: lead section
+inventory: [6A1JM8J0TB]
 ---
 
 ## Definition

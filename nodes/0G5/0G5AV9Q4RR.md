@@ -8,6 +8,7 @@ uses: [0CNQXVBHCX, 01ZQQDCERP, 0B1FSS1VZW]
 sources:
   - url: https://en.wikipedia.org/wiki/Closed_set
     locator: Definition
+inventory: [HGDRSJB7DZ]
 ---
 
 ## Definition

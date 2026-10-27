@@ -8,6 +8,7 @@ uses: [0CWXCWP0Y0, 0H47DMFN3S, 0YYWCNTPWR]
 sources:
   - url: https://en.wikipedia.org/wiki/Outer_automorphism_group
     locator: lead section
+inventory: [RK68MA30BS]
 ---
 
 ## Definition

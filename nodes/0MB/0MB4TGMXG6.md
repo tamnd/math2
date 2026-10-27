@@ -7,6 +7,7 @@ defines: 0MNF0BYFQC
 sources:
   - url: https://en.wikipedia.org/wiki/Algebraic_number
     locator: lead section
+inventory: [4Y780K0NV5]
 ---
 
 ## Definition

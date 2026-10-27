@@ -6,6 +6,7 @@ msc: [11A07]
 sources:
   - url: https://en.wikipedia.org/wiki/Modular_arithmetic
     locator: Congruence classes
+inventory: [9XZD72Y9N4]
 ---
 
 ## Summary

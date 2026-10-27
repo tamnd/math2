@@ -8,6 +8,7 @@ uses: [0HR573CHNM, 0N1MY1T0W9]
 sources:
   - url: https://en.wikipedia.org/wiki/Row_and_column_spaces
     locator: lead section
+inventory: [6C8HH5VHGP]
 ---
 
 ## Definition

@@ -8,6 +8,7 @@ uses: [0G52BPNPKG]
 sources:
   - url: https://en.wikipedia.org/wiki/Clique_(graph_theory)
     locator: Definitions
+inventory: [N65RYYH85X]
 ---
 
 ## Definition

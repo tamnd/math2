@@ -14,6 +14,7 @@ sources:
 same_as:
   wikidata: Q1727461
   wikipedia: Intersecting secants theorem
+inventory: [Y897EED5PC]
 ---
 
 ## Statement

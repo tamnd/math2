@@ -1,2 +1,2 @@
 {"id":"MQD5027XKD","mentions":["m2://rec/wikidata/Q19624009#1"],"kind":"unknown","name":"hyperbolic sine integral","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"MQDPN6144H","mentions":["m2://rec/wikidata/Q120976#1"],"kind":"object","name":"factorial","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"MQDPN6144H","mentions":["m2://rec/wikidata/Q120976#1"],"kind":"object","name":"factorial","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0XWG0JGDFW"}],"outcome":{"value":"node","target":["0XWG0JGDFW"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}

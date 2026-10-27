@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q878259
   wikipedia: Quadratic residue
+inventory: [440770N1BX]
 ---
 
 ## Summary

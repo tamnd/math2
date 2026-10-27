@@ -9,6 +9,7 @@ uses: [G5S1M9, 0RJMNEN3BJ, 0HV9Y7WG5R]
 sources:
   - url: https://en.wikipedia.org/wiki/Group_action
     locator: Left group action
+inventory: [ZWHBCNSQPK]
 ---
 
 ## Definition

@@ -1,1 +1,1 @@
-{"id":"5F4PSBSS2V","mentions":["m2://rec/wikidata/Q10621500#1"],"kind":"unknown","name":"orthocenter","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"5F4PSBSS2V","mentions":["m2://rec/wikidata/Q10621500#1"],"kind":"unknown","name":"orthocenter","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0WB619CA0V"}],"outcome":{"value":"node","target":["0WB619CA0V"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}

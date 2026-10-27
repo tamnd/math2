@@ -8,6 +8,7 @@ uses: [009QCP5T3Z]
 sources:
   - url: https://en.wikipedia.org/wiki/Abundant_number
     locator: Definition and examples
+inventory: [BENJC095SX]
 ---
 
 ## Definition

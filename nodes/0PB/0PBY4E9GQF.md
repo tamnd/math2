@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q526790
   wikipedia: Skew-symmetric matrix
+inventory: [2FP1241FAJ]
 ---
 
 ## Summary

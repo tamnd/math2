@@ -6,6 +6,7 @@ msc: [16D25]
 sources:
   - url: https://en.wikipedia.org/wiki/Ideal_(ring_theory)
     locator: Definitions
+inventory: [TJZ8GQQ7F6]
 ---
 
 ## Summary

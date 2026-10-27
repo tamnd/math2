@@ -12,6 +12,7 @@ sources:
 same_as:
   wikidata: Q1989192
   wikipedia: Law of total probability
+inventory: [C4VSKNP6Y8]
 ---
 
 ## Statement

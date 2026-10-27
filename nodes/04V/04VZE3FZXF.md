@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q856741
   wikipedia: Random walk
+inventory: [JG97DZ36TR]
 ---
 
 ## Summary

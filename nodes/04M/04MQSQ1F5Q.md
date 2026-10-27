@@ -6,6 +6,7 @@ msc: [05C69]
 sources:
   - url: https://en.wikipedia.org/wiki/Clique_(graph_theory)
     locator: Definitions
+inventory: [N65RYYH85X]
 ---
 
 ## Summary

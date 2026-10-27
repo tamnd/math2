@@ -6,6 +6,7 @@ msc: [05A10]
 sources:
   - url: https://en.wikipedia.org/wiki/Falling_and_rising_factorials
     locator: lead section
+inventory: [YQXBZCQ804]
 ---
 
 ## Summary

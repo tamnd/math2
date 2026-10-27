@@ -8,6 +8,7 @@ uses: [0SN0MAEKYX]
 sources:
   - url: https://en.wikipedia.org/wiki/Prime-counting_function
     locator: lead section
+inventory: [9FB6GP0C2W]
 ---
 
 ## Definition

@@ -8,6 +8,7 @@ uses: [0AZ3R52593]
 sources:
   - url: https://en.wikipedia.org/wiki/Limit_of_a_sequence
     locator: Real numbers
+inventory: [JMX0KG6VWN]
 ---
 
 ## Definition

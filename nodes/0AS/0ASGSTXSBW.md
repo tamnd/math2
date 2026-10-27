@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q522216
   wikipedia: Commutator subgroup
+inventory: [Y24K6T3DBQ]
 ---
 
 ## Summary

@@ -6,6 +6,7 @@ msc: [11N05]
 sources:
   - url: https://en.wikipedia.org/wiki/Twin_prime
     locator: Twin prime conjecture
+inventory: [QZN6ENBJAM]
 ---
 
 ## Statement

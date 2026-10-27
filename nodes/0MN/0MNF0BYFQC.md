@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q168817
   wikipedia: Algebraic number
+inventory: [4Y780K0NV5]
 ---
 
 ## Summary

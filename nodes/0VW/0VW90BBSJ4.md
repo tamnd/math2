@@ -6,6 +6,7 @@ msc: [26A24]
 sources:
   - url: https://en.wikipedia.org/wiki/Smoothness
     locator: Differentiability classes
+inventory: [KQZ8H9DM9F]
 ---
 
 ## Summary

@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q43219517
   wikipedia: Moore–Penrose inverse
+inventory: [Z0BK2ZVY1Y]
 ---
 
 ## Summary

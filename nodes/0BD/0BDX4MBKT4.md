@@ -8,6 +8,7 @@ uses: [0P05RJC5XA]
 sources:
   - url: https://en.wikipedia.org/wiki/Monic_polynomial
     locator: lead section
+inventory: [D443QFJQ5K]
 ---
 
 ## Definition

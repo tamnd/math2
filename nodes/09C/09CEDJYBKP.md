@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q173740
   wikipedia: Cartesian product
+inventory: [ATQ3YAQC1W]
 ---
 
 ## Summary

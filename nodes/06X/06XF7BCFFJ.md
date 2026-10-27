@@ -9,6 +9,7 @@ uses: [0BK6JBK58W]
 sources:
   - url: https://en.wikipedia.org/wiki/Simple_continued_fraction
     locator: Formulation
+inventory: [QHCPEFXHNG]
 ---
 
 ## Definition

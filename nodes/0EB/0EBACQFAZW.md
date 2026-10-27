@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q163875
   wikipedia: Cardinal number
+inventory: [GHER5PHWQC]
 ---
 
 ## Summary

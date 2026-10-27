@@ -8,6 +8,7 @@ uses: [0JH4MN4K1C]
 sources:
   - url: https://en.wikipedia.org/wiki/Power_series
     locator: lead section
+inventory: [T7NDCA12WD]
 ---
 
 ## Definition

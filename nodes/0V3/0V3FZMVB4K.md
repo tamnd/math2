@@ -8,6 +8,7 @@ uses: [0VCTBJMEJF, 0FR1BDKK10]
 sources:
   - url: https://en.wikipedia.org/wiki/Gamma_function
     locator: Main definition
+inventory: [2VW1BD3795]
 ---
 
 ## Definition

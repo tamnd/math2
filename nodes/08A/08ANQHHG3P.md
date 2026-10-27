@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1060343
   wikipedia: Independent set (graph theory)
+inventory: [7JZB5FFNBM]
 ---
 
 ## Summary

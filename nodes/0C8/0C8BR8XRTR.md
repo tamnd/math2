@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q854946
   wikipedia: Normal operator
+inventory: [3TQD4SG7V4]
 ---
 
 ## Summary

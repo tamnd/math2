@@ -8,6 +8,7 @@ uses: [0MXMS3AE13, 0DKRR22AEQ]
 sources:
   - url: https://en.wikipedia.org/wiki/Convergence_of_random_variables
     locator: Convergence in distribution
+inventory: [4ZDWH5CW23]
 ---
 
 ## Definition

@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q772232
   wikipedia: Conditional expectation
+inventory: [FFGC27ZEK7]
 ---
 
 ## Summary

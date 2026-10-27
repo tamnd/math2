@@ -9,6 +9,7 @@ uses: [G5S1M9]
 sources:
   - url: https://en.wikipedia.org/wiki/Symmetric_group
     locator: Definition and first properties
+inventory: [E6FTXK2B33]
 ---
 
 ## Definition

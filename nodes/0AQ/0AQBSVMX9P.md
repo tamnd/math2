@@ -6,6 +6,7 @@ msc: [05C99]
 sources:
   - url: https://en.wikipedia.org/wiki/Glossary_of_graph_theory
     locator: E
+inventory: [5PGY2NEABC]
 ---
 
 ## Summary

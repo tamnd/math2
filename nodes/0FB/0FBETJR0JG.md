@@ -6,6 +6,7 @@ msc: [26A24]
 sources:
   - url: https://en.wikipedia.org/wiki/Maximum_and_minimum
     locator: Definition
+inventory: [7DATAQKNGF]
 ---
 
 ## Summary

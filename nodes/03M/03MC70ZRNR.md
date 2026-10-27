@@ -8,6 +8,7 @@ uses: [0J3578562S, 07PFYV65MB, 0V4DET59NW, 0KNJWEVSMG]
 sources:
   - url: https://en.wikipedia.org/wiki/Norm_(mathematics)
     locator: Equivalence
+inventory: [3MYCY48VQ2]
 ---
 
 ## Statement

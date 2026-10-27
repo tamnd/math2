@@ -8,6 +8,7 @@ uses: [0P799D6AMN]
 sources:
   - url: https://en.wikipedia.org/wiki/Bilinear_form
     locator: Symmetric, skew-symmetric, and alternating forms
+inventory: [JEX1WKZNKA]
 ---
 
 ## Definition

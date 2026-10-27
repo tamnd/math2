@@ -9,6 +9,7 @@ uses: [0P97V20RW7, 04SW7WECS8]
 sources:
   - url: https://en.wikipedia.org/wiki/Slope_field
     locator: Definition
+inventory: [5JB8AD3VH1]
 ---
 
 ## Definition

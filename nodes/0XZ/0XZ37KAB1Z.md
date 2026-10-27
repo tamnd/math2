@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q215382
   wikipedia: Disjoint sets
+inventory: [6A1JM8J0TB]
 ---
 
 ## Summary

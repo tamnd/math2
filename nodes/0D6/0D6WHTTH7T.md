@@ -8,6 +8,7 @@ uses: [0N0PXCTYA7, 0D1VWQGZZ7]
 sources:
   - url: https://en.wikipedia.org/wiki/Conjugacy_class
     locator: Conjugacy of subgroups and general subsets
+inventory: [DH5A822027]
 ---
 
 ## Definition

@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q320357
   wikipedia: Closed set
+inventory: [HGDRSJB7DZ]
 ---
 
 ## Summary

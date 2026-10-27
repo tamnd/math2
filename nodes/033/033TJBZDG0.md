@@ -8,6 +8,7 @@ uses: [0QH5ENKZM1, 0FJB06AD2P, 0HB8SXHPFA, 0ZG61TFBES]
 sources:
   - url: https://en.wikipedia.org/wiki/Markov_chain
     locator: Discrete-time Markov chain
+inventory: [GPZTSFYRZT]
 ---
 
 ## Definition

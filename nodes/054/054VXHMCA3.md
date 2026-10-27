@@ -10,6 +10,7 @@ sources:
     locator: Complex exponential
   - url: https://en.wikipedia.org/wiki/Exponential_function
     locator: Power series
+inventory: [9YH28XMRA9]
 ---
 
 ## Definition

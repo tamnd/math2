@@ -9,6 +9,7 @@ uses: [0A6PGTTP2A]
 sources:
   - url: https://en.wikipedia.org/wiki/Characteristic_equation_(calculus)
     locator: Derivation
+inventory: [QCAG503EPP]
 ---
 
 ## Definition

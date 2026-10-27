@@ -11,6 +11,7 @@ sources:
 same_as:
   wikidata: Q6094400
   wikipedia: Iterated integral
+inventory: [FPM5FSVPQB]
 ---
 
 ## Summary

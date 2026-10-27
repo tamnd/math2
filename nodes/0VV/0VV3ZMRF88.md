@@ -6,6 +6,7 @@ msc: [11A25]
 sources:
   - url: https://en.wikipedia.org/wiki/Divisor_function
     locator: lead section
+inventory: [8GDRG1CKD7]
 ---
 
 ## Summary

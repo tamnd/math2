@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q899539
   wikipedia: Cross-ratio
+inventory: [HTTF4QGXMS]
 ---
 
 ## Summary

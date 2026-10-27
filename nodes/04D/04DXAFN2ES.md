@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q204037
   wikipedia: Natural logarithm
+inventory: [1PZGXVC44Z]
 ---
 
 ## Summary

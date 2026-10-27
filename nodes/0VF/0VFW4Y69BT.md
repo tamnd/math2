@@ -8,6 +8,7 @@ uses: [0DDA6CY7GJ, 0894J980RK]
 sources:
   - url: https://en.wikipedia.org/wiki/Quotient_ring
     locator: Formal quotient ring construction
+inventory: [20Z8XK08MP]
 ---
 
 ## Definition

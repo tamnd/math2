@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1544261
   wikipedia: Totally disconnected space
+inventory: [XDMEQS2MKT]
 ---
 
 ## Summary

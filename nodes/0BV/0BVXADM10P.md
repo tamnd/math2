@@ -8,6 +8,7 @@ uses: [0N1MY1T0W9]
 sources:
   - url: https://en.wikipedia.org/wiki/Matrix_addition
     locator: lead section
+inventory: [NAYXFHVVCR]
 ---
 
 ## Definition

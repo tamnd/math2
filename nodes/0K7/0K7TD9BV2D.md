@@ -8,6 +8,7 @@ uses: [0CP7YY6NAG]
 sources:
   - url: https://en.wikipedia.org/wiki/Idempotent_matrix
     locator: lead section
+inventory: [DMB0JAP9ZR]
 ---
 
 ## Definition

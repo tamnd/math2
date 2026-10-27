@@ -8,6 +8,7 @@ uses: [09EYMKMSB9, 00X2A9G9W3, 0SHMC00RJV]
 sources:
   - url: https://en.wikipedia.org/wiki/Normal_extension
     locator: Definition
+inventory: [S50VZ0T8N6]
 ---
 
 ## Definition

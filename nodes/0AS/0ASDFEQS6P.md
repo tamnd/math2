@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q884772
   wikipedia: Block matrix
+inventory: [95VN171XXT]
 ---
 
 ## Summary

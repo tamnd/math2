@@ -7,6 +7,7 @@ defines: 0GVDFAY4KW
 sources:
   - url: https://en.wikipedia.org/wiki/Disjunctive_normal_form
     locator: Definition
+inventory: [CN2SAXWJ5G]
 ---
 
 ## Definition

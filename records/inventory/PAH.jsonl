@@ -1,2 +1,2 @@
 {"id":"PAHB4TZ8YN","mentions":["m2://rec/wikidata/Q3229#1"],"kind":"definition","name":"positron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"PAHTJEK1BV","mentions":["m2://rec/wikidata/Q14402006#1"],"kind":"unknown","name":"reductio ad absurdum","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"PAHTJEK1BV","mentions":["m2://rec/wikidata/Q14402006#1"],"kind":"unknown","name":"reductio ad absurdum","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0J0XBKG64S"}],"outcome":{"value":"node","target":["0J0XBKG64S"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}

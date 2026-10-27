@@ -8,6 +8,7 @@ uses: [09VDS2W1E8]
 sources:
   - url: https://en.wikipedia.org/wiki/Finitely_generated_module
     locator: Definition
+inventory: [W1HTVQSQ49]
 ---
 
 ## Definition

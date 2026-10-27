@@ -8,6 +8,7 @@ uses: [063W5JMY85, 0MCK8K2D7Z, 06JYPJ4WHH]
 sources:
   - url: https://en.wikipedia.org/wiki/Complete_metric_space
     locator: Definition
+inventory: [E0F8Q0THPW]
 ---
 
 ## Definition

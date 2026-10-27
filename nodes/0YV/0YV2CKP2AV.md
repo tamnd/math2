@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q756747
   wikipedia: Root of unity
+inventory: [BWNVNZSQA0]
 ---
 
 ## Summary

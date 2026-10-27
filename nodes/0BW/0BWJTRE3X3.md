@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q4951625
   wikipedia: Box topology
+inventory: [BWG93CWGXE]
 ---
 
 ## Summary

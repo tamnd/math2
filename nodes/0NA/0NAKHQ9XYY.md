@@ -11,6 +11,7 @@ sources:
 same_as:
   wikidata: Q877489
   wikipedia: Apollonius's theorem
+inventory: [F3CYM68Y0C]
 ---
 
 ## Statement

@@ -1,2 +1,2 @@
 {"id":"BJA5E5J5ER","mentions":["m2://rec/wikidata/Q3115499#1"],"kind":"unknown","name":"Harborth graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"BJAH21NK64","mentions":["m2://rec/wikidata/Q3406712#1"],"kind":"unknown","name":"ring direct product","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"BJAH21NK64","mentions":["m2://rec/wikidata/Q3406712#1"],"kind":"unknown","name":"ring direct product","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0QM2G72DXA"}],"outcome":{"value":"node","target":["0QM2G72DXA"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}

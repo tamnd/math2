@@ -8,6 +8,7 @@ uses: [0CWXCWP0Y0, 0N0PXCTYA7]
 sources:
   - url: https://en.wikipedia.org/wiki/Characteristic_subgroup
     locator: Definition
+inventory: [YYR06TVTMM]
 ---
 
 ## Definition

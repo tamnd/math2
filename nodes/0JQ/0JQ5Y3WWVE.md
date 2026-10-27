@@ -10,6 +10,7 @@ sources:
     locator: Series representations
   - url: https://en.wikipedia.org/wiki/Harmonic_series_(mathematics)
     locator: Alternating harmonic series
+inventory: [J8295WDSXJ]
 ---
 
 ## Example

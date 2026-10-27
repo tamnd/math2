@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1203540
   wikipedia: Maximal ideal
+inventory: [VCVZ0EPK0S]
 ---
 
 ## Summary

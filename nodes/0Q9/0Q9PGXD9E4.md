@@ -8,6 +8,7 @@ uses: [0CP7YY6NAG]
 sources:
   - url: https://en.wikipedia.org/wiki/Diagonal_matrix
     locator: lead section
+inventory: [EZGPZWYDK2]
 ---
 
 ## Definition

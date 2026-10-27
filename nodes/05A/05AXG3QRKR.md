@@ -8,6 +8,7 @@ uses: [0XPR1E85W0, 0JPCHTXWG0, 0J8Y1NCY0K]
 sources:
   - url: https://en.wikipedia.org/wiki/Partial_derivative
     locator: Definition
+inventory: [2SV36AP64R]
 ---
 
 ## Definition

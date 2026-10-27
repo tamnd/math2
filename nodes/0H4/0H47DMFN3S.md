@@ -9,6 +9,7 @@ uses: [0CWXCWP0Y0, 0D1VWQGZZ7]
 sources:
   - url: https://en.wikipedia.org/wiki/Inner_automorphism
     locator: Definition
+inventory: [TFRZSX86RN]
 ---
 
 ## Definition

@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q752487
   wikipedia: Dual space
+inventory: [X25E8AQW7R]
 ---
 
 ## Summary

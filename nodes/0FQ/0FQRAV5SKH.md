@@ -8,6 +8,7 @@ uses: [0ZB7J071WQ, 0FRSR10DWF]
 sources:
   - url: https://en.wikipedia.org/wiki/Complex_number
     locator: Complex conjugate, absolute value, argument and division
+inventory: [S5RZYX8ENN]
 ---
 
 ## Statement

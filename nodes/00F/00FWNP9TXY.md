@@ -11,6 +11,7 @@ sources:
     locator: Contour integrals
   - url: https://en.wikipedia.org/wiki/Contour_integration
     locator: Directed smooth curves
+inventory: [JFQTEF3FY6]
 ---
 
 ## Definition

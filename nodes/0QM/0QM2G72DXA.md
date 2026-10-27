@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q3406712
   wikipedia: Product of rings
+inventory: [E4RHVD0CBR]
 ---
 
 ## Summary

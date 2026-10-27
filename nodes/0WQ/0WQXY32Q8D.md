@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q21086747
   wikipedia: Borel set
+inventory: [2MRQDP1G9C]
 ---
 
 ## Summary

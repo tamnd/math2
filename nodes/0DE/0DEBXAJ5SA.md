@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1353233
   wikipedia: Conjugacy class
+inventory: [ETHRVMPKX9]
 ---
 
 ## Summary

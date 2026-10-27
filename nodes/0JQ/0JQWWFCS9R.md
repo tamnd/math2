@@ -8,6 +8,7 @@ uses: [0SJ3RX9TXA]
 sources:
   - url: https://en.wikipedia.org/wiki/Ordered_pair
     locator: lead section
+inventory: [ETYXJP0E7S]
 ---
 
 ## Definition

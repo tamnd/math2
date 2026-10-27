@@ -7,6 +7,7 @@ defines: 0PCV9EDJM2
 sources:
   - url: https://en.wikipedia.org/wiki/Multinomial_theorem
     locator: Multinomial coefficients
+inventory: [XM92FVZBV3]
 ---
 
 ## Definition

@@ -1,1 +1,1 @@
-{"id":"J496MXW2RD","mentions":["m2://rec/wikidata/Q320346#1"],"kind":"unknown","name":"closure","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"J496MXW2RD","mentions":["m2://rec/wikidata/Q320346#1"],"kind":"unknown","name":"closure","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0QEAJB91GZ"}],"outcome":{"value":"node","target":["0QEAJB91GZ"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}

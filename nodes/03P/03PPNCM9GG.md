@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q1363919
   wikipedia: Second-countable space
+inventory: [3A3JWDGHX5]
 ---
 
 ## Summary

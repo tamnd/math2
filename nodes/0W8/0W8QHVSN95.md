@@ -7,6 +7,7 @@ msc: [30A99]
 sources:
   - url: https://en.wikipedia.org/wiki/Branch_point
     locator: Branch cuts
+inventory: [9MEFNA5A7R]
 ---
 
 ## Summary

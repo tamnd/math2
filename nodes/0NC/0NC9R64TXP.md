@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q547823
   wikipedia: Planar graph
+inventory: [Z99BYAE8VS]
 ---
 
 ## Summary

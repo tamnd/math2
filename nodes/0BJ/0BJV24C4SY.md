@@ -10,6 +10,7 @@ sources:
     locator: lead section
   - url: https://en.wikipedia.org/wiki/Complex_conjugate
     locator: Notation
+inventory: [288W6XS17X]
 ---
 
 ## Definition

@@ -8,6 +8,7 @@ uses: [08EJC6Q25H]
 sources:
   - url: https://en.wikipedia.org/wiki/Antisymmetric_relation
     locator: lead section
+inventory: [68ATV1WT91]
 ---
 
 ## Definition

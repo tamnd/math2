@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q214159
   wikipedia: Inner product space
+inventory: [Z2P723Z1AG]
 ---
 
 ## Summary

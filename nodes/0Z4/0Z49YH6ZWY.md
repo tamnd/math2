@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q131187
   wikipedia: Taylor series
+inventory: [RVEXNVC2HR]
 ---
 
 ## Summary

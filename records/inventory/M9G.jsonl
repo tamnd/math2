@@ -1,2 +1,2 @@
 {"id":"M9G3HGHW96","mentions":["m2://rec/wikidata/Q1474108#1"],"kind":"unknown","name":"fundamental domain","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"M9GSY5J7QQ","mentions":["m2://rec/wikidata/Q1430365#1"],"kind":"concept","name":"reduction of order","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"M9GSY5J7QQ","mentions":["m2://rec/wikidata/Q1430365#1"],"kind":"concept","name":"reduction of order","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 02SRXDAM3X"}],"outcome":{"value":"node","target":["02SRXDAM3X"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}

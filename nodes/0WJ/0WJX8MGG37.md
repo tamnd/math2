@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1454111
   wikipedia: Free abelian group
+inventory: [RRAD5N0D7W]
 ---
 
 ## Summary

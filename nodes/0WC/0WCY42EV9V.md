@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q288465
   wikipedia: Group action
+inventory: [ZWHBCNSQPK]
 ---
 
 ## Summary

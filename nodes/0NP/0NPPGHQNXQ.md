@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q847073
   wikipedia: Euclidean distance
+inventory: [EEWJNV5TAD]
 ---
 
 ## Summary

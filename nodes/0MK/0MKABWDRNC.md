@@ -8,6 +8,7 @@ uses: [0CP7YY6NAG]
 sources:
   - url: https://en.wikipedia.org/wiki/Triangular_matrix
     locator: lead section
+inventory: [1W8C1QV0S3]
 ---
 
 ## Definition

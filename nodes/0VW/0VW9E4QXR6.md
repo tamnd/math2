@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q45284
   wikipedia: Likelihood function
+inventory: [YVXAES9JQV]
 ---
 
 ## Summary

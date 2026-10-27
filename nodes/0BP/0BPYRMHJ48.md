@@ -8,6 +8,7 @@ uses: [0SJ3RX9TXA, 0FE8Q5S42Y]
 sources:
   - url: https://en.wikipedia.org/wiki/Universal_set
     locator: lead section
+inventory: [ADCAEJFZWS]
 ---
 
 ## Definition

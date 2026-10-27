@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q243462
   wikipedia: Chi-squared distribution
+inventory: [39PP5164WT]
 ---
 
 ## Summary

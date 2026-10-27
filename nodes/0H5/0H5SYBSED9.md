@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q190573
   wikipedia: Gamma function
+inventory: [2VW1BD3795]
 ---
 
 ## Summary

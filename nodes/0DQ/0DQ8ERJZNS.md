@@ -10,6 +10,7 @@ sources:
     locator: Surface integrals of scalar fields
   - url: https://en.wikipedia.org/wiki/Surface_integral
     locator: Dependence on parametrization
+inventory: [NBQHQKT59W]
 ---
 
 ## Definition

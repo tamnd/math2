@@ -8,6 +8,7 @@ uses: [0CP7YY6NAG]
 sources:
   - url: https://en.wikipedia.org/wiki/Permutation_matrix
     locator: lead section
+inventory: [8DZKY09KVR]
 ---
 
 ## Definition

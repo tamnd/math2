@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1397059
   wikipedia: Pseudometric space
+inventory: [80ZM7ZWJXA]
 ---
 
 ## Summary

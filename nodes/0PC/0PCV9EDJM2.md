@@ -6,6 +6,7 @@ msc: [05A10]
 sources:
   - url: https://en.wikipedia.org/wiki/Multinomial_theorem
     locator: Multinomial coefficients
+inventory: [XM92FVZBV3]
 ---
 
 ## Summary

@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q853067
   wikipedia: Pell's equation
+inventory: [X41ST3TQ6P]
 ---
 
 ## Summary

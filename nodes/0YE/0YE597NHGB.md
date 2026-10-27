@@ -15,6 +15,7 @@ sources:
     locator: Elementary properties
   - url: https://en.wikipedia.org/wiki/Cayley_graph
     locator: History
+inventory: [HV8SJM8Z2D]
 ---
 
 ## Definition

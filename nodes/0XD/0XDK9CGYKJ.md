@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q41237
   wikipedia: Rational function
+inventory: [8XWVYBF4JG]
 ---
 
 ## Summary

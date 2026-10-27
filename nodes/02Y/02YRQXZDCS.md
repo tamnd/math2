@@ -9,6 +9,7 @@ uses: [0CVVKY7GY2, 0W3K3QPEWT]
 sources:
   - url: https://en.wikipedia.org/wiki/Conditional_convergence
     locator: Definition
+inventory: [YY12HTTP89]
 ---
 
 ## Definition

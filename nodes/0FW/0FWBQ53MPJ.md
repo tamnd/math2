@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q2513496
   wikipedia: Choice function
+inventory: [Q27DBT5AVS]
 ---
 
 ## Summary

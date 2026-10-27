@@ -8,6 +8,7 @@ uses: [0BARQY52N5, 0HBY48G8G1, 0N1JQXZXHC]
 sources:
   - url: https://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus
     locator: Second part
+inventory: [S67NDX266Q]
 ---
 
 ## Statement

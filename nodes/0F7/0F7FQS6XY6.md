@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q134237
   wikipedia: Square root
+inventory: [H8TS7ZX7T3]
 ---
 
 ## Summary

@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q774579
   wikipedia: Field of fractions
+inventory: [TW4NG9BF5S]
 ---
 
 ## Summary

@@ -10,6 +10,7 @@ sources:
     locator: Mathematical definition
   - url: https://en.wikipedia.org/wiki/Multiple_integral
     locator: Double integral over a rectangle
+inventory: [A7M94FC5Z0]
 ---
 
 ## Definition

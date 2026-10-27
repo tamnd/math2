@@ -1,1 +1,1 @@
-{"id":"9992VXCXRQ","mentions":["m2://rec/wikidata/Q17099544#1"],"kind":"statement","name":"Pascal's rule","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9992VXCXRQ","mentions":["m2://rec/wikidata/Q17099544#1"],"kind":"statement","name":"Pascal's rule","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0YRG241HQQ"}],"outcome":{"value":"node","target":["0YRG241HQQ"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}

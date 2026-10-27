@@ -10,6 +10,7 @@ sources:
     locator: Definition
   - url: https://en.wikipedia.org/wiki/Central_series
     locator: Definition
+inventory: [AN65SA9AHA]
 ---
 
 ## Definition

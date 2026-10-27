@@ -7,6 +7,7 @@ defines: 0ZVQKTRKVQ
 sources:
   - url: https://en.wikipedia.org/wiki/Bipartite_graph
     locator: lead section
+inventory: [39JT5G44N1]
 ---
 
 ## Definition

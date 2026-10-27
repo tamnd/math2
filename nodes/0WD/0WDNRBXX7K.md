@@ -9,6 +9,7 @@ uses: [0PB7K8M7FG, 0A6PGTTP2A]
 sources:
   - url: https://en.wikipedia.org/wiki/Cauchy%E2%80%93Euler_equation
     locator: The equation
+inventory: [DMS1GK7ATX]
 ---
 
 ## Definition

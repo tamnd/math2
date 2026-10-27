@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q863912
   wikipedia: Prime ideal
+inventory: [MVN4P28CY5]
 ---
 
 ## Summary

@@ -8,6 +8,7 @@ uses: [08EJC6Q25H]
 sources:
   - url: https://en.wikipedia.org/wiki/Transitive_relation
     locator: lead section
+inventory: [Q23D46R4C1]
 ---
 
 ## Definition

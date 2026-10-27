@@ -14,6 +14,7 @@ sources:
 same_as:
   wikidata: Q3527189
   wikipedia: Correspondence theorem
+inventory: [Q72ADQWVHM]
 ---
 
 ## Statement

@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q369377
   wikipedia: Total order
+inventory: [K7XN49FA8S]
 ---
 
 ## Summary

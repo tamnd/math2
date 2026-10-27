@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q270513
   wikipedia: Catalan number
+inventory: [BYEJDYYJYT]
 ---
 
 ## Summary

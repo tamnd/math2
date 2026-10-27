@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q607728
   wikipedia: Irrational number
+inventory: [CZQDZ9W7QP]
 ---
 
 ## Summary

@@ -8,6 +8,7 @@ uses: [0GYGHKX834, 0P7CH1CND5, 0396VGFA78, 0GGE0Z0JQ1]
 sources:
   - url: https://en.wikipedia.org/wiki/Frobenius_endomorphism
     locator: Definition
+inventory: [QGBM1TH5P6]
 ---
 
 ## Definition

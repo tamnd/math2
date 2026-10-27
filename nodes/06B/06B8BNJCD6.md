@@ -12,6 +12,7 @@ sources:
 same_as:
   wikidata: Q765987
   wikipedia: Heine–Cantor theorem
+inventory: [5AN7AXJXZ8]
 ---
 
 ## Statement

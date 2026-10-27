@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q1227387
   wikipedia: Dirac measure
+inventory: [9MDD4KNC1Z]
 ---
 
 ## Summary

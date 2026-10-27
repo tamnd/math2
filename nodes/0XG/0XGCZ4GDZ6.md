@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q1747745
   wikipedia: Meagre set
+inventory: [NSZ72AKD92]
 ---
 
 ## Summary

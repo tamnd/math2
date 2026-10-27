@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q332791
   wikipedia: Diagonal matrix
+inventory: [EZGPZWYDK2]
 ---
 
 ## Summary

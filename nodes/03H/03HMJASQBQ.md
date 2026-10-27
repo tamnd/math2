@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q1193403
   wikipedia: Regular space
+inventory: [ZSX9JDW3B0]
 ---
 
 ## Summary

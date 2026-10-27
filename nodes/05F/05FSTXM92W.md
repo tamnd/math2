@@ -8,6 +8,7 @@ uses: [0WF4EJP91W, 04YG690N5V, 0AJN7WHBJZ]
 sources:
   - url: https://en.wikipedia.org/wiki/Likelihood_function
     locator: Definition
+inventory: [YVXAES9JQV]
 ---
 
 ## Definition

@@ -1,2 +1,2 @@
 {"id":"BMD9HBYV9V","mentions":["m2://rec/wikidata/Q33456#1"],"kind":"unknown","name":"exponentiation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"BMDT1S4WWA","mentions":["m2://rec/wikidata/Q1292333#1"],"kind":"unknown","name":"free module","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"BMDT1S4WWA","mentions":["m2://rec/wikidata/Q1292333#1"],"kind":"unknown","name":"free module","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 02E1T12PP4, 0DZ9DKAKZR"}],"outcome":{"value":"node","target":["02E1T12PP4","0DZ9DKAKZR"],"reason":"a node has the same name as the row","by":"agent"}}

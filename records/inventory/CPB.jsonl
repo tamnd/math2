@@ -1,2 +1,2 @@
-{"id":"CPB7YG1KVW","mentions":["m2://rec/wikidata/Q677568#1"],"kind":"unknown","name":"Mercator series","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"CPB7YG1KVW","mentions":["m2://rec/wikidata/Q677568#1"],"kind":"unknown","name":"Mercator series","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0YZXNE3HFR"}],"outcome":{"value":"node","target":["0YZXNE3HFR"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}
 {"id":"CPBP8WVRJ6","mentions":["m2://rec/wikidata/Q122894#1"],"kind":"definition","name":"Planck constant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

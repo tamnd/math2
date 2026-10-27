@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q2628674
   wikipedia: Simple extension
+inventory: [V0R6EFDW81]
 ---
 
 ## Summary

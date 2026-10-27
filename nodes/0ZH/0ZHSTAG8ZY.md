@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q1754547
   wikipedia: Exterior derivative
+inventory: [70KHYD4XYE]
 ---
 
 ## Summary

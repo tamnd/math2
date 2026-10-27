@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q3751720
   wikipedia: Idempotent matrix
+inventory: [DMB0JAP9ZR]
 ---
 
 ## Summary

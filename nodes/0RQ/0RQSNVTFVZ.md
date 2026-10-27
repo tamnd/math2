@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q251922
   wikipedia: Prime-counting function
+inventory: [9FB6GP0C2W]
 ---
 
 ## Summary

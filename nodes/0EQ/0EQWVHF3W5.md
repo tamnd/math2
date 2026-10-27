@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q577835
   wikipedia: Field extension
+inventory: [JXBNNMQXJ3]
 ---
 
 ## Summary

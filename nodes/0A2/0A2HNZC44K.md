@@ -7,6 +7,7 @@ msc: [60F25]
 sources:
   - url: https://en.wikipedia.org/wiki/Convergence_of_random_variables
     locator: Convergence in mean
+inventory: [C5JF2KBV07]
 ---
 
 ## Summary

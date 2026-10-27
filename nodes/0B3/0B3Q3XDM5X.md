@@ -8,6 +8,7 @@ uses: [0MXMS3AE13, 04KFTA34C5]
 sources:
   - url: https://en.wikipedia.org/wiki/Quantile_function
     locator: General distribution function
+inventory: [1N2T0RBJEF]
 ---
 
 ## Definition

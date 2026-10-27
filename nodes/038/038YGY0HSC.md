@@ -8,6 +8,7 @@ uses: [0874138YP6]
 sources:
   - url: https://en.wikipedia.org/wiki/Chromatic_polynomial
     locator: Definition
+inventory: [FRT6F778GK]
 ---
 
 ## Definition

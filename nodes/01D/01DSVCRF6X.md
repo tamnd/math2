@@ -7,6 +7,7 @@ defines: 0K9QVPJYJF
 sources:
   - url: https://en.wikipedia.org/wiki/Ramsey's_theorem
     locator: lead section
+inventory: [ZYDQ90S37W]
 ---
 
 ## Definition

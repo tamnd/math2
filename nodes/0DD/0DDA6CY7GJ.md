@@ -8,6 +8,7 @@ uses: [0MYSA6MYNA]
 sources:
   - url: https://en.wikipedia.org/wiki/Ideal_(ring_theory)
     locator: Definitions
+inventory: [TJZ8GQQ7F6]
 ---
 
 ## Definition

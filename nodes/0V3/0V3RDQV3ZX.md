@@ -10,6 +10,7 @@ sources:
     locator: Formulation
   - url: https://en.wikipedia.org/wiki/Cauchy_principal_value
     locator: Examples
+inventory: [GCGKKWTHP9]
 ---
 
 ## Definition

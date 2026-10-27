@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q850275
   wikipedia: Conformal map
+inventory: [P2T381T3N5]
 ---
 
 ## Summary

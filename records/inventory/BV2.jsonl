@@ -1,2 +1,2 @@
 {"id":"BV2NX7PT1B","mentions":["m2://rec/wikidata/Q191024#1"],"kind":"unknown","name":"15 puzzle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"BV2YC0SNM4","mentions":["m2://rec/wikidata/Q2088081#1"],"kind":"unknown","name":"phase plane","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"BV2YC0SNM4","mentions":["m2://rec/wikidata/Q2088081#1"],"kind":"unknown","name":"phase plane","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 05VDGH129F"}],"outcome":{"value":"node","target":["05VDGH129F"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}

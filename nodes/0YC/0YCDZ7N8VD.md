@@ -8,6 +8,7 @@ uses: [0P7A2MJD24]
 sources:
   - url: https://en.wikipedia.org/wiki/Augmented_matrix
     locator: lead section
+inventory: [7FF7WWJRZD]
 ---
 
 ## Definition

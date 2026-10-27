@@ -10,6 +10,7 @@ sources:
     locator: Normal random vector
   - url: https://en.wikipedia.org/wiki/Multivariate_normal_distribution
     locator: Non-degenerate case
+inventory: [WZY86RN41E]
 ---
 
 ## Definition

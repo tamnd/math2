@@ -11,6 +11,7 @@ sources:
     locator: Branch cuts
   - url: https://en.wikipedia.org/wiki/Complex_logarithm
     locator: Branch cuts
+inventory: [9MEFNA5A7R]
 ---
 
 ## Definition

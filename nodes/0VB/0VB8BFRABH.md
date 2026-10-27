@@ -10,6 +10,7 @@ sources:
     locator: lead section
   - url: https://en.wikipedia.org/wiki/Square_root
     locator: Properties and uses
+inventory: [H8TS7ZX7T3]
 ---
 
 ## Definition

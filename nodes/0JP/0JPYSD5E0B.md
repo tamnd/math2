@@ -8,6 +8,7 @@ uses: [G5S1M9, 00DRK90Z6K]
 sources:
   - url: https://en.wikipedia.org/wiki/Order_(group_theory)
     locator: lead section
+inventory: [2WR87G5VKX]
 ---
 
 ## Definition

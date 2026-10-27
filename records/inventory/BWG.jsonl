@@ -1,2 +1,2 @@
-{"id":"BWG93CWGXE","mentions":["m2://rec/wikidata/Q4951625#1"],"kind":"unknown","name":"box topology","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"BWG93CWGXE","mentions":["m2://rec/wikidata/Q4951625#1"],"kind":"unknown","name":"box topology","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0BWJTRE3X3, 0CTM1EHG9P"}],"outcome":{"value":"node","target":["0BWJTRE3X3","0CTM1EHG9P"],"reason":"a node has the same name as the row","by":"agent"}}
 {"id":"BWGETFG9FK","mentions":["m2://rec/wikidata/Q15882515#1"],"kind":"definition","name":"superset","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

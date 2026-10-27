@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q213363
   wikipedia: Open set
+inventory: [ZJWQG7TFXR]
 ---
 
 ## Summary

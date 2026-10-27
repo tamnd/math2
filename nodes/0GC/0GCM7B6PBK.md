@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q2914302
   wikipedia: Concave function
+inventory: [GVHNVWFQKX]
 ---
 
 ## Summary

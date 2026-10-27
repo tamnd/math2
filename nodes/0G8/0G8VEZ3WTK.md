@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q130998
   wikipedia: Equivalence relation
+inventory: [QFT3BEZB7E]
 ---
 
 ## Summary

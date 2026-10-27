@@ -10,6 +10,7 @@ sources:
     locator: Definition
   - url: https://en.wikipedia.org/wiki/Cross-ratio
     locator: Transformational approach
+inventory: [HTTF4QGXMS]
 ---
 
 ## Definition

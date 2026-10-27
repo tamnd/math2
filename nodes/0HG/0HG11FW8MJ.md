@@ -8,6 +8,7 @@ uses: [0CNQXVBHCX, 09CJ00H3NW, 0ZG61TFBES]
 sources:
   - url: https://en.wikipedia.org/wiki/First-countable_space
     locator: lead section
+inventory: [CDMCS2DCYE]
 ---
 
 ## Definition

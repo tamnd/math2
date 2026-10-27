@@ -8,6 +8,7 @@ uses: [0909PWZR62]
 sources:
   - url: https://en.wikipedia.org/wiki/Classification_of_discontinuities
     locator: Jump discontinuity
+inventory: [AXP3JXN50D]
 ---
 
 ## Definition

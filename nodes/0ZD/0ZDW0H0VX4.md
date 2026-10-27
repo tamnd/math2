@@ -6,6 +6,7 @@ msc: [20F50]
 sources:
   - url: https://en.wikipedia.org/wiki/Torsion_group
     locator: lead section
+inventory: [K6SSVQV3AB]
 ---
 
 ## Summary

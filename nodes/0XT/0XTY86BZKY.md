@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q730384
   wikipedia: Galois group
+inventory: [7PZJB2A4D1]
 ---
 
 ## Summary

@@ -8,6 +8,7 @@ uses: [0580ZJSA3Q, 0RQPZZ44T4]
 sources:
   - url: https://en.wikipedia.org/wiki/Inverse_element
     locator: Definitions and basic properties
+inventory: [FEBX9EH0B8]
 ---
 
 ## Definition

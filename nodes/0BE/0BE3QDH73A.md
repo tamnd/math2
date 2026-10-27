@@ -8,6 +8,7 @@ uses: [06SKCHDQT5]
 sources:
   - url: https://en.wikipedia.org/wiki/Smoothness
     locator: Differentiability classes
+inventory: [NKHHV1JJV8]
 ---
 
 ## Definition

@@ -8,6 +8,7 @@ uses: [0DCT0QZVQ1, 0PH0VHTQS0]
 sources:
   - url: https://en.wikipedia.org/wiki/Moment_generating_function
     locator: Definition
+inventory: [WFKFAVPGXV]
 ---
 
 ## Definition

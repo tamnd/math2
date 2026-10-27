@@ -11,6 +11,7 @@ sources:
 same_as:
   wikidata: Q5421989
   wikipedia: Exterior angle theorem
+inventory: [5HFXPT11AC]
 ---
 
 ## Statement

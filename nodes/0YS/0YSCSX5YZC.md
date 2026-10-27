@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q191780
   wikipedia: Ordinal number
+inventory: [5Y9MH092HR]
 ---
 
 ## Summary

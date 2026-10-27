@@ -8,6 +8,7 @@ uses: [0580ZJSA3Q]
 sources:
   - url: https://en.wikipedia.org/wiki/Identity_element
     locator: Definitions
+inventory: [75FBJRN7YR]
 ---
 
 ## Definition

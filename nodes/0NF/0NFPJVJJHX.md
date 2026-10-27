@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q623472
   wikipedia: Probability space
+inventory: [AB7KC69R96]
 ---
 
 ## Summary

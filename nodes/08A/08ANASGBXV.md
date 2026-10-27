@@ -11,6 +11,7 @@ sources:
 same_as:
   wikidata: Q165618
   wikipedia: Moment of inertia
+inventory: [W3BDM8GRKG]
 ---
 
 ## Summary

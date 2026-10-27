@@ -1,1 +1,1 @@
-{"id":"CJ3X9JVYB4","mentions":["m2://rec/wikidata/Q1130160#1"],"kind":"unknown","name":"estimator","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"CJ3X9JVYB4","mentions":["m2://rec/wikidata/Q1130160#1"],"kind":"unknown","name":"estimator","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0SSS6ERQ0S"}],"outcome":{"value":"node","target":["0SSS6ERQ0S"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}

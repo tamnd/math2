@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q174733
   wikipedia: Bipartite graph
+inventory: [39JT5G44N1]
 ---
 
 ## Summary

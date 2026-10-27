@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q3574718
   wikipedia: Discrete uniform distribution
+inventory: [ZT8MPX4XHH]
 ---
 
 ## Summary

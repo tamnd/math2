@@ -8,6 +8,7 @@ uses: [0CNQXVBHCX, 0A6YRNZB2R]
 sources:
   - url: https://en.wikipedia.org/wiki/Open_set
     locator: Definitions
+inventory: [ZJWQG7TFXR]
 ---
 
 ## Definition

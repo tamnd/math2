@@ -1,2 +1,2 @@
-{"id":"ZTA2XKQ1DS","mentions":["m2://rec/wikidata/Q181365#1"],"kind":"unknown","name":"scalar product","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"ZTA2XKQ1DS","mentions":["m2://rec/wikidata/Q181365#1"],"kind":"unknown","name":"scalar product","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0S52TNNTH9"}],"outcome":{"value":"node","target":["0S52TNNTH9"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}
 {"id":"ZTA6EMNYZN","mentions":["m2://rec/wikidata/Q3546865#1"],"kind":"unknown","name":"icositetragon","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

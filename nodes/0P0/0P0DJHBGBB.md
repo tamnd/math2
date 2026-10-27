@@ -8,6 +8,7 @@ uses: [0CTV783HYT]
 sources:
   - url: https://en.wikipedia.org/wiki/Cesàro_summation
     locator: Definition
+inventory: [YYZEJS46WK]
 ---
 
 ## Definition

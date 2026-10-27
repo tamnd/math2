@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q208225
   wikipedia: Pythagorean triple
+inventory: [H4GESV23R4]
 ---
 
 ## Summary

@@ -6,6 +6,7 @@ msc: [12F20]
 sources:
   - url: https://en.wikipedia.org/wiki/Algebraic_element
     locator: lead section
+inventory: [13M0HZ0GD6]
 ---
 
 ## Summary

@@ -9,6 +9,7 @@ uses: [0TPW25CBN6, 0GFKP8F8AG, 0VC4DVE7DQ]
 sources:
   - url: https://en.wikipedia.org/wiki/Multiplicative_order
     locator: lead section
+inventory: [3XXXW0DHF3]
 ---
 
 ## Definition

@@ -7,6 +7,7 @@ msc: ["03E20"]
 sources:
   - url: https://en.wikipedia.org/wiki/Complement_(set_theory)
     locator: Relative complement
+inventory: [AR94NGRP6G]
 ---
 
 ## Summary

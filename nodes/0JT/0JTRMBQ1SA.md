@@ -8,6 +8,7 @@ uses: [0DNNT7DBFM]
 sources:
   - url: https://en.wikipedia.org/wiki/System_of_linear_equations
     locator: lead section
+inventory: [J6QQKN30M4]
 ---
 
 ## Definition

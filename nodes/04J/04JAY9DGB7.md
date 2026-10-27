@@ -12,6 +12,7 @@ sources:
 same_as:
   wikidata: Q1227703
   wikipedia: Dirichlet's approximation theorem
+inventory: [PTXAQHJ7PV]
 ---
 
 ## Statement

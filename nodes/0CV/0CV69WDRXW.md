@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q15846551
   wikipedia: Partition function (number theory)
+inventory: [T745P271C1]
 ---
 
 ## Summary

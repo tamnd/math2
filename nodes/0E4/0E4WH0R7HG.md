@@ -10,6 +10,7 @@ sources:
     locator: Structure and layout
   - url: https://en.wikipedia.org/wiki/Cayley_table
     locator: Properties and uses
+inventory: [S5VMKP5TYZ]
 ---
 
 ## Definition

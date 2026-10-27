@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q980557
   wikipedia: Operator norm
+inventory: [XQ2YBSPVWW]
 ---
 
 ## Summary

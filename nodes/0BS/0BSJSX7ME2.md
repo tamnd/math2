@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q673444
   wikipedia: Dense set
+inventory: [XT9CKHKY48]
 ---
 
 ## Summary

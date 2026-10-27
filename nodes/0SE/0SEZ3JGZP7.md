@@ -8,6 +8,7 @@ uses: [0SNQEF7Z53]
 sources:
   - url: https://en.wikipedia.org/wiki/Countable_set
     locator: Definition
+inventory: [JFB4D3GAYD]
 ---
 
 ## Definition

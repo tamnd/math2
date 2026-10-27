@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q206925
   wikipedia: Power series
+inventory: [T7NDCA12WD]
 ---
 
 ## Summary

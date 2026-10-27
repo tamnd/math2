@@ -1,1 +1,1 @@
-{"id":"FS9J3BVFFG","mentions":["m2://rec/wikidata/Q568687#1"],"kind":"definition","name":"trivial group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FS9J3BVFFG","mentions":["m2://rec/wikidata/Q568687#1"],"kind":"definition","name":"trivial group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0BNPC9850Y"}],"outcome":{"value":"node","target":["0BNPC9850Y"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}

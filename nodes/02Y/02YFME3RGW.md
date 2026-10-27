@@ -8,6 +8,7 @@ uses: [0RJF668P1T]
 sources:
   - url: https://en.wikipedia.org/wiki/Kernel_(linear_algebra)
     locator: lead section
+inventory: [23SSF4JKJE]
 ---
 
 ## Definition

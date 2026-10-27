@@ -10,6 +10,7 @@ sources:
     locator: Vector fields on subsets of Euclidean space
   - url: https://en.wikipedia.org/wiki/Vector_field
     locator: Examples
+inventory: [5DZJFWHQAG]
 ---
 
 ## Definition

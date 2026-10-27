@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q180953
   wikipedia: Metric space
+inventory: [X9NDKZ1MNX]
 ---
 
 ## Summary

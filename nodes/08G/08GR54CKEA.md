@@ -7,6 +7,7 @@ msc: [26A09]
 sources:
   - url: https://en.wikipedia.org/wiki/Floor_and_ceiling_functions
     locator: lead section
+inventory: [BEWT00TARS]
 ---
 
 ## Summary

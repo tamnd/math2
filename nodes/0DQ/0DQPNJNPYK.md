@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q338021
   wikipedia: Well-founded relation
+inventory: [F5M5FC6T4Q]
 ---
 
 ## Summary

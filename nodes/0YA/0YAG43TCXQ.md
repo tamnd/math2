@@ -6,6 +6,7 @@ msc: [11A41]
 sources:
   - url: https://en.wikipedia.org/wiki/Mersenne_prime
     locator: lead section
+inventory: [4GNB3KXZRE]
 ---
 
 ## Summary

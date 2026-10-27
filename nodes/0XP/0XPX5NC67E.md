@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q3490774
   wikipedia: Spectrum of a matrix
+inventory: [9F89D494GH]
 ---
 
 ## Summary

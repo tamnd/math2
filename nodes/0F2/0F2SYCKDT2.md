@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1341651
   wikipedia: Lyapunov stability
+inventory: [HKZ1AREQ0B]
 ---
 
 ## Summary

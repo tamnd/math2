@@ -12,6 +12,7 @@ sources:
     locator: Examples
   - url: https://en.wikipedia.org/wiki/Normal_(geometry)
     locator: Orientation
+inventory: [CW3MVTV0FC]
 ---
 
 ## Definition

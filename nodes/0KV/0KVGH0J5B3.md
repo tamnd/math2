@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q245462
   wikipedia: Cyclic group
+inventory: [KY7XBFFMB3]
 ---
 
 ## Summary

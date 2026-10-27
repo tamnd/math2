@@ -9,6 +9,7 @@ uses: [0A61B60B5R, 0P27W9RW0G, 084NGSTWM7]
 sources:
   - url: https://en.wikipedia.org/wiki/Smoothness
     locator: Differentiability classes
+inventory: [KQZ8H9DM9F]
 ---
 
 ## Definition

@@ -1,1 +1,1 @@
-{"id":"2GD3EJRQ1Q","mentions":["m2://rec/wikidata/Q206793#1"],"kind":"statement","name":"Euclid's lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"2GD3EJRQ1Q","mentions":["m2://rec/wikidata/Q206793#1"],"kind":"statement","name":"Euclid's lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 051VYKA1EX"}],"outcome":{"value":"node","target":["051VYKA1EX"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}

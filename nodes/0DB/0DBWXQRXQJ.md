@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q2293759
   wikipedia: Torsion subgroup
+inventory: [YJVK0QTM6V]
 ---
 
 ## Summary

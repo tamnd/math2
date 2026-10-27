@@ -9,6 +9,7 @@ uses: [0N3ADXHNTQ, 0GFKP8F8AG, 02M2K4QH9P]
 sources:
   - url: https://en.wikipedia.org/wiki/Carmichael_number
     locator: Overview
+inventory: [2E902XW5E1]
 ---
 
 ## Definition

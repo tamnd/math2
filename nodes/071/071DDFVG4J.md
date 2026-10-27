@@ -8,6 +8,7 @@ uses: [G5S1M9, 04E4V9G5FR]
 sources:
   - url: https://en.wikipedia.org/wiki/Abelian_group
     locator: Definition
+inventory: [EEC7QXJMXQ]
 ---
 
 ## Definition

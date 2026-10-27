@@ -1,1 +1,1 @@
-{"id":"7K2V431N0Y","mentions":["m2://rec/wikidata/Q44649#1"],"kind":"definition","name":"ideal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"7K2V431N0Y","mentions":["m2://rec/wikidata/Q44649#1"],"kind":"definition","name":"ideal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 096Z9MP2ME"}],"outcome":{"value":"node","target":["096Z9MP2ME"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}

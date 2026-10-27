@@ -10,6 +10,7 @@ sources:
     locator: lead section
   - url: https://en.wikipedia.org/wiki/Torsion_subgroup
     locator: Examples and further results
+inventory: [YJVK0QTM6V]
 ---
 
 ## Definition

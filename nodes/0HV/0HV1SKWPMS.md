@@ -12,6 +12,7 @@ sources:
 same_as:
   wikidata: Q2071632
   wikipedia: Rouché–Capelli theorem
+inventory: [CHV02TF7SA]
 ---
 
 ## Statement

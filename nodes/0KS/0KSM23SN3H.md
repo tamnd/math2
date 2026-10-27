@@ -8,6 +8,7 @@ uses: [0DRKT1QJR7, 0C38S0KMJK]
 sources:
   - url: https://en.wikipedia.org/wiki/Nowhere_dense_set
     locator: Definition by closure
+inventory: [A43EJQMTHJ]
 ---
 
 ## Definition

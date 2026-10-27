@@ -8,6 +8,7 @@ uses: [09XNAPTJQ7]
 sources:
   - url: https://en.wikipedia.org/wiki/Affine_space
     locator: Affine subspaces and parallelism
+inventory: [MMDD7727S9]
 ---
 
 ## Definition

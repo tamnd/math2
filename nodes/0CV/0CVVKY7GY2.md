@@ -8,6 +8,7 @@ uses: [0JH4MN4K1C, 0NB643K60Q, 0AZ3R52593]
 sources:
   - url: https://en.wikipedia.org/wiki/Convergent_series
     locator: Definition
+inventory: [ANWN0Z1HYT]
 ---
 
 ## Definition

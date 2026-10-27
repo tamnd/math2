@@ -9,6 +9,7 @@ uses: [00999TYPXB]
 sources:
   - url: https://en.wikipedia.org/wiki/Maximum_and_minimum
     locator: Definition
+inventory: [BRS05R1QY7]
 ---
 
 ## Definition

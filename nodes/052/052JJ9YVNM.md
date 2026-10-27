@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q3385162
   wikipedia: Graph homomorphism
+inventory: [CQTGZEFK2A]
 ---
 
 ## Summary

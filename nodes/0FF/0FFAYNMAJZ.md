@@ -8,6 +8,7 @@ uses: [0J8XE7W68F]
 sources:
   - url: https://en.wikipedia.org/wiki/Connectivity_(graph_theory)
     locator: Connected vertices and graphs
+inventory: [63CTSFSE7E]
 ---
 
 ## Definition

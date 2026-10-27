@@ -1,1 +1,1 @@
-{"id":"REQRM2HAPN","mentions":["m2://rec/wikidata/Q2915729#1"],"kind":"unknown","name":"matrix ring","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"REQRM2HAPN","mentions":["m2://rec/wikidata/Q2915729#1"],"kind":"unknown","name":"matrix ring","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0FHVPRAE60"}],"outcome":{"value":"node","target":["0FHVPRAE60"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}

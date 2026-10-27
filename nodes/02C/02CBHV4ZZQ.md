@@ -8,6 +8,7 @@ uses: [0DJ8W3HP2D, 007QED3E0Y, 0DCT0QZVQ1]
 sources:
   - url: https://en.wikipedia.org/wiki/Covariance_matrix
     locator: Definition
+inventory: [PVNNAAJDYB]
 ---
 
 ## Definition

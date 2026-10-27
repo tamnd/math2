@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q173091
   wikipedia: Transcendental number
+inventory: [29HQ1S2TBA]
 ---
 
 ## Summary

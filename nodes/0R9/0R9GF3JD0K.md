@@ -6,6 +6,7 @@ msc: [11D04]
 sources:
   - url: https://en.wikipedia.org/wiki/Diophantine_equation
     locator: Linear Diophantine equations
+inventory: [MT1PQTZ5T3]
 ---
 
 ## Summary

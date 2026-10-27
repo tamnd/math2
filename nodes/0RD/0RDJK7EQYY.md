@@ -8,6 +8,7 @@ uses: [0F1D6PK9RZ, 0EZ758XE73]
 sources:
   - url: https://en.wikipedia.org/wiki/Ordinal_number
     locator: lead section
+inventory: [5Y9MH092HR]
 ---
 
 ## Definition

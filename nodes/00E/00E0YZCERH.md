@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q205170
   wikipedia: Power set
+inventory: [B7SD997P7P]
 ---
 
 ## Summary

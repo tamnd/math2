@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q205243
   wikipedia: Möbius function
+inventory: [NM5SF34DCG]
 ---
 
 ## Summary

@@ -10,6 +10,7 @@ sources:
     locator: Real numbers
   - url: https://en.wikipedia.org/wiki/Limit_of_a_sequence
     locator: Topological spaces
+inventory: [KH9EY8G6YZ]
 ---
 
 ## Definition

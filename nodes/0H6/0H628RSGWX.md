@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q162608
   wikipedia: Algebraic element
+inventory: [MG6FNZHF64]
 ---
 
 ## Summary

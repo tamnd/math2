@@ -8,6 +8,7 @@ uses: [0CES91M79A]
 sources:
   - url: https://en.wikipedia.org/wiki/Symmetric_polynomial
     locator: lead section
+inventory: [VXCFMQFY17]
 ---
 
 ## Definition

@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q670036
   wikipedia: Arc length
+inventory: [QABZ6VFVVV]
 ---
 
 ## Summary

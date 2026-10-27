@@ -6,6 +6,7 @@ msc: [15B57, 15A63]
 sources:
   - url: https://en.wikipedia.org/wiki/Definite_matrix
     locator: Definitions
+inventory: [8XQP955FKQ]
 ---
 
 ## Summary

@@ -6,6 +6,7 @@ msc: [60F05]
 sources:
   - url: https://en.wikipedia.org/wiki/Convergence_of_random_variables
     locator: Convergence in probability
+inventory: [5KPV69KQFA]
 ---
 
 ## Summary

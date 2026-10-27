@@ -10,6 +10,7 @@ sources:
     locator: Overview
   - url: https://en.wikipedia.org/wiki/Hamiltonian_system
     locator: Time-independent Hamiltonian systems
+inventory: [2B43DP8MYN]
 ---
 
 ## Definition

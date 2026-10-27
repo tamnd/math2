@@ -8,6 +8,7 @@ uses: [0W7NFW23RF, 04WSW8T3SY, 0VGMEBVW1M]
 sources:
   - url: https://en.wikipedia.org/wiki/Probability_space
     locator: Definition
+inventory: [AB7KC69R96]
 ---
 
 ## Definition

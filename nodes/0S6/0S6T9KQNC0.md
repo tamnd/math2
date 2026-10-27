@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q208498
   wikipedia: Confidence interval
+inventory: [TF7A8YJYQ4]
 ---
 
 ## Summary

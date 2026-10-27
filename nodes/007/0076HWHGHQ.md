@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q619436
   wikipedia: Quotient ring
+inventory: [20Z8XK08MP]
 ---
 
 ## Summary

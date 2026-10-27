@@ -8,6 +8,7 @@ uses: [009QCP5T3Z]
 sources:
   - url: https://en.wikipedia.org/wiki/Perfect_number
     locator: lead section
+inventory: [BJXZEH198P]
 ---
 
 ## Definition

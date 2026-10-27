@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q170058
   wikipedia: Continuous function
+inventory: [56KCEN37MP]
 ---
 
 ## Summary

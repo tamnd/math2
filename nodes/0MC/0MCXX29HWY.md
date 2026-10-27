@@ -8,6 +8,7 @@ uses: [09EYMKMSB9, 02SJG1HC32]
 sources:
   - url: https://en.wikipedia.org/wiki/Algebraic_closure
     locator: lead section
+inventory: [C5G2YF35SP]
 ---
 
 ## Definition

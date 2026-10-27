@@ -6,6 +6,7 @@ msc: [13F20]
 sources:
   - url: https://en.wikipedia.org/wiki/Primitive_part_and_content
     locator: lead section
+inventory: [TTJVXJ6PG1]
 ---
 
 ## Summary

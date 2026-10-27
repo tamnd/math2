@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q13222579
   wikipedia: Upper and lower bounds
+inventory: [2SH3G397TB]
 ---
 
 ## Summary

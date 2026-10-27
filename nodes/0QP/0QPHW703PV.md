@@ -8,6 +8,7 @@ uses: [0NVPNC12JY]
 sources:
   - url: https://en.wikipedia.org/wiki/Compact_space
     locator: Open cover definition
+inventory: [59JDJ8C7DN]
 ---
 
 ## Definition

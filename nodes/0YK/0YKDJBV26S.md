@@ -10,6 +10,7 @@ sources:
     locator: Formal description
   - url: https://en.wikipedia.org/wiki/Essential_singularity
     locator: Alternative descriptions
+inventory: [A75KPYMJ2Y]
 ---
 
 ## Definition

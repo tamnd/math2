@@ -11,6 +11,7 @@ sources:
 same_as:
   wikidata: Q1047749
   wikipedia: Turán's theorem
+inventory: [V6HN7H6FVT]
 ---
 
 ## Statement

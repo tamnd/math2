@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1799665
   wikipedia: Modulo
+inventory: [Z384AR9VSY]
 ---
 
 ## Summary

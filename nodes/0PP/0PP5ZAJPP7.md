@@ -8,6 +8,7 @@ uses: [04YG690N5V, 0WGDPYR30Q]
 sources:
   - url: https://en.wikipedia.org/wiki/Beta_distribution
     locator: Probability density function
+inventory: [VC6VNE8BBC]
 ---
 
 ## Definition

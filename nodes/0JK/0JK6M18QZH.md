@@ -8,6 +8,7 @@ uses: [0N1MY1T0W9, 01AXG9KZQF]
 sources:
   - url: https://en.wikipedia.org/wiki/Kronecker_product
     locator: Definition
+inventory: [V4R9DR3R6F]
 ---
 
 ## Definition

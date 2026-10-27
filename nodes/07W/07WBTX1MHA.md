@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q2162701
   wikipedia: Inverse Laplace transform
+inventory: [SWFJF2BN94]
 ---
 
 ## Summary

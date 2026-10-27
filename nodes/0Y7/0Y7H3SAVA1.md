@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q2264115
   wikipedia: Matrix addition
+inventory: [NAYXFHVVCR]
 ---
 
 ## Summary

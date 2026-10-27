@@ -8,6 +8,7 @@ uses: [04WSW8T3SY, 0GCVEV6BJA]
 sources:
   - url: https://en.wikipedia.org/wiki/Independence_(probability_theory)
     locator: Independent σ-algebras
+inventory: [NEPTH3W7R9]
 ---
 
 ## Definition

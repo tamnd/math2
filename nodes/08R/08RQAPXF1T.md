@@ -8,6 +8,7 @@ uses: [08420828EY]
 sources:
   - url: https://en.wikipedia.org/wiki/Liouville_function
     locator: Definition
+inventory: [8ADEPJMMSF]
 ---
 
 ## Definition

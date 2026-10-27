@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1238125
   wikipedia: Kronecker product
+inventory: [V4R9DR3R6F]
 ---
 
 ## Summary

@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q24743362
   wikipedia: Induced subgraph
+inventory: [JEHAWTZXZJ]
 ---
 
 ## Summary

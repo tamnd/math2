@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q240464
   wikipedia: Minimum spanning tree
+inventory: [9NVABAG4WT]
 ---
 
 ## Summary

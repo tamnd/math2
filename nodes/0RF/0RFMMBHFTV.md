@@ -10,6 +10,7 @@ sources:
     locator: Definitions
   - url: https://en.wikipedia.org/wiki/Chi-squared_distribution
     locator: Probability density function
+inventory: [39PP5164WT]
 ---
 
 ## Definition

@@ -12,6 +12,7 @@ sources:
     locator: Examples
   - url: https://en.wikipedia.org/wiki/One-form
     locator: Differential of a function
+inventory: [JF8EDEWW3B]
 ---
 
 ## Definition

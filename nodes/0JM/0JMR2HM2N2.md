@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q220433
   wikipedia: Logical equivalence
+inventory: [EHDGX0E9G8]
 ---
 
 ## Summary

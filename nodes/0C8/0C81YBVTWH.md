@@ -8,6 +8,7 @@ uses: [0JQWWFCS9R]
 sources:
   - url: https://en.wikipedia.org/wiki/Cartesian_product
     locator: lead section
+inventory: [ATQ3YAQC1W]
 ---
 
 ## Definition

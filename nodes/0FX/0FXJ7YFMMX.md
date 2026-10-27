@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q759832
   wikipedia: Solvable group
+inventory: [NDVKCTT0R6]
 ---
 
 ## Summary

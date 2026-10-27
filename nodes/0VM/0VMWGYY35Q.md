@@ -11,6 +11,7 @@ sources:
 same_as:
   wikidata: Q2540738
   wikipedia: Cartan–Dieudonné theorem
+inventory: [J2J2K35KSR]
 ---
 
 ## Statement

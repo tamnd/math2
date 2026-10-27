@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q381040
   wikipedia: Complex conjugate
+inventory: [288W6XS17X]
 ---
 
 ## Summary

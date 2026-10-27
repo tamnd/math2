@@ -8,6 +8,7 @@ uses: [0B89D93YA1, 0RDP2HEFEW, 065XW2V6C3]
 sources:
   - url: https://en.wikipedia.org/wiki/Inverse_trigonometric_functions
     locator: Principal values
+inventory: [HW2JFKN047]
 ---
 
 ## Definition

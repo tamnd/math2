@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q6126499
   wikipedia: Principal value
+inventory: [9KXZ2CSP08]
 ---
 
 ## Summary

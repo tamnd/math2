@@ -1,2 +1,2 @@
-{"id":"EWQ54M777N","mentions":["m2://rec/wikidata/Q862761#1"],"kind":"unknown","name":"interior","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"EWQ54M777N","mentions":["m2://rec/wikidata/Q862761#1"],"kind":"unknown","name":"interior","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0RZH6W98HK"}],"outcome":{"value":"node","target":["0RZH6W98HK"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}
 {"id":"EWQSE84D5X","mentions":["m2://rec/wikidata/Q189962#1"],"kind":"definition","name":"interval","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -8,6 +8,7 @@ uses: [0W8YHHGCJG]
 sources:
   - url: https://en.wikipedia.org/wiki/Uniform_continuity
     locator: Definition of uniform continuity
+inventory: [7ZJYA8EKE9]
 ---
 
 ## Definition

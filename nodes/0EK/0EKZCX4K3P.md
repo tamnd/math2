@@ -8,6 +8,7 @@ uses: [0EX045E2BP, 0CP7YY6NAG]
 sources:
   - url: https://en.wikipedia.org/wiki/Hermitian_matrix
     locator: lead section
+inventory: [C1N93YZJGX]
 ---
 
 ## Definition

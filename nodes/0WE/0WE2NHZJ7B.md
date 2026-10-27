@@ -7,6 +7,7 @@ msc: [20A05]
 sources:
   - url: https://en.wikipedia.org/wiki/Order_(group_theory)
     locator: lead section
+inventory: [2WR87G5VKX]
 ---
 
 ## Summary

@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1340572
   wikipedia: Finitely generated module
+inventory: [W1HTVQSQ49]
 ---
 
 ## Summary

@@ -10,6 +10,7 @@ sources:
     locator: lead section
   - url: https://en.wikipedia.org/wiki/Multiplicative_group_of_integers_modulo_n
     locator: Structure
+inventory: [K6SSVQV3AB]
 ---
 
 ## Definition

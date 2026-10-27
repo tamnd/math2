@@ -8,6 +8,7 @@ uses: [0CNQXVBHCX, 01ZQQDCERP, 0G5AV9Q4RR]
 sources:
   - url: https://en.wikipedia.org/wiki/Regular_space
     locator: Definitions
+inventory: [ZSX9JDW3B0]
 ---
 
 ## Definition

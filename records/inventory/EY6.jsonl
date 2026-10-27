@@ -1,1 +1,1 @@
-{"id":"EY6N5P3W7N","mentions":["m2://rec/wikidata/Q120812#1"],"kind":"definition","name":"absolute value","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"EY6N5P3W7N","mentions":["m2://rec/wikidata/Q120812#1"],"kind":"definition","name":"absolute value","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0FFXKTKKQC"}],"outcome":{"value":"node","target":["0FFXKTKKQC"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}

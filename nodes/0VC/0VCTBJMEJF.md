@@ -8,6 +8,7 @@ uses: [0QM4TXT3DR, 0Y12QYTJK3, 0909PWZR62]
 sources:
   - url: https://en.wikipedia.org/wiki/Improper_integral
     locator: Convergence of the integral
+inventory: [DPKBRR863S]
 ---
 
 ## Definition

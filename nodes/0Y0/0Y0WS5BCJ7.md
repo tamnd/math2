@@ -8,6 +8,7 @@ uses: [0VV0HSW1ZS, 0EF2VG8XKQ]
 sources:
   - url: https://en.wikipedia.org/wiki/Inflection_point
     locator: Definition
+inventory: [XW2QAFEMFX]
 ---
 
 ## Definition

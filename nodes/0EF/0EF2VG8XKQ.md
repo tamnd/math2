@@ -8,6 +8,7 @@ uses: [0VV0HSW1ZS]
 sources:
   - url: https://en.wikipedia.org/wiki/Concave_function
     locator: Definition
+inventory: [GVHNVWFQKX]
 ---
 
 ## Definition

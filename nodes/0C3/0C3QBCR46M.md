@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q3099696
   wikipedia: Monic polynomial
+inventory: [D443QFJQ5K]
 ---
 
 ## Summary

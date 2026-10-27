@@ -8,6 +8,7 @@ uses: [0N1MY1T0W9]
 sources:
   - url: https://en.wikipedia.org/wiki/Elementary_matrix
     locator: Elementary row operations
+inventory: [ZK63DTX3QY]
 ---
 
 ## Definition

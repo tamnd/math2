@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q911907
   wikipedia: Dihedral angle
+inventory: [8132PFDS1P]
 ---
 
 ## Summary

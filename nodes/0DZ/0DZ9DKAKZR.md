@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1292333
   wikipedia: Free module
+inventory: [BMDT1S4WWA]
 ---
 
 ## Summary

@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q159375
   wikipedia: Standard deviation
+inventory: [A9QAWPQV65]
 ---
 
 ## Summary

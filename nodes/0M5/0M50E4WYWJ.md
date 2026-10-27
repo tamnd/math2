@@ -10,6 +10,7 @@ sources:
     locator: Line integral of a scalar field
   - url: https://en.wikipedia.org/wiki/Line_integral
     locator: Derivation
+inventory: [Q3A3V4F47C]
 ---
 
 ## Definition

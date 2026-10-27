@@ -8,6 +8,7 @@ uses: [04WSW8T3SY, 08J2M1JYAG, 0TK8Y3J5RW]
 sources:
   - url: https://en.wikipedia.org/wiki/Borel_set
     locator: Generating the Borel algebra
+inventory: [2MRQDP1G9C]
 ---
 
 ## Definition

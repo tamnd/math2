@@ -8,6 +8,7 @@ uses: [0YVRNEDSVG, 0C4JS9RF5M]
 sources:
   - url: https://en.wikipedia.org/wiki/Floor_and_ceiling_functions
     locator: Definition and properties
+inventory: [WVZYSVSS1K]
 ---
 
 ## Definition

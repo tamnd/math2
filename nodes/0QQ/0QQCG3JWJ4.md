@@ -8,6 +8,7 @@ uses: [0EKZCX4K3P, 0N28QN4CYA]
 sources:
   - url: https://en.wikipedia.org/wiki/Definite_matrix
     locator: Definitions
+inventory: [2Z8JQJ3GJZ]
 ---
 
 ## Definition

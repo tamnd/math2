@@ -1,1 +1,1 @@
-{"id":"MQP1DPD1AK","mentions":["m2://rec/wikidata/Q192487#1"],"kind":"definition","name":"discriminant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"MQP1DPD1AK","mentions":["m2://rec/wikidata/Q192487#1"],"kind":"definition","name":"discriminant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0VVK64Q4JK"}],"outcome":{"value":"node","target":["0VVK64Q4JK"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}

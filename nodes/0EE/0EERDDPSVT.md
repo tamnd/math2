@@ -8,6 +8,7 @@ uses: [01DSNP0B4R, 02903SSA48, 05VDGH129F]
 sources:
   - url: https://en.wikipedia.org/wiki/Limit_cycle
     locator: Definition
+inventory: [CF5C9VTK8Y]
 ---
 
 ## Definition

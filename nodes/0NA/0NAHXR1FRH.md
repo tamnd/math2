@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q207476
   wikipedia: Holomorphic function
+inventory: [YK42V4DXDT]
 ---
 
 ## Summary

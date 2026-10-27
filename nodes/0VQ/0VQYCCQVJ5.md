@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1991405
   wikipedia: Nowhere dense set
+inventory: [A43EJQMTHJ]
 ---
 
 ## Summary

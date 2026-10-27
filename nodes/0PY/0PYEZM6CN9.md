@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1755697
   wikipedia: Liouville number
+inventory: [MZ3TXPC29V]
 ---
 
 ## Summary

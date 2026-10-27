@@ -8,6 +8,7 @@ uses: [0BW9N5CDSB]
 sources:
   - url: https://en.wikipedia.org/wiki/Antiderivative
     locator: Uses and properties
+inventory: [CTTR9239HV]
 ---
 
 ## Definition

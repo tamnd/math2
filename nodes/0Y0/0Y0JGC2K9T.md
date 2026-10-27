@@ -6,6 +6,7 @@ msc: [05C05]
 sources:
   - url: https://en.wikipedia.org/wiki/Tree_(graph_theory)
     locator: Rooted tree
+inventory: [XP9BWWD07N]
 ---
 
 ## Summary

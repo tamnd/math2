@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q2997928
   wikipedia: Component (graph theory)
+inventory: [TJ8VFMWKAW]
 ---
 
 ## Summary

@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q1378301
   wikipedia: Universal set
+inventory: [ADCAEJFZWS]
 ---
 
 ## Summary

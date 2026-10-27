@@ -12,6 +12,7 @@ sources:
     locator: Properties
   - url: https://en.wikipedia.org/wiki/Convex_set
     locator: Intersections and unions
+inventory: [55SKC5CWJN]
 ---
 
 ## Definition

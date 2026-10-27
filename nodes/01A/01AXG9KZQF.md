@@ -8,6 +8,7 @@ uses: [0N1MY1T0W9]
 sources:
   - url: https://en.wikipedia.org/wiki/Block_matrix
     locator: Formal definition
+inventory: [95VN171XXT]
 ---
 
 ## Definition

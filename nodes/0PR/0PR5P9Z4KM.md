@@ -11,6 +11,7 @@ sources:
 same_as:
   wikidata: Q7245073
   wikipedia: Principal axis theorem
+inventory: [3RHN4QR9M8]
 ---
 
 ## Statement

@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1087829
   wikipedia: Prüfer sequence
+inventory: [HWXJMM6M3H]
 ---
 
 ## Summary

@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q338057
   wikipedia: Inverse element
+inventory: [FEBX9EH0B8]
 ---
 
 ## Summary

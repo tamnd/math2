@@ -8,6 +8,7 @@ uses: [09S3PFBEPM, 0QA8CHH8MG]
 sources:
   - url: https://en.wikipedia.org/wiki/Field_of_fractions
     locator: Definition
+inventory: [TW4NG9BF5S]
 ---
 
 ## Definition

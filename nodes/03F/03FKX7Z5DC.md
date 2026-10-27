@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1476663
   wikipedia: Irreducible polynomial
+inventory: [GNXYRGGVDT]
 ---
 
 ## Summary

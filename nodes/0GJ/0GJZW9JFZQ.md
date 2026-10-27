@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q64861
   wikipedia: Transitive relation
+inventory: [Q23D46R4C1]
 ---
 
 ## Summary

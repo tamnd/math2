@@ -11,6 +11,7 @@ sources:
 same_as:
   wikidata: Q6653802
   wikipedia: Contour line
+inventory: [9HDNDMADW6]
 ---
 
 ## Summary

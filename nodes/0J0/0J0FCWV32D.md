@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q168698
   wikipedia: Exponential function
+inventory: [3WY2WYM25K]
 ---
 
 ## Summary

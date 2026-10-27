@@ -8,6 +8,7 @@ uses: [0V3XAMF3C1, 0WQJJCCTC8, 0ZEHZY85E6]
 sources:
   - url: https://en.wikipedia.org/wiki/Dihedral_angle
     locator: Mathematical background
+inventory: [8132PFDS1P]
 ---
 
 ## Definition

@@ -8,6 +8,7 @@ uses: [0XEGNW851S, 0N9SA25Z3V, 0CYRECG2YQ]
 sources:
   - url: https://en.wikipedia.org/wiki/Equivalence_relation
     locator: lead section
+inventory: [QFT3BEZB7E]
 ---
 
 ## Definition

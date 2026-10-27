@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q44382
   wikipedia: Principal ideal
+inventory: [ZCJMB03987]
 ---
 
 ## Summary

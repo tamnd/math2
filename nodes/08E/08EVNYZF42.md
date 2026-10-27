@@ -8,6 +8,7 @@ uses: [0XPR1E85W0]
 sources:
   - url: https://en.wikipedia.org/wiki/Fr%C3%A9chet_derivative
     locator: Definition
+inventory: [HJFMD7QKFR]
 ---
 
 ## Definition

@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q851503
   wikipedia: Riccati equation
+inventory: [JZ1JRNDNFN]
 ---
 
 ## Summary

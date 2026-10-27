@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q748339
   wikipedia: Legendre symbol
+inventory: [Z9EPYCE8YW]
 ---
 
 ## Summary

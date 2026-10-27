@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q467440
   wikipedia: Sample space
+inventory: [2GM8TWCDZ6]
 ---
 
 ## Summary

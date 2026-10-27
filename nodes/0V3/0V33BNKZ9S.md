@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q868473
   wikipedia: Smoothness
+inventory: [NKHHV1JJV8]
 ---
 
 ## Summary

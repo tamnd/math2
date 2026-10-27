@@ -8,6 +8,7 @@ uses: [0PVG1CRAJN]
 sources:
   - url: https://en.wikipedia.org/wiki/Countable_set
     locator: lead section
+inventory: [MTZB1FKBN5]
 ---
 
 ## Definition

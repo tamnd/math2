@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q576072
   wikipedia: Student's t-distribution
+inventory: [939GRDJF95]
 ---
 
 ## Summary

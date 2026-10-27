@@ -8,6 +8,7 @@ uses: [0EX045E2BP]
 sources:
   - url: https://en.wikipedia.org/wiki/Normal_matrix
     locator: lead section
+inventory: [A68TH0944V]
 ---
 
 ## Definition

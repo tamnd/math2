@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1142889
   wikipedia: Isolated point
+inventory: [E4KX2K12HY]
 ---
 
 ## Summary

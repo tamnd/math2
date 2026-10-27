@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q190026
   wikipedia: Euler's totient function
+inventory: [MYJF8BKNXK]
 ---
 
 ## Summary

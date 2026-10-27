@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q205692
   wikipedia: Poisson distribution
+inventory: [J45TZDMRRN]
 ---
 
 ## Summary

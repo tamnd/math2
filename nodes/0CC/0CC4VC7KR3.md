@@ -11,6 +11,7 @@ sources:
     locator: Logistic differential equation
   - url: https://en.wikipedia.org/wiki/Logistic_function
     locator: 'In ecology: modeling population growth'
+inventory: [1J9TVXNMVP]
 ---
 
 ## Example

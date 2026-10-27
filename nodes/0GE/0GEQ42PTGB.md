@@ -9,6 +9,7 @@ uses: [0F1WR9C83K]
 sources:
   - url: https://en.wikipedia.org/wiki/Critical_point_(mathematics)
     locator: Critical point of a single variable function
+inventory: [CTX7WB536F]
 ---
 
 ## Definition

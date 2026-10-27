@@ -8,6 +8,7 @@ uses: [0894J980RK]
 sources:
   - url: https://en.wikipedia.org/wiki/Ring_homomorphism
     locator: lead section
+inventory: [ECKQ9H3QS7]
 ---
 
 ## Definition

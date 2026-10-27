@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q2331395
   wikipedia: Normal extension
+inventory: [S50VZ0T8N6]
 ---
 
 ## Summary

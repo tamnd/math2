@@ -1,2 +1,2 @@
 {"id":"30H8BHVTNC","mentions":["m2://rec/wikidata/Q462095#1"],"kind":"unknown","name":"tree decomposition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"30HGXN8RXM","mentions":["m2://rec/wikidata/Q213593#1"],"kind":"unknown","name":"Tower of Hanoi","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"30HGXN8RXM","mentions":["m2://rec/wikidata/Q213593#1"],"kind":"unknown","name":"Tower of Hanoi","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0906Z03EMN"}],"outcome":{"value":"node","target":["0906Z03EMN"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}

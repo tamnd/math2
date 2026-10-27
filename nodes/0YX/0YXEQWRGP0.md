@@ -8,6 +8,7 @@ uses: [0XHDTE5YMZ, 05GK32H72H]
 sources:
   - url: https://en.wikipedia.org/wiki/Choice_function
     locator: lead section
+inventory: [Q27DBT5AVS]
 ---
 
 ## Definition

@@ -8,6 +8,7 @@ uses: [0CP7YY6NAG, 06DW9BAWB1, 076JGP6R3T]
 sources:
   - url: https://en.wikipedia.org/wiki/Invertible_matrix
     locator: Definition
+inventory: [P2E2KV54BD]
 ---
 
 ## Definition

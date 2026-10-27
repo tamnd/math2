@@ -8,6 +8,7 @@ uses: [0J3578562S, 0SY9ECQ19Q]
 sources:
   - url: https://en.wikipedia.org/wiki/Bounded_operator
     locator: In normed vector spaces
+inventory: [TE0BQ8SSBS]
 ---
 
 ## Definition

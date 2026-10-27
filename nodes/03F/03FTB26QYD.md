@@ -9,6 +9,7 @@ uses: [0N5N15HWZ7]
 sources:
   - url: https://en.wikipedia.org/wiki/Triple_product
     locator: Vector triple product
+inventory: [TPQYVR234A]
 ---
 
 ## Statement

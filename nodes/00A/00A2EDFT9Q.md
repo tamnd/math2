@@ -8,6 +8,7 @@ uses: [030TZ0DQWT]
 sources:
   - url: https://en.wikipedia.org/wiki/Principal_ideal
     locator: Definitions
+inventory: [ZCJMB03987]
 ---
 
 ## Definition

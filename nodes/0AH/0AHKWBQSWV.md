@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q11515519
   wikipedia: Vertex cover
+inventory: [J9T2YR1VBK]
 ---
 
 ## Summary

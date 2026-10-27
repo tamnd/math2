@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q91259930
   wikipedia: Hölder condition
+inventory: [T29TVJPTN2]
 ---
 
 ## Summary
