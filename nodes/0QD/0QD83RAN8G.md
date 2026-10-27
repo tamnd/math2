@@ -4,6 +4,7 @@ kind: concept
 name: Contour line
 aliases: [isoline, contour-map, level-curve-of-a-graph]
 msc: [26B99]
+specializes: [0B2RZ0778N]
 uses: [0B2RZ0778N, 0JBJYT69ZV]
 sources:
   - url: https://en.wikipedia.org/wiki/Contour_line

@@ -3,6 +3,7 @@ tag: 0AEAHMFSCA
 kind: concept
 name: Strictly convex function
 msc: [26A51]
+specializes: [07Q7CNM5WF]
 sources:
   - url: https://en.wikipedia.org/wiki/Convex_function
     locator: Definition

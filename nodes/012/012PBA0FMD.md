@@ -4,6 +4,7 @@ kind: concept
 name: Hölder continuity
 aliases: [holder-condition, holder-continuous-map]
 msc: [26A16]
+specializes: [0M4JJT780X]
 sources:
   - url: https://en.wikipedia.org/wiki/H%C3%B6lder_condition
     locator: lead section

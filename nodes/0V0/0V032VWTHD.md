@@ -4,6 +4,7 @@ kind: concept
 name: Connected space
 aliases: [connectedness]
 msc: [54D05]
+specializes: [0CQHFPGJ45]
 sources:
   - url: https://en.wikipedia.org/wiki/Connected_space
     locator: lead section

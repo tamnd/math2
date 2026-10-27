@@ -4,6 +4,7 @@ kind: concept
 name: Borel sigma-algebra
 aliases: [borel-algebra, borel-set, borel-sets]
 msc: [28A05]
+specializes: [0SV8K0TDGY]
 sources:
   - url: https://en.wikipedia.org/wiki/Borel_set
     locator: lead section

@@ -4,6 +4,7 @@ kind: concept
 name: Regular space
 aliases: [t3-space]
 msc: [54D15]
+specializes: [0CQHFPGJ45]
 sources:
   - url: https://en.wikipedia.org/wiki/Regular_space
     locator: lead section

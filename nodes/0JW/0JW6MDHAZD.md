@@ -4,6 +4,7 @@ kind: concept
 name: Saddle point
 aliases: [minimax-point]
 msc: [26B05]
+specializes: [0YTCMFB4HC]
 uses: [0WFBH1Q3WC, 0ABK9V9Y64]
 sources:
   - url: https://en.wikipedia.org/wiki/Saddle_point

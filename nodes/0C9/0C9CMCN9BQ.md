@@ -3,6 +3,7 @@ tag: 0C9CMCN9BQ
 kind: concept
 name: Contractive sequence
 msc: [40A05]
+specializes: [0PWX18FM4G]
 sources:
   - url: https://en.wikipedia.org/wiki/Contraction_mapping
     locator: lead section

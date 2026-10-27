@@ -4,6 +4,7 @@ kind: concept
 name: Lipschitz condition
 aliases: [lipschitz-continuity]
 msc: [26A16]
+specializes: [0M4JJT780X]
 sources:
   - url: https://en.wikipedia.org/wiki/Lipschitz_continuity
     locator: lead section

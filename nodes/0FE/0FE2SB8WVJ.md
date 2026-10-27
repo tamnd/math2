@@ -3,6 +3,7 @@ tag: 0FE2SB8WVJ
 kind: concept
 name: Locally compact space
 msc: [54D45]
+specializes: [0CQHFPGJ45]
 sources:
   - url: https://en.wikipedia.org/wiki/Locally_compact_space
     locator: lead section

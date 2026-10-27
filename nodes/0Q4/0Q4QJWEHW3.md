@@ -3,6 +3,7 @@ tag: 0Q4QJWEHW3
 kind: concept
 name: Second derivative
 msc: [26A24]
+specializes: [04TKTF8KDK]
 sources:
   - url: https://en.wikipedia.org/wiki/Second_derivative
     locator: lead section

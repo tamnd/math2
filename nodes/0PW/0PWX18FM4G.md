@@ -3,6 +3,7 @@ tag: 0PWX18FM4G
 kind: concept
 name: Cauchy sequence
 msc: [40A05]
+specializes: [0A8JNBGT2Z]
 sources:
   - url: https://en.wikipedia.org/wiki/Cauchy_sequence
     locator: lead section

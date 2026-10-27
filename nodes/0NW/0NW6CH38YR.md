@@ -4,6 +4,7 @@ kind: concept
 name: T1 space
 aliases: [accessible-space]
 msc: [54D10]
+specializes: [07SG12TQH3]
 sources:
   - url: https://en.wikipedia.org/wiki/T1_space
     locator: lead section

@@ -3,6 +3,7 @@ tag: 02JBEMG8R4
 kind: concept
 name: Monotone sequence
 msc: [40A05]
+specializes: [04CC6K5VDT]
 sources:
   - url: https://en.wikipedia.org/wiki/Monotonic_function
     locator: In calculus and analysis

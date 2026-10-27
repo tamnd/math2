@@ -3,6 +3,7 @@ tag: 0RJSBR9GW1
 kind: concept
 name: Totally disconnected space
 msc: [54D05]
+specializes: [0CQHFPGJ45]
 sources:
   - url: https://en.wikipedia.org/wiki/Totally_disconnected_space
     locator: lead section

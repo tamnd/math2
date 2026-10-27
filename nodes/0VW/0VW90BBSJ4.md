@@ -3,6 +3,7 @@ tag: 0VW90BBSJ4
 kind: concept
 name: Continuously differentiable function
 msc: [26A24]
+specializes: [0K57YG3BB8]
 sources:
   - url: https://en.wikipedia.org/wiki/Smoothness
     locator: Differentiability classes

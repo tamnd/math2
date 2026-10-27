@@ -3,6 +3,7 @@ tag: 0A8JNBGT2Z
 kind: concept
 name: Bounded sequence
 msc: [40A05]
+specializes: [0G9EKM0E15]
 sources:
   - url: https://en.wikipedia.org/wiki/Bounded_function
     locator: lead section

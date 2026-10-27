@@ -3,6 +3,7 @@ tag: 0QED0GPYKY
 kind: concept
 name: Alternating series
 msc: [40A05]
+specializes: [0NM626FH6Q]
 sources:
   - url: https://en.wikipedia.org/wiki/Alternating_series
     locator: lead section

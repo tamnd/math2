@@ -3,6 +3,7 @@ tag: 0FBETJR0JG
 kind: concept
 name: Local maximum
 msc: [26A24]
+specializes: [0WFBH1Q3WC]
 sources:
   - url: https://en.wikipedia.org/wiki/Maximum_and_minimum
     locator: Definition

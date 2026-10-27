@@ -3,6 +3,7 @@ tag: 0BMY28TBSF
 kind: concept
 name: Uniformly Cauchy sequence of functions
 msc: [40A30]
+specializes: [0Y8FRYX8Q2]
 sources:
   - url: https://en.wikipedia.org/wiki/Uniform_convergence
     locator: Properties

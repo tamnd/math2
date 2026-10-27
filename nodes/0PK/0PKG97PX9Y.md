@@ -4,6 +4,7 @@ kind: concept
 name: Conservative vector field
 aliases: [gradient-field]
 msc: [26B12]
+specializes: [0299VCW1TH]
 uses: [0299VCW1TH, 0ABK9V9Y64, 0H7C3T1GJY]
 sources:
   - url: https://en.wikipedia.org/wiki/Conservative_vector_field

@@ -3,6 +3,7 @@ tag: 0F1PR74BRX
 kind: concept
 name: Subsequence
 msc: [40A05]
+specializes: [0G9EKM0E15]
 sources:
   - url: https://en.wikipedia.org/wiki/Subsequence
     locator: lead section
