@@ -3,6 +3,7 @@ tag: 0MR0BYF0K2
 kind: concept
 name: Normal matrix
 msc: [15B57, 15A21]
+specializes: [0JXZKX526R]
 sources:
   - url: https://en.wikipedia.org/wiki/Normal_matrix
     locator: lead section

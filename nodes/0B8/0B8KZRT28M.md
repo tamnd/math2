@@ -3,6 +3,7 @@ tag: 0B8KZRT28M
 kind: concept
 name: Orthogonal projection
 msc: [15A04, 46C05]
+specializes: [033DA1WE8Y]
 sources:
   - url: https://en.wikipedia.org/wiki/Projection_(linear_algebra)
     locator: Orthogonal projections

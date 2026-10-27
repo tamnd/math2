@@ -3,6 +3,7 @@ tag: 01MMVW8CKC
 kind: concept
 name: Positive semidefinite matrix
 msc: [15B57, 15A63]
+specializes: [0P17NGQQMQ]
 sources:
   - url: https://en.wikipedia.org/wiki/Definite_matrix
     locator: Definitions

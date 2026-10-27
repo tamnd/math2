@@ -3,6 +3,7 @@ tag: 0T6MWGZSXA
 kind: concept
 name: Augmented matrix
 msc: [15A06]
+specializes: [0VD9ZSWWJG]
 sources:
   - url: https://en.wikipedia.org/wiki/Augmented_matrix
     locator: lead section

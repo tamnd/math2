@@ -3,6 +3,7 @@ tag: 03NDVCSHSB
 kind: concept
 name: Minimal polynomial
 msc: [15A18]
+specializes: [0PBN8VEKY8]
 sources:
   - url: https://en.wikipedia.org/wiki/Minimal_polynomial_(linear_algebra)
     locator: Formal definition

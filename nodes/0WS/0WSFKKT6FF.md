@@ -4,6 +4,7 @@ kind: concept
 name: Image of a linear map
 aliases: [range-of-a-linear-map]
 msc: [15A04]
+specializes: [00YC1D652K]
 sources:
   - url: https://en.wikipedia.org/wiki/Image_(mathematics)
     locator: lead section

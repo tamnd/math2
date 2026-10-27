@@ -3,6 +3,7 @@ tag: 0BF2DE2SYK
 kind: concept
 name: Tensor product of vector spaces
 msc: [15A69]
+specializes: [000AYPA9AJ]
 sources:
   - url: https://en.wikipedia.org/wiki/Tensor_product
     locator: As a quotient space

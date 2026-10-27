@@ -3,6 +3,7 @@ tag: 0DTY8B9HMS
 kind: concept
 name: Linear span
 msc: [15A03]
+specializes: [00YC1D652K]
 sources:
   - url: https://en.wikipedia.org/wiki/Linear_span
     locator: Definition

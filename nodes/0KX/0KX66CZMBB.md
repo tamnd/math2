@@ -3,6 +3,7 @@ tag: 0KX66CZMBB
 kind: concept
 name: Positive definite matrix
 msc: [15B57, 15A63]
+specializes: [01MMVW8CKC]
 sources:
   - url: https://en.wikipedia.org/wiki/Definite_matrix
     locator: Definitions

@@ -4,6 +4,7 @@ kind: concept
 name: Column space
 aliases: [range-of-a-matrix]
 msc: [15A03]
+specializes: [00YC1D652K]
 sources:
   - url: https://en.wikipedia.org/wiki/Row_and_column_spaces
     locator: lead section

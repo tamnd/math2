@@ -3,6 +3,7 @@ tag: 0AXZNE5XNH
 kind: concept
 name: Symmetric bilinear form
 msc: [15A63]
+specializes: [0SQZMXB6GP]
 sources:
   - url: https://en.wikipedia.org/wiki/Symmetric_bilinear_form
     locator: Formal definition

@@ -3,6 +3,7 @@ tag: 08VRX3Q4PB
 kind: concept
 name: Semisimple endomorphism
 msc: [15A04, 15A20]
+specializes: [0J7H0YBFDJ]
 sources:
   - url: https://en.wikipedia.org/wiki/Semisimple_operator
     locator: lead section

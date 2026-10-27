@@ -3,6 +3,7 @@ tag: 0PHDYNR24D
 kind: concept
 name: Null space
 msc: [15A03, 15A06]
+specializes: [00YC1D652K]
 sources:
   - url: https://en.wikipedia.org/wiki/Kernel_(linear_algebra)
     locator: lead section

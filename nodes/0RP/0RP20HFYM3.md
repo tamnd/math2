@@ -3,6 +3,7 @@ tag: 0RP20HFYM3
 kind: concept
 name: Positive definite quadratic form
 msc: [15A63, "11E04"]
+specializes: [0RBQS1JJCR]
 sources:
   - url: https://en.wikipedia.org/wiki/Definite_quadratic_form
     locator: lead section

@@ -3,6 +3,7 @@ tag: 0G0RFPG8HR
 kind: concept
 name: Eigenspace
 msc: [15A18]
+specializes: [0ACX5QT8TE]
 sources:
   - url: https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors
     locator: Eigenspaces, geometric multiplicity, and the eigenbasis

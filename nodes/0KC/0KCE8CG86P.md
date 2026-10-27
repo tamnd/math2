@@ -4,6 +4,7 @@ kind: concept
 name: Idempotent matrix
 aliases: [projection-matrix]
 msc: [15A99]
+specializes: [0JXZKX526R]
 sources:
   - url: https://en.wikipedia.org/wiki/Idempotent_matrix
     locator: lead section

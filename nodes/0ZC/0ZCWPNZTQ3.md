@@ -3,6 +3,7 @@ tag: 0ZCWPNZTQ3
 kind: concept
 name: Companion matrix
 msc: [15A21]
+specializes: [0JXZKX526R]
 sources:
   - url: https://en.wikipedia.org/wiki/Companion_matrix
     locator: lead section

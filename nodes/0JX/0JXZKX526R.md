@@ -3,6 +3,7 @@ tag: 0JXZKX526R
 kind: concept
 name: Square matrix
 msc: [15A99]
+specializes: [0VD9ZSWWJG]
 sources:
   - url: https://en.wikipedia.org/wiki/Square_matrix
     locator: lead section

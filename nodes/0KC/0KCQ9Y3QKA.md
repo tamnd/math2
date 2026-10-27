@@ -3,6 +3,7 @@ tag: 0KCQ9Y3QKA
 kind: concept
 name: Basis
 msc: [15A03]
+specializes: [088RYKAWK9]
 sources:
   - url: https://en.wikipedia.org/wiki/Basis_(linear_algebra)
     locator: Definition

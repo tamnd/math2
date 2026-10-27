@@ -3,6 +3,7 @@ tag: 04KGXJG1A2
 kind: concept
 name: Homogeneous system of linear equations
 msc: [15A06]
+specializes: [0GT4WWGWH2]
 sources:
   - url: https://en.wikipedia.org/wiki/System_of_linear_equations
     locator: Homogeneous systems

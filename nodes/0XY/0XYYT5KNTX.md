@@ -4,6 +4,7 @@ kind: concept
 name: Direct sum of subspaces
 aliases: [internal-direct-sum]
 msc: [15A03]
+specializes: [0JMTY8MF54]
 sources:
   - url: https://en.wikipedia.org/wiki/Direct_sum_of_modules
     locator: Internal direct sum

@@ -3,6 +3,7 @@ tag: 0K6CH0MT0F
 kind: concept
 name: Alternating multilinear map
 msc: [15A69, 15A75]
+specializes: [0443XNARDV]
 sources:
   - url: https://en.wikipedia.org/wiki/Alternating_multilinear_map
     locator: Definition

@@ -3,6 +3,7 @@ tag: 0W02QESPJQ
 kind: concept
 name: Orthogonal matrix
 msc: [15B10]
+specializes: [0EB9N0S33C, 0MR0BYF0K2]
 sources:
   - url: https://en.wikipedia.org/wiki/Orthogonal_matrix
     locator: lead section

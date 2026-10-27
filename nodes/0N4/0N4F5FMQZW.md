@@ -4,6 +4,7 @@ kind: concept
 name: Quotient map
 aliases: [canonical-projection]
 msc: [15A03, 15A04]
+specializes: [0NRYHJPQG2]
 sources:
   - url: https://en.wikipedia.org/wiki/Quotient_space_(linear_algebra)
     locator: Definition

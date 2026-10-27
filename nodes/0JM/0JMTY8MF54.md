@@ -3,6 +3,7 @@ tag: 0JMTY8MF54
 kind: concept
 name: Sum of subspaces
 msc: [15A03]
+specializes: [00YC1D652K]
 sources:
   - url: https://en.wikipedia.org/wiki/Linear_subspace
     locator: Operations and relations on subspaces

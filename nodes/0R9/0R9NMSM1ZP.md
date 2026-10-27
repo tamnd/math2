@@ -3,6 +3,7 @@ tag: 0R9NMSM1ZP
 kind: concept
 name: Adjoint of a linear map
 msc: [15A04, 47A05]
+specializes: [0NRYHJPQG2]
 sources:
   - url: https://en.wikipedia.org/wiki/Hermitian_adjoint
     locator: Definition for bounded operators between Hilbert spaces

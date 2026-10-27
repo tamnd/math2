@@ -3,6 +3,7 @@ tag: 0N4XY7Z3NN
 kind: concept
 name: Upper triangular matrix
 msc: [15A99]
+specializes: [0JXZKX526R]
 sources:
   - url: https://en.wikipedia.org/wiki/Triangular_matrix
     locator: lead section

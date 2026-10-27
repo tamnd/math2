@@ -4,6 +4,7 @@ kind: concept
 name: Inner product space
 aliases: [pre-hilbert-space]
 msc: [15A63, 46C05]
+specializes: [000AYPA9AJ]
 sources:
   - url: https://en.wikipedia.org/wiki/Inner_product_space
     locator: Definition
