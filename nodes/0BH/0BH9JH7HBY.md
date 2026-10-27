@@ -3,6 +3,7 @@ tag: 0BH9JH7HBY
 kind: concept
 name: Infinite limit
 msc: [26A03]
+specializes: [0PKRYB8ATM]
 sources:
   - url: https://en.wikipedia.org/wiki/Limit_of_a_function
     locator: Infinite limits

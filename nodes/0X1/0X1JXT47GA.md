@@ -3,6 +3,7 @@ tag: 0X1JXT47GA
 kind: concept
 name: Subgroup
 msc: [20A05]
+specializes: [G5S1M9]
 sources:
   - url: https://en.wikipedia.org/wiki/Subgroup
     locator: lead section

@@ -3,6 +3,7 @@ tag: 0SXHBTNM9T
 kind: concept
 name: Acyclic graph
 msc: [05C05]
+specializes: [00C0BR7D7H]
 sources:
   - url: https://en.wikipedia.org/wiki/Tree_(graph_theory)
     locator: Forest

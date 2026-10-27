@@ -4,6 +4,7 @@ kind: concept
 name: Improper multiple integral
 aliases: [improper-double-integral]
 msc: [26B15]
+specializes: [05KQ3F99BQ]
 uses: [0WAR4F23B4, 0KTGJW1ZTH]
 sources:
   - url: https://en.wikipedia.org/wiki/Improper_integral

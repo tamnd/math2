@@ -4,6 +4,7 @@ kind: concept
 name: Differentiable function of several variables
 aliases: [differentiable-map, totally-differentiable-function]
 msc: [26B05]
+specializes: [0K57YG3BB8]
 uses: [0FNKFT8H6E, 0JPCHTXWG0]
 sources:
   - url: https://en.wikipedia.org/wiki/Differentiable_function

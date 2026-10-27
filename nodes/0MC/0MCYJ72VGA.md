@@ -3,6 +3,7 @@ tag: 0MCYJ72VGA
 kind: concept
 name: Complement graph
 msc: [05C76]
+specializes: [00C0BR7D7H]
 sources:
   - url: https://en.wikipedia.org/wiki/Complement_graph
     locator: Definitions
