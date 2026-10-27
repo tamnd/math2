@@ -24,3 +24,23 @@ rules:
     outcome: merged
     reason: the row has a formal statement with the same canonical type as a statement of an older row
     match: pass 2 of the clustering found that two rows have statements of a formal library with the same canonical type hash, so Lean proves each from the other with the identity, and it kept the older row
+  - id: formal-human
+    outcome: node
+    reason: a mention from a human source is in the same row as the declaration (corpus spec K4.5)
+    match: the row has a mention of a formal library and a mention of a source that is not a formal library and not a list of one. The row stays open until its node exists, and then the node outcome names this rule
+  - id: formal-main
+    outcome: node
+    reason: the library documents the declaration as a main result (corpus spec K4.5)
+    match: the row has a mention of a formal library and a mention of a list of the library (mathlib_100, mathlib_1000, mathlib_undergrad, mathlib_overview, thousand_plus or formal_conjectures), or the module documentation names the declaration as a main result. The row stays open until its node exists
+  - id: formal-used
+    outcome: node
+    reason: a node uses the declaration in a uses edge that a person wrote (corpus spec K4.5)
+    match: the row has a mention of a formal library that a node uses in a uses edge that a person wrote. The row stays open until its node exists
+  - id: formal-asked
+    outcome: node
+    reason: a person asks for the declaration (corpus spec K4.5)
+    match: the row has a mention of a formal library that a person asks for. The row stays open until its node exists
+  - id: formal-only
+    outcome: formal_only
+    reason: a declaration of a formal library that no person cites. It stays in the crosswalk, so that a binding and search can find it (corpus spec K4.5)
+    match: the row has a mention of a formal library, and none of the rules formal-human, formal-main, formal-used and formal-asked matches it. The row opens again when one of them matches it later
