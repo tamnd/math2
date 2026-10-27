@@ -4,6 +4,7 @@ kind: concept
 name: Isometric isomorphism
 aliases: [surjective-isometry, bijective-isometry]
 msc: ["54E40"]
+specializes: [02HPP5VCZH]
 sources:
   - url: https://en.wikipedia.org/wiki/Isometry
     locator: Definition

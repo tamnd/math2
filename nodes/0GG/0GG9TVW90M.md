@@ -4,6 +4,7 @@ kind: concept
 name: Bijective function
 aliases: [bijection, one-to-one-correspondence]
 msc: ["03E20"]
+specializes: [09NWETVTNY, 01RVCMSN5N]
 sources:
   - url: https://en.wikipedia.org/wiki/Bijection
     locator: lead section

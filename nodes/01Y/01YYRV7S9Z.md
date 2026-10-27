@@ -3,6 +3,7 @@ tag: 01YYRV7S9Z
 kind: concept
 name: Limit at infinity
 msc: [26A03]
+specializes: [0PKRYB8ATM]
 sources:
   - url: https://en.wikipedia.org/wiki/Limit_of_a_function
     locator: Limits at infinity

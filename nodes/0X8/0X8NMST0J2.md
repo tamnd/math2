@@ -4,6 +4,7 @@ kind: concept
 name: Reflexive relation
 aliases: [reflexivity]
 msc: ["03E20"]
+specializes: [05AVARPXA2]
 sources:
   - url: https://en.wikipedia.org/wiki/Reflexive_relation
     locator: lead section

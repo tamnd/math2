@@ -3,6 +3,7 @@ tag: 0ZNXZB4HNB
 kind: concept
 name: Power sum symmetric polynomial
 msc: ["05E05"]
+specializes: [0VHSHB9B6J]
 sources:
   - url: https://en.wikipedia.org/wiki/Power_sum_symmetric_polynomial
     locator: lead section

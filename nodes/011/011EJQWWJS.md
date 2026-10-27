@@ -3,6 +3,7 @@ tag: 011EJQWWJS
 kind: concept
 name: Strictly monotone function
 msc: [26A48]
+specializes: [0A7KV2WB7A]
 sources:
   - url: https://en.wikipedia.org/wiki/Monotonic_function
     locator: In calculus and analysis

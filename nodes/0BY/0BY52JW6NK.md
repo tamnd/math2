@@ -4,6 +4,7 @@ kind: concept
 name: Complete metric space
 aliases: [complete-space]
 msc: ["54E50"]
+specializes: [0VKD1TP7F3]
 sources:
   - url: https://en.wikipedia.org/wiki/Complete_metric_space
     locator: lead section

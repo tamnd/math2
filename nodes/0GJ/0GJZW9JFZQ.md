@@ -4,6 +4,7 @@ kind: concept
 name: Transitive relation
 aliases: [transitivity]
 msc: ["03E20"]
+specializes: [05AVARPXA2]
 sources:
   - url: https://en.wikipedia.org/wiki/Transitive_relation
     locator: lead section

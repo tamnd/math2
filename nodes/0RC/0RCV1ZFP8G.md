@@ -3,6 +3,7 @@ tag: 0RCV1ZFP8G
 kind: concept
 name: Boolean ring
 msc: ["06E20"]
+specializes: [0B1261B5ED]
 sources:
   - url: https://en.wikipedia.org/wiki/Boolean_ring
     locator: lead section

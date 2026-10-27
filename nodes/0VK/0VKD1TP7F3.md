@@ -3,6 +3,7 @@ tag: 0VKD1TP7F3
 kind: concept
 name: Metric space
 msc: ["54E35"]
+specializes: [0A3HJX3KTF]
 sources:
   - url: https://en.wikipedia.org/wiki/Metric_space
     locator: lead section

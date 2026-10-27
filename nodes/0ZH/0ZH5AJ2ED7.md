@@ -3,6 +3,7 @@ tag: 0ZH5AJ2ED7
 kind: concept
 name: Baire space
 msc: ["54E52"]
+specializes: [0CQHFPGJ45]
 sources:
   - url: https://en.wikipedia.org/wiki/Baire_space
     locator: lead section

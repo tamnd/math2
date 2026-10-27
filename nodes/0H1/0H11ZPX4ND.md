@@ -3,6 +3,7 @@ tag: 0H11ZPX4ND
 kind: concept
 name: Conjugate subgroup
 msc: ["20E45"]
+specializes: [0X1JXT47GA]
 sources:
   - url: https://en.wikipedia.org/wiki/Conjugacy_class
     locator: Conjugacy of subgroups and general subsets

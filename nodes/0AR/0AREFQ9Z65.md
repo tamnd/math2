@@ -4,6 +4,7 @@ kind: concept
 name: Continuous uniform distribution
 aliases: [rectangular-distribution, uniform-distribution]
 msc: ["60E05"]
+specializes: [0DVDCMA2DK]
 sources:
   - url: https://en.wikipedia.org/wiki/Continuous_uniform_distribution
     locator: lead section

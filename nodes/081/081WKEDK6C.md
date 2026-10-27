@@ -3,6 +3,7 @@ tag: 081WKEDK6C
 kind: concept
 name: Analytic function
 msc: ["26E05"]
+specializes: [0V33BNKZ9S]
 sources:
   - url: https://en.wikipedia.org/wiki/Analytic_function
     locator: lead section

@@ -3,6 +3,7 @@ tag: 0X3Y0ZSKNF
 kind: concept
 name: Hypergeometric distribution
 msc: ["60E05"]
+specializes: [0DVDCMA2DK]
 sources:
   - url: https://en.wikipedia.org/wiki/Hypergeometric_distribution
     locator: lead section

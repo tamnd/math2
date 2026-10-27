@@ -4,6 +4,7 @@ kind: concept
 name: Surjective function
 aliases: [surjection, onto-function]
 msc: ["03E20"]
+specializes: [0EPAT51DXQ]
 sources:
   - url: https://en.wikipedia.org/wiki/Surjective_function
     locator: lead section

@@ -4,6 +4,7 @@ kind: concept
 name: Student's t-distribution
 aliases: [t-distribution, students-t-distribution]
 msc: ["60E05", "62E15"]
+specializes: [0DVDCMA2DK]
 sources:
   - url: https://en.wikipedia.org/wiki/Student's_t-distribution
     locator: lead section

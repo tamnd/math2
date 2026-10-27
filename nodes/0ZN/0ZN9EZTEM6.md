@@ -4,6 +4,7 @@ kind: concept
 name: Conditional probability distribution
 aliases: [conditional-distribution, conditional-law]
 msc: ["60E05"]
+specializes: [0DVDCMA2DK]
 sources:
   - url: https://en.wikipedia.org/wiki/Conditional_probability_distribution
     locator: lead section

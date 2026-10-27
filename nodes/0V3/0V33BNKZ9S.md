@@ -3,6 +3,7 @@ tag: 0V33BNKZ9S
 kind: concept
 name: Smooth function
 msc: ["26E10"]
+specializes: [0X3WGX95FE]
 sources:
   - url: https://en.wikipedia.org/wiki/Smoothness
     locator: lead section

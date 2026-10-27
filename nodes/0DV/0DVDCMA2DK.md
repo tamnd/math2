@@ -4,6 +4,7 @@ kind: concept
 name: Probability distribution
 aliases: [distribution]
 msc: ["60E05"]
+specializes: [059TJN0NZ1]
 sources:
   - url: https://en.wikipedia.org/wiki/Probability_distribution
     locator: lead section

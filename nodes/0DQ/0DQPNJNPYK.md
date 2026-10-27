@@ -4,6 +4,7 @@ kind: concept
 name: Well-founded relation
 aliases: [well-foundedness]
 msc: ["03E20"]
+specializes: [05AVARPXA2]
 sources:
   - url: https://en.wikipedia.org/wiki/Well-founded_relation
     locator: lead section
