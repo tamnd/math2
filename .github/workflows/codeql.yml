@@ -1,10 +1,13 @@
 name: codeql
 
+# The scan reads only the Python code and the workflows. The pipeline merges a pull request of data each hour, so a push or a pull request with no change to them does not start the scan.
 on:
   push:
     branches: [main]
+    paths: ["**/*.py", ".github/**"]
   pull_request:
     branches: [main]
+    paths: ["**/*.py", ".github/**"]
   merge_group:
   schedule:
     - cron: "23 6 * * 1"
