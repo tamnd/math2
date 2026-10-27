@@ -8,6 +8,7 @@ uses: [0MJ0JS72DZ]
 sources:
   - url: https://en.wikipedia.org/wiki/Prüfer_sequence
     locator: Algorithm to convert a  tree into a Prüfer sequence
+inventory: [HWXJMM6M3H]
 ---
 
 ## Definition

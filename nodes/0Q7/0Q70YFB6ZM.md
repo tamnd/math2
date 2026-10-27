@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q826467
   wikipedia: Regular graph
+inventory: [VDSRZGQ5ZF]
 ---
 
 ## Summary

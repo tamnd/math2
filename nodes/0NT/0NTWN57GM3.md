@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1048447
   wikipedia: Multiplicative function
+inventory: [30A4X7Q7WH]
 ---
 
 ## Summary

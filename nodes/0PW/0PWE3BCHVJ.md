@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q205140
   wikipedia: Infinite set
+inventory: [WNE0TMHGD0]
 ---
 
 ## Summary

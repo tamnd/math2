@@ -8,6 +8,7 @@ uses: [0DCT0QZVQ1, 04WSW8T3SY, 0DKRR22AEQ, 0FJB06AD2P]
 sources:
   - url: https://en.wikipedia.org/wiki/Conditional_expectation
     locator: Conditional expectation with respect to a sub-σ-algebra
+inventory: [FFGC27ZEK7]
 ---
 
 ## Definition

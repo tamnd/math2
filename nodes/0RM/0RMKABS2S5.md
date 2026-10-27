@@ -8,6 +8,7 @@ uses: [0EPTJA5QV4]
 sources:
   - url: https://en.wikipedia.org/wiki/Linear_subspace
     locator: Operations and relations on subspaces
+inventory: [JN56MBD6F4]
 ---
 
 ## Definition

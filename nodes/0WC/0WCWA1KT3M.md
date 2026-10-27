@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q185547
   wikipedia: Binomial distribution
+inventory: [J5V57CH8JG]
 ---
 
 ## Summary

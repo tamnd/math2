@@ -9,6 +9,7 @@ uses: [0H2EPRZC0D, 0AP80TT660]
 sources:
   - url: https://en.wikipedia.org/wiki/Completely_multiplicative_function
     locator: Definition
+inventory: [RM3HD6740J]
 ---
 
 ## Definition

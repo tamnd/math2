@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q2706744
   wikipedia: Invariant subspace
+inventory: [BMJM704BZX]
 ---
 
 ## Summary

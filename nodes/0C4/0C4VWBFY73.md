@@ -7,6 +7,7 @@ defines: 0JT92VK307
 sources:
   - url: https://en.wikipedia.org/wiki/Bernstein_polynomial
     locator: Definition
+inventory: [S1JJSDS9GR]
 ---
 
 ## Definition

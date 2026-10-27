@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q282327
   wikipedia: Von Mangoldt function
+inventory: [GCDRWN4XQZ]
 ---
 
 ## Summary

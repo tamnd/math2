@@ -8,6 +8,7 @@ uses: [0HM05N3FJD, 0SJ3RX9TXA]
 sources:
   - url: https://en.wikipedia.org/wiki/Sample_space
     locator: Conditions of a sample space
+inventory: [2GM8TWCDZ6]
 ---
 
 ## Definition

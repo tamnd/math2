@@ -8,6 +8,7 @@ defines: 09115NQZ07
 sources:
   - url: https://en.wikipedia.org/wiki/Arithmetic_function
     locator: lead section
+inventory: [NQP76KBRRC]
 ---
 
 ## Definition

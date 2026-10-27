@@ -9,6 +9,7 @@ uses: [0QRV8FPK5M, 0GFKP8F8AG]
 sources:
   - url: https://en.wikipedia.org/wiki/Reduced_residue_system
     locator: lead section
+inventory: [AWWMCWBCZE]
 ---
 
 ## Definition

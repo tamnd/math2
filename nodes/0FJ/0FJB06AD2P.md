@@ -8,6 +8,7 @@ uses: [0ZYBZ34RT2, 00SQGJNRTB]
 sources:
   - url: https://en.wikipedia.org/wiki/Conditional_probability
     locator: Kolmogorov definition
+inventory: [73GPG98Q9N]
 ---
 
 ## Definition

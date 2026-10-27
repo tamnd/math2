@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q124255
   wikipedia: Conic section
+inventory: [ZBWB4FDVXB]
 ---
 
 ## Summary

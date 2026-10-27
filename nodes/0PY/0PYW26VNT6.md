@@ -7,6 +7,7 @@ msc: [51N10]
 sources:
   - url: https://en.wikipedia.org/wiki/Affine_space
     locator: Affine subspaces and parallelism
+inventory: [MMDD7727S9]
 ---
 
 ## Summary

@@ -8,6 +8,7 @@ uses: [069P20KYQT]
 sources:
   - url: https://en.wikipedia.org/wiki/Step_function
     locator: Definition and first consequences
+inventory: [ZXGSFK61TQ]
 ---
 
 ## Definition

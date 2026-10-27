@@ -6,6 +6,7 @@ msc: [15A99]
 sources:
   - url: https://en.wikipedia.org/wiki/Triangular_matrix
     locator: lead section
+inventory: [1W8C1QV0S3]
 ---
 
 ## Summary

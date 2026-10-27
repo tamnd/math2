@@ -8,6 +8,7 @@ uses: [0GJBJ19NXR, 0SN0MAEKYX]
 sources:
   - url: https://en.wikipedia.org/wiki/Mersenne_prime
     locator: About Mersenne primes
+inventory: [2SS5TM8RA6]
 ---
 
 ## Definition

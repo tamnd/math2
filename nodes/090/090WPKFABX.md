@@ -8,6 +8,7 @@ uses: [0HKXNG2RS1]
 sources:
   - url: https://en.wikipedia.org/wiki/Hamiltonian_path
     locator: Definitions
+inventory: [YPA2K78CAS]
 ---
 
 ## Definition

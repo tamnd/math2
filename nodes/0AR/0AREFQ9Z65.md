@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q274506
   wikipedia: Continuous uniform distribution
+inventory: [C7763YCGJW]
 ---
 
 ## Summary

@@ -7,6 +7,7 @@ defines: 000AYPA9AJ
 sources:
   - url: https://en.wikipedia.org/wiki/Vector_space
     locator: Definition and basic properties
+inventory: [FS3H3KZHNY]
 ---
 
 ## Definition

@@ -10,6 +10,7 @@ sources:
     locator: lead section
   - url: https://en.wikipedia.org/wiki/Power_of_a_point
     locator: Intersecting secants theorem, intersecting chords theorem
+inventory: [Z8Z5DNSXMD]
 ---
 
 ## Definition

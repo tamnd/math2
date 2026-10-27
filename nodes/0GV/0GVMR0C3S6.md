@@ -10,6 +10,7 @@ sources:
     locator: Definition
   - url: https://en.wikipedia.org/wiki/Moment_of_inertia
     locator: Rigid body
+inventory: [W3BDM8GRKG]
 ---
 
 ## Definition

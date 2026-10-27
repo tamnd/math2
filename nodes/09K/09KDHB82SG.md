@@ -10,6 +10,7 @@ sources:
     locator: lead section
   - url: https://en.wikipedia.org/wiki/Metrizable_space
     locator: Metrization theorems
+inventory: [NXKZZ33W0E]
 ---
 
 ## Definition

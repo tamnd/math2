@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q13407133
   wikipedia: Harmonic number
+inventory: [KWVHW50KVD]
 ---
 
 ## Summary

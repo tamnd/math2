@@ -10,6 +10,7 @@ sources:
     locator: Topological curve
   - url: https://en.wikipedia.org/wiki/Differentiable_curve
     locator: Definitions
+inventory: [M5TJ2M77SB]
 ---
 
 ## Definition

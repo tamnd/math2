@@ -8,6 +8,7 @@ uses: [0ZN07RQ3JS]
 sources:
   - url: https://en.wikipedia.org/wiki/Bell_number
     locator: Set partitions
+inventory: [4KX686PWJ0]
 ---
 
 ## Definition

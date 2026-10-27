@@ -8,6 +8,7 @@ uses: [0SN0MAEKYX]
 sources:
   - url: https://en.wikipedia.org/wiki/Von_Mangoldt_function
     locator: Definition
+inventory: [GCDRWN4XQZ]
 ---
 
 ## Definition

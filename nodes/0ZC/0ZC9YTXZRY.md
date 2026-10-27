@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q656784
   wikipedia: Rank (linear algebra)
+inventory: [5AH385RGHD]
 ---
 
 ## Summary

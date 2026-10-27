@@ -8,6 +8,7 @@ uses: [04GNK7K4VP, 019NFGFPR5]
 sources:
   - url: https://en.wikipedia.org/wiki/Prime_element
     locator: Definition
+inventory: [PEMB7C1PQG]
 ---
 
 ## Definition

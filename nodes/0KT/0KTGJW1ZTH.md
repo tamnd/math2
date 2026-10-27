@@ -11,6 +11,7 @@ sources:
 same_as:
   wikidata: Q1703597
   wikipedia: Peano–Jordan measure
+inventory: [DK2QRMDFEE]
 ---
 
 ## Summary

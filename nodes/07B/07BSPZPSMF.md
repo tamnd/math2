@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q650670
   wikipedia: Nilpotent matrix
+inventory: [HSZH6NG7SR]
 ---
 
 ## Summary

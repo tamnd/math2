@@ -12,6 +12,7 @@ sources:
 same_as:
   wikidata: Q3757563
   wikipedia: Intercept theorem
+inventory: [2SBFPR43VQ]
 ---
 
 ## Statement

@@ -8,6 +8,7 @@ uses: [0CNQXVBHCX, 06EX0FHBTF, 0C81YBVTWH]
 sources:
   - url: https://en.wikipedia.org/wiki/Box_topology
     locator: Definition
+inventory: [BWG93CWGXE]
 ---
 
 ## Definition

@@ -1,2 +1,2 @@
 {"id":"GGD5CM6FAN","mentions":["m2://rec/wikidata/Q99632598#1"],"kind":"unknown","name":"succession","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"GGD7N9441C","mentions":["m2://rec/wikidata/Q4131086#1"],"kind":"unknown","name":"row space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"GGD7N9441C","mentions":["m2://rec/wikidata/Q4131086#1"],"kind":"unknown","name":"row space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 069MCGX635, 0EP73HK4C4"}],"outcome":{"value":"node","target":["069MCGX635","0EP73HK4C4"],"reason":"a node has the same name as the row","by":"agent"}}

@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q10167591
   wikipedia: Initial value problem
+inventory: [EH2VWD1E2T]
 ---
 
 ## Summary

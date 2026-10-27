@@ -8,6 +8,7 @@ uses: [0ZCAXY9563, 030TZ0DQWT, 0GYGHKX834]
 sources:
   - url: https://en.wikipedia.org/wiki/Noetherian_ring
     locator: Characterizations
+inventory: [CTKYPSPGTH]
 ---
 
 ## Definition

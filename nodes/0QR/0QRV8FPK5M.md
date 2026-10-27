@@ -9,6 +9,7 @@ uses: [0TPW25CBN6]
 sources:
   - url: https://en.wikipedia.org/wiki/Modular_arithmetic
     locator: Congruence classes
+inventory: [9XZD72Y9N4]
 ---
 
 ## Definition

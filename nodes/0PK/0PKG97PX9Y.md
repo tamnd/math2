@@ -11,6 +11,7 @@ sources:
 same_as:
   wikidata: Q1588205
   wikipedia: Conservative vector field
+inventory: [KN6RAA5MSH]
 ---
 
 ## Summary

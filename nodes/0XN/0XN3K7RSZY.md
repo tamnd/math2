@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q1149000
   wikipedia: Multivariate normal distribution
+inventory: [WZY86RN41E]
 ---
 
 ## Summary

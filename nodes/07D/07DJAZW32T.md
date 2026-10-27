@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q2734005
   wikipedia: Integrating factor
+inventory: [755VZE1XD2]
 ---
 
 ## Summary

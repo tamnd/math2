@@ -7,6 +7,7 @@ defines: 0X05GS525E
 sources:
   - url: https://en.wikipedia.org/wiki/Boolean_function
     locator: lead section
+inventory: [E1GBCX18PB]
 ---
 
 ## Definition

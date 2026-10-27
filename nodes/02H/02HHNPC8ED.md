@@ -14,6 +14,7 @@ sources:
 same_as:
   wikidata: Q2226962
   wikipedia: Casorati–Weierstrass theorem
+inventory: [8D5P9Q9AHV]
 ---
 
 ## Statement

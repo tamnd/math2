@@ -8,6 +8,7 @@ uses: [0CP7YY6NAG, 039HF58KQ5]
 sources:
   - url: https://en.wikipedia.org/wiki/Companion_matrix
     locator: lead section
+inventory: [EGQ8TF53DJ]
 ---
 
 ## Definition

@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q207264
   wikipedia: Fermat number
+inventory: [WXZQ5GY8T0]
 ---
 
 ## Summary

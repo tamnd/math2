@@ -8,6 +8,7 @@ uses: [0JD5C82QMB]
 sources:
   - url: https://en.wikipedia.org/wiki/Graph_homomorphism
     locator: Definitions
+inventory: [CQTGZEFK2A]
 ---
 
 ## Definition

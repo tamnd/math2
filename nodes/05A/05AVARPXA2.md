@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q130901
   wikipedia: Binary relation
+inventory: [3DA0ME90Q1]
 ---
 
 ## Summary

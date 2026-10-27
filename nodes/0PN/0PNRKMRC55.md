@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q176623
   wikipedia: Random variable
+inventory: [7S5969T1EZ]
 ---
 
 ## Summary

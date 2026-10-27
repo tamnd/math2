@@ -12,6 +12,7 @@ sources:
     locator: Equivalence of definitions
   - url: https://en.wikipedia.org/wiki/Convex_hull
     locator: Topological properties
+inventory: [585FFDA33D]
 ---
 
 ## Definition

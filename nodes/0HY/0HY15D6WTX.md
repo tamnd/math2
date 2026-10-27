@@ -10,6 +10,7 @@ sources:
     locator: lead section
   - url: https://en.wikipedia.org/wiki/Finitely_generated_group
     locator: Examples
+inventory: [X45XA5XYK1]
 ---
 
 ## Definition

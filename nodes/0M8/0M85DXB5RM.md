@@ -7,6 +7,7 @@ msc: [46B20]
 sources:
   - url: https://en.wikipedia.org/wiki/Norm_(mathematics)
     locator: Equivalence
+inventory: [8DBAMF84XW]
 ---
 
 ## Summary

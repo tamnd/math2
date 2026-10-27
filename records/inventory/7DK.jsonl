@@ -1,1 +1,1 @@
-{"id":"7DKEQE9M1B","mentions":["m2://rec/wikidata/Q182714#1"],"kind":"statement","name":"Heron's formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"7DKEQE9M1B","mentions":["m2://rec/wikidata/Q182714#1"],"kind":"statement","name":"Heron's formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0FRBZ2X4HJ"}],"outcome":{"value":"node","target":["0FRBZ2X4HJ"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}

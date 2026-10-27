@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q840023
   wikipedia: Nilpotent
+inventory: [E8K2X8F5HA]
 ---
 
 ## Summary

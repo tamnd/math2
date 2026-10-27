@@ -10,6 +10,7 @@ sources:
     locator: Geometrically constructible points
   - url: https://en.wikipedia.org/wiki/Constructible_number
     locator: Geometrically constructible numbers
+inventory: [ZP398QG0S1]
 ---
 
 ## Definition

@@ -8,6 +8,7 @@ uses: [0JD5C82QMB]
 sources:
   - url: https://en.wikipedia.org/wiki/Glossary_of_graph_theory
     locator: E
+inventory: [5PGY2NEABC]
 ---
 
 ## Definition

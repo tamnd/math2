@@ -6,6 +6,7 @@ msc: [15A03]
 sources:
   - url: https://en.wikipedia.org/wiki/Direct_sum_of_modules
     locator: Construction for two vector spaces
+inventory: [889YSB2XEX]
 ---
 
 ## Summary

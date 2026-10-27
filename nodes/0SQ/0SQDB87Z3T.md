@@ -9,6 +9,7 @@ uses: [0TPW25CBN6]
 sources:
   - url: https://en.wikipedia.org/wiki/Quadratic_residue
     locator: History, conventions, and elementary facts
+inventory: [440770N1BX]
 ---
 
 ## Definition

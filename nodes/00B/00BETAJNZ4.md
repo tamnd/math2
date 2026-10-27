@@ -12,6 +12,7 @@ sources:
     locator: Combinatorial properties
   - url: https://en.wikipedia.org/wiki/Platonic_solid
     locator: History
+inventory: [W66T6Z1FD5]
 ---
 
 ## Definition

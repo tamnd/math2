@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q860609
   wikipedia: Generating function
+inventory: [WM1GYHVNPT]
 ---
 
 ## Summary

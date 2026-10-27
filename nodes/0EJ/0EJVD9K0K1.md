@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1512559
   wikipedia: Normal convergence
+inventory: [MYXXM7YZCX]
 ---
 
 ## Summary

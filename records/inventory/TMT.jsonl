@@ -1,1 +1,1 @@
-{"id":"TMT2EB310J","mentions":["m2://rec/wikidata/Q176583#1"],"kind":"unknown","name":"stochastic matrix","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"TMT2EB310J","mentions":["m2://rec/wikidata/Q176583#1"],"kind":"unknown","name":"stochastic matrix","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0F462493EA"}],"outcome":{"value":"node","target":["0F462493EA"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}

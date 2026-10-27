@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q2634401
   wikipedia: Boolean ring
+inventory: [GR7RNGWNHN]
 ---
 
 ## Summary

@@ -8,6 +8,7 @@ uses: [0QA8CHH8MG, 07QY5RPFBR]
 sources:
   - url: https://en.wikipedia.org/wiki/Field_extension
     locator: Extension field
+inventory: [JXBNNMQXJ3]
 ---
 
 ## Definition

@@ -8,6 +8,7 @@ uses: [0Z87BHAFTB]
 sources:
   - url: https://en.wikipedia.org/wiki/Perfect_matching
     locator: lead section
+inventory: [6QK8T6QRZD]
 ---
 
 ## Definition

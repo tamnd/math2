@@ -7,6 +7,7 @@ msc: [62F10]
 sources:
   - url: https://en.wikipedia.org/wiki/Bessel's_correction
     locator: Formulation
+inventory: [1P8YH0RD6D]
 ---
 
 ## Summary

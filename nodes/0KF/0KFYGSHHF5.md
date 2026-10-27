@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1137726
   wikipedia: Directed graph
+inventory: [9B5F4MJKB0]
 ---
 
 ## Summary

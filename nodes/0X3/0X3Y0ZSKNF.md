@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q730600
   wikipedia: Hypergeometric distribution
+inventory: [BS21MYSTV1]
 ---
 
 ## Summary

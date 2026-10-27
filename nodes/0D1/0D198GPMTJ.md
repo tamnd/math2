@@ -9,6 +9,7 @@ uses: [0DRKT1QJR7]
 sources:
   - url: https://en.wikipedia.org/wiki/Dense_set
     locator: Definition
+inventory: [XT9CKHKY48]
 ---
 
 ## Definition

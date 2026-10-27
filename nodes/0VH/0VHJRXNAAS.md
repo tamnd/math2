@@ -6,6 +6,7 @@ msc: [05C15]
 sources:
   - url: https://en.wikipedia.org/wiki/Graph_coloring
     locator: Vertex coloring
+inventory: [8VBXSJQZ63]
 ---
 
 ## Summary

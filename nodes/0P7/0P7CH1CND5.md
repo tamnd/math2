@@ -8,6 +8,7 @@ uses: [0894J980RK]
 sources:
   - url: https://en.wikipedia.org/wiki/Characteristic_(algebra)
     locator: lead section
+inventory: [YJNVC0BGTR]
 ---
 
 ## Definition

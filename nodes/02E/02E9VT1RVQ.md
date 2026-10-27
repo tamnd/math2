@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q898575
   wikipedia: Power of a point
+inventory: [Z8Z5DNSXMD]
 ---
 
 ## Summary

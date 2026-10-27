@@ -7,6 +7,7 @@ defines: 0AW1E6YTJY
 sources:
   - url: https://en.wikipedia.org/wiki/Lipschitz_continuity
     locator: Definitions
+inventory: [SC1AHXYQJW]
 ---
 
 ## Definition

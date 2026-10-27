@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q727103
   wikipedia: Unitary matrix
+inventory: [YNRSTBKDN5]
 ---
 
 ## Summary

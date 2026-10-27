@@ -10,6 +10,7 @@ sources:
     locator: Extended complex numbers
   - url: https://en.wikipedia.org/wiki/Riemann_sphere
     locator: As a sphere
+inventory: [N5CPEK3S76]
 ---
 
 ## Definition

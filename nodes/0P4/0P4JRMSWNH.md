@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1473607
   wikipedia: Degree of a polynomial
+inventory: [QNZX912T8Z]
 ---
 
 ## Summary

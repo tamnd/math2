@@ -7,6 +7,7 @@ msc: [60A05]
 sources:
   - url: https://en.wikipedia.org/wiki/Independence_(probability_theory)
     locator: Independent σ-algebras
+inventory: [NEPTH3W7R9]
 ---
 
 ## Summary

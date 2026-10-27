@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1139583
   wikipedia: Inner automorphism
+inventory: [TFRZSX86RN]
 ---
 
 ## Summary

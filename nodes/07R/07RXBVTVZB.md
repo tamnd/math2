@@ -8,6 +8,7 @@ uses: [04YG690N5V, 099SXAG014, 027JF1FBB0]
 sources:
   - url: https://en.wikipedia.org/wiki/Normal_distribution
     locator: General normal distribution
+inventory: [P2B3RPZM0Y]
 ---
 
 ## Definition

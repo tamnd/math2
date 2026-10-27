@@ -8,6 +8,7 @@ uses: [0JTGRV4WT4, 0RDJK7EQYY]
 sources:
   - url: https://en.wikipedia.org/wiki/Cardinal_number
     locator: lead section
+inventory: [GHER5PHWQC]
 ---
 
 ## Definition

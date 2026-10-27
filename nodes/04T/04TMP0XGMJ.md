@@ -6,6 +6,7 @@ msc: [26A42]
 sources:
   - url: https://en.wikipedia.org/wiki/Integral
     locator: Terminology and notation
+inventory: [6CJS0FK69W]
 ---
 
 ## Summary

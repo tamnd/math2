@@ -8,6 +8,7 @@ uses: [0MRE6XRE5V, 0NX5NWAFC9]
 sources:
   - url: https://en.wikipedia.org/wiki/Normal_convergence
     locator: Definition
+inventory: [MYXXM7YZCX]
 ---
 
 ## Definition

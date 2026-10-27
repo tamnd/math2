@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q1050272
   wikipedia: Standard score
+inventory: [CH13MNMR0K]
 ---
 
 ## Summary

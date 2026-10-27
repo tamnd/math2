@@ -8,6 +8,7 @@ uses: [0CNQXVBHCX, 0HBRW4E6G1, 0FE8Q5S42Y]
 sources:
   - url: https://en.wikipedia.org/wiki/Subspace_topology
     locator: Definition
+inventory: [VRY8JPATZ4]
 ---
 
 ## Definition

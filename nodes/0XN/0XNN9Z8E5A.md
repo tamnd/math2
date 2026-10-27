@@ -8,6 +8,7 @@ uses: [07CT9RDY7Q]
 sources:
   - url: https://en.wikipedia.org/wiki/Tree_(graph_theory)
     locator: Forest
+inventory: [ANKP4QS18Q]
 ---
 
 ## Definition

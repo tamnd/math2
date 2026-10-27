@@ -8,6 +8,7 @@ uses: [0WF4EJP91W, 092GEF38YD, 0PHC9FE2V5]
 sources:
   - url: https://en.wikipedia.org/wiki/Binomial_distribution
     locator: Probability mass function
+inventory: [J5V57CH8JG]
 ---
 
 ## Definition

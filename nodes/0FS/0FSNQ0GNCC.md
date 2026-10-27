@@ -8,6 +8,7 @@ uses: [0XHDTE5YMZ]
 sources:
   - url: https://en.wikipedia.org/wiki/Identity_function
     locator: lead section
+inventory: [F0PX7F5QA6]
 ---
 
 ## Definition

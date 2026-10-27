@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q1546924
   wikipedia: Cayley table
+inventory: [S5VMKP5TYZ]
 ---
 
 ## Summary

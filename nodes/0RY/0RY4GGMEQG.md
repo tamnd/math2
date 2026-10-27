@@ -11,6 +11,7 @@ sources:
 same_as:
   wikidata: Q1186808
   wikipedia: Lucas's theorem
+inventory: [J1GYWJE7N2]
 ---
 
 ## Statement

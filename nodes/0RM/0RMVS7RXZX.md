@@ -8,6 +8,7 @@ uses: [0VP56B4EMX, 0PVJRACB9H]
 sources:
   - url: https://en.wikipedia.org/wiki/Exponential_function
     locator: Power series
+inventory: [3WY2WYM25K]
 ---
 
 ## Definition

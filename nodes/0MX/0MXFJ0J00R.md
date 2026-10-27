@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q467511
   wikipedia: Deficient number
+inventory: [11EPCM4WQC]
 ---
 
 ## Summary

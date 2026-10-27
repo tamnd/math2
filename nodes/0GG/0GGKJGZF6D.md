@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q253255
   wikipedia: P-value
+inventory: [280VNNSJMB]
 ---
 
 ## Summary

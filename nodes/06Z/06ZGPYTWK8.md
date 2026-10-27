@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q856103
   wikipedia: Contour integration
+inventory: [JFQTEF3FY6]
 ---
 
 ## Summary

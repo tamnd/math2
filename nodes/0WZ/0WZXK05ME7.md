@@ -8,6 +8,7 @@ uses: [0894J980RK, 019NFGFPR5]
 sources:
   - url: https://en.wikipedia.org/wiki/Division_ring
     locator: lead section
+inventory: [1CZG8QRJS6]
 ---
 
 ## Definition

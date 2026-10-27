@@ -8,6 +8,7 @@ uses: [0CNQXVBHCX, 01ZQQDCERP]
 sources:
   - url: https://en.wikipedia.org/wiki/Isolated_point
     locator: lead section
+inventory: [E4KX2K12HY]
 ---
 
 ## Definition

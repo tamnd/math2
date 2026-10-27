@@ -8,6 +8,7 @@ uses: [0P11X5HKAX, 0MJ0JS72DZ]
 sources:
   - url: https://en.wikipedia.org/wiki/Spanning_tree
     locator: Definitions
+inventory: [B62FGDTWP5]
 ---
 
 ## Definition

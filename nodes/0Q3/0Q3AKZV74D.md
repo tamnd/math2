@@ -11,6 +11,7 @@ sources:
 same_as:
   wikidata: Q1052752
   wikipedia: Stolz–Cesàro theorem
+inventory: [Z9YDMJC0EZ]
 ---
 
 ## Statement

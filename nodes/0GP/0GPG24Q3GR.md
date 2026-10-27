@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q726441
   wikipedia: Cauchy distribution
+inventory: [A6E9JK9AJ8]
 ---
 
 ## Summary

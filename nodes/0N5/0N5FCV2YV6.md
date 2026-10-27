@@ -7,6 +7,7 @@ defines: 0RCV1ZFP8G
 sources:
   - url: https://en.wikipedia.org/wiki/Boolean_ring
     locator: lead section
+inventory: [GR7RNGWNHN]
 ---
 
 ## Definition

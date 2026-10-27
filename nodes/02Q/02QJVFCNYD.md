@@ -8,6 +8,7 @@ uses: [0G7WM8DX4P, 0HATW2VWAZ, 0JPCHTXWG0]
 sources:
   - url: https://en.wikipedia.org/wiki/Line_integral
     locator: Line integral of a scalar field
+inventory: [Q3A3V4F47C]
 ---
 
 ## Summary

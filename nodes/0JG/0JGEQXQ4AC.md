@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q915906
   wikipedia: Presentation of a group
+inventory: [QXPFB0RMGW]
 ---
 
 ## Summary

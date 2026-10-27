@@ -11,6 +11,7 @@ sources:
 same_as:
   wikidata: Q186475
   wikipedia: Partial derivative
+inventory: [2SV36AP64R]
 ---
 
 ## Summary

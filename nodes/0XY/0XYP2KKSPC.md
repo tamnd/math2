@@ -8,6 +8,7 @@ uses: [0V3XAMF3C1, 0MP9BCF6DP, 03NK6RSRQ1]
 sources:
   - url: https://en.wikipedia.org/wiki/Normal_(geometry)
     locator: Normal to planes and polygons
+inventory: [R7N8FHPH16]
 ---
 
 ## Definition

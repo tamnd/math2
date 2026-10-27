@@ -9,6 +9,7 @@ uses: [096PW7Q014]
 sources:
   - url: https://en.wikipedia.org/wiki/Prime_number
     locator: Definition and examples
+inventory: [SSDZJGY7BC]
 ---
 
 ## Definition

@@ -8,6 +8,7 @@ uses: [0316AYH1SC, 0T2NTJCV83]
 sources:
   - url: https://en.wikipedia.org/wiki/Well-order
     locator: lead section
+inventory: [WPN6VNJ0WP]
 ---
 
 ## Definition

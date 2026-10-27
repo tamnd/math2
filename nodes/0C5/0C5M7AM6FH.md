@@ -8,6 +8,7 @@ uses: [0Y7VDAX8Q3]
 sources:
   - url: https://en.wikipedia.org/wiki/Graph_coloring
     locator: Vertex coloring
+inventory: [8VBXSJQZ63]
 ---
 
 ## Definition

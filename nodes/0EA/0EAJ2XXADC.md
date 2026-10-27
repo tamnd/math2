@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q3493864
   wikipedia: Degree of a field extension
+inventory: [EZVWXWK7ZE]
 ---
 
 ## Summary

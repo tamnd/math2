@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q6852339
   wikipedia: Normal matrix
+inventory: [A68TH0944V]
 ---
 
 ## Summary

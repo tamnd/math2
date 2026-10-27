@@ -6,6 +6,7 @@ msc: [15A63]
 sources:
   - url: https://en.wikipedia.org/wiki/Bilinear_form
     locator: Symmetric, skew-symmetric, and alternating forms
+inventory: [JEX1WKZNKA]
 ---
 
 ## Summary

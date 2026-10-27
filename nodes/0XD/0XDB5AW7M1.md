@@ -8,6 +8,7 @@ uses: [01J8AMV9RS, 0AEKDFCYFA]
 sources:
   - url: https://en.wikipedia.org/wiki/Jacobi_symbol
     locator: Definition
+inventory: [SDA7PD70D3]
 ---
 
 ## Definition

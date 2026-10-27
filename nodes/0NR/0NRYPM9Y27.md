@@ -8,6 +8,7 @@ uses: [0GS74FGFEK]
 sources:
   - url: https://en.wikipedia.org/wiki/Degree_of_a_field_extension
     locator: Definition and notation
+inventory: [TVAWEAFPNV]
 ---
 
 ## Definition

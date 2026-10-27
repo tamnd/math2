@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q2072471
   wikipedia: Hamiltonian system
+inventory: [2B43DP8MYN]
 ---
 
 ## Summary

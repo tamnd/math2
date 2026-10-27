@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q867345
   wikipedia: Euclidean domain
+inventory: [7FH8VCAA3H]
 ---
 
 ## Summary

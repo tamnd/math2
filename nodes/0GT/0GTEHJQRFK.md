@@ -8,6 +8,7 @@ uses: [0B268GVX95]
 sources:
   - url: https://en.wikipedia.org/wiki/Gaussian_integer
     locator: Gaussian primes
+inventory: [X88FVWVQFZ]
 ---
 
 ## Definition

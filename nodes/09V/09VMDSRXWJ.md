@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q4166054
   wikipedia: Singular value
+inventory: [VPY36AXZE7]
 ---
 
 ## Summary

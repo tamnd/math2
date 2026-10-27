@@ -8,6 +8,7 @@ uses: [036756NFD6, 07RXBVTVZB, 0QNRBHWV35, 05RZ4YZG4E]
 sources:
   - url: https://en.wikipedia.org/wiki/Confidence_interval
     locator: Definition
+inventory: [TF7A8YJYQ4]
 ---
 
 ## Definition

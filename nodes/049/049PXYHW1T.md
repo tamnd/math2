@@ -6,6 +6,7 @@ msc: [54D30]
 sources:
   - url: https://en.wikipedia.org/wiki/Cover_(topology)
     locator: Definition
+inventory: [1906G9J52Q]
 ---
 
 ## Summary

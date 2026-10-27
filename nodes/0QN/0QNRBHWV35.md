@@ -8,6 +8,7 @@ uses: [036756NFD6, 0AJN7WHBJZ, 0P7PTC8DDE, 0V0778DCW9]
 sources:
   - url: https://en.wikipedia.org/wiki/Sample_mean_and_covariance
     locator: Definition of the sample mean
+inventory: [A59N164XN8]
 ---
 
 ## Definition

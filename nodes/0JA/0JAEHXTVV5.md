@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1156903
   wikipedia: Riemann sum
+inventory: [WRE2H0TF6Y]
 ---
 
 ## Summary

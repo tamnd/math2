@@ -8,6 +8,7 @@ uses: [08VV7YJRB7]
 sources:
   - url: https://en.wikipedia.org/wiki/Primitive_part_and_content
     locator: lead section
+inventory: [TTJVXJ6PG1]
 ---
 
 ## Definition

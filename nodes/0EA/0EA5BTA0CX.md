@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q650741
   wikipedia: Division ring
+inventory: [1CZG8QRJS6]
 ---
 
 ## Summary

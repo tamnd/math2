@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q229102
   wikipedia: Surjective function
+inventory: [FGZF3KWEKX]
 ---
 
 ## Summary

@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q903789
   wikipedia: Disjunctive normal form
+inventory: [CN2SAXWJ5G]
 ---
 
 ## Summary

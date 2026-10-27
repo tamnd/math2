@@ -10,6 +10,7 @@ sources:
     locator: Introduction and definition
   - url: https://en.wikipedia.org/wiki/Operator_norm
     locator: Equivalent definitions
+inventory: [XQ2YBSPVWW]
 ---
 
 ## Definition

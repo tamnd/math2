@@ -10,6 +10,7 @@ sources:
     locator: lead section
   - url: https://en.wikipedia.org/wiki/Concyclic_points
     locator: Perpendicular bisectors
+inventory: [DMJH7KJK03]
 ---
 
 ## Definition

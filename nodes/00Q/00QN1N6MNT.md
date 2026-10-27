@@ -8,6 +8,7 @@ uses: [0HZNE5QZDJ]
 sources:
   - url: https://en.wikipedia.org/wiki/Definite_quadratic_form
     locator: lead section
+inventory: [R63EXRT7EA]
 ---
 
 ## Definition

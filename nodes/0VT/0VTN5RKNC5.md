@@ -8,6 +8,7 @@ uses: [007QED3E0Y, 0VB8BFRABH]
 sources:
   - url: https://en.wikipedia.org/wiki/Standard_deviation
     locator: Definition of population values
+inventory: [A9QAWPQV65]
 ---
 
 ## Definition

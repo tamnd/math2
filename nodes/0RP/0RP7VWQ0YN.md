@@ -6,6 +6,7 @@ msc: [20A05]
 sources:
   - url: https://en.wikipedia.org/wiki/Generating_set_of_a_group
     locator: lead section
+inventory: [120ECZQBX2]
 ---
 
 ## Summary

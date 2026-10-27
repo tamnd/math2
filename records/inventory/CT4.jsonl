@@ -1,2 +1,2 @@
-{"id":"CT4P2PB30X","mentions":["m2://rec/wikidata/Q201984#1"],"kind":"unknown","name":"covariance","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"CT4P2PB30X","mentions":["m2://rec/wikidata/Q201984#1"],"kind":"unknown","name":"covariance","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0KBFAWYRTE"}],"outcome":{"value":"node","target":["0KBFAWYRTE"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}
 {"id":"CT4QGXXK8K","mentions":["m2://rec/wikidata/Q28517129#1"],"kind":"unknown","name":"genus","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

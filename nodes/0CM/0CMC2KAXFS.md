@@ -10,6 +10,7 @@ sources:
     locator: lead section
   - url: https://en.wikipedia.org/wiki/Cyclic_quadrilateral
     locator: Supplementary angles
+inventory: [BQ1DY5G6S8]
 ---
 
 ## Definition

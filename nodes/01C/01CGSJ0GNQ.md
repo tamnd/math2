@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q659746
   wikipedia: Well-order
+inventory: [WPN6VNJ0WP]
 ---
 
 ## Summary

@@ -8,6 +8,7 @@ uses: [08EJC6Q25H, 0CYRECG2YQ]
 sources:
   - url: https://en.wikipedia.org/wiki/Transitive_closure
     locator: lead section
+inventory: [ESPGMH4G0W]
 ---
 
 ## Definition

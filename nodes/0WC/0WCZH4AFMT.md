@@ -8,6 +8,7 @@ uses: [0GR2APWTAC, 0C5TP6RYSV]
 sources:
   - url: https://en.wikipedia.org/wiki/Rational_function
     locator: Definitions
+inventory: [8XWVYBF4JG]
 ---
 
 ## Definition

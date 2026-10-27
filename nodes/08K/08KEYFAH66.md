@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1051983
   wikipedia: Cyclotomic polynomial
+inventory: [K6BMA3940W]
 ---
 
 ## Summary

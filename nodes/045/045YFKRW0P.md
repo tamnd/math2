@@ -8,6 +8,7 @@ uses: [0G7WM8DX4P]
 sources:
   - url: https://en.wikipedia.org/wiki/Curve
     locator: Topological curve
+inventory: [M5TJ2M77SB]
 ---
 
 ## Summary

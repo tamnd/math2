@@ -8,6 +8,7 @@ uses: [0A3GWZ86AY, 0C4JS9RF5M]
 sources:
   - url: https://en.wikipedia.org/wiki/Floor_and_ceiling_functions
     locator: Definition and properties
+inventory: [BEWT00TARS]
 ---
 
 ## Definition

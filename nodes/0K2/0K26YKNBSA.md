@@ -8,6 +8,7 @@ uses: [0894J980RK]
 sources:
   - url: https://en.wikipedia.org/wiki/Zero_divisor
     locator: lead section
+inventory: [A7EKMZA5XT]
 ---
 
 ## Definition

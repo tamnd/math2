@@ -8,6 +8,7 @@ uses: [0FQ5B8S1ZC]
 sources:
   - url: https://en.wikipedia.org/wiki/Minimum_spanning_tree
     locator: lead section
+inventory: [9NVABAG4WT]
 ---
 
 ## Definition

@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q2741788
   wikipedia: Modular multiplicative inverse
+inventory: [DSSNDJQX1B]
 ---
 
 ## Summary

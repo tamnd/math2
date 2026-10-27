@@ -8,6 +8,7 @@ uses: [0WF4EJP91W, 092GEF38YD, 0AKNPYQ04R]
 sources:
   - url: https://en.wikipedia.org/wiki/Hypergeometric_distribution
     locator: Probability mass function
+inventory: [BS21MYSTV1]
 ---
 
 ## Definition

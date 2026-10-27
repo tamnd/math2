@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q836088
   wikipedia: Characteristic (algebra)
+inventory: [YJNVC0BGTR]
 ---
 
 ## Summary

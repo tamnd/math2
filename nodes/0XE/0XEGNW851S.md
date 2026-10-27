@@ -8,6 +8,7 @@ uses: [08EJC6Q25H]
 sources:
   - url: https://en.wikipedia.org/wiki/Reflexive_relation
     locator: lead section
+inventory: [XRVMSG2RSG]
 ---
 
 ## Definition

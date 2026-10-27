@@ -8,6 +8,7 @@ uses: [0KSM23SN3H, 0ZG61TFBES]
 sources:
   - url: https://en.wikipedia.org/wiki/Meagre_set
     locator: Definitions
+inventory: [NSZ72AKD92]
 ---
 
 ## Definition

@@ -11,6 +11,7 @@ sources:
 same_as:
   wikidata: Q3240280
   wikipedia: Direct proof
+inventory: [33MF2VWC2Q]
 ---
 
 ## Summary

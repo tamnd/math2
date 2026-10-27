@@ -11,6 +11,7 @@ sources:
     locator: Definition
   - url: https://en.wikipedia.org/wiki/Presentation_of_a_group
     locator: Finitely presented groups
+inventory: [QXPFB0RMGW]
 ---
 
 ## Definition

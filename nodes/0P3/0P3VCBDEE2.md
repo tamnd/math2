@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q909412
   wikipedia: Ordered field
+inventory: [MGE1BW2M8G]
 ---
 
 ## Summary

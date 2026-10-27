@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1047080
   wikipedia: Differential form
+inventory: [3QF7NZAEM9]
 ---
 
 ## Summary

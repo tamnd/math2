@@ -8,6 +8,7 @@ uses: [0W809K6AW0, 0CP7YY6NAG]
 sources:
   - url: https://en.wikipedia.org/wiki/Symmetric_matrix
     locator: lead section
+inventory: [42HBTH0KFH]
 ---
 
 ## Definition

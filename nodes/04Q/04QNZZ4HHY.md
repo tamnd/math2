@@ -8,6 +8,7 @@ uses: [09RFKMBQ63]
 sources:
   - url: https://en.wikipedia.org/wiki/Dedekind_cut
     locator: Definition
+inventory: [QP0ANAYYQJ]
 ---
 
 ## Definition

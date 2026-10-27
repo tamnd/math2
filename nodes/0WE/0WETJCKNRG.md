@@ -13,6 +13,7 @@ sources:
 same_as:
   wikidata: Q18206266
   wikipedia: Euclid–Euler theorem
+inventory: [BJ9RZ2D7BP]
 ---
 
 ## Statement

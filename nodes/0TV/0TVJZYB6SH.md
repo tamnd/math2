@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q381892
   wikipedia: Compact space
+inventory: [59JDJ8C7DN]
 ---
 
 ## Summary

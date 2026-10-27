@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1545916
   wikipedia: Limit cycle
+inventory: [CF5C9VTK8Y]
 ---
 
 ## Summary

@@ -9,6 +9,7 @@ uses: [0TPW25CBN6]
 sources:
   - url: https://en.wikipedia.org/wiki/Modular_multiplicative_inverse
     locator: lead section
+inventory: [DSSNDJQX1B]
 ---
 
 ## Definition

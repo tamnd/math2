@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q577705
   wikipedia: Critical point (mathematics)
+inventory: [CTX7WB536F]
 ---
 
 ## Summary

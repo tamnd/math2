@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q1071795
   wikipedia: Normal space
+inventory: [4AM4HTGHQ3]
 ---
 
 ## Summary

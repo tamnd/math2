@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1211057
   wikipedia: Convergent series
+inventory: [ANWN0Z1HYT]
 ---
 
 ## Summary

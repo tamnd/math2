@@ -8,6 +8,7 @@ uses: [0BE3QDH73A, 0VP56B4EMX, 0HFSFVMWQB]
 sources:
   - url: https://en.wikipedia.org/wiki/Taylor_series
     locator: Definition
+inventory: [RVEXNVC2HR]
 ---
 
 ## Definition

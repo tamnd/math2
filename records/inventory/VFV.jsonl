@@ -1,1 +1,1 @@
-{"id":"VFVC4PV0TD","mentions":["m2://rec/wikidata/Q956437#1"],"kind":"unknown","name":"norm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"VFVC4PV0TD","mentions":["m2://rec/wikidata/Q956437#1"],"kind":"unknown","name":"norm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0V2WP9B1MF"}],"outcome":{"value":"node","target":["0V2WP9B1MF"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}

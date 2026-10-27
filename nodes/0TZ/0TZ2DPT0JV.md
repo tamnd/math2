@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q7245087
   wikipedia: Principal part
+inventory: [9VAR272T2T]
 ---
 
 ## Summary

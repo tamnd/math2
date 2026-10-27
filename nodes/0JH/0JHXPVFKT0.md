@@ -6,6 +6,7 @@ msc: [05A15]
 sources:
   - url: https://en.wikipedia.org/wiki/Generating_function
     locator: Exponential generating function (EGF)
+inventory: [X6AGSJFM3Y]
 ---
 
 ## Summary

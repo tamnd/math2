@@ -8,6 +8,7 @@ uses: [0CNQXVBHCX, 09CJ00H3NW, 00R0X1WGPX]
 sources:
   - url: https://en.wikipedia.org/wiki/Locally_compact_space
     locator: Formal definition
+inventory: [Y5YV9YEXA9]
 ---
 
 ## Definition

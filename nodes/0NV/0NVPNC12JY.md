@@ -10,6 +10,7 @@ sources:
     locator: Definition
   - url: https://en.wikipedia.org/wiki/Cover_(topology)
     locator: Subcover
+inventory: [1906G9J52Q]
 ---
 
 ## Definition

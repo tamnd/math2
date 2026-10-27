@@ -8,6 +8,7 @@ uses: [07VHQ31EYJ]
 sources:
   - url: https://en.wikipedia.org/wiki/Hölder%27s_inequality
     locator: Counting measure
+inventory: [KCFSRZFNAZ]
 ---
 
 ## Statement

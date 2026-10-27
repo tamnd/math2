@@ -8,6 +8,7 @@ uses: [096HN851YZ, 0C093D1T4M]
 sources:
   - url: https://en.wikipedia.org/wiki/Composition_series
     locator: For groups
+inventory: [FDZAFM4G3W]
 ---
 
 ## Definition

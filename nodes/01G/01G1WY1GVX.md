@@ -8,6 +8,7 @@ uses: [02WF878BH1]
 sources:
   - url: https://en.wikipedia.org/wiki/Pythagorean_triple
     locator: lead section
+inventory: [H4GESV23R4]
 ---
 
 ## Definition

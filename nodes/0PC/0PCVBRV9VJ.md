@@ -12,6 +12,7 @@ sources:
 same_as:
   wikidata: Q727102
   wikipedia: Interior extremum theorem
+inventory: [H1PM9A6AXE]
 ---
 
 ## Statement

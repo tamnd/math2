@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q848569
   wikipedia: Complete metric space
+inventory: [E0F8Q0THPW]
 ---
 
 ## Summary

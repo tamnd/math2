@@ -9,6 +9,7 @@ uses: [0RMVS7RXZX, 0KN2V7840E, 00KAFBR32E]
 sources:
   - url: https://en.wikipedia.org/wiki/Natural_logarithm
     locator: Definition and properties
+inventory: [1PZGXVC44Z]
 ---
 
 ## Definition

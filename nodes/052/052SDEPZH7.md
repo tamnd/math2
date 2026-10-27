@@ -8,6 +8,7 @@ uses: [09S3PFBEPM, 019NFGFPR5]
 sources:
   - url: https://en.wikipedia.org/wiki/Irreducible_element
     locator: Definition in an integral domain
+inventory: [9EW0SZJM7E]
 ---
 
 ## Definition

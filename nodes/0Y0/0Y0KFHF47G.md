@@ -8,6 +8,7 @@ uses: [0XHDTE5YMZ, 0C81YBVTWH]
 sources:
   - url: https://en.wikipedia.org/wiki/Graph_of_a_function
     locator: lead section
+inventory: [M5WM4C5JBZ]
 ---
 
 ## Definition

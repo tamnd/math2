@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q680081
   wikipedia: Separable space
+inventory: [VFYY4MJ9Q6]
 ---
 
 ## Summary

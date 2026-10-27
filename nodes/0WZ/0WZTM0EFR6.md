@@ -8,6 +8,7 @@ uses: [063W5JMY85, 0TMZ21WKCN]
 sources:
   - url: https://en.wikipedia.org/wiki/H%C3%B6lder_condition
     locator: lead section
+inventory: [T29TVJPTN2]
 ---
 
 ## Definition

@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q847204
   wikipedia: Limit of a sequence
+inventory: [KH9EY8G6YZ]
 ---
 
 ## Summary

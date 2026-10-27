@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q1806121
   wikipedia: Range of a function
+inventory: [JY6E4J1C7D]
 ---
 
 ## Summary

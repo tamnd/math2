@@ -8,6 +8,7 @@ uses: [0FCWA16FZE, 0H2EPRZC0D]
 sources:
   - url: https://en.wikipedia.org/wiki/Divisor_function
     locator: Definition
+inventory: [2MA9DG1DHF]
 ---
 
 ## Definition

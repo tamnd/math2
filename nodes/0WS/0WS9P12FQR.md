@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q660730
   wikipedia: Subspace topology
+inventory: [VRY8JPATZ4]
 ---
 
 ## Summary

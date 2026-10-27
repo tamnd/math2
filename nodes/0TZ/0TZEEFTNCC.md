@@ -8,6 +8,7 @@ uses: [011C29Q1S1]
 sources:
   - url: https://en.wikipedia.org/wiki/Maximal_and_minimal_elements
     locator: lead section
+inventory: [JW0WKE8JXH]
 ---
 
 ## Definition

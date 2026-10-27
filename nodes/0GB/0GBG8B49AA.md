@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q1070472
   wikipedia: Product topology
+inventory: [R8PZKWNDF2]
 ---
 
 ## Summary

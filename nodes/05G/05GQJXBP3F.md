@@ -8,6 +8,7 @@ uses: [0CNQXVBHCX, 01ZQQDCERP, 0G5AV9Q4RR]
 sources:
   - url: https://en.wikipedia.org/wiki/T1_space
     locator: Definitions
+inventory: [B3B1EF2TCF]
 ---
 
 ## Definition

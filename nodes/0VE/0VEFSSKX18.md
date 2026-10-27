@@ -8,6 +8,7 @@ uses: [0WF4EJP91W, 0WFCGVMRRC]
 sources:
   - url: https://en.wikipedia.org/wiki/Poisson_distribution
     locator: Probability mass function
+inventory: [J45TZDMRRN]
 ---
 
 ## Definition

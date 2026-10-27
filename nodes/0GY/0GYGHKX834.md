@@ -8,6 +8,7 @@ uses: [0894J980RK]
 sources:
   - url: https://en.wikipedia.org/wiki/Commutative_ring
     locator: Definition
+inventory: [8TBXHGR34M]
 ---
 
 ## Definition

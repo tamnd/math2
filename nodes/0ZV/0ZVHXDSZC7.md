@@ -8,6 +8,7 @@ uses: [082RMRSY26, 0XHDTE5YMZ]
 sources:
   - url: https://en.wikipedia.org/wiki/Equivalence_class
     locator: Definition and notation
+inventory: [2ZKR7AM3JN]
 ---
 
 ## Definition

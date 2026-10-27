@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q831672
   wikipedia: Spanning tree
+inventory: [B62FGDTWP5]
 ---
 
 ## Summary

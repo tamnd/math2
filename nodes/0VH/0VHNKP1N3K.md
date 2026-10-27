@@ -10,6 +10,7 @@ sources:
     locator: lead section
   - url: https://en.wikipedia.org/wiki/Conformal_map
     locator: In two dimensions
+inventory: [P2T381T3N5]
 ---
 
 ## Definition

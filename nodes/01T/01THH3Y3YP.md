@@ -8,6 +8,7 @@ uses: [0Z3YKRQZ48]
 sources:
   - url: https://en.wikipedia.org/wiki/Integrating_factor
     locator: Solving first order linear ordinary differential equations
+inventory: [755VZE1XD2]
 ---
 
 ## Definition

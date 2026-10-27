@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q828111
   wikipedia: Zero divisor
+inventory: [A7EKMZA5XT]
 ---
 
 ## Summary

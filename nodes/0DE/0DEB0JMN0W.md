@@ -11,6 +11,7 @@ sources:
 same_as:
   wikidata: Q599027
   wikipedia: Harmonic function
+inventory: [1RRM250VSA]
 ---
 
 ## Summary

@@ -9,6 +9,7 @@ uses: [0EQZSAB9EC, 0GK68PZ6KH]
 sources:
   - url: https://en.wikipedia.org/wiki/Linear_differential_equation
     locator: Linear differential operator
+inventory: [4NZM4AFMRV]
 ---
 
 ## Definition

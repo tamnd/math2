@@ -14,6 +14,7 @@ sources:
 same_as:
   wikidata: Q967972
   wikipedia: Open mapping theorem (complex analysis)
+inventory: [JXKMWBGAJF]
 ---
 
 ## Statement

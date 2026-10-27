@@ -8,6 +8,7 @@ uses: [0VCTBJMEJF, 0MBWQKM8QR, 0KJXHN0TW0]
 sources:
   - url: https://en.wikipedia.org/wiki/Improper_integral
     locator: Convergence of the integral
+inventory: [QFC1M6PNZS]
 ---
 
 ## Statement

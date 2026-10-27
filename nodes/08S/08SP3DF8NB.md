@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q851512
   wikipedia: Permutation matrix
+inventory: [8DZKY09KVR]
 ---
 
 ## Summary

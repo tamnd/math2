@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q60790315
   wikipedia: Automorphism group
+inventory: [YXH89VAN13]
 ---
 
 ## Summary

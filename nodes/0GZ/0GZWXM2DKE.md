@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1062971
   wikipedia: Characteristic equation (calculus)
+inventory: [QCAG503EPP]
 ---
 
 ## Summary

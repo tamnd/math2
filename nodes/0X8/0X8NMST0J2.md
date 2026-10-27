@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q621850
   wikipedia: Reflexive relation
+inventory: [XRVMSG2RSG]
 ---
 
 ## Summary

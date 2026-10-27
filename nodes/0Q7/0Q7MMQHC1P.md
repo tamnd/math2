@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1755242
   wikipedia: Nilpotent group
+inventory: [AN65SA9AHA]
 ---
 
 ## Summary

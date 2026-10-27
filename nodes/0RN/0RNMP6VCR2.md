@@ -8,6 +8,7 @@ uses: [0JD5C82QMB]
 sources:
   - url: https://en.wikipedia.org/wiki/Complement_graph
     locator: Definitions
+inventory: [3DNK9SS2M6]
 ---
 
 ## Definition

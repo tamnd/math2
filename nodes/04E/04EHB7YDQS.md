@@ -8,6 +8,7 @@ uses: [0ZND7NQ970]
 sources:
   - url: https://en.wikipedia.org/wiki/Spectrum_of_a_matrix
     locator: Definition
+inventory: [9F89D494GH]
 ---
 
 ## Definition

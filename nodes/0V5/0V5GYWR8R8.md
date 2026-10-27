@@ -6,6 +6,7 @@ msc: [13F20]
 sources:
   - url: https://en.wikipedia.org/wiki/Coefficient
     locator: Terminology and definition
+inventory: [2MDJYMSYR9]
 ---
 
 ## Summary

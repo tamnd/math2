@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q2264756
   wikipedia: Separable extension
+inventory: [ZSWK8BKCP1]
 ---
 
 ## Summary

@@ -8,6 +8,7 @@ uses: [04YG690N5V, 0TK8Y3J5RW]
 sources:
   - url: https://en.wikipedia.org/wiki/Continuous_uniform_distribution
     locator: Probability density function
+inventory: [C7763YCGJW]
 ---
 
 ## Definition

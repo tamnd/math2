@@ -9,6 +9,7 @@ uses: [0G4X36AE0X, 02903SSA48]
 sources:
   - url: https://en.wikipedia.org/wiki/Lyapunov_stability
     locator: Definition for continuous-time systems
+inventory: [HKZ1AREQ0B]
 ---
 
 ## Definition

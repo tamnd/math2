@@ -8,6 +8,7 @@ uses: [0N1MY1T0W9]
 sources:
   - url: https://en.wikipedia.org/wiki/Square_matrix
     locator: lead section
+inventory: [XEKW91HDZJ]
 ---
 
 ## Definition

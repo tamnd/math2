@@ -8,6 +8,7 @@ uses: [0W809K6AW0, 0CP7YY6NAG]
 sources:
   - url: https://en.wikipedia.org/wiki/Skew-symmetric_matrix
     locator: lead section
+inventory: [2FP1241FAJ]
 ---
 
 ## Definition

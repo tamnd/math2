@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q926996
   wikipedia: First-countable space
+inventory: [CDMCS2DCYE]
 ---
 
 ## Summary

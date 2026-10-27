@@ -8,6 +8,7 @@ uses: [08NYZ2FS6B]
 sources:
   - url: https://en.wikipedia.org/wiki/Normed_vector_space
     locator: Definition
+inventory: [39KX90HHMY]
 ---
 
 ## Definition

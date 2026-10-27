@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q209812
   wikipedia: Linear span
+inventory: [TJ0X2DJ1E9]
 ---
 
 ## Summary

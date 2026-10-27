@@ -8,6 +8,7 @@ uses: [0894J980RK]
 sources:
   - url: https://en.wikipedia.org/wiki/Polynomial_ring
     locator: Definition (univariate case)
+inventory: [NS0J69ZM7M]
 ---
 
 ## Definition

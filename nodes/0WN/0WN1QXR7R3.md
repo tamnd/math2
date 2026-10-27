@@ -6,6 +6,7 @@ msc: [26A36]
 sources:
   - url: https://en.wikipedia.org/wiki/Antiderivative
     locator: lead section
+inventory: [CTTR9239HV]
 ---
 
 ## Summary

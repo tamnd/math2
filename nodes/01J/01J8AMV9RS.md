@@ -8,6 +8,7 @@ uses: [0SQDB87Z3T, 0SN0MAEKYX]
 sources:
   - url: https://en.wikipedia.org/wiki/Legendre_symbol
     locator: Definition
+inventory: [Z9EPYCE8YW]
 ---
 
 ## Definition

@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q182598
   wikipedia: Graph of a function
+inventory: [M5WM4C5JBZ]
 ---
 
 ## Summary

@@ -8,6 +8,7 @@ uses: [0ST8QF9T3T, 0PTF1PTJK0]
 sources:
   - url: https://en.wikipedia.org/wiki/Normal_operator
     locator: lead section
+inventory: [3TQD4SG7V4]
 ---
 
 ## Definition

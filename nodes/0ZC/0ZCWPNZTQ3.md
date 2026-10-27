@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q814361
   wikipedia: Companion matrix
+inventory: [EGQ8TF53DJ]
 ---
 
 ## Summary

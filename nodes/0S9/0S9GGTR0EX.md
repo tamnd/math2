@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q2365325
   wikipedia: Orthonormal basis
+inventory: [ZYS2PWM983]
 ---
 
 ## Summary

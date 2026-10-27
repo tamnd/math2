@@ -11,6 +11,7 @@ sources:
 same_as:
   wikidata: Q225973
   wikipedia: Ore's theorem
+inventory: [6H31H94GHN]
 ---
 
 ## Statement

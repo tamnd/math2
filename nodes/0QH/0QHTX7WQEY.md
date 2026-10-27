@@ -10,6 +10,7 @@ sources:
     locator: Multi-index notation
   - url: https://en.wikipedia.org/wiki/Differential_form
     locator: Exterior product
+inventory: [3QF7NZAEM9]
 ---
 
 ## Definition

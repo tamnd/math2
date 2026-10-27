@@ -7,6 +7,7 @@ defines: 08ANQHHG3P
 sources:
   - url: https://en.wikipedia.org/wiki/Independent_set_(graph_theory)
     locator: lead section
+inventory: [7JZB5FFNBM]
 ---
 
 ## Definition

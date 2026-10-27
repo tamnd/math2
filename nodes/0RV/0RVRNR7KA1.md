@@ -6,6 +6,7 @@ msc: [11R11]
 sources:
   - url: https://en.wikipedia.org/wiki/Gaussian_integer
     locator: Gaussian primes
+inventory: [X88FVWVQFZ]
 ---
 
 ## Summary

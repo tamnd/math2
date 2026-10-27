@@ -7,6 +7,7 @@ defines: 0YAG43TCXQ
 sources:
   - url: https://en.wikipedia.org/wiki/Mersenne_prime
     locator: About Mersenne primes
+inventory: [4GNB3KXZRE]
 ---
 
 ## Definition

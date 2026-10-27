@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q595742
   wikipedia: Möbius transformation
+inventory: [W6S0H7PZXX]
 ---
 
 ## Summary

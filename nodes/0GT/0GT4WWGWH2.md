@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q11203
   wikipedia: System of linear equations
+inventory: [J6QQKN30M4]
 ---
 
 ## Summary

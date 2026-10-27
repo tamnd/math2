@@ -12,6 +12,7 @@ sources:
 same_as:
   wikidata: Q3527205
   wikipedia: Dimension theorem for vector spaces
+inventory: [21BQ4H2ZAY]
 ---
 
 ## Statement

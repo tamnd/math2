@@ -11,6 +11,7 @@ sources:
 same_as:
   wikidata: Q1856609
   wikipedia: Scalar potential
+inventory: [CR1CD9331M]
 ---
 
 ## Summary

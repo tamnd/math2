@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q917657
   wikipedia: Step function
+inventory: [ZXGSFK61TQ]
 ---
 
 ## Summary

@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q209875
   wikipedia: Binomial coefficient
+inventory: [TH6F05MCH2]
 ---
 
 ## Summary

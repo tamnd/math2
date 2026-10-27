@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q558339
   wikipedia: Dihedral group
+inventory: [GM6NCWYJ15]
 ---
 
 ## Summary

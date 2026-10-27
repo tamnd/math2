@@ -6,6 +6,7 @@ msc: [05C40]
 sources:
   - url: https://en.wikipedia.org/wiki/Connectivity_(graph_theory)
     locator: Connected vertices and graphs
+inventory: [63CTSFSE7E]
 ---
 
 ## Summary

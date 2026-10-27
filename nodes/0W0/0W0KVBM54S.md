@@ -8,6 +8,7 @@ uses: [0Q9EZS90GY, 0BDX4MBKT4]
 sources:
   - url: https://en.wikipedia.org/wiki/Cyclotomic_polynomial
     locator: lead section
+inventory: [K6BMA3940W]
 ---
 
 ## Definition

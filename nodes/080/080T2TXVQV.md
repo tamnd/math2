@@ -8,6 +8,7 @@ uses: [08J2M1JYAG, 0NCJ5WXN6Z]
 sources:
   - url: https://en.wikipedia.org/wiki/Irrational_number
     locator: lead section
+inventory: [CZQDZ9W7QP]
 ---
 
 ## Definition

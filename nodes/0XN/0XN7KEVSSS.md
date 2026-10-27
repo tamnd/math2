@@ -8,6 +8,7 @@ uses: [0WF4EJP91W, 092GEF38YD, 0XCVV5Q500]
 sources:
   - url: https://en.wikipedia.org/wiki/Negative_binomial_distribution
     locator: Probability mass function
+inventory: [DGZCXPT5BA]
 ---
 
 ## Definition

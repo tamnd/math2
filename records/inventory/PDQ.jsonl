@@ -1,2 +1,2 @@
 {"id":"PDQJAPE6S6","mentions":["m2://rec/wikidata/Q156612#1"],"kind":"unknown","name":"zero-sum game","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"PDQRCJD4GP","mentions":["m2://rec/wikidata/Q842755#1"],"kind":"unknown","name":"Peano axioms","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"PDQRCJD4GP","mentions":["m2://rec/wikidata/Q842755#1"],"kind":"unknown","name":"Peano axioms","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0QFT7Z76N5"}],"outcome":{"value":"node","target":["0QFT7Z76N5"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}

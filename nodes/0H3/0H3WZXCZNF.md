@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q291126
   wikipedia: Semidirect product
+inventory: [YACD3M198Z]
 ---
 
 ## Summary

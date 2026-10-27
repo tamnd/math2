@@ -9,6 +9,7 @@ uses: [0CHQKZFK5S]
 sources:
   - url: https://en.wikipedia.org/wiki/Modulo
     locator: Variants of the definition
+inventory: [Z384AR9VSY]
 ---
 
 ## Definition

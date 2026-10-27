@@ -8,6 +8,7 @@ uses: [0WF4EJP91W, 0AKNPYQ04R, 0BBTH3YSZA]
 sources:
   - url: https://en.wikipedia.org/wiki/Discrete_uniform_distribution
     locator: lead section
+inventory: [ZT8MPX4XHH]
 ---
 
 ## Definition

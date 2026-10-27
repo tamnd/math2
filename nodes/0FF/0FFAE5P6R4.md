@@ -8,6 +8,7 @@ uses: [0PYW26VNT6, 0KJH6SRFZK]
 sources:
   - url: https://en.wikipedia.org/wiki/Affine_hull
     locator: lead section
+inventory: [367YW91ZZ6]
 ---
 
 ## Definition

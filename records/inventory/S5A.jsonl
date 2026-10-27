@@ -1,1 +1,1 @@
-{"id":"S5ANKX6732","mentions":["m2://rec/wikidata/Q534112#1"],"kind":"concept","name":"martingale","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"S5ANKX6732","mentions":["m2://rec/wikidata/Q534112#1"],"kind":"concept","name":"martingale","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0D0GBNDKDH"}],"outcome":{"value":"node","target":["0D0GBNDKDH"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}

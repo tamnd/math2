@@ -8,6 +8,7 @@ uses: [0D1C9Y1EXA]
 sources:
   - url: https://en.wikipedia.org/wiki/Holomorphic_function
     locator: Definition
+inventory: [YK42V4DXDT]
 ---
 
 ## Definition

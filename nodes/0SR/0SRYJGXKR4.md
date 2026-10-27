@@ -7,6 +7,7 @@ msc: [60F05]
 sources:
   - url: https://en.wikipedia.org/wiki/Convergence_of_random_variables
     locator: Convergence in distribution
+inventory: [4ZDWH5CW23]
 ---
 
 ## Summary

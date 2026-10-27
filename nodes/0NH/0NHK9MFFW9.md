@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q99567093
   wikipedia: Perfect matching
+inventory: [6QK8T6QRZD]
 ---
 
 ## Summary

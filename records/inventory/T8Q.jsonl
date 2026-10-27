@@ -1,1 +1,1 @@
-{"id":"T8Q6M4Z7PE","mentions":["m2://rec/wikidata/Q11348#1"],"kind":"concept","name":"function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"T8Q6M4Z7PE","mentions":["m2://rec/wikidata/Q11348#1"],"kind":"concept","name":"function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0EPAT51DXQ"}],"outcome":{"value":"node","target":["0EPAT51DXQ"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}

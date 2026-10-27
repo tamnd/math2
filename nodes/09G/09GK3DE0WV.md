@@ -10,6 +10,7 @@ sources:
     locator: Definition
   - url: https://en.wikipedia.org/wiki/Dihedral_group
     locator: Other definitions
+inventory: [GM6NCWYJ15]
 ---
 
 ## Definition

@@ -8,6 +8,7 @@ uses: [0894J980RK]
 sources:
   - url: https://en.wikipedia.org/wiki/Product_of_rings
     locator: lead section
+inventory: [E4RHVD0CBR]
 ---
 
 ## Definition

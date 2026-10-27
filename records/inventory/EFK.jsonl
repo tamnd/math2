@@ -1,1 +1,1 @@
-{"id":"EFK09BNH93","mentions":["m2://rec/wikidata/Q1050972#1"],"kind":"definition","name":"edge coloring","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"EFK09BNH93","mentions":["m2://rec/wikidata/Q1050972#1"],"kind":"definition","name":"edge coloring","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0B5WCC02AN"}],"outcome":{"value":"node","target":["0B5WCC02AN"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}

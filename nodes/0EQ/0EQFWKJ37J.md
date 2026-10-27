@@ -8,6 +8,7 @@ uses: [0RMVS7RXZX]
 sources:
   - url: https://en.wikipedia.org/wiki/Hyperbolic_functions
     locator: Exponential definitions
+inventory: [78HAHS7H02]
 ---
 
 ## Definition

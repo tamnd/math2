@@ -8,6 +8,7 @@ uses: [05EGHEQZAW]
 sources:
   - url: https://en.wikipedia.org/wiki/Linear_subspace
     locator: Definition
+inventory: [5QGEM8RZJA]
 ---
 
 ## Definition

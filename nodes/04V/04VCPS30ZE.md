@@ -9,6 +9,7 @@ uses: [0SN0MAEKYX, 096PW7Q014]
 sources:
   - url: https://en.wikipedia.org/wiki/P-adic_valuation
     locator: Integers
+inventory: [JF67RNCAKA]
 ---
 
 ## Definition

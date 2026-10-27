@@ -9,6 +9,7 @@ uses: [08B1RTW7VZ]
 sources:
   - url: https://en.wikipedia.org/wiki/Pell%27s_equation
     locator: lead section
+inventory: [X41ST3TQ6P]
 ---
 
 ## Definition

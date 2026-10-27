@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q2739329
   wikipedia: Square matrix
+inventory: [XEKW91HDZJ]
 ---
 
 ## Summary

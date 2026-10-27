@@ -8,6 +8,7 @@ uses: [0N1JQXZXHC]
 sources:
   - url: https://en.wikipedia.org/wiki/Riemann_integral
     locator: Riemann integral
+inventory: [GZYSPJWX85]
 ---
 
 ## Definition

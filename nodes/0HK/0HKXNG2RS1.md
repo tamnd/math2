@@ -8,6 +8,7 @@ uses: [07CT9RDY7Q]
 sources:
   - url: https://en.wikipedia.org/wiki/Hamiltonian_path
     locator: Definitions
+inventory: [DW461WJYS8]
 ---
 
 ## Definition

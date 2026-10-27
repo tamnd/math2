@@ -8,6 +8,7 @@ uses: [0ZYBZ34RT2, 04WSW8T3SY, 0BVHZXWKCD, 0XHDTE5YMZ, 0FGCFY1AZX]
 sources:
   - url: https://en.wikipedia.org/wiki/Random_variable
     locator: Measure-theoretic definition
+inventory: [7S5969T1EZ]
 ---
 
 ## Definition

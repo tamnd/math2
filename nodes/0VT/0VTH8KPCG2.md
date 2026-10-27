@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1194212
   wikipedia: Ring homomorphism
+inventory: [ECKQ9H3QS7]
 ---
 
 ## Summary

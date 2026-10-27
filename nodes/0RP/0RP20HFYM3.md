@@ -6,6 +6,7 @@ msc: [15A63, "11E04"]
 sources:
   - url: https://en.wikipedia.org/wiki/Definite_quadratic_form
     locator: lead section
+inventory: [R63EXRT7EA]
 ---
 
 ## Summary

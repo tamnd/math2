@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1045966
   wikipedia: Central binomial coefficient
+inventory: [VPAYPKDQ0G]
 ---
 
 ## Summary

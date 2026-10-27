@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q125977
   wikipedia: Vector space
+inventory: [FS3H3KZHNY]
 ---
 
 ## Summary

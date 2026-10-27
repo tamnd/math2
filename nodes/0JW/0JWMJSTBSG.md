@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q906520
   wikipedia: Divergent series
+inventory: [Z29VW8P46M]
 ---
 
 ## Summary

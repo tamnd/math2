@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q583760
   wikipedia: Antisymmetric relation
+inventory: [68ATV1WT91]
 ---
 
 ## Summary

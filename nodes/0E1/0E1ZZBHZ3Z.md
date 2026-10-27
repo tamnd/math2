@@ -8,6 +8,7 @@ uses: [0P97V20RW7, 0Z3YKRQZ48, 0ZB84QCDKR]
 sources:
   - url: https://en.wikipedia.org/wiki/Riccati_equation
     locator: lead section
+inventory: [JZ1JRNDNFN]
 ---
 
 ## Definition

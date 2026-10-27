@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q769374
   wikipedia: Cauchy principal value
+inventory: [GCGKKWTHP9]
 ---
 
 ## Summary

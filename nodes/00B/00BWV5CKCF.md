@@ -9,6 +9,7 @@ uses: [00R0X1WGPX, 0G5AV9Q4RR, 0P6PMJB4MA]
 sources:
   - url: https://en.wikipedia.org/wiki/Finite_intersection_property
     locator: Compactness
+inventory: [HQC84QWJ4M]
 ---
 
 ## Statement

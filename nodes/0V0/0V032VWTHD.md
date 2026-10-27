@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q1491995
   wikipedia: Connected space
+inventory: [9W1V1EPD0B]
 ---
 
 ## Summary

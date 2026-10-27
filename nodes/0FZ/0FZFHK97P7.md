@@ -8,6 +8,7 @@ uses: [0Y9D2FJRQ4, 0NS8BP96QX, 01A2EGXJEM]
 sources:
   - url: https://en.wikipedia.org/wiki/Derivative_test
     locator: Second-derivative test (single variable)
+inventory: [YJHTDW54AW]
 ---
 
 ## Statement

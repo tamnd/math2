@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q859174
   wikipedia: Cayley graph
+inventory: [HV8SJM8Z2D]
 ---
 
 ## Summary

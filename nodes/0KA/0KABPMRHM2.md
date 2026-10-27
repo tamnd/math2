@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q747027
   wikipedia: Characteristic subgroup
+inventory: [YYR06TVTMM]
 ---
 
 ## Summary

@@ -14,6 +14,7 @@ sources:
     locator: Subgroups
   - url: https://en.wikipedia.org/wiki/Free_group
     locator: Free abelian group
+inventory: [RRAD5N0D7W]
 ---
 
 ## Definition

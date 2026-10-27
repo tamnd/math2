@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q628792
   wikipedia: Integral domain
+inventory: [JZCW37FSDA]
 ---
 
 ## Summary

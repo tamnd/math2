@@ -10,6 +10,7 @@ sources:
     locator: lead section
   - url: https://en.wikipedia.org/wiki/Conservative_vector_field
     locator: Definition
+inventory: [CR1CD9331M]
 ---
 
 ## Definition

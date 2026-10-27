@@ -11,6 +11,7 @@ sources:
 same_as:
   wikidata: Q690935
   wikipedia: Saddle point
+inventory: [W9K980D1Y6]
 ---
 
 ## Summary

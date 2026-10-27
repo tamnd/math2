@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1396592
   wikipedia: Farey sequence
+inventory: [E7QKTFFSQH]
 ---
 
 ## Summary

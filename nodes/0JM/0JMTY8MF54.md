@@ -6,6 +6,7 @@ msc: [15A03]
 sources:
   - url: https://en.wikipedia.org/wiki/Linear_subspace
     locator: Operations and relations on subspaces
+inventory: [JN56MBD6F4]
 ---
 
 ## Summary

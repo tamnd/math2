@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q217616
   wikipedia: Meromorphic function
+inventory: [MHHPVR488Y]
 ---
 
 ## Summary

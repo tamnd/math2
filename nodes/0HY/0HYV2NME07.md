@@ -6,6 +6,7 @@ msc: [05C45]
 sources:
   - url: https://en.wikipedia.org/wiki/Hamiltonian_path
     locator: Definitions
+inventory: [YPA2K78CAS]
 ---
 
 ## Summary

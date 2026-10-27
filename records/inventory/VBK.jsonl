@@ -1,1 +1,1 @@
-{"id":"VBKR834A98","mentions":["m2://rec/wikidata/Q1779493#1"],"kind":"statement","name":"Pépin's test","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"VBKR834A98","mentions":["m2://rec/wikidata/Q1779493#1"],"kind":"statement","name":"Pépin's test","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 07HXA8KV6F"}],"outcome":{"value":"node","target":["07HXA8KV6F"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}

@@ -9,6 +9,7 @@ uses: [0N0PXCTYA7, 0ZTGMDNVTB]
 sources:
   - url: https://en.wikipedia.org/wiki/Generating_set_of_a_group
     locator: lead section
+inventory: [120ECZQBX2]
 ---
 
 ## Definition

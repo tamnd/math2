@@ -8,6 +8,7 @@ uses: [0GYGHKX834, 0K26YKNBSA]
 sources:
   - url: https://en.wikipedia.org/wiki/Integral_domain
     locator: Definition
+inventory: [JZCW37FSDA]
 ---
 
 ## Definition

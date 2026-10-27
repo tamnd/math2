@@ -8,6 +8,7 @@ uses: [0Q9EZS90GY]
 sources:
   - url: https://en.wikipedia.org/wiki/Degree_of_a_polynomial
     locator: Degree of the zero polynomial
+inventory: [QNZX912T8Z]
 ---
 
 ## Definition

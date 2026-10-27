@@ -7,6 +7,7 @@ defines: 0YWZJEABB2
 sources:
   - url: https://en.wikipedia.org/wiki/Catalan_number
     locator: lead section
+inventory: [BYEJDYYJYT]
 ---
 
 ## Definition

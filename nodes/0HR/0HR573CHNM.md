@@ -8,6 +8,7 @@ uses: [0JB3DP1BMF, 0EPTJA5QV4]
 sources:
   - url: https://en.wikipedia.org/wiki/Linear_span
     locator: Definition
+inventory: [TJ0X2DJ1E9]
 ---
 
 ## Definition

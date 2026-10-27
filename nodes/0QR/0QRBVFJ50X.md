@@ -8,6 +8,7 @@ uses: [0W809K6AW0, 06DW9BAWB1]
 sources:
   - url: https://en.wikipedia.org/wiki/Orthogonal_matrix
     locator: lead section
+inventory: [8KHAEVF7HH]
 ---
 
 ## Definition

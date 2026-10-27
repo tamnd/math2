@@ -8,6 +8,7 @@ uses: [05EGHEQZAW]
 sources:
   - url: https://en.wikipedia.org/wiki/Sesquilinear_form
     locator: Complex vector spaces
+inventory: [RRQ6XR7ZBC]
 ---
 
 ## Definition

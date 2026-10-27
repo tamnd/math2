@@ -8,6 +8,7 @@ uses: [072W67KFYK]
 sources:
   - url: https://en.wikipedia.org/wiki/Generating_function
     locator: Exponential generating function (EGF)
+inventory: [X6AGSJFM3Y]
 ---
 
 ## Definition

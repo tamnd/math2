@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q185813
   wikipedia: Identity element
+inventory: [75FBJRN7YR]
 ---
 
 ## Summary

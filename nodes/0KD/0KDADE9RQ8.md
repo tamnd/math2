@@ -7,6 +7,7 @@ defines: 0AHKWBQSWV
 sources:
   - url: https://en.wikipedia.org/wiki/Vertex_cover
     locator: Definition
+inventory: [J9T2YR1VBK]
 ---
 
 ## Definition

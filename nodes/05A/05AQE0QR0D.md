@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q133871
   wikipedia: Normal distribution
+inventory: [P2B3RPZM0Y]
 ---
 
 ## Summary

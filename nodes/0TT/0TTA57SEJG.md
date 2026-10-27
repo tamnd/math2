@@ -8,6 +8,7 @@ uses: [0DCT0QZVQ1, 0DKRR22AEQ]
 sources:
   - url: https://en.wikipedia.org/wiki/Convergence_of_random_variables
     locator: Convergence in mean
+inventory: [C5JF2KBV07]
 ---
 
 ## Definition

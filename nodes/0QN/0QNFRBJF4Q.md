@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1321926
   wikipedia: Constructible number
+inventory: [ZP398QG0S1]
 ---
 
 ## Summary

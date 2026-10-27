@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q930499
   wikipedia: Symmetric polynomial
+inventory: [VXCFMQFY17]
 ---
 
 ## Summary

@@ -8,6 +8,7 @@ uses: [0SN0MAEKYX]
 sources:
   - url: https://en.wikipedia.org/wiki/Composite_number
     locator: lead section
+inventory: [309A3B0HJQ]
 ---
 
 ## Definition

@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q652941
   wikipedia: Hermitian matrix
+inventory: [C1N93YZJGX]
 ---
 
 ## Summary

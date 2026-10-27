@@ -8,6 +8,7 @@ uses: [0EX045E2BP]
 sources:
   - url: https://en.wikipedia.org/wiki/Moore–Penrose_inverse
     locator: Definition
+inventory: [Z0BK2ZVY1Y]
 ---
 
 ## Definition

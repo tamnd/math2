@@ -8,6 +8,7 @@ uses: [0Q9PGXD9E4, 06DW9BAWB1]
 sources:
   - url: https://en.wikipedia.org/wiki/Diagonal_matrix
     locator: Scalar matrix
+inventory: [2HSM4TW6Y6]
 ---
 
 ## Definition

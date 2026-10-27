@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q1134404
   wikipedia: Covariance matrix
+inventory: [PVNNAAJDYB]
 ---
 
 ## Summary

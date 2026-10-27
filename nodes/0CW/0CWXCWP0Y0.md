@@ -9,6 +9,7 @@ uses: [085PND4KNT]
 sources:
   - url: https://en.wikipedia.org/wiki/Automorphism_group
     locator: lead section
+inventory: [YXH89VAN13]
 ---
 
 ## Definition

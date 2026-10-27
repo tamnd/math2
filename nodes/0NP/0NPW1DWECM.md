@@ -8,6 +8,7 @@ uses: [0WQ1A8SHTZ, 00EHX6FWC0, 0Q9EZS90GY]
 sources:
   - url: https://en.wikipedia.org/wiki/Algebraic_element
     locator: lead section
+inventory: [MG6FNZHF64]
 ---
 
 ## Definition

@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q191290
   wikipedia: Ordered pair
+inventory: [ETYXJP0E7S]
 ---
 
 ## Summary

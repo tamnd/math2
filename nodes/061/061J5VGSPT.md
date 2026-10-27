@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q621461
   wikipedia: Symmetric relation
+inventory: [W7AYYEJG1C]
 ---
 
 ## Summary

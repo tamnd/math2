@@ -8,6 +8,7 @@ uses: [0W2QAVJQ1W, 0W809K6AW0]
 sources:
   - url: https://en.wikipedia.org/wiki/Adjugate_matrix
     locator: Definition
+inventory: [WQ1C08GYW2]
 ---
 
 ## Definition

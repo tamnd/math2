@@ -6,6 +6,7 @@ msc: [33B10]
 sources:
   - url: https://en.wikipedia.org/wiki/Hyperbolic_functions
     locator: Exponential definitions
+inventory: [53D1STF7CE]
 ---
 
 ## Summary

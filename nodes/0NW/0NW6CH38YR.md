@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q284347
   wikipedia: T1 space
+inventory: [B3B1EF2TCF]
 ---
 
 ## Summary

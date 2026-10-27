@@ -8,6 +8,7 @@ uses: [05EGHEQZAW]
 sources:
   - url: https://en.wikipedia.org/wiki/Linear_combination
     locator: Definition
+inventory: [AW41B4D2VT]
 ---
 
 ## Definition

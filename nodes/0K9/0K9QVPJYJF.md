@@ -6,6 +6,7 @@ msc: [05C55, 05D10]
 sources:
   - url: https://en.wikipedia.org/wiki/Ramsey's_theorem
     locator: lead section
+inventory: [ZYDQ90S37W]
 ---
 
 ## Summary

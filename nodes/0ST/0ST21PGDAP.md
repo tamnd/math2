@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q1434353
   wikipedia: Almost surely
+inventory: [9S3HPHNGY8]
 ---
 
 ## Summary

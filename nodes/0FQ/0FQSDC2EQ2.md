@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q1138624
   wikipedia: Convex hull
+inventory: [585FFDA33D]
 ---
 
 ## Summary

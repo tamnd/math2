@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q2528476
   wikipedia: Ascending chain condition
+inventory: [GV6DGNJG3T]
 ---
 
 ## Summary

@@ -10,6 +10,7 @@ sources:
     locator: lead section
   - url: https://en.wikipedia.org/wiki/Meromorphic_function
     locator: Properties
+inventory: [MHHPVR488Y]
 ---
 
 ## Definition

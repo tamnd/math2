@@ -8,6 +8,7 @@ uses: [0DKRR22AEQ]
 sources:
   - url: https://en.wikipedia.org/wiki/Standard_score
     locator: Calculation
+inventory: [CH13MNMR0K]
 ---
 
 ## Definition

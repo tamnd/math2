@@ -8,6 +8,7 @@ instance_of: [0CQHFPGJ45]
 sources:
   - url: https://en.wikipedia.org/wiki/Cofiniteness
     locator: Cofinite topology
+inventory: [CGNX9Z67M3]
 ---
 
 ## Example

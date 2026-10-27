@@ -9,6 +9,7 @@ uses: [0AJN7WHBJZ, 04P7D63W8P, 0BFDHF2H7N, 0ZVEAYVRC3]
 sources:
   - url: https://en.wikipedia.org/wiki/Law_of_large_numbers
     locator: Strong law
+inventory: [8EZS5JDP9C]
 ---
 
 ## Statement

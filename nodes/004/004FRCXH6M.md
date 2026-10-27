@@ -12,6 +12,7 @@ sources:
     locator: In terms of axioms
   - url: https://en.wikipedia.org/wiki/Exterior_derivative
     locator: Exterior derivative in vector calculus
+inventory: [70KHYD4XYE]
 ---
 
 ## Definition

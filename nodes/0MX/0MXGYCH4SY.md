@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q170043
   wikipedia: Perfect number
+inventory: [BJXZEH198P]
 ---
 
 ## Summary

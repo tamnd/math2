@@ -9,6 +9,7 @@ uses: [G5S1M9]
 sources:
   - url: https://en.wikipedia.org/wiki/Group_homomorphism
     locator: lead section
+inventory: [JJGY7QTXXR]
 ---
 
 ## Definition

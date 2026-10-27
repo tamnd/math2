@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q535587
   wikipedia: Moment generating function
+inventory: [WFKFAVPGXV]
 ---
 
 ## Summary

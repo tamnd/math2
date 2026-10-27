@@ -14,6 +14,7 @@ sources:
 same_as:
   wikidata: Q1038716
   wikipedia: Identity theorem
+inventory: [WV3SN733GH]
 ---
 
 ## Statement

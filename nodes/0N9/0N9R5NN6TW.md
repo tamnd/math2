@@ -8,6 +8,7 @@ uses: [0894J980RK]
 sources:
   - url: https://en.wikipedia.org/wiki/Nilpotent
     locator: lead section
+inventory: [E8K2X8F5HA]
 ---
 
 ## Definition

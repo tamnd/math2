@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q2020004
   wikipedia: Galois extension
+inventory: [BKPY5X5W7H]
 ---
 
 ## Summary

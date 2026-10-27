@@ -10,6 +10,7 @@ sources:
     locator: lead section
   - url: https://en.wikipedia.org/wiki/Inverse_Laplace_transform
     locator: Bromwich's inverse formula
+inventory: [SWFJF2BN94]
 ---
 
 ## Definition

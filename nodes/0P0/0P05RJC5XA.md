@@ -8,6 +8,7 @@ uses: [0DPF6WRZW6]
 sources:
   - url: https://en.wikipedia.org/wiki/Coefficient
     locator: Terminology and definition
+inventory: [2MDJYMSYR9]
 ---
 
 ## Definition

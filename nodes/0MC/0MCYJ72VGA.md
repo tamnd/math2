@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q902252
   wikipedia: Complement graph
+inventory: [3DNK9SS2M6]
 ---
 
 ## Summary

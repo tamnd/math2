@@ -8,6 +8,7 @@ uses: [056FSKG32J]
 sources:
   - url: https://en.wikipedia.org/wiki/Uniform_convergence
     locator: Definition
+inventory: [KYNMF0N33A]
 ---
 
 ## Definition

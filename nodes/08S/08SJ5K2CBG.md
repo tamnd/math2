@@ -8,6 +8,7 @@ uses: [06RGT4V6Y6, 0RG9SPQSWM]
 sources:
   - url: https://en.wikipedia.org/wiki/Commutator_subgroup
     locator: Definition
+inventory: [Y24K6T3DBQ]
 ---
 
 ## Definition

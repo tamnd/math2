@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q385019
   wikipedia: Liouville function
+inventory: [8ADEPJMMSF]
 ---
 
 ## Summary

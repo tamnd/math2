@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q21083858
   wikipedia: Finitely generated group
+inventory: [X45XA5XYK1]
 ---
 
 ## Summary

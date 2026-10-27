@@ -9,6 +9,7 @@ uses: [0H2EPRZC0D, 0FCWA16FZE]
 sources:
   - url: https://en.wikipedia.org/wiki/Dirichlet_convolution
     locator: Definition
+inventory: [3YZN6P7P5R]
 ---
 
 ## Definition

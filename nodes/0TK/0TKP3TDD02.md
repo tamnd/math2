@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q816063
   wikipedia: Bell number
+inventory: [4KX686PWJ0]
 ---
 
 ## Summary

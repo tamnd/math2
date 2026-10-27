@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q50706
   wikipedia: Square-free integer
+inventory: [F2EAN3B8SV]
 ---
 
 ## Summary

@@ -8,6 +8,7 @@ uses: [0N0PXCTYA7, 0D6WHTTH7T]
 sources:
   - url: https://en.wikipedia.org/wiki/Normal_subgroup
     locator: Definitions
+inventory: [F3D99PH13A]
 ---
 
 ## Definition

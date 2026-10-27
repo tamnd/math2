@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q1128796
   wikipedia: Uncountable set
+inventory: [CZFSMSCHK0]
 ---
 
 ## Summary

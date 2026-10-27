@@ -8,6 +8,7 @@ uses: [0SJ3RX9TXA, 0EZ758XE73, 0XR7A7RSXB]
 sources:
   - url: https://en.wikipedia.org/wiki/Complement_(set_theory)
     locator: Relative complement
+inventory: [AR94NGRP6G]
 ---
 
 ## Definition

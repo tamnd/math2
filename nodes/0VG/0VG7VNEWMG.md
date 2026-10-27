@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q223722
   wikipedia: Abundant number
+inventory: [BENJC095SX]
 ---
 
 ## Summary

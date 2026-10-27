@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q726212
   wikipedia: Bounded set
+inventory: [72Q4P7TY2J]
 ---
 
 ## Summary

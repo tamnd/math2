@@ -14,6 +14,7 @@ sources:
 same_as:
   wikidata: Q1996305
   wikipedia: Burnside's theorem
+inventory: [NMGGH4F58P]
 ---
 
 ## Statement

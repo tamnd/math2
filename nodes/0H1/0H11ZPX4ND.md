@@ -6,6 +6,7 @@ msc: ["20E45"]
 sources:
   - url: https://en.wikipedia.org/wiki/Conjugacy_class
     locator: Conjugacy of subgroups and general subsets
+inventory: [DH5A822027]
 ---
 
 ## Summary

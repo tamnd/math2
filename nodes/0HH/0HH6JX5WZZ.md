@@ -8,6 +8,7 @@ uses: [072W67KFYK]
 sources:
   - url: https://en.wikipedia.org/wiki/Generating_function
     locator: Ordinary generating function (OGF)
+inventory: [WM1GYHVNPT]
 ---
 
 ## Definition

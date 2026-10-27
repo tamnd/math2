@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q868169
   wikipedia: Group homomorphism
+inventory: [JJGY7QTXXR]
 ---
 
 ## Summary

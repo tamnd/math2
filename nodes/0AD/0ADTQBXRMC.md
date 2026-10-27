@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q241015
   wikipedia: Jacobi symbol
+inventory: [SDA7PD70D3]
 ---
 
 ## Summary

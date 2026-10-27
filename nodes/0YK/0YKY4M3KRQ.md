@@ -11,6 +11,7 @@ sources:
     locator: Principal values of standard functions
   - url: https://en.wikipedia.org/wiki/Complex_logarithm
     locator: Principal value
+inventory: [9KXZ2CSP08]
 ---
 
 ## Definition

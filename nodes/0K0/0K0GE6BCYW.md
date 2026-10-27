@@ -8,6 +8,7 @@ uses: [0CNQXVBHCX, 0SY9ECQ19Q]
 sources:
   - url: https://en.wikipedia.org/wiki/Connected_space
     locator: Path connectedness
+inventory: [RCM0BR74EY]
 ---
 
 ## Definition

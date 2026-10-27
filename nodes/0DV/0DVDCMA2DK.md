@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q200726
   wikipedia: Probability distribution
+inventory: [JS6VWZQACJ]
 ---
 
 ## Summary

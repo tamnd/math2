@@ -8,6 +8,7 @@ uses: [05RSK4Q657, 0V6GAWTBYW, 0D1AHYPM8N]
 sources:
   - url: https://en.wikipedia.org/wiki/Logical_equivalence
     locator: lead section
+inventory: [EHDGX0E9G8]
 ---
 
 ## Definition

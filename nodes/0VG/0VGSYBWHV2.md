@@ -8,6 +8,7 @@ uses: [05EGHEQZAW]
 sources:
   - url: https://en.wikipedia.org/wiki/Inner_product_space
     locator: Definition
+inventory: [HE1J3Q8VXR]
 ---
 
 ## Definition

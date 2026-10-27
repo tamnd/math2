@@ -10,6 +10,7 @@ sources:
     locator: Mathematical definition
   - url: https://en.wikipedia.org/wiki/Multiple_integral
     locator: Triple integral
+inventory: [20SYEJ21T3]
 ---
 
 ## Definition

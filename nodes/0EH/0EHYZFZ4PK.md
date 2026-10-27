@@ -8,6 +8,7 @@ uses: [087P03NEND, 036756NFD6, 0WGDPYR30Q]
 sources:
   - url: https://en.wikipedia.org/wiki/P-value
     locator: Definition
+inventory: [280VNNSJMB]
 ---
 
 ## Definition

@@ -8,6 +8,7 @@ uses: [0J8XE7W68F]
 sources:
   - url: https://en.wikipedia.org/wiki/Component_(graph_theory)
     locator: Definitions and examples
+inventory: [TJ8VFMWKAW]
 ---
 
 ## Definition

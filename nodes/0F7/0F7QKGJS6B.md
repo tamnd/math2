@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q303100
   wikipedia: Graph isomorphism
+inventory: [TM6EG3W21W]
 ---
 
 ## Summary

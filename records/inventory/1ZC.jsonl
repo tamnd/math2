@@ -1,2 +1,2 @@
 {"id":"1ZC5K6369Q","mentions":["m2://rec/wikidata/Q14555033#1"],"kind":"concept","name":"Chebyshev Integral","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"1ZCV4KF5WN","mentions":["m2://rec/wikidata/Q2921739#1"],"kind":"unknown","name":"open ball","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"1ZCV4KF5WN","mentions":["m2://rec/wikidata/Q2921739#1"],"kind":"unknown","name":"open ball","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0DC3MPR7C9, 0YE5868HZB"}],"outcome":{"value":"node","target":["0DC3MPR7C9","0YE5868HZB"],"reason":"a node has the same name as the row","by":"agent"}}

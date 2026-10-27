@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q2363730
   wikipedia: Distributive lattice
+inventory: [1D6X6Z7F00]
 ---
 
 ## Summary

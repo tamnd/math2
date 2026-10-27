@@ -8,6 +8,7 @@ uses: [0299VCW1TH, 0G7WM8DX4P]
 sources:
   - url: https://en.wikipedia.org/wiki/Line_integral
     locator: Line integral of a vector field
+inventory: [AM3D91QXSK]
 ---
 
 ## Summary

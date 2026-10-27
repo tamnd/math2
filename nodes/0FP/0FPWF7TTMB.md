@@ -12,6 +12,7 @@ sources:
 same_as:
   wikidata: Q1966978
   wikipedia: Lévy's continuity theorem
+inventory: [SYT6120WS1]
 ---
 
 ## Statement

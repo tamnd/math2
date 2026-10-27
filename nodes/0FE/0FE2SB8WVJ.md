@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q583034
   wikipedia: Locally compact space
+inventory: [Y5YV9YEXA9]
 ---
 
 ## Summary

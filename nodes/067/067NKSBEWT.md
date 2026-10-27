@@ -6,6 +6,7 @@ msc: [15A99]
 sources:
   - url: https://en.wikipedia.org/wiki/Diagonal_matrix
     locator: Scalar matrix
+inventory: [2HSM4TW6Y6]
 ---
 
 ## Summary

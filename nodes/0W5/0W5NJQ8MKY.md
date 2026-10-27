@@ -12,6 +12,7 @@ sources:
     locator: Examples
   - url: https://en.wikipedia.org/wiki/Harmonic_function
     locator: The mean value property
+inventory: [1RRM250VSA]
 ---
 
 ## Definition

@@ -10,6 +10,7 @@ sources:
     locator: Laurent series definition
   - url: https://en.wikipedia.org/wiki/Laurent_series
     locator: Principal part
+inventory: [9VAR272T2T]
 ---
 
 ## Definition

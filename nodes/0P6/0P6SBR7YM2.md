@@ -8,6 +8,7 @@ uses: [0MA5B744K3]
 sources:
   - url: https://en.wikipedia.org/wiki/Simple_extension
     locator: Definition
+inventory: [V0R6EFDW81]
 ---
 
 ## Definition

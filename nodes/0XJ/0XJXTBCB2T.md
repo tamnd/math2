@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q1780921
   wikipedia: Orthogonal complement
+inventory: [G20Z36F7VP]
 ---
 
 ## Summary

@@ -8,6 +8,7 @@ uses: [0P11X5HKAX]
 sources:
   - url: https://en.wikipedia.org/wiki/Induced_subgraph
     locator: Definition
+inventory: [JEHAWTZXZJ]
 ---
 
 ## Definition

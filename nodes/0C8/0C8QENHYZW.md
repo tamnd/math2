@@ -8,6 +8,7 @@ uses: [004JW7A2N5, 0YVVXT3A0B]
 sources:
   - url: https://en.wikipedia.org/wiki/M%C3%B6bius_function
     locator: Definition
+inventory: [NM5SF34DCG]
 ---
 
 ## Definition

@@ -7,6 +7,7 @@ defines: 0KFYGSHHF5
 sources:
   - url: https://en.wikipedia.org/wiki/Directed_graph
     locator: Definition
+inventory: [9B5F4MJKB0]
 ---
 
 ## Definition

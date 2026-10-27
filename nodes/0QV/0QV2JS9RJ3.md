@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q474715
   wikipedia: Partially ordered set
+inventory: [8SRVF42H1J]
 ---
 
 ## Summary

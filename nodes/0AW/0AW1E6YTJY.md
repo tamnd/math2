@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q652707
   wikipedia: Lipschitz continuity
+inventory: [PMYSXNS4TD]
 ---
 
 ## Summary

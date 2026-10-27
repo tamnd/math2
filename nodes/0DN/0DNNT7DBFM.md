@@ -7,6 +7,7 @@ defines: 0Q3ZT8J05R
 sources:
   - url: https://en.wikipedia.org/wiki/Linear_equation
     locator: lead section
+inventory: [E8TJ2QYVQK]
 ---
 
 ## Definition

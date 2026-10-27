@@ -10,6 +10,7 @@ sources:
 same_as:
   wikidata: Q273176
   wikipedia: Normal (geometry)
+inventory: [R7N8FHPH16]
 ---
 
 ## Summary

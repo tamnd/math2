@@ -1,1 +1,1 @@
-{"id":"BZ8YT7JRJZ","mentions":["m2://rec/wikidata/Q249092#1"],"kind":"unknown","name":"equicontinuity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"BZ8YT7JRJZ","mentions":["m2://rec/wikidata/Q249092#1"],"kind":"unknown","name":"equicontinuity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0XN66MZN0Y"}],"outcome":{"value":"node","target":["0XN66MZN0Y"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}

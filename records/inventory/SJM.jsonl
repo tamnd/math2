@@ -1,2 +1,2 @@
-{"id":"SJMBZVPSDD","mentions":["m2://rec/wikidata/Q10614739#1"],"kind":"definition","name":"incenter","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"SJMBZVPSDD","mentions":["m2://rec/wikidata/Q10614739#1"],"kind":"definition","name":"incenter","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0M9MX8YW0A"}],"outcome":{"value":"node","target":["0M9MX8YW0A"],"reason":"a node has the same Wikidata item as the row","by":"agent"}}
 {"id":"SJMCA7CTR8","mentions":["m2://rec/wikidata/Q1130194#1"],"kind":"unknown","name":"moving average","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -9,6 +9,7 @@ sources:
 same_as:
   wikidata: Q333871
   wikipedia: Orthogonal matrix
+inventory: [8KHAEVF7HH]
 ---
 
 ## Summary
