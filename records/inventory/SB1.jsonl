@@ -1,1 +1,2 @@
 {"id":"SB1BV6CZ6N","mentions":["m2://rec/mathlib_100/82#1"],"kind":"statement","name":"Dissection of Cubes (J.E. Littlewood’s ‘elegant’ proof)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"SB1YWZ1T54","mentions":["ax://paper/2610.22218#07XF"],"kind":"unknown","layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.0"}],"proofs":["ax://paper/2610.22218#YYCQ"]}
