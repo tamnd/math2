@@ -1,3 +1,4 @@
+{"id":"GTW0WJ1X2Y","mentions":["ax://paper/2610.20489#UWRQ"],"kind":"statement","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.2"}],"proofs":["ax://paper/2610.20489#3KC8"]}
 {"id":"GTW2CHJ6A2","mentions":["m2://rec/wikidata/Q12032053#1"],"kind":"definition","name":"quintessence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"GTW3FXT7P5","mentions":["m2://rec/wikidata/Q1340706#1"],"kind":"definition","name":"endogeneity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"GTWCVC9VM7","mentions":["ax://paper/2610.21461#ZG7A"],"kind":"unknown","layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.2"}]}
