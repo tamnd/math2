@@ -3,6 +3,7 @@ tag: 0KXQKES075
 kind: concept
 name: Number of prime factors counted with multiplicity
 msc: [11A25]
+specializes: [09115NQZ07]
 sources:
   - url: https://en.wikipedia.org/wiki/Prime_omega_function
     locator: lead section

@@ -3,6 +3,7 @@ tag: 0Z962ECCXR
 kind: concept
 name: Trial division
 msc: [11Y05]
+specializes: [0EGJZHZ02C]
 sources:
   - url: https://en.wikipedia.org/wiki/Trial_division
     locator: Method

@@ -3,6 +3,7 @@ tag: 01GBHQ5ABF
 kind: concept
 name: Periodic continued fraction
 msc: [11A55]
+specializes: [0XB0J0P64D]
 sources:
   - url: https://en.wikipedia.org/wiki/Periodic_continued_fraction
     locator: lead section

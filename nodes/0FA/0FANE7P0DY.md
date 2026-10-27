@@ -3,6 +3,7 @@ tag: 0FANE7P0DY
 kind: concept
 name: Möbius function
 msc: [11A25]
+specializes: [0NTWN57GM3]
 sources:
   - url: https://en.wikipedia.org/wiki/M%C3%B6bius_function
     locator: lead section

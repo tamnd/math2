@@ -3,6 +3,7 @@ tag: 0GBZM0MT0F
 kind: concept
 name: Binomial coefficient
 msc: [05A10]
+specializes: [0PCV9EDJM2]
 sources:
   - url: https://en.wikipedia.org/wiki/Binomial_coefficient
     locator: Definition and interpretations

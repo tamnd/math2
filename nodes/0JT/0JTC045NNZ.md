@@ -3,6 +3,7 @@ tag: 0JTC045NNZ
 kind: concept
 name: Legendre symbol
 msc: [11A15]
+specializes: [0ADTQBXRMC]
 sources:
   - url: https://en.wikipedia.org/wiki/Legendre_symbol
     locator: lead section

@@ -3,6 +3,7 @@ tag: 0EHM5ZP5QH
 kind: concept
 name: Primitive root of unity
 msc: [11R18]
+specializes: [0YV2CKP2AV]
 sources:
   - url: https://en.wikipedia.org/wiki/Root_of_unity
     locator: General definition

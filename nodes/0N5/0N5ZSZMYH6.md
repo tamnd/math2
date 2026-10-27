@@ -3,6 +3,7 @@ tag: 0N5ZSZMYH6
 kind: concept
 name: Fermat primality test
 msc: [11Y11]
+specializes: [0EGJZHZ02C]
 sources:
   - url: https://en.wikipedia.org/wiki/Fermat_primality_test
     locator: Concept

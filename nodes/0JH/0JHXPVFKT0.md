@@ -3,6 +3,7 @@ tag: 0JHXPVFKT0
 kind: concept
 name: Exponential generating function
 msc: [05A15]
+specializes: [0PHAC833JF]
 sources:
   - url: https://en.wikipedia.org/wiki/Generating_function
     locator: Exponential generating function (EGF)

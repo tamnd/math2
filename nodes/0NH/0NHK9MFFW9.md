@@ -3,6 +3,7 @@ tag: 0NHK9MFFW9
 kind: concept
 name: Perfect matching
 msc: [05C70]
+specializes: [0MJ04A50QW]
 sources:
   - url: https://en.wikipedia.org/wiki/Perfect_matching
     locator: lead section

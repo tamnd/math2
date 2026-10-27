@@ -3,6 +3,7 @@ tag: 0HYV2NME07
 kind: concept
 name: Hamiltonian graph
 msc: [05C45]
+specializes: [00C0BR7D7H]
 sources:
   - url: https://en.wikipedia.org/wiki/Hamiltonian_path
     locator: Definitions

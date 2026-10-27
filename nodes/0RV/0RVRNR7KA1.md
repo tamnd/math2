@@ -3,6 +3,7 @@ tag: 0RVRNR7KA1
 kind: concept
 name: Gaussian prime
 msc: [11R11]
+specializes: [074P7C85XH]
 sources:
   - url: https://en.wikipedia.org/wiki/Gaussian_integer
     locator: Gaussian primes

@@ -3,6 +3,7 @@ tag: 05NWGBHKSZ
 kind: concept
 name: Eulerian trail
 msc: [05C45]
+specializes: [0W50MT1C6X]
 sources:
   - url: https://en.wikipedia.org/wiki/Eulerian_path
     locator: Definition

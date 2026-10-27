@@ -3,6 +3,7 @@ tag: 0Z05VCBQ7Y
 kind: concept
 name: Cycle
 msc: [05C38]
+specializes: [09F2QPVQY7]
 sources:
   - url: https://en.wikipedia.org/wiki/Cycle_(graph_theory)
     locator: Circuit and cycle

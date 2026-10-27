@@ -3,6 +3,7 @@ tag: 07NN4VNYWM
 kind: concept
 name: Liouville function
 msc: [11A25]
+specializes: [0RXKW044R4]
 sources:
   - url: https://en.wikipedia.org/wiki/Liouville_function
     locator: lead section

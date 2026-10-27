@@ -3,6 +3,7 @@ tag: 0XHZW0VCPR
 kind: concept
 name: K-colourable graph
 msc: [05C15]
+specializes: [00C0BR7D7H]
 sources:
   - url: https://en.wikipedia.org/wiki/Graph_coloring
     locator: Vertex coloring

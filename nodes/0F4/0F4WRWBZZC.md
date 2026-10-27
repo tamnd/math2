@@ -3,6 +3,7 @@ tag: 0F4WRWBZZC
 kind: concept
 name: Quadratic integer
 msc: [11R11]
+specializes: [0MNF0BYFQC]
 sources:
   - url: https://en.wikipedia.org/wiki/Quadratic_integer
     locator: lead section

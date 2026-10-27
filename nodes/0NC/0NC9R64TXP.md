@@ -3,6 +3,7 @@ tag: 0NC9R64TXP
 kind: concept
 name: Planar graph
 msc: [05C10]
+specializes: [00C0BR7D7H]
 sources:
   - url: https://en.wikipedia.org/wiki/Planar_graph
     locator: lead section
