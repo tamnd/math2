@@ -3,6 +3,7 @@ tag: 0GYQK9NDJF
 kind: concept
 name: Cayley graph
 msc: [05C25, 20F65]
+specializes: [0KFYGSHHF5]
 sources:
   - url: https://en.wikipedia.org/wiki/Cayley_graph
     locator: lead section

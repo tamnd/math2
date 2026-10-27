@@ -3,6 +3,7 @@ tag: 0Z0NE3J6JX
 kind: concept
 name: Pell's equation
 msc: [11D09]
+specializes: [08B1RTW7VZ]
 sources:
   - url: https://en.wikipedia.org/wiki/Pell%27s_equation
     locator: lead section

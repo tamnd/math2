@@ -3,6 +3,7 @@ tag: 0NK8JTE1NN
 kind: concept
 name: von Mangoldt function
 msc: [11A25]
+specializes: [09115NQZ07]
 sources:
   - url: https://en.wikipedia.org/wiki/Von_Mangoldt_function
     locator: lead section

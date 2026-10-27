@@ -3,6 +3,7 @@ tag: 0R9GF3JD0K
 kind: concept
 name: Linear Diophantine equation
 msc: [11D04]
+specializes: [08B1RTW7VZ]
 sources:
   - url: https://en.wikipedia.org/wiki/Diophantine_equation
     locator: Linear Diophantine equations

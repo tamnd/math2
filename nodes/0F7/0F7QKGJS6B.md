@@ -3,6 +3,7 @@ tag: 0F7QKGJS6B
 kind: concept
 name: Graph isomorphism
 msc: [05C60]
+specializes: [052JJ9YVNM]
 sources:
   - url: https://en.wikipedia.org/wiki/Graph_isomorphism
     locator: lead section

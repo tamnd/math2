@@ -3,6 +3,7 @@ tag: 09F2QPVQY7
 kind: concept
 name: Circuit
 msc: [05C38]
+specializes: [0W50MT1C6X]
 sources:
   - url: https://en.wikipedia.org/wiki/Cycle_(graph_theory)
     locator: Circuit and cycle

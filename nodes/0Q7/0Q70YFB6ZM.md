@@ -3,6 +3,7 @@ tag: 0Q70YFB6ZM
 kind: concept
 name: Regular graph
 msc: [05C07]
+specializes: [00C0BR7D7H]
 sources:
   - url: https://en.wikipedia.org/wiki/Regular_graph
     locator: lead section

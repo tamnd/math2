@@ -3,6 +3,7 @@ tag: 0JPH2Y4DFV
 kind: concept
 name: Central binomial coefficient
 msc: [05A10]
+specializes: [0GBZM0MT0F]
 sources:
   - url: https://en.wikipedia.org/wiki/Central_binomial_coefficient
     locator: lead section

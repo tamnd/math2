@@ -3,6 +3,7 @@ tag: 0DAMHCT17R
 kind: concept
 name: Euler's totient function
 msc: [11A25]
+specializes: [0NTWN57GM3]
 sources:
   - url: https://en.wikipedia.org/wiki/Euler%27s_totient_function
     locator: lead section

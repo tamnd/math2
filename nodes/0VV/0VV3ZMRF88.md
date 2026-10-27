@@ -3,6 +3,7 @@ tag: 0VV3ZMRF88
 kind: concept
 name: Number of divisors
 msc: [11A25]
+specializes: [04J4Z73J5B]
 sources:
   - url: https://en.wikipedia.org/wiki/Divisor_function
     locator: lead section

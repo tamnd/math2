@@ -3,6 +3,7 @@ tag: 0XHWTD3MPV
 kind: concept
 name: Derangement
 msc: [05A05]
+specializes: [05RWFKVTJ7]
 sources:
   - url: https://en.wikipedia.org/wiki/Derangement
     locator: lead section

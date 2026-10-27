@@ -3,6 +3,7 @@ tag: 04AAKZNXHD
 kind: concept
 name: Greedy colouring
 msc: [05C15]
+specializes: [0NCPXH194Y]
 sources:
   - url: https://en.wikipedia.org/wiki/Greedy_coloring
     locator: Algorithm

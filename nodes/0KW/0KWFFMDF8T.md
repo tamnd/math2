@@ -3,6 +3,7 @@ tag: 0KWFFMDF8T
 kind: concept
 name: Connected graph
 msc: [05C40]
+specializes: [00C0BR7D7H]
 sources:
   - url: https://en.wikipedia.org/wiki/Connectivity_(graph_theory)
     locator: Connected vertices and graphs

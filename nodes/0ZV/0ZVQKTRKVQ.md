@@ -3,6 +3,7 @@ tag: 0ZVQKTRKVQ
 kind: concept
 name: Bipartite graph
 msc: [05C75]
+specializes: [0XHZW0VCPR]
 sources:
   - url: https://en.wikipedia.org/wiki/Bipartite_graph
     locator: lead section

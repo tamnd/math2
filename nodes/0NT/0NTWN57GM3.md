@@ -3,6 +3,7 @@ tag: 0NTWN57GM3
 kind: concept
 name: Multiplicative function
 msc: [11A25]
+specializes: [09115NQZ07]
 sources:
   - url: https://en.wikipedia.org/wiki/Multiplicative_function
     locator: lead section

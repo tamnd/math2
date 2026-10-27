@@ -3,6 +3,7 @@ tag: 0EREPBVG2G
 kind: concept
 name: Induced subgraph
 msc: [05C99]
+specializes: [0WBFFC8XZ9]
 sources:
   - url: https://en.wikipedia.org/wiki/Induced_subgraph
     locator: Definition

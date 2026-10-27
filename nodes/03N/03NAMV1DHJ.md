@@ -3,6 +3,7 @@ tag: 03NAMV1DHJ
 kind: concept
 name: Path
 msc: [05C38]
+specializes: [0W50MT1C6X]
 sources:
   - url: https://en.wikipedia.org/wiki/Path_(graph_theory)
     locator: Walk, trail, and path

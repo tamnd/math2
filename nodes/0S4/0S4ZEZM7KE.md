@@ -3,6 +3,7 @@ tag: 0S4ZEZM7KE
 kind: concept
 name: Spanning tree
 msc: [05C05]
+specializes: [062D9KXJB1, 0WBFFC8XZ9]
 sources:
   - url: https://en.wikipedia.org/wiki/Spanning_tree
     locator: Definitions

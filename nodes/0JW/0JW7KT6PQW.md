@@ -3,6 +3,7 @@ tag: 0JW7KT6PQW
 kind: concept
 name: Minimum spanning tree
 msc: [05C05]
+specializes: [0S4ZEZM7KE]
 sources:
   - url: https://en.wikipedia.org/wiki/Minimum_spanning_tree
     locator: lead section

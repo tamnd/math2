@@ -3,6 +3,7 @@ tag: 08RQ62VAVA
 kind: concept
 name: Number of distinct prime factors
 msc: [11A25]
+specializes: [09115NQZ07]
 sources:
   - url: https://en.wikipedia.org/wiki/Prime_omega_function
     locator: lead section

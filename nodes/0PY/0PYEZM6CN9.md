@@ -3,6 +3,7 @@ tag: 0PYEZM6CN9
 kind: concept
 name: Liouville number
 msc: [11J81]
+specializes: [0VTQXTCR2G, 0DZXAXEJQ9]
 sources:
   - url: https://en.wikipedia.org/wiki/Liouville_number
     locator: lead section

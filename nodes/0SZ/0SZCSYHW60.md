@@ -4,6 +4,7 @@ kind: concept
 name: Miller–Rabin primality test
 aliases: [rabin-miller-primality-test]
 msc: [11Y11]
+specializes: [0EGJZHZ02C]
 uses: [0EGJZHZ02C, 0M25PRN3WQ, 04DR5PM25N]
 sources:
   - url: https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test

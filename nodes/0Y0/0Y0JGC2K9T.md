@@ -3,6 +3,7 @@ tag: 0Y0JGC2K9T
 kind: concept
 name: Rooted tree
 msc: [05C05]
+specializes: [062D9KXJB1]
 sources:
   - url: https://en.wikipedia.org/wiki/Tree_(graph_theory)
     locator: Rooted tree
