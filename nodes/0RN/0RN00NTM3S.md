@@ -3,6 +3,7 @@ tag: 0RN00NTM3S
 kind: concept
 name: Inner automorphism
 msc: [20F28]
+specializes: [08MG7H8JW5]
 sources:
   - url: https://en.wikipedia.org/wiki/Inner_automorphism
     locator: Definition

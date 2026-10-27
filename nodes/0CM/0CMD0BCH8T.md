@@ -4,6 +4,7 @@ kind: concept
 name: Principal ideal domain
 aliases: [pid]
 msc: [13F10]
+specializes: [0W4X9G6263]
 sources:
   - url: https://en.wikipedia.org/wiki/Principal_ideal_domain
     locator: lead section

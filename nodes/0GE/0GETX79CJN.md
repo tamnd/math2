@@ -4,6 +4,7 @@ kind: concept
 name: Normal core
 aliases: [core-of-a-subgroup]
 msc: [20D25]
+specializes: [0CB0DX5BVV]
 sources:
   - url: https://en.wikipedia.org/wiki/Core_(group_theory)
     locator: The normal core

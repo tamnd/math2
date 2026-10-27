@@ -3,6 +3,7 @@ tag: 0JZ27DMJ5D
 kind: concept
 name: Dihedral group
 msc: [20B25]
+specializes: [G5S1M9]
 sources:
   - url: https://en.wikipedia.org/wiki/Dihedral_group
     locator: lead section

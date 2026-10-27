@@ -3,6 +3,7 @@ tag: 0CHS7RBD39
 kind: concept
 name: Euclidean domain
 msc: [13F07]
+specializes: [0CMD0BCH8T]
 sources:
   - url: https://en.wikipedia.org/wiki/Euclidean_domain
     locator: lead section

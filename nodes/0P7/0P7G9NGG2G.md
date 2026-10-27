@@ -4,6 +4,7 @@ kind: concept
 name: Faithful action
 aliases: [effective-action]
 msc: [20B05]
+specializes: [0WCY42EV9V]
 sources:
   - url: https://en.wikipedia.org/wiki/Group_action
     locator: Notable properties of actions

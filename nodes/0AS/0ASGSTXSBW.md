@@ -4,6 +4,7 @@ kind: concept
 name: Commutator subgroup
 aliases: [derived-subgroup]
 msc: [20F12]
+specializes: [0KABPMRHM2]
 sources:
   - url: https://en.wikipedia.org/wiki/Commutator_subgroup
     locator: Definition

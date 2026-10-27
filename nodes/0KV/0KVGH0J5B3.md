@@ -4,6 +4,7 @@ kind: concept
 name: Cyclic group
 aliases: [monogenous-group]
 msc: [20A05]
+specializes: [082GHNPJ53]
 sources:
   - url: https://en.wikipedia.org/wiki/Cyclic_group
     locator: Definition and notation

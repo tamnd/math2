@@ -3,6 +3,7 @@ tag: 0DZ9DKAKZR
 kind: concept
 name: Free module
 msc: [16D40, 13C10]
+specializes: [0NZ8JA25WK]
 sources:
   - url: https://en.wikipedia.org/wiki/Free_module
     locator: Definition

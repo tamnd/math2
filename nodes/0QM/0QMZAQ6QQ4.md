@@ -3,6 +3,7 @@ tag: 0QMZAQ6QQ4
 kind: concept
 name: Galois extension
 msc: [12F10]
+specializes: [08S0NW8SES, 0WCX7NB4N7]
 sources:
   - url: https://en.wikipedia.org/wiki/Galois_extension
     locator: lead section

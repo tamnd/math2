@@ -3,6 +3,7 @@ tag: 0K1SCPBNKJ
 kind: concept
 name: Automorphism group
 msc: [20F28]
+specializes: [G5S1M9]
 sources:
   - url: https://en.wikipedia.org/wiki/Automorphism_group
     locator: lead section

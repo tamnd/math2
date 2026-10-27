@@ -3,6 +3,7 @@ tag: 0WJX8MGG37
 kind: concept
 name: Free abelian group
 msc: [20K15, 20K20]
+specializes: [082GHNPJ53]
 sources:
   - url: https://en.wikipedia.org/wiki/Free_abelian_group
     locator: lead section

@@ -3,6 +3,7 @@ tag: 0QVD7WBFGN
 kind: concept
 name: Integral domain
 msc: [13G05]
+specializes: [0310REJJY8]
 sources:
   - url: https://en.wikipedia.org/wiki/Integral_domain
     locator: lead section

@@ -4,6 +4,7 @@ kind: concept
 name: Quotient ring
 aliases: [factor-ring]
 msc: [16D25]
+specializes: [0B1261B5ED]
 sources:
   - url: https://en.wikipedia.org/wiki/Quotient_ring
     locator: lead section

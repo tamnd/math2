@@ -3,6 +3,7 @@ tag: 0KABPMRHM2
 kind: concept
 name: Characteristic subgroup
 msc: [20F28]
+specializes: [0CB0DX5BVV]
 sources:
   - url: https://en.wikipedia.org/wiki/Characteristic_subgroup
     locator: Definition

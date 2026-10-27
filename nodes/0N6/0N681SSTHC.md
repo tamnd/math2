@@ -3,6 +3,7 @@ tag: 0N681SSTHC
 kind: concept
 name: Simple extension
 msc: [12F05]
+specializes: [0EQWVHF3W5]
 sources:
   - url: https://en.wikipedia.org/wiki/Simple_extension
     locator: lead section

@@ -3,6 +3,7 @@ tag: 0SVYSP8HCG
 kind: concept
 name: Principal ideal
 msc: [13A15]
+specializes: [096Z9MP2ME]
 sources:
   - url: https://en.wikipedia.org/wiki/Principal_ideal
     locator: lead section

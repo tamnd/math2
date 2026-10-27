@@ -3,6 +3,7 @@ tag: 02GK6HZYBT
 kind: concept
 name: Transitive action
 msc: [20B05]
+specializes: [0WCY42EV9V]
 sources:
   - url: https://en.wikipedia.org/wiki/Group_action
     locator: Transitivity properties
