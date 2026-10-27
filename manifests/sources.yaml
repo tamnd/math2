@@ -1,5 +1,29 @@
 # The external sources of math2 and each snapshot that math2 used (spec 09.2). m2 ingest writes this file. A maintainer approves the class of each new source.
 sources:
+  - id: arxiv
+    name: arXiv, through the metadata plane of tamnd/arxiv
+    kind: paper-index
+    home: https://arxiv.org
+    licence: CC0-1.0
+    class: open
+    licence_read:
+      at: https://info.arxiv.org/help/bulk_data.html
+      "on": "2026-10-27"
+      by: Claude Code, for tamnd, from the adapter arxiv/1
+    authored: human
+    channel: git
+    terms:
+      robots: n/a, the importer reads the git repository tamnd/arxiv and not the pages of arXiv
+      rate: the pipeline of tamnd/arxiv fetches one paper each 15 seconds, and m2 reads only the checkout
+      ai: none stated
+    attribution: arXiv metadata, Cornell University, https://arxiv.org, CC0 1.0. The text of each paper has the licence of that paper, and the mentions keep that licence as their class.
+    adapter: arxiv/1
+    approved_by: tamnd
+    snapshots:
+      - url: https://github.com/tamnd/arxiv/tree/affdac9efd18cdeec6694c26d4b615f361c5aa17/metadata
+        hash: blake3:ff7e15fb67b5b5111c68593c369b98a0030ae4bedc2a45416d59ba9718ed4398
+        date: "2026-10-27"
+        commit: affdac9efd18cdeec6694c26d4b615f361c5aa17
   - id: mathlib_100
     name: Mathlib, 100 theorems
     kind: curriculum
