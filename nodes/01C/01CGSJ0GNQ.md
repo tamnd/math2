@@ -4,6 +4,7 @@ kind: concept
 name: Well-order
 aliases: [well-ordering, well-ordered-set]
 msc: [06A05]
+specializes: [0FRXBVVR03]
 sources:
   - url: https://en.wikipedia.org/wiki/Well-order
     locator: lead section

@@ -4,6 +4,7 @@ kind: concept
 name: Exact equation
 aliases: [exact-differential-equation]
 msc: [34A05]
+specializes: [0NT64JV96A]
 sources:
   - url: https://en.wikipedia.org/wiki/Exact_differential_equation
     locator: lead section

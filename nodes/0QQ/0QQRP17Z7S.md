@@ -4,6 +4,7 @@ kind: concept
 name: Linear differential equation of order n
 aliases: [linear-differential-equation]
 msc: [34A30]
+specializes: [0NT64JV96A]
 sources:
   - url: https://en.wikipedia.org/wiki/Linear_differential_equation
     locator: lead section

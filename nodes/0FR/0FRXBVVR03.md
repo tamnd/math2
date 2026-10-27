@@ -4,6 +4,7 @@ kind: concept
 name: Total order
 aliases: [linear-order, totally-ordered-set]
 msc: [06A05]
+specializes: [0QV2JS9RJ3]
 sources:
   - url: https://en.wikipedia.org/wiki/Total_order
     locator: lead section

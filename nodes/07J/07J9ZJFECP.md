@@ -3,6 +3,7 @@ tag: 07J9ZJFECP
 kind: concept
 name: Order on the integers
 msc: [06F25]
+specializes: [0FRXBVVR03]
 sources:
   - url: https://en.wikipedia.org/wiki/Integer
     locator: Order-theoretic properties

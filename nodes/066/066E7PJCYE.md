@@ -4,6 +4,7 @@ kind: concept
 name: Pole
 aliases: [pole-of-a-function]
 msc: [30D30]
+specializes: [05Z3FC0154]
 sources:
   - url: https://en.wikipedia.org/wiki/Zeros_and_poles
     locator: lead section

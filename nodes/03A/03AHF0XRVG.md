@@ -4,6 +4,7 @@ kind: concept
 name: Independence of two events
 aliases: [independent-events, statistical-independence]
 msc: [60A05]
+specializes: [001B78R0DJ]
 sources:
   - url: https://en.wikipedia.org/wiki/Independence_(probability_theory)
     locator: lead section

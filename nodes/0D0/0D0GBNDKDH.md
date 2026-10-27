@@ -4,6 +4,7 @@ kind: concept
 name: Martingale
 aliases: [martingale-probability-theory]
 msc: [60G42]
+specializes: [0QH5ENKZM1]
 sources:
   - url: https://en.wikipedia.org/wiki/Martingale_(probability_theory)
     locator: lead section

@@ -3,6 +3,7 @@ tag: 0P3VCBDEE2
 kind: concept
 name: Ordered field
 msc: [12J15]
+specializes: [04C5ZBG1WT]
 sources:
   - url: https://en.wikipedia.org/wiki/Ordered_field
     locator: Definitions

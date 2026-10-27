@@ -4,6 +4,7 @@ kind: concept
 name: Dirac measure
 aliases: [point-mass, unit-mass, dirac-distribution]
 msc: [28A12]
+specializes: [059TJN0NZ1]
 sources:
   - url: https://en.wikipedia.org/wiki/Dirac_measure
     locator: lead section

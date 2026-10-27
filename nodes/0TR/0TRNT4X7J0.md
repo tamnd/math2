@@ -3,6 +3,7 @@ tag: 0TRNT4X7J0
 kind: concept
 name: Euclidean algorithm
 msc: [11A05]
+specializes: [023VY493K0]
 sources:
   - url: https://en.wikipedia.org/wiki/Euclidean_algorithm
     locator: Procedure

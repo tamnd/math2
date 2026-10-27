@@ -4,6 +4,7 @@ kind: concept
 name: Möbius transformation
 aliases: [mobius-transformation, linear-fractional-transformation, fractional-linear-transformation]
 msc: [30C35]
+specializes: [0YYT36R4YD]
 sources:
   - url: https://en.wikipedia.org/wiki/M%C3%B6bius_transformation
     locator: lead section

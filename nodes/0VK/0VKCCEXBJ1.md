@@ -3,6 +3,7 @@ tag: 0VKCCEXBJ1
 kind: concept
 name: Ellipse
 msc: [51N20]
+specializes: [00HJCMC2CD]
 sources:
   - url: https://en.wikipedia.org/wiki/Ellipse
     locator: lead section

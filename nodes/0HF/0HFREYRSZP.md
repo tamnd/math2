@@ -3,6 +3,7 @@ tag: 0HFREYRSZP
 kind: concept
 name: Rotation
 msc: [51F20]
+specializes: [0J1N3WTKM4]
 sources:
   - url: https://en.wikipedia.org/wiki/Rotation_(mathematics)
     locator: lead section

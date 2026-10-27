@@ -3,6 +3,7 @@ tag: 0KP0QNXPRT
 kind: concept
 name: Homogeneous linear equation
 msc: [34A30]
+specializes: [0QQRP17Z7S]
 sources:
   - url: https://en.wikipedia.org/wiki/Linear_differential_equation
     locator: Basic terminology

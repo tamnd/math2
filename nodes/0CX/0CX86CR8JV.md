@@ -3,6 +3,7 @@ tag: 0CX86CR8JV
 kind: concept
 name: Integrating factor for a non-exact equation
 msc: [34A05]
+specializes: [07DJAZW32T]
 uses: [0EC7AGJ0PX, 0MSCQNFTM8, 07DJAZW32T]
 sources:
   - url: https://en.wikipedia.org/wiki/Integrating_factor

@@ -3,6 +3,7 @@ tag: 0SWTJ5VC07
 kind: concept
 name: Linear equation with constant coefficients
 msc: [34A30]
+specializes: [0QQRP17Z7S]
 sources:
   - url: https://en.wikipedia.org/wiki/Linear_differential_equation
     locator: Homogeneous equation with constant coefficients

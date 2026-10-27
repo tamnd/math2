@@ -3,6 +3,7 @@ tag: 06BRDF3F0E
 kind: concept
 name: Reflection
 msc: [15A04, 51F15]
+specializes: [07SJXTWVQW]
 sources:
   - url: https://en.wikipedia.org/wiki/Reflection_(mathematics)
     locator: Reflection through a hyperplane in n dimensions

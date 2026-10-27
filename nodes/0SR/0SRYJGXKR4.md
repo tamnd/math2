@@ -4,6 +4,7 @@ kind: concept
 name: Convergence in distribution
 aliases: [weak-convergence-of-random-variables, convergence-in-law]
 msc: [60F05]
+specializes: [0FQ968YKA1]
 sources:
   - url: https://en.wikipedia.org/wiki/Convergence_of_random_variables
     locator: Convergence in distribution

@@ -4,6 +4,7 @@ kind: concept
 name: Partial order
 aliases: [poset, partially-ordered-set]
 msc: [06A06]
+specializes: [0VABYWJWH9]
 sources:
   - url: https://en.wikipedia.org/wiki/Partially_ordered_set
     locator: lead section

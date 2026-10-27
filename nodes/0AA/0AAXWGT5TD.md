@@ -4,6 +4,7 @@ kind: concept
 name: Almost sure convergence
 aliases: [convergence-almost-surely, convergence-with-probability-one, strong-convergence-of-random-variables]
 msc: [60F15]
+specializes: [0FQ968YKA1]
 sources:
   - url: https://en.wikipedia.org/wiki/Convergence_of_random_variables
     locator: Almost sure convergence

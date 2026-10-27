@@ -3,6 +3,7 @@ tag: 0T7DX8NY1X
 kind: concept
 name: Tangent line to a circle
 msc: [51M04]
+specializes: [0MP9BCF6DP]
 sources:
   - url: https://en.wikipedia.org/wiki/Tangent_lines_to_circles
     locator: lead section

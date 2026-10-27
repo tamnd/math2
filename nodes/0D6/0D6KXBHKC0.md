@@ -4,6 +4,7 @@ kind: concept
 name: Power series in the complex plane
 aliases: [complex-power-series, power-series]
 msc: [30B10]
+specializes: [0MZB06ST2B]
 sources:
   - url: https://en.wikipedia.org/wiki/Power_series
     locator: lead section

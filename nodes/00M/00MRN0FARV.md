@@ -4,6 +4,7 @@ kind: concept
 name: Independent and identically distributed random variables
 aliases: [iid, i-i-d, independent-identically-distributed]
 msc: [60A05]
+specializes: [0GQ938GDE0]
 sources:
   - url: https://en.wikipedia.org/wiki/Independent_and_identically_distributed_random_variables
     locator: lead section

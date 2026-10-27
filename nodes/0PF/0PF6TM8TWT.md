@@ -3,6 +3,7 @@ tag: 0PF6TM8TWT
 kind: concept
 name: Algebraically closed field
 msc: [12F05]
+specializes: [04C5ZBG1WT]
 sources:
   - url: https://en.wikipedia.org/wiki/Algebraically_closed_field
     locator: lead section
