@@ -20,7 +20,7 @@
       "additionalProperties": false,
       "required": ["id", "reviewer", "date", "decl", "statement_hash", "type_hash", "verdict"],
       "properties": {
-        "id": {"type": "string", "pattern": "^r-[0-9A-HJKMNP-TV-Z]{6}-[0-9]{2,}$", "description": "r-, the tag of the node, - and a number, for example r-3C53TD-01. A formal binding of the node lists the id in fidelity_reviews."},
+        "id": {"type": "string", "pattern": "^r-([0-9A-HJKMNP-TV-Z]{6}|[0-9A-HJKMNP-TV-Z]{10})-[0-9]{2,}$", "description": "r-, the tag of the node, - and a number, for example r-3C53TD-01. The tag has 6 or 10 characters. A formal binding of the node lists the id in fidelity_reviews."},
         "reviewer": {"type": "string", "pattern": "^(orcid:[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{3}[0-9X]|github:[A-Za-z0-9](-?[A-Za-z0-9])*)$", "description": "The reviewer as in registers/reviewers.reg."},
         "date": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"},
         "decl": {"type": "string", "minLength": 1, "description": "The declaration that the reviewer read. When the binding has an adapter, it is the adapter."},
@@ -29,6 +29,7 @@
         "verdict": {"enum": ["faithful", "faithful-with-conventions", "not-faithful"]},
         "conventions": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}, "description": "The conventions under which the Lean statement says what the informal statement says."},
         "class": {"enum": ["M-hyp-missing", "M-hyp-extra", "M-quant", "M-vacuous", "M-junk", "M-def", "M-type", "M-conv", "M-weak", "M-strong", "M-context", "M-tamper"], "description": "The class of the fault (spec 10.5)."},
+        "minutes": {"type": "number", "exclusiveMinimum": 0, "description": "The time of the review in minutes, as the reviewer gives it. m2 review -minutes N writes it, and m2 corpus report adds it to the review hours (corpus K12.5)."},
         "notes": {"type": "string"}
       },
       "allOf": [
