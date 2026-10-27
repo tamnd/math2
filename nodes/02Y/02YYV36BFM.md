@@ -4,6 +4,7 @@ kind: concept
 name: Centraliser
 aliases: [centralizer]
 msc: [20A05]
+specializes: [0X1JXT47GA]
 sources:
   - url: https://en.wikipedia.org/wiki/Centralizer_and_normalizer
     locator: Definitions

@@ -3,6 +3,7 @@ tag: 00MHHZ9SNE
 kind: concept
 name: Prime ideal
 msc: [13A15]
+specializes: [096Z9MP2ME]
 sources:
   - url: https://en.wikipedia.org/wiki/Prime_ideal
     locator: lead section

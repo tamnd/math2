@@ -3,6 +3,7 @@ tag: 0PV74TR5FP
 kind: concept
 name: Maximal ideal
 msc: [13A15]
+specializes: [00MHHZ9SNE]
 sources:
   - url: https://en.wikipedia.org/wiki/Maximal_ideal
     locator: lead section

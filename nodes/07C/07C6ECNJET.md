@@ -4,6 +4,7 @@ kind: concept
 name: Group of units of a ring
 aliases: [unit-group, multiplicative-group-of-a-ring]
 msc: [16U60]
+specializes: [0FJ90Y9926]
 sources:
   - url: https://en.wikipedia.org/wiki/Unit_(ring_theory)
     locator: Group of units

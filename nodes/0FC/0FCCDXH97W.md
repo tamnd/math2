@@ -3,6 +3,7 @@ tag: 0FCCDXH97W
 kind: concept
 name: Evaluation homomorphism
 msc: [13F20]
+specializes: [0VTH8KPCG2]
 sources:
   - url: https://en.wikipedia.org/wiki/Polynomial_ring
     locator: Polynomial evaluation

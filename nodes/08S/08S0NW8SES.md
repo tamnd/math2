@@ -3,6 +3,7 @@ tag: 08S0NW8SES
 kind: concept
 name: Normal extension
 msc: [12F10]
+specializes: [0PTBM7K0R2]
 sources:
   - url: https://en.wikipedia.org/wiki/Normal_extension
     locator: lead section

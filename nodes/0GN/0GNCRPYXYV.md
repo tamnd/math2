@@ -3,6 +3,7 @@ tag: 0GNCRPYXYV
 kind: concept
 name: Subring
 msc: [16B99]
+specializes: [0B1261B5ED]
 sources:
   - url: https://en.wikipedia.org/wiki/Subring
     locator: lead section

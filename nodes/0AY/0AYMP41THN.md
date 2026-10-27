@@ -4,6 +4,7 @@ kind: concept
 name: Stabiliser
 aliases: [stabilizer, isotropy-group]
 msc: [20B05]
+specializes: [0X1JXT47GA]
 sources:
   - url: https://en.wikipedia.org/wiki/Group_action
     locator: Fixed points and stabilizer subgroups

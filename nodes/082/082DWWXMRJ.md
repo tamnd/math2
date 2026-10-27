@@ -3,6 +3,7 @@ tag: 082DWWXMRJ
 kind: concept
 name: Finitely generated group
 msc: [20F05]
+specializes: [G5S1M9]
 sources:
   - url: https://en.wikipedia.org/wiki/Finitely_generated_group
     locator: lead section

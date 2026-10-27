@@ -3,6 +3,7 @@ tag: 0KXQKX9P63
 kind: concept
 name: Splitting field
 msc: [12F05]
+specializes: [08S0NW8SES]
 sources:
   - url: https://en.wikipedia.org/wiki/Splitting_field
     locator: lead section

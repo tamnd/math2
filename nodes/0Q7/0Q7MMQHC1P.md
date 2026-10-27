@@ -3,6 +3,7 @@ tag: 0Q7MMQHC1P
 kind: concept
 name: Nilpotent group
 msc: [20F18]
+specializes: [0FXJ7YFMMX]
 sources:
   - url: https://en.wikipedia.org/wiki/Nilpotent_group
     locator: Definition

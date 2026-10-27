@@ -3,6 +3,7 @@ tag: 0DBWXQRXQJ
 kind: concept
 name: Torsion subgroup
 msc: [20K10]
+specializes: [0X1JXT47GA]
 sources:
   - url: https://en.wikipedia.org/wiki/Torsion_subgroup
     locator: lead section

@@ -4,6 +4,7 @@ kind: concept
 name: Solvable group
 aliases: [soluble-group]
 msc: [20F16]
+specializes: [G5S1M9]
 sources:
   - url: https://en.wikipedia.org/wiki/Solvable_group
     locator: Definition

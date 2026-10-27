@@ -3,6 +3,7 @@ tag: 0PTBM7K0R2
 kind: concept
 name: Algebraic extension
 msc: [12F05]
+specializes: [0EQWVHF3W5]
 sources:
   - url: https://en.wikipedia.org/wiki/Algebraic_extension
     locator: lead section

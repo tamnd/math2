@@ -4,6 +4,7 @@ kind: concept
 name: P-group
 aliases: [p-group]
 msc: [20D15]
+specializes: [G5S1M9]
 sources:
   - url: https://en.wikipedia.org/wiki/P-group
     locator: lead section

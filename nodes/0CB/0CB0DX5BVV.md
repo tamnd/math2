@@ -4,6 +4,7 @@ kind: concept
 name: Normal subgroup
 aliases: [invariant-subgroup]
 msc: [20A05]
+specializes: [0X1JXT47GA]
 sources:
   - url: https://en.wikipedia.org/wiki/Normal_subgroup
     locator: Definitions

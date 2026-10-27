@@ -3,6 +3,7 @@ tag: 0WCX7NB4N7
 kind: concept
 name: Separable extension
 msc: [12F10]
+specializes: [0PTBM7K0R2]
 sources:
   - url: https://en.wikipedia.org/wiki/Separable_extension
     locator: lead section
