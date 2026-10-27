@@ -20,6 +20,10 @@ rules:
     outcome: merged
     reason: the row has a shared identifier with an older row
     match: the import found that two rows have a mention with the same identifier, and it kept the older row
+  - id: hash
+    outcome: merged
+    reason: the row has an item with the same content hash as an item of an older row, of the same kind and in the same block
+    match: the hash pass of the clustering found two arXiv items that one paper copied from another, with the same kind and an MSC code in common at two digits, and it kept the older row (corpus arxiv AX8.2)
   - id: equivalence
     outcome: merged
     reason: the row has a formal statement with the same canonical type as a statement of an older row
@@ -44,6 +48,18 @@ rules:
     outcome: formal_only
     reason: a declaration of a formal library that no person cites. It stays in the crosswalk, so that a binding and search can find it (corpus spec K4.5)
     match: the row has a mention of a formal library, and none of the rules formal-human, formal-main, formal-used and formal-asked matches it. The row opens again when one of them matches it later
+  - id: research-exercise
+    outcome: record
+    reason: an exercise of a paper, which becomes a node only when a node, a project or a curriculum asks for it (corpus arxiv AX8.6)
+    match: each mention of the row is an item of an arXiv paper of the kind exercise
+  - id: research-context
+    outcome: out_of_scope
+    reason: a context item of a paper, such as a standing hypothesis, which is not an item of mathematics by itself (corpus arxiv AX8.6)
+    match: each mention of the row is an item of an arXiv paper of the kind context
+  - id: research-default
+    outcome: record
+    reason: an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)
+    match: each mention of the row is an item of an arXiv paper of the kind statement, definition, example, counterexample, conjecture, problem or exercise
   - id: research-results
     outcome: record
     reason: a result of the research layer that no node needs yet. It stays in the record plane until the graph needs it (spec 9.8, corpus spec K4.5)
