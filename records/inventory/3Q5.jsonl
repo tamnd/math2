@@ -1,0 +1,2 @@
+{"id":"3Q52SWN5ZS","mentions":["ax://paper/2204.01073#KS55"],"kind":"statement","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}],"proofs":["ax://paper/2204.01073#3OBT"]}
+{"id":"3Q5EJFPA1Y","mentions":["ax://paper/2205.15365#9NZX"],"kind":"unknown","layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}

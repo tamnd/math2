@@ -1,1 +1,2 @@
 {"id":"NTH69YKG8V","mentions":["m2://rec/wikidata/Q2307841#1"],"kind":"unknown","name":"sparkline","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"NTHM5C4J92","mentions":["ax://paper/2606.21391#BS72"],"kind":"definition","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}

@@ -1,1 +1,2 @@
 {"id":"KGQB3404BB","mentions":["m2://rec/wikidata/Q360830#1"],"kind":"unknown","name":"subgroup series","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"KGQWN2DP3V","mentions":["ax://paper/2502.08738#HT9K"],"kind":"statement","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}

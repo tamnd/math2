@@ -1,3 +1,4 @@
 {"id":"RVT2DC3RQA","mentions":["m2://rec/wikidata/Q3753221#1"],"kind":"unknown","name":"convex polyhedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"RVTB09M1Z2","mentions":["ax://paper/2609.21258#9L2E"],"kind":"statement","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
 {"id":"RVTBN2YC4P","mentions":["m2://rec/wikidata/Q6336464#1"],"kind":"unknown","name":"KR-theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"RVTJP737N1","mentions":["m2://rec/wikidata/Q7687975#1"],"kind":"conjecture","name":"Tate conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

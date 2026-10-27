@@ -1,1 +1,2 @@
+{"id":"W6F0ZJ7HCV","mentions":["ax://paper/2411.13671#QV0A"],"kind":"example","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
 {"id":"W6FEF8Q43P","mentions":["m2://rec/wikidata/Q16001071#1"],"kind":"unknown","name":"3D mirror symmetry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

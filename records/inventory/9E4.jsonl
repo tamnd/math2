@@ -1,1 +1,2 @@
+{"id":"9E44A64826","mentions":["ax://paper/2401.13523#26AA"],"kind":"example","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
 {"id":"9E4FR5C8JE","mentions":["m2://rec/wikidata/Q2000831#1"],"kind":"unknown","name":"North Sea Jazz Festival","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

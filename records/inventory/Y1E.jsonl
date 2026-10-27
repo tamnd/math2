@@ -1,0 +1,2 @@
+{"id":"Y1ECCW8MZ3","mentions":["ax://paper/2011.11439#JHSJ"],"kind":"statement","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
+{"id":"Y1EH3B22KQ","mentions":["ax://paper/alg-geom/9506022#ICVO"],"kind":"unknown","layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}

@@ -1,1 +1,3 @@
+{"id":"NKK13A9DVM","mentions":["ax://paper/2410.01436#EL3U"],"kind":"unknown","layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
+{"id":"NKKB2XNXPT","mentions":["ax://paper/2505.05539#9GOP"],"kind":"statement","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}],"proofs":["ax://paper/2505.05539#R6NQ"]}
 {"id":"NKKHF5XW0G","mentions":["m2://rec/wikidata/Q1567017#1"],"kind":"concept","name":"hyperfunction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
