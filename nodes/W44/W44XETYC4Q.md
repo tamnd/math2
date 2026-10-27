@@ -5,6 +5,7 @@ name: Proof of Lagrange's theorem
 msc: [20D60]
 proves: 3C53TD
 uses: [G5S1M9, 03DEH43F4H, 01HT2CH8BH, 0DKMBWTD7P]
+methods: [0NTF6DMVAP]
 sources:
   - url: https://en.wikipedia.org/wiki/Lagrange%27s_theorem_(group_theory)
     locator: Proof

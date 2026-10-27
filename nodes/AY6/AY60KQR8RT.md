@@ -5,6 +5,7 @@ name: Proof that the kernel is a normal subgroup
 msc: [20A05]
 proves: 0C9ZKYSPYR
 uses: [0Z424HK8CQ, 0W77CVBCHQ, 08FKQD7NJ3]
+methods: [0NTF6DMVAP]
 sources:
   - url: https://en.wikipedia.org/wiki/Normal_subgroup
     locator: Normal subgroups, quotient groups and homomorphisms

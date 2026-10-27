@@ -3,6 +3,7 @@ tag: 01XM7JEKHY
 kind: concept
 name: Constructive proof
 msc: [03F65]
+topics: [G9JFJGY4TQ]
 uses: [0JW2FHW7G3, 0B94TKFQJX]
 sources:
   - url: https://en.wikipedia.org/wiki/Constructive_proof

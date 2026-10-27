@@ -4,6 +4,7 @@ kind: concept
 name: Cantor's diagonal argument
 aliases: [diagonal-argument, diagonalization]
 msc: ["03E10"]
+topics: [G9JFJGY4TQ]
 uses: [0X55M9XET4, 0ZG61TFBES]
 sources:
   - url: https://en.wikipedia.org/wiki/Cantor's_diagonal_argument

@@ -4,6 +4,7 @@ kind: concept
 name: Proof by contrapositive
 aliases: [proof-by-contraposition]
 msc: [00A35]
+topics: [G9JFJGY4TQ]
 uses: [04T1CT7212, 0NTF6DMVAP]
 sources:
   - url: https://en.wikipedia.org/wiki/Contraposition

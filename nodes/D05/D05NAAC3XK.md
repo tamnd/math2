@@ -5,6 +5,7 @@ name: Proof that a homomorphism is injective iff its kernel is trivial
 msc: [20A05]
 proves: 0N2P0XRTDF
 uses: [0Z424HK8CQ, 08FKQD7NJ3]
+methods: [0NTF6DMVAP]
 sources:
   - url: https://en.wikipedia.org/wiki/Group_homomorphism
     locator: Image and kernel

@@ -4,6 +4,7 @@ kind: concept
 name: Mathematical induction
 aliases: [principle-of-mathematical-induction, proof-by-induction]
 msc: [03F30]
+topics: [G9JFJGY4TQ]
 sources:
   - url: https://en.wikipedia.org/wiki/Mathematical_induction
     locator: Description

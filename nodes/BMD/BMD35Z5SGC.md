@@ -5,6 +5,7 @@ name: Proof that the order of an element divides the order of the group
 msc: [20D60]
 proves: 08V7JHS3QZ
 uses: [0YT586TKXF, 031M8HX7DA, 3C53TD]
+methods: [0NTF6DMVAP]
 sources:
   - url: https://en.wikipedia.org/wiki/Lagrange%27s_theorem_(group_theory)
     locator: Applications

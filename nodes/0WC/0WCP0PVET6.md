@@ -4,6 +4,7 @@ kind: concept
 name: Proof by cases
 aliases: [proof-by-exhaustion, case-analysis]
 msc: [00A35]
+topics: [G9JFJGY4TQ]
 uses: [0B94TKFQJX, 0H5GKDTB01, 0ZNX6DQ3EJ]
 sources:
   - url: https://en.wikipedia.org/wiki/Proof_by_exhaustion

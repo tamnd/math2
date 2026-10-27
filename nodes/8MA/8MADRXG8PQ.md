@@ -5,6 +5,7 @@ name: Proof that cyclic groups are abelian
 msc: [20A05]
 proves: 04RG02S6BA
 uses: [0B85Q41RP6, 00DRK90Z6K, 071DDFVG4J]
+methods: [0NTF6DMVAP]
 sources:
   - url: https://en.wikipedia.org/wiki/Group_(mathematics)
     locator: Cyclic groups

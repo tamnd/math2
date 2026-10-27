@@ -5,6 +5,7 @@ name: Proof of the cancellation laws
 msc: [20A05]
 proves: 0VSNX4P2Q0
 uses: [G5S1M9, 0BRHKKP333]
+methods: [0NTF6DMVAP]
 sources:
   - url: https://en.wikipedia.org/wiki/Group_(mathematics)
     locator: Division

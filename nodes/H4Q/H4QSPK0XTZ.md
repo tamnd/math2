@@ -5,6 +5,7 @@ name: Proof of the first isomorphism theorem
 msc: [20A05]
 proves: 0CXXJNG5B6
 uses: [0C9ZKYSPYR, 0N2P0XRTDF, 0112DTS464, 085PND4KNT]
+methods: [01XM7JEKHY]
 sources:
   - url: https://en.wikipedia.org/wiki/Isomorphism_theorems
     locator: Theorem A (groups)
