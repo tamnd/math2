@@ -4,6 +4,7 @@ kind: concept
 name: Proof by contradiction
 aliases: [reductio-ad-absurdum, indirect-proof]
 msc: [00A35]
+topics: [G9JFJGY4TQ]
 uses: [0B94TKFQJX, 0XR7A7RSXB, 0NFAGWH84K]
 sources:
   - url: https://en.wikipedia.org/wiki/Reductio_ad_absurdum

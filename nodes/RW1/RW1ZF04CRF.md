@@ -5,6 +5,7 @@ name: Proof of the uniqueness of inverses
 msc: [20A05]
 proves: 0D9NDGE9KP
 uses: [G5S1M9, 0BRHKKP333]
+methods: [0NTF6DMVAP]
 sources:
   - url: https://en.wikipedia.org/wiki/Group_(mathematics)
     locator: Uniqueness of inverses

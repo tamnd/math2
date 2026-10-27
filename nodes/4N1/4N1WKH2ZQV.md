@@ -5,6 +5,7 @@ name: Proof that subgroups of index two are normal
 msc: [20A05]
 proves: 0V547YQRMV
 uses: [04QEBF8S49, 01E7SWYJX3, 03DEH43F4H]
+methods: [0WCP0PVET6]
 sources:
   - url: https://en.wikipedia.org/wiki/Index_of_a_subgroup
     locator: Properties

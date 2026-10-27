@@ -5,6 +5,7 @@ name: Proof that groups of prime order are cyclic
 msc: [20D60]
 proves: 05MM4EK4SA
 uses: [08V7JHS3QZ, 0SN0MAEKYX, 0YT586TKXF, 0B85Q41RP6]
+methods: [0NTF6DMVAP, 0WCP0PVET6]
 sources:
   - url: https://en.wikipedia.org/wiki/Lagrange%27s_theorem_(group_theory)
     locator: Applications

@@ -3,6 +3,7 @@ tag: 0NTF6DMVAP
 kind: concept
 name: Direct proof
 msc: [00A35]
+topics: [G9JFJGY4TQ]
 uses: [0B94TKFQJX, 0ZNX6DQ3EJ]
 sources:
   - url: https://en.wikipedia.org/wiki/Direct_proof

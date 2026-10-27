@@ -4,6 +4,7 @@ kind: concept
 name: Double counting
 aliases: [counting-in-two-ways]
 msc: [05A19]
+topics: [G9JFJGY4TQ]
 sources:
   - url: https://en.wikipedia.org/wiki/Double_counting_(proof_technique)
     locator: lead section
