@@ -7,6 +7,12 @@ aliases: [fundamental-theorem-on-homomorphisms]
 msc: [20A05]
 about: [0KYX2N69J0, 08MG7H8JW5, 0S21GNW9ZB, 0W88CEGQP1]
 uses: [0GJ83E78A5, 0C9ZKYSPYR, 0112DTS464, 085PND4KNT]
+formal:
+  - system: lean4
+    library: mathlib
+    decl: QuotientGroup.quotientKerEquivRange
+    match: variant
+    adapter: Math2.Match.first_iso
 sources:
   - url: https://en.wikipedia.org/wiki/Isomorphism_theorems
     locator: Theorem A (groups)

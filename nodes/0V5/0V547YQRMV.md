@@ -6,6 +6,11 @@ name: Subgroups of index two are normal
 msc: [20A05]
 about: [0CB0DX5BVV, 0DTXBQPA2S]
 uses: [01E7SWYJX3, 04QEBF8S49]
+formal:
+  - system: lean4
+    library: mathlib
+    decl: Subgroup.normal_of_index_eq_two
+    match: exact
 sources:
   - url: https://en.wikipedia.org/wiki/Index_of_a_subgroup
     locator: Properties

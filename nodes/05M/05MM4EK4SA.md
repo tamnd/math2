@@ -6,6 +6,12 @@ name: Groups of prime order are cyclic
 msc: [20D60]
 about: [0KVGH0J5B3, 01826KMG2H, 0B85S2V2DR]
 uses: [3C53TD, 0B85Q41RP6, 031M8HX7DA]
+formal:
+  - system: lean4
+    library: mathlib
+    decl: zpowers_eq_top_of_prime_card
+    match: stronger
+    adapter: Math2.Match.prime_card
 sources:
   - url: https://en.wikipedia.org/wiki/Lagrange's_theorem_(group_theory)
     locator: Applications
