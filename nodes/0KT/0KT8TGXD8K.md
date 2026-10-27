@@ -4,6 +4,7 @@ kind: concept
 name: Equivalence relation induced by a function
 aliases: [kernel-of-a-function, equivalence-kernel]
 msc: ["03E20"]
+specializes: [0G8VEZ3WTK]
 sources:
   - url: https://en.wikipedia.org/wiki/Kernel_(set_theory)
     locator: lead section

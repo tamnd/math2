@@ -3,6 +3,7 @@ tag: 0WCWA1KT3M
 kind: concept
 name: Binomial distribution
 msc: ["60E05"]
+specializes: [0DVDCMA2DK]
 sources:
   - url: https://en.wikipedia.org/wiki/Binomial_distribution
     locator: lead section

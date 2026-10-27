@@ -4,6 +4,7 @@ kind: concept
 name: Discrete random variable
 aliases: [discrete-distribution]
 msc: ["60E05"]
+specializes: [0PNRKMRC55]
 sources:
   - url: https://en.wikipedia.org/wiki/Probability_distribution
     locator: Discrete probability distribution

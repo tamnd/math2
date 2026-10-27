@@ -4,6 +4,7 @@ kind: concept
 name: Cauchy distribution
 aliases: [lorentz-distribution, cauchy-lorentz-distribution]
 msc: ["60E05"]
+specializes: [09RTQRK5PC]
 sources:
   - url: https://en.wikipedia.org/wiki/Cauchy_distribution
     locator: lead section

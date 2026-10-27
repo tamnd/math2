@@ -4,6 +4,7 @@ kind: concept
 name: Equivalence relation
 aliases: [equivalence]
 msc: ["03E20"]
+specializes: [0X8NMST0J2, 061J5VGSPT, 0GJZW9JFZQ]
 sources:
   - url: https://en.wikipedia.org/wiki/Equivalence_relation
     locator: lead section

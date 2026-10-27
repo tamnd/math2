@@ -3,6 +3,7 @@ tag: 0X5QVCF06N
 kind: concept
 name: Elementary symmetric polynomial
 msc: ["05E05"]
+specializes: [0VHSHB9B6J]
 sources:
   - url: https://en.wikipedia.org/wiki/Elementary_symmetric_polynomial
     locator: lead section

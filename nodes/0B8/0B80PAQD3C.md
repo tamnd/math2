@@ -3,6 +3,7 @@ tag: 0B80PAQD3C
 kind: concept
 name: Gamma distribution
 msc: ["60E05"]
+specializes: [0DVDCMA2DK]
 sources:
   - url: https://en.wikipedia.org/wiki/Gamma_distribution
     locator: lead section

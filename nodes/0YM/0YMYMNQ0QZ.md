@@ -3,6 +3,7 @@ tag: 0YMYMNQ0QZ
 kind: concept
 name: Simple group
 msc: ["20E32"]
+specializes: [G5S1M9]
 sources:
   - url: https://en.wikipedia.org/wiki/Simple_group
     locator: lead section

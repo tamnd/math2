@@ -3,6 +3,7 @@ tag: 0XB9GQTN9G
 kind: concept
 name: Poisson distribution
 msc: ["60E05"]
+specializes: [0DVDCMA2DK]
 sources:
   - url: https://en.wikipedia.org/wiki/Poisson_distribution
     locator: lead section

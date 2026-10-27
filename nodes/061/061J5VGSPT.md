@@ -4,6 +4,7 @@ kind: concept
 name: Symmetric relation
 aliases: [symmetry-of-a-relation]
 msc: ["03E20"]
+specializes: [05AVARPXA2]
 sources:
   - url: https://en.wikipedia.org/wiki/Symmetric_relation
     locator: lead section

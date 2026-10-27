@@ -4,6 +4,7 @@ kind: concept
 name: Normal distribution
 aliases: [gaussian-distribution, gaussian, bell-curve]
 msc: ["60E05"]
+specializes: [0DVDCMA2DK]
 sources:
   - url: https://en.wikipedia.org/wiki/Normal_distribution
     locator: lead section

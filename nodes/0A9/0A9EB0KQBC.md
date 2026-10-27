@@ -4,6 +4,7 @@ kind: concept
 name: Chi-squared distribution
 aliases: [chi-square-distribution, chi-squared]
 msc: ["60E05", "62E15"]
+specializes: [0B80PAQD3C]
 sources:
   - url: https://en.wikipedia.org/wiki/Chi-squared_distribution
     locator: lead section

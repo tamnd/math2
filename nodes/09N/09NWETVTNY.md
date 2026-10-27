@@ -4,6 +4,7 @@ kind: concept
 name: Injective function
 aliases: [injection, one-to-one-function]
 msc: ["03E20"]
+specializes: [0EPAT51DXQ]
 sources:
   - url: https://en.wikipedia.org/wiki/Injective_function
     locator: lead section

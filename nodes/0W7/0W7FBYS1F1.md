@@ -4,6 +4,7 @@ kind: concept
 name: Uncountable set
 aliases: [uncountably-infinite, nondenumerable]
 msc: ["03E10"]
+specializes: [0PWE3BCHVJ]
 sources:
   - url: https://en.wikipedia.org/wiki/Uncountable_set
     locator: lead section

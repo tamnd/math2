@@ -4,6 +4,7 @@ kind: concept
 name: Antisymmetric relation
 aliases: [antisymmetry]
 msc: ["03E20"]
+specializes: [05AVARPXA2]
 sources:
   - url: https://en.wikipedia.org/wiki/Antisymmetric_relation
     locator: lead section

@@ -3,6 +3,7 @@ tag: 02MY6WZXEQ
 kind: concept
 name: Discrete uniform distribution
 msc: ["60E05"]
+specializes: [0DVDCMA2DK]
 sources:
   - url: https://en.wikipedia.org/wiki/Discrete_uniform_distribution
     locator: lead section

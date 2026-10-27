@@ -3,6 +3,7 @@ tag: 0AJXYH4DDQ
 kind: concept
 name: Step function
 msc: [26A42]
+specializes: [0F2QCWVFT7]
 sources:
   - url: https://en.wikipedia.org/wiki/Step_function
     locator: lead section
