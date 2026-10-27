@@ -1,1 +1,2 @@
+{"id":"MTX1SCHPVJ","mentions":["ax://paper/2610.21781#26GG"],"kind":"unknown","layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.2"}],"proofs":["ax://paper/2610.21781#RNTO"]}
 {"id":"MTXV4BGC31","mentions":["m2://rec/mathlib_1000/Q848810#1","m2://rec/thousand_plus/Q848810#1"],"kind":"statement","name":"Kronecker's theorem","msc":["11-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

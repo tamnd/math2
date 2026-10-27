@@ -1,1 +1,2 @@
+{"id":"CWD5GQ9P37","mentions":["ax://paper/2610.21461#2S4X"],"kind":"unknown","name":"Counting with a positive initial weight","layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.2"}],"proofs":["ax://paper/2610.21461#T2F0"]}
 {"id":"CWDVN83VWA","mentions":["m2://rec/mathlib_1000/Q4877965#1","m2://rec/thousand_plus/Q4877965#1"],"kind":"statement","name":"Beauville–Laszlo theorem","msc":["14-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
