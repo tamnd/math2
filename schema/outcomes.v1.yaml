@@ -44,3 +44,15 @@ rules:
     outcome: formal_only
     reason: a declaration of a formal library that no person cites. It stays in the crosswalk, so that a binding and search can find it (corpus spec K4.5)
     match: the row has a mention of a formal library, and none of the rules formal-human, formal-main, formal-used and formal-asked matches it. The row opens again when one of them matches it later
+  - id: research-results
+    outcome: record
+    reason: a result of the research layer that no node needs yet. It stays in the record plane until the graph needs it (spec 9.8, corpus spec K4.5)
+    match: each mention of the row is a result of arXiv results, Palomar or TheoremSearch, or an item of an arXiv paper
+  - id: research-paper
+    outcome: record
+    reason: "a paper or a book of the record plane: the source of items, not an item (spec 9.8)"
+    match: each mention of the row is a document of zbMATH Open or a paper of the arXiv metadata
+  - id: research-aligned
+    outcome: aligned
+    reason: a node states the result and has an aligned edge to it (corpus spec K4.4)
+    match: the row is in the research layer, it is open or has its outcome from a research rule, and a live node has an aligned edge to a mention of the row or to its locator. The target is the tags of the nodes. When the edges are gone, the row gets its record rule again
