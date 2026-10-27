@@ -1,2 +1,3 @@
 {"id":"9P036D32ER","mentions":["m2://rec/wikidata/Q6692699#1"],"kind":"unknown","name":"Lovász number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9P0CADPMEE","mentions":["ax://paper/2304.09819#I5M4"],"kind":"statement","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.0"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.0"}]}
 {"id":"9P0EQJK73N","mentions":["m2://rec/wikidata/Q128818482#1"],"kind":"unknown","name":"gem graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

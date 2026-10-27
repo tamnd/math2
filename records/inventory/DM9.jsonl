@@ -1,2 +1,3 @@
 {"id":"DM92KEHK75","mentions":["m2://rec/wikidata/Q7497061#1"],"kind":"concept","name":"Shimura correspondence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"DM97HNP8XH","mentions":["ax://paper/2401.14143#JIES"],"kind":"example","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.0"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.0"}]}
 {"id":"DM9G9X510P","mentions":["m2://rec/wikidata/Q122897647#1"],"kind":"unknown","name":"A graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

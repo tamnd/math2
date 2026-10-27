@@ -1,1 +1,2 @@
+{"id":"WJ18FWKH5F","mentions":["ax://paper/2310.14879#3X1L"],"kind":"statement","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.0"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.0"}]}
 {"id":"WJ1K2YEG4A","mentions":["m2://rec/wikidata/Q1414689#1"],"kind":"unknown","name":"circumscribed sphere","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
