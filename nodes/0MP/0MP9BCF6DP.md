@@ -4,6 +4,7 @@ kind: concept
 name: Line
 aliases: [straight-line]
 msc: [51N20]
+specializes: [0PYW26VNT6]
 sources:
   - url: https://en.wikipedia.org/wiki/Line_(geometry)
     locator: lead section

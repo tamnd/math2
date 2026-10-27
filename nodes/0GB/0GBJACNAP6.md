@@ -4,6 +4,7 @@ kind: concept
 name: Independence of two random variables
 aliases: [independent-random-variables]
 msc: [60A05]
+specializes: [0GQ938GDE0]
 sources:
   - url: https://en.wikipedia.org/wiki/Independence_(probability_theory)
     locator: Two random variables

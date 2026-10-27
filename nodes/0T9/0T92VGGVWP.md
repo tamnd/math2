@@ -3,6 +3,7 @@ tag: 0T92VGGVWP
 kind: concept
 name: Bernoulli equation
 msc: [34A34]
+specializes: [0NT64JV96A]
 sources:
   - url: https://en.wikipedia.org/wiki/Bernoulli_differential_equation
     locator: lead section

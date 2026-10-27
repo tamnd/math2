@@ -4,6 +4,7 @@ kind: concept
 name: Vector space
 aliases: [linear-space]
 msc: [15A03]
+specializes: [0NZ8JA25WK]
 sources:
   - url: https://en.wikipedia.org/wiki/Vector_space
     locator: Definition and basic properties

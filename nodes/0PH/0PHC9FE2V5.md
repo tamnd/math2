@@ -4,6 +4,7 @@ kind: concept
 name: Bernoulli trial
 aliases: [binomial-trial]
 msc: [60A05]
+specializes: [0HM05N3FJD]
 uses: [0HM05N3FJD]
 sources:
   - url: https://en.wikipedia.org/wiki/Bernoulli_trial

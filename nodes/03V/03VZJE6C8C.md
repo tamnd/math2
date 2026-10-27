@@ -4,6 +4,7 @@ kind: concept
 name: Circumcircle
 aliases: [circumscribed-circle]
 msc: [51M04]
+specializes: [060W5CBZP6]
 sources:
   - url: https://en.wikipedia.org/wiki/Circumcircle
     locator: lead section

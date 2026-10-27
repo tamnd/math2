@@ -3,6 +3,7 @@ tag: 0RN88KZBJ3
 kind: concept
 name: Homogeneous first-order equation
 msc: [34A05]
+specializes: [0NT64JV96A]
 sources:
   - url: https://en.wikipedia.org/wiki/Homogeneous_differential_equation
     locator: lead section

@@ -3,6 +3,7 @@ tag: 0FWVRHBRWM
 kind: concept
 name: Transposition
 msc: [20B30]
+specializes: [05RWFKVTJ7]
 sources:
   - url: https://en.wikipedia.org/wiki/Cyclic_permutation
     locator: Transpositions

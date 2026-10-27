@@ -4,6 +4,7 @@ kind: concept
 name: Euclidean isometry
 aliases: [rigid-transformation, euclidean-transformation]
 msc: [51F20]
+specializes: [0JF0TVYGWT]
 sources:
   - url: https://en.wikipedia.org/wiki/Euclidean_plane_isometry
     locator: Formal definition

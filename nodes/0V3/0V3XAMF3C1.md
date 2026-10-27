@@ -3,6 +3,7 @@ tag: 0V3XAMF3C1
 kind: concept
 name: Plane
 msc: [51N20]
+specializes: [0PYW26VNT6]
 sources:
   - url: https://en.wikipedia.org/wiki/Plane_(mathematics)
     locator: lead section

@@ -3,6 +3,7 @@ tag: 0CQQG3DEW9
 kind: concept
 name: Bernoulli process
 msc: [60G50]
+specializes: [0QH5ENKZM1]
 sources:
   - url: https://en.wikipedia.org/wiki/Bernoulli_process
     locator: lead section

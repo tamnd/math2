@@ -3,6 +3,7 @@ tag: 0C8WYW4KYQ
 kind: concept
 name: Greatest common divisor
 msc: [11A05]
+specializes: [0ZAF9KHDDF]
 sources:
   - url: https://en.wikipedia.org/wiki/Greatest_common_divisor
     locator: lead section

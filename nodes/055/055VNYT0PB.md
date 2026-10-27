@@ -3,6 +3,7 @@ tag: 055VNYT0PB
 kind: concept
 name: Perpendicular bisector
 msc: [51M04]
+specializes: [0MP9BCF6DP]
 sources:
   - url: https://en.wikipedia.org/wiki/Bisection
     locator: Perpendicular line segment bisector

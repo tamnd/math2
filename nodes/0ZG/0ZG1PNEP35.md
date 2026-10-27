@@ -4,6 +4,7 @@ kind: concept
 name: Homothety
 aliases: [dilation, central-similarity]
 msc: [51N10]
+specializes: [0JF0TVYGWT]
 sources:
   - url: https://en.wikipedia.org/wiki/Homothety
     locator: lead section

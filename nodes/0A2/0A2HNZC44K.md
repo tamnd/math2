@@ -4,6 +4,7 @@ kind: concept
 name: Convergence in mean
 aliases: [convergence-in-lp, lp-convergence, convergence-in-r-th-mean]
 msc: [60F25]
+specializes: [0FQ968YKA1]
 sources:
   - url: https://en.wikipedia.org/wiki/Convergence_of_random_variables
     locator: Convergence in mean

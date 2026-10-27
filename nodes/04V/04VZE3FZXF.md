@@ -3,6 +3,7 @@ tag: 04VZE3FZXF
 kind: concept
 name: Random walk
 msc: [60G50]
+specializes: [0QH5ENKZM1]
 sources:
   - url: https://en.wikipedia.org/wiki/Random_walk
     locator: lead section

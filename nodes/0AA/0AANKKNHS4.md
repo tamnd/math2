@@ -4,6 +4,7 @@ kind: concept
 name: Least element
 aliases: [minimum, least-element]
 msc: [06A06]
+specializes: [0BXEZV83GY]
 sources:
   - url: https://en.wikipedia.org/wiki/Greatest_element_and_least_element
     locator: lead section

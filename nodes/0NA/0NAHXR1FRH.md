@@ -4,6 +4,7 @@ kind: concept
 name: Holomorphic function
 aliases: [holomorphic, complex-analytic-function]
 msc: [30A99]
+specializes: [0ZZ7ZYDR8W]
 sources:
   - url: https://en.wikipedia.org/wiki/Holomorphic_function
     locator: lead section

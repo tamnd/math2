@@ -4,6 +4,7 @@ kind: concept
 name: Incircle
 aliases: [inscribed-circle]
 msc: [51M04]
+specializes: [060W5CBZP6]
 sources:
   - url: https://en.wikipedia.org/wiki/Incircle_and_excircles
     locator: lead section

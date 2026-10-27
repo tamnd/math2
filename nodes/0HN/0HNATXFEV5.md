@@ -3,6 +3,7 @@ tag: 0HNATXFEV5
 kind: concept
 name: Order on the natural numbers
 msc: [03F30]
+specializes: [01CGSJ0GNQ]
 sources:
   - url: https://en.wikipedia.org/wiki/Natural_number
     locator: Order

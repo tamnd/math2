@@ -4,6 +4,7 @@ kind: concept
 name: Supremum
 aliases: [least-upper-bound, sup]
 msc: [06A06]
+specializes: [0S60DVMVPN]
 sources:
   - url: https://en.wikipedia.org/wiki/Infimum_and_supremum
     locator: Formal definition
