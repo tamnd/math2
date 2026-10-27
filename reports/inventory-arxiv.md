@@ -1,13 +1,13 @@
 # The arXiv layer of the inventory
 
-The inventory has 20363 arXiv mentions that are not attached to another item, in 20444 rows. 1 row holds the mentions of more than one paper, which the hash pass joined, and 0 rows hold also a mention of another source. 0 mentions wait for a row. The name pass found 6 candidates, which wait for the dedup judge. Counted on 27 October 2026. These are the counts of AX8.7.
+The inventory has 20417 arXiv mentions that are not attached to another item, in 20498 rows. 1 row holds the mentions of more than one paper, which the hash pass joined, and 0 rows hold also a mention of another source. 0 mentions wait for a row. The name pass found 6 candidates, which wait for the dedup judge. Counted on 27 October 2026. These are the counts of AX8.7.
 
 ## The outcomes
 
 | Outcome | Rows |
 | --- | ---: |
 | open | 409 |
-| record | 20035 |
+| record | 20089 |
 
 The outcome open is a row with no outcome yet. Most of these rows hold an item of the kind unknown, which waits for the pass classify (AX7.2).
 
@@ -15,7 +15,7 @@ The outcome open is a row with no outcome yet. Most of these rows hold an item o
 
 | Code | Mentions | Rows | record | out_of_scope | open | Mean spread | More than one paper | Another source | Waiting | Name candidates |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| none | 20363 | 20444 | 20035 | 0 | 409 | 1.00 | 1 | 0 | 0 | 6 |
+| none | 20417 | 20498 | 20089 | 0 | 409 | 1.00 | 1 | 0 | 0 | 6 |
 
 ## By year of submission
 
@@ -27,7 +27,7 @@ The outcome open is a row with no outcome yet. Most of these rows hold an item o
 | 1996 | 105 | 105 | 104 | 0 | 1 | 1.00 | 1 | 0 | 0 | 0 |
 | 1997 | 2 | 2 | 2 | 0 | 0 | 1.00 | 0 | 0 | 0 | 0 |
 | 1998 | 84 | 84 | 71 | 0 | 13 | 1.00 | 0 | 0 | 0 | 0 |
-| 1999 | 13 | 12 | 12 | 0 | 0 | 1.00 | 0 | 0 | 0 | 0 |
+| 1999 | 67 | 66 | 66 | 0 | 0 | 1.00 | 0 | 0 | 0 | 0 |
 | 2000 | 274 | 274 | 274 | 0 | 0 | 1.00 | 0 | 0 | 0 | 1 |
 | 2003 | 48 | 48 | 48 | 0 | 0 | 1.00 | 0 | 0 | 0 | 0 |
 | 2004 | 264 | 294 | 289 | 0 | 5 | 1.00 | 0 | 0 | 0 | 0 |
