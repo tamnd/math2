@@ -6,7 +6,7 @@ Each node is one file. A node is a concept, a definition, a statement, a conject
 
 The toolchain that builds and checks this content is in [tamnd/math2-agent](https://github.com/tamnd/math2-agent).
 
-Read the content as a wiki at https://tamnd.github.io/math2. Each node has a page for people and a copy for programs: Markdown, JSON and `llms.txt`. The wiki is rebuilt on each push to `main` and each night. A mirror of the wiki is at https://math2.tamnd.com, on Cloudflare Pages. A build server runs `scripts/deploy-cloudflare.sh` every 5 minutes, and it publishes the mirror when `main` of this repository or of tamnd/math2-agent changes.
+Read the content as a wiki at https://math2.tamnd.com. Each node has a page for people and a copy for programs: Markdown, JSON and `llms.txt`. A build server runs `scripts/deploy-cloudflare.sh` every 5 minutes, and it publishes the wiki to Cloudflare Pages when `main` of this repository or of tamnd/math2-agent changes. A change on `main` is on the wiki in 5 to 10 minutes. A mirror of the wiki is at https://tamnd.github.io/math2. The workflow `pages` builds it on GitHub Actions on each push to `main` and each night, so it can be some hours behind.
 
 ## Status
 
@@ -28,7 +28,7 @@ The 60 skeletons are drafts. They cover each class of the statement plane (spec 
 
 ## The inventory
 
-The inventory is the list of each item of mathematics that an external source presents (corpus spec K4). Each row is one item, with a tag of 10 characters. It groups the mentions of the item in the sources. The import workflow runs each Monday. It runs `m2 ingest` and `m2 corpus import`, and it merges the new rows in a pull request. Read the inventory at https://tamnd.github.io/math2/inventory/.
+The inventory is the list of each item of mathematics that an external source presents (corpus spec K4). Each row is one item, with a tag of 10 characters. It groups the mentions of the item in the sources. The import workflow runs each Monday. It runs `m2 ingest` and `m2 corpus import`, and it merges the new rows in a pull request. Read the inventory at https://math2.tamnd.com/inventory/.
 
 | Path | Content |
 |---|---|
