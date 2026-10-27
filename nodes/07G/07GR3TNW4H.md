@@ -4,6 +4,7 @@ kind: concept
 name: Convex function on R^n
 aliases: [convex-function-several-variables]
 msc: [26B25]
+specializes: [07Q7CNM5WF]
 uses: [0JPCHTXWG0]
 sources:
   - url: https://en.wikipedia.org/wiki/Convex_function

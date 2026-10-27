@@ -4,6 +4,7 @@ kind: concept
 name: Higher partial derivatives
 aliases: [second-partial-derivative, mixed-partial-derivative, higher-order-partial-derivative]
 msc: [26B05]
+specializes: [09EGC6F8PT]
 uses: [09EGC6F8PT]
 sources:
   - url: https://en.wikipedia.org/wiki/Partial_derivative

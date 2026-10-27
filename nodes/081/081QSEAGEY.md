@@ -3,6 +3,7 @@ tag: 081QSEAGEY
 kind: concept
 name: Phase line
 msc: [34C05, 34A34]
+specializes: [0T3GK0XCBC]
 uses: [07BNRFQ0PJ, 0G4X36AE0X]
 sources:
   - url: https://en.wikipedia.org/wiki/Phase_line_(mathematics)

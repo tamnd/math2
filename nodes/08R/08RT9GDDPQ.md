@@ -3,6 +3,7 @@ tag: 08RT9GDDPQ
 kind: concept
 name: Power series solution
 msc: [34A25]
+specializes: [07VX34QXAV]
 uses: [0EQZSAB9EC, 033WGN00BF]
 sources:
   - url: https://en.wikipedia.org/wiki/Power_series_solution_of_differential_equations

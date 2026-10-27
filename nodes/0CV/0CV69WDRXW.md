@@ -3,6 +3,7 @@ tag: 0CV69WDRXW
 kind: concept
 name: Partition function
 msc: [11P81]
+specializes: [09115NQZ07]
 sources:
   - url: https://en.wikipedia.org/wiki/Partition_function_(number_theory)
     locator: Definition and examples

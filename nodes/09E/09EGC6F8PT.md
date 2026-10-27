@@ -4,6 +4,7 @@ kind: concept
 name: Partial derivative
 aliases: [partial-derivatives]
 msc: [26B05]
+specializes: [06KWGHDN2J]
 uses: [0JPCHTXWG0]
 sources:
   - url: https://en.wikipedia.org/wiki/Partial_derivative

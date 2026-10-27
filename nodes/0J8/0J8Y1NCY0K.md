@@ -4,6 +4,7 @@ kind: concept
 name: Limit of a function of several variables
 aliases: [multivariable-limit]
 msc: [26B05]
+specializes: [0PKRYB8ATM]
 uses: [0JPCHTXWG0, 0XPR1E85W0]
 sources:
   - url: https://en.wikipedia.org/wiki/Limit_of_a_function

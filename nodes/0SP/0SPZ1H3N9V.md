@@ -3,6 +3,7 @@ tag: 0SPZ1H3N9V
 kind: concept
 name: Refinement of a partition
 msc: [26A42]
+specializes: [05A6PKMAJ9]
 sources:
   - url: https://en.wikipedia.org/wiki/Partition_of_an_interval
     locator: Refinement of a partition

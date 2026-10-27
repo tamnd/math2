@@ -4,6 +4,7 @@ kind: concept
 name: Work done by a force field
 aliases: [work-of-a-force]
 msc: [26B12]
+specializes: [0H5MR9B6GT]
 uses: [0H5MR9B6GT, 0299VCW1TH]
 sources:
   - url: https://en.wikipedia.org/wiki/Work_(physics)

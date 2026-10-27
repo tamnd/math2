@@ -3,6 +3,7 @@ tag: 0W93FJAC8F
 kind: concept
 name: Fermat pseudoprime
 msc: [11A51]
+specializes: [008BH74D7R]
 sources:
   - url: https://en.wikipedia.org/wiki/Fermat_pseudoprime
     locator: lead section

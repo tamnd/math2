@@ -3,6 +3,7 @@ tag: 0RQSNVTFVZ
 kind: concept
 name: Prime-counting function
 msc: [11N05]
+specializes: [09115NQZ07]
 sources:
   - url: https://en.wikipedia.org/wiki/Prime-counting_function
     locator: lead section
