@@ -3,6 +3,7 @@ tag: 0NDVHBVBXB
 kind: concept
 name: Linear recurrence with constant coefficients
 msc: [39A06]
+specializes: [0FYX44GP92]
 sources:
   - url: https://en.wikipedia.org/wiki/Linear_recurrence_with_constant_coefficients
     locator: Definitions

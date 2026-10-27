@@ -3,6 +3,7 @@ tag: 05QY1VEBYD
 kind: concept
 name: Finitely generated module
 msc: ["13E15", 16D10]
+specializes: [0NZ8JA25WK]
 sources:
   - url: https://en.wikipedia.org/wiki/Finitely_generated_module
     locator: Definition

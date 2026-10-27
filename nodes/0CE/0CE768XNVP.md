@@ -3,6 +3,7 @@ tag: 0CE768XNVP
 kind: concept
 name: Arctangent
 msc: [33B10]
+specializes: [05WEYX99X4]
 sources:
   - url: https://en.wikipedia.org/wiki/Inverse_trigonometric_functions
     locator: Principal values

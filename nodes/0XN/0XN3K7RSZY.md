@@ -4,6 +4,7 @@ kind: concept
 name: Multivariate normal distribution
 aliases: [multivariate-gaussian-distribution, joint-normal-distribution, gaussian-random-vector]
 msc: [62H05]
+specializes: [0DVDCMA2DK]
 sources:
   - url: https://en.wikipedia.org/wiki/Multivariate_normal_distribution
     locator: lead section

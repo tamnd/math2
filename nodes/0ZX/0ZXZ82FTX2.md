@@ -3,6 +3,7 @@ tag: 0ZXZ82FTX2
 kind: concept
 name: Finite field
 msc: ["12E20"]
+specializes: [04C5ZBG1WT]
 sources:
   - url: https://en.wikipedia.org/wiki/Finite_field
     locator: lead section

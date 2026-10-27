@@ -3,6 +3,7 @@ tag: 0CGCPX8Z70
 kind: concept
 name: Frobenius automorphism of a finite field
 msc: ["12E20"]
+specializes: [0T3WVTD675]
 sources:
   - url: https://en.wikipedia.org/wiki/Finite_field
     locator: Frobenius automorphism and Galois theory

@@ -5,6 +5,7 @@ name: Proof by infinite descent
 aliases: [infinite-descent, method-of-descent]
 msc: [11D99]
 topics: [G9JFJGY4TQ]
+specializes: [0B94TKFQJX]
 sources:
   - url: https://en.wikipedia.org/wiki/Proof_by_infinite_descent
     locator: lead section

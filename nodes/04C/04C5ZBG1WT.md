@@ -3,6 +3,7 @@ tag: 04C5ZBG1WT
 kind: concept
 name: Field
 msc: ["12E99"]
+specializes: [0EA5BTA0CX]
 sources:
   - url: https://en.wikipedia.org/wiki/Field_(mathematics)
     locator: lead section

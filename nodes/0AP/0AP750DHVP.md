@@ -4,6 +4,7 @@ kind: concept
 name: Circle integral
 aliases: [integral-over-a-circle]
 msc: ["30E20"]
+specializes: [06ZGPYTWK8]
 sources:
   - url: https://en.wikipedia.org/wiki/Contour_integration
     locator: Example

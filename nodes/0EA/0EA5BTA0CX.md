@@ -4,6 +4,7 @@ kind: concept
 name: Division ring
 aliases: [skew-field]
 msc: ["12E15"]
+specializes: [0B1261B5ED]
 sources:
   - url: https://en.wikipedia.org/wiki/Division_ring
     locator: lead section

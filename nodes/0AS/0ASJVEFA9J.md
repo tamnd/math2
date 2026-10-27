@@ -5,6 +5,7 @@ name: Mathematical induction
 aliases: [principle-of-mathematical-induction, proof-by-induction]
 msc: [03F30]
 topics: [G9JFJGY4TQ]
+specializes: [0B94TKFQJX]
 sources:
   - url: https://en.wikipedia.org/wiki/Mathematical_induction
     locator: Description

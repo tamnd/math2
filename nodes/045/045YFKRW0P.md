@@ -4,6 +4,7 @@ kind: concept
 name: Closed curve
 aliases: [loop]
 msc: [53A04]
+specializes: [0G7WM8DX4P]
 uses: [0G7WM8DX4P]
 sources:
   - url: https://en.wikipedia.org/wiki/Curve

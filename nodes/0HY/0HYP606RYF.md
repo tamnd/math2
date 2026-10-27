@@ -4,6 +4,7 @@ kind: concept
 name: Student's t-test
 aliases: [t-test, students-t-test, one-sample-t-test, two-sample-t-test]
 msc: [62F03]
+specializes: [087P03NEND]
 uses: [087P03NEND, 0NQ5798SB1, 0QNRBHWV35, 0JN9P4A944, 07RXBVTVZB]
 sources:
   - url: https://en.wikipedia.org/wiki/Student's_t-test
