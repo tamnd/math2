@@ -1,2 +1,10 @@
 # tag system old new cause mathlib author
 3C53TD lean4 - Subgroup.card_subgroup_dvd_card bind 56a005855ea17e0b0958f73ec801ae140b0a1679 github:tamnd
+0D9NDGE9KP lean4 - eq_inv_of_mul_eq_one_right bind 56a005855ea17e0b0958f73ec801ae140b0a1679 -
+04RG02S6BA lean4 - IsCyclic.isMulCommutative bind 56a005855ea17e0b0958f73ec801ae140b0a1679 -
+08V7JHS3QZ lean4 - orderOf_dvd_natCard bind 56a005855ea17e0b0958f73ec801ae140b0a1679 -
+05MM4EK4SA lean4 - zpowers_eq_top_of_prime_card bind 56a005855ea17e0b0958f73ec801ae140b0a1679 -
+0V547YQRMV lean4 - Subgroup.normal_of_index_eq_two bind 56a005855ea17e0b0958f73ec801ae140b0a1679 -
+0C9ZKYSPYR lean4 - MonoidHom.normal_ker bind 56a005855ea17e0b0958f73ec801ae140b0a1679 -
+0N2P0XRTDF lean4 - MonoidHom.ker_eq_bot_iff bind 56a005855ea17e0b0958f73ec801ae140b0a1679 -
+0CXXJNG5B6 lean4 - QuotientGroup.quotientKerEquivRange bind 56a005855ea17e0b0958f73ec801ae140b0a1679 -

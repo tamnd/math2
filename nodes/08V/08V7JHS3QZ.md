@@ -6,6 +6,12 @@ name: Order of an element divides the order of the group
 msc: [20D60]
 about: [0WE2NHZJ7B, 0B85S2V2DR]
 uses: [3C53TD, 031M8HX7DA]
+formal:
+  - system: lean4
+    library: mathlib
+    decl: orderOf_dvd_natCard
+    match: stronger
+    adapter: Math2.Match.orderOf_dvd
 sources:
   - url: https://en.wikipedia.org/wiki/Lagrange's_theorem_(group_theory)
     locator: Applications

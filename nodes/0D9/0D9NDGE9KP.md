@@ -6,6 +6,12 @@ name: Uniqueness of inverses
 msc: [20A05]
 about: [G5S1M9, 0ZNZH0EXFX]
 uses: [G5S1M9, 0BRHKKP333]
+formal:
+  - system: lean4
+    library: mathlib
+    decl: eq_inv_of_mul_eq_one_right
+    match: stronger
+    adapter: Math2.Match.inv_unique
 sources:
   - url: https://en.wikipedia.org/wiki/Inverse_element
     locator: Definitions and basic properties

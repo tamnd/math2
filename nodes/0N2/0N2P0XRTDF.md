@@ -6,6 +6,12 @@ name: A homomorphism is injective iff its kernel is trivial
 msc: [20A05]
 about: [0JYTG5K9Y4, 0W88CEGQP1]
 uses: [0Z424HK8CQ, 08FKQD7NJ3]
+formal:
+  - system: lean4
+    library: mathlib
+    decl: MonoidHom.ker_eq_bot_iff
+    match: stronger
+    adapter: Math2.Match.injective_iff_ker
 sources:
   - url: https://en.wikipedia.org/wiki/Kernel_(algebra)
     locator: Group homomorphisms

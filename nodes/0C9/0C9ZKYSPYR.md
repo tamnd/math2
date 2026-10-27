@@ -6,6 +6,12 @@ name: The kernel is a normal subgroup
 msc: [20A05]
 about: [0W88CEGQP1, 0CB0DX5BVV]
 uses: [0Z424HK8CQ, 0W77CVBCHQ, 08FKQD7NJ3]
+formal:
+  - system: lean4
+    library: mathlib
+    decl: MonoidHom.normal_ker
+    match: stronger
+    adapter: Math2.Match.ker_normal
 sources:
   - url: https://en.wikipedia.org/wiki/Kernel_(algebra)
     locator: Group homomorphisms
