@@ -1,13 +1,13 @@
 # The arXiv layer of the inventory
 
-The inventory has 42719 arXiv mentions that are not attached to another item, in 42807 rows. 15 rows hold the mentions of more than one paper, which the hash pass joined, and 0 rows hold also a mention of another source. 0 mentions wait for a row. The name pass found 27 candidates, which wait for the dedup judge. Counted on 28 October 2026. These are the counts of AX8.7.
+The inventory has 45955 arXiv mentions that are not attached to another item, in 46043 rows. 15 rows hold the mentions of more than one paper, which the hash pass joined, and 0 rows hold also a mention of another source. 0 mentions wait for a row. The name pass found 31 candidates, which wait for the dedup judge. Counted on 28 October 2026. These are the counts of AX8.7.
 
 ## The outcomes
 
 | Outcome | Rows |
 | --- | ---: |
-| open | 753 |
-| record | 42054 |
+| open | 756 |
+| record | 45287 |
 
 The outcome open is a row with no outcome yet. Most of these rows hold an item of the kind unknown, which waits for the pass classify (AX7.2).
 
@@ -15,7 +15,7 @@ The outcome open is a row with no outcome yet. Most of these rows hold an item o
 
 | Code | Mentions | Rows | record | out_of_scope | open | Mean spread | More than one paper | Another source | Waiting | Name candidates |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| none | 42719 | 42807 | 42054 | 0 | 753 | 1.00 | 15 | 0 | 0 | 27 |
+| none | 45955 | 46043 | 45287 | 0 | 756 | 1.00 | 15 | 0 | 0 | 31 |
 
 ## By year of submission
 
@@ -51,7 +51,7 @@ The outcome open is a row with no outcome yet. Most of these rows hold an item o
 | 2023 | 2120 | 2129 | 2102 | 0 | 27 | 1.00 | 0 | 0 | 0 | 1 |
 | 2024 | 2534 | 2549 | 2505 | 0 | 44 | 1.00 | 0 | 0 | 0 | 0 |
 | 2025 | 3316 | 3325 | 3316 | 0 | 9 | 1.00 | 0 | 0 | 0 | 2 |
-| 2026 | 26039 | 26023 | 25581 | 0 | 442 | 1.00 | 11 | 0 | 0 | 23 |
+| 2026 | 29275 | 29259 | 28814 | 0 | 445 | 1.00 | 11 | 0 | 0 | 27 |
 
 ## What is not measured yet
 
