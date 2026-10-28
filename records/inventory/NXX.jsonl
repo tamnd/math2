@@ -1,1 +1,2 @@
 {"id":"NXX62XKBKX","mentions":["ax://paper/2610.16178#BGAU"],"kind":"statement","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}],"proofs":["ax://paper/2610.16178#BSZ6"]}
+{"id":"NXXJYCXQ9Y","mentions":["ax://paper/2610.13680#1QNX"],"kind":"unknown","layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}

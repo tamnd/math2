@@ -1,1 +1,2 @@
+{"id":"ARQ2H861WJ","mentions":["ax://paper/2610.14060#EHBZ"],"kind":"statement","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
 {"id":"ARQ6ENP0RG","mentions":["m2://rec/mathlib_100/65#1"],"kind":"statement","name":"Isosceles Triangle Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

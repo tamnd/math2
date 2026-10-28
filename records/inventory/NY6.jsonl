@@ -1,1 +1,2 @@
+{"id":"NY69N4ASCE","mentions":["ax://paper/2610.14204#ZJ05"],"kind":"statement","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
 {"id":"NY6X72EZ5S","mentions":["m2://rec/wikidata/Q3611581#1"],"kind":"unknown","name":"elliptic curve primality proving","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
