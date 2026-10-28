@@ -1,7 +1,7 @@
 #!/bin/sh
 # Build the wiki of tamnd/math2 and publish it to Cloudflare Pages at https://math2.tamnd.com.
 #
-# Run it from cron on a build server, for example every 5 minutes: */5 * * * * $HOME/math2-deploy/deploy-cloudflare.sh >> $HOME/math2-deploy/deploy.log 2>&1. The server needs git, Go, Node and flock. It fetches main of tamnd/math2 and tamnd/math2-agent, and it does nothing when the two commits are the same as at the last deploy. Use -f to deploy again.
+# Run it from cron on a build server, for example every 5 minutes: */5 * * * * $HOME/math2-deploy/deploy-cloudflare.sh >> $HOME/math2-deploy/deploy.log 2>&1. The server needs git, Go, Node and flock. It fetches main of tamnd/math2, tamnd/math2-agent and tamnd/wikipedia-math, and it does nothing when the three commits are the same as at the last deploy. Use -f to deploy again.
 #
 # The file $M2_DEPLOY/cloudflare.env must set CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID. Keep it at mode 600.
 set -eu
@@ -33,15 +33,16 @@ sync() {
 
 content=$(sync content math2)
 toolchain=$(sync toolchain math2-agent)
-state="$content $toolchain"
+wikipedia=$(sync wikipedia wikipedia-math)
+state="$content $toolchain $wikipedia"
 if [ "$force" != "-f" ] && [ -f "$dir/deployed" ] && [ "$(cat "$dir/deployed")" = "$state" ]; then
 	exit 0
 fi
 
-echo "$(date -u +%FT%TZ) deploy math2 $content, math2-agent $toolchain"
+echo "$(date -u +%FT%TZ) deploy math2 $content, math2-agent $toolchain, wikipedia-math $wikipedia"
 (cd "$dir/toolchain" && go build -trimpath -o "$dir/m2" ./cmd/m2)
 rm -rf "$dir/site"
-"$dir/m2" site build -content "$dir/content" -spec "$dir/toolchain/spec" -out "$dir/site" -url "$url" -commit "$content" -date now -cloudflare
+"$dir/m2" site build -content "$dir/content" -spec "$dir/toolchain/spec" -wikipedia "$dir/wikipedia" -out "$dir/site" -url "$url" -commit "$content" -date now -cloudflare
 files=$(find "$dir/site" -type f | wc -l)
 big=$(find "$dir/site" -type f -size +24M | head -1)
 if [ "$files" -gt "$limit" ] || [ -n "$big" ]; then

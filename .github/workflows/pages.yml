@@ -1,7 +1,7 @@
 name: pages
 
 # Build the wiki with m2 site build and publish it to https://tamnd.github.io/math2.
-# The nightly run picks up changes to the toolchain and the spec in tamnd/math2-agent.
+# The nightly run picks up changes to the toolchain and the spec in tamnd/math2-agent, and to the Wikipedia scope in tamnd/wikipedia-math.
 on:
   push:
     branches: [main]
@@ -33,6 +33,12 @@ jobs:
           repository: tamnd/math2-agent
           ref: main
           path: toolchain
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          repository: tamnd/wikipedia-math
+          ref: main
+          path: wikipedia
       - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
         with:
           go-version-file: toolchain/go.mod
@@ -44,7 +50,7 @@ jobs:
         env:
           COMMIT: ${{ github.sha }}
         run: |
-          "$RUNNER_TEMP/m2" site build -content content -spec toolchain/spec -out _site -url https://tamnd.github.io/math2 -commit "$COMMIT" -date now
+          "$RUNNER_TEMP/m2" site build -content content -spec toolchain/spec -wikipedia wikipedia -out _site -url https://tamnd.github.io/math2 -commit "$COMMIT" -date now
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
           path: _site
