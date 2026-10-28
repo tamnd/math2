@@ -1,1 +1,2 @@
 {"id":"KVG5JCTQ2Q","mentions":["m2://rec/wikidata/Q178296#1"],"kind":"unknown","name":"dodecahedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"KVGE7JH5SM","mentions":["ax://paper/2610.15511#4XRT"],"kind":"definition","name":"Flat flow","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}

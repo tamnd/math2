@@ -1,1 +1,2 @@
+{"id":"A9EDYB0K0Z","mentions":["ax://paper/2610.16386#548L"],"kind":"statement","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
 {"id":"A9EZ1MNEC1","mentions":["m2://rec/wikidata/Q1412436#1"],"kind":"problem","name":"Cauchy problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

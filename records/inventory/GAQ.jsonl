@@ -1,2 +1,2 @@
-{"id":"GAQ49RFV5N","mentions":["ax://paper/math/9802134#GKQJ"],"kind":"unknown","layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}],"proofs":["ax://paper/math/9802134#2Z1U"]}
+{"id":"GAQ49RFV5N","mentions":["ax://paper/math/9802134#GKQJ"],"kind":"unknown","layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
 {"id":"GAQR0YB7DS","mentions":["ax://paper/2403.15255#MSKR"],"kind":"statement","name":"*{Proposition 2.8","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.0"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.0"}]}

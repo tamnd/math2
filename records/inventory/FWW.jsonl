@@ -1,3 +1,4 @@
 {"id":"FWW9WYGKYW","mentions":["m2://rec/wikidata/Q107715#1"],"kind":"definition","name":"physical quantity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"FWWBGJJ2NX","mentions":["m2://rec/wikidata/Q49908#1"],"kind":"unknown","name":"sampling","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"FWWJ3J3XRF","mentions":["m2://rec/wikidata/Q10944557#1"],"kind":"concept","name":"word","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FWWVEQDAEZ","mentions":["ax://paper/2610.17565#TTEK"],"kind":"example","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
