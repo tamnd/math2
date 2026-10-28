@@ -1,1 +1,3 @@
+{"id":"2Y00FH365S","mentions":["ax://paper/2610.19590#NEOZ"],"kind":"unknown","layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
+{"id":"2Y0EP92TNH","mentions":["ax://paper/2610.15805#Z5FF"],"kind":"statement","name":"Expansion of $\\Delta_3$","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}],"proofs":["ax://paper/2610.15805#S2UY"]}
 {"id":"2Y0SN7SEGH","mentions":["ax://paper/1804.06366#8A5J"],"kind":"unknown","layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}

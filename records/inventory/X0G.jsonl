@@ -1,1 +1,2 @@
 {"id":"X0GGTGH5YA","mentions":["m2://rec/wikidata/Q5957770#1"],"kind":"unknown","name":"hyperbolic 3-manifold","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"X0GHAJS3V0","mentions":["ax://paper/2610.15744#89QG"],"kind":"statement","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}

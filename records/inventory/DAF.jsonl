@@ -1,2 +1,3 @@
+{"id":"DAFFMZYRWS","mentions":["ax://paper/2610.14717#H680"],"kind":"example","name":"Stochastic wave equation, continued","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
 {"id":"DAFRK6DZ8G","mentions":["m2://rec/wikidata/Q663208#1"],"kind":"unknown","name":"rounding","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"DAFS83JS4C","mentions":["m2://rec/wikidata/Q201960#1"],"kind":"unknown","name":"saltire","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
