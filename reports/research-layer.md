@@ -4,7 +4,7 @@
 
 The research layer is complete only when three numbers are zero: the papers in scope with no state, the census gaps, and the open rows (corpus arxiv AX1.5). The open count alone can be zero while many papers are not read.
 
-- Census: 2026-10-28T21:08:48.143566174Z
+- Census: 2026-10-28T22:07:55.72652983Z
 - Papers in scope: 141721
 - Papers with no state: 139693
 - Census gaps: 0
