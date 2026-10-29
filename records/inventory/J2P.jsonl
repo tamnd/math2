@@ -1,1 +1,2 @@
+{"id":"J2P9W4V3XH","mentions":["ax://paper/2610.08935#E4BC"],"kind":"definition","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.10"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}]}
 {"id":"J2PWD1RY7R","mentions":["m2://rec/wikidata/Q6497118#1"],"kind":"unknown","name":"lattice graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
