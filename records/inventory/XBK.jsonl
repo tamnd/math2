@@ -1,1 +1,2 @@
+{"id":"XBK98PDFA7","mentions":["ax://paper/2610.07114#NH6Q"],"kind":"unknown","layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}]}
 {"id":"XBKA0H1FZ8","mentions":["ax://paper/2402.00465#B83W"],"kind":"definition","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}

@@ -1,1 +1,2 @@
+{"id":"ZHK7A51K5A","mentions":["ax://paper/2610.10365#A085"],"kind":"example","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.10"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}]}
 {"id":"ZHKAYQS12K","mentions":["m2://rec/wikidata/Q13220368#1"],"kind":"topic","name":"representation theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
