@@ -1,6 +1,6 @@
 # The arXiv layer of the inventory
 
-The inventory has 45955 arXiv mentions that are not attached to another item, in 46043 rows. 15 rows hold the mentions of more than one paper, which the hash pass joined, and 0 rows hold also a mention of another source. 0 mentions wait for a row. The name pass found 31 candidates, which wait for the dedup judge. Counted on 28 October 2026. These are the counts of AX8.7.
+The inventory has 45955 arXiv mentions that are not attached to another item, in 46043 rows. 15 rows hold the mentions of more than one paper, which the hash pass joined, and 0 rows hold also a mention of another source. 0 mentions wait for a row. The name pass found 31 candidates, which wait for the dedup judge. Counted on 29 October 2026. These are the counts of AX8.7.
 
 ## The outcomes
 
