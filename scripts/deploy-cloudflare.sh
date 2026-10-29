@@ -1,7 +1,7 @@
 #!/bin/sh
 # Build the wiki of tamnd/math2 and publish it to Cloudflare Pages at https://math2.tamnd.com.
 #
-# Run it from cron on a build server, for example every 5 minutes: */5 * * * * $HOME/math2-deploy/deploy-cloudflare.sh >> $HOME/math2-deploy/deploy.log 2>&1. The server needs git, Go, Node and flock. It fetches main of tamnd/math2, tamnd/math2-agent and tamnd/wikipedia-math, and it does nothing when the three commits are the same as at the last deploy. Use -f to deploy again.
+# Run it from cron on a build server, for example every 5 minutes: */5 * * * * $HOME/math2-deploy/deploy-cloudflare.sh >> $HOME/math2-deploy/deploy.log 2>&1. The server needs git, Go, Node and flock. It fetches main of tamnd/math2 with its history, and main of tamnd/math2-agent and tamnd/wikipedia-math, and it does nothing when the three commits are the same as at the last deploy. Use -f to deploy again.
 #
 # The file $M2_DEPLOY/cloudflare.env must set CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID. Keep it at mode 600.
 set -eu
@@ -21,17 +21,23 @@ set -a
 . "$dir/cloudflare.env"
 set +a
 
+# sync fetches main of a repository into a directory. With "full", it keeps the whole history: the site reads the dates of the changes to the nodes from it, for the page Latest.
 sync() {
+	depth="--depth 1"
+	[ "$3" = full ] && depth=""
 	if [ -d "$dir/$1/.git" ]; then
-		git -C "$dir/$1" fetch -q --depth 1 origin main
+		if [ "$3" = full ] && [ "$(git -C "$dir/$1" rev-parse --is-shallow-repository)" = true ]; then
+			git -C "$dir/$1" fetch -q --unshallow origin main
+		fi
+		git -C "$dir/$1" fetch -q $depth origin main
 		git -C "$dir/$1" reset -q --hard FETCH_HEAD
 	else
-		git clone -q --depth 1 "https://github.com/tamnd/$2.git" "$dir/$1"
+		git clone -q $depth "https://github.com/tamnd/$2.git" "$dir/$1"
 	fi
 	git -C "$dir/$1" rev-parse HEAD
 }
 
-content=$(sync content math2)
+content=$(sync content math2 full)
 toolchain=$(sync toolchain math2-agent)
 wikipedia=$(sync wikipedia wikipedia-math)
 state="$content $toolchain $wikipedia"
