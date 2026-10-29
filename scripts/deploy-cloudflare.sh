@@ -24,9 +24,9 @@ set +a
 # sync fetches main of a repository into a directory. With "full", it keeps the whole history: the site reads the dates of the changes to the nodes from it, for the page Latest.
 sync() {
 	depth="--depth 1"
-	[ "$3" = full ] && depth=""
+	[ "${3:-}" = full ] && depth=""
 	if [ -d "$dir/$1/.git" ]; then
-		if [ "$3" = full ] && [ "$(git -C "$dir/$1" rev-parse --is-shallow-repository)" = true ]; then
+		if [ "${3:-}" = full ] && [ "$(git -C "$dir/$1" rev-parse --is-shallow-repository)" = true ]; then
 			git -C "$dir/$1" fetch -q --unshallow origin main
 		fi
 		git -C "$dir/$1" fetch -q $depth origin main
