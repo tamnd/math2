@@ -1,2 +1,3 @@
 {"id":"5Q01E7AG6B","mentions":["m2://rec/wikidata/Q109559095#1"],"kind":"definition","name":"modified Bessel function of the first kind","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"5Q0Q19DPWM","mentions":["ax://paper/2609.35307#HT5W"],"kind":"unknown","layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
 {"id":"5Q0SNYY7A5","mentions":["ax://paper/2609.37846#PE2F"],"kind":"definition","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}

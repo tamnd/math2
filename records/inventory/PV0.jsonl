@@ -1,3 +1,4 @@
+{"id":"PV01V871RR","mentions":["ax://paper/2609.33231#48AY"],"kind":"statement","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
 {"id":"PV048GGQ9A","mentions":["m2://rec/wikidata/Q1667469#1"],"kind":"unknown","name":"prime power","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"PV04Y05B6P","mentions":["m2://rec/wikidata/Q3034788#1"],"kind":"unknown","name":"Ljubljana graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"PV054Z980J","mentions":["m2://rec/wikidata/Q1192869#1"],"kind":"topic","name":"Dirichlet problem","msc":["49J10"],"layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
