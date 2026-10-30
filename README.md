@@ -18,6 +18,8 @@ The file `topics/curricula/seed.yaml` lists the concepts, the definitions and th
 
 Each item has a name, a kind and at least one source. A source is an article of the English Wikipedia, with its Wikidata item, or a Mathlib list. 1,771 items have the Mathlib declaration that defines or states them, at the pinned Mathlib commit. An item without a declaration has no declaration in Mathlib that matches it. The field `node` gives the tag of the node for the item, when the node exists. The schema is `schema/curriculum.v1.json`.
 
+A curriculum and each of its courses can have a list `texts`: the books, notes, courses and papers that it names. Each text has a `name` for display, the `resource` id of the text in the catalogue of resources when the id is known, and a `kind`. The audit rule H15 of math2-agent reports each text that has no resource.
+
 ## The skeletons
 
 A skeleton is the list of the main concepts, definitions and named theorems of one top-level MSC2020 class. It is the file `topics/skeletons/NN.yaml`, where NN is the first two characters of the code, for example `topics/skeletons/20.yaml` for 20-XX. The items have the same fields as the items of the seed list. The schema is `schema/skeleton.v1.json`.
