@@ -1,1 +1,2 @@
 {"id":"1CAETZ98G1","mentions":["ax://paper/2610.18016#DJXY"],"kind":"statement","layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}],"proofs":["ax://paper/2610.18016#3AV8"]}
+{"id":"1CAT69TVV8","mentions":["ax://paper/2609.35339#ZA57"],"kind":"unknown","layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
