@@ -1,2 +1,2 @@
 {"id":"FEP4KV180Q","mentions":["m2://rec/wikidata/Q62068433#1"],"kind":"unknown","name":"Alexander Schenkel","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"FEPXT8P9V0","mentions":["ax://paper/2610.13680#KGVA"],"kind":"unknown","layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
+{"id":"FEPXT8P9V0","mentions":["ax://paper/2610.13680#KGVA"],"kind":"unknown","msc":["35-XX","65-XX"],"layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}

@@ -1,2 +1,2 @@
 {"id":"4RV6JK75YV","mentions":["m2://rec/wikidata/Q83216#1"],"kind":"definition","name":"candela","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"4RVDZAS3PG","mentions":["ax://paper/2610.20972#XCE8"],"kind":"unknown","layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.2"}]}
+{"id":"4RVDZAS3PG","mentions":["ax://paper/2610.20972#XCE8"],"kind":"unknown","msc":["35-XX","49-XX","90-XX","93-XX"],"layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.2"}]}
