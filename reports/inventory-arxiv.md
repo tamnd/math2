@@ -1,13 +1,13 @@
 # The arXiv layer of the inventory
 
-The inventory has 70890 arXiv mentions that are not attached to another item, in 71063 rows. 29 rows hold the mentions of more than one paper, which the hash pass joined, and 0 rows hold also a mention of another source. 0 mentions wait for a row. The name pass found 38 candidates, which wait for the dedup judge. Counted on 30 October 2026. These are the counts of AX8.7.
+The inventory has 75970 arXiv mentions that are not attached to another item, in 76138 rows. 31 rows hold the mentions of more than one paper, which the hash pass joined, and 0 rows hold also a mention of another source. 0 mentions wait for a row. The name pass found 39 candidates, which wait for the dedup judge. Counted on 30 October 2026. These are the counts of AX8.7.
 
 ## The outcomes
 
 | Outcome | Rows |
 | --- | ---: |
-| open | 1056 |
-| record | 70007 |
+| open | 1070 |
+| record | 75068 |
 
 The outcome open is a row with no outcome yet. Most of these rows hold an item of the kind unknown, which waits for the pass classify (AX7.2).
 
@@ -15,7 +15,7 @@ The outcome open is a row with no outcome yet. Most of these rows hold an item o
 
 | Code | Mentions | Rows | record | out_of_scope | open | Mean spread | More than one paper | Another source | Waiting | Name candidates |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| none | 70890 | 71063 | 70007 | 0 | 1056 | 1.00 | 29 | 0 | 0 | 38 |
+| none | 75970 | 76138 | 75068 | 0 | 1070 | 1.00 | 31 | 0 | 0 | 39 |
 
 ## By year of submission
 
@@ -46,12 +46,12 @@ The outcome open is a row with no outcome yet. Most of these rows hold an item o
 | 2018 | 374 | 413 | 374 | 0 | 39 | 1.00 | 0 | 0 | 0 | 0 |
 | 2019 | 582 | 582 | 582 | 0 | 0 | 1.00 | 0 | 0 | 0 | 0 |
 | 2020 | 531 | 546 | 530 | 0 | 16 | 1.00 | 0 | 0 | 0 | 0 |
-| 2021 | 1513 | 1533 | 1482 | 0 | 51 | 1.00 | 0 | 0 | 0 | 0 |
+| 2021 | 1511 | 1531 | 1482 | 0 | 49 | 1.00 | 0 | 0 | 0 | 0 |
 | 2022 | 2356 | 2356 | 2303 | 0 | 53 | 1.00 | 3 | 0 | 0 | 0 |
 | 2023 | 2120 | 2129 | 2102 | 0 | 27 | 1.00 | 0 | 0 | 0 | 1 |
-| 2024 | 2534 | 2549 | 2505 | 0 | 44 | 1.00 | 0 | 0 | 0 | 0 |
+| 2024 | 2534 | 2549 | 2505 | 0 | 44 | 1.00 | 1 | 0 | 0 | 0 |
 | 2025 | 3316 | 3325 | 3316 | 0 | 9 | 1.00 | 0 | 0 | 0 | 2 |
-| 2026 | 54275 | 54242 | 53538 | 0 | 704 | 1.00 | 25 | 0 | 0 | 34 |
+| 2026 | 59357 | 59319 | 58599 | 0 | 720 | 1.00 | 26 | 0 | 0 | 35 |
 
 ## What is not measured yet
 

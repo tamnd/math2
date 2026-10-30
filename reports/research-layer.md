@@ -4,11 +4,11 @@
 
 The research layer is complete only when three numbers are zero: the papers in scope with no state, the census gaps, and the open rows (corpus arxiv AX1.5). The open count alone can be zero while many papers are not read.
 
-- Census: 2026-10-29T23:41:05.310516339Z
+- Census: 2026-10-30T03:10:03.599129125Z
 - Papers in scope: 141718
-- Papers with no state: 138602
+- Papers with no state: 138402
 - Census gaps: 0
-- Rows: 71103, of which 1087 are open
+- Rows: 76180, of which 1103 are open
 - Nodes: 0
 - Complete: no
 
@@ -16,8 +16,8 @@ The research layer is complete only when three numbers are zero: the papers in s
 
 | Outcome | Rows |
 |---|---|
-| open | 1087 |
-| record | 70016 |
+| open | 1103 |
+| record | 75077 |
 
 ## Nodes
 
@@ -46,21 +46,21 @@ The area of a row is its first MSC code at two digits. The census gives the area
 | chem-ph | 0 | 0 | 0 | 0 | 0 | 0 | - | - | yes |
 | cond-mat | 1 | 1 | 0 | 0 | 0 | 0 | - | - | no |
 | cond-mat.dis-nn | 96 | 95 | 0 | 0 | 0 | 0 | - | - | no |
-| cond-mat.mes-hall | 121 | 119 | 0 | 0 | 0 | 0 | - | - | no |
+| cond-mat.mes-hall | 121 | 118 | 0 | 0 | 0 | 0 | - | - | no |
 | cond-mat.mtrl-sci | 90 | 90 | 0 | 0 | 0 | 0 | - | - | no |
 | cond-mat.other | 11 | 11 | 0 | 0 | 0 | 0 | - | - | no |
 | cond-mat.quant-gas | 26 | 26 | 0 | 0 | 0 | 0 | - | - | no |
 | cond-mat.soft | 104 | 104 | 0 | 0 | 0 | 0 | - | - | no |
-| cond-mat.stat-mech | 572 | 562 | 0 | 0 | 0 | 0 | - | - | no |
+| cond-mat.stat-mech | 572 | 559 | 0 | 0 | 0 | 0 | - | - | no |
 | cond-mat.str-el | 177 | 174 | 0 | 0 | 0 | 0 | - | - | no |
 | cond-mat.supr-con | 18 | 18 | 0 | 0 | 0 | 0 | - | - | no |
-| cs.AI | 348 | 338 | 0 | 0 | 0 | 0 | - | - | no |
+| cs.AI | 348 | 337 | 0 | 0 | 0 | 0 | - | - | no |
 | cs.AR | 10 | 10 | 0 | 0 | 0 | 0 | - | - | no |
-| cs.CC | 293 | 286 | 0 | 0 | 0 | 0 | - | - | no |
+| cs.CC | 293 | 284 | 0 | 0 | 0 | 0 | - | - | no |
 | cs.CE | 232 | 229 | 0 | 0 | 0 | 0 | - | - | no |
 | cs.CG | 219 | 212 | 0 | 0 | 0 | 0 | - | - | no |
 | cs.CL | 151 | 149 | 0 | 0 | 0 | 0 | - | - | no |
-| cs.CR | 348 | 341 | 0 | 0 | 0 | 0 | - | - | no |
+| cs.CR | 348 | 339 | 0 | 0 | 0 | 0 | - | - | no |
 | cs.CV | 243 | 241 | 0 | 0 | 0 | 0 | - | - | no |
 | cs.CY | 49 | 49 | 0 | 0 | 0 | 0 | - | - | no |
 | cs.DB | 22 | 22 | 0 | 0 | 0 | 0 | - | - | no |
@@ -75,9 +75,9 @@ The area of a row is its first MSC code at two digits. The census gives the area
 | cs.GT | 225 | 223 | 0 | 0 | 0 | 0 | - | - | no |
 | cs.HC | 24 | 24 | 0 | 0 | 0 | 0 | - | - | no |
 | cs.IR | 44 | 44 | 0 | 0 | 0 | 0 | - | - | no |
-| cs.IT | 5950 | 5834 | 0 | 0 | 0 | 0 | - | - | no |
-| cs.LG | 4196 | 4105 | 0 | 0 | 0 | 0 | - | - | no |
-| cs.LO | 680 | 672 | 0 | 0 | 0 | 0 | - | - | no |
+| cs.IT | 5950 | 5827 | 0 | 0 | 0 | 0 | - | - | no |
+| cs.LG | 4196 | 4093 | 0 | 0 | 0 | 0 | - | - | no |
+| cs.LO | 680 | 669 | 0 | 0 | 0 | 0 | - | - | no |
 | cs.MA | 55 | 55 | 0 | 0 | 0 | 0 | - | - | no |
 | cs.MM | 6 | 6 | 0 | 0 | 0 | 0 | - | - | no |
 | cs.MS | 81 | 80 | 0 | 0 | 0 | 0 | - | - | no |
@@ -99,49 +99,49 @@ The area of a row is its first MSC code at two digits. The census gives the area
 | eess.AS | 7 | 7 | 0 | 0 | 0 | 0 | - | - | no |
 | eess.IV | 90 | 90 | 0 | 0 | 0 | 0 | - | - | no |
 | eess.SP | 636 | 630 | 0 | 0 | 0 | 0 | - | - | no |
-| eess.SY | 1146 | 1117 | 0 | 0 | 0 | 0 | - | - | no |
+| eess.SY | 1146 | 1116 | 0 | 0 | 0 | 0 | - | - | no |
 | funct-an | 0 | 0 | 0 | 0 | 0 | 0 | - | - | yes |
 | gr-qc | 795 | 789 | 0 | 0 | 0 | 0 | - | - | no |
 | hep-ex | 0 | 0 | 0 | 0 | 0 | 0 | - | - | yes |
 | hep-lat | 29 | 29 | 0 | 0 | 0 | 0 | - | - | no |
 | hep-ph | 68 | 68 | 0 | 0 | 0 | 0 | - | - | no |
-| hep-th | 1790 | 1740 | 0 | 0 | 0 | 0 | - | - | no |
-| math-ph | 4029 | 3964 | 0 | 0 | 0 | 0 | - | - | no |
-| math.AC | 1606 | 1558 | 0 | 0 | 0 | 0 | - | - | no |
-| math.AG | 6112 | 5976 | 0 | 0 | 0 | 0 | - | - | no |
-| math.AP | 10553 | 10332 | 0 | 0 | 0 | 0 | - | - | no |
-| math.AT | 1656 | 1605 | 0 | 0 | 0 | 0 | - | - | no |
-| math.CA | 2736 | 2665 | 0 | 0 | 0 | 0 | - | - | no |
-| math.CO | 12272 | 12015 | 0 | 0 | 0 | 0 | - | - | no |
-| math.CT | 1148 | 1121 | 0 | 0 | 0 | 0 | - | - | no |
-| math.CV | 1944 | 1890 | 0 | 0 | 0 | 0 | - | - | no |
-| math.DG | 5266 | 5135 | 0 | 0 | 0 | 0 | - | - | no |
-| math.DS | 4728 | 4635 | 0 | 0 | 0 | 0 | - | - | no |
-| math.FA | 4133 | 4043 | 0 | 0 | 0 | 0 | - | - | no |
-| math.GM | 1410 | 1369 | 0 | 0 | 0 | 0 | - | - | no |
+| hep-th | 1790 | 1736 | 0 | 0 | 0 | 0 | - | - | no |
+| math-ph | 4029 | 3960 | 0 | 0 | 0 | 0 | - | - | no |
+| math.AC | 1606 | 1552 | 0 | 0 | 0 | 0 | - | - | no |
+| math.AG | 6112 | 5964 | 0 | 0 | 0 | 0 | - | - | no |
+| math.AP | 10553 | 10320 | 0 | 0 | 0 | 0 | - | - | no |
+| math.AT | 1656 | 1604 | 0 | 0 | 0 | 0 | - | - | no |
+| math.CA | 2736 | 2664 | 0 | 0 | 0 | 0 | - | - | no |
+| math.CO | 12272 | 11994 | 0 | 0 | 0 | 0 | - | - | no |
+| math.CT | 1148 | 1120 | 0 | 0 | 0 | 0 | - | - | no |
+| math.CV | 1944 | 1888 | 0 | 0 | 0 | 0 | - | - | no |
+| math.DG | 5266 | 5129 | 0 | 0 | 0 | 0 | - | - | no |
+| math.DS | 4728 | 4632 | 0 | 0 | 0 | 0 | - | - | no |
+| math.FA | 4133 | 4039 | 0 | 0 | 0 | 0 | - | - | no |
+| math.GM | 1410 | 1367 | 0 | 0 | 0 | 0 | - | - | no |
 | math.GN | 722 | 701 | 0 | 0 | 0 | 0 | - | - | no |
-| math.GR | 2785 | 2702 | 0 | 0 | 0 | 0 | - | - | no |
-| math.GT | 2234 | 2169 | 0 | 0 | 0 | 0 | - | - | no |
-| math.HO | 833 | 821 | 0 | 0 | 0 | 0 | - | - | no |
+| math.GR | 2785 | 2695 | 0 | 0 | 0 | 0 | - | - | no |
+| math.GT | 2234 | 2168 | 0 | 0 | 0 | 0 | - | - | no |
+| math.HO | 833 | 820 | 0 | 0 | 0 | 0 | - | - | no |
 | math.KT | 302 | 299 | 0 | 0 | 0 | 0 | - | - | no |
-| math.LO | 2295 | 2233 | 0 | 0 | 0 | 0 | - | - | no |
-| math.MG | 1157 | 1107 | 0 | 0 | 0 | 0 | - | - | no |
-| math.NA | 8184 | 8053 | 0 | 0 | 0 | 0 | - | - | no |
-| math.NT | 7448 | 7262 | 0 | 0 | 0 | 0 | - | - | no |
-| math.OA | 1115 | 1067 | 0 | 0 | 0 | 0 | - | - | no |
-| math.OC | 9545 | 9367 | 0 | 0 | 0 | 0 | - | - | no |
-| math.PR | 6850 | 6694 | 0 | 0 | 0 | 0 | - | - | no |
-| math.QA | 966 | 948 | 0 | 0 | 0 | 0 | - | - | no |
-| math.RA | 2330 | 2271 | 0 | 0 | 0 | 0 | - | - | no |
-| math.RT | 2572 | 2525 | 0 | 0 | 0 | 0 | - | - | no |
-| math.SG | 691 | 681 | 0 | 0 | 0 | 0 | - | - | no |
+| math.LO | 2295 | 2231 | 0 | 0 | 0 | 0 | - | - | no |
+| math.MG | 1157 | 1105 | 0 | 0 | 0 | 0 | - | - | no |
+| math.NA | 8184 | 8043 | 0 | 0 | 0 | 0 | - | - | no |
+| math.NT | 7448 | 7243 | 0 | 0 | 0 | 0 | - | - | no |
+| math.OA | 1115 | 1066 | 0 | 0 | 0 | 0 | - | - | no |
+| math.OC | 9545 | 9353 | 0 | 0 | 0 | 0 | - | - | no |
+| math.PR | 6850 | 6687 | 0 | 0 | 0 | 0 | - | - | no |
+| math.QA | 966 | 947 | 0 | 0 | 0 | 0 | - | - | no |
+| math.RA | 2330 | 2265 | 0 | 0 | 0 | 0 | - | - | no |
+| math.RT | 2572 | 2522 | 0 | 0 | 0 | 0 | - | - | no |
+| math.SG | 691 | 680 | 0 | 0 | 0 | 0 | - | - | no |
 | math.SP | 702 | 682 | 0 | 0 | 0 | 0 | - | - | no |
-| math.ST | 3010 | 2931 | 0 | 0 | 0 | 0 | - | - | no |
-| nlin.AO | 105 | 104 | 0 | 0 | 0 | 0 | - | - | no |
+| math.ST | 3010 | 2930 | 0 | 0 | 0 | 0 | - | - | no |
+| nlin.AO | 105 | 103 | 0 | 0 | 0 | 0 | - | - | no |
 | nlin.CD | 172 | 171 | 0 | 0 | 0 | 0 | - | - | no |
 | nlin.CG | 9 | 9 | 0 | 0 | 0 | 0 | - | - | no |
 | nlin.PS | 110 | 110 | 0 | 0 | 0 | 0 | - | - | no |
-| nlin.SI | 469 | 464 | 0 | 0 | 0 | 0 | - | - | no |
+| nlin.SI | 469 | 463 | 0 | 0 | 0 | 0 | - | - | no |
 | nucl-ex | 0 | 0 | 0 | 0 | 0 | 0 | - | - | yes |
 | nucl-th | 11 | 11 | 0 | 0 | 0 | 0 | - | - | no |
 | patt-sol | 0 | 0 | 0 | 0 | 0 | 0 | - | - | yes |
@@ -156,13 +156,13 @@ The area of a row is its first MSC code at two digits. The census gives the area
 | physics.comp-ph | 196 | 194 | 0 | 0 | 0 | 0 | - | - | no |
 | physics.data-an | 38 | 38 | 0 | 0 | 0 | 0 | - | - | no |
 | physics.ed-ph | 9 | 9 | 0 | 0 | 0 | 0 | - | - | no |
-| physics.flu-dyn | 543 | 536 | 0 | 0 | 0 | 0 | - | - | no |
+| physics.flu-dyn | 543 | 535 | 0 | 0 | 0 | 0 | - | - | no |
 | physics.gen-ph | 4 | 4 | 0 | 0 | 0 | 0 | - | - | no |
 | physics.geo-ph | 55 | 55 | 0 | 0 | 0 | 0 | - | - | no |
 | physics.hist-ph | 31 | 31 | 0 | 0 | 0 | 0 | - | - | no |
 | physics.ins-det | 5 | 5 | 0 | 0 | 0 | 0 | - | - | no |
 | physics.med-ph | 58 | 58 | 0 | 0 | 0 | 0 | - | - | no |
-| physics.optics | 100 | 99 | 0 | 0 | 0 | 0 | - | - | no |
+| physics.optics | 100 | 98 | 0 | 0 | 0 | 0 | - | - | no |
 | physics.plasm-ph | 91 | 91 | 0 | 0 | 0 | 0 | - | - | no |
 | physics.pop-ph | 4 | 4 | 0 | 0 | 0 | 0 | - | - | no |
 | physics.soc-ph | 216 | 215 | 0 | 0 | 0 | 0 | - | - | no |
@@ -186,11 +186,11 @@ The area of a row is its first MSC code at two digits. The census gives the area
 | q-fin.RM | 53 | 52 | 0 | 0 | 0 | 0 | - | - | no |
 | q-fin.ST | 26 | 26 | 0 | 0 | 0 | 0 | - | - | no |
 | q-fin.TR | 28 | 28 | 0 | 0 | 0 | 0 | - | - | no |
-| quant-ph | 2675 | 2583 | 0 | 0 | 0 | 0 | - | - | no |
+| quant-ph | 2675 | 2578 | 0 | 0 | 0 | 0 | - | - | no |
 | solv-int | 0 | 0 | 0 | 0 | 0 | 0 | - | - | yes |
 | stat.AP | 100 | 100 | 0 | 0 | 0 | 0 | - | - | no |
 | stat.CO | 162 | 159 | 0 | 0 | 0 | 0 | - | - | no |
-| stat.ME | 1115 | 1097 | 0 | 0 | 0 | 0 | - | - | no |
-| stat.ML | 1184 | 1146 | 0 | 0 | 0 | 0 | - | - | no |
+| stat.ME | 1115 | 1095 | 0 | 0 | 0 | 0 | - | - | no |
+| stat.ML | 1184 | 1144 | 0 | 0 | 0 | 0 | - | - | no |
 | stat.OT | 27 | 27 | 0 | 0 | 0 | 0 | - | - | no |
-| unknown | 0 | 0 | 0 | 71103 | 1087 | 0 | - | - | no |
+| unknown | 0 | 0 | 0 | 76180 | 1103 | 0 | - | - | no |
