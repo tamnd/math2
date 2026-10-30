@@ -1,2 +1,2 @@
-{"id":"B4P2DRH39D","mentions":["ax://paper/alg-geom/9506022#5TJM"],"kind":"unknown","layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
+{"id":"B4P2DRH39D","mentions":["ax://paper/alg-geom/9506022#5TJM"],"kind":"unknown","msc":["14-XX"],"layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
 {"id":"B4PWA53M42","mentions":["m2://rec/mathlib_overview/Topology > Topological algebra > completion of an abelian topological group#1"],"kind":"unknown","name":"completion of an abelian topological group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

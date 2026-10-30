@@ -1,2 +1,2 @@
 {"id":"G44V0AKWTP","mentions":["m2://rec/wikidata/Q91458605#1"],"kind":"unknown","name":"generalized eigenspace","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"G44WKH70Q2","mentions":["ax://paper/2610.10973#HQIV"],"kind":"unknown","layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.3"}],"proofs":["ax://paper/2610.10973#U9U4"]}
+{"id":"G44WKH70Q2","mentions":["ax://paper/2610.10973#HQIV"],"kind":"unknown","msc":["05-XX","94-XX"],"layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.3"}],"proofs":["ax://paper/2610.10973#U9U4"]}
