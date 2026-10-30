@@ -24,6 +24,7 @@
         }
       }
     },
+    "texts": {"type": "array", "description": "The books, notes, courses and papers that the curriculum names.", "items": {"$ref": "#/$defs/text"}},
     "courses": {
       "type": "array",
       "minItems": 1,
@@ -35,6 +36,7 @@
           "course": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
           "title": {"type": "string", "minLength": 1},
           "year": {"type": "integer", "minimum": 1, "maximum": 6},
+          "texts": {"type": "array", "description": "The books, notes, courses and papers that the course names.", "items": {"$ref": "#/$defs/text"}},
           "items": {
             "type": "array",
             "minItems": 1,
@@ -55,6 +57,18 @@
             }
           }
         }
+      }
+    }
+  },
+  "$defs": {
+    "text": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name"],
+      "properties": {
+        "name": {"type": "string", "minLength": 1, "description": "The name of the text for display."},
+        "resource": {"type": "string", "pattern": "^[0-9A-HJKMNP-TV-Z]{10}(/e[0-9]+)?$", "description": "The resource id of the text in the catalogue of resources, or the id of an expression as ID/eN (change to K5.8 in tamnd/math2-agent). The field is not there until the resource is found."},
+        "kind": {"enum": ["book", "notes", "course", "paper"]}
       }
     }
   }
