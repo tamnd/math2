@@ -46,6 +46,23 @@ jobs:
       - name: build m2
         working-directory: toolchain
         run: go build -trimpath -o "$RUNNER_TEMP/m2" ./cmd/m2
+      # The full catalogue of resources is in tamnd/math2-records at the commit of manifests/records.yaml (RS12.3). The site needs each resource, not only the tiers that math2 keeps.
+      - name: read the pin of the records
+        id: pin
+        run: |
+          if [ -f content/manifests/records.yaml ]; then
+            echo "commit=$(sed -n 's/^commit: //p' content/manifests/records.yaml)" >> "$GITHUB_OUTPUT"
+          fi
+      - if: steps.pin.outputs.commit != ''
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          repository: tamnd/math2-records
+          ref: ${{ steps.pin.outputs.commit }}
+          path: records
+      - name: add the full catalogue
+        if: steps.pin.outputs.commit != ''
+        run: '"$RUNNER_TEMP/m2" res records unpack -root content -out records'
       - name: build the site
         env:
           COMMIT: ${{ github.sha }}
