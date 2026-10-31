@@ -9,13 +9,17 @@ The census applies the scope tests S1 to S7 (RS9.2) to each record. A record tha
 | arxiv | 794887 | 1.00 | 692860 | 68185 | 33842 | 0 | 794887 |
 | crossref | 10000 | 18827.07 | 0 | 0 | 130415103 | 57855582 | 188270685 |
 | datacite | 10000 | 107.80 | 73949 | 2372 | 3018 | 998634 | 1077973 |
+| doab | 449 | 1.00 | 0 | 0 | 0 | 449 | 449 |
 | doaj | 10152 | 17.29 | 175553 | 0 | 0 | 0 | 175553 |
 | gutenberg | 253 | 1.00 | 0 | 0 | 0 | 253 | 253 |
 | hal | 10000 | 17.06 | 103379 | 8393 | 57319 | 1501 | 170592 |
 | internetarchive | 10000 | 20.67 | 124 | 41 | 186 | 206327 | 206678 |
+| loc | 3883 | 9.30 | 20918 | 467 | 14490 | 246 | 36122 |
 | numdam | 10000 | 7.25 | 32792 | 0 | 0 | 39741 | 72533 |
+| oapen | 365 | 1.00 | 0 | 0 | 0 | 365 | 365 |
 | openalex | 10000 | 463.82 | 4638152 | 0 | 0 | 0 | 4638152 |
 | openlibrary | 10000 | 21.06 | 58050 | 4064 | 57566 | 90876 | 210555 |
+| semanticscholar | 10004 | 864.72 | 0 | 0 | 0 | 8650632 | 8650632 |
 | wikidata | 7606 | 1.00 | 7606 | 0 | 0 | 0 | 7606 |
 | zbmath | 12769 | 407.93 | 5208858 | 0 | 0 | 0 | 5208858 |
 
@@ -34,6 +38,7 @@ The census applies the scope tests S1 to S7 (RS9.2) to each record. A record tha
 | datacite | other | 14553 | 970 | 108 | 773553 | 789184 |
 | datacite | report-notes | 0 | 0 | 0 | 9917 | 9917 |
 | datacite | thesis | 108 | 0 | 0 | 21344 | 21452 |
+| doab | book | 0 | 0 | 0 | 449 | 449 |
 | doaj | article | 175553 | 0 | 0 | 0 | 175553 |
 | gutenberg | book | 0 | 0 | 0 | 253 | 253 |
 | hal | article | 86405 | 6926 | 48619 | 989 | 142939 |
@@ -44,13 +49,21 @@ The census applies the scope tests S1 to S7 (RS9.2) to each record. A record tha
 | internetarchive | article | 0 | 0 | 0 | 105798 | 105798 |
 | internetarchive | book | 124 | 41 | 186 | 24781 | 25132 |
 | internetarchive | other | 0 | 0 | 0 | 75747 | 75747 |
+| loc | book | 19703 | 437 | 14038 | 182 | 34360 |
+| loc | other | 1209 | 30 | 453 | 64 | 1755 |
+| loc | thesis | 6 | 0 | 0 | 0 | 6 |
 | numdam | article | 32792 | 0 | 0 | 39741 | 72533 |
+| oapen | book | 0 | 0 | 0 | 337 | 337 |
+| oapen | other | 0 | 0 | 0 | 28 | 28 |
 | openalex | article | 3472584 | 0 | 0 | 0 | 3472584 |
 | openalex | book | 85342 | 0 | 0 | 0 | 85342 |
 | openalex | other | 894700 | 0 | 0 | 0 | 894700 |
 | openalex | report-notes | 28757 | 0 | 0 | 0 | 28757 |
 | openalex | thesis | 156770 | 0 | 0 | 0 | 156770 |
 | openlibrary | book | 58050 | 4064 | 57566 | 90876 | 210555 |
+| semanticscholar | article | 0 | 0 | 0 | 2558908 | 2558908 |
+| semanticscholar | book | 0 | 0 | 0 | 13843 | 13843 |
+| semanticscholar | other | 0 | 0 | 0 | 6077882 | 6077882 |
 | wikidata | book | 508 | 0 | 0 | 0 | 508 |
 | wikidata | other | 7098 | 0 | 0 | 0 | 7098 |
 | zbmath | article | 4189687 | 0 | 0 | 0 | 4189687 |
@@ -117,13 +130,18 @@ The census applies the scope tests S1 to S7 (RS9.2) to each record. A record tha
 | datacite | Pr | 0 | 0 | 108 | 0 | 108 |
 | datacite | ma | 0 | 0 | 216 | 0 | 216 |
 | datacite | none | 4204 | 0 | 539 | 998634 | 1003377 |
+| doab | none | 0 | 0 | 0 | 449 | 449 |
 | doaj | none | 175553 | 0 | 0 | 0 | 175553 |
 | gutenberg | none | 0 | 0 | 0 | 253 | 253 |
 | hal | none | 103379 | 8393 | 57319 | 1501 | 170592 |
 | internetarchive | none | 124 | 41 | 186 | 206327 | 206678 |
+| loc | 35 | 10 | 0 | 0 | 0 | 10 |
+| loc | none | 20908 | 467 | 14490 | 246 | 36112 |
 | numdam | none | 32792 | 0 | 0 | 39741 | 72533 |
+| oapen | none | 0 | 0 | 0 | 365 | 365 |
 | openalex | none | 4638152 | 0 | 0 | 0 | 4638152 |
 | openlibrary | none | 58050 | 4064 | 57566 | 90876 | 210555 |
+| semanticscholar | none | 0 | 0 | 0 | 8650632 | 8650632 |
 | wikidata | none | 7606 | 0 | 0 | 0 | 7606 |
 | zbmath | 00 | 40861 | 0 | 0 | 0 | 40861 |
 | zbmath | 01 | 102960 | 0 | 0 | 0 | 102960 |
@@ -250,6 +268,9 @@ The census applies the scope tests S1 to S7 (RS9.2) to each record. A record tha
 | datacite | 2010s | 25117 | 431 | 970 | 533273 | 559791 |
 | datacite | 2020s | 27488 | 431 | 970 | 376967 | 405857 |
 | datacite | 2030s | 0 | 0 | 0 | 108 | 108 |
+| doab | 2000s | 0 | 0 | 0 | 5 | 5 |
+| doab | 2010s | 0 | 0 | 0 | 105 | 105 |
+| doab | 2020s | 0 | 0 | 0 | 339 | 339 |
 | doaj | 1990s | 1574 | 0 | 0 | 0 | 1574 |
 | doaj | 2000s | 15131 | 0 | 0 | 0 | 15131 |
 | doaj | 2010s | 40482 | 0 | 0 | 0 | 40482 |
@@ -306,6 +327,55 @@ The census applies the scope tests S1 to S7 (RS9.2) to each record. A record tha
 | internetarchive | 2010s | 0 | 0 | 0 | 122312 | 122312 |
 | internetarchive | 2020s | 0 | 0 | 0 | 3555 | 3555 |
 | internetarchive | unknown | 0 | 0 | 83 | 4154 | 4237 |
+| loc | 1480s | 0 | 0 | 2 | 1 | 3 |
+| loc | 1540s | 4 | 0 | 0 | 0 | 4 |
+| loc | 1550s | 3 | 0 | 1 | 1 | 5 |
+| loc | 1560s | 4 | 0 | 0 | 0 | 4 |
+| loc | 1570s | 4 | 0 | 0 | 0 | 4 |
+| loc | 1580s | 2 | 0 | 1 | 1 | 4 |
+| loc | 1590s | 2 | 0 | 1 | 1 | 4 |
+| loc | 1600s | 1 | 0 | 0 | 1 | 2 |
+| loc | 1610s | 4 | 0 | 0 | 0 | 4 |
+| loc | 1620s | 5 | 0 | 0 | 0 | 5 |
+| loc | 1630s | 3 | 0 | 2 | 0 | 5 |
+| loc | 1640s | 4 | 0 | 2 | 0 | 6 |
+| loc | 1650s | 8 | 0 | 1 | 0 | 9 |
+| loc | 1660s | 12 | 0 | 3 | 0 | 15 |
+| loc | 1670s | 16 | 0 | 0 | 0 | 16 |
+| loc | 1680s | 12 | 0 | 0 | 0 | 12 |
+| loc | 1690s | 10 | 0 | 1 | 0 | 11 |
+| loc | 1700s | 9 | 0 | 0 | 0 | 9 |
+| loc | 1710s | 6 | 0 | 1 | 0 | 7 |
+| loc | 1720s | 6 | 0 | 1 | 1 | 8 |
+| loc | 1730s | 10 | 0 | 0 | 0 | 10 |
+| loc | 1740s | 15 | 0 | 8 | 0 | 23 |
+| loc | 1750s | 10 | 0 | 10 | 0 | 20 |
+| loc | 1760s | 9 | 0 | 4 | 0 | 13 |
+| loc | 1770s | 12 | 0 | 3 | 0 | 15 |
+| loc | 1780s | 11 | 0 | 5 | 0 | 16 |
+| loc | 1790s | 23 | 0 | 3 | 0 | 26 |
+| loc | 1800s | 18 | 0 | 15 | 0 | 33 |
+| loc | 1810s | 18 | 3 | 6 | 0 | 27 |
+| loc | 1820s | 25 | 0 | 8 | 8 | 41 |
+| loc | 1830s | 38 | 0 | 12 | 0 | 50 |
+| loc | 1840s | 36 | 0 | 16 | 0 | 52 |
+| loc | 1850s | 33 | 0 | 37 | 0 | 70 |
+| loc | 1860s | 47 | 4 | 16 | 0 | 67 |
+| loc | 1870s | 28 | 0 | 76 | 0 | 104 |
+| loc | 1880s | 102 | 4 | 16 | 20 | 143 |
+| loc | 1890s | 0 | 0 | 203 | 0 | 203 |
+| loc | 1900s | 4 | 0 | 0 | 0 | 4 |
+| loc | 1910s | 223 | 0 | 89 | 16 | 329 |
+| loc | 1920s | 291 | 4 | 110 | 13 | 418 |
+| loc | 1940s | 475 | 4 | 423 | 0 | 902 |
+| loc | 1950s | 742 | 17 | 447 | 71 | 1277 |
+| loc | 1960s | 1727 | 46 | 1646 | 8 | 3426 |
+| loc | 1970s | 4309 | 53 | 2243 | 53 | 6658 |
+| loc | 1980s | 2673 | 86 | 1552 | 0 | 4312 |
+| loc | 1990s | 2889 | 41 | 1097 | 0 | 4026 |
+| loc | 2000s | 3081 | 31 | 1520 | 31 | 4663 |
+| loc | 2010s | 3939 | 170 | 4891 | 20 | 9021 |
+| loc | unknown | 15 | 3 | 17 | 0 | 35 |
 | numdam | 1830s | 0 | 0 | 0 | 167 | 167 |
 | numdam | 1840s | 0 | 0 | 0 | 1588 | 1588 |
 | numdam | 1850s | 0 | 0 | 0 | 1617 | 1617 |
@@ -327,6 +397,9 @@ The census applies the scope tests S1 to S7 (RS9.2) to each record. A record tha
 | numdam | 2010s | 5237 | 0 | 0 | 3931 | 9168 |
 | numdam | 2020s | 1443 | 0 | 0 | 2698 | 4142 |
 | numdam | unknown | 2771 | 0 | 0 | 2865 | 5636 |
+| oapen | 2000s | 0 | 0 | 0 | 9 | 9 |
+| oapen | 2010s | 0 | 0 | 0 | 98 | 98 |
+| oapen | 2020s | 0 | 0 | 0 | 258 | 258 |
 | openalex | 1630s | 464 | 0 | 0 | 0 | 464 |
 | openalex | 1640s | 464 | 0 | 0 | 0 | 464 |
 | openalex | 1670s | 464 | 0 | 0 | 0 | 464 |
@@ -408,6 +481,29 @@ The census applies the scope tests S1 to S7 (RS9.2) to each record. A record tha
 | openlibrary | 2010s | 9454 | 990 | 6253 | 9454 | 26151 |
 | openlibrary | 2020s | 2421 | 1474 | 358 | 8191 | 12444 |
 | openlibrary | unknown | 84 | 21 | 63 | 1727 | 1895 |
+| semanticscholar | 1800s | 0 | 0 | 0 | 26 | 26 |
+| semanticscholar | 1810s | 0 | 0 | 0 | 50 | 50 |
+| semanticscholar | 1820s | 0 | 0 | 0 | 280 | 280 |
+| semanticscholar | 1830s | 0 | 0 | 0 | 539 | 539 |
+| semanticscholar | 1840s | 0 | 0 | 0 | 636 | 636 |
+| semanticscholar | 1850s | 0 | 0 | 0 | 903 | 903 |
+| semanticscholar | 1860s | 0 | 0 | 0 | 1012 | 1012 |
+| semanticscholar | 1870s | 0 | 0 | 0 | 1789 | 1789 |
+| semanticscholar | 1880s | 0 | 0 | 0 | 2786 | 2786 |
+| semanticscholar | 1890s | 0 | 0 | 0 | 4852 | 4852 |
+| semanticscholar | 1900s | 0 | 0 | 0 | 7840 | 7840 |
+| semanticscholar | 1910s | 0 | 0 | 0 | 9502 | 9502 |
+| semanticscholar | 1920s | 0 | 0 | 0 | 14172 | 14172 |
+| semanticscholar | 1930s | 0 | 0 | 0 | 29860 | 29860 |
+| semanticscholar | 1940s | 0 | 0 | 0 | 29193 | 29193 |
+| semanticscholar | 1950s | 0 | 0 | 0 | 70686 | 70686 |
+| semanticscholar | 1960s | 0 | 0 | 0 | 171367 | 171367 |
+| semanticscholar | 1970s | 0 | 0 | 0 | 330417 | 330417 |
+| semanticscholar | 1980s | 0 | 0 | 0 | 496241 | 496241 |
+| semanticscholar | 1990s | 0 | 0 | 0 | 908121 | 908121 |
+| semanticscholar | 2000s | 0 | 0 | 0 | 1896054 | 1896054 |
+| semanticscholar | 2010s | 0 | 0 | 0 | 3207701 | 3207701 |
+| semanticscholar | 2020s | 0 | 0 | 0 | 1466605 | 1466605 |
 | wikidata | 0190s | 1 | 0 | 0 | 0 | 1 |
 | wikidata | 0500s | 1 | 0 | 0 | 0 | 1 |
 | wikidata | 0600s | 1 | 0 | 0 | 0 | 1 |
@@ -517,6 +613,15 @@ The census applies the scope tests S1 to S7 (RS9.2) to each record. A record tha
 | datacite | und | 69745 | 2372 | 2479 | 345167 | 419763 |
 | datacite | vi | 0 | 0 | 0 | 108 | 108 |
 | datacite | zh | 0 | 0 | 0 | 647 | 647 |
+| doab | cs | 0 | 0 | 0 | 1 | 1 |
+| doab | de | 0 | 0 | 0 | 7 | 7 |
+| doab | en | 0 | 0 | 0 | 409 | 409 |
+| doab | es | 0 | 0 | 0 | 15 | 15 |
+| doab | fr | 0 | 0 | 0 | 9 | 9 |
+| doab | it | 0 | 0 | 0 | 3 | 3 |
+| doab | pl | 0 | 0 | 0 | 2 | 2 |
+| doab | pt | 0 | 0 | 0 | 2 | 2 |
+| doab | tr | 0 | 0 | 0 | 1 | 1 |
 | doaj | en | 124246 | 0 | 0 | 0 | 124246 |
 | doaj | es | 640 | 0 | 0 | 0 | 640 |
 | doaj | fa | 519 | 0 | 0 | 0 | 519 |
@@ -578,12 +683,73 @@ The census applies the scope tests S1 to S7 (RS9.2) to each record. A record tha
 | internetarchive | urd | 0 | 0 | 0 | 21 | 21 |
 | internetarchive | vi | 0 | 0 | 0 | 21 | 21 |
 | internetarchive | zh | 0 | 0 | 0 | 310 | 310 |
+| loc | afr | 13 | 0 | 0 | 0 | 13 |
+| loc | ar | 95 | 0 | 55 | 3 | 153 |
+| loc | bg | 106 | 0 | 0 | 0 | 106 |
+| loc | bos | 0 | 0 | 15 | 0 | 15 |
+| loc | cs | 148 | 0 | 32 | 0 | 180 |
+| loc | da | 63 | 0 | 54 | 0 | 117 |
+| loc | de | 971 | 4 | 634 | 0 | 1610 |
+| loc | el | 21 | 3 | 0 | 0 | 24 |
+| loc | en | 12018 | 223 | 9940 | 96 | 22277 |
+| loc | es | 441 | 0 | 145 | 0 | 586 |
+| loc | est | 41 | 0 | 3 | 0 | 44 |
+| loc | fi | 21 | 0 | 0 | 0 | 21 |
+| loc | fr | 893 | 44 | 297 | 15 | 1249 |
+| loc | geo | 0 | 0 | 8 | 0 | 8 |
+| loc | gle | 4 | 0 | 0 | 0 | 4 |
+| loc | grc | 1 | 0 | 1 | 0 | 2 |
+| loc | he | 13 | 4 | 0 | 0 | 17 |
+| loc | hin | 10 | 0 | 4 | 0 | 14 |
+| loc | hr | 54 | 0 | 8 | 0 | 62 |
+| loc | hu | 167 | 0 | 17 | 0 | 184 |
+| loc | ice | 41 | 0 | 0 | 0 | 41 |
+| loc | id | 0 | 0 | 59 | 0 | 59 |
+| loc | it | 343 | 4 | 227 | 0 | 574 |
+| loc | ja | 511 | 20 | 156 | 0 | 687 |
+| loc | ko | 139 | 4 | 50 | 0 | 193 |
+| loc | la | 77 | 0 | 19 | 1 | 98 |
+| loc | lao | 0 | 0 | 3 | 0 | 3 |
+| loc | lav | 4 | 0 | 0 | 0 | 4 |
+| loc | lit | 51 | 0 | 0 | 0 | 51 |
+| loc | mac | 13 | 0 | 44 | 0 | 57 |
+| loc | mal | 3 | 0 | 0 | 0 | 3 |
+| loc | mar | 0 | 0 | 45 | 0 | 45 |
+| loc | may | 0 | 0 | 30 | 0 | 30 |
+| loc | mul | 43 | 0 | 0 | 0 | 43 |
+| loc | nl | 134 | 0 | 41 | 0 | 175 |
+| loc | no | 15 | 0 | 12 | 0 | 28 |
+| loc | ota | 0 | 0 | 4 | 0 | 4 |
+| loc | pl | 261 | 27 | 225 | 0 | 513 |
+| loc | pt | 167 | 0 | 21 | 0 | 188 |
+| loc | ro | 262 | 0 | 3 | 0 | 266 |
+| loc | ru | 2744 | 91 | 1803 | 0 | 4638 |
+| loc | san | 4 | 0 | 8 | 0 | 12 |
+| loc | sk | 7 | 0 | 11 | 0 | 18 |
+| loc | slv | 3 | 0 | 0 | 4 | 8 |
+| loc | sr | 14 | 0 | 0 | 0 | 14 |
+| loc | sv | 37 | 0 | 21 | 0 | 57 |
+| loc | tgk | 4 | 0 | 0 | 0 | 4 |
+| loc | tib | 41 | 0 | 0 | 0 | 41 |
+| loc | tr | 18 | 0 | 4 | 0 | 22 |
+| loc | uk | 4 | 0 | 15 | 0 | 19 |
+| loc | und | 4 | 0 | 0 | 0 | 4 |
+| loc | urd | 4 | 0 | 0 | 0 | 4 |
+| loc | zh | 872 | 43 | 471 | 126 | 1513 |
+| loc | ||| | 18 | 0 | 3 | 0 | 21 |
 | numdam | de | 334 | 0 | 0 | 36 | 370 |
 | numdam | en | 20070 | 0 | 0 | 9335 | 29405 |
 | numdam | fr | 10989 | 0 | 0 | 30116 | 41104 |
 | numdam | it | 1320 | 0 | 0 | 210 | 1530 |
 | numdam | sp | 7 | 0 | 0 | 0 | 7 |
 | numdam | und | 73 | 0 | 0 | 44 | 116 |
+| oapen | de | 0 | 0 | 0 | 40 | 40 |
+| oapen | en | 0 | 0 | 0 | 319 | 319 |
+| oapen | fi | 0 | 0 | 0 | 1 | 1 |
+| oapen | fr | 0 | 0 | 0 | 1 | 1 |
+| oapen | it | 0 | 0 | 0 | 2 | 2 |
+| oapen | mis | 0 | 0 | 0 | 1 | 1 |
+| oapen | sv | 0 | 0 | 0 | 1 | 1 |
 | openalex | af | 464 | 0 | 0 | 0 | 464 |
 | openalex | ar | 7421 | 0 | 0 | 0 | 7421 |
 | openalex | az | 464 | 0 | 0 | 0 | 464 |
@@ -689,6 +855,7 @@ The census applies the scope tests S1 to S7 (RS9.2) to each record. A record tha
 | openlibrary | vi | 0 | 0 | 21 | 0 | 21 |
 | openlibrary | wel | 21 | 0 | 0 | 63 | 84 |
 | openlibrary | zh | 421 | 21 | 653 | 653 | 1748 |
+| semanticscholar | und | 0 | 0 | 0 | 8650632 | 8650632 |
 | wikidata | und | 7606 | 0 | 0 | 0 | 7606 |
 | zbmath | ar | 658 | 0 | 0 | 0 | 658 |
 | zbmath | bg | 527 | 0 | 0 | 0 | 527 |
@@ -724,137 +891,245 @@ Each row gives the share of the sample of in records of A that has a match in B.
 
 | A | B | Match | Sampled | Matched | Share |
 |---|---|---|--:|--:|--:|
-| arxiv | crossref | lookup | 2000 | 1982 | 0.991 |
+| arxiv | crossref | lookup | 5000 | 4927 | 0.985 |
 | arxiv | datacite | records | 5000 | 14 | 0.302 |
+| arxiv | doab | records | 5000 | 0 | 0.000 |
 | arxiv | doaj | records | 5000 | 1 | 0.003 |
 | arxiv | gutenberg | records | 5000 | 0 | 0.000 |
-| arxiv | hal | lookup | 2000 | 177 | 0.088 |
+| arxiv | hal | lookup | 5000 | 393 | 0.079 |
 | arxiv | internetarchive | records | 5000 | 41 | 0.169 |
+| arxiv | loc | records | 5000 | 0 | 0.000 |
 | arxiv | numdam | records | 5000 | 8 | 0.012 |
-| arxiv | openalex | lookup | 2000 | 1986 | 0.993 |
+| arxiv | oapen | records | 5000 | 0 | 0.000 |
+| arxiv | openalex | lookup | 5000 | 4944 | 0.989 |
 | arxiv | openlibrary | records | 5000 | 1 | 0.004 |
+| arxiv | semanticscholar | records | 5000 | 4 | 0.692 |
 | arxiv | wikidata | records | 5000 | 0 | 0.000 |
-| arxiv | zbmath | lookup | 2000 | 1851 | 0.925 |
+| arxiv | zbmath | lookup | 5000 | 4628 | 0.926 |
 | crossref | arxiv | records | 0 | 0 | 0.000 |
 | crossref | datacite | records | 0 | 0 | 0.000 |
+| crossref | doab | records | 0 | 0 | 0.000 |
 | crossref | doaj | records | 0 | 0 | 0.000 |
 | crossref | gutenberg | records | 0 | 0 | 0.000 |
 | crossref | hal | records | 0 | 0 | 0.000 |
 | crossref | internetarchive | records | 0 | 0 | 0.000 |
+| crossref | loc | records | 0 | 0 | 0.000 |
 | crossref | numdam | records | 0 | 0 | 0.000 |
+| crossref | oapen | records | 0 | 0 | 0.000 |
 | crossref | openalex | records | 0 | 0 | 0.000 |
 | crossref | openlibrary | records | 0 | 0 | 0.000 |
+| crossref | semanticscholar | records | 0 | 0 | 0.000 |
 | crossref | wikidata | records | 0 | 0 | 0.000 |
 | crossref | zbmath | records | 0 | 0 | 0.000 |
 | datacite | arxiv | records | 686 | 645 | 0.940 |
-| datacite | crossref | records | 686 | 0 | 0.000 |
+| datacite | crossref | lookup | 686 | 0 | 0.000 |
+| datacite | doab | records | 686 | 0 | 0.000 |
 | datacite | doaj | records | 686 | 0 | 0.000 |
 | datacite | gutenberg | records | 686 | 0 | 0.000 |
-| datacite | hal | records | 686 | 1 | 0.025 |
+| datacite | hal | lookup | 686 | 2 | 0.003 |
 | datacite | internetarchive | records | 686 | 2 | 0.060 |
+| datacite | loc | records | 686 | 0 | 0.000 |
 | datacite | numdam | records | 686 | 0 | 0.000 |
-| datacite | openalex | records | 686 | 1 | 0.676 |
+| datacite | oapen | records | 686 | 0 | 0.000 |
+| datacite | openalex | lookup | 686 | 520 | 0.758 |
 | datacite | openlibrary | records | 686 | 0 | 0.000 |
+| datacite | semanticscholar | records | 686 | 2 | 1.000 |
 | datacite | wikidata | records | 686 | 0 | 0.000 |
-| datacite | zbmath | records | 686 | 1 | 0.595 |
+| datacite | zbmath | lookup | 686 | 1 | 0.001 |
+| doab | arxiv | records | 0 | 0 | 0.000 |
+| doab | crossref | records | 0 | 0 | 0.000 |
+| doab | datacite | records | 0 | 0 | 0.000 |
+| doab | doaj | records | 0 | 0 | 0.000 |
+| doab | gutenberg | records | 0 | 0 | 0.000 |
+| doab | hal | records | 0 | 0 | 0.000 |
+| doab | internetarchive | records | 0 | 0 | 0.000 |
+| doab | loc | records | 0 | 0 | 0.000 |
+| doab | numdam | records | 0 | 0 | 0.000 |
+| doab | oapen | records | 0 | 0 | 0.000 |
+| doab | openalex | records | 0 | 0 | 0.000 |
+| doab | openlibrary | records | 0 | 0 | 0.000 |
+| doab | semanticscholar | records | 0 | 0 | 0.000 |
+| doab | wikidata | records | 0 | 0 | 0.000 |
+| doab | zbmath | records | 0 | 0 | 0.000 |
 | doaj | arxiv | records | 5000 | 180 | 0.036 |
-| doaj | crossref | records | 5000 | 0 | 0.000 |
+| doaj | crossref | lookup | 5000 | 4642 | 0.928 |
 | doaj | datacite | records | 5000 | 0 | 0.000 |
+| doaj | doab | records | 5000 | 0 | 0.000 |
 | doaj | gutenberg | records | 5000 | 0 | 0.000 |
-| doaj | hal | records | 5000 | 1 | 0.003 |
+| doaj | hal | lookup | 5000 | 121 | 0.024 |
 | doaj | internetarchive | records | 5000 | 2 | 0.008 |
+| doaj | loc | records | 5000 | 0 | 0.000 |
 | doaj | numdam | records | 5000 | 0 | 0.000 |
-| doaj | openalex | records | 5000 | 6 | 0.557 |
+| doaj | oapen | records | 5000 | 0 | 0.000 |
+| doaj | openalex | lookup | 5000 | 4833 | 0.967 |
 | doaj | openlibrary | records | 5000 | 0 | 0.000 |
+| doaj | semanticscholar | records | 5000 | 2 | 0.346 |
 | doaj | wikidata | records | 5000 | 0 | 0.000 |
-| doaj | zbmath | records | 5000 | 2 | 0.163 |
+| doaj | zbmath | lookup | 5000 | 1524 | 0.305 |
 | gutenberg | arxiv | records | 0 | 0 | 0.000 |
 | gutenberg | crossref | records | 0 | 0 | 0.000 |
 | gutenberg | datacite | records | 0 | 0 | 0.000 |
+| gutenberg | doab | records | 0 | 0 | 0.000 |
 | gutenberg | doaj | records | 0 | 0 | 0.000 |
 | gutenberg | hal | records | 0 | 0 | 0.000 |
 | gutenberg | internetarchive | records | 0 | 0 | 0.000 |
+| gutenberg | loc | records | 0 | 0 | 0.000 |
 | gutenberg | numdam | records | 0 | 0 | 0.000 |
+| gutenberg | oapen | records | 0 | 0 | 0.000 |
 | gutenberg | openalex | records | 0 | 0 | 0.000 |
 | gutenberg | openlibrary | records | 0 | 0 | 0.000 |
+| gutenberg | semanticscholar | records | 0 | 0 | 0.000 |
 | gutenberg | wikidata | records | 0 | 0 | 0.000 |
 | gutenberg | zbmath | records | 0 | 0 | 0.000 |
 | hal | arxiv | records | 5000 | 2042 | 0.408 |
-| hal | crossref | lookup | 2000 | 1958 | 0.979 |
+| hal | crossref | lookup | 2913 | 2844 | 0.976 |
 | hal | datacite | records | 5000 | 0 | 0.000 |
+| hal | doab | records | 5000 | 0 | 0.000 |
 | hal | doaj | records | 5000 | 1 | 0.003 |
 | hal | gutenberg | records | 5000 | 0 | 0.000 |
 | hal | internetarchive | records | 5000 | 16 | 0.066 |
+| hal | loc | records | 5000 | 0 | 0.000 |
 | hal | numdam | records | 5000 | 34 | 0.049 |
-| hal | openalex | lookup | 2000 | 1978 | 0.989 |
+| hal | oapen | records | 5000 | 0 | 0.000 |
+| hal | openalex | lookup | 2913 | 2879 | 0.988 |
 | hal | openlibrary | records | 5000 | 0 | 0.000 |
+| hal | semanticscholar | records | 5000 | 3 | 0.519 |
 | hal | wikidata | records | 5000 | 0 | 0.000 |
-| hal | zbmath | lookup | 2000 | 1376 | 0.688 |
+| hal | zbmath | lookup | 2913 | 2015 | 0.692 |
 | internetarchive | arxiv | records | 6 | 0 | 0.000 |
 | internetarchive | crossref | records | 6 | 0 | 0.000 |
 | internetarchive | datacite | records | 6 | 0 | 0.000 |
+| internetarchive | doab | records | 6 | 0 | 0.000 |
 | internetarchive | doaj | records | 6 | 0 | 0.000 |
 | internetarchive | gutenberg | records | 6 | 0 | 0.000 |
 | internetarchive | hal | records | 6 | 0 | 0.000 |
+| internetarchive | loc | records | 6 | 2 | 1.000 |
 | internetarchive | numdam | records | 6 | 0 | 0.000 |
+| internetarchive | oapen | records | 6 | 0 | 0.000 |
 | internetarchive | openalex | records | 6 | 0 | 0.000 |
 | internetarchive | openlibrary | records | 6 | 0 | 0.000 |
+| internetarchive | semanticscholar | records | 6 | 0 | 0.000 |
 | internetarchive | wikidata | records | 6 | 0 | 0.000 |
 | internetarchive | zbmath | records | 6 | 0 | 0.000 |
+| loc | arxiv | records | 2175 | 3 | 0.001 |
+| loc | crossref | records | 2175 | 1 | 1.000 |
+| loc | datacite | records | 2175 | 3 | 0.149 |
+| loc | doab | records | 2175 | 0 | 0.000 |
+| loc | doaj | records | 2175 | 0 | 0.000 |
+| loc | gutenberg | records | 2175 | 6 | 0.003 |
+| loc | hal | records | 2175 | 0 | 0.000 |
+| loc | internetarchive | records | 2175 | 35 | 0.333 |
+| loc | numdam | records | 2175 | 1 | 0.003 |
+| loc | oapen | records | 2175 | 0 | 0.000 |
+| loc | openalex | records | 2175 | 2 | 0.426 |
+| loc | openlibrary | records | 2175 | 101 | 0.978 |
+| loc | semanticscholar | records | 2175 | 0 | 0.000 |
+| loc | wikidata | records | 2175 | 1 | 0.000 |
+| loc | zbmath | records | 2175 | 4 | 0.750 |
 | numdam | arxiv | records | 4521 | 459 | 0.102 |
-| numdam | crossref | records | 4521 | 0 | 0.000 |
+| numdam | crossref | lookup | 2024 | 2023 | 1.000 |
 | numdam | datacite | records | 4521 | 0 | 0.000 |
+| numdam | doab | records | 4521 | 0 | 0.000 |
 | numdam | doaj | records | 4521 | 0 | 0.000 |
 | numdam | gutenberg | records | 4521 | 0 | 0.000 |
-| numdam | hal | records | 4521 | 23 | 0.087 |
+| numdam | hal | lookup | 2024 | 223 | 0.110 |
 | numdam | internetarchive | records | 4521 | 3 | 0.014 |
-| numdam | openalex | records | 4521 | 2 | 0.205 |
+| numdam | loc | records | 4521 | 1 | 0.002 |
+| numdam | oapen | records | 4521 | 0 | 0.000 |
+| numdam | openalex | lookup | 2024 | 2021 | 0.999 |
 | numdam | openlibrary | records | 4521 | 0 | 0.000 |
+| numdam | semanticscholar | records | 4521 | 5 | 0.956 |
 | numdam | wikidata | records | 4521 | 0 | 0.000 |
-| numdam | zbmath | records | 4521 | 17 | 1.000 |
+| numdam | zbmath | lookup | 2024 | 1864 | 0.921 |
+| oapen | arxiv | records | 0 | 0 | 0.000 |
+| oapen | crossref | records | 0 | 0 | 0.000 |
+| oapen | datacite | records | 0 | 0 | 0.000 |
+| oapen | doab | records | 0 | 0 | 0.000 |
+| oapen | doaj | records | 0 | 0 | 0.000 |
+| oapen | gutenberg | records | 0 | 0 | 0.000 |
+| oapen | hal | records | 0 | 0 | 0.000 |
+| oapen | internetarchive | records | 0 | 0 | 0.000 |
+| oapen | loc | records | 0 | 0 | 0.000 |
+| oapen | numdam | records | 0 | 0 | 0.000 |
+| oapen | openalex | records | 0 | 0 | 0.000 |
+| oapen | openlibrary | records | 0 | 0 | 0.000 |
+| oapen | semanticscholar | records | 0 | 0 | 0.000 |
+| oapen | wikidata | records | 0 | 0 | 0.000 |
+| oapen | zbmath | records | 0 | 0 | 0.000 |
 | openalex | arxiv | records | 5000 | 560 | 0.112 |
-| openalex | crossref | lookup | 2000 | 1727 | 0.864 |
+| openalex | crossref | lookup | 5000 | 4300 | 0.860 |
 | openalex | datacite | records | 5000 | 4 | 0.086 |
+| openalex | doab | records | 5000 | 0 | 0.000 |
 | openalex | doaj | records | 5000 | 6 | 0.021 |
 | openalex | gutenberg | records | 5000 | 0 | 0.000 |
-| openalex | hal | lookup | 2000 | 25 | 0.013 |
+| openalex | hal | lookup | 5000 | 77 | 0.015 |
 | openalex | internetarchive | records | 5000 | 5 | 0.021 |
+| openalex | loc | records | 5000 | 2 | 0.004 |
 | openalex | numdam | records | 5000 | 3 | 0.004 |
+| openalex | oapen | records | 5000 | 0 | 0.000 |
 | openalex | openlibrary | records | 5000 | 0 | 0.000 |
+| openalex | semanticscholar | records | 5000 | 3 | 0.519 |
 | openalex | wikidata | records | 5000 | 0 | 0.000 |
-| openalex | zbmath | lookup | 2000 | 721 | 0.360 |
+| openalex | zbmath | lookup | 5000 | 1839 | 0.368 |
 | openlibrary | arxiv | records | 2757 | 6 | 0.002 |
 | openlibrary | crossref | records | 2757 | 1 | 1.000 |
 | openlibrary | datacite | records | 2757 | 0 | 0.000 |
+| openlibrary | doab | records | 2757 | 0 | 0.000 |
 | openlibrary | doaj | records | 2757 | 0 | 0.000 |
 | openlibrary | gutenberg | records | 2757 | 0 | 0.000 |
 | openlibrary | hal | records | 2757 | 0 | 0.000 |
 | openlibrary | internetarchive | records | 2757 | 51 | 0.382 |
+| openlibrary | loc | records | 2757 | 85 | 0.287 |
 | openlibrary | numdam | records | 2757 | 0 | 0.000 |
+| openlibrary | oapen | records | 2757 | 0 | 0.000 |
 | openlibrary | openalex | records | 2757 | 0 | 0.000 |
+| openlibrary | semanticscholar | records | 2757 | 1 | 0.314 |
 | openlibrary | wikidata | records | 2757 | 2 | 0.001 |
 | openlibrary | zbmath | records | 2757 | 6 | 0.888 |
+| semanticscholar | arxiv | records | 0 | 0 | 0.000 |
+| semanticscholar | crossref | records | 0 | 0 | 0.000 |
+| semanticscholar | datacite | records | 0 | 0 | 0.000 |
+| semanticscholar | doab | records | 0 | 0 | 0.000 |
+| semanticscholar | doaj | records | 0 | 0 | 0.000 |
+| semanticscholar | gutenberg | records | 0 | 0 | 0.000 |
+| semanticscholar | hal | records | 0 | 0 | 0.000 |
+| semanticscholar | internetarchive | records | 0 | 0 | 0.000 |
+| semanticscholar | loc | records | 0 | 0 | 0.000 |
+| semanticscholar | numdam | records | 0 | 0 | 0.000 |
+| semanticscholar | oapen | records | 0 | 0 | 0.000 |
+| semanticscholar | openalex | records | 0 | 0 | 0.000 |
+| semanticscholar | openlibrary | records | 0 | 0 | 0.000 |
+| semanticscholar | wikidata | records | 0 | 0 | 0.000 |
+| semanticscholar | zbmath | records | 0 | 0 | 0.000 |
 | wikidata | arxiv | records | 5000 | 7 | 0.001 |
-| wikidata | crossref | records | 5000 | 0 | 0.000 |
+| wikidata | crossref | lookup | 591 | 528 | 0.893 |
 | wikidata | datacite | records | 5000 | 0 | 0.000 |
+| wikidata | doab | records | 5000 | 3 | 0.001 |
 | wikidata | doaj | records | 5000 | 0 | 0.000 |
 | wikidata | gutenberg | records | 5000 | 0 | 0.000 |
-| wikidata | hal | records | 5000 | 1 | 0.003 |
+| wikidata | hal | lookup | 591 | 17 | 0.029 |
 | wikidata | internetarchive | records | 5000 | 0 | 0.000 |
+| wikidata | loc | records | 5000 | 1 | 0.002 |
 | wikidata | numdam | records | 5000 | 0 | 0.000 |
-| wikidata | openalex | records | 5000 | 0 | 0.000 |
+| wikidata | oapen | records | 5000 | 2 | 0.000 |
+| wikidata | openalex | lookup | 591 | 534 | 0.904 |
 | wikidata | openlibrary | records | 5000 | 1 | 0.004 |
-| wikidata | zbmath | records | 5000 | 0 | 0.000 |
+| wikidata | semanticscholar | records | 5000 | 0 | 0.000 |
+| wikidata | zbmath | lookup | 591 | 79 | 0.134 |
 | zbmath | arxiv | records | 5000 | 936 | 0.187 |
-| zbmath | crossref | lookup | 2000 | 1973 | 0.987 |
+| zbmath | crossref | lookup | 5000 | 4929 | 0.986 |
 | zbmath | datacite | records | 5000 | 3 | 0.065 |
+| zbmath | doab | records | 5000 | 0 | 0.000 |
 | zbmath | doaj | records | 5000 | 1 | 0.003 |
 | zbmath | gutenberg | records | 5000 | 0 | 0.000 |
-| zbmath | hal | lookup | 2000 | 72 | 0.036 |
+| zbmath | hal | lookup | 5000 | 197 | 0.039 |
 | zbmath | internetarchive | records | 5000 | 10 | 0.041 |
+| zbmath | loc | records | 5000 | 1 | 0.002 |
 | zbmath | numdam | records | 5000 | 6 | 0.009 |
-| zbmath | openalex | lookup | 2000 | 1959 | 0.980 |
+| zbmath | oapen | records | 5000 | 0 | 0.000 |
+| zbmath | openalex | lookup | 5000 | 4903 | 0.981 |
 | zbmath | openlibrary | records | 5000 | 5 | 0.021 |
+| zbmath | semanticscholar | records | 5000 | 6 | 1.000 |
 | zbmath | wikidata | records | 5000 | 1 | 0.000 |
 
 ## Estimates
@@ -863,24 +1138,30 @@ The pairs that are taken as independent are: arxiv and zbmath; hal and zbmath; o
 
 | A | B | Kind group | Decade | n A | n B | m | Estimate | Low | High | Recall A | Recall B |
 |---|---|---|---|--:|--:|--:|--:|--:|--:|--:|--:|
-| openalex | zbmath | article | 1950s | 51483 | 72767 | 21781 | 171994 | 111464 | 306344 | 0.299 | 0.423 |
-| openalex | zbmath | article | 1960s | 96937 | 138863 | 48469 | 277721 | 209841 | 392483 | 0.349 | 0.500 |
-| openalex | zbmath | article | 1970s | 155378 | 274639 | 83822 | 509087 | 412690 | 654777 | 0.305 | 0.539 |
-| openalex | zbmath | article | 1980s | 210108 | 371038 | 93381 | 834835 | 680949 | 1100938 | 0.252 | 0.444 |
-| hal | zbmath | article | 1990s | 1808 | 525873 | 974 | 975698 | 755204 | 1411247 | 0.002 | 0.539 |
-| openalex | zbmath | article | 1990s | 331628 | 525873 | 141066 | 1236256 | 1026681 | 1522059 | 0.268 | 0.425 |
-| arxiv | zbmath | article | 2000s | 90285 | 776422 | 81184 | 863461 | 812338 | 911623 | 0.105 | 0.899 |
-| hal | zbmath | article | 2000s | 18424 | 776422 | 14248 | 1003971 | 926709 | 1093749 | 0.018 | 0.773 |
-| openalex | zbmath | article | 2000s | 600641 | 776422 | 352194 | 1324130 | 1181404 | 1505531 | 0.454 | 0.586 |
-| arxiv | zbmath | article | 2010s | 294610 | 967459 | 276649 | 1030270 | 988651 | 1072551 | 0.286 | 0.939 |
-| hal | zbmath | article | 2010s | 42273 | 967459 | 33914 | 1205908 | 1146606 | 1269095 | 0.035 | 0.802 |
-| openalex | zbmath | article | 2010s | 1008334 | 967459 | 532860 | 1830727 | 1668510 | 2043736 | 0.551 | 0.528 |
-| arxiv | zbmath | article | 2020s | 300760 | 793195 | 276361 | 863223 | 820759 | 906384 | 0.348 | 0.919 |
-| hal | zbmath | article | 2020s | 23798 | 793195 | 17726 | 1064887 | 997409 | 1137342 | 0.022 | 0.745 |
-| openalex | zbmath | article | 2020s | 928094 | 793195 | 314478 | 2340891 | 2069709 | 2687229 | 0.396 | 0.339 |
-| hal | zbmath | other | 2010s | 4248 | 148742 | 2012 | 313963 | 233790 | 464158 | 0.014 | 0.474 |
-| openalex | zbmath | other | 2010s | 247677 | 148742 | 33774 | 1090758 | 737980 | 2073072 | 0.227 | 0.136 |
-| openalex | zbmath | other | 2020s | 218457 | 67930 | 15888 | 933983 | 541979 | 2569223 | 0.234 | 0.073 |
+| openalex | zbmath | article | 1940s | 16234 | 40452 | 10330 | 63570 | 44717 | 95995 | 0.255 | 0.636 |
+| openalex | zbmath | article | 1950s | 51483 | 72767 | 24182 | 154917 | 115299 | 216760 | 0.332 | 0.470 |
+| openalex | zbmath | article | 1960s | 96937 | 138863 | 49691 | 270892 | 221236 | 342830 | 0.358 | 0.513 |
+| openalex | zbmath | article | 1970s | 155378 | 274639 | 86124 | 495480 | 424353 | 589199 | 0.314 | 0.554 |
+| openalex | zbmath | article | 1980s | 210108 | 371038 | 103144 | 755815 | 657859 | 882830 | 0.278 | 0.491 |
+| arxiv | zbmath | article | 1990s | 7205 | 525873 | 6151 | 615969 | 543681 | 713123 | 0.012 | 0.854 |
+| hal | zbmath | article | 1990s | 1808 | 525873 | 955 | 995089 | 789309 | 1350863 | 0.002 | 0.528 |
+| openalex | zbmath | article | 1990s | 331628 | 525873 | 158946 | 1097189 | 976161 | 1239916 | 0.302 | 0.479 |
+| arxiv | zbmath | article | 2000s | 90285 | 776422 | 81783 | 857136 | 813535 | 898512 | 0.105 | 0.906 |
+| hal | zbmath | article | 2000s | 18424 | 776422 | 14185 | 1008429 | 940136 | 1086137 | 0.018 | 0.770 |
+| openalex | zbmath | article | 2000s | 600641 | 776422 | 343069 | 1359349 | 1250404 | 1483483 | 0.442 | 0.571 |
+| arxiv | zbmath | article | 2010s | 294610 | 967459 | 274824 | 1037111 | 997495 | 1077832 | 0.284 | 0.933 |
+| hal | zbmath | article | 2010s | 42273 | 967459 | 33631 | 1216055 | 1159633 | 1275321 | 0.035 | 0.796 |
+| openalex | zbmath | article | 2010s | 1008334 | 967459 | 541711 | 1800815 | 1687950 | 1934620 | 0.560 | 0.537 |
+| arxiv | zbmath | article | 2020s | 300760 | 793195 | 277755 | 858891 | 819092 | 897333 | 0.350 | 0.924 |
+| hal | zbmath | article | 2020s | 23798 | 793195 | 17977 | 1050020 | 988473 | 1114226 | 0.023 | 0.755 |
+| openalex | zbmath | article | 2020s | 928094 | 793195 | 305324 | 2411073 | 2208881 | 2644552 | 0.385 | 0.329 |
+| openalex | zbmath | other | 1970s | 36178 | 52186 | 5388 | 350356 | 196152 | 858232 | 0.103 | 0.149 |
+| openalex | zbmath | other | 1980s | 62151 | 77554 | 5782 | 833511 | 489700 | 2361913 | 0.075 | 0.093 |
+| openalex | zbmath | other | 2000s | 185062 | 143431 | 7462 | 3556740 | 2169718 | 10231099 | 0.052 | 0.040 |
+| hal | zbmath | other | 2010s | 4248 | 148742 | 2039 | 309807 | 241768 | 448211 | 0.014 | 0.480 |
+| openalex | zbmath | other | 2010s | 247677 | 148742 | 34640 | 1063489 | 816058 | 1510972 | 0.233 | 0.140 |
+| hal | zbmath | other | 2020s | 1399 | 67930 | 839 | 113217 | 82429 | 173736 | 0.012 | 0.600 |
+| openalex | zbmath | other | 2020s | 218457 | 67930 | 18526 | 800996 | 551839 | 1309703 | 0.273 | 0.085 |
 
 ## Strata with no estimate
 
@@ -903,7 +1184,6 @@ These strata have in records, but no independent pair has enough of them for an 
 | article | 1910s |
 | article | 1920s |
 | article | 1930s |
-| article | 1940s |
 | article | unknown |
 | book | 0190s |
 | book | 0500s |
@@ -924,7 +1204,9 @@ These strata have in records, but no independent pair has enough of them for an 
 | book | 1550s |
 | book | 1560s |
 | book | 1570s |
+| book | 1580s |
 | book | 1590s |
+| book | 1600s |
 | book | 1610s |
 | book | 1620s |
 | book | 1630s |
@@ -935,6 +1217,7 @@ These strata have in records, but no independent pair has enough of them for an 
 | book | 1680s |
 | book | 1690s |
 | book | 1700s |
+| book | 1710s |
 | book | 1720s |
 | book | 1730s |
 | book | 1740s |
@@ -1009,10 +1292,7 @@ These strata have in records, but no independent pair has enough of them for an 
 | other | 1940s |
 | other | 1950s |
 | other | 1960s |
-| other | 1970s |
-| other | 1980s |
 | other | 1990s |
-| other | 2000s |
 | other | unknown |
 | report-notes | 1950s |
 | report-notes | 1960s |
@@ -1023,6 +1303,8 @@ These strata have in records, but no independent pair has enough of them for an 
 | report-notes | 2010s |
 | report-notes | 2020s |
 | report-notes | unknown |
+| thesis | 1750s |
+| thesis | 1760s |
 | thesis | 1830s |
 | thesis | 1930s |
 | thesis | 1950s |
