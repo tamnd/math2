@@ -1,2 +1,4 @@
 {"id":"X8V47Z4VN7","mentions":["m2://rec/wikidata/Q45513#1"],"kind":"unknown","name":"swastika","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"X8V6XMGG4R","mentions":["m2://rec/wikidata/Q77966258#1"],"kind":"unknown","name":"diagonal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"X8VDKFJD2D","mentions":["m2://rec/levin_dmoi/index/1.2.3/free-variable#1"],"kind":"concept","name":"free variable","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
+{"id":"X8VK36DFF0","mentions":["m2://rec/open_logic/content/first-order-logic/axiomatic-deduction/deduction-theorem.tex#prob-1#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

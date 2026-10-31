@@ -1,3 +1,4 @@
+{"id":"QZX04QY7YQ","mentions":["m2://rec/hott_book/reals.tex#proof-29#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
 {"id":"QZX4C7X8DQ","mentions":["m2://rec/wikidata/Q3110923#1"],"kind":"unknown","name":"Gordon Royle","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"QZX5HQXJCK","mentions":["m2://rec/wikidata/Q3054915#1"],"kind":"definition","name":"pointed set","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"QZX989KV59","mentions":["m2://rec/wikidata/Q120610351#1"],"kind":"concept","name":"satisfaction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

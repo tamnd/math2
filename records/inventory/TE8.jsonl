@@ -1,0 +1,3 @@
+{"id":"TE87H1C109","mentions":["m2://rec/applied_combinatorics/index/15.2/group-symmetric#1"],"kind":"concept","name":"group, symmetric","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
+{"id":"TE8KR1W0ZG","mentions":["m2://rec/open_logic/content/first-order-logic/completeness/construction-of-model.tex#prob-1#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
+{"id":"TE8TMJNQZQ","mentions":["m2://rec/lebl_diffyqs/ap-linear-algebra.tex#exercise-78#1"],"kind":"exercise","name":"challenging","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

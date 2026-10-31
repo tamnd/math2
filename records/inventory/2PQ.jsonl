@@ -1,1 +1,3 @@
 {"id":"2PQCZPZ7K9","mentions":["m2://rec/wikidata/Q4442333#1"],"kind":"unknown","name":"stereotype space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"2PQDN2KSW4","mentions":["m2://rec/open_logic/content/set-theory/choice/vitali.tex#disjointgroup#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
+{"id":"2PQNQCSDDD","mentions":["m2://rec/napkin/tex/measure/swapsum.tex#corollary-1#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

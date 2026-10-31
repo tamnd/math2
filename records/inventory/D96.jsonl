@@ -1,1 +1,3 @@
+{"id":"D96HVC0XE4","mentions":["m2://rec/hott_book/index/6.3/truncation-n-truncation#1"],"kind":"concept","name":"truncation, $n$-truncation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
 {"id":"D96T0KWXWN","mentions":["m2://rec/wikidata/Q1386491#1"],"kind":"unknown","name":"Pell number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"D96T71NBN7","mentions":["m2://rec/open_logic/content/normal-modal-logic/completeness/canonical-models.tex#defn-1#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

@@ -1,1 +1,3 @@
 {"id":"80XPZR366G","mentions":["ax://paper/2610.18673#SEN4"],"kind":"statement","msc":["35-XX","53-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
+{"id":"80XR0ST5TN","mentions":["m2://rec/lebl_scv/scv.tex#proof-75#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
+{"id":"80XTEKV1GK","mentions":["m2://rec/lebl_ra/ch-seq-ser.tex#exercise-41#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

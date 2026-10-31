@@ -1,1 +1,3 @@
+{"id":"TJTF1R9C7F","mentions":["m2://rec/napkin/tex/alg-geom/spec-zariski.tex#example-10#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
+{"id":"TJTNFAR3R2","mentions":["m2://rec/hott_book/index/3.7/total-space#1"],"kind":"concept","name":"total, space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
 {"id":"TJTPXYVE2C","mentions":["m2://rec/wikidata/Q2467845#1"],"kind":"definition","name":"limit ordinal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

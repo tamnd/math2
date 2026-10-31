@@ -1,1 +1,3 @@
+{"id":"2XC7J6SZJY","mentions":["m2://rec/hott_book/logic.tex#proof-6#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
 {"id":"2XC7KJE332","mentions":["m2://rec/wikidata/Q1097688#1"],"kind":"unknown","name":"non-parametric statistics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"2XCFSDB29E","mentions":["m2://rec/levin_dmoi/index/1.3.1/integers#1"],"kind":"concept","name":"integers","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

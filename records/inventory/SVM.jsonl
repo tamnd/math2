@@ -1,1 +1,3 @@
+{"id":"SVM1W1KT1B","mentions":["m2://rec/hott_book/setmath.tex#cor-4#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
+{"id":"SVM8AQDG0C","mentions":["m2://rec/napkin/tex/measure/pontryagin.tex#example-2#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
 {"id":"SVMVAYTRSW","mentions":["m2://rec/mathlib_1000/Q5499906#1","m2://rec/thousand_plus/Q5499906#1","m2://rec/wikidata/Q5499906#1"],"kind":"statement","name":"free Lie algebra","msc":["17-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

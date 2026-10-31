@@ -1,2 +1,4 @@
+{"id":"C17DSZCQBN","mentions":["m2://rec/napkin/tex/alg-NT/classgrp.tex#corollary-1#1"],"kind":"statement","name":"Finiteness of class group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
 {"id":"C17EEWKPQ7","mentions":["m2://rec/wikidata/Q16317911#1"],"kind":"definition","name":"positive integer","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"C17JVBWNS4","mentions":["m2://rec/wikidata/Q117009116#1"],"kind":"unknown","name":"major arc","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"C17WH2RV28","mentions":["m2://rec/austin_ula/src/section1-2.xml#activity-2#1"],"kind":"exercise","name":"Augmented matrices and solution spaces","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

@@ -1,2 +1,4 @@
 {"id":"S1V057GBEW","mentions":["m2://rec/wikidata/Q20874026#1"],"kind":"unknown","name":"affine tensor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"S1V89R8WR6","mentions":["m2://rec/wikidata/Q18215105#1"],"kind":"statement","name":"Poincaré lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"S1VA19FEVX","mentions":["m2://rec/active_calculus/source/activities/act-5-4-1.xml#act-5-4-1#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
+{"id":"S1VFDJ11YT","mentions":["m2://rec/lebl_ra/index/4.6.1/fixed-point-theorem#1"],"kind":"concept","name":"fixed point theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

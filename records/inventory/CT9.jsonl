@@ -1,2 +1,3 @@
 {"id":"CT95QF0SMQ","mentions":["m2://rec/wikidata/Q531#1"],"kind":"definition","name":"light-year","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"CT98RVHDEW","mentions":["ax://paper/2108.10246#3K1G"],"kind":"statement","msc":["17-XX","57-XX","81-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
+{"id":"CT9ZXVEB8G","mentions":["m2://rec/lebl_ra/ch-seq-ser.tex#exercise-60#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

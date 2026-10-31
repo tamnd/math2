@@ -1,1 +1,2 @@
 {"id":"ZDW5HB51A9","mentions":["ax://paper/2610.15877#BZRY"],"kind":"definition","msc":["94-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
+{"id":"ZDWJNRV5CJ","mentions":["m2://rec/hott_book/setmath.tex#lem:sets_exact#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

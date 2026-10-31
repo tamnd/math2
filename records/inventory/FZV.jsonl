@@ -1,1 +1,3 @@
+{"id":"FZV1BS7DY4","mentions":["m2://rec/levin_dmoi/index/1.3/set#1"],"kind":"concept","name":"set","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
 {"id":"FZVA79920Q","mentions":["m2://rec/wikidata/Q7261176#1"],"kind":"unknown","name":"purely inseparable extension","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FZVKDJGD2V","mentions":["m2://rec/hott_book/hlevels.tex#proof-47#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

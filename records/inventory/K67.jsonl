@@ -1,2 +1,4 @@
+{"id":"K67F794N3W","mentions":["m2://rec/napkin/tex/homology/excision.tex#example-1#1"],"kind":"example","name":"$H_n(X, A)$ where $A$ is open in $X$","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
+{"id":"K67HBSJDTY","mentions":["m2://rec/levin_dmoi/ptx/exercises/seq-induction.ptx#exercise-7#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
 {"id":"K67JC0J4CT","mentions":["m2://rec/wikidata/Q7308550#1"],"kind":"unknown","name":"Regina Tyshkevich","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"K67VZW9Z2T","mentions":["m2://rec/wikidata/Q1331442#1"],"kind":"unknown","name":"Lakes of Wada","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
