@@ -45,4 +45,44 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: YXRKS451PK
+      kind: preprint
+      title: Sampling from the Sherrington-Kirkpatrick Model up to Criticality
+      creators:
+        - name: Hang Du
+          role: author
+        - name: Brice Huang
+          role: author
+        - name: Sidhanth Mohanty
+          role: author
+        - name: Amit Rajaraman
+          role: author
+      date: "2026-10-13"
+      subjects:
+        - system: arxiv
+          code: math.PR
+        - system: arxiv
+          code: cond-mat.dis-nn
+        - system: arxiv
+          code: cs.DS
+        - system: arxiv
+          code: math-ph
+        - system: arxiv
+          code: math.MP
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-13"
+          ids:
+            arxiv: "2610.17717"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.17717"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

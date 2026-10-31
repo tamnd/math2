@@ -43,4 +43,38 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: XBHQRTBH62
+      kind: preprint
+      title: Orbit-breaking in Deaconu-Renault groupoids and models for UCT Kirchberg algebras
+      creators:
+        - name: Robin J. Deeley
+          role: author
+        - name: Ian F. Putnam
+          role: author
+        - name: Karen R. Strung
+          role: author
+      date: "2026-09-25"
+      subjects:
+        - system: arxiv
+          code: math.OA
+        - system: arxiv
+          code: math.DS
+        - system: arxiv
+          code: math.KT
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-09-25"
+          ids:
+            arxiv: "2609.31883"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2609.31883"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

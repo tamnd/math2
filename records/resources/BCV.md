@@ -44,4 +44,30 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: BCVFS160MF
+      kind: preprint
+      title: Well-posed Self-Similarity in Incompressible Standard Flows
+      creators:
+        - name: J. Polihronov
+          role: author
+      date: "2025-03-30"
+      subjects:
+        - system: arxiv
+          code: math.GM
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2025-03-30"
+          ids:
+            arxiv: "2504.21000"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2504.21000"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

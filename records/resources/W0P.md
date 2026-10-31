@@ -1,5 +1,31 @@
 ---
 records:
+    - id: W0PQMW25VY
+      kind: preprint
+      title: Higher-order colossally abundant numbers
+      creators:
+        - name: Oleg R. Musin
+          role: author
+      date: "2026-09-27"
+      subjects:
+        - system: arxiv
+          code: math.NT
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-09-27"
+          ids:
+            arxiv: "2609.33794"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2609.33794"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: W0PT54AV4V
       kind: monograph
       title: Real and Abstract Analysis

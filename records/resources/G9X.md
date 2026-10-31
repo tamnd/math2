@@ -1,0 +1,37 @@
+---
+records:
+    - id: G9XD78ZCAS
+      kind: preprint
+      title: Counting $C_2 \wr S_4$ fields with a power saving error term
+      creators:
+        - name: Sambhabi Bose
+          role: author
+        - name: Kevin J. McGown
+          role: author
+        - name: Ishan Panpaliya
+          role: author
+        - name: Natalie Welling
+          role: author
+        - name: Laney Williams
+          role: author
+      date: "2025-12-24"
+      subjects:
+        - system: arxiv
+          code: math.NT
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2025-12-24"
+          ids:
+            arxiv: "2512.21427"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2512.21427"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
+---

@@ -47,4 +47,62 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: CPDM7J0CC0
+      kind: preprint
+      title: The word problem in verbal products of groups
+      creators:
+        - name: Javier Brude
+          role: author
+        - name: Román Sasyk
+          role: author
+      date: "2026-09-25"
+      subjects:
+        - system: arxiv
+          code: math.GR
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-09-25"
+          ids:
+            arxiv: "2609.31289"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2609.31289"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
+    - id: CPDMYJ0NJV
+      kind: preprint
+      title: Triple Junctions in Multi-Phase Obstacle type Problems
+      creators:
+        - name: Daniela De Silva
+          role: author
+        - name: Ovidiu Savin
+          role: author
+        - name: Henrik Shahgholian
+          role: author
+      date: "2026-10-13"
+      subjects:
+        - system: arxiv
+          code: math.AP
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-13"
+          ids:
+            arxiv: "2610.18270"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.18270"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

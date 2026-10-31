@@ -1,5 +1,38 @@
 ---
 records:
+    - id: M8F4PDHH3S
+      kind: preprint
+      title: Notes on Non-Generic Isomonodromy Deformations
+      creators:
+        - name: Davide Guzzetti
+          role: author
+      date: "2018-04-16"
+      subjects:
+        - system: arxiv
+          code: math.CA
+        - system: arxiv
+          code: math-ph
+        - system: arxiv
+          code: math.CV
+        - system: arxiv
+          code: math.MP
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2018-04-16"
+          ids:
+            arxiv: "1804.05688"
+            doi: 10.3842/sigma.2018.087
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "1804.05688"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: M8FYDJXTVV
       kind: monograph
       title: Lectures on Rings and Modules

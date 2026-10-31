@@ -1,5 +1,35 @@
 ---
 records:
+    - id: SVDPVAKW4P
+      kind: preprint
+      title: Accelerating Stochastic Recursive and Semi-stochastic Gradient Methods with Adaptive Barzilai-Borwein Step Sizes
+      creators:
+        - name: Jiangshan Wang
+          role: author
+        - name: Yiming Yang
+          role: author
+        - name: Zheng Peng
+          role: author
+      date: "2023-07-26"
+      subjects:
+        - system: arxiv
+          code: math.OC
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2023-07-26"
+          ids:
+            arxiv: "2307.13930"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2307.13930"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: SVDT8CCTYK
       kind: monograph
       title: Mathematics and Its History

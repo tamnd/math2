@@ -39,4 +39,32 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.4 scope/1
           note: from deferred to in
+    - id: 6KST0WX37C
+      kind: preprint
+      title: A Mizohata--Takeuchi-type estimate for the hyperbolic paraboloid
+      creators:
+        - name: Jongchon Kim
+          role: author
+        - name: Liang Wang
+          role: author
+      date: "2026-10-06"
+      subjects:
+        - system: arxiv
+          code: math.CA
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-06"
+          ids:
+            arxiv: "2610.07909"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.07909"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

@@ -26,4 +26,44 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to deferred
+    - id: C0EG2EY0M4
+      kind: preprint
+      title: Lifting Prym Divisors on a Bielliptic Loop of Loops
+      creators:
+        - name: Phew Aung
+          role: author
+        - name: Eric Burkholder
+          role: author
+        - name: Joan Dalton
+          role: author
+        - name: David Jensen
+          role: author
+        - name: Jacob Letamendi
+          role: author
+        - name: Brianna Nguyen
+          role: author
+        - name: Andrew Radicker
+          role: author
+        - name: Doel Rivera Laboy
+          role: author
+      date: "2026-10-13"
+      subjects:
+        - system: arxiv
+          code: math.AG
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-13"
+          ids:
+            arxiv: "2610.18324"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.18324"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

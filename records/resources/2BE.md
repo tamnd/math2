@@ -47,4 +47,38 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: 2BET1RE1F6
+      kind: preprint
+      title: Profinite Non-Rigidity of Arithmetic Lattices and the K\"ahler Property
+      creators:
+        - name: Yukun Du
+          role: author
+        - name: Feng Hao
+          role: author
+        - name: Kejia Zhu
+          role: author
+      date: "2026-09-25"
+      subjects:
+        - system: arxiv
+          code: math.GT
+        - system: arxiv
+          code: math.AG
+        - system: arxiv
+          code: math.GR
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-09-25"
+          ids:
+            arxiv: "2609.31523"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2609.31523"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

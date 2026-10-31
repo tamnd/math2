@@ -39,4 +39,34 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.4 scope/1
           note: from deferred to in
+    - id: 2GD6NWJVRM
+      kind: preprint
+      title: Automorphisms of the fine 1-curve graph
+      creators:
+        - name: Katherine Williams Booth
+          role: author
+        - name: Daniel Minahan
+          role: author
+        - name: Roberta Shapiro
+          role: author
+      date: "2023-09-27"
+      subjects:
+        - system: arxiv
+          code: math.GT
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2023-09-27"
+          ids:
+            arxiv: "2309.16041"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2309.16041"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

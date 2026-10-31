@@ -60,4 +60,60 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: T0ADPX1S05
+      kind: preprint
+      title: Minimal norm control problems for linear mean-field control systems
+      creators:
+        - name: Manfen An
+          role: author
+        - name: Rui Gao
+          role: author
+        - name: Yanqing Wang
+          role: author
+      date: "2026-10-13"
+      subjects:
+        - system: arxiv
+          code: math.OC
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-13"
+          ids:
+            arxiv: "2610.17825"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.17825"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
+    - id: T0APQY74CA
+      kind: preprint
+      title: On ruled normal surfaces associated with rectifying curves
+      creators:
+        - name: Ana-Maria Boldeanu
+          role: author
+      date: "2026-10-08"
+      subjects:
+        - system: arxiv
+          code: math.DG
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-08"
+          ids:
+            arxiv: "2610.11886"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.11886"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

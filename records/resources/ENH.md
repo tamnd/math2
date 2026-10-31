@@ -1,5 +1,37 @@
 ---
 records:
+    - id: ENH5XNBQWH
+      kind: preprint
+      title: Sharp Thresholds for Distance Patterns in Random Subsets of $\mathbb Z^d$
+      creators:
+        - name: Christina Giannitsi
+          role: author
+        - name: Eyvindur Ari Palsson
+          role: author
+      date: "2026-09-28"
+      subjects:
+        - system: arxiv
+          code: math.CO
+        - system: arxiv
+          code: math.CA
+        - system: arxiv
+          code: math.NT
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-09-28"
+          ids:
+            arxiv: "2609.36022"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2609.36022"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: ENHJVZMWSC
       kind: monograph
       title: Intermediate Calculus

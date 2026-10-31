@@ -43,4 +43,36 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: R6KSZ9H8CY
+      kind: preprint
+      title: Tur\'an-type and tiling problems in oriented graphs
+      creators:
+        - name: Ming Chen
+          role: author
+        - name: Wenxu Lu
+          role: author
+        - name: Yun Wang
+          role: author
+        - name: Zhiwei Zhang
+          role: author
+      date: "2026-03-23"
+      subjects:
+        - system: arxiv
+          code: math.CO
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-03-23"
+          ids:
+            arxiv: "2603.21971"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2603.21971"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

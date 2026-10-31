@@ -1,0 +1,37 @@
+---
+records:
+    - id: VPMKBREFY1
+      kind: preprint
+      title: 'Well-posed by Design: Learning Constitutive Laws from Velocity Data using Convex Neural Network Potentials'
+      creators:
+        - name: Gonzalo G. de Diego
+          role: author
+        - name: Georg Stadler
+          role: author
+      date: "2026-10-05"
+      subjects:
+        - system: arxiv
+          code: physics.flu-dyn
+        - system: arxiv
+          code: cs.NA
+        - system: arxiv
+          code: math.NA
+        - system: arxiv
+          code: math.OC
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-05"
+          ids:
+            arxiv: "2610.07236"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.07236"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
+---

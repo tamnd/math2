@@ -1,0 +1,31 @@
+---
+records:
+    - id: E9ZQM8449P
+      kind: preprint
+      title: Optimal Feedback Controls of Stochastic Linear Quadratic Control Problems in Infinite Dimensions with Random Coefficients
+      creators:
+        - name: Qi Lü
+          role: author
+        - name: Tianxiao Wang
+          role: author
+      date: "2022-02-21"
+      subjects:
+        - system: arxiv
+          code: math.OC
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2022-02-21"
+          ids:
+            arxiv: "2202.10212"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2202.10212"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
+---

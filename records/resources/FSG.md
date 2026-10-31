@@ -1,5 +1,41 @@
 ---
 records:
+    - id: FSGSVD0XYH
+      kind: preprint
+      title: Collectivity limits quantum entanglement
+      creators:
+        - name: Donghoon Kim
+          role: author
+        - name: Tomotaka Kuwahara
+          role: author
+      date: "2026-09-28"
+      subjects:
+        - system: arxiv
+          code: quant-ph
+        - system: arxiv
+          code: cond-mat.dis-nn
+        - system: arxiv
+          code: cond-mat.stat-mech
+        - system: arxiv
+          code: math-ph
+        - system: arxiv
+          code: math.MP
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-09-28"
+          ids:
+            arxiv: "2609.36113"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2609.36113"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: FSGW2213G0
       kind: monograph
       title: 'Measure Theory: Proceedings of the Conference Held at Oberwolfach, 15–21 June, 1975'

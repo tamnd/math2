@@ -48,4 +48,42 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: QVFHS1C9BW
+      kind: preprint
+      title: Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion
+      creators:
+        - name: Luke Bhan
+          role: author
+        - name: Miroslav Krstic
+          role: author
+        - name: Yuanyuan Shi
+          role: author
+      date: "2026-10-06"
+      subjects:
+        - system: arxiv
+          code: eess.SY
+        - system: arxiv
+          code: cs.LG
+        - system: arxiv
+          code: cs.SY
+        - system: arxiv
+          code: math.AP
+        - system: arxiv
+          code: math.OC
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-06"
+          ids:
+            arxiv: "2610.08764"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.08764"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

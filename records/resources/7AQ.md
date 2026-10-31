@@ -1,5 +1,34 @@
 ---
 records:
+    - id: 7AQ7DMNZEY
+      kind: preprint
+      title: Some Monotonicity Properties of Convex Functions with Applications
+      creators:
+        - name: Jamal Rooin
+          role: author
+        - name: Hossein Dehghan
+          role: author
+      date: "2013-10-23"
+      subjects:
+        - system: arxiv
+          code: math.CA
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2013-10-23"
+          ids:
+            arxiv: "1310.6698"
+            doi: 10.1007/s00009-014-0440-z
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "1310.6698"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: 7AQZQQKXK9
       kind: edited-volume
       title: Geometry, Groups and Mathematical Philosophy

@@ -38,4 +38,44 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to deferred
+    - id: WF64CGYVK1
+      kind: preprint
+      title: Predicting properties of Scrooge ensembles with high accuracy and low sample complexity
+      creators:
+        - name: Yue Wu
+          role: author
+        - name: Yuzhi Tong
+          role: author
+        - name: Helen Propson
+          role: author
+        - name: Yihui Quek
+          role: author
+        - name: Liang Mao
+          role: author
+      date: "2026-09-30"
+      subjects:
+        - system: arxiv
+          code: quant-ph
+        - system: arxiv
+          code: cond-mat.stat-mech
+        - system: arxiv
+          code: math-ph
+        - system: arxiv
+          code: math.MP
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-09-30"
+          ids:
+            arxiv: "2609.39992"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2609.39992"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

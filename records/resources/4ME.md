@@ -1,5 +1,33 @@
 ---
 records:
+    - id: 4ME94TPA7R
+      kind: preprint
+      title: On the set of orthogonal positive sums in a $C^*$-algebra
+      creators:
+        - name: Ali Taghavi
+          role: author
+      date: "2026-10-10"
+      subjects:
+        - system: arxiv
+          code: math.OA
+        - system: arxiv
+          code: math.FA
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-10"
+          ids:
+            arxiv: "2610.15167"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.15167"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: 4MECY0CHS3
       kind: monograph
       title: General Topology II

@@ -1,5 +1,32 @@
 ---
 records:
+    - id: PVRF0WS223
+      kind: preprint
+      title: Pego theorem on compact groups
+      creators:
+        - name: Manoj Kumar
+          role: author
+      date: "2023-02-09"
+      subjects:
+        - system: arxiv
+          code: math.FA
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2023-02-09"
+          ids:
+            arxiv: "2302.04470"
+            doi: 10.2140/pjm.2024.328.137
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2302.04470"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: PVRPP172HG
       kind: monograph
       title: Distributions and Nonlinear Partial Differential Equations

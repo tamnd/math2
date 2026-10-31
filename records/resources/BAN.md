@@ -1,0 +1,33 @@
+---
+records:
+    - id: BANPR56FBR
+      kind: preprint
+      title: A family of Hurwitz polynomial vector fields in $\mathbb{R}^3$ having non-constant periodic orbits
+      creators:
+        - name: Álvaro Castañeda
+          role: author
+        - name: Salomón Rebollo-Perdomo
+          role: author
+      date: "2026-10-06"
+      subjects:
+        - system: arxiv
+          code: math.DS
+        - system: arxiv
+          code: math.CA
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-06"
+          ids:
+            arxiv: "2610.09176"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.09176"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
+---

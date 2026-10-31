@@ -1,5 +1,33 @@
 ---
 records:
+    - id: 3CRBMY85R5
+      kind: preprint
+      title: Sharp Neumann eigenvalue means on triangles
+      creators:
+        - name: Guowei Dai
+          role: author
+        - name: Yingxin Sun
+          role: author
+      date: "2026-09-30"
+      subjects:
+        - system: arxiv
+          code: math.SP
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-09-30"
+          ids:
+            arxiv: "2609.38953"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2609.38953"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: 3CRSJ3B2NS
       kind: monograph
       title: Representation Theory of Algebraic Groups and Quantum Groups
@@ -51,4 +79,34 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: 3CRSR95BNA
+      kind: preprint
+      title: The Separable Quotient Problem and the Lotz Property in Banach Spaces
+      creators:
+        - name: Gustavo Araújo
+          role: author
+        - name: Anderson Barbosa
+          role: author
+        - name: Juan B. Seoane-Sepúlveda
+          role: author
+      date: "2026-09-30"
+      subjects:
+        - system: arxiv
+          code: math.FA
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-09-30"
+          ids:
+            arxiv: "2610.00584"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.00584"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

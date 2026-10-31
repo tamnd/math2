@@ -1,0 +1,35 @@
+---
+records:
+    - id: HH35K7S17H
+      kind: preprint
+      title: Optimal Tail Estimates for Differential Equations Driven by Fractional Brownian Motion
+      creators:
+        - name: Horatio Boedihardjo
+          role: author
+        - name: Xi Geng
+          role: author
+        - name: Sheng Wang
+          role: author
+      date: "2026-10-05"
+      subjects:
+        - system: arxiv
+          code: math.PR
+        - system: arxiv
+          code: math.CA
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-05"
+          ids:
+            arxiv: "2610.06152"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.06152"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
+---

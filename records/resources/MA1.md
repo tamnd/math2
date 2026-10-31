@@ -1,5 +1,39 @@
 ---
 records:
+    - id: MA1CZ2GTAF
+      kind: preprint
+      title: A general functional version of Gr\"unbaum's inequality
+      creators:
+        - name: David Alonso-Gutiérrez
+          role: author
+        - name: Francisco Marín Sola
+          role: author
+        - name: Javier Martín Goñi
+          role: author
+        - name: Jesús Yepes Nicolás
+          role: author
+      date: "2024-04-12"
+      subjects:
+        - system: arxiv
+          code: math.MG
+        - system: arxiv
+          code: math.FA
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2024-04-12"
+          ids:
+            arxiv: "2404.08319"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2404.08319"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: MA1Y3ZF4BG
       kind: edited-volume
       title: The Lefschetz Centennial Conference

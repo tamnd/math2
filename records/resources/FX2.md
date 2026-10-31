@@ -1,5 +1,39 @@
 ---
 records:
+    - id: FX2SD1GFHT
+      kind: preprint
+      title: Online Guaranteed Reachable Set Approximation for Systems with Changed Dynamics and Control Authority
+      creators:
+        - name: Hamza El-Kebir
+          role: author
+        - name: Ani Pirosmanishvili
+          role: author
+        - name: Melkior Ornik
+          role: author
+      date: "2022-03-19"
+      subjects:
+        - system: arxiv
+          code: math.OC
+        - system: arxiv
+          code: cs.SY
+        - system: arxiv
+          code: eess.SY
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2022-03-19"
+          ids:
+            arxiv: "2203.10220"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2203.10220"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: FX2ZXA9K7A
       kind: monograph
       title: 'Dynamical Systems: Stability Theory and Applications'

@@ -1,0 +1,87 @@
+---
+records:
+    - id: N3Z6JFEPCF
+      kind: preprint
+      title: On the Solution Sets of the Cone-Volume Map
+      creators:
+        - name: Tom Baumbach
+          role: author
+        - name: Zhang Chen
+          role: author
+        - name: Martin Henk
+          role: author
+      date: "2026-10-15"
+      subjects:
+        - system: arxiv
+          code: math.MG
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-15"
+          ids:
+            arxiv: "2610.21533"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.21533"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
+    - id: N3ZA5MDZBW
+      kind: preprint
+      title: The structure of irreducible cuspidal eta quotients
+      creators:
+        - name: Soumya Bhattacharya
+          role: author
+      date: "2026-10-05"
+      subjects:
+        - system: arxiv
+          code: math.NT
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-05"
+          ids:
+            arxiv: "2610.10576"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.10576"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
+    - id: N3ZQJ2G8SS
+      kind: preprint
+      title: Divisible properties for asymptotically tracially approximation ${\rm C^*}$-algebras
+      creators:
+        - name: Qingzhai Fan
+          role: author
+        - name: Jiahui Wang
+          role: author
+      date: "2022-05-30"
+      subjects:
+        - system: arxiv
+          code: math.OA
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2022-05-30"
+          ids:
+            arxiv: "2205.15106"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2205.15106"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
+---

@@ -1,5 +1,37 @@
 ---
 records:
+    - id: K5H6GS0SGQ
+      kind: preprint
+      title: Weak Convergence Rates for Partial-Sum Processes of Nonlinear Stochastic Approximation
+      creators:
+        - name: Xiang Li
+          role: author
+        - name: Jiadong Liang
+          role: author
+        - name: Zhihua Zhang
+          role: author
+      date: "2026-09-30"
+      subjects:
+        - system: arxiv
+          code: math.ST
+        - system: arxiv
+          code: stat.TH
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-09-30"
+          ids:
+            arxiv: "2609.40338"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2609.40338"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: K5HCXPY8M6
       kind: monograph
       title: Discrete Painlevé Equations

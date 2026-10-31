@@ -1,5 +1,41 @@
 ---
 records:
+    - id: 1QVKNGBS3D
+      kind: preprint
+      title: Multi-Agent Reinforcement Learning via Double Averaging Primal-Dual Optimization
+      creators:
+        - name: Hoi-To Wai
+          role: author
+        - name: Zhuoran Yang
+          role: author
+        - name: Zhaoran Wang
+          role: author
+        - name: Mingyi Hong
+          role: author
+      date: "2018-06-03"
+      subjects:
+        - system: arxiv
+          code: cs.LG
+        - system: arxiv
+          code: math.OC
+        - system: arxiv
+          code: stat.ML
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2018-06-03"
+          ids:
+            arxiv: "1806.00877"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "1806.00877"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: 1QVSBDQY15
       kind: monograph
       title: Automorphic Forms on GL (3,ℝ)

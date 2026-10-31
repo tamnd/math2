@@ -48,4 +48,34 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: Z9JWKWH7CJ
+      kind: preprint
+      title: Anti-torqued slant helices and Torqued Curves in Riemannian manifolds
+      creators:
+        - name: Muhittin Evren Aydin
+          role: author
+        - name: Adela Mihai
+          role: author
+        - name: Cihan Özgür
+          role: author
+      date: "2025-04-18"
+      subjects:
+        - system: arxiv
+          code: math.DG
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2025-04-18"
+          ids:
+            arxiv: "2504.13516"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2504.13516"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

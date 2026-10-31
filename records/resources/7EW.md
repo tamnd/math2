@@ -1,5 +1,37 @@
 ---
 records:
+    - id: 7EWB9ZRD9Z
+      kind: preprint
+      title: Protection against link errors and failures using network coding
+      creators:
+        - name: Shizheng Li
+          role: author
+        - name: Aditya Ramamoorthy
+          role: author
+      date: "2009-05-14"
+      subjects:
+        - system: arxiv
+          code: cs.IT
+        - system: arxiv
+          code: cs.NI
+        - system: arxiv
+          code: math.IT
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2009-05-14"
+          ids:
+            arxiv: "0905.2248"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "0905.2248"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: 7EWMWMQTG0
       kind: edited-volume
       title: Analytic Trends in Mathematical Physics

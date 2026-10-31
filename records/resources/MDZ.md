@@ -48,4 +48,35 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: MDZFW5GACV
+      kind: preprint
+      title: An Application of the Moving Frame Method to Integral Geometry in the Heisenberg Group
+      creators:
+        - name: Hung-Lin Chiu
+          role: author
+        - name: Yen-Chang Huang
+          role: author
+        - name: Sin-Hua Lai
+          role: author
+      date: "2015-09-03"
+      subjects:
+        - system: arxiv
+          code: math.DG
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2015-09-03"
+          ids:
+            arxiv: "1509.00950"
+            doi: 10.3842/sigma.2017.097
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "1509.00950"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

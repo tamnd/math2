@@ -30,4 +30,30 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: SAVNP6BB03
+      kind: preprint
+      title: Rigidity of Right-Angled Coxeter Groups
+      creators:
+        - name: David G. Radcliffe
+          role: author
+      date: "1999-01-12"
+      subjects:
+        - system: arxiv
+          code: math.GR
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "1999-01-12"
+          ids:
+            arxiv: math/9901049
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: math/9901049
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

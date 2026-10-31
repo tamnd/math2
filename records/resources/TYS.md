@@ -88,4 +88,71 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: TYS65EG479
+      kind: preprint
+      title: Schur-Weyl Duality for Toroidal Algebras of Type $A$
+      creators:
+        - name: Vyjayanthi Chari
+          role: author
+        - name: Lauren Grimley
+          role: author
+        - name: Zongzhu Lin
+          role: author
+        - name: Chad R. Mangum
+          role: author
+        - name: Christine Uhl
+          role: author
+        - name: Evan Wilson
+          role: author
+      date: "2024-07-10"
+      subjects:
+        - system: arxiv
+          code: math.RT
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2024-07-10"
+          ids:
+            arxiv: "2407.08004"
+            doi: 10.1080/00927872.2024.2357732
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2407.08004"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
+    - id: TYS9N30M63
+      kind: preprint
+      title: A Composite Bayesian Risk--Distributionally Robust Optimization Model for Stochastic Programming with Elliptical Distribution Ambiguity
+      creators:
+        - name: Renjie Chen
+          role: author
+        - name: Huifu Xu
+          role: author
+      date: "2026-10-12"
+      subjects:
+        - system: arxiv
+          code: math.OC
+        - system: arxiv
+          code: stat.ME
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-12"
+          ids:
+            arxiv: "2610.16883"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.16883"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

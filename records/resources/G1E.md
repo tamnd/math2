@@ -1,5 +1,35 @@
 ---
 records:
+    - id: G1E3KERT6K
+      kind: preprint
+      title: Sobolev Versus Homogeneous Sobolev Extension
+      creators:
+        - name: Pekka Koskela
+          role: author
+        - name: Riddhi Mishra
+          role: author
+        - name: Zheng Zhu
+          role: author
+      date: "2024-11-18"
+      subjects:
+        - system: arxiv
+          code: math.FA
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2024-11-18"
+          ids:
+            arxiv: "2411.11470"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2411.11470"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: G1ETC3Z84Y
       kind: edited-volume
       title: Analysis and Geometry in Several Complex Variables

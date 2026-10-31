@@ -43,4 +43,38 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: FF4HDVF1DC
+      kind: preprint
+      title: Sign-indefinite transmission conditions and near-zero eigenvalues and resonances
+      creators:
+        - name: Andrea Mantile
+          role: author
+        - name: Andrea Posilicano
+          role: author
+      date: "2026-10-13"
+      subjects:
+        - system: arxiv
+          code: math.AP
+        - system: arxiv
+          code: math-ph
+        - system: arxiv
+          code: math.MP
+        - system: arxiv
+          code: math.SP
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-13"
+          ids:
+            arxiv: "2610.18483"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.18483"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---
