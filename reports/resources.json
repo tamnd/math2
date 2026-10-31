@@ -1,0 +1,465 @@
+{
+  "day": "2026-10-31",
+  "resources": 7551,
+  "coverage": [
+    {
+      "source": "active_calculus",
+      "snapshot": "blake3:8343b800c382a8607181dd04c97811689dac790e549145c484d79b48d4afebd3",
+      "read": 1,
+      "rejected": 0,
+      "mapped": 1,
+      "coverage": 1
+    },
+    {
+      "source": "ams-series",
+      "snapshot": "blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013",
+      "read": 2209,
+      "rejected": 0,
+      "mapped": 2209,
+      "coverage": 1
+    },
+    {
+      "source": "applied_combinatorics",
+      "snapshot": "blake3:3dd09e0855ace7e7dbf04351de5c4cb134197b76059771e3dc68579ba7bd7415",
+      "read": 1,
+      "rejected": 0,
+      "mapped": 1,
+      "coverage": 1
+    },
+    {
+      "source": "austin_ula",
+      "snapshot": "blake3:8a2b90065562b3686f23f8886e6cb9b5135325465346c13d4c1a356e7bfbd43d",
+      "read": 1,
+      "rejected": 0,
+      "mapped": 1,
+      "coverage": 1
+    },
+    {
+      "source": "bmo",
+      "snapshot": "blake3:68eb2251465334659a3c67c12bc8e13877594a5a11510cf9a756eaf0f62db81c",
+      "read": 90,
+      "rejected": 0,
+      "mapped": 90,
+      "coverage": 1
+    },
+    {
+      "source": "ernst_ibl",
+      "snapshot": "blake3:8db21858b770aa92b552cdd5d529aeda51025a4f207340f4e48bf00dcddf1a1b",
+      "read": 1,
+      "rejected": 0,
+      "mapped": 1,
+      "coverage": 1
+    },
+    {
+      "source": "hott_book",
+      "snapshot": "blake3:0aae8d8b41ac4860ce271abf7dde72685cd653e53d0c5ddaf735fb97422b8e39",
+      "read": 1,
+      "rejected": 0,
+      "mapped": 1,
+      "coverage": 1
+    },
+    {
+      "source": "imo",
+      "snapshot": "blake3:c564548c1a7c5bfe4e71cf81d61c599a9d4016d698feff8fb0bc9beb0e2f88f9",
+      "read": 88,
+      "rejected": 0,
+      "mapped": 88,
+      "coverage": 1
+    },
+    {
+      "source": "komal",
+      "snapshot": "blake3:3658e660acc064da2c1a894c81d6f74fed1bee98fd8e0b9c468109c4c7e40452",
+      "read": 236,
+      "rejected": 0,
+      "mapped": 236,
+      "coverage": 1
+    },
+    {
+      "source": "kvant",
+      "snapshot": "blake3:9ef7ec326c8e38c2cc1957ddca07480f15b4e9ef49d8059191fc4a1c78c7cd39",
+      "read": 505,
+      "rejected": 0,
+      "mapped": 505,
+      "coverage": 1
+    },
+    {
+      "source": "lebl_diffyqs",
+      "snapshot": "blake3:cd3508463f1db1f683a5e1b4daec4dbf379ec75846dda7604f47eba93a55974b",
+      "read": 1,
+      "rejected": 0,
+      "mapped": 1,
+      "coverage": 1
+    },
+    {
+      "source": "lebl_ra",
+      "snapshot": "blake3:9a849eb7eac50d985ae65dc62f4057c2ab19a4a845a0b42a1cbc083703244eaf",
+      "read": 1,
+      "rejected": 0,
+      "mapped": 1,
+      "coverage": 1
+    },
+    {
+      "source": "lebl_scv",
+      "snapshot": "blake3:674137eabf02760c9e8dafdbe3e64bc7279562f175304f952eef3b8d1ef7eee8",
+      "read": 1,
+      "rejected": 0,
+      "mapped": 1,
+      "coverage": 1
+    },
+    {
+      "source": "levin_dmoi",
+      "snapshot": "blake3:6398698676f8cb7838a62d09b46b1a619d3f8d6f8fb7efd5eeeacf5ac0ad1bb6",
+      "read": 1,
+      "rejected": 0,
+      "mapped": 1,
+      "coverage": 1
+    },
+    {
+      "source": "napkin",
+      "snapshot": "blake3:4ed6a8681091f1982528026e06219208d001f9656231cf988d38e9d48cb24fc5",
+      "read": 1,
+      "rejected": 0,
+      "mapped": 1,
+      "coverage": 1
+    },
+    {
+      "source": "nptel",
+      "snapshot": "blake3:89dc2ec164a0108adbecf0ec8c793929c947e196b164e762035d3fdd89a3f469",
+      "read": 244,
+      "rejected": 0,
+      "mapped": 244,
+      "coverage": 1
+    },
+    {
+      "source": "ocw",
+      "snapshot": "blake3:ab57e74d727dbbb8cc6f30102b1562b267a6d76a54ffa725885e5e4ddfbb57b8",
+      "read": 54,
+      "rejected": 0,
+      "mapped": 54,
+      "coverage": 1
+    },
+    {
+      "source": "open_logic",
+      "snapshot": "blake3:a5eb116529d3e799289dd9f7e7530d0d446b3615f5608fe08c668241eee3c765",
+      "read": 1,
+      "rejected": 0,
+      "mapped": 1,
+      "coverage": 1
+    },
+    {
+      "source": "oyc",
+      "snapshot": "blake3:7fcf9e084021b81fdcea155d3c4d98d93489402ef48e9afd379b767e3bd16fac",
+      "read": 2,
+      "rejected": 0,
+      "mapped": 2,
+      "coverage": 1
+    },
+    {
+      "source": "putnam",
+      "snapshot": "blake3:317d171d8e409d9741a4f33624a74aedbca628bebf057e16b0f4fee2668a9f1f",
+      "read": 42,
+      "rejected": 0,
+      "mapped": 42,
+      "coverage": 1
+    },
+    {
+      "source": "springer-series",
+      "snapshot": "blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e",
+      "read": 4577,
+      "rejected": 0,
+      "mapped": 4577,
+      "coverage": 1
+    }
+  ],
+  "open": {
+    "total": 0
+  },
+  "closure": {
+    "texts": 0
+  },
+  "recall": [
+    {
+      "kind": "book",
+      "decade": "1900s",
+      "resources": 1,
+      "captures": [
+        "ams-series"
+      ],
+      "reason": "fewer than three captures hold works of the stratum",
+      "target": 0.9
+    },
+    {
+      "kind": "book",
+      "decade": "1910s",
+      "resources": 4,
+      "captures": [
+        "ams-series"
+      ],
+      "reason": "fewer than three captures hold works of the stratum",
+      "target": 0.9
+    },
+    {
+      "kind": "book",
+      "decade": "1920s",
+      "resources": 6,
+      "captures": [
+        "ams-series",
+        "springer-series"
+      ],
+      "reason": "fewer than three captures hold works of the stratum",
+      "target": 0.9
+    },
+    {
+      "kind": "book",
+      "decade": "1930s",
+      "resources": 13,
+      "captures": [
+        "ams-series"
+      ],
+      "reason": "fewer than three captures hold works of the stratum",
+      "target": 0.9
+    },
+    {
+      "kind": "book",
+      "decade": "1940s",
+      "resources": 11,
+      "captures": [
+        "ams-series",
+        "springer-series"
+      ],
+      "reason": "fewer than three captures hold works of the stratum",
+      "target": 0.9
+    },
+    {
+      "kind": "book",
+      "decade": "1950s",
+      "resources": 11,
+      "captures": [
+        "ams-series",
+        "springer-series"
+      ],
+      "reason": "fewer than three captures hold works of the stratum",
+      "target": 0.97
+    },
+    {
+      "kind": "book",
+      "decade": "1960s",
+      "resources": 148,
+      "captures": [
+        "ams-series",
+        "springer-series"
+      ],
+      "reason": "fewer than three captures hold works of the stratum",
+      "target": 0.97
+    },
+    {
+      "kind": "book",
+      "decade": "1970s",
+      "resources": 845,
+      "captures": [
+        "ams-series",
+        "springer-series"
+      ],
+      "reason": "fewer than three captures hold works of the stratum",
+      "target": 0.97
+    },
+    {
+      "kind": "book",
+      "decade": "1980s",
+      "resources": 1049,
+      "captures": [
+        "ams-series",
+        "springer-series"
+      ],
+      "reason": "fewer than three captures hold works of the stratum",
+      "target": 0.97
+    },
+    {
+      "kind": "book",
+      "decade": "1990s",
+      "resources": 1030,
+      "captures": [
+        "ams-series",
+        "springer-series"
+      ],
+      "reason": "fewer than three captures hold works of the stratum",
+      "target": 0.97
+    },
+    {
+      "kind": "book",
+      "decade": "2000s",
+      "resources": 1184,
+      "captures": [
+        "ams-series",
+        "springer-series"
+      ],
+      "reason": "fewer than three captures hold works of the stratum",
+      "target": 0.97
+    },
+    {
+      "kind": "book",
+      "decade": "2010s",
+      "resources": 1305,
+      "captures": [
+        "ams-series",
+        "springer-series"
+      ],
+      "reason": "fewer than three captures hold works of the stratum",
+      "target": 0.97
+    },
+    {
+      "kind": "book",
+      "decade": "2020s",
+      "resources": 655,
+      "captures": [
+        "ams-series",
+        "springer-series"
+      ],
+      "reason": "fewer than three captures hold works of the stratum",
+      "target": 0.97
+    },
+    {
+      "kind": "course",
+      "decade": "2010s",
+      "resources": 1,
+      "captures": [
+        "ocw"
+      ],
+      "reason": "fewer than three captures hold works of the stratum",
+      "target": 0.9
+    },
+    {
+      "kind": "other",
+      "decade": "1950s",
+      "resources": 1,
+      "captures": [
+        "imo"
+      ],
+      "reason": "fewer than three captures hold works of the stratum"
+    },
+    {
+      "kind": "other",
+      "decade": "1960s",
+      "resources": 10,
+      "captures": [
+        "imo"
+      ],
+      "reason": "fewer than three captures hold works of the stratum"
+    },
+    {
+      "kind": "other",
+      "decade": "1970s",
+      "resources": 124,
+      "captures": [
+        "bmo",
+        "imo",
+        "kvant"
+      ],
+      "reason": "no model converges"
+    },
+    {
+      "kind": "other",
+      "decade": "1980s",
+      "resources": 143,
+      "captures": [
+        "bmo",
+        "imo",
+        "kvant",
+        "putnam"
+      ],
+      "reason": "no model converges"
+    },
+    {
+      "kind": "other",
+      "decade": "1990s",
+      "resources": 114,
+      "captures": [
+        "bmo",
+        "imo",
+        "kvant",
+        "putnam"
+      ],
+      "reason": "no model converges"
+    },
+    {
+      "kind": "other",
+      "decade": "2000s",
+      "resources": 186,
+      "captures": [
+        "bmo",
+        "imo",
+        "komal",
+        "kvant",
+        "putnam"
+      ],
+      "reason": "no model converges"
+    },
+    {
+      "kind": "other",
+      "decade": "2010s",
+      "resources": 202,
+      "captures": [
+        "bmo",
+        "imo",
+        "komal",
+        "kvant",
+        "putnam"
+      ],
+      "reason": "no model converges"
+    },
+    {
+      "kind": "other",
+      "decade": "2020s",
+      "resources": 156,
+      "captures": [
+        "bmo",
+        "imo",
+        "komal",
+        "kvant",
+        "putnam"
+      ],
+      "reason": "no model converges"
+    }
+  ],
+  "depth": [
+    {
+      "tier": "T4",
+      "target": 1,
+      "by_depth": [
+        0,
+        7410,
+        0,
+        0,
+        0,
+        0
+      ],
+      "below": 7410
+    },
+    {
+      "tier": "T5",
+      "target": 2,
+      "by_depth": [
+        0,
+        55,
+        0,
+        0,
+        0,
+        0
+      ],
+      "below": 55
+    }
+  ],
+  "courses": {
+    "i1_courses": 241,
+    "i1_offerings": 241,
+    "i2_i3_courses": 0,
+    "named": 0,
+    "i4": {
+      "institutions": 30328,
+      "estimated": 0,
+      "courses": 0,
+      "low": 0,
+      "high": 0
+    }
+  }
+}
