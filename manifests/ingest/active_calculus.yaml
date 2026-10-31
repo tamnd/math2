@@ -1,0 +1,8 @@
+# The import manifest of active_calculus. m2 ingest writes this file. Run m2 ingest active_calculus -snapshot blake3:8343b800c382a8607181dd04c97811689dac790e549145c484d79b48d4afebd3 to make the same records again.
+source: active_calculus
+adapter: textbook/1
+snapshot: blake3:8343b800c382a8607181dd04c97811689dac790e549145c484d79b48d4afebd3
+records: 366
+hash: blake3:eb68affe074432ca4952f629bc65c96d15200bd5702ec7b4ed194122213a73f6
+classes:
+  open: 366

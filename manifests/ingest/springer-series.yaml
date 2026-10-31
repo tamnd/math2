@@ -1,0 +1,8 @@
+# The import manifest of springer-series. m2 ingest writes this file. Run m2 ingest springer-series -snapshot blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e to make the same records again.
+source: springer-series
+adapter: springer-series/1
+snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
+records: 4577
+hash: blake3:93750d1ce04a0d7f34362e4b3d3533e030027d79aecff99b23da43523495c703
+classes:
+  record: 4577

@@ -1,0 +1,46 @@
+---
+records:
+    - id: KS69649A6K
+      kind: monograph
+      title: "Complex Representations of \U0001D43A\U0001D43F(2,\U0001D43E) for Finite Fields \U0001D43E"
+      creators:
+        - name: Ilya Piatetski-Shapiro
+          role: author
+      date: "1983"
+      expressions:
+        - key: e1
+          kind: edition
+          date: "1983"
+          ids:
+            doi: 10.1090/conm/016
+          manifestations:
+            - key: m1
+              kind: print
+              publisher: American Mathematical Society
+              date: "1983"
+              ids:
+                isbn:
+                    - "9780821850190"
+                    - "9780821876022"
+      relations:
+        - kind: part_of
+          to: VAEN3CBGT1
+          source: cluster/1
+      scope:
+        value: in
+        rule: S4
+        by: m2 v0.6.2 scope/1
+      catalogue:
+        - source: ams-series
+          snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
+          native_id: 10.1090/conm/016
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.2 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.2 scope/1
+          note: to in
+---

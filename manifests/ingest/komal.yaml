@@ -1,0 +1,8 @@
+# The import manifest of komal. m2 ingest writes this file. Run m2 ingest komal -snapshot blake3:3658e660acc064da2c1a894c81d6f74fed1bee98fd8e0b9c468109c4c7e40452 to make the same records again.
+source: komal
+adapter: komal/1
+snapshot: blake3:3658e660acc064da2c1a894c81d6f74fed1bee98fd8e0b9c468109c4c7e40452
+records: 5339
+hash: blake3:c5a16031fa948009d8871ef992745999b2d7297f3c94e20859ea352dc8f35f10
+classes:
+  record: 5339

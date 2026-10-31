@@ -1,0 +1,8 @@
+# The import manifest of applied_combinatorics. m2 ingest writes this file. Run m2 ingest applied_combinatorics -snapshot blake3:3dd09e0855ace7e7dbf04351de5c4cb134197b76059771e3dc68579ba7bd7415 to make the same records again.
+source: applied_combinatorics
+adapter: textbook/1
+snapshot: blake3:3dd09e0855ace7e7dbf04351de5c4cb134197b76059771e3dc68579ba7bd7415
+records: 948
+hash: blake3:a1be5dff727b91faf7084bb2ec17b934d61a9805523067a768ae43b735989f81
+classes:
+  open: 948

@@ -1,0 +1,76 @@
+---
+records:
+    - id: MWMAGBQ7QQ
+      kind: problem-set
+      title: Kvant 2021, no. 9
+      date: "2021"
+      expressions:
+        - key: e1
+          kind: edition
+          date: "2021"
+          structure: MWMAGBQ7QQ/e1.json
+      relations:
+        - kind: part_of
+          to: W84MAFPC23
+          source: cluster/1
+      scope:
+        value: in
+        rule: S4
+        by: m2 v0.6.2 scope/1
+      catalogue:
+        - source: kvant
+          snapshot: blake3:9ef7ec326c8e38c2cc1957ddca07480f15b4e9ef49d8059191fc4a1c78c7cd39
+          native_id: 2021-9
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.2 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.2 scope/1
+          note: to in
+    - id: MWMR4VATED
+      kind: monograph
+      title: Elementary Algebraic Geometry
+      creators:
+        - name: Klaus Hulek
+          role: author
+      date: "2003-02-13"
+      expressions:
+        - key: e1
+          kind: edition
+          date: "2003-02-13"
+          ids:
+            doi: 10.1090/stml/020
+          manifestations:
+            - key: m1
+              kind: print
+              publisher: American Mathematical Society
+              date: "2003-02-13"
+              ids:
+                isbn:
+                    - "9781470421342"
+                    - "9780821829523"
+      relations:
+        - kind: part_of
+          to: 6RX4VMGQKK
+          source: cluster/1
+      scope:
+        value: in
+        rule: S4
+        by: m2 v0.6.2 scope/1
+      catalogue:
+        - source: ams-series
+          snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
+          native_id: 10.1090/stml/020
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.2 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.2 scope/1
+          note: to in
+---

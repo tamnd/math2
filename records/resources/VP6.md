@@ -1,0 +1,46 @@
+---
+records:
+    - id: VP67JPBT3F
+      kind: monograph
+      title: 'Advances in Non-Commutative Ring Theory: Proceedings of the Twelfth George H. Hudson Symposium Held at Plattsburgh, USA, April 23–25, 1981'
+      creators:
+        - name: Patrick J. Fleury
+          role: author
+      date: "1982"
+      expressions:
+        - key: e1
+          kind: edition
+          date: "1982"
+          ids:
+            doi: 10.1007/bfb0067319
+          manifestations:
+            - key: m1
+              kind: print
+              publisher: Springer Berlin Heidelberg
+              date: "1982"
+              ids:
+                isbn:
+                    - "9783540115977"
+                    - "9783540393719"
+      relations:
+        - kind: part_of
+          to: MYK049V6DA
+          source: cluster/1
+      scope:
+        value: in
+        rule: S4
+        by: m2 v0.6.2 scope/1
+      catalogue:
+        - source: springer-series
+          snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
+          native_id: 10.1007/bfb0067319
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.2 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.2 scope/1
+          note: to in
+---

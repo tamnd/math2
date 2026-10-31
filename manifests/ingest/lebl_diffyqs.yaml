@@ -1,0 +1,8 @@
+# The import manifest of lebl_diffyqs. m2 ingest writes this file. Run m2 ingest lebl_diffyqs -snapshot blake3:cd3508463f1db1f683a5e1b4daec4dbf379ec75846dda7604f47eba93a55974b to make the same records again.
+source: lebl_diffyqs
+adapter: textbook/1
+snapshot: blake3:cd3508463f1db1f683a5e1b4daec4dbf379ec75846dda7604f47eba93a55974b
+records: 1142
+hash: blake3:3409628ab98cb9348f3c7517d33c12cd3a76f2c07a82fbb8432f1beda06c5fac
+classes:
+  open: 1142

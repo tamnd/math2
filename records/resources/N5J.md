@@ -1,0 +1,90 @@
+---
+records:
+    - id: N5JDNEVKHR
+      kind: monograph
+      title: Plateau’s Problem
+      creators:
+        - name: Frederick Almgren
+          role: author
+      date: "2001-08-27"
+      expressions:
+        - key: e1
+          kind: edition
+          date: "2001-08-27"
+          ids:
+            doi: 10.1090/stml/013
+          manifestations:
+            - key: m1
+              kind: print
+              publisher: American Mathematical Society
+              date: "2001-08-27"
+              ids:
+                isbn:
+                    - "9781470421298"
+                    - "9780821884485"
+                    - "9780821827475"
+      relations:
+        - kind: part_of
+          to: 6RX4VMGQKK
+          source: cluster/1
+      scope:
+        value: in
+        rule: S4
+        by: m2 v0.6.2 scope/1
+      catalogue:
+        - source: ams-series
+          snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
+          native_id: 10.1090/stml/013
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.2 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.2 scope/1
+          note: to in
+    - id: N5JFD8FTAE
+      kind: monograph
+      title: 'Peeling Random Planar Maps: École d’Été de Probabilités de Saint-Flour XLIX – 2019'
+      creators:
+        - name: Nicolas Curien
+          role: author
+      date: "2023"
+      expressions:
+        - key: e1
+          kind: edition
+          date: "2023"
+          ids:
+            doi: 10.1007/978-3-031-36854-7
+          manifestations:
+            - key: m1
+              kind: print
+              publisher: Springer Nature Switzerland
+              date: "2023"
+              ids:
+                isbn:
+                    - "9783031368530"
+                    - "9783031368547"
+      relations:
+        - kind: part_of
+          to: MYK049V6DA
+          source: cluster/1
+      scope:
+        value: in
+        rule: S4
+        by: m2 v0.6.2 scope/1
+      catalogue:
+        - source: springer-series
+          snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
+          native_id: 10.1007/978-3-031-36854-7
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.2 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.2 scope/1
+          note: to in
+---

@@ -1,0 +1,8 @@
+# The import manifest of bmo. m2 ingest writes this file. Run m2 ingest bmo -snapshot blake3:68eb2251465334659a3c67c12bc8e13877594a5a11510cf9a756eaf0f62db81c to make the same records again.
+source: bmo
+adapter: bmo/1
+snapshot: blake3:68eb2251465334659a3c67c12bc8e13877594a5a11510cf9a756eaf0f62db81c
+records: 426
+hash: blake3:fbd6e92ac7dc578aedb22c9e3cea33f996424100b9aab5ebc5baa5970fdf2dfb
+classes:
+  record: 426

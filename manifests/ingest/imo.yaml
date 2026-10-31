@@ -1,0 +1,8 @@
+# The import manifest of imo. m2 ingest writes this file. Run m2 ingest imo -snapshot blake3:c564548c1a7c5bfe4e71cf81d61c599a9d4016d698feff8fb0bc9beb0e2f88f9 to make the same records again.
+source: imo
+adapter: imo/1
+snapshot: blake3:c564548c1a7c5bfe4e71cf81d61c599a9d4016d698feff8fb0bc9beb0e2f88f9
+records: 106
+hash: blake3:a003e2ebe0c546c3235147525e6ca1aa172f48a1665d1ab987b08b53ae6bd14f
+classes:
+  record: 106

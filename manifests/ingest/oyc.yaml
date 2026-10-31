@@ -1,0 +1,8 @@
+# The import manifest of oyc. m2 ingest writes this file. Run m2 ingest oyc -snapshot blake3:7fcf9e084021b81fdcea155d3c4d98d93489402ef48e9afd379b767e3bd16fac to make the same records again.
+source: oyc
+adapter: oyc/1
+snapshot: blake3:7fcf9e084021b81fdcea155d3c4d98d93489402ef48e9afd379b767e3bd16fac
+records: 2
+hash: blake3:df07a761f4cab41cdd5f3a57319a751462beb3356f0cc99cf49b10e407a32743
+classes:
+  record: 2

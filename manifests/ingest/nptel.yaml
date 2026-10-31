@@ -1,0 +1,8 @@
+# The import manifest of nptel. m2 ingest writes this file. Run m2 ingest nptel -snapshot blake3:89dc2ec164a0108adbecf0ec8c793929c947e196b164e762035d3fdd89a3f469 to make the same records again.
+source: nptel
+adapter: nptel/1
+snapshot: blake3:89dc2ec164a0108adbecf0ec8c793929c947e196b164e762035d3fdd89a3f469
+records: 244
+hash: blake3:947b8e2902ef87d676b9e4b5c4c415fabddeaef76768e2ad822ec3d99f64e63f
+classes:
+  record: 244

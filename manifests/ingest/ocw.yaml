@@ -1,0 +1,8 @@
+# The import manifest of ocw. m2 ingest writes this file. Run m2 ingest ocw -snapshot blake3:ab57e74d727dbbb8cc6f30102b1562b267a6d76a54ffa725885e5e4ddfbb57b8 to make the same records again.
+source: ocw
+adapter: ocw/1
+snapshot: blake3:ab57e74d727dbbb8cc6f30102b1562b267a6d76a54ffa725885e5e4ddfbb57b8
+records: 54
+hash: blake3:e5e77105b0a375b89d964609235b0c15432ed7b833393304ba2b37f6ea878e06
+classes:
+  share-alike-nc: 54

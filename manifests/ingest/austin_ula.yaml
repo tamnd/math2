@@ -1,0 +1,8 @@
+# The import manifest of austin_ula. m2 ingest writes this file. Run m2 ingest austin_ula -snapshot blake3:8a2b90065562b3686f23f8886e6cb9b5135325465346c13d4c1a356e7bfbd43d to make the same records again.
+source: austin_ula
+adapter: textbook/1
+snapshot: blake3:8a2b90065562b3686f23f8886e6cb9b5135325465346c13d4c1a356e7bfbd43d
+records: 717
+hash: blake3:cb860123650779f7ecaa8a8e7aa0d9fb74e541c81120af80dec7e11908bdb150
+classes:
+  open: 717

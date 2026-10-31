@@ -1,0 +1,8 @@
+# The import manifest of open_logic. m2 ingest writes this file. Run m2 ingest open_logic -snapshot blake3:a5eb116529d3e799289dd9f7e7530d0d446b3615f5608fe08c668241eee3c765 to make the same records again.
+source: open_logic
+adapter: textbook/1
+snapshot: blake3:a5eb116529d3e799289dd9f7e7530d0d446b3615f5608fe08c668241eee3c765
+records: 2549
+hash: blake3:a9cf0007224c580312b109ceef1594ff2ea51fea141f9fe2520addd1ab5b5e39
+classes:
+  open: 2549
