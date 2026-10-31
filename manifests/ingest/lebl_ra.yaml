@@ -3,6 +3,6 @@ source: lebl_ra
 adapter: textbook/1
 snapshot: blake3:9a849eb7eac50d985ae65dc62f4057c2ab19a4a845a0b42a1cbc083703244eaf
 records: 1941
-hash: blake3:8645eb8cbf8ce6db9fd3d2a2bc96237471fbf5bafe3b1e892fdd9a12c7087656
+hash: blake3:a9f53f1a3100e674ae47bc153faf48ed6a9cd629fd8abd39f0112185343850ad
 classes:
   open: 1941

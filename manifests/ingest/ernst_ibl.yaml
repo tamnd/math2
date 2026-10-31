@@ -3,6 +3,6 @@ source: ernst_ibl
 adapter: textbook/1
 snapshot: blake3:8db21858b770aa92b552cdd5d529aeda51025a4f207340f4e48bf00dcddf1a1b
 records: 648
-hash: blake3:ac189cf54bb710a8a664135407ca15066de9521ef8ddc8793a47ce783bada2fe
+hash: blake3:4b0cbcf5f1ee09ccf2fd415e2e964bddc9db2c974e8c5ed7dd3c2a2efbb53a7e
 classes:
   open: 648

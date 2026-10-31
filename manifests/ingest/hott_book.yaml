@@ -3,6 +3,6 @@ source: hott_book
 adapter: textbook/1
 snapshot: blake3:0aae8d8b41ac4860ce271abf7dde72685cd653e53d0c5ddaf735fb97422b8e39
 records: 2562
-hash: blake3:f1ff3ee2fafa6e7996d98eae9f36840ab50692a0bd28706dc754557d488b3a49
+hash: blake3:fe47156011ebeb90308e4e08c798010df87afddcc12c4832cdd8f9f15b98e6f2
 classes:
   open: 2562

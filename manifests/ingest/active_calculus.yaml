@@ -3,6 +3,6 @@ source: active_calculus
 adapter: textbook/1
 snapshot: blake3:8343b800c382a8607181dd04c97811689dac790e549145c484d79b48d4afebd3
 records: 366
-hash: blake3:eb68affe074432ca4952f629bc65c96d15200bd5702ec7b4ed194122213a73f6
+hash: blake3:10431afe94f4114936aa2d9b6f15c68922b2fe9b4458e24039ff337a04150ca2
 classes:
   open: 366
