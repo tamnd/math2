@@ -1,0 +1,3259 @@
+---
+records:
+    - from: E9YWZW7J5X/e1
+      n: 1
+      parsed:
+        authors:
+            - G. Alessandrini
+            - R. Magnanini
+        title: The index of isolated critical points and solutions of elliptic equations in the plane
+        venue: Ann. Scoula. Norm. Sup. Pisa Cl Sci.
+        volume: "19"
+        pages: "567"
+        year: "1992"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 2
+      parsed:
+        authors:
+            - G. Alessandrini
+            - E. Rosset
+            - and J.K. Seo
+        title: Optimal size estimates for the inverse conductivity poblem with one measurements
+        venue: Proc. Amer. Math. Soc
+        volume: "128"
+        pages: "53"
+        year: "2000"
+        ids:
+            doi: 10.1090/s0002-9939-99-05474-x
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 3
+      to: NT81RD05F9/e1
+      parsed:
+        authors:
+            - H. Ammari
+            - H. Kang
+        title: Reconstruction of small inhomogeneities from boundary measurement, Lecture Notes in Mathematics
+        year: "2004"
+        ids:
+            doi: 10.1007/b98245
+      score: 1
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 4
+      parsed:
+        authors:
+            - H. Ammari
+            - O. Kwon
+            - J.K. Seo
+            - and E.J. Woo
+        title: T-scan electrical impedance imaging system for anomaly detection
+        venue: IEEE Trans. Biomed. Eng.
+        volume: "65"
+        pages: "252"
+        year: "2004"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 5
+      parsed:
+        authors:
+            - H. Ammari
+            - J.K. Seo
+        title: An accurate formula for the reconstruction of conductivity inhomogeneity
+        venue: Advances in Applied Math.
+        volume: "30"
+        pages: "679"
+        year: "2003"
+        ids:
+            doi: 10.1016/s0196-8858(02)00557-2
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 6
+      parsed:
+        authors:
+            - K. Astala
+            - L. Paivarinta
+        title: Calderon’s inverse conductivity problem in the plane
+        venue: Annals of Mathematics
+        volume: "163"
+        pages: "265"
+        year: "2006"
+        ids:
+            doi: 10.4007/annals.2006.163.265
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 7
+      parsed:
+        authors:
+            - D.C. Barber
+            - B.H. Brown
+        title: 'Applied potential tomography,. Phys. E: Sci. Instruments 17 (1984)'
+        venue: 'Phys. E: Sci. Instruments'
+        volume: "17"
+        pages: "723"
+        year: "1984"
+        ids:
+            doi: 10.1088/0022-3735/17/9/002
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 8
+      parsed:
+        authors:
+            - K. Boone
+            - D. Barber
+            - and B. Brown
+        title: 'Imaging with electricity: report of the european concerted action on impedance tomography'
+        venue: J. Med. Eng. Tech
+        volume: "21"
+        pages: "201"
+        year: "1997"
+        ids:
+            doi: 10.3109/03091909709070013
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 9
+      parsed:
+        authors:
+            - A.P. Calderon
+        title: On an inverse boundary value problem
+        year: "1980"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 10
+      parsed:
+        authors:
+            - M. Cheney
+            - D. Isaacson
+            - and J.C. Newell
+        title: Electrical impedance tomography
+        venue: SIAM Review
+        volume: "41"
+        pages: "85"
+        year: "1999"
+        ids:
+            doi: 10.1137/s0036144598333613
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 11
+      parsed:
+        authors:
+            - D.C. Ghiglia
+            - M.D. Pritt
+        title: 'Two-dimensional phase unwrapping: Theory, algorithms and software'
+        year: "1998"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 12
+      parsed:
+        authors:
+            - H. Griffiths
+            - H.T. Leung
+            - and R.J. Williams
+        title: Imaging the complex impedance of the thorax
+        year: "1992"
+        ids:
+            doi: 10.1088/0143-0815/13/a/016
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 13
+      parsed:
+        authors:
+            - R.P. Henderson
+            - J.G. Webster
+        title: An impedance camera for spatially specific measurements of the thorax
+        venue: IEEE Trans. Biomed. Eng.
+        volume: "25"
+        pages: "250"
+        year: "1978"
+        ids:
+            doi: 10.1109/tbme.1978.326329
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 14
+      parsed:
+        title: 'Electrical impedance tomography: Methods, history and applications'
+        year: "2004"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 15
+      parsed:
+        authors:
+            - Y.Z. Ider
+            - O. Birgul
+        title: Use of the magnetic field generated by the internal distribution of injected currents for electrical impedance tomography (mr-eit)
+        venue: Elektrik
+        volume: "6"
+        pages: "215"
+        year: "1998"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 16
+      parsed:
+        authors:
+            - V. Isakov
+        title: On uniqueness of recovery of a discontinuous conductivity coefficient
+        venue: Comm.Pure Appl. Math.
+        volume: "41"
+        pages: "856"
+        year: "1988"
+        ids:
+            doi: 10.1002/cpa.3160410702
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 17
+      parsed:
+        authors:
+            - M. Joy
+            - G. Scott
+            - and R. Henkelman
+        title: In vivo detection of applied electric currents by magnetic resonance imaging
+        venue: Magn. Reson. Imag.
+        volume: "7"
+        pages: "89"
+        year: "1989"
+        ids:
+            doi: 10.1016/0730-725x(89)90328-7
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 18
+      parsed:
+        authors:
+            - H. Kang
+            - J.K. Seo
+        title: 'Identification of domains with near-extreme conductivity: global stability and error estimates'
+        venue: Inverse Problems
+        volume: "15"
+        pages: "851"
+        year: "1999"
+        ids:
+            doi: 10.1088/0266-5611/15/4/302
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 19
+      parsed:
+        authors:
+            - C.E. Kenig
+            - J. Sjöstrand
+            - and G. Uhlmann
+        title: The calderón problem with partial data
+        venue: Annals of Mathematics
+        volume: "165"
+        pages: "567"
+        year: "2007"
+        ids:
+            doi: 10.4007/annals.2007.165.567
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 20
+      parsed:
+        authors:
+            - H.S. Khang
+            - B.I. Lee
+            - S.H. Oh
+            - E.J. Woo
+            - S.Y. Lee
+            - M.H. Cho
+            - O. Kwon
+            - J.R. Yoon
+            - and J.K. Seo
+        title: 'J-substitution algorithm in magnetic resonance electrical impedance tomography (MREIT): phantom experiments for static resistivity images'
+        venue: IEEE Trans. Med. Imaging
+        volume: "21"
+        pages: "695"
+        year: "2002"
+        ids:
+            doi: 10.1109/tmi.2002.800604
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 21
+      parsed:
+        authors:
+            - S. Kim
+            - J.K. Seo
+            - E.J. Woo
+            - and H. Zribi
+        title: 'Multi-frequency trans-admittance scanner: mathematical framework and feasibility'
+        venue: Appl. Math.
+        volume: "69"
+        pages: "22"
+        year: "2008"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 22
+      parsed:
+        authors:
+            - S.W. Kim
+            - O. Kwon
+            - J.K. Seo
+            - and J.R. Yoon
+        title: On a nonlinear partial differential equation arising in magnetic resonance electrical impedance tomography
+        venue: SIAM J. Math Anal.
+        volume: "34"
+        pages: "511"
+        year: "2002"
+        ids:
+            doi: 10.1137/s0036141001391354
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 23
+      parsed:
+        authors:
+            - S.W. Kim
+            - J.K. Seo
+            - E.J. Woo
+            - and H. Zribi
+        title: Frequency difference trans-admittance scanner for breast cancer detection
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 24
+      parsed:
+        authors:
+            - Y.J. Kim
+            - O. Kwon
+            - J.K. Seo
+            - and E.J. Woo
+        title: Uniqueness and convergence of conductivity image reconstruction in magnetic resonance electrical impedance tomography
+        venue: Inv. Prob.
+        volume: "19"
+        pages: "1213"
+        year: "2003"
+        ids:
+            doi: 10.1088/0266-5611/19/5/312
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 25
+      parsed:
+        authors:
+            - R. Kohn
+            - M. Vogelius
+        title: Determining conductivity by boundary measurements
+        venue: Comm.Pure Appl. Math.
+        volume: "37"
+        pages: "113"
+        year: "1984"
+        ids:
+            doi: 10.1002/cpa.3160370302
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 26
+      parsed:
+        authors:
+            - O. Kwon
+            - C.J. Park
+            - E.J. Park
+            - J.K. Seo
+            - and E.J. Woo
+        title: |-
+            Electrical conductivity imaging using a variational method in b
+                              z
+                              -based mreit
+        venue: Inverse Problems
+        volume: "21"
+        pages: "969"
+        year: "2005"
+        ids:
+            doi: 10.1088/0266-5611/21/3/011
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 27
+      parsed:
+        authors:
+            - O. Kwon
+            - J.K. Seo
+        title: Total size estimation and identification of multiple anomalies in the inverse conductivity problem
+        venue: Inverse Problems
+        volume: "17"
+        pages: "59"
+        year: "2001"
+        ids:
+            doi: 10.1088/0266-5611/17/1/306
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 28
+      parsed:
+        authors:
+            - O. Kwon
+            - J.K. Seo
+            - and S.W. Kim
+        title: Location search techniques for a grounded conductor
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 29
+      parsed:
+        authors:
+            - O. Kwon
+            - J.K. Seo
+            - and J.R. Yoon
+        title: A real-time algorithm for the location search of discontinuous concuctivites with one measurement
+        venue: Comm. Pure Appl. Math.
+        volume: "55"
+        pages: "1"
+        year: "2002"
+        ids:
+            doi: 10.1002/cpa.3009
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 30
+      parsed:
+        authors:
+            - O. Kwon
+            - E.J. Woo
+            - J.R. Yoon
+            - and J.K. Seo
+        title: 'Magnetic resonance electrical impedance tomography (mreit): simulation study of j-substitution algorithm'
+        venue: IEEE Trans. Biomed. Eng.
+        volume: "49"
+        pages: "160"
+        year: "2002"
+        ids:
+            doi: 10.1109/10.979355
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 31
+      parsed:
+        authors:
+            - O. Kwon
+            - J. R. Yoon
+            - J.K. Seo
+            - E.J. Woo
+            - and Y.G. Cho
+        title: Estimation of anomaly location and size using electrical impedance tomography
+        venue: IEEE Trans. Biomed. Eng.
+        volume: "50"
+        pages: "89"
+        year: "2003"
+        ids:
+            doi: 10.1109/tbme.2002.805474
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 32
+      parsed:
+        authors:
+            - B.I. Lee
+            - S.H. Oh
+            - E.J. Woo
+            - S.Y. Lee
+            - M.H. Cho
+            - O. Kwon
+            - J.K. Seo
+            - and W.S. Baek
+        title: Static resistivity image of a cubic saline phantom in magnetic resonance electrical impedance tomography (mreit)
+        venue: Physiol. Meas.
+        volume: "24"
+        pages: "579"
+        year: "2003"
+        ids:
+            doi: 10.1088/0967-3334/24/2/367
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 33
+      parsed:
+        authors:
+            - J. Lee
+            - E.J. Woo
+            - H. Zribi
+            - S.W. Kim
+            - and J.K. Seo
+        title: 'Multi-frequency electrical impedance tomography (mfeit): frequency-difference imaging and its feasibility'
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 34
+      parsed:
+        authors:
+            - J.J. Liu
+            - H.C. Pyo
+            - J.K. Seo
+            - and E.J. Woo
+        title: Convergence properties and stability issues in mreit algorithm
+        venue: Contemporary Mathematics
+        volume: "408"
+        pages: "201"
+        year: "2006"
+        ids:
+            doi: 10.1090/conm/408/07694
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 35
+      parsed:
+        authors:
+            - J.J. Liu
+            - J.K. Seo
+            - M. Sini
+            - and E.J. Woo
+        title: |-
+            On the convergence of the harmonic b
+                              z
+                              algorithm in magnetic resonance electrical impedance tomography
+        venue: Appl. Math.
+        volume: "67"
+        pages: "1259"
+        year: "2007"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 36
+      parsed:
+        authors:
+            - P. Metherall
+        title: Three dimensional electrical impedance tomography of the human thorax
+        year: "1998"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 37
+      parsed:
+        authors:
+            - P. Metherall
+            - D.C. Barber
+            - R.H. Smallwood
+            - and B.H. Brown
+        title: Three-dimensional electrical imepdance tomography
+        venue: Nature
+        volume: "380"
+        pages: "509"
+        year: "1996"
+        ids:
+            doi: 10.1038/380509a0
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 38
+      parsed:
+        authors:
+            - A. Nachman
+        title: Reconstructions from boundary measurements
+        venue: Ann. Math.
+        volume: "128"
+        pages: "531"
+        year: "1988"
+        ids:
+            doi: 10.2307/1971435
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 39
+      parsed:
+        authors:
+            - A. Nachman
+        title: Global uniqueness for a two-dimensional inverse boundary value problem
+        venue: Ann. Math.
+        volume: "142"
+        pages: "71"
+        year: "1996"
+        ids:
+            doi: 10.2307/2118653
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 40
+      parsed:
+        authors:
+            - B.M. Eyuboglu O. Birgul
+            - Y.Z. Ider
+        title: Current constrained voltage scaled reconstruction (ccvsr) algorithm for mr-eit and its performance with different probing current patterns
+        venue: Phys. Med. Biol.
+        volume: "48"
+        pages: "653"
+        year: "2003"
+        ids:
+            doi: 10.1088/0031-9155/48/5/307
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 41
+      parsed:
+        authors:
+            - S.H. Oh
+            - B.I. Lee
+            - T.S. Park
+            - S.Y. Lee
+            - E.J. Woo
+            - M.H. Cho
+            - J.K. Seo
+            - and O. Kwon
+        title: Magnetic resonance electrical impedance tomography at 3 tesla field strength
+        venue: Magn. Reson. Med.
+        volume: "51"
+        pages: "1292"
+        year: "2004"
+        edition: "51"
+        ids:
+            doi: 10.1002/mrm.20091
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 42
+      parsed:
+        authors:
+            - S.H. Oh
+            - B.I. Lee
+            - E.J. Woo
+            - S.Y. Lee
+            - M.H. Cho
+            - O. Kwon
+            - and J.K. Seo
+        title: |-
+            Conductivity and current density image reconstruction using harmonic b
+                              z
+                              algorithm in magnetic resonance electrical impedance tomography
+        venue: Phys. Med. Biol.
+        volume: "48"
+        pages: "3101"
+        year: "2003"
+        ids:
+            doi: 10.1088/0031-9155/48/19/001
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 43
+      parsed:
+        authors:
+            - T.I. Oh
+            - J. Lee
+            - J.K. Seo
+            - S.W. Kim
+            - and E.J. Woo
+        title: Feasibility of breast cancer lesion detection using multi-frequency trans-admittance scanner (tas) with 10hz to 500khz bandwidth
+        venue: Physiological Measurement
+        volume: "28"
+        pages: S71
+        year: "2007"
+        ids:
+            doi: 10.1088/0967-3334/28/7/s06
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 44
+      parsed:
+        authors:
+            - C. Park
+            - O. Kwon
+            - E.J. Woo
+            - and J.K. Seo
+        title: |-
+            Electrical conductivity imaging using gradient b
+                              z
+                              decomposition algorithm in magnetic resonance electrical impedance tomography (mreit)
+        venue: IEEE Trans. Med. Imag.
+        volume: "23"
+        pages: "388"
+        year: "2004"
+        ids:
+            doi: 10.1109/tmi.2004.824228
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 45
+      parsed:
+        authors:
+            - C. Park
+            - E.J. Park
+            - E.J. Woo
+            - O. Kwon
+            - and J.K. Seo
+        title: |-
+            Static conductivity imaging using variational gradient b
+                              z
+                              algorithm in magnetic resonance electrical impedance tomography
+        venue: Physiol. Meas.
+        volume: "25"
+        pages: "257"
+        year: "2004"
+        ids:
+            doi: 10.1088/0967-3334/25/1/030
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 46
+      parsed:
+        authors:
+            - H.C. Pyo
+            - O. Kwon
+            - J.K. Seo
+            - and E.J. Woo
+        title: Mathematical framework for bz-based mreit model in electrical impedance imaging
+        venue: Compter and Mathematics with Applications
+        volume: "51"
+        pages: "817"
+        year: "2006"
+        ids:
+            doi: 10.1016/j.camwa.2006.03.002
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 47
+      parsed:
+        authors:
+            - R. Sadleir
+            - S. Grant
+            - S.U. Zhang
+            - B.I. Lee
+            - H.C. Pyo
+            - S.H. Oh
+            - C. Park
+            - E.J. Woo
+            - S.Y. Lee
+            - O. Kwon
+            - and J.K. Seo
+        title: Noise analysis in magnetic resonance electrical impedance tomography at 3 and 11 t field strengths
+        venue: Physiol. Meas.
+        volume: "26"
+        pages: "875"
+        year: "2005"
+        ids:
+            doi: 10.1088/0967-3334/26/5/023
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 48
+      parsed:
+        authors:
+            - F. Santosa
+            - M. Vogelius
+        title: A backprojection algorithm for electrical impedance imaging
+        venue: SIAM J. Appl. Math.
+        volume: "50"
+        pages: "216"
+        year: "1990"
+        ids:
+            doi: 10.1137/0150014
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 49
+      parsed:
+        authors:
+            - G.J. Saulnier
+            - R.S. Blue
+            - J.C. Newell
+            - D. Isaacson
+            - and P.M. Edic
+        title: Electrical impedance tomography
+        venue: IEEE Sig. Proc. Mag.
+        volume: "18"
+        pages: "31"
+        year: "2001"
+        ids:
+            doi: 10.1109/79.962276
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 50
+      parsed:
+        authors:
+            - G. Scott
+            - R. Armstrong M. Joy
+            - and R. Henkelman
+        title: Measurement of nonuniform current density by magnetic resonance
+        venue: IEEE Trans. Med. Imag.
+        volume: "10"
+        pages: "362"
+        year: "1991"
+        ids:
+            doi: 10.1109/42.97586
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 51
+      parsed:
+        authors:
+            - G. Scott
+            - R. Armstrong M. Joy
+            - and R. Henkelman
+        title: Sensitivity of magnetic-resonance current density imaging
+        venue: J. Mag. Res.
+        volume: "97"
+        pages: "235"
+        year: "1992"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 52
+      parsed:
+        authors:
+            - J.K. Seo
+        title: On the uniqueness in the inverse conductivity problem
+        venue: J. Fourier Anal. Appl.
+        volume: "2"
+        pages: "227"
+        year: "1996"
+        ids:
+            doi: 10.1007/s00041-001-4030-7
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 53
+      parsed:
+        authors:
+            - J.K. Seo
+            - O. Kwon
+            - H. Ammari
+            - and E.J. Woo
+        title: 'Mathematical framework and anomaly estimation algorithm for breast cancer detection: electrical impedance technique using ts2000 configuration'
+        venue: IEEE Trans. Biomed. Eng.
+        volume: "51"
+        pages: "1898"
+        year: "2004"
+        ids:
+            doi: 10.1109/tbme.2004.834261
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 54
+      parsed:
+        authors:
+            - J.K. Seo
+            - O. Kwon
+            - B.I. Lee
+            - and E.J. Woo
+        title: 'Reconstruction of current density distributions in axially symmetric cylindrical sections using one component of magnetic flux density: computer simulation study'
+        venue: Physiol. Meas.
+        volume: "24"
+        pages: "565"
+        year: "2003"
+        ids:
+            doi: 10.1088/0967-3334/24/2/366
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 55
+      parsed:
+        authors:
+            - J.K. Seo
+            - H.C. Pyo
+            - C.J. Park
+            - O. Kwon
+            - and E.J. Woo
+        title: 'Image reconstruction of anisotropic conductivity tensor distribution in mreit: computer simulation study'
+        venue: Phys. Med. Biol.
+        volume: "49"
+        pages: "4371"
+        year: "2004"
+        ids:
+            doi: 10.1088/0031-9155/49/18/012
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 56
+      parsed:
+        authors:
+            - J.K. Seo
+            - J.R. Yoon
+            - E.J. Woo
+            - and O. Kwon
+        title: Reconstruction of conductivity and current density images using only one component of magnetic field measurements
+        year: "2003"
+        ids:
+            doi: 10.1109/tbme.2003.816080
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 57
+      parsed:
+        authors:
+            - E. Somersalo
+            - D. Isaacson
+            - and M. Cheney
+        title: Existence and uniqueness for electrode models for electric current computed tomography
+        venue: SIAM J. Appl. Math.
+        volume: "52"
+        pages: "1023"
+        year: "1992"
+        ids:
+            doi: 10.1137/0152060
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 58
+      parsed:
+        authors:
+            - J. Sylvester
+            - G. Uhlmann
+        title: A uniqueness theorem for an inverse boundary value problem in electrical prospection
+        venue: Comm. Pure Appl. Math.
+        volume: "39"
+        pages: "91"
+        year: "1986"
+        ids:
+            doi: 10.1002/cpa.3160390106
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 59
+      parsed:
+        authors:
+            - J. Sylvester
+            - G. Uhlmann
+        title: A global uniqueness theorem for an inverse boundary value problem
+        venue: Ann. Math.
+        volume: "125"
+        pages: "153"
+        year: "1987"
+        ids:
+            doi: 10.2307/1971291
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 60
+      parsed:
+        authors:
+            - A.T. Tidswell
+            - A. Gibson
+            - R.H. Bayford
+            - and D.S. Holder
+        title: Three-dimensional electrical impedance tomography of human brain activity
+        venue: Physiol. Meas.
+        volume: "22"
+        pages: "177"
+        year: "2001"
+        ids:
+            doi: 10.1088/0967-3334/22/1/321
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 61
+      parsed:
+        authors:
+            - G. Uhlmann
+        title: Developments in inverse problems since calderdon’s foundational paper
+        year: "1999"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 62
+      parsed:
+        authors:
+            - J.G. Webster
+        title: Electrical impedance tomography
+        year: "1990"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 63
+      parsed:
+        authors:
+            - E.J. Woo
+            - S.Y. Lee
+            - and C.W. Mun
+        title: Impedance tomography using internal current density distribution measured by nuclear magnetic resonance
+        venue: SPIE
+        volume: "2299"
+        pages: "377"
+        year: "1994"
+        ids:
+            doi: 10.1117/12.179269
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 64
+      parsed:
+        authors:
+            - S. Onart Y.Z. Ider
+            - W. Lionheart
+        title: Uniqueness and reconstruction in magnetic resonance-electrical impedance tomography (mr-eit) physiol. meas
+        year: "2003"
+        ids:
+            doi: 10.1088/0967-3334/24/2/368
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 65
+      parsed:
+        authors:
+            - N. Zhang
+        title: Electrical impedance tomography based on current density imaging
+        year: "1992"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 66
+      parsed:
+        authors:
+            - M. PERNOT
+            - J.F. AUBRY
+            - M. TANTER
+            - J.L. THOMAS AND M. FINK
+        title: High power transcranial beam steering for ultrasonic brain therapy
+        venue: Phys. Med. Biol.
+        volume: "48"
+        pages: "2577"
+        year: "2003"
+        ids:
+            doi: 10.1088/0031-9155/48/16/301
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 67
+      parsed:
+        authors:
+            - M. FINK
+        title: Time-reversed acoustics
+        year: "1999"
+        ids:
+            doi: 10.1038/scientificamerican1199-91
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 68
+      parsed:
+        authors:
+            - M. FINK
+            - G. MONTALDO AND M. TANTER
+        title: Time-reversal acoustics in biomedical engineering
+        venue: Annu. Rev. Biomed. Eng.
+        volume: "5"
+        pages: "465"
+        year: "2003"
+        ids:
+            doi: 10.1146/annurev.bioeng.5.040202.121630
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 69
+      parsed:
+        authors:
+            - G. MONTALDO
+            - P. ROUX
+            - A. DERODE
+            - C. NEGREIRA AND M. FINK
+        title: Ultrasound shock wave generator with one-bit time reversal in a dispersive medium
+        venue: Appl. Phys. Lett.
+        volume: "80"
+        pages: "897"
+        year: "2002"
+        ids:
+            doi: 10.1063/1.1446996
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 70
+      parsed:
+        authors:
+            - M. TANTER
+            - J.L. THOMAS AND M. FINK
+        title: 'Focusing and steering through absorbing and aberrating layers: Application to ultrasonic propagation through the skull'
+        venue: Journal of Acoustical Society of America
+        volume: "103"
+        pages: "2403"
+        year: "1998"
+        ids:
+            doi: 10.1121/1.422759
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 71
+      parsed:
+        authors:
+            - G. TER HAAR
+        title: Acoustic Surgery
+        year: "2001"
+        ids:
+            doi: 10.1063/1.1445545
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 72
+      parsed:
+        authors:
+            - J.-L. THOMAS
+            - F. WU AND M. FINK
+        title: Time reversal focusing applied to lithotripsy
+        venue: Ultrasonic Imaging
+        volume: "18"
+        pages: "106"
+        year: "1996"
+        ids:
+            doi: 10.1006/uimg.1996.0006
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 73
+      parsed:
+        authors:
+            - A. DERODE
+            - P. ROUX AND M. FINK
+        title: Robust Acoustic time reversal with high order multiple scattering
+        venue: Physical Review Letters
+        volume: "75"
+        pages: "4206"
+        year: "1995"
+        ids:
+            doi: 10.1103/physrevlett.75.4206
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 74
+      parsed:
+        authors:
+            - M. FINK
+        title: Time reversed Acoustics
+        venue: Physics Today
+        volume: "20"
+        pages: "34"
+        year: "1997"
+        ids:
+            doi: 10.1063/1.881692
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 75
+      parsed:
+        authors:
+            - M. FINK
+            - G. MONTALDO AND M. TANTER
+        title: Time reversal acoustics in biomedical engineering
+        year: "2003"
+        ids:
+            doi: 10.1146/annurev.bioeng.5.040202.121630
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 76
+      parsed:
+        authors:
+            - J. DE ROSNY AND M. FINK
+        title: Overcoming the diffraction limit in wave physics using a time-reversal mirror and a novel acoustic sink
+        year: "2002"
+        ids:
+            doi: 10.1103/physrevlett.89.124301
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 77
+      parsed:
+        authors:
+            - M. TANTER
+            - J.L. THOMAS AND M. FINK
+        title: Time reversal and the inverse filter
+        venue: Journal of the Acoustical Society of America
+        volume: "108"
+        pages: "223"
+        year: "2000"
+        ids:
+            doi: 10.1121/1.429459
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 78
+      parsed:
+        authors:
+            - M. TANTER
+            - J.-F. AUBRY
+            - J. GERBER
+            - J.-L. THOMAS AND M. FINK
+        title: 'Optimal focusing by spatio-temporal inverse filter: Part I. Basic principles'
+        venue: Basic principles, Journal of the Acoustical Society of America
+        volume: "101"
+        pages: "37"
+        year: "2001"
+        ids:
+            doi: 10.1121/1.1377051
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 79
+      parsed:
+        authors:
+            - J.-F. AUBRY
+            - M. TANTER
+            - J. GERBER
+            - J.-L. THOMAS AND M. FINK
+        title: 'Optimal focusing by spatio-temporal inverse filter: Part II. Experiments'
+        venue: Experiments, Journal of the Acoustical Society of America
+        volume: "101"
+        pages: "48"
+        year: "2001"
+        ids:
+            doi: 10.1121/1.1377052
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 80
+      parsed:
+        authors:
+            - C. PRADA
+            - F. WU AND M. FINK
+        title: 'The iterative time reversal mirror: A solution to self-focusing in the pulse echo mode'
+        venue: Journal of Acoustical Society of America
+        volume: "90"
+        pages: "1119"
+        year: "1991"
+        ids:
+            doi: 10.1121/1.402301
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 81
+      parsed:
+        authors:
+            - G. MONTALDO
+            - M. TANTER AND M. FINK
+        title: 'Revisiting iterative time reversal: real time detection of multiple targets'
+        venue: Journal of the Acoustical Society of America
+        volume: "115"
+        pages: "776"
+        year: "2004"
+        ids:
+            doi: 10.1121/1.1636463
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 82
+      parsed:
+        authors:
+            - C. PRADA AND M. FINK
+        title: 'Eigenmodes of the time reversal operator: a solution to selective focusing in multiple target media'
+        venue: Wave Motion
+        volume: "20"
+        pages: "151"
+        year: "1994"
+        ids:
+            doi: 10.1016/0165-2125(94)90039-6
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 83
+      parsed:
+        authors:
+            - H. Ammari
+        title: An inverse initial boundary value problem for the wave equation in the presence of imperfections of small volume
+        venue: SIAM J. Control Optim.
+        volume: "41"
+        pages: "1194"
+        year: "2002"
+        ids:
+            doi: 10.1137/s0363012901384247
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 84
+      parsed:
+        authors:
+            - H. Ammari
+        title: An Introduction to Mathematics of Emerging Biomedical Imaging, Mathématiques & Applications
+        year: "2008"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 85
+      parsed:
+        authors:
+            - H. Ammari
+            - E. Bonnetier
+            - Y. Capdeboscq
+            - M. Tanter
+            - and M. Fink
+        title: Electrical impedance tomography by elastic deformation
+        venue: SIAM J. Appl. Math.
+        volume: "68"
+        pages: "1557"
+        year: "2008"
+        ids:
+            doi: 10.1137/070686408
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 86
+      parsed:
+        authors:
+            - H. Ammari
+            - E. Bossy
+            - V. Jugnon
+            - and H. Kang
+        title: Mathematical modelling in photo-acoustic imaging
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 87
+      parsed:
+        authors:
+            - H. Ammari
+            - Y. Capdeboscq
+            - H. Kang
+            - and A. Kozhemyak
+        title: Mathematical models and reconstruction methods in magneto-acoustic imaging
+        venue: Europ. J. Appl. Math.
+        volume: "20"
+        pages: "303"
+        year: "2009"
+        ids:
+            doi: 10.1017/s0956792509007888
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 88
+      parsed:
+        authors:
+            - H. Ammari
+            - P. Garapon
+            - H. Kang
+            - and H. Lee
+        title: A method of biological tissues elasticity reconstruction using magnetic resonance elastography measurements
+        venue: Quart. Appl. Math.
+        volume: "66"
+        pages: "139"
+        year: "2008"
+        ids:
+            doi: 10.1090/s0033-569x-07-01089-8
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 89
+      parsed:
+        authors:
+            - H. Ammari
+            - P. Garapon
+            - L. Guadarrama Bustos
+            - and H. Kang
+        title: Transient anomaly imaging by the acoustic radiation force
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 90
+      parsed:
+        authors:
+            - H. Ammari
+            - P. Garapon
+            - and F. Jouve
+        title: 'Separation of scales in elasticity imaging: A numerical study'
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 91
+      parsed:
+        authors:
+            - H. Ammari
+            - R. Griesmaier
+            - and M. Hanke
+        title: 'Identification of small inhomogeneities: asymptotic factorization'
+        venue: Math. of Comp.
+        volume: "76"
+        pages: "1425"
+        year: "2007"
+        ids:
+            doi: 10.1090/s0025-5718-07-01946-1
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 92
+      parsed:
+        authors:
+            - H. Ammari
+            - E. Iakovleva
+            - H. Kang
+            - and K. Kim
+        title: Direct algorithms for thermal imaging of small inclusions
+        venue: 'Multiscale Modeling and Simulation: A SIAM Interdisciplinary Journal'
+        volume: "4"
+        pages: "1116"
+        year: "2005"
+        ids:
+            doi: 10.1137/040620266
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 93
+      parsed:
+        authors:
+            - H. Ammari
+            - E. Iakovleva
+            - and D. Lesselier
+        title: Two numerical methods for recovering small electromagnetic inclusions from scattering amplitude at a fixed frequency
+        venue: SIAM J. Sci. Comput.
+        volume: "27"
+        pages: "130"
+        year: "2005"
+        ids:
+            doi: 10.1137/040612518
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 94
+      parsed:
+        authors:
+            - H. Ammari
+            - E. Iakovleva
+            - and D. Lesselier
+        title: A MUSIC algorithm for locating small inclusions buried in a half-space from the scattering amplitude at a fixed frequency
+        venue: Multiscale Model. Simul.
+        volume: "3"
+        pages: "597"
+        year: "2005"
+        ids:
+            doi: 10.1137/040610854
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 95
+      parsed:
+        authors:
+            - H. Ammari
+            - E. Iakovleva
+            - D. Lesselier
+            - and G. Perrusson
+        title: A MUSIC-type electromagnetic imaging of a collection of small three-dimensional inclusions
+        venue: SIAM J. Sci. Comput.
+        volume: "29"
+        pages: "674"
+        year: "2007"
+        ids:
+            doi: 10.1137/050640655
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 96
+      parsed:
+        authors:
+            - H. Ammari
+            - H. Kang
+        title: High-order terms in the asymptotic expansions of the steady-state voltage potentials in the presence of conductivity inhomogeneities of small diameter
+        venue: SIAM J. Math. Anal.
+        volume: "34"
+        pages: "1152"
+        year: "2003"
+        ids:
+            doi: 10.1137/s0036141001399234
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 97
+      to: NT81RD05F9/e1
+      parsed:
+        authors:
+            - H. Ammari
+            - H. Kang
+        title: Reconstruction of Small Inhomogeneities from Boundary Measurements, Lecture Notes in Mathematics
+        year: "2004"
+        ids:
+            doi: 10.1007/b98245
+      score: 1
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 98
+      parsed:
+        authors:
+            - H. Ammari
+            - H. Kang
+        title: Boundary layer techniques for solving the Helmholtz equation in the presence of small inhomogeneities
+        venue: J. Math. Anal. Appl.
+        volume: "296"
+        pages: "190"
+        year: "2004"
+        ids:
+            doi: 10.1016/j.jmaa.2004.04.003
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 99
+      parsed:
+        authors:
+            - H. Ammari
+            - H. Kang
+        title: Reconstruction of elastic inclusions of small volume via dynamic measurements
+        venue: Appl. Math. Opt.
+        volume: "54"
+        pages: "223"
+        year: "2006"
+        ids:
+            doi: 10.1007/s00245-006-0859-0
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 100
+      parsed:
+        authors:
+            - H. Ammari
+            - H. Kang, Polarization
+            - Moment Tensors
+        title: 'Polarization and Moment Tensors: with Applications to Inverse Problems and Effective Medium Theory, Applied Mathematical Sciences'
+        year: "2007"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 101
+      parsed:
+        authors:
+            - H. Ammari
+            - H. Kang
+            - and H. Lee
+        title: A boundary integral method for computing elastic moment tensors for ellipses and ellipsoids
+        venue: J. Comp. Math.
+        volume: "25"
+        pages: "2"
+        year: "2007"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 102
+      parsed:
+        authors:
+            - H. Ammari
+            - H. Kang
+            - G. Nakamura
+            - and K. Tanuma
+        title: Complete asymptotic expansions of solutions of the system of elastostatics in the presence of an inclusion of small diameter and detection of an inclusion
+        venue: J. Elasticity
+        volume: "67"
+        pages: "97"
+        year: "2002"
+        ids:
+            doi: 10.1023/a:1023940025757
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 103
+      parsed:
+        authors:
+            - H. Ammari
+            - A. Khelifi
+        title: Electromagnetic scattering by small dielectric inhomogeneities
+        venue: J. Math. Pures Appl.
+        volume: "82"
+        pages: "749"
+        year: "2003"
+        ids:
+            doi: 10.1016/s0021-7824(03)00033-3
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 104
+      parsed:
+        authors:
+            - H. Ammari
+            - A. Kozhemyak
+            - and D. Volkov
+        title: Asymptotic formulas for thermography based recovery of anomalies
+        venue: 'Numer. Math.: TMA'
+        volume: "2"
+        pages: "18"
+        year: "2009"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 105
+      parsed:
+        authors:
+            - H. Ammari
+            - O. Kwon
+            - J.K. Seo
+            - and E.J. Woo
+        title: Anomaly detection in T-scan trans-admittance imaging system
+        venue: SIAM J. Appl. Math.
+        volume: "65"
+        pages: "252"
+        year: "2004"
+        ids:
+            doi: 10.1137/s003613990343375x
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 106
+      parsed:
+        authors:
+            - H. Ammari
+            - J.K. Seo
+        title: An accurate formula for the reconstruction of conductivity inhomogeneities
+        venue: Adv. Appl. Math.
+        volume: "30"
+        pages: "679"
+        year: "2003"
+        ids:
+            doi: 10.1016/s0196-8858(02)00557-2
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 107
+      parsed:
+        authors:
+            - M. Assenheimer
+            - O. Laver-Moskovitz
+            - D. Malonek
+            - D. Manor
+            - U. Nahliel
+            - R. Nitzan
+            - and A. Saad
+        title: 'The T-scan technology: Electrical impedance as a diagnostic tool for breast cancer detection'
+        venue: Physiol. Meas.
+        volume: "22"
+        pages: "1"
+        year: "2001"
+        ids:
+            doi: 10.1088/0967-3334/22/1/301
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 108
+      parsed:
+        authors:
+            - J. Bercoff
+            - M. Tanter
+            - and M. Fink
+        title: 'Supersonic shear imaging: a new technique for soft tissue elasticity mapping'
+        venue: IEEE Trans. Ultrasonics, Ferro., Freq. Control
+        volume: "51"
+        pages: "396"
+        year: "2004"
+        ids:
+            doi: 10.1109/tuffc.2004.1295425
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 109
+      parsed:
+        authors:
+            - J. Bercoff
+            - M. Tanter
+            - and M. Fink
+        title: The role of viscosity in the impulse diffraction field of elastic waves induced by the acoustic radiation force
+        venue: IEEE Trans. Ultrasonics, Ferro., Freq. Control
+        volume: "51"
+        pages: "1523"
+        year: "2004"
+        ids:
+            doi: 10.1109/tuffc.2004.1367494
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 110
+      parsed:
+        authors:
+            - M. Brühl
+            - M. Hanke
+            - and M.S. Vogelius
+        title: A direct impedance tomography algorithm for locating small inhomogeneities
+        venue: Numer. Math.
+        volume: "93"
+        pages: "635"
+        year: "2003"
+        ids:
+            doi: 10.1007/s002110200409
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 111
+      parsed:
+        authors:
+            - Y. Capdeboscq
+            - F. De Gournay
+            - J. Fehrenbach
+            - and O. Kavian
+        title: An optimal control approach to imaging by modification
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 112
+      parsed:
+        authors:
+            - Y. Capdeboscq
+            - H. Kang
+        title: Improved Hashin-Shtrikman bounds for elastic moment tensors and an application
+        venue: Appl. Math. Opt.
+        volume: "57"
+        pages: "263"
+        year: "2008"
+        ids:
+            doi: 10.1007/s00245-007-9022-9
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 113
+      parsed:
+        authors:
+            - Y. Capdeboscq
+            - M.S. Vogelius
+        title: A general representation formula for the boundary voltage perturbations caused by internal conductivity inhomogeneities of low volume fraction
+        venue: Math. Modelling Num. Anal.
+        volume: "37"
+        pages: "159"
+        year: "2003"
+        ids:
+            doi: 10.1051/m2an:2003014
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 114
+      parsed:
+        authors:
+            - Y. Capdeboscq
+            - M.S. Vogelius
+        title: Optimal asymptotic estimates for the volume of internal inhomogeneities in terms of multiple boundary measurements
+        venue: Math. Modelling Num. Anal.
+        volume: "37"
+        pages: "227"
+        year: "2003"
+        ids:
+            doi: 10.1051/m2an:2003024
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 115
+      parsed:
+        authors:
+            - D.J. Cedio-Fengya
+            - S. Moskow
+            - and M.S. Vogelius
+        title: 'Identification of conductivity imperfections of small diameter by boundary measurements: Continuous dependence and computational reconstruction'
+        venue: Inverse Problems
+        volume: "14"
+        pages: "553"
+        year: "1998"
+        ids:
+            doi: 10.1088/0266-5611/14/3/011
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 116
+      parsed:
+        authors:
+            - M. Cheney
+        title: The linear sampling method and the MUSIC algorithm
+        venue: Inverse Problems
+        volume: "17"
+        pages: "591"
+        year: "2001"
+        ids:
+            doi: 10.1088/0266-5611/17/4/301
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 117
+      parsed:
+        authors:
+            - M. Cheney
+            - D. Isaacson
+        title: Distinguishability in impedance imaging
+        venue: IEEE Trans. Biomed. Engr.
+        volume: "39"
+        pages: "852"
+        year: "1992"
+        ids:
+            doi: 10.1109/10.148393
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 118
+      parsed:
+        authors:
+            - M. Cheney
+            - D. Isaacson
+            - and J.C. Newell
+        title: Electrical impedance tomography
+        venue: SIAM Rev.
+        volume: "41"
+        pages: "85"
+        year: "1999"
+        ids:
+            doi: 10.1137/s0036144598333613
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 119
+      parsed:
+        authors:
+            - M. Cheney, D. Isaacson, J.C. Newell, S. Simske
+            - J. Goble, NOSER
+        title: an algorithm for solving the inverse conductivity problem
+        venue: Int. J. Imag. Syst. Technol.
+        volume: "22"
+        pages: "66"
+        year: "1990"
+        ids:
+            doi: 10.1002/ima.1850020203
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 120
+      parsed:
+        authors:
+            - A.J. Devaney
+        title: Time reversal imaging of obscured targets from multistatic data
+        venue: IEEE Trans. Antennas Propagat.
+        volume: "523"
+        pages: "1600"
+        year: "2005"
+        ids:
+            doi: 10.1109/tap.2005.846723
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 121
+      parsed:
+        authors:
+            - M. Fink
+        title: Time-reversal acoustics
+        venue: Contemp. Math.
+        volume: "408"
+        pages: "151"
+        year: "2006"
+        ids:
+            doi: 10.1090/conm/408/07692
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 122
+      parsed:
+        authors:
+            - A. Friedman
+            - M.S. Vogelius
+        title: 'Identification of small inhomogeneities of extreme conductivity by boundary measurements: a theorem on continuous dependence'
+        venue: Arch. Rat. Mech. Anal.
+        volume: "105"
+        pages: "299"
+        year: "1989"
+        ids:
+            doi: 10.1007/bf00281494
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 123
+      parsed:
+        authors:
+            - D. Gisser
+            - D. Isaacson
+            - and J.C. Newell
+        title: Electric current tomography and eigenvalues
+        venue: SIAM J. Appl. Math.
+        volume: "50"
+        pages: "1623"
+        year: "1990"
+        ids:
+            doi: 10.1137/0150096
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 124
+      parsed:
+        authors:
+            - J.F. Greenleaf
+            - M. Fatemi
+            - and M. Insana
+        title: Selected methods for imaging elastic properties of biological tissues
+        venue: Annu. Rev. Biomed. Eng.
+        volume: "5"
+        pages: "57"
+        year: "2003"
+        ids:
+            doi: 10.1146/annurev.bioeng.5.040202.121623
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 125
+      parsed:
+        authors:
+            - S. Haider
+            - A. Hrbek
+            - and Y. Xu
+        title: Magneto-acousto-electrical tomography
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 126
+      parsed:
+        authors:
+            - D. Isaacson
+        title: Distinguishability of conductivities by electric current computed tomography
+        venue: IEEE Trans. Medical Imag.
+        volume: "5"
+        pages: "91"
+        year: "1986"
+        ids:
+            doi: 10.1109/tmi.1986.4307752
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 127
+      parsed:
+        authors:
+            - D. Isaacson
+            - M. Cheney
+        title: Effects of measurements precision and finite numbers of electrodes on linear impedance imaging algorithms
+        venue: SIAM J. Appl. Math.
+        volume: "51"
+        pages: "1705"
+        year: "1991"
+        ids:
+            doi: 10.1137/0151087
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 128
+      parsed:
+        authors:
+            - D. Isaacson
+            - E.L. Isaacson, Comments on Calderón’s paper
+        title: On an inverse boundary value problem
+        venue: Math. Compt.
+        volume: "52"
+        pages: "553"
+        year: "1989"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 129
+      to: DM7XS043AN/e1
+      parsed:
+        authors:
+            - V. Isakov
+        title: Inverse Problems for Partial Differential Equations, Applied Mathematical Sciences
+        year: "1998"
+        ids:
+            doi: 10.1007/978-1-4899-0030-2
+      score: 1
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 130
+      parsed:
+        authors:
+            - H. Kang
+            - J.K. Seo
+        title: Layer potential technique for the inverse conductivity problem
+        venue: Inverse Problems
+        volume: "12"
+        pages: "267"
+        year: "1996"
+        ids:
+            doi: 10.1088/0266-5611/12/3/007
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 131
+      parsed:
+        authors:
+            - H. Kang
+            - J.K. Seo
+        title: 'Identification of domains with near-extreme conductivity: Global stability and error estimates'
+        venue: Inverse Problems
+        volume: "15"
+        pages: "851"
+        year: "1999"
+        ids:
+            doi: 10.1088/0266-5611/15/4/302
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 132
+      parsed:
+        authors:
+            - H. Kang
+            - J.K. Seo
+        title: |-
+            Inverse conductivity problem with one measurement: Uniqueness of balls in R
+                              3
+        venue: SIAM J. Appl. Math.
+        volume: "59"
+        pages: "1533"
+        year: "1999"
+        ids:
+            doi: 10.1137/s0036139997324595
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 133
+      parsed:
+        authors:
+            - H. Kang
+            - J.K. Seo
+        title: Recent progress in the inverse conductivity problem with single measurement, in Inverse Problems and Related Fields
+        pages: "69"
+        year: "2000"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 134
+      parsed:
+        authors:
+            - S. Kim
+            - O. Kwon
+            - J.K. Seo
+            - and J.R. Yoon
+        title: On a nonlinear partial differential equation arising in magnetic resonance electrical impedance imaging
+        venue: SIAM J. Math. Anal.
+        volume: "34"
+        pages: "511"
+        year: "2002"
+        ids:
+            doi: 10.1137/s0036141001391354
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 135
+      parsed:
+        authors:
+            - Y.J. Kim
+            - O. Kwon
+            - J.K. Seo
+            - and E.J. Woo
+        title: Uniqueness and convergence of conductivity image reconstruction in magnetic resonance electrical impedance tomography
+        venue: Inverse Problems
+        volume: "19"
+        pages: "1213"
+        year: "2003"
+        ids:
+            doi: 10.1088/0266-5611/19/5/312
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 136
+      parsed:
+        authors:
+            - O. Kwon
+            - J.K. Seo
+        title: Total size estimation and identification of multiple anomalies in the inverse electrical impedance tomography
+        venue: Inverse Problems
+        volume: "17"
+        pages: "59"
+        year: "2001"
+        ids:
+            doi: 10.1088/0266-5611/17/1/306
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 137
+      parsed:
+        authors:
+            - O. Kwon
+            - J.K. Seo
+            - and J.R. Yoon
+        title: A real-time algorithm for the location search of discontinuous conductivities with one measurement
+        venue: Comm. Pure Appl. Math.
+        volume: "55"
+        pages: "1"
+        year: "2002"
+        ids:
+            doi: 10.1002/cpa.3009
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 138
+      parsed:
+        authors:
+            - O. Kwon
+            - J.R. Yoon
+            - J.K. Seo
+            - E.J. Woo
+            - and Y.G. Cho
+        title: Estimation of anomaly location and size using impedance tomography
+        venue: IEEE Trans. Biomed. Engr.
+        volume: "50"
+        pages: "89"
+        year: "2003"
+        ids:
+            doi: 10.1109/tbme.2002.805474
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 139
+      parsed:
+        authors:
+            - R. Lipton
+        title: Inequalities for electric and elastic polarization tensors with applications to random composites. J. Mech. Phys. Solids
+        venue: J. Mech. Phys. Solids
+        volume: "41"
+        pages: "809"
+        year: "1993"
+        ids:
+            doi: 10.1016/0022-5096(93)90001-v
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 140
+      parsed:
+        authors:
+            - A. Manduca
+            - T.E. Oliphant
+            - M.A. Dresner
+            - J.L. Mahowald
+            - S.A. Kruse
+            - E. Amromin
+            - J.P. Felmlee
+            - J.F. Greenleaf
+            - and R.L. Ehman
+        title: 'Magnetic resonance elastography: non-invasive mapping of tissue elasticity'
+        venue: Medical Image Analysis
+        volume: "5"
+        pages: "237"
+        year: "2001"
+        ids:
+            doi: 10.1016/s1361-8415(00)00039-6
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 141
+      parsed:
+        authors:
+            - A. Montalibet
+            - J. Jossinet
+            - A. Matias
+            - and D. Cathignol
+        title: Electric current generated by ultrasonically induced Lorentz force in biological media
+        venue: Medical Biol. Eng. Comput.
+        volume: "39"
+        pages: "15"
+        year: "2001"
+        ids:
+            doi: 10.1007/bf02345261
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 142
+      parsed:
+        authors:
+            - R. Muthupillai
+            - D.J. Lomas
+            - P.J. Rossman
+            - J.F. Greenleaf
+            - A. Manduca
+            - and R.L. Ehman
+        title: Magnetic resonance elastography by direct visualization of propagating acoustic strain waves
+        venue: Science
+        volume: "269"
+        pages: "1854"
+        year: "1995"
+        ids:
+            doi: 10.1126/science.7569924
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 143
+      parsed:
+        authors:
+            - T.D. Mast
+            - A. Nachman
+            - and R.C. Waag
+        title: Focusing and imagining using eigenfunctions of the scattering operator
+        venue: J. Acoust. Soc. Am.
+        volume: "102"
+        pages: "715"
+        year: "1997"
+        ids:
+            doi: 10.1121/1.419898
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 144
+      parsed:
+        authors:
+            - C. Prada
+            - J.-L. Thomas
+            - and M. Fink
+        title: 'The iterative time reversal process: Analysis of the convergence'
+        venue: J. Acoust. Soc. Amer.
+        volume: "97"
+        pages: "62"
+        year: "1995"
+        ids:
+            doi: 10.1121/1.412285
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 145
+      parsed:
+        authors:
+            - J.K. Seo
+            - O. Kwon
+            - H. Ammari
+            - and E.J. Woo
+        title: Mathematical framework and anomaly estimation algorithm for breast cancer detection using TS2000 configuration
+        venue: IEEE Trans. Biomedical Engineering
+        volume: "51"
+        pages: "1898"
+        year: "2004"
+        ids:
+            doi: 10.1109/tbme.2004.834261
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 146
+      parsed:
+        authors:
+            - R. Sinkus
+            - M. Tanter
+            - S. Catheline
+            - J. Lorenzen
+            - C. Kuhl
+            - E. Sondermann
+            - and M. Fink
+        title: Imaging anisotropic and viscous properties of breast tissue by magnetic resonance-elastography
+        venue: Mag. Res. Med.
+        volume: "53"
+        pages: "372"
+        year: "2005"
+        ids:
+            doi: 10.1002/mrm.20355
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 147
+      parsed:
+        authors:
+            - R. Sinkus
+            - M. Tanter
+            - T. Xydeas
+            - S. Catheline
+            - J. Bercoff
+            - and M. Fink
+        title: Viscoelastic shear properties of in vivo breast lesions measured by MR elastography
+        venue: Mag. Res. Imag.
+        volume: "23"
+        pages: "159"
+        year: "2005"
+        ids:
+            doi: 10.1016/j.mri.2004.11.060
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 148
+      parsed:
+        authors:
+            - Ammari H.
+            - Bao G.
+        title: Fleming J.L. (2002). An inverse source problem for Maxwell’s equations in magnetoencephalography. SIAM Journal of Applied Mathematics
+        venue: SIAM Journal of Applied Mathematics
+        volume: "62"
+        pages: "1369"
+        year: "2002"
+        ids:
+            doi: 10.1137/s0036139900373927
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 149
+      parsed:
+        authors:
+            - JB Bronzan
+        title: Bronzan J.B. (1971). The magnetic scalar potential. American Journal of Physics
+        venue: American Journal of Physics
+        volume: "39"
+        pages: "1357"
+        year: "1971"
+        ids:
+            doi: 10.1119/1.1976655
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 150
+      parsed:
+        authors:
+            - Cuffin B.N.
+        title: Cohen D. (1977). Magnetic fields of a dipole in special volume conductor shapes. IEEE Transactions on Biomedical Engineering
+        venue: IEEE Transactions on Biomedical Engineering
+        volume: "24"
+        pages: "372"
+        year: "1977"
+        ids:
+            doi: 10.1109/tbme.1977.326145
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 151
+      parsed:
+        title: 'Dassios G. (2005). On the hidden electromagnetic activity of the brain. In: Fotiadis D'
+        year: "2005"
+        ids:
+            doi: 10.1142/9789812773197_0029
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 152
+      parsed:
+        title: 'Dassios G. (2006). What is recoverable in the inverse magnetoencephalography problem? In: Ammari H'
+        year: "2006"
+        ids:
+            doi: 10.1090/conm/408/07693
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 153
+      parsed:
+        authors:
+            - G Dassios
+        title: Dassios G. (2007) The magnetic potential for the ellipsoidal MEG problem. Journal of Computational Mathematics
+        venue: Journal of Computational Mathematics
+        volume: "25"
+        pages: "145"
+        year: "2007"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 154
+      parsed:
+        title: 'Dassios G. On the image systems for the electric and the magnetic potential of the brain. In: Alikakos N'
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 155
+      parsed:
+        authors:
+            - Dassios G.
+        title: Scattering Theory and Biomedical Engineering. Modeling and Applications
+        pages: "289"
+        year: "2001"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 156
+      parsed:
+        authors:
+            - Dassios G.
+        title: Kariotou F. (2003). On the Geselowitz formula in biomathematics. Quarterly of Applied Mathematics
+        venue: Quarterly of Applied Mathematics
+        volume: "61"
+        pages: "387"
+        year: "2003"
+        ids:
+            doi: 10.1090/qam/1976377
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 157
+      parsed:
+        authors:
+            - Dassios G.
+        title: Kariotou F. (2003). Magnetoencephalography in ellipsoidal geometry. Journal of Mathematical Physics. vol. 44
+        venue: Journal of Mathematical Physics.
+        volume: "44"
+        pages: "220"
+        year: "2003"
+        ids:
+            doi: 10.1063/1.1522135
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 158
+      parsed:
+        authors:
+            - Dassios G.
+        title: Mathematical Methods in Scattering Theory and Biomedical Technology
+        pages: "495"
+        year: "2003"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 159
+      parsed:
+        authors:
+            - Dassios G.
+        title: Kariotou F. (2004). On the exterior magnetic field and silent sources in magnetoencephalography. Abstract and Applied Analysis
+        venue: Abstract and Applied Analysis
+        volume: "2004"
+        pages: "307"
+        year: "2004"
+        ids:
+            doi: 10.1155/s1085337504306032
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 160
+      parsed:
+        authors:
+            - Dassios G.
+        title: Kariotou F. (2005). The direct MEG problem in the presence of an ellipsoidal shell inhomogeneity. Quarterly of Applied Mathematics
+        venue: Quarterly of Applied Mathematics
+        volume: "63"
+        pages: "601"
+        year: "2005"
+        ids:
+            doi: 10.1090/s0033-569x-05-00971-2
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 161
+      parsed:
+        authors:
+            - Dassios G.
+        title: Low frequency scattering
+        year: "2000"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 162
+      parsed:
+        authors:
+            - Dassios G.
+            - Kariotou F.
+            - Kontzialis K.
+        title: Kostopoulos V. (2002). Magnetoencephalography for a realistic geometrical model of the brain. Third European Symposium in Biomedical Engineering and Medical Physics
+        year: "2002"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 163
+      parsed:
+        authors:
+            - Dassios G.
+            - Giapalaki S.
+            - Kariotou F.
+        title: 'Kandili A. (2005). Analysis of EEG Images. In: Fotiadis D'
+        year: "2005"
+        ids:
+            doi: 10.1142/9789812773197_0030
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 164
+      parsed:
+        authors:
+            - Dassios G.
+            - Fokas A.S.
+        title: Kariotou F. (2005). On the non-uniqueness of the inverse MEG problem. Inverse Problems
+        venue: Inverse Problems
+        volume: "21"
+        pages: L1
+        year: "2005"
+        ids:
+            doi: 10.1088/0266-5611/21/2/l01
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 165
+      parsed:
+        authors:
+            - Dassios G.
+            - Giapalaki S.
+            - Kandili A.
+        title: Kariotou F. (2007). The exterior magnetic field for the multilayer ellipsoidal model of the brain. Quarterly Journal of Mechanics and Applied Mathematics vol. 60
+        venue: Quarterly Journal of Mechanics and Applied Mathematics
+        volume: "60"
+        pages: "1"
+        year: "2007"
+        ids:
+            doi: 10.1093/qjmam/hbl022
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 166
+      parsed:
+        authors:
+            - JC de Munck
+        title: de Munck J.C. (1988). The potential distribution in a layered anisotropic spheroidal volume conductor. Journal of Applied Physics
+        venue: Journal of Applied Physics
+        volume: "2"
+        pages: "464"
+        year: "1988"
+        ids:
+            doi: 10.1063/1.341983
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 167
+      parsed:
+        authors:
+            - Fokas A.S.
+            - Gelfand I.M.
+        title: Kurylev Y. (1996). Inversion method for magnetoencephalography. Inverse Problems
+        venue: Inverse Problems
+        volume: "12"
+        pages: L9
+        year: "1996"
+        ids:
+            doi: 10.1088/0266-5611/12/3/001
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 168
+      parsed:
+        authors:
+            - Fokas A.S.
+            - Kurylev Y.
+        title: Marikakis V. (2004). The unique determination of neuronal current in the brain via magnetoencephalography. Inverse Problems
+        venue: Inverse Problems
+        volume: "20"
+        pages: "1067"
+        year: "2004"
+        ids:
+            doi: 10.1088/0266-5611/20/4/005
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 169
+      parsed:
+        authors:
+            - E Frank
+        title: Frank E. (1952). Electric potential produced by two point current sources in a homogeneous conducting sphere. Journal of Applied Physics
+        venue: Journal of Applied Physics
+        volume: "23"
+        pages: "1225"
+        year: "1952"
+        ids:
+            doi: 10.1063/1.1702037
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 170
+      parsed:
+        authors:
+            - Garmier R.
+        title: 'Barriot J.P. (2001). Ellipsoidal harmonic expansions of the gravitational potential: Theory and applications. Celestial Mechanics and Dynamical Astronomy'
+        venue: Celestial Mechanics and Dynamical Astronomy
+        volume: "79"
+        pages: "235"
+        year: "2001"
+        ids:
+            doi: 10.1023/a:1017555515763
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 171
+      parsed:
+        authors:
+            - DB Geselowitz
+        title: Geselowitz D.B. (1967). On bioelectric potentials in an inhomogeneous volume conductor. Biophysical Journal
+        venue: Biophysical Journal
+        volume: "7"
+        pages: "1"
+        year: "1967"
+        ids:
+            doi: 10.1016/s0006-3495(67)86571-8
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 172
+      parsed:
+        authors:
+            - DB Geselowitz
+        title: Geselowitz D.B. (1970). On the magnetic field generated outside an inhomogeneous volume conductor by internal current sources. IEEE Transactions in Magnetism
+        venue: IEEE Transactions in Magnetism
+        volume: "6"
+        pages: "346"
+        year: "1970"
+        ids:
+            doi: 10.1109/tmag.1970.1066765
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 173
+      parsed:
+        authors:
+            - S Giapalaki
+        title: A study of models in Medical Physics through the analysis of mathematical problems in Neurophysiology
+        year: "2006"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 174
+      parsed:
+        authors:
+            - Giapalaki S.
+        title: Kariotou F. (2006). The complete ellipsoidal shell model in EEG Imaging. Abstract and Applied Analysis
+        venue: Abstract and Applied Analysis
+        volume: "2006"
+        pages: "1"
+        year: "2006"
+        ids:
+            doi: 10.1155/aaa/2006/57429
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 175
+      parsed:
+        authors:
+            - Gutierrez D.
+            - Nehorai A.
+        title: 'Preissl H. (2005). Ellipsoidal head model for fetal magnetoencephalography: forward and inverse solutions. Physics in Medicine and Biology'
+        venue: Physics in Medicine and Biology
+        volume: "50"
+        pages: "2141"
+        year: "2005"
+        ids:
+            doi: 10.1088/0031-9155/50/9/015
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 176
+      parsed:
+        authors:
+            - Hämäläinen M.
+            - Hari R.
+        title: Ilmoniemi RJ
+        venue: instrumentation, and applications to noninvasive studies of the working human brain. Reviews of Modern Physics
+        volume: "65"
+        pages: "413"
+        year: "1993"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 177
+      parsed:
+        authors:
+            - EW Hobson
+        title: The theory of spherical and ellipsoidal harmonics
+        year: "1931"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 178
+      parsed:
+        authors:
+            - Jerbi K.
+            - Mosher J.C.
+            - Baillet S.
+        title: Leahy R.M. (2002). On MEG forward modeling using multipolar expansions. Physics in Medicine and Biology
+        venue: Physics in Medicine and Biology
+        volume: "47"
+        pages: "523"
+        year: "2002"
+        ids:
+            doi: 10.1088/0031-9155/47/4/301
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 179
+      parsed:
+        authors:
+            - Kamvyssas G.
+        title: Kariotou F. (2005). Confocal ellipsoidal boundaries in EEG modeling. Bulletin of the Greek Mathematical Society
+        venue: Bulletin of the Greek Mathematical Society
+        volume: "50"
+        pages: "119"
+        year: "2005"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 180
+      parsed:
+        title: Kariotou F. (2001). On the electroencephalography (EEG) problem for the ellipsoidal brain model. Proceedings of the 6th International conference of the HSTAM
+        year: "2001"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 181
+      parsed:
+        authors:
+            - F Kariotou
+        title: Mathematical problems of the electromagnetic activity in the neurophysiology of the brain
+        year: "2002"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 182
+      parsed:
+        authors:
+            - F Kariotou
+        title: Kariotou F. (2003). On the mathematics of EEG and MEG in spheroidal geometry. Bulletin of the Greek Mathematical Society
+        venue: Bulletin of the Greek Mathematical Society
+        volume: "47"
+        pages: "117"
+        year: "2003"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 183
+      parsed:
+        authors:
+            - F Kariotou
+        title: Kariotou F. (2004). Electroencephalography in ellipsoidal geometry. Journal of Mathematical Analysis and Applications
+        venue: Journal of Mathematical Analysis and Applications
+        volume: "290"
+        pages: "324"
+        year: "2004"
+        ids:
+            doi: 10.1016/j.jmaa.2003.09.066
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 184
+      parsed:
+        title: MacMillan W.D. (1930).The theory of the potential. MacGraw-Hill
+        year: "1930"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 185
+      parsed:
+        authors:
+            - Malmivuo J.
+        title: Bioelectromagnetism
+        year: "1995"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 186
+      parsed:
+        title: 'Nolte G. (2002). Brain current multipole expansion in realistic volume conductors: calculation'
+        year: "2002"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 187
+      parsed:
+        authors:
+            - G Nolte
+        title: Nolte G. (2003). The magnetic lead field theorem in the quasi-static approximation and its use for MEG forward calculation in realistic volume conductors. Physics in Medice and Biology
+        venue: Physics in Medice and Biology
+        volume: "48"
+        pages: "3637"
+        year: "2003"
+        ids:
+            doi: 10.1088/0031-9155/48/22/002
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 188
+      parsed:
+        authors:
+            - Nolte G.
+        title: Curio G. (1999). Perturbative analytical solutions of the forward problem for realistic volume conductors. Journal of Applied Physics
+        venue: Journal of Applied Physics
+        volume: "86"
+        pages: "2800"
+        year: "1999"
+        ids:
+            doi: 10.1063/1.371128
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 189
+      parsed:
+        authors:
+            - Nolte G.
+        title: Dassios G. (2004). Semi-analytic forward calculation for the EEG in multi-shell realistic volume conductors based on the lead field theorem. Poster presentation in BIOMAG 2004
+        year: "2004"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 190
+      parsed:
+        authors:
+            - Nolte G.
+        title: Dassios G. (2005). Analytic expansion of the EEG lead field for realistic volume conductors. Physics in Medicine and Biology
+        venue: Physics in Medicine and Biology
+        volume: "50"
+        pages: "3807"
+        year: "2005"
+        ids:
+            doi: 10.1088/0031-9155/50/16/010
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 191
+      parsed:
+        authors:
+            - Nolte G.
+            - Fieseler T.
+        title: Curio G. (2001). Perturbative analytical solutions of the magnetic forward problem for realistic volume conductors. Journal of Applied Physics
+        venue: Journal of Applied Physics
+        volume: "89"
+        pages: "2360"
+        year: "2001"
+        ids:
+            doi: 10.1063/1.1337089
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 192
+      parsed:
+        authors:
+            - Plonsey R.
+        title: Heppner D.B. (1967). Considerations of quasi-stationarity in electrophysiological systems. Bulletin of Mathematical Biophysics
+        venue: Bulletin of Mathematical Biophysics
+        volume: "29"
+        pages: "657"
+        year: "1967"
+        ids:
+            doi: 10.1007/bf02476917
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 193
+      parsed:
+        authors:
+            - J Sarvas
+        title: Sarvas J. (1987). Basic mathematical and electromagnetic concepts of the biomagnetic inverse problem. Physics in Medicine and Biology
+        venue: Physics in Medicine and Biology
+        volume: "32"
+        pages: "11"
+        year: "1987"
+        ids:
+            doi: 10.1088/0031-9155/32/1/004
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 194
+      parsed:
+        authors:
+            - Snyder W.S.
+            - Ford M.R.
+            - Warner G.G.
+        title: Fisher H.L. (1969
+        year: "1978"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 195
+      parsed:
+        authors:
+            - Whittaker E.T.
+        title: A course of modern analysis
+        year: "1920"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 196
+      parsed:
+        authors:
+            - Wilson F.N.
+        title: Bayley R.H. (1950). The electric field of an eccentric dipole in a homogeneous spherical conducting medium. Circulation
+        venue: Circulation
+        volume: "1"
+        pages: "84"
+        year: "1950"
+        ids:
+            doi: 10.1161/01.cir.1.1.84
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 197
+      parsed:
+        authors:
+            - Yeh G.C.
+        title: Martinek J. (1957). The potential of a general dipole in a homogeneous conducting prolate spheroid. Annals of the New York Academy of Sciences
+        venue: Annals of the New York Academy of Sciences
+        volume: "65"
+        pages: "1003"
+        year: "1957"
+        ids:
+            doi: 10.1111/j.1749-6632.1957.tb36700.x
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 198
+      parsed:
+        authors:
+            - G. Allaire
+        title: Analyse numérique et optimisation
+        year: "2005"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 199
+      parsed:
+        authors:
+            - G. Aubert
+            - R. Deriche
+            - and P. Kornprobst
+        title: Computing optical flow via variational techniques
+        venue: SIAM J. Appl. Math.
+        volume: "60"
+        pages: "156"
+        year: "1999"
+        ids:
+            doi: 10.1137/s0036139998340170
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 200
+      parsed:
+        authors:
+            - P. Azerad
+            - G. Pousin
+        title: Inégalite de Poincaré courbe pour le traitement variationnel de l’équation de transport
+        pages: "721"
+        year: "1996"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 201
+      parsed:
+        authors:
+            - S. Baillet
+            - J.C. Mosher
+            - and R.M. Leahy
+        title: Electromagnetic brain mapping
+        year: "2001"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 202
+      parsed:
+        authors:
+            - J.M. Barrie
+            - W.J. Freeman
+            - and M.D. Lenhart
+        title: Spatiotemporal Analysis of Prepyriform
+        venue: Journal of Neurophysiology
+        volume: "76"
+        pages: "520"
+        year: "1996"
+        ids:
+            doi: 10.1152/jn.1996.76.1.520
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 203
+      parsed:
+        authors:
+            - J.L. Barron
+            - D.J. Fleet
+            - and S.S. Beauchemin
+        title: Performance of optical flow techniques
+        venue: International Journal of Computer Vision
+        volume: "12"
+        pages: "43"
+        year: "1994"
+        ids:
+            doi: 10.1007/bf01420984
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 204
+      parsed:
+        authors:
+            - J.L. Barron
+            - A. Liptay
+        title: Measuring 3-D plant growth using optical flow
+        venue: Bioimaging
+        volume: "5"
+        pages: "82"
+        year: "1997"
+        ids:
+            doi: 10.1002/1361-6374(199706)5:2<82::aid-bio5>3.3.co;2-6
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 205
+      parsed:
+        authors:
+            - S.S. Beauchemin
+            - J.L. Barron
+        title: The computation of optical flow
+        venue: ACM Computing Surveys
+        volume: "27"
+        pages: "433"
+        year: "1995"
+        ids:
+            doi: 10.1145/212094.212141
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 206
+      parsed:
+        authors:
+            - D. Bereziat
+            - I. Herlin
+            - and L. Younes
+        title: A Generalized Optical Flow Constraint and its Physical Interpretation
+        venue: Proc. Conf.
+        volume: "02"
+        pages: "2487"
+        year: "2000"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 207
+      parsed:
+        authors:
+            - O. Besson
+            - G. De Montmollin
+        title: 'Space-time integrated least squares: a time-marching approach'
+        venue: International Journal for Numerical Methods in Fluids
+        volume: "44"
+        pages: "525"
+        year: "2004"
+        ids:
+            doi: 10.1002/fld.655
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 208
+      parsed:
+        authors:
+            - D.L. Book
+            - J.P. Boris
+            - and K. Hain
+        title: Flux-Corrected Transport. II – Generalizations of the method
+        venue: Journal of Computational Physics
+        volume: "18"
+        pages: "248"
+        year: "1975"
+        ids:
+            doi: 10.1016/0021-9991(75)90002-9
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 209
+      parsed:
+        authors:
+            - A. Bossavit
+        title: 'Whitney forms: a class of finite elements for three-dimensional computations in electromagnetism'
+        year: "1988"
+        ids:
+            doi: 10.1049/ip-a-1.1988.0077
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 210
+      parsed:
+        authors:
+            - N.E.H. Bowler
+            - C.E. Pierce
+            - and A. Seed
+        title: Development of a precipitation nowcasting algorithm based upon optical flow techniques
+        venue: Journal of Hydrology
+        volume: "288"
+        pages: "74"
+        year: "2004"
+        ids:
+            doi: 10.1016/j.jhydrol.2003.11.011
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 211
+      parsed:
+        authors:
+            - U. Clarenz
+            - M. Rumpf
+            - and A. Telea
+        title: Finite elements on point based surfaces
+        year: "2004"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 212
+      parsed:
+        authors:
+            - T. Corpetti
+            - D. Heitz
+            - G. Arroyo
+            - E. Mémin
+            - and A. Santa-Cruz
+        title: Fluid experimental flow estimation based on an optical-flow scheme
+        venue: Experiments in fluids
+        volume: "40"
+        pages: "80"
+        year: "2006"
+        ids:
+            doi: 10.1007/s00348-005-0048-y
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 213
+      parsed:
+        authors:
+            - T. Corpetti
+            - E. Mémin
+            - and P. Pérez
+        title: Dense Estimation of Fluid Flows
+        venue: IEEE Transactions on Pattern Analysis and Machine Intelligence
+        volume: "24"
+        pages: "365"
+        year: "2002"
+        ids:
+            doi: 10.1109/34.990137
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 214
+      parsed:
+        authors:
+            - D. Cosmelli
+            - O. David
+            - J.P. Lachaux
+            - J. Martinerie
+            - L. Garnero
+            - B. Renault
+            - and F. Varela
+        title: 'Waves of consciousness: ongoing cortical patterns during binocular rivalry'
+        venue: Neuroimage
+        volume: "23"
+        pages: "128"
+        year: "2004"
+        ids:
+            doi: 10.1016/j.neuroimage.2004.05.008
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 215
+      parsed:
+        authors:
+            - U. Diewald
+            - T. Preusser
+            - and M. Rumpf
+        title: Anisotropic Diffusion in Vector Field Visualization on Euclidean Domains and Surfaces
+        venue: IEEE Transactions on Visualization and Computer Graphics
+        volume: "6"
+        pages: "139"
+        year: "2000"
+        ids:
+            doi: 10.1109/2945.856995
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 216
+      parsed:
+        authors:
+            - M.P. Do Carmo
+        title: Riemannian Geometry
+        year: "1993"
+        ids:
+            doi: 10.1007/978-1-4757-2201-7
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 217
+      parsed:
+        authors:
+            - O. Druet
+            - E. Hebey
+            - and F. Robert
+        title: Blow-up Theory for Elliptic PDEs in Riemannian Geometry
+        year: "2004"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 218
+      parsed:
+        authors:
+            - A. Giachetti
+            - M. Campani
+            - and V. Torre
+        title: The use of optical flow for road navigation
+        venue: Robotics and Automation
+        volume: "14"
+        pages: "34"
+        year: "1998"
+        ids:
+            doi: 10.1109/70.660838
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 219
+      parsed:
+        authors:
+            - J.L. Guermond
+        title: A finite element technique for solving first order PDE’s in L1
+        venue: SIAM J. Numer. Anal.
+        volume: "42"
+        pages: "714"
+        year: "2004"
+        ids:
+            doi: 10.1137/s0036142902417054
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 220
+      parsed:
+        authors:
+            - B.K.P. Horn
+            - B.G. Schunck
+        title: Determining optical flow
+        venue: Artificial Intelligence
+        volume: "17"
+        pages: "185"
+        year: "1981"
+        ids:
+            doi: 10.1016/0004-3702(81)90024-2
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 221
+      parsed:
+        authors:
+            - A. Imiya
+            - H. Sugaya
+            - A. Torii
+            - and Y. Mochizuki
+        title: Variational Analysis of Spherical Images
+        year: "2005"
+        ids:
+            doi: 10.1007/11556121_14
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 222
+      parsed:
+        authors:
+            - T. Inouye
+            - K. Shinosaki
+            - A. Iyama
+            - Y. Matsumoto
+            - S. Toi
+            - and T. Ishthara
+        title: Potential flow of frontal midline theta activity during a mental task in the human electroencephalogram
+        venue: Lett.
+        volume: "169"
+        pages: "145"
+        year: "1994"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 223
+      parsed:
+        authors:
+            - T. Inouye
+            - K. Shinosaki
+            - S. Toi
+            - Y. Matsumoto
+            - and N. Hosaka
+        title: Potential flow of alpha- activity in the human electroencephalogram
+        venue: Lett.
+        volume: "187"
+        pages: "29"
+        year: "1995"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 224
+      parsed:
+        authors:
+            - V.K. Jirsa
+            - K.J. Jantzen
+            - A. Fuchs
+            - and J.A.S. Kelso
+        title: Spatiotemporal forward solution of the EEG and MEG using networkmodeling
+        venue: Medical Imaging
+        volume: "21"
+        pages: "493"
+        year: "2002"
+        ids:
+            doi: 10.1109/tmi.2002.1009385
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 225
+      parsed:
+        authors:
+            - C. Johnson
+        title: Numerical Solution of Partial Differential Equations by the Finite Element Method
+        year: "1987"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 226
+      parsed:
+        authors:
+            - J. Lefèvre
+            - G. Obozinski
+            - and S. Baillet
+        title: Imaging Brain Activation Streams from Optical Flow Computation on 2-Riemannian Manifold
+        year: "2007"
+        ids:
+            doi: 10.1007/978-3-540-73273-0_39
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 227
+      parsed:
+        authors:
+            - H. Liu
+            - T. Hong
+            - M. Herman
+            - T. Camus
+            - and R. Chellapa
+        title: Accuracy vs. efficiency trade-off in optical flow algorithms
+        venue: Comput. Vision Image Understand.
+        volume: "72"
+        pages: "271"
+        year: "1998"
+        ids:
+            doi: 10.1006/cviu.1998.0675
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 228
+      parsed:
+        authors:
+            - L.M. Lui
+            - Y. Wang
+            - and T.F. Chan
+        title: Solving PDEs on Manifold using Global Conformal Parameterization
+        year: "2005"
+        ids:
+            doi: 10.1007/11567646_26
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 229
+      parsed:
+        authors:
+            - F. Mémoli
+            - G. Sapiro
+            - and S. Osher
+        title: Solving variational problems and partial differential equations mapping into general target manifolds
+        venue: J. Comput. Phys.
+        volume: "195"
+        pages: "263"
+        year: "2004"
+        ids:
+            doi: 10.1016/j.jcp.2003.10.007
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 230
+      parsed:
+        authors:
+            - H.H. Nagel
+        title: 'On the estimation of optical flow: relations between different approaches and some new results'
+        venue: Artificial Intelligence
+        volume: "33"
+        pages: "299"
+        year: "1987"
+        ids:
+            doi: 10.1016/0004-3702(87)90041-5
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 231
+      parsed:
+        authors:
+            - P.L. Nunez
+        title: Toward a quantitative description of large-scale neocortical dynamic function and EEG
+        venue: Behavioral and Brain Sciences
+        volume: "23"
+        pages: "371"
+        year: "2000"
+        ids:
+            doi: 10.1017/s0140525x00003253
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 232
+      parsed:
+        authors:
+            - D. Pantazis
+            - T.E. Nichols
+            - S. Baillet
+            - and R.M. Leahy
+        title: A comparison of random field theory and permutation methods for the statistical analysis of MEG data
+        venue: Neuroimage
+        volume: "25"
+        pages: "383"
+        year: "2005"
+        ids:
+            doi: 10.1016/j.neuroimage.2004.09.040
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 233
+      parsed:
+        authors:
+            - P. Perrochet
+            - P. Azérad
+        title: 'Space-time integrated least-squares: Solving a pure advection equation with a pure diffusion operator'
+        venue: Computer.Phys.
+        volume: "117"
+        pages: "183"
+        year: "1995"
+        ids:
+            doi: 10.1006/jcph.1995.1057
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 234
+      parsed:
+        authors:
+            - W. Rekik
+            - D. Bereziat
+            - and S. Dubuisson
+        title: Optical flow computation and visualization in spherical context. Application on 3D+ t bio-cellular sequences
+        year: "1648"
+        ids:
+            doi: 10.1109/iembs.2006.260503
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 235
+      parsed:
+        authors:
+            - J.A. Rossmanith
+            - D.S. Bale
+            - and R.J. LeVeque
+        title: A wave propagation algorithm for hyperbolic systems on curved manifolds
+        venue: J. Comput. Phys.
+        volume: "199"
+        pages: "631"
+        year: "2004"
+        ids:
+            doi: 10.1016/j.jcp.2004.03.002
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 236
+      parsed:
+        authors:
+            - C. Schnörr
+        title: Determining optical flow for irregular domains by minimizing quadratic functionals of a certain class
+        venue: Int. J. Computer Vision
+        volume: "6"
+        pages: "25"
+        year: "1991"
+        ids:
+            doi: 10.1007/bf00127124
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 237
+      parsed:
+        authors:
+            - N. Sochen
+            - R. Deriche
+            - and L. Lopez Perez
+        title: The Beltrami Flow over Implicit Manifolds
+        year: "2003"
+        ids:
+            doi: 10.1109/iccv.2003.1238434
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 238
+      parsed:
+        authors:
+            - A. Spira
+            - R. Kimmel
+        title: Geometric curve flows on parametric manifolds
+        venue: J. Comput. Phys.
+        volume: "223"
+        pages: "235"
+        year: "2007"
+        ids:
+            doi: 10.1016/j.jcp.2006.09.008
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 239
+      parsed:
+        authors:
+            - Z. Sun, G. Bebis
+            - R. Miller, On-Road Vehicle Detection
+        title: A Review
+        venue: IEEE Trans. Pattern Anal. Mach. Intell.
+        volume: "28"
+        pages: "694"
+        year: "2006"
+        ids:
+            doi: 10.1109/tpami.2006.104
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 240
+      parsed:
+        authors:
+            - A. Torii
+            - A. Imiya
+            - H. Sugaya
+            - and Y. Mochizuki
+        title: 'Optical Flow Computation for Compound Eyes: Variational Analysis of Omni-Directional Views'
+        year: "2005"
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 241
+      parsed:
+        authors:
+            - K. Wang
+        title: Weiwei
+        year: "2006"
+        ids:
+            doi: 10.1145/1141911.1141991
+      matcher: resolve/1
+    - from: E9YWZW7J5X/e1
+      n: 242
+      parsed:
+        authors:
+            - J. Weickert
+            - C. Schnörr
+        title: A theoretical framework for convex regularizers in PDE-based computation of image motion
+        venue: International Journal of Computer Vision
+        volume: "45"
+        pages: "245"
+        year: "2001"
+        ids:
+            doi: 10.1023/a:1013614317973
+      matcher: resolve/1
+---
