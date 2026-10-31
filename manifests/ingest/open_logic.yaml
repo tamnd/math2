@@ -3,6 +3,6 @@ source: open_logic
 adapter: textbook/1
 snapshot: blake3:a5eb116529d3e799289dd9f7e7530d0d446b3615f5608fe08c668241eee3c765
 records: 2549
-hash: blake3:a9cf0007224c580312b109ceef1594ff2ea51fea141f9fe2520addd1ab5b5e39
+hash: blake3:fe232f9d612a7be3fd1584edc26a447b45643044f852e682c369bd484e4d4926
 classes:
   open: 2549

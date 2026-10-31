@@ -3,6 +3,6 @@ source: austin_ula
 adapter: textbook/1
 snapshot: blake3:8a2b90065562b3686f23f8886e6cb9b5135325465346c13d4c1a356e7bfbd43d
 records: 717
-hash: blake3:cb860123650779f7ecaa8a8e7aa0d9fb74e541c81120af80dec7e11908bdb150
+hash: blake3:c790622a918c00ce6583acad91f04d207ca34e93e7fb8af87f5f48dc445b3dc9
 classes:
   open: 717

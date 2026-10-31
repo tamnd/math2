@@ -3,6 +3,6 @@ source: lebl_scv
 adapter: textbook/1
 snapshot: blake3:674137eabf02760c9e8dafdbe3e64bc7279562f175304f952eef3b8d1ef7eee8
 records: 890
-hash: blake3:8555bee7f8429e0481971cb9a4a27c11fb48ce554778f6a62cf6175a3f3c0b3c
+hash: blake3:787f714801db921acc9ca6c6f19220428e5583c6ae2f9686f091d0c1af5c397d
 classes:
   open: 890

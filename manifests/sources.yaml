@@ -23,6 +23,7 @@ sources:
         hash: blake3:8343b800c382a8607181dd04c97811689dac790e549145c484d79b48d4afebd3
         date: "2026-10-31"
         commit: e597daa657ba5ec0953157aa8c44834dceb63eb2
+    resource: 907G4C4EJ1
   - id: ams-series
     name: The book series of the American Mathematical Society, through Crossref
     home: https://www.crossref.org
@@ -62,6 +63,7 @@ sources:
         hash: blake3:3dd09e0855ace7e7dbf04351de5c4cb134197b76059771e3dc68579ba7bd7415
         date: "2026-10-31"
         commit: ebd95d6bd59e23c633c65cf560bcb93efa912aae
+    resource: QKM9DD2H56
   - id: arxiv
     name: arXiv, through the metadata plane of tamnd/arxiv
     kind: paper-index
@@ -107,6 +109,7 @@ sources:
         hash: blake3:8a2b90065562b3686f23f8886e6cb9b5135325465346c13d4c1a356e7bfbd43d
         date: "2026-10-31"
         commit: b6ea263ef23703072b7007485bb7a2d89c5f399b
+    resource: 649HGZKE96
   - id: bmo
     name: British Mathematical Olympiad
     kind: exercises
@@ -151,6 +154,7 @@ sources:
         hash: blake3:8db21858b770aa92b552cdd5d529aeda51025a4f207340f4e48bf00dcddf1a1b
         date: "2026-10-31"
         commit: 2315fb79ee07cd541dcb7de084d3ca9921dfae74
+    resource: P1C114YBXG
   - id: hott_book
     name: 'Homotopy Type Theory: Univalent Foundations of Mathematics'
     authors:
@@ -172,6 +176,7 @@ sources:
         hash: blake3:0aae8d8b41ac4860ce271abf7dde72685cd653e53d0c5ddaf735fb97422b8e39
         date: "2026-10-31"
         commit: 578b85cc8d586b1677ec4335148adeb443057d24
+    resource: N54F33XE07
   - id: imo
     name: International Mathematical Olympiad
     kind: exercises
@@ -263,6 +268,7 @@ sources:
         hash: blake3:cd3508463f1db1f683a5e1b4daec4dbf379ec75846dda7604f47eba93a55974b
         date: "2026-10-31"
         commit: 658bcae9fb710f3fae2c9da4ca4524ce157453af
+    resource: E9HS8K3A52
   - id: lebl_ra
     name: 'Basic Analysis I and II: Introduction to Real Analysis'
     authors:
@@ -285,6 +291,7 @@ sources:
         hash: blake3:9a849eb7eac50d985ae65dc62f4057c2ab19a4a845a0b42a1cbc083703244eaf
         date: "2026-10-31"
         commit: e21ec524ca7d54f800c693b948020c188d21d01f
+    resource: E59CDZA4DP
   - id: lebl_scv
     name: Tasty Bits of Several Complex Variables
     authors:
@@ -307,6 +314,7 @@ sources:
         hash: blake3:674137eabf02760c9e8dafdbe3e64bc7279562f175304f952eef3b8d1ef7eee8
         date: "2026-10-31"
         commit: 78d7d41554695c389552c301398803d4633b9208
+    resource: VNMV985MXX
   - id: levin_dmoi
     name: 'Discrete Mathematics: An Open Introduction'
     authors:
@@ -329,6 +337,7 @@ sources:
         hash: blake3:6398698676f8cb7838a62d09b46b1a619d3f8d6f8fb7efd5eeeacf5ac0ad1bb6
         date: "2026-10-31"
         commit: a8e4949bc45daf100930c1182983778f56ab689f
+    resource: Y91XFCEVHQ
   - id: mathlib_100
     name: Mathlib, 100 theorems
     kind: curriculum
@@ -446,6 +455,7 @@ sources:
         hash: blake3:4ed6a8681091f1982528026e06219208d001f9656231cf988d38e9d48cb24fc5
         date: "2026-10-31"
         commit: 2bdf25b3bc8c9e9d1043bcbc495bff4c7d10f586
+    resource: RZP28ERRZV
   - id: nptel
     name: NPTEL, the National Programme on Technology Enhanced Learning
     kind: course-platform
@@ -507,6 +517,7 @@ sources:
         hash: blake3:a5eb116529d3e799289dd9f7e7530d0d446b3615f5608fe08c668241eee3c765
         date: "2026-10-31"
         commit: 1e960beff9ed7835bf3e3f1335e21af3439cd107
+    resource: PKGMM3P5QY
   - id: oyc
     name: Open Yale Courses
     kind: course-platform
