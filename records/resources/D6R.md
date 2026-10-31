@@ -1,5 +1,33 @@
 ---
 records:
+    - id: D6RAQZ2DSK
+      kind: preprint
+      title: Lusztig Parameters and Factorizations of Determinantial Modules
+      creators:
+        - name: Yingjin Bi
+          role: author
+      date: "2026-10-08"
+      subjects:
+        - system: arxiv
+          code: math.RT
+        - system: arxiv
+          code: math.QA
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-08"
+          ids:
+            arxiv: "2610.12531"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.12531"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: D6RWXCNA4F
       kind: edited-volume
       title: Arithmetic, Geometry, Cryptography and Coding Theory

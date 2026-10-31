@@ -1,0 +1,35 @@
+---
+records:
+    - id: ERHQDB8M41
+      kind: preprint
+      title: New distance bounds for one-generator quasi-cyclic codes with applications to Hermitian LCD codes and entanglement-assisted quantum codes
+      creators:
+        - name: Kanat Abdukhalikov
+          role: author
+        - name: Duy Ho
+          role: author
+        - name: Rasha M. Shat
+          role: author
+      date: "2026-09-25"
+      subjects:
+        - system: arxiv
+          code: cs.IT
+        - system: arxiv
+          code: math.IT
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-09-25"
+          ids:
+            arxiv: "2609.31300"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2609.31300"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
+---

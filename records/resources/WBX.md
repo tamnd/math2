@@ -1,5 +1,35 @@
 ---
 records:
+    - id: WBXAW9G4JB
+      kind: preprint
+      title: Amenable groups with nearly exponential sofic profile, and quantum channels that need nearly linear memory
+      creators:
+        - name: Seth Douglas
+          role: author
+        - name: Nidhal Mghirbi
+          role: author
+      date: "2026-10-03"
+      subjects:
+        - system: arxiv
+          code: quant-ph
+        - system: arxiv
+          code: math.GR
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-03"
+          ids:
+            arxiv: "2610.04271"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.04271"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: WBXCJHDXQS
       kind: monograph
       title: Analysis on Lie Groups and Homogeneous Spaces

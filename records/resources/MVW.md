@@ -1,0 +1,65 @@
+---
+records:
+    - id: MVWSXXCXB7
+      kind: preprint
+      title: Strong invariance principles in deterministic systems
+      creators:
+        - name: Zemer Kosloff
+          role: author
+        - name: Dalibor Volny
+          role: author
+      date: "2026-10-15"
+      subjects:
+        - system: arxiv
+          code: math.DS
+        - system: arxiv
+          code: math.PR
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-15"
+          ids:
+            arxiv: "2610.22073"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.22073"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
+    - id: MVWXMDFP3P
+      kind: preprint
+      title: Complexity analysis of trust-region methods under $(\alpha,L_0,L_1)$-smoothness
+      creators:
+        - name: Youssef Diouane
+          role: author
+        - name: Mohamed L. Habiboullah
+          role: author
+        - name: Awa Khouna
+          role: author
+        - name: Dominique Orban
+          role: author
+      date: "2026-09-27"
+      subjects:
+        - system: arxiv
+          code: math.OC
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-09-27"
+          ids:
+            arxiv: "2609.33238"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2609.33238"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
+---

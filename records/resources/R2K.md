@@ -1,5 +1,33 @@
 ---
 records:
+    - id: R2K4HZN8RW
+      kind: preprint
+      title: Cannon-Thurston Maps, Harmonic Maps, and Minimal Surfaces in Fibered Hyperbolic 3-Manifolds
+      creators:
+        - name: Alberto Verjovsky
+          role: author
+      date: "2026-09-25"
+      subjects:
+        - system: arxiv
+          code: math.GT
+        - system: arxiv
+          code: math.DG
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-09-25"
+          ids:
+            arxiv: "2609.35858"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2609.35858"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: R2K785VW2K
       kind: problem-set
       title: Kvant 2005, no. 5

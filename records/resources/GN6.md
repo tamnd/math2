@@ -1,5 +1,39 @@
 ---
 records:
+    - id: GN608RC9ES
+      kind: preprint
+      title: A Novel Approach for the SDIR Epidemic Model on Online Social Networks
+      creators:
+        - name: Nguyen Hong Phuc
+          role: author
+        - name: Duong Khanh Ly
+          role: author
+        - name: Hoang Phi Dung
+          role: author
+      date: "2026-09-27"
+      subjects:
+        - system: arxiv
+          code: cs.SI
+        - system: arxiv
+          code: cs.NI
+        - system: arxiv
+          code: math.OC
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-09-27"
+          ids:
+            arxiv: "2609.33682"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2609.33682"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: GN6K7PP01R
       kind: monograph
       title: Algebraic Quotients. Torus Actions and Cohomology. The Adjoint Representation and the Adjoint Action

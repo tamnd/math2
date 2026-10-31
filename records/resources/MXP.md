@@ -1,0 +1,33 @@
+---
+records:
+    - id: MXPK9A2HK2
+      kind: preprint
+      title: Identifiability and Consistent Recovery for the Unnormalized Graph Laplace Operators
+      creators:
+        - name: Susovan Pal
+          role: author
+      date: "2026-10-12"
+      subjects:
+        - system: arxiv
+          code: math.ST
+        - system: arxiv
+          code: math.DG
+        - system: arxiv
+          code: stat.TH
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-12"
+          ids:
+            arxiv: "2610.17032"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.17032"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
+---

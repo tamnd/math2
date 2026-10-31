@@ -1,5 +1,37 @@
 ---
 records:
+    - id: BJGS6ZCQ12
+      kind: preprint
+      title: The Leavitt inverse semigroup of a separated graph
+      creators:
+        - name: Pere Ara
+          role: author
+        - name: Alcides Buss
+          role: author
+        - name: Ado Dalla Costa
+          role: author
+      date: "2025-12-17"
+      subjects:
+        - system: arxiv
+          code: math.RA
+        - system: arxiv
+          code: math.OA
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2025-12-17"
+          ids:
+            arxiv: "2512.16003"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2512.16003"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: BJGX3AJF78
       kind: monograph
       title: Algèbres de Lie Libres et Monoïdes Libres

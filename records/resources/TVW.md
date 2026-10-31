@@ -1,5 +1,43 @@
 ---
 records:
+    - id: TVW9BTWJ3D
+      kind: preprint
+      title: 'Detecting a Shift Is Not Enough: Exact Minimax Limits of Linear Representation Repair'
+      creators:
+        - name: Anuar Aimoldin
+          role: author
+        - name: Yankai Chen
+          role: author
+        - name: Ayana Mussabayeva
+          role: author
+        - name: Xue Liu
+          role: author
+      date: "2026-10-06"
+      subjects:
+        - system: arxiv
+          code: cs.LG
+        - system: arxiv
+          code: math.ST
+        - system: arxiv
+          code: stat.ML
+        - system: arxiv
+          code: stat.TH
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-06"
+          ids:
+            arxiv: "2610.08069"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.08069"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: TVWHVCG8D0
       kind: monograph
       title: Helix Structures in Quantum Cohomology of Fano Varieties

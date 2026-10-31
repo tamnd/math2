@@ -49,4 +49,32 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: 6KFS1X0MZR
+      kind: preprint
+      title: Identifiability of a linear dynamical reaction-diffusion system with directed interactions from the second-order statistics of a single snapshot
+      creators:
+        - name: Pirmin Schlicke
+          role: author
+      date: "2026-10-05"
+      subjects:
+        - system: arxiv
+          code: q-bio.QM
+        - system: arxiv
+          code: math.PR
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-05"
+          ids:
+            arxiv: "2610.07341"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.07341"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

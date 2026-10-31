@@ -39,4 +39,31 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.4 scope/1
           note: from deferred to in
+    - id: A4TR95VGX2
+      kind: preprint
+      title: 'Singularities of functions: a global point of view'
+      creators:
+        - name: Claude Sabbah
+          role: author
+      date: "2023-11-03"
+      subjects:
+        - system: arxiv
+          code: math.AG
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2023-11-03"
+          ids:
+            arxiv: "2311.01874"
+            doi: 10.1007/978-3-031-68711-2_6
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2311.01874"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

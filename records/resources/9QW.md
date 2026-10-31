@@ -1,5 +1,39 @@
 ---
 records:
+    - id: 9QW88325GS
+      kind: preprint
+      title: A Physics-Driven Multiscale Method for High-Frequency Helmholtz Equations
+      creators:
+        - name: Huangxin Chen
+          role: author
+        - name: Jianhui Chen
+          role: author
+        - name: Shubin Fu
+          role: author
+        - name: Zhiyu Tan
+          role: author
+      date: "2026-10-02"
+      subjects:
+        - system: arxiv
+          code: math.NA
+        - system: arxiv
+          code: cs.NA
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-02"
+          ids:
+            arxiv: "2610.03144"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.03144"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: 9QWECMMJAN
       kind: course-material
       title: 'Lecture 23: Differential equations and exp(At)'
@@ -38,4 +72,30 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to deferred
+    - id: 9QWPGZ92ZN
+      kind: preprint
+      title: Strongly linearly convex exhaustion of a class of $\mathbb{C}$-convex domains
+      creators:
+        - name: Naveen Gupta
+          role: author
+      date: "2026-09-28"
+      subjects:
+        - system: arxiv
+          code: math.CV
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-09-28"
+          ids:
+            arxiv: "2609.35474"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2609.35474"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

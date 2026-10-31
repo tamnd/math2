@@ -1,0 +1,33 @@
+---
+records:
+    - id: TVFD0G3F2W
+      kind: preprint
+      title: Gradient blowup of smooth vacuum solutions to 1D compressible Euler equations
+      creators:
+        - name: Juhi Jang
+          role: author
+        - name: Jiaqi Liu
+          role: author
+        - name: Nader Masmoudi
+          role: author
+      date: "2026-05-01"
+      subjects:
+        - system: arxiv
+          code: math.AP
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-05-01"
+          ids:
+            arxiv: "2605.00407"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2605.00407"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
+---

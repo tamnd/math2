@@ -1,5 +1,46 @@
 ---
 records:
+    - id: HH4ADHZ8XD
+      kind: preprint
+      title: On a fibrational construction for optics, lenses, and Dialectica categories
+      creators:
+        - name: Matteo Capucci
+          role: author
+        - name: Bruno Gavranović
+          role: author
+        - name: Abdullah Malik
+          role: author
+        - name: Francisco Rios
+          role: author
+        - name: Jonathan Weinberger
+          role: author
+      date: "2024-03-25"
+      subjects:
+        - system: arxiv
+          code: math.CT
+        - system: arxiv
+          code: cs.IT
+        - system: arxiv
+          code: cs.LO
+        - system: arxiv
+          code: math.IT
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2024-03-25"
+          ids:
+            arxiv: "2403.16388"
+            doi: 10.46298/entics.14638
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2403.16388"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: HH4F9HMS64
       kind: problem-set
       title: Putnam 2019

@@ -48,4 +48,40 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: BB0JGNK4YF
+      kind: preprint
+      title: Near-Optimal Convex Optimization with Lazy Second-Order Oracles
+      creators:
+        - name: Xinliang Zhang
+          role: author
+        - name: Lesi Chen
+          role: author
+        - name: Chengchang Liu
+          role: author
+        - name: Jingzhao Zhang
+          role: author
+      date: "2026-10-02"
+      subjects:
+        - system: arxiv
+          code: math.OC
+        - system: arxiv
+          code: cs.LG
+        - system: arxiv
+          code: stat.ML
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-02"
+          ids:
+            arxiv: "2610.03222"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.03222"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

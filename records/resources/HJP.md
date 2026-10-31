@@ -43,4 +43,31 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: HJPDS53MX4
+      kind: preprint
+      title: On the equivalence between moderate growth-type conditions in the weight matrix setting II
+      creators:
+        - name: Gerhard Schindl
+          role: author
+      date: "2025-05-13"
+      subjects:
+        - system: arxiv
+          code: math.CA
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2025-05-13"
+          ids:
+            arxiv: "2505.08839"
+            doi: 10.1285/i15900932v45n2p91
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2505.08839"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

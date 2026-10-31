@@ -1,5 +1,43 @@
 ---
 records:
+    - id: XB8NYRD86J
+      kind: preprint
+      title: 'Brenier Meets Adversarial Training: Optimal Transport Geometry for Robust Learning'
+      creators:
+        - name: Alireza Abdollahpoorrostam
+          role: author
+        - name: Ehsan Sharifian
+          role: author
+        - name: Buse Şen
+          role: author
+        - name: Marco Cuturi
+          role: author
+        - name: Daniel Kuhn
+          role: author
+      date: "2026-09-25"
+      subjects:
+        - system: arxiv
+          code: cs.LG
+        - system: arxiv
+          code: math.OC
+        - system: arxiv
+          code: stat.ML
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-09-25"
+          ids:
+            arxiv: "2609.31363"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2609.31363"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: XB8XVTXDHH
       kind: monograph
       title: 'An Introduction to the Mathematical Theory of the Navier-Stokes Equations: Steady-State Problems'

@@ -1,0 +1,33 @@
+---
+records:
+    - id: SF88CM0957
+      kind: preprint
+      title: On the type of a complex hyperbolic triangle group
+      creators:
+        - name: Wei Liao
+          role: author
+        - name: John R Parker
+          role: author
+      date: "2026-10-02"
+      subjects:
+        - system: arxiv
+          code: math.GR
+        - system: arxiv
+          code: math.GT
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-02"
+          ids:
+            arxiv: "2610.03422"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.03422"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
+---

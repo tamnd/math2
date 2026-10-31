@@ -45,6 +45,41 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: BP0QEPB4YM
+      kind: preprint
+      title: On the Residual Effective Potential within Global One-Dimensional Quantum Gravity
+      creators:
+        - name: Lukasz Andrzej Glinka
+          role: author
+      date: "2009-02-17"
+      subjects:
+        - system: arxiv
+          code: hep-th
+        - system: arxiv
+          code: gr-qc
+        - system: arxiv
+          code: math-ph
+        - system: arxiv
+          code: math.FA
+        - system: arxiv
+          code: math.MP
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2009-02-17"
+          ids:
+            arxiv: "0902.2829"
+            doi: 10.4172/2329-6542.1000.103
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "0902.2829"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: BP0VT6HE7Z
       kind: monograph
       title: Preconditioned Conjugate Gradient Methods

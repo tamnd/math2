@@ -1,5 +1,45 @@
 ---
 records:
+    - id: A5KESSK05N
+      kind: preprint
+      title: Viscosity Solutions of Fully second-order HJB Equations in the Wasserstein Space
+      creators:
+        - name: Erhan Bayraktar
+          role: author
+        - name: Hang Cheung
+          role: author
+        - name: Ibrahim Ekren
+          role: author
+        - name: Jinniao Qiu
+          role: author
+        - name: Ho Man Tai
+          role: author
+        - name: Xin Zhang
+          role: author
+      date: "2025-01-03"
+      subjects:
+        - system: arxiv
+          code: math.OC
+        - system: arxiv
+          code: math.AP
+        - system: arxiv
+          code: math.PR
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2025-01-03"
+          ids:
+            arxiv: "2501.01612"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2501.01612"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: A5KYF53NX9
       kind: monograph
       title: 'Numerical Methods for Metric Graphs: Eigenvalue Problems and Parabolic Partial Differential Equations'

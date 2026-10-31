@@ -1,5 +1,43 @@
 ---
 records:
+    - id: 1TZVMC23J9
+      kind: preprint
+      title: A New Upper Bound for the Tur\'an Density of the Tetrahedron
+      creators:
+        - name: Gyeongwon Jeong
+          role: author
+        - name: Seonghun Park
+          role: author
+        - name: Seonghyuk Im
+          role: author
+        - name: Joonkyung Lee
+          role: author
+        - name: Hongseok Yang
+          role: author
+      date: "2026-09-23"
+      subjects:
+        - system: arxiv
+          code: math.CO
+        - system: arxiv
+          code: cs.DM
+        - system: arxiv
+          code: math.OC
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-09-23"
+          ids:
+            arxiv: "2609.27495"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2609.27495"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: 1TZWRK01CC
       kind: monograph
       title: 'Lie Theory: Harmonic Analysis on Symmetric Spaces—General Plancherel Theorems'

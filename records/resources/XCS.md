@@ -43,4 +43,34 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: XCSQ27P0XW
+      kind: preprint
+      title: Rational cuspidal curves and symplectic fillings
+      creators:
+        - name: Marco Golla
+          role: author
+        - name: Laura Starkston
+          role: author
+      date: "2021-11-18"
+      subjects:
+        - system: arxiv
+          code: math.GT
+        - system: arxiv
+          code: math.SG
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2021-11-18"
+          ids:
+            arxiv: "2111.09700"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2111.09700"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

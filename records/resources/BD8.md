@@ -1,5 +1,34 @@
 ---
 records:
+    - id: BD8G9W4ZRQ
+      kind: preprint
+      title: 'A New Diffusive Representation for Fractional Derivatives, Part II: Convergence Analysis of the Numerical Scheme'
+      creators:
+        - name: Kai Diethelm
+          role: author
+      date: "2022-02-28"
+      subjects:
+        - system: arxiv
+          code: math.NA
+        - system: arxiv
+          code: cs.NA
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2022-02-28"
+          ids:
+            arxiv: "2203.16454"
+            doi: 10.3390/math10081245
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2203.16454"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: BD8HKH1TYB
       kind: monograph
       title: Optimal Periodic Control

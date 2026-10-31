@@ -72,6 +72,68 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: J1Z9P0H13V
+      kind: preprint
+      title: 'Fractional-order differential geometry of Gielis curves: chart regularization, Caputo curvature, and the fate of singularities'
+      creators:
+        - name: Umut Selvi
+          role: author
+        - name: Derya Sağlam
+          role: author
+      date: "2026-09-26"
+      subjects:
+        - system: arxiv
+          code: math.GM
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-09-26"
+          ids:
+            arxiv: "2610.03754"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.03754"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
+    - id: J1ZP57QWED
+      kind: preprint
+      title: The quadratic Brown--Erd\H{o}s--S\'os problem for 3-uniform hypergraphs with 8 and 9 edges
+      creators:
+        - name: Levente Bodnár
+          role: author
+        - name: Oleg Pikhurko
+          role: author
+        - name: Shumin Sun
+          role: author
+        - name: Yan Wang
+          role: author
+        - name: Jiasheng Zeng
+          role: author
+      date: "2026-10-02"
+      subjects:
+        - system: arxiv
+          code: math.CO
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-02"
+          ids:
+            arxiv: "2610.03323"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.03323"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: J1ZXASG5SR
       kind: monograph
       title: Lectures on Formal and Rigid Geometry

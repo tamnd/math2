@@ -1,5 +1,35 @@
 ---
 records:
+    - id: 3XM05SYQ8D
+      kind: preprint
+      title: Local Asymptotics for Entrance Laws of Reflected L\'evy Excursions
+      creators:
+        - name: Zhi-Hao Cui
+          role: author
+        - name: Hao Wu
+          role: author
+        - name: Wei Xu
+          role: author
+      date: "2026-10-02"
+      subjects:
+        - system: arxiv
+          code: math.PR
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-02"
+          ids:
+            arxiv: "2610.03449"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.03449"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: 3XM5BWW2PN
       kind: monograph
       title: 'K3: A New Problem List in Low-Dimensional Topology'

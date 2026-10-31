@@ -1,5 +1,31 @@
 ---
 records:
+    - id: BPPBAWGPHJ
+      kind: preprint
+      title: The dimension block of a spherical fusion category
+      creators:
+        - name: Andrew Schopieray
+          role: author
+      date: "2026-09-28"
+      subjects:
+        - system: arxiv
+          code: math.QA
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-09-28"
+          ids:
+            arxiv: "2609.35287"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2609.35287"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: BPPVXDDBGY
       kind: monograph
       title: Asymptotic Solutions of Strongly Nonlinear Systems of Differential Equations

@@ -1,5 +1,35 @@
 ---
 records:
+    - id: 7CK21JGM5A
+      kind: preprint
+      title: Adiabatic limits and spectral sequences for Riemannian foliations
+      creators:
+        - name: Jesus A. Alvarez Lopez
+          role: author
+        - name: Yuri A. Kordyukov
+          role: author
+      date: "1999-02-25"
+      subjects:
+        - system: arxiv
+          code: math.DG
+        - system: arxiv
+          code: math.SP
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "1999-02-25"
+          ids:
+            arxiv: math/9902147
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: math/9902147
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: 7CK48P66CB
       kind: monograph
       title: Probability Through Problems

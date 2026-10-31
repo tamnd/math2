@@ -1,5 +1,35 @@
 ---
 records:
+    - id: QNBFHFZ3H0
+      kind: preprint
+      title: 'Diffraction of waves by finite thin coatings: asymptotic expansion and effective models'
+      creators:
+        - name: Cédric Baudet
+          role: author
+      date: "2026-10-09"
+      subjects:
+        - system: arxiv
+          code: math.AP
+        - system: arxiv
+          code: cs.NA
+        - system: arxiv
+          code: math.NA
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-09"
+          ids:
+            arxiv: "2610.13680"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.13680"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: QNBR5BWZHY
       kind: monograph
       title: Invariant Theory

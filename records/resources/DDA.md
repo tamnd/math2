@@ -1,5 +1,43 @@
 ---
 records:
+    - id: DDA62XQTWW
+      kind: preprint
+      title: Uniquely compatible transfer systems for cyclic groups of order $p^rq^s$
+      creators:
+        - name: Kristen Mazur
+          role: author
+        - name: Angelica M. Osorno
+          role: author
+        - name: Constanze Roitzheim
+          role: author
+        - name: Rekha Santhanam
+          role: author
+        - name: Danika Van Niel
+          role: author
+        - name: Valentina Zapata Castro
+          role: author
+      date: "2024-01-24"
+      subjects:
+        - system: arxiv
+          code: math.AT
+        - system: arxiv
+          code: math.CO
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2024-01-24"
+          ids:
+            arxiv: "2401.13523"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2401.13523"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: DDAYY9DP49
       kind: monograph
       title: Ordinary Differential Equations and Dynamical Systems

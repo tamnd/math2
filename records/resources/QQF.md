@@ -1,0 +1,35 @@
+---
+records:
+    - id: QQFXT31CA5
+      kind: preprint
+      title: Uniform Height Gaps in Arbitrary Characteristics
+      creators:
+        - name: Alice Lin
+          role: author
+        - name: Frank Lu
+          role: author
+        - name: Jit Wu Yap
+          role: author
+      date: "2026-10-08"
+      subjects:
+        - system: arxiv
+          code: math.NT
+        - system: arxiv
+          code: math.AG
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-08"
+          ids:
+            arxiv: "2610.11905"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.11905"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
+---

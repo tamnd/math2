@@ -1,5 +1,37 @@
 ---
 records:
+    - id: YTF96VHKAH
+      kind: preprint
+      title: Long time strong Sobolev instability for quasilinear NLS
+      creators:
+        - name: Yuri Cacchiò
+          role: author
+        - name: Filippo Giuliani
+          role: author
+        - name: Felice Iandoli
+          role: author
+        - name: Raffaele Scandone
+          role: author
+      date: "2026-09-29"
+      subjects:
+        - system: arxiv
+          code: math.AP
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-09-29"
+          ids:
+            arxiv: "2609.37593"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2609.37593"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: YTFQ9F6ZBJ
       kind: monograph
       title: Semi-Martingales et Grossissement d’une Filtration

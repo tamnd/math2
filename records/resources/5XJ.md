@@ -1,0 +1,39 @@
+---
+records:
+    - id: 5XJR7QGZXW
+      kind: preprint
+      title: Mutual Information for Electromagnetic Information Theory Based on Random Fields
+      creators:
+        - name: Zhongzhichao Wan
+          role: author
+        - name: Jieao Zhu
+          role: author
+        - name: Zijian Zhang
+          role: author
+        - name: Linglong Dai
+          role: author
+        - name: Chan-Byoung Chae
+          role: author
+      date: "2021-10-31"
+      subjects:
+        - system: arxiv
+          code: cs.IT
+        - system: arxiv
+          code: math.IT
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2021-10-31"
+          ids:
+            arxiv: "2111.00496"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2111.00496"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
+---

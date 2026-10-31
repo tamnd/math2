@@ -1,0 +1,33 @@
+---
+records:
+    - id: XZ71J0DQSE
+      kind: preprint
+      title: The Quillen and sharbly Hopf algebra structures on Steinberg homology coincide
+      creators:
+        - name: Urshita Pal
+          role: author
+        - name: Sam Payne
+          role: author
+      date: "2026-09-30"
+      subjects:
+        - system: arxiv
+          code: math.AT
+        - system: arxiv
+          code: math.KT
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-09-30"
+          ids:
+            arxiv: "2609.38735"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2609.38735"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
+---

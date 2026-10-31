@@ -1,5 +1,33 @@
 ---
 records:
+    - id: GWP0HYMDE3
+      kind: preprint
+      title: A many-loci system with evolution characterized by uncountable linear operators
+      creators:
+        - name: B. A. Omirov
+          role: author
+        - name: U. A. Rozikov
+          role: author
+      date: "2024-09-29"
+      subjects:
+        - system: arxiv
+          code: math.DS
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2024-09-29"
+          ids:
+            arxiv: "2409.19687"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2409.19687"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: GWPQ37PCC1
       kind: problem-set
       title: Kvant 2018, no. 10

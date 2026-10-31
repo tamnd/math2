@@ -39,4 +39,32 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.4 scope/1
           note: from deferred to in
+    - id: DK9GQ8G0T4
+      kind: preprint
+      title: Several homotopy fixed point spectral sequences in telescopically localized algebraic $K$-theory
+      creators:
+        - name: Daniel G. Davis
+          role: author
+      date: "2023-02-27"
+      subjects:
+        - system: arxiv
+          code: math.AT
+        - system: arxiv
+          code: math.KT
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2023-02-27"
+          ids:
+            arxiv: "2302.13533"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2302.13533"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

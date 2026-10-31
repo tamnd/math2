@@ -1,5 +1,47 @@
 ---
 records:
+    - id: DRVCY1VARV
+      kind: preprint
+      title: 'Learning Disturbances Online for Risk-Aware Control: Risk-Aware Flight with Less Than One Minute of Data'
+      creators:
+        - name: Prithvi Akella
+          role: author
+        - name: Skylar X. Wei
+          role: author
+        - name: Joel W. Burdick
+          role: author
+        - name: Aaron D. Ames
+          role: author
+      date: "2022-12-12"
+      subjects:
+        - system: arxiv
+          code: eess.SY
+        - system: arxiv
+          code: cs.IT
+        - system: arxiv
+          code: cs.LG
+        - system: arxiv
+          code: cs.RO
+        - system: arxiv
+          code: cs.SY
+        - system: arxiv
+          code: math.IT
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2022-12-12"
+          ids:
+            arxiv: "2212.06253"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2212.06253"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: DRVH5Q5Y8D
       kind: monograph
       title: Waves and Compressible Flow

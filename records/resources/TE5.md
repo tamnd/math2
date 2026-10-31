@@ -1,5 +1,39 @@
 ---
 records:
+    - id: TE54S4QFW1
+      kind: preprint
+      title: Splitting Receiver with Multiple Antennas
+      creators:
+        - name: Yanyan Wang
+          role: author
+        - name: Wanchun Liu
+          role: author
+        - name: Xiangyun Zhou
+          role: author
+      date: "2023-03-08"
+      subjects:
+        - system: arxiv
+          code: cs.IT
+        - system: arxiv
+          code: eess.SP
+        - system: arxiv
+          code: math.IT
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2023-03-08"
+          ids:
+            arxiv: "2303.04321"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2303.04321"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: TE59B6AHG8
       kind: course
       title: Probability and Stochastics for finance

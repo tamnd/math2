@@ -88,4 +88,32 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: AS5GND6D32
+      kind: preprint
+      title: A starlike 3-dimensional counterexample to the hot spots conjecture
+      creators:
+        - name: Rami Atar
+          role: author
+        - name: Krzysztof Burdzy
+          role: author
+      date: "2026-10-14"
+      subjects:
+        - system: arxiv
+          code: math.AP
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-14"
+          ids:
+            arxiv: "2610.19908"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.19908"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

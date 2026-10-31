@@ -1,5 +1,39 @@
 ---
 records:
+    - id: JNBMSFE14N
+      kind: preprint
+      title: Transversal Pooling Neural Networks
+      creators:
+        - name: Emily J. King
+          role: author
+        - name: Dustin G. Mixon
+          role: author
+        - name: Michael Perlmutter
+          role: author
+        - name: Lander Ver Hoef
+          role: author
+      date: "2026-09-28"
+      subjects:
+        - system: arxiv
+          code: cs.LG
+        - system: arxiv
+          code: math.FA
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-09-28"
+          ids:
+            arxiv: "2609.36237"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2609.36237"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: JNBXBTAWN8
       kind: problem-set
       title: BMO 1988

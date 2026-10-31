@@ -1,5 +1,39 @@
 ---
 records:
+    - id: RTE2C0PH4S
+      kind: preprint
+      title: Representation homology of involutive algebras and hyperoctaherdral homology
+      creators:
+        - name: Yuri Berest
+          role: author
+        - name: Ajay C. Ramadoss
+          role: author
+        - name: John Wood
+          role: author
+      date: "2026-10-09"
+      subjects:
+        - system: arxiv
+          code: math.AT
+        - system: arxiv
+          code: math.KT
+        - system: arxiv
+          code: math.RT
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-09"
+          ids:
+            arxiv: "2610.14278"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.14278"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: RTEKKTZTYF
       kind: monograph
       title: Concise Numerical Mathematics

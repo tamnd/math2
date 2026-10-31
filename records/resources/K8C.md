@@ -45,4 +45,36 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: K8CQDCYBR3
+      kind: preprint
+      title: A Dynamic Sampling Adaptive-SGD Method for Machine Learning
+      creators:
+        - name: Achraf Bahamou
+          role: author
+        - name: Donald Goldfarb
+          role: author
+      date: "2019-12-31"
+      subjects:
+        - system: arxiv
+          code: cs.LG
+        - system: arxiv
+          code: math.OC
+        - system: arxiv
+          code: stat.ML
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2019-12-31"
+          ids:
+            arxiv: "1912.13357"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "1912.13357"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

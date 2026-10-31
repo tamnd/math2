@@ -1,5 +1,69 @@
 ---
 records:
+    - id: 2XC1KQXA9H
+      kind: preprint
+      title: On the Optimality of OFDM for Aperiodic Ranging
+      creators:
+        - name: Yifeng Xiong
+          role: author
+        - name: Fan Liu
+          role: author
+        - name: Ya-Feng Liu
+          role: author
+        - name: Shi Jin
+          role: author
+        - name: Jianhua Zhang
+          role: author
+      date: "2026-10-02"
+      subjects:
+        - system: arxiv
+          code: eess.SP
+        - system: arxiv
+          code: cs.IT
+        - system: arxiv
+          code: math.IT
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-02"
+          ids:
+            arxiv: "2610.02843"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.02843"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
+    - id: 2XC2MZFWPP
+      kind: preprint
+      title: A Visual Approach to the Regularity Theory for Fully Nonlinear Elliptic Equations
+      creators:
+        - name: Héctor A. Chang-Lara
+          role: author
+      date: "2024-01-26"
+      subjects:
+        - system: arxiv
+          code: math.AP
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2024-01-26"
+          ids:
+            arxiv: "2401.14638"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2401.14638"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: 2XCCEBJJY0
       kind: monograph
       title: Torus Actions and Their Applications in Topology and Combinatorics

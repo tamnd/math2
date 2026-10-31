@@ -38,4 +38,42 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to deferred
+    - id: QA7EPHDTV2
+      kind: preprint
+      title: Measurable tilings by abelian group actions
+      creators:
+        - name: Jan Grebík
+          role: author
+        - name: Rachel Greenfeld
+          role: author
+        - name: Václav Rozhoň
+          role: author
+        - name: Terence Tao
+          role: author
+      date: "2022-03-03"
+      subjects:
+        - system: arxiv
+          code: math.DS
+        - system: arxiv
+          code: math.CA
+        - system: arxiv
+          code: math.CO
+        - system: arxiv
+          code: math.MG
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2022-03-03"
+          ids:
+            arxiv: "2203.01511"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2203.01511"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

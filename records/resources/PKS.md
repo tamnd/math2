@@ -48,4 +48,38 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: PKS0M89ZRT
+      kind: preprint
+      title: 'The role of friction on heave-induced motion of offshore drilling systems: modelling, analysis, and numerical experiments'
+      creators:
+        - name: Luigi Romano
+          role: author
+        - name: Ole Morten Aamo
+          role: author
+      date: "2026-10-15"
+      subjects:
+        - system: arxiv
+          code: physics.app-ph
+        - system: arxiv
+          code: cs.SY
+        - system: arxiv
+          code: eess.SY
+        - system: arxiv
+          code: math.DS
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-15"
+          ids:
+            arxiv: "2610.22189"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.22189"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

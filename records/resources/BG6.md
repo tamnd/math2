@@ -53,4 +53,38 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: BG6MTYCXWS
+      kind: preprint
+      title: Global error estimators for parametric monotone nonlinearities and neural approximations
+      creators:
+        - name: Pablo Cortés Castillo
+          role: author
+        - name: Wolfgang Dahmen
+          role: author
+        - name: Jay Gopalakrishnan
+          role: author
+      date: "2026-10-05"
+      subjects:
+        - system: arxiv
+          code: math.NA
+        - system: arxiv
+          code: cs.NA
+        - system: arxiv
+          code: stat.ML
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-05"
+          ids:
+            arxiv: "2610.05767"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.05767"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

@@ -1,5 +1,31 @@
 ---
 records:
+    - id: XKEE0DK6N3
+      kind: preprint
+      title: Finite Non-$p$-Groups with 5 Automorphism Orbits
+      creators:
+        - name: Julia Kato
+          role: author
+      date: "2026-09-30"
+      subjects:
+        - system: arxiv
+          code: math.GR
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-09-30"
+          ids:
+            arxiv: "2610.00786"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.00786"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: XKEGGSB99V
       kind: monograph
       title: Analytic Theory of the Harish-Chandra C-Function
@@ -43,4 +69,32 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: XKENQH35DW
+      kind: preprint
+      title: Ternary polynomial relations and periods of cusp forms
+      creators:
+        - name: Vasily Ilin
+          role: author
+        - name: Ken Ono
+          role: author
+      date: "2026-10-13"
+      subjects:
+        - system: arxiv
+          code: math.NT
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-13"
+          ids:
+            arxiv: "2610.19309"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.19309"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

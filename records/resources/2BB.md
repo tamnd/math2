@@ -43,4 +43,30 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: 2BBW80EX78
+      kind: preprint
+      title: Exponential Stability of the Linear Semigroup and the Global Attractor for a Coupled Suspension Bridge System with Past History
+      creators:
+        - name: Jun Zhou
+          role: author
+      date: "2026-10-08"
+      subjects:
+        - system: arxiv
+          code: math.AP
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-08"
+          ids:
+            arxiv: "2610.11027"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.11027"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

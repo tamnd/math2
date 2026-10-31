@@ -43,6 +43,38 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: MMVNRRE7N0
+      kind: preprint
+      title: An Upper Bound for the Mean Speed of Transition Fronts and Unbounded Front Widths for Fisher KPP Equations in Almost Periodic Media
+      creators:
+        - name: Xing Liang
+          role: author
+        - name: Linfeng Xu
+          role: author
+        - name: Qi Zhou
+          role: author
+        - name: Tao Zhou
+          role: author
+      date: "2026-09-25"
+      subjects:
+        - system: arxiv
+          code: math.AP
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-09-25"
+          ids:
+            arxiv: "2609.30760"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2609.30760"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: MMVPGQT6RJ
       kind: monograph
       title: The Adjoint of a Semigroup of Linear Operators

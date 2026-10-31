@@ -45,4 +45,36 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: G0J92BSX4A
+      kind: preprint
+      title: The inf spectrum of moduli space
+      creators:
+        - name: Ara Basmajian
+          role: author
+        - name: Sayantika Mondal
+          role: author
+        - name: Hugo Parlier
+          role: author
+      date: "2026-10-11"
+      subjects:
+        - system: arxiv
+          code: math.GT
+        - system: arxiv
+          code: math.AG
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-11"
+          ids:
+            arxiv: "2610.15926"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.15926"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

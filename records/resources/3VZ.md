@@ -1,5 +1,33 @@
 ---
 records:
+    - id: 3VZ55B2N0D
+      kind: preprint
+      title: Surreal numbers as hyperseries
+      creators:
+        - name: Vincent Bagayoko
+          role: author
+        - name: Joris van der Hoeven
+          role: author
+      date: "2023-10-23"
+      subjects:
+        - system: arxiv
+          code: math.LO
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2023-10-23"
+          ids:
+            arxiv: "2310.14879"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2310.14879"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: 3VZRC205BK
       kind: monograph
       title: Real-Variable Theory of Musielak-Orlicz Hardy Spaces

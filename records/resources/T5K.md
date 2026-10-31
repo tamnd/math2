@@ -43,4 +43,32 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: T5KCTZ3H08
+      kind: preprint
+      title: Very sharp distance and range transitions for random walk bridges on Ramanujan graphs
+      creators:
+        - name: Itai Benjamini
+          role: author
+      date: "2026-09-28"
+      subjects:
+        - system: arxiv
+          code: math.PR
+        - system: arxiv
+          code: math.CO
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-09-28"
+          ids:
+            arxiv: "2609.35213"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2609.35213"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---

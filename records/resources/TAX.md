@@ -1,5 +1,35 @@
 ---
 records:
+    - id: TAX627CRH2
+      kind: preprint
+      title: On the Hardy--Littlewood--Chowla conjecture
+      creators:
+        - name: Guangshi Lü
+          role: author
+        - name: Zhiwei Wang
+          role: author
+        - name: Jie Wu
+          role: author
+      date: "2026-10-14"
+      subjects:
+        - system: arxiv
+          code: math.NT
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-14"
+          ids:
+            arxiv: "2610.20242"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.20242"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: TAXN4K0DBK
       kind: monograph
       title: Mixed Automorphic Forms, Torus Bundles, and Jacobi Forms

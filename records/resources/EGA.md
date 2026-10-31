@@ -1,5 +1,33 @@
 ---
 records:
+    - id: EGADPYP7R3
+      kind: preprint
+      title: Almost Tight Bounds for Isomorphism Testing and Basis Construction in Finite Abelian Groups
+      creators:
+        - name: Nader H. Bshouty
+          role: author
+      date: "2026-10-06"
+      subjects:
+        - system: arxiv
+          code: cs.DS
+        - system: arxiv
+          code: math.GR
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-06"
+          ids:
+            arxiv: "2610.08280"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.08280"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
     - id: EGAWZMTG9T
       kind: monograph
       title: Cônes autopolaires et algèbres de Jordan
@@ -43,4 +71,30 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+    - id: EGAXXGHQNK
+      kind: preprint
+      title: A simultaneous variant of the Hall-Paige theorem and applications
+      creators:
+        - name: Maria Loukaki
+          role: author
+      date: "2026-10-15"
+      subjects:
+        - system: arxiv
+          code: math.GR
+      expressions:
+        - key: e1
+          kind: version
+          label: preprint
+          date: "2026-10-15"
+          ids:
+            arxiv: "2610.21600"
+      catalogue:
+        - source: arxiv
+          snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.21600"
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.7 cluster/1
 ---
