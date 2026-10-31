@@ -28,6 +28,8 @@ records:
                 isbn:
                     - "9783031211386"
                     - "9783031211393"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7B8JKAVW9F
@@ -56,14 +58,20 @@ records:
         - name: Felix Browder
           role: editor
       date: "1976"
+      msc:
+        - code: 00B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1976"
           ids:
             doi:
                 - 10.1090/pspum/028.1
                 - 10.1090/pspum/028.2
+            zbl: "0326.00002"
+            zbl_id: "3510222"
           manifestations:
             - key: m1
               kind: print
@@ -73,6 +81,8 @@ records:
                 isbn:
                     - "9780821894217"
                     - "9780821894255"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: American Mathematical Society
@@ -81,6 +91,8 @@ records:
                 isbn:
                     - "9780821894224"
                     - "9780821894262"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: EVG9FMRY3R
@@ -97,6 +109,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/pspum/028.2
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3510222"
           level: work
       history:
         - op: add

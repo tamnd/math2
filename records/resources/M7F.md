@@ -7,6 +7,9 @@ records:
         - name: Yi-Yu Lin
           role: author
       date: "2026-10-08"
+      msc:
+        - code: 81-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math-ph

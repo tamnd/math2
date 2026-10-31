@@ -13,12 +13,20 @@ records:
         - name: Ugo Moschella
           role: editor
       date: "2007"
+      msc:
+        - code: 00B30
+          from: zbmath_search
+        - code: 81-06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2007"
           ids:
             doi: 10.1007/978-3-7643-7434-1
+            zbl: "1106.00006"
+            zbl_id: "5081226"
           manifestations:
             - key: m1
               kind: print
@@ -28,6 +36,8 @@ records:
                 isbn:
                     - "9783764374334"
                     - "9783764374341"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VS2PFDMCR5
@@ -40,6 +50,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-7643-7434-1
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5081226"
           level: work
       history:
         - op: add
@@ -56,12 +70,26 @@ records:
         - name: Alexander S. Kechris
           role: author
       date: "2004"
+      msc:
+        - code: 37A15
+          from: zbmath_search
+        - code: "03E15"
+          from: zbmath_search
+        - code: 28D05
+          from: zbmath_search
+        - code: 28D15
+          from: zbmath_search
+        - code: 37A20
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2004"
           ids:
             doi: 10.1007/b99421
+            zbl: "1058.37003"
+            zbl_id: "2122439"
           manifestations:
             - key: m1
               kind: print
@@ -71,6 +99,8 @@ records:
                 isbn:
                     - "9783540226031"
                     - "9783540445081"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -83,6 +113,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/b99421
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "2122439"
           level: work
       history:
         - op: add

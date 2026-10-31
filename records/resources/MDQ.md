@@ -13,6 +13,13 @@ records:
         - name: Ke Wei
           role: author
       date: "2026-09-30"
+      msc:
+        - code: 49-XX
+          from: arxiv
+        - code: 90-XX
+          from: arxiv
+        - code: 93-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG

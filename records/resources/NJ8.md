@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9781475718034"
                     - "9781475718010"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer New York
@@ -32,6 +34,8 @@ records:
                 isbn:
                     - "9781441928535"
                     - "9781475726985"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: NWQC4TW7S9

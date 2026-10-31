@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9781461266877"
                     - "9781461202691"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VS2PFDMCR5

@@ -11,6 +11,9 @@ records:
         - name: Eric Chitambar
           role: author
       date: "2020-06-22"
+      msc:
+        - code: 81-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

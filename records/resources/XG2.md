@@ -9,6 +9,9 @@ records:
         - name: Seth Douglas
           role: author
       date: "2026-10-14"
+      msc:
+        - code: 05-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

@@ -7,12 +7,26 @@ records:
         - name: Martin L. Silverstein
           role: author
       date: "1974"
+      msc:
+        - code: 60Jxx
+          from: zbmath_search
+        - code: 60-02
+          from: zbmath_search
+        - code: 60J25
+          from: zbmath_search
+        - code: 60J45
+          from: zbmath_search
+        - code: 60J50
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1974"
           ids:
             doi: 10.1007/bfb0073683
+            zbl: "0296.60038"
+            zbl_id: "3464593"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +36,8 @@ records:
                 isbn:
                     - "9783540070122"
                     - "9783540372929"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -34,6 +50,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0073683
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3464593"
           level: work
       history:
         - op: add

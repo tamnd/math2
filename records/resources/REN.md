@@ -7,6 +7,11 @@ records:
         - name: Yuzhe Tang
           role: author
       date: "2026-10-05"
+      msc:
+        - code: 51-XX
+          from: arxiv
+        - code: 52-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.CG
@@ -63,6 +68,8 @@ records:
                     - "9780821806104"
                     - "9780821868393"
                     - "9780821893692"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: EVG9FMRY3R

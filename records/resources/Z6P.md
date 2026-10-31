@@ -7,6 +7,9 @@ records:
         - name: Mohamed Aly Bouke
           role: author
       date: "2025-05-24"
+      msc:
+        - code: 03-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.AI

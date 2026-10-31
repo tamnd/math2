@@ -23,6 +23,8 @@ records:
                     - "9781470421663"
                     - "9780821882771"
                     - "9780821813379"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: CMK1G7XE8B

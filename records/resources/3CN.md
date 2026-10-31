@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9780821839775"
                     - "9781470444563"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9

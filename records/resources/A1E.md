@@ -11,6 +11,9 @@ records:
         - name: Alex Ravsky
           role: author
       date: "2025-04-24"
+      msc:
+        - code: 05-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.CO
@@ -18,6 +21,7 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2025-04-24"
           ids:
             arxiv: "2504.18390"
@@ -28,6 +32,10 @@ records:
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2504.18390"
+          level: work
+        - source: arxiv_text
+          snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
           native_id: "2504.18390"
           level: work
       history:
@@ -49,12 +57,24 @@ records:
         - name: Anton Petrunin
           role: author
       date: "2024"
+      msc:
+        - code: 53-01
+          from: zbmath_search
+        - code: 53C20
+          from: zbmath_search
+        - code: 53C45
+          from: zbmath_search
+        - code: 53C23
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2024"
           ids:
             doi: 10.1090/gsm/236
+            zbl: "1562.53001"
+            zbl_id: "7802912"
           manifestations:
             - key: m1
               kind: print
@@ -66,6 +86,8 @@ records:
                     - "9781470473020"
                     - "9781470475369"
                     - "9781470478834"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: YBEDX3XNVA
@@ -78,6 +100,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/gsm/236
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7802912"
           level: work
       history:
         - op: add

@@ -15,12 +15,26 @@ records:
         - name: Anders Westerberg
           role: editor
       date: "2005"
+      msc:
+        - code: 17-06
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
+        - code: 58-06
+          from: zbmath_search
+        - code: 81-06
+          from: zbmath_search
+        - code: 16-06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2005"
           ids:
             doi: 10.1090/conm/391
+            zbl: "1078.17001"
+            zbl_id: "2244570"
           manifestations:
             - key: m1
               kind: print
@@ -31,6 +45,8 @@ records:
                     - "9780821837184"
                     - "9780821857236"
                     - "9780821879818"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -43,6 +59,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/391
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "2244570"
           level: work
       history:
         - op: add

@@ -7,12 +7,20 @@ records:
         - name: Charles E. Rickart
           role: author
       date: "1979"
+      msc:
+        - code: 46J10
+          from: zbmath_search
+        - code: 46G20
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1979"
           ids:
             doi: 10.1007/978-1-4613-8070-2
+            zbl: "0438.46038"
+            zbl_id: "3684284"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +30,8 @@ records:
                 isbn:
                     - "9780387904498"
                     - "9781461380702"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W0CC03QJC7
@@ -34,6 +44,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4613-8070-2
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3684284"
           level: work
       history:
         - op: add

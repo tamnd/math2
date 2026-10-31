@@ -9,12 +9,22 @@ records:
         - name: Wilson M. Zaring
           role: author
       date: "1973"
+      msc:
+        - code: 03Exx
+          from: zbmath_search
+        - code: 03-02
+          from: zbmath_search
+        - code: 03C30
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1973"
           ids:
             doi: 10.1007/978-1-4684-8751-0
+            zbl: "0261.02038"
+            zbl_id: "3411031"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +34,8 @@ records:
                 isbn:
                     - "9780387900506"
                     - "9781468487510"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7ME1ABA6H5
@@ -36,6 +48,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4684-8751-0
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3411031"
           level: work
       history:
         - op: add

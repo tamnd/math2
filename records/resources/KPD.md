@@ -17,6 +17,8 @@ records:
               date: "2010"
               ids:
                 ocw: 18-06-linear-algebra-spring-2010/resources/lecture-24b-quiz-2-review
+              access:
+                class: record
       relations:
         - kind: part_of
           to: GE3WH5EF6G/e1
@@ -50,12 +52,22 @@ records:
         - name: Andrei Iacob
           role: author
       date: "1984"
+      msc:
+        - code: 54-01
+          from: zbmath_search
+        - code: 55-01
+          from: zbmath_search
+        - code: 57-01
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1984"
           ids:
             doi: 10.1007/978-3-642-61755-3
+            zbl: "0562.54003"
+            zbl_id: "3895865"
           manifestations:
             - key: m1
               kind: print
@@ -65,6 +77,8 @@ records:
                 isbn:
                     - "9783540135777"
                     - "9783642617553"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W0CC03QJC7
@@ -77,6 +91,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-642-61755-3
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3895865"
           level: work
       history:
         - op: add

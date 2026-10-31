@@ -13,6 +13,9 @@ records:
         - name: Zhiyu Tan
           role: author
       date: "2026-10-02"
+      msc:
+        - code: 65-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.NA
@@ -22,6 +25,7 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2026-10-02"
           ids:
             arxiv: "2610.03144"
@@ -32,6 +36,10 @@ records:
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.03144"
+          level: work
+        - source: arxiv_text
+          snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
           native_id: "2610.03144"
           level: work
       history:
@@ -58,6 +66,8 @@ records:
               date: "2010"
               ids:
                 ocw: 18-06-linear-algebra-spring-2010/resources/lecture-23-differential-equations-and-exp-at
+              access:
+                class: record
       relations:
         - kind: part_of
           to: GE3WH5EF6G/e1
@@ -87,6 +97,11 @@ records:
         - name: Naveen Gupta
           role: author
       date: "2026-09-28"
+      msc:
+        - code: 30-XX
+          from: arxiv
+        - code: 32-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.CV
@@ -94,9 +109,11 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2026-09-28"
           ids:
             arxiv: "2609.35474"
+            zbl_id: "903187591"
       scope:
         value: in
         rule: S2
@@ -105,6 +122,14 @@ records:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
           native_id: "2609.35474"
+          level: work
+        - source: arxiv_text
+          snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
+          native_id: "2609.35474"
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "903187591"
           level: work
       history:
         - op: add

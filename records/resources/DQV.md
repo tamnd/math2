@@ -60,6 +60,8 @@ records:
                 isbn:
                     - "9783540049135"
                     - "9783540362609"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -97,6 +99,8 @@ records:
               date: "2010"
               ids:
                 ocw: 18-06-linear-algebra-spring-2010/resources/lecture-30-linear-transformations-and-their-matrices
+              access:
+                class: record
       relations:
         - kind: part_of
           to: GE3WH5EF6G/e1

@@ -9,12 +9,22 @@ records:
         - name: Mark Bowen
           role: author
       date: "2015"
+      msc:
+        - code: 00A71
+          from: zbmath_search
+        - code: 34-01
+          from: zbmath_search
+        - code: 35-01
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2015"
           ids:
             doi: 10.1007/978-3-319-23042-9
+            zbl: "1333.00025"
+            zbl_id: "6482156"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +34,8 @@ records:
                 isbn:
                     - "9783319230412"
                     - "9783319230429"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 3YXAC8SZBF
@@ -36,6 +48,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-319-23042-9
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6482156"
           level: work
       history:
         - op: add

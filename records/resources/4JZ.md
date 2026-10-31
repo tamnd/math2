@@ -16,6 +16,8 @@ records:
               publisher: IISER Mohali
               ids:
                 nptel: "111106001"
+              access:
+                class: record
       scope:
         value: in
         rule: S6

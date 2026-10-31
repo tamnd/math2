@@ -11,6 +11,9 @@ records:
         - name: Weiming Xiang
           role: author
       date: "2023-04-26"
+      msc:
+        - code: 37-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: eess.SY

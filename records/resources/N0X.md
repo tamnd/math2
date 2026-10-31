@@ -7,12 +7,24 @@ records:
         - name: Lluís Puig
           role: author
       date: "2002"
+      msc:
+        - code: 20C05
+          from: zbmath_search
+        - code: 20-02
+          from: zbmath_search
+        - code: 20C20
+          from: zbmath_search
+        - code: 20C11
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2002"
           ids:
             doi: 10.1007/978-3-662-11256-4
+            zbl: "1002.20002"
+            zbl_id: "1764943"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +34,8 @@ records:
                 isbn:
                     - "9783642078026"
                     - "9783662112564"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: FA5PXCH6G7
@@ -34,6 +48,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-662-11256-4
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "1764943"
           level: work
       history:
         - op: add
@@ -56,12 +74,24 @@ records:
         - name: Zoran Šuniḱ
           role: editor
       date: "2006"
+      msc:
+        - code: 20-06
+          from: zbmath_search
+        - code: 55-06
+          from: zbmath_search
+        - code: 57-06
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2006"
           ids:
             doi: 10.1090/conm/394
+            zbl: "1085.20501"
+            zbl_id: "5012647"
           manifestations:
             - key: m1
               kind: print
@@ -72,6 +102,8 @@ records:
                     - "9780821837566"
                     - "9780821857267"
                     - "9780821879849"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -84,6 +116,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/394
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5012647"
           level: work
       history:
         - op: add

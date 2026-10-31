@@ -7,6 +7,11 @@ records:
         - name: Mrunmay Jagadale
           role: author
       date: "2026-09-30"
+      msc:
+        - code: 57-XX
+          from: arxiv
+        - code: 11-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: hep-th

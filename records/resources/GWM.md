@@ -7,12 +7,34 @@ records:
         - name: Paul Vojta
           role: author
       date: "1987"
+      msc:
+        - code: 11J97
+          from: zbmath_search
+        - code: 11-02
+          from: zbmath_search
+        - code: 32H30
+          from: zbmath_search
+        - code: 32-02
+          from: zbmath_search
+        - code: 11Gxx
+          from: zbmath_search
+        - code: 14G05
+          from: zbmath_search
+        - code: 14H25
+          from: zbmath_search
+        - code: 14G25
+          from: zbmath_search
+        - code: 14J20
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1987"
           ids:
             doi: 10.1007/bfb0072989
+            zbl: "0609.14011"
+            zbl_id: "3985400"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +44,8 @@ records:
                 isbn:
                     - "9783540175513"
                     - "9783540474524"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -34,6 +58,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0072989
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3985400"
           level: work
       history:
         - op: add

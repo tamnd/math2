@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9781461580676"
                     - "9781461580652"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: GQFCNY816R

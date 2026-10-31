@@ -15,6 +15,9 @@ records:
         - name: Yulia Gel
           role: author
       date: "2026-10-01"
+      msc:
+        - code: 54-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG

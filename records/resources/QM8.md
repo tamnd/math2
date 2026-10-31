@@ -29,6 +29,8 @@ records:
                     - "9780821806586"
                     - "9780821868379"
                     - "9780821893678"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: EVG9FMRY3R

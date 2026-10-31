@@ -9,12 +9,44 @@ records:
         - name: Stanisław Szarek
           role: author
       date: "2017-08-30"
+      msc:
+        - code: 46-02
+          from: zbmath_search
+        - code: 52-02
+          from: zbmath_search
+        - code: 81-02
+          from: zbmath_search
+        - code: 46B06
+          from: zbmath_search
+        - code: 46B07
+          from: zbmath_search
+        - code: 46B09
+          from: zbmath_search
+        - code: 52A22
+          from: zbmath_search
+        - code: 52A23
+          from: zbmath_search
+        - code: 52A40
+          from: zbmath_search
+        - code: 60B20
+          from: zbmath_search
+        - code: 60D05
+          from: zbmath_search
+        - code: 60G15
+          from: zbmath_search
+        - code: 81P40
+          from: zbmath_search
+        - code: 81P45
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2017-08-30"
           ids:
             doi: 10.1090/surv/223
+            zbl: "1402.46001"
+            zbl_id: "6780344"
           manifestations:
             - key: m1
               kind: print
@@ -26,6 +58,8 @@ records:
                 isbn:
                     - "9781470434687"
                     - "9781470441722"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: M891DMMNP3
@@ -38,6 +72,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/surv/223
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6780344"
           level: work
       history:
         - op: add

@@ -11,12 +11,26 @@ records:
         - name: Karsten Steffens
           role: author
       date: "1987"
+      msc:
+        - code: 05-02
+          from: zbmath_search
+        - code: "03E05"
+          from: zbmath_search
+        - code: 05A05
+          from: zbmath_search
+        - code: 05C70
+          from: zbmath_search
+        - code: 03-02
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1987"
           ids:
             doi: 10.1007/bfb0072628
+            zbl: "0608.05003"
+            zbl_id: "3983160"
           manifestations:
             - key: m1
               kind: print
@@ -26,6 +40,8 @@ records:
                 isbn:
                     - "9783540172215"
                     - "9783540474265"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -38,6 +54,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0072628
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3983160"
           level: work
       history:
         - op: add
@@ -56,12 +76,24 @@ records:
         - name: Frédéric Déglise
           role: author
       date: "2019"
+      msc:
+        - code: 14-02
+          from: zbmath_search
+        - code: 18-02
+          from: zbmath_search
+        - code: 14Cxx
+          from: zbmath_search
+        - code: 18G80
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2019"
           ids:
             doi: 10.1007/978-3-030-33242-6
+            zbl: "1566.14002"
+            zbl_id: "7138952"
           manifestations:
             - key: m1
               kind: print
@@ -71,6 +103,8 @@ records:
                 isbn:
                     - "9783030332419"
                     - "9783030332426"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: FA5PXCH6G7
@@ -83,6 +117,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-030-33242-6
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7138952"
           level: work
       history:
         - op: add

@@ -16,6 +16,8 @@ records:
               date: "2010"
               ids:
                 ocw: 18-06-linear-algebra-spring-2010/resources/lecture-25-symmetric-matrices-and-positive-definiteness
+              access:
+                class: record
       relations:
         - kind: part_of
           to: GE3WH5EF6G/e1

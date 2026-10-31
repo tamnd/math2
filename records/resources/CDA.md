@@ -9,6 +9,11 @@ records:
         - name: Sean Holman
           role: author
       date: "2026-10-01"
+      msc:
+        - code: 65-XX
+          from: arxiv
+        - code: 62-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.NA
@@ -22,9 +27,11 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2026-10-01"
           ids:
             arxiv: "2610.00882"
+            zbl_id: "903193428"
       scope:
         value: in
         rule: S2
@@ -33,6 +40,14 @@ records:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
           native_id: "2610.00882"
+          level: work
+        - source: arxiv_text
+          snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
+          native_id: "2610.00882"
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "903193428"
           level: work
       history:
         - op: add
@@ -49,12 +64,22 @@ records:
         - name: Jerome Kaminker
           role: editor
       date: "1990"
+      msc:
+        - code: 00B25
+          from: zbmath_search
+        - code: 58-06
+          from: zbmath_search
+        - code: 57-06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1990"
           ids:
             doi: 10.1090/conm/105
+            zbl: "0695.00022"
+            zbl_id: "46009"
           manifestations:
             - key: m1
               kind: print
@@ -65,6 +90,8 @@ records:
                     - "9780821851128"
                     - "9780821854389"
                     - "9780821876930"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -77,6 +104,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/105
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "46009"
           level: work
       history:
         - op: add

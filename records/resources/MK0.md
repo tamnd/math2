@@ -7,12 +7,24 @@ records:
         - name: Sergei Slavyanov
           role: author
       date: "1996-06-18"
+      msc:
+        - code: 34-02
+          from: zbmath_search
+        - code: "34E05"
+          from: zbmath_search
+        - code: 81Q05
+          from: zbmath_search
+        - code: 33C10
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1996-06-18"
           ids:
             doi: 10.1090/mmono/151
+            zbl: "0847.34007"
+            zbl_id: "918260"
           manifestations:
             - key: m1
               kind: print
@@ -23,6 +35,8 @@ records:
                     - "9780821805367"
                     - "9780821897676"
                     - "9781470445669"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9
@@ -35,6 +49,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/mmono/151
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "918260"
           level: work
       history:
         - op: add

@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9781441928832"
                     - "9781468493023"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: FA5PXCH6G7

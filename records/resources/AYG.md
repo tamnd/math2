@@ -7,6 +7,9 @@ records:
         - name: Ying Jin
           role: author
       date: "2026-10-07"
+      msc:
+        - code: 62-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.ST
@@ -20,6 +23,7 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2026-10-07"
           ids:
             arxiv: "2610.10873"
@@ -30,6 +34,10 @@ records:
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.10873"
+          level: work
+        - source: arxiv_text
+          snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
           native_id: "2610.10873"
           level: work
       history:
@@ -51,6 +59,9 @@ records:
         - name: Peter D. Miller
           role: author
       date: "2026-09-30"
+      msc:
+        - code: 35-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.AP
@@ -60,9 +71,11 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2026-09-30"
           ids:
             arxiv: "2610.00770"
+            zbl_id: "903193316"
       scope:
         value: in
         rule: S2
@@ -71,6 +84,14 @@ records:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
           native_id: "2610.00770"
+          level: work
+        - source: arxiv_text
+          snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
+          native_id: "2610.00770"
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "903193316"
           level: work
       history:
         - op: add

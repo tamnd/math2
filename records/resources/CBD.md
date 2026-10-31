@@ -38,6 +38,8 @@ records:
                 isbn:
                     - "9783540046257"
                     - "9783540361503"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

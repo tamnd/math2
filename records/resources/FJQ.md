@@ -9,12 +9,28 @@ records:
         - name: Pranab Sardar
           role: author
       date: "2024"
+      msc:
+        - code: 20-02
+          from: zbmath_search
+        - code: 20F67
+          from: zbmath_search
+        - code: 51-02
+          from: zbmath_search
+        - code: 53C23
+          from: zbmath_search
+        - code: 57M50
+          from: zbmath_search
+        - code: 51F30
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2024"
           ids:
             doi: 10.1090/surv/282
+            zbl: "1552.20005"
+            zbl_id: "7882595"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +40,8 @@ records:
                 isbn:
                     - "9781470477783"
                     - "9781470474256"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: M891DMMNP3
@@ -36,6 +54,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/surv/282
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7882595"
           level: work
       history:
         - op: add

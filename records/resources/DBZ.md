@@ -28,6 +28,8 @@ records:
                 isbn:
                     - "9783030909505"
                     - "9783030909512"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: FA5PXCH6G7

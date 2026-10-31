@@ -7,12 +7,18 @@ records:
         - name: Robert Azencott
           role: author
       date: "1970"
+      msc:
+        - code: 60B15
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: fr
           date: "1970"
           ids:
             doi: 10.1007/bfb0059352
+            zbl: "0239.60008"
+            zbl_id: "3379881"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +28,8 @@ records:
                 isbn:
                     - "9783540049371"
                     - "9783540363118"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -34,6 +42,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0059352
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3379881"
           level: work
       history:
         - op: add
@@ -50,12 +62,34 @@ records:
         - name: Warren Dicks
           role: author
       date: "1980"
+      msc:
+        - code: "20E06"
+          from: zbmath_search
+        - code: 20-02
+          from: zbmath_search
+        - code: 20J05
+          from: zbmath_search
+        - code: 20C05
+          from: zbmath_search
+        - code: 20C07
+          from: zbmath_search
+        - code: "20E07"
+          from: zbmath_search
+        - code: "20E34"
+          from: zbmath_search
+        - code: 20F34
+          from: zbmath_search
+        - code: 05C25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1980"
           ids:
             doi: 10.1007/bfb0088140
+            zbl: "0427.20016"
+            zbl_id: "3665204"
           manifestations:
             - key: m1
               kind: print
@@ -65,6 +99,8 @@ records:
                 isbn:
                     - "9783540099741"
                     - "9783540392101"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -77,6 +113,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0088140
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3665204"
           level: work
       history:
         - op: add

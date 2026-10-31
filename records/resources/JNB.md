@@ -13,6 +13,9 @@ records:
         - name: Lander Ver Hoef
           role: author
       date: "2026-09-28"
+      msc:
+        - code: 46-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG

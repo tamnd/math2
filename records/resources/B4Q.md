@@ -26,6 +26,8 @@ records:
                 isbn:
                     - "9783319444642"
                     - "9783319444659"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

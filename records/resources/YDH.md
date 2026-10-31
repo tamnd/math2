@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9780821848203"
                     - "9781470413842"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: M891DMMNP3

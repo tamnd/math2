@@ -13,12 +13,24 @@ records:
         - name: Norberto Salinas
           role: editor
       date: "1995"
+      msc:
+        - code: 00B25
+          from: zbmath_search
+        - code: 47-06
+          from: zbmath_search
+        - code: 32-06
+          from: zbmath_search
+        - code: 46-06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1995"
           ids:
             doi: 10.1090/conm/185
+            zbl: "0819.00022"
+            zbl_id: "778853"
           manifestations:
             - key: m1
               kind: print
@@ -29,6 +41,8 @@ records:
                     - "9780821802984"
                     - "9780821855225"
                     - "9780821877760"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -41,6 +55,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/185
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "778853"
           level: work
       history:
         - op: add

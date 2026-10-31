@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9783319327730"
                     - "9783319327747"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

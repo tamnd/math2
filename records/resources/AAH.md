@@ -11,6 +11,15 @@ records:
         - name: Rahul Shome
           role: author
       date: "2026-09-27"
+      msc:
+        - code: 94-XX
+          from: arxiv
+        - code: 49-XX
+          from: arxiv
+        - code: 90-XX
+          from: arxiv
+        - code: 93-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG

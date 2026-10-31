@@ -7,6 +7,9 @@ records:
         - name: Daniel Matsui Smola
           role: author
       date: "2026-10-14"
+      msc:
+        - code: 62-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: stat.CO

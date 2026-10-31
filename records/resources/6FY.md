@@ -7,6 +7,9 @@ records:
         - name: Zifan Lyu
           role: author
       date: "2026-10-03"
+      msc:
+        - code: 65-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG

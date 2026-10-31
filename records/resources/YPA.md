@@ -30,6 +30,8 @@ records:
                 isbn:
                     - "9783034894968"
                     - "9783034882668"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Birkhäuser Basel
@@ -38,6 +40,8 @@ records:
                 isbn:
                     - "9783034894975"
                     - "9783034882682"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VS2PFDMCR5

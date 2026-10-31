@@ -11,6 +11,13 @@ records:
         - name: Guglielmo Lockhart
           role: author
       date: "2020-02-25"
+      msc:
+        - code: 11-XX
+          from: arxiv
+        - code: 17-XX
+          from: arxiv
+        - code: 81-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: hep-th
@@ -49,12 +56,18 @@ records:
         - name: Harry Kesten
           role: editor
       date: "2004"
+      msc:
+        - code: 60-06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2004"
           ids:
             doi: 10.1007/978-3-662-09444-0
+            zbl: "1025.60001"
+            zbl_id: "2005878"
           manifestations:
             - key: m1
               kind: print
@@ -64,6 +77,8 @@ records:
                 isbn:
                     - "9783642056475"
                     - "9783662094440"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: XGZPMQ7BSM
@@ -76,6 +91,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-662-09444-0
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "2005878"
           level: work
       history:
         - op: add

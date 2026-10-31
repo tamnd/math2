@@ -23,6 +23,8 @@ records:
                     - "9780821814055"
                     - "9780821873656"
                     - "9780821892909"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: EVG9FMRY3R

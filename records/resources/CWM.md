@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9780387984803"
                     - "9781461205494"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W0CC03QJC7

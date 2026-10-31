@@ -28,6 +28,8 @@ records:
                     - "9781470475253"
                     - "9781470475482"
                     - "9781470477110"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: YBEDX3XNVA

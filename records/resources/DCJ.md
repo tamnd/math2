@@ -15,6 +15,9 @@ records:
         - name: Quanquan Gu
           role: author
       date: "2026-09-29"
+      msc:
+        - code: 62-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: stat.ML

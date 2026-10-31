@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9783540183563"
                     - "9783540478997"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -32,6 +34,8 @@ records:
                 isbn:
                     - "9783540183570"
                     - "9783540479048"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

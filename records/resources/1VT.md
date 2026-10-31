@@ -16,6 +16,8 @@ records:
               publisher: IIT Hyderabad
               ids:
                 nptel: "111106415"
+              access:
+                class: record
       scope:
         value: in
         rule: S6
@@ -50,6 +52,9 @@ records:
         - name: Vincent Moulton
           role: author
       date: "2026-10-06"
+      msc:
+        - code: 05-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: q-bio.PE

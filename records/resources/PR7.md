@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9780821820568"
                     - "9781470420819"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: YBEDX3XNVA

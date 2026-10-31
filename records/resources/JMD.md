@@ -26,6 +26,8 @@ records:
                 isbn:
                     - "9783642679964"
                     - "9783642679940"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -34,6 +36,8 @@ records:
                 isbn:
                     - "9783642679995"
                     - "9783642679971"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: GQFCNY816R

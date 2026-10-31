@@ -11,12 +11,24 @@ records:
         - name: Zhaoting Wei
           role: author
       date: "2023"
+      msc:
+        - code: 14-01
+          from: zbmath_search
+        - code: 14F06
+          from: zbmath_search
+        - code: 14C17
+          from: zbmath_search
+        - code: 14Mxx
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2023"
           ids:
             doi: 10.1007/978-3-031-27234-9
+            zbl: "1569.14001"
+            zbl_id: "7712521"
           manifestations:
             - key: m1
               kind: print
@@ -26,6 +38,8 @@ records:
                 isbn:
                     - "9783031272332"
                     - "9783031272349"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VS2PFDMCR5
@@ -38,6 +52,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-031-27234-9
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7712521"
           level: work
       history:
         - op: add
@@ -56,12 +74,30 @@ records:
         - name: Lorenzo Ramero
           role: author
       date: "2003"
+      msc:
+        - code: 13B40
+          from: zbmath_search
+        - code: 12J20
+          from: zbmath_search
+        - code: 14G22
+          from: zbmath_search
+        - code: 13-01
+          from: zbmath_search
+        - code: 13-02
+          from: zbmath_search
+        - code: 13A18
+          from: zbmath_search
+        - code: "14E22"
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2003"
           ids:
             doi: 10.1007/b10047
+            zbl: "1045.13002"
+            zbl_id: "1975628"
           manifestations:
             - key: m1
               kind: print
@@ -71,6 +107,8 @@ records:
                 isbn:
                     - "9783540405948"
                     - "9783540450962"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -83,6 +121,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/b10047
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "1975628"
           level: work
       history:
         - op: add

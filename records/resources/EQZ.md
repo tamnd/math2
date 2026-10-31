@@ -29,6 +29,8 @@ records:
                     - "9781470465155"
                     - "9781470468842"
                     - "9781470456016"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -76,6 +78,8 @@ records:
                 isbn:
                     - "9781470485948"
                     - "9781470472023"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1

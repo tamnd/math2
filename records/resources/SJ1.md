@@ -7,12 +7,24 @@ records:
         - name: Augusto Visintin
           role: author
       date: "1994"
+      msc:
+        - code: 35-02
+          from: zbmath_search
+        - code: 35K60
+          from: zbmath_search
+        - code: 47J05
+          from: zbmath_search
+        - code: 58C07
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1994"
           ids:
             doi: 10.1007/978-3-662-11557-2
+            zbl: "0820.35004"
+            zbl_id: "722980"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +34,8 @@ records:
                 isbn:
                     - "9783642081323"
                     - "9783662115572"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 2M0N86YNGA
@@ -34,6 +48,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-662-11557-2
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "722980"
           level: work
       history:
         - op: add
@@ -65,6 +83,8 @@ records:
                 isbn:
                     - "9780821891315"
                     - "9780821894521"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: M891DMMNP3

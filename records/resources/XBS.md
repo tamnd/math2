@@ -13,12 +13,46 @@ records:
         - name: Bart Vlaar
           role: editor
       date: "2022-09-01"
+      msc:
+        - code: 17-06
+          from: zbmath_search
+        - code: 17B80
+          from: zbmath_search
+        - code: 33C80
+          from: zbmath_search
+        - code: 43A90
+          from: zbmath_search
+        - code: 13-06
+          from: zbmath_search
+        - code: 13A35
+          from: zbmath_search
+        - code: 16S38
+          from: zbmath_search
+        - code: 17B37
+          from: zbmath_search
+        - code: 17B67
+          from: zbmath_search
+        - code: 33C60
+          from: zbmath_search
+        - code: 33C67
+          from: zbmath_search
+        - code: 33D45
+          from: zbmath_search
+        - code: 60J60
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
+        - code: 00B30
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2022-09-01"
           ids:
             doi: 10.1090/conm/780
+            zbl: "1496.17001"
+            zbl_id: "7599744"
           manifestations:
             - key: m1
               kind: print
@@ -28,6 +62,8 @@ records:
                 isbn:
                     - "9781470471347"
                     - "9781470465209"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -40,6 +76,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/780
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7599744"
           level: work
       history:
         - op: add

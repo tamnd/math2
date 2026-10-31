@@ -23,6 +23,8 @@ records:
                     - "9780821837320"
                     - "9780821889688"
                     - "9781470446536"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9

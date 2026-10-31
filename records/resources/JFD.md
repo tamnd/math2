@@ -26,6 +26,8 @@ records:
                 isbn:
                     - "9780821851456"
                     - "9780821877241"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1

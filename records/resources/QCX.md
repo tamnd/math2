@@ -11,12 +11,40 @@ records:
         - name: Heinz Spindler
           role: author
       date: "1980"
+      msc:
+        - code: 32L05
+          from: zbmath_search
+        - code: 32-02
+          from: zbmath_search
+        - code: 14-02
+          from: zbmath_search
+        - code: 32G13
+          from: zbmath_search
+        - code: 14D20
+          from: zbmath_search
+        - code: 14-03
+          from: zbmath_search
+        - code: 32-03
+          from: zbmath_search
+        - code: 14D22
+          from: zbmath_search
+        - code: 14M07
+          from: zbmath_search
+        - code: 14M15
+          from: zbmath_search
+        - code: 15A72
+          from: zbmath_search
+        - code: 14L24
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1980"
           ids:
             doi: 10.1007/978-1-4757-1460-9
+            zbl: "0438.32016"
+            zbl_id: "3684001"
           manifestations:
             - key: m1
               kind: print
@@ -26,6 +54,8 @@ records:
                 isbn:
                     - "9781475714623"
                     - "9781475714609"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VS2PFDMCR5
@@ -38,6 +68,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4757-1460-9
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3684001"
           level: work
       history:
         - op: add

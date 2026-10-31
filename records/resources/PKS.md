@@ -27,6 +27,8 @@ records:
                     - "9781470414597"
                     - "9781470436292"
                     - "9781470436308"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -57,6 +59,9 @@ records:
         - name: Ole Morten Aamo
           role: author
       date: "2026-10-15"
+      msc:
+        - code: 37-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: physics.app-ph

@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9781441930491"
                     - "9780387216621"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 2M0N86YNGA

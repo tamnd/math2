@@ -9,12 +9,26 @@ records:
         - name: Irving John Good
           role: author
       date: "1974"
+      msc:
+        - code: 94-02
+          from: zbmath_search
+        - code: 94A15
+          from: zbmath_search
+        - code: 60G35
+          from: zbmath_search
+        - code: 94A05
+          from: zbmath_search
+        - code: 62B10
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1974"
           ids:
             doi: 10.1007/bfb0064126
+            zbl: "0298.94001"
+            zbl_id: "3468624"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +38,8 @@ records:
                 isbn:
                     - "9783540067269"
                     - "9783540382942"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -36,6 +52,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0064126
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3468624"
           level: work
       history:
         - op: add
@@ -52,12 +72,24 @@ records:
         - name: Bernold Fiedler
           role: author
       date: "1988"
+      msc:
+        - code: 34C25
+          from: zbmath_search
+        - code: 37G99
+          from: zbmath_search
+        - code: 35B32
+          from: zbmath_search
+        - code: 35B10
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1988"
           ids:
             doi: 10.1007/bfb0082943
+            zbl: "0644.34038"
+            zbl_id: "193000"
           manifestations:
             - key: m1
               kind: print
@@ -67,6 +99,8 @@ records:
                 isbn:
                     - "9783540192343"
                     - "9783540391500"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -79,6 +113,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0082943
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "193000"
           level: work
       history:
         - op: add

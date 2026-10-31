@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9781441931214"
                     - "9781475730814"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7B8JKAVW9F

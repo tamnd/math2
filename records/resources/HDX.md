@@ -33,6 +33,8 @@ records:
                     - "9780821841907"
                     - "9780821857755"
                     - "9780821881255"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -74,6 +76,8 @@ records:
               publisher: IIT Delhi
               ids:
                 nptel: "111102152"
+              access:
+                class: record
       scope:
         value: in
         rule: S6

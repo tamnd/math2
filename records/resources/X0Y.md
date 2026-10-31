@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9780821821237"
                     - "9781470420857"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: YBEDX3XNVA

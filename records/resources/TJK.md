@@ -7,14 +7,22 @@ records:
         - name: Steven Roman
           role: author
       date: "2004"
+      msc:
+        - code: 91-01
+          from: zbmath_search
+        - code: 91B24
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2004"
           ids:
             doi:
                 - 10.1007/978-1-4419-9005-1
                 - 10.1007/978-1-4614-3582-2
+            zbl: "1068.91038"
+            zbl_id: "2107185"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +32,8 @@ records:
                 isbn:
                     - "9780387213644"
                     - "9781441990051"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer New York
@@ -32,6 +42,8 @@ records:
                 isbn:
                     - "9781461435815"
                     - "9781461435822"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: NWQC4TW7S9
@@ -48,6 +60,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4614-3582-2
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "2107185"
           level: work
       history:
         - op: add

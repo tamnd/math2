@@ -13,12 +13,32 @@ records:
         - name: Larry Rolen
           role: author
       date: "2017-12-14"
+      msc:
+        - code: 11F37
+          from: zbmath_search
+        - code: 14K25
+          from: zbmath_search
+        - code: 11M41
+          from: zbmath_search
+        - code: 11F03
+          from: zbmath_search
+        - code: 11F11
+          from: zbmath_search
+        - code: 11F27
+          from: zbmath_search
+        - code: 11F30
+          from: zbmath_search
+        - code: 11F50
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2017-12-14"
           ids:
             doi: 10.1090/coll/064
+            zbl: "1459.11118"
+            zbl_id: "6828732"
           manifestations:
             - key: m1
               kind: print
@@ -29,6 +49,8 @@ records:
                     - "9781470443139"
                     - "9781470443146"
                     - "9781470419448"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W1VWARV4XH
@@ -41,6 +63,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/coll/064
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6828732"
           level: work
       history:
         - op: add

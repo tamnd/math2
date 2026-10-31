@@ -9,12 +9,34 @@ records:
         - name: S. Jain
           role: editor
       date: "2023-04-28"
+      msc:
+        - code: 16-06
+          from: zbmath_search
+        - code: 16N40
+          from: zbmath_search
+        - code: 16S34
+          from: zbmath_search
+        - code: 16S36
+          from: zbmath_search
+        - code: 11T71
+          from: zbmath_search
+        - code: 94B05
+          from: zbmath_search
+        - code: 94B15
+          from: zbmath_search
+        - code: 94B60
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2023-04-28"
           ids:
             doi: 10.1090/conm/785
+            zbl: "1518.16001"
+            zbl_id: "7689872"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +46,8 @@ records:
                 isbn:
                     - "9781470472986"
                     - "9781470468590"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -36,6 +60,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/785
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7689872"
           level: work
       history:
         - op: add

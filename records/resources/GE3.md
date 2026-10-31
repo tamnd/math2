@@ -28,6 +28,8 @@ records:
               date: "2010"
               ids:
                 ocw: 18-06-linear-algebra-spring-2010
+              access:
+                class: record
       scope:
         value: in
         rule: S6

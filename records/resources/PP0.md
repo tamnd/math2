@@ -7,12 +7,52 @@ records:
         - name: Hugh Montgomery
           role: author
       date: "1994-10-11"
+      msc:
+        - code: 11-02
+          from: zbmath_search
+        - code: 42-02
+          from: zbmath_search
+        - code: 43-02
+          from: zbmath_search
+        - code: 11K06
+          from: zbmath_search
+        - code: 11K38
+          from: zbmath_search
+        - code: 11K70
+          from: zbmath_search
+        - code: 11L03
+          from: zbmath_search
+        - code: 11L07
+          from: zbmath_search
+        - code: 11L15
+          from: zbmath_search
+        - code: 11M20
+          from: zbmath_search
+        - code: 11M26
+          from: zbmath_search
+        - code: 11N05
+          from: zbmath_search
+        - code: 11N25
+          from: zbmath_search
+        - code: 11N30
+          from: zbmath_search
+        - code: 11N69
+          from: zbmath_search
+        - code: 42A05
+          from: zbmath_search
+        - code: 42A10
+          from: zbmath_search
+        - code: 11N32
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1994-10-11"
           ids:
             doi: 10.1090/cbms/084
+            zbl: "0814.11001"
+            zbl_id: "699709"
           manifestations:
             - key: m1
               kind: print
@@ -23,6 +63,8 @@ records:
                     - "9780821807378"
                     - "9780821889282"
                     - "9781470424442"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 20XHFD4A67
@@ -35,6 +77,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/cbms/084
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "699709"
           level: work
       history:
         - op: add

@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9781461270218"
                     - "9781461211440"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: NWQC4TW7S9
@@ -68,6 +70,8 @@ records:
                     - "9780821850343"
                     - "9780821853856"
                     - "9780821876176"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1

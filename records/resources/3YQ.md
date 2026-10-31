@@ -9,6 +9,9 @@ records:
         - name: Miklos Rasonyi
           role: author
       date: "2026-10-06"
+      msc:
+        - code: 60-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: q-fin.PM

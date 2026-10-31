@@ -7,9 +7,13 @@ records:
         - name: Fritz John
           role: author
       date: "1971"
+      msc:
+        - code: 35-01
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1971"
           ids:
             doi:
@@ -17,6 +21,8 @@ records:
                 - 10.1007/978-1-4615-9979-1
                 - 10.1007/978-1-4684-0059-5
                 - 10.1007/978-1-4684-9333-7
+            zbl: "0209.40001"
+            zbl_id: "3333534"
           manifestations:
             - key: m1
               kind: print
@@ -26,6 +32,8 @@ records:
                 isbn:
                     - "9780387900216"
                     - "9781461599661"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer US
@@ -34,6 +42,8 @@ records:
                 isbn:
                     - "9780387901114"
                     - "9781461599791"
+              access:
+                class: record
             - key: m3
               kind: print
               publisher: Springer US
@@ -42,6 +52,8 @@ records:
                 isbn:
                     - "9781468400618"
                     - "9781468400595"
+              access:
+                class: record
             - key: m4
               kind: print
               publisher: Springer New York
@@ -50,6 +62,8 @@ records:
                 isbn:
                     - "9781468493351"
                     - "9781468493337"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 2M0N86YNGA
@@ -74,6 +88,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4684-9333-7
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3333534"
           level: work
       history:
         - op: add

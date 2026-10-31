@@ -9,12 +9,34 @@ records:
         - name: Robert Rumely
           role: author
       date: "2010-03-10"
+      msc:
+        - code: 14-02
+          from: zbmath_search
+        - code: 37-02
+          from: zbmath_search
+        - code: 14G20
+          from: zbmath_search
+        - code: 14G22
+          from: zbmath_search
+        - code: 14G40
+          from: zbmath_search
+        - code: 37P50
+          from: zbmath_search
+        - code: 37P40
+          from: zbmath_search
+        - code: 31C15
+          from: zbmath_search
+        - code: 31C45
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2010-03-10"
           ids:
             doi: 10.1090/surv/159
+            zbl: "1196.14002"
+            zbl_id: "5686636"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +46,8 @@ records:
                 isbn:
                     - "9780821849248"
                     - "9781470413866"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: M891DMMNP3
@@ -36,6 +60,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/surv/159
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5686636"
           level: work
       history:
         - op: add

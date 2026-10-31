@@ -32,6 +32,8 @@ records:
                 isbn:
                     - "9783540679714"
                     - "9783540444862"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

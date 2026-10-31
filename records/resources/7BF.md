@@ -43,6 +43,8 @@ records:
                     - "9780821847701"
                     - "9780821858318"
                     - "9780821881842"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: American Mathematical Society
@@ -52,6 +54,8 @@ records:
                     - "9780821894330"
                     - "9781470415259"
                     - "9781470415358"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1

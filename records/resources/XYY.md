@@ -11,6 +11,13 @@ records:
         - name: Y. M. Zalishchansky
           role: author
       date: "2026-09-29"
+      msc:
+        - code: 81-XX
+          from: arxiv
+        - code: 14-XX
+          from: arxiv
+        - code: 35-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: hep-th

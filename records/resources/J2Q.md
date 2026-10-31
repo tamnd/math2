@@ -9,6 +9,9 @@ records:
         - name: Sanjaye Ramgoolam
           role: author
       date: "2025-06-23"
+      msc:
+        - code: 05-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: hep-th

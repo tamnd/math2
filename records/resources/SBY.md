@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9781447121695"
                     - "9781447121701"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W0CC03QJC7

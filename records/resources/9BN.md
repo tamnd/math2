@@ -7,12 +7,20 @@ records:
         - name: Elmer G. Rees
           role: author
       date: "1983"
+      msc:
+        - code: 51-01
+          from: zbmath_search
+        - code: 51M99
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1983"
           ids:
             doi: 10.1007/978-3-642-61777-5
+            zbl: "0498.51001"
+            zbl_id: "3785676"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +30,8 @@ records:
                 isbn:
                     - "9783540120537"
                     - "9783642617775"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W0CC03QJC7
@@ -34,6 +44,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-642-61777-5
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3785676"
           level: work
       history:
         - op: add

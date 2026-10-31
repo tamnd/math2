@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9781461265979"
                     - "9781461200673"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VS2PFDMCR5

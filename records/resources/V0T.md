@@ -11,6 +11,9 @@ records:
         - name: Walter Dempsey
           role: author
       date: "2023-06-29"
+      msc:
+        - code: 62-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: stat.ME

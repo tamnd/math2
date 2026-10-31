@@ -23,6 +23,8 @@ records:
                     - "9780821804148"
                     - "9780821889398"
                     - "9781470424558"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 20XHFD4A67

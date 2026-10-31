@@ -9,12 +9,34 @@ records:
         - name: James J. Madden
           role: author
       date: "1999"
+      msc:
+        - code: 14P10
+          from: zbmath_search
+        - code: 14-02
+          from: zbmath_search
+        - code: 18-02
+          from: zbmath_search
+        - code: 06-02
+          from: zbmath_search
+        - code: 06F25
+          from: zbmath_search
+        - code: 13J25
+          from: zbmath_search
+        - code: 18A40
+          from: zbmath_search
+        - code: 54C30
+          from: zbmath_search
+        - code: 18B35
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1999"
           ids:
             doi: 10.1007/bfb0093968
+            zbl: "0967.14038"
+            zbl_id: "1357591"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +46,8 @@ records:
                 isbn:
                     - "9783540664604"
                     - "9783540482840"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -36,6 +60,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0093968
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "1357591"
           level: work
       history:
         - op: add

@@ -13,6 +13,9 @@ records:
         - name: Themistoklis P. Sapsis
           role: author
       date: "2026-09-25"
+      msc:
+        - code: 37-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG

@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9781468492279"
                     - "9780387226378"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 2M0N86YNGA

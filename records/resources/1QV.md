@@ -13,6 +13,13 @@ records:
         - name: Mingyi Hong
           role: author
       date: "2018-06-03"
+      msc:
+        - code: 49-XX
+          from: arxiv
+        - code: 90-XX
+          from: arxiv
+        - code: 93-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG
@@ -66,6 +73,8 @@ records:
                 isbn:
                     - "9783540138648"
                     - "9783540390558"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

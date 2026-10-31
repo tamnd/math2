@@ -9,6 +9,11 @@ records:
         - name: Matías Bender
           role: author
       date: "2026-09-27"
+      msc:
+        - code: 13-XX
+          from: arxiv
+        - code: 14-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.SC

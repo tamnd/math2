@@ -11,6 +11,13 @@ records:
         - name: Tiancheng Zhao
           role: author
       date: "2026-10-07"
+      msc:
+        - code: 49-XX
+          from: arxiv
+        - code: 90-XX
+          from: arxiv
+        - code: 93-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.AI
@@ -49,12 +56,22 @@ records:
         - name: Michael Rabin
           role: author
       date: "1972"
+      msc:
+        - code: 03D05
+          from: zbmath_search
+        - code: 68Q45
+          from: zbmath_search
+        - code: 03B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1972"
           ids:
             doi: 10.1090/cbms/013
+            zbl: "0315.02037"
+            zbl_id: "3492660"
           manifestations:
             - key: m1
               kind: print
@@ -65,6 +82,8 @@ records:
                     - "9780821816639"
                     - "9780821888629"
                     - "9781470423735"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 20XHFD4A67
@@ -77,6 +96,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/cbms/013
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3492660"
           level: work
       history:
         - op: add

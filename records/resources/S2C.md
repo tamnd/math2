@@ -7,12 +7,26 @@ records:
         - name: Patrick Morandi
           role: author
       date: "1996"
+      msc:
+        - code: 12-01
+          from: zbmath_search
+        - code: 12F10
+          from: zbmath_search
+        - code: 11R32
+          from: zbmath_search
+        - code: 12F20
+          from: zbmath_search
+        - code: 11-01
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1996"
           ids:
             doi: 10.1007/978-1-4612-4040-2
+            zbl: "0865.12001"
+            zbl_id: "933466"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +36,8 @@ records:
                 isbn:
                     - "9781461284758"
                     - "9781461240402"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7ME1ABA6H5
@@ -34,6 +50,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4612-4040-2
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "933466"
           level: work
       history:
         - op: add
@@ -50,12 +70,24 @@ records:
         - name: Maria Chlouveraki
           role: author
       date: "2009"
+      msc:
+        - code: 20C08
+          from: zbmath_search
+        - code: 20F55
+          from: zbmath_search
+        - code: 20-02
+          from: zbmath_search
+        - code: 20F36
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2009"
           ids:
             doi: 10.1007/978-3-642-03064-2
+            zbl: "1191.20004"
+            zbl_id: "5622598"
           manifestations:
             - key: m1
               kind: print
@@ -65,6 +97,8 @@ records:
                 isbn:
                     - "9783642030635"
                     - "9783642030642"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -77,6 +111,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-642-03064-2
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5622598"
           level: work
       history:
         - op: add

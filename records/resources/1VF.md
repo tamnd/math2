@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9781470485443"
                     - "9781470480455"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -50,12 +52,38 @@ records:
         - name: Sebastian Klein
           role: author
       date: "2018"
+      msc:
+        - code: 35-02
+          from: zbmath_search
+        - code: 35Q53
+          from: zbmath_search
+        - code: 35Q55
+          from: zbmath_search
+        - code: 37K10
+          from: zbmath_search
+        - code: 35R30
+          from: zbmath_search
+        - code: 37K15
+          from: zbmath_search
+        - code: 37K25
+          from: zbmath_search
+        - code: 40A20
+          from: zbmath_search
+        - code: 53A10
+          from: zbmath_search
+        - code: "58E12"
+          from: zbmath_search
+        - code: 35P05
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2018"
           ids:
             doi: 10.1007/978-3-030-01276-2
+            zbl: "1410.35002"
+            zbl_id: "6967937"
           manifestations:
             - key: m1
               kind: print
@@ -65,6 +93,8 @@ records:
                 isbn:
                     - "9783030012755"
                     - "9783030012762"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -77,6 +107,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-030-01276-2
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6967937"
           level: work
       history:
         - op: add

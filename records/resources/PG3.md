@@ -9,12 +9,28 @@ records:
         - name: A. Knapp
           role: editor
       date: "1997"
+      msc:
+        - code: 00B25
+          from: zbmath_search
+        - code: 11-06
+          from: zbmath_search
+        - code: 17-06
+          from: zbmath_search
+        - code: 20-06
+          from: zbmath_search
+        - code: 22-06
+          from: zbmath_search
+        - code: 43-06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1997"
           ids:
             doi: 10.1090/pspum/061
+            zbl: "0878.00050"
+            zbl_id: "1092714"
           manifestations:
             - key: m1
               kind: print
@@ -25,6 +41,8 @@ records:
                     - "9780821806098"
                     - "9780821868348"
                     - "9780821893647"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: EVG9FMRY3R
@@ -37,6 +55,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/pspum/061
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "1092714"
           level: work
       history:
         - op: add

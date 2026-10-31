@@ -25,6 +25,8 @@ records:
                     - "9780821827086"
                     - "9780821856253"
                     - "9780821878798"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1

@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9783031988318"
                     - "9783031988325"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7ME1ABA6H5

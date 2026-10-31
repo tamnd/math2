@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9781468473032"
                     - "9781468473018"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7ME1ABA6H5

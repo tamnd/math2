@@ -30,6 +30,8 @@ records:
                 isbn:
                     - "9783642240782"
                     - "9783642240799"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

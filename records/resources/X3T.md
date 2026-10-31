@@ -39,12 +39,28 @@ records:
         - name: Hung-Hsi Wu
           role: author
       date: "1977"
+      msc:
+        - code: 83-02
+          from: zbmath_search
+        - code: 53-02
+          from: zbmath_search
+        - code: 83Cxx
+          from: zbmath_search
+        - code: 53C50
+          from: zbmath_search
+        - code: 53B30
+          from: zbmath_search
+        - code: 53B99
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1977"
           ids:
             doi: 10.1007/978-1-4612-9903-5
+            zbl: "0373.53001"
+            zbl_id: "3581194"
           manifestations:
             - key: m1
               kind: print
@@ -54,6 +70,8 @@ records:
                 isbn:
                     - "9781461299059"
                     - "9781461299035"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7ME1ABA6H5
@@ -66,6 +84,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4612-9903-5
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3581194"
           level: work
       history:
         - op: add
@@ -82,6 +104,9 @@ records:
         - name: Nobutaka Nakazono
           role: author
       date: "2021-04-23"
+      msc:
+        - code: 81-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: nlin.SI

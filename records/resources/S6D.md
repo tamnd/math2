@@ -13,6 +13,9 @@ records:
         - name: Viktoria Fodor
           role: author
       date: "2024-09-27"
+      msc:
+        - code: 94-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG

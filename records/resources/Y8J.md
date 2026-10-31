@@ -25,6 +25,8 @@ records:
                     - "9780821884898"
                     - "9780821884904"
                     - "9780821875599"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: CMK1G7XE8B

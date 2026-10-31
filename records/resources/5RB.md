@@ -32,6 +32,8 @@ records:
                 isbn:
                     - "9783030792329"
                     - "9783030792336"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 4G0ADS0K0R

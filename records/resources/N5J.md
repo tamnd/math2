@@ -7,12 +7,26 @@ records:
         - name: Frederick Almgren
           role: author
       date: "2001-08-27"
+      msc:
+        - code: 49-01
+          from: zbmath_search
+        - code: 49Q15
+          from: zbmath_search
+        - code: 49Q20
+          from: zbmath_search
+        - code: 28A75
+          from: zbmath_search
+        - code: "58E12"
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2001-08-27"
           ids:
             doi: 10.1090/stml/013
+            zbl: "0995.49001"
+            zbl_id: "1679240"
           manifestations:
             - key: m1
               kind: print
@@ -23,6 +37,8 @@ records:
                     - "9781470421298"
                     - "9780821884485"
                     - "9780821827475"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 6RX4VMGQKK
@@ -35,6 +51,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/stml/013
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "1679240"
           level: work
       history:
         - op: add
@@ -66,6 +86,8 @@ records:
                 isbn:
                     - "9783031368530"
                     - "9783031368547"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

@@ -16,6 +16,8 @@ records:
               publisher: IIT(BHU) Varanasi
               ids:
                 nptel: "111104165"
+              access:
+                class: record
       scope:
         value: in
         rule: S6

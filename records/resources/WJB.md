@@ -35,6 +35,8 @@ records:
                 isbn:
                     - "9783540416593"
                     - "9783540446712"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -43,6 +45,8 @@ records:
                 isbn:
                     - "9783540602194"
                     - "9783540447443"
+              access:
+                class: record
             - key: m3
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -51,6 +55,8 @@ records:
                 isbn:
                     - "9783540613367"
                     - "9783540684633"
+              access:
+                class: record
             - key: m4
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -59,6 +65,8 @@ records:
                 isbn:
                     - "9783540663423"
                     - "9783540484073"
+              access:
+                class: record
             - key: m5
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -67,6 +75,8 @@ records:
                 isbn:
                     - "9783540643760"
                     - "9783540697626"
+              access:
+                class: record
             - key: m6
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -75,6 +85,8 @@ records:
                 isbn:
                     - "9783540673149"
                     - "9783540464136"
+              access:
+                class: record
             - key: m7
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -83,6 +95,8 @@ records:
                 isbn:
                     - "9783540626343"
                     - "9783540683520"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

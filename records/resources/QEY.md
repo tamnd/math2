@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9781489928450"
                     - "9781489928436"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VS2PFDMCR5

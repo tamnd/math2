@@ -11,6 +11,9 @@ records:
         - name: Yongxin Chen
           role: author
       date: "2026-10-12"
+      msc:
+        - code: 62-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG

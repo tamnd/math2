@@ -7,6 +7,9 @@ records:
         - name: Loïc Herviou
           role: author
       date: "2026-10-09"
+      msc:
+        - code: 81-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cond-mat.str-el

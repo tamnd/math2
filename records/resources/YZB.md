@@ -36,6 +36,8 @@ records:
                 isbn:
                     - "9783642140068"
                     - "9783642140075"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

@@ -11,12 +11,26 @@ records:
         - name: Tatsuya Tate
           role: editor
       date: "2009"
+      msc:
+        - code: 46-06
+          from: zbmath_search
+        - code: 47-06
+          from: zbmath_search
+        - code: 53-06
+          from: zbmath_search
+        - code: 14-06
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2009"
           ids:
             doi: 10.1090/conm/484
+            zbl: "1160.46002"
+            zbl_id: "5549011"
           manifestations:
             - key: m1
               kind: print
@@ -27,6 +41,8 @@ records:
                     - "9780821842690"
                     - "9780821858127"
                     - "9780821881637"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -39,6 +55,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/484
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5549011"
           level: work
       history:
         - op: add

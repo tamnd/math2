@@ -11,14 +11,28 @@ records:
         - name: Craig Larson
           role: editor
       date: "2016"
+      msc:
+        - code: 05-06
+          from: zbmath_search
+        - code: 05Cxx
+          from: zbmath_search
+        - code: 05-02
+          from: zbmath_search
+        - code: 68Q17
+          from: zbmath_search
+        - code: 00B15
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2016"
           ids:
             doi:
                 - 10.1007/978-3-319-31940-7
                 - 10.1007/978-3-319-97686-0
+            zbl: "1357.05001"
+            zbl_id: "6567208"
           manifestations:
             - key: m1
               kind: print
@@ -28,6 +42,8 @@ records:
                 isbn:
                     - "9783319319384"
                     - "9783319319407"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer International Publishing
@@ -36,6 +52,8 @@ records:
                 isbn:
                     - "9783319976846"
                     - "9783319976860"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: AQAR17SPHM
@@ -52,6 +70,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-319-97686-0
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6567208"
           level: work
       history:
         - op: add

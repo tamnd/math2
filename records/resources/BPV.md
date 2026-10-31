@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9780857297099"
                     - "9780857297105"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 3YXAC8SZBF

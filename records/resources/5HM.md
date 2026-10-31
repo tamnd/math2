@@ -7,12 +7,24 @@ records:
         - name: Peter W. Michor
           role: author
       date: "1978"
+      msc:
+        - code: 46M15
+          from: zbmath_search
+        - code: 46B99
+          from: zbmath_search
+        - code: 46-02
+          from: zbmath_search
+        - code: 18B99
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1978"
           ids:
             doi: 10.1007/bfb0067828
+            zbl: "0369.46069"
+            zbl_id: "3576169"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +34,8 @@ records:
                 isbn:
                     - "9783540087649"
                     - "9783540358473"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -34,6 +48,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0067828
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3576169"
           level: work
       history:
         - op: add

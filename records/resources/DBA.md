@@ -7,6 +7,11 @@ records:
         - name: Thijs Laarhoven
           role: author
       date: "2026-09-28"
+      msc:
+        - code: 51-XX
+          from: arxiv
+        - code: 52-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.CR

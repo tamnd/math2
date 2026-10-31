@@ -13,12 +13,38 @@ records:
         - name: Callum Quigley
           role: editor
       date: "2016-06-09"
+      msc:
+        - code: 81-06
+          from: zbmath_search
+        - code: 83-06
+          from: zbmath_search
+        - code: 14-06
+          from: zbmath_search
+        - code: 53D37
+          from: zbmath_search
+        - code: 14H81
+          from: zbmath_search
+        - code: 14J81
+          from: zbmath_search
+        - code: 81T13
+          from: zbmath_search
+        - code: 53D55
+          from: zbmath_search
+        - code: 81T30
+          from: zbmath_search
+        - code: 81Q30
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2016-06-09"
           ids:
             doi: 10.1090/pspum/093
+            zbl: "1343.81006"
+            zbl_id: "6603591"
           manifestations:
             - key: m1
               kind: print
@@ -29,6 +55,8 @@ records:
                     - "9781470419929"
                     - "9781470430153"
                     - "9781470430160"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: EVG9FMRY3R
@@ -41,6 +69,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/pspum/093
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6603591"
           level: work
       history:
         - op: add

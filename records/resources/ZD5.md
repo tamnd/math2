@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9783540314868"
                     - "9783540315117"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: GQFCNY816R

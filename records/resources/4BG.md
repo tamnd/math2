@@ -30,6 +30,8 @@ records:
                 isbn:
                     - "9783642159442"
                     - "9783642159459"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

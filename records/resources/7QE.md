@@ -9,14 +9,26 @@ records:
         - name: Gregor Kemper
           role: author
       date: "2002"
+      msc:
+        - code: 13A50
+          from: zbmath_search
+        - code: 13P10
+          from: zbmath_search
+        - code: 13H10
+          from: zbmath_search
+        - code: 13-02
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2002"
           ids:
             doi:
                 - 10.1007/978-3-662-04958-7
                 - 10.1007/978-3-662-48422-7
+            zbl: "1011.13003"
+            zbl_id: "1764948"
           manifestations:
             - key: m1
               kind: print
@@ -26,6 +38,8 @@ records:
                 isbn:
                     - "9783642077968"
                     - "9783662049587"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -34,6 +48,8 @@ records:
                 isbn:
                     - "9783662484203"
                     - "9783662484227"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: XGZPMQ7BSM
@@ -50,6 +66,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-662-48422-7
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "1764948"
           level: work
       history:
         - op: add

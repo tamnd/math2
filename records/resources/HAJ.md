@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9783642080708"
                     - "9783662028490"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: XGZPMQ7BSM

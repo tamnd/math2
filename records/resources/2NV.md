@@ -13,12 +13,26 @@ records:
         - name: Ioannis Zarakas
           role: author
       date: "2022"
+      msc:
+        - code: 46-02
+          from: zbmath_search
+        - code: 46H20
+          from: zbmath_search
+        - code: 46H35
+          from: zbmath_search
+        - code: 46K10
+          from: zbmath_search
+        - code: 47L60
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2022"
           ids:
             doi: 10.1007/978-3-030-96433-7
+            zbl: "1498.46001"
+            zbl_id: "7504242"
           manifestations:
             - key: m1
               kind: print
@@ -28,6 +42,8 @@ records:
                 isbn:
                     - "9783030964320"
                     - "9783030964337"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -40,6 +56,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-030-96433-7
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7504242"
           level: work
       history:
         - op: add

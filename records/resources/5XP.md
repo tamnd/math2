@@ -9,6 +9,11 @@ records:
         - name: Ke Shi
           role: author
       date: "2026-10-08"
+      msc:
+        - code: 81-XX
+          from: arxiv
+        - code: 60-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.DS

@@ -16,6 +16,8 @@ records:
               publisher: IIT-ISM Dhanbad
               ids:
                 nptel: "111105417"
+              access:
+                class: record
       scope:
         value: in
         rule: S6

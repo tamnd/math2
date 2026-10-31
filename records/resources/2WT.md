@@ -24,6 +24,8 @@ records:
                     - "9781470466565"
                     - "9781470471927"
                     - "9781470476618"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: YBEDX3XNVA

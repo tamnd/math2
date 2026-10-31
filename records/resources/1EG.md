@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9781470451332"
                     - "9781470454098"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: M891DMMNP3

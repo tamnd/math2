@@ -16,6 +16,8 @@ records:
               date: "2010"
               ids:
                 ocw: 18-06-linear-algebra-spring-2010/resources/lecture-26-complex-matrices-fast-fourier-transform
+              access:
+                class: record
       relations:
         - kind: part_of
           to: GE3WH5EF6G/e1
@@ -62,6 +64,8 @@ records:
                 isbn:
                     - "9780821846452"
                     - "9781470444303"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9

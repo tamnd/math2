@@ -7,6 +7,9 @@ records:
         - name: Thomas Wright
           role: author
       date: "2026-09-28"
+      msc:
+        - code: 11-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.NT
@@ -14,9 +17,11 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2026-09-28"
           ids:
             arxiv: "2609.35950"
+            zbl_id: "903188060"
       scope:
         value: in
         rule: S2
@@ -25,6 +30,14 @@ records:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
           native_id: "2609.35950"
+          level: work
+        - source: arxiv_text
+          snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
+          native_id: "2609.35950"
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "903188060"
           level: work
       history:
         - op: add
@@ -47,12 +60,22 @@ records:
         - name: Stanislav Shaposhnikov
           role: author
       date: "2015-12-17"
+      msc:
+        - code: 35-02
+          from: zbmath_search
+        - code: 35Q84
+          from: zbmath_search
+        - code: 35R06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2015-12-17"
           ids:
             doi: 10.1090/surv/207
+            zbl: "1342.35002"
+            zbl_id: "6532864"
           manifestations:
             - key: m1
               kind: print
@@ -62,6 +85,8 @@ records:
                 isbn:
                     - "9781470425586"
                     - "9781470427931"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: M891DMMNP3
@@ -74,6 +99,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/surv/207
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6532864"
           level: work
       history:
         - op: add
@@ -92,14 +121,26 @@ records:
         - name: Seán Dineen
           role: editor
       date: "1978"
+      msc:
+        - code: 00Bxx
+          from: zbmath_search
+        - code: 28-06
+          from: zbmath_search
+        - code: 46-06
+          from: zbmath_search
+        - code: 60-06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1978"
           ids:
             doi:
                 - 10.1007/bfb0066835
                 - 10.1007/bfb0069656
+            zbl: "0372.00011"
+            zbl_id: "3578818"
           manifestations:
             - key: m1
               kind: print
@@ -109,6 +150,8 @@ records:
                 isbn:
                     - "9783540086680"
                     - "9783540359067"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -117,6 +160,8 @@ records:
                 isbn:
                     - "9783540086697"
                     - "9783540359036"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -133,6 +178,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0069656
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3578818"
           level: work
       history:
         - op: add

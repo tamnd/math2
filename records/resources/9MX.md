@@ -13,6 +13,13 @@ records:
         - name: Peixue Wu
           role: author
       date: "2026-09-30"
+      msc:
+        - code: 81-XX
+          from: arxiv
+        - code: 94-XX
+          from: arxiv
+        - code: 60-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

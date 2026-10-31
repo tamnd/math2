@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9781475739893"
                     - "9781475739879"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: AQAR17SPHM

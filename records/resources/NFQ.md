@@ -13,6 +13,9 @@ records:
         - name: Bennett Chow
           role: author
       date: "2026-09-27"
+      msc:
+        - code: 53-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.DG

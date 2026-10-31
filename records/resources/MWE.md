@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9781475742749"
                     - "9781475742732"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VS2PFDMCR5

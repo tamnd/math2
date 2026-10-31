@@ -16,6 +16,8 @@ records:
               publisher: IISER Bhopal
               ids:
                 nptel: "111106148"
+              access:
+                class: record
       scope:
         value: in
         rule: S6

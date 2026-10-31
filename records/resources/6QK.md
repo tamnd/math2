@@ -16,6 +16,8 @@ records:
               date: "2010"
               ids:
                 ocw: 18-06-linear-algebra-spring-2010/resources/mit18_06s10_exam1_s10
+              access:
+                class: record
       relations:
         - kind: part_of
           to: GE3WH5EF6G/e1

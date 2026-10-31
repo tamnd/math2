@@ -32,6 +32,8 @@ records:
                 isbn:
                     - "9783031400438"
                     - "9783031400445"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W0CC03QJC7

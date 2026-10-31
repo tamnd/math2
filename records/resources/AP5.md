@@ -25,6 +25,8 @@ records:
                     - "9780821816967"
                     - "9780821888902"
                     - "9781470424053"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: American Mathematical Society
@@ -34,6 +36,8 @@ records:
                     - "9780821841563"
                     - "9781470426675"
                     - "9781470426682"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 20XHFD4A67

@@ -7,12 +7,28 @@ records:
         - name: Georges Gras
           role: author
       date: "2003"
+      msc:
+        - code: 11R37
+          from: zbmath_search
+        - code: 11-01
+          from: zbmath_search
+        - code: 11-02
+          from: zbmath_search
+        - code: 11R29
+          from: zbmath_search
+        - code: 11R20
+          from: zbmath_search
+        - code: 11S31
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2003"
           ids:
             doi: 10.1007/978-3-662-11323-3
+            zbl: "1019.11032"
+            zbl_id: "1834428"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +38,8 @@ records:
                 isbn:
                     - "9783642079085"
                     - "9783662113233"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: FA5PXCH6G7
@@ -34,6 +52,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-662-11323-3
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "1834428"
           level: work
       history:
         - op: add

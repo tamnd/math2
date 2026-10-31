@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9783319100876"
                     - "9783319100883"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

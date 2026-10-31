@@ -11,6 +11,9 @@ records:
         - name: Théo Saulus
           role: author
       date: "2026-09-29"
+      msc:
+        - code: 37-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: stat.ML

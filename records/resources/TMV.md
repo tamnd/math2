@@ -11,6 +11,11 @@ records:
         - name: Lihong Zhi
           role: author
       date: "2026-10-07"
+      msc:
+        - code: 46-XX
+          from: arxiv
+        - code: 47-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

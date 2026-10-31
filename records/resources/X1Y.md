@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9780821815038"
                     - "9781470412302"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: M891DMMNP3
@@ -50,6 +52,9 @@ records:
         - name: Emile Anand
           role: author
       date: "2026-10-01"
+      msc:
+        - code: 05-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.DS

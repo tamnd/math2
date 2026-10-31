@@ -27,6 +27,8 @@ records:
                     - "9780821810521"
                     - "9780821855911"
                     - "9780821878453"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -55,12 +57,28 @@ records:
         - name: Claude Dellacherie
           role: author
       date: "1972"
+      msc:
+        - code: 31-00
+          from: zbmath_search
+        - code: 28-02
+          from: zbmath_search
+        - code: 28A05
+          from: zbmath_search
+        - code: 28A10
+          from: zbmath_search
+        - code: "03E15"
+          from: zbmath_search
+        - code: 28A75
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: fr
           date: "1972"
           ids:
             doi: 10.1007/bfb0060706
+            zbl: "0259.31001"
+            zbl_id: "3409736"
           manifestations:
             - key: m1
               kind: print
@@ -70,6 +88,8 @@ records:
                 isbn:
                     - "9783540060765"
                     - "9783540380597"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -82,6 +102,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0060706
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3409736"
           level: work
       history:
         - op: add

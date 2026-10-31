@@ -11,6 +11,11 @@ records:
         - name: Danica J. Sutherland
           role: author
       date: "2026-09-28"
+      msc:
+        - code: 94-XX
+          from: arxiv
+        - code: 62-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: stat.ML

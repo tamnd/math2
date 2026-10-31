@@ -7,14 +7,24 @@ records:
         - name: Charles Chapman Pugh
           role: author
       date: "2002"
+      msc:
+        - code: 26-01
+          from: zbmath_search
+        - code: 28-01
+          from: zbmath_search
+        - code: 46-01
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2002"
           ids:
             doi:
                 - 10.1007/978-0-387-21684-3
                 - 10.1007/978-3-319-17771-7
+            zbl: "1003.26001"
+            zbl_id: "1749058"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +34,8 @@ records:
                 isbn:
                     - "9781441929419"
                     - "9780387216843"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer International Publishing
@@ -32,6 +44,8 @@ records:
                 isbn:
                     - "9783319177700"
                     - "9783319177717"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: NWQC4TW7S9
@@ -48,6 +62,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-319-17771-7
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "1749058"
           level: work
       history:
         - op: add

@@ -7,6 +7,11 @@ records:
         - name: Hao-Yu Sun
           role: author
       date: "2026-10-08"
+      msc:
+        - code: 81-XX
+          from: arxiv
+        - code: 05-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

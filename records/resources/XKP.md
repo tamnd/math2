@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9780387987279"
                     - "9781441984890"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7ME1ABA6H5

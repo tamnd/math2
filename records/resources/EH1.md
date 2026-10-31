@@ -11,12 +11,32 @@ records:
         - name: Gerard van der Geer
           role: editor
       date: "2016"
+      msc:
+        - code: 14-06
+          from: zbmath_search
+        - code: 14J28
+          from: zbmath_search
+        - code: 14J15
+          from: zbmath_search
+        - code: 14J10
+          from: zbmath_search
+        - code: 14J32
+          from: zbmath_search
+        - code: 14J33
+          from: zbmath_search
+        - code: 14J50
+          from: zbmath_search
+        - code: 00B15
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2016"
           ids:
             doi: 10.1007/978-3-319-29959-4
+            zbl: "1348.14003"
+            zbl_id: "6567180"
           manifestations:
             - key: m1
               kind: print
@@ -26,6 +46,8 @@ records:
                 isbn:
                     - "9783319299587"
                     - "9783319299594"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VS2PFDMCR5
@@ -38,6 +60,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-319-29959-4
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6567180"
           level: work
       history:
         - op: add

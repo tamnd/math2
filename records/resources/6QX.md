@@ -34,6 +34,8 @@ records:
                 isbn:
                     - "9783319004129"
                     - "9783319004136"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

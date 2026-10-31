@@ -33,6 +33,8 @@ records:
                 isbn:
                     - "9783034899116"
                     - "9783034891103"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Birkhäuser Basel
@@ -41,6 +43,8 @@ records:
                 isbn:
                     - "9783034899123"
                     - "9783034891127"
+              access:
+                class: record
             - key: m3
               kind: print
               publisher: Birkhäuser Basel
@@ -49,6 +53,8 @@ records:
                 isbn:
                     - "9783764351564"
                     - "9783034893312"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VS2PFDMCR5

@@ -25,6 +25,8 @@ records:
                 isbn:
                     - "9783642636530"
                     - "9783642585753"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -33,6 +35,8 @@ records:
                 isbn:
                     - "9783662001769"
                     - "9783662001745"
+              access:
+                class: record
             - key: m3
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -41,6 +45,8 @@ records:
                 isbn:
                     - "9783662080009"
                     - "9783662079980"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7ME1ABA6H5

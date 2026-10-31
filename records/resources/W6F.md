@@ -7,6 +7,9 @@ records:
         - name: Faisal Karimi
           role: author
       date: "2026-10-09"
+      msc:
+        - code: 81-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: hep-th

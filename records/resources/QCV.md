@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9783032113955"
                     - "9783032113962"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

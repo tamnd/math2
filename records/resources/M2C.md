@@ -28,6 +28,8 @@ records:
                 isbn:
                     - "9783540624011"
                     - "9783540497011"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

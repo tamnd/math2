@@ -9,12 +9,28 @@ records:
         - name: Vladimir Maz’ya
           role: author
       date: "2012-08-15"
+      msc:
+        - code: 35-02
+          from: zbmath_search
+        - code: 35B50
+          from: zbmath_search
+        - code: 35J47
+          from: zbmath_search
+        - code: 35K40
+          from: zbmath_search
+        - code: 35Q35
+          from: zbmath_search
+        - code: 35Q74
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2012-08-15"
           ids:
             doi: 10.1090/surv/183
+            zbl: "1255.35001"
+            zbl_id: "6076518"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +40,8 @@ records:
                 isbn:
                     - "9780821889817"
                     - "9780821891698"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: M891DMMNP3
@@ -36,6 +54,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/surv/183
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6076518"
           level: work
       history:
         - op: add

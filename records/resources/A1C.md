@@ -17,12 +17,42 @@ records:
         - name: Bryden Cais
           role: editor
       date: "2019-10-01"
+      msc:
+        - code: 14-06
+          from: zbmath_search
+        - code: 11-06
+          from: zbmath_search
+        - code: 11F80
+          from: zbmath_search
+        - code: 11G25
+          from: zbmath_search
+        - code: 14C30
+          from: zbmath_search
+        - code: 14F30
+          from: zbmath_search
+        - code: 14F40
+          from: zbmath_search
+        - code: 14G20
+          from: zbmath_search
+        - code: 14G22
+          from: zbmath_search
+        - code: 14G35
+          from: zbmath_search
+        - code: 14G40
+          from: zbmath_search
+        - code: 14L05
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2019-10-01"
           ids:
             doi: 10.1090/surv/242
+            zbl: "1428.14002"
+            zbl_id: "7126353"
           manifestations:
             - key: m1
               kind: print
@@ -34,6 +64,8 @@ records:
                 isbn:
                     - "9781470450151"
                     - "9781470454111"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: M891DMMNP3
@@ -46,6 +78,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/surv/242
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7126353"
           level: work
       history:
         - op: add

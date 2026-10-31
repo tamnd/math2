@@ -27,6 +27,8 @@ records:
                     - "9781470418441"
                     - "9781470430139"
                     - "9781470430146"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: EVG9FMRY3R

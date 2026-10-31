@@ -11,12 +11,44 @@ records:
         - name: Anders Bondeson
           role: author
       date: "2013"
+      msc:
+        - code: 78-01
+          from: zbmath_search
+        - code: 78M10
+          from: zbmath_search
+        - code: 78M20
+          from: zbmath_search
+        - code: 78M05
+          from: zbmath_search
+        - code: 78M15
+          from: zbmath_search
+        - code: 78A45
+          from: zbmath_search
+        - code: 78A46
+          from: zbmath_search
+        - code: 65M12
+          from: zbmath_search
+        - code: 65M06
+          from: zbmath_search
+        - code: 65M60
+          from: zbmath_search
+        - code: 65N06
+          from: zbmath_search
+        - code: 65N30
+          from: zbmath_search
+        - code: 65F10
+          from: zbmath_search
+        - code: 65F50
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2013"
           ids:
             doi: 10.1007/978-1-4614-5351-2
+            zbl: "1259.78002"
+            zbl_id: "6081199"
           manifestations:
             - key: m1
               kind: print
@@ -26,6 +58,8 @@ records:
                 isbn:
                     - "9781461453505"
                     - "9781461453512"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7B8JKAVW9F
@@ -38,6 +72,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4614-5351-2
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6081199"
           level: work
       history:
         - op: add

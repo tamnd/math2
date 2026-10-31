@@ -7,12 +7,28 @@ records:
         - name: John T. Baldwin
           role: editor
       date: "1987"
+      msc:
+        - code: 03C52
+          from: zbmath_search
+        - code: 03-03
+          from: zbmath_search
+        - code: 03-02
+          from: zbmath_search
+        - code: 03C45
+          from: zbmath_search
+        - code: 03C65
+          from: zbmath_search
+        - code: 03C60
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1987"
           ids:
             doi: 10.1007/bfb0082228
+            zbl: "0659.03010"
+            zbl_id: "4077176"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +38,8 @@ records:
                 isbn:
                     - "9783540186748"
                     - "9783540480495"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -34,6 +52,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0082228
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "4077176"
           level: work
       history:
         - op: add
@@ -52,12 +74,20 @@ records:
         - name: V. A. Rokhlin
           role: editor
       date: "2004"
+      msc:
+        - code: 55-06
+          from: zbmath_search
+        - code: 00B15
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2004"
           ids:
             doi: 10.1007/978-3-662-10581-8
+            zbl: "1090.55501"
+            zbl_id: "49022"
           manifestations:
             - key: m1
               kind: print
@@ -67,6 +97,8 @@ records:
                 isbn:
                     - "9783642080845"
                     - "9783662105818"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: XGZPMQ7BSM
@@ -79,6 +111,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-662-10581-8
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "49022"
           level: work
       history:
         - op: add

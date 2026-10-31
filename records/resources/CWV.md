@@ -30,6 +30,8 @@ records:
                 isbn:
                     - "9783031627675"
                     - "9783031627682"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: AQAR17SPHM

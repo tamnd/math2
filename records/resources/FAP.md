@@ -7,12 +7,26 @@ records:
         - name: A. Wadsworth
           role: author
       date: "2017-05-10"
+      msc:
+        - code: 12-01
+          from: zbmath_search
+        - code: 13-01
+          from: zbmath_search
+        - code: 15-01
+          from: zbmath_search
+        - code: 20-01
+          from: zbmath_search
+        - code: 00A07
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2017-05-10"
           ids:
             doi: 10.1090/stml/082
+            zbl: "1371.12001"
+            zbl_id: "6729644"
           manifestations:
             - key: m1
               kind: print
@@ -23,6 +37,8 @@ records:
                     - "9781470440442"
                     - "9781470440459"
                     - "9781470435837"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 6RX4VMGQKK
@@ -35,6 +51,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/stml/082
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6729644"
           level: work
       history:
         - op: add

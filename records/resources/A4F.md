@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9781461264545"
                     - "9781441987143"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 2M0N86YNGA

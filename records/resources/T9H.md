@@ -7,6 +7,9 @@ records:
         - name: Rahul Singh
           role: author
       date: "2021-02-22"
+      msc:
+        - code: 62-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: stat.ML

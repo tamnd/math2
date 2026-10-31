@@ -9,6 +9,9 @@ records:
         - name: V. Arvind Rameshwar
           role: author
       date: "2026-10-01"
+      msc:
+        - code: 94-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.CL

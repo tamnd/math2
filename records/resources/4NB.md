@@ -9,12 +9,24 @@ records:
         - name: Marcel-P. Schützenberger
           role: author
       date: "1970"
+      msc:
+        - code: 05-02
+          from: zbmath_search
+        - code: 05A05
+          from: zbmath_search
+        - code: 05A15
+          from: zbmath_search
+        - code: 11B68
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: fr
           date: "1970"
           ids:
             doi: 10.1007/bfb0060799
+            zbl: "0214.26202"
+            zbl_id: "3340241"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +36,8 @@ records:
                 isbn:
                     - "9783540049272"
                     - "9783540362944"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -36,6 +50,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0060799
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3340241"
           level: work
       history:
         - op: add

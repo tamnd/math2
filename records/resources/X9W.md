@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9780387948355"
                     - "9781461384984"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W0CC03QJC7
@@ -54,6 +56,11 @@ records:
         - name: William Zuluaga
           role: author
       date: "2026-10-14"
+      msc:
+        - code: 03-XX
+          from: arxiv
+        - code: 18-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.LO
@@ -63,9 +70,11 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2026-10-14"
           ids:
             arxiv: "2610.20956"
+            zbl_id: "903213502"
       scope:
         value: in
         rule: S2
@@ -74,6 +83,14 @@ records:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
           native_id: "2610.20956"
+          level: work
+        - source: arxiv_text
+          snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
+          native_id: "2610.20956"
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "903213502"
           level: work
       history:
         - op: add
@@ -90,12 +107,26 @@ records:
         - name: Daniel Grieser
           role: author
       date: "2018"
+      msc:
+        - code: 97-01
+          from: zbmath_search
+        - code: 97D50
+          from: zbmath_search
+        - code: "97E50"
+          from: zbmath_search
+        - code: 00A35
+          from: zbmath_search
+        - code: 00A05
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2018"
           ids:
             doi: 10.1007/978-3-319-90321-7
+            zbl: "1397.97001"
+            zbl_id: "6875530"
           manifestations:
             - key: m1
               kind: print
@@ -105,6 +136,8 @@ records:
                 isbn:
                     - "9783319903194"
                     - "9783319903217"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 3YXAC8SZBF
@@ -117,6 +150,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-319-90321-7
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6875530"
           level: work
       history:
         - op: add
@@ -137,12 +174,26 @@ records:
         - name: Daniel Nakano
           role: editor
       date: "2024-07-02"
+      msc:
+        - code: 17-06
+          from: zbmath_search
+        - code: 22-06
+          from: zbmath_search
+        - code: 06-06
+          from: zbmath_search
+        - code: 18-06
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2024-07-02"
           ids:
             doi: 10.1090/pspum/108
+            zbl: "1545.17001"
+            zbl_id: "7871970"
           manifestations:
             - key: m1
               kind: print
@@ -152,6 +203,8 @@ records:
                 isbn:
                     - "9781470477295"
                     - "9781470471170"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: EVG9FMRY3R
@@ -164,6 +217,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/pspum/108
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7871970"
           level: work
       history:
         - op: add

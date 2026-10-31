@@ -7,6 +7,11 @@ records:
         - name: Duy Nguyen
           role: author
       date: "2026-10-09"
+      msc:
+        - code: 60-XX
+          from: arxiv
+        - code: 62-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: stat.ME

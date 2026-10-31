@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9783540063674"
                     - "9783540469773"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9780821809273"
                     - "9780821893722"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: EVG9FMRY3R

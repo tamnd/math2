@@ -11,12 +11,24 @@ records:
         - name: Masahico Saito
           role: author
       date: "2004"
+      msc:
+        - code: 57-02
+          from: zbmath_search
+        - code: 57Q35
+          from: zbmath_search
+        - code: 20F36
+          from: zbmath_search
+        - code: 55N35
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2004"
           ids:
             doi: 10.1007/978-3-662-10162-9
+            zbl: "1078.57001"
+            zbl_id: "2121101"
           manifestations:
             - key: m1
               kind: print
@@ -26,6 +38,8 @@ records:
                 isbn:
                     - "9783642059131"
                     - "9783662101629"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: XGZPMQ7BSM
@@ -38,6 +52,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-662-10162-9
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "2121101"
           level: work
       history:
         - op: add

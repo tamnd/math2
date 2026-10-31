@@ -18,6 +18,8 @@ records:
               publisher: IIT Kharagpur
               ids:
                 nptel: "111105165"
+              access:
+                class: record
       scope:
         value: in
         rule: S6

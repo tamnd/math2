@@ -7,6 +7,9 @@ records:
         - name: Saeed Tafazolian
           role: author
       date: "2026-09-27"
+      msc:
+        - code: 14-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.AG
@@ -14,6 +17,7 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2026-09-27"
           ids:
             arxiv: "2609.33185"
@@ -24,6 +28,10 @@ records:
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2609.33185"
+          level: work
+        - source: arxiv_text
+          snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
           native_id: "2609.33185"
           level: work
       history:
@@ -41,12 +49,22 @@ records:
         - name: Anna Kamińska
           role: editor
       date: "2003"
+      msc:
+        - code: 00B25
+          from: zbmath_search
+        - code: 46-06
+          from: zbmath_search
+        - code: 47-06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2003"
           ids:
             doi: 10.1090/conm/321
+            zbl: "1011.00029"
+            zbl_id: "1909032"
           manifestations:
             - key: m1
               kind: print
@@ -57,6 +75,8 @@ records:
                     - "9780821832349"
                     - "9780821856574"
                     - "9780821879115"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -69,6 +89,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/321
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "1909032"
           level: work
       history:
         - op: add
@@ -108,6 +132,8 @@ records:
                 isbn:
                     - "9783319675992"
                     - "9783319676005"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

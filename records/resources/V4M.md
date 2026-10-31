@@ -21,16 +21,22 @@ records:
               publisher: IIT Delhi
               ids:
                 nptel: "111102014"
+              access:
+                class: record
             - key: m2
               kind: page
               publisher: IIT Delhi
               ids:
                 nptel: "111102096"
+              access:
+                class: record
             - key: m3
               kind: page
               publisher: IIT Delhi
               ids:
                 nptel: "111102098"
+              access:
+                class: record
       scope:
         value: in
         rule: S6

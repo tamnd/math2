@@ -7,12 +7,30 @@ records:
         - name: Karel Dekimpe
           role: author
       date: "1996"
+      msc:
+        - code: 20-02
+          from: zbmath_search
+        - code: 20H15
+          from: zbmath_search
+        - code: 82D25
+          from: zbmath_search
+        - code: 30F10
+          from: zbmath_search
+        - code: 57S30
+          from: zbmath_search
+        - code: 20F18
+          from: zbmath_search
+        - code: "22E25"
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1996"
           ids:
             doi: 10.1007/bfb0094472
+            zbl: "0865.20001"
+            zbl_id: "960147"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +40,8 @@ records:
                 isbn:
                     - "9783540618997"
                     - "9783540495642"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -34,6 +54,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0094472
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "960147"
           level: work
       history:
         - op: add

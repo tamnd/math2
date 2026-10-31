@@ -11,12 +11,26 @@ records:
         - name: Frank Natterer
           role: editor
       date: "1991"
+      msc:
+        - code: 00B25
+          from: zbmath_search
+        - code: 44-06
+          from: zbmath_search
+        - code: 92-08
+          from: zbmath_search
+        - code: 92C55
+          from: zbmath_search
+        - code: 44A15
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1991"
           ids:
             doi: 10.1007/bfb0084502
+            zbl: "0746.00070"
+            zbl_id: "53216"
           manifestations:
             - key: m1
               kind: print
@@ -26,6 +40,8 @@ records:
                 isbn:
                     - "9783540549703"
                     - "9783540466154"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -38,6 +54,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0084502
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "53216"
           level: work
       history:
         - op: add

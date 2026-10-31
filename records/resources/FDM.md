@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9781461381006"
                     - "9781461380986"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: GQFCNY816R

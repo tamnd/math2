@@ -9,6 +9,9 @@ records:
         - name: Xue-Xin Wei
           role: author
       date: "2026-09-25"
+      msc:
+        - code: 94-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.AI

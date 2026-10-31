@@ -7,12 +7,42 @@ records:
         - name: Bernard Dwork
           role: author
       date: "1982"
+      msc:
+        - code: 12H25
+          from: zbmath_search
+        - code: 12-02
+          from: zbmath_search
+        - code: 14-02
+          from: zbmath_search
+        - code: 34-02
+          from: zbmath_search
+        - code: 14G20
+          from: zbmath_search
+        - code: 34G10
+          from: zbmath_search
+        - code: 14F30
+          from: zbmath_search
+        - code: 14D05
+          from: zbmath_search
+        - code: 14K15
+          from: zbmath_search
+        - code: 14G10
+          from: zbmath_search
+        - code: 35A30
+          from: zbmath_search
+        - code: 14H25
+          from: zbmath_search
+        - code: 11S80
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1982"
           ids:
             doi: 10.1007/978-1-4613-8193-8
+            zbl: "0502.12021"
+            zbl_id: "3790559"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +52,8 @@ records:
                 isbn:
                     - "9781461381952"
                     - "9781461381938"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: GQFCNY816R
@@ -34,6 +66,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4613-8193-8
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3790559"
           level: work
       history:
         - op: add

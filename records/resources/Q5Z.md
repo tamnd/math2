@@ -17,12 +17,34 @@ records:
         - name: Alex J. Wilkie
           role: author
       date: "2014"
+      msc:
+        - code: 03-06
+          from: zbmath_search
+        - code: 03C10
+          from: zbmath_search
+        - code: 03C45
+          from: zbmath_search
+        - code: 03C60
+          from: zbmath_search
+        - code: 03C62
+          from: zbmath_search
+        - code: 03C64
+          from: zbmath_search
+        - code: 12J20
+          from: zbmath_search
+        - code: 11U09
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2014"
           ids:
             doi: 10.1007/978-3-642-54936-6
+            zbl: "1300.03006"
+            zbl_id: "6292868"
           manifestations:
             - key: m1
               kind: print
@@ -32,6 +54,8 @@ records:
                 isbn:
                     - "9783642549359"
                     - "9783642549366"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -44,6 +68,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-642-54936-6
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6292868"
           level: work
       history:
         - op: add
@@ -60,6 +88,13 @@ records:
         - name: Eduardo D. Sontag
           role: author
       date: "2026-09-29"
+      msc:
+        - code: 49-XX
+          from: arxiv
+        - code: 90-XX
+          from: arxiv
+        - code: 93-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: eess.SY
@@ -101,12 +136,28 @@ records:
         - name: Thomas Weigel
           role: editor
       date: "2015-11-30"
+      msc:
+        - code: 17-06
+          from: zbmath_search
+        - code: 17Bxx
+          from: zbmath_search
+        - code: 16S34
+          from: zbmath_search
+        - code: 16W10
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
+        - code: 00B30
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2015-11-30"
           ids:
             doi: 10.1090/conm/652
+            zbl: "1330.17002"
+            zbl_id: "6526010"
           manifestations:
             - key: m1
               kind: print
@@ -117,6 +168,8 @@ records:
                     - "9781470410230"
                     - "9781470428150"
                     - "9781470428167"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -129,6 +182,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/652
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6526010"
           level: work
       history:
         - op: add

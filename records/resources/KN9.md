@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9781848001848"
                     - "9781848001855"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W0CC03QJC7

@@ -7,12 +7,20 @@ records:
         - name: Takashi Sakai
           role: author
       date: "1996-05-21"
+      msc:
+        - code: 53-01
+          from: zbmath_search
+        - code: 53C20
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1996-05-21"
           ids:
             doi: 10.1090/mmono/149
+            zbl: "0886.53002"
+            zbl_id: "909255"
           manifestations:
             - key: m1
               kind: print
@@ -23,6 +31,8 @@ records:
                     - "9780821802847"
                     - "9780821889565"
                     - "9781470441050"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9
@@ -35,6 +45,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/mmono/149
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "909255"
           level: work
       history:
         - op: add

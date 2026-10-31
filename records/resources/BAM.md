@@ -7,12 +7,32 @@ records:
         - name: Yves Meyer
           role: author
       date: "2001-09-04"
+      msc:
+        - code: 35-02
+          from: zbmath_search
+        - code: 43-02
+          from: zbmath_search
+        - code: 35B05
+          from: zbmath_search
+        - code: 35Q30
+          from: zbmath_search
+        - code: 65T60
+          from: zbmath_search
+        - code: 76D05
+          from: zbmath_search
+        - code: 94A08
+          from: zbmath_search
+        - code: 68U10
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2001-09-04"
           ids:
             doi: 10.1090/ulect/022
+            zbl: "0987.35003"
+            zbl_id: "1674766"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +42,8 @@ records:
                 isbn:
                     - "9781470421694"
                     - "9780821829202"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: CMK1G7XE8B
@@ -34,6 +56,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/ulect/022
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "1674766"
           level: work
       history:
         - op: add

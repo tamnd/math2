@@ -11,12 +11,24 @@ records:
         - name: Franco Giannessi
           role: editor
       date: "1986"
+      msc:
+        - code: 00B25
+          from: zbmath_search
+        - code: 49-06
+          from: zbmath_search
+        - code: 65-06
+          from: zbmath_search
+        - code: 90-06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1986"
           ids:
             doi: 10.1007/bfb0076699
+            zbl: "0581.00011"
+            zbl_id: "3928910"
           manifestations:
             - key: m1
               kind: print
@@ -26,6 +38,8 @@ records:
                 isbn:
                     - "9783540164760"
                     - "9783540398172"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -38,6 +52,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0076699
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3928910"
           level: work
       history:
         - op: add
@@ -56,12 +74,22 @@ records:
         - name: Mario Primicerio
           role: editor
       date: "1986"
+      msc:
+        - code: 00Bxx
+          from: zbmath_search
+        - code: 35-06
+          from: zbmath_search
+        - code: 76-06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1986"
           ids:
             doi: 10.1007/bfb0072686
+            zbl: "0595.00014"
+            zbl_id: "3956999"
           manifestations:
             - key: m1
               kind: print
@@ -71,6 +99,8 @@ records:
                 isbn:
                     - "9783540171928"
                     - "9783540473527"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -83,6 +113,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0072686
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3956999"
           level: work
       history:
         - op: add

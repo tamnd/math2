@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9783540150329"
                     - "9783642701634"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W0CC03QJC7

@@ -7,12 +7,38 @@ records:
         - name: Nobuaki Obata
           role: author
       date: "1994"
+      msc:
+        - code: 60H99
+          from: zbmath_search
+        - code: 46F25
+          from: zbmath_search
+        - code: 60-02
+          from: zbmath_search
+        - code: 47L60
+          from: zbmath_search
+        - code: "46E50"
+          from: zbmath_search
+        - code: 60J65
+          from: zbmath_search
+        - code: 47A70
+          from: zbmath_search
+        - code: 47B38
+          from: zbmath_search
+        - code: 47L10
+          from: zbmath_search
+        - code: 46-02
+          from: zbmath_search
+        - code: 47-02
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1994"
           ids:
             doi: 10.1007/bfb0073952
+            zbl: "0814.60058"
+            zbl_id: "595993"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +48,8 @@ records:
                 isbn:
                     - "9783540579854"
                     - "9783540484110"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -34,6 +62,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0073952
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "595993"
           level: work
       history:
         - op: add

@@ -17,6 +17,11 @@ records:
         - name: Valentina Zapata Castro
           role: author
       date: "2024-01-24"
+      msc:
+        - code: 55-XX
+          from: arxiv
+        - code: 05-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.AT
@@ -26,6 +31,7 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2024-01-24"
           ids:
             arxiv: "2401.13523"
@@ -36,6 +42,10 @@ records:
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2401.13523"
+          level: work
+        - source: arxiv_text
+          snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
           native_id: "2401.13523"
           level: work
       history:
@@ -53,12 +63,38 @@ records:
         - name: Gerald Teschl
           role: author
       date: "2012-08-30"
+      msc:
+        - code: 34-01
+          from: zbmath_search
+        - code: 37-01
+          from: zbmath_search
+        - code: 34A12
+          from: zbmath_search
+        - code: 34A30
+          from: zbmath_search
+        - code: 34Bxx
+          from: zbmath_search
+        - code: 34Cxx
+          from: zbmath_search
+        - code: 34Mxx
+          from: zbmath_search
+        - code: 37C29
+          from: zbmath_search
+        - code: 37C75
+          from: zbmath_search
+        - code: 37D45
+          from: zbmath_search
+        - code: 37B10
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2012-08-30"
           ids:
             doi: 10.1090/gsm/140
+            zbl: "1263.34002"
+            zbl_id: "6054089"
           manifestations:
             - key: m1
               kind: print
@@ -70,6 +106,8 @@ records:
                     - "9780821891049"
                     - "9780821891056"
                     - "9781470425869"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: YBEDX3XNVA
@@ -82,6 +120,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/gsm/140
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6054089"
           level: work
       history:
         - op: add

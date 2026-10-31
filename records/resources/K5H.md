@@ -11,6 +11,9 @@ records:
         - name: Zhihua Zhang
           role: author
       date: "2026-09-30"
+      msc:
+        - code: 62-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.ST
@@ -20,9 +23,11 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2026-09-30"
           ids:
             arxiv: "2609.40338"
+            zbl_id: "903192521"
       scope:
         value: in
         rule: S2
@@ -31,6 +36,14 @@ records:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
           native_id: "2609.40338"
+          level: work
+        - source: arxiv_text
+          snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
+          native_id: "2609.40338"
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "903192521"
           level: work
       history:
         - op: add
@@ -47,12 +60,34 @@ records:
         - name: Nalini Joshi
           role: author
       date: "2019-05-30"
+      msc:
+        - code: 37-02
+          from: zbmath_search
+        - code: 39-02
+          from: zbmath_search
+        - code: 37K10
+          from: zbmath_search
+        - code: 37J35
+          from: zbmath_search
+        - code: "33E17"
+          from: zbmath_search
+        - code: 39A45
+          from: zbmath_search
+        - code: "14E07"
+          from: zbmath_search
+        - code: "14E15"
+          from: zbmath_search
+        - code: 32S45
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2019-05-30"
           ids:
             doi: 10.1090/cbms/131
+            zbl: "1423.37003"
+            zbl_id: "7081809"
           manifestations:
             - key: m1
               kind: print
@@ -63,6 +98,8 @@ records:
                     - "9781470452353"
                     - "9781470452360"
                     - "9781470450380"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 20XHFD4A67
@@ -75,6 +112,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/cbms/131
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7081809"
           level: work
       history:
         - op: add

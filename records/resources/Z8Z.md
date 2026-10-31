@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9783030758080"
                     - "9783030758097"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VS2PFDMCR5

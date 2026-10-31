@@ -11,6 +11,9 @@ records:
         - name: Ajay Kumar Shukla
           role: author
       date: "2026-08-20"
+      msc:
+        - code: 13-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG

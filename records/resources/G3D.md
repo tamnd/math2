@@ -7,6 +7,13 @@ records:
         - name: Alonso Perez-Lona
           role: author
       date: "2026-10-02"
+      msc:
+        - code: 81-XX
+          from: arxiv
+        - code: 55-XX
+          from: arxiv
+        - code: 18-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: hep-th

@@ -9,6 +9,11 @@ records:
         - name: Pierre Vanhove
           role: author
       date: "2026-10-07"
+      msc:
+        - code: 81-XX
+          from: arxiv
+        - code: 14-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: hep-th

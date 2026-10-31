@@ -13,6 +13,9 @@ records:
         - name: Thomas Wick
           role: author
       date: "2024-08-12"
+      msc:
+        - code: 65-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG

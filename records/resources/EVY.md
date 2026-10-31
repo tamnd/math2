@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9780821820803"
                     - "9781470446321"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9

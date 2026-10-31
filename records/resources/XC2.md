@@ -15,6 +15,9 @@ records:
         - name: Sudip Seal
           role: author
       date: "2026-09-11"
+      msc:
+        - code: 94-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG

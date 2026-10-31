@@ -20,11 +20,15 @@ records:
               publisher: IIT Kharagpur
               ids:
                 nptel: "111105043"
+              access:
+                class: record
             - key: m2
               kind: page
               publisher: IIT Kharagpur
               ids:
                 nptel: "111105124"
+              access:
+                class: record
       scope:
         value: in
         rule: S6

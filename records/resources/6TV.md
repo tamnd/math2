@@ -26,6 +26,8 @@ records:
                 isbn:
                     - "9783030891169"
                     - "9783030891176"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: AQAR17SPHM

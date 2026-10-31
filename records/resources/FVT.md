@@ -7,12 +7,32 @@ records:
         - name: Enno Keßler
           role: author
       date: "2019"
+      msc:
+        - code: 81-02
+          from: zbmath_search
+        - code: 81T30
+          from: zbmath_search
+        - code: 53Z05
+          from: zbmath_search
+        - code: 14D21
+          from: zbmath_search
+        - code: 81T60
+          from: zbmath_search
+        - code: 14M30
+          from: zbmath_search
+        - code: 17A70
+          from: zbmath_search
+        - code: 58A50
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2019"
           ids:
             doi: 10.1007/978-3-030-13758-8
+            zbl: "1423.81006"
+            zbl_id: "7045636"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +42,8 @@ records:
                 isbn:
                     - "9783030137571"
                     - "9783030137588"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -34,6 +56,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-030-13758-8
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7045636"
           level: work
       history:
         - op: add
@@ -50,9 +76,21 @@ records:
         - name: Marie-Paule Malliavin
           role: editor
       date: "1980"
+      msc:
+        - code: 00Bxx
+          from: zbmath_search
+        - code: 13-06
+          from: zbmath_search
+        - code: 16-06
+          from: zbmath_search
+        - code: 17-06
+          from: zbmath_search
+        - code: 20-06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: fr
           date: "1980"
           ids:
             doi:
@@ -63,6 +101,8 @@ records:
                 - 10.1007/bfb0092923
                 - 10.1007/bfb0098924
                 - 10.1007/bfb0099500
+            zbl: "0417.00005"
+            zbl_id: "3648644"
           manifestations:
             - key: m1
               kind: print
@@ -72,6 +112,8 @@ records:
                 isbn:
                     - "9783540156864"
                     - "9783540396284"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -80,6 +122,8 @@ records:
                 isbn:
                     - "9783540186908"
                     - "9783540480815"
+              access:
+                class: record
             - key: m3
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -88,6 +132,8 @@ records:
                 isbn:
                     - "9783540099802"
                     - "9783540392309"
+              access:
+                class: record
             - key: m4
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -96,6 +142,8 @@ records:
                 isbn:
                     - "9783540108412"
                     - "9783540387374"
+              access:
+                class: record
             - key: m5
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -104,6 +152,8 @@ records:
                 isbn:
                     - "9783540114963"
                     - "9783540391883"
+              access:
+                class: record
             - key: m6
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -112,6 +162,8 @@ records:
                 isbn:
                     - "9783540126997"
                     - "9783540386865"
+              access:
+                class: record
             - key: m7
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -120,6 +172,8 @@ records:
                 isbn:
                     - "9783540171850"
                     - "9783540472551"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -156,6 +210,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0099500
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3648644"
           level: work
       history:
         - op: add

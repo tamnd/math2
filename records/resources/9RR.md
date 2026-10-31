@@ -3,13 +3,30 @@ records:
     - id: 9RRJ20Z8G7
       kind: monograph
       title: Asymptotic Theory of Finite Dimensional Normed Spaces
+      creators:
+        - name: Milman, Vitali D.
+          role: author
+        - name: Schechtman, Gideon
+          role: author
       date: "1986"
+      msc:
+        - code: 46B25
+          from: zbmath_search
+        - code: 46-02
+          from: zbmath_search
+        - code: 46B20
+          from: zbmath_search
+        - code: 28C20
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1986"
           ids:
             doi: 10.1007/978-3-540-38822-7
+            zbl: "0606.46013"
+            zbl_id: "3979763"
           manifestations:
             - key: m1
               kind: print
@@ -19,6 +36,8 @@ records:
                 isbn:
                     - "9783540167693"
                     - "9783540388227"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -31,6 +50,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-540-38822-7
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3979763"
           level: work
       history:
         - op: add
@@ -47,12 +70,30 @@ records:
         - name: Albert S. Schwarz
           role: author
       date: "1993"
+      msc:
+        - code: 58-02
+          from: zbmath_search
+        - code: 81-02
+          from: zbmath_search
+        - code: 81Txx
+          from: zbmath_search
+        - code: 58Z05
+          from: zbmath_search
+        - code: 58-01
+          from: zbmath_search
+        - code: 57-01
+          from: zbmath_search
+        - code: 55-01
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1993"
           ids:
             doi: 10.1007/978-3-662-02943-5
+            zbl: "0789.58004"
+            zbl_id: "488434"
           manifestations:
             - key: m1
               kind: print
@@ -62,6 +103,8 @@ records:
                 isbn:
                     - "9783642081309"
                     - "9783662029435"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: GQFCNY816R
@@ -74,6 +117,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-662-02943-5
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "488434"
           level: work
       history:
         - op: add

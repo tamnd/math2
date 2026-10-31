@@ -9,6 +9,15 @@ records:
         - name: Michał Studziński
           role: author
       date: "2026-10-14"
+      msc:
+        - code: 81-XX
+          from: arxiv
+        - code: 05-XX
+          from: arxiv
+        - code: 20-XX
+          from: arxiv
+        - code: 22-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: hep-th

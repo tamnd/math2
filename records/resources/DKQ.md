@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9783642656125"
                     - "9783642656118"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: GQFCNY816R

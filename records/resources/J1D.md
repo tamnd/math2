@@ -20,6 +20,8 @@ records:
               publisher: IISc Bangalore
               ids:
                 nptel: "111108168"
+              access:
+                class: record
       scope:
         value: in
         rule: S6
@@ -50,12 +52,22 @@ records:
         - name: V. A. Zalgaller
           role: editor
       date: "1992"
+      msc:
+        - code: 00B50
+          from: zbmath_search
+        - code: 53-06
+          from: zbmath_search
+        - code: 53A05
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1992"
           ids:
             doi: 10.1007/978-3-662-02751-6
+            zbl: "0777.00060"
+            zbl_id: "107903"
           manifestations:
             - key: m1
               kind: print
@@ -65,6 +77,8 @@ records:
                 isbn:
                     - "9783642081026"
                     - "9783662027516"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: XGZPMQ7BSM
@@ -77,6 +91,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-662-02751-6
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "107903"
           level: work
       history:
         - op: add

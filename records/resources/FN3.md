@@ -29,6 +29,8 @@ records:
                 isbn:
                     - "9781441970480"
                     - "9781441970497"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer New York
@@ -37,6 +39,8 @@ records:
                 isbn:
                     - "9781441970510"
                     - "9781441970527"
+              access:
+                class: record
             - key: m3
               kind: print
               publisher: Springer New York
@@ -45,6 +49,8 @@ records:
                 isbn:
                     - "9780387946542"
                     - "9781468493207"
+              access:
+                class: record
             - key: m4
               kind: print
               publisher: Springer New York
@@ -53,6 +59,8 @@ records:
                 isbn:
                     - "9781475741896"
                     - "9781475741872"
+              access:
+                class: record
             - key: m5
               kind: print
               publisher: Springer New York
@@ -61,6 +69,8 @@ records:
                 isbn:
                     - "9781475741926"
                     - "9781475741902"
+              access:
+                class: record
             - key: m6
               kind: print
               publisher: Springer International Publishing
@@ -69,6 +79,8 @@ records:
                 isbn:
                     - "9783031336997"
                     - "9783031337000"
+              access:
+                class: record
             - key: m7
               kind: print
               publisher: Springer International Publishing
@@ -77,6 +89,8 @@ records:
                 isbn:
                     - "9783031339271"
                     - "9783031339288"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 2M0N86YNGA

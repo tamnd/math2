@@ -9,6 +9,13 @@ records:
         - name: Yingxin Sun
           role: author
       date: "2026-09-30"
+      msc:
+        - code: 35-XX
+          from: arxiv
+        - code: 47-XX
+          from: arxiv
+        - code: 58-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.SP
@@ -16,6 +23,7 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2026-09-30"
           ids:
             arxiv: "2609.38953"
@@ -26,6 +34,10 @@ records:
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2609.38953"
+          level: work
+        - source: arxiv_text
+          snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
           native_id: "2609.38953"
           level: work
       history:
@@ -51,12 +63,28 @@ records:
         - name: Toshiyuki Tanisaki
           role: editor
       date: "2010"
+      msc:
+        - code: 17-06
+          from: zbmath_search
+        - code: 17B45
+          from: zbmath_search
+        - code: 17B10
+          from: zbmath_search
+        - code: 20G42
+          from: zbmath_search
+        - code: 17B37
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2010"
           ids:
             doi: 10.1007/978-0-8176-4697-4
+            zbl: "1206.17001"
+            zbl_id: "5702700"
           manifestations:
             - key: m1
               kind: print
@@ -66,6 +94,8 @@ records:
                 isbn:
                     - "9780817646967"
                     - "9780817646974"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VS2PFDMCR5
@@ -78,6 +108,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-0-8176-4697-4
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5702700"
           level: work
       history:
         - op: add
@@ -98,6 +132,9 @@ records:
         - name: Juan B. Seoane-Sepúlveda
           role: author
       date: "2026-09-30"
+      msc:
+        - code: 46-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.FA
@@ -105,9 +142,11 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2026-09-30"
           ids:
             arxiv: "2610.00584"
+            zbl_id: "903193130"
       scope:
         value: in
         rule: S2
@@ -116,6 +155,14 @@ records:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
           native_id: "2610.00584"
+          level: work
+        - source: arxiv_text
+          snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
+          native_id: "2610.00584"
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "903193130"
           level: work
       history:
         - op: add

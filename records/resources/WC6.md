@@ -16,6 +16,8 @@ records:
               publisher: Kerala School of Mathematics
               ids:
                 nptel: "111106135"
+              access:
+                class: record
       scope:
         value: in
         rule: S6

@@ -25,6 +25,8 @@ records:
                     - "9780821850336"
                     - "9780821853887"
                     - "9780821876206"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -53,6 +55,9 @@ records:
         - name: John M. Campbell
           role: author
       date: "2026-09-30"
+      msc:
+        - code: 11-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.NT
@@ -60,9 +65,11 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2026-09-30"
           ids:
             arxiv: "2610.00551"
+            zbl_id: "903193097"
       scope:
         value: in
         rule: S2
@@ -71,6 +78,14 @@ records:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
           native_id: "2610.00551"
+          level: work
+        - source: arxiv_text
+          snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
+          native_id: "2610.00551"
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "903193097"
           level: work
       history:
         - op: add

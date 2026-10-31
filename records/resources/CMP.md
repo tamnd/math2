@@ -7,14 +7,22 @@ records:
         - name: Jean-Pierre Hennart
           role: editor
       date: "1982"
+      msc:
+        - code: 00Bxx
+          from: zbmath_search
+        - code: 65-06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1982"
           ids:
             doi:
                 - 10.1007/bfb0072666
                 - 10.1007/bfb0092954
+            zbl: "0469.00012"
+            zbl_id: "3735747"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +32,8 @@ records:
                 isbn:
                     - "9783540172000"
                     - "9783540473794"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -32,6 +42,8 @@ records:
                 isbn:
                     - "9783540111931"
                     - "9783540389866"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -48,6 +60,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0092954
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3735747"
           level: work
       history:
         - op: add

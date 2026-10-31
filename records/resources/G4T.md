@@ -23,6 +23,8 @@ records:
                     - "9780821846780"
                     - "9780821872529"
                     - "9781470421205"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: YBEDX3XNVA

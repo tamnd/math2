@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9780821842003"
                     - "9781470445096"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9

@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9780387849225"
                     - "9780387849232"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7A3ZERT8BW

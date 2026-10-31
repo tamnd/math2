@@ -13,12 +13,24 @@ records:
         - name: Roberto Triggiani
           role: editor
       date: "2007"
+      msc:
+        - code: 35-06
+          from: zbmath_search
+        - code: 49-06
+          from: zbmath_search
+        - code: 93-06
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2007"
           ids:
             doi: 10.1090/conm/426
+            zbl: "1110.35003"
+            zbl_id: "5142178"
           manifestations:
             - key: m1
               kind: print
@@ -29,6 +41,8 @@ records:
                     - "9780821837665"
                     - "9780821857564"
                     - "9780821881057"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -41,6 +55,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/426
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5142178"
           level: work
       history:
         - op: add
@@ -59,12 +77,18 @@ records:
         - name: Oleg Zubelevich
           role: author
       date: "2010"
+      msc:
+        - code: 37-01
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2010"
           ids:
             doi: 10.1007/978-3-642-03028-4
+            zbl: "1181.37001"
+            zbl_id: "5611407"
           manifestations:
             - key: m1
               kind: print
@@ -74,6 +98,8 @@ records:
                 isbn:
                     - "9783642030277"
                     - "9783642030284"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: FA5PXCH6G7
@@ -86,6 +112,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-642-03028-4
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5611407"
           level: work
       history:
         - op: add

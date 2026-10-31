@@ -13,12 +13,20 @@ records:
         - name: Michael Weiss
           role: editor
       date: "2004"
+      msc:
+        - code: 00B25
+          from: zbmath_search
+        - code: 55-06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2004"
           ids:
             doi: 10.1007/978-3-0348-7863-0
+            zbl: "1027.00023"
+            zbl_id: "2019642"
           manifestations:
             - key: m1
               kind: print
@@ -28,6 +36,8 @@ records:
                 isbn:
                     - "9783034896016"
                     - "9783034878630"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VS2PFDMCR5
@@ -40,6 +50,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-0348-7863-0
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "2019642"
           level: work
       history:
         - op: add
@@ -65,6 +79,8 @@ records:
               date: "2010"
               ids:
                 ocw: 18-06-linear-algebra-spring-2010/resources/mit18_06s10_pset6_s10_soln
+              access:
+                class: record
       relations:
         - kind: part_of
           to: GE3WH5EF6G/e1

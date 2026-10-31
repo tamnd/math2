@@ -9,6 +9,9 @@ records:
         - name: Samrath Singh Chadha
           role: author
       date: "2026-09-25"
+      msc:
+        - code: 05-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.FL

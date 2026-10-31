@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9783540653790"
                     - "9783642578847"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: XGZPMQ7BSM

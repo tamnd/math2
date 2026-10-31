@@ -44,12 +44,50 @@ records:
         - name: Jianshe Yu
           role: author
       date: "2025"
+      msc:
+        - code: 37-02
+          from: zbmath_search
+        - code: 37C79
+          from: zbmath_search
+        - code: 37G40
+          from: zbmath_search
+        - code: 37M20
+          from: zbmath_search
+        - code: 37M21
+          from: zbmath_search
+        - code: 37J06
+          from: zbmath_search
+        - code: 37J51
+          from: zbmath_search
+        - code: 37K06
+          from: zbmath_search
+        - code: 37L20
+          from: zbmath_search
+        - code: 34C14
+          from: zbmath_search
+        - code: 34K04
+          from: zbmath_search
+        - code: 35B06
+          from: zbmath_search
+        - code: 35B07
+          from: zbmath_search
+        - code: 58J70
+          from: zbmath_search
+        - code: 58K70
+          from: zbmath_search
+        - code: 70G65
+          from: zbmath_search
+        - code: 70H33
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2025"
           ids:
             doi: 10.1090/surv/286
+            zbl: "1559.37002"
+            zbl_id: "7941155"
           manifestations:
             - key: m1
               kind: print
@@ -59,6 +97,8 @@ records:
                 isbn:
                     - "9781470479619"
                     - "9781470477134"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: M891DMMNP3
@@ -71,6 +111,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/surv/286
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7941155"
           level: work
       history:
         - op: add

@@ -22,6 +22,8 @@ records:
               date: "2002-04-30"
               ids:
                 isbn: "9780821832769"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9

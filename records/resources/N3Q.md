@@ -17,6 +17,9 @@ records:
         - name: Andrew Tomkins
           role: author
       date: "2026-10-14"
+      msc:
+        - code: 62-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG

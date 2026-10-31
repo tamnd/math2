@@ -27,6 +27,8 @@ records:
                     - "9780821845882"
                     - "9780821874387"
                     - "9781470431518"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W1VWARV4XH

@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9780821849811"
                     - "9781470413217"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: M891DMMNP3
@@ -58,6 +60,9 @@ records:
         - name: Marco Mondelli
           role: author
       date: "2026-09-29"
+      msc:
+        - code: 62-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG

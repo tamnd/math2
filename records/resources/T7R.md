@@ -7,6 +7,9 @@ records:
         - name: Hazar Yueksel
           role: author
       date: "2026-10-06"
+      msc:
+        - code: 94-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG
@@ -66,6 +69,8 @@ records:
                 isbn:
                     - "9781470467289"
                     - "9781470465360"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1

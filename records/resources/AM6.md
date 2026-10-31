@@ -9,6 +9,9 @@ records:
         - name: Rishikesh Gajjala
           role: author
       date: "2026-10-15"
+      msc:
+        - code: 05-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

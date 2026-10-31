@@ -7,6 +7,13 @@ records:
         - name: Johan Larsson
           role: author
       date: "2026-10-12"
+      msc:
+        - code: 49-XX
+          from: arxiv
+        - code: 90-XX
+          from: arxiv
+        - code: 93-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: stat.ML

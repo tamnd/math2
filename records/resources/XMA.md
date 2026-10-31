@@ -32,6 +32,8 @@ records:
                 isbn:
                     - "9783319003207"
                     - "9783319003214"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer International Publishing
@@ -40,6 +42,8 @@ records:
                 isbn:
                     - "9783319119694"
                     - "9783319119700"
+              access:
+                class: record
             - key: m3
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -48,6 +52,8 @@ records:
                 isbn:
                     - "9783642152160"
                     - "9783642152177"
+              access:
+                class: record
             - key: m4
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -56,6 +62,8 @@ records:
                 isbn:
                     - "9783642274602"
                     - "9783642274619"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

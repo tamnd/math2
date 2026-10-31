@@ -11,6 +11,9 @@ records:
         - name: Daniel Reidenbach
           role: author
       date: "2026-10-05"
+      msc:
+        - code: 20-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.FL

@@ -9,6 +9,11 @@ records:
         - name: Theodore Kolokolnikov
           role: author
       date: "2026-09-30"
+      msc:
+        - code: 35-XX
+          from: arxiv
+        - code: 60-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cond-mat.stat-mech

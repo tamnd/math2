@@ -7,6 +7,9 @@ records:
         - name: Misha Verbitsky
           role: author
       date: "1997-12-11"
+      msc:
+        - code: 14-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: alg-geom

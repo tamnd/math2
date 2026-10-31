@@ -11,12 +11,48 @@ records:
         - name: Idun Reiten
           role: author
       date: "1975"
+      msc:
+        - code: 18Gxx
+          from: zbmath_search
+        - code: 14F22
+          from: zbmath_search
+        - code: 13C15
+          from: zbmath_search
+        - code: 13D05
+          from: zbmath_search
+        - code: 13H10
+          from: zbmath_search
+        - code: 16D70
+          from: zbmath_search
+        - code: 16D90
+          from: zbmath_search
+        - code: 16D40
+          from: zbmath_search
+        - code: 16D50
+          from: zbmath_search
+        - code: 16S20
+          from: zbmath_search
+        - code: 18A05
+          from: zbmath_search
+        - code: 18A25
+          from: zbmath_search
+        - code: "18E10"
+          from: zbmath_search
+        - code: 18-02
+          from: zbmath_search
+        - code: 16-02
+          from: zbmath_search
+        - code: 13-02
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1975"
           ids:
             doi: 10.1007/bfb0065404
+            zbl: "0303.18006"
+            zbl_id: "3473879"
           manifestations:
             - key: m1
               kind: print
@@ -26,6 +62,8 @@ records:
                 isbn:
                     - "9783540071594"
                     - "9783540374879"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -38,6 +76,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0065404
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3473879"
           level: work
       history:
         - op: add

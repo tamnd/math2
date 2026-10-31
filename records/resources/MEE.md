@@ -16,6 +16,8 @@ records:
               publisher: IMSc
               ids:
                 nptel: "111106154"
+              access:
+                class: record
       scope:
         value: in
         rule: S6

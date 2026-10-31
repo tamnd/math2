@@ -15,6 +15,11 @@ records:
         - name: Susan Morey
           role: author
       date: "2026-10-15"
+      msc:
+        - code: 13-XX
+          from: arxiv
+        - code: 05-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.AC
@@ -24,9 +29,11 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2026-10-15"
           ids:
             arxiv: "2610.21866"
+            zbl_id: "903214413"
       scope:
         value: in
         rule: S2
@@ -35,6 +42,14 @@ records:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
           native_id: "2610.21866"
+          level: work
+        - source: arxiv_text
+          snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
+          native_id: "2610.21866"
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "903214413"
           level: work
       history:
         - op: add
@@ -53,12 +68,46 @@ records:
         - name: Agnès Sulem
           role: author
       date: "2019"
+      msc:
+        - code: 93-02
+          from: zbmath_search
+        - code: "93E20"
+          from: zbmath_search
+        - code: 60-02
+          from: zbmath_search
+        - code: 60G40
+          from: zbmath_search
+        - code: 60J60
+          from: zbmath_search
+        - code: 60J76
+          from: zbmath_search
+        - code: 60G51
+          from: zbmath_search
+        - code: 60H15
+          from: zbmath_search
+        - code: 49L25
+          from: zbmath_search
+        - code: 49J20
+          from: zbmath_search
+        - code: 91A15
+          from: zbmath_search
+        - code: 91A23
+          from: zbmath_search
+        - code: 91G20
+          from: zbmath_search
+        - code: 91G80
+          from: zbmath_search
+        - code: 90C39
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2019"
           ids:
             doi: 10.1007/978-3-030-02781-0
+            zbl: "1422.93001"
+            zbl_id: "7029565"
           manifestations:
             - key: m1
               kind: print
@@ -68,6 +117,8 @@ records:
                 isbn:
                     - "9783030027797"
                     - "9783030027810"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W0CC03QJC7
@@ -80,6 +131,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-030-02781-0
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7029565"
           level: work
       history:
         - op: add

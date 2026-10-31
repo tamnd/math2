@@ -9,14 +9,28 @@ records:
         - name: Volker Wihstutz
           role: editor
       date: "1986"
+      msc:
+        - code: 60H25
+          from: zbmath_search
+        - code: 34F05
+          from: zbmath_search
+        - code: "93E15"
+          from: zbmath_search
+        - code: 28D05
+          from: zbmath_search
+        - code: 37A99
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1986"
           ids:
             doi:
                 - 10.1007/bfb0076829
                 - 10.1007/bfb0086653
+            zbl: "0599.60061"
+            zbl_id: "3967596"
           manifestations:
             - key: m1
               kind: print
@@ -26,6 +40,8 @@ records:
                 isbn:
                     - "9783540164586"
                     - "9783540397953"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -34,6 +50,8 @@ records:
                 isbn:
                     - "9783540546627"
                     - "9783540464310"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -50,6 +68,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0086653
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3967596"
           level: work
       history:
         - op: add

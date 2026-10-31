@@ -7,12 +7,34 @@ records:
         - name: Iva Stavrov
           role: author
       date: "2020-11-12"
+      msc:
+        - code: 83-01
+          from: zbmath_search
+        - code: 53-01
+          from: zbmath_search
+        - code: 35-01
+          from: zbmath_search
+        - code: 83C05
+          from: zbmath_search
+        - code: 83C15
+          from: zbmath_search
+        - code: 83A05
+          from: zbmath_search
+        - code: 53C05
+          from: zbmath_search
+        - code: 53Z05
+          from: zbmath_search
+        - code: 35Q75
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2020-11-12"
           ids:
             doi: 10.1090/stml/093
+            zbl: "1472.83001"
+            zbl_id: "7314182"
           manifestations:
             - key: m1
               kind: print
@@ -23,6 +45,8 @@ records:
                     - "9781470463137"
                     - "9781470464738"
                     - "9781470456283"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 6RX4VMGQKK
@@ -35,6 +59,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/stml/093
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7314182"
           level: work
       history:
         - op: add

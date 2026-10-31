@@ -9,6 +9,9 @@ records:
         - name: Michel Talagrand
           role: author
       date: "2026-10-06"
+      msc:
+        - code: 60-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.PR

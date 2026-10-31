@@ -9,12 +9,22 @@ records:
         - name: Yakov Eliashberg
           role: author
       date: "2012-12-27"
+      msc:
+        - code: 32Q28
+          from: zbmath_search
+        - code: 53D35
+          from: zbmath_search
+        - code: 53-02
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2012-12-27"
           ids:
             doi: 10.1090/coll/059
+            zbl: "1262.32026"
+            zbl_id: "6054083"
           manifestations:
             - key: m1
               kind: print
@@ -25,6 +35,8 @@ records:
                     - "9780821885338"
                     - "9780821891568"
                     - "9781470415822"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W1VWARV4XH
@@ -37,6 +49,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/coll/059
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6054083"
           level: work
       history:
         - op: add

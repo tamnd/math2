@@ -18,6 +18,8 @@ records:
               publisher: IIT Madras
               ids:
                 nptel: "111106054"
+              access:
+                class: record
       scope:
         value: in
         rule: S6
@@ -66,6 +68,8 @@ records:
                     - "9780821815731"
                     - "9780821886533"
                     - "9781470444402"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9

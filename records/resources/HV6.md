@@ -11,12 +11,40 @@ records:
         - name: M. Graev
           role: author
       date: "2003-09-02"
+      msc:
+        - code: 53C65
+          from: zbmath_search
+        - code: 53-02
+          from: zbmath_search
+        - code: 42A38
+          from: zbmath_search
+        - code: 42B10
+          from: zbmath_search
+        - code: 43A32
+          from: zbmath_search
+        - code: 44A12
+          from: zbmath_search
+        - code: 46F12
+          from: zbmath_search
+        - code: 60D05
+          from: zbmath_search
+        - code: "60E05"
+          from: zbmath_search
+        - code: "60E10"
+          from: zbmath_search
+        - code: 65R10
+          from: zbmath_search
+        - code: 92C55
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2003-09-02"
           ids:
             doi: 10.1090/mmono/220
+            zbl: "1055.53059"
+            zbl_id: "2001570"
           manifestations:
             - key: m1
               kind: print
@@ -27,6 +55,8 @@ records:
                     - "9780821829325"
                     - "9780821898048"
                     - "9781470446444"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9
@@ -39,6 +69,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/mmono/220
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "2001570"
           level: work
       history:
         - op: add

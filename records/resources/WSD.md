@@ -7,12 +7,26 @@ records:
         - name: Norman R. Howes
           role: author
       date: "1995"
+      msc:
+        - code: 54-02
+          from: zbmath_search
+        - code: 28-02
+          from: zbmath_search
+        - code: 26-02
+          from: zbmath_search
+        - code: "46E30"
+          from: zbmath_search
+        - code: 46C05
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1995"
           ids:
             doi: 10.1007/978-1-4612-0833-4
+            zbl: "0853.54002"
+            zbl_id: "785441"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +36,8 @@ records:
                 isbn:
                     - "9780387979861"
                     - "9781461208334"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W0CC03QJC7
@@ -34,6 +50,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4612-0833-4
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "785441"
           level: work
       history:
         - op: add
@@ -50,12 +70,34 @@ records:
         - name: Jacob Korevaar
           role: author
       date: "2004"
+      msc:
+        - code: "40E05"
+          from: zbmath_search
+        - code: 11M45
+          from: zbmath_search
+        - code: 40-02
+          from: zbmath_search
+        - code: 11-02
+          from: zbmath_search
+        - code: 11-03
+          from: zbmath_search
+        - code: 11N05
+          from: zbmath_search
+        - code: 40-03
+          from: zbmath_search
+        - code: 42-02
+          from: zbmath_search
+        - code: "40E20"
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2004"
           ids:
             doi: 10.1007/978-3-662-10225-1
+            zbl: "1056.40002"
+            zbl_id: "2120945"
           manifestations:
             - key: m1
               kind: print
@@ -65,6 +107,8 @@ records:
                 isbn:
                     - "9783642059193"
                     - "9783662102251"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: GQFCNY816R
@@ -77,6 +121,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-662-10225-1
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "2120945"
           level: work
       history:
         - op: add

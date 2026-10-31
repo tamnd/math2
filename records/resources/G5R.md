@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9781470485276"
                     - "9781470476861"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1

@@ -16,6 +16,8 @@ records:
               publisher: IIT Palakkad
               ids:
                 nptel: "111106763"
+              access:
+                class: record
       scope:
         value: in
         rule: S6

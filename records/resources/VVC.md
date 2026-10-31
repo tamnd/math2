@@ -13,6 +13,11 @@ records:
         - name: Massimiliano D. Rosini
           role: author
       date: "2026-10-13"
+      msc:
+        - code: 35-XX
+          from: arxiv
+        - code: 65-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: physics.flu-dyn

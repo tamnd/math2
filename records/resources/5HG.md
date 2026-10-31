@@ -11,6 +11,11 @@ records:
         - name: JAC Weideman
           role: author
       date: "2024-01-22"
+      msc:
+        - code: 26-XX
+          from: arxiv
+        - code: 65-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.CA

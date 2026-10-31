@@ -9,6 +9,13 @@ records:
         - name: Rameshwar Pratap
           role: author
       date: "2021-03-20"
+      msc:
+        - code: 35-XX
+          from: arxiv
+        - code: 47-XX
+          from: arxiv
+        - code: 58-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.CG

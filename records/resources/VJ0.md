@@ -9,6 +9,9 @@ records:
         - name: Kai Ming Ting
           role: author
       date: "2026-08-04"
+      msc:
+        - code: 55-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.CG

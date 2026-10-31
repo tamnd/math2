@@ -9,6 +9,9 @@ records:
         - name: Florian F. Gunsilius
           role: author
       date: "2026-09-30"
+      msc:
+        - code: 62-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: econ.EM

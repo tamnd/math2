@@ -20,6 +20,8 @@ records:
               publisher: IIT Roorkee
               ids:
                 nptel: "111107063"
+              access:
+                class: record
       scope:
         value: in
         rule: S6

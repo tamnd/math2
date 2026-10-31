@@ -9,12 +9,26 @@ records:
         - name: Jeannine Saint Jean Paulin
           role: author
       date: "1999"
+      msc:
+        - code: 35-02
+          from: zbmath_search
+        - code: 35B27
+          from: zbmath_search
+        - code: 74Qxx
+          from: zbmath_search
+        - code: 35B25
+          from: zbmath_search
+        - code: 74A35
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1999"
           ids:
             doi: 10.1007/978-1-4612-2158-6
+            zbl: "0929.35002"
+            zbl_id: "1313468"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +38,8 @@ records:
                 isbn:
                     - "9781461274377"
                     - "9781461221586"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 2M0N86YNGA
@@ -36,6 +52,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4612-2158-6
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "1313468"
           level: work
       history:
         - op: add
@@ -52,12 +72,30 @@ records:
         - name: James J. Callahan
           role: author
       date: "2010"
+      msc:
+        - code: 26-01
+          from: zbmath_search
+        - code: 51-01
+          from: zbmath_search
+        - code: 51M15
+          from: zbmath_search
+        - code: 53A04
+          from: zbmath_search
+        - code: 53A05
+          from: zbmath_search
+        - code: 58C05
+          from: zbmath_search
+        - code: 97I10
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2010"
           ids:
             doi: 10.1007/978-1-4419-7332-0
+            zbl: "1205.26001"
+            zbl_id: "5785123"
           manifestations:
             - key: m1
               kind: print
@@ -67,6 +105,8 @@ records:
                 isbn:
                     - "9781441973313"
                     - "9781441973320"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: NWQC4TW7S9
@@ -79,6 +119,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4419-7332-0
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5785123"
           level: work
       history:
         - op: add

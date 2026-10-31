@@ -13,6 +13,9 @@ records:
         - name: Ashwin Jha
           role: author
       date: "2026-09-28"
+      msc:
+        - code: 05-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.CR

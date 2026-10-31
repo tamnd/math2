@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9780821838808"
                     - "9781470423926"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 20XHFD4A67

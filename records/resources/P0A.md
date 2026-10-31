@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9781461299288"
                     - "9781461299264"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7ME1ABA6H5

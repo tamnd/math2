@@ -9,12 +9,24 @@ records:
         - name: Michael S. Keane
           role: editor
       date: "1976"
+      msc:
+        - code: 00Bxx
+          from: zbmath_search
+        - code: 60-06
+          from: zbmath_search
+        - code: 28D05
+          from: zbmath_search
+        - code: 47A35
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: fr
           date: "1976"
           ids:
             doi: 10.1007/bfb0080167
+            zbl: "0323.00009"
+            zbl_id: "3504853"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +36,8 @@ records:
                 isbn:
                     - "9783540078036"
                     - "9783540382171"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -36,6 +50,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0080167
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3504853"
           level: work
       history:
         - op: add
@@ -54,6 +72,9 @@ records:
         - name: Konstantinos Tsinas
           role: author
       date: "2026-09-24"
+      msc:
+        - code: 05-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.CO
@@ -61,9 +82,11 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2026-09-24"
           ids:
             arxiv: "2609.30410"
+            zbl_id: "903182593"
       scope:
         value: in
         rule: S2
@@ -72,6 +95,14 @@ records:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
           native_id: "2609.30410"
+          level: work
+        - source: arxiv_text
+          snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
+          native_id: "2609.30410"
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "903182593"
           level: work
       history:
         - op: add

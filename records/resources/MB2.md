@@ -11,6 +11,9 @@ records:
         - name: Kuan Yang
           role: author
       date: "2026-10-07"
+      msc:
+        - code: 60-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.DS

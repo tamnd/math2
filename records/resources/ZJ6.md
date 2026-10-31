@@ -11,6 +11,9 @@ records:
         - name: Katharine Turner
           role: author
       date: "2026-10-02"
+      msc:
+        - code: 55-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.CG

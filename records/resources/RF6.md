@@ -36,6 +36,8 @@ records:
                 isbn:
                     - "9783540785453"
                     - "9783540785477"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -79,6 +81,8 @@ records:
                 isbn:
                     - "9781461269687"
                     - "9781461209775"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 2M0N86YNGA

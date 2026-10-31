@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9783030377045"
                     - "9783030377052"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -72,6 +74,8 @@ records:
                     - "9781470421656"
                     - "9780821882757"
                     - "9780821820254"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: CMK1G7XE8B

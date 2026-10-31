@@ -9,6 +9,11 @@ records:
         - name: Supriyo Dutta
           role: author
       date: "2026-09-30"
+      msc:
+        - code: 05-XX
+          from: arxiv
+        - code: 94-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

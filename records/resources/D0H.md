@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9781461299912"
                     - "9781461299899"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: GQFCNY816R

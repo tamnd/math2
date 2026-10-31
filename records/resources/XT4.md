@@ -13,14 +13,30 @@ records:
         - name: Ortwin Wohlrab
           role: author
       date: "1992"
+      msc:
+        - code: 53A10
+          from: zbmath_search
+        - code: 35J60
+          from: zbmath_search
+        - code: 49Q05
+          from: zbmath_search
+        - code: 53-02
+          from: zbmath_search
+        - code: 35-02
+          from: zbmath_search
+        - code: 49-02
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1992"
           ids:
             doi:
                 - 10.1007/978-3-662-02791-2
                 - 10.1007/978-3-662-08776-3
+            zbl: "0777.53012"
+            zbl_id: "108069"
           manifestations:
             - key: m1
               kind: print
@@ -30,6 +46,8 @@ records:
                 isbn:
                     - "9783662027936"
                     - "9783662027912"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -38,6 +56,8 @@ records:
                 isbn:
                     - "9783662087787"
                     - "9783662087763"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: GQFCNY816R
@@ -54,6 +74,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-662-08776-3
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "108069"
           level: work
       history:
         - op: add

@@ -26,6 +26,8 @@ records:
                 isbn:
                     - "9783319008240"
                     - "9783319008257"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

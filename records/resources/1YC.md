@@ -11,12 +11,40 @@ records:
         - name: V. Kirichenko
           role: author
       date: "2010-10-20"
+      msc:
+        - code: 16T05
+          from: zbmath_search
+        - code: 16T10
+          from: zbmath_search
+        - code: 16-02
+          from: zbmath_search
+        - code: 17-02
+          from: zbmath_search
+        - code: 17B01
+          from: zbmath_search
+        - code: 17B30
+          from: zbmath_search
+        - code: 17B37
+          from: zbmath_search
+        - code: 16T30
+          from: zbmath_search
+        - code: 16S38
+          from: zbmath_search
+        - code: 20C30
+          from: zbmath_search
+        - code: "05E05"
+          from: zbmath_search
+        - code: "05E10"
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2010-10-20"
           ids:
             doi: 10.1090/surv/168
+            zbl: "1211.16023"
+            zbl_id: "5814258"
           manifestations:
             - key: m1
               kind: print
@@ -26,6 +54,8 @@ records:
                 isbn:
                     - "9780821852620"
                     - "9781470413958"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: M891DMMNP3
@@ -38,6 +68,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/surv/168
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5814258"
           level: work
       history:
         - op: add

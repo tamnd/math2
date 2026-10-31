@@ -9,6 +9,9 @@ records:
         - name: Kenneth R. Brown
           role: author
       date: "2026-10-07"
+      msc:
+        - code: 94-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

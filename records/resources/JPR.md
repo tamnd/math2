@@ -11,6 +11,13 @@ records:
         - name: Zechao Li
           role: author
       date: "2026-10-13"
+      msc:
+        - code: 49-XX
+          from: arxiv
+        - code: 90-XX
+          from: arxiv
+        - code: 93-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG
@@ -51,6 +58,9 @@ records:
         - name: Shiwei Lan
           role: author
       date: "2026-09-28"
+      msc:
+        - code: 60-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: stat.ML

@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9780821841570"
                     - "9781470423629"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 20XHFD4A67

@@ -7,6 +7,9 @@ records:
         - name: Johannes Hölken
           role: author
       date: "2026-10-01"
+      msc:
+        - code: 81-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: astro-ph.SR

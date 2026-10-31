@@ -7,12 +7,30 @@ records:
         - name: Lars Gårding
           role: author
       date: "1987"
+      msc:
+        - code: 35-02
+          from: zbmath_search
+        - code: 35A27
+          from: zbmath_search
+        - code: 35L05
+          from: zbmath_search
+        - code: 35Q99
+          from: zbmath_search
+        - code: 35A30
+          from: zbmath_search
+        - code: 35L67
+          from: zbmath_search
+        - code: 35A20
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1987"
           ids:
             doi: 10.1007/bfb0073088
+            zbl: "0652.35005"
+            zbl_id: "4063602"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +40,8 @@ records:
                 isbn:
                     - "9783540180012"
                     - "9783540472162"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -34,6 +54,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0073088
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "4063602"
           level: work
       history:
         - op: add

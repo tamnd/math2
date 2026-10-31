@@ -7,12 +7,38 @@ records:
         - name: M. A. Armstrong
           role: author
       date: "1983"
+      msc:
+        - code: 55-01
+          from: zbmath_search
+        - code: 54-01
+          from: zbmath_search
+        - code: 57-01
+          from: zbmath_search
+        - code: 54Axx
+          from: zbmath_search
+        - code: 54Bxx
+          from: zbmath_search
+        - code: 55M20
+          from: zbmath_search
+        - code: 55M10
+          from: zbmath_search
+        - code: 57M10
+          from: zbmath_search
+        - code: 55N99
+          from: zbmath_search
+        - code: 57M05
+          from: zbmath_search
+        - code: 57Q05
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1983"
           ids:
             doi: 10.1007/978-1-4757-1793-8
+            zbl: "0514.55001"
+            zbl_id: "3812514"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +48,8 @@ records:
                 isbn:
                     - "9781441928191"
                     - "9781475717938"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: NWQC4TW7S9
@@ -34,6 +62,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4757-1793-8
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3812514"
           level: work
       history:
         - op: add

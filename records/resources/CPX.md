@@ -7,12 +7,20 @@ records:
         - name: Richard M. Meyer
           role: author
       date: "1979"
+      msc:
+        - code: 00A06
+          from: zbmath_search
+        - code: 00A69
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1979"
           ids:
             doi: 10.1007/978-1-4613-8072-6
+            zbl: "0436.00003"
+            zbl_id: "3679720"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +30,8 @@ records:
                 isbn:
                     - "9780387904504"
                     - "9781461380726"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W0CC03QJC7
@@ -34,6 +44,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4613-8072-6
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3679720"
           level: work
       history:
         - op: add

@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9783031368561"
                     - "9783031368578"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

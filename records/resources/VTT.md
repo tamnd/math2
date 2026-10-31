@@ -11,6 +11,13 @@ records:
         - name: Sebastien Gros
           role: author
       date: "2020-10-27"
+      msc:
+        - code: 49-XX
+          from: arxiv
+        - code: 90-XX
+          from: arxiv
+        - code: 93-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: eess.SY

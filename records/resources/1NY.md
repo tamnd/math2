@@ -15,6 +15,9 @@ records:
         - name: Eric Ma
           role: author
       date: "2026-10-05"
+      msc:
+        - code: 81-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

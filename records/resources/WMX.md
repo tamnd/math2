@@ -15,6 +15,9 @@ records:
         - name: Martin S. Andersen
           role: author
       date: "2026-10-05"
+      msc:
+        - code: 65-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: stat.ML

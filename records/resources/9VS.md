@@ -9,12 +9,26 @@ records:
         - name: Ezra Miller
           role: editor
       date: "2009"
+      msc:
+        - code: 13-06
+          from: zbmath_search
+        - code: 13A30
+          from: zbmath_search
+        - code: 13D02
+          from: zbmath_search
+        - code: 13F55
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2009"
           ids:
             doi: 10.1090/conm/502
+            zbl: "1179.13001"
+            zbl_id: "5652271"
           manifestations:
             - key: m1
               kind: print
@@ -25,6 +39,8 @@ records:
                     - "9780821847589"
                     - "9780821858288"
                     - "9780821881811"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -37,6 +53,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/502
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5652271"
           level: work
       history:
         - op: add

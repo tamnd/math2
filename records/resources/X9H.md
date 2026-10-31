@@ -18,6 +18,8 @@ records:
               publisher: IIT Delhi Delhi Technological University
               ids:
                 nptel: "111102613"
+              access:
+                class: record
       scope:
         value: in
         rule: S6

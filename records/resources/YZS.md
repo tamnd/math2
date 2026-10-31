@@ -3,13 +3,36 @@ records:
     - id: YZS2WF0YXE
       kind: monograph
       title: Number Theory
+      creators:
+        - name: Cohen, Henri
+          role: author
       date: "2007"
+      msc:
+        - code: 11-01
+          from: zbmath_search
+        - code: 11-02
+          from: zbmath_search
+        - code: 11Mxx
+          from: zbmath_search
+        - code: 11Sxx
+          from: zbmath_search
+        - code: 11Dxx
+          from: zbmath_search
+        - code: 11Gxx
+          from: zbmath_search
+        - code: 11B68
+          from: zbmath_search
+        - code: 11J86
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2007"
           ids:
             doi: 10.1007/978-0-387-49923-9
+            zbl: "1119.11002"
+            zbl_id: "5114880"
           manifestations:
             - key: m1
               kind: print
@@ -19,6 +42,8 @@ records:
                 isbn:
                     - "9780387499222"
                     - "9780387499239"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7ME1ABA6H5
@@ -31,6 +56,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-0-387-49923-9
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5114880"
           level: work
       history:
         - op: add
@@ -49,12 +78,26 @@ records:
         - name: Siegfried Echterhoff
           role: author
       date: "2014"
+      msc:
+        - code: 43-02
+          from: zbmath_search
+        - code: 22-02
+          from: zbmath_search
+        - code: 43A80
+          from: zbmath_search
+        - code: 22B05
+          from: zbmath_search
+        - code: 22D25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2014"
           ids:
             doi: 10.1007/978-3-319-05792-7
+            zbl: "1300.43001"
+            zbl_id: "6276063"
           manifestations:
             - key: m1
               kind: print
@@ -64,6 +107,8 @@ records:
                 isbn:
                     - "9783319057910"
                     - "9783319057927"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W0CC03QJC7
@@ -76,6 +121,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-319-05792-7
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6276063"
           level: work
       history:
         - op: add

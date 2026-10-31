@@ -9,6 +9,9 @@ records:
         - name: Xiangyu Wang
           role: author
       date: "2026-09-28"
+      msc:
+        - code: 11-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.NT

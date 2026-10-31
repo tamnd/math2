@@ -7,12 +7,24 @@ records:
         - name: Michael Aschbacher
           role: author
       date: "2021-04-01"
+      msc:
+        - code: 20-02
+          from: zbmath_search
+        - code: 20D05
+          from: zbmath_search
+        - code: 20C20
+          from: zbmath_search
+        - code: 55R35
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2021-04-01"
           ids:
             doi: 10.1090/conm/765
+            zbl: "1514.20004"
+            zbl_id: "7376110"
           manifestations:
             - key: m1
               kind: print
@@ -23,6 +35,8 @@ records:
                     - "9781470456658"
                     - "9781470464219"
                     - "9781470466466"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -35,6 +49,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/765
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7376110"
           level: work
       history:
         - op: add

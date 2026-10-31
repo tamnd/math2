@@ -9,12 +9,22 @@ records:
         - name: Iain Moffatt
           role: author
       date: "2019"
+      msc:
+        - code: 57-01
+          from: zbmath_search
+        - code: 16T25
+          from: zbmath_search
+        - code: 16T05
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2019"
           ids:
             doi: 10.1007/978-3-030-05213-3
+            zbl: "1425.57007"
+            zbl_id: "6999631"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +34,8 @@ records:
                 isbn:
                     - "9783030052126"
                     - "9783030052133"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7A3ZERT8BW
@@ -36,6 +48,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-030-05213-3
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6999631"
           level: work
       history:
         - op: add

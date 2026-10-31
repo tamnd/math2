@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9781489900203"
                     - "9781489900180"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7ME1ABA6H5

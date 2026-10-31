@@ -7,12 +7,32 @@ records:
         - name: Jan H. Bruinier
           role: author
       date: "2002"
+      msc:
+        - code: 11F55
+          from: zbmath_search
+        - code: 14-02
+          from: zbmath_search
+        - code: 11-02
+          from: zbmath_search
+        - code: 11F27
+          from: zbmath_search
+        - code: 11F23
+          from: zbmath_search
+        - code: 11F75
+          from: zbmath_search
+        - code: 14C22
+          from: zbmath_search
+        - code: 14C25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2002"
           ids:
             doi: 10.1007/b83278
+            zbl: "1004.11021"
+            zbl_id: "1749034"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +42,8 @@ records:
                 isbn:
                     - "9783540433200"
                     - "9783540458722"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -34,6 +56,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/b83278
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "1749034"
           level: work
       history:
         - op: add

@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9783642647666"
                     - "9783642612633"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: XGZPMQ7BSM

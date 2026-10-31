@@ -11,12 +11,26 @@ records:
         - name: Juan Rojo
           role: author
       date: "2020-10-21"
+      msc:
+        - code: 57-02
+          from: zbmath_search
+        - code: 53-02
+          from: zbmath_search
+        - code: 55-02
+          from: zbmath_search
+        - code: 30Fxx
+          from: zbmath_search
+        - code: 53Cxx
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2020-10-21"
           ids:
             doi: 10.1090/gsm/208
+            zbl: "1455.57002"
+            zbl_id: "7258505"
           manifestations:
             - key: m1
               kind: print
@@ -28,6 +42,8 @@ records:
                     - "9781470461621"
                     - "9781470462994"
                     - "9781470469344"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: YBEDX3XNVA
@@ -40,6 +56,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/gsm/208
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7258505"
           level: work
       history:
         - op: add

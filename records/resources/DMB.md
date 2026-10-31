@@ -11,12 +11,20 @@ records:
         - name: Dennis Spellman
           role: editor
       date: "2006"
+      msc:
+        - code: 20-06
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2006"
           ids:
             doi: 10.1090/conm/421
+            zbl: "1106.20303"
+            zbl_id: "5124101"
           manifestations:
             - key: m1
               kind: print
@@ -27,6 +35,8 @@ records:
                     - "9780821839850"
                     - "9780821857519"
                     - "9780821881002"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -39,6 +49,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/421
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5124101"
           level: work
       history:
         - op: add
@@ -55,12 +69,28 @@ records:
         - name: D. W. Masser
           role: author
       date: "1975"
+      msc:
+        - code: 11J91
+          from: zbmath_search
+        - code: 11-02
+          from: zbmath_search
+        - code: 14K22
+          from: zbmath_search
+        - code: "33E05"
+          from: zbmath_search
+        - code: 11G15
+          from: zbmath_search
+        - code: 11J17
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1975"
           ids:
             doi: 10.1007/bfb0069432
+            zbl: "0312.10023"
+            zbl_id: "3487543"
           manifestations:
             - key: m1
               kind: print
@@ -70,6 +100,8 @@ records:
                 isbn:
                     - "9783540071365"
                     - "9783540374107"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -82,6 +114,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0069432
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3487543"
           level: work
       history:
         - op: add

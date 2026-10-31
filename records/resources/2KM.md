@@ -7,6 +7,9 @@ records:
         - name: Gautam Kamath
           role: author
       date: "2026-10-08"
+      msc:
+        - code: 94-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.DS

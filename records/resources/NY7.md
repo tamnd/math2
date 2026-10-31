@@ -26,6 +26,8 @@ records:
                 isbn:
                     - "9783642057380"
                     - "9783662067963"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -34,6 +36,8 @@ records:
                 isbn:
                     - "9783642081019"
                     - "9783662067987"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: XGZPMQ7BSM

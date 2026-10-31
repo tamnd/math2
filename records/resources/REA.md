@@ -7,12 +7,30 @@ records:
         - name: Toshio Nishino
           role: author
       date: "2001-03-21"
+      msc:
+        - code: 32-02
+          from: zbmath_search
+        - code: 32D05
+          from: zbmath_search
+        - code: 32Axx
+          from: zbmath_search
+        - code: 32Cxx
+          from: zbmath_search
+        - code: 32Exx
+          from: zbmath_search
+        - code: 32Hxx
+          from: zbmath_search
+        - code: 32Txx
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2001-03-21"
           ids:
             doi: 10.1090/mmono/193
+            zbl: "0972.32001"
+            zbl_id: "1601802"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +40,8 @@ records:
                 isbn:
                     - "9780821808160"
                     - "9781470446079"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9
@@ -34,6 +54,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/mmono/193
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "1601802"
           level: work
       history:
         - op: add
@@ -56,12 +80,22 @@ records:
         - name: Vsevolod A. Solonnikov
           role: editor
       date: "1992"
+      msc:
+        - code: 00B25
+          from: zbmath_search
+        - code: 35-06
+          from: zbmath_search
+        - code: 65-06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1992"
           ids:
             doi: 10.1007/bfb0090329
+            zbl: "0759.00010"
+            zbl_id: "108531"
           manifestations:
             - key: m1
               kind: print
@@ -71,6 +105,8 @@ records:
                 isbn:
                     - "9783540562610"
                     - "9783540474982"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -83,6 +119,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0090329
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "108531"
           level: work
       history:
         - op: add

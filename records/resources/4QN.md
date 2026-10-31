@@ -11,6 +11,9 @@ records:
         - name: Vittorio Giovannetti
           role: author
       date: "2026-10-15"
+      msc:
+        - code: 81-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9780387900360"
                     - "9781461298397"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer New York
@@ -32,6 +34,8 @@ records:
                 isbn:
                     - "9781441931238"
                     - "9781475747218"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7ME1ABA6H5

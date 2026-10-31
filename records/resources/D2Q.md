@@ -27,12 +27,32 @@ records:
         - name: Caryn Werner
           role: author
       date: "2013-02-01"
+      msc:
+        - code: 14-01
+          from: zbmath_search
+        - code: 14A10
+          from: zbmath_search
+        - code: 14H45
+          from: zbmath_search
+        - code: 14H52
+          from: zbmath_search
+        - code: 55N30
+          from: zbmath_search
+        - code: 14H50
+          from: zbmath_search
+        - code: 00A07
+          from: zbmath_search
+        - code: 97G10
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2013-02-01"
           ids:
             doi: 10.1090/stml/066
+            zbl: "1263.14001"
+            zbl_id: "6109713"
           manifestations:
             - key: m1
               kind: print
@@ -43,6 +63,8 @@ records:
                     - "9780821894873"
                     - "9780821894880"
                     - "9780821893968"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 6RX4VMGQKK
@@ -55,6 +77,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/stml/066
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6109713"
           level: work
       history:
         - op: add

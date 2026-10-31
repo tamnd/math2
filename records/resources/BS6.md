@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9783540051817"
                     - "9783540363392"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -72,6 +74,8 @@ records:
                     - "9781470435769"
                     - "9781470447212"
                     - "9781470447229"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
