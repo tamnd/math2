@@ -1,2 +1,2 @@
 # The m2 version that CI uses (spec 20.3). This file is not a release. Change the version in a pull request after each release of tamnd/math2-agent.
-m2: v0.3.1
+m2: v0.6.1
