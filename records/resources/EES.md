@@ -16,10 +16,10 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.2 scope/1
+        by: m2 v0.6.4 scope/1
       catalogue:
         - source: putnam
-          snapshot: blake3:c51e344f67a3ade8fc3de419680e44a65c97f5be18e46adb7c75d54e2cb0e589
+          snapshot: blake3:317d171d8e409d9741a4f33624a74aedbca628bebf057e16b0f4fee2668a9f1f
           native_id: "2009"
           level: work
       history:

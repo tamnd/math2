@@ -14,7 +14,7 @@ records:
         value: deferred
         until: "2027-01-29"
         reason: no test decides the record, and the classifier has no model
-        by: m2 v0.6.2 scope/1
+        by: m2 v0.6.4 scope/1
       catalogue:
         - source: ernst_ibl
           snapshot: blake3:8db21858b770aa92b552cdd5d529aeda51025a4f207340f4e48bf00dcddf1a1b

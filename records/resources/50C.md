@@ -31,7 +31,7 @@ records:
         value: deferred
         until: "2027-01-29"
         reason: no test decides the record, and the classifier has no model
-        by: m2 v0.6.2 scope/1
+        by: m2 v0.6.4 scope/1
       catalogue:
         - source: oyc
           snapshot: blake3:7fcf9e084021b81fdcea155d3c4d98d93489402ef48e9afd379b767e3bd16fac

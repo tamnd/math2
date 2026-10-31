@@ -190,6 +190,7 @@ records:
     - wikidata: Q8014735
       name: William Lowell Putnam Mathematical Competition
       country: US
+      resource: TYDZDDC2MA
     - wikidata: Q805719
       name: Baltic Way
       since: 1990

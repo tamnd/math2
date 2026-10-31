@@ -14,7 +14,7 @@ records:
         value: deferred
         until: "2027-01-29"
         reason: no test decides the record, and the classifier has no model
-        by: m2 v0.6.2 scope/1
+        by: m2 v0.6.4 scope/1
       catalogue:
         - source: open_logic
           snapshot: blake3:a5eb116529d3e799289dd9f7e7530d0d446b3615f5608fe08c668241eee3c765

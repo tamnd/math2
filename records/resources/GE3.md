@@ -29,10 +29,9 @@ records:
               ids:
                 ocw: 18-06-linear-algebra-spring-2010
       scope:
-        value: deferred
-        until: "2027-01-29"
-        reason: no test decides the record, and the classifier has no model
-        by: m2 v0.6.2 scope/1
+        value: in
+        rule: S6
+        by: m2 v0.6.4 scope/1
       catalogue:
         - source: ocw
           snapshot: blake3:ab57e74d727dbbb8cc6f30102b1562b267a6d76a54ffa725885e5e4ddfbb57b8
@@ -46,4 +45,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to deferred
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.4 scope/1
+          note: from deferred to in
 ---

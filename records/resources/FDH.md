@@ -19,10 +19,9 @@ records:
               ids:
                 nptel: "111106054"
       scope:
-        value: deferred
-        until: "2027-01-29"
-        reason: no test decides the record, and the classifier has no model
-        by: m2 v0.6.2 scope/1
+        value: in
+        rule: S6
+        by: m2 v0.6.4 scope/1
       catalogue:
         - source: nptel
           snapshot: blake3:89dc2ec164a0108adbecf0ec8c793929c947e196b164e762035d3fdd89a3f469
@@ -36,6 +35,10 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to deferred
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.4 scope/1
+          note: from deferred to in
     - id: FDHYD6KAWA
       kind: monograph
       title: Linear and Quasi-linear Equations of Parabolic Type
@@ -70,7 +73,7 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.2 scope/1
+        by: m2 v0.6.4 scope/1
       catalogue:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013

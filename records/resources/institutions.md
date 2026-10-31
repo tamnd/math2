@@ -203716,6 +203716,7 @@ records:
         url: https://ocw.mit.edu/search/?d=Mathematics
         format: ocw
         terms: CC BY-NC-SA 4.0
+        math: "18."
       tier: I1
     - name: NPTEL
       country: IN
@@ -203724,6 +203725,7 @@ records:
         url: https://nptel.ac.in/courses
         format: nptel
         terms: to read (RQ10)
+        math: '*'
       tier: I1
     - name: Open Yale Courses
       country: US

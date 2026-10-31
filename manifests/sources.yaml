@@ -439,6 +439,9 @@ sources:
       - url: https://kskedlaya.org/putnam-archive/
         hash: blake3:c51e344f67a3ade8fc3de419680e44a65c97f5be18e46adb7c75d54e2cb0e589
         date: "2026-10-31"
+      - url: https://kskedlaya.org/putnam-archive/
+        hash: blake3:317d171d8e409d9741a4f33624a74aedbca628bebf057e16b0f4fee2668a9f1f
+        date: "2026-10-31"
     cadence: yearly
   - id: springer-series
     name: The book series of mathematics of Springer, through Crossref

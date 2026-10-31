@@ -14,7 +14,7 @@ records:
         value: deferred
         until: "2027-01-29"
         reason: no test decides the record, and the classifier has no model
-        by: m2 v0.6.2 scope/1
+        by: m2 v0.6.4 scope/1
       catalogue:
         - source: lebl_scv
           snapshot: blake3:674137eabf02760c9e8dafdbe3e64bc7279562f175304f952eef3b8d1ef7eee8
