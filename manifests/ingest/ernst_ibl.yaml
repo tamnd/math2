@@ -1,0 +1,8 @@
+# The import manifest of ernst_ibl. m2 ingest writes this file. Run m2 ingest ernst_ibl -snapshot blake3:8db21858b770aa92b552cdd5d529aeda51025a4f207340f4e48bf00dcddf1a1b to make the same records again.
+source: ernst_ibl
+adapter: textbook/1
+snapshot: blake3:8db21858b770aa92b552cdd5d529aeda51025a4f207340f4e48bf00dcddf1a1b
+records: 648
+hash: blake3:ac189cf54bb710a8a664135407ca15066de9521ef8ddc8793a47ce783bada2fe
+classes:
+  open: 648

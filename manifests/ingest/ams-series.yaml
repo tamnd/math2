@@ -1,0 +1,8 @@
+# The import manifest of ams-series. m2 ingest writes this file. Run m2 ingest ams-series -snapshot blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013 to make the same records again.
+source: ams-series
+adapter: ams-series/1
+snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
+records: 2209
+hash: blake3:940e62a3f6b5587e38d498aa322e95f79b84a9fc2abe7a433dfbf7e11240e606
+classes:
+  record: 2209

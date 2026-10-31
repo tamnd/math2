@@ -1,0 +1,8 @@
+# The import manifest of levin_dmoi. m2 ingest writes this file. Run m2 ingest levin_dmoi -snapshot blake3:6398698676f8cb7838a62d09b46b1a619d3f8d6f8fb7efd5eeeacf5ac0ad1bb6 to make the same records again.
+source: levin_dmoi
+adapter: textbook/1
+snapshot: blake3:6398698676f8cb7838a62d09b46b1a619d3f8d6f8fb7efd5eeeacf5ac0ad1bb6
+records: 950
+hash: blake3:1b3cc6d93ba0be9c4642534cf80299648a69918928d47719066b770f6fc71f9e
+classes:
+  open: 950

@@ -1,0 +1,8 @@
+# The import manifest of putnam. m2 ingest writes this file. Run m2 ingest putnam -snapshot blake3:317d171d8e409d9741a4f33624a74aedbca628bebf057e16b0f4fee2668a9f1f to make the same records again.
+source: putnam
+adapter: putnam/1
+snapshot: blake3:317d171d8e409d9741a4f33624a74aedbca628bebf057e16b0f4fee2668a9f1f
+records: 534
+hash: blake3:ea28e12ffd933f44e184f68c793268f1be9c38b4956ca1337bcc6025674a5897
+classes:
+  record: 534

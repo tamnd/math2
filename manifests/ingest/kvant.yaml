@@ -1,0 +1,8 @@
+# The import manifest of kvant. m2 ingest writes this file. Run m2 ingest kvant -snapshot blake3:9ef7ec326c8e38c2cc1957ddca07480f15b4e9ef49d8059191fc4a1c78c7cd39 to make the same records again.
+source: kvant
+adapter: kvant/1
+snapshot: blake3:9ef7ec326c8e38c2cc1957ddca07480f15b4e9ef49d8059191fc4a1c78c7cd39
+records: 3342
+hash: blake3:f621ce596051bdf82a1b40e115bbd1f54484faf83f585699291a20c54ff0a4f5
+classes:
+  record: 3342

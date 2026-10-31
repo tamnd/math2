@@ -1,0 +1,62 @@
+---
+records:
+    - id: 3YA72PMNQT
+      kind: monograph
+      title: Rational Points on Elliptic Curves
+      creators:
+        - name: Joseph H. Silverman
+          role: author
+        - name: John Tate
+          role: author
+      date: "1992"
+      expressions:
+        - key: e1
+          kind: edition
+          date: "1992"
+          ids:
+            doi:
+                - 10.1007/978-1-4757-4252-7
+                - 10.1007/978-3-319-18588-0
+          manifestations:
+            - key: m1
+              kind: print
+              publisher: Springer New York
+              date: "1992"
+              ids:
+                isbn:
+                    - "9781441931016"
+                    - "9781475742527"
+            - key: m2
+              kind: print
+              publisher: Springer International Publishing
+              date: "2015"
+              ids:
+                isbn:
+                    - "9783319185873"
+                    - "9783319185880"
+      relations:
+        - kind: part_of
+          to: NWQC4TW7S9
+          source: cluster/1
+      scope:
+        value: in
+        rule: S4
+        by: m2 v0.6.4 scope/1
+      catalogue:
+        - source: springer-series
+          snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
+          native_id: 10.1007/978-1-4757-4252-7
+          level: work
+        - source: springer-series
+          snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
+          native_id: 10.1007/978-3-319-18588-0
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.2 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.2 scope/1
+          note: to in
+---

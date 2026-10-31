@@ -1,0 +1,46 @@
+---
+records:
+    - id: STK6GJKMC0
+      kind: monograph
+      title: 'Linear elliptic differential systems and eigenvalue problems: The Johns Hopkins University, Baltimore Md, March – May 1965'
+      creators:
+        - name: Gaetano Fichera
+          role: author
+      date: "1965"
+      expressions:
+        - key: e1
+          kind: edition
+          date: "1965"
+          ids:
+            doi: 10.1007/bfb0079959
+          manifestations:
+            - key: m1
+              kind: print
+              publisher: Springer Berlin Heidelberg
+              date: "1965"
+              ids:
+                isbn:
+                    - "9783540033516"
+                    - "9783540371342"
+      relations:
+        - kind: part_of
+          to: MYK049V6DA
+          source: cluster/1
+      scope:
+        value: in
+        rule: S4
+        by: m2 v0.6.4 scope/1
+      catalogue:
+        - source: springer-series
+          snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
+          native_id: 10.1007/bfb0079959
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.2 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.2 scope/1
+          note: to in
+---

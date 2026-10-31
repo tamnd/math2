@@ -1,0 +1,98 @@
+---
+records:
+    - id: HDXFGA4RV4
+      kind: edited-volume
+      title: Perspectives in Nonlinear Partial Differential Equations
+      creators:
+        - name: Henri Berestycki
+          role: editor
+        - name: Michiel Bertsch
+          role: editor
+        - name: Felix E. Browder
+          role: editor
+        - name: Louis Nirenberg
+          role: editor
+        - name: Lambertus A. Peletier
+          role: editor
+        - name: Laurent Véron
+          role: editor
+      date: "2007"
+      expressions:
+        - key: e1
+          kind: edition
+          date: "2007"
+          ids:
+            doi: 10.1090/conm/446
+          manifestations:
+            - key: m1
+              kind: print
+              publisher: American Mathematical Society
+              date: "2007"
+              ids:
+                isbn:
+                    - "9780821841907"
+                    - "9780821857755"
+                    - "9780821881255"
+      relations:
+        - kind: part_of
+          to: VAEN3CBGT1
+          source: cluster/1
+      scope:
+        value: in
+        rule: S4
+        by: m2 v0.6.4 scope/1
+      catalogue:
+        - source: ams-series
+          snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
+          native_id: 10.1090/conm/446
+          level: work
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.2 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.2 scope/1
+          note: to in
+    - id: HDXYBF0DMW
+      kind: course
+      title: Matrix Computation and its applications
+      creators:
+        - name: Mani Mehra
+          role: instructor
+        - name: Vivek Kumar Aggarwal
+          role: instructor
+      ids:
+        course: 049tgcd06:111102152
+      expressions:
+        - key: e1
+          kind: edition
+          language: en
+          manifestations:
+            - key: m1
+              kind: page
+              publisher: IIT Delhi
+              ids:
+                nptel: "111102152"
+      scope:
+        value: in
+        rule: S6
+        by: m2 v0.6.4 scope/1
+      catalogue:
+        - source: nptel
+          snapshot: blake3:89dc2ec164a0108adbecf0ec8c793929c947e196b164e762035d3fdd89a3f469
+          native_id: "111102152"
+          level: manifestation
+      history:
+        - op: add
+          at: "2026-10-31"
+          by: m2 v0.6.2 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.2 scope/1
+          note: to deferred
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.4 scope/1
+          note: from deferred to in
+---
