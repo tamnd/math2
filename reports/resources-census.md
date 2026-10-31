@@ -7,7 +7,7 @@ The census applies the scope tests S1 to S7 (RS9.2) to each record. A record tha
 | Catalogue | Records | Weight | In | Border | Out | Deferred | Total |
 |---|--:|--:|--:|--:|--:|--:|--:|
 | arxiv | 794887 | 1.00 | 692860 | 68185 | 33842 | 0 | 794887 |
-| crossref | 10000 | 18827.07 | 0 | 0 | 130415103 | 57855582 | 188270685 |
+| crossref | 10000 | 18827.07 | 0 | 0 | 0 | 188270685 | 188270685 |
 | datacite | 10000 | 107.80 | 73949 | 2372 | 3018 | 998634 | 1077973 |
 | doab | 449 | 1.00 | 0 | 0 | 0 | 449 | 449 |
 | doaj | 10152 | 17.29 | 175553 | 0 | 0 | 0 | 175553 |
@@ -28,10 +28,10 @@ The census applies the scope tests S1 to S7 (RS9.2) to each record. A record tha
 | Catalogue | kind group | In | Border | Out | Deferred | Total |
 |---|---|--:|--:|--:|--:|--:|
 | arxiv | article | 692860 | 68185 | 33842 | 0 | 794887 |
-| crossref | article | 0 | 0 | 124879945 | 15099309 | 139979254 |
-| crossref | book | 0 | 0 | 188271 | 1958015 | 2146286 |
-| crossref | other | 0 | 0 | 5328060 | 38840242 | 44168303 |
-| crossref | report-notes | 0 | 0 | 18827 | 847218 | 866045 |
+| crossref | article | 0 | 0 | 0 | 139979254 | 139979254 |
+| crossref | book | 0 | 0 | 0 | 2146286 | 2146286 |
+| crossref | other | 0 | 0 | 0 | 44168303 | 44168303 |
+| crossref | report-notes | 0 | 0 | 0 | 866045 | 866045 |
 | crossref | thesis | 0 | 0 | 0 | 1110797 | 1110797 |
 | datacite | article | 59289 | 1401 | 2911 | 183363 | 246964 |
 | datacite | book | 0 | 0 | 0 | 10456 | 10456 |
@@ -75,7 +75,7 @@ The census applies the scope tests S1 to S7 (RS9.2) to each record. A record tha
 | Catalogue | MSC2 | In | Border | Out | Deferred | Total |
 |---|---|--:|--:|--:|--:|--:|
 | arxiv | none | 692860 | 68185 | 33842 | 0 | 794887 |
-| crossref | none | 0 | 0 | 130415103 | 57855582 | 188270685 |
+| crossref | none | 0 | 0 | 0 | 188270685 | 188270685 |
 | datacite | 00 | 3665 | 0 | 0 | 0 | 3665 |
 | datacite | 01 | 216 | 0 | 0 | 0 | 216 |
 | datacite | 03 | 7438 | 0 | 0 | 0 | 7438 |
@@ -219,29 +219,29 @@ The census applies the scope tests S1 to S7 (RS9.2) to each record. A record tha
 | crossref | 1580s | 0 | 0 | 0 | 18827 | 18827 |
 | crossref | 1690s | 0 | 0 | 0 | 18827 | 18827 |
 | crossref | 1780s | 0 | 0 | 0 | 18827 | 18827 |
-| crossref | 1790s | 0 | 0 | 18827 | 0 | 18827 |
-| crossref | 1820s | 0 | 0 | 37654 | 0 | 37654 |
-| crossref | 1830s | 0 | 0 | 37654 | 56481 | 94135 |
-| crossref | 1840s | 0 | 0 | 56481 | 75308 | 131789 |
-| crossref | 1850s | 0 | 0 | 131789 | 0 | 131789 |
-| crossref | 1860s | 0 | 0 | 75308 | 0 | 75308 |
-| crossref | 1870s | 0 | 0 | 169444 | 18827 | 188271 |
-| crossref | 1880s | 0 | 0 | 376541 | 56481 | 433023 |
-| crossref | 1890s | 0 | 0 | 376541 | 18827 | 395368 |
-| crossref | 1900s | 0 | 0 | 414196 | 188271 | 602466 |
-| crossref | 1910s | 0 | 0 | 715429 | 94135 | 809564 |
-| crossref | 1920s | 0 | 0 | 847218 | 94135 | 941353 |
-| crossref | 1930s | 0 | 0 | 1223759 | 94135 | 1317895 |
-| crossref | 1940s | 0 | 0 | 960180 | 75308 | 1035489 |
-| crossref | 1950s | 0 | 0 | 1958015 | 207098 | 2165113 |
-| crossref | 1960s | 0 | 0 | 2993504 | 583639 | 3577143 |
-| crossref | 1970s | 0 | 0 | 5591639 | 583639 | 6175278 |
-| crossref | 1980s | 0 | 0 | 7097805 | 1035489 | 8133294 |
-| crossref | 1990s | 0 | 0 | 11635128 | 1995669 | 13630798 |
-| crossref | 2000s | 0 | 0 | 19147129 | 5911700 | 25058828 |
-| crossref | 2010s | 0 | 0 | 34246438 | 13122467 | 47368904 |
-| crossref | 2020s | 0 | 0 | 42097325 | 20352061 | 62449386 |
-| crossref | unknown | 0 | 0 | 207098 | 13235429 | 13442527 |
+| crossref | 1790s | 0 | 0 | 0 | 18827 | 18827 |
+| crossref | 1820s | 0 | 0 | 0 | 37654 | 37654 |
+| crossref | 1830s | 0 | 0 | 0 | 94135 | 94135 |
+| crossref | 1840s | 0 | 0 | 0 | 131789 | 131789 |
+| crossref | 1850s | 0 | 0 | 0 | 131789 | 131789 |
+| crossref | 1860s | 0 | 0 | 0 | 75308 | 75308 |
+| crossref | 1870s | 0 | 0 | 0 | 188271 | 188271 |
+| crossref | 1880s | 0 | 0 | 0 | 433023 | 433023 |
+| crossref | 1890s | 0 | 0 | 0 | 395368 | 395368 |
+| crossref | 1900s | 0 | 0 | 0 | 602466 | 602466 |
+| crossref | 1910s | 0 | 0 | 0 | 809564 | 809564 |
+| crossref | 1920s | 0 | 0 | 0 | 941353 | 941353 |
+| crossref | 1930s | 0 | 0 | 0 | 1317895 | 1317895 |
+| crossref | 1940s | 0 | 0 | 0 | 1035489 | 1035489 |
+| crossref | 1950s | 0 | 0 | 0 | 2165113 | 2165113 |
+| crossref | 1960s | 0 | 0 | 0 | 3577143 | 3577143 |
+| crossref | 1970s | 0 | 0 | 0 | 6175278 | 6175278 |
+| crossref | 1980s | 0 | 0 | 0 | 8133294 | 8133294 |
+| crossref | 1990s | 0 | 0 | 0 | 13630798 | 13630798 |
+| crossref | 2000s | 0 | 0 | 0 | 25058828 | 25058828 |
+| crossref | 2010s | 0 | 0 | 0 | 47368904 | 47368904 |
+| crossref | 2020s | 0 | 0 | 0 | 62449386 | 62449386 |
+| crossref | unknown | 0 | 0 | 0 | 13442527 | 13442527 |
 | datacite | 1740s | 0 | 0 | 0 | 108 | 108 |
 | datacite | 1770s | 0 | 0 | 0 | 108 | 108 |
 | datacite | 1780s | 0 | 0 | 0 | 108 | 108 |
@@ -590,7 +590,7 @@ The census applies the scope tests S1 to S7 (RS9.2) to each record. A record tha
 | Catalogue | language | In | Border | Out | Deferred | Total |
 |---|---|--:|--:|--:|--:|--:|
 | arxiv | und | 692860 | 68185 | 33842 | 0 | 794887 |
-| crossref | und | 0 | 0 | 130415103 | 57855582 | 188270685 |
+| crossref | und | 0 | 0 | 0 | 188270685 | 188270685 |
 | datacite | ang | 0 | 0 | 0 | 323 | 323 |
 | datacite | ar | 0 | 0 | 0 | 216 | 216 |
 | datacite | cs | 0 | 0 | 0 | 216 | 216 |
@@ -1025,7 +1025,7 @@ Each row gives the share of the sample of in records of A that has a match in B.
 | loc | openlibrary | records | 2175 | 101 | 0.978 |
 | loc | semanticscholar | records | 2175 | 0 | 0.000 |
 | loc | wikidata | records | 2175 | 1 | 0.000 |
-| loc | zbmath | records | 2175 | 4 | 0.750 |
+| loc | zbmath | lookup | 756 | 230 | 0.304 |
 | numdam | arxiv | records | 4521 | 459 | 0.102 |
 | numdam | crossref | lookup | 2024 | 2023 | 1.000 |
 | numdam | datacite | records | 4521 | 0 | 0.000 |
@@ -1085,7 +1085,7 @@ Each row gives the share of the sample of in records of A that has a match in B.
 | openlibrary | openalex | records | 2757 | 0 | 0.000 |
 | openlibrary | semanticscholar | records | 2757 | 1 | 0.314 |
 | openlibrary | wikidata | records | 2757 | 2 | 0.001 |
-| openlibrary | zbmath | records | 2757 | 6 | 0.888 |
+| openlibrary | zbmath | lookup | 2147 | 385 | 0.179 |
 | semanticscholar | arxiv | records | 0 | 0 | 0.000 |
 | semanticscholar | crossref | records | 0 | 0 | 0.000 |
 | semanticscholar | datacite | records | 0 | 0 | 0.000 |
@@ -1134,7 +1134,7 @@ Each row gives the share of the sample of in records of A that has a match in B.
 
 ## Estimates
 
-The pairs that are taken as independent are: arxiv and zbmath; hal and zbmath; openalex and zbmath; zbmath and openalex; zbmath and hal; zbmath and crossref. Each row gives the Chapman estimate of the in works of the stratum, its 95% interval by a bootstrap of 1000 rounds over the samples of A, of B and of the match, and the recall of each catalogue. The count m is the in works of A that are in works of B. A lookup counts for m only when B is a catalogue of mathematics alone (zbmath), and else the sample of A is matched against the in records of B. A stratum needs 20 records of the sample of A and 7 matches for an estimate.
+The pairs that are taken as independent are: arxiv and zbmath; hal and zbmath; openalex and zbmath; zbmath and openalex; zbmath and hal; zbmath and crossref; openlibrary and zbmath; loc and zbmath. Each row gives the Chapman estimate of the in works of the stratum, its 95% interval by a bootstrap of 1000 rounds over the samples of A, of B and of the match, and the recall of each catalogue. The count m is the in works of A that are in works of B. A lookup counts for m only when B is a catalogue of mathematics alone (zbmath), and else the sample of A is matched against the in records of B. A stratum needs 20 records of the sample of A and 7 matches for an estimate.
 
 | A | B | Kind group | Decade | n A | n B | m | Estimate | Low | High | Recall A | Recall B |
 |---|---|---|---|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -1155,6 +1155,12 @@ The pairs that are taken as independent are: arxiv and zbmath; hal and zbmath; o
 | arxiv | zbmath | article | 2020s | 300760 | 793195 | 277755 | 858891 | 819092 | 897333 | 0.350 | 0.924 |
 | hal | zbmath | article | 2020s | 23798 | 793195 | 17977 | 1050020 | 988473 | 1114226 | 0.023 | 0.755 |
 | openalex | zbmath | article | 2020s | 928094 | 793195 | 305324 | 2411073 | 2208881 | 2644552 | 0.385 | 0.329 |
+| openlibrary | zbmath | book | 1990s | 9475 | 37271 | 291 | 1209552 | 761702 | 2797086 | 0.008 | 0.031 |
+| openlibrary | zbmath | book | 2000s | 11517 | 99507 | 2137 | 536076 | 437959 | 684051 | 0.021 | 0.186 |
+| loc | zbmath | book | 2000s | 2712 | 99507 | 363 | 741662 | 516193 | 1256293 | 0.004 | 0.134 |
+| openlibrary | zbmath | book | 2010s | 9454 | 98601 | 4136 | 225351 | 189696 | 264599 | 0.042 | 0.438 |
+| loc | zbmath | book | 2010s | 3869 | 98601 | 2106 | 181105 | 155139 | 210088 | 0.021 | 0.544 |
+| openlibrary | zbmath | book | 2020s | 2421 | 49136 | 1411 | 84284 | 65235 | 106781 | 0.029 | 0.583 |
 | openalex | zbmath | other | 1970s | 36178 | 52186 | 5388 | 350356 | 196152 | 858232 | 0.103 | 0.149 |
 | openalex | zbmath | other | 1980s | 62151 | 77554 | 5782 | 833511 | 489700 | 2361913 | 0.075 | 0.093 |
 | openalex | zbmath | other | 2000s | 185062 | 143431 | 7462 | 3556740 | 2169718 | 10231099 | 0.052 | 0.040 |
@@ -1245,10 +1251,6 @@ These strata have in records, but no independent pair has enough of them for an 
 | book | 1960s |
 | book | 1970s |
 | book | 1980s |
-| book | 1990s |
-| book | 2000s |
-| book | 2010s |
-| book | 2020s |
 | book | unknown |
 | other | 0620s |
 | other | 0820s |
