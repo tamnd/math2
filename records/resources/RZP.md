@@ -6,9 +6,15 @@ records:
       creators:
         - name: Evan Chen
           role: author
+      date: "2026-10-23"
+      msc:
+        - code: 00-01
+          from: napkin
       expressions:
         - key: e1
           kind: edition
+          language: en
+          date: "2026-10-23"
           structure: RZP28ERRZV/e1.json
       scope:
         value: in

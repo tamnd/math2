@@ -6,9 +6,15 @@ records:
       creators:
         - name: Jiří Lebl
           role: author
+      date: "2026-07-12"
+      msc:
+        - code: 34-01
+          from: lebl_diffyqs
       expressions:
         - key: e1
           kind: edition
+          language: en
+          date: "2026-07-12"
           structure: E9HS8K3A52/e1.json
       scope:
         value: in

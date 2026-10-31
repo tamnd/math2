@@ -6,9 +6,15 @@ records:
       creators:
         - name: The Open Logic Project
           role: author
+      date: "2026-08-14"
+      msc:
+        - code: 03-01
+          from: open_logic
       expressions:
         - key: e1
           kind: edition
+          language: en
+          date: "2026-08-14"
           structure: PKGMM3P5QY/e1.json
       scope:
         value: in

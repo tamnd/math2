@@ -6,9 +6,15 @@ records:
       creators:
         - name: Jiří Lebl
           role: author
+      date: "2026-09-28"
+      msc:
+        - code: 32-01
+          from: lebl_scv
       expressions:
         - key: e1
           kind: edition
+          language: en
+          date: "2026-09-28"
           structure: VNMV985MXX/e1.json
       scope:
         value: in

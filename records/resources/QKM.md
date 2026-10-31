@@ -8,9 +8,15 @@ records:
           role: author
         - name: William T. Trotter
           role: author
+      date: "2026-10-26"
+      msc:
+        - code: 05-01
+          from: applied_combinatorics
       expressions:
         - key: e1
           kind: edition
+          language: en
+          date: "2026-10-26"
           structure: QKM9DD2H56/e1.json
       scope:
         value: in
