@@ -21,6 +21,10 @@ records:
           date: "2026-10-07"
           ids:
             arxiv: "2610.09945"
+      scope:
+        value: in
+        rule: S2
+        by: m2 v0.6.7 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -30,6 +34,10 @@ records:
         - op: add
           at: "2026-10-31"
           by: m2 v0.6.7 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.7 scope/1
+          note: to in
     - id: V7VHTPMTFE
       kind: edited-volume
       title: Analyzable Functions and Applications
@@ -64,7 +72,7 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.4 scope/1
+        by: m2 v0.6.7 scope/1
       catalogue:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013

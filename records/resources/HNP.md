@@ -19,7 +19,7 @@ records:
       scope:
         value: in
         rule: S6
-        by: m2 v0.6.4 scope/1
+        by: m2 v0.6.7 scope/1
       catalogue:
         - source: nptel
           snapshot: blake3:89dc2ec164a0108adbecf0ec8c793929c947e196b164e762035d3fdd89a3f469
@@ -53,7 +53,7 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.4 scope/1
+        by: m2 v0.6.7 scope/1
       catalogue:
         - source: kvant
           snapshot: blake3:9ef7ec326c8e38c2cc1957ddca07480f15b4e9ef49d8059191fc4a1c78c7cd39

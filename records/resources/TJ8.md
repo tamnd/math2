@@ -16,7 +16,7 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.4 scope/1
+        by: m2 v0.6.7 scope/1
       catalogue:
         - source: bmo
           snapshot: blake3:68eb2251465334659a3c67c12bc8e13877594a5a11510cf9a756eaf0f62db81c
@@ -47,6 +47,10 @@ records:
           date: "2026-10-10"
           ids:
             arxiv: "2610.18894"
+      scope:
+        value: in
+        rule: S2
+        by: m2 v0.6.7 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -56,6 +60,10 @@ records:
         - op: add
           at: "2026-10-31"
           by: m2 v0.6.7 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.7 scope/1
+          note: to in
     - id: TJ8CGE97Q6
       kind: preprint
       title: 'SemRD-V2X: Closure-Guided Communication with Bounded Inference for Cooperative Perception'
@@ -85,6 +93,10 @@ records:
           date: "2026-09-28"
           ids:
             arxiv: "2609.34353"
+      scope:
+        value: border
+        rule: border-arxiv
+        by: m2 v0.6.7 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -94,4 +106,8 @@ records:
         - op: add
           at: "2026-10-31"
           by: m2 v0.6.7 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.7 scope/1
+          note: to border
 ---

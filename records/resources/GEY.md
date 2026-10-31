@@ -21,6 +21,10 @@ records:
           date: "2026-09-29"
           ids:
             arxiv: "2609.37747"
+      scope:
+        value: in
+        rule: S2
+        by: m2 v0.6.7 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -30,6 +34,10 @@ records:
         - op: add
           at: "2026-10-31"
           by: m2 v0.6.7 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.7 scope/1
+          note: to in
     - id: GEYKEPZ8WF
       kind: preprint
       title: Coupling of IGA and Peridynamics for Air-Blast Fluid-Structure Interaction Using an Immersed Approach
@@ -57,6 +65,10 @@ records:
           date: "2021-08-25"
           ids:
             arxiv: "2108.11265"
+      scope:
+        value: in
+        rule: S2
+        by: m2 v0.6.7 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -66,4 +78,8 @@ records:
         - op: add
           at: "2026-10-31"
           by: m2 v0.6.7 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.7 scope/1
+          note: to in
 ---

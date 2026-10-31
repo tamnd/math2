@@ -13,10 +13,9 @@ records:
           kind: edition
           structure: QKM9DD2H56/e1.json
       scope:
-        value: deferred
-        until: "2027-01-29"
-        reason: no test decides the record, and the classifier has no model
-        by: m2 v0.6.4 scope/1
+        value: in
+        rule: S5
+        by: m2 v0.6.7 scope/1
       catalogue:
         - source: applied_combinatorics
           snapshot: blake3:3dd09e0855ace7e7dbf04351de5c4cb134197b76059771e3dc68579ba7bd7415
@@ -30,4 +29,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to deferred
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.7 scope/1
+          note: from deferred to in
 ---

@@ -21,7 +21,7 @@ records:
       scope:
         value: in
         rule: S6
-        by: m2 v0.6.4 scope/1
+        by: m2 v0.6.7 scope/1
       catalogue:
         - source: nptel
           snapshot: blake3:89dc2ec164a0108adbecf0ec8c793929c947e196b164e762035d3fdd89a3f469
@@ -61,6 +61,10 @@ records:
           ids:
             arxiv: "2209.01576"
             doi: 10.1007/s40840-022-01415-9
+      scope:
+        value: in
+        rule: S2
+        by: m2 v0.6.7 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -70,4 +74,8 @@ records:
         - op: add
           at: "2026-10-31"
           by: m2 v0.6.7 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.7 scope/1
+          note: to in
 ---
