@@ -4,9 +4,9 @@
 
 The research layer is complete only when three numbers are zero: the papers in scope with no state, the census gaps, and the open rows (corpus arxiv AX1.5). The open count alone can be zero while many papers are not read.
 
-- Census: 2026-10-31T05:44:00.9484445Z
+- Census: 2026-10-31T09:07:17.148524707Z
 - Papers in scope: 141717
-- Papers with no state: 137958
+- Papers with no state: 137957
 - Census gaps: 0
 - Rows: 85661, of which 736 are open
 - Nodes: 0
@@ -154,7 +154,7 @@ The area of a row is its first MSC code at two digits. The census gives the area
 | math.HO | 833 | 819 | 0 | 0 | 0 | 0 | - | - | no |
 | math.KT | 302 | 298 | 0 | 0 | 0 | 0 | - | - | no |
 | math.LO | 2295 | 2226 | 0 | 0 | 0 | 0 | - | - | no |
-| math.MG | 1157 | 1102 | 0 | 0 | 0 | 0 | - | - | no |
+| math.MG | 1157 | 1101 | 0 | 0 | 0 | 0 | - | - | no |
 | math.NA | 8184 | 8019 | 0 | 0 | 0 | 0 | - | - | no |
 | math.NT | 7447 | 7203 | 0 | 0 | 0 | 0 | - | - | no |
 | math.OA | 1115 | 1059 | 0 | 0 | 0 | 0 | - | - | no |
