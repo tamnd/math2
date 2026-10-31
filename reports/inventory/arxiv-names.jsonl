@@ -1,42 +1,21 @@
 {"mention":"ax://paper/2312.05005#IW2I","row":"WDG0R692M5","target":"VTYSQCEDHJ","name":"Node"}
-{"mention":"ax://paper/2506.08233#7VXM","row":"6NY7Q1R63E","target":"HKQCK38283","name":"Computable function"}
-{"mention":"ax://paper/2507.13548#4H1M","row":"D4HMNQKYE8","target":"AVQXBRDF46","name":"Artin’s Conjecture on Primitive Roots"}
-{"mention":"ax://paper/2609.10840#JESE","row":"R4PEKCA5WB","target":"SJ8VCRYXCE","name":"Law of large numbers"}
 {"mention":"ax://paper/2609.27495#QUOU","row":"8Y1TH67J8X","target":"2GPBTCAKQX","name":"chain rule"}
-{"mention":"ax://paper/2609.33108#DS2O","row":"WBXVA6G1ZB","target":"V7HQF2P9VV","name":"Vizing's theorem"}
 {"mention":"ax://paper/2609.33442#QPC2","row":"G8PK2HPCK2","target":"G8TSNDAB74","name":"Degree"}
 {"mention":"ax://paper/2609.33442#YXNN","row":"YS75CTFAX2","target":"VN8XB61PXR","name":"Concavity"}
+{"mention":"ax://paper/2609.38030#CK24","row":"1D2XF8FZ8X","target":"V7V6V9QHH2","name":"Euler equations"}
 {"mention":"ax://paper/2609.38061#I7SE","row":"9335ZVMJCK","target":"QP283EAC6F","name":"Molecule"}
 {"mention":"ax://paper/2610.02392#YB4U","row":"E2S3ZP1S1T","target":"R9B7AA76XW","name":"Trace"}
 {"mention":"ax://paper/2610.02963#D4F6","row":"DKECD7RWSA","target":"ZGCN26SQRZ","name":"Cauchy Condensation Test"}
 {"mention":"ax://paper/2610.03090#ORCZ","row":"EJQ548ZCCB","target":"VTYSQCEDHJ","name":"Node"}
-{"mention":"ax://paper/2610.06724#W65W","row":"EK0ETNMDF5","target":"DVK3Y6B35V","name":"Cauchy--Binet formula"}
 {"mention":"ax://paper/2610.06742#1PKB","row":"RXJCJ4JWWY","target":"4WFT3NWY82","name":"Converse"}
-{"mention":"ax://paper/2610.08253#1231","row":"A3FP9XA9BK","target":"VDY2S7Q844","name":"Existence Theorem"}
-{"mention":"ax://paper/2610.10206#UYFK","row":"V2PWYVRGWC","target":"S6N1Y2JYXY","name":"Milnor conjecture"}
-{"mention":"ax://paper/2610.10964#ZFHT","row":"DGVD8PN7FW","target":"Z99BYAE8VS","name":"Planar graph"}
-{"mention":"ax://paper/2610.11517#04XJ","row":"154998RKJ5","target":"KRMVCYHJDR","name":"Markov's inequality"}
-{"mention":"ax://paper/2610.11677#A2FP","row":"R9K488FR61","target":"E86R4MCHCV","name":"Weight function"}
+{"mention":"ax://paper/2610.08610#HE4W","row":"P0ZZVQZSRY","target":"81XSTJYXNF","name":"\\Bezout's theorem"}
 {"mention":"ax://paper/2610.11960#AYWX","row":"PFYFXX41Q8","target":"4WFT3NWY82","name":"Converse"}
-{"mention":"ax://paper/2610.12489#0IFH","row":"MER7GEPVS7","target":"J7VT962JES","name":"Bilinear form"}
+{"mention":"ax://paper/2610.12277#WDNC","row":"5DD8FN6HT2","target":"C4NEXYXV9A","name":"Wirtinger's inequality"}
 {"mention":"ax://paper/2610.14154#M983","row":"H0Q1RZE17J","target":"R4VHXG6HMJ","name":"Length"}
-{"mention":"ax://paper/2610.14373#4DYG","row":"CZJ19PZB9Z","target":"BNR65BYGS9","name":"Reconstruction conjecture"}
-{"mention":"ax://paper/2610.15099#BLM0","row":"4RH8NR2P4G","target":"G70JC1WRZX","name":"nerve theorem"}
-{"mention":"ax://paper/2610.16267#QCRQ","row":"TT7BVX5H09","target":"AKX0TBJF42","name":"Jordan's Lemma"}
-{"mention":"ax://paper/2610.16886#KZG4","row":"46FBVMXNRX","target":"6TYQBDB2BN","name":"Young's Inequality"}
-{"mention":"ax://paper/2610.17004#LYB4","row":"ADVJQE11GN","target":"H68R0K8BHY","name":"Tangent bundle"}
 {"mention":"ax://paper/2610.17129#7K88","row":"5AGGH7J19S","target":"2GPBTCAKQX","name":"Chain Rule"}
-{"mention":"ax://paper/2610.17137#46ST","row":"BGFFH0Z9G1","target":"MVN4P28CY5","name":"Prime ideal"}
 {"mention":"ax://paper/2610.17137#GX2W","row":"C5JWEHQ94N","target":"7K2V431N0Y","name":"Ideal"}
-{"mention":"ax://paper/2610.17137#QUNE","row":"XAK6GVGW0N","target":"ZCJMB03987","name":"Principal ideal"}
-{"mention":"ax://paper/2610.18154#NC98","row":"NG2C83S09X","target":"ZBXYAWS6VX","name":"Fundamental theorem of Galois theory"}
+{"mention":"ax://paper/2610.17565#EC1E","row":"ZW5BNX01TJ","target":"1M72DYVPT0","name":"Structure Theorem"}
 {"mention":"ax://paper/2610.18803#C693","row":"Q23RPQVENX","target":"GHHRSFD0WY","name":"Gaussian integral"}
-{"mention":"ax://paper/2610.18907#IROB","row":"AHEC9TH23W","target":"1P2WM7G285","name":"Bochner's theorem"}
 {"mention":"ax://paper/2610.20489#ZRA3","row":"Q30F2RJ2YZ","target":"B3SY21H4YD","name":"The contour"}
 {"mention":"ax://paper/2610.21775#ZM9U","row":"WM9W0K8Z9H","target":"2GPBTCAKQX","name":"Chain rule"}
-{"mention":"ax://paper/2610.21781#30A1","row":"C8FS2V5KST","target":"76JVZ5TXXV","name":"Pointwise convergence"}
-{"mention":"ax://paper/2610.21781#G2FT","row":"YRENSSY7SQ","target":"2SH3G397TB","name":"Upper-bound"}
-{"mention":"ax://paper/2610.21781#RVNL","row":"EKK9D07N7P","target":"2SH3G397TB","name":"Upper-bound"}
-{"mention":"ax://paper/2610.21781#UWWE","row":"QZ155QKHAY","target":"V4WK0FZ9KV","name":"Maximum principle"}
-{"mention":"ax://paper/2610.21781#V28Y","row":"M22Q91D7RN","target":"CY99NM59T8","name":"Path connectedness"}
 {"mention":"ax://paper/math/0003117#FLZM","row":"FVTPWETM8W","target":"TAA6JJYQ4M","name":"Depth"}

@@ -1,1 +1,1 @@
-{"id":"T0SV62EHPN","mentions":["ax://paper/2610.05179#4RQ6"],"kind":"unknown","layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}]}
+{"id":"T0SV62EHPN","mentions":["ax://paper/2610.05179#4RQ6"],"kind":"definition","msc":["05-XX","14-XX","53-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.5.6"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}]}
