@@ -10,9 +10,14 @@ sources:
     home: https://activecalculus.org
     licence: CC-BY-SA-4.0
     class: open
+    licence_read:
+      at: https://github.com/active-calculus/active-calculus-single-mbx/tree/e597daa657ba5ec0953157aa8c44834dceb63eb2
+      "on": "2026-10-31"
+      by: Claude Code, for tamnd
     authored: human
     channel: git
     attribution: Matthew Boelkins, David Austin and Steven Schlicker, Active Calculus, https://activecalculus.org, CC BY-SA 4.0
+    approved_by: tamnd
     snapshots:
       - url: https://github.com/active-calculus/active-calculus-single-mbx/archive/e597daa657ba5ec0953157aa8c44834dceb63eb2.tar.gz
         hash: blake3:8343b800c382a8607181dd04c97811689dac790e549145c484d79b48d4afebd3
@@ -23,7 +28,14 @@ sources:
     home: https://www.crossref.org
     licence: LicenseRef-facts
     class: record
+    licence_read:
+      at: https://www.crossref.org/documentation/retrieve-metadata/rest-api/
+      "on": "2026-10-31"
+      by: Claude Code, for tamnd
+    authored: human
+    channel: api
     attribution: Crossref, https://www.crossref.org
+    approved_by: tamnd
     snapshots:
       - url: https://api.crossref.org/works
         hash: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
@@ -37,9 +49,14 @@ sources:
     home: https://appliedcombinatorics.org/appcomb/
     licence: CC-BY-SA-4.0
     class: open
+    licence_read:
+      at: https://github.com/mitchkeller/applied-combinatorics/tree/ebd95d6bd59e23c633c65cf560bcb93efa912aae
+      "on": "2026-10-31"
+      by: Claude Code, for tamnd
     authored: human
     channel: git
     attribution: Mitchel T. Keller and William T. Trotter, Applied Combinatorics, https://appliedcombinatorics.org/appcomb/, CC BY-SA 4.0
+    approved_by: tamnd
     snapshots:
       - url: https://github.com/mitchkeller/applied-combinatorics/archive/ebd95d6bd59e23c633c65cf560bcb93efa912aae.tar.gz
         hash: blake3:3dd09e0855ace7e7dbf04351de5c4cb134197b76059771e3dc68579ba7bd7415
@@ -77,9 +94,14 @@ sources:
     home: https://understandinglinearalgebra.org
     licence: CC-BY-4.0
     class: open
+    licence_read:
+      at: https://github.com/davidaustinm/ula/tree/b6ea263ef23703072b7007485bb7a2d89c5f399b
+      "on": "2026-10-31"
+      by: Claude Code, for tamnd
     authored: human
     channel: git
     attribution: David Austin, Understanding Linear Algebra, https://understandinglinearalgebra.org, CC BY 4.0
+    approved_by: tamnd
     snapshots:
       - url: https://github.com/davidaustinm/ula/archive/b6ea263ef23703072b7007485bb7a2d89c5f399b.tar.gz
         hash: blake3:8a2b90065562b3686f23f8886e6cb9b5135325465346c13d4c1a356e7bfbd43d
@@ -91,12 +113,18 @@ sources:
     home: https://bmos.ukmt.org.uk/
     licence: LicenseRef-facts
     class: record
+    licence_read:
+      at: https://bmos.ukmt.org.uk/
+      "on": "2026-10-31"
+      by: Claude Code, for tamnd
+    authored: human
     channel: page
     terms:
       robots: n/a (robots.txt gives 404)
       rate: one page for each fetch
       ai: none stated
     attribution: British Mathematical Olympiad, https://bmos.ukmt.org.uk/
+    approved_by: tamnd
     snapshots:
       - url: https://bmos.ukmt.org.uk/home/bmo.shtml
         hash: blake3:68eb2251465334659a3c67c12bc8e13877594a5a11510cf9a756eaf0f62db81c
@@ -110,9 +138,14 @@ sources:
     home: https://github.com/dcernst/IBL-IntroToProof
     licence: CC-BY-SA-4.0
     class: open
+    licence_read:
+      at: https://github.com/dcernst/IBL-IntroToProof/tree/2315fb79ee07cd541dcb7de084d3ca9921dfae74
+      "on": "2026-10-31"
+      by: Claude Code, for tamnd
     authored: human
     channel: git
     attribution: Dana C. Ernst, An Introduction to Proof via Inquiry-Based Learning, https://github.com/dcernst/IBL-IntroToProof, CC BY-SA 4.0
+    approved_by: tamnd
     snapshots:
       - url: https://github.com/dcernst/IBL-IntroToProof/archive/2315fb79ee07cd541dcb7de084d3ca9921dfae74.tar.gz
         hash: blake3:8db21858b770aa92b552cdd5d529aeda51025a4f207340f4e48bf00dcddf1a1b
@@ -126,9 +159,14 @@ sources:
     home: https://homotopytypetheory.org/book/
     licence: CC-BY-SA-3.0
     class: open
+    licence_read:
+      at: https://homotopytypetheory.org/book/
+      "on": "2026-10-31"
+      by: Claude Code, for tamnd
     authored: human
     channel: git
     attribution: 'The Univalent Foundations Program, Homotopy Type Theory: Univalent Foundations of Mathematics, https://homotopytypetheory.org/book/, CC BY-SA 3.0'
+    approved_by: tamnd
     snapshots:
       - url: https://github.com/HoTT/book/archive/578b85cc8d586b1677ec4335148adeb443057d24.tar.gz
         hash: blake3:0aae8d8b41ac4860ce271abf7dde72685cd653e53d0c5ddaf735fb97422b8e39
@@ -140,12 +178,18 @@ sources:
     home: https://www.imo-official.org/
     licence: LicenseRef-facts
     class: record
+    licence_read:
+      at: https://www.imo-official.org/
+      "on": "2026-10-31"
+      by: Claude Code, for tamnd
+    authored: human
     channel: page
     terms:
       robots: no Disallow rule; the file holds only the comment of the Cloudflare content signals
       rate: one page each 5 s
       ai: none stated
     attribution: International Mathematical Olympiad, https://www.imo-official.org/
+    approved_by: tamnd
     snapshots:
       - url: https://www.imo-official.org/editions/
         hash: blake3:c564548c1a7c5bfe4e71cf81d61c599a9d4016d698feff8fb0bc9beb0e2f88f9
@@ -157,12 +201,18 @@ sources:
     home: https://www.komal.hu/
     licence: LicenseRef-facts
     class: record
+    licence_read:
+      at: https://www.komal.hu/
+      "on": "2026-10-31"
+      by: Claude Code, for tamnd
+    authored: human
     channel: page
     terms:
       robots: disallows /dir1 and /dir2/ only
       rate: one page each 5 s
       ai: none stated
     attribution: KöMaL, Mathematical and Physical Journal for Secondary Schools, https://www.komal.hu/
+    approved_by: tamnd
     snapshots:
       - url: https://www.komal.hu/feladat?a=honap&t=mat&l=en
         hash: blake3:3658e660acc064da2c1a894c81d6f74fed1bee98fd8e0b9c468109c4c7e40452
@@ -174,12 +224,18 @@ sources:
     home: https://www.kvant.digital/
     licence: LicenseRef-facts
     class: record
+    licence_read:
+      at: https://www.kvant.digital/
+      "on": "2026-10-31"
+      by: Claude Code, for tamnd
+    authored: human
     channel: page
     terms:
       robots: disallows /search, /view and the query parameters; allows /issues/ and /problems/
       rate: one page each 5 s
       ai: none stated
     attribution: Kvant, https://www.kvant.digital/
+    approved_by: tamnd
     snapshots:
       - url: https://www.kvant.digital/
         hash: blake3:9ef7ec326c8e38c2cc1957ddca07480f15b4e9ef49d8059191fc4a1c78c7cd39
@@ -194,9 +250,14 @@ sources:
     licence: CC-BY-NC-SA-4.0 OR CC-BY-SA-4.0
     election: CC-BY-SA-4.0
     class: open
+    licence_read:
+      at: https://www.jirka.org/diffyqs/
+      "on": "2026-10-31"
+      by: Claude Code, for tamnd
     authored: human
     channel: git
     attribution: 'Jiří Lebl, Notes on Diffy Qs: Differential Equations for Engineers, https://www.jirka.org/diffyqs/, CC BY-SA 4.0'
+    approved_by: tamnd
     snapshots:
       - url: https://github.com/jirilebl/diffyqs/archive/658bcae9fb710f3fae2c9da4ca4524ce157453af.tar.gz
         hash: blake3:cd3508463f1db1f683a5e1b4daec4dbf379ec75846dda7604f47eba93a55974b
@@ -211,9 +272,14 @@ sources:
     licence: CC-BY-NC-SA-4.0 OR CC-BY-SA-4.0
     election: CC-BY-SA-4.0
     class: open
+    licence_read:
+      at: https://www.jirka.org/ra/
+      "on": "2026-10-31"
+      by: Claude Code, for tamnd
     authored: human
     channel: git
     attribution: 'Jiří Lebl, Basic Analysis I and II: Introduction to Real Analysis, https://www.jirka.org/ra/, CC BY-SA 4.0'
+    approved_by: tamnd
     snapshots:
       - url: https://github.com/jirilebl/ra/archive/e21ec524ca7d54f800c693b948020c188d21d01f.tar.gz
         hash: blake3:9a849eb7eac50d985ae65dc62f4057c2ab19a4a845a0b42a1cbc083703244eaf
@@ -228,9 +294,14 @@ sources:
     licence: CC-BY-NC-SA-4.0 OR CC-BY-SA-4.0
     election: CC-BY-SA-4.0
     class: open
+    licence_read:
+      at: https://www.jirka.org/scv/
+      "on": "2026-10-31"
+      by: Claude Code, for tamnd
     authored: human
     channel: git
     attribution: Jiří Lebl, Tasty Bits of Several Complex Variables, https://www.jirka.org/scv/, CC BY-SA 4.0
+    approved_by: tamnd
     snapshots:
       - url: https://github.com/jirilebl/scv/archive/78d7d41554695c389552c301398803d4633b9208.tar.gz
         hash: blake3:674137eabf02760c9e8dafdbe3e64bc7279562f175304f952eef3b8d1ef7eee8
@@ -244,10 +315,15 @@ sources:
     home: https://discrete.openmathbooks.org/dmoi3.html
     licence: CC-BY-SA-4.0
     class: open
+    licence_read:
+      at: https://github.com/oscarlevin/discrete-book/tree/a8e4949bc45daf100930c1182983778f56ab689f
+      "on": "2026-10-31"
+      by: Claude Code, for tamnd
     authored: human
     edition: 3rd edition
     channel: git
     attribution: 'Oscar Levin, Discrete Mathematics: An Open Introduction, 3rd edition, https://discrete.openmathbooks.org/dmoi3.html, CC BY-SA 4.0'
+    approved_by: tamnd
     snapshots:
       - url: https://github.com/oscarlevin/discrete-book/archive/a8e4949bc45daf100930c1182983778f56ab689f.tar.gz
         hash: blake3:6398698676f8cb7838a62d09b46b1a619d3f8d6f8fb7efd5eeeacf5ac0ad1bb6
@@ -357,9 +433,14 @@ sources:
     home: https://web.evanchen.cc/napkin.html
     licence: CC-BY-SA-4.0
     class: open
+    licence_read:
+      at: https://github.com/vEnhance/napkin/blob/2bdf25b3bc8c9e9d1043bcbc495bff4c7d10f586/LICENSE.md
+      "on": "2026-10-31"
+      by: Claude Code, for tamnd
     authored: human
     channel: git
     attribution: Evan Chen, An Infinitely Large Napkin, https://web.evanchen.cc/napkin.html, CC BY-SA 4.0
+    approved_by: tamnd
     snapshots:
       - url: https://github.com/vEnhance/napkin/archive/2bdf25b3bc8c9e9d1043bcbc495bff4c7d10f586.tar.gz
         hash: blake3:4ed6a8681091f1982528026e06219208d001f9656231cf988d38e9d48cb24fc5
@@ -371,10 +452,16 @@ sources:
     home: https://nptel.ac.in
     licence: LicenseRef-facts
     class: record
+    licence_read:
+      at: https://nptel.ac.in
+      "on": "2026-10-31"
+      by: Claude Code, for tamnd
+    authored: human
     channel: page
     terms:
       robots: allows all paths
     attribution: NPTEL, https://nptel.ac.in
+    approved_by: tamnd
     snapshots:
       - url: https://nptel.ac.in/courses/__data.json
         hash: blake3:89dc2ec164a0108adbecf0ec8c793929c947e196b164e762035d3fdd89a3f469
@@ -385,10 +472,16 @@ sources:
     home: https://ocw.mit.edu
     licence: CC-BY-NC-SA-4.0
     class: share-alike-nc
+    licence_read:
+      at: https://ocw.mit.edu/pages/privacy-and-terms-of-use/
+      "on": "2026-10-31"
+      by: Claude Code, for tamnd
+    authored: human
     channel: bulk
     terms:
       ai: training is allowed with attribution, the models must be non-commercial, and derivative models must be released under BY-NC-SA (https://ocw.mit.edu/pages/privacy-and-terms-of-use/)
     attribution: MIT OpenCourseWare, https://ocw.mit.edu, CC BY-NC-SA 4.0
+    approved_by: tamnd
     snapshots:
       - url: https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/18.06-spring-2010.zip
         hash: blake3:ab57e74d727dbbb8cc6f30102b1562b267a6d76a54ffa725885e5e4ddfbb57b8
@@ -401,9 +494,14 @@ sources:
     home: https://openlogicproject.org
     licence: CC-BY-4.0
     class: open
+    licence_read:
+      at: https://github.com/OpenLogicProject/OpenLogic/tree/1e960beff9ed7835bf3e3f1335e21af3439cd107
+      "on": "2026-10-31"
+      by: Claude Code, for tamnd
     authored: human
     channel: git
     attribution: The Open Logic Project, The Open Logic Text, https://openlogicproject.org, CC BY 4.0
+    approved_by: tamnd
     snapshots:
       - url: https://github.com/OpenLogicProject/OpenLogic/archive/1e960beff9ed7835bf3e3f1335e21af3439cd107.tar.gz
         hash: blake3:a5eb116529d3e799289dd9f7e7530d0d446b3615f5608fe08c668241eee3c765
@@ -415,10 +513,16 @@ sources:
     home: https://oyc.yale.edu
     licence: CC-BY-NC-SA-3.0
     class: record
+    licence_read:
+      at: https://oyc.yale.edu/terms
+      "on": "2026-10-31"
+      by: Claude Code, for tamnd
+    authored: human
     channel: page
     terms:
       robots: allows /courses and the course pages
     attribution: 'Yale University: Open Yale Courses, https://oyc.yale.edu, CC BY-NC-SA 3.0'
+    approved_by: tamnd
     snapshots:
       - url: https://oyc.yale.edu/courses
         hash: blake3:7fcf9e084021b81fdcea155d3c4d98d93489402ef48e9afd379b767e3bd16fac
@@ -429,12 +533,18 @@ sources:
     home: https://kskedlaya.org/putnam-archive/
     licence: LicenseRef-facts
     class: record
+    licence_read:
+      at: https://kskedlaya.org/putnam-archive/
+      "on": "2026-10-31"
+      by: Claude Code, for tamnd
+    authored: human
     channel: page
     terms:
       robots: disallows /papers/, /photos/ and *.jpg; the index has the robots meta nofollow, so only the index is read
       rate: one page for each fetch
       ai: none stated
     attribution: The William Lowell Putnam Mathematical Competition archive, https://kskedlaya.org/putnam-archive/
+    approved_by: tamnd
     snapshots:
       - url: https://kskedlaya.org/putnam-archive/
         hash: blake3:c51e344f67a3ade8fc3de419680e44a65c97f5be18e46adb7c75d54e2cb0e589
@@ -448,7 +558,14 @@ sources:
     home: https://www.crossref.org
     licence: LicenseRef-facts
     class: record
+    licence_read:
+      at: https://www.crossref.org/documentation/retrieve-metadata/rest-api/
+      "on": "2026-10-31"
+      by: Claude Code, for tamnd
+    authored: human
+    channel: api
     attribution: Crossref, https://www.crossref.org
+    approved_by: tamnd
     snapshots:
       - url: https://api.crossref.org/works
         hash: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
