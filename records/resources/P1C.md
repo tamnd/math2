@@ -6,9 +6,17 @@ records:
       creators:
         - name: Dana C. Ernst
           role: author
+      date: "2026-09-17"
+      msc:
+        - code: "97E50"
+          from: ernst_ibl
+        - code: 03-01
+          from: ernst_ibl
       expressions:
         - key: e1
           kind: edition
+          language: en
+          date: "2026-09-17"
           structure: P1C114YBXG/e1.json
       scope:
         value: in
