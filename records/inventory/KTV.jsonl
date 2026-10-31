@@ -1,1 +1,2 @@
 {"id":"KTVETH3GF0","mentions":["m2://rec/wikidata/Q13166107#1"],"kind":"unknown","name":"z-axis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"KTVYWGNT4M","mentions":["m2://rec/napkin/tex/linalg/dual-trace.tex#proposition-1#1"],"kind":"statement","name":"Basis of $V \\otimes W$","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

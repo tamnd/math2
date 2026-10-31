@@ -1,0 +1,3 @@
+{"id":"4GK7M2RFFH","mentions":["m2://rec/ernst_ibl/MAAPressVersion/MoreInduction.tex#theorem-10#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
+{"id":"4GKEN57D6W","mentions":["m2://rec/applied_combinatorics/index/5.4.2/clique#1"],"kind":"concept","name":"clique","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
+{"id":"4GKJ1N7H5F","mentions":["m2://rec/lebl_ra/ch-der.tex#thm:mvt#1"],"kind":"statement","name":"Mean value theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

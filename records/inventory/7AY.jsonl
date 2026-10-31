@@ -1,3 +1,4 @@
 {"id":"7AYD2BYQGT","mentions":["ax://paper/2610.01915#QY12"],"kind":"example","msc":["46-XX","47-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.12"}]}
+{"id":"7AYJB089WH","mentions":["m2://rec/napkin/tex/set-theory/CH.tex#proof-1#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
 {"id":"7AYSVF8WX5","mentions":["m2://rec/wikidata/Q2940415#1"],"kind":"unknown","name":"trimagic square","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"7AYVNHTMH8","mentions":["m2://rec/wikidata/Q842172#1"],"kind":"concept","name":"Ulam spiral","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

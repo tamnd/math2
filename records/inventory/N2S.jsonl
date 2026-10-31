@@ -1,1 +1,2 @@
 {"id":"N2SSFQ257V","mentions":["ax://paper/2610.10973#AHAY"],"kind":"unknown","msc":["05-XX","94-XX"],"layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.3"}],"proofs":["ax://paper/2610.10973#ZTA4"]}
+{"id":"N2SZ1ZAX55","mentions":["m2://rec/hott_book/logic.tex#thm:prop-minusonetype#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

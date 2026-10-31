@@ -1,1 +1,2 @@
 {"id":"70WDSDQA67","mentions":["m2://rec/wikidata/Q123561960#1"],"kind":"statement","name":"Griffiths' theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"70WSNV30MB","mentions":["m2://rec/open_logic/content/normal-modal-logic/tableaux/completeness.tex#proof-2#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

@@ -1,2 +1,4 @@
+{"id":"9QW172C7GD","mentions":["m2://rec/lebl_scv/scv.tex#exercise-62#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
 {"id":"9QWB34D4K4","mentions":["m2://rec/wikidata/Q55813744#1"],"kind":"unknown","name":"Boris Tsygan","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"9QWKM25W0T","mentions":["m2://rec/wikidata/Q85850206#1"],"kind":"unknown","name":"applied category theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9QWMPYX7X2","mentions":["m2://rec/napkin/tex/calculus/p-adic.tex#dproblem-2#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

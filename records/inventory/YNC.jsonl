@@ -1,0 +1,3 @@
+{"id":"YNCDGFARRW","mentions":["ax://paper/2609.29554#J8ND"],"kind":"unknown","name":"The machine matters on the CPU too; \\OzII clearly wins with AMX-INT8","msc":["65-XX"],"layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
+{"id":"YNCJBPC4RB","mentions":["m2://rec/hott_book/reals.tex#proof-38#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
+{"id":"YNCMPKDCX1","mentions":["m2://rec/lebl_scv/scv.tex#proof-44#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

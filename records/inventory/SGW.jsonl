@@ -1,1 +1,2 @@
 {"id":"SGWAP6RKVC","mentions":["m2://rec/mathlib_1000/Q379048#1","m2://rec/thousand_plus/Q379048#1","m2://rec/wikidata/Q379048#1"],"kind":"statement","name":"Riemann–Roch theorem","msc":["14-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"SGWAXQRMRJ","mentions":["m2://rec/lebl_scv/index/2.6/behnke-stein-theorem#1"],"kind":"concept","name":"Behnke--Stein theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

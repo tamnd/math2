@@ -1,1 +1,2 @@
 {"id":"C53SRAQA48","mentions":["m2://rec/mathlib_1000/Q954210#1","m2://rec/thousand_plus/Q954210#1"],"kind":"statement","name":"Savitch's theorem","msc":["68-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"C53XQDR4FH","mentions":["m2://rec/lebl_diffyqs/ch-fourier-and-pde.tex#example-10#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

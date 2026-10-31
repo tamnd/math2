@@ -1,1 +1,2 @@
 {"id":"2P8MSN7BMR","mentions":["ax://paper/2610.16386#9U43"],"kind":"example","msc":["55-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
+{"id":"2P8XQF9C7F","mentions":["m2://rec/lebl_ra/ch-several-vars-ders.tex#proof-5#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

@@ -1,1 +1,2 @@
+{"id":"TBK588QCTC","mentions":["m2://rec/lebl_diffyqs/index/4.7/stiff-problem#1"],"kind":"concept","name":"stiff problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
 {"id":"TBK5HK7Y66","mentions":["m2://rec/mathlib_1000/Q8063120#1","m2://rec/thousand_plus/Q8063120#1"],"kind":"statement","name":"ZJ theorem","msc":["20-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

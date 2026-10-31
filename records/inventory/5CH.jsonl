@@ -1,3 +1,4 @@
 {"id":"5CHF2GN31M","mentions":["m2://rec/wikidata/Q331623#1"],"kind":"unknown","name":"Curtis Callan","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"5CHPAWXK91","mentions":["m2://rec/wikidata/Q17149634#1"],"kind":"unknown","name":"matrix product state","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"5CHRGRC6YV","mentions":["m2://rec/lebl_diffyqs/ch-systems.tex#exercise-60#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
 {"id":"5CHYKBPHYW","mentions":["m2://rec/wikidata/Q10492887#1"],"kind":"unknown","name":"exact differential form","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

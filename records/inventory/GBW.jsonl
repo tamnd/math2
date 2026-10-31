@@ -1,1 +1,4 @@
+{"id":"GBWA0HJBRZ","mentions":["m2://rec/lebl_scv/scv.tex#exercise-286#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
 {"id":"GBWATET2WY","mentions":["m2://rec/mathlib_1000/Q6701653#1","m2://rec/thousand_plus/Q6701653#1"],"kind":"statement","name":"Lukacs's proportion-sum independence theorem","msc":["60-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"GBWETEC42A","mentions":["m2://rec/napkin/tex/set-theory/ordinal.tex#example-7#1"],"kind":"example","name":"Ordinal multiplication is not commutative","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
+{"id":"GBWHVKMYKJ","mentions":["m2://rec/hott_book/index/1.7/type-dependent-pair#1"],"kind":"concept","name":"type, dependent pair","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

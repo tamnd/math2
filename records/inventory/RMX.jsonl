@@ -1,3 +1,5 @@
+{"id":"RMX06A7Z4N","mentions":["m2://rec/napkin/tex/linalg/fourier.tex#proof-3#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
+{"id":"RMX2J1QN76","mentions":["m2://rec/applied_combinatorics/source/s_posets_exercises.ptx#exercise-6#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
 {"id":"RMX5A1H4E3","mentions":["ax://paper/2609.34923#X1FY"],"kind":"statement","msc":["53-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
 {"id":"RMXGQCPYEE","mentions":["m2://rec/wikidata/Q682#1"],"kind":"definition","name":"sulfur","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"RMXMJKXD9T","mentions":["m2://rec/wikidata/Q4240628#1"],"kind":"unknown","name":"Minkowski Sausage","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

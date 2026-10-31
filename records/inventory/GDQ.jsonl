@@ -1,2 +1,3 @@
 {"id":"GDQ3SNSHR3","mentions":["m2://rec/wikidata/Q30242895#1"],"kind":"unknown","name":"binary operator","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"GDQ5NXSW9N","mentions":["m2://rec/wikidata/Q5257890#1"],"kind":"statement","name":"Denjoy–Young–Saks theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"GDQAXV4MMY","mentions":["m2://rec/lebl_diffyqs/index/10.9.3/undetermined-coefficients-for-second-order-systems#1"],"kind":"concept","name":"undetermined coefficients, for second-order systems","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

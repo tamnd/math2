@@ -1,3 +1,4 @@
+{"id":"RM918YK8N0","mentions":["m2://rec/napkin/tex/homology/excision.tex#proof-3#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
 {"id":"RM93NFY930","mentions":["m2://rec/wikidata/Q1937853#1"],"kind":"unknown","name":"Pollard's p − 1 algorithm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"RM9F6Y0TT1","mentions":["m2://rec/wikidata/Q7578698#1"],"kind":"unknown","name":"split link","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"RM9MCD6FDV","mentions":["ax://paper/2610.06033#72BR"],"kind":"conjecture","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.10"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}]}

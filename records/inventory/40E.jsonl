@@ -1,1 +1,2 @@
 {"id":"40E9W4D1V4","mentions":["m2://rec/wikidata/Q1128#1"],"kind":"definition","name":"radium","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"40EJM206R8","mentions":["m2://rec/hott_book/index/B.2/initial-sigma-frame#1"],"kind":"concept","name":"initial, $\\sigma$-frame","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

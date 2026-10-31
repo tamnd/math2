@@ -1,1 +1,3 @@
+{"id":"Z0637FHPS9","mentions":["m2://rec/hott_book/index/1.5/function-extensionality#1"],"kind":"concept","name":"function extensionality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
+{"id":"Z06GWG6K5K","mentions":["m2://rec/hott_book/index/u1.u5/set-theory-zermelo-fraenkel#1"],"kind":"concept","name":"set theory, Zermelo--Fraenkel","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
 {"id":"Z06R5ZHNX1","mentions":["m2://rec/wikidata/Q20524281#1"],"kind":"unknown","name":"isosceles right triangle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

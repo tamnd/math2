@@ -1,1 +1,3 @@
 {"id":"MPH83JX0WA","mentions":["m2://rec/wikidata/Q135439181#1"],"kind":"unknown","name":"Steffensen interpolation formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"MPHBET7HAA","mentions":["m2://rec/lebl_ra/ch-metric.tex#lemma:mstopocontloc#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
+{"id":"MPHFC9GS3E","mentions":["m2://rec/napkin/tex/measure/caratheodory.tex#exercise-1#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

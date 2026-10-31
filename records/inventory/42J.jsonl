@@ -1,2 +1,4 @@
+{"id":"42J2EZTCVW","mentions":["m2://rec/hott_book/hlevels.tex#defn-8#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
 {"id":"42JE3TNAP1","mentions":["m2://rec/wikidata/Q3711325#1"],"kind":"definition","name":"speed","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"42JM7P6GT8","mentions":["m2://rec/wikidata/Q1384632#1"],"kind":"unknown","name":"Yuri Linnik","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"42JV045AV7","mentions":["m2://rec/hott_book/index/B/real-numbers#1"],"kind":"concept","name":"real numbers","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

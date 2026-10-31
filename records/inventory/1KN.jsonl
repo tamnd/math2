@@ -1,1 +1,2 @@
 {"id":"1KN6H699ET","mentions":["m2://rec/wikidata/Q6718#1"],"kind":"definition","name":"quark","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"1KN9CKNQ9R","mentions":["m2://rec/lebl_ra/ch-approximate.tex#thm:fubiniforsums#1"],"kind":"statement","name":"\\myindex{Fubini for sums}","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

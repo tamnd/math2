@@ -1,1 +1,2 @@
 {"id":"1NFVK54NTJ","mentions":["m2://rec/mathlib_1000/Q1056283#1","m2://rec/thousand_plus/Q1056283#1","m2://rec/wikidata/Q1056283#1"],"kind":"statement","name":"May's theorem","msc":["91-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"1NFVSESN31","mentions":["m2://rec/applied_combinatorics/source/s_inclusion-exclusion_surjections.ptx#proof-1#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

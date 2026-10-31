@@ -1,1 +1,2 @@
 {"id":"TEY1AGK81A","mentions":["m2://rec/wikidata/Q1076611#1"],"kind":"unknown","name":"limit inferior and limit superior","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"TEYS15W72W","mentions":["m2://rec/hott_book/homotopy.tex#lem:s1-decode-encode#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

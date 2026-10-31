@@ -1,1 +1,3 @@
 {"id":"71K9EQ3GGQ","mentions":["m2://rec/wikidata/Q9209930#1"],"kind":"definition","name":"universal closure","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"71KKQR46CA","mentions":["m2://rec/lebl_scv/scv.tex#exercise:harmonicrealimag#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
+{"id":"71KXK9P9VG","mentions":["m2://rec/open_logic/content/computability/recursive-functions/trees.tex#proof-1#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}

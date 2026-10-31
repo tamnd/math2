@@ -1,1 +1,2 @@
 {"id":"THS5YHF6P3","mentions":["m2://rec/wikidata/Q167048#1"],"kind":"unknown","name":"Ieke Moerdijk","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"THSHC6R99C","mentions":["m2://rec/napkin/tex/calculus/limits.tex#problem-1#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.6.4"}]}
