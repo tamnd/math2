@@ -24,6 +24,10 @@ records:
           ids:
             arxiv: "2610.11960"
             doi: 10.1109/isit62367.2026.11653704
+      scope:
+        value: in
+        rule: S2
+        by: m2 v0.6.7 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -33,6 +37,10 @@ records:
         - op: add
           at: "2026-10-31"
           by: m2 v0.6.7 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.7 scope/1
+          note: to in
     - id: 7BB6PY94G9
       kind: preprint
       title: 'Multi-period Mean-Expectile Portfolio Optimization under Wasserstein Ambiguity: Reformulation, Degeneracy and the Role of the Ground Metric'
@@ -54,6 +62,9 @@ records:
           date: "2026-10-08"
           ids:
             arxiv: "2610.11917"
+      scope:
+        value: out
+        by: m2 v0.6.7 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -63,6 +74,10 @@ records:
         - op: add
           at: "2026-10-31"
           by: m2 v0.6.7 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.7 scope/1
+          note: to out
     - id: 7BBJMB97N7
       kind: preprint
       title: Positive discrepancy of graphs far from Tur\'an graphs
@@ -82,6 +97,10 @@ records:
           date: "2026-10-02"
           ids:
             arxiv: "2610.02681"
+      scope:
+        value: in
+        rule: S2
+        by: m2 v0.6.7 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -91,4 +110,8 @@ records:
         - op: add
           at: "2026-10-31"
           by: m2 v0.6.7 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.7 scope/1
+          note: to in
 ---

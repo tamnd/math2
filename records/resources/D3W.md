@@ -21,6 +21,10 @@ records:
           date: "2026-10-06"
           ids:
             arxiv: "2610.07893"
+      scope:
+        value: in
+        rule: S2
+        by: m2 v0.6.7 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -30,6 +34,10 @@ records:
         - op: add
           at: "2026-10-31"
           by: m2 v0.6.7 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.7 scope/1
+          note: to in
     - id: D3WKY1PW64
       kind: preprint
       title: Subgroup and Submonoid Membership in the lampshuffler of $\mathbb{Z}$
@@ -51,6 +59,10 @@ records:
           date: "2026-10-05"
           ids:
             arxiv: "2610.06108"
+      scope:
+        value: in
+        rule: S2
+        by: m2 v0.6.7 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -60,6 +72,10 @@ records:
         - op: add
           at: "2026-10-31"
           by: m2 v0.6.7 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.7 scope/1
+          note: to in
     - id: D3WTQN2F7B
       kind: preprint
       title: A Note on the Spectrum of Magnetic Dirac Operators
@@ -82,6 +98,10 @@ records:
           ids:
             arxiv: "2306.00590"
             doi: 10.3842/sigma.2023.102
+      scope:
+        value: in
+        rule: S2
+        by: m2 v0.6.7 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -91,4 +111,8 @@ records:
         - op: add
           at: "2026-10-31"
           by: m2 v0.6.7 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.7 scope/1
+          note: to in
 ---

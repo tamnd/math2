@@ -21,6 +21,10 @@ records:
           date: "2026-10-15"
           ids:
             arxiv: "2610.21533"
+      scope:
+        value: in
+        rule: S2
+        by: m2 v0.6.7 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -30,6 +34,10 @@ records:
         - op: add
           at: "2026-10-31"
           by: m2 v0.6.7 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.7 scope/1
+          note: to in
     - id: N3ZA5MDZBW
       kind: preprint
       title: The structure of irreducible cuspidal eta quotients
@@ -47,6 +55,10 @@ records:
           date: "2026-10-05"
           ids:
             arxiv: "2610.10576"
+      scope:
+        value: in
+        rule: S2
+        by: m2 v0.6.7 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -56,6 +68,10 @@ records:
         - op: add
           at: "2026-10-31"
           by: m2 v0.6.7 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.7 scope/1
+          note: to in
     - id: N3ZQJ2G8SS
       kind: preprint
       title: Divisible properties for asymptotically tracially approximation ${\rm C^*}$-algebras
@@ -75,6 +91,10 @@ records:
           date: "2022-05-30"
           ids:
             arxiv: "2205.15106"
+      scope:
+        value: in
+        rule: S2
+        by: m2 v0.6.7 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -84,4 +104,8 @@ records:
         - op: add
           at: "2026-10-31"
           by: m2 v0.6.7 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.7 scope/1
+          note: to in
 ---

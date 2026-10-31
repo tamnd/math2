@@ -11,7 +11,7 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.4 scope/1
+        by: m2 v0.6.7 scope/1
       catalogue:
         - source: bmo
           snapshot: blake3:68eb2251465334659a3c67c12bc8e13877594a5a11510cf9a756eaf0f62db81c

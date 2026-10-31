@@ -29,6 +29,10 @@ records:
           date: "2026-10-12"
           ids:
             arxiv: "2610.16233"
+      scope:
+        value: in
+        rule: S2
+        by: m2 v0.6.7 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -38,6 +42,10 @@ records:
         - op: add
           at: "2026-10-31"
           by: m2 v0.6.7 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.7 scope/1
+          note: to in
     - id: RNXRAZYR3S
       kind: preprint
       title: Weak, stable, and ordinary Lusternik-Schnirelmann category of finite spaces
@@ -59,6 +67,10 @@ records:
           date: "2026-09-30"
           ids:
             arxiv: "2609.39615"
+      scope:
+        value: in
+        rule: S2
+        by: m2 v0.6.7 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -68,6 +80,10 @@ records:
         - op: add
           at: "2026-10-31"
           by: m2 v0.6.7 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.7 scope/1
+          note: to in
     - id: RNXV4Q58TY
       kind: preprint
       title: Spanning Even Linear Forests with Isolated Edges Share the Anti-Ramsey Numbers of Perfect Matchings
@@ -85,6 +101,10 @@ records:
           date: "2026-10-08"
           ids:
             arxiv: "2610.11441"
+      scope:
+        value: in
+        rule: S2
+        by: m2 v0.6.7 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -94,4 +114,8 @@ records:
         - op: add
           at: "2026-10-31"
           by: m2 v0.6.7 cluster/1
+        - op: scope
+          at: "2026-10-31"
+          by: m2 v0.6.7 scope/1
+          note: to in
 ---
