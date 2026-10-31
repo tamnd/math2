@@ -1,67 +1,719 @@
+manifests/sources.yaml:123:1: L01: thousand_plus: the licence Unlicense gives the class record, and the source has the class open
+nodes/001/0011MTQMR6.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/004/004FH91BN5.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/004/004FRCXH6M.md:7:1: G03: the uses edges make a cycle that does not go through two different proofs: 004FRCXH6M -> 0QHTX7WQEY -> 004FRCXH6M
+nodes/006/006BHFWMAP.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/007/007NPQX34K.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/00B/00BKRZKMSS.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/00C/00C5P9JZBK.md:7:1: G03: the uses edges make a cycle that does not go through two different proofs: 00C5P9JZBK -> 05S2GSPMGA -> 00C5P9JZBK
+nodes/00E/00E0YZCERH.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/00E/00EYM7MDKS.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/00G/00GC8ZQP4Q.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/00H/00HF4RJ5QN.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/00J/00J3DCCEK5.md:3:1: G06: the problem does not name who posed it. Add history.posed_by
+nodes/00K/00KDZRW4C0.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/00N/00NBBSXRQS.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/00N/00NZKRSWNX.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/00Q/00QSK85Y2X.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/00T/00T5EPFQB9.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/012/012RYET5E2.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/017/017BPGVEE8.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/017/017E5PRS1Q.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/018/018GTRS7A4.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/019/019MA1VTR2.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/01A/01AHG4G9RT.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/01E/01E9MNJYEX.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/01E/01EQPZ6RYZ.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/01K/01KJJ9A400.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/01Q/01QFQAQ2PA.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/01R/01R1HW3Y42.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/01R/01RBSSGMY5.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/01R/01REYCJ371.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/01R/01RSTGNTXG.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/01T/01TPMXM6NM.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/020/020M04FN1H.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/022/022RSX714V.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/025/025YZN3VJW.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/026/0262JP0NV9.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/028/02879QH7BY.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/029/029JBBF693.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/02A/02AS45T3H9.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/02B/02BH3MCBQB.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/02C/02CK6QMXYD.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/02D/02DKV69ZH0.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/02E/02E9VT1RVQ.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/02E/02EKEPPJ3R.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/02H/02HR4C0B04.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/02K/02KTRHQMHN.md:7:1: G03: the uses edges make a cycle that does not go through two different proofs: 02KTRHQMHN -> 0WB57D9488 -> 02KTRHQMHN
+nodes/02M/02MAKWDKGT.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/02Q/02QGGD5G87.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/02Q/02QJVFCNYD.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/02R/02RRHJ7R98.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/02S/02SMVGC690.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/02S/02SRXDAM3X.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/02Y/02YSJPQYQH.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/030/030VFEREKG.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/031/031TPJVS74.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/032/0325SGSJAR.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/032/032Q9FB8MT.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/033/033RZ32T4Q.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/033/033WGN00BF.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/035/035V802J58.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/037/037F589D1D.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/039/0399QFDFS8.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/03B/03BR7SAX0Q.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/03C/03CPD1HGF3.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/03D/03DEH43F4H.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/03F/03FHD14RKC.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/03F/03FKX7Z5DC.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/03G/03GSZ8RTZJ.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/03H/03HDF50VN4.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/03H/03HF498P1J.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/03M/03MC70ZRNR.md:7:1: G03: the uses edges make a cycle that does not go through two different proofs: 03MC70ZRNR -> 0KNJWEVSMG -> 0ABP2F2ZP7 -> 03MC70ZRNR
+nodes/03N/03N8C8ZR4B.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/03T/03TM135G0N.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/03V/03VFZ2WETT.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/03Y/03YN70NK0Z.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/040/040WY0TT2G.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/047/0476QH9846.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/047/0477R9PYAE.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/047/047NDTEPCV.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/047/047NDTEPCV.md:7:1: G03: the uses edges make a cycle that does not go through two different proofs: 047NDTEPCV -> 0FNKFT8H6E -> 047NDTEPCV
+nodes/047/047SX3TD69.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/049/049DCJZ448.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/049/049PXYHW1T.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/04C/04CYQHN6MC.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/04D/04DR5PM25N.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/04D/04DXAFN2ES.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/04J/04J4BYB0XE.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/04M/04MQSQ1F5Q.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/04R/04R9K5H562.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/04S/04SD3F4FCR.md:3:1: G06: the problem does not name who posed it. Add history.posed_by
+nodes/04X/04X3PR72VJ.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/04X/04XWH28452.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/050/05006AJ7DZ.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/050/050F2FMTKF.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/051/051CYS71H5.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/054/054K3HNN5Z.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/054/054YEQ0Y8M.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/055/055Z15H69G.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/05C/05CG0S20S3.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/05C/05CJSSXPR3.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/05D/05D5EGMFYV.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/05H/05HN08ZSRJ.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/05J/05J9NWX07X.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/05M/05M5SWSZZD.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/05N/05NAS7AGMZ.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/05N/05NZ1HHQMV.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/05R/05RSK4Q657.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/05S/05SG20AMXH.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/05V/05VDGH129F.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/05W/05WR29H2KH.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/05W/05WTQ6FFPS.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/063/063JNBSMJ0.md:3:1: G06: the conjecture does not name who posed it. Add history.posed_by
+nodes/065/065CK367F9.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/065/065JWMZW86.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/067/06738GGWWK.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/069/0693Y2METT.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/069/0698M7C7AX.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/06E/06EH97V2A7.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/06E/06EKW1AKXF.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/06H/06HMCTAQH3.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/06J/06J8TEPJPY.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/06M/06MG208MGR.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/06M/06MJC8YDYR.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/06R/06RW4RKWH7.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/06W/06WHP8SE98.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/06X/06X5PF6YFP.md:3:1: G06: the problem does not name who posed it. Add history.posed_by
+nodes/070/070PFSYJJR.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/070/070R982G4B.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/072/072J68M6HX.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/073/073JKP99K2.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/073/073MWACF1K.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/07E/07EXVNF9VP.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/07E/07EZA80NEH.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/07G/07GJV36896.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/07G/07GNX8GCYP.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/07P/07PB7HH1T9.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/07R/07RB7B04HX.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/07R/07RGNK57ED.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/07S/07SDJ5DNE4.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/07T/07TZ2Q4C1M.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/07W/07WBTX1MHA.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/07W/07WYQPB8E3.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/07X/07XBM3A9J5.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/07X/07XF282NWH.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/07Y/07Y2E7P9NP.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/086/086QKPF0A6.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/087/087P03NEND.md:7:1: G03: the uses edges make a cycle that does not go through two different proofs: 087P03NEND -> 0EHYZFZ4PK -> 087P03NEND
+nodes/08A/08ANASGBXV.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/08A/08ANQHHG3P.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/08B/08B9CX109G.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/08G/08GR54CKEA.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/08K/08KEYFAH66.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/08Q/08QMKTWF9T.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/08R/08R2V9GZF7.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/08W/08WFZP6P89.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/08W/08WWTN738R.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/08X/08X0VCR2NW.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/08Z/08ZDW5SA3B.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/08Z/08ZWFDJP3H.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/090/090AA928Y7.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/091/091AV9YHZY.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/092/0924BCD257.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/093/093EDENVA1.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/093/093SAXPJ9P.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/094/094V2VBJXJ.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/096/0964YQFSA8.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/096/096AHMB3P4.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/098/098PHYBTV9.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/099/0990W5PN13.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/099/099E72KTF8.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/099/099GXMHV40.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/099/099TWVJ909.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/09A/09A3N7ZN5G.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/09A/09ASMRMD67.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/09B/09BJQQB3VS.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/09C/09CEDJYBKP.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/09D/09DXWYRD43.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/09E/09E6T7VYAG.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/09J/09J1H07VAH.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/09K/09K9MWD2QQ.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/09R/09RJ859N7A.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/09V/09V3NASXND.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/09V/09V6DDACXR.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/09V/09VMDSRXWJ.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/09X/09XNAPTJQ7.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/09Z/09ZWYRQ41J.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/09Z/09ZWYRQ41J.md:7:1: G03: the uses edges make a cycle that does not go through two different proofs: 09ZWYRQ41J -> 0S8WX8A4V9 -> 09ZWYRQ41J
+nodes/0A1/0A1YXSKB48.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0AA/0AA97XA70K.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0AA/0AAQ73WRFB.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0AB/0ABK9V9Y64.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0AF/0AFNNTRTJE.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0AH/0AHKWBQSWV.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0AK/0AK9TGSNXY.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0AK/0AKRKVHW94.md:8:1: G03: the uses edges make a cycle that does not go through two different proofs: 0AKRKVHW94 -> 0HPHKCGEQ0 -> 0AKRKVHW94
+nodes/0AP/0APCFW7639.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0AQ/0AQBSVMX9P.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0AQ/0AQZV0905N.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0AT/0ATF6Q0633.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0AT/0ATFVE08MW.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0AY/0AYV6VGKF5.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0B0/0B0KR7FH2Q.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0B3/0B3D4C8YF2.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0B5/0B5BA4FRWS.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0B5/0B5WCC02AN.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0B6/0B621RBVS9.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0B6/0B68KNPGCG.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0B6/0B6QWX3086.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0B7/0B77KZCQ51.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0B8/0B85S2V2DR.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0B8/0B8BW4YWTF.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0BA/0BANA3XYPF.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0BF/0BFDHF2H7N.md:8:1: G03: the uses edges make a cycle that does not go through two different proofs: 0BFDHF2H7N -> 0ZVEAYVRC3 -> 0BFDHF2H7N
+nodes/0BJ/0BJ6H85DRQ.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0BJ/0BJR9QR08E.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0BJ/0BJVDCF38Y.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0BQ/0BQAA2BK3Q.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0BS/0BSJ7RQ9BW.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0BS/0BSJSX7ME2.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0BS/0BSW4T7THS.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0BS/0BSXRER81B.md:3:1: G06: the problem does not name who posed it. Add history.posed_by
+nodes/0BT/0BT9BYWVRY.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0BW/0BWGTN92FG.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0BW/0BWJTRE3X3.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0BY/0BYTQ4X1HC.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0BY/0BYWRWFT4F.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0BY/0BYX1D7C2E.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0C1/0C12P4W4RH.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0C2/0C21Q694AG.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0C3/0C3QBCR46M.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0C5/0C5SR4FC74.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0C6/0C62PZXX02.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0C9/0C9MZY2RNA.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0CB/0CBAB9QQ9X.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0CD/0CD87SFM2N.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0CE/0CEC45PRJN.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0CH/0CH4VG15RE.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0CM/0CMHSGTWXB.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0CR/0CRMGPAH83.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0CT/0CTE7A31XQ.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0CT/0CTNFGYMM2.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0CW/0CW52NV5TC.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0D4/0D474C7ES1.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0D6/0D6J4B671D.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0D8/0D8HE681SC.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0DA/0DAECMZVRT.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0DA/0DAECMZVRT.md:7:1: G03: the uses edges make a cycle that does not go through two different proofs: 0DAECMZVRT -> 0FMN2MN7TM -> 0DAECMZVRT
+nodes/0DA/0DAX8PMAJ4.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0DE/0DEB0JMN0W.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0DE/0DEBXAJ5SA.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0DK/0DKCECSYCF.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0DN/0DNN9B6Q2F.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0DQ/0DQEHHVRBX.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0DS/0DS2QFYJHE.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0DS/0DSHAVH45F.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0DT/0DTCBCKEJP.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0DT/0DTXBQPA2S.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0DX/0DXD4QSZ8A.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0DX/0DXKE10PHF.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0E0/0E0B6RA8K0.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0E1/0E10E0NW9V.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0E3/0E3MV6E6MG.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0E3/0E3X7TXS67.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0E5/0E5CXYNEPX.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0E8/0E89HQATM8.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0EA/0EA4XFB0EY.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0EA/0EAJ2XXADC.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0EA/0EAR3KNRTN.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0EB/0EBACQFAZW.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0EB/0EBCWQ8BVE.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ED/0ED4HWNDGW.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ED/0ED72CTBNP.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ED/0EDKGA2FAK.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0EG/0EGN1E1JPB.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0EP/0EPW94MJ1P.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0EW/0EWMDD6C14.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0EZ/0EZ758XE73.md:7:1: G03: the uses edges make a cycle that does not go through two different proofs: 0EZ758XE73 -> 0SJ3RX9TXA -> 0EZ758XE73
+nodes/0F0/0F0J193T76.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0F2/0F2PTGX1A2.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0F3/0F32S73FJN.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0F3/0F33KX9Q6F.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0F4/0F462493EA.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0F4/0F4JSQE2EK.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0F5/0F50N2P3FC.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0F6/0F6ES3BRYP.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0F7/0F72FK8EKB.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0F7/0F7FQS6XY6.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0F8/0F8GDKM0A7.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0F9/0F98FZK14A.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0F9/0F9VKJPWCA.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0FD/0FDKRX9M9Y.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0FE/0FER36N8SB.md:3:1: G06: the conjecture does not name who posed it. Add history.posed_by
+nodes/0FF/0FFH3HSRBA.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0FF/0FFXKTKKQC.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0FG/0FGAJSPX8E.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0FJ/0FJY6G7FNA.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0FN/0FNKFT8H6E.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0FP/0FP31SX5EA.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0FQ/0FQSDC2EQ2.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0FR/0FREPFKNS7.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0FR/0FRMJH3CY7.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0FT/0FTH2E9TAS.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0FW/0FWBQ53MPJ.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0FX/0FXDW992DS.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0FY/0FY42N02DV.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0FY/0FYQMKFE77.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0G0/0G0ASKNA6Z.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0G3/0G3RRM41X9.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0G4/0G4D3ZKTP8.md:7:1: G03: the uses edges make a cycle that does not go through two different proofs: 0G4D3ZKTP8 -> 0MVCFMW7S4 -> 0G4D3ZKTP8
+nodes/0G6/0G65751VSW.md:8:1: G03: the uses edges make a cycle that does not go through two different proofs: 0G65751VSW -> 0K9HSJFCMJ -> 0G65751VSW
+nodes/0GB/0GBG8B49AA.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0GC/0GCM7B6PBK.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0GD/0GDQRETR59.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0GG/0GGKJGZF6D.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0GH/0GHS47PDAQ.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0GJ/0GJAJC6TNZ.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0GP/0GPBVKE31D.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0GR/0GRAATMGP1.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0GV/0GVDFAY4KW.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0GW/0GWN3CMRK8.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0GX/0GXA8Z205E.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0GX/0GXMPDNYX3.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0GZ/0GZ6Y1H4RN.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0GZ/0GZWXM2DKE.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0H1/0H1GN6P9R5.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0H3/0H3WZXCZNF.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0H5/0H5SYBSED9.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0H6/0H628RSGWX.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0H6/0H6DP8CHND.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0H7/0H7C3T1GJY.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0H7/0H7C3T1GJY.md:7:1: G03: the uses edges make a cycle that does not go through two different proofs: 0H7C3T1GJY -> 0PKG97PX9Y -> 0H7C3T1GJY
+nodes/0H8/0H8H7ZTHW2.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0HA/0HATW2VWAZ.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0HB/0HB0XKDXHH.md:7:1: G03: the uses edges make a cycle that does not go through two different proofs: 0HB0XKDXHH -> 0KX1MXJ5MR -> 0HB0XKDXHH
+nodes/0HE/0HE5WDQ9FJ.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0HH/0HH4Y7HSRQ.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0HJ/0HJHYMGN3C.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0HM/0HM0HQCK6N.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0HN/0HNK6KT05K.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0HV/0HV01NH20W.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0HV/0HVX863SAJ.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0HY/0HYFWKKY3C.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0HY/0HYRJF4WNQ.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0J0/0J0BBCMJ5W.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0J0/0J0FCWV32D.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0J1/0J1E5ZRZRM.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0J2/0J2WAR83WP.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0J3/0J3K4Y1KPD.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0J5/0J5EMJRRFM.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0J7/0J78KBPFZB.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0JA/0JAEHXTVV5.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0JA/0JARTXX4XP.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0JB/0JBJYT69ZV.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0JC/0JCQGPY8Z4.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0JE/0JEJATBVD7.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0JG/0JG9W3KA6B.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0JG/0JGEQXQ4AC.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0JJ/0JJ6GDDE7Z.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0JK/0JKW7W7XFR.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0JM/0JMR2HM2N2.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0JN/0JN0SQG2JH.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0JN/0JNXSS9TJ9.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0JP/0JPCHTXWG0.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0JT/0JT92VK307.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0JV/0JV30XN73Z.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0JV/0JVSNJCN68.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0JW/0JW13B48YP.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0JW/0JWRJX2RMP.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0JW/0JWT4PPQ7B.md:8:1: G03: the uses edges make a cycle that does not go through two different proofs: 0JWT4PPQ7B -> 0S7G92KKA7 -> 0JWT4PPQ7B
+nodes/0K0/0K0A06X2MQ.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0K3/0K3HFZJK5Q.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0K8/0K8F7PVDMX.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0K9/0K96Z2S699.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0K9/0K98R7A4VC.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0K9/0K9QVPJYJF.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0KA/0KABP2HWMQ.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0KB/0KBFAWYRTE.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0KB/0KBTP8Q2FS.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0KC/0KC00K7KY4.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0KC/0KC1NMG90B.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0KC/0KCT6DPXJK.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0KJ/0KJ7ZS8AJA.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0KJ/0KJH6SRFZK.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0KN/0KN7EPH7Z0.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0KR/0KRMJRDRZT.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0KS/0KS0KRDV4Y.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0KT/0KTGJW1ZTH.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0KW/0KW3PN547K.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0KY/0KY7GS695G.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0KZ/0KZDNGA561.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0M3/0M3YQJ81NB.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0M7/0M7ARED5Q7.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0M8/0M83V17KHX.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0M8/0M85DXB5RM.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0M9/0M9MX8YW0A.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0MB/0MBJVDSK1R.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0MB/0MBV2VHMXA.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0MD/0MDMZ965VE.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ME/0ME21QN125.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0MS/0MSRQHCNN9.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0MS/0MSSD1VCW9.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0MW/0MWV6ZTK6S.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0MX/0MXCP7MXWJ.md:3:1: G06: the problem does not name who posed it. Add history.posed_by
+nodes/0MX/0MXFJ0J00R.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0MX/0MXGYCH4SY.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0N2/0N288P2TB5.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0N2/0N2SP6K9ZC.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0N5/0N5NJZKKN3.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0N7/0N7ATVF2X8.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0N7/0N7ENQRCXN.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0N8/0N8NGKDZDZ.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0NA/0NANDX7V02.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0NE/0NE1DK7H4T.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0NF/0NF1KGDXX3.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0NF/0NF6GQNXMY.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0NF/0NFPJVJJHX.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0NM/0NMG7W7Q11.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0NN/0NNRDW10RZ.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0NP/0NPPGHQNXQ.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0NQ/0NQ1H2X495.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0NQ/0NQMZ89X4A.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0NQ/0NQSV2EWDR.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0NS/0NS58JP68E.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0NX/0NXWQK2Y56.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0P4/0P4FTHHMYS.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0P4/0P4JRMSWNH.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0P7/0P7FZHXZ5S.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0PB/0PBWWQD9KY.md:3:1: G06: the problem does not name who posed it. Add history.posed_by
+nodes/0PD/0PDVQEP0ZC.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0PG/0PG2H7WKGG.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0PH/0PHN07KVQT.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0PH/0PHTC93M58.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0PJ/0PJXBR6QA3.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0PT/0PT52XQZD7.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0PT/0PTVNH4GPS.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0PX/0PXW0BN7DW.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0PY/0PYSR20HGF.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0Q0/0Q0H13G8ZB.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0Q1/0Q1D85B8G6.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0Q3/0Q3ZT8J05R.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0Q4/0Q4CBD3HX0.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0Q4/0Q4CJ5NAT1.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0Q5/0Q5G5DJ4P2.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0QA/0QAJHFGZZJ.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0QB/0QBYFZV91P.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0QE/0QEAJB91GZ.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0QF/0QF1MZ9FRG.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0QF/0QFT7Z76N5.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0QG/0QG0Q3NDT9.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0QH/0QHEWQD30B.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0QJ/0QJJAQ6ZYZ.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0QK/0QK6K857HS.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0QK/0QKA345AW1.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0QK/0QKJ6NT0R9.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0QM/0QM0T7T3PZ.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0QM/0QM2G72DXA.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0QN/0QN3D80AWP.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0QN/0QN69YA357.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0QN/0QNFRBJF4Q.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0QR/0QR92XBV6H.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0QV/0QV9VNNB4Z.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0QW/0QW64ARSHB.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0QX/0QX19C7K1C.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0QX/0QXM0A9878.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0R0/0R0D0XY4HT.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0R2/0R2X8K9QA7.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0R6/0R6EWFKRCF.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0R9/0R9PHTGVNW.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0RB/0RBKKNH4GV.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0RC/0RCP929Y1M.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0RC/0RCQZ36MME.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0RJ/0RJ5NHWYTP.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0RK/0RKF1ZT5JJ.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0RK/0RKG5YW66Y.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0RN/0RNGDMHT7M.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0RR/0RRWNMYRXC.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0RW/0RWE7CPJ32.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0RW/0RWKYX8339.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0RZ/0RZ89QWTSJ.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0RZ/0RZH6W98HK.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0S2/0S21GNW9ZB.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0S2/0S29Y4ZW0Y.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0S6/0S6GMNJ62Y.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0S6/0S6T9KQNC0.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0S7/0S706JBZBG.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0S7/0S7G92KKA7.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0S8/0S8FE7ZMFM.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0SD/0SDC934R52.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0SJ/0SJNCJCCQG.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0SK/0SKYFQAFYD.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0SP/0SPE8WNWFV.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0SQ/0SQTMQTSRZ.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0SQ/0SQV2VJTGY.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ST/0ST21PGDAP.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0SW/0SWXJHKJ02.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0SY/0SYR10HD4R.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0T3/0T3RZQXDYD.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0TD/0TD904MG06.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0TG/0TGV80E6A4.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0TH/0TH78S7GBZ.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0TH/0THBK9V825.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0TH/0THJ7416DX.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0TK/0TK9MCFHBW.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0TK/0TKP3TDD02.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0TM/0TMZ89Q5KA.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0TN/0TNR9BQ871.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0TT/0TTDGTEFMN.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0TX/0TXCQ9CST1.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0TX/0TXNRQZY0H.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0TZ/0TZ2DPT0JV.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0V1/0V1EJCT8G6.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0V4/0V49JEZW06.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0V4/0V4QXPGJQK.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0V5/0V5B6D6BQH.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0V5/0V5GYWR8R8.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0V7/0V7G6WMFK0.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0V8/0V8F3E48E6.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0VB/0VBZH90R1A.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0VG/0VG7VNEWMG.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0VG/0VGPX25NXQ.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0VH/0VHJRXNAAS.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0VM/0VM8B2SB4P.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0VM/0VMWPGGG3C.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0VQ/0VQQCVG8WA.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0VQ/0VQYCCQVJ5.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0VS/0VSSPAFM2C.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0VT/0VT6P0GNQR.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0VV/0VVK64Q4JK.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0VW/0VW9E4QXR6.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0VX/0VX9EP2GS8.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0VX/0VXJHZ1G9J.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0VZ/0VZ48N083F.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0W1/0W1QMKJ9W8.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0W2/0W276SSSCG.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0W8/0W88CEGQP1.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0W8/0W8ETY2AZ6.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0W8/0W8QHVSN95.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0W9/0W95W33CMP.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0WA/0WAR4F23B4.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0WA/0WAY5WX8NY.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0WB/0WB619CA0V.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0WB/0WBRJXXDPZ.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0WB/0WBTWFXJQG.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0WE/0WE2NHZJ7B.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0WF/0WFCNG0MZC.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0WF/0WFMKK7DFZ.md:3:1: G06: the problem does not name who posed it. Add history.posed_by
+nodes/0WF/0WFZX06698.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0WH/0WHCA4SVP2.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0WN/0WN1QXR7R3.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0WQ/0WQ19TJV24.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0WQ/0WQJJCCTC8.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0WQ/0WQNRCNY3M.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0WQ/0WQVXP7PDB.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0WS/0WS9P12FQR.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0WW/0WWRD82HD2.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0WZ/0WZCHE1ZF9.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0X0/0X05GS525E.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0X0/0X0HQYSZ0K.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0X1/0X1GSWNBN1.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0X3/0X3EG7Y65T.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0X6/0X60VE98HN.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0X6/0X6V9B1V10.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0X7/0X7EEWES5G.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0XA/0XADJKM699.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0XC/0XC1RDBY7A.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0XD/0XDK9CGYKJ.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0XG/0XGCZ4GDZ6.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0XK/0XK0G19SK8.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0XK/0XKBKGTCPC.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0XM/0XM8ZA9RNM.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0XN/0XN66MZN0Y.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0XP/0XPKR18APA.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0XP/0XPX5NC67E.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0XR/0XRB469Z32.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0XR/0XRDYJQES6.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0XT/0XTNJ6SVAC.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0XV/0XVEZDE9J8.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0XW/0XW54DH28V.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0XW/0XW8HX8VEV.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0XW/0XWG0JGDFW.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0XZ/0XZ37KAB1Z.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0Y0/0Y0MQYST0M.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0Y2/0Y2X7P2WB7.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0Y6/0Y6TH5PQVS.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0YA/0YA7X86K05.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0YB/0YB2NRP0T5.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0YE/0YE5868HZB.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0YF/0YF6QXXWB5.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0YM/0YMB1676R1.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0YQ/0YQPZB5Q1G.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0YQ/0YQSGNYE3K.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0YS/0YSCSX5YZC.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0YT/0YTJ3RN3GE.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0YV/0YVKNB7V5F.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0YV/0YVQKBNV2R.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0YW/0YWZJEABB2.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0YY/0YY8VX28JR.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0Z8/0Z83DHFMYM.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ZA/0ZAZZ34WQS.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ZB/0ZB2JG1M9C.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ZB/0ZB3M68NYQ.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ZC/0ZC9YTXZRY.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ZC/0ZCK8DQYN1.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ZC/0ZCSMYHTBP.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ZC/0ZCY0Z80B6.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ZC/0ZCZK72B45.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ZD/0ZDW0H0VX4.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ZE/0ZEHZY85E6.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ZF/0ZFZ8ZG3EN.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ZG/0ZG9QF40HE.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ZG/0ZGC7ZESYN.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ZH/0ZHSTAG8ZY.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ZK/0ZKPH2BD1T.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ZN/0ZNMMA9TF5.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ZN/0ZNZH0EXFX.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ZP/0ZPQHH37PF.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ZP/0ZPV68RN1X.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ZV/0ZV14XRNF0.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ZV/0ZVEAYVRC3.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ZY/0ZY9DX8FBF.md:6:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ZZ/0ZZ4RHTR9X.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/0ZZ/0ZZXSBTR4J.md:5:1: N05: the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic
+nodes/G9J/G9JFJGY4TQ.md:3:1: G08: 3 of the 9 nodes of the topic are orphans, and the limit is less than 2%. Link the orphans from other nodes
 rule  state  checked  findings
-T01   pass   4
-T02   pass   4
-T03   pass   8
-T04   pass   3
-T05   pass   4
+T01   pass   6932
+T02   pass   6932
+T03   pass   3538
+T04   pass   14484
+T05   pass   8186
 T06   n/a    0
-S01   pass   2
-S02   pass   2
-S03   pass   2
-S04   pass   2
+T08   pass   94110
+T09   pass   101036
+T10   pass   3
+S01   pass   3466
+S02   pass   3466
+S03   pass   3466
+S04   pass   3466
 S09   n/a    0
-B01   pass   23
-B02   pass   3
-B03   pass   2
-B04   pass   1
-B05   n/a    0
-G01   pass   1
-G02   n/a    0
-G03   pass   2
-G04   pass   1
-G05   pass   1
-G06   n/a    0
+B01   pass   42960
+B02   pass   9814
+B03   pass   3466
+B04   pass   2120
+B05   pass   2404
+G01   pass   6790
+G02   pass   1150
+G03   fail   3466     16
+G04   pass   9
+G05   pass   1079
+G06   fail   9        9
 G07   n/a    0
-G08   n/a    0
-G09   pass   1
+G08   found  1        1
+G09   pass   1158
 G10   n/a    0
-F01   pass   2
+F01   pass   17
 F02   n/a    0
-F03   pass   1
-F04   pass   1
+F03   pass   9
+F04   pass   9
 F05   n/a    0
-F06   pass   3
+F06   pass   6
 F07   n/a    0
-F08   pass   2
+F08   pass   17
 F09   n/a    0
 V01   n/a    0
 V02   n/a    0
 V03   n/a    0
 V04   n/a    0
-C01   skip   0        not written yet
-C02   skip   0        not written yet
-C03   skip   0        not written yet
-C04   skip   0        not written yet
-C05   skip   0        not written yet
-A01   n/a    0
+C01   pass   1
+C02   skip   0        build/compute does not exist. Run m2 compute verify on amd64 and on arm64 first
+C03   pass   1
+C04   pass   1
+C05   n/a    0
+A01   pass   1150
 A02   skip   0        the tree has no provenance in prov/, thus the writer of a same_as value is not known
 A03   skip   0        the tree has no records of the systems of its same_as values
 A04   n/a    0
-L01   n/a    0
+L01   fail   13       1
 L02   skip   0        build/records has no records that agree with an import manifest. Run m2 ingest first
 L03   skip   0        build/records has no records that agree with an import manifest. Run m2 ingest first
 L04   skip   0        build/records has no records that agree with an import manifest. Run m2 ingest first
-P01   skip   0        not written yet
-P02   skip   0        not written yet
-P03   skip   0        not written yet
-P04   skip   0        not written yet
+L05   n/a    0
+L06   skip   0        no source has a licence for each item
+L08   pass   148526
+L09   skip   0        no source has a choice of licences
+L10   skip   0        no open source is in the public domain
+L11   skip   0        no mention has text
+L12   pass   7
+P01   n/a    0
+P02   n/a    0
+P03   n/a    0
+P04   n/a    0
+P05   n/a    0
+P06   n/a    0
 R01   skip   0        the tree has no release manifest in manifests/releases
 R02   skip   0        the tree has no release manifest in manifests/releases
 R03   skip   0        the tree has no release manifest in manifests/releases
 R04   skip   0        the tree has no record of a restore drill in reports/restore
 R05   skip   0        the tree has no release manifest in manifests/releases
-X01   skip   0        not written yet
-X02   skip   0        not written yet
-X03   skip   0        not written yet
-X04   skip   0        not written yet
-2 files, 0 findings, nothing failed
+X01   n/a    0
+X02   n/a    0
+X03   skip   0        build/runs does not exist, thus the audit cannot see the run records of the artefact store
+X04   n/a    0
+X05   n/a    0
+X06   skip   0        registers/audits.reg does not exist, thus no sample audit has been drawn
+X07   n/a    0
+I01   pass   941
+I02   pass   1093
+I03   pass   94108
+I04   pass   81338
+I05   skip   0        no row is deferred
+I06   skip   0        not written yet
+N01   pass   280
+N02   pass   23
+N03   n/a    0
+N04   pass   3466
+N05   found  1158     597
+N06   pass   25
+N07   n/a    0
+3466 files, 624 findings, 3 rules failed

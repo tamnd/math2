@@ -1,34 +1,34 @@
 {
-  "files": 2,
+  "files": 3466,
   "results": [
     {
       "rule": "T01",
       "state": "pass",
-      "checked": 4,
+      "checked": 6932,
       "findings": 0
     },
     {
       "rule": "T02",
       "state": "pass",
-      "checked": 4,
+      "checked": 6932,
       "findings": 0
     },
     {
       "rule": "T03",
       "state": "pass",
-      "checked": 8,
+      "checked": 3538,
       "findings": 0
     },
     {
       "rule": "T04",
       "state": "pass",
-      "checked": 3,
+      "checked": 14484,
       "findings": 0
     },
     {
       "rule": "T05",
       "state": "pass",
-      "checked": 4,
+      "checked": 8186,
       "findings": 0
     },
     {
@@ -38,27 +38,45 @@
       "findings": 0
     },
     {
+      "rule": "T08",
+      "state": "pass",
+      "checked": 94110,
+      "findings": 0
+    },
+    {
+      "rule": "T09",
+      "state": "pass",
+      "checked": 101036,
+      "findings": 0
+    },
+    {
+      "rule": "T10",
+      "state": "pass",
+      "checked": 3,
+      "findings": 0
+    },
+    {
       "rule": "S01",
       "state": "pass",
-      "checked": 2,
+      "checked": 3466,
       "findings": 0
     },
     {
       "rule": "S02",
       "state": "pass",
-      "checked": 2,
+      "checked": 3466,
       "findings": 0
     },
     {
       "rule": "S03",
       "state": "pass",
-      "checked": 2,
+      "checked": 3466,
       "findings": 0
     },
     {
       "rule": "S04",
       "state": "pass",
-      "checked": 2,
+      "checked": 3466,
       "findings": 0
     },
     {
@@ -70,68 +88,68 @@
     {
       "rule": "B01",
       "state": "pass",
-      "checked": 23,
+      "checked": 42960,
       "findings": 0
     },
     {
       "rule": "B02",
       "state": "pass",
-      "checked": 3,
+      "checked": 9814,
       "findings": 0
     },
     {
       "rule": "B03",
       "state": "pass",
-      "checked": 2,
+      "checked": 3466,
       "findings": 0
     },
     {
       "rule": "B04",
       "state": "pass",
-      "checked": 1,
+      "checked": 2120,
       "findings": 0
     },
     {
       "rule": "B05",
-      "state": "n/a",
-      "checked": 0,
+      "state": "pass",
+      "checked": 2404,
       "findings": 0
     },
     {
       "rule": "G01",
       "state": "pass",
-      "checked": 1,
+      "checked": 6790,
       "findings": 0
     },
     {
       "rule": "G02",
-      "state": "n/a",
-      "checked": 0,
+      "state": "pass",
+      "checked": 1150,
       "findings": 0
     },
     {
       "rule": "G03",
-      "state": "pass",
-      "checked": 2,
-      "findings": 0
+      "state": "fail",
+      "checked": 3466,
+      "findings": 16
     },
     {
       "rule": "G04",
       "state": "pass",
-      "checked": 1,
+      "checked": 9,
       "findings": 0
     },
     {
       "rule": "G05",
       "state": "pass",
-      "checked": 1,
+      "checked": 1079,
       "findings": 0
     },
     {
       "rule": "G06",
-      "state": "n/a",
-      "checked": 0,
-      "findings": 0
+      "state": "fail",
+      "checked": 9,
+      "findings": 9
     },
     {
       "rule": "G07",
@@ -141,14 +159,14 @@
     },
     {
       "rule": "G08",
-      "state": "n/a",
-      "checked": 0,
-      "findings": 0
+      "state": "found",
+      "checked": 1,
+      "findings": 1
     },
     {
       "rule": "G09",
       "state": "pass",
-      "checked": 1,
+      "checked": 1158,
       "findings": 0
     },
     {
@@ -160,7 +178,7 @@
     {
       "rule": "F01",
       "state": "pass",
-      "checked": 2,
+      "checked": 17,
       "findings": 0
     },
     {
@@ -172,13 +190,13 @@
     {
       "rule": "F03",
       "state": "pass",
-      "checked": 1,
+      "checked": 9,
       "findings": 0
     },
     {
       "rule": "F04",
       "state": "pass",
-      "checked": 1,
+      "checked": 9,
       "findings": 0
     },
     {
@@ -190,7 +208,7 @@
     {
       "rule": "F06",
       "state": "pass",
-      "checked": 3,
+      "checked": 6,
       "findings": 0
     },
     {
@@ -202,7 +220,7 @@
     {
       "rule": "F08",
       "state": "pass",
-      "checked": 2,
+      "checked": 17,
       "findings": 0
     },
     {
@@ -237,43 +255,39 @@
     },
     {
       "rule": "C01",
-      "state": "skip",
-      "checked": 0,
-      "findings": 0,
-      "reason": "not written yet"
+      "state": "pass",
+      "checked": 1,
+      "findings": 0
     },
     {
       "rule": "C02",
       "state": "skip",
       "checked": 0,
       "findings": 0,
-      "reason": "not written yet"
+      "reason": "build/compute does not exist. Run m2 compute verify on amd64 and on arm64 first"
     },
     {
       "rule": "C03",
-      "state": "skip",
-      "checked": 0,
-      "findings": 0,
-      "reason": "not written yet"
+      "state": "pass",
+      "checked": 1,
+      "findings": 0
     },
     {
       "rule": "C04",
-      "state": "skip",
-      "checked": 0,
-      "findings": 0,
-      "reason": "not written yet"
+      "state": "pass",
+      "checked": 1,
+      "findings": 0
     },
     {
       "rule": "C05",
-      "state": "skip",
+      "state": "n/a",
       "checked": 0,
-      "findings": 0,
-      "reason": "not written yet"
+      "findings": 0
     },
     {
       "rule": "A01",
-      "state": "n/a",
-      "checked": 0,
+      "state": "pass",
+      "checked": 1150,
       "findings": 0
     },
     {
@@ -298,9 +312,9 @@
     },
     {
       "rule": "L01",
-      "state": "n/a",
-      "checked": 0,
-      "findings": 0
+      "state": "fail",
+      "checked": 13,
+      "findings": 1
     },
     {
       "rule": "L02",
@@ -324,32 +338,86 @@
       "reason": "build/records has no records that agree with an import manifest. Run m2 ingest first"
     },
     {
-      "rule": "P01",
+      "rule": "L05",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
+    },
+    {
+      "rule": "L06",
       "state": "skip",
       "checked": 0,
       "findings": 0,
-      "reason": "not written yet"
+      "reason": "no source has a licence for each item"
+    },
+    {
+      "rule": "L08",
+      "state": "pass",
+      "checked": 148526,
+      "findings": 0
+    },
+    {
+      "rule": "L09",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "no source has a choice of licences"
+    },
+    {
+      "rule": "L10",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "no open source is in the public domain"
+    },
+    {
+      "rule": "L11",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "no mention has text"
+    },
+    {
+      "rule": "L12",
+      "state": "pass",
+      "checked": 7,
+      "findings": 0
+    },
+    {
+      "rule": "P01",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
     },
     {
       "rule": "P02",
-      "state": "skip",
+      "state": "n/a",
       "checked": 0,
-      "findings": 0,
-      "reason": "not written yet"
+      "findings": 0
     },
     {
       "rule": "P03",
-      "state": "skip",
+      "state": "n/a",
       "checked": 0,
-      "findings": 0,
-      "reason": "not written yet"
+      "findings": 0
     },
     {
       "rule": "P04",
-      "state": "skip",
+      "state": "n/a",
       "checked": 0,
-      "findings": 0,
-      "reason": "not written yet"
+      "findings": 0
+    },
+    {
+      "rule": "P05",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
+    },
+    {
+      "rule": "P06",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
     },
     {
       "rule": "R01",
@@ -388,32 +456,4497 @@
     },
     {
       "rule": "X01",
-      "state": "skip",
+      "state": "n/a",
       "checked": 0,
-      "findings": 0,
-      "reason": "not written yet"
+      "findings": 0
     },
     {
       "rule": "X02",
-      "state": "skip",
+      "state": "n/a",
       "checked": 0,
-      "findings": 0,
-      "reason": "not written yet"
+      "findings": 0
     },
     {
       "rule": "X03",
       "state": "skip",
       "checked": 0,
       "findings": 0,
-      "reason": "not written yet"
+      "reason": "build/runs does not exist, thus the audit cannot see the run records of the artefact store"
     },
     {
       "rule": "X04",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
+    },
+    {
+      "rule": "X05",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
+    },
+    {
+      "rule": "X06",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "registers/audits.reg does not exist, thus no sample audit has been drawn"
+    },
+    {
+      "rule": "X07",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
+    },
+    {
+      "rule": "I01",
+      "state": "pass",
+      "checked": 941,
+      "findings": 0
+    },
+    {
+      "rule": "I02",
+      "state": "pass",
+      "checked": 1093,
+      "findings": 0
+    },
+    {
+      "rule": "I03",
+      "state": "pass",
+      "checked": 94108,
+      "findings": 0
+    },
+    {
+      "rule": "I04",
+      "state": "pass",
+      "checked": 81338,
+      "findings": 0
+    },
+    {
+      "rule": "I05",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "no row is deferred"
+    },
+    {
+      "rule": "I06",
       "state": "skip",
       "checked": 0,
       "findings": 0,
       "reason": "not written yet"
+    },
+    {
+      "rule": "N01",
+      "state": "pass",
+      "checked": 280,
+      "findings": 0
+    },
+    {
+      "rule": "N02",
+      "state": "pass",
+      "checked": 23,
+      "findings": 0
+    },
+    {
+      "rule": "N03",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
+    },
+    {
+      "rule": "N04",
+      "state": "pass",
+      "checked": 3466,
+      "findings": 0
+    },
+    {
+      "rule": "N05",
+      "state": "found",
+      "checked": 1158,
+      "findings": 597
+    },
+    {
+      "rule": "N06",
+      "state": "pass",
+      "checked": 25,
+      "findings": 0
+    },
+    {
+      "rule": "N07",
+      "state": "n/a",
+      "checked": 0,
+      "findings": 0
     }
   ],
-  "findings": null
+  "findings": [
+    {
+      "rule": "L01",
+      "path": "manifests/sources.yaml",
+      "line": 123,
+      "col": 1,
+      "msg": "thousand_plus: the licence Unlicense gives the class record, and the source has the class open"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/001/0011MTQMR6.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/004/004FH91BN5.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "G03",
+      "path": "nodes/004/004FRCXH6M.md",
+      "line": 7,
+      "col": 1,
+      "msg": "the uses edges make a cycle that does not go through two different proofs: 004FRCXH6M -\u003e 0QHTX7WQEY -\u003e 004FRCXH6M"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/006/006BHFWMAP.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/007/007NPQX34K.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/00B/00BKRZKMSS.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "G03",
+      "path": "nodes/00C/00C5P9JZBK.md",
+      "line": 7,
+      "col": 1,
+      "msg": "the uses edges make a cycle that does not go through two different proofs: 00C5P9JZBK -\u003e 05S2GSPMGA -\u003e 00C5P9JZBK"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/00E/00E0YZCERH.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/00E/00EYM7MDKS.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/00G/00GC8ZQP4Q.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/00H/00HF4RJ5QN.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "G06",
+      "path": "nodes/00J/00J3DCCEK5.md",
+      "line": 3,
+      "col": 1,
+      "msg": "the problem does not name who posed it. Add history.posed_by"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/00K/00KDZRW4C0.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/00N/00NBBSXRQS.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/00N/00NZKRSWNX.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/00Q/00QSK85Y2X.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/00T/00T5EPFQB9.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/012/012RYET5E2.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/017/017BPGVEE8.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/017/017E5PRS1Q.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/018/018GTRS7A4.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/019/019MA1VTR2.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/01A/01AHG4G9RT.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/01E/01E9MNJYEX.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/01E/01EQPZ6RYZ.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/01K/01KJJ9A400.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/01Q/01QFQAQ2PA.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/01R/01R1HW3Y42.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/01R/01RBSSGMY5.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/01R/01REYCJ371.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/01R/01RSTGNTXG.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/01T/01TPMXM6NM.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/020/020M04FN1H.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/022/022RSX714V.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/025/025YZN3VJW.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/026/0262JP0NV9.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/028/02879QH7BY.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/029/029JBBF693.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/02A/02AS45T3H9.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/02B/02BH3MCBQB.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/02C/02CK6QMXYD.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/02D/02DKV69ZH0.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/02E/02E9VT1RVQ.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/02E/02EKEPPJ3R.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/02H/02HR4C0B04.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "G03",
+      "path": "nodes/02K/02KTRHQMHN.md",
+      "line": 7,
+      "col": 1,
+      "msg": "the uses edges make a cycle that does not go through two different proofs: 02KTRHQMHN -\u003e 0WB57D9488 -\u003e 02KTRHQMHN"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/02M/02MAKWDKGT.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/02Q/02QGGD5G87.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/02Q/02QJVFCNYD.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/02R/02RRHJ7R98.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/02S/02SMVGC690.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/02S/02SRXDAM3X.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/02Y/02YSJPQYQH.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/030/030VFEREKG.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/031/031TPJVS74.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/032/0325SGSJAR.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/032/032Q9FB8MT.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/033/033RZ32T4Q.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/033/033WGN00BF.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/035/035V802J58.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/037/037F589D1D.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/039/0399QFDFS8.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/03B/03BR7SAX0Q.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/03C/03CPD1HGF3.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/03D/03DEH43F4H.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/03F/03FHD14RKC.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/03F/03FKX7Z5DC.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/03G/03GSZ8RTZJ.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/03H/03HDF50VN4.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/03H/03HF498P1J.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "G03",
+      "path": "nodes/03M/03MC70ZRNR.md",
+      "line": 7,
+      "col": 1,
+      "msg": "the uses edges make a cycle that does not go through two different proofs: 03MC70ZRNR -\u003e 0KNJWEVSMG -\u003e 0ABP2F2ZP7 -\u003e 03MC70ZRNR"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/03N/03N8C8ZR4B.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/03T/03TM135G0N.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/03V/03VFZ2WETT.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/03Y/03YN70NK0Z.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/040/040WY0TT2G.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/047/0476QH9846.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/047/0477R9PYAE.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/047/047NDTEPCV.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "G03",
+      "path": "nodes/047/047NDTEPCV.md",
+      "line": 7,
+      "col": 1,
+      "msg": "the uses edges make a cycle that does not go through two different proofs: 047NDTEPCV -\u003e 0FNKFT8H6E -\u003e 047NDTEPCV"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/047/047SX3TD69.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/049/049DCJZ448.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/049/049PXYHW1T.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/04C/04CYQHN6MC.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/04D/04DR5PM25N.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/04D/04DXAFN2ES.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/04J/04J4BYB0XE.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/04M/04MQSQ1F5Q.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/04R/04R9K5H562.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "G06",
+      "path": "nodes/04S/04SD3F4FCR.md",
+      "line": 3,
+      "col": 1,
+      "msg": "the problem does not name who posed it. Add history.posed_by"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/04X/04X3PR72VJ.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/04X/04XWH28452.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/050/05006AJ7DZ.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/050/050F2FMTKF.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/051/051CYS71H5.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/054/054K3HNN5Z.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/054/054YEQ0Y8M.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/055/055Z15H69G.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/05C/05CG0S20S3.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/05C/05CJSSXPR3.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/05D/05D5EGMFYV.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/05H/05HN08ZSRJ.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/05J/05J9NWX07X.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/05M/05M5SWSZZD.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/05N/05NAS7AGMZ.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/05N/05NZ1HHQMV.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/05R/05RSK4Q657.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/05S/05SG20AMXH.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/05V/05VDGH129F.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/05W/05WR29H2KH.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/05W/05WTQ6FFPS.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "G06",
+      "path": "nodes/063/063JNBSMJ0.md",
+      "line": 3,
+      "col": 1,
+      "msg": "the conjecture does not name who posed it. Add history.posed_by"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/065/065CK367F9.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/065/065JWMZW86.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/067/06738GGWWK.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/069/0693Y2METT.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/069/0698M7C7AX.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/06E/06EH97V2A7.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/06E/06EKW1AKXF.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/06H/06HMCTAQH3.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/06J/06J8TEPJPY.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/06M/06MG208MGR.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/06M/06MJC8YDYR.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/06R/06RW4RKWH7.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/06W/06WHP8SE98.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "G06",
+      "path": "nodes/06X/06X5PF6YFP.md",
+      "line": 3,
+      "col": 1,
+      "msg": "the problem does not name who posed it. Add history.posed_by"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/070/070PFSYJJR.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/070/070R982G4B.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/072/072J68M6HX.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/073/073JKP99K2.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/073/073MWACF1K.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/07E/07EXVNF9VP.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/07E/07EZA80NEH.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/07G/07GJV36896.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/07G/07GNX8GCYP.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/07P/07PB7HH1T9.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/07R/07RB7B04HX.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/07R/07RGNK57ED.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/07S/07SDJ5DNE4.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/07T/07TZ2Q4C1M.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/07W/07WBTX1MHA.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/07W/07WYQPB8E3.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/07X/07XBM3A9J5.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/07X/07XF282NWH.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/07Y/07Y2E7P9NP.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/086/086QKPF0A6.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "G03",
+      "path": "nodes/087/087P03NEND.md",
+      "line": 7,
+      "col": 1,
+      "msg": "the uses edges make a cycle that does not go through two different proofs: 087P03NEND -\u003e 0EHYZFZ4PK -\u003e 087P03NEND"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/08A/08ANASGBXV.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/08A/08ANQHHG3P.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/08B/08B9CX109G.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/08G/08GR54CKEA.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/08K/08KEYFAH66.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/08Q/08QMKTWF9T.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/08R/08R2V9GZF7.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/08W/08WFZP6P89.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/08W/08WWTN738R.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/08X/08X0VCR2NW.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/08Z/08ZDW5SA3B.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/08Z/08ZWFDJP3H.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/090/090AA928Y7.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/091/091AV9YHZY.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/092/0924BCD257.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/093/093EDENVA1.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/093/093SAXPJ9P.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/094/094V2VBJXJ.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/096/0964YQFSA8.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/096/096AHMB3P4.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/098/098PHYBTV9.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/099/0990W5PN13.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/099/099E72KTF8.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/099/099GXMHV40.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/099/099TWVJ909.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/09A/09A3N7ZN5G.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/09A/09ASMRMD67.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/09B/09BJQQB3VS.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/09C/09CEDJYBKP.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/09D/09DXWYRD43.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/09E/09E6T7VYAG.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/09J/09J1H07VAH.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/09K/09K9MWD2QQ.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/09R/09RJ859N7A.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/09V/09V3NASXND.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/09V/09V6DDACXR.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/09V/09VMDSRXWJ.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/09X/09XNAPTJQ7.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/09Z/09ZWYRQ41J.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "G03",
+      "path": "nodes/09Z/09ZWYRQ41J.md",
+      "line": 7,
+      "col": 1,
+      "msg": "the uses edges make a cycle that does not go through two different proofs: 09ZWYRQ41J -\u003e 0S8WX8A4V9 -\u003e 09ZWYRQ41J"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0A1/0A1YXSKB48.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0AA/0AA97XA70K.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0AA/0AAQ73WRFB.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0AB/0ABK9V9Y64.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0AF/0AFNNTRTJE.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0AH/0AHKWBQSWV.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0AK/0AK9TGSNXY.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "G03",
+      "path": "nodes/0AK/0AKRKVHW94.md",
+      "line": 8,
+      "col": 1,
+      "msg": "the uses edges make a cycle that does not go through two different proofs: 0AKRKVHW94 -\u003e 0HPHKCGEQ0 -\u003e 0AKRKVHW94"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0AP/0APCFW7639.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0AQ/0AQBSVMX9P.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0AQ/0AQZV0905N.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0AT/0ATF6Q0633.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0AT/0ATFVE08MW.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0AY/0AYV6VGKF5.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0B0/0B0KR7FH2Q.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0B3/0B3D4C8YF2.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0B5/0B5BA4FRWS.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0B5/0B5WCC02AN.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0B6/0B621RBVS9.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0B6/0B68KNPGCG.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0B6/0B6QWX3086.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0B7/0B77KZCQ51.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0B8/0B85S2V2DR.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0B8/0B8BW4YWTF.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0BA/0BANA3XYPF.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "G03",
+      "path": "nodes/0BF/0BFDHF2H7N.md",
+      "line": 8,
+      "col": 1,
+      "msg": "the uses edges make a cycle that does not go through two different proofs: 0BFDHF2H7N -\u003e 0ZVEAYVRC3 -\u003e 0BFDHF2H7N"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0BJ/0BJ6H85DRQ.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0BJ/0BJR9QR08E.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0BJ/0BJVDCF38Y.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0BQ/0BQAA2BK3Q.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0BS/0BSJ7RQ9BW.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0BS/0BSJSX7ME2.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0BS/0BSW4T7THS.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "G06",
+      "path": "nodes/0BS/0BSXRER81B.md",
+      "line": 3,
+      "col": 1,
+      "msg": "the problem does not name who posed it. Add history.posed_by"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0BT/0BT9BYWVRY.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0BW/0BWGTN92FG.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0BW/0BWJTRE3X3.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0BY/0BYTQ4X1HC.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0BY/0BYWRWFT4F.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0BY/0BYX1D7C2E.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0C1/0C12P4W4RH.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0C2/0C21Q694AG.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0C3/0C3QBCR46M.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0C5/0C5SR4FC74.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0C6/0C62PZXX02.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0C9/0C9MZY2RNA.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0CB/0CBAB9QQ9X.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0CD/0CD87SFM2N.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0CE/0CEC45PRJN.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0CH/0CH4VG15RE.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0CM/0CMHSGTWXB.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0CR/0CRMGPAH83.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0CT/0CTE7A31XQ.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0CT/0CTNFGYMM2.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0CW/0CW52NV5TC.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0D4/0D474C7ES1.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0D6/0D6J4B671D.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0D8/0D8HE681SC.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0DA/0DAECMZVRT.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "G03",
+      "path": "nodes/0DA/0DAECMZVRT.md",
+      "line": 7,
+      "col": 1,
+      "msg": "the uses edges make a cycle that does not go through two different proofs: 0DAECMZVRT -\u003e 0FMN2MN7TM -\u003e 0DAECMZVRT"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0DA/0DAX8PMAJ4.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0DE/0DEB0JMN0W.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0DE/0DEBXAJ5SA.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0DK/0DKCECSYCF.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0DN/0DNN9B6Q2F.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0DQ/0DQEHHVRBX.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0DS/0DS2QFYJHE.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0DS/0DSHAVH45F.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0DT/0DTCBCKEJP.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0DT/0DTXBQPA2S.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0DX/0DXD4QSZ8A.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0DX/0DXKE10PHF.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0E0/0E0B6RA8K0.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0E1/0E10E0NW9V.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0E3/0E3MV6E6MG.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0E3/0E3X7TXS67.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0E5/0E5CXYNEPX.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0E8/0E89HQATM8.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0EA/0EA4XFB0EY.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0EA/0EAJ2XXADC.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0EA/0EAR3KNRTN.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0EB/0EBACQFAZW.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0EB/0EBCWQ8BVE.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ED/0ED4HWNDGW.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ED/0ED72CTBNP.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ED/0EDKGA2FAK.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0EG/0EGN1E1JPB.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0EP/0EPW94MJ1P.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0EW/0EWMDD6C14.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "G03",
+      "path": "nodes/0EZ/0EZ758XE73.md",
+      "line": 7,
+      "col": 1,
+      "msg": "the uses edges make a cycle that does not go through two different proofs: 0EZ758XE73 -\u003e 0SJ3RX9TXA -\u003e 0EZ758XE73"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0F0/0F0J193T76.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0F2/0F2PTGX1A2.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0F3/0F32S73FJN.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0F3/0F33KX9Q6F.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0F4/0F462493EA.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0F4/0F4JSQE2EK.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0F5/0F50N2P3FC.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0F6/0F6ES3BRYP.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0F7/0F72FK8EKB.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0F7/0F7FQS6XY6.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0F8/0F8GDKM0A7.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0F9/0F98FZK14A.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0F9/0F9VKJPWCA.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0FD/0FDKRX9M9Y.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "G06",
+      "path": "nodes/0FE/0FER36N8SB.md",
+      "line": 3,
+      "col": 1,
+      "msg": "the conjecture does not name who posed it. Add history.posed_by"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0FF/0FFH3HSRBA.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0FF/0FFXKTKKQC.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0FG/0FGAJSPX8E.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0FJ/0FJY6G7FNA.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0FN/0FNKFT8H6E.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0FP/0FP31SX5EA.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0FQ/0FQSDC2EQ2.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0FR/0FREPFKNS7.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0FR/0FRMJH3CY7.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0FT/0FTH2E9TAS.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0FW/0FWBQ53MPJ.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0FX/0FXDW992DS.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0FY/0FY42N02DV.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0FY/0FYQMKFE77.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0G0/0G0ASKNA6Z.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0G3/0G3RRM41X9.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "G03",
+      "path": "nodes/0G4/0G4D3ZKTP8.md",
+      "line": 7,
+      "col": 1,
+      "msg": "the uses edges make a cycle that does not go through two different proofs: 0G4D3ZKTP8 -\u003e 0MVCFMW7S4 -\u003e 0G4D3ZKTP8"
+    },
+    {
+      "rule": "G03",
+      "path": "nodes/0G6/0G65751VSW.md",
+      "line": 8,
+      "col": 1,
+      "msg": "the uses edges make a cycle that does not go through two different proofs: 0G65751VSW -\u003e 0K9HSJFCMJ -\u003e 0G65751VSW"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0GB/0GBG8B49AA.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0GC/0GCM7B6PBK.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0GD/0GDQRETR59.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0GG/0GGKJGZF6D.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0GH/0GHS47PDAQ.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0GJ/0GJAJC6TNZ.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0GP/0GPBVKE31D.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0GR/0GRAATMGP1.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0GV/0GVDFAY4KW.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0GW/0GWN3CMRK8.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0GX/0GXA8Z205E.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0GX/0GXMPDNYX3.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0GZ/0GZ6Y1H4RN.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0GZ/0GZWXM2DKE.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0H1/0H1GN6P9R5.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0H3/0H3WZXCZNF.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0H5/0H5SYBSED9.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0H6/0H628RSGWX.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0H6/0H6DP8CHND.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0H7/0H7C3T1GJY.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "G03",
+      "path": "nodes/0H7/0H7C3T1GJY.md",
+      "line": 7,
+      "col": 1,
+      "msg": "the uses edges make a cycle that does not go through two different proofs: 0H7C3T1GJY -\u003e 0PKG97PX9Y -\u003e 0H7C3T1GJY"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0H8/0H8H7ZTHW2.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0HA/0HATW2VWAZ.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "G03",
+      "path": "nodes/0HB/0HB0XKDXHH.md",
+      "line": 7,
+      "col": 1,
+      "msg": "the uses edges make a cycle that does not go through two different proofs: 0HB0XKDXHH -\u003e 0KX1MXJ5MR -\u003e 0HB0XKDXHH"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0HE/0HE5WDQ9FJ.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0HH/0HH4Y7HSRQ.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0HJ/0HJHYMGN3C.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0HM/0HM0HQCK6N.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0HN/0HNK6KT05K.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0HV/0HV01NH20W.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0HV/0HVX863SAJ.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0HY/0HYFWKKY3C.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0HY/0HYRJF4WNQ.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0J0/0J0BBCMJ5W.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0J0/0J0FCWV32D.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0J1/0J1E5ZRZRM.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0J2/0J2WAR83WP.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0J3/0J3K4Y1KPD.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0J5/0J5EMJRRFM.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0J7/0J78KBPFZB.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0JA/0JAEHXTVV5.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0JA/0JARTXX4XP.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0JB/0JBJYT69ZV.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0JC/0JCQGPY8Z4.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0JE/0JEJATBVD7.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0JG/0JG9W3KA6B.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0JG/0JGEQXQ4AC.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0JJ/0JJ6GDDE7Z.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0JK/0JKW7W7XFR.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0JM/0JMR2HM2N2.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0JN/0JN0SQG2JH.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0JN/0JNXSS9TJ9.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0JP/0JPCHTXWG0.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0JT/0JT92VK307.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0JV/0JV30XN73Z.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0JV/0JVSNJCN68.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0JW/0JW13B48YP.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0JW/0JWRJX2RMP.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "G03",
+      "path": "nodes/0JW/0JWT4PPQ7B.md",
+      "line": 8,
+      "col": 1,
+      "msg": "the uses edges make a cycle that does not go through two different proofs: 0JWT4PPQ7B -\u003e 0S7G92KKA7 -\u003e 0JWT4PPQ7B"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0K0/0K0A06X2MQ.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0K3/0K3HFZJK5Q.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0K8/0K8F7PVDMX.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0K9/0K96Z2S699.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0K9/0K98R7A4VC.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0K9/0K9QVPJYJF.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0KA/0KABP2HWMQ.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0KB/0KBFAWYRTE.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0KB/0KBTP8Q2FS.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0KC/0KC00K7KY4.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0KC/0KC1NMG90B.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0KC/0KCT6DPXJK.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0KJ/0KJ7ZS8AJA.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0KJ/0KJH6SRFZK.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0KN/0KN7EPH7Z0.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0KR/0KRMJRDRZT.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0KS/0KS0KRDV4Y.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0KT/0KTGJW1ZTH.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0KW/0KW3PN547K.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0KY/0KY7GS695G.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0KZ/0KZDNGA561.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0M3/0M3YQJ81NB.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0M7/0M7ARED5Q7.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0M8/0M83V17KHX.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0M8/0M85DXB5RM.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0M9/0M9MX8YW0A.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0MB/0MBJVDSK1R.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0MB/0MBV2VHMXA.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0MD/0MDMZ965VE.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ME/0ME21QN125.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0MS/0MSRQHCNN9.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0MS/0MSSD1VCW9.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0MW/0MWV6ZTK6S.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "G06",
+      "path": "nodes/0MX/0MXCP7MXWJ.md",
+      "line": 3,
+      "col": 1,
+      "msg": "the problem does not name who posed it. Add history.posed_by"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0MX/0MXFJ0J00R.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0MX/0MXGYCH4SY.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0N2/0N288P2TB5.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0N2/0N2SP6K9ZC.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0N5/0N5NJZKKN3.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0N7/0N7ATVF2X8.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0N7/0N7ENQRCXN.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0N8/0N8NGKDZDZ.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0NA/0NANDX7V02.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0NE/0NE1DK7H4T.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0NF/0NF1KGDXX3.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0NF/0NF6GQNXMY.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0NF/0NFPJVJJHX.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0NM/0NMG7W7Q11.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0NN/0NNRDW10RZ.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0NP/0NPPGHQNXQ.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0NQ/0NQ1H2X495.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0NQ/0NQMZ89X4A.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0NQ/0NQSV2EWDR.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0NS/0NS58JP68E.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0NX/0NXWQK2Y56.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0P4/0P4FTHHMYS.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0P4/0P4JRMSWNH.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0P7/0P7FZHXZ5S.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "G06",
+      "path": "nodes/0PB/0PBWWQD9KY.md",
+      "line": 3,
+      "col": 1,
+      "msg": "the problem does not name who posed it. Add history.posed_by"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0PD/0PDVQEP0ZC.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0PG/0PG2H7WKGG.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0PH/0PHN07KVQT.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0PH/0PHTC93M58.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0PJ/0PJXBR6QA3.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0PT/0PT52XQZD7.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0PT/0PTVNH4GPS.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0PX/0PXW0BN7DW.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0PY/0PYSR20HGF.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0Q0/0Q0H13G8ZB.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0Q1/0Q1D85B8G6.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0Q3/0Q3ZT8J05R.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0Q4/0Q4CBD3HX0.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0Q4/0Q4CJ5NAT1.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0Q5/0Q5G5DJ4P2.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0QA/0QAJHFGZZJ.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0QB/0QBYFZV91P.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0QE/0QEAJB91GZ.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0QF/0QF1MZ9FRG.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0QF/0QFT7Z76N5.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0QG/0QG0Q3NDT9.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0QH/0QHEWQD30B.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0QJ/0QJJAQ6ZYZ.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0QK/0QK6K857HS.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0QK/0QKA345AW1.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0QK/0QKJ6NT0R9.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0QM/0QM0T7T3PZ.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0QM/0QM2G72DXA.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0QN/0QN3D80AWP.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0QN/0QN69YA357.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0QN/0QNFRBJF4Q.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0QR/0QR92XBV6H.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0QV/0QV9VNNB4Z.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0QW/0QW64ARSHB.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0QX/0QX19C7K1C.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0QX/0QXM0A9878.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0R0/0R0D0XY4HT.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0R2/0R2X8K9QA7.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0R6/0R6EWFKRCF.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0R9/0R9PHTGVNW.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0RB/0RBKKNH4GV.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0RC/0RCP929Y1M.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0RC/0RCQZ36MME.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0RJ/0RJ5NHWYTP.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0RK/0RKF1ZT5JJ.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0RK/0RKG5YW66Y.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0RN/0RNGDMHT7M.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0RR/0RRWNMYRXC.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0RW/0RWE7CPJ32.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0RW/0RWKYX8339.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0RZ/0RZ89QWTSJ.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0RZ/0RZH6W98HK.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0S2/0S21GNW9ZB.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0S2/0S29Y4ZW0Y.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0S6/0S6GMNJ62Y.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0S6/0S6T9KQNC0.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0S7/0S706JBZBG.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0S7/0S7G92KKA7.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0S8/0S8FE7ZMFM.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0SD/0SDC934R52.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0SJ/0SJNCJCCQG.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0SK/0SKYFQAFYD.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0SP/0SPE8WNWFV.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0SQ/0SQTMQTSRZ.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0SQ/0SQV2VJTGY.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ST/0ST21PGDAP.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0SW/0SWXJHKJ02.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0SY/0SYR10HD4R.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0T3/0T3RZQXDYD.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0TD/0TD904MG06.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0TG/0TGV80E6A4.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0TH/0TH78S7GBZ.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0TH/0THBK9V825.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0TH/0THJ7416DX.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0TK/0TK9MCFHBW.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0TK/0TKP3TDD02.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0TM/0TMZ89Q5KA.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0TN/0TNR9BQ871.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0TT/0TTDGTEFMN.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0TX/0TXCQ9CST1.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0TX/0TXNRQZY0H.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0TZ/0TZ2DPT0JV.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0V1/0V1EJCT8G6.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0V4/0V49JEZW06.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0V4/0V4QXPGJQK.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0V5/0V5B6D6BQH.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0V5/0V5GYWR8R8.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0V7/0V7G6WMFK0.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0V8/0V8F3E48E6.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0VB/0VBZH90R1A.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0VG/0VG7VNEWMG.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0VG/0VGPX25NXQ.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0VH/0VHJRXNAAS.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0VM/0VM8B2SB4P.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0VM/0VMWPGGG3C.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0VQ/0VQQCVG8WA.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0VQ/0VQYCCQVJ5.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0VS/0VSSPAFM2C.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0VT/0VT6P0GNQR.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0VV/0VVK64Q4JK.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0VW/0VW9E4QXR6.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0VX/0VX9EP2GS8.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0VX/0VXJHZ1G9J.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0VZ/0VZ48N083F.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0W1/0W1QMKJ9W8.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0W2/0W276SSSCG.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0W8/0W88CEGQP1.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0W8/0W8ETY2AZ6.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0W8/0W8QHVSN95.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0W9/0W95W33CMP.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0WA/0WAR4F23B4.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0WA/0WAY5WX8NY.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0WB/0WB619CA0V.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0WB/0WBRJXXDPZ.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0WB/0WBTWFXJQG.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0WE/0WE2NHZJ7B.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0WF/0WFCNG0MZC.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "G06",
+      "path": "nodes/0WF/0WFMKK7DFZ.md",
+      "line": 3,
+      "col": 1,
+      "msg": "the problem does not name who posed it. Add history.posed_by"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0WF/0WFZX06698.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0WH/0WHCA4SVP2.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0WN/0WN1QXR7R3.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0WQ/0WQ19TJV24.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0WQ/0WQJJCCTC8.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0WQ/0WQNRCNY3M.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0WQ/0WQVXP7PDB.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0WS/0WS9P12FQR.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0WW/0WWRD82HD2.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0WZ/0WZCHE1ZF9.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0X0/0X05GS525E.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0X0/0X0HQYSZ0K.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0X1/0X1GSWNBN1.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0X3/0X3EG7Y65T.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0X6/0X60VE98HN.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0X6/0X6V9B1V10.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0X7/0X7EEWES5G.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0XA/0XADJKM699.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0XC/0XC1RDBY7A.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0XD/0XDK9CGYKJ.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0XG/0XGCZ4GDZ6.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0XK/0XK0G19SK8.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0XK/0XKBKGTCPC.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0XM/0XM8ZA9RNM.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0XN/0XN66MZN0Y.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0XP/0XPKR18APA.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0XP/0XPX5NC67E.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0XR/0XRB469Z32.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0XR/0XRDYJQES6.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0XT/0XTNJ6SVAC.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0XV/0XVEZDE9J8.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0XW/0XW54DH28V.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0XW/0XW8HX8VEV.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0XW/0XWG0JGDFW.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0XZ/0XZ37KAB1Z.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0Y0/0Y0MQYST0M.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0Y2/0Y2X7P2WB7.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0Y6/0Y6TH5PQVS.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0YA/0YA7X86K05.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0YB/0YB2NRP0T5.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0YE/0YE5868HZB.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0YF/0YF6QXXWB5.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0YM/0YMB1676R1.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0YQ/0YQPZB5Q1G.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0YQ/0YQSGNYE3K.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0YS/0YSCSX5YZC.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0YT/0YTJ3RN3GE.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0YV/0YVKNB7V5F.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0YV/0YVQKBNV2R.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0YW/0YWZJEABB2.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0YY/0YY8VX28JR.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0Z8/0Z83DHFMYM.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ZA/0ZAZZ34WQS.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ZB/0ZB2JG1M9C.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ZB/0ZB3M68NYQ.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ZC/0ZC9YTXZRY.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ZC/0ZCK8DQYN1.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ZC/0ZCSMYHTBP.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ZC/0ZCY0Z80B6.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ZC/0ZCZK72B45.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ZD/0ZDW0H0VX4.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ZE/0ZEHZY85E6.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ZF/0ZFZ8ZG3EN.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ZG/0ZG9QF40HE.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ZG/0ZGC7ZESYN.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ZH/0ZHSTAG8ZY.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ZK/0ZKPH2BD1T.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ZN/0ZNMMA9TF5.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ZN/0ZNZH0EXFX.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ZP/0ZPQHH37PF.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ZP/0ZPV68RN1X.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ZV/0ZV14XRNF0.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ZV/0ZVEAYVRC3.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ZY/0ZY9DX8FBF.md",
+      "line": 6,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ZZ/0ZZ4RHTR9X.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "N05",
+      "path": "nodes/0ZZ/0ZZXSBTR4J.md",
+      "line": 5,
+      "col": 1,
+      "msg": "the concept has no specializes edge and no topic. Add a specializes edge to a more general concept, or a topic"
+    },
+    {
+      "rule": "G08",
+      "path": "nodes/G9J/G9JFJGY4TQ.md",
+      "line": 3,
+      "col": 1,
+      "msg": "3 of the 9 nodes of the topic are orphans, and the limit is less than 2%. Link the orphans from other nodes"
+    }
+  ]
 }
