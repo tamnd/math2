@@ -1,0 +1,2592 @@
+---
+records:
+    - from: 3XX5RNF33G/e1
+      n: 1
+      parsed:
+        authors:
+            - C. Brezinski
+        title: C. BREZINSKI A general extrapolation algorithm Numer. Math
+        venue: Numer. Math.
+        volume: "35"
+        pages: "175"
+        year: "1980"
+        ids:
+            doi: 10.1007/bf01396314
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 2
+      parsed:
+        authors:
+            - C. Brezinski
+        title: C. BREZINSKI The Mühlbach-Neville-Aitken algorithm and some extensions. BIT
+        venue: BIT
+        volume: "20"
+        pages: "444"
+        year: "1980"
+        ids:
+            doi: 10.1007/bf01933638
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 3
+      parsed:
+        title: C. BREZINSKI Recursive interpolation
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 4
+      parsed:
+        authors:
+            - V.N. Faddeeva
+        title: Computational methods of linear algebra
+        year: "1959"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 5
+      parsed:
+        authors:
+            - T. Håvie
+        title: T. HÅVIE Generalized Neville type extrapolation schemes. BIT
+        venue: BIT
+        volume: "19"
+        pages: "204"
+        year: "1979"
+        ids:
+            doi: 10.1007/bf01930850
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 6
+      parsed:
+        authors:
+            - P. Henrici
+        title: Elements of numerical analysis
+        year: "1964"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 7
+      parsed:
+        title: 'Al. MAGNUS Fractions continues généralisées: théorie et applications. Thèse'
+        year: "1976"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 8
+      parsed:
+        authors:
+            - G. MEINARDUS
+        title: G.D. TAYLOR Lower estimates for the error of best uniform approximation. J. Approx. Theory
+        venue: J. Approx. Theory
+        volume: "16"
+        pages: "150"
+        year: "1976"
+        ids:
+            doi: 10.1016/0021-9045(76)90044-7
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 9
+      parsed:
+        authors:
+            - G. Mühlbach
+        title: G. MÜHLBACH The general Neville-Aitken algorithm and some applications. Numer. Math
+        venue: Numer. Math.
+        volume: "31"
+        pages: "97"
+        year: "1978"
+        ids:
+            doi: 10.1007/bf01396017
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 10
+      parsed:
+        authors:
+            - J.B. Rosen
+        title: J.B. ROSEN The gradient projection method for nonlinear programming. Part I. Linear constraints. J. SIAM
+        venue: J. SIAM
+        volume: "8"
+        pages: "181"
+        year: "1960"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 11
+      parsed:
+        authors:
+            - C. Schneider
+        title: C. SCHNEIDER Vereinfachte Rekursionen zur Richardson-Extrapolation in Spezialfällen. Numer. Math
+        venue: Numer. Math.
+        volume: "24"
+        pages: "177"
+        year: "1975"
+        ids:
+            doi: 10.1007/bf01400966
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 12
+      parsed:
+        authors:
+            - J. Wimp
+        title: Sequence transformations and their applications
+        year: "1981"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 13
+      parsed:
+        authors:
+            - A. Angelesco
+        title: Sur une classe de polynomes à une variable
+        venue: C.R.
+        volume: "162"
+        pages: "121"
+        year: "1916"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 14
+      parsed:
+        authors:
+            - A. Angelesco
+        title: Sur l’approximation simultanée de plusieurs intégrales définies
+        venue: C.R.
+        volume: "167"
+        pages: "629"
+        year: "1918"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 15
+      parsed:
+        authors:
+            - A. Angelesco
+        title: Sur deux extensions des fractions algébriques
+        venue: C.R.
+        volume: "168"
+        pages: "262"
+        year: "1919"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 16
+      parsed:
+        authors:
+            - A.I. Aptekarev
+        title: Convergence of rational approximations to a set of exponents
+        venue: Vestnik Mosk. Univ. Mat.
+        volume: "36"
+        pages: "68"
+        year: "1981"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 17
+      parsed:
+        authors:
+            - A.I. Aptekarev
+        title: Padé approximation for the system {1F1(1; c; λi z)} i=1 k
+        venue: Vestnik Mosk. Univ. Mat.
+        volume: "36"
+        pages: "58"
+        year: "1981"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 18
+      parsed:
+        authors:
+            - R.J. Arms
+            - 'A. Edrei: The Padé table'
+            - continued fractions generated by totally positive sequences. In
+        title: Mathematical Essays dedicated to A.J. Macintyre
+        pages: "1"
+        year: "1970"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 19
+      parsed:
+        authors:
+            - A. Baker
+        title: A note on the Padé table
+        year: "1966"
+        ids:
+            doi: 10.1016/s1385-7258(66)50063-4
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 20
+      parsed:
+        authors:
+            - M.G. de Bruin
+        title: Generalized C-fractions and a multidimensional Padé table
+        year: "1974"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 21
+      parsed:
+        authors:
+            - M.G. de Bruin
+        title: Convergence in the Padé table for 1F1(1; c; x)
+        year: "1976"
+        ids:
+            doi: 10.1016/s1385-7258(76)80004-2
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 22
+      parsed:
+        authors:
+            - M.G. de Bruin
+        title: Three new examples of generalized Padé tables which are partly normal
+        year: "1976"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 23
+      parsed:
+        authors:
+            - 'M.G. de Bruin: Convergence along steplines in a generalized Padé table. In'
+        title: Padé and Rational Approximation
+        pages: "15"
+        year: "1977"
+        ids:
+            doi: 10.1016/b978-0-12-614150-4.50006-x
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 24
+      parsed:
+        authors:
+            - M.G. de Bruin
+        title: Convergence of generalized C-fractions
+        venue: Journal of Approximation Theory
+        volume: "24"
+        pages: "177"
+        year: "1978"
+        ids:
+            doi: 10.1016/0021-9045(78)90023-0
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 25
+      parsed:
+        authors:
+            - M.G. de Bruin
+        title: Some explicit formulae in simultaneous Padé Approximation
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 26
+      parsed:
+        authors:
+            - S.K. Burley, S.O. John
+            - J. Nuttall
+        title: Vector orthogonal polynomials
+        venue: Siam J. Numer. Anal.
+        volume: "18"
+        pages: "919"
+        year: "1981"
+        ids:
+            doi: 10.1137/0718065
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 27
+      parsed:
+        authors:
+            - D.V.
+            - 'G.V. Chudnovsky: Multidimensional Hermite interpolation'
+            - Padé approximation. In
+        title: The Riemann problem, complete integrability and arithmetic applications
+        year: "1982"
+        ids:
+            doi: 10.1007/bfb0093515
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 28
+      parsed:
+        authors:
+            - J. Coates
+        title: On the algebraic approximation of functions I
+        year: "1967"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 29
+      parsed:
+        authors:
+            - J. Della Dora
+            - 'C. Di-Crescenzo: Approximation de Padé-Hermite. In'
+        title: Padé Approximation and its Applications
+        year: "1979"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 30
+      parsed:
+        authors:
+            - J. Della Dora
+        title: Contribution à l’approximation de fonctions de la variable complexe au sens de Hermite-Padé et de Hardy (Thèse)
+        year: "1980"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 31
+      parsed:
+        authors:
+            - 'J. Della Dora: Quelques résultats sur la structure des tables de Padé-Hermite. In'
+        title: Padé Approximation and its Applications
+        year: "1981"
+        ids:
+            doi: 10.1007/bfb0095584
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 32
+      parsed:
+        authors:
+            - A. Edrei
+        title: Proof of a conjecture of Schoenberg on the generating function of a totally positive sequence
+        venue: Canad. J. of Math.
+        volume: "5"
+        pages: "86"
+        year: "1953"
+        ids:
+            doi: 10.4153/cjm-1953-010-3
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 33
+      parsed:
+        authors:
+            - A.J. Goddijn
+        title: Enkele convergentie-eigenschappen van twee meerdimensionale Padé tafels
+        year: "1972"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 34
+      parsed:
+        authors:
+            - C. Hermite
+        title: 'Ch. Hermite: Sur la fonction exponentielle. Oeuvres t. III'
+        venue: Oeuvres t.
+        volume: III
+        pages: "150"
+        year: "1873"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 35
+      parsed:
+        authors:
+            - C. Hermite
+        title: 'Ch. Hermite: Sur la généralisation des fractions continues algébriques. Oeuvres t. IV'
+        venue: Oeuvres t.
+        volume: IV
+        pages: "357"
+        year: "1893"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 36
+      parsed:
+        authors:
+            - H. Jager
+        title: A multidimensional generalization of the Padé table
+        year: "1964"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 37
+      parsed:
+        authors:
+            - V.A. Kaljagin
+        title: A note on the structure of Padé’s tables
+        venue: Vestnik Mosk. Univ. Mat.
+        volume: "35"
+        pages: "38"
+        year: "1980"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 38
+      parsed:
+        authors:
+            - V.A. Kaljagin
+        title: On a class of polynomials defined by two orthogonality relations
+        year: "1981"
+        ids:
+            doi: 10.1070/sm1981v038n04abeh001465
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 39
+      parsed:
+        authors:
+            - J.H. Loxton
+            - A.J. van der Poorten
+        title: A note on simultaneous polynomial approximation of exponential functions
+        venue: Bull. Austral. Math. Soc.
+        volume: "11"
+        pages: "333"
+        year: "1974"
+        ids:
+            doi: 10.1017/s0004972700043963
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 40
+      parsed:
+        authors:
+            - J.H. Loxton
+            - A.J. van der Poorten
+        title: Multi-dimensional generalizations of the Padé table
+        venue: Rocky Mountain J. of Math.
+        volume: "9"
+        pages: "385"
+        year: "1979"
+        ids:
+            doi: 10.1216/rmj-1979-9-3-385
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 41
+      parsed:
+        authors:
+            - K. Mahler
+        title: Perfect systems
+        venue: Compositio Math.
+        volume: "19"
+        pages: "95"
+        year: "1968"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 42
+      parsed:
+        authors:
+            - J. Mall
+        title: Grundlagen für eine Theorie der mehrdimensionalen Padéschen Tafel
+        year: "1934"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 43
+      parsed:
+        authors:
+            - R. de Montessus de Ballore
+        title: Sur les fractions continues algébriques
+        venue: Bull. de la Soc. Math. de France
+        volume: "30"
+        pages: "26"
+        year: "1902"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 44
+      parsed:
+        authors:
+            - E.M. Nikišin
+        title: A System of Markov Functions
+        venue: Vestnik Mosk. Univ. Mat.
+        volume: "34"
+        pages: "60"
+        year: "1979"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 45
+      parsed:
+        authors:
+            - E.M. Nikišin
+        title: On simultaneous Padé approximants
+        year: "1982"
+        ids:
+            doi: 10.1070/sm1982v041n04abeh002240
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 46
+      parsed:
+        authors:
+            - 'J. Nuttal: Convergence of Padé Approximants'
+            - their generalizations. In
+        title: The Riemann problem, complete integrability and arithmetic applications
+        year: "1982"
+        ids:
+            doi: 10.1007/bfb0093513
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 47
+      parsed:
+        authors:
+            - H. Padé
+        title: Sur la représentation approchée d’une fonction par des fractions rationelleş
+        venue: Ann. Sci. Ecole Norm. Sup.
+        volume: "9"
+        pages: "1"
+        year: "1892"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 48
+      parsed:
+        authors:
+            - H. Padé
+        title: Sur la généralisation des fractions continues algébriques
+        venue: J. de Mathematiques Pures et Appliques, 4ième série
+        volume: "10"
+        pages: "291"
+        year: "1894"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 49
+      parsed:
+        authors:
+            - H. Padé
+        title: Mémoire sur les développements en fractions continues de la fonction exponentielle pouvent servir d’introduction à la théorie des fractions continues algébriques
+        venue: Ann. Sci. École Norm.Sup.
+        volume: "16"
+        pages: "395"
+        year: "1899"
+        ids:
+            doi: 10.24033/asens.470
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 50
+      parsed:
+        authors:
+            - O. Perron
+        title: Die Lehre von den Kettenbrüchen, Band II
+        year: "1957"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 51
+      parsed:
+        authors:
+            - A.J. van der Poorten
+        title: Simultaneous algebraic approximation of functions
+        year: "1968"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 52
+      parsed:
+        authors:
+            - A.J. van der Poorten
+        title: Perfect approximation of functions
+        venue: Bull. Austral. Math. Soc.
+        volume: "5"
+        pages: "117"
+        year: "1971"
+        ids:
+            doi: 10.1017/s0004972700046931
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 53
+      parsed:
+        authors:
+            - 'I.J. Schoenberg: Some analytic aspects of the problem of smoothing. In'
+        title: Studies and Essays presented to R. Courant on his 60th birthday, Jan. 8, 1948
+        pages: "331"
+        year: "1948"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 54
+      parsed:
+        authors:
+            - H.S. Wall
+        title: Analytic theory of continued fractions
+        year: "1973"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 55
+      parsed:
+        authors:
+            - A. Bultheel
+        title: 'P. Dewilde (1980) On the relation between Padé approximation and Levinson/Schur recursive methods. In signal processing: theories and applications'
+        year: "1980"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 56
+      parsed:
+        title: 'A. Bultheel (1979) Recursive algorithms for the Padé table: two approaches in Padé approximation and its application'
+        year: "1979"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 57
+      parsed:
+        title: A. Bultheel (1982) Epsilon and qd algorithms for the matrix Padé and 2-D Padé problem. Report TW 57
+        year: "1982"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 58
+      parsed:
+        authors:
+            - W.B. Gragg
+        title: W.B. Gragg (1972) The Padé table and its relation to certain algorithms of numerical analysis. Siam Review 14 (1)
+        venue: Siam Review
+        volume: "14"
+        pages: "1"
+        year: "1972"
+        ids:
+            doi: 10.1137/1014001
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 59
+      parsed:
+        authors:
+            - G.A. Baker Jr
+        title: 'Padé approximats: basic theory'
+        year: "1981"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 60
+      parsed:
+        authors:
+            - W.B. Jones
+        title: Continued fractions, analytic theory and applications
+        year: "1980"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 61
+      parsed:
+        authors:
+            - J.H. McCabe
+        title: J.A. Murphy (1976) Continued fractions which correspond to power series at two points. J. Inst. Math. Appl. 17
+        venue: J. Inst. Math. Appl.
+        volume: "17"
+        pages: "233"
+        year: "1976"
+        ids:
+            doi: 10.1093/imamat/17.2.233
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 62
+      parsed:
+        title: P. Henrici (1974) Applied and computational complex analysis
+        year: "1974"
+        ids:
+            doi: 10.1090/psapm/020/0349957
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 63
+      parsed:
+        authors:
+            - W. Seewald
+        title: 'W. Seewald (1982) Quotienten-Differenzen-Algorithms: Beweis der Regeln von Rutishauser. Numer. Math. 40'
+        venue: Numer. Math.
+        volume: "40"
+        pages: "93"
+        year: "1982"
+        ids:
+            doi: 10.1007/bf01459078
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 64
+      parsed:
+        authors:
+            - W.B. Gragg
+        title: Padé and rational approximation
+        pages: "61"
+        year: "1977"
+        ids:
+            doi: 10.1016/b978-0-12-614150-4.50010-1
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 65
+      parsed:
+        authors:
+            - W.B. Jones
+        title: A. Magnus (1980) Computation of poles of two-point Padé approximants and their limits. Journ. Comput. Appl. Math. 6 (2)
+        venue: Journ. Comput. Appl. Math.
+        volume: "6"
+        pages: "105"
+        year: "1980"
+        ids:
+            doi: 10.1016/0771-050x(80)90004-2
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 66
+      parsed:
+        authors:
+            - K.M. Day
+        title: K.M. Day (1975) Toeplitz matrices generated by an arbitrary rational function. Trans. Amer. Math. Soc. 206
+        venue: Trans. Amer. Math. Soc.
+        volume: "206"
+        pages: "224"
+        year: "1975"
+        ids:
+            doi: 10.1090/s0002-9947-1975-0379803-8
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 67
+      parsed:
+        authors:
+            - I.Z. Gochberg
+        title: Faltungsgleichungen und Projektionsverfahren zu ihrer Lösung
+        year: "1974"
+        ids:
+            doi: 10.1007/978-3-0348-5511-2
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 68
+      to: SPG8T2B4W4/e1
+      parsed:
+        authors:
+            - A. Draux
+        title: Polynomes orthogonaux formels-applications
+        venue: Lect. Notes Math.
+        year: "1983"
+        ids:
+            doi: 10.1007/bfb0066470
+      score: 1
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 69
+      parsed:
+        title: BAKER — GRAVES-MORRIS (1981) Padé approximants
+        year: "1981"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 70
+      parsed:
+        title: CHAFFY (1983) Pour plus de détails sur le même sujet
+        year: "1983"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 71
+      parsed:
+        authors:
+            - Claessens
+        title: CLAESSENS (1978)On the Newton-Padé approximation problem
+        venue: Journal of approximation theory
+        volume: "22"
+        pages: "150"
+        year: "1978"
+        ids:
+            doi: 10.1016/0021-9045(78)90062-x
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 72
+      parsed:
+        authors:
+            - Claessens
+        title: CLAESSENS (1978) On the structure of the Newton-Padé table
+        venue: Journal of approximation theory
+        volume: "22"
+        pages: "304"
+        year: "1978"
+        ids:
+            doi: 10.1016/0021-9045(78)90041-2
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 73
+      parsed:
+        authors:
+            - Galluci
+        title: GALLUCI and JONES (1976) Rational approximations corresponding to Newton series
+        venue: Journal of approximation theory
+        volume: "17"
+        pages: "366"
+        year: "1976"
+        ids:
+            doi: 10.1016/0021-9045(76)90081-2
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 74
+      parsed:
+        title: HANDSCOMB (1968) Methods of numerical approximation
+        year: "1968"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 75
+      parsed:
+        authors:
+            - Henrici
+        title: Applied and computational complex analysis
+        year: "1977"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 76
+      parsed:
+        title: MEINGUET (1970) On the solubility of the Cauchy interpolation problem
+        year: "1970"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 77
+      parsed:
+        authors:
+            - Saff
+        title: SAFF (1972) An extension of de Montessus de Ballore’s theorem on the convergence of interpolating rational functions
+        venue: Journal of approximation theory
+        volume: "6"
+        pages: "63"
+        year: "1972"
+        ids:
+            doi: 10.1016/0021-9045(72)90081-0
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 78
+      parsed:
+        title: WALSH (1960) Interpolation and approximation by rational functions in the complex domain
+        year: "1960"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 79
+      parsed:
+        authors:
+            - G.A. BAKER Jr
+            - P.R. GRAVES-MORRIS
+        title: Padé Approximants
+        year: "1981"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 80
+      parsed:
+        authors:
+            - C. BREZINSKI
+        title: Etudes sur les ε-et ρ-algorithmes
+        venue: Numer. Math.
+        volume: "17"
+        pages: "153"
+        year: "1971"
+        ids:
+            doi: 10.1007/bf01406003
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 81
+      parsed:
+        authors:
+            - C. BREZINSKI
+        title: Conditions d’application et de convergence de procédés d’accélération
+        venue: Numer. Math.
+        volume: "20"
+        pages: "64"
+        year: "1972"
+        ids:
+            doi: 10.1007/bf01436643
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 82
+      parsed:
+        authors:
+            - C. BREZINSKI
+        title: Généralisation des extrapolations polynomiales et rationnelles
+        year: "1972"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 83
+      parsed:
+        authors:
+            - G. CLAESSENS
+        title: A useful identity for the rational Hermite interpolation table
+        venue: Numer. Math.
+        volume: "29"
+        pages: "227"
+        year: "1978"
+        ids:
+            doi: 10.1007/bf01390340
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 84
+      parsed:
+        authors:
+            - F. CORDELLIER
+        title: Une mise en oeuvre numériquement stable de l’ε-algorithme vectoriel
+        year: "1976"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 85
+      parsed:
+        title: F. CORDELLIER et R. KHELOUFI
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 86
+      parsed:
+        authors:
+            - W.B. GRAGG
+        title: The Padé table and its relation to certain algorithms of numerical analysis
+        venue: SIAM Review
+        volume: "14"
+        pages: "1"
+        year: "1972"
+        ids:
+            doi: 10.1137/1014001
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 87
+      parsed:
+        authors:
+            - P.R. GRAVES-MORRIS
+        title: Padé Approximation and its Applications, Amsterdam 1980
+        year: "1981"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 88
+      parsed:
+        authors:
+            - F.M. LARKIN
+        title: Some techniques for rational interpolation
+        venue: Computer J.
+        volume: "10"
+        pages: "178"
+        year: "1967"
+        ids:
+            doi: 10.1093/comjnl/10.2.178
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 89
+      parsed:
+        authors:
+            - J. MEINGUET
+        title: Approximation Theory
+        pages: "137"
+        year: "1970"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 90
+      parsed:
+        authors:
+            - D. SHANKS
+        title: Non linear transformations of divergent and slowly convergent series
+        venue: J. Math. Phys.
+        volume: "34"
+        pages: "1"
+        year: "1955"
+        ids:
+            doi: 10.1002/sapm19553411
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 91
+      parsed:
+        authors:
+            - J. STOER
+        title: Uber zwei Algorithmen zwr Interpolation mit Rationalen Funktionen
+        venue: Numer. Math.
+        volume: "3"
+        pages: "285"
+        year: "1961"
+        ids:
+            doi: 10.1007/bf01386030
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 92
+      parsed:
+        authors:
+            - T.N. THIELE
+        title: Interpolations rechnung
+        year: "1909"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 93
+      parsed:
+        authors:
+            - D.D. WARNER
+        title: Hermite interpolation with rational functions
+        year: "1974"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 94
+      parsed:
+        authors:
+            - H. WERNER
+        title: A reliable method for rationnel interpolation
+        year: "1979"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 95
+      parsed:
+        authors:
+            - P. WYNN
+        title: On a procrustean technique for the numerical transformation of slowly convergent sequence and series
+        venue: Proc. Camb. Phil. Soc.
+        volume: "52"
+        pages: "663"
+        year: "1956"
+        ids:
+            doi: 10.1017/s030500410003173x
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 96
+      parsed:
+        authors:
+            - P. WYNN
+        title: On a device for computing the em (Sn) transformation
+        venue: MTAC
+        volume: "10"
+        pages: "91"
+        year: "1956"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 97
+      parsed:
+        authors:
+            - P. WYNN
+        title: Upon systems of recursions which obtain among the quotients of the Padé Table
+        venue: Numer. Math.
+        volume: "8"
+        pages: "264"
+        year: "1966"
+        ids:
+            doi: 10.1007/bf02162562
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 98
+      to: 2KA0GGMFWK/e1
+      parsed:
+        authors:
+            - C. Brezinski
+        title: Accélération de la convergence en analyse numérique
+        venue: LNM
+        year: "1977"
+        ids:
+            doi: 10.1007/bfb0089363
+      score: 1
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 99
+      parsed:
+        authors:
+            - C. Brezinski
+        title: Padé-type approximation and general orthogonal polynomials
+        venue: ISNM
+        year: "1980"
+        ids:
+            doi: 10.1007/978-3-0348-6558-6
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 100
+      parsed:
+        authors:
+            - A. Cuyt
+        title: Multivariate Padé approximants
+        venue: Journ. Math. Anal. Applcs.
+        volume: "96"
+        pages: "283"
+        year: "1983"
+        ids:
+            doi: 10.1016/0022-247x(83)90041-0
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 101
+      to: N8G9PJ5XFZ/e1
+      parsed:
+        authors:
+            - A. Cuyt
+        title: 'Abstract Padé Approximants in Operator Theory: Theory and Applications'
+        venue: LNM
+        year: "1984"
+        ids:
+            doi: 10.1007/bfb0099706
+      score: 1
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 102
+      parsed:
+        authors:
+            - A. Cuyt
+        title: The ε-algorithm and multivariate Padé approximants
+        venue: Numerische Mathematik
+        volume: "40"
+        pages: "39"
+        year: "1982"
+        ids:
+            doi: 10.1007/bf01459073
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 103
+      parsed:
+        authors:
+            - R. Johnson
+        title: Alternative approach to Padé approximants
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 104
+      parsed:
+        authors:
+            - P. Graves-Morris
+        title: Padé approximants and their applications
+        year: "1973"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 105
+      parsed:
+        authors:
+            - J. Miklosko
+        title: Investigation of algorithms for numerical computation of continued fractions
+        venue: USSR Comp. Math. and Math. Phys.
+        volume: "16"
+        pages: "1"
+        year: "1976"
+        ids:
+            doi: 10.1016/0041-5553(76)90001-x
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 106
+      to: 2KA0GGMFWK/e1
+      parsed:
+        authors:
+            - C. Brezinski
+        title: Accélération de la convergence en analyse numérique
+        venue: Lecture Notes in Mathematics
+        year: "1977"
+        ids:
+            doi: 10.1007/bfb0089363
+      score: 1
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 107
+      parsed:
+        authors:
+            - C. Brezinski
+        title: 'Algorithmes d’accélération de la convergence: Etude numérique'
+        year: "1978"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 108
+      parsed:
+        authors:
+            - C. Brezinski
+        title: Error control in convergence acceleration processes
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 109
+      parsed:
+        authors:
+            - C. Brezinski
+            - J.P. Delahaye
+            - B. Germain-Bonne
+        title: Convergence acceleration by extraction of linear subsequences
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 110
+      parsed:
+        authors:
+            - J.P. Delahaye
+        title: Accélération des suites dont le rapport des erreurs est borné
+        venue: Calcolo
+        volume: "18"
+        pages: "103"
+        year: "1981"
+        ids:
+            doi: 10.1007/bf02576491
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 111
+      parsed:
+        authors:
+            - J.P. Delahaye
+        title: Padé Approximation and its Application
+        venue: Lecture Notes in Mathematics
+        pages: "158"
+        year: "1981"
+        ids:
+            doi: 10.1007/bfb0095583
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 112
+      parsed:
+        authors:
+            - J.P. Delahaye
+        title: Automatic selection of sequence transformations
+        venue: Math. of Comput.
+        volume: "37"
+        pages: "197"
+        year: "1981"
+        ids:
+            doi: 10.1090/s0025-5718-1981-0616372-5
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 113
+      parsed:
+        authors:
+            - J.P. Delahaye
+        title: Optimalité du procédé Δ2 d’Aitken pour l’accélération de la convergence linéaire
+        venue: RAIRO An. Num.
+        volume: "15"
+        pages: "321"
+        year: "1981"
+        ids:
+            doi: 10.1051/m2an/1981150403211
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 114
+      parsed:
+        authors:
+            - J.P. Delahaye
+        title: Théorie des transformations de suites en analyse numérique
+        year: "1982"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 115
+      parsed:
+        authors:
+            - J.P. Delahaye, B. Germain-Bonne
+        title: Résultats négatifs en accélération de la convergence
+        venue: Num. Math.
+        volume: "35"
+        pages: "443"
+        year: "1980"
+        ids:
+            doi: 10.1007/bf01399010
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 116
+      parsed:
+        authors:
+            - J.P. Delahaye, B. Germain-Bonne
+        title: The set of logarithmically convergent sequences cannot be accelerated
+        venue: S.I.A.M. Num. Anal.
+        volume: "19"
+        pages: "840"
+        year: "1982"
+        ids:
+            doi: 10.1137/0719059
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 117
+      parsed:
+        authors:
+            - B. Germain-Bonne
+        title: Communication personnelle
+        year: "1981"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 118
+      parsed:
+        authors:
+            - C. Kowalewski
+        title: Possibilités d’accélération de la convergence logarithmique
+        year: "1981"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 119
+      parsed:
+        authors:
+            - C. Kowalewski
+        title: Padé Approximation and its Application
+        venue: Lectures Notes in Mathematics
+        pages: "263"
+        year: "1981"
+        ids:
+            doi: 10.1007/bfb0095592
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 120
+      parsed:
+        authors:
+            - BERLINET A.
+        title: Estimating the degrees of an ARMA model
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 121
+      parsed:
+        authors:
+            - BERLINET A.
+        title: Some useful algorithms in time series analysis
+        year: "1983"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 122
+      parsed:
+        authors:
+            - BREZINSKI C.
+        title: ISNM0 vol.50
+        year: "1980"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 123
+      parsed:
+        authors:
+            - BULTHEEL A.
+        title: Epsilon and qd algorithms for the Matrix-Padé and 2-D Padé problem
+        year: "1982"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 124
+      parsed:
+        authors:
+            - CUYT A.
+        title: 'Abstract Padé-approximants for operators: theory and applications'
+        year: "1982"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 125
+      to: SPG8T2B4W4/e1
+      parsed:
+        authors:
+            - DRAUX A.
+        title: Polynômes orthogonaux formels. Applications
+        venue: Lecture Notes in Mathematics
+        year: "1983"
+        ids:
+            doi: 10.1007/bfb0066470
+      score: 1
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 126
+      parsed:
+        authors:
+            - DRAUX A.
+        title: Polynômes orthogonaux formels dans une algëbre non commutative
+        year: "1982"
+        ids:
+            doi: 10.1007/bfb0066471
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 127
+      parsed:
+        authors:
+            - DRAUX A.
+        title: Approximants de type Padé et de Padé
+        year: "1983"
+        ids:
+            doi: 10.1007/bfb0066476
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 128
+      parsed:
+        authors:
+            - DRAUX A.
+        title: Approximants de type Padë et de Padé en deux points
+        year: "1983"
+        ids:
+            doi: 10.1007/bfb0066476
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 129
+      parsed:
+        authors:
+            - DRAUX A.
+        title: L’epsilon algorithme
+        year: "1983"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 130
+      parsed:
+        authors:
+            - DRAUX A.
+        title: Convergence
+        year: "1984"
+        ids:
+            doi: 10.1007/bfb0099613
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 131
+      parsed:
+        authors:
+            - DRAUX A.
+        title: Quelques applications
+        year: "1984"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 132
+      parsed:
+        authors:
+            - DRAUX A.
+        title: Formal orthogonal polynomials and Padé approximants in a non commutative algebra
+        year: "1983"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 133
+      parsed:
+        authors:
+            - GRAGG W.B.
+            - LINDQUIST A.
+        title: On the partial realization problem
+        venue: Linear algebra
+        volume: "50"
+        pages: "277"
+        year: "1983"
+        ids:
+            doi: 10.1016/0024-3795(83)90059-9
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 134
+      parsed:
+        authors:
+            - MOLER C.B.
+            - VAN LOAN C.F.
+        title: Nineteen dubious ways to compute the matrix exponential
+        venue: SIAM Rev.
+        volume: "20"
+        pages: "801"
+        year: "1978"
+        ids:
+            doi: 10.1137/1020098
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 135
+      parsed:
+        authors:
+            - WYNN P.
+        title: Continued fractions whose coefficients obey a non commutative law of multiplication
+        venue: Arch. Rat. Mech. Anal.
+        volume: "12"
+        pages: "273"
+        year: "1963"
+        ids:
+            doi: 10.1007/bf00281229
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 136
+      parsed:
+        authors:
+            - J.P. Delahaye
+        title: Thèse d’Etat
+        year: "1982"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 137
+      parsed:
+        authors:
+            - B. Germain-Bonne
+        title: Publication ANO
+        ids:
+            doi: 10.1002/ncr.4100770117
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 138
+      parsed:
+        authors:
+            - P. R. Graves-Morris [1983]
+        title: Vector Valued Rational Interpolants I
+        venue: Num.Math.
+        volume: "42"
+        pages: "331"
+        year: "1983"
+        ids:
+            doi: 10.1007/bf01389578
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 139
+      parsed:
+        authors:
+            - P. R. Graves-Morris [1984]
+        title: Vector Valued Rational Interpolants II
+        year: "1984"
+        ids:
+            doi: 10.1093/imanum/4.2.209
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 140
+      parsed:
+        authors:
+            - J. B. McCleod [1971]
+        title: A Note on the ε-algorithm
+        venue: Computing
+        volume: "7"
+        pages: "17"
+        year: "1971"
+        ids:
+            doi: 10.1007/bf02279938
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 141
+      parsed:
+        authors:
+            - P. Wynn [1963]
+        title: Continued Fractions whose Coefficients Obey a Non-Commutative Law of Multiplication
+        venue: Arch.Rat.Mech.Analy.
+        volume: "12"
+        pages: "273"
+        year: "1963"
+        ids:
+            doi: 10.1007/bf00281229
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 142
+      parsed:
+        title: C. BREZINSKI-Rational approximation to formal power series. J. of approx theory Vol. 25 no 4 April 79
+        ids:
+            doi: 10.1016/0021-9045(79)90019-4
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 143
+      parsed:
+        authors:
+            - M. Gallucci
+        title: M. GALLUCCI-W.B. JONES-Rational approximation corresponding to Newton series (Newton Padé approximants). J. of approx theory 17.366–392 (1976)
+        venue: J. of approx theory
+        volume: "17"
+        pages: "366"
+        year: "1976"
+        ids:
+            doi: 10.1016/0021-9045(76)90081-2
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 144
+      parsed:
+        title: M. B. FARES-Sur l’approximation rationnelle de fonctions de variable complexe au sens de la norme de Hardy. Thèse de 3ème cycle Grenoble 1982
+        year: "1982"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 145
+      parsed:
+        title: J. VAN ISEGHEM-Applications des approximants de type Padé. Thèse de 3ème cycle Lille 1982
+        year: "1982"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 146
+      parsed:
+        title: J.L. WALSH-Interpolation and approximation by rational functions in the complex domains. AMS coll. Pub. XX
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 147
+      parsed:
+        authors:
+            - G.A. Baker
+        title: Essentials of Padé Approximants
+        year: "1975"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 148
+      parsed:
+        authors:
+            - A. Erdelyi
+            - W. Magnus
+            - F. Oberhettinger
+            - F.G. Tricomi
+        title: Higher Transcendental Functions, Vol. III
+        year: "1955"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 149
+      to: 963RD2QE81/e1
+      parsed:
+        authors:
+            - G.M. Goluzin
+        title: Geometric Theory of Functions of Complex Variable
+        year: "1969"
+        ids:
+            doi: 10.1090/mmono/026
+      score: 1
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 150
+      parsed:
+        authors:
+            - E. Hille
+        title: Analytic Function Theory, Vol. II
+        year: "1962"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 151
+      parsed:
+        authors:
+            - A. Iserles
+        title: Order stars
+        year: "1983"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 152
+      parsed:
+        authors:
+            - A. Iserles
+        title: Order stars
+        year: "1983"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 153
+      parsed:
+        authors:
+            - A. Iserles
+            - M.J.D. Powell
+        title: On the A-acceptability of rational approximations that interpolate the exponential function
+        venue: IMA J. Num. Analysis
+        volume: "1"
+        pages: "241"
+        year: "1981"
+        ids:
+            doi: 10.1093/imanum/1.3.241
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 154
+      parsed:
+        authors:
+            - A. Iserles
+            - R.A. Williamson
+        title: Order and accuracy of semidiscretized finite differences
+        year: "1984"
+        ids:
+            doi: 10.1093/imanum/4.3.289
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 155
+      parsed:
+        authors:
+            - G. Wanner
+            - E. Hairer
+            - S.P. Nørsett
+        title: Order stars and stability theorems
+        venue: BIT
+        volume: "18"
+        pages: "475"
+        year: "1978"
+        ids:
+            doi: 10.1007/bf01932026
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 156
+      parsed:
+        authors:
+            - P. Henrici
+        title: Applied and computational complex analysis. Vol. 2
+        year: "1977"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 157
+      parsed:
+        title: 'Lisa Jacobsen: Convergence acceleration for continued fractions K(an/1). Trans.Amer.Math.Soc. 275'
+        year: "1983"
+        ids:
+            doi: 10.2307/1999018
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 158
+      parsed:
+        title: 'Lisa Jacobsen: Further results on convergence acceleration for continued fractions K(an/1). To appear in: Trans. Amer. Math. Soc'
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 159
+      parsed:
+        title: 'Lisa Jacobsen: Modified approximants for continued fractions. Construction and applications. Kong. Norske Vid. Selsk. Skr. No. 3 (1983)'
+        year: "1983"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 160
+      parsed:
+        title: 'Lisa Jacobsen: Functions defined by continued fractions. Meromorphic continuation. Submitted'
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 161
+      parsed:
+        title: 'Lisa Jacobsen: Convergence of limit k-periodic continued fractions K(an/bn) and of subsequences of their tails. Submitted'
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 162
+      parsed:
+        authors:
+            - William B. Jones
+            - Wolfgang J. Thron
+        title: Continued fractions
+        year: "1980"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 163
+      parsed:
+        authors:
+            - William B. Jones
+            - Wolfgang J. Thron
+        title: Two-point Padé tables and T-fractions
+        venue: Bull. Amer. Math. Soc.
+        volume: "83"
+        pages: "388"
+        year: "1977"
+        ids:
+            doi: 10.1090/s0002-9904-1977-14284-5
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 164
+      parsed:
+        title: 'Arne Magnus: On the structure of the two-point Padé table. Lecture Notes in Math. 932'
+        year: "1982"
+        ids:
+            doi: 10.1007/bfb0093313
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 165
+      parsed:
+        authors:
+            - J.H. McCabe
+            - J.A. Murphy
+        title: Continued fractions which correspond to power series expansions at two points
+        venue: J. Inst. Maths. Applics.
+        volume: "17"
+        pages: "233"
+        year: "1976"
+        ids:
+            doi: 10.1093/imamat/17.2.233
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 166
+      parsed:
+        authors:
+            - O. Perron
+        title: Die Lehre von den Kettenbrüchen, Band II
+        year: "1957"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 167
+      parsed:
+        authors:
+            - W.J. Thron
+        title: Some properties of the continued fraction $$1 + d_o z + K(\tfrac{z}{{1 + d_n z}})$$
+        venue: Bull. Amer. Math. Soc.
+        volume: "54"
+        pages: "206"
+        year: "1948"
+        ids:
+            doi: 10.1090/s0002-9904-1948-08985-6
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 168
+      parsed:
+        authors:
+            - W.J. Thron
+            - Haakon Waadeland
+        title: Accelerating convergence of limit periodic continued fractions K(an/1)
+        venue: Numer. Math.
+        volume: "34"
+        pages: "155"
+        year: "1980"
+        ids:
+            doi: 10.1007/bf01396057
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 169
+      parsed:
+        authors:
+            - J.W. Thron
+            - Haakon Waadeland
+        title: Convergence questions for limit periodic continued fractions
+        venue: Rocky Mountain J. Math.
+        volume: "11"
+        pages: "641"
+        year: "1981"
+        ids:
+            doi: 10.1216/rmj-1981-11-4-641
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 170
+      parsed:
+        authors:
+            - W.J. Thron
+            - Haakon Waadeland
+        title: Analytic continuation of functions defined by means of continued fractions
+        venue: Math. Scand.
+        volume: "47"
+        pages: "72"
+        year: "1980"
+        ids:
+            doi: 10.7146/math.scand.a-11875
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 171
+      parsed:
+        authors:
+            - W.J. Thron
+            - Haakon Waadeland
+        title: On a certain transformation of continued fractions
+        venue: Lecture Notes in Mathematics
+        volume: "932"
+        pages: "225"
+        year: "1982"
+        ids:
+            doi: 10.1007/bfb0093316
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 172
+      parsed:
+        authors:
+            - J.W. Thron
+            - Haakon Waadeland
+        title: Survey of modifications of continued fractions
+        venue: Lecture Notes in Mathematics
+        volume: "932"
+        pages: "38"
+        year: "1982"
+        ids:
+            doi: 10.1007/bfb0093304
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 173
+      parsed:
+        authors:
+            - H. Waadeland
+        title: 'Haakon Waadeland: On limit-periodic general T-fractions and holomorphic functions. J. Approx. Theory 27'
+        venue: J. Approx. Theory
+        volume: "27"
+        pages: "329"
+        year: "1979"
+        ids:
+            doi: 10.1016/0021-9045(79)90122-9
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 174
+      parsed:
+        authors:
+            - H. Waadeland
+        title: 'Haakon Waadeland: On general T-fractions corresponding to functions satisfying certain boundedness properties. J. Approx. Theory 26'
+        venue: J. Approx. Theory
+        volume: "26"
+        pages: "317"
+        year: "1979"
+        ids:
+            doi: 10.1016/0021-9045(79)90068-6
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 175
+      parsed:
+        title: 'Haakon Waadeland: Tales about tails. To appear in: Proc. Amer. Math. Soc'
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 176
+      parsed:
+        authors:
+            - G. Eilenberger
+        title: Solitons
+        venue: Springer Series in Solid Stare Sciences
+        year: "1981"
+        ids:
+            doi: 10.1007/978-3-642-81509-6
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 177
+      parsed:
+        authors:
+            - A.R. Bishop,T. Schneider
+        title: Solitons and Condensed Matter Physics
+        venue: Springer Series in Solid State Sciences
+        year: "1978"
+        ids:
+            doi: 10.1007/978-3-642-81291-0
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 178
+      parsed:
+        authors:
+            - F. Lambert,M. Musette
+        title: Z.Phys
+        venue: Z.Phys. C-Particles and Fields
+        volume: "10"
+        pages: "357"
+        year: "1981"
+        ids:
+            doi: 10.1007/bf01546208
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 179
+      parsed:
+        authors:
+            - F.Lambert,M.Musette
+        title: Stieltjes series and soliton interaction
+        year: "1982"
+        ids:
+            doi: 10.1007/bf01599015
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 180
+      parsed:
+        authors:
+            - R. Rosales
+        title: Stud.Appl.Math
+        venue: Stud.Appl.Math.
+        volume: "59"
+        pages: "117"
+        year: "1978"
+        ids:
+            doi: 10.1002/sapm1978592117
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 181
+      parsed:
+        authors:
+            - R.K. Bullough,P.J. Caudrey
+        title: '"Solitons" Topics in Current Physics, Ch.1'
+        year: "1980"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 182
+      parsed:
+        authors:
+            - F.Calogero,A.Degasperis
+        title: Spectral transform and solitons I
+        year: "1982"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 183
+      parsed:
+        authors:
+            - F.Lambert,M.Musette
+        title: 'Solitons from a direct point of view: padeons'
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 184
+      parsed:
+        authors:
+            - N.I. Ahiezer
+        title: 'N.I. AHIEZER Orthogonal polynomials on several intervals. Sov. Math. 1(1960)989–992. With Yu.Ya. TOMČUK: On the theory of orthogonal polynomials over several intervals'
+        venue: Sov. Math.
+        volume: "1"
+        pages: "989"
+        year: "1960"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 185
+      parsed:
+        authors:
+            - P. ASKEY
+        title: J. WIMP Associated Laguerre and Hermite polynomials. Proc. Edinburg R. Soc. A
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 186
+      parsed:
+        title: G.A. BAKER Jr. Invariance properties in Hermite-Padé approximation. 86th Summer Meeting A.M.S
+        year: "1982"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 187
+      parsed:
+        authors:
+            - G.A. BAKER Jr.
+            - P. GRAVES-MORRIS Padé Approximants II
+        title: Padé Approximants II, Encyc. of Math. 14
+        year: "1981"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 188
+      parsed:
+        authors:
+            - P. BARRUCAND
+        title: Orthogonal Expansions and their Continuous Analogues
+        pages: "43"
+        year: "1968"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 189
+      parsed:
+        authors:
+            - V. Belevitch
+        title: V. BELEVITCH The Gauss hypergeometric ratio as a positive real function. SIAM J. Math. An. 13(1982)1024–1040
+        venue: SIAM J. Math. An.
+        volume: "13"
+        pages: "1024"
+        year: "1982"
+        ids:
+            doi: 10.1137/0513073
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 190
+      parsed:
+        authors:
+            - C. Brezinski
+        title: Padé-type Approximation and General Orthogonal Polynomials
+        year: "1980"
+        ids:
+            doi: 10.1007/978-3-0348-6558-6
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 191
+      to: SPG8T2B4W4/e1
+      parsed:
+        authors:
+            - A. Draux
+        title: Polynômes Orthogonaux Formels-Applications
+        venue: Lect. Notes Math.
+        year: "1983"
+        ids:
+            doi: 10.1007/bfb0066470
+      score: 1
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 192
+      parsed:
+        authors:
+            - W.G. Fair
+        title: W.G. FAIR Padé approximation to the solution of the Riccati equation. Math. Comp. 18(1964)627–634
+        venue: Math. Comp.
+        volume: "18"
+        pages: "627"
+        year: "1964"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 193
+      parsed:
+        authors:
+            - J.L. GAMMEL
+        title: The Riemann Problem, Complete Integrability and Arithmetic Applications
+        venue: Lect. Notes Math.
+        pages: "258"
+        year: "1982"
+        ids:
+            doi: 10.1007/bfb0093514
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 194
+      parsed:
+        authors:
+            - W. Gautschi
+        title: W. GAUTSCHI Minimal solutions of three-term recurrence relations and orthogonal polynomials. Math. Comp. 36(1981)547–554
+        venue: Math. Comp.
+        volume: "36"
+        pages: "547"
+        year: "1981"
+        ids:
+            doi: 10.1090/s0025-5718-1981-0606512-6
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 195
+      parsed:
+        authors:
+            - W.G. Gragg
+        title: W.G. GRAGG Truncation error bounds for g-fractions Numer. Math. 11(1968)370–379
+        venue: Numer. Math.
+        volume: "11"
+        pages: "370"
+        year: "1968"
+        ids:
+            doi: 10.1007/bf02161885
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 196
+      parsed:
+        authors:
+            - W.G. Gragg
+        title: W.G. GRAGG Matrix interpretations and applications of the continued fraction algorithm. Rocky Mount. J. Math. 4(1974)213–225
+        venue: Rocky Mount. J. Math.
+        volume: "4"
+        pages: "213"
+        year: "1974"
+        ids:
+            doi: 10.1216/rmj-1974-4-2-213
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 197
+      parsed:
+        authors:
+            - W. Hahn
+        title: W. HAHN Über lineare Differentialgleichungen
+        venue: Math. Nachrichten
+        volume: "4"
+        pages: "1"
+        year: "1951"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 198
+      parsed:
+        authors:
+            - W. Hahn
+        title: W. HAHN On differential equations for orthogonal polynomials
+        venue: Funkcialaj Ekvacioj
+        volume: "21"
+        pages: "1"
+        year: "1978"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 199
+      parsed:
+        authors:
+            - W. HAHN
+        title: Über Differentialgleichungen für Orthogonalpolynome Monat. Math. 95(1983)269–274
+        venue: Monat. Math.
+        volume: "95"
+        pages: "269"
+        year: "1983"
+        ids:
+            doi: 10.1007/bf01547798
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 200
+      parsed:
+        authors:
+            - R. Haydock
+        title: Solid State Physics 35
+        pages: "215"
+        year: "1980"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 201
+      parsed:
+        authors:
+            - E. HENDRIKSEN
+        title: H van ROSSUM A Padé-type approach to non-classical orthogonal polynomials. J. Math. An. Appl
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 202
+      parsed:
+        authors:
+            - E.L. INCE Ordinary Differential Equations
+        title: Ordinary Differential Equations
+        year: "1927"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 203
+      parsed:
+        authors:
+            - K. Ishii
+        title: K. ISHII Localization of eigenstates and transport phenomena in the one-dimensional disordered system. Suppl. Prog. Theor. Phys. 53(1973)77–138
+        venue: Suppl. Prog. Theor. Phys.
+        volume: "53"
+        pages: "77"
+        year: "1973"
+        ids:
+            doi: 10.1143/ptps.53.77
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 204
+      parsed:
+        authors:
+            - L. JACOBSEN
+        title: H. WAADELAND Modification of continued fractions. These Proceedings
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 205
+      parsed:
+        authors:
+            - W.B. JONES
+        title: W.J. THRON Continued Fractions. Analytic Theory and Applications. Encyc. of Math. 11 Addison Wesley 1980
+        year: "1980"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 206
+      parsed:
+        authors:
+            - J. KARLSSON
+        title: B. von SYDOW The convergence of Padé approximants to series of Stieltjes. Ark. Mat. 14(1976)43–53
+        venue: Ark. Mat.
+        volume: "14"
+        pages: "43"
+        year: "1976"
+        ids:
+            doi: 10.1007/bf02385822
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 207
+      parsed:
+        authors:
+            - A.N. Khovanskii
+        title: The Application of Continued Fractions and their Generalizations to Problems in Approximation Theory
+        year: "1963"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 208
+      parsed:
+        title: T.H. KOORNWINDER A further generalization of Krall’s Jacobi type polynomials. Preprint Math. Centr. Amsterdam ZW 171
+        year: "1982"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 209
+      parsed:
+        authors:
+            - A.M. Krall
+        title: A.M. KRALL Chebyshew sets of polynomials which satisfy an ordinary differential equation. SIAM Rev. 22(1980)436–441
+        venue: SIAM Rev.
+        volume: "22"
+        pages: "436"
+        year: "1980"
+        ids:
+            doi: 10.1137/1022087
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 210
+      parsed:
+        authors:
+            - H. KUNZ
+        title: B. SOUILLARD Sur le spectre des opérateurs aux différences finies aléatoires. Comm. Math. Phys. 78(1980)201–246
+        venue: Comm. Math. Phys.
+        volume: "78"
+        pages: "201"
+        year: "1980"
+        ids:
+            doi: 10.1007/bf01942371
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 211
+      parsed:
+        authors:
+            - E. Laguerre
+        title: E. LAGUERRE Sur la réduction en fractions continues d’une fraction qui satisfait à une équation différentielle linéaire du premier ordre dont les coefficients sont rationnels. J. de Math. 1(1885)135–165 = Oeuvres II 685–711
+        venue: J. de Math.
+        volume: "1"
+        pages: "135"
+        year: "1885"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 212
+      parsed:
+        authors:
+            - P. LAMBIN
+        title: J.P. GASPARD Continued fraction technique for tight-binding systems. A generalized moments approach. Phys. Rev. B 26(1982)4356–4368
+        venue: Phys. Rev. B
+        volume: "26"
+        pages: "4356"
+        year: "1982"
+        ids:
+            doi: 10.1103/physrevb.26.4356
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 213
+      parsed:
+        authors:
+            - L.L. LITTLEJOHN
+        title: S.D. SHORE Nonclassical orthogonal polynomials as solutions to second order differential equations. Canad. Math. Bull. 25(1982)291–295
+        venue: Canad. Math. Bull.
+        volume: "25"
+        pages: "291"
+        year: "1982"
+        ids:
+            doi: 10.4153/cmb-1982-040-2
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 214
+      parsed:
+        authors:
+            - Y.L. Luke
+        title: The Special Functions and their Approximations II
+        year: "1969"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 215
+      parsed:
+        authors:
+            - A. Magnus
+        title: Al. MAGNUS Fractions continues généralisées et matrices infinies. Bull. Soc. Math. Belgique 29B(1977)145–159
+        venue: Bull. Soc. Math. Belgique
+        volume: 29B
+        pages: "145"
+        year: "1977"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 216
+      parsed:
+        title: Al. MAGNUS Recurrence coefficients for orthogonal polynomials on connected and non connected sets
+        year: "1979"
+        ids:
+            doi: 10.1007/bfb0085579
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 217
+      parsed:
+        title: P. MARONI Sur la continuité absolue de la mesure liée à la suite des polynômes orthogonaux associés à une suite orthogonale donnée. Colloque d’Analyse Numérique. Belgadère 1982
+        year: "1982"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 218
+      parsed:
+        authors:
+            - J. Meinguet
+        title: On the solubility of the Cauchy interpolation problem
+        pages: "137"
+        year: "1970"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 219
+      parsed:
+        title: P. NEVAI Two of my favorite ways of obtaining asymptotics for orthogonal polynomials. Oberwolfach 1983
+        year: "1983"
+        ids:
+            doi: 10.1007/978-3-0348-5432-0_37
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 220
+      parsed:
+        authors:
+            - J. NUTTALL
+        title: S.R. SINGH Orthogonal polynomials and Padé approximants associated with a system of arcs. J. Approx. Theory 21(1977)1–42
+        venue: J. Approx. Theory
+        volume: "21"
+        pages: "1"
+        year: "1977"
+        ids:
+            doi: 10.1016/0021-9045(77)90117-4
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 221
+      parsed:
+        authors:
+            - J. Nuttall
+        title: Padé and Rational Approximation
+        pages: "101"
+        year: "1977"
+        ids:
+            doi: 10.1016/b978-0-12-614150-4.50013-7
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 222
+      parsed:
+        title: J. NUTTALL Asymptotics of diagonal Hermite-Padé polynomials. Preprint Univ. Western Ontario 1983
+        year: "1983"
+        ids:
+            doi: 10.1007/978-1-4899-6790-9_5
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 223
+      parsed:
+        authors:
+            - O. PERRON Die Lehre von den Kettenbrüchen
+        title: 2nd ed. Teubner
+        year: "1929"
+        edition: "2"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 224
+      parsed:
+        authors:
+            - J. Shohat
+        title: J. SHOHAT A differential equation for orthogonal polynomials Duke Math. J. 5(1939)401–407
+        venue: Duke Math. J.
+        volume: "5"
+        pages: "401"
+        year: "1939"
+        ids:
+            doi: 10.1215/s0012-7094-39-00534-x
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 225
+      parsed:
+        authors:
+            - A.N. Stokes
+        title: A.N. STOKES Continued fraction solutions of the Riccati equation. Bull. Austral. Math. Soc. 25(1982)207–214
+        venue: Bull. Austral. Math. Soc.
+        volume: "25"
+        pages: "207"
+        year: "1982"
+        ids:
+            doi: 10.1017/s0004972700005219
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 226
+      parsed:
+        authors:
+            - W.J. THRON
+        title: Analytic Theory of Continued Fractions
+        venue: Lect. Notes Math.
+        pages: "38"
+        year: "1982"
+        ids:
+            doi: 10.1007/bfb0093304
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 227
+      parsed:
+        authors:
+            - P. TURCHI
+            - F. DUCASTELLE
+        title: G. TREGLIA Band gaps and asymptotic behaviour of continued fraction coefficients
+        venue: J. Phys. C
+        volume: "15"
+        pages: "2891"
+        year: "1982"
+        ids:
+            doi: 10.1088/0022-3719/15/13/017
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 228
+      parsed:
+        authors:
+            - W. Waadeland
+        title: W. WAADELAND Differential equations and modifications of continued fractions
+        venue: Det Kong. Norske Vidensk. Selskab Skrifter
+        volume: "1"
+        pages: "136"
+        year: "1983"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 229
+      parsed:
+        title: H.S. WALL Analytic Theory of Continued Fractions. van Nostrand N.Y. 1948
+        year: "1948"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 230
+      parsed:
+        authors:
+            - H. Werner
+        title: Computational Complex Analysis
+        pages: "325"
+        year: "1983"
+        ids:
+            doi: 10.1007/978-94-009-7121-9_14
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 231
+      parsed:
+        authors:
+            - J. Wimp
+        title: Computations with Recurrence Relations
+        year: "1984"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 232
+      parsed:
+        title: Brezinski
+        year: "1980"
+        ids:
+            doi: 10.1007/978-3-0348-6558-6
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 233
+      parsed:
+        authors:
+            - P. Henrici
+        title: Applied and Computational Complex Analysis
+        year: "1977"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 234
+      parsed:
+        authors:
+            - Jones, W.B., Njastad, O.
+            - Thron, W.J.
+        title: Orthogonal Laurent Polynomials and the strong Hamburger moment problem
+        ids:
+            doi: 10.1016/0022-247x(84)90267-1
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 235
+      parsed:
+        authors:
+            - Jones, W.W., Thron, W.J.
+            - Waadeland, H.
+        title: A strong Stieltjes moment problem
+        venue: Trans. Amer. Math. Soc.
+        volume: "261"
+        pages: "503"
+        year: "1980"
+        ids:
+            doi: 10.1090/s0002-9947-1980-0580900-4
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 236
+      parsed:
+        authors:
+            - McCabe, J.H.
+        title: 'The quotient-difference algorithm and the Padé table: an alternative form and a general continued fraction'
+        venue: Mathematics of Computation
+        volume: "45"
+        pages: "183"
+        year: "1983"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 237
+      parsed:
+        authors:
+            - O. Perron
+        title: Die Lehre von dem Kettenbrüchen
+        year: "1950"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 238
+      parsed:
+        title: Szegö
+        year: "1959"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 239
+      parsed:
+        authors:
+            - C. Brezinski
+        title: Padé-type Approximation and General Orthogonal Polynomials
+        year: "1980"
+        ids:
+            doi: 10.1007/978-3-0348-6558-6
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 240
+      parsed:
+        authors:
+            - H.A. Hakopian
+        title: Multivariate Divided Differences and Multivariate Interpolation of Lagrange and Hermite type
+        venue: J. of Approximation Theory
+        volume: "34"
+        pages: "286"
+        year: "1982"
+        ids:
+            doi: 10.1016/0021-9045(82)90019-3
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 241
+      parsed:
+        authors:
+            - G. Hornecker
+        title: Approximations rationnelles voisines de la meilleure approximation au sens de Tchebycheff
+        venue: C.R. Acad. Sc. Paris
+        volume: "249"
+        pages: "939"
+        year: "1959"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 242
+      parsed:
+        authors:
+            - S. Paszkowski
+        title: Approximation uniforme des fonctions continues par les fonctions rationnelles
+        venue: Zastosowania Matematyki
+        volume: "6"
+        pages: "441"
+        year: "1963"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 243
+      parsed:
+        authors:
+            - F. Riesz
+            - B. Sz. Nagy
+        title: Lecons d’Analyse Fonctionnelle
+        year: "1968"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 244
+      parsed:
+        authors:
+            - P. Sablonniere
+        title: A new family of Padé-type approximant in ℝk
+        venue: J.C.A.M.
+        volume: "9"
+        pages: "347"
+        year: "1983"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 245
+      parsed:
+        authors:
+            - P. Sablonniere
+        title: Bases de Bernstein et Approximants Splines
+        year: "1982"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 246
+      parsed:
+        authors:
+            - G.A. Baker
+        title: Essentials of Padé Approximants
+        year: "1975"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 247
+      parsed:
+        authors:
+            - G. Dahlquist
+        title: Dahlquist
+        venue: Math. Scand
+        volume: "4"
+        pages: "33"
+        year: "1956"
+        ids:
+            doi: 10.7146/math.scand.a-10454
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 248
+      parsed:
+        authors:
+            - A. Iserles
+        title: Iserles
+        venue: IMA J. Num. Analysis
+        volume: "2"
+        pages: "49"
+        year: "1982"
+        ids:
+            doi: 10.1093/imanum/2.1.49
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 249
+      parsed:
+        authors:
+            - A. Iserles
+        title: Iserles
+        venue: Trans. Amer. Math. Soc.
+        volume: "2"
+        pages: "779"
+        year: "1983"
+        ids:
+            doi: 10.1090/s0002-9947-1983-0694388-9
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 250
+      parsed:
+        title: Iserles
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 251
+      parsed:
+        authors:
+            - A. Iserles
+        title: Numerical Analysis of Differential Equations
+        year: "1984"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 252
+      parsed:
+        authors:
+            - R.D. Richtmyer
+        title: Difference Methods for Initial-Value Problems
+        year: "1967"
+      matcher: resolve/1
+    - from: 3XX5RNF33G/e1
+      n: 253
+      parsed:
+        authors:
+            - G. Wanner
+        title: Wanner
+        venue: BIT
+        volume: "18"
+        pages: "475"
+        year: "1978"
+        ids:
+            doi: 10.1007/bf01932026
+      matcher: resolve/1
+---
