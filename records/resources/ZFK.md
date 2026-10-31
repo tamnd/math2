@@ -11,6 +11,9 @@ records:
         - name: I. V. Korenev
           role: author
       date: "2025-07-08"
+      msc:
+        - code: 81-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: hep-th

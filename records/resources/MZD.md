@@ -7,12 +7,26 @@ records:
         - name: Werner Ricker
           role: author
       date: "1999"
+      msc:
+        - code: 47B40
+          from: zbmath_search
+        - code: 28B05
+          from: zbmath_search
+        - code: "06E15"
+          from: zbmath_search
+        - code: 47-02
+          from: zbmath_search
+        - code: 47L10
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1999"
           ids:
             doi: 10.1007/bfb0096184
+            zbl: "0936.47020"
+            zbl_id: "1361778"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +36,8 @@ records:
                 isbn:
                     - "9783540664611"
                     - "9783540482796"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -34,6 +50,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0096184
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "1361778"
           level: work
       history:
         - op: add

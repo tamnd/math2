@@ -7,12 +7,32 @@ records:
         - name: Kenneth R. Meyer
           role: author
       date: "1999"
+      msc:
+        - code: 70-02
+          from: zbmath_search
+        - code: 70F10
+          from: zbmath_search
+        - code: 70H12
+          from: zbmath_search
+        - code: 70H05
+          from: zbmath_search
+        - code: 70F15
+          from: zbmath_search
+        - code: 37N05
+          from: zbmath_search
+        - code: 37-02
+          from: zbmath_search
+        - code: 34C25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1999"
           ids:
             doi: 10.1007/bfb0094677
+            zbl: "0958.70001"
+            zbl_id: "1391007"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +42,8 @@ records:
                 isbn:
                     - "9783540666301"
                     - "9783540480730"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -34,6 +56,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0094677
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "1391007"
           level: work
       history:
         - op: add

@@ -7,6 +7,9 @@ records:
         - name: Mahouton Norbert Hounkonnou
           role: author
       date: "2026-09-27"
+      msc:
+        - code: 81-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: nlin.SI

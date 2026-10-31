@@ -17,14 +17,32 @@ records:
         - name: Richard Thomas
           role: editor
       date: "2018-06-01"
+      msc:
+        - code: 14-06
+          from: zbmath_search
+        - code: 14Exx
+          from: zbmath_search
+        - code: 14Fxx
+          from: zbmath_search
+        - code: 14J33
+          from: zbmath_search
+        - code: 14N35
+          from: zbmath_search
+        - code: 14H10
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2018-06-01"
           ids:
             doi:
                 - 10.1090/pspum/097.1
                 - 10.1090/pspum/097.2
+            zbl: "1392.14001"
+            zbl_id: "6896959"
           manifestations:
             - key: m1
               kind: print
@@ -35,6 +53,8 @@ records:
                     - "9781470435776"
                     - "9781470446789"
                     - "9781470446796"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: American Mathematical Society
@@ -44,6 +64,8 @@ records:
                     - "9781470435783"
                     - "9781470446802"
                     - "9781470446819"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: EVG9FMRY3R
@@ -60,6 +82,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/pspum/097.2
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6896959"
           level: work
       history:
         - op: add

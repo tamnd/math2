@@ -52,6 +52,8 @@ records:
                 isbn:
                     - "9781470471132"
                     - "9781470469870"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: M891DMMNP3

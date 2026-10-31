@@ -7,14 +7,32 @@ records:
         - name: Richard K. Guy
           role: author
       date: "1994"
+      msc:
+        - code: 11-02
+          from: zbmath_search
+        - code: 00A07
+          from: zbmath_search
+        - code: 11Bxx
+          from: zbmath_search
+        - code: 11Dxx
+          from: zbmath_search
+        - code: 11Nxx
+          from: zbmath_search
+        - code: 11Pxx
+          from: zbmath_search
+        - code: 11Axx
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1994"
           ids:
             doi:
                 - 10.1007/978-0-387-26677-0
                 - 10.1007/978-1-4899-3585-4
+            zbl: "0805.11001"
+            zbl_id: "683826"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +42,8 @@ records:
                 isbn:
                     - "9781441919281"
                     - "9780387266770"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer New York
@@ -32,6 +52,8 @@ records:
                 isbn:
                     - "9781489935878"
                     - "9781489935854"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: AQAR17SPHM
@@ -48,6 +70,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4899-3585-4
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "683826"
           level: work
       history:
         - op: add

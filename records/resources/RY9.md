@@ -34,6 +34,8 @@ records:
                 isbn:
                     - "9781470481049"
                     - "9781470476199"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: American Mathematical Society
@@ -42,6 +44,8 @@ records:
                 isbn:
                     - "9781470481056"
                     - "9781470476205"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1

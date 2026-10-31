@@ -11,6 +11,9 @@ records:
         - name: K. Sreenadh
           role: author
       date: "2026-10-06"
+      msc:
+        - code: 35-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.AP
@@ -18,9 +21,11 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2026-10-06"
           ids:
             arxiv: "2610.09001"
+            zbl_id: "903201547"
       scope:
         value: in
         rule: S2
@@ -29,6 +34,14 @@ records:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
           native_id: "2610.09001"
+          level: work
+        - source: arxiv_text
+          snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
+          native_id: "2610.09001"
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "903201547"
           level: work
       history:
         - op: add
@@ -45,12 +58,24 @@ records:
         - name: Joan Cerdà
           role: author
       date: "2010-06-23"
+      msc:
+        - code: 46-01
+          from: zbmath_search
+        - code: 46Axx
+          from: zbmath_search
+        - code: 46Exx
+          from: zbmath_search
+        - code: 47B15
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2010-06-23"
           ids:
             doi: 10.1090/gsm/116
+            zbl: "1203.46001"
+            zbl_id: "5757683"
           manifestations:
             - key: m1
               kind: print
@@ -61,6 +86,8 @@ records:
                     - "9780821851159"
                     - "9780821872031"
                     - "9781470411787"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: YBEDX3XNVA
@@ -73,6 +100,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/gsm/116
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5757683"
           level: work
       history:
         - op: add

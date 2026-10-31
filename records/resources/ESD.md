@@ -13,6 +13,11 @@ records:
         - name: Yunlong Xiao
           role: author
       date: "2026-10-02"
+      msc:
+        - code: 20-XX
+          from: arxiv
+        - code: 22-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

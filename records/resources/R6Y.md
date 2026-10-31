@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9783030789763"
                     - "9783030789770"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

@@ -7,15 +7,23 @@ records:
         - name: Jean-Pierre Serre
           role: author
       date: "1965"
+      msc:
+        - code: 12G05
+          from: zbmath_search
+        - code: 12-02
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: fr
           date: "1965"
           ids:
             doi:
                 - 10.1007/978-3-662-21553-1
                 - 10.1007/978-3-662-21576-0
                 - 10.1007/bfb0108758
+            zbl: "0136.02801"
+            zbl_id: "3220423"
           manifestations:
             - key: m1
               kind: print
@@ -25,6 +33,8 @@ records:
                 isbn:
                     - "9783540060840"
                     - "9783662215531"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -33,6 +43,8 @@ records:
                 isbn:
                     - "9783540033493"
                     - "9783662215760"
+              access:
+                class: record
             - key: m3
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -41,6 +53,8 @@ records:
                 isbn:
                     - "9783540580027"
                     - "9783540249276"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -61,6 +75,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0108758
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3220423"
           level: work
       history:
         - op: add

@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9781852334246"
                     - "9781447101796"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 3YXAC8SZBF

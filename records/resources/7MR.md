@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9781849962506"
                     - "9781849962513"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 3YXAC8SZBF
@@ -50,12 +52,24 @@ records:
         - name: Grigorios A. Pavliotis
           role: author
       date: "2014"
+      msc:
+        - code: 60-01
+          from: zbmath_search
+        - code: 60G05
+          from: zbmath_search
+        - code: 60H10
+          from: zbmath_search
+        - code: 60H35
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2014"
           ids:
             doi: 10.1007/978-1-4939-1323-7
+            zbl: "1318.60003"
+            zbl_id: "6313590"
           manifestations:
             - key: m1
               kind: print
@@ -65,6 +79,8 @@ records:
                 isbn:
                     - "9781493913220"
                     - "9781493913237"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7B8JKAVW9F
@@ -77,6 +93,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4939-1323-7
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6313590"
           level: work
       history:
         - op: add

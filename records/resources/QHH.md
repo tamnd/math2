@@ -9,12 +9,28 @@ records:
         - name: Kathryn Hess
           role: editor
       date: "2006"
+      msc:
+        - code: 55-06
+          from: zbmath_search
+        - code: 11-06
+          from: zbmath_search
+        - code: 19-06
+          from: zbmath_search
+        - code: 20-06
+          from: zbmath_search
+        - code: 46-06
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2006"
           ids:
             doi: 10.1090/conm/399
+            zbl: "1086.55001"
+            zbl_id: "5021534"
           manifestations:
             - key: m1
               kind: print
@@ -25,6 +41,8 @@ records:
                     - "9780821836965"
                     - "9780821857311"
                     - "9780821879894"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -37,6 +55,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/399
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5021534"
           level: work
       history:
         - op: add
@@ -55,12 +77,24 @@ records:
         - name: Atsushi Moriwaki
           role: author
       date: "2020"
+      msc:
+        - code: 14-02
+          from: zbmath_search
+        - code: 14G40
+          from: zbmath_search
+        - code: 14G25
+          from: zbmath_search
+        - code: 11G50
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2020"
           ids:
             doi: 10.1007/978-981-15-1728-0
+            zbl: "1485.14001"
+            zbl_id: "7150972"
           manifestations:
             - key: m1
               kind: print
@@ -70,6 +104,8 @@ records:
                 isbn:
                     - "9789811517273"
                     - "9789811517280"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -82,6 +118,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-981-15-1728-0
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7150972"
           level: work
       history:
         - op: add

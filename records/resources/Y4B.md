@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9783030881580"
                     - "9783030881597"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: FA5PXCH6G7

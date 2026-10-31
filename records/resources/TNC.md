@@ -9,6 +9,9 @@ records:
         - name: José Iovino
           role: author
       date: "2026-10-09"
+      msc:
+        - code: 46-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

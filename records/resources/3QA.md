@@ -15,12 +15,32 @@ records:
         - name: Victor Reiner
           role: editor
       date: "2024-09-05"
+      msc:
+        - code: 05-06
+          from: zbmath_search
+        - code: 13-06
+          from: zbmath_search
+        - code: 14-06
+          from: zbmath_search
+        - code: 00A27
+          from: zbmath_search
+        - code: "05E14"
+          from: zbmath_search
+        - code: "05E16"
+          from: zbmath_search
+        - code: 13F55
+          from: zbmath_search
+        - code: 14Nxx
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2024-09-05"
           ids:
             doi: 10.1090/pspum/110
+            zbl: "1545.05002"
+            zbl_id: "7898077"
           manifestations:
             - key: m1
               kind: print
@@ -30,6 +50,8 @@ records:
                 isbn:
                     - "9781470477974"
                     - "9781470473334"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: EVG9FMRY3R
@@ -42,6 +64,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/pspum/110
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7898077"
           level: work
       history:
         - op: add
@@ -58,12 +84,24 @@ records:
         - name: Hiroshi Isozaki
           role: editor
       date: "2004"
+      msc:
+        - code: 35-06
+          from: zbmath_search
+        - code: 34-06
+          from: zbmath_search
+        - code: 65-06
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2004"
           ids:
             doi: 10.1090/conm/348
+            zbl: "1052.35005"
+            zbl_id: "2123119"
           manifestations:
             - key: m1
               kind: print
@@ -74,6 +112,8 @@ records:
                     - "9780821834213"
                     - "9780821856833"
                     - "9780821879382"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -86,6 +126,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/348
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "2123119"
           level: work
       history:
         - op: add

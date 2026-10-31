@@ -16,6 +16,8 @@ records:
               publisher: IIIT Delhi
               ids:
                 nptel: "111106144"
+              access:
+                class: record
       scope:
         value: in
         rule: S6

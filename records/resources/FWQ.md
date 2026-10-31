@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9783540052937"
                     - "9783540364191"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -54,15 +56,31 @@ records:
         - name: Christian Matthias Hafner
           role: author
       date: "2004"
+      msc:
+        - code: 91-01
+          from: zbmath_search
+        - code: 91Gxx
+          from: zbmath_search
+        - code: 91G70
+          from: zbmath_search
+        - code: 91B84
+          from: zbmath_search
+        - code: 62M10
+          from: zbmath_search
+        - code: 62P05
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2004"
           ids:
             doi:
                 - 10.1007/978-3-030-13751-9
                 - 10.1007/978-3-642-54539-9
                 - 10.1007/978-3-662-10026-4
+            zbl: "1059.91001"
+            zbl_id: "2106097"
           manifestations:
             - key: m1
               kind: print
@@ -72,6 +90,8 @@ records:
                 isbn:
                     - "9783030137502"
                     - "9783030137519"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -80,6 +100,8 @@ records:
                 isbn:
                     - "9783642545382"
                     - "9783642545399"
+              access:
+                class: record
             - key: m3
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -88,6 +110,8 @@ records:
                 isbn:
                     - "9783540216759"
                     - "9783662100264"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W0CC03QJC7
@@ -108,6 +132,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-662-10026-4
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "2106097"
           level: work
       history:
         - op: add

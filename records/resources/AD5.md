@@ -11,12 +11,20 @@ records:
         - name: Jie-Tai Yu
           role: editor
       date: "2005"
+      msc:
+        - code: 14-06
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2005"
           ids:
             doi: 10.1090/conm/369
+            zbl: "1058.14001"
+            zbl_id: "2150893"
           manifestations:
             - key: m1
               kind: print
@@ -27,6 +35,8 @@ records:
                     - "9780821834763"
                     - "9780821857038"
                     - "9780821879597"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -39,6 +49,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/369
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "2150893"
           level: work
       history:
         - op: add
@@ -55,12 +69,24 @@ records:
         - name: Bei Hu
           role: author
       date: "2011"
+      msc:
+        - code: 35-02
+          from: zbmath_search
+        - code: 35B44
+          from: zbmath_search
+        - code: 35B40
+          from: zbmath_search
+        - code: 35K58
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2011"
           ids:
             doi: 10.1007/978-3-642-18460-4
+            zbl: "1226.35001"
+            zbl_id: "5854821"
           manifestations:
             - key: m1
               kind: print
@@ -70,6 +96,8 @@ records:
                 isbn:
                     - "9783642184598"
                     - "9783642184604"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -82,6 +110,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-642-18460-4
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5854821"
           level: work
       history:
         - op: add

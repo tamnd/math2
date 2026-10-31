@@ -9,6 +9,9 @@ records:
         - name: Peter Bierhorst
           role: author
       date: "2026-10-08"
+      msc:
+        - code: 94-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

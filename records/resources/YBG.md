@@ -25,6 +25,8 @@ records:
                     - "9780821814505"
                     - "9780821868027"
                     - "9780821893319"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: American Mathematical Society
@@ -34,6 +36,8 @@ records:
                     - "9780821814666"
                     - "9780821868034"
                     - "9780821893326"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: EVG9FMRY3R

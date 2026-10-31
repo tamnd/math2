@@ -23,6 +23,8 @@ records:
                     - "9780821833391"
                     - "9780821856925"
                     - "9780821879474"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -68,6 +70,8 @@ records:
                 isbn:
                     - "9783540114864"
                     - "9783540391678"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

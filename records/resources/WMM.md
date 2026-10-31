@@ -7,12 +7,26 @@ records:
         - name: Ichiro Shigekawa
           role: author
       date: "2004-05-18"
+      msc:
+        - code: 60-02
+          from: zbmath_search
+        - code: 60H07
+          from: zbmath_search
+        - code: 47D07
+          from: zbmath_search
+        - code: 60H10
+          from: zbmath_search
+        - code: 60H05
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2004-05-18"
           ids:
             doi: 10.1090/mmono/224
+            zbl: "1064.60003"
+            zbl_id: "2109358"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +36,8 @@ records:
                 isbn:
                     - "9780821826263"
                     - "9781470446482"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9
@@ -34,6 +50,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/mmono/224
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "2109358"
           level: work
       history:
         - op: add

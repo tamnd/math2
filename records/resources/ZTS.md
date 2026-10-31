@@ -22,11 +22,15 @@ records:
               publisher: IIT Roorkee
               ids:
                 nptel: "111107105"
+              access:
+                class: record
             - key: m2
               kind: page
               publisher: IIT Roorkee
               ids:
                 nptel: "111107107"
+              access:
+                class: record
       scope:
         value: in
         rule: S6

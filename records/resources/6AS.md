@@ -9,6 +9,9 @@ records:
         - name: Stéphane Chrétien
           role: author
       date: "2026-08-11"
+      msc:
+        - code: 37-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: stat.ML

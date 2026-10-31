@@ -27,6 +27,8 @@ records:
                     - "9781470428105"
                     - "9781470437459"
                     - "9781470437466"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1

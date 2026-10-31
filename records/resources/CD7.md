@@ -7,14 +7,22 @@ records:
         - name: Richard Kadison
           role: editor
       date: "1982"
+      msc:
+        - code: 00Bxx
+          from: zbmath_search
+        - code: 46-06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1982"
           ids:
             doi:
                 - 10.1090/pspum/038.1
                 - 10.1090/pspum/038.2
+            zbl: "0488.00012"
+            zbl_id: "3767582"
           manifestations:
             - key: m1
               kind: print
@@ -25,6 +33,8 @@ records:
                     - "9780821814413"
                     - "9780821867983"
                     - "9780821893272"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: American Mathematical Society
@@ -34,6 +44,8 @@ records:
                     - "9780821814444"
                     - "9780821867990"
                     - "9780821893289"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: EVG9FMRY3R
@@ -50,6 +62,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/pspum/038.2
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3767582"
           level: work
       history:
         - op: add

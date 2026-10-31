@@ -11,12 +11,30 @@ records:
         - name: Gordon Slade
           role: author
       date: "2019"
+      msc:
+        - code: 81-01
+          from: zbmath_search
+        - code: 82-02
+          from: zbmath_search
+        - code: 81T17
+          from: zbmath_search
+        - code: 60G15
+          from: zbmath_search
+        - code: 60K35
+          from: zbmath_search
+        - code: 82B27
+          from: zbmath_search
+        - code: 82B41
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2019"
           ids:
             doi: 10.1007/978-981-32-9593-3
+            zbl: "1471.81001"
+            zbl_id: "7103768"
           manifestations:
             - key: m1
               kind: print
@@ -26,6 +44,8 @@ records:
                 isbn:
                     - "9789813295919"
                     - "9789813295933"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -38,6 +58,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-981-32-9593-3
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7103768"
           level: work
       history:
         - op: add

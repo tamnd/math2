@@ -11,6 +11,9 @@ records:
         - name: Ruben Skorupinski
           role: author
       date: "2026-09-30"
+      msc:
+        - code: 60-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG

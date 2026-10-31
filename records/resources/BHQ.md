@@ -26,6 +26,8 @@ records:
                 isbn:
                     - "9781447145578"
                     - "9781447145585"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -34,6 +36,8 @@ records:
                 isbn:
                     - "9783540128311"
                     - "9783662023822"
+              access:
+                class: record
             - key: m3
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -42,6 +46,8 @@ records:
                 isbn:
                     - "9783540578390"
                     - "9783662029626"
+              access:
+                class: record
             - key: m4
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -50,6 +56,8 @@ records:
                 isbn:
                     - "9783540098935"
                     - "9783662084021"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W0CC03QJC7

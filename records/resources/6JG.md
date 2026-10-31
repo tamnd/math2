@@ -55,6 +55,8 @@ records:
                 isbn:
                     - "9783319538709"
                     - "9783319538716"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer International Publishing
@@ -63,6 +65,8 @@ records:
                 isbn:
                     - "9783319779737"
                     - "9783319779744"
+              access:
+                class: record
             - key: m3
               kind: print
               publisher: Springer International Publishing
@@ -71,6 +75,8 @@ records:
                 isbn:
                     - "9783319779768"
                     - "9783319779775"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: AQAR17SPHM

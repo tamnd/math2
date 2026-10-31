@@ -28,6 +28,8 @@ records:
                 isbn:
                     - "9780821803905"
                     - "9780821833766"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: American Mathematical Society
@@ -36,6 +38,8 @@ records:
                 isbn:
                     - "9780821827765"
                     - "9781470412708"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: M891DMMNP3

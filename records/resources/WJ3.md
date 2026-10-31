@@ -36,6 +36,8 @@ records:
                 isbn:
                     - "9783540677826"
                     - "9783540449768"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

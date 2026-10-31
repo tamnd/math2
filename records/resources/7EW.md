@@ -9,6 +9,9 @@ records:
         - name: Aditya Ramamoorthy
           role: author
       date: "2009-05-14"
+      msc:
+        - code: 94-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.IT
@@ -20,6 +23,7 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2009-05-14"
           ids:
             arxiv: "0905.2248"
@@ -30,6 +34,10 @@ records:
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "0905.2248"
+          level: work
+        - source: arxiv_text
+          snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
           native_id: "0905.2248"
           level: work
       history:
@@ -51,12 +59,42 @@ records:
         - name: Amanda Young
           role: editor
       date: "2020-01-27"
+      msc:
+        - code: 05-06
+          from: zbmath_search
+        - code: 05C80
+          from: zbmath_search
+        - code: 60H15
+          from: zbmath_search
+        - code: 60J10
+          from: zbmath_search
+        - code: 81Q10
+          from: zbmath_search
+        - code: 81Q15
+          from: zbmath_search
+        - code: 82B20
+          from: zbmath_search
+        - code: 82B44
+          from: zbmath_search
+        - code: 82C10
+          from: zbmath_search
+        - code: 82C20
+          from: zbmath_search
+        - code: 82C22
+          from: zbmath_search
+        - code: 90B15
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2020-01-27"
           ids:
             doi: 10.1090/conm/741
+            zbl: "1435.05002"
+            zbl_id: "7161735"
           manifestations:
             - key: m1
               kind: print
@@ -67,6 +105,8 @@ records:
                     - "9781470448417"
                     - "9781470453886"
                     - "9781470456467"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -79,6 +119,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/741
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7161735"
           level: work
       history:
         - op: add

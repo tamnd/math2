@@ -21,6 +21,9 @@ records:
         - name: Kenta Ozeki
           role: author
       date: "2022-10-21"
+      msc:
+        - code: 05-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.DS

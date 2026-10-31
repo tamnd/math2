@@ -7,6 +7,11 @@ records:
         - name: Timothy G. Clos
           role: author
       date: "2022-04-03"
+      msc:
+        - code: 30-XX
+          from: arxiv
+        - code: 32-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.CV
@@ -14,10 +19,13 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2022-04-03"
           ids:
             arxiv: "2204.01121"
             doi: 10.1007/s11785-022-01236-5
+            zbl: "1511.32005"
+            zbl_id: "7531846"
       scope:
         value: in
         rule: S2
@@ -26,6 +34,10 @@ records:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
           native_id: "2204.01121"
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7531846"
           level: work
       history:
         - op: add
@@ -59,6 +71,8 @@ records:
                 isbn:
                     - "9783030563400"
                     - "9783030563417"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7B8JKAVW9F

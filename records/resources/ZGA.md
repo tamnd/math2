@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9783540233176"
                     - "9783540345756"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: FA5PXCH6G7

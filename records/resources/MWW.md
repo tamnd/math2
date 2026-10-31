@@ -23,6 +23,8 @@ records:
                     - "9780821891322"
                     - "9781470409432"
                     - "9781470409524"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: YBEDX3XNVA

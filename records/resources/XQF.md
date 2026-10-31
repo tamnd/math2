@@ -7,12 +7,20 @@ records:
         - name: Jonathan Paul Brezin
           role: author
       date: "1977"
+      msc:
+        - code: 43A85
+          from: zbmath_search
+        - code: 43-02
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1977"
           ids:
             doi: 10.1007/bfb0069793
+            zbl: "0403.43007"
+            zbl_id: "3625992"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +30,8 @@ records:
                 isbn:
                     - "9783540083542"
                     - "9783540372813"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -34,6 +44,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0069793
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3625992"
           level: work
       history:
         - op: add

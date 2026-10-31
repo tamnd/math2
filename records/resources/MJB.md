@@ -28,6 +28,8 @@ records:
                 isbn:
                     - "9783642217180"
                     - "9783642218613"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

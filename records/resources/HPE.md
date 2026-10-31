@@ -7,6 +7,9 @@ records:
         - name: Madhava Gaikwad
           role: author
       date: "2026-10-13"
+      msc:
+        - code: 94-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: stat.ML

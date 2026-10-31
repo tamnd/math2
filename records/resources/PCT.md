@@ -13,12 +13,36 @@ records:
           ids:
             orcid: 0000-0002-2610-2932
       date: "2021"
+      msc:
+        - code: 11-02
+          from: zbmath_search
+        - code: 11C08
+          from: zbmath_search
+        - code: 11C20
+          from: zbmath_search
+        - code: 11R06
+          from: zbmath_search
+        - code: 05A05
+          from: zbmath_search
+        - code: 05C20
+          from: zbmath_search
+        - code: 05C22
+          from: zbmath_search
+        - code: 11R18
+          from: zbmath_search
+        - code: 11S05
+          from: zbmath_search
+        - code: 15B36
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2021"
           ids:
             doi: 10.1007/978-3-030-80031-4
+            zbl: "1486.11003"
+            zbl_id: "7384470"
           manifestations:
             - key: m1
               kind: print
@@ -28,6 +52,8 @@ records:
                 isbn:
                     - "9783030800307"
                     - "9783030800314"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W0CC03QJC7
@@ -40,6 +66,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-030-80031-4
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7384470"
           level: work
       history:
         - op: add

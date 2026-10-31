@@ -9,12 +9,42 @@ records:
         - name: Helen Wong
           role: editor
       date: "2020-03-04"
+      msc:
+        - code: 57-06
+          from: zbmath_search
+        - code: 82-06
+          from: zbmath_search
+        - code: 92-06
+          from: zbmath_search
+        - code: 57Kxx
+          from: zbmath_search
+        - code: 05C10
+          from: zbmath_search
+        - code: 92C05
+          from: zbmath_search
+        - code: 92C40
+          from: zbmath_search
+        - code: 92D20
+          from: zbmath_search
+        - code: "92E10"
+          from: zbmath_search
+        - code: 82D60
+          from: zbmath_search
+        - code: 82B41
+          from: zbmath_search
+        - code: 65C05
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2020-03-04"
           ids:
             doi: 10.1090/conm/746
+            zbl: "1435.57001"
+            zbl_id: "7196832"
           manifestations:
             - key: m1
               kind: print
@@ -25,6 +55,8 @@ records:
                     - "9781470448400"
                     - "9781470454562"
                     - "9781470460006"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -37,6 +69,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/746
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7196832"
           level: work
       history:
         - op: add

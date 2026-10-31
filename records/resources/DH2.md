@@ -7,12 +7,26 @@ records:
         - name: Michael Růžička
           role: author
       date: "2000"
+      msc:
+        - code: 76-02
+          from: zbmath_search
+        - code: 76A05
+          from: zbmath_search
+        - code: 35Q35
+          from: zbmath_search
+        - code: 76D03
+          from: zbmath_search
+        - code: 76W05
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2000"
           ids:
             doi: 10.1007/bfb0104029
+            zbl: "0962.76001"
+            zbl_id: "1550911"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +36,8 @@ records:
                 isbn:
                     - "9783540413851"
                     - "9783540444275"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -34,6 +50,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0104029
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "1550911"
           level: work
       history:
         - op: add
@@ -50,14 +70,28 @@ records:
         - name: Paul-André Meyer
           role: author
       date: "1993"
+      msc:
+        - code: 60K40
+          from: zbmath_search
+        - code: 60-02
+          from: zbmath_search
+        - code: 60H99
+          from: zbmath_search
+        - code: 81S25
+          from: zbmath_search
+        - code: 81-02
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1993"
           ids:
             doi:
                 - 10.1007/978-3-662-21558-6
                 - 10.1007/bfb0084701
+            zbl: "0773.60098"
+            zbl_id: "150742"
           manifestations:
             - key: m1
               kind: print
@@ -67,6 +101,8 @@ records:
                 isbn:
                     - "9783540564768"
                     - "9783662215586"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -75,6 +111,8 @@ records:
                 isbn:
                     - "9783540602705"
                     - "9783540369592"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -91,6 +129,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0084701
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "150742"
           level: work
       history:
         - op: add

@@ -16,6 +16,8 @@ records:
               publisher: IIT Hyderabad
               ids:
                 nptel: "111106160"
+              access:
+                class: record
       scope:
         value: in
         rule: S6

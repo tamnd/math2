@@ -25,6 +25,8 @@ records:
                     - "9781470421625"
                     - "9780821882726"
                     - "9780821807767"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: CMK1G7XE8B

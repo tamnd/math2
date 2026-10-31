@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9780387904283"
                     - "9781461262268"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 2M0N86YNGA

@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9783030282967"
                     - "9783030282974"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

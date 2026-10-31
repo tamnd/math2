@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9783031283635"
                     - "9783031283642"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: GQFCNY816R

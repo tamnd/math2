@@ -9,12 +9,32 @@ records:
         - name: Michel Mendès France
           role: author
       date: "2000-05-05"
+      msc:
+        - code: 11-01
+          from: zbmath_search
+        - code: 11A41
+          from: zbmath_search
+        - code: 11M06
+          from: zbmath_search
+        - code: 11N05
+          from: zbmath_search
+        - code: 11K99
+          from: zbmath_search
+        - code: 11N13
+          from: zbmath_search
+        - code: 11J71
+          from: zbmath_search
+        - code: 11N25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2000-05-05"
           ids:
             doi: 10.1090/stml/006
+            zbl: "0942.11001"
+            zbl_id: "1465089"
           manifestations:
             - key: m1
               kind: print
@@ -26,6 +46,8 @@ records:
                     - "9780821895375"
                     - "9781470419172"
                     - "9780821816479"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 6RX4VMGQKK
@@ -38,6 +60,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/stml/006
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "1465089"
           level: work
       history:
         - op: add

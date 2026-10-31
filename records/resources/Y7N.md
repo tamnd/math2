@@ -7,6 +7,11 @@ records:
         - name: Maksym Petkus
           role: author
       date: "2026-09-30"
+      msc:
+        - code: 05-XX
+          from: arxiv
+        - code: 60-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.CR
@@ -63,6 +68,8 @@ records:
                     - "9780821845899"
                     - "9780821887646"
                     - "9781470445317"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9

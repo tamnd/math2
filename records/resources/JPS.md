@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9783540441250"
                     - "9783540264101"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7B8JKAVW9F

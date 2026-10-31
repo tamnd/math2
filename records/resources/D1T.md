@@ -11,12 +11,22 @@ records:
         - name: S. Shishatskii
           role: author
       date: "1986-12-31"
+      msc:
+        - code: 35-02
+          from: zbmath_search
+        - code: 35R30
+          from: zbmath_search
+        - code: 45D05
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1986-12-31"
           ids:
             doi: 10.1090/mmono/064
+            zbl: "0593.35003"
+            zbl_id: "3953326"
           manifestations:
             - key: m1
               kind: print
@@ -27,6 +37,8 @@ records:
                     - "9780821808962"
                     - "9780821898147"
                     - "9781470444785"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9
@@ -39,6 +51,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/mmono/064
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3953326"
           level: work
       history:
         - op: add

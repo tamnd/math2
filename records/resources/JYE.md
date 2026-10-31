@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9783031431913"
                     - "9783031431920"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

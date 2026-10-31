@@ -26,6 +26,8 @@ records:
                 isbn:
                     - "9783642117053"
                     - "9783642117060"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: GQFCNY816R

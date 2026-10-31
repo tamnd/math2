@@ -28,6 +28,8 @@ records:
                 isbn:
                     - "9781470469764"
                     - "9781470467791"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1

@@ -9,12 +9,28 @@ records:
         - name: Roberto Markarian
           role: author
       date: "2006-07-26"
+      msc:
+        - code: 37-02
+          from: zbmath_search
+        - code: 37A25
+          from: zbmath_search
+        - code: 37D25
+          from: zbmath_search
+        - code: 37N05
+          from: zbmath_search
+        - code: 82B99
+          from: zbmath_search
+        - code: 37D45
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2006-07-26"
           ids:
             doi: 10.1090/surv/127
+            zbl: "1101.37001"
+            zbl_id: "5047782"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +40,8 @@ records:
                 isbn:
                     - "9780821840962"
                     - "9781470413545"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: M891DMMNP3
@@ -36,6 +54,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/surv/127
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5047782"
           level: work
       history:
         - op: add

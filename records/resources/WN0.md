@@ -9,12 +9,26 @@ records:
         - name: J. S. Richardson
           role: editor
       date: "1978"
+      msc:
+        - code: 00B25
+          from: zbmath_search
+        - code: 13-06
+          from: zbmath_search
+        - code: 15-06
+          from: zbmath_search
+        - code: 16-06
+          from: zbmath_search
+        - code: 20-06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1978"
           ids:
             doi: 10.1007/bfb0103118
+            zbl: "0383.00005"
+            zbl_id: "3595117"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +38,8 @@ records:
                 isbn:
                     - "9783540091035"
                     - "9783540355496"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -36,6 +52,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0103118
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3595117"
           level: work
       history:
         - op: add
@@ -52,12 +72,22 @@ records:
         - name: Alice Guionnet
           role: author
       date: "2009"
+      msc:
+        - code: 60-02
+          from: zbmath_search
+        - code: 82-02
+          from: zbmath_search
+        - code: 15-02
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2009"
           ids:
             doi: 10.1007/978-3-540-69897-5
+            zbl: "1168.60003"
+            zbl_id: "5358929"
           manifestations:
             - key: m1
               kind: print
@@ -67,6 +97,8 @@ records:
                 isbn:
                     - "9783540698968"
                     - "9783540698975"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -79,6 +111,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-540-69897-5
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5358929"
           level: work
       history:
         - op: add

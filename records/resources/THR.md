@@ -28,6 +28,8 @@ records:
                 isbn:
                     - "9783540437369"
                     - "9783540479444"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

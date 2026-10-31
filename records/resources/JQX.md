@@ -7,6 +7,13 @@ records:
         - name: Andrew Riesen
           role: author
       date: "2026-10-09"
+      msc:
+        - code: 17-XX
+          from: arxiv
+        - code: 81-XX
+          from: arxiv
+        - code: 18-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.QA

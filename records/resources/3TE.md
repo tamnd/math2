@@ -33,6 +33,9 @@ records:
         - name: Rinaldo B. Schinazi
           role: author
       date: "2021-11-15"
+      msc:
+        - code: 60-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: q-bio.PE

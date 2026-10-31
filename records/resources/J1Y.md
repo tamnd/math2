@@ -11,6 +11,11 @@ records:
         - name: Sakura Schafer-Nameki
           role: author
       date: "2026-10-02"
+      msc:
+        - code: 17-XX
+          from: arxiv
+        - code: 81-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

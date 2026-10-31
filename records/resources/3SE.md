@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9780821821046"
                     - "9781470445928"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9

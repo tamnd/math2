@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9780821846247"
                     - "9781470413415"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: M891DMMNP3
@@ -67,6 +69,8 @@ records:
                 isbn:
                     - "9781470421335"
                     - "9780821827321"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 6RX4VMGQKK

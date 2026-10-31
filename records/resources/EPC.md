@@ -28,6 +28,8 @@ records:
                 isbn:
                     - "9783540060123"
                     - "9783540379874"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

@@ -11,12 +11,24 @@ records:
         - name: Boris Tsygan
           role: author
       date: "2004"
+      msc:
+        - code: 46L80
+          from: zbmath_search
+        - code: 58B34
+          from: zbmath_search
+        - code: 19D55
+          from: zbmath_search
+        - code: 46-00
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2004"
           ids:
             doi: 10.1007/978-3-662-06444-3
+            zbl: "1045.46043"
+            zbl_id: "2012369"
           manifestations:
             - key: m1
               kind: print
@@ -26,6 +38,8 @@ records:
                 isbn:
                     - "9783642073373"
                     - "9783662064443"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: XGZPMQ7BSM
@@ -38,6 +52,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-662-06444-3
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "2012369"
           level: work
       history:
         - op: add
@@ -58,6 +76,9 @@ records:
         - name: Johannes Lederer
           role: author
       date: "2026-10-07"
+      msc:
+        - code: 62-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.ST
@@ -71,6 +92,7 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2026-10-07"
           ids:
             arxiv: "2610.10640"
@@ -81,6 +103,10 @@ records:
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.10640"
+          level: work
+        - source: arxiv_text
+          snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
           native_id: "2610.10640"
           level: work
       history:

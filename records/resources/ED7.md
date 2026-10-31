@@ -7,12 +7,22 @@ records:
         - name: Joel L. Schiff
           role: author
       date: "1993"
+      msc:
+        - code: 30-02
+          from: zbmath_search
+        - code: 30-01
+          from: zbmath_search
+        - code: 30D45
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1993"
           ids:
             doi: 10.1007/978-1-4612-0907-2
+            zbl: "0770.30002"
+            zbl_id: "233973"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +32,8 @@ records:
                 isbn:
                     - "9780387979670"
                     - "9781461209072"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W0CC03QJC7
@@ -34,6 +46,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4612-0907-2
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "233973"
           level: work
       history:
         - op: add

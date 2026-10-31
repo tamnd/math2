@@ -11,6 +11,9 @@ records:
         - name: Marco Tomamichel
           role: author
       date: "2026-09-28"
+      msc:
+        - code: 94-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

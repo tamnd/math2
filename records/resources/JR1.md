@@ -11,6 +11,9 @@ records:
         - name: Angelica I. Aviles-Rivero
           role: author
       date: "2026-10-07"
+      msc:
+        - code: 65-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG

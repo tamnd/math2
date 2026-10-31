@@ -9,12 +9,38 @@ records:
         - name: Mikhail Zaicev
           role: author
       date: "2005-11-01"
+      msc:
+        - code: 16-02
+          from: zbmath_search
+        - code: 16R10
+          from: zbmath_search
+        - code: 16R20
+          from: zbmath_search
+        - code: 16R30
+          from: zbmath_search
+        - code: 16R40
+          from: zbmath_search
+        - code: 16R50
+          from: zbmath_search
+        - code: 16P90
+          from: zbmath_search
+        - code: 16W22
+          from: zbmath_search
+        - code: 16W55
+          from: zbmath_search
+        - code: 17B01
+          from: zbmath_search
+        - code: 20C30
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2005-11-01"
           ids:
             doi: 10.1090/surv/122
+            zbl: "1105.16001"
+            zbl_id: "2241894"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +50,8 @@ records:
                 isbn:
                     - "9780821838297"
                     - "9781470413491"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: M891DMMNP3
@@ -36,6 +64,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/surv/122
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "2241894"
           level: work
       history:
         - op: add

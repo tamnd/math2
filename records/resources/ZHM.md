@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9783319658155"
                     - "9783319658162"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

@@ -7,6 +7,15 @@ records:
         - name: Mario Lezcano-Casado
           role: author
       date: "2020-10-09"
+      msc:
+        - code: 65-XX
+          from: arxiv
+        - code: 49-XX
+          from: arxiv
+        - code: 90-XX
+          from: arxiv
+        - code: 93-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG

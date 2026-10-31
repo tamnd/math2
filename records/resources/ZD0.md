@@ -7,6 +7,11 @@ records:
         - name: I. S. Krasil'shchik
           role: author
       date: "2026-10-14"
+      msc:
+        - code: 81-XX
+          from: arxiv
+        - code: 53-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: nlin.SI

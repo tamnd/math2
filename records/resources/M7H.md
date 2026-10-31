@@ -18,6 +18,8 @@ records:
               publisher: IIT Kanpur
               ids:
                 nptel: "111104416"
+              access:
+                class: record
       scope:
         value: in
         rule: S6
@@ -63,6 +65,8 @@ records:
                 isbn:
                     - "9789811329005"
                     - "9789811329012"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

@@ -13,6 +13,11 @@ records:
         - name: Stella Biderman
           role: author
       date: "2023-12-11"
+      msc:
+        - code: 20-XX
+          from: arxiv
+        - code: 22-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG

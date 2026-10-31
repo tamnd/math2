@@ -11,6 +11,13 @@ records:
         - name: Michael Menart
           role: author
       date: "2024-11-07"
+      msc:
+        - code: 49-XX
+          from: arxiv
+        - code: 90-XX
+          from: arxiv
+        - code: 93-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG

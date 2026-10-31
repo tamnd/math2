@@ -7,6 +7,11 @@ records:
         - name: Nathan Grieve
           role: author
       date: "2026-09-28"
+      msc:
+        - code: 11-XX
+          from: arxiv
+        - code: 14-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.NT
@@ -16,9 +21,11 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2026-09-28"
           ids:
             arxiv: "2609.36300"
+            zbl_id: "8270805"
       scope:
         value: in
         rule: S2
@@ -27,6 +34,10 @@ records:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
           native_id: "2609.36300"
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "8270805"
           level: work
       history:
         - op: add
@@ -43,12 +54,30 @@ records:
         - name: S. G. Gindikin
           role: author
       date: "1985"
+      msc:
+        - code: 94-01
+          from: zbmath_search
+        - code: 00A07
+          from: zbmath_search
+        - code: 03-01
+          from: zbmath_search
+        - code: "93E03"
+          from: zbmath_search
+        - code: 03G05
+          from: zbmath_search
+        - code: 03G20
+          from: zbmath_search
+        - code: 03B50
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1985"
           ids:
             doi: 10.1007/978-1-4757-1877-5
+            zbl: "0591.94031"
+            zbl_id: "3950384"
           manifestations:
             - key: m1
               kind: print
@@ -58,6 +87,8 @@ records:
                 isbn:
                     - "9781441930767"
                     - "9781475718775"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: AQAR17SPHM
@@ -70,6 +101,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4757-1877-5
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3950384"
           level: work
       history:
         - op: add

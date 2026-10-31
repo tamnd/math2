@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9783642034435"
                     - "9783642034442"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

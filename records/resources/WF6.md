@@ -16,6 +16,8 @@ records:
               date: "2010"
               ids:
                 ocw: 18-06-linear-algebra-spring-2010/resources/lecture-5-transposes-permutations-spaces-r-n
+              access:
+                class: record
       relations:
         - kind: part_of
           to: GE3WH5EF6G/e1
@@ -53,6 +55,9 @@ records:
         - name: Liang Mao
           role: author
       date: "2026-09-30"
+      msc:
+        - code: 81-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

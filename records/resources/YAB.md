@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9781461269113"
                     - "9781461208174"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7ME1ABA6H5

@@ -11,6 +11,9 @@ records:
         - name: Shohini Ghose
           role: author
       date: "2026-10-12"
+      msc:
+        - code: 11-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

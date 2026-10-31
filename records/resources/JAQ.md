@@ -11,9 +11,21 @@ records:
         - name: Donal O’Shea
           role: author
       date: "1992"
+      msc:
+        - code: 13P10
+          from: zbmath_search
+        - code: 13F20
+          from: zbmath_search
+        - code: 14Q99
+          from: zbmath_search
+        - code: 14-01
+          from: zbmath_search
+        - code: 13-02
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1992"
           ids:
             doi:
@@ -23,6 +35,8 @@ records:
                 - 10.1007/978-3-031-91841-4
                 - 10.1007/978-3-319-16721-3
                 - 10.1007/978-3-662-41154-4
+            zbl: "0756.13017"
+            zbl_id: "108068"
           manifestations:
             - key: m1
               kind: print
@@ -32,6 +46,8 @@ records:
                 isbn:
                     - "9780387356501"
                     - "9780387356518"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer New York
@@ -40,6 +56,8 @@ records:
                 isbn:
                     - "9781475721836"
                     - "9781475721812"
+              access:
+                class: record
             - key: m3
               kind: print
               publisher: Springer New York
@@ -48,6 +66,8 @@ records:
                 isbn:
                     - "9781475726954"
                     - "9781475726930"
+              access:
+                class: record
             - key: m4
               kind: print
               publisher: Springer Nature Switzerland
@@ -56,6 +76,8 @@ records:
                 isbn:
                     - "9783031918407"
                     - "9783031918414"
+              access:
+                class: record
             - key: m5
               kind: print
               publisher: Springer International Publishing
@@ -64,6 +86,8 @@ records:
                 isbn:
                     - "9783319167206"
                     - "9783319167213"
+              access:
+                class: record
             - key: m6
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -72,6 +96,8 @@ records:
                 isbn:
                     - "9787506265980"
                     - "9783662411544"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: NWQC4TW7S9
@@ -104,6 +130,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-662-41154-4
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "108068"
           level: work
       history:
         - op: add

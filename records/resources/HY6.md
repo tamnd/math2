@@ -17,6 +17,15 @@ records:
         - name: S. Shankar Sastry
           role: author
       date: "2020-04-06"
+      msc:
+        - code: 37-XX
+          from: arxiv
+        - code: 49-XX
+          from: arxiv
+        - code: 90-XX
+          from: arxiv
+        - code: 93-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG

@@ -7,12 +7,26 @@ records:
         - name: Jean Dieudonné
           role: author
       date: "1980"
+      msc:
+        - code: "22E45"
+          from: zbmath_search
+        - code: 22-02
+          from: zbmath_search
+        - code: "22E30"
+          from: zbmath_search
+        - code: 33C80
+          from: zbmath_search
+        - code: 33C55
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1980"
           ids:
             doi: 10.1090/cbms/042
+            zbl: "0425.22018"
+            zbl_id: "3661640"
           manifestations:
             - key: m1
               kind: print
@@ -23,6 +37,8 @@ records:
                     - "9780821816929"
                     - "9780821888872"
                     - "9781470424022"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 20XHFD4A67
@@ -35,6 +51,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/cbms/042
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3661640"
           level: work
       history:
         - op: add

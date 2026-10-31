@@ -7,12 +7,28 @@ records:
         - name: Christopher Heil
           role: author
       date: "2019"
+      msc:
+        - code: 26-01
+          from: zbmath_search
+        - code: 42Axx
+          from: zbmath_search
+        - code: 42A38
+          from: zbmath_search
+        - code: 46B25
+          from: zbmath_search
+        - code: 46C05
+          from: zbmath_search
+        - code: 28-01
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2019"
           ids:
             doi: 10.1007/978-3-030-26903-6
+            zbl: "1426.26001"
+            zbl_id: "7093485"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +38,8 @@ records:
                 isbn:
                     - "9783030269012"
                     - "9783030269036"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7ME1ABA6H5
@@ -34,6 +52,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-030-26903-6
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7093485"
           level: work
       history:
         - op: add

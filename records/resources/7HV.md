@@ -11,6 +11,9 @@ records:
         - name: Fengyi Li
           role: author
       date: "2026-10-07"
+      msc:
+        - code: 37-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG

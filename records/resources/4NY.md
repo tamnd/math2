@@ -26,6 +26,8 @@ records:
                 isbn:
                     - "9781470467777"
                     - "9781470463601"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: M891DMMNP3

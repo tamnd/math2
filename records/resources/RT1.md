@@ -7,12 +7,32 @@ records:
         - name: Ivan Singer
           role: author
       date: "2006"
+      msc:
+        - code: 90-02
+          from: zbmath_search
+        - code: 90-01
+          from: zbmath_search
+        - code: 49-02
+          from: zbmath_search
+        - code: 90C26
+          from: zbmath_search
+        - code: 90C46
+          from: zbmath_search
+        - code: 49N15
+          from: zbmath_search
+        - code: 90C48
+          from: zbmath_search
+        - code: 46N10
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2006"
           ids:
             doi: 10.1007/0-387-28395-1
+            zbl: "1119.90002"
+            zbl_id: "5029460"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +42,8 @@ records:
                 isbn:
                     - "9780387283944"
                     - "9780387283951"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7A3ZERT8BW
@@ -34,6 +56,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/0-387-28395-1
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5029460"
           level: work
       history:
         - op: add

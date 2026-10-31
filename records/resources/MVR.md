@@ -9,6 +9,13 @@ records:
         - name: Michal Valko
           role: author
       date: "2026-09-28"
+      msc:
+        - code: 49-XX
+          from: arxiv
+        - code: 90-XX
+          from: arxiv
+        - code: 93-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG
@@ -74,6 +81,8 @@ records:
                 isbn:
                     - "9783540583868"
                     - "9783540486787"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -119,6 +128,8 @@ records:
                 isbn:
                     - "9780821805862"
                     - "9781470445751"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9

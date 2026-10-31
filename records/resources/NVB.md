@@ -7,6 +7,13 @@ records:
         - name: Jorge P. Arpasi
           role: author
       date: "2026-09-24"
+      msc:
+        - code: 81-XX
+          from: arxiv
+        - code: 01-XX
+          from: arxiv
+        - code: 62-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math-ph
@@ -49,12 +56,22 @@ records:
         - name: Yuri I. Manin
           role: editor
       date: "1987"
+      msc:
+        - code: 00Bxx
+          from: zbmath_search
+        - code: 14-06
+          from: zbmath_search
+        - code: 18-06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1987"
           ids:
             doi: 10.1007/bfb0078363
+            zbl: "0621.00010"
+            zbl_id: "4006178"
           manifestations:
             - key: m1
               kind: print
@@ -64,6 +81,8 @@ records:
                 isbn:
                     - "9783540185710"
                     - "9783540480167"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -76,6 +95,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0078363
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "4006178"
           level: work
       history:
         - op: add
@@ -94,12 +117,22 @@ records:
         - name: Manfred Knebusch
           role: author
       date: "1985"
+      msc:
+        - code: 14Pxx
+          from: zbmath_search
+        - code: 14-02
+          from: zbmath_search
+        - code: 14F45
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1985"
           ids:
             doi: 10.1007/bfb0074551
+            zbl: "0582.14006"
+            zbl_id: "3931165"
           manifestations:
             - key: m1
               kind: print
@@ -109,6 +142,8 @@ records:
                 isbn:
                     - "9783540160601"
                     - "9783540397441"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -121,6 +156,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0074551
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3931165"
           level: work
       history:
         - op: add

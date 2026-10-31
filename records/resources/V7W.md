@@ -23,6 +23,8 @@ records:
                     - "9780821808573"
                     - "9780821897812"
                     - "9781470445867"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9
@@ -53,6 +55,11 @@ records:
         - name: Juexiao Wang
           role: author
       date: "2026-10-06"
+      msc:
+        - code: 94-XX
+          from: arxiv
+        - code: 62-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: stat.ML

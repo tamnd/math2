@@ -7,6 +7,9 @@ records:
         - name: Jonas T. Anderson
           role: author
       date: "2022-12-11"
+      msc:
+        - code: 81-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

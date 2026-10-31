@@ -9,6 +9,9 @@ records:
         - name: Ionel Popescu
           role: author
       date: "2026-09-24"
+      msc:
+        - code: 60-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: q-fin.RM

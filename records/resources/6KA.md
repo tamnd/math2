@@ -9,6 +9,9 @@ records:
         - name: Somayeh Kargaran
           role: author
       date: "2026-09-26"
+      msc:
+        - code: 37-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.AI

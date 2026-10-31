@@ -11,6 +11,9 @@ records:
         - name: Bobak T Kiani
           role: author
       date: "2026-10-01"
+      msc:
+        - code: 60-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

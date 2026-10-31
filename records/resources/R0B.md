@@ -18,6 +18,8 @@ records:
               publisher: IMSc
               ids:
                 nptel: "111106151"
+              access:
+                class: record
       scope:
         value: in
         rule: S6

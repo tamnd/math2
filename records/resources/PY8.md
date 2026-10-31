@@ -13,12 +13,38 @@ records:
         - name: David Morrison
           role: editor
       date: "2015-09-30"
+      msc:
+        - code: 00B25
+          from: zbmath_search
+        - code: 14-06
+          from: zbmath_search
+        - code: 18-06
+          from: zbmath_search
+        - code: 53-06
+          from: zbmath_search
+        - code: 81-06
+          from: zbmath_search
+        - code: 83-06
+          from: zbmath_search
+        - code: 14Hxx
+          from: zbmath_search
+        - code: 14J28
+          from: zbmath_search
+        - code: 81Rxx
+          from: zbmath_search
+        - code: 81Txx
+          from: zbmath_search
+        - code: "83E30"
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2015-09-30"
           ids:
             doi: 10.1090/pspum/090
+            zbl: "1329.00194"
+            zbl_id: "6515159"
           manifestations:
             - key: m1
               kind: print
@@ -29,6 +55,8 @@ records:
                     - "9780821894958"
                     - "9781470426217"
                     - "9781470426224"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: EVG9FMRY3R
@@ -41,6 +69,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/pspum/090
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6515159"
           level: work
       history:
         - op: add

@@ -7,6 +7,13 @@ records:
         - name: Thijs Laarhoven
           role: author
       date: "2026-10-11"
+      msc:
+        - code: 05-XX
+          from: arxiv
+        - code: 51-XX
+          from: arxiv
+        - code: 52-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.CR
@@ -60,6 +67,8 @@ records:
                 isbn:
                     - "9783540600169"
                     - "9783540494034"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

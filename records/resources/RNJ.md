@@ -13,12 +13,28 @@ records:
         - name: Kiki Hudson
           role: editor
       date: "1997-09-23"
+      msc:
+        - code: 37D45
+          from: zbmath_search
+        - code: 37-01
+          from: zbmath_search
+        - code: 28-01
+          from: zbmath_search
+        - code: "30E25"
+          from: zbmath_search
+        - code: 28A78
+          from: zbmath_search
+        - code: 28A80
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1997-09-23"
           ids:
             doi: 10.1090/mmono/167
+            zbl: "0888.58030"
+            zbl_id: "1082415"
           manifestations:
             - key: m1
               kind: print
@@ -28,6 +44,8 @@ records:
                 isbn:
                     - "9780821805374"
                     - "9781470445829"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9
@@ -40,6 +58,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/mmono/167
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "1082415"
           level: work
       history:
         - op: add

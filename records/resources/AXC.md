@@ -17,6 +17,11 @@ records:
         - name: Pablo Vives Matasan
           role: author
       date: "2026-09-30"
+      msc:
+        - code: 81-XX
+          from: arxiv
+        - code: 05-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: hep-th

@@ -23,6 +23,8 @@ records:
                     - "9781470416416"
                     - "9780821884744"
                     - "9780821852422"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 6RX4VMGQKK

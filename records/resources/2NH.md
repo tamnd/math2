@@ -7,12 +7,23 @@ records:
         - name: Paul R. Halmos
           role: author
       date: "1974"
+      msc:
+        - code: 15-01
+          from: zbmath_search
+        - code: 15A03
+          from: zbmath_search
+        - code: 46Cxx
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          label: 2nd edition
+          language: en
           date: "1974"
           ids:
             doi: 10.1007/978-1-4612-6387-6
+            zbl: "0288.15002"
+            zbl_id: "3451986"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +33,8 @@ records:
                 isbn:
                     - "9781461263890"
                     - "9781461263876"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: NWQC4TW7S9
@@ -34,6 +47,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4612-6387-6
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3451986"
           level: work
       history:
         - op: add

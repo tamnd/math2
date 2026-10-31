@@ -54,6 +54,8 @@ records:
                 isbn:
                     - "9780821832387"
                     - "9781470444587"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9

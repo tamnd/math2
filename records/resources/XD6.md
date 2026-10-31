@@ -11,6 +11,13 @@ records:
         - name: Michael Ragone
           role: author
       date: "2026-09-30"
+      msc:
+        - code: 81-XX
+          from: arxiv
+        - code: 46-XX
+          from: arxiv
+        - code: 47-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

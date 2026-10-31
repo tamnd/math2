@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9783319031514"
                     - "9783319031521"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

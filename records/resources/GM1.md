@@ -13,6 +13,9 @@ records:
         - name: Michail Matthaiou
           role: author
       date: "2026-10-09"
+      msc:
+        - code: 94-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: eess.SP

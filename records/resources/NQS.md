@@ -25,6 +25,8 @@ records:
                     - "9781470425432"
                     - "9780821897973"
                     - "9781470428976"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9

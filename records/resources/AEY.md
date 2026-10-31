@@ -7,6 +7,9 @@ records:
         - name: Sumit Vashishtha
           role: author
       date: "2026-10-15"
+      msc:
+        - code: 62-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: stat.ML

@@ -15,6 +15,9 @@ records:
         - name: Guillaume Lajoie
           role: author
       date: "2026-10-14"
+      msc:
+        - code: 94-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.AI

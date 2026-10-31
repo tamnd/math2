@@ -7,12 +7,20 @@ records:
         - name: W. A. Coppel
           role: author
       date: "1978"
+      msc:
+        - code: 34-01
+          from: zbmath_search
+        - code: 34D20
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1978"
           ids:
             doi: 10.1007/bfb0067780
+            zbl: "0376.34001"
+            zbl_id: "3585816"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +30,8 @@ records:
                 isbn:
                     - "9783540085362"
                     - "9783540359760"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -34,6 +44,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0067780
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3585816"
           level: work
       history:
         - op: add
@@ -52,12 +66,24 @@ records:
         - name: Robert Lazarsfeld
           role: author
       date: "2026"
+      msc:
+        - code: 14-02
+          from: zbmath_search
+        - code: 13-02
+          from: zbmath_search
+        - code: 13Dxx
+          from: zbmath_search
+        - code: 14Nxx
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2026"
           ids:
             doi: 10.1090/ulect/081
+            zbl: "1589.14001"
+            zbl_id: "8172511"
           manifestations:
             - key: m1
               kind: print
@@ -67,6 +93,8 @@ records:
                 isbn:
                     - "9781470485511"
                     - "9781470480158"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: CMK1G7XE8B
@@ -79,6 +107,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/ulect/081
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "8172511"
           level: work
       history:
         - op: add

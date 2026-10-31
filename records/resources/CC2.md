@@ -9,14 +9,30 @@ records:
         - name: Albert N. Shiryaev
           role: author
       date: "1987"
+      msc:
+        - code: 60Fxx
+          from: zbmath_search
+        - code: 60-02
+          from: zbmath_search
+        - code: 60B10
+          from: zbmath_search
+        - code: 60H05
+          from: zbmath_search
+        - code: 60G44
+          from: zbmath_search
+        - code: 60G48
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1987"
           ids:
             doi:
                 - 10.1007/978-3-662-02514-7
                 - 10.1007/978-3-662-05265-5
+            zbl: "0635.60021"
+            zbl_id: "4034749"
           manifestations:
             - key: m1
               kind: print
@@ -26,6 +42,8 @@ records:
                 isbn:
                     - "9783662025161"
                     - "9783662025147"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -34,6 +52,8 @@ records:
                 isbn:
                     - "9783642078767"
                     - "9783662052655"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: GQFCNY816R
@@ -50,6 +70,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-662-05265-5
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "4034749"
           level: work
       history:
         - op: add

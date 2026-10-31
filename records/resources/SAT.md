@@ -11,6 +11,11 @@ records:
         - name: David G. M. Mitchell
           role: author
       date: "2026-10-14"
+      msc:
+        - code: 17-XX
+          from: arxiv
+        - code: 81-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

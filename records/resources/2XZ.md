@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9783642326653"
                     - "9783642326660"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

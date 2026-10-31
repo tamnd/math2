@@ -9,6 +9,9 @@ records:
         - name: Aman Rani
           role: author
       date: "2026-09-28"
+      msc:
+        - code: 65-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.NA

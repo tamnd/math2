@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9783540407294"
                     - "9783540451785"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -69,6 +71,8 @@ records:
                 isbn:
                     - "9783540537373"
                     - "9783540470601"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

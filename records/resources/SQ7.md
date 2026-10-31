@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9783030290153"
                     - "9783030290160"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W0CC03QJC7

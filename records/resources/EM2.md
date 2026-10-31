@@ -54,6 +54,8 @@ records:
                     - "9780821884621"
                     - "9780821887332"
                     - "9780821844205"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 6RX4VMGQKK

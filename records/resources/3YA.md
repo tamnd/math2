@@ -9,14 +9,34 @@ records:
         - name: John Tate
           role: author
       date: "1992"
+      msc:
+        - code: 11G05
+          from: zbmath_search
+        - code: 11-01
+          from: zbmath_search
+        - code: 14-01
+          from: zbmath_search
+        - code: 11G15
+          from: zbmath_search
+        - code: 11D25
+          from: zbmath_search
+        - code: 14G05
+          from: zbmath_search
+        - code: 14G15
+          from: zbmath_search
+        - code: 14H52
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1992"
           ids:
             doi:
                 - 10.1007/978-1-4757-4252-7
                 - 10.1007/978-3-319-18588-0
+            zbl: "0752.14034"
+            zbl_id: "53994"
           manifestations:
             - key: m1
               kind: print
@@ -26,6 +46,8 @@ records:
                 isbn:
                     - "9781441931016"
                     - "9781475742527"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer International Publishing
@@ -34,6 +56,8 @@ records:
                 isbn:
                     - "9783319185873"
                     - "9783319185880"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: NWQC4TW7S9
@@ -50,6 +74,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-319-18588-0
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "53994"
           level: work
       history:
         - op: add

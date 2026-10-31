@@ -17,6 +17,9 @@ records:
         - name: Peter Orbanz
           role: author
       date: "2026-10-08"
+      msc:
+        - code: 53-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG

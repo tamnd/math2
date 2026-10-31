@@ -7,12 +7,28 @@ records:
         - name: J.W. Neuberger
           role: author
       date: "2011"
+      msc:
+        - code: 47-01
+          from: zbmath_search
+        - code: 00A07
+          from: zbmath_search
+        - code: 47D06
+          from: zbmath_search
+        - code: 47H20
+          from: zbmath_search
+        - code: 65J10
+          from: zbmath_search
+        - code: 65J15
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2011"
           ids:
             doi: 10.1007/978-1-4614-0430-9
+            zbl: "1235.47001"
+            zbl_id: "5934740"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +38,8 @@ records:
                 isbn:
                     - "9781461404293"
                     - "9781461404309"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: AQAR17SPHM
@@ -34,6 +52,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4614-0430-9
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5934740"
           level: work
       history:
         - op: add

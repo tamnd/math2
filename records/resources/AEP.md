@@ -10,9 +10,12 @@ records:
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1934-12-31"
           ids:
             doi: 10.1090/coll/018
+            zbl: "0011.02802"
+            zbl_id: "3016238"
           manifestations:
             - key: m1
               kind: print
@@ -23,6 +26,8 @@ records:
                     - "9780821810187"
                     - "9780821874554"
                     - "9781470431662"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W1VWARV4XH
@@ -35,6 +40,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/coll/018
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3016238"
           level: work
       history:
         - op: add
@@ -53,12 +62,30 @@ records:
         - name: Claudia Valls
           role: author
       date: "2013"
+      msc:
+        - code: 37-01
+          from: zbmath_search
+        - code: 34-01
+          from: zbmath_search
+        - code: 58-01
+          from: zbmath_search
+        - code: 37Cxx
+          from: zbmath_search
+        - code: 37Exx
+          from: zbmath_search
+        - code: 37Bxx
+          from: zbmath_search
+        - code: 37Axx
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2013"
           ids:
             doi: 10.1007/978-1-4471-4835-7
+            zbl: "1269.37001"
+            zbl_id: "6111822"
           manifestations:
             - key: m1
               kind: print
@@ -68,6 +95,8 @@ records:
                 isbn:
                     - "9781447148340"
                     - "9781447148357"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W0CC03QJC7
@@ -80,6 +109,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4471-4835-7
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6111822"
           level: work
       history:
         - op: add

@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9783764373214"
                     - "9783764373962"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VS2PFDMCR5

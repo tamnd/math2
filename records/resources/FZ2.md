@@ -32,6 +32,8 @@ records:
                 isbn:
                     - "9781470476137"
                     - "9781470475550"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1

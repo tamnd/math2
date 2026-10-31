@@ -9,6 +9,9 @@ records:
         - name: Yuri A. Kordyukov
           role: author
       date: "1996-12-10"
+      msc:
+        - code: 53-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: dg-ga

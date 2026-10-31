@@ -23,6 +23,8 @@ records:
                     - "9781470448554"
                     - "9781470448561"
                     - "9781470443979"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: CMK1G7XE8B

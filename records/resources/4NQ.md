@@ -28,6 +28,8 @@ records:
                 isbn:
                     - "9781470410490"
                     - "9781470414733"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: M891DMMNP3

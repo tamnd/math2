@@ -27,6 +27,8 @@ records:
                     - "9781470475642"
                     - "9781470467968"
                     - "9781470475635"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: YBEDX3XNVA

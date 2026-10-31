@@ -13,12 +13,30 @@ records:
           ids:
             orcid: 0000-0003-2436-2471
       date: "2025"
+      msc:
+        - code: 34-01
+          from: zbmath_search
+        - code: 30-01
+          from: zbmath_search
+        - code: 33-01
+          from: zbmath_search
+        - code: 42-01
+          from: zbmath_search
+        - code: 45-01
+          from: zbmath_search
+        - code: 26A33
+          from: zbmath_search
+        - code: 00A06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2025"
           ids:
             doi: 10.1007/978-3-031-74794-6
+            zbl: "1551.34001"
+            zbl_id: "7951974"
           manifestations:
             - key: m1
               kind: print
@@ -28,6 +46,8 @@ records:
                 isbn:
                     - "9783031747939"
                     - "9783031747946"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: AQAR17SPHM
@@ -40,6 +60,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-031-74794-6
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7951974"
           level: work
       history:
         - op: add
@@ -58,12 +82,22 @@ records:
         - name: Michitake Kita
           role: author
       date: "2011"
+      msc:
+        - code: 33-02
+          from: zbmath_search
+        - code: 33C20
+          from: zbmath_search
+        - code: 14F40
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2011"
           ids:
             doi: 10.1007/978-4-431-53938-4
+            zbl: "1229.33001"
+            zbl_id: "5821564"
           manifestations:
             - key: m1
               kind: print
@@ -73,6 +107,8 @@ records:
                 isbn:
                     - "9784431539124"
                     - "9784431539384"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: FA5PXCH6G7
@@ -85,6 +121,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-4-431-53938-4
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5821564"
           level: work
       history:
         - op: add

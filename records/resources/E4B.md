@@ -7,12 +7,34 @@ records:
         - name: Jinzhong Xu
           role: author
       date: "1996"
+      msc:
+        - code: 16-02
+          from: zbmath_search
+        - code: 13-02
+          from: zbmath_search
+        - code: 16D40
+          from: zbmath_search
+        - code: 16D50
+          from: zbmath_search
+        - code: 13C10
+          from: zbmath_search
+        - code: 13C11
+          from: zbmath_search
+        - code: "16E10"
+          from: zbmath_search
+        - code: 13H10
+          from: zbmath_search
+        - code: 18G05
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1996"
           ids:
             doi: 10.1007/bfb0094173
+            zbl: "0860.16002"
+            zbl_id: "945656"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +44,8 @@ records:
                 isbn:
                     - "9783540616405"
                     - "9783540699927"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -34,6 +58,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0094173
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "945656"
           level: work
       history:
         - op: add
@@ -50,12 +78,24 @@ records:
         - name: Bo Ju Jiang
           role: author
       date: "1983"
+      msc:
+        - code: 55M20
+          from: zbmath_search
+        - code: 55-01
+          from: zbmath_search
+        - code: 57M10
+          from: zbmath_search
+        - code: 54H25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1983"
           ids:
             doi: 10.1090/conm/014
+            zbl: "0512.55003"
+            zbl_id: "3808524"
           manifestations:
             - key: m1
               kind: print
@@ -63,6 +103,8 @@ records:
               date: "1983"
               ids:
                 isbn: "9780821850145"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -75,6 +117,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/014
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3808524"
           level: work
       history:
         - op: add

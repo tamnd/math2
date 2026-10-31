@@ -11,6 +11,13 @@ records:
         - name: Claudius Steinhardt
           role: author
       date: "2026-10-15"
+      msc:
+        - code: 49-XX
+          from: arxiv
+        - code: 90-XX
+          from: arxiv
+        - code: 93-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG
@@ -53,6 +60,9 @@ records:
         - name: Bei Wang
           role: author
       date: "2026-10-08"
+      msc:
+        - code: 94-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.GR

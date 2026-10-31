@@ -11,12 +11,22 @@ records:
         - name: Guido Weiss
           role: author
       date: "1991-06-04"
+      msc:
+        - code: 42B25
+          from: zbmath_search
+        - code: 42C15
+          from: zbmath_search
+        - code: "46E35"
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1991-06-04"
           ids:
             doi: 10.1090/cbms/079
+            zbl: "0757.42006"
+            zbl_id: "50289"
           manifestations:
             - key: m1
               kind: print
@@ -27,6 +37,8 @@ records:
                     - "9780821807316"
                     - "9780821889237"
                     - "9781470424398"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 20XHFD4A67
@@ -39,6 +51,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/cbms/079
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "50289"
           level: work
       history:
         - op: add

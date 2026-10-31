@@ -7,6 +7,9 @@ records:
         - name: Avi Caciularu
           role: author
       date: "2026-09-27"
+      msc:
+        - code: 94-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG
@@ -49,6 +52,9 @@ records:
         - name: Hanna Wdowicka
           role: author
       date: "2026-09-30"
+      msc:
+        - code: 60-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.DS

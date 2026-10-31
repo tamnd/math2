@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9789819684717"
                     - "9789819684724"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: FA5PXCH6G7

@@ -11,6 +11,13 @@ records:
         - name: Nagi Gebraeel
           role: author
       date: "2026-10-09"
+      msc:
+        - code: 49-XX
+          from: arxiv
+        - code: 90-XX
+          from: arxiv
+        - code: 93-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG
@@ -47,12 +54,22 @@ records:
         - name: Vladimir Kanovei
           role: author
       date: "2008-09-10"
+      msc:
+        - code: "03E15"
+          from: zbmath_search
+        - code: 03-02
+          from: zbmath_search
+        - code: "03E40"
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2008-09-10"
           ids:
             doi: 10.1090/ulect/044
+            zbl: "1155.03035"
+            zbl_id: "5350455"
           manifestations:
             - key: m1
               kind: print
@@ -63,6 +80,8 @@ records:
                     - "9781470421885"
                     - "9780821883006"
                     - "9780821844533"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: CMK1G7XE8B
@@ -75,6 +94,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/ulect/044
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5350455"
           level: work
       history:
         - op: add

@@ -18,6 +18,8 @@ records:
               publisher: IIT Bombay
               ids:
                 nptel: "111101158"
+              access:
+                class: record
       scope:
         value: in
         rule: S6

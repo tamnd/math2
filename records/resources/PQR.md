@@ -7,12 +7,34 @@ records:
         - name: Denis Serre
           role: author
       date: "2010"
+      msc:
+        - code: 15-01
+          from: zbmath_search
+        - code: 15A60
+          from: zbmath_search
+        - code: 15A42
+          from: zbmath_search
+        - code: 15B48
+          from: zbmath_search
+        - code: 65F15
+          from: zbmath_search
+        - code: 65F10
+          from: zbmath_search
+        - code: 20G20
+          from: zbmath_search
+        - code: 15A23
+          from: zbmath_search
+        - code: 15A04
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2010"
           ids:
             doi: 10.1007/978-1-4419-7683-3
+            zbl: "1206.15001"
+            zbl_id: "5801911"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +44,8 @@ records:
                 isbn:
                     - "9781441976826"
                     - "9781441976833"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7ME1ABA6H5
@@ -34,6 +58,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4419-7683-3
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5801911"
           level: work
       history:
         - op: add

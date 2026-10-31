@@ -7,12 +7,22 @@ records:
         - name: Bernard Beauzamy
           role: author
       date: "1978"
+      msc:
+        - code: "46E35"
+          from: zbmath_search
+        - code: 46B10
+          from: zbmath_search
+        - code: 46-02
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: fr
           date: "1978"
           ids:
             doi: 10.1007/bfb0068827
+            zbl: "0382.46021"
+            zbl_id: "3594094"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +32,8 @@ records:
                 isbn:
                     - "9783540089230"
                     - "9783540357544"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -34,6 +46,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0068827
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3594094"
           level: work
       history:
         - op: add

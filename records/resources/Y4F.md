@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9780387380315"
                     - "9780387380322"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: FA5PXCH6G7

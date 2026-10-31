@@ -11,6 +11,13 @@ records:
         - name: Melkior Ornik
           role: author
       date: "2022-03-19"
+      msc:
+        - code: 49-XX
+          from: arxiv
+        - code: 90-XX
+          from: arxiv
+        - code: 93-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.OC
@@ -22,6 +29,7 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2022-03-19"
           ids:
             arxiv: "2203.10220"
@@ -32,6 +40,10 @@ records:
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2203.10220"
+          level: work
+        - source: arxiv_text
+          snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
           native_id: "2203.10220"
           level: work
       history:
@@ -54,9 +66,12 @@ records:
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1967"
           ids:
             doi: 10.1007/bfb0080630
+            zbl: "0155.42201"
+            zbl_id: "3250003"
           manifestations:
             - key: m1
               kind: print
@@ -66,6 +81,8 @@ records:
                 isbn:
                     - "9783540039068"
                     - "9783540349747"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -78,6 +95,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0080630
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3250003"
           level: work
       history:
         - op: add

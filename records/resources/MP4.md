@@ -23,6 +23,8 @@ records:
                     - "9781470451929"
                     - "9781470451936"
                     - "9781470449001"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 20XHFD4A67

@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9783319421858"
                     - "9783319421865"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer International Publishing
@@ -32,6 +34,8 @@ records:
                 isbn:
                     - "9783319686301"
                     - "9783319686318"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 3YXAC8SZBF

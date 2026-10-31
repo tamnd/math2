@@ -7,6 +7,9 @@ records:
         - name: Arjun K. Rathie
           role: author
       date: "2021-01-14"
+      msc:
+        - code: 00-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.GM

@@ -9,6 +9,9 @@ records:
         - name: Fan Li
           role: author
       date: "2026-01-19"
+      msc:
+        - code: 62-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: stat.ME

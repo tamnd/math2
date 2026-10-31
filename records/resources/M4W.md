@@ -7,12 +7,22 @@ records:
         - name: V. Zolotarev
           role: author
       date: "1986-06-30"
+      msc:
+        - code: "60E07"
+          from: zbmath_search
+        - code: 60-02
+          from: zbmath_search
+        - code: "60E10"
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1986-06-30"
           ids:
             doi: 10.1090/mmono/065
+            zbl: "0589.60015"
+            zbl_id: "3947305"
           manifestations:
             - key: m1
               kind: print
@@ -23,6 +33,8 @@ records:
                     - "9780821845196"
                     - "9780821898154"
                     - "9781470444792"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9
@@ -35,6 +47,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/mmono/065
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3947305"
           level: work
       history:
         - op: add
@@ -51,6 +67,9 @@ records:
         - name: Qilong Guo
           role: author
       date: "2026-10-11"
+      msc:
+        - code: 57-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.GT
@@ -58,9 +77,11 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2026-10-11"
           ids:
             arxiv: "2610.13979"
+            zbl_id: "903206525"
       scope:
         value: in
         rule: S2
@@ -69,6 +90,14 @@ records:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
           native_id: "2610.13979"
+          level: work
+        - source: arxiv_text
+          snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
+          native_id: "2610.13979"
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "903206525"
           level: work
       history:
         - op: add
@@ -85,14 +114,30 @@ records:
         - name: Johannes A. Buchmann
           role: author
       date: "2001"
+      msc:
+        - code: 94-01
+          from: zbmath_search
+        - code: 94A60
+          from: zbmath_search
+        - code: 94A62
+          from: zbmath_search
+        - code: 68P25
+          from: zbmath_search
+        - code: 11Y16
+          from: zbmath_search
+        - code: 11Y11
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: de
           date: "2001"
           ids:
             doi:
                 - 10.1007/978-1-4419-9003-7
                 - 10.1007/978-1-4684-0496-8
+            zbl: "0974.94001"
+            zbl_id: "1589545"
           manifestations:
             - key: m1
               kind: print
@@ -102,6 +147,8 @@ records:
                 isbn:
                     - "9780387207568"
                     - "9781441990037"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer US
@@ -110,6 +157,8 @@ records:
                 isbn:
                     - "9781468404982"
                     - "9781468404968"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: NWQC4TW7S9
@@ -126,6 +175,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4684-0496-8
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "1589545"
           level: work
       history:
         - op: add

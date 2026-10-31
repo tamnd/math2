@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9783642649905"
                     - "9783642649882"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: GQFCNY816R

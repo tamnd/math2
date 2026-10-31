@@ -28,6 +28,8 @@ records:
                 isbn:
                     - "9783540115472"
                     - "9783540392200"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

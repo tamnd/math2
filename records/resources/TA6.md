@@ -9,12 +9,36 @@ records:
         - name: Tomáš Roubíček
           role: author
       date: "2015"
+      msc:
+        - code: 35-02
+          from: zbmath_search
+        - code: 35K85
+          from: zbmath_search
+        - code: 35Q74
+          from: zbmath_search
+        - code: 47J35
+          from: zbmath_search
+        - code: 49J40
+          from: zbmath_search
+        - code: 49J45
+          from: zbmath_search
+        - code: 49S05
+          from: zbmath_search
+        - code: 74-02
+          from: zbmath_search
+        - code: 74C15
+          from: zbmath_search
+        - code: 35B27
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2015"
           ids:
             doi: 10.1007/978-1-4939-2706-7
+            zbl: "1339.35006"
+            zbl_id: "6432589"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +48,8 @@ records:
                 isbn:
                     - "9781493927050"
                     - "9781493927067"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 2M0N86YNGA
@@ -36,6 +62,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4939-2706-7
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6432589"
           level: work
       history:
         - op: add

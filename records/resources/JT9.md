@@ -13,6 +13,9 @@ records:
         - name: Ramij Rahaman
           role: author
       date: "2026-09-28"
+      msc:
+        - code: 81-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph
@@ -68,6 +71,8 @@ records:
               publisher: IIT Madras
               ids:
                 nptel: "111106046"
+              access:
+                class: record
       scope:
         value: in
         rule: S6

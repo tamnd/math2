@@ -15,6 +15,9 @@ records:
         - name: Shinichi Nakajima
           role: author
       date: "2026-09-28"
+      msc:
+        - code: 81-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: hep-lat

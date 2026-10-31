@@ -31,6 +31,8 @@ records:
                     - "9781470417000"
                     - "9781470436650"
                     - "9781470436667"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1

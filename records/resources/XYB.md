@@ -9,12 +9,24 @@ records:
         - name: Padmini T. Joshi
           role: author
       date: "1983"
+      msc:
+        - code: 40-02
+          from: zbmath_search
+        - code: 33-02
+          from: zbmath_search
+        - code: 11B39
+          from: zbmath_search
+        - code: 01A60
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1983"
           ids:
             doi: 10.1090/conm/023
+            zbl: "0519.40001"
+            zbl_id: "3822321"
           manifestations:
             - key: m1
               kind: print
@@ -25,6 +37,8 @@ records:
                     - "9780821850244"
                     - "9780821853801"
                     - "9780821876084"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -37,6 +51,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/023
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3822321"
           level: work
       history:
         - op: add

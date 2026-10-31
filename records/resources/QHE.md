@@ -56,6 +56,8 @@ records:
                 isbn:
                     - "9780821814352"
                     - "9780821833476"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: American Mathematical Society
@@ -64,6 +66,8 @@ records:
                 isbn:
                     - "9780821814376"
                     - "9780821833711"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: EVG9FMRY3R

@@ -7,12 +7,18 @@ records:
         - name: Davar Khoshnevisan
           role: author
       date: "2007-03-20"
+      msc:
+        - code: 60-01
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2007-03-20"
           ids:
             doi: 10.1090/gsm/080
+            zbl: "1119.60001"
+            zbl_id: "5141535"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +30,8 @@ records:
                     - "9780821884010"
                     - "9780821891810"
                     - "9781470411572"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: YBEDX3XNVA
@@ -36,6 +44,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/gsm/080
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5141535"
           level: work
       history:
         - op: add

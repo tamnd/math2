@@ -7,6 +7,9 @@ records:
         - name: Allan Peter Engsig-Karup
           role: author
       date: "2026-10-13"
+      msc:
+        - code: 81-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: stat.ML

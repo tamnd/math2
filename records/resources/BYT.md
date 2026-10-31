@@ -18,6 +18,8 @@ records:
               publisher: IISc Bangalore
               ids:
                 nptel: "111108002"
+              access:
+                class: record
       scope:
         value: in
         rule: S6

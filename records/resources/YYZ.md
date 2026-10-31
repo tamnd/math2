@@ -9,6 +9,9 @@ records:
         - name: Rose Qingyang Hu
           role: author
       date: "2020-01-28"
+      msc:
+        - code: 94-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: eess.SP

@@ -9,6 +9,9 @@ records:
         - name: Eliza O'Reilly
           role: author
       date: "2025-02-06"
+      msc:
+        - code: 60-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG

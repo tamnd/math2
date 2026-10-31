@@ -9,12 +9,24 @@ records:
         - name: Joshua Wen
           role: editor
       date: "2025-03-27"
+      msc:
+        - code: 05-06
+          from: zbmath_search
+        - code: "05E05"
+          from: zbmath_search
+        - code: 33D52
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2025-03-27"
           ids:
             doi: 10.1090/conm/815
+            zbl: "1571.05001"
+            zbl_id: "8084511"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +36,8 @@ records:
                 isbn:
                     - "9781470478667"
                     - "9781470471897"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -36,6 +50,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/815
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "8084511"
           level: work
       history:
         - op: add
@@ -54,12 +72,20 @@ records:
         - name: Robert F. Tichy
           role: editor
       date: "1990"
+      msc:
+        - code: 00B25
+          from: zbmath_search
+        - code: 11-06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1990"
           ids:
             doi: 10.1007/bfb0096975
+            zbl: "0706.00008"
+            zbl_id: "48618"
           manifestations:
             - key: m1
               kind: print
@@ -69,6 +95,8 @@ records:
                 isbn:
                     - "9783540534082"
                     - "9783540468646"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -81,6 +109,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0096975
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "48618"
           level: work
       history:
         - op: add

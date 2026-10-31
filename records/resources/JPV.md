@@ -7,12 +7,28 @@ records:
         - name: Paul Rabinowitz
           role: author
       date: "1986-07-01"
+      msc:
+        - code: 58-02
+          from: zbmath_search
+        - code: "58E05"
+          from: zbmath_search
+        - code: "58E07"
+          from: zbmath_search
+        - code: 35J60
+          from: zbmath_search
+        - code: 47J05
+          from: zbmath_search
+        - code: 37J99
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1986-07-01"
           ids:
             doi: 10.1090/cbms/065
+            zbl: "0609.58002"
+            zbl_id: "3986206"
           manifestations:
             - key: m1
               kind: print
@@ -23,6 +39,8 @@ records:
                     - "9780821807156"
                     - "9780821889107"
                     - "9781470424251"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 20XHFD4A67
@@ -35,6 +53,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/cbms/065
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3986206"
           level: work
       history:
         - op: add
@@ -53,12 +75,26 @@ records:
         - name: Jón Ingólfur Magnússon
           role: author
       date: "2025"
+      msc:
+        - code: 32-02
+          from: zbmath_search
+        - code: 32C15
+          from: zbmath_search
+        - code: 32C25
+          from: zbmath_search
+        - code: 32C30
+          from: zbmath_search
+        - code: 32C35
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2025"
           ids:
             doi: 10.1007/978-3-031-96406-0
+            zbl: "1576.32001"
+            zbl_id: "8066954"
           manifestations:
             - key: m1
               kind: print
@@ -68,6 +104,8 @@ records:
                 isbn:
                     - "9783031964053"
                     - "9783031964060"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -80,6 +118,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-031-96406-0
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "8066954"
           level: work
       history:
         - op: add

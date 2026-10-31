@@ -23,6 +23,8 @@ records:
                     - "9780821832509"
                     - "9780821889480"
                     - "9781470424640"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 20XHFD4A67

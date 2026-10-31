@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9783642634918"
                     - "9783642581755"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: XGZPMQ7BSM

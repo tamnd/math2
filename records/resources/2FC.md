@@ -23,6 +23,8 @@ records:
                     - "9780821851623"
                     - "9780821854808"
                     - "9780821877371"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -53,6 +55,9 @@ records:
         - name: Benjamin Unger
           role: author
       date: "2022-03-31"
+      msc:
+        - code: 65-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG

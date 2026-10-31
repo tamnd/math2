@@ -7,12 +7,25 @@ records:
         - name: Jean-Luc Chabert
           role: author
       date: "2025"
+      msc:
+        - code: 11-01
+          from: zbmath_search
+        - code: 13-01
+          from: zbmath_search
+        - code: 16-01
+          from: zbmath_search
+        - code: 11C08
+          from: zbmath_search
+        - code: 13F20
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2025"
           ids:
             doi: 10.1090/coll/069
+            zbl_id: "8096237"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +35,8 @@ records:
                 isbn:
                     - "9781470484309"
                     - "9781470482060"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W1VWARV4XH
@@ -34,6 +49,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/coll/069
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "8096237"
           level: work
       history:
         - op: add
@@ -67,6 +86,8 @@ records:
                 isbn:
                     - "9783540138907"
                     - "9783540391029"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

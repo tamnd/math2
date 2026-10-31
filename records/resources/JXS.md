@@ -18,6 +18,8 @@ records:
               publisher: IIT Madras
               ids:
                 nptel: "111106051"
+              access:
+                class: record
       scope:
         value: in
         rule: S6

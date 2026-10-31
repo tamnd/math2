@@ -22,6 +22,8 @@ records:
               publisher: IISc Bangalore
               ids:
                 nptel: "111108081"
+              access:
+                class: record
       scope:
         value: in
         rule: S6

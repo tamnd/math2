@@ -9,12 +9,34 @@ records:
         - name: Stéphane Gerbi
           role: editor
       date: "2020-11-24"
+      msc:
+        - code: 35-06
+          from: zbmath_search
+        - code: 93-06
+          from: zbmath_search
+        - code: 35R30
+          from: zbmath_search
+        - code: 35Q41
+          from: zbmath_search
+        - code: 35K65
+          from: zbmath_search
+        - code: 35P20
+          from: zbmath_search
+        - code: 35R02
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
+        - code: 35Q93
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2020-11-24"
           ids:
             doi: 10.1090/conm/757
+            zbl: "1454.35008"
+            zbl_id: "7286459"
           manifestations:
             - key: m1
               kind: print
@@ -25,6 +47,8 @@ records:
                     - "9781470455477"
                     - "9781470456962"
                     - "9781470464479"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -37,6 +61,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/757
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7286459"
           level: work
       history:
         - op: add

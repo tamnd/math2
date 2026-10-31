@@ -25,6 +25,8 @@ records:
                     - "9780821849453"
                     - "9780821884225"
                     - "9781470411800"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: YBEDX3XNVA
@@ -70,6 +72,8 @@ records:
                 isbn:
                     - "9783540167792"
                     - "9783540398608"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

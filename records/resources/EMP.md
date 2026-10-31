@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9783030943592"
                     - "9783030943608"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W0CC03QJC7

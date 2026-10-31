@@ -9,12 +9,26 @@ records:
         - name: Enric Ventura
           role: author
       date: "1996"
+      msc:
+        - code: "20E05"
+          from: zbmath_search
+        - code: "20E36"
+          from: zbmath_search
+        - code: 20-02
+          from: zbmath_search
+        - code: "20E08"
+          from: zbmath_search
+        - code: 20L05
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1996"
           ids:
             doi: 10.1090/conm/195
+            zbl: "0845.20018"
+            zbl_id: "877621"
           manifestations:
             - key: m1
               kind: print
@@ -25,6 +39,8 @@ records:
                     - "9780821805640"
                     - "9780821855324"
                     - "9780821877869"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -37,6 +53,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/195
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "877621"
           level: work
       history:
         - op: add
@@ -55,6 +75,9 @@ records:
         - name: George Haller
           role: author
       date: "2026-10-13"
+      msc:
+        - code: 37-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.DS
@@ -62,9 +85,11 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2026-10-13"
           ids:
             arxiv: "2610.18078"
+            zbl_id: "903210576"
       scope:
         value: in
         rule: S2
@@ -73,6 +98,14 @@ records:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
           native_id: "2610.18078"
+          level: work
+        - source: arxiv_text
+          snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
+          native_id: "2610.18078"
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "903210576"
           level: work
       history:
         - op: add

@@ -15,6 +15,9 @@ records:
         - name: Rahul Trivedi
           role: author
       date: "2026-09-28"
+      msc:
+        - code: 81-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph
@@ -53,6 +56,13 @@ records:
         - name: Quentin Paris
           role: author
       date: "2021-03-26"
+      msc:
+        - code: 51-XX
+          from: arxiv
+        - code: 52-XX
+          from: arxiv
+        - code: 62-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: stat.ML

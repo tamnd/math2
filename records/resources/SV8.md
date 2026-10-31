@@ -9,12 +9,32 @@ records:
         - name: Dmitry Fuchs
           role: author
       date: "2016"
+      msc:
+        - code: 55-01
+          from: zbmath_search
+        - code: 55Nxx
+          from: zbmath_search
+        - code: 55Pxx
+          from: zbmath_search
+        - code: 55Sxx
+          from: zbmath_search
+        - code: 55Txx
+          from: zbmath_search
+        - code: 19Lxx
+          from: zbmath_search
+        - code: 55Rxx
+          from: zbmath_search
+        - code: 57Rxx
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2016"
           ids:
             doi: 10.1007/978-3-319-23488-5
+            zbl: "1346.55001"
+            zbl_id: "6482005"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +44,8 @@ records:
                 isbn:
                     - "9783319234878"
                     - "9783319234885"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7ME1ABA6H5
@@ -36,6 +58,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-319-23488-5
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6482005"
           level: work
       history:
         - op: add
@@ -52,12 +78,20 @@ records:
         - name: John M. Howie
           role: author
       date: "2003"
+      msc:
+        - code: 00A05
+          from: zbmath_search
+        - code: 30-01
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2003"
           ids:
             doi: 10.1007/978-1-4471-0027-0
+            zbl: "1027.00001"
+            zbl_id: "1949823"
           manifestations:
             - key: m1
               kind: print
@@ -67,6 +101,8 @@ records:
                 isbn:
                     - "9781852337339"
                     - "9781447100270"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 3YXAC8SZBF
@@ -79,6 +115,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4471-0027-0
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "1949823"
           level: work
       history:
         - op: add

@@ -7,12 +7,34 @@ records:
         - name: J. William Helton
           role: author
       date: "1987"
+      msc:
+        - code: 47-02
+          from: zbmath_search
+        - code: 46N99
+          from: zbmath_search
+        - code: 47A15
+          from: zbmath_search
+        - code: 49K05
+          from: zbmath_search
+        - code: 93B15
+          from: zbmath_search
+        - code: 46C20
+          from: zbmath_search
+        - code: 47B50
+          from: zbmath_search
+        - code: 47L30
+          from: zbmath_search
+        - code: 47A68
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1987"
           ids:
             doi: 10.1090/cbms/068
+            zbl: "0639.47001"
+            zbl_id: "4042600"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +44,8 @@ records:
                 isbn:
                     - "9780821807187"
                     - "9781470424282"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 20XHFD4A67
@@ -34,6 +58,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/cbms/068
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "4042600"
           level: work
       history:
         - op: add

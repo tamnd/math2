@@ -23,6 +23,8 @@ records:
                     - "9781470416430"
                     - "9780821883044"
                     - "9780821847350"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: CMK1G7XE8B
@@ -59,12 +61,30 @@ records:
         - name: Don Zagier
           role: editor
       date: "2016"
+      msc:
+        - code: 00B25
+          from: zbmath_search
+        - code: 14-06
+          from: zbmath_search
+        - code: 20-06
+          from: zbmath_search
+        - code: 11-06
+          from: zbmath_search
+        - code: 53-06
+          from: zbmath_search
+        - code: 58-06
+          from: zbmath_search
+        - code: 55-06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2016"
           ids:
             doi: 10.1007/978-3-319-43648-7
+            zbl: "1364.00032"
+            zbl_id: "6617376"
           manifestations:
             - key: m1
               kind: print
@@ -74,6 +94,8 @@ records:
                 isbn:
                     - "9783319436463"
                     - "9783319436487"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VS2PFDMCR5
@@ -86,6 +108,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-319-43648-7
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6617376"
           level: work
       history:
         - op: add

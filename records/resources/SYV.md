@@ -28,6 +28,8 @@ records:
                 isbn:
                     - "9783031053207"
                     - "9783031053214"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

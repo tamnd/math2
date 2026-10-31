@@ -9,12 +9,24 @@ records:
         - name: Katsumi Nomizu
           role: editor
       date: "1997-06-17"
+      msc:
+        - code: 14-01
+          from: zbmath_search
+        - code: 14A10
+          from: zbmath_search
+        - code: 14Hxx
+          from: zbmath_search
+        - code: 14B05
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1997-06-17"
           ids:
             doi: 10.1090/mmono/166
+            zbl: "0873.14001"
+            zbl_id: "1042528"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +36,8 @@ records:
                 isbn:
                     - "9780821811443"
                     - "9781470445812"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9
@@ -36,6 +50,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/mmono/166
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "1042528"
           level: work
       history:
         - op: add
@@ -54,12 +72,31 @@ records:
         - name: Horst Günter Zimmer
           role: editor
       date: "1980"
+      msc:
+        - code: 11Rxx
+          from: zbmath_search
+        - code: 11-01
+          from: zbmath_search
+        - code: 12-01
+          from: zbmath_search
+        - code: 12J10
+          from: zbmath_search
+        - code: 11Sxx
+          from: zbmath_search
+        - code: 12J25
+          from: zbmath_search
+        - code: 12J20
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          label: 3rd edition
+          language: en
           date: "1980"
           ids:
             doi: 10.1007/978-3-642-66671-1
+            zbl: "0423.12002"
+            zbl_id: "3657898"
           manifestations:
             - key: m1
               kind: print
@@ -69,6 +106,8 @@ records:
                 isbn:
                     - "9783540427490"
                     - "9783642666711"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: GQFCNY816R
@@ -81,6 +120,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-642-66671-1
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3657898"
           level: work
       history:
         - op: add
@@ -101,12 +144,24 @@ records:
         - name: Zhongmin Shen
           role: editor
       date: "1996"
+      msc:
+        - code: 00B25
+          from: zbmath_search
+        - code: 53-06
+          from: zbmath_search
+        - code: 53B40
+          from: zbmath_search
+        - code: 53C60
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1996"
           ids:
             doi: 10.1090/conm/196
+            zbl: "0844.00019"
+            zbl_id: "916462"
           manifestations:
             - key: m1
               kind: print
@@ -117,6 +172,8 @@ records:
                     - "9780821805077"
                     - "9780821855331"
                     - "9780821877876"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -129,6 +186,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/196
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "916462"
           level: work
       history:
         - op: add

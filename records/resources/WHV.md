@@ -7,6 +7,9 @@ records:
         - name: T. Daniel Brennan
           role: author
       date: "2021-06-25"
+      msc:
+        - code: 53-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: hep-th

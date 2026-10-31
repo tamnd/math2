@@ -26,6 +26,8 @@ records:
                 isbn:
                     - "9783540761242"
                     - "9781447103790"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 3YXAC8SZBF

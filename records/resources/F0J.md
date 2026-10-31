@@ -18,6 +18,8 @@ records:
               publisher: IIT Kanpur
               ids:
                 nptel: "111104032"
+              access:
+                class: record
       scope:
         value: in
         rule: S6

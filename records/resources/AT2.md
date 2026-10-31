@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9783642225963"
                     - "9783642225970"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

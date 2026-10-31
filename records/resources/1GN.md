@@ -9,14 +9,24 @@ records:
         - name: Vera T. Sós
           role: author
       date: "2015"
+      msc:
+        - code: 26-01
+          from: zbmath_search
+        - code: 26Axx
+          from: zbmath_search
+        - code: 00A06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2015"
           ids:
             doi:
                 - 10.1007/978-1-4939-2766-1
                 - 10.1007/978-1-4939-7369-9
+            zbl: "1325.26001"
+            zbl_id: "6432575"
           manifestations:
             - key: m1
               kind: print
@@ -26,6 +36,8 @@ records:
                 isbn:
                     - "9781493927654"
                     - "9781493927661"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer New York
@@ -34,6 +46,8 @@ records:
                 isbn:
                     - "9781493973675"
                     - "9781493973699"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: NWQC4TW7S9
@@ -50,6 +64,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4939-7369-9
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6432575"
           level: work
       history:
         - op: add

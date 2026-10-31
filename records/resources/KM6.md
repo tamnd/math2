@@ -11,12 +11,32 @@ records:
         - name: Xander Faber
           role: editor
       date: "2013-12-26"
+      msc:
+        - code: 14-06
+          from: zbmath_search
+        - code: 14M25
+          from: zbmath_search
+        - code: 14G22
+          from: zbmath_search
+        - code: 14G35
+          from: zbmath_search
+        - code: 14G40
+          from: zbmath_search
+        - code: 14H10
+          from: zbmath_search
+        - code: 14H40
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2013-12-26"
           ids:
             doi: 10.1090/conm/605
+            zbl: "1281.14002"
+            zbl_id: "6252800"
           manifestations:
             - key: m1
               kind: print
@@ -27,6 +47,8 @@ records:
                     - "9781470410216"
                     - "9781470414108"
                     - "9781470414153"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -39,6 +61,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/605
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6252800"
           level: work
       history:
         - op: add
@@ -59,6 +85,9 @@ records:
         - name: Yuhua Zhu
           role: author
       date: "2026-09-25"
+      msc:
+        - code: 37-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: stat.ML

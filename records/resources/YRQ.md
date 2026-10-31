@@ -7,12 +7,32 @@ records:
         - name: Nam-Hoon Lee
           role: author
       date: "2020"
+      msc:
+        - code: 51-01
+          from: zbmath_search
+        - code: 51M05
+          from: zbmath_search
+        - code: 51M10
+          from: zbmath_search
+        - code: 51B20
+          from: zbmath_search
+        - code: 51F15
+          from: zbmath_search
+        - code: 83A05
+          from: zbmath_search
+        - code: 51P05
+          from: zbmath_search
+        - code: 53B30
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2020"
           ids:
             doi: 10.1007/978-3-030-42101-4
+            zbl: "1445.51001"
+            zbl_id: "7188899"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +42,8 @@ records:
                 isbn:
                     - "9783030421007"
                     - "9783030421014"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: NWQC4TW7S9
@@ -34,6 +56,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-030-42101-4
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7188899"
           level: work
       history:
         - op: add

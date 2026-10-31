@@ -7,12 +7,26 @@ records:
         - name: Bruce Sagan
           role: author
       date: "2020-10-16"
+      msc:
+        - code: 05-01
+          from: zbmath_search
+        - code: 06-01
+          from: zbmath_search
+        - code: 05A15
+          from: zbmath_search
+        - code: 06A07
+          from: zbmath_search
+        - code: "05E05"
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2020-10-16"
           ids:
             doi: 10.1090/gsm/210
+            zbl: "1461.05001"
+            zbl_id: "7314184"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +38,8 @@ records:
                     - "9781470464493"
                     - "9781470460327"
                     - "9781470469351"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: YBEDX3XNVA
@@ -36,6 +52,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/gsm/210
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7314184"
           level: work
       history:
         - op: add

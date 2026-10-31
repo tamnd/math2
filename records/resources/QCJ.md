@@ -7,12 +7,20 @@ records:
         - name: M. Rudin
           role: author
       date: "1975-12-31"
+      msc:
+        - code: 54-02
+          from: zbmath_search
+        - code: 54A25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1975-12-31"
           ids:
             doi: 10.1090/cbms/023
+            zbl: "0318.54001"
+            zbl_id: "3498862"
           manifestations:
             - key: m1
               kind: print
@@ -23,6 +31,8 @@ records:
                     - "9780821816738"
                     - "9780821888704"
                     - "9781470423834"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 20XHFD4A67
@@ -35,6 +45,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/cbms/023
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3498862"
           level: work
       history:
         - op: add

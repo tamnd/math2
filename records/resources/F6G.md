@@ -11,6 +11,9 @@ records:
         - name: Alan Scheller-Wolf
           role: author
       date: "2026-10-12"
+      msc:
+        - code: 60-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.PF

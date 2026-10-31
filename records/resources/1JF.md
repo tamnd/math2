@@ -7,12 +7,22 @@ records:
         - name: Bernhard Schmidt
           role: author
       date: "2002"
+      msc:
+        - code: 05B25
+          from: zbmath_search
+        - code: 05B20
+          from: zbmath_search
+        - code: 05B10
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2002"
           ids:
             doi: 10.1007/b84213
+            zbl: "1007.05034"
+            zbl_id: "1833828"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +32,8 @@ records:
                 isbn:
                     - "9783540442431"
                     - "9783540457978"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -34,6 +46,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/b84213
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "1833828"
           level: work
       history:
         - op: add
@@ -50,12 +66,28 @@ records:
         - name: V. Yudovich
           role: author
       date: "1989"
+      msc:
+        - code: 76D05
+          from: zbmath_search
+        - code: "76E05"
+          from: zbmath_search
+        - code: 35Q30
+          from: zbmath_search
+        - code: 76-02
+          from: zbmath_search
+        - code: 35G10
+          from: zbmath_search
+        - code: 35K25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1989"
           ids:
             doi: 10.1090/mmono/074
+            zbl: "0727.76039"
+            zbl_id: "194745"
           manifestations:
             - key: m1
               kind: print
@@ -66,6 +98,8 @@ records:
                     - "9780821845288"
                     - "9780821898222"
                     - "9781470444884"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9
@@ -78,6 +112,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/mmono/074
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "194745"
           level: work
       history:
         - op: add

@@ -11,12 +11,20 @@ records:
         - name: Kyle C. A. Wedgwood
           role: author
       date: "2023"
+      msc:
+        - code: 92-01
+          from: zbmath_search
+        - code: 92B20
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2023"
           ids:
             doi: 10.1007/978-3-031-21916-0
+            zbl: "1534.92001"
+            zbl_id: "7671656"
           manifestations:
             - key: m1
               kind: print
@@ -26,6 +34,8 @@ records:
                 isbn:
                     - "9783031219153"
                     - "9783031219160"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7B8JKAVW9F
@@ -38,6 +48,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-031-21916-0
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7671656"
           level: work
       history:
         - op: add
@@ -60,12 +74,24 @@ records:
         - name: Qi Zhang
           role: editor
       date: "2003"
+      msc:
+        - code: 00B25
+          from: zbmath_search
+        - code: 14-06
+          from: zbmath_search
+        - code: 17-06
+          from: zbmath_search
+        - code: 32-06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2003"
           ids:
             doi: 10.1090/conm/322
+            zbl: "1012.00032"
+            zbl_id: "1926673"
           manifestations:
             - key: m1
               kind: print
@@ -76,6 +102,8 @@ records:
                     - "9780821832646"
                     - "9780821856581"
                     - "9780821879122"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -88,6 +116,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/322
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "1926673"
           level: work
       history:
         - op: add
@@ -104,12 +136,30 @@ records:
         - name: Harold M. Edwards
           role: author
       date: "1977"
+      msc:
+        - code: 12-01
+          from: zbmath_search
+        - code: 11R04
+          from: zbmath_search
+        - code: 11R27
+          from: zbmath_search
+        - code: 11R06
+          from: zbmath_search
+        - code: 11-01
+          from: zbmath_search
+        - code: 11D41
+          from: zbmath_search
+        - code: 11-03
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1977"
           ids:
             doi: 10.1007/978-1-4684-9307-8
+            zbl: "0355.12001"
+            zbl_id: "3552620"
           manifestations:
             - key: m1
               kind: print
@@ -119,6 +169,8 @@ records:
                 isbn:
                     - "9780387950020"
                     - "9781468493078"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7ME1ABA6H5
@@ -131,6 +183,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4684-9307-8
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3552620"
           level: work
       history:
         - op: add

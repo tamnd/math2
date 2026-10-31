@@ -7,12 +7,30 @@ records:
         - name: B. Grünbaum
           role: author
       date: "1972-12-31"
+      msc:
+        - code: 05-02
+          from: zbmath_search
+        - code: 51-02
+          from: zbmath_search
+        - code: 05C10
+          from: zbmath_search
+        - code: 51M20
+          from: zbmath_search
+        - code: 51N15
+          from: zbmath_search
+        - code: 52A10
+          from: zbmath_search
+        - code: 52A40
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1972-12-31"
           ids:
             doi: 10.1090/cbms/010
+            zbl: "0249.50011"
+            zbl_id: "3394958"
           manifestations:
             - key: m1
               kind: print
@@ -23,6 +41,8 @@ records:
                     - "9780821816592"
                     - "9780821888605"
                     - "9781470423704"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 20XHFD4A67
@@ -35,6 +55,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/cbms/010
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3394958"
           level: work
       history:
         - op: add

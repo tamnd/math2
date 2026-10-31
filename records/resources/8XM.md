@@ -7,6 +7,9 @@ records:
         - name: A. Mayeux
           role: author
       date: "2026-09-09"
+      msc:
+        - code: 94-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: q-bio.NC

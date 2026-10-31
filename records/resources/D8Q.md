@@ -9,6 +9,15 @@ records:
         - name: Sébastien Bertrand
           role: author
       date: "2024-02-14"
+      msc:
+        - code: 81-XX
+          from: arxiv
+        - code: 17-XX
+          from: arxiv
+        - code: 20-XX
+          from: arxiv
+        - code: 22-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math-ph
@@ -24,10 +33,13 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2024-02-14"
           ids:
             arxiv: "2402.08944"
             doi: 10.3842/sigma.2024.085
+            zbl: "1563.81068"
+            zbl_id: "7935922"
       scope:
         value: in
         rule: S2
@@ -36,6 +48,10 @@ records:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
           native_id: "2402.08944"
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7935922"
           level: work
       history:
         - op: add

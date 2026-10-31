@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9780821849330"
                     - "9781470413194"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: American Mathematical Society
@@ -32,6 +34,8 @@ records:
                 isbn:
                     - "9780821852651"
                     - "9781470413200"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: M891DMMNP3

@@ -37,6 +37,9 @@ records:
         - name: David G. Radcliffe
           role: author
       date: "1999-01-12"
+      msc:
+        - code: 20-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.GR
@@ -44,6 +47,7 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "1999-01-12"
           ids:
             arxiv: math/9901049
@@ -54,6 +58,10 @@ records:
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: math/9901049
+          level: work
+        - source: arxiv_text
+          snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
           native_id: math/9901049
           level: work
       history:

@@ -7,12 +7,22 @@ records:
         - name: Christian Pommerenke
           role: author
       date: "1992"
+      msc:
+        - code: 30-02
+          from: zbmath_search
+        - code: 30C85
+          from: zbmath_search
+        - code: 30C20
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1992"
           ids:
             doi: 10.1007/978-3-662-02770-7
+            zbl: "0762.30001"
+            zbl_id: "54314"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +32,8 @@ records:
                 isbn:
                     - "9783642081293"
                     - "9783662027707"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: GQFCNY816R
@@ -34,6 +46,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-662-02770-7
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "54314"
           level: work
       history:
         - op: add

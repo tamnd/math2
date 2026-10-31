@@ -7,6 +7,11 @@ records:
         - name: Semyon Alesker
           role: author
       date: "2003-01-14"
+      msc:
+        - code: 51-XX
+          from: arxiv
+        - code: 52-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.MG
@@ -14,6 +19,7 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2003-01-14"
           ids:
             arxiv: math/0301148
@@ -24,6 +30,10 @@ records:
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: math/0301148
+          level: work
+        - source: arxiv_text
+          snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
           native_id: math/0301148
           level: work
       history:
@@ -59,6 +69,8 @@ records:
                     - "9780821844564"
                     - "9780821883358"
                     - "9781470424688"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 20XHFD4A67

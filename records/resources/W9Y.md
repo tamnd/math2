@@ -36,6 +36,8 @@ records:
                 isbn:
                     - "9783642021404"
                     - "9783642021411"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

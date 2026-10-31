@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9783319310886"
                     - "9783319310893"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7ME1ABA6H5

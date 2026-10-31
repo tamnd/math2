@@ -16,6 +16,8 @@ records:
               publisher: Institute of Chemical Technology, Mumbai
               ids:
                 nptel: "111106149"
+              access:
+                class: record
       scope:
         value: in
         rule: S6

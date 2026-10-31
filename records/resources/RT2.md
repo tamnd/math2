@@ -11,6 +11,9 @@ records:
         - name: Dmitry E. Pelinovsky
           role: author
       date: "2025-11-16"
+      msc:
+        - code: 81-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

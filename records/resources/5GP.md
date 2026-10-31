@@ -7,12 +7,20 @@ records:
         - name: L. Ronkin
           role: author
       date: "1974"
+      msc:
+        - code: 32A15
+          from: zbmath_search
+        - code: 32-01
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1974"
           ids:
             doi: 10.1090/mmono/044
+            zbl: "0286.32004"
+            zbl_id: "3448943"
           manifestations:
             - key: m1
               kind: print
@@ -23,6 +31,8 @@ records:
                     - "9780821815946"
                     - "9780821886687"
                     - "9781470444594"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9
@@ -35,6 +45,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/mmono/044
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3448943"
           level: work
       history:
         - op: add
@@ -51,12 +65,28 @@ records:
         - name: Makoto Namba
           role: author
       date: "1979"
+      msc:
+        - code: 32G13
+          from: zbmath_search
+        - code: 32G15
+          from: zbmath_search
+        - code: 32-02
+          from: zbmath_search
+        - code: 14J15
+          from: zbmath_search
+        - code: 32C15
+          from: zbmath_search
+        - code: 30F10
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1979"
           ids:
             doi: 10.1007/bfb0085979
+            zbl: "0417.32008"
+            zbl_id: "3649117"
           manifestations:
             - key: m1
               kind: print
@@ -66,6 +96,8 @@ records:
                 isbn:
                     - "9783540097228"
                     - "9783540385189"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -78,6 +110,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0085979
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3649117"
           level: work
       history:
         - op: add

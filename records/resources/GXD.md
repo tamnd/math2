@@ -30,6 +30,8 @@ records:
                 isbn:
                     - "9783642081187"
                     - "9783662036624"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: XGZPMQ7BSM

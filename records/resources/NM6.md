@@ -38,6 +38,8 @@ records:
                 isbn:
                     - "9783540059202"
                     - "9783540376095"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -68,6 +70,9 @@ records:
         - name: Fang Liu
           role: author
       date: "2026-10-14"
+      msc:
+        - code: 62-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: stat.ML

@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9781461270195"
                     - "9781461211365"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: NWQC4TW7S9
@@ -54,14 +56,22 @@ records:
         - name: Pierre-Arnaud Raviart
           role: editor
       date: "1987"
+      msc:
+        - code: 00B25
+          from: zbmath_search
+        - code: 35-06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1987"
           ids:
             doi:
                 - 10.1007/bfb0078312
                 - 10.1007/bfb0083863
+            zbl: "0623.00008"
+            zbl_id: "4010413"
           manifestations:
             - key: m1
               kind: print
@@ -71,6 +81,8 @@ records:
                 isbn:
                     - "9783540182009"
                     - "9783540478058"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -79,6 +91,8 @@ records:
                 isbn:
                     - "9783540517467"
                     - "9783540468004"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -95,6 +109,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0083863
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "4010413"
           level: work
       history:
         - op: add

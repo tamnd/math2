@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9783031340956"
                     - "9783031340932"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W0CC03QJC7

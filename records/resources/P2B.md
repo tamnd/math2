@@ -25,6 +25,8 @@ records:
                     - "9780821834855"
                     - "9780821869673"
                     - "9780821890967"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W1VWARV4XH

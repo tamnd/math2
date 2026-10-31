@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9781461272427"
                     - "9781461216803"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: FA5PXCH6G7

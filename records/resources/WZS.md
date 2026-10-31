@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9783642212154"
                     - "9783642212161"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

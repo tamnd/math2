@@ -7,12 +7,30 @@ records:
         - name: Marco Manetti
           role: author
       date: "2022"
+      msc:
+        - code: 14-02
+          from: zbmath_search
+        - code: 53-02
+          from: zbmath_search
+        - code: 17-02
+          from: zbmath_search
+        - code: 14D10
+          from: zbmath_search
+        - code: 53D17
+          from: zbmath_search
+        - code: 18Mxx
+          from: zbmath_search
+        - code: 14A30
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2022"
           ids:
             doi: 10.1007/978-981-19-1185-9
+            zbl: "1509.14001"
+            zbl_id: "7529473"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +40,8 @@ records:
                 isbn:
                     - "9789811911842"
                     - "9789811911859"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: FA5PXCH6G7
@@ -34,6 +54,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-981-19-1185-9
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7529473"
           level: work
       history:
         - op: add

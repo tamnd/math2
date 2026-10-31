@@ -13,6 +13,9 @@ records:
         - name: Jason M. Klusowski
           role: author
       date: "2026-09-25"
+      msc:
+        - code: 62-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: stat.ME
@@ -55,6 +58,9 @@ records:
         - name: Roji Pius
           role: author
       date: "2026-10-08"
+      msc:
+        - code: 81-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: hep-th

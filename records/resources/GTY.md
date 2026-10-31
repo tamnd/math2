@@ -13,12 +13,30 @@ records:
         - name: Tom Ward
           role: editor
       date: "2020-02-24"
+      msc:
+        - code: 37-06
+          from: zbmath_search
+        - code: 37Axx
+          from: zbmath_search
+        - code: 37Bxx
+          from: zbmath_search
+        - code: 37Dxx
+          from: zbmath_search
+        - code: 37Exx
+          from: zbmath_search
+        - code: 37Fxx
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2020-02-24"
           ids:
             doi: 10.1090/conm/744
+            zbl: "1448.37001"
+            zbl_id: "7213243"
           manifestations:
             - key: m1
               kind: print
@@ -29,6 +47,8 @@ records:
                     - "9781470451004"
                     - "9781470454548"
                     - "9781470456887"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -41,6 +61,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/744
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7213243"
           level: work
       history:
         - op: add

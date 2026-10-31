@@ -9,12 +9,24 @@ records:
         - name: Mohamed A. Khamsi
           role: author
       date: "1990"
+      msc:
+        - code: 47S20
+          from: zbmath_search
+        - code: 47H10
+          from: zbmath_search
+        - code: 47H09
+          from: zbmath_search
+        - code: 47-01
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1990"
           ids:
             doi: 10.1007/978-1-4612-3444-9
+            zbl: "0713.47050"
+            zbl_id: "47696"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +36,8 @@ records:
                 isbn:
                     - "9780387973647"
                     - "9781461234449"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W0CC03QJC7
@@ -36,6 +50,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4612-3444-9
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "47696"
           level: work
       history:
         - op: add

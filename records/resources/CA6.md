@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9784431557463"
                     - "9784431557470"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer Japan
@@ -32,6 +34,8 @@ records:
                 isbn:
                     - "9784431568513"
                     - "9784431568520"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: FA5PXCH6G7

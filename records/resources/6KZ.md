@@ -11,6 +11,9 @@ records:
         - name: Xiaohan Yan
           role: author
       date: "2026-09-25"
+      msc:
+        - code: 14-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: hep-th

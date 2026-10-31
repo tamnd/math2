@@ -9,12 +9,40 @@ records:
         - name: Philip Holmes
           role: author
       date: "1983"
+      msc:
+        - code: 34-02
+          from: zbmath_search
+        - code: 37-02
+          from: zbmath_search
+        - code: 34C15
+          from: zbmath_search
+        - code: 37D45
+          from: zbmath_search
+        - code: "37E45"
+          from: zbmath_search
+        - code: 37Gxx
+          from: zbmath_search
+        - code: 70H05
+          from: zbmath_search
+        - code: 34C25
+          from: zbmath_search
+        - code: 34D20
+          from: zbmath_search
+        - code: 34C29
+          from: zbmath_search
+        - code: 37J40
+          from: zbmath_search
+        - code: 70H08
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1983"
           ids:
             doi: 10.1007/978-1-4612-1140-2
+            zbl: "0515.34001"
+            zbl_id: "3814047"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +52,8 @@ records:
                 isbn:
                     - "9781461270201"
                     - "9781461211402"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 2M0N86YNGA
@@ -36,6 +66,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4612-1140-2
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3814047"
           level: work
       history:
         - op: add

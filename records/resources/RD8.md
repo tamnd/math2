@@ -9,14 +9,34 @@ records:
         - name: E. F. Robertson
           role: author
       date: "1998"
+      msc:
+        - code: 15-01
+          from: zbmath_search
+        - code: 15A09
+          from: zbmath_search
+        - code: 15A15
+          from: zbmath_search
+        - code: 15A18
+          from: zbmath_search
+        - code: 15A03
+          from: zbmath_search
+        - code: 15A04
+          from: zbmath_search
+        - code: 15A06
+          from: zbmath_search
+        - code: 15A21
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1998"
           ids:
             doi:
                 - 10.1007/978-1-4471-0681-4
                 - 10.1007/978-1-4471-3496-1
+            zbl: "0888.15001"
+            zbl_id: "1115324"
           manifestations:
             - key: m1
               kind: print
@@ -26,6 +46,8 @@ records:
                 isbn:
                     - "9781852336622"
                     - "9781447106814"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer London
@@ -34,6 +56,8 @@ records:
                 isbn:
                     - "9783540761228"
                     - "9781447134961"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 3YXAC8SZBF
@@ -50,6 +74,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4471-3496-1
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "1115324"
           level: work
       history:
         - op: add

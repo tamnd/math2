@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9780821807309"
                     - "9781470424381"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 20XHFD4A67

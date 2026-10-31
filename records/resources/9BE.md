@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9781470422158"
                     - "9780821820520"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: CMK1G7XE8B

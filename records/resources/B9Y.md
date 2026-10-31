@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9783642081729"
                     - "9783662032824"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: GQFCNY816R

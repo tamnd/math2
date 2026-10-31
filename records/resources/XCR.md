@@ -20,6 +20,8 @@ records:
               publisher: IIT Guwahati
               ids:
                 nptel: "111103022"
+              access:
+                class: record
       scope:
         value: in
         rule: S6

@@ -26,6 +26,8 @@ records:
                 isbn:
                     - "9780387909318"
                     - "9781475744934"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 2M0N86YNGA

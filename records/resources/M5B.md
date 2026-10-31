@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9781475729559"
                     - "9781475729535"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7B8JKAVW9F

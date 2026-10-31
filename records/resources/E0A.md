@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9780821841617"
                     - "9781470423810"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 20XHFD4A67
@@ -54,12 +56,22 @@ records:
         - name: Bruce Palka
           role: author
       date: "2017-05-03"
+      msc:
+        - code: 30-01
+          from: zbmath_search
+        - code: 30C65
+          from: zbmath_search
+        - code: 30C62
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2017-05-03"
           ids:
             doi: 10.1090/surv/216
+            zbl: "1371.30001"
+            zbl_id: "6729338"
           manifestations:
             - key: m1
               kind: print
@@ -71,6 +83,8 @@ records:
                 isbn:
                     - "9780821843604"
                     - "9781470440466"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: M891DMMNP3
@@ -83,6 +97,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/surv/216
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6729338"
           level: work
       history:
         - op: add

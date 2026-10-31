@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9780387904221"
                     - "9781468493443"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W0CC03QJC7

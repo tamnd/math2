@@ -7,12 +7,32 @@ records:
         - name: Martin Olsson
           role: author
       date: "2016-05-13"
+      msc:
+        - code: 14-02
+          from: zbmath_search
+        - code: 14A20
+          from: zbmath_search
+        - code: 14D23
+          from: zbmath_search
+        - code: 14F20
+          from: zbmath_search
+        - code: 14D22
+          from: zbmath_search
+        - code: 14H10
+          from: zbmath_search
+        - code: 14D20
+          from: zbmath_search
+        - code: 18D30
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2016-05-13"
           ids:
             doi: 10.1090/coll/062
+            zbl: "1346.14001"
+            zbl_id: "6561920"
           manifestations:
             - key: m1
               kind: print
@@ -23,6 +43,8 @@ records:
                     - "9781470427986"
                     - "9781470428655"
                     - "9781470428662"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W1VWARV4XH
@@ -35,6 +57,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/coll/062
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6561920"
           level: work
       history:
         - op: add

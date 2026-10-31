@@ -15,6 +15,9 @@ records:
         - name: Dylan Pearson
           role: author
       date: "2026-10-04"
+      msc:
+        - code: 05-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.DS

@@ -38,6 +38,8 @@ records:
                 isbn:
                     - "9783540531203"
                     - "9783540467151"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

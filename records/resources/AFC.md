@@ -19,6 +19,9 @@ records:
         - name: Khaled B. Letaief
           role: author
       date: "2026-10-15"
+      msc:
+        - code: 94-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.IT
@@ -28,6 +31,7 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2026-10-15"
           ids:
             arxiv: "2610.21759"
@@ -38,6 +42,10 @@ records:
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
+          native_id: "2610.21759"
+          level: work
+        - source: arxiv_text
+          snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
           native_id: "2610.21759"
           level: work
       history:
@@ -57,12 +65,38 @@ records:
         - name: S. Smirnov
           role: editor
       date: "2016-04-28"
+      msc:
+        - code: 60-06
+          from: zbmath_search
+        - code: 82-06
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
+        - code: 60K35
+          from: zbmath_search
+        - code: 82B43
+          from: zbmath_search
+        - code: 82C43
+          from: zbmath_search
+        - code: 60B20
+          from: zbmath_search
+        - code: 05C81
+          from: zbmath_search
+        - code: 82B41
+          from: zbmath_search
+        - code: 82C41
+          from: zbmath_search
+        - code: 60J25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2016-04-28"
           ids:
             doi: 10.1090/pspum/091
+            zbl: "1341.60001"
+            zbl_id: "6588420"
           manifestations:
             - key: m1
               kind: print
@@ -74,6 +108,8 @@ records:
                 isbn:
                     - "9781470422486"
                     - "9781470428839"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: EVG9FMRY3R
@@ -86,6 +122,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/pspum/091
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6588420"
           level: work
       history:
         - op: add

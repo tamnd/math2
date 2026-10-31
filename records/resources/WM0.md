@@ -11,12 +11,40 @@ records:
         - name: Andrei Okounkov
           role: editor
       date: "2025-08-12"
+      msc:
+        - code: 14-06
+          from: zbmath_search
+        - code: 14H40
+          from: zbmath_search
+        - code: 14H70
+          from: zbmath_search
+        - code: 14K25
+          from: zbmath_search
+        - code: 14Q05
+          from: zbmath_search
+        - code: 14T20
+          from: zbmath_search
+        - code: 32G34
+          from: zbmath_search
+        - code: 33C70
+          from: zbmath_search
+        - code: 35C20
+          from: zbmath_search
+        - code: 60G55
+          from: zbmath_search
+        - code: 81R12
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2025-08-12"
           ids:
             doi: 10.1090/conm/823
+            zbl: "1570.14002"
+            zbl_id: "8076293"
           manifestations:
             - key: m1
               kind: print
@@ -26,6 +54,8 @@ records:
                 isbn:
                     - "9781470480363"
                     - "9781470475260"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -38,6 +68,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/823
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "8076293"
           level: work
       history:
         - op: add

@@ -34,6 +34,8 @@ records:
                 isbn:
                     - "9783540407867"
                     - "9783540452041"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

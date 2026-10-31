@@ -56,6 +56,8 @@ records:
                 isbn:
                     - "9783540054610"
                     - "9783540366218"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

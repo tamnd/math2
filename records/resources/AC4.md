@@ -9,15 +9,27 @@ records:
         - name: Shing-Tung Yau
           role: editor
       date: "1993"
+      msc:
+        - code: 00B25
+          from: zbmath_search
+        - code: 53-06
+          from: zbmath_search
+        - code: 49-06
+          from: zbmath_search
+        - code: 58-06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1993"
           ids:
             doi:
                 - 10.1090/pspum/054.1
                 - 10.1090/pspum/054.2
                 - 10.1090/pspum/054.3
+            zbl: "0773.00022"
+            zbl_id: "412180"
           manifestations:
             - key: m1
               kind: print
@@ -28,6 +40,8 @@ records:
                     - "9780821814949"
                     - "9780821868225"
                     - "9780821893524"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: American Mathematical Society
@@ -37,6 +51,8 @@ records:
                     - "9780821814956"
                     - "9780821868232"
                     - "9780821893531"
+              access:
+                class: record
             - key: m3
               kind: print
               publisher: American Mathematical Society
@@ -46,6 +62,8 @@ records:
                     - "9780821814963"
                     - "9780821868249"
                     - "9780821893548"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: EVG9FMRY3R
@@ -66,6 +84,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/pspum/054.3
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "412180"
           level: work
       history:
         - op: add

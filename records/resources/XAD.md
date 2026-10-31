@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9780821853443"
                     - "9781470444426"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9

@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9781441970541"
                     - "9781441970558"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer International Publishing
@@ -32,6 +34,8 @@ records:
                 isbn:
                     - "9783031338588"
                     - "9783031338595"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 2M0N86YNGA

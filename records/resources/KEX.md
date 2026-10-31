@@ -16,6 +16,8 @@ records:
               publisher: IISER Pune
               ids:
                 nptel: "111106134"
+              access:
+                class: record
       scope:
         value: in
         rule: S6
@@ -48,6 +50,9 @@ records:
         - name: Petar Veličković
           role: author
       date: "2022-10-06"
+      msc:
+        - code: 05-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG
@@ -90,15 +95,25 @@ records:
         - name: Nils H. Risebro
           role: author
       date: "2002"
+      msc:
+        - code: 35-02
+          from: zbmath_search
+        - code: 35L65
+          from: zbmath_search
+        - code: 65M60
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2002"
           ids:
             doi:
                 - 10.1007/978-3-642-23911-3
                 - 10.1007/978-3-642-56139-9
                 - 10.1007/978-3-662-47507-2
+            zbl: "1006.35002"
+            zbl_id: "1798927"
           manifestations:
             - key: m1
               kind: print
@@ -108,6 +123,8 @@ records:
                 isbn:
                     - "9783642239106"
                     - "9783642239113"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -116,6 +133,8 @@ records:
                 isbn:
                     - "9783540432890"
                     - "9783642561399"
+              access:
+                class: record
             - key: m3
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -124,6 +143,8 @@ records:
                 isbn:
                     - "9783662475065"
                     - "9783662475072"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 2M0N86YNGA
@@ -144,6 +165,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-662-47507-2
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "1798927"
           level: work
       history:
         - op: add

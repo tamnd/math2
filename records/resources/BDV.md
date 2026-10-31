@@ -7,6 +7,9 @@ records:
         - name: Maxim V. Churilov
           role: author
       date: "2026-08-07"
+      msc:
+        - code: 81-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

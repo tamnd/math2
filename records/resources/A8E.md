@@ -11,6 +11,9 @@ records:
         - name: Yao Xie
           role: author
       date: "2024-11-05"
+      msc:
+        - code: 62-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: stat.ML

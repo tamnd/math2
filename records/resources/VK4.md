@@ -7,12 +7,26 @@ records:
         - name: Jean-Pierre Serre
           role: author
       date: "1997"
+      msc:
+        - code: 12G05
+          from: zbmath_search
+        - code: 12-02
+          from: zbmath_search
+        - code: 11-02
+          from: zbmath_search
+        - code: 11R34
+          from: zbmath_search
+        - code: 11S25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1997"
           ids:
             doi: 10.1007/978-3-642-59141-9
+            zbl: "0902.12004"
+            zbl_id: "1047205"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +36,8 @@ records:
                 isbn:
                     - "9783540421924"
                     - "9783642591419"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: FA5PXCH6G7
@@ -34,6 +50,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-642-59141-9
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "1047205"
           level: work
       history:
         - op: add

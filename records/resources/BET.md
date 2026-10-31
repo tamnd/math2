@@ -9,12 +9,46 @@ records:
         - name: Evgeny Semenov
           role: editor
       date: "2019-07-19"
+      msc:
+        - code: 35-06
+          from: zbmath_search
+        - code: 47-06
+          from: zbmath_search
+        - code: 37-06
+          from: zbmath_search
+        - code: 60-06
+          from: zbmath_search
+        - code: 01A60
+          from: zbmath_search
+        - code: 30C65
+          from: zbmath_search
+        - code: 34C23
+          from: zbmath_search
+        - code: 35L05
+          from: zbmath_search
+        - code: "37E35"
+          from: zbmath_search
+        - code: 37G99
+          from: zbmath_search
+        - code: 47B44
+          from: zbmath_search
+        - code: 83C57
+          from: zbmath_search
+        - code: 92C37
+          from: zbmath_search
+        - code: 00B15
+          from: zbmath_search
+        - code: 00B30
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2019-07-19"
           ids:
             doi: 10.1090/conm/734
+            zbl: "1420.35009"
+            zbl_id: "7096976"
           manifestations:
             - key: m1
               kind: print
@@ -26,6 +60,8 @@ records:
                 isbn:
                     - "9781470437831"
                     - "9781470453589"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -38,6 +74,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/734
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7096976"
           level: work
       history:
         - op: add

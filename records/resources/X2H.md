@@ -7,12 +7,28 @@ records:
         - name: Urs Stammbach
           role: author
       date: "1973"
+      msc:
+        - code: 20J05
+          from: zbmath_search
+        - code: "20E10"
+          from: zbmath_search
+        - code: "20E15"
+          from: zbmath_search
+        - code: "20E22"
+          from: zbmath_search
+        - code: 20J06
+          from: zbmath_search
+        - code: 20-02
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1973"
           ids:
             doi: 10.1007/bfb0067177
+            zbl: "0272.20049"
+            zbl_id: "3427621"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +38,8 @@ records:
                 isbn:
                     - "9783540065692"
                     - "9783540378709"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -34,6 +52,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0067177
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3427621"
           level: work
       history:
         - op: add

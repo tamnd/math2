@@ -11,12 +11,40 @@ records:
         - name: Raphaël Danchin
           role: author
       date: "2011"
+      msc:
+        - code: 35-02
+          from: zbmath_search
+        - code: 35Q30
+          from: zbmath_search
+        - code: 35Q35
+          from: zbmath_search
+        - code: 35Q41
+          from: zbmath_search
+        - code: 35Q55
+          from: zbmath_search
+        - code: 42B25
+          from: zbmath_search
+        - code: 42B37
+          from: zbmath_search
+        - code: 76B03
+          from: zbmath_search
+        - code: 76D03
+          from: zbmath_search
+        - code: 76N10
+          from: zbmath_search
+        - code: 42-02
+          from: zbmath_search
+        - code: 35L60
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2011"
           ids:
             doi: 10.1007/978-3-642-16830-7
+            zbl: "1227.35004"
+            zbl_id: "5826218"
           manifestations:
             - key: m1
               kind: print
@@ -26,6 +54,8 @@ records:
                 isbn:
                     - "9783642168291"
                     - "9783642168307"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: GQFCNY816R
@@ -38,6 +68,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-642-16830-7
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5826218"
           level: work
       history:
         - op: add

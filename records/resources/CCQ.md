@@ -11,6 +11,9 @@ records:
         - name: Zhengcheng Gu
           role: author
       date: "2026-10-06"
+      msc:
+        - code: 81-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cond-mat.stat-mech

@@ -27,6 +27,8 @@ records:
               date: "2009"
               ids:
                 oyc: economics/econ-251
+              access:
+                class: record
       scope:
         value: deferred
         until: "2027-01-29"

@@ -21,12 +21,30 @@ records:
         - name: Jonathan Smith
           role: editor
       date: "2019-01-16"
+      msc:
+        - code: 17-06
+          from: zbmath_search
+        - code: 20-06
+          from: zbmath_search
+        - code: 17A32
+          from: zbmath_search
+        - code: 17C40
+          from: zbmath_search
+        - code: 20N05
+          from: zbmath_search
+        - code: 52A01
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2019-01-16"
           ids:
             doi: 10.1090/conm/721
+            zbl: "1410.17001"
+            zbl_id: "7027521"
           manifestations:
             - key: m1
               kind: print
@@ -37,6 +55,8 @@ records:
                     - "9781470442453"
                     - "9781470451028"
                     - "9781470451035"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -49,6 +69,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/721
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7027521"
           level: work
       history:
         - op: add

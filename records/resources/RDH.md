@@ -16,6 +16,8 @@ records:
               publisher: IISER Pune
               ids:
                 nptel: "111106102"
+              access:
+                class: record
       scope:
         value: in
         rule: S6

@@ -3,13 +3,22 @@ records:
     - id: ZJ14B48T3Z
       kind: monograph
       title: Operator-Valued Measures and Integrals for Cone-Valued Functions
+      creators:
+        - name: Roth, Walter
+          role: author
       date: "2009"
+      msc:
+        - code: 28-02
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2009"
           ids:
             doi: 10.1007/978-3-540-87565-9
+            zbl: "1187.28002"
+            zbl_id: "5490501"
           manifestations:
             - key: m1
               kind: print
@@ -19,6 +28,8 @@ records:
                 isbn:
                     - "9783540875642"
                     - "9783540875659"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -31,6 +42,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-540-87565-9
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5490501"
           level: work
       history:
         - op: add

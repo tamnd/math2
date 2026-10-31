@@ -28,6 +28,8 @@ records:
                 isbn:
                     - "9783319185842"
                     - "9783319185859"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

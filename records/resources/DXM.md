@@ -9,12 +9,32 @@ records:
         - name: R. Tyrrell Rockafellar
           role: author
       date: "2009"
+      msc:
+        - code: 26-02
+          from: zbmath_search
+        - code: 26B10
+          from: zbmath_search
+        - code: 47J07
+          from: zbmath_search
+        - code: 58C15
+          from: zbmath_search
+        - code: 49J53
+          from: zbmath_search
+        - code: 49K40
+          from: zbmath_search
+        - code: 90C31
+          from: zbmath_search
+        - code: 93C70
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2009"
           ids:
             doi: 10.1007/978-0-387-87821-8
+            zbl: "1178.26001"
+            zbl_id: "5366404"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +44,8 @@ records:
                 isbn:
                     - "9780387878201"
                     - "9780387878218"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: FA5PXCH6G7
@@ -36,6 +58,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-0-387-87821-8
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5366404"
           level: work
       history:
         - op: add

@@ -9,6 +9,9 @@ records:
         - name: Li Ma
           role: author
       date: "2026-10-02"
+      msc:
+        - code: 62-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: stat.ME

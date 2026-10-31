@@ -32,6 +32,8 @@ records:
                 isbn:
                     - "9783319423500"
                     - "9783319423517"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

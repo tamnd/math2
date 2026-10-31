@@ -26,6 +26,8 @@ records:
                 isbn:
                     - "9781461273455"
                     - "9781461219323"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: NWQC4TW7S9

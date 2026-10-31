@@ -9,6 +9,9 @@ records:
         - name: Henrique M. Oliveira
           role: author
       date: "2026-10-11"
+      msc:
+        - code: 37-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: q-bio.PE

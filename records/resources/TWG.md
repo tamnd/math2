@@ -7,6 +7,9 @@ records:
         - name: Michał Zwierzyński
           role: author
       date: "2026-10-06"
+      msc:
+        - code: 05-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: math.CO
@@ -16,9 +19,11 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2026-10-06"
           ids:
             arxiv: "2610.07828"
+            zbl_id: "903200366"
       scope:
         value: in
         rule: S2
@@ -27,6 +32,14 @@ records:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
           native_id: "2610.07828"
+          level: work
+        - source: arxiv_text
+          snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
+          native_id: "2610.07828"
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "903200366"
           level: work
       history:
         - op: add
@@ -43,12 +56,30 @@ records:
         - name: Sinai Robins
           role: author
       date: "2024"
+      msc:
+        - code: 42-01
+          from: zbmath_search
+        - code: 11-01
+          from: zbmath_search
+        - code: 42A38
+          from: zbmath_search
+        - code: 94A20
+          from: zbmath_search
+        - code: 52B99
+          from: zbmath_search
+        - code: 52C17
+          from: zbmath_search
+        - code: 11H31
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2024"
           ids:
             doi: 10.1090/stml/107
+            zbl: "1555.42002"
+            zbl_id: "7796374"
           manifestations:
             - key: m1
               kind: print
@@ -58,6 +89,8 @@ records:
                 isbn:
                     - "9781470476632"
                     - "9781470470333"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 6RX4VMGQKK
@@ -70,6 +103,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/stml/107
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7796374"
           level: work
       history:
         - op: add

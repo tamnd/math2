@@ -11,6 +11,9 @@ records:
         - name: Bruno Clerckx
           role: author
       date: "2026-10-03"
+      msc:
+        - code: 94-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: eess.SP

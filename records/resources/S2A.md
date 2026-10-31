@@ -36,6 +36,8 @@ records:
                 isbn:
                     - "9783030841409"
                     - "9783030841416"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -68,15 +70,29 @@ records:
         - name: Jacques Lafontaine
           role: author
       date: "1987"
+      msc:
+        - code: 53-01
+          from: zbmath_search
+        - code: 53B20
+          from: zbmath_search
+        - code: 53C20
+          from: zbmath_search
+        - code: 58-01
+          from: zbmath_search
+        - code: 58J60
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1987"
           ids:
             doi:
                 - 10.1007/978-3-642-18855-8
                 - 10.1007/978-3-642-97026-9
                 - 10.1007/978-3-642-97242-3
+            zbl: "0636.53001"
+            zbl_id: "4036608"
           manifestations:
             - key: m1
               kind: print
@@ -86,6 +102,8 @@ records:
                 isbn:
                     - "9783540204930"
                     - "9783642188558"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -94,6 +112,8 @@ records:
                 isbn:
                     - "9783540179238"
                     - "9783642970269"
+              access:
+                class: record
             - key: m3
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -102,6 +122,8 @@ records:
                 isbn:
                     - "9783540524014"
                     - "9783642972423"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W0CC03QJC7
@@ -122,6 +144,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-642-97242-3
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "4036608"
           level: work
       history:
         - op: add

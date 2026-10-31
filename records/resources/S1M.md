@@ -11,6 +11,11 @@ records:
         - name: Roman Vershynin
           role: author
       date: "2022-04-20"
+      msc:
+        - code: 60-XX
+          from: arxiv
+        - code: 62-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.CR

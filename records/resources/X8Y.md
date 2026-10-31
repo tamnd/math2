@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9783642309007"
                     - "9783642309014"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

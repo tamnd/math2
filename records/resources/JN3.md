@@ -15,6 +15,9 @@ records:
         - name: Elad Tzalik
           role: author
       date: "2026-09-30"
+      msc:
+        - code: 94-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

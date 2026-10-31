@@ -9,6 +9,9 @@ records:
         - name: Beni Yoshida
           role: author
       date: "2026-09-30"
+      msc:
+        - code: 81-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: hep-th

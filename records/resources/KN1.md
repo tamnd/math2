@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9783319290744"
                     - "9783319290751"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

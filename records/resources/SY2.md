@@ -13,12 +13,28 @@ records:
         - name: M. Scheepers
           role: editor
       date: "2011"
+      msc:
+        - code: 03-06
+          from: zbmath_search
+        - code: 03C55
+          from: zbmath_search
+        - code: 03Exx
+          from: zbmath_search
+        - code: 54A20
+          from: zbmath_search
+        - code: 54A25
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2011"
           ids:
             doi: 10.1090/conm/533
+            zbl: "1205.03004"
+            zbl_id: "5843343"
           manifestations:
             - key: m1
               kind: print
@@ -29,6 +45,8 @@ records:
                     - "9780821848128"
                     - "9780821873939"
                     - "9780821882122"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -41,6 +59,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/533
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5843343"
           level: work
       history:
         - op: add

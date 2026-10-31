@@ -13,12 +13,24 @@ records:
         - name: Rodolfo H. Torres
           role: editor
       date: "2007"
+      msc:
+        - code: 42-06
+          from: zbmath_search
+        - code: 35-06
+          from: zbmath_search
+        - code: 47-06
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2007"
           ids:
             doi: 10.1090/conm/428
+            zbl: "1110.42001"
+            zbl_id: "5147973"
           manifestations:
             - key: m1
               kind: print
@@ -29,6 +41,8 @@ records:
                     - "9780821840931"
                     - "9780821857588"
                     - "9780821881071"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VAEN3CBGT1
@@ -41,6 +55,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/428
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5147973"
           level: work
       history:
         - op: add
@@ -57,12 +75,24 @@ records:
         - name: Corneliu Constantinescu
           role: author
       date: "1980"
+      msc:
+        - code: 28A33
+          from: zbmath_search
+        - code: 28B05
+          from: zbmath_search
+        - code: "46E27"
+          from: zbmath_search
+        - code: 28-02
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1980"
           ids:
             doi: 10.1007/bfb0089049
+            zbl: "0429.28009"
+            zbl_id: "3668921"
           manifestations:
             - key: m1
               kind: print
@@ -72,6 +102,8 @@ records:
                 isbn:
                     - "9783540099895"
                     - "9783540392750"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -84,6 +116,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0089049
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3668921"
           level: work
       history:
         - op: add

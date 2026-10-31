@@ -11,6 +11,9 @@ records:
         - name: Andrew Glaws
           role: author
       date: "2024-10-16"
+      msc:
+        - code: 62-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: cs.CV

@@ -19,6 +19,15 @@ records:
         - name: Andrew Lucas
           role: author
       date: "2026-10-04"
+      msc:
+        - code: 05-XX
+          from: arxiv
+        - code: 94-XX
+          from: arxiv
+        - code: 51-XX
+          from: arxiv
+        - code: 52-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

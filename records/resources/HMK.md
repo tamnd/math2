@@ -43,6 +43,9 @@ records:
         - name: R. Rossi
           role: author
       date: "2026-10-08"
+      msc:
+        - code: 65-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: physics.comp-ph

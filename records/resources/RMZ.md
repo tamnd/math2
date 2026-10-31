@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9783030331429"
                     - "9783030331436"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7ME1ABA6H5

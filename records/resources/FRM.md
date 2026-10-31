@@ -10,9 +10,12 @@ records:
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1968"
           ids:
             doi: 10.1007/bfb0079602
+            zbl: "0177.26302"
+            zbl_id: "3283312"
           manifestations:
             - key: m1
               kind: print
@@ -22,6 +25,8 @@ records:
                 isbn:
                     - "9783540042433"
                     - "9783540359159"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -34,6 +39,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0079602
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3283312"
           level: work
       history:
         - op: add
@@ -54,6 +63,11 @@ records:
         - name: Xiu-Hao Deng
           role: author
       date: "2026-09-29"
+      msc:
+        - code: 94-XX
+          from: arxiv
+        - code: 11-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

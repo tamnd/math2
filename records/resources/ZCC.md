@@ -38,6 +38,8 @@ records:
                 isbn:
                     - "9783642131707"
                     - "9783642131714"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA

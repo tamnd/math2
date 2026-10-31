@@ -9,6 +9,15 @@ records:
         - name: Victor V. Albert
           role: author
       date: "2026-10-03"
+      msc:
+        - code: 81-XX
+          from: arxiv
+        - code: 94-XX
+          from: arxiv
+        - code: 46-XX
+          from: arxiv
+        - code: 47-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

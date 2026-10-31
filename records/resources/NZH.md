@@ -11,12 +11,22 @@ records:
         - name: Sylvia Wiegand
           role: author
       date: "2021"
+      msc:
+        - code: 13-02
+          from: zbmath_search
+        - code: 13F25
+          from: zbmath_search
+        - code: 13Exx
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2021"
           ids:
             doi: 10.1090/surv/259
+            zbl: "1524.13001"
+            zbl_id: "7559865"
           manifestations:
             - key: m1
               kind: print
@@ -27,6 +37,8 @@ records:
                     - "9781470467333"
                     - "9781470468927"
                     - "9781470466428"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: M891DMMNP3
@@ -39,6 +51,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/surv/259
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "7559865"
           level: work
       history:
         - op: add
@@ -55,12 +71,24 @@ records:
         - name: Klaus Schmidt
           role: author
       date: "1995"
+      msc:
+        - code: 28-02
+          from: zbmath_search
+        - code: 22-02
+          from: zbmath_search
+        - code: 28D15
+          from: zbmath_search
+        - code: 28D20
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1995"
           ids:
             doi: 10.1007/978-3-0348-9236-0
+            zbl: "0833.28001"
+            zbl_id: "750226"
           manifestations:
             - key: m1
               kind: print
@@ -70,6 +98,8 @@ records:
                 isbn:
                     - "9783034899574"
                     - "9783034892360"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VS2PFDMCR5
@@ -82,6 +112,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-0348-9236-0
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "750226"
           level: work
       history:
         - op: add

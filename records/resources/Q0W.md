@@ -7,12 +7,28 @@ records:
         - name: Mark Gross
           role: author
       date: "2011-01-20"
+      msc:
+        - code: 14J33
+          from: zbmath_search
+        - code: 14M25
+          from: zbmath_search
+        - code: 14J32
+          from: zbmath_search
+        - code: 14N35
+          from: zbmath_search
+        - code: 52B20
+          from: zbmath_search
+        - code: 14-02
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2011-01-20"
           ids:
             doi: 10.1090/cbms/114
+            zbl: "1215.14061"
+            zbl_id: "5847673"
           manifestations:
             - key: m1
               kind: print
@@ -23,6 +39,8 @@ records:
                     - "9780821852323"
                     - "9780821883419"
                     - "9781470415723"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 20XHFD4A67
@@ -35,6 +53,10 @@ records:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/cbms/114
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5847673"
           level: work
       history:
         - op: add

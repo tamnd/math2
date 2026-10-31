@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9783642855726"
                     - "9783642855702"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: NWQC4TW7S9

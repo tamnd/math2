@@ -9,12 +9,32 @@ records:
         - name: Hugh C. Williams
           role: author
       date: "2018"
+      msc:
+        - code: 11-02
+          from: zbmath_search
+        - code: 11D25
+          from: zbmath_search
+        - code: 11D59
+          from: zbmath_search
+        - code: 11H50
+          from: zbmath_search
+        - code: 11Y40
+          from: zbmath_search
+        - code: 11Y65
+          from: zbmath_search
+        - code: 14Q10
+          from: zbmath_search
+        - code: 11R16
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2018"
           ids:
             doi: 10.1007/978-3-030-01404-9
+            zbl: "1451.11001"
+            zbl_id: "6967934"
           manifestations:
             - key: m1
               kind: print
@@ -24,6 +44,8 @@ records:
                 isbn:
                     - "9783030014025"
                     - "9783030014049"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: 7A3ZERT8BW
@@ -36,6 +58,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-030-01404-9
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "6967934"
           level: work
       history:
         - op: add

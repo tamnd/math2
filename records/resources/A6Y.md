@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9783540127512"
                     - "9783642693236"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: W0CC03QJC7

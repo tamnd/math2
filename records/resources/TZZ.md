@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9780821813478"
                     - "9781470444679"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9

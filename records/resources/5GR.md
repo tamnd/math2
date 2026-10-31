@@ -7,6 +7,9 @@ records:
         - name: Miloslav Znojil
           role: author
       date: "2026-10-12"
+      msc:
+        - code: 81-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: quant-ph

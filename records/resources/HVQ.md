@@ -11,6 +11,13 @@ records:
         - name: Karl Worthmann
           role: author
       date: "2025-04-15"
+      msc:
+        - code: 49-XX
+          from: arxiv
+        - code: 90-XX
+          from: arxiv
+        - code: 93-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: eess.SY

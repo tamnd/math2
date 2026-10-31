@@ -7,6 +7,13 @@ records:
         - name: Dejan Gajic
           role: author
       date: "2026-03-30"
+      msc:
+        - code: 81-XX
+          from: arxiv
+        - code: 35-XX
+          from: arxiv
+        - code: 53-XX
+          from: arxiv
       subjects:
         - system: arxiv
           code: gr-qc

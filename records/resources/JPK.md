@@ -28,6 +28,8 @@ records:
                 isbn:
                     - "9783540431213"
                     - "9783540456179"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -60,12 +62,26 @@ records:
         - name: Matilde Marcolli
           role: editor
       date: "2010"
+      msc:
+        - code: 00B25
+          from: zbmath_search
+        - code: 14-06
+          from: zbmath_search
+        - code: 11-06
+          from: zbmath_search
+        - code: 81-06
+          from: zbmath_search
+        - code: 53-06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2010"
           ids:
             doi: 10.1007/978-0-8176-4831-2
+            zbl: "1190.00026"
+            zbl_id: "5625327"
           manifestations:
             - key: m1
               kind: print
@@ -75,6 +91,8 @@ records:
                 isbn:
                     - "9780817648305"
                     - "9780817648312"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: VS2PFDMCR5
@@ -87,6 +105,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-0-8176-4831-2
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "5625327"
           level: work
       history:
         - op: add

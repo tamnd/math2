@@ -22,6 +22,8 @@ records:
                 isbn:
                     - "9780821840900"
                     - "9781470418144"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: BTDY0N3WC9

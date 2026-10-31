@@ -24,6 +24,8 @@ records:
                 isbn:
                     - "9783319061757"
                     - "9783319061764"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: AQAR17SPHM

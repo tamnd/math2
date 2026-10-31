@@ -13,9 +13,17 @@ records:
         - name: Melvin B. Nathanson
           role: editor
       date: "1984"
+      msc:
+        - code: 00B25
+          from: zbmath_search
+        - code: 11-06
+          from: zbmath_search
+        - code: 12-06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1984"
           ids:
             doi:
@@ -23,6 +31,8 @@ records:
                 - 10.1007/bfb0072971
                 - 10.1007/bfb0074598
                 - 10.1007/bfb0083565
+            zbl: "0523.00002"
+            zbl_id: "3827762"
           manifestations:
             - key: m1
               kind: print
@@ -32,6 +42,8 @@ records:
                 isbn:
                     - "9783540129097"
                     - "9783540387886"
+              access:
+                class: record
             - key: m2
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -40,6 +52,8 @@ records:
                 isbn:
                     - "9783540176695"
                     - "9783540477563"
+              access:
+                class: record
             - key: m3
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -48,6 +62,8 @@ records:
                 isbn:
                     - "9783540156499"
                     - "9783540395355"
+              access:
+                class: record
             - key: m4
               kind: print
               publisher: Springer Berlin Heidelberg
@@ -56,6 +72,8 @@ records:
                 isbn:
                     - "9783540515494"
                     - "9783540466406"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -80,6 +98,10 @@ records:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0083565
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          native_id: "3827762"
           level: work
       history:
         - op: add

@@ -27,6 +27,8 @@ records:
                     - "9781470460099"
                     - "9781470462185"
                     - "9781470455934"
+              access:
+                class: record
       relations:
         - kind: part_of
           to: CMK1G7XE8B
