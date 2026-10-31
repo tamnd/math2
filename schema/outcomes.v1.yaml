@@ -28,6 +28,10 @@ rules:
     outcome: merged
     reason: the row has a formal statement with the same canonical type as a statement of an older row
     match: pass 2 of the clustering found that two rows have statements of a formal library with the same canonical type hash, so Lean proves each from the other with the identity, and it kept the older row
+  - id: name
+    outcome: merged
+    reason: the row has a mention of the research layer whose whole name is the name of a mention of an older row, of the same kind block and in the same MSC block
+    match: the name pass of the clustering found that a research mention and a mention of another source have equal name keys, the name has a result word (theorem, lemma, inequality, ...) and gives no other group, and it kept the older row (corpus arxiv AX8.2, AX8.4)
   - id: formal-human
     outcome: node
     reason: a mention from a human source is in the same row as the declaration (corpus spec K4.5)
