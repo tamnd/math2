@@ -18,8 +18,8 @@ items:
   - {name: connected sum, kind: definition, wikipedia: Connected sum, wikidata: Q1890389}
   - {name: classification of manifolds, kind: problem, wikipedia: Classification of manifolds, wikidata: Q5128404}
   - {name: n-sphere, kind: object, decl: EuclideanSpace.instChartedSpaceSphere, wikipedia: N-sphere, wikidata: Q306610}
-  - {name: circle, kind: object, decl: Circle, wikipedia: Circle, wikidata: Q17278}
-  - {name: torus, kind: object, decl: AddCircle, wikipedia: Torus, wikidata: Q12510}
+  - {name: circle, kind: object, decl: Circle, wikipedia: Circle, wikidata: Q17278, node: 060W5CBZP6}
+  - {name: torus, kind: object, decl: AddCircle, wikipedia: Torus, wikidata: Q12510, node: 03NM7DZXXC}
   - {name: real projective space, kind: object, wikipedia: Real projective space, wikidata: Q2597317}
   - {name: complex projective space, kind: object, wikipedia: Complex projective space, wikidata: Q2538404}
   - {name: Grassmannian, kind: object, wikipedia: Grassmannian, wikidata: Q129638}
@@ -61,7 +61,7 @@ items:
   # Differential topology: smooth manifolds and maps
   - {name: smooth manifold, kind: definition, decl: IsManifold, wikipedia: Differentiable manifold, wikidata: Q3552958, mathlib: [mathlib-overview]}
   - {name: smooth structure, kind: definition, wikipedia: Smooth structure, wikidata: Q7546440}
-  - {name: diffeomorphism, kind: definition, decl: Diffeomorph, wikipedia: Diffeomorphism, wikidata: Q1058314}
+  - {name: diffeomorphism, kind: definition, decl: Diffeomorph, wikipedia: Diffeomorphism, wikidata: Q1058314, node: 0KZZ70ZHXP}
   - {name: tangent bundle, kind: definition, decl: TangentBundle, wikipedia: Tangent bundle, wikidata: Q746550, mathlib: [mathlib-overview]}
   - {name: partition of unity, kind: definition, decl: SmoothPartitionOfUnity, wikipedia: Partition of unity, wikidata: Q191690}
   - {name: immersion, kind: definition, decl: Manifold.IsImmersion, wikipedia: Immersion (mathematics), wikidata: Q574523, mathlib: [mathlib-overview]}
@@ -81,7 +81,7 @@ items:
   - {name: hairy ball theorem, kind: statement, wikipedia: Hairy ball theorem, wikidata: Q1077741}
   - {name: parallelizable manifold, kind: definition, wikipedia: Parallelizable manifold, wikidata: Q1014612}
   - {name: vector fields on spheres, kind: statement, wikipedia: Vector fields on spheres, wikidata: Q7917824}
-  - {name: generalized Stokes theorem, kind: statement, wikipedia: Generalized Stokes theorem, wikidata: Q10861254}
+  - {name: generalized Stokes theorem, kind: statement, wikipedia: Generalized Stokes theorem, wikidata: Q10861254, node: 0HPHKCGEQ0}
   - {name: de Rham cohomology, kind: definition, wikipedia: De Rham cohomology, wikidata: Q1179446}
   - {name: de Rham's theorem, kind: statement, wikipedia: De Rham theorem, wikidata: Q129064812}
   - {name: homotopy principle, kind: concept, wikipedia: Homotopy principle, wikidata: Q5891835}
@@ -124,7 +124,7 @@ items:
   - {name: surface, kind: definition, wikipedia: Surface (topology), wikidata: Q484298}
   - {name: classification of surfaces, kind: statement, wikipedia: Surface (topology), wikidata: Q484298}
   - {name: genus, kind: definition, wikipedia: Genus (mathematics), wikidata: Q28517129}
-  - {name: Möbius strip, kind: example, wikipedia: Möbius strip, wikidata: Q226843}
+  - {name: Möbius strip, kind: example, wikipedia: Möbius strip, wikidata: Q226843, node: 04AJE0M271}
   - {name: Klein bottle, kind: example, wikipedia: Klein bottle, wikidata: Q23638}
   - {name: real projective plane, kind: example, wikipedia: Real projective plane, wikidata: Q633815}
   - {name: Boy's surface, kind: example, wikipedia: Boy's surface, wikidata: Q896057}

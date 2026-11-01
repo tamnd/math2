@@ -24,7 +24,7 @@ items:
   - {name: hyperbolic partial differential equation, kind: definition, wikipedia: Hyperbolic partial differential equation, wikidata: Q2627459}
   - {name: mixed-type equation, kind: definition, wikipedia: Euler–Tricomi equation, wikidata: Q5409013}
   - {name: well-posed problem, kind: definition, wikipedia: Well-posed problem, wikidata: Q1455898}
-  - {name: Cauchy problem, kind: definition, wikipedia: Cauchy problem, wikidata: Q1412436}
+  - {name: Cauchy problem, kind: definition, wikipedia: Cauchy problem, wikidata: Q1412436, node: 075VBY4K4X}
   - {name: boundary value problem, kind: definition, wikipedia: Boundary value problem, wikidata: Q1332643}
   - {name: Dirichlet problem, kind: problem, wikipedia: Dirichlet problem, wikidata: Q1192869}
   - {name: Neumann problem, kind: problem, wikipedia: Neumann boundary condition, wikidata: Q1149279}
@@ -43,8 +43,8 @@ items:
   - {name: Hadamard's example of ill-posedness, kind: counterexample, wikipedia: Well-posed problem, wikidata: Q1455898}
   - {name: local solvability, kind: concept, wikipedia: Lewy's example, wikidata: Q814880}
   # Generalized solutions and function spaces
-  - {name: distribution, kind: definition, decl: Distribution, wikipedia: Distribution (mathematical analysis), wikidata: Q865811, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: Dirac delta function, kind: object, decl: Distribution.delta, wikipedia: Dirac delta function, wikidata: Q209675}
+  - {name: distribution, kind: definition, decl: Distribution, wikipedia: Distribution (mathematical analysis), wikidata: Q865811, mathlib: [mathlib-undergrad, mathlib-overview], node: 0DVDCMA2DK}
+  - {name: Dirac delta function, kind: object, decl: Distribution.delta, wikipedia: Dirac delta function, wikidata: Q209675, node: 0KPHENZ5S7}
   - {name: test function, kind: definition, decl: ContDiffBump, wikipedia: Bump function, wikidata: Q1143737}
   - {name: Schwartz space, kind: definition, decl: SchwartzMap, wikipedia: Schwartz space, wikidata: Q1369621, mathlib: [mathlib-undergrad, mathlib-overview]}
   - {name: tempered distribution, kind: definition, decl: TemperedDistribution, wikipedia: Distribution (mathematical analysis), wikidata: Q865811, mathlib: [mathlib-undergrad, mathlib-overview]}
@@ -70,9 +70,9 @@ items:
   - {name: mild solution, kind: definition, wikipedia: C0-semigroup, wikidata: Q846542}
   # Elliptic equations
   - {name: Laplace's equation, kind: definition, decl: Laplacian, wikipedia: Laplace's equation, wikidata: Q339444}
-  - {name: Laplace operator, kind: definition, decl: Laplacian, wikipedia: Laplace operator, wikidata: Q203484}
-  - {name: harmonic function, kind: definition, decl: InnerProductSpace.HarmonicOnNhd, wikipedia: Harmonic function, wikidata: Q599027}
-  - {name: mean value property, kind: statement, decl: InnerProductSpace.HarmonicOnNhd.circleAverage_eq, wikipedia: Harmonic function, wikidata: Q599027}
+  - {name: Laplace operator, kind: definition, decl: Laplacian, wikipedia: Laplace operator, wikidata: Q203484, node: 0E0B6RA8K0}
+  - {name: harmonic function, kind: definition, decl: InnerProductSpace.HarmonicOnNhd, wikipedia: Harmonic function, wikidata: Q599027, node: 0DEB0JMN0W}
+  - {name: mean value property, kind: statement, decl: InnerProductSpace.HarmonicOnNhd.circleAverage_eq, wikipedia: Harmonic function, wikidata: Q599027, node: 0HYPR64JM2}
   - {name: Poisson's equation, kind: definition, wikipedia: Poisson's equation, wikidata: Q827688}
   - {name: Poisson kernel, kind: definition, decl: poissonKernel, wikipedia: Poisson kernel, wikidata: Q2596534}
   - {name: Newtonian potential, kind: definition, wikipedia: Newtonian potential, wikidata: Q4328383}
@@ -130,7 +130,7 @@ items:
   - {name: wave equation, kind: definition, wikipedia: Wave equation, wikidata: Q193846}
   - {name: d'Alembert's formula, kind: statement, wikipedia: D'Alembert's formula, wikidata: Q2388753}
   - {name: Huygens principle, kind: statement, wikipedia: Huygens–Fresnel principle, wikidata: Q188321}
-  - {name: method of descent, kind: concept, wikipedia: Hadamard's method of descent, wikidata: Q17020301}
+  - {name: method of descent, kind: concept, wikipedia: Hadamard's method of descent, wikidata: Q17020301, node: 0EFYCFHYFG}
   - {name: finite speed of propagation, kind: statement, wikipedia: Wave equation, wikidata: Q193846}
   - {name: energy method, kind: concept, wikipedia: Well-posed problem, wikidata: Q1455898}
   - {name: Klein–Gordon equation, kind: definition, wikipedia: Klein–Gordon equation, wikidata: Q868967}
@@ -165,7 +165,7 @@ items:
   - {name: separation of variables, kind: concept, wikipedia: Separation of variables, wikidata: Q913323}
   - {name: Fourier series method, kind: concept, decl: fourierBasis, wikipedia: Fourier series, wikidata: Q179467, mathlib: [mathlib-undergrad]}
   - {name: Fourier transform, kind: definition, decl: VectorFourier.fourierIntegral, wikipedia: Fourier transform, wikidata: Q6520159}
-  - {name: Laplace transform, kind: definition, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: Laplace transform, kind: definition, wikipedia: Laplace transform, wikidata: Q199691, node: 0V49JEZW06}
   - {name: Duhamel's principle, kind: statement, wikipedia: Duhamel's principle, wikidata: Q4378863}
   - {name: method of images, kind: concept, wikipedia: Method of images, wikidata: Q2563425}
   - {name: spherical harmonics, kind: object, wikipedia: Spherical harmonics, wikidata: Q877100}
@@ -178,7 +178,7 @@ items:
   - {name: soliton, kind: concept, wikipedia: Soliton, wikidata: Q464949}
   # Spectral theory and eigenvalue problems
   - {name: Dirichlet eigenvalue, kind: definition, wikipedia: Dirichlet eigenvalue, wikidata: Q5280763}
-  - {name: Rayleigh quotient, kind: definition, decl: ContinuousLinearMap.rayleighQuotient, wikipedia: Rayleigh quotient, wikidata: Q1665115}
+  - {name: Rayleigh quotient, kind: definition, decl: ContinuousLinearMap.rayleighQuotient, wikipedia: Rayleigh quotient, wikidata: Q1665115, node: 06WHP8SE98}
   - {name: min-max theorem, kind: statement, wikipedia: Min-max theorem, wikidata: Q4454958}
   - {name: Weyl's law, kind: statement, wikipedia: Weyl law, wikidata: Q7990330}
   - {name: Faber–Krahn inequality, kind: statement, wikipedia: Rayleigh–Faber–Krahn inequality, wikidata: Q7298491}

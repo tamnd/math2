@@ -21,7 +21,7 @@ items:
   - {name: sine and cosine series, kind: definition, wikipedia: Sine and cosine transforms, wikidata: Q1328722}
   - {name: density of trigonometric polynomials in continuous functions, kind: statement, decl: span_fourier_closure_eq_top, wikipedia: Fourier series, wikidata: Q179467, mathlib: [mathlib-undergrad]}
   - {name: Fourier basis of L2 of the circle, kind: statement, decl: fourierBasis, wikipedia: Fourier series, wikidata: Q179467, mathlib: [mathlib-undergrad]}
-  - {name: Parseval's identity, kind: statement, decl: tsum_sq_fourierCoeff, wikipedia: Parseval's identity, wikidata: Q944238, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000]}
+  - {name: Parseval's identity, kind: statement, decl: tsum_sq_fourierCoeff, wikipedia: Parseval's identity, wikidata: Q944238, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000], node: 047RFCNVSK}
   - {name: L2 convergence of Fourier series, kind: statement, decl: hasSum_fourier_series_L2, wikipedia: Convergence of Fourier series, wikidata: Q5166386, mathlib: [mathlib-100]}
   - {name: Riemann–Lebesgue lemma, kind: statement, decl: tendsto_integral_exp_inner_smul_cocompact, wikipedia: Riemann–Lebesgue lemma, wikidata: Q9363284, mathlib: [mathlib-overview]}
   - {name: decay of Fourier coefficients and smoothness, kind: statement, wikipedia: Fourier series, wikidata: Q179467}

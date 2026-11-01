@@ -34,16 +34,16 @@ items:
   - {name: delta derivative on a time scale, kind: definition, wikipedia: Time-scale calculus, wikidata: Q7804838}
   # Linear difference equations
   - {name: linear difference equation, kind: definition, wikipedia: Linear recurrence with constant coefficients, wikidata: Q364089}
-  - {name: linear recurrence with constant coefficients, kind: definition, decl: LinearRecurrence, wikipedia: Linear recurrence with constant coefficients, wikidata: Q364089}
-  - {name: solution of a linear recurrence, kind: definition, decl: LinearRecurrence.IsSolution, wikipedia: Linear recurrence with constant coefficients, wikidata: Q364089}
-  - {name: characteristic polynomial of a linear recurrence, kind: definition, decl: LinearRecurrence.charPoly, wikipedia: Linear recurrence with constant coefficients, wikidata: Q364089}
+  - {name: linear recurrence with constant coefficients, kind: definition, decl: LinearRecurrence, wikipedia: Linear recurrence with constant coefficients, wikidata: Q364089, node: 0NDVHBVBXB}
+  - {name: solution of a linear recurrence, kind: definition, decl: LinearRecurrence.IsSolution, wikipedia: Linear recurrence with constant coefficients, wikidata: Q364089, node: 06MJC8YDYR}
+  - {name: characteristic polynomial of a linear recurrence, kind: definition, decl: LinearRecurrence.charPoly, wikipedia: Linear recurrence with constant coefficients, wikidata: Q364089, node: 0YA7X86K05}
   - {name: geometric solutions and roots of the characteristic polynomial, kind: statement, decl: LinearRecurrence.geom_sol_iff_root_charPoly, wikipedia: Linear recurrence with constant coefficients, wikidata: Q364089}
   - {name: dimension of the solution space of a linear recurrence, kind: statement, decl: LinearRecurrence.solSpace_rank, wikipedia: Linear recurrence with constant coefficients, wikidata: Q364089}
   - {name: uniqueness of solutions given initial values, kind: statement, decl: LinearRecurrence.eq_mk_of_is_sol_of_eq_init, wikipedia: Linear recurrence with constant coefficients, wikidata: Q364089}
   - {name: homogeneous and inhomogeneous linear recurrences, kind: concept, wikipedia: Linear recurrence with constant coefficients, wikidata: Q364089}
   - {name: superposition of solutions, kind: statement, wikipedia: Superposition principle, wikidata: Q284885}
   - {name: variation of parameters for difference equations, kind: statement, wikipedia: Variation of parameters, wikidata: Q1205942}
-  - {name: method of undetermined coefficients, kind: concept, wikipedia: Method of undetermined coefficients, wikidata: Q1036452}
+  - {name: method of undetermined coefficients, kind: concept, wikipedia: Method of undetermined coefficients, wikidata: Q1036452, node: 0XRB469Z32}
   - {name: solution of recurrences by generating functions, kind: concept, wikipedia: Generating function, wikidata: Q860609}
   - {name: matrix difference equation, kind: definition, wikipedia: Matrix difference equation, wikidata: Q6787869}
   - {name: companion matrix of a recurrence, kind: definition, wikipedia: Companion matrix, wikidata: Q814361}
@@ -52,7 +52,7 @@ items:
   - {name: three-term recurrence relation, kind: definition, wikipedia: Recurrence relation, wikidata: Q740970}
   - {name: Lucas sequence, kind: example, wikipedia: Lucas sequence, wikidata: Q1759646}
   - {name: Fibonacci recurrence, kind: example, wikipedia: Fibonacci sequence, wikidata: Q23835349}
-  - {name: Binet's formula, kind: statement, wikipedia: Fibonacci sequence, wikidata: Q23835349}
+  - {name: Binet's formula, kind: statement, wikipedia: Fibonacci sequence, wikidata: Q23835349, node: 0404D8TN7Y}
   - {name: Pell numbers, kind: example, wikipedia: Pell number, wikidata: Q1386491}
   - {name: Skolem–Mahler–Lech theorem, kind: statement, wikipedia: Skolem–Mahler–Lech theorem, wikidata: Q2374733}
   - {name: Skolem problem, kind: problem, wikipedia: Skolem problem, wikidata: Q25304237}
@@ -74,7 +74,7 @@ items:
   - {name: Jury stability criterion, kind: statement, wikipedia: Jury stability criterion, wikidata: Q3697760}
   - {name: linearized stability theorem for maps, kind: statement, wikipedia: Hartman–Grobman theorem, wikidata: Q211981}
   - {name: Lyapunov function for a difference equation, kind: definition, wikipedia: Lyapunov function, wikidata: Q2337858}
-  - {name: discrete Gronwall inequality, kind: statement, wikipedia: Grönwall's inequality, wikidata: Q510733}
+  - {name: discrete Gronwall inequality, kind: statement, wikipedia: Grönwall's inequality, wikidata: Q510733, node: 0NTM3J5MFE}
   - {name: oscillatory solution of a difference equation, kind: definition, wikipedia: Oscillation theory, wikidata: Q289610}
   - {name: periodic sequence, kind: definition, wikipedia: Periodic sequence, wikidata: Q3503302}
   - {name: periodic solution of a difference equation, kind: concept, wikipedia: Periodic point, wikidata: Q116301}

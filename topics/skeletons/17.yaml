@@ -34,7 +34,7 @@ items:
   - {name: composition algebra, kind: definition, wikipedia: Composition algebra, wikidata: Q2835957}
   - {name: Hurwitz's theorem on composition algebras, kind: statement, wikipedia: Hurwitz's theorem (composition algebras), wikidata: Q1139430}
   - {name: Cayley–Dickson construction, kind: definition, wikipedia: Cayley–Dickson construction, wikidata: Q1756828}
-  - {name: quaternions, kind: object, decl: Quaternion, wikipedia: Quaternion, wikidata: Q173853}
+  - {name: quaternions, kind: object, decl: Quaternion, wikipedia: Quaternion, wikidata: Q173853, node: 0GE4DVQKR8}
   - {name: quaternion algebra, kind: definition, decl: QuaternionAlgebra, wikipedia: Quaternion algebra, wikidata: Q2835967}
   - {name: octonions, kind: object, wikipedia: Octonion, wikidata: Q743418}
   - {name: sedenions, kind: object, wikipedia: Sedenion, wikidata: Q79188}
@@ -74,7 +74,7 @@ items:
   - {name: Lyndon basis, kind: concept, wikipedia: Lyndon word, wikidata: Q1878827}
   - {name: Lie algebra of vector fields, kind: example, wikipedia: Vector field, wikidata: Q186247}
   # Solvable and nilpotent Lie algebras
-  - {name: derived series, kind: definition, decl: LieAlgebra.derivedSeries, wikipedia: Commutator subgroup, wikidata: Q522216}
+  - {name: derived series, kind: definition, decl: LieAlgebra.derivedSeries, wikipedia: Commutator subgroup, wikidata: Q522216, node: 0Q5G5DJ4P2}
   - {name: lower central series of a Lie algebra, kind: definition, decl: LieModule.lowerCentralSeries, wikipedia: Central series, wikidata: Q5062152}
   - {name: solvable Lie algebra, kind: definition, decl: LieAlgebra.IsSolvable, wikipedia: Solvable Lie algebra, wikidata: Q7558992}
   - {name: nilpotent Lie algebra, kind: definition, decl: LieRing.IsNilpotent, wikipedia: Nilpotent Lie algebra, wikidata: Q15148889}
@@ -99,7 +99,7 @@ items:
   - {name: Killing Lie algebra, kind: definition, decl: LieAlgebra.IsKilling, wikipedia: Killing form, wikidata: Q634557}
   - {name: Cartan subalgebra, kind: definition, decl: LieSubalgebra.IsCartanSubalgebra, wikipedia: Cartan subalgebra, wikidata: Q2912114}
   - {name: existence and conjugacy of Cartan subalgebras, kind: statement, decl: LieAlgebra.exists_isCartanSubalgebra_engel, wikipedia: Cartan subalgebra, wikidata: Q2912114}
-  - {name: Jordan–Chevalley decomposition, kind: statement, wikipedia: Jordan–Chevalley decomposition, wikidata: Q1631086}
+  - {name: Jordan–Chevalley decomposition, kind: statement, wikipedia: Jordan–Chevalley decomposition, wikidata: Q1631086, node: 011K11VPJN}
   - {name: root space decomposition, kind: statement, decl: LieAlgebra.rootSpace, wikipedia: Semisimple Lie algebra, wikidata: Q2366896}
   - {name: weight space, kind: definition, decl: LieModule.genWeightSpace, wikipedia: Weight (representation theory), wikidata: Q7979858}
   - {name: root system, kind: definition, decl: RootPairing.IsRootSystem, wikipedia: Root system, wikidata: Q534131}
@@ -222,7 +222,7 @@ items:
   - {name: Gerstenhaber algebra, kind: definition, wikipedia: Gerstenhaber algebra, wikidata: Q5553164}
   - {name: Batalin–Vilkovisky algebra, kind: definition, wikipedia: Batalin–Vilkovisky formalism, wikidata: Q4868564}
   - {name: Clifford algebra, kind: definition, decl: CliffordAlgebra, wikipedia: Clifford algebra, wikidata: Q674689, mathlib: [mathlib-overview]}
-  - {name: exterior algebra, kind: definition, decl: ExteriorAlgebra, wikipedia: Exterior algebra, wikidata: Q1196652, mathlib: [mathlib-overview]}
+  - {name: exterior algebra, kind: definition, decl: ExteriorAlgebra, wikipedia: Exterior algebra, wikidata: Q1196652, mathlib: [mathlib-overview], node: 0MDMZ965VE}
   - {name: tensor algebra, kind: definition, decl: TensorAlgebra, wikipedia: Tensor algebra, wikidata: Q2296021, mathlib: [mathlib-overview]}
   - {name: quasigroup, kind: definition, wikipedia: Quasigroup, wikidata: Q1503423}
   - {name: Moufang loop, kind: definition, wikipedia: Moufang loop, wikidata: Q6918890}

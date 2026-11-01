@@ -218,8 +218,8 @@ items:
   - {name: master theorem, kind: statement, wikipedia: Master theorem (analysis of algorithms), wikidata: Q922367}
   - {name: Akra–Bazzi method, kind: statement, wikipedia: Akra–Bazzi method, wikidata: Q420714}
   - {name: amortized analysis, kind: concept, wikipedia: Amortized analysis, wikidata: Q331716}
-  - {name: Euclidean algorithm, kind: definition, decl: Nat.gcd, wikipedia: Euclidean algorithm, wikidata: Q230848}
-  - {name: extended Euclidean algorithm, kind: definition, decl: Nat.xgcd, wikipedia: Extended Euclidean algorithm, wikidata: Q1362750, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: Euclidean algorithm, kind: definition, decl: Nat.gcd, wikipedia: Euclidean algorithm, wikidata: Q230848, node: 0TRNT4X7J0}
+  - {name: extended Euclidean algorithm, kind: definition, decl: Nat.xgcd, wikipedia: Extended Euclidean algorithm, wikidata: Q1362750, mathlib: [mathlib-undergrad, mathlib-overview], node: 0964YQFSA8}
   - {name: Lamé's theorem, kind: statement, wikipedia: Euclidean algorithm, wikidata: Q230848}
   - {name: sorting algorithm, kind: concept, wikipedia: Sorting algorithm, wikidata: Q181593}
   - {name: comparison sort lower bound, kind: statement, wikipedia: Comparison sort, wikidata: Q2632949}
@@ -249,16 +249,16 @@ items:
   - {name: Knuth–Morris–Pratt algorithm, kind: definition, wikipedia: Knuth–Morris–Pratt algorithm, wikidata: Q45285}
   - {name: edit distance, kind: definition, wikipedia: Edit distance, wikidata: Q5338467}
   - {name: randomized algorithm, kind: concept, wikipedia: Randomized algorithm, wikidata: Q583461}
-  - {name: Miller–Rabin primality test, kind: definition, wikipedia: Miller–Rabin primality test, wikidata: Q980224}
+  - {name: Miller–Rabin primality test, kind: definition, wikipedia: Miller–Rabin primality test, wikidata: Q980224, node: 0SZCSYHW60}
   - {name: approximation algorithm, kind: concept, wikipedia: Approximation algorithm, wikidata: Q621751}
   - {name: linear programming and the simplex method, kind: concept, wikipedia: Simplex algorithm, wikidata: Q134164}
   - {name: ellipsoid method, kind: definition, wikipedia: Ellipsoid method, wikidata: Q378574}
   - {name: online algorithm and competitive analysis, kind: concept, wikipedia: Competitive analysis (online algorithm), wikidata: Q5156350}
   # Discrete structures and information for computer science
-  - {name: Boolean function, kind: definition, wikipedia: Boolean function, wikidata: Q942353}
+  - {name: Boolean function, kind: definition, wikipedia: Boolean function, wikidata: Q942353, node: 0X05GS525E}
   - {name: binary decision diagram, kind: definition, wikipedia: Binary decision diagram, wikidata: Q864155}
   - {name: sensitivity theorem, kind: statement, wikipedia: Sensitivity theorem, wikidata: Q125935416}
-  - {name: binary tree, kind: definition, decl: Tree, wikipedia: Binary tree, wikidata: Q380172}
+  - {name: binary tree, kind: definition, decl: Tree, wikipedia: Binary tree, wikidata: Q380172, node: 0D7EZ10V2R}
   - {name: Hamming distance, kind: definition, decl: hammingDist, wikipedia: Hamming distance, wikidata: Q272172}
   - {name: Shannon's source coding theorem, kind: statement, wikipedia: Shannon's source coding theorem, wikidata: Q2411312}
   - {name: Kraft–McMillan inequality, kind: statement, wikipedia: Kraft–McMillan inequality, wikidata: Q371685}

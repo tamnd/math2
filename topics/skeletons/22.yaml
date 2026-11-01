@@ -94,7 +94,7 @@ items:
   - {name: character of an abelian group, kind: definition, decl: AddChar, wikipedia: Character group, wikidata: Q2720844}
   - {name: Pontryagin dual, kind: definition, decl: PontryaginDual, wikipedia: Pontryagin duality, wikidata: Q1632419}
   - {name: Pontryagin duality theorem, kind: statement, wikipedia: Pontryagin duality, wikidata: Q1632419}
-  - {name: circle group, kind: example, decl: Circle, wikipedia: Circle group, wikidata: Q105356493}
+  - {name: circle group, kind: example, decl: Circle, wikipedia: Circle group, wikidata: Q105356493, node: 04EAFVFTF7}
   - {name: additive circle, kind: example, decl: AddCircle, wikipedia: Circle group, wikidata: Q105356493}
   - {name: torus as a group, kind: example, wikipedia: Torus, wikidata: Q12510}
   - {name: Bohr compactification, kind: definition, wikipedia: Bohr compactification, wikidata: Q4938217}
@@ -160,7 +160,7 @@ items:
   - {name: 'SL(2,C)', kind: example, wikipedia: Special linear group, wikidata: Q2140900}
   - {name: Lorentz group, kind: example, wikipedia: Lorentz group, wikidata: Q1334417}
   - {name: Poincaré group, kind: example, wikipedia: Poincaré group, wikidata: Q1066449}
-  - {name: Euclidean group, kind: example, wikipedia: Euclidean group, wikidata: Q852195}
+  - {name: Euclidean group, kind: example, wikipedia: Euclidean group, wikidata: Q852195, node: 0H3YY8CPKH}
   - {name: Heisenberg group, kind: example, wikipedia: Heisenberg group, wikidata: Q1601337}
   - {name: spin group, kind: example, wikipedia: Spin group, wikidata: Q2031467}
   - {name: pin group, kind: example, wikipedia: Pin group, wikidata: Q7194770}
@@ -181,7 +181,7 @@ items:
   - {name: Iwasawa decomposition of a Lie group, kind: statement, wikipedia: Iwasawa decomposition, wikidata: Q750099}
   - {name: KAK decomposition, kind: statement, wikipedia: Cartan decomposition, wikidata: Q3042798}
   - {name: Langlands decomposition, kind: statement, wikipedia: Langlands decomposition, wikidata: Q6486187}
-  - {name: polar decomposition, kind: statement, wikipedia: Polar decomposition, wikidata: Q2101158}
+  - {name: polar decomposition, kind: statement, wikipedia: Polar decomposition, wikidata: Q2101158, node: 0J2C7BDJQA}
   - {name: Bruhat decomposition of a Lie group, kind: statement, wikipedia: Bruhat decomposition, wikidata: Q4978699}
   - {name: parabolic subgroup, kind: definition, wikipedia: Parabolic subgroup of a reflection group, wikidata: Q124328767}
   - {name: maximal compact subgroup, kind: definition, wikipedia: Maximal compact subgroup, wikidata: Q6795635}

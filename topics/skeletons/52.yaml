@@ -11,8 +11,8 @@ sources:
   mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
 items:
   # Convex sets: basic notions
-  - {name: convex set, kind: definition, decl: Convex, wikipedia: Convex set, wikidata: Q193657, mathlib: [mathlib-undergrad]}
-  - {name: convex hull, kind: definition, decl: convexHull, wikipedia: Convex hull, wikidata: Q1138624, mathlib: [mathlib-undergrad]}
+  - {name: convex set, kind: definition, decl: Convex, wikipedia: Convex set, wikidata: Q193657, mathlib: [mathlib-undergrad], node: 02AS45T3H9}
+  - {name: convex hull, kind: definition, decl: convexHull, wikipedia: Convex hull, wikidata: Q1138624, mathlib: [mathlib-undergrad], node: 0FQSDC2EQ2}
   - {name: convex combination, kind: definition, decl: Finset.centerMass, wikipedia: Convex combination, wikidata: Q2627315}
   - {name: line segment, kind: definition, decl: segment, wikipedia: Line segment, wikidata: Q166154}
   - {name: open segment, kind: definition, decl: openSegment, wikipedia: Line segment, wikidata: Q166154}
@@ -24,9 +24,9 @@ items:
   - {name: proper cone, kind: definition, decl: ProperCone, wikipedia: Convex cone, wikidata: Q2256541}
   - {name: dual cone, kind: definition, wikipedia: Dual cone and polar cone, wikidata: Q2687694}
   - {name: polar set, kind: definition, wikipedia: Polar set, wikidata: Q2101025}
-  - {name: convex function, kind: definition, decl: ConvexOn, wikipedia: Convex function, wikidata: Q319913, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: concave function, kind: definition, decl: ConcaveOn, wikipedia: Concave function, wikidata: Q2914302}
-  - {name: Jensen's inequality, kind: statement, wikipedia: Jensen's inequality, wikidata: Q518131}
+  - {name: convex function, kind: definition, decl: ConvexOn, wikipedia: Convex function, wikidata: Q319913, mathlib: [mathlib-undergrad, mathlib-overview], node: 07Q7CNM5WF}
+  - {name: concave function, kind: definition, decl: ConcaveOn, wikipedia: Concave function, wikidata: Q2914302, node: 0GCM7B6PBK}
+  - {name: Jensen's inequality, kind: statement, wikipedia: Jensen's inequality, wikidata: Q518131, node: 0RWMRTPC87}
   - {name: epigraph, kind: definition, wikipedia: Epigraph (mathematics), wikidata: Q1347059}
   - {name: support function, kind: definition, wikipedia: Support function, wikidata: Q3075191}
   - {name: supporting hyperplane, kind: definition, wikipedia: Supporting hyperplane, wikidata: Q1134296}
@@ -42,7 +42,7 @@ items:
   - {name: Minkowski–Carathéodory theorem, kind: statement, wikipedia: Krein–Milman theorem, wikidata: Q642620}
   - {name: Straszewicz's theorem, kind: statement, wikipedia: Exposed point, wikidata: Q21072692}
   - {name: Choquet theory, kind: concept, wikipedia: Choquet theory, wikidata: Q1076274}
-  - {name: Carathéodory's theorem, kind: statement, decl: convexHull_eq_union, wikipedia: Carathéodory's theorem (convex hull), wikidata: Q2471737, mathlib: [mathlib-overview, mathlib-1000]}
+  - {name: Carathéodory's theorem, kind: statement, decl: convexHull_eq_union, wikipedia: Carathéodory's theorem (convex hull), wikidata: Q2471737, mathlib: [mathlib-overview, mathlib-1000], node: 0201Q4P2B5}
   - {name: Radon's theorem, kind: statement, decl: Convex.radon_partition, wikipedia: Radon's theorem, wikidata: Q1471282, mathlib: [mathlib-1000]}
   - {name: Helly's theorem, kind: statement, decl: Convex.helly_theorem, wikipedia: Helly's theorem, wikidata: Q1632433, mathlib: [mathlib-1000]}
   - {name: Tverberg's theorem, kind: statement, wikipedia: Tverberg's theorem, wikidata: Q7857350}
@@ -97,14 +97,14 @@ items:
   - {name: illumination problem, kind: problem, wikipedia: Hadwiger conjecture (combinatorial geometry), wikidata: Q5638115}
   - {name: integral geometry, kind: concept, wikipedia: Integral geometry, wikidata: Q2725319}
   - {name: Crofton formula, kind: statement, wikipedia: Crofton formula, wikidata: Q3077613}
-  - {name: Buffon's needle problem, kind: problem, wikipedia: Buffon's needle problem, wikidata: Q1753097}
+  - {name: Buffon's needle problem, kind: problem, wikipedia: Buffon's needle problem, wikidata: Q1753097, node: 06X5PF6YFP}
   - {name: Minkowski problem, kind: problem, wikipedia: Minkowski problem, wikidata: Q4183831}
   - {name: Brunn–Minkowski theory, kind: concept, wikipedia: Brunn–Minkowski theorem, wikidata: Q3915398}
   - {name: concentration of measure, kind: concept, wikipedia: Concentration of measure, wikidata: Q5158327}
   # Polytopes and polyhedra
   - {name: convex polytope, kind: definition, wikipedia: Convex polytope, wikidata: Q4129097}
   - {name: polytope, kind: definition, wikipedia: Polytope, wikidata: Q747980}
-  - {name: polyhedron, kind: definition, wikipedia: Polyhedron, wikidata: Q172937}
+  - {name: polyhedron, kind: definition, wikipedia: Polyhedron, wikidata: Q172937, node: 0325SGSJAR}
   - {name: Minkowski–Weyl theorem, kind: statement, wikipedia: Convex polytope, wikidata: Q4129097}
   - {name: H-representation and V-representation, kind: concept, wikipedia: Convex polytope, wikidata: Q4129097}
   - {name: face lattice, kind: definition, wikipedia: Abstract polytope, wikidata: Q4669958}
@@ -148,7 +148,7 @@ items:
   - {name: regular polytope, kind: definition, wikipedia: Regular polytope, wikidata: Q2745944}
   - {name: Schläfli symbol, kind: definition, wikipedia: Schläfli symbol, wikidata: Q1347011}
   - {name: classification of regular polytopes, kind: statement, wikipedia: List of regular polytopes, wikidata: Q2534367}
-  - {name: Platonic solid, kind: object, wikipedia: Platonic solid, wikidata: Q188745}
+  - {name: Platonic solid, kind: object, wikipedia: Platonic solid, wikidata: Q188745, node: 017E5PRS1Q}
   - {name: 24-cell, kind: object, wikipedia: 24-cell, wikidata: Q539008}
   - {name: 120-cell, kind: object, wikipedia: 120-cell, wikidata: Q736191}
   - {name: 600-cell, kind: object, wikipedia: 600-cell, wikidata: Q2610844}
@@ -172,7 +172,7 @@ items:
   - {name: toric variety, kind: concept, wikipedia: Toric variety, wikidata: Q1528306}
   # Lattices and geometry of numbers
   - {name: lattice, kind: definition, decl: IsZLattice, wikipedia: Lattice (group), wikidata: Q1096885}
-  - {name: Minkowski's theorem, kind: statement, decl: MeasureTheory.exists_ne_zero_mem_lattice_of_measure_mul_two_pow_lt_measure, wikipedia: Minkowski's theorem, wikidata: Q1097021, mathlib: [mathlib-100, mathlib-1000]}
+  - {name: Minkowski's theorem, kind: statement, decl: MeasureTheory.exists_ne_zero_mem_lattice_of_measure_mul_two_pow_lt_measure, wikipedia: Minkowski's theorem, wikidata: Q1097021, mathlib: [mathlib-100, mathlib-1000], node: 0K387S2PKQ}
   - {name: Minkowski's second theorem, kind: statement, wikipedia: Minkowski's second theorem, wikidata: Q6867853}
   - {name: successive minima, kind: definition, wikipedia: Minkowski's second theorem, wikidata: Q6867853}
   - {name: Blichfeldt's theorem, kind: statement, wikipedia: Blichfeldt's theorem, wikidata: Q104902490}
@@ -230,7 +230,7 @@ items:
   - {name: crossing number inequality, kind: statement, wikipedia: Crossing number inequality, wikidata: Q24896206}
   - {name: Beck's theorem, kind: statement, wikipedia: Beck's theorem (geometry), wikidata: Q3527011}
   - {name: happy ending problem, kind: problem, wikipedia: Happy ending problem, wikidata: Q1033772}
-  - {name: Erdős–Szekeres theorem, kind: statement, wikipedia: Erdős–Szekeres theorem, wikidata: Q976607}
+  - {name: Erdős–Szekeres theorem, kind: statement, wikipedia: Erdős–Szekeres theorem, wikidata: Q976607, node: 0SNJM8HSD3}
   - {name: no-three-in-line problem, kind: problem, wikipedia: No-three-in-line problem, wikidata: Q6580594}
   - {name: Heilbronn triangle problem, kind: problem, wikipedia: Heilbronn triangle problem, wikidata: Q5699425}
   - {name: orchard-planting problem, kind: problem, wikipedia: Orchard-planting problem, wikidata: Q7100169}

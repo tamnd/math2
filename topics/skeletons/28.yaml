@@ -11,7 +11,7 @@ sources:
   mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
 items:
   # Set systems
-  - {name: sigma-algebra, kind: definition, decl: MeasurableSpace, wikipedia: Σ-algebra, wikidata: Q217357, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: sigma-algebra, kind: definition, decl: MeasurableSpace, wikipedia: Σ-algebra, wikidata: Q217357, mathlib: [mathlib-undergrad, mathlib-overview], node: 0SV8K0TDGY}
   - {name: measurable space, kind: definition, decl: MeasurableSpace, wikipedia: Measurable space, wikidata: Q3058218, mathlib: [mathlib-undergrad, mathlib-overview]}
   - {name: algebra of sets, kind: definition, wikipedia: Field of sets, wikidata: Q246506}
   - {name: ring of sets, kind: definition, decl: MeasureTheory.IsSetRing, wikipedia: Ring of sets, wikidata: Q2064647}
@@ -20,7 +20,7 @@ items:
   - {name: Dynkin system, kind: definition, decl: MeasurableSpace.DynkinSystem, wikipedia: Dynkin system, wikidata: Q1935689}
   - {name: Dynkin's pi-lambda theorem, kind: statement, decl: MeasurableSpace.induction_on_inter, wikipedia: Dynkin system, wikidata: Q1935689}
   - {name: monotone class theorem, kind: statement, wikipedia: Monotone class theorem, wikidata: Q242045}
-  - {name: Borel set, kind: definition, decl: borel, wikipedia: Borel set, wikidata: Q21086747}
+  - {name: Borel set, kind: definition, decl: borel, wikipedia: Borel set, wikidata: Q21086747, node: 0WQXY32Q8D}
   - {name: Borel hierarchy, kind: concept, wikipedia: Borel hierarchy, wikidata: Q893487}
   - {name: analytic set, kind: definition, wikipedia: Analytic set, wikidata: Q485312}
   - {name: universally measurable set, kind: definition, wikipedia: Universally measurable set, wikidata: Q7894192}
@@ -34,8 +34,8 @@ items:
   - {name: finite measure, kind: definition, decl: MeasureTheory.IsFiniteMeasure, wikipedia: Finite measure, wikidata: Q3307145}
   - {name: sigma-finite measure, kind: definition, decl: MeasureTheory.SigmaFinite, wikipedia: Σ-finite measure, wikidata: Q291430}
   - {name: s-finite measure, kind: definition, wikipedia: S-finite measure, wikidata: Q47008575}
-  - {name: probability measure, kind: definition, decl: MeasureTheory.IsProbabilityMeasure, wikipedia: Probability measure, wikidata: Q355020, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: Dirac measure, kind: example, decl: MeasureTheory.Measure.dirac, wikipedia: Dirac measure, wikidata: Q1227387}
+  - {name: probability measure, kind: definition, decl: MeasureTheory.IsProbabilityMeasure, wikipedia: Probability measure, wikidata: Q355020, mathlib: [mathlib-undergrad, mathlib-overview], node: 059TJN0NZ1}
+  - {name: Dirac measure, kind: example, decl: MeasureTheory.Measure.dirac, wikipedia: Dirac measure, wikidata: Q1227387, node: 0ACRGYNHSR}
   - {name: counting measure, kind: example, decl: MeasureTheory.Measure.count, wikipedia: Counting measure, wikidata: Q247204, mathlib: [mathlib-undergrad]}
   - {name: null set, kind: definition, wikipedia: Null set, wikidata: Q1201815}
   - {name: almost everywhere, kind: definition, decl: MeasureTheory.ae, wikipedia: Almost everywhere, wikidata: Q1139334, mathlib: [mathlib-undergrad, mathlib-overview]}
@@ -56,7 +56,7 @@ items:
   - {name: content, kind: definition, decl: MeasureTheory.Content, wikipedia: Content (measure theory), wikidata: Q5165061}
   - {name: Lebesgue measure, kind: object, decl: Real.volume_Icc, wikipedia: Lebesgue measure, wikidata: Q827230}
   - {name: Lebesgue–Stieltjes measure, kind: definition, decl: StieltjesFunction.measure, wikipedia: Lebesgue–Stieltjes integration, wikidata: Q3799278, mathlib: [mathlib-overview]}
-  - {name: Jordan measure, kind: definition, wikipedia: Peano–Jordan measure, wikidata: Q1703597}
+  - {name: Jordan measure, kind: definition, wikipedia: Peano–Jordan measure, wikidata: Q1703597, node: 0KTGJW1ZTH}
   - {name: inner measure, kind: definition, wikipedia: Inner measure, wikidata: Q6035652}
   - {name: metric outer measure, kind: definition, wikipedia: Metric outer measure, wikidata: Q6824326}
   - {name: Vitali set, kind: counterexample, wikipedia: Vitali set, wikidata: Q257387}
@@ -71,7 +71,7 @@ items:
   # Measurable functions
   - {name: measurable function, kind: definition, decl: Measurable, wikipedia: Measurable function, wikidata: Q516776, mathlib: [mathlib-undergrad, mathlib-overview]}
   - {name: simple function, kind: definition, decl: MeasureTheory.SimpleFunc, wikipedia: Simple function, wikidata: Q913022}
-  - {name: indicator function, kind: definition, wikipedia: Indicator function, wikidata: Q371983}
+  - {name: indicator function, kind: definition, wikipedia: Indicator function, wikidata: Q371983, node: 0RCQZ36MME}
   - {name: Egorov's theorem, kind: statement, decl: MeasureTheory.tendstoUniformlyOn_of_ae_tendsto, wikipedia: Egorov's theorem, wikidata: Q1191709, mathlib: [mathlib-1000]}
   - {name: Lusin's theorem, kind: statement, wikipedia: Lusin's theorem, wikidata: Q1361393}
   - {name: convergence in measure, kind: definition, decl: MeasureTheory.TendstoInMeasure, wikipedia: Convergence in measure, wikidata: Q768656, mathlib: [mathlib-undergrad, mathlib-overview]}
@@ -101,8 +101,8 @@ items:
   - {name: Jensen's inequality for integrals, kind: statement, decl: ConvexOn.map_integral_le, wikipedia: Jensen's inequality, wikidata: Q518131, mathlib: [mathlib-overview]}
   - {name: Hölder's inequality for integrals, kind: statement, decl: ENNReal.lintegral_mul_le_Lp_mul_Lq, wikipedia: Hölder's inequality, wikidata: Q731894}
   - {name: Minkowski's inequality for integrals, kind: statement, decl: ENNReal.lintegral_Lp_add_le, wikipedia: Minkowski inequality, wikidata: Q755092}
-  - {name: Chebyshev's inequality, kind: statement, wikipedia: Chebyshev's inequality, wikidata: Q249514}
-  - {name: Markov's inequality, kind: statement, wikipedia: Markov's inequality, wikidata: Q842436}
+  - {name: Chebyshev's inequality, kind: statement, wikipedia: Chebyshev's inequality, wikidata: Q249514, node: 02HZ1BK3MW}
+  - {name: Markov's inequality, kind: statement, wikipedia: Markov's inequality, wikidata: Q842436, node: 05PWWHYBX5}
   # Lp spaces
   - {name: Lp space, kind: definition, decl: MeasureTheory.Lp, wikipedia: Lp space, wikidata: Q305936, mathlib: [mathlib-undergrad, mathlib-overview]}
   - {name: Riesz–Fischer theorem, kind: statement, decl: MeasureTheory.Lp.instCompleteSpace, wikipedia: Riesz–Fischer theorem, wikidata: Q643513, mathlib: [mathlib-undergrad]}
@@ -119,13 +119,13 @@ items:
   - {name: convolution, kind: definition, decl: MeasureTheory.convolution, wikipedia: Convolution, wikidata: Q210857, mathlib: [mathlib-undergrad, mathlib-overview]}
   # Product measures
   - {name: product measure, kind: definition, decl: MeasureTheory.Measure.prod, wikipedia: Product measure, wikidata: Q1572094}
-  - {name: Fubini's theorem, kind: statement, decl: MeasureTheory.integral_prod, wikipedia: Fubini's theorem, wikidata: Q1149022, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000]}
-  - {name: Tonelli's theorem, kind: statement, decl: MeasureTheory.lintegral_prod, wikipedia: Fubini's theorem, wikidata: Q1149022}
+  - {name: Fubini's theorem, kind: statement, decl: MeasureTheory.integral_prod, wikipedia: Fubini's theorem, wikidata: Q1149022, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000], node: 0R0T1VWH5X}
+  - {name: Tonelli's theorem, kind: statement, decl: MeasureTheory.lintegral_prod, wikipedia: Fubini's theorem, wikidata: Q1149022, node: 067SYD2J4B}
   - {name: product sigma-algebra, kind: definition, wikipedia: Σ-algebra, wikidata: Q217357}
   - {name: infinite product measure, kind: definition, decl: MeasureTheory.Measure.infinitePi, wikipedia: Product measure, wikidata: Q1572094}
   - {name: Kolmogorov extension theorem, kind: statement, wikipedia: Kolmogorov extension theorem, wikidata: Q3526996}
   - {name: Ionescu-Tulcea theorem, kind: statement, decl: ProbabilityTheory.Kernel.traj, wikipedia: Ionescu-Tulcea theorem, wikidata: Q25378690, mathlib: [mathlib-1000]}
-  - {name: Cavalieri's principle, kind: statement, wikipedia: Cavalieri's principle, wikidata: Q586686}
+  - {name: Cavalieri's principle, kind: statement, wikipedia: Cavalieri's principle, wikidata: Q586686, node: 0GTZ2F3PQY}
   - {name: Markov kernel, kind: definition, decl: ProbabilityTheory.Kernel, wikipedia: Markov kernel, wikidata: Q6771323}
   - {name: disintegration theorem, kind: statement, wikipedia: Disintegration theorem, wikidata: Q5282247}
   # Signed measures and differentiation of measures
@@ -141,7 +141,7 @@ items:
   - {name: Radon–Nikodym derivative, kind: definition, decl: MeasureTheory.Measure.rnDeriv, wikipedia: Radon–Nikodym theorem, wikidata: Q1191319}
   - {name: Lebesgue decomposition theorem, kind: statement, decl: MeasureTheory.Measure.haveLebesgueDecomposition_of_sigmaFinite, wikipedia: Lebesgue's decomposition theorem, wikidata: Q191693, mathlib: [mathlib-1000]}
   - {name: measure with density, kind: definition, decl: MeasureTheory.Measure.withDensity, wikipedia: Radon–Nikodym theorem, wikidata: Q1191319}
-  - {name: conditional expectation, kind: definition, decl: MeasureTheory.condExp, wikipedia: Conditional expectation, wikidata: Q772232, mathlib: [mathlib-overview]}
+  - {name: conditional expectation, kind: definition, decl: MeasureTheory.condExp, wikipedia: Conditional expectation, wikidata: Q772232, mathlib: [mathlib-overview], node: 0TTDGTEFMN}
   - {name: Vitali–Hahn–Saks theorem, kind: statement, wikipedia: Vitali–Hahn–Saks theorem, wikidata: Q7936914}
   - {name: Nikodym convergence theorem, kind: statement, wikipedia: Vitali–Hahn–Saks theorem, wikidata: Q7936914}
   - {name: Lyapunov's convexity theorem, kind: statement, wikipedia: Vector measure, wikidata: Q219308}
@@ -155,7 +155,7 @@ items:
   - {name: Hardy–Littlewood maximal function, kind: definition, wikipedia: Hardy–Littlewood maximal function, wikidata: Q3075250}
   - {name: doubling measure, kind: definition, decl: IsUnifLocDoublingMeasure, wikipedia: Doubling space, wikidata: Q5300173}
   - {name: fundamental theorem of calculus for Lebesgue integrals, kind: statement, decl: AbsolutelyContinuousOnInterval.integral_deriv_eq_sub, wikipedia: Absolute continuity, wikidata: Q332504}
-  - {name: change of variables formula, kind: statement, decl: MeasureTheory.integral_image_eq_integral_abs_det_fderiv_smul, wikipedia: Integration by substitution, wikidata: Q1071270, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: change of variables formula, kind: statement, decl: MeasureTheory.integral_image_eq_integral_abs_det_fderiv_smul, wikipedia: Integration by substitution, wikidata: Q1071270, mathlib: [mathlib-undergrad, mathlib-overview], node: 0D37QFPEZE}
   - {name: coarea formula, kind: statement, wikipedia: Coarea formula, wikidata: Q2591257}
   # Measures on topological spaces
   - {name: Borel measure, kind: definition, decl: BorelSpace, wikipedia: Borel measure, wikidata: Q892585, mathlib: [mathlib-undergrad, mathlib-overview]}
@@ -218,7 +218,7 @@ items:
   - {name: isomorphism theorem for measure algebras, kind: statement, wikipedia: Standard probability space, wikidata: Q7598372}
   - {name: standard probability space, kind: definition, wikipedia: Standard probability space, wikidata: Q7598372}
   - {name: Lebesgue space, kind: definition, wikipedia: Standard probability space, wikidata: Q7598372}
-  - {name: Kolmogorov's zero–one law, kind: statement, wikipedia: Kolmogorov's zero–one law, wikidata: Q2004664}
+  - {name: Kolmogorov's zero–one law, kind: statement, wikipedia: Kolmogorov's zero–one law, wikidata: Q2004664, node: 073Q8Z94KG}
   - {name: Borel–Cantelli lemma, kind: statement, decl: MeasureTheory.measure_limsup_atTop_eq_zero, wikipedia: Borel–Cantelli lemma, wikidata: Q893496, mathlib: [mathlib-undergrad]}
   - {name: fuzzy measure, kind: definition, wikipedia: Fuzzy measure theory, wikidata: Q4455138}
   - {name: Choquet integral, kind: definition, wikipedia: Choquet integral, wikidata: Q5104911}

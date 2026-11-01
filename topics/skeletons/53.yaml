@@ -9,7 +9,7 @@ sources:
 items:
   # Curves in the plane and in space
   - {name: differentiable curve, kind: definition, wikipedia: Differentiable curve, wikidata: Q2254404}
-  - {name: arc length, kind: definition, wikipedia: Arc length, wikidata: Q670036}
+  - {name: arc length, kind: definition, wikipedia: Arc length, wikidata: Q670036, node: 0TH78S7GBZ}
   - {name: curvature of a curve, kind: definition, wikipedia: Curvature, wikidata: Q214881}
   - {name: torsion of a curve, kind: definition, wikipedia: Torsion of a curve, wikidata: Q1892644}
   - {name: Frenet–Serret formulas, kind: statement, wikipedia: Frenet–Serret formulas, wikidata: Q947922}
@@ -64,20 +64,20 @@ items:
   - {name: tangent space, kind: definition, decl: TangentSpace, wikipedia: Tangent space, wikidata: Q909601}
   - {name: tangent bundle, kind: definition, decl: TangentBundle, wikipedia: Tangent bundle, wikidata: Q746550, mathlib: [mathlib-overview]}
   - {name: differential of a smooth map, kind: definition, decl: mfderiv, wikipedia: Pushforward (differential), wikidata: Q1969983}
-  - {name: diffeomorphism, kind: definition, decl: Diffeomorph, wikipedia: Diffeomorphism, wikidata: Q1058314}
+  - {name: diffeomorphism, kind: definition, decl: Diffeomorph, wikipedia: Diffeomorphism, wikidata: Q1058314, node: 0KZZ70ZHXP}
   - {name: partition of unity, kind: definition, decl: SmoothPartitionOfUnity, wikipedia: Partition of unity, wikidata: Q191690}
   - {name: fiber bundle, kind: definition, decl: FiberBundle, wikipedia: Fiber bundle, wikidata: Q1154996, mathlib: [mathlib-overview]}
   - {name: vector bundle, kind: definition, decl: VectorBundle, wikipedia: Vector bundle, wikidata: Q658429, mathlib: [mathlib-overview]}
   - {name: section of a vector bundle, kind: definition, decl: ContMDiffSection, wikipedia: Section (fiber bundle), wikidata: Q11703678}
   - {name: principal bundle, kind: definition, wikipedia: Principal bundle, wikidata: Q1365548}
   - {name: frame bundle, kind: definition, wikipedia: Frame bundle, wikidata: Q5477902}
-  - {name: vector field, kind: definition, wikipedia: Vector field, wikidata: Q186247}
-  - {name: integral curve, kind: definition, decl: IsMIntegralCurve, wikipedia: Integral curve, wikidata: Q1665406, mathlib: [mathlib-overview]}
+  - {name: vector field, kind: definition, wikipedia: Vector field, wikidata: Q186247, node: 0299VCW1TH}
+  - {name: integral curve, kind: definition, decl: IsMIntegralCurve, wikipedia: Integral curve, wikidata: Q1665406, mathlib: [mathlib-overview], node: 07VX34QXAV}
   - {name: Lie bracket of vector fields, kind: definition, decl: VectorField.mlieBracket, wikipedia: Lie bracket of vector fields, wikidata: Q5478310, mathlib: [mathlib-overview]}
   - {name: Lie derivative, kind: definition, wikipedia: Lie derivative, wikidata: Q579267}
   - {name: tensor field, kind: definition, wikipedia: Tensor field, wikidata: Q1758924}
-  - {name: differential form, kind: definition, wikipedia: Differential form, wikidata: Q1047080}
-  - {name: exterior derivative, kind: definition, decl: extDeriv, wikipedia: Exterior derivative, wikidata: Q1754547}
+  - {name: differential form, kind: definition, wikipedia: Differential form, wikidata: Q1047080, node: 0E3G0GRPZ6}
+  - {name: exterior derivative, kind: definition, decl: extDeriv, wikipedia: Exterior derivative, wikidata: Q1754547, node: 0ZHSTAG8ZY}
   - {name: Frobenius theorem, kind: statement, wikipedia: Frobenius theorem (differential topology), wikidata: Q837551}
   - {name: Lie group, kind: definition, decl: LieGroup, wikipedia: Lie group, wikidata: Q622679, mathlib: [mathlib-overview]}
   - {name: symplectic group, kind: object, decl: Matrix.symplecticGroup, wikipedia: Symplectic group, wikidata: Q936434}
@@ -124,7 +124,7 @@ items:
   - {name: geodesic, kind: definition, wikipedia: Geodesic, wikidata: Q213488}
   - {name: exponential map, kind: definition, wikipedia: Exponential map (Riemannian geometry), wikidata: Q1384674}
   - {name: normal coordinates, kind: definition, wikipedia: Normal coordinates, wikidata: Q2152232}
-  - {name: Gauss lemma, kind: statement, wikipedia: Gauss's lemma (Riemannian geometry), wikidata: Q3229339}
+  - {name: Gauss lemma, kind: statement, wikipedia: Gauss's lemma (Riemannian geometry), wikidata: Q3229339, node: 037ACYXB5Z}
   - {name: injectivity radius, kind: definition, wikipedia: Glossary of Riemannian and metric geometry, wikidata: Q3237377}
   - {name: Hopf–Rinow theorem, kind: statement, wikipedia: Hopf–Rinow theorem, wikidata: Q2094241}
   - {name: Jacobi field, kind: definition, wikipedia: Jacobi field, wikidata: Q1677714}
@@ -192,7 +192,7 @@ items:
   # Symplectic geometry
   - {name: symplectic vector space, kind: definition, wikipedia: Symplectic vector space, wikidata: Q766774}
   - {name: symplectic manifold, kind: definition, wikipedia: Symplectic manifold, wikidata: Q1064500}
-  - {name: Darboux's theorem, kind: statement, wikipedia: Darboux's theorem, wikidata: Q1058662}
+  - {name: Darboux's theorem, kind: statement, wikipedia: Darboux's theorem, wikidata: Q1058662, node: 0Q5A47J48D}
   - {name: Moser's trick, kind: statement, wikipedia: Moser's trick, wikidata: Q3333609}
   - {name: symplectomorphism, kind: definition, wikipedia: Symplectomorphism, wikidata: Q1049064}
   - {name: Lagrangian submanifold, kind: definition, wikipedia: Symplectic manifold, wikidata: Q1064500}

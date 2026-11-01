@@ -101,7 +101,7 @@ items:
   - {name: unicity distance, kind: definition, wikipedia: Unicity distance, wikidata: Q1640661}
   - {name: Feistel cipher, kind: definition, wikipedia: Feistel cipher, wikidata: Q1044361}
   - {name: Luby–Rackoff theorem, kind: statement, wikipedia: Feistel cipher, wikidata: Q1044361}
-  - {name: public-key cryptography, kind: concept, wikipedia: Public-key cryptography, wikidata: Q201339}
+  - {name: public-key cryptography, kind: concept, wikipedia: Public-key cryptography, wikidata: Q201339, node: 01E9MNJYEX}
   - {name: RSA cryptosystem, kind: definition, wikipedia: RSA cryptosystem, wikidata: Q181551}
   - {name: Diffie–Hellman key exchange, kind: definition, wikipedia: Diffie–Hellman key exchange, wikidata: Q623447}
   - {name: ElGamal encryption, kind: definition, wikipedia: ElGamal encryption, wikidata: Q1162410}

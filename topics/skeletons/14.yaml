@@ -10,7 +10,7 @@ sources:
   mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
 items:
   # Classical varieties
-  - {name: affine space, kind: definition, decl: AlgebraicGeometry.AffineSpace, wikipedia: Affine space, wikidata: Q382698}
+  - {name: affine space, kind: definition, decl: AlgebraicGeometry.AffineSpace, wikipedia: Affine space, wikidata: Q382698, node: 09XNAPTJQ7}
   - {name: algebraic set, kind: definition, decl: MvPolynomial.zeroLocus, wikipedia: Algebraic variety, wikidata: Q648995}
   - {name: affine variety, kind: definition, wikipedia: Affine variety, wikidata: Q3554813}
   - {name: ideal of an algebraic set, kind: definition, decl: MvPolynomial.vanishingIdeal, wikipedia: Affine variety, wikidata: Q3554813}
@@ -169,7 +169,7 @@ items:
   # Algebraic curves
   - {name: algebraic curve, kind: definition, wikipedia: Algebraic curve, wikidata: Q266237}
   - {name: plane curve, kind: definition, wikipedia: Plane curve, wikidata: Q1060874}
-  - {name: conic section, kind: example, wikipedia: Conic section, wikidata: Q124255}
+  - {name: conic section, kind: example, wikipedia: Conic section, wikidata: Q124255, node: 00HJCMC2CD}
   - {name: genus of a curve, kind: definition, wikipedia: Geometric genus, wikidata: Q5535484}
   - {name: arithmetic genus, kind: definition, wikipedia: Arithmetic genus, wikidata: Q4791125}
   - {name: genus–degree formula, kind: statement, wikipedia: Genus–degree formula, wikidata: Q5533839}

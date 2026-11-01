@@ -19,7 +19,7 @@ items:
   - {name: Ehresmann's fibration theorem, kind: statement, wikipedia: Ehresmann's lemma, wikidata: Q867141}
   - {name: Peetre theorem on local operators, kind: statement, wikipedia: Peetre theorem, wikidata: Q7160489}
   # Differential forms and exterior differential systems
-  - {name: Poincaré lemma, kind: statement, wikipedia: Poincaré lemma, wikidata: Q18215105}
+  - {name: Poincaré lemma, kind: statement, wikipedia: Poincaré lemma, wikidata: Q18215105, node: 05MC3HND79}
   - {name: Cartan's magic formula, kind: statement, wikipedia: Lie derivative, wikidata: Q579267}
   - {name: Frölicher–Nijenhuis bracket, kind: definition, wikipedia: Frölicher–Nijenhuis bracket, wikidata: Q5506750}
   - {name: Schouten–Nijenhuis bracket, kind: definition, wikipedia: Schouten–Nijenhuis bracket, wikidata: Q7432782}

@@ -12,18 +12,18 @@ items:
   - {name: parametric model, kind: definition, wikipedia: Parametric model, wikidata: Q7135228}
   - {name: identifiability, kind: definition, wikipedia: Identifiability, wikidata: Q1656753}
   - {name: statistical inference, kind: concept, wikipedia: Statistical inference, wikidata: Q938438}
-  - {name: statistic, kind: definition, wikipedia: Statistic, wikidata: Q1949963}
+  - {name: statistic, kind: definition, wikipedia: Statistic, wikidata: Q1949963, node: 0Q5CG2NEQ8}
   - {name: sampling distribution, kind: definition, wikipedia: Sampling distribution, wikidata: Q3773214}
   - {name: sample mean and sample covariance, kind: definition, wikipedia: Sample mean and covariance, wikidata: Q2348165}
   - {name: order statistic, kind: definition, wikipedia: Order statistic, wikidata: Q1767128}
   - {name: empirical distribution function, kind: definition, decl: MeasureTheory.empiricalMeasure, wikipedia: Empirical distribution function, wikidata: Q1339385}
-  - {name: likelihood function, kind: definition, wikipedia: Likelihood function, wikidata: Q45284}
+  - {name: likelihood function, kind: definition, wikipedia: Likelihood function, wikidata: Q45284, node: 0VW9E4QXR6}
   - {name: likelihood principle, kind: statement, wikipedia: Likelihood principle, wikidata: Q13200161}
   - {name: frequentist inference, kind: concept, wikipedia: Frequentist inference, wikidata: Q2158281}
   # Bayesian inference
-  - {name: Bayesian inference, kind: concept, wikipedia: Bayesian inference, wikidata: Q812535}
-  - {name: prior distribution, kind: definition, wikipedia: Prior probability, wikidata: Q278090}
-  - {name: posterior distribution, kind: definition, decl: ProbabilityTheory.posterior, wikipedia: Posterior probability, wikidata: Q278079}
+  - {name: Bayesian inference, kind: concept, wikipedia: Bayesian inference, wikidata: Q812535, node: 0JWRJX2RMP}
+  - {name: prior distribution, kind: definition, wikipedia: Prior probability, wikidata: Q278090, node: 00NBBSXRQS}
+  - {name: posterior distribution, kind: definition, decl: ProbabilityTheory.posterior, wikipedia: Posterior probability, wikidata: Q278079, node: 0KJ7ZS8AJA}
   - {name: conjugate prior, kind: definition, wikipedia: Conjugate prior, wikidata: Q3711784}
   - {name: Jeffreys prior, kind: definition, wikipedia: Jeffreys prior, wikidata: Q4068240}
   - {name: credible interval, kind: definition, wikipedia: Credible interval, wikidata: Q4439221}
@@ -69,7 +69,7 @@ items:
   - {name: Horvitz–Thompson estimator, kind: definition, wikipedia: Horvitz–Thompson estimator, wikidata: Q17027597}
   - {name: missing data mechanisms, kind: concept, wikipedia: Missing data, wikidata: Q6878417}
   # Distribution theory
-  - {name: Student's t-distribution, kind: definition, wikipedia: Student's t-distribution, wikidata: Q576072}
+  - {name: Student's t-distribution, kind: definition, wikipedia: Student's t-distribution, wikidata: Q576072, node: 09RTQRK5PC}
   - {name: F-distribution, kind: definition, wikipedia: F-distribution, wikidata: Q177144}
   - {name: noncentral chi-squared distribution, kind: definition, wikipedia: Noncentral chi-squared distribution, wikidata: Q1052990}
   - {name: Wishart distribution, kind: definition, wikipedia: Wishart distribution, wikidata: Q1930697}
@@ -79,16 +79,16 @@ items:
   - {name: delta method, kind: statement, wikipedia: Delta method, wikidata: Q1132714}
   - {name: Edgeworth expansion, kind: statement, wikipedia: Edgeworth series, wikidata: Q5337942}
   # Point estimation
-  - {name: estimator, kind: definition, wikipedia: Estimator, wikidata: Q1130160}
+  - {name: estimator, kind: definition, wikipedia: Estimator, wikidata: Q1130160, node: 0SSS6ERQ0S}
   - {name: point estimation, kind: concept, wikipedia: Point estimation, wikidata: Q1192065}
-  - {name: bias of an estimator, kind: definition, wikipedia: Bias of an estimator, wikidata: Q11264527}
-  - {name: mean squared error, kind: definition, wikipedia: Mean squared error, wikidata: Q1940696}
+  - {name: bias of an estimator, kind: definition, wikipedia: Bias of an estimator, wikidata: Q11264527, node: 0BWGTN92FG}
+  - {name: mean squared error, kind: definition, wikipedia: Mean squared error, wikidata: Q1940696, node: 05NZ1HHQMV}
   - {name: bias–variance decomposition, kind: statement, wikipedia: Bias–variance tradeoff, wikidata: Q17003119}
-  - {name: consistent estimator, kind: definition, wikipedia: Consistent estimator, wikidata: Q1782585}
+  - {name: consistent estimator, kind: definition, wikipedia: Consistent estimator, wikidata: Q1782585, node: 0AS800VAYX}
   - {name: efficiency of an estimator, kind: definition, wikipedia: Efficiency (statistics), wikidata: Q2265984}
   - {name: minimum-variance unbiased estimator, kind: definition, wikipedia: Minimum-variance unbiased estimator, wikidata: Q3755281}
-  - {name: method of moments, kind: concept, wikipedia: Method of moments (statistics), wikidata: Q1925212}
-  - {name: maximum likelihood estimation, kind: concept, wikipedia: Maximum likelihood estimation, wikidata: Q1045555}
+  - {name: method of moments, kind: concept, wikipedia: Method of moments (statistics), wikidata: Q1925212, node: 09J1H07VAH}
+  - {name: maximum likelihood estimation, kind: concept, wikipedia: Maximum likelihood estimation, wikidata: Q1045555, node: 0FREPFKNS7}
   - {name: consistency of the maximum likelihood estimator, kind: statement, wikipedia: Maximum likelihood estimation, wikidata: Q1045555}
   - {name: asymptotic normality of the maximum likelihood estimator, kind: statement, wikipedia: Maximum likelihood estimation, wikidata: Q1045555}
   - {name: score, kind: definition, wikipedia: Informant function, wikidata: Q3952743}
@@ -101,18 +101,18 @@ items:
   - {name: Hájek–Le Cam convolution theorem, kind: statement, wikipedia: Local asymptotic normality, wikidata: Q6664277}
   - {name: contiguity of measures, kind: definition, wikipedia: Contiguity (probability theory), wikidata: Q5165214}
   # Interval estimation
-  - {name: confidence interval, kind: definition, wikipedia: Confidence interval, wikidata: Q208498}
+  - {name: confidence interval, kind: definition, wikipedia: Confidence interval, wikidata: Q208498, node: 0S6T9KQNC0}
   - {name: pivotal quantity, kind: definition, wikipedia: Pivotal quantity, wikidata: Q7199665}
   - {name: Neyman construction, kind: concept, wikipedia: Neyman construction, wikidata: Q7021454}
   - {name: binomial proportion confidence interval, kind: definition, wikipedia: Binomial proportion confidence interval, wikidata: Q1781424}
   - {name: Behrens–Fisher problem, kind: problem, wikipedia: Behrens–Fisher problem, wikidata: Q814556}
   # Hypothesis testing
-  - {name: statistical hypothesis test, kind: concept, wikipedia: Statistical hypothesis test, wikidata: Q210832}
-  - {name: null hypothesis, kind: definition, wikipedia: Statistical hypothesis test, wikidata: Q210832}
-  - {name: type I and type II errors, kind: definition, wikipedia: Type I and type II errors, wikidata: Q989120}
+  - {name: statistical hypothesis test, kind: concept, wikipedia: Statistical hypothesis test, wikidata: Q210832, node: 087P03NEND}
+  - {name: null hypothesis, kind: definition, wikipedia: Statistical hypothesis test, wikidata: Q210832, node: 087P03NEND}
+  - {name: type I and type II errors, kind: definition, wikipedia: Type I and type II errors, wikidata: Q989120, node: 03N8C8ZR4B}
   - {name: power of a test, kind: definition, wikipedia: Power (statistics), wikidata: Q1199823}
-  - {name: p-value, kind: definition, wikipedia: P-value, wikidata: Q253255}
-  - {name: Neyman–Pearson lemma, kind: statement, wikipedia: Neyman–Pearson lemma, wikidata: Q1375989}
+  - {name: p-value, kind: definition, wikipedia: P-value, wikidata: Q253255, node: 0GGKJGZF6D}
+  - {name: Neyman–Pearson lemma, kind: statement, wikipedia: Neyman–Pearson lemma, wikidata: Q1375989, node: 0EE19CFEEF}
   - {name: uniformly most powerful test, kind: definition, wikipedia: Uniformly most powerful test, wikidata: Q7885148}
   - {name: monotone likelihood ratio, kind: definition, wikipedia: Monotone likelihood ratio, wikidata: Q6902029}
   - {name: Karlin–Rubin theorem, kind: statement, wikipedia: Uniformly most powerful test, wikidata: Q7885148}
@@ -120,9 +120,9 @@ items:
   - {name: Wilks' theorem, kind: statement, wikipedia: Wilks' theorem, wikidata: Q56273825}
   - {name: score test, kind: concept, wikipedia: Score test, wikidata: Q4456449}
   - {name: Wald test, kind: concept, wikipedia: Wald test, wikidata: Q748664}
-  - {name: Student's t-test, kind: concept, wikipedia: Student's t-test, wikidata: Q309479}
+  - {name: Student's t-test, kind: concept, wikipedia: Student's t-test, wikidata: Q309479, node: 0HYP606RYF}
   - {name: F-test, kind: concept, wikipedia: F-test, wikidata: Q1386253}
-  - {name: Pearson's chi-squared test, kind: concept, wikipedia: Pearson's chi-squared test, wikidata: Q2336256}
+  - {name: Pearson's chi-squared test, kind: concept, wikipedia: Pearson's chi-squared test, wikidata: Q2336256, node: 0EN0V3NY20}
   - {name: Fisher's exact test, kind: concept, wikipedia: Fisher's exact test, wikidata: Q41492}
   - {name: multiple comparisons problem, kind: problem, wikipedia: Multiple comparisons problem, wikidata: Q1038757}
   - {name: family-wise error rate, kind: definition, wikipedia: Family-wise error rate, wikidata: Q5433418}
@@ -165,7 +165,7 @@ items:
   - {name: Huber loss, kind: definition, wikipedia: Huber loss, wikidata: Q17027770}
   - {name: Hodges–Lehmann estimator, kind: definition, wikipedia: Hodges–Lehmann estimator, wikidata: Q15729148}
   # Multivariate analysis
-  - {name: Pearson correlation coefficient, kind: definition, wikipedia: Pearson correlation coefficient, wikidata: Q1136628}
+  - {name: Pearson correlation coefficient, kind: definition, wikipedia: Pearson correlation coefficient, wikidata: Q1136628, node: 0DNN9B6Q2F}
   - {name: partial correlation, kind: definition, wikipedia: Partial correlation, wikidata: Q2998010}
   - {name: Mahalanobis distance, kind: definition, wikipedia: Mahalanobis distance, wikidata: Q1334846}
   - {name: principal component analysis, kind: concept, wikipedia: Principal component analysis, wikidata: Q2873}

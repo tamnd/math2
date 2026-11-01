@@ -12,45 +12,45 @@ sources:
 items:
   # Basic notions
   - {name: complex number, kind: definition, decl: Complex, wikipedia: Complex number, wikidata: Q11567, mathlib: [mathlib-overview]}
-  - {name: complex plane, kind: concept, wikipedia: Complex plane, wikidata: Q328998}
-  - {name: Riemann sphere, kind: object, wikipedia: Riemann sphere, wikidata: Q825857}
+  - {name: complex plane, kind: concept, wikipedia: Complex plane, wikidata: Q328998, node: 0CTE7A31XQ}
+  - {name: Riemann sphere, kind: object, wikipedia: Riemann sphere, wikidata: Q825857, node: 0J78KBPFZB}
   - {name: stereographic projection, kind: definition, wikipedia: Stereographic projection, wikidata: Q866099}
-  - {name: holomorphic function, kind: definition, decl: DifferentiableOn, wikipedia: Holomorphic function, wikidata: Q207476, mathlib: [mathlib-undergrad]}
-  - {name: Cauchy–Riemann equations, kind: statement, wikipedia: Cauchy–Riemann equations, wikidata: Q622741}
+  - {name: holomorphic function, kind: definition, decl: DifferentiableOn, wikipedia: Holomorphic function, wikidata: Q207476, mathlib: [mathlib-undergrad], node: 0NAHXR1FRH}
+  - {name: Cauchy–Riemann equations, kind: statement, wikipedia: Cauchy–Riemann equations, wikidata: Q622741, node: 0T71SSYZ39}
   - {name: Wirtinger derivatives, kind: definition, wikipedia: Wirtinger derivatives, wikidata: Q8027031}
-  - {name: analytic function, kind: definition, decl: AnalyticOnNhd, wikipedia: Analytic function, wikidata: Q215084}
-  - {name: entire function, kind: definition, decl: Differentiable, wikipedia: Entire function, wikidata: Q847600, mathlib: [mathlib-undergrad]}
-  - {name: meromorphic function, kind: definition, decl: MeromorphicOn, wikipedia: Meromorphic function, wikidata: Q217616}
-  - {name: conformal map, kind: definition, wikipedia: Conformal map, wikidata: Q850275}
-  - {name: complex exponential, kind: definition, decl: Complex.exp, wikipedia: Exponential function, wikidata: Q168698, mathlib: [mathlib-undergrad]}
-  - {name: complex logarithm, kind: definition, decl: Complex.log, wikipedia: Complex logarithm, wikidata: Q2520206}
-  - {name: argument of a complex number, kind: definition, decl: Complex.arg, wikipedia: Argument (complex analysis), wikidata: Q1780131}
+  - {name: analytic function, kind: definition, decl: AnalyticOnNhd, wikipedia: Analytic function, wikidata: Q215084, node: 081WKEDK6C}
+  - {name: entire function, kind: definition, decl: Differentiable, wikipedia: Entire function, wikidata: Q847600, mathlib: [mathlib-undergrad], node: 0G4F0XB9X2}
+  - {name: meromorphic function, kind: definition, decl: MeromorphicOn, wikipedia: Meromorphic function, wikidata: Q217616, node: 0ZZ7ZYDR8W}
+  - {name: conformal map, kind: definition, wikipedia: Conformal map, wikidata: Q850275, node: 0YYT36R4YD}
+  - {name: complex exponential, kind: definition, decl: Complex.exp, wikipedia: Exponential function, wikidata: Q168698, mathlib: [mathlib-undergrad], node: 07GJV36896}
+  - {name: complex logarithm, kind: definition, decl: Complex.log, wikipedia: Complex logarithm, wikidata: Q2520206, node: 02QGGD5G87}
+  - {name: argument of a complex number, kind: definition, decl: Complex.arg, wikipedia: Argument (complex analysis), wikidata: Q1780131, node: 070PFSYJJR}
   - {name: branch point, kind: definition, wikipedia: Branch point, wikidata: Q2625091}
-  - {name: principal branch, kind: definition, wikipedia: Principal value, wikidata: Q6126499}
-  - {name: complex power, kind: definition, decl: Complex.cpow, wikipedia: Exponentiation, wikidata: Q33456}
-  - {name: Möbius transformation, kind: definition, wikipedia: Möbius transformation, wikidata: Q595742}
-  - {name: cross-ratio, kind: definition, wikipedia: Cross-ratio, wikidata: Q899539}
+  - {name: principal branch, kind: definition, wikipedia: Principal value, wikidata: Q6126499, node: 017BPGVEE8}
+  - {name: complex power, kind: definition, decl: Complex.cpow, wikipedia: Exponentiation, wikidata: Q33456, node: 0RNGDMHT7M}
+  - {name: Möbius transformation, kind: definition, wikipedia: Möbius transformation, wikidata: Q595742, node: 0SG74WBFA2}
+  - {name: cross-ratio, kind: definition, wikipedia: Cross-ratio, wikidata: Q899539, node: 09ASMRMD67}
   - {name: Joukowsky transform, kind: example, wikipedia: Joukowsky transform, wikidata: Q1794703}
   # Complex integration
-  - {name: contour integration, kind: definition, wikipedia: Contour integration, wikidata: Q856103}
-  - {name: circle integral, kind: definition, decl: circleIntegral, wikipedia: Contour integration, wikidata: Q856103}
-  - {name: winding number, kind: definition, wikipedia: Winding number, wikidata: Q576728}
-  - {name: Cauchy's integral theorem, kind: statement, decl: Complex.circleIntegral_eq_zero_of_differentiable_on_off_countable, wikipedia: Cauchy's integral theorem, wikidata: Q834025}
-  - {name: Goursat's theorem, kind: statement, decl: Complex.integral_boundary_rect_eq_zero_of_differentiableOn, wikipedia: Cauchy's integral theorem, wikidata: Q834025}
-  - {name: Cauchy's integral formula, kind: statement, decl: DifferentiableOn.circleIntegral_sub_inv_smul, wikipedia: Cauchy's integral formula, wikidata: Q913764}
-  - {name: Cauchy's estimate, kind: statement, wikipedia: Cauchy's estimate, wikidata: Q3153996}
-  - {name: Morera's theorem, kind: statement, wikipedia: Morera's theorem, wikidata: Q1140119}
-  - {name: holomorphic functions are analytic, kind: statement, decl: DifferentiableOn.analyticAt, wikipedia: Analyticity of holomorphic functions, wikidata: Q4751162, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: Liouville's theorem, kind: statement, decl: Differentiable.apply_eq_apply_of_bounded, wikipedia: Liouville's theorem (complex analysis), wikidata: Q576478, mathlib: [mathlib-overview, mathlib-1000]}
-  - {name: fundamental theorem of algebra, kind: statement, decl: Complex.exists_root, wikipedia: Fundamental theorem of algebra, wikidata: Q192760, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-100]}
-  - {name: identity theorem, kind: statement, decl: AnalyticOnNhd.eqOn_of_preconnected_of_frequently_eq, wikipedia: Identity theorem, wikidata: Q1038716, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000]}
-  - {name: maximum modulus principle, kind: statement, decl: Complex.norm_le_of_forall_mem_frontier_norm_le, wikipedia: Maximum modulus principle, wikidata: Q1050230}
-  - {name: open mapping theorem, kind: statement, decl: AnalyticOnNhd.is_constant_or_isOpen, wikipedia: Open mapping theorem (complex analysis), wikidata: Q967972, mathlib: [mathlib-1000]}
-  - {name: Schwarz lemma, kind: statement, decl: Complex.dist_le_div_mul_dist_of_mapsTo_ball, wikipedia: Schwarz lemma, wikidata: Q1341771}
+  - {name: contour integration, kind: definition, wikipedia: Contour integration, wikidata: Q856103, node: 06ZGPYTWK8}
+  - {name: circle integral, kind: definition, decl: circleIntegral, wikipedia: Contour integration, wikidata: Q856103, node: 0AP750DHVP}
+  - {name: winding number, kind: definition, wikipedia: Winding number, wikidata: Q576728, node: 0NQSV2EWDR}
+  - {name: Cauchy's integral theorem, kind: statement, decl: Complex.circleIntegral_eq_zero_of_differentiable_on_off_countable, wikipedia: Cauchy's integral theorem, wikidata: Q834025, node: 01MPZXYVYF}
+  - {name: Goursat's theorem, kind: statement, decl: Complex.integral_boundary_rect_eq_zero_of_differentiableOn, wikipedia: Cauchy's integral theorem, wikidata: Q834025, node: 0BRG85WXYC}
+  - {name: Cauchy's integral formula, kind: statement, decl: DifferentiableOn.circleIntegral_sub_inv_smul, wikipedia: Cauchy's integral formula, wikidata: Q913764, node: 0DG10TVYPN}
+  - {name: Cauchy's estimate, kind: statement, wikipedia: Cauchy's estimate, wikidata: Q3153996, node: 0JJRENWMP6}
+  - {name: Morera's theorem, kind: statement, wikipedia: Morera's theorem, wikidata: Q1140119, node: 0VDD7W0EKZ}
+  - {name: holomorphic functions are analytic, kind: statement, decl: DifferentiableOn.analyticAt, wikipedia: Analyticity of holomorphic functions, wikidata: Q4751162, mathlib: [mathlib-undergrad, mathlib-overview], node: 0826SGV3R0}
+  - {name: Liouville's theorem, kind: statement, decl: Differentiable.apply_eq_apply_of_bounded, wikipedia: Liouville's theorem (complex analysis), wikidata: Q576478, mathlib: [mathlib-overview, mathlib-1000], node: 0EHKVRF4J6}
+  - {name: fundamental theorem of algebra, kind: statement, decl: Complex.exists_root, wikipedia: Fundamental theorem of algebra, wikidata: Q192760, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-100], node: 0JP0W07Y9A}
+  - {name: identity theorem, kind: statement, decl: AnalyticOnNhd.eqOn_of_preconnected_of_frequently_eq, wikipedia: Identity theorem, wikidata: Q1038716, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000], node: 0YBVKMYX0W}
+  - {name: maximum modulus principle, kind: statement, decl: Complex.norm_le_of_forall_mem_frontier_norm_le, wikipedia: Maximum modulus principle, wikidata: Q1050230, node: 048F2P90WR}
+  - {name: open mapping theorem, kind: statement, decl: AnalyticOnNhd.is_constant_or_isOpen, wikipedia: Open mapping theorem (complex analysis), wikidata: Q967972, mathlib: [mathlib-1000], node: 03YEM7JEDN}
+  - {name: Schwarz lemma, kind: statement, decl: Complex.dist_le_div_mul_dist_of_mapsTo_ball, wikipedia: Schwarz lemma, wikidata: Q1341771, node: 0MB48XDBY3}
   - {name: Schwarz–Pick theorem, kind: statement, wikipedia: Schwarz lemma, wikidata: Q1341771}
   - {name: Cauchy–Pompeiu formula, kind: statement, wikipedia: Cauchy's integral formula, wikidata: Q913764}
-  - {name: Weierstrass convergence theorem, kind: statement, decl: TendstoLocallyUniformlyOn.differentiableOn, wikipedia: Holomorphic function, wikidata: Q207476, mathlib: [mathlib-undergrad]}
-  - {name: Hurwitz's theorem, kind: statement, wikipedia: Hurwitz's theorem (complex analysis), wikidata: Q1136043}
+  - {name: Weierstrass convergence theorem, kind: statement, decl: TendstoLocallyUniformlyOn.differentiableOn, wikipedia: Holomorphic function, wikidata: Q207476, mathlib: [mathlib-undergrad], node: 0431RN0R1N}
+  - {name: Hurwitz's theorem, kind: statement, wikipedia: Hurwitz's theorem (complex analysis), wikidata: Q1136043, node: 0SSKBQN58M}
   - {name: Montel's theorem, kind: statement, wikipedia: Montel's theorem, wikidata: Q535366}
   - {name: normal family, kind: definition, wikipedia: Normal family, wikidata: Q1049280}
   - {name: Vitali convergence theorem, kind: statement, wikipedia: Vitali convergence theorem, wikidata: Q11352023}
@@ -66,37 +66,37 @@ items:
   # Singularities and residues
   - {name: zeros and poles, kind: definition, wikipedia: Zeros and poles, wikidata: Q899731}
   - {name: order of a zero or pole, kind: definition, decl: meromorphicOrderAt, wikipedia: Zeros and poles, wikidata: Q899731}
-  - {name: isolated singularity, kind: definition, wikipedia: Isolated singularity, wikidata: Q2297037}
-  - {name: removable singularity, kind: definition, wikipedia: Removable singularity, wikidata: Q1974087}
-  - {name: Riemann's theorem on removable singularities, kind: statement, decl: Complex.differentiableOn_update_limUnder_of_bddAbove, wikipedia: Removable singularity, wikidata: Q1974087}
-  - {name: essential singularity, kind: definition, wikipedia: Essential singularity, wikidata: Q1876526}
-  - {name: Casorati–Weierstrass theorem, kind: statement, wikipedia: Casorati–Weierstrass theorem, wikidata: Q2226962}
-  - {name: Laurent series, kind: definition, wikipedia: Laurent series, wikidata: Q425432}
-  - {name: annulus, kind: definition, wikipedia: Annulus (mathematics), wikidata: Q45926}
-  - {name: residue, kind: definition, wikipedia: Residue (complex analysis), wikidata: Q753375}
-  - {name: residue theorem, kind: statement, wikipedia: Residue theorem, wikidata: Q830513}
+  - {name: isolated singularity, kind: definition, wikipedia: Isolated singularity, wikidata: Q2297037, node: 05Z3FC0154}
+  - {name: removable singularity, kind: definition, wikipedia: Removable singularity, wikidata: Q1974087, node: 09R8GC85RB}
+  - {name: Riemann's theorem on removable singularities, kind: statement, decl: Complex.differentiableOn_update_limUnder_of_bddAbove, wikipedia: Removable singularity, wikidata: Q1974087, node: 0BSQDZWF34}
+  - {name: essential singularity, kind: definition, wikipedia: Essential singularity, wikidata: Q1876526, node: 0B8837S5T3}
+  - {name: Casorati–Weierstrass theorem, kind: statement, wikipedia: Casorati–Weierstrass theorem, wikidata: Q2226962, node: 02HHNPC8ED}
+  - {name: Laurent series, kind: definition, wikipedia: Laurent series, wikidata: Q425432, node: 0GXMPDNYX3}
+  - {name: annulus, kind: definition, wikipedia: Annulus (mathematics), wikidata: Q45926, node: 0CW52NV5TC}
+  - {name: residue, kind: definition, wikipedia: Residue (complex analysis), wikidata: Q753375, node: 0PHN07KVQT}
+  - {name: residue theorem, kind: statement, wikipedia: Residue theorem, wikidata: Q830513, node: 032HKYS329}
   - {name: methods of contour integration, kind: concept, wikipedia: Contour integration, wikidata: Q856103}
-  - {name: Jordan's lemma, kind: statement, wikipedia: Jordan's lemma, wikidata: Q1816932}
-  - {name: estimation lemma, kind: statement, wikipedia: Estimation lemma, wikidata: Q3229331}
-  - {name: argument principle, kind: statement, wikipedia: Argument principle, wikidata: Q1370201}
-  - {name: Rouché's theorem, kind: statement, wikipedia: Rouché's theorem, wikidata: Q1191862}
+  - {name: Jordan's lemma, kind: statement, wikipedia: Jordan's lemma, wikidata: Q1816932, node: 0PNPG2PP9H}
+  - {name: estimation lemma, kind: statement, wikipedia: Estimation lemma, wikidata: Q3229331, node: 0DJMGPN8K9}
+  - {name: argument principle, kind: statement, wikipedia: Argument principle, wikidata: Q1370201, node: 0PN2BXRS8G}
+  - {name: Rouché's theorem, kind: statement, wikipedia: Rouché's theorem, wikidata: Q1191862, node: 0D430QR02W}
   - {name: Lagrange inversion theorem, kind: statement, wikipedia: Lagrange inversion theorem, wikidata: Q544292}
-  - {name: Cauchy principal value, kind: definition, wikipedia: Cauchy principal value, wikidata: Q769374}
+  - {name: Cauchy principal value, kind: definition, wikipedia: Cauchy principal value, wikidata: Q769374, node: 0SYR10HD4R}
   - {name: Sokhotski–Plemelj theorem, kind: statement, wikipedia: Sokhotski–Plemelj theorem, wikidata: Q1543149}
   - {name: Kramers–Kronig relations, kind: statement, wikipedia: Kramers–Kronig relations, wikidata: Q1424764}
   # Series expansions
   - {name: power series, kind: definition, decl: HasFPowerSeriesOnBall, wikipedia: Power series, wikidata: Q206925}
   - {name: radius of convergence, kind: definition, decl: FormalMultilinearSeries.radius, wikipedia: Radius of convergence, wikidata: Q1428097, mathlib: [mathlib-undergrad]}
-  - {name: Cauchy–Hadamard theorem, kind: statement, wikipedia: Cauchy–Hadamard theorem, wikidata: Q859122}
+  - {name: Cauchy–Hadamard theorem, kind: statement, wikipedia: Cauchy–Hadamard theorem, wikidata: Q859122, node: 07E5MB1CA2}
   - {name: Taylor expansion of a holomorphic function, kind: statement, decl: Complex.hasSum_taylorSeries_on_ball, wikipedia: Taylor series, wikidata: Q131187}
-  - {name: analytic continuation, kind: concept, wikipedia: Analytic continuation, wikidata: Q485287}
+  - {name: analytic continuation, kind: concept, wikipedia: Analytic continuation, wikidata: Q485287, node: 0M3YQJ81NB}
   - {name: natural boundary, kind: definition, wikipedia: Analytic continuation, wikidata: Q485287}
   - {name: Hadamard gap theorem, kind: statement, wikipedia: Lacunary function, wikidata: Q1986013}
   - {name: Fabry gap theorem, kind: statement, wikipedia: Fabry gap theorem, wikidata: Q17011576}
   - {name: monodromy theorem, kind: statement, wikipedia: Monodromy theorem, wikidata: Q4455046}
   - {name: Dirichlet series, kind: definition, wikipedia: Dirichlet series, wikidata: Q620595}
   - {name: Puiseux series, kind: definition, wikipedia: Puiseux series, wikidata: Q401319}
-  - {name: continued fraction, kind: concept, wikipedia: Continued fraction, wikidata: Q4115724}
+  - {name: continued fraction, kind: concept, wikipedia: Continued fraction, wikidata: Q4115724, node: 04P2RJ4WPS}
   - {name: Padé approximant, kind: definition, wikipedia: Padé approximant, wikidata: Q2452504}
   - {name: Borel summation, kind: concept, wikipedia: Borel summation, wikidata: Q2329388}
   - {name: Mittag-Leffler star, kind: definition, wikipedia: Mittag-Leffler star, wikidata: Q4189397}
@@ -109,7 +109,7 @@ items:
   - {name: order of an entire function, kind: definition, wikipedia: Entire function, wikidata: Q847600}
   - {name: Jensen's formula, kind: statement, decl: MeromorphicOn.circleAverage_log_norm, wikipedia: Jensen's formula, wikidata: Q1048466}
   - {name: Picard's little theorem, kind: statement, wikipedia: Picard theorem, wikidata: Q1668861}
-  - {name: Picard's great theorem, kind: statement, wikipedia: Picard theorem, wikidata: Q1668861}
+  - {name: Picard's great theorem, kind: statement, wikipedia: Picard theorem, wikidata: Q1668861, node: 08QA8QTM71}
   - {name: Nevanlinna theory, kind: concept, decl: ValueDistribution.characteristic, wikipedia: Nevanlinna theory, wikidata: Q1281926}
   - {name: Nevanlinna characteristic, kind: definition, decl: ValueDistribution.characteristic, wikipedia: Nevanlinna theory, wikidata: Q1281926}
   - {name: first main theorem of Nevanlinna theory, kind: statement, wikipedia: Nevanlinna theory, wikidata: Q1281926}
@@ -124,7 +124,7 @@ items:
   - {name: Laguerre–Pólya class, kind: definition, wikipedia: Laguerre–Pólya class, wikidata: Q6472739}
   - {name: Bloch's theorem, kind: statement, wikipedia: Bloch's theorem (complex analysis), wikidata: Q266291}
   - {name: Landau's constants, kind: definition, wikipedia: Bloch's theorem (complex analysis), wikidata: Q266291}
-  - {name: gamma function, kind: object, decl: Complex.Gamma, wikipedia: Gamma function, wikidata: Q190573}
+  - {name: gamma function, kind: object, decl: Complex.Gamma, wikipedia: Gamma function, wikidata: Q190573, node: 0H5SYBSED9}
   - {name: reflection formula for the gamma function, kind: statement, decl: Complex.Gamma_mul_Gamma_one_sub, wikipedia: Reflection formula, wikidata: Q4922429}
   - {name: Euler's sine product, kind: statement, decl: Complex.tendsto_euler_sin_prod, wikipedia: Basel problem, wikidata: Q810431}
   - {name: Riemann zeta function, kind: object, decl: riemannZeta, wikipedia: Riemann zeta function, wikidata: Q187235}
@@ -137,8 +137,8 @@ items:
   - {name: modular lambda function, kind: object, wikipedia: Modular lambda function, wikidata: Q6889722}
   - {name: Lindelöf hypothesis, kind: conjecture, wikipedia: Lindelöf hypothesis, wikidata: Q911528}
   # Geometric function theory
-  - {name: Riemann mapping theorem, kind: statement, wikipedia: Riemann mapping theorem, wikidata: Q927051}
-  - {name: simply connected domain, kind: definition, wikipedia: Simply connected space, wikidata: Q912058}
+  - {name: Riemann mapping theorem, kind: statement, wikipedia: Riemann mapping theorem, wikidata: Q927051, node: 02WHMEG5ZR}
+  - {name: simply connected domain, kind: definition, wikipedia: Simply connected space, wikidata: Q912058, node: 0QW64ARSHB}
   - {name: Carathéodory's theorem on boundary extension, kind: statement, wikipedia: Carathéodory's theorem (conformal mapping), wikidata: Q4378889}
   - {name: prime end, kind: definition, wikipedia: Prime end, wikidata: Q7243367}
   - {name: Schwarz–Christoffel mapping, kind: definition, wikipedia: Schwarz–Christoffel mapping, wikidata: Q769569}
@@ -168,8 +168,8 @@ items:
   - {name: Gauss–Lucas theorem, kind: statement, wikipedia: Gauss–Lucas theorem, wikidata: Q1008566}
   - {name: Marden's theorem, kind: statement, wikipedia: Marden's theorem, wikidata: Q1568612}
   # Harmonic and subharmonic functions in the plane
-  - {name: harmonic function, kind: definition, decl: InnerProductSpace.HarmonicOnNhd, wikipedia: Harmonic function, wikidata: Q599027}
-  - {name: harmonic conjugate, kind: definition, wikipedia: Harmonic conjugate, wikidata: Q5659251}
+  - {name: harmonic function, kind: definition, decl: InnerProductSpace.HarmonicOnNhd, wikipedia: Harmonic function, wikidata: Q599027, node: 0DEB0JMN0W}
+  - {name: harmonic conjugate, kind: definition, wikipedia: Harmonic conjugate, wikidata: Q5659251, node: 050F2FMTKF}
   - {name: Poisson kernel, kind: definition, wikipedia: Poisson kernel, wikidata: Q2596534}
   - {name: Dirichlet problem, kind: problem, wikipedia: Dirichlet problem, wikidata: Q1192869}
   - {name: Schwarz integral formula, kind: statement, wikipedia: Schwarz integral formula, wikidata: Q4491936}

@@ -21,9 +21,9 @@ items:
   # K0 and projective modules
   - {name: projective module, kind: definition, decl: Module.Projective, wikipedia: Projective module, wikidata: Q942423}
   - {name: finitely generated projective module, kind: definition, wikipedia: Projective module, wikidata: Q942423}
-  - {name: free module, kind: definition, decl: Module.Free, wikipedia: Free module, wikidata: Q1292333}
+  - {name: free module, kind: definition, decl: Module.Free, wikipedia: Free module, wikidata: Q1292333, node: 0DZ9DKAKZR}
   - {name: stably free module, kind: definition, wikipedia: Stably free module, wikidata: Q7595791}
-  - {name: idempotent matrix, kind: definition, decl: IsIdempotentElem, wikipedia: Idempotent matrix, wikidata: Q3751720}
+  - {name: idempotent matrix, kind: definition, decl: IsIdempotentElem, wikipedia: Idempotent matrix, wikidata: Q3751720, node: 0KCE8CG86P}
   - {name: K0 of a ring, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675}
   - {name: reduced K0, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675}
   - {name: rank of a projective module, kind: definition, wikipedia: Projective module, wikidata: Q942423}
@@ -55,11 +55,11 @@ items:
   - {name: general linear group, kind: definition, decl: Matrix.GeneralLinearGroup, wikipedia: General linear group, wikidata: Q524607, mathlib: [mathlib-undergrad]}
   - {name: stable general linear group, kind: definition, wikipedia: General linear group, wikidata: Q524607}
   - {name: special linear group, kind: definition, decl: Matrix.SpecialLinearGroup, wikipedia: Special linear group, wikidata: Q2140900, mathlib: [mathlib-undergrad]}
-  - {name: elementary matrix, kind: definition, decl: Matrix.transvection, wikipedia: Elementary matrix, wikidata: Q609566}
+  - {name: elementary matrix, kind: definition, decl: Matrix.transvection, wikipedia: Elementary matrix, wikidata: Q609566, node: 01REXW3WWE}
   - {name: elementary subgroup, kind: definition, wikipedia: Whitehead's lemma, wikidata: Q1816970}
   - {name: Whitehead's lemma, kind: statement, wikipedia: Whitehead's lemma, wikidata: Q1816970}
   - {name: perfect group, kind: definition, decl: Group.IsPerfect, wikipedia: Perfect group, wikidata: Q1571290}
-  - {name: determinant, kind: definition, decl: Matrix.det, wikipedia: Determinant, wikidata: Q178546, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: determinant, kind: definition, decl: Matrix.det, wikipedia: Determinant, wikidata: Q178546, mathlib: [mathlib-undergrad, mathlib-overview], node: 00KDZRW4C0}
   - {name: SK1, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675}
   - {name: K1 of a field, kind: example, wikipedia: Algebraic K-theory, wikidata: Q2553675}
   - {name: K1 of a Euclidean domain, kind: example, wikipedia: Algebraic K-theory, wikidata: Q2553675}
@@ -150,7 +150,7 @@ items:
   - {name: Hermitian K-theory, kind: definition, wikipedia: Witt group, wikidata: Q3117708}
   - {name: Grothendieck–Witt group, kind: definition, wikipedia: Witt group, wikidata: Q3117708}
   # K-theory of forms
-  - {name: quadratic form, kind: definition, decl: QuadraticForm, wikipedia: Quadratic form, wikidata: Q736753, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: quadratic form, kind: definition, decl: QuadraticForm, wikipedia: Quadratic form, wikidata: Q736753, mathlib: [mathlib-undergrad, mathlib-overview], node: 0RBQS1JJCR}
   - {name: Witt group, kind: definition, wikipedia: Witt group, wikidata: Q3117708}
   - {name: Witt ring of a field, kind: definition, wikipedia: Witt group, wikidata: Q3117708}
   - {name: fundamental ideal of the Witt ring, kind: definition, wikipedia: Witt group, wikidata: Q3117708}

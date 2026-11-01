@@ -34,7 +34,7 @@ items:
   - {name: ultimatum game, kind: example, wikipedia: Ultimatum game, wikidata: Q2295916}
   # Dynamic games and refinements
   - {name: backward induction, kind: definition, wikipedia: Backward induction, wikidata: Q968642}
-  - {name: Zermelo's theorem, kind: statement, wikipedia: Zermelo's theorem (game theory), wikidata: Q2468326}
+  - {name: Zermelo's theorem, kind: statement, wikipedia: Zermelo's theorem (game theory), wikidata: Q2468326, node: 0N109NG5ZX}
   - {name: subgame perfect equilibrium, kind: definition, wikipedia: Subgame perfect equilibrium, wikidata: Q1615834}
   - {name: trembling hand perfect equilibrium, kind: definition, wikipedia: Trembling hand perfect equilibrium, wikidata: Q1039525}
   - {name: proper equilibrium, kind: definition, wikipedia: Proper equilibrium, wikidata: Q4426118}

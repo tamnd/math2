@@ -9,10 +9,10 @@ items:
   # Basic notions
   - {name: special functions, kind: concept, wikipedia: Special functions, wikidata: Q867707}
   - {name: holonomic function, kind: definition, wikipedia: Holonomic function, wikidata: Q5884209}
-  - {name: falling factorial, kind: definition, decl: descPochhammer, wikipedia: Falling and rising factorials, wikidata: Q2339261}
+  - {name: falling factorial, kind: definition, decl: descPochhammer, wikipedia: Falling and rising factorials, wikidata: Q2339261, node: 0SJNCJCCQG}
   - {name: Pochhammer symbol, kind: definition, decl: ascPochhammer, wikipedia: Falling and rising factorials, wikidata: Q2339261}
   # Gamma function and related functions
-  - {name: gamma function, kind: definition, decl: Complex.Gamma, wikipedia: Gamma function, wikidata: Q190573}
+  - {name: gamma function, kind: definition, decl: Complex.Gamma, wikipedia: Gamma function, wikidata: Q190573, node: 0H5SYBSED9}
   - {name: real gamma function, kind: definition, decl: Real.Gamma, wikipedia: Gamma function, wikidata: Q190573}
   - {name: Euler integral for the gamma function, kind: statement, decl: Complex.Gamma_eq_integral, wikipedia: Gamma function, wikidata: Q190573}
   - {name: functional equation of the gamma function, kind: statement, decl: Complex.Gamma_add_one, wikipedia: Gamma function, wikidata: Q190573}
