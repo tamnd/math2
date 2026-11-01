@@ -10,11 +10,7 @@ records:
           role: editor
       date: "1996"
       msc:
-        - code: 00B25
-          from: zbmath_search
-        - code: 03-06
-          from: zbmath_search
-        - code: 03Exx
+        - code: 03-01
           from: zbmath_search
       expressions:
         - key: e1
@@ -23,8 +19,8 @@ records:
           date: "1996"
           ids:
             doi: 10.1090/conm/192
-            zbl: "0832.00031"
-            zbl_id: "840149"
+            zbl: "0834.04001"
+            zbl_id: "787541"
           manifestations:
             - key: m1
               kind: print
@@ -44,15 +40,15 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/192
           level: work
         - source: zbmath_search
-          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
-          native_id: "840149"
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
+          native_id: "787541"
           level: work
       history:
         - op: add

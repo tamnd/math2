@@ -28,7 +28,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -63,6 +63,15 @@ records:
         - name: Grigory L. Litvinov
           role: author
       date: "2013"
+      msc:
+        - code: 35R02
+          from: zbmath_search
+        - code: 35F21
+          from: zbmath_search
+        - code: 35Q93
+          from: zbmath_search
+        - code: 49J15
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
@@ -70,6 +79,8 @@ records:
           date: "2013"
           ids:
             doi: 10.1007/978-3-642-36433-4
+            zbl: "1268.35120"
+            zbl_id: "6189399"
           manifestations:
             - key: m1
               kind: print
@@ -87,16 +98,20 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.13 scope/1
+        rule: S1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: crossref_language
-          snapshot: blake3:8055274d703e6bb5b000d2e6eff227662c304b1de00a456a1218f6424b926f45
+          snapshot: blake3:fd7cbc47dac294e4452ea800fd3ae53f852825bb624f15dc020fcbd89fca6c56
           native_id: 10.1007/978-3-642-36433-4
           level: work
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-642-36433-4
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
+          native_id: "6189399"
           level: work
       history:
         - op: add
@@ -106,4 +121,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.14 scope/1
+          note: from in to in
 ---

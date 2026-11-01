@@ -7,6 +7,31 @@ records:
         - name: Scott Chapman
           role: editor
       date: "2026-05-11"
+      msc:
+        - code: 13-06
+          from: zbmath_search
+        - code: 13A05
+          from: zbmath_search
+        - code: 13A15
+          from: zbmath_search
+        - code: 13B22
+          from: zbmath_search
+        - code: 20M14
+          from: zbmath_search
+        - code: "05E40"
+          from: zbmath_search
+        - code: 20M12
+          from: zbmath_search
+        - code: 11B75
+          from: zbmath_search
+        - code: 11R04
+          from: zbmath_search
+        - code: 11R27
+          from: zbmath_search
+        - code: 20M13
+          from: zbmath_search
+        - code: 00B25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
@@ -14,6 +39,7 @@ records:
           date: "2026-05-11"
           ids:
             doi: 10.1090/conm/836
+            zbl_id: "8205127"
           manifestations:
             - key: m1
               kind: print
@@ -31,16 +57,20 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.13 scope/1
+        rule: S1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/836
           level: work
         - source: crossref_language
-          snapshot: blake3:8055274d703e6bb5b000d2e6eff227662c304b1de00a456a1218f6424b926f45
+          snapshot: blake3:fd7cbc47dac294e4452ea800fd3ae53f852825bb624f15dc020fcbd89fca6c56
           native_id: 10.1090/conm/836
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
+          native_id: "8205127"
           level: work
       history:
         - op: add
@@ -50,6 +80,10 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.14 scope/1
+          note: from in to in
     - id: 1VFV8P86WN
       kind: monograph
       title: A Spectral Theory for Simply Periodic Solutions of the Sinh-Gordon Equation
@@ -107,14 +141,14 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-030-01276-2
           level: work
         - source: zbmath_search
-          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
           native_id: "6967937"
           level: work
       history:

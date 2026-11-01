@@ -30,7 +30,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -64,14 +64,25 @@ records:
           role: author
       date: "2018-12-12"
       msc:
-        - code: 20-XX
-          from: classify/1@2b838f8bc9d8
+        - code: 20-02
+          from: zbmath_search
+        - code: 20D05
+          from: zbmath_search
+        - code: 20D06
+          from: zbmath_search
+        - code: 20D08
+          from: zbmath_search
+        - code: 20D25
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2018-12-12"
           ids:
             doi: 10.1090/surv/040.8
+            zbl: "1467.20001"
+            zbl_id: "7009682"
           manifestations:
             - key: m1
               kind: print
@@ -91,12 +102,20 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.13 scope/1
+        rule: S1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/surv/040.8
+          level: work
+        - source: crossref_language
+          snapshot: blake3:fd7cbc47dac294e4452ea800fd3ae53f852825bb624f15dc020fcbd89fca6c56
+          native_id: 10.1090/surv/040.8
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
+          native_id: "7009682"
           level: work
       history:
         - op: add
@@ -110,6 +129,10 @@ records:
           at: "2026-11-01"
           by: m2 v0.6.13 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.14 scope/1
+          note: from in to in
     - id: X2AEJAQEP8
       kind: preprint
       title: The classical Lie-Yamaguti Yang-Baxter equation and Lie-Yamaguti bialgebras
@@ -143,7 +166,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -154,7 +177,7 @@ records:
           native_id: "2210.17066"
           level: work
         - source: zbmath_search
-          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
           native_id: "900572459"
           level: work
       history:
@@ -192,7 +215,7 @@ records:
       scope:
         value: in
         rule: S6
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: nptel
           snapshot: blake3:89dc2ec164a0108adbecf0ec8c793929c947e196b164e762035d3fdd89a3f469

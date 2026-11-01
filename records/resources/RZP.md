@@ -19,7 +19,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: napkin
           snapshot: blake3:4ed6a8681091f1982528026e06219208d001f9656231cf988d38e9d48cb24fc5

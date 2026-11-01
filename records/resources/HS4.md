@@ -10,14 +10,19 @@ records:
           role: author
       date: "1999"
       msc:
-        - code: 35-XX
-          from: classify/1@2b838f8bc9d8
+        - code: 35-02
+          from: zbmath_search
+        - code: 47-02
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1999"
           ids:
             doi: 10.1007/978-3-662-11555-8
+            zbl: "0920.35003"
+            zbl_id: "1256865"
           manifestations:
             - key: m1
               kind: print
@@ -35,12 +40,16 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.13 scope/1
+        rule: S1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-662-11555-8
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
+          native_id: "1256865"
           level: work
       history:
         - op: add
@@ -50,6 +59,10 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.14 scope/1
+          note: from in to in
     - id: HS4X20TX33
       kind: preprint
       title: Optimal Refinement in Dynamic Discretisation Discovery for Continuous-Time Service Network Design
@@ -82,7 +95,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055

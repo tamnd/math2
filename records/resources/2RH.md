@@ -12,9 +12,16 @@ records:
           from: zbmath_search
         - code: 12-02
           from: zbmath_search
+        - code: 11R34
+          from: zbmath_search
+        - code: 20J05
+          from: zbmath_search
+        - code: "20E18"
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          label: 2nd edition
           language: fr
           date: "1965"
           ids:
@@ -22,8 +29,8 @@ records:
                 - 10.1007/978-3-662-21553-1
                 - 10.1007/978-3-662-21576-0
                 - 10.1007/bfb0108758
-            zbl: "0136.02801"
-            zbl_id: "3220423"
+            zbl: "0128.26303"
+            zbl_id: "3209245"
           manifestations:
             - key: m1
               kind: print
@@ -62,7 +69,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
@@ -77,8 +84,8 @@ records:
           native_id: 10.1007/bfb0108758
           level: work
         - source: zbmath_search
-          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
-          native_id: "3220423"
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
+          native_id: "3209245"
           level: work
       history:
         - op: add

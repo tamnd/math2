@@ -19,7 +19,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: lebl_scv
           snapshot: blake3:674137eabf02760c9e8dafdbe3e64bc7279562f175304f952eef3b8d1ef7eee8

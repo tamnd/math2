@@ -14,14 +14,31 @@ records:
           role: author
       date: "2021-02-22"
       msc:
-        - code: 20-XX
-          from: classify/1@2b838f8bc9d8
+        - code: 20-02
+          from: zbmath_search
+        - code: 20D05
+          from: zbmath_search
+        - code: 20D06
+          from: zbmath_search
+        - code: 20D08
+          from: zbmath_search
+        - code: "20E25"
+          from: zbmath_search
+        - code: "20E32"
+          from: zbmath_search
+        - code: 20F05
+          from: zbmath_search
+        - code: 20G40
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2021-02-22"
           ids:
             doi: 10.1090/surv/040.9
+            zbl: "1509.20002"
+            zbl_id: "7338272"
           manifestations:
             - key: m1
               kind: print
@@ -40,12 +57,16 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.13 scope/1
+        rule: S1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/surv/040.9
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
+          native_id: "7338272"
           level: work
       history:
         - op: add
@@ -55,6 +76,10 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.14 scope/1
+          note: from in to in
     - id: VGJVFCDV8A
       kind: preprint
       title: Ergodic measures of intermediate entropies for amenable group actions with an approximate product property
@@ -82,7 +107,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -93,7 +118,7 @@ records:
           native_id: "2610.09949"
           level: work
         - source: zbmath_search
-          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
           native_id: "903202495"
           level: work
       history:
@@ -136,7 +161,7 @@ records:
       scope:
         value: border
         rule: border-arxiv
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055

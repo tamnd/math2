@@ -13,12 +13,20 @@ records:
         - name: Charles Tresser
           role: author
       date: "1996"
+      msc:
+        - code: "37E99"
+          from: zbmath_search
+        - code: 37-02
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1996"
           ids:
             doi: 10.1007/bfb0096321
+            zbl: "0847.58019"
+            zbl_id: "833159"
           manifestations:
             - key: m1
               kind: print
@@ -36,12 +44,16 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.13 scope/1
+        rule: S1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0096321
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
+          native_id: "833159"
           level: work
       history:
         - op: add
@@ -51,6 +63,10 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.14 scope/1
+          note: from in to in
     - id: JJFXZAETP2
       kind: monograph
       title: 'Ordinary and Partial Differential Equations: Proceedings of the Conference held at Dundee, Scotland, 26–29 March, 1974'
@@ -106,7 +122,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
@@ -117,7 +133,7 @@ records:
           native_id: 10.1007/bfb0074708
           level: work
         - source: zbmath_search
-          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
           native_id: "3445182"
           level: work
       history:

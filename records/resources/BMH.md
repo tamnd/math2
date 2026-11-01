@@ -7,6 +7,17 @@ records:
         - name: Roger Knobel
           role: author
       date: "1999-09-29"
+      msc:
+        - code: 35-01
+          from: zbmath_search
+        - code: 35Q53
+          from: zbmath_search
+        - code: 35L70
+          from: zbmath_search
+        - code: 35Q51
+          from: zbmath_search
+        - code: 35L65
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
@@ -14,6 +25,8 @@ records:
           date: "1999-09-29"
           ids:
             doi: 10.1090/stml/003
+            zbl: "0933.35002"
+            zbl_id: "1371459"
           manifestations:
             - key: m1
               kind: print
@@ -33,16 +46,20 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.13 scope/1
+        rule: S1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/stml/003
           level: work
         - source: crossref_language
-          snapshot: blake3:8055274d703e6bb5b000d2e6eff227662c304b1de00a456a1218f6424b926f45
+          snapshot: blake3:fd7cbc47dac294e4452ea800fd3ae53f852825bb624f15dc020fcbd89fca6c56
           native_id: 10.1090/stml/003
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
+          native_id: "1371459"
           level: work
       history:
         - op: add
@@ -52,6 +69,10 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.14 scope/1
+          note: from in to in
     - id: BMHWE5QTTR
       kind: preprint
       title: Degenerations of shifted symplectic moduli stacks of sheaves
@@ -77,7 +98,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -88,7 +109,7 @@ records:
           native_id: "2609.36922"
           level: work
         - source: zbmath_search
-          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
           native_id: "903189083"
           level: work
       history:

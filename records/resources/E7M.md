@@ -8,14 +8,21 @@ records:
           role: author
       date: "1980"
       msc:
-        - code: 11-XX
-          from: classify/1@2b838f8bc9d8
+        - code: 11R18
+          from: zbmath_search
+        - code: 11R42
+          from: zbmath_search
+        - code: 12-02
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1980"
           ids:
             doi: 10.1007/978-1-4684-0086-1
+            zbl: "0435.12001"
+            zbl_id: "3677954"
           manifestations:
             - key: m1
               kind: print
@@ -33,12 +40,16 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.13 scope/1
+        rule: S1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4684-0086-1
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
+          native_id: "3677954"
           level: work
       history:
         - op: add
@@ -48,6 +59,10 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.14 scope/1
+          note: from in to in
     - id: E7MMQF54S1
       kind: monograph
       title: Partial Differential Equations
@@ -118,7 +133,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
@@ -133,7 +148,7 @@ records:
           native_id: 10.1007/b97312
           level: work
         - source: zbmath_search
-          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
           native_id: "1821670"
           level: work
       history:

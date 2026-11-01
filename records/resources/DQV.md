@@ -72,7 +72,7 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
@@ -109,11 +109,9 @@ records:
           to: GE3WH5EF6G/e1
           source: cluster/1
       scope:
-        value: deferred
-        until: "2027-01-30"
-        reason: the classifier score 1.000 is in the middle band
-        rule: S8
-        by: classify/1@2b838f8bc9d8
+        value: in
+        rule: S6
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: ocw
           snapshot: blake3:ab57e74d727dbbb8cc6f30102b1562b267a6d76a54ffa725885e5e4ddfbb57b8
@@ -131,4 +129,8 @@ records:
           at: "2026-11-01"
           by: classify/1@2b838f8bc9d8
           note: from deferred to deferred
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.14 scope/1
+          note: from deferred to in
 ---

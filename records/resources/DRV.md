@@ -35,7 +35,7 @@ records:
             arxiv: "2212.06253"
       scope:
         value: out
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -58,12 +58,30 @@ records:
         - name: John R. Ockendon
           role: author
       date: "2016"
+      msc:
+        - code: 76-01
+          from: zbmath_search
+        - code: 76B15
+          from: zbmath_search
+        - code: 76B25
+          from: zbmath_search
+        - code: 76B55
+          from: zbmath_search
+        - code: 76D33
+          from: zbmath_search
+        - code: 76Q05
+          from: zbmath_search
+        - code: 76L05
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2016"
           ids:
             doi: 10.1007/978-1-4939-3381-5
+            zbl: "1339.76001"
+            zbl_id: "6492269"
           manifestations:
             - key: m1
               kind: print
@@ -82,11 +100,15 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4939-3381-5
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
+          native_id: "6492269"
           level: work
       history:
         - op: add
@@ -151,14 +173,14 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/surv/239
           level: work
         - source: zbmath_search
-          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
           native_id: "7119989"
           level: work
       history:
@@ -198,7 +220,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: bmo
           snapshot: blake3:68eb2251465334659a3c67c12bc8e13877594a5a11510cf9a756eaf0f62db81c
