@@ -21,7 +21,7 @@ items:
   - {name: Reinhardt domain, kind: definition, wikipedia: Function of several complex variables, wikidata: Q2052951}
   - {name: logarithmically convex domain, kind: definition, wikipedia: Function of several complex variables, wikidata: Q2052951}
   - {name: domain of convergence of a power series, kind: statement, wikipedia: Function of several complex variables, wikidata: Q2052951}
-  - {name: holomorphic functions are analytic, kind: statement, decl: DifferentiableOn.analyticAt, wikipedia: Analyticity of holomorphic functions, wikidata: Q4751162, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: holomorphic functions are analytic, kind: statement, decl: DifferentiableOn.analyticAt, wikipedia: Analyticity of holomorphic functions, wikidata: Q4751162, mathlib: [mathlib-undergrad, mathlib-overview], node: 0826SGV3R0}
   - {name: identity theorem in several variables, kind: statement, decl: AnalyticOnNhd.eqOn_of_preconnected_of_eventuallyEq, wikipedia: Identity theorem, wikidata: Q1038716}
   - {name: maximum modulus principle in several variables, kind: statement, decl: Complex.eqOn_of_isPreconnected_of_isMaxOn_norm, wikipedia: Maximum modulus principle, wikidata: Q1050230}
   - {name: Osgood's lemma, kind: statement, wikipedia: Osgood's lemma, wikidata: Q7106530}

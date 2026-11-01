@@ -11,16 +11,16 @@ sources:
   mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
 items:
   # Basic notions
-  - {name: commutative ring, kind: definition, decl: CommRing, wikipedia: Commutative ring, wikidata: Q858656}
+  - {name: commutative ring, kind: definition, decl: CommRing, wikipedia: Commutative ring, wikidata: Q858656, node: 0310REJJY8}
   - {name: commutative algebra over a ring, kind: definition, decl: Algebra, wikipedia: Associative algebra, wikidata: Q744960, mathlib: [mathlib-undergrad, mathlib-overview]}
   - {name: subalgebra, kind: definition, decl: Subalgebra, wikipedia: Subalgebra, wikidata: Q629933}
-  - {name: ring homomorphism, kind: definition, wikipedia: Ring homomorphism, wikidata: Q1194212}
-  - {name: ideal, kind: definition, decl: Ideal, wikipedia: Ideal (ring theory), wikidata: Q44649, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: quotient ring, kind: definition, decl: Ideal.Quotient.mk, wikipedia: Quotient ring, wikidata: Q619436}
-  - {name: first isomorphism theorem for rings, kind: statement, decl: RingHom.quotientKerEquivRange, wikipedia: Isomorphism theorems, wikidata: Q1065966}
-  - {name: principal ideal, kind: definition, decl: Submodule.IsPrincipal, wikipedia: Principal ideal, wikidata: Q44382, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: prime ideal, kind: definition, decl: Ideal.IsPrime, wikipedia: Prime ideal, wikidata: Q863912, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: maximal ideal, kind: definition, decl: Ideal.IsMaximal, wikipedia: Maximal ideal, wikidata: Q1203540, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: ring homomorphism, kind: definition, wikipedia: Ring homomorphism, wikidata: Q1194212, node: 0VTH8KPCG2}
+  - {name: ideal, kind: definition, decl: Ideal, wikipedia: Ideal (ring theory), wikidata: Q44649, mathlib: [mathlib-undergrad, mathlib-overview], node: 096Z9MP2ME}
+  - {name: quotient ring, kind: definition, decl: Ideal.Quotient.mk, wikipedia: Quotient ring, wikidata: Q619436, node: 0076HWHGHQ}
+  - {name: first isomorphism theorem for rings, kind: statement, decl: RingHom.quotientKerEquivRange, wikipedia: Isomorphism theorems, wikidata: Q1065966, node: 0ZMYX7GMH0}
+  - {name: principal ideal, kind: definition, decl: Submodule.IsPrincipal, wikipedia: Principal ideal, wikidata: Q44382, mathlib: [mathlib-undergrad, mathlib-overview], node: 0SVYSP8HCG}
+  - {name: prime ideal, kind: definition, decl: Ideal.IsPrime, wikipedia: Prime ideal, wikidata: Q863912, mathlib: [mathlib-undergrad, mathlib-overview], node: 00MHHZ9SNE}
+  - {name: maximal ideal, kind: definition, decl: Ideal.IsMaximal, wikipedia: Maximal ideal, wikidata: Q1203540, mathlib: [mathlib-undergrad, mathlib-overview], node: 0PV74TR5FP}
   - {name: Krull's theorem on maximal ideals, kind: statement, decl: Ideal.exists_le_maximal, wikipedia: Krull's theorem, wikidata: Q2397775}
   - {name: quotient by a prime ideal is a domain, kind: statement, decl: Ideal.Quotient.isDomain_iff_prime, wikipedia: Prime ideal, wikidata: Q863912}
   - {name: quotient by a maximal ideal is a field, kind: statement, decl: Ideal.Quotient.maximal_ideal_iff_isField_quotient, wikipedia: Maximal ideal, wikidata: Q1203540}
@@ -29,36 +29,36 @@ items:
   - {name: nilradical, kind: definition, decl: nilradical, wikipedia: Nilradical of a ring, wikidata: Q3341881}
   - {name: nilradical is the intersection of prime ideals, kind: statement, decl: nilradical_eq_sInf, wikipedia: Nilradical of a ring, wikidata: Q3341881}
   - {name: Jacobson radical, kind: definition, decl: Ideal.jacobson, wikipedia: Jacobson radical, wikidata: Q1677769}
-  - {name: nilpotent element, kind: definition, wikipedia: Nilpotent, wikidata: Q840023}
-  - {name: idempotent element, kind: definition, wikipedia: Idempotent (ring theory), wikidata: Q2243424}
-  - {name: zero divisor, kind: definition, wikipedia: Zero divisor, wikidata: Q828111}
+  - {name: nilpotent element, kind: definition, wikipedia: Nilpotent, wikidata: Q840023, node: 0ZB2JG1M9C}
+  - {name: idempotent element, kind: definition, wikipedia: Idempotent (ring theory), wikidata: Q2243424, node: 0N5NJZKKN3}
+  - {name: zero divisor, kind: definition, wikipedia: Zero divisor, wikidata: Q828111, node: 0NNRDW10RZ}
   - {name: reduced ring, kind: definition, wikipedia: Reduced ring, wikidata: Q6423024}
   - {name: unit, kind: definition, wikipedia: Unit (ring theory), wikidata: Q118084}
-  - {name: comaximal ideals, kind: definition, decl: IsCoprime, wikipedia: Chinese remainder theorem, wikidata: Q193878, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: Chinese remainder theorem for rings, kind: statement, decl: Ideal.quotientInfRingEquivPiQuotient, wikipedia: Chinese remainder theorem, wikidata: Q193878, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000]}
+  - {name: comaximal ideals, kind: definition, decl: IsCoprime, wikipedia: Chinese remainder theorem, wikidata: Q193878, mathlib: [mathlib-undergrad, mathlib-overview], node: 065CK367F9}
+  - {name: Chinese remainder theorem for rings, kind: statement, decl: Ideal.quotientInfRingEquivPiQuotient, wikipedia: Chinese remainder theorem, wikidata: Q193878, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000], node: 0W97J8QED7}
   - {name: ideal quotient, kind: definition, decl: Submodule.colon, wikipedia: Ideal quotient, wikidata: Q17098054}
   - {name: annihilator, kind: definition, decl: Module.annihilator, wikipedia: Annihilator (ring theory), wikidata: Q567083}
   - {name: extension and contraction of ideals, kind: definition, decl: Ideal.comap, wikipedia: Ideal (ring theory), wikidata: Q44649}
   - {name: prime avoidance lemma, kind: statement, decl: Ideal.subset_union_prime, wikipedia: Prime avoidance lemma, wikidata: Q3229333}
   - {name: minimal prime ideal, kind: definition, decl: Ideal.minimalPrimes, wikipedia: Minimal prime ideal, wikidata: Q17098959}
-  - {name: characteristic of a ring, kind: definition, decl: CharP, wikipedia: Characteristic (algebra), wikidata: Q836088, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: Boolean ring, kind: definition, wikipedia: Boolean ring, wikidata: Q2634401}
+  - {name: characteristic of a ring, kind: definition, decl: CharP, wikipedia: Characteristic (algebra), wikidata: Q836088, mathlib: [mathlib-undergrad, mathlib-overview], node: 0F6ES3BRYP}
+  - {name: Boolean ring, kind: definition, wikipedia: Boolean ring, wikidata: Q2634401, node: 0RCV1ZFP8G}
   # Domains and factorization
-  - {name: integral domain, kind: definition, decl: IsDomain, wikipedia: Integral domain, wikidata: Q628792}
-  - {name: prime element, kind: definition, decl: Prime, wikipedia: Prime element, wikidata: Q240651, mathlib: [mathlib-undergrad]}
-  - {name: irreducible element, kind: definition, decl: Irreducible, wikipedia: Irreducible element, wikidata: Q2989575, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: associated elements, kind: definition, decl: Associated, wikipedia: Integral domain, wikidata: Q628792}
-  - {name: unique factorization domain, kind: definition, decl: UniqueFactorizationMonoid, wikipedia: Unique factorization domain, wikidata: Q1052579, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-100, mathlib-1000]}
-  - {name: principal ideal domain, kind: definition, decl: IsPrincipalIdealRing, wikipedia: Principal ideal domain, wikidata: Q1143969}
-  - {name: Euclidean domain, kind: definition, decl: EuclideanDomain, wikipedia: Euclidean domain, wikidata: Q867345, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: integral domain, kind: definition, decl: IsDomain, wikipedia: Integral domain, wikidata: Q628792, node: 0QVD7WBFGN}
+  - {name: prime element, kind: definition, decl: Prime, wikipedia: Prime element, wikidata: Q240651, mathlib: [mathlib-undergrad], node: 01VH21EV6F}
+  - {name: irreducible element, kind: definition, decl: Irreducible, wikipedia: Irreducible element, wikidata: Q2989575, mathlib: [mathlib-undergrad, mathlib-overview], node: 0YMT0D2442}
+  - {name: associated elements, kind: definition, decl: Associated, wikipedia: Integral domain, wikidata: Q628792, node: 02879QH7BY}
+  - {name: unique factorization domain, kind: definition, decl: UniqueFactorizationMonoid, wikipedia: Unique factorization domain, wikidata: Q1052579, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-100, mathlib-1000], node: 0W4X9G6263}
+  - {name: principal ideal domain, kind: definition, decl: IsPrincipalIdealRing, wikipedia: Principal ideal domain, wikidata: Q1143969, node: 0CMD0BCH8T}
+  - {name: Euclidean domain, kind: definition, decl: EuclideanDomain, wikipedia: Euclidean domain, wikidata: Q867345, mathlib: [mathlib-undergrad, mathlib-overview], node: 0CHS7RBD39}
   - {name: every PID is a UFD, kind: statement, decl: PrincipalIdealRing.to_uniqueFactorizationMonoid, wikipedia: Principal ideal domain, wikidata: Q1143969}
   - {name: GCD domain, kind: definition, decl: GCDMonoid, wikipedia: GCD domain, wikidata: Q2851438}
   - {name: Bézout domain, kind: definition, decl: IsBezout, wikipedia: Bézout domain, wikidata: Q2386260}
   - {name: atomic domain, kind: definition, decl: WfDvdMonoid, wikipedia: Atomic domain, wikidata: Q257414}
-  - {name: polynomial ring over a UFD is a UFD, kind: statement, decl: Polynomial.uniqueFactorizationMonoid, wikipedia: Unique factorization domain, wikidata: Q1052579}
-  - {name: Gauss's lemma, kind: statement, wikipedia: Gauss's lemma (polynomials), wikidata: Q587938}
+  - {name: polynomial ring over a UFD is a UFD, kind: statement, decl: Polynomial.uniqueFactorizationMonoid, wikipedia: Unique factorization domain, wikidata: Q1052579, node: 0D6KH8Y59N}
+  - {name: Gauss's lemma, kind: statement, wikipedia: Gauss's lemma (polynomials), wikidata: Q587938, node: 0QFV5Y1Z5X}
   - {name: Nagata's criterion for factoriality, kind: statement, wikipedia: Unique factorization domain, wikidata: Q1052579}
-  - {name: field of fractions, kind: definition, decl: IsFractionRing, wikipedia: Field of fractions, wikidata: Q774579, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: field of fractions, kind: definition, decl: IsFractionRing, wikipedia: Field of fractions, wikidata: Q774579, mathlib: [mathlib-undergrad, mathlib-overview], node: 0F2PTGX1A2}
   - {name: Prüfer domain, kind: definition, wikipedia: Prüfer domain, wikidata: Q2894873}
   - {name: Krull domain, kind: definition, wikipedia: Krull ring, wikidata: Q623257}
   - {name: Mori domain, kind: definition, wikipedia: Mori domain, wikidata: Q6912121}
@@ -121,11 +121,11 @@ items:
   - {name: Mori–Nagata theorem, kind: statement, wikipedia: Mori–Nagata theorem, wikidata: Q17099060}
   - {name: Zariski's main theorem, kind: statement, wikipedia: Zariski's main theorem, wikidata: Q8066795}
   # Chain conditions
-  - {name: Noetherian ring, kind: definition, decl: IsNoetherianRing, wikipedia: Noetherian ring, wikidata: Q582271, mathlib: [mathlib-overview]}
+  - {name: Noetherian ring, kind: definition, decl: IsNoetherianRing, wikipedia: Noetherian ring, wikidata: Q582271, mathlib: [mathlib-overview], node: 0670T59HGE}
   - {name: Noetherian module, kind: definition, decl: IsNoetherian, wikipedia: Noetherian module, wikidata: Q2444982, mathlib: [mathlib-overview]}
   - {name: Artinian ring, kind: definition, decl: IsArtinianRing, wikipedia: Artinian ring, wikidata: Q713084}
   - {name: Artinian module, kind: definition, wikipedia: Artinian module, wikidata: Q2919100}
-  - {name: Hilbert's basis theorem, kind: statement, decl: Polynomial.isNoetherianRing, wikipedia: Hilbert's basis theorem, wikidata: Q656645, mathlib: [mathlib-overview, mathlib-1000]}
+  - {name: Hilbert's basis theorem, kind: statement, decl: Polynomial.isNoetherianRing, wikipedia: Hilbert's basis theorem, wikidata: Q656645, mathlib: [mathlib-overview, mathlib-1000], node: 0YKA9J3XEE}
   - {name: Cohen's theorem on Noetherian rings, kind: statement, decl: IsNoetherianRing.of_prime, wikipedia: Noetherian ring, wikidata: Q582271}
   - {name: Akizuki–Hopkins–Levitzki theorem, kind: statement, decl: isArtinianRing_iff_isNoetherianRing_krullDimLE_zero, wikipedia: Hopkins–Levitzki theorem, wikidata: Q17027556}
   - {name: structure theorem for Artinian rings, kind: statement, decl: IsArtinianRing.equivPi, wikipedia: Artinian ring, wikidata: Q713084}
@@ -192,9 +192,9 @@ items:
   - {name: Serre's criterion for normality, kind: statement, wikipedia: Serre's criterion for normality, wikidata: Q25098875}
   # Modules
   - {name: module over a commutative ring, kind: definition, wikipedia: Module (mathematics), wikidata: Q18848}
-  - {name: finitely generated module, kind: definition, decl: Module.Finite, wikipedia: Finitely generated module, wikidata: Q1340572}
+  - {name: finitely generated module, kind: definition, decl: Module.Finite, wikipedia: Finitely generated module, wikidata: Q1340572, node: 05QY1VEBYD}
   - {name: finitely presented module, kind: definition, decl: Module.FinitePresentation, wikipedia: Finitely generated module, wikidata: Q1340572}
-  - {name: free module, kind: definition, decl: Module.Free, wikipedia: Free module, wikidata: Q1292333}
+  - {name: free module, kind: definition, decl: Module.Free, wikipedia: Free module, wikidata: Q1292333, node: 0DZ9DKAKZR}
   - {name: projective module, kind: definition, decl: Module.Projective, wikipedia: Projective module, wikidata: Q942423}
   - {name: injective module, kind: definition, decl: Module.Injective, wikipedia: Injective module, wikidata: Q2716519}
   - {name: Baer's criterion, kind: statement, decl: Module.Baer.injective, wikipedia: Injective module, wikidata: Q2716519}
@@ -246,7 +246,7 @@ items:
   - {name: Jacobian criterion, kind: statement, wikipedia: Jacobian matrix and determinant, wikidata: Q506041}
   - {name: Jacobian conjecture, kind: conjecture, wikipedia: Jacobian conjecture, wikidata: Q2605695}
   # Polynomial rings and invariants
-  - {name: polynomial ring, kind: definition, decl: MvPolynomial, wikipedia: Polynomial ring, wikidata: Q1455652, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: polynomial ring, kind: definition, decl: MvPolynomial, wikipedia: Polynomial ring, wikidata: Q1455652, mathlib: [mathlib-undergrad, mathlib-overview], node: 0SDC934R52}
   - {name: monomial ideal, kind: definition, wikipedia: Monomial ideal, wikidata: Q19369206}
   - {name: Stanley–Reisner ring, kind: definition, wikipedia: Stanley–Reisner ring, wikidata: Q7600086}
   - {name: toric ideal, kind: definition, wikipedia: Toric ideal, wikidata: Q131758875}

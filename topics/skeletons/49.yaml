@@ -17,8 +17,8 @@ items:
   - {name: weak and strong extremum, kind: definition, wikipedia: Calculus of variations, wikidata: Q216861}
   - {name: first variation, kind: definition, wikipedia: First variation, wikidata: Q1362077}
   - {name: Gateaux derivative, kind: definition, wikipedia: Gateaux derivative, wikidata: Q919459}
-  - {name: Fréchet derivative, kind: definition, decl: HasFDerivAt, wikipedia: Fréchet derivative, wikidata: Q1305350, mathlib: [mathlib-overview]}
-  - {name: Fermat's theorem on stationary points, kind: statement, decl: IsLocalMin.hasFDerivAt_eq_zero, wikipedia: Interior extremum theorem, wikidata: Q727102}
+  - {name: Fréchet derivative, kind: definition, decl: HasFDerivAt, wikipedia: Fréchet derivative, wikidata: Q1305350, mathlib: [mathlib-overview], node: 06EH97V2A7}
+  - {name: Fermat's theorem on stationary points, kind: statement, decl: IsLocalMin.hasFDerivAt_eq_zero, wikipedia: Interior extremum theorem, wikidata: Q727102, node: 0PCVBRV9VJ}
   - {name: fundamental lemma of the calculus of variations, kind: statement, decl: ae_eq_zero_of_integral_contDiff_smul_eq_zero, wikipedia: Fundamental lemma of the calculus of variations, wikidata: Q2474925}
   - {name: du Bois-Reymond lemma, kind: statement, wikipedia: Fundamental lemma of the calculus of variations, wikidata: Q2474925}
   - {name: Euler–Lagrange equation, kind: definition, wikipedia: Euler–Lagrange equation, wikidata: Q875744}
@@ -156,7 +156,7 @@ items:
   - {name: adjoint state method, kind: concept, wikipedia: Adjoint state method, wikidata: Q4683172}
   - {name: model predictive control, kind: concept, wikipedia: Model predictive control, wikidata: Q1782962}
   # Variational methods for eigenvalues
-  - {name: Rayleigh quotient, kind: definition, wikipedia: Rayleigh quotient, wikidata: Q1665115}
+  - {name: Rayleigh quotient, kind: definition, wikipedia: Rayleigh quotient, wikidata: Q1665115, node: 06WHP8SE98}
   - {name: Courant–Fischer–Weyl min-max principle, kind: statement, wikipedia: Min-max theorem, wikidata: Q4454958}
   - {name: Rayleigh–Ritz method, kind: concept, wikipedia: Rayleigh–Ritz method, wikidata: Q852247}
   - {name: Rayleigh–Faber–Krahn inequality, kind: statement, wikipedia: Rayleigh–Faber–Krahn inequality, wikidata: Q7298491}

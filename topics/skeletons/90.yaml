@@ -13,7 +13,7 @@ items:
   - {name: constraint, kind: definition, wikipedia: Constraint (mathematics), wikidata: Q2303305}
   - {name: slack variable, kind: definition, wikipedia: Slack variable, wikidata: Q1765718}
   - {name: minimizer on a set, kind: definition, decl: IsMinOn, wikipedia: Maximum and minimum, wikidata: Q845060}
-  - {name: constrained optimization, kind: concept, wikipedia: Constrained optimization, wikidata: Q4477763}
+  - {name: constrained optimization, kind: concept, wikipedia: Constrained optimization, wikidata: Q4477763, node: 0EPW94MJ1P}
   - {name: Lagrange multiplier rule for equality constraints, kind: statement, decl: IsLocalExtrOn.exists_multipliers_of_hasStrictFDerivAt, wikipedia: Lagrange multiplier, wikidata: Q598870}
   - {name: operations research, kind: concept, wikipedia: Operations research, wikidata: Q194292}
   # Linear programming
@@ -133,7 +133,7 @@ items:
   - {name: quadratic programming, kind: definition, wikipedia: Quadratic programming, wikidata: Q290117}
   - {name: second-order cone programming, kind: definition, wikipedia: Second-order cone programming, wikidata: Q7442977}
   - {name: semidefinite programming, kind: definition, wikipedia: Semidefinite programming, wikidata: Q2269096}
-  - {name: positive semidefinite matrix, kind: definition, decl: Matrix.PosSemidef, wikipedia: Definite matrix, wikidata: Q77601250}
+  - {name: positive semidefinite matrix, kind: definition, decl: Matrix.PosSemidef, wikipedia: Definite matrix, wikidata: Q77601250, node: 01MMVW8CKC}
   - {name: S-lemma, kind: statement, wikipedia: S-procedure, wikidata: Q25111847}
   - {name: sum-of-squares optimization, kind: definition, wikipedia: Sum-of-squares optimization, wikidata: Q7636875}
   - {name: geometric programming, kind: definition, wikipedia: Geometric programming, wikidata: Q2078279}

@@ -14,7 +14,7 @@ items:
   - {name: canonical ensemble, kind: definition, wikipedia: Canonical ensemble, wikidata: Q1077753}
   - {name: grand canonical ensemble, kind: definition, wikipedia: Grand canonical ensemble, wikidata: Q1153553}
   - {name: isothermal–isobaric ensemble, kind: definition, wikipedia: Isothermal–isobaric ensemble, wikidata: Q13638506}
-  - {name: partition function, kind: definition, wikipedia: Partition function (statistical mechanics), wikidata: Q230963}
+  - {name: partition function, kind: definition, wikipedia: Partition function (statistical mechanics), wikidata: Q230963, node: 0CV69WDRXW}
   - {name: Boltzmann distribution, kind: definition, wikipedia: Boltzmann distribution, wikidata: Q834200}
   - {name: Boltzmann's entropy formula, kind: statement, wikipedia: Boltzmann's entropy formula, wikidata: Q375553}
   - {name: Gibbs entropy, kind: definition, wikipedia: Entropy (statistical thermodynamics), wikidata: Q12727673}

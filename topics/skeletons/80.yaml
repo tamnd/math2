@@ -93,7 +93,7 @@ items:
   - {name: Ehrenfest equations, kind: statement, wikipedia: Ehrenfest equations, wikidata: Q3656201}
   - {name: Ehrenfest classification of phase transitions, kind: definition, wikipedia: Phase transition, wikidata: Q185357}
   - {name: triple point, kind: definition, wikipedia: Triple point, wikidata: Q106410}
-  - {name: critical point, kind: definition, wikipedia: Critical point (thermodynamics), wikidata: Q111059}
+  - {name: critical point, kind: definition, wikipedia: Critical point (thermodynamics), wikidata: Q111059, node: 0YTCMFB4HC}
   - {name: latent heat, kind: definition, wikipedia: Latent heat, wikidata: Q207721}
   - {name: Landau theory of phase transitions, kind: concept, wikipedia: Landau theory, wikidata: Q1626812}
   - {name: lever rule, kind: statement, wikipedia: Lever rule, wikidata: Q1781829}

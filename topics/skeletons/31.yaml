@@ -8,8 +8,8 @@ sources:
 items:
   # Basic notions
   - {name: potential theory, kind: concept, wikipedia: Potential theory, wikidata: Q1154848}
-  - {name: Laplace operator, kind: definition, decl: Laplacian, wikipedia: Laplace operator, wikidata: Q203484}
-  - {name: harmonic function, kind: definition, decl: InnerProductSpace.HarmonicOnNhd, wikipedia: Harmonic function, wikidata: Q599027}
+  - {name: Laplace operator, kind: definition, decl: Laplacian, wikipedia: Laplace operator, wikidata: Q203484, node: 0E0B6RA8K0}
+  - {name: harmonic function, kind: definition, decl: InnerProductSpace.HarmonicOnNhd, wikipedia: Harmonic function, wikidata: Q599027, node: 0DEB0JMN0W}
   - {name: harmonic at a point, kind: definition, decl: InnerProductSpace.HarmonicAt, wikipedia: Harmonic function, wikidata: Q599027}
   - {name: harmonic polynomial, kind: definition, wikipedia: Harmonic polynomial, wikidata: Q4133834}
   - {name: fundamental solution of the Laplacian, kind: definition, wikipedia: Fundamental solution, wikidata: Q1474123}
@@ -24,7 +24,7 @@ items:
   - {name: shell theorem, kind: statement, wikipedia: Shell theorem, wikidata: Q2222575}
   - {name: Earnshaw's theorem, kind: statement, wikipedia: Earnshaw's theorem, wikidata: Q1064471}
   # Harmonic functions
-  - {name: mean value property, kind: statement, decl: InnerProductSpace.HarmonicOnNhd.circleAverage_eq, wikipedia: Harmonic function, wikidata: Q599027}
+  - {name: mean value property, kind: statement, decl: InnerProductSpace.HarmonicOnNhd.circleAverage_eq, wikipedia: Harmonic function, wikidata: Q599027, node: 0HYPR64JM2}
   - {name: converse of the mean value property, kind: statement, wikipedia: Harmonic function, wikidata: Q599027}
   - {name: Koebe's theorem on the mean value property, kind: statement, wikipedia: Harmonic function, wikidata: Q599027}
   - {name: maximum principle for harmonic functions, kind: statement, wikipedia: Maximum principle, wikidata: Q1914255}
@@ -154,8 +154,8 @@ items:
   - {name: Beurling's projection theorem, kind: statement, wikipedia: Harmonic measure, wikidata: Q5659270}
   - {name: Milloux problem, kind: problem, wikipedia: Harmonic measure, wikidata: Q5659270}
   # Planar potential theory
-  - {name: harmonic conjugate, kind: definition, wikipedia: Harmonic conjugate, wikidata: Q5659251}
-  - {name: real part of a holomorphic function is harmonic, kind: statement, decl: AnalyticAt.harmonicAt_re, wikipedia: Harmonic function, wikidata: Q599027}
+  - {name: harmonic conjugate, kind: definition, wikipedia: Harmonic conjugate, wikidata: Q5659251, node: 050F2FMTKF}
+  - {name: real part of a holomorphic function is harmonic, kind: statement, decl: AnalyticAt.harmonicAt_re, wikipedia: Harmonic function, wikidata: Q599027, node: 031BG625Y3}
   - {name: local existence of harmonic conjugates, kind: statement, decl: InnerProductSpace.HarmonicOnNhd.exists_analyticOnNhd_ball_re_eq, wikipedia: Harmonic conjugate, wikidata: Q5659251}
   - {name: Liouville's theorem for planar harmonic functions, kind: statement, decl: InnerProductSpace.bounded_harmonic_on_complex_plane_is_constant, wikipedia: Harmonic function, wikidata: Q599027}
   - {name: conformal invariance of harmonic functions, kind: statement, wikipedia: Conformal map, wikidata: Q850275}

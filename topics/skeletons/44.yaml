@@ -21,7 +21,7 @@ items:
   - {name: Tauberian theorems for integral transforms, kind: statement, wikipedia: Abelian and Tauberian theorems, wikidata: Q2376918}
   - {name: list of integral transforms, kind: concept, wikipedia: List of transforms, wikidata: Q6585617}
   # Laplace transform: definition and convergence
-  - {name: Laplace transform, kind: definition, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: Laplace transform, kind: definition, wikipedia: Laplace transform, wikidata: Q199691, node: 0V49JEZW06}
   - {name: unilateral Laplace transform, kind: definition, wikipedia: Laplace transform, wikidata: Q199691}
   - {name: function of exponential order, kind: definition, wikipedia: Laplace transform, wikidata: Q199691}
   - {name: abscissa of convergence, kind: definition, wikipedia: Laplace transform, wikidata: Q199691}
@@ -41,11 +41,11 @@ items:
   - {name: frequency shift theorem, kind: statement, wikipedia: Laplace transform, wikidata: Q199691}
   - {name: time shift theorem, kind: statement, wikipedia: Laplace transform, wikidata: Q199691}
   - {name: scaling rule for the Laplace transform, kind: statement, wikipedia: Laplace transform, wikidata: Q199691}
-  - {name: Laplace transform of a derivative, kind: statement, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: Laplace transform of a derivative, kind: statement, wikipedia: Laplace transform, wikidata: Q199691, node: 0K090GVHVN}
   - {name: Laplace transform of an integral, kind: statement, wikipedia: Laplace transform, wikidata: Q199691}
   - {name: differentiation in the transform variable, kind: statement, wikipedia: Laplace transform, wikidata: Q199691}
   - {name: integration in the transform variable, kind: statement, wikipedia: Laplace transform, wikidata: Q199691}
-  - {name: convolution theorem for the Laplace transform, kind: statement, wikipedia: Laplace transform, wikidata: Q199691}
+  - {name: convolution theorem for the Laplace transform, kind: statement, wikipedia: Laplace transform, wikidata: Q199691, node: 0JNMJEDD93}
   - {name: initial value theorem, kind: statement, wikipedia: Initial value theorem, wikidata: Q4272300}
   - {name: final value theorem, kind: statement, wikipedia: Final value theorem, wikidata: Q4272645}
   - {name: Laplace transform method for linear ODEs, kind: concept, wikipedia: Laplace transform applied to differential equations, wikidata: Q2858841}
@@ -53,7 +53,7 @@ items:
   - {name: resolvent as Laplace transform of a semigroup, kind: statement, wikipedia: C0-semigroup, wikidata: Q846542}
   # Laplace transform: uniqueness and inversion
   - {name: Lerch's uniqueness theorem, kind: statement, wikipedia: Laplace transform, wikidata: Q199691}
-  - {name: inverse Laplace transform, kind: definition, wikipedia: Inverse Laplace transform, wikidata: Q2162701}
+  - {name: inverse Laplace transform, kind: definition, wikipedia: Inverse Laplace transform, wikidata: Q2162701, node: 07WBTX1MHA}
   - {name: Bromwich integral, kind: definition, wikipedia: Inverse Laplace transform, wikidata: Q2162701}
   - {name: Mellin's inverse formula, kind: statement, wikipedia: Inverse Laplace transform, wikidata: Q2162701}
   - {name: Post's inversion formula, kind: statement, wikipedia: Inverse Laplace transform, wikidata: Q2162701}
@@ -164,7 +164,7 @@ items:
   - {name: Titchmarsh convolution theorem, kind: statement, wikipedia: Titchmarsh convolution theorem, wikidata: Q7809920}
   - {name: convolution ring has no zero divisors, kind: statement, wikipedia: Titchmarsh convolution theorem, wikidata: Q7809920}
   - {name: Duhamel's integral, kind: statement, wikipedia: Duhamel's integral, wikidata: Q845685}
-  - {name: convolution of distributions, kind: definition, wikipedia: Distribution (mathematical analysis), wikidata: Q865811}
+  - {name: convolution of distributions, kind: definition, wikipedia: Distribution (mathematical analysis), wikidata: Q865811, node: 0F8GDKM0A7}
   - {name: generalized convolution of an integral transform, kind: concept, wikipedia: Convolution, wikidata: Q210857}
   # Classical operational calculus
   - {name: operational calculus, kind: concept, wikipedia: Operational calculus, wikidata: Q1162633}

@@ -10,33 +10,33 @@ sources:
   mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
 items:
   # Basic notions
-  - {name: ring, kind: definition, decl: Ring, wikipedia: Ring (mathematics), wikidata: Q161172, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: ring, kind: definition, decl: Ring, wikipedia: Ring (mathematics), wikidata: Q161172, mathlib: [mathlib-undergrad, mathlib-overview], node: 0B1261B5ED}
   - {name: noncommutative ring, kind: concept, wikipedia: Noncommutative ring, wikidata: Q7049224}
   - {name: associative algebra, kind: definition, decl: Algebra, wikipedia: Associative algebra, wikidata: Q744960, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: subring, kind: definition, decl: Subring, wikipedia: Subring, wikidata: Q929536, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: subring, kind: definition, decl: Subring, wikipedia: Subring, wikidata: Q929536, mathlib: [mathlib-undergrad, mathlib-overview], node: 0GNCRPYXYV}
   - {name: opposite ring, kind: definition, decl: MulOpposite, wikipedia: Opposite ring, wikidata: Q1940482}
-  - {name: ring homomorphism, kind: definition, wikipedia: Ring homomorphism, wikidata: Q1194212}
+  - {name: ring homomorphism, kind: definition, wikipedia: Ring homomorphism, wikidata: Q1194212, node: 0VTH8KPCG2}
   - {name: left ideal, kind: definition, decl: Ideal, wikipedia: Ideal (ring theory), wikidata: Q44649, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: two-sided ideal, kind: definition, decl: TwoSidedIdeal, wikipedia: Ideal (ring theory), wikidata: Q44649}
-  - {name: quotient ring, kind: definition, decl: RingQuot, wikipedia: Quotient ring, wikidata: Q619436}
+  - {name: two-sided ideal, kind: definition, decl: TwoSidedIdeal, wikipedia: Ideal (ring theory), wikidata: Q44649, node: 0CD87SFM2N}
+  - {name: quotient ring, kind: definition, decl: RingQuot, wikipedia: Quotient ring, wikidata: Q619436, node: 0076HWHGHQ}
   - {name: center of a ring, kind: definition, decl: Subring.center, wikipedia: Center (ring theory), wikidata: Q30603786}
-  - {name: centralizer, kind: definition, decl: Subring.centralizer, wikipedia: Centralizer and normalizer, wikidata: Q190629}
+  - {name: centralizer, kind: definition, decl: Subring.centralizer, wikipedia: Centralizer and normalizer, wikidata: Q190629, node: 02YYV36BFM}
   - {name: unit, kind: definition, decl: IsUnit, wikipedia: Unit (ring theory), wikidata: Q118084}
-  - {name: zero divisor, kind: definition, wikipedia: Zero divisor, wikidata: Q828111}
-  - {name: domain, kind: definition, decl: NoZeroDivisors, wikipedia: Domain (ring theory), wikidata: Q2851442}
-  - {name: division ring, kind: definition, decl: DivisionRing, wikipedia: Division ring, wikidata: Q650741}
+  - {name: zero divisor, kind: definition, wikipedia: Zero divisor, wikidata: Q828111, node: 0NNRDW10RZ}
+  - {name: domain, kind: definition, decl: NoZeroDivisors, wikipedia: Domain (ring theory), wikidata: Q2851442, node: 0Q4CBD3HX0}
+  - {name: division ring, kind: definition, decl: DivisionRing, wikipedia: Division ring, wikidata: Q650741, node: 0EA5BTA0CX}
   - {name: idempotent, kind: definition, decl: IsIdempotentElem, wikipedia: Idempotent (ring theory), wikidata: Q2243424}
   - {name: complete set of orthogonal idempotents, kind: definition, decl: CompleteOrthogonalIdempotents, wikipedia: Idempotent (ring theory), wikidata: Q2243424}
   - {name: Peirce decomposition, kind: statement, wikipedia: Peirce decomposition, wikidata: Q7160950}
-  - {name: nilpotent element, kind: definition, decl: IsNilpotent, wikipedia: Nilpotent, wikidata: Q840023}
+  - {name: nilpotent element, kind: definition, decl: IsNilpotent, wikipedia: Nilpotent, wikidata: Q840023, node: 0ZB2JG1M9C}
   - {name: nil ideal, kind: definition, wikipedia: Nil ideal, wikidata: Q453275}
   - {name: nilpotent ideal, kind: definition, wikipedia: Nilpotent ideal, wikidata: Q4321370}
   - {name: matrix ring, kind: definition, decl: Matrix, wikipedia: Matrix ring, wikidata: Q2915729, mathlib: [mathlib-undergrad, mathlib-overview]}
   - {name: endomorphism ring, kind: definition, decl: Module.End, wikipedia: Endomorphism ring, wikidata: Q2896709}
-  - {name: characteristic of a ring, kind: definition, decl: ringChar, wikipedia: Characteristic (algebra), wikidata: Q836088, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: characteristic of a ring, kind: definition, decl: ringChar, wikipedia: Characteristic (algebra), wikidata: Q836088, mathlib: [mathlib-undergrad, mathlib-overview], node: 0F6ES3BRYP}
   - {name: rng, kind: definition, decl: NonUnitalRing, wikipedia: Rng (algebra), wikidata: Q17102802}
   # Modules and ideals
-  - {name: module over a ring, kind: definition, decl: Module, wikipedia: Module (mathematics), wikidata: Q18848, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: module over a ring, kind: definition, decl: Module, wikipedia: Module (mathematics), wikidata: Q18848, mathlib: [mathlib-undergrad, mathlib-overview], node: 0NZ8JA25WK}
   - {name: bimodule, kind: definition, wikipedia: Bimodule, wikidata: Q2903821}
   - {name: simple module, kind: definition, decl: IsSimpleModule, wikipedia: Simple module, wikidata: Q956233}
   - {name: Schur's lemma, kind: statement, decl: LinearMap.bijective_or_eq_zero, wikipedia: Schur's lemma, wikidata: Q1816952}
@@ -45,8 +45,8 @@ items:
   - {name: characterizations of semisimple modules, kind: statement, decl: IsSemisimpleModule.sSup_simples_eq_top, wikipedia: Semisimple module, wikidata: Q1485102}
   - {name: indecomposable module, kind: definition, wikipedia: Indecomposable module, wikidata: Q2499534}
   - {name: Krull–Schmidt theorem, kind: statement, wikipedia: Krull–Schmidt theorem, wikidata: Q2226709}
-  - {name: composition series, kind: definition, decl: CompositionSeries, wikipedia: Composition series, wikidata: Q2525646}
-  - {name: Jordan–Hölder theorem, kind: statement, decl: CompositionSeries.jordan_holder, wikipedia: Composition series, wikidata: Q2525646, mathlib: [mathlib-1000]}
+  - {name: composition series, kind: definition, decl: CompositionSeries, wikipedia: Composition series, wikidata: Q2525646, node: 0XV2A49X6Q}
+  - {name: Jordan–Hölder theorem, kind: statement, decl: CompositionSeries.jordan_holder, wikipedia: Composition series, wikidata: Q2525646, mathlib: [mathlib-1000], node: 0E088ZP533}
   - {name: length of a module, kind: definition, decl: Module.length, wikipedia: Length of a module, wikidata: Q1761084}
   - {name: Fitting's lemma, kind: statement, wikipedia: Fitting lemma, wikidata: Q3229338}
   - {name: faithful module, kind: definition, decl: FaithfulSMul, wikipedia: Annihilator (ring theory), wikidata: Q567083}
@@ -54,7 +54,7 @@ items:
   - {name: essential submodule, kind: definition, wikipedia: Essential extension, wikidata: Q2563809}
   - {name: socle of a module, kind: definition, wikipedia: Socle (mathematics), wikidata: Q7553048}
   - {name: radical of a module, kind: definition, decl: Module.jacobson, wikipedia: Radical of a module, wikidata: Q7280485}
-  - {name: free module, kind: definition, decl: Module.Free, wikipedia: Free module, wikidata: Q1292333}
+  - {name: free module, kind: definition, decl: Module.Free, wikipedia: Free module, wikidata: Q1292333, node: 0DZ9DKAKZR}
   - {name: invariant basis number, kind: definition, wikipedia: Invariant basis number, wikidata: Q6059504}
   - {name: stably finite ring, kind: definition, decl: IsStablyFiniteRing, wikipedia: Dedekind-finite ring, wikidata: Q112160790}
   - {name: Dedekind-finite ring, kind: definition, decl: IsDedekindFiniteMonoid, wikipedia: Dedekind-finite ring, wikidata: Q112160790}
@@ -65,11 +65,11 @@ items:
   - {name: semisimple ring, kind: definition, decl: IsSemisimpleRing, wikipedia: Semisimple module, wikidata: Q1485102}
   - {name: Artin–Wedderburn theorem, kind: statement, decl: IsSemisimpleRing.exists_algEquiv_pi_matrix_divisionRing, wikipedia: Wedderburn–Artin theorem, wikidata: Q776578, mathlib: [mathlib-1000]}
   - {name: Wedderburn's theorem on simple Artinian rings, kind: statement, decl: IsSimpleRing.exists_algEquiv_matrix_divisionRing, wikipedia: Wedderburn–Artin theorem, wikidata: Q776578, mathlib: [mathlib-1000]}
-  - {name: Wedderburn's little theorem, kind: statement, decl: littleWedderburn, wikipedia: Wedderburn's little theorem, wikidata: Q943246, mathlib: [mathlib-1000]}
+  - {name: Wedderburn's little theorem, kind: statement, decl: littleWedderburn, wikipedia: Wedderburn's little theorem, wikidata: Q943246, mathlib: [mathlib-1000], node: 0RRNVX1VKA}
   - {name: Maschke's theorem, kind: statement, decl: MonoidAlgebra.Submodule.exists_isCompl, wikipedia: Maschke's theorem, wikidata: Q656198, mathlib: [mathlib-undergrad, mathlib-1000]}
   - {name: separable algebra, kind: definition, wikipedia: Separable algebra, wikidata: Q2836018}
   # Division rings and central simple algebras
-  - {name: quaternions, kind: object, decl: Quaternion, wikipedia: Quaternion, wikidata: Q173853}
+  - {name: quaternions, kind: object, decl: Quaternion, wikipedia: Quaternion, wikidata: Q173853, node: 0GE4DVQKR8}
   - {name: quaternion algebra, kind: definition, decl: QuaternionAlgebra, wikipedia: Quaternion algebra, wikidata: Q2835967}
   - {name: Frobenius theorem on real division algebras, kind: statement, wikipedia: Frobenius theorem (real division algebras), wikidata: Q1361031}
   - {name: central simple algebra, kind: definition, decl: Algebra.IsCentral, wikipedia: Central simple algebra, wikidata: Q2428439}
@@ -120,7 +120,7 @@ items:
   - {name: uniserial module, kind: definition, wikipedia: Serial module, wikidata: Q17103209}
   - {name: serial ring, kind: definition, wikipedia: Serial module, wikidata: Q17103209}
   # Chain, growth and finiteness conditions
-  - {name: Noetherian ring, kind: definition, decl: IsNoetherianRing, wikipedia: Noetherian ring, wikidata: Q582271, mathlib: [mathlib-overview]}
+  - {name: Noetherian ring, kind: definition, decl: IsNoetherianRing, wikipedia: Noetherian ring, wikidata: Q582271, mathlib: [mathlib-overview], node: 0670T59HGE}
   - {name: Artinian ring, kind: definition, decl: IsArtinianRing, wikipedia: Artinian ring, wikidata: Q713084}
   - {name: Noetherian module, kind: definition, decl: IsNoetherian, wikipedia: Noetherian module, wikidata: Q2444982, mathlib: [mathlib-overview]}
   - {name: Artinian module, kind: definition, decl: IsArtinian, wikipedia: Artinian module, wikidata: Q2919100}
@@ -147,10 +147,10 @@ items:
   - {name: central polynomial, kind: definition, wikipedia: Central polynomial, wikidata: Q18345072}
   - {name: generic matrix algebra, kind: definition, wikipedia: Generic matrix ring, wikidata: Q18207337}
   # Constructions
-  - {name: polynomial ring, kind: definition, decl: Polynomial, wikipedia: Polynomial ring, wikidata: Q1455652, mathlib: [mathlib-overview]}
+  - {name: polynomial ring, kind: definition, decl: Polynomial, wikipedia: Polynomial ring, wikidata: Q1455652, mathlib: [mathlib-overview], node: 0SDC934R52}
   - {name: free algebra, kind: definition, decl: FreeAlgebra, wikipedia: Free algebra, wikidata: Q5500180, mathlib: [mathlib-overview]}
   - {name: tensor algebra, kind: definition, decl: TensorAlgebra, wikipedia: Tensor algebra, wikidata: Q2296021, mathlib: [mathlib-overview]}
-  - {name: exterior algebra, kind: definition, decl: ExteriorAlgebra, wikipedia: Exterior algebra, wikidata: Q1196652, mathlib: [mathlib-overview]}
+  - {name: exterior algebra, kind: definition, decl: ExteriorAlgebra, wikipedia: Exterior algebra, wikidata: Q1196652, mathlib: [mathlib-overview], node: 0MDMZ965VE}
   - {name: tensor product of algebras, kind: definition, wikipedia: Tensor product of algebras, wikidata: Q7700713}
   - {name: group ring, kind: definition, decl: MonoidAlgebra, wikipedia: Group ring, wikidata: Q2602722}
   - {name: monoid ring, kind: definition, decl: AddMonoidAlgebra, wikipedia: Monoid ring, wikidata: Q1945005}
@@ -263,7 +263,7 @@ items:
   - {name: von Neumann regular ring, kind: definition, wikipedia: Von Neumann regular ring, wikidata: Q2895315}
   - {name: unit-regular ring, kind: definition, wikipedia: Von Neumann regular ring, wikidata: Q2895315}
   - {name: clean ring, kind: definition, wikipedia: Clean ring, wikidata: Q24896331}
-  - {name: Boolean ring, kind: definition, wikipedia: Boolean ring, wikidata: Q2634401}
+  - {name: Boolean ring, kind: definition, wikipedia: Boolean ring, wikidata: Q2634401, node: 0RCV1ZFP8G}
   - {name: Jacobson's conjecture, kind: conjecture, wikipedia: Jacobson's conjecture, wikidata: Q16000128}
   # Generalizations of rings
   - {name: semiring, kind: definition, decl: Semiring, wikipedia: Semiring, wikidata: Q1333055}

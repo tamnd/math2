@@ -11,62 +11,62 @@ sources:
   mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
 items:
   # Foundations: probability spaces and events
-  - {name: probability space, kind: definition, decl: MeasureTheory.IsProbabilityMeasure, wikipedia: Probability space, wikidata: Q623472, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: Kolmogorov axioms, kind: definition, wikipedia: Probability axioms, wikidata: Q974605}
-  - {name: event, kind: definition, wikipedia: Event (probability theory), wikidata: Q10290214}
-  - {name: sigma-algebra, kind: definition, wikipedia: Σ-algebra, wikidata: Q217357}
+  - {name: probability space, kind: definition, decl: MeasureTheory.IsProbabilityMeasure, wikipedia: Probability space, wikidata: Q623472, mathlib: [mathlib-undergrad, mathlib-overview], node: 0NFPJVJJHX}
+  - {name: Kolmogorov axioms, kind: definition, wikipedia: Probability axioms, wikidata: Q974605, node: 0DAX8PMAJ4}
+  - {name: event, kind: definition, wikipedia: Event (probability theory), wikidata: Q10290214, node: 031TPJVS74}
+  - {name: sigma-algebra, kind: definition, wikipedia: Σ-algebra, wikidata: Q217357, node: 0SV8K0TDGY}
   - {name: pi-system, kind: definition, decl: IsPiSystem, wikipedia: Pi-system, wikidata: Q3962249}
   - {name: Dynkin's pi-lambda theorem, kind: statement, decl: MeasurableSpace.DynkinSystem, wikipedia: Dynkin system, wikidata: Q1935689}
-  - {name: random variable, kind: definition, wikipedia: Random variable, wikidata: Q176623}
-  - {name: law of a random variable, kind: definition, decl: MeasureTheory.Measure.map, wikipedia: Probability distribution, wikidata: Q200726}
-  - {name: cumulative distribution function, kind: definition, decl: ProbabilityTheory.cdf, wikipedia: Cumulative distribution function, wikidata: Q386228}
-  - {name: probability density function, kind: definition, decl: MeasureTheory.pdf, wikipedia: Probability density function, wikidata: Q207522}
-  - {name: probability mass function, kind: definition, decl: PMF, wikipedia: Probability mass function, wikidata: Q869887, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: quantile function, kind: definition, wikipedia: Quantile function, wikidata: Q3489473}
-  - {name: conditional probability, kind: definition, decl: ProbabilityTheory.cond, wikipedia: Conditional probability, wikidata: Q327069, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: Bayes' theorem, kind: statement, decl: ProbabilityTheory.cond_eq_inv_mul_cond_mul, wikipedia: Bayes' theorem, wikidata: Q182505, mathlib: [mathlib-1000]}
-  - {name: law of total probability, kind: statement, wikipedia: Law of total probability, wikidata: Q1989192}
+  - {name: random variable, kind: definition, wikipedia: Random variable, wikidata: Q176623, node: 0PNRKMRC55}
+  - {name: law of a random variable, kind: definition, decl: MeasureTheory.Measure.map, wikipedia: Probability distribution, wikidata: Q200726, node: 01EQPZ6RYZ}
+  - {name: cumulative distribution function, kind: definition, decl: ProbabilityTheory.cdf, wikipedia: Cumulative distribution function, wikidata: Q386228, node: 0H8H7ZTHW2}
+  - {name: probability density function, kind: definition, decl: MeasureTheory.pdf, wikipedia: Probability density function, wikidata: Q207522, node: 0ZY9DX8FBF}
+  - {name: probability mass function, kind: definition, decl: PMF, wikipedia: Probability mass function, wikidata: Q869887, mathlib: [mathlib-undergrad, mathlib-overview], node: 0D6J4B671D}
+  - {name: quantile function, kind: definition, wikipedia: Quantile function, wikidata: Q3489473, node: 0X60VE98HN}
+  - {name: conditional probability, kind: definition, decl: ProbabilityTheory.cond, wikipedia: Conditional probability, wikidata: Q327069, mathlib: [mathlib-undergrad, mathlib-overview], node: 0990W5PN13}
+  - {name: Bayes' theorem, kind: statement, decl: ProbabilityTheory.cond_eq_inv_mul_cond_mul, wikipedia: Bayes' theorem, wikidata: Q182505, mathlib: [mathlib-1000], node: 0NM6E9VW04}
+  - {name: law of total probability, kind: statement, wikipedia: Law of total probability, wikidata: Q1989192, node: 0E5G5FMT2R}
   - {name: Borel–Kolmogorov paradox, kind: counterexample, wikipedia: Borel–Kolmogorov paradox, wikidata: Q3363312}
-  - {name: Bertrand paradox, kind: counterexample, wikipedia: Bertrand paradox (probability), wikidata: Q828552}
+  - {name: Bertrand paradox, kind: counterexample, wikipedia: Bertrand paradox (probability), wikidata: Q828552, node: 0T0JWJ3M47}
   # Independence
-  - {name: independent events, kind: definition, decl: ProbabilityTheory.IndepSet, wikipedia: Independence (probability theory), wikidata: Q625303}
-  - {name: independent random variables, kind: definition, decl: ProbabilityTheory.iIndepFun, wikipedia: Independence (probability theory), wikidata: Q625303, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: pairwise independence, kind: definition, wikipedia: Pairwise independence, wikidata: Q17104952}
-  - {name: independent and identically distributed random variables, kind: definition, decl: ProbabilityTheory.IdentDistrib, wikipedia: Independent and identically distributed random variables, wikidata: Q378542}
-  - {name: conditional independence, kind: definition, decl: ProbabilityTheory.CondIndep, wikipedia: Conditional independence, wikidata: Q5159264}
+  - {name: independent events, kind: definition, decl: ProbabilityTheory.IndepSet, wikipedia: Independence (probability theory), wikidata: Q625303, node: 03AHF0XRVG}
+  - {name: independent random variables, kind: definition, decl: ProbabilityTheory.iIndepFun, wikipedia: Independence (probability theory), wikidata: Q625303, mathlib: [mathlib-undergrad, mathlib-overview], node: 0GBJACNAP6}
+  - {name: pairwise independence, kind: definition, wikipedia: Pairwise independence, wikidata: Q17104952, node: 0ZB3M68NYQ}
+  - {name: independent and identically distributed random variables, kind: definition, decl: ProbabilityTheory.IdentDistrib, wikipedia: Independent and identically distributed random variables, wikidata: Q378542, node: 00MRN0FARV}
+  - {name: conditional independence, kind: definition, decl: ProbabilityTheory.CondIndep, wikipedia: Conditional independence, wikidata: Q5159264, node: 0THJ7416DX}
   - {name: product measure, kind: definition, decl: MeasureTheory.Measure.infinitePi, wikipedia: Product measure, wikidata: Q1572094}
   - {name: Kolmogorov extension theorem, kind: statement, decl: MeasureTheory.IsProjectiveLimit, wikipedia: Kolmogorov extension theorem, wikidata: Q3526996}
   - {name: Ionescu-Tulcea theorem, kind: statement, decl: ProbabilityTheory.Kernel.traj, wikipedia: Ionescu-Tulcea theorem, wikidata: Q25378690, mathlib: [mathlib-1000]}
   - {name: exchangeable random variables, kind: definition, wikipedia: Exchangeable random variables, wikidata: Q4406885}
   - {name: de Finetti's theorem, kind: statement, wikipedia: De Finetti's theorem, wikidata: Q4408070}
-  - {name: Kolmogorov's zero–one law, kind: statement, decl: ProbabilityTheory.measure_zero_or_one_of_measurableSet_limsup_atTop, wikipedia: Kolmogorov's zero–one law, wikidata: Q2004664, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: Kolmogorov's zero–one law, kind: statement, decl: ProbabilityTheory.measure_zero_or_one_of_measurableSet_limsup_atTop, wikipedia: Kolmogorov's zero–one law, wikidata: Q2004664, mathlib: [mathlib-undergrad, mathlib-overview], node: 073Q8Z94KG}
   - {name: Hewitt–Savage zero–one law, kind: statement, wikipedia: Hewitt–Savage zero–one law, wikidata: Q21051250}
   - {name: coupling, kind: definition, wikipedia: Coupling (probability), wikidata: Q1784133}
   # Expectation, moments and transforms
-  - {name: expected value, kind: definition, decl: MeasureTheory.integral, wikipedia: Expected value, wikidata: Q200125, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: variance, kind: definition, decl: ProbabilityTheory.variance, wikipedia: Variance, wikidata: Q175199, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: expected value, kind: definition, decl: MeasureTheory.integral, wikipedia: Expected value, wikidata: Q200125, mathlib: [mathlib-undergrad, mathlib-overview], node: 0WQNRCNY3M}
+  - {name: variance, kind: definition, decl: ProbabilityTheory.variance, wikipedia: Variance, wikidata: Q175199, mathlib: [mathlib-undergrad, mathlib-overview], node: 0477R9PYAE}
   - {name: variance of a sum of independent variables, kind: statement, decl: ProbabilityTheory.IndepFun.variance_sum, wikipedia: Bienaymé's identity, wikidata: Q1530383}
-  - {name: covariance, kind: definition, decl: ProbabilityTheory.covariance, wikipedia: Covariance, wikidata: Q201984}
-  - {name: correlation, kind: definition, wikipedia: Correlation, wikidata: Q186290}
-  - {name: moment, kind: definition, decl: ProbabilityTheory.moment, wikipedia: Moment (mathematics), wikidata: Q638982, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: central moment, kind: definition, decl: ProbabilityTheory.centralMoment, wikipedia: Central moment, wikidata: Q1088747}
+  - {name: covariance, kind: definition, decl: ProbabilityTheory.covariance, wikipedia: Covariance, wikidata: Q201984, node: 0KBFAWYRTE}
+  - {name: correlation, kind: definition, wikipedia: Correlation, wikidata: Q186290, node: 0DNN9B6Q2F}
+  - {name: moment, kind: definition, decl: ProbabilityTheory.moment, wikipedia: Moment (mathematics), wikidata: Q638982, mathlib: [mathlib-undergrad, mathlib-overview], node: 01XAHPADBA}
+  - {name: central moment, kind: definition, decl: ProbabilityTheory.centralMoment, wikipedia: Central moment, wikidata: Q1088747, node: 09753QQDCK}
   - {name: moment problem, kind: problem, wikipedia: Moment problem, wikidata: Q3406268}
-  - {name: moment-generating function, kind: definition, decl: ProbabilityTheory.mgf, wikipedia: Moment generating function, wikidata: Q535587}
+  - {name: moment-generating function, kind: definition, decl: ProbabilityTheory.mgf, wikipedia: Moment generating function, wikidata: Q535587, node: 0WQVXP7PDB}
   - {name: cumulant, kind: definition, decl: ProbabilityTheory.cgf, wikipedia: Cumulant, wikidata: Q746007}
-  - {name: probability-generating function, kind: definition, wikipedia: Probability generating function, wikidata: Q372071}
+  - {name: probability-generating function, kind: definition, wikipedia: Probability generating function, wikidata: Q372071, node: 0EBCWQ8BVE}
   - {name: characteristic function, kind: definition, decl: MeasureTheory.charFun, wikipedia: Characteristic function (probability theory), wikidata: Q822139, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: characteristic function determines the distribution, kind: statement, decl: MeasureTheory.Measure.ext_of_charFun, wikipedia: Characteristic function (probability theory), wikidata: Q822139}
+  - {name: characteristic function determines the distribution, kind: statement, decl: MeasureTheory.Measure.ext_of_charFun, wikipedia: Characteristic function (probability theory), wikidata: Q822139, node: 0T8BYAFEXX}
   - {name: Bochner's theorem, kind: statement, wikipedia: Bochner's theorem, wikidata: Q4936242}
   - {name: Cramér–Wold theorem, kind: statement, wikipedia: Cramér–Wold theorem, wikidata: Q966837}
-  - {name: convolution of probability distributions, kind: definition, decl: MeasureTheory.Measure.conv, wikipedia: Convolution of probability distributions, wikidata: Q5166603}
+  - {name: convolution of probability distributions, kind: definition, decl: MeasureTheory.Measure.conv, wikipedia: Convolution of probability distributions, wikidata: Q5166603, node: 0F8GDKM0A7}
   # Inequalities
-  - {name: Markov's inequality, kind: statement, decl: MeasureTheory.mul_meas_ge_le_integral_of_nonneg, wikipedia: Markov's inequality, wikidata: Q842436}
-  - {name: Chebyshev's inequality, kind: statement, decl: ProbabilityTheory.meas_ge_le_variance_div_sq, wikipedia: Chebyshev's inequality, wikidata: Q249514, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: Jensen's inequality, kind: statement, decl: ConvexOn.map_integral_le, wikipedia: Jensen's inequality, wikidata: Q518131, mathlib: [mathlib-overview]}
+  - {name: Markov's inequality, kind: statement, decl: MeasureTheory.mul_meas_ge_le_integral_of_nonneg, wikipedia: Markov's inequality, wikidata: Q842436, node: 05PWWHYBX5}
+  - {name: Chebyshev's inequality, kind: statement, decl: ProbabilityTheory.meas_ge_le_variance_div_sq, wikipedia: Chebyshev's inequality, wikidata: Q249514, mathlib: [mathlib-undergrad, mathlib-overview], node: 02HZ1BK3MW}
+  - {name: Jensen's inequality, kind: statement, decl: ConvexOn.map_integral_le, wikipedia: Jensen's inequality, wikidata: Q518131, mathlib: [mathlib-overview], node: 0RWMRTPC87}
   - {name: Paley–Zygmund inequality, kind: statement, wikipedia: Paley–Zygmund inequality, wikidata: Q2718608}
-  - {name: Chernoff bound, kind: statement, decl: ProbabilityTheory.measure_ge_le_exp_mul_mgf, wikipedia: Chernoff bound, wikidata: Q1070305}
+  - {name: Chernoff bound, kind: statement, decl: ProbabilityTheory.measure_ge_le_exp_mul_mgf, wikipedia: Chernoff bound, wikidata: Q1070305, node: 014PEBGDYF}
   - {name: sub-Gaussian distribution, kind: definition, decl: ProbabilityTheory.HasSubgaussianMGF, wikipedia: Sub-Gaussian distribution, wikidata: Q25303973}
-  - {name: Hoeffding's inequality, kind: statement, decl: ProbabilityTheory.HasSubgaussianMGF.measure_sum_ge_le_of_iIndepFun, wikipedia: Hoeffding's inequality, wikidata: Q1622794}
+  - {name: Hoeffding's inequality, kind: statement, decl: ProbabilityTheory.HasSubgaussianMGF.measure_sum_ge_le_of_iIndepFun, wikipedia: Hoeffding's inequality, wikidata: Q1622794, node: 0WPDNXGSSN}
   - {name: Bernstein inequalities, kind: statement, wikipedia: Bernstein inequalities (probability theory), wikidata: Q826791}
   - {name: Azuma's inequality, kind: statement, decl: ProbabilityTheory.measure_sum_ge_le_of_hasCondSubgaussianMGF, wikipedia: Azuma's inequality, wikidata: Q2410467}
   - {name: McDiarmid's inequality, kind: statement, wikipedia: McDiarmid's inequality, wikidata: Q113127691}
@@ -74,30 +74,30 @@ items:
   - {name: Talagrand's concentration inequality, kind: statement, wikipedia: Talagrand's concentration inequality, wikidata: Q7678798}
   - {name: FKG inequality, kind: statement, wikipedia: FKG inequality, wikidata: Q1784730}
   # Conditioning
-  - {name: conditional expectation, kind: definition, decl: MeasureTheory.condExp, wikipedia: Conditional expectation, wikidata: Q772232, mathlib: [mathlib-overview]}
-  - {name: law of total expectation, kind: statement, decl: MeasureTheory.condExp_condExp_of_le, wikipedia: Law of total expectation, wikidata: Q2247110}
-  - {name: law of total variance, kind: statement, wikipedia: Law of total variance, wikidata: Q1055879}
+  - {name: conditional expectation, kind: definition, decl: MeasureTheory.condExp, wikipedia: Conditional expectation, wikidata: Q772232, mathlib: [mathlib-overview], node: 0TTDGTEFMN}
+  - {name: law of total expectation, kind: statement, decl: MeasureTheory.condExp_condExp_of_le, wikipedia: Law of total expectation, wikidata: Q2247110, node: 04RRB6HM00}
+  - {name: law of total variance, kind: statement, wikipedia: Law of total variance, wikidata: Q1055879, node: 03BY5XTNA4}
   - {name: Markov kernel, kind: definition, decl: ProbabilityTheory.IsMarkovKernel, wikipedia: Markov kernel, wikidata: Q6771323}
   - {name: regular conditional probability, kind: definition, decl: ProbabilityTheory.condDistrib, wikipedia: Regular conditional probability, wikidata: Q7309594}
   - {name: disintegration theorem, kind: statement, decl: MeasureTheory.Measure.condKernel, wikipedia: Disintegration theorem, wikidata: Q5282247}
   # Probability distributions
-  - {name: Bernoulli distribution, kind: example, decl: PMF.bernoulli, wikipedia: Bernoulli distribution, wikidata: Q391371}
-  - {name: binomial distribution, kind: example, decl: PMF.binomial, wikipedia: Binomial distribution, wikidata: Q185547}
-  - {name: geometric distribution, kind: example, decl: ProbabilityTheory.geometricMeasure, wikipedia: Geometric distribution, wikidata: Q729523, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: negative binomial distribution, kind: example, wikipedia: Negative binomial distribution, wikidata: Q743364}
-  - {name: hypergeometric distribution, kind: example, wikipedia: Hypergeometric distribution, wikidata: Q730600}
-  - {name: Poisson distribution, kind: example, decl: ProbabilityTheory.poissonMeasure, wikipedia: Poisson distribution, wikidata: Q205692, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: discrete uniform distribution, kind: example, decl: PMF.uniformOfFintype, wikipedia: Discrete uniform distribution, wikidata: Q3574718}
-  - {name: continuous uniform distribution, kind: example, wikipedia: Continuous uniform distribution, wikidata: Q274506}
-  - {name: normal distribution, kind: example, decl: ProbabilityTheory.gaussianReal, wikipedia: Normal distribution, wikidata: Q133871, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: multivariate normal distribution, kind: example, decl: ProbabilityTheory.multivariateGaussian, wikipedia: Multivariate normal distribution, wikidata: Q1149000}
+  - {name: Bernoulli distribution, kind: example, decl: PMF.bernoulli, wikipedia: Bernoulli distribution, wikidata: Q391371, node: 0386Y0Z7Y7}
+  - {name: binomial distribution, kind: example, decl: PMF.binomial, wikipedia: Binomial distribution, wikidata: Q185547, node: 0WCWA1KT3M}
+  - {name: geometric distribution, kind: example, decl: ProbabilityTheory.geometricMeasure, wikipedia: Geometric distribution, wikidata: Q729523, mathlib: [mathlib-undergrad, mathlib-overview], node: 04P2SR252N}
+  - {name: negative binomial distribution, kind: example, wikipedia: Negative binomial distribution, wikidata: Q743364, node: 0XBRG3965F}
+  - {name: hypergeometric distribution, kind: example, wikipedia: Hypergeometric distribution, wikidata: Q730600, node: 0X3Y0ZSKNF}
+  - {name: Poisson distribution, kind: example, decl: ProbabilityTheory.poissonMeasure, wikipedia: Poisson distribution, wikidata: Q205692, mathlib: [mathlib-undergrad, mathlib-overview], node: 0XB9GQTN9G}
+  - {name: discrete uniform distribution, kind: example, decl: PMF.uniformOfFintype, wikipedia: Discrete uniform distribution, wikidata: Q3574718, node: 02MY6WZXEQ}
+  - {name: continuous uniform distribution, kind: example, wikipedia: Continuous uniform distribution, wikidata: Q274506, node: 0AREFQ9Z65}
+  - {name: normal distribution, kind: example, decl: ProbabilityTheory.gaussianReal, wikipedia: Normal distribution, wikidata: Q133871, mathlib: [mathlib-undergrad, mathlib-overview], node: 05AQE0QR0D}
+  - {name: multivariate normal distribution, kind: example, decl: ProbabilityTheory.multivariateGaussian, wikipedia: Multivariate normal distribution, wikidata: Q1149000, node: 0XN3K7RSZY}
   - {name: Gaussian measure, kind: definition, decl: ProbabilityTheory.IsGaussian, wikipedia: Gaussian measure, wikidata: Q5527840, mathlib: [mathlib-overview]}
-  - {name: exponential distribution, kind: example, decl: ProbabilityTheory.expMeasure, wikipedia: Exponential distribution, wikidata: Q237193, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: gamma distribution, kind: example, decl: ProbabilityTheory.gammaMeasure, wikipedia: Gamma distribution, wikidata: Q117806}
-  - {name: beta distribution, kind: example, decl: ProbabilityTheory.betaPDF, wikipedia: Beta distribution, wikidata: Q756254}
-  - {name: chi-squared distribution, kind: example, wikipedia: Chi-squared distribution, wikidata: Q243462}
+  - {name: exponential distribution, kind: example, decl: ProbabilityTheory.expMeasure, wikipedia: Exponential distribution, wikidata: Q237193, mathlib: [mathlib-undergrad, mathlib-overview], node: 0E99F51GVB}
+  - {name: gamma distribution, kind: example, decl: ProbabilityTheory.gammaMeasure, wikipedia: Gamma distribution, wikidata: Q117806, node: 0B80PAQD3C}
+  - {name: beta distribution, kind: example, decl: ProbabilityTheory.betaPDF, wikipedia: Beta distribution, wikidata: Q756254, node: 0EW824Z7G2}
+  - {name: chi-squared distribution, kind: example, wikipedia: Chi-squared distribution, wikidata: Q243462, node: 0A9EB0KQBC}
   - {name: log-normal distribution, kind: example, wikipedia: Log-normal distribution, wikidata: Q826116}
-  - {name: Cauchy distribution, kind: example, decl: ProbabilityTheory.cauchyPDF, wikipedia: Cauchy distribution, wikidata: Q726441}
+  - {name: Cauchy distribution, kind: example, decl: ProbabilityTheory.cauchyPDF, wikipedia: Cauchy distribution, wikidata: Q726441, node: 0GPG24Q3GR}
   - {name: Pareto distribution, kind: example, decl: ProbabilityTheory.paretoPDF, wikipedia: Pareto distribution, wikidata: Q837683}
   - {name: Dirichlet distribution, kind: example, wikipedia: Dirichlet distribution, wikidata: Q981016}
   - {name: stable distribution, kind: definition, wikipedia: Stable distribution, wikidata: Q1934245}
@@ -105,33 +105,33 @@ items:
   - {name: Lévy–Khintchine representation, kind: statement, wikipedia: Lévy process, wikidata: Q1557613}
   - {name: stochastic ordering, kind: definition, wikipedia: Stochastic ordering, wikidata: Q475164}
   # Modes of convergence
-  - {name: convergence of random variables, kind: concept, wikipedia: Convergence of random variables, wikidata: Q578985}
-  - {name: almost sure convergence, kind: definition, wikipedia: Convergence of random variables, wikidata: Q578985}
-  - {name: convergence in probability, kind: definition, decl: MeasureTheory.TendstoInMeasure, wikipedia: Convergence of random variables, wikidata: Q578985, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: convergence in distribution, kind: definition, decl: MeasureTheory.TendstoInDistribution, wikipedia: Convergence of random variables, wikidata: Q578985}
+  - {name: convergence of random variables, kind: concept, wikipedia: Convergence of random variables, wikidata: Q578985, node: 0FQ968YKA1}
+  - {name: almost sure convergence, kind: definition, wikipedia: Convergence of random variables, wikidata: Q578985, node: 0AAXWGT5TD}
+  - {name: convergence in probability, kind: definition, decl: MeasureTheory.TendstoInMeasure, wikipedia: Convergence of random variables, wikidata: Q578985, mathlib: [mathlib-undergrad, mathlib-overview], node: 0QA1HBD9Z4}
+  - {name: convergence in distribution, kind: definition, decl: MeasureTheory.TendstoInDistribution, wikipedia: Convergence of random variables, wikidata: Q578985, node: 0SRYJGXKR4}
   - {name: weak convergence of measures, kind: definition, decl: MeasureTheory.ProbabilityMeasure.tendsto_iff_forall_integral_tendsto, wikipedia: Convergence of measures, wikidata: Q2105205, mathlib: [mathlib-overview]}
   - {name: portmanteau theorem, kind: statement, decl: MeasureTheory.tendsto_measure_of_le_liminf_measure_of_limsup_measure_le, wikipedia: Convergence of measures, wikidata: Q2105205}
   - {name: Lévy–Prokhorov metric, kind: definition, decl: MeasureTheory.levyProkhorovDist, wikipedia: Lévy–Prokhorov metric, wikidata: Q421945}
   - {name: tightness of measures, kind: definition, decl: MeasureTheory.IsTightMeasureSet, wikipedia: Tightness of measures, wikidata: Q7801650}
   - {name: Prokhorov's theorem, kind: statement, decl: isCompact_closure_of_isTightMeasureSet, wikipedia: Prokhorov's theorem, wikidata: Q7249519, mathlib: [mathlib-1000]}
   - {name: Skorokhod's representation theorem, kind: statement, wikipedia: Skorokhod's representation theorem, wikidata: Q401905}
-  - {name: Lévy's continuity theorem, kind: statement, decl: MeasureTheory.tendstoInDistribution_iff_tendsto_charFun, wikipedia: Lévy's continuity theorem, wikidata: Q1966978}
+  - {name: Lévy's continuity theorem, kind: statement, decl: MeasureTheory.tendstoInDistribution_iff_tendsto_charFun, wikipedia: Lévy's continuity theorem, wikidata: Q1966978, node: 0FPWF7TTMB}
   - {name: Slutsky's theorem, kind: statement, wikipedia: Slutsky's theorem, wikidata: Q643826}
   - {name: continuous mapping theorem, kind: statement, wikipedia: Continuous mapping theorem, wikidata: Q5165492}
   - {name: uniform integrability, kind: definition, decl: MeasureTheory.UniformIntegrable, wikipedia: Uniform integrability, wikidata: Q1530275, mathlib: [mathlib-overview]}
   - {name: Vitali convergence theorem, kind: statement, decl: MeasureTheory.tendstoInMeasure_iff_tendsto_Lp, wikipedia: Vitali convergence theorem, wikidata: Q11352023, mathlib: [mathlib-1000]}
   # Limit theorems
   - {name: Borel–Cantelli lemma, kind: statement, decl: MeasureTheory.measure_limsup_atTop_eq_zero, wikipedia: Borel–Cantelli lemma, wikidata: Q893496, mathlib: [mathlib-undergrad]}
-  - {name: second Borel–Cantelli lemma, kind: statement, decl: ProbabilityTheory.measure_limsup_eq_one, wikipedia: Borel–Cantelli lemma, wikidata: Q893496, mathlib: [mathlib-undergrad]}
-  - {name: weak law of large numbers, kind: statement, wikipedia: Law of large numbers, wikidata: Q207952}
-  - {name: strong law of large numbers, kind: statement, decl: ProbabilityTheory.strong_law_ae, wikipedia: Law of large numbers, wikidata: Q207952, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-100]}
+  - {name: second Borel–Cantelli lemma, kind: statement, decl: ProbabilityTheory.measure_limsup_eq_one, wikipedia: Borel–Cantelli lemma, wikidata: Q893496, mathlib: [mathlib-undergrad], node: 0NWXRAMEE7}
+  - {name: weak law of large numbers, kind: statement, wikipedia: Law of large numbers, wikidata: Q207952, node: 0BFDHF2H7N}
+  - {name: strong law of large numbers, kind: statement, decl: ProbabilityTheory.strong_law_ae, wikipedia: Law of large numbers, wikidata: Q207952, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-100], node: 0DFWHQ839T}
   - {name: Kolmogorov's inequality, kind: statement, wikipedia: Kolmogorov's inequality, wikidata: Q1747439}
   - {name: Kolmogorov's three-series theorem, kind: statement, wikipedia: Kolmogorov's three-series theorem, wikidata: Q3527233}
-  - {name: central limit theorem, kind: statement, decl: ProbabilityTheory.tendstoInDistribution_inv_sqrt_mul_sum_sub, wikipedia: Central limit theorem, wikidata: Q190391, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-100, mathlib-1000]}
-  - {name: de Moivre–Laplace theorem, kind: statement, wikipedia: De Moivre–Laplace theorem, wikidata: Q1855610}
+  - {name: central limit theorem, kind: statement, decl: ProbabilityTheory.tendstoInDistribution_inv_sqrt_mul_sum_sub, wikipedia: Central limit theorem, wikidata: Q190391, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-100, mathlib-1000], node: 0EPZC4Z1FC}
+  - {name: de Moivre–Laplace theorem, kind: statement, wikipedia: De Moivre–Laplace theorem, wikidata: Q1855610, node: 065X9S8CM3}
   - {name: Lindeberg's condition, kind: definition, wikipedia: Lindeberg's condition, wikidata: Q1825985}
   - {name: Berry–Esseen theorem, kind: statement, wikipedia: Berry–Esseen theorem, wikidata: Q1785872}
-  - {name: Poisson limit theorem, kind: statement, wikipedia: Poisson limit theorem, wikidata: Q7208500}
+  - {name: Poisson limit theorem, kind: statement, wikipedia: Poisson limit theorem, wikidata: Q7208500, node: 0XKTZRWTXX}
   - {name: law of the iterated logarithm, kind: statement, wikipedia: Law of the iterated logarithm, wikidata: Q198740}
   - {name: Glivenko–Cantelli theorem, kind: statement, wikipedia: Glivenko–Cantelli theorem, wikidata: Q544369}
   - {name: Donsker's theorem, kind: statement, wikipedia: Donsker's theorem, wikidata: Q3527064}
@@ -144,7 +144,7 @@ items:
   - {name: Varadhan's lemma, kind: statement, wikipedia: Varadhan's lemma, wikidata: Q7915395}
   - {name: Kullback–Leibler divergence, kind: definition, wikipedia: Kullback–Leibler divergence, wikidata: Q255166}
   # Stochastic processes: general theory
-  - {name: stochastic process, kind: definition, wikipedia: Stochastic process, wikidata: Q176737}
+  - {name: stochastic process, kind: definition, wikipedia: Stochastic process, wikidata: Q176737, node: 0QH5ENKZM1}
   - {name: finite-dimensional distributions, kind: definition, wikipedia: Finite-dimensional distribution, wikidata: Q5450380}
   - {name: filtration, kind: definition, decl: MeasureTheory.Filtration, wikipedia: Filtration (probability theory), wikidata: Q55647796}
   - {name: adapted process, kind: definition, decl: MeasureTheory.Adapted, wikipedia: Adapted process, wikidata: Q4680695}
@@ -160,7 +160,7 @@ items:
   - {name: optimal stopping, kind: problem, wikipedia: Optimal stopping, wikidata: Q7098950}
   - {name: secretary problem, kind: problem, wikipedia: Secretary problem, wikidata: Q1372364}
   # Martingales
-  - {name: martingale, kind: definition, decl: MeasureTheory.Martingale, wikipedia: Martingale (probability theory), wikidata: Q534112, mathlib: [mathlib-overview]}
+  - {name: martingale, kind: definition, decl: MeasureTheory.Martingale, wikipedia: Martingale (probability theory), wikidata: Q534112, mathlib: [mathlib-overview], node: 0D0GBNDKDH}
   - {name: submartingale, kind: definition, decl: MeasureTheory.Submartingale, wikipedia: Martingale (probability theory), wikidata: Q534112}
   - {name: supermartingale, kind: definition, decl: MeasureTheory.Supermartingale, wikipedia: Martingale (probability theory), wikidata: Q534112}
   - {name: Doob martingale, kind: example, wikipedia: Doob martingale, wikidata: Q1972209}
@@ -207,27 +207,27 @@ items:
   - {name: rough path, kind: definition, wikipedia: Rough path, wikidata: Q7370888}
   - {name: regularity structure, kind: concept, wikipedia: Regularity structure, wikidata: Q28401890}
   # Markov processes
-  - {name: Markov property, kind: definition, wikipedia: Markov property, wikidata: Q176695}
-  - {name: Markov chain, kind: definition, wikipedia: Markov chain, wikidata: Q176645}
-  - {name: stochastic matrix, kind: definition, decl: Matrix.rowStochastic, wikipedia: Stochastic matrix, wikidata: Q176583}
-  - {name: Chapman–Kolmogorov equation, kind: statement, wikipedia: Chapman–Kolmogorov equation, wikidata: Q722882}
+  - {name: Markov property, kind: definition, wikipedia: Markov property, wikidata: Q176695, node: 0B77KZCQ51}
+  - {name: Markov chain, kind: definition, wikipedia: Markov chain, wikidata: Q176645, node: 0G48PYM96Q}
+  - {name: stochastic matrix, kind: definition, decl: Matrix.rowStochastic, wikipedia: Stochastic matrix, wikidata: Q176583, node: 0F462493EA}
+  - {name: Chapman–Kolmogorov equation, kind: statement, wikipedia: Chapman–Kolmogorov equation, wikidata: Q722882, node: 01APZ8GDQH}
   - {name: recurrence and transience of states, kind: definition, wikipedia: Discrete-time Markov chain, wikidata: Q16109430}
-  - {name: stationary distribution, kind: definition, wikipedia: Stationary distribution, wikidata: Q7604341}
+  - {name: stationary distribution, kind: definition, wikipedia: Stationary distribution, wikidata: Q7604341, node: 0KRH5157WP}
   - {name: convergence to equilibrium of ergodic Markov chains, kind: statement, wikipedia: Markov chain, wikidata: Q176645}
   - {name: detailed balance, kind: definition, wikipedia: Detailed balance, wikidata: Q1201087}
   - {name: Markov chain mixing time, kind: definition, wikipedia: Markov chain mixing time, wikidata: Q6771322}
-  - {name: random walk, kind: definition, wikipedia: Random walk, wikidata: Q856741}
+  - {name: random walk, kind: definition, wikipedia: Random walk, wikidata: Q856741, node: 04VZE3FZXF}
   - {name: Pólya's recurrence theorem, kind: statement, wikipedia: Random walk, wikidata: Q856741}
-  - {name: gambler's ruin, kind: problem, wikipedia: Gambler's ruin, wikidata: Q660446}
+  - {name: gambler's ruin, kind: problem, wikipedia: Gambler's ruin, wikidata: Q660446, node: 0WFMKK7DFZ}
   - {name: Markov chain Monte Carlo, kind: concept, wikipedia: Markov chain Monte Carlo, wikidata: Q1191869}
   - {name: Metropolis–Hastings algorithm, kind: concept, wikipedia: Metropolis–Hastings algorithm, wikidata: Q910810}
   - {name: coupling from the past, kind: concept, wikipedia: Coupling from the past, wikidata: Q5178037}
   - {name: hidden Markov model, kind: definition, wikipedia: Hidden Markov model, wikidata: Q176769}
   - {name: continuous-time Markov chain, kind: definition, wikipedia: Continuous-time Markov chain, wikidata: Q176720}
-  - {name: Poisson process, kind: definition, wikipedia: Poisson point process, wikidata: Q1145117}
+  - {name: Poisson process, kind: definition, wikipedia: Poisson point process, wikidata: Q1145117, node: 0MTNR28K60}
   - {name: birth–death process, kind: definition, wikipedia: Birth–death process, wikidata: Q1456275}
-  - {name: branching process, kind: definition, wikipedia: Branching process, wikidata: Q4109953}
-  - {name: Galton–Watson process, kind: definition, wikipedia: Galton–Watson process, wikidata: Q462144}
+  - {name: branching process, kind: definition, wikipedia: Branching process, wikidata: Q4109953, node: 0G1022YXVQ}
+  - {name: Galton–Watson process, kind: definition, wikipedia: Galton–Watson process, wikidata: Q462144, node: 0G1022YXVQ}
   - {name: Feller process, kind: definition, wikipedia: Feller process, wikidata: Q5442452}
   - {name: infinitesimal generator of a Markov process, kind: definition, wikipedia: Infinitesimal generator (stochastic processes), wikidata: Q915487}
   - {name: diffusion process, kind: definition, wikipedia: Diffusion process, wikidata: Q5275442}
@@ -263,9 +263,9 @@ items:
   - {name: probabilistic method, kind: concept, wikipedia: Probabilistic method, wikidata: Q3333679}
   - {name: Lovász local lemma, kind: statement, wikipedia: Lovász local lemma, wikidata: Q831721}
   - {name: Erdős–Rényi model, kind: definition, wikipedia: Erdős–Rényi model, wikidata: Q605807}
-  - {name: coupon collector's problem, kind: problem, wikipedia: Coupon collector's problem, wikidata: Q1148012}
+  - {name: coupon collector's problem, kind: problem, wikipedia: Coupon collector's problem, wikidata: Q1148012, node: 0MXCP7MXWJ}
   - {name: birthday problem, kind: problem, wikipedia: Birthday problem, wikidata: Q339000}
-  - {name: Bertrand's ballot theorem, kind: statement, wikipedia: Bertrand's ballot theorem, wikidata: Q2253746}
-  - {name: Buffon's needle problem, kind: problem, wikipedia: Buffon's needle problem, wikidata: Q1753097}
+  - {name: Bertrand's ballot theorem, kind: statement, wikipedia: Bertrand's ballot theorem, wikidata: Q2253746, node: 0FS972T0ZH}
+  - {name: Buffon's needle problem, kind: problem, wikipedia: Buffon's needle problem, wikidata: Q1753097, node: 06X5PF6YFP}
   - {name: stochastic geometry, kind: concept, wikipedia: Stochastic geometry, wikidata: Q1666739}
   - {name: Boolean model, kind: definition, wikipedia: Boolean model (probability theory), wikidata: Q4943358}

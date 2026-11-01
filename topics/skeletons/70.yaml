@@ -24,7 +24,7 @@ items:
   - {name: conservation of energy, kind: statement, wikipedia: Conservation of energy, wikidata: Q11382}
   - {name: conservation of momentum, kind: statement, wikipedia: Momentum, wikidata: Q41273}
   - {name: conservation of angular momentum, kind: statement, wikipedia: Angular momentum, wikidata: Q161254}
-  - {name: center of mass, kind: definition, wikipedia: Center of mass, wikidata: Q2945123}
+  - {name: center of mass, kind: definition, wikipedia: Center of mass, wikidata: Q2945123, node: 0HNK6KT05K}
   - {name: central force, kind: definition, wikipedia: Central force, wikidata: Q190663}
   - {name: Newton's law of universal gravitation, kind: statement, wikipedia: Newton's law of universal gravitation, wikidata: Q134465}
   - {name: shell theorem, kind: statement, wikipedia: Shell theorem, wikidata: Q2222575}
@@ -94,7 +94,7 @@ items:
   # Rigid body and multibody dynamics
   - {name: rigid body, kind: definition, wikipedia: Rigid body, wikidata: Q192788}
   - {name: rigid body dynamics, kind: concept, wikipedia: Rigid body dynamics, wikidata: Q2037529}
-  - {name: moment of inertia, kind: definition, wikipedia: Moment of inertia, wikidata: Q165618}
+  - {name: moment of inertia, kind: definition, wikipedia: Moment of inertia, wikidata: Q165618, node: 08ANASGBXV}
   - {name: inertia tensor and principal axes, kind: definition, wikipedia: Moment of inertia, wikidata: Q165618}
   - {name: parallel axis theorem, kind: statement, wikipedia: Parallel axis theorem, wikidata: Q828284}
   - {name: perpendicular axis theorem, kind: statement, wikipedia: Perpendicular axis theorem, wikidata: Q995926}
@@ -149,7 +149,7 @@ items:
   - {name: Hamiltonian perturbation theory, kind: concept, wikipedia: Perturbation theory, wikidata: Q10886678}
   - {name: Kolmogorov–Arnold–Moser theorem, kind: statement, wikipedia: Kolmogorov–Arnold–Moser theorem, wikidata: Q587081}
   # Linear vibrations
-  - {name: harmonic oscillator, kind: example, wikipedia: Harmonic oscillator, wikidata: Q190070}
+  - {name: harmonic oscillator, kind: example, wikipedia: Harmonic oscillator, wikidata: Q190070, node: 0YG0ZJPTWG}
   - {name: simple harmonic motion, kind: definition, wikipedia: Simple harmonic motion, wikidata: Q835975}
   - {name: damping, kind: concept, wikipedia: Damping, wikidata: Q1127660}
   - {name: resonance, kind: concept, wikipedia: Resonance, wikidata: Q172858}

@@ -58,8 +58,8 @@ items:
   # Direct methods for linear systems
   - {name: Gaussian elimination, kind: statement, wikipedia: Gaussian elimination, wikidata: Q2658}
   - {name: LU decomposition, kind: statement, wikipedia: LU decomposition, wikidata: Q833089}
-  - {name: Cholesky decomposition, kind: statement, wikipedia: Cholesky decomposition, wikidata: Q515375}
-  - {name: QR decomposition, kind: statement, wikipedia: QR decomposition, wikidata: Q653242}
+  - {name: Cholesky decomposition, kind: statement, wikipedia: Cholesky decomposition, wikidata: Q515375, node: 0WKG8CYY6A}
+  - {name: QR decomposition, kind: statement, wikipedia: QR decomposition, wikidata: Q653242, node: 0ERWG4NXQ9}
   - {name: pivoting, kind: concept, wikipedia: Pivot element, wikidata: Q1425280}
   - {name: Householder transformation, kind: definition, wikipedia: Householder transformation, wikidata: Q304490}
   - {name: Givens rotation, kind: definition, wikipedia: Givens rotation, wikidata: Q1367799}
@@ -112,7 +112,7 @@ items:
   - {name: bidiagonalization, kind: statement, wikipedia: Bidiagonalization, wikidata: Q4904167}
   - {name: pseudospectrum, kind: definition, wikipedia: Pseudospectrum, wikidata: Q7255579}
   # Least squares and ill-posed problems
-  - {name: singular value decomposition, kind: statement, wikipedia: Singular value decomposition, wikidata: Q420904}
+  - {name: singular value decomposition, kind: statement, wikipedia: Singular value decomposition, wikidata: Q420904, node: 000NPTMX6J}
   - {name: numerical methods for linear least squares, kind: concept, wikipedia: Numerical methods for linear least squares, wikidata: Q55627115}
   - {name: non-negative least squares, kind: problem, wikipedia: Non-negative least squares, wikidata: Q17086437}
   - {name: Gauss–Newton algorithm, kind: statement, wikipedia: Gauss–Newton algorithm, wikidata: Q1496373}

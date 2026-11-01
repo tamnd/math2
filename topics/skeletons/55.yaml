@@ -16,8 +16,8 @@ items:
   - {name: contractible space, kind: definition, decl: ContractibleSpace, wikipedia: Contractible space, wikidata: Q230689}
   - {name: null-homotopic map, kind: definition, decl: ContinuousMap.Nullhomotopic, wikipedia: Homotopy, wikidata: Q746083}
   - {name: deformation retract, kind: definition, wikipedia: Retraction (topology), wikidata: Q2141963}
-  - {name: retraction, kind: definition, wikipedia: Retraction (topology), wikidata: Q2141963}
-  - {name: path, kind: definition, decl: Path, wikipedia: Path (topology), wikidata: Q1366002}
+  - {name: retraction, kind: definition, wikipedia: Retraction (topology), wikidata: Q2141963, node: 05SG20AMXH}
+  - {name: path, kind: definition, decl: Path, wikipedia: Path (topology), wikidata: Q1366002, node: 03NAMV1DHJ}
   - {name: path homotopy, kind: definition, decl: Path.Homotopy, wikipedia: Homotopy, wikidata: Q746083}
   - {name: mapping cylinder, kind: definition, wikipedia: Mapping cylinder, wikidata: Q1014869}
   - {name: mapping cone, kind: definition, wikipedia: Mapping cone (topology), wikidata: Q306560}
@@ -38,7 +38,7 @@ items:
   # Fundamental group and covering spaces
   - {name: fundamental group, kind: definition, decl: FundamentalGroup, wikipedia: Fundamental group, wikidata: Q662830}
   - {name: fundamental groupoid, kind: definition, decl: FundamentalGroupoid, wikipedia: Fundamental groupoid, wikidata: Q85174068}
-  - {name: simply connected space, kind: definition, decl: SimplyConnectedSpace, wikipedia: Simply connected space, wikidata: Q912058}
+  - {name: simply connected space, kind: definition, decl: SimplyConnectedSpace, wikipedia: Simply connected space, wikidata: Q912058, node: 0QW64ARSHB}
   - {name: fundamental group of the circle, kind: statement, wikipedia: Fundamental group, wikidata: Q662830}
   - {name: Seifert–van Kampen theorem, kind: statement, wikipedia: Seifert–Van Kampen theorem, wikidata: Q372037}
   - {name: covering space, kind: definition, decl: IsCoveringMap, wikipedia: Covering space, wikidata: Q332648}

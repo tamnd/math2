@@ -19,7 +19,7 @@ items:
   - {name: Minkowski functional, kind: definition, wikipedia: Minkowski functional, wikidata: Q649472}
   - {name: absorbing set, kind: definition, wikipedia: Absorbing set, wikidata: Q332775}
   - {name: balanced set, kind: definition, wikipedia: Balanced set, wikidata: Q778785}
-  - {name: convex set, kind: definition, decl: Convex, wikipedia: Convex set, wikidata: Q193657, mathlib: [mathlib-undergrad]}
+  - {name: convex set, kind: definition, decl: Convex, wikipedia: Convex set, wikidata: Q193657, mathlib: [mathlib-undergrad], node: 02AS45T3H9}
   - {name: von Neumann bounded set, kind: definition, decl: Bornology.IsVonNBounded, wikipedia: Bounded set (topological vector space), wikidata: Q17003677}
   - {name: Fréchet space, kind: definition, wikipedia: Fréchet space, wikidata: Q1471397}
   - {name: F-space, kind: definition, wikipedia: F-space, wikidata: Q2664426}
@@ -52,22 +52,22 @@ items:
   - {name: Mazur's lemma, kind: statement, wikipedia: Mazur's lemma, wikidata: Q2226764}
   - {name: Banach limit, kind: object, wikipedia: Banach limit, wikidata: Q806060}
   # The three pillars: Baire category consequences
-  - {name: Baire category theorem, kind: statement, decl: dense_iInter_of_isOpen, wikipedia: Baire category theorem, wikidata: Q1052678}
+  - {name: Baire category theorem, kind: statement, decl: dense_iInter_of_isOpen, wikipedia: Baire category theorem, wikidata: Q1052678, node: 0A7KGAYHGV}
   - {name: uniform boundedness principle, kind: statement, decl: banach_steinhaus, wikipedia: Uniform boundedness principle, wikidata: Q1426292, mathlib: [mathlib-overview, mathlib-1000]}
-  - {name: open mapping theorem, kind: statement, decl: ContinuousLinearMap.isOpenMap, wikipedia: Open mapping theorem (functional analysis), wikidata: Q944297, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000]}
+  - {name: open mapping theorem, kind: statement, decl: ContinuousLinearMap.isOpenMap, wikipedia: Open mapping theorem (functional analysis), wikidata: Q944297, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000], node: 03YEM7JEDN}
   - {name: bounded inverse theorem, kind: statement, decl: ContinuousLinearEquiv.ofBijective, wikipedia: Open mapping theorem (functional analysis), wikidata: Q944297}
   - {name: closed graph theorem, kind: statement, decl: LinearMap.continuous_of_isClosed_graph, wikipedia: Closed graph theorem (functional analysis), wikidata: Q104845546, mathlib: [mathlib-1000]}
   # Normed and Banach spaces
-  - {name: normed vector space, kind: definition, decl: NormedSpace, wikipedia: Normed vector space, wikidata: Q726210, mathlib: [mathlib-overview]}
-  - {name: norm, kind: definition, decl: NormedAddCommGroup, wikipedia: Norm (mathematics), wikidata: Q956437}
-  - {name: Banach space, kind: definition, decl: CompleteSpace, wikipedia: Banach space, wikidata: Q194397, mathlib: [mathlib-overview]}
+  - {name: normed vector space, kind: definition, decl: NormedSpace, wikipedia: Normed vector space, wikidata: Q726210, mathlib: [mathlib-overview], node: 03J5RAKB30}
+  - {name: norm, kind: definition, decl: NormedAddCommGroup, wikipedia: Norm (mathematics), wikidata: Q956437, node: 0V2WP9B1MF}
+  - {name: Banach space, kind: definition, decl: CompleteSpace, wikipedia: Banach space, wikidata: Q194397, mathlib: [mathlib-overview], node: 06GZ956657}
   - {name: completion of a normed space, kind: concept, decl: UniformSpace.Completion, wikipedia: Complete metric space, wikidata: Q848569, mathlib: [mathlib-overview]}
-  - {name: bounded linear operator, kind: definition, decl: ContinuousLinearMap, wikipedia: Bounded operator, wikidata: Q2342396, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: operator norm, kind: definition, decl: ContinuousLinearMap.opNorm, wikipedia: Operator norm, wikidata: Q980557}
-  - {name: linear isometry, kind: definition, decl: LinearIsometry, wikipedia: Isometry, wikidata: Q740207}
+  - {name: bounded linear operator, kind: definition, decl: ContinuousLinearMap, wikipedia: Bounded operator, wikidata: Q2342396, mathlib: [mathlib-undergrad, mathlib-overview], node: 03TM135G0N}
+  - {name: operator norm, kind: definition, decl: ContinuousLinearMap.opNorm, wikipedia: Operator norm, wikidata: Q980557, node: 06EKW1AKXF}
+  - {name: linear isometry, kind: definition, decl: LinearIsometry, wikipedia: Isometry, wikidata: Q740207, node: 07SJXTWVQW}
   - {name: Mazur–Ulam theorem, kind: statement, decl: IsometryEquiv.toRealAffineIsometryEquiv, wikipedia: Mazur–Ulam theorem, wikidata: Q1660147}
-  - {name: Riesz's lemma, kind: statement, decl: riesz_lemma, wikipedia: Riesz's lemma, wikidata: Q1189968}
-  - {name: equivalence of norms in finite dimension, kind: statement, wikipedia: Norm (mathematics), wikidata: Q956437}
+  - {name: Riesz's lemma, kind: statement, decl: riesz_lemma, wikipedia: Riesz's lemma, wikidata: Q1189968, node: 097C7KCAT5}
+  - {name: equivalence of norms in finite dimension, kind: statement, wikipedia: Norm (mathematics), wikidata: Q956437, node: 03MC70ZRNR}
   - {name: quotient of a normed space, kind: concept, wikipedia: Quotient space (linear algebra), wikidata: Q1393796}
   - {name: bidual and canonical embedding, kind: definition, decl: NormedSpace.inclusionInDoubleDualLi, wikipedia: Reflexive space, wikidata: Q2032198, mathlib: [mathlib-overview]}
   - {name: reflexive space, kind: definition, wikipedia: Reflexive space, wikidata: Q2032198}
@@ -107,7 +107,7 @@ items:
   - {name: space of bounded continuous functions, kind: definition, decl: BoundedContinuousFunction, wikipedia: Space of continuous functions on a compact space, wikidata: Q5165477}
   - {name: space of functions vanishing at infinity, kind: definition, decl: ZeroAtInftyContinuousMap, wikipedia: Vanish at infinity, wikidata: Q7914952}
   - {name: Stone–Weierstrass theorem, kind: statement, decl: ContinuousMap.subalgebra_topologicalClosure_eq_top_of_separatesPoints, wikipedia: Stone–Weierstrass theorem, wikidata: Q939927, mathlib: [mathlib-overview, mathlib-1000]}
-  - {name: Arzelà–Ascoli theorem, kind: statement, decl: BoundedContinuousFunction.arzela_ascoli, wikipedia: Arzelà–Ascoli theorem, wikidata: Q1477053, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000]}
+  - {name: Arzelà–Ascoli theorem, kind: statement, decl: BoundedContinuousFunction.arzela_ascoli, wikipedia: Arzelà–Ascoli theorem, wikidata: Q1477053, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000], node: 0381S8Z5P0}
   - {name: Riesz–Markov–Kakutani representation theorem, kind: statement, decl: RealRMK.rieszMeasure, wikipedia: Riesz–Markov–Kakutani representation theorem, wikidata: Q17098001}
   - {name: Banach–Stone theorem, kind: statement, wikipedia: Banach–Stone theorem, wikidata: Q4853767}
   - {name: Hölder space, kind: definition, decl: MemHolder, wikipedia: Hölder condition, wikidata: Q91259930}
@@ -133,20 +133,20 @@ items:
   - {name: Riesz–Thorin theorem, kind: statement, wikipedia: Riesz–Thorin theorem, wikidata: Q245902}
   - {name: Marcinkiewicz interpolation theorem, kind: statement, wikipedia: Marcinkiewicz interpolation theorem, wikidata: Q6757284}
   # Hilbert spaces
-  - {name: inner product space, kind: definition, decl: InnerProductSpace, wikipedia: Inner product space, wikidata: Q214159, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: inner product space, kind: definition, decl: InnerProductSpace, wikipedia: Inner product space, wikidata: Q214159, mathlib: [mathlib-undergrad, mathlib-overview], node: 0QVNCJXRY3}
   - {name: Hilbert space, kind: definition, wikipedia: Hilbert space, wikidata: Q190056}
-  - {name: Cauchy–Schwarz inequality, kind: statement, decl: norm_inner_le_norm, wikipedia: Cauchy–Schwarz inequality, wikidata: Q190546, mathlib: [mathlib-100]}
-  - {name: parallelogram law, kind: statement, decl: parallelogram_law_with_norm, wikipedia: Parallelogram law, wikidata: Q919125}
+  - {name: Cauchy–Schwarz inequality, kind: statement, decl: norm_inner_le_norm, wikipedia: Cauchy–Schwarz inequality, wikidata: Q190546, mathlib: [mathlib-100], node: 0RFWW56Y22}
+  - {name: parallelogram law, kind: statement, decl: parallelogram_law_with_norm, wikipedia: Parallelogram law, wikidata: Q919125, node: 026HPGYGS4}
   - {name: Jordan–von Neumann theorem, kind: statement, decl: InnerProductSpace.ofNorm, wikipedia: Polarization identity, wikidata: Q1817177}
-  - {name: orthogonal complement, kind: definition, decl: Submodule.orthogonal, wikipedia: Orthogonal complement, wikidata: Q1780921, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: orthogonal complement, kind: definition, decl: Submodule.orthogonal, wikipedia: Orthogonal complement, wikidata: Q1780921, mathlib: [mathlib-undergrad, mathlib-overview], node: 0XJXTBCB2T}
   - {name: Hilbert projection theorem, kind: statement, decl: exists_norm_eq_iInf_of_complete_convex, wikipedia: Hilbert projection theorem, wikidata: Q3527215, mathlib: [mathlib-undergrad, mathlib-1000]}
-  - {name: orthogonal projection, kind: definition, decl: Submodule.orthogonalProjection, wikipedia: Projection (linear algebra), wikidata: Q519967}
-  - {name: orthonormal family, kind: definition, decl: Orthonormal, wikipedia: Orthonormality, wikidata: Q1411166}
-  - {name: orthonormal basis, kind: definition, decl: HilbertBasis, wikipedia: Orthonormal basis, wikidata: Q2365325, mathlib: [mathlib-undergrad]}
-  - {name: existence of an orthonormal basis, kind: statement, decl: exists_hilbertBasis, wikipedia: Orthonormal basis, wikidata: Q2365325, mathlib: [mathlib-overview]}
-  - {name: Gram–Schmidt process, kind: concept, decl: InnerProductSpace.gramSchmidt, wikipedia: Gram–Schmidt process, wikidata: Q475239}
-  - {name: Bessel's inequality, kind: statement, decl: Orthonormal.tsum_inner_products_le, wikipedia: Bessel's inequality, wikidata: Q794042}
-  - {name: Parseval's identity, kind: statement, decl: HilbertBasis.tsum_inner_mul_inner, wikipedia: Parseval's identity, wikidata: Q944238}
+  - {name: orthogonal projection, kind: definition, decl: Submodule.orthogonalProjection, wikipedia: Projection (linear algebra), wikidata: Q519967, node: 0B8KZRT28M}
+  - {name: orthonormal family, kind: definition, decl: Orthonormal, wikipedia: Orthonormality, wikidata: Q1411166, node: 0RW9TNNT87}
+  - {name: orthonormal basis, kind: definition, decl: HilbertBasis, wikipedia: Orthonormal basis, wikidata: Q2365325, mathlib: [mathlib-undergrad], node: 0S9GGTR0EX}
+  - {name: existence of an orthonormal basis, kind: statement, decl: exists_hilbertBasis, wikipedia: Orthonormal basis, wikidata: Q2365325, mathlib: [mathlib-overview], node: 0Y85GYEGSF}
+  - {name: Gram–Schmidt process, kind: concept, decl: InnerProductSpace.gramSchmidt, wikipedia: Gram–Schmidt process, wikidata: Q475239, node: 0VT6P0GNQR}
+  - {name: Bessel's inequality, kind: statement, decl: Orthonormal.tsum_inner_products_le, wikipedia: Bessel's inequality, wikidata: Q794042, node: 0RBT5PB74K}
+  - {name: Parseval's identity, kind: statement, decl: HilbertBasis.tsum_inner_mul_inner, wikipedia: Parseval's identity, wikidata: Q944238, node: 047RFCNVSK}
   - {name: Hilbert dimension, kind: definition, wikipedia: Hilbert space, wikidata: Q190056}
   - {name: Riesz representation theorem, kind: statement, decl: InnerProductSpace.toDual, wikipedia: Riesz representation theorem, wikidata: Q1357684, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000]}
   - {name: Lax–Milgram theorem, kind: statement, decl: IsCoercive.continuousLinearEquivOfBilin, wikipedia: Weak formulation, wikidata: Q9993851, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000]}
@@ -158,10 +158,10 @@ items:
   - {name: Hilbert C*-module, kind: definition, decl: CStarModule, wikipedia: Hilbert C*-module, wikidata: Q5761182}
   # Distributions and generalized functions
   - {name: bump function, kind: definition, decl: ContDiffBump, wikipedia: Bump function, wikidata: Q1143737}
-  - {name: distribution, kind: definition, decl: Distribution, wikipedia: Distribution (mathematical analysis), wikidata: Q865811, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: distribution, kind: definition, decl: Distribution, wikipedia: Distribution (mathematical analysis), wikidata: Q865811, mathlib: [mathlib-undergrad, mathlib-overview], node: 0DVDCMA2DK}
   - {name: Schwartz space, kind: definition, decl: SchwartzMap, wikipedia: Schwartz space, wikidata: Q1369621, mathlib: [mathlib-undergrad, mathlib-overview]}
   - {name: tempered distribution, kind: definition, decl: TemperedDistribution, wikipedia: Distribution (mathematical analysis), wikidata: Q865811, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: Dirac delta, kind: example, wikipedia: Dirac delta function, wikidata: Q209675}
+  - {name: Dirac delta, kind: example, wikipedia: Dirac delta function, wikidata: Q209675, node: 0KPHENZ5S7}
   - {name: weak derivative, kind: definition, wikipedia: Weak derivative, wikidata: Q2143116}
   - {name: Fourier transform of tempered distributions, kind: concept, decl: SchwartzMap.fourierTransformCLM, wikipedia: Fourier transform, wikidata: Q6520159, mathlib: [mathlib-undergrad]}
   - {name: Plancherel theorem, kind: statement, wikipedia: Plancherel theorem, wikidata: Q2096184}
@@ -173,7 +173,7 @@ items:
   - {name: hyperfunction, kind: definition, wikipedia: Hyperfunction, wikidata: Q1567017}
   - {name: Colombeau algebra, kind: definition, wikipedia: Colombeau algebra, wikidata: Q5147873}
   # Infinite-dimensional calculus, measures and holomorphy
-  - {name: Fréchet derivative, kind: definition, decl: HasFDerivAt, wikipedia: Fréchet derivative, wikidata: Q1305350, mathlib: [mathlib-overview]}
+  - {name: Fréchet derivative, kind: definition, decl: HasFDerivAt, wikipedia: Fréchet derivative, wikidata: Q1305350, mathlib: [mathlib-overview], node: 06EH97V2A7}
   - {name: Gateaux derivative, kind: definition, decl: lineDeriv, wikipedia: Gateaux derivative, wikidata: Q919459, mathlib: [mathlib-undergrad]}
   - {name: inverse function theorem in Banach spaces, kind: statement, decl: HasStrictFDerivAt.to_localInverse, wikipedia: Inverse function theorem, wikidata: Q931001, mathlib: [mathlib-overview, mathlib-1000]}
   - {name: implicit function theorem in Banach spaces, kind: statement, decl: HasStrictFDerivAt.implicitFunction, wikipedia: Implicit function theorem, wikidata: Q848375}
@@ -245,7 +245,7 @@ items:
   - {name: commutant, kind: definition, decl: VonNeumannAlgebra.commutant, wikipedia: Centralizer and normalizer, wikidata: Q190629}
   - {name: von Neumann bicommutant theorem, kind: statement, decl: VonNeumannAlgebra.commutant_commutant, wikipedia: Von Neumann bicommutant theorem, wikidata: Q528987}
   - {name: Kaplansky density theorem, kind: statement, wikipedia: Kaplansky density theorem, wikidata: Q1209546}
-  - {name: factor, kind: definition, wikipedia: Von Neumann algebra, wikidata: Q1970172}
+  - {name: factor, kind: definition, wikipedia: Von Neumann algebra, wikidata: Q1970172, node: 096PW7Q014}
   - {name: Murray–von Neumann classification of factors, kind: statement, wikipedia: Von Neumann algebra, wikidata: Q1970172}
   - {name: hyperfinite type II1 factor, kind: object, wikipedia: Hyperfinite type II factor, wikidata: Q5958003}
   - {name: Tomita–Takesaki theory, kind: concept, wikipedia: Tomita–Takesaki theory, wikidata: Q7818977}

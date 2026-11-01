@@ -11,93 +11,93 @@ sources:
   mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
 items:
   # Vector spaces
-  - {name: vector space, kind: definition, decl: Module, wikipedia: Vector space, wikidata: Q125977, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: linear subspace, kind: definition, decl: Submodule, wikipedia: Linear subspace, wikidata: Q728435}
-  - {name: linear combination, kind: definition, wikipedia: Linear combination, wikidata: Q27628}
-  - {name: linear span, kind: definition, decl: Submodule.span, wikipedia: Linear span, wikidata: Q209812, mathlib: [mathlib-undergrad]}
-  - {name: linear independence, kind: definition, decl: LinearIndependent, wikipedia: Linear independence, wikidata: Q27670, mathlib: [mathlib-undergrad]}
-  - {name: basis, kind: definition, decl: Module.Basis, wikipedia: Basis (linear algebra), wikidata: Q189569, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: vector space, kind: definition, decl: Module, wikipedia: Vector space, wikidata: Q125977, mathlib: [mathlib-undergrad, mathlib-overview], node: 000AYPA9AJ}
+  - {name: linear subspace, kind: definition, decl: Submodule, wikipedia: Linear subspace, wikidata: Q728435, node: 00YC1D652K}
+  - {name: linear combination, kind: definition, wikipedia: Linear combination, wikidata: Q27628, node: 0V8F3E48E6}
+  - {name: linear span, kind: definition, decl: Submodule.span, wikipedia: Linear span, wikidata: Q209812, mathlib: [mathlib-undergrad], node: 0DTY8B9HMS}
+  - {name: linear independence, kind: definition, decl: LinearIndependent, wikipedia: Linear independence, wikidata: Q27670, mathlib: [mathlib-undergrad], node: 0CRMGPAH83}
+  - {name: basis, kind: definition, decl: Module.Basis, wikipedia: Basis (linear algebra), wikidata: Q189569, mathlib: [mathlib-undergrad, mathlib-overview], node: 0KCQ9Y3QKA}
   - {name: existence of a basis, kind: statement, decl: Module.Basis.ofVectorSpace, wikipedia: Basis (linear algebra), wikidata: Q189569, mathlib: [mathlib-undergrad]}
   - {name: extension of a linearly independent set to a basis, kind: statement, decl: exists_linearIndependent, wikipedia: Basis (linear algebra), wikidata: Q189569}
-  - {name: Steinitz exchange lemma, kind: statement, wikipedia: Steinitz exchange lemma, wikidata: Q2338929}
-  - {name: dimension, kind: definition, decl: Module.finrank, wikipedia: Dimension (vector space), wikidata: Q929302}
+  - {name: Steinitz exchange lemma, kind: statement, wikipedia: Steinitz exchange lemma, wikidata: Q2338929, node: 08ZDRN6H41}
+  - {name: dimension, kind: definition, decl: Module.finrank, wikipedia: Dimension (vector space), wikidata: Q929302, node: 03GSZ8RTZJ}
   - {name: Hamel dimension, kind: definition, decl: Module.rank, wikipedia: Dimension (vector space), wikidata: Q929302}
-  - {name: finite-dimensional vector space, kind: definition, decl: FiniteDimensional, wikipedia: Dimension (vector space), wikidata: Q929302, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: coordinate vector, kind: definition, wikipedia: Coordinate vector, wikidata: Q1057996}
+  - {name: finite-dimensional vector space, kind: definition, decl: FiniteDimensional, wikipedia: Dimension (vector space), wikidata: Q929302, mathlib: [mathlib-undergrad, mathlib-overview], node: 0ZHWKQMVX5}
+  - {name: coordinate vector, kind: definition, wikipedia: Coordinate vector, wikidata: Q1057996, node: 04CYQHN6MC}
   - {name: change of basis, kind: concept, wikipedia: Change of basis, wikidata: Q810255}
   - {name: direct sum of vector spaces, kind: definition, decl: DirectSum, wikipedia: Direct sum of modules, wikidata: Q1142861}
   - {name: quotient space, kind: definition, wikipedia: Quotient space (linear algebra), wikidata: Q1393796}
-  - {name: dimension of a quotient space, kind: statement, decl: Submodule.finrank_quotient_add_finrank, wikipedia: Quotient space (linear algebra), wikidata: Q1393796}
+  - {name: dimension of a quotient space, kind: statement, decl: Submodule.finrank_quotient_add_finrank, wikipedia: Quotient space (linear algebra), wikidata: Q1393796, node: 0SXDQ6TN00}
   - {name: Grassmann's dimension formula, kind: statement, decl: Submodule.finrank_sup_add_finrank_inf_eq, wikipedia: Dimension (vector space), wikidata: Q929302}
   - {name: complement of a subspace, kind: definition, wikipedia: Complemented subspace, wikidata: Q137454148}
-  - {name: affine subspace, kind: definition, wikipedia: Affine space, wikidata: Q382698}
+  - {name: affine subspace, kind: definition, wikipedia: Affine space, wikidata: Q382698, node: 0PYW26VNT6}
   # Linear maps
-  - {name: linear map, kind: definition, decl: LinearMap, wikipedia: Linear map, wikidata: Q207643, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: linear isomorphism, kind: definition, decl: LinearEquiv, wikipedia: Linear map, wikidata: Q207643}
+  - {name: linear map, kind: definition, decl: LinearMap, wikipedia: Linear map, wikidata: Q207643, mathlib: [mathlib-undergrad, mathlib-overview], node: 0NRYHJPQG2}
+  - {name: linear isomorphism, kind: definition, decl: LinearEquiv, wikipedia: Linear map, wikidata: Q207643, node: 0B8T10CE7N}
   - {name: kernel, kind: definition, decl: LinearMap.ker, wikipedia: Kernel (linear algebra), wikidata: Q2914509, mathlib: [mathlib-undergrad]}
-  - {name: image of a linear map, kind: definition, decl: LinearMap.range, wikipedia: Image (mathematics), wikidata: Q860623, mathlib: [mathlib-undergrad]}
-  - {name: rank–nullity theorem, kind: statement, decl: LinearMap.finrank_range_add_finrank_ker, wikipedia: Rank–nullity theorem, wikidata: Q303402}
+  - {name: image of a linear map, kind: definition, decl: LinearMap.range, wikipedia: Image (mathematics), wikidata: Q860623, mathlib: [mathlib-undergrad], node: 0WSFKKT6FF}
+  - {name: rank–nullity theorem, kind: statement, decl: LinearMap.finrank_range_add_finrank_ker, wikipedia: Rank–nullity theorem, wikidata: Q303402, node: 0W4FSW1TVB}
   - {name: first isomorphism theorem for vector spaces, kind: statement, decl: LinearMap.quotKerEquivRange, wikipedia: Isomorphism theorems, wikidata: Q1065966}
-  - {name: matrix of a linear map, kind: definition, decl: LinearMap.toMatrix, wikipedia: Transformation matrix, wikidata: Q1482183, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: linear map of a matrix, kind: definition, decl: Matrix.toLin, wikipedia: Transformation matrix, wikidata: Q1482183}
-  - {name: endomorphism, kind: definition, wikipedia: Endomorphism, wikidata: Q1340800}
-  - {name: projection, kind: definition, decl: LinearMap.IsProj, wikipedia: Projection (linear algebra), wikidata: Q519967}
+  - {name: matrix of a linear map, kind: definition, decl: LinearMap.toMatrix, wikipedia: Transformation matrix, wikidata: Q1482183, mathlib: [mathlib-undergrad, mathlib-overview], node: 0YQSGNYE3K}
+  - {name: linear map of a matrix, kind: definition, decl: Matrix.toLin, wikipedia: Transformation matrix, wikidata: Q1482183, node: 06HMCTAQH3}
+  - {name: endomorphism, kind: definition, wikipedia: Endomorphism, wikidata: Q1340800, node: 0J7H0YBFDJ}
+  - {name: projection, kind: definition, decl: LinearMap.IsProj, wikipedia: Projection (linear algebra), wikidata: Q519967, node: 033DA1WE8Y}
   - {name: nilpotent operator, kind: definition, decl: IsNilpotent, wikipedia: Nilpotent matrix, wikidata: Q650670}
-  - {name: invariant subspace, kind: definition, wikipedia: Invariant subspace, wikidata: Q2706744}
-  - {name: dual space, kind: definition, decl: Module.Dual, wikipedia: Dual space, wikidata: Q752487, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: dual basis, kind: definition, decl: Module.Basis.dualBasis, wikipedia: Dual basis, wikidata: Q2297777, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: invariant subspace, kind: definition, wikipedia: Invariant subspace, wikidata: Q2706744, node: 0ACX5QT8TE}
+  - {name: dual space, kind: definition, decl: Module.Dual, wikipedia: Dual space, wikidata: Q752487, mathlib: [mathlib-undergrad, mathlib-overview], node: 07JBSZE0V4}
+  - {name: dual basis, kind: definition, decl: Module.Basis.dualBasis, wikipedia: Dual basis, wikidata: Q2297777, mathlib: [mathlib-undergrad, mathlib-overview], node: 0ZD2CF6ZS0}
   - {name: double dual isomorphism, kind: statement, decl: Module.evalEquiv, wikipedia: Dual space, wikidata: Q752487, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: annihilator of a subspace, kind: definition, decl: Submodule.dualAnnihilator, wikipedia: Annihilator (ring theory), wikidata: Q567083, mathlib: [mathlib-undergrad]}
-  - {name: transpose of a linear map, kind: definition, decl: Module.Dual.transpose, wikipedia: Transpose of a linear map, wikidata: Q2858846, mathlib: [mathlib-undergrad]}
+  - {name: annihilator of a subspace, kind: definition, decl: Submodule.dualAnnihilator, wikipedia: Annihilator (ring theory), wikidata: Q567083, mathlib: [mathlib-undergrad], node: 0ASHNYF7AG}
+  - {name: transpose of a linear map, kind: definition, decl: Module.Dual.transpose, wikipedia: Transpose of a linear map, wikidata: Q2858846, mathlib: [mathlib-undergrad], node: 0AZ5ARP287}
   # Matrices and matrix algebra
-  - {name: matrix, kind: definition, decl: Matrix, wikipedia: Matrix (mathematics), wikidata: Q44337, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: matrix multiplication, kind: definition, wikipedia: Matrix multiplication, wikidata: Q1049914}
+  - {name: matrix, kind: definition, decl: Matrix, wikipedia: Matrix (mathematics), wikidata: Q44337, mathlib: [mathlib-undergrad, mathlib-overview], node: 0VD9ZSWWJG}
+  - {name: matrix multiplication, kind: definition, wikipedia: Matrix multiplication, wikidata: Q1049914, node: 032Q9FB8MT}
   - {name: matrix-vector product, kind: definition, decl: Matrix.mulVec, wikipedia: Matrix multiplication, wikidata: Q1049914}
-  - {name: dot product, kind: definition, decl: dotProduct, wikipedia: Dot product, wikidata: Q181365}
-  - {name: cross product, kind: definition, decl: crossProduct, wikipedia: Cross product, wikidata: Q178192, mathlib: [mathlib-undergrad]}
+  - {name: dot product, kind: definition, decl: dotProduct, wikipedia: Dot product, wikidata: Q181365, node: 0S52TNNTH9}
+  - {name: cross product, kind: definition, decl: crossProduct, wikipedia: Cross product, wikidata: Q178192, mathlib: [mathlib-undergrad], node: 0N5N15HWZ7}
   - {name: identity matrix, kind: definition, decl: Matrix.one, wikipedia: Identity matrix, wikidata: Q193794}
-  - {name: transpose, kind: definition, decl: Matrix.transpose, wikipedia: Transpose, wikidata: Q223683}
-  - {name: conjugate transpose, kind: definition, decl: Matrix.conjTranspose, wikipedia: Conjugate transpose, wikidata: Q2051983}
+  - {name: transpose, kind: definition, decl: Matrix.transpose, wikipedia: Transpose, wikidata: Q223683, node: 09DXWYRD43}
+  - {name: conjugate transpose, kind: definition, decl: Matrix.conjTranspose, wikipedia: Conjugate transpose, wikidata: Q2051983, node: 0DXKE10PHF}
   - {name: trace, kind: definition, decl: Matrix.trace, wikipedia: Trace (linear algebra), wikidata: Q321102}
   - {name: cyclic property of the trace, kind: statement, decl: Matrix.trace_mul_comm, wikipedia: Trace (linear algebra), wikidata: Q321102}
-  - {name: invertible matrix, kind: definition, decl: Matrix.inv, wikipedia: Invertible matrix, wikidata: Q242188, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: invertible matrix, kind: definition, decl: Matrix.inv, wikipedia: Invertible matrix, wikidata: Q242188, mathlib: [mathlib-undergrad, mathlib-overview], node: 0EB9N0S33C}
   - {name: invertibility criterion via the determinant, kind: statement, decl: Matrix.isUnit_iff_isUnit_det, wikipedia: Invertible matrix, wikidata: Q242188}
-  - {name: block matrix, kind: definition, wikipedia: Block matrix, wikidata: Q884772}
+  - {name: block matrix, kind: definition, wikipedia: Block matrix, wikidata: Q884772, node: 0ASDFEQS6P}
   - {name: Schur complement, kind: definition, decl: Matrix.schur_complement_eq₁₁, wikipedia: Schur complement, wikidata: Q1778169}
-  - {name: Kronecker product, kind: definition, decl: Matrix.kronecker, wikipedia: Kronecker product, wikidata: Q1238125}
+  - {name: Kronecker product, kind: definition, decl: Matrix.kronecker, wikipedia: Kronecker product, wikidata: Q1238125, node: 0N7ENQRCXN}
   - {name: Hadamard product, kind: definition, decl: Matrix.hadamard, wikipedia: Hadamard product (matrices), wikidata: Q3406746}
-  - {name: elementary matrix, kind: definition, decl: Matrix.transvection, wikipedia: Elementary matrix, wikidata: Q609566}
+  - {name: elementary matrix, kind: definition, decl: Matrix.transvection, wikipedia: Elementary matrix, wikidata: Q609566, node: 01REXW3WWE}
   - {name: reduction to diagonal form by transvections, kind: statement, decl: Matrix.Pivot.exists_list_transvec_mul_diagonal_mul_list_transvec, wikipedia: Elementary matrix, wikidata: Q609566}
   - {name: matrix similarity, kind: definition, wikipedia: Matrix similarity, wikidata: Q254491}
   - {name: matrix congruence, kind: definition, wikipedia: Matrix congruence, wikidata: Q377286}
   - {name: matrix equivalence, kind: definition, wikipedia: Matrix equivalence, wikidata: Q256151}
   - {name: commuting matrices, kind: concept, wikipedia: Commuting matrices, wikidata: Q3360633}
   # Systems of linear equations
-  - {name: system of linear equations, kind: definition, wikipedia: System of linear equations, wikidata: Q11203}
-  - {name: Gaussian elimination, kind: concept, wikipedia: Gaussian elimination, wikidata: Q2658}
-  - {name: row echelon form, kind: definition, wikipedia: Row echelon form, wikidata: Q2091296}
-  - {name: rank of a matrix, kind: definition, decl: Matrix.rank, wikipedia: Rank (linear algebra), wikidata: Q656784, mathlib: [mathlib-undergrad]}
-  - {name: row rank equals column rank, kind: statement, decl: Matrix.rank_transpose, wikipedia: Rank (linear algebra), wikidata: Q656784}
+  - {name: system of linear equations, kind: definition, wikipedia: System of linear equations, wikidata: Q11203, node: 0GT4WWGWH2}
+  - {name: Gaussian elimination, kind: concept, wikipedia: Gaussian elimination, wikidata: Q2658, node: 0JVJ2WCXZH}
+  - {name: row echelon form, kind: definition, wikipedia: Row echelon form, wikidata: Q2091296, node: 0VYCDGMJJJ}
+  - {name: rank of a matrix, kind: definition, decl: Matrix.rank, wikipedia: Rank (linear algebra), wikidata: Q656784, mathlib: [mathlib-undergrad], node: 0ZC9YTXZRY}
+  - {name: row rank equals column rank, kind: statement, decl: Matrix.rank_transpose, wikipedia: Rank (linear algebra), wikidata: Q656784, node: 0TZAG60ZYT}
   - {name: rank of a product, kind: statement, decl: Matrix.rank_mul_le, wikipedia: Rank (linear algebra), wikidata: Q656784}
-  - {name: Rouché–Capelli theorem, kind: statement, wikipedia: Rouché–Capelli theorem, wikidata: Q2071632}
-  - {name: Cramer's rule, kind: statement, decl: Matrix.cramer_eq_adjugate_mulVec, wikipedia: Cramer's rule, wikidata: Q322666}
+  - {name: Rouché–Capelli theorem, kind: statement, wikipedia: Rouché–Capelli theorem, wikidata: Q2071632, node: 0HV1SKWPMS}
+  - {name: Cramer's rule, kind: statement, decl: Matrix.cramer_eq_adjugate_mulVec, wikipedia: Cramer's rule, wikidata: Q322666, node: 0977KZ6PQB}
   - {name: Fredholm alternative, kind: statement, wikipedia: Fredholm alternative, wikidata: Q657820}
   - {name: overdetermined system, kind: definition, wikipedia: Overdetermined system, wikidata: Q331348}
-  - {name: least squares, kind: concept, wikipedia: Linear least squares, wikidata: Q6553462}
+  - {name: least squares, kind: concept, wikipedia: Linear least squares, wikidata: Q6553462, node: 0BYTQ4X1HC}
   # Determinants
-  - {name: determinant, kind: definition, decl: Matrix.det, wikipedia: Determinant, wikidata: Q178546, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: Leibniz formula for determinants, kind: statement, decl: Matrix.det_apply, wikipedia: Leibniz formula for determinants, wikidata: Q538557}
+  - {name: determinant, kind: definition, decl: Matrix.det, wikipedia: Determinant, wikidata: Q178546, mathlib: [mathlib-undergrad, mathlib-overview], node: 00KDZRW4C0}
+  - {name: Leibniz formula for determinants, kind: statement, decl: Matrix.det_apply, wikipedia: Leibniz formula for determinants, wikidata: Q538557, node: 016PE4VZ8Q}
   - {name: Laplace expansion, kind: statement, decl: Matrix.det_succ_row_zero, wikipedia: Laplace expansion, wikidata: Q2044612}
   - {name: multiplicativity of the determinant, kind: statement, decl: Matrix.det_mul, wikipedia: Determinant, wikidata: Q178546}
-  - {name: determinant of the transpose, kind: statement, decl: Matrix.det_transpose, wikipedia: Determinant, wikidata: Q178546}
-  - {name: determinant of a triangular matrix, kind: statement, decl: Matrix.det_of_upperTriangular, wikipedia: Triangular matrix, wikidata: Q506265}
+  - {name: determinant of the transpose, kind: statement, decl: Matrix.det_transpose, wikipedia: Determinant, wikidata: Q178546, node: 0ZZQ2E1MTE}
+  - {name: determinant of a triangular matrix, kind: statement, decl: Matrix.det_of_upperTriangular, wikipedia: Triangular matrix, wikidata: Q506265, node: 0K1KKMFHYH}
   - {name: determinant of a block matrix, kind: statement, decl: Matrix.det_fromBlocks₁₁, wikipedia: Block matrix, wikidata: Q884772}
-  - {name: Cauchy–Binet formula, kind: statement, wikipedia: Cauchy–Binet formula, wikidata: Q45286}
-  - {name: adjugate matrix, kind: definition, decl: Matrix.adjugate, wikipedia: Adjugate matrix, wikidata: Q225107}
-  - {name: minor, kind: definition, wikipedia: Minor (linear algebra), wikidata: Q1341061}
-  - {name: Vandermonde determinant, kind: statement, decl: Matrix.det_vandermonde, wikipedia: Vandermonde matrix, wikidata: Q579544}
+  - {name: Cauchy–Binet formula, kind: statement, wikipedia: Cauchy–Binet formula, wikidata: Q45286, node: 08WE2W7DYS}
+  - {name: adjugate matrix, kind: definition, decl: Matrix.adjugate, wikipedia: Adjugate matrix, wikidata: Q225107, node: 07W9H8QF38}
+  - {name: minor, kind: definition, wikipedia: Minor (linear algebra), wikidata: Q1341061, node: 0BT9BYWVRY}
+  - {name: Vandermonde determinant, kind: statement, decl: Matrix.det_vandermonde, wikipedia: Vandermonde matrix, wikidata: Q579544, node: 0P84B554AS}
   - {name: Sylvester's determinant identity, kind: statement, decl: Matrix.det_one_add_mul_comm, wikipedia: Sylvester's determinant identity, wikidata: Q65050391, mathlib: [mathlib-1000]}
-  - {name: matrix determinant lemma, kind: statement, wikipedia: Matrix determinant lemma, wikidata: Q6787868}
+  - {name: matrix determinant lemma, kind: statement, wikipedia: Matrix determinant lemma, wikidata: Q6787868, node: 0BC3Q6K92H}
   - {name: Jacobi's formula, kind: statement, wikipedia: Jacobi's formula, wikidata: Q3748375}
   - {name: Dodgson condensation, kind: concept, wikipedia: Dodgson condensation, wikidata: Q4230490}
   - {name: Hadamard's maximal determinant problem, kind: problem, wikipedia: Hadamard's maximal determinant problem, wikidata: Q5637579}
@@ -106,100 +106,100 @@ items:
   - {name: permanent, kind: definition, decl: Matrix.permanent, wikipedia: Permanent (mathematics), wikidata: Q1344007}
   - {name: van der Waerden conjecture on permanents, kind: statement, wikipedia: Permanent (mathematics), wikidata: Q1344007}
   - {name: Lindström–Gessel–Viennot lemma, kind: statement, wikipedia: Lindström–Gessel–Viennot lemma, wikidata: Q6552939}
-  - {name: determinant of a linear map, kind: definition, decl: LinearMap.det, wikipedia: Determinant, wikidata: Q178546, mathlib: [mathlib-undergrad]}
+  - {name: determinant of a linear map, kind: definition, decl: LinearMap.det, wikipedia: Determinant, wikidata: Q178546, mathlib: [mathlib-undergrad], node: 0X0HQYSZ0K}
   # Eigenvalues and eigenvectors
-  - {name: eigenvalue, kind: definition, decl: Module.End.HasEigenvalue, wikipedia: Eigenvalues and eigenvectors, wikidata: Q190524, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: eigenspace, kind: definition, decl: Module.End.eigenspace, wikipedia: Eigenvalues and eigenvectors, wikidata: Q190524}
-  - {name: generalized eigenvector, kind: definition, decl: Module.End.genEigenspace, wikipedia: Generalized eigenvector, wikidata: Q970767, mathlib: [mathlib-undergrad]}
+  - {name: eigenvalue, kind: definition, decl: Module.End.HasEigenvalue, wikipedia: Eigenvalues and eigenvectors, wikidata: Q190524, mathlib: [mathlib-undergrad, mathlib-overview], node: 0BQAA2BK3Q}
+  - {name: eigenspace, kind: definition, decl: Module.End.eigenspace, wikipedia: Eigenvalues and eigenvectors, wikidata: Q190524, node: 0G0RFPG8HR}
+  - {name: generalized eigenvector, kind: definition, decl: Module.End.genEigenspace, wikipedia: Generalized eigenvector, wikidata: Q970767, mathlib: [mathlib-undergrad], node: 01H6QKWGDH}
   - {name: eigenvectors for distinct eigenvalues are independent, kind: statement, decl: Module.End.eigenvectors_linearIndependent, wikipedia: Eigenvalues and eigenvectors, wikidata: Q190524}
-  - {name: existence of eigenvalues over algebraically closed fields, kind: statement, decl: Module.End.exists_eigenvalue, wikipedia: Eigenvalues and eigenvectors, wikidata: Q190524, mathlib: [mathlib-overview]}
-  - {name: characteristic polynomial, kind: definition, decl: Matrix.charpoly, wikipedia: Characteristic polynomial, wikidata: Q849705, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: Cayley–Hamilton theorem, kind: statement, decl: Matrix.aeval_self_charpoly, wikipedia: Cayley–Hamilton theorem, wikidata: Q656772, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-100, mathlib-1000]}
+  - {name: existence of eigenvalues over algebraically closed fields, kind: statement, decl: Module.End.exists_eigenvalue, wikipedia: Eigenvalues and eigenvectors, wikidata: Q190524, mathlib: [mathlib-overview], node: 08CJB2NQ92}
+  - {name: characteristic polynomial, kind: definition, decl: Matrix.charpoly, wikipedia: Characteristic polynomial, wikidata: Q849705, mathlib: [mathlib-undergrad, mathlib-overview], node: 0VSSPAFM2C}
+  - {name: Cayley–Hamilton theorem, kind: statement, decl: Matrix.aeval_self_charpoly, wikipedia: Cayley–Hamilton theorem, wikidata: Q656772, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-100, mathlib-1000], node: 0F765KFC2J}
   - {name: minimal polynomial of a matrix, kind: definition, decl: minpoly, wikipedia: Minimal polynomial (linear algebra), wikidata: Q1163608, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: minimal polynomial divides the characteristic polynomial, kind: statement, decl: LinearMap.minpoly_dvd_charpoly, wikipedia: Minimal polynomial (linear algebra), wikidata: Q1163608}
+  - {name: minimal polynomial divides the characteristic polynomial, kind: statement, decl: LinearMap.minpoly_dvd_charpoly, wikipedia: Minimal polynomial (linear algebra), wikidata: Q1163608, node: 093X6MN6Y6}
   - {name: algebraic and geometric multiplicity, kind: definition, wikipedia: Eigenvalues and eigenvectors, wikidata: Q190524}
-  - {name: determinant is the product of eigenvalues, kind: statement, decl: Matrix.det_eq_prod_roots_charpoly, wikipedia: Determinant, wikidata: Q178546}
-  - {name: trace is the sum of eigenvalues, kind: statement, decl: Matrix.trace_eq_sum_roots_charpoly, wikipedia: Trace (linear algebra), wikidata: Q321102}
-  - {name: spectrum of a matrix, kind: definition, decl: spectrum, wikipedia: Spectrum of a matrix, wikidata: Q3490774}
+  - {name: determinant is the product of eigenvalues, kind: statement, decl: Matrix.det_eq_prod_roots_charpoly, wikipedia: Determinant, wikidata: Q178546, node: 0C2F40MEBC}
+  - {name: trace is the sum of eigenvalues, kind: statement, decl: Matrix.trace_eq_sum_roots_charpoly, wikipedia: Trace (linear algebra), wikidata: Q321102, node: 0NMXDCNNKR}
+  - {name: spectrum of a matrix, kind: definition, decl: spectrum, wikipedia: Spectrum of a matrix, wikidata: Q3490774, node: 0XPX5NC67E}
   - {name: spectral radius, kind: definition, wikipedia: Spectral radius, wikidata: Q249748}
-  - {name: Gershgorin circle theorem, kind: statement, decl: eigenvalue_mem_ball, wikipedia: Gershgorin circle theorem, wikidata: Q978688, mathlib: [mathlib-1000]}
+  - {name: Gershgorin circle theorem, kind: statement, decl: eigenvalue_mem_ball, wikipedia: Gershgorin circle theorem, wikidata: Q978688, mathlib: [mathlib-1000], node: 0ETGP0XVCJ}
   - {name: Levy–Desplanques theorem, kind: statement, decl: det_ne_zero_of_sum_row_lt_diag, wikipedia: Diagonally dominant matrix, wikidata: Q952222}
-  - {name: Rayleigh quotient, kind: definition, wikipedia: Rayleigh quotient, wikidata: Q1665115}
+  - {name: Rayleigh quotient, kind: definition, wikipedia: Rayleigh quotient, wikidata: Q1665115, node: 06WHP8SE98}
   - {name: Courant–Fischer min-max theorem, kind: statement, wikipedia: Min-max theorem, wikidata: Q4454958}
   - {name: Cauchy interlacing theorem, kind: statement, wikipedia: Min-max theorem, wikidata: Q4454958}
   - {name: Weyl's inequality, kind: statement, wikipedia: Weyl's inequality, wikidata: Q1566872}
   - {name: Bauer–Fike theorem, kind: statement, wikipedia: Bauer–Fike theorem, wikidata: Q2226602}
   - {name: eigenvalue perturbation, kind: concept, wikipedia: Eigenvalue perturbation, wikidata: Q5348914}
   # Canonical forms and decompositions
-  - {name: diagonalizable matrix, kind: definition, wikipedia: Diagonalizable matrix, wikidata: Q1767080}
-  - {name: triangularization, kind: statement, wikipedia: Triangular matrix, wikidata: Q506265}
-  - {name: simultaneous diagonalization, kind: statement, wikipedia: Diagonalizable matrix, wikidata: Q1767080}
-  - {name: Jordan normal form, kind: statement, wikipedia: Jordan normal form, wikidata: Q838495}
-  - {name: Jordan–Chevalley decomposition, kind: statement, decl: Module.End.exists_isNilpotent_isSemisimple, wikipedia: Jordan–Chevalley decomposition, wikidata: Q1631086, mathlib: [mathlib-undergrad]}
+  - {name: diagonalizable matrix, kind: definition, wikipedia: Diagonalizable matrix, wikidata: Q1767080, node: 07SQCNV233}
+  - {name: triangularization, kind: statement, wikipedia: Triangular matrix, wikidata: Q506265, node: 0363JMQ42Y}
+  - {name: simultaneous diagonalization, kind: statement, wikipedia: Diagonalizable matrix, wikidata: Q1767080, node: 0FK17N4DKA}
+  - {name: Jordan normal form, kind: statement, wikipedia: Jordan normal form, wikidata: Q838495, node: 085HQ5G5TE}
+  - {name: Jordan–Chevalley decomposition, kind: statement, decl: Module.End.exists_isNilpotent_isSemisimple, wikipedia: Jordan–Chevalley decomposition, wikidata: Q1631086, mathlib: [mathlib-undergrad], node: 011K11VPJN}
   - {name: generalized eigenspace decomposition, kind: statement, decl: Module.End.iSup_maxGenEigenspace_eq_top, wikipedia: Generalized eigenvector, wikidata: Q970767}
   - {name: semisimple operator, kind: definition, decl: Module.End.IsSemisimple, wikipedia: Semi-simplicity, wikidata: Q3478415}
-  - {name: rational canonical form, kind: statement, wikipedia: Frobenius normal form, wikidata: Q1469423}
-  - {name: companion matrix, kind: definition, wikipedia: Companion matrix, wikidata: Q814361}
+  - {name: rational canonical form, kind: statement, wikipedia: Frobenius normal form, wikidata: Q1469423, node: 042JWAR3Q0}
+  - {name: companion matrix, kind: definition, wikipedia: Companion matrix, wikidata: Q814361, node: 0ZCWPNZTQ3}
   - {name: Smith normal form, kind: statement, decl: Module.Basis.SmithNormalForm, wikipedia: Smith normal form, wikidata: Q7545384}
   - {name: Hermite normal form, kind: statement, wikipedia: Hermite normal form, wikidata: Q13650324}
   - {name: Schur decomposition, kind: statement, wikipedia: Schur decomposition, wikidata: Q1064218}
   - {name: LU decomposition, kind: statement, wikipedia: LU decomposition, wikidata: Q833089}
-  - {name: QR decomposition, kind: statement, wikipedia: QR decomposition, wikidata: Q653242}
-  - {name: Cholesky decomposition, kind: statement, wikipedia: Cholesky decomposition, wikidata: Q515375}
-  - {name: singular value decomposition, kind: statement, wikipedia: Singular value decomposition, wikidata: Q420904}
-  - {name: singular value, kind: definition, wikipedia: Singular value, wikidata: Q4166054}
-  - {name: polar decomposition, kind: statement, wikipedia: Polar decomposition, wikidata: Q2101158}
+  - {name: QR decomposition, kind: statement, wikipedia: QR decomposition, wikidata: Q653242, node: 0ERWG4NXQ9}
+  - {name: Cholesky decomposition, kind: statement, wikipedia: Cholesky decomposition, wikidata: Q515375, node: 0WKG8CYY6A}
+  - {name: singular value decomposition, kind: statement, wikipedia: Singular value decomposition, wikidata: Q420904, node: 000NPTMX6J}
+  - {name: singular value, kind: definition, wikipedia: Singular value, wikidata: Q4166054, node: 09VMDSRXWJ}
+  - {name: polar decomposition, kind: statement, wikipedia: Polar decomposition, wikidata: Q2101158, node: 0J2C7BDJQA}
   - {name: eigendecomposition, kind: statement, wikipedia: Eigendecomposition of a matrix, wikidata: Q194919}
   - {name: Eckart–Young theorem, kind: statement, wikipedia: Low-rank approximation, wikidata: Q6692777}
-  - {name: Moore–Penrose inverse, kind: definition, wikipedia: Moore–Penrose inverse, wikidata: Q43219517}
+  - {name: Moore–Penrose inverse, kind: definition, wikipedia: Moore–Penrose inverse, wikidata: Q43219517, node: 0YY8VX28JR}
   - {name: generalized inverse, kind: definition, wikipedia: Generalized inverse, wikidata: Q370634}
   - {name: Drazin inverse, kind: definition, wikipedia: Drazin inverse, wikidata: Q4521948}
   # Inner product spaces
-  - {name: inner product space, kind: definition, decl: InnerProductSpace, wikipedia: Inner product space, wikidata: Q214159, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: Cauchy–Schwarz inequality, kind: statement, decl: norm_inner_le_norm, wikipedia: Cauchy–Schwarz inequality, wikidata: Q190546, mathlib: [mathlib-100]}
+  - {name: inner product space, kind: definition, decl: InnerProductSpace, wikipedia: Inner product space, wikidata: Q214159, mathlib: [mathlib-undergrad, mathlib-overview], node: 0QVNCJXRY3}
+  - {name: Cauchy–Schwarz inequality, kind: statement, decl: norm_inner_le_norm, wikipedia: Cauchy–Schwarz inequality, wikidata: Q190546, mathlib: [mathlib-100], node: 0RFWW56Y22}
   - {name: orthogonality, kind: definition, wikipedia: Orthogonality (mathematics), wikidata: Q114044192}
-  - {name: orthonormal basis, kind: definition, decl: OrthonormalBasis, wikipedia: Orthonormal basis, wikidata: Q2365325, mathlib: [mathlib-overview]}
-  - {name: Gram–Schmidt process, kind: concept, decl: InnerProductSpace.gramSchmidt, wikipedia: Gram–Schmidt process, wikidata: Q475239}
-  - {name: orthogonal complement, kind: definition, decl: Submodule.orthogonal, wikipedia: Orthogonal complement, wikidata: Q1780921, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: orthogonal projection, kind: definition, decl: Submodule.orthogonalProjection, wikipedia: Projection (linear algebra), wikidata: Q519967}
-  - {name: Bessel's inequality, kind: statement, wikipedia: Bessel's inequality, wikidata: Q794042}
-  - {name: Gram matrix, kind: definition, wikipedia: Gram matrix, wikidata: Q1409400}
-  - {name: adjoint of a linear map, kind: definition, decl: LinearMap.adjoint, wikipedia: Hermitian adjoint, wikidata: Q1509647}
-  - {name: self-adjoint operator, kind: definition, decl: LinearMap.IsSymmetric, wikipedia: Self-adjoint operator, wikidata: Q6500908}
-  - {name: normal matrix, kind: definition, wikipedia: Normal matrix, wikidata: Q6852339}
-  - {name: spectral theorem for Hermitian matrices, kind: statement, decl: Matrix.IsHermitian.spectral_theorem, wikipedia: Spectral theorem, wikidata: Q1425077}
-  - {name: spectral theorem for normal matrices, kind: statement, wikipedia: Normal matrix, wikidata: Q6852339}
+  - {name: orthonormal basis, kind: definition, decl: OrthonormalBasis, wikipedia: Orthonormal basis, wikidata: Q2365325, mathlib: [mathlib-overview], node: 0S9GGTR0EX}
+  - {name: Gram–Schmidt process, kind: concept, decl: InnerProductSpace.gramSchmidt, wikipedia: Gram–Schmidt process, wikidata: Q475239, node: 0VT6P0GNQR}
+  - {name: orthogonal complement, kind: definition, decl: Submodule.orthogonal, wikipedia: Orthogonal complement, wikidata: Q1780921, mathlib: [mathlib-undergrad, mathlib-overview], node: 0XJXTBCB2T}
+  - {name: orthogonal projection, kind: definition, decl: Submodule.orthogonalProjection, wikipedia: Projection (linear algebra), wikidata: Q519967, node: 0B8KZRT28M}
+  - {name: Bessel's inequality, kind: statement, wikipedia: Bessel's inequality, wikidata: Q794042, node: 0RBT5PB74K}
+  - {name: Gram matrix, kind: definition, wikipedia: Gram matrix, wikidata: Q1409400, node: 00SPJSDT3Z}
+  - {name: adjoint of a linear map, kind: definition, decl: LinearMap.adjoint, wikipedia: Hermitian adjoint, wikidata: Q1509647, node: 0R9NMSM1ZP}
+  - {name: self-adjoint operator, kind: definition, decl: LinearMap.IsSymmetric, wikipedia: Self-adjoint operator, wikidata: Q6500908, node: 0NEGN5CRSC}
+  - {name: normal matrix, kind: definition, wikipedia: Normal matrix, wikidata: Q6852339, node: 0MR0BYF0K2}
+  - {name: spectral theorem for Hermitian matrices, kind: statement, decl: Matrix.IsHermitian.spectral_theorem, wikipedia: Spectral theorem, wikidata: Q1425077, node: 0DGZBQWZWN}
+  - {name: spectral theorem for normal matrices, kind: statement, wikipedia: Normal matrix, wikidata: Q6852339, node: 04CW1P44VD}
   - {name: isometry of inner product spaces, kind: definition, decl: LinearIsometry, wikipedia: Isometry, wikidata: Q740207}
   # Bilinear and quadratic forms
-  - {name: bilinear form, kind: definition, decl: LinearMap.BilinForm, wikipedia: Bilinear form, wikidata: Q837924, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: nondegenerate bilinear form, kind: definition, decl: LinearMap.BilinForm.Nondegenerate, wikipedia: Degenerate bilinear form, wikidata: Q8214677, mathlib: [mathlib-undergrad]}
-  - {name: symmetric bilinear form, kind: definition, wikipedia: Symmetric bilinear form, wikidata: Q2100018}
-  - {name: alternating bilinear form, kind: definition, wikipedia: Alternating multilinear map, wikidata: Q4736615}
-  - {name: sesquilinear form, kind: definition, wikipedia: Sesquilinear form, wikidata: Q1931224}
-  - {name: quadratic form, kind: definition, decl: QuadraticForm, wikipedia: Quadratic form, wikidata: Q736753, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: polarization identity, kind: statement, decl: QuadraticMap.associated, wikipedia: Polarization identity, wikidata: Q1817177}
-  - {name: diagonalization of quadratic forms, kind: statement, decl: QuadraticForm.equivalent_weightedSumSquares, wikipedia: Quadratic form, wikidata: Q736753}
-  - {name: Sylvester's law of inertia, kind: statement, decl: QuadraticForm.equivalent_signType_weighted_sum_squared, wikipedia: Sylvester's law of inertia, wikidata: Q1752621}
-  - {name: signature of a quadratic form, kind: definition, wikipedia: Metric signature, wikidata: Q1142562}
-  - {name: Sylvester's criterion, kind: statement, wikipedia: Sylvester's criterion, wikidata: Q2709660}
+  - {name: bilinear form, kind: definition, decl: LinearMap.BilinForm, wikipedia: Bilinear form, wikidata: Q837924, mathlib: [mathlib-undergrad, mathlib-overview], node: 0SQZMXB6GP}
+  - {name: nondegenerate bilinear form, kind: definition, decl: LinearMap.BilinForm.Nondegenerate, wikipedia: Degenerate bilinear form, wikidata: Q8214677, mathlib: [mathlib-undergrad], node: 01NHFZF2SK}
+  - {name: symmetric bilinear form, kind: definition, wikipedia: Symmetric bilinear form, wikidata: Q2100018, node: 0AXZNE5XNH}
+  - {name: alternating bilinear form, kind: definition, wikipedia: Alternating multilinear map, wikidata: Q4736615, node: 0DGDS5XY84}
+  - {name: sesquilinear form, kind: definition, wikipedia: Sesquilinear form, wikidata: Q1931224, node: 054YEQ0Y8M}
+  - {name: quadratic form, kind: definition, decl: QuadraticForm, wikipedia: Quadratic form, wikidata: Q736753, mathlib: [mathlib-undergrad, mathlib-overview], node: 0RBQS1JJCR}
+  - {name: polarization identity, kind: statement, decl: QuadraticMap.associated, wikipedia: Polarization identity, wikidata: Q1817177, node: 05FKHRT0B4}
+  - {name: diagonalization of quadratic forms, kind: statement, decl: QuadraticForm.equivalent_weightedSumSquares, wikipedia: Quadratic form, wikidata: Q736753, node: 0Z3FEWZ8HA}
+  - {name: Sylvester's law of inertia, kind: statement, decl: QuadraticForm.equivalent_signType_weighted_sum_squared, wikipedia: Sylvester's law of inertia, wikidata: Q1752621, node: 0WFED3K3DQ}
+  - {name: signature of a quadratic form, kind: definition, wikipedia: Metric signature, wikidata: Q1142562, node: 07EZA80NEH}
+  - {name: Sylvester's criterion, kind: statement, wikipedia: Sylvester's criterion, wikidata: Q2709660, node: 0WKEF78PMV}
   - {name: Witt's theorem, kind: statement, wikipedia: Witt's theorem, wikidata: Q8028529}
   - {name: Witt group, kind: definition, wikipedia: Witt group, wikidata: Q3117708}
   - {name: symplectic vector space, kind: definition, wikipedia: Symplectic vector space, wikidata: Q766774}
   - {name: Hermitian form, kind: definition, wikipedia: Sesquilinear form, wikidata: Q1931224}
   # Special matrices
-  - {name: diagonal matrix, kind: definition, decl: Matrix.diagonal, wikipedia: Diagonal matrix, wikidata: Q332791}
+  - {name: diagonal matrix, kind: definition, decl: Matrix.diagonal, wikipedia: Diagonal matrix, wikidata: Q332791, node: 044JNC7ZAA}
   - {name: triangular matrix, kind: definition, decl: Matrix.BlockTriangular, wikipedia: Triangular matrix, wikidata: Q506265}
-  - {name: symmetric matrix, kind: definition, decl: Matrix.IsSymm, wikipedia: Symmetric matrix, wikidata: Q339011}
-  - {name: skew-symmetric matrix, kind: definition, wikipedia: Skew-symmetric matrix, wikidata: Q526790}
-  - {name: Hermitian matrix, kind: definition, decl: Matrix.IsHermitian, wikipedia: Hermitian matrix, wikidata: Q652941}
-  - {name: positive-definite matrix, kind: definition, decl: Matrix.PosDef, wikipedia: Definite matrix, wikidata: Q77601250}
-  - {name: positive-semidefinite matrix, kind: definition, decl: Matrix.PosSemidef, wikipedia: Definite matrix, wikidata: Q77601250}
-  - {name: eigenvalues of a positive-definite matrix are positive, kind: statement, decl: Matrix.PosDef.eigenvalues_pos, wikipedia: Definite matrix, wikidata: Q77601250}
-  - {name: orthogonal matrix, kind: definition, decl: Matrix.orthogonalGroup, wikipedia: Orthogonal matrix, wikidata: Q333871, mathlib: [mathlib-undergrad]}
-  - {name: unitary matrix, kind: definition, decl: Matrix.unitaryGroup, wikipedia: Unitary matrix, wikidata: Q727103, mathlib: [mathlib-undergrad]}
-  - {name: permutation matrix, kind: definition, wikipedia: Permutation matrix, wikidata: Q851512}
-  - {name: idempotent matrix, kind: definition, decl: IsIdempotentElem, wikipedia: Idempotent matrix, wikidata: Q3751720}
-  - {name: nilpotent matrix, kind: definition, wikipedia: Nilpotent matrix, wikidata: Q650670}
+  - {name: symmetric matrix, kind: definition, decl: Matrix.IsSymm, wikipedia: Symmetric matrix, wikidata: Q339011, node: 0VR671PHE5}
+  - {name: skew-symmetric matrix, kind: definition, wikipedia: Skew-symmetric matrix, wikidata: Q526790, node: 0PBY4E9GQF}
+  - {name: Hermitian matrix, kind: definition, decl: Matrix.IsHermitian, wikipedia: Hermitian matrix, wikidata: Q652941, node: 0P17NGQQMQ}
+  - {name: positive-definite matrix, kind: definition, decl: Matrix.PosDef, wikipedia: Definite matrix, wikidata: Q77601250, node: 0KX66CZMBB}
+  - {name: positive-semidefinite matrix, kind: definition, decl: Matrix.PosSemidef, wikipedia: Definite matrix, wikidata: Q77601250, node: 01MMVW8CKC}
+  - {name: eigenvalues of a positive-definite matrix are positive, kind: statement, decl: Matrix.PosDef.eigenvalues_pos, wikipedia: Definite matrix, wikidata: Q77601250, node: 0HYC2RHD3M}
+  - {name: orthogonal matrix, kind: definition, decl: Matrix.orthogonalGroup, wikipedia: Orthogonal matrix, wikidata: Q333871, mathlib: [mathlib-undergrad], node: 0W02QESPJQ}
+  - {name: unitary matrix, kind: definition, decl: Matrix.unitaryGroup, wikipedia: Unitary matrix, wikidata: Q727103, mathlib: [mathlib-undergrad], node: 0AR68JTMDT}
+  - {name: permutation matrix, kind: definition, wikipedia: Permutation matrix, wikidata: Q851512, node: 08SP3DF8NB}
+  - {name: idempotent matrix, kind: definition, decl: IsIdempotentElem, wikipedia: Idempotent matrix, wikidata: Q3751720, node: 0KCE8CG86P}
+  - {name: nilpotent matrix, kind: definition, wikipedia: Nilpotent matrix, wikidata: Q650670, node: 07BSPZPSMF}
   - {name: Vandermonde matrix, kind: definition, decl: Matrix.vandermonde, wikipedia: Vandermonde matrix, wikidata: Q579544}
   - {name: circulant matrix, kind: definition, decl: Matrix.circulant, wikipedia: Circulant matrix, wikidata: Q245457}
   - {name: Toeplitz matrix, kind: definition, wikipedia: Toeplitz matrix, wikidata: Q849428}
@@ -213,7 +213,7 @@ items:
   - {name: band matrix, kind: definition, wikipedia: Band matrix, wikidata: Q806350}
   - {name: sparse matrix, kind: definition, wikipedia: Sparse matrix, wikidata: Q1050404}
   - {name: diagonally dominant matrix, kind: definition, wikipedia: Diagonally dominant matrix, wikidata: Q952222}
-  - {name: adjacency matrix, kind: definition, decl: Matrix.IsAdjMatrix, wikipedia: Adjacency matrix, wikidata: Q727035}
+  - {name: adjacency matrix, kind: definition, decl: Matrix.IsAdjMatrix, wikipedia: Adjacency matrix, wikidata: Q727035, node: 08B9CX109G}
   - {name: Laplacian matrix, kind: definition, wikipedia: Laplacian matrix, wikidata: Q772067}
   - {name: incidence matrix, kind: definition, wikipedia: Incidence matrix, wikidata: Q939272}
   - {name: totally unimodular matrix, kind: definition, wikipedia: Unimodular matrix, wikidata: Q1367055}
@@ -225,7 +225,7 @@ items:
   - {name: nonnegative matrix, kind: definition, wikipedia: Nonnegative matrix, wikidata: Q6961560}
   - {name: Perron–Frobenius theorem, kind: statement, wikipedia: Perron–Frobenius theorem, wikidata: Q1564541}
   - {name: irreducible matrix, kind: definition, wikipedia: Perron–Frobenius theorem, wikidata: Q1564541}
-  - {name: stochastic matrix, kind: definition, wikipedia: Stochastic matrix, wikidata: Q176583}
+  - {name: stochastic matrix, kind: definition, wikipedia: Stochastic matrix, wikidata: Q176583, node: 0F462493EA}
   - {name: doubly stochastic matrix, kind: definition, decl: doublyStochastic, wikipedia: Doubly stochastic matrix, wikidata: Q1243340}
   - {name: Birkhoff–von Neumann theorem, kind: statement, decl: doublyStochastic_eq_convexHull_permMatrix, wikipedia: Doubly stochastic matrix, wikidata: Q1243340, mathlib: [mathlib-1000]}
   - {name: majorization, kind: definition, wikipedia: Majorization, wikidata: Q1994695}
@@ -233,9 +233,9 @@ items:
   # Matrix analysis
   - {name: matrix norm, kind: definition, decl: Matrix.linftyOpNormedAddCommGroup, wikipedia: Matrix norm, wikidata: Q939253}
   - {name: Frobenius norm, kind: definition, decl: Matrix.frobeniusNormedAddCommGroup, wikipedia: Matrix norm, wikidata: Q939253}
-  - {name: operator norm, kind: definition, wikipedia: Operator norm, wikidata: Q980557}
+  - {name: operator norm, kind: definition, wikipedia: Operator norm, wikidata: Q980557, node: 06EKW1AKXF}
   - {name: condition number, kind: definition, wikipedia: Condition number, wikidata: Q1147936}
-  - {name: matrix exponential, kind: definition, decl: NormedSpace.exp, wikipedia: Matrix exponential, wikidata: Q1191722, mathlib: [mathlib-undergrad]}
+  - {name: matrix exponential, kind: definition, decl: NormedSpace.exp, wikipedia: Matrix exponential, wikidata: Q1191722, mathlib: [mathlib-undergrad], node: 020M04FN1H}
   - {name: Jacobi's formula for the determinant of the exponential, kind: statement, wikipedia: Matrix exponential, wikidata: Q1191722}
   - {name: logarithm of a matrix, kind: definition, wikipedia: Logarithm of a matrix, wikidata: Q902017}
   - {name: square root of a matrix, kind: definition, wikipedia: Square root of a matrix, wikidata: Q964330}
@@ -249,18 +249,18 @@ items:
   - {name: Sylvester equation, kind: definition, wikipedia: Sylvester equation, wikidata: Q3730848}
   - {name: Lyapunov equation, kind: definition, wikipedia: Lyapunov equation, wikidata: Q1028945}
   - {name: algebraic Riccati equation, kind: definition, wikipedia: Algebraic Riccati equation, wikidata: Q4723989}
-  - {name: general linear group, kind: object, decl: Matrix.GeneralLinearGroup, wikipedia: General linear group, wikidata: Q524607, mathlib: [mathlib-undergrad]}
-  - {name: special linear group, kind: object, decl: Matrix.SpecialLinearGroup, wikipedia: Special linear group, wikidata: Q2140900, mathlib: [mathlib-undergrad]}
-  - {name: orthogonal group, kind: object, wikipedia: Orthogonal group, wikidata: Q1783179}
-  - {name: unitary group, kind: object, wikipedia: Unitary group, wikidata: Q1500617}
+  - {name: general linear group, kind: object, decl: Matrix.GeneralLinearGroup, wikipedia: General linear group, wikidata: Q524607, mathlib: [mathlib-undergrad], node: 0FCHE902D7}
+  - {name: special linear group, kind: object, decl: Matrix.SpecialLinearGroup, wikipedia: Special linear group, wikidata: Q2140900, mathlib: [mathlib-undergrad], node: 0V9PMN0RBH}
+  - {name: orthogonal group, kind: object, wikipedia: Orthogonal group, wikidata: Q1783179, node: 0TKYAEJ8N7}
+  - {name: unitary group, kind: object, wikipedia: Unitary group, wikidata: Q1500617, node: 0R9R0Y1HDK}
   - {name: symplectic group, kind: object, wikipedia: Symplectic group, wikidata: Q936434}
   - {name: matrix pencil, kind: definition, wikipedia: Matrix pencil, wikidata: Q3739929}
   - {name: matrix completion, kind: problem, wikipedia: Matrix completion, wikidata: Q6787865}
   # Multilinear algebra
-  - {name: multilinear map, kind: definition, wikipedia: Multilinear map, wikidata: Q1952404}
-  - {name: tensor product of vector spaces, kind: definition, decl: TensorProduct, wikipedia: Tensor product, wikidata: Q1163016, mathlib: [mathlib-overview]}
+  - {name: multilinear map, kind: definition, wikipedia: Multilinear map, wikidata: Q1952404, node: 0443XNARDV}
+  - {name: tensor product of vector spaces, kind: definition, decl: TensorProduct, wikipedia: Tensor product, wikidata: Q1163016, mathlib: [mathlib-overview], node: 0BF2DE2SYK}
   - {name: tensor algebra, kind: definition, decl: TensorAlgebra, wikipedia: Tensor algebra, wikidata: Q2296021, mathlib: [mathlib-overview]}
-  - {name: exterior algebra, kind: definition, decl: ExteriorAlgebra, wikipedia: Exterior algebra, wikidata: Q1196652, mathlib: [mathlib-overview]}
+  - {name: exterior algebra, kind: definition, decl: ExteriorAlgebra, wikipedia: Exterior algebra, wikidata: Q1196652, mathlib: [mathlib-overview], node: 0MDMZ965VE}
   - {name: symmetric algebra, kind: definition, wikipedia: Symmetric algebra, wikidata: Q1052674}
   - {name: Clifford algebra, kind: definition, decl: CliffordAlgebra, wikipedia: Clifford algebra, wikidata: Q674689, mathlib: [mathlib-overview]}
   - {name: tensor rank, kind: definition, wikipedia: Tensor rank decomposition, wikidata: Q5013788}

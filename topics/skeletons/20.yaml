@@ -12,59 +12,59 @@ sources:
 items:
   # Foundations
   - {name: group, kind: definition, decl: Group, wikipedia: Group (mathematics), wikidata: Q83478, mathlib: [mathlib-undergrad, mathlib-overview], node: G5S1M9}
-  - {name: abelian group, kind: definition, decl: CommGroup, wikipedia: Abelian group, wikidata: Q181296}
-  - {name: subgroup, kind: definition, decl: Subgroup, wikipedia: Subgroup, wikidata: Q466109, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: group homomorphism, kind: definition, decl: MonoidHom, wikipedia: Group homomorphism, wikidata: Q868169, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: kernel of a homomorphism, kind: definition, decl: MonoidHom.ker, wikipedia: Kernel (algebra), wikidata: Q574844}
-  - {name: automorphism group, kind: definition, decl: MulAut, wikipedia: Automorphism group, wikidata: Q60790315}
-  - {name: inner automorphism, kind: definition, wikipedia: Inner automorphism, wikidata: Q1139583}
-  - {name: outer automorphism group, kind: definition, wikipedia: Outer automorphism group, wikidata: Q77980689}
-  - {name: order of a group, kind: definition, wikipedia: Order (group theory), wikidata: Q589491}
-  - {name: order of an element, kind: definition, decl: orderOf, wikipedia: Order (group theory), wikidata: Q589491, mathlib: [mathlib-undergrad]}
-  - {name: exponent of a group, kind: definition, decl: Monoid.exponent, wikipedia: Torsion group, wikidata: Q1551033}
-  - {name: cyclic group, kind: definition, decl: IsCyclic, wikipedia: Cyclic group, wikidata: Q245462, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: generating set of a group, kind: definition, decl: Subgroup.zpowers, wikipedia: Generating set of a group, wikidata: Q734209}
-  - {name: finitely generated group, kind: definition, decl: Group.FG, wikipedia: Finitely generated group, wikidata: Q21083858}
+  - {name: abelian group, kind: definition, decl: CommGroup, wikipedia: Abelian group, wikidata: Q181296, node: 082GHNPJ53}
+  - {name: subgroup, kind: definition, decl: Subgroup, wikipedia: Subgroup, wikidata: Q466109, mathlib: [mathlib-undergrad, mathlib-overview], node: 0X1JXT47GA}
+  - {name: group homomorphism, kind: definition, decl: MonoidHom, wikipedia: Group homomorphism, wikidata: Q868169, mathlib: [mathlib-undergrad, mathlib-overview], node: 0JYTG5K9Y4}
+  - {name: kernel of a homomorphism, kind: definition, decl: MonoidHom.ker, wikipedia: Kernel (algebra), wikidata: Q574844, node: 0W88CEGQP1}
+  - {name: automorphism group, kind: definition, decl: MulAut, wikipedia: Automorphism group, wikidata: Q60790315, node: 0K1SCPBNKJ}
+  - {name: inner automorphism, kind: definition, wikipedia: Inner automorphism, wikidata: Q1139583, node: 0RN00NTM3S}
+  - {name: outer automorphism group, kind: definition, wikipedia: Outer automorphism group, wikidata: Q77980689, node: 0Q8Y862DTZ}
+  - {name: order of a group, kind: definition, wikipedia: Order (group theory), wikidata: Q589491, node: 0B85S2V2DR}
+  - {name: order of an element, kind: definition, decl: orderOf, wikipedia: Order (group theory), wikidata: Q589491, mathlib: [mathlib-undergrad], node: 0WE2NHZJ7B}
+  - {name: exponent of a group, kind: definition, decl: Monoid.exponent, wikipedia: Torsion group, wikidata: Q1551033, node: 0ZDW0H0VX4}
+  - {name: cyclic group, kind: definition, decl: IsCyclic, wikipedia: Cyclic group, wikidata: Q245462, mathlib: [mathlib-undergrad, mathlib-overview], node: 0KVGH0J5B3}
+  - {name: generating set of a group, kind: definition, decl: Subgroup.zpowers, wikipedia: Generating set of a group, wikidata: Q734209, node: 0MBV2VHMXA}
+  - {name: finitely generated group, kind: definition, decl: Group.FG, wikipedia: Finitely generated group, wikidata: Q21083858, node: 082DWWXMRJ}
   - {name: coset, kind: definition, wikipedia: Coset, wikidata: Q751969}
-  - {name: index of a subgroup, kind: definition, decl: Subgroup.index, wikipedia: Index of a subgroup, wikidata: Q1464168, mathlib: [mathlib-overview]}
+  - {name: index of a subgroup, kind: definition, decl: Subgroup.index, wikipedia: Index of a subgroup, wikidata: Q1464168, mathlib: [mathlib-overview], node: 0DTXBQPA2S}
   - {name: Lagrange's theorem, kind: statement, decl: Subgroup.card_subgroup_dvd_card, wikipedia: Lagrange's theorem (group theory), wikidata: Q505798, mathlib: [mathlib-overview, mathlib-100, mathlib-1000], node: 3C53TD}
-  - {name: normal subgroup, kind: definition, decl: Subgroup.Normal, wikipedia: Normal subgroup, wikidata: Q743179, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: quotient group, kind: definition, decl: HasQuotient, wikipedia: Quotient group, wikidata: Q1138961}
-  - {name: first isomorphism theorem, kind: statement, decl: QuotientGroup.quotientKerEquivRange, wikipedia: Isomorphism theorems, wikidata: Q1065966, mathlib: [mathlib-overview, mathlib-1000]}
-  - {name: second isomorphism theorem, kind: statement, decl: QuotientGroup.quotientInfEquivProdNormalQuotient, wikipedia: Isomorphism theorems, wikidata: Q1065966, mathlib: [mathlib-overview, mathlib-1000]}
-  - {name: third isomorphism theorem, kind: statement, decl: QuotientGroup.quotientQuotientEquivQuotient, wikipedia: Isomorphism theorems, wikidata: Q1065966, mathlib: [mathlib-overview, mathlib-1000]}
-  - {name: correspondence theorem, kind: statement, wikipedia: Correspondence theorem, wikidata: Q3527189}
-  - {name: center of a group, kind: definition, decl: Subgroup.center, wikipedia: Center (group theory), wikidata: Q1195852}
-  - {name: centralizer, kind: definition, decl: Subgroup.centralizer, wikipedia: Centralizer and normalizer, wikidata: Q190629}
-  - {name: normalizer, kind: definition, decl: Subgroup.normalizer, wikipedia: Centralizer and normalizer, wikidata: Q190629}
-  - {name: conjugacy class, kind: definition, wikipedia: Conjugacy class, wikidata: Q1353233}
-  - {name: class equation, kind: statement, decl: Group.card_center_add_sum_card_noncenter_eq_card, wikipedia: Conjugacy class, wikidata: Q1353233}
+  - {name: normal subgroup, kind: definition, decl: Subgroup.Normal, wikipedia: Normal subgroup, wikidata: Q743179, mathlib: [mathlib-undergrad, mathlib-overview], node: 0CB0DX5BVV}
+  - {name: quotient group, kind: definition, decl: HasQuotient, wikipedia: Quotient group, wikidata: Q1138961, node: 0KYX2N69J0}
+  - {name: first isomorphism theorem, kind: statement, decl: QuotientGroup.quotientKerEquivRange, wikipedia: Isomorphism theorems, wikidata: Q1065966, mathlib: [mathlib-overview, mathlib-1000], node: 0CXXJNG5B6}
+  - {name: second isomorphism theorem, kind: statement, decl: QuotientGroup.quotientInfEquivProdNormalQuotient, wikipedia: Isomorphism theorems, wikidata: Q1065966, mathlib: [mathlib-overview, mathlib-1000], node: 0PPP2J2DJV}
+  - {name: third isomorphism theorem, kind: statement, decl: QuotientGroup.quotientQuotientEquivQuotient, wikipedia: Isomorphism theorems, wikidata: Q1065966, mathlib: [mathlib-overview, mathlib-1000], node: 0TJ1V9DDPC}
+  - {name: correspondence theorem, kind: statement, wikipedia: Correspondence theorem, wikidata: Q3527189, node: 0S9ZVZ34MD}
+  - {name: center of a group, kind: definition, decl: Subgroup.center, wikipedia: Center (group theory), wikidata: Q1195852, node: 0DZ93493VN}
+  - {name: centralizer, kind: definition, decl: Subgroup.centralizer, wikipedia: Centralizer and normalizer, wikidata: Q190629, node: 02YYV36BFM}
+  - {name: normalizer, kind: definition, decl: Subgroup.normalizer, wikipedia: Centralizer and normalizer, wikidata: Q190629, node: 0YGN3VAA0D}
+  - {name: conjugacy class, kind: definition, wikipedia: Conjugacy class, wikidata: Q1353233, node: 0DEBXAJ5SA}
+  - {name: class equation, kind: statement, decl: Group.card_center_add_sum_card_noncenter_eq_card, wikipedia: Conjugacy class, wikidata: Q1353233, node: 08BPSC6YTE}
   - {name: commutator, kind: definition, decl: commutator, wikipedia: Commutator, wikidata: Q2989763}
-  - {name: commutator subgroup, kind: definition, wikipedia: Commutator subgroup, wikidata: Q522216}
-  - {name: abelianization, kind: definition, decl: Abelianization, wikipedia: Commutator subgroup, wikidata: Q522216, mathlib: [mathlib-overview]}
-  - {name: characteristic subgroup, kind: definition, decl: Subgroup.Characteristic, wikipedia: Characteristic subgroup, wikidata: Q747027}
-  - {name: normal core, kind: definition, decl: Subgroup.normalCore, wikipedia: Core (group theory), wikidata: Q3010804}
-  - {name: direct product of groups, kind: definition, wikipedia: Direct product of groups, wikidata: Q2725924}
-  - {name: semidirect product, kind: definition, decl: SemidirectProduct, wikipedia: Semidirect product, wikidata: Q291126}
+  - {name: commutator subgroup, kind: definition, wikipedia: Commutator subgroup, wikidata: Q522216, node: 0ASGSTXSBW}
+  - {name: abelianization, kind: definition, decl: Abelianization, wikipedia: Commutator subgroup, wikidata: Q522216, mathlib: [mathlib-overview], node: 0AQZV0905N}
+  - {name: characteristic subgroup, kind: definition, decl: Subgroup.Characteristic, wikipedia: Characteristic subgroup, wikidata: Q747027, node: 0KABPMRHM2}
+  - {name: normal core, kind: definition, decl: Subgroup.normalCore, wikipedia: Core (group theory), wikidata: Q3010804, node: 0GETX79CJN}
+  - {name: direct product of groups, kind: definition, wikipedia: Direct product of groups, wikidata: Q2725924, node: 00HF4RJ5QN}
+  - {name: semidirect product, kind: definition, decl: SemidirectProduct, wikipedia: Semidirect product, wikidata: Q291126, node: 0H3WZXCZNF}
   - {name: wreath product, kind: definition, decl: RegularWreathProduct, wikipedia: Wreath product, wikidata: Q1786640}
   - {name: group extension, kind: definition, wikipedia: Group extension, wikidata: Q3041173}
   - {name: torsion group, kind: definition, decl: Monoid.IsTorsion, wikipedia: Torsion group, wikidata: Q1551033}
   - {name: torsion-free group, kind: definition, decl: IsMulTorsionFree, wikipedia: Torsion (algebra), wikidata: Q382874}
   # Group actions and permutation groups
-  - {name: group action, kind: definition, decl: MulAction, wikipedia: Group action, wikidata: Q288465, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: group action, kind: definition, decl: MulAction, wikipedia: Group action, wikidata: Q288465, mathlib: [mathlib-undergrad, mathlib-overview], node: 0WCY42EV9V}
   - {name: orbit, kind: definition, decl: MulAction.orbit, wikipedia: Group action, wikidata: Q288465, mathlib: [mathlib-undergrad]}
-  - {name: stabilizer, kind: definition, decl: MulAction.stabilizer, wikipedia: Group action, wikidata: Q288465, mathlib: [mathlib-undergrad]}
-  - {name: orbit-stabilizer theorem, kind: statement, decl: MulAction.orbitEquivQuotientStabilizer, wikipedia: Group action, wikidata: Q288465, mathlib: [mathlib-undergrad, mathlib-1000]}
-  - {name: Burnside's lemma, kind: statement, decl: MulAction.sum_card_fixedBy_eq_card_orbits_mul_card_group, wikipedia: Burnside's lemma, wikidata: Q1330377, mathlib: [mathlib-overview]}
+  - {name: stabilizer, kind: definition, decl: MulAction.stabilizer, wikipedia: Group action, wikidata: Q288465, mathlib: [mathlib-undergrad], node: 0AYMP41THN}
+  - {name: orbit-stabilizer theorem, kind: statement, decl: MulAction.orbitEquivQuotientStabilizer, wikipedia: Group action, wikidata: Q288465, mathlib: [mathlib-undergrad, mathlib-1000], node: 0E2HSCKZ6C}
+  - {name: Burnside's lemma, kind: statement, decl: MulAction.sum_card_fixedBy_eq_card_orbits_mul_card_group, wikipedia: Burnside's lemma, wikidata: Q1330377, mathlib: [mathlib-overview], node: 0Z47M1B2VS}
   - {name: Pólya enumeration theorem, kind: statement, wikipedia: Pólya enumeration theorem, wikidata: Q1037559}
-  - {name: Cayley's theorem, kind: statement, decl: Equiv.Perm.subgroupOfMulAction, wikipedia: Cayley's theorem, wikidata: Q179208, mathlib: [mathlib-overview, mathlib-1000]}
-  - {name: symmetric group, kind: definition, decl: Equiv.Perm, wikipedia: Symmetric group, wikidata: Q849512, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: permutation, kind: definition, wikipedia: Permutation, wikidata: Q161519}
-  - {name: sign of a permutation, kind: definition, decl: Equiv.Perm.sign, wikipedia: Parity of a permutation, wikidata: Q1064405, mathlib: [mathlib-undergrad]}
-  - {name: alternating group, kind: definition, decl: alternatingGroup, wikipedia: Alternating group, wikidata: Q438814, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: simplicity of the alternating groups, kind: statement, decl: alternatingGroup.isSimpleGroup, wikipedia: Alternating group, wikidata: Q438814, mathlib: [mathlib-overview]}
+  - {name: Cayley's theorem, kind: statement, decl: Equiv.Perm.subgroupOfMulAction, wikipedia: Cayley's theorem, wikidata: Q179208, mathlib: [mathlib-overview, mathlib-1000], node: 0151VYVX27}
+  - {name: symmetric group, kind: definition, decl: Equiv.Perm, wikipedia: Symmetric group, wikidata: Q849512, mathlib: [mathlib-undergrad, mathlib-overview], node: 0515A6D2Y1}
+  - {name: permutation, kind: definition, wikipedia: Permutation, wikidata: Q161519, node: 05RWFKVTJ7}
+  - {name: sign of a permutation, kind: definition, decl: Equiv.Perm.sign, wikipedia: Parity of a permutation, wikidata: Q1064405, mathlib: [mathlib-undergrad], node: 02DKV69ZH0}
+  - {name: alternating group, kind: definition, decl: alternatingGroup, wikipedia: Alternating group, wikidata: Q438814, mathlib: [mathlib-undergrad, mathlib-overview], node: 0Z5905Q73D}
+  - {name: simplicity of the alternating groups, kind: statement, decl: alternatingGroup.isSimpleGroup, wikipedia: Alternating group, wikidata: Q438814, mathlib: [mathlib-overview], node: 0ARPRJQWZ2}
   - {name: permutation group, kind: definition, wikipedia: Permutation group, wikidata: Q1412905}
-  - {name: transitive action, kind: definition, decl: MulAction.IsPretransitive, wikipedia: Group action, wikidata: Q288465}
+  - {name: transitive action, kind: definition, decl: MulAction.IsPretransitive, wikipedia: Group action, wikidata: Q288465, node: 02GK6HZYBT}
   - {name: multiply transitive group action, kind: definition, wikipedia: Multiply transitive group action, wikidata: Q4596974}
   - {name: primitive permutation group, kind: definition, decl: MulAction.IsPreprimitive, wikipedia: Primitive permutation group, wikidata: Q7243579}
   - {name: block system, kind: definition, decl: MulAction.IsBlock, wikipedia: Block (permutation group theory), wikidata: Q4927124}
@@ -75,11 +75,11 @@ items:
   - {name: Mathieu groups, kind: object, wikipedia: Mathieu group, wikidata: Q934200}
   - {name: Schreier–Sims algorithm, kind: concept, wikipedia: Schreier–Sims algorithm, wikidata: Q7432874}
   # Finite groups
-  - {name: Cauchy's theorem, kind: statement, decl: exists_prime_orderOf_dvd_card, wikipedia: Cauchy's theorem (group theory), wikidata: Q1139041, mathlib: [mathlib-1000]}
-  - {name: p-group, kind: definition, decl: IsPGroup, wikipedia: P-group, wikidata: Q286972}
-  - {name: Sylow subgroup, kind: definition, decl: Sylow, wikipedia: Sylow theorems, wikidata: Q1057919}
+  - {name: Cauchy's theorem, kind: statement, decl: exists_prime_orderOf_dvd_card, wikipedia: Cauchy's theorem (group theory), wikidata: Q1139041, mathlib: [mathlib-1000], node: 0JM7PA288B}
+  - {name: p-group, kind: definition, decl: IsPGroup, wikipedia: P-group, wikidata: Q286972, node: 06QYRTX9KQ}
+  - {name: Sylow subgroup, kind: definition, decl: Sylow, wikipedia: Sylow theorems, wikidata: Q1057919, node: 0JWZX6FKSH}
   - {name: Sylow theorems, kind: statement, decl: Sylow.exists_subgroup_card_pow_prime, wikipedia: Sylow theorems, wikidata: Q1057919, mathlib: [mathlib-overview, mathlib-100, mathlib-1000]}
-  - {name: Frattini argument, kind: statement, decl: Sylow.normalizer_sup_eq_top, wikipedia: Frattini's argument, wikidata: Q1053997}
+  - {name: Frattini argument, kind: statement, decl: Sylow.normalizer_sup_eq_top, wikipedia: Frattini's argument, wikidata: Q1053997, node: 0QTZDKJEDV}
   - {name: Frattini subgroup, kind: definition, decl: frattini, wikipedia: Frattini subgroup, wikidata: Q176244}
   - {name: Fitting subgroup, kind: definition, wikipedia: Fitting subgroup, wikidata: Q3492011}
   - {name: Hall subgroup, kind: definition, wikipedia: Hall subgroup, wikidata: Q1571916}
@@ -88,32 +88,32 @@ items:
   - {name: transfer homomorphism, kind: definition, decl: MonoidHom.transfer, wikipedia: Transfer (group theory), wikidata: Q3537483}
   - {name: focal subgroup theorem, kind: statement, wikipedia: Focal subgroup theorem, wikidata: Q5463860}
   - {name: Z* theorem, kind: statement, wikipedia: Z* theorem, wikidata: Q8062800}
-  - {name: simple group, kind: definition, decl: IsSimpleGroup, wikipedia: Simple group, wikidata: Q571124, mathlib: [mathlib-overview]}
-  - {name: composition series, kind: definition, decl: CompositionSeries, wikipedia: Composition series, wikidata: Q2525646}
-  - {name: Jordan–Hölder theorem, kind: statement, decl: CompositionSeries.jordan_holder, wikipedia: Composition series, wikidata: Q2525646, mathlib: [mathlib-1000]}
+  - {name: simple group, kind: definition, decl: IsSimpleGroup, wikipedia: Simple group, wikidata: Q571124, mathlib: [mathlib-overview], node: 0YMYMNQ0QZ}
+  - {name: composition series, kind: definition, decl: CompositionSeries, wikipedia: Composition series, wikidata: Q2525646, node: 0XV2A49X6Q}
+  - {name: Jordan–Hölder theorem, kind: statement, decl: CompositionSeries.jordan_holder, wikipedia: Composition series, wikidata: Q2525646, mathlib: [mathlib-1000], node: 0E088ZP533}
   - {name: Schreier refinement theorem, kind: statement, wikipedia: Schreier refinement theorem, wikidata: Q7432872}
   - {name: Zassenhaus lemma, kind: statement, wikipedia: Zassenhaus lemma, wikidata: Q3229348}
   - {name: subnormal subgroup, kind: definition, decl: Subgroup.IsSubnormal, wikipedia: Subnormal subgroup, wikidata: Q2361983}
-  - {name: solvable group, kind: definition, decl: IsSolvable, wikipedia: Solvable group, wikidata: Q759832}
-  - {name: derived series, kind: definition, decl: derivedSeries, wikipedia: Commutator subgroup, wikidata: Q522216}
-  - {name: nilpotent group, kind: definition, decl: Group.IsNilpotent, wikipedia: Nilpotent group, wikidata: Q1755242, mathlib: [mathlib-overview]}
-  - {name: lower central series, kind: definition, decl: Subgroup.lowerCentralSeries, wikipedia: Central series, wikidata: Q5062152}
-  - {name: upper central series, kind: definition, decl: Subgroup.upperCentralSeries, wikipedia: Central series, wikidata: Q5062152}
+  - {name: solvable group, kind: definition, decl: IsSolvable, wikipedia: Solvable group, wikidata: Q759832, node: 0FXJ7YFMMX}
+  - {name: derived series, kind: definition, decl: derivedSeries, wikipedia: Commutator subgroup, wikidata: Q522216, node: 0Q5G5DJ4P2}
+  - {name: nilpotent group, kind: definition, decl: Group.IsNilpotent, wikipedia: Nilpotent group, wikidata: Q1755242, mathlib: [mathlib-overview], node: 0Q7MMQHC1P}
+  - {name: lower central series, kind: definition, decl: Subgroup.lowerCentralSeries, wikipedia: Central series, wikidata: Q5062152, node: 0K98R7A4VC}
+  - {name: upper central series, kind: definition, decl: Subgroup.upperCentralSeries, wikipedia: Central series, wikidata: Q5062152, node: 0XW54DH28V}
   - {name: nilpotency class, kind: definition, decl: Group.nilpotencyClass, wikipedia: Nilpotent group, wikidata: Q1755242}
   - {name: supersolvable group, kind: definition, wikipedia: Supersolvable group, wikidata: Q7644153}
   - {name: polycyclic group, kind: definition, wikipedia: Polycyclic group, wikidata: Q1658427}
-  - {name: Burnside's p^a q^b theorem, kind: statement, wikipedia: Burnside's theorem, wikidata: Q1996305}
+  - {name: Burnside's p^a q^b theorem, kind: statement, wikipedia: Burnside's theorem, wikidata: Q1996305, node: 0FMAQSB1SC}
   - {name: Feit–Thompson theorem, kind: statement, wikipedia: Feit–Thompson theorem, wikidata: Q909517}
   - {name: Brauer–Fowler theorem, kind: statement, wikipedia: Brauer–Fowler theorem, wikidata: Q4958229}
   - {name: Z-group, kind: definition, decl: IsZGroup, wikipedia: Z-group, wikidata: Q8062835}
-  - {name: dihedral group, kind: example, decl: DihedralGroup, wikipedia: Dihedral group, wikidata: Q558339}
-  - {name: quaternion group, kind: example, decl: QuaternionGroup, wikipedia: Quaternion group, wikidata: Q1335680}
-  - {name: Klein four-group, kind: example, decl: IsKleinFour, wikipedia: Klein four-group, wikidata: Q550593}
+  - {name: dihedral group, kind: example, decl: DihedralGroup, wikipedia: Dihedral group, wikidata: Q558339, node: 0JZ27DMJ5D}
+  - {name: quaternion group, kind: example, decl: QuaternionGroup, wikipedia: Quaternion group, wikidata: Q1335680, node: 0NRJGW864D}
+  - {name: Klein four-group, kind: example, decl: IsKleinFour, wikipedia: Klein four-group, wikidata: Q550593, node: 0PMRQJVTME}
   - {name: extraspecial group, kind: definition, wikipedia: Extraspecial group, wikidata: Q5422174}
   - {name: commuting probability, kind: concept, decl: commProb, wikipedia: Commuting probability, wikidata: Q56887820}
   - {name: list of small groups, kind: example, wikipedia: List of small groups, wikidata: Q1332566}
   # Classification of finite simple groups
-  - {name: classification of finite simple groups, kind: statement, wikipedia: Classification of finite simple groups, wikidata: Q1340623}
+  - {name: classification of finite simple groups, kind: statement, wikipedia: Classification of finite simple groups, wikidata: Q1340623, node: 06J6P03MG7}
   - {name: group of Lie type, kind: definition, wikipedia: Group of Lie type, wikidata: Q1406425}
   - {name: Chevalley group, kind: definition, wikipedia: Group of Lie type, wikidata: Q1406425}
   - {name: Steinberg group, kind: definition, wikipedia: Group of Lie type, wikidata: Q1406425}
@@ -157,8 +157,8 @@ items:
   - {name: Deligne–Lusztig theory, kind: concept, wikipedia: Deligne–Lusztig theory, wikidata: Q5253966}
   - {name: Burnside ring, kind: definition, wikipedia: Burnside ring, wikidata: Q5000158}
   # Infinite groups and combinatorial group theory
-  - {name: free group, kind: definition, decl: FreeGroup, wikipedia: Free group, wikidata: Q431078, mathlib: [mathlib-overview]}
-  - {name: free abelian group, kind: definition, decl: FreeAbelianGroup, wikipedia: Free abelian group, wikidata: Q1454111}
+  - {name: free group, kind: definition, decl: FreeGroup, wikipedia: Free group, wikidata: Q431078, mathlib: [mathlib-overview], node: 0KTW26C80J}
+  - {name: free abelian group, kind: definition, decl: FreeAbelianGroup, wikipedia: Free abelian group, wikidata: Q1454111, node: 0WJX8MGG37}
   - {name: group presentation, kind: definition, decl: PresentedGroup, wikipedia: Presentation of a group, wikidata: Q915906, mathlib: [mathlib-overview]}
   - {name: finitely presented group, kind: definition, wikipedia: Presentation of a group, wikidata: Q915906}
   - {name: Tietze transformations, kind: concept, wikipedia: Tietze transformations, wikidata: Q7801155}
@@ -191,7 +191,7 @@ items:
   - {name: Andrews–Curtis conjecture, kind: conjecture, wikipedia: Andrews–Curtis conjecture, wikidata: Q2409999}
   # Geometric group theory
   - {name: geometric group theory, kind: concept, wikipedia: Geometric group theory, wikidata: Q2662474}
-  - {name: Cayley graph, kind: definition, wikipedia: Cayley graph, wikidata: Q859174}
+  - {name: Cayley graph, kind: definition, wikipedia: Cayley graph, wikidata: Q859174, node: 0GYQK9NDJF}
   - {name: Schreier coset graph, kind: definition, decl: Quiver.SchreierGraph, wikipedia: Schreier coset graph, wikidata: Q7432869}
   - {name: word metric, kind: definition, wikipedia: Word metric, wikidata: Q4423782}
   - {name: quasi-isometry, kind: definition, wikipedia: Quasi-isometry, wikidata: Q614527}
@@ -213,9 +213,9 @@ items:
   - {name: lamplighter group, kind: example, wikipedia: Lamplighter group, wikidata: Q6482453}
   - {name: Banach–Tarski paradox, kind: statement, wikipedia: Banach–Tarski paradox, wikidata: Q737851}
   # Abelian groups
-  - {name: structure theorem for finitely generated abelian groups, kind: statement, decl: AddCommGroup.equiv_free_prod_directSum_zmod, wikipedia: Finitely generated abelian group, wikidata: Q142140, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: classification of finite abelian groups, kind: statement, decl: AddCommGroup.equiv_directSum_zmod_of_finite, wikipedia: Finitely generated abelian group, wikidata: Q142140}
-  - {name: torsion subgroup, kind: definition, decl: CommGroup.torsion, wikipedia: Torsion subgroup, wikidata: Q2293759}
+  - {name: structure theorem for finitely generated abelian groups, kind: statement, decl: AddCommGroup.equiv_free_prod_directSum_zmod, wikipedia: Finitely generated abelian group, wikidata: Q142140, mathlib: [mathlib-undergrad, mathlib-overview], node: 0RY0B72XAS}
+  - {name: classification of finite abelian groups, kind: statement, decl: AddCommGroup.equiv_directSum_zmod_of_finite, wikipedia: Finitely generated abelian group, wikidata: Q142140, node: 07CQR9BW3R}
+  - {name: torsion subgroup, kind: definition, decl: CommGroup.torsion, wikipedia: Torsion subgroup, wikidata: Q2293759, node: 0DBWXQRXQJ}
   - {name: divisible group, kind: definition, wikipedia: Divisible group, wikidata: Q1782332}
   - {name: Prüfer group, kind: example, wikipedia: Prüfer group, wikidata: Q2281199}
   - {name: rank of an abelian group, kind: definition, wikipedia: Rank of an abelian group, wikidata: Q1260803}
@@ -254,9 +254,9 @@ items:
   - {name: Tate cohomology, kind: definition, wikipedia: Tate cohomology group, wikidata: Q7687974}
   # Groupoids, semigroups and further generalizations
   - {name: groupoid, kind: definition, decl: CategoryTheory.Groupoid, wikipedia: Groupoid, wikidata: Q1196038}
-  - {name: monoid, kind: definition, decl: Monoid, wikipedia: Monoid, wikidata: Q208237}
+  - {name: monoid, kind: definition, decl: Monoid, wikipedia: Monoid, wikidata: Q208237, node: 0N6R902FG1}
   - {name: free monoid, kind: definition, decl: FreeMonoid, wikipedia: Free monoid, wikidata: Q5500266}
-  - {name: semigroup, kind: definition, decl: Semigroup, wikipedia: Semigroup, wikidata: Q207348}
+  - {name: semigroup, kind: definition, decl: Semigroup, wikipedia: Semigroup, wikidata: Q207348, node: 0XMEM406JM}
   - {name: inverse semigroup, kind: definition, wikipedia: Inverse semigroup, wikidata: Q3022118}
   - {name: regular semigroup, kind: definition, wikipedia: Regular semigroup, wikidata: Q3022119}
   - {name: Green's relations, kind: definition, wikipedia: Green's relations, wikidata: Q3077964}

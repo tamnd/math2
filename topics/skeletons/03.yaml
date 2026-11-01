@@ -19,19 +19,19 @@ items:
   - {name: Burali-Forti paradox, kind: counterexample, wikipedia: Burali-Forti paradox, wikidata: Q1010269}
   - {name: Skolem's paradox, kind: example, wikipedia: Skolem's paradox, wikidata: Q1096353}
   # Propositional logic
-  - {name: propositional calculus, kind: concept, wikipedia: Propositional logic, wikidata: Q200694}
+  - {name: propositional calculus, kind: concept, wikipedia: Propositional logic, wikidata: Q200694, node: 09K9MWD2QQ}
   - {name: logical connective, kind: definition, wikipedia: Logical connective, wikidata: Q211790}
-  - {name: tautology, kind: definition, wikipedia: Tautology (logic), wikidata: Q209555}
+  - {name: tautology, kind: definition, wikipedia: Tautology (logic), wikidata: Q209555, node: 05006AJ7DZ}
   - {name: satisfiability, kind: definition, wikipedia: Satisfiability, wikidata: Q1350299}
   - {name: logical consequence, kind: definition, wikipedia: Logical consequence, wikidata: Q374182}
-  - {name: conjunctive normal form, kind: definition, wikipedia: Conjunctive normal form, wikidata: Q846564}
+  - {name: conjunctive normal form, kind: definition, wikipedia: Conjunctive normal form, wikidata: Q846564, node: 0B3D4C8YF2}
   - {name: Hilbert system, kind: definition, wikipedia: Hilbert system, wikidata: Q910361}
   - {name: natural deduction, kind: definition, wikipedia: Natural deduction, wikidata: Q1572108}
   - {name: deduction theorem, kind: statement, wikipedia: Deduction theorem, wikidata: Q1182249}
   - {name: soundness, kind: definition, wikipedia: Soundness, wikidata: Q693083}
   - {name: Craig interpolation theorem, kind: statement, wikipedia: Craig interpolation, wikidata: Q1052021}
   # First-order logic
-  - {name: first-order logic, kind: concept, wikipedia: First-order logic, wikidata: Q4055684}
+  - {name: first-order logic, kind: concept, wikipedia: First-order logic, wikidata: Q4055684, node: 086QKPF0A6}
   - {name: signature, kind: definition, decl: FirstOrder.Language, wikipedia: Signature (logic), wikidata: Q741810}
   - {name: term, kind: definition, decl: FirstOrder.Language.Term, wikipedia: Term (logic), wikidata: Q1318370}
   - {name: well-formed formula, kind: definition, decl: FirstOrder.Language.BoundedFormula, wikipedia: Well-formed formula, wikidata: Q655328}
@@ -136,7 +136,7 @@ items:
   - {name: reverse mathematics, kind: concept, wikipedia: Reverse mathematics, wikidata: Q2005236}
   - {name: lambda calculus, kind: concept, wikipedia: Lambda calculus, wikidata: Q242028}
   # Arithmetic and incompleteness
-  - {name: Peano axioms, kind: definition, wikipedia: Peano axioms, wikidata: Q842755}
+  - {name: Peano axioms, kind: definition, wikipedia: Peano axioms, wikidata: Q842755, node: 0QFT7Z76N5}
   - {name: Robinson arithmetic, kind: definition, wikipedia: Robinson arithmetic, wikidata: Q928884}
   - {name: Gödel numbering, kind: definition, decl: Encodable, wikipedia: Gödel numbering, wikidata: Q1451046}
   - {name: diagonal lemma, kind: statement, wikipedia: Diagonal lemma, wikidata: Q2904195}
@@ -165,7 +165,7 @@ items:
   - {name: Brouwer–Heyting–Kolmogorov interpretation, kind: definition, wikipedia: Brouwer–Heyting–Kolmogorov interpretation, wikidata: Q3153567}
   - {name: Heyting arithmetic, kind: definition, wikipedia: Heyting arithmetic, wikidata: Q5548813}
   - {name: double-negation translation, kind: definition, wikipedia: Double-negation translation, wikidata: Q5299605}
-  - {name: law of excluded middle, kind: statement, decl: Classical.em, wikipedia: Law of excluded middle, wikidata: Q468422}
+  - {name: law of excluded middle, kind: statement, decl: Classical.em, wikipedia: Law of excluded middle, wikidata: Q468422, node: 0RYYK8PG4S}
   - {name: constructive analysis, kind: concept, wikipedia: Constructive analysis, wikidata: Q2845197}
   - {name: intuitionistic type theory, kind: concept, wikipedia: Intuitionistic type theory, wikidata: Q6059147}
   - {name: homotopy type theory, kind: concept, wikipedia: Homotopy type theory, wikidata: Q5891840}
@@ -173,12 +173,12 @@ items:
   # Set theory: axioms and basics
   - {name: set theory, kind: concept, wikipedia: Set theory, wikidata: Q12482}
   - {name: naive set theory, kind: concept, wikipedia: Naive set theory, wikidata: Q903783}
-  - {name: Zermelo–Fraenkel set theory, kind: definition, decl: ZFSet, wikipedia: Zermelo–Fraenkel set theory, wikidata: Q191849, mathlib: [mathlib-overview]}
+  - {name: Zermelo–Fraenkel set theory, kind: definition, decl: ZFSet, wikipedia: Zermelo–Fraenkel set theory, wikidata: Q191849, mathlib: [mathlib-overview], node: 0HE5WDQ9FJ}
   - {name: axiom schema of replacement, kind: definition, wikipedia: Axiom schema of replacement, wikidata: Q1361825}
   - {name: axiom of regularity, kind: definition, decl: ZFSet.regularity, wikipedia: Axiom of regularity, wikidata: Q470981}
   - {name: axiom of choice, kind: definition, decl: Classical.choice, wikipedia: Axiom of choice, wikidata: Q179692}
-  - {name: Zorn's lemma, kind: statement, decl: zorn_le, wikipedia: Zorn's lemma, wikidata: Q290810}
-  - {name: well-ordering theorem, kind: statement, wikipedia: Well-ordering theorem, wikidata: Q1457052}
+  - {name: Zorn's lemma, kind: statement, decl: zorn_le, wikipedia: Zorn's lemma, wikidata: Q290810, node: 04RXTQA5ZA}
+  - {name: well-ordering theorem, kind: statement, wikipedia: Well-ordering theorem, wikidata: Q1457052, node: 0N109NG5ZX}
   - {name: von Neumann–Bernays–Gödel set theory, kind: definition, wikipedia: Von Neumann–Bernays–Gödel set theory, wikidata: Q278770}
   - {name: class, kind: definition, decl: Class, wikipedia: Class (set theory), wikidata: Q217594}
   - {name: von Neumann universe, kind: object, wikipedia: Von Neumann universe, wikidata: Q77887}
@@ -186,26 +186,26 @@ items:
   - {name: axiom of dependent choice, kind: definition, wikipedia: Axiom of dependent choice, wikidata: Q3303153}
   - {name: Boolean prime ideal theorem, kind: statement, wikipedia: Boolean prime ideal theorem, wikidata: Q872088}
   # Ordinals and cardinals
-  - {name: well-order, kind: definition, decl: IsWellOrder, wikipedia: Well-order, wikidata: Q659746}
-  - {name: well-founded relation, kind: definition, decl: WellFounded, wikipedia: Well-founded relation, wikidata: Q338021}
-  - {name: transfinite induction, kind: statement, wikipedia: Transfinite induction, wikidata: Q840810}
-  - {name: ordinal number, kind: definition, decl: Ordinal, wikipedia: Ordinal number, wikidata: Q191780, mathlib: [mathlib-overview]}
+  - {name: well-order, kind: definition, decl: IsWellOrder, wikipedia: Well-order, wikidata: Q659746, node: 01CGSJ0GNQ}
+  - {name: well-founded relation, kind: definition, decl: WellFounded, wikipedia: Well-founded relation, wikidata: Q338021, node: 0DQPNJNPYK}
+  - {name: transfinite induction, kind: statement, wikipedia: Transfinite induction, wikidata: Q840810, node: 0ZHQMQ2C1N}
+  - {name: ordinal number, kind: definition, decl: Ordinal, wikipedia: Ordinal number, wikidata: Q191780, mathlib: [mathlib-overview], node: 0YSCSX5YZC}
   - {name: ordinal arithmetic, kind: definition, wikipedia: Ordinal arithmetic, wikidata: Q1142215}
   - {name: Cantor normal form, kind: statement, decl: Ordinal.CNF, wikipedia: Ordinal arithmetic, wikidata: Q1142215, mathlib: [mathlib-overview]}
   - {name: normal function, kind: definition, wikipedia: Normal function, wikidata: Q7051810}
   - {name: Veblen function, kind: definition, decl: Ordinal.veblen, wikipedia: Veblen function, wikidata: Q921930}
-  - {name: cardinal number, kind: definition, decl: Cardinal, wikipedia: Cardinal number, wikidata: Q163875, mathlib: [mathlib-overview]}
-  - {name: cardinality, kind: definition, wikipedia: Cardinality, wikidata: Q4049983}
-  - {name: countable set, kind: definition, decl: Set.Countable, wikipedia: Countable set, wikidata: Q66707394}
+  - {name: cardinal number, kind: definition, decl: Cardinal, wikipedia: Cardinal number, wikidata: Q163875, mathlib: [mathlib-overview], node: 0EBACQFAZW}
+  - {name: cardinality, kind: definition, wikipedia: Cardinality, wikidata: Q4049983, node: 0G0ASKNA6Z}
+  - {name: countable set, kind: definition, decl: Set.Countable, wikipedia: Countable set, wikidata: Q66707394, node: 01TQB88H4C}
   - {name: Cantor's diagonal argument, kind: statement, wikipedia: Cantor's diagonal argument, wikidata: Q729471}
-  - {name: Cantor's theorem, kind: statement, decl: Cardinal.cantor, wikipedia: Cantor's theorem, wikidata: Q474881}
-  - {name: Schröder–Bernstein theorem, kind: statement, decl: Function.Embedding.schroeder_bernstein, wikipedia: Schröder–Bernstein theorem, wikidata: Q1033910, mathlib: [mathlib-100, mathlib-1000]}
+  - {name: Cantor's theorem, kind: statement, decl: Cardinal.cantor, wikipedia: Cantor's theorem, wikidata: Q474881, node: 0WTEMGYV2C}
+  - {name: Schröder–Bernstein theorem, kind: statement, decl: Function.Embedding.schroeder_bernstein, wikipedia: Schröder–Bernstein theorem, wikidata: Q1033910, mathlib: [mathlib-100, mathlib-1000], node: 0A9V6RKQG6}
   - {name: aleph number, kind: definition, decl: Cardinal.aleph, wikipedia: Aleph number, wikidata: Q908627, mathlib: [mathlib-overview]}
   - {name: beth number, kind: definition, decl: Cardinal.beth, wikipedia: Beth number, wikidata: Q831092, mathlib: [mathlib-overview]}
   - {name: cardinality of the continuum, kind: definition, decl: Cardinal.continuum, wikipedia: Cardinality of the continuum, wikidata: Q22952648}
   - {name: cofinality, kind: definition, decl: Ordinal.cof, wikipedia: Cofinality, wikidata: Q1283623}
   - {name: regular cardinal, kind: definition, decl: Cardinal.IsRegular, wikipedia: Regular cardinal, wikidata: Q1193137}
-  - {name: König's theorem, kind: statement, decl: Cardinal.sum_lt_prod, wikipedia: Kőnig's theorem (set theory), wikidata: Q1077462, mathlib: [mathlib-1000]}
+  - {name: König's theorem, kind: statement, decl: Cardinal.sum_lt_prod, wikipedia: Kőnig's theorem (set theory), wikidata: Q1077462, mathlib: [mathlib-1000], node: 0JP0ZF57PN}
   - {name: continuum hypothesis, kind: problem, wikipedia: Continuum hypothesis, wikidata: Q208416}
   - {name: Easton's theorem, kind: statement, wikipedia: Easton's theorem, wikidata: Q2226644}
   - {name: singular cardinals hypothesis, kind: problem, wikipedia: Singular cardinals hypothesis, wikidata: Q2289367}

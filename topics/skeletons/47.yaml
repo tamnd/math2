@@ -10,9 +10,9 @@ sources:
 items:
   # Basic notions: bounded and unbounded operators
   - {name: operator theory, kind: concept, wikipedia: Operator theory, wikidata: Q1198874}
-  - {name: linear operator, kind: definition, wikipedia: Operator (mathematics), wikidata: Q131030}
-  - {name: bounded operator, kind: definition, decl: ContinuousLinearMap, wikipedia: Bounded operator, wikidata: Q2342396, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: operator norm, kind: definition, decl: ContinuousLinearMap.opNorm, wikipedia: Operator norm, wikidata: Q980557}
+  - {name: linear operator, kind: definition, wikipedia: Operator (mathematics), wikidata: Q131030, node: 0J7H0YBFDJ}
+  - {name: bounded operator, kind: definition, decl: ContinuousLinearMap, wikipedia: Bounded operator, wikidata: Q2342396, mathlib: [mathlib-undergrad, mathlib-overview], node: 03TM135G0N}
+  - {name: operator norm, kind: definition, decl: ContinuousLinearMap.opNorm, wikipedia: Operator norm, wikidata: Q980557, node: 06EKW1AKXF}
   - {name: invertible operator, kind: definition, decl: ContinuousLinearMap.IsInvertible, wikipedia: Inverse element, wikidata: Q338057}
   - {name: Neumann series, kind: statement, decl: NormedRing.inverse_one_sub, wikipedia: Neumann series, wikidata: Q584910}
   - {name: exponential of a bounded operator, kind: definition, decl: NormedSpace.exp, wikipedia: Matrix exponential, wikidata: Q1191722, mathlib: [mathlib-undergrad]}
@@ -32,8 +32,8 @@ items:
   - {name: spectrum of an operator, kind: definition, decl: spectrum, wikipedia: Spectrum (functional analysis), wikidata: Q1365748}
   - {name: resolvent set, kind: definition, decl: resolventSet, wikipedia: Resolvent set, wikidata: Q7315720}
   - {name: resolvent, kind: definition, decl: resolvent, wikipedia: Resolvent formalism, wikidata: Q1426722}
-  - {name: eigenvalue, kind: definition, decl: Module.End.HasEigenvalue, wikipedia: Eigenvalues and eigenvectors, wikidata: Q190524, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: eigenspace, kind: definition, decl: Module.End.eigenspace, wikipedia: Eigenvalues and eigenvectors, wikidata: Q190524}
+  - {name: eigenvalue, kind: definition, decl: Module.End.HasEigenvalue, wikipedia: Eigenvalues and eigenvectors, wikidata: Q190524, mathlib: [mathlib-undergrad, mathlib-overview], node: 0BQAA2BK3Q}
+  - {name: eigenspace, kind: definition, decl: Module.End.eigenspace, wikipedia: Eigenvalues and eigenvectors, wikidata: Q190524, node: 0G0RFPG8HR}
   - {name: point spectrum, kind: definition, wikipedia: Spectrum (functional analysis), wikidata: Q1365748}
   - {name: continuous and residual spectrum, kind: definition, wikipedia: Decomposition of spectrum (functional analysis), wikidata: Q130603417}
   - {name: approximate point spectrum, kind: definition, wikipedia: Spectrum (functional analysis), wikidata: Q1365748}
@@ -46,7 +46,7 @@ items:
   - {name: numerical range, kind: definition, wikipedia: Numerical range, wikidata: Q1579053}
   - {name: Toeplitz–Hausdorff theorem, kind: statement, wikipedia: Numerical range, wikidata: Q1579053}
   # Invariant subspaces and dilations
-  - {name: invariant subspace, kind: definition, decl: Module.End.invtSubmodule, wikipedia: Invariant subspace, wikidata: Q2706744, mathlib: [mathlib-undergrad]}
+  - {name: invariant subspace, kind: definition, decl: Module.End.invtSubmodule, wikipedia: Invariant subspace, wikidata: Q2706744, mathlib: [mathlib-undergrad], node: 0ACX5QT8TE}
   - {name: invariant subspace problem, kind: problem, wikipedia: Invariant subspace problem, wikidata: Q6059532}
   - {name: Lomonosov's invariant subspace theorem, kind: statement, wikipedia: Lomonosov's invariant subspace theorem, wikidata: Q114425616}
   - {name: Beurling's theorem on shift-invariant subspaces, kind: statement, wikipedia: Beurling–Lax theorem, wikidata: Q3527017}
@@ -57,20 +57,20 @@ items:
   - {name: Sylvester equation, kind: problem, wikipedia: Sylvester equation, wikidata: Q3730848}
   - {name: Douglas' lemma, kind: statement, wikipedia: Douglas' lemma, wikidata: Q5301141}
   # Particular families of operators
-  - {name: self-adjoint operator, kind: definition, decl: IsSelfAdjoint, wikipedia: Self-adjoint operator, wikidata: Q6500908, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: self-adjoint operator, kind: definition, decl: IsSelfAdjoint, wikipedia: Self-adjoint operator, wikidata: Q6500908, mathlib: [mathlib-undergrad, mathlib-overview], node: 0NEGN5CRSC}
   - {name: real spectrum of self-adjoint operators, kind: statement, decl: IsSelfAdjoint.mem_spectrum_eq_re, wikipedia: Self-adjoint operator, wikidata: Q6500908}
   - {name: symmetric operator, kind: definition, decl: LinearMap.IsSymmetric, wikipedia: Self-adjoint operator, wikidata: Q6500908}
-  - {name: normal operator, kind: definition, decl: IsStarNormal, wikipedia: Normal operator, wikidata: Q854946, mathlib: [mathlib-undergrad]}
+  - {name: normal operator, kind: definition, decl: IsStarNormal, wikipedia: Normal operator, wikidata: Q854946, mathlib: [mathlib-undergrad], node: 0C8BR8XRTR}
   - {name: unitary operator, kind: definition, decl: unitary, wikipedia: Unitary operator, wikidata: Q1972470}
-  - {name: isometry, kind: definition, decl: LinearIsometry, wikipedia: Isometry, wikidata: Q740207}
+  - {name: isometry, kind: definition, decl: LinearIsometry, wikipedia: Isometry, wikidata: Q740207, node: 02HPP5VCZH}
   - {name: partial isometry, kind: definition, wikipedia: Partial isometry, wikidata: Q904849}
   - {name: shift operator, kind: example, wikipedia: Shift operator, wikidata: Q2278680}
   - {name: positive operator, kind: definition, decl: ContinuousLinearMap.IsPositive, wikipedia: Positive operator, wikidata: Q2627013}
   - {name: Loewner order, kind: definition, wikipedia: Loewner order, wikidata: Q25303887}
   - {name: operator monotone function, kind: definition, wikipedia: Operator monotone function, wikidata: Q55627738}
   - {name: square root of a positive operator, kind: definition, decl: CFC.sqrt, wikipedia: Square root of a matrix, wikidata: Q964330}
-  - {name: polar decomposition, kind: statement, wikipedia: Polar decomposition, wikidata: Q2101158}
-  - {name: orthogonal projection, kind: definition, decl: IsStarProjection, wikipedia: Projection (linear algebra), wikidata: Q519967}
+  - {name: polar decomposition, kind: statement, wikipedia: Polar decomposition, wikidata: Q2101158, node: 0J2C7BDJQA}
+  - {name: orthogonal projection, kind: definition, decl: IsStarProjection, wikipedia: Projection (linear algebra), wikidata: Q519967, node: 0B8KZRT28M}
   - {name: Fuglede's theorem, kind: statement, wikipedia: Fuglede's theorem, wikidata: Q5507285}
   - {name: subnormal operator, kind: definition, wikipedia: Subnormal operator, wikidata: Q7631728}
   - {name: hyponormal operator, kind: definition, wikipedia: Hyponormal operator, wikidata: Q5959976}
@@ -111,7 +111,7 @@ items:
   - {name: projection-valued measure, kind: definition, wikipedia: Projection-valued measure, wikidata: Q339722}
   - {name: continuous functional calculus, kind: concept, decl: cfc, wikipedia: Continuous functional calculus, wikidata: Q1767119}
   - {name: Borel functional calculus, kind: concept, wikipedia: Borel functional calculus, wikidata: Q829645}
-  - {name: Rayleigh quotient, kind: definition, wikipedia: Rayleigh quotient, wikidata: Q1665115}
+  - {name: Rayleigh quotient, kind: definition, wikipedia: Rayleigh quotient, wikidata: Q1665115, node: 06WHP8SE98}
   - {name: min-max theorem, kind: statement, wikipedia: Min-max theorem, wikidata: Q4454958}
   - {name: Hilbert–Pólya conjecture, kind: conjecture, wikipedia: Hilbert–Pólya conjecture, wikidata: Q2993323}
   # Self-adjoint extensions and perturbation theory
@@ -132,7 +132,7 @@ items:
   - {name: Lie–Trotter product formula, kind: statement, wikipedia: Lie product formula, wikidata: Q3077645}
   # Ordinary and partial differential operators
   - {name: Sturm–Liouville theory, kind: concept, wikipedia: Sturm–Liouville theory, wikidata: Q1154082}
-  - {name: Laplace operator, kind: definition, wikipedia: Laplace operator, wikidata: Q203484}
+  - {name: Laplace operator, kind: definition, wikipedia: Laplace operator, wikidata: Q203484, node: 0E0B6RA8K0}
   - {name: Schrödinger operator, kind: definition, wikipedia: Hamiltonian (quantum mechanics), wikidata: Q660488}
   - {name: elliptic operator, kind: definition, wikipedia: Elliptic operator, wikidata: Q427625}
   - {name: Gårding's inequality, kind: statement, wikipedia: Gårding's inequality, wikidata: Q5625933}
@@ -159,8 +159,8 @@ items:
   - {name: pseudo-differential operator, kind: definition, wikipedia: Pseudo-differential operator, wikidata: Q1644451}
   - {name: Fourier integral operator, kind: definition, wikipedia: Fourier integral operator, wikidata: Q4262191}
   # Nonlinear operators and fixed points
-  - {name: contraction mapping, kind: definition, decl: ContractingWith, wikipedia: Contraction mapping, wikidata: Q515173}
-  - {name: Banach fixed-point theorem, kind: statement, decl: ContractingWith.fixedPoint, wikipedia: Banach fixed-point theorem, wikidata: Q220680}
+  - {name: contraction mapping, kind: definition, decl: ContractingWith, wikipedia: Contraction mapping, wikidata: Q515173, node: 0QN69YA357}
+  - {name: Banach fixed-point theorem, kind: statement, decl: ContractingWith.fixedPoint, wikipedia: Banach fixed-point theorem, wikidata: Q220680, node: 0VK6VEH345}
   - {name: nonexpansive map, kind: definition, wikipedia: Metric map, wikidata: Q2713824}
   - {name: Brouwer fixed-point theorem, kind: statement, wikipedia: Brouwer fixed-point theorem, wikidata: Q1144897}
   - {name: Schauder fixed-point theorem, kind: statement, wikipedia: Schauder fixed-point theorem, wikidata: Q656176}

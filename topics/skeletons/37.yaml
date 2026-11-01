@@ -10,7 +10,7 @@ sources:
 items:
   # Basic notions
   - {name: dynamical system, kind: definition, wikipedia: Dynamical system, wikidata: Q638328}
-  - {name: flow, kind: definition, decl: Flow, wikipedia: Flow (mathematics), wikidata: Q1434290}
+  - {name: flow, kind: definition, decl: Flow, wikipedia: Flow (mathematics), wikidata: Q1434290, node: 06738GGWWK}
   - {name: discrete-time dynamical system, kind: concept, wikipedia: Dynamical system, wikidata: Q638328}
   - {name: orbit, kind: definition, wikipedia: Orbit (dynamics), wikidata: Q3884964}
   - {name: fixed point, kind: definition, decl: Function.IsFixedPt, wikipedia: Fixed point (mathematics), wikidata: Q217608}
@@ -47,7 +47,7 @@ items:
   - {name: weak mixing, kind: definition, wikipedia: Mixing (mathematics), wikidata: Q4350572}
   - {name: Kolmogorov automorphism, kind: definition, wikipedia: Kolmogorov automorphism, wikidata: Q6427427}
   - {name: Bernoulli scheme, kind: example, wikipedia: Bernoulli scheme, wikidata: Q3042439}
-  - {name: Bernoulli process, kind: example, wikipedia: Bernoulli process, wikidata: Q518831}
+  - {name: Bernoulli process, kind: example, wikipedia: Bernoulli process, wikidata: Q518831, node: 0CQQG3DEW9}
   - {name: irrational rotation, kind: example, wikipedia: Irrational rotation, wikidata: Q6073537}
   - {name: Weyl's equidistribution theorem, kind: statement, wikipedia: Equidistribution theorem, wikidata: Q3984052}
   - {name: dyadic transformation, kind: example, wikipedia: Dyadic transformation, wikidata: Q826704}
@@ -113,8 +113,8 @@ items:
   # Smooth and hyperbolic dynamics
   - {name: smooth dynamical system, kind: concept, wikipedia: Dynamical system, wikidata: Q638328}
   - {name: vector field flow, kind: definition, decl: IsIntegralCurve, wikipedia: Vector field, wikidata: Q186247}
-  - {name: hyperbolic fixed point, kind: definition, wikipedia: Hyperbolic equilibrium point, wikidata: Q3925833}
-  - {name: Hartman–Grobman theorem, kind: statement, wikipedia: Hartman–Grobman theorem, wikidata: Q211981}
+  - {name: hyperbolic fixed point, kind: definition, wikipedia: Hyperbolic equilibrium point, wikidata: Q3925833, node: 0C5PREPZWG}
+  - {name: Hartman–Grobman theorem, kind: statement, wikipedia: Hartman–Grobman theorem, wikidata: Q211981, node: 0S8WX8A4V9}
   - {name: stable manifold theorem, kind: statement, wikipedia: Stable manifold theorem, wikidata: Q7595768}
   - {name: center manifold theorem, kind: statement, wikipedia: Center manifold, wikidata: Q4504202}
   - {name: hyperbolic set, kind: definition, wikipedia: Hyperbolic set, wikidata: Q3042004}
@@ -193,9 +193,9 @@ items:
   - {name: intermittency, kind: concept, wikipedia: Intermittency, wikidata: Q1666248}
   - {name: catastrophe theory, kind: concept, wikipedia: Catastrophe theory, wikidata: Q1345659}
   # Hamiltonian dynamics
-  - {name: Hamiltonian system, kind: definition, wikipedia: Hamiltonian system, wikidata: Q2072471}
+  - {name: Hamiltonian system, kind: definition, wikipedia: Hamiltonian system, wikidata: Q2072471, node: 0EDKGA2FAK}
   - {name: symplectic map, kind: definition, wikipedia: Symplectomorphism, wikidata: Q1049064}
-  - {name: Liouville's theorem, kind: statement, wikipedia: Liouville's theorem (Hamiltonian), wikidata: Q766722}
+  - {name: Liouville's theorem, kind: statement, wikipedia: Liouville's theorem (Hamiltonian), wikidata: Q766722, node: 0EHKVRF4J6}
   - {name: Liouville–Arnold theorem, kind: statement, wikipedia: Liouville–Arnold theorem, wikidata: Q14943261}
   - {name: action-angle coordinates, kind: definition, wikipedia: Action-angle coordinates, wikidata: Q1000646}
   - {name: integrable system, kind: concept, wikipedia: Integrable system, wikidata: Q1957758}
