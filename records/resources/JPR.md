@@ -11,13 +11,6 @@ records:
         - name: Zechao Li
           role: author
       date: "2026-10-13"
-      msc:
-        - code: 49-XX
-          from: arxiv
-        - code: 90-XX
-          from: arxiv
-        - code: 93-XX
-          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG
@@ -33,7 +26,7 @@ records:
       scope:
         value: border
         rule: border-arxiv
-        by: m2 v0.6.7 scope/1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -58,9 +51,6 @@ records:
         - name: Shiwei Lan
           role: author
       date: "2026-09-28"
-      msc:
-        - code: 60-XX
-          from: arxiv
       subjects:
         - system: arxiv
           code: stat.ML
@@ -78,7 +68,7 @@ records:
       scope:
         value: border
         rule: border-arxiv
-        by: m2 v0.6.7 scope/1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055

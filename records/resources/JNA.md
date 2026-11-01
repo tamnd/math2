@@ -10,10 +10,14 @@ records:
           role: author
       date: "2024-01-21"
       msc:
-        - code: 14-XX
-          from: arxiv
-        - code: 94-XX
-          from: arxiv
+        - code: 94B27
+          from: zbmath_search
+        - code: 14G50
+          from: zbmath_search
+        - code: 14C17
+          from: zbmath_search
+        - code: 14L35
+          from: zbmath_search
       subjects:
         - system: arxiv
           code: cs.IT
@@ -34,7 +38,7 @@ records:
       scope:
         value: in
         rule: S2
-        by: m2 v0.6.7 scope/1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055

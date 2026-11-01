@@ -8,6 +8,9 @@ records:
           role: instructor
         - name: S. Dharmaraja
           role: instructor
+      msc:
+        - code: 60-XX
+          from: classify/1@2b838f8bc9d8
       ids:
         course: 0022nd079:111103022
       expressions:
@@ -25,7 +28,7 @@ records:
       scope:
         value: in
         rule: S6
-        by: m2 v0.6.7 scope/1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: nptel
           snapshot: blake3:89dc2ec164a0108adbecf0ec8c793929c947e196b164e762035d3fdd89a3f469

@@ -24,9 +24,10 @@ records:
           source: cluster/1
       scope:
         value: deferred
-        until: "2027-01-29"
-        reason: no test decides the record, and the classifier has no model
-        by: m2 v0.6.7 scope/1
+        until: "2027-01-30"
+        reason: the classifier score 0.965 is in the middle band
+        rule: S8
+        by: classify/1@2b838f8bc9d8
       catalogue:
         - source: ocw
           snapshot: blake3:ab57e74d727dbbb8cc6f30102b1562b267a6d76a54ffa725885e5e4ddfbb57b8
@@ -40,4 +41,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to deferred
+        - op: scope
+          at: "2026-11-01"
+          by: classify/1@2b838f8bc9d8
+          note: from deferred to deferred
 ---

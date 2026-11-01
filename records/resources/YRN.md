@@ -46,8 +46,8 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
@@ -65,13 +65,26 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
     - id: YRN1QBNSW8
       kind: problem-set
       title: BMO Round 1 2019
+      creators:
+        - name: UK Mathematics Trust
+          role: author
       date: "2018-11-30"
+      msc:
+        - code: 00A07
+          from: bmo
+        - code: 97U40
+          from: bmo
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2018-11-30"
           structure: YRN1QBNSW8/e1.json
       relations:
@@ -80,8 +93,8 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: bmo
           snapshot: blake3:68eb2251465334659a3c67c12bc8e13877594a5a11510cf9a756eaf0f62db81c
@@ -95,6 +108,10 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
     - id: YRN5P43B2N
       kind: preprint
       title: Isaac's Condition (TU) is false
@@ -119,8 +136,8 @@ records:
             zbl_id: "903214446"
       scope:
         value: in
-        rule: S2
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -142,4 +159,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.7 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
 ---

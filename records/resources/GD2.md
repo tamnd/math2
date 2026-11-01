@@ -15,14 +15,17 @@ records:
         - name: Rudolf Rentschler
           role: editor
       date: "1994"
+      msc:
+        - code: 00-XX
+          from: classify/1@2b838f8bc9d8
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1994"
           ids:
             doi:
                 - 10.1007/978-3-0348-9110-3
-                - 10.1007/978-3-0348-9112-7
                 - 10.1007/978-3-0348-9331-2
           manifestations:
             - key: m1
@@ -33,16 +36,6 @@ records:
                 isbn:
                     - "9783034899116"
                     - "9783034891103"
-              access:
-                class: record
-            - key: m2
-              kind: print
-              publisher: Birkhäuser Basel
-              date: "1994"
-              ids:
-                isbn:
-                    - "9783034899123"
-                    - "9783034891127"
               access:
                 class: record
             - key: m3
@@ -62,15 +55,15 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.7 scope/1
+        by: m2 v0.6.13 scope/1
       catalogue:
-        - source: springer-series
-          snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
+        - source: crossref_language
+          snapshot: blake3:8055274d703e6bb5b000d2e6eff227662c304b1de00a456a1218f6424b926f45
           native_id: 10.1007/978-3-0348-9110-3
           level: work
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
-          native_id: 10.1007/978-3-0348-9112-7
+          native_id: 10.1007/978-3-0348-9110-3
           level: work
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e

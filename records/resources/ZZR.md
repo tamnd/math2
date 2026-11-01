@@ -39,7 +39,7 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.7 scope/1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
@@ -107,8 +107,8 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
@@ -126,6 +126,10 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
     - id: ZZRY1PJTW3
       kind: monograph
       title: Iwasawa Theory and Its Perspective, Volume 1
@@ -138,10 +142,7 @@ records:
           kind: edition
           date: "2023-05-02"
           ids:
-            doi:
-                - 10.1090/surv/272
-                - 10.1090/surv/280
-                - 10.1090/surv/291
+            doi: 10.1090/surv/272
           manifestations:
             - key: m1
               kind: print
@@ -153,26 +154,6 @@ records:
                     - "9781470456726"
               access:
                 class: record
-            - key: m2
-              kind: print
-              publisher: American Mathematical Society
-              date: "2024"
-              ids:
-                isbn:
-                    - "9781470477264"
-                    - "9781470456733"
-              access:
-                class: record
-            - key: m3
-              kind: print
-              publisher: American Mathematical Society
-              date: "2025"
-              ids:
-                isbn:
-                    - "9781470481407"
-                    - "9781470477325"
-              access:
-                class: record
       relations:
         - kind: part_of
           to: M891DMMNP3
@@ -180,19 +161,11 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.7 scope/1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/surv/272
-          level: work
-        - source: ams-series
-          snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
-          native_id: 10.1090/surv/280
-          level: work
-        - source: ams-series
-          snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
-          native_id: 10.1090/surv/291
           level: work
       history:
         - op: add

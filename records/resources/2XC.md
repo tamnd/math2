@@ -15,9 +15,6 @@ records:
         - name: Jianhua Zhang
           role: author
       date: "2026-10-02"
-      msc:
-        - code: 94-XX
-          from: arxiv
       subjects:
         - system: arxiv
           code: eess.SP
@@ -34,7 +31,7 @@ records:
             arxiv: "2610.02843"
       scope:
         value: out
-        by: m2 v0.6.7 scope/1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -72,8 +69,8 @@ records:
             zbl_id: "902407801"
       scope:
         value: in
-        rule: S2
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -95,6 +92,10 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.7 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
     - id: 2XCCEBJJY0
       kind: monograph
       title: Torus Actions and Their Applications in Topology and Combinatorics
@@ -152,8 +153,8 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
@@ -171,4 +172,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
 ---

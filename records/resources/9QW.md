@@ -31,8 +31,8 @@ records:
             arxiv: "2610.03144"
       scope:
         value: in
-        rule: S2
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -50,6 +50,10 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.7 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
     - id: 9QWECMMJAN
       kind: course-material
       title: 'Lecture 23: Differential equations and exp(At)'
@@ -74,9 +78,10 @@ records:
           source: cluster/1
       scope:
         value: deferred
-        until: "2027-01-29"
-        reason: no test decides the record, and the classifier has no model
-        by: m2 v0.6.7 scope/1
+        until: "2027-01-30"
+        reason: the classifier score 1.000 is in the middle band
+        rule: S8
+        by: classify/1@2b838f8bc9d8
       catalogue:
         - source: ocw
           snapshot: blake3:ab57e74d727dbbb8cc6f30102b1562b267a6d76a54ffa725885e5e4ddfbb57b8
@@ -90,6 +95,10 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to deferred
+        - op: scope
+          at: "2026-11-01"
+          by: classify/1@2b838f8bc9d8
+          note: from deferred to deferred
     - id: 9QWPGZ92ZN
       kind: preprint
       title: Strongly linearly convex exhaustion of a class of $\mathbb{C}$-convex domains
@@ -116,8 +125,8 @@ records:
             zbl_id: "903187591"
       scope:
         value: in
-        rule: S2
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -139,4 +148,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.7 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
 ---

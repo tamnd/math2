@@ -18,8 +18,8 @@ records:
           structure: PKGMM3P5QY/e1.json
       scope:
         value: in
-        rule: S5
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: open_logic
           snapshot: blake3:a5eb116529d3e799289dd9f7e7530d0d446b3615f5608fe08c668241eee3c765
@@ -37,4 +37,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.7 scope/1
           note: from deferred to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
 ---

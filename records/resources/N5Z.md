@@ -27,8 +27,8 @@ records:
             arxiv: "2610.12683"
       scope:
         value: in
-        rule: S2
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -46,6 +46,10 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.7 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
     - id: N5ZM8MXJXH
       kind: preprint
       title: Computable presentations of reduced group C*-algebras of hyperbolic groups
@@ -75,8 +79,8 @@ records:
             arxiv: "2610.05986"
       scope:
         value: in
-        rule: S2
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -94,6 +98,10 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.7 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
     - id: N5ZSHXYYV6
       kind: preprint
       title: Infinitely many periodic solutions to a Lorentz force equation with singular electromagnetic potential
@@ -125,8 +133,8 @@ records:
             arxiv: "2302.06189"
       scope:
         value: in
-        rule: S2
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -144,4 +152,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.7 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
 ---

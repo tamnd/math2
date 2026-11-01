@@ -49,8 +49,8 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
@@ -68,13 +68,26 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
     - id: H9HWYBPS4Z
       kind: problem-set
       title: BMO 1975
+      creators:
+        - name: UK Mathematics Trust
+          role: author
       date: "1975-03-24"
+      msc:
+        - code: 00A07
+          from: bmo
+        - code: 97U40
+          from: bmo
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1975-03-24"
       relations:
         - kind: part_of
@@ -82,8 +95,8 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: bmo
           snapshot: blake3:68eb2251465334659a3c67c12bc8e13877594a5a11510cf9a756eaf0f62db81c
@@ -97,6 +110,10 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
     - id: H9HXP80GP2
       kind: edited-volume
       title: Recursion Theory
@@ -106,9 +123,13 @@ records:
         - name: Richard Shore
           role: editor
       date: "1985"
+      msc:
+        - code: 00-XX
+          from: classify/1@2b838f8bc9d8
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1985"
           ids:
             doi: 10.1090/pspum/042
@@ -131,10 +152,14 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.7 scope/1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
+          native_id: 10.1090/pspum/042
+          level: work
+        - source: crossref_language
+          snapshot: blake3:8055274d703e6bb5b000d2e6eff227662c304b1de00a456a1218f6424b926f45
           native_id: 10.1090/pspum/042
           level: work
       history:

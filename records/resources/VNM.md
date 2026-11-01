@@ -18,8 +18,8 @@ records:
           structure: VNMV985MXX/e1.json
       scope:
         value: in
-        rule: S5
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: lebl_scv
           snapshot: blake3:674137eabf02760c9e8dafdbe3e64bc7279562f175304f952eef3b8d1ef7eee8
@@ -37,4 +37,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.7 scope/1
           note: from deferred to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
 ---

@@ -13,6 +13,9 @@ records:
         - name: M. Zisman
           role: author
       date: "1970"
+      msc:
+        - code: 00-XX
+          from: classify/1@2b838f8bc9d8
       expressions:
         - key: e1
           kind: edition
@@ -37,7 +40,7 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.7 scope/1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
@@ -54,10 +57,19 @@ records:
     - id: R9VC8EQPNN
       kind: problem-set
       title: BMO Round 1 2011
+      creators:
+        - name: UK Mathematics Trust
+          role: author
       date: "2010-12-02"
+      msc:
+        - code: 00A07
+          from: bmo
+        - code: 97U40
+          from: bmo
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2010-12-02"
           structure: R9VC8EQPNN/e1.json
       relations:
@@ -66,8 +78,8 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: bmo
           snapshot: blake3:68eb2251465334659a3c67c12bc8e13877594a5a11510cf9a756eaf0f62db81c
@@ -81,4 +93,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
 ---

@@ -9,15 +9,16 @@ records:
         - name: Gabriel Mokobodzki
           role: editor
       date: "1978"
+      msc:
+        - code: 00-XX
+          from: classify/1@2b838f8bc9d8
       expressions:
         - key: e1
           kind: edition
+          language: fr
           date: "1978"
           ids:
-            doi:
-                - 10.1007/bfb0065863
-                - 10.1007/bfb0071316
-                - 10.1007/bfb0094144
+            doi: 10.1007/bfb0065863
           manifestations:
             - key: m1
               kind: print
@@ -29,26 +30,6 @@ records:
                     - "9783540357124"
               access:
                 class: record
-            - key: m2
-              kind: print
-              publisher: Springer Berlin Heidelberg
-              date: "1979"
-              ids:
-                isbn:
-                    - "9783540092520"
-                    - "9783540353089"
-              access:
-                class: record
-            - key: m3
-              kind: print
-              publisher: Springer Berlin Heidelberg
-              date: "1980"
-              ids:
-                isbn:
-                    - "9783540100256"
-                    - "9783540381891"
-              access:
-                class: record
       relations:
         - kind: part_of
           to: MYK049V6DA
@@ -56,19 +37,15 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.7 scope/1
+        by: m2 v0.6.13 scope/1
       catalogue:
-        - source: springer-series
-          snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
+        - source: crossref_language
+          snapshot: blake3:8055274d703e6bb5b000d2e6eff227662c304b1de00a456a1218f6424b926f45
           native_id: 10.1007/bfb0065863
           level: work
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
-          native_id: 10.1007/bfb0071316
-          level: work
-        - source: springer-series
-          snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
-          native_id: 10.1007/bfb0094144
+          native_id: 10.1007/bfb0065863
           level: work
       history:
         - op: add

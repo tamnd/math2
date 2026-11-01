@@ -9,15 +9,16 @@ records:
         - name: Hideko Sekiguchi
           role: editor
       date: "2025"
+      msc:
+        - code: 00-XX
+          from: classify/1@2b838f8bc9d8
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2025"
           ids:
-            doi:
-                - 10.1007/978-981-97-7662-7
-                - 10.1007/978-981-97-7666-5
-                - 10.1007/978-981-97-8449-3
+            doi: 10.1007/978-981-97-7662-7
           manifestations:
             - key: m1
               kind: print
@@ -29,26 +30,6 @@ records:
                     - "9789819776627"
               access:
                 class: record
-            - key: m2
-              kind: print
-              publisher: Springer Nature Singapore
-              date: "2025"
-              ids:
-                isbn:
-                    - "9789819776658"
-                    - "9789819776665"
-              access:
-                class: record
-            - key: m3
-              kind: print
-              publisher: Springer Nature Singapore
-              date: "2025"
-              ids:
-                isbn:
-                    - "9789819784486"
-                    - "9789819784493"
-              access:
-                class: record
       relations:
         - kind: part_of
           to: VS2PFDMCR5
@@ -56,19 +37,15 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.7 scope/1
+        by: m2 v0.6.13 scope/1
       catalogue:
-        - source: springer-series
-          snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
+        - source: crossref_language
+          snapshot: blake3:8055274d703e6bb5b000d2e6eff227662c304b1de00a456a1218f6424b926f45
           native_id: 10.1007/978-981-97-7662-7
           level: work
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
-          native_id: 10.1007/978-981-97-7666-5
-          level: work
-        - source: springer-series
-          snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
-          native_id: 10.1007/978-981-97-8449-3
+          native_id: 10.1007/978-981-97-7662-7
           level: work
       history:
         - op: add
@@ -109,8 +86,8 @@ records:
             arxiv: "2609.34193"
       scope:
         value: in
-        rule: S2
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -128,4 +105,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.7 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
 ---

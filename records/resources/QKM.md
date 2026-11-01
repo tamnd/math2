@@ -20,8 +20,8 @@ records:
           structure: QKM9DD2H56/e1.json
       scope:
         value: in
-        rule: S5
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: applied_combinatorics
           snapshot: blake3:3dd09e0855ace7e7dbf04351de5c4cb134197b76059771e3dc68579ba7bd7415
@@ -39,4 +39,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.7 scope/1
           note: from deferred to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
 ---

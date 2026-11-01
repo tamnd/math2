@@ -13,11 +13,6 @@ records:
         - name: Anirbit Mukherjee
           role: author
       date: "2026-03-24"
-      msc:
-        - code: 35-XX
-          from: arxiv
-        - code: 65-XX
-          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG
@@ -37,7 +32,7 @@ records:
       scope:
         value: border
         rule: border-arxiv
-        by: m2 v0.6.7 scope/1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055

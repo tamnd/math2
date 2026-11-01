@@ -20,8 +20,8 @@ records:
           structure: P1C114YBXG/e1.json
       scope:
         value: in
-        rule: S5
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: ernst_ibl
           snapshot: blake3:8db21858b770aa92b552cdd5d529aeda51025a4f207340f4e48bf00dcddf1a1b
@@ -39,4 +39,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.7 scope/1
           note: from deferred to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
 ---

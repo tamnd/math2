@@ -3,10 +3,19 @@ records:
     - id: HKYC4MDQER
       kind: problem-set
       title: IMO 2015
+      creators:
+        - name: IMO Problem Selection Committee
+          role: author
       date: "2015"
+      msc:
+        - code: 00A07
+          from: imo
+        - code: 97U40
+          from: imo
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2015"
       relations:
         - kind: part_of
@@ -14,8 +23,8 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: imo
           snapshot: blake3:c564548c1a7c5bfe4e71cf81d61c599a9d4016d698feff8fb0bc9beb0e2f88f9
@@ -29,6 +38,10 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
     - id: HKYRZSZPEC
       kind: preprint
       title: Minimax Rates for Estimating Powered Sliced Wasserstein Functionals
@@ -59,7 +72,7 @@ records:
       scope:
         value: in
         rule: S2
-        by: m2 v0.6.7 scope/1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055

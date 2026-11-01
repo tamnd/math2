@@ -13,9 +13,6 @@ records:
         - name: Lander Ver Hoef
           role: author
       date: "2026-09-28"
-      msc:
-        - code: 46-XX
-          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG
@@ -31,7 +28,7 @@ records:
       scope:
         value: border
         rule: border-arxiv
-        by: m2 v0.6.7 scope/1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -48,10 +45,19 @@ records:
     - id: JNBXBTAWN8
       kind: problem-set
       title: BMO 1988
+      creators:
+        - name: UK Mathematics Trust
+          role: author
       date: "1987-11-20"
+      msc:
+        - code: 00A07
+          from: bmo
+        - code: 97U40
+          from: bmo
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1987-11-20"
       relations:
         - kind: part_of
@@ -59,8 +65,8 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: bmo
           snapshot: blake3:68eb2251465334659a3c67c12bc8e13877594a5a11510cf9a756eaf0f62db81c
@@ -74,4 +80,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
 ---

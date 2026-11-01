@@ -12,10 +12,10 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.7 scope/1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: putnam
-          snapshot: blake3:317d171d8e409d9741a4f33624a74aedbca628bebf057e16b0f4fee2668a9f1f
+          snapshot: blake3:a8efce689e279311a280a90aaaac925d4b96f7c8ccdd9eb1e8fb29b48d574603
           native_id: competition
           level: work
       history:

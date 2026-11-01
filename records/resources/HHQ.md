@@ -23,8 +23,8 @@ records:
             arxiv: "2610.10790"
       scope:
         value: in
-        rule: S2
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -42,13 +42,26 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.7 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
     - id: HHQG30TKV8
       kind: problem-set
       title: Kvant 2021, no. 8
+      creators:
+        - name: Kvant editorial board
+          role: editor
       date: "2021"
+      msc:
+        - code: 00A07
+          from: kvant
+        - code: 97U40
+          from: kvant
       expressions:
         - key: e1
           kind: edition
+          language: ru
           date: "2021"
           structure: HHQG30TKV8/e1.json
       relations:
@@ -57,8 +70,8 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: kvant
           snapshot: blake3:9ef7ec326c8e38c2cc1957ddca07480f15b4e9ef49d8059191fc4a1c78c7cd39
@@ -72,6 +85,10 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
     - id: HHQGT99XNN
       kind: preprint
       title: 'ETM-3D: A One-Parameter Multistable Quadratic Flow with an Explicit Absorbing Set and Intermittent Chaos'
@@ -81,17 +98,6 @@ records:
         - name: Mohsen Jalaeian-Farimani
           role: author
       date: "2026-10-03"
-      msc:
-        - code: 37-XX
-          from: arxiv
-        - code: 11-XX
-          from: arxiv
-        - code: 49-XX
-          from: arxiv
-        - code: 90-XX
-          from: arxiv
-        - code: 93-XX
-          from: arxiv
       subjects:
         - system: arxiv
           code: nlin.CD
@@ -114,7 +120,7 @@ records:
             arxiv: "2610.04768"
       scope:
         value: out
-        by: m2 v0.6.7 scope/1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055

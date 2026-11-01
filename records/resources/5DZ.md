@@ -3,10 +3,19 @@ records:
     - id: 5DZ5R3V9HE
       kind: problem-set
       title: BMO Round 1 2001
+      creators:
+        - name: UK Mathematics Trust
+          role: author
       date: "2001-01-17"
+      msc:
+        - code: 00A07
+          from: bmo
+        - code: 97U40
+          from: bmo
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2001-01-17"
           structure: 5DZ5R3V9HE/e1.json
       relations:
@@ -15,8 +24,8 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: bmo
           snapshot: blake3:68eb2251465334659a3c67c12bc8e13877594a5a11510cf9a756eaf0f62db81c
@@ -30,6 +39,10 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
     - id: 5DZCGBB5FS
       kind: monograph
       title: Interpolation and Sidon Sets for Compact Groups
@@ -76,8 +89,8 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
@@ -95,4 +108,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
 ---

@@ -3,10 +3,19 @@ records:
     - id: VFZFC7Z7Z8
       kind: problem-set
       title: BMO Round 1 2024
+      creators:
+        - name: UK Mathematics Trust
+          role: author
       date: "2023-11-15"
+      msc:
+        - code: 00A07
+          from: bmo
+        - code: 97U40
+          from: bmo
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2023-11-15"
           structure: VFZFC7Z7Z8/e1.json
       relations:
@@ -15,8 +24,8 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: bmo
           snapshot: blake3:68eb2251465334659a3c67c12bc8e13877594a5a11510cf9a756eaf0f62db81c
@@ -30,6 +39,10 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
     - id: VFZTRNE6YW
       kind: monograph
       title: 'Probability Measures on Groups: Proceedings of the Fifth Conference Oberwolfach, Germany, January 29th – February 4, 1978'
@@ -80,8 +93,8 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
@@ -103,4 +116,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
 ---
