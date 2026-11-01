@@ -1,2 +1,3 @@
 {"id":"J6BSFG83G4","mentions":["m2://rec/wikidata/Q1108#1"],"kind":"definition","name":"caesium","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"J6BYY4Q354","mentions":["m2://rec/wikidata/Q7106411#1"],"kind":"unknown","name":"oscillation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"J6BYZVHZ5V","mentions":["m2://rec/applied_combinatorics/source/s_posets_exercises.ptx#exercise-7#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

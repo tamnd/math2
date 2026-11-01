@@ -1,1 +1,2 @@
+{"id":"ERG28K5785","mentions":["m2://rec/lebl_ra/ch-real-nums.tex#prop:bordfield#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"ERGSNTZE00","mentions":["m2://rec/wikidata/Q6126499#1"],"kind":"unknown","name":"principal value","layer":"textbook","spread":1,"outcome":{"value":"node","target":["017BPGVEE8"],"reason":"a node has the same Wikidata item as the row","by":"agent"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 017BPGVEE8"}]}

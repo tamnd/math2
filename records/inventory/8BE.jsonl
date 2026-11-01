@@ -1,2 +1,3 @@
+{"id":"8BE096E837","mentions":["m2://rec/napkin/tex/measure/randvar.tex#problem-1#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"8BE3PRX4BC","mentions":["m2://rec/wikidata/Q7977957#1"],"kind":"unknown","name":"weak n-category","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"8BER9JSGQV","mentions":["m2://rec/wikidata/Q112474134#1"],"kind":"unknown","name":"Yuli Eidelman","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

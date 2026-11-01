@@ -1,3 +1,5 @@
 {"id":"ES11AQ9R59","mentions":["m2://rec/wikidata/Q91198359#1"],"kind":"unknown","name":"completion","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"ES14F27582","mentions":["m2://rec/wikidata/Q105135306#1"],"kind":"unknown","name":"all-pairs shortest path problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"ES1FFVEQHB","mentions":["m2://rec/ernst_ibl/MAAPressVersion/Topology.tex#problem-6#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"ES1GXHAHTK","mentions":["m2://rec/open_logic/content/sets-functions-relations/size-of-sets/pairing.tex#prob-5#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"ES1Y42X3JY","mentions":["m2://rec/wikidata/Q27960245#1"],"kind":"unknown","name":"Mohammed Abouzaid","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

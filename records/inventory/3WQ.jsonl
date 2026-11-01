@@ -1,1 +1,3 @@
+{"id":"3WQGAYNSED","mentions":["m2://rec/levin_dmoi/ptx/sec_seq-polyfit.ptx#example-3#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"3WQGMZVM28","mentions":["m2://rec/wikidata/Q109497177#1"],"kind":"concept","name":"associated Laguerre polynomial","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"3WQV2X55QN","mentions":["m2://rec/applied_combinatorics/index/4.4.3/nondeterministic-polynomial-time#1"],"kind":"concept","name":"nondeterministic polynomial time","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

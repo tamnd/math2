@@ -1,1 +1,3 @@
+{"id":"X8S466Z2EQ","mentions":["m2://rec/napkin/tex/rep-theory/characters.tex#proof-3#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"X8SBTQBDVS","mentions":["m2://rec/lebl_scv/scv.tex#exercise:fatcylinder1#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"X8SH9HZGPT","mentions":["m2://rec/wikidata/Q479834#1"],"kind":"statement","name":"Abel's test","layer":"textbook","spread":1,"outcome":{"value":"node","target":["0CN97GADE5"],"reason":"a node has the same Wikidata item as the row","by":"agent"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"},{"op":"outcome","at":"2026-10-27","by":"agent","note":"node 0CN97GADE5"}]}

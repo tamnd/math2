@@ -1,0 +1,2 @@
+{"id":"B2KCTS340X","mentions":["m2://rec/hott_book/index/1.15/infty-groupoid#1"],"kind":"concept","name":"$\\infty$-groupoid","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"B2KNXMB04Z","mentions":["m2://rec/hott_book/basics.tex#thm:paths-respects-equiv#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

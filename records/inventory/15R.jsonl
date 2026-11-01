@@ -1,0 +1,2 @@
+{"id":"15RA4WWN1A","mentions":["m2://rec/austin_ula/src/exercises/exercises6-5.xml#exercise-3#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"15RB0HXFG1","mentions":["m2://rec/ernst_ibl/MAAPressVersion/MoreQuantification.tex#skeleton:for all direct proof#1"],"kind":"proof","name":"Proof of $(\\forall x)(A(x)\\implies B(x))$","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

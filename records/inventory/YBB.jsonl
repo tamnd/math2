@@ -1,1 +1,3 @@
 {"id":"YBB2MCW9NY","mentions":["m2://rec/wikidata/Q1691827#1"],"kind":"topic","name":"Subdirect product","msc":["08A30"],"layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"YBBMJ2Y7D9","mentions":["m2://rec/napkin/tex/alg-geom/mor-scheme.tex#definition-8#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"YBBNNYEGHN","mentions":["m2://rec/hott_book/index/B.3.2/coincidence-of-cauchy-approximations#1"],"kind":"concept","name":"coincidence, of Cauchy approximations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

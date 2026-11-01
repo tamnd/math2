@@ -1,2 +1,3 @@
 {"id":"BQ64WR636Q","mentions":["m2://rec/wikidata/Q114705695#1"],"kind":"topic","msc":["34A30"],"layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"BQ6M9KWND6","mentions":["m2://rec/lebl_diffyqs/ch-fourier-and-pde.tex#exercise-123#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"BQ6V1V8JST","mentions":["m2://rec/wikidata/Q194737#1"],"kind":"unknown","name":"frame of a vector space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

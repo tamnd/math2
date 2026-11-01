@@ -1,1 +1,3 @@
+{"id":"W577TVR8H1","mentions":["m2://rec/open_logic/content/incompleteness/theories-computability/consis-with-q.tex#cor-1#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"W57QXW8BN0","mentions":["m2://rec/mathlib_1000/Q1785872#1","m2://rec/thousand_plus/Q1785872#1"],"kind":"statement","name":"Berry–Esséen theorem","msc":["60-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"W57TD3YJM5","mentions":["m2://rec/open_logic/content/lambda-calculus/church-rosser/parallel-beta-reduction.tex#proof-1#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

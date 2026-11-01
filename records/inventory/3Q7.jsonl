@@ -1,2 +1,4 @@
 {"id":"3Q7DW6NN7V","mentions":["m2://rec/wikidata/Q336233#1"],"kind":"concept","name":"Pauli matrices","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"3Q7KXVSE35","mentions":["m2://rec/active_calculus/index/3.3.1/maximum-absolute#1"],"kind":"concept","name":"maximum, absolute","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"3Q7Q4E4JWN","mentions":["m2://rec/hott_book/hits.tex#proof-33#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"3Q7VSR8A5B","mentions":["m2://rec/wikidata/Q909847#1"],"kind":"unknown","name":"disphenoid","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

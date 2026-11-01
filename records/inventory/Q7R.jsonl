@@ -1,2 +1,3 @@
 {"id":"Q7R8WNHGDP","mentions":["m2://rec/wikidata/Q1093209#1"],"kind":"unknown","name":"geometric–harmonic mean","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"Q7RV6V6522","mentions":["m2://rec/wikidata/Q1396128#1"],"kind":"definition","name":"faraday","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"Q7RZYDM8E3","mentions":["m2://rec/applied_combinatorics/source/s_strings_binom-thm.ptx#proof-1#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

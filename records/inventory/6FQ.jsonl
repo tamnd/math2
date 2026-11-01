@@ -1,1 +1,2 @@
 {"id":"6FQEGQPNDM","mentions":["m2://rec/mathlib_1000/Q913447#1","m2://rec/thousand_plus/Q913447#1","m2://rec/wikidata/Q913447#1"],"kind":"statement","name":"Morley's trisector theorem","msc":["51-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"6FQQ8E5GCF","mentions":["m2://rec/levin_dmoi/index/5.4/vertex-coloring#1"],"kind":"concept","name":"vertex coloring","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

@@ -1,1 +1,3 @@
 {"id":"M72GNDJWVC","mentions":["m2://rec/wikidata/Q850362#1"],"kind":"unknown","name":"brute-force search","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"M72J2RDK49","mentions":["m2://rec/hott_book/reals.tex#thm:NO-simplicity#1"],"kind":"statement","name":"Conway's simplicity theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"M72JS0XZJ8","mentions":["m2://rec/lebl_ra/ch-vol1-intro.tex#example-7#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

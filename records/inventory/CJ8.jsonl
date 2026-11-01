@@ -1,1 +1,2 @@
 {"id":"CJ8DPMQBHV","mentions":["m2://rec/mathlib_1000/Q6456122#1","m2://rec/thousand_plus/Q6456122#1"],"kind":"statement","name":"L-balance theorem","msc":["20-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"CJ8SFZMSM5","mentions":["m2://rec/hott_book/reals.tex#thm:NO-encode-decode#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

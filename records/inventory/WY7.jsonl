@@ -1,2 +1,3 @@
 {"id":"WY7B7ZMJNX","mentions":["ax://paper/2610.14450#CZQK"],"kind":"statement","msc":["11-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
+{"id":"WY7N2YZP0F","mentions":["m2://rec/levin_dmoi/ptx/sec_intro-functions.ptx#example-8#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"WY7SXQBMY9","mentions":["m2://rec/wikidata/Q1067731#1"],"kind":"object","name":"pentagonal prism","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

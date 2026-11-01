@@ -1,0 +1,2 @@
+{"id":"T2JGNAXSTP","mentions":["m2://rec/hott_book/index/9.10/first-order-logic#1"],"kind":"concept","name":"first-order, logic","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"T2JY1BA7HV","mentions":["m2://rec/open_logic/content/turing-machines/undecidability/representing-tms.tex#defn:tm-descr#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

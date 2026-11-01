@@ -1,1 +1,3 @@
+{"id":"K6V18Q1ZZM","mentions":["m2://rec/hott_book/index/6.5/function-surjective#1"],"kind":"concept","name":"function, surjective","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"K6VJVRSRAW","mentions":["m2://rec/hott_book/index/7.10/mathematics-formalized#1"],"kind":"concept","name":"mathematics, formalized","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"K6VWB2SD40","mentions":["m2://rec/wikidata/Q5275226#1"],"kind":"concept","name":"Dieudonné determinant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

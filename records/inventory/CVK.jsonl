@@ -1,1 +1,3 @@
 {"id":"CVK1QH86RY","mentions":["m2://rec/wikidata/Q47007890#1"],"kind":"unknown","name":"bicomplete category","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"CVKETF90D8","mentions":["m2://rec/hott_book/basics.tex#thm:ap-transport#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"CVKKWQB227","mentions":["m2://rec/hott_book/hits.tex#cor-1#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

@@ -1,1 +1,3 @@
+{"id":"4XB159WCQX","mentions":["m2://rec/lebl_ra/ch-seq-ser.tex#example-14#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"4XB46XJFE8","mentions":["m2://rec/wikidata/Q2666112#1","m2://rec/wikidata/Q78082099#1"],"kind":"unknown","name":"transposition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4XBS8HN3ZY","mentions":["m2://rec/lebl_ra/index/1.2.1/uniform-convergence#1"],"kind":"concept","name":"uniform convergence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

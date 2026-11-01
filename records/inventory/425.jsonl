@@ -1,2 +1,4 @@
 {"id":"42518XC42Y","mentions":["m2://rec/wikidata/Q42515#1"],"kind":"unknown","name":"cartography","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"425BBB9T2G","mentions":["m2://rec/napkin/tex/topology/top-more.tex#example-3#1"],"kind":"example","name":"Examples of path-connected spaces","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"425FFH2Y28","mentions":["m2://rec/wikidata/Q4230490#1"],"kind":"concept","name":"Dodgson condensation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"425FPC26XZ","mentions":["m2://rec/napkin/tex/alg-geom/affine-var.tex#example-2#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

@@ -1,0 +1,3 @@
+{"id":"JGW6NBVXVB","mentions":["m2://rec/open_logic/content/turing-machines/machines-computations/configuration.tex#defn-1#1"],"kind":"definition","name":"Configuration","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"JGWK84BKSF","mentions":["m2://rec/applied_combinatorics/index/5.3/circuit#1"],"kind":"concept","name":"circuit","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"JGWN2H0M76","mentions":["m2://rec/napkin/tex/alg-NT/finite-field.tex#exercise-1#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
