@@ -1,0 +1,12 @@
+{
+  "files": 3466,
+  "results": [
+    {
+      "rule": "D05",
+      "state": "pass",
+      "checked": 164161,
+      "findings": 0
+    }
+  ],
+  "findings": null
+}

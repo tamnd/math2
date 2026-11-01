@@ -1,21 +1,61 @@
+{"mention":"ax://paper/0904.3493#9RDR","row":"8FGT8XTQ53","target":"2BKAEPKTEH","name":"Splitting Lemma"}
+{"mention":"ax://paper/1311.6044#5QJV","row":"3CDFZMYCXE","target":"PQ3S1JK2PK","name":"Uniqueness"}
+{"mention":"ax://paper/1311.6044#PGRP","row":"F3P8N9QN2E","target":"72HGRHAVWK","name":"Existence"}
+{"mention":"ax://paper/2104.00162#V1UK","row":"PG2XKTQS2N","target":"F5YPM8RRM7","name":"Archimedean Property"}
+{"mention":"ax://paper/2204.04317#XLL2","row":"D1QPHQC8EA","target":"72HGRHAVWK","name":"``Existence\""}
+{"mention":"ax://paper/2204.04317#ZJLB","row":"TDYQHM7B7C","target":"PQ3S1JK2PK","name":"``Uniqueness\""}
 {"mention":"ax://paper/2312.05005#IW2I","row":"WDG0R692M5","target":"VTYSQCEDHJ","name":"Node"}
-{"mention":"ax://paper/2609.27495#QUOU","row":"8Y1TH67J8X","target":"2GPBTCAKQX","name":"chain rule"}
+{"mention":"ax://paper/2606.21391#TUSQ","row":"220K3EKV73","target":"AMBFWXKVFX","name":"Minkowski"}
+{"mention":"ax://paper/2609.24777#J5HU","row":"Z9271PXMZ7","target":"KVKNFDRMZK","name":"The circle"}
+{"mention":"ax://paper/2609.24777#NLJE","row":"7G5M4VVQAZ","target":"TPPGY3VZF4","name":"The torus"}
+{"mention":"ax://paper/2609.26201#VIV7","row":"5QTBVVNE76","target":"2BKAEPKTEH","name":"Splitting Lemma"}
+{"mention":"ax://paper/2609.26265#DK7T","row":"EJFKC962JD","target":"72HGRHAVWK","name":"Existence"}
+{"mention":"ax://paper/2609.26337#AI8D","row":"SD6PKJHHM8","target":"83V9FCY2RK","name":"Cut-Elimination"}
+{"mention":"ax://paper/2609.28143#HLSM","row":"RBGA3NBQDQ","target":"1MF6T6W1R0","name":"Jensen's inequality"}
+{"mention":"ax://paper/2609.28495#S8YH","row":"1Z5QQZRQYB","target":"M74DSD3MBB","name":"Structure Sheaf"}
+{"mention":"ax://paper/2609.28552#Y0YV","row":"DNQGM3ZR1D","target":"JG5YR30CJY","name":"Cayley's formula"}
+{"mention":"ax://paper/2609.29847#F3V6","row":"597ZQYTXQJ","target":"D8D63XS7F3","name":"Maxwell's equations"}
+{"mention":"ax://paper/2609.30105#JM99","row":"JA7W2WS69W","target":"1MF6T6W1R0","name":"Jensen's Inequality"}
+{"mention":"ax://paper/2609.31269#VXG6","row":"WYVJ9N57CG","target":"2BKAEPKTEH","name":"Splitting lemma"}
+{"mention":"ax://paper/2609.32733#T35E","row":"DKQ105P9MZ","target":"TPPGY3VZF4","name":"Torus"}
+{"mention":"ax://paper/2609.33027#JMQE","row":"42PGVH31TN","target":"FCRH2HS0TQ","name":"Change of variables"}
 {"mention":"ax://paper/2609.33442#QPC2","row":"G8PK2HPCK2","target":"G8TSNDAB74","name":"Degree"}
 {"mention":"ax://paper/2609.33442#YXNN","row":"YS75CTFAX2","target":"VN8XB61PXR","name":"Concavity"}
+{"mention":"ax://paper/2609.35030#UN46","row":"NFZM0F16T7","target":"PQ3S1JK2PK","name":"Uniqueness"}
+{"mention":"ax://paper/2609.37479#66DJ","row":"484265AS40","target":"PQ3S1JK2PK","name":"Uniqueness"}
 {"mention":"ax://paper/2609.38030#CK24","row":"1D2XF8FZ8X","target":"V7V6V9QHH2","name":"Euler equations"}
+{"mention":"ax://paper/2609.38031#20CA","row":"1H9DC1YZYW","target":"72HGRHAVWK","name":"Existence"}
 {"mention":"ax://paper/2609.38061#I7SE","row":"9335ZVMJCK","target":"QP283EAC6F","name":"Molecule"}
+{"mention":"ax://paper/2609.38220#ACY2","row":"TGVH38F9NK","target":"72HGRHAVWK","name":"Existence"}
+{"mention":"ax://paper/2610.01753#4JVT","row":"CDM163KTRG","target":"PQ3S1JK2PK","name":"uniqueness"}
 {"mention":"ax://paper/2610.02392#YB4U","row":"E2S3ZP1S1T","target":"R9B7AA76XW","name":"Trace"}
 {"mention":"ax://paper/2610.02963#D4F6","row":"DKECD7RWSA","target":"ZGCN26SQRZ","name":"Cauchy Condensation Test"}
 {"mention":"ax://paper/2610.03090#ORCZ","row":"EJQ548ZCCB","target":"VTYSQCEDHJ","name":"Node"}
+{"mention":"ax://paper/2610.06108#CUDK","row":"PP135EFAXX","target":"AN0RBW8KAP","name":"Generalization"}
+{"mention":"ax://paper/2610.06521#MJ0C","row":"KHWQZ74901","target":"5D2R2EBBV3","name":"Hurwitz"}
+{"mention":"ax://paper/2610.06653#FFFT","row":"4JMPXP4SQ6","target":"NEBYPV5SCG","name":"Perron--Frobenius"}
 {"mention":"ax://paper/2610.06742#1PKB","row":"RXJCJ4JWWY","target":"4WFT3NWY82","name":"Converse"}
+{"mention":"ax://paper/2610.08091#DQPE","row":"V17SWFBJN6","target":"ECMG72PQSR","name":"Derivation"}
+{"mention":"ax://paper/2610.08145#TJ5Y","row":"DAZC7E1CXC","target":"AFMATZCNCH","name":"Taylor"}
+{"mention":"ax://paper/2610.08484#I6IL","row":"WG1QF8RPDQ","target":"72HGRHAVWK","name":"Existence"}
 {"mention":"ax://paper/2610.08610#HE4W","row":"P0ZZVQZSRY","target":"81XSTJYXNF","name":"\\Bezout's theorem"}
+{"mention":"ax://paper/2610.08980#EYSF","row":"E57CW2A5YM","target":"2BKAEPKTEH","name":"The Splitting Lemma"}
+{"mention":"ax://paper/2610.09422#QMDH","row":"ZC28PVA2AQ","target":"72HGRHAVWK","name":"Existence"}
+{"mention":"ax://paper/2610.10821#Q162","row":"N3AYPWCZD6","target":"EXS8XSQ4SJ","name":"Branches"}
 {"mention":"ax://paper/2610.11960#AYWX","row":"PFYFXX41Q8","target":"4WFT3NWY82","name":"Converse"}
 {"mention":"ax://paper/2610.12277#WDNC","row":"5DD8FN6HT2","target":"C4NEXYXV9A","name":"Wirtinger's inequality"}
 {"mention":"ax://paper/2610.14154#M983","row":"H0Q1RZE17J","target":"R4VHXG6HMJ","name":"Length"}
-{"mention":"ax://paper/2610.17129#7K88","row":"5AGGH7J19S","target":"2GPBTCAKQX","name":"Chain Rule"}
+{"mention":"ax://paper/2610.15099#3BQI","row":"9Y91YX32T6","target":"72HGRHAVWK","name":"existence"}
+{"mention":"ax://paper/2610.15099#C9G0","row":"4ZPF86068H","target":"72HGRHAVWK","name":"existence"}
+{"mention":"ax://paper/2610.16583#APKV","row":"ZPJHMMBCQ7","target":"75V9C3AXZ2","name":"Runge"}
+{"mention":"ax://paper/2610.17127#UV13","row":"MVQPF0HX3K","target":"PQ3S1JK2PK","name":"Uniqueness"}
+{"mention":"ax://paper/2610.17129#VBRU","row":"4MA9BX95GW","target":"PQ3S1JK2PK","name":"Uniqueness"}
 {"mention":"ax://paper/2610.17137#GX2W","row":"C5JWEHQ94N","target":"7K2V431N0Y","name":"Ideal"}
 {"mention":"ax://paper/2610.17565#EC1E","row":"ZW5BNX01TJ","target":"1M72DYVPT0","name":"Structure Theorem"}
+{"mention":"ax://paper/2610.18078#L0PT","row":"6Q9ASJNXFP","target":"PQ3S1JK2PK","name":"Uniqueness"}
+{"mention":"ax://paper/2610.18154#MKHR","row":"YFVCE7XS98","target":"ZJRMRMA2BS","name":"Orthogonality"}
+{"mention":"ax://paper/2610.18512#VK5M","row":"4SPG2BA91M","target":"72HGRHAVWK","name":"Existence"}
 {"mention":"ax://paper/2610.18803#C693","row":"Q23RPQVENX","target":"GHHRSFD0WY","name":"Gaussian integral"}
 {"mention":"ax://paper/2610.20489#ZRA3","row":"Q30F2RJ2YZ","target":"B3SY21H4YD","name":"The contour"}
-{"mention":"ax://paper/2610.21775#ZM9U","row":"WM9W0K8Z9H","target":"2GPBTCAKQX","name":"Chain rule"}
+{"mention":"ax://paper/2610.21775#9HFM","row":"T2CGYPQTNT","target":"QFZYM9JR3G","name":"Reverse triangle inequality"}
 {"mention":"ax://paper/math/0003117#FLZM","row":"FVTPWETM8W","target":"TAA6JJYQ4M","name":"Depth"}
