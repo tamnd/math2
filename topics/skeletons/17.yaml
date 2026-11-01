@@ -15,7 +15,7 @@ items:
   - {name: structure constants, kind: concept, wikipedia: Structure constants, wikidata: Q7625098}
   - {name: associator, kind: definition, wikipedia: Associator, wikidata: Q2405805}
   - {name: commutator of a ring, kind: definition, wikipedia: Commutator, wikidata: Q2989763}
-  - {name: derivation, kind: definition, decl: Derivation, wikipedia: Derivation (differential algebra), wikidata: Q451323}
+  - {name: derivation, kind: definition, decl: Derivation, wikipedia: Derivation (differential algebra), wikidata: Q451323, node: 3J89REV9WQ}
   - {name: nucleus, kind: definition, wikipedia: Associator, wikidata: Q2405805}
   - {name: flexible algebra, kind: definition, wikipedia: Flexible algebra, wikidata: Q259590}
   - {name: power-associative algebra, kind: definition, wikipedia: Power associativity, wikidata: Q1822837}
@@ -41,7 +41,7 @@ items:
   - {name: split-quaternions, kind: object, wikipedia: Split-quaternion, wikidata: Q2996919}
   - {name: split-octonions, kind: object, wikipedia: Split-octonion, wikidata: Q3348988}
   - {name: octonion algebra, kind: definition, wikipedia: Octonion algebra, wikidata: Q2835924}
-  - {name: Frobenius theorem on real division algebras, kind: statement, wikipedia: Frobenius theorem (real division algebras), wikidata: Q1361031}
+  - {name: Frobenius theorem on real division algebras, kind: statement, wikipedia: Frobenius theorem (real division algebras), wikidata: Q1361031, node: QDJ7PQE9SW}
   - {name: Bott–Milnor–Kervaire theorem on division algebras, kind: statement, wikipedia: Division algebra, wikidata: Q1231309}
   - {name: Okubo algebra, kind: object, wikipedia: Okubo algebra, wikidata: Q17099522}
   - {name: Fano plane multiplication of octonions, kind: example, wikipedia: Fano plane, wikidata: Q1395814}
@@ -166,7 +166,7 @@ items:
   - {name: generalized Kac–Moody algebra, kind: definition, wikipedia: Generalized Kac–Moody algebra, wikidata: Q5532440}
   - {name: monster Lie algebra, kind: object, wikipedia: Monster Lie algebra, wikidata: Q17099049}
   - {name: vertex operator algebra, kind: definition, wikipedia: Vertex operator algebra, wikidata: Q28509}
-  - {name: monstrous moonshine, kind: statement, wikipedia: Monstrous moonshine, wikidata: Q392440}
+  - {name: monstrous moonshine, kind: statement, wikipedia: Monstrous moonshine, wikidata: Q392440, node: E0Y7Y75T6C}
   - {name: current algebra, kind: definition, wikipedia: Current algebra, wikidata: Q1454725}
   - {name: Lie algebra of a Lie group, kind: definition, wikipedia: Lie group–Lie algebra correspondence, wikidata: Q18353697}
   # Lie superalgebras and generalizations of Lie algebras
@@ -221,9 +221,9 @@ items:
   - {name: Zinbiel algebra, kind: definition, wikipedia: Zinbiel algebra, wikidata: Q2835946}
   - {name: Gerstenhaber algebra, kind: definition, wikipedia: Gerstenhaber algebra, wikidata: Q5553164}
   - {name: Batalin–Vilkovisky algebra, kind: definition, wikipedia: Batalin–Vilkovisky formalism, wikidata: Q4868564}
-  - {name: Clifford algebra, kind: definition, decl: CliffordAlgebra, wikipedia: Clifford algebra, wikidata: Q674689, mathlib: [mathlib-overview]}
+  - {name: Clifford algebra, kind: definition, decl: CliffordAlgebra, wikipedia: Clifford algebra, wikidata: Q674689, mathlib: [mathlib-overview], node: A38B1QFK20}
   - {name: exterior algebra, kind: definition, decl: ExteriorAlgebra, wikipedia: Exterior algebra, wikidata: Q1196652, mathlib: [mathlib-overview], node: 0MDMZ965VE}
-  - {name: tensor algebra, kind: definition, decl: TensorAlgebra, wikipedia: Tensor algebra, wikidata: Q2296021, mathlib: [mathlib-overview]}
+  - {name: tensor algebra, kind: definition, decl: TensorAlgebra, wikipedia: Tensor algebra, wikidata: Q2296021, mathlib: [mathlib-overview], node: P4J5JZDW0B}
   - {name: quasigroup, kind: definition, wikipedia: Quasigroup, wikidata: Q1503423}
   - {name: Moufang loop, kind: definition, wikipedia: Moufang loop, wikidata: Q6918890}
   - {name: Bol loop, kind: definition, wikipedia: Bol loop, wikidata: Q4938867}

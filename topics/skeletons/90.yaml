@@ -53,7 +53,7 @@ items:
   - {name: integer programming, kind: concept, wikipedia: Integer programming, wikidata: Q6042592}
   - {name: mixed-integer linear program, kind: definition, wikipedia: Integer programming, wikidata: Q6042592}
   - {name: linear programming relaxation, kind: definition, wikipedia: Linear programming relaxation, wikidata: Q1512771}
-  - {name: totally unimodular matrix, kind: definition, wikipedia: Unimodular matrix, wikidata: Q1367055}
+  - {name: totally unimodular matrix, kind: definition, wikipedia: Unimodular matrix, wikidata: Q1367055, node: VSD67A49XC}
   - {name: Hoffman–Kruskal theorem, kind: statement, wikipedia: Unimodular matrix, wikidata: Q1367055}
   - {name: integral polytope, kind: definition, wikipedia: Integral polytope, wikidata: Q5166519}
   - {name: total dual integrality, kind: definition, wikipedia: Total dual integrality, wikidata: Q7828108}
@@ -92,7 +92,7 @@ items:
   # Network flows
   - {name: flow network, kind: definition, wikipedia: Flow network, wikidata: Q1412924}
   - {name: maximum flow problem, kind: problem, wikipedia: Maximum flow problem, wikidata: Q2585642}
-  - {name: max-flow min-cut theorem, kind: statement, wikipedia: Max-flow min-cut theorem, wikidata: Q608294}
+  - {name: max-flow min-cut theorem, kind: statement, wikipedia: Max-flow min-cut theorem, wikidata: Q608294, node: 4HMR4KQ01T}
   - {name: integral flow theorem, kind: statement, wikipedia: Ford–Fulkerson algorithm, wikidata: Q284695}
   - {name: Ford–Fulkerson algorithm, kind: definition, wikipedia: Ford–Fulkerson algorithm, wikidata: Q284695}
   - {name: Edmonds–Karp algorithm, kind: definition, wikipedia: Edmonds–Karp algorithm, wikidata: Q1302658}
@@ -189,7 +189,7 @@ items:
   - {name: partially observable Markov decision process, kind: definition, wikipedia: Partially observable Markov decision process, wikidata: Q176814}
   - {name: multi-armed bandit, kind: problem, wikipedia: Multi-armed bandit, wikidata: Q2882343}
   - {name: Gittins index theorem, kind: statement, wikipedia: Gittins index, wikidata: Q4200726}
-  - {name: secretary problem, kind: problem, wikipedia: Secretary problem, wikidata: Q1372364}
+  - {name: secretary problem, kind: problem, wikipedia: Secretary problem, wikidata: Q1372364, node: SXE9KQ02YE}
   # Inventory, scheduling and location
   - {name: inventory theory, kind: concept, wikipedia: Inventory theory, wikidata: Q252073}
   - {name: economic order quantity, kind: statement, wikipedia: Economic order quantity, wikidata: Q451299}

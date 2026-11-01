@@ -25,7 +25,7 @@ items:
   - {name: cyclic group, kind: definition, decl: IsCyclic, wikipedia: Cyclic group, wikidata: Q245462, mathlib: [mathlib-undergrad, mathlib-overview], node: 0KVGH0J5B3}
   - {name: generating set of a group, kind: definition, decl: Subgroup.zpowers, wikipedia: Generating set of a group, wikidata: Q734209, node: 0MBV2VHMXA}
   - {name: finitely generated group, kind: definition, decl: Group.FG, wikipedia: Finitely generated group, wikidata: Q21083858, node: 082DWWXMRJ}
-  - {name: coset, kind: definition, wikipedia: Coset, wikidata: Q751969}
+  - {name: coset, kind: definition, wikipedia: Coset, wikidata: Q751969, node: 03DEH43F4H}
   - {name: index of a subgroup, kind: definition, decl: Subgroup.index, wikipedia: Index of a subgroup, wikidata: Q1464168, mathlib: [mathlib-overview], node: 0DTXBQPA2S}
   - {name: Lagrange's theorem, kind: statement, decl: Subgroup.card_subgroup_dvd_card, wikipedia: Lagrange's theorem (group theory), wikidata: Q505798, mathlib: [mathlib-overview, mathlib-100, mathlib-1000], node: 3C53TD}
   - {name: normal subgroup, kind: definition, decl: Subgroup.Normal, wikipedia: Normal subgroup, wikidata: Q743179, mathlib: [mathlib-undergrad, mathlib-overview], node: 0CB0DX5BVV}
@@ -39,233 +39,233 @@ items:
   - {name: normalizer, kind: definition, decl: Subgroup.normalizer, wikipedia: Centralizer and normalizer, wikidata: Q190629, node: 0YGN3VAA0D}
   - {name: conjugacy class, kind: definition, wikipedia: Conjugacy class, wikidata: Q1353233, node: 0DEBXAJ5SA}
   - {name: class equation, kind: statement, decl: Group.card_center_add_sum_card_noncenter_eq_card, wikipedia: Conjugacy class, wikidata: Q1353233, node: 08BPSC6YTE}
-  - {name: commutator, kind: definition, decl: commutator, wikipedia: Commutator, wikidata: Q2989763}
+  - {name: commutator, kind: definition, decl: commutator, wikipedia: Commutator, wikidata: Q2989763, node: 0PXW0BN7DW}
   - {name: commutator subgroup, kind: definition, wikipedia: Commutator subgroup, wikidata: Q522216, node: 0ASGSTXSBW}
   - {name: abelianization, kind: definition, decl: Abelianization, wikipedia: Commutator subgroup, wikidata: Q522216, mathlib: [mathlib-overview], node: 0AQZV0905N}
   - {name: characteristic subgroup, kind: definition, decl: Subgroup.Characteristic, wikipedia: Characteristic subgroup, wikidata: Q747027, node: 0KABPMRHM2}
   - {name: normal core, kind: definition, decl: Subgroup.normalCore, wikipedia: Core (group theory), wikidata: Q3010804, node: 0GETX79CJN}
   - {name: direct product of groups, kind: definition, wikipedia: Direct product of groups, wikidata: Q2725924, node: 00HF4RJ5QN}
   - {name: semidirect product, kind: definition, decl: SemidirectProduct, wikipedia: Semidirect product, wikidata: Q291126, node: 0H3WZXCZNF}
-  - {name: wreath product, kind: definition, decl: RegularWreathProduct, wikipedia: Wreath product, wikidata: Q1786640}
-  - {name: group extension, kind: definition, wikipedia: Group extension, wikidata: Q3041173}
-  - {name: torsion group, kind: definition, decl: Monoid.IsTorsion, wikipedia: Torsion group, wikidata: Q1551033}
-  - {name: torsion-free group, kind: definition, decl: IsMulTorsionFree, wikipedia: Torsion (algebra), wikidata: Q382874}
+  - {name: wreath product, kind: definition, decl: RegularWreathProduct, wikipedia: Wreath product, wikidata: Q1786640, node: W1X984PKJ9}
+  - {name: group extension, kind: definition, wikipedia: Group extension, wikidata: Q3041173, node: MF4N3VGGFV}
+  - {name: torsion group, kind: definition, decl: Monoid.IsTorsion, wikipedia: Torsion group, wikidata: Q1551033, node: JZNQTTMG58}
+  - {name: torsion-free group, kind: definition, decl: IsMulTorsionFree, wikipedia: Torsion (algebra), wikidata: Q382874, node: PEMNN32A43}
   # Group actions and permutation groups
   - {name: group action, kind: definition, decl: MulAction, wikipedia: Group action, wikidata: Q288465, mathlib: [mathlib-undergrad, mathlib-overview], node: 0WCY42EV9V}
   - {name: orbit, kind: definition, decl: MulAction.orbit, wikipedia: Group action, wikidata: Q288465, mathlib: [mathlib-undergrad]}
   - {name: stabilizer, kind: definition, decl: MulAction.stabilizer, wikipedia: Group action, wikidata: Q288465, mathlib: [mathlib-undergrad], node: 0AYMP41THN}
   - {name: orbit-stabilizer theorem, kind: statement, decl: MulAction.orbitEquivQuotientStabilizer, wikipedia: Group action, wikidata: Q288465, mathlib: [mathlib-undergrad, mathlib-1000], node: 0E2HSCKZ6C}
   - {name: Burnside's lemma, kind: statement, decl: MulAction.sum_card_fixedBy_eq_card_orbits_mul_card_group, wikipedia: Burnside's lemma, wikidata: Q1330377, mathlib: [mathlib-overview], node: 0Z47M1B2VS}
-  - {name: Pólya enumeration theorem, kind: statement, wikipedia: Pólya enumeration theorem, wikidata: Q1037559}
+  - {name: Pólya enumeration theorem, kind: statement, wikipedia: Pólya enumeration theorem, wikidata: Q1037559, node: MPYQ39P01F}
   - {name: Cayley's theorem, kind: statement, decl: Equiv.Perm.subgroupOfMulAction, wikipedia: Cayley's theorem, wikidata: Q179208, mathlib: [mathlib-overview, mathlib-1000], node: 0151VYVX27}
   - {name: symmetric group, kind: definition, decl: Equiv.Perm, wikipedia: Symmetric group, wikidata: Q849512, mathlib: [mathlib-undergrad, mathlib-overview], node: 0515A6D2Y1}
   - {name: permutation, kind: definition, wikipedia: Permutation, wikidata: Q161519, node: 05RWFKVTJ7}
   - {name: sign of a permutation, kind: definition, decl: Equiv.Perm.sign, wikipedia: Parity of a permutation, wikidata: Q1064405, mathlib: [mathlib-undergrad], node: 02DKV69ZH0}
   - {name: alternating group, kind: definition, decl: alternatingGroup, wikipedia: Alternating group, wikidata: Q438814, mathlib: [mathlib-undergrad, mathlib-overview], node: 0Z5905Q73D}
   - {name: simplicity of the alternating groups, kind: statement, decl: alternatingGroup.isSimpleGroup, wikipedia: Alternating group, wikidata: Q438814, mathlib: [mathlib-overview], node: 0ARPRJQWZ2}
-  - {name: permutation group, kind: definition, wikipedia: Permutation group, wikidata: Q1412905}
+  - {name: permutation group, kind: definition, wikipedia: Permutation group, wikidata: Q1412905, node: ZDJQRKPWGA}
   - {name: transitive action, kind: definition, decl: MulAction.IsPretransitive, wikipedia: Group action, wikidata: Q288465, node: 02GK6HZYBT}
-  - {name: multiply transitive group action, kind: definition, wikipedia: Multiply transitive group action, wikidata: Q4596974}
-  - {name: primitive permutation group, kind: definition, decl: MulAction.IsPreprimitive, wikipedia: Primitive permutation group, wikidata: Q7243579}
-  - {name: block system, kind: definition, decl: MulAction.IsBlock, wikipedia: Block (permutation group theory), wikidata: Q4927124}
+  - {name: multiply transitive group action, kind: definition, wikipedia: Multiply transitive group action, wikidata: Q4596974, node: BDJ1AX4XBB}
+  - {name: primitive permutation group, kind: definition, decl: MulAction.IsPreprimitive, wikipedia: Primitive permutation group, wikidata: Q7243579, node: Y10S0751KG}
+  - {name: block system, kind: definition, decl: MulAction.IsBlock, wikipedia: Block (permutation group theory), wikidata: Q4927124, node: SF738NKWJ0}
   - {name: Jordan's theorem on multiply transitive groups, kind: statement, wikipedia: Jordan's theorem (symmetric group), wikidata: Q6276298}
-  - {name: O'Nan–Scott theorem, kind: statement, wikipedia: O'Nan–Scott theorem, wikidata: Q17099479}
-  - {name: Frobenius group, kind: definition, wikipedia: Frobenius group, wikidata: Q1457165}
-  - {name: Frobenius's theorem on Frobenius kernels, kind: statement, wikipedia: Frobenius group, wikidata: Q1457165}
-  - {name: Mathieu groups, kind: object, wikipedia: Mathieu group, wikidata: Q934200}
-  - {name: Schreier–Sims algorithm, kind: concept, wikipedia: Schreier–Sims algorithm, wikidata: Q7432874}
+  - {name: O'Nan–Scott theorem, kind: statement, wikipedia: O'Nan–Scott theorem, wikidata: Q17099479, node: Z4WVANZPK4}
+  - {name: Frobenius group, kind: definition, wikipedia: Frobenius group, wikidata: Q1457165, node: JXS91FGFHY}
+  - {name: Frobenius's theorem on Frobenius kernels, kind: statement, wikipedia: Frobenius group, wikidata: Q1457165, node: XK7H3YXBQT}
+  - {name: Mathieu groups, kind: object, wikipedia: Mathieu group, wikidata: Q934200, node: T1KR4KPX8P}
+  - {name: Schreier–Sims algorithm, kind: concept, wikipedia: Schreier–Sims algorithm, wikidata: Q7432874, node: FHGDZWZ2WE}
   # Finite groups
   - {name: Cauchy's theorem, kind: statement, decl: exists_prime_orderOf_dvd_card, wikipedia: Cauchy's theorem (group theory), wikidata: Q1139041, mathlib: [mathlib-1000], node: 0JM7PA288B}
   - {name: p-group, kind: definition, decl: IsPGroup, wikipedia: P-group, wikidata: Q286972, node: 06QYRTX9KQ}
   - {name: Sylow subgroup, kind: definition, decl: Sylow, wikipedia: Sylow theorems, wikidata: Q1057919, node: 0JWZX6FKSH}
-  - {name: Sylow theorems, kind: statement, decl: Sylow.exists_subgroup_card_pow_prime, wikipedia: Sylow theorems, wikidata: Q1057919, mathlib: [mathlib-overview, mathlib-100, mathlib-1000]}
+  - {name: Sylow theorems, kind: statement, decl: Sylow.exists_subgroup_card_pow_prime, wikipedia: Sylow theorems, wikidata: Q1057919, mathlib: [mathlib-overview, mathlib-100, mathlib-1000], node: FESTJ0K9TX}
   - {name: Frattini argument, kind: statement, decl: Sylow.normalizer_sup_eq_top, wikipedia: Frattini's argument, wikidata: Q1053997, node: 0QTZDKJEDV}
-  - {name: Frattini subgroup, kind: definition, decl: frattini, wikipedia: Frattini subgroup, wikidata: Q176244}
-  - {name: Fitting subgroup, kind: definition, wikipedia: Fitting subgroup, wikidata: Q3492011}
-  - {name: Hall subgroup, kind: definition, wikipedia: Hall subgroup, wikidata: Q1571916}
-  - {name: Hall's theorem on solvable groups, kind: statement, wikipedia: Hall subgroup, wikidata: Q1571916}
-  - {name: Schur–Zassenhaus theorem, kind: statement, decl: Subgroup.exists_left_complement'_of_coprime, wikipedia: Schur–Zassenhaus theorem, wikidata: Q2226800, mathlib: [mathlib-1000]}
-  - {name: transfer homomorphism, kind: definition, decl: MonoidHom.transfer, wikipedia: Transfer (group theory), wikidata: Q3537483}
-  - {name: focal subgroup theorem, kind: statement, wikipedia: Focal subgroup theorem, wikidata: Q5463860}
-  - {name: Z* theorem, kind: statement, wikipedia: Z* theorem, wikidata: Q8062800}
+  - {name: Frattini subgroup, kind: definition, decl: frattini, wikipedia: Frattini subgroup, wikidata: Q176244, node: KXJG5VV340}
+  - {name: Fitting subgroup, kind: definition, wikipedia: Fitting subgroup, wikidata: Q3492011, node: N219CDB623}
+  - {name: Hall subgroup, kind: definition, wikipedia: Hall subgroup, wikidata: Q1571916, node: KPWW9X14V2}
+  - {name: Hall's theorem on solvable groups, kind: statement, wikipedia: Hall subgroup, wikidata: Q1571916, node: 8Z8PE69SJS}
+  - {name: Schur–Zassenhaus theorem, kind: statement, decl: Subgroup.exists_left_complement'_of_coprime, wikipedia: Schur–Zassenhaus theorem, wikidata: Q2226800, mathlib: [mathlib-1000], node: 64K1A69C80}
+  - {name: transfer homomorphism, kind: definition, decl: MonoidHom.transfer, wikipedia: Transfer (group theory), wikidata: Q3537483, node: 3R2Y906QAQ}
+  - {name: focal subgroup theorem, kind: statement, wikipedia: Focal subgroup theorem, wikidata: Q5463860, node: H1BSG0J5G1}
+  - {name: Z* theorem, kind: statement, wikipedia: Z* theorem, wikidata: Q8062800, node: 2XCJ8NNMXP}
   - {name: simple group, kind: definition, decl: IsSimpleGroup, wikipedia: Simple group, wikidata: Q571124, mathlib: [mathlib-overview], node: 0YMYMNQ0QZ}
   - {name: composition series, kind: definition, decl: CompositionSeries, wikipedia: Composition series, wikidata: Q2525646, node: 0XV2A49X6Q}
   - {name: Jordan–Hölder theorem, kind: statement, decl: CompositionSeries.jordan_holder, wikipedia: Composition series, wikidata: Q2525646, mathlib: [mathlib-1000], node: 0E088ZP533}
-  - {name: Schreier refinement theorem, kind: statement, wikipedia: Schreier refinement theorem, wikidata: Q7432872}
-  - {name: Zassenhaus lemma, kind: statement, wikipedia: Zassenhaus lemma, wikidata: Q3229348}
-  - {name: subnormal subgroup, kind: definition, decl: Subgroup.IsSubnormal, wikipedia: Subnormal subgroup, wikidata: Q2361983}
+  - {name: Schreier refinement theorem, kind: statement, wikipedia: Schreier refinement theorem, wikidata: Q7432872, node: QQAWHC9X60}
+  - {name: Zassenhaus lemma, kind: statement, wikipedia: Zassenhaus lemma, wikidata: Q3229348, node: 21JJ523V95}
+  - {name: subnormal subgroup, kind: definition, decl: Subgroup.IsSubnormal, wikipedia: Subnormal subgroup, wikidata: Q2361983, node: FKTQ1WBMKM}
   - {name: solvable group, kind: definition, decl: IsSolvable, wikipedia: Solvable group, wikidata: Q759832, node: 0FXJ7YFMMX}
   - {name: derived series, kind: definition, decl: derivedSeries, wikipedia: Commutator subgroup, wikidata: Q522216, node: 0Q5G5DJ4P2}
   - {name: nilpotent group, kind: definition, decl: Group.IsNilpotent, wikipedia: Nilpotent group, wikidata: Q1755242, mathlib: [mathlib-overview], node: 0Q7MMQHC1P}
   - {name: lower central series, kind: definition, decl: Subgroup.lowerCentralSeries, wikipedia: Central series, wikidata: Q5062152, node: 0K98R7A4VC}
   - {name: upper central series, kind: definition, decl: Subgroup.upperCentralSeries, wikipedia: Central series, wikidata: Q5062152, node: 0XW54DH28V}
-  - {name: nilpotency class, kind: definition, decl: Group.nilpotencyClass, wikipedia: Nilpotent group, wikidata: Q1755242}
-  - {name: supersolvable group, kind: definition, wikipedia: Supersolvable group, wikidata: Q7644153}
-  - {name: polycyclic group, kind: definition, wikipedia: Polycyclic group, wikidata: Q1658427}
+  - {name: nilpotency class, kind: definition, decl: Group.nilpotencyClass, wikipedia: Nilpotent group, wikidata: Q1755242, node: 4SQYNP0B4Y}
+  - {name: supersolvable group, kind: definition, wikipedia: Supersolvable group, wikidata: Q7644153, node: AWWM9RWETX}
+  - {name: polycyclic group, kind: definition, wikipedia: Polycyclic group, wikidata: Q1658427, node: 9RBA56NXX3}
   - {name: Burnside's p^a q^b theorem, kind: statement, wikipedia: Burnside's theorem, wikidata: Q1996305, node: 0FMAQSB1SC}
-  - {name: Feit–Thompson theorem, kind: statement, wikipedia: Feit–Thompson theorem, wikidata: Q909517}
-  - {name: Brauer–Fowler theorem, kind: statement, wikipedia: Brauer–Fowler theorem, wikidata: Q4958229}
-  - {name: Z-group, kind: definition, decl: IsZGroup, wikipedia: Z-group, wikidata: Q8062835}
+  - {name: Feit–Thompson theorem, kind: statement, wikipedia: Feit–Thompson theorem, wikidata: Q909517, node: 6VK9RSG13Q}
+  - {name: Brauer–Fowler theorem, kind: statement, wikipedia: Brauer–Fowler theorem, wikidata: Q4958229, node: K5CQM8MYYG}
+  - {name: Z-group, kind: definition, decl: IsZGroup, wikipedia: Z-group, wikidata: Q8062835, node: 9VYFXJQ3DE}
   - {name: dihedral group, kind: example, decl: DihedralGroup, wikipedia: Dihedral group, wikidata: Q558339, node: 0JZ27DMJ5D}
   - {name: quaternion group, kind: example, decl: QuaternionGroup, wikipedia: Quaternion group, wikidata: Q1335680, node: 0NRJGW864D}
   - {name: Klein four-group, kind: example, decl: IsKleinFour, wikipedia: Klein four-group, wikidata: Q550593, node: 0PMRQJVTME}
-  - {name: extraspecial group, kind: definition, wikipedia: Extraspecial group, wikidata: Q5422174}
-  - {name: commuting probability, kind: concept, decl: commProb, wikipedia: Commuting probability, wikidata: Q56887820}
-  - {name: list of small groups, kind: example, wikipedia: List of small groups, wikidata: Q1332566}
+  - {name: extraspecial group, kind: definition, wikipedia: Extraspecial group, wikidata: Q5422174, node: 7YE4TAG5GE}
+  - {name: commuting probability, kind: concept, decl: commProb, wikipedia: Commuting probability, wikidata: Q56887820, node: 4MBYAVB0PY}
+  - {name: list of small groups, kind: example, wikipedia: List of small groups, wikidata: Q1332566, node: XYVPYNVYBX}
   # Classification of finite simple groups
   - {name: classification of finite simple groups, kind: statement, wikipedia: Classification of finite simple groups, wikidata: Q1340623, node: 06J6P03MG7}
-  - {name: group of Lie type, kind: definition, wikipedia: Group of Lie type, wikidata: Q1406425}
-  - {name: Chevalley group, kind: definition, wikipedia: Group of Lie type, wikidata: Q1406425}
+  - {name: group of Lie type, kind: definition, wikipedia: Group of Lie type, wikidata: Q1406425, node: NPEBABQ49M}
+  - {name: Chevalley group, kind: definition, wikipedia: Group of Lie type, wikidata: Q1406425, node: YPCH4Q0V34}
   - {name: Steinberg group, kind: definition, wikipedia: Group of Lie type, wikidata: Q1406425}
-  - {name: Suzuki groups, kind: object, wikipedia: Suzuki groups, wikidata: Q7651367}
-  - {name: Ree groups, kind: object, wikipedia: Ree group, wikidata: Q7306554}
-  - {name: Tits group, kind: object, wikipedia: Tits group, wikidata: Q2856369}
-  - {name: sporadic group, kind: definition, wikipedia: Sporadic group, wikidata: Q2682286}
-  - {name: Monster group, kind: object, wikipedia: Monster group, wikidata: Q392663}
-  - {name: Baby Monster group, kind: object, wikipedia: Baby monster group, wikidata: Q797816}
-  - {name: Conway groups, kind: object, wikipedia: Conway group, wikidata: Q942433}
-  - {name: Janko groups, kind: object, wikipedia: Janko group, wikidata: Q1099545}
-  - {name: Fischer groups, kind: object, wikipedia: Fischer group, wikidata: Q3117683}
-  - {name: pariah groups, kind: concept, wikipedia: Pariah group, wikidata: Q278338}
-  - {name: Leech lattice, kind: object, wikipedia: Leech lattice, wikidata: Q2510203}
-  - {name: Griess algebra, kind: object, wikipedia: Griess algebra, wikidata: Q3514494}
-  - {name: projective special linear group, kind: example, wikipedia: Projective linear group, wikidata: Q2997419}
+  - {name: Suzuki groups, kind: object, wikipedia: Suzuki groups, wikidata: Q7651367, node: 36X3GET13B}
+  - {name: Ree groups, kind: object, wikipedia: Ree group, wikidata: Q7306554, node: YB62XEQJAC}
+  - {name: Tits group, kind: object, wikipedia: Tits group, wikidata: Q2856369, node: WC16TBY3FN}
+  - {name: sporadic group, kind: definition, wikipedia: Sporadic group, wikidata: Q2682286, node: PZ49Z4CBFZ}
+  - {name: Monster group, kind: object, wikipedia: Monster group, wikidata: Q392663, node: C9VY20TAPT}
+  - {name: Baby Monster group, kind: object, wikipedia: Baby monster group, wikidata: Q797816, node: TNPQ9AWVBC}
+  - {name: Conway groups, kind: object, wikipedia: Conway group, wikidata: Q942433, node: 366D4ETGQH}
+  - {name: Janko groups, kind: object, wikipedia: Janko group, wikidata: Q1099545, node: PSEC8D7CX0}
+  - {name: Fischer groups, kind: object, wikipedia: Fischer group, wikidata: Q3117683, node: AYJ1CM1XT8}
+  - {name: pariah groups, kind: concept, wikipedia: Pariah group, wikidata: Q278338, node: ZYZ5FYG7QC}
+  - {name: Leech lattice, kind: object, wikipedia: Leech lattice, wikidata: Q2510203, node: XETV3657DG}
+  - {name: Griess algebra, kind: object, wikipedia: Griess algebra, wikidata: Q3514494, node: ZMPYZ8KD9N}
+  - {name: projective special linear group, kind: example, wikipedia: Projective linear group, wikidata: Q2997419, node: BTDZHD9HG3}
   - {name: Schur multiplier, kind: definition, wikipedia: Schur multiplier, wikidata: Q3327702}
-  - {name: Brauer's height zero conjecture, kind: conjecture, wikipedia: Brauer's height zero conjecture, wikidata: Q131191617}
+  - {name: Brauer's height zero conjecture, kind: conjecture, wikipedia: Brauer's height zero conjecture, wikidata: Q131191617, node: 5M0HYY3RYV}
   # Representation theory of groups
-  - {name: group representation, kind: definition, decl: Representation, wikipedia: Group representation, wikidata: Q1055807, mathlib: [mathlib-overview]}
-  - {name: irreducible representation, kind: definition, wikipedia: Irreducible representation, wikidata: Q13690522}
+  - {name: group representation, kind: definition, decl: Representation, wikipedia: Group representation, wikidata: Q1055807, mathlib: [mathlib-overview], node: WYGRXCG2RN}
+  - {name: irreducible representation, kind: definition, wikipedia: Irreducible representation, wikidata: Q13690522, node: FX3NEFYFFN}
   - {name: Maschke's theorem, kind: statement, wikipedia: Maschke's theorem, wikidata: Q656198}
   - {name: Schur's lemma, kind: statement, wikipedia: Schur's lemma, wikidata: Q1816952}
-  - {name: character of a representation, kind: definition, wikipedia: Character theory, wikidata: Q600043}
-  - {name: Schur orthogonality relations, kind: statement, wikipedia: Schur orthogonality relations, wikidata: Q7433034}
-  - {name: character table, kind: definition, wikipedia: Character table, wikidata: Q11498021}
-  - {name: group algebra, kind: definition, wikipedia: Group ring, wikidata: Q2602722}
-  - {name: induced representation, kind: definition, wikipedia: Induced representation, wikidata: Q3427423}
-  - {name: Frobenius reciprocity, kind: statement, wikipedia: Frobenius reciprocity, wikidata: Q48998319}
-  - {name: Brauer's theorem on induced characters, kind: statement, wikipedia: Brauer's theorem on induced characters, wikidata: Q4958218}
-  - {name: Artin's induction theorem, kind: statement, wikipedia: Artin's theorem on induced characters, wikidata: Q97359344}
-  - {name: Clifford theory, kind: statement, wikipedia: Clifford theory, wikidata: Q5133087}
-  - {name: representation theory of the symmetric group, kind: concept, wikipedia: Representation theory of the symmetric group, wikidata: Q7314231}
-  - {name: Young tableau, kind: definition, wikipedia: Young tableau, wikidata: Q2166280}
-  - {name: Specht module, kind: definition, wikipedia: Specht module, wikidata: Q7574439}
-  - {name: hook length formula, kind: statement, wikipedia: Hook length formula, wikidata: Q17163411}
+  - {name: character of a representation, kind: definition, wikipedia: Character theory, wikidata: Q600043, node: RMWMYBY8TC}
+  - {name: Schur orthogonality relations, kind: statement, wikipedia: Schur orthogonality relations, wikidata: Q7433034, node: AY0B20QC04}
+  - {name: character table, kind: definition, wikipedia: Character table, wikidata: Q11498021, node: P16AFZT3K0}
+  - {name: group algebra, kind: definition, wikipedia: Group ring, wikidata: Q2602722, node: MNP2HBWB5Q}
+  - {name: induced representation, kind: definition, wikipedia: Induced representation, wikidata: Q3427423, node: JJP4JFH3C6}
+  - {name: Frobenius reciprocity, kind: statement, wikipedia: Frobenius reciprocity, wikidata: Q48998319, node: PAP76H0ND9}
+  - {name: Brauer's theorem on induced characters, kind: statement, wikipedia: Brauer's theorem on induced characters, wikidata: Q4958218, node: V8JVWE87TE}
+  - {name: Artin's induction theorem, kind: statement, wikipedia: Artin's theorem on induced characters, wikidata: Q97359344, node: 2CABBY4EEB}
+  - {name: Clifford theory, kind: statement, wikipedia: Clifford theory, wikidata: Q5133087, node: SAH4PD2J9T}
+  - {name: representation theory of the symmetric group, kind: concept, wikipedia: Representation theory of the symmetric group, wikidata: Q7314231, node: 1VQC05EEYW}
+  - {name: Young tableau, kind: definition, wikipedia: Young tableau, wikidata: Q2166280, node: Q6TH9PH2R7}
+  - {name: Specht module, kind: definition, wikipedia: Specht module, wikidata: Q7574439, node: NTFM7X5555}
+  - {name: hook length formula, kind: statement, wikipedia: Hook length formula, wikidata: Q17163411, node: VCMS1CP91N}
   - {name: modular representation theory, kind: concept, wikipedia: Modular representation theory, wikidata: Q6889739}
-  - {name: Brauer character, kind: definition, wikipedia: Modular representation theory, wikidata: Q6889739}
-  - {name: Brauer's main theorems, kind: statement, wikipedia: Brauer's three main theorems, wikidata: Q4958221}
-  - {name: McKay conjecture, kind: statement, wikipedia: McKay conjecture, wikidata: Q28401746}
-  - {name: Deligne–Lusztig theory, kind: concept, wikipedia: Deligne–Lusztig theory, wikidata: Q5253966}
+  - {name: Brauer character, kind: definition, wikipedia: Modular representation theory, wikidata: Q6889739, node: R2N3GBDBVQ}
+  - {name: Brauer's main theorems, kind: statement, wikipedia: Brauer's three main theorems, wikidata: Q4958221, node: NB057FEAAE}
+  - {name: McKay conjecture, kind: statement, wikipedia: McKay conjecture, wikidata: Q28401746, node: WQQTFRZFBD}
+  - {name: Deligne–Lusztig theory, kind: concept, wikipedia: Deligne–Lusztig theory, wikidata: Q5253966, node: ZH21D5B62C}
   - {name: Burnside ring, kind: definition, wikipedia: Burnside ring, wikidata: Q5000158}
   # Infinite groups and combinatorial group theory
   - {name: free group, kind: definition, decl: FreeGroup, wikipedia: Free group, wikidata: Q431078, mathlib: [mathlib-overview], node: 0KTW26C80J}
   - {name: free abelian group, kind: definition, decl: FreeAbelianGroup, wikipedia: Free abelian group, wikidata: Q1454111, node: 0WJX8MGG37}
-  - {name: group presentation, kind: definition, decl: PresentedGroup, wikipedia: Presentation of a group, wikidata: Q915906, mathlib: [mathlib-overview]}
-  - {name: finitely presented group, kind: definition, wikipedia: Presentation of a group, wikidata: Q915906}
-  - {name: Tietze transformations, kind: concept, wikipedia: Tietze transformations, wikidata: Q7801155}
-  - {name: Nielsen–Schreier theorem, kind: statement, decl: subgroupIsFreeOfIsFree, wikipedia: Nielsen–Schreier theorem, wikidata: Q1259814, mathlib: [mathlib-1000]}
-  - {name: free product, kind: definition, decl: Monoid.CoprodI, wikipedia: Free product, wikidata: Q1454165}
+  - {name: group presentation, kind: definition, decl: PresentedGroup, wikipedia: Presentation of a group, wikidata: Q915906, mathlib: [mathlib-overview], node: 0JGEQXQ4AC}
+  - {name: finitely presented group, kind: definition, wikipedia: Presentation of a group, wikidata: Q915906, node: TJKANTKASZ}
+  - {name: Tietze transformations, kind: concept, wikipedia: Tietze transformations, wikidata: Q7801155, node: CEZTVHC1KS}
+  - {name: Nielsen–Schreier theorem, kind: statement, decl: subgroupIsFreeOfIsFree, wikipedia: Nielsen–Schreier theorem, wikidata: Q1259814, mathlib: [mathlib-1000], node: W97X7WX5G8}
+  - {name: free product, kind: definition, decl: Monoid.CoprodI, wikipedia: Free product, wikidata: Q1454165, node: TM7QS7P7X9}
   - {name: amalgamated free product, kind: definition, decl: Monoid.PushoutI, wikipedia: Free product, wikidata: Q1454165}
-  - {name: HNN extension, kind: definition, decl: HNNExtension, wikipedia: HNN extension, wikidata: Q3062521}
-  - {name: Kurosh subgroup theorem, kind: statement, wikipedia: Kurosh subgroup theorem, wikidata: Q6446396}
-  - {name: Grushko theorem, kind: statement, wikipedia: Grushko theorem, wikidata: Q17019684}
-  - {name: Higman embedding theorem, kind: statement, wikipedia: Higman's embedding theorem, wikidata: Q17029787}
+  - {name: HNN extension, kind: definition, decl: HNNExtension, wikipedia: HNN extension, wikidata: Q3062521, node: YEYERRY37K}
+  - {name: Kurosh subgroup theorem, kind: statement, wikipedia: Kurosh subgroup theorem, wikidata: Q6446396, node: RY8K5RQJSR}
+  - {name: Grushko theorem, kind: statement, wikipedia: Grushko theorem, wikidata: Q17019684, node: YB8V6TQDYE}
+  - {name: Higman embedding theorem, kind: statement, wikipedia: Higman's embedding theorem, wikidata: Q17029787, node: P7TZ694FCM}
   - {name: word problem for groups, kind: problem, wikipedia: Word problem for groups, wikidata: Q8034369}
-  - {name: conjugacy problem, kind: problem, wikipedia: Conjugacy problem, wikidata: Q5161137}
-  - {name: group isomorphism problem, kind: problem, wikipedia: Group isomorphism problem, wikidata: Q5611242}
-  - {name: small cancellation theory, kind: concept, wikipedia: Small cancellation theory, wikidata: Q7543015}
-  - {name: one-relator group, kind: definition, wikipedia: One-relator group, wikidata: Q106901197}
-  - {name: Magnus's Freiheitssatz, kind: statement, wikipedia: Freiheitssatz, wikidata: Q5501402}
-  - {name: Hopfian group, kind: definition, wikipedia: Hopfian group, wikidata: Q5900529}
-  - {name: Baumslag–Solitar group, kind: example, wikipedia: Baumslag–Solitar group, wikidata: Q4150685}
-  - {name: residually finite group, kind: definition, wikipedia: Residually finite group, wikidata: Q3777935}
-  - {name: Coxeter group, kind: definition, decl: IsCoxeterGroup, wikipedia: Coxeter group, wikidata: Q7874246}
-  - {name: Artin group, kind: definition, wikipedia: Artin–Tits group, wikidata: Q3956993}
-  - {name: braid group, kind: definition, wikipedia: Braid group, wikidata: Q220409}
-  - {name: mapping class group, kind: definition, wikipedia: Mapping class group, wikidata: Q3845212}
-  - {name: Thompson groups, kind: object, wikipedia: Thompson groups, wikidata: Q4150823}
-  - {name: Grigorchuk group, kind: object, wikipedia: Grigorchuk group, wikidata: Q5609013}
-  - {name: Burnside problem, kind: problem, wikipedia: Burnside problem, wikidata: Q852206}
-  - {name: restricted Burnside problem, kind: statement, wikipedia: Burnside problem, wikidata: Q852206}
-  - {name: Tarski monster group, kind: object, wikipedia: Tarski monster group, wikidata: Q7686763}
+  - {name: conjugacy problem, kind: problem, wikipedia: Conjugacy problem, wikidata: Q5161137, node: 4AF7AF7690}
+  - {name: group isomorphism problem, kind: problem, wikipedia: Group isomorphism problem, wikidata: Q5611242, node: MP3F49QT3C}
+  - {name: small cancellation theory, kind: concept, wikipedia: Small cancellation theory, wikidata: Q7543015, node: 3A1D37TVF6}
+  - {name: one-relator group, kind: definition, wikipedia: One-relator group, wikidata: Q106901197, node: 68AFPHR4GN}
+  - {name: Magnus's Freiheitssatz, kind: statement, wikipedia: Freiheitssatz, wikidata: Q5501402, node: B2TRERFWEH}
+  - {name: Hopfian group, kind: definition, wikipedia: Hopfian group, wikidata: Q5900529, node: PHEN4E1JPT}
+  - {name: Baumslag–Solitar group, kind: example, wikipedia: Baumslag–Solitar group, wikidata: Q4150685, node: 429JJ5ZNBY}
+  - {name: residually finite group, kind: definition, wikipedia: Residually finite group, wikidata: Q3777935, node: HEE922EHQ8}
+  - {name: Coxeter group, kind: definition, decl: IsCoxeterGroup, wikipedia: Coxeter group, wikidata: Q7874246, node: G6FND7X69J}
+  - {name: Artin group, kind: definition, wikipedia: Artin–Tits group, wikidata: Q3956993, node: SAWBDBHE41}
+  - {name: braid group, kind: definition, wikipedia: Braid group, wikidata: Q220409, node: BNR4H5GCTP}
+  - {name: mapping class group, kind: definition, wikipedia: Mapping class group, wikidata: Q3845212, node: JV5NYG913V}
+  - {name: Thompson groups, kind: object, wikipedia: Thompson groups, wikidata: Q4150823, node: VK50GVVFTN}
+  - {name: Grigorchuk group, kind: object, wikipedia: Grigorchuk group, wikidata: Q5609013, node: M0WAT1VQZH}
+  - {name: Burnside problem, kind: problem, wikipedia: Burnside problem, wikidata: Q852206, node: XWEMJ7T2XV}
+  - {name: restricted Burnside problem, kind: statement, wikipedia: Burnside problem, wikidata: Q852206, node: FQZJKY2G5Q}
+  - {name: Tarski monster group, kind: object, wikipedia: Tarski monster group, wikidata: Q7686763, node: TE19BGFFF1}
   - {name: Kaplansky's conjectures, kind: conjecture, wikipedia: Kaplansky's conjectures, wikidata: Q6366842}
-  - {name: Andrews–Curtis conjecture, kind: conjecture, wikipedia: Andrews–Curtis conjecture, wikidata: Q2409999}
+  - {name: Andrews–Curtis conjecture, kind: conjecture, wikipedia: Andrews–Curtis conjecture, wikidata: Q2409999, node: N298DRYE0W}
   # Geometric group theory
-  - {name: geometric group theory, kind: concept, wikipedia: Geometric group theory, wikidata: Q2662474}
+  - {name: geometric group theory, kind: concept, wikipedia: Geometric group theory, wikidata: Q2662474, node: 2T3218RXTD}
   - {name: Cayley graph, kind: definition, wikipedia: Cayley graph, wikidata: Q859174, node: 0GYQK9NDJF}
-  - {name: Schreier coset graph, kind: definition, decl: Quiver.SchreierGraph, wikipedia: Schreier coset graph, wikidata: Q7432869}
-  - {name: word metric, kind: definition, wikipedia: Word metric, wikidata: Q4423782}
-  - {name: quasi-isometry, kind: definition, wikipedia: Quasi-isometry, wikidata: Q614527}
-  - {name: Švarc–Milnor lemma, kind: statement, wikipedia: Švarc–Milnor lemma, wikidata: Q11085263}
-  - {name: growth rate of a group, kind: definition, wikipedia: Growth rate (group theory), wikidata: Q4139973}
-  - {name: Gromov's theorem on groups of polynomial growth, kind: statement, wikipedia: Gromov's theorem on groups of polynomial growth, wikidata: Q3527091}
-  - {name: hyperbolic group, kind: definition, wikipedia: Hyperbolic group, wikidata: Q81194}
-  - {name: CAT(0) group, kind: definition, wikipedia: CAT(0) group, wikidata: Q5008888}
-  - {name: amenable group, kind: definition, wikipedia: Amenable group, wikidata: Q1857002}
-  - {name: Tits alternative, kind: statement, wikipedia: Tits alternative, wikidata: Q3613173}
-  - {name: Stallings theorem about ends of groups, kind: statement, wikipedia: Stallings theorem about ends of groups, wikidata: Q7597316}
-  - {name: Bass–Serre theory, kind: concept, wikipedia: Bass–Serre theory, wikidata: Q4868208}
-  - {name: graph of groups, kind: definition, wikipedia: Graph of groups, wikidata: Q3115551}
-  - {name: automatic group, kind: definition, wikipedia: Automatic group, wikidata: Q4826571}
-  - {name: Dehn function, kind: definition, wikipedia: Dehn function, wikidata: Q4493444}
-  - {name: Out(F_n), kind: object, wikipedia: Out(Fn), wikidata: Q7111377}
-  - {name: right-angled Artin group, kind: definition, wikipedia: Artin–Tits group, wikidata: Q3956993}
-  - {name: property (T), kind: definition, wikipedia: Kazhdan's property (T), wikidata: Q30765715}
-  - {name: lamplighter group, kind: example, wikipedia: Lamplighter group, wikidata: Q6482453}
+  - {name: Schreier coset graph, kind: definition, decl: Quiver.SchreierGraph, wikipedia: Schreier coset graph, wikidata: Q7432869, node: HV2QBDHTDD}
+  - {name: word metric, kind: definition, wikipedia: Word metric, wikidata: Q4423782, node: VCHJVR9NGH}
+  - {name: quasi-isometry, kind: definition, wikipedia: Quasi-isometry, wikidata: Q614527, node: 6FKYSH729T}
+  - {name: Švarc–Milnor lemma, kind: statement, wikipedia: Švarc–Milnor lemma, wikidata: Q11085263, node: NTK1TVA50A}
+  - {name: growth rate of a group, kind: definition, wikipedia: Growth rate (group theory), wikidata: Q4139973, node: 4CMRM3975W}
+  - {name: Gromov's theorem on groups of polynomial growth, kind: statement, wikipedia: Gromov's theorem on groups of polynomial growth, wikidata: Q3527091, node: RSBFHHPTWX}
+  - {name: hyperbolic group, kind: definition, wikipedia: Hyperbolic group, wikidata: Q81194, node: JWJ8YPR7EB}
+  - {name: CAT(0) group, kind: definition, wikipedia: CAT(0) group, wikidata: Q5008888, node: XB9QTY77ZA}
+  - {name: amenable group, kind: definition, wikipedia: Amenable group, wikidata: Q1857002, node: CEAT9BESKK}
+  - {name: Tits alternative, kind: statement, wikipedia: Tits alternative, wikidata: Q3613173, node: QYXGVES1XM}
+  - {name: Stallings theorem about ends of groups, kind: statement, wikipedia: Stallings theorem about ends of groups, wikidata: Q7597316, node: GWZN3EKEWD}
+  - {name: Bass–Serre theory, kind: concept, wikipedia: Bass–Serre theory, wikidata: Q4868208, node: 6M731X66RD}
+  - {name: graph of groups, kind: definition, wikipedia: Graph of groups, wikidata: Q3115551, node: DC1CQMD3WK}
+  - {name: automatic group, kind: definition, wikipedia: Automatic group, wikidata: Q4826571, node: J5XQRP1SNQ}
+  - {name: Dehn function, kind: definition, wikipedia: Dehn function, wikidata: Q4493444, node: Q4HGMRA9JQ}
+  - {name: Out(F_n), kind: object, wikipedia: Out(Fn), wikidata: Q7111377, node: 7Z5ZS7KNXS}
+  - {name: right-angled Artin group, kind: definition, wikipedia: Artin–Tits group, wikidata: Q3956993, node: 6D1DV09D6P}
+  - {name: property (T), kind: definition, wikipedia: Kazhdan's property (T), wikidata: Q30765715, node: GTFZ277047}
+  - {name: lamplighter group, kind: example, wikipedia: Lamplighter group, wikidata: Q6482453, node: 4GNPFMT7DZ}
   - {name: Banach–Tarski paradox, kind: statement, wikipedia: Banach–Tarski paradox, wikidata: Q737851}
   # Abelian groups
   - {name: structure theorem for finitely generated abelian groups, kind: statement, decl: AddCommGroup.equiv_free_prod_directSum_zmod, wikipedia: Finitely generated abelian group, wikidata: Q142140, mathlib: [mathlib-undergrad, mathlib-overview], node: 0RY0B72XAS}
   - {name: classification of finite abelian groups, kind: statement, decl: AddCommGroup.equiv_directSum_zmod_of_finite, wikipedia: Finitely generated abelian group, wikidata: Q142140, node: 07CQR9BW3R}
   - {name: torsion subgroup, kind: definition, decl: CommGroup.torsion, wikipedia: Torsion subgroup, wikidata: Q2293759, node: 0DBWXQRXQJ}
-  - {name: divisible group, kind: definition, wikipedia: Divisible group, wikidata: Q1782332}
-  - {name: Prüfer group, kind: example, wikipedia: Prüfer group, wikidata: Q2281199}
-  - {name: rank of an abelian group, kind: definition, wikipedia: Rank of an abelian group, wikidata: Q1260803}
-  - {name: Whitehead problem, kind: problem, wikipedia: Whitehead problem, wikidata: Q2905020}
-  - {name: Ulm's theorem, kind: statement, wikipedia: Height (abelian group), wikidata: Q5699059}
-  - {name: elementary abelian group, kind: definition, wikipedia: Elementary abelian group, wikidata: Q1017231}
-  - {name: profinite group, kind: definition, decl: ProfiniteGrp, wikipedia: Profinite group, wikidata: Q1428923}
+  - {name: divisible group, kind: definition, wikipedia: Divisible group, wikidata: Q1782332, node: ZXVBEPMTCN}
+  - {name: Prüfer group, kind: example, wikipedia: Prüfer group, wikidata: Q2281199, node: F0XAMM2PPS}
+  - {name: rank of an abelian group, kind: definition, wikipedia: Rank of an abelian group, wikidata: Q1260803, node: EMCTDD3HZ1}
+  - {name: Whitehead problem, kind: problem, wikipedia: Whitehead problem, wikidata: Q2905020, node: F0B6BRJA5Z}
+  - {name: Ulm's theorem, kind: statement, wikipedia: Height (abelian group), wikidata: Q5699059, node: D8A4VEQR98}
+  - {name: elementary abelian group, kind: definition, wikipedia: Elementary abelian group, wikidata: Q1017231, node: DZSZ8ZS554}
+  - {name: profinite group, kind: definition, decl: ProfiniteGrp, wikipedia: Profinite group, wikidata: Q1428923, node: KA0YDB6QXE}
   # Linear and matrix groups
   - {name: general linear group, kind: definition, decl: Matrix.GeneralLinearGroup, wikipedia: General linear group, wikidata: Q524607, mathlib: [mathlib-undergrad]}
   - {name: special linear group, kind: definition, decl: Matrix.SpecialLinearGroup, wikipedia: Special linear group, wikidata: Q2140900, mathlib: [mathlib-undergrad]}
   - {name: orthogonal group, kind: definition, decl: Matrix.orthogonalGroup, wikipedia: Orthogonal group, wikidata: Q1783179, mathlib: [mathlib-undergrad]}
   - {name: unitary group, kind: definition, decl: Matrix.unitaryGroup, wikipedia: Unitary group, wikidata: Q1500617, mathlib: [mathlib-undergrad]}
   - {name: symplectic group, kind: definition, decl: Matrix.symplecticGroup, wikipedia: Symplectic group, wikidata: Q936434}
-  - {name: classical group, kind: definition, wikipedia: Classical group, wikidata: Q2285809}
-  - {name: modular group, kind: example, wikipedia: Modular group, wikidata: Q1834342}
+  - {name: classical group, kind: definition, wikipedia: Classical group, wikidata: Q2285809, node: 75H4HY10Z4}
+  - {name: modular group, kind: example, wikipedia: Modular group, wikidata: Q1834342, node: VEKV1EM77B}
   - {name: linear algebraic group, kind: definition, wikipedia: Linear algebraic group, wikidata: Q6553407}
   - {name: Borel subgroup, kind: definition, wikipedia: Borel subgroup, wikidata: Q4944913}
   - {name: reductive group, kind: definition, wikipedia: Reductive group, wikidata: Q1006450}
-  - {name: Bruhat decomposition, kind: statement, wikipedia: Bruhat decomposition, wikidata: Q4978699}
-  - {name: building, kind: definition, wikipedia: Building (mathematics), wikidata: Q4986445}
-  - {name: arithmetic group, kind: definition, wikipedia: Arithmetic group, wikidata: Q4791126}
-  - {name: Margulis superrigidity theorem, kind: statement, wikipedia: Superrigidity, wikidata: Q7644121}
+  - {name: Bruhat decomposition, kind: statement, wikipedia: Bruhat decomposition, wikidata: Q4978699, node: T91E86D0RH}
+  - {name: building, kind: definition, wikipedia: Building (mathematics), wikidata: Q4986445, node: 6BQJ50NEJ0}
+  - {name: arithmetic group, kind: definition, wikipedia: Arithmetic group, wikidata: Q4791126, node: 4XWG6S7R4Z}
+  - {name: Margulis superrigidity theorem, kind: statement, wikipedia: Superrigidity, wikidata: Q7644121, node: DSKV65NHZZ}
   - {name: congruence subgroup problem, kind: problem, wikipedia: Congruence subgroup, wikidata: Q5161000}
-  - {name: Jordan–Schur theorem, kind: statement, wikipedia: Jordan–Schur theorem, wikidata: Q2360531}
-  - {name: crystallographic group, kind: definition, wikipedia: Space group, wikidata: Q899033}
-  - {name: Bieberbach theorems, kind: statement, wikipedia: Space group, wikidata: Q899033}
-  - {name: wallpaper group, kind: example, wikipedia: Wallpaper group, wikidata: Q906867}
+  - {name: Jordan–Schur theorem, kind: statement, wikipedia: Jordan–Schur theorem, wikidata: Q2360531, node: XT6EEXPD4P}
+  - {name: crystallographic group, kind: definition, wikipedia: Space group, wikidata: Q899033, node: 7KTJKFQT2N}
+  - {name: Bieberbach theorems, kind: statement, wikipedia: Space group, wikidata: Q899033, node: YE87R5CDJY}
+  - {name: wallpaper group, kind: example, wikipedia: Wallpaper group, wikidata: Q906867, node: MY3CBHARYQ}
   # Homological methods
   - {name: group cohomology, kind: definition, decl: groupCohomology, wikipedia: Group cohomology, wikidata: Q1408937}
-  - {name: group homology, kind: definition, wikipedia: Group cohomology, wikidata: Q1408937}
-  - {name: classifying space of a group, kind: definition, wikipedia: Classifying space, wikidata: Q5128445}
-  - {name: Hopf's formula, kind: statement, wikipedia: Schur multiplier, wikidata: Q3327702}
-  - {name: Lyndon–Hochschild–Serre spectral sequence, kind: statement, wikipedia: Lyndon–Hochschild–Serre spectral sequence, wikidata: Q6708764}
-  - {name: cohomological dimension of a group, kind: definition, wikipedia: Cohomological dimension, wikidata: Q5141396}
-  - {name: Stallings–Swan theorem, kind: statement, wikipedia: Cohomological dimension, wikidata: Q5141396}
-  - {name: Tate cohomology, kind: definition, wikipedia: Tate cohomology group, wikidata: Q7687974}
+  - {name: group homology, kind: definition, wikipedia: Group cohomology, wikidata: Q1408937, node: CFAG3VRXEA}
+  - {name: classifying space of a group, kind: definition, wikipedia: Classifying space, wikidata: Q5128445, node: WA796ZCNRX}
+  - {name: Hopf's formula, kind: statement, wikipedia: Schur multiplier, wikidata: Q3327702, node: S31M1ZYJRK}
+  - {name: Lyndon–Hochschild–Serre spectral sequence, kind: statement, wikipedia: Lyndon–Hochschild–Serre spectral sequence, wikidata: Q6708764, node: VC3QNG6TKR}
+  - {name: cohomological dimension of a group, kind: definition, wikipedia: Cohomological dimension, wikidata: Q5141396, node: EF4ZWACHD8}
+  - {name: Stallings–Swan theorem, kind: statement, wikipedia: Cohomological dimension, wikidata: Q5141396, node: B41GE4M134}
+  - {name: Tate cohomology, kind: definition, wikipedia: Tate cohomology group, wikidata: Q7687974, node: 1CA6GZG0R6}
   # Groupoids, semigroups and further generalizations
   - {name: groupoid, kind: definition, decl: CategoryTheory.Groupoid, wikipedia: Groupoid, wikidata: Q1196038}
   - {name: monoid, kind: definition, decl: Monoid, wikipedia: Monoid, wikidata: Q208237, node: 0N6R902FG1}
-  - {name: free monoid, kind: definition, decl: FreeMonoid, wikipedia: Free monoid, wikidata: Q5500266}
+  - {name: free monoid, kind: definition, decl: FreeMonoid, wikipedia: Free monoid, wikidata: Q5500266, node: CV013KHVJG}
   - {name: semigroup, kind: definition, decl: Semigroup, wikipedia: Semigroup, wikidata: Q207348, node: 0XMEM406JM}
-  - {name: inverse semigroup, kind: definition, wikipedia: Inverse semigroup, wikidata: Q3022118}
-  - {name: regular semigroup, kind: definition, wikipedia: Regular semigroup, wikidata: Q3022119}
-  - {name: Green's relations, kind: definition, wikipedia: Green's relations, wikidata: Q3077964}
-  - {name: Rees matrix semigroup, kind: definition, wikipedia: Rees matrix semigroup, wikidata: Q17099723}
-  - {name: Krohn–Rhodes theory, kind: concept, wikipedia: Krohn–Rhodes theory, wikidata: Q6438788}
-  - {name: transformation semigroup, kind: definition, wikipedia: Transformation semigroup, wikidata: Q3022116}
+  - {name: inverse semigroup, kind: definition, wikipedia: Inverse semigroup, wikidata: Q3022118, node: 3M724K3B50}
+  - {name: regular semigroup, kind: definition, wikipedia: Regular semigroup, wikidata: Q3022119, node: XGJKF6T7FZ}
+  - {name: Green's relations, kind: definition, wikipedia: Green's relations, wikidata: Q3077964, node: S7WJW2YES2}
+  - {name: Rees matrix semigroup, kind: definition, wikipedia: Rees matrix semigroup, wikidata: Q17099723, node: X54RV6SENQ}
+  - {name: Krohn–Rhodes theory, kind: concept, wikipedia: Krohn–Rhodes theory, wikidata: Q6438788, node: 3WDZY1J002}
+  - {name: transformation semigroup, kind: definition, wikipedia: Transformation semigroup, wikidata: Q3022116, node: 7ZB7MRKPQ9}
   - {name: Grothendieck group, kind: definition, wikipedia: Grothendieck group, wikidata: Q1128678}
   - {name: quasigroup, kind: definition, wikipedia: Quasigroup, wikidata: Q1503423}
-  - {name: rack and quandle, kind: definition, decl: Quandle, wikipedia: Racks and quandles, wikidata: Q7279807}
+  - {name: rack and quandle, kind: definition, decl: Quandle, wikipedia: Racks and quandles, wikidata: Q7279807, node: X74VY86TSX}
   # Probabilistic and asymptotic group theory
-  - {name: random walk on a group, kind: concept, wikipedia: Random walk, wikidata: Q856741}
-  - {name: random group, kind: concept, wikipedia: Random group, wikidata: Q7291971}
+  - {name: random walk on a group, kind: concept, wikipedia: Random walk, wikidata: Q856741, node: WAS9EANSJJ}
+  - {name: random group, kind: concept, wikipedia: Random group, wikidata: Q7291971, node: 4J05N6H5NX}

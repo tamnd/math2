@@ -62,7 +62,7 @@ items:
   - {name: Percus–Yevick approximation, kind: concept, wikipedia: Percus–Yevick approximation, wikidata: Q3620962}
   # Lattice spin systems
   - {name: lattice model, kind: concept, wikipedia: Lattice model (physics), wikidata: Q4394145}
-  - {name: Ising model, kind: example, wikipedia: Ising model, wikidata: Q1076349}
+  - {name: Ising model, kind: example, wikipedia: Ising model, wikidata: Q1076349, node: R0KGM32QN6}
   - {name: Onsager's solution of the two-dimensional Ising model, kind: statement, wikipedia: Square lattice Ising model, wikidata: Q7581981}
   - {name: Peierls argument, kind: statement, wikipedia: Ising model, wikidata: Q1076349}
   - {name: Lee–Yang theorem, kind: statement, wikipedia: Lee–Yang theorem, wikidata: Q6516611}
@@ -162,14 +162,14 @@ items:
   - {name: Smoluchowski coagulation equation, kind: definition, wikipedia: Smoluchowski coagulation equation, wikidata: Q971184}
   # Nonequilibrium statistical mechanics
   - {name: master equation, kind: definition, wikipedia: Master equation, wikidata: Q722878}
-  - {name: detailed balance, kind: definition, wikipedia: Detailed balance, wikidata: Q1201087}
+  - {name: detailed balance, kind: definition, wikipedia: Detailed balance, wikidata: Q1201087, node: CTGN6CK1ZS}
   - {name: Einstein relation for diffusion, kind: statement, wikipedia: Einstein relation (kinetic theory), wikidata: Q900855}
   - {name: fluctuation–dissipation theorem, kind: statement, wikipedia: Fluctuation–dissipation theorem, wikidata: Q1434158}
   - {name: linear response function, kind: definition, wikipedia: Linear response function, wikidata: Q3261000}
   - {name: Kubo formula, kind: statement, wikipedia: Kubo formula, wikidata: Q114769}
   - {name: Green–Kubo relations, kind: statement, wikipedia: Green–Kubo relations, wikidata: Q4390265}
   - {name: Onsager reciprocal relations, kind: statement, wikipedia: Onsager reciprocal relations, wikidata: Q901483}
-  - {name: Kramers–Kronig relations, kind: statement, wikipedia: Kramers–Kronig relations, wikidata: Q1424764}
+  - {name: Kramers–Kronig relations, kind: statement, wikipedia: Kramers–Kronig relations, wikidata: Q1424764, node: GFS95PZ5YK}
   - {name: fluctuation theorem, kind: statement, wikipedia: Fluctuation theorem, wikidata: Q900831}
   - {name: Jarzynski equality, kind: statement, wikipedia: Jarzynski equality, wikidata: Q864883}
   - {name: Crooks fluctuation theorem, kind: statement, wikipedia: Crooks fluctuation theorem, wikidata: Q5187911}
@@ -204,7 +204,7 @@ items:
   - {name: Bravais lattice, kind: definition, wikipedia: Bravais lattice, wikidata: Q865788}
   - {name: reciprocal lattice, kind: definition, wikipedia: Reciprocal lattice, wikidata: Q164129}
   - {name: Brillouin zone, kind: definition, wikipedia: Brillouin zone, wikidata: Q917246}
-  - {name: Bloch's theorem, kind: statement, wikipedia: Bloch's theorem, wikidata: Q4454926}
+  - {name: Bloch's theorem, kind: statement, wikipedia: Bloch's theorem, wikidata: Q4454926, node: KW31KDX7TB}
   - {name: electronic band structure, kind: concept, wikipedia: Electronic band structure, wikidata: Q806380}
   - {name: Kronig–Penney model, kind: example, wikipedia: Particle in a one-dimensional lattice, wikidata: Q178825}
   - {name: tight-binding model, kind: example, wikipedia: Tight binding, wikidata: Q902168}

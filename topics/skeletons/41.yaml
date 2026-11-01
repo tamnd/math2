@@ -16,7 +16,7 @@ items:
   - {name: best approximation, kind: definition, wikipedia: Approximation theory, wikidata: Q774123}
   - {name: error of best approximation, kind: definition, wikipedia: Approximation theory, wikidata: Q774123}
   - {name: uniform approximation, kind: concept, wikipedia: Uniform norm, wikidata: Q1202673}
-  - {name: modulus of continuity, kind: definition, wikipedia: Modulus of continuity, wikidata: Q1144872}
+  - {name: modulus of continuity, kind: definition, wikipedia: Modulus of continuity, wikidata: Q1144872, node: AXCJBSQZWF}
   - {name: modulus of smoothness, kind: definition, wikipedia: Modulus of smoothness, wikidata: Q25109621}
   - {name: Lipschitz class, kind: definition, wikipedia: Lipschitz continuity, wikidata: Q652707}
   - {name: Peetre K-functional, kind: definition, wikipedia: Interpolation space, wikidata: Q3058180}
@@ -27,7 +27,7 @@ items:
   - {name: uniform convergence of Bernstein approximations, kind: statement, decl: bernsteinApproximation_uniform, wikipedia: Bernstein polynomial, wikidata: Q826841}
   - {name: Müntz–Szász theorem, kind: statement, wikipedia: Müntz–Szász theorem, wikidata: Q3527129}
   - {name: Korovkin's theorem, kind: statement, wikipedia: Korovkin approximation, wikidata: Q1784675}
-  - {name: Kolmogorov–Arnold representation theorem, kind: statement, wikipedia: Kolmogorov–Arnold representation theorem, wikidata: Q25099402}
+  - {name: Kolmogorov–Arnold representation theorem, kind: statement, wikipedia: Kolmogorov–Arnold representation theorem, wikidata: Q25099402, node: VQXDB9T838}
   - {name: Hilbert's thirteenth problem, kind: problem, wikipedia: Hilbert's thirteenth problem, wikidata: Q838094}
   - {name: universal approximation theorem, kind: statement, wikipedia: Universal approximation theorem, wikidata: Q7894110}
   # Best approximation and Chebyshev systems
@@ -58,12 +58,12 @@ items:
   - {name: Bernstein's inequality for trigonometric polynomials, kind: statement, wikipedia: Bernstein's theorem (polynomials), wikidata: Q25345912}
   - {name: Bernstein's theorem on inverse approximation, kind: statement, wikipedia: Bernstein's theorem (approximation theory), wikidata: Q4894565}
   - {name: Bernstein's theorem on analytic functions, kind: statement, wikipedia: Bernstein's theorem (approximation theory), wikidata: Q4894565}
-  - {name: Markov brothers' inequality, kind: statement, wikipedia: Markov brothers' inequality, wikidata: Q176674}
+  - {name: Markov brothers' inequality, kind: statement, wikipedia: Markov brothers' inequality, wikidata: Q176674, node: EHA5MF9VKE}
   - {name: Remez inequality, kind: statement, wikipedia: Remez inequality, wikidata: Q7311758}
   - {name: Turán's inequalities, kind: statement, wikipedia: Turán's inequalities, wikidata: Q7856594}
   - {name: Favard constant, kind: definition, wikipedia: Favard constant, wikidata: Q5438429}
   - {name: Favard's theorem on trigonometric approximation, kind: statement, wikipedia: Favard constant, wikidata: Q5438429}
-  - {name: Landau–Kolmogorov inequality, kind: statement, wikipedia: Landau–Kolmogorov inequality, wikidata: Q5638668}
+  - {name: Landau–Kolmogorov inequality, kind: statement, wikipedia: Landau–Kolmogorov inequality, wikidata: Q5638668, node: C3DD4Z4MD1}
   - {name: saturation of approximation methods, kind: concept, wikipedia: Approximation theory, wikidata: Q774123}
   # Approximation by linear operators
   - {name: positive linear operator, kind: definition, wikipedia: Positive linear operator, wikidata: Q96399850}
@@ -74,7 +74,7 @@ items:
   - {name: Lebesgue's lemma on near-best approximation, kind: statement, wikipedia: Lebesgue constant, wikidata: Q6511317}
   - {name: Faber's theorem on interpolation, kind: statement, wikipedia: Lebesgue constant, wikidata: Q6511317}
   # Interpolation
-  - {name: polynomial interpolation, kind: concept, wikipedia: Polynomial interpolation, wikidata: Q637347}
+  - {name: polynomial interpolation, kind: concept, wikipedia: Polynomial interpolation, wikidata: Q637347, node: SS1YMS2NPC}
   - {name: unisolvent point set, kind: definition, wikipedia: Unisolvent point set, wikidata: Q16956925}
   - {name: Lagrange interpolation polynomial, kind: definition, decl: Lagrange.interpolate, wikipedia: Lagrange polynomial, wikidata: Q861606, mathlib: [mathlib-undergrad]}
   - {name: Lagrange basis polynomials, kind: definition, decl: Lagrange.basis, wikipedia: Lagrange polynomial, wikidata: Q861606}
@@ -116,7 +116,7 @@ items:
   - {name: de Casteljau's algorithm, kind: concept, wikipedia: De Casteljau's algorithm, wikidata: Q1179419}
   # Rational and Padé approximation
   - {name: rational approximation, kind: concept, wikipedia: Rational function, wikidata: Q41237}
-  - {name: Padé approximant, kind: definition, wikipedia: Padé approximant, wikidata: Q2452504}
+  - {name: Padé approximant, kind: definition, wikipedia: Padé approximant, wikidata: Q2452504, node: 1F16G4V64X}
   - {name: Padé table, kind: definition, wikipedia: Padé table, wikidata: Q7124033}
   - {name: Montessus de Ballore's theorem, kind: statement, wikipedia: Padé approximant, wikidata: Q2452504}
   - {name: Baker–Gammel–Wills conjecture, kind: conjecture, wikipedia: Padé approximant, wikidata: Q2452504}
@@ -164,7 +164,7 @@ items:
   - {name: Stokes phenomenon, kind: concept, wikipedia: Stokes phenomenon, wikidata: Q7618550}
   - {name: resurgence, kind: concept, wikipedia: Resurgent function, wikidata: Q108530228}
   - {name: Stirling's formula, kind: statement, decl: Stirling.factorial_isEquivalent_stirling, wikipedia: Stirling's approximation, wikidata: Q470877, node: 0KC0F51T6A}
-  - {name: Euler–Maclaurin formula, kind: statement, wikipedia: Euler–Maclaurin formula, wikidata: Q282023}
+  - {name: Euler–Maclaurin formula, kind: statement, wikipedia: Euler–Maclaurin formula, wikidata: Q282023, node: 9P839VB8S7}
   # Multivariate and nonlinear approximation
   - {name: multivariate approximation, kind: concept, wikipedia: Approximation theory, wikidata: Q774123}
   - {name: Kolmogorov epsilon-entropy, kind: definition, wikipedia: Covering number, wikidata: Q5179257}

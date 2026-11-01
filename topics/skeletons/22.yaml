@@ -34,7 +34,7 @@ items:
   - {name: Polish group, kind: definition, wikipedia: Polish space, wikidata: Q1207972}
   - {name: topological transformation group, kind: definition, decl: ContinuousSMul, wikipedia: Continuous group action, wikidata: Q16951242, mathlib: [mathlib-overview]}
   - {name: homogeneous space, kind: definition, wikipedia: Homogeneous space, wikidata: Q1324364}
-  - {name: profinite group, kind: definition, decl: ProfiniteGrp, wikipedia: Profinite group, wikidata: Q1428923}
+  - {name: profinite group, kind: definition, decl: ProfiniteGrp, wikipedia: Profinite group, wikidata: Q1428923, node: KA0YDB6QXE}
   - {name: profinite completion, kind: definition, wikipedia: Profinite integer, wikidata: Q23018462}
   - {name: pro-p group, kind: definition, wikipedia: Pro-p group, wikidata: Q7246615}
   - {name: p-adic Lie group, kind: definition, wikipedia: Pro-p group, wikidata: Q7246615}
@@ -67,7 +67,7 @@ items:
   - {name: induced representation of a locally compact group, kind: definition, wikipedia: Induced representation, wikidata: Q3427423}
   - {name: Mackey machine, kind: concept, wikipedia: System of imprimitivity, wikidata: Q7663731}
   - {name: Mackey imprimitivity theorem, kind: statement, wikipedia: System of imprimitivity, wikidata: Q7663731}
-  - {name: amenable group, kind: definition, wikipedia: Amenable group, wikidata: Q1857002}
+  - {name: amenable group, kind: definition, wikipedia: Amenable group, wikidata: Q1857002, node: CEAT9BESKK}
   - {name: Følner condition, kind: definition, wikipedia: Følner sequence, wikidata: Q5511721}
   - {name: Kazhdan's property (T), kind: definition, wikipedia: Kazhdan's property (T), wikidata: Q30765715}
   - {name: Haagerup property, kind: definition, wikipedia: Haagerup property, wikidata: Q5636478}
@@ -104,8 +104,8 @@ items:
   - {name: Poisson summation formula, kind: statement, wikipedia: Poisson summation formula, wikidata: Q387743}
   - {name: harmonic analysis on groups, kind: concept, wikipedia: Harmonic analysis, wikidata: Q876215}
   - {name: structure theorem for compactly generated LCA groups, kind: statement, wikipedia: Locally compact abelian group, wikidata: Q65122103}
-  - {name: adele ring, kind: example, wikipedia: Adele ring, wikidata: Q355356}
-  - {name: Tate's thesis, kind: concept, wikipedia: Tate's thesis, wikidata: Q7687933}
+  - {name: adele ring, kind: example, wikipedia: Adele ring, wikidata: Q355356, node: SEH68BA1QQ}
+  - {name: Tate's thesis, kind: concept, wikipedia: Tate's thesis, wikidata: Q7687933, node: QYW79XKJTP}
   - {name: Wiener's Tauberian theorem, kind: statement, wikipedia: Wiener's Tauberian theorem, wikidata: Q3527279}
   # Compact groups
   - {name: compact group, kind: definition, wikipedia: Compact group, wikidata: Q1887083}
@@ -217,8 +217,8 @@ items:
   - {name: theta correspondence, kind: concept, wikipedia: Theta correspondence, wikidata: Q7783546}
   - {name: Selberg trace formula, kind: statement, wikipedia: Selberg trace formula, wikidata: Q3077649}
   - {name: Arthur–Selberg trace formula, kind: statement, wikipedia: Arthur–Selberg trace formula, wikidata: Q4800826}
-  - {name: automorphic form, kind: definition, wikipedia: Automorphic form, wikidata: Q1134435}
-  - {name: Ramanujan–Petersson conjecture, kind: conjecture, wikipedia: Ramanujan–Petersson conjecture, wikidata: Q630650}
+  - {name: automorphic form, kind: definition, wikipedia: Automorphic form, wikidata: Q1134435, node: 3C73HND6XA}
+  - {name: Ramanujan–Petersson conjecture, kind: conjecture, wikipedia: Ramanujan–Petersson conjecture, wikidata: Q630650, node: 4CDFWST967}
   - {name: Selberg's 1/4 conjecture, kind: conjecture, wikipedia: Selberg's 1/4 conjecture, wikidata: Q7447522}
   - {name: unitary dual problem, kind: problem, wikipedia: Unitary representation, wikidata: Q10359539}
   # Transformation groups and discrete subgroups of Lie groups

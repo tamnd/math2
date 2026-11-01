@@ -1,0 +1,52 @@
+---
+tag: 2SEF8QTYQF
+kind: example
+name: Chinese restaurant process
+msc: [60G09, 60C05, 62G05]
+illustrates: [XT4SWG6J7N, 4MR4YJS1ZD]
+sources:
+  - url: https://en.wikipedia.org/wiki/Chinese_restaurant_process
+same_as:
+  wikidata: Q4407236
+  wikipedia: Chinese restaurant process
+---
+
+## Example
+
+Fix a parameter $\theta > 0$.
+Customers $1, 2, 3, \ldots$ enter a restaurant with infinitely many tables, one at a time.
+Customer $1$ sits at a new table.
+Suppose $n$ customers are seated, and the occupied tables hold $n_1, \ldots, n_k$ customers, so $n_1 + \cdots + n_k = n$.
+Then customer $n + 1$ sits at the $j$-th occupied table with probability $n_j / (n + \theta)$, and at a new table with probability $\theta / (n + \theta)$.
+These probabilities are nonnegative and sum to $(n + \theta)/(n + \theta) = 1$.
+The seating of the first $n$ customers gives a random [[partition|08QMKTWF9T]] $\Pi_n$ of $\set{1, \ldots, n}$, whose blocks are the tables.
+
+Multiplying the seating probabilities gives, for each partition $\pi$ of $\set{1, \ldots, n}$ with $k$ blocks of sizes $n_1, \ldots, n_k$,
+$$P(\Pi_n = \pi) = \frac{\theta^k \, \Gamma(\theta)}{\Gamma(\theta + n)} \prod_{j=1}^{k} (n_j - 1)!,$$
+where $\Gamma$ is the [[gamma function|0H5SYBSED9]].
+To check this, note that the denominators $\theta, \theta + 1, \ldots, \theta + n - 1$ multiply to $\Gamma(\theta + n)/\Gamma(\theta)$.
+Each table contributes the factor $\theta$ when it is opened, and then the factors $1, 2, \ldots, n_j - 1$ from the later customers who join it.
+The right side depends only on the block sizes, so the law of $\Pi_n$ is invariant under permutations of $\set{1, \ldots, n}$.
+In this sense the random partition is [[exchangeable|4MR4YJS1ZD]].
+
+For $n = 2$, customers $1$ and $2$ share a table with probability $1/(1 + \theta)$.
+The number $K_n$ of occupied tables after $n$ customers has mean
+$$E[K_n] = \sum_{i=0}^{n-1} \frac{\theta}{\theta + i},$$
+which grows like $\theta \log n$.
+
+## Remarks
+
+Let $G$ follow a [[Dirichlet process|XT4SWG6J7N]] with concentration $\theta$ and a base measure without atoms.
+Given $G$, draw $X_1, X_2, \ldots$ independently from $G$, and group the indices $i$ by equal values $X_i$.
+The resulting random partition has the law of the Chinese restaurant process with parameter $\theta$.
+This is why the process is used to sample from Dirichlet process mixture models.
+
+## Explanations
+
+### L1 human
+
+Picture a restaurant where each new guest either joins a table or starts a new one.
+A busy table attracts guests in proportion to how many already sit there, so the rich get richer.
+The parameter $\theta$ measures how much guests like to start fresh tables.
+With $\theta = 1$, the second guest joins the first with probability $1/2$.
+The result is a random way of splitting the guests into groups.

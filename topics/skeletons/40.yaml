@@ -67,7 +67,7 @@ items:
   - {name: series of reciprocals of primes, kind: statement, wikipedia: Divergence of the sum of the reciprocals of the primes, wikidata: Q1343972}
   - {name: Kempner series, kind: example, wikipedia: Kempner series, wikidata: Q928481}
   - {name: Riemann zeta function as a series, kind: example, decl: riemannZeta, wikipedia: Riemann zeta function, wikidata: Q187235}
-  - {name: Dirichlet series, kind: definition, decl: LSeries, wikipedia: Dirichlet series, wikidata: Q620595}
+  - {name: Dirichlet series, kind: definition, decl: LSeries, wikipedia: Dirichlet series, wikidata: Q620595, node: 8MWTEF6462}
   - {name: power series, kind: definition, decl: FormalMultilinearSeries, wikipedia: Power series, wikidata: Q206925}
   - {name: radius of convergence, kind: definition, decl: FormalMultilinearSeries.radius, wikipedia: Radius of convergence, wikidata: Q1428097, mathlib: [mathlib-undergrad]}
   - {name: Cauchy–Hadamard theorem, kind: statement, wikipedia: Cauchy–Hadamard theorem, wikidata: Q859122, node: 07E5MB1CA2}
@@ -94,7 +94,7 @@ items:
   - {name: Bertrand's test, kind: statement, wikipedia: Ratio test, wikidata: Q165638}
   - {name: summation by parts, kind: statement, decl: Finset.sum_range_by_parts, wikipedia: Summation by parts, wikidata: Q318754}
   - {name: Abel's summation formula, kind: statement, decl: sum_mul_eq_sub_integral_mul, wikipedia: Abel's summation formula, wikidata: Q1659643}
-  - {name: Euler–Maclaurin formula, kind: statement, wikipedia: Euler–Maclaurin formula, wikidata: Q282023}
+  - {name: Euler–Maclaurin formula, kind: statement, wikipedia: Euler–Maclaurin formula, wikidata: Q282023, node: 9P839VB8S7}
   - {name: Kronecker's lemma, kind: statement, wikipedia: Kronecker's lemma, wikidata: Q911141}
   - {name: Abel–Dini theorem, kind: statement, wikipedia: Convergence tests, wikidata: Q3979448}
   # Absolute and conditional convergence, rearrangements, products of series
@@ -117,8 +117,8 @@ items:
   - {name: product converges iff log series converges, kind: statement, decl: Real.multipliable_one_add_of_summable, wikipedia: Infinite product, wikidata: Q2266843}
   - {name: Wallis product, kind: statement, decl: Real.tendsto_prod_pi_div_two, wikipedia: Wallis product, wikidata: Q1501324, node: 0XCYA4YERS}
   - {name: Euler product, kind: statement, wikipedia: Euler product, wikidata: Q1194667}
-  - {name: Euler's sine product, kind: statement, decl: Real.tendsto_euler_sin_prod, wikipedia: Sine and cosine, wikidata: Q13647261}
-  - {name: Weierstrass factorization theorem, kind: statement, wikipedia: Weierstrass factorization theorem, wikidata: Q1330788}
+  - {name: Euler's sine product, kind: statement, decl: Real.tendsto_euler_sin_prod, wikipedia: Sine and cosine, wikidata: Q13647261, node: DQEHD56649}
+  - {name: Weierstrass factorization theorem, kind: statement, wikipedia: Weierstrass factorization theorem, wikidata: Q1330788, node: 11VC51YHQJ}
   - {name: Viète's formula, kind: statement, wikipedia: Viète's formula, wikidata: Q949597}
   - {name: q-Pochhammer symbol, kind: definition, wikipedia: Q-Pochhammer symbol, wikidata: Q518706}
   # Multiple series and sequences
@@ -137,7 +137,7 @@ items:
   - {name: Śleszyński–Pringsheim theorem, kind: statement, wikipedia: Śleszyński–Pringsheim theorem, wikidata: Q8081891}
   - {name: Van Vleck's theorem, kind: statement, wikipedia: Convergence problem, wikidata: Q5166389}
   - {name: Euler's continued fraction formula, kind: statement, wikipedia: Euler's continued fraction formula, wikidata: Q5361532}
-  - {name: Padé approximant, kind: definition, wikipedia: Padé approximant, wikidata: Q2452504}
+  - {name: Padé approximant, kind: definition, wikipedia: Padé approximant, wikidata: Q2452504, node: 1F16G4V64X}
   - {name: infinite compositions of functions, kind: definition, wikipedia: Infinite compositions of analytic functions, wikidata: Q6029837}
   - {name: nested radical, kind: example, wikipedia: Nested radical, wikidata: Q2670069}
   - {name: iterated exponentiation, kind: example, wikipedia: Tetration, wikidata: Q194324}
@@ -165,7 +165,7 @@ items:
   - {name: Hölder summation, kind: definition, wikipedia: Hölder summation, wikidata: Q15694035}
   - {name: Abel summation, kind: definition, wikipedia: Abelian and Tauberian theorems, wikidata: Q2376918}
   - {name: Abel's theorem, kind: statement, decl: Complex.tendsto_tsum_powerSeries_nhdsWithin_stolzCone, wikipedia: Abel's theorem, wikidata: Q318767, mathlib: [mathlib-1000], node: 0S4EMDQS2F}
-  - {name: Borel summation, kind: definition, wikipedia: Borel summation, wikidata: Q2329388}
+  - {name: Borel summation, kind: definition, wikipedia: Borel summation, wikidata: Q2329388, node: 8DJPSYSHGJ}
   - {name: Euler summation, kind: definition, wikipedia: Euler summation, wikidata: Q374926}
   - {name: Nörlund mean, kind: definition, wikipedia: Divergent series, wikidata: Q906520}
   - {name: Riesz mean, kind: definition, wikipedia: Riesz mean, wikidata: Q2152569}
@@ -180,10 +180,10 @@ items:
   - {name: Fejér kernel, kind: definition, wikipedia: Fejér kernel, wikidata: Q1402176}
   - {name: Abel–Poisson summation of Fourier series, kind: definition, wikipedia: Poisson kernel, wikidata: Q2596534}
   - {name: Frobenius theorem on Cesàro and Abel summability, kind: statement, wikipedia: Abelian and Tauberian theorems, wikidata: Q2376918}
-  - {name: Mittag-Leffler star, kind: definition, wikipedia: Mittag-Leffler star, wikidata: Q4189397}
+  - {name: Mittag-Leffler star, kind: definition, wikipedia: Mittag-Leffler star, wikidata: Q4189397, node: C21ECQ1H84}
   # Abelian and Tauberian theorems
   - {name: Abelian and Tauberian theorems, kind: concept, wikipedia: Abelian and Tauberian theorems, wikidata: Q2376918}
-  - {name: Tauber's theorem, kind: statement, wikipedia: Abelian and Tauberian theorems, wikidata: Q2376918}
+  - {name: Tauber's theorem, kind: statement, wikipedia: Abelian and Tauberian theorems, wikidata: Q2376918, node: 8SK3GQ4S0M}
   - {name: Hardy's Tauberian theorem for Cesàro means, kind: statement, wikipedia: Abelian and Tauberian theorems, wikidata: Q2376918}
   - {name: Littlewood's Tauberian theorem, kind: statement, wikipedia: Littlewood's Tauberian theorem, wikidata: Q16249478}
   - {name: Hardy–Littlewood Tauberian theorem, kind: statement, wikipedia: Hardy–Littlewood Tauberian theorem, wikidata: Q5656673}
@@ -194,9 +194,9 @@ items:
   - {name: slowly varying function, kind: definition, wikipedia: Slowly varying function, wikidata: Q4287804}
   - {name: regular variation, kind: definition, wikipedia: Slowly varying function, wikidata: Q4287804}
   - {name: high indices theorem, kind: statement, wikipedia: Lacunary function, wikidata: Q1986013}
-  - {name: Hadamard gap theorem, kind: statement, wikipedia: Hadamard gap theorem, wikidata: Q4454910}
+  - {name: Hadamard gap theorem, kind: statement, wikipedia: Hadamard gap theorem, wikidata: Q4454910, node: DA8M8VZZHC}
   - {name: Ostrowski–Hadamard gap theorem, kind: statement, wikipedia: Hadamard gap theorem, wikidata: Q4454910}
-  - {name: Fabry gap theorem, kind: statement, wikipedia: Fabry gap theorem, wikidata: Q17011576}
+  - {name: Fabry gap theorem, kind: statement, wikipedia: Fabry gap theorem, wikidata: Q17011576, node: GE0HX2KMMZ}
   # Absolute and strong summability
   - {name: absolute summability, kind: definition, wikipedia: Absolute convergence, wikidata: Q332465}
   - {name: strong Cesàro summability, kind: definition, wikipedia: Cesàro summation, wikidata: Q2082317}
@@ -218,7 +218,7 @@ items:
   - {name: filter limit, kind: definition, decl: Filter.atTop, wikipedia: Filter (mathematics), wikidata: Q1052692}
   - {name: net, kind: definition, wikipedia: Net (mathematics), wikidata: Q1191147}
   - {name: statistical convergence, kind: definition, wikipedia: Natural density, wikidata: Q752723}
-  - {name: natural density, kind: definition, wikipedia: Natural density, wikidata: Q752723}
+  - {name: natural density, kind: definition, wikipedia: Natural density, wikidata: Q752723, node: RVG9Z8NYA6}
   - {name: convergence along an ultrafilter, kind: definition, wikipedia: Ultrafilter on a set, wikidata: Q106671513}
   - {name: summation in topological groups, kind: concept, decl: HasSum.unique, wikipedia: Series (mathematics), wikidata: Q170198}
   - {name: series in Banach spaces, kind: concept, decl: Summable.of_norm_bounded, wikipedia: Absolute convergence, wikidata: Q332465}

@@ -100,7 +100,7 @@ items:
   - {name: Stieltjes transform, kind: definition, wikipedia: Stieltjes transformation, wikidata: Q3537578}
   - {name: Stieltjes inversion formula, kind: statement, wikipedia: Stieltjes transformation, wikidata: Q3537578}
   - {name: iterated Laplace transform equals Stieltjes transform, kind: statement, wikipedia: Stieltjes transformation, wikidata: Q3537578}
-  - {name: Hilbert transform, kind: definition, wikipedia: Hilbert transform, wikidata: Q685437}
+  - {name: Hilbert transform, kind: definition, wikipedia: Hilbert transform, wikidata: Q685437, node: NSCEBXM7ZM}
   - {name: Hilbert transform of sinusoids, kind: example, wikipedia: Hilbert transform, wikidata: Q685437}
   - {name: inversion of the Hilbert transform, kind: statement, wikipedia: Hilbert transform, wikidata: Q685437}
   - {name: analytic signal, kind: definition, wikipedia: Analytic signal, wikidata: Q485394}

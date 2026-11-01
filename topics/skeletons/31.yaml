@@ -7,7 +7,7 @@ sources:
   wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
 items:
   # Basic notions
-  - {name: potential theory, kind: concept, wikipedia: Potential theory, wikidata: Q1154848}
+  - {name: potential theory, kind: concept, wikipedia: Potential theory, wikidata: Q1154848, node: 9PM8Q2E30Q}
   - {name: Laplace operator, kind: definition, decl: Laplacian, wikipedia: Laplace operator, wikidata: Q203484, node: 0E0B6RA8K0}
   - {name: harmonic function, kind: definition, decl: InnerProductSpace.HarmonicOnNhd, wikipedia: Harmonic function, wikidata: Q599027, node: 0DEB0JMN0W}
   - {name: harmonic at a point, kind: definition, decl: InnerProductSpace.HarmonicAt, wikipedia: Harmonic function, wikidata: Q599027}
@@ -32,8 +32,8 @@ items:
   - {name: Liouville's theorem for harmonic functions, kind: statement, wikipedia: Harmonic function, wikidata: Q599027}
   - {name: smoothness and analyticity of harmonic functions, kind: statement, wikipedia: Harmonic function, wikidata: Q599027}
   - {name: Weyl's lemma, kind: statement, wikipedia: Weyl's lemma (Laplace equation), wikidata: Q7990327}
-  - {name: Harnack's inequality, kind: statement, wikipedia: Harnack's inequality, wikidata: Q868279}
-  - {name: Harnack's principle, kind: statement, wikipedia: Harnack's principle, wikidata: Q1135706}
+  - {name: Harnack's inequality, kind: statement, wikipedia: Harnack's inequality, wikidata: Q868279, node: YNH832D50W}
+  - {name: Harnack's principle, kind: statement, wikipedia: Harnack's principle, wikidata: Q1135706, node: P15K8RKHDV}
   - {name: gradient estimates for harmonic functions, kind: statement, wikipedia: Harmonic function, wikidata: Q599027}
   - {name: compactness of families of harmonic functions, kind: statement, wikipedia: Harnack's principle, wikidata: Q1135706}
   - {name: removable singularities for harmonic functions, kind: statement, wikipedia: Removable singularity, wikidata: Q1974087}
@@ -46,11 +46,11 @@ items:
   - {name: Fischer decomposition, kind: statement, wikipedia: Harmonic polynomial, wikidata: Q4133834}
   - {name: polyharmonic function, kind: definition, wikipedia: Biharmonic equation, wikidata: Q859808}
   - {name: biharmonic function, kind: definition, wikipedia: Biharmonic equation, wikidata: Q859808}
-  - {name: harmonic measure, kind: definition, wikipedia: Harmonic measure, wikidata: Q5659270}
+  - {name: harmonic measure, kind: definition, wikipedia: Harmonic measure, wikidata: Q5659270, node: CFD7BPM51W}
   # Dirichlet problem and Green's functions
-  - {name: Dirichlet problem, kind: problem, wikipedia: Dirichlet problem, wikidata: Q1192869}
+  - {name: Dirichlet problem, kind: problem, wikipedia: Dirichlet problem, wikidata: Q1192869, node: 8D56GQ4AG8}
   - {name: Neumann problem, kind: problem, wikipedia: Neumann boundary condition, wikidata: Q1149279}
-  - {name: Poisson kernel, kind: definition, decl: poissonKernel, wikipedia: Poisson kernel, wikidata: Q2596534}
+  - {name: Poisson kernel, kind: definition, decl: poissonKernel, wikipedia: Poisson kernel, wikidata: Q2596534, node: TCYSWCTYYM}
   - {name: Poisson integral formula, kind: statement, decl: InnerProductSpace.HarmonicOnNhd.circleAverage_poissonKernel_smul, wikipedia: Poisson kernel, wikidata: Q2596534}
   - {name: Poisson integral for the half-space, kind: statement, wikipedia: Poisson kernel, wikidata: Q2596534}
   - {name: Green's function of a domain, kind: definition, wikipedia: Green's function, wikidata: Q378435}
@@ -76,7 +76,7 @@ items:
   - {name: boundary integral method for the Dirichlet problem, kind: concept, wikipedia: Boundary element method, wikidata: Q1935004}
   - {name: Robin problem, kind: problem, wikipedia: Robin boundary condition, wikidata: Q748993}
   # Subharmonic functions
-  - {name: subharmonic function, kind: definition, wikipedia: Subharmonic function, wikidata: Q753658}
+  - {name: subharmonic function, kind: definition, wikipedia: Subharmonic function, wikidata: Q753658, node: Z1MHMGFNFW}
   - {name: superharmonic function, kind: definition, wikipedia: Subharmonic function, wikidata: Q753658}
   - {name: upper semicontinuous function, kind: definition, decl: UpperSemicontinuous, wikipedia: Semi-continuity, wikidata: Q955072}
   - {name: sub-mean value property, kind: statement, wikipedia: Subharmonic function, wikidata: Q753658}
@@ -104,7 +104,7 @@ items:
   - {name: Wiener capacity, kind: definition, wikipedia: Capacity of a set, wikidata: Q5034494}
   - {name: condenser capacity, kind: definition, wikipedia: Capacity of a set, wikidata: Q5034494}
   - {name: variational capacity, kind: definition, wikipedia: Capacity of a set, wikidata: Q5034494}
-  - {name: logarithmic capacity, kind: definition, wikipedia: Conformal radius, wikidata: Q5160255}
+  - {name: logarithmic capacity, kind: definition, wikipedia: Conformal radius, wikidata: Q5160255, node: DBQXRTC0VN}
   - {name: Robin constant, kind: definition, wikipedia: Conformal radius, wikidata: Q5160255}
   - {name: transfinite diameter, kind: definition, wikipedia: Conformal radius, wikidata: Q5160255}
   - {name: Chebyshev constant, kind: definition, wikipedia: Conformal radius, wikidata: Q5160255}
@@ -136,7 +136,7 @@ items:
   - {name: fundamental convergence theorem, kind: statement, wikipedia: Fine topology (potential theory), wikidata: Q5450128}
   # Boundary behaviour
   - {name: Hardy spaces of harmonic functions, kind: definition, wikipedia: Hardy space, wikidata: Q1585233}
-  - {name: Fatou's theorem, kind: statement, wikipedia: Fatou's theorem, wikidata: Q4455033}
+  - {name: Fatou's theorem, kind: statement, wikipedia: Fatou's theorem, wikidata: Q4455033, node: Q2N917JQ6A}
   - {name: nontangential limit, kind: definition, wikipedia: Fatou's theorem, wikidata: Q4455033}
   - {name: Herglotz representation of positive harmonic functions, kind: statement, wikipedia: Positive harmonic function, wikidata: Q7233271}
   - {name: Martin boundary, kind: definition, wikipedia: Poisson boundary, wikidata: Q28402746}
@@ -166,7 +166,7 @@ items:
   - {name: conformal radius, kind: definition, wikipedia: Conformal radius, wikidata: Q5160255}
   - {name: Poisson–Jensen formula, kind: statement, wikipedia: Jensen's formula, wikidata: Q1048466}
   - {name: Riesz–Herglotz formula, kind: statement, wikipedia: Positive harmonic function, wikidata: Q7233271}
-  - {name: Nevanlinna characteristic, kind: definition, decl: ValueDistribution.characteristic, wikipedia: Nevanlinna theory, wikidata: Q1281926}
+  - {name: Nevanlinna characteristic, kind: definition, decl: ValueDistribution.characteristic, wikipedia: Nevanlinna theory, wikidata: Q1281926, node: YT6Z0GWS0W}
   - {name: Hadamard's two-constants theorem, kind: statement, wikipedia: Harmonic measure, wikidata: Q5659270}
   - {name: Lindelöf's maximum principle, kind: statement, wikipedia: Phragmén–Lindelöf principle, wikidata: Q4378868}
   - {name: parabolic and hyperbolic Riemann surfaces, kind: concept, wikipedia: Riemann surface, wikidata: Q753035}

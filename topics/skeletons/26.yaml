@@ -17,12 +17,12 @@ items:
   - {name: extended real number line, kind: definition, decl: EReal, wikipedia: Extended real number line, wikidata: Q2039387, mathlib: [mathlib-overview]}
   - {name: Dedekind cut, kind: definition, wikipedia: Dedekind cut, wikidata: Q851333, node: 0G3RRM41X9}
   - {name: Cauchy sequence, kind: definition, wikipedia: Cauchy sequence, wikidata: Q217847, node: 0PWX18FM4G}
-  - {name: completeness of the real numbers, kind: statement, decl: Real.instCompleteSpace, wikipedia: Completeness of the real numbers, wikidata: Q1324487, mathlib: [mathlib-undergrad]}
+  - {name: completeness of the real numbers, kind: statement, decl: Real.instCompleteSpace, wikipedia: Completeness of the real numbers, wikidata: Q1324487, mathlib: [mathlib-undergrad], node: E3CPZNJZNG}
   - {name: monotone convergence theorem for sequences, kind: statement, decl: tendsto_atTop_ciSup, wikipedia: Monotone convergence theorem, wikidata: Q1153584, node: 0FM6N4R0VB}
   - {name: Bolzano–Weierstrass theorem, kind: statement, wikipedia: Bolzano–Weierstrass theorem, wikidata: Q468391, node: 0KDJD249DT}
   - {name: Heine–Borel theorem, kind: statement, decl: CompactIccSpace.isCompact_Icc, wikipedia: Heine–Borel theorem, wikidata: Q253214, node: 07PFYV65MB}
-  - {name: nested intervals theorem, kind: statement, wikipedia: Nested intervals, wikidata: Q1638245}
-  - {name: limit superior and limit inferior, kind: definition, wikipedia: Limit inferior and limit superior, wikidata: Q1076611}
+  - {name: nested intervals theorem, kind: statement, wikipedia: Nested intervals, wikidata: Q1638245, node: MF56GK7QY2}
+  - {name: limit superior and limit inferior, kind: definition, wikipedia: Limit inferior and limit superior, wikidata: Q1076611, node: 0T3RZQXDYD}
   - {name: squeeze theorem, kind: statement, decl: tendsto_of_tendsto_of_tendsto_of_le_of_le, wikipedia: Squeeze theorem, wikidata: Q1065257, node: 0XMF00T4XQ}
   - {name: uncountability of the reals, kind: statement, decl: Cardinal.mk_real, wikipedia: Cantor's first set theory article, wikidata: Q356702, node: 0518MM6BE1}
   - {name: Cantor set, kind: object, wikipedia: Cantor set, wikidata: Q273188, node: 0BXNDZFQME}
@@ -34,21 +34,21 @@ items:
   - {name: uniform continuity, kind: definition, decl: UniformContinuous, wikipedia: Uniform continuity, wikidata: Q741865, node: 0M4JJT780X}
   - {name: Lipschitz continuity, kind: definition, decl: LipschitzWith, wikipedia: Lipschitz continuity, wikidata: Q652707, mathlib: [mathlib-undergrad, mathlib-overview], node: 0AW1E6YTJY}
   - {name: Hölder condition, kind: definition, decl: HolderWith, wikipedia: Hölder condition, wikidata: Q91259930, mathlib: [mathlib-overview], node: 012PBA0FMD}
-  - {name: modulus of continuity, kind: definition, wikipedia: Modulus of continuity, wikidata: Q1144872}
-  - {name: semi-continuity, kind: definition, decl: LowerSemicontinuous, wikipedia: Semi-continuity, wikidata: Q955072}
-  - {name: oscillation of a function, kind: definition, wikipedia: Oscillation (mathematics), wikidata: Q7106411}
+  - {name: modulus of continuity, kind: definition, wikipedia: Modulus of continuity, wikidata: Q1144872, node: AXCJBSQZWF}
+  - {name: semi-continuity, kind: definition, decl: LowerSemicontinuous, wikipedia: Semi-continuity, wikidata: Q955072, node: 95BSKT0S6M}
+  - {name: oscillation of a function, kind: definition, wikipedia: Oscillation (mathematics), wikidata: Q7106411, node: 5XW4N8KY3Y}
   - {name: intermediate value theorem, kind: statement, decl: intermediate_value_Icc, wikipedia: Intermediate value theorem, wikidata: Q245098, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-100, mathlib-1000]}
   - {name: extreme value theorem, kind: statement, decl: IsCompact.exists_isMaxOn, wikipedia: Extreme value theorem, wikidata: Q752375}
   - {name: Heine–Cantor theorem, kind: statement, decl: CompactSpace.uniformContinuous_of_continuous, wikipedia: Heine–Cantor theorem, wikidata: Q765987, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000], node: 06B8BNJCD6}
   - {name: Dirichlet function, kind: example, wikipedia: Dirichlet function, wikidata: Q948386}
   - {name: Thomae's function, kind: example, wikipedia: Thomae's function, wikidata: Q776401, node: 0HJ28H9Y95}
   - {name: Weierstrass function, kind: counterexample, wikipedia: Weierstrass function (nowhere-differentiable function), wikidata: Q94491, node: 01A0MK1730}
-  - {name: Cantor function, kind: counterexample, wikipedia: Cantor function, wikidata: Q938883}
-  - {name: Volterra's function, kind: counterexample, wikipedia: Volterra's function, wikidata: Q3075214}
-  - {name: Blancmange curve, kind: example, wikipedia: Blancmange curve, wikidata: Q3001209}
-  - {name: Conway base 13 function, kind: counterexample, wikipedia: Conway's base 13 function, wikidata: Q2896394}
-  - {name: Baire function, kind: definition, wikipedia: Baire function, wikidata: Q803935}
-  - {name: Darboux function, kind: definition, wikipedia: Darboux's theorem (analysis), wikidata: Q660799}
+  - {name: Cantor function, kind: counterexample, wikipedia: Cantor function, wikidata: Q938883, node: NPBYYK63FE}
+  - {name: Volterra's function, kind: counterexample, wikipedia: Volterra's function, wikidata: Q3075214, node: RARXGWQ85S}
+  - {name: Blancmange curve, kind: example, wikipedia: Blancmange curve, wikidata: Q3001209, node: BQXRD4GVKZ}
+  - {name: Conway base 13 function, kind: counterexample, wikipedia: Conway's base 13 function, wikidata: Q2896394, node: 91YF82M8AA}
+  - {name: Baire function, kind: definition, wikipedia: Baire function, wikidata: Q803935, node: K26WG8C6PV}
+  - {name: Darboux function, kind: definition, wikipedia: Darboux's theorem (analysis), wikidata: Q660799, node: 7BJEH1GCTE}
   # Sequences and series of functions
   - {name: pointwise convergence, kind: definition, wikipedia: Pointwise convergence, wikidata: Q1778098, node: 0GFGK40582}
   - {name: uniform convergence, kind: definition, decl: TendstoUniformly, wikipedia: Uniform convergence, wikidata: Q1411887, mathlib: [mathlib-undergrad, mathlib-overview], node: 08VZ57PT26}
@@ -57,20 +57,20 @@ items:
   - {name: Dini's theorem, kind: statement, wikipedia: Dini's theorem, wikidata: Q595466, node: 0XRRYF1HPE}
   - {name: Arzelà–Ascoli theorem, kind: statement, decl: BoundedContinuousFunction.arzela_ascoli, wikipedia: Arzelà–Ascoli theorem, wikidata: Q1477053, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000], node: 0381S8Z5P0}
   - {name: equicontinuity, kind: definition, wikipedia: Equicontinuity, wikidata: Q249092, node: 0XN66MZN0Y}
-  - {name: termwise differentiation of uniformly convergent series, kind: statement, decl: hasDerivAt_of_tendstoUniformlyOn, wikipedia: Uniform convergence, wikidata: Q1411887}
+  - {name: termwise differentiation of uniformly convergent series, kind: statement, decl: hasDerivAt_of_tendstoUniformlyOn, wikipedia: Uniform convergence, wikidata: Q1411887, node: 0TJ8QBJX5K}
   - {name: Weierstrass approximation theorem, kind: statement, decl: exists_polynomial_near_continuousMap, wikipedia: Stone–Weierstrass theorem, wikidata: Q939927, node: 0JQE130DHW}
   - {name: Bernstein polynomial, kind: definition, decl: bernsteinPolynomial, wikipedia: Bernstein polynomial, wikidata: Q826841, node: 0JT92VK307}
   - {name: power series, kind: definition, wikipedia: Power series, wikidata: Q206925}
   - {name: radius of convergence, kind: definition, wikipedia: Radius of convergence, wikidata: Q1428097}
   - {name: Abel's theorem, kind: statement, wikipedia: Abel's theorem, wikidata: Q318767, node: 0S4EMDQS2F}
-  - {name: Tauber's theorem, kind: statement, wikipedia: Abelian and Tauberian theorems, wikidata: Q2376918}
+  - {name: Tauber's theorem, kind: statement, wikipedia: Abelian and Tauberian theorems, wikidata: Q2376918, node: 8SK3GQ4S0M}
   # Differentiation
   - {name: derivative, kind: definition, decl: deriv, wikipedia: Derivative, wikidata: Q29175, node: 0V1EJCT8G6}
   - {name: differentiable function, kind: definition, decl: Differentiable, wikipedia: Differentiable function, wikidata: Q783507, mathlib: [mathlib-undergrad], node: 0K57YG3BB8}
-  - {name: difference quotient, kind: definition, decl: hasDerivAt_iff_tendsto_slope, wikipedia: Difference quotient, wikidata: Q1224446}
+  - {name: difference quotient, kind: definition, decl: hasDerivAt_iff_tendsto_slope, wikipedia: Difference quotient, wikidata: Q1224446, node: AZBDB5F4M4}
   - {name: one-sided derivative, kind: definition, decl: derivWithin, wikipedia: Semi-differentiability, wikidata: Q4370927, node: 0R9PHTGVNW}
-  - {name: Dini derivative, kind: definition, wikipedia: Dini derivative, wikidata: Q831933}
-  - {name: symmetric derivative, kind: definition, wikipedia: Symmetric derivative, wikidata: Q3773126}
+  - {name: Dini derivative, kind: definition, wikipedia: Dini derivative, wikidata: Q831933, node: 36DXKAD2RZ}
+  - {name: symmetric derivative, kind: definition, wikipedia: Symmetric derivative, wikidata: Q3773126, node: B40P5MJYYJ}
   - {name: product rule, kind: statement, wikipedia: Product rule, wikidata: Q466720}
   - {name: quotient rule, kind: statement, wikipedia: Quotient rule, wikidata: Q531392, node: 0BS0NJPKVE}
   - {name: chain rule, kind: statement, wikipedia: Chain rule, wikidata: Q207455, node: 0RXX2PT1MQ}
@@ -82,45 +82,45 @@ items:
   - {name: Darboux's theorem, kind: statement, decl: exists_hasDerivWithinAt_eq_of_gt_of_lt, wikipedia: Darboux's theorem (analysis), wikidata: Q660799, mathlib: [mathlib-1000], node: 0Q5A47J48D}
   - {name: L'Hôpital's rule, kind: statement, decl: HasDerivAt.lhopital_zero_nhds, wikipedia: L'Hôpital's rule, wikidata: Q190557, node: 0JWT4PPQ7B}
   - {name: higher derivatives, kind: definition, decl: iteratedDeriv, wikipedia: Second derivative, wikidata: Q1932744, mathlib: [mathlib-undergrad], node: 04TKTF8KDK}
-  - {name: smoothness classes, kind: definition, decl: ContDiff, wikipedia: Smoothness, wikidata: Q868473, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: smoothness classes, kind: definition, decl: ContDiff, wikipedia: Smoothness, wikidata: Q868473, mathlib: [mathlib-undergrad, mathlib-overview], node: WK5HPW5Y24}
   - {name: Taylor's theorem, kind: statement, decl: taylor_mean_remainder_lagrange, wikipedia: Taylor's theorem, wikidata: Q1137206, mathlib: [mathlib-undergrad, mathlib-100, mathlib-1000], node: 03QHBVW4TT}
   - {name: Taylor series, kind: definition, wikipedia: Taylor series, wikidata: Q131187, node: 0Z49YH6ZWY}
   - {name: real analytic function, kind: definition, decl: AnalyticAt, wikipedia: Analytic function, wikidata: Q215084, mathlib: [mathlib-overview], node: 0JD5ZNW0F4}
-  - {name: non-analytic smooth function, kind: counterexample, decl: expNegInvGlue, wikipedia: Non-analytic smooth function, wikidata: Q7048840}
-  - {name: bump function, kind: definition, decl: ContDiffBump, wikipedia: Bump function, wikidata: Q1143737}
-  - {name: Borel's lemma, kind: statement, wikipedia: Borel's lemma, wikidata: Q3527022}
-  - {name: quasi-analytic function, kind: definition, wikipedia: Quasi-analytic function, wikidata: Q7269437}
-  - {name: Denjoy–Carleman theorem, kind: statement, wikipedia: Quasi-analytic function, wikidata: Q7269437}
+  - {name: non-analytic smooth function, kind: counterexample, decl: expNegInvGlue, wikipedia: Non-analytic smooth function, wikidata: Q7048840, node: 09RTYYHXKA}
+  - {name: bump function, kind: definition, decl: ContDiffBump, wikipedia: Bump function, wikidata: Q1143737, node: HS65DW0HXH}
+  - {name: Borel's lemma, kind: statement, wikipedia: Borel's lemma, wikidata: Q3527022, node: KZHNA19FSS}
+  - {name: quasi-analytic function, kind: definition, wikipedia: Quasi-analytic function, wikidata: Q7269437, node: YF1KAWB5MB}
+  - {name: Denjoy–Carleman theorem, kind: statement, wikipedia: Quasi-analytic function, wikidata: Q7269437, node: KV0GW9K7JS}
   - {name: stationary point, kind: definition, wikipedia: Stationary point, wikidata: Q2500758, node: 0GEQ42PTGB}
-  - {name: maximum and minimum, kind: definition, wikipedia: Maximum and minimum, wikidata: Q845060}
+  - {name: maximum and minimum, kind: definition, wikipedia: Maximum and minimum, wikidata: Q845060, node: 5X1YMSR204}
   - {name: first derivative test, kind: statement, wikipedia: Derivative test, wikidata: Q898560, node: 01A2EGXJEM}
   - {name: second derivative test, kind: statement, wikipedia: Derivative test, wikidata: Q898560, node: 0FZFHK97P7}
   - {name: inflection point, kind: definition, wikipedia: Inflection point, wikidata: Q212794, node: 06MG208MGR}
   - {name: Newton's method, kind: concept, wikipedia: Newton's method, wikidata: Q374195, node: 07EXVNF9VP}
   # Monotone functions, bounded variation, absolute continuity
   - {name: monotonic function, kind: definition, decl: Monotone, wikipedia: Monotonic function, wikidata: Q194404, node: 0A7KV2WB7A}
-  - {name: Lebesgue's theorem on differentiability of monotone functions, kind: statement, decl: Monotone.ae_differentiableAt, wikipedia: Monotonic function, wikidata: Q194404}
-  - {name: Fubini's theorem on differentiation, kind: statement, wikipedia: Fubini's theorem on differentiation, wikidata: Q1841237}
-  - {name: bounded variation, kind: definition, decl: BoundedVariationOn, wikipedia: Bounded variation, wikidata: Q829653}
-  - {name: total variation, kind: definition, decl: eVariationOn, wikipedia: Total variation, wikidata: Q1936288}
-  - {name: Jordan decomposition of a function of bounded variation, kind: statement, wikipedia: Bounded variation, wikidata: Q829653}
-  - {name: absolute continuity, kind: definition, decl: AbsolutelyContinuousOnInterval, wikipedia: Absolute continuity, wikidata: Q332504}
-  - {name: Luzin N property, kind: definition, wikipedia: Luzin N property, wikidata: Q1160012}
-  - {name: Banach–Zarecki theorem, kind: statement, wikipedia: Luzin N property, wikidata: Q1160012}
-  - {name: singular function, kind: definition, wikipedia: Singular function, wikidata: Q2374166}
-  - {name: Minkowski question-mark function, kind: example, wikipedia: Minkowski's question-mark function, wikidata: Q1967149}
-  - {name: Rademacher's theorem, kind: statement, decl: LipschitzWith.ae_differentiableAt, wikipedia: Rademacher's theorem, wikidata: Q132427}
-  - {name: approximate derivative, kind: definition, wikipedia: Approximate limit, wikidata: Q4781763}
+  - {name: Lebesgue's theorem on differentiability of monotone functions, kind: statement, decl: Monotone.ae_differentiableAt, wikipedia: Monotonic function, wikidata: Q194404, node: 1Y4N1DDQNR}
+  - {name: Fubini's theorem on differentiation, kind: statement, wikipedia: Fubini's theorem on differentiation, wikidata: Q1841237, node: XDEJCKRVQ4}
+  - {name: bounded variation, kind: definition, decl: BoundedVariationOn, wikipedia: Bounded variation, wikidata: Q829653, node: A8251BHCMP}
+  - {name: total variation, kind: definition, decl: eVariationOn, wikipedia: Total variation, wikidata: Q1936288, node: 8QA5DEWNYD}
+  - {name: Jordan decomposition of a function of bounded variation, kind: statement, wikipedia: Bounded variation, wikidata: Q829653, node: KDT3E0VE0K}
+  - {name: absolute continuity, kind: definition, decl: AbsolutelyContinuousOnInterval, wikipedia: Absolute continuity, wikidata: Q332504, node: ZT6F4C2YHK}
+  - {name: Luzin N property, kind: definition, wikipedia: Luzin N property, wikidata: Q1160012, node: WMHMGJD261}
+  - {name: Banach–Zarecki theorem, kind: statement, wikipedia: Luzin N property, wikidata: Q1160012, node: ZMEYSAHNX3}
+  - {name: singular function, kind: definition, wikipedia: Singular function, wikidata: Q2374166, node: P5AWRD2793}
+  - {name: Minkowski question-mark function, kind: example, wikipedia: Minkowski's question-mark function, wikidata: Q1967149, node: 4D9HP5TS6W}
+  - {name: Rademacher's theorem, kind: statement, decl: LipschitzWith.ae_differentiableAt, wikipedia: Rademacher's theorem, wikidata: Q132427, node: QEY26RT19R}
+  - {name: approximate derivative, kind: definition, wikipedia: Approximate limit, wikidata: Q4781763, node: 4W31MKE01V}
   # Riemann and related integrals
   - {name: Riemann integral, kind: definition, wikipedia: Riemann integral, wikidata: Q697181, node: 0W29TBTY12}
   - {name: Riemann sum, kind: definition, wikipedia: Riemann sum, wikidata: Q1156903, node: 0JAEHXTVV5}
-  - {name: Darboux integral, kind: definition, wikipedia: Darboux integral, wikidata: Q2294564}
-  - {name: Riemann–Stieltjes integral, kind: definition, wikipedia: Riemann–Stieltjes integral, wikidata: Q285771}
+  - {name: Darboux integral, kind: definition, wikipedia: Darboux integral, wikidata: Q2294564, node: F961Q88FHK}
+  - {name: Riemann–Stieltjes integral, kind: definition, wikipedia: Riemann–Stieltjes integral, wikidata: Q285771, node: JT9AFHG0NA}
   - {name: improper integral, kind: definition, wikipedia: Improper integral, wikidata: Q464118, node: 05KQ3F99BQ}
   - {name: Lebesgue's criterion for Riemann integrability, kind: statement, wikipedia: Riemann integral, wikidata: Q697181, node: 0565EGK6XP}
-  - {name: Henstock–Kurzweil integral, kind: definition, decl: BoxIntegral.HasIntegral, wikipedia: Henstock–Kurzweil integral, wikidata: Q82029}
-  - {name: Khinchin integral, kind: definition, wikipedia: Khinchin integral, wikidata: Q6401692}
-  - {name: Perron integral, kind: definition, wikipedia: Henstock–Kurzweil integral, wikidata: Q82029}
+  - {name: Henstock–Kurzweil integral, kind: definition, decl: BoxIntegral.HasIntegral, wikipedia: Henstock–Kurzweil integral, wikidata: Q82029, node: FCGHXDGVV9}
+  - {name: Khinchin integral, kind: definition, wikipedia: Khinchin integral, wikidata: Q6401692, node: Q1TV4F608D}
+  - {name: Perron integral, kind: definition, wikipedia: Henstock–Kurzweil integral, wikidata: Q82029, node: M077AXJACA}
   - {name: antiderivative, kind: definition, wikipedia: Antiderivative, wikidata: Q114326, node: 0BYWRWFT4F}
   - {name: fundamental theorem of calculus, kind: statement, decl: intervalIntegral.integral_eq_sub_of_hasDerivAt, wikipedia: Fundamental theorem of calculus, wikidata: Q1217677, node: 0NHGY0N0JB}
   - {name: integration by parts, kind: statement, decl: intervalIntegral.integral_mul_deriv_eq_deriv_mul, wikipedia: Integration by parts, wikidata: Q273328, mathlib: [mathlib-undergrad], node: 08Y1BBQTK9}
@@ -130,107 +130,107 @@ items:
   - {name: Cauchy principal value, kind: definition, wikipedia: Cauchy principal value, wikidata: Q769374, node: 0SYR10HD4R}
   - {name: Gaussian integral, kind: example, wikipedia: Gaussian integral, wikidata: Q1060321, node: 0DFT1GP1JP}
   - {name: Dirichlet integral, kind: example, wikipedia: Dirichlet integral, wikidata: Q778099, node: 0GZNSHMG4Q}
-  - {name: Frullani integral, kind: statement, wikipedia: Frullani integral, wikidata: Q1470953}
-  - {name: Laplace's method, kind: concept, wikipedia: Laplace's method, wikidata: Q2058297}
+  - {name: Frullani integral, kind: statement, wikipedia: Frullani integral, wikidata: Q1470953, node: A58Z1DQ593}
+  - {name: Laplace's method, kind: concept, wikipedia: Laplace's method, wikidata: Q2058297, node: 9G7K8DBT9Y}
   # Elementary and special functions of a real variable
   - {name: exponential function, kind: definition, decl: Real.exp, wikipedia: Exponential function, wikidata: Q168698, mathlib: [mathlib-undergrad, mathlib-overview]}
   - {name: natural logarithm, kind: definition, decl: Real.log, wikipedia: Natural logarithm, wikidata: Q204037, mathlib: [mathlib-undergrad, mathlib-overview], node: 04DXAFN2ES}
-  - {name: trigonometric functions, kind: definition, decl: Real.sin, wikipedia: Trigonometric functions, wikidata: Q93344, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: trigonometric functions, kind: definition, decl: Real.sin, wikipedia: Trigonometric functions, wikidata: Q93344, mathlib: [mathlib-undergrad, mathlib-overview], node: H313BRXEJS}
   - {name: inverse trigonometric functions, kind: definition, decl: Real.arctan, wikipedia: Inverse trigonometric functions, wikidata: Q674533, node: 05WEYX99X4}
   - {name: hyperbolic functions, kind: definition, decl: Real.sinh, wikipedia: Hyperbolic functions, wikidata: Q204034, mathlib: [mathlib-undergrad, mathlib-overview], node: 01PPDSDP2N}
-  - {name: real power function, kind: definition, decl: Real.rpow, wikipedia: Exponentiation, wikidata: Q33456, mathlib: [mathlib-undergrad]}
+  - {name: real power function, kind: definition, decl: Real.rpow, wikipedia: Exponentiation, wikidata: Q33456, mathlib: [mathlib-undergrad], node: 091AV9YHZY}
   - {name: gamma function, kind: definition, decl: Real.Gamma, wikipedia: Gamma function, wikidata: Q190573, node: 0H5SYBSED9}
-  - {name: Bohr–Mollerup theorem, kind: statement, decl: Real.eq_Gamma_of_log_convex, wikipedia: Bohr–Mollerup theorem, wikidata: Q2734084}
-  - {name: beta function, kind: definition, wikipedia: Beta function, wikidata: Q468881}
+  - {name: Bohr–Mollerup theorem, kind: statement, decl: Real.eq_Gamma_of_log_convex, wikipedia: Bohr–Mollerup theorem, wikidata: Q2734084, node: QFF87AXWN2}
+  - {name: beta function, kind: definition, wikipedia: Beta function, wikidata: Q468881, node: QHNWVSC6AQ}
   - {name: Stirling's approximation, kind: statement, decl: Stirling.tendsto_stirlingSeq_sqrt_pi, wikipedia: Stirling's approximation, wikidata: Q470877, mathlib: [mathlib-100, mathlib-1000], node: 0KC0F51T6A}
   - {name: Wallis product, kind: statement, decl: Real.tendsto_prod_pi_div_two, wikipedia: Wallis product, wikidata: Q1501324, node: 0XCYA4YERS}
-  - {name: Euler–Maclaurin formula, kind: statement, wikipedia: Euler–Maclaurin formula, wikidata: Q282023}
+  - {name: Euler–Maclaurin formula, kind: statement, wikipedia: Euler–Maclaurin formula, wikidata: Q282023, node: 9P839VB8S7}
   # Convex functions
   - {name: convex function, kind: definition, decl: ConvexOn, wikipedia: Convex function, wikidata: Q319913, mathlib: [mathlib-undergrad, mathlib-overview], node: 07Q7CNM5WF}
   - {name: concave function, kind: definition, decl: ConcaveOn, wikipedia: Concave function, wikidata: Q2914302, node: 0GCM7B6PBK}
   - {name: strictly convex function, kind: definition, decl: StrictConvexOn, wikipedia: Convex function, wikidata: Q319913, node: 0AEAHMFSCA}
-  - {name: continuity of convex functions, kind: statement, decl: ConvexOn.continuousOn_interior, wikipedia: Convex function, wikidata: Q319913}
-  - {name: second-derivative criterion for convexity, kind: statement, decl: convexOn_of_deriv2_nonneg, wikipedia: Convex function, wikidata: Q319913, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: logarithmically convex function, kind: definition, wikipedia: Logarithmically convex function, wikidata: Q3610230}
-  - {name: quasiconvex function, kind: definition, wikipedia: Quasiconvex function, wikidata: Q1126412}
-  - {name: subderivative, kind: definition, wikipedia: Subderivative, wikidata: Q289500}
-  - {name: Legendre transformation, kind: definition, wikipedia: Legendre transformation, wikidata: Q908652}
-  - {name: Schur-convex function, kind: definition, wikipedia: Schur-convex function, wikidata: Q7433030}
-  - {name: Karamata's inequality, kind: statement, wikipedia: Karamata's inequality, wikidata: Q3656857}
+  - {name: continuity of convex functions, kind: statement, decl: ConvexOn.continuousOn_interior, wikipedia: Convex function, wikidata: Q319913, node: 011HV2GAWF}
+  - {name: second-derivative criterion for convexity, kind: statement, decl: convexOn_of_deriv2_nonneg, wikipedia: Convex function, wikidata: Q319913, mathlib: [mathlib-undergrad, mathlib-overview], node: 0Z41C17TGP}
+  - {name: logarithmically convex function, kind: definition, wikipedia: Logarithmically convex function, wikidata: Q3610230, node: 8FRWATNNMX}
+  - {name: quasiconvex function, kind: definition, wikipedia: Quasiconvex function, wikidata: Q1126412, node: S4RMH7JQB8}
+  - {name: subderivative, kind: definition, wikipedia: Subderivative, wikidata: Q289500, node: 9C5WXYYQEK}
+  - {name: Legendre transformation, kind: definition, wikipedia: Legendre transformation, wikidata: Q908652, node: ZQYMWVT1TT}
+  - {name: Schur-convex function, kind: definition, wikipedia: Schur-convex function, wikidata: Q7433030, node: A72XTVF2GK}
+  - {name: Karamata's inequality, kind: statement, wikipedia: Karamata's inequality, wikidata: Q3656857, node: FWKSHEJ9RP}
   # Classical inequalities
   - {name: inequality of arithmetic and geometric means, kind: statement, decl: Real.geom_mean_le_arith_mean_weighted, wikipedia: AM–GM inequality, wikidata: Q841170, mathlib: [mathlib-100], node: 0DRF0F3XC9}
-  - {name: generalized mean inequality, kind: statement, decl: Real.rpow_arith_mean_le_arith_mean_rpow, wikipedia: Generalized mean, wikidata: Q855729}
+  - {name: generalized mean inequality, kind: statement, decl: Real.rpow_arith_mean_le_arith_mean_rpow, wikipedia: Generalized mean, wikidata: Q855729, node: XZ1EXQPJ6S}
   - {name: Jensen's inequality, kind: statement, decl: ConvexOn.map_sum_le, wikipedia: Jensen's inequality, wikidata: Q518131, mathlib: [mathlib-overview], node: 0RWMRTPC87}
   - {name: Cauchy–Schwarz inequality, kind: statement, decl: Finset.sum_mul_sq_le_sq_mul_sq, wikipedia: Cauchy–Schwarz inequality, wikidata: Q190546, node: 0RFWW56Y22}
-  - {name: Hölder's inequality, kind: statement, decl: Real.inner_le_Lp_mul_Lq, wikipedia: Hölder's inequality, wikidata: Q731894}
-  - {name: Minkowski inequality, kind: statement, decl: Real.Lp_add_le, wikipedia: Minkowski inequality, wikidata: Q755092}
+  - {name: Hölder's inequality, kind: statement, decl: Real.inner_le_Lp_mul_Lq, wikipedia: Hölder's inequality, wikidata: Q731894, node: JQ9WXC729D}
+  - {name: Minkowski inequality, kind: statement, decl: Real.Lp_add_le, wikipedia: Minkowski inequality, wikidata: Q755092, node: N4QZS912MT}
   - {name: Young's inequality for products, kind: statement, decl: Real.young_inequality, wikipedia: Young's inequality for products, wikidata: Q910563, node: 07VHQ31EYJ}
   - {name: Bernoulli's inequality, kind: statement, decl: one_add_mul_le_pow, wikipedia: Bernoulli's inequality, wikidata: Q728662, node: 0M1MX28VXK}
-  - {name: rearrangement inequality, kind: statement, decl: Monovary.sum_smul_comp_perm_le_sum_smul, wikipedia: Rearrangement inequality, wikidata: Q1149189}
-  - {name: Chebyshev's sum inequality, kind: statement, decl: Monovary.sum_mul_sum_le_card_mul_sum, wikipedia: Chebyshev's sum inequality, wikidata: Q1428736}
-  - {name: Hardy's inequality, kind: statement, wikipedia: Hardy's inequality, wikidata: Q944228}
-  - {name: Hilbert's inequality, kind: statement, wikipedia: Hilbert's inequality, wikidata: Q3153998}
-  - {name: Carleman's inequality, kind: statement, wikipedia: Carleman's inequality, wikidata: Q378741}
-  - {name: Hermite–Hadamard inequality, kind: statement, wikipedia: Hermite–Hadamard inequality, wikidata: Q1035624}
-  - {name: Muirhead's inequality, kind: statement, wikipedia: Muirhead's inequality, wikidata: Q930173}
+  - {name: rearrangement inequality, kind: statement, decl: Monovary.sum_smul_comp_perm_le_sum_smul, wikipedia: Rearrangement inequality, wikidata: Q1149189, node: 6E9TAF8HCY}
+  - {name: Chebyshev's sum inequality, kind: statement, decl: Monovary.sum_mul_sum_le_card_mul_sum, wikipedia: Chebyshev's sum inequality, wikidata: Q1428736, node: S8X2N1DW8P}
+  - {name: Hardy's inequality, kind: statement, wikipedia: Hardy's inequality, wikidata: Q944228, node: S7A8YFGG8X}
+  - {name: Hilbert's inequality, kind: statement, wikipedia: Hilbert's inequality, wikidata: Q3153998, node: G4R4MWWP3C}
+  - {name: Carleman's inequality, kind: statement, wikipedia: Carleman's inequality, wikidata: Q378741, node: B54HPY6C5Z}
+  - {name: Hermite–Hadamard inequality, kind: statement, wikipedia: Hermite–Hadamard inequality, wikidata: Q1035624, node: 3VB65PEZQS}
+  - {name: Muirhead's inequality, kind: statement, wikipedia: Muirhead's inequality, wikidata: Q930173, node: PBPFVY20WT}
   - {name: Grönwall's inequality, kind: statement, decl: norm_le_gronwallBound_of_norm_deriv_right_le, wikipedia: Grönwall's inequality, wikidata: Q510733, mathlib: [mathlib-undergrad], node: 07EJHQYR9A}
-  - {name: Wirtinger's inequality for functions, kind: statement, wikipedia: Wirtinger's inequality for functions, wikidata: Q947364}
-  - {name: Landau–Kolmogorov inequality, kind: statement, wikipedia: Landau–Kolmogorov inequality, wikidata: Q5638668}
-  - {name: Nesbitt's inequality, kind: statement, wikipedia: Nesbitt's inequality, wikidata: Q370642}
-  - {name: Schur's inequality, kind: statement, wikipedia: Schur's inequality, wikidata: Q1317813}
-  - {name: majorization, kind: definition, wikipedia: Majorization, wikidata: Q1994695}
+  - {name: Wirtinger's inequality for functions, kind: statement, wikipedia: Wirtinger's inequality for functions, wikidata: Q947364, node: G0J13SXYTC}
+  - {name: Landau–Kolmogorov inequality, kind: statement, wikipedia: Landau–Kolmogorov inequality, wikidata: Q5638668, node: C3DD4Z4MD1}
+  - {name: Nesbitt's inequality, kind: statement, wikipedia: Nesbitt's inequality, wikidata: Q370642, node: XPBQEJNYJ6}
+  - {name: Schur's inequality, kind: statement, wikipedia: Schur's inequality, wikidata: Q1317813, node: 958TMJZ51Y}
+  - {name: majorization, kind: definition, wikipedia: Majorization, wikidata: Q1994695, node: 5K7VT2VKZT}
   # Real polynomials and rational functions
-  - {name: polynomial function, kind: definition, decl: Polynomial.continuous, wikipedia: Polynomial, wikidata: Q43260}
-  - {name: Descartes' rule of signs, kind: statement, wikipedia: Descartes's rule of signs, wikidata: Q1379344}
-  - {name: Sturm's theorem, kind: statement, wikipedia: Sturm's theorem, wikidata: Q1632301}
-  - {name: Budan's theorem, kind: statement, wikipedia: Budan's theorem, wikidata: Q3527026}
-  - {name: Gauss–Lucas theorem, kind: statement, wikipedia: Gauss–Lucas theorem, wikidata: Q1008566}
-  - {name: Markov brothers' inequality, kind: statement, wikipedia: Markov brothers' inequality, wikidata: Q176674}
-  - {name: Bernstein's inequality for polynomials, kind: statement, wikipedia: Bernstein's theorem (polynomials), wikidata: Q25345912}
-  - {name: Chebyshev polynomials, kind: object, wikipedia: Chebyshev polynomials, wikidata: Q619511}
-  - {name: Lagrange polynomial, kind: definition, decl: Lagrange.interpolate, wikipedia: Lagrange polynomial, wikidata: Q861606, mathlib: [mathlib-undergrad]}
-  - {name: Hilbert's seventeenth problem, kind: problem, wikipedia: Hilbert's seventeenth problem, wikidata: Q2496877}
+  - {name: polynomial function, kind: definition, decl: Polynomial.continuous, wikipedia: Polynomial, wikidata: Q43260, node: 1G0B73WPX8}
+  - {name: Descartes' rule of signs, kind: statement, wikipedia: Descartes's rule of signs, wikidata: Q1379344, node: T6DQQ36JZ5}
+  - {name: Sturm's theorem, kind: statement, wikipedia: Sturm's theorem, wikidata: Q1632301, node: R44CV0KD9T}
+  - {name: Budan's theorem, kind: statement, wikipedia: Budan's theorem, wikidata: Q3527026, node: 7THS519D4A}
+  - {name: Gauss–Lucas theorem, kind: statement, wikipedia: Gauss–Lucas theorem, wikidata: Q1008566, node: A56086N8XQ}
+  - {name: Markov brothers' inequality, kind: statement, wikipedia: Markov brothers' inequality, wikidata: Q176674, node: EHA5MF9VKE}
+  - {name: Bernstein's inequality for polynomials, kind: statement, wikipedia: Bernstein's theorem (polynomials), wikidata: Q25345912, node: F0YGC89S9R}
+  - {name: Chebyshev polynomials, kind: object, wikipedia: Chebyshev polynomials, wikidata: Q619511, node: M6EAR1JHPP}
+  - {name: Lagrange polynomial, kind: definition, decl: Lagrange.interpolate, wikipedia: Lagrange polynomial, wikidata: Q861606, mathlib: [mathlib-undergrad], node: Y7KSGE97GK}
+  - {name: Hilbert's seventeenth problem, kind: problem, wikipedia: Hilbert's seventeenth problem, wikidata: Q2496877, node: J45F4F13VB}
   - {name: Positivstellensatz, kind: statement, wikipedia: Positive polynomial, wikidata: Q7233283}
   # Functions of several real variables
   - {name: partial derivative, kind: definition, wikipedia: Partial derivative, wikidata: Q186475, node: 09EGC6F8PT}
   - {name: directional derivative, kind: definition, decl: lineDeriv, wikipedia: Directional derivative, wikidata: Q383851, mathlib: [mathlib-undergrad], node: 06KWGHDN2J}
   - {name: total derivative, kind: definition, decl: fderiv, wikipedia: Derivative (multivariable calculus), wikidata: Q636889, mathlib: [mathlib-undergrad], node: 0FNKFT8H6E}
-  - {name: Jacobian matrix and determinant, kind: definition, wikipedia: Jacobian matrix and determinant, wikidata: Q506041}
+  - {name: Jacobian matrix and determinant, kind: definition, wikipedia: Jacobian matrix and determinant, wikidata: Q506041, node: 047NDTEPCV}
   - {name: gradient, kind: definition, wikipedia: Gradient, wikidata: Q173582, node: 0ABK9V9Y64}
   - {name: Hessian matrix, kind: definition, wikipedia: Hessian matrix, wikidata: Q620495, node: 0693Y2METT}
   - {name: symmetry of second derivatives, kind: statement, wikipedia: Symmetry of second derivatives, wikidata: Q1503239, node: 01V9FPBBVK}
-  - {name: multivariable Taylor theorem, kind: statement, wikipedia: Taylor's theorem, wikidata: Q1137206}
+  - {name: multivariable Taylor theorem, kind: statement, wikipedia: Taylor's theorem, wikidata: Q1137206, node: 0J8T4K4YTE}
   - {name: inverse function theorem, kind: statement, decl: HasStrictFDerivAt.localInverse, wikipedia: Inverse function theorem, wikidata: Q931001, node: 0K9HSJFCMJ}
   - {name: implicit function theorem, kind: statement, decl: HasStrictFDerivAt.implicitFunction, wikipedia: Implicit function theorem, wikidata: Q848375, node: 0BXBADR94C}
   - {name: Lagrange multiplier, kind: statement, wikipedia: Lagrange multiplier, wikidata: Q598870, node: 0VKKP8X6Q6}
-  - {name: multiple integral, kind: definition, wikipedia: Multiple integral, wikidata: Q844937}
+  - {name: multiple integral, kind: definition, wikipedia: Multiple integral, wikidata: Q844937, node: FE1ZZJ8QW2}
   - {name: change of variables in multiple integrals, kind: statement, decl: MeasureTheory.integral_image_eq_integral_abs_det_fderiv_smul, wikipedia: Integration by substitution, wikidata: Q1071270, mathlib: [mathlib-undergrad, mathlib-overview], node: 00N5FHP1CV}
-  - {name: line integral, kind: definition, wikipedia: Line integral, wikidata: Q467699}
+  - {name: line integral, kind: definition, wikipedia: Line integral, wikidata: Q467699, node: 0H5MR9B6GT}
   - {name: surface integral, kind: definition, wikipedia: Surface integral, wikidata: Q598146, node: 065HE5V98E}
   - {name: Green's theorem, kind: statement, wikipedia: Green's theorem, wikidata: Q321237, node: 0HR3N02317}
   - {name: divergence theorem, kind: statement, wikipedia: Divergence theorem, wikidata: Q338886, node: 0JX86PSSA9}
-  - {name: Kelvin–Stokes theorem, kind: statement, wikipedia: Stokes' theorem, wikidata: Q467756}
+  - {name: Kelvin–Stokes theorem, kind: statement, wikipedia: Stokes' theorem, wikidata: Q467756, node: 0AKRKVHW94}
   - {name: generalized Stokes theorem, kind: statement, wikipedia: Generalized Stokes theorem, wikidata: Q10861254, node: 0HPHKCGEQ0}
   - {name: differential form, kind: definition, wikipedia: Differential form, wikidata: Q1047080, node: 0E3G0GRPZ6}
   - {name: Poincaré lemma, kind: statement, wikipedia: Poincaré lemma, wikidata: Q18215105, node: 05MC3HND79}
   - {name: vector calculus identities, kind: concept, wikipedia: Vector calculus identities, wikidata: Q1066266}
-  - {name: Sard's theorem, kind: statement, wikipedia: Sard's theorem, wikidata: Q583147}
-  - {name: Kolmogorov–Arnold representation theorem, kind: statement, wikipedia: Kolmogorov–Arnold representation theorem, wikidata: Q25099402}
-  - {name: Whitney extension theorem, kind: statement, wikipedia: Whitney extension theorem, wikidata: Q7996766}
-  - {name: Kirszbraun theorem, kind: statement, wikipedia: Kirszbraun theorem, wikidata: Q4454954}
-  - {name: McShane–Whitney extension, kind: statement, wikipedia: Lipschitz continuity, wikidata: Q652707}
+  - {name: Sard's theorem, kind: statement, wikipedia: Sard's theorem, wikidata: Q583147, node: Z7R8J71SJN}
+  - {name: Kolmogorov–Arnold representation theorem, kind: statement, wikipedia: Kolmogorov–Arnold representation theorem, wikidata: Q25099402, node: VQXDB9T838}
+  - {name: Whitney extension theorem, kind: statement, wikipedia: Whitney extension theorem, wikidata: Q7996766, node: RH2EZGYGAW}
+  - {name: Kirszbraun theorem, kind: statement, wikipedia: Kirszbraun theorem, wikidata: Q4454954, node: 2ZM39HSFTQ}
+  - {name: McShane–Whitney extension, kind: statement, wikipedia: Lipschitz continuity, wikidata: Q652707, node: MV7ADC2DEH}
   # Further topics
-  - {name: fractional calculus, kind: concept, wikipedia: Fractional calculus, wikidata: Q1339058}
-  - {name: Riemann–Liouville integral, kind: definition, wikipedia: Riemann–Liouville integral, wikidata: Q4162532}
-  - {name: Caputo fractional derivative, kind: definition, wikipedia: Caputo fractional derivative, wikidata: Q130213521}
-  - {name: Cauchy formula for repeated integration, kind: statement, wikipedia: Cauchy formula for repeated integration, wikidata: Q1429231}
-  - {name: Grünwald–Letnikov derivative, kind: definition, wikipedia: Grünwald–Letnikov derivative, wikidata: Q4162531}
-  - {name: absolutely monotonic function, kind: definition, wikipedia: Bernstein's theorem on monotone functions, wikidata: Q3527015}
-  - {name: Bernstein's theorem on monotone functions, kind: statement, wikipedia: Bernstein's theorem on monotone functions, wikidata: Q3527015}
-  - {name: operator monotone function, kind: definition, wikipedia: Operator monotone function, wikidata: Q55627738}
-  - {name: Löwner's theorem, kind: statement, wikipedia: Operator monotone function, wikidata: Q55627738}
-  - {name: Cauchy's functional equation, kind: problem, wikipedia: Cauchy's functional equation, wikidata: Q680611}
-  - {name: Pompeiu derivative, kind: example, wikipedia: Pompeiu derivative, wikidata: Q7227460}
-  - {name: q-derivative, kind: definition, wikipedia: Q-derivative, wikidata: Q7265300}
-  - {name: time-scale calculus, kind: concept, wikipedia: Time-scale calculus, wikidata: Q7804838}
-  - {name: interval arithmetic, kind: concept, wikipedia: Interval arithmetic, wikidata: Q1671453}
+  - {name: fractional calculus, kind: concept, wikipedia: Fractional calculus, wikidata: Q1339058, node: T73XK15SA2}
+  - {name: Riemann–Liouville integral, kind: definition, wikipedia: Riemann–Liouville integral, wikidata: Q4162532, node: JTKCZ44NN3}
+  - {name: Caputo fractional derivative, kind: definition, wikipedia: Caputo fractional derivative, wikidata: Q130213521, node: 6VMGQYF8RW}
+  - {name: Cauchy formula for repeated integration, kind: statement, wikipedia: Cauchy formula for repeated integration, wikidata: Q1429231, node: EYXG11V76E}
+  - {name: Grünwald–Letnikov derivative, kind: definition, wikipedia: Grünwald–Letnikov derivative, wikidata: Q4162531, node: M9Z8VM4K1Z}
+  - {name: absolutely monotonic function, kind: definition, wikipedia: Bernstein's theorem on monotone functions, wikidata: Q3527015, node: QQSPWH4NG9}
+  - {name: Bernstein's theorem on monotone functions, kind: statement, wikipedia: Bernstein's theorem on monotone functions, wikidata: Q3527015, node: ZBS1JA62QP}
+  - {name: operator monotone function, kind: definition, wikipedia: Operator monotone function, wikidata: Q55627738, node: N155BSJ2DN}
+  - {name: Löwner's theorem, kind: statement, wikipedia: Operator monotone function, wikidata: Q55627738, node: PA7ZQ6C6SP}
+  - {name: Cauchy's functional equation, kind: problem, wikipedia: Cauchy's functional equation, wikidata: Q680611, node: ZBMEVWN100}
+  - {name: Pompeiu derivative, kind: example, wikipedia: Pompeiu derivative, wikidata: Q7227460, node: AD0G065GK8}
+  - {name: q-derivative, kind: definition, wikipedia: Q-derivative, wikidata: Q7265300, node: PMJT3FZE0Y}
+  - {name: time-scale calculus, kind: concept, wikipedia: Time-scale calculus, wikidata: Q7804838, node: 30G1M35TK1}
+  - {name: interval arithmetic, kind: concept, wikipedia: Interval arithmetic, wikidata: Q1671453, node: QPKKTE1ZY0}

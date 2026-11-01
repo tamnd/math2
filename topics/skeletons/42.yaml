@@ -52,11 +52,11 @@ items:
   - {name: Fejér kernel, kind: definition, wikipedia: Fejér kernel, wikidata: Q1402176}
   - {name: Fejér's theorem, kind: statement, wikipedia: Fejér's theorem, wikidata: Q571154}
   - {name: Cesàro means of Fourier series, kind: definition, wikipedia: Fejér's theorem, wikidata: Q571154}
-  - {name: Poisson kernel, kind: definition, decl: poissonKernel, wikipedia: Poisson kernel, wikidata: Q2596534}
+  - {name: Poisson kernel, kind: definition, decl: poissonKernel, wikipedia: Poisson kernel, wikidata: Q2596534, node: TCYSWCTYYM}
   - {name: Lanczos sigma factor, kind: concept, wikipedia: Sigma approximation, wikidata: Q2858951}
   # Lacunary series and uniqueness
   - {name: lacunary series, kind: definition, wikipedia: Lacunary function, wikidata: Q1986013}
-  - {name: Hadamard gap theorem, kind: statement, wikipedia: Lacunary function, wikidata: Q1986013}
+  - {name: Hadamard gap theorem, kind: statement, wikipedia: Lacunary function, wikidata: Q1986013, node: DA8M8VZZHC}
   - {name: set of uniqueness, kind: definition, wikipedia: Set of uniqueness, wikidata: Q7456288}
   - {name: Cantor's uniqueness theorem for trigonometric series, kind: statement, wikipedia: Set of uniqueness, wikidata: Q7456288}
   - {name: Cantor–Lebesgue theorem, kind: statement, wikipedia: Set of uniqueness, wikidata: Q7456288}
@@ -64,7 +64,7 @@ items:
   # Trigonometric polynomials and extremal problems
   - {name: trigonometric moment problem, kind: problem, wikipedia: Trigonometric moment problem, wikidata: Q7841830}
   - {name: Szegő limit theorems, kind: statement, wikipedia: Szegő limit theorems, wikidata: Q3458641}
-  - {name: Toeplitz matrix, kind: definition, wikipedia: Toeplitz matrix, wikidata: Q849428}
+  - {name: Toeplitz matrix, kind: definition, wikipedia: Toeplitz matrix, wikidata: Q849428, node: GKY2WSHE26}
   - {name: Littlewood polynomial, kind: definition, wikipedia: Littlewood polynomial, wikidata: Q3395696}
   - {name: Rudin–Shapiro polynomials, kind: example, wikipedia: Rudin–Shapiro sequence, wikidata: Q3503247}
   - {name: Littlewood's L1 norm conjecture, kind: statement, wikipedia: Littlewood conjecture, wikidata: Q6653177}
@@ -127,7 +127,7 @@ items:
   # Singular integrals and Calderón–Zygmund theory
   - {name: singular integral, kind: definition, wikipedia: Singular integral, wikidata: Q888122}
   - {name: conjugate function, kind: definition, wikipedia: Harmonic conjugate, wikidata: Q5659251}
-  - {name: Hilbert transform, kind: definition, wikipedia: Hilbert transform, wikidata: Q685437}
+  - {name: Hilbert transform, kind: definition, wikipedia: Hilbert transform, wikidata: Q685437, node: NSCEBXM7ZM}
   - {name: M. Riesz theorem on the Hilbert transform, kind: statement, wikipedia: Hilbert transform, wikidata: Q685437}
   - {name: Kolmogorov's weak-type estimate for the conjugate function, kind: statement, wikipedia: Hilbert transform, wikidata: Q685437}
   - {name: Riesz transform, kind: definition, wikipedia: Riesz transform, wikidata: Q7333169}
@@ -161,11 +161,11 @@ items:
   # Hardy spaces and BMO
   - {name: real Hardy space H1, kind: definition, wikipedia: Hardy space, wikidata: Q1585233}
   - {name: atomic decomposition of Hardy spaces, kind: statement, wikipedia: Hardy space, wikidata: Q1585233}
-  - {name: bounded mean oscillation, kind: definition, wikipedia: Bounded mean oscillation, wikidata: Q796341}
+  - {name: bounded mean oscillation, kind: definition, wikipedia: Bounded mean oscillation, wikidata: Q796341, node: QJYTXFT8Y4}
   - {name: John–Nirenberg inequality, kind: statement, wikipedia: Bounded mean oscillation, wikidata: Q796341}
   - {name: Fefferman duality theorem, kind: statement, wikipedia: Bounded mean oscillation, wikidata: Q796341}
   - {name: vanishing mean oscillation, kind: definition, wikipedia: Bounded mean oscillation, wikidata: Q796341}
-  - {name: Carleson measure, kind: definition, wikipedia: Carleson measure, wikidata: Q5041178}
+  - {name: Carleson measure, kind: definition, wikipedia: Carleson measure, wikidata: Q5041178, node: SQHGJ9C0QE}
   - {name: Carleson embedding theorem, kind: statement, wikipedia: Carleson measure, wikidata: Q5041178}
   - {name: Coifman–Rochberg–Weiss commutator theorem, kind: statement, wikipedia: Bounded mean oscillation, wikidata: Q796341}
   # Function spaces in harmonic analysis
@@ -190,7 +190,7 @@ items:
   - {name: Besicovitch almost periodic function, kind: definition, wikipedia: Almost periodic function, wikidata: Q1066983}
   - {name: mean-periodic function, kind: definition, wikipedia: Mean-periodic function, wikidata: Q6803554}
   - {name: positive-definite function, kind: definition, wikipedia: Positive-definite function, wikidata: Q2293170}
-  - {name: Herglotz representation theorem, kind: statement, wikipedia: Positive harmonic function, wikidata: Q7233271}
+  - {name: Herglotz representation theorem, kind: statement, wikipedia: Positive harmonic function, wikidata: Q7233271, node: 9ZBAX4ZPX0}
   # Completeness of function systems
   - {name: nonharmonic Fourier series, kind: concept, wikipedia: Riesz sequence, wikidata: Q4075274}
   - {name: Riesz basis, kind: definition, wikipedia: Riesz sequence, wikidata: Q4075274}

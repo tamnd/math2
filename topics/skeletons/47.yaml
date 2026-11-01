@@ -39,7 +39,7 @@ items:
   - {name: approximate point spectrum, kind: definition, wikipedia: Spectrum (functional analysis), wikidata: Q1365748}
   - {name: essential spectrum, kind: definition, wikipedia: Essential spectrum, wikidata: Q917390}
   - {name: discrete spectrum, kind: definition, wikipedia: Discrete spectrum (mathematics), wikidata: Q97359748}
-  - {name: spectral radius, kind: definition, decl: spectralRadius, wikipedia: Spectral radius, wikidata: Q249748}
+  - {name: spectral radius, kind: definition, decl: spectralRadius, wikipedia: Spectral radius, wikidata: Q249748, node: 9V7YQA85PC}
   - {name: spectral radius formula, kind: statement, decl: spectrum.gelfand_formula, wikipedia: Spectral radius, wikidata: Q249748}
   - {name: Riesz projector, kind: definition, wikipedia: Riesz projector, wikidata: Q96401996}
   - {name: holomorphic functional calculus, kind: concept, wikipedia: Holomorphic functional calculus, wikidata: Q1625064}
@@ -53,7 +53,7 @@ items:
   - {name: Sz.-Nagy's dilation theorem, kind: statement, wikipedia: Sz.-Nagy's dilation theorem, wikidata: Q7664013}
   - {name: von Neumann's inequality, kind: statement, wikipedia: Von Neumann's inequality, wikidata: Q7941493}
   - {name: commutant lifting theorem, kind: statement, wikipedia: Commutant lifting theorem, wikidata: Q5155083}
-  - {name: Nevanlinna–Pick interpolation, kind: statement, wikipedia: Nevanlinna–Pick interpolation, wikidata: Q7190737}
+  - {name: Nevanlinna–Pick interpolation, kind: statement, wikipedia: Nevanlinna–Pick interpolation, wikidata: Q7190737, node: 4VMSSYB5DN}
   - {name: Sylvester equation, kind: problem, wikipedia: Sylvester equation, wikidata: Q3730848}
   - {name: Douglas' lemma, kind: statement, wikipedia: Douglas' lemma, wikidata: Q5301141}
   # Particular families of operators
@@ -66,8 +66,8 @@ items:
   - {name: partial isometry, kind: definition, wikipedia: Partial isometry, wikidata: Q904849}
   - {name: shift operator, kind: example, wikipedia: Shift operator, wikidata: Q2278680}
   - {name: positive operator, kind: definition, decl: ContinuousLinearMap.IsPositive, wikipedia: Positive operator, wikidata: Q2627013}
-  - {name: Loewner order, kind: definition, wikipedia: Loewner order, wikidata: Q25303887}
-  - {name: operator monotone function, kind: definition, wikipedia: Operator monotone function, wikidata: Q55627738}
+  - {name: Loewner order, kind: definition, wikipedia: Loewner order, wikidata: Q25303887, node: 9G9S92T1VJ}
+  - {name: operator monotone function, kind: definition, wikipedia: Operator monotone function, wikidata: Q55627738, node: N155BSJ2DN}
   - {name: square root of a positive operator, kind: definition, decl: CFC.sqrt, wikipedia: Square root of a matrix, wikidata: Q964330}
   - {name: polar decomposition, kind: statement, wikipedia: Polar decomposition, wikidata: Q2101158, node: 0J2C7BDJQA}
   - {name: orthogonal projection, kind: definition, decl: IsStarProjection, wikipedia: Projection (linear algebra), wikidata: Q519967, node: 0B8KZRT28M}
@@ -77,7 +77,7 @@ items:
   - {name: nilpotent operator, kind: definition, wikipedia: Nilpotent operator, wikidata: Q7037181}
   - {name: multiplication operator, kind: example, wikipedia: Multiplication operator, wikidata: Q6934990}
   - {name: composition operator, kind: definition, wikipedia: Composition operator, wikidata: Q5156798}
-  - {name: Toeplitz operator, kind: definition, wikipedia: Toeplitz operator, wikidata: Q7812935}
+  - {name: Toeplitz operator, kind: definition, wikipedia: Toeplitz operator, wikidata: Q7812935, node: GQ0X3R3WM2}
   - {name: Hankel operator, kind: definition, wikipedia: Hankel matrix, wikidata: Q1575637}
   - {name: Volterra operator, kind: example, wikipedia: Volterra operator, wikidata: Q5313336}
   - {name: Krein–Rutman theorem, kind: statement, wikipedia: Krein–Rutman theorem, wikidata: Q6436614}
@@ -88,7 +88,7 @@ items:
   - {name: finite-rank operator, kind: definition, wikipedia: Finite-rank operator, wikidata: Q5450385}
   - {name: Schauder's theorem on adjoints of compact operators, kind: statement, wikipedia: Compact operator, wikidata: Q1780743}
   - {name: spectral theory of compact operators, kind: statement, wikipedia: Spectral theory of compact operators, wikidata: Q7575213}
-  - {name: Fredholm alternative, kind: statement, wikipedia: Fredholm alternative, wikidata: Q657820}
+  - {name: Fredholm alternative, kind: statement, wikipedia: Fredholm alternative, wikidata: Q657820, node: 4HH8C9V8JQ}
   - {name: strictly singular operator, kind: definition, wikipedia: Strictly singular operator, wikidata: Q7623695}
   - {name: Fredholm operator, kind: definition, decl: ContinuousLinearMap.IsFredholm, wikipedia: Fredholm operator, wikidata: Q573631}
   - {name: Fredholm index, kind: definition, wikipedia: Fredholm theory, wikidata: Q4455098}
@@ -152,7 +152,7 @@ items:
   - {name: Fredholm integral equation, kind: problem, wikipedia: Fredholm integral equation, wikidata: Q2991898}
   - {name: Volterra integral equation, kind: problem, wikipedia: Volterra integral equation, wikidata: Q2632613}
   - {name: singular integral operator, kind: definition, wikipedia: Singular integral, wikidata: Q888122}
-  - {name: Hilbert transform, kind: example, wikipedia: Hilbert transform, wikidata: Q685437}
+  - {name: Hilbert transform, kind: example, wikipedia: Hilbert transform, wikidata: Q685437, node: NSCEBXM7ZM}
   - {name: Calderón–Zygmund lemma, kind: statement, wikipedia: Calderón–Zygmund lemma, wikidata: Q1707076}
   - {name: Fourier multiplier, kind: definition, wikipedia: Multiplier (Fourier analysis), wikidata: Q6935014}
   - {name: Wiener–Hopf method, kind: concept, wikipedia: Wiener–Hopf method, wikidata: Q2079672}

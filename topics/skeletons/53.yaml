@@ -80,7 +80,7 @@ items:
   - {name: exterior derivative, kind: definition, decl: extDeriv, wikipedia: Exterior derivative, wikidata: Q1754547, node: 0ZHSTAG8ZY}
   - {name: Frobenius theorem, kind: statement, wikipedia: Frobenius theorem (differential topology), wikidata: Q837551}
   - {name: Lie group, kind: definition, decl: LieGroup, wikipedia: Lie group, wikidata: Q622679, mathlib: [mathlib-overview]}
-  - {name: symplectic group, kind: object, decl: Matrix.symplecticGroup, wikipedia: Symplectic group, wikidata: Q936434}
+  - {name: symplectic group, kind: object, decl: Matrix.symplecticGroup, wikipedia: Symplectic group, wikidata: Q936434, node: X12FS2JAP0}
   - {name: G-structure, kind: definition, wikipedia: G-structure on a manifold, wikidata: Q5511959}
   # Connections and curvature
   - {name: affine connection, kind: definition, decl: CovariantDerivative, wikipedia: Affine connection, wikidata: Q1371213, mathlib: [mathlib-overview]}
@@ -190,7 +190,7 @@ items:
   - {name: Spin(7)-manifold, kind: definition, wikipedia: Spin(7)-manifold, wikidata: Q7577346}
   - {name: Sasakian manifold, kind: definition, wikipedia: Sasakian manifold, wikidata: Q7424986}
   # Symplectic geometry
-  - {name: symplectic vector space, kind: definition, wikipedia: Symplectic vector space, wikidata: Q766774}
+  - {name: symplectic vector space, kind: definition, wikipedia: Symplectic vector space, wikidata: Q766774, node: PQ7JJY0VPH}
   - {name: symplectic manifold, kind: definition, wikipedia: Symplectic manifold, wikidata: Q1064500}
   - {name: Darboux's theorem, kind: statement, wikipedia: Darboux's theorem, wikidata: Q1058662, node: 0Q5A47J48D}
   - {name: Moser's trick, kind: statement, wikipedia: Moser's trick, wikidata: Q3333609}

@@ -19,7 +19,7 @@ items:
   - {name: K-group, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675}
   - {name: lower K-groups, kind: concept, wikipedia: Algebraic K-theory, wikidata: Q2553675}
   # K0 and projective modules
-  - {name: projective module, kind: definition, decl: Module.Projective, wikipedia: Projective module, wikidata: Q942423}
+  - {name: projective module, kind: definition, decl: Module.Projective, wikipedia: Projective module, wikidata: Q942423, node: BFFA03GE3V}
   - {name: finitely generated projective module, kind: definition, wikipedia: Projective module, wikidata: Q942423}
   - {name: free module, kind: definition, decl: Module.Free, wikipedia: Free module, wikidata: Q1292333, node: 0DZ9DKAKZR}
   - {name: stably free module, kind: definition, wikipedia: Stably free module, wikidata: Q7595791}
@@ -33,8 +33,8 @@ items:
   - {name: invertible module, kind: definition, decl: Module.Invertible, wikipedia: Invertible sheaf, wikidata: Q2905137}
   - {name: determinant of a projective module, kind: definition, wikipedia: Determinant line bundle, wikidata: Q135648941}
   - {name: Serre–Swan theorem, kind: statement, wikipedia: Serre–Swan theorem, wikidata: Q7455422}
-  - {name: Serre's problem on projective modules, kind: problem, wikipedia: Quillen–Suslin theorem, wikidata: Q7272004}
-  - {name: Quillen–Suslin theorem, kind: statement, wikipedia: Quillen–Suslin theorem, wikidata: Q7272004}
+  - {name: Serre's problem on projective modules, kind: problem, wikipedia: Quillen–Suslin theorem, wikidata: Q7272004, node: 7GG0XYHB0T}
+  - {name: Quillen–Suslin theorem, kind: statement, wikipedia: Quillen–Suslin theorem, wikidata: Q7272004, node: 7N50GA46W1}
   - {name: Bass–Quillen conjecture, kind: conjecture, wikipedia: Bass–Quillen conjecture, wikidata: Q28455751}
   - {name: Bass stable range, kind: definition, wikipedia: Stable range condition, wikidata: Q18192482}
   - {name: Bass cancellation theorem, kind: statement, wikipedia: Stable range condition, wikidata: Q18192482}
@@ -93,15 +93,15 @@ items:
   - {name: K2 of the integers, kind: example, wikipedia: Steinberg group (K-theory), wikidata: Q7606830}
   - {name: Tate's computation of K2 of the rationals, kind: statement, wikipedia: Steinberg symbol, wikidata: Q7606831}
   - {name: tame symbol, kind: definition, wikipedia: Symbol (number theory), wikidata: Q7051624}
-  - {name: Hilbert symbol, kind: definition, wikipedia: Hilbert symbol, wikidata: Q740060}
+  - {name: Hilbert symbol, kind: definition, wikipedia: Hilbert symbol, wikidata: Q740060, node: WFG4YMBYVQ}
   - {name: norm residue symbol, kind: definition, wikipedia: Symbol (number theory), wikidata: Q7051624}
   - {name: Moore reciprocity sequence, kind: statement, wikipedia: Hilbert symbol, wikidata: Q740060}
   - {name: Dennis–Stein symbol, kind: definition, wikipedia: Steinberg symbol, wikidata: Q7606831}
   - {name: Merkurjev–Suslin theorem, kind: statement, wikipedia: Norm residue isomorphism theorem, wikidata: Q7051622}
-  - {name: Milnor K-theory, kind: definition, wikipedia: Milnor K-theory, wikidata: Q6860246}
+  - {name: Milnor K-theory, kind: definition, wikipedia: Milnor K-theory, wikidata: Q6860246, node: 2YXDQ7Q445}
   - {name: Galois symbol, kind: definition, wikipedia: Norm residue isomorphism theorem, wikidata: Q7051622}
   - {name: Milnor conjecture, kind: statement, wikipedia: Milnor conjecture (K-theory), wikidata: Q2993329}
-  - {name: norm residue isomorphism theorem, kind: statement, wikipedia: Norm residue isomorphism theorem, wikidata: Q7051622}
+  - {name: norm residue isomorphism theorem, kind: statement, wikipedia: Norm residue isomorphism theorem, wikidata: Q7051622, node: 5Q5VN56QH4}
   - {name: Bloch–Kato conjecture, kind: statement, wikipedia: Norm residue isomorphism theorem, wikidata: Q7051622}
   - {name: K2 and the Brauer group, kind: statement, wikipedia: Norm residue isomorphism theorem, wikidata: Q7051622}
   # Higher algebraic K-theory
@@ -151,7 +151,7 @@ items:
   - {name: Grothendieck–Witt group, kind: definition, wikipedia: Witt group, wikidata: Q3117708}
   # K-theory of forms
   - {name: quadratic form, kind: definition, decl: QuadraticForm, wikipedia: Quadratic form, wikidata: Q736753, mathlib: [mathlib-undergrad, mathlib-overview], node: 0RBQS1JJCR}
-  - {name: Witt group, kind: definition, wikipedia: Witt group, wikidata: Q3117708}
+  - {name: Witt group, kind: definition, wikipedia: Witt group, wikidata: Q3117708, node: KFVY0RPGF2}
   - {name: Witt ring of a field, kind: definition, wikipedia: Witt group, wikidata: Q3117708}
   - {name: fundamental ideal of the Witt ring, kind: definition, wikipedia: Witt group, wikidata: Q3117708}
   - {name: Pfister form, kind: definition, wikipedia: Pfister form, wikidata: Q7179798}
@@ -159,7 +159,7 @@ items:
   - {name: Arason–Pfister Hauptsatz, kind: statement, wikipedia: Pfister form, wikidata: Q7179798}
   - {name: L-theory, kind: definition, wikipedia: L-theory, wikidata: Q6456169}
   - {name: surgery obstruction groups, kind: definition, wikipedia: L-theory, wikidata: Q6456169}
-  - {name: Clifford algebra, kind: definition, decl: CliffordAlgebra, wikipedia: Clifford algebra, wikidata: Q674689, mathlib: [mathlib-overview]}
+  - {name: Clifford algebra, kind: definition, decl: CliffordAlgebra, wikipedia: Clifford algebra, wikidata: Q674689, mathlib: [mathlib-overview], node: A38B1QFK20}
   # K-theory in geometry
   - {name: K-theory of a scheme, kind: concept, wikipedia: Algebraic K-theory, wikidata: Q2553675}
   - {name: K0 of coherent sheaves, kind: definition, wikipedia: Grothendieck–Riemann–Roch theorem, wikidata: Q1899432}

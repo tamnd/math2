@@ -130,7 +130,7 @@ items:
   - {name: inverse problem for Lagrangian mechanics, kind: problem, wikipedia: Inverse problem for Lagrangian mechanics, wikidata: Q6060414}
   # Hamiltonian mechanics
   - {name: Hamiltonian mechanics, kind: concept, wikipedia: Hamiltonian mechanics, wikidata: Q477921}
-  - {name: Legendre transformation, kind: definition, wikipedia: Legendre transformation, wikidata: Q908652}
+  - {name: Legendre transformation, kind: definition, wikipedia: Legendre transformation, wikidata: Q908652, node: ZQYMWVT1TT}
   - {name: Hamilton's equations, kind: statement, wikipedia: Hamiltonian mechanics, wikidata: Q477921}
   - {name: phase space, kind: definition, wikipedia: Phase space, wikidata: Q62542}
   - {name: Poisson bracket, kind: definition, wikipedia: Poisson bracket, wikidata: Q1052775}

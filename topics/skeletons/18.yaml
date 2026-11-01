@@ -209,7 +209,7 @@ items:
   - {name: exact category, kind: definition, wikipedia: Exact category, wikidata: Q5419218}
   # Homological algebra: complexes and exact sequences
   - {name: homological algebra, kind: concept, wikipedia: Homological algebra, wikidata: Q579978}
-  - {name: exact sequence, kind: definition, decl: CategoryTheory.ShortComplex.Exact, wikipedia: Exact sequence, wikidata: Q1326955}
+  - {name: exact sequence, kind: definition, decl: CategoryTheory.ShortComplex.Exact, wikipedia: Exact sequence, wikidata: Q1326955, node: JB7ZBFBA9C}
   - {name: short exact sequence, kind: definition, decl: CategoryTheory.ShortComplex.ShortExact, wikipedia: Exact sequence, wikidata: Q1326955}
   - {name: split exact sequence, kind: definition, wikipedia: Split exact sequence, wikidata: Q65122157}
   - {name: splitting lemma, kind: statement, wikipedia: Splitting lemma, wikidata: Q2757856}
@@ -229,12 +229,12 @@ items:
   - {name: projective object, kind: definition, decl: CategoryTheory.Projective, wikipedia: Projective object, wikidata: Q2112502}
   - {name: injective object, kind: definition, decl: CategoryTheory.Injective, wikipedia: Injective object, wikidata: Q1625040}
   - {name: enough projectives, kind: definition, decl: CategoryTheory.EnoughProjectives, wikipedia: Projective object, wikidata: Q2112502}
-  - {name: projective resolution, kind: definition, decl: CategoryTheory.ProjectiveResolution, wikipedia: Resolution (algebra), wikidata: Q2112483}
+  - {name: projective resolution, kind: definition, decl: CategoryTheory.ProjectiveResolution, wikipedia: Resolution (algebra), wikidata: Q2112483, node: HK2AA1YSQ2}
   - {name: injective resolution, kind: definition, decl: CategoryTheory.InjectiveResolution, wikipedia: Injective module, wikidata: Q2716519}
   - {name: horseshoe lemma, kind: statement, wikipedia: Horseshoe lemma, wikidata: Q5906080}
   - {name: derived functor, kind: definition, decl: CategoryTheory.Functor.leftDerived, wikipedia: Derived functor, wikidata: Q320245}
-  - {name: Ext functor, kind: definition, decl: CategoryTheory.Abelian.Ext, wikipedia: Ext functor, wikidata: Q1384902}
-  - {name: Tor functor, kind: definition, wikipedia: Tor functor, wikidata: Q988381}
+  - {name: Ext functor, kind: definition, decl: CategoryTheory.Abelian.Ext, wikipedia: Ext functor, wikidata: Q1384902, node: 4P7GBWJ4RR}
+  - {name: Tor functor, kind: definition, wikipedia: Tor functor, wikidata: Q988381, node: DDQRERAQCV}
   - {name: Yoneda Ext and extensions, kind: statement, wikipedia: Ext functor, wikidata: Q1384902}
   - {name: delta functor, kind: definition, wikipedia: Delta-functor, wikidata: Q5254536}
   - {name: Grothendieck spectral sequence, kind: statement, wikipedia: Grothendieck spectral sequence, wikidata: Q5610729}
@@ -244,8 +244,8 @@ items:
   - {name: universal coefficient theorem, kind: statement, wikipedia: Universal coefficient theorem, wikidata: Q2495664}
   - {name: Cartan–Eilenberg resolution, kind: definition, wikipedia: Cartan–Eilenberg resolution, wikidata: Q5047047}
   - {name: homological dimension, kind: definition, wikipedia: Global dimension, wikidata: Q5570832}
-  - {name: Hilbert's syzygy theorem, kind: statement, wikipedia: Hilbert's syzygy theorem, wikidata: Q779220}
-  - {name: Koszul complex, kind: definition, wikipedia: Koszul complex, wikidata: Q6433699}
+  - {name: Hilbert's syzygy theorem, kind: statement, wikipedia: Hilbert's syzygy theorem, wikidata: Q779220, node: R0DSZPRG6T}
+  - {name: Koszul complex, kind: definition, wikipedia: Koszul complex, wikidata: Q6433699, node: YZY11W08SD}
   - {name: bar resolution, kind: definition, wikipedia: Bar complex, wikidata: Q17103661}
   - {name: group cohomology, kind: concept, wikipedia: Group cohomology, wikidata: Q1408937}
   - {name: Hochschild homology, kind: concept, wikipedia: Hochschild homology, wikidata: Q1622047}

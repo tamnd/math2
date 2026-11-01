@@ -121,14 +121,14 @@ items:
   - {name: permutohedron, kind: example, wikipedia: Permutohedron, wikidata: Q1710083}
   - {name: associahedron, kind: example, wikipedia: Associahedron, wikidata: Q4809117}
   - {name: Birkhoff polytope, kind: example, wikipedia: Birkhoff polytope, wikidata: Q4916482}
-  - {name: Birkhoff–von Neumann theorem, kind: statement, wikipedia: Doubly stochastic matrix, wikidata: Q1243340}
+  - {name: Birkhoff–von Neumann theorem, kind: statement, wikipedia: Doubly stochastic matrix, wikidata: Q1243340, node: 3KY1RMEDMJ}
   - {name: order polytope, kind: example, wikipedia: Order polytope, wikidata: Q85791185}
   - {name: polar polytope, kind: definition, wikipedia: Dual polyhedron, wikidata: Q1053857}
   - {name: f-vector, kind: definition, wikipedia: Simplicial complex, wikidata: Q994399}
   - {name: Euler's formula for polytopes, kind: statement, wikipedia: Euler characteristic, wikidata: Q852973}
-  - {name: Dehn–Sommerville equations, kind: statement, wikipedia: Dehn–Sommerville equations, wikidata: Q4027001}
+  - {name: Dehn–Sommerville equations, kind: statement, wikipedia: Dehn–Sommerville equations, wikidata: Q4027001, node: 4WKHF5BCTA}
   - {name: upper bound theorem, kind: statement, wikipedia: Upper bound theorem, wikidata: Q17104455}
-  - {name: g-theorem, kind: statement, wikipedia: Simplicial sphere, wikidata: Q7520908}
+  - {name: g-theorem, kind: statement, wikipedia: Simplicial sphere, wikidata: Q7520908, node: 4CZMWQVC30}
   - {name: Steinitz's theorem, kind: statement, wikipedia: Steinitz's theorem, wikidata: Q7606897}
   - {name: Balinski's theorem, kind: statement, wikipedia: Balinski's theorem, wikidata: Q32182}
   - {name: Hirsch conjecture, kind: counterexample, wikipedia: Hirsch conjecture, wikidata: Q2993326}
@@ -173,7 +173,7 @@ items:
   # Lattices and geometry of numbers
   - {name: lattice, kind: definition, decl: IsZLattice, wikipedia: Lattice (group), wikidata: Q1096885}
   - {name: Minkowski's theorem, kind: statement, decl: MeasureTheory.exists_ne_zero_mem_lattice_of_measure_mul_two_pow_lt_measure, wikipedia: Minkowski's theorem, wikidata: Q1097021, mathlib: [mathlib-100, mathlib-1000], node: 0K387S2PKQ}
-  - {name: Minkowski's second theorem, kind: statement, wikipedia: Minkowski's second theorem, wikidata: Q6867853}
+  - {name: Minkowski's second theorem, kind: statement, wikipedia: Minkowski's second theorem, wikidata: Q6867853, node: 5H4XZVF9B9}
   - {name: successive minima, kind: definition, wikipedia: Minkowski's second theorem, wikidata: Q6867853}
   - {name: Blichfeldt's theorem, kind: statement, wikipedia: Blichfeldt's theorem, wikidata: Q104902490}
   - {name: geometry of numbers, kind: concept, wikipedia: Geometry of numbers, wikidata: Q1466519}
@@ -188,7 +188,7 @@ items:
   - {name: Kepler conjecture, kind: statement, wikipedia: Kepler conjecture, wikidata: Q966873}
   - {name: sphere packing in dimensions 8 and 24, kind: statement, wikipedia: Sphere packing, wikidata: Q900117}
   - {name: E8 lattice, kind: object, wikipedia: E8 lattice, wikidata: Q4662154}
-  - {name: Leech lattice, kind: object, wikipedia: Leech lattice, wikidata: Q2510203}
+  - {name: Leech lattice, kind: object, wikipedia: Leech lattice, wikidata: Q2510203, node: XETV3657DG}
   - {name: kissing number, kind: definition, wikipedia: Kissing number, wikidata: Q1371530}
   - {name: kissing number problem in three dimensions, kind: statement, wikipedia: Kissing number, wikidata: Q1371530}
   - {name: Minkowski–Hlawka theorem, kind: statement, wikipedia: Minkowski–Hlawka theorem, wikidata: Q6867867}
@@ -204,7 +204,7 @@ items:
   # Tilings
   - {name: tessellation, kind: definition, wikipedia: Tessellation, wikidata: Q214856}
   - {name: periodic tiling, kind: definition, wikipedia: Tessellation, wikidata: Q214856}
-  - {name: wallpaper group, kind: object, wikipedia: Wallpaper group, wikidata: Q906867}
+  - {name: wallpaper group, kind: object, wikipedia: Wallpaper group, wikidata: Q906867, node: MY3CBHARYQ}
   - {name: space group, kind: object, wikipedia: Space group, wikidata: Q899033}
   - {name: Euclidean tilings by convex regular polygons, kind: example, wikipedia: Euclidean tilings by convex regular polygons, wikidata: Q2995026}
   - {name: Penrose tiling, kind: example, wikipedia: Penrose tiling, wikidata: Q585688}
@@ -222,14 +222,14 @@ items:
   - {name: Hilbert's eighteenth problem, kind: problem, wikipedia: Hilbert's eighteenth problem, wikidata: Q11059889}
   # Discrete and combinatorial geometry
   - {name: discrete geometry, kind: concept, wikipedia: Discrete geometry, wikidata: Q906377}
-  - {name: Sylvester–Gallai theorem, kind: statement, wikipedia: Sylvester–Gallai theorem, wikidata: Q748233}
-  - {name: Erdős distinct distances problem, kind: problem, wikipedia: Erdős distinct distances problem, wikidata: Q3406261}
+  - {name: Sylvester–Gallai theorem, kind: statement, wikipedia: Sylvester–Gallai theorem, wikidata: Q748233, node: T3GGJN70P2}
+  - {name: Erdős distinct distances problem, kind: problem, wikipedia: Erdős distinct distances problem, wikidata: Q3406261, node: 4H31EM5T0C}
   - {name: unit distance problem, kind: problem, wikipedia: Unit distance graph, wikidata: Q745378}
-  - {name: Hadwiger–Nelson problem, kind: problem, wikipedia: Hadwiger–Nelson problem, wikidata: Q1383936}
-  - {name: Szemerédi–Trotter theorem, kind: statement, wikipedia: Szemerédi–Trotter theorem, wikidata: Q721695}
+  - {name: Hadwiger–Nelson problem, kind: problem, wikipedia: Hadwiger–Nelson problem, wikidata: Q1383936, node: YX985SQG26}
+  - {name: Szemerédi–Trotter theorem, kind: statement, wikipedia: Szemerédi–Trotter theorem, wikidata: Q721695, node: NQBWFSC1E0}
   - {name: crossing number inequality, kind: statement, wikipedia: Crossing number inequality, wikidata: Q24896206}
   - {name: Beck's theorem, kind: statement, wikipedia: Beck's theorem (geometry), wikidata: Q3527011}
-  - {name: happy ending problem, kind: problem, wikipedia: Happy ending problem, wikidata: Q1033772}
+  - {name: happy ending problem, kind: problem, wikipedia: Happy ending problem, wikidata: Q1033772, node: PX7SS1X16K}
   - {name: Erdős–Szekeres theorem, kind: statement, wikipedia: Erdős–Szekeres theorem, wikidata: Q976607, node: 0SNJM8HSD3}
   - {name: no-three-in-line problem, kind: problem, wikipedia: No-three-in-line problem, wikidata: Q6580594}
   - {name: Heilbronn triangle problem, kind: problem, wikipedia: Heilbronn triangle problem, wikidata: Q5699425}

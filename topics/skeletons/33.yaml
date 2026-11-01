@@ -27,7 +27,7 @@ items:
   - {name: Gauss multiplication formula, kind: statement, wikipedia: Multiplication theorem, wikidata: Q98831}
   - {name: Euler–Gauss limit formula, kind: statement, decl: Complex.GammaSeq_tendsto_Gamma, wikipedia: Gamma function, wikidata: Q190573}
   - {name: Weierstrass product for the gamma function, kind: statement, wikipedia: Gamma function, wikidata: Q190573}
-  - {name: Bohr–Mollerup theorem, kind: statement, decl: Real.eq_Gamma_of_log_convex, wikipedia: Bohr–Mollerup theorem, wikidata: Q2734084}
+  - {name: Bohr–Mollerup theorem, kind: statement, decl: Real.eq_Gamma_of_log_convex, wikipedia: Bohr–Mollerup theorem, wikidata: Q2734084, node: QFF87AXWN2}
   - {name: log-convexity of the gamma function, kind: statement, decl: Real.convexOn_log_Gamma, wikipedia: Bohr–Mollerup theorem, wikidata: Q2734084}
   - {name: Wielandt's theorem, kind: statement, wikipedia: Wielandt theorem, wikidata: Q3527182}
   - {name: Hölder's theorem, kind: statement, wikipedia: Hölder's theorem, wikidata: Q1995468}
@@ -39,7 +39,7 @@ items:
   - {name: digamma function, kind: definition, decl: Complex.digamma, wikipedia: Digamma function, wikidata: Q905326}
   - {name: polygamma function, kind: definition, wikipedia: Polygamma function, wikidata: Q857956}
   - {name: trigamma function, kind: definition, wikipedia: Trigamma function, wikidata: Q1244426}
-  - {name: beta function, kind: definition, decl: Complex.betaIntegral, wikipedia: Beta function, wikidata: Q468881}
+  - {name: beta function, kind: definition, decl: Complex.betaIntegral, wikipedia: Beta function, wikidata: Q468881, node: QHNWVSC6AQ}
   - {name: beta function in terms of the gamma function, kind: statement, decl: Complex.Gamma_mul_Gamma_eq_betaIntegral, wikipedia: Beta function, wikidata: Q468881}
   - {name: incomplete gamma function, kind: definition, wikipedia: Incomplete gamma function, wikidata: Q1319246}
   - {name: incomplete beta function, kind: definition, wikipedia: Beta function, wikidata: Q468881}
@@ -176,14 +176,14 @@ items:
   - {name: 3-j symbol, kind: definition, wikipedia: 3-j symbol, wikidata: Q2570568}
   - {name: 6-j symbol, kind: definition, wikipedia: 6-j symbol, wikidata: Q2606520}
   - {name: Jack function, kind: definition, wikipedia: Jack function, wikidata: Q6115970}
-  - {name: Macdonald polynomials, kind: definition, wikipedia: Macdonald polynomials, wikidata: Q17098676}
+  - {name: Macdonald polynomials, kind: definition, wikipedia: Macdonald polynomials, wikidata: Q17098676, node: VYP9PB000X}
   - {name: Dunkl operator, kind: definition, wikipedia: Dunkl operator, wikidata: Q5315392}
   - {name: Selberg integral, kind: statement, wikipedia: Selberg integral, wikidata: Q7447525}
   - {name: Mehta integral, kind: statement, wikipedia: Selberg integral, wikidata: Q7447525}
   - {name: Dyson conjecture, kind: statement, wikipedia: Dyson conjecture, wikidata: Q5319505}
   - {name: Macdonald constant term conjecture, kind: statement, wikipedia: Macdonald polynomials, wikidata: Q17098676}
   # Basic hypergeometric functions
-  - {name: q-analog, kind: concept, wikipedia: Q-analog, wikidata: Q3491352}
+  - {name: q-analog, kind: concept, wikipedia: Q-analog, wikidata: Q3491352, node: GFSDMJHHVA}
   - {name: basic hypergeometric series, kind: definition, wikipedia: Basic hypergeometric series, wikidata: Q1062958}
   - {name: q-binomial theorem, kind: statement, wikipedia: Gaussian binomial coefficient, wikidata: Q5527834}
   - {name: q-exponential, kind: definition, wikipedia: Q-exponential, wikidata: Q1062655}
@@ -193,7 +193,7 @@ items:
   - {name: Ramanujan's 1psi1 summation, kind: statement, wikipedia: Basic hypergeometric series, wikidata: Q1062958}
   - {name: Jacobi triple product, kind: statement, wikipedia: Jacobi triple product, wikidata: Q507393}
   - {name: quintuple product identity, kind: statement, wikipedia: Quintuple product identity, wikidata: Q7272511}
-  - {name: Rogers–Ramanujan identities, kind: statement, wikipedia: Rogers–Ramanujan identities, wikidata: Q7359380}
+  - {name: Rogers–Ramanujan identities, kind: statement, wikipedia: Rogers–Ramanujan identities, wikidata: Q7359380, node: M24H4GJPPW}
   - {name: Bailey's lemma, kind: statement, wikipedia: Bailey pair, wikidata: Q4848398}
   - {name: Ramanujan theta function, kind: definition, wikipedia: Ramanujan theta function, wikidata: Q2630765}
   - {name: Rogers–Ramanujan continued fraction, kind: definition, wikipedia: Rogers–Ramanujan continued fraction, wikidata: Q7359378}

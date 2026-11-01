@@ -86,7 +86,7 @@ items:
   - {name: dispersion relation, kind: definition, wikipedia: Dispersion relation, wikidata: Q590051}
   - {name: group velocity, kind: definition, wikipedia: Group velocity, wikidata: Q217361}
   - {name: phase velocity, kind: definition, wikipedia: Phase velocity, wikidata: Q13824}
-  - {name: Kramers–Kronig relations, kind: statement, wikipedia: Kramers–Kronig relations, wikidata: Q1424764}
+  - {name: Kramers–Kronig relations, kind: statement, wikipedia: Kramers–Kronig relations, wikidata: Q1424764, node: GFS95PZ5YK}
   - {name: Lorentz oscillator model, kind: concept, wikipedia: Lorentz oscillator model, wikidata: Q1870025}
   - {name: Drude model, kind: concept, wikipedia: Drude model, wikidata: Q910043}
   - {name: skin effect, kind: concept, wikipedia: Skin effect, wikidata: Q664150}

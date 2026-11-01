@@ -26,13 +26,13 @@ items:
   - {name: well-posed problem, kind: definition, wikipedia: Well-posed problem, wikidata: Q1455898}
   - {name: Cauchy problem, kind: definition, wikipedia: Cauchy problem, wikidata: Q1412436, node: 075VBY4K4X}
   - {name: boundary value problem, kind: definition, wikipedia: Boundary value problem, wikidata: Q1332643}
-  - {name: Dirichlet problem, kind: problem, wikipedia: Dirichlet problem, wikidata: Q1192869}
+  - {name: Dirichlet problem, kind: problem, wikipedia: Dirichlet problem, wikidata: Q1192869, node: 8D56GQ4AG8}
   - {name: Neumann problem, kind: problem, wikipedia: Neumann boundary condition, wikidata: Q1149279}
   - {name: Robin boundary condition, kind: definition, wikipedia: Robin boundary condition, wikidata: Q748993}
   - {name: free boundary problem, kind: problem, wikipedia: Free boundary problem, wikidata: Q5500196}
   - {name: Stefan problem, kind: problem, wikipedia: Stefan problem, wikidata: Q3775789}
   - {name: obstacle problem, kind: problem, wikipedia: Obstacle problem, wikidata: Q3406250}
-  - {name: overdetermined system, kind: concept, wikipedia: Overdetermined system, wikidata: Q331348}
+  - {name: overdetermined system, kind: concept, wikipedia: Overdetermined system, wikidata: Q331348, node: QJ0P26J9BV}
   # Existence theory
   - {name: Cauchy–Kovalevskaya theorem, kind: statement, wikipedia: Cauchy–Kovalevskaya theorem, wikidata: Q1614464}
   - {name: Holmgren's uniqueness theorem, kind: statement, wikipedia: Holmgren's uniqueness theorem, wikidata: Q5883744}
@@ -74,11 +74,11 @@ items:
   - {name: harmonic function, kind: definition, decl: InnerProductSpace.HarmonicOnNhd, wikipedia: Harmonic function, wikidata: Q599027, node: 0DEB0JMN0W}
   - {name: mean value property, kind: statement, decl: InnerProductSpace.HarmonicOnNhd.circleAverage_eq, wikipedia: Harmonic function, wikidata: Q599027, node: 0HYPR64JM2}
   - {name: Poisson's equation, kind: definition, wikipedia: Poisson's equation, wikidata: Q827688}
-  - {name: Poisson kernel, kind: definition, decl: poissonKernel, wikipedia: Poisson kernel, wikidata: Q2596534}
+  - {name: Poisson kernel, kind: definition, decl: poissonKernel, wikipedia: Poisson kernel, wikidata: Q2596534, node: TCYSWCTYYM}
   - {name: Newtonian potential, kind: definition, wikipedia: Newtonian potential, wikidata: Q4328383}
   - {name: maximum principle, kind: statement, wikipedia: Maximum principle, wikidata: Q1914255}
   - {name: Hopf lemma, kind: statement, wikipedia: Hopf lemma, wikidata: Q17027555}
-  - {name: Harnack's inequality, kind: statement, wikipedia: Harnack's inequality, wikidata: Q868279}
+  - {name: Harnack's inequality, kind: statement, wikipedia: Harnack's inequality, wikidata: Q868279, node: YNH832D50W}
   - {name: Liouville's theorem for harmonic functions, kind: statement, wikipedia: Harmonic function, wikidata: Q599027}
   - {name: Weyl's lemma, kind: statement, wikipedia: Weyl's lemma (Laplace equation), wikidata: Q7990327}
   - {name: Dirichlet's principle, kind: statement, wikipedia: Dirichlet's principle, wikidata: Q975727}
@@ -89,7 +89,7 @@ items:
   - {name: Calderón–Zygmund estimates, kind: statement, wikipedia: Singular integral, wikidata: Q888122}
   - {name: De Giorgi–Nash–Moser theorem, kind: statement, wikipedia: Hilbert's nineteenth problem, wikidata: Q5761157}
   - {name: Krylov–Safonov estimate, kind: statement, wikipedia: Harnack's inequality, wikidata: Q868279}
-  - {name: Fredholm alternative, kind: statement, wikipedia: Fredholm alternative, wikidata: Q657820}
+  - {name: Fredholm alternative, kind: statement, wikipedia: Fredholm alternative, wikidata: Q657820, node: 4HH8C9V8JQ}
   - {name: Helmholtz equation, kind: definition, wikipedia: Helmholtz equation, wikidata: Q860615}
   - {name: biharmonic equation, kind: definition, wikipedia: Biharmonic equation, wikidata: Q859808}
   - {name: p-Laplacian, kind: definition, wikipedia: P-Laplacian, wikidata: Q7116898}
@@ -187,7 +187,7 @@ items:
   - {name: Pompeiu problem, kind: problem, wikipedia: Pompeiu problem, wikidata: Q3406234}
   - {name: Schrödinger operator, kind: definition, wikipedia: Schrödinger equation, wikidata: Q165498}
   - {name: Steklov eigenvalue problem, kind: problem, wikipedia: Poincaré–Steklov operator, wikidata: Q17099589}
-  - {name: Cheeger constant, kind: definition, wikipedia: Cheeger constant, wikidata: Q5089259}
+  - {name: Cheeger constant, kind: definition, wikipedia: Cheeger constant, wikidata: Q5089259, node: Y7S6W12N64}
   # Qualitative behavior and nonlinear analysis
   - {name: a priori estimate, kind: concept, wikipedia: A priori estimate, wikidata: Q4660961}
   - {name: regularity theory, kind: concept, wikipedia: Elliptic operator, wikidata: Q427625}

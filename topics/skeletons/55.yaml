@@ -21,14 +21,14 @@ items:
   - {name: path homotopy, kind: definition, decl: Path.Homotopy, wikipedia: Homotopy, wikidata: Q746083}
   - {name: mapping cylinder, kind: definition, wikipedia: Mapping cylinder, wikidata: Q1014869}
   - {name: mapping cone, kind: definition, wikipedia: Mapping cone (topology), wikidata: Q306560}
-  - {name: suspension, kind: definition, wikipedia: Suspension (topology), wikidata: Q1307987}
+  - {name: suspension, kind: definition, wikipedia: Suspension (topology), wikidata: Q1307987, node: Q7RFNJH76Q}
   - {name: loop space, kind: definition, decl: LoopSpace, wikipedia: Loop space, wikidata: Q2066070}
   - {name: cone, kind: definition, wikipedia: Cone (topology), wikidata: Q1635267}
   - {name: wedge sum, kind: definition, wikipedia: Wedge sum, wikidata: Q1781358}
   - {name: smash product, kind: definition, wikipedia: Smash product, wikidata: Q2295009}
   - {name: join, kind: definition, wikipedia: Join (topology), wikidata: Q3183033}
   - {name: pointed space, kind: definition, wikipedia: Pointed space, wikidata: Q1419329}
-  - {name: compactly generated space, kind: definition, wikipedia: Compactly generated space, wikidata: Q1738274}
+  - {name: compactly generated space, kind: definition, wikipedia: Compactly generated space, wikidata: Q1738274, node: 4M5JXYVQ2X}
   - {name: homotopy category, kind: definition, wikipedia: Homotopy category, wikidata: Q14775269}
   - {name: cofibration, kind: definition, wikipedia: Cofibration, wikidata: Q1048949}
   - {name: homotopy extension property, kind: definition, wikipedia: Homotopy extension property, wikidata: Q9382514}
@@ -80,7 +80,7 @@ items:
   - {name: relative CW complex, kind: definition, decl: Topology.RelCWComplex, wikipedia: CW complex, wikidata: Q189061}
   - {name: cellular approximation theorem, kind: statement, wikipedia: Cellular approximation theorem, wikidata: Q5058350}
   - {name: CW approximation, kind: statement, wikipedia: CW complex, wikidata: Q189061}
-  - {name: simplicial complex, kind: definition, decl: Geometry.SimplicialComplex, wikipedia: Simplicial complex, wikidata: Q994399}
+  - {name: simplicial complex, kind: definition, decl: Geometry.SimplicialComplex, wikipedia: Simplicial complex, wikidata: Q994399, node: V8GZ0W1ZZ5}
   - {name: abstract simplicial complex, kind: definition, wikipedia: Abstract simplicial complex, wikidata: Q4669959}
   - {name: simplicial approximation theorem, kind: statement, wikipedia: Simplicial approximation theorem, wikidata: Q3983972}
   - {name: barycentric subdivision, kind: definition, wikipedia: Barycentric subdivision, wikidata: Q4078260}
@@ -96,7 +96,7 @@ items:
   - {name: Dold–Kan correspondence, kind: statement, wikipedia: Dold–Kan correspondence, wikidata: Q16962174}
   - {name: quasi-category, kind: definition, decl: SSet.Quasicategory, wikipedia: Quasi-category, wikidata: Q7269442}
   - {name: Δ-complex, kind: definition, wikipedia: Delta set, wikidata: Q5254799}
-  - {name: Moore space, kind: definition, wikipedia: Moore space (algebraic topology), wikidata: Q4381562}
+  - {name: Moore space, kind: definition, wikipedia: Moore space (algebraic topology), wikidata: Q4381562, node: 68MA0RM5P6}
   - {name: Eilenberg–MacLane space, kind: definition, wikipedia: Eilenberg–MacLane space, wikidata: Q5349490}
   - {name: Postnikov tower, kind: definition, wikipedia: Postnikov system, wikidata: Q6941533}
   - {name: Whitehead tower, kind: definition, wikipedia: Postnikov system, wikidata: Q6941533}
@@ -124,8 +124,8 @@ items:
   - {name: universal coefficient theorem, kind: statement, wikipedia: Universal coefficient theorem, wikidata: Q2495664}
   - {name: Künneth theorem, kind: statement, wikipedia: Künneth theorem, wikidata: Q1307676}
   - {name: Eilenberg–Zilber theorem, kind: statement, wikipedia: Eilenberg–Zilber theorem, wikidata: Q1349282}
-  - {name: Tor functor, kind: definition, wikipedia: Tor functor, wikidata: Q988381}
-  - {name: Ext functor, kind: definition, decl: CategoryTheory.Abelian.Ext, wikipedia: Ext functor, wikidata: Q1384902}
+  - {name: Tor functor, kind: definition, wikipedia: Tor functor, wikidata: Q988381, node: DDQRERAQCV}
+  - {name: Ext functor, kind: definition, decl: CategoryTheory.Abelian.Ext, wikipedia: Ext functor, wikidata: Q1384902, node: 4P7GBWJ4RR}
   - {name: singular cohomology, kind: definition, wikipedia: Cohomology, wikidata: Q1198376}
   - {name: cup product, kind: definition, wikipedia: Cup product, wikidata: Q3388699}
   - {name: cap product, kind: definition, wikipedia: Cap product, wikidata: Q5034459}
@@ -165,7 +165,7 @@ items:
   - {name: invariance of domain, kind: statement, wikipedia: Invariance of domain, wikidata: Q3527201}
   - {name: Jordan–Brouwer separation theorem, kind: statement, wikipedia: Jordan curve theorem, wikidata: Q260928}
   - {name: no-retraction theorem, kind: statement, wikipedia: Brouwer fixed-point theorem, wikidata: Q1144897}
-  - {name: dimension theory, kind: concept, wikipedia: Lebesgue covering dimension, wikidata: Q164262}
+  - {name: dimension theory, kind: concept, wikipedia: Lebesgue covering dimension, wikidata: Q164262, node: GFVWEATKGE}
   - {name: Tucker's lemma, kind: statement, wikipedia: Tucker's lemma, wikidata: Q7851042}
   - {name: Sperner's lemma, kind: statement, wikipedia: Sperner's lemma, wikidata: Q733336}
   # Fibrations and bundles
