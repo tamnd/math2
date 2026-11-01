@@ -188,7 +188,7 @@ items:
   - {name: unimodular group, kind: definition, wikipedia: Haar measure, wikidata: Q1162676}
   - {name: quasi-invariant measure, kind: definition, wikipedia: Quasi-invariant measure, wikidata: Q7269454}
   - {name: Weil's converse to Haar's theorem, kind: statement, wikipedia: Haar measure, wikidata: Q1162676}
-  - {name: amenable group, kind: definition, wikipedia: Amenable group, wikidata: Q1857002}
+  - {name: amenable group, kind: definition, wikipedia: Amenable group, wikidata: Q1857002, node: CEAT9BESKK}
   - {name: invariant mean, kind: definition, wikipedia: Amenable group, wikidata: Q1857002}
   # Geometric measure theory and fractal measures
   - {name: Hausdorff measure, kind: definition, decl: MeasureTheory.Measure.hausdorffMeasure, wikipedia: Hausdorff measure, wikidata: Q1591095, mathlib: [mathlib-overview]}

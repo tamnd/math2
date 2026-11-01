@@ -63,9 +63,9 @@ items:
   - {name: transfer operator, kind: definition, wikipedia: Transfer operator, wikidata: Q3354606}
   - {name: Halmos–von Neumann theorem, kind: statement, wikipedia: Measure-preserving dynamical system, wikidata: Q1003225}
   - {name: Furstenberg's multiple recurrence theorem, kind: statement, wikipedia: Szemerédi's theorem, wikidata: Q1046232}
-  - {name: Szemerédi's theorem, kind: statement, wikipedia: Szemerédi's theorem, wikidata: Q1046232}
-  - {name: Green–Tao theorem, kind: statement, wikipedia: Green–Tao theorem, wikidata: Q922012}
-  - {name: van der Waerden's theorem, kind: statement, decl: Combinatorics.exists_mono_homothetic_copy, wikipedia: Van der Waerden's theorem, wikidata: Q764287, mathlib: [mathlib-overview, mathlib-1000]}
+  - {name: Szemerédi's theorem, kind: statement, wikipedia: Szemerédi's theorem, wikidata: Q1046232, node: B23B0QEMN5}
+  - {name: Green–Tao theorem, kind: statement, wikipedia: Green–Tao theorem, wikidata: Q922012, node: H8BAHWSEMC}
+  - {name: van der Waerden's theorem, kind: statement, decl: Combinatorics.exists_mono_homothetic_copy, wikipedia: Van der Waerden's theorem, wikidata: Q764287, mathlib: [mathlib-overview, mathlib-1000], node: V96FRZ2ME1}
   - {name: Rokhlin lemma, kind: statement, wikipedia: Rokhlin lemma, wikidata: Q21069246}
   - {name: amenable group action, kind: concept, wikipedia: Amenable group, wikidata: Q1857002}
   - {name: Ratner's theorems, kind: statement, wikipedia: Ratner's theorems, wikidata: Q7295875}
@@ -104,11 +104,11 @@ items:
   - {name: Curtis–Hedlund–Lyndon theorem, kind: statement, wikipedia: Curtis–Hedlund–Lyndon theorem, wikidata: Q5195996}
   - {name: cellular automaton, kind: concept, wikipedia: Cellular automaton, wikidata: Q189156}
   - {name: Garden of Eden theorem, kind: statement, wikipedia: Garden of Eden (cellular automaton), wikidata: Q1974793}
-  - {name: Thue–Morse sequence, kind: example, wikipedia: Thue–Morse sequence, wikidata: Q1477120}
+  - {name: Thue–Morse sequence, kind: example, wikipedia: Thue–Morse sequence, wikidata: Q1477120, node: 7JZVT385PC}
   - {name: Sturmian word, kind: example, wikipedia: Sturmian word, wikidata: Q3325046}
   - {name: substitution tiling, kind: concept, wikipedia: Substitution tiling, wikidata: Q7632143}
   - {name: Wang tile, kind: example, wikipedia: Wang tile, wikidata: Q474147}
-  - {name: Perron–Frobenius theorem, kind: statement, wikipedia: Perron–Frobenius theorem, wikidata: Q1564541}
+  - {name: Perron–Frobenius theorem, kind: statement, wikipedia: Perron–Frobenius theorem, wikidata: Q1564541, node: 62NS7PV1M9}
   - {name: Parry measure, kind: definition, wikipedia: Subshift of finite type, wikidata: Q7631990}
   # Smooth and hyperbolic dynamics
   - {name: smooth dynamical system, kind: concept, wikipedia: Dynamical system, wikidata: Q638328}
@@ -156,7 +156,7 @@ items:
   - {name: Feigenbaum constants, kind: object, wikipedia: Feigenbaum constants, wikidata: Q673184}
   - {name: period-doubling bifurcation, kind: concept, wikipedia: Period-doubling bifurcation, wikidata: Q2181373}
   - {name: Milnor–Thurston kneading theory, kind: statement, wikipedia: Milnor–Thurston kneading theory, wikidata: Q17103861}
-  - {name: Schwarzian derivative, kind: definition, wikipedia: Schwarzian derivative, wikidata: Q864589}
+  - {name: Schwarzian derivative, kind: definition, wikipedia: Schwarzian derivative, wikidata: Q864589, node: 6ZPKWE0VAZ}
   - {name: Singer's theorem, kind: statement, wikipedia: Schwarzian derivative, wikidata: Q864589}
   - {name: Jakobson's theorem, kind: statement, wikipedia: Logistic map, wikidata: Q587182}
   - {name: Nielsen–Thurston classification, kind: statement, wikipedia: Nielsen–Thurston classification, wikidata: Q7031628}
@@ -219,7 +219,7 @@ items:
   - {name: synchronization of chaos, kind: concept, wikipedia: Synchronization of chaos, wikidata: Q7662148}
   - {name: Kuramoto model, kind: example, wikipedia: Kuramoto model, wikidata: Q604374}
   - {name: coupled map lattice, kind: concept, wikipedia: Coupled map lattice, wikidata: Q5178018}
-  - {name: Collatz conjecture, kind: conjecture, wikipedia: Collatz conjecture, wikidata: Q837314}
+  - {name: Collatz conjecture, kind: conjecture, wikipedia: Collatz conjecture, wikidata: Q837314, node: 6PCQEXEX4N}
   # Arithmetic dynamics
   - {name: arithmetic dynamics, kind: concept, wikipedia: Arithmetic dynamics, wikidata: Q4791123}
   - {name: canonical height, kind: definition, wikipedia: Néron–Tate height, wikidata: Q7071452}

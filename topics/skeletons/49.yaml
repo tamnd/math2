@@ -51,7 +51,7 @@ items:
   - {name: Weierstrass–Erdmann corner conditions, kind: statement, wikipedia: Weierstrass–Erdmann condition, wikidata: Q7979831}
   - {name: field of extremals, kind: concept, wikipedia: Calculus of variations, wikidata: Q216861}
   - {name: Hilbert's invariant integral, kind: concept, wikipedia: Calculus of variations, wikidata: Q216861}
-  - {name: Legendre transformation, kind: definition, wikipedia: Legendre transformation, wikidata: Q908652}
+  - {name: Legendre transformation, kind: definition, wikipedia: Legendre transformation, wikidata: Q908652, node: ZQYMWVT1TT}
   - {name: Hamilton's canonical equations, kind: definition, wikipedia: Hamiltonian mechanics, wikidata: Q477921}
   - {name: Noether's theorem, kind: statement, wikipedia: Noether's theorem, wikidata: Q578555}
   - {name: Noether's second theorem, kind: statement, wikipedia: Noether's second theorem, wikidata: Q10369454}
@@ -125,7 +125,7 @@ items:
   - {name: Fuller's phenomenon, kind: example, wikipedia: Bang–bang control, wikidata: Q1432859}
   - {name: linear-quadratic regulator, kind: problem, wikipedia: Linear–quadratic regulator, wikidata: Q2520550}
   - {name: Riccati differential equation of optimal control, kind: definition, wikipedia: Riccati equation, wikidata: Q851503}
-  - {name: algebraic Riccati equation, kind: definition, wikipedia: Algebraic Riccati equation, wikidata: Q4723989}
+  - {name: algebraic Riccati equation, kind: definition, wikipedia: Algebraic Riccati equation, wikidata: Q4723989, node: GGZV75ZZMV}
   - {name: linear-quadratic-Gaussian control, kind: problem, wikipedia: Linear–quadratic–Gaussian control, wikidata: Q1798304}
   - {name: separation principle, kind: statement, wikipedia: Separation principle, wikidata: Q2271572}
   - {name: time-optimal control, kind: problem, wikipedia: Bang–bang control, wikidata: Q1432859}

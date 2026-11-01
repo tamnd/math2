@@ -7,7 +7,7 @@ sources:
   wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
 items:
   # Basic notions and error analysis
-  - {name: condition number, kind: definition, wikipedia: Condition number, wikidata: Q1147936}
+  - {name: condition number, kind: definition, wikipedia: Condition number, wikidata: Q1147936, node: AB3S6MHJ8X}
   - {name: numerical analysis, kind: concept, wikipedia: Numerical analysis, wikidata: Q11216}
   - {name: floating-point arithmetic, kind: definition, wikipedia: Floating-point arithmetic, wikidata: Q117879}
   - {name: IEEE 754 standard, kind: definition, wikipedia: IEEE 754, wikidata: Q828287}
@@ -121,7 +121,7 @@ items:
   - {name: L-curve, kind: concept, wikipedia: L-curve, wikidata: Q136463112}
   - {name: Landweber iteration, kind: statement, wikipedia: Landweber iteration, wikidata: Q6485285}
   # Interpolation, splines and geometric modeling
-  - {name: polynomial interpolation, kind: concept, wikipedia: Polynomial interpolation, wikidata: Q637347}
+  - {name: polynomial interpolation, kind: concept, wikipedia: Polynomial interpolation, wikidata: Q637347, node: SS1YMS2NPC}
   - {name: Lagrange interpolation polynomial, kind: definition, wikipedia: Lagrange polynomial, wikidata: Q861606}
   - {name: Runge's phenomenon, kind: example, wikipedia: Runge's phenomenon, wikidata: Q1990319}
   - {name: Chebyshev nodes, kind: definition, wikipedia: Chebyshev nodes, wikidata: Q1052508}

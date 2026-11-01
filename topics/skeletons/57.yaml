@@ -45,7 +45,7 @@ items:
   - {name: n-skeleton, kind: definition, wikipedia: N-skeleton, wikidata: Q5154570}
   - {name: cellular approximation theorem, kind: statement, wikipedia: Cellular approximation theorem, wikidata: Q5058350}
   # Simplicial complexes and piecewise-linear topology
-  - {name: simplicial complex, kind: definition, decl: Geometry.SimplicialComplex, wikipedia: Simplicial complex, wikidata: Q994399}
+  - {name: simplicial complex, kind: definition, decl: Geometry.SimplicialComplex, wikipedia: Simplicial complex, wikidata: Q994399, node: V8GZ0W1ZZ5}
   - {name: abstract simplicial complex, kind: definition, decl: AbstractSimplicialComplex, wikipedia: Abstract simplicial complex, wikidata: Q4669959}
   - {name: barycentric subdivision, kind: definition, wikipedia: Barycentric subdivision, wikidata: Q4078260}
   - {name: simplicial approximation theorem, kind: statement, wikipedia: Simplicial approximation theorem, wikidata: Q3983972}
@@ -68,7 +68,7 @@ items:
   - {name: submersion, kind: definition, decl: Manifold.IsSubmersion, wikipedia: Submersion (mathematics), wikidata: Q1420023}
   - {name: submanifold, kind: definition, wikipedia: Submanifold, wikidata: Q125539}
   - {name: regular value theorem, kind: statement, wikipedia: Submersion (mathematics), wikidata: Q1420023}
-  - {name: Sard's theorem, kind: statement, wikipedia: Sard's theorem, wikidata: Q583147}
+  - {name: Sard's theorem, kind: statement, wikipedia: Sard's theorem, wikidata: Q583147, node: Z7R8J71SJN}
   - {name: Whitney embedding theorem, kind: statement, decl: exists_embedding_euclidean_of_compact, wikipedia: Whitney embedding theorem, wikidata: Q1306095, mathlib: [mathlib-1000]}
   - {name: Whitney immersion theorem, kind: statement, decl: SmoothBumpCovering.exists_immersion_euclidean, wikipedia: Whitney immersion theorem, wikidata: Q7996769}
   - {name: transversality, kind: definition, wikipedia: Transversality, wikidata: Q7835414}
@@ -128,10 +128,10 @@ items:
   - {name: Klein bottle, kind: example, wikipedia: Klein bottle, wikidata: Q23638}
   - {name: real projective plane, kind: example, wikipedia: Real projective plane, wikidata: Q633815}
   - {name: Boy's surface, kind: example, wikipedia: Boy's surface, wikidata: Q896057}
-  - {name: mapping class group, kind: definition, wikipedia: Mapping class group, wikidata: Q3845212}
+  - {name: mapping class group, kind: definition, wikipedia: Mapping class group, wikidata: Q3845212, node: JV5NYG913V}
   - {name: Dehn twist, kind: definition, wikipedia: Dehn twist, wikidata: Q5252320}
   - {name: Dehn–Lickorish theorem, kind: statement, wikipedia: Dehn twist, wikidata: Q5252320}
-  - {name: Teichmüller space, kind: definition, wikipedia: Teichmüller space, wikidata: Q2400539}
+  - {name: Teichmüller space, kind: definition, wikipedia: Teichmüller space, wikidata: Q2400539, node: ZZGC6BZNJ5}
   - {name: Nielsen–Thurston classification, kind: statement, wikipedia: Nielsen–Thurston classification, wikidata: Q7031628}
   - {name: pseudo-Anosov map, kind: definition, wikipedia: Pseudo-Anosov map, wikidata: Q7254395}
   - {name: curve complex, kind: definition, wikipedia: Curve complex, wikidata: Q28455227}
@@ -223,12 +223,12 @@ items:
   - {name: Milnor conjecture on slice genus of torus knots, kind: statement, wikipedia: Torus knot, wikidata: Q1892897}
   - {name: slice-ribbon conjecture, kind: conjecture, wikipedia: Slice knot, wikidata: Q7540228}
   - {name: unknotting problem, kind: problem, wikipedia: Unknotting problem, wikidata: Q7896950}
-  - {name: braid group, kind: definition, wikipedia: Braid group, wikidata: Q220409}
+  - {name: braid group, kind: definition, wikipedia: Braid group, wikidata: Q220409, node: BNR4H5GCTP}
   - {name: Alexander's theorem on closed braids, kind: statement, wikipedia: Braid group, wikidata: Q220409}
   - {name: Markov theorem, kind: statement, wikipedia: Markov theorem, wikidata: Q48971805}
   # Covering spaces and transformation groups
   - {name: covering space, kind: definition, decl: IsCoveringMap, wikipedia: Covering space, wikidata: Q332648}
-  - {name: branched covering, kind: definition, wikipedia: Branched covering, wikidata: Q4956410}
+  - {name: branched covering, kind: definition, wikipedia: Branched covering, wikidata: Q4956410, node: YARENZRXTD}
   - {name: properly discontinuous action, kind: definition, decl: ProperlyDiscontinuousSMul, wikipedia: Group action, wikidata: Q288465}
   - {name: orbifold, kind: definition, wikipedia: Orbifold, wikidata: Q40460}
   - {name: slice theorem, kind: statement, wikipedia: Slice theorem (differential geometry), wikidata: Q17093903}

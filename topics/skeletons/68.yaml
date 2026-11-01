@@ -242,8 +242,8 @@ items:
   - {name: Ford–Fulkerson algorithm, kind: definition, wikipedia: Ford–Fulkerson algorithm, wikidata: Q284695}
   - {name: Hopcroft–Karp algorithm, kind: definition, wikipedia: Hopcroft–Karp algorithm, wikidata: Q1516988}
   - {name: Karatsuba algorithm, kind: definition, wikipedia: Karatsuba algorithm, wikidata: Q629940}
-  - {name: Strassen algorithm, kind: definition, wikipedia: Strassen algorithm, wikidata: Q728507}
-  - {name: matrix multiplication exponent, kind: problem, wikipedia: Matrix multiplication algorithm, wikidata: Q17082383}
+  - {name: Strassen algorithm, kind: definition, wikipedia: Strassen algorithm, wikidata: Q728507, node: 3CVWXDS4JQ}
+  - {name: matrix multiplication exponent, kind: problem, wikipedia: Matrix multiplication algorithm, wikidata: Q17082383, node: X0G02CGQ5J}
   - {name: fast Fourier transform, kind: definition, wikipedia: Fast Fourier transform, wikidata: Q623950}
   - {name: string-searching algorithm, kind: concept, wikipedia: String-searching algorithm, wikidata: Q374040}
   - {name: Knuth–Morris–Pratt algorithm, kind: definition, wikipedia: Knuth–Morris–Pratt algorithm, wikidata: Q45285}

@@ -14,10 +14,10 @@ items:
   - {name: complex number, kind: definition, decl: Complex, wikipedia: Complex number, wikidata: Q11567, mathlib: [mathlib-overview]}
   - {name: complex plane, kind: concept, wikipedia: Complex plane, wikidata: Q328998, node: 0CTE7A31XQ}
   - {name: Riemann sphere, kind: object, wikipedia: Riemann sphere, wikidata: Q825857, node: 0J78KBPFZB}
-  - {name: stereographic projection, kind: definition, wikipedia: Stereographic projection, wikidata: Q866099}
+  - {name: stereographic projection, kind: definition, wikipedia: Stereographic projection, wikidata: Q866099, node: AXDKKVD18N}
   - {name: holomorphic function, kind: definition, decl: DifferentiableOn, wikipedia: Holomorphic function, wikidata: Q207476, mathlib: [mathlib-undergrad], node: 0NAHXR1FRH}
   - {name: Cauchy–Riemann equations, kind: statement, wikipedia: Cauchy–Riemann equations, wikidata: Q622741, node: 0T71SSYZ39}
-  - {name: Wirtinger derivatives, kind: definition, wikipedia: Wirtinger derivatives, wikidata: Q8027031}
+  - {name: Wirtinger derivatives, kind: definition, wikipedia: Wirtinger derivatives, wikidata: Q8027031, node: WMXDVF36ZT}
   - {name: analytic function, kind: definition, decl: AnalyticOnNhd, wikipedia: Analytic function, wikidata: Q215084, node: 081WKEDK6C}
   - {name: entire function, kind: definition, decl: Differentiable, wikipedia: Entire function, wikidata: Q847600, mathlib: [mathlib-undergrad], node: 0G4F0XB9X2}
   - {name: meromorphic function, kind: definition, decl: MeromorphicOn, wikipedia: Meromorphic function, wikidata: Q217616, node: 0ZZ7ZYDR8W}
@@ -25,12 +25,12 @@ items:
   - {name: complex exponential, kind: definition, decl: Complex.exp, wikipedia: Exponential function, wikidata: Q168698, mathlib: [mathlib-undergrad], node: 07GJV36896}
   - {name: complex logarithm, kind: definition, decl: Complex.log, wikipedia: Complex logarithm, wikidata: Q2520206, node: 02QGGD5G87}
   - {name: argument of a complex number, kind: definition, decl: Complex.arg, wikipedia: Argument (complex analysis), wikidata: Q1780131, node: 070PFSYJJR}
-  - {name: branch point, kind: definition, wikipedia: Branch point, wikidata: Q2625091}
+  - {name: branch point, kind: definition, wikipedia: Branch point, wikidata: Q2625091, node: XP5JC1VXKZ}
   - {name: principal branch, kind: definition, wikipedia: Principal value, wikidata: Q6126499, node: 017BPGVEE8}
   - {name: complex power, kind: definition, decl: Complex.cpow, wikipedia: Exponentiation, wikidata: Q33456, node: 0RNGDMHT7M}
   - {name: Möbius transformation, kind: definition, wikipedia: Möbius transformation, wikidata: Q595742, node: 0SG74WBFA2}
   - {name: cross-ratio, kind: definition, wikipedia: Cross-ratio, wikidata: Q899539, node: 09ASMRMD67}
-  - {name: Joukowsky transform, kind: example, wikipedia: Joukowsky transform, wikidata: Q1794703}
+  - {name: Joukowsky transform, kind: example, wikipedia: Joukowsky transform, wikidata: Q1794703, node: 3DJ46V21KH}
   # Complex integration
   - {name: contour integration, kind: definition, wikipedia: Contour integration, wikidata: Q856103, node: 06ZGPYTWK8}
   - {name: circle integral, kind: definition, decl: circleIntegral, wikipedia: Contour integration, wikidata: Q856103, node: 0AP750DHVP}
@@ -47,25 +47,25 @@ items:
   - {name: maximum modulus principle, kind: statement, decl: Complex.norm_le_of_forall_mem_frontier_norm_le, wikipedia: Maximum modulus principle, wikidata: Q1050230, node: 048F2P90WR}
   - {name: open mapping theorem, kind: statement, decl: AnalyticOnNhd.is_constant_or_isOpen, wikipedia: Open mapping theorem (complex analysis), wikidata: Q967972, mathlib: [mathlib-1000], node: 03YEM7JEDN}
   - {name: Schwarz lemma, kind: statement, decl: Complex.dist_le_div_mul_dist_of_mapsTo_ball, wikipedia: Schwarz lemma, wikidata: Q1341771, node: 0MB48XDBY3}
-  - {name: Schwarz–Pick theorem, kind: statement, wikipedia: Schwarz lemma, wikidata: Q1341771}
-  - {name: Cauchy–Pompeiu formula, kind: statement, wikipedia: Cauchy's integral formula, wikidata: Q913764}
+  - {name: Schwarz–Pick theorem, kind: statement, wikipedia: Schwarz lemma, wikidata: Q1341771, node: V1QYA9RW73}
+  - {name: Cauchy–Pompeiu formula, kind: statement, wikipedia: Cauchy's integral formula, wikidata: Q913764, node: 345DJTSPHM}
   - {name: Weierstrass convergence theorem, kind: statement, decl: TendstoLocallyUniformlyOn.differentiableOn, wikipedia: Holomorphic function, wikidata: Q207476, mathlib: [mathlib-undergrad], node: 0431RN0R1N}
   - {name: Hurwitz's theorem, kind: statement, wikipedia: Hurwitz's theorem (complex analysis), wikidata: Q1136043, node: 0SSKBQN58M}
-  - {name: Montel's theorem, kind: statement, wikipedia: Montel's theorem, wikidata: Q535366}
-  - {name: normal family, kind: definition, wikipedia: Normal family, wikidata: Q1049280}
+  - {name: Montel's theorem, kind: statement, wikipedia: Montel's theorem, wikidata: Q535366, node: ZVFVBVJMCB}
+  - {name: normal family, kind: definition, wikipedia: Normal family, wikidata: Q1049280, node: JTVWRXXAKM}
   - {name: Vitali convergence theorem, kind: statement, wikipedia: Vitali convergence theorem, wikidata: Q11352023}
-  - {name: Osgood's lemma, kind: statement, wikipedia: Osgood's lemma, wikidata: Q7106530}
-  - {name: Schwarz reflection principle, kind: statement, wikipedia: Schwarz reflection principle, wikidata: Q4378892}
-  - {name: analytic capacity, kind: definition, wikipedia: Analytic capacity, wikidata: Q4751124}
-  - {name: Hadamard three-circle theorem, kind: statement, wikipedia: Hadamard three-circle theorem, wikidata: Q729359}
-  - {name: Hadamard three-lines theorem, kind: statement, decl: Complex.HadamardThreeLines.norm_le_interpStrip_of_mem_verticalClosedStrip, wikipedia: Hadamard three-lines theorem, wikidata: Q3527250, mathlib: [mathlib-1000]}
-  - {name: Phragmén–Lindelöf principle, kind: statement, decl: PhragmenLindelof.horizontal_strip, wikipedia: Phragmén–Lindelöf principle, wikidata: Q4378868, mathlib: [mathlib-overview, mathlib-1000]}
-  - {name: Borel–Carathéodory theorem, kind: statement, decl: Complex.borelCaratheodory, wikipedia: Borel–Carathéodory theorem, wikidata: Q3229335, mathlib: [mathlib-1000]}
-  - {name: Lindelöf's theorem, kind: statement, wikipedia: Lindelöf's theorem, wikidata: Q4454973}
-  - {name: Harnack's principle, kind: statement, wikipedia: Harnack's principle, wikidata: Q1135706}
+  - {name: Osgood's lemma, kind: statement, wikipedia: Osgood's lemma, wikidata: Q7106530, node: NBFNXA2WFM}
+  - {name: Schwarz reflection principle, kind: statement, wikipedia: Schwarz reflection principle, wikidata: Q4378892, node: P0R6YEGNB5}
+  - {name: analytic capacity, kind: definition, wikipedia: Analytic capacity, wikidata: Q4751124, node: QGQPHRANWZ}
+  - {name: Hadamard three-circle theorem, kind: statement, wikipedia: Hadamard three-circle theorem, wikidata: Q729359, node: V00Q05ZW1G}
+  - {name: Hadamard three-lines theorem, kind: statement, decl: Complex.HadamardThreeLines.norm_le_interpStrip_of_mem_verticalClosedStrip, wikipedia: Hadamard three-lines theorem, wikidata: Q3527250, mathlib: [mathlib-1000], node: WHS58R43N0}
+  - {name: Phragmén–Lindelöf principle, kind: statement, decl: PhragmenLindelof.horizontal_strip, wikipedia: Phragmén–Lindelöf principle, wikidata: Q4378868, mathlib: [mathlib-overview, mathlib-1000], node: FYR6V2NH6C}
+  - {name: Borel–Carathéodory theorem, kind: statement, decl: Complex.borelCaratheodory, wikipedia: Borel–Carathéodory theorem, wikidata: Q3229335, mathlib: [mathlib-1000], node: F8XD8CDB0H}
+  - {name: Lindelöf's theorem, kind: statement, wikipedia: Lindelöf's theorem, wikidata: Q4454973, node: XBM7J5R1VQ}
+  - {name: Harnack's principle, kind: statement, wikipedia: Harnack's principle, wikidata: Q1135706, node: P15K8RKHDV}
   # Singularities and residues
-  - {name: zeros and poles, kind: definition, wikipedia: Zeros and poles, wikidata: Q899731}
-  - {name: order of a zero or pole, kind: definition, decl: meromorphicOrderAt, wikipedia: Zeros and poles, wikidata: Q899731}
+  - {name: zeros and poles, kind: definition, wikipedia: Zeros and poles, wikidata: Q899731, node: 1TE3QF8EYC}
+  - {name: order of a zero or pole, kind: definition, decl: meromorphicOrderAt, wikipedia: Zeros and poles, wikidata: Q899731, node: 23ASRP0MWR}
   - {name: isolated singularity, kind: definition, wikipedia: Isolated singularity, wikidata: Q2297037, node: 05Z3FC0154}
   - {name: removable singularity, kind: definition, wikipedia: Removable singularity, wikidata: Q1974087, node: 09R8GC85RB}
   - {name: Riemann's theorem on removable singularities, kind: statement, decl: Complex.differentiableOn_update_limUnder_of_bddAbove, wikipedia: Removable singularity, wikidata: Q1974087, node: 0BSQDZWF34}
@@ -75,166 +75,166 @@ items:
   - {name: annulus, kind: definition, wikipedia: Annulus (mathematics), wikidata: Q45926, node: 0CW52NV5TC}
   - {name: residue, kind: definition, wikipedia: Residue (complex analysis), wikidata: Q753375, node: 0PHN07KVQT}
   - {name: residue theorem, kind: statement, wikipedia: Residue theorem, wikidata: Q830513, node: 032HKYS329}
-  - {name: methods of contour integration, kind: concept, wikipedia: Contour integration, wikidata: Q856103}
+  - {name: methods of contour integration, kind: concept, wikipedia: Contour integration, wikidata: Q856103, node: 06ZGPYTWK8}
   - {name: Jordan's lemma, kind: statement, wikipedia: Jordan's lemma, wikidata: Q1816932, node: 0PNPG2PP9H}
   - {name: estimation lemma, kind: statement, wikipedia: Estimation lemma, wikidata: Q3229331, node: 0DJMGPN8K9}
   - {name: argument principle, kind: statement, wikipedia: Argument principle, wikidata: Q1370201, node: 0PN2BXRS8G}
   - {name: Rouché's theorem, kind: statement, wikipedia: Rouché's theorem, wikidata: Q1191862, node: 0D430QR02W}
-  - {name: Lagrange inversion theorem, kind: statement, wikipedia: Lagrange inversion theorem, wikidata: Q544292}
+  - {name: Lagrange inversion theorem, kind: statement, wikipedia: Lagrange inversion theorem, wikidata: Q544292, node: BANY9YR82A}
   - {name: Cauchy principal value, kind: definition, wikipedia: Cauchy principal value, wikidata: Q769374, node: 0SYR10HD4R}
-  - {name: Sokhotski–Plemelj theorem, kind: statement, wikipedia: Sokhotski–Plemelj theorem, wikidata: Q1543149}
-  - {name: Kramers–Kronig relations, kind: statement, wikipedia: Kramers–Kronig relations, wikidata: Q1424764}
+  - {name: Sokhotski–Plemelj theorem, kind: statement, wikipedia: Sokhotski–Plemelj theorem, wikidata: Q1543149, node: RNB6QX0GCA}
+  - {name: Kramers–Kronig relations, kind: statement, wikipedia: Kramers–Kronig relations, wikidata: Q1424764, node: GFS95PZ5YK}
   # Series expansions
   - {name: power series, kind: definition, decl: HasFPowerSeriesOnBall, wikipedia: Power series, wikidata: Q206925}
   - {name: radius of convergence, kind: definition, decl: FormalMultilinearSeries.radius, wikipedia: Radius of convergence, wikidata: Q1428097, mathlib: [mathlib-undergrad]}
   - {name: Cauchy–Hadamard theorem, kind: statement, wikipedia: Cauchy–Hadamard theorem, wikidata: Q859122, node: 07E5MB1CA2}
-  - {name: Taylor expansion of a holomorphic function, kind: statement, decl: Complex.hasSum_taylorSeries_on_ball, wikipedia: Taylor series, wikidata: Q131187}
+  - {name: Taylor expansion of a holomorphic function, kind: statement, decl: Complex.hasSum_taylorSeries_on_ball, wikipedia: Taylor series, wikidata: Q131187, node: 0826SGV3R0}
   - {name: analytic continuation, kind: concept, wikipedia: Analytic continuation, wikidata: Q485287, node: 0M3YQJ81NB}
-  - {name: natural boundary, kind: definition, wikipedia: Analytic continuation, wikidata: Q485287}
-  - {name: Hadamard gap theorem, kind: statement, wikipedia: Lacunary function, wikidata: Q1986013}
-  - {name: Fabry gap theorem, kind: statement, wikipedia: Fabry gap theorem, wikidata: Q17011576}
-  - {name: monodromy theorem, kind: statement, wikipedia: Monodromy theorem, wikidata: Q4455046}
-  - {name: Dirichlet series, kind: definition, wikipedia: Dirichlet series, wikidata: Q620595}
-  - {name: Puiseux series, kind: definition, wikipedia: Puiseux series, wikidata: Q401319}
+  - {name: natural boundary, kind: definition, wikipedia: Analytic continuation, wikidata: Q485287, node: PQFEA12AHA}
+  - {name: Hadamard gap theorem, kind: statement, wikipedia: Lacunary function, wikidata: Q1986013, node: DA8M8VZZHC}
+  - {name: Fabry gap theorem, kind: statement, wikipedia: Fabry gap theorem, wikidata: Q17011576, node: GE0HX2KMMZ}
+  - {name: monodromy theorem, kind: statement, wikipedia: Monodromy theorem, wikidata: Q4455046, node: 54QMKJF64A}
+  - {name: Dirichlet series, kind: definition, wikipedia: Dirichlet series, wikidata: Q620595, node: 8MWTEF6462}
+  - {name: Puiseux series, kind: definition, wikipedia: Puiseux series, wikidata: Q401319, node: SENTYNSKSF}
   - {name: continued fraction, kind: concept, wikipedia: Continued fraction, wikidata: Q4115724, node: 04P2RJ4WPS}
-  - {name: Padé approximant, kind: definition, wikipedia: Padé approximant, wikidata: Q2452504}
-  - {name: Borel summation, kind: concept, wikipedia: Borel summation, wikidata: Q2329388}
-  - {name: Mittag-Leffler star, kind: definition, wikipedia: Mittag-Leffler star, wikidata: Q4189397}
-  - {name: Faber polynomials, kind: definition, wikipedia: Faber polynomials, wikidata: Q4298932}
+  - {name: Padé approximant, kind: definition, wikipedia: Padé approximant, wikidata: Q2452504, node: 1F16G4V64X}
+  - {name: Borel summation, kind: concept, wikipedia: Borel summation, wikidata: Q2329388, node: 8DJPSYSHGJ}
+  - {name: Mittag-Leffler star, kind: definition, wikipedia: Mittag-Leffler star, wikidata: Q4189397, node: C21ECQ1H84}
+  - {name: Faber polynomials, kind: definition, wikipedia: Faber polynomials, wikidata: Q4298932, node: PVTA9RQKWM}
   # Entire and meromorphic functions
-  - {name: Weierstrass factorization theorem, kind: statement, wikipedia: Weierstrass factorization theorem, wikidata: Q1330788}
-  - {name: Hadamard factorization theorem, kind: statement, wikipedia: Hadamard factorization theorem, wikidata: Q117481504}
-  - {name: Mittag-Leffler's theorem, kind: statement, wikipedia: Mittag-Leffler's theorem, wikidata: Q1315949}
-  - {name: Weierstrass product, kind: definition, wikipedia: Weierstrass factorization theorem, wikidata: Q1330788}
-  - {name: order of an entire function, kind: definition, wikipedia: Entire function, wikidata: Q847600}
-  - {name: Jensen's formula, kind: statement, decl: MeromorphicOn.circleAverage_log_norm, wikipedia: Jensen's formula, wikidata: Q1048466}
-  - {name: Picard's little theorem, kind: statement, wikipedia: Picard theorem, wikidata: Q1668861}
+  - {name: Weierstrass factorization theorem, kind: statement, wikipedia: Weierstrass factorization theorem, wikidata: Q1330788, node: 11VC51YHQJ}
+  - {name: Hadamard factorization theorem, kind: statement, wikipedia: Hadamard factorization theorem, wikidata: Q117481504, node: KYSR7NHNFQ}
+  - {name: Mittag-Leffler's theorem, kind: statement, wikipedia: Mittag-Leffler's theorem, wikidata: Q1315949, node: X4R2GY1F6J}
+  - {name: Weierstrass product, kind: definition, wikipedia: Weierstrass factorization theorem, wikidata: Q1330788, node: ACSF58HYDH}
+  - {name: order of an entire function, kind: definition, wikipedia: Entire function, wikidata: Q847600, node: SHF8Z7GMFX}
+  - {name: Jensen's formula, kind: statement, decl: MeromorphicOn.circleAverage_log_norm, wikipedia: Jensen's formula, wikidata: Q1048466, node: 497K99BQ4Y}
+  - {name: Picard's little theorem, kind: statement, wikipedia: Picard theorem, wikidata: Q1668861, node: R2PHM118NG}
   - {name: Picard's great theorem, kind: statement, wikipedia: Picard theorem, wikidata: Q1668861, node: 08QA8QTM71}
-  - {name: Nevanlinna theory, kind: concept, decl: ValueDistribution.characteristic, wikipedia: Nevanlinna theory, wikidata: Q1281926}
-  - {name: Nevanlinna characteristic, kind: definition, decl: ValueDistribution.characteristic, wikipedia: Nevanlinna theory, wikidata: Q1281926}
-  - {name: first main theorem of Nevanlinna theory, kind: statement, wikipedia: Nevanlinna theory, wikidata: Q1281926}
-  - {name: second main theorem of Nevanlinna theory, kind: statement, wikipedia: Nevanlinna theory, wikidata: Q1281926}
-  - {name: Ahlfors theory, kind: concept, wikipedia: Ahlfors theory, wikidata: Q4695186}
-  - {name: Wiman–Valiron theory, kind: concept, wikipedia: Wiman–Valiron theory, wikidata: Q55648775}
-  - {name: exponential type, kind: definition, wikipedia: Exponential type, wikidata: Q5421531}
-  - {name: Paley–Wiener theorem, kind: statement, wikipedia: Paley–Wiener theorem, wikidata: Q1119094}
-  - {name: Carlson's theorem, kind: statement, wikipedia: Carlson's theorem, wikidata: Q5042898}
-  - {name: Denjoy–Carleman–Ahlfors theorem, kind: statement, wikipedia: Denjoy–Carleman–Ahlfors theorem, wikidata: Q17097849}
-  - {name: Pólya's theorem on integer-valued entire functions, kind: statement, wikipedia: Integer-valued polynomial, wikidata: Q568988}
-  - {name: Laguerre–Pólya class, kind: definition, wikipedia: Laguerre–Pólya class, wikidata: Q6472739}
-  - {name: Bloch's theorem, kind: statement, wikipedia: Bloch's theorem (complex analysis), wikidata: Q266291}
-  - {name: Landau's constants, kind: definition, wikipedia: Bloch's theorem (complex analysis), wikidata: Q266291}
+  - {name: Nevanlinna theory, kind: concept, decl: ValueDistribution.characteristic, wikipedia: Nevanlinna theory, wikidata: Q1281926, node: 1EHH63VNAD}
+  - {name: Nevanlinna characteristic, kind: definition, decl: ValueDistribution.characteristic, wikipedia: Nevanlinna theory, wikidata: Q1281926, node: YT6Z0GWS0W}
+  - {name: first main theorem of Nevanlinna theory, kind: statement, wikipedia: Nevanlinna theory, wikidata: Q1281926, node: QJWCFAK4AK}
+  - {name: second main theorem of Nevanlinna theory, kind: statement, wikipedia: Nevanlinna theory, wikidata: Q1281926, node: GWYE6745JK}
+  - {name: Ahlfors theory, kind: concept, wikipedia: Ahlfors theory, wikidata: Q4695186, node: M8611CV76A}
+  - {name: Wiman–Valiron theory, kind: concept, wikipedia: Wiman–Valiron theory, wikidata: Q55648775, node: BWZ1H4FAQG}
+  - {name: exponential type, kind: definition, wikipedia: Exponential type, wikidata: Q5421531, node: 9P8D8YAHQS}
+  - {name: Paley–Wiener theorem, kind: statement, wikipedia: Paley–Wiener theorem, wikidata: Q1119094, node: THY12GPZ8C}
+  - {name: Carlson's theorem, kind: statement, wikipedia: Carlson's theorem, wikidata: Q5042898, node: 6F5B8KPEGH}
+  - {name: Denjoy–Carleman–Ahlfors theorem, kind: statement, wikipedia: Denjoy–Carleman–Ahlfors theorem, wikidata: Q17097849, node: SB55PWPRH2}
+  - {name: Pólya's theorem on integer-valued entire functions, kind: statement, wikipedia: Integer-valued polynomial, wikidata: Q568988, node: CYT8JNNWXH}
+  - {name: Laguerre–Pólya class, kind: definition, wikipedia: Laguerre–Pólya class, wikidata: Q6472739, node: X9SRCEENV3}
+  - {name: Bloch's theorem, kind: statement, wikipedia: Bloch's theorem (complex analysis), wikidata: Q266291, node: KW31KDX7TB}
+  - {name: Landau's constants, kind: definition, wikipedia: Bloch's theorem (complex analysis), wikidata: Q266291, node: AC3FNJ8Y1Y}
   - {name: gamma function, kind: object, decl: Complex.Gamma, wikipedia: Gamma function, wikidata: Q190573, node: 0H5SYBSED9}
-  - {name: reflection formula for the gamma function, kind: statement, decl: Complex.Gamma_mul_Gamma_one_sub, wikipedia: Reflection formula, wikidata: Q4922429}
-  - {name: Euler's sine product, kind: statement, decl: Complex.tendsto_euler_sin_prod, wikipedia: Basel problem, wikidata: Q810431}
-  - {name: Riemann zeta function, kind: object, decl: riemannZeta, wikipedia: Riemann zeta function, wikidata: Q187235}
-  - {name: Riemann hypothesis, kind: conjecture, decl: RiemannHypothesis, wikipedia: Riemann hypothesis, wikidata: Q205966}
-  - {name: Weierstrass elliptic function, kind: object, wikipedia: Weierstrass elliptic function, wikidata: Q2343600}
-  - {name: elliptic function, kind: definition, decl: PeriodPair, wikipedia: Elliptic function, wikidata: Q938102}
-  - {name: Liouville's theorems on elliptic functions, kind: statement, wikipedia: Elliptic function, wikidata: Q938102}
-  - {name: theta function, kind: object, decl: jacobiTheta, wikipedia: Theta function, wikidata: Q1154787}
-  - {name: modular form, kind: definition, decl: ModularForm, wikipedia: Modular form, wikidata: Q870797}
-  - {name: modular lambda function, kind: object, wikipedia: Modular lambda function, wikidata: Q6889722}
-  - {name: Lindelöf hypothesis, kind: conjecture, wikipedia: Lindelöf hypothesis, wikidata: Q911528}
+  - {name: reflection formula for the gamma function, kind: statement, decl: Complex.Gamma_mul_Gamma_one_sub, wikipedia: Reflection formula, wikidata: Q4922429, node: WF7KQAQTS2}
+  - {name: Euler's sine product, kind: statement, decl: Complex.tendsto_euler_sin_prod, wikipedia: Basel problem, wikidata: Q810431, node: DQEHD56649}
+  - {name: Riemann zeta function, kind: object, decl: riemannZeta, wikipedia: Riemann zeta function, wikidata: Q187235, node: 1XWBY4N0VT}
+  - {name: Riemann hypothesis, kind: conjecture, decl: RiemannHypothesis, wikipedia: Riemann hypothesis, wikidata: Q205966, node: VCGF9YR36X}
+  - {name: Weierstrass elliptic function, kind: object, wikipedia: Weierstrass elliptic function, wikidata: Q2343600, node: 361NAK68QK}
+  - {name: elliptic function, kind: definition, decl: PeriodPair, wikipedia: Elliptic function, wikidata: Q938102, node: FF9ZPCZ59K}
+  - {name: Liouville's theorems on elliptic functions, kind: statement, wikipedia: Elliptic function, wikidata: Q938102, node: R32HEEN55K}
+  - {name: theta function, kind: object, decl: jacobiTheta, wikipedia: Theta function, wikidata: Q1154787, node: 2F5CYQJVAF}
+  - {name: modular form, kind: definition, decl: ModularForm, wikipedia: Modular form, wikidata: Q870797, node: GWKN5VG78A}
+  - {name: modular lambda function, kind: object, wikipedia: Modular lambda function, wikidata: Q6889722, node: 4Z1YXT957Z}
+  - {name: Lindelöf hypothesis, kind: conjecture, wikipedia: Lindelöf hypothesis, wikidata: Q911528, node: PV82BVXE1A}
   # Geometric function theory
   - {name: Riemann mapping theorem, kind: statement, wikipedia: Riemann mapping theorem, wikidata: Q927051, node: 02WHMEG5ZR}
   - {name: simply connected domain, kind: definition, wikipedia: Simply connected space, wikidata: Q912058, node: 0QW64ARSHB}
-  - {name: Carathéodory's theorem on boundary extension, kind: statement, wikipedia: Carathéodory's theorem (conformal mapping), wikidata: Q4378889}
-  - {name: prime end, kind: definition, wikipedia: Prime end, wikidata: Q7243367}
-  - {name: Schwarz–Christoffel mapping, kind: definition, wikipedia: Schwarz–Christoffel mapping, wikidata: Q769569}
-  - {name: univalent function, kind: definition, wikipedia: Univalent function, wikidata: Q2608535}
-  - {name: Koebe function, kind: example, wikipedia: Koebe quarter theorem, wikidata: Q588218}
-  - {name: Koebe quarter theorem, kind: statement, wikipedia: Koebe quarter theorem, wikidata: Q588218}
-  - {name: Bieberbach conjecture, kind: statement, wikipedia: De Branges's theorem, wikidata: Q857089}
-  - {name: Grunsky matrix, kind: definition, wikipedia: Grunsky matrix, wikidata: Q5612135}
-  - {name: Grönwall area theorem, kind: statement, wikipedia: Area theorem (conformal mapping), wikidata: Q4788680}
-  - {name: Loewner differential equation, kind: definition, wikipedia: Loewner differential equation, wikidata: Q6666620}
-  - {name: Schramm–Loewner evolution, kind: concept, wikipedia: Schramm–Loewner evolution, wikidata: Q7432797}
-  - {name: Schwarzian derivative, kind: definition, wikipedia: Schwarzian derivative, wikidata: Q864589}
-  - {name: Nehari's theorem on univalence, kind: statement, wikipedia: Schwarzian derivative, wikidata: Q864589}
-  - {name: harmonic measure, kind: definition, wikipedia: Harmonic measure, wikidata: Q5659270}
-  - {name: extremal length, kind: definition, wikipedia: Extremal length, wikidata: Q5422297}
-  - {name: conformal modulus, kind: definition, wikipedia: Extremal length, wikidata: Q5422297}
-  - {name: Beurling–Ahlfors transform, kind: definition, wikipedia: Singular integral operators of convolution type, wikidata: Q7524241}
-  - {name: quasiconformal mapping, kind: definition, wikipedia: Quasiconformal mapping, wikidata: Q380576}
-  - {name: Beltrami equation, kind: definition, wikipedia: Beltrami equation, wikidata: Q4884794}
-  - {name: measurable Riemann mapping theorem, kind: statement, wikipedia: Measurable Riemann mapping theorem, wikidata: Q6804163}
-  - {name: quasicircle, kind: definition, wikipedia: Quasicircle, wikidata: Q7269488}
-  - {name: Brennan conjecture, kind: conjecture, wikipedia: Brennan conjecture, wikidata: Q51757594}
-  - {name: Littlewood subordination theorem, kind: statement, wikipedia: Littlewood subordination theorem, wikidata: Q6653168}
-  - {name: Bloch space, kind: definition, wikipedia: Bloch space, wikidata: Q4927106}
-  - {name: circle packing theorem, kind: statement, wikipedia: Circle packing theorem, wikidata: Q5121504}
-  - {name: Sendov's conjecture, kind: conjecture, wikipedia: Sendov's conjecture, wikidata: Q17037028}
-  - {name: Gauss–Lucas theorem, kind: statement, wikipedia: Gauss–Lucas theorem, wikidata: Q1008566}
-  - {name: Marden's theorem, kind: statement, wikipedia: Marden's theorem, wikidata: Q1568612}
+  - {name: Carathéodory's theorem on boundary extension, kind: statement, wikipedia: Carathéodory's theorem (conformal mapping), wikidata: Q4378889, node: AZ6H4ZKK55}
+  - {name: prime end, kind: definition, wikipedia: Prime end, wikidata: Q7243367, node: GNWE3XR0ZG}
+  - {name: Schwarz–Christoffel mapping, kind: definition, wikipedia: Schwarz–Christoffel mapping, wikidata: Q769569, node: 7FTW5Q9GHC}
+  - {name: univalent function, kind: definition, wikipedia: Univalent function, wikidata: Q2608535, node: R91E83SDBD}
+  - {name: Koebe function, kind: example, wikipedia: Koebe quarter theorem, wikidata: Q588218, node: EZQFWKF03Q}
+  - {name: Koebe quarter theorem, kind: statement, wikipedia: Koebe quarter theorem, wikidata: Q588218, node: WX0HMW4GT7}
+  - {name: Bieberbach conjecture, kind: statement, wikipedia: De Branges's theorem, wikidata: Q857089, node: ZMRFSYVWQT}
+  - {name: Grunsky matrix, kind: definition, wikipedia: Grunsky matrix, wikidata: Q5612135, node: XKRR37N916}
+  - {name: Grönwall area theorem, kind: statement, wikipedia: Area theorem (conformal mapping), wikidata: Q4788680, node: BYZDAZNHP4}
+  - {name: Loewner differential equation, kind: definition, wikipedia: Loewner differential equation, wikidata: Q6666620, node: 51G4QJZ345}
+  - {name: Schramm–Loewner evolution, kind: concept, wikipedia: Schramm–Loewner evolution, wikidata: Q7432797, node: AQ75M2JTB2}
+  - {name: Schwarzian derivative, kind: definition, wikipedia: Schwarzian derivative, wikidata: Q864589, node: 6ZPKWE0VAZ}
+  - {name: Nehari's theorem on univalence, kind: statement, wikipedia: Schwarzian derivative, wikidata: Q864589, node: DN98H15VZF}
+  - {name: harmonic measure, kind: definition, wikipedia: Harmonic measure, wikidata: Q5659270, node: CFD7BPM51W}
+  - {name: extremal length, kind: definition, wikipedia: Extremal length, wikidata: Q5422297, node: HX72KT9D0G}
+  - {name: conformal modulus, kind: definition, wikipedia: Extremal length, wikidata: Q5422297, node: 2FQAKBVBX5}
+  - {name: Beurling–Ahlfors transform, kind: definition, wikipedia: Singular integral operators of convolution type, wikidata: Q7524241, node: TX32GDQ330}
+  - {name: quasiconformal mapping, kind: definition, wikipedia: Quasiconformal mapping, wikidata: Q380576, node: SB8KG46NHP}
+  - {name: Beltrami equation, kind: definition, wikipedia: Beltrami equation, wikidata: Q4884794, node: 9J7GFJ1GPF}
+  - {name: measurable Riemann mapping theorem, kind: statement, wikipedia: Measurable Riemann mapping theorem, wikidata: Q6804163, node: TZHD2WKNSD}
+  - {name: quasicircle, kind: definition, wikipedia: Quasicircle, wikidata: Q7269488, node: ADZAXRA6QT}
+  - {name: Brennan conjecture, kind: conjecture, wikipedia: Brennan conjecture, wikidata: Q51757594, node: CH73TVRT27}
+  - {name: Littlewood subordination theorem, kind: statement, wikipedia: Littlewood subordination theorem, wikidata: Q6653168, node: PMMXG4Q8JR}
+  - {name: Bloch space, kind: definition, wikipedia: Bloch space, wikidata: Q4927106, node: F6M8ME0DQR}
+  - {name: circle packing theorem, kind: statement, wikipedia: Circle packing theorem, wikidata: Q5121504, node: GR1DDT1B6B}
+  - {name: Sendov's conjecture, kind: conjecture, wikipedia: Sendov's conjecture, wikidata: Q17037028, node: 101H2VSX2R}
+  - {name: Gauss–Lucas theorem, kind: statement, wikipedia: Gauss–Lucas theorem, wikidata: Q1008566, node: A56086N8XQ}
+  - {name: Marden's theorem, kind: statement, wikipedia: Marden's theorem, wikidata: Q1568612, node: A6GYWEFFTY}
   # Harmonic and subharmonic functions in the plane
   - {name: harmonic function, kind: definition, decl: InnerProductSpace.HarmonicOnNhd, wikipedia: Harmonic function, wikidata: Q599027, node: 0DEB0JMN0W}
   - {name: harmonic conjugate, kind: definition, wikipedia: Harmonic conjugate, wikidata: Q5659251, node: 050F2FMTKF}
-  - {name: Poisson kernel, kind: definition, wikipedia: Poisson kernel, wikidata: Q2596534}
-  - {name: Dirichlet problem, kind: problem, wikipedia: Dirichlet problem, wikidata: Q1192869}
-  - {name: Schwarz integral formula, kind: statement, wikipedia: Schwarz integral formula, wikidata: Q4491936}
-  - {name: Herglotz representation theorem, kind: statement, wikipedia: Positive harmonic function, wikidata: Q7233271}
-  - {name: subharmonic function, kind: definition, wikipedia: Subharmonic function, wikidata: Q753658}
-  - {name: Harnack's inequality, kind: statement, wikipedia: Harnack's inequality, wikidata: Q868279}
-  - {name: Green's function for the Laplacian, kind: definition, wikipedia: Green's function for the three-variable Laplace equation, wikidata: Q5602166}
-  - {name: logarithmic capacity, kind: definition, wikipedia: Conformal radius, wikidata: Q5160255}
-  - {name: potential theory, kind: concept, wikipedia: Potential theory, wikidata: Q1154848}
+  - {name: Poisson kernel, kind: definition, wikipedia: Poisson kernel, wikidata: Q2596534, node: TCYSWCTYYM}
+  - {name: Dirichlet problem, kind: problem, wikipedia: Dirichlet problem, wikidata: Q1192869, node: 8D56GQ4AG8}
+  - {name: Schwarz integral formula, kind: statement, wikipedia: Schwarz integral formula, wikidata: Q4491936, node: 61WT6CE08W}
+  - {name: Herglotz representation theorem, kind: statement, wikipedia: Positive harmonic function, wikidata: Q7233271, node: 9ZBAX4ZPX0}
+  - {name: subharmonic function, kind: definition, wikipedia: Subharmonic function, wikidata: Q753658, node: Z1MHMGFNFW}
+  - {name: Harnack's inequality, kind: statement, wikipedia: Harnack's inequality, wikidata: Q868279, node: YNH832D50W}
+  - {name: Green's function for the Laplacian, kind: definition, wikipedia: Green's function for the three-variable Laplace equation, wikidata: Q5602166, node: M36SD56MWQ}
+  - {name: logarithmic capacity, kind: definition, wikipedia: Conformal radius, wikidata: Q5160255, node: DBQXRTC0VN}
+  - {name: potential theory, kind: concept, wikipedia: Potential theory, wikidata: Q1154848, node: 9PM8Q2E30Q}
   # Function spaces and the unit disc
-  - {name: unit disc, kind: object, decl: Complex.UnitDisc, wikipedia: Unit disk, wikidata: Q2390323}
-  - {name: Poincaré disk model, kind: object, wikipedia: Poincaré disk model, wikidata: Q2617832}
-  - {name: upper half-plane, kind: object, decl: UpperHalfPlane, wikipedia: Upper half-plane, wikidata: Q3258885}
-  - {name: Hardy space, kind: definition, wikipedia: Hardy space, wikidata: Q1585233}
-  - {name: Bergman space, kind: definition, wikipedia: Bergman space, wikidata: Q3058183}
-  - {name: Bergman kernel, kind: definition, wikipedia: Bergman kernel, wikidata: Q3345664}
-  - {name: Dirichlet space, kind: definition, wikipedia: Dirichlet space, wikidata: Q5280767}
-  - {name: Blaschke product, kind: definition, wikipedia: Blaschke product, wikidata: Q4380191}
-  - {name: inner function, kind: definition, wikipedia: Hardy space, wikidata: Q1585233}
-  - {name: outer function, kind: definition, wikipedia: Hardy space, wikidata: Q1585233}
-  - {name: inner-outer factorization, kind: statement, wikipedia: Hardy space, wikidata: Q1585233}
-  - {name: Fatou's theorem, kind: statement, wikipedia: Fatou's theorem, wikidata: Q4455033}
-  - {name: F. and M. Riesz theorem, kind: statement, wikipedia: F. and M. Riesz theorem, wikidata: Q3527067}
-  - {name: Beurling's theorem, kind: statement, wikipedia: Beurling–Lax theorem, wikidata: Q3527017}
-  - {name: Nevanlinna class, kind: definition, wikipedia: Bounded type (mathematics), wikidata: Q4949988}
-  - {name: corona theorem, kind: statement, wikipedia: Corona theorem, wikidata: Q5172143}
-  - {name: Carleson measure, kind: definition, wikipedia: Carleson measure, wikidata: Q5041178}
-  - {name: bounded mean oscillation, kind: definition, wikipedia: Bounded mean oscillation, wikidata: Q796341}
-  - {name: Nevanlinna–Pick interpolation, kind: statement, wikipedia: Nevanlinna–Pick interpolation, wikidata: Q7190737}
-  - {name: disk algebra, kind: definition, wikipedia: Disk algebra, wikidata: Q2676720}
-  - {name: Pick matrix, kind: definition, wikipedia: Nevanlinna–Pick interpolation, wikidata: Q7190737}
-  - {name: de Branges space, kind: definition, wikipedia: De Branges space, wikidata: Q5244279}
-  - {name: Toeplitz operator, kind: definition, wikipedia: Toeplitz operator, wikidata: Q7812935}
+  - {name: unit disc, kind: object, decl: Complex.UnitDisc, wikipedia: Unit disk, wikidata: Q2390323, node: 8G5ABXRK85}
+  - {name: Poincaré disk model, kind: object, wikipedia: Poincaré disk model, wikidata: Q2617832, node: 85MM2EA0TK}
+  - {name: upper half-plane, kind: object, decl: UpperHalfPlane, wikipedia: Upper half-plane, wikidata: Q3258885, node: X6XGGH5FPW}
+  - {name: Hardy space, kind: definition, wikipedia: Hardy space, wikidata: Q1585233, node: PNNNFJVF6W}
+  - {name: Bergman space, kind: definition, wikipedia: Bergman space, wikidata: Q3058183, node: 2D619WTPYC}
+  - {name: Bergman kernel, kind: definition, wikipedia: Bergman kernel, wikidata: Q3345664, node: 8RWDHW0CXC}
+  - {name: Dirichlet space, kind: definition, wikipedia: Dirichlet space, wikidata: Q5280767, node: KWKVCSJWFB}
+  - {name: Blaschke product, kind: definition, wikipedia: Blaschke product, wikidata: Q4380191, node: 9N6R5ADJXT}
+  - {name: inner function, kind: definition, wikipedia: Hardy space, wikidata: Q1585233, node: NN8XH5RJYB}
+  - {name: outer function, kind: definition, wikipedia: Hardy space, wikidata: Q1585233, node: KGJD4A4ATY}
+  - {name: inner-outer factorization, kind: statement, wikipedia: Hardy space, wikidata: Q1585233, node: X6ZQPAQF76}
+  - {name: Fatou's theorem, kind: statement, wikipedia: Fatou's theorem, wikidata: Q4455033, node: Q2N917JQ6A}
+  - {name: F. and M. Riesz theorem, kind: statement, wikipedia: F. and M. Riesz theorem, wikidata: Q3527067, node: X9V1E3V145}
+  - {name: Beurling's theorem, kind: statement, wikipedia: Beurling–Lax theorem, wikidata: Q3527017, node: 2V1DXXM9FA}
+  - {name: Nevanlinna class, kind: definition, wikipedia: Bounded type (mathematics), wikidata: Q4949988, node: M3WQTN3FH2}
+  - {name: corona theorem, kind: statement, wikipedia: Corona theorem, wikidata: Q5172143, node: WMGA92P2G4}
+  - {name: Carleson measure, kind: definition, wikipedia: Carleson measure, wikidata: Q5041178, node: SQHGJ9C0QE}
+  - {name: bounded mean oscillation, kind: definition, wikipedia: Bounded mean oscillation, wikidata: Q796341, node: QJYTXFT8Y4}
+  - {name: Nevanlinna–Pick interpolation, kind: statement, wikipedia: Nevanlinna–Pick interpolation, wikidata: Q7190737, node: 4VMSSYB5DN}
+  - {name: disk algebra, kind: definition, wikipedia: Disk algebra, wikidata: Q2676720, node: DGWYF0B6NT}
+  - {name: Pick matrix, kind: definition, wikipedia: Nevanlinna–Pick interpolation, wikidata: Q7190737, node: TSPTN464CM}
+  - {name: de Branges space, kind: definition, wikipedia: De Branges space, wikidata: Q5244279, node: NYHNTP9AND}
+  - {name: Toeplitz operator, kind: definition, wikipedia: Toeplitz operator, wikidata: Q7812935, node: GQ0X3R3WM2}
   # Approximation in the complex plane
-  - {name: Runge's theorem, kind: statement, wikipedia: Runge's theorem, wikidata: Q1505529}
-  - {name: Mergelyan's theorem, kind: statement, wikipedia: Mergelyan's theorem, wikidata: Q1964537}
-  - {name: Arakelyan's theorem, kind: statement, wikipedia: Arakelyan's theorem, wikidata: Q25304227}
+  - {name: Runge's theorem, kind: statement, wikipedia: Runge's theorem, wikidata: Q1505529, node: 6DG4CTGXJD}
+  - {name: Mergelyan's theorem, kind: statement, wikipedia: Mergelyan's theorem, wikidata: Q1964537, node: 5KKCSZJC29}
+  - {name: Arakelyan's theorem, kind: statement, wikipedia: Arakelyan's theorem, wikidata: Q25304227, node: 1S20A3R659}
   # Riemann surfaces
-  - {name: Riemann surface, kind: definition, wikipedia: Riemann surface, wikidata: Q753035}
-  - {name: holomorphic map between Riemann surfaces, kind: definition, wikipedia: Riemann surface, wikidata: Q753035}
-  - {name: branched covering, kind: definition, wikipedia: Branched covering, wikidata: Q4956410}
+  - {name: Riemann surface, kind: definition, wikipedia: Riemann surface, wikidata: Q753035, node: 5K0N8QMV6Q}
+  - {name: holomorphic map between Riemann surfaces, kind: definition, wikipedia: Riemann surface, wikidata: Q753035, node: T19P7J53A1}
+  - {name: branched covering, kind: definition, wikipedia: Branched covering, wikidata: Q4956410, node: YARENZRXTD}
   - {name: Riemann–Hurwitz formula, kind: statement, wikipedia: Riemann–Hurwitz formula, wikidata: Q494995}
-  - {name: uniformization theorem, kind: statement, wikipedia: Uniformization theorem, wikidata: Q2109761}
+  - {name: uniformization theorem, kind: statement, wikipedia: Uniformization theorem, wikidata: Q2109761, node: 5EJ7SW1RCV}
   - {name: Fuchsian group, kind: definition, wikipedia: Fuchsian group, wikidata: Q205124}
   - {name: Kleinian group, kind: definition, wikipedia: Kleinian group, wikidata: Q4116484}
-  - {name: Teichmüller space, kind: definition, wikipedia: Teichmüller space, wikidata: Q2400539}
-  - {name: moduli of algebraic curves, kind: concept, wikipedia: Moduli of algebraic curves, wikidata: Q6889798}
-  - {name: Abelian differential, kind: definition, wikipedia: Differential of the first kind, wikidata: Q5275357}
+  - {name: Teichmüller space, kind: definition, wikipedia: Teichmüller space, wikidata: Q2400539, node: ZZGC6BZNJ5}
+  - {name: moduli of algebraic curves, kind: concept, wikipedia: Moduli of algebraic curves, wikidata: Q6889798, node: NK9ATH4WB6}
+  - {name: Abelian differential, kind: definition, wikipedia: Differential of the first kind, wikidata: Q5275357, node: P014C13K5H}
   - {name: Riemann–Roch theorem, kind: statement, wikipedia: Riemann–Roch theorem, wikidata: Q379048}
-  - {name: Abel–Jacobi map, kind: definition, wikipedia: Abel–Jacobi map, wikidata: Q4666729}
+  - {name: Abel–Jacobi map, kind: definition, wikipedia: Abel–Jacobi map, wikidata: Q4666729, node: HE8F7KBF42}
   - {name: Jacobian variety, kind: definition, wikipedia: Jacobian variety, wikidata: Q845729}
   - {name: Torelli theorem, kind: statement, wikipedia: Torelli theorem, wikidata: Q7825663}
   - {name: hyperelliptic curve, kind: example, wikipedia: Hyperelliptic curve, wikidata: Q850110}
   - {name: Hurwitz's automorphisms theorem, kind: statement, wikipedia: Hurwitz's automorphisms theorem, wikidata: Q2226695}
-  - {name: Klein quartic, kind: object, wikipedia: Klein quartic, wikidata: Q977499}
-  - {name: Schottky group, kind: definition, wikipedia: Schottky group, wikidata: Q7432778}
-  - {name: Riemann's existence theorem, kind: statement, wikipedia: Riemann's existence theorem, wikidata: Q134889667}
-  - {name: Ahlfors–Bers theorem, kind: statement, wikipedia: Measurable Riemann mapping theorem, wikidata: Q6804163}
+  - {name: Klein quartic, kind: object, wikipedia: Klein quartic, wikidata: Q977499, node: GXYKMAEAMG}
+  - {name: Schottky group, kind: definition, wikipedia: Schottky group, wikidata: Q7432778, node: YBERRJMXT6}
+  - {name: Riemann's existence theorem, kind: statement, wikipedia: Riemann's existence theorem, wikidata: Q134889667, node: NRJQP7FXFM}
+  - {name: Ahlfors–Bers theorem, kind: statement, wikipedia: Measurable Riemann mapping theorem, wikidata: Q6804163, node: D9B92SQ2GF}
   # Generalized function theories and metric analysis
-  - {name: pseudoanalytic function, kind: definition, wikipedia: Pseudoanalytic function, wikidata: Q7254510}
-  - {name: quaternionic analysis, kind: concept, wikipedia: Quaternionic analysis, wikidata: Q7269567}
-  - {name: Clifford analysis, kind: concept, wikipedia: Clifford analysis, wikidata: Q5133083}
-  - {name: monogenic function, kind: definition, wikipedia: Clifford analysis, wikidata: Q5133083}
-  - {name: p-adic analysis, kind: concept, wikipedia: P-adic analysis, wikidata: Q2845236}
-  - {name: quasisymmetric map, kind: definition, wikipedia: Quasisymmetric map, wikidata: Q7269534}
-  - {name: quasiregular map, kind: definition, wikipedia: Quasiregular map, wikidata: Q7269522}
-  - {name: Riemann–Hilbert problem, kind: problem, wikipedia: Riemann–Hilbert problem, wikidata: Q5986515}
-  - {name: Hilbert transform, kind: definition, wikipedia: Hilbert transform, wikidata: Q685437}
+  - {name: pseudoanalytic function, kind: definition, wikipedia: Pseudoanalytic function, wikidata: Q7254510, node: Y1MH7WPRDZ}
+  - {name: quaternionic analysis, kind: concept, wikipedia: Quaternionic analysis, wikidata: Q7269567, node: SAT7ST5WP7}
+  - {name: Clifford analysis, kind: concept, wikipedia: Clifford analysis, wikidata: Q5133083, node: DKVSAZQWF7}
+  - {name: monogenic function, kind: definition, wikipedia: Clifford analysis, wikidata: Q5133083, node: 646PNPT1R6}
+  - {name: p-adic analysis, kind: concept, wikipedia: P-adic analysis, wikidata: Q2845236, node: ASMPNM7K0M}
+  - {name: quasisymmetric map, kind: definition, wikipedia: Quasisymmetric map, wikidata: Q7269534, node: G215XD6D4D}
+  - {name: quasiregular map, kind: definition, wikipedia: Quasiregular map, wikidata: Q7269522, node: EGAJPZ71VW}
+  - {name: Riemann–Hilbert problem, kind: problem, wikipedia: Riemann–Hilbert problem, wikidata: Q5986515, node: RY8YQ9JZF9}
+  - {name: Hilbert transform, kind: definition, wikipedia: Hilbert transform, wikidata: Q685437, node: NSCEBXM7ZM}

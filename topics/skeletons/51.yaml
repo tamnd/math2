@@ -92,15 +92,15 @@ items:
   - {name: Tits building, kind: definition, wikipedia: Building (mathematics), wikidata: Q4986445}
   - {name: partial linear space, kind: definition, wikipedia: Partial linear space, wikidata: Q7140375}
   - {name: linear space, kind: definition, wikipedia: Linear space (geometry), wikidata: Q1826459, node: 000AYPA9AJ}
-  - {name: Sylvester–Gallai theorem, kind: statement, wikipedia: Sylvester–Gallai theorem, wikidata: Q748233}
+  - {name: Sylvester–Gallai theorem, kind: statement, wikipedia: Sylvester–Gallai theorem, wikidata: Q748233, node: T3GGJN70P2}
   - {name: de Bruijn–Erdős theorem, kind: statement, wikipedia: De Bruijn–Erdős theorem (incidence geometry), wikidata: Q3527056}
   # Finite geometry
   - {name: finite geometry, kind: concept, wikipedia: Finite geometry, wikidata: Q1077896}
-  - {name: Fano plane, kind: object, wikipedia: Fano plane, wikidata: Q1395814}
+  - {name: Fano plane, kind: object, wikipedia: Fano plane, wikidata: Q1395814, node: QQ8GW1ASZM}
   - {name: order of a projective plane, kind: definition, decl: Configuration.ProjectivePlane.order, wikipedia: Projective plane, wikidata: Q1475760}
   - {name: number of points of a finite projective plane, kind: statement, decl: Configuration.ProjectivePlane.card_points, wikipedia: Projective plane, wikidata: Q1475760}
   - {name: prime power conjecture for projective planes, kind: conjecture, wikipedia: Projective plane, wikidata: Q1475760}
-  - {name: Bruck–Ryser–Chowla theorem, kind: statement, wikipedia: Bruck–Ryser–Chowla theorem, wikidata: Q2226624}
+  - {name: Bruck–Ryser–Chowla theorem, kind: statement, wikipedia: Bruck–Ryser–Chowla theorem, wikidata: Q2226624, node: R43K0GTTDS}
   - {name: nonexistence of a projective plane of order 10, kind: statement, wikipedia: Lam's problem, wikidata: Q106696246}
   - {name: Wedderburn's little theorem and finite Desarguesian planes, kind: statement, wikipedia: Wedderburn's little theorem, wikidata: Q943246}
   - {name: projective geometry over a finite field, kind: example, wikipedia: Projective space, wikidata: Q877775}
@@ -113,9 +113,9 @@ items:
   - {name: blocking set, kind: definition, wikipedia: Blocking set, wikidata: Q17005980}
   - {name: spread, kind: definition, wikipedia: Spread (projective geometry), wikidata: Q106611350}
   - {name: generalized quadrangle, kind: definition, wikipedia: Generalized quadrangle, wikidata: Q2754558}
-  - {name: block design, kind: definition, wikipedia: Block design, wikidata: Q751484}
-  - {name: Steiner system, kind: definition, wikipedia: Steiner system, wikidata: Q4420916}
-  - {name: Kirkman's schoolgirl problem, kind: problem, wikipedia: Kirkman's schoolgirl problem, wikidata: Q966333}
+  - {name: block design, kind: definition, wikipedia: Block design, wikidata: Q751484, node: 4JCSS2Z1BA}
+  - {name: Steiner system, kind: definition, wikipedia: Steiner system, wikidata: Q4420916, node: 7BPSC4T4M3}
+  - {name: Kirkman's schoolgirl problem, kind: problem, wikipedia: Kirkman's schoolgirl problem, wikidata: Q966333, node: 1SYQ6QY95Y}
   - {name: affine plane over a finite field, kind: example, wikipedia: Affine plane (incidence geometry), wikidata: Q382491}
   - {name: configuration, kind: definition, wikipedia: Configuration (geometry), wikidata: Q1866689}
   - {name: Möbius–Kantor configuration, kind: example, wikipedia: Möbius–Kantor configuration, wikidata: Q6950325}
@@ -130,7 +130,7 @@ items:
   - {name: inversive geometry, kind: concept, wikipedia: Inversive geometry, wikidata: Q9267097}
   - {name: inversion in a circle, kind: definition, decl: EuclideanGeometry.inversion, wikipedia: Inversive geometry, wikidata: Q9267097}
   - {name: projective line over a ring, kind: definition, wikipedia: Projective line over a ring, wikidata: Q7249472}
-  - {name: matroid, kind: definition, wikipedia: Matroid, wikidata: Q898572}
+  - {name: matroid, kind: definition, wikipedia: Matroid, wikidata: Q898572, node: PX31ZNYS3Z}
   - {name: closure operator, kind: definition, wikipedia: Closure operator, wikidata: Q10564851}
   - {name: geometric lattice, kind: definition, wikipedia: Geometric lattice, wikidata: Q5535493}
   - {name: Buekenhout geometry, kind: concept, wikipedia: Buekenhout geometry, wikidata: Q4985363}
@@ -233,7 +233,7 @@ items:
   - {name: non-Euclidean geometry, kind: concept, wikipedia: Non-Euclidean geometry, wikidata: Q233858}
   - {name: hyperbolic geometry, kind: concept, wikipedia: Hyperbolic geometry, wikidata: Q209306}
   - {name: Poincaré half-plane model, kind: example, decl: UpperHalfPlane, wikipedia: Poincaré half-plane model, wikidata: Q2534886}
-  - {name: Poincaré disk model, kind: example, wikipedia: Poincaré disk model, wikidata: Q2617832}
+  - {name: Poincaré disk model, kind: example, wikipedia: Poincaré disk model, wikidata: Q2617832, node: 85MM2EA0TK}
   - {name: Beltrami–Klein model, kind: example, wikipedia: Beltrami–Klein model, wikidata: Q1189065}
   - {name: hyperboloid model, kind: example, wikipedia: Hyperboloid model, wikidata: Q3318095}
   - {name: hyperbolic triangle, kind: definition, wikipedia: Hyperbolic triangle, wikidata: Q2246553}
@@ -262,7 +262,7 @@ items:
   - {name: Dandelin spheres, kind: concept, wikipedia: Dandelin spheres, wikidata: Q676413}
   - {name: descriptive geometry, kind: concept, wikipedia: Descriptive geometry, wikidata: Q638755}
   - {name: perspective projection, kind: concept, wikipedia: Perspective (graphical), wikidata: Q1900281}
-  - {name: stereographic projection, kind: definition, wikipedia: Stereographic projection, wikidata: Q866099}
+  - {name: stereographic projection, kind: definition, wikipedia: Stereographic projection, wikidata: Q866099, node: AXDKKVD18N}
   # Geometry and physics
   - {name: screw theory, kind: concept, wikipedia: Screw theory, wikidata: Q7891441}
   - {name: Minkowski spacetime geometry, kind: concept, wikipedia: Minkowski spacetime, wikidata: Q464794}

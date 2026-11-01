@@ -12,7 +12,7 @@ sources:
 items:
   # Basic notions
   - {name: commutative ring, kind: definition, decl: CommRing, wikipedia: Commutative ring, wikidata: Q858656, node: 0310REJJY8}
-  - {name: commutative algebra over a ring, kind: definition, decl: Algebra, wikipedia: Associative algebra, wikidata: Q744960, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: commutative algebra over a ring, kind: definition, decl: Algebra, wikipedia: Associative algebra, wikidata: Q744960, mathlib: [mathlib-undergrad, mathlib-overview], node: DPBJ04JMH8}
   - {name: subalgebra, kind: definition, decl: Subalgebra, wikipedia: Subalgebra, wikidata: Q629933}
   - {name: ring homomorphism, kind: definition, wikipedia: Ring homomorphism, wikidata: Q1194212, node: 0VTH8KPCG2}
   - {name: ideal, kind: definition, decl: Ideal, wikipedia: Ideal (ring theory), wikidata: Q44649, mathlib: [mathlib-undergrad, mathlib-overview], node: 096Z9MP2ME}
@@ -21,26 +21,26 @@ items:
   - {name: principal ideal, kind: definition, decl: Submodule.IsPrincipal, wikipedia: Principal ideal, wikidata: Q44382, mathlib: [mathlib-undergrad, mathlib-overview], node: 0SVYSP8HCG}
   - {name: prime ideal, kind: definition, decl: Ideal.IsPrime, wikipedia: Prime ideal, wikidata: Q863912, mathlib: [mathlib-undergrad, mathlib-overview], node: 00MHHZ9SNE}
   - {name: maximal ideal, kind: definition, decl: Ideal.IsMaximal, wikipedia: Maximal ideal, wikidata: Q1203540, mathlib: [mathlib-undergrad, mathlib-overview], node: 0PV74TR5FP}
-  - {name: Krull's theorem on maximal ideals, kind: statement, decl: Ideal.exists_le_maximal, wikipedia: Krull's theorem, wikidata: Q2397775}
-  - {name: quotient by a prime ideal is a domain, kind: statement, decl: Ideal.Quotient.isDomain_iff_prime, wikipedia: Prime ideal, wikidata: Q863912}
-  - {name: quotient by a maximal ideal is a field, kind: statement, decl: Ideal.Quotient.maximal_ideal_iff_isField_quotient, wikipedia: Maximal ideal, wikidata: Q1203540}
-  - {name: radical of an ideal, kind: definition, decl: Ideal.radical, wikipedia: Radical of an ideal, wikidata: Q1199022}
-  - {name: radical ideal, kind: definition, decl: Ideal.IsRadical, wikipedia: Radical of an ideal, wikidata: Q1199022}
-  - {name: nilradical, kind: definition, decl: nilradical, wikipedia: Nilradical of a ring, wikidata: Q3341881}
-  - {name: nilradical is the intersection of prime ideals, kind: statement, decl: nilradical_eq_sInf, wikipedia: Nilradical of a ring, wikidata: Q3341881}
-  - {name: Jacobson radical, kind: definition, decl: Ideal.jacobson, wikipedia: Jacobson radical, wikidata: Q1677769}
+  - {name: Krull's theorem on maximal ideals, kind: statement, decl: Ideal.exists_le_maximal, wikipedia: Krull's theorem, wikidata: Q2397775, node: 02HJYT53F7}
+  - {name: quotient by a prime ideal is a domain, kind: statement, decl: Ideal.Quotient.isDomain_iff_prime, wikipedia: Prime ideal, wikidata: Q863912, node: 0AVXBEC05W}
+  - {name: quotient by a maximal ideal is a field, kind: statement, decl: Ideal.Quotient.maximal_ideal_iff_isField_quotient, wikipedia: Maximal ideal, wikidata: Q1203540, node: 0WD3SE7S1X}
+  - {name: radical of an ideal, kind: definition, decl: Ideal.radical, wikipedia: Radical of an ideal, wikidata: Q1199022, node: 437YRCNYRJ}
+  - {name: radical ideal, kind: definition, decl: Ideal.IsRadical, wikipedia: Radical of an ideal, wikidata: Q1199022, node: S4GQN5V54X}
+  - {name: nilradical, kind: definition, decl: nilradical, wikipedia: Nilradical of a ring, wikidata: Q3341881, node: QQDN6EYQNJ}
+  - {name: nilradical is the intersection of prime ideals, kind: statement, decl: nilradical_eq_sInf, wikipedia: Nilradical of a ring, wikidata: Q3341881, node: 3CZ8PXR9JY}
+  - {name: Jacobson radical, kind: definition, decl: Ideal.jacobson, wikipedia: Jacobson radical, wikidata: Q1677769, node: XA0DCNH7WY}
   - {name: nilpotent element, kind: definition, wikipedia: Nilpotent, wikidata: Q840023, node: 0ZB2JG1M9C}
   - {name: idempotent element, kind: definition, wikipedia: Idempotent (ring theory), wikidata: Q2243424, node: 0N5NJZKKN3}
   - {name: zero divisor, kind: definition, wikipedia: Zero divisor, wikidata: Q828111, node: 0NNRDW10RZ}
-  - {name: reduced ring, kind: definition, wikipedia: Reduced ring, wikidata: Q6423024}
-  - {name: unit, kind: definition, wikipedia: Unit (ring theory), wikidata: Q118084}
+  - {name: reduced ring, kind: definition, wikipedia: Reduced ring, wikidata: Q6423024, node: SZHY975FFX}
+  - {name: unit, kind: definition, wikipedia: Unit (ring theory), wikidata: Q118084, node: 0XVEZDE9J8}
   - {name: comaximal ideals, kind: definition, decl: IsCoprime, wikipedia: Chinese remainder theorem, wikidata: Q193878, mathlib: [mathlib-undergrad, mathlib-overview], node: 065CK367F9}
   - {name: Chinese remainder theorem for rings, kind: statement, decl: Ideal.quotientInfRingEquivPiQuotient, wikipedia: Chinese remainder theorem, wikidata: Q193878, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000], node: 0W97J8QED7}
-  - {name: ideal quotient, kind: definition, decl: Submodule.colon, wikipedia: Ideal quotient, wikidata: Q17098054}
-  - {name: annihilator, kind: definition, decl: Module.annihilator, wikipedia: Annihilator (ring theory), wikidata: Q567083}
-  - {name: extension and contraction of ideals, kind: definition, decl: Ideal.comap, wikipedia: Ideal (ring theory), wikidata: Q44649}
-  - {name: prime avoidance lemma, kind: statement, decl: Ideal.subset_union_prime, wikipedia: Prime avoidance lemma, wikidata: Q3229333}
-  - {name: minimal prime ideal, kind: definition, decl: Ideal.minimalPrimes, wikipedia: Minimal prime ideal, wikidata: Q17098959}
+  - {name: ideal quotient, kind: definition, decl: Submodule.colon, wikipedia: Ideal quotient, wikidata: Q17098054, node: 16J9DM8V57}
+  - {name: annihilator, kind: definition, decl: Module.annihilator, wikipedia: Annihilator (ring theory), wikidata: Q567083, node: HB4XDKJTW8}
+  - {name: extension and contraction of ideals, kind: definition, decl: Ideal.comap, wikipedia: Ideal (ring theory), wikidata: Q44649, node: 5AFH94P4S3}
+  - {name: prime avoidance lemma, kind: statement, decl: Ideal.subset_union_prime, wikipedia: Prime avoidance lemma, wikidata: Q3229333, node: FMP5AWG6PR}
+  - {name: minimal prime ideal, kind: definition, decl: Ideal.minimalPrimes, wikipedia: Minimal prime ideal, wikidata: Q17098959, node: S2D8823P8B}
   - {name: characteristic of a ring, kind: definition, decl: CharP, wikipedia: Characteristic (algebra), wikidata: Q836088, mathlib: [mathlib-undergrad, mathlib-overview], node: 0F6ES3BRYP}
   - {name: Boolean ring, kind: definition, wikipedia: Boolean ring, wikidata: Q2634401, node: 0RCV1ZFP8G}
   # Domains and factorization
@@ -51,222 +51,222 @@ items:
   - {name: unique factorization domain, kind: definition, decl: UniqueFactorizationMonoid, wikipedia: Unique factorization domain, wikidata: Q1052579, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-100, mathlib-1000], node: 0W4X9G6263}
   - {name: principal ideal domain, kind: definition, decl: IsPrincipalIdealRing, wikipedia: Principal ideal domain, wikidata: Q1143969, node: 0CMD0BCH8T}
   - {name: Euclidean domain, kind: definition, decl: EuclideanDomain, wikipedia: Euclidean domain, wikidata: Q867345, mathlib: [mathlib-undergrad, mathlib-overview], node: 0CHS7RBD39}
-  - {name: every PID is a UFD, kind: statement, decl: PrincipalIdealRing.to_uniqueFactorizationMonoid, wikipedia: Principal ideal domain, wikidata: Q1143969}
-  - {name: GCD domain, kind: definition, decl: GCDMonoid, wikipedia: GCD domain, wikidata: Q2851438}
-  - {name: Bézout domain, kind: definition, decl: IsBezout, wikipedia: Bézout domain, wikidata: Q2386260}
-  - {name: atomic domain, kind: definition, decl: WfDvdMonoid, wikipedia: Atomic domain, wikidata: Q257414}
+  - {name: every PID is a UFD, kind: statement, decl: PrincipalIdealRing.to_uniqueFactorizationMonoid, wikipedia: Principal ideal domain, wikidata: Q1143969, node: 055HT85T3S}
+  - {name: GCD domain, kind: definition, decl: GCDMonoid, wikipedia: GCD domain, wikidata: Q2851438, node: ACDEK1GD9G}
+  - {name: Bézout domain, kind: definition, decl: IsBezout, wikipedia: Bézout domain, wikidata: Q2386260, node: HGEX40P0Z0}
+  - {name: atomic domain, kind: definition, decl: WfDvdMonoid, wikipedia: Atomic domain, wikidata: Q257414, node: F37JBGAA1S}
   - {name: polynomial ring over a UFD is a UFD, kind: statement, decl: Polynomial.uniqueFactorizationMonoid, wikipedia: Unique factorization domain, wikidata: Q1052579, node: 0D6KH8Y59N}
   - {name: Gauss's lemma, kind: statement, wikipedia: Gauss's lemma (polynomials), wikidata: Q587938, node: 0QFV5Y1Z5X}
-  - {name: Nagata's criterion for factoriality, kind: statement, wikipedia: Unique factorization domain, wikidata: Q1052579}
+  - {name: Nagata's criterion for factoriality, kind: statement, wikipedia: Unique factorization domain, wikidata: Q1052579, node: GGEMJF449D}
   - {name: field of fractions, kind: definition, decl: IsFractionRing, wikipedia: Field of fractions, wikidata: Q774579, mathlib: [mathlib-undergrad, mathlib-overview], node: 0F2PTGX1A2}
-  - {name: Prüfer domain, kind: definition, wikipedia: Prüfer domain, wikidata: Q2894873}
-  - {name: Krull domain, kind: definition, wikipedia: Krull ring, wikidata: Q623257}
-  - {name: Mori domain, kind: definition, wikipedia: Mori domain, wikidata: Q6912121}
-  - {name: divisor class group, kind: definition, wikipedia: Fractional ideal, wikidata: Q1497184}
+  - {name: Prüfer domain, kind: definition, wikipedia: Prüfer domain, wikidata: Q2894873, node: 2RDAA4PCK8}
+  - {name: Krull domain, kind: definition, wikipedia: Krull ring, wikidata: Q623257, node: CB9WJCN9BM}
+  - {name: Mori domain, kind: definition, wikipedia: Mori domain, wikidata: Q6912121, node: 69HK75YAD1}
+  - {name: divisor class group, kind: definition, wikipedia: Fractional ideal, wikidata: Q1497184, node: WN8PK6RQZR}
   # Localization
-  - {name: multiplicative set, kind: definition, wikipedia: Multiplicatively closed set, wikidata: Q2917823}
-  - {name: localization, kind: definition, decl: IsLocalization, wikipedia: Localization (commutative algebra), wikidata: Q289093}
-  - {name: localization at a prime ideal, kind: definition, decl: Localization.AtPrime, wikipedia: Localization (commutative algebra), wikidata: Q289093}
-  - {name: localization of a module, kind: definition, decl: LocalizedModule, wikipedia: Localization (commutative algebra), wikidata: Q289093}
-  - {name: prime ideals of a localization, kind: statement, decl: IsLocalization.orderIsoOfPrime, wikipedia: Localization (commutative algebra), wikidata: Q289093}
-  - {name: localization of a Noetherian ring is Noetherian, kind: statement, decl: IsLocalization.isNoetherianRing, wikipedia: Localization (commutative algebra), wikidata: Q289093}
-  - {name: local property, kind: concept, wikipedia: Local property, wikidata: Q1868414}
-  - {name: support of a module, kind: definition, decl: Module.support, wikipedia: Support of a module, wikidata: Q7644587}
-  - {name: total ring of fractions, kind: definition, wikipedia: Total ring of fractions, wikidata: Q5695923}
+  - {name: multiplicative set, kind: definition, wikipedia: Multiplicatively closed set, wikidata: Q2917823, node: AN9SKEZ3VY}
+  - {name: localization, kind: definition, decl: IsLocalization, wikipedia: Localization (commutative algebra), wikidata: Q289093, node: 4C1AE84N5N}
+  - {name: localization at a prime ideal, kind: definition, decl: Localization.AtPrime, wikipedia: Localization (commutative algebra), wikidata: Q289093, node: X6JD4AG973}
+  - {name: localization of a module, kind: definition, decl: LocalizedModule, wikipedia: Localization (commutative algebra), wikidata: Q289093, node: 68E0F8N94E}
+  - {name: prime ideals of a localization, kind: statement, decl: IsLocalization.orderIsoOfPrime, wikipedia: Localization (commutative algebra), wikidata: Q289093, node: W8QNZZ4QJS}
+  - {name: localization of a Noetherian ring is Noetherian, kind: statement, decl: IsLocalization.isNoetherianRing, wikipedia: Localization (commutative algebra), wikidata: Q289093, node: C618HAK3X6}
+  - {name: local property, kind: concept, wikipedia: Local property, wikidata: Q1868414, node: 3S58E70Z7Z}
+  - {name: support of a module, kind: definition, decl: Module.support, wikipedia: Support of a module, wikidata: Q7644587, node: FETMR0M0M8}
+  - {name: total ring of fractions, kind: definition, wikipedia: Total ring of fractions, wikidata: Q5695923, node: K5Z67HR9ET}
   # Prime spectrum
-  - {name: spectrum of a ring, kind: definition, decl: PrimeSpectrum, wikipedia: Spectrum of a ring, wikidata: Q1154351, mathlib: [mathlib-overview]}
-  - {name: Zariski topology, kind: definition, decl: PrimeSpectrum.zariskiTopology, wikipedia: Zariski topology, wikidata: Q147978, mathlib: [mathlib-overview]}
-  - {name: quasi-compactness of the spectrum, kind: statement, decl: PrimeSpectrum.compactSpace, wikipedia: Spectrum of a ring, wikidata: Q1154351}
-  - {name: basic open set, kind: definition, decl: PrimeSpectrum.basicOpen, wikipedia: Spectrum of a ring, wikidata: Q1154351}
-  - {name: Hochster's theorem on spectral spaces, kind: statement, wikipedia: Spectral space, wikidata: Q7575210}
+  - {name: spectrum of a ring, kind: definition, decl: PrimeSpectrum, wikipedia: Spectrum of a ring, wikidata: Q1154351, mathlib: [mathlib-overview], node: FB45BHHA2J}
+  - {name: Zariski topology, kind: definition, decl: PrimeSpectrum.zariskiTopology, wikipedia: Zariski topology, wikidata: Q147978, mathlib: [mathlib-overview], node: 8SQK7RTB63}
+  - {name: quasi-compactness of the spectrum, kind: statement, decl: PrimeSpectrum.compactSpace, wikipedia: Spectrum of a ring, wikidata: Q1154351, node: J4YW23MD6N}
+  - {name: basic open set, kind: definition, decl: PrimeSpectrum.basicOpen, wikipedia: Spectrum of a ring, wikidata: Q1154351, node: N6JX9BCKQP}
+  - {name: Hochster's theorem on spectral spaces, kind: statement, wikipedia: Spectral space, wikidata: Q7575210, node: C82AXZK2BS}
   # Local rings
-  - {name: local ring, kind: definition, decl: IsLocalRing, wikipedia: Local ring, wikidata: Q1142704, mathlib: [mathlib-overview]}
-  - {name: residue field, kind: definition, decl: IsLocalRing.ResidueField, wikipedia: Residue field, wikidata: Q7315530}
-  - {name: local homomorphism, kind: definition, decl: IsLocalHom, wikipedia: Local ring, wikidata: Q1142704}
-  - {name: semi-local ring, kind: definition, wikipedia: Semi-local ring, wikidata: Q7449309}
-  - {name: Nakayama's lemma, kind: statement, decl: Submodule.eq_bot_of_le_smul_of_le_jacobson_bot, wikipedia: Nakayama's lemma, wikidata: Q1399751}
-  - {name: cotangent space of a local ring, kind: definition, decl: IsLocalRing.CotangentSpace, wikipedia: Zariski tangent space, wikidata: Q2031596}
-  - {name: embedding dimension, kind: definition, wikipedia: Regular local ring, wikidata: Q2138875}
-  - {name: regular local ring, kind: definition, decl: IsRegularLocalRing, wikipedia: Regular local ring, wikidata: Q2138875}
-  - {name: regular local rings are domains, kind: statement, wikipedia: Regular local ring, wikidata: Q2138875}
-  - {name: regular local rings are UFDs, kind: statement, wikipedia: Auslander–Buchsbaum theorem, wikidata: Q4822774}
-  - {name: Henselian ring, kind: definition, wikipedia: Henselian ring, wikidata: Q1607573}
-  - {name: Henselization, kind: definition, wikipedia: Henselian ring, wikidata: Q1607573}
-  - {name: strict Henselization, kind: definition, wikipedia: Henselian ring, wikidata: Q1607573}
-  - {name: excellent ring, kind: definition, wikipedia: Excellent ring, wikidata: Q5419439}
-  - {name: Nagata ring, kind: definition, wikipedia: Nagata ring, wikidata: Q6958665}
-  - {name: Nagata's example of a Noetherian ring of infinite dimension, kind: counterexample, wikipedia: Krull dimension, wikidata: Q1225713}
+  - {name: local ring, kind: definition, decl: IsLocalRing, wikipedia: Local ring, wikidata: Q1142704, mathlib: [mathlib-overview], node: MZ02BKPHJA}
+  - {name: residue field, kind: definition, decl: IsLocalRing.ResidueField, wikipedia: Residue field, wikidata: Q7315530, node: NJ3APQ8BHH}
+  - {name: local homomorphism, kind: definition, decl: IsLocalHom, wikipedia: Local ring, wikidata: Q1142704, node: P8YTMGEN9R}
+  - {name: semi-local ring, kind: definition, wikipedia: Semi-local ring, wikidata: Q7449309, node: 6DYAGW68AV}
+  - {name: Nakayama's lemma, kind: statement, decl: Submodule.eq_bot_of_le_smul_of_le_jacobson_bot, wikipedia: Nakayama's lemma, wikidata: Q1399751, node: 15JHBYR6KH}
+  - {name: cotangent space of a local ring, kind: definition, decl: IsLocalRing.CotangentSpace, wikipedia: Zariski tangent space, wikidata: Q2031596, node: Z1CGB483J6}
+  - {name: embedding dimension, kind: definition, wikipedia: Regular local ring, wikidata: Q2138875, node: DP3KSCRKFP}
+  - {name: regular local ring, kind: definition, decl: IsRegularLocalRing, wikipedia: Regular local ring, wikidata: Q2138875, node: 63XXTF6B5M}
+  - {name: regular local rings are domains, kind: statement, wikipedia: Regular local ring, wikidata: Q2138875, node: V3ZBMRKC08}
+  - {name: regular local rings are UFDs, kind: statement, wikipedia: Auslander–Buchsbaum theorem, wikidata: Q4822774, node: 1HD3EK5392}
+  - {name: Henselian ring, kind: definition, wikipedia: Henselian ring, wikidata: Q1607573, node: RNXPV3KC5J}
+  - {name: Henselization, kind: definition, wikipedia: Henselian ring, wikidata: Q1607573, node: 917PGHVZPM}
+  - {name: strict Henselization, kind: definition, wikipedia: Henselian ring, wikidata: Q1607573, node: GJHAF85F4S}
+  - {name: excellent ring, kind: definition, wikipedia: Excellent ring, wikidata: Q5419439, node: YF7YFQ58QJ}
+  - {name: Nagata ring, kind: definition, wikipedia: Nagata ring, wikidata: Q6958665, node: 3S5TMBAKCA}
+  - {name: Nagata's example of a Noetherian ring of infinite dimension, kind: counterexample, wikipedia: Krull dimension, wikidata: Q1225713, node: YEJVKCY78E}
   # Integral extensions
-  - {name: integral element, kind: definition, decl: IsIntegral, wikipedia: Integral element, wikidata: Q1493740}
-  - {name: integral extension, kind: definition, decl: Algebra.IsIntegral, wikipedia: Integral element, wikidata: Q1493740}
-  - {name: transitivity of integrality, kind: statement, decl: isIntegral_trans, wikipedia: Integral element, wikidata: Q1493740}
-  - {name: integral closure, kind: definition, decl: integralClosure, wikipedia: Integral closure of an ideal, wikidata: Q17098125}
-  - {name: integrally closed domain, kind: definition, decl: IsIntegrallyClosed, wikipedia: Integrally closed domain, wikidata: Q2851427}
-  - {name: normal ring, kind: definition, wikipedia: Normal scheme, wikidata: Q7051829}
-  - {name: lying over theorem, kind: statement, decl: Ideal.exists_ideal_over_prime_of_isIntegral, wikipedia: Going up and going down, wikidata: Q2379132}
-  - {name: going-up theorem, kind: statement, decl: Algebra.HasGoingUp, wikipedia: Going up and going down, wikidata: Q2379132}
-  - {name: going-down theorem, kind: statement, decl: Algebra.HasGoingDown, wikipedia: Going up and going down, wikidata: Q2379132}
-  - {name: incomparability theorem, kind: statement, decl: Ideal.comap_lt_comap_of_integral_mem_sdiff, wikipedia: Going up and going down, wikidata: Q2379132}
-  - {name: integral extensions of fields, kind: statement, decl: isField_of_isIntegral_of_isField, wikipedia: Integral element, wikidata: Q1493740}
-  - {name: finite morphism of rings, kind: definition, decl: Module.Finite, wikipedia: Finite morphism, wikidata: Q2370289}
-  - {name: finite type algebra, kind: definition, decl: Algebra.FiniteType, wikipedia: Finitely generated algebra, wikidata: Q2835968}
-  - {name: finitely presented algebra, kind: definition, decl: Algebra.FinitePresentation, wikipedia: Glossary of ring theory, wikidata: Q2375830}
-  - {name: Noether normalization lemma, kind: statement, decl: exists_integral_inj_algHom_of_fg, wikipedia: Noether normalization lemma, wikidata: Q1287074}
-  - {name: Artin–Tate lemma, kind: statement, wikipedia: Artin–Tate lemma, wikidata: Q19595940}
-  - {name: Zariski's lemma, kind: statement, wikipedia: Zariski's lemma, wikidata: Q8066794}
-  - {name: Hilbert's Nullstellensatz, kind: statement, decl: MvPolynomial.vanishingIdeal_zeroLocus_eq_radical, wikipedia: Hilbert's Nullstellensatz, wikidata: Q1068976, mathlib: [mathlib-overview, mathlib-1000]}
-  - {name: weak Nullstellensatz, kind: statement, decl: MvPolynomial.isMaximal_iff_eq_vanishingIdeal_singleton, wikipedia: Hilbert's Nullstellensatz, wikidata: Q1068976}
-  - {name: Jacobson ring, kind: definition, decl: IsJacobsonRing, wikipedia: Jacobson ring, wikidata: Q2620920}
-  - {name: Krull–Akizuki theorem, kind: statement, wikipedia: Krull–Akizuki theorem, wikidata: Q6439289}
-  - {name: Mori–Nagata theorem, kind: statement, wikipedia: Mori–Nagata theorem, wikidata: Q17099060}
-  - {name: Zariski's main theorem, kind: statement, wikipedia: Zariski's main theorem, wikidata: Q8066795}
+  - {name: integral element, kind: definition, decl: IsIntegral, wikipedia: Integral element, wikidata: Q1493740, node: 1EHN4KPSFS}
+  - {name: integral extension, kind: definition, decl: Algebra.IsIntegral, wikipedia: Integral element, wikidata: Q1493740, node: B7X0KFY1S1}
+  - {name: transitivity of integrality, kind: statement, decl: isIntegral_trans, wikipedia: Integral element, wikidata: Q1493740, node: ZXZMQM818D}
+  - {name: integral closure, kind: definition, decl: integralClosure, wikipedia: Integral closure of an ideal, wikidata: Q17098125, node: G0V86SJBQW}
+  - {name: integrally closed domain, kind: definition, decl: IsIntegrallyClosed, wikipedia: Integrally closed domain, wikidata: Q2851427, node: H20P600HQS}
+  - {name: normal ring, kind: definition, wikipedia: Normal scheme, wikidata: Q7051829, node: KR7SWBYHRQ}
+  - {name: lying over theorem, kind: statement, decl: Ideal.exists_ideal_over_prime_of_isIntegral, wikipedia: Going up and going down, wikidata: Q2379132, node: YZ97GKYY3P}
+  - {name: going-up theorem, kind: statement, decl: Algebra.HasGoingUp, wikipedia: Going up and going down, wikidata: Q2379132, node: GHKYR5PBQC}
+  - {name: going-down theorem, kind: statement, decl: Algebra.HasGoingDown, wikipedia: Going up and going down, wikidata: Q2379132, node: YE52MQ13MV}
+  - {name: incomparability theorem, kind: statement, decl: Ideal.comap_lt_comap_of_integral_mem_sdiff, wikipedia: Going up and going down, wikidata: Q2379132, node: Q2XBHJ96GV}
+  - {name: integral extensions of fields, kind: statement, decl: isField_of_isIntegral_of_isField, wikipedia: Integral element, wikidata: Q1493740, node: 5GCANV7337}
+  - {name: finite morphism of rings, kind: definition, decl: Module.Finite, wikipedia: Finite morphism, wikidata: Q2370289, node: 1NBACAEC2V}
+  - {name: finite type algebra, kind: definition, decl: Algebra.FiniteType, wikipedia: Finitely generated algebra, wikidata: Q2835968, node: AC5TFFQT9M}
+  - {name: finitely presented algebra, kind: definition, decl: Algebra.FinitePresentation, wikipedia: Glossary of ring theory, wikidata: Q2375830, node: 764GZHTGV8}
+  - {name: Noether normalization lemma, kind: statement, decl: exists_integral_inj_algHom_of_fg, wikipedia: Noether normalization lemma, wikidata: Q1287074, node: 7Z28JY8QW4}
+  - {name: Artin–Tate lemma, kind: statement, wikipedia: Artin–Tate lemma, wikidata: Q19595940, node: 4MBR0W0S6N}
+  - {name: Zariski's lemma, kind: statement, wikipedia: Zariski's lemma, wikidata: Q8066794, node: YBJ2VQHFDQ}
+  - {name: Hilbert's Nullstellensatz, kind: statement, decl: MvPolynomial.vanishingIdeal_zeroLocus_eq_radical, wikipedia: Hilbert's Nullstellensatz, wikidata: Q1068976, mathlib: [mathlib-overview, mathlib-1000], node: D85VZWS9QK}
+  - {name: weak Nullstellensatz, kind: statement, decl: MvPolynomial.isMaximal_iff_eq_vanishingIdeal_singleton, wikipedia: Hilbert's Nullstellensatz, wikidata: Q1068976, node: ZWS0YWGF17}
+  - {name: Jacobson ring, kind: definition, decl: IsJacobsonRing, wikipedia: Jacobson ring, wikidata: Q2620920, node: 7EB64ZBXAT}
+  - {name: Krull–Akizuki theorem, kind: statement, wikipedia: Krull–Akizuki theorem, wikidata: Q6439289, node: FSXA3CF365}
+  - {name: Mori–Nagata theorem, kind: statement, wikipedia: Mori–Nagata theorem, wikidata: Q17099060, node: J8YYYP5CDN}
+  - {name: Zariski's main theorem, kind: statement, wikipedia: Zariski's main theorem, wikidata: Q8066795, node: HCD6W2XK6W}
   # Chain conditions
   - {name: Noetherian ring, kind: definition, decl: IsNoetherianRing, wikipedia: Noetherian ring, wikidata: Q582271, mathlib: [mathlib-overview], node: 0670T59HGE}
-  - {name: Noetherian module, kind: definition, decl: IsNoetherian, wikipedia: Noetherian module, wikidata: Q2444982, mathlib: [mathlib-overview]}
-  - {name: Artinian ring, kind: definition, decl: IsArtinianRing, wikipedia: Artinian ring, wikidata: Q713084}
-  - {name: Artinian module, kind: definition, wikipedia: Artinian module, wikidata: Q2919100}
+  - {name: Noetherian module, kind: definition, decl: IsNoetherian, wikipedia: Noetherian module, wikidata: Q2444982, mathlib: [mathlib-overview], node: AK1ZRCXR32}
+  - {name: Artinian ring, kind: definition, decl: IsArtinianRing, wikipedia: Artinian ring, wikidata: Q713084, node: 20QEAM8AX2}
+  - {name: Artinian module, kind: definition, wikipedia: Artinian module, wikidata: Q2919100, node: YQNZTQGP1X}
   - {name: Hilbert's basis theorem, kind: statement, decl: Polynomial.isNoetherianRing, wikipedia: Hilbert's basis theorem, wikidata: Q656645, mathlib: [mathlib-overview, mathlib-1000], node: 0YKA9J3XEE}
-  - {name: Cohen's theorem on Noetherian rings, kind: statement, decl: IsNoetherianRing.of_prime, wikipedia: Noetherian ring, wikidata: Q582271}
-  - {name: Akizuki–Hopkins–Levitzki theorem, kind: statement, decl: isArtinianRing_iff_isNoetherianRing_krullDimLE_zero, wikipedia: Hopkins–Levitzki theorem, wikidata: Q17027556}
-  - {name: structure theorem for Artinian rings, kind: statement, decl: IsArtinianRing.equivPi, wikipedia: Artinian ring, wikidata: Q713084}
-  - {name: length of a module, kind: definition, decl: Module.length, wikipedia: Length of a module, wikidata: Q1761084}
-  - {name: Jordan–Hölder theorem for modules, kind: statement, wikipedia: Composition series, wikidata: Q2525646}
-  - {name: coherent ring, kind: definition, wikipedia: Coherent ring, wikidata: Q2851410}
+  - {name: Cohen's theorem on Noetherian rings, kind: statement, decl: IsNoetherianRing.of_prime, wikipedia: Noetherian ring, wikidata: Q582271, node: TZT1TTB7CJ}
+  - {name: Akizuki–Hopkins–Levitzki theorem, kind: statement, decl: isArtinianRing_iff_isNoetherianRing_krullDimLE_zero, wikipedia: Hopkins–Levitzki theorem, wikidata: Q17027556, node: C7X657TF19}
+  - {name: structure theorem for Artinian rings, kind: statement, decl: IsArtinianRing.equivPi, wikipedia: Artinian ring, wikidata: Q713084, node: HE7MP4HP6Q}
+  - {name: length of a module, kind: definition, decl: Module.length, wikipedia: Length of a module, wikidata: Q1761084, node: CZSCNZH8VY}
+  - {name: Jordan–Hölder theorem for modules, kind: statement, wikipedia: Composition series, wikidata: Q2525646, node: M1ABX18FC4}
+  - {name: coherent ring, kind: definition, wikipedia: Coherent ring, wikidata: Q2851410, node: W453BM8T6P}
   # Primary decomposition
-  - {name: primary ideal, kind: definition, decl: Ideal.IsPrimary, wikipedia: Primary ideal, wikidata: Q1142699}
-  - {name: primary decomposition, kind: concept, decl: Submodule.isPrimary_decomposition_pairwise_ne_radical, wikipedia: Primary decomposition, wikidata: Q172298, mathlib: [mathlib-1000]}
-  - {name: Lasker–Noether theorem, kind: statement, decl: Submodule.exists_minimal_isPrimary_decomposition_of_isPrimary_decomposition, wikipedia: Primary decomposition, wikidata: Q172298}
-  - {name: associated prime, kind: definition, decl: associatedPrimes, wikipedia: Associated prime, wikidata: Q4809264}
-  - {name: finiteness of associated primes, kind: statement, decl: associatedPrimes.finite, wikipedia: Associated prime, wikidata: Q4809264}
-  - {name: zero divisors are the union of associated primes, kind: statement, decl: biUnion_associatedPrimes_eq_zero_divisors, wikipedia: Associated prime, wikidata: Q4809264}
-  - {name: embedded prime, kind: definition, wikipedia: Associated prime, wikidata: Q4809264}
-  - {name: symbolic power, kind: definition, wikipedia: Symbolic power of an ideal, wikidata: Q18393178}
-  - {name: irreducible ideal, kind: definition, wikipedia: Irreducible ideal, wikidata: Q17098198}
+  - {name: primary ideal, kind: definition, decl: Ideal.IsPrimary, wikipedia: Primary ideal, wikidata: Q1142699, node: TMTPWVETQK}
+  - {name: primary decomposition, kind: concept, decl: Submodule.isPrimary_decomposition_pairwise_ne_radical, wikipedia: Primary decomposition, wikidata: Q172298, mathlib: [mathlib-1000], node: ZD34THCXQ0}
+  - {name: Lasker–Noether theorem, kind: statement, decl: Submodule.exists_minimal_isPrimary_decomposition_of_isPrimary_decomposition, wikipedia: Primary decomposition, wikidata: Q172298, node: 5H8Z56KXMS}
+  - {name: associated prime, kind: definition, decl: associatedPrimes, wikipedia: Associated prime, wikidata: Q4809264, node: ERFZ6S8X0X}
+  - {name: finiteness of associated primes, kind: statement, decl: associatedPrimes.finite, wikipedia: Associated prime, wikidata: Q4809264, node: XR0WZJAM0R}
+  - {name: zero divisors are the union of associated primes, kind: statement, decl: biUnion_associatedPrimes_eq_zero_divisors, wikipedia: Associated prime, wikidata: Q4809264, node: S37DQGW3TZ}
+  - {name: embedded prime, kind: definition, wikipedia: Associated prime, wikidata: Q4809264, node: RVKPM94MDF}
+  - {name: symbolic power, kind: definition, wikipedia: Symbolic power of an ideal, wikidata: Q18393178, node: FMPJJBVM5A}
+  - {name: irreducible ideal, kind: definition, wikipedia: Irreducible ideal, wikidata: Q17098198, node: 7PDWB550C9}
   # Dimension theory
-  - {name: Krull dimension, kind: definition, decl: ringKrullDim, wikipedia: Krull dimension, wikidata: Q1225713}
-  - {name: height of a prime ideal, kind: definition, decl: Ideal.height, wikipedia: Krull dimension, wikidata: Q1225713}
-  - {name: Krull's principal ideal theorem, kind: statement, decl: Ideal.height_le_one_of_isPrincipal_of_mem_minimalPrimes, wikipedia: Krull's principal ideal theorem, wikidata: Q3527241, mathlib: [mathlib-1000]}
-  - {name: Krull's height theorem, kind: statement, decl: Ideal.height_le_spanFinrank, wikipedia: Krull's principal ideal theorem, wikidata: Q3527241}
-  - {name: dimension of a polynomial ring, kind: statement, decl: ringKrullDim_succ_le_ringKrullDim_polynomial, wikipedia: Krull dimension, wikidata: Q1225713}
-  - {name: catenary ring, kind: definition, wikipedia: Catenary ring, wikidata: Q5051871}
-  - {name: universally catenary ring, kind: definition, wikipedia: Catenary ring, wikidata: Q5051871}
-  - {name: system of parameters, kind: definition, wikipedia: System of parameters, wikidata: Q7663733}
-  - {name: dimension theorem for local rings, kind: statement, wikipedia: Dimension theory (algebra), wikidata: Q5277265}
-  - {name: Hilbert–Samuel function, kind: definition, wikipedia: Hilbert–Samuel function, wikidata: Q5761248}
-  - {name: multiplicity of a local ring, kind: definition, wikipedia: Hilbert–Samuel function, wikidata: Q5761248}
-  - {name: Hilbert polynomial, kind: definition, decl: Polynomial.hilbertPoly, wikipedia: Hilbert series and Hilbert polynomial, wikidata: Q5761236}
-  - {name: Hilbert–Serre theorem, kind: statement, decl: Polynomial.existsUnique_hilbertPoly, wikipedia: Hilbert series and Hilbert polynomial, wikidata: Q5761236}
-  - {name: dimension theory, kind: concept, wikipedia: Dimension theory (algebra), wikidata: Q5277265}
+  - {name: Krull dimension, kind: definition, decl: ringKrullDim, wikipedia: Krull dimension, wikidata: Q1225713, node: MVGBS3J1P7}
+  - {name: height of a prime ideal, kind: definition, decl: Ideal.height, wikipedia: Krull dimension, wikidata: Q1225713, node: 87WH65FJB8}
+  - {name: Krull's principal ideal theorem, kind: statement, decl: Ideal.height_le_one_of_isPrincipal_of_mem_minimalPrimes, wikipedia: Krull's principal ideal theorem, wikidata: Q3527241, mathlib: [mathlib-1000], node: SJZW2HN1SC}
+  - {name: Krull's height theorem, kind: statement, decl: Ideal.height_le_spanFinrank, wikipedia: Krull's principal ideal theorem, wikidata: Q3527241, node: TBRTZMHFTV}
+  - {name: dimension of a polynomial ring, kind: statement, decl: ringKrullDim_succ_le_ringKrullDim_polynomial, wikipedia: Krull dimension, wikidata: Q1225713, node: T35XFF5AY3}
+  - {name: catenary ring, kind: definition, wikipedia: Catenary ring, wikidata: Q5051871, node: B2CYR292J6}
+  - {name: universally catenary ring, kind: definition, wikipedia: Catenary ring, wikidata: Q5051871, node: 5WAFPTH09V}
+  - {name: system of parameters, kind: definition, wikipedia: System of parameters, wikidata: Q7663733, node: 95QTEPMDA4}
+  - {name: dimension theorem for local rings, kind: statement, wikipedia: Dimension theory (algebra), wikidata: Q5277265, node: KW3HY77V6D}
+  - {name: Hilbert–Samuel function, kind: definition, wikipedia: Hilbert–Samuel function, wikidata: Q5761248, node: BNQVS83GZV}
+  - {name: multiplicity of a local ring, kind: definition, wikipedia: Hilbert–Samuel function, wikidata: Q5761248, node: JX20MNDDXT}
+  - {name: Hilbert polynomial, kind: definition, decl: Polynomial.hilbertPoly, wikipedia: Hilbert series and Hilbert polynomial, wikidata: Q5761236, node: RMH4FBCFDA}
+  - {name: Hilbert–Serre theorem, kind: statement, decl: Polynomial.existsUnique_hilbertPoly, wikipedia: Hilbert series and Hilbert polynomial, wikidata: Q5761236, node: HP56DJECMT}
+  - {name: dimension theory, kind: concept, wikipedia: Dimension theory (algebra), wikidata: Q5277265, node: GFVWEATKGE}
   # Graded rings and filtrations
-  - {name: graded ring, kind: definition, decl: GradedRing, wikipedia: Graded ring, wikidata: Q15534632}
-  - {name: homogeneous ideal, kind: definition, decl: HomogeneousIdeal, wikipedia: Graded ring, wikidata: Q15534632}
-  - {name: filtration of a module, kind: definition, decl: Ideal.Filtration, wikipedia: Filtration (mathematics), wikidata: Q1187724}
-  - {name: associated graded ring, kind: definition, wikipedia: Associated graded ring, wikidata: Q17097755}
-  - {name: Rees algebra, kind: definition, wikipedia: Rees algebra, wikidata: Q7306976}
-  - {name: Artin–Rees lemma, kind: statement, decl: Ideal.exists_pow_inf_eq_pow_smul, wikipedia: Artin–Rees lemma, wikidata: Q3229329}
-  - {name: Krull intersection theorem, kind: statement, decl: Ideal.iInf_pow_eq_bot_of_isLocalRing, wikipedia: Artin–Rees lemma, wikidata: Q3229329}
+  - {name: graded ring, kind: definition, decl: GradedRing, wikipedia: Graded ring, wikidata: Q15534632, node: 8KB4SQGC0C}
+  - {name: homogeneous ideal, kind: definition, decl: HomogeneousIdeal, wikipedia: Graded ring, wikidata: Q15534632, node: 6ZBNGS0P98}
+  - {name: filtration of a module, kind: definition, decl: Ideal.Filtration, wikipedia: Filtration (mathematics), wikidata: Q1187724, node: WHME2NGANG}
+  - {name: associated graded ring, kind: definition, wikipedia: Associated graded ring, wikidata: Q17097755, node: 8HFAEGFQT1}
+  - {name: Rees algebra, kind: definition, wikipedia: Rees algebra, wikidata: Q7306976, node: W8ZAH8TTHS}
+  - {name: Artin–Rees lemma, kind: statement, decl: Ideal.exists_pow_inf_eq_pow_smul, wikipedia: Artin–Rees lemma, wikidata: Q3229329, node: 30H6B0G2FT}
+  - {name: Krull intersection theorem, kind: statement, decl: Ideal.iInf_pow_eq_bot_of_isLocalRing, wikipedia: Artin–Rees lemma, wikidata: Q3229329, node: 1Q1AH2V41S}
   # Completion and topological rings
-  - {name: I-adic topology, kind: definition, wikipedia: I-adic topology, wikidata: Q112182519}
-  - {name: completion of a ring, kind: definition, decl: AdicCompletion, wikipedia: Completion of a ring, wikidata: Q3685258}
-  - {name: complete local ring, kind: definition, decl: IsAdicComplete, wikipedia: Completion of a ring, wikidata: Q3685258}
-  - {name: completion is flat, kind: statement, wikipedia: Completion of a ring, wikidata: Q3685258}
-  - {name: Cohen structure theorem, kind: statement, wikipedia: Cohen structure theorem, wikidata: Q5141331}
-  - {name: formal power series ring, kind: definition, decl: PowerSeries, wikipedia: Formal power series, wikidata: Q1003025, mathlib: [mathlib-overview]}
-  - {name: multivariate formal power series, kind: definition, decl: MvPowerSeries, wikipedia: Formal power series, wikidata: Q1003025}
-  - {name: Weierstrass preparation theorem, kind: statement, wikipedia: Weierstrass preparation theorem, wikidata: Q3527219}
-  - {name: Witt vectors, kind: definition, decl: WittVector, wikipedia: Witt vector, wikidata: Q1756171, mathlib: [mathlib-overview]}
-  - {name: linear topology, kind: definition, wikipedia: Linear topology, wikidata: Q6553531}
-  - {name: Artin approximation theorem, kind: statement, wikipedia: Artin approximation theorem, wikidata: Q4801169}
+  - {name: I-adic topology, kind: definition, wikipedia: I-adic topology, wikidata: Q112182519, node: 2VF2TSJ3PY}
+  - {name: completion of a ring, kind: definition, decl: AdicCompletion, wikipedia: Completion of a ring, wikidata: Q3685258, node: KBN13NPYJQ}
+  - {name: complete local ring, kind: definition, decl: IsAdicComplete, wikipedia: Completion of a ring, wikidata: Q3685258, node: G9Q61B8A7C}
+  - {name: completion is flat, kind: statement, wikipedia: Completion of a ring, wikidata: Q3685258, node: NPF42DJMBX}
+  - {name: Cohen structure theorem, kind: statement, wikipedia: Cohen structure theorem, wikidata: Q5141331, node: N3XH42KVV3}
+  - {name: formal power series ring, kind: definition, decl: PowerSeries, wikipedia: Formal power series, wikidata: Q1003025, mathlib: [mathlib-overview], node: 033WGN00BF}
+  - {name: multivariate formal power series, kind: definition, decl: MvPowerSeries, wikipedia: Formal power series, wikidata: Q1003025, node: 3E8ZG3NJYZ}
+  - {name: Weierstrass preparation theorem, kind: statement, wikipedia: Weierstrass preparation theorem, wikidata: Q3527219, node: 49JSD49P7X}
+  - {name: Witt vectors, kind: definition, decl: WittVector, wikipedia: Witt vector, wikidata: Q1756171, mathlib: [mathlib-overview], node: 6N3X2QX4W9}
+  - {name: linear topology, kind: definition, wikipedia: Linear topology, wikidata: Q6553531, node: 6RF8CB69KQ}
+  - {name: Artin approximation theorem, kind: statement, wikipedia: Artin approximation theorem, wikidata: Q4801169, node: 1AFTCHDDFE}
   # Valuation rings and Dedekind domains
-  - {name: valuation ring, kind: definition, decl: ValuationRing, wikipedia: Valuation ring, wikidata: Q12013681}
-  - {name: valuation, kind: definition, decl: Valuation, wikipedia: Valuation (algebra), wikidata: Q852757}
-  - {name: discrete valuation ring, kind: definition, decl: IsDiscreteValuationRing, wikipedia: Discrete valuation ring, wikidata: Q986694}
+  - {name: valuation ring, kind: definition, decl: ValuationRing, wikipedia: Valuation ring, wikidata: Q12013681, node: QSX12D8RQM}
+  - {name: valuation, kind: definition, decl: Valuation, wikipedia: Valuation (algebra), wikidata: Q852757, node: B85T5VKR3M}
+  - {name: discrete valuation ring, kind: definition, decl: IsDiscreteValuationRing, wikipedia: Discrete valuation ring, wikidata: Q986694, node: MGM3CNJW9V}
   - {name: characterizations of DVRs, kind: statement, wikipedia: Discrete valuation ring, wikidata: Q986694}
-  - {name: Dedekind domain, kind: definition, decl: IsDedekindDomain, wikipedia: Dedekind domain, wikidata: Q254347}
-  - {name: unique factorization of ideals in a Dedekind domain, kind: statement, decl: Ideal.uniqueFactorizationMonoid, wikipedia: Dedekind domain, wikidata: Q254347}
-  - {name: fractional ideal, kind: definition, decl: FractionalIdeal, wikipedia: Fractional ideal, wikidata: Q1497184, mathlib: [mathlib-overview]}
-  - {name: invertible ideal, kind: definition, wikipedia: Fractional ideal, wikidata: Q1497184}
-  - {name: ideal class group, kind: definition, decl: ClassGroup, wikipedia: Ideal class group, wikidata: Q912083}
-  - {name: a Dedekind UFD is a PID, kind: statement, decl: IsPrincipalIdealRing.of_isDedekindDomain_of_uniqueFactorizationMonoid, wikipedia: Dedekind domain, wikidata: Q254347}
-  - {name: Picard group of a ring, kind: definition, wikipedia: Picard group, wikidata: Q2042963}
-  - {name: Serre's criterion for normality, kind: statement, wikipedia: Serre's criterion for normality, wikidata: Q25098875}
+  - {name: Dedekind domain, kind: definition, decl: IsDedekindDomain, wikipedia: Dedekind domain, wikidata: Q254347, node: 7NPY2CN5KB}
+  - {name: unique factorization of ideals in a Dedekind domain, kind: statement, decl: Ideal.uniqueFactorizationMonoid, wikipedia: Dedekind domain, wikidata: Q254347, node: S6PHT75MEK}
+  - {name: fractional ideal, kind: definition, decl: FractionalIdeal, wikipedia: Fractional ideal, wikidata: Q1497184, mathlib: [mathlib-overview], node: YB4JTB4WJN}
+  - {name: invertible ideal, kind: definition, wikipedia: Fractional ideal, wikidata: Q1497184, node: E190TAV2S6}
+  - {name: ideal class group, kind: definition, decl: ClassGroup, wikipedia: Ideal class group, wikidata: Q912083, node: WQ46BD3ARY}
+  - {name: a Dedekind UFD is a PID, kind: statement, decl: IsPrincipalIdealRing.of_isDedekindDomain_of_uniqueFactorizationMonoid, wikipedia: Dedekind domain, wikidata: Q254347, node: YGV5S3MRD6}
+  - {name: Picard group of a ring, kind: definition, wikipedia: Picard group, wikidata: Q2042963, node: DZW58R6T2Q}
+  - {name: Serre's criterion for normality, kind: statement, wikipedia: Serre's criterion for normality, wikidata: Q25098875, node: W27Z60Q1PF}
   # Modules
-  - {name: module over a commutative ring, kind: definition, wikipedia: Module (mathematics), wikidata: Q18848}
+  - {name: module over a commutative ring, kind: definition, wikipedia: Module (mathematics), wikidata: Q18848, node: 0NZ8JA25WK}
   - {name: finitely generated module, kind: definition, decl: Module.Finite, wikipedia: Finitely generated module, wikidata: Q1340572, node: 05QY1VEBYD}
-  - {name: finitely presented module, kind: definition, decl: Module.FinitePresentation, wikipedia: Finitely generated module, wikidata: Q1340572}
+  - {name: finitely presented module, kind: definition, decl: Module.FinitePresentation, wikipedia: Finitely generated module, wikidata: Q1340572, node: 3EH4C3M5GV}
   - {name: free module, kind: definition, decl: Module.Free, wikipedia: Free module, wikidata: Q1292333, node: 0DZ9DKAKZR}
-  - {name: projective module, kind: definition, decl: Module.Projective, wikipedia: Projective module, wikidata: Q942423}
-  - {name: injective module, kind: definition, decl: Module.Injective, wikipedia: Injective module, wikidata: Q2716519}
-  - {name: Baer's criterion, kind: statement, decl: Module.Baer.injective, wikipedia: Injective module, wikidata: Q2716519}
-  - {name: flat module, kind: definition, decl: Module.Flat, wikipedia: Flat module, wikidata: Q1426191}
-  - {name: faithfully flat module, kind: definition, decl: Module.FaithfullyFlat, wikipedia: Flat module, wikidata: Q1426191}
-  - {name: tensor product of modules, kind: definition, decl: TensorProduct, wikipedia: Tensor product of modules, wikidata: Q3406761, mathlib: [mathlib-overview]}
-  - {name: tensor product of algebras, kind: definition, wikipedia: Tensor product of algebras, wikidata: Q7700713}
-  - {name: exact sequence, kind: definition, decl: Function.Exact, wikipedia: Exact sequence, wikidata: Q1326955}
+  - {name: projective module, kind: definition, decl: Module.Projective, wikipedia: Projective module, wikidata: Q942423, node: BFFA03GE3V}
+  - {name: injective module, kind: definition, decl: Module.Injective, wikipedia: Injective module, wikidata: Q2716519, node: 85H7PRHDPZ}
+  - {name: Baer's criterion, kind: statement, decl: Module.Baer.injective, wikipedia: Injective module, wikidata: Q2716519, node: MR5HNV0Q07}
+  - {name: flat module, kind: definition, decl: Module.Flat, wikipedia: Flat module, wikidata: Q1426191, node: 73RYYEVDKA}
+  - {name: faithfully flat module, kind: definition, decl: Module.FaithfullyFlat, wikipedia: Flat module, wikidata: Q1426191, node: C31PYYPRGC}
+  - {name: tensor product of modules, kind: definition, decl: TensorProduct, wikipedia: Tensor product of modules, wikidata: Q3406761, mathlib: [mathlib-overview], node: F0HQXQ0HCD}
+  - {name: tensor product of algebras, kind: definition, wikipedia: Tensor product of algebras, wikidata: Q7700713, node: 1735VGRT2P}
+  - {name: exact sequence, kind: definition, decl: Function.Exact, wikipedia: Exact sequence, wikidata: Q1326955, node: JB7ZBFBA9C}
   - {name: Hom functor and tensor-hom adjunction, kind: statement, wikipedia: Tensor–hom adjunction, wikidata: Q16147769}
-  - {name: finitely generated projective modules over local rings are free, kind: statement, decl: Module.free_of_flat_of_isLocalRing, wikipedia: Projective module, wikidata: Q942423}
-  - {name: Quillen–Suslin theorem, kind: statement, wikipedia: Quillen–Suslin theorem, wikidata: Q7272004}
-  - {name: Serre's problem on projective modules, kind: problem, wikipedia: Quillen–Suslin theorem, wikidata: Q7272004}
+  - {name: finitely generated projective modules over local rings are free, kind: statement, decl: Module.free_of_flat_of_isLocalRing, wikipedia: Projective module, wikidata: Q942423, node: 942FK83S09}
+  - {name: Quillen–Suslin theorem, kind: statement, wikipedia: Quillen–Suslin theorem, wikidata: Q7272004, node: 7N50GA46W1}
+  - {name: Serre's problem on projective modules, kind: problem, wikipedia: Quillen–Suslin theorem, wikidata: Q7272004, node: 7GG0XYHB0T}
   - {name: structure theorem for finitely generated modules over a PID, kind: statement, decl: Module.equiv_free_prod_directSum, wikipedia: Structure theorem for finitely generated modules over a principal ideal domain, wikidata: Q7888360, mathlib: [mathlib-overview, mathlib-1000]}
-  - {name: torsion submodule, kind: definition, decl: Submodule.torsion, wikipedia: Torsion (algebra), wikidata: Q382874}
-  - {name: Cayley–Hamilton theorem for modules, kind: statement, wikipedia: Cayley–Hamilton theorem, wikidata: Q656772}
-  - {name: determinant trick, kind: statement, decl: Submodule.exists_sub_one_mem_and_smul_eq_zero_of_fg_of_le_smul, wikipedia: Nakayama's lemma, wikidata: Q1399751}
-  - {name: Matlis duality, kind: statement, wikipedia: Matlis duality, wikidata: Q6787678}
-  - {name: injective hull, kind: definition, wikipedia: Injective hull, wikidata: Q6034324}
+  - {name: torsion submodule, kind: definition, decl: Submodule.torsion, wikipedia: Torsion (algebra), wikidata: Q382874, node: 6PBS6KW0NC}
+  - {name: Cayley–Hamilton theorem for modules, kind: statement, wikipedia: Cayley–Hamilton theorem, wikidata: Q656772, node: SH3R5VTMZH}
+  - {name: determinant trick, kind: statement, decl: Submodule.exists_sub_one_mem_and_smul_eq_zero_of_fg_of_le_smul, wikipedia: Nakayama's lemma, wikidata: Q1399751, node: A8HRT9H3XA}
+  - {name: Matlis duality, kind: statement, wikipedia: Matlis duality, wikidata: Q6787678, node: 2V9BR5XX6A}
+  - {name: injective hull, kind: definition, wikipedia: Injective hull, wikidata: Q6034324, node: QCJN05GN64}
   # Homological methods
-  - {name: projective resolution, kind: definition, wikipedia: Resolution (algebra), wikidata: Q2112483}
-  - {name: Ext functor, kind: definition, wikipedia: Ext functor, wikidata: Q1384902}
-  - {name: Tor functor, kind: definition, wikipedia: Tor functor, wikidata: Q988381}
-  - {name: projective dimension, kind: definition, wikipedia: Projective module, wikidata: Q942423}
-  - {name: global dimension, kind: definition, wikipedia: Global dimension, wikidata: Q5570832}
-  - {name: Hilbert's syzygy theorem, kind: statement, wikipedia: Hilbert's syzygy theorem, wikidata: Q779220}
-  - {name: regular sequence, kind: definition, decl: RingTheory.Sequence.IsRegular, wikipedia: Regular sequence, wikidata: Q7309617}
-  - {name: depth, kind: definition, decl: Ideal.depth, wikipedia: Depth (ring theory), wikidata: Q3406905}
-  - {name: Koszul complex, kind: definition, wikipedia: Koszul complex, wikidata: Q6433699}
-  - {name: Auslander–Buchsbaum formula, kind: statement, wikipedia: Auslander–Buchsbaum formula, wikidata: Q4822773}
-  - {name: Serre's theorem on regular local rings, kind: statement, wikipedia: Regular local ring, wikidata: Q2138875}
-  - {name: Cohen–Macaulay ring, kind: definition, wikipedia: Cohen–Macaulay ring, wikidata: Q2893695}
-  - {name: Gorenstein ring, kind: definition, wikipedia: Gorenstein ring, wikidata: Q5586177}
-  - {name: complete intersection ring, kind: definition, wikipedia: Complete intersection ring, wikidata: Q5156503}
-  - {name: canonical module, kind: definition, wikipedia: Dualizing module, wikidata: Q5310268}
-  - {name: local cohomology, kind: concept, wikipedia: Local cohomology, wikidata: Q6664297}
-  - {name: Grothendieck's local duality, kind: statement, wikipedia: Local cohomology, wikidata: Q6664297}
-  - {name: Hochster's homological conjectures, kind: conjecture, wikipedia: Homological conjectures in commutative algebra, wikidata: Q5891416}
-  - {name: direct summand conjecture, kind: statement, wikipedia: Homological conjectures in commutative algebra, wikidata: Q5891416}
-  - {name: Hilbert–Burch theorem, kind: statement, wikipedia: Hilbert–Burch theorem, wikidata: Q5761240}
-  - {name: Castelnuovo–Mumford regularity, kind: definition, wikipedia: Castelnuovo–Mumford regularity, wikidata: Q5049716}
-  - {name: Betti numbers of a module, kind: definition, wikipedia: Betti number, wikidata: Q429593}
+  - {name: projective resolution, kind: definition, wikipedia: Resolution (algebra), wikidata: Q2112483, node: HK2AA1YSQ2}
+  - {name: Ext functor, kind: definition, wikipedia: Ext functor, wikidata: Q1384902, node: 4P7GBWJ4RR}
+  - {name: Tor functor, kind: definition, wikipedia: Tor functor, wikidata: Q988381, node: DDQRERAQCV}
+  - {name: projective dimension, kind: definition, wikipedia: Projective module, wikidata: Q942423, node: MR9QCH1PNA}
+  - {name: global dimension, kind: definition, wikipedia: Global dimension, wikidata: Q5570832, node: GWA0T1WKCN}
+  - {name: Hilbert's syzygy theorem, kind: statement, wikipedia: Hilbert's syzygy theorem, wikidata: Q779220, node: R0DSZPRG6T}
+  - {name: regular sequence, kind: definition, decl: RingTheory.Sequence.IsRegular, wikipedia: Regular sequence, wikidata: Q7309617, node: 69R5R2FCS5}
+  - {name: depth, kind: definition, decl: Ideal.depth, wikipedia: Depth (ring theory), wikidata: Q3406905, node: M2RADBFW99}
+  - {name: Koszul complex, kind: definition, wikipedia: Koszul complex, wikidata: Q6433699, node: YZY11W08SD}
+  - {name: Auslander–Buchsbaum formula, kind: statement, wikipedia: Auslander–Buchsbaum formula, wikidata: Q4822773, node: SQB74J5E8Q}
+  - {name: Serre's theorem on regular local rings, kind: statement, wikipedia: Regular local ring, wikidata: Q2138875, node: 93RQRG9R1P}
+  - {name: Cohen–Macaulay ring, kind: definition, wikipedia: Cohen–Macaulay ring, wikidata: Q2893695, node: N1QJQEGBFC}
+  - {name: Gorenstein ring, kind: definition, wikipedia: Gorenstein ring, wikidata: Q5586177, node: T6HCX959PJ}
+  - {name: complete intersection ring, kind: definition, wikipedia: Complete intersection ring, wikidata: Q5156503, node: EPM2HKGMZS}
+  - {name: canonical module, kind: definition, wikipedia: Dualizing module, wikidata: Q5310268, node: W5ECXPM6FW}
+  - {name: local cohomology, kind: concept, wikipedia: Local cohomology, wikidata: Q6664297, node: 6JB30BXDA2}
+  - {name: Grothendieck's local duality, kind: statement, wikipedia: Local cohomology, wikidata: Q6664297, node: VA3DY2YX83}
+  - {name: Hochster's homological conjectures, kind: conjecture, wikipedia: Homological conjectures in commutative algebra, wikidata: Q5891416, node: 1TNS604ZST}
+  - {name: direct summand conjecture, kind: statement, wikipedia: Homological conjectures in commutative algebra, wikidata: Q5891416, node: CQJ1FPKKHT}
+  - {name: Hilbert–Burch theorem, kind: statement, wikipedia: Hilbert–Burch theorem, wikidata: Q5761240, node: AG4FF4DNYQ}
+  - {name: Castelnuovo–Mumford regularity, kind: definition, wikipedia: Castelnuovo–Mumford regularity, wikidata: Q5049716, node: Y76T2DQJPQ}
+  - {name: Betti numbers of a module, kind: definition, wikipedia: Betti number, wikidata: Q429593, node: 3B1743XS7S}
   # Differential methods
-  - {name: derivation, kind: definition, decl: Derivation, wikipedia: Derivation (differential algebra), wikidata: Q451323}
-  - {name: Kähler differentials, kind: definition, decl: KaehlerDifferential, wikipedia: Kähler differential, wikidata: Q1609490}
-  - {name: smooth morphism of rings, kind: definition, decl: Algebra.Smooth, wikipedia: Formally smooth map, wikidata: Q5469991}
-  - {name: unramified morphism of rings, kind: definition, decl: Algebra.Unramified, wikipedia: Unramified morphism, wikidata: Q85812355}
-  - {name: étale morphism of rings, kind: definition, decl: Algebra.Etale, wikipedia: Étale algebra, wikidata: Q17097882}
-  - {name: formally smooth map, kind: definition, decl: Algebra.FormallySmooth, wikipedia: Formally smooth map, wikidata: Q5469991}
-  - {name: Jacobian criterion, kind: statement, wikipedia: Jacobian matrix and determinant, wikidata: Q506041}
-  - {name: Jacobian conjecture, kind: conjecture, wikipedia: Jacobian conjecture, wikidata: Q2605695}
+  - {name: derivation, kind: definition, decl: Derivation, wikipedia: Derivation (differential algebra), wikidata: Q451323, node: 3J89REV9WQ}
+  - {name: Kähler differentials, kind: definition, decl: KaehlerDifferential, wikipedia: Kähler differential, wikidata: Q1609490, node: 7HCFARHG7D}
+  - {name: smooth morphism of rings, kind: definition, decl: Algebra.Smooth, wikipedia: Formally smooth map, wikidata: Q5469991, node: 286G0P1B69}
+  - {name: unramified morphism of rings, kind: definition, decl: Algebra.Unramified, wikipedia: Unramified morphism, wikidata: Q85812355, node: GY3QA6NH0E}
+  - {name: étale morphism of rings, kind: definition, decl: Algebra.Etale, wikipedia: Étale algebra, wikidata: Q17097882, node: FTRW0679E2}
+  - {name: formally smooth map, kind: definition, decl: Algebra.FormallySmooth, wikipedia: Formally smooth map, wikidata: Q5469991, node: 8KPDNVKX7B}
+  - {name: Jacobian criterion, kind: statement, wikipedia: Jacobian matrix and determinant, wikidata: Q506041, node: H1CZXMZ6HE}
+  - {name: Jacobian conjecture, kind: conjecture, wikipedia: Jacobian conjecture, wikidata: Q2605695, node: B5JFXEQQD8}
   # Polynomial rings and invariants
   - {name: polynomial ring, kind: definition, decl: MvPolynomial, wikipedia: Polynomial ring, wikidata: Q1455652, mathlib: [mathlib-undergrad, mathlib-overview], node: 0SDC934R52}
-  - {name: monomial ideal, kind: definition, wikipedia: Monomial ideal, wikidata: Q19369206}
-  - {name: Stanley–Reisner ring, kind: definition, wikipedia: Stanley–Reisner ring, wikidata: Q7600086}
-  - {name: toric ideal, kind: definition, wikipedia: Toric ideal, wikidata: Q131758875}
-  - {name: determinantal ideal, kind: definition, wikipedia: Determinantal variety, wikidata: Q5265691}
-  - {name: Hilbert's fourteenth problem, kind: problem, wikipedia: Hilbert's fourteenth problem, wikidata: Q4515163}
-  - {name: ring of invariants, kind: definition, wikipedia: Invariant theory, wikidata: Q1855669}
-  - {name: Hochster–Roberts theorem, kind: statement, wikipedia: Hochster–Roberts theorem, wikidata: Q5875438}
-  - {name: tight closure, kind: concept, wikipedia: Tight closure, wikidata: Q7801630}
-  - {name: Kunz's theorem, kind: statement, wikipedia: Frobenius endomorphism, wikidata: Q769124}
+  - {name: monomial ideal, kind: definition, wikipedia: Monomial ideal, wikidata: Q19369206, node: 4G25S7PJ22}
+  - {name: Stanley–Reisner ring, kind: definition, wikipedia: Stanley–Reisner ring, wikidata: Q7600086, node: 9186DYXE86}
+  - {name: toric ideal, kind: definition, wikipedia: Toric ideal, wikidata: Q131758875, node: XZBPKQWD0P}
+  - {name: determinantal ideal, kind: definition, wikipedia: Determinantal variety, wikidata: Q5265691, node: SXD7X0WQH1}
+  - {name: Hilbert's fourteenth problem, kind: problem, wikipedia: Hilbert's fourteenth problem, wikidata: Q4515163, node: M5N08HD75V}
+  - {name: ring of invariants, kind: definition, wikipedia: Invariant theory, wikidata: Q1855669, node: 6VTR5EBNYC}
+  - {name: Hochster–Roberts theorem, kind: statement, wikipedia: Hochster–Roberts theorem, wikidata: Q5875438, node: 56107GMFYV}
+  - {name: tight closure, kind: concept, wikipedia: Tight closure, wikidata: Q7801630, node: KJ9MMP99G6}
+  - {name: Kunz's theorem, kind: statement, wikipedia: Frobenius endomorphism, wikidata: Q769124, node: FRCY5BQF6N}
   # Computational commutative algebra
-  - {name: monomial order, kind: definition, decl: MonomialOrder, wikipedia: Monomial order, wikidata: Q934509}
-  - {name: multivariate division algorithm, kind: concept, decl: MonomialOrder.div, wikipedia: Gröbner basis, wikidata: Q1551631}
-  - {name: Gröbner basis, kind: definition, wikipedia: Gröbner basis, wikidata: Q1551631}
-  - {name: Buchberger's algorithm, kind: concept, wikipedia: Buchberger's algorithm, wikidata: Q997962}
+  - {name: monomial order, kind: definition, decl: MonomialOrder, wikipedia: Monomial order, wikidata: Q934509, node: E874NARWPV}
+  - {name: multivariate division algorithm, kind: concept, decl: MonomialOrder.div, wikipedia: Gröbner basis, wikidata: Q1551631, node: T8EN3CAEQF}
+  - {name: Gröbner basis, kind: definition, wikipedia: Gröbner basis, wikidata: Q1551631, node: C83KPT47R0}
+  - {name: Buchberger's algorithm, kind: concept, wikipedia: Buchberger's algorithm, wikidata: Q997962, node: 4RH1D40WG1}
   - {name: Dickson's lemma, kind: statement, wikipedia: Dickson's lemma, wikidata: Q5273779}
-  - {name: elimination theory, kind: concept, wikipedia: Elimination theory, wikidata: Q3526789}
-  - {name: regular chain, kind: definition, wikipedia: Regular chain, wikidata: Q7309593}
+  - {name: elimination theory, kind: concept, wikipedia: Elimination theory, wikidata: Q3526789, node: 9PA8CVSWPD}
+  - {name: regular chain, kind: definition, wikipedia: Regular chain, wikidata: Q7309593, node: 1ZA98AGKGK}
   # Special rings
-  - {name: von Neumann regular ring, kind: definition, wikipedia: Von Neumann regular ring, wikidata: Q2895315}
+  - {name: von Neumann regular ring, kind: definition, wikipedia: Von Neumann regular ring, wikidata: Q2895315, node: DXX7GNY3HE}
   - {name: Hilbert ring, kind: definition, wikipedia: Jacobson ring, wikidata: Q2620920}
-  - {name: finite ring, kind: definition, wikipedia: Finite ring, wikidata: Q2354159}
-  - {name: Galois ring, kind: definition, wikipedia: Finite ring, wikidata: Q2354159}
-  - {name: semiring, kind: definition, wikipedia: Semiring, wikidata: Q1333055}
+  - {name: finite ring, kind: definition, wikipedia: Finite ring, wikidata: Q2354159, node: X6713ZP2NH}
+  - {name: Galois ring, kind: definition, wikipedia: Finite ring, wikidata: Q2354159, node: H9S7RMBMFD}
+  - {name: semiring, kind: definition, wikipedia: Semiring, wikidata: Q1333055, node: D31S3GR51T}

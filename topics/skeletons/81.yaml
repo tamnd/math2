@@ -204,7 +204,7 @@ items:
   - {name: zeta function regularization, kind: concept, wikipedia: Zeta function regularization, wikidata: Q1048264}
   - {name: BPHZ theorem, kind: statement, wikipedia: Bogoliubov–Parasyuk theorem, wikidata: Q4937691}
   - {name: Callan–Symanzik equation, kind: statement, wikipedia: Callan–Symanzik equation, wikidata: Q1027148}
-  - {name: beta function, kind: definition, wikipedia: Beta function (physics), wikidata: Q1750507}
+  - {name: beta function, kind: definition, wikipedia: Beta function (physics), wikidata: Q1750507, node: QHNWVSC6AQ}
   - {name: asymptotic freedom, kind: statement, wikipedia: Asymptotic freedom, wikidata: Q752732}
   - {name: anomaly, kind: concept, wikipedia: Anomaly (physics), wikidata: Q567560}
   - {name: chiral anomaly, kind: statement, wikipedia: Chiral anomaly, wikidata: Q5101826}

@@ -38,7 +38,7 @@ items:
   - {name: Fredholm equation of the first kind, kind: definition, wikipedia: Fredholm integral equation, wikidata: Q2991898}
   - {name: Fredholm equation of the second kind, kind: definition, wikipedia: Fredholm integral equation, wikidata: Q2991898}
   - {name: Fredholm theory, kind: concept, wikipedia: Fredholm theory, wikidata: Q4455098}
-  - {name: Fredholm alternative, kind: statement, wikipedia: Fredholm alternative, wikidata: Q657820}
+  - {name: Fredholm alternative, kind: statement, wikipedia: Fredholm alternative, wikidata: Q657820, node: 4HH8C9V8JQ}
   - {name: Fredholm's theorem, kind: statement, wikipedia: Fredholm's theorem, wikidata: Q3984069}
   - {name: Fredholm determinant, kind: definition, wikipedia: Fredholm determinant, wikidata: Q3045336}
   - {name: Fredholm minors, kind: definition, wikipedia: Fredholm theory, wikidata: Q4455098}
@@ -90,7 +90,7 @@ items:
   - {name: Cauchy principal value integral, kind: definition, wikipedia: Cauchy principal value, wikidata: Q769374}
   - {name: Cauchy-type integral, kind: definition, wikipedia: Sokhotski–Plemelj theorem, wikidata: Q1543149}
   - {name: Sokhotski–Plemelj formulae, kind: statement, wikipedia: Sokhotski–Plemelj theorem, wikidata: Q1543149}
-  - {name: Riemann–Hilbert problem, kind: problem, wikipedia: Riemann–Hilbert problem, wikidata: Q5986515}
+  - {name: Riemann–Hilbert problem, kind: problem, wikipedia: Riemann–Hilbert problem, wikidata: Q5986515, node: RY8YQ9JZF9}
   - {name: index of a singular integral operator, kind: definition, wikipedia: Singular integral operators on closed curves, wikidata: Q7524243}
   - {name: Noether theorems for singular integral equations, kind: statement, wikipedia: Singular integral operators on closed curves, wikidata: Q7524243}
   - {name: Carleman's singular integral equation, kind: example, wikipedia: Singular integral operators on closed curves, wikidata: Q7524243}
@@ -170,8 +170,8 @@ items:
   - {name: Schur test, kind: statement, wikipedia: Schur test, wikidata: Q4456448}
   - {name: Young's inequality for integral operators, kind: statement, wikipedia: Young's convolution inequality, wikidata: Q30752114}
   - {name: Hardy's integral inequality, kind: statement, wikipedia: Hardy's inequality, wikidata: Q944228}
-  - {name: Hilbert's inequality, kind: statement, wikipedia: Hilbert's inequality, wikidata: Q3153998}
-  - {name: Hilbert matrix, kind: example, wikipedia: Hilbert matrix, wikidata: Q612991}
+  - {name: Hilbert's inequality, kind: statement, wikipedia: Hilbert's inequality, wikidata: Q3153998, node: G4R4MWWP3C}
+  - {name: Hilbert matrix, kind: example, wikipedia: Hilbert matrix, wikidata: Q612991, node: 2DTWB6F5TA}
   - {name: Riesz potential operator, kind: definition, wikipedia: Riesz potential, wikidata: Q7333166}
   # Inverse problems for integral equations
   - {name: ill-posedness of first-kind equations, kind: statement, wikipedia: Well-posed problem, wikidata: Q1455898}

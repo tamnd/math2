@@ -100,8 +100,8 @@ items:
   - {name: space of convergent sequences c, kind: example, wikipedia: C space, wikidata: Q5015141}
   - {name: Lp space, kind: definition, decl: MeasureTheory.Lp, wikipedia: Lp space, wikidata: Q305936, mathlib: [mathlib-undergrad, mathlib-overview]}
   - {name: Riesz–Fischer theorem, kind: statement, decl: MeasureTheory.Lp.instCompleteSpace, wikipedia: Riesz–Fischer theorem, wikidata: Q643513, mathlib: [mathlib-undergrad]}
-  - {name: Hölder's inequality, kind: statement, wikipedia: Hölder's inequality, wikidata: Q731894}
-  - {name: Minkowski inequality, kind: statement, wikipedia: Minkowski inequality, wikidata: Q755092}
+  - {name: Hölder's inequality, kind: statement, wikipedia: Hölder's inequality, wikidata: Q731894, node: JQ9WXC729D}
+  - {name: Minkowski inequality, kind: statement, wikipedia: Minkowski inequality, wikidata: Q755092, node: N4QZS912MT}
   - {name: duality of Lp spaces, kind: statement, wikipedia: Riesz representation theorem, wikidata: Q1357684}
   - {name: Clarkson's inequalities, kind: statement, wikipedia: Clarkson's inequalities, wikidata: Q5127621}
   - {name: space of bounded continuous functions, kind: definition, decl: BoundedContinuousFunction, wikipedia: Space of continuous functions on a compact space, wikidata: Q5165477}
@@ -122,12 +122,12 @@ items:
   - {name: trace operator, kind: definition, wikipedia: Trace operator, wikidata: Q13581708}
   - {name: Besov space, kind: definition, wikipedia: Besov space, wikidata: Q526261}
   - {name: Triebel–Lizorkin space, kind: definition, wikipedia: Triebel–Lizorkin space, wikidata: Q7841428}
-  - {name: Hardy space, kind: definition, wikipedia: Hardy space, wikidata: Q1585233}
-  - {name: bounded mean oscillation, kind: definition, wikipedia: Bounded mean oscillation, wikidata: Q796341}
-  - {name: Bergman space, kind: definition, wikipedia: Bergman space, wikidata: Q3058183}
+  - {name: Hardy space, kind: definition, wikipedia: Hardy space, wikidata: Q1585233, node: PNNNFJVF6W}
+  - {name: bounded mean oscillation, kind: definition, wikipedia: Bounded mean oscillation, wikidata: Q796341, node: QJYTXFT8Y4}
+  - {name: Bergman space, kind: definition, wikipedia: Bergman space, wikidata: Q3058183, node: 2D619WTPYC}
   - {name: reproducing kernel Hilbert space, kind: definition, wikipedia: Reproducing kernel Hilbert space, wikidata: Q3345678}
   - {name: Mercer's theorem, kind: statement, wikipedia: Mercer's theorem, wikidata: Q1716166}
-  - {name: Paley–Wiener theorem, kind: statement, wikipedia: Paley–Wiener theorem, wikidata: Q1119094}
+  - {name: Paley–Wiener theorem, kind: statement, wikipedia: Paley–Wiener theorem, wikidata: Q1119094, node: THY12GPZ8C}
   # Interpolation of operators and spaces
   - {name: interpolation space, kind: definition, wikipedia: Interpolation space, wikidata: Q3058180}
   - {name: Riesz–Thorin theorem, kind: statement, wikipedia: Riesz–Thorin theorem, wikidata: Q245902}
@@ -157,7 +157,7 @@ items:
   - {name: Krein space, kind: definition, wikipedia: Indefinite inner product space, wikidata: Q1787158}
   - {name: Hilbert C*-module, kind: definition, decl: CStarModule, wikipedia: Hilbert C*-module, wikidata: Q5761182}
   # Distributions and generalized functions
-  - {name: bump function, kind: definition, decl: ContDiffBump, wikipedia: Bump function, wikidata: Q1143737}
+  - {name: bump function, kind: definition, decl: ContDiffBump, wikipedia: Bump function, wikidata: Q1143737, node: HS65DW0HXH}
   - {name: distribution, kind: definition, decl: Distribution, wikipedia: Distribution (mathematical analysis), wikidata: Q865811, mathlib: [mathlib-undergrad, mathlib-overview], node: 0DVDCMA2DK}
   - {name: Schwartz space, kind: definition, decl: SchwartzMap, wikipedia: Schwartz space, wikidata: Q1369621, mathlib: [mathlib-undergrad, mathlib-overview]}
   - {name: tempered distribution, kind: definition, decl: TemperedDistribution, wikipedia: Distribution (mathematical analysis), wikidata: Q865811, mathlib: [mathlib-undergrad, mathlib-overview]}
@@ -197,9 +197,9 @@ items:
   - {name: resolvent set, kind: definition, decl: resolventSet, wikipedia: Resolvent set, wikidata: Q7315720}
   - {name: compactness of the spectrum, kind: statement, decl: spectrum.isCompact, wikipedia: Spectrum (functional analysis), wikidata: Q1365748}
   - {name: nonemptiness of the spectrum, kind: statement, decl: spectrum.nonempty, wikipedia: Spectrum (functional analysis), wikidata: Q1365748}
-  - {name: spectral radius, kind: definition, decl: spectralRadius, wikipedia: Spectral radius, wikidata: Q249748}
+  - {name: spectral radius, kind: definition, decl: spectralRadius, wikipedia: Spectral radius, wikidata: Q249748, node: 9V7YQA85PC}
   - {name: Gelfand's spectral radius formula, kind: statement, decl: spectrum.gelfand_formula, wikipedia: Spectral radius, wikidata: Q249748}
-  - {name: Gelfand–Mazur theorem, kind: statement, decl: NormedRing.algEquivComplexOfComplete, wikipedia: Gelfand–Mazur theorem, wikidata: Q2226677, mathlib: [mathlib-1000]}
+  - {name: Gelfand–Mazur theorem, kind: statement, decl: NormedRing.algEquivComplexOfComplete, wikipedia: Gelfand–Mazur theorem, wikidata: Q2226677, mathlib: [mathlib-1000], node: 3D6XH41A3B}
   - {name: spectral mapping theorem for polynomials, kind: statement, decl: spectrum.map_polynomial_aeval, wikipedia: Spectral theory, wikidata: Q2409122}
   - {name: holomorphic functional calculus, kind: concept, wikipedia: Holomorphic functional calculus, wikidata: Q1625064}
   - {name: approximate identity, kind: definition, decl: Filter.IsApproximateUnit, wikipedia: Approximate identity, wikidata: Q621743}
@@ -210,7 +210,7 @@ items:
   - {name: Gelfand transform, kind: definition, decl: WeakDual.gelfandTransform, wikipedia: Gelfand representation, wikidata: Q1499675}
   - {name: Shilov boundary, kind: definition, wikipedia: Shilov boundary, wikidata: Q1632516}
   - {name: uniform algebra, kind: definition, wikipedia: Uniform algebra, wikidata: Q7885096}
-  - {name: disk algebra, kind: example, wikipedia: Disk algebra, wikidata: Q2676720}
+  - {name: disk algebra, kind: example, wikipedia: Disk algebra, wikidata: Q2676720, node: DGWYF0B6NT}
   - {name: group algebra of a locally compact group, kind: definition, wikipedia: Group algebra of a locally compact group, wikidata: Q17019511}
   - {name: Wiener's lemma, kind: statement, wikipedia: Wiener's lemma, wikidata: Q60790911}
   - {name: Wiener's tauberian theorem, kind: statement, wikipedia: Wiener's Tauberian theorem, wikidata: Q3527279}

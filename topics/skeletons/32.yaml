@@ -24,10 +24,10 @@ items:
   - {name: holomorphic functions are analytic, kind: statement, decl: DifferentiableOn.analyticAt, wikipedia: Analyticity of holomorphic functions, wikidata: Q4751162, mathlib: [mathlib-undergrad, mathlib-overview], node: 0826SGV3R0}
   - {name: identity theorem in several variables, kind: statement, decl: AnalyticOnNhd.eqOn_of_preconnected_of_eventuallyEq, wikipedia: Identity theorem, wikidata: Q1038716}
   - {name: maximum modulus principle in several variables, kind: statement, decl: Complex.eqOn_of_isPreconnected_of_isMaxOn_norm, wikipedia: Maximum modulus principle, wikidata: Q1050230}
-  - {name: Osgood's lemma, kind: statement, wikipedia: Osgood's lemma, wikidata: Q7106530}
+  - {name: Osgood's lemma, kind: statement, wikipedia: Osgood's lemma, wikidata: Q7106530, node: NBFNXA2WFM}
   - {name: Hartogs's theorem on separate holomorphicity, kind: statement, wikipedia: Hartogs's theorem on separate holomorphicity, wikidata: Q1050932}
   - {name: Cauchy–Riemann equations in several variables, kind: definition, wikipedia: Cauchy–Riemann equations, wikidata: Q622741}
-  - {name: Wirtinger derivatives, kind: definition, wikipedia: Wirtinger derivatives, wikidata: Q8027031}
+  - {name: Wirtinger derivatives, kind: definition, wikipedia: Wirtinger derivatives, wikidata: Q8027031, node: WMXDVF36ZT}
   - {name: dbar operator, kind: definition, wikipedia: Complex differential form, wikidata: Q1780913}
   - {name: '(p,q)-form', kind: definition, wikipedia: Complex differential form, wikidata: Q1780913}
   - {name: inhomogeneous Cauchy–Riemann equations, kind: problem, wikipedia: Dolbeault cohomology, wikidata: Q1235317}
@@ -42,7 +42,7 @@ items:
   - {name: holomorphic automorphisms of C^n, kind: concept, wikipedia: Function of several complex variables, wikidata: Q2052951}
   - {name: meromorphic function of several variables, kind: definition, wikipedia: Meromorphic function, wikidata: Q217616}
   - {name: Levi's extension theorem for meromorphic functions, kind: statement, wikipedia: Hartogs's extension theorem, wikidata: Q383238}
-  - {name: Jacobian conjecture, kind: conjecture, wikipedia: Jacobian conjecture, wikidata: Q2605695}
+  - {name: Jacobian conjecture, kind: conjecture, wikipedia: Jacobian conjecture, wikidata: Q2605695, node: B5JFXEQQD8}
   # Extension phenomena and analytic continuation
   - {name: Hartogs figure, kind: example, wikipedia: Hartogs's extension theorem, wikidata: Q383238}
   - {name: Hartogs's extension theorem, kind: statement, wikipedia: Hartogs's extension theorem, wikidata: Q383238}
@@ -104,7 +104,7 @@ items:
   - {name: germ of a holomorphic function, kind: definition, wikipedia: Germ (mathematics), wikidata: Q2520842}
   - {name: ring of convergent power series, kind: definition, wikipedia: Function of several complex variables, wikidata: Q2052951}
   - {name: Weierstrass polynomial, kind: definition, wikipedia: Weierstrass preparation theorem, wikidata: Q3527219}
-  - {name: Weierstrass preparation theorem, kind: statement, wikipedia: Weierstrass preparation theorem, wikidata: Q3527219}
+  - {name: Weierstrass preparation theorem, kind: statement, wikipedia: Weierstrass preparation theorem, wikidata: Q3527219, node: 49JSD49P7X}
   - {name: Weierstrass division theorem, kind: statement, wikipedia: Weierstrass preparation theorem, wikidata: Q3527219}
   - {name: the local ring of holomorphic germs is Noetherian and factorial, kind: statement, wikipedia: Function of several complex variables, wikidata: Q2052951}
   - {name: analytic set, kind: definition, wikipedia: Analytic set, wikidata: Q485312}
@@ -171,7 +171,7 @@ items:
   - {name: Green–Griffiths–Lang conjecture, kind: conjecture, wikipedia: Kobayashi metric, wikidata: Q6424284}
   - {name: Lempert's theorem on convex domains, kind: statement, wikipedia: Kobayashi metric, wikidata: Q6424284}
   - {name: complex geodesic, kind: definition, wikipedia: Kobayashi metric, wikidata: Q6424284}
-  - {name: Bergman kernel, kind: definition, wikipedia: Bergman kernel, wikidata: Q3345664}
+  - {name: Bergman kernel, kind: definition, wikipedia: Bergman kernel, wikidata: Q3345664, node: 8RWDHW0CXC}
   - {name: Bergman metric, kind: definition, wikipedia: Bergman metric, wikidata: Q4891698}
   - {name: Bergman projection, kind: definition, wikipedia: Bergman kernel, wikidata: Q3345664}
   - {name: Szegő kernel, kind: definition, wikipedia: Szegő kernel, wikidata: Q7664533}

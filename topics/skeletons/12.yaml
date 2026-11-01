@@ -14,12 +14,12 @@ items:
   - {name: field, kind: definition, decl: Field, wikipedia: Field (mathematics), wikidata: Q190109, mathlib: [mathlib-undergrad, mathlib-overview], node: 04C5ZBG1WT}
   - {name: subfield, kind: definition, decl: Subfield, wikipedia: Field (mathematics), wikidata: Q190109, mathlib: [mathlib-undergrad, mathlib-overview], node: 0GFGHRT2FJ}
   - {name: division ring, kind: definition, decl: DivisionRing, wikipedia: Division ring, wikidata: Q650741, node: 0EA5BTA0CX}
-  - {name: characteristic of a field, kind: definition, decl: ringChar, wikipedia: Characteristic (algebra), wikidata: Q836088, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: characteristic of a field, kind: definition, decl: ringChar, wikipedia: Characteristic (algebra), wikidata: Q836088, mathlib: [mathlib-undergrad, mathlib-overview], node: 1ZB13N78XW}
   - {name: prime field, kind: definition, wikipedia: Field (mathematics), wikidata: Q190109, node: 0TNS65QB87}
   - {name: field of fractions, kind: definition, wikipedia: Field of fractions, wikidata: Q774579, node: 0F2PTGX1A2}
-  - {name: field homomorphism, kind: definition, wikipedia: Field (mathematics), wikidata: Q190109}
+  - {name: field homomorphism, kind: definition, wikipedia: Field (mathematics), wikidata: Q190109, node: EZVN87C88J}
   - {name: Frobenius endomorphism, kind: definition, decl: frobenius, wikipedia: Frobenius endomorphism, wikidata: Q769124, mathlib: [mathlib-undergrad, mathlib-overview], node: 0T3WVTD675}
-  - {name: field of rational functions, kind: definition, decl: RatFunc, wikipedia: Rational function, wikidata: Q41237, mathlib: [mathlib-undergrad]}
+  - {name: field of rational functions, kind: definition, decl: RatFunc, wikipedia: Rational function, wikidata: Q41237, mathlib: [mathlib-undergrad], node: 4V81611P9N}
   - {name: rational numbers, kind: object, wikipedia: Rational number, wikidata: Q1244890, node: 0NCJ5WXN6Z}
   - {name: real numbers, kind: object, decl: Real, wikipedia: Real number, wikidata: Q12916, mathlib: [mathlib-undergrad, mathlib-overview], node: 08J2M1JYAG}
   - {name: complex numbers, kind: object, decl: Complex, wikipedia: Complex number, wikidata: Q11567, mathlib: [mathlib-overview], node: 09FTAET5Z4}
@@ -27,52 +27,52 @@ items:
   - {name: polynomial ring, kind: definition, decl: Polynomial, wikipedia: Polynomial ring, wikidata: Q1455652, mathlib: [mathlib-overview], node: 0SDC934R52}
   - {name: degree of a polynomial, kind: definition, decl: Polynomial.degree, wikipedia: Degree of a polynomial, wikidata: Q1473607, node: 0P4JRMSWNH}
   - {name: monic polynomial, kind: definition, decl: Polynomial.Monic, wikipedia: Monic polynomial, wikidata: Q3099696, node: 0C3QBCR46M}
-  - {name: polynomial long division, kind: concept, decl: Polynomial.modByMonic, wikipedia: Polynomial long division, wikidata: Q1068675}
-  - {name: polynomial greatest common divisor, kind: definition, wikipedia: Polynomial greatest common divisor, wikidata: Q7226640}
+  - {name: polynomial long division, kind: concept, decl: Polynomial.modByMonic, wikipedia: Polynomial long division, wikidata: Q1068675, node: D6D0SR1FK3}
+  - {name: polynomial greatest common divisor, kind: definition, wikipedia: Polynomial greatest common divisor, wikidata: Q7226640, node: Q75YRG25JK}
   - {name: root of a polynomial, kind: definition, decl: Polynomial.IsRoot, wikipedia: Zero of a function, wikidata: Q214604, node: 019MA1VTR2}
   - {name: factor theorem, kind: statement, wikipedia: Factor theorem, wikidata: Q1108687, node: 0K3MWA7DMC}
   - {name: polynomial remainder theorem, kind: statement, wikipedia: Polynomial remainder theorem, wikidata: Q1071948, node: 0TEDQH56RW}
-  - {name: bound on the number of roots, kind: statement, decl: Polynomial.card_roots', wikipedia: Geometrical properties of polynomial roots, wikidata: Q12859399}
+  - {name: bound on the number of roots, kind: statement, decl: Polynomial.card_roots', wikipedia: Geometrical properties of polynomial roots, wikidata: Q12859399, node: 0KJVQV3E0F}
   - {name: multiplicity of a root, kind: definition, decl: Polynomial.rootMultiplicity, wikipedia: Multiplicity (mathematics), wikidata: Q2228257, mathlib: [mathlib-undergrad, mathlib-overview], node: 047SX3TD69}
   - {name: formal derivative, kind: definition, decl: Polynomial.derivative, wikipedia: Formal derivative, wikidata: Q1955819, mathlib: [mathlib-undergrad], node: 0EGN1E1JPB}
   - {name: rational root theorem, kind: statement, decl: num_dvd_of_is_root, wikipedia: Rational root theorem, wikidata: Q180345, mathlib: [mathlib-1000], node: 0819CQ1V8H}
   - {name: Vieta's formulas, kind: statement, decl: Multiset.prod_X_sub_C_coeff, wikipedia: Vieta's formulas, wikidata: Q570779, node: 0M8EWQJ1YV}
-  - {name: discriminant, kind: definition, decl: Polynomial.discr, wikipedia: Discriminant, wikidata: Q192487}
-  - {name: resultant, kind: definition, decl: Polynomial.resultant, wikipedia: Resultant, wikidata: Q1168321}
-  - {name: Lagrange interpolation, kind: concept, decl: Lagrange.interpolate, wikipedia: Lagrange polynomial, wikidata: Q861606, mathlib: [mathlib-undergrad]}
-  - {name: polynomial interpolation, kind: concept, wikipedia: Polynomial interpolation, wikidata: Q637347}
-  - {name: Horner's method, kind: concept, wikipedia: Horner's method, wikidata: Q944658}
-  - {name: Chebyshev polynomials, kind: object, decl: Polynomial.Chebyshev.T, wikipedia: Chebyshev polynomials, wikidata: Q619511}
-  - {name: Hermite polynomials, kind: object, decl: Polynomial.hermite, wikipedia: Hermite polynomials, wikidata: Q658574}
-  - {name: Bernoulli polynomials, kind: object, decl: Polynomial.bernoulli, wikipedia: Bernoulli polynomials, wikidata: Q2346201}
-  - {name: Mahler measure, kind: definition, decl: Polynomial.mahlerMeasure, wikipedia: Mahler measure, wikidata: Q6734205}
-  - {name: Lehmer's conjecture, kind: conjecture, wikipedia: Lehmer's conjecture, wikidata: Q6518929}
-  - {name: Mason–Stothers theorem, kind: statement, decl: Polynomial.abc, wikipedia: Mason–Stothers theorem, wikidata: Q6783821, mathlib: [mathlib-1000]}
+  - {name: discriminant, kind: definition, decl: Polynomial.discr, wikipedia: Discriminant, wikidata: Q192487, node: 0VVK64Q4JK}
+  - {name: resultant, kind: definition, decl: Polynomial.resultant, wikipedia: Resultant, wikidata: Q1168321, node: NNPHTWF645}
+  - {name: Lagrange interpolation, kind: concept, decl: Lagrange.interpolate, wikipedia: Lagrange polynomial, wikidata: Q861606, mathlib: [mathlib-undergrad], node: 237KR6FRCK}
+  - {name: polynomial interpolation, kind: concept, wikipedia: Polynomial interpolation, wikidata: Q637347, node: SS1YMS2NPC}
+  - {name: Horner's method, kind: concept, wikipedia: Horner's method, wikidata: Q944658, node: FYBQ3Z52Z7}
+  - {name: Chebyshev polynomials, kind: object, decl: Polynomial.Chebyshev.T, wikipedia: Chebyshev polynomials, wikidata: Q619511, node: M6EAR1JHPP}
+  - {name: Hermite polynomials, kind: object, decl: Polynomial.hermite, wikipedia: Hermite polynomials, wikidata: Q658574, node: MGACY98E9H}
+  - {name: Bernoulli polynomials, kind: object, decl: Polynomial.bernoulli, wikipedia: Bernoulli polynomials, wikidata: Q2346201, node: BXQKBJJGFG}
+  - {name: Mahler measure, kind: definition, decl: Polynomial.mahlerMeasure, wikipedia: Mahler measure, wikidata: Q6734205, node: QVPYBPRHRC}
+  - {name: Lehmer's conjecture, kind: conjecture, wikipedia: Lehmer's conjecture, wikidata: Q6518929, node: NDRRH2YD2C}
+  - {name: Mason–Stothers theorem, kind: statement, decl: Polynomial.abc, wikipedia: Mason–Stothers theorem, wikidata: Q6783821, mathlib: [mathlib-1000], node: ZWPWF6NJC3}
   # Irreducibility
   - {name: irreducible polynomial, kind: definition, decl: Irreducible, wikipedia: Irreducible polynomial, wikidata: Q1476663, mathlib: [mathlib-undergrad, mathlib-overview], node: 03FKX7Z5DC}
   - {name: primitive polynomial, kind: definition, decl: Polynomial.IsPrimitive, wikipedia: Primitive part and content, wikidata: Q1663499, node: 0TXNRQZY0H}
   - {name: content of a polynomial, kind: definition, decl: Polynomial.content, wikipedia: Primitive part and content, wikidata: Q1663499, node: 0R2X8K9QA7}
-  - {name: Gauss's lemma (polynomials), kind: statement, decl: Polynomial.IsPrimitive.irreducible_iff_irreducible_map_fraction_map, wikipedia: Gauss's lemma (polynomials), wikidata: Q587938}
+  - {name: Gauss's lemma (polynomials), kind: statement, decl: Polynomial.IsPrimitive.irreducible_iff_irreducible_map_fraction_map, wikipedia: Gauss's lemma (polynomials), wikidata: Q587938, node: 0QFV5Y1Z5X}
   - {name: Eisenstein's criterion, kind: statement, decl: Polynomial.irreducible_of_eisenstein_criterion, wikipedia: Eisenstein's criterion, wikidata: Q1057416, mathlib: [mathlib-undergrad, mathlib-overview], node: 02BPKD7TMD}
-  - {name: reduction modulo a prime, kind: statement, decl: Polynomial.Monic.irreducible_of_irreducible_map, wikipedia: Irreducible polynomial, wikidata: Q1476663}
-  - {name: Perron's irreducibility criterion, kind: statement, wikipedia: Perron's irreducibility criterion, wikidata: Q104857583}
-  - {name: Cohn's irreducibility criterion, kind: statement, wikipedia: Cohn's irreducibility criterion, wikidata: Q2269888}
-  - {name: Capelli's theorem, kind: statement, decl: X_pow_sub_C_irreducible_iff_of_prime, wikipedia: Irreducible polynomial, wikidata: Q1476663}
-  - {name: Hilbert's irreducibility theorem, kind: statement, wikipedia: Hilbert's irreducibility theorem, wikidata: Q5761142}
-  - {name: factorization of polynomials, kind: concept, wikipedia: Factorization of polynomials, wikidata: Q392477}
-  - {name: factorization of polynomials over finite fields, kind: concept, wikipedia: Factorization of polynomials over finite fields, wikidata: Q5428743}
-  - {name: Berlekamp's algorithm, kind: concept, wikipedia: Berlekamp's algorithm, wikidata: Q821001}
+  - {name: reduction modulo a prime, kind: statement, decl: Polynomial.Monic.irreducible_of_irreducible_map, wikipedia: Irreducible polynomial, wikidata: Q1476663, node: 0KWWEXW0RN}
+  - {name: Perron's irreducibility criterion, kind: statement, wikipedia: Perron's irreducibility criterion, wikidata: Q104857583, node: 5BCRQYVYR8}
+  - {name: Cohn's irreducibility criterion, kind: statement, wikipedia: Cohn's irreducibility criterion, wikidata: Q2269888, node: 246SBC2M2N}
+  - {name: Capelli's theorem, kind: statement, decl: X_pow_sub_C_irreducible_iff_of_prime, wikipedia: Irreducible polynomial, wikidata: Q1476663, node: HC5NDQ3DTS}
+  - {name: Hilbert's irreducibility theorem, kind: statement, wikipedia: Hilbert's irreducibility theorem, wikidata: Q5761142, node: N1V3YEYHNP}
+  - {name: factorization of polynomials, kind: concept, wikipedia: Factorization of polynomials, wikidata: Q392477, node: JWB6B13Q8Z}
+  - {name: factorization of polynomials over finite fields, kind: concept, wikipedia: Factorization of polynomials over finite fields, wikidata: Q5428743, node: XNE7F0BAGE}
+  - {name: Berlekamp's algorithm, kind: concept, wikipedia: Berlekamp's algorithm, wikidata: Q821001, node: EM8MFGFAGN}
   - {name: cyclotomic polynomial, kind: definition, decl: Polynomial.cyclotomic, wikipedia: Cyclotomic polynomial, wikidata: Q1051983, mathlib: [mathlib-undergrad], node: 08KEYFAH66}
-  - {name: irreducibility of cyclotomic polynomials, kind: statement, decl: Polynomial.cyclotomic.irreducible_rat, wikipedia: Cyclotomic polynomial, wikidata: Q1051983}
+  - {name: irreducibility of cyclotomic polynomials, kind: statement, decl: Polynomial.cyclotomic.irreducible_rat, wikipedia: Cyclotomic polynomial, wikidata: Q1051983, node: 0SK1VHZ5R2}
   # Polynomials in several variables and symmetric functions
   - {name: multivariate polynomial ring, kind: definition, decl: MvPolynomial, wikipedia: Polynomial ring, wikidata: Q1455652, mathlib: [mathlib-undergrad, mathlib-overview], node: 07GNX8GCYP}
-  - {name: homogeneous polynomial, kind: definition, wikipedia: Homogeneous polynomial, wikidata: Q1474074}
+  - {name: homogeneous polynomial, kind: definition, wikipedia: Homogeneous polynomial, wikidata: Q1474074, node: 2C3PAQ7H50}
   - {name: symmetric polynomial, kind: definition, decl: MvPolynomial.IsSymmetric, wikipedia: Symmetric polynomial, wikidata: Q930499, mathlib: [mathlib-undergrad], node: 0VHSHB9B6J}
   - {name: elementary symmetric polynomial, kind: definition, decl: MvPolynomial.esymm, wikipedia: Elementary symmetric polynomial, wikidata: Q2235316, node: 0X5QVCF06N}
   - {name: fundamental theorem of symmetric polynomials, kind: statement, decl: MvPolynomial.esymmAlgEquiv, wikipedia: Elementary symmetric polynomial, wikidata: Q2235316, node: 0GW1ZZH0R4}
   - {name: power sum symmetric polynomial, kind: definition, decl: MvPolynomial.psum, wikipedia: Power sum symmetric polynomial, wikidata: Q1298683, node: 0ZNXZB4HNB}
   - {name: Newton's identities, kind: statement, decl: MvPolynomial.psum_eq_mul_esymm_sub_sum, wikipedia: Newton's identities, wikidata: Q1749812, node: 0WG2A3HE0S}
-  - {name: Lagrange resolvent, kind: concept, wikipedia: Resolvent (Galois theory), wikidata: Q4392490}
+  - {name: Lagrange resolvent, kind: concept, wikipedia: Resolvent (Galois theory), wikidata: Q4392490, node: 2GDFFH7Y7T}
   # Field extensions
   - {name: field extension, kind: definition, wikipedia: Field extension, wikidata: Q577835, node: 0EQWVHF3W5}
   - {name: intermediate field, kind: definition, decl: IntermediateField, wikipedia: Field extension, wikidata: Q577835, node: 0Z409N8RDG}
@@ -83,164 +83,164 @@ items:
   - {name: algebraic element, kind: definition, decl: IsAlgebraic, wikipedia: Algebraic element, wikidata: Q162608, mathlib: [mathlib-undergrad], node: 0H628RSGWX}
   - {name: algebraic extension, kind: definition, decl: Algebra.IsAlgebraic, wikipedia: Algebraic extension, wikidata: Q550791, mathlib: [mathlib-undergrad, mathlib-overview], node: 0PTBM7K0R2}
   - {name: minimal polynomial, kind: definition, decl: minpoly, wikipedia: Minimal polynomial (field theory), wikidata: Q2242730, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: irreducibility of the minimal polynomial, kind: statement, decl: minpoly.irreducible, wikipedia: Minimal polynomial (field theory), wikidata: Q2242730}
+  - {name: irreducibility of the minimal polynomial, kind: statement, decl: minpoly.irreducible, wikipedia: Minimal polynomial (field theory), wikidata: Q2242730, node: 0NFEG48RDR}
   - {name: splitting field, kind: definition, decl: Polynomial.SplittingField, wikipedia: Splitting field, wikidata: Q1996100, mathlib: [mathlib-undergrad, mathlib-overview], node: 0KXQKX9P63}
   - {name: split polynomial, kind: definition, decl: Polynomial.Splits, wikipedia: Splitting field, wikidata: Q1996100, node: 0JVSNJCN68}
   - {name: uniqueness of splitting fields, kind: statement, decl: Polynomial.IsSplittingField.algEquiv, wikipedia: Splitting field, wikidata: Q1996100, node: 069A3BC3EP}
   - {name: normal extension, kind: definition, decl: Normal, wikipedia: Normal extension, wikidata: Q2331395, node: 08S0NW8SES}
-  - {name: normal closure, kind: definition, decl: IntermediateField.normalClosure, wikipedia: Normal extension, wikidata: Q2331395}
+  - {name: normal closure, kind: definition, decl: IntermediateField.normalClosure, wikipedia: Normal extension, wikidata: Q2331395, node: 6XM4CCVTKE}
   - {name: separable polynomial, kind: definition, decl: Polynomial.Separable, wikipedia: Separable polynomial, wikidata: Q2530089, mathlib: [mathlib-overview], node: 0RZ89QWTSJ}
   - {name: separable extension, kind: definition, decl: Algebra.IsSeparable, wikipedia: Separable extension, wikidata: Q2264756, node: 0WCX7NB4N7}
-  - {name: purely inseparable extension, kind: definition, decl: IsPurelyInseparable, wikipedia: Purely inseparable extension, wikidata: Q7261176}
-  - {name: separable degree, kind: definition, decl: Field.finSepDegree, wikipedia: Separable extension, wikidata: Q2264756}
-  - {name: separable closure, kind: definition, decl: separableClosure, wikipedia: Separable extension, wikidata: Q2264756}
-  - {name: perfect field, kind: definition, decl: PerfectField, wikipedia: Perfect field, wikidata: Q2997817}
-  - {name: perfect closure, kind: definition, decl: perfectClosure, wikipedia: Perfect field, wikidata: Q2997817}
+  - {name: purely inseparable extension, kind: definition, decl: IsPurelyInseparable, wikipedia: Purely inseparable extension, wikidata: Q7261176, node: 966GNVGB8A}
+  - {name: separable degree, kind: definition, decl: Field.finSepDegree, wikipedia: Separable extension, wikidata: Q2264756, node: H5YX5B7GVM}
+  - {name: separable closure, kind: definition, decl: separableClosure, wikipedia: Separable extension, wikidata: Q2264756, node: JJ91A1V8NQ}
+  - {name: perfect field, kind: definition, decl: PerfectField, wikipedia: Perfect field, wikidata: Q2997817, node: VWBVKT794W}
+  - {name: perfect closure, kind: definition, decl: perfectClosure, wikipedia: Perfect field, wikidata: Q2997817, node: PWNZQVQ175}
   - {name: primitive element theorem, kind: statement, decl: Field.exists_primitive_element, wikipedia: Primitive element theorem, wikidata: Q2093886, mathlib: [mathlib-1000], node: 0SVX98HYV1}
-  - {name: compositum of fields, kind: definition, wikipedia: Tensor product of fields, wikidata: Q340145}
-  - {name: linearly disjoint extensions, kind: definition, wikipedia: Linear disjointness, wikidata: Q3062530}
-  - {name: field norm, kind: definition, decl: Algebra.norm, wikipedia: Field norm, wikidata: Q1999258}
-  - {name: field trace, kind: definition, decl: Algebra.trace, wikipedia: Field trace, wikidata: Q2450665}
-  - {name: trace form, kind: definition, decl: Algebra.traceForm, wikipedia: Field trace, wikidata: Q2450665}
-  - {name: discriminant of a field extension, kind: definition, decl: Algebra.discr, wikipedia: Discriminant of an algebraic number field, wikidata: Q1228885}
-  - {name: tensor product of fields, kind: concept, wikipedia: Tensor product of fields, wikidata: Q340145}
+  - {name: compositum of fields, kind: definition, wikipedia: Tensor product of fields, wikidata: Q340145, node: T1S29NN8PE}
+  - {name: linearly disjoint extensions, kind: definition, wikipedia: Linear disjointness, wikidata: Q3062530, node: N6YZFG66YP}
+  - {name: field norm, kind: definition, decl: Algebra.norm, wikipedia: Field norm, wikidata: Q1999258, node: KRNFEZWPY0}
+  - {name: field trace, kind: definition, decl: Algebra.trace, wikipedia: Field trace, wikidata: Q2450665, node: WPE5Z53QYJ}
+  - {name: trace form, kind: definition, decl: Algebra.traceForm, wikipedia: Field trace, wikidata: Q2450665, node: YWX2R53ED6}
+  - {name: discriminant of a field extension, kind: definition, decl: Algebra.discr, wikipedia: Discriminant of an algebraic number field, wikidata: Q1228885, node: 3BCYVS9E17}
+  - {name: tensor product of fields, kind: concept, wikipedia: Tensor product of fields, wikidata: Q340145, node: ANH16GQJZQ}
   # Algebraic closure
   - {name: algebraically closed field, kind: definition, decl: IsAlgClosed, wikipedia: Algebraically closed field, wikidata: Q1047547, mathlib: [mathlib-undergrad, mathlib-overview], node: 0PF6TM8TWT}
   - {name: algebraic closure, kind: definition, decl: AlgebraicClosure, wikipedia: Algebraic closure, wikidata: Q428290, mathlib: [mathlib-overview], node: 0X6AB5P3G1}
   - {name: existence of algebraic closures, kind: statement, decl: AlgebraicClosure, wikipedia: Algebraic closure, wikidata: Q428290, mathlib: [mathlib-overview], node: 0ETGBAK2CC}
   - {name: uniqueness of algebraic closure, kind: statement, decl: IsAlgClosure.equiv, wikipedia: Algebraic closure, wikidata: Q428290, node: 01VQ7C4FTB}
   - {name: fundamental theorem of algebra, kind: statement, decl: Complex.isAlgClosed, wikipedia: Fundamental theorem of algebra, wikidata: Q192760, mathlib: [mathlib-overview, mathlib-1000], node: 0JP0W07Y9A}
-  - {name: separably closed field, kind: definition, decl: IsSepClosed, wikipedia: Algebraic closure, wikidata: Q428290}
-  - {name: quasi-algebraically closed field, kind: definition, wikipedia: Quasi-algebraically closed field, wikidata: Q283684}
+  - {name: separably closed field, kind: definition, decl: IsSepClosed, wikipedia: Algebraic closure, wikidata: Q428290, node: 8B57B7EGK4}
+  - {name: quasi-algebraically closed field, kind: definition, wikipedia: Quasi-algebraically closed field, wikidata: Q283684, node: G7RM16N4PF}
   - {name: Chevalley–Warning theorem, kind: statement, decl: char_dvd_card_solutions, wikipedia: Chevalley–Warning theorem, wikidata: Q720469, mathlib: [mathlib-overview], node: 08895Q5W96}
-  - {name: Tsen's theorem, kind: statement, wikipedia: Tsen's theorem, wikidata: Q7849521}
+  - {name: Tsen's theorem, kind: statement, wikipedia: Tsen's theorem, wikidata: Q7849521, node: V8HDYN3JMY}
   - {name: Ax–Grothendieck theorem, kind: statement, decl: ax_grothendieck_univ, wikipedia: Ax–Grothendieck theorem, wikidata: Q4830725}
-  - {name: algebraic numbers field, kind: object, wikipedia: Algebraic number, wikidata: Q168817}
+  - {name: algebraic numbers field, kind: object, wikipedia: Algebraic number, wikidata: Q168817, node: MWBDFS2KJ5}
   # Galois theory
   - {name: Galois extension, kind: definition, decl: IsGalois, wikipedia: Galois extension, wikidata: Q2020004, node: 0QMZAQ6QQ4}
   - {name: Galois group, kind: definition, wikipedia: Galois group, wikidata: Q730384, node: 0XTY86BZKY}
   - {name: Galois group of a polynomial, kind: definition, decl: Polynomial.Gal, wikipedia: Galois group, wikidata: Q730384, node: 0Q5NA8Y362}
   - {name: fixed field, kind: definition, decl: IntermediateField.fixedField, wikipedia: Fixed-point subring, wikidata: Q21018636, node: 0J1E5ZRZRM}
-  - {name: Artin's theorem on fixed fields, kind: statement, decl: FixedPoints.finrank_eq_card, wikipedia: Galois extension, wikidata: Q2020004}
+  - {name: Artin's theorem on fixed fields, kind: statement, decl: FixedPoints.finrank_eq_card, wikipedia: Galois extension, wikidata: Q2020004, node: X7R15C00ET}
   - {name: fundamental theorem of Galois theory, kind: statement, decl: IsGalois.intermediateFieldEquivSubgroup, wikipedia: Fundamental theorem of Galois theory, wikidata: Q766522, mathlib: [mathlib-overview], node: 0T1Q8D0FW8}
-  - {name: characterizations of Galois extensions, kind: statement, decl: IsGalois.tfae, wikipedia: Galois extension, wikidata: Q2020004}
-  - {name: Dedekind's lemma on independence of characters, kind: statement, wikipedia: Character (mathematics), wikidata: Q1062934}
-  - {name: normal basis theorem, kind: statement, wikipedia: Normal basis, wikidata: Q3527199}
-  - {name: Hilbert's Theorem 90, kind: statement, decl: groupCohomology.isMulCoboundary₁_of_isMulCocycle₁_of_aut_to_units, wikipedia: Hilbert's Theorem 90, wikidata: Q1420905}
-  - {name: Galois connection between subgroups and subfields, kind: concept, wikipedia: Galois connection, wikidata: Q1491747}
-  - {name: Galois theory, kind: concept, wikipedia: Galois theory, wikidata: Q92552}
-  - {name: abelian extension, kind: definition, wikipedia: Abelian extension, wikidata: Q318705}
-  - {name: cyclic extension, kind: definition, wikipedia: Abelian extension, wikidata: Q318705}
-  - {name: cyclotomic extension, kind: definition, decl: IsCyclotomicExtension, wikipedia: Cyclotomic field, wikidata: Q1554628}
+  - {name: characterizations of Galois extensions, kind: statement, decl: IsGalois.tfae, wikipedia: Galois extension, wikidata: Q2020004, node: P75CXH2Q2B}
+  - {name: Dedekind's lemma on independence of characters, kind: statement, wikipedia: Character (mathematics), wikidata: Q1062934, node: N43G50YHG2}
+  - {name: normal basis theorem, kind: statement, wikipedia: Normal basis, wikidata: Q3527199, node: PXY1WYNRD4}
+  - {name: Hilbert's Theorem 90, kind: statement, decl: groupCohomology.isMulCoboundary₁_of_isMulCocycle₁_of_aut_to_units, wikipedia: Hilbert's Theorem 90, wikidata: Q1420905, node: YFF8B5A0QG}
+  - {name: Galois connection between subgroups and subfields, kind: concept, wikipedia: Galois connection, wikidata: Q1491747, node: R3625YKQC0}
+  - {name: Galois theory, kind: concept, wikipedia: Galois theory, wikidata: Q92552, node: WNQDKQYZ2R}
+  - {name: abelian extension, kind: definition, wikipedia: Abelian extension, wikidata: Q318705, node: EQDEXBWGJH}
+  - {name: cyclic extension, kind: definition, wikipedia: Abelian extension, wikidata: Q318705, node: VFE5B71E7Y}
+  - {name: cyclotomic extension, kind: definition, decl: IsCyclotomicExtension, wikipedia: Cyclotomic field, wikidata: Q1554628, node: VD6VC3ZMMY}
   - {name: root of unity, kind: definition, decl: rootsOfUnity, wikipedia: Root of unity, wikidata: Q756747, node: 0YV2CKP2AV}
   - {name: primitive root of unity, kind: definition, decl: IsPrimitiveRoot, wikipedia: Root of unity, wikidata: Q756747, node: 0EHM5ZP5QH}
-  - {name: finite subgroups of the multiplicative group are cyclic, kind: statement, decl: instIsCyclicUnitsOfFinite, wikipedia: Cyclic group, wikidata: Q245462}
-  - {name: Kummer theory, kind: concept, wikipedia: Kummer theory, wikidata: Q1548483}
-  - {name: Artin–Schreier theory, kind: concept, wikipedia: Artin–Schreier theory, wikidata: Q713056}
+  - {name: finite subgroups of the multiplicative group are cyclic, kind: statement, decl: instIsCyclicUnitsOfFinite, wikipedia: Cyclic group, wikidata: Q245462, node: 0CKGBEJX6B}
+  - {name: Kummer theory, kind: concept, wikipedia: Kummer theory, wikidata: Q1548483, node: XZQENYV15Y}
+  - {name: Artin–Schreier theory, kind: concept, wikipedia: Artin–Schreier theory, wikidata: Q713056, node: 7YNMNRGH3T}
   - {name: Kummer–Artin–Schreier–Witt theory, kind: concept, wikipedia: Witt vector, wikidata: Q1756171}
-  - {name: radical extension, kind: definition, decl: solvableByRad, wikipedia: Radical extension, wikidata: Q6588186}
-  - {name: solvable by radicals, kind: definition, wikipedia: Solution in radicals, wikidata: Q2900186}
-  - {name: Galois' theorem on solvability, kind: statement, decl: isSolvable_gal_of_irreducible, wikipedia: Solvable group, wikidata: Q759832}
-  - {name: solvability of x^n - a, kind: statement, decl: gal_X_pow_sub_C_isSolvable, wikipedia: Solution in radicals, wikidata: Q2900186}
-  - {name: Abel–Ruffini theorem, kind: statement, wikipedia: Abel–Ruffini theorem, wikidata: Q657482}
+  - {name: radical extension, kind: definition, decl: solvableByRad, wikipedia: Radical extension, wikidata: Q6588186, node: V74WMGQQ9D}
+  - {name: solvable by radicals, kind: definition, wikipedia: Solution in radicals, wikidata: Q2900186, node: J7YS0DA3HQ}
+  - {name: Galois' theorem on solvability, kind: statement, decl: isSolvable_gal_of_irreducible, wikipedia: Solvable group, wikidata: Q759832, node: VHCWCFA3MX}
+  - {name: solvability of x^n - a, kind: statement, decl: gal_X_pow_sub_C_isSolvable, wikipedia: Solution in radicals, wikidata: Q2900186, node: QWXD1Z9V8F}
+  - {name: Abel–Ruffini theorem, kind: statement, wikipedia: Abel–Ruffini theorem, wikidata: Q657482, node: 163A2WQQJX}
   - {name: quadratic formula, kind: statement, wikipedia: Quadratic formula, wikidata: Q15909572, node: 0KYZXYDGQZ}
-  - {name: cubic formula, kind: statement, wikipedia: Cubic equation, wikidata: Q203565}
-  - {name: quartic formula, kind: statement, wikipedia: Quartic equation, wikidata: Q476776}
-  - {name: casus irreducibilis, kind: statement, wikipedia: Casus irreducibilis, wikidata: Q5050952}
-  - {name: quintic equation, kind: example, wikipedia: Quintic equation, wikidata: Q33104507}
-  - {name: Bring radical, kind: definition, wikipedia: Bring radical, wikidata: Q2386216}
+  - {name: cubic formula, kind: statement, wikipedia: Cubic equation, wikidata: Q203565, node: FB6J5WAT5V}
+  - {name: quartic formula, kind: statement, wikipedia: Quartic equation, wikidata: Q476776, node: 4CDFMKKZ01}
+  - {name: casus irreducibilis, kind: statement, wikipedia: Casus irreducibilis, wikidata: Q5050952, node: MJ864PBRRJ}
+  - {name: quintic equation, kind: example, wikipedia: Quintic equation, wikidata: Q33104507, node: S1WS18QEGJ}
+  - {name: Bring radical, kind: definition, wikipedia: Bring radical, wikidata: Q2386216, node: BSDCDJR6RQ}
   - {name: constructible number, kind: definition, wikipedia: Constructible number, wikidata: Q1321926, node: 0QNFRBJF4Q}
-  - {name: impossibility of the classical construction problems, kind: statement, wikipedia: Straightedge and compass construction, wikidata: Q115368}
+  - {name: impossibility of the classical construction problems, kind: statement, wikipedia: Straightedge and compass construction, wikidata: Q115368, node: W8J42M1G28}
   - {name: Gauss–Wantzel theorem, kind: statement, wikipedia: Constructible polygon, wikidata: Q268132, node: 0Y34JMJNE9}
-  - {name: inverse Galois problem, kind: problem, wikipedia: Inverse Galois problem, wikidata: Q2358071}
-  - {name: Shafarevich's theorem on solvable Galois groups, kind: statement, wikipedia: Inverse Galois problem, wikidata: Q2358071}
-  - {name: Galois group of a prime degree polynomial with two nonreal roots, kind: statement, decl: Polynomial.Gal.galActionHom_bijective_of_prime_degree, wikipedia: Galois group, wikidata: Q730384}
-  - {name: infinite Galois theory, kind: concept, wikipedia: Galois extension, wikidata: Q2020004}
-  - {name: Krull topology, kind: definition, decl: krullTopology, wikipedia: Profinite group, wikidata: Q1428923}
-  - {name: absolute Galois group, kind: definition, wikipedia: Absolute Galois group, wikidata: Q332407}
-  - {name: Grothendieck's Galois theory, kind: concept, wikipedia: Grothendieck's Galois theory, wikidata: Q5610719}
+  - {name: inverse Galois problem, kind: problem, wikipedia: Inverse Galois problem, wikidata: Q2358071, node: YJS6X8JN7D}
+  - {name: Shafarevich's theorem on solvable Galois groups, kind: statement, wikipedia: Inverse Galois problem, wikidata: Q2358071, node: SDV692Z915}
+  - {name: Galois group of a prime degree polynomial with two nonreal roots, kind: statement, decl: Polynomial.Gal.galActionHom_bijective_of_prime_degree, wikipedia: Galois group, wikidata: Q730384, node: 4CMPPTSJNP}
+  - {name: infinite Galois theory, kind: concept, wikipedia: Galois extension, wikidata: Q2020004, node: RVR5QFFD77}
+  - {name: Krull topology, kind: definition, decl: krullTopology, wikipedia: Profinite group, wikidata: Q1428923, node: F3GTF5NT4M}
+  - {name: absolute Galois group, kind: definition, wikipedia: Absolute Galois group, wikidata: Q332407, node: PGKWBJDTKX}
+  - {name: Grothendieck's Galois theory, kind: concept, wikipedia: Grothendieck's Galois theory, wikidata: Q5610719, node: CX7BDQ47ZK}
   # Finite fields
   - {name: finite field, kind: definition, decl: GaloisField, wikipedia: Finite field, wikidata: Q603880, node: 0ZXZ82FTX2}
   - {name: order of a finite field is a prime power, kind: statement, decl: FiniteField.card, wikipedia: Finite field, wikidata: Q603880, node: 0H5WWC8RZX}
   - {name: uniqueness of finite fields of given order, kind: statement, decl: GaloisField.algEquivGaloisField, wikipedia: Finite field, wikidata: Q603880, node: 010PKCQPXP}
-  - {name: Galois group of a finite field extension, kind: statement, wikipedia: Finite field, wikidata: Q603880}
-  - {name: finite field arithmetic, kind: concept, wikipedia: Finite field arithmetic, wikidata: Q5450398}
-  - {name: primitive polynomial over a finite field, kind: definition, wikipedia: Primitive polynomial (field theory), wikidata: Q1458669}
+  - {name: Galois group of a finite field extension, kind: statement, wikipedia: Finite field, wikidata: Q603880, node: MP5C9T2EYG}
+  - {name: finite field arithmetic, kind: concept, wikipedia: Finite field arithmetic, wikidata: Q5450398, node: YG3HWE6GEX}
+  - {name: primitive polynomial over a finite field, kind: definition, wikipedia: Primitive polynomial (field theory), wikidata: Q1458669, node: HQ7KMZYPSQ}
   - {name: Wedderburn's little theorem, kind: statement, wikipedia: Wedderburn's little theorem, wikidata: Q943246, node: 0RRNVX1VKA}
-  - {name: Conway polynomial, kind: definition, wikipedia: Conway polynomial (finite fields), wikidata: Q5166747}
-  - {name: field with one element, kind: concept, wikipedia: Field with one element, wikidata: Q3654641}
+  - {name: Conway polynomial, kind: definition, wikipedia: Conway polynomial (finite fields), wikidata: Q5166747, node: NQQBESGPA4}
+  - {name: field with one element, kind: concept, wikipedia: Field with one element, wikidata: Q3654641, node: 9QP9ZAGH6T}
   # Transcendental extensions
   - {name: transcendental element, kind: definition, decl: Transcendental, wikipedia: Algebraic element, wikidata: Q162608, mathlib: [mathlib-undergrad], node: 0NQMZ89X4A}
-  - {name: transcendental extension, kind: definition, wikipedia: Transcendental extension, wikidata: Q3733413}
-  - {name: algebraic independence, kind: definition, decl: AlgebraicIndependent, wikipedia: Algebraic independence, wikidata: Q1495342}
-  - {name: transcendence basis, kind: definition, decl: IsTranscendenceBasis, wikipedia: Transcendental extension, wikidata: Q3733413}
-  - {name: existence of transcendence bases, kind: statement, decl: exists_isTranscendenceBasis, wikipedia: Transcendental extension, wikidata: Q3733413}
-  - {name: transcendence degree, kind: definition, decl: IsTranscendenceBasis.lift_cardinalMk_eq_trdeg, wikipedia: Transcendental extension, wikidata: Q3733413}
-  - {name: purely transcendental extension, kind: definition, wikipedia: Transcendental extension, wikidata: Q3733413}
-  - {name: separably generated extension, kind: definition, wikipedia: Separable extension, wikidata: Q2264756}
-  - {name: Lüroth's theorem, kind: statement, decl: RatFunc.Luroth.eq_adjoin_generator, wikipedia: Lüroth's theorem, wikidata: Q3527115}
-  - {name: function field, kind: definition, wikipedia: Function field of an algebraic variety, wikidata: Q5508773}
-  - {name: Steinitz's theorem on algebraically closed fields, kind: statement, wikipedia: Algebraically closed field, wikidata: Q1047547}
+  - {name: transcendental extension, kind: definition, wikipedia: Transcendental extension, wikidata: Q3733413, node: 12JQCGTQ8W}
+  - {name: algebraic independence, kind: definition, decl: AlgebraicIndependent, wikipedia: Algebraic independence, wikidata: Q1495342, node: KV4PT6KW10}
+  - {name: transcendence basis, kind: definition, decl: IsTranscendenceBasis, wikipedia: Transcendental extension, wikidata: Q3733413, node: E45PA267S4}
+  - {name: existence of transcendence bases, kind: statement, decl: exists_isTranscendenceBasis, wikipedia: Transcendental extension, wikidata: Q3733413, node: W635VBXEXG}
+  - {name: transcendence degree, kind: definition, decl: IsTranscendenceBasis.lift_cardinalMk_eq_trdeg, wikipedia: Transcendental extension, wikidata: Q3733413, node: D7TR0YWR9H}
+  - {name: purely transcendental extension, kind: definition, wikipedia: Transcendental extension, wikidata: Q3733413, node: G5PVJMM37Z}
+  - {name: separably generated extension, kind: definition, wikipedia: Separable extension, wikidata: Q2264756, node: 1Z2BCP64SZ}
+  - {name: Lüroth's theorem, kind: statement, decl: RatFunc.Luroth.eq_adjoin_generator, wikipedia: Lüroth's theorem, wikidata: Q3527115, node: AVCZ6HVBA7}
+  - {name: function field, kind: definition, wikipedia: Function field of an algebraic variety, wikidata: Q5508773, node: XKEXQDRTGH}
+  - {name: Steinitz's theorem on algebraically closed fields, kind: statement, wikipedia: Algebraically closed field, wikidata: Q1047547, node: CAEHMSX9RT}
   # Real fields and ordered fields
   - {name: ordered field, kind: definition, wikipedia: Ordered field, wikidata: Q909412, node: 0P3VCBDEE2}
   - {name: Archimedean property, kind: definition, wikipedia: Archimedean property, wikidata: Q634579}
-  - {name: formally real field, kind: definition, decl: IsFormallyReal, wikipedia: Formally real field, wikidata: Q17097900}
+  - {name: formally real field, kind: definition, decl: IsFormallyReal, wikipedia: Formally real field, wikidata: Q17097900, node: X32TSWJSYT}
   - {name: real closed field, kind: definition, decl: IsRealClosed, wikipedia: Real closed field, wikidata: Q2068227}
-  - {name: real closure, kind: definition, wikipedia: Real closed field, wikidata: Q2068227}
-  - {name: Artin–Schreier theorem, kind: statement, wikipedia: Real closed field, wikidata: Q2068227}
-  - {name: Hilbert's seventeenth problem, kind: problem, wikipedia: Hilbert's seventeenth problem, wikidata: Q2496877}
-  - {name: Pythagorean field, kind: definition, wikipedia: Pythagorean field, wikidata: Q2120067}
-  - {name: Descartes' rule of signs, kind: statement, decl: Polynomial.roots_countP_pos_le_signVariations, wikipedia: Descartes's rule of signs, wikidata: Q1379344, mathlib: [mathlib-100]}
-  - {name: Sturm's theorem, kind: statement, decl: Polynomial.sturmSeq, wikipedia: Sturm's theorem, wikidata: Q1632301}
-  - {name: Budan's theorem, kind: statement, wikipedia: Budan's theorem, wikidata: Q3527026}
+  - {name: real closure, kind: definition, wikipedia: Real closed field, wikidata: Q2068227, node: 778KFSM09P}
+  - {name: Artin–Schreier theorem, kind: statement, wikipedia: Real closed field, wikidata: Q2068227, node: 58P0EGAFVV}
+  - {name: Hilbert's seventeenth problem, kind: problem, wikipedia: Hilbert's seventeenth problem, wikidata: Q2496877, node: J45F4F13VB}
+  - {name: Pythagorean field, kind: definition, wikipedia: Pythagorean field, wikidata: Q2120067, node: A6M3GTHM40}
+  - {name: Descartes' rule of signs, kind: statement, decl: Polynomial.roots_countP_pos_le_signVariations, wikipedia: Descartes's rule of signs, wikidata: Q1379344, mathlib: [mathlib-100], node: T6DQQ36JZ5}
+  - {name: Sturm's theorem, kind: statement, decl: Polynomial.sturmSeq, wikipedia: Sturm's theorem, wikidata: Q1632301, node: R44CV0KD9T}
+  - {name: Budan's theorem, kind: statement, wikipedia: Budan's theorem, wikidata: Q3527026, node: 7THS519D4A}
   - {name: Tarski–Seidenberg theorem, kind: statement, wikipedia: Tarski–Seidenberg theorem, wikidata: Q16705451}
   - {name: surreal numbers, kind: object, wikipedia: Surreal number, wikidata: Q875333}
   - {name: hyperreal numbers, kind: object, wikipedia: Hyperreal number, wikidata: Q5958543}
-  - {name: Levi-Civita field, kind: object, wikipedia: Levi-Civita field, wikidata: Q6535342}
+  - {name: Levi-Civita field, kind: object, wikipedia: Levi-Civita field, wikidata: Q6535342, node: CCT8SQKHW4}
   # Valued and topological fields
   - {name: absolute value, kind: definition, decl: AbsoluteValue, wikipedia: Absolute value (algebra), wikidata: Q4669840, node: 0FFXKTKKQC}
-  - {name: valuation, kind: definition, decl: Valuation, wikipedia: Valuation (algebra), wikidata: Q852757}
-  - {name: discrete valuation, kind: definition, wikipedia: Valuation (algebra), wikidata: Q852757}
-  - {name: valuation ring, kind: definition, decl: ValuationRing, wikipedia: Valuation ring, wikidata: Q12013681}
-  - {name: non-Archimedean absolute value, kind: definition, wikipedia: Absolute value (algebra), wikidata: Q4669840}
-  - {name: Ostrowski's theorem, kind: statement, decl: Rat.AbsoluteValue.equiv_real_or_padic, wikipedia: Ostrowski's theorem, wikidata: Q2919401, mathlib: [mathlib-1000]}
-  - {name: completion of a valued field, kind: definition, wikipedia: Complete field, wikidata: Q5156498}
+  - {name: valuation, kind: definition, decl: Valuation, wikipedia: Valuation (algebra), wikidata: Q852757, node: B85T5VKR3M}
+  - {name: discrete valuation, kind: definition, wikipedia: Valuation (algebra), wikidata: Q852757, node: A2KKZAV29W}
+  - {name: valuation ring, kind: definition, decl: ValuationRing, wikipedia: Valuation ring, wikidata: Q12013681, node: QSX12D8RQM}
+  - {name: non-Archimedean absolute value, kind: definition, wikipedia: Absolute value (algebra), wikidata: Q4669840, node: 1H5F1BP6XS}
+  - {name: Ostrowski's theorem, kind: statement, decl: Rat.AbsoluteValue.equiv_real_or_padic, wikipedia: Ostrowski's theorem, wikidata: Q2919401, mathlib: [mathlib-1000], node: GCQ23XT6VD}
+  - {name: completion of a valued field, kind: definition, wikipedia: Complete field, wikidata: Q5156498, node: W168DS966V}
   - {name: Hensel's lemma, kind: statement, decl: hensels_lemma, wikipedia: Hensel's lemma, wikidata: Q1424496, mathlib: [mathlib-overview], node: 010QVB71T2}
-  - {name: Henselian field, kind: definition, wikipedia: Henselian ring, wikidata: Q1607573}
-  - {name: p-adic numbers, kind: object, decl: Padic, wikipedia: P-adic number, wikidata: Q311627, mathlib: [mathlib-overview]}
-  - {name: complex p-adic numbers, kind: object, decl: PadicComplex.isAlgClosed, wikipedia: P-adic number, wikidata: Q311627}
-  - {name: Newton polygon, kind: concept, wikipedia: Newton polygon, wikidata: Q115646}
-  - {name: Krasner's lemma, kind: statement, wikipedia: Krasner's lemma, wikidata: Q6436234}
-  - {name: topological field, kind: definition, wikipedia: Field (mathematics), wikidata: Q190109}
-  - {name: normed field, kind: definition, decl: NormedField, wikipedia: Absolute value (algebra), wikidata: Q4669840}
-  - {name: Gelfand–Mazur theorem, kind: statement, decl: NormedRing.algEquivComplexOfComplete, wikipedia: Gelfand–Mazur theorem, wikidata: Q2226677, mathlib: [mathlib-1000]}
-  - {name: Frobenius theorem on real division algebras, kind: statement, wikipedia: Frobenius theorem (real division algebras), wikidata: Q1361031}
-  - {name: field of formal Laurent series, kind: definition, decl: LaurentSeries, wikipedia: Formal power series, wikidata: Q1003025}
-  - {name: Puiseux series, kind: definition, wikipedia: Puiseux series, wikidata: Q401319}
-  - {name: Newton–Puiseux theorem, kind: statement, wikipedia: Puiseux series, wikidata: Q401319}
+  - {name: Henselian field, kind: definition, wikipedia: Henselian ring, wikidata: Q1607573, node: 3ACEE4N6NE}
+  - {name: p-adic numbers, kind: object, decl: Padic, wikipedia: P-adic number, wikidata: Q311627, mathlib: [mathlib-overview], node: BT6T702C28}
+  - {name: complex p-adic numbers, kind: object, decl: PadicComplex.isAlgClosed, wikipedia: P-adic number, wikidata: Q311627, node: FKF9YGBKHF}
+  - {name: Newton polygon, kind: concept, wikipedia: Newton polygon, wikidata: Q115646, node: H7QNCE2QZJ}
+  - {name: Krasner's lemma, kind: statement, wikipedia: Krasner's lemma, wikidata: Q6436234, node: G8PGN0WQHW}
+  - {name: topological field, kind: definition, wikipedia: Field (mathematics), wikidata: Q190109, node: D7YQW9RG24}
+  - {name: normed field, kind: definition, decl: NormedField, wikipedia: Absolute value (algebra), wikidata: Q4669840, node: ZFW9Q3WTAQ}
+  - {name: Gelfand–Mazur theorem, kind: statement, decl: NormedRing.algEquivComplexOfComplete, wikipedia: Gelfand–Mazur theorem, wikidata: Q2226677, mathlib: [mathlib-1000], node: 3D6XH41A3B}
+  - {name: Frobenius theorem on real division algebras, kind: statement, wikipedia: Frobenius theorem (real division algebras), wikidata: Q1361031, node: QDJ7PQE9SW}
+  - {name: field of formal Laurent series, kind: definition, decl: LaurentSeries, wikipedia: Formal power series, wikidata: Q1003025, node: YZWYF7DXTW}
+  - {name: Puiseux series, kind: definition, wikipedia: Puiseux series, wikidata: Q401319, node: SENTYNSKSF}
+  - {name: Newton–Puiseux theorem, kind: statement, wikipedia: Puiseux series, wikidata: Q401319, node: ZWT5HGRFXX}
   - {name: Hahn series, kind: definition, wikipedia: Hahn series, wikidata: Q5638887}
-  - {name: Ax–Kochen theorem, kind: statement, wikipedia: Ax–Kochen theorem, wikidata: Q3526976}
+  - {name: Ax–Kochen theorem, kind: statement, wikipedia: Ax–Kochen theorem, wikidata: Q3526976, node: PHT3TJCS90}
   # Homological methods
-  - {name: Galois cohomology, kind: concept, wikipedia: Galois cohomology, wikidata: Q382839}
-  - {name: Brauer group, kind: definition, wikipedia: Brauer group, wikidata: Q900456}
-  - {name: cohomological dimension of a field, kind: definition, wikipedia: Cohomological dimension, wikidata: Q5141396}
-  - {name: Milnor K-theory, kind: concept, wikipedia: Milnor K-theory, wikidata: Q6860246}
-  - {name: norm residue isomorphism theorem, kind: statement, wikipedia: Norm residue isomorphism theorem, wikidata: Q7051622}
+  - {name: Galois cohomology, kind: concept, wikipedia: Galois cohomology, wikidata: Q382839, node: 9MPCZ3EAJM}
+  - {name: Brauer group, kind: definition, wikipedia: Brauer group, wikidata: Q900456, node: BEW48TA9WZ}
+  - {name: cohomological dimension of a field, kind: definition, wikipedia: Cohomological dimension, wikidata: Q5141396, node: QZMZXFFJFJ}
+  - {name: Milnor K-theory, kind: concept, wikipedia: Milnor K-theory, wikidata: Q6860246, node: 2YXDQ7Q445}
+  - {name: norm residue isomorphism theorem, kind: statement, wikipedia: Norm residue isomorphism theorem, wikidata: Q7051622, node: 5Q5VN56QH4}
   # Differential and difference algebra
-  - {name: derivation, kind: definition, decl: Derivation, wikipedia: Derivation (differential algebra), wikidata: Q451323}
-  - {name: differential field, kind: definition, wikipedia: Differential algebra, wikidata: Q2997772}
-  - {name: differential Galois theory, kind: concept, wikipedia: Differential Galois theory, wikidata: Q2383624}
-  - {name: Picard–Vessiot extension, kind: definition, wikipedia: Picard–Vessiot theory, wikidata: Q7190519}
-  - {name: Liouville's theorem (differential algebra), kind: statement, wikipedia: Liouville's theorem (differential algebra), wikidata: Q2404702}
-  - {name: Risch algorithm, kind: concept, wikipedia: Risch algorithm, wikidata: Q1382512}
-  - {name: differentially closed field, kind: definition, wikipedia: Differentially closed field, wikidata: Q5275375}
-  - {name: difference algebra, kind: concept, wikipedia: Difference algebra, wikidata: Q5275270}
+  - {name: derivation, kind: definition, decl: Derivation, wikipedia: Derivation (differential algebra), wikidata: Q451323, node: 3J89REV9WQ}
+  - {name: differential field, kind: definition, wikipedia: Differential algebra, wikidata: Q2997772, node: GA5PTQGC6G}
+  - {name: differential Galois theory, kind: concept, wikipedia: Differential Galois theory, wikidata: Q2383624, node: EEZS4H8QPH}
+  - {name: Picard–Vessiot extension, kind: definition, wikipedia: Picard–Vessiot theory, wikidata: Q7190519, node: TB53Y5NMJD}
+  - {name: Liouville's theorem (differential algebra), kind: statement, wikipedia: Liouville's theorem (differential algebra), wikidata: Q2404702, node: 8VRTPECBPZ}
+  - {name: Risch algorithm, kind: concept, wikipedia: Risch algorithm, wikidata: Q1382512, node: VJ51B7J125}
+  - {name: differentially closed field, kind: definition, wikipedia: Differentially closed field, wikidata: Q5275375, node: KPCN3KHG50}
+  - {name: difference algebra, kind: concept, wikipedia: Difference algebra, wikidata: Q5275270, node: Z1F7N07KFH}
   # Generalized fields
-  - {name: semifield, kind: definition, wikipedia: Semifield, wikidata: Q1309836}
-  - {name: near-field, kind: definition, wikipedia: Near-field (mathematics), wikidata: Q571787}
-  - {name: skew field of quaternions, kind: object, wikipedia: Quaternion, wikidata: Q173853}
+  - {name: semifield, kind: definition, wikipedia: Semifield, wikidata: Q1309836, node: AHH97EJ6VH}
+  - {name: near-field, kind: definition, wikipedia: Near-field (mathematics), wikidata: Q571787, node: DSE72WQ5A2}
+  - {name: skew field of quaternions, kind: object, wikipedia: Quaternion, wikidata: Q173853, node: 0GE4DVQKR8}
   # Logical aspects
-  - {name: model theory of algebraically closed fields, kind: concept, wikipedia: Algebraically closed field, wikidata: Q1047547}
-  - {name: pseudo algebraically closed field, kind: definition, wikipedia: Pseudo algebraically closed field, wikidata: Q7254461}
-  - {name: Hilbertian field, kind: definition, wikipedia: Thin set (Serre), wikidata: Q7784293}
-  - {name: quantifier elimination for real closed fields, kind: statement, wikipedia: Real closed field, wikidata: Q2068227}
+  - {name: model theory of algebraically closed fields, kind: concept, wikipedia: Algebraically closed field, wikidata: Q1047547, node: MT8TDVPBXB}
+  - {name: pseudo algebraically closed field, kind: definition, wikipedia: Pseudo algebraically closed field, wikidata: Q7254461, node: 92SQ10PN6J}
+  - {name: Hilbertian field, kind: definition, wikipedia: Thin set (Serre), wikidata: Q7784293, node: SFPKB3NC0E}
+  - {name: quantifier elimination for real closed fields, kind: statement, wikipedia: Real closed field, wikidata: Q2068227, node: FSJ9NGRRPA}

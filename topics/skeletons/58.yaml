@@ -10,7 +10,7 @@ items:
   - {name: global analysis, kind: concept, wikipedia: Global analysis, wikidata: Q17017346}
   - {name: germ of a smooth function, kind: definition, wikipedia: Germ (mathematics), wikidata: Q2520842}
   - {name: Hadamard's lemma, kind: statement, wikipedia: Hadamard's lemma, wikidata: Q2074239}
-  - {name: Borel's lemma, kind: statement, wikipedia: Borel's lemma, wikidata: Q3527022}
+  - {name: Borel's lemma, kind: statement, wikipedia: Borel's lemma, wikidata: Q3527022, node: KZHNA19FSS}
   - {name: jet, kind: definition, wikipedia: Jet (mathematics), wikidata: Q923480}
   - {name: jet bundle, kind: definition, wikipedia: Jet bundle, wikidata: Q6188933}
   - {name: prolongation of a section to a jet bundle, kind: definition, wikipedia: Jet bundle, wikidata: Q6188933}

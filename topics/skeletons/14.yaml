@@ -14,8 +14,8 @@ items:
   - {name: algebraic set, kind: definition, decl: MvPolynomial.zeroLocus, wikipedia: Algebraic variety, wikidata: Q648995}
   - {name: affine variety, kind: definition, wikipedia: Affine variety, wikidata: Q3554813}
   - {name: ideal of an algebraic set, kind: definition, decl: MvPolynomial.vanishingIdeal, wikipedia: Affine variety, wikidata: Q3554813}
-  - {name: Zariski topology, kind: definition, decl: PrimeSpectrum.zariskiTopology, wikipedia: Zariski topology, wikidata: Q147978, mathlib: [mathlib-overview]}
-  - {name: Hilbert's Nullstellensatz, kind: statement, decl: MvPolynomial.vanishingIdeal_zeroLocus_eq_radical, wikipedia: Hilbert's Nullstellensatz, wikidata: Q1068976, mathlib: [mathlib-overview, mathlib-1000]}
+  - {name: Zariski topology, kind: definition, decl: PrimeSpectrum.zariskiTopology, wikipedia: Zariski topology, wikidata: Q147978, mathlib: [mathlib-overview], node: 8SQK7RTB63}
+  - {name: Hilbert's Nullstellensatz, kind: statement, decl: MvPolynomial.vanishingIdeal_zeroLocus_eq_radical, wikipedia: Hilbert's Nullstellensatz, wikidata: Q1068976, mathlib: [mathlib-overview, mathlib-1000], node: D85VZWS9QK}
   - {name: coordinate ring, kind: definition, wikipedia: Affine variety, wikidata: Q3554813}
   - {name: irreducible component, kind: definition, wikipedia: Irreducible component, wikidata: Q6073574}
   - {name: regular function, kind: definition, wikipedia: Morphism of algebraic varieties, wikidata: Q7309604}
@@ -75,7 +75,7 @@ items:
   - {name: Chevalley's theorem on constructible sets, kind: statement, decl: PrimeSpectrum.isConstructible_comap_image, wikipedia: Constructible set (topology), wikidata: Q3366885}
   - {name: generic smoothness, kind: statement, decl: AlgebraicGeometry.Scheme.Hom.dense_smoothLocus_of_perfectField, wikipedia: Smooth scheme, wikidata: Q7546431}
   - {name: generic flatness, kind: statement, wikipedia: Generic flatness, wikidata: Q5532671}
-  - {name: Zariski's main theorem, kind: statement, wikipedia: Zariski's main theorem, wikidata: Q8066795}
+  - {name: Zariski's main theorem, kind: statement, wikipedia: Zariski's main theorem, wikidata: Q8066795, node: HCD6W2XK6W}
   - {name: Stein factorization, kind: statement, wikipedia: Stein factorization, wikidata: Q7606788}
   - {name: group scheme, kind: definition, wikipedia: Group scheme, wikidata: Q5611270}
   - {name: algebraic space, kind: definition, wikipedia: Algebraic space, wikidata: Q4724016}
@@ -176,7 +176,7 @@ items:
   - {name: Riemann–Roch theorem, kind: statement, wikipedia: Riemann–Roch theorem, wikidata: Q379048}
   - {name: Riemann–Hurwitz formula, kind: statement, wikipedia: Riemann–Hurwitz formula, wikidata: Q494995}
   - {name: hyperelliptic curve, kind: definition, wikipedia: Hyperelliptic curve, wikidata: Q850110}
-  - {name: elliptic curve, kind: definition, decl: WeierstrassCurve.IsElliptic, wikipedia: Elliptic curve, wikidata: Q268493}
+  - {name: elliptic curve, kind: definition, decl: WeierstrassCurve.IsElliptic, wikipedia: Elliptic curve, wikidata: Q268493, node: 427N6S6QQW}
   - {name: Weierstrass equation, kind: definition, decl: WeierstrassCurve, wikipedia: Weierstrass elliptic function, wikidata: Q2343600}
   - {name: group law on an elliptic curve, kind: statement, decl: WeierstrassCurve.Affine.Point.add, wikipedia: Elliptic curve, wikidata: Q268493}
   - {name: j-invariant of an elliptic curve, kind: definition, decl: WeierstrassCurve.j, wikipedia: J-invariant, wikidata: Q287419}
@@ -238,7 +238,7 @@ items:
   - {name: arithmetic geometry, kind: concept, wikipedia: Arithmetic geometry, wikidata: Q2179749}
   - {name: rational point, kind: definition, wikipedia: Rational point, wikidata: Q3393476}
   - {name: Mordell–Weil theorem, kind: statement, wikipedia: Mordell–Weil theorem, wikidata: Q284960}
-  - {name: Faltings's theorem, kind: statement, wikipedia: Faltings' theorem, wikidata: Q240950}
+  - {name: Faltings's theorem, kind: statement, wikipedia: Faltings' theorem, wikidata: Q240950, node: H0DB07WM20}
   - {name: height on projective space, kind: definition, wikipedia: Height function, wikidata: Q65088643}
   - {name: Lang's conjectures, kind: conjecture, wikipedia: Bombieri–Lang conjecture, wikidata: Q65088644}
   - {name: Vojta's conjecture, kind: conjecture, wikipedia: Vojta's conjecture, wikidata: Q7939859}
@@ -255,8 +255,8 @@ items:
   - {name: Positivstellensatz, kind: statement, wikipedia: Positive polynomial, wikidata: Q7233283}
   - {name: Hilbert's sixteenth problem, kind: problem, wikipedia: Hilbert's sixteenth problem, wikidata: Q2509489}
   # Affine and computational geometry
-  - {name: Jacobian conjecture, kind: conjecture, wikipedia: Jacobian conjecture, wikidata: Q2605695}
-  - {name: resultant, kind: definition, decl: Polynomial.resultant, wikipedia: Resultant, wikidata: Q1168321}
+  - {name: Jacobian conjecture, kind: conjecture, wikipedia: Jacobian conjecture, wikidata: Q2605695, node: B5JFXEQQD8}
+  - {name: resultant, kind: definition, decl: Polynomial.resultant, wikipedia: Resultant, wikidata: Q1168321, node: NNPHTWF645}
   # Tropical geometry
   - {name: tropical semiring, kind: definition, decl: Tropical, wikipedia: Tropical semiring, wikidata: Q60790098}
   - {name: tropical geometry, kind: concept, wikipedia: Tropical geometry, wikidata: Q2982669}

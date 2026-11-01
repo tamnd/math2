@@ -72,9 +72,9 @@ items:
   - {name: orthogonality of characters, kind: statement, decl: AddChar.sum_apply_eq_ite, wikipedia: Character group, wikidata: Q2720844}
   - {name: number of characters of a finite abelian group, kind: statement, decl: AddChar.card_eq, wikipedia: Character group, wikidata: Q2720844}
   - {name: a finite abelian group is isomorphic to its dual, kind: statement, wikipedia: Character group, wikidata: Q2720844}
-  - {name: Dirichlet character, kind: example, wikipedia: Dirichlet character, wikidata: Q1063579}
+  - {name: Dirichlet character, kind: example, wikipedia: Dirichlet character, wikidata: Q1063579, node: 7XB5VJKDPG}
   - {name: Fourier analysis on the Boolean cube, kind: concept, wikipedia: Analysis of Boolean functions, wikidata: Q48996110}
-  - {name: Gauss sum, kind: example, wikipedia: Gauss sum, wikidata: Q526221}
+  - {name: Gauss sum, kind: example, wikipedia: Gauss sum, wikidata: Q526221, node: EQ6A3ZN48K}
   # Positive definite functions
   - {name: positive-definite function on a group, kind: definition, wikipedia: Positive-definite function on a group, wikidata: Q7233206}
   - {name: Gelfand–Raikov theorem, kind: statement, wikipedia: Gelfand–Raikov theorem, wikidata: Q18207320}
@@ -94,7 +94,7 @@ items:
   - {name: von Neumann's theory of almost periodic functions on groups, kind: statement, wikipedia: Almost periodic function, wikidata: Q1066983}
   - {name: weakly almost periodic function, kind: definition, wikipedia: Almost periodic function, wikidata: Q1066983}
   # Amenability and invariant means
-  - {name: amenable group, kind: definition, wikipedia: Amenable group, wikidata: Q1857002}
+  - {name: amenable group, kind: definition, wikipedia: Amenable group, wikidata: Q1857002, node: CEAT9BESKK}
   - {name: invariant mean, kind: definition, wikipedia: Amenable group, wikidata: Q1857002}
   - {name: Banach limit, kind: example, wikipedia: Banach limit, wikidata: Q806060}
   - {name: Følner sequence, kind: definition, decl: IsFoelner, wikipedia: Følner sequence, wikidata: Q5511721}
@@ -116,7 +116,7 @@ items:
   # Representations in harmonic analysis
   - {name: unitary representation, kind: definition, wikipedia: Unitary representation, wikidata: Q10359539}
   - {name: left regular representation, kind: definition, decl: Representation.leftRegular, wikipedia: Regular representation, wikidata: Q1555242}
-  - {name: induced representation, kind: definition, wikipedia: Induced representation, wikidata: Q3427423}
+  - {name: induced representation, kind: definition, wikipedia: Induced representation, wikidata: Q3427423, node: JJP4JFH3C6}
   - {name: system of imprimitivity, kind: definition, wikipedia: System of imprimitivity, wikidata: Q7663731}
   - {name: Mackey imprimitivity theorem, kind: statement, wikipedia: System of imprimitivity, wikidata: Q7663731}
   - {name: Mackey machine, kind: concept, wikipedia: System of imprimitivity, wikidata: Q7663731}
@@ -141,7 +141,7 @@ items:
   # Harmonic analysis on compact groups
   - {name: Peter–Weyl theorem, kind: statement, wikipedia: Peter–Weyl theorem, wikidata: Q1529941}
   - {name: matrix coefficient, kind: definition, wikipedia: Matrix coefficient, wikidata: Q4356506}
-  - {name: Schur orthogonality relations, kind: statement, wikipedia: Schur orthogonality relations, wikidata: Q7433034}
+  - {name: Schur orthogonality relations, kind: statement, wikipedia: Schur orthogonality relations, wikidata: Q7433034, node: AY0B20QC04}
   - {name: orthonormality of irreducible characters, kind: statement, decl: FDRep.char_orthonormal, wikipedia: Schur orthogonality relations, wikidata: Q7433034, mathlib: [mathlib-undergrad, mathlib-overview]}
   - {name: complete reducibility of representations of compact groups, kind: statement, wikipedia: Peter–Weyl theorem, wikidata: Q1529941}
   - {name: Fourier series on a compact group, kind: concept, wikipedia: Peter–Weyl theorem, wikidata: Q1529941}
@@ -171,6 +171,6 @@ items:
   # Automorphic and arithmetic harmonic analysis
   - {name: Selberg trace formula, kind: statement, wikipedia: Selberg trace formula, wikidata: Q3077649}
   - {name: Arthur–Selberg trace formula, kind: statement, wikipedia: Arthur–Selberg trace formula, wikidata: Q4800826}
-  - {name: automorphic form, kind: definition, wikipedia: Automorphic form, wikidata: Q1134435}
+  - {name: automorphic form, kind: definition, wikipedia: Automorphic form, wikidata: Q1134435, node: 3C73HND6XA}
   - {name: Tate's thesis, kind: statement, wikipedia: Tate's thesis, wikidata: Q7687933}
   - {name: harmonic analysis on the adeles, kind: concept, wikipedia: Adele ring, wikidata: Q355356}

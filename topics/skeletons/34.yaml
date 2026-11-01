@@ -90,14 +90,14 @@ items:
   - {name: Airy equation, kind: example, wikipedia: Airy function, wikidata: Q409415}
   - {name: Laguerre equation, kind: example, wikipedia: Laguerre polynomials, wikidata: Q1124546}
   - {name: monodromy, kind: definition, wikipedia: Monodromy, wikidata: Q543956}
-  - {name: Riemann–Hilbert problem, kind: problem, wikipedia: Riemann–Hilbert problem, wikidata: Q5986515}
+  - {name: Riemann–Hilbert problem, kind: problem, wikipedia: Riemann–Hilbert problem, wikidata: Q5986515, node: RY8YQ9JZF9}
   - {name: Hilbert's twenty-first problem, kind: problem, wikipedia: Hilbert's twenty-first problem, wikidata: Q4155615}
   - {name: Stokes phenomenon, kind: concept, wikipedia: Stokes phenomenon, wikidata: Q7618550}
   - {name: irregular singularity, kind: definition, wikipedia: Regular singular point, wikidata: Q3925845}
   - {name: Painlevé transcendents, kind: object, wikipedia: Painlevé transcendents, wikidata: Q907724}
   - {name: Painlevé property, kind: definition, wikipedia: Painlevé transcendents, wikidata: Q907724}
   - {name: isomonodromic deformation, kind: concept, wikipedia: Isomonodromic deformation, wikidata: Q6086086}
-  - {name: Schwarzian derivative, kind: definition, wikipedia: Schwarzian derivative, wikidata: Q864589}
+  - {name: Schwarzian derivative, kind: definition, wikipedia: Schwarzian derivative, wikidata: Q864589, node: 6ZPKWE0VAZ}
   - {name: Lamé function, kind: object, wikipedia: Lamé function, wikidata: Q3127537}
   - {name: Cauchy–Kovalevskaya theorem for ODEs, kind: statement, wikipedia: Cauchy–Kovalevskaya theorem, wikidata: Q1614464}
   # Boundary value problems and Sturm–Liouville theory
@@ -106,7 +106,7 @@ items:
   - {name: Neumann boundary condition, kind: definition, wikipedia: Neumann boundary condition, wikidata: Q1149279}
   - {name: Robin boundary condition, kind: definition, wikipedia: Robin boundary condition, wikidata: Q748993}
   - {name: periodic boundary conditions, kind: definition, wikipedia: Periodic boundary conditions, wikidata: Q2992284}
-  - {name: Fredholm alternative, kind: statement, wikipedia: Fredholm alternative, wikidata: Q657820}
+  - {name: Fredholm alternative, kind: statement, wikipedia: Fredholm alternative, wikidata: Q657820, node: 4HH8C9V8JQ}
   - {name: shooting method, kind: concept, wikipedia: Shooting method, wikidata: Q1749769}
   - {name: Sturm–Liouville theory, kind: concept, wikipedia: Sturm–Liouville theory, wikidata: Q1154082}
   - {name: Sturm comparison theorem, kind: statement, wikipedia: Sturm–Picone comparison theorem, wikidata: Q3983968}
@@ -168,7 +168,7 @@ items:
   - {name: Lyapunov function, kind: definition, wikipedia: Lyapunov function, wikidata: Q2337858, node: 01REYCJ371}
   - {name: Lyapunov's direct method, kind: statement, wikipedia: Lyapunov stability, wikidata: Q1341651, node: 0J6A752DTZ}
   - {name: LaSalle's invariance principle, kind: statement, wikipedia: LaSalle's invariance principle, wikidata: Q3922068, node: 0659J5X7B5}
-  - {name: Lyapunov equation, kind: definition, wikipedia: Lyapunov equation, wikidata: Q1028945}
+  - {name: Lyapunov equation, kind: definition, wikipedia: Lyapunov equation, wikidata: Q1028945, node: 92GVPZH9FT}
   - {name: linearization, kind: concept, wikipedia: Linearization, wikidata: Q1520713}
   - {name: Routh–Hurwitz stability criterion, kind: statement, wikipedia: Routh–Hurwitz stability criterion, wikidata: Q2621270}
   - {name: Hurwitz-stable matrix, kind: definition, wikipedia: Hurwitz-stable matrix, wikidata: Q131293245}

@@ -16,7 +16,7 @@ items:
   - {name: conditional entropy, kind: definition, wikipedia: Conditional entropy, wikidata: Q813908}
   - {name: mutual information, kind: definition, wikipedia: Mutual information, wikidata: Q252973}
   - {name: conditional mutual information, kind: definition, wikipedia: Conditional mutual information, wikidata: Q5159269}
-  - {name: Kullback–Leibler divergence, kind: definition, decl: InformationTheory.klDiv, wikipedia: Kullback–Leibler divergence, wikidata: Q255166}
+  - {name: Kullback–Leibler divergence, kind: definition, decl: InformationTheory.klDiv, wikipedia: Kullback–Leibler divergence, wikidata: Q255166, node: PQBW43X5RE}
   - {name: Gibbs' inequality, kind: statement, wikipedia: Gibbs' inequality, wikidata: Q1425564}
   - {name: cross-entropy, kind: definition, wikipedia: Cross-entropy, wikidata: Q1685498}
   - {name: f-divergence, kind: definition, wikipedia: F-divergence, wikidata: Q5423634}
