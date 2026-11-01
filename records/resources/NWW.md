@@ -61,7 +61,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.14 scope/1
+        by: m2 v0.6.16 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
@@ -72,7 +72,7 @@ records:
           native_id: 10.1007/978-1-4684-9930-8
           level: work
         - source: zbmath_search
-          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
+          snapshot: blake3:928c873c1dac6852b2bf2c77184182759305f81342a4dc8ca5c0d4768bc6dd1e
           native_id: "3745549"
           level: work
       history:
@@ -112,7 +112,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.14 scope/1
+        by: m2 v0.6.16 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -123,7 +123,7 @@ records:
           native_id: "2610.09812"
           level: work
         - source: zbmath_search
-          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
+          snapshot: blake3:928c873c1dac6852b2bf2c77184182759305f81342a4dc8ca5c0d4768bc6dd1e
           native_id: "903202358"
           level: work
       history:
@@ -185,14 +185,14 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.14 scope/1
+        by: m2 v0.6.16 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0093387
           level: work
         - source: zbmath_search
-          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
+          snapshot: blake3:928c873c1dac6852b2bf2c77184182759305f81342a4dc8ca5c0d4768bc6dd1e
           native_id: "1001302"
           level: work
       history:

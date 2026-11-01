@@ -9,6 +9,29 @@ records:
         - name: Narutaka Ozawa
           role: author
       date: "2008-03-12"
+      msc:
+        - code: 46-02
+          from: zbmath_search
+        - code: 46L35
+          from: zbmath_search
+        - code: 46L05
+          from: zbmath_search
+        - code: 46L06
+          from: zbmath_search
+        - code: 46L07
+          from: zbmath_search
+        - code: 46L10
+          from: zbmath_search
+        - code: 46L55
+          from: zbmath_search
+        - code: 05C25
+          from: zbmath_search
+        - code: 19K33
+          from: zbmath_search
+        - code: 22D25
+          from: zbmath_search
+        - code: 43A07
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
@@ -16,6 +39,8 @@ records:
           date: "2008-03-12"
           ids:
             doi: 10.1090/gsm/088
+            zbl: "1160.46001"
+            zbl_id: "5256855"
           manifestations:
             - key: m1
               kind: print
@@ -34,16 +59,20 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.14 scope/1
+        rule: S1
+        by: m2 v0.6.16 scope/1
       catalogue:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/gsm/088
           level: work
         - source: crossref_language
-          snapshot: blake3:fd7cbc47dac294e4452ea800fd3ae53f852825bb624f15dc020fcbd89fca6c56
+          snapshot: blake3:78a08c6dff20a47d6ad06a8fc0424f997c851421644ee012bc0f425814d0a6d5
           native_id: 10.1090/gsm/088
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:928c873c1dac6852b2bf2c77184182759305f81342a4dc8ca5c0d4768bc6dd1e
+          native_id: "5256855"
           level: work
       history:
         - op: add
@@ -53,4 +82,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.16 scope/1
+          note: from in to in
 ---

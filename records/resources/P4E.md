@@ -3,13 +3,6 @@ records:
     - id: P4EQRJNR4E
       kind: monograph
       title: Quasi-Periodic Motions in Families of Dynamical Systems
-      creators:
-        - name: Broer, H. W.
-          role: author
-        - name: Huitema, G. B.
-          role: author
-        - name: Sevryuk, M. B.
-          role: author
       date: "1996"
       msc:
         - code: 37C55
@@ -61,10 +54,10 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.14 scope/1
+        by: m2 v0.6.16 scope/1
       catalogue:
         - source: crossref_language
-          snapshot: blake3:fd7cbc47dac294e4452ea800fd3ae53f852825bb624f15dc020fcbd89fca6c56
+          snapshot: blake3:78a08c6dff20a47d6ad06a8fc0424f997c851421644ee012bc0f425814d0a6d5
           native_id: 10.1007/978-3-540-49613-7
           level: work
         - source: springer-series
@@ -72,7 +65,7 @@ records:
           native_id: 10.1007/978-3-540-49613-7
           level: work
         - source: zbmath_search
-          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
+          snapshot: blake3:928c873c1dac6852b2bf2c77184182759305f81342a4dc8ca5c0d4768bc6dd1e
           native_id: "967851"
           level: work
       history:

@@ -60,10 +60,10 @@
     },
     {
       "source": "crossref_language",
-      "snapshot": "blake3:fd7cbc47dac294e4452ea800fd3ae53f852825bb624f15dc020fcbd89fca6c56",
-      "read": 724,
+      "snapshot": "blake3:78a08c6dff20a47d6ad06a8fc0424f997c851421644ee012bc0f425814d0a6d5",
+      "read": 729,
       "rejected": 0,
-      "mapped": 724,
+      "mapped": 729,
       "coverage": 1
     },
     {
@@ -196,10 +196,10 @@
     },
     {
       "source": "zbmath_search",
-      "snapshot": "blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca",
-      "read": 6601,
+      "snapshot": "blake3:928c873c1dac6852b2bf2c77184182759305f81342a4dc8ca5c0d4768bc6dd1e",
+      "read": 6646,
       "rejected": 0,
-      "mapped": 6601,
+      "mapped": 6646,
       "coverage": 1
     }
   ],
@@ -283,9 +283,9 @@
         "citations"
       ],
       "model": "pair catalogue and citations",
-      "n": 3794,
-      "low": 2852.75,
-      "high": 5573.2727,
+      "n": 3799,
+      "low": 2827.9185,
+      "high": 5580.6364,
       "recall": 0.0063,
       "recall_low": 0.0043,
       "target": 0.9,
@@ -300,11 +300,11 @@
         "citations"
       ],
       "model": "pair catalogue and citations",
-      "n": 905.5455,
-      "low": 831,
-      "high": 1138.875,
+      "n": 908.8182,
+      "low": 834,
+      "high": 1143,
       "recall": 0.0121,
-      "recall_low": 0.0097,
+      "recall_low": 0.0096,
       "target": 0.9,
       "below": true
     },
@@ -317,9 +317,9 @@
         "citations"
       ],
       "model": "pair catalogue and citations",
-      "n": 3703,
-      "low": 2780,
-      "high": 5553,
+      "n": 3716.3333,
+      "low": 2790,
+      "high": 5571,
       "recall": 0.003,
       "recall_low": 0.002,
       "target": 0.97,
@@ -334,9 +334,9 @@
         "citations"
       ],
       "model": "pair catalogue and citations",
-      "n": 11726.4245,
-      "low": 10730.145,
-      "high": 13017.5419,
+      "n": 11765.783,
+      "low": 10733.6542,
+      "high": 13034.4725,
       "recall": 0.0126,
       "recall_low": 0.0114,
       "target": 0.97,
@@ -351,10 +351,10 @@
         "citations"
       ],
       "model": "pair catalogue and citations",
-      "n": 26592.9143,
-      "low": 25348.0655,
-      "high": 28113.8999,
-      "recall": 0.0319,
+      "n": 26660.1825,
+      "low": 25413.5858,
+      "high": 28076.9066,
+      "recall": 0.0318,
       "recall_low": 0.0302,
       "target": 0.97,
       "below": true
@@ -368,11 +368,11 @@
         "citations"
       ],
       "model": "pair catalogue and citations",
-      "n": 34864.589,
-      "low": 32793.8442,
-      "high": 37265.1904,
-      "recall": 0.0301,
-      "recall_low": 0.0282,
+      "n": 34980.3771,
+      "low": 32977.7393,
+      "high": 37352.9065,
+      "recall": 0.03,
+      "recall_low": 0.0281,
       "target": 0.97,
       "below": true
     },
@@ -508,7 +508,7 @@
     }
   ],
   "refs": {
-    "citing": 1640,
+    "citing": 1647,
     "rows": [
       {
         "kind": "article",
@@ -579,12 +579,12 @@
       {
         "kind": "article",
         "decade": "1080s",
-        "parsed": 1,
+        "parsed": 2,
         "resolved": 0,
         "closure": 0,
         "target": 0.95,
         "below": true,
-        "works": 1,
+        "works": 2,
         "held": 0
       },
       {
@@ -876,12 +876,12 @@
       {
         "kind": "article",
         "decade": "1850s",
-        "parsed": 153,
+        "parsed": 154,
         "resolved": 0,
         "closure": 0,
         "target": 0.95,
         "below": true,
-        "works": 101,
+        "works": 102,
         "held": 0
       },
       {
@@ -898,40 +898,40 @@
       {
         "kind": "article",
         "decade": "1870s",
-        "parsed": 404,
+        "parsed": 405,
         "resolved": 0,
         "closure": 0,
         "target": 0.95,
         "below": true,
-        "works": 224,
+        "works": 225,
         "held": 0
       },
       {
         "kind": "article",
         "decade": "1880s",
-        "parsed": 583,
+        "parsed": 587,
         "resolved": 0,
         "closure": 0,
         "target": 0.95,
         "below": true,
-        "works": 315,
+        "works": 318,
         "held": 0
       },
       {
         "kind": "article",
         "decade": "1890s",
-        "parsed": 656,
+        "parsed": 658,
         "resolved": 0,
         "closure": 0,
         "target": 0.95,
         "below": true,
-        "works": 366,
+        "works": 367,
         "held": 0
       },
       {
         "kind": "article",
         "decade": "1900s",
-        "parsed": 1249,
+        "parsed": 1250,
         "resolved": 0,
         "closure": 0,
         "target": 0.95,
@@ -942,122 +942,122 @@
       {
         "kind": "article",
         "decade": "1910s",
-        "parsed": 1482,
+        "parsed": 1486,
         "resolved": 0,
         "closure": 0,
         "target": 0.95,
         "below": true,
-        "works": 887,
+        "works": 888,
         "held": 0
       },
       {
         "kind": "article",
         "decade": "1920s",
-        "parsed": 2594,
+        "parsed": 2597,
         "resolved": 0,
         "closure": 0,
         "target": 0.95,
         "below": true,
-        "works": 1481,
+        "works": 1483,
         "held": 0
       },
       {
         "kind": "article",
         "decade": "1930s",
-        "parsed": 5299,
+        "parsed": 5311,
         "resolved": 0,
         "closure": 0,
         "target": 0.95,
         "below": true,
-        "works": 2906,
+        "works": 2911,
         "held": 0
       },
       {
         "kind": "article",
         "decade": "1940s",
-        "parsed": 4889,
+        "parsed": 4901,
         "resolved": 0,
         "closure": 0,
         "target": 0.95,
         "below": true,
-        "works": 2909,
+        "works": 2912,
         "held": 0
       },
       {
         "kind": "article",
         "decade": "1950s",
-        "parsed": 13074,
+        "parsed": 13113,
         "resolved": 0,
         "closure": 0,
         "target": 0.95,
         "below": true,
-        "works": 7436,
+        "works": 7458,
         "held": 0
       },
       {
         "kind": "article",
         "decade": "1960s",
-        "parsed": 32038,
+        "parsed": 32143,
         "resolved": 0,
         "closure": 0,
         "target": 0.95,
         "below": true,
-        "works": 18893,
+        "works": 18951,
         "held": 0
       },
       {
         "kind": "article",
         "decade": "1970s",
-        "parsed": 58895,
+        "parsed": 59179,
         "resolved": 0,
         "closure": 0,
         "target": 0.95,
         "below": true,
-        "works": 36320,
+        "works": 36467,
         "held": 0
       },
       {
         "kind": "article",
         "decade": "1980s",
-        "parsed": 47215,
+        "parsed": 47390,
         "resolved": 0,
         "closure": 0,
         "target": 0.95,
         "below": true,
-        "works": 30052,
+        "works": 30158,
         "held": 0
       },
       {
         "kind": "article",
         "decade": "1990s",
-        "parsed": 32658,
+        "parsed": 32695,
         "resolved": 0,
         "closure": 0,
         "target": 0.99,
         "below": true,
-        "works": 19188,
+        "works": 19215,
         "held": 0
       },
       {
         "kind": "article",
         "decade": "2000s",
-        "parsed": 35709,
+        "parsed": 35797,
         "resolved": 0,
         "closure": 0,
         "target": 0.99,
         "below": true,
-        "works": 20440,
+        "works": 20519,
         "held": 0
       },
       {
         "kind": "article",
         "decade": "2010s",
-        "parsed": 20242,
+        "parsed": 20255,
         "resolved": 0,
         "closure": 0,
         "target": 0.99,
         "below": true,
-        "works": 13239,
+        "works": 13251,
         "held": 0
       },
       {
@@ -1602,7 +1602,7 @@
       {
         "kind": "book",
         "decade": "1840s",
-        "parsed": 132,
+        "parsed": 134,
         "resolved": 0,
         "closure": 0,
         "target": 0.95,
@@ -1657,18 +1657,18 @@
       {
         "kind": "book",
         "decade": "1890s",
-        "parsed": 759,
+        "parsed": 763,
         "resolved": 0,
         "closure": 0,
         "target": 0.95,
         "below": true,
-        "works": 280,
+        "works": 282,
         "held": 0
       },
       {
         "kind": "book",
         "decade": "1900s",
-        "parsed": 1172,
+        "parsed": 1174,
         "resolved": 0,
         "closure": 0,
         "target": 0.95,
@@ -1690,111 +1690,111 @@
       {
         "kind": "book",
         "decade": "1920s",
-        "parsed": 1367,
+        "parsed": 1370,
         "resolved": 36,
         "closure": 0.0263,
         "target": 0.95,
         "below": true,
-        "works": 550,
+        "works": 552,
         "held": 5
       },
       {
         "kind": "book",
         "decade": "1930s",
-        "parsed": 2306,
+        "parsed": 2317,
         "resolved": 105,
-        "closure": 0.0455,
+        "closure": 0.0453,
         "target": 0.95,
         "below": true,
-        "works": 842,
+        "works": 843,
         "held": 9
       },
       {
         "kind": "book",
         "decade": "1940s",
-        "parsed": 2156,
+        "parsed": 2163,
         "resolved": 94,
-        "closure": 0.0436,
+        "closure": 0.0435,
         "target": 0.95,
         "below": true,
-        "works": 830,
+        "works": 833,
         "held": 10
       },
       {
         "kind": "book",
         "decade": "1950s",
-        "parsed": 7683,
+        "parsed": 7722,
         "resolved": 175,
-        "closure": 0.0228,
+        "closure": 0.0227,
         "target": 0.95,
         "below": true,
-        "works": 2777,
+        "works": 2787,
         "held": 8
       },
       {
         "kind": "book",
         "decade": "1960s",
-        "parsed": 23197,
-        "resolved": 1128,
+        "parsed": 23293,
+        "resolved": 1132,
         "closure": 0.0486,
         "target": 0.95,
         "below": true,
-        "works": 8342,
+        "works": 8370,
         "held": 105
       },
       {
         "kind": "book",
         "decade": "1970s",
-        "parsed": 40262,
-        "resolved": 4778,
-        "closure": 0.1187,
+        "parsed": 40489,
+        "resolved": 4801,
+        "closure": 0.1186,
         "target": 0.95,
         "below": true,
-        "works": 16444,
-        "held": 524
+        "works": 16517,
+        "held": 525
       },
       {
         "kind": "book",
         "decade": "1980s",
-        "parsed": 34983,
-        "resolved": 3551,
-        "closure": 0.1015,
+        "parsed": 35114,
+        "resolved": 3557,
+        "closure": 0.1013,
         "target": 0.95,
         "below": true,
-        "works": 15657,
+        "works": 15709,
         "held": 471
       },
       {
         "kind": "book",
         "decade": "1990s",
-        "parsed": 26756,
-        "resolved": 2831,
+        "parsed": 26794,
+        "resolved": 2835,
         "closure": 0.1058,
         "target": 0.99,
         "below": true,
-        "works": 10851,
+        "works": 10869,
         "held": 460
       },
       {
         "kind": "book",
         "decade": "2000s",
-        "parsed": 27045,
-        "resolved": 2321,
+        "parsed": 27066,
+        "resolved": 2322,
         "closure": 0.0858,
         "target": 0.99,
         "below": true,
-        "works": 10492,
+        "works": 10509,
         "held": 422
       },
       {
         "kind": "book",
         "decade": "2010s",
-        "parsed": 15855,
+        "parsed": 15868,
         "resolved": 1395,
-        "closure": 0.088,
+        "closure": 0.0879,
         "target": 0.99,
         "below": true,
-        "works": 7818,
+        "works": 7828,
         "held": 356
       },
       {
@@ -1888,12 +1888,12 @@
       {
         "kind": "book",
         "decade": "unknown",
-        "parsed": 22575,
+        "parsed": 22669,
         "resolved": 0,
         "closure": 0,
         "target": 0.95,
         "below": true,
-        "works": 12692,
+        "works": 12753,
         "held": 0
       },
       {
@@ -1912,7 +1912,7 @@
         "title": "Perturbation Theory for Linear Operators",
         "author": "T. Kato",
         "year": "1976",
-        "citing": 96,
+        "citing": 98,
         "refs": [
           "1BK43D0FY9/e1#17",
           "1BK43D0FY9/e1#113",
@@ -1951,7 +1951,7 @@
         "title": "Functional analysis",
         "author": "K. Yosida",
         "year": "1965",
-        "citing": 71,
+        "citing": 72,
         "refs": [
           "1BK43D0FY9/e1#318",
           "265NRSP92K/e1#19",
@@ -1971,6 +1971,32 @@
           "3CS5NEFXKV/e1#149",
           "3S66VAQ56E/e1#4",
           "3S66VAQ56E/e1#113"
+        ]
+      },
+      {
+        "title": "Singular integrals and differentiability properties of functions",
+        "author": "E.M. Stein",
+        "year": "1970",
+        "citing": 70,
+        "refs": [
+          "26HYT69J2J/e1#180",
+          "2ACWEWRVT5/e1#390",
+          "3782Z5HK15/e1#42",
+          "3782Z5HK15/e1#87",
+          "3782Z5HK15/e1#132"
+        ]
+      },
+      {
+        "title": "Sobolev Spaces",
+        "author": "R.A. Adams",
+        "year": "2003",
+        "citing": 70,
+        "refs": [
+          "1WFNASCYM3/e1#301",
+          "1Y0TVD5F25/e1#92",
+          "26HYT69J2J/e1#22",
+          "28WKS82EGT/e1#1",
+          "28WKS82EGT/e1#270"
         ]
       },
       {
@@ -2000,36 +2026,10 @@
         ]
       },
       {
-        "title": "Singular integrals and differentiability properties of functions",
-        "author": "E.M. Stein",
-        "year": "1970",
-        "citing": 69,
-        "refs": [
-          "26HYT69J2J/e1#180",
-          "2ACWEWRVT5/e1#390",
-          "3782Z5HK15/e1#42",
-          "3782Z5HK15/e1#87",
-          "3782Z5HK15/e1#132"
-        ]
-      },
-      {
-        "title": "Sobolev Spaces",
-        "author": "R.A. Adams",
-        "year": "2003",
-        "citing": 69,
-        "refs": [
-          "1WFNASCYM3/e1#301",
-          "1Y0TVD5F25/e1#92",
-          "26HYT69J2J/e1#22",
-          "28WKS82EGT/e1#1",
-          "28WKS82EGT/e1#270"
-        ]
-      },
-      {
         "title": "Algebraic Topology. McGraw Hill Book Company",
         "author": "E. Spanier",
         "year": "1966",
-        "citing": 67,
+        "citing": 68,
         "refs": [
           "12BTC0SPGA/e1#133",
           "1ADQEH35YE/e1#215",
@@ -2055,7 +2055,7 @@
         "title": "Linear Operators. Part I (1958)",
         "author": "N. Dunford",
         "year": "1971",
-        "citing": 57,
+        "citing": 58,
         "refs": [
           "10675814ZM/e1#77",
           "10675814ZM/e1#195",
@@ -2078,6 +2078,19 @@
         ]
       },
       {
+        "title": "Theory of Ordinary Differential Equations",
+        "author": "E.A. Coddington",
+        "year": "1955",
+        "citing": 52,
+        "refs": [
+          "13JCMEMG7C/e1#14",
+          "13JCMEMG7C/e1#20",
+          "28WKS82EGT/e1#75",
+          "28WKS82EGT/e1#464",
+          "28WKS82EGT/e1#696"
+        ]
+      },
+      {
         "title": "Foundations of differential geometry: Vol. 1",
         "author": "S. Kobayashi",
         "year": "2009",
@@ -2088,19 +2101,6 @@
           "1EQYM791C8/e1#826",
           "1EQYM791C8/e1#1155",
           "1EQYM791C8/e1#1484"
-        ]
-      },
-      {
-        "title": "Theory of Ordinary Differential Equations",
-        "author": "E.A. Coddington",
-        "year": "1955",
-        "citing": 51,
-        "refs": [
-          "13JCMEMG7C/e1#14",
-          "13JCMEMG7C/e1#20",
-          "28WKS82EGT/e1#75",
-          "28WKS82EGT/e1#464",
-          "28WKS82EGT/e1#696"
         ]
       },
       {
@@ -2130,6 +2130,19 @@
         ]
       },
       {
+        "title": "Ordinary Differential Equations",
+        "author": "P. Hartman",
+        "year": "1964",
+        "citing": 48,
+        "refs": [
+          "13JCMEMG7C/e1#15",
+          "28WKS82EGT/e1#120",
+          "28WKS82EGT/e1#509",
+          "28WKS82EGT/e1#741",
+          "3TX9JS0JRV/e1#129"
+        ]
+      },
+      {
         "title": "Stochastic Processes",
         "author": "J. L. Doob",
         "year": "1953",
@@ -2153,19 +2166,6 @@
           "5BQ5A7NM0X/e1#284",
           "6AXANAJ0ZC/e1#118",
           "6GBKVV25JV/e1#53"
-        ]
-      },
-      {
-        "title": "Ordinary Differential Equations",
-        "author": "P. Hartman",
-        "year": "1964",
-        "citing": 47,
-        "refs": [
-          "13JCMEMG7C/e1#15",
-          "28WKS82EGT/e1#120",
-          "28WKS82EGT/e1#509",
-          "28WKS82EGT/e1#741",
-          "3Z58YHWRPX/e1#10"
         ]
       },
       {
@@ -2221,6 +2221,19 @@
         ]
       },
       {
+        "title": "Methods of Modern Mathematical Physics",
+        "author": "M. Reed",
+        "year": "1972",
+        "citing": 44,
+        "refs": [
+          "1BK43D0FY9/e1#7",
+          "1BK43D0FY9/e1#19",
+          "1BK43D0FY9/e1#73",
+          "1BK43D0FY9/e1#121",
+          "1GKHJW3K5J/e1#237"
+        ]
+      },
+      {
         "title": "General Topology",
         "author": "J. Kelley",
         "year": "1954",
@@ -2231,19 +2244,6 @@
           "1CX4CHV01H/e1#147",
           "1DRF7A6BKV/e1#105",
           "1ERV8SFHCM/e1#120"
-        ]
-      },
-      {
-        "title": "Methods of Modern Mathematical Physics",
-        "author": "M. Reed",
-        "year": "1972",
-        "citing": 43,
-        "refs": [
-          "1BK43D0FY9/e1#7",
-          "1BK43D0FY9/e1#19",
-          "1BK43D0FY9/e1#73",
-          "1BK43D0FY9/e1#121",
-          "1GKHJW3K5J/e1#237"
         ]
       },
       {
@@ -2341,7 +2341,7 @@
         "title": "Quelques Méthodes de Résolution des Problèmes aux Limites Non Linéaires",
         "author": "J.L. Lions",
         "year": "1969",
-        "citing": 38,
+        "citing": 39,
         "refs": [
           "28WKS82EGT/e1#151",
           "28WKS82EGT/e1#330",
@@ -2494,6 +2494,19 @@
         ]
       },
       {
+        "title": "Inequalities",
+        "author": "G. H. Hardy",
+        "year": "1934",
+        "citing": 33,
+        "refs": [
+          "1BK43D0FY9/e1#491",
+          "2ACSH1V5X6/e1#42",
+          "3240G9FR56/e1#75",
+          "3240G9FR56/e1#118",
+          "3SD22Z0DCX/e1#26"
+        ]
+      },
+      {
         "title": "Introduction to Compact Transformation Groups",
         "author": "G. Bredon",
         "year": "1972",
@@ -2582,19 +2595,6 @@
           "5041CFJ66F/e1#146",
           "57AP3TVQB1/e1#389",
           "6AXANAJ0ZC/e1#120"
-        ]
-      },
-      {
-        "title": "Inequalities",
-        "author": "G. H. Hardy",
-        "year": "1934",
-        "citing": 32,
-        "refs": [
-          "1BK43D0FY9/e1#491",
-          "2ACSH1V5X6/e1#42",
-          "3240G9FR56/e1#75",
-          "3240G9FR56/e1#118",
-          "3SD22Z0DCX/e1#26"
         ]
       },
       {
@@ -2728,6 +2728,19 @@
         ]
       },
       {
+        "title": "Elements de mathématique",
+        "author": "Bourbaki, N.",
+        "year": "1939",
+        "citing": 29,
+        "refs": [
+          "1ERV8SFHCM/e1#6",
+          "2F57Q6KRQS/e1#127",
+          "3TX9JS0JRV/e1#123",
+          "4SBYN7PNKG/e1#260",
+          "5J9PEBDQWB/e1#391"
+        ]
+      },
+      {
         "title": "HARISH-CHANDRA: Spherical functions on a semisimple Lie group I. Amer. J. of Math",
         "author": "Harish-Chandra",
         "year": "1958",
@@ -2751,6 +2764,19 @@
           "6TEJRER8ZN/e1#254",
           "7R5DM0A72V/e1#19",
           "9173DAFC1C/e1#69"
+        ]
+      },
+      {
+        "title": "Milnor",
+        "author": "JW Milnor",
+        "year": "1968",
+        "citing": 29,
+        "refs": [
+          "1P30275H4M/e1#281",
+          "1P30275H4M/e1#282",
+          "1P30275H4M/e1#283",
+          "5BQ5A7NM0X/e1#186",
+          "5BQ5A7NM0X/e1#187"
         ]
       },
       {
@@ -2793,16 +2819,16 @@
         ]
       },
       {
-        "title": "Milnor",
-        "author": "JW Milnor",
-        "year": "1968",
+        "title": "Linear Partial Differential Operators",
+        "author": "L. Hörmander",
+        "year": "1963",
         "citing": 28,
         "refs": [
-          "1P30275H4M/e1#281",
-          "1P30275H4M/e1#282",
-          "1P30275H4M/e1#283",
-          "5BQ5A7NM0X/e1#186",
-          "5BQ5A7NM0X/e1#187"
+          "1TZWRK01CC/e1#64",
+          "265NRSP92K/e1#40",
+          "265NRSP92K/e1#106",
+          "29Z7ENSBMN/e1#158",
+          "3J6DZ066GX/e1#83"
         ]
       },
       {
@@ -2816,6 +2842,19 @@
           "478N1WGCMR/e1#87",
           "478N1WGCMR/e1#192",
           "478N1WGCMR/e1#297"
+        ]
+      },
+      {
+        "title": "Scattering Theory. Revised edition",
+        "author": "Lax, P.D.",
+        "year": "1990",
+        "citing": 28,
+        "refs": [
+          "1GKHJW3K5J/e1#167",
+          "1GKHJW3K5J/e1#493",
+          "1WFNASCYM3/e1#282",
+          "29PT1GWJXM/e1#69",
+          "29PT1GWJXM/e1#121"
         ]
       },
       {
@@ -2855,19 +2894,6 @@
           "4EHXWENS6K/e1#717",
           "6BD5D25AC2/e1#70",
           "6BD5D25AC2/e1#80"
-        ]
-      },
-      {
-        "title": "Elements de mathématique",
-        "author": "Bourbaki, N.",
-        "year": "1939",
-        "citing": 27,
-        "refs": [
-          "1ERV8SFHCM/e1#6",
-          "2F57Q6KRQS/e1#127",
-          "4SBYN7PNKG/e1#260",
-          "5J9PEBDQWB/e1#391",
-          "6A181YYY05/e1#161"
         ]
       },
       {
@@ -2923,19 +2949,6 @@
         ]
       },
       {
-        "title": "Linear Partial Differential Operators",
-        "author": "L. Hörmander",
-        "year": "1963",
-        "citing": 27,
-        "refs": [
-          "1TZWRK01CC/e1#64",
-          "265NRSP92K/e1#40",
-          "265NRSP92K/e1#106",
-          "29Z7ENSBMN/e1#158",
-          "3J6DZ066GX/e1#83"
-        ]
-      },
-      {
         "title": "Partial Differential Equations of Parabolic Type",
         "author": "A. FRIEDMAN",
         "year": "1964",
@@ -2959,19 +2972,6 @@
           "3X5CXAXBA8/e1#92",
           "4481RVD1QD/e1#89",
           "4481RVD1QD/e1#105"
-        ]
-      },
-      {
-        "title": "Scattering Theory. Revised edition",
-        "author": "Lax, P.D.",
-        "year": "1990",
-        "citing": 27,
-        "refs": [
-          "1GKHJW3K5J/e1#167",
-          "1GKHJW3K5J/e1#493",
-          "1WFNASCYM3/e1#282",
-          "29PT1GWJXM/e1#69",
-          "29PT1GWJXM/e1#121"
         ]
       },
       {
@@ -3066,6 +3066,19 @@
         ]
       },
       {
+        "title": "Principles of Mathematical Analysis",
+        "author": "W. Rudin",
+        "year": "1976",
+        "citing": 26,
+        "refs": [
+          "13JCMEMG7C/e1#33",
+          "1GNB9J7ZWE/e1#7",
+          "1GNB9J7ZWE/e1#15",
+          "1GNB9J7ZWE/e1#23",
+          "1GNB9J7ZWE/e1#31"
+        ]
+      },
+      {
         "title": "Topologie Générale",
         "author": "N. Bourbaki",
         "year": "1965",
@@ -3102,6 +3115,19 @@
           "4EHXWENS6K/e1#273",
           "4EHXWENS6K/e1#335",
           "539D3C6RX3/e1#20"
+        ]
+      },
+      {
+        "title": "Differentiable Dynamical Systems",
+        "author": "S. Smale",
+        "year": "1967",
+        "citing": 25,
+        "refs": [
+          "46TTPY15AX/e1#103",
+          "46TTPY15AX/e1#228",
+          "4MZ2GB421B/e1#108",
+          "5VHKWXXX3H/e1#59",
+          "6PGW8XV26F/e1#340"
         ]
       },
       {
@@ -3154,19 +3180,6 @@
           "9JF0WR384Q/e1#77",
           "A5KYF53NX9/e1#21",
           "A5KYF53NX9/e1#40"
-        ]
-      },
-      {
-        "title": "Principles of Mathematical Analysis",
-        "author": "W. Rudin",
-        "year": "1976",
-        "citing": 25,
-        "refs": [
-          "13JCMEMG7C/e1#33",
-          "1GNB9J7ZWE/e1#7",
-          "1GNB9J7ZWE/e1#15",
-          "1GNB9J7ZWE/e1#23",
-          "1GNB9J7ZWE/e1#31"
         ]
       },
       {
@@ -3248,16 +3261,16 @@
         ]
       },
       {
-        "title": "Differentiable Dynamical Systems",
-        "author": "S. Smale",
-        "year": "1967",
+        "title": "Complex Analysis",
+        "author": "L. V. Ahlfors",
+        "year": "1966",
         "citing": 24,
         "refs": [
-          "46TTPY15AX/e1#103",
-          "46TTPY15AX/e1#228",
-          "4MZ2GB421B/e1#108",
-          "5VHKWXXX3H/e1#59",
-          "6PGW8XV26F/e1#340"
+          "1DRF7A6BKV/e1#113",
+          "56ZSP86DJ5/e1#2",
+          "56ZSP86DJ5/e1#215",
+          "56ZSP86DJ5/e1#428",
+          "56ZSP86DJ5/e1#641"
         ]
       },
       {
@@ -3391,16 +3404,16 @@
         ]
       },
       {
-        "title": "Complex Analysis",
-        "author": "L. V. Ahlfors",
-        "year": "1966",
+        "title": "Functional Analysis. Dover Books on Mathematics",
+        "author": "Riesz, F.",
+        "year": "1990",
         "citing": 23,
         "refs": [
-          "1DRF7A6BKV/e1#113",
-          "56ZSP86DJ5/e1#2",
-          "56ZSP86DJ5/e1#215",
-          "56ZSP86DJ5/e1#428",
-          "56ZSP86DJ5/e1#641"
+          "1GKHJW3K5J/e1#240",
+          "1GKHJW3K5J/e1#571",
+          "4R2CX3CNXA/e1#54",
+          "4R2CX3CNXA/e1#57",
+          "5E8FWVT1QG/e1#8"
         ]
       },
       {
@@ -3573,19 +3586,6 @@
         ]
       },
       {
-        "title": "Functional Analysis. Dover Books on Mathematics",
-        "author": "Riesz, F.",
-        "year": "1990",
-        "citing": 22,
-        "refs": [
-          "1GKHJW3K5J/e1#240",
-          "1GKHJW3K5J/e1#571",
-          "4R2CX3CNXA/e1#54",
-          "4R2CX3CNXA/e1#57",
-          "5E8FWVT1QG/e1#8"
-        ]
-      },
-      {
         "title": "Infinitesimal computations in topology",
         "author": "D. Sullivan",
         "year": "1978",
@@ -3599,6 +3599,19 @@
         ]
       },
       {
+        "title": "Kac",
+        "author": "M. Kac",
+        "year": "1949",
+        "citing": 22,
+        "refs": [
+          "1WP6RR4BEQ/e1#16",
+          "23SRDA0Z9S/e1#72",
+          "4D871HEJYP/e1#46",
+          "5BQ5A7NM0X/e1#130",
+          "5BQ5A7NM0X/e1#292"
+        ]
+      },
+      {
         "title": "Linear Operators I",
         "author": "N. Dunford",
         "year": "1957",
@@ -3609,6 +3622,19 @@
           "6QNCVRYEYF/e1#330",
           "6QNCVRYEYF/e1#1339",
           "6QNCVRYEYF/e1#2349"
+        ]
+      },
+      {
+        "title": "Linear and nonlinear waves",
+        "author": "G.B. Whitham",
+        "year": "1974",
+        "citing": 22,
+        "refs": [
+          "1C5S19A59S/e1#500",
+          "3TX9JS0JRV/e1#86",
+          "6P11BG1M1X/e1#598",
+          "7EK9A0JDK7/e1#200",
+          "7VMNA43E8X/e1#5"
         ]
       },
       {
@@ -3648,6 +3674,19 @@
           "4R2CX3CNXA/e1#148",
           "5DG0GC0SE6/e1#17",
           "62DY33E2S0/e1#30"
+        ]
+      },
+      {
+        "title": "Moore",
+        "author": "J. C. Moore",
+        "year": "1968",
+        "citing": 22,
+        "refs": [
+          "12BTC0SPGA/e1#143",
+          "12BTC0SPGA/e1#144",
+          "2ACSH1V5X6/e1#155",
+          "508252H2TY/e1#269",
+          "738FNXEJXZ/e1#419"
         ]
       },
       {
@@ -3793,19 +3832,6 @@
         ]
       },
       {
-        "title": "Kac",
-        "author": "M. Kac",
-        "year": "1949",
-        "citing": 21,
-        "refs": [
-          "1WP6RR4BEQ/e1#16",
-          "23SRDA0Z9S/e1#72",
-          "4D871HEJYP/e1#46",
-          "5BQ5A7NM0X/e1#130",
-          "5BQ5A7NM0X/e1#292"
-        ]
-      },
-      {
         "title": "Linear algebraic groups",
         "author": "A. Borel",
         "year": "1969",
@@ -3816,19 +3842,6 @@
           "51HACEQ42B/e1#89",
           "57AP3TVQB1/e1#293",
           "6TEJRER8ZN/e1#174"
-        ]
-      },
-      {
-        "title": "Linear and nonlinear waves",
-        "author": "G.B. Whitham",
-        "year": "1974",
-        "citing": 21,
-        "refs": [
-          "1C5S19A59S/e1#500",
-          "6P11BG1M1X/e1#598",
-          "7EK9A0JDK7/e1#200",
-          "7VMNA43E8X/e1#5",
-          "7VMNA43E8X/e1#39"
         ]
       },
       {
@@ -3881,6 +3894,19 @@
           "7ZENBQ5MT2/e1#31",
           "8SMA3PZMFQ/e1#34",
           "9TMW2SV5DW/e1#84"
+        ]
+      },
+      {
+        "title": "Stein",
+        "author": "C. Stein",
+        "year": "1970",
+        "citing": 21,
+        "refs": [
+          "23SRDA0Z9S/e1#190",
+          "361QDJDYGP/e1#571",
+          "508252H2TY/e1#272",
+          "562GJG5G9V/e1#235",
+          "5BQ5A7NM0X/e1#351"
         ]
       },
       {
@@ -4001,6 +4027,19 @@
         ]
       },
       {
+        "title": "James",
+        "author": "I.M. James",
+        "year": "1955",
+        "citing": 20,
+        "refs": [
+          "1R1K1T71AJ/e1#290",
+          "4PW7B77ZJK/e1#112",
+          "51HACEQ42B/e1#272",
+          "5D4M3Y1S54/e1#96",
+          "5D4M3Y1S54/e1#114"
+        ]
+      },
+      {
         "title": "Kolmogorov",
         "author": "A. N. Kolmogorov",
         "year": "1933",
@@ -4027,16 +4066,16 @@
         ]
       },
       {
-        "title": "Moore",
-        "author": "J. C. Moore",
-        "year": "1968",
+        "title": "Müller",
+        "author": "C. Müller",
+        "year": "1961",
         "citing": 20,
         "refs": [
-          "12BTC0SPGA/e1#143",
-          "12BTC0SPGA/e1#144",
-          "2ACSH1V5X6/e1#155",
-          "508252H2TY/e1#269",
-          "738FNXEJXZ/e1#419"
+          "3H7D3QDS3R/e1#329",
+          "4EHXWENS6K/e1#581",
+          "BT63AVGAK0/e1#9",
+          "BWN3CHBNFE/e1#409",
+          "BWN3CHBNFE/e1#410"
         ]
       },
       {
@@ -4079,16 +4118,16 @@
         ]
       },
       {
-        "title": "Stein",
-        "author": "C. Stein",
-        "year": "1970",
+        "title": "The Theory of Matrices",
+        "author": "F. R. Gantmacher",
+        "year": "1960",
         "citing": 20,
         "refs": [
-          "23SRDA0Z9S/e1#190",
-          "361QDJDYGP/e1#571",
-          "508252H2TY/e1#272",
-          "562GJG5G9V/e1#235",
-          "5BQ5A7NM0X/e1#351"
+          "2ACSH1V5X6/e1#130",
+          "3TX9JS0JRV/e1#182",
+          "5N4027AG6Y/e1#160",
+          "7MGDXKZMQ0/e1#85",
+          "7MGDXKZMQ0/e1#128"
         ]
       },
       {
@@ -4300,19 +4339,6 @@
         ]
       },
       {
-        "title": "James",
-        "author": "I.M. James",
-        "year": "1955",
-        "citing": 19,
-        "refs": [
-          "1R1K1T71AJ/e1#290",
-          "4PW7B77ZJK/e1#112",
-          "51HACEQ42B/e1#272",
-          "5D4M3Y1S54/e1#96",
-          "5D4M3Y1S54/e1#114"
-        ]
-      },
-      {
         "title": "Meyer",
         "author": "K.R. Meyer",
         "year": "1971",
@@ -4323,19 +4349,6 @@
           "3CS5NEFXKV/e1#133",
           "436570MAWA/e1#179",
           "5AEM6XV3NE/e1#139"
-        ]
-      },
-      {
-        "title": "Müller",
-        "author": "C. Müller",
-        "year": "1961",
-        "citing": 19,
-        "refs": [
-          "3H7D3QDS3R/e1#329",
-          "4EHXWENS6K/e1#581",
-          "BT63AVGAK0/e1#9",
-          "BWN3CHBNFE/e1#409",
-          "BWN3CHBNFE/e1#410"
         ]
       },
       {
@@ -4378,16 +4391,16 @@
         ]
       },
       {
-        "title": "The Theory of Matrices",
-        "author": "F. R. Gantmacher",
-        "year": "1960",
+        "title": "The Fractal Geometry of Nature",
+        "author": "B. Mandelbrot",
+        "year": "1982",
         "citing": 19,
         "refs": [
-          "2ACSH1V5X6/e1#130",
-          "5N4027AG6Y/e1#160",
-          "7MGDXKZMQ0/e1#85",
-          "7MGDXKZMQ0/e1#128",
-          "7W5D4K7T9A/e1#43"
+          "1P429CBBGY/e1#74",
+          "436570MAWA/e1#321",
+          "4MZ2GB421B/e1#39",
+          "4MZ2GB421B/e1#95",
+          "4MZ2GB421B/e1#281"
         ]
       },
       {
@@ -4466,6 +4479,32 @@
           "6ZPTNZ2DFN/e1#302",
           "6ZV3F8DB64/e1#13",
           "7ZDNHQ2SVP/e1#24"
+        ]
+      },
+      {
+        "title": "Asymptotics and Special Functions",
+        "author": "Olver, F.",
+        "year": "1997",
+        "citing": 18,
+        "refs": [
+          "1GKHJW3K5J/e1#212",
+          "2D5FCMNSF8/e1#135",
+          "2ZYPAE6E8Y/e1#202",
+          "2ZYPAE6E8Y/e1#345",
+          "2ZYPAE6E8Y/e1#352"
+        ]
+      },
+      {
+        "title": "Basic Number Theory",
+        "author": "Weil, A.",
+        "year": "1967",
+        "citing": 18,
+        "refs": [
+          "1ERV8SFHCM/e1#71",
+          "2CFGPKHJGC/e1#128",
+          "35JDAJXWXB/e1#225",
+          "4PS8E9CG98/e1#106",
+          "64B8DZZX9B/e1#76"
         ]
       },
       {
@@ -4729,6 +4768,19 @@
         ]
       },
       {
+        "title": "Ordinary Differential Equations",
+        "author": "J.K. Hale",
+        "year": "1969",
+        "citing": 18,
+        "refs": [
+          "4PZ48ZHJ7D/e1#142",
+          "5VR3CXNXK3/e1#40",
+          "7EK9A0JDK7/e1#140",
+          "7ZA5FGATPH/e1#142",
+          "93ZMRWVDBH/e1#69"
+        ]
+      },
+      {
         "title": "Smith",
         "author": "R. Smith",
         "year": "1975",
@@ -4752,6 +4804,19 @@
           "4481RVD1QD/e1#153",
           "4481RVD1QD/e1#173",
           "4481RVD1QD/e1#200"
+        ]
+      },
+      {
+        "title": "Stable and random motions in dynamical systems",
+        "author": "J. Moser",
+        "year": "1973",
+        "citing": 18,
+        "refs": [
+          "124PAXEQ6E/e1#472",
+          "1C5S19A59S/e1#122",
+          "225128EN1G/e1#14",
+          "25WQ676BT8/e1#148",
+          "46TTPY15AX/e1#126"
         ]
       },
       {
@@ -4791,19 +4856,6 @@
           "4QTH6ST8HP/e1#294",
           "559CPH70J2/e1#65",
           "7543XMWFJ6/e1#345"
-        ]
-      },
-      {
-        "title": "The Fractal Geometry of Nature",
-        "author": "B. Mandelbrot",
-        "year": "1982",
-        "citing": 18,
-        "refs": [
-          "1P429CBBGY/e1#74",
-          "436570MAWA/e1#321",
-          "4MZ2GB421B/e1#39",
-          "4MZ2GB421B/e1#95",
-          "4MZ2GB421B/e1#281"
         ]
       },
       {
@@ -4885,19 +4937,6 @@
         ]
       },
       {
-        "title": "Asymptotics and Special Functions",
-        "author": "Olver, F.",
-        "year": "1997",
-        "citing": 17,
-        "refs": [
-          "1GKHJW3K5J/e1#212",
-          "2D5FCMNSF8/e1#135",
-          "2ZYPAE6E8Y/e1#202",
-          "2ZYPAE6E8Y/e1#345",
-          "2ZYPAE6E8Y/e1#352"
-        ]
-      },
-      {
         "title": "BAKER",
         "author": "J.A. Baker",
         "year": "1972",
@@ -4908,19 +4947,6 @@
           "5AEM6XV3NE/e1#353",
           "7543XMWFJ6/e1#429",
           "7YC8QY0SEJ/e1#2"
-        ]
-      },
-      {
-        "title": "Basic Number Theory",
-        "author": "Weil, A.",
-        "year": "1967",
-        "citing": 17,
-        "refs": [
-          "1ERV8SFHCM/e1#71",
-          "2CFGPKHJGC/e1#128",
-          "35JDAJXWXB/e1#225",
-          "4PS8E9CG98/e1#106",
-          "64B8DZZX9B/e1#76"
         ]
       },
       {
@@ -5184,6 +5210,32 @@
         ]
       },
       {
+        "title": "Moser",
+        "author": "J. Moser",
+        "year": "1976",
+        "citing": 17,
+        "refs": [
+          "1C5S19A59S/e1#182",
+          "26HYT69J2J/e1#35",
+          "26HYT69J2J/e1#36",
+          "3TX9JS0JRV/e1#196",
+          "48Q7DG2SAZ/e1#66"
+        ]
+      },
+      {
+        "title": "Non-Homogeneous Boundary Value Problems and Applications. Vol. I (Springer",
+        "author": "J.-L. Lions",
+        "year": "1972",
+        "citing": 17,
+        "refs": [
+          "189HRXXCPH/e1#41",
+          "2J8FZMHKTD/e1#201",
+          "3N8Q9HM38Z/e1#38",
+          "3TX9JS0JRV/e1#169",
+          "4MZ2GB421B/e1#210"
+        ]
+      },
+      {
         "title": "Noncommutative Geometry",
         "author": "A. Connes",
         "year": "1994",
@@ -5207,19 +5259,6 @@
           "5D4M3Y1S54/e1#123",
           "9Q6MTF4MME/e1#186",
           "E3CJ0TTKP8/e1#89"
-        ]
-      },
-      {
-        "title": "Ordinary Differential Equations",
-        "author": "J.K. Hale",
-        "year": "1969",
-        "citing": 17,
-        "refs": [
-          "4PZ48ZHJ7D/e1#142",
-          "5VR3CXNXK3/e1#40",
-          "7EK9A0JDK7/e1#140",
-          "7ZA5FGATPH/e1#142",
-          "93ZMRWVDBH/e1#69"
         ]
       },
       {
@@ -5272,19 +5311,6 @@
           "3PQMVE16VX/e1#407",
           "562GJG5G9V/e1#182",
           "6DJY46STAN/e1#21"
-        ]
-      },
-      {
-        "title": "Stable and random motions in dynamical systems",
-        "author": "J. Moser",
-        "year": "1973",
-        "citing": 17,
-        "refs": [
-          "124PAXEQ6E/e1#472",
-          "1C5S19A59S/e1#122",
-          "225128EN1G/e1#14",
-          "25WQ676BT8/e1#148",
-          "46TTPY15AX/e1#126"
         ]
       },
       {
@@ -5716,19 +5742,6 @@
         ]
       },
       {
-        "title": "Moser",
-        "author": "J. Moser",
-        "year": "1976",
-        "citing": 16,
-        "refs": [
-          "1C5S19A59S/e1#182",
-          "26HYT69J2J/e1#35",
-          "26HYT69J2J/e1#36",
-          "48Q7DG2SAZ/e1#66",
-          "52TJ7MFDAC/e1#24"
-        ]
-      },
-      {
         "title": "Nirenberg",
         "author": "L. Nirenberg",
         "year": "1955",
@@ -5739,19 +5752,6 @@
           "76KK1Q2093/e1#200",
           "76KK1Q2093/e1#229",
           "7JKT6QE987/e1#89"
-        ]
-      },
-      {
-        "title": "Non-Homogeneous Boundary Value Problems and Applications. Vol. I (Springer",
-        "author": "J.-L. Lions",
-        "year": "1972",
-        "citing": 16,
-        "refs": [
-          "189HRXXCPH/e1#41",
-          "2J8FZMHKTD/e1#201",
-          "3N8Q9HM38Z/e1#38",
-          "4MZ2GB421B/e1#210",
-          "52TJ7MFDAC/e1#30"
         ]
       },
       {
@@ -5833,6 +5833,19 @@
         ]
       },
       {
+        "title": "SCOTT",
+        "author": "H.L. Scott",
+        "year": "1974",
+        "citing": 16,
+        "refs": [
+          "23SRDA0Z9S/e1#577",
+          "3TX9JS0JRV/e1#40",
+          "40BSQN2M7Z/e1#50",
+          "4KA6T94WYC/e1#88",
+          "4PW7B77ZJK/e1#91"
+        ]
+      },
+      {
         "title": "Sato",
         "author": "K.J. Sato",
         "year": "1976",
@@ -5869,6 +5882,19 @@
           "76QRRM48YK/e1#8",
           "76QRRM48YK/e1#89",
           "76QRRM48YK/e1#220"
+        ]
+      },
+      {
+        "title": "Transversal Mappings and Flows",
+        "author": "R. Abraham",
+        "year": "1967",
+        "citing": 16,
+        "refs": [
+          "124PAXEQ6E/e1#65",
+          "124PAXEQ6E/e1#274",
+          "2J8FZMHKTD/e1#34",
+          "6PGW8XV26F/e1#73",
+          "6QNCVRYEYF/e1#1"
         ]
       },
       {
@@ -6327,19 +6353,6 @@
         ]
       },
       {
-        "title": "SCOTT",
-        "author": "H.L. Scott",
-        "year": "1974",
-        "citing": 15,
-        "refs": [
-          "23SRDA0Z9S/e1#577",
-          "40BSQN2M7Z/e1#50",
-          "4KA6T94WYC/e1#88",
-          "4PW7B77ZJK/e1#91",
-          "4W9G72HDHQ/e1#62"
-        ]
-      },
-      {
         "title": "Self-duality in four-dimensional Riemannian geometry",
         "author": "Atiyah, M.F., Hitchin, N.J.",
         "year": "1978",
@@ -6444,19 +6457,6 @@
         ]
       },
       {
-        "title": "Transversal Mappings and Flows",
-        "author": "R. Abraham",
-        "year": "1967",
-        "citing": 15,
-        "refs": [
-          "124PAXEQ6E/e1#65",
-          "124PAXEQ6E/e1#274",
-          "2J8FZMHKTD/e1#34",
-          "6PGW8XV26F/e1#73",
-          "6QNCVRYEYF/e1#1"
-        ]
-      },
-      {
         "title": "Uniform Distribution of Sequences",
         "author": "Kuipers, L.",
         "year": "1974",
@@ -6480,6 +6480,19 @@
           "5SYXZP659B/e1#149",
           "86GFMX3SYR/e1#28",
           "9JE2EHPBPC/e1#74"
+        ]
+      },
+      {
+        "title": "Advanced Combinatorics",
+        "author": "L. Comtet",
+        "year": "1974",
+        "citing": 14,
+        "refs": [
+          "3GD0YQM8TP/e1#11",
+          "3GD0YQM8TP/e1#46",
+          "3GD0YQM8TP/e1#66",
+          "3GD0YQM8TP/e1#107",
+          "3GD0YQM8TP/e1#216"
         ]
       },
       {
@@ -6597,6 +6610,19 @@
           "A2QJT8178K/e1#156",
           "AHWXTXDCJ8/e1#269",
           "B4AJRMD7S7/e1#244"
+        ]
+      },
+      {
+        "title": "Die Lehre von den Kettenbrüchen",
+        "author": "O. Perron",
+        "year": "1913",
+        "citing": 14,
+        "refs": [
+          "1BK43D0FY9/e1#400",
+          "29NPKC9W2D/e1#137",
+          "46K2WEW9C8/e1#73",
+          "46K2WEW9C8/e1#100",
+          "6EVJGABVY4/e1#55"
         ]
       },
       {
@@ -7067,6 +7093,19 @@
         ]
       },
       {
+        "title": "STONE",
+        "author": "C. Stone",
+        "year": "1963",
+        "citing": 14,
+        "refs": [
+          "23SRDA0Z9S/e1#151",
+          "2D5FCMNSF8/e1#373",
+          "2D5FCMNSF8/e1#374",
+          "4EHXWENS6K/e1#104",
+          "4EHXWENS6K/e1#444"
+        ]
+      },
+      {
         "title": "Set Theory",
         "author": "T. Jech",
         "year": "1978",
@@ -7158,6 +7197,19 @@
         ]
       },
       {
+        "title": "Thermodynamic Formalism. Encyclopedia of Mathematics and its Applications",
+        "author": "D. Ruelle",
+        "year": "1978",
+        "citing": 14,
+        "refs": [
+          "1SC7GRVFDD/e1#69",
+          "1SC7GRVFDD/e1#127",
+          "25WQ676BT8/e1#101",
+          "3PQMVE16VX/e1#85",
+          "3PQMVE16VX/e1#229"
+        ]
+      },
+      {
         "title": "Universal Algebra",
         "author": "P. M. Cohn",
         "year": "1965",
@@ -7233,19 +7285,6 @@
           "4EHXWENS6K/e1#197",
           "EHKC61Z9J6/e1#141",
           "G4GYMW6V3A/e1#212"
-        ]
-      },
-      {
-        "title": "Advanced Combinatorics",
-        "author": "L. Comtet",
-        "year": "1974",
-        "citing": 13,
-        "refs": [
-          "3GD0YQM8TP/e1#11",
-          "3GD0YQM8TP/e1#46",
-          "3GD0YQM8TP/e1#66",
-          "3GD0YQM8TP/e1#107",
-          "3GD0YQM8TP/e1#216"
         ]
       },
       {
@@ -7430,6 +7469,19 @@
         ]
       },
       {
+        "title": "Connes",
+        "author": "A. Connes",
+        "year": "1976",
+        "citing": 13,
+        "refs": [
+          "203K3WJH27/e1#9",
+          "5F2BYF108T/e1#326",
+          "60AVKD2J3N/e1#9",
+          "8RCDP5CWJ8/e1#71",
+          "9A9VQN35AM/e1#222"
+        ]
+      },
+      {
         "title": "Cours d’arithmétique",
         "author": "Serre, J.-P.",
         "year": "1970",
@@ -7440,19 +7492,6 @@
           "C51X0HFFRN/e1#62",
           "CF2RG7ADP7/e1#96",
           "GBWCTH01TK/e1#111"
-        ]
-      },
-      {
-        "title": "Die Lehre von den Kettenbrüchen",
-        "author": "O. Perron",
-        "year": "1913",
-        "citing": 13,
-        "refs": [
-          "1BK43D0FY9/e1#400",
-          "29NPKC9W2D/e1#137",
-          "46K2WEW9C8/e1#73",
-          "46K2WEW9C8/e1#100",
-          "6EVJGABVY4/e1#55"
         ]
       },
       {
@@ -7858,6 +7897,19 @@
         ]
       },
       {
+        "title": "Methods of Mathematical Physics, Vol. II",
+        "author": "R. Courant",
+        "year": "1962",
+        "citing": 13,
+        "refs": [
+          "2D5FCMNSF8/e1#539",
+          "3N8Q9HM38Z/e1#266",
+          "4BY5VFKM7W/e1#18",
+          "9BGMNWY9QJ/e1#98",
+          "FAHZYYNXBX/e1#146"
+        ]
+      },
+      {
         "title": "Metric Structures for Riemannian and non-Riemannian Spaces",
         "author": "M. Gromov",
         "year": "2006",
@@ -8092,19 +8144,6 @@
         ]
       },
       {
-        "title": "STONE",
-        "author": "C. Stone",
-        "year": "1963",
-        "citing": 13,
-        "refs": [
-          "23SRDA0Z9S/e1#151",
-          "2D5FCMNSF8/e1#373",
-          "2D5FCMNSF8/e1#374",
-          "4EHXWENS6K/e1#104",
-          "4EHXWENS6K/e1#444"
-        ]
-      },
-      {
         "title": "Semi-Groups of Operators and Approximation",
         "author": "P.L. Butzer",
         "year": "1967",
@@ -8167,19 +8206,6 @@
           "3CP9D7DVJX/e1#182",
           "559CPH70J2/e1#224",
           "AV9E0V8SST/e1#57"
-        ]
-      },
-      {
-        "title": "Thermodynamic Formalism. Encyclopedia of Mathematics and its Applications",
-        "author": "D. Ruelle",
-        "year": "1978",
-        "citing": 13,
-        "refs": [
-          "1SC7GRVFDD/e1#69",
-          "1SC7GRVFDD/e1#127",
-          "25WQ676BT8/e1#101",
-          "3PQMVE16VX/e1#85",
-          "3PQMVE16VX/e1#229"
         ]
       },
       {
@@ -8530,19 +8556,6 @@
           "89RV014AK1/e1#208",
           "9JE2EHPBPC/e1#132",
           "9WKJ9JVZ4Q/e1#68"
-        ]
-      },
-      {
-        "title": "Connes",
-        "author": "A. Connes",
-        "year": "1976",
-        "citing": 12,
-        "refs": [
-          "203K3WJH27/e1#9",
-          "5F2BYF108T/e1#326",
-          "60AVKD2J3N/e1#9",
-          "8RCDP5CWJ8/e1#71",
-          "9A9VQN35AM/e1#222"
         ]
       },
       {
@@ -9014,6 +9027,19 @@
         ]
       },
       {
+        "title": "Kobayashi",
+        "author": "K. K. Kobayashi",
+        "year": "1976",
+        "citing": 12,
+        "refs": [
+          "3TX9JS0JRV/e1#47",
+          "5BQ5A7NM0X/e1#143",
+          "5J9PEBDQWB/e1#16",
+          "5J9PEBDQWB/e1#167",
+          "5VXZ2JWFBD/e1#62"
+        ]
+      },
+      {
         "title": "La conjecture de Weil,II",
         "author": "P. Deligne",
         "year": "1980",
@@ -9115,19 +9141,6 @@
           "56ZSP86DJ5/e1#504",
           "56ZSP86DJ5/e1#717",
           "56ZSP86DJ5/e1#930"
-        ]
-      },
-      {
-        "title": "Methods of Mathematical Physics, Vol. II",
-        "author": "R. Courant",
-        "year": "1962",
-        "citing": 12,
-        "refs": [
-          "2D5FCMNSF8/e1#539",
-          "3N8Q9HM38Z/e1#266",
-          "4BY5VFKM7W/e1#18",
-          "9BGMNWY9QJ/e1#98",
-          "GAF4QQK62W/e1#230"
         ]
       },
       {
@@ -9271,6 +9284,19 @@
           "7JKT6QE987/e1#402",
           "7JKT6QE987/e1#454",
           "7JKT6QE987/e1#455"
+        ]
+      },
+      {
+        "title": "Semigroups of Linear Operators and Applications",
+        "author": "J.A. Goldstein",
+        "year": "1985",
+        "citing": 12,
+        "refs": [
+          "6P11BG1M1X/e1#54",
+          "6P11BG1M1X/e1#397",
+          "7BR5BMPBM6/e1#62",
+          "CM10B86BHT/e1#19",
+          "CW65T8VGZR/e1#52"
         ]
       },
       {
@@ -9530,6 +9556,19 @@
           "86GFMX3SYR/e1#90",
           "86GFMX3SYR/e1#121",
           "86GFMX3SYR/e1#234"
+        ]
+      },
+      {
+        "title": "Watson",
+        "author": "L. Watson",
+        "year": "1978",
+        "citing": 12,
+        "refs": [
+          "124PAXEQ6E/e1#72",
+          "3CS5NEFXKV/e1#139",
+          "4EHXWENS6K/e1#77",
+          "7K3WS5K7GP/e1#99",
+          "ABEMTX4HAJ/e1#204"
         ]
       },
       {
@@ -9987,6 +10026,19 @@
         ]
       },
       {
+        "title": "Eindeutige analytische Funktionen",
+        "author": "R. Nevanlinna",
+        "year": "1953",
+        "citing": 11,
+        "refs": [
+          "3TX9JS0JRV/e1#138",
+          "56ZSP86DJ5/e1#128",
+          "56ZSP86DJ5/e1#341",
+          "56ZSP86DJ5/e1#554",
+          "56ZSP86DJ5/e1#767"
+        ]
+      },
+      {
         "title": "Endomorphisms of linear algebraic groups",
         "author": "R. STEINBERG",
         "year": "1968",
@@ -10169,6 +10221,19 @@
         ]
       },
       {
+        "title": "Introduction to Quadratic Forms",
+        "author": "O. F. O'Meara",
+        "year": "1971",
+        "citing": 11,
+        "refs": [
+          "1ADQEH35YE/e1#180",
+          "1R1K1T71AJ/e1#83",
+          "29AGCC8PQP/e1#23",
+          "29AGCC8PQP/e1#48",
+          "62DY33E2S0/e1#133"
+        ]
+      },
+      {
         "title": "Introduction to metamathematics",
         "author": "S. C. Kleene",
         "year": "1952",
@@ -10179,6 +10244,19 @@
           "4JVYEK1XE7/e1#164",
           "4W9G72HDHQ/e1#29",
           "4W9G72HDHQ/e1#110"
+        ]
+      },
+      {
+        "title": "Introduction to the theory of Fourier integrals",
+        "author": "E.C. Titchmarsh",
+        "year": "1937",
+        "citing": 11,
+        "refs": [
+          "1C5S19A59S/e1#482",
+          "4MZ2GB421B/e1#300",
+          "562GJG5G9V/e1#144",
+          "724ZHEM3TQ/e1#171",
+          "FAHZYYNXBX/e1#13"
         ]
       },
       {
@@ -10286,19 +10364,6 @@
         ]
       },
       {
-        "title": "Kobayashi",
-        "author": "Y Kobayashi",
-        "year": "1978",
-        "citing": 11,
-        "refs": [
-          "5BQ5A7NM0X/e1#143",
-          "5J9PEBDQWB/e1#16",
-          "5J9PEBDQWB/e1#167",
-          "5VXZ2JWFBD/e1#62",
-          "D12HWB55Y0/e1#37"
-        ]
-      },
-      {
         "title": "Kohn",
         "author": "J. J. Kohn",
         "year": "1967",
@@ -10377,6 +10442,19 @@
         ]
       },
       {
+        "title": "Lectures on ordinary differential equations",
+        "author": "E. Hille",
+        "year": "1969",
+        "citing": 11,
+        "refs": [
+          "2D5FCMNSF8/e1#331",
+          "3TX9JS0JRV/e1#184",
+          "56ZSP86DJ5/e1#84",
+          "56ZSP86DJ5/e1#297",
+          "56ZSP86DJ5/e1#510"
+        ]
+      },
+      {
         "title": "Lectures on the Calculus of Variations and Optimal Control Theory",
         "author": "L. C. Young",
         "year": "1969",
@@ -10452,6 +10530,19 @@
           "BZNPJP9YQG/e1#452",
           "EA4WJVBE3C/e1#36",
           "FHS0WX54C2/e1#4"
+        ]
+      },
+      {
+        "title": "Navier-Stokes Equations",
+        "author": "P. Constantin",
+        "year": "1988",
+        "citing": 11,
+        "refs": [
+          "28WKS82EGT/e1#78",
+          "28WKS82EGT/e1#360",
+          "28WKS82EGT/e1#467",
+          "28WKS82EGT/e1#699",
+          "CM10B86BHT/e1#47"
         ]
       },
       {
@@ -10572,6 +10663,19 @@
         ]
       },
       {
+        "title": "Potential theory on Harmonic Spaces",
+        "author": "C. Constantinescu",
+        "year": "1972",
+        "citing": 11,
+        "refs": [
+          "2ACWEWRVT5/e1#106",
+          "2ACWEWRVT5/e1#290",
+          "2ACWEWRVT5/e1#362",
+          "6MBZWVDYPJ/e1#150",
+          "70SKMF2AG5/e1#49"
+        ]
+      },
+      {
         "title": "Probability with Martingales",
         "author": "D. Williams",
         "year": "1991",
@@ -10676,6 +10780,32 @@
         ]
       },
       {
+        "title": "S. Smale-An infinite dimensional version of Sard's Theorem. Amer. J. Math",
+        "author": "S. Smale",
+        "year": "1965",
+        "citing": 11,
+        "refs": [
+          "2J8FZMHKTD/e1#40",
+          "4ZSE4WJ0XM/e1#176",
+          "5DNJN3RDW7/e1#167",
+          "6PGW8XV26F/e1#179",
+          "6PGW8XV26F/e1#310"
+        ]
+      },
+      {
+        "title": "Scattering Theory of Waves and Particles",
+        "author": "R.G. Newton",
+        "year": "1982",
+        "citing": 11,
+        "refs": [
+          "1WFNASCYM3/e1#256",
+          "1WFNASCYM3/e1#286",
+          "2D5FCMNSF8/e1#35",
+          "7STJWBJKA2/e1#48",
+          "E48HSE6J6M/e1#261"
+        ]
+      },
+      {
         "title": "Schwartz",
         "author": "L. Schwartz",
         "year": "1948",
@@ -10686,19 +10816,6 @@
           "45G7B43HW1/e1#144",
           "7JKT6QE987/e1#155",
           "9A9VQN35AM/e1#78"
-        ]
-      },
-      {
-        "title": "Semigroups of Linear Operators and Applications",
-        "author": "J.A. Goldstein",
-        "year": "1985",
-        "citing": 11,
-        "refs": [
-          "6P11BG1M1X/e1#54",
-          "6P11BG1M1X/e1#397",
-          "7BR5BMPBM6/e1#62",
-          "CM10B86BHT/e1#19",
-          "CW65T8VGZR/e1#52"
         ]
       },
       {
@@ -10832,6 +10949,19 @@
         ]
       },
       {
+        "title": "Sur le mouvement d'un liquide visqueux emplissant l'espace",
+        "author": "J. Leray",
+        "year": "1934",
+        "citing": 11,
+        "refs": [
+          "2J8FZMHKTD/e1#188",
+          "3P1BNC8HRE/e1#67",
+          "BG6B2M61KQ/e1#274",
+          "FD4A71NNMB/e1#223",
+          "K2C7S70T3Y/e1#232"
+        ]
+      },
+      {
         "title": "The Banach-Tarski Paradox",
         "author": "Wagon, S.",
         "year": "1985",
@@ -10910,6 +11040,19 @@
         ]
       },
       {
+        "title": "The ergodic theory of Axiom A flows. Invent. Math. 29(3)",
+        "author": "R. Bowen",
+        "year": "1975",
+        "citing": 11,
+        "refs": [
+          "1Q0SCKYQFH/e1#17",
+          "46TTPY15AX/e1#242",
+          "6PGW8XV26F/e1#420",
+          "73AA25D0DM/e1#12",
+          "AHWXTXDCJ8/e1#206"
+        ]
+      },
+      {
         "title": "Theory of Nonlinear Age-dependent Population Dynamics",
         "author": "GF Webb",
         "year": "1985",
@@ -10946,6 +11089,19 @@
           "6C7GF18AEN/e1#59",
           "717CA28DKX/e1#114",
           "AJVPXP20A4/e1#356"
+        ]
+      },
+      {
+        "title": "Topological Vector Spaces",
+        "author": "Trèves, F.",
+        "year": "1967",
+        "citing": 11,
+        "refs": [
+          "2AWHE6CE9E/e1#31",
+          "2AWHE6CE9E/e1#53",
+          "2AWHE6CE9E/e1#64",
+          "2AWHE6CE9E/e1#80",
+          "3TX9JS0JRV/e1#179"
         ]
       },
       {
@@ -11011,19 +11167,6 @@
           "4EHXWENS6K/e1#836",
           "9GY6W8TZNV/e1#221",
           "9GY6W8TZNV/e1#222"
-        ]
-      },
-      {
-        "title": "Watson",
-        "author": "L. Watson",
-        "year": "1978",
-        "citing": 11,
-        "refs": [
-          "124PAXEQ6E/e1#72",
-          "3CS5NEFXKV/e1#139",
-          "4EHXWENS6K/e1#77",
-          "ABEMTX4HAJ/e1#204",
-          "AWGYH23JVX/e1#72"
         ]
       },
       {
@@ -11534,19 +11677,6 @@
         ]
       },
       {
-        "title": "Eindeutige Analytische Funktionen",
-        "author": "R. Nevanlinna",
-        "year": "1936",
-        "citing": 10,
-        "refs": [
-          "56ZSP86DJ5/e1#128",
-          "56ZSP86DJ5/e1#341",
-          "56ZSP86DJ5/e1#554",
-          "56ZSP86DJ5/e1#767",
-          "56ZSP86DJ5/e1#980"
-        ]
-      },
-      {
         "title": "Ensembles et morphismes stratifiés",
         "author": "R. Thom",
         "year": "1969",
@@ -11716,6 +11846,19 @@
         ]
       },
       {
+        "title": "H. Furstenberg. Strict ergodicity and transformations on the torus. Amer. J. Math. 83",
+        "author": "H. Furstenberg",
+        "year": "1961",
+        "citing": 10,
+        "refs": [
+          "5HZR4B6CE7/e1#124",
+          "7543XMWFJ6/e1#47",
+          "8KTCJPD35T/e1#27",
+          "EHKC61Z9J6/e1#226",
+          "PNZCFTAN82/e1#39"
+        ]
+      },
+      {
         "title": "H. GRAUERT.-Über Modifikationen und exceptionelle analytische Mengen. Math. Ann",
         "author": "H. Grauert",
         "year": "1962",
@@ -11820,19 +11963,6 @@
         ]
       },
       {
-        "title": "Introduction to Quadratic Forms",
-        "author": "O. F. O'Meara",
-        "year": "1971",
-        "citing": 10,
-        "refs": [
-          "1ADQEH35YE/e1#180",
-          "1R1K1T71AJ/e1#83",
-          "29AGCC8PQP/e1#23",
-          "29AGCC8PQP/e1#48",
-          "62DY33E2S0/e1#133"
-        ]
-      },
-      {
         "title": "Introduction to potential theory. Wiley-Interscience (1969)",
         "author": "L.L. Helms",
         "year": "1969",
@@ -11843,19 +11973,6 @@
           "7Z1ESKGKG8/e1#337",
           "7Z1ESKGKG8/e1#414",
           "EFE0PBV4G5/e1#20"
-        ]
-      },
-      {
-        "title": "Introduction to the theory of Fourier integrals",
-        "author": "E.C. Titchmarsh",
-        "year": "1937",
-        "citing": 10,
-        "refs": [
-          "1C5S19A59S/e1#482",
-          "4MZ2GB421B/e1#300",
-          "562GJG5G9V/e1#144",
-          "724ZHEM3TQ/e1#171",
-          "G3FJRZCH2F/e1#50"
         ]
       },
       {
@@ -11908,19 +12025,6 @@
           "7A8G5SKPFA/e1#16",
           "8PQ6ECVWCJ/e1#172",
           "DHRWD4D7BK/e1#31"
-        ]
-      },
-      {
-        "title": "Lectures on ordinary differential equations",
-        "author": "E. Hille",
-        "year": "1969",
-        "citing": 10,
-        "refs": [
-          "2D5FCMNSF8/e1#331",
-          "56ZSP86DJ5/e1#84",
-          "56ZSP86DJ5/e1#297",
-          "56ZSP86DJ5/e1#510",
-          "56ZSP86DJ5/e1#723"
         ]
       },
       {
@@ -12158,19 +12262,6 @@
         ]
       },
       {
-        "title": "Navier-Stokes Equations",
-        "author": "P. Constantin",
-        "year": "1988",
-        "citing": 10,
-        "refs": [
-          "28WKS82EGT/e1#78",
-          "28WKS82EGT/e1#360",
-          "28WKS82EGT/e1#467",
-          "28WKS82EGT/e1#699",
-          "CM10B86BHT/e1#47"
-        ]
-      },
-      {
         "title": "Neumann",
         "author": "Jv Neumann",
         "year": "1923",
@@ -12337,19 +12428,6 @@
           "4Z2AJTRETR/e1#130",
           "CTJFYCKZGA/e1#38",
           "DQK317KXPB/e1#80"
-        ]
-      },
-      {
-        "title": "Potential theory on Harmonic Spaces",
-        "author": "C. Constantinescu",
-        "year": "1972",
-        "citing": 10,
-        "refs": [
-          "2ACWEWRVT5/e1#106",
-          "2ACWEWRVT5/e1#290",
-          "2ACWEWRVT5/e1#362",
-          "6MBZWVDYPJ/e1#150",
-          "70SKMF2AG5/e1#49"
         ]
       },
       {
@@ -12535,19 +12613,6 @@
         ]
       },
       {
-        "title": "S. Smale-An infinite dimensional version of Sard's Theorem. Amer. J. Math",
-        "author": "S. Smale",
-        "year": "1965",
-        "citing": 10,
-        "refs": [
-          "2J8FZMHKTD/e1#40",
-          "4ZSE4WJ0XM/e1#176",
-          "5DNJN3RDW7/e1#167",
-          "6PGW8XV26F/e1#179",
-          "6PGW8XV26F/e1#310"
-        ]
-      },
-      {
         "title": "SULLIVAN",
         "author": "D. Sullivan",
         "year": "1977",
@@ -12574,19 +12639,6 @@
         ]
       },
       {
-        "title": "Scattering Theory of Waves and Particles",
-        "author": "R.G. Newton",
-        "year": "1982",
-        "citing": 10,
-        "refs": [
-          "1WFNASCYM3/e1#256",
-          "1WFNASCYM3/e1#286",
-          "2D5FCMNSF8/e1#35",
-          "7STJWBJKA2/e1#48",
-          "E48HSE6J6M/e1#261"
-        ]
-      },
-      {
         "title": "Seifert",
         "author": "G. Seifert",
         "year": "1965",
@@ -12610,6 +12662,19 @@
           "CSTZM2EAWH/e1#211",
           "ENCDHQZE7N/e1#143",
           "FR1P46DTP3/e1#66"
+        ]
+      },
+      {
+        "title": "Shapiro",
+        "author": "AH Shapiro",
+        "year": "1947",
+        "citing": 10,
+        "refs": [
+          "1B9EZ80NNC/e1#99",
+          "508252H2TY/e1#243",
+          "7K3WS5K7GP/e1#72",
+          "ADXHP5BYWM/e1#128",
+          "DDZCGT8BB2/e1#209"
         ]
       },
       {
@@ -12743,19 +12808,6 @@
         ]
       },
       {
-        "title": "Sur le mouvement d'un liquide visqueux emplissant l'espace",
-        "author": "J. Leray",
-        "year": "1934",
-        "citing": 10,
-        "refs": [
-          "2J8FZMHKTD/e1#188",
-          "3P1BNC8HRE/e1#67",
-          "BG6B2M61KQ/e1#274",
-          "K2C7S70T3Y/e1#232",
-          "P4DBTP4QTB/e1#189"
-        ]
-      },
-      {
         "title": "Symmetric bilinear forms",
         "author": "J. Milnor",
         "year": "1972",
@@ -12805,6 +12857,19 @@
           "4MZ2GB421B/e1#294",
           "4MZ2GB421B/e1#381",
           "58TNKNSFXB/e1#210"
+        ]
+      },
+      {
+        "title": "The Fourier Integral and Certain of Its Applications",
+        "author": "Wiener, N.",
+        "year": "1988",
+        "citing": 10,
+        "refs": [
+          "1GKHJW3K5J/e1#292",
+          "1GKHJW3K5J/e1#548",
+          "4PZ48ZHJ7D/e1#277",
+          "A2QJT8178K/e1#10",
+          "G3FJRZCH2F/e1#57"
         ]
       },
       {
@@ -12870,19 +12935,6 @@
           "CW65T8VGZR/e1#208",
           "CW65T8VGZR/e1#355",
           "CW65T8VGZR/e1#502"
-        ]
-      },
-      {
-        "title": "The ergodic theory of Axiom A flows. Invent. Math. 29(3)",
-        "author": "R. Bowen",
-        "year": "1975",
-        "citing": 10,
-        "refs": [
-          "1Q0SCKYQFH/e1#17",
-          "46TTPY15AX/e1#242",
-          "6PGW8XV26F/e1#420",
-          "73AA25D0DM/e1#12",
-          "AHWXTXDCJ8/e1#206"
         ]
       },
       {
@@ -12990,16 +13042,16 @@
         ]
       },
       {
-        "title": "Topological Vector Spaces",
-        "author": "Trèves, F.",
-        "year": "1967",
+        "title": "Topological entropy",
+        "author": "Adler, R. L.",
+        "year": "1965",
         "citing": 10,
         "refs": [
-          "2AWHE6CE9E/e1#31",
-          "2AWHE6CE9E/e1#53",
-          "2AWHE6CE9E/e1#64",
-          "2AWHE6CE9E/e1#80",
-          "49ERX3Z2FY/e1#80"
+          "5HZR4B6CE7/e1#52",
+          "6DT15XTSV5/e1#125",
+          "8M0BW0GTGW/e1#1",
+          "8M0BW0GTGW/e1#132",
+          "B4AJRMD7S7/e1#198"
         ]
       },
       {
@@ -13325,6 +13377,19 @@
           "5VXZ2JWFBD/e1#9",
           "66AMTPDS24/e1#31",
           "9KNM7VF6ZG/e1#81"
+        ]
+      },
+      {
+        "title": "BICKEL",
+        "author": "P.J. Bickel",
+        "year": "1971",
+        "citing": 9,
+        "refs": [
+          "23SRDA0Z9S/e1#461",
+          "7K3WS5K7GP/e1#36",
+          "7W2JQQ0DGC/e1#90",
+          "AZ7JC6BK8P/e1#3",
+          "BZNPJP9YQG/e1#265"
         ]
       },
       {
@@ -13731,6 +13796,31 @@
         ]
       },
       {
+        "title": "Differential Manifolds",
+        "author": "Lang, S.",
+        "year": "1972",
+        "citing": 9,
+        "refs": [
+          "29MEDM4RCP/e1#14",
+          "4BY5VFKM7W/e1#96",
+          "9F7C54F4P8/e1#698",
+          "F1CEGF3RZE/e1#48",
+          "J2FF7Q8NTD/e1#182"
+        ]
+      },
+      {
+        "title": "Differential equations",
+        "author": "S. LEFSCHETZ",
+        "citing": 9,
+        "refs": [
+          "3N8Q9HM38Z/e1#144",
+          "3TX9JS0JRV/e1#135",
+          "738FNXEJXZ/e1#144",
+          "89VKM12M99/e1#32",
+          "JF4A5W3W2E/e1#211"
+        ]
+      },
+      {
         "title": "Differential-difference equations",
         "author": "R. Bellman",
         "year": "1963",
@@ -13845,6 +13935,19 @@
           "9YV9YBPJAN/e1#5",
           "K6R0A4MSAM/e1#143",
           "MFBKR41602/e1#245"
+        ]
+      },
+      {
+        "title": "Entropy and Generators in Ergodic Theory",
+        "author": "W. Parry",
+        "year": "1969",
+        "citing": 9,
+        "refs": [
+          "1SC7GRVFDD/e1#65",
+          "1SC7GRVFDD/e1#199",
+          "9A9VQN35AM/e1#278",
+          "A930YT12SF/e1#24",
+          "J2FF7Q8NTD/e1#175"
         ]
       },
       {
@@ -14043,19 +14146,6 @@
         ]
       },
       {
-        "title": "H. Furstenberg. Strict ergodicity and transformations on the torus. Amer. J. Math. 83",
-        "author": "H. Furstenberg",
-        "year": "1961",
-        "citing": 9,
-        "refs": [
-          "5HZR4B6CE7/e1#124",
-          "7543XMWFJ6/e1#47",
-          "8KTCJPD35T/e1#27",
-          "EHKC61Z9J6/e1#226",
-          "PNZCFTAN82/e1#39"
-        ]
-      },
-      {
         "title": "Harmonic analysis on semi-simple Lie groups I",
         "author": "G. WARNER",
         "year": "1972",
@@ -14157,6 +14247,19 @@
           "B51Q1CM8EH/e1#154",
           "B51Q1CM8EH/e1#251",
           "BAQ5VMA9AG/e1#117"
+        ]
+      },
+      {
+        "title": "Huber",
+        "author": "J H Huber",
+        "year": "2018",
+        "citing": 9,
+        "refs": [
+          "184D0Q38E0/e1#284",
+          "6NBCSFG3A3/e1#83",
+          "7K3WS5K7GP/e1#69",
+          "7K3WS5K7GP/e1#70",
+          "8WFXFWD1X9/e1#63"
         ]
       },
       {
@@ -14287,6 +14390,19 @@
           "CA6T7K2JPM/e1#340",
           "CA6T7K2JPM/e1#693",
           "CA6T7K2JPM/e1#1046"
+        ]
+      },
+      {
+        "title": "Introductory Functional Analysis with Applications",
+        "author": "E. Kreyszig",
+        "year": "1978",
+        "citing": 9,
+        "refs": [
+          "478N1WGCMR/e1#55",
+          "478N1WGCMR/e1#160",
+          "478N1WGCMR/e1#265",
+          "478N1WGCMR/e1#370",
+          "478N1WGCMR/e1#475"
         ]
       },
       {
@@ -14443,6 +14559,19 @@
           "9WKJ9JVZ4Q/e1#322",
           "BX8EJ72YKT/e1#68",
           "K8C5GZ1TKH/e1#59"
+        ]
+      },
+      {
+        "title": "Lectures on topological dynamics",
+        "author": "R. Ellis",
+        "year": "1969",
+        "citing": 9,
+        "refs": [
+          "9F7C54F4P8/e1#763",
+          "EHKC61Z9J6/e1#72",
+          "EHKC61Z9J6/e1#124",
+          "EHKC61Z9J6/e1#172",
+          "J2FF7Q8NTD/e1#89"
         ]
       },
       {
@@ -14718,6 +14847,19 @@
         ]
       },
       {
+        "title": "Number Theory",
+        "author": "Z. I. Borevich",
+        "year": "1966",
+        "citing": 9,
+        "refs": [
+          "7C7KTXAXQK/e1#13",
+          "BMQ5T63AJJ/e1#10",
+          "BSAR3QADEB/e1#44",
+          "BWN3CHBNFE/e1#196",
+          "RNK5AJRYA5/e1#97"
+        ]
+      },
+      {
         "title": "Néron Models. Ergebnisse der Mathematik und ihrer Grenzgebiete",
         "author": "S. Bosch",
         "year": "1990",
@@ -14755,149 +14897,6 @@
           "C7DJY63M88/e1#23",
           "GX7N7DYXCJ/e1#34"
         ]
-      },
-      {
-        "title": "On representatives of subsets",
-        "author": "Hall, P.",
-        "year": "1935",
-        "citing": 9,
-        "refs": [
-          "7ZAXWRJA7M/e1#46",
-          "7ZAXWRJA7M/e1#200",
-          "7ZAXWRJA7M/e1#354",
-          "7ZAXWRJA7M/e1#508",
-          "7ZAXWRJA7M/e1#662"
-        ]
-      },
-      {
-        "title": "On sets of integers containing no k elements in arithmetic progression. Acta Arith. 27",
-        "author": "E. Szemerédi",
-        "year": "1975",
-        "citing": 9,
-        "refs": [
-          "2CFGPKHJGC/e1#282",
-          "KEDB2YM24H/e1#63",
-          "M2R8VH10KB/e1#2964",
-          "MP7J9P010R/e1#4755",
-          "N313P5XTXB/e1#4"
-        ]
-      },
-      {
-        "title": "On the Ricci curvature of a compact Kähler manifold and the complex Monge-Ampère equation",
-        "author": "S.-T. Yau",
-        "year": "1978",
-        "citing": 9,
-        "refs": [
-          "717CA28DKX/e1#110",
-          "76QRRM48YK/e1#18",
-          "76QRRM48YK/e1#152",
-          "76QRRM48YK/e1#188",
-          "76QRRM48YK/e1#264"
-        ]
-      },
-      {
-        "title": "On the Ubiquity of Gorenstein Rings",
-        "author": "H. BASS",
-        "year": "1963",
-        "citing": 9,
-        "refs": [
-          "353XKYQXAD/e1#152",
-          "6FXZMGGH5P/e1#112",
-          "7ZAXWRJA7M/e1#5",
-          "7ZAXWRJA7M/e1#159",
-          "7ZAXWRJA7M/e1#313"
-        ]
-      },
-      {
-        "title": "On the convergence of sums of independent Banach space valued random variables",
-        "author": "K. Itô",
-        "year": "1968",
-        "citing": 9,
-        "refs": [
-          "4481RVD1QD/e1#279",
-          "5EGPVRJ7JH/e1#168",
-          "CPHQAQ09CC/e1#455",
-          "KBYFN3RB6C/e1#45",
-          "KV2TJHR4MC/e1#192"
-        ]
-      },
-      {
-        "title": "On the evolution of random graphs",
-        "author": "P. Erdös",
-        "year": "1960",
-        "citing": 9,
-        "refs": [
-          "15KSM7F5J1/e1#49",
-          "15KSM7F5J1/e1#69",
-          "15KSM7F5J1/e1#70",
-          "15KSM7F5J1/e1#144",
-          "4FK28PSVDJ/e1#148"
-        ]
-      },
-      {
-        "title": "On the structure of compact complex analytic surfaces",
-        "author": "Kodaira, K.",
-        "year": "1966",
-        "citing": 9,
-        "refs": [
-          "4FNERE0FHZ/e1#355",
-          "5SYXZP659B/e1#266",
-          "CA6T7K2JPM/e1#181",
-          "CA6T7K2JPM/e1#534",
-          "CA6T7K2JPM/e1#887"
-        ]
-      },
-      {
-        "title": "On the support of diffusion processes with applications to the strong maximum principle",
-        "author": "D.W. Stroock",
-        "year": "1972",
-        "citing": 9,
-        "refs": [
-          "26HYT69J2J/e1#12",
-          "6P11BG1M1X/e1#365",
-          "6QX5NKGXW8/e1#289",
-          "734BRCNMRF/e1#89",
-          "7SCD0JVJ89/e1#102"
-        ]
-      },
-      {
-        "title": "On the triangulation of manifolds and the Hauptvermutung",
-        "author": "R. C. Kirby",
-        "year": "1969",
-        "citing": 9,
-        "refs": [
-          "8PQ6ECVWCJ/e1#207",
-          "9ZCRBJZCEG/e1#396",
-          "BX8EJ72YKT/e1#241",
-          "GD9RB1BK24/e1#34",
-          "KYPZCBH26V/e1#187"
-        ]
-      },
-      {
-        "title": "On the uniqueness of solutions of stochastic differential equations",
-        "author": "Yamada, T.",
-        "year": "1971",
-        "citing": 9,
-        "refs": [
-          "8ZF5XFK3NF/e1#58",
-          "9MB9SDWD93/e1#187",
-          "9Q6MTF4MME/e1#3",
-          "DQK317KXPB/e1#95",
-          "J76W2MJ518/e1#131"
-        ]
-      },
-      {
-        "title": "On the variation in the cohomology of the symplectic form of the reduced phase space",
-        "author": "J.J. Duistermaat",
-        "year": "1983",
-        "citing": 9,
-        "refs": [
-          "9Q025PV55F/e1#43",
-          "FGJ9FRRTRJ/e1#56",
-          "JSJDQWB8H4/e1#18",
-          "NK05QKB03Z/e1#23",
-          "NK05QKB03Z/e1#85"
-        ]
       }
     ]
   },
@@ -14920,13 +14919,13 @@
       "target": 1,
       "by_depth": [
         0,
-        1029,
-        8648,
+        961,
+        8716,
         853,
         0,
         0
       ],
-      "below": 1029
+      "below": 961
     },
     {
       "tier": "T5",
@@ -14957,9 +14956,9 @@
   ],
   "unlisted": {
     "strata": 14,
-    "n": 8899107.473299999,
-    "low": 7535051.804699999,
-    "high": 11919284.7799
+    "n": 8899351.4941,
+    "low": 7535292.8977999985,
+    "high": 11919381.922
   },
   "courses": {
     "i1_courses": 241,
