@@ -4,7 +4,7 @@ kind: example
 name: Binomial series
 msc: [30B10]
 instance_of: [0MZB06ST2B]
-uses: [0VP56B4EMX, 0KX1MXJ5MR]
+uses: [0VP56B4EMX]
 sources:
   - url: https://en.wikipedia.org/wiki/Binomial_series
     locator: lead section

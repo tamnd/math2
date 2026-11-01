@@ -4,7 +4,7 @@ kind: object
 name: e
 aliases: [euler-number, napier-constant]
 msc: [11Y60]
-uses: [0RMVS7RXZX, 0G4D3ZKTP8]
+uses: [0RMVS7RXZX]
 sources:
   - url: https://en.wikipedia.org/wiki/E_(mathematical_constant)
     locator: Definitions

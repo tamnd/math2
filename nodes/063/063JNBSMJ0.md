@@ -10,6 +10,9 @@ sources:
 same_as:
   wikidata: Q485520
   wikipedia: Goldbach's conjecture
+history:
+  posed_by: "Christian Goldbach"
+  first_stated: "1742"
 ---
 
 ## Statement

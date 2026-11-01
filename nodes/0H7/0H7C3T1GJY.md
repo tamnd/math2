@@ -4,7 +4,7 @@ kind: concept
 name: Scalar potential
 aliases: [potential-function]
 msc: [26B12]
-uses: [0PKG97PX9Y, 0ABK9V9Y64]
+uses: [0ABK9V9Y64]
 sources:
   - url: https://en.wikipedia.org/wiki/Scalar_potential
     locator: lead section

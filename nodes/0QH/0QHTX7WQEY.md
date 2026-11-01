@@ -4,7 +4,7 @@ kind: definition
 name: Differential form
 msc: [58A10]
 defines: 0E3G0GRPZ6
-uses: [0MTENFBW3Q, 0S166D363M, 004FRCXH6M, 0TCBZMEYGN]
+uses: [0TCBZMEYGN]
 sources:
   - url: https://en.wikipedia.org/wiki/Differential_form
     locator: Multi-index notation

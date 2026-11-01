@@ -4,7 +4,7 @@ kind: concept
 name: Law of large numbers
 aliases: [lln]
 msc: [60F05, 60F15]
-uses: [0BFDHF2H7N, 0DFWHQ839T, 0AJN7WHBJZ]
+uses: [0AJN7WHBJZ]
 sources:
   - url: https://en.wikipedia.org/wiki/Law_of_large_numbers
     locator: lead section

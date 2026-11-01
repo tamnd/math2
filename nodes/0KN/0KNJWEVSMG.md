@@ -5,7 +5,7 @@ name: p-norm on R^n
 aliases: [lp-norm-on-rn]
 msc: [46B20]
 instance_of: [06GZ956657]
-uses: [0TFDZN6AXP, 0ABP2F2ZP7]
+uses: [0TFDZN6AXP]
 sources:
   - url: https://en.wikipedia.org/wiki/Lp_space
     locator: The p-norm in finite dimensions

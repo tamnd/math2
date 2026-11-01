@@ -11,6 +11,9 @@ sources:
 same_as:
   wikidata: Q1753097
   wikipedia: Buffon's needle problem
+history:
+  posed_by: "Georges-Louis Leclerc, Comte de Buffon"
+  first_stated: "1733"
 ---
 
 ## Problem

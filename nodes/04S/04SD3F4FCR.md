@@ -13,6 +13,9 @@ sources:
 same_as:
   wikidata: Q213673
   wikipedia: Doubling the cube
+history:
+  posed_by: "the geometers of ancient Greece"
+  first_stated: "5th century BC"
 ---
 
 ## Problem
