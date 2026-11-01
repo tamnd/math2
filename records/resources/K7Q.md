@@ -35,10 +35,10 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: crossref_language
-          snapshot: blake3:8055274d703e6bb5b000d2e6eff227662c304b1de00a456a1218f6424b926f45
+          snapshot: blake3:fd7cbc47dac294e4452ea800fd3ae53f852825bb624f15dc020fcbd89fca6c56
           native_id: 10.1007/978-3-030-27644-7
           level: work
         - source: springer-series
@@ -67,19 +67,17 @@ records:
           from: zbmath_search
         - code: 60B11
           from: zbmath_search
-        - code: 28C20
-          from: zbmath_search
         - code: 60G17
           from: zbmath_search
       expressions:
         - key: e1
           kind: edition
-          language: en
+          language: ru
           date: "1998-09-29"
           ids:
             doi: 10.1090/surv/062
-            zbl: "0913.60035"
-            zbl_id: "1223843"
+            zbl: "0883.60032"
+            zbl_id: "1016546"
           manifestations:
             - key: m1
               kind: print
@@ -98,15 +96,15 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/surv/062
           level: work
         - source: zbmath_search
-          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
-          native_id: "1223843"
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
+          native_id: "1016546"
           level: work
       history:
         - op: add
@@ -143,7 +141,7 @@ records:
       scope:
         value: in
         rule: S6
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: nptel
           snapshot: blake3:89dc2ec164a0108adbecf0ec8c793929c947e196b164e762035d3fdd89a3f469

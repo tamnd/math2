@@ -43,14 +43,14 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0064489
           level: work
         - source: zbmath_search
-          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
           native_id: "3627095"
           level: work
       history:
@@ -79,9 +79,13 @@ records:
           role: editor
       date: "2005"
       msc:
-        - code: 20-06
+        - code: 20F50
           from: zbmath_search
-        - code: 00B25
+        - code: 20F16
+          from: zbmath_search
+        - code: 20F05
+          from: zbmath_search
+        - code: 20F65
           from: zbmath_search
       expressions:
         - key: e1
@@ -90,8 +94,8 @@ records:
           date: "2005"
           ids:
             doi: 10.1007/3-7643-7447-0
-            zbl: "1083.20500"
-            zbl_id: "5013485"
+            zbl: "1136.20035"
+            zbl_id: "5051250"
           manifestations:
             - key: m1
               kind: print
@@ -110,15 +114,15 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/3-7643-7447-0
           level: work
         - source: zbmath_search
-          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
-          native_id: "5013485"
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
+          native_id: "5051250"
           level: work
       history:
         - op: add

@@ -14,14 +14,19 @@ records:
           role: author
       date: "1970"
       msc:
-        - code: 00-XX
-          from: classify/1@2b838f8bc9d8
+        - code: 00B25
+          from: zbmath_search
+        - code: 19-06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: fr
           date: "1970"
           ids:
             doi: 10.1007/bfb0059019
+            zbl: "0195.24701"
+            zbl_id: "3310714"
           manifestations:
             - key: m1
               kind: print
@@ -39,12 +44,16 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.13 scope/1
+        rule: S1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0059019
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
+          native_id: "3310714"
           level: work
       history:
         - op: add
@@ -54,6 +63,10 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.14 scope/1
+          note: from in to in
     - id: R9VC8EQPNN
       kind: problem-set
       title: BMO Round 1 2011
@@ -79,7 +92,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: bmo
           snapshot: blake3:68eb2251465334659a3c67c12bc8e13877594a5a11510cf9a756eaf0f62db81c

@@ -21,7 +21,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: applied_combinatorics
           snapshot: blake3:3dd09e0855ace7e7dbf04351de5c4cb134197b76059771e3dc68579ba7bd7415

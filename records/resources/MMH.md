@@ -55,14 +55,14 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-032-14290-0
           level: work
         - source: zbmath_search
-          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
           native_id: "8152720"
           level: work
       history:
@@ -88,6 +88,19 @@ records:
         - name: Brian Parshall
           role: editor
       date: "2012"
+      msc:
+        - code: 00B25
+          from: zbmath_search
+        - code: 17-06
+          from: zbmath_search
+        - code: 20-06
+          from: zbmath_search
+        - code: 17Bxx
+          from: zbmath_search
+        - code: 20Cxx
+          from: zbmath_search
+        - code: 20G42
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
@@ -95,6 +108,8 @@ records:
           date: "2012"
           ids:
             doi: 10.1090/pspum/086
+            zbl: "1253.00024"
+            zbl_id: "6110461"
           manifestations:
             - key: m1
               kind: print
@@ -112,16 +127,20 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.13 scope/1
+        rule: S1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/pspum/086
           level: work
         - source: crossref_language
-          snapshot: blake3:8055274d703e6bb5b000d2e6eff227662c304b1de00a456a1218f6424b926f45
+          snapshot: blake3:fd7cbc47dac294e4452ea800fd3ae53f852825bb624f15dc020fcbd89fca6c56
           native_id: 10.1090/pspum/086
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
+          native_id: "6110461"
           level: work
       history:
         - op: add
@@ -131,6 +150,10 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.14 scope/1
+          note: from in to in
     - id: MMHKB2PGB2
       kind: monograph
       title: Decomposition of Jacobians by Prym Varieties
@@ -172,14 +195,14 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-031-10145-8
           level: work
         - source: zbmath_search
-          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
           native_id: "7566633"
           level: work
       history:

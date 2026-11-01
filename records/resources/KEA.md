@@ -33,7 +33,7 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
@@ -79,10 +79,10 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: crossref_language
-          snapshot: blake3:8055274d703e6bb5b000d2e6eff227662c304b1de00a456a1218f6424b926f45
+          snapshot: blake3:fd7cbc47dac294e4452ea800fd3ae53f852825bb624f15dc020fcbd89fca6c56
           native_id: 10.1007/978-3-030-05597-4
           level: work
         - source: springer-series

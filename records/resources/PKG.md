@@ -19,7 +19,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: open_logic
           snapshot: blake3:a5eb116529d3e799289dd9f7e7530d0d446b3615f5608fe08c668241eee3c765

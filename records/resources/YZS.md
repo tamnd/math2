@@ -3,26 +3,19 @@ records:
     - id: YZS2WF0YXE
       kind: monograph
       title: Number Theory
-      creators:
-        - name: Cohen, Henri
-          role: author
       date: "2007"
       msc:
         - code: 11-01
           from: zbmath_search
         - code: 11-02
           from: zbmath_search
-        - code: 11Mxx
+        - code: 11Rxx
           from: zbmath_search
         - code: 11Sxx
           from: zbmath_search
         - code: 11Dxx
           from: zbmath_search
-        - code: 11Gxx
-          from: zbmath_search
-        - code: 11B68
-          from: zbmath_search
-        - code: 11J86
+        - code: 11G05
           from: zbmath_search
       expressions:
         - key: e1
@@ -31,8 +24,8 @@ records:
           date: "2007"
           ids:
             doi: 10.1007/978-0-387-49923-9
-            zbl: "1119.11002"
-            zbl_id: "5114880"
+            zbl: "1119.11001"
+            zbl_id: "5114879"
           manifestations:
             - key: m1
               kind: print
@@ -51,15 +44,15 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-0-387-49923-9
           level: work
         - source: zbmath_search
-          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
-          native_id: "5114880"
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
+          native_id: "5114879"
           level: work
       history:
         - op: add
@@ -120,14 +113,14 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-319-05792-7
           level: work
         - source: zbmath_search
-          snapshot: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
           native_id: "6276063"
           level: work
       history:

@@ -10,9 +10,12 @@ records:
       expressions:
         - key: e1
           kind: edition
+          language: fr
           date: "1964"
           ids:
             doi: 10.1007/bfb0097851
+            zbl: "0126.38803"
+            zbl_id: "3205916"
           manifestations:
             - key: m1
               kind: print
@@ -31,11 +34,15 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0097851
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
+          native_id: "3205916"
           level: work
       history:
         - op: add

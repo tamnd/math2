@@ -26,7 +26,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.13 scope/1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -55,6 +55,25 @@ records:
         - name: D. Zhelobenko
           role: author
       date: "2005-11-29"
+      msc:
+        - code: 17-01
+          from: zbmath_search
+        - code: 22-01
+          from: zbmath_search
+        - code: 16-01
+          from: zbmath_search
+        - code: 46-01
+          from: zbmath_search
+        - code: 17B10
+          from: zbmath_search
+        - code: 16G10
+          from: zbmath_search
+        - code: 20G05
+          from: zbmath_search
+        - code: 22Exx
+          from: zbmath_search
+        - code: 43A65
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
@@ -62,6 +81,8 @@ records:
           date: "2005-11-29"
           ids:
             doi: 10.1090/mmono/228
+            zbl: "1084.17001"
+            zbl_id: "2244717"
           manifestations:
             - key: m1
               kind: print
@@ -80,16 +101,20 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.13 scope/1
+        rule: S1
+        by: m2 v0.6.14 scope/1
       catalogue:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/mmono/228
           level: work
         - source: crossref_language
-          snapshot: blake3:8055274d703e6bb5b000d2e6eff227662c304b1de00a456a1218f6424b926f45
+          snapshot: blake3:fd7cbc47dac294e4452ea800fd3ae53f852825bb624f15dc020fcbd89fca6c56
           native_id: 10.1090/mmono/228
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
+          native_id: "2244717"
           level: work
       history:
         - op: add
@@ -99,4 +124,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.14 scope/1
+          note: from in to in
 ---
