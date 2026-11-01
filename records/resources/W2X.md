@@ -23,7 +23,7 @@ records:
       scope:
         value: in
         rule: S6
-        by: m2 v0.6.7 scope/1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: nptel
           snapshot: blake3:89dc2ec164a0108adbecf0ec8c793929c947e196b164e762035d3fdd89a3f469
@@ -56,9 +56,13 @@ records:
         - name: Alberto Albano
           role: editor
       date: "1994"
+      msc:
+        - code: 00-XX
+          from: classify/1@2b838f8bc9d8
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1994"
           ids:
             doi: 10.1007/b52495
@@ -80,8 +84,12 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.7 scope/1
+        by: m2 v0.6.13 scope/1
       catalogue:
+        - source: crossref_language
+          snapshot: blake3:8055274d703e6bb5b000d2e6eff227662c304b1de00a456a1218f6424b926f45
+          native_id: 10.1007/b52495
+          level: work
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/b52495

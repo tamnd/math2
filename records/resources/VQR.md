@@ -52,8 +52,8 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
@@ -71,13 +71,26 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
     - id: VQR687Z0KY
       kind: problem-set
       title: KöMaL Problems in Mathematics, March 2010
+      creators:
+        - name: KöMaL editorial board
+          role: editor
       date: 2010-03
+      msc:
+        - code: 00A07
+          from: komal
+        - code: 97U40
+          from: komal
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: 2010-03
           structure: VQR687Z0KY/e1.json
       relations:
@@ -86,8 +99,8 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: komal
           snapshot: blake3:3658e660acc064da2c1a894c81d6f74fed1bee98fd8e0b9c468109c4c7e40452
@@ -101,4 +114,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
 ---

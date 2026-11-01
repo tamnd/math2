@@ -18,8 +18,8 @@ records:
           structure: RZP28ERRZV/e1.json
       scope:
         value: in
-        rule: S5
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: napkin
           snapshot: blake3:4ed6a8681091f1982528026e06219208d001f9656231cf988d38e9d48cb24fc5
@@ -37,4 +37,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.7 scope/1
           note: from deferred to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
 ---

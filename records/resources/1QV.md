@@ -13,13 +13,6 @@ records:
         - name: Mingyi Hong
           role: author
       date: "2018-06-03"
-      msc:
-        - code: 49-XX
-          from: arxiv
-        - code: 90-XX
-          from: arxiv
-        - code: 93-XX
-          from: arxiv
       subjects:
         - system: arxiv
           code: cs.LG
@@ -37,7 +30,7 @@ records:
       scope:
         value: border
         rule: border-arxiv
-        by: m2 v0.6.7 scope/1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -58,6 +51,9 @@ records:
         - name: Daniel Bump
           role: author
       date: "1984"
+      msc:
+        - code: 11-XX
+          from: classify/1@2b838f8bc9d8
       expressions:
         - key: e1
           kind: edition
@@ -82,7 +78,7 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.7 scope/1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e

@@ -26,8 +26,8 @@ records:
             zbl_id: "903213905"
       scope:
         value: in
-        rule: S2
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -49,12 +49,19 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.7 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
     - id: XV7FDWHHVC
       kind: course
       title: Introduction to Fuzzy Set Theory, Arithmetic and Logic
       creators:
         - name: Niladri Chaterjee
           role: instructor
+      msc:
+        - code: 03-XX
+          from: classify/1@2b838f8bc9d8
       ids:
         course: 049tgcd06:111102130
       expressions:
@@ -72,7 +79,7 @@ records:
       scope:
         value: in
         rule: S6
-        by: m2 v0.6.7 scope/1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: nptel
           snapshot: blake3:89dc2ec164a0108adbecf0ec8c793929c947e196b164e762035d3fdd89a3f469

@@ -1,5 +1,65 @@
 ---
 records:
+    - id: ZED3A72TE1
+      kind: monograph
+      title: 'First European Congress of Mathematics Paris, July 6–10, 1992: Vol. II: Invited Lectures (Part 2)'
+      creators:
+        - name: Anthony Joseph
+          role: editor
+        - name: Fulbert Mignot
+          role: editor
+        - name: François Murat
+          role: editor
+        - name: Bernard Prum
+          role: editor
+        - name: Rudolf Rentschler
+          role: editor
+      date: "1994"
+      msc:
+        - code: 00-XX
+          from: classify/1@2b838f8bc9d8
+      expressions:
+        - key: e1
+          kind: edition
+          date: "1994"
+          ids:
+            doi: 10.1007/978-3-0348-9112-7
+          manifestations:
+            - key: m1
+              kind: print
+              publisher: Birkhäuser Basel
+              date: "1994"
+              ids:
+                isbn:
+                    - "9783034899123"
+                    - "9783034891127"
+              access:
+                class: record
+      relations:
+        - kind: part_of
+          to: VS2PFDMCR5
+          source: cluster/1
+      scope:
+        value: in
+        rule: S4
+        by: m2 v0.6.13 scope/1
+      catalogue:
+        - source: springer-series
+          snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
+          native_id: 10.1007/978-3-0348-9112-7
+          level: work
+      history:
+        - op: add
+          at: "2026-11-01"
+          by: m2 v0.6.13 cluster/1
+        - op: split
+          at: "2026-11-01"
+          by: m2 v0.6.13 cluster/1
+          note: split from GD2J1VS408
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: to in
     - id: ZEDFYG88BF
       kind: monograph
       title: Spectra of Random and Almost-Periodic Operators
@@ -44,8 +104,8 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.7 scope/1
+        rule: S1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
@@ -63,4 +123,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-01"
+          by: m2 v0.6.13 scope/1
+          note: from in to in
 ---

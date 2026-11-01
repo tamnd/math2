@@ -10,15 +10,17 @@ records:
           role: author
         - name: Ronald Solomon
           role: author
-      date: "2002-09-10"
+      date: "2002-11-15"
+      msc:
+        - code: 20-XX
+          from: classify/1@2b838f8bc9d8
       expressions:
         - key: e1
           kind: edition
-          date: "2002-09-10"
+          language: en
+          date: "2002-11-15"
           ids:
-            doi:
-                - 10.1090/surv/040.2
-                - 10.1090/surv/040.5
+            doi: 10.1090/surv/040.2
           manifestations:
             - key: m1
               kind: print
@@ -30,16 +32,6 @@ records:
                     - "9780821833766"
               access:
                 class: record
-            - key: m2
-              kind: print
-              publisher: American Mathematical Society
-              date: "2002-09-10"
-              ids:
-                isbn:
-                    - "9780821827765"
-                    - "9781470412708"
-              access:
-                class: record
       relations:
         - kind: part_of
           to: M891DMMNP3
@@ -47,15 +39,15 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.7 scope/1
+        by: m2 v0.6.13 scope/1
       catalogue:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/surv/040.2
           level: work
-        - source: ams-series
-          snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
-          native_id: 10.1090/surv/040.5
+        - source: crossref_language
+          snapshot: blake3:8055274d703e6bb5b000d2e6eff227662c304b1de00a456a1218f6424b926f45
+          native_id: 10.1090/surv/040.2
           level: work
       history:
         - op: add
