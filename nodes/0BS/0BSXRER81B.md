@@ -13,6 +13,9 @@ sources:
 same_as:
   wikidata: Q193394
   wikipedia: Squaring the circle
+history:
+  posed_by: "the geometers of ancient Greece"
+  first_stated: "5th century BC"
 ---
 
 ## Problem

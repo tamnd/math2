@@ -11,6 +11,9 @@ sources:
 same_as:
   wikidata: Q733081
   wikipedia: Angle trisection
+history:
+  posed_by: "the geometers of ancient Greece"
+  first_stated: "5th century BC"
 ---
 
 ## Problem

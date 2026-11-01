@@ -5,7 +5,7 @@ role: theorem
 name: Generalised Stokes theorem
 aliases: [stokes-cartan-theorem]
 msc: [58C35]
-uses: [004FRCXH6M, 0QHTX7WQEY, 0EKZW08FQ5, 0SD237FEJD, 0HR3N02317, 0AKRKVHW94, 0JX86PSSA9]
+uses: [004FRCXH6M, 0QHTX7WQEY, 0EKZW08FQ5, 0SD237FEJD, 0HR3N02317, 0JX86PSSA9]
 sources:
   - url: https://en.wikipedia.org/wiki/Generalized_Stokes_theorem
     locator: Formulation for smooth manifolds with boundary

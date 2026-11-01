@@ -5,7 +5,7 @@ role: theorem
 name: Divergence theorem
 aliases: [gauss-theorem, gauss-ostrogradsky-theorem]
 msc: [26B20]
-uses: [02NSMQVQWK, 0YPRY7T4PK, 0EKZW08FQ5, 0GTBGMZXV8, 0GZ3D8F921, 0HPHKCGEQ0]
+uses: [02NSMQVQWK, 0YPRY7T4PK, 0EKZW08FQ5, 0GTBGMZXV8, 0GZ3D8F921]
 sources:
   - url: https://en.wikipedia.org/wiki/Divergence_theorem
     locator: Mathematical statement

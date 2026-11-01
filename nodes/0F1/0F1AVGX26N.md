@@ -4,7 +4,7 @@ kind: definition
 name: Closed and exact forms
 msc: [58A12]
 defines: 0ZV14XRNF0
-uses: [0QHTX7WQEY, 004FRCXH6M, 0X308R2DBE, 0MTENFBW3Q, 05R9NF2J49, 0GDNHS9J2X, 05MC3HND79]
+uses: [0QHTX7WQEY, 004FRCXH6M, 0MTENFBW3Q, 05R9NF2J49, 0GDNHS9J2X]
 sources:
   - url: https://en.wikipedia.org/wiki/Exterior_derivative
     locator: Closed and exact forms

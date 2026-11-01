@@ -4,7 +4,7 @@ kind: statement
 role: theorem
 name: Harmonic numbers grow like log n
 msc: [11B83, 26A12]
-uses: [0D2Y6G4C4S, 0044CPHJBV, 0K1N1Y4EGZ, 0FM6N4R0VB, 00C5P9JZBK, 00SB5EA3VW]
+uses: [0D2Y6G4C4S, 0044CPHJBV, 0K1N1Y4EGZ, 0FM6N4R0VB, 00SB5EA3VW]
 sources:
   - url: https://en.wikipedia.org/wiki/Harmonic_number
     locator: Harmonic numbers for real and complex values

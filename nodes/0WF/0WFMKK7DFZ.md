@@ -13,6 +13,9 @@ sources:
 same_as:
   wikidata: Q660446
   wikipedia: Gambler's ruin
+history:
+  posed_by: "Blaise Pascal"
+  first_stated: "1656"
 ---
 
 ## Problem

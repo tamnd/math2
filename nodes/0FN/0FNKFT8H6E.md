@@ -4,7 +4,7 @@ kind: concept
 name: Total derivative
 aliases: [derivative-of-a-map-between-euclidean-spaces, differential-of-a-map]
 msc: [26B05]
-uses: [0XPR1E85W0, 06EH97V2A7, 047NDTEPCV]
+uses: [0XPR1E85W0]
 sources:
   - url: https://en.wikipedia.org/wiki/Derivative_(multivariable_calculus)
     locator: Derivative as a linear map

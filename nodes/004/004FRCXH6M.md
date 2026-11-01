@@ -4,7 +4,7 @@ kind: definition
 name: Exterior derivative
 msc: [58A10]
 defines: 0ZHSTAG8ZY
-uses: [0QHTX7WQEY, 0S166D363M, 0MTENFBW3Q, 05AXG3QRKR, 0NS2QYVC4Y, 0GDNHS9J2X, 02NSMQVQWK, 0X308R2DBE]
+uses: [0QHTX7WQEY, 0S166D363M, 0MTENFBW3Q, 05AXG3QRKR, 0NS2QYVC4Y, 0GDNHS9J2X, 02NSMQVQWK]
 sources:
   - url: https://en.wikipedia.org/wiki/Exterior_derivative
     locator: In terms of local coordinates

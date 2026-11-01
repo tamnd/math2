@@ -4,7 +4,6 @@ kind: concept
 name: Straightedge and compass construction
 aliases: [ruler-and-compass-construction, compass-and-straightedge-construction]
 msc: [51M15]
-uses: [0FMN2MN7TM]
 sources:
   - url: https://en.wikipedia.org/wiki/Straightedge_and_compass_construction
     locator: Straightedge and compass tools

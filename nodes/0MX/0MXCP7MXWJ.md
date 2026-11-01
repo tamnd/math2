@@ -13,6 +13,9 @@ sources:
 same_as:
   wikidata: Q1148012
   wikipedia: Coupon collector's problem
+history:
+  posed_by: "Abraham de Moivre"
+  first_stated: "1712"
 ---
 
 ## Problem

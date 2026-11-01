@@ -4,7 +4,7 @@ kind: concept
 name: Linearisation at an equilibrium
 aliases: [linearization]
 msc: [34D20, 34C05]
-uses: [0G4X36AE0X, 0VJF99CZ0Z, 0SKVEMXJWF, 0S8WX8A4V9]
+uses: [0G4X36AE0X, 0VJF99CZ0Z, 0SKVEMXJWF]
 sources:
   - url: https://en.wikipedia.org/wiki/Linearization
     locator: Stability analysis

@@ -7,6 +7,9 @@ sources:
   - url: https://en.wikipedia.org/wiki/Twin_prime
     locator: Twin prime conjecture
 inventory: [QZN6ENBJAM]
+history:
+  posed_by: "Alphonse de Polignac"
+  first_stated: "1849"
 ---
 
 ## Statement

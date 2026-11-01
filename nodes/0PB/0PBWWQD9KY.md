@@ -10,6 +10,9 @@ sources:
 same_as:
   wikidata: Q198835
   wikipedia: Monty Hall problem
+history:
+  posed_by: "Steve Selvin"
+  first_stated: "1975"
 ---
 
 ## Problem
