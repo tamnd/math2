@@ -1,2 +1,4 @@
+{"id":"YVQ1KASPKQ","mentions":["m2://rec/austin_ula/src/section2-6.xml#activity-linear-trans-geom#1"],"kind":"exercise","name":"Using matrix transformations to describe geometric operations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"YVQAFDAQYW","mentions":["m2://rec/wikidata/Q140092320#1"],"kind":"unknown","name":"head","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"YVQBJAHBZJ","mentions":["m2://rec/levin_dmoi/ptx/sec_intro-statements.ptx#investigation-1#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"YVQW6EX404","mentions":["m2://rec/wikidata/Q207648#1"],"kind":"definition","name":"Euclidean solid geometry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

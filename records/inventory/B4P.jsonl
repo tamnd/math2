@@ -1,2 +1,3 @@
 {"id":"B4P2DRH39D","mentions":["ax://paper/alg-geom/9506022#5TJM"],"kind":"unknown","msc":["14-XX"],"layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
+{"id":"B4PCNSVN8D","mentions":["m2://rec/hott_book/index/6.1/retract-of-a-type#1"],"kind":"concept","name":"retract, of a type","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"B4PWA53M42","mentions":["m2://rec/mathlib_overview/Topology > Topological algebra > completion of an abelian topological group#1"],"kind":"unknown","name":"completion of an abelian topological group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

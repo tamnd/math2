@@ -1,1 +1,4 @@
 {"id":"A0M93AJMM8","mentions":["m2://rec/wikidata/Q122946284#1"],"kind":"definition","name":"quasi-separated morphism","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"A0MFN9D7NM","mentions":["m2://rec/open_logic/content/sets-functions-relations/relations/trees.tex#prop-1#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"A0MSSZQR1F","mentions":["m2://rec/ernst_ibl/MAAPressVersion/IntroInduction.tex#thm:PMI#1"],"kind":"statement","name":"Principle of Mathematical Induction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"A0MVXYVZS6","mentions":["m2://rec/lebl_ra/ch-real-nums.tex#exercise-35#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

@@ -1,1 +1,4 @@
 {"id":"2EYGA858XR","mentions":["m2://rec/mathlib_1000/Q10859514#1","m2://rec/thousand_plus/Q10859514#1"],"kind":"statement","name":"Vafa–Witten theorem","msc":["00-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"2EYHZZ918Z","mentions":["m2://rec/napkin/tex/topology/cover-project.tex#proposition-1#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"2EYSGV47M4","mentions":["m2://rec/active_calculus/source/activities/act-1-1-2.xml#act-1-1-2#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"2EYWKY95JM","mentions":["m2://rec/austin_ula/src/exercises/exercises3-2.xml#exercise-9#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

@@ -1,1 +1,2 @@
+{"id":"VX7C932KH3","mentions":["m2://rec/open_logic/content/incompleteness/representability-in-q/representing-relations.tex#thm:representing-rels#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"VX7MJP7NH9","mentions":["m2://rec/mathlib_1000/Q388525#1","m2://rec/thousand_plus/Q388525#1","m2://rec/wikidata/Q388525#1"],"kind":"statement","name":"Bell's theorem","msc":["81-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

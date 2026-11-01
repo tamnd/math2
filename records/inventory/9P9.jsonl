@@ -1,3 +1,5 @@
 {"id":"9P9CK4FXN9","mentions":["m2://rec/wikidata/Q41364#1"],"kind":"concept","name":"wavelength","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9P9KS6D4QD","mentions":["m2://rec/open_logic/content/first-order-logic/syntax-and-semantics/formation-sequences.tex#defn:fseq-trm#1"],"kind":"definition","name":"Formation sequences for terms","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"9P9NT880JZ","mentions":["m2://rec/napkin/tex/H113/structure.tex#example-2#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"9P9QNA1A1C","mentions":["m2://rec/wikidata/Q2737347#1"],"kind":"definition","name":"square millimetre","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"9P9TWJ7RMJ","mentions":["m2://rec/wikidata/Q124407607#1"],"kind":"unknown","name":"zero ideal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

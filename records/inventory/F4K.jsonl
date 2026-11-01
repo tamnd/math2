@@ -1,1 +1,3 @@
 {"id":"F4KCX5MP8W","mentions":["m2://rec/wikidata/Q1671453#1"],"kind":"unknown","name":"interval arithmetic","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"F4KGMVH3W4","mentions":["m2://rec/hott_book/index/A.3/paradox#1"],"kind":"concept","name":"paradox","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"F4KKK7HD9M","mentions":["m2://rec/open_logic/content/sets-functions-relations/sets/pairs-and-products.tex#ex-2#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

@@ -1,1 +1,3 @@
 {"id":"2F9429N0HW","mentions":["m2://rec/wikidata/Q6087003#1"],"kind":"problem","name":"monkey and coconut problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"2F94YK8FVH","mentions":["m2://rec/hott_book/equivalences.tex#thm:fiber-of-a-fibration#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"2F9P5C9QDC","mentions":["m2://rec/napkin/tex/measure/pontryagin.tex#proposition-1#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

@@ -1,2 +1,3 @@
 {"id":"FDS819NAT5","mentions":["m2://rec/wikidata/Q107061#1"],"kind":"unknown","name":"kite","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FDSB9J4B1Y","mentions":["m2://rec/napkin/tex/calculus/limits.tex#exercise-1#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"FDSPM3173H","mentions":["m2://rec/wikidata/Q704747#1"],"kind":"unknown","name":"Stefan-Boltzmann law","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

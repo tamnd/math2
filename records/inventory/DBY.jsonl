@@ -1,1 +1,2 @@
+{"id":"DBY5Z3RDGR","mentions":["m2://rec/lebl_ra/ch-contfunc.tex#exercise-31#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"DBYA2M3HVE","mentions":null,"kind":"statement","name":"Dudley's Theorem","layer":"research","spread":1,"outcome":{"value":"merged","target":["9BXH75GRTP"],"rule":"name","by":"m2/v0.5.6"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"},{"op":"merge","at":"2026-10-31","by":"m2/v0.5.6","note":"merged into 9BXH75GRTP by an equal name"}]}

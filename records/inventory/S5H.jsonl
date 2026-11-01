@@ -1,1 +1,2 @@
+{"id":"S5HCXX5G7S","mentions":["m2://rec/napkin/tex/H113/grp-intro.tex#def:product_group#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"S5HKKDV4E7","mentions":["m2://rec/wikidata/Q9941#1"],"kind":"unknown","name":"O/o","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a notation: the notation register holds it (corpus spec K10.4)","rule":"symbol","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

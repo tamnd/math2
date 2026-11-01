@@ -1,2 +1,6 @@
+{"id":"7A1C4PA71Z","mentions":["m2://rec/napkin/tex/measure/large-laws.tex#definition-2#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"7A1Q8YW1VG","mentions":["m2://rec/wikidata/Q315431#1"],"kind":"unknown","name":"John Charles Fields","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"7A1RVHCF2V","mentions":["m2://rec/lebl_ra/ch-approximate.tex#prop-8#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"7A1S6M0EC7","mentions":["m2://rec/wikidata/Q154121#1"],"kind":"definition","name":"micro","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"7A1XPWRMZW","mentions":["m2://rec/lebl_ra/ch-seq-ser.tex#exercise-32#1"],"kind":"exercise","name":"Challenging","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"7A1ZAW7E6F","mentions":["m2://rec/lebl_diffyqs/ch-eigenvalue-probs.tex#exercise-10#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

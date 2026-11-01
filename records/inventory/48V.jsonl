@@ -1,2 +1,3 @@
 {"id":"48VA7DBC0J","mentions":["m2://rec/wikidata/Q285771#1"],"kind":"unknown","name":"Riemann–Stieltjes integral","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"48VC7B0R2R","mentions":["m2://rec/wikidata/Q47339953#1"],"kind":"unknown","name":"set of positive integers","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"48VDRVPFSH","mentions":["m2://rec/napkin/tex/rep-theory/rep-alg.tex#definition-1#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

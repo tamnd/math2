@@ -1,1 +1,2 @@
 {"id":"QRH7N2AZYJ","mentions":["m2://rec/wikidata/Q27113#1"],"kind":"unknown","name":"Sergio Albeverio","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"QRHPXHXX9A","mentions":["m2://rec/napkin/tex/measure/martingale.tex#definition-3#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

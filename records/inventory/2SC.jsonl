@@ -3,3 +3,5 @@
 {"id":"2SCCW6BY9T","mentions":["m2://rec/wikidata/Q149295#1"],"kind":"unknown","name":"small circle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"2SCFXPTM10","mentions":["m2://rec/wikidata/Q106548123#1"],"kind":"concept","name":"Grothendieck topos","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"2SCK88T8MT","mentions":["m2://rec/wikidata/Q124414582#1"],"kind":"unknown","name":"radial of a curve","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"2SCTZQBCQA","mentions":["m2://rec/hott_book/basics.tex#thm:eta-sigma#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"2SCZZ2NVPR","mentions":["m2://rec/napkin/tex/homology/cohomology.tex#theorem-1#1"],"kind":"statement","name":"$H^n (-;G): \\catname{hTop}\\op \\to \\catname{Grp}$","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

@@ -1,1 +1,2 @@
 {"id":"TGY15E7CJ6","mentions":["m2://rec/wikidata/Q268830#1"],"kind":"unknown","name":"Yves Laszlo","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"TGYBNFV05R","mentions":["m2://rec/open_logic/content/normal-modal-logic/filtrations/S5-fmp.tex#cor:S5fmp#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

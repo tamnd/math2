@@ -1,1 +1,2 @@
+{"id":"HDCJR29J9X","mentions":["m2://rec/hott_book/index/B.2.1/dense#1"],"kind":"concept","name":"dense","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"HDCTMPQ69R","mentions":["m2://rec/wikidata/Q38193#1"],"kind":"unknown","name":"Arthur Schopenhauer","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

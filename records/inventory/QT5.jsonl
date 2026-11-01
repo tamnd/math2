@@ -1,1 +1,2 @@
 {"id":"QT51QWW123","mentions":["m2://rec/wikidata/Q914929#1"],"kind":"unknown","name":"Fermat point","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"QT54XSHCQQ","mentions":["m2://rec/hott_book/index/8.1/computation-rule-for-type-of-booleans#1"],"kind":"concept","name":"computation rule, for type of booleans","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

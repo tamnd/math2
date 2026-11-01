@@ -1,0 +1,3 @@
+{"id":"Q03E897HWC","mentions":["m2://rec/open_logic/content/set-theory/card-arithmetic/expotough.tex#prop-1#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"Q03ECEGTNH","mentions":["m2://rec/lebl_diffyqs/ch-power-ser.tex#exercise-35#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"Q03JH43R92","mentions":["m2://rec/napkin/tex/linalg/dual-trace.tex#thm:vect_hom_dualization#1"],"kind":"statement","name":"$V^\\vee \\otimes W$ $\\iff$ linear maps $V \\to W$","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

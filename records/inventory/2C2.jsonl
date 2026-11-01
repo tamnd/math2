@@ -2,3 +2,4 @@
 {"id":"2C2GZ5R4PP","mentions":["m2://rec/wikidata/Q14918679#1"],"kind":"definition","name":"regular tetrahedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"2C2KG78A3H","mentions":["m2://rec/wikidata/Q680796#1"],"kind":"unknown","name":"cofactor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"2C2PT8BG83","mentions":["m2://rec/wikidata/Q307#1"],"kind":"unknown","name":"Galileo Galilei","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"2C2VTKEZM5","mentions":["m2://rec/lebl_ra/ch-seq-ser.tex#defn-6#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

@@ -1,1 +1,4 @@
+{"id":"DV75KNABX2","mentions":["m2://rec/open_logic/content/first-order-logic/tableaux/provability-quantifiers.tex#thm:strong-generalization#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"DV7M040V0A","mentions":["m2://rec/wikidata/Q109941991#1"],"kind":"unknown","name":"intensionally defined set","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"DV7SXH94X7","mentions":["m2://rec/ernst_ibl/MAAPressVersion/InjectiveSurjectiveFunctions.tex#thm:canonical projection#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"DV7ZZJRZ1V","mentions":["m2://rec/lebl_ra/ch-riemann.tex#exercise-55#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

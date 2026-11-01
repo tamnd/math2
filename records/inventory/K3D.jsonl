@@ -1,1 +1,2 @@
 {"id":"K3DJJQABFH","mentions":["m2://rec/wikidata/Q1385061#1"],"kind":"unknown","name":"Frank Adams","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"K3DNSMK667","mentions":["m2://rec/levin_dmoi/index/3.4.1/characteristic-roots#1"],"kind":"concept","name":"characteristic roots","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
