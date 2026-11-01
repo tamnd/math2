@@ -20,7 +20,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.14 scope/1
+        by: m2 v0.6.16 scope/1
       catalogue:
         - source: imo
           snapshot: blake3:c564548c1a7c5bfe4e71cf81d61c599a9d4016d698feff8fb0bc9beb0e2f88f9

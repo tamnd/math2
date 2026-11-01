@@ -25,7 +25,7 @@ records:
       scope:
         value: in
         rule: S6
-        by: m2 v0.6.14 scope/1
+        by: m2 v0.6.16 scope/1
       catalogue:
         - source: nptel
           snapshot: blake3:89dc2ec164a0108adbecf0ec8c793929c947e196b164e762035d3fdd89a3f469
@@ -70,7 +70,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.14 scope/1
+        by: m2 v0.6.16 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -81,7 +81,7 @@ records:
           native_id: "2609.36811"
           level: work
         - source: zbmath_search
-          snapshot: blake3:c337ce98d6a5f313c8656eac90c3348668181c9ed20fe8fe7554afd8dc3904ca
+          snapshot: blake3:928c873c1dac6852b2bf2c77184182759305f81342a4dc8ca5c0d4768bc6dd1e
           native_id: "903188972"
           level: work
       history:

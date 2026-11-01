@@ -25,7 +25,7 @@ records:
       scope:
         value: in
         rule: S6
-        by: m2 v0.6.14 scope/1
+        by: m2 v0.6.16 scope/1
       catalogue:
         - source: ocw
           snapshot: blake3:ab57e74d727dbbb8cc6f30102b1562b267a6d76a54ffa725885e5e4ddfbb57b8
@@ -72,7 +72,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.14 scope/1
+        by: m2 v0.6.16 scope/1
       catalogue:
         - source: putnam
           snapshot: blake3:a8efce689e279311a280a90aaaac925d4b96f7c8ccdd9eb1e8fb29b48d574603

@@ -24,7 +24,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.14 scope/1
+        by: m2 v0.6.16 scope/1
       catalogue:
         - source: imo
           snapshot: blake3:c564548c1a7c5bfe4e71cf81d61c599a9d4016d698feff8fb0bc9beb0e2f88f9
@@ -72,7 +72,7 @@ records:
       scope:
         value: in
         rule: S2
-        by: m2 v0.6.14 scope/1
+        by: m2 v0.6.16 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
