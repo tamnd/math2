@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/17689596#IHYP","to":"wikipedia://en/142679","predicate":"uses","method":"link-in-item","confidence":"high","span":[5008,5024],"revision":1374118932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19399645","to":"wikipedia://en/13467","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[269,280],"revision":1353052988,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19399645","to":"wikipedia://en/19399643","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[343,363],"revision":1353052988,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19399645","to":"wikipedia://en/30235068","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[388,414],"revision":1353052988,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19399645","to":"wikipedia://en/33188525","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[440,469],"revision":1353052988,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19399645","to":"wikipedia://en/44536593","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[497,528],"revision":1353052988,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19399645","to":"wikipedia://en/1233990","predicate":"related","method":"link-in-lead","confidence":"low","span":[553,568],"revision":1353052988,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19399645","to":"wikipedia://en/286000","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[620,637],"revision":1353052988,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19399645","to":"wikipedia://en/716602","predicate":"related","method":"link-in-lead","confidence":"low","span":[673,695],"revision":1353052988,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19399645","to":"wikipedia://en/22907213","predicate":"related","method":"link-in-lead","confidence":"low","span":[864,889],"revision":1353052988,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19399645","to":"wikipedia://en/9079432","predicate":"related","method":"link-in-lead","confidence":"low","span":[916,934],"revision":1353052988,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19399645","to":"wikipedia://en/61478","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1044,1074],"revision":1353052988,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19399645","to":"wikipedia://en/782146","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1075,1096],"revision":1353052988,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19399645","to":"wikipedia://en/36941","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1151,1173],"revision":1353052988,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19399645","to":"wikipedia://en/228601","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1211,1229],"revision":1353052988,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19399645","to":"wikipedia://en/174706","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1247,1267],"revision":1353052988,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19399645","to":"wikipedia://en/21527","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1480,1497],"revision":1353052988,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19399645","to":"Template:Wikiquote-inline","predicate":"in-nav","method":"nav","confidence":"low","span":[3728,3748],"revision":1353052988,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19399645","to":"Category:20th-century German mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3800,3847],"revision":1353052988,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50979789","to":"wikipedia://en/1997","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[27,49],"revision":1355883470,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50979789","to":"wikipedia://en/248808","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[212,253],"revision":1355883470,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50979789","to":"Category:Theorems in algebraic geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[8041,8084],"revision":1355883470,"by":"importer/wikipedia/1"}

@@ -1,0 +1,4 @@
+{"from":"wikipedia://en/1062532","to":"wikipedia://en/18934432","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[89,105],"revision":1221398787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1062532","to":"wikipedia://en/10294","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[137,161],"revision":1221398787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1062532","to":"wikipedia://en/480015","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[396,416],"revision":1221398787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1062532","to":"Category:Cryptography","predicate":"in-field","method":"category","confidence":"medium","span":[447,472],"revision":1221398787,"by":"importer/wikipedia/1"}

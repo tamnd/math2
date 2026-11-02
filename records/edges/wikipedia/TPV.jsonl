@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/34189212#E5WK","to":"wikipedia://en/2202","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[13228,13250],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5180277","to":"wikipedia://en/8625","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,28],"revision":1353324069,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5180277","to":"wikipedia://en/1104948","predicate":"related","method":"link-in-lead","confidence":"low","span":[68,88],"revision":1353324069,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5180277","to":"wikipedia://en/468536","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[108,130],"revision":1353324069,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5180277","to":"wikipedia://en/285618","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[150,243],"revision":1353324069,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5180277","to":"wikipedia://en/144652","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[244,267],"revision":1353324069,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5180277","to":"wikipedia://en/318742","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[278,317],"revision":1353324069,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5180277","to":"wikipedia://en/144569","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[586,615],"revision":1353324069,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5180277","to":"wikipedia://en/51147390","predicate":"related","method":"link-in-text","confidence":"low","span":[6891,6921],"revision":1353324069,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5180277","to":"wikipedia://en/29409995","predicate":"related","method":"link-in-text","confidence":"low","span":[6944,6970],"revision":1353324069,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5180277","to":"wikipedia://en/31074368","predicate":"related","method":"see-also","confidence":"low","span":[7048,7074],"revision":1353324069,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5180277","to":"Category:Lie groups","predicate":"in-field","method":"category","confidence":"medium","span":[8048,8071],"revision":1353324069,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5180277","to":"Category:Hyperbolic manifolds","predicate":"in-field","method":"category","confidence":"medium","span":[8072,8105],"revision":1353324069,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5180277","to":"Category:Differential geometry","predicate":"in-field","method":"category","confidence":"medium","span":[8106,8140],"revision":1353324069,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5180277","to":"Category:Lemmas","predicate":"kind-of","method":"category","confidence":"medium","span":[8141,8160],"revision":1353324069,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#YHE1","to":"wikipedia://en/30962576","predicate":"listed-in","method":"list","confidence":"certain","span":[17098,17126],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#YHE1","to":"wikipedia://en/23000","predicate":"uses","method":"link-in-item","confidence":"high","span":[17130,17145],"revision":1373797939,"by":"importer/wikipedia/1"}

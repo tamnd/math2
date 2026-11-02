@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/14403539#W8GH","to":"wikipedia://en/34023208","predicate":"listed-in","method":"list","confidence":"certain","span":[24851,24863],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6990840","to":"wikipedia://en/8625","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[73,98],"revision":1309640779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6990840","to":"wikipedia://en/2073470","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[135,147],"revision":1309640779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6990840","to":"wikipedia://en/211794","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[157,175],"revision":1309640779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6990840","to":"wikipedia://en/276410","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[193,224],"revision":1309640779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6990840","to":"wikipedia://en/51440","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[228,270],"revision":1309640779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6990840","to":"wikipedia://en/514258","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[345,398],"revision":1309640779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6990840","to":"wikipedia://en/2688710","predicate":"related","method":"link-in-text","confidence":"low","span":[5546,5563],"revision":1309640779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6990840","to":"wikipedia://en/56425908","predicate":"related","method":"see-also","confidence":"low","span":[5731,5756],"revision":1309640779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6990840","to":"wikipedia://en/646120","predicate":"related","method":"see-also","confidence":"low","span":[5759,5784],"revision":1309640779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6990840","to":"Category:Complex manifolds","predicate":"in-field","method":"category","confidence":"medium","span":[6971,7001],"revision":1309640779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6990840","to":"Category:Structures on manifolds","predicate":"in-field","method":"category","confidence":"medium","span":[7002,7038],"revision":1309640779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77414703#OTAF","to":"wikipedia://en/51955","predicate":"uses","method":"link-in-item","confidence":"high","span":[37211,37236],"revision":1365904789,"by":"importer/wikipedia/1"}

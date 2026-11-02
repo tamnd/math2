@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/1800460","to":"wikipedia://en/18203","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[4,23],"revision":1359966198,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1800460","to":"wikipedia://en/18203","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[69,116],"revision":1359966198,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1800460","to":"wikipedia://en/44382704","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[427,484],"revision":1359966198,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1800460","to":"wikipedia://en/150035","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[663,690],"revision":1359966198,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1800460","to":"wikipedia://en/18203","predicate":"related","method":"see-also","confidence":"low","span":[5313,5332],"revision":1359966198,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1800460","to":"wikipedia://en/202562","predicate":"related","method":"see-also","confidence":"low","span":[5335,5367],"revision":1359966198,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1800460","to":"wikipedia://en/40712456","predicate":"related","method":"see-also","confidence":"low","span":[5370,5392],"revision":1359966198,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1800460","to":"Category:Lambda calculus","predicate":"in-field","method":"category","confidence":"medium","span":[5455,5483],"revision":1359966198,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1800460","to":"Category:Normal forms (logic)","predicate":"in-field","method":"category","confidence":"medium","span":[5484,5517],"revision":1359966198,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#IRXY","to":"wikipedia://en/4481194","predicate":"listed-in","method":"list","confidence":"certain","span":[68230,68262],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2059448#F8IN","to":"wikipedia://en/3096183","predicate":"listed-in","method":"list","confidence":"certain","span":[3183,3220],"revision":1356076718,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565351#HRP2","to":"wikipedia://en/7358551","predicate":"listed-in","method":"list","confidence":"certain","span":[24198,24235],"revision":1373350261,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5582812#684G","to":"wikipedia://en/142207","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[1224,1256],"revision":1320952175,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5582812#684G","to":"wikipedia://en/173844","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[1562,1575],"revision":1320952175,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5582812#684G","to":"wikipedia://en/142207","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[1821,1853],"revision":1320952175,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5582812#684G","to":"wikipedia://en/40326","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[1936,1990],"revision":1320952175,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/621447#JFZ0","to":"wikipedia://en/1527655","predicate":"listed-in","method":"list","confidence":"certain","span":[4040,4060],"revision":1333074872,"by":"importer/wikipedia/1"}

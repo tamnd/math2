@@ -1,0 +1,25 @@
+{"from":"wikipedia://en/17359213","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[33,48],"revision":1223600365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17359213","to":"wikipedia://en/27799","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[85,98],"revision":1223600365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17359213","to":"wikipedia://en/30450","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[124,145],"revision":1223600365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17359213","to":"wikipedia://en/6122","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[180,214],"revision":1223600365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17359213","to":"wikipedia://en/42315","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[402,423],"revision":1223600365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17359213","to":"Category:Topological algebra","predicate":"in-field","method":"category","confidence":"medium","span":[1230,1262],"revision":1223600365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17359213","to":"Category:Topological groups","predicate":"in-field","method":"category","confidence":"medium","span":[1263,1294],"revision":1223600365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2292730","to":"wikipedia://en/27553","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[16,30],"revision":1312507403,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2292730","to":"wikipedia://en/1251559","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[143,184],"revision":1312507403,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2292730","to":"wikipedia://en/152207","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[280,317],"revision":1312507403,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2292730","to":"wikipedia://en/3785996","predicate":"related","method":"link-in-lead","confidence":"low","span":[617,634],"revision":1312507403,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2292730","to":"wikipedia://en/343335","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[681,707],"revision":1312507403,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2292730","to":"wikipedia://en/1251559","predicate":"related","method":"link-in-text","confidence":"low","span":[2808,2820],"revision":1312507403,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2292730","to":"Category:Set theory","predicate":"in-field","method":"category","confidence":"medium","span":[3472,3495],"revision":1312507403,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2292730","to":"Category:Constructible universe","predicate":"in-field","method":"category","confidence":"medium","span":[3496,3531],"revision":1312507403,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35799819","to":"wikipedia://en/1186896","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[87,104],"revision":1167418561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35799819","to":"wikipedia://en/2629423","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[116,141],"revision":1167418561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35799819","to":"wikipedia://en/320469","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[142,164],"revision":1167418561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35799819","to":"wikipedia://en/26438","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[352,371],"revision":1167418561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35799819","to":"wikipedia://en/35800065","predicate":"related","method":"link-in-text","confidence":"low","span":[874,898],"revision":1167418561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35799819","to":"Category:Diophantine geometry","predicate":"in-field","method":"category","confidence":"medium","span":[2335,2368],"revision":1167418561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35799819","to":"Category:Geometry of divisors","predicate":"in-field","method":"category","confidence":"medium","span":[2369,2402],"revision":1167418561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252845#JUK7","to":"wikipedia://en/263886","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[29443,29468],"revision":1375875409,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#B7AK","to":"wikipedia://en/8895326","predicate":"listed-in","method":"list","confidence":"certain","span":[13167,13186],"revision":1356718736,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#B7AK","to":"wikipedia://en/14330","predicate":"uses","method":"link-in-item","confidence":"medium","span":[13304,13322],"revision":1356718736,"by":"importer/wikipedia/1"}

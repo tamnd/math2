@@ -1,0 +1,28 @@
+{"from":"wikipedia://en/3892303#1LSU","to":"wikipedia://en/246223","predicate":"uses","method":"link-in-item","confidence":"high","span":[2532,2591],"revision":1372883634,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3892303#1LSU","to":"wikipedia://en/17458495","predicate":"uses","method":"link-in-item","confidence":"high","span":[2879,2907],"revision":1372883634,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3892303#1LSU","to":"wikipedia://en/455770","predicate":"uses","method":"link-in-item","confidence":"high","span":[3615,3661],"revision":1372883634,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3892303#1LSU","to":"wikipedia://en/455770","predicate":"uses","method":"link-in-item","confidence":"high","span":[4014,4070],"revision":1372883634,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3892303#1LSU","to":"wikipedia://en/60656372","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5001,5069],"revision":1372883634,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3892303#1LSU","to":"wikipedia://en/3758115","predicate":"uses","method":"link-in-item","confidence":"high","span":[5078,5098],"revision":1372883634,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3892303#1LSU","to":"wikipedia://en/1449083","predicate":"uses","method":"link-in-item","confidence":"high","span":[5486,5514],"revision":1372883634,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3892303#1LSU","to":"wikipedia://en/1305071","predicate":"uses","method":"link-in-item","confidence":"high","span":[5521,5553],"revision":1372883634,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3892303#1LSU","to":"wikipedia://en/60657382","predicate":"uses","method":"link-in-item","confidence":"high","span":[5780,5804],"revision":1372883634,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6600661","to":"wikipedia://en/580","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[675,689],"revision":1368579381,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6600661","to":"wikipedia://en/55412","predicate":"related","method":"link-in-text","confidence":"low","span":[738,763],"revision":1368579381,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6600661","to":"wikipedia://en/187477","predicate":"related","method":"link-in-text","confidence":"low","span":[842,858],"revision":1368579381,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6600661","to":"wikipedia://en/65828","predicate":"related","method":"link-in-text","confidence":"low","span":[887,902],"revision":1368579381,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6600661","to":"wikipedia://en/461702","predicate":"related","method":"link-in-text","confidence":"low","span":[988,1005],"revision":1368579381,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6600661","to":"wikipedia://en/955758","predicate":"related","method":"link-in-text","confidence":"low","span":[1042,1076],"revision":1368579381,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6600661","to":"wikipedia://en/23922","predicate":"related","method":"link-in-text","confidence":"low","span":[1182,1206],"revision":1368579381,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6600661","to":"wikipedia://en/283120","predicate":"related","method":"link-in-text","confidence":"low","span":[1975,2009],"revision":1368579381,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6600661","to":"wikipedia://en/391882","predicate":"related","method":"link-in-text","confidence":"low","span":[2289,2330],"revision":1368579381,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6600661","to":"wikipedia://en/58647","predicate":"related","method":"link-in-text","confidence":"low","span":[2469,2481],"revision":1368579381,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6600661","to":"wikipedia://en/5024887","predicate":"related","method":"link-in-text","confidence":"low","span":[2497,2514],"revision":1368579381,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6600661","to":"wikipedia://en/46510","predicate":"related","method":"link-in-text","confidence":"low","span":[2659,2734],"revision":1368579381,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6600661","to":"wikipedia://en/283120","predicate":"related","method":"link-in-text","confidence":"low","span":[2764,2798],"revision":1368579381,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6600661","to":"wikipedia://en/243062","predicate":"related","method":"link-in-text","confidence":"low","span":[2808,2863],"revision":1368579381,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6600661","to":"wikipedia://en/65828","predicate":"related","method":"link-in-text","confidence":"low","span":[3711,3738],"revision":1368579381,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6600661","to":"Template:Portal bar","predicate":"in-nav","method":"nav","confidence":"low","span":[6924,6994],"revision":1368579381,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6600661","to":"Category:19th-century American astronomers","predicate":"in-field","method":"category","confidence":"medium","span":[7094,7140],"revision":1368579381,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6600661","to":"Category:Scientists from Schenectady, New York","predicate":"in-field","method":"category","confidence":"medium","span":[7207,7257],"revision":1368579381,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6600661","to":"Category:Presidents of the American Association for the Advancement of Science","predicate":"in-field","method":"category","confidence":"medium","span":[7519,7601],"revision":1368579381,"by":"importer/wikipedia/1"}

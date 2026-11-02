@@ -1,0 +1,5 @@
+{"from":"wikipedia://en/24666969#D758","to":"wikipedia://en/2217599","predicate":"uses","method":"link-in-item","confidence":"high","span":[12099,12123],"revision":1373605838,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24666969#D758","to":"wikipedia://en/56126093","predicate":"restates","method":"hatnote","confidence":"high","span":[12361,12400],"revision":1373605838,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43580500#H8R9","to":"wikipedia://en/20506691","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[28358,28380],"revision":1360947732,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#QC8B","to":"wikipedia://en/11905171","predicate":"listed-in","method":"list","confidence":"certain","span":[49333,49394],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#QC8B","to":"wikipedia://en/11180","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[49398,49421],"revision":1373797939,"by":"importer/wikipedia/1"}

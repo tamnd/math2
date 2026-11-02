@@ -1,1 +1,4 @@
 {"id":"FBK79AQVZ4","mentions":["ax://paper/2610.22218#IGC6"],"kind":"statement","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.5.6"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.0"}]}
+{"id":"FBKASVN2YE","mentions":["wikipedia://en/346681"],"kind":"definition","name":"Σ-compact space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FBKGK0D6A5","mentions":["wikipedia://en/1030420#6VX5"],"kind":"statement","name":"van der Corput's difference theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FBKHNV2NC8","mentions":["wikipedia://en/1734238#IOEJ"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

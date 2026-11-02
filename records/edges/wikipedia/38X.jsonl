@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/2142850#3XGF","to":"wikipedia://en/28212","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[29139,29151],"revision":1363373483,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40668679","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[127,144],"revision":1300379910,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40668679","to":"wikipedia://en/546160","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[201,228],"revision":1300379910,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40668679","to":"wikipedia://en/546160","predicate":"related","method":"link-in-text","confidence":"low","span":[332,359],"revision":1300379910,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40668679","to":"wikipedia://en/3166399","predicate":"related","method":"link-in-text","confidence":"low","span":[540,569],"revision":1300379910,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40668679","to":"wikipedia://en/23542","predicate":"related","method":"link-in-text","confidence":"low","span":[690,712],"revision":1300379910,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40668679","to":"wikipedia://en/40663239","predicate":"related","method":"link-in-text","confidence":"low","span":[1094,1114],"revision":1300379910,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40668679","to":"wikipedia://en/12102897","predicate":"related","method":"link-in-text","confidence":"low","span":[1123,1142],"revision":1300379910,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40668679","to":"Category:Dutch mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2219,2252],"revision":1300379910,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40668679","to":"Category:Scientists from Amsterdam","predicate":"in-field","method":"category","confidence":"medium","span":[2253,2291],"revision":1300379910,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40668679","to":"Category:Academic staff of the University of Amsterdam","predicate":"in-field","method":"category","confidence":"medium","span":[2336,2394],"revision":1300379910,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71539327","to":"wikipedia://en/6385084","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[453,473],"revision":1315481597,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71539327","to":"wikipedia://en/9223","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[553,566],"revision":1315481597,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71539327","to":"wikipedia://en/59252","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1615,1628],"revision":1315481597,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71539327","to":"wikipedia://en/3830649","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2033,2066],"revision":1315481597,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71539327","to":"wikipedia://en/142440","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3467,3486],"revision":1315481597,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71539327","to":"wikipedia://en/5354105","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3503,3546],"revision":1315481597,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71539327","to":"wikipedia://en/5042951","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[4281,4299],"revision":1315481597,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71539327","to":"wikipedia://en/16807","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[4595,4619],"revision":1315481597,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71539327","to":"wikipedia://en/65495159","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[4636,4667],"revision":1315481597,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71539327","to":"wikipedia://en/5354105","predicate":"related","method":"see-also","confidence":"low","span":[5334,5377],"revision":1315481597,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71539327","to":"Category:Statistical charts and diagrams","predicate":"in-field","method":"category","confidence":"medium","span":[5407,5451],"revision":1315481597,"by":"importer/wikipedia/1"}

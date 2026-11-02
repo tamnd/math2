@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/15114628#OTIN","to":"wikipedia://en/32370","predicate":"uses","method":"link-in-item","confidence":"high","span":[8859,8875],"revision":1311761643,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15114628#OTIN","to":"wikipedia://en/4870290","predicate":"uses","method":"link-in-item","confidence":"high","span":[9244,9323],"revision":1311761643,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/196882#R54V","to":"wikipedia://en/433034","predicate":"uses","method":"link-in-item","confidence":"high","span":[5560,5588],"revision":1361824754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/196882#R54V","to":"wikipedia://en/1926558","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5681,5706],"revision":1361824754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/196882#R54V","to":"wikipedia://en/63941","predicate":"uses","method":"link-in-item","confidence":"high","span":[7585,7600],"revision":1361824754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/196882#R54V","to":"wikipedia://en/16947","predicate":"uses","method":"link-in-item","confidence":"high","span":[10917,10949],"revision":1361824754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/196882#R54V","to":"wikipedia://en/507823","predicate":"uses","method":"link-in-item","confidence":"medium","span":[10994,11012],"revision":1361824754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77669115","to":"wikipedia://en/48046","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[194,207],"revision":1300619370,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77669115","to":"wikipedia://en/673094","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[590,608],"revision":1300619370,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77669115","to":"wikipedia://en/515973","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[815,828],"revision":1300619370,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77669115","to":"wikipedia://en/48046","predicate":"related","method":"link-in-text","confidence":"low","span":[950,963],"revision":1300619370,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77669115","to":"Category:Informal logic","predicate":"in-field","method":"category","confidence":"medium","span":[2696,2723],"revision":1300619370,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77669115","to":"Category:Syllogism","predicate":"in-field","method":"category","confidence":"medium","span":[2724,2746],"revision":1300619370,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77669115","to":"Category:Arguments","predicate":"in-field","method":"category","confidence":"medium","span":[2747,2769],"revision":1300619370,"by":"importer/wikipedia/1"}

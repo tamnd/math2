@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/1148129","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[212,224],"revision":1374695204,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1148129","to":"wikipedia://en/23470","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[243,257],"revision":1374695204,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1148129","to":"wikipedia://en/12158034","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[295,319],"revision":1374695204,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1148129","to":"wikipedia://en/23621","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[327,339],"revision":1374695204,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1148129","to":"wikipedia://en/15575410","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[347,373],"revision":1374695204,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1148129","to":"wikipedia://en/149926","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[421,446],"revision":1374695204,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1148129","to":"wikipedia://en/507960","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[529,547],"revision":1374695204,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1148129","to":"wikipedia://en/2402","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[879,898],"revision":1374695204,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1148129","to":"wikipedia://en/23905","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1062,1081],"revision":1374695204,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1148129","to":"wikipedia://en/1847","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1101,1123],"revision":1374695204,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1148129","to":"wikipedia://en/12624735","predicate":"related","method":"link-in-lead","confidence":"low","span":[2549,2573],"revision":1374695204,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1148129","to":"wikipedia://en/91096","predicate":"related","method":"link-in-text","confidence":"low","span":[8672,8698],"revision":1374695204,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1148129","to":"wikipedia://en/6285","predicate":"related","method":"link-in-text","confidence":"low","span":[9036,9044],"revision":1374695204,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1148129","to":"wikipedia://en/59617028","predicate":"related","method":"link-in-text","confidence":"low","span":[9716,9750],"revision":1374695204,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1148129","to":"wikipedia://en/26446","predicate":"related","method":"link-in-text","confidence":"low","span":[9756,9784],"revision":1374695204,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1148129","to":"wikipedia://en/20000238","predicate":"related","method":"see-also","confidence":"low","span":[13000,13022],"revision":1374695204,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1148129","to":"wikipedia://en/76127855","predicate":"related","method":"see-also","confidence":"low","span":[13024,13038],"revision":1374695204,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1148129","to":"wikipedia://en/15096444","predicate":"related","method":"see-also","confidence":"low","span":[13040,13055],"revision":1374695204,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1148129","to":"wikipedia://en/3466260","predicate":"related","method":"see-also","confidence":"low","span":[13057,13071],"revision":1374695204,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1148129","to":"Category:Types of polygons","predicate":"kind-of","method":"category","confidence":"medium","span":[13760,13790],"revision":1374695204,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1148129","to":"Category:Polyhedra","predicate":"in-field","method":"category","confidence":"medium","span":[13791,13813],"revision":1374695204,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1148129","to":"Category:4-polytopes","predicate":"in-field","method":"category","confidence":"medium","span":[13814,13838],"revision":1374695204,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1148129","to":"Category:Spanning tree","predicate":"in-field","method":"category","confidence":"medium","span":[13839,13865],"revision":1374695204,"by":"importer/wikipedia/1"}

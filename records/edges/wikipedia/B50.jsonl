@@ -1,0 +1,10 @@
+{"from":"wikipedia://en/11353703#VO09","to":"wikipedia://en/201155","predicate":"listed-in","method":"list","confidence":"certain","span":[178716,178746],"revision":1373003451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/325802#N61P","to":"wikipedia://en/7566175","predicate":"uses","method":"link-in-item","confidence":"high","span":[66300,66323],"revision":1373839425,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54380446","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[181,196],"revision":1355379701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54380446","to":"wikipedia://en/494308","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[252,274],"revision":1355379701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54380446","to":"wikipedia://en/17902","predicate":"related","method":"link-in-lead","confidence":"low","span":[303,321],"revision":1355379701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54380446","to":"wikipedia://en/38298","predicate":"related","method":"link-in-lead","confidence":"low","span":[326,342],"revision":1355379701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54380446","to":"wikipedia://en/228161","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[389,412],"revision":1355379701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54380446","to":"wikipedia://en/7921","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1325,1339],"revision":1355379701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54380446","to":"Category:Series (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[2388,2421],"revision":1355379701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54380446","to":"Category:Summability methods","predicate":"in-field","method":"category","confidence":"medium","span":[2422,2454],"revision":1355379701,"by":"importer/wikipedia/1"}

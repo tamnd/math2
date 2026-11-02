@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/191457#ZA47","to":"wikipedia://en/21761858","predicate":"listed-in","method":"list","confidence":"certain","span":[34681,34695],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5687865","to":"wikipedia://en/659094","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[162,192],"revision":1344411661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5687865","to":"wikipedia://en/42693","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[257,272],"revision":1344411661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5687865","to":"wikipedia://en/30876419","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[361,378],"revision":1344411661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5687865","to":"wikipedia://en/41525646","predicate":"related","method":"link-in-lead","confidence":"low","span":[406,426],"revision":1344411661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5687865","to":"wikipedia://en/25284","predicate":"related","method":"link-in-text","confidence":"low","span":[8130,8140],"revision":1344411661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5687865","to":"wikipedia://en/3364","predicate":"related","method":"link-in-text","confidence":"low","span":[8384,8392],"revision":1344411661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5687865","to":"wikipedia://en/35457722","predicate":"related","method":"see-also","confidence":"low","span":[9095,9117],"revision":1344411661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5687865","to":"wikipedia://en/3002956","predicate":"related","method":"see-also","confidence":"low","span":[9120,9141],"revision":1344411661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5687865","to":"Category:Quantum mechanical entropy","predicate":"in-field","method":"category","confidence":"medium","span":[10137,10176],"revision":1344411661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5687865","to":"Category:Quantum information theory","predicate":"in-field","method":"category","confidence":"medium","span":[10177,10216],"revision":1344411661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5687865","to":"Category:Limits of computation","predicate":"in-field","method":"category","confidence":"medium","span":[10217,10251],"revision":1344411661,"by":"importer/wikipedia/1"}

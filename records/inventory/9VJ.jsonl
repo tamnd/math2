@@ -1,1 +1,8 @@
+{"id":"9VJ3091PG9","mentions":["wikipedia://en/78071340"],"kind":"topic","name":"Reinhard Diestel","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9VJC4JBCJ1","mentions":["wikipedia://en/77414703#ICWY"],"kind":"definition","name":"converge","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9VJFCK4VHE","mentions":["wikipedia://en/75894285#F4A9"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9VJPQ5BV4B","mentions":["wikipedia://en/596282#KGHZ"],"kind":"unknown","name":"Cohen-Lenstra heuristics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9VJPRM6DT5","mentions":["wikipedia://en/14968#7X4T"],"kind":"unknown","name":"Icosahedral graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9VJRTEJNA5","mentions":["wikipedia://en/11913417#X687"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9VJVX6F3M8","mentions":["wikipedia://en/14403539#WSFX"],"kind":"topic","name":"Ueli Maurer","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9VJWW4G6QZ","mentions":["ax://paper/2610.08821#0JMT"],"kind":"statement","name":"Outer stability of exact and approximate cutoffs","msc":["60-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.10"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}]}

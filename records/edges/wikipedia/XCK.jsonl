@@ -1,0 +1,41 @@
+{"from":"wikipedia://en/1681091","to":"wikipedia://en/155414","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[106,130],"revision":1360743790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1681091","to":"wikipedia://en/1208","predicate":"related","method":"link-in-lead","confidence":"low","span":[195,210],"revision":1360743790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1681091","to":"wikipedia://en/8336","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[249,269],"revision":1360743790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1681091","to":"wikipedia://en/22431","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[414,432],"revision":1360743790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1681091","to":"wikipedia://en/22431","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[441,477],"revision":1360743790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1681091","to":"wikipedia://en/764405","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[567,584],"revision":1360743790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1681091","to":"wikipedia://en/1188375","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[666,686],"revision":1360743790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1681091","to":"wikipedia://en/764468","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[706,724],"revision":1360743790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1681091","to":"wikipedia://en/186475","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[793,819],"revision":1360743790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1681091","to":"Category:Year of introduction missing","predicate":"in-field","method":"category","confidence":"medium","span":[7409,7450],"revision":1360743790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1681091","to":"Category:Computability theory","predicate":"in-field","method":"category","confidence":"medium","span":[7451,7484],"revision":1360743790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1681091","to":"Category:Alan Turing","predicate":"in-field","method":"category","confidence":"medium","span":[7485,7509],"revision":1360743790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/251424#EEDY","to":"wikipedia://en/20781","predicate":"uses","method":"link-in-item","confidence":"high","span":[15831,15846],"revision":1370098282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/24222","predicate":"uses","method":"link-in-item","confidence":"high","span":[8418,8456],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/25385","predicate":"uses","method":"link-in-item","confidence":"high","span":[8458,8484],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/59458","predicate":"uses","method":"link-in-item","confidence":"high","span":[8486,8516],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/59470","predicate":"uses","method":"link-in-item","confidence":"high","span":[8518,8553],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/3357958","predicate":"uses","method":"link-in-item","confidence":"high","span":[8555,8595],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/17935444","predicate":"uses","method":"link-in-item","confidence":"high","span":[8597,8619],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/56665655","predicate":"uses","method":"link-in-item","confidence":"high","span":[8621,8639],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/9966","predicate":"uses","method":"link-in-item","confidence":"high","span":[8683,8726],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/9966","predicate":"uses","method":"link-in-item","confidence":"high","span":[8728,8795],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/450525","predicate":"uses","method":"link-in-item","confidence":"high","span":[8809,8861],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/40775836","predicate":"uses","method":"link-in-item","confidence":"high","span":[8956,8965],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/53042","predicate":"uses","method":"link-in-item","confidence":"high","span":[9005,9039],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/48375","predicate":"uses","method":"link-in-item","confidence":"high","span":[9041,9060],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/15076","predicate":"uses","method":"link-in-item","confidence":"high","span":[9062,9110],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/240998","predicate":"uses","method":"link-in-item","confidence":"high","span":[9141,9159],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/3940","predicate":"uses","method":"link-in-item","confidence":"high","span":[9161,9191],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/26508356","predicate":"uses","method":"link-in-item","confidence":"high","span":[9193,9204],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/1260","predicate":"uses","method":"link-in-item","confidence":"high","span":[9206,9264],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/532475","predicate":"uses","method":"link-in-item","confidence":"high","span":[9266,9315],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/439526","predicate":"uses","method":"link-in-item","confidence":"high","span":[9318,9354],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/18826","predicate":"uses","method":"link-in-item","confidence":"high","span":[9356,9363],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/26672","predicate":"uses","method":"link-in-item","confidence":"high","span":[9365,9374],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/26363","predicate":"uses","method":"link-in-item","confidence":"high","span":[9376,9397],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/1638777","predicate":"uses","method":"link-in-item","confidence":"high","span":[9399,9443],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/8013","predicate":"uses","method":"link-in-item","confidence":"high","span":[9446,9478],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/188488","predicate":"uses","method":"link-in-item","confidence":"medium","span":[9494,9519],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/34499","predicate":"uses","method":"link-in-item","confidence":"medium","span":[9521,9534],"revision":1371350423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38809#TIVA","to":"wikipedia://en/66255","predicate":"uses","method":"link-in-item","confidence":"medium","span":[9536,9551],"revision":1371350423,"by":"importer/wikipedia/1"}

@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/45625343","to":"wikipedia://en/25431","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[147,175],"revision":1349279586,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45625343","to":"wikipedia://en/17945","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[282,317],"revision":1349279586,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45625343","to":"wikipedia://en/882902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[319,339],"revision":1349279586,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45625343","to":"wikipedia://en/11034","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[344,361],"revision":1349279586,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45625343","to":"wikipedia://en/7955325","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[481,506],"revision":1349279586,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45625343","to":"wikipedia://en/374544","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[540,567],"revision":1349279586,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45625343","to":"wikipedia://en/32490","predicate":"related","method":"link-in-lead","confidence":"low","span":[601,620],"revision":1349279586,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45625343","to":"wikipedia://en/7955325","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1356,1381],"revision":1349279586,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45625343","to":"wikipedia://en/8534576","predicate":"related","method":"link-in-text","confidence":"low","span":[1624,1644],"revision":1349279586,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45625343","to":"Category:Russian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3229,3264],"revision":1349279586,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45625343","to":"Category:Soviet mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3361,3395],"revision":1349279586,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45625343","to":"Category:Canadian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3396,3432],"revision":1349279586,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45625343","to":"Category:Mathematicians of the University of Toronto","predicate":"in-field","method":"category","confidence":"medium","span":[3518,3574],"revision":1349279586,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6583544#JQCJ","to":"wikipedia://en/43325","predicate":"uses","method":"link-in-item","confidence":"high","span":[822,843],"revision":1336719729,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6583544#JQCJ","to":"wikipedia://en/43333","predicate":"uses","method":"link-in-item","confidence":"high","span":[891,911],"revision":1336719729,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6583544#JQCJ","to":"wikipedia://en/2954244","predicate":"uses","method":"link-in-item","confidence":"high","span":[990,1034],"revision":1336719729,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6583544#JQCJ","to":"wikipedia://en/29586","predicate":"uses","method":"link-in-item","confidence":"high","span":[1042,1059],"revision":1336719729,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6583544#JQCJ","to":"wikipedia://en/47895","predicate":"uses","method":"link-in-item","confidence":"high","span":[1151,1173],"revision":1336719729,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6583544#JQCJ","to":"wikipedia://en/43327","predicate":"uses","method":"link-in-item","confidence":"high","span":[1332,1355],"revision":1336719729,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6583544#JQCJ","to":"wikipedia://en/44055","predicate":"uses","method":"link-in-item","confidence":"high","span":[1997,2031],"revision":1336719729,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6583544#JQCJ","to":"wikipedia://en/240790","predicate":"uses","method":"link-in-item","confidence":"high","span":[2396,2418],"revision":1336719729,"by":"importer/wikipedia/1"}

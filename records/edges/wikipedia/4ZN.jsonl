@@ -1,0 +1,29 @@
+{"from":"wikipedia://en/41575347","to":"wikipedia://en/442137","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[106,123],"revision":1297518020,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41575347","to":"wikipedia://en/21523","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[130,159],"revision":1297518020,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41575347","to":"wikipedia://en/22145","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[364,383],"revision":1297518020,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41575347","to":"wikipedia://en/12461","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[529,541],"revision":1297518020,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41575347","to":"wikipedia://en/23231","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[768,780],"revision":1297518020,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41575347","to":"wikipedia://en/349771","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[888,909],"revision":1297518020,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41575347","to":"wikipedia://en/1360091","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1350,1369],"revision":1297518020,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41575347","to":"Category:Machine learning algorithms","predicate":"in-field","method":"category","confidence":"medium","span":[1702,1742],"revision":1297518020,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41575347","to":"Category:Artificial neural networks","predicate":"in-field","method":"category","confidence":"medium","span":[1743,1782],"revision":1297518020,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41575347","to":"Category:Computational neuroscience","predicate":"in-field","method":"category","confidence":"medium","span":[1783,1822],"revision":1297518020,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/517370#YYNT","to":"wikipedia://en/4157558","predicate":"listed-in","method":"list","confidence":"certain","span":[13125,13161],"revision":1353185276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/535823#TH8L","to":"wikipedia://en/2291739","predicate":"listed-in","method":"list","confidence":"certain","span":[2438,2458],"revision":1333049270,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#0J8W","to":"wikipedia://en/462730#MLMA","predicate":"listed-in","method":"list","confidence":"certain","span":[51759,51810],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#0J8W","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[51814,51826],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7999626","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1285635688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7999626","to":"wikipedia://en/449477","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[93,110],"revision":1285635688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7999626","to":"wikipedia://en/550137","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[129,196],"revision":1285635688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7999626","to":"wikipedia://en/8000370","predicate":"related","method":"link-in-lead","confidence":"low","span":[228,245],"revision":1285635688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7999626","to":"wikipedia://en/174706","predicate":"related","method":"link-in-text","confidence":"low","span":[2573,2593],"revision":1285635688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7999626","to":"wikipedia://en/193735","predicate":"related","method":"link-in-text","confidence":"low","span":[2702,2722],"revision":1285635688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7999626","to":"wikipedia://en/7820612","predicate":"related","method":"link-in-text","confidence":"low","span":[2863,2883],"revision":1285635688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7999626","to":"wikipedia://en/3368981","predicate":"related","method":"link-in-text","confidence":"low","span":[3303,3326],"revision":1285635688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7999626","to":"wikipedia://en/4722074","predicate":"uses","method":"named-link","confidence":"high","span":[3889,3913],"revision":1285635688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7999626","to":"wikipedia://en/38128","predicate":"uses","method":"named-link","confidence":"high","span":[4252,4283],"revision":1285635688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7999626","to":"Template:Functional analysis","predicate":"in-nav","method":"nav","confidence":"low","span":[4724,4747],"revision":1285635688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7999626","to":"Category:Theorems in functional analysis","predicate":"kind-of","method":"category","confidence":"medium","span":[4786,4830],"revision":1285635688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7999626","to":"Category:Inequalities (mathematics)","predicate":"kind-of","method":"category","confidence":"medium","span":[4831,4870],"revision":1285635688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7999626","to":"Category:Partial differential equations","predicate":"in-field","method":"category","confidence":"medium","span":[4871,4914],"revision":1285635688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7999626","to":"Category:Sobolev spaces","predicate":"in-field","method":"category","confidence":"medium","span":[4915,4942],"revision":1285635688,"by":"importer/wikipedia/1"}

@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/3129323#W600","to":"wikipedia://en/24062516","predicate":"uses","method":"link-in-item","confidence":"high","span":[5850,5873],"revision":1372893580,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3129323#W600","to":"wikipedia://en/41928","predicate":"uses","method":"link-in-item","confidence":"high","span":[10306,10321],"revision":1372893580,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3129323#W600","to":"wikipedia://en/100267","predicate":"uses","method":"link-in-item","confidence":"high","span":[13724,13742],"revision":1372893580,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3129323#W600","to":"wikipedia://en/47756","predicate":"related","method":"link-in-item","confidence":"low","span":[13926,14004],"revision":1372893580,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3129323#W600","to":"wikipedia://en/1851","predicate":"uses","method":"link-in-item","confidence":"high","span":[14128,14153],"revision":1372893580,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3129323#W600","to":"wikipedia://en/960972","predicate":"uses","method":"link-in-item","confidence":"medium","span":[14495,14519],"revision":1372893580,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3129323#W600","to":"wikipedia://en/494669","predicate":"uses","method":"link-in-item","confidence":"high","span":[16752,16768],"revision":1372893580,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3129323#W600","to":"wikipedia://en/10603","predicate":"uses","method":"link-in-item","confidence":"high","span":[16811,16840],"revision":1372893580,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3129323#W600","to":"wikipedia://en/26549625","predicate":"uses","method":"link-in-item","confidence":"high","span":[17529,17549],"revision":1372893580,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3129323#W600","to":"wikipedia://en/14828","predicate":"uses","method":"link-in-item","confidence":"high","span":[18867,18881],"revision":1372893580,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62060805","to":"wikipedia://en/55866","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[151,161],"revision":1363704127,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62060805","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[218,235],"revision":1363704127,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62060805","to":"wikipedia://en/323707","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[267,284],"revision":1363704127,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62060805","to":"wikipedia://en/24350","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[289,317],"revision":1363704127,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62060805","to":"wikipedia://en/589126","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[888,903],"revision":1363704127,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62060805","to":"wikipedia://en/60919","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1002,1026],"revision":1363704127,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62060805","to":"wikipedia://en/209935","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1043,1071],"revision":1363704127,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62060805","to":"wikipedia://en/94033","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1130,1151],"revision":1363704127,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62060805","to":"Category:20th-century British mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[6527,6575],"revision":1363704127,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62060805","to":"Category:Academics of the University of London","predicate":"in-field","method":"category","confidence":"medium","span":[6624,6674],"revision":1363704127,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62060805","to":"Category:Mathematicians of the University of Birmingham","predicate":"in-field","method":"category","confidence":"medium","span":[6675,6734],"revision":1363704127,"by":"importer/wikipedia/1"}

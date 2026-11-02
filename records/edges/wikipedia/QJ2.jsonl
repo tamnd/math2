@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/13823014","to":"wikipedia://en/44236848","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[65,85],"revision":1358744105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13823014","to":"wikipedia://en/7039","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[99,117],"revision":1358744105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13823014","to":"wikipedia://en/14421547","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[406,438],"revision":1358744105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13823014","to":"wikipedia://en/485168","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[509,537],"revision":1358744105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13823014","to":"wikipedia://en/14421547","predicate":"related","method":"link-in-text","confidence":"low","span":[1940,2012],"revision":1358744105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13823014","to":"Category:Control theory","predicate":"in-field","method":"category","confidence":"medium","span":[3594,3621],"revision":1358744105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13823014","to":"Category:Theorems in dynamical systems","predicate":"kind-of","method":"category","confidence":"medium","span":[3622,3664],"revision":1358744105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3885297","to":"wikipedia://en/46426065","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[94,103],"revision":1307271203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3885297","to":"wikipedia://en/14570","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[368,382],"revision":1307271203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3885297","to":"wikipedia://en/442688","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[521,544],"revision":1307271203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3885297","to":"wikipedia://en/39095","predicate":"related","method":"see-also","confidence":"low","span":[802,837],"revision":1307271203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3885297","to":"wikipedia://en/50453901","predicate":"related","method":"see-also","confidence":"low","span":[840,866],"revision":1307271203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3885297","to":"wikipedia://en/14570","predicate":"related","method":"see-also","confidence":"low","span":[869,882],"revision":1307271203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3885297","to":"wikipedia://en/50453901","predicate":"related","method":"see-also","confidence":"low","span":[885,911],"revision":1307271203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3885297","to":"Category:Concepts in logic","predicate":"in-field","method":"category","confidence":"medium","span":[979,1009],"revision":1307271203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3885297","to":"Category:Definition","predicate":"in-field","method":"category","confidence":"medium","span":[1010,1033],"revision":1307271203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54316#CLLY","to":"wikipedia://en/3800787","predicate":"listed-in","method":"list","confidence":"certain","span":[5205,5233],"revision":1371938805,"by":"importer/wikipedia/1"}

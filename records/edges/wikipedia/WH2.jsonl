@@ -1,0 +1,41 @@
+{"from":"wikipedia://en/14403539#XNNR","to":"wikipedia://en/36289694","predicate":"listed-in","method":"list","confidence":"certain","span":[51361,51382],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28092567","to":"wikipedia://en/17910805","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[372,390],"revision":1347295075,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28092567","to":"wikipedia://en/85276","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[482,508],"revision":1347295075,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28092567","to":"wikipedia://en/655","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[538,548],"revision":1347295075,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28092567","to":"wikipedia://en/11936957","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[586,620],"revision":1347295075,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28092567","to":"wikipedia://en/19054","predicate":"related","method":"link-in-text","confidence":"low","span":[1059,1075],"revision":1347295075,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28092567","to":"wikipedia://en/16811687","predicate":"related","method":"link-in-text","confidence":"low","span":[1096,1119],"revision":1347295075,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28092567","to":"wikipedia://en/1216","predicate":"related","method":"link-in-text","confidence":"low","span":[1123,1133],"revision":1347295075,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28092567","to":"wikipedia://en/1455703","predicate":"related","method":"link-in-text","confidence":"low","span":[1313,1354],"revision":1347295075,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28092567","to":"wikipedia://en/437052","predicate":"related","method":"link-in-text","confidence":"low","span":[1997,2043],"revision":1347295075,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28092567","to":"wikipedia://en/11376","predicate":"related","method":"link-in-text","confidence":"low","span":[2645,2670],"revision":1347295075,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28092567","to":"wikipedia://en/1455703","predicate":"related","method":"link-in-text","confidence":"low","span":[3648,3698],"revision":1347295075,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28092567","to":"wikipedia://en/166697","predicate":"related","method":"link-in-text","confidence":"low","span":[3716,3750],"revision":1347295075,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28092567","to":"wikipedia://en/9110","predicate":"related","method":"link-in-text","confidence":"low","span":[4193,4207],"revision":1347295075,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28092567","to":"wikipedia://en/13574","predicate":"related","method":"link-in-text","confidence":"low","span":[4252,4265],"revision":1347295075,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28092567","to":"wikipedia://en/947136","predicate":"related","method":"see-also","confidence":"low","span":[4782,4798],"revision":1347295075,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28092567","to":"Template:Calculator navbox","predicate":"in-nav","method":"nav","confidence":"low","span":[5916,5937],"revision":1347295075,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28092567","to":"Category:Ancient Greek mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[5938,5976],"revision":1347295075,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28092567","to":"Category:Abacus","predicate":"in-field","method":"category","confidence":"medium","span":[5977,5996],"revision":1347295075,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28092567","to":"Category:Archaeological discoveries in the Aegean Islands","predicate":"in-field","method":"category","confidence":"medium","span":[5997,6058],"revision":1347295075,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28092567","to":"Category:1846 archaeological discoveries","predicate":"in-field","method":"category","confidence":"medium","span":[6059,6103],"revision":1347295075,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28866227#G2MB","to":"wikipedia://en/19310129","predicate":"uses","method":"link-in-item","confidence":"high","span":[1468,1496],"revision":1315922689,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28897820#EE9K","to":"wikipedia://en/506077","predicate":"uses","method":"link-in-item","confidence":"high","span":[1498,1537],"revision":1375118874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28897820#EE9K","to":"wikipedia://en/43487","predicate":"uses","method":"link-in-item","confidence":"high","span":[1638,1670],"revision":1375118874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28897820#EE9K","to":"wikipedia://en/506077","predicate":"specializes","method":"link-in-item","confidence":"medium","span":[1972,1997],"revision":1375118874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28897820#EE9K","to":"wikipedia://en/879637","predicate":"specializes","method":"link-in-item","confidence":"medium","span":[2005,2058],"revision":1375118874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28897820#EE9K","to":"wikipedia://en/708242","predicate":"specializes","method":"link-in-item","confidence":"medium","span":[2398,2422],"revision":1375118874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3176115","to":"wikipedia://en/563105","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[32,59],"revision":1064159709,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3176115","to":"wikipedia://en/563105","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[160,183],"revision":1064159709,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3176115","to":"wikipedia://en/31248","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1084,1114],"revision":1064159709,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3176115","to":"wikipedia://en/160361","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1445,1463],"revision":1064159709,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3176115","to":"wikipedia://en/495383","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1572,1596],"revision":1064159709,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3176115","to":"wikipedia://en/1747972","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1935,1953],"revision":1064159709,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3176115","to":"wikipedia://en/6115","predicate":"related","method":"link-in-text","confidence":"low","span":[2417,2440],"revision":1064159709,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3176115","to":"Category:Approximation algorithms","predicate":"in-field","method":"category","confidence":"medium","span":[3597,3634],"revision":1064159709,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7428692","to":"wikipedia://en/101595","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[417,433],"revision":1336562406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7428692","to":"wikipedia://en/1825228","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[447,476],"revision":1336562406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7428692","to":"wikipedia://en/2174531","predicate":"related","method":"link-in-text","confidence":"low","span":[1326,1343],"revision":1336562406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7428692","to":"wikipedia://en/1825228","predicate":"related","method":"see-also","confidence":"low","span":[6786,6817],"revision":1336562406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7428692","to":"Category:Logic puzzles","predicate":"in-field","method":"category","confidence":"medium","span":[7212,7238],"revision":1336562406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7428692","to":"Category:Japanese board games","predicate":"in-field","method":"category","confidence":"medium","span":[7239,7272],"revision":1336562406,"by":"importer/wikipedia/1"}

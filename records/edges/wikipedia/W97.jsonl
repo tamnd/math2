@@ -1,0 +1,37 @@
+{"from":"wikipedia://en/15333552","to":"wikipedia://en/19858","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,19],"revision":1279157946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15333552","to":"wikipedia://en/19636","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[33,55],"revision":1279157946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15333552","to":"wikipedia://en/3784565","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[131,168],"revision":1279157946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15333552","to":"wikipedia://en/1018","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[200,231],"revision":1279157946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15333552","to":"wikipedia://en/347049","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[247,280],"revision":1279157946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15333552","to":"wikipedia://en/30865852","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[364,403],"revision":1279157946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15333552","to":"Template:Mathematical logic","predicate":"in-nav","method":"nav","confidence":"low","span":[2610,2632],"revision":1279157946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15333552","to":"Category:Model theory","predicate":"in-field","method":"category","confidence":"medium","span":[2634,2659],"revision":1279157946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/157092#43KH","to":"wikipedia://en/2557590","predicate":"related","method":"link-in-item","confidence":"low","span":[33683,33706],"revision":1373148526,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/157092#43KH","to":"wikipedia://en/1855811","predicate":"uses","method":"link-in-item","confidence":"high","span":[34315,34341],"revision":1373148526,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/157092#43KH","to":"wikipedia://en/1855811","predicate":"uses","method":"link-in-item","confidence":"high","span":[34370,34401],"revision":1373148526,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/157092#43KH","to":"wikipedia://en/51440#XQOS","predicate":"uses","method":"link-in-item","confidence":"medium","span":[35574,35628],"revision":1373148526,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/157092#43KH","to":"wikipedia://en/3535789","predicate":"uses","method":"link-in-item","confidence":"medium","span":[35758,35785],"revision":1373148526,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20542241#0CRE","to":"wikipedia://en/820253","predicate":"uses","method":"link-in-item","confidence":"high","span":[1364,1391],"revision":1374572027,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20542241#0CRE","to":"wikipedia://en/62641","predicate":"uses","method":"link-in-item","confidence":"high","span":[1448,1464],"revision":1374572027,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20542241#0CRE","to":"wikipedia://en/419444","predicate":"uses","method":"link-in-item","confidence":"high","span":[1472,1503],"revision":1374572027,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20542241#0CRE","to":"wikipedia://en/461454","predicate":"uses","method":"link-in-item","confidence":"high","span":[1516,1551],"revision":1374572027,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/369981#11VP","to":"wikipedia://en/372240","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[6125,6153],"revision":1253691608,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40671834","to":"wikipedia://en/26781","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[115,135],"revision":1325700743,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40671834","to":"wikipedia://en/86373","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[212,233],"revision":1325700743,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40671834","to":"wikipedia://en/26049","predicate":"related","method":"link-in-text","confidence":"low","span":[496,509],"revision":1325700743,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40671834","to":"wikipedia://en/86373","predicate":"related","method":"link-in-text","confidence":"low","span":[847,868],"revision":1325700743,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40671834","to":"wikipedia://en/40673023","predicate":"related","method":"link-in-text","confidence":"low","span":[942,962],"revision":1325700743,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40671834","to":"wikipedia://en/30963930","predicate":"related","method":"link-in-text","confidence":"low","span":[967,983],"revision":1325700743,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40671834","to":"wikipedia://en/383540","predicate":"related","method":"link-in-text","confidence":"low","span":[1062,1087],"revision":1325700743,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40671834","to":"wikipedia://en/3712","predicate":"related","method":"link-in-text","confidence":"low","span":[1091,1104],"revision":1325700743,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40671834","to":"wikipedia://en/63338169","predicate":"related","method":"link-in-text","confidence":"low","span":[1565,1594],"revision":1325700743,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40671834","to":"wikipedia://en/1798106","predicate":"related","method":"link-in-text","confidence":"low","span":[1901,1928],"revision":1325700743,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40671834","to":"Category:Dutch social scientists","predicate":"in-field","method":"category","confidence":"medium","span":[4107,4143],"revision":1325700743,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40671834","to":"Category:Knights of the Order of the Netherlands Lion","predicate":"in-field","method":"category","confidence":"medium","span":[4144,4201],"revision":1325700743,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40671834","to":"Category:Academic staff of Leiden University","predicate":"in-field","method":"category","confidence":"medium","span":[4240,4288],"revision":1325700743,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40671834","to":"Category:Scientists from Rotterdam","predicate":"in-field","method":"category","confidence":"medium","span":[4289,4327],"revision":1325700743,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40671834","to":"Category:Psychometrika editors","predicate":"in-field","method":"category","confidence":"medium","span":[4328,4362],"revision":1325700743,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40671834","to":"Category:Quantitative psychologists","predicate":"in-field","method":"category","confidence":"medium","span":[4363,4402],"revision":1325700743,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67752523#KCIS","to":"wikipedia://en/221708","predicate":"uses","method":"link-in-item","confidence":"high","span":[4280,4354],"revision":1352986180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67752523#KCIS","to":"wikipedia://en/879637","predicate":"uses","method":"link-in-item","confidence":"high","span":[4702,4736],"revision":1352986180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67752523#KCIS","to":"wikipedia://en/245660","predicate":"uses","method":"link-in-item","confidence":"high","span":[5117,5171],"revision":1352986180,"by":"importer/wikipedia/1"}

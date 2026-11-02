@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/30485319","to":"wikipedia://en/24295969","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[34,57],"revision":1344998410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30485319","to":"wikipedia://en/3142973","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[66,95],"revision":1344998410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30485319","to":"wikipedia://en/81318285","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[98,134],"revision":1344998410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30485319","to":"wikipedia://en/8603","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[181,201],"revision":1344998410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30485319","to":"wikipedia://en/2417830","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[215,248],"revision":1344998410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30485319","to":"wikipedia://en/178937","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[278,296],"revision":1344998410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30485319","to":"wikipedia://en/545825","predicate":"related","method":"link-in-text","confidence":"low","span":[507,527],"revision":1344998410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30485319","to":"wikipedia://en/495884","predicate":"related","method":"link-in-text","confidence":"low","span":[626,644],"revision":1344998410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30485319","to":"wikipedia://en/7519","predicate":"related","method":"link-in-text","confidence":"low","span":[661,676],"revision":1344998410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30485319","to":"wikipedia://en/37021","predicate":"related","method":"link-in-text","confidence":"low","span":[1809,1833],"revision":1344998410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30485319","to":"Category:Signal processing","predicate":"in-field","method":"category","confidence":"medium","span":[3120,3150],"revision":1344998410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41983973","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[42,57],"revision":1336933452,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41983973","to":"wikipedia://en/20696","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[106,134],"revision":1336933452,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41983973","to":"wikipedia://en/27799","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[138,152],"revision":1336933452,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41983973","to":"wikipedia://en/15398568","predicate":"related","method":"link-in-lead","confidence":"low","span":[167,208],"revision":1336933452,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41983973","to":"wikipedia://en/27799","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[273,293],"revision":1336933452,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41983973","to":"wikipedia://en/3875683","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[347,383],"revision":1336933452,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41983973","to":"wikipedia://en/27799","predicate":"related","method":"see-also","confidence":"low","span":[1856,1869],"revision":1336933452,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41983973","to":"wikipedia://en/22653593","predicate":"related","method":"see-also","confidence":"low","span":[1872,1903],"revision":1336933452,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41983973","to":"wikipedia://en/15398568","predicate":"related","method":"see-also","confidence":"low","span":[1906,1936],"revision":1336933452,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41983973","to":"Category:Semigroup theory","predicate":"in-field","method":"category","confidence":"medium","span":[2429,2458],"revision":1336933452,"by":"importer/wikipedia/1"}

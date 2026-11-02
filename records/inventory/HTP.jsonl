@@ -1,1 +1,6 @@
+{"id":"HTPAQYGWMS","mentions":["wikipedia://en/1188090#19RO"],"kind":"conjecture","name":"Mortal matrix problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"HTPBMR285M","mentions":["wikipedia://en/47738065#VUV1"],"kind":"unknown","name":"Nathalie Wahl","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"HTPCY3YJKM","mentions":["wikipedia://en/53882353"],"kind":"topic","name":"Lois Curfman McInnes","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"HTPHEEJB51","mentions":["wikipedia://en/2833097"],"kind":"definition","name":"Reachability","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HTPQHYBZRR","mentions":["ax://paper/2610.13833#ZCLN"],"kind":"statement","msc":["46-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
+{"id":"HTPRPY70F7","mentions":["wikipedia://en/599970#MN2L"],"kind":"statement","name":"Farkas's lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

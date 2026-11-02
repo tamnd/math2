@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/3856935","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[47,62],"revision":1370498533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3856935","to":"wikipedia://en/39147","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[158,180],"revision":1370498533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3856935","to":"wikipedia://en/704359","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[200,220],"revision":1370498533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3856935","to":"wikipedia://en/217628","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[228,245],"revision":1370498533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3856935","to":"wikipedia://en/39147","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[284,306],"revision":1370498533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3856935","to":"wikipedia://en/5323","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[336,356],"revision":1370498533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3856935","to":"wikipedia://en/12401","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[361,377],"revision":1370498533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3856935","to":"wikipedia://en/4321","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[390,405],"revision":1370498533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3856935","to":"wikipedia://en/17132688","predicate":"related","method":"link-in-lead","confidence":"low","span":[440,463],"revision":1370498533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3856935","to":"wikipedia://en/9640979","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[468,487],"revision":1370498533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3856935","to":"wikipedia://en/27082137","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[604,658],"revision":1370498533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3856935","to":"wikipedia://en/5811855","predicate":"related","method":"link-in-text","confidence":"low","span":[3091,3106],"revision":1370498533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3856935","to":"wikipedia://en/4928530","predicate":"related","method":"link-in-text","confidence":"low","span":[3204,3224],"revision":1370498533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3856935","to":"wikipedia://en/642090","predicate":"related","method":"link-in-text","confidence":"low","span":[3464,3488],"revision":1370498533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3856935","to":"wikipedia://en/27082137","predicate":"related","method":"link-in-text","confidence":"low","span":[3492,3535],"revision":1370498533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3856935","to":"wikipedia://en/3868748","predicate":"related","method":"see-also","confidence":"low","span":[3718,3747],"revision":1370498533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3856935","to":"wikipedia://en/508022","predicate":"related","method":"see-also","confidence":"low","span":[3750,3791],"revision":1370498533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3856935","to":"Template:Factorial and binomial topics","predicate":"in-nav","method":"nav","confidence":"low","span":[4628,4661],"revision":1370498533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3856935","to":"Category:Factorial and binomial topics","predicate":"in-field","method":"category","confidence":"medium","span":[4701,4743],"revision":1370498533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3856935","to":"Category:Complex analysis","predicate":"in-field","method":"category","confidence":"medium","span":[4744,4773],"revision":1370498533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3856935","to":"Category:Integral transforms","predicate":"in-field","method":"category","confidence":"medium","span":[4774,4806],"revision":1370498533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3856935","to":"Category:Finite differences","predicate":"in-field","method":"category","confidence":"medium","span":[4807,4838],"revision":1370498533,"by":"importer/wikipedia/1"}

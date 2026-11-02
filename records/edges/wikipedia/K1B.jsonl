@@ -1,0 +1,24 @@
+{"from":"wikipedia://en/212115#3GQW","to":"wikipedia://en/21474","predicate":"uses","method":"link-in-item","confidence":"high","span":[4839,4858],"revision":1369012885,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/212115#3GQW","to":"wikipedia://en/15069","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4985,5006],"revision":1369012885,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/212115#3GQW","to":"wikipedia://en/14563","predicate":"uses","method":"link-in-item","confidence":"high","span":[5046,5058],"revision":1369012885,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/212115#3GQW","to":"wikipedia://en/54347","predicate":"uses","method":"link-in-item","confidence":"high","span":[5756,5774],"revision":1369012885,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/212115#3GQW","to":"wikipedia://en/20646438","predicate":"uses","method":"link-in-item","confidence":"high","span":[6029,6045],"revision":1369012885,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/212115#3GQW","to":"wikipedia://en/51426","predicate":"uses","method":"link-in-item","confidence":"high","span":[6089,6119],"revision":1369012885,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/212115#3GQW","to":"wikipedia://en/22697171","predicate":"uses","method":"link-in-item","confidence":"high","span":[6124,6163],"revision":1369012885,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#CPRZ","to":"wikipedia://en/9177825","predicate":"listed-in","method":"list","confidence":"certain","span":[30220,30238],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#CPRZ","to":"wikipedia://en/48396","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[30242,30276],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/772441","to":"wikipedia://en/22934","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[230,245],"revision":1349523249,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/772441","to":"wikipedia://en/26685","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[250,264],"revision":1349523249,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/772441","to":"wikipedia://en/23543","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[304,333],"revision":1349523249,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/772441","to":"wikipedia://en/45922","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[460,496],"revision":1349523249,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/772441","to":"wikipedia://en/45906","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[501,541],"revision":1349523249,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/772441","to":"wikipedia://en/24104134","predicate":"related","method":"link-in-text","confidence":"low","span":[5010,5037],"revision":1349523249,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/772441","to":"wikipedia://en/30876757","predicate":"related","method":"link-in-text","confidence":"low","span":[5160,5181],"revision":1349523249,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/772441","to":"wikipedia://en/21474","predicate":"related","method":"link-in-text","confidence":"low","span":[5296,5314],"revision":1349523249,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/772441","to":"wikipedia://en/19727024","predicate":"related","method":"link-in-text","confidence":"low","span":[5586,5605],"revision":1349523249,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/772441","to":"wikipedia://en/6122","predicate":"related","method":"link-in-text","confidence":"low","span":[5665,5699],"revision":1349523249,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/772441","to":"wikipedia://en/23523594","predicate":"related","method":"link-in-text","confidence":"low","span":[5725,5744],"revision":1349523249,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/772441","to":"wikipedia://en/20646438","predicate":"related","method":"link-in-text","confidence":"low","span":[5752,5780],"revision":1349523249,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/772441","to":"wikipedia://en/24104134","predicate":"related","method":"link-in-text","confidence":"low","span":[6389,6416],"revision":1349523249,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/772441","to":"Category:Theory of probability distributions","predicate":"in-field","method":"category","confidence":"medium","span":[6985,7033],"revision":1349523249,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/772441","to":"Category:Characterization of probability distributions","predicate":"in-field","method":"category","confidence":"medium","span":[7034,7092],"revision":1349523249,"by":"importer/wikipedia/1"}

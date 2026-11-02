@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/183091#3O4J","to":"wikipedia://en/486266","predicate":"listed-in","method":"list","confidence":"certain","span":[112802,112899],"revision":1376385932,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/183091#3O4J","to":"wikipedia://en/486266","predicate":"uses","method":"link-in-item","confidence":"high","span":[112904,112925],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44787301#K26D","to":"wikipedia://en/349051","predicate":"listed-in","method":"list","confidence":"certain","span":[5098,5114],"revision":1373156759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/517370#27BS","to":"wikipedia://en/8802963","predicate":"listed-in","method":"list","confidence":"certain","span":[15460,15509],"revision":1353185276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81629381","to":"wikipedia://en/377242","predicate":"related","method":"link-in-text","confidence":"low","span":[1054,1065],"revision":1372002589,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81629381","to":"wikipedia://en/528567","predicate":"related","method":"link-in-text","confidence":"low","span":[1086,1111],"revision":1372002589,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81629381","to":"wikipedia://en/25978572","predicate":"related","method":"link-in-text","confidence":"low","span":[1153,1180],"revision":1372002589,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81629381","to":"wikipedia://en/158371","predicate":"related","method":"link-in-text","confidence":"low","span":[1196,1223],"revision":1372002589,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81629381","to":"wikipedia://en/31806","predicate":"related","method":"link-in-text","confidence":"low","span":[1441,1466],"revision":1372002589,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81629381","to":"wikipedia://en/39833214","predicate":"related","method":"link-in-text","confidence":"low","span":[1950,2003],"revision":1372002589,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81629381","to":"wikipedia://en/816308","predicate":"related","method":"link-in-text","confidence":"low","span":[2008,2026],"revision":1372002589,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81629381","to":"wikipedia://en/140453","predicate":"related","method":"link-in-text","confidence":"low","span":[2258,2279],"revision":1372002589,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81629381","to":"Category:English mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3307,3342],"revision":1372002589,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81629381","to":"Category:Gay scientists","predicate":"in-field","method":"category","confidence":"medium","span":[3389,3416],"revision":1372002589,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81629381","to":"Category:LGBTQ mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3417,3450],"revision":1372002589,"by":"importer/wikipedia/1"}

@@ -1,1 +1,4 @@
-{"id":"7BTKATH517","mentions":["m2://rec/wikidata/Q139829#1"],"kind":"object","name":"gyroelongated pentagonal pyramid","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"7BT1CGTQD3","mentions":["wikipedia://en/3553599#MJJT"],"kind":"definition","name":"Derangement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7BT8T2AESY","mentions":["wikipedia://en/599970#FNT1"],"kind":"statement","name":"Cousin's lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7BTKATH517","mentions":["m2://rec/wikidata/Q139829#1","wikipedia://en/1123549"],"kind":"definition","name":"gyroelongated pentagonal pyramid","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"7BTVZHBT3H","mentions":["wikipedia://en/140829#3BM0"],"kind":"unknown","name":"Botha, Roelof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

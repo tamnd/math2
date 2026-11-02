@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/34189212#SVQE","to":"wikipedia://en/27119265","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[7213,7235],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#SVQE","to":"wikipedia://en/2042","predicate":"related","method":"link-in-item","confidence":"low","span":[7295,7321],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#SVQE","to":"wikipedia://en/248808","predicate":"uses","method":"link-in-item","confidence":"high","span":[7383,7404],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#SVQE","to":"wikipedia://en/3022906","predicate":"uses","method":"link-in-item","confidence":"high","span":[7417,7448],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#SVQE","to":"wikipedia://en/2974","predicate":"uses","method":"link-in-item","confidence":"high","span":[7505,7522],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7879246#BTRD","to":"wikipedia://en/52327","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[2079,2095],"revision":1373652935,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7879246#BTRD","to":"wikipedia://en/19447","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[2139,2168],"revision":1373652935,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7879246#BTRD","to":"wikipedia://en/3706015","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[2188,2234],"revision":1373652935,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7879246#BTRD","to":"wikipedia://en/12781","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[2283,2307],"revision":1373652935,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7879246#BTRD","to":"wikipedia://en/12781","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[2582,2628],"revision":1373652935,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7879246#BTRD","to":"wikipedia://en/12781","predicate":"uses","method":"named-link","confidence":"high","span":[2637,2705],"revision":1373652935,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7879246#BTRD","to":"wikipedia://en/449738","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[2845,2917],"revision":1373652935,"by":"importer/wikipedia/1"}

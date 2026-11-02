@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/20178324#RX71","to":"wikipedia://en/387878","predicate":"listed-in","method":"list","confidence":"certain","span":[899,931],"revision":1343567721,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39482883","to":"wikipedia://en/384430","predicate":"related","method":"link-in-lead","confidence":"low","span":[59,77],"revision":1270943474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39482883","to":"wikipedia://en/64743403","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[471,496],"revision":1270943474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39482883","to":"Category:Lists of things named after mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[674,735],"revision":1270943474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565351#SG8Q","to":"wikipedia://en/24543931","predicate":"listed-in","method":"list","confidence":"certain","span":[36571,36600],"revision":1373350261,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#A5NO","to":"wikipedia://en/50489556","predicate":"listed-in","method":"list","confidence":"certain","span":[95590,95607],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51052678","to":"wikipedia://en/3878","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1942,1959],"revision":1372320117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51052678","to":"wikipedia://en/9284105","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1967,2018],"revision":1372320117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51052678","to":"wikipedia://en/1557623","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2188,2231],"revision":1372320117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51052678","to":"wikipedia://en/234714","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2233,2252],"revision":1372320117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51052678","to":"wikipedia://en/58920","predicate":"related","method":"link-in-text","confidence":"low","span":[2381,2419],"revision":1372320117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51052678","to":"wikipedia://en/7954422","predicate":"related","method":"link-in-text","confidence":"low","span":[2592,2614],"revision":1372320117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51052678","to":"wikipedia://en/37543546","predicate":"related","method":"link-in-text","confidence":"low","span":[2649,2667],"revision":1372320117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51052678","to":"wikipedia://en/416813","predicate":"related","method":"link-in-text","confidence":"low","span":[2928,2955],"revision":1372320117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51052678","to":"wikipedia://en/381889","predicate":"related","method":"link-in-text","confidence":"low","span":[3717,3727],"revision":1372320117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51052678","to":"wikipedia://en/341988","predicate":"related","method":"link-in-text","confidence":"low","span":[3735,3771],"revision":1372320117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51052678","to":"Category:American women statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[4688,4729],"revision":1372320117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51052678","to":"Category:Biostatisticians","predicate":"in-field","method":"category","confidence":"medium","span":[4730,4759],"revision":1372320117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73545085#9TX3","to":"wikipedia://en/1335","predicate":"uses","method":"link-in-item","confidence":"high","span":[3574,3605],"revision":1370306966,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73545085#9TX3","to":"wikipedia://en/61338","predicate":"uses","method":"link-in-item","confidence":"high","span":[3837,3853],"revision":1370306966,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73545085#9TX3","to":"wikipedia://en/61338","predicate":"uses","method":"link-in-item","confidence":"high","span":[3872,3890],"revision":1370306966,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73545085#9TX3","to":"wikipedia://en/20845","predicate":"uses","method":"link-in-item","confidence":"high","span":[3935,3961],"revision":1370306966,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73545085#9TX3","to":"wikipedia://en/20845","predicate":"uses","method":"link-in-item","confidence":"high","span":[3980,4006],"revision":1370306966,"by":"importer/wikipedia/1"}

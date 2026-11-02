@@ -1,2 +1,6 @@
 {"id":"MSM3JZGJD1","mentions":["ax://paper/2312.05005#RUNJ"],"kind":"definition","name":"Subtree","msc":["55-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.0"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.0"}]}
+{"id":"MSM40B7W1T","mentions":["wikipedia://en/3575201#R4F4"],"kind":"statement","name":"Liar paradox","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"MSMHEQASCC","mentions":["wikipedia://en/465001"],"kind":"definition","name":"700","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"MSMHRW0B9T","mentions":["wikipedia://en/8257136"],"kind":"definition","name":"Bulverism","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"MSMJJM3BNE","mentions":["wikipedia://en/552466"],"kind":"definition","name":"System identification","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MSMWYJ0CRD","mentions":["m2://rec/wikidata/Q18048474#1"],"kind":"unknown","name":"octahemioctacron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

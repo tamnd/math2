@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/22468313","to":"wikipedia://en/18716923","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[39,50],"revision":1187867922,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22468313","to":"wikipedia://en/17944","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[78,93],"revision":1187867922,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22468313","to":"wikipedia://en/17944","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[109,138],"revision":1187867922,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22468313","to":"wikipedia://en/6389159","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[306,325],"revision":1187867922,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22468313","to":"wikipedia://en/11484689","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[420,456],"revision":1187867922,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22468313","to":"wikipedia://en/863720","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[598,633],"revision":1187867922,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22468313","to":"wikipedia://en/138215","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[715,739],"revision":1187867922,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22468313","to":"wikipedia://en/2774198","predicate":"related","method":"link-in-lead","confidence":"low","span":[1025,1047],"revision":1187867922,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22468313","to":"wikipedia://en/2774198","predicate":"related","method":"see-also","confidence":"low","span":[1290,1312],"revision":1187867922,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22468313","to":"wikipedia://en/289636","predicate":"related","method":"see-also","confidence":"low","span":[1315,1339],"revision":1187867922,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22468313","to":"Category:Lie algebras","predicate":"in-field","method":"category","confidence":"medium","span":[1700,1725],"revision":1187867922,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80475043","to":"wikipedia://en/30977","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[476,500],"revision":1308960033,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80475043","to":"wikipedia://en/251513","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[517,543],"revision":1308960033,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80475043","to":"wikipedia://en/34532","predicate":"related","method":"link-in-lead","confidence":"low","span":[599,617],"revision":1308960033,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80475043","to":"wikipedia://en/400092","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[622,647],"revision":1308960033,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80475043","to":"wikipedia://en/34513","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[690,699],"revision":1308960033,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80475043","to":"wikipedia://en/25809","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[707,732],"revision":1308960033,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80475043","to":"wikipedia://en/398540","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[744,762],"revision":1308960033,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80475043","to":"wikipedia://en/23666","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[794,811],"revision":1308960033,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80475043","to":"wikipedia://en/21442284","predicate":"related","method":"link-in-lead","confidence":"low","span":[1799,1817],"revision":1308960033,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80475043","to":"Category:Analytic number theory","predicate":"in-field","method":"category","confidence":"medium","span":[7567,7602],"revision":1308960033,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80475043","to":"Category:Theorems in analytic number theory","predicate":"kind-of","method":"category","confidence":"medium","span":[7603,7650],"revision":1308960033,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80475043","to":"Category:Zeta and L-functions","predicate":"in-field","method":"category","confidence":"medium","span":[7651,7684],"revision":1308960033,"by":"importer/wikipedia/1"}

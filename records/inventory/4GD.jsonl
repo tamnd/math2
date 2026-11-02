@@ -1,1 +1,5 @@
-{"id":"4GDDB3E4J3","mentions":["m2://rec/wikidata/Q1307872#1"],"kind":"unknown","name":"unit type","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4GDCD42P0A","mentions":["wikipedia://en/191457#1F2K"],"kind":"definition","name":"L-moment","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4GDDB3E4J3","mentions":["m2://rec/wikidata/Q1307872#1","wikipedia://en/3646268"],"kind":"definition","name":"unit type","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4GDFBP0C8Q","mentions":["wikipedia://en/66819#XIAT"],"kind":"unknown","name":"Root-Mean-Square Current","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4GDSA5MTZT","mentions":["wikipedia://en/9181701#73WW"],"kind":"statement","name":"McDiarmid's Inequality (Sub-Gaussian norm)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4GDZ1SH924","mentions":["wikipedia://en/140829#5EVI"],"kind":"topic","name":"Desrosières, Alain","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

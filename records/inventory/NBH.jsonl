@@ -1,3 +1,9 @@
 {"id":"NBH0XPF3FQ","mentions":["m2://rec/napkin/tex/diffgeo/manifolds.tex#definition-4#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"NBHCDK5Z5V","mentions":["wikipedia://en/411492#1YH9"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NBHF8TVGAK","mentions":["wikipedia://en/176356"],"kind":"topic","name":"Urbain Le Verrier","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NBHGACSZZ6","mentions":["wikipedia://en/53071247"],"kind":"topic","name":"Robert E. Valett","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NBHHYSJ5ET","mentions":["ax://paper/2609.29196#UA7R"],"kind":"statement","msc":["35-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}],"proofs":["ax://paper/2609.29196#TYFJ"]}
+{"id":"NBHQZ6T5N6","mentions":["wikipedia://en/205069#XB58"],"kind":"topic","name":"Kiyoshi Itô","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NBHVMYX3Z8","mentions":["m2://rec/levin_dmoi/ptx/sec_addtops-numbth.ptx#example-5#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"NBHVW7HYRT","mentions":["wikipedia://en/4145667#E1O4"],"kind":"unknown","name":"Data point","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NBHYFXFBCD","mentions":["wikipedia://en/439710#Q1O8"],"kind":"unknown","name":"TI-83 Plus Silver Edition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

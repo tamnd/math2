@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/17395276#9H2Z","to":"wikipedia://en/53695856","predicate":"uses","method":"link-in-item","confidence":"high","span":[20153,20199],"revision":1342211116,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17395276#9H2Z","to":"wikipedia://en/64278078","predicate":"uses","method":"link-in-item","confidence":"high","span":[20200,20260],"revision":1342211116,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17395276#9H2Z","to":"wikipedia://en/17395276#BTJ4","predicate":"uses","method":"anchor","confidence":"certain","span":[20285,20317],"revision":1342211116,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64958837","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[34,49],"revision":1292256007,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64958837","to":"wikipedia://en/668934","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[87,111],"revision":1292256007,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64958837","to":"wikipedia://en/1348079","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[125,164],"revision":1292256007,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64958837","to":"wikipedia://en/20598932","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[184,202],"revision":1292256007,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64958837","to":"wikipedia://en/7184","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[276,291],"revision":1292256007,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64958837","to":"wikipedia://en/46697691","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[358,379],"revision":1292256007,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64958837","to":"wikipedia://en/64956453","predicate":"related","method":"see-also","confidence":"low","span":[5851,5875],"revision":1292256007,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64958837","to":"wikipedia://en/20556859","predicate":"related","method":"see-also","confidence":"low","span":[5905,5924],"revision":1292256007,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64958837","to":"wikipedia://en/325802","predicate":"related","method":"see-also","confidence":"low","span":[5927,5945],"revision":1292256007,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64958837","to":"Category:C*-algebras","predicate":"in-field","method":"category","confidence":"medium","span":[5970,5994],"revision":1292256007,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64958837","to":"Category:Graph theory","predicate":"in-field","method":"category","confidence":"medium","span":[5995,6020],"revision":1292256007,"by":"importer/wikipedia/1"}

@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/25927988","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[559,571],"revision":1142115785,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25927988","to":"wikipedia://en/1851","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[644,658],"revision":1142115785,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25927988","to":"wikipedia://en/313303","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[700,716],"revision":1142115785,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25927988","to":"wikipedia://en/19546742","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[740,773],"revision":1142115785,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25927988","to":"wikipedia://en/11064788","predicate":"related","method":"see-also","confidence":"low","span":[793,825],"revision":1142115785,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25927988","to":"Category:Prismatoid polyhedra","predicate":"in-field","method":"category","confidence":"medium","span":[1002,1035],"revision":1142115785,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26248766#6FPA","to":"wikipedia://en/43514143","predicate":"listed-in","method":"list","confidence":"certain","span":[14838,14872],"revision":1349235543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3096183#A0CP","to":"wikipedia://en/853783","predicate":"listed-in","method":"list","confidence":"certain","span":[2241,2278],"revision":1367108774,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3096183#A0CP","to":"wikipedia://en/853783","predicate":"uses","method":"link-in-item","confidence":"high","span":[2280,2314],"revision":1367108774,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3096183#A0CP","to":"wikipedia://en/23963758","predicate":"uses","method":"link-in-item","confidence":"high","span":[2326,2355],"revision":1367108774,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3096183#A0CP","to":"wikipedia://en/23963758","predicate":"uses","method":"link-in-item","confidence":"high","span":[2357,2383],"revision":1367108774,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4402359#74M8","to":"wikipedia://en/193059","predicate":"uses","method":"link-in-item","confidence":"high","span":[2824,2841],"revision":1373254146,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4402359#74M8","to":"wikipedia://en/411231","predicate":"uses","method":"link-in-item","confidence":"high","span":[2935,2949],"revision":1373254146,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4402359#74M8","to":"wikipedia://en/173977","predicate":"uses","method":"link-in-item","confidence":"high","span":[2954,2974],"revision":1373254146,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4402359#74M8","to":"wikipedia://en/2644621","predicate":"uses","method":"link-in-item","confidence":"high","span":[3027,3038],"revision":1373254146,"by":"importer/wikipedia/1"}

@@ -1,1 +1,5 @@
+{"id":"RX226ZHJCM","mentions":["wikipedia://en/164040#IZSD"],"kind":"statement","name":"Chemical formulas","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"RX238VR8PT","mentions":["wikipedia://en/98748#FH23"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RX2HAFK372","mentions":["ax://paper/2610.15217#CKBG"],"kind":"statement","msc":["03-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
+{"id":"RX2QA69QBY","mentions":["wikipedia://en/73957940"],"kind":"topic","name":"Joel Kleinman","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"RX2ZFCZRBR","mentions":["wikipedia://en/40644951"],"kind":"statement","name":"Bishop–Phelps theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

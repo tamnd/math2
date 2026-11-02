@@ -1,0 +1,34 @@
+{"from":"wikipedia://en/1707754#2BDK","to":"wikipedia://en/18757567","predicate":"listed-in","method":"list","confidence":"certain","span":[3361,3385],"revision":1369584638,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17410813","to":"wikipedia://en/241717","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[58,77],"revision":1325858495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17410813","to":"wikipedia://en/4857593","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[82,128],"revision":1325858495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17410813","to":"wikipedia://en/5080402","predicate":"restates","method":"hatnote","confidence":"high","span":[1708,1735],"revision":1325858495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17410813","to":"wikipedia://en/163180","predicate":"related","method":"link-in-text","confidence":"low","span":[1738,1796],"revision":1325858495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17410813","to":"wikipedia://en/5080402","predicate":"related","method":"link-in-text","confidence":"low","span":[1813,1863],"revision":1325858495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17410813","to":"wikipedia://en/184099","predicate":"related","method":"link-in-text","confidence":"low","span":[1953,1979],"revision":1325858495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17410813","to":"wikipedia://en/4116856","predicate":"related","method":"link-in-text","confidence":"low","span":[3225,3258],"revision":1325858495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17410813","to":"wikipedia://en/9190286","predicate":"related","method":"link-in-text","confidence":"low","span":[3453,3489],"revision":1325858495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17410813","to":"wikipedia://en/7859676","predicate":"restates","method":"hatnote","confidence":"high","span":[4578,4590],"revision":1325858495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17410813","to":"wikipedia://en/1309220","predicate":"restates","method":"hatnote","confidence":"high","span":[7615,7634],"revision":1325858495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17410813","to":"wikipedia://en/5657877","predicate":"related","method":"link-in-text","confidence":"low","span":[7732,7748],"revision":1325858495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17410813","to":"wikipedia://en/6885770","predicate":"related","method":"link-in-text","confidence":"low","span":[7959,7999],"revision":1325858495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17410813","to":"wikipedia://en/16794199","predicate":"related","method":"link-in-text","confidence":"low","span":[8004,8039],"revision":1325858495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17410813","to":"wikipedia://en/7859676","predicate":"related","method":"link-in-text","confidence":"low","span":[8098,8132],"revision":1325858495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17410813","to":"wikipedia://en/16794199","predicate":"related","method":"link-in-text","confidence":"low","span":[8137,8176],"revision":1325858495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17410813","to":"wikipedia://en/620083","predicate":"related","method":"link-in-text","confidence":"low","span":[8551,8587],"revision":1325858495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17410813","to":"wikipedia://en/2885691","predicate":"related","method":"link-in-text","confidence":"low","span":[8784,8812],"revision":1325858495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17410813","to":"wikipedia://en/1616138","predicate":"related","method":"link-in-text","confidence":"low","span":[8991,9154],"revision":1325858495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17410813","to":"wikipedia://en/24533109","predicate":"related","method":"link-in-text","confidence":"low","span":[10084,10096],"revision":1325858495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17410813","to":"Category:Clinical trials","predicate":"in-field","method":"category","confidence":"medium","span":[12273,12301],"revision":1325858495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17410813","to":"Category:Clinical research","predicate":"in-field","method":"category","confidence":"medium","span":[12302,12332],"revision":1325858495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2045451","to":"wikipedia://en/23087738","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[151,172],"revision":1338382546,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2045451","to":"wikipedia://en/2422061","predicate":"related","method":"link-in-lead","confidence":"low","span":[219,236],"revision":1338382546,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2045451","to":"wikipedia://en/70671","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[339,367],"revision":1338382546,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2045451","to":"wikipedia://en/276582","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[376,392],"revision":1338382546,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2045451","to":"wikipedia://en/1686520","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[451,492],"revision":1338382546,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2045451","to":"wikipedia://en/2422061","predicate":"related","method":"see-also","confidence":"low","span":[509,526],"revision":1338382546,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2045451","to":"wikipedia://en/312877","predicate":"related","method":"see-also","confidence":"low","span":[528,550],"revision":1338382546,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2045451","to":"wikipedia://en/2045417","predicate":"related","method":"see-also","confidence":"low","span":[552,577],"revision":1338382546,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2045451","to":"Category:Linear algebra","predicate":"in-field","method":"category","confidence":"medium","span":[1206,1233],"revision":1338382546,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2045451","to":"Category:Tensors","predicate":"in-field","method":"category","confidence":"medium","span":[1234,1254],"revision":1338382546,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2045451","to":"Category:Tensors in general relativity","predicate":"in-field","method":"category","confidence":"medium","span":[1255,1297],"revision":1338382546,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3820870#3EG2","to":"wikipedia://en/15531","predicate":"listed-in","method":"list","confidence":"certain","span":[30804,30819],"revision":1373538872,"by":"importer/wikipedia/1"}

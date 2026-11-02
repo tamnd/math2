@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/19368992","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[150,166],"revision":1361744829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19368992","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[179,204],"revision":1361744829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19368992","to":"wikipedia://en/84692","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[249,281],"revision":1361744829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19368992","to":"wikipedia://en/22989","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[285,294],"revision":1361744829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19368992","to":"wikipedia://en/29952","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[326,344],"revision":1361744829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19368992","to":"wikipedia://en/9945920","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[852,880],"revision":1361744829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19368992","to":"wikipedia://en/395934","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[886,916],"revision":1361744829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19368992","to":"wikipedia://en/20842828","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[988,1024],"revision":1361744829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19368992","to":"Category:19th-century French mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1609,1656],"revision":1361744829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19368992","to":"Category:Academic staff of the University of Paris","predicate":"in-field","method":"category","confidence":"medium","span":[1707,1761],"revision":1361744829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19368992","to":"Category:French mathematical analysts","predicate":"in-field","method":"category","confidence":"medium","span":[1762,1803],"revision":1361744829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19368992","to":"Category:Thermodynamicists","predicate":"in-field","method":"category","confidence":"medium","span":[1804,1834],"revision":1361744829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19397596#6TFM","to":"wikipedia://en/293418","predicate":"listed-in","method":"list","confidence":"certain","span":[847,874],"revision":1356076741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67038444#9JMM","to":"wikipedia://en/9809292","predicate":"uses","method":"link-in-item","confidence":"high","span":[4010,4025],"revision":1252296920,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78006491#TFSW","to":"wikipedia://en/2031353","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6304,6329],"revision":1346176982,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78006491#TFSW","to":"wikipedia://en/69832745","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7246,7284],"revision":1346176982,"by":"importer/wikipedia/1"}

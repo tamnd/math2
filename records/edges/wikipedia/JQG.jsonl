@@ -1,0 +1,66 @@
+{"from":"wikipedia://en/19410107","to":"wikipedia://en/37585","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[146,156],"revision":1254513540,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19410107","to":"wikipedia://en/89061","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[267,289],"revision":1254513540,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19410107","to":"wikipedia://en/23541073","predicate":"related","method":"link-in-lead","confidence":"low","span":[349,367],"revision":1254513540,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19410107","to":"wikipedia://en/432897","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[411,435],"revision":1254513540,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19410107","to":"wikipedia://en/28743","predicate":"related","method":"link-in-text","confidence":"low","span":[949,964],"revision":1254513540,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19410107","to":"wikipedia://en/32823","predicate":"related","method":"link-in-text","confidence":"low","span":[1486,1494],"revision":1254513540,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19410107","to":"wikipedia://en/15745","predicate":"related","method":"link-in-text","confidence":"low","span":[1552,1574],"revision":1254513540,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19410107","to":"Template:Commons category","predicate":"in-nav","method":"nav","confidence":"low","span":[1680,1710],"revision":1254513540,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19410107","to":"Template:Official website","predicate":"in-nav","method":"nav","confidence":"low","span":[1713,1758],"revision":1254513540,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19410107","to":"Category:Museums in Bonn","predicate":"in-field","method":"category","confidence":"medium","span":[1983,2011],"revision":1254513540,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19410107","to":"Category:History of mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[2012,2047],"revision":1254513540,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19410107","to":"Category:Science museums in Germany","predicate":"in-field","method":"category","confidence":"medium","span":[2048,2087],"revision":1254513540,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19410107","to":"Category:Mathematics museums","predicate":"in-field","method":"category","confidence":"medium","span":[2088,2120],"revision":1254513540,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/239140#HQKE","to":"wikipedia://en/2580999","predicate":"uses","method":"link-in-item","confidence":"medium","span":[11378,11400],"revision":1368202324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/239140#HQKE","to":"wikipedia://en/20000400","predicate":"uses","method":"link-in-item","confidence":"medium","span":[11722,11741],"revision":1368202324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/239140#HQKE","to":"wikipedia://en/2846373","predicate":"uses","method":"link-in-item","confidence":"high","span":[12169,12192],"revision":1368202324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/239140#HQKE","to":"wikipedia://en/794350","predicate":"uses","method":"link-in-item","confidence":"high","span":[12642,12665],"revision":1368202324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/325802#9CC3","to":"wikipedia://en/524466","predicate":"uses","method":"link-in-item","confidence":"high","span":[72056,72074],"revision":1373839425,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/363325#4KDJ","to":"wikipedia://en/53759","predicate":"uses","method":"link-in-item","confidence":"high","span":[2219,2254],"revision":1365437233,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/363325#4KDJ","to":"wikipedia://en/1160","predicate":"uses","method":"link-in-item","confidence":"high","span":[2305,2322],"revision":1365437233,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/363325#4KDJ","to":"wikipedia://en/8564","predicate":"uses","method":"link-in-item","confidence":"high","span":[2541,2560],"revision":1365437233,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/363325#4KDJ","to":"wikipedia://en/13564","predicate":"uses","method":"link-in-item","confidence":"high","span":[2723,2739],"revision":1365437233,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/363325#4KDJ","to":"wikipedia://en/1160","predicate":"uses","method":"link-in-item","confidence":"high","span":[2816,2833],"revision":1365437233,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36886801","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[180,195],"revision":1256250297,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36886801","to":"wikipedia://en/244321","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[248,259],"revision":1256250297,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36886801","to":"wikipedia://en/37165960","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[304,354],"revision":1256250297,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36886801","to":"wikipedia://en/10603","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[364,393],"revision":1256250297,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36886801","to":"Category:Matroid theory","predicate":"in-field","method":"category","confidence":"medium","span":[8586,8613],"revision":1256250297,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/408108#XRI4","to":"wikipedia://en/667479","predicate":"listed-in","method":"list","confidence":"certain","span":[9924,9943],"revision":1356076850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4664#4G4R","to":"wikipedia://en/340136","predicate":"uses","method":"link-in-item","confidence":"high","span":[14284,14336],"revision":1373738752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4664#4G4R","to":"wikipedia://en/4668","predicate":"uses","method":"link-in-item","confidence":"high","span":[14447,14471],"revision":1373738752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4664#4G4R","to":"wikipedia://en/23621","predicate":"uses","method":"link-in-item","confidence":"high","span":[14665,14676],"revision":1373738752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4664#4G4R","to":"wikipedia://en/946975","predicate":"uses","method":"link-in-item","confidence":"high","span":[14722,14750],"revision":1373738752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4664#4G4R","to":"wikipedia://en/40634","predicate":"uses","method":"link-in-item","confidence":"high","span":[14894,14909],"revision":1373738752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/1900474","predicate":"uses","method":"link-in-item","confidence":"medium","span":[30370,30419],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/176526","predicate":"uses","method":"link-in-item","confidence":"medium","span":[30757,30776],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/165741","predicate":"uses","method":"link-in-item","confidence":"medium","span":[30896,30932],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/24915","predicate":"uses","method":"link-in-item","confidence":"medium","span":[31023,31049],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/39075428","predicate":"uses","method":"link-in-item","confidence":"medium","span":[31347,31367],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/1455531","predicate":"uses","method":"link-in-item","confidence":"medium","span":[32069,32085],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/513237","predicate":"uses","method":"link-in-item","confidence":"medium","span":[32124,32152],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/160340","predicate":"uses","method":"link-in-item","confidence":"medium","span":[32311,32362],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/43491060","predicate":"uses","method":"link-in-item","confidence":"medium","span":[32893,32919],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/17713862","predicate":"uses","method":"link-in-item","confidence":"medium","span":[32924,32954],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/871470","predicate":"uses","method":"link-in-item","confidence":"medium","span":[32979,33027],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/386811","predicate":"uses","method":"link-in-item","confidence":"medium","span":[33071,33107],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/68732438","predicate":"related","method":"link-in-item","confidence":"low","span":[34497,34534],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/154675","predicate":"uses","method":"link-in-item","confidence":"medium","span":[36220,36257],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/7098800","predicate":"uses","method":"link-in-item","confidence":"medium","span":[36263,36336],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/12984404","predicate":"uses","method":"link-in-item","confidence":"medium","span":[36490,36534],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/2752238","predicate":"uses","method":"link-in-item","confidence":"medium","span":[36536,36583],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/21027","predicate":"uses","method":"link-in-item","confidence":"medium","span":[36585,36621],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/3412836","predicate":"uses","method":"link-in-item","confidence":"medium","span":[36830,36887],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/530786","predicate":"uses","method":"link-in-item","confidence":"high","span":[37498,37510],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/60027","predicate":"uses","method":"link-in-item","confidence":"medium","span":[39375,39397],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/1595281","predicate":"uses","method":"link-in-item","confidence":"medium","span":[39420,39443],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/145415","predicate":"uses","method":"link-in-item","confidence":"medium","span":[40734,40767],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/1787172","predicate":"uses","method":"link-in-item","confidence":"medium","span":[41145,41175],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/42968845","predicate":"uses","method":"link-in-item","confidence":"medium","span":[42024,42039],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/59684573","predicate":"uses","method":"link-in-item","confidence":"medium","span":[42583,42603],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/60751109","predicate":"uses","method":"link-in-item","confidence":"medium","span":[43140,43162],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/17696168","predicate":"uses","method":"link-in-item","confidence":"medium","span":[43677,43715],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/72726065","predicate":"uses","method":"link-in-item","confidence":"medium","span":[45286,45305],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/78172787","predicate":"uses","method":"link-in-item","confidence":"medium","span":[45840,45859],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/15281788","predicate":"uses","method":"link-in-item","confidence":"medium","span":[46631,46682],"revision":1362628474,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48877#LVQU","to":"wikipedia://en/16772","predicate":"uses","method":"link-in-item","confidence":"medium","span":[47260,47274],"revision":1362628474,"by":"importer/wikipedia/1"}

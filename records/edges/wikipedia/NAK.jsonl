@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/1102297#WATF","to":"wikipedia://en/14856","predicate":"uses","method":"link-in-item","confidence":"high","span":[10806,10830],"revision":1373701535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1102297#WATF","to":"wikipedia://en/10603","predicate":"uses","method":"link-in-item","confidence":"high","span":[10840,10869],"revision":1373701535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1102297#WATF","to":"wikipedia://en/20646438","predicate":"uses","method":"link-in-item","confidence":"high","span":[10873,10889],"revision":1373701535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1102297#WATF","to":"wikipedia://en/157093","predicate":"uses","method":"link-in-item","confidence":"high","span":[10903,10918],"revision":1373701535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1102297#WATF","to":"wikipedia://en/32533","predicate":"uses","method":"link-in-item","confidence":"high","span":[10922,10943],"revision":1373701535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1102297#WATF","to":"wikipedia://en/21538","predicate":"uses","method":"link-in-item","confidence":"high","span":[11174,11203],"revision":1373701535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1102297#WATF","to":"wikipedia://en/2202","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[11270,11304],"revision":1373701535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1102297#WATF","to":"wikipedia://en/183884","predicate":"uses","method":"link-in-item","confidence":"high","span":[11338,11349],"revision":1373701535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1102297#WATF","to":"wikipedia://en/76956","predicate":"uses","method":"link-in-item","confidence":"high","span":[11354,11383],"revision":1373701535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1102297#WATF","to":"wikipedia://en/4677","predicate":"uses","method":"link-in-item","confidence":"medium","span":[12344,12383],"revision":1373701535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1102297#WATF","to":"wikipedia://en/4668","predicate":"uses","method":"link-in-item","confidence":"high","span":[12449,12474],"revision":1373701535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1158496#WJKE","to":"wikipedia://en/8062192","predicate":"listed-in","method":"list","confidence":"certain","span":[1218,1241],"revision":1375407000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26194315","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1375477876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26194315","to":"wikipedia://en/454325","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[60,93],"revision":1375477876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26194315","to":"wikipedia://en/366136","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[245,264],"revision":1375477876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26194315","to":"wikipedia://en/2096465","predicate":"related","method":"link-in-lead","confidence":"low","span":[309,323],"revision":1375477876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26194315","to":"wikipedia://en/25350","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[409,426],"revision":1375477876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26194315","to":"wikipedia://en/26194441","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[475,489],"revision":1375477876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26194315","to":"wikipedia://en/405512","predicate":"related","method":"see-also","confidence":"low","span":[3862,3890],"revision":1375477876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26194315","to":"Category:Harmonic analysis","predicate":"in-field","method":"category","confidence":"medium","span":[4037,4067],"revision":1375477876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26194315","to":"Category:Diophantine approximation","predicate":"in-field","method":"category","confidence":"medium","span":[4068,4106],"revision":1375477876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26194315","to":"Category:Tessellation","predicate":"in-field","method":"category","confidence":"medium","span":[4107,4132],"revision":1375477876,"by":"importer/wikipedia/1"}

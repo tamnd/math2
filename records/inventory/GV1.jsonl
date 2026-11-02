@@ -1,1 +1,4 @@
-{"id":"GV1R03RRX3","mentions":["m2://rec/wikidata/Q932001#1"],"kind":"unknown","name":"Kepler's equation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"GV17Q7P7WR","mentions":["wikipedia://en/61981400"],"kind":"topic","name":"Luis Vega","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"GV1KCAFTT0","mentions":["wikipedia://en/33900798#QF7P"],"kind":"definition","name":"circumference","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"GV1R03RRX3","mentions":["m2://rec/wikidata/Q932001#1","wikipedia://en/32172638"],"kind":"definition","name":"Kepler's equation","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"GV1V1EBWDB","mentions":["wikipedia://en/587645#6QIS"],"kind":"statement","name":"Min-max theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

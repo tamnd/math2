@@ -1,0 +1,32 @@
+{"from":"wikipedia://en/57258626","to":"wikipedia://en/1997","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[137,159],"revision":1358781651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57258626","to":"wikipedia://en/248808","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[219,240],"revision":1358781651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57258626","to":"wikipedia://en/27873","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[267,281],"revision":1358781651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57258626","to":"wikipedia://en/6603892","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[300,330],"revision":1358781651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57258626","to":"wikipedia://en/320468","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[339,357],"revision":1358781651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57258626","to":"wikipedia://en/212250","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[406,450],"revision":1358781651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57258626","to":"wikipedia://en/276524","predicate":"related","method":"link-in-text","confidence":"low","span":[839,856],"revision":1358781651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57258626","to":"wikipedia://en/298834","predicate":"related","method":"link-in-text","confidence":"low","span":[1018,1034],"revision":1358781651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57258626","to":"wikipedia://en/14972","predicate":"related","method":"link-in-text","confidence":"low","span":[1395,1409],"revision":1358781651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57258626","to":"wikipedia://en/138215","predicate":"related","method":"link-in-text","confidence":"low","span":[1723,1741],"revision":1358781651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57258626","to":"wikipedia://en/279715","predicate":"related","method":"link-in-text","confidence":"low","span":[1986,1998],"revision":1358781651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57258626","to":"wikipedia://en/1623986","predicate":"related","method":"link-in-text","confidence":"low","span":[2273,2293],"revision":1358781651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57258626","to":"wikipedia://en/242135","predicate":"related","method":"link-in-text","confidence":"low","span":[2304,2324],"revision":1358781651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57258626","to":"wikipedia://en/62736148","predicate":"related","method":"link-in-text","confidence":"low","span":[3297,3313],"revision":1358781651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57258626","to":"wikipedia://en/2783891","predicate":"related","method":"link-in-text","confidence":"low","span":[3612,3633],"revision":1358781651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57258626","to":"wikipedia://en/59538","predicate":"related","method":"link-in-text","confidence":"low","span":[4328,4344],"revision":1358781651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57258626","to":"Category:Algebraic geometry","predicate":"in-field","method":"category","confidence":"medium","span":[6325,6356],"revision":1358781651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57258626","to":"Category:Algebraic varieties","predicate":"in-field","method":"category","confidence":"medium","span":[6357,6389],"revision":1358781651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57258626","to":"Category:Basic concepts in set theory","predicate":"in-field","method":"category","confidence":"medium","span":[6390,6431],"revision":1358781651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57258626","to":"Category:Functions and mappings","predicate":"in-field","method":"category","confidence":"medium","span":[6432,6467],"revision":1358781651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57258626","to":"Category:Mathematical relations","predicate":"in-field","method":"category","confidence":"medium","span":[6468,6503],"revision":1358781651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57258626","to":"Category:Mathematical theorems","predicate":"in-field","method":"category","confidence":"medium","span":[6504,6538],"revision":1358781651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57258626","to":"Category:Types of functions","predicate":"kind-of","method":"category","confidence":"medium","span":[6539,6570],"revision":1358781651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79733619","to":"wikipedia://en/6987997","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[123,214],"revision":1307064754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79733619","to":"wikipedia://en/52489082","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[234,271],"revision":1307064754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79733619","to":"wikipedia://en/67135","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[299,312],"revision":1307064754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79733619","to":"wikipedia://en/2281470","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[359,402],"revision":1307064754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79733619","to":"wikipedia://en/16231686","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[470,495],"revision":1307064754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79733619","to":"Category:Russian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1184,1219],"revision":1307064754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79733619","to":"Category:Russian women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1220,1261],"revision":1307064754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79733619","to":"Category:20th-century women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1262,1308],"revision":1307064754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79733619","to":"Category:21st-century women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1309,1355],"revision":1307064754,"by":"importer/wikipedia/1"}

@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/25334192#V1DQ","to":"wikipedia://en/2291739","predicate":"uses","method":"link-in-item","confidence":"high","span":[8478,8498],"revision":1350455074,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26649339#NH9M","to":"wikipedia://en/376707","predicate":"uses","method":"link-in-item","confidence":"high","span":[25789,25819],"revision":1373672597,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3106440","to":"wikipedia://en/154665","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[389,399],"revision":1355401046,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3106440","to":"wikipedia://en/18963754","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[405,426],"revision":1355401046,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3106440","to":"wikipedia://en/262149","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[468,501],"revision":1355401046,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3106440","to":"wikipedia://en/58320","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[565,642],"revision":1355401046,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3106440","to":"wikipedia://en/753962","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1568,1621],"revision":1355401046,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3106440","to":"wikipedia://en/65927","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1778,1798],"revision":1355401046,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3106440","to":"wikipedia://en/166010","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1903,1916],"revision":1355401046,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3106440","to":"wikipedia://en/41573644","predicate":"related","method":"see-also","confidence":"low","span":[2487,2505],"revision":1355401046,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3106440","to":"wikipedia://en/3139954","predicate":"related","method":"see-also","confidence":"low","span":[2508,2536],"revision":1355401046,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3106440","to":"wikipedia://en/3139692","predicate":"related","method":"see-also","confidence":"low","span":[2628,2651],"revision":1355401046,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3106440","to":"Category:Equations of fluid dynamics","predicate":"kind-of","method":"category","confidence":"medium","span":[2994,3034],"revision":1355401046,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3106440","to":"Category:Vortices","predicate":"in-field","method":"category","confidence":"medium","span":[3035,3056],"revision":1355401046,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#5T3G","to":"wikipedia://en/681895","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[59867,59887],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#5T3G","to":"wikipedia://en/22939","predicate":"generalizes","method":"link-in-item","confidence":"medium","span":[59961,59981],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#5T3G","to":"wikipedia://en/25202","predicate":"uses","method":"link-in-item","confidence":"high","span":[59995,60014],"revision":1371281804,"by":"importer/wikipedia/1"}

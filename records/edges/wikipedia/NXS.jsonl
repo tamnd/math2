@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/22386332","to":"wikipedia://en/11659","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[157,177],"revision":1351138472,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22386332","to":"wikipedia://en/59038","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[200,218],"revision":1351138472,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22386332","to":"wikipedia://en/454315","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[477,499],"revision":1351138472,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22386332","to":"wikipedia://en/967440","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[540,564],"revision":1351138472,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22386332","to":"wikipedia://en/1073133","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[591,607],"revision":1351138472,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22386332","to":"wikipedia://en/52247","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[737,758],"revision":1351138472,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22386332","to":"wikipedia://en/45194","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1891,1941],"revision":1351138472,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22386332","to":"wikipedia://en/26064288","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1946,1970],"revision":1351138472,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22386332","to":"wikipedia://en/51698","predicate":"related","method":"link-in-text","confidence":"low","span":[2337,2366],"revision":1351138472,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22386332","to":"wikipedia://en/51698","predicate":"related","method":"link-in-text","confidence":"low","span":[2430,2459],"revision":1351138472,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22386332","to":"Category:Fourier analysis","predicate":"in-field","method":"category","confidence":"medium","span":[13032,13061],"revision":1351138472,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22386332","to":"Category:Inequalities (mathematics)","predicate":"kind-of","method":"category","confidence":"medium","span":[13062,13101],"revision":1351138472,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33371056#BN4I","to":"wikipedia://en/26513034","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5711,5734],"revision":1356430157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33371056#BN4I","to":"wikipedia://en/1782819","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5779,5793],"revision":1356430157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33371056#BN4I","to":"wikipedia://en/207547","predicate":"related","method":"link-in-item","confidence":"low","span":[5798,5819],"revision":1356430157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33371056#BN4I","to":"wikipedia://en/33379864","predicate":"related","method":"link-in-item","confidence":"low","span":[5875,5892],"revision":1356430157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33371056#BN4I","to":"wikipedia://en/251366","predicate":"uses","method":"link-in-item","confidence":"high","span":[7417,7431],"revision":1356430157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33371056#BN4I","to":"wikipedia://en/39420","predicate":"uses","method":"link-in-item","confidence":"high","span":[7437,7455],"revision":1356430157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33371056#BN4I","to":"wikipedia://en/24172","predicate":"uses","method":"link-in-item","confidence":"high","span":[7715,7737],"revision":1356430157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33371056#BN4I","to":"wikipedia://en/2915839","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7868,7901],"revision":1356430157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33371056#BN4I","to":"wikipedia://en/1209","predicate":"uses","method":"link-in-item","confidence":"high","span":[8037,8045],"revision":1356430157,"by":"importer/wikipedia/1"}

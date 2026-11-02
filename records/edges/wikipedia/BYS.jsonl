@@ -1,0 +1,10 @@
+{"from":"wikipedia://en/11268855#068H","to":"wikipedia://en/689895","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[2698,2718],"revision":1374757806,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11268855#068H","to":"wikipedia://en/217104","predicate":"uses","method":"link-in-item","confidence":"high","span":[2756,2782],"revision":1374757806,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11268855#068H","to":"wikipedia://en/5365395","predicate":"uses","method":"link-in-item","confidence":"high","span":[2810,2834],"revision":1374757806,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11268855#068H","to":"wikipedia://en/886330","predicate":"uses","method":"link-in-item","confidence":"high","span":[3164,3181],"revision":1374757806,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36617820","to":"wikipedia://en/36265360","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[348,385],"revision":1350457906,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36617820","to":"wikipedia://en/23501","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[813,832],"revision":1350457906,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36617820","to":"wikipedia://en/24390","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1365,1435],"revision":1350457906,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36617820","to":"wikipedia://en/24390","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1461,1505],"revision":1350457906,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36617820","to":"Category:Mathematical paradoxes","predicate":"in-field","method":"category","confidence":"medium","span":[2949,2984],"revision":1350457906,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36617820","to":"Category:Potatoes","predicate":"in-field","method":"category","confidence":"medium","span":[2985,3006],"revision":1350457906,"by":"importer/wikipedia/1"}

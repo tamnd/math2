@@ -1,1 +1,4 @@
 {"id":"46X7YSM0AX","mentions":["ax://paper/2610.19132#VJUF"],"kind":"statement","msc":["26-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
+{"id":"46X9QP1HR5","mentions":["wikipedia://en/57407508"],"kind":"topic","name":"Vicky Neale","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"46XD98089P","mentions":["wikipedia://en/76765067#AZB6"],"kind":"definition","name":"reference","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"46XK617NCW","mentions":["wikipedia://en/27698750#E78F"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

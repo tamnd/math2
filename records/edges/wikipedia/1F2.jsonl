@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/2934314","to":"wikipedia://en/23000","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[184,219],"revision":1220719171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2934314","to":"wikipedia://en/11615","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[258,274],"revision":1220719171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2934314","to":"wikipedia://en/245351","predicate":"related","method":"link-in-lead","confidence":"low","span":[549,571],"revision":1220719171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2934314","to":"wikipedia://en/1790247","predicate":"related","method":"link-in-lead","confidence":"low","span":[576,612],"revision":1220719171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2934314","to":"wikipedia://en/2934213","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[647,684],"revision":1220719171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2934314","to":"wikipedia://en/7960510","predicate":"related","method":"see-also","confidence":"low","span":[4902,4935],"revision":1220719171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2934314","to":"Category:Finite fields","predicate":"in-field","method":"category","confidence":"medium","span":[6801,6827],"revision":1220719171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2934314","to":"Category:Diophantine geometry","predicate":"in-field","method":"category","confidence":"medium","span":[6828,6861],"revision":1220719171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2934314","to":"Category:Theorems in algebra","predicate":"kind-of","method":"category","confidence":"medium","span":[6862,6894],"revision":1220719171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#O2OR","to":"wikipedia://en/48326992","predicate":"listed-in","method":"list","confidence":"certain","span":[85366,85378],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81741385#VCZK","to":"wikipedia://en/42301","predicate":"uses","method":"link-in-item","confidence":"high","span":[12356,12365],"revision":1374982447,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81741385#VCZK","to":"wikipedia://en/5834526","predicate":"uses","method":"link-in-item","confidence":"high","span":[12504,12521],"revision":1374982447,"by":"importer/wikipedia/1"}

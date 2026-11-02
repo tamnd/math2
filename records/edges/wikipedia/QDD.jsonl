@@ -1,0 +1,28 @@
+{"from":"wikipedia://en/34870269","to":"wikipedia://en/173416","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[258,282],"revision":1310099250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34870269","to":"wikipedia://en/52564","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[360,394],"revision":1310099250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34870269","to":"wikipedia://en/2649421","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[399,421],"revision":1310099250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34870269","to":"wikipedia://en/5977314","predicate":"related","method":"link-in-text","confidence":"low","span":[449,496],"revision":1310099250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34870269","to":"wikipedia://en/180763","predicate":"related","method":"link-in-text","confidence":"low","span":[513,552],"revision":1310099250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34870269","to":"wikipedia://en/4172897","predicate":"related","method":"link-in-text","confidence":"low","span":[611,628],"revision":1310099250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34870269","to":"wikipedia://en/100649","predicate":"related","method":"link-in-text","confidence":"low","span":[1128,1164],"revision":1310099250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34870269","to":"Category:German mathematical physicists","predicate":"in-field","method":"category","confidence":"medium","span":[2419,2462],"revision":1310099250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34870269","to":"Category:20th-century German mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2463,2510],"revision":1310099250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34870269","to":"Category:Academic staff of Heidelberg University","predicate":"in-field","method":"category","confidence":"medium","span":[2556,2608],"revision":1310099250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36758654#O3WU","to":"wikipedia://en/325806","predicate":"uses","method":"link-in-item","confidence":"high","span":[1948,1968],"revision":1325535923,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36758654#O3WU","to":"wikipedia://en/7706","predicate":"uses","method":"link-in-item","confidence":"high","span":[2048,2073],"revision":1325535923,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36758654#O3WU","to":"wikipedia://en/420919","predicate":"uses","method":"link-in-item","confidence":"high","span":[2245,2265],"revision":1325535923,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36758654#O3WU","to":"wikipedia://en/37165960","predicate":"uses","method":"link-in-item","confidence":"high","span":[2693,2711],"revision":1325535923,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36758654#O3WU","to":"wikipedia://en/101863","predicate":"uses","method":"link-in-item","confidence":"high","span":[2874,2918],"revision":1325535923,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36758654#O3WU","to":"wikipedia://en/287808","predicate":"uses","method":"link-in-item","confidence":"high","span":[2993,3045],"revision":1325535923,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#PENI","to":"wikipedia://en/56338994","predicate":"listed-in","method":"list","confidence":"certain","span":[32090,32106],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8641870","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[190,205],"revision":1321974613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8641870","to":"wikipedia://en/20556859","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[302,335],"revision":1321974613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8641870","to":"wikipedia://en/192266","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[522,537],"revision":1321974613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8641870","to":"wikipedia://en/59718","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[644,663],"revision":1321974613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8641870","to":"wikipedia://en/11269780","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[695,723],"revision":1321974613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8641870","to":"wikipedia://en/8468","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[758,773],"revision":1321974613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8641870","to":"wikipedia://en/430493","predicate":"related","method":"link-in-lead","confidence":"low","span":[790,818],"revision":1321974613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8641870","to":"wikipedia://en/217122","predicate":"related","method":"link-in-lead","confidence":"low","span":[823,842],"revision":1321974613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8641870","to":"Category:Determinants","predicate":"in-field","method":"category","confidence":"medium","span":[2938,2963],"revision":1321974613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8641870","to":"Category:Matrix theory","predicate":"in-field","method":"category","confidence":"medium","span":[2964,2990],"revision":1321974613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8641870","to":"Category:Theorems in linear algebra","predicate":"kind-of","method":"category","confidence":"medium","span":[2991,3030],"revision":1321974613,"by":"importer/wikipedia/1"}

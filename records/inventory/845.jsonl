@@ -1,3 +1,5 @@
+{"id":"8454ZVEHNC","mentions":["wikipedia://en/9789196#QDQG"],"kind":"statement","name":"Special cases","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"845705JTME","mentions":["wikipedia://en/2321587#EPHZ"],"kind":"unknown","name":"Redundancy (robotics)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"8457HK4TZ4","mentions":["m2://rec/hott_book/hlevels.tex#cor-1#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"845D800HJF","mentions":["m2://rec/wikidata/Q3235565#1"],"kind":"statement","name":"Newton's third law of motion","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"845EKXS1NH","mentions":["m2://rec/hott_book/index/A.12.1/induction-principle-for-identity-type-based#1"],"kind":"concept","name":"induction principle, for identity type, based","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

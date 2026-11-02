@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/13265337#SC0D","to":"wikipedia://en/293802","predicate":"uses","method":"link-in-item","confidence":"high","span":[7382,7416],"revision":1314266361,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13265337#SC0D","to":"wikipedia://en/429296","predicate":"uses","method":"link-in-item","confidence":"high","span":[9250,9270],"revision":1314266361,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13265337#SC0D","to":"wikipedia://en/38277667","predicate":"uses","method":"link-in-item","confidence":"high","span":[9716,9746],"revision":1314266361,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/285622#EIYC","to":"wikipedia://en/318742","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[16090,16110],"revision":1368936757,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/285622#EIYC","to":"wikipedia://en/4771189","predicate":"uses","method":"link-in-item","confidence":"high","span":[16129,16150],"revision":1368936757,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/285622#EIYC","to":"wikipedia://en/230488","predicate":"uses","method":"link-in-item","confidence":"high","span":[16261,16280],"revision":1368936757,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31229081","to":"wikipedia://en/25874393","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[635,652],"revision":1351122345,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31229081","to":"wikipedia://en/1050551","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[717,783],"revision":1351122345,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31229081","to":"wikipedia://en/43602719","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[968,1026],"revision":1351122345,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31229081","to":"wikipedia://en/23572500","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1290,1305],"revision":1351122345,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31229081","to":"wikipedia://en/17896832","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2557,2658],"revision":1351122345,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31229081","to":"wikipedia://en/1050551","predicate":"related","method":"see-also","confidence":"low","span":[5034,5070],"revision":1351122345,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31229081","to":"wikipedia://en/15559048","predicate":"related","method":"see-also","confidence":"low","span":[5072,5083],"revision":1351122345,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31229081","to":"wikipedia://en/28969247","predicate":"related","method":"see-also","confidence":"low","span":[5085,5163],"revision":1351122345,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31229081","to":"Category:Working groups","predicate":"in-field","method":"category","confidence":"medium","span":[5193,5220],"revision":1351122345,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31229081","to":"Category:Multiple-criteria decision analysis","predicate":"in-field","method":"category","confidence":"medium","span":[5221,5269],"revision":1351122345,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35326250#DF97","to":"wikipedia://en/641715","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[45391,45403],"revision":1362286631,"by":"importer/wikipedia/1"}

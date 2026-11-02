@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/11269780","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[43,58],"revision":1371261041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11269780","to":"wikipedia://en/18422","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[74,92],"revision":1371261041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11269780","to":"wikipedia://en/8468","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[142,157],"revision":1371261041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11269780","to":"wikipedia://en/217122","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[175,207],"revision":1371261041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11269780","to":"wikipedia://en/20556859","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[208,239],"revision":1371261041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11269780","to":"wikipedia://en/17928005","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[256,274],"revision":1371261041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11269780","to":"wikipedia://en/23218956","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[320,351],"revision":1371261041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11269780","to":"wikipedia://en/2556798","predicate":"related","method":"see-also","confidence":"low","span":[4913,4943],"revision":1371261041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11269780","to":"wikipedia://en/430493","predicate":"related","method":"see-also","confidence":"low","span":[5073,5118],"revision":1371261041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11269780","to":"wikipedia://en/430493","predicate":"related","method":"see-also","confidence":"low","span":[5249,5277],"revision":1371261041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11269780","to":"Category:Lemmas in linear algebra","predicate":"kind-of","method":"category","confidence":"medium","span":[5363,5400],"revision":1371261041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11269780","to":"Category:Matrix theory","predicate":"in-field","method":"category","confidence":"medium","span":[5401,5427],"revision":1371261041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4049772","to":"wikipedia://en/21527","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[52,69],"revision":1363906354,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4049772","to":"wikipedia://en/19344125","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[187,209],"revision":1363906354,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4049772","to":"wikipedia://en/10475","predicate":"related","method":"link-in-lead","confidence":"low","span":[289,308],"revision":1363906354,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4049772","to":"wikipedia://en/4327781","predicate":"related","method":"link-in-lead","confidence":"low","span":[313,336],"revision":1363906354,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4049772","to":"Category:Zeta and L-functions","predicate":"in-field","method":"category","confidence":"medium","span":[9437,9470],"revision":1363906354,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7500394#0GSW","to":"wikipedia://en/18198","predicate":"uses","method":"link-in-item","confidence":"high","span":[670,690],"revision":1149053141,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7500394#0GSW","to":"wikipedia://en/160556","predicate":"uses","method":"link-in-item","confidence":"high","span":[1142,1157],"revision":1149053141,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7500394#0GSW","to":"wikipedia://en/1780815","predicate":"uses","method":"link-in-item","confidence":"high","span":[1161,1171],"revision":1149053141,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7500394#0GSW","to":"wikipedia://en/504105","predicate":"uses","method":"link-in-item","confidence":"high","span":[1347,1364],"revision":1149053141,"by":"importer/wikipedia/1"}

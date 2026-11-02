@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/32147219","to":"wikipedia://en/18717261","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[50,66],"revision":1364455110,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32147219","to":"wikipedia://en/40411","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[88,101],"revision":1364455110,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32147219","to":"wikipedia://en/25804104","predicate":"related","method":"link-in-lead","confidence":"low","span":[119,147],"revision":1364455110,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32147219","to":"wikipedia://en/30367","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[190,217],"revision":1364455110,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32147219","to":"wikipedia://en/17276","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[824,836],"revision":1364455110,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32147219","to":"wikipedia://en/18978679","predicate":"related","method":"link-in-text","confidence":"low","span":[2112,2123],"revision":1364455110,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32147219","to":"wikipedia://en/11493","predicate":"related","method":"link-in-text","confidence":"low","span":[8837,8856],"revision":1364455110,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32147219","to":"wikipedia://en/44370","predicate":"related","method":"link-in-text","confidence":"low","span":[8857,8868],"revision":1364455110,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32147219","to":"wikipedia://en/1050741","predicate":"related","method":"link-in-text","confidence":"low","span":[11341,11416],"revision":1364455110,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32147219","to":"wikipedia://en/25804104","predicate":"related","method":"see-also","confidence":"low","span":[13293,13329],"revision":1364455110,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32147219","to":"Category:Trigonometry","predicate":"in-field","method":"category","confidence":"medium","span":[13381,13406],"revision":1364455110,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32147219","to":"Category:Science mnemonics","predicate":"in-field","method":"category","confidence":"medium","span":[13407,13437],"revision":1364455110,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9582652#GZM2","to":"wikipedia://en/25184","predicate":"uses","method":"link-in-item","confidence":"high","span":[2286,2299],"revision":1362862434,"by":"importer/wikipedia/1"}

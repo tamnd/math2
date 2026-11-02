@@ -1,0 +1,6 @@
+{"from":"wikipedia://en/74896529","to":"wikipedia://en/13229421","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[109,120],"revision":1363058887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74896529","to":"wikipedia://en/5161053","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[160,185],"revision":1363058887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74896529","to":"wikipedia://en/885948","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[793,807],"revision":1363058887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74896529","to":"wikipedia://en/25191344","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1921,1935],"revision":1363058887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74896529","to":"Category:Cryptography standards","predicate":"in-field","method":"category","confidence":"medium","span":[3024,3059],"revision":1363058887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74896529","to":"Category:Computer security standards","predicate":"in-field","method":"category","confidence":"medium","span":[3060,3100],"revision":1363058887,"by":"importer/wikipedia/1"}

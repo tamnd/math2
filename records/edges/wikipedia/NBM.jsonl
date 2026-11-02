@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/456050#POHD","to":"wikipedia://en/8720712","predicate":"uses","method":"link-in-item","confidence":"medium","span":[27090,27116],"revision":1376352465,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55212#R80M","to":"wikipedia://en/275603","predicate":"uses","method":"link-in-item","confidence":"medium","span":[29872,29889],"revision":1375948061,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55212#R80M","to":"wikipedia://en/1201321","predicate":"uses","method":"link-in-item","confidence":"medium","span":[30872,30899],"revision":1375948061,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8883053","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[98,115],"revision":1368150343,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8883053","to":"wikipedia://en/283853","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[183,221],"revision":1368150343,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8883053","to":"wikipedia://en/1642893","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[389,414],"revision":1368150343,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8883053","to":"wikipedia://en/308722","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[458,484],"revision":1368150343,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8883053","to":"wikipedia://en/20646803","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[491,504],"revision":1368150343,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8883053","to":"wikipedia://en/125788","predicate":"related","method":"link-in-text","confidence":"low","span":[1199,1222],"revision":1368150343,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8883053","to":"wikipedia://en/4133675","predicate":"related","method":"link-in-text","confidence":"low","span":[1237,1269],"revision":1368150343,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8883053","to":"wikipedia://en/21068988","predicate":"related","method":"link-in-text","confidence":"low","span":[1500,1529],"revision":1368150343,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8883053","to":"wikipedia://en/457210","predicate":"related","method":"link-in-text","confidence":"low","span":[1533,1553],"revision":1368150343,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8883053","to":"wikipedia://en/99867","predicate":"related","method":"link-in-text","confidence":"low","span":[1571,1609],"revision":1368150343,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8883053","to":"wikipedia://en/21031297","predicate":"related","method":"link-in-text","confidence":"low","span":[1729,1743],"revision":1368150343,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8883053","to":"wikipedia://en/283853","predicate":"related","method":"link-in-text","confidence":"low","span":[1753,1797],"revision":1368150343,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8883053","to":"wikipedia://en/28344128","predicate":"related","method":"link-in-text","confidence":"low","span":[1832,1854],"revision":1368150343,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8883053","to":"wikipedia://en/5786","predicate":"related","method":"link-in-text","confidence":"low","span":[1948,1986],"revision":1368150343,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8883053","to":"wikipedia://en/28486339","predicate":"related","method":"link-in-text","confidence":"low","span":[2027,2062],"revision":1368150343,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8883053","to":"wikipedia://en/308722","predicate":"related","method":"link-in-text","confidence":"low","span":[2132,2158],"revision":1368150343,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8883053","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4565,4614],"revision":1368150343,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8883053","to":"Category:21st-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4615,4664],"revision":1368150343,"by":"importer/wikipedia/1"}

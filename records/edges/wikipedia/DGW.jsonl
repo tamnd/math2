@@ -1,0 +1,24 @@
+{"from":"wikipedia://en/14528017#E6N1","to":"wikipedia://en/1121587","predicate":"listed-in","method":"list","confidence":"certain","span":[23303,23323],"revision":1373239541,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14528017#E6N1","to":"wikipedia://en/15200699","predicate":"uses","method":"link-in-item","confidence":"high","span":[23331,23381],"revision":1373239541,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14528017#E6N1","to":"wikipedia://en/1889708","predicate":"uses","method":"link-in-item","confidence":"medium","span":[23648,23672],"revision":1373239541,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14528017#E6N1","to":"wikipedia://en/10796995","predicate":"uses","method":"link-in-item","confidence":"high","span":[23839,23860],"revision":1373239541,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/285623#MB1O","to":"wikipedia://en/528867","predicate":"uses","method":"link-in-item","confidence":"high","span":[6549,6569],"revision":1373253994,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/285623#MB1O","to":"wikipedia://en/91096","predicate":"uses","method":"link-in-item","confidence":"high","span":[6688,6709],"revision":1373253994,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/285623#MB1O","to":"wikipedia://en/15575410","predicate":"uses","method":"link-in-item","confidence":"high","span":[7007,7026],"revision":1373253994,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/285623#MB1O","to":"wikipedia://en/139229","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7181,7207],"revision":1373253994,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565351#4KHB","to":"wikipedia://en/34913169","predicate":"listed-in","method":"list","confidence":"certain","span":[50583,50596],"revision":1373350261,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565351#4KHB","to":"wikipedia://en/34913169","predicate":"uses","method":"link-in-item","confidence":"medium","span":[50598,50618],"revision":1373350261,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9245509","to":"wikipedia://en/153008","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[144,159],"revision":1343971025,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9245509","to":"wikipedia://en/5418032","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[203,218],"revision":1343971025,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9245509","to":"wikipedia://en/1165182","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[246,260],"revision":1343971025,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9245509","to":"wikipedia://en/3846986","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[333,352],"revision":1343971025,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9245509","to":"wikipedia://en/61632","predicate":"related","method":"link-in-lead","confidence":"low","span":[383,398],"revision":1343971025,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9245509","to":"wikipedia://en/23912155","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[420,452],"revision":1343971025,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9245509","to":"wikipedia://en/3845647","predicate":"related","method":"link-in-lead","confidence":"low","span":[464,504],"revision":1343971025,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9245509","to":"wikipedia://en/20652006","predicate":"related","method":"link-in-lead","confidence":"low","span":[509,526],"revision":1343971025,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9245509","to":"wikipedia://en/741875","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[942,965],"revision":1343971025,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9245509","to":"wikipedia://en/2639906","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[972,993],"revision":1343971025,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9245509","to":"Category:Geometric topology","predicate":"in-field","method":"category","confidence":"medium","span":[1371,1402],"revision":1343971025,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9245509","to":"Category:Knot theory","predicate":"in-field","method":"category","confidence":"medium","span":[1403,1427],"revision":1343971025,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9245509","to":"Category:4-manifolds","predicate":"in-field","method":"category","confidence":"medium","span":[1428,1452],"revision":1343971025,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9245509","to":"Category:Conjectures that have been proved","predicate":"kind-of","method":"category","confidence":"medium","span":[1453,1499],"revision":1343971025,"by":"importer/wikipedia/1"}

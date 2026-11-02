@@ -1,0 +1,32 @@
+{"from":"wikipedia://en/27676486","to":"wikipedia://en/317465","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[991,1005],"revision":1368999011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27676486","to":"wikipedia://en/12746","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1063,1093],"revision":1368999011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27676486","to":"wikipedia://en/9541","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1222,1257],"revision":1368999011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27676486","to":"wikipedia://en/3105999","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2104,2141],"revision":1368999011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27676486","to":"wikipedia://en/2939579","predicate":"related","method":"link-in-text","confidence":"low","span":[2662,2708],"revision":1368999011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27676486","to":"wikipedia://en/17692","predicate":"related","method":"link-in-text","confidence":"low","span":[2838,2855],"revision":1368999011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27676486","to":"wikipedia://en/11864322","predicate":"related","method":"link-in-text","confidence":"low","span":[3213,3242],"revision":1368999011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27676486","to":"wikipedia://en/239140","predicate":"related","method":"link-in-text","confidence":"low","span":[3889,3923],"revision":1368999011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27676486","to":"wikipedia://en/3105999","predicate":"related","method":"link-in-text","confidence":"low","span":[3929,3974],"revision":1368999011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27676486","to":"wikipedia://en/6679056","predicate":"related","method":"link-in-text","confidence":"low","span":[6196,6234],"revision":1368999011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27676486","to":"wikipedia://en/21073209","predicate":"related","method":"link-in-text","confidence":"low","span":[6269,6283],"revision":1368999011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27676486","to":"wikipedia://en/599870","predicate":"related","method":"link-in-text","confidence":"low","span":[6342,6383],"revision":1368999011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27676486","to":"wikipedia://en/14907107","predicate":"related","method":"see-also","confidence":"low","span":[6979,7004],"revision":1368999011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27676486","to":"wikipedia://en/11389841","predicate":"related","method":"see-also","confidence":"low","span":[7006,7033],"revision":1368999011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27676486","to":"Category:Design of experiments","predicate":"in-field","method":"category","confidence":"medium","span":[7625,7659],"revision":1368999011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27676486","to":"Category:Quantitative research","predicate":"in-field","method":"category","confidence":"medium","span":[7660,7694],"revision":1368999011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27676486","to":"Category:Psychological methodology","predicate":"in-field","method":"category","confidence":"medium","span":[7695,7733],"revision":1368999011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27676486","to":"Category:Quantitative analysis of behavior","predicate":"in-field","method":"category","confidence":"medium","span":[7734,7780],"revision":1368999011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5608629","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[202,217],"revision":1365350267,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5608629","to":"wikipedia://en/1227329","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[288,328],"revision":1365350267,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5608629","to":"wikipedia://en/669475","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[334,360],"revision":1365350267,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5608629","to":"wikipedia://en/187446","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[361,373],"revision":1365350267,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5608629","to":"wikipedia://en/1018257","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[374,388],"revision":1365350267,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5608629","to":"wikipedia://en/27865","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[411,442],"revision":1365350267,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5608629","to":"wikipedia://en/1251473","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[475,501],"revision":1365350267,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5608629","to":"wikipedia://en/476398","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[532,552],"revision":1365350267,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5608629","to":"wikipedia://en/48038967","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[579,598],"revision":1365350267,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5608629","to":"Category:Topology","predicate":"in-field","method":"category","confidence":"medium","span":[6209,6230],"revision":1365350267,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5608629","to":"Category:3-manifolds","predicate":"in-field","method":"category","confidence":"medium","span":[6231,6255],"revision":1365350267,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5608629","to":"Category:Structures on manifolds","predicate":"in-field","method":"category","confidence":"medium","span":[6256,6292],"revision":1365350267,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5608629","to":"Category:Contact geometry","predicate":"in-field","method":"category","confidence":"medium","span":[6293,6322],"revision":1365350267,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5608629","to":"Category:Metaphors referring to books and paper","predicate":"in-field","method":"category","confidence":"medium","span":[6323,6374],"revision":1365350267,"by":"importer/wikipedia/1"}

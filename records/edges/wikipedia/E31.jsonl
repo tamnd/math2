@@ -1,0 +1,24 @@
+{"from":"wikipedia://en/1427502#BXJY","to":"wikipedia://en/200463","predicate":"uses","method":"link-in-item","confidence":"high","span":[6004,6038],"revision":1372005031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1427502#BXJY","to":"wikipedia://en/30330","predicate":"uses","method":"link-in-item","confidence":"high","span":[6118,6149],"revision":1372005031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1427502#BXJY","to":"wikipedia://en/2833097","predicate":"uses","method":"link-in-item","confidence":"high","span":[6209,6225],"revision":1372005031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1427502#BXJY","to":"wikipedia://en/204002","predicate":"uses","method":"link-in-item","confidence":"high","span":[6454,6488],"revision":1372005031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1427502#BXJY","to":"wikipedia://en/157175","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[6752,6769],"revision":1372005031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1427502#BXJY","to":"wikipedia://en/524466","predicate":"related","method":"link-in-item","confidence":"low","span":[6791,6824],"revision":1372005031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1427502#BXJY","to":"wikipedia://en/5719307","predicate":"uses","method":"link-in-item","confidence":"high","span":[7370,7402],"revision":1372005031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1427502#BXJY","to":"wikipedia://en/741875","predicate":"uses","method":"link-in-item","confidence":"high","span":[7838,7879],"revision":1372005031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1427502#BXJY","to":"wikipedia://en/173525","predicate":"uses","method":"link-in-item","confidence":"high","span":[9033,9057],"revision":1372005031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1427502#BXJY","to":"wikipedia://en/601284","predicate":"related","method":"link-in-item","confidence":"low","span":[9059,9074],"revision":1372005031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1427502#BXJY","to":"wikipedia://en/2575958","predicate":"related","method":"link-in-item","confidence":"low","span":[9475,9501],"revision":1372005031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1427502#BXJY","to":"wikipedia://en/2563194","predicate":"related","method":"link-in-item","confidence":"low","span":[9506,9525],"revision":1372005031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1427502#BXJY","to":"wikipedia://en/240694","predicate":"related","method":"link-in-item","confidence":"low","span":[9690,9714],"revision":1372005031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1427502#BXJY","to":"wikipedia://en/684680","predicate":"uses","method":"link-in-item","confidence":"high","span":[9787,9831],"revision":1372005031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565351#RGY3","to":"wikipedia://en/4016553","predicate":"listed-in","method":"list","confidence":"certain","span":[29501,29532],"revision":1373350261,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/517370#3JIT","to":"wikipedia://en/11308417","predicate":"listed-in","method":"list","confidence":"certain","span":[322,350],"revision":1353185276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53456639","to":"wikipedia://en/26685","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[53,67],"revision":1316756826,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53456639","to":"wikipedia://en/45589823","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[150,189],"revision":1316756826,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53456639","to":"wikipedia://en/339174","predicate":"related","method":"link-in-text","confidence":"low","span":[631,653],"revision":1316756826,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53456639","to":"wikipedia://en/47895","predicate":"related","method":"link-in-text","confidence":"low","span":[854,876],"revision":1316756826,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53456639","to":"wikipedia://en/41204236","predicate":"related","method":"link-in-text","confidence":"low","span":[884,927],"revision":1316756826,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53456639","to":"wikipedia://en/767253","predicate":"related","method":"link-in-text","confidence":"low","span":[936,965],"revision":1316756826,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53456639","to":"wikipedia://en/3608284","predicate":"related","method":"link-in-text","confidence":"low","span":[2889,2919],"revision":1316756826,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53456639","to":"Category:Generalized linear models","predicate":"in-field","method":"category","confidence":"medium","span":[9002,9040],"revision":1316756826,"by":"importer/wikipedia/1"}

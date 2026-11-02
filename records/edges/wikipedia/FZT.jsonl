@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/44745308","to":"wikipedia://en/276524","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[109,127],"revision":1352374604,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44745308","to":"wikipedia://en/390538","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[133,179],"revision":1352374604,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44745308","to":"wikipedia://en/2988093","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[296,325],"revision":1352374604,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44745308","to":"wikipedia://en/4794668","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1273,1300],"revision":1352374604,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44745308","to":"wikipedia://en/194060","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1381,1402],"revision":1352374604,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44745308","to":"wikipedia://en/245466","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1525,1554],"revision":1352374604,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44745308","to":"wikipedia://en/294349","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1648,1663],"revision":1352374604,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44745308","to":"wikipedia://en/71519050","predicate":"related","method":"see-also","confidence":"low","span":[1916,1949],"revision":1352374604,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44745308","to":"Category:Theorems in complex geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[2976,3017],"revision":1352374604,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44745308","to":"Category:Topological methods of algebraic geometry","predicate":"in-field","method":"category","confidence":"medium","span":[3018,3072],"revision":1352374604,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44745308","to":"Category:Theorems in algebraic geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[3073,3116],"revision":1352374604,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4665038#TCN4","to":"wikipedia://en/4005892","predicate":"uses","method":"link-in-item","confidence":"high","span":[11146,11168],"revision":1366451884,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4665038#TCN4","to":"wikipedia://en/23642478","predicate":"uses","method":"link-in-item","confidence":"medium","span":[11744,11769],"revision":1366451884,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#KLJU","to":"wikipedia://en/1234245","predicate":"listed-in","method":"list","confidence":"certain","span":[7052,7067],"revision":1373230097,"by":"importer/wikipedia/1"}

@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/1403586#XEGN","to":"wikipedia://en/50696929","predicate":"listed-in","method":"list","confidence":"certain","span":[190754,190776],"revision":1375861581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1403586#XEGN","to":"wikipedia://en/50696929","predicate":"uses","method":"link-in-item","confidence":"medium","span":[190846,190868],"revision":1375861581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35808199","to":"wikipedia://en/363762","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[51,71],"revision":1355246351,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35808199","to":"wikipedia://en/30084691","predicate":"related","method":"link-in-text","confidence":"low","span":[337,354],"revision":1355246351,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35808199","to":"wikipedia://en/8468","predicate":"related","method":"link-in-text","confidence":"low","span":[396,411],"revision":1355246351,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35808199","to":"wikipedia://en/377537","predicate":"related","method":"link-in-text","confidence":"low","span":[434,451],"revision":1355246351,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35808199","to":"Category:Invariant theory","predicate":"in-field","method":"category","confidence":"medium","span":[866,895],"revision":1355246351,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9209488#TW4J","to":"wikipedia://en/684698","predicate":"uses","method":"link-in-item","confidence":"medium","span":[1203,1229],"revision":1360434969,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9209488#TW4J","to":"wikipedia://en/439526","predicate":"uses","method":"link-in-item","confidence":"high","span":[1615,1637],"revision":1360434969,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9209488#TW4J","to":"wikipedia://en/23210","predicate":"uses","method":"link-in-item","confidence":"high","span":[2371,2388],"revision":1360434969,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9209488#TW4J","to":"wikipedia://en/13790","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2552,2569],"revision":1360434969,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9209488#TW4J","to":"wikipedia://en/439526","predicate":"uses","method":"link-in-item","confidence":"high","span":[2632,2663],"revision":1360434969,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9209488#TW4J","to":"wikipedia://en/4071549","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2756,2772],"revision":1360434969,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9209488#TW4J","to":"wikipedia://en/146428","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3004,3013],"revision":1360434969,"by":"importer/wikipedia/1"}

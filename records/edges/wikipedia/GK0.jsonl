@@ -1,0 +1,31 @@
+{"from":"wikipedia://en/140829#OQL0","to":"wikipedia://en/55896755","predicate":"listed-in","method":"list","confidence":"certain","span":[19486,19518],"revision":1372044875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/161339#3MBP","to":"wikipedia://en/640417","predicate":"listed-in","method":"list","confidence":"certain","span":[5277,5300],"revision":1370969602,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/161339#3MBP","to":"wikipedia://en/243849","predicate":"uses","method":"link-in-item","confidence":"high","span":[5319,5342],"revision":1370969602,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31627584","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[502,519],"revision":1353592982,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31627584","to":"wikipedia://en/18716923","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[547,558],"revision":1353592982,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31627584","to":"wikipedia://en/19636","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[560,582],"revision":1353592982,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31627584","to":"wikipedia://en/27553","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[587,611],"revision":1353592982,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31627584","to":"wikipedia://en/19021","predicate":"related","method":"link-in-text","confidence":"low","span":[1543,1553],"revision":1353592982,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31627584","to":"wikipedia://en/38091","predicate":"related","method":"link-in-text","confidence":"low","span":[1642,1664],"revision":1353592982,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31627584","to":"wikipedia://en/311613","predicate":"related","method":"link-in-text","confidence":"low","span":[1700,1711],"revision":1353592982,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31627584","to":"wikipedia://en/23844","predicate":"related","method":"link-in-text","confidence":"low","span":[1729,1739],"revision":1353592982,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31627584","to":"wikipedia://en/72043023","predicate":"related","method":"link-in-text","confidence":"low","span":[1776,1818],"revision":1353592982,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31627584","to":"wikipedia://en/25323835","predicate":"related","method":"link-in-text","confidence":"low","span":[1908,1948],"revision":1353592982,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31627584","to":"wikipedia://en/9741574","predicate":"related","method":"link-in-text","confidence":"low","span":[2026,2062],"revision":1353592982,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31627584","to":"wikipedia://en/633070","predicate":"related","method":"link-in-text","confidence":"low","span":[2293,2315],"revision":1353592982,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31627584","to":"Category:20th-century Czech mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4104,4150],"revision":1353592982,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31627584","to":"Category:Czechoslovak mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4151,4191],"revision":1353592982,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31627584","to":"Category:Algebraists","predicate":"in-field","method":"category","confidence":"medium","span":[4192,4216],"revision":1353592982,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31627584","to":"Category:Set theorists","predicate":"in-field","method":"category","confidence":"medium","span":[4217,4243],"revision":1353592982,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31627584","to":"Category:Academic staff of Charles University","predicate":"in-field","method":"category","confidence":"medium","span":[4283,4332],"revision":1353592982,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31627584","to":"Category:Burials at Vyšehrad Cemetery","predicate":"in-field","method":"category","confidence":"medium","span":[4333,4375],"revision":1353592982,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42475707","to":"wikipedia://en/325714","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[42,58],"revision":1352215484,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42475707","to":"wikipedia://en/2974","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[90,107],"revision":1352215484,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42475707","to":"wikipedia://en/32245","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[126,158],"revision":1352215484,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42475707","to":"wikipedia://en/48404","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[159,186],"revision":1352215484,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42475707","to":"wikipedia://en/60012","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[262,285],"revision":1352215484,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42475707","to":"wikipedia://en/61346","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[419,440],"revision":1352215484,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42475707","to":"wikipedia://en/53991","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[444,471],"revision":1352215484,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42475707","to":"wikipedia://en/349223","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[672,686],"revision":1352215484,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42475707","to":"wikipedia://en/61351","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1046,1069],"revision":1352215484,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42475707","to":"Category:Hopf algebras","predicate":"in-field","method":"category","confidence":"medium","span":[3517,3543],"revision":1352215484,"by":"importer/wikipedia/1"}

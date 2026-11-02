@@ -1,0 +1,8 @@
+{"from":"wikipedia://en/14403539#7HUL","to":"wikipedia://en/36404527","predicate":"listed-in","method":"list","confidence":"certain","span":[49430,49447],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44987#0GGF","to":"wikipedia://en/38128","predicate":"uses","method":"named-link","confidence":"high","span":[14458,14515],"revision":1341375322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70859607","to":"wikipedia://en/1190262","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[288,302],"revision":1285161694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70859607","to":"wikipedia://en/390538","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[325,345],"revision":1285161694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70859607","to":"wikipedia://en/50979789","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[821,842],"revision":1285161694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70859607","to":"wikipedia://en/603782","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1067,1086],"revision":1285161694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70859607","to":"wikipedia://en/501590","predicate":"related","method":"see-also","confidence":"low","span":[1850,1866],"revision":1285161694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70859607","to":"Category:Theorems in algebraic geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[3461,3504],"revision":1285161694,"by":"importer/wikipedia/1"}

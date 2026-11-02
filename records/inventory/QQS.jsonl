@@ -1,2 +1,5 @@
+{"id":"QQSGQ0GZAM","mentions":["wikipedia://en/15440535#3FJA"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QQSHSTCZ3C","mentions":["wikipedia://en/20101246#S6IM"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QQSPT5FPE7","mentions":["m2://rec/levin_dmoi/ptx/sec_gt-intro.ptx#example-5#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"QQSX2HH7K4","mentions":["wikipedia://en/499429"],"kind":"statement","name":"D'Alembert's principle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QQSYJ5KKMW","mentions":["m2://rec/napkin/tex/alg-NT/classgrp.tex#definition-5#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

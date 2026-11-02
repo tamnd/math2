@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/14943054#HEZ0","to":"wikipedia://en/2375824","predicate":"uses","method":"link-in-item","confidence":"high","span":[2594,2655],"revision":1029479408,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14943054#HEZ0","to":"wikipedia://en/2904472","predicate":"uses","method":"link-in-item","confidence":"high","span":[2684,2736],"revision":1029479408,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14943054#HEZ0","to":"wikipedia://en/28901","predicate":"uses","method":"link-in-item","confidence":"high","span":[2765,2784],"revision":1029479408,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20505205","to":"wikipedia://en/12401","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[131,147],"revision":1368614620,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20505205","to":"wikipedia://en/1609861","predicate":"specializes","method":"link-in-lead","confidence":"medium","span":[194,212],"revision":1368614620,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20505205","to":"wikipedia://en/638899","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[412,431],"revision":1368614620,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20505205","to":"Category:Graph coloring","predicate":"in-field","method":"category","confidence":"medium","span":[3648,3675],"revision":1368614620,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20505205","to":"Category:Distributed algorithms","predicate":"in-field","method":"category","confidence":"medium","span":[3676,3711],"revision":1368614620,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20505205","to":"Category:Distributed computing problems","predicate":"in-field","method":"category","confidence":"medium","span":[3712,3755],"revision":1368614620,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351549#7C2T","to":"wikipedia://en/510523","predicate":"listed-in","method":"list","confidence":"certain","span":[4138,4154],"revision":1346728004,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/398810#X988","to":"wikipedia://en/12010034","predicate":"listed-in","method":"list","confidence":"certain","span":[2800,2812],"revision":1338353932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7059985#EWGE","to":"wikipedia://en/6583544","predicate":"uses","method":"link-in-item","confidence":"high","span":[3457,3493],"revision":1340034622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7059985#EWGE","to":"wikipedia://en/6583420","predicate":"uses","method":"link-in-item","confidence":"high","span":[3663,3684],"revision":1340034622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7059985#EWGE","to":"wikipedia://en/634261","predicate":"uses","method":"link-in-item","confidence":"high","span":[3772,3789],"revision":1340034622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7059985#EWGE","to":"wikipedia://en/44775","predicate":"uses","method":"link-in-item","confidence":"high","span":[3851,3880],"revision":1340034622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7059985#EWGE","to":"wikipedia://en/1202193","predicate":"uses","method":"link-in-item","confidence":"high","span":[3975,3992],"revision":1340034622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7059985#EWGE","to":"wikipedia://en/57854817","predicate":"uses","method":"link-in-item","confidence":"high","span":[4019,4065],"revision":1340034622,"by":"importer/wikipedia/1"}

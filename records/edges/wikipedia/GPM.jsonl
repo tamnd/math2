@@ -1,0 +1,5 @@
+{"from":"wikipedia://en/191457#SKII","to":"wikipedia://en/29413562","predicate":"listed-in","method":"list","confidence":"certain","span":[80715,80746],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54316#GSDB","to":"wikipedia://en/2925","predicate":"listed-in","method":"list","confidence":"certain","span":[8575,8597],"revision":1371938805,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54316#GSDB","to":"wikipedia://en/30402","predicate":"related","method":"link-in-item","confidence":"low","span":[8606,8631],"revision":1371938805,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54316#GSDB","to":"wikipedia://en/1139338","predicate":"uses","method":"link-in-item","confidence":"high","span":[8635,8658],"revision":1371938805,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54316#GSDB","to":"wikipedia://en/24829","predicate":"uses","method":"link-in-item","confidence":"high","span":[8671,8723],"revision":1371938805,"by":"importer/wikipedia/1"}

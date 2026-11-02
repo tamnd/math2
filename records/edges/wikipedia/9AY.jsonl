@@ -1,0 +1,25 @@
+{"from":"wikipedia://en/34057414#7W0V","to":"wikipedia://en/253377","predicate":"uses","method":"link-in-item","confidence":"medium","span":[335,354],"revision":1359281099,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34057414#7W0V","to":"wikipedia://en/18153","predicate":"uses","method":"link-in-item","confidence":"high","span":[852,878],"revision":1359281099,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34057414#7W0V","to":"wikipedia://en/14922","predicate":"uses","method":"link-in-item","confidence":"high","span":[952,959],"revision":1359281099,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34057414#7W0V","to":"wikipedia://en/321481","predicate":"uses","method":"link-in-item","confidence":"high","span":[1181,1227],"revision":1359281099,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34057414#7W0V","to":"wikipedia://en/12948","predicate":"uses","method":"link-in-item","confidence":"medium","span":[1232,1264],"revision":1359281099,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82874355","to":"wikipedia://en/465183","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[259,285],"revision":1369945828,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82874355","to":"wikipedia://en/326471","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[289,314],"revision":1369945828,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82874355","to":"wikipedia://en/185793","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[325,346],"revision":1369945828,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82874355","to":"wikipedia://en/378111","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[354,375],"revision":1369945828,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82874355","to":"wikipedia://en/53846","predicate":"related","method":"link-in-text","confidence":"low","span":[525,543],"revision":1369945828,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82874355","to":"wikipedia://en/15206116","predicate":"related","method":"link-in-text","confidence":"low","span":[703,733],"revision":1369945828,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82874355","to":"wikipedia://en/19817390","predicate":"related","method":"link-in-text","confidence":"low","span":[783,823],"revision":1369945828,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82874355","to":"wikipedia://en/10332","predicate":"related","method":"link-in-text","confidence":"low","span":[1001,1027],"revision":1369945828,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82874355","to":"wikipedia://en/6775665","predicate":"related","method":"link-in-text","confidence":"low","span":[1442,1472],"revision":1369945828,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82874355","to":"wikipedia://en/51270001","predicate":"related","method":"link-in-text","confidence":"low","span":[1589,1609],"revision":1369945828,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82874355","to":"wikipedia://en/9858698","predicate":"related","method":"link-in-text","confidence":"low","span":[1617,1657],"revision":1369945828,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82874355","to":"Category:Educators from Miami","predicate":"in-field","method":"category","confidence":"medium","span":[3285,3318],"revision":1369945828,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82874355","to":"Category:American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3319,3355],"revision":1369945828,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82874355","to":"Category:American women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3356,3398],"revision":1369945828,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82874355","to":"Category:African-American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3399,3443],"revision":1369945828,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82874355","to":"Category:African-American women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3444,3494],"revision":1369945828,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82874355","to":"Category:American educational psychologists","predicate":"in-field","method":"category","confidence":"medium","span":[3495,3542],"revision":1369945828,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82874355","to":"Category:American women psychologists","predicate":"in-field","method":"category","confidence":"medium","span":[3543,3584],"revision":1369945828,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82874355","to":"Category:Educational researchers","predicate":"in-field","method":"category","confidence":"medium","span":[3585,3621],"revision":1369945828,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82874355","to":"Category:Mathematics educators","predicate":"in-field","method":"category","confidence":"medium","span":[3622,3656],"revision":1369945828,"by":"importer/wikipedia/1"}

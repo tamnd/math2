@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/1072943","to":"wikipedia://en/98770","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[145,168],"revision":1330453610,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1072943","to":"wikipedia://en/228015","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[405,426],"revision":1330453610,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1072943","to":"wikipedia://en/4647594","predicate":"related","method":"link-in-text","confidence":"low","span":[718,777],"revision":1330453610,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1072943","to":"wikipedia://en/800010","predicate":"related","method":"link-in-text","confidence":"low","span":[969,1012],"revision":1330453610,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1072943","to":"wikipedia://en/9292749","predicate":"related","method":"link-in-text","confidence":"low","span":[1569,1599],"revision":1330453610,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1072943","to":"wikipedia://en/228015","predicate":"related","method":"link-in-text","confidence":"low","span":[2023,2044],"revision":1330453610,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1072943","to":"wikipedia://en/2882813","predicate":"related","method":"link-in-text","confidence":"low","span":[9784,9803],"revision":1330453610,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1072943","to":"wikipedia://en/29468","predicate":"related","method":"link-in-text","confidence":"low","span":[11633,11655],"revision":1330453610,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1072943","to":"wikipedia://en/149353","predicate":"related","method":"link-in-text","confidence":"low","span":[11995,12020],"revision":1330453610,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1072943","to":"wikipedia://en/228015","predicate":"related","method":"see-also","confidence":"low","span":[13922,13943],"revision":1330453610,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1072943","to":"wikipedia://en/9292749","predicate":"related","method":"see-also","confidence":"low","span":[13946,13976],"revision":1330453610,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1072943","to":"wikipedia://en/822778","predicate":"related","method":"see-also","confidence":"low","span":[13979,14005],"revision":1330453610,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1072943","to":"Category:Markov models","predicate":"in-field","method":"category","confidence":"medium","span":[16006,16032],"revision":1330453610,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#UD00","to":"wikipedia://en/230319","predicate":"listed-in","method":"list","confidence":"certain","span":[32498,32528],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7189385#FWXN","to":"wikipedia://en/775","predicate":"uses","method":"link-in-item","confidence":"high","span":[19347,19361],"revision":1375953677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7189385#FWXN","to":"wikipedia://en/9611","predicate":"uses","method":"link-in-item","confidence":"medium","span":[19737,19751],"revision":1375953677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7189385#FWXN","to":"wikipedia://en/8786058","predicate":"uses","method":"link-in-item","confidence":"medium","span":[20079,20121],"revision":1375953677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7189385#FWXN","to":"wikipedia://en/656283","predicate":"uses","method":"link-in-item","confidence":"medium","span":[20187,20212],"revision":1375953677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7189385#FWXN","to":"wikipedia://en/1810836","predicate":"uses","method":"link-in-item","confidence":"medium","span":[20213,20235],"revision":1375953677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7189385#FWXN","to":"wikipedia://en/82731656","predicate":"uses","method":"link-in-item","confidence":"medium","span":[21086,21109],"revision":1375953677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7189385#FWXN","to":"wikipedia://en/33853117","predicate":"uses","method":"link-in-item","confidence":"medium","span":[21525,21533],"revision":1375953677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7189385#FWXN","to":"wikipedia://en/1164","predicate":"uses","method":"link-in-item","confidence":"medium","span":[22315,22321],"revision":1375953677,"by":"importer/wikipedia/1"}

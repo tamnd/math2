@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/1207057","to":"wikipedia://en/432897","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[227,250],"revision":1355417759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1207057","to":"wikipedia://en/15993","predicate":"related","method":"link-in-lead","confidence":"low","span":[303,318],"revision":1355417759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1207057","to":"wikipedia://en/1205731","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[347,372],"revision":1355417759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1207057","to":"wikipedia://en/252176","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[692,710],"revision":1355417759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1207057","to":"wikipedia://en/2137236","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1205,1231],"revision":1355417759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1207057","to":"wikipedia://en/57122","predicate":"related","method":"link-in-text","confidence":"low","span":[3577,3601],"revision":1355417759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1207057","to":"wikipedia://en/194990","predicate":"related","method":"link-in-text","confidence":"low","span":[4373,4390],"revision":1355417759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1207057","to":"wikipedia://en/5989370","predicate":"related","method":"link-in-text","confidence":"low","span":[8477,8520],"revision":1355417759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1207057","to":"wikipedia://en/41188263","predicate":"related","method":"link-in-text","confidence":"low","span":[8524,8534],"revision":1355417759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1207057","to":"wikipedia://en/252176","predicate":"related","method":"link-in-text","confidence":"low","span":[8567,8585],"revision":1355417759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1207057","to":"wikipedia://en/542399","predicate":"related","method":"link-in-text","confidence":"low","span":[9342,9376],"revision":1355417759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1207057","to":"wikipedia://en/23470","predicate":"related","method":"link-in-text","confidence":"low","span":[9413,9437],"revision":1355417759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1207057","to":"wikipedia://en/18887940","predicate":"related","method":"link-in-text","confidence":"low","span":[9774,9842],"revision":1355417759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1207057","to":"wikipedia://en/54386","predicate":"related","method":"link-in-text","confidence":"low","span":[9865,9897],"revision":1355417759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1207057","to":"wikipedia://en/46204","predicate":"related","method":"link-in-text","confidence":"low","span":[9922,9941],"revision":1355417759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1207057","to":"wikipedia://en/3198808","predicate":"related","method":"link-in-text","confidence":"low","span":[10040,10091],"revision":1355417759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1207057","to":"wikipedia://en/54732","predicate":"related","method":"link-in-text","confidence":"low","span":[10269,10283],"revision":1355417759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1207057","to":"Category:Mechanical calculators","predicate":"in-field","method":"category","confidence":"medium","span":[10700,10735],"revision":1355417759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1207057","to":"Category:Scottish inventions","predicate":"in-field","method":"category","confidence":"medium","span":[10736,10768],"revision":1355417759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1207057","to":"Category:Multiplication","predicate":"in-field","method":"category","confidence":"medium","span":[10769,10796],"revision":1355417759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#6FSO","to":"wikipedia://en/472877","predicate":"listed-in","method":"list","confidence":"certain","span":[61167,61201],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#6FSO","to":"wikipedia://en/472877","predicate":"uses","method":"link-in-item","confidence":"high","span":[61231,61252],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/356213#2KTJ","to":"wikipedia://en/65799363","predicate":"listed-in","method":"list","confidence":"certain","span":[5803,5823],"revision":1359895470,"by":"importer/wikipedia/1"}

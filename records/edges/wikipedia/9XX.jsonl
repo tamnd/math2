@@ -1,0 +1,20 @@
+{"from":"wikipedia://en/1403586#PPVR","to":"wikipedia://en/15864239","predicate":"listed-in","method":"list","confidence":"certain","span":[34852,34886],"revision":1375861581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1403586#PPVR","to":"wikipedia://en/996674","predicate":"uses","method":"link-in-item","confidence":"medium","span":[34922,34949],"revision":1375861581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#UN0G","to":"wikipedia://en/3509530","predicate":"listed-in","method":"list","confidence":"certain","span":[71858,71881],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38755088#R5JO","to":"wikipedia://en/13188002","predicate":"listed-in","method":"list","confidence":"certain","span":[3078,3128],"revision":1369154077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4258398","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[68,83],"revision":1374466067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4258398","to":"wikipedia://en/185427","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[243,278],"revision":1374466067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4258398","to":"wikipedia://en/6042","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[336,354],"revision":1374466067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4258398","to":"wikipedia://en/23577","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[362,386],"revision":1374466067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4258398","to":"wikipedia://en/340630","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[449,467],"revision":1374466067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4258398","to":"wikipedia://en/45194","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[482,523],"revision":1374466067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4258398","to":"wikipedia://en/6042","predicate":"related","method":"see-also","confidence":"low","span":[26089,26104],"revision":1374466067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4258398","to":"wikipedia://en/51955","predicate":"related","method":"see-also","confidence":"low","span":[26106,26136],"revision":1374466067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4258398","to":"wikipedia://en/4258134","predicate":"related","method":"see-also","confidence":"low","span":[26138,26168],"revision":1374466067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4258398","to":"wikipedia://en/5766547","predicate":"related","method":"see-also","confidence":"low","span":[26170,26206],"revision":1374466067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4258398","to":"wikipedia://en/26064288","predicate":"related","method":"see-also","confidence":"low","span":[26208,26229],"revision":1374466067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4258398","to":"wikipedia://en/45194","predicate":"related","method":"see-also","confidence":"low","span":[26231,26243],"revision":1374466067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4258398","to":"Category:Measure theory","predicate":"in-field","method":"category","confidence":"medium","span":[33930,33957],"revision":1374466067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4258398","to":"Category:Integral calculus","predicate":"in-field","method":"category","confidence":"medium","span":[33958,33988],"revision":1374466067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4258398","to":"Category:Types of functions","predicate":"kind-of","method":"category","confidence":"medium","span":[33989,34020],"revision":1374466067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4258398","to":"Category:Lp spaces","predicate":"in-field","method":"category","confidence":"medium","span":[34021,34043],"revision":1374466067,"by":"importer/wikipedia/1"}

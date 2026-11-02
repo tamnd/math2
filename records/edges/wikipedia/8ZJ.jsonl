@@ -1,0 +1,31 @@
+{"from":"wikipedia://en/2346823","to":"wikipedia://en/12401","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[91,107],"revision":1368876410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2346823","to":"wikipedia://en/19721986","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[184,202],"revision":1368876410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2346823","to":"wikipedia://en/638899","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[282,316],"revision":1368876410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2346823","to":"wikipedia://en/26691","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[469,494],"revision":1368876410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2346823","to":"wikipedia://en/3166399","predicate":"related","method":"link-in-lead","confidence":"low","span":[1156,1185],"revision":1368876410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2346823","to":"wikipedia://en/404404","predicate":"related","method":"link-in-lead","confidence":"low","span":[1266,1280],"revision":1368876410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2346823","to":"wikipedia://en/9087","predicate":"related","method":"link-in-text","confidence":"low","span":[2855,2876],"revision":1368876410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2346823","to":"wikipedia://en/5642583","predicate":"related","method":"link-in-text","confidence":"low","span":[2890,2910],"revision":1368876410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2346823","to":"wikipedia://en/1501024","predicate":"related","method":"link-in-text","confidence":"low","span":[3187,3204],"revision":1368876410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2346823","to":"wikipedia://en/1501024","predicate":"related","method":"link-in-text","confidence":"low","span":[3285,3314],"revision":1368876410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2346823","to":"wikipedia://en/5456824","predicate":"related","method":"link-in-text","confidence":"low","span":[3353,3364],"revision":1368876410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2346823","to":"wikipedia://en/467384","predicate":"related","method":"link-in-text","confidence":"low","span":[3422,3446],"revision":1368876410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2346823","to":"wikipedia://en/51423","predicate":"related","method":"link-in-text","confidence":"low","span":[3452,3485],"revision":1368876410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2346823","to":"wikipedia://en/701207","predicate":"related","method":"link-in-text","confidence":"low","span":[3760,3774],"revision":1368876410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2346823","to":"wikipedia://en/1986265","predicate":"related","method":"link-in-text","confidence":"low","span":[3901,3928],"revision":1368876410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2346823","to":"wikipedia://en/46183215","predicate":"related","method":"link-in-text","confidence":"low","span":[4293,4309],"revision":1368876410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2346823","to":"wikipedia://en/3987703","predicate":"related","method":"link-in-text","confidence":"low","span":[4357,4375],"revision":1368876410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2346823","to":"wikipedia://en/5980981","predicate":"related","method":"see-also","confidence":"low","span":[5681,5700],"revision":1368876410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2346823","to":"wikipedia://en/8046549","predicate":"related","method":"see-also","confidence":"low","span":[5703,5720],"revision":1368876410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2346823","to":"wikipedia://en/7815113","predicate":"related","method":"see-also","confidence":"low","span":[5723,5738],"revision":1368876410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2346823","to":"Category:Dynamical systems","predicate":"in-field","method":"category","confidence":"medium","span":[12192,12222],"revision":1368876410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2346823","to":"Category:Automata (computation)","predicate":"in-field","method":"category","confidence":"medium","span":[12223,12258],"revision":1368876410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2346823","to":"Category:Parametric families of graphs","predicate":"in-field","method":"category","confidence":"medium","span":[12259,12301],"revision":1368876410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2346823","to":"Category:Directed graphs","predicate":"in-field","method":"category","confidence":"medium","span":[12302,12330],"revision":1368876410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/242727#SCCG","to":"wikipedia://en/47756","predicate":"listed-in","method":"list","confidence":"certain","span":[874,898],"revision":1375043341,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#EGSP","to":"wikipedia://en/80421297","predicate":"listed-in","method":"list","confidence":"certain","span":[99472,99494],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72586#V9GP","to":"wikipedia://en/1129156","predicate":"uses","method":"link-in-item","confidence":"high","span":[14305,14328],"revision":1371407601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72586#V9GP","to":"wikipedia://en/18596","predicate":"uses","method":"link-in-item","confidence":"medium","span":[15205,15217],"revision":1371407601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72586#V9GP","to":"wikipedia://en/682409","predicate":"uses","method":"link-in-item","confidence":"medium","span":[15239,15259],"revision":1371407601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72586#V9GP","to":"wikipedia://en/29688374","predicate":"related","method":"link-in-item","confidence":"low","span":[15271,15290],"revision":1371407601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72586#V9GP","to":"wikipedia://en/442636","predicate":"uses","method":"link-in-item","confidence":"medium","span":[15312,15332],"revision":1371407601,"by":"importer/wikipedia/1"}

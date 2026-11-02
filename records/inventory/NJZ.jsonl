@@ -1,1 +1,6 @@
+{"id":"NJZ3M0D4EY","mentions":["wikipedia://en/75500914"],"kind":"definition","name":"E-values","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NJZEZ77WXB","mentions":["wikipedia://en/615354#FZPS"],"kind":"unknown","name":"Madame X (device)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NJZP045XZ4","mentions":["wikipedia://en/191457#BWMY","wikipedia://en/398810#HJHU"],"kind":"definition","name":"Line chart","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NJZRBENXC8","mentions":["wikipedia://en/57781155#CRPR"],"kind":"definition","name":"Enumeration","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NJZXPME0XF","mentions":["ax://paper/2609.21258#5PBW"],"kind":"statement","msc":["60-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
+{"id":"NJZXVYES5K","mentions":["wikipedia://en/208292"],"kind":"definition","name":"19","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

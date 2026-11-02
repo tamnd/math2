@@ -1,3 +1,7 @@
 {"id":"DKK145MNNN","mentions":["m2://rec/austin_ula/src/section6-5.xml#proposition-1#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"DKK6Z335NE","mentions":["ax://paper/2610.14189#QLVT"],"kind":"statement","msc":["14-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
+{"id":"DKK96AWQ5K","mentions":["wikipedia://en/59503919#GGBT"],"kind":"statement","name":"Gauss's formulas","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"DKKATC7APW","mentions":["wikipedia://en/4922792#XLUF"],"kind":"definition","name":"Algorithms","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"DKKEAX8NEC","mentions":["m2://rec/wikidata/Q12142910#1"],"kind":"topic","name":"fluid flow","msc":["76D05"],"layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"DKKK5KKBTN","mentions":["wikipedia://en/15315059#EXZV"],"kind":"topic","name":"Jerzy Neyman","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"DKKMWDCPH1","mentions":["wikipedia://en/191457#0BYB"],"kind":"statement","name":"Meadow's law","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

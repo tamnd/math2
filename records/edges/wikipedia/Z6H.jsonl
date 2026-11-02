@@ -1,0 +1,19 @@
+{"from":"wikipedia://en/16727714","to":"wikipedia://en/3921","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3,17],"revision":1181690844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16727714","to":"wikipedia://en/1005220","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[538,550],"revision":1181690844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16727714","to":"wikipedia://en/1000246","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[752,783],"revision":1181690844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16727714","to":"wikipedia://en/3989047","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[785,820],"revision":1181690844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16727714","to":"wikipedia://en/3989322","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[826,851],"revision":1181690844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16727714","to":"wikipedia://en/1701940","predicate":"related","method":"link-in-text","confidence":"low","span":[1169,1187],"revision":1181690844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16727714","to":"wikipedia://en/12176914","predicate":"related","method":"link-in-text","confidence":"low","span":[1190,1205],"revision":1181690844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16727714","to":"wikipedia://en/30721097","predicate":"related","method":"link-in-text","confidence":"low","span":[1208,1223],"revision":1181690844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16727714","to":"Category:Basketball statistics","predicate":"in-field","method":"category","confidence":"medium","span":[1521,1555],"revision":1181690844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#3MS8","to":"wikipedia://en/15180479","predicate":"listed-in","method":"list","confidence":"certain","span":[32587,32601],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/291644#NZ0H","to":"wikipedia://en/30505550","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[9436,9457],"revision":1354575400,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/291644#NZ0H","to":"wikipedia://en/4770099","predicate":"uses","method":"link-in-item","confidence":"high","span":[9538,9560],"revision":1354575400,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/291644#NZ0H","to":"wikipedia://en/3140923","predicate":"uses","method":"link-in-item","confidence":"high","span":[9596,9617],"revision":1354575400,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/291644#NZ0H","to":"wikipedia://en/3129","predicate":"uses","method":"link-in-item","confidence":"high","span":[9627,9648],"revision":1354575400,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3932847#Z2WJ","to":"wikipedia://en/1166251","predicate":"listed-in","method":"list","confidence":"certain","span":[1293,1302],"revision":1367994626,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#JB41","to":"wikipedia://en/57314","predicate":"listed-in","method":"list","confidence":"certain","span":[15119,15133],"revision":1356718736,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#JB41","to":"wikipedia://en/428545","predicate":"uses","method":"link-in-item","confidence":"medium","span":[15143,15165],"revision":1356718736,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#JB41","to":"wikipedia://en/458253","predicate":"uses","method":"link-in-item","confidence":"high","span":[15179,15197],"revision":1356718736,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/709567#KAQJ","to":"wikipedia://en/542326","predicate":"listed-in","method":"list","confidence":"certain","span":[784,809],"revision":1356078210,"by":"importer/wikipedia/1"}

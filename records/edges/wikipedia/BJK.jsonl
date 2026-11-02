@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/1403586#J0RK","to":"wikipedia://en/6045713","predicate":"listed-in","method":"list","confidence":"certain","span":[28395,28410],"revision":1375861581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17336523","to":"wikipedia://en/14511671","predicate":"related","method":"hatnote","confidence":"medium","span":[11,33],"revision":933216821,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17336523","to":"wikipedia://en/57987","predicate":"related","method":"link-in-lead","confidence":"low","span":[50,67],"revision":933216821,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17336523","to":"wikipedia://en/46426065","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[72,81],"revision":933216821,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17336523","to":"wikipedia://en/396102","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[232,249],"revision":933216821,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17336523","to":"wikipedia://en/7791994","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[286,306],"revision":933216821,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17336523","to":"wikipedia://en/14511671","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[616,643],"revision":933216821,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17336523","to":"wikipedia://en/188401","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[908,939],"revision":933216821,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17336523","to":"wikipedia://en/10174","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[944,966],"revision":933216821,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17336523","to":"wikipedia://en/396102","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1103,1120],"revision":933216821,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17336523","to":"wikipedia://en/43854","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1131,1142],"revision":933216821,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17336523","to":"Category:Semantics","predicate":"in-field","method":"category","confidence":"medium","span":[3228,3250],"revision":933216821,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17336523","to":"Category:Formal languages","predicate":"in-field","method":"category","confidence":"medium","span":[3251,3280],"revision":933216821,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17336523","to":"Category:Interpretation (philosophy)","predicate":"in-field","method":"category","confidence":"medium","span":[3281,3321],"revision":933216821,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35457783#VXCC","to":"wikipedia://en/1693055","predicate":"uses","method":"link-in-item","confidence":"high","span":[24628,24648],"revision":1351541925,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35457783#VXCC","to":"wikipedia://en/1693055","predicate":"uses","method":"link-in-item","confidence":"high","span":[24740,24756],"revision":1351541925,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35457783#VXCC","to":"wikipedia://en/62736148","predicate":"uses","method":"link-in-item","confidence":"high","span":[24782,24803],"revision":1351541925,"by":"importer/wikipedia/1"}

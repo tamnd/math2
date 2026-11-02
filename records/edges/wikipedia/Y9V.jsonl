@@ -1,0 +1,18 @@
+{"from":"wikipedia://en/23630747","to":"wikipedia://en/19774918","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[230,254],"revision":1224311661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23630747","to":"wikipedia://en/11808249","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[430,495],"revision":1224311661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23630747","to":"wikipedia://en/513091","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[526,565],"revision":1224311661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23630747","to":"wikipedia://en/45470","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[855,868],"revision":1224311661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23630747","to":"wikipedia://en/367623","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[869,880],"revision":1224311661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23630747","to":"wikipedia://en/29485","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[895,910],"revision":1224311661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23630747","to":"wikipedia://en/17860","predicate":"related","method":"link-in-text","confidence":"low","span":[1097,1110],"revision":1224311661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23630747","to":"wikipedia://en/554994","predicate":"related","method":"link-in-text","confidence":"low","span":[1130,1153],"revision":1224311661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23630747","to":"wikipedia://en/513091","predicate":"related","method":"link-in-text","confidence":"low","span":[1163,1197],"revision":1224311661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23630747","to":"Template:Commons category","predicate":"in-nav","method":"nav","confidence":"low","span":[1556,1591],"revision":1224311661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23630747","to":"Category:Statistical charts and diagrams","predicate":"in-field","method":"category","confidence":"medium","span":[1593,1637],"revision":1224311661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23630747","to":"Category:Genetic epidemiology","predicate":"in-field","method":"category","confidence":"medium","span":[1638,1671],"revision":1224311661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23630747","to":"Category:Single-nucleotide polymorphisms","predicate":"in-field","method":"category","confidence":"medium","span":[1672,1716],"revision":1224311661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3094760#9A3A","to":"wikipedia://en/30606","predicate":"uses","method":"link-in-item","confidence":"high","span":[4193,4208],"revision":1348690872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3094760#9A3A","to":"wikipedia://en/1698977","predicate":"uses","method":"link-in-item","confidence":"high","span":[4318,4344],"revision":1348690872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3094760#9A3A","to":"wikipedia://en/493527","predicate":"uses","method":"link-in-item","confidence":"high","span":[4793,4823],"revision":1348690872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3094760#9A3A","to":"wikipedia://en/1160","predicate":"uses","method":"link-in-item","confidence":"high","span":[4826,4842],"revision":1348690872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3094760#9A3A","to":"wikipedia://en/1817790","predicate":"uses","method":"link-in-item","confidence":"high","span":[4960,4974],"revision":1348690872,"by":"importer/wikipedia/1"}

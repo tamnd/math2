@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/191457#1J2O","to":"wikipedia://en/1761545","predicate":"listed-in","method":"list","confidence":"certain","span":[48577,48606],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#K23D","to":"wikipedia://en/7096313","predicate":"listed-in","method":"list","confidence":"certain","span":[15442,15472],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36805017","to":"wikipedia://en/23542","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[163,185],"revision":1375355162,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36805017","to":"wikipedia://en/22961","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[254,291],"revision":1375355162,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36805017","to":"wikipedia://en/27593","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[301,346],"revision":1375355162,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36805017","to":"wikipedia://en/801135","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[920,948],"revision":1375355162,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36805017","to":"wikipedia://en/801135","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3133,3161],"revision":1375355162,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36805017","to":"Category:Independence (probability theory)","predicate":"in-field","method":"category","confidence":"medium","span":[7867,7913],"revision":1375355162,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41932#ENTY","to":"wikipedia://en/205393","predicate":"uses","method":"link-in-item","confidence":"high","span":[12542,12567],"revision":1373730938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41932#ENTY","to":"wikipedia://en/43286898","predicate":"uses","method":"link-in-item","confidence":"high","span":[12688,12706],"revision":1373730938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41932#ENTY","to":"wikipedia://en/43286898","predicate":"uses","method":"link-in-item","confidence":"high","span":[12711,12729],"revision":1373730938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41932#ENTY","to":"wikipedia://en/30688232","predicate":"related","method":"link-in-item","confidence":"low","span":[13331,13365],"revision":1373730938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41932#ENTY","to":"wikipedia://en/4813359","predicate":"uses","method":"link-in-item","confidence":"high","span":[13931,13945],"revision":1373730938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41932#ENTY","to":"wikipedia://en/14343887","predicate":"uses","method":"link-in-item","confidence":"high","span":[15186,15220],"revision":1373730938,"by":"importer/wikipedia/1"}

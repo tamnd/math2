@@ -1,0 +1,19 @@
+{"from":"wikipedia://en/29044559#35ZQ","to":"wikipedia://en/567667","predicate":"uses","method":"link-in-item","confidence":"high","span":[651,679],"revision":1334026150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29044559#35ZQ","to":"wikipedia://en/213650","predicate":"uses","method":"link-in-item","confidence":"high","span":[1178,1196],"revision":1334026150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66860#W8QI","to":"wikipedia://en/2780664","predicate":"listed-in","method":"list","confidence":"certain","span":[355,394],"revision":1314357275,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/882410","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[73,88],"revision":1359404698,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/882410","to":"wikipedia://en/14563","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[132,143],"revision":1359404698,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/882410","to":"wikipedia://en/246160","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[176,193],"revision":1359404698,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/882410","to":"wikipedia://en/49492","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[205,224],"revision":1359404698,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/882410","to":"wikipedia://en/12374274","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[301,316],"revision":1359404698,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/882410","to":"wikipedia://en/10713305","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[361,387],"revision":1359404698,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/882410","to":"wikipedia://en/601284","predicate":"related","method":"link-in-text","confidence":"low","span":[4368,4383],"revision":1359404698,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/882410","to":"wikipedia://en/1819983","predicate":"related","method":"link-in-text","confidence":"low","span":[4554,4573],"revision":1359404698,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/882410","to":"wikipedia://en/486266","predicate":"related","method":"see-also","confidence":"low","span":[4723,4743],"revision":1359404698,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/882410","to":"wikipedia://en/748422","predicate":"related","method":"see-also","confidence":"low","span":[4746,4760],"revision":1359404698,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/882410","to":"wikipedia://en/758718","predicate":"related","method":"see-also","confidence":"low","span":[4763,4779],"revision":1359404698,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/882410","to":"wikipedia://en/321930","predicate":"related","method":"see-also","confidence":"low","span":[4782,4798],"revision":1359404698,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/882410","to":"Template:Classes of natural numbers","predicate":"in-nav","method":"nav","confidence":"low","span":[5223,5253],"revision":1359404698,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/882410","to":"Category:Arithmetic dynamics","predicate":"in-field","method":"category","confidence":"medium","span":[5275,5307],"revision":1359404698,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/882410","to":"Category:Divisor function","predicate":"in-field","method":"category","confidence":"medium","span":[5308,5337],"revision":1359404698,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/882410","to":"Category:Integer sequences","predicate":"kind-of","method":"category","confidence":"medium","span":[5338,5368],"revision":1359404698,"by":"importer/wikipedia/1"}

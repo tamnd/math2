@@ -1,1 +1,6 @@
+{"id":"FM21JAJ837","mentions":["wikipedia://en/70210267#RJDX"],"kind":"statement","name":"Generalizations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FM25BCFH76","mentions":["wikipedia://en/23745967"],"kind":"topic","name":"Elisha Netanyahu","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"FM26CKW50V","mentions":["ax://paper/2610.18600#03YL"],"kind":"definition","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
+{"id":"FM2AZNNN8W","mentions":["wikipedia://en/4079010#WY6T"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FM2CECZFJ3","mentions":["wikipedia://en/398810#YRCL"],"kind":"unknown","name":"IDEF","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FM2FX221QA","mentions":["wikipedia://en/55918390"],"kind":"definition","name":"Polynomial functor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

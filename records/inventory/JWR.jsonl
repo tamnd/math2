@@ -1,1 +1,5 @@
+{"id":"JWR814FJ64","mentions":["wikipedia://en/36020629#WVNP"],"kind":"statement","name":"Special cases","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"JWREJWMFQR","mentions":["wikipedia://en/38755088#Y920"],"kind":"unknown","name":"Dover","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JWRJ6N7HZX","mentions":["ax://paper/2609.22514#X9OY"],"kind":"statement","msc":["05-XX","60-XX","81-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.17"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.17"}]}
+{"id":"JWRPY0CG2F","mentions":["wikipedia://en/927236"],"kind":"definition","name":"Convergence of Fourier series","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"JWRT3F6THP","mentions":["wikipedia://en/660973#W2Z9"],"kind":"unknown","name":"Conformal anomaly","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

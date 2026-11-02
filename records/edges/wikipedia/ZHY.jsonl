@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/15992030","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1192539272,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15992030","to":"wikipedia://en/220425","predicate":"related","method":"link-in-lead","confidence":"low","span":[56,118],"revision":1192539272,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15992030","to":"wikipedia://en/20646438","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[125,140],"revision":1192539272,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15992030","to":"wikipedia://en/59958","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[663,679],"revision":1192539272,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15992030","to":"wikipedia://en/374220","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[694,708],"revision":1192539272,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15992030","to":"wikipedia://en/1301559","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[800,826],"revision":1192539272,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15992030","to":"wikipedia://en/15991830","predicate":"related","method":"see-also","confidence":"low","span":[1008,1027],"revision":1192539272,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15992030","to":"Category:Sets of real numbers","predicate":"in-field","method":"category","confidence":"medium","span":[1075,1108],"revision":1192539272,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/203565#3QDB","to":"wikipedia://en/252670","predicate":"uses","method":"link-in-item","confidence":"high","span":[40578,40623],"revision":1360994511,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38234611#QAOS","to":"wikipedia://en/10603","predicate":"uses","method":"link-in-item","confidence":"high","span":[9162,9191],"revision":1311962043,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/527369#4ZAD","to":"wikipedia://en/39402871","predicate":"listed-in","method":"list","confidence":"certain","span":[17459,17512],"revision":1375679821,"by":"importer/wikipedia/1"}

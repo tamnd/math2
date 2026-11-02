@@ -1,0 +1,34 @@
+{"from":"wikipedia://en/31976290","to":"wikipedia://en/21506","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[243,297],"revision":1318601171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31976290","to":"wikipedia://en/6243282","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[370,390],"revision":1318601171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31976290","to":"wikipedia://en/18233581","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[488,513],"revision":1318601171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31976290","to":"wikipedia://en/458866","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[539,558],"revision":1318601171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31976290","to":"wikipedia://en/11034","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[570,588],"revision":1318601171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31976290","to":"wikipedia://en/21834","predicate":"related","method":"link-in-text","confidence":"low","span":[14919,14931],"revision":1318601171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31976290","to":"wikipedia://en/1408000","predicate":"related","method":"link-in-text","confidence":"low","span":[14948,14983],"revision":1318601171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31976290","to":"wikipedia://en/50909","predicate":"related","method":"link-in-text","confidence":"low","span":[15024,15042],"revision":1318601171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31976290","to":"wikipedia://en/18233581","predicate":"related","method":"see-also","confidence":"low","span":[16092,16117],"revision":1318601171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31976290","to":"wikipedia://en/6243282","predicate":"related","method":"see-also","confidence":"low","span":[16120,16140],"revision":1318601171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31976290","to":"wikipedia://en/31979697","predicate":"related","method":"see-also","confidence":"low","span":[16143,16165],"revision":1318601171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31976290","to":"wikipedia://en/56032130","predicate":"related","method":"see-also","confidence":"low","span":[16168,16191],"revision":1318601171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31976290","to":"Category:Continuum mechanics","predicate":"in-field","method":"category","confidence":"medium","span":[16338,16370],"revision":1318601171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31976290","to":"Category:Finite element method","predicate":"in-field","method":"category","confidence":"medium","span":[16371,16405],"revision":1318601171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31976290","to":"Category:Numerical differential equations","predicate":"in-field","method":"category","confidence":"medium","span":[16406,16451],"revision":1318601171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31976290","to":"Category:Partial differential equations","predicate":"in-field","method":"category","confidence":"medium","span":[16452,16495],"revision":1318601171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31976290","to":"Category:Structural analysis","predicate":"in-field","method":"category","confidence":"medium","span":[16496,16528],"revision":1318601171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32854935","to":"wikipedia://en/26779","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[262,278],"revision":1356956372,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32854935","to":"wikipedia://en/31453","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[291,303],"revision":1356956372,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32854935","to":"wikipedia://en/6310","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[326,349],"revision":1356956372,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32854935","to":"wikipedia://en/1554430","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[438,459],"revision":1356956372,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32854935","to":"wikipedia://en/136889","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[484,506],"revision":1356956372,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32854935","to":"wikipedia://en/2425761","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[526,573],"revision":1356956372,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32854935","to":"wikipedia://en/125011","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[577,600],"revision":1356956372,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32854935","to":"wikipedia://en/20556798","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[630,668],"revision":1356956372,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32854935","to":"wikipedia://en/3046549","predicate":"related","method":"see-also","confidence":"low","span":[3850,3872],"revision":1356956372,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32854935","to":"wikipedia://en/1186896","predicate":"related","method":"see-also","confidence":"low","span":[3875,3906],"revision":1356956372,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32854935","to":"Category:Soviet mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4784,4818],"revision":1356956372,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32854935","to":"Category:Soviet emigrants to the United States","predicate":"in-field","method":"category","confidence":"medium","span":[4869,4919],"revision":1356956372,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32854935","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4961,5010],"revision":1356956372,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32854935","to":"Category:Algebraic geometers","predicate":"in-field","method":"category","confidence":"medium","span":[5011,5043],"revision":1356956372,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32854935","to":"Category:Soviet dissidents","predicate":"in-field","method":"category","confidence":"medium","span":[5044,5074],"revision":1356956372,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32854935","to":"Category:Scientists from Odesa","predicate":"in-field","method":"category","confidence":"medium","span":[5075,5109],"revision":1356956372,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32854935","to":"Category:Jews from Odesa","predicate":"in-field","method":"category","confidence":"medium","span":[5154,5182],"revision":1356956372,"by":"importer/wikipedia/1"}

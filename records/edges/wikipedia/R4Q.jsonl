@@ -1,0 +1,20 @@
+{"from":"wikipedia://en/1693123","to":"wikipedia://en/501828","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[582,597],"revision":1368414515,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1693123","to":"wikipedia://en/31742","predicate":"related","method":"link-in-text","confidence":"low","span":[679,690],"revision":1368414515,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1693123","to":"wikipedia://en/18195","predicate":"related","method":"link-in-text","confidence":"low","span":[1153,1162],"revision":1368414515,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1693123","to":"Template:Wiktionary","predicate":"in-nav","method":"nav","confidence":"low","span":[9401,9415],"revision":1368414515,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1693123","to":"Category:Mathematical symbols","predicate":"in-field","method":"category","confidence":"medium","span":[9461,9494],"revision":1368414515,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1693123","to":"Category:Logic symbols","predicate":"in-field","method":"category","confidence":"medium","span":[9495,9521],"revision":1368414515,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43580500#MPVB","to":"wikipedia://en/13668903","predicate":"uses","method":"link-in-item","confidence":"medium","span":[71550,71574],"revision":1360947732,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65601334#ZZEC","to":"wikipedia://en/12910","predicate":"uses","method":"link-in-item","confidence":"high","span":[3602,3632],"revision":1375068699,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65601334#ZZEC","to":"wikipedia://en/30450","predicate":"generalizes","method":"link-in-item","confidence":"medium","span":[3695,3716],"revision":1375068699,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65601334#ZZEC","to":"wikipedia://en/2042","predicate":"generalizes","method":"link-in-item","confidence":"medium","span":[3737,3776],"revision":1375068699,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65601334#ZZEC","to":"wikipedia://en/191788","predicate":"uses","method":"link-in-item","confidence":"high","span":[4456,4489],"revision":1375068699,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65601334#ZZEC","to":"wikipedia://en/26411","predicate":"uses","method":"link-in-item","confidence":"high","span":[4713,4730],"revision":1375068699,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65601334#ZZEC","to":"wikipedia://en/372399","predicate":"uses","method":"link-in-item","confidence":"high","span":[4772,4793],"revision":1375068699,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65601334#ZZEC","to":"wikipedia://en/37291","predicate":"uses","method":"link-in-item","confidence":"high","span":[4820,4838],"revision":1375068699,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65601334#ZZEC","to":"wikipedia://en/1816636","predicate":"related","method":"hatnote","confidence":"medium","span":[4960,4997],"revision":1375068699,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65601334#ZZEC","to":"wikipedia://en/364754","predicate":"uses","method":"link-in-item","confidence":"high","span":[5095,5127],"revision":1375068699,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65601334#ZZEC","to":"wikipedia://en/2119219","predicate":"uses","method":"link-in-item","confidence":"high","span":[5129,5149],"revision":1375068699,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65601334#ZZEC","to":"wikipedia://en/56444110","predicate":"uses","method":"link-in-item","confidence":"high","span":[5314,5357],"revision":1375068699,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65601334#ZZEC","to":"wikipedia://en/52580781","predicate":"uses","method":"link-in-item","confidence":"high","span":[5420,5453],"revision":1375068699,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65601334#ZZEC","to":"wikipedia://en/540476","predicate":"uses","method":"link-in-item","confidence":"high","span":[5478,5492],"revision":1375068699,"by":"importer/wikipedia/1"}

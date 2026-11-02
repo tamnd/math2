@@ -1,0 +1,25 @@
+{"from":"wikipedia://en/191457#FKWO","to":"wikipedia://en/7984768","predicate":"listed-in","method":"list","confidence":"certain","span":[52003,52034],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3989092#4R9X","to":"wikipedia://en/981915","predicate":"uses","method":"link-in-item","confidence":"high","span":[662,711],"revision":1345105003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3989092#4R9X","to":"wikipedia://en/253260","predicate":"uses","method":"link-in-item","confidence":"high","span":[712,731],"revision":1345105003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3989092#4R9X","to":"wikipedia://en/61891","predicate":"uses","method":"link-in-item","confidence":"high","span":[741,770],"revision":1345105003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3989092#4R9X","to":"wikipedia://en/28730822","predicate":"uses","method":"link-in-item","confidence":"high","span":[792,808],"revision":1345105003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3989092#4R9X","to":"wikipedia://en/298834","predicate":"uses","method":"link-in-item","confidence":"high","span":[829,845],"revision":1345105003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3989092#4R9X","to":"wikipedia://en/460613","predicate":"uses","method":"link-in-item","confidence":"high","span":[945,965],"revision":1345105003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/490054#8HZ9","to":"wikipedia://en/146738","predicate":"listed-in","method":"list","confidence":"certain","span":[4448,4481],"revision":1375638236,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/669942#YXXB","to":"wikipedia://en/25723","predicate":"uses","method":"link-in-item","confidence":"high","span":[101,122],"revision":1371585137,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/669942#YXXB","to":"wikipedia://en/16750","predicate":"uses","method":"link-in-item","confidence":"high","span":[206,222],"revision":1371585137,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75418219","to":"wikipedia://en/4612901","predicate":"related","method":"link-in-lead","confidence":"low","span":[761,783],"revision":1340232077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75418219","to":"wikipedia://en/1251937","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1053,1081],"revision":1340232077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75418219","to":"wikipedia://en/38218","predicate":"related","method":"link-in-text","confidence":"low","span":[2984,3011],"revision":1340232077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75418219","to":"wikipedia://en/46044","predicate":"related","method":"link-in-text","confidence":"low","span":[3509,3530],"revision":1340232077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75418219","to":"wikipedia://en/322956","predicate":"related","method":"link-in-text","confidence":"low","span":[3958,3973],"revision":1340232077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75418219","to":"wikipedia://en/73199","predicate":"related","method":"link-in-text","confidence":"low","span":[4107,4137],"revision":1340232077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75418219","to":"wikipedia://en/4503364","predicate":"related","method":"link-in-text","confidence":"low","span":[4141,4163],"revision":1340232077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75418219","to":"wikipedia://en/1251967","predicate":"related","method":"link-in-text","confidence":"low","span":[4250,4280],"revision":1340232077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75418219","to":"wikipedia://en/1276686","predicate":"related","method":"link-in-text","confidence":"low","span":[4284,4306],"revision":1340232077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75418219","to":"wikipedia://en/63120368","predicate":"related","method":"see-also","confidence":"low","span":[4434,4465],"revision":1340232077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75418219","to":"Category:1993 non-fiction books","predicate":"in-field","method":"category","confidence":"medium","span":[4560,4595],"revision":1340232077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75418219","to":"Category:French non-fiction books","predicate":"in-field","method":"category","confidence":"medium","span":[4596,4633],"revision":1340232077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75418219","to":"Category:History books about science","predicate":"in-field","method":"category","confidence":"medium","span":[4634,4674],"revision":1340232077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75418219","to":"Category:History of probability and statistics","predicate":"in-field","method":"category","confidence":"medium","span":[4675,4725],"revision":1340232077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75418219","to":"Category:Science and technology studies","predicate":"in-field","method":"category","confidence":"medium","span":[4726,4769],"revision":1340232077,"by":"importer/wikipedia/1"}

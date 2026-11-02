@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/2119266","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[96,111],"revision":1345701940,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2119266","to":"wikipedia://en/20598932","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[141,158],"revision":1345701940,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2119266","to":"wikipedia://en/285773","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[162,201],"revision":1345701940,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2119266","to":"wikipedia://en/27838","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[207,219],"revision":1345701940,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2119266","to":"wikipedia://en/33662","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[237,254],"revision":1345701940,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2119266","to":"wikipedia://en/496315","predicate":"related","method":"see-also","confidence":"low","span":[6359,6382],"revision":1345701940,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2119266","to":"Template:Functional analysis","predicate":"in-nav","method":"nav","confidence":"low","span":[6530,6553],"revision":1345701940,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2119266","to":"Category:Convergence (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[6605,6643],"revision":1345701940,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2119266","to":"Category:Hilbert spaces","predicate":"in-field","method":"category","confidence":"medium","span":[6644,6671],"revision":1345701940,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#0ZKJ","to":"wikipedia://en/295917","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[56172,56199],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38274557#1IDY","to":"wikipedia://en/3405595","predicate":"listed-in","method":"list","confidence":"certain","span":[4184,4202],"revision":1376231166,"by":"importer/wikipedia/1"}

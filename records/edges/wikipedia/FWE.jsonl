@@ -1,0 +1,54 @@
+{"from":"wikipedia://en/1042164#TPU9","to":"wikipedia://en/276894","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[27422,27442],"revision":1373591613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1042164#TPU9","to":"wikipedia://en/276894","predicate":"uses","method":"link-in-item","confidence":"high","span":[27490,27544],"revision":1373591613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11275293","to":"wikipedia://en/41890","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1936,1952],"revision":1372376439,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11275293","to":"wikipedia://en/25978572","predicate":"related","method":"link-in-text","confidence":"low","span":[2321,2348],"revision":1372376439,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11275293","to":"wikipedia://en/1655033","predicate":"related","method":"link-in-text","confidence":"low","span":[2355,2370],"revision":1372376439,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11275293","to":"wikipedia://en/32127","predicate":"related","method":"link-in-text","confidence":"low","span":[2459,2484],"revision":1372376439,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11275293","to":"wikipedia://en/18879","predicate":"related","method":"link-in-text","confidence":"low","span":[2501,2508],"revision":1372376439,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11275293","to":"wikipedia://en/61115","predicate":"related","method":"link-in-text","confidence":"low","span":[2571,2596],"revision":1372376439,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11275293","to":"wikipedia://en/10387568","predicate":"related","method":"link-in-text","confidence":"low","span":[2670,2743],"revision":1372376439,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11275293","to":"wikipedia://en/83250","predicate":"related","method":"link-in-text","confidence":"low","span":[2751,2813],"revision":1372376439,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11275293","to":"wikipedia://en/4939270","predicate":"related","method":"link-in-text","confidence":"low","span":[3032,3057],"revision":1372376439,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11275293","to":"wikipedia://en/4587030","predicate":"related","method":"link-in-text","confidence":"low","span":[3131,3150],"revision":1372376439,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11275293","to":"wikipedia://en/1160","predicate":"related","method":"link-in-text","confidence":"low","span":[3361,3378],"revision":1372376439,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11275293","to":"wikipedia://en/562309","predicate":"related","method":"link-in-text","confidence":"low","span":[3647,3660],"revision":1372376439,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11275293","to":"Category:20th-century British mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3890,3938],"revision":1372376439,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11275293","to":"Category:Group theorists","predicate":"in-field","method":"category","confidence":"medium","span":[3939,3967],"revision":1372376439,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11275293","to":"Category:Academics of the Victoria University of Manchester","predicate":"in-field","method":"category","confidence":"medium","span":[3968,4031],"revision":1372376439,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/198983","predicate":"related","method":"link-in-lead","confidence":"low","span":[1585,1608],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/31922","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1650,1688],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/826003","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1738,1820],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/18949836","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2119,2190],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/31653","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2293,2362],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/84263337","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2621,2653],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/21401843","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2709,2753],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/31922","predicate":"related","method":"link-in-text","confidence":"low","span":[3449,3487],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/27661","predicate":"related","method":"link-in-text","confidence":"low","span":[3534,3549],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/18949836","predicate":"related","method":"link-in-text","confidence":"low","span":[3627,3661],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/4083390","predicate":"related","method":"link-in-text","confidence":"low","span":[3688,3702],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/154839","predicate":"related","method":"link-in-text","confidence":"low","span":[3723,3752],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/325378","predicate":"related","method":"link-in-text","confidence":"low","span":[4103,4190],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/5309","predicate":"related","method":"link-in-text","confidence":"low","span":[4202,4214],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/27661","predicate":"related","method":"link-in-text","confidence":"low","span":[4215,4230],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/31653","predicate":"related","method":"link-in-text","confidence":"low","span":[4259,4328],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/18949836","predicate":"related","method":"link-in-text","confidence":"low","span":[4722,4760],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/9049044","predicate":"related","method":"link-in-text","confidence":"low","span":[4940,4972],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/70868","predicate":"related","method":"link-in-text","confidence":"low","span":[4994,5011],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/31975","predicate":"related","method":"link-in-text","confidence":"low","span":[5207,5261],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/313028","predicate":"related","method":"link-in-text","confidence":"low","span":[5545,5556],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/340787","predicate":"related","method":"link-in-text","confidence":"low","span":[6434,6468],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/49542962","predicate":"related","method":"link-in-text","confidence":"low","span":[7011,7097],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/590464","predicate":"related","method":"link-in-text","confidence":"low","span":[7519,7592],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/21939","predicate":"related","method":"link-in-text","confidence":"low","span":[7617,7645],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/21888","predicate":"related","method":"link-in-text","confidence":"low","span":[7668,7723],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/26605226","predicate":"related","method":"link-in-text","confidence":"low","span":[7726,7755],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/8324012","predicate":"related","method":"see-also","confidence":"low","span":[8254,8273],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/23080","predicate":"related","method":"see-also","confidence":"low","span":[8278,8351],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"wikipedia://en/2701329","predicate":"related","method":"see-also","confidence":"low","span":[8354,8365],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"Category:Cryptography case law","predicate":"in-field","method":"category","confidence":"medium","span":[9333,9367],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"Category:United States Internet case law","predicate":"in-field","method":"category","confidence":"medium","span":[9368,9412],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"Category:Electronic Frontier Foundation litigation","predicate":"in-field","method":"category","confidence":"medium","span":[9413,9467],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"Category:1996 in United States case law","predicate":"in-field","method":"category","confidence":"medium","span":[9468,9511],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"Category:1997 in United States case law","predicate":"in-field","method":"category","confidence":"medium","span":[9512,9555],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"Category:United States Court of Appeals for the Ninth Circuit cases","predicate":"in-field","method":"category","confidence":"medium","span":[9556,9627],"revision":1354413614,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/340772","to":"Category:United States District Court for the Northern District of California cases","predicate":"in-field","method":"category","confidence":"medium","span":[9628,9715],"revision":1354413614,"by":"importer/wikipedia/1"}

@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/14743376","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[72,87],"revision":1309625207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14743376","to":"wikipedia://en/47717","predicate":"related","method":"link-in-lead","confidence":"low","span":[136,169],"revision":1309625207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14743376","to":"wikipedia://en/87599","predicate":"related","method":"link-in-lead","confidence":"low","span":[185,206],"revision":1309625207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14743376","to":"wikipedia://en/18747595","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[596,651],"revision":1309625207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14743376","to":"wikipedia://en/23666","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[701,718],"revision":1309625207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14743376","to":"wikipedia://en/614998","predicate":"related","method":"link-in-text","confidence":"low","span":[1860,1875],"revision":1309625207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14743376","to":"wikipedia://en/18747602","predicate":"related","method":"link-in-text","confidence":"low","span":[1890,1906],"revision":1309625207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14743376","to":"wikipedia://en/339555","predicate":"related","method":"see-also","confidence":"low","span":[4305,4321],"revision":1309625207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14743376","to":"wikipedia://en/22424909","predicate":"related","method":"see-also","confidence":"low","span":[4324,4356],"revision":1309625207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14743376","to":"Category:Theorems in analytic number theory","predicate":"kind-of","method":"category","confidence":"medium","span":[5149,5196],"revision":1309625207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14743376","to":"Category:Theorems about prime numbers","predicate":"kind-of","method":"category","confidence":"medium","span":[5197,5238],"revision":1309625207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5785677#N5IM","to":"wikipedia://en/2620450","predicate":"restates","method":"hatnote","confidence":"high","span":[8856,8877],"revision":1357581813,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5785677#N5IM","to":"wikipedia://en/6138","predicate":"uses","method":"link-in-item","confidence":"medium","span":[9024,9038],"revision":1357581813,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5785677#N5IM","to":"wikipedia://en/143151","predicate":"uses","method":"link-in-item","confidence":"high","span":[9292,9310],"revision":1357581813,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5785677#N5IM","to":"wikipedia://en/5380138","predicate":"related","method":"link-in-item","confidence":"low","span":[10509,10533],"revision":1357581813,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77345250#L3O2","to":"wikipedia://en/2823","predicate":"uses","method":"link-in-item","confidence":"high","span":[9422,9446],"revision":1367742149,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77345250#L3O2","to":"wikipedia://en/375033","predicate":"uses","method":"link-in-item","confidence":"high","span":[9470,9500],"revision":1367742149,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77345250#L3O2","to":"wikipedia://en/19681409","predicate":"uses","method":"link-in-item","confidence":"high","span":[10023,10042],"revision":1367742149,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77345250#L3O2","to":"wikipedia://en/10405346","predicate":"uses","method":"link-in-item","confidence":"high","span":[10056,10068],"revision":1367742149,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/89425#IC8X","to":"wikipedia://en/20169520","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[28027,28062],"revision":1376358277,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/89425#IC8X","to":"wikipedia://en/51335","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[28116,28131],"revision":1376358277,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/89425#IC8X","to":"wikipedia://en/1649341","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[28460,28480],"revision":1376358277,"by":"importer/wikipedia/1"}

@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/14403539#288I","to":"wikipedia://en/11449648","predicate":"listed-in","method":"list","confidence":"certain","span":[41124,41144],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/444250#O2SL","to":"wikipedia://en/38417785","predicate":"listed-in","method":"list","confidence":"certain","span":[55383,55399],"revision":1294366452,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78123626","to":"wikipedia://en/28249265","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[590,601],"revision":1337426543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78123626","to":"wikipedia://en/36662188","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[849,867],"revision":1337426543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78123626","to":"wikipedia://en/37314","predicate":"related","method":"link-in-text","confidence":"low","span":[1365,1380],"revision":1337426543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78123626","to":"wikipedia://en/10348688","predicate":"related","method":"link-in-text","confidence":"low","span":[1386,1399],"revision":1337426543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78123626","to":"wikipedia://en/24623541","predicate":"related","method":"link-in-text","confidence":"low","span":[1404,1450],"revision":1337426543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78123626","to":"wikipedia://en/342751","predicate":"related","method":"link-in-text","confidence":"low","span":[1833,1870],"revision":1337426543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78123626","to":"wikipedia://en/15277073","predicate":"related","method":"link-in-text","confidence":"low","span":[1927,1975],"revision":1337426543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78123626","to":"wikipedia://en/20556944","predicate":"related","method":"link-in-text","confidence":"low","span":[1991,2012],"revision":1337426543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78123626","to":"wikipedia://en/9988187","predicate":"related","method":"link-in-text","confidence":"low","span":[2103,2114],"revision":1337426543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78123626","to":"wikipedia://en/40179755","predicate":"related","method":"link-in-text","confidence":"low","span":[2505,2523],"revision":1337426543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78123626","to":"wikipedia://en/54069626","predicate":"related","method":"link-in-text","confidence":"low","span":[2985,3016],"revision":1337426543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78123626","to":"wikipedia://en/54733250","predicate":"related","method":"link-in-text","confidence":"low","span":[3021,3031],"revision":1337426543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78123626","to":"wikipedia://en/4765530","predicate":"related","method":"link-in-text","confidence":"low","span":[3333,3340],"revision":1337426543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78123626","to":"wikipedia://en/47017186","predicate":"related","method":"link-in-text","confidence":"low","span":[3400,3417],"revision":1337426543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78123626","to":"wikipedia://en/28249265","predicate":"related","method":"link-in-text","confidence":"low","span":[3432,3443],"revision":1337426543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78123626","to":"wikipedia://en/30128660","predicate":"related","method":"link-in-text","confidence":"low","span":[3468,3488],"revision":1337426543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78123626","to":"wikipedia://en/3340088","predicate":"related","method":"link-in-text","confidence":"low","span":[4433,4442],"revision":1337426543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78123626","to":"Template:Official website","predicate":"in-nav","method":"nav","confidence":"low","span":[4997,5040],"revision":1337426543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78123626","to":"Category:Canadian software engineers","predicate":"in-field","method":"category","confidence":"medium","span":[5065,5105],"revision":1337426543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78123626","to":"Category:Researchers in distributed computing","predicate":"in-field","method":"category","confidence":"medium","span":[5228,5277],"revision":1337426543,"by":"importer/wikipedia/1"}

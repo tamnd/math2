@@ -1,0 +1,34 @@
+{"from":"wikipedia://en/517370#8J7K","to":"wikipedia://en/14892761","predicate":"listed-in","method":"list","confidence":"certain","span":[19278,19335],"revision":1353185276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56718971","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[123,140],"revision":1356115128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56718971","to":"wikipedia://en/173416","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[145,192],"revision":1356115128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56718971","to":"wikipedia://en/5170","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[217,234],"revision":1356115128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56718971","to":"wikipedia://en/25267","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[238,262],"revision":1356115128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56718971","to":"wikipedia://en/909615","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[575,600],"revision":1356115128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56718971","to":"wikipedia://en/73276","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[649,675],"revision":1356115128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56718971","to":"wikipedia://en/731832","predicate":"related","method":"link-in-text","confidence":"low","span":[3020,3044],"revision":1356115128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56718971","to":"wikipedia://en/4180157","predicate":"related","method":"link-in-text","confidence":"low","span":[3139,3155],"revision":1356115128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56718971","to":"wikipedia://en/21527","predicate":"related","method":"link-in-text","confidence":"low","span":[3176,3193],"revision":1356115128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56718971","to":"wikipedia://en/17945","predicate":"related","method":"link-in-text","confidence":"low","span":[3209,3223],"revision":1356115128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56718971","to":"wikipedia://en/6251420","predicate":"related","method":"link-in-text","confidence":"low","span":[3229,3299],"revision":1356115128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56718971","to":"wikipedia://en/61114","predicate":"related","method":"link-in-text","confidence":"low","span":[3335,3356],"revision":1356115128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56718971","to":"wikipedia://en/11226054","predicate":"related","method":"link-in-text","confidence":"low","span":[3516,3532],"revision":1356115128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56718971","to":"wikipedia://en/8339335","predicate":"related","method":"link-in-text","confidence":"low","span":[3572,3629],"revision":1356115128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56718971","to":"wikipedia://en/308234","predicate":"related","method":"link-in-text","confidence":"low","span":[3654,3687],"revision":1356115128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56718971","to":"Category:Canadian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[5441,5477],"revision":1356115128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56718971","to":"Category:Canadian physicists","predicate":"in-field","method":"category","confidence":"medium","span":[5478,5510],"revision":1356115128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56718971","to":"Category:Combinatorialists","predicate":"in-field","method":"category","confidence":"medium","span":[5511,5541],"revision":1356115128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56718971","to":"Category:Quantum physicists","predicate":"in-field","method":"category","confidence":"medium","span":[5542,5573],"revision":1356115128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56718971","to":"Category:Academic staff of the University of Waterloo","predicate":"in-field","method":"category","confidence":"medium","span":[5655,5712],"revision":1356115128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56718971","to":"Category:21st-century Canadian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[5713,5762],"revision":1356115128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/600373","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1286472423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/600373","to":"wikipedia://en/61633","predicate":"related","method":"link-in-lead","confidence":"low","span":[58,72],"revision":1286472423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/600373","to":"wikipedia://en/7984881","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[151,175],"revision":1286472423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/600373","to":"wikipedia://en/11157563","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[205,226],"revision":1286472423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/600373","to":"wikipedia://en/3911142","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[258,282],"revision":1286472423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/600373","to":"wikipedia://en/61478","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[341,362],"revision":1286472423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/600373","to":"wikipedia://en/200115","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[404,418],"revision":1286472423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/600373","to":"wikipedia://en/12461","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[439,451],"revision":1286472423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/600373","to":"wikipedia://en/226505","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[483,498],"revision":1286472423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/600373","to":"wikipedia://en/242135","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[634,654],"revision":1286472423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/600373","to":"wikipedia://en/241886","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[687,703],"revision":1286472423,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/600373","to":"Category:Theorems in mathematical analysis","predicate":"kind-of","method":"category","confidence":"medium","span":[1395,1441],"revision":1286472423,"by":"importer/wikipedia/1"}

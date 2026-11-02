@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/24918060#WIN3","to":"wikipedia://en/17373539","predicate":"uses","method":"link-in-item","confidence":"high","span":[6321,6341],"revision":1367643074,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24918060#WIN3","to":"wikipedia://en/61839","predicate":"uses","method":"link-in-item","confidence":"high","span":[7200,7222],"revision":1367643074,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24918060#WIN3","to":"wikipedia://en/386138","predicate":"uses","method":"link-in-item","confidence":"high","span":[7253,7292],"revision":1367643074,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52066850","to":"wikipedia://en/83240","predicate":"related","method":"link-in-text","confidence":"low","span":[1317,1337],"revision":1372558888,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52066850","to":"wikipedia://en/317478","predicate":"related","method":"link-in-text","confidence":"low","span":[1568,1596],"revision":1372558888,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52066850","to":"wikipedia://en/484093","predicate":"related","method":"link-in-text","confidence":"low","span":[1621,1638],"revision":1372558888,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52066850","to":"wikipedia://en/8540248","predicate":"related","method":"link-in-text","confidence":"low","span":[2330,2350],"revision":1372558888,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52066850","to":"wikipedia://en/64772113","predicate":"related","method":"link-in-text","confidence":"low","span":[2407,2449],"revision":1372558888,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52066850","to":"wikipedia://en/14527","predicate":"related","method":"link-in-text","confidence":"low","span":[2490,2535],"revision":1372558888,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52066850","to":"Category:Scientists from Clermont-Ferrand","predicate":"in-field","method":"category","confidence":"medium","span":[4748,4793],"revision":1372558888,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52066850","to":"Category:French mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4794,4828],"revision":1372558888,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68444148","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[456,484],"revision":1332106850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68444148","to":"wikipedia://en/12401","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[494,510],"revision":1332106850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68444148","to":"wikipedia://en/71174077","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[645,668],"revision":1332106850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68444148","to":"wikipedia://en/690647","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[742,761],"revision":1332106850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68444148","to":"wikipedia://en/244437","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[891,911],"revision":1332106850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68444148","to":"wikipedia://en/24511700","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[996,1011],"revision":1332106850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68444148","to":"wikipedia://en/52435","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1330,1351],"revision":1332106850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68444148","to":"Category:Individual graphs","predicate":"in-field","method":"category","confidence":"medium","span":[2385,2415],"revision":1332106850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68444148","to":"Category:Bipartite graphs","predicate":"in-field","method":"category","confidence":"medium","span":[2416,2445],"revision":1332106850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68444148","to":"Category:Planar graphs","predicate":"in-field","method":"category","confidence":"medium","span":[2446,2472],"revision":1332106850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68444148","to":"Category:Hamiltonian paths and cycles","predicate":"in-field","method":"category","confidence":"medium","span":[2473,2514],"revision":1332106850,"by":"importer/wikipedia/1"}

@@ -1,0 +1,4 @@
+{"from":"wikipedia://en/51728137","to":"wikipedia://en/1859481","predicate":"related","method":"link-in-lead","confidence":"low","span":[169,180],"revision":1296013189,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51728137","to":"wikipedia://en/7939066","predicate":"related","method":"see-also","confidence":"low","span":[2214,2226],"revision":1296013189,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51728137","to":"wikipedia://en/51718561","predicate":"related","method":"see-also","confidence":"low","span":[2229,2274],"revision":1296013189,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51728137","to":"Category:Matrices (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[2304,2339],"revision":1296013189,"by":"importer/wikipedia/1"}

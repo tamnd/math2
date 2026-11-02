@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/17198996#LCM7","to":"wikipedia://en/18426501","predicate":"uses","method":"link-in-item","confidence":"medium","span":[1232,1254],"revision":1315323548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17198996#LCM7","to":"wikipedia://en/912925","predicate":"uses","method":"link-in-item","confidence":"medium","span":[1400,1416],"revision":1315323548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59049883","to":"wikipedia://en/173416","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[284,331],"revision":1334762180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59049883","to":"wikipedia://en/25267","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[344,368],"revision":1334762180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59049883","to":"wikipedia://en/2616612","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[370,401],"revision":1334762180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59049883","to":"wikipedia://en/28305","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[407,424],"revision":1334762180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59049883","to":"wikipedia://en/661379","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[533,559],"revision":1334762180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59049883","to":"wikipedia://en/118534","predicate":"related","method":"link-in-text","confidence":"low","span":[600,612],"revision":1334762180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59049883","to":"wikipedia://en/546160","predicate":"related","method":"link-in-text","confidence":"low","span":[685,712],"revision":1334762180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59049883","to":"wikipedia://en/661242","predicate":"related","method":"link-in-text","confidence":"low","span":[802,823],"revision":1334762180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59049883","to":"wikipedia://en/173411","predicate":"related","method":"link-in-text","confidence":"low","span":[870,904],"revision":1334762180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59049883","to":"wikipedia://en/24306283","predicate":"related","method":"link-in-text","confidence":"low","span":[1234,1250],"revision":1334762180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59049883","to":"wikipedia://en/5786","predicate":"related","method":"link-in-text","confidence":"low","span":[1258,1296],"revision":1334762180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59049883","to":"wikipedia://en/31797","predicate":"related","method":"link-in-text","confidence":"low","span":[1362,1386],"revision":1334762180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59049883","to":"wikipedia://en/661379","predicate":"related","method":"link-in-text","confidence":"low","span":[1467,1493],"revision":1334762180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59049883","to":"wikipedia://en/591097","predicate":"related","method":"link-in-text","confidence":"low","span":[1532,1563],"revision":1334762180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59049883","to":"wikipedia://en/61347778","predicate":"related","method":"link-in-text","confidence":"low","span":[1579,1601],"revision":1334762180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59049883","to":"Category:Dutch mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2802,2835],"revision":1334762180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59049883","to":"Category:Dutch women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2836,2875],"revision":1334762180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59049883","to":"Category:Mathematical physicists","predicate":"in-field","method":"category","confidence":"medium","span":[2876,2912],"revision":1334762180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59049883","to":"Category:Academics of Heriot-Watt University","predicate":"in-field","method":"category","confidence":"medium","span":[2957,3005],"revision":1334762180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59049883","to":"Category:Dutch string theorists","predicate":"in-field","method":"category","confidence":"medium","span":[3058,3093],"revision":1334762180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59049883","to":"Category:21st-century Dutch mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3094,3140],"revision":1334762180,"by":"importer/wikipedia/1"}

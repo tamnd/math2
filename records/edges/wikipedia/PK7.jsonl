@@ -1,0 +1,6 @@
+{"from":"wikipedia://en/12350534","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[119,131],"revision":1339023728,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12350534","to":"wikipedia://en/11742","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[181,195],"revision":1339023728,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12350534","to":"wikipedia://en/15575410","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[220,250],"revision":1339023728,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12350534","to":"wikipedia://en/27561614","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[458,486],"revision":1339023728,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12350534","to":"Category:Graph families","predicate":"in-field","method":"category","confidence":"medium","span":[1425,1452],"revision":1339023728,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12350534","to":"Category:Geometric graphs","predicate":"in-field","method":"category","confidence":"medium","span":[1453,1482],"revision":1339023728,"by":"importer/wikipedia/1"}

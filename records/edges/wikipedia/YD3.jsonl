@@ -1,0 +1,25 @@
+{"from":"wikipedia://en/1389591","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1355,1372],"revision":1372316945,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1389591","to":"wikipedia://en/18730","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1390,1401],"revision":1372316945,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1389591","to":"wikipedia://en/316560","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1403,1429],"revision":1372316945,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1389591","to":"wikipedia://en/5843419","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1431,1441],"revision":1372316945,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1389591","to":"wikipedia://en/15604687","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1454,1474],"revision":1372316945,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1389591","to":"wikipedia://en/46727148","predicate":"related","method":"link-in-lead","confidence":"low","span":[1529,1561],"revision":1372316945,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1389591","to":"Category:20th-century French mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3643,3690],"revision":1372316945,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1389591","to":"Category:Academic staff of the University of Lille Nord de France","predicate":"in-field","method":"category","confidence":"medium","span":[3746,3815],"revision":1372316945,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20286769","to":"wikipedia://en/59500109","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[264,289],"revision":1319844076,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20286769","to":"wikipedia://en/28481","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[345,370],"revision":1319844076,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20286769","to":"wikipedia://en/187805","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[378,400],"revision":1319844076,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20286769","to":"wikipedia://en/56369","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[673,694],"revision":1319844076,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20286769","to":"wikipedia://en/20283423","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[696,714],"revision":1319844076,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20286769","to":"wikipedia://en/32014314","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[716,740],"revision":1319844076,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20286769","to":"wikipedia://en/32014314","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[770,792],"revision":1319844076,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20286769","to":"wikipedia://en/53673584","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[794,829],"revision":1319844076,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20286769","to":"Category:Probabilistic inequalities","predicate":"in-field","method":"category","confidence":"medium","span":[946,985],"revision":1319844076,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20286769","to":"Category:Statistical mechanics","predicate":"in-field","method":"category","confidence":"medium","span":[986,1020],"revision":1319844076,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20286769","to":"Category:Inequalities (mathematics)","predicate":"kind-of","method":"category","confidence":"medium","span":[1021,1060],"revision":1319844076,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/89425#RALP","to":"wikipedia://en/32718","predicate":"uses","method":"link-in-item","confidence":"medium","span":[21051,21092],"revision":1376358277,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/89425#RALP","to":"wikipedia://en/36968102","predicate":"uses","method":"link-in-item","confidence":"medium","span":[21146,21184],"revision":1376358277,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/89425#RALP","to":"wikipedia://en/37749","predicate":"related","method":"link-in-item","confidence":"low","span":[22595,22608],"revision":1376358277,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/89425#RALP","to":"wikipedia://en/3736784","predicate":"uses","method":"link-in-item","confidence":"medium","span":[22866,22896],"revision":1376358277,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/89425#RALP","to":"wikipedia://en/14562849","predicate":"uses","method":"link-in-item","confidence":"medium","span":[22900,22919],"revision":1376358277,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/89425#RALP","to":"wikipedia://en/36968102","predicate":"uses","method":"link-in-item","confidence":"medium","span":[22930,22962],"revision":1376358277,"by":"importer/wikipedia/1"}

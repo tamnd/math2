@@ -1,0 +1,8 @@
+{"from":"wikipedia://en/14943850","to":"wikipedia://en/11180","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,26],"revision":1161261089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14943850","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[48,63],"revision":1161261089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14943850","to":"wikipedia://en/14943683","predicate":"related","method":"see-also","confidence":"low","span":[598,628],"revision":1161261089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14943850","to":"Category:Approximation theory","predicate":"in-field","method":"category","confidence":"medium","span":[1055,1088],"revision":1161261089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35695532#MEBP","to":"wikipedia://en/40965514","predicate":"related","method":"link-in-item","confidence":"low","span":[3463,3485],"revision":1329522108,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37041839#87EI","to":"wikipedia://en/2073470","predicate":"uses","method":"link-in-item","confidence":"high","span":[234,246],"revision":1268302499,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37041839#87EI","to":"wikipedia://en/449738","predicate":"uses","method":"link-in-item","confidence":"high","span":[275,317],"revision":1268302499,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#92EV","to":"wikipedia://en/1643598","predicate":"listed-in","method":"list","confidence":"certain","span":[42258,42275],"revision":1373230097,"by":"importer/wikipedia/1"}

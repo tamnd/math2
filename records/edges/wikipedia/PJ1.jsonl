@@ -1,0 +1,18 @@
+{"from":"wikipedia://en/12277357","to":"wikipedia://en/28014528","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[120,140],"revision":1336044411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12277357","to":"wikipedia://en/52564","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[147,180],"revision":1336044411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12277357","to":"wikipedia://en/161879","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[396,415],"revision":1336044411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12277357","to":"wikipedia://en/2326042","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[466,500],"revision":1336044411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12277357","to":"wikipedia://en/47526","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[919,933],"revision":1336044411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12277357","to":"wikipedia://en/4597084","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1791,1821],"revision":1336044411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12277357","to":"wikipedia://en/11830303","predicate":"related","method":"see-also","confidence":"low","span":[1842,1889],"revision":1336044411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12277357","to":"wikipedia://en/8635379","predicate":"related","method":"see-also","confidence":"low","span":[1892,1923],"revision":1336044411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12277357","to":"wikipedia://en/34882466","predicate":"related","method":"see-also","confidence":"low","span":[1926,1960],"revision":1336044411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12277357","to":"wikipedia://en/36589154","predicate":"related","method":"see-also","confidence":"low","span":[1963,1996],"revision":1336044411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12277357","to":"Category:Partial differential equations","predicate":"in-field","method":"category","confidence":"medium","span":[2069,2112],"revision":1336044411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8869727#9YJO","to":"wikipedia://en/26829","predicate":"uses","method":"link-in-item","confidence":"high","span":[1185,1205],"revision":1316466984,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8869727#9YJO","to":"wikipedia://en/381798","predicate":"uses","method":"link-in-item","confidence":"high","span":[1267,1305],"revision":1316466984,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8869727#9YJO","to":"wikipedia://en/49172","predicate":"uses","method":"link-in-item","confidence":"high","span":[1338,1357],"revision":1316466984,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8869727#9YJO","to":"wikipedia://en/14884","predicate":"uses","method":"named-link","confidence":"high","span":[1802,1832],"revision":1316466984,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8869727#9YJO","to":"wikipedia://en/49172","predicate":"uses","method":"link-in-item","confidence":"high","span":[1996,2013],"revision":1316466984,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8869727#9YJO","to":"wikipedia://en/329542","predicate":"specializes","method":"link-in-item","confidence":"medium","span":[2218,2233],"revision":1316466984,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8869727#9YJO","to":"wikipedia://en/4101","predicate":"uses","method":"named-link","confidence":"high","span":[2301,2332],"revision":1316466984,"by":"importer/wikipedia/1"}

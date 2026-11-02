@@ -1,1 +1,5 @@
-{"id":"TTC6TZFC5B","mentions":["m2://rec/wikidata/Q3979448#1"],"kind":"unknown","name":"convergence test","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"TTC1M9EDSA","mentions":["wikipedia://en/36565179"],"kind":"definition","name":"Lattice","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"TTC6TZFC5B","mentions":["m2://rec/wikidata/Q3979448#1","wikipedia://en/4576951"],"kind":"definition","name":"convergence test","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"TTCE9YXJSV","mentions":["wikipedia://en/78730954#EH9Q"],"kind":"unknown","name":"Snakes are not deaf","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"TTCR79WT4F","mentions":["wikipedia://en/241717#ALZA"],"kind":"unknown","name":"Online clinical trials","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"TTCV1YTAF1","mentions":["wikipedia://en/615222#OBSH"],"kind":"statement","name":"Fundamental theorem of calculus in multiple dimensions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

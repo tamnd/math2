@@ -1,1 +1,3 @@
-{"id":"C7N25Y1XAS","mentions":["m2://rec/wikidata/Q69368#1"],"kind":"object","name":"small rhombihexahedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"C7N25Y1XAS","mentions":["m2://rec/wikidata/Q69368#1","wikipedia://en/4157005"],"kind":"object","name":"small rhombihexahedron","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"C7N4S7BT08","mentions":["wikipedia://en/660973#P2PI"],"kind":"unknown","name":"Hořava–Witten domain wall","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"C7NV1M63KF","mentions":["wikipedia://en/4383472#2BCC"],"kind":"example","name":"Uses","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

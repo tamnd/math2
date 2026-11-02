@@ -1,0 +1,32 @@
+{"from":"wikipedia://en/2412120","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[304,316],"revision":1354137502,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2412120","to":"wikipedia://en/23621","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[414,425],"revision":1354137502,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2412120","to":"wikipedia://en/4470203","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[429,459],"revision":1354137502,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2412120","to":"wikipedia://en/19008673","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[467,484],"revision":1354137502,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2412120","to":"wikipedia://en/161262","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[489,506],"revision":1354137502,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2412120","to":"wikipedia://en/764818","predicate":"related","method":"link-in-lead","confidence":"low","span":[1138,1162],"revision":1354137502,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2412120","to":"wikipedia://en/62371614","predicate":"related","method":"link-in-lead","confidence":"low","span":[1714,1760],"revision":1354137502,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2412120","to":"wikipedia://en/10225","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2118,2136],"revision":1354137502,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2412120","to":"wikipedia://en/68609370","predicate":"related","method":"see-also","confidence":"low","span":[5218,5238],"revision":1354137502,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2412120","to":"wikipedia://en/35063489","predicate":"related","method":"see-also","confidence":"low","span":[5243,5265],"revision":1354137502,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2412120","to":"wikipedia://en/18866777","predicate":"related","method":"see-also","confidence":"low","span":[5268,5288],"revision":1354137502,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2412120","to":"wikipedia://en/19491492","predicate":"related","method":"see-also","confidence":"low","span":[5291,5319],"revision":1354137502,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2412120","to":"wikipedia://en/75381527","predicate":"related","method":"see-also","confidence":"low","span":[5322,5341],"revision":1354137502,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2412120","to":"Category:Conic sections","predicate":"in-field","method":"category","confidence":"medium","span":[7069,7096],"revision":1354137502,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2412120","to":"Category:Elliptic curves","predicate":"in-field","method":"category","confidence":"medium","span":[7097,7125],"revision":1354137502,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3149636","to":"wikipedia://en/7543","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[92,127],"revision":1359937322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3149636","to":"wikipedia://en/405944","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[193,226],"revision":1359937322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3149636","to":"wikipedia://en/23000","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[254,268],"revision":1359937322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3149636","to":"wikipedia://en/437052","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[643,671],"revision":1359937322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3149636","to":"wikipedia://en/32316","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[999,1029],"revision":1359937322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3149636","to":"wikipedia://en/23385892","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1074,1089],"revision":1359937322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3149636","to":"wikipedia://en/8047019","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1153,1175],"revision":1359937322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3149636","to":"wikipedia://en/23385892","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1180,1195],"revision":1359937322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3149636","to":"wikipedia://en/6319351","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1214,1238],"revision":1359937322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3149636","to":"wikipedia://en/6115","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1336,1346],"revision":1359937322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3149636","to":"wikipedia://en/54681","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1375,1390],"revision":1359937322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3149636","to":"wikipedia://en/6319351","predicate":"related","method":"see-also","confidence":"low","span":[4030,4054],"revision":1359937322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3149636","to":"wikipedia://en/25269049","predicate":"related","method":"see-also","confidence":"low","span":[4057,4082],"revision":1359937322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3149636","to":"Category:Analysis of algorithms","predicate":"in-field","method":"category","confidence":"medium","span":[4114,4149],"revision":1359937322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3149636","to":"Category:Complexity classes","predicate":"in-field","method":"category","confidence":"medium","span":[4150,4181],"revision":1359937322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3149636","to":"Category:Computational complexity theory","predicate":"in-field","method":"category","confidence":"medium","span":[4182,4226],"revision":1359937322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3149636","to":"Category:Pseudo-polynomial time algorithms","predicate":"in-field","method":"category","confidence":"medium","span":[4227,4273],"revision":1359937322,"by":"importer/wikipedia/1"}

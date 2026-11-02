@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/189734#ILWA","to":"wikipedia://en/2139226","predicate":"uses","method":"link-in-item","confidence":"high","span":[8191,8251],"revision":1358823026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36209836","to":"Template:Group theory sidebar","predicate":"in-nav","method":"nav","confidence":"low","span":[178,210],"revision":1373993647,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36209836","to":"wikipedia://en/41890","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[251,267],"revision":1373993647,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36209836","to":"wikipedia://en/324806","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[318,343],"revision":1373993647,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36209836","to":"wikipedia://en/493527","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[347,377],"revision":1373993647,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36209836","to":"wikipedia://en/327206","predicate":"related","method":"link-in-text","confidence":"low","span":[627,645],"revision":1373993647,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36209836","to":"wikipedia://en/29399459","predicate":"related","method":"link-in-text","confidence":"low","span":[787,813],"revision":1373993647,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36209836","to":"wikipedia://en/1121587","predicate":"related","method":"link-in-text","confidence":"low","span":[820,840],"revision":1373993647,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36209836","to":"wikipedia://en/628466","predicate":"related","method":"link-in-text","confidence":"low","span":[849,877],"revision":1373993647,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36209836","to":"wikipedia://en/193059","predicate":"related","method":"link-in-text","confidence":"low","span":[887,912],"revision":1373993647,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36209836","to":"wikipedia://en/728168","predicate":"related","method":"link-in-text","confidence":"low","span":[1818,1841],"revision":1373993647,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36209836","to":"wikipedia://en/447020","predicate":"related","method":"link-in-text","confidence":"low","span":[2535,2560],"revision":1373993647,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36209836","to":"Category:Sporadic groups","predicate":"in-field","method":"category","confidence":"medium","span":[12575,12603],"revision":1373993647,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36209836","to":"Category:Individual groups","predicate":"in-field","method":"category","confidence":"medium","span":[12604,12634],"revision":1373993647,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6285#RO7D","to":"wikipedia://en/6706815","predicate":"restates","method":"hatnote","confidence":"high","span":[19450,19465],"revision":1367188446,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6285#RO7D","to":"wikipedia://en/203052","predicate":"uses","method":"link-in-item","confidence":"high","span":[22093,22142],"revision":1367188446,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6285#RO7D","to":"wikipedia://en/79635682","predicate":"uses","method":"link-in-item","confidence":"high","span":[22171,22214],"revision":1367188446,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6285#RO7D","to":"wikipedia://en/59733","predicate":"uses","method":"link-in-item","confidence":"high","span":[22446,22465],"revision":1367188446,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6285#RO7D","to":"wikipedia://en/23905","predicate":"related","method":"hatnote","confidence":"medium","span":[22524,22557],"revision":1367188446,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6285#RO7D","to":"wikipedia://en/23905","predicate":"uses","method":"link-in-item","confidence":"high","span":[22593,22651],"revision":1367188446,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6285#RO7D","to":"wikipedia://en/20556859","predicate":"uses","method":"link-in-item","confidence":"high","span":[22655,22686],"revision":1367188446,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6285#RO7D","to":"wikipedia://en/194990","predicate":"uses","method":"link-in-item","confidence":"high","span":[22799,22825],"revision":1367188446,"by":"importer/wikipedia/1"}

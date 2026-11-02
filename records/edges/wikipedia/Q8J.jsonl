@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/20705284","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[576,593],"revision":1371992609,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20705284","to":"wikipedia://en/528894","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[621,642],"revision":1371992609,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20705284","to":"wikipedia://en/210910","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[671,685],"revision":1371992609,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20705284","to":"wikipedia://en/20705037","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[719,741],"revision":1371992609,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20705284","to":"Category:20th-century Italian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1769,1817],"revision":1371992609,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20705284","to":"Category:Algebraic geometers","predicate":"in-field","method":"category","confidence":"medium","span":[1818,1850],"revision":1371992609,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20705284","to":"Category:Differential geometers","predicate":"in-field","method":"category","confidence":"medium","span":[1851,1886],"revision":1371992609,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/465001#DM3Z","to":"wikipedia://en/3450412","predicate":"uses","method":"link-in-item","confidence":"medium","span":[23528,23595],"revision":1371670256,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/465001#DM3Z","to":"wikipedia://en/163123","predicate":"uses","method":"link-in-item","confidence":"medium","span":[23603,23613],"revision":1371670256,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/465001#DM3Z","to":"wikipedia://en/14436","predicate":"uses","method":"link-in-item","confidence":"medium","span":[23624,23660],"revision":1371670256,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#01EF","to":"wikipedia://en/1692086","predicate":"listed-in","method":"list","confidence":"certain","span":[59225,59242],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53194084","to":"wikipedia://en/17752","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[810,818],"revision":1368404576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53194084","to":"Category:Government of Laos","predicate":"in-field","method":"category","confidence":"medium","span":[1158,1189],"revision":1368404576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53194084","to":"Category:National statistical services","predicate":"in-field","method":"category","confidence":"medium","span":[1190,1237],"revision":1368404576,"by":"importer/wikipedia/1"}

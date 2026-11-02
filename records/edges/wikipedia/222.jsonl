@@ -1,0 +1,10 @@
+{"from":"wikipedia://en/140829#A1C0","to":"wikipedia://en/18618458","predicate":"listed-in","method":"list","confidence":"certain","span":[6211,6256],"revision":1372044875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40725476","to":"wikipedia://en/157175","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[113,130],"revision":1309979633,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40725476","to":"wikipedia://en/184898","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[493,513],"revision":1309979633,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40725476","to":"wikipedia://en/14828","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1134,1149],"revision":1309979633,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40725476","to":"wikipedia://en/2057747","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1154,1198],"revision":1309979633,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40725476","to":"Category:Ramsey theory","predicate":"in-field","method":"category","confidence":"medium","span":[2227,2253],"revision":1309979633,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50614338#P54H","to":"wikipedia://en/310886","predicate":"uses","method":"link-in-item","confidence":"high","span":[2692,2712],"revision":1373258531,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50614338#P54H","to":"wikipedia://en/37021","predicate":"uses","method":"link-in-item","confidence":"high","span":[3226,3251],"revision":1373258531,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50614338#P54H","to":"wikipedia://en/79861","predicate":"uses","method":"link-in-item","confidence":"high","span":[3532,3549],"revision":1373258531,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76765067#OZZ7","to":"wikipedia://en/6026","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[63462,63477],"revision":1368301704,"by":"importer/wikipedia/1"}

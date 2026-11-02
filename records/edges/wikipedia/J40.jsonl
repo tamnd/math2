@@ -1,0 +1,24 @@
+{"from":"wikipedia://en/183091#GK2U","to":"wikipedia://en/2200454#XXDH","predicate":"listed-in","method":"list","confidence":"certain","span":[124222,124286],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/183091#GK2U","to":"wikipedia://en/982970#6OZN","predicate":"generalizes","method":"link-in-item","confidence":"medium","span":[124306,124359],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27859#VUWL","to":"wikipedia://en/1920694","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[13177,13193],"revision":1367653016,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27859#VUWL","to":"wikipedia://en/29181","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[13220,13245],"revision":1367653016,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27859#VUWL","to":"wikipedia://en/15532","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[13346,13370],"revision":1367653016,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38989391","to":"wikipedia://en/153008","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[947,987],"revision":1213004185,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38989391","to":"wikipedia://en/1239729","predicate":"related","method":"link-in-text","confidence":"low","span":[1264,1280],"revision":1213004185,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38989391","to":"wikipedia://en/29954","predicate":"related","method":"link-in-text","confidence":"low","span":[1303,1320],"revision":1213004185,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38989391","to":"wikipedia://en/6988558","predicate":"related","method":"link-in-text","confidence":"low","span":[1439,1461],"revision":1213004185,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38989391","to":"wikipedia://en/22487","predicate":"related","method":"link-in-text","confidence":"low","span":[1465,1478],"revision":1213004185,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38989391","to":"wikipedia://en/12328965","predicate":"related","method":"link-in-text","confidence":"low","span":[1759,1777],"revision":1213004185,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38989391","to":"wikipedia://en/576108","predicate":"related","method":"link-in-text","confidence":"low","span":[1812,1835],"revision":1213004185,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38989391","to":"Template:Commonscat","predicate":"in-nav","method":"nav","confidence":"low","span":[2795,2809],"revision":1213004185,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38989391","to":"Category:Double torus knots and links","predicate":"in-field","method":"category","confidence":"medium","span":[2944,2985],"revision":1213004185,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40423024","to":"wikipedia://en/29637124","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[299,317],"revision":1258939972,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40423024","to":"wikipedia://en/323707","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[335,352],"revision":1258939972,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40423024","to":"wikipedia://en/5786","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[397,435],"revision":1258939972,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40423024","to":"wikipedia://en/31740","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[488,514],"revision":1258939972,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40423024","to":"wikipedia://en/384695","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[922,970],"revision":1258939972,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40423024","to":"wikipedia://en/198822","predicate":"related","method":"link-in-lead","confidence":"low","span":[1220,1253],"revision":1258939972,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40423024","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3044,3093],"revision":1258939972,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40423024","to":"Category:21st-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3094,3143],"revision":1258939972,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40423024","to":"Category:Group theorists","predicate":"in-field","method":"category","confidence":"medium","span":[3144,3172],"revision":1258939972,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40423024","to":"Category:Scientists from Los Angeles","predicate":"in-field","method":"category","confidence":"medium","span":[3390,3430],"revision":1258939972,"by":"importer/wikipedia/1"}

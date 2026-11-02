@@ -1,0 +1,33 @@
+{"from":"wikipedia://en/28083427","to":"wikipedia://en/12594","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[178,204],"revision":1371175230,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28083427","to":"wikipedia://en/3434750","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[228,245],"revision":1371175230,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28083427","to":"wikipedia://en/3434750","predicate":"related","method":"link-in-text","confidence":"low","span":[24004,24021],"revision":1371175230,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28083427","to":"wikipedia://en/5405","predicate":"related","method":"link-in-text","confidence":"low","span":[24753,24762],"revision":1371175230,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28083427","to":"wikipedia://en/9317","predicate":"related","method":"link-in-text","confidence":"low","span":[25520,25541],"revision":1371175230,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28083427","to":"wikipedia://en/14533","predicate":"related","method":"link-in-text","confidence":"low","span":[25807,25816],"revision":1371175230,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28083427","to":"Category:Lists of countries by GDP","predicate":"in-field","method":"category","confidence":"medium","span":[26352,26413],"revision":1371175230,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28083427","to":"Category:History-related lists by country","predicate":"in-field","method":"category","confidence":"medium","span":[26414,26463],"revision":1371175230,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39391531","to":"wikipedia://en/40823382","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1099,1128],"revision":1372579488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39391531","to":"wikipedia://en/9084906","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1159,1180],"revision":1372579488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39391531","to":"wikipedia://en/374556","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1190,1221],"revision":1372579488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39391531","to":"Category:Mathematicians from Saint Petersburg","predicate":"in-field","method":"category","confidence":"medium","span":[2675,2724],"revision":1372579488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39391531","to":"Category:Soviet mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2725,2759],"revision":1372579488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42806211","to":"wikipedia://en/321671","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[444,461],"revision":1347689702,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42806211","to":"wikipedia://en/15807","predicate":"related","method":"link-in-lead","confidence":"low","span":[527,549],"revision":1347689702,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42806211","to":"wikipedia://en/169319","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[556,596],"revision":1347689702,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42806211","to":"wikipedia://en/39372","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[613,626],"revision":1347689702,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42806211","to":"wikipedia://en/160556","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1004,1066],"revision":1347689702,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42806211","to":"wikipedia://en/39330","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1179,1214],"revision":1347689702,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42806211","to":"wikipedia://en/204682","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1253,1291],"revision":1347689702,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42806211","to":"wikipedia://en/3510274","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1374,1408],"revision":1347689702,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42806211","to":"wikipedia://en/321671","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1760,1779],"revision":1347689702,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42806211","to":"wikipedia://en/39372","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1924,1937],"revision":1347689702,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42806211","to":"wikipedia://en/8476166","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2329,2347],"revision":1347689702,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42806211","to":"wikipedia://en/6109457","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2363,2375],"revision":1347689702,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42806211","to":"wikipedia://en/20127","predicate":"related","method":"link-in-text","confidence":"low","span":[2699,2714],"revision":1347689702,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42806211","to":"wikipedia://en/1156248","predicate":"related","method":"link-in-text","confidence":"low","span":[3006,3025],"revision":1347689702,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42806211","to":"wikipedia://en/20435","predicate":"related","method":"link-in-text","confidence":"low","span":[3526,3544],"revision":1347689702,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42806211","to":"wikipedia://en/29507","predicate":"related","method":"link-in-text","confidence":"low","span":[3567,3590],"revision":1347689702,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42806211","to":"wikipedia://en/2034821","predicate":"related","method":"link-in-text","confidence":"low","span":[3999,4014],"revision":1347689702,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42806211","to":"Category:Tessellation","predicate":"in-field","method":"category","confidence":"medium","span":[7118,7143],"revision":1347689702,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42806211","to":"Category:John Horton Conway","predicate":"in-field","method":"category","confidence":"medium","span":[7144,7175],"revision":1347689702,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#G1GT","to":"wikipedia://en/52155008","predicate":"listed-in","method":"list","confidence":"certain","span":[111081,111096],"revision":1373230097,"by":"importer/wikipedia/1"}

@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/34920327","to":"wikipedia://en/294298","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1431,1454],"revision":1372388600,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34920327","to":"wikipedia://en/46510","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1783,1815],"revision":1372388600,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34920327","to":"wikipedia://en/3159411","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2013,2032],"revision":1372388600,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34920327","to":"wikipedia://en/24560211","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2260,2280],"revision":1372388600,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34920327","to":"wikipedia://en/184179","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2330,2362],"revision":1372388600,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34920327","to":"wikipedia://en/294298","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[2426,2449],"revision":1372388600,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34920327","to":"wikipedia://en/9087","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2451,2472],"revision":1372388600,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34920327","to":"wikipedia://en/52564","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2478,2512],"revision":1372388600,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34920327","to":"wikipedia://en/391882","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2594,2635],"revision":1372388600,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34920327","to":"wikipedia://en/627842","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2847,2891],"revision":1372388600,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34920327","to":"wikipedia://en/2785","predicate":"related","method":"link-in-lead","confidence":"low","span":[3431,3456],"revision":1372388600,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34920327","to":"Category:Geometers","predicate":"in-field","method":"category","confidence":"medium","span":[6984,7006],"revision":1372388600,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34920327","to":"Category:20th-century German mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[7007,7054],"revision":1372388600,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34920327","to":"Category:21st-century German mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[7055,7102],"revision":1372388600,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34920327","to":"Category:Academic staff of ETH Zurich","predicate":"in-field","method":"category","confidence":"medium","span":[7340,7381],"revision":1372388600,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3710507#L699","to":"wikipedia://en/97812","predicate":"restates","method":"hatnote","confidence":"high","span":[14638,14655],"revision":1370697126,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3710507#L699","to":"wikipedia://en/97807","predicate":"uses","method":"link-in-item","confidence":"medium","span":[14693,14740],"revision":1370697126,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3710507#L699","to":"wikipedia://en/16736","predicate":"related","method":"link-in-item","confidence":"low","span":[14770,14785],"revision":1370697126,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3710507#L699","to":"wikipedia://en/24133","predicate":"uses","method":"link-in-item","confidence":"high","span":[14989,15014],"revision":1370697126,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3710507#L699","to":"wikipedia://en/3710507","predicate":"uses","method":"anchor","confidence":"certain","span":[16770,16832],"revision":1370697126,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3710507#L699","to":"wikipedia://en/1208","predicate":"related","method":"link-in-item","confidence":"low","span":[16837,16852],"revision":1370697126,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3710507#L699","to":"wikipedia://en/45273","predicate":"uses","method":"link-in-item","confidence":"medium","span":[17073,17090],"revision":1370697126,"by":"importer/wikipedia/1"}

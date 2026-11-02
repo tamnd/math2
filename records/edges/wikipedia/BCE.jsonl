@@ -1,0 +1,18 @@
+{"from":"wikipedia://en/485405#NBNX","to":"wikipedia://en/41633916","predicate":"listed-in","method":"list","confidence":"certain","span":[23071,23085],"revision":1374909763,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/485405#NBNX","to":"wikipedia://en/414350","predicate":"uses","method":"link-in-item","confidence":"medium","span":[23123,23140],"revision":1374909763,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/485405#NBNX","to":"wikipedia://en/129139","predicate":"uses","method":"link-in-item","confidence":"medium","span":[23142,23159],"revision":1374909763,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/485405#NBNX","to":"wikipedia://en/1092939","predicate":"uses","method":"link-in-item","confidence":"medium","span":[23165,23179],"revision":1374909763,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/517370#8DPI","to":"wikipedia://en/31821232","predicate":"listed-in","method":"list","confidence":"certain","span":[28982,29022],"revision":1353185276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68726609","to":"wikipedia://en/51414","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[110,144],"revision":1339293528,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68726609","to":"wikipedia://en/23000","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[161,176],"revision":1339293528,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68726609","to":"wikipedia://en/51440","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[204,218],"revision":1339293528,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68726609","to":"wikipedia://en/362501","predicate":"related","method":"link-in-lead","confidence":"low","span":[260,280],"revision":1339293528,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68726609","to":"wikipedia://en/859805","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[285,302],"revision":1339293528,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68726609","to":"Category:Theorems about polynomials","predicate":"kind-of","method":"category","confidence":"medium","span":[2741,2780],"revision":1339293528,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78523860","to":"wikipedia://en/139410","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[70,93],"revision":1285225897,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78523860","to":"wikipedia://en/10987","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[144,155],"revision":1285225897,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78523860","to":"wikipedia://en/11231812","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[168,213],"revision":1285225897,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78523860","to":"wikipedia://en/2993836","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[246,290],"revision":1285225897,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78523860","to":"Category:Homological algebra","predicate":"in-field","method":"category","confidence":"medium","span":[1218,1250],"revision":1285225897,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78523860","to":"Category:Theorems in algebra","predicate":"kind-of","method":"category","confidence":"medium","span":[1251,1283],"revision":1285225897,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8155146#3K4G","to":"wikipedia://en/343335","predicate":"uses","method":"link-in-item","confidence":"high","span":[9003,9029],"revision":1353005739,"by":"importer/wikipedia/1"}

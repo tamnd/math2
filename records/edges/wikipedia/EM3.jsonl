@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/26649339#AJUS","to":"wikipedia://en/577003","predicate":"uses","method":"link-in-item","confidence":"high","span":[13503,13544],"revision":1373672597,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26649339#AJUS","to":"wikipedia://en/577003","predicate":"uses","method":"link-in-item","confidence":"high","span":[13557,13601],"revision":1373672597,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26649339#AJUS","to":"wikipedia://en/240790","predicate":"uses","method":"link-in-item","confidence":"high","span":[14117,14139],"revision":1373672597,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26649339#AJUS","to":"wikipedia://en/443083","predicate":"uses","method":"link-in-item","confidence":"high","span":[15967,16007],"revision":1373672597,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26649339#AJUS","to":"wikipedia://en/9903179","predicate":"uses","method":"link-in-item","confidence":"medium","span":[16065,16084],"revision":1373672597,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4165631#R5DF","to":"wikipedia://en/1443000","predicate":"listed-in","method":"list","confidence":"certain","span":[5921,5979],"revision":1369968152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4165631#R5DF","to":"wikipedia://en/19376148","predicate":"related","method":"link-in-item","confidence":"low","span":[6045,6064],"revision":1369968152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4165631#R5DF","to":"wikipedia://en/9332","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6078,6094],"revision":1369968152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53890402","to":"wikipedia://en/31801","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[132,154],"revision":1170374174,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53890402","to":"wikipedia://en/210815","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[175,202],"revision":1170374174,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53890402","to":"wikipedia://en/1583836","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[522,570],"revision":1170374174,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53890402","to":"wikipedia://en/65355197","predicate":"related","method":"link-in-lead","confidence":"low","span":[592,607],"revision":1170374174,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53890402","to":"Category:Academic staff of Uppsala University","predicate":"in-field","method":"category","confidence":"medium","span":[5640,5689],"revision":1170374174,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53890402","to":"Category:20th-century Swedish mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[5690,5738],"revision":1170374174,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53890402","to":"Category:21st-century Swedish mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[5791,5839],"revision":1170374174,"by":"importer/wikipedia/1"}

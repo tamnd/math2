@@ -1,1 +1,6 @@
+{"id":"AC1GBH45R9","mentions":["wikipedia://en/851008#UFW1"],"kind":"statement","name":"Soft-hair resolution to the paradox","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"AC1JFYZJTA","mentions":["wikipedia://en/35457783#PALR"],"kind":"definition","name":"geometric property","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"AC1MM5DMK7","mentions":["wikipedia://en/292067#7BXE"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"AC1QTHY0NS","mentions":["ax://paper/2212.05398#6HWG"],"kind":"statement","msc":["81-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
+{"id":"AC1W7794JJ","mentions":["wikipedia://en/76765067#SYU8"],"kind":"definition","name":"recursively axiomatizable theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"AC1Z01RQ3G","mentions":["wikipedia://en/43580500#FU2T"],"kind":"definition","name":"SIS","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

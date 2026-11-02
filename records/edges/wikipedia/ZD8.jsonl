@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/2388068#H8UC","to":"wikipedia://en/1778784","predicate":"listed-in","method":"list","confidence":"certain","span":[18909,18927],"revision":1355184956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2388068#H8UC","to":"wikipedia://en/82753980","predicate":"uses","method":"link-in-item","confidence":"medium","span":[18929,18970],"revision":1355184956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2388068#H8UC","to":"wikipedia://en/1797708","predicate":"uses","method":"link-in-item","confidence":"high","span":[18972,18996],"revision":1355184956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/680258","to":"wikipedia://en/26685","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[30,44],"revision":1338580023,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/680258","to":"wikipedia://en/364319","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[278,336],"revision":1338580023,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/680258","to":"wikipedia://en/18646178","predicate":"related","method":"see-also","confidence":"low","span":[1163,1186],"revision":1338580023,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/680258","to":"wikipedia://en/26685","predicate":"related","method":"see-also","confidence":"low","span":[1189,1203],"revision":1338580023,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/680258","to":"wikipedia://en/191457","predicate":"related","method":"see-also","confidence":"low","span":[1206,1236],"revision":1338580023,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/680258","to":"wikipedia://en/680229","predicate":"related","method":"see-also","confidence":"low","span":[1239,1298],"revision":1338580023,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/680258","to":"wikipedia://en/1098209","predicate":"related","method":"see-also","confidence":"low","span":[1301,1335],"revision":1338580023,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/680258","to":"Category:Lists of scientific organizations","predicate":"in-field","method":"category","confidence":"medium","span":[1657,1703],"revision":1338580023,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/680258","to":"Category:Statistical societies","predicate":"in-field","method":"category","confidence":"medium","span":[1704,1740],"revision":1338580023,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/680258","to":"Category:Statistics-related lists","predicate":"in-field","method":"category","confidence":"medium","span":[1741,1778],"revision":1338580023,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/745714#U7YT","to":"wikipedia://en/244321","predicate":"uses","method":"link-in-item","confidence":"high","span":[1401,1412],"revision":1360690537,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/745714#U7YT","to":"wikipedia://en/54217","predicate":"uses","method":"named-link","confidence":"high","span":[2237,2261],"revision":1360690537,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/745714#U7YT","to":"wikipedia://en/14828","predicate":"uses","method":"link-in-item","confidence":"high","span":[2828,2842],"revision":1360690537,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/745714#U7YT","to":"wikipedia://en/455770","predicate":"uses","method":"link-in-item","confidence":"high","span":[3030,3064],"revision":1360690537,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/745714#U7YT","to":"wikipedia://en/168609","predicate":"uses","method":"link-in-item","confidence":"high","span":[3130,3168],"revision":1360690537,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/745714#U7YT","to":"wikipedia://en/37123010","predicate":"uses","method":"link-in-item","confidence":"high","span":[3192,3213],"revision":1360690537,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/745714#U7YT","to":"wikipedia://en/325802","predicate":"related","method":"link-in-item","confidence":"low","span":[3373,3420],"revision":1360690537,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/745714#U7YT","to":"wikipedia://en/1483049","predicate":"uses","method":"link-in-item","confidence":"high","span":[3609,3625],"revision":1360690537,"by":"importer/wikipedia/1"}

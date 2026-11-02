@@ -1,0 +1,39 @@
+{"from":"wikipedia://en/354593","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[33,48],"revision":1319822207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/354593","to":"wikipedia://en/42315","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[86,119],"revision":1319822207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/354593","to":"wikipedia://en/17945","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[120,133],"revision":1319822207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/354593","to":"wikipedia://en/298834","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[146,162],"revision":1319822207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/354593","to":"wikipedia://en/6122","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[174,210],"revision":1319822207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/354593","to":"wikipedia://en/1408000","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[212,238],"revision":1319822207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/354593","to":"wikipedia://en/12396","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[240,262],"revision":1319822207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/354593","to":"wikipedia://en/56661772","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[281,303],"revision":1319822207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/354593","to":"wikipedia://en/298828","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[318,334],"revision":1319822207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/354593","to":"wikipedia://en/17944","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[388,403],"revision":1319822207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/354593","to":"wikipedia://en/17944","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[426,454],"revision":1319822207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/354593","to":"wikipedia://en/652164","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[567,586],"revision":1319822207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/354593","to":"wikipedia://en/9697","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[612,631],"revision":1319822207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/354593","to":"wikipedia://en/19378200","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[826,851],"revision":1319822207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/354593","to":"wikipedia://en/449738","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[908,949],"revision":1319822207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/354593","to":"wikipedia://en/32370","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1044,1060],"revision":1319822207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/354593","to":"wikipedia://en/248635","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1170,1190],"revision":1319822207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/354593","to":"wikipedia://en/12781","predicate":"related","method":"see-also","confidence":"low","span":[1229,1272],"revision":1319822207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/354593","to":"wikipedia://en/348860","predicate":"related","method":"see-also","confidence":"low","span":[1275,1304],"revision":1319822207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/354593","to":"Category:Homological algebra","predicate":"in-field","method":"category","confidence":"medium","span":[1580,1612],"revision":1319822207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/354593","to":"Category:Representation theory of Lie algebras","predicate":"in-field","method":"category","confidence":"medium","span":[1613,1663],"revision":1319822207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/354593","to":"Category:Representation theory of Lie groups","predicate":"in-field","method":"category","confidence":"medium","span":[1664,1712],"revision":1319822207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65373434","to":"wikipedia://en/893139","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1473,1503],"revision":1372566003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65373434","to":"wikipedia://en/2143529","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1528,1540],"revision":1372566003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65373434","to":"wikipedia://en/11157563","predicate":"related","method":"link-in-text","confidence":"low","span":[1863,1887],"revision":1372566003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65373434","to":"wikipedia://en/81481103","predicate":"related","method":"link-in-text","confidence":"low","span":[2339,2364],"revision":1372566003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65373434","to":"wikipedia://en/3130888","predicate":"related","method":"link-in-text","confidence":"low","span":[2438,2475],"revision":1372566003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65373434","to":"wikipedia://en/893139","predicate":"related","method":"link-in-text","confidence":"low","span":[3431,3461],"revision":1372566003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65373434","to":"wikipedia://en/1548996","predicate":"related","method":"link-in-text","confidence":"low","span":[3598,3665],"revision":1372566003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65373434","to":"wikipedia://en/2580683","predicate":"related","method":"link-in-text","confidence":"low","span":[4166,4180],"revision":1372566003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65373434","to":"wikipedia://en/1701961","predicate":"related","method":"link-in-text","confidence":"low","span":[4182,4203],"revision":1372566003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65373434","to":"wikipedia://en/503009","predicate":"related","method":"link-in-text","confidence":"low","span":[4209,4219],"revision":1372566003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65373434","to":"wikipedia://en/2121791","predicate":"related","method":"link-in-text","confidence":"low","span":[5920,5951],"revision":1372566003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65373434","to":"wikipedia://en/23498666","predicate":"related","method":"link-in-text","confidence":"low","span":[6272,6308],"revision":1372566003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65373434","to":"wikipedia://en/3070771","predicate":"related","method":"link-in-text","confidence":"low","span":[6318,6362],"revision":1372566003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65373434","to":"Category:Polish mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[7051,7085],"revision":1372566003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65373434","to":"Category:Polish statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[7086,7119],"revision":1372566003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65373434","to":"Category:21st-century mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[7120,7160],"revision":1372566003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65373434","to":"Category:21st-century statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[7161,7200],"revision":1372566003,"by":"importer/wikipedia/1"}

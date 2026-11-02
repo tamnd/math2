@@ -1,0 +1,7 @@
+{"from":"wikipedia://en/21641504","to":"wikipedia://en/21527","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,20],"revision":1373910100,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21641504","to":"wikipedia://en/486929","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[136,162],"revision":1373910100,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21641504","to":"wikipedia://en/23666","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[175,192],"revision":1373910100,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21641504","to":"wikipedia://en/1309","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[237,251],"revision":1373910100,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21641504","to":"wikipedia://en/174705","predicate":"related","method":"link-in-text","confidence":"low","span":[845,872],"revision":1373910100,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21641504","to":"Category:Algebraic number theory","predicate":"in-field","method":"category","confidence":"medium","span":[1760,1796],"revision":1373910100,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/621447#NKBL","to":"wikipedia://en/97922","predicate":"listed-in","method":"list","confidence":"certain","span":[2592,2620],"revision":1333074872,"by":"importer/wikipedia/1"}

@@ -1,0 +1,8 @@
+{"from":"wikipedia://en/31342541","to":"wikipedia://en/245471","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[850,867],"revision":1334756169,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31342541","to":"wikipedia://en/25058","predicate":"related","method":"link-in-text","confidence":"low","span":[1581,1599],"revision":1334756169,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31342541","to":"wikipedia://en/10254514","predicate":"related","method":"link-in-text","confidence":"low","span":[2683,2694],"revision":1334756169,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31342541","to":"wikipedia://en/12940433","predicate":"related","method":"link-in-text","confidence":"low","span":[2842,2868],"revision":1334756169,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31342541","to":"wikipedia://en/43532808","predicate":"related","method":"link-in-text","confidence":"low","span":[3786,3806],"revision":1334756169,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31342541","to":"wikipedia://en/354047","predicate":"related","method":"link-in-text","confidence":"low","span":[3814,3841],"revision":1334756169,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31342541","to":"Category:21st-century British mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[5803,5851],"revision":1334756169,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31342541","to":"Category:British children","predicate":"in-field","method":"category","confidence":"medium","span":[5929,5958],"revision":1334756169,"by":"importer/wikipedia/1"}

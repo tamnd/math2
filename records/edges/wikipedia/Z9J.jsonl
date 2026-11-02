@@ -1,0 +1,25 @@
+{"from":"wikipedia://en/191457#IB7E","to":"wikipedia://en/8189","predicate":"listed-in","method":"list","confidence":"certain","span":[60100,60125],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/250323#UARZ","to":"wikipedia://en/411226","predicate":"uses","method":"link-in-item","confidence":"high","span":[36019,36038],"revision":1361044228,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/250323#UARZ","to":"wikipedia://en/173965","predicate":"uses","method":"link-in-item","confidence":"high","span":[36044,36083],"revision":1361044228,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/250323#UARZ","to":"wikipedia://en/21854","predicate":"uses","method":"link-in-item","confidence":"medium","span":[36179,36193],"revision":1361044228,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/250323#UARZ","to":"wikipedia://en/3552729","predicate":"uses","method":"link-in-item","confidence":"medium","span":[36195,36219],"revision":1361044228,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/250323#UARZ","to":"wikipedia://en/21732545","predicate":"uses","method":"link-in-item","confidence":"medium","span":[36225,36250],"revision":1361044228,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/250323#UARZ","to":"wikipedia://en/1014694","predicate":"uses","method":"link-in-item","confidence":"high","span":[36303,36328],"revision":1361044228,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/250323#UARZ","to":"wikipedia://en/411231","predicate":"uses","method":"link-in-item","confidence":"high","span":[36477,36499],"revision":1361044228,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/250323#UARZ","to":"wikipedia://en/51440","predicate":"uses","method":"link-in-item","confidence":"high","span":[36529,36544],"revision":1361044228,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/250323#UARZ","to":"wikipedia://en/186057","predicate":"uses","method":"link-in-item","confidence":"high","span":[36629,36665],"revision":1361044228,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/250323#UARZ","to":"wikipedia://en/411492","predicate":"uses","method":"link-in-item","confidence":"high","span":[36758,36774],"revision":1361044228,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/250323#UARZ","to":"wikipedia://en/342078","predicate":"uses","method":"link-in-item","confidence":"medium","span":[36933,36944],"revision":1361044228,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/250323#UARZ","to":"wikipedia://en/342058","predicate":"uses","method":"link-in-item","confidence":"medium","span":[37334,37349],"revision":1361044228,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/250323#UARZ","to":"wikipedia://en/7880215","predicate":"uses","method":"link-in-item","confidence":"high","span":[37453,37490],"revision":1361044228,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5672810#82MM","to":"wikipedia://en/16275","predicate":"uses","method":"link-in-item","confidence":"medium","span":[86530,86541],"revision":1374391620,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5672810#82MM","to":"wikipedia://en/445367","predicate":"uses","method":"link-in-item","confidence":"medium","span":[86559,86571],"revision":1374391620,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58684510#XYC0","to":"wikipedia://en/48146","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3560,3576],"revision":1357957328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58684510#XYC0","to":"wikipedia://en/84652","predicate":"uses","method":"link-in-item","confidence":"high","span":[3616,3633],"revision":1357957328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58684510#XYC0","to":"wikipedia://en/344913","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3691,3704],"revision":1357957328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58684510#XYC0","to":"wikipedia://en/57627","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4086,4095],"revision":1357957328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59158120","to":"wikipedia://en/59158118","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[87,110],"revision":1310086325,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59158120","to":"wikipedia://en/3892336","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[156,177],"revision":1310086325,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59158120","to":"wikipedia://en/69079808","predicate":"related","method":"see-also","confidence":"low","span":[1622,1642],"revision":1310086325,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59158120","to":"Category:Tropical analysis","predicate":"in-field","method":"category","confidence":"medium","span":[1857,1889],"revision":1310086325,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59158120","to":"Category:Tropical geometry","predicate":"in-field","method":"category","confidence":"medium","span":[1890,1920],"revision":1310086325,"by":"importer/wikipedia/1"}

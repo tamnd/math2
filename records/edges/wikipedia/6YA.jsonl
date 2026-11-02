@@ -1,0 +1,25 @@
+{"from":"wikipedia://en/12023558","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[691,706],"revision":1359742090,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12023558","to":"wikipedia://en/37765","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[714,755],"revision":1359742090,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12023558","to":"wikipedia://en/157427","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[777,808],"revision":1359742090,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12023558","to":"wikipedia://en/53422","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1503,1549],"revision":1359742090,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12023558","to":"wikipedia://en/53404","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1568,1583],"revision":1359742090,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12023558","to":"wikipedia://en/3434750","predicate":"related","method":"link-in-text","confidence":"low","span":[2692,2709],"revision":1359742090,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12023558","to":"wikipedia://en/22247302","predicate":"related","method":"link-in-text","confidence":"low","span":[2885,2901],"revision":1359742090,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12023558","to":"wikipedia://en/56936978","predicate":"related","method":"link-in-text","confidence":"low","span":[2903,2932],"revision":1359742090,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12023558","to":"wikipedia://en/45054151","predicate":"related","method":"link-in-text","confidence":"low","span":[2938,2954],"revision":1359742090,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12023558","to":"wikipedia://en/67154339","predicate":"related","method":"link-in-text","confidence":"low","span":[3042,3063],"revision":1359742090,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12023558","to":"wikipedia://en/1118498","predicate":"related","method":"link-in-text","confidence":"low","span":[3099,3114],"revision":1359742090,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12023558","to":"wikipedia://en/3008100","predicate":"related","method":"link-in-text","confidence":"low","span":[3167,3181],"revision":1359742090,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12023558","to":"wikipedia://en/10041252","predicate":"related","method":"link-in-text","confidence":"low","span":[3991,4006],"revision":1359742090,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12023558","to":"wikipedia://en/37765","predicate":"related","method":"link-in-text","confidence":"low","span":[4028,4036],"revision":1359742090,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12023558","to":"wikipedia://en/108000","predicate":"related","method":"link-in-text","confidence":"low","span":[4058,4088],"revision":1359742090,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12023558","to":"wikipedia://en/401367","predicate":"related","method":"see-also","confidence":"low","span":[4542,4591],"revision":1359742090,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12023558","to":"Category:Mathematical institutes","predicate":"in-field","method":"category","confidence":"medium","span":[4886,4922],"revision":1359742090,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12023558","to":"Category:Research institutes in California","predicate":"in-field","method":"category","confidence":"medium","span":[4923,4969],"revision":1359742090,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12023558","to":"Category:National Science Foundation mathematical sciences institutes","predicate":"in-field","method":"category","confidence":"medium","span":[4970,5043],"revision":1359742090,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12023558","to":"Category:Educational institutions in the United States established in 2000","predicate":"in-field","method":"category","confidence":"medium","span":[5044,5122],"revision":1359742090,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12023558","to":"Category:Frank Gehry buildings","predicate":"in-field","method":"category","confidence":"medium","span":[5123,5157],"revision":1359742090,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12023558","to":"Category:2000 establishments in California","predicate":"in-field","method":"category","confidence":"medium","span":[5158,5204],"revision":1359742090,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14403539#J0TW","to":"wikipedia://en/78270329","predicate":"listed-in","method":"list","confidence":"certain","span":[35356,35374],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21200639#BPNU","to":"wikipedia://en/247261","predicate":"listed-in","method":"list","confidence":"certain","span":[1238,1264],"revision":1187516180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3932847#1CLX","to":"wikipedia://en/21393078","predicate":"listed-in","method":"list","confidence":"certain","span":[5201,5211],"revision":1367994626,"by":"importer/wikipedia/1"}

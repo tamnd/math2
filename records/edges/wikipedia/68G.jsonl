@@ -1,0 +1,5 @@
+{"from":"wikipedia://en/35864002","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[103,118],"revision":1202327883,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35864002","to":"wikipedia://en/9109","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[209,234],"revision":1202327883,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35864002","to":"wikipedia://en/13362584","predicate":"related","method":"see-also","confidence":"low","span":[687,705],"revision":1202327883,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35864002","to":"Category:Algebraic identities","predicate":"in-field","method":"category","confidence":"medium","span":[2237,2270],"revision":1202327883,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35864002","to":"Category:Diophantine equations","predicate":"in-field","method":"category","confidence":"medium","span":[2271,2305],"revision":1202327883,"by":"importer/wikipedia/1"}

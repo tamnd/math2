@@ -1,0 +1,33 @@
+{"from":"wikipedia://en/1637479#JLXF","to":"wikipedia://en/10167616","predicate":"uses","method":"link-in-item","confidence":"high","span":[6263,6302],"revision":1375916057,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51116654","to":"wikipedia://en/3878","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1091,1108],"revision":1372637504,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51116654","to":"wikipedia://en/1877646","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1150,1201],"revision":1372637504,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51116654","to":"wikipedia://en/37103476","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1225,1245],"revision":1372637504,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51116654","to":"wikipedia://en/7859676","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1250,1266],"revision":1372637504,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51116654","to":"wikipedia://en/247957","predicate":"related","method":"link-in-text","confidence":"low","span":[1665,1682],"revision":1372637504,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51116654","to":"wikipedia://en/18831","predicate":"related","method":"link-in-text","confidence":"low","span":[1699,1714],"revision":1372637504,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51116654","to":"wikipedia://en/5180","predicate":"related","method":"link-in-text","confidence":"low","span":[1725,1738],"revision":1372637504,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51116654","to":"wikipedia://en/18426501","predicate":"related","method":"link-in-text","confidence":"low","span":[1905,1927],"revision":1372637504,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51116654","to":"wikipedia://en/7790659","predicate":"related","method":"link-in-text","confidence":"low","span":[1977,1993],"revision":1372637504,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51116654","to":"wikipedia://en/2944734","predicate":"related","method":"link-in-text","confidence":"low","span":[2095,2126],"revision":1372637504,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51116654","to":"wikipedia://en/381889","predicate":"related","method":"link-in-text","confidence":"low","span":[2368,2378],"revision":1372637504,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51116654","to":"wikipedia://en/341988","predicate":"related","method":"link-in-text","confidence":"low","span":[2386,2422],"revision":1372637504,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51116654","to":"wikipedia://en/243062","predicate":"related","method":"link-in-text","confidence":"low","span":[3123,3178],"revision":1372637504,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51116654","to":"Category:American statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[4103,4138],"revision":1372637504,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51116654","to":"Category:Women statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[4139,4171],"revision":1372637504,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9079432","to":"wikipedia://en/6547030","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[225,238],"revision":1301881101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9079432","to":"wikipedia://en/155125","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[266,278],"revision":1301881101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9079432","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[293,310],"revision":1301881101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9079432","to":"wikipedia://en/286000","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[338,362],"revision":1301881101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9079432","to":"wikipedia://en/782146","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[367,388],"revision":1301881101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9079432","to":"wikipedia://en/4028987","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[444,471],"revision":1301881101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9079432","to":"wikipedia://en/782173","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[498,534],"revision":1301881101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9079432","to":"wikipedia://en/1753136","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[580,605],"revision":1301881101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9079432","to":"wikipedia://en/1233990","predicate":"related","method":"link-in-lead","confidence":"low","span":[630,645],"revision":1301881101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9079432","to":"wikipedia://en/24146591","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[727,779],"revision":1301881101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9079432","to":"wikipedia://en/80857","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[819,844],"revision":1301881101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9079432","to":"wikipedia://en/6042","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[868,893],"revision":1301881101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9079432","to":"wikipedia://en/173181","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[894,913],"revision":1301881101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9079432","to":"wikipedia://en/31022249","predicate":"related","method":"see-also","confidence":"low","span":[1418,1445],"revision":1301881101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9079432","to":"Category:20th-century German mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1899,1946],"revision":1301881101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9079432","to":"Category:Academic staff of Charles University","predicate":"in-field","method":"category","confidence":"medium","span":[1994,2043],"revision":1301881101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9079432","to":"Category:Academic staff of the University of Münster","predicate":"in-field","method":"category","confidence":"medium","span":[2076,2133],"revision":1301881101,"by":"importer/wikipedia/1"}

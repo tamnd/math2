@@ -1,1 +1,4 @@
 {"id":"SSF15C14EX","mentions":["m2://rec/wikidata/Q20155677#1"],"kind":"unknown","name":"WebAssembly","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"SSF6G3CYKF","mentions":["wikipedia://en/1567386"],"kind":"definition","name":"Elementary arithmetic","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"SSFQYJZ57Y","mentions":["wikipedia://en/2862181"],"kind":"definition","name":"Geometry & Topology","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"SSFTR914QD","mentions":["wikipedia://en/10296#C41M"],"kind":"statement","name":"Bell's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

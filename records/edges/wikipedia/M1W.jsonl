@@ -1,0 +1,18 @@
+{"from":"wikipedia://en/183091#692W","to":"wikipedia://en/41731660","predicate":"listed-in","method":"list","confidence":"certain","span":[118444,118469],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3536499","to":"wikipedia://en/10635","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1565,1587],"revision":1303665590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3536499","to":"wikipedia://en/1845155","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1588,1616],"revision":1303665590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3536499","to":"wikipedia://en/21291483","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1621,1635],"revision":1303665590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3536499","to":"wikipedia://en/454486","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1640,1654],"revision":1303665590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3536499","to":"wikipedia://en/50380799","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1776,1792],"revision":1303665590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3536499","to":"wikipedia://en/1933589","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1839,1852],"revision":1303665590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3536499","to":"wikipedia://en/277663","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1963,2040],"revision":1303665590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3536499","to":"wikipedia://en/11592","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2041,2053],"revision":1303665590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3536499","to":"wikipedia://en/905962","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2062,2075],"revision":1303665590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3536499","to":"Template:Portal","predicate":"in-nav","method":"nav","confidence":"low","span":[3598,3638],"revision":1303665590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3536499","to":"wikipedia://en/7066791","predicate":"related","method":"see-also","confidence":"low","span":[3642,3696],"revision":1303665590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3536499","to":"wikipedia://en/7066791","predicate":"related","method":"see-also","confidence":"low","span":[3699,3718],"revision":1303665590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3536499","to":"wikipedia://en/1845155","predicate":"related","method":"see-also","confidence":"low","span":[3721,3749],"revision":1303665590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3536499","to":"wikipedia://en/8594839","predicate":"related","method":"see-also","confidence":"low","span":[3752,3794],"revision":1303665590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3536499","to":"Category:Cryptographic software","predicate":"in-field","method":"category","confidence":"medium","span":[5494,5529],"revision":1303665590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3536499","to":"Category:Disk encryption","predicate":"in-field","method":"category","confidence":"medium","span":[5530,5558],"revision":1303665590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3536499","to":"Category:Freeware","predicate":"in-field","method":"category","confidence":"medium","span":[5559,5580],"revision":1303665590,"by":"importer/wikipedia/1"}

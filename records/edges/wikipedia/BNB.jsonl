@@ -1,0 +1,19 @@
+{"from":"wikipedia://en/10868511","to":"wikipedia://en/50578","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[145,164],"revision":1310598093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10868511","to":"wikipedia://en/23542","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[203,247],"revision":1310598093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10868511","to":"wikipedia://en/41597450","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[706,725],"revision":1310598093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10868511","to":"wikipedia://en/45906","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[765,819],"revision":1310598093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10868511","to":"wikipedia://en/73888681","predicate":"related","method":"link-in-lead","confidence":"low","span":[1442,1461],"revision":1310598093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10868511","to":"wikipedia://en/470752","predicate":"related","method":"link-in-text","confidence":"low","span":[6453,6493],"revision":1310598093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10868511","to":"wikipedia://en/20412","predicate":"related","method":"link-in-text","confidence":"low","span":[6944,6954],"revision":1310598093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10868511","to":"wikipedia://en/41981021","predicate":"related","method":"see-also","confidence":"low","span":[7500,7528],"revision":1310598093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10868511","to":"Category:Queueing theory","predicate":"in-field","method":"category","confidence":"medium","span":[7578,7606],"revision":1310598093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10868511","to":"Category:Markov processes","predicate":"in-field","method":"category","confidence":"medium","span":[7607,7636],"revision":1310598093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/97168#P9TU","to":"wikipedia://en/741875","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[1427,1450],"revision":1339525314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/97168#P9TU","to":"wikipedia://en/296942","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[1474,1566],"revision":1339525314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/97168#P9TU","to":"wikipedia://en/1860707","predicate":"related","method":"link-in-proof","confidence":"low","span":[1611,1639],"revision":1339525314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/97168#P9TU","to":"wikipedia://en/21474","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[2057,2077],"revision":1339525314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/97168#P9TU","to":"wikipedia://en/27701","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[2105,2142],"revision":1339525314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/97168#P9TU","to":"wikipedia://en/670","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[2179,2191],"revision":1339525314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/97168#P9TU","to":"wikipedia://en/1594286","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[2369,2388],"revision":1339525314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/97168#P9TU","to":"wikipedia://en/6226587","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[4169,4206],"revision":1339525314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/97168#P9TU","to":"wikipedia://en/1917276","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[4318,4343],"revision":1339525314,"by":"importer/wikipedia/1"}

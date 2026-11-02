@@ -1,0 +1,8 @@
+{"from":"wikipedia://en/1177953","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[710,722],"revision":1329742495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1177953","to":"wikipedia://en/1128461","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[855,878],"revision":1329742495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1177953","to":"wikipedia://en/2859659","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[898,918],"revision":1329742495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1177953","to":"wikipedia://en/16034","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[940,957],"revision":1329742495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1177953","to":"Category:Johnson solids","predicate":"in-field","method":"category","confidence":"medium","span":[5214,5241],"revision":1329742495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1177953","to":"Category:Bipyramids","predicate":"in-field","method":"category","confidence":"medium","span":[5242,5265],"revision":1329742495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#TBB6","to":"wikipedia://en/1809002","predicate":"listed-in","method":"list","confidence":"certain","span":[75737,75746],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63415138#SKTH","to":"wikipedia://en/43717","predicate":"uses","method":"link-in-item","confidence":"high","span":[6226,6248],"revision":1316176293,"by":"importer/wikipedia/1"}

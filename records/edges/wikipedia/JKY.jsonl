@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/51140705#7RDA","to":"wikipedia://en/27364999","predicate":"listed-in","method":"list","confidence":"certain","span":[19334,19352],"revision":1369875693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67675432","to":"wikipedia://en/3878","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[205,238],"revision":1329532945,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67675432","to":"wikipedia://en/223369","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[331,359],"revision":1329532945,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67675432","to":"wikipedia://en/922505","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[361,398],"revision":1329532945,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67675432","to":"wikipedia://en/1278958","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[527,547],"revision":1329532945,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67675432","to":"wikipedia://en/230547","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[753,788],"revision":1329532945,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67675432","to":"wikipedia://en/498538","predicate":"related","method":"link-in-text","confidence":"low","span":[863,894],"revision":1329532945,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67675432","to":"wikipedia://en/239870","predicate":"related","method":"link-in-text","confidence":"low","span":[932,960],"revision":1329532945,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67675432","to":"wikipedia://en/51140705","predicate":"related","method":"link-in-text","confidence":"low","span":[1478,1528],"revision":1329532945,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67675432","to":"wikipedia://en/14649238","predicate":"related","method":"link-in-text","confidence":"low","span":[1561,1622],"revision":1329532945,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67675432","to":"Category:American radiologists","predicate":"in-field","method":"category","confidence":"medium","span":[3522,3556],"revision":1329532945,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67675432","to":"Category:Women radiologists","predicate":"in-field","method":"category","confidence":"medium","span":[3557,3588],"revision":1329532945,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67675432","to":"Category:American women statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[3589,3630],"revision":1329532945,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67675432","to":"Category:American biostatisticians","predicate":"in-field","method":"category","confidence":"medium","span":[3631,3669],"revision":1329532945,"by":"importer/wikipedia/1"}

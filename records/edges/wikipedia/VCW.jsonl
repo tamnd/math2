@@ -1,0 +1,32 @@
+{"from":"wikipedia://en/1042164#X3A7","to":"wikipedia://en/169319","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[26554,26582],"revision":1373591613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1042164#X3A7","to":"wikipedia://en/10603","predicate":"uses","method":"link-in-item","confidence":"high","span":[26767,26796],"revision":1373591613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1042164#X3A7","to":"wikipedia://en/1018","predicate":"uses","method":"link-in-item","confidence":"high","span":[26809,26860],"revision":1373591613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1042164#X3A7","to":"wikipedia://en/11634","predicate":"uses","method":"link-in-item","confidence":"high","span":[26915,26935],"revision":1373591613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38755088#KS9V","to":"wikipedia://en/108564","predicate":"listed-in","method":"list","confidence":"certain","span":[4828,4863],"revision":1369154077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[876,901],"revision":1359768561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"wikipedia://en/70566","predicate":"related","method":"link-in-text","confidence":"low","span":[954,969],"revision":1359768561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"wikipedia://en/5489","predicate":"related","method":"link-in-text","confidence":"low","span":[971,980],"revision":1359768561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"wikipedia://en/9316","predicate":"related","method":"link-in-text","confidence":"low","span":[1005,1016],"revision":1359768561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"wikipedia://en/417547","predicate":"related","method":"link-in-text","confidence":"low","span":[1043,1079],"revision":1359768561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"wikipedia://en/31803","predicate":"related","method":"link-in-text","confidence":"low","span":[1097,1127],"revision":1359768561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"wikipedia://en/19355609","predicate":"related","method":"link-in-text","confidence":"low","span":[1152,1171],"revision":1359768561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"wikipedia://en/19594028","predicate":"related","method":"link-in-text","confidence":"low","span":[1232,1257],"revision":1359768561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"wikipedia://en/156512","predicate":"related","method":"link-in-text","confidence":"low","span":[1315,1342],"revision":1359768561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"wikipedia://en/25813","predicate":"related","method":"link-in-text","confidence":"low","span":[1380,1414],"revision":1359768561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"wikipedia://en/13774","predicate":"related","method":"link-in-text","confidence":"low","span":[1418,1429],"revision":1359768561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"wikipedia://en/29810","predicate":"related","method":"link-in-text","confidence":"low","span":[1431,1440],"revision":1359768561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"wikipedia://en/180763","predicate":"related","method":"link-in-text","confidence":"low","span":[1490,1518],"revision":1359768561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"wikipedia://en/61866","predicate":"related","method":"link-in-text","confidence":"low","span":[1533,1545],"revision":1359768561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"wikipedia://en/8302","predicate":"related","method":"link-in-text","confidence":"low","span":[1550,1567],"revision":1359768561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"wikipedia://en/310417","predicate":"related","method":"link-in-text","confidence":"low","span":[1653,1680],"revision":1359768561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"wikipedia://en/2904201","predicate":"related","method":"link-in-text","confidence":"low","span":[1849,1869],"revision":1359768561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"wikipedia://en/6674542","predicate":"related","method":"link-in-text","confidence":"low","span":[1945,2014],"revision":1359768561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"wikipedia://en/91161","predicate":"related","method":"link-in-text","confidence":"low","span":[2072,2093],"revision":1359768561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"wikipedia://en/627842","predicate":"related","method":"link-in-text","confidence":"low","span":[2286,2334],"revision":1359768561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"wikipedia://en/32927","predicate":"related","method":"link-in-text","confidence":"low","span":[2873,2889],"revision":1359768561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"wikipedia://en/2059938","predicate":"related","method":"link-in-text","confidence":"low","span":[2918,2940],"revision":1359768561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"Category:20th-century British mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4643,4691],"revision":1359768561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"Category:Senior Wranglers","predicate":"in-field","method":"category","confidence":"medium","span":[4742,4771],"revision":1359768561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"Category:British expatriates in Chile","predicate":"in-field","method":"category","confidence":"medium","span":[4874,4915],"revision":1359768561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"Category:British expatriates in the United States","predicate":"in-field","method":"category","confidence":"medium","span":[4916,4969],"revision":1359768561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9807915","to":"Category:Academics of the University of Sheffield","predicate":"in-field","method":"category","confidence":"medium","span":[4970,5023],"revision":1359768561,"by":"importer/wikipedia/1"}

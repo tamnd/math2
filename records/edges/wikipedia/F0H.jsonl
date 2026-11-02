@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/339396#HT4G","to":"wikipedia://en/4005892","predicate":"listed-in","method":"list","confidence":"certain","span":[5585,5606],"revision":1245682451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6978815#STAF","to":"wikipedia://en/140806","predicate":"uses","method":"link-in-item","confidence":"high","span":[13393,13415],"revision":1364293029,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6978815#STAF","to":"wikipedia://en/312397","predicate":"uses","method":"link-in-item","confidence":"medium","span":[13576,13604],"revision":1364293029,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6978815#STAF","to":"wikipedia://en/312408","predicate":"uses","method":"link-in-item","confidence":"medium","span":[13643,13668],"revision":1364293029,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7987653","to":"wikipedia://en/19616384","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[74,94],"revision":1223585704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7987653","to":"wikipedia://en/103094","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[139,164],"revision":1223585704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7987653","to":"wikipedia://en/191788","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[181,213],"revision":1223585704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7987653","to":"wikipedia://en/27161748","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[229,245],"revision":1223585704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7987653","to":"wikipedia://en/138215","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[332,350],"revision":1223585704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7987653","to":"wikipedia://en/373065","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[996,1015],"revision":1223585704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7987653","to":"wikipedia://en/519992","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1044,1062],"revision":1223585704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7987653","to":"wikipedia://en/5147910","predicate":"related","method":"link-in-lead","confidence":"low","span":[1308,1329],"revision":1223585704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7987653","to":"wikipedia://en/42478011","predicate":"related","method":"see-also","confidence":"low","span":[1348,1366],"revision":1223585704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7987653","to":"wikipedia://en/3116851","predicate":"related","method":"see-also","confidence":"low","span":[1368,1398],"revision":1223585704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7987653","to":"Category:Algebras","predicate":"in-field","method":"category","confidence":"medium","span":[3031,3052],"revision":1223585704,"by":"importer/wikipedia/1"}

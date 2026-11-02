@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/14403539#9ZPN","to":"wikipedia://en/1400825","predicate":"listed-in","method":"list","confidence":"certain","span":[52488,52502],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/357416#7MFJ","to":"wikipedia://en/5930652","predicate":"uses","method":"link-in-item","confidence":"high","span":[10432,10458],"revision":1375767601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/357416#7MFJ","to":"wikipedia://en/1698977","predicate":"uses","method":"link-in-item","confidence":"high","span":[10477,10503],"revision":1375767601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/357416#7MFJ","to":"wikipedia://en/696408","predicate":"uses","method":"link-in-item","confidence":"high","span":[10527,10549],"revision":1375767601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/357416#7MFJ","to":"wikipedia://en/357328","predicate":"uses","method":"link-in-item","confidence":"high","span":[10584,10617],"revision":1375767601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/357416#7MFJ","to":"wikipedia://en/30448","predicate":"uses","method":"link-in-item","confidence":"high","span":[10669,10756],"revision":1375767601,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37810060","to":"wikipedia://en/155414","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,27],"revision":1336721947,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37810060","to":"wikipedia://en/2399097","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[62,131],"revision":1336721947,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37810060","to":"wikipedia://en/2399097","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[132,178],"revision":1336721947,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37810060","to":"wikipedia://en/332090","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[211,241],"revision":1336721947,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37810060","to":"wikipedia://en/56864217","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[424,448],"revision":1336721947,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37810060","to":"Category:Computability theory","predicate":"in-field","method":"category","confidence":"medium","span":[1094,1127],"revision":1336721947,"by":"importer/wikipedia/1"}

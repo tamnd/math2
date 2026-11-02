@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/44055#H7WA","to":"wikipedia://en/43327#R1TT","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2900,2972],"revision":1372845759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44055#H7WA","to":"wikipedia://en/2257262","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3227,3246],"revision":1372845759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44055#H7WA","to":"wikipedia://en/18198","predicate":"uses","method":"link-in-item","confidence":"high","span":[3378,3401],"revision":1372845759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44055#H7WA","to":"wikipedia://en/43327","predicate":"uses","method":"link-in-item","confidence":"high","span":[3649,3666],"revision":1372845759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44055#H7WA","to":"wikipedia://en/5826","predicate":"uses","method":"link-in-item","confidence":"high","span":[3674,3693],"revision":1372845759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44055#H7WA","to":"wikipedia://en/48396","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[3767,3792],"revision":1372845759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73414919","to":"wikipedia://en/21692379","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[182,192],"revision":1329937032,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73414919","to":"wikipedia://en/17058216","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[286,308],"revision":1329937032,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73414919","to":"wikipedia://en/446216","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[459,478],"revision":1329937032,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73414919","to":"wikipedia://en/90168","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[482,518],"revision":1329937032,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73414919","to":"wikipedia://en/2990873","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[572,599],"revision":1329937032,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73414919","to":"wikipedia://en/51218889","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[808,862],"revision":1329937032,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73414919","to":"Category:Spanish statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[3544,3578],"revision":1329937032,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73414919","to":"Category:Spanish women statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[3579,3619],"revision":1329937032,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73414919","to":"Category:Control theorists","predicate":"in-field","method":"category","confidence":"medium","span":[3620,3650],"revision":1329937032,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73414919","to":"Category:Academic staff of the University of La Laguna","predicate":"in-field","method":"category","confidence":"medium","span":[3651,3709],"revision":1329937032,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73414919","to":"Category:Academic staff of the Complutense University of Madrid","predicate":"in-field","method":"category","confidence":"medium","span":[3710,3777],"revision":1329937032,"by":"importer/wikipedia/1"}

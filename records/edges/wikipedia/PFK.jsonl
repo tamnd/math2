@@ -1,0 +1,4 @@
+{"from":"wikipedia://en/33026245","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1349516280,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33026245","to":"wikipedia://en/61213","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[75,93],"revision":1349516280,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33026245","to":"wikipedia://en/23000","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[158,173],"revision":1349516280,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33026245","to":"Category:Polynomials","predicate":"in-field","method":"category","confidence":"medium","span":[2319,2343],"revision":1349516280,"by":"importer/wikipedia/1"}

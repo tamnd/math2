@@ -1,0 +1,26 @@
+{"from":"wikipedia://en/14403539#O6Y5","to":"wikipedia://en/32512780","predicate":"listed-in","method":"list","confidence":"certain","span":[5883,5912],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1542238#QV2A","to":"wikipedia://en/47436","predicate":"uses","method":"link-in-item","confidence":"high","span":[1327,1355],"revision":1300229338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1542238#QV2A","to":"wikipedia://en/6042","predicate":"uses","method":"link-in-item","confidence":"high","span":[1869,1894],"revision":1300229338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22950755#KO9D","to":"wikipedia://en/62060265","predicate":"listed-in","method":"list","confidence":"certain","span":[4245,4263],"revision":1346023917,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50952498","to":"wikipedia://en/3267095","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[161,169],"revision":1319652625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50952498","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[221,238],"revision":1319652625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50952498","to":"wikipedia://en/23269","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[243,256],"revision":1319652625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50952498","to":"wikipedia://en/1672501","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[276,302],"revision":1319652625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50952498","to":"wikipedia://en/8828","predicate":"related","method":"link-in-text","confidence":"low","span":[591,601],"revision":1319652625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50952498","to":"wikipedia://en/11019974","predicate":"related","method":"link-in-text","confidence":"low","span":[667,680],"revision":1319652625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50952498","to":"wikipedia://en/81890","predicate":"related","method":"link-in-text","confidence":"low","span":[684,692],"revision":1319652625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50952498","to":"wikipedia://en/1254444","predicate":"related","method":"link-in-text","confidence":"low","span":[863,881],"revision":1319652625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50952498","to":"wikipedia://en/9602","predicate":"related","method":"link-in-text","confidence":"low","span":[935,948],"revision":1319652625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50952498","to":"wikipedia://en/23592200","predicate":"related","method":"link-in-text","confidence":"low","span":[1094,1121],"revision":1319652625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50952498","to":"wikipedia://en/2341831","predicate":"related","method":"link-in-text","confidence":"low","span":[1179,1218],"revision":1319652625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50952498","to":"wikipedia://en/14008803","predicate":"related","method":"link-in-text","confidence":"low","span":[1241,1286],"revision":1319652625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50952498","to":"wikipedia://en/585984","predicate":"related","method":"link-in-text","confidence":"low","span":[1796,1826],"revision":1319652625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50952498","to":"wikipedia://en/39792055","predicate":"related","method":"link-in-text","confidence":"low","span":[1855,1881],"revision":1319652625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50952498","to":"wikipedia://en/51356671","predicate":"related","method":"link-in-text","confidence":"low","span":[1883,1904],"revision":1319652625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50952498","to":"wikipedia://en/48245199","predicate":"related","method":"link-in-text","confidence":"low","span":[1923,1943],"revision":1319652625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50952498","to":"wikipedia://en/4764461","predicate":"related","method":"link-in-text","confidence":"low","span":[2439,2458],"revision":1319652625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50952498","to":"wikipedia://en/2839573","predicate":"related","method":"link-in-text","confidence":"low","span":[2490,2515],"revision":1319652625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50952498","to":"wikipedia://en/2884358","predicate":"related","method":"link-in-text","confidence":"low","span":[2550,2568],"revision":1319652625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50952498","to":"wikipedia://en/48245199","predicate":"related","method":"link-in-text","confidence":"low","span":[2801,2821],"revision":1319652625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50952498","to":"Category:Academics from Dundee","predicate":"in-field","method":"category","confidence":"medium","span":[3188,3222],"revision":1319652625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50952498","to":"Category:Scientists from Dundee","predicate":"in-field","method":"category","confidence":"medium","span":[3223,3258],"revision":1319652625,"by":"importer/wikipedia/1"}

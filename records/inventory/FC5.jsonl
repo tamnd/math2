@@ -1,2 +1,9 @@
+{"id":"FC50VF413Q","mentions":["wikipedia://en/6631661"],"kind":"topic","name":"Transportation theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FC53PPMZKQ","mentions":["wikipedia://en/3522878#VMGH"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FC56JC6CGW","mentions":["wikipedia://en/9127502"],"kind":"definition","name":"Spectr-H64","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FC57V6R24D","mentions":["wikipedia://en/517370#MNTV"],"kind":"definition","name":"Face","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FC5HNBPQNP","mentions":["wikipedia://en/140829#4V9I"],"kind":"unknown","name":"Gini, Corrado","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"FC5HS76E23","mentions":["ax://paper/2106.06387#XEEG"],"kind":"unknown","msc":["14-XX"],"layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
+{"id":"FC5RNM3APR","mentions":["wikipedia://en/12155770#Y7P9"],"kind":"definition","name":"Notation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FC5T57HCR1","mentions":["wikipedia://en/6093954#FQDD"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"FC5VSG9HPY","mentions":["ax://paper/0908.3266#83KA"],"kind":"statement","msc":["26-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}

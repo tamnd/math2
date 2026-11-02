@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/1236592","to":"wikipedia://en/19636","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,25],"revision":1292194735,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1236592","to":"wikipedia://en/1002300","predicate":"specializes","method":"link-in-lead","confidence":"medium","span":[83,107],"revision":1292194735,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1236592","to":"wikipedia://en/1236542","predicate":"specializes","method":"link-in-lead","confidence":"medium","span":[125,144],"revision":1292194735,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1236592","to":"wikipedia://en/321438","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[260,283],"revision":1292194735,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1236592","to":"wikipedia://en/26547932","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[294,320],"revision":1292194735,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1236592","to":"wikipedia://en/21474","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[347,366],"revision":1292194735,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1236592","to":"wikipedia://en/2596030","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[517,537],"revision":1292194735,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1236592","to":"wikipedia://en/152214","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[570,577],"revision":1292194735,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1236592","to":"wikipedia://en/840","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[677,696],"revision":1292194735,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1236592","to":"wikipedia://en/383644","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[767,785],"revision":1292194735,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1236592","to":"wikipedia://en/248105","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[835,855],"revision":1292194735,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1236592","to":"wikipedia://en/18198","predicate":"related","method":"link-in-text","confidence":"low","span":[915,938],"revision":1292194735,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1236592","to":"wikipedia://en/2231292","predicate":"related","method":"link-in-text","confidence":"low","span":[949,975],"revision":1292194735,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1236592","to":"wikipedia://en/2221109","predicate":"related","method":"link-in-text","confidence":"low","span":[990,1014],"revision":1292194735,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1236592","to":"wikipedia://en/2213768","predicate":"related","method":"link-in-text","confidence":"low","span":[1023,1044],"revision":1292194735,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1236592","to":"wikipedia://en/3931","predicate":"related","method":"link-in-text","confidence":"low","span":[1085,1104],"revision":1292194735,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1236592","to":"wikipedia://en/2148548","predicate":"related","method":"link-in-text","confidence":"low","span":[1112,1155],"revision":1292194735,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1236592","to":"Category:Axioms of set theory","predicate":"in-field","method":"category","confidence":"medium","span":[2505,2538],"revision":1292194735,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1236592","to":"Category:Descriptive set theory","predicate":"in-field","method":"category","confidence":"medium","span":[2539,2574],"revision":1292194735,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1236592","to":"Category:Determinacy","predicate":"in-field","method":"category","confidence":"medium","span":[2575,2599],"revision":1292194735,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1236592","to":"Category:Large cardinals","predicate":"in-field","method":"category","confidence":"medium","span":[2600,2628],"revision":1292194735,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47321473#WWYS","to":"wikipedia://en/58614550","predicate":"related","method":"link-in-item","confidence":"low","span":[6960,6996],"revision":1372797317,"by":"importer/wikipedia/1"}

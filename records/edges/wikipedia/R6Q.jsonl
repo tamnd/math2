@@ -1,0 +1,5 @@
+{"from":"wikipedia://en/2770230#K55T","to":"wikipedia://en/31962097","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[5437,5481],"revision":1363406187,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2770230#K55T","to":"wikipedia://en/87599","predicate":"related","method":"link-in-proof","confidence":"low","span":[5487,5502],"revision":1363406187,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2770230#K55T","to":"wikipedia://en/529941","predicate":"related","method":"link-in-proof","confidence":"low","span":[5507,5523],"revision":1363406187,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76765067#CL8Q","to":"wikipedia://en/3197900","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[210112,210127],"revision":1368301704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76765067#CL8Q","to":"wikipedia://en/1655450","predicate":"uses","method":"link-in-item","confidence":"high","span":[210143,210163],"revision":1368301704,"by":"importer/wikipedia/1"}

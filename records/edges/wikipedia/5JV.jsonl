@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/16868392#CMJQ","to":"wikipedia://en/44055","predicate":"listed-in","method":"list","confidence":"certain","span":[7152,7170],"revision":1374334028,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16868392#CMJQ","to":"wikipedia://en/43327","predicate":"uses","method":"link-in-item","confidence":"high","span":[7193,7206],"revision":1374334028,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3932847#TOR7","to":"wikipedia://en/70595459","predicate":"listed-in","method":"list","confidence":"certain","span":[1463,1473],"revision":1367994626,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3932847#TOR7","to":"wikipedia://en/12293","predicate":"uses","method":"link-in-item","confidence":"medium","span":[1485,1492],"revision":1367994626,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55660215","to":"wikipedia://en/62329","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[128,145],"revision":1332100365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55660215","to":"wikipedia://en/24982","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[162,179],"revision":1332100365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55660215","to":"wikipedia://en/239297","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[291,319],"revision":1332100365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55660215","to":"wikipedia://en/66997","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[539,555],"revision":1332100365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55660215","to":"wikipedia://en/38420","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[656,684],"revision":1332100365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55660215","to":"wikipedia://en/32127","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[735,760],"revision":1332100365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55660215","to":"wikipedia://en/19653610","predicate":"related","method":"link-in-lead","confidence":"low","span":[802,821],"revision":1332100365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55660215","to":"wikipedia://en/241128","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[936,965],"revision":1332100365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55660215","to":"wikipedia://en/341988","predicate":"related","method":"link-in-lead","confidence":"low","span":[1367,1403],"revision":1332100365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55660215","to":"wikipedia://en/3195316","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1436,1481],"revision":1332100365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55660215","to":"Category:American statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[3181,3216],"revision":1332100365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55660215","to":"Category:American women statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[3217,3258],"revision":1332100365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55660215","to":"Category:American women psychologists","predicate":"in-field","method":"category","confidence":"medium","span":[3259,3300],"revision":1332100365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55660215","to":"Category:Psychometricians","predicate":"in-field","method":"category","confidence":"medium","span":[3301,3330],"revision":1332100365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55660215","to":"Category:21st-century American psychologists","predicate":"in-field","method":"category","confidence":"medium","span":[3331,3379],"revision":1332100365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55660215","to":"Category:American educational psychologists","predicate":"in-field","method":"category","confidence":"medium","span":[3380,3427],"revision":1332100365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55660215","to":"Category:American women academics","predicate":"in-field","method":"category","confidence":"medium","span":[3669,3706],"revision":1332100365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55660215","to":"Category:21st-century American women","predicate":"in-field","method":"category","confidence":"medium","span":[3707,3747],"revision":1332100365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55660215","to":"Category:Quantitative psychologists","predicate":"in-field","method":"category","confidence":"medium","span":[3748,3787],"revision":1332100365,"by":"importer/wikipedia/1"}

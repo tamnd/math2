@@ -1,0 +1,18 @@
+{"from":"wikipedia://en/10375543","to":"wikipedia://en/22510359","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[102,125],"revision":1334301849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10375543","to":"wikipedia://en/1619396","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[140,168],"revision":1334301849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10375543","to":"wikipedia://en/3147062","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[184,220],"revision":1334301849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10375543","to":"wikipedia://en/10370470","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[504,517],"revision":1334301849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10375543","to":"wikipedia://en/10354285","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[553,578],"revision":1334301849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10375543","to":"wikipedia://en/1359175","predicate":"related","method":"link-in-lead","confidence":"low","span":[811,829],"revision":1334301849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10375543","to":"wikipedia://en/10370470","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[834,849],"revision":1334301849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10375543","to":"wikipedia://en/10354285#UDQ1","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[952,1045],"revision":1334301849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10375543","to":"wikipedia://en/10354285","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1050,1075],"revision":1334301849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10375543","to":"Category:Symmetric functions","predicate":"in-field","method":"category","confidence":"medium","span":[1918,1950],"revision":1334301849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10375543","to":"Category:Algebraic geometry","predicate":"in-field","method":"category","confidence":"medium","span":[1951,1982],"revision":1334301849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10375543","to":"Category:Algebraic combinatorics","predicate":"in-field","method":"category","confidence":"medium","span":[1983,2019],"revision":1334301849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10375543","to":"Category:Q-analogs","predicate":"in-field","method":"category","confidence":"medium","span":[2020,2042],"revision":1334301849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10375543","to":"Category:Polynomials","predicate":"in-field","method":"category","confidence":"medium","span":[2043,2067],"revision":1334301849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30780965#X6ND","to":"wikipedia://en/21008097","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4499,4545],"revision":1306701019,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30780965#X6ND","to":"wikipedia://en/23015","predicate":"uses","method":"link-in-item","confidence":"high","span":[4551,4575],"revision":1306701019,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30780965#X6ND","to":"wikipedia://en/30779094","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4650,4678],"revision":1306701019,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30780965#X6ND","to":"wikipedia://en/34138","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4827,4834],"revision":1306701019,"by":"importer/wikipedia/1"}

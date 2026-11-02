@@ -1,1 +1,5 @@
+{"id":"57D0J9G2BE","mentions":["wikipedia://en/708242#DXJ3"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"57DKP88GRW","mentions":["ax://paper/2609.33856#63EM"],"kind":"statement","msc":["03-XX","54-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
+{"id":"57DMG9TYG3","mentions":["wikipedia://en/83748065#BFYX"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"57DV6DTPCY","mentions":["wikipedia://en/23335118#TOSU"],"kind":"statement","name":"Characterizations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"57DZM4KG1G","mentions":["wikipedia://en/408108#6A4C"],"kind":"definition","name":"Total variation distance","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

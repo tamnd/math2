@@ -1,0 +1,8 @@
+{"from":"wikipedia://en/242727#9NJP","to":"wikipedia://en/2515349","predicate":"listed-in","method":"list","confidence":"certain","span":[948,988],"revision":1375043341,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5122533","to":"wikipedia://en/12695","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[109,149],"revision":1366697174,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5122533","to":"wikipedia://en/28901","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[153,173],"revision":1366697174,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5122533","to":"wikipedia://en/385982","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[383,414],"revision":1366697174,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5122533","to":"wikipedia://en/683368","predicate":"related","method":"link-in-text","confidence":"low","span":[2407,2478],"revision":1366697174,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5122533","to":"wikipedia://en/41497810","predicate":"uses","method":"named-link","confidence":"high","span":[2529,2552],"revision":1366697174,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5122533","to":"wikipedia://en/31819967","predicate":"related","method":"see-also","confidence":"low","span":[3073,3093],"revision":1366697174,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5122533","to":"Category:Representation theory of finite groups","predicate":"in-field","method":"category","confidence":"medium","span":[4252,4303],"revision":1366697174,"by":"importer/wikipedia/1"}

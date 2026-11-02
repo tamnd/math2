@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/14403539#XRYZ","to":"wikipedia://en/22885538","predicate":"listed-in","method":"list","confidence":"certain","span":[9546,9563],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20502609","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[95,110],"revision":1292752181,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20502609","to":"wikipedia://en/20419621","predicate":"related","method":"link-in-lead","confidence":"low","span":[190,224],"revision":1292752181,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20502609","to":"wikipedia://en/1088386","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[365,394],"revision":1292752181,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20502609","to":"wikipedia://en/145375","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[402,417],"revision":1292752181,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20502609","to":"Category:Automorphic forms","predicate":"in-field","method":"category","confidence":"medium","span":[837,867],"revision":1292752181,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20502609","to":"Category:Theorems in number theory","predicate":"kind-of","method":"category","confidence":"medium","span":[868,906],"revision":1292752181,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40888100","to":"wikipedia://en/41890","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[99,115],"revision":1354564546,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40888100","to":"wikipedia://en/292788","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[264,290],"revision":1354564546,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40888100","to":"wikipedia://en/55943952","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[372,394],"revision":1354564546,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40888100","to":"wikipedia://en/7184","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[792,806],"revision":1354564546,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40888100","to":"wikipedia://en/294185","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[831,854],"revision":1354564546,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40888100","to":"wikipedia://en/1001361","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1004,1026],"revision":1354564546,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40888100","to":"Category:Unitary representation theory","predicate":"in-field","method":"category","confidence":"medium","span":[2689,2731],"revision":1354564546,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40888100","to":"Category:Module theory","predicate":"in-field","method":"category","confidence":"medium","span":[2732,2758],"revision":1354564546,"by":"importer/wikipedia/1"}

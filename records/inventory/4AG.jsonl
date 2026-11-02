@@ -1,3 +1,7 @@
 {"id":"4AG6MAF72B","mentions":["m2://rec/hott_book/reals.tex#proof-4#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"4AG78ZDRVE","mentions":["wikipedia://en/16801509#LGOT"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4AGDGNXKS9","mentions":["wikipedia://en/255768#CCQV"],"kind":"definition","name":"Burrows–Abadi–Needham logic","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4AGG8JPT84","mentions":["m2://rec/napkin/tex/cats/categories.tex#exercise-2#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"4AGHGATWV9","mentions":["wikipedia://en/47565351#K605"],"kind":"unknown","name":"Britannia Prima","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4AGM1DPF2A","mentions":["wikipedia://en/65309248#DYWB"],"kind":"definition","name":"Fort space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4AGNTHWEGA","mentions":["m2://rec/applied_combinatorics/source/s_strings_multinom.ptx#exa_strings_multinom#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

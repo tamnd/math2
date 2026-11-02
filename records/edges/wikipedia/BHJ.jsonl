@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/11353703#DEO4","to":"wikipedia://en/2242565","predicate":"listed-in","method":"list","confidence":"certain","span":[73084,73099],"revision":1373003451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1211986#KU0C","to":"wikipedia://en/1211986#KU0C","predicate":"uses","method":"anchor","confidence":"certain","span":[41602,41620],"revision":1373209653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1211986#KU0C","to":"wikipedia://en/1211986","predicate":"uses","method":"anchor","confidence":"certain","span":[41825,41843],"revision":1373209653,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1211986#KU0C","to":"wikipedia://en/1211986","predicate":"uses","method":"anchor","confidence":"certain","span":[41850,41868],"revision":1373209653,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1211986#KU0C","to":"wikipedia://en/6122","predicate":"uses","method":"link-in-item","confidence":"high","span":[41965,41999],"revision":1373209653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1211986#KU0C","to":"wikipedia://en/222367","predicate":"uses","method":"link-in-item","confidence":"high","span":[42001,42028],"revision":1373209653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1211986#KU0C","to":"wikipedia://en/1211986#KU0C","predicate":"uses","method":"anchor","confidence":"certain","span":[42196,42214],"revision":1373209653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52244947","to":"wikipedia://en/955164","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[73,99],"revision":1336562930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52244947","to":"wikipedia://en/59735","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[147,161],"revision":1336562930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52244947","to":"wikipedia://en/12747184","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[197,231],"revision":1336562930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52244947","to":"wikipedia://en/2327355","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[572,615],"revision":1336562930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52244947","to":"wikipedia://en/793295","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[623,646],"revision":1336562930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52244947","to":"Category:Geometric group theory","predicate":"in-field","method":"category","confidence":"medium","span":[13241,13276],"revision":1336562930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52244947","to":"Category:Geometric topology","predicate":"in-field","method":"category","confidence":"medium","span":[13277,13308],"revision":1336562930,"by":"importer/wikipedia/1"}

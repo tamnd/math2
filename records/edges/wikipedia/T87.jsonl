@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/25172838#VDJP","to":"wikipedia://en/31150","predicate":"listed-in","method":"list","confidence":"certain","span":[1807,1844],"revision":1354839369,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42429764","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1293653874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42429764","to":"wikipedia://en/23000","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[579,593],"revision":1293653874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42429764","to":"wikipedia://en/10603","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[601,630],"revision":1293653874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42429764","to":"wikipedia://en/1066621","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[634,677],"revision":1293653874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42429764","to":"wikipedia://en/1088270","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[744,761],"revision":1293653874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42429764","to":"wikipedia://en/294390","predicate":"related","method":"link-in-lead","confidence":"low","span":[867,882],"revision":1293653874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42429764","to":"wikipedia://en/1374699","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1076,1100],"revision":1293653874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42429764","to":"wikipedia://en/5578871","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1321,1341],"revision":1293653874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42429764","to":"Category:Algebraic number theory","predicate":"in-field","method":"category","confidence":"medium","span":[4408,4444],"revision":1293653874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42429764","to":"Category:Finite fields","predicate":"in-field","method":"category","confidence":"medium","span":[4445,4471],"revision":1293653874,"by":"importer/wikipedia/1"}

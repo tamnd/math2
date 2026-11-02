@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/47565351#WHKW","to":"wikipedia://en/27713459","predicate":"listed-in","method":"list","confidence":"certain","span":[61276,61304],"revision":1373350261,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#WSXU","to":"wikipedia://en/59920","predicate":"listed-in","method":"list","confidence":"certain","span":[40740,40757],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48781047#VWA3","to":"wikipedia://en/15798187","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[3328,3346],"revision":1367087612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/696317","to":"wikipedia://en/23000","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[78,106],"revision":1359915802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/696317","to":"wikipedia://en/357328","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[200,218],"revision":1359915802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/696317","to":"wikipedia://en/1924233","predicate":"related","method":"link-in-lead","confidence":"low","span":[383,403],"revision":1359915802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/696317","to":"wikipedia://en/10377","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[463,486],"revision":1359915802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/696317","to":"wikipedia://en/12354","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[516,543],"revision":1359915802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/696317","to":"wikipedia://en/13035","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[636,660],"revision":1359915802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/696317","to":"wikipedia://en/113087","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[666,696],"revision":1359915802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/696317","to":"wikipedia://en/405944","predicate":"related","method":"link-in-text","confidence":"low","span":[3117,3161],"revision":1359915802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/696317","to":"wikipedia://en/5930652","predicate":"related","method":"link-in-text","confidence":"low","span":[3773,3789],"revision":1359915802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/696317","to":"wikipedia://en/18422","predicate":"related","method":"link-in-text","confidence":"low","span":[3847,3865],"revision":1359915802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/696317","to":"wikipedia://en/32370","predicate":"related","method":"link-in-text","confidence":"low","span":[3875,3891],"revision":1359915802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/696317","to":"wikipedia://en/6212640","predicate":"related","method":"link-in-text","confidence":"low","span":[4672,4707],"revision":1359915802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/696317","to":"wikipedia://en/614147","predicate":"related","method":"see-also","confidence":"low","span":[5794,5833],"revision":1359915802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/696317","to":"wikipedia://en/317263","predicate":"related","method":"see-also","confidence":"low","span":[5836,5867],"revision":1359915802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/696317","to":"Category:Computer algebra","predicate":"in-field","method":"category","confidence":"medium","span":[6973,7002],"revision":1359915802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/696317","to":"Category:Rewriting systems","predicate":"in-field","method":"category","confidence":"medium","span":[7003,7033],"revision":1359915802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/696317","to":"Category:Algebraic geometry","predicate":"in-field","method":"category","confidence":"medium","span":[7034,7065],"revision":1359915802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/696317","to":"Category:Commutative algebra","predicate":"in-field","method":"category","confidence":"medium","span":[7066,7098],"revision":1359915802,"by":"importer/wikipedia/1"}

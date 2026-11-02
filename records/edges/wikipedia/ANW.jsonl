@@ -1,0 +1,20 @@
+{"from":"wikipedia://en/12241857","to":"wikipedia://en/20855885","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[117,132],"revision":1286684957,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12241857","to":"wikipedia://en/18987","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[144,159],"revision":1286684957,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12241857","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[578,595],"revision":1286684957,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12241857","to":"wikipedia://en/580","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[597,611],"revision":1286684957,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12241857","to":"wikipedia://en/205075","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[613,625],"revision":1286684957,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12241857","to":"wikipedia://en/64485","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[658,671],"revision":1286684957,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12241857","to":"wikipedia://en/4015178","predicate":"related","method":"link-in-text","confidence":"low","span":[839,884],"revision":1286684957,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12241857","to":"wikipedia://en/323592","predicate":"related","method":"link-in-text","confidence":"low","span":[1124,1147],"revision":1286684957,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12241857","to":"wikipedia://en/39872","predicate":"related","method":"link-in-text","confidence":"low","span":[1199,1227],"revision":1286684957,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12241857","to":"wikipedia://en/29688374","predicate":"related","method":"link-in-text","confidence":"low","span":[1280,1299],"revision":1286684957,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12241857","to":"wikipedia://en/1472155","predicate":"related","method":"link-in-text","confidence":"low","span":[2124,2147],"revision":1286684957,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12241857","to":"wikipedia://en/15191","predicate":"related","method":"link-in-text","confidence":"low","span":[2703,2718],"revision":1286684957,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12241857","to":"wikipedia://en/5009348","predicate":"related","method":"link-in-text","confidence":"low","span":[5701,5735],"revision":1286684957,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12241857","to":"Category:Mexican mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[6088,6123],"revision":1286684957,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12241857","to":"Category:Mexican astronomers","predicate":"in-field","method":"category","confidence":"medium","span":[6124,6156],"revision":1286684957,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12241857","to":"Category:Academic staff of the National Autonomous University of Mexico","predicate":"in-field","method":"category","confidence":"medium","span":[6157,6232],"revision":1286684957,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#V2LU","to":"wikipedia://en/7759194","predicate":"listed-in","method":"list","confidence":"certain","span":[16556,16588],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26248766#V9M7","to":"wikipedia://en/22914706","predicate":"listed-in","method":"list","confidence":"certain","span":[2033,2057],"revision":1349235543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35632225#WER5","to":"wikipedia://en/25690763","predicate":"listed-in","method":"list","confidence":"certain","span":[12770,12784],"revision":1341700687,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37532867#PFYQ","to":"wikipedia://en/33120574","predicate":"listed-in","method":"list","confidence":"certain","span":[35967,36050],"revision":1376357301,"by":"importer/wikipedia/1"}

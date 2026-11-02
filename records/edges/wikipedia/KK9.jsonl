@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/44281046#ZKBG","to":"wikipedia://en/11866","predicate":"restates","method":"hatnote","confidence":"high","span":[4338,4363],"revision":1327434659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44281046#ZKBG","to":"wikipedia://en/11866","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4411,4440],"revision":1327434659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44281046#ZKBG","to":"wikipedia://en/7279897","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4756,4795],"revision":1327434659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44281046#ZKBG","to":"wikipedia://en/198608","predicate":"uses","method":"link-in-item","confidence":"high","span":[4953,4975],"revision":1327434659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44281046#ZKBG","to":"wikipedia://en/191101","predicate":"uses","method":"link-in-item","confidence":"high","span":[5045,5060],"revision":1327434659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44281046#ZKBG","to":"wikipedia://en/2724","predicate":"uses","method":"link-in-item","confidence":"high","span":[6077,6105],"revision":1327434659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44281046#ZKBG","to":"wikipedia://en/4963820","predicate":"uses","method":"link-in-item","confidence":"high","span":[6333,6346],"revision":1327434659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44281046#ZKBG","to":"wikipedia://en/29537","predicate":"restates","method":"hatnote","confidence":"high","span":[6560,6609],"revision":1327434659,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66323235","to":"wikipedia://en/16981683","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[70,89],"revision":1369642035,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66323235","to":"wikipedia://en/14773","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[153,175],"revision":1369642035,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66323235","to":"wikipedia://en/1704711","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[842,862],"revision":1369642035,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66323235","to":"wikipedia://en/1462640","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[896,918],"revision":1369642035,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66323235","to":"wikipedia://en/1137672","predicate":"related","method":"see-also","confidence":"low","span":[25671,25693],"revision":1369642035,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66323235","to":"wikipedia://en/1136447","predicate":"related","method":"see-also","confidence":"low","span":[25696,25723],"revision":1369642035,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66323235","to":"wikipedia://en/58472531","predicate":"related","method":"see-also","confidence":"low","span":[25726,25764],"revision":1369642035,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66323235","to":"wikipedia://en/52204420","predicate":"related","method":"see-also","confidence":"low","span":[25767,25784],"revision":1369642035,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66323235","to":"Category:Computer network analysis","predicate":"in-field","method":"category","confidence":"medium","span":[25817,25871],"revision":1369642035,"by":"importer/wikipedia/1"}

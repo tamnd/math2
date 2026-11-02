@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/1481140","to":"wikipedia://en/528305","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[56,105],"revision":1371775622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1481140","to":"wikipedia://en/641679","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[127,155],"revision":1371775622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1481140","to":"wikipedia://en/9223","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[516,529],"revision":1371775622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1481140","to":"wikipedia://en/227572","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[620,656],"revision":1371775622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1481140","to":"wikipedia://en/162807","predicate":"related","method":"link-in-text","confidence":"low","span":[3273,3296],"revision":1371775622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1481140","to":"wikipedia://en/23002","predicate":"related","method":"link-in-text","confidence":"low","span":[5589,5612],"revision":1371775622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1481140","to":"wikipedia://en/18878","predicate":"related","method":"link-in-text","confidence":"low","span":[5636,5648],"revision":1371775622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1481140","to":"wikipedia://en/35626853","predicate":"related","method":"see-also","confidence":"low","span":[6695,6725],"revision":1371775622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1481140","to":"wikipedia://en/537821","predicate":"related","method":"see-also","confidence":"low","span":[6728,6745],"revision":1371775622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1481140","to":"Category:Eponymous paradoxes","predicate":"in-field","method":"category","confidence":"medium","span":[6799,6831],"revision":1371775622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1481140","to":"Category:Paradoxes in economics","predicate":"kind-of","method":"category","confidence":"medium","span":[6832,6867],"revision":1371775622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1481140","to":"Category:Game theory","predicate":"in-field","method":"category","confidence":"medium","span":[6868,6892],"revision":1371775622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19309289#1IAC","to":"wikipedia://en/14922","predicate":"uses","method":"link-in-item","confidence":"high","span":[15054,15072],"revision":1374117368,"by":"importer/wikipedia/1"}

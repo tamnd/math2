@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/1063408","to":"wikipedia://en/439526","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[69,100],"revision":1305058704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1063408","to":"wikipedia://en/16749","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[127,137],"revision":1305058704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1063408","to":"wikipedia://en/1063395","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[138,147],"revision":1305058704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1063408","to":"wikipedia://en/59644","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[148,169],"revision":1305058704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1063408","to":"wikipedia://en/26672","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[201,210],"revision":1305058704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1063408","to":"Template:Cryptography navbox","predicate":"in-nav","method":"nav","confidence":"low","span":[946,976],"revision":1305058704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1063408","to":"Category:Cryptographic hash functions","predicate":"in-field","method":"category","confidence":"medium","span":[978,1019],"revision":1305058704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/330491#E2XY","to":"wikipedia://en/22170","predicate":"uses","method":"link-in-item","confidence":"high","span":[10851,10874],"revision":1363580155,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/330491#E2XY","to":"wikipedia://en/9165","predicate":"uses","method":"link-in-item","confidence":"high","span":[10882,10898],"revision":1363580155,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/404082#RJA3","to":"wikipedia://en/11634","predicate":"uses","method":"link-in-item","confidence":"high","span":[6160,6180],"revision":1327408300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/404082#RJA3","to":"wikipedia://en/26549625","predicate":"uses","method":"link-in-item","confidence":"high","span":[6378,6398],"revision":1327408300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/404082#RJA3","to":"wikipedia://en/28730822","predicate":"uses","method":"link-in-item","confidence":"high","span":[6490,6507],"revision":1327408300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/404082#RJA3","to":"wikipedia://en/1114171","predicate":"uses","method":"link-in-item","confidence":"high","span":[6551,6582],"revision":1327408300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/456132#SQZ8","to":"wikipedia://en/411957","predicate":"listed-in","method":"list","confidence":"certain","span":[4541,4565],"revision":1250000807,"by":"importer/wikipedia/1"}

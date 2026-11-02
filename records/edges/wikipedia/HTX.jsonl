@@ -1,0 +1,36 @@
+{"from":"wikipedia://en/12562469","to":"wikipedia://en/11924","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[42,57],"revision":1257693619,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12562469","to":"wikipedia://en/169319","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[71,109],"revision":1257693619,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12562469","to":"wikipedia://en/9566","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[118,145],"revision":1257693619,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12562469","to":"wikipedia://en/1886266","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[153,178],"revision":1257693619,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12562469","to":"wikipedia://en/657958","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[184,228],"revision":1257693619,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12562469","to":"wikipedia://en/14922","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[305,323],"revision":1257693619,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12562469","to":"wikipedia://en/35946908","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[395,411],"revision":1257693619,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12562469","to":"wikipedia://en/6292","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[416,437],"revision":1257693619,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12562469","to":"wikipedia://en/40287138","predicate":"related","method":"link-in-lead","confidence":"low","span":[510,528],"revision":1257693619,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12562469","to":"wikipedia://en/1135560","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[533,550],"revision":1257693619,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12562469","to":"Category:Game theory equilibrium concepts","predicate":"in-field","method":"category","confidence":"medium","span":[2445,2490],"revision":1257693619,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12562469","to":"Category:Economics theorems","predicate":"in-field","method":"category","confidence":"medium","span":[2491,2522],"revision":1257693619,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12562469","to":"Category:Cooperative games","predicate":"in-field","method":"category","confidence":"medium","span":[2523,2553],"revision":1257693619,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12562469","to":"Category:Lloyd Shapley","predicate":"in-field","method":"category","confidence":"medium","span":[2554,2580],"revision":1257693619,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/140829#476G","to":"wikipedia://en/2687415","predicate":"listed-in","method":"list","confidence":"certain","span":[23471,23503],"revision":1372044875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56572131","to":"wikipedia://en/326471","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[838,884],"revision":1371997410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56572131","to":"wikipedia://en/1637168","predicate":"related","method":"link-in-text","confidence":"low","span":[1102,1160],"revision":1371997410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56572131","to":"wikipedia://en/50649","predicate":"related","method":"link-in-text","confidence":"low","span":[1190,1208],"revision":1371997410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56572131","to":"wikipedia://en/28484","predicate":"related","method":"link-in-text","confidence":"low","span":[1218,1229],"revision":1371997410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56572131","to":"wikipedia://en/748669","predicate":"related","method":"link-in-text","confidence":"low","span":[1520,1567],"revision":1371997410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56572131","to":"wikipedia://en/16869759","predicate":"related","method":"link-in-text","confidence":"low","span":[1594,1618],"revision":1371997410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56572131","to":"wikipedia://en/1359774","predicate":"related","method":"link-in-text","confidence":"low","span":[1656,1696],"revision":1371997410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56572131","to":"wikipedia://en/19817390","predicate":"related","method":"link-in-text","confidence":"low","span":[1923,1963],"revision":1371997410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56572131","to":"wikipedia://en/1060872","predicate":"related","method":"link-in-text","confidence":"low","span":[2201,2249],"revision":1371997410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56572131","to":"wikipedia://en/198772","predicate":"related","method":"link-in-text","confidence":"low","span":[2516,2555],"revision":1371997410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56572131","to":"wikipedia://en/290216","predicate":"related","method":"link-in-text","confidence":"low","span":[2621,2654],"revision":1371997410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56572131","to":"wikipedia://en/1561691","predicate":"related","method":"link-in-text","confidence":"low","span":[2736,2783],"revision":1371997410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56572131","to":"wikipedia://en/58449356","predicate":"related","method":"link-in-text","confidence":"low","span":[3049,3091],"revision":1371997410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56572131","to":"wikipedia://en/13673454","predicate":"related","method":"link-in-text","confidence":"low","span":[3128,3177],"revision":1371997410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56572131","to":"wikipedia://en/9858698","predicate":"related","method":"link-in-text","confidence":"low","span":[3200,3240],"revision":1371997410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56572131","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[5847,5896],"revision":1371997410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56572131","to":"Category:African-American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[5897,5941],"revision":1371997410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56572131","to":"Category:African-American women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[5942,5992],"revision":1371997410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56572131","to":"Category:20th-century American women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[6254,6309],"revision":1371997410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56572131","to":"Category:20th-century African-American women","predicate":"in-field","method":"category","confidence":"medium","span":[6310,6358],"revision":1371997410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56572131","to":"Category:21st-century African-American women","predicate":"in-field","method":"category","confidence":"medium","span":[6459,6507],"revision":1371997410,"by":"importer/wikipedia/1"}

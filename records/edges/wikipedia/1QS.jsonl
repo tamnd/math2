@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/11353703#SEI2","to":"wikipedia://en/35217833","predicate":"listed-in","method":"list","confidence":"certain","span":[10177,10196],"revision":1373003451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#EHB7","to":"wikipedia://en/7970283","predicate":"listed-in","method":"list","confidence":"certain","span":[74803,74811],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#EHB7","to":"wikipedia://en/7970283","predicate":"uses","method":"link-in-item","confidence":"high","span":[74841,74878],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25169381#H7QP","to":"wikipedia://en/3169300","predicate":"listed-in","method":"list","confidence":"certain","span":[633,676],"revision":1290531023,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5488499","to":"wikipedia://en/6173","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[100,129],"revision":1332724693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5488499","to":"wikipedia://en/6173","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[180,207],"revision":1332724693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5488499","to":"wikipedia://en/23799","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[671,684],"revision":1332724693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5488499","to":"wikipedia://en/5705","predicate":"related","method":"see-also","confidence":"low","span":[735,759],"revision":1332724693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5488499","to":"wikipedia://en/1574901","predicate":"related","method":"see-also","confidence":"low","span":[761,793],"revision":1332724693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5488499","to":"wikipedia://en/393359","predicate":"related","method":"see-also","confidence":"low","span":[795,810],"revision":1332724693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5488499","to":"wikipedia://en/4691250","predicate":"related","method":"see-also","confidence":"low","span":[812,832],"revision":1332724693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5488499","to":"wikipedia://en/360507","predicate":"related","method":"see-also","confidence":"low","span":[834,852],"revision":1332724693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5488499","to":"Category:Cardinal numbers","predicate":"in-field","method":"category","confidence":"medium","span":[854,883],"revision":1332724693,"by":"importer/wikipedia/1"}

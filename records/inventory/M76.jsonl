@@ -1,1 +1,5 @@
+{"id":"M761G0RKF0","mentions":["wikipedia://en/35466829#Q6QA"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"M76B6Q29AN","mentions":["wikipedia://en/77538241"],"kind":"definition","name":"Kosovar Mathematical Society","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"M76HV66J3J","mentions":["wikipedia://en/911960"],"kind":"definition","name":"Kripke semantics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"M76KVRGNH9","mentions":["ax://paper/2102.12931#FPGI"],"kind":"statement","msc":["18-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.0"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.0"}]}
+{"id":"M76NQ3Y8YV","mentions":["wikipedia://en/41685609#MYWS"],"kind":"unknown","name":"Domninus of Larissa","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

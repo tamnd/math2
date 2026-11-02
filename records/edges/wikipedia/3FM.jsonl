@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/16856774","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[122,134],"revision":1342784629,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16856774","to":"wikipedia://en/6220","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[172,183],"revision":1342784629,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16856774","to":"wikipedia://en/19349153","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[196,215],"revision":1342784629,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16856774","to":"wikipedia://en/509300","predicate":"related","method":"link-in-lead","confidence":"low","span":[232,256],"revision":1342784629,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16856774","to":"wikipedia://en/1400","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[276,282],"revision":1342784629,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16856774","to":"Template:Commons category","predicate":"in-nav","method":"nav","confidence":"low","span":[6334,6354],"revision":1342784629,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16856774","to":"Category:Arbelos","predicate":"in-field","method":"category","confidence":"medium","span":[6581,6601],"revision":1342784629,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16856774","to":"Category:Ancient Greek mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[6602,6640],"revision":1342784629,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16856774","to":"Category:Inversive geometry","predicate":"in-field","method":"category","confidence":"medium","span":[6641,6672],"revision":1342784629,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16856774","to":"Category:Circle packing","predicate":"in-field","method":"category","confidence":"medium","span":[6673,6700],"revision":1342784629,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351549#9M9W","to":"wikipedia://en/188932","predicate":"listed-in","method":"list","confidence":"certain","span":[3585,3610],"revision":1346728004,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57242824#8B7M","to":"wikipedia://en/3165834","predicate":"listed-in","method":"list","confidence":"certain","span":[10503,10522],"revision":1365520422,"by":"importer/wikipedia/1"}

@@ -1,2 +1,4 @@
 {"id":"HK66D4800A","mentions":["m2://rec/open_logic/content/set-theory/card-arithmetic/fix.tex#cor-1#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"HK6ARJX9AS","mentions":["wikipedia://en/465001#1S13"],"kind":"unknown","name":"730 (number)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"HK6DGAR572","mentions":["wikipedia://en/27014760"],"kind":"topic","name":"Philip Treisman","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HK6TQ3WSQH","mentions":["ax://paper/2609.35252#LBM8"],"kind":"definition","msc":["11-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}

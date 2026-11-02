@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/10728412#JPX0","to":"wikipedia://en/199028","predicate":"uses","method":"link-in-item","confidence":"high","span":[1115,1138],"revision":1274425370,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10728412#JPX0","to":"wikipedia://en/45906","predicate":"uses","method":"link-in-item","confidence":"high","span":[1283,1311],"revision":1274425370,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10728412#JPX0","to":"wikipedia://en/207079","predicate":"specializes","method":"link-in-item","confidence":"medium","span":[1441,1463],"revision":1274425370,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10728412#JPX0","to":"wikipedia://en/9210865","predicate":"specializes","method":"link-in-item","confidence":"medium","span":[1478,1497],"revision":1274425370,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12768648","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[236,248],"revision":1249923960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12768648","to":"wikipedia://en/23471","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[314,326],"revision":1249923960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12768648","to":"wikipedia://en/7186647","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[353,380],"revision":1249923960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12768648","to":"wikipedia://en/6008654","predicate":"related","method":"link-in-text","confidence":"low","span":[1297,1332],"revision":1249923960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12768648","to":"wikipedia://en/8398","predicate":"related","method":"link-in-text","confidence":"low","span":[1379,1426],"revision":1249923960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12768648","to":"wikipedia://en/6008654","predicate":"restates","method":"hatnote","confidence":"high","span":[1531,1551],"revision":1249923960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12768648","to":"wikipedia://en/5658261","predicate":"related","method":"link-in-text","confidence":"low","span":[1880,1893],"revision":1249923960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12768648","to":"wikipedia://en/45397992","predicate":"restates","method":"hatnote","confidence":"high","span":[1956,1970],"revision":1249923960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12768648","to":"wikipedia://en/45592828","predicate":"restates","method":"hatnote","confidence":"high","span":[2405,2430],"revision":1249923960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12768648","to":"Category:Polytopes","predicate":"in-field","method":"category","confidence":"medium","span":[4020,4044],"revision":1249923960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12768648","to":"Category:Multi-dimensional geometry","predicate":"in-field","method":"category","confidence":"medium","span":[4045,4084],"revision":1249923960,"by":"importer/wikipedia/1"}

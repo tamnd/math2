@@ -1,0 +1,20 @@
+{"from":"wikipedia://en/36678615","to":"wikipedia://en/23542","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,25],"revision":1193941732,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36678615","to":"wikipedia://en/9653","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[94,124],"revision":1193941732,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36678615","to":"wikipedia://en/45479","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[163,181],"revision":1193941732,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36678615","to":"Category:Expected utility","predicate":"in-field","method":"category","confidence":"medium","span":[4915,4944],"revision":1193941732,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/660973#FZO4","to":"wikipedia://en/49373124","predicate":"listed-in","method":"list","confidence":"certain","span":[3123,3162],"revision":1356076661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67409235","to":"wikipedia://en/6631661","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[55,112],"revision":1367615510,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67409235","to":"wikipedia://en/1369241","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[1445,1468],"revision":1367615510,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67409235","to":"wikipedia://en/18198","predicate":"related","method":"link-in-text","confidence":"low","span":[3567,3587],"revision":1367615510,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67409235","to":"wikipedia://en/1699223","predicate":"related","method":"link-in-text","confidence":"low","span":[4056,4112],"revision":1367615510,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67409235","to":"wikipedia://en/21462","predicate":"related","method":"link-in-text","confidence":"low","span":[4781,4804],"revision":1367615510,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67409235","to":"wikipedia://en/1369241","predicate":"related","method":"link-in-text","confidence":"low","span":[4836,4891],"revision":1367615510,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67409235","to":"wikipedia://en/126474","predicate":"related","method":"link-in-text","confidence":"low","span":[5197,5227],"revision":1367615510,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67409235","to":"wikipedia://en/40326","predicate":"related","method":"link-in-text","confidence":"low","span":[5228,5265],"revision":1367615510,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67409235","to":"wikipedia://en/105620","predicate":"related","method":"link-in-text","confidence":"low","span":[5296,5317],"revision":1367615510,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67409235","to":"wikipedia://en/820253","predicate":"related","method":"link-in-text","confidence":"low","span":[5618,5645],"revision":1367615510,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67409235","to":"wikipedia://en/62641","predicate":"related","method":"link-in-text","confidence":"low","span":[5710,5726],"revision":1367615510,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67409235","to":"wikipedia://en/15069","predicate":"related","method":"link-in-text","confidence":"low","span":[6213,6229],"revision":1367615510,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67409235","to":"wikipedia://en/83163288","predicate":"related","method":"see-also","confidence":"low","span":[7637,7658],"revision":1367615510,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67409235","to":"Category:Measures (measure theory)","predicate":"in-field","method":"category","confidence":"medium","span":[7794,7832],"revision":1367615510,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67409235","to":"Category:Theorems involving convexity","predicate":"kind-of","method":"category","confidence":"medium","span":[7833,7874],"revision":1367615510,"by":"importer/wikipedia/1"}

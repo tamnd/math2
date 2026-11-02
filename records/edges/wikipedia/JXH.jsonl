@@ -1,0 +1,32 @@
+{"from":"wikipedia://en/11353703#4F3P","to":"wikipedia://en/2652937","predicate":"listed-in","method":"list","confidence":"certain","span":[28192,28213],"revision":1373003451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14188295","to":"wikipedia://en/26685","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[281,295],"revision":1323096746,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14188295","to":"wikipedia://en/406624","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[299,314],"revision":1323096746,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14188295","to":"wikipedia://en/112577","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[338,392],"revision":1323096746,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14188295","to":"wikipedia://en/990809","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[456,475],"revision":1323096746,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14188295","to":"wikipedia://en/2484768","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2079,2100],"revision":1323096746,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14188295","to":"Category:Time series","predicate":"in-field","method":"category","confidence":"medium","span":[3120,3144],"revision":1323096746,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14188295","to":"Category:Technical indicators","predicate":"in-field","method":"category","confidence":"medium","span":[3145,3178],"revision":1323096746,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76253961","to":"wikipedia://en/351581","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[742,770],"revision":1372494243,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76253961","to":"wikipedia://en/351581","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[782,806],"revision":1372494243,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76253961","to":"wikipedia://en/351581","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[807,829],"revision":1372494243,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76253961","to":"wikipedia://en/351581","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[864,890],"revision":1372494243,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76253961","to":"wikipedia://en/13893187","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[944,988],"revision":1372494243,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76253961","to":"wikipedia://en/18268330","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1022,1066],"revision":1372494243,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76253961","to":"wikipedia://en/8485043","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1071,1114],"revision":1372494243,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76253961","to":"wikipedia://en/22693330","predicate":"related","method":"link-in-text","confidence":"low","span":[1535,1556],"revision":1372494243,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76253961","to":"wikipedia://en/282250","predicate":"related","method":"link-in-text","confidence":"low","span":[1612,1637],"revision":1372494243,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76253961","to":"wikipedia://en/63604806","predicate":"related","method":"link-in-text","confidence":"low","span":[3137,3155],"revision":1372494243,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76253961","to":"wikipedia://en/18268330","predicate":"related","method":"link-in-text","confidence":"low","span":[3189,3238],"revision":1372494243,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76253961","to":"wikipedia://en/1429360","predicate":"related","method":"link-in-text","confidence":"low","span":[3628,3684],"revision":1372494243,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76253961","to":"wikipedia://en/20893577","predicate":"related","method":"link-in-text","confidence":"low","span":[3696,3763],"revision":1372494243,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76253961","to":"wikipedia://en/351581","predicate":"related","method":"link-in-text","confidence":"low","span":[3872,3898],"revision":1372494243,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76253961","to":"wikipedia://en/13893187","predicate":"related","method":"link-in-text","confidence":"low","span":[3906,3950],"revision":1372494243,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76253961","to":"wikipedia://en/81689449","predicate":"related","method":"link-in-text","confidence":"low","span":[6264,6281],"revision":1372494243,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76253961","to":"Template:Official website","predicate":"in-nav","method":"nav","confidence":"low","span":[6362,6382],"revision":1372494243,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76253961","to":"Category:American bioinformaticians","predicate":"in-field","method":"category","confidence":"medium","span":[6833,6872],"revision":1372494243,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76253961","to":"Category:Women bioinformaticians","predicate":"in-field","method":"category","confidence":"medium","span":[6873,6909],"revision":1372494243,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76253961","to":"Category:21st-century American women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[6910,6965],"revision":1372494243,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76253961","to":"Category:21st-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[6966,7015],"revision":1372494243,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76253961","to":"Category:21st-century American biologists","predicate":"in-field","method":"category","confidence":"medium","span":[7016,7061],"revision":1372494243,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76253961","to":"Category:21st-century American women biologists","predicate":"in-field","method":"category","confidence":"medium","span":[7062,7113],"revision":1372494243,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76253961","to":"Category:American women computer scientists","predicate":"in-field","method":"category","confidence":"medium","span":[7114,7161],"revision":1372494243,"by":"importer/wikipedia/1"}

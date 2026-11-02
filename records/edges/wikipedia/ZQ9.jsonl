@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/1107642#UROA","to":"wikipedia://en/314902","predicate":"uses","method":"link-in-item","confidence":"high","span":[6502,6520],"revision":1374106605,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1107642#UROA","to":"wikipedia://en/4333700","predicate":"uses","method":"link-in-item","confidence":"high","span":[7123,7156],"revision":1374106605,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1107642#UROA","to":"wikipedia://en/24147","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7201,7216],"revision":1374106605,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1107642#UROA","to":"wikipedia://en/314902","predicate":"uses","method":"link-in-item","confidence":"high","span":[7269,7287],"revision":1374106605,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1107642#UROA","to":"wikipedia://en/20717382","predicate":"uses","method":"link-in-item","confidence":"high","span":[7452,7478],"revision":1374106605,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1107642#UROA","to":"wikipedia://en/16705411","predicate":"related","method":"link-in-item","confidence":"low","span":[7508,7533],"revision":1374106605,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1107642#UROA","to":"wikipedia://en/48583348","predicate":"related","method":"link-in-item","confidence":"low","span":[7877,7901],"revision":1374106605,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16122539","to":"wikipedia://en/46426065","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[127,138],"revision":1331394976,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16122539","to":"wikipedia://en/86368","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[139,149],"revision":1331394976,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16122539","to":"Category:Logic puzzles","predicate":"in-field","method":"category","confidence":"medium","span":[1027,1053],"revision":1331394976,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16122539","to":"Category:Self-reference","predicate":"in-field","method":"category","confidence":"medium","span":[1054,1088],"revision":1331394976,"by":"importer/wikipedia/1"}

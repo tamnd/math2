@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/56983960","to":"wikipedia://en/100649","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1129,1154],"revision":1372333007,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56983960","to":"wikipedia://en/33490633","predicate":"related","method":"link-in-lead","confidence":"low","span":[1446,1462],"revision":1372333007,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56983960","to":"wikipedia://en/315275","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1564,1593],"revision":1372333007,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56983960","to":"wikipedia://en/1208","predicate":"related","method":"link-in-lead","confidence":"low","span":[1883,1898],"revision":1372333007,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56983960","to":"wikipedia://en/48440954","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1943,1978],"revision":1372333007,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56983960","to":"wikipedia://en/627842","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2125,2173],"revision":1372333007,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56983960","to":"Category:20th-century German mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[5029,5076],"revision":1372333007,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56983960","to":"Category:21st-century German mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[5077,5124],"revision":1372333007,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56983960","to":"Category:Free University of Berlin","predicate":"in-field","method":"category","confidence":"medium","span":[5167,5205],"revision":1372333007,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83962937#IQLT","to":"wikipedia://en/62420226","predicate":"listed-in","method":"list","confidence":"certain","span":[3751,3774],"revision":1379025743,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83962937#IQLT","to":"wikipedia://en/89836","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3783,3815],"revision":1379025743,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83962937#IQLT","to":"wikipedia://en/62607005","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3834,3845],"revision":1379025743,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83962937#IQLT","to":"wikipedia://en/61603971","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3846,3890],"revision":1379025743,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83962937#IQLT","to":"wikipedia://en/352267","predicate":"uses","method":"link-in-item","confidence":"high","span":[3917,3957],"revision":1379025743,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9202993#DHH6","to":"wikipedia://en/57342784","predicate":"listed-in","method":"list","confidence":"certain","span":[9157,9178],"revision":1374822410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9202993#DHH6","to":"wikipedia://en/4088117","predicate":"uses","method":"link-in-item","confidence":"high","span":[9202,9236],"revision":1374822410,"by":"importer/wikipedia/1"}

@@ -1,1 +1,4 @@
-{"id":"SR8WQZHY4J","mentions":["m2://rec/wikidata/Q1142861#1"],"kind":"unknown","name":"direct sum of modules","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"SR860DD9XM","mentions":["wikipedia://en/7771277#MBJB"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"SR87VMGG3W","mentions":["wikipedia://en/11403316#C6J6"],"kind":"definition","name":"Method","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"SR8KEV6VR3","mentions":["wikipedia://en/64508219#WIVW"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"SR8WQZHY4J","mentions":["m2://rec/wikidata/Q1142861#1","wikipedia://en/58899"],"kind":"definition","name":"direct sum of modules","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

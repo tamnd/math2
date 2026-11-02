@@ -1,0 +1,8 @@
+{"from":"wikipedia://en/306422#GUEK","to":"wikipedia://en/12130843","predicate":"restates","method":"hatnote","confidence":"high","span":[15697,15713],"revision":1375909072,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/306422#GUEK","to":"wikipedia://en/1202193","predicate":"uses","method":"link-in-item","confidence":"high","span":[15745,15762],"revision":1375909072,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/306422#GUEK","to":"wikipedia://en/12193437","predicate":"uses","method":"link-in-item","confidence":"high","span":[16002,16076],"revision":1375909072,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57650474","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[37,49],"revision":1315622601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57650474","to":"wikipedia://en/29954","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[85,97],"revision":1315622601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57650474","to":"wikipedia://en/321671","predicate":"specializes","method":"link-in-lead","confidence":"medium","span":[594,617],"revision":1315622601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57650474","to":"wikipedia://en/58205","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[822,843],"revision":1315622601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57650474","to":"Category:Tiling","predicate":"in-field","method":"category","confidence":"medium","span":[1137,1156],"revision":1315622601,"by":"importer/wikipedia/1"}

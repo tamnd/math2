@@ -1,0 +1,6 @@
+{"from":"wikipedia://en/1403586#RSZJ","to":"wikipedia://en/902842","predicate":"listed-in","method":"list","confidence":"certain","span":[77101,77120],"revision":1375861581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1403586#RSZJ","to":"wikipedia://en/2059542","predicate":"uses","method":"link-in-item","confidence":"medium","span":[77166,77227],"revision":1375861581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35892029","to":"wikipedia://en/318742","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[141,186],"revision":1292685044,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35892029","to":"wikipedia://en/3238478","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[192,209],"revision":1292685044,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35892029","to":"Category:Integer sequences","predicate":"kind-of","method":"category","confidence":"medium","span":[2761,2791],"revision":1292685044,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35892029","to":"Category:Hyperbolic geometry","predicate":"in-field","method":"category","confidence":"medium","span":[2792,2824],"revision":1292685044,"by":"importer/wikipedia/1"}

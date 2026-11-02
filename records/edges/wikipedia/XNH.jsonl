@@ -1,0 +1,37 @@
+{"from":"wikipedia://en/53395847","to":"wikipedia://en/30654","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[248,261],"revision":1314277932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53395847","to":"wikipedia://en/39330","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[331,354],"revision":1314277932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53395847","to":"wikipedia://en/39377","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[368,389],"revision":1314277932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53395847","to":"wikipedia://en/22228915","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[512,537],"revision":1314277932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53395847","to":"wikipedia://en/20435","predicate":"related","method":"link-in-lead","confidence":"low","span":[1515,1533],"revision":1314277932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53395847","to":"wikipedia://en/3931","predicate":"related","method":"link-in-text","confidence":"low","span":[6916,6935],"revision":1314277932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53395847","to":"wikipedia://en/200458","predicate":"related","method":"link-in-text","confidence":"low","span":[6990,7022],"revision":1314277932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53395847","to":"wikipedia://en/200459","predicate":"related","method":"link-in-text","confidence":"low","span":[7034,7066],"revision":1314277932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53395847","to":"wikipedia://en/200463","predicate":"related","method":"link-in-text","confidence":"low","span":[7078,7112],"revision":1314277932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53395847","to":"wikipedia://en/25278","predicate":"related","method":"link-in-text","confidence":"low","span":[7766,7784],"revision":1314277932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53395847","to":"Category:Triangles","predicate":"in-field","method":"category","confidence":"medium","span":[8148,8170],"revision":1314277932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53395847","to":"Category:Triangle geometry","predicate":"in-field","method":"category","confidence":"medium","span":[8171,8201],"revision":1314277932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59836267","to":"wikipedia://en/267061","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[203,222],"revision":1357206887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59836267","to":"wikipedia://en/242135","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[273,293],"revision":1357206887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59836267","to":"wikipedia://en/390404","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[339,353],"revision":1357206887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59836267","to":"wikipedia://en/56419724","predicate":"related","method":"link-in-text","confidence":"low","span":[642,691],"revision":1357206887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59836267","to":"wikipedia://en/14828","predicate":"related","method":"link-in-text","confidence":"low","span":[1060,1086],"revision":1357206887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59836267","to":"wikipedia://en/1160","predicate":"related","method":"link-in-text","confidence":"low","span":[1269,1286],"revision":1357206887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59836267","to":"wikipedia://en/1188184","predicate":"related","method":"link-in-text","confidence":"low","span":[1574,1590],"revision":1357206887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59836267","to":"wikipedia://en/2992310","predicate":"related","method":"link-in-text","confidence":"low","span":[1591,1609],"revision":1357206887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59836267","to":"wikipedia://en/298834","predicate":"related","method":"link-in-text","confidence":"low","span":[1950,1966],"revision":1357206887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59836267","to":"wikipedia://en/85816","predicate":"related","method":"link-in-text","confidence":"low","span":[2084,2102],"revision":1357206887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59836267","to":"wikipedia://en/390404","predicate":"related","method":"link-in-text","confidence":"low","span":[2576,2590],"revision":1357206887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59836267","to":"wikipedia://en/8876082","predicate":"related","method":"link-in-text","confidence":"low","span":[8703,8735],"revision":1357206887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59836267","to":"wikipedia://en/65786994","predicate":"related","method":"link-in-text","confidence":"low","span":[8863,8902],"revision":1357206887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59836267","to":"wikipedia://en/1168486","predicate":"related","method":"link-in-text","confidence":"low","span":[10054,10078],"revision":1357206887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59836267","to":"wikipedia://en/21252759","predicate":"related","method":"link-in-text","confidence":"low","span":[10354,10374],"revision":1357206887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59836267","to":"Category:Projective geometry","predicate":"in-field","method":"category","confidence":"medium","span":[12322,12354],"revision":1357206887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59836267","to":"Category:Finite geometry","predicate":"in-field","method":"category","confidence":"medium","span":[12355,12383],"revision":1357206887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59836267","to":"Category:Incidence geometry","predicate":"in-field","method":"category","confidence":"medium","span":[12384,12415],"revision":1357206887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59836267","to":"Category:Sedenions","predicate":"in-field","method":"category","confidence":"medium","span":[12416,12438],"revision":1357206887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59836267","to":"Category:Configurations (geometry)","predicate":"in-field","method":"category","confidence":"medium","span":[12439,12477],"revision":1357206887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82188118","to":"wikipedia://en/36825600","predicate":"related","method":"link-in-lead","confidence":"low","span":[860,878],"revision":1351956200,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82188118","to":"wikipedia://en/30325","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[894,934],"revision":1351956200,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82188118","to":"wikipedia://en/50964","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1231,1251],"revision":1351956200,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82188118","to":"Category:Real transcendental numbers","predicate":"in-field","method":"category","confidence":"medium","span":[4457,4497],"revision":1351956200,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82188118","to":"Category:Mathematical constants","predicate":"kind-of","method":"category","confidence":"medium","span":[4498,4533],"revision":1351956200,"by":"importer/wikipedia/1"}

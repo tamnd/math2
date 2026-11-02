@@ -1,0 +1,18 @@
+{"from":"wikipedia://en/1725027","to":"Template:Differential equations","predicate":"in-nav","method":"nav","confidence":"low","span":[49,75],"revision":1355951422,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1725027","to":"wikipedia://en/52564","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[141,174],"revision":1355951422,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1725027","to":"wikipedia://en/525101","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[229,245],"revision":1355951422,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1725027","to":"wikipedia://en/1186804","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[542,571],"revision":1355951422,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1725027","to":"wikipedia://en/436779","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[575,617],"revision":1355951422,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1725027","to":"wikipedia://en/1842","predicate":"related","method":"link-in-lead","confidence":"low","span":[637,662],"revision":1355951422,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1725027","to":"Template:Portal","predicate":"in-nav","method":"nav","confidence":"low","span":[2753,2775],"revision":1355951422,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1725027","to":"wikipedia://en/1725025","predicate":"related","method":"see-also","confidence":"low","span":[2777,2806],"revision":1355951422,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1725027","to":"wikipedia://en/711886","predicate":"related","method":"see-also","confidence":"low","span":[2808,2826],"revision":1355951422,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1725027","to":"Category:Partial differential equations","predicate":"in-field","method":"category","confidence":"medium","span":[3574,3617],"revision":1355951422,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1725027","to":"Category:Mathematical problems","predicate":"kind-of","method":"category","confidence":"medium","span":[3618,3652],"revision":1355951422,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1725027","to":"Category:Boundary value problems","predicate":"in-field","method":"category","confidence":"medium","span":[3653,3689],"revision":1355951422,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/183091#NA4T","to":"wikipedia://en/578650","predicate":"listed-in","method":"list","confidence":"certain","span":[114250,114271],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/183091#NA4T","to":"wikipedia://en/578656","predicate":"uses","method":"link-in-item","confidence":"high","span":[114300,114318],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2142850#QK0T","to":"wikipedia://en/1217120","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[483,514],"revision":1363373483,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/444250#0STB","to":"wikipedia://en/58977389","predicate":"listed-in","method":"list","confidence":"certain","span":[71164,71216],"revision":1294366452,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5811855#TOE1","to":"wikipedia://en/876428","predicate":"uses","method":"link-in-item","confidence":"high","span":[1054,1069],"revision":1350553535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77720347#COR9","to":"wikipedia://en/64979699","predicate":"uses","method":"link-in-item","confidence":"high","span":[9231,9248],"revision":1315730321,"by":"importer/wikipedia/1"}

@@ -1,0 +1,42 @@
+{"from":"wikipedia://en/182890#L9WY","to":"wikipedia://en/8525","predicate":"uses","method":"link-in-item","confidence":"medium","span":[19866,19899],"revision":1374418439,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/182890#L9WY","to":"wikipedia://en/1314272","predicate":"uses","method":"link-in-item","confidence":"high","span":[20310,20324],"revision":1374418439,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1842075#17GC","to":"wikipedia://en/51423","predicate":"uses","method":"link-in-item","confidence":"high","span":[2171,2208],"revision":1337263127,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1842075#17GC","to":"wikipedia://en/20556859","predicate":"uses","method":"link-in-item","confidence":"high","span":[2376,2409],"revision":1337263127,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1842075#17GC","to":"wikipedia://en/59718","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2517,2536],"revision":1337263127,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1842075#17GC","to":"wikipedia://en/24664","predicate":"uses","method":"link-in-item","confidence":"high","span":[2783,2806],"revision":1337263127,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1842075#17GC","to":"wikipedia://en/205483","predicate":"related","method":"link-in-item","confidence":"low","span":[2956,2970],"revision":1337263127,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#X6IG","to":"wikipedia://en/23543","predicate":"listed-in","method":"list","confidence":"certain","span":[61588,61616],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22203596#SP48","to":"wikipedia://en/22237758","predicate":"restates","method":"hatnote","confidence":"high","span":[8298,8321],"revision":1378589307,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22203596#SP48","to":"wikipedia://en/320861","predicate":"uses","method":"link-in-item","confidence":"high","span":[8532,8562],"revision":1378589307,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22203596#SP48","to":"wikipedia://en/9678","predicate":"uses","method":"link-in-item","confidence":"high","span":[8647,8683],"revision":1378589307,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22203596#SP48","to":"wikipedia://en/99491","predicate":"uses","method":"link-in-item","confidence":"high","span":[8811,8841],"revision":1378589307,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22203596#SP48","to":"wikipedia://en/228161","predicate":"uses","method":"link-in-item","confidence":"high","span":[9000,9046],"revision":1378589307,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22203596#SP48","to":"wikipedia://en/99491","predicate":"uses","method":"link-in-item","confidence":"high","span":[9058,9088],"revision":1378589307,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22203596#SP48","to":"wikipedia://en/406952","predicate":"uses","method":"link-in-item","confidence":"high","span":[9247,9272],"revision":1378589307,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22203596#SP48","to":"wikipedia://en/230193","predicate":"uses","method":"link-in-item","confidence":"high","span":[9276,9316],"revision":1378589307,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22203596#SP48","to":"wikipedia://en/12316","predicate":"uses","method":"link-in-item","confidence":"high","span":[9492,9510],"revision":1378589307,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22203596#SP48","to":"wikipedia://en/229940","predicate":"uses","method":"link-in-item","confidence":"high","span":[9564,9587],"revision":1378589307,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22203596#SP48","to":"wikipedia://en/406935","predicate":"uses","method":"link-in-item","confidence":"high","span":[9712,9732],"revision":1378589307,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22203596#SP48","to":"wikipedia://en/214729","predicate":"uses","method":"link-in-item","confidence":"high","span":[9757,9834],"revision":1378589307,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22203596#SP48","to":"wikipedia://en/12316","predicate":"uses","method":"link-in-item","confidence":"high","span":[9874,9922],"revision":1378589307,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32606364","to":"wikipedia://en/11180","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[32,55],"revision":1285159807,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32606364","to":"wikipedia://en/7184","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[118,132],"revision":1285159807,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32606364","to":"wikipedia://en/294185","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[159,173],"revision":1285159807,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32606364","to":"wikipedia://en/458698","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[200,239],"revision":1285159807,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32606364","to":"wikipedia://en/47005042","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[256,322],"revision":1285159807,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32606364","to":"wikipedia://en/15374396","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[467,502],"revision":1285159807,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32606364","to":"Template:Functional analysis","predicate":"in-nav","method":"nav","confidence":"low","span":[1240,1263],"revision":1285159807,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32606364","to":"Category:Banach algebras","predicate":"in-field","method":"category","confidence":"medium","span":[1324,1352],"revision":1285159807,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32606364","to":"Category:C*-algebras","predicate":"in-field","method":"category","confidence":"medium","span":[1353,1377],"revision":1285159807,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32606364","to":"Category:Theorems in functional analysis","predicate":"kind-of","method":"category","confidence":"medium","span":[1378,1422],"revision":1285159807,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32606364","to":"Category:Operator theory","predicate":"in-field","method":"category","confidence":"medium","span":[1423,1451],"revision":1285159807,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32606364","to":"Category:Von Neumann algebras","predicate":"in-field","method":"category","confidence":"medium","span":[1452,1485],"revision":1285159807,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46426116#8OEM","to":"wikipedia://en/32848718","predicate":"listed-in","method":"list","confidence":"certain","span":[1062,1119],"revision":1348859023,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46592334","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[7,35],"revision":1279008820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46592334","to":"wikipedia://en/1997","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[50,72],"revision":1279008820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46592334","to":"wikipedia://en/205483","predicate":"related","method":"link-in-lead","confidence":"low","span":[244,265],"revision":1279008820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46592334","to":"wikipedia://en/364754","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[306,337],"revision":1279008820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46592334","to":"wikipedia://en/37291","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[344,373],"revision":1279008820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46592334","to":"wikipedia://en/1055357","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[394,414],"revision":1279008820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46592334","to":"Category:Theorems in algebraic geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[2783,2826],"revision":1279008820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7218498#NZHC","to":"wikipedia://en/1238173","predicate":"listed-in","method":"list","confidence":"certain","span":[1985,2002],"revision":1376033148,"by":"importer/wikipedia/1"}

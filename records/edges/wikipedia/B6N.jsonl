@@ -1,0 +1,24 @@
+{"from":"wikipedia://en/42397902","to":"wikipedia://en/2815048","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[568,592],"revision":1321258294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42397902","to":"wikipedia://en/1208","predicate":"related","method":"link-in-text","confidence":"low","span":[3457,3472],"revision":1321258294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42397902","to":"wikipedia://en/18801936","predicate":"related","method":"link-in-text","confidence":"low","span":[3543,3596],"revision":1321258294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42397902","to":"wikipedia://en/15942","predicate":"related","method":"link-in-text","confidence":"low","span":[3799,3819],"revision":1321258294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42397902","to":"wikipedia://en/54342","predicate":"related","method":"link-in-text","confidence":"low","span":[3830,3852],"revision":1321258294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42397902","to":"wikipedia://en/985619","predicate":"related","method":"link-in-text","confidence":"low","span":[4103,4143],"revision":1321258294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42397902","to":"wikipedia://en/39418","predicate":"related","method":"link-in-text","confidence":"low","span":[4280,4318],"revision":1321258294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42397902","to":"wikipedia://en/24116","predicate":"related","method":"link-in-text","confidence":"low","span":[9891,9920],"revision":1321258294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42397902","to":"wikipedia://en/46597","predicate":"related","method":"link-in-text","confidence":"low","span":[10457,10515],"revision":1321258294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42397902","to":"wikipedia://en/8140107","predicate":"related","method":"link-in-text","confidence":"low","span":[10559,10602],"revision":1321258294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42397902","to":"wikipedia://en/32742753","predicate":"related","method":"link-in-text","confidence":"low","span":[10980,11014],"revision":1321258294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42397902","to":"wikipedia://en/191933","predicate":"related","method":"link-in-text","confidence":"low","span":[11037,11059],"revision":1321258294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42397902","to":"wikipedia://en/3011098","predicate":"related","method":"link-in-text","confidence":"low","span":[12038,12054],"revision":1321258294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42397902","to":"wikipedia://en/24185","predicate":"related","method":"link-in-text","confidence":"low","span":[12141,12155],"revision":1321258294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42397902","to":"wikipedia://en/27590","predicate":"related","method":"link-in-text","confidence":"low","span":[12624,12646],"revision":1321258294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42397902","to":"wikipedia://en/1699223","predicate":"related","method":"link-in-text","confidence":"low","span":[12652,12710],"revision":1321258294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42397902","to":"Category:Dynamical systems","predicate":"in-field","method":"category","confidence":"medium","span":[22727,22757],"revision":1321258294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42397902","to":"Category:Mathematical and theoretical biology","predicate":"in-field","method":"category","confidence":"medium","span":[22758,22807],"revision":1321258294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42397902","to":"Category:Mathematical modeling","predicate":"in-field","method":"category","confidence":"medium","span":[22808,22842],"revision":1321258294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42397902","to":"Category:Numerical differential equations","predicate":"in-field","method":"category","confidence":"medium","span":[22843,22888],"revision":1321258294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42397902","to":"Category:Population models","predicate":"in-field","method":"category","confidence":"medium","span":[22889,22919],"revision":1321258294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42397902","to":"Category:Scientific models","predicate":"in-field","method":"category","confidence":"medium","span":[22920,22950],"revision":1321258294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42397902","to":"Category:Simulation","predicate":"in-field","method":"category","confidence":"medium","span":[22951,22974],"revision":1321258294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42397902","to":"Category:Crowds","predicate":"in-field","method":"category","confidence":"medium","span":[22975,22994],"revision":1321258294,"by":"importer/wikipedia/1"}

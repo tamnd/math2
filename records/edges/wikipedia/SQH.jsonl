@@ -1,0 +1,3 @@
+{"from":"wikipedia://en/29628738","to":"wikipedia://en/41890","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[227,243],"revision":1354551424,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29628738","to":"wikipedia://en/1691490","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[448,470],"revision":1354551424,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29628738","to":"Category:Finite groups","predicate":"in-field","method":"category","confidence":"medium","span":[7189,7215],"revision":1354551424,"by":"importer/wikipedia/1"}

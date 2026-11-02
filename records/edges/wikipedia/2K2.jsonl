@@ -1,0 +1,28 @@
+{"from":"wikipedia://en/382771","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[114,129],"revision":1369916687,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/382771","to":"wikipedia://en/38801","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[173,195],"revision":1369916687,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/382771","to":"wikipedia://en/637024","predicate":"related","method":"link-in-lead","confidence":"low","span":[209,228],"revision":1369916687,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/382771","to":"wikipedia://en/8156533","predicate":"related","method":"link-in-lead","confidence":"low","span":[233,254],"revision":1369916687,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/382771","to":"wikipedia://en/11004","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[339,360],"revision":1369916687,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/382771","to":"wikipedia://en/30450","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[366,387],"revision":1369916687,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/382771","to":"wikipedia://en/6233","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[451,469],"revision":1369916687,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/382771","to":"wikipedia://en/910926","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[470,501],"revision":1369916687,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/382771","to":"wikipedia://en/317552","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[507,533],"revision":1369916687,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/382771","to":"wikipedia://en/979834","predicate":"related","method":"link-in-text","confidence":"low","span":[7805,7835],"revision":1369916687,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/382771","to":"wikipedia://en/360036","predicate":"related","method":"link-in-text","confidence":"low","span":[8089,8123],"revision":1369916687,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/382771","to":"wikipedia://en/99494","predicate":"related","method":"link-in-text","confidence":"low","span":[8348,8371],"revision":1369916687,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/382771","to":"wikipedia://en/5869","predicate":"related","method":"link-in-text","confidence":"low","span":[8911,8930],"revision":1369916687,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/382771","to":"wikipedia://en/582024","predicate":"related","method":"link-in-text","confidence":"low","span":[8963,8996],"revision":1369916687,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/382771","to":"wikipedia://en/800092","predicate":"related","method":"link-in-text","confidence":"low","span":[9005,9027],"revision":1369916687,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/382771","to":"wikipedia://en/19515158","predicate":"related","method":"see-also","confidence":"low","span":[17306,17336],"revision":1369916687,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/382771","to":"wikipedia://en/378677","predicate":"related","method":"see-also","confidence":"low","span":[17339,17368],"revision":1369916687,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/382771","to":"wikipedia://en/3441237","predicate":"related","method":"see-also","confidence":"low","span":[17371,17387],"revision":1369916687,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/382771","to":"Template:Commons category-inline","predicate":"in-nav","method":"nav","confidence":"low","span":[21092,21119],"revision":1369916687,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/382771","to":"Template:Topology","predicate":"in-nav","method":"nav","confidence":"low","span":[21121,21133],"revision":1369916687,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/382771","to":"Category:Homotopy theory","predicate":"in-field","method":"category","confidence":"medium","span":[21178,21206],"revision":1369916687,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/382771","to":"Category:Theorems in algebraic topology","predicate":"kind-of","method":"category","confidence":"medium","span":[21207,21250],"revision":1369916687,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8124665","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[68,83],"revision":1332921348,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8124665","to":"wikipedia://en/160993","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[127,150],"revision":1332921348,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8124665","to":"wikipedia://en/240790","predicate":"related","method":"link-in-text","confidence":"low","span":[2001,2047],"revision":1332921348,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8124665","to":"wikipedia://en/48167","predicate":"related","method":"link-in-text","confidence":"low","span":[2178,2212],"revision":1332921348,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8124665","to":"Category:Zeta and L-functions","predicate":"in-field","method":"category","confidence":"medium","span":[3067,3100],"revision":1332921348,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8124665","to":"Category:Diophantine geometry","predicate":"in-field","method":"category","confidence":"medium","span":[3101,3134],"revision":1332921348,"by":"importer/wikipedia/1"}

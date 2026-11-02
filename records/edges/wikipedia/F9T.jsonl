@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/1882219#B13D","to":"wikipedia://en/5035864","predicate":"listed-in","method":"list","confidence":"certain","span":[456,468],"revision":1356077950,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44370054","to":"wikipedia://en/44370607","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[42,63],"revision":1074839548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44370054","to":"wikipedia://en/17904","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[376,392],"revision":1074839548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44370054","to":"wikipedia://en/2724","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[424,446],"revision":1074839548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44370054","to":"wikipedia://en/4229275","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[454,468],"revision":1074839548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44370054","to":"wikipedia://en/4229239","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[514,546],"revision":1074839548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44370054","to":"wikipedia://en/1651906","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[581,607],"revision":1074839548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44370054","to":"wikipedia://en/2473303","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[855,882],"revision":1074839548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44370054","to":"wikipedia://en/29526098","predicate":"related","method":"see-also","confidence":"low","span":[902,932],"revision":1074839548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44370054","to":"Category:Autocorrelation","predicate":"in-field","method":"category","confidence":"medium","span":[2152,2180],"revision":1074839548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44370054","to":"Category:Regression with time series structure","predicate":"in-field","method":"category","confidence":"medium","span":[2181,2231],"revision":1074839548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8016170#RCFU","to":"wikipedia://en/15575410","predicate":"uses","method":"link-in-item","confidence":"high","span":[1659,1685],"revision":1351041685,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8016170#RCFU","to":"wikipedia://en/53932","predicate":"uses","method":"link-in-item","confidence":"high","span":[1740,1762],"revision":1351041685,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8016170#RCFU","to":"wikipedia://en/946975","predicate":"uses","method":"link-in-item","confidence":"high","span":[1795,1825],"revision":1351041685,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8016170#RCFU","to":"wikipedia://en/22989","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2066,2075],"revision":1351041685,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8016170#RCFU","to":"wikipedia://en/252738","predicate":"uses","method":"link-in-item","confidence":"high","span":[2190,2203],"revision":1351041685,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8016170#RCFU","to":"wikipedia://en/1574901","predicate":"uses","method":"link-in-item","confidence":"high","span":[2244,2276],"revision":1351041685,"by":"importer/wikipedia/1"}

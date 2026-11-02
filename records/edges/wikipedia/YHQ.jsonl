@@ -1,0 +1,20 @@
+{"from":"wikipedia://en/345396#0RYV","to":"wikipedia://en/249176","predicate":"listed-in","method":"list","confidence":"certain","span":[2988,3014],"revision":1261265038,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38208829#EJE7","to":"wikipedia://en/10902","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[1044,1061],"revision":1340052952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3837790","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[365,377],"revision":1364212352,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3837790","to":"wikipedia://en/30654","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[473,485],"revision":1364212352,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3837790","to":"wikipedia://en/39378","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[508,530],"revision":1364212352,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3837790","to":"wikipedia://en/43958459","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[546,573],"revision":1364212352,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3837790","to":"wikipedia://en/243316","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[632,659],"revision":1364212352,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3837790","to":"wikipedia://en/13556959","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[715,742],"revision":1364212352,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3837790","to":"wikipedia://en/11308417","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[804,834],"revision":1364212352,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3837790","to":"wikipedia://en/762954","predicate":"related","method":"link-in-text","confidence":"low","span":[14735,14800],"revision":1364212352,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3837790","to":"wikipedia://en/7706","predicate":"related","method":"link-in-text","confidence":"low","span":[15241,15266],"revision":1364212352,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3837790","to":"wikipedia://en/32533","predicate":"related","method":"link-in-text","confidence":"low","span":[15305,15334],"revision":1364212352,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3837790","to":"wikipedia://en/1096323","predicate":"related","method":"see-also","confidence":"low","span":[17222,17244],"revision":1364212352,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3837790","to":"wikipedia://en/1861608","predicate":"related","method":"see-also","confidence":"low","span":[17317,17333],"revision":1364212352,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3837790","to":"wikipedia://en/10460511","predicate":"related","method":"see-also","confidence":"low","span":[17335,17356],"revision":1364212352,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3837790","to":"Category:Linear algebra","predicate":"in-field","method":"category","confidence":"medium","span":[17692,17719],"revision":1364212352,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3837790","to":"Category:Affine geometry","predicate":"in-field","method":"category","confidence":"medium","span":[17720,17748],"revision":1364212352,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3837790","to":"Category:Triangle geometry","predicate":"in-field","method":"category","confidence":"medium","span":[17749,17779],"revision":1364212352,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3837790","to":"Category:Coordinate systems","predicate":"in-field","method":"category","confidence":"medium","span":[17780,17811],"revision":1364212352,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70361989#FHAM","to":"wikipedia://en/5826","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[1606,1624],"revision":1350335386,"by":"importer/wikipedia/1"}

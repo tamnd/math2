@@ -1,3 +1,5 @@
 {"id":"P0B4EXGG8Z","mentions":["m2://rec/lebl_scv/scv.tex#exercise-92#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"P0BCQCS7YZ","mentions":["m2://rec/ernst_ibl/MAAPressVersion/AxiomsRealNumbers.tex#theorem-9#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"P0BQ1YX16Y","mentions":["wikipedia://en/52247#QVS8"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"P0BQH70PPS","mentions":["m2://rec/lebl_ra/ch-contfunc.tex#cor:continterval#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"P0BV97MJWN","mentions":["wikipedia://en/76765067#YYGA"],"kind":"definition","name":"formal consequence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

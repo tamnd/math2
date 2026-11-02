@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/14403539#HDCM","to":"wikipedia://en/198983","predicate":"listed-in","method":"list","confidence":"certain","span":[41638,41661],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2874626","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[78,93],"revision":1330716883,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2874626","to":"wikipedia://en/27838","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[151,164],"revision":1330716883,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2874626","to":"wikipedia://en/10936783","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[172,186],"revision":1330716883,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2874626","to":"wikipedia://en/26691","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[213,238],"revision":1330716883,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2874626","to":"Category:Real analysis","predicate":"in-field","method":"category","confidence":"medium","span":[2037,2063],"revision":1330716883,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2874626","to":"Category:Sequences and series","predicate":"in-field","method":"category","confidence":"medium","span":[2064,2097],"revision":1330716883,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43580500#7FG8","to":"wikipedia://en/168864","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[92014,92041],"revision":1360947732,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43580500#V0Z1","to":"wikipedia://en/448267","predicate":"uses","method":"link-in-item","confidence":"high","span":[11195,11221],"revision":1360947732,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75894285","to":"wikipedia://en/17944","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[60,75],"revision":1373916117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75894285","to":"wikipedia://en/5475402","predicate":"restates","method":"hatnote","confidence":"high","span":[168,186],"revision":1373916117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75894285","to":"wikipedia://en/297501","predicate":"restates","method":"hatnote","confidence":"high","span":[187,203],"revision":1373916117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75894285","to":"wikipedia://en/78536056","predicate":"restates","method":"hatnote","confidence":"high","span":[6951,6964],"revision":1373916117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75894285","to":"wikipedia://en/19616384","predicate":"related","method":"link-in-text","confidence":"low","span":[7021,7041],"revision":1373916117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75894285","to":"wikipedia://en/17944","predicate":"related","method":"link-in-text","confidence":"low","span":[7057,7072],"revision":1373916117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75894285","to":"wikipedia://en/928","predicate":"related","method":"link-in-text","confidence":"low","span":[7093,7102],"revision":1373916117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75894285","to":"wikipedia://en/1066621","predicate":"related","method":"link-in-text","confidence":"low","span":[7188,7231],"revision":1373916117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75894285","to":"wikipedia://en/4365","predicate":"related","method":"link-in-text","confidence":"low","span":[7287,7320],"revision":1373916117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75894285","to":"wikipedia://en/3129615","predicate":"related","method":"link-in-text","confidence":"low","span":[7648,7669],"revision":1373916117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75894285","to":"wikipedia://en/35015317","predicate":"related","method":"see-also","confidence":"low","span":[7687,7702],"revision":1373916117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75894285","to":"Category:Lie algebras","predicate":"in-field","method":"category","confidence":"medium","span":[8348,8373],"revision":1373916117,"by":"importer/wikipedia/1"}

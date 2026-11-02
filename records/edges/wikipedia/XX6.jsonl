@@ -1,0 +1,28 @@
+{"from":"wikipedia://en/10198492#7BA3","to":"wikipedia://en/1337587","predicate":"uses","method":"link-in-item","confidence":"high","span":[286,312],"revision":1046431424,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10198492#7BA3","to":"wikipedia://en/302188","predicate":"uses","method":"link-in-item","confidence":"high","span":[352,376],"revision":1046431424,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10198492#7BA3","to":"wikipedia://en/218268","predicate":"uses","method":"link-in-item","confidence":"high","span":[608,637],"revision":1046431424,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10198492#7BA3","to":"wikipedia://en/17945","predicate":"uses","method":"link-in-item","confidence":"high","span":[723,736],"revision":1046431424,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10198492#7BA3","to":"wikipedia://en/247924","predicate":"uses","method":"link-in-item","confidence":"high","span":[740,759],"revision":1046431424,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10198492#7BA3","to":"wikipedia://en/302188","predicate":"uses","method":"link-in-item","confidence":"high","span":[798,845],"revision":1046431424,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46955123#5SXR","to":"wikipedia://en/14856","predicate":"uses","method":"link-in-item","confidence":"high","span":[8502,8519],"revision":1369809766,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46955123#5SXR","to":"wikipedia://en/990534","predicate":"uses","method":"link-in-item","confidence":"high","span":[8559,8586],"revision":1369809766,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6318542#PEI3","to":"wikipedia://en/8887","predicate":"specializes","method":"link-in-item","confidence":"medium","span":[22053,22071],"revision":1310023039,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6318542#PEI3","to":"wikipedia://en/2584449","predicate":"uses","method":"link-in-item","confidence":"high","span":[23261,23292],"revision":1310023039,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76765067#CRMZ","to":"wikipedia://en/767227","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[235648,235674],"revision":1368301704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8993670","to":"wikipedia://en/7398","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[662,683],"revision":1372241830,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8993670","to":"wikipedia://en/7464687","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[756,828],"revision":1372241830,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8993670","to":"wikipedia://en/7464687","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[836,872],"revision":1372241830,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8993670","to":"wikipedia://en/4594","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[918,935],"revision":1372241830,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8993670","to":"wikipedia://en/647844","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[936,944],"revision":1372241830,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8993670","to":"wikipedia://en/611984","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[967,977],"revision":1372241830,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8993670","to":"wikipedia://en/21031297","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[995,1004],"revision":1372241830,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8993670","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1008,1023],"revision":1372241830,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8993670","to":"wikipedia://en/146078","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1033,1066],"revision":1372241830,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8993670","to":"wikipedia://en/4546010","predicate":"related","method":"link-in-lead","confidence":"low","span":[1100,1120],"revision":1372241830,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8993670","to":"wikipedia://en/5715","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1172,1189],"revision":1372241830,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8993670","to":"wikipedia://en/7978","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1197,1225],"revision":1372241830,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8993670","to":"wikipedia://en/23275402","predicate":"related","method":"link-in-text","confidence":"low","span":[1801,1818],"revision":1372241830,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8993670","to":"wikipedia://en/3979","predicate":"related","method":"link-in-text","confidence":"low","span":[1853,1864],"revision":1372241830,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8993670","to":"Category:Modern cryptographers","predicate":"in-field","method":"category","confidence":"medium","span":[2097,2131],"revision":1372241830,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8993670","to":"Category:Australian computer scientists","predicate":"in-field","method":"category","confidence":"medium","span":[2132,2175],"revision":1372241830,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8993670","to":"Category:Computer security academics","predicate":"in-field","method":"category","confidence":"medium","span":[2176,2216],"revision":1372241830,"by":"importer/wikipedia/1"}

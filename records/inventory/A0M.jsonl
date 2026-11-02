@@ -1,4 +1,10 @@
-{"id":"A0M93AJMM8","mentions":["m2://rec/wikidata/Q122946284#1"],"kind":"definition","name":"quasi-separated morphism","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"A0M0DM6MXT","mentions":["wikipedia://en/14403539#CCAZ"],"kind":"unknown","name":"Kobbi Nissim","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"A0M3M44BRF","mentions":["wikipedia://en/57242824#U673"],"kind":"topic","name":"Karl Mollweide","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"A0M8SB5ACH","mentions":["wikipedia://en/186057#8YF8"],"kind":"statement","name":"Results","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"A0M93AJMM8","mentions":["m2://rec/wikidata/Q122946284#1","wikipedia://en/28281191"],"kind":"definition","name":"quasi-separated morphism","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"A0MFN9D7NM","mentions":["m2://rec/open_logic/content/sets-functions-relations/relations/trees.tex#prop-1#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"A0MM76T204","mentions":["wikipedia://en/15109#OC4A"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"A0MSQGDRV2","mentions":["wikipedia://en/19091290"],"kind":"object","name":"1 42 polytope","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"A0MSSZQR1F","mentions":["m2://rec/ernst_ibl/MAAPressVersion/IntroInduction.tex#thm:PMI#1"],"kind":"statement","name":"Principle of Mathematical Induction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"A0MVXYVZS6","mentions":["m2://rec/lebl_ra/ch-real-nums.tex#exercise-35#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"A0MY31PJZ0","mentions":["wikipedia://en/38256214#UJ36"],"kind":"definition","name":"perfect","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

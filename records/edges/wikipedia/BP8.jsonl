@@ -1,0 +1,18 @@
+{"from":"wikipedia://en/1270691#JWRN","to":"wikipedia://en/20796238","predicate":"uses","method":"link-in-item","confidence":"high","span":[2421,2438],"revision":1374532193,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1521283#6ZHP","to":"wikipedia://en/42693","predicate":"uses","method":"link-in-item","confidence":"high","span":[5237,5252],"revision":1306606801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2645647#ABIQ","to":"wikipedia://en/20527175","predicate":"listed-in","method":"list","confidence":"certain","span":[13610,13618],"revision":1350976229,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/621447#AZ75","to":"wikipedia://en/3596825","predicate":"listed-in","method":"list","confidence":"certain","span":[7059,7068],"revision":1333074872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67182867#B2XI","to":"wikipedia://en/50347","predicate":"uses","method":"link-in-item","confidence":"high","span":[2862,2898],"revision":1368141450,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67182867#B2XI","to":"wikipedia://en/191752","predicate":"uses","method":"link-in-item","confidence":"high","span":[2918,2939],"revision":1368141450,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7439014","to":"wikipedia://en/1619396","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[91,103],"revision":1313654259,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7439014","to":"wikipedia://en/12316","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[220,238],"revision":1313654259,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7439014","to":"wikipedia://en/26629293","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[262,287],"revision":1313654259,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7439014","to":"wikipedia://en/11149717","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[732,788],"revision":1313654259,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7439014","to":"wikipedia://en/780918","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1028,1055],"revision":1313654259,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7439014","to":"wikipedia://en/2836040","predicate":"related","method":"link-in-lead","confidence":"low","span":[1076,1093],"revision":1313654259,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7439014","to":"wikipedia://en/11149717","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1249,1289],"revision":1313654259,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7439014","to":"wikipedia://en/166022","predicate":"related","method":"link-in-text","confidence":"low","span":[5988,6005],"revision":1313654259,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7439014","to":"wikipedia://en/40326","predicate":"related","method":"link-in-text","confidence":"low","span":[6010,6038],"revision":1313654259,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7439014","to":"wikipedia://en/4120642","predicate":"related","method":"link-in-text","confidence":"low","span":[6510,6527],"revision":1313654259,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7439014","to":"Category:Gamma and related functions","predicate":"in-field","method":"category","confidence":"medium","span":[10704,10744],"revision":1313654259,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7439014","to":"Category:Q-analogs","predicate":"in-field","method":"category","confidence":"medium","span":[10745,10767],"revision":1313654259,"by":"importer/wikipedia/1"}

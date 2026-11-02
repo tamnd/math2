@@ -1,2 +1,5 @@
 {"id":"YZ6AN798BC","mentions":["m2://rec/open_logic/content/normal-modal-logic/syntax-and-semantics/schemas.tex#prop:Kvalid#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"YZ6T7TVK7Y","mentions":["m2://rec/wikidata/Q5600350#1"],"kind":"unknown","name":"great dodecicosacron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"YZ6GC2JGDZ","mentions":["wikipedia://en/25120#XKZR"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"YZ6JBXNAF0","mentions":["wikipedia://en/28615265"],"kind":"definition","name":"Quantum phase estimation algorithm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"YZ6T7TVK7Y","mentions":["m2://rec/wikidata/Q5600350#1","wikipedia://en/18681460"],"kind":"object","name":"great dodecicosacron","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"YZ6VPV4PWY","mentions":["wikipedia://en/24390058#8439"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,0 +1,24 @@
+{"from":"wikipedia://en/3086101#8Z63","to":"wikipedia://en/325806","predicate":"uses","method":"link-in-item","confidence":"high","span":[601,621],"revision":1374682312,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3086101#8Z63","to":"wikipedia://en/27545816","predicate":"uses","method":"link-in-item","confidence":"high","span":[632,672],"revision":1374682312,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3086101#8Z63","to":"wikipedia://en/1520758","predicate":"uses","method":"link-in-item","confidence":"high","span":[926,941],"revision":1374682312,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3086101#8Z63","to":"wikipedia://en/184898","predicate":"uses","method":"named-link","confidence":"high","span":[1019,1039],"revision":1374682312,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3086101#8Z63","to":"wikipedia://en/85816","predicate":"uses","method":"link-in-item","confidence":"high","span":[1160,1178],"revision":1374682312,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3086101#8Z63","to":"wikipedia://en/638899","predicate":"uses","method":"link-in-item","confidence":"high","span":[1209,1243],"revision":1374682312,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3086101#8Z63","to":"wikipedia://en/12401","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[1250,1272],"revision":1374682312,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47781281","to":"wikipedia://en/9602","predicate":"related","method":"link-in-text","confidence":"low","span":[641,654],"revision":1172466264,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47781281","to":"wikipedia://en/23592200","predicate":"related","method":"link-in-text","confidence":"low","span":[712,736],"revision":1172466264,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47781281","to":"wikipedia://en/181348","predicate":"related","method":"link-in-text","confidence":"low","span":[760,786],"revision":1172466264,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47781281","to":"wikipedia://en/7955325","predicate":"related","method":"link-in-text","confidence":"low","span":[1195,1220],"revision":1172466264,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47781281","to":"wikipedia://en/23487663","predicate":"related","method":"link-in-text","confidence":"low","span":[1265,1287],"revision":1172466264,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47781281","to":"wikipedia://en/31793","predicate":"related","method":"link-in-text","confidence":"low","span":[1415,1445],"revision":1172466264,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47781281","to":"wikipedia://en/184179","predicate":"related","method":"link-in-text","confidence":"low","span":[1637,1669],"revision":1172466264,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47781281","to":"wikipedia://en/40294","predicate":"related","method":"link-in-text","confidence":"low","span":[2456,2473],"revision":1172466264,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47781281","to":"wikipedia://en/1240641","predicate":"related","method":"link-in-text","confidence":"low","span":[3332,3361],"revision":1172466264,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47781281","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[6562,6611],"revision":1172466264,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47781281","to":"Category:21st-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[6612,6661],"revision":1172466264,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47781281","to":"Category:Scottish mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[6662,6698],"revision":1172466264,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47781281","to":"Category:Topologists","predicate":"in-field","method":"category","confidence":"medium","span":[6699,6723],"revision":1172466264,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47781281","to":"Category:Academic staff of the University of Toronto","predicate":"in-field","method":"category","confidence":"medium","span":[6827,6883],"revision":1172466264,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47781281","to":"Category:Mathematicians at the University of Pennsylvania","predicate":"in-field","method":"category","confidence":"medium","span":[6972,7033],"revision":1172466264,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47781281","to":"Category:Institute for Advanced Study visiting scholars","predicate":"in-field","method":"category","confidence":"medium","span":[7034,7093],"revision":1172466264,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47781281","to":"Category:Scientists from Edinburgh","predicate":"in-field","method":"category","confidence":"medium","span":[7094,7132],"revision":1172466264,"by":"importer/wikipedia/1"}

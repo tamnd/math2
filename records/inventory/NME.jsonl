@@ -1,1 +1,5 @@
+{"id":"NME3D7H4YX","mentions":["wikipedia://en/72485601"],"kind":"topic","name":"Nancy Blachman","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NME3FX6EHA","mentions":["wikipedia://en/27092857"],"kind":"topic","name":"Robert Breusch","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NME8KPWA5K","mentions":["ax://paper/2610.11047#O0XT"],"kind":"statement","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.3"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.3"}],"proofs":["ax://paper/2610.11047#3NQ7"]}
+{"id":"NMEA1D8RG3","mentions":["wikipedia://en/78730954#ZTVS"],"kind":"unknown","name":"phases of the Moon","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NMEHE2NTYM","mentions":["wikipedia://en/3042363"],"kind":"topic","name":"Daihachiro Sato","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

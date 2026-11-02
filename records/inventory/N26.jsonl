@@ -1,2 +1,6 @@
 {"id":"N2602R5P7X","mentions":["m2://rec/wikidata/Q25488798#1"],"kind":"unknown","name":"Lie algebra ideal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"N2607SJ0YY","mentions":["wikipedia://en/2620450#YV1G"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"N265BK2N4R","mentions":["ax://paper/2610.22074#NV7R"],"kind":"statement","msc":["55-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.2"}]}
+{"id":"N267T74KJ4","mentions":["wikipedia://en/43580500#3E0Q"],"kind":"definition","name":"↿","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"N26NCDTV8D","mentions":["wikipedia://en/2784711"],"kind":"topic","name":"Conel Hugh O'Donel Alexander","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"N26QF011ZG","mentions":["wikipedia://en/42174961#OO2P"],"kind":"unknown","name":"HyperLogLog++","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

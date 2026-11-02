@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/21156575","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1366041599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21156575","to":"wikipedia://en/10603","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[48,77],"revision":1366041599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21156575","to":"wikipedia://en/20018","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[94,125],"revision":1366041599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21156575","to":"wikipedia://en/7832","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[130,164],"revision":1366041599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21156575","to":"wikipedia://en/61338","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[240,252],"revision":1366041599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21156575","to":"wikipedia://en/74141","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[254,269],"revision":1366041599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21156575","to":"wikipedia://en/20845","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[271,289],"revision":1366041599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21156575","to":"wikipedia://en/53696","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[295,330],"revision":1366041599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21156575","to":"wikipedia://en/39378","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[362,374],"revision":1366041599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21156575","to":"wikipedia://en/20646438","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[433,449],"revision":1366041599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21156575","to":"wikipedia://en/5826","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[455,474],"revision":1366041599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21156575","to":"wikipedia://en/347049","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[480,506],"revision":1366041599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21156575","to":"wikipedia://en/51423","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[520,557],"revision":1366041599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21156575","to":"Category:Field theory","predicate":"in-field","method":"category","confidence":"medium","span":[5218,5243],"revision":1366041599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21156575","to":"Category:Topological algebra","predicate":"in-field","method":"category","confidence":"medium","span":[5244,5276],"revision":1366041599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/255768#8WMT","to":"wikipedia://en/31150","predicate":"listed-in","method":"list","confidence":"certain","span":[1912,1949],"revision":1158714048,"by":"importer/wikipedia/1"}

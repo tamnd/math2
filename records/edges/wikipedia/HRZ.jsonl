@@ -1,0 +1,19 @@
+{"from":"wikipedia://en/11310655#6I3Q","to":"wikipedia://en/23862","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6548,6588],"revision":1375079898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11310655#6I3Q","to":"wikipedia://en/15881","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6983,7019],"revision":1375079898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11310655#6I3Q","to":"wikipedia://en/45634","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7699,7714],"revision":1375079898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11310655#6I3Q","to":"wikipedia://en/72038","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7733,7740],"revision":1375079898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11310655#6I3Q","to":"wikipedia://en/5481447","predicate":"uses","method":"link-in-item","confidence":"medium","span":[8395,8404],"revision":1375079898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11310655#6I3Q","to":"wikipedia://en/12323","predicate":"uses","method":"link-in-item","confidence":"medium","span":[8413,8426],"revision":1375079898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11310655#6I3Q","to":"wikipedia://en/38455554","predicate":"uses","method":"link-in-item","confidence":"medium","span":[8674,8712],"revision":1375079898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11310655#6I3Q","to":"wikipedia://en/81865333","predicate":"uses","method":"link-in-item","confidence":"medium","span":[9411,9423],"revision":1375079898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29353834","to":"wikipedia://en/18716923","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,14],"revision":1320370132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29353834","to":"wikipedia://en/191788","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[45,78],"revision":1320370132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29353834","to":"wikipedia://en/489273","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[101,115],"revision":1320370132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29353834","to":"wikipedia://en/326430","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[132,193],"revision":1320370132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29353834","to":"wikipedia://en/245351","predicate":"related","method":"link-in-lead","confidence":"low","span":[216,230],"revision":1320370132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29353834","to":"wikipedia://en/3129323","predicate":"related","method":"link-in-text","confidence":"low","span":[396,416],"revision":1320370132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29353834","to":"wikipedia://en/665821","predicate":"related","method":"link-in-text","confidence":"low","span":[759,782],"revision":1320370132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29353834","to":"wikipedia://en/29430","predicate":"related","method":"link-in-text","confidence":"low","span":[805,829],"revision":1320370132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29353834","to":"wikipedia://en/279715","predicate":"related","method":"link-in-text","confidence":"low","span":[1087,1099],"revision":1320370132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29353834","to":"wikipedia://en/397264","predicate":"related","method":"see-also","confidence":"low","span":[1294,1324],"revision":1320370132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29353834","to":"Category:Ring theory","predicate":"in-field","method":"category","confidence":"medium","span":[1747,1771],"revision":1320370132,"by":"importer/wikipedia/1"}

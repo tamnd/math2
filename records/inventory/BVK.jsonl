@@ -1,2 +1,9 @@
+{"id":"BVK20YPW7H","mentions":["wikipedia://en/48404#AG1P"],"kind":"definition","name":"Constructions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"BVK3HC5TN7","mentions":["wikipedia://en/209103#D12X"],"kind":"definition","name":"Chaitin's constant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"BVK6YVQC2B","mentions":["wikipedia://en/51140705#F5GJ"],"kind":"unknown","name":"Almarin Phillips","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"BVK8M7GT77","mentions":["wikipedia://en/77229532"],"kind":"topic","name":"Doug Butterworth","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BVKHMG20JN","mentions":["m2://rec/lebl_diffyqs/ch-laplace.tex#exercise-17#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"BVKPWYYT12","mentions":["ax://paper/2609.33015#PHRM"],"kind":"statement","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}],"proofs":["ax://paper/2609.33015#2QEY"]}
+{"id":"BVKSYQ1KAJ","mentions":["wikipedia://en/28356#M16T"],"kind":"statement","name":"Symmetries","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"BVKV0A27C0","mentions":["wikipedia://en/49534703"],"kind":"topic","name":"Vadim Yankov","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"BVKY30AN8B","mentions":["wikipedia://en/34189212#MHC5"],"kind":"definition","name":"Axiomatic set theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

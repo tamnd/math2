@@ -1,0 +1,10 @@
+{"from":"wikipedia://en/37647580","to":"wikipedia://en/8625","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[113,138],"revision":1360702787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37647580","to":"wikipedia://en/39904936","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[238,272],"revision":1360702787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37647580","to":"wikipedia://en/17945","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[278,291],"revision":1360702787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37647580","to":"wikipedia://en/17944","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[331,346],"revision":1360702787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37647580","to":"wikipedia://en/54010","predicate":"related","method":"link-in-lead","confidence":"low","span":[472,486],"revision":1360702787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37647580","to":"wikipedia://en/17944","predicate":"related","method":"link-in-text","confidence":"low","span":[2186,2220],"revision":1360702787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37647580","to":"Category:Theorems in differential geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[3138,3184],"revision":1360702787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37647580","to":"Category:Lie algebras","predicate":"in-field","method":"category","confidence":"medium","span":[3185,3210],"revision":1360702787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37647580","to":"Category:Lie groups","predicate":"in-field","method":"category","confidence":"medium","span":[3211,3234],"revision":1360702787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76765067#B6SA","to":"wikipedia://en/697666","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[47572,47607],"revision":1368301704,"by":"importer/wikipedia/1"}

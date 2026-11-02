@@ -1,0 +1,9 @@
+{"from":"wikipedia://en/1005936#0X1C","to":"wikipedia://en/845060","predicate":"listed-in","method":"list","confidence":"certain","span":[2692,2738],"revision":1322395897,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29875125","to":"wikipedia://en/51421","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[136,156],"revision":1353693397,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29875125","to":"wikipedia://en/21474","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[187,208],"revision":1353693397,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29875125","to":"wikipedia://en/48404","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[522,549],"revision":1353693397,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29875125","to":"wikipedia://en/49492","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[571,587],"revision":1353693397,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29875125","to":"wikipedia://en/12354","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[825,852],"revision":1353693397,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29875125","to":"Category:Sequences and series","predicate":"in-field","method":"category","confidence":"medium","span":[4301,4334],"revision":1353693397,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29875125","to":"Category:Integer sequences","predicate":"kind-of","method":"category","confidence":"medium","span":[4335,4365],"revision":1353693397,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29875125","to":"Category:Arithmetic functions","predicate":"in-field","method":"category","confidence":"medium","span":[4366,4399],"revision":1353693397,"by":"importer/wikipedia/1"}

@@ -1,0 +1,8 @@
+{"from":"wikipedia://en/23256783#0LP6","to":"wikipedia://en/52096848","predicate":"listed-in","method":"list","confidence":"certain","span":[447,505],"revision":1329675572,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/251424#SLII","to":"wikipedia://en/31157948","predicate":"uses","method":"link-in-item","confidence":"high","span":[30429,30447],"revision":1370098282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/251424#SLII","to":"wikipedia://en/966856","predicate":"uses","method":"link-in-item","confidence":"high","span":[30550,30568],"revision":1370098282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31438027","to":"wikipedia://en/1226719","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[61,85],"revision":1351037350,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31438027","to":"wikipedia://en/363530","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[93,136],"revision":1351037350,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31438027","to":"wikipedia://en/23666","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[289,305],"revision":1351037350,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31438027","to":"wikipedia://en/2146220","predicate":"related","method":"see-also","confidence":"low","span":[642,664],"revision":1351037350,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31438027","to":"Category:Algebraic topology","predicate":"in-field","method":"category","confidence":"medium","span":[2165,2196],"revision":1351037350,"by":"importer/wikipedia/1"}

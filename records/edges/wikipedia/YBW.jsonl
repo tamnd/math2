@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/237868#QL93","to":"wikipedia://en/32245","predicate":"uses","method":"link-in-item","confidence":"high","span":[1103,1125],"revision":1364654346,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/237868#QL93","to":"wikipedia://en/138484","predicate":"uses","method":"link-in-item","confidence":"high","span":[1350,1382],"revision":1364654346,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/237868#QL93","to":"wikipedia://en/44787","predicate":"uses","method":"link-in-item","confidence":"high","span":[1683,1692],"revision":1364654346,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/237868#QL93","to":"wikipedia://en/14828","predicate":"uses","method":"link-in-item","confidence":"high","span":[1693,1718],"revision":1364654346,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7237011","to":"wikipedia://en/18934432","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[513,529],"revision":1221400521,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7237011","to":"wikipedia://en/53042","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[550,587],"revision":1221400521,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7237011","to":"wikipedia://en/4594","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[588,604],"revision":1221400521,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7237011","to":"wikipedia://en/1260","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[638,670],"revision":1221400521,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7237011","to":"wikipedia://en/99431","predicate":"related","method":"see-also","confidence":"low","span":[1217,1232],"revision":1221400521,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7237011","to":"Template:Cryptography navbox","predicate":"in-nav","method":"nav","confidence":"low","span":[2337,2368],"revision":1221400521,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7237011","to":"Category:Block ciphers","predicate":"in-field","method":"category","confidence":"medium","span":[2370,2396],"revision":1221400521,"by":"importer/wikipedia/1"}

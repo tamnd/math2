@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/40752524","to":"wikipedia://en/264845","predicate":"related","method":"link-in-text","confidence":"low","span":[277,306],"revision":1349515860,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40752524","to":"wikipedia://en/4184288","predicate":"related","method":"link-in-text","confidence":"low","span":[398,409],"revision":1349515860,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40752524","to":"wikipedia://en/145607","predicate":"related","method":"link-in-text","confidence":"low","span":[471,485],"revision":1349515860,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40752524","to":"wikipedia://en/172568","predicate":"related","method":"link-in-text","confidence":"low","span":[557,608],"revision":1349515860,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40752524","to":"wikipedia://en/70348","predicate":"related","method":"link-in-text","confidence":"low","span":[759,792],"revision":1349515860,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40752524","to":"wikipedia://en/21032452","predicate":"related","method":"link-in-text","confidence":"low","span":[819,845],"revision":1349515860,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40752524","to":"wikipedia://en/432755","predicate":"related","method":"link-in-text","confidence":"low","span":[921,975],"revision":1349515860,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40752524","to":"wikipedia://en/8110000","predicate":"related","method":"link-in-text","confidence":"low","span":[1068,1093],"revision":1349515860,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40752524","to":"wikipedia://en/1002187","predicate":"related","method":"link-in-text","confidence":"low","span":[1158,1175],"revision":1349515860,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40752524","to":"wikipedia://en/354320","predicate":"related","method":"link-in-text","confidence":"low","span":[1228,1262],"revision":1349515860,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40752524","to":"wikipedia://en/3989513","predicate":"related","method":"link-in-text","confidence":"low","span":[1306,1352],"revision":1349515860,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40752524","to":"Category:19th-century English writers","predicate":"in-field","method":"category","confidence":"medium","span":[2906,2947],"revision":1349515860,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40752524","to":"Category:English mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2948,2983],"revision":1349515860,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40752524","to":"Category:Schoolteachers from County Durham","predicate":"in-field","method":"category","confidence":"medium","span":[2984,3030],"revision":1349515860,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40752524","to":"Category:Textbook writers","predicate":"in-field","method":"category","confidence":"medium","span":[3031,3060],"revision":1349515860,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/706271","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1356441941,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/706271","to":"wikipedia://en/712675","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[59,78],"revision":1356441941,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/706271","to":"wikipedia://en/3966927","predicate":"related","method":"link-in-lead","confidence":"low","span":[92,108],"revision":1356441941,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/706271","to":"wikipedia://en/7184","predicate":"related","method":"link-in-text","confidence":"low","span":[6845,6860],"revision":1356441941,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/706271","to":"Template:Functional analysis","predicate":"in-nav","method":"nav","confidence":"low","span":[8073,8096],"revision":1356441941,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/706271","to":"Category:Operator theory","predicate":"in-field","method":"category","confidence":"medium","span":[8098,8126],"revision":1356441941,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/706271","to":"Category:Theorems in functional analysis","predicate":"kind-of","method":"category","confidence":"medium","span":[8127,8171],"revision":1356441941,"by":"importer/wikipedia/1"}

@@ -1,1 +1,5 @@
+{"id":"CK15EEVDV9","mentions":["wikipedia://en/468536#TAQ1"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"CK16RP0014","mentions":["wikipedia://en/98770#B1R2"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"CK1EF23JFF","mentions":["wikipedia://en/29168254"],"kind":"definition","name":"Partial group algebra","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CK1MA24ZE6","mentions":["ax://paper/2609.30067#8T9N"],"kind":"problem","msc":["30-XX","32-XX","37-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}
+{"id":"CK1YTX1BKF","mentions":["wikipedia://en/4914066#IHOB"],"kind":"statement","name":"Rellich's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

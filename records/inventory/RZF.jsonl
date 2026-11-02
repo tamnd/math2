@@ -1,2 +1,6 @@
+{"id":"RZF03V22J6","mentions":["wikipedia://en/1403586#RIEG"],"kind":"unknown","name":"Larry Nagler","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"RZF12CSCSF","mentions":["wikipedia://en/3349272"],"kind":"definition","name":"Sign extension","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RZF3VC3Y6W","mentions":["m2://rec/hott_book/hits.tex#proof-14#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"RZF733K8CV","mentions":["ax://paper/2609.31126#8UW6"],"kind":"definition","msc":["37-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.5.6"},"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.5.6"}]}
+{"id":"RZFR0Q6BK5","mentions":["wikipedia://en/12983357"],"kind":"definition","name":"Net reproduction rate","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"RZFW6Z8JNY","mentions":["wikipedia://en/76918343#OUE6"],"kind":"unknown","name":"Lise Getoor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

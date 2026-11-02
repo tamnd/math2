@@ -1,0 +1,20 @@
+{"from":"wikipedia://en/191457#Q35C","to":"wikipedia://en/18883979","predicate":"listed-in","method":"list","confidence":"certain","span":[39651,39681],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21452705","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[2100,2115],"revision":1354081034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21452705","to":"wikipedia://en/51421","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2166,2207],"revision":1354081034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21452705","to":"wikipedia://en/23475106","predicate":"related","method":"link-in-lead","confidence":"low","span":[2220,2240],"revision":1354081034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21452705","to":"wikipedia://en/48260","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2345,2375],"revision":1354081034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21452705","to":"wikipedia://en/348973","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2439,2453],"revision":1354081034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21452705","to":"wikipedia://en/310883","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2527,2556],"revision":1354081034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21452705","to":"wikipedia://en/723105","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2621,2654],"revision":1354081034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21452705","to":"wikipedia://en/642090","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2704,2739],"revision":1354081034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21452705","to":"wikipedia://en/246160","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2800,2813],"revision":1354081034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21452705","to":"wikipedia://en/585143","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3053,3079],"revision":1354081034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21452705","to":"wikipedia://en/28805642","predicate":"related","method":"link-in-text","confidence":"low","span":[8260,8275],"revision":1354081034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21452705","to":"wikipedia://en/1180916","predicate":"related","method":"link-in-text","confidence":"low","span":[8829,8849],"revision":1354081034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21452705","to":"wikipedia://en/17860","predicate":"related","method":"link-in-text","confidence":"low","span":[9864,9877],"revision":1354081034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21452705","to":"Template:Classes of natural numbers","predicate":"in-nav","method":"nav","confidence":"low","span":[16079,16109],"revision":1354081034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21452705","to":"Category:Integer sequences","predicate":"kind-of","method":"category","confidence":"medium","span":[16111,16141],"revision":1354081034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21452705","to":"Category:Enumerative combinatorics","predicate":"in-field","method":"category","confidence":"medium","span":[16142,16180],"revision":1354081034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21452705","to":"Category:Mathematical logic","predicate":"in-field","method":"category","confidence":"medium","span":[16181,16212],"revision":1354081034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21452705","to":"Category:Lattice theory","predicate":"in-field","method":"category","confidence":"medium","span":[16213,16240],"revision":1354081034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21452705","to":"Category:Families of sets","predicate":"in-field","method":"category","confidence":"medium","span":[16241,16270],"revision":1354081034,"by":"importer/wikipedia/1"}

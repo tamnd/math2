@@ -1,2 +1,5 @@
-{"id":"QEA7BCMX7J","mentions":["m2://rec/wikidata/Q12013681#1"],"kind":"definition","name":"valuation ring","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"QEA523TR78","mentions":["wikipedia://en/74785890"],"kind":"topic","name":"Michel Enock","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QEA7BCMX7J","mentions":["m2://rec/wikidata/Q12013681#1","wikipedia://en/966856"],"kind":"definition","name":"valuation ring","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"QEAD6B284Q","mentions":["wikipedia://en/2707163"],"kind":"definition","name":"Ultrastrong topology","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QEAF4MKQTH","mentions":["wikipedia://en/456132#SQZ8"],"kind":"definition","name":"Viswanath's constant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QEARP83SMT","mentions":["m2://rec/lebl_ra/ch-metric.tex#exercise-27#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

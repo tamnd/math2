@@ -1,2 +1,4 @@
+{"id":"FK72BV3YG9","mentions":["wikipedia://en/35625607#4MBV"],"kind":"definition","name":"nonic","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"FK797H3W0Q","mentions":["m2://rec/levin_dmoi/ptx/exercises/intro-functions.ptx#proof-1#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"FK7BC435RY","mentions":["wikipedia://en/10570298#EIAF"],"kind":"statement","name":"Essential form of the inequality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"FK7ECP6Z8A","mentions":["m2://rec/hott_book/index/7.1.2/cover-universal#1"],"kind":"concept","name":"cover, universal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/183091#AA4U","to":"wikipedia://en/1991528","predicate":"listed-in","method":"list","confidence":"certain","span":[25680,25710],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32411640","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[82,97],"revision":1203619683,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32411640","to":"wikipedia://en/286000","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[146,172],"revision":1203619683,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32411640","to":"wikipedia://en/2333880","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[176,201],"revision":1203619683,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32411640","to":"wikipedia://en/454781","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[207,231],"revision":1203619683,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32411640","to":"wikipedia://en/32338538","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[334,357],"revision":1203619683,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32411640","to":"wikipedia://en/44536593","predicate":"related","method":"see-also","confidence":"low","span":[479,504],"revision":1203619683,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32411640","to":"Category:Modular forms","predicate":"in-field","method":"category","confidence":"medium","span":[1630,1656],"revision":1203619683,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/84177930","to":"wikipedia://en/3966054","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[749,759],"revision":1374620166,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/84177930","to":"wikipedia://en/4070894","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[787,837],"revision":1374620166,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/84177930","to":"wikipedia://en/3191896","predicate":"related","method":"link-in-text","confidence":"low","span":[2103,2155],"revision":1374620166,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/84177930","to":"wikipedia://en/30863791","predicate":"related","method":"link-in-text","confidence":"low","span":[4360,4376],"revision":1374620166,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/84177930","to":"wikipedia://en/80309","predicate":"related","method":"link-in-text","confidence":"low","span":[4380,4415],"revision":1374620166,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/84177930","to":"wikipedia://en/3935520","predicate":"related","method":"link-in-text","confidence":"low","span":[4507,4561],"revision":1374620166,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/84177930","to":"wikipedia://en/26825","predicate":"related","method":"link-in-text","confidence":"low","span":[4585,4605],"revision":1374620166,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/84177930","to":"wikipedia://en/19224","predicate":"related","method":"see-also","confidence":"low","span":[19920,19946],"revision":1374620166,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/84177930","to":"wikipedia://en/18338378","predicate":"related","method":"see-also","confidence":"low","span":[19948,19990],"revision":1374620166,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/84177930","to":"wikipedia://en/37641052","predicate":"related","method":"see-also","confidence":"low","span":[19992,20038],"revision":1374620166,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/84177930","to":"Category:Censuses in Mexico","predicate":"in-field","method":"category","confidence":"medium","span":[20411,20442],"revision":1374620166,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/84177930","to":"Category:2020 censuses","predicate":"in-field","method":"category","confidence":"medium","span":[20443,20469],"revision":1374620166,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/84177930","to":"Category:2020 in Mexico","predicate":"in-field","method":"category","confidence":"medium","span":[20470,20497],"revision":1374620166,"by":"importer/wikipedia/1"}

@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/47738065#LEVW","to":"wikipedia://en/23107812","predicate":"listed-in","method":"list","confidence":"certain","span":[76676,76700],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75627032","to":"wikipedia://en/73498718","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[932,969],"revision":1371822783,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75627032","to":"wikipedia://en/153008","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[971,986],"revision":1371822783,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75627032","to":"wikipedia://en/53741","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1002,1014],"revision":1371822783,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75627032","to":"wikipedia://en/1807613","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1019,1046],"revision":1371822783,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75627032","to":"wikipedia://en/324872","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1052,1072],"revision":1371822783,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75627032","to":"wikipedia://en/26786","predicate":"related","method":"link-in-text","confidence":"low","span":[1123,1135],"revision":1371822783,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75627032","to":"wikipedia://en/918895","predicate":"related","method":"link-in-text","confidence":"low","span":[1178,1204],"revision":1371822783,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75627032","to":"wikipedia://en/333887","predicate":"related","method":"link-in-text","confidence":"low","span":[1377,1416],"revision":1371822783,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75627032","to":"wikipedia://en/4973847","predicate":"related","method":"link-in-text","confidence":"low","span":[1470,1492],"revision":1371822783,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75627032","to":"wikipedia://en/4705234","predicate":"related","method":"link-in-text","confidence":"low","span":[1575,1615],"revision":1371822783,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75627032","to":"wikipedia://en/69810367","predicate":"related","method":"link-in-text","confidence":"low","span":[2562,2593],"revision":1371822783,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75627032","to":"wikipedia://en/25697817","predicate":"related","method":"link-in-text","confidence":"low","span":[2728,2776],"revision":1371822783,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75627032","to":"Category:Serbian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[6138,6173],"revision":1371822783,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75627032","to":"Category:Crystallographers","predicate":"in-field","method":"category","confidence":"medium","span":[6174,6204],"revision":1371822783,"by":"importer/wikipedia/1"}

@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/140829#YFPI","to":"wikipedia://en/3946518","predicate":"listed-in","method":"list","confidence":"certain","span":[39413,39451],"revision":1372044875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64965286","to":"wikipedia://en/41890","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[284,300],"revision":1329550578,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64965286","to":"wikipedia://en/33565249","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[334,382],"revision":1329550578,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64965286","to":"wikipedia://en/1520","predicate":"related","method":"link-in-text","confidence":"low","span":[447,457],"revision":1329550578,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64965286","to":"wikipedia://en/22389295","predicate":"related","method":"link-in-text","confidence":"low","span":[493,510],"revision":1329550578,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64965286","to":"wikipedia://en/552556","predicate":"related","method":"link-in-text","confidence":"low","span":[519,541],"revision":1329550578,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64965286","to":"wikipedia://en/363323","predicate":"related","method":"link-in-text","confidence":"low","span":[665,681],"revision":1329550578,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64965286","to":"wikipedia://en/209935","predicate":"related","method":"link-in-text","confidence":"low","span":[798,826],"revision":1329550578,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64965286","to":"Category:21st-century German mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3033,3080],"revision":1329550578,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64965286","to":"Category:German women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3081,3121],"revision":1329550578,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64965286","to":"Category:Group theorists","predicate":"in-field","method":"category","confidence":"medium","span":[3122,3150],"revision":1329550578,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64965286","to":"Category:Academic staff of the University of Halle","predicate":"in-field","method":"category","confidence":"medium","span":[3190,3244],"revision":1329550578,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64965286","to":"Category:21st-century women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3245,3291],"revision":1329550578,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64965286","to":"Category:21st-century German women","predicate":"in-field","method":"category","confidence":"medium","span":[3324,3362],"revision":1329550578,"by":"importer/wikipedia/1"}

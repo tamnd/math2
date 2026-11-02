@@ -1,2 +1,6 @@
 {"id":"3CZ73ZN4A0","mentions":["ax://paper/2605.02634#1X2K"],"kind":"example","msc":["14-XX","16-XX","18-XX","55-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
 {"id":"3CZADJ2F9M","mentions":["m2://rec/wikidata/Q91748015#1"],"kind":"unknown","name":"CW-pair","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"3CZGK2RVM1","mentions":["wikipedia://en/52651586#FSMM"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"3CZGQT8PXN","mentions":["wikipedia://en/465007#8R53"],"kind":"unknown","name":"604 (number)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"3CZP6DPF9J","mentions":["wikipedia://en/80202352"],"kind":"definition","name":"Euler–Arnold equation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"3CZPDDBSKW","mentions":["wikipedia://en/168905"],"kind":"definition","name":"Mathematical folklore","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

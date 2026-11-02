@@ -1,0 +1,40 @@
+{"from":"wikipedia://en/11498709","to":"wikipedia://en/178649","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[282,304],"revision":1303725175,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11498709","to":"wikipedia://en/14533","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[308,317],"revision":1303725175,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11498709","to":"wikipedia://en/2218040","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[398,438],"revision":1303725175,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11498709","to":"wikipedia://en/23592200","predicate":"related","method":"link-in-text","confidence":"low","span":[1059,1086],"revision":1303725175,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11498709","to":"wikipedia://en/1077330","predicate":"related","method":"link-in-text","confidence":"low","span":[1111,1138],"revision":1303725175,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11498709","to":"wikipedia://en/25978572","predicate":"related","method":"link-in-text","confidence":"low","span":[1203,1230],"revision":1303725175,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11498709","to":"wikipedia://en/7203237","predicate":"related","method":"link-in-text","confidence":"low","span":[1242,1257],"revision":1303725175,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11498709","to":"wikipedia://en/636321","predicate":"related","method":"link-in-text","confidence":"low","span":[1312,1336],"revision":1303725175,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11498709","to":"wikipedia://en/2238418","predicate":"related","method":"link-in-text","confidence":"low","span":[1387,1419],"revision":1303725175,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11498709","to":"wikipedia://en/47905","predicate":"related","method":"link-in-text","confidence":"low","span":[1423,1435],"revision":1303725175,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11498709","to":"wikipedia://en/178649","predicate":"related","method":"link-in-text","confidence":"low","span":[1468,1490],"revision":1303725175,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11498709","to":"wikipedia://en/807056","predicate":"related","method":"link-in-text","confidence":"low","span":[1694,1716],"revision":1303725175,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11498709","to":"wikipedia://en/585984","predicate":"related","method":"link-in-text","confidence":"low","span":[1864,1894],"revision":1303725175,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11498709","to":"wikipedia://en/38225078","predicate":"related","method":"link-in-text","confidence":"low","span":[2093,2121],"revision":1303725175,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11498709","to":"wikipedia://en/1077330","predicate":"related","method":"link-in-text","confidence":"low","span":[2123,2150],"revision":1303725175,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11498709","to":"wikipedia://en/1599826","predicate":"related","method":"link-in-text","confidence":"low","span":[2152,2175],"revision":1303725175,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11498709","to":"wikipedia://en/46222840","predicate":"related","method":"link-in-text","confidence":"low","span":[2180,2206],"revision":1303725175,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11498709","to":"wikipedia://en/27743380","predicate":"related","method":"link-in-text","confidence":"low","span":[2251,2282],"revision":1303725175,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11498709","to":"Category:20th-century Indian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3691,3738],"revision":1303725175,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11498709","to":"Category:Presidents of the Indian Mathematical Society","predicate":"in-field","method":"category","confidence":"medium","span":[3844,3902],"revision":1303725175,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11498709","to":"Category:Expatriates from British India in the United Kingdom","predicate":"in-field","method":"category","confidence":"medium","span":[3954,4019],"revision":1303725175,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1896229#7ESW","to":"wikipedia://en/18484937","predicate":"listed-in","method":"list","confidence":"certain","span":[1856,1878],"revision":1356076695,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23256783#YC47","to":"wikipedia://en/63030703","predicate":"uses","method":"link-in-item","confidence":"high","span":[678,701],"revision":1329675572,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3122600#JSTP","to":"wikipedia://en/194060","predicate":"uses","method":"link-in-item","confidence":"high","span":[3976,4009],"revision":1369172790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3122600#JSTP","to":"wikipedia://en/194060","predicate":"uses","method":"link-in-item","confidence":"high","span":[4025,4060],"revision":1369172790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3122600#JSTP","to":"wikipedia://en/2912468","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[4127,4151],"revision":1369172790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3122600#JSTP","to":"wikipedia://en/391832","predicate":"uses","method":"link-in-item","confidence":"high","span":[4156,4176],"revision":1369172790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50908181#S6ET","to":"wikipedia://en/9087","predicate":"uses","method":"link-in-item","confidence":"high","span":[3924,3951],"revision":1216777104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50908181#S6ET","to":"wikipedia://en/546101","predicate":"uses","method":"link-in-item","confidence":"high","span":[4034,4056],"revision":1216777104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50908181#S6ET","to":"wikipedia://en/60876","predicate":"uses","method":"link-in-item","confidence":"high","span":[4348,4364],"revision":1216777104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50908181#S6ET","to":"wikipedia://en/217313","predicate":"uses","method":"link-in-item","confidence":"high","span":[4468,4519],"revision":1216777104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50908181#S6ET","to":"wikipedia://en/27593","predicate":"uses","method":"link-in-item","confidence":"high","span":[4580,4612],"revision":1216777104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53796787","to":"wikipedia://en/19616384","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[138,166],"revision":1339119958,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53796787","to":"wikipedia://en/24873145","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[213,224],"revision":1339119958,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53796787","to":"wikipedia://en/61346","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[362,382],"revision":1339119958,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53796787","to":"wikipedia://en/2112","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[538,561],"revision":1339119958,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53796787","to":"wikipedia://en/7125","predicate":"related","method":"see-also","confidence":"low","span":[1979,2000],"revision":1339119958,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53796787","to":"wikipedia://en/404082","predicate":"related","method":"see-also","confidence":"low","span":[2003,2029],"revision":1339119958,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53796787","to":"wikipedia://en/3296134","predicate":"related","method":"see-also","confidence":"low","span":[2032,2054],"revision":1339119958,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53796787","to":"Category:Ring theory","predicate":"in-field","method":"category","confidence":"medium","span":[2473,2497],"revision":1339119958,"by":"importer/wikipedia/1"}

@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/47738065#8FNO","to":"wikipedia://en/82897731","predicate":"listed-in","method":"list","confidence":"certain","span":[91376,91423],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55741853","to":"wikipedia://en/3878","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[843,876],"revision":1372017803,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55741853","to":"wikipedia://en/66997","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[881,899],"revision":1372017803,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55741853","to":"wikipedia://en/23179674","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[954,974],"revision":1372017803,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55741853","to":"wikipedia://en/1562949","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1027,1104],"revision":1372017803,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55741853","to":"wikipedia://en/247957","predicate":"related","method":"link-in-text","confidence":"low","span":[1165,1182],"revision":1372017803,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55741853","to":"wikipedia://en/11692574","predicate":"related","method":"link-in-text","confidence":"low","span":[1274,1314],"revision":1372017803,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55741853","to":"wikipedia://en/3833695","predicate":"related","method":"link-in-text","confidence":"low","span":[1327,1345],"revision":1372017803,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55741853","to":"wikipedia://en/66997","predicate":"related","method":"link-in-text","confidence":"low","span":[1666,1682],"revision":1372017803,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55741853","to":"wikipedia://en/51140705","predicate":"related","method":"link-in-text","confidence":"low","span":[3169,3219],"revision":1372017803,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55741853","to":"Category:Year of birth missing","predicate":"in-field","method":"category","confidence":"medium","span":[5498,5532],"revision":1372017803,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55741853","to":"Category:American statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[5558,5593],"revision":1372017803,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55741853","to":"Category:Women statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[5594,5626],"revision":1372017803,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55741853","to":"Category:20th-century American statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[5786,5834],"revision":1372017803,"by":"importer/wikipedia/1"}

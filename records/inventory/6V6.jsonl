@@ -1,2 +1,11 @@
 {"id":"6V622GSZTG","mentions":["ax://paper/2409.17318#RTC1"],"kind":"statement","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}],"proofs":["ax://paper/2409.17318#MPJ4"]}
 {"id":"6V62JESMYM","mentions":["m2://rec/napkin/tex/rep-theory/rep-alg.tex#exer:irred_not_indecomp#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"6V65E509HV","mentions":["wikipedia://en/80762501"],"kind":"topic","name":"Veera Baladandayuthapani","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"6V6954YQF4","mentions":["wikipedia://en/43580500#KJC9"],"kind":"definition","name":"Godel","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"6V69NA5DV1","mentions":["wikipedia://en/51436#R022"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"6V6C4VDXK0","mentions":["wikipedia://en/26501091#2N9F"],"kind":"example","name":"Application","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"6V6DCMBHCN","mentions":["wikipedia://en/125276#7H4F"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"6V6T5NWT8H","mentions":["wikipedia://en/191457#42CG"],"kind":"definition","name":"Concordant pair","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"6V6W6QFE8J","mentions":["wikipedia://en/47565351#X4GX"],"kind":"unknown","name":"Syria Euphratensis Prima","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"6V6WBDQV3Y","mentions":["wikipedia://en/76765067#J4FJ"],"kind":"definition","name":"object language","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"6V6ZDH24A7","mentions":["wikipedia://en/9202993#72VL"],"kind":"definition","name":"Integer circuit","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

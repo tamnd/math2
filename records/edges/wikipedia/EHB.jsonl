@@ -1,0 +1,27 @@
+{"from":"wikipedia://en/23379150","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[98,113],"revision":1301224677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23379150","to":"wikipedia://en/361366","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[164,180],"revision":1301224677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23379150","to":"wikipedia://en/3055042","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[186,203],"revision":1301224677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23379150","to":"wikipedia://en/247152","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[215,234],"revision":1301224677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23379150","to":"wikipedia://en/14922","predicate":"related","method":"link-in-text","confidence":"low","span":[3196,3214],"revision":1301224677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23379150","to":"wikipedia://en/3055042","predicate":"related","method":"see-also","confidence":"low","span":[3348,3365],"revision":1301224677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23379150","to":"Category:Abelian varieties","predicate":"in-field","method":"category","confidence":"medium","span":[5188,5218],"revision":1301224677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23379150","to":"Category:Theorems in algebraic geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[5219,5262],"revision":1301224677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23379150","to":"Category:Theorems in complex geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[5263,5304],"revision":1301224677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46797025","to":"wikipedia://en/2652731","predicate":"related","method":"link-in-text","confidence":"low","span":[2523,2550],"revision":1271485618,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46797025","to":"wikipedia://en/213135","predicate":"related","method":"link-in-text","confidence":"low","span":[2556,2582],"revision":1271485618,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46797025","to":"wikipedia://en/128325","predicate":"related","method":"link-in-text","confidence":"low","span":[2657,2682],"revision":1271485618,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46797025","to":"wikipedia://en/128351","predicate":"related","method":"link-in-text","confidence":"low","span":[2768,2794],"revision":1271485618,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46797025","to":"wikipedia://en/1709459","predicate":"related","method":"link-in-text","confidence":"low","span":[3049,3078],"revision":1271485618,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46797025","to":"wikipedia://en/31797","predicate":"related","method":"link-in-text","confidence":"low","span":[3193,3217],"revision":1271485618,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46797025","to":"wikipedia://en/23592200","predicate":"related","method":"link-in-text","confidence":"low","span":[3274,3301],"revision":1271485618,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46797025","to":"wikipedia://en/128386","predicate":"related","method":"link-in-text","confidence":"low","span":[3395,3436],"revision":1271485618,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46797025","to":"wikipedia://en/623243","predicate":"related","method":"link-in-text","confidence":"low","span":[3568,3612],"revision":1271485618,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46797025","to":"wikipedia://en/239870","predicate":"related","method":"link-in-text","confidence":"low","span":[4082,4110],"revision":1271485618,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46797025","to":"wikipedia://en/4579429","predicate":"related","method":"link-in-text","confidence":"low","span":[4664,4703],"revision":1271485618,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46797025","to":"wikipedia://en/585984","predicate":"related","method":"link-in-text","confidence":"low","span":[4736,4766],"revision":1271485618,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46797025","to":"wikipedia://en/2469940","predicate":"related","method":"link-in-text","confidence":"low","span":[4803,4818],"revision":1271485618,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46797025","to":"wikipedia://en/41520929","predicate":"related","method":"link-in-text","confidence":"low","span":[4869,4967],"revision":1271485618,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46797025","to":"wikipedia://en/18972438","predicate":"related","method":"link-in-text","confidence":"low","span":[5013,5045],"revision":1271485618,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46797025","to":"Category:British mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[5393,5428],"revision":1271485618,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46797025","to":"Category:Partial differential equation theorists","predicate":"in-field","method":"category","confidence":"medium","span":[5519,5571],"revision":1271485618,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57242824#CD1S","to":"wikipedia://en/47675313","predicate":"listed-in","method":"list","confidence":"certain","span":[6148,6165],"revision":1365520422,"by":"importer/wikipedia/1"}

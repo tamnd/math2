@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/183091#E6QR","to":"wikipedia://en/10225","predicate":"listed-in","method":"list","confidence":"certain","span":[9305,9324],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/183091#E6QR","to":"wikipedia://en/28730822","predicate":"uses","method":"link-in-item","confidence":"high","span":[9334,9350],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/183091#E6QR","to":"wikipedia://en/19727024","predicate":"uses","method":"link-in-item","confidence":"high","span":[9514,9534],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65559882","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[311,328],"revision":1342477161,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65559882","to":"wikipedia://en/241865","predicate":"related","method":"link-in-text","confidence":"low","span":[506,529],"revision":1342477161,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65559882","to":"wikipedia://en/493706","predicate":"related","method":"link-in-text","confidence":"low","span":[651,675],"revision":1342477161,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65559882","to":"wikipedia://en/980151","predicate":"related","method":"link-in-text","confidence":"low","span":[1076,1125],"revision":1342477161,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65559882","to":"wikipedia://en/55462291","predicate":"related","method":"link-in-text","confidence":"low","span":[1138,1158],"revision":1342477161,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65559882","to":"wikipedia://en/69270395","predicate":"related","method":"link-in-text","confidence":"low","span":[1533,1568],"revision":1342477161,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65559882","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2021,2070],"revision":1342477161,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65559882","to":"Category:21st-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2071,2120],"revision":1342477161,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65559882","to":"Category:Presidents of the American Association of University Professors","predicate":"in-field","method":"category","confidence":"medium","span":[2203,2279],"revision":1342477161,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65559882","to":"Category:20th-century American women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2280,2335],"revision":1342477161,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65559882","to":"Category:21st-century American women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2336,2391],"revision":1342477161,"by":"importer/wikipedia/1"}

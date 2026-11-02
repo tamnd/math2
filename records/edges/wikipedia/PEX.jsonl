@@ -1,0 +1,27 @@
+{"from":"wikipedia://en/58622264","to":"wikipedia://en/21527","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[136,153],"revision":1226528870,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58622264","to":"wikipedia://en/21474","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[195,213],"revision":1226528870,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58622264","to":"wikipedia://en/18908","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[409,429],"revision":1226528870,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58622264","to":"wikipedia://en/23666","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[484,506],"revision":1226528870,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58622264","to":"wikipedia://en/58606254","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[532,552],"revision":1226528870,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58622264","to":"wikipedia://en/1817053","predicate":"related","method":"see-also","confidence":"low","span":[1015,1032],"revision":1226528870,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58622264","to":"Template:Prime number classes","predicate":"in-nav","method":"nav","confidence":"low","span":[1500,1524],"revision":1226528870,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58622264","to":"Template:Classes of natural numbers","predicate":"in-nav","method":"nav","confidence":"low","span":[1525,1555],"revision":1226528870,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58622264","to":"Category:Classes of prime numbers","predicate":"kind-of","method":"category","confidence":"medium","span":[1557,1594],"revision":1226528870,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58622264","to":"Category:Mersenne primes","predicate":"in-field","method":"category","confidence":"medium","span":[1595,1623],"revision":1226528870,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59182802#7B9R","to":"wikipedia://en/1648224","predicate":"uses","method":"link-in-item","confidence":"high","span":[9463,9484],"revision":1315815802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59182802#7B9R","to":"wikipedia://en/8860147","predicate":"uses","method":"link-in-item","confidence":"medium","span":[9504,9520],"revision":1315815802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59182802#7B9R","to":"wikipedia://en/39563860","predicate":"uses","method":"link-in-item","confidence":"high","span":[9586,9606],"revision":1315815802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59182802#7B9R","to":"wikipedia://en/37188661","predicate":"uses","method":"link-in-item","confidence":"high","span":[9609,9637],"revision":1315815802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66646643","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[694,709],"revision":1372659904,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66646643","to":"wikipedia://en/38091","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[713,735],"revision":1372659904,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66646643","to":"wikipedia://en/245990","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[769,792],"revision":1372659904,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66646643","to":"wikipedia://en/139410","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[794,817],"revision":1372659904,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66646643","to":"wikipedia://en/19378200","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[822,847],"revision":1372659904,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66646643","to":"wikipedia://en/38091","predicate":"related","method":"link-in-text","confidence":"low","span":[1250,1272],"revision":1372659904,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66646643","to":"wikipedia://en/21193525","predicate":"related","method":"link-in-text","confidence":"low","span":[1872,1905],"revision":1372659904,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66646643","to":"wikipedia://en/45019304","predicate":"related","method":"link-in-text","confidence":"low","span":[2201,2242],"revision":1372659904,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66646643","to":"wikipedia://en/198822","predicate":"related","method":"link-in-text","confidence":"low","span":[2977,3010],"revision":1372659904,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66646643","to":"Category:20th-century Czech mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[7733,7779],"revision":1372659904,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66646643","to":"Category:21st-century Czech mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[7780,7826],"revision":1372659904,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66646643","to":"Category:Algebraists","predicate":"in-field","method":"category","confidence":"medium","span":[7827,7851],"revision":1372659904,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66646643","to":"Category:Czechoslovak mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[7949,7989],"revision":1372659904,"by":"importer/wikipedia/1"}

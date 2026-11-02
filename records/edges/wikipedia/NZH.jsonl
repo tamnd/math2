@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/1018951#O6ZC","to":"wikipedia://en/4165882","predicate":"listed-in","method":"list","confidence":"certain","span":[3014,3033],"revision":1353636409,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565351#HNPU","to":"wikipedia://en/3740938","predicate":"listed-in","method":"list","confidence":"certain","span":[24008,24024],"revision":1373350261,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51170495","to":"wikipedia://en/26920158","predicate":"related","method":"link-in-lead","confidence":"low","span":[87,104],"revision":1366347093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51170495","to":"wikipedia://en/12473239","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[218,263],"revision":1366347093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51170495","to":"wikipedia://en/25267","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[277,301],"revision":1366347093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51170495","to":"wikipedia://en/30724348","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[590,626],"revision":1366347093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51170495","to":"wikipedia://en/291453","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[719,738],"revision":1366347093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51170495","to":"wikipedia://en/253456","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[758,774],"revision":1366347093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51170495","to":"wikipedia://en/449738","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[953,1004],"revision":1366347093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51170495","to":"wikipedia://en/43125933","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1603,1659],"revision":1366347093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51170495","to":"Category:Stochastic differential equations","predicate":"in-field","method":"category","confidence":"medium","span":[5212,5258],"revision":1366347093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51170495","to":"Category:Quantum field theory","predicate":"in-field","method":"category","confidence":"medium","span":[5259,5292],"revision":1366347093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51170495","to":"Category:Statistical mechanics","predicate":"in-field","method":"category","confidence":"medium","span":[5293,5327],"revision":1366347093,"by":"importer/wikipedia/1"}

@@ -1,0 +1,39 @@
+{"from":"wikipedia://en/339396#XXBZ","to":"wikipedia://en/34513","predicate":"listed-in","method":"list","confidence":"certain","span":[9700,9716],"revision":1245682451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66328025","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1196,1213],"revision":1366575701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66328025","to":"wikipedia://en/404570","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1313,1341],"revision":1366575701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66328025","to":"wikipedia://en/51278","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1345,1372],"revision":1366575701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66328025","to":"wikipedia://en/31923","predicate":"related","method":"link-in-text","confidence":"low","span":[1560,1600],"revision":1366575701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66328025","to":"wikipedia://en/21031297","predicate":"related","method":"link-in-text","confidence":"low","span":[1629,1638],"revision":1366575701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66328025","to":"wikipedia://en/340787","predicate":"related","method":"link-in-text","confidence":"low","span":[1661,1695],"revision":1366575701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66328025","to":"wikipedia://en/404570","predicate":"related","method":"link-in-text","confidence":"low","span":[1896,1924],"revision":1366575701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66328025","to":"wikipedia://en/19873","predicate":"related","method":"link-in-text","confidence":"low","span":[2130,2148],"revision":1366575701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66328025","to":"wikipedia://en/46630283","predicate":"related","method":"link-in-text","confidence":"low","span":[2358,2388],"revision":1366575701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66328025","to":"wikipedia://en/157427","predicate":"related","method":"link-in-text","confidence":"low","span":[3005,3036],"revision":1366575701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66328025","to":"wikipedia://en/4977512","predicate":"related","method":"link-in-text","confidence":"low","span":[3334,3382],"revision":1366575701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66328025","to":"wikipedia://en/39953348","predicate":"related","method":"link-in-text","confidence":"low","span":[3553,3593],"revision":1366575701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66328025","to":"wikipedia://en/198822","predicate":"related","method":"link-in-text","confidence":"low","span":[3819,3852],"revision":1366575701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66328025","to":"wikipedia://en/9858698","predicate":"related","method":"link-in-text","confidence":"low","span":[4529,4569],"revision":1366575701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66328025","to":"wikipedia://en/51270001","predicate":"related","method":"link-in-text","confidence":"low","span":[4596,4616],"revision":1366575701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66328025","to":"Category:20th-century American women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[8822,8877],"revision":1366575701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66328025","to":"Category:21st-century American women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[8878,8933],"revision":1366575701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66328025","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[8934,8983],"revision":1366575701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66328025","to":"Category:21st-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[8984,9033],"revision":1366575701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66328025","to":"Category:American mathematics educators","predicate":"in-field","method":"category","confidence":"medium","span":[9034,9077],"revision":1366575701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/946975#BEIX","to":"wikipedia://en/18973446","predicate":"related","method":"hatnote","confidence":"medium","span":[23044,23059],"revision":1376009825,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/946975#BEIX","to":"wikipedia://en/2202","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[23214,23235],"revision":1376009825,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/946975#BEIX","to":"wikipedia://en/17570","predicate":"uses","method":"link-in-item","confidence":"high","span":[23329,23348],"revision":1376009825,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/946975#BEIX","to":"wikipedia://en/1576323","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[23390,23412],"revision":1376009825,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/946975#BEIX","to":"wikipedia://en/928","predicate":"uses","method":"link-in-item","confidence":"medium","span":[23542,23552],"revision":1376009825,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/946975#BEIX","to":"wikipedia://en/23706","predicate":"uses","method":"link-in-item","confidence":"high","span":[23614,23644],"revision":1376009825,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/946975#BEIX","to":"wikipedia://en/8625","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[23826,23851],"revision":1376009825,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/946975#BEIX","to":"wikipedia://en/91096","predicate":"uses","method":"link-in-item","confidence":"high","span":[23884,23896],"revision":1376009825,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/946975#BEIX","to":"wikipedia://en/243849","predicate":"uses","method":"link-in-item","confidence":"high","span":[23943,23988],"revision":1376009825,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/946975#BEIX","to":"wikipedia://en/91096","predicate":"related","method":"hatnote","confidence":"medium","span":[24261,24269],"revision":1376009825,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/946975#BEIX","to":"wikipedia://en/243849","predicate":"uses","method":"link-in-item","confidence":"high","span":[24451,24474],"revision":1376009825,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/946975#BEIX","to":"wikipedia://en/236020","predicate":"uses","method":"link-in-item","confidence":"high","span":[24605,24626],"revision":1376009825,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/946975#BEIX","to":"wikipedia://en/48082","predicate":"uses","method":"link-in-item","confidence":"high","span":[24772,24789],"revision":1376009825,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/946975#BEIX","to":"wikipedia://en/15575410","predicate":"uses","method":"link-in-item","confidence":"high","span":[24927,24954],"revision":1376009825,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/946975#BEIX","to":"wikipedia://en/39378","predicate":"uses","method":"link-in-item","confidence":"high","span":[25272,25284],"revision":1376009825,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/946975#BEIX","to":"wikipedia://en/53941","predicate":"uses","method":"link-in-item","confidence":"medium","span":[25348,25371],"revision":1376009825,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/946975#BEIX","to":"wikipedia://en/91096","predicate":"uses","method":"link-in-item","confidence":"high","span":[25421,25434],"revision":1376009825,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/946975#BEIX","to":"wikipedia://en/20018","predicate":"uses","method":"link-in-item","confidence":"high","span":[25438,25455],"revision":1376009825,"by":"importer/wikipedia/1"}

@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/15315059#1H67","to":"wikipedia://en/13080642","predicate":"listed-in","method":"list","confidence":"certain","span":[2021,2038],"revision":1355739929,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3820870#ENCM","to":"wikipedia://en/1740913","predicate":"listed-in","method":"list","confidence":"certain","span":[28111,28130],"revision":1373538872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3820870#ENCM","to":"wikipedia://en/191890","predicate":"uses","method":"link-in-item","confidence":"medium","span":[28142,28159],"revision":1373538872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46586294","to":"wikipedia://en/348725","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[395,413],"revision":1287956577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46586294","to":"wikipedia://en/8625","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[466,491],"revision":1287956577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46586294","to":"wikipedia://en/173416","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[496,520],"revision":1287956577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46586294","to":"wikipedia://en/89061","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[753,775],"revision":1287956577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46586294","to":"wikipedia://en/24812368","predicate":"related","method":"link-in-lead","confidence":"low","span":[792,816],"revision":1287956577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46586294","to":"wikipedia://en/30864973","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1101,1132],"revision":1287956577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46586294","to":"Category:20th-century German mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2698,2745],"revision":1287956577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46586294","to":"Category:Differential geometers","predicate":"in-field","method":"category","confidence":"medium","span":[2837,2872],"revision":1287956577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46586294","to":"Category:German mathematical physicists","predicate":"in-field","method":"category","confidence":"medium","span":[2873,2916],"revision":1287956577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46586294","to":"Category:21st-century German mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2957,3004],"revision":1287956577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46586294","to":"Category:Presidents of the German Mathematical Society","predicate":"in-field","method":"category","confidence":"medium","span":[3005,3063],"revision":1287956577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5352450","to":"wikipedia://en/1640288","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[79,105],"revision":1244138999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5352450","to":"wikipedia://en/1765232","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[128,145],"revision":1244138999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5352450","to":"wikipedia://en/2160901","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[153,177],"revision":1244138999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5352450","to":"wikipedia://en/4116856","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[420,455],"revision":1244138999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5352450","to":"wikipedia://en/239140","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[603,637],"revision":1244138999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5352450","to":"wikipedia://en/241717","predicate":"related","method":"see-also","confidence":"low","span":[1048,1066],"revision":1244138999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5352450","to":"wikipedia://en/163180","predicate":"related","method":"see-also","confidence":"low","span":[1069,1100],"revision":1244138999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5352450","to":"Category:Design of experiments","predicate":"in-field","method":"category","confidence":"medium","span":[1317,1351],"revision":1244138999,"by":"importer/wikipedia/1"}

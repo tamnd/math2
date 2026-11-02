@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/35457783#B913","to":"wikipedia://en/385339","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[32644,32660],"revision":1351541925,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35457783#B913","to":"wikipedia://en/390646","predicate":"uses","method":"link-in-item","confidence":"high","span":[32676,32706],"revision":1351541925,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63703274","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[7,35],"revision":1339182566,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63703274","to":"wikipedia://en/11180","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[45,68],"revision":1339182566,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63703274","to":"wikipedia://en/518844","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[126,144],"revision":1339182566,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63703274","to":"wikipedia://en/45752","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[145,173],"revision":1339182566,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63703274","to":"wikipedia://en/64278078","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[225,265],"revision":1339182566,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63703274","to":"wikipedia://en/2042","predicate":"related","method":"link-in-lead","confidence":"low","span":[414,440],"revision":1339182566,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63703274","to":"wikipedia://en/64278078","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[636,686],"revision":1339182566,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63703274","to":"wikipedia://en/63951372","predicate":"related","method":"link-in-text","confidence":"low","span":[3131,3152],"revision":1339182566,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63703274","to":"wikipedia://en/63950387","predicate":"related","method":"link-in-text","confidence":"low","span":[3877,3900],"revision":1339182566,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63703274","to":"wikipedia://en/53695856","predicate":"related","method":"link-in-text","confidence":"low","span":[4080,4128],"revision":1339182566,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63703274","to":"wikipedia://en/63566617","predicate":"related","method":"link-in-text","confidence":"low","span":[4496,4525],"revision":1339182566,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63703274","to":"Template:Functional analysis","predicate":"in-nav","method":"nav","confidence":"low","span":[6765,6788],"revision":1339182566,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63703274","to":"Category:Topological vector spaces","predicate":"in-field","method":"category","confidence":"medium","span":[6840,6878],"revision":1339182566,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63703274","to":"Category:Functional analysis","predicate":"in-field","method":"category","confidence":"medium","span":[6879,6911],"revision":1339182566,"by":"importer/wikipedia/1"}

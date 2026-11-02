@@ -1,0 +1,9 @@
+{"from":"wikipedia://en/183091#1OP0","to":"wikipedia://en/321913","predicate":"listed-in","method":"list","confidence":"certain","span":[115163,115187],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#LHSS","to":"wikipedia://en/4048180","predicate":"listed-in","method":"list","confidence":"certain","span":[26203,26234],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#LHSS","to":"wikipedia://en/41890","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[26238,26254],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67447218","to":"wikipedia://en/3190431","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[40,60],"revision":1340729300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67447218","to":"Category:Retail analytics","predicate":"in-field","method":"category","confidence":"medium","span":[1922,1951],"revision":1340729300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67447218","to":"Category:Economics models","predicate":"in-field","method":"category","confidence":"medium","span":[1952,1981],"revision":1340729300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67447218","to":"Category:Spatial analysis","predicate":"in-field","method":"category","confidence":"medium","span":[1982,2011],"revision":1340729300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#EZ3F","to":"wikipedia://en/10151043","predicate":"listed-in","method":"list","confidence":"certain","span":[16889,16902],"revision":1356718736,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#EZ3F","to":"wikipedia://en/103586","predicate":"uses","method":"link-in-item","confidence":"high","span":[16956,16997],"revision":1356718736,"by":"importer/wikipedia/1"}

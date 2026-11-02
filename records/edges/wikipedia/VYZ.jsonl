@@ -1,0 +1,44 @@
+{"from":"wikipedia://en/21498423","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[135,150],"revision":1232259818,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21498423","to":"wikipedia://en/712675","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[163,182],"revision":1232259818,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21498423","to":"wikipedia://en/190167","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[237,256],"revision":1232259818,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21498423","to":"wikipedia://en/18102","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[280,299],"revision":1232259818,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21498423","to":"wikipedia://en/20598932","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[319,336],"revision":1232259818,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21498423","to":"wikipedia://en/7930037","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1101,1123],"revision":1232259818,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21498423","to":"wikipedia://en/21455723","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1209,1243],"revision":1232259818,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21498423","to":"wikipedia://en/21498815","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1244,1266],"revision":1232259818,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21498423","to":"Category:Operator theory","predicate":"in-field","method":"category","confidence":"medium","span":[1764,1792],"revision":1232259818,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21498423","to":"Category:Linear operators","predicate":"in-field","method":"category","confidence":"medium","span":[1793,1822],"revision":1232259818,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24734206","to":"wikipedia://en/3408879","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[378,403],"revision":1340328908,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24734206","to":"wikipedia://en/3597355","predicate":"related","method":"link-in-text","confidence":"low","span":[459,504],"revision":1340328908,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24734206","to":"wikipedia://en/24456509","predicate":"related","method":"link-in-text","confidence":"low","span":[983,1014],"revision":1340328908,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24734206","to":"wikipedia://en/24420753","predicate":"related","method":"link-in-text","confidence":"low","span":[1023,1051],"revision":1340328908,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24734206","to":"wikipedia://en/8144448","predicate":"related","method":"link-in-text","confidence":"low","span":[1093,1121],"revision":1340328908,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24734206","to":"wikipedia://en/43738642","predicate":"related","method":"link-in-text","confidence":"low","span":[1562,1606],"revision":1340328908,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24734206","to":"wikipedia://en/11139657","predicate":"related","method":"link-in-text","confidence":"low","span":[1640,1671],"revision":1340328908,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24734206","to":"wikipedia://en/552664","predicate":"related","method":"link-in-text","confidence":"low","span":[1679,1722],"revision":1340328908,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24734206","to":"wikipedia://en/464751","predicate":"related","method":"link-in-text","confidence":"low","span":[1771,1793],"revision":1340328908,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24734206","to":"wikipedia://en/153992","predicate":"related","method":"link-in-text","confidence":"low","span":[1812,1834],"revision":1340328908,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24734206","to":"wikipedia://en/2376968","predicate":"related","method":"link-in-text","confidence":"low","span":[2077,2094],"revision":1340328908,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24734206","to":"wikipedia://en/16155568","predicate":"related","method":"link-in-text","confidence":"low","span":[2168,2195],"revision":1340328908,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24734206","to":"wikipedia://en/324029","predicate":"related","method":"link-in-text","confidence":"low","span":[2205,2239],"revision":1340328908,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24734206","to":"wikipedia://en/311455","predicate":"related","method":"link-in-text","confidence":"low","span":[2321,2364],"revision":1340328908,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24734206","to":"wikipedia://en/42902142","predicate":"related","method":"link-in-text","confidence":"low","span":[2378,2403],"revision":1340328908,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24734206","to":"wikipedia://en/31725","predicate":"related","method":"see-also","confidence":"low","span":[2735,2773],"revision":1340328908,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24734206","to":"Template:S-start","predicate":"in-nav","method":"nav","confidence":"low","span":[2803,2814],"revision":1340328908,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24734206","to":"Template:Succession box","predicate":"in-nav","method":"nav","confidence":"low","span":[2825,2960],"revision":1340328908,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24734206","to":"Template:S-end","predicate":"in-nav","method":"nav","confidence":"low","span":[2961,2970],"revision":1340328908,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24734206","to":"Category:Directors of the Office for National Statistics","predicate":"in-field","method":"category","confidence":"medium","span":[3199,3259],"revision":1340328908,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24734206","to":"Category:Civil servants in the Office of Population Censuses and Surveys","predicate":"in-field","method":"category","confidence":"medium","span":[3260,3336],"revision":1340328908,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24734206","to":"Category:British women statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[3389,3429],"revision":1340328908,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24734206","to":"Category:Dames Commander of the Order of the Bath","predicate":"in-field","method":"category","confidence":"medium","span":[3430,3483],"revision":1340328908,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24734206","to":"Category:British statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[3484,3518],"revision":1340328908,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55866076#QVHD","to":"wikipedia://en/5725210","predicate":"uses","method":"link-in-item","confidence":"high","span":[3763,3798],"revision":1376031428,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55866076#QVHD","to":"wikipedia://en/11526","predicate":"uses","method":"link-in-item","confidence":"high","span":[3860,3878],"revision":1376031428,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55866076#QVHD","to":"wikipedia://en/21918","predicate":"uses","method":"link-in-item","confidence":"high","span":[3969,3989],"revision":1376031428,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55866076#QVHD","to":"wikipedia://en/7184","predicate":"uses","method":"link-in-item","confidence":"high","span":[5365,5379],"revision":1376031428,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55866076#QVHD","to":"wikipedia://en/19882883","predicate":"uses","method":"link-in-item","confidence":"high","span":[5456,5485],"revision":1376031428,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55866076#QVHD","to":"wikipedia://en/18609360","predicate":"uses","method":"link-in-item","confidence":"high","span":[5953,5973],"revision":1376031428,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55866076#QVHD","to":"wikipedia://en/235451","predicate":"uses","method":"link-in-item","confidence":"high","span":[6331,6353],"revision":1376031428,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55866076#QVHD","to":"wikipedia://en/49176","predicate":"uses","method":"link-in-item","confidence":"high","span":[6900,6921],"revision":1376031428,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55866076#QVHD","to":"wikipedia://en/358277","predicate":"uses","method":"link-in-item","confidence":"high","span":[6987,7003],"revision":1376031428,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58540359#CE1W","to":"wikipedia://en/54680","predicate":"listed-in","method":"list","confidence":"certain","span":[11280,11313],"revision":1360704274,"by":"importer/wikipedia/1"}

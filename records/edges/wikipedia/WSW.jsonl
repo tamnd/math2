@@ -1,0 +1,9 @@
+{"from":"wikipedia://en/23524235","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[88,103],"revision":1083534182,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23524235","to":"wikipedia://en/195243","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[118,141],"revision":1083534182,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23524235","to":"wikipedia://en/60770","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[200,213],"revision":1083534182,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23524235","to":"wikipedia://en/144652","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[219,242],"revision":1083534182,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23524235","to":"wikipedia://en/29954","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[250,262],"revision":1083534182,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23524235","to":"wikipedia://en/1252509","predicate":"related","method":"link-in-lead","confidence":"low","span":[281,303],"revision":1083534182,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23524235","to":"wikipedia://en/23524235","predicate":"uses","method":"anchor","confidence":"certain","span":[322,348],"revision":1083534182,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23524235","to":"Category:Theorems in Riemannian geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[4880,4924],"revision":1083534182,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64675441#945O","to":"wikipedia://en/9260","predicate":"uses","method":"link-in-item","confidence":"high","span":[6731,6752],"revision":1360680439,"by":"importer/wikipedia/1"}

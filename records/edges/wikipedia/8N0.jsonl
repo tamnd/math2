@@ -1,0 +1,8 @@
+{"from":"wikipedia://en/48876208","to":"wikipedia://en/3932847","predicate":"related","method":"link-in-lead","confidence":"low","span":[214,265],"revision":1347106795,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48876208","to":"wikipedia://en/4984984","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[302,323],"revision":1347106795,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48876208","to":"wikipedia://en/48518","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[342,369],"revision":1347106795,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48876208","to":"wikipedia://en/406624","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[733,748],"revision":1347106795,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48876208","to":"Category:Time series software","predicate":"in-field","method":"category","confidence":"medium","span":[1145,1178],"revision":1347106795,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48876208","to":"Category:Oxford University Press","predicate":"in-field","method":"category","confidence":"medium","span":[1179,1215],"revision":1347106795,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48876208","to":"Category:Proprietary software","predicate":"in-field","method":"category","confidence":"medium","span":[1216,1249],"revision":1347106795,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48876208","to":"Category:Windows-only software","predicate":"in-field","method":"category","confidence":"medium","span":[1250,1284],"revision":1347106795,"by":"importer/wikipedia/1"}

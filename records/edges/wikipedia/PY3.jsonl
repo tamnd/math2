@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/1686601","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1365142981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1686601","to":"wikipedia://en/189734","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[142,165],"revision":1365142981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1686601","to":"wikipedia://en/6173","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[223,243],"revision":1365142981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1686601","to":"wikipedia://en/26547932","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[330,349],"revision":1365142981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1686601","to":"wikipedia://en/51429","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[434,455],"revision":1365142981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1686601","to":"wikipedia://en/51432","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[548,567],"revision":1365142981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1686601","to":"wikipedia://en/79512454","predicate":"related","method":"see-also","confidence":"low","span":[687,706],"revision":1365142981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1686601","to":"Category:English phrases","predicate":"in-field","method":"category","confidence":"medium","span":[768,796],"revision":1365142981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1686601","to":"Category:Infinity","predicate":"in-field","method":"category","confidence":"medium","span":[797,818],"revision":1365142981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26298910#EM56","to":"wikipedia://en/47243817","predicate":"uses","method":"link-in-item","confidence":"high","span":[3119,3160],"revision":1360736293,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26298910#EM56","to":"wikipedia://en/49288169","predicate":"uses","method":"link-in-item","confidence":"high","span":[3175,3198],"revision":1360736293,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26298910#EM56","to":"wikipedia://en/351908","predicate":"uses","method":"link-in-item","confidence":"high","span":[3568,3585],"revision":1360736293,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26298910#EM56","to":"wikipedia://en/47243817","predicate":"uses","method":"link-in-item","confidence":"high","span":[3642,3701],"revision":1360736293,"by":"importer/wikipedia/1"}

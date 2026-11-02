@@ -1,0 +1,26 @@
+{"from":"wikipedia://en/1234125#GCIU","to":"wikipedia://en/743106","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[4384,4421],"revision":1289692885,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1234125#GCIU","to":"wikipedia://en/39382","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[5032,5044],"revision":1289692885,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13314857#7I9Q","to":"wikipedia://en/10150076","predicate":"listed-in","method":"list","confidence":"certain","span":[27627,27656],"revision":1213244604,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/487541#LAXE","to":"wikipedia://en/24873145","predicate":"uses","method":"link-in-item","confidence":"high","span":[9127,9138],"revision":1360936355,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/487541#LAXE","to":"wikipedia://en/61346","predicate":"uses","method":"link-in-item","confidence":"high","span":[9351,9383],"revision":1360936355,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/487541#LAXE","to":"wikipedia://en/61346","predicate":"uses","method":"link-in-item","confidence":"high","span":[9459,9491],"revision":1360936355,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/487541#LAXE","to":"wikipedia://en/1872874","predicate":"uses","method":"link-in-item","confidence":"high","span":[10200,10226],"revision":1360936355,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/487541#LAXE","to":"wikipedia://en/51441","predicate":"uses","method":"link-in-item","confidence":"high","span":[10231,10248],"revision":1360936355,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/487541#LAXE","to":"wikipedia://en/252235","predicate":"uses","method":"link-in-item","confidence":"high","span":[10253,10275],"revision":1360936355,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/487541#LAXE","to":"wikipedia://en/53796787","predicate":"uses","method":"link-in-item","confidence":"high","span":[10584,10615],"revision":1360936355,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/487541#LAXE","to":"wikipedia://en/59718","predicate":"uses","method":"link-in-item","confidence":"medium","span":[10684,10703],"revision":1360936355,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/487541#LAXE","to":"wikipedia://en/289666","predicate":"uses","method":"link-in-item","confidence":"high","span":[10786,10800],"revision":1360936355,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/487541#LAXE","to":"wikipedia://en/26021350","predicate":"uses","method":"link-in-item","confidence":"high","span":[11258,11280],"revision":1360936355,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63490326","to":"wikipedia://en/258986","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[62,80],"revision":1369848930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63490326","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[117,134],"revision":1369848930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63490326","to":"wikipedia://en/1062425","predicate":"related","method":"link-in-lead","confidence":"low","span":[135,147],"revision":1369848930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63490326","to":"wikipedia://en/18634","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[528,557],"revision":1369848930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63490326","to":"wikipedia://en/4316185","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[576,601],"revision":1369848930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63490326","to":"wikipedia://en/45270","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[602,619],"revision":1369848930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63490326","to":"wikipedia://en/252250","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[624,650],"revision":1369848930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63490326","to":"wikipedia://en/44688","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[654,686],"revision":1369848930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63490326","to":"wikipedia://en/19873","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[757,790],"revision":1369848930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63490326","to":"wikipedia://en/2404544","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1193,1225],"revision":1369848930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63490326","to":"wikipedia://en/26478","predicate":"related","method":"link-in-text","confidence":"low","span":[12917,12934],"revision":1369848930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63490326","to":"Category:Ergodic theory","predicate":"in-field","method":"category","confidence":"medium","span":[17689,17716],"revision":1369848930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63490326","to":"Category:Lemmas","predicate":"kind-of","method":"category","confidence":"medium","span":[17717,17736],"revision":1369848930,"by":"importer/wikipedia/1"}

@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/675231","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[156,184],"revision":1362295874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/675231","to":"wikipedia://en/12401","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[199,215],"revision":1362295874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/675231","to":"wikipedia://en/325806","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[244,264],"revision":1362295874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/675231","to":"wikipedia://en/325802","predicate":"related","method":"link-in-lead","confidence":"low","span":[352,381],"revision":1362295874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/675231","to":"wikipedia://en/1614492","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1420,1439],"revision":1362295874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/675231","to":"wikipedia://en/12415907","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1748,1777],"revision":1362295874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/675231","to":"wikipedia://en/244431","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1802,1822],"revision":1362295874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/675231","to":"wikipedia://en/670531","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1827,1852],"revision":1362295874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/675231","to":"wikipedia://en/13547826","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1892,1948],"revision":1362295874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/675231","to":"wikipedia://en/405944","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1974,1989],"revision":1362295874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/675231","to":"wikipedia://en/16181442","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2127,2184],"revision":1362295874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/675231","to":"wikipedia://en/524466","predicate":"related","method":"link-in-text","confidence":"low","span":[19048,19080],"revision":1362295874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/675231","to":"wikipedia://en/1655188","predicate":"related","method":"link-in-text","confidence":"low","span":[21930,21950],"revision":1362295874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/675231","to":"wikipedia://en/525320","predicate":"related","method":"link-in-text","confidence":"low","span":[22134,22162],"revision":1362295874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/675231","to":"wikipedia://en/1614492","predicate":"related","method":"link-in-text","confidence":"low","span":[25638,25657],"revision":1362295874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/675231","to":"wikipedia://en/878962","predicate":"related","method":"link-in-text","confidence":"low","span":[25731,25746],"revision":1362295874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/675231","to":"wikipedia://en/247577","predicate":"related","method":"link-in-text","confidence":"low","span":[25821,25853],"revision":1362295874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/675231","to":"wikipedia://en/4587190","predicate":"related","method":"link-in-text","confidence":"low","span":[26200,26214],"revision":1362295874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/675231","to":"wikipedia://en/1520758","predicate":"related","method":"link-in-text","confidence":"low","span":[26325,26340],"revision":1362295874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/675231","to":"Category:Graph families","predicate":"in-field","method":"category","confidence":"medium","span":[44768,44795],"revision":1362295874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/675231","to":"Category:Intersection classes of graphs","predicate":"in-field","method":"category","confidence":"medium","span":[44796,44839],"revision":1362295874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/675231","to":"Category:Graph operations","predicate":"in-field","method":"category","confidence":"medium","span":[44840,44869],"revision":1362295874,"by":"importer/wikipedia/1"}

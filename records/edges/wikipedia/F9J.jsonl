@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/22717073","to":"wikipedia://en/1997","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[147,169],"revision":1292657667,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22717073","to":"wikipedia://en/303137","predicate":"related","method":"link-in-lead","confidence":"low","span":[203,221],"revision":1292657667,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22717073","to":"wikipedia://en/4282492","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[289,317],"revision":1292657667,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22717073","to":"wikipedia://en/293504","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[811,823],"revision":1292657667,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22717073","to":"wikipedia://en/34682455","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1043,1087],"revision":1292657667,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22717073","to":"wikipedia://en/3115807","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1141,1160],"revision":1292657667,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22717073","to":"Category:20th-century Japanese mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1246,1295],"revision":1292657667,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22717073","to":"Category:21st-century Japanese mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1296,1345],"revision":1292657667,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/621447#SLKQ","to":"wikipedia://en/3157091","predicate":"listed-in","method":"list","confidence":"certain","span":[6184,6201],"revision":1333074872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7960510#QPEL","to":"wikipedia://en/6174","predicate":"uses","method":"link-in-item","confidence":"high","span":[5393,5410],"revision":1367303758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7960510#QPEL","to":"wikipedia://en/149215","predicate":"uses","method":"link-in-item","confidence":"high","span":[5487,5506],"revision":1367303758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7960510#QPEL","to":"wikipedia://en/51203","predicate":"uses","method":"link-in-item","confidence":"high","span":[5992,6007],"revision":1367303758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7960510#QPEL","to":"wikipedia://en/357416","predicate":"uses","method":"link-in-item","confidence":"high","span":[6015,6027],"revision":1367303758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7960510#QPEL","to":"wikipedia://en/5930652","predicate":"uses","method":"link-in-item","confidence":"high","span":[6151,6167],"revision":1367303758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7960510#QPEL","to":"wikipedia://en/4939651","predicate":"related","method":"link-in-item","confidence":"low","span":[6474,6495],"revision":1367303758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8178308#VFTL","to":"wikipedia://en/19376","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2371,2408],"revision":1361009890,"by":"importer/wikipedia/1"}

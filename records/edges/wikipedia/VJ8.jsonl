@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/77214982","to":"wikipedia://en/27698","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[82,94],"revision":1231275946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77214982","to":"wikipedia://en/480509","predicate":"related","method":"link-in-lead","confidence":"low","span":[98,113],"revision":1231275946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77214982","to":"wikipedia://en/33342893","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[116,144],"revision":1231275946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77214982","to":"wikipedia://en/77208094","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[204,229],"revision":1231275946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77214982","to":"wikipedia://en/74473135","predicate":"related","method":"link-in-lead","confidence":"low","span":[1295,1309],"revision":1231275946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77214982","to":"wikipedia://en/200374","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2772,2816],"revision":1231275946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77214982","to":"wikipedia://en/1582926","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3384,3399],"revision":1231275946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77214982","to":"wikipedia://en/33342893","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3442,3470],"revision":1231275946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77214982","to":"wikipedia://en/287188","predicate":"related","method":"link-in-text","confidence":"low","span":[4363,4378],"revision":1231275946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77214982","to":"wikipedia://en/49669987","predicate":"related","method":"link-in-text","confidence":"low","span":[4495,4510],"revision":1231275946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77214982","to":"wikipedia://en/9109","predicate":"related","method":"link-in-text","confidence":"low","span":[4539,4564],"revision":1231275946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77214982","to":"wikipedia://en/25175","predicate":"related","method":"link-in-text","confidence":"low","span":[4608,4631],"revision":1231275946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77214982","to":"wikipedia://en/33342893","predicate":"related","method":"link-in-text","confidence":"low","span":[4891,4919],"revision":1231275946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77214982","to":"wikipedia://en/480509","predicate":"related","method":"link-in-text","confidence":"low","span":[4923,4939],"revision":1231275946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77214982","to":"Category:Indian mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[5791,5822],"revision":1231275946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77214982","to":"Category:History of science and technology in India","predicate":"in-field","method":"category","confidence":"medium","span":[5823,5878],"revision":1231275946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77214982","to":"Category:History of algebra","predicate":"in-field","method":"category","confidence":"medium","span":[5879,5910],"revision":1231275946,"by":"importer/wikipedia/1"}

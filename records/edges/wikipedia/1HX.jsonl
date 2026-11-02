@@ -1,0 +1,25 @@
+{"from":"wikipedia://en/2431128","to":"wikipedia://en/30977","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[557,581],"revision":1341299628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2431128","to":"wikipedia://en/157175","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[615,632],"revision":1341299628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2431128","to":"wikipedia://en/82285","predicate":"related","method":"link-in-text","confidence":"low","span":[1062,1090],"revision":1341299628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2431128","to":"wikipedia://en/325806","predicate":"related","method":"link-in-text","confidence":"low","span":[1228,1266],"revision":1341299628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2431128","to":"wikipedia://en/85816","predicate":"related","method":"link-in-text","confidence":"low","span":[1367,1385],"revision":1341299628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2431128","to":"wikipedia://en/238285","predicate":"related","method":"link-in-text","confidence":"low","span":[3188,3233],"revision":1341299628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2431128","to":"wikipedia://en/184898","predicate":"related","method":"link-in-text","confidence":"low","span":[3278,3298],"revision":1341299628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2431128","to":"wikipedia://en/157175","predicate":"related","method":"link-in-text","confidence":"low","span":[3405,3422],"revision":1341299628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2431128","to":"wikipedia://en/5170","predicate":"related","method":"link-in-text","confidence":"low","span":[3426,3443],"revision":1341299628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2431128","to":"Category:Ramsey theory","predicate":"in-field","method":"category","confidence":"medium","span":[4542,4568],"revision":1341299628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2431128","to":"Category:Theorems in discrete mathematics","predicate":"kind-of","method":"category","confidence":"medium","span":[4569,4614],"revision":1341299628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25069727#TTTD","to":"wikipedia://en/1018347","predicate":"uses","method":"link-in-item","confidence":"medium","span":[17851,17883],"revision":1357631999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25069727#TTTD","to":"wikipedia://en/45479","predicate":"uses","method":"link-in-item","confidence":"high","span":[18325,18345],"revision":1357631999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25069727#TTTD","to":"wikipedia://en/1706527","predicate":"uses","method":"link-in-item","confidence":"medium","span":[18423,18437],"revision":1357631999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25069727#TTTD","to":"wikipedia://en/1998025","predicate":"uses","method":"link-in-item","confidence":"high","span":[18488,18517],"revision":1357631999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25069727#TTTD","to":"wikipedia://en/1018783","predicate":"uses","method":"link-in-item","confidence":"high","span":[18563,18585],"revision":1357631999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25069727#TTTD","to":"wikipedia://en/45938","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[18598,18628],"revision":1357631999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25069727#TTTD","to":"wikipedia://en/4101","predicate":"uses","method":"link-in-item","confidence":"medium","span":[18645,18684],"revision":1357631999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25069727#TTTD","to":"wikipedia://en/2658571","predicate":"uses","method":"link-in-item","confidence":"medium","span":[18688,18721],"revision":1357631999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5207129","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[72,87],"revision":1210365250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5207129","to":"wikipedia://en/1431342","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[114,134],"revision":1210365250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5207129","to":"wikipedia://en/195132","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[237,256],"revision":1210365250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5207129","to":"wikipedia://en/19873","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[260,278],"revision":1210365250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5207129","to":"wikipedia://en/2519069","predicate":"related","method":"see-also","confidence":"low","span":[1314,1332],"revision":1210365250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5207129","to":"Category:Subharmonic functions","predicate":"in-field","method":"category","confidence":"medium","span":[2276,2310],"revision":1210365250,"by":"importer/wikipedia/1"}

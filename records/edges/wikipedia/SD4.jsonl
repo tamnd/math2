@@ -1,0 +1,3 @@
+{"from":"wikipedia://en/23389071","to":"wikipedia://en/18422","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[131,149],"revision":1285634213,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23389071","to":"wikipedia://en/166022","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[184,201],"revision":1285634213,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23389071","to":"Category:Matrices (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[782,817],"revision":1285634213,"by":"importer/wikipedia/1"}

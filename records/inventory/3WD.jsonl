@@ -1,3 +1,11 @@
+{"id":"3WD5X5JFAQ","mentions":["wikipedia://en/3018619#SW16"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"3WD8G25SZQ","mentions":["wikipedia://en/191457#M73X"],"kind":"definition","name":"Sum of squares (disambiguation)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"3WDAS5M5MB","mentions":["ax://paper/2610.08362#1JNJ"],"kind":"conjecture","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.10"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}]}
+{"id":"3WDB5QWC3D","mentions":["wikipedia://en/81286071"],"kind":"definition","name":"Log transformation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"3WDBBGMWWN","mentions":["m2://rec/wikidata/Q47093178#1"],"kind":"unknown","name":"parametric test","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"3WDBK449ZY","mentions":["wikipedia://en/23187923"],"kind":"definition","name":"Vieta jumping","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"3WDETSNZ2T","mentions":["wikipedia://en/651358"],"kind":"definition","name":"Credibility","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"3WDF60XHD3","mentions":["wikipedia://en/36237048#0TQU"],"kind":"statement","name":"Strict inequality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"3WDHRR53FZ","mentions":["m2://rec/ernst_ibl/MAAPressVersion/InfinitudeOfPrimes.tex#thm:divisorsof1#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"3WDMZ5ZAJY","mentions":["wikipedia://en/36264444#38PX"],"kind":"definition","name":"Equivalent definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"3WDPTDFPR7","mentions":["wikipedia://en/35625607#1W0T"],"kind":"definition","name":"peninvariant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

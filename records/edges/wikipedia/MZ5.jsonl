@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/20602720","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[691,708],"revision":1371999297,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20602720","to":"wikipedia://en/31776","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[747,775],"revision":1371999297,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20602720","to":"wikipedia://en/48396","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[819,844],"revision":1371999297,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20602720","to":"wikipedia://en/14147","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[876,897],"revision":1371999297,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20602720","to":"wikipedia://en/9697","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[907,926],"revision":1371999297,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20602720","to":"wikipedia://en/17945","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[931,945],"revision":1371999297,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20602720","to":"wikipedia://en/1424309","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[948,974],"revision":1371999297,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20602720","to":"wikipedia://en/173416","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[980,1004],"revision":1371999297,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20602720","to":"wikipedia://en/198822","predicate":"related","method":"link-in-lead","confidence":"low","span":[1041,1074],"revision":1371999297,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20602720","to":"wikipedia://en/198772","predicate":"related","method":"link-in-text","confidence":"low","span":[1345,1384],"revision":1371999297,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20602720","to":"wikipedia://en/834382","predicate":"related","method":"link-in-text","confidence":"low","span":[3131,3144],"revision":1371999297,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20602720","to":"wikipedia://en/418073","predicate":"related","method":"link-in-text","confidence":"low","span":[4034,4052],"revision":1371999297,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20602720","to":"wikipedia://en/448518","predicate":"related","method":"link-in-text","confidence":"low","span":[4478,4498],"revision":1371999297,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20602720","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[5039,5088],"revision":1371999297,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20602720","to":"Category:21st-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[5089,5138],"revision":1371999297,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/264399#O72N","to":"wikipedia://en/3948","predicate":"uses","method":"link-in-item","confidence":"high","span":[2904,2924],"revision":1373670512,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/264399#O72N","to":"wikipedia://en/18152","predicate":"uses","method":"link-in-item","confidence":"high","span":[2993,3008],"revision":1373670512,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/264399#O72N","to":"wikipedia://en/1139221","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3872,3888],"revision":1373670512,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/264399#O72N","to":"wikipedia://en/2667276","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4109,4128],"revision":1373670512,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/264399#O72N","to":"wikipedia://en/486432","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4135,4166],"revision":1373670512,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/264399#O72N","to":"wikipedia://en/1162065","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4210,4245],"revision":1373670512,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/708399#JVZE","to":"wikipedia://en/194660","predicate":"listed-in","method":"list","confidence":"certain","span":[81727,81749],"revision":1373214721,"by":"importer/wikipedia/1"}

@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/1100194#A55Z","to":"wikipedia://en/24367204","predicate":"listed-in","method":"list","confidence":"certain","span":[2343,2367],"revision":1318717046,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#UX0Z","to":"wikipedia://en/697459","predicate":"listed-in","method":"list","confidence":"certain","span":[61853,61877],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35204369","to":"wikipedia://en/26685","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[207,233],"revision":1282366466,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35204369","to":"wikipedia://en/7837393","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[245,270],"revision":1282366466,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35204369","to":"wikipedia://en/7837393","predicate":"related","method":"link-in-text","confidence":"low","span":[699,726],"revision":1282366466,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35204369","to":"wikipedia://en/64493","predicate":"related","method":"link-in-text","confidence":"low","span":[746,760],"revision":1282366466,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35204369","to":"wikipedia://en/81863","predicate":"related","method":"link-in-text","confidence":"low","span":[1215,1259],"revision":1282366466,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35204369","to":"wikipedia://en/164040","predicate":"related","method":"link-in-text","confidence":"low","span":[1326,1354],"revision":1282366466,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35204369","to":"wikipedia://en/32344","predicate":"related","method":"link-in-text","confidence":"low","span":[1549,1561],"revision":1282366466,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35204369","to":"Template:Statistics","predicate":"in-nav","method":"nav","confidence":"low","span":[2229,2243],"revision":1282366466,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35204369","to":"Category:Categorical variable interactions","predicate":"in-field","method":"category","confidence":"medium","span":[2296,2342],"revision":1282366466,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35204369","to":"Category:Inter-rater reliability","predicate":"in-field","method":"category","confidence":"medium","span":[2343,2379],"revision":1282366466,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#OS48","to":"wikipedia://en/20941606","predicate":"listed-in","method":"list","confidence":"certain","span":[12956,12998],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#OS48","to":"wikipedia://en/21527","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[13002,13019],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6840149#2OXR","to":"wikipedia://en/226505","predicate":"uses","method":"link-in-item","confidence":"high","span":[498,513],"revision":1375880939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6840149#2OXR","to":"wikipedia://en/26551602","predicate":"uses","method":"link-in-item","confidence":"high","span":[838,867],"revision":1375880939,"by":"importer/wikipedia/1"}

@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/1350865#8B85","to":"wikipedia://en/448518","predicate":"uses","method":"link-in-item","confidence":"high","span":[14842,14864],"revision":1345941641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1538109#SRPM","to":"wikipedia://en/514258","predicate":"uses","method":"link-in-item","confidence":"high","span":[2057,2085],"revision":1365436825,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1538109#SRPM","to":"wikipedia://en/514258","predicate":"uses","method":"link-in-item","confidence":"high","span":[2089,2127],"revision":1365436825,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#OOSC","to":"wikipedia://en/8925986","predicate":"listed-in","method":"list","confidence":"certain","span":[28955,28982],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3820870#28MW","to":"wikipedia://en/448103","predicate":"listed-in","method":"list","confidence":"certain","span":[19510,19526],"revision":1373538872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49645022","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[87,102],"revision":1273106514,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49645022","to":"wikipedia://en/323392","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[107,139],"revision":1273106514,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49645022","to":"wikipedia://en/27838","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[177,189],"revision":1273106514,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49645022","to":"wikipedia://en/437052","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[246,296],"revision":1273106514,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49645022","to":"wikipedia://en/7740302","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[376,424],"revision":1273106514,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49645022","to":"wikipedia://en/42993804","predicate":"related","method":"link-in-text","confidence":"low","span":[4170,4189],"revision":1273106514,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49645022","to":"Category:Combinatorics on words","predicate":"in-field","method":"category","confidence":"medium","span":[13942,13977],"revision":1273106514,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49645022","to":"Category:Automata (computation)","predicate":"in-field","method":"category","confidence":"medium","span":[13978,14013],"revision":1273106514,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49645022","to":"Category:Integer sequences","predicate":"kind-of","method":"category","confidence":"medium","span":[14014,14044],"revision":1273106514,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49645022","to":"Category:Recurrence relations","predicate":"in-field","method":"category","confidence":"medium","span":[14045,14078],"revision":1273106514,"by":"importer/wikipedia/1"}

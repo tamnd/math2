@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/34189212#AC98","to":"wikipedia://en/29965","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[69356,69430],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#AC98","to":"wikipedia://en/29965","predicate":"uses","method":"link-in-item","confidence":"high","span":[69462,69473],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#AC98","to":"wikipedia://en/23218956","predicate":"uses","method":"link-in-item","confidence":"high","span":[69504,69548],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#AC98","to":"wikipedia://en/363628","predicate":"uses","method":"link-in-item","confidence":"high","span":[69552,69570],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#AC98","to":"wikipedia://en/106364","predicate":"uses","method":"link-in-item","confidence":"high","span":[69582,69605],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#AC98","to":"wikipedia://en/1042164#QSGA","predicate":"related","method":"link-in-item","confidence":"low","span":[69626,69663],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3955446","to":"wikipedia://en/5869","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[105,124],"revision":1370596793,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3955446","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[138,153],"revision":1370596793,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3955446","to":"wikipedia://en/330604","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[283,304],"revision":1370596793,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3955446","to":"wikipedia://en/53759","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[358,393],"revision":1370596793,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3955446","to":"wikipedia://en/27716891","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[427,440],"revision":1370596793,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3955446","to":"wikipedia://en/7651625","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[582,619],"revision":1370596793,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3955446","to":"wikipedia://en/138484","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[713,744],"revision":1370596793,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3955446","to":"wikipedia://en/27716891","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[791,812],"revision":1370596793,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3955446","to":"wikipedia://en/372399","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1133,1150],"revision":1370596793,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3955446","to":"wikipedia://en/1470466","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1256,1294],"revision":1370596793,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3955446","to":"wikipedia://en/1058218","predicate":"related","method":"see-also","confidence":"low","span":[5093,5102],"revision":1370596793,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3955446","to":"Category:Monoidal categories","predicate":"in-field","method":"category","confidence":"medium","span":[5374,5406],"revision":1370596793,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3955446","to":"Category:Objects (category theory)","predicate":"in-field","method":"category","confidence":"medium","span":[5407,5445],"revision":1370596793,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3955446","to":"Category:Categories in category theory","predicate":"in-field","method":"category","confidence":"medium","span":[5446,5488],"revision":1370596793,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#7XIW","to":"wikipedia://en/528853","predicate":"listed-in","method":"list","confidence":"certain","span":[34863,34884],"revision":1373230097,"by":"importer/wikipedia/1"}

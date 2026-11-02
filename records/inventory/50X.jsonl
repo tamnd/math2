@@ -1,3 +1,4 @@
+{"id":"50X0T0X5EA","mentions":["wikipedia://en/47738065#969N"],"kind":"topic","name":"Sergei L. Sobolev","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"50XCZ89CFC","mentions":["m2://rec/levin_dmoi/ptx/exercises/gt-coloring.ptx#exercise-13#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"50XRZQJGPB","mentions":["m2://rec/hott_book/induction.tex#ex:inductive-lawvere#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"50XY03QK2M","mentions":["m2://rec/wikidata/Q5191404#1"],"kind":"unknown","name":"crystal base","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"50XY03QK2M","mentions":["m2://rec/wikidata/Q5191404#1","wikipedia://en/10330610"],"kind":"definition","name":"crystal base","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,0 +1,18 @@
+{"from":"wikipedia://en/14403539#UMJB","to":"wikipedia://en/2600152","predicate":"listed-in","method":"list","confidence":"certain","span":[20138,20155],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41404099","to":"wikipedia://en/294298","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[39,62],"revision":1342995326,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41404099","to":"wikipedia://en/8564","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[146,165],"revision":1342995326,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41404099","to":"wikipedia://en/28356","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[171,194],"revision":1342995326,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41404099","to":"wikipedia://en/2672856","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[223,254],"revision":1342995326,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41404099","to":"Category:Symplectic geometry","predicate":"in-field","method":"category","confidence":"medium","span":[2664,2696],"revision":1342995326,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/449745#AD72","to":"wikipedia://en/53741","predicate":"uses","method":"link-in-item","confidence":"high","span":[52757,52770],"revision":1370749078,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/449745#AD72","to":"wikipedia://en/20556859","predicate":"uses","method":"link-in-item","confidence":"high","span":[52778,52811],"revision":1370749078,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/449745#AD72","to":"wikipedia://en/40326","predicate":"uses","method":"link-in-item","confidence":"high","span":[52836,52882],"revision":1370749078,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/449745#AD72","to":"wikipedia://en/1141106","predicate":"uses","method":"link-in-item","confidence":"high","span":[52924,52951],"revision":1370749078,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/449745#AD72","to":"wikipedia://en/287826","predicate":"uses","method":"link-in-item","confidence":"high","span":[52995,53015],"revision":1370749078,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/449745#AD72","to":"wikipedia://en/325019","predicate":"related","method":"link-in-item","confidence":"low","span":[53060,53077],"revision":1370749078,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/449745#AD72","to":"wikipedia://en/173977","predicate":"related","method":"link-in-item","confidence":"low","span":[53085,53105],"revision":1370749078,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/449745#AD72","to":"wikipedia://en/382694","predicate":"related","method":"link-in-item","confidence":"low","span":[53304,53328],"revision":1370749078,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/449745#AD72","to":"wikipedia://en/173844","predicate":"uses","method":"link-in-item","confidence":"high","span":[53812,53825],"revision":1370749078,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/449745#AD72","to":"wikipedia://en/287826","predicate":"uses","method":"link-in-item","confidence":"high","span":[53979,53999],"revision":1370749078,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/449745#AD72","to":"wikipedia://en/173181","predicate":"uses","method":"link-in-item","confidence":"high","span":[54138,54158],"revision":1370749078,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/449745#AD72","to":"wikipedia://en/142432","predicate":"uses","method":"link-in-item","confidence":"high","span":[54339,54380],"revision":1370749078,"by":"importer/wikipedia/1"}

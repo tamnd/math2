@@ -1,0 +1,31 @@
+{"from":"wikipedia://en/14403539#01CR","to":"wikipedia://en/14730150","predicate":"listed-in","method":"list","confidence":"certain","span":[38670,38721],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14535189","to":"wikipedia://en/169319","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[31,80],"revision":1210712170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14535189","to":"wikipedia://en/1188184","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[124,140],"revision":1210712170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14535189","to":"wikipedia://en/5170","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[217,248],"revision":1210712170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14535189","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[249,264],"revision":1210712170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14535189","to":"wikipedia://en/140824","predicate":"related","method":"link-in-lead","confidence":"low","span":[278,295],"revision":1210712170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14535189","to":"wikipedia://en/219268","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[299,344],"revision":1210712170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14535189","to":"wikipedia://en/26685","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[349,376],"revision":1210712170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14535189","to":"wikipedia://en/9541","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[405,430],"revision":1210712170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14535189","to":"wikipedia://en/267784","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[488,518],"revision":1210712170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14535189","to":"Category:Combinatorial design","predicate":"in-field","method":"category","confidence":"medium","span":[4310,4343],"revision":1210712170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14535189","to":"Category:Design of experiments","predicate":"in-field","method":"category","confidence":"medium","span":[4344,4378],"revision":1210712170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14535189","to":"Category:Families of sets","predicate":"in-field","method":"category","confidence":"medium","span":[4379,4408],"revision":1210712170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14535189","to":"Category:Statistical inequalities","predicate":"in-field","method":"category","confidence":"medium","span":[4409,4446],"revision":1210712170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14535189","to":"Category:Extremal combinatorics","predicate":"in-field","method":"category","confidence":"medium","span":[4447,4482],"revision":1210712170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14535189","to":"Category:Ronald Fisher","predicate":"in-field","method":"category","confidence":"medium","span":[4483,4509],"revision":1210712170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25898954","to":"wikipedia://en/24116","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[764,793],"revision":1150779624,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25898954","to":"wikipedia://en/324572","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[794,814],"revision":1150779624,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25898954","to":"wikipedia://en/3659669","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[848,867],"revision":1150779624,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25898954","to":"Template:Official website","predicate":"in-nav","method":"nav","confidence":"low","span":[893,975],"revision":1150779624,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25898954","to":"Category:Logic journals","predicate":"in-field","method":"category","confidence":"medium","span":[977,1004],"revision":1150779624,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25898954","to":"Category:Biannual journals","predicate":"in-field","method":"category","confidence":"medium","span":[1005,1035],"revision":1150779624,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25898954","to":"Category:English-language journals","predicate":"in-field","method":"category","confidence":"medium","span":[1036,1074],"revision":1150779624,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25898954","to":"Category:Academic journals established in 2007","predicate":"in-field","method":"category","confidence":"medium","span":[1075,1125],"revision":1150779624,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25898954","to":"Category:Springer Science+Business Media academic journals","predicate":"in-field","method":"category","confidence":"medium","span":[1126,1188],"revision":1150779624,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67784557","to":"wikipedia://en/9421","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[285,310],"revision":1338314801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67784557","to":"wikipedia://en/176767","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[351,401],"revision":1338314801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67784557","to":"wikipedia://en/701256","predicate":"related","method":"link-in-lead","confidence":"low","span":[1324,1362],"revision":1338314801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67784557","to":"Category:19th-century Danish mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3092,3139],"revision":1338314801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67784557","to":"Category:20th-century Danish mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3140,3187],"revision":1338314801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67784557","to":"Category:Academic staff of the University of Copenhagen","predicate":"in-field","method":"category","confidence":"medium","span":[3233,3292],"revision":1338314801,"by":"importer/wikipedia/1"}

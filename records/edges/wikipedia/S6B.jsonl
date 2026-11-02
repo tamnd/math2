@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/43580500#ZLUQ","to":"wikipedia://en/441950","predicate":"uses","method":"link-in-item","confidence":"medium","span":[31403,31432],"revision":1360947732,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#EIZ6","to":"wikipedia://en/31143787","predicate":"listed-in","method":"list","confidence":"certain","span":[72735,72749],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51935974#CXQ4","to":"wikipedia://en/2128500","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[2061,2082],"revision":1370488583,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51935974#CXQ4","to":"wikipedia://en/18881","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[2203,2229],"revision":1370488583,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51935974#CXQ4","to":"wikipedia://en/508070","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[2751,2785],"revision":1370488583,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51935974#CXQ4","to":"wikipedia://en/12630","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[4906,4926],"revision":1370488583,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51935974#CXQ4","to":"wikipedia://en/4677","predicate":"uses","method":"named-link","confidence":"high","span":[5053,5073],"revision":1370488583,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71238036","to":"wikipedia://en/3108510","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[426,476],"revision":1362501091,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71238036","to":"wikipedia://en/181840","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[564,588],"revision":1362501091,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71238036","to":"wikipedia://en/201369","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[604,636],"revision":1362501091,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71238036","to":"wikipedia://en/217643","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[642,651],"revision":1362501091,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71238036","to":"wikipedia://en/40176","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2384,2404],"revision":1362501091,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71238036","to":"wikipedia://en/26379709","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3881,3897],"revision":1362501091,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71238036","to":"Category:Natural philosophers","predicate":"in-field","method":"category","confidence":"medium","span":[4182,4215],"revision":1362501091,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71238036","to":"Category:18th-century English mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4280,4328],"revision":1362501091,"by":"importer/wikipedia/1"}

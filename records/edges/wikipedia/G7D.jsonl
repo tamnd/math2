@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/140829#BAWB","to":"wikipedia://en/60663567","predicate":"listed-in","method":"list","confidence":"certain","span":[2150,2210],"revision":1372044875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32869192#DPL6","to":"wikipedia://en/3108602","predicate":"listed-in","method":"list","confidence":"certain","span":[1859,1890],"revision":1345571696,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/473775#ZD2J","to":"wikipedia://en/56129","predicate":"uses","method":"link-in-item","confidence":"high","span":[11359,11378],"revision":1372217072,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/517370#Q3OQ","to":"wikipedia://en/14751047","predicate":"listed-in","method":"list","confidence":"certain","span":[19553,19589],"revision":1353185276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5710861","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1329130247,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5710861","to":"wikipedia://en/8056148","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[29,61],"revision":1329130247,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5710861","to":"wikipedia://en/2073470","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[75,87],"revision":1329130247,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5710861","to":"wikipedia://en/386274","predicate":"related","method":"link-in-text","confidence":"low","span":[348,364],"revision":1329130247,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5710861","to":"wikipedia://en/48550243","predicate":"related","method":"link-in-text","confidence":"low","span":[369,391],"revision":1329130247,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5710861","to":"wikipedia://en/1968544","predicate":"related","method":"see-also","confidence":"low","span":[1030,1056],"revision":1329130247,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5710861","to":"Category:Partial differential equations","predicate":"in-field","method":"category","confidence":"medium","span":[1359,1402],"revision":1329130247,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5710861","to":"Category:Theorems in mathematical analysis","predicate":"kind-of","method":"category","confidence":"medium","span":[1403,1449],"revision":1329130247,"by":"importer/wikipedia/1"}

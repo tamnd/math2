@@ -1,0 +1,8 @@
+{"from":"wikipedia://en/17510593","to":"wikipedia://en/5493795","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3,23],"revision":1148340762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17510593","to":"wikipedia://en/548156","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[90,133],"revision":1148340762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17510593","to":"wikipedia://en/5493795","predicate":"related","method":"see-also","confidence":"low","span":[918,938],"revision":1148340762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17510593","to":"wikipedia://en/1145733","predicate":"related","method":"see-also","confidence":"low","span":[941,959],"revision":1148340762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17510593","to":"Category:Stability theory","predicate":"in-field","method":"category","confidence":"medium","span":[961,990],"revision":1148340762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#G0OZ","to":"wikipedia://en/27553","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[64520,64534],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8042940#YBQV","to":"wikipedia://en/705983","predicate":"listed-in","method":"list","confidence":"certain","span":[6822,6839],"revision":1375618742,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8042940#YBQV","to":"wikipedia://en/2418429","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6914,6951],"revision":1375618742,"by":"importer/wikipedia/1"}

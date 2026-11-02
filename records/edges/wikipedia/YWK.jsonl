@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/26685#ZNZ1","to":"wikipedia://en/27577","predicate":"uses","method":"link-in-item","confidence":"high","span":[62799,62824],"revision":1375223024,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26685#ZNZ1","to":"wikipedia://en/23543","predicate":"uses","method":"link-in-item","confidence":"high","span":[62941,62970],"revision":1375223024,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26685#ZNZ1","to":"wikipedia://en/15832717","predicate":"uses","method":"link-in-item","confidence":"high","span":[63078,63106],"revision":1375223024,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26685#ZNZ1","to":"wikipedia://en/9541","predicate":"uses","method":"link-in-item","confidence":"high","span":[63115,63140],"revision":1375223024,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26685#ZNZ1","to":"wikipedia://en/14135848","predicate":"uses","method":"link-in-item","confidence":"high","span":[63143,63170],"revision":1375223024,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3133250","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[48,63],"revision":1336712779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3133250","to":"wikipedia://en/3132981","predicate":"related","method":"link-in-lead","confidence":"low","span":[138,157],"revision":1336712779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3133250","to":"wikipedia://en/47992829","predicate":"related","method":"link-in-lead","confidence":"low","span":[162,178],"revision":1336712779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3133250","to":"wikipedia://en/241744","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[223,243],"revision":1336712779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3133250","to":"wikipedia://en/253260","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[250,269],"revision":1336712779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3133250","to":"wikipedia://en/248808","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[328,351],"revision":1336712779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3133250","to":"wikipedia://en/24910","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[371,391],"revision":1336712779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3133250","to":"wikipedia://en/320469","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[541,562],"revision":1336712779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3133250","to":"wikipedia://en/173181","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[567,595],"revision":1336712779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3133250","to":"Category:Model theory","predicate":"in-field","method":"category","confidence":"medium","span":[3825,3850],"revision":1336712779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3133250","to":"Category:Algebraic curves","predicate":"in-field","method":"category","confidence":"medium","span":[3851,3880],"revision":1336712779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3133250","to":"Category:Vector bundles","predicate":"in-field","method":"category","confidence":"medium","span":[3881,3908],"revision":1336712779,"by":"importer/wikipedia/1"}

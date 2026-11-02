@@ -1,0 +1,25 @@
+{"from":"wikipedia://en/225611","to":"wikipedia://en/5244","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[153,174],"revision":1214915495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/225611","to":"wikipedia://en/838989","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[186,214],"revision":1214915495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/225611","to":"wikipedia://en/32927","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[246,266],"revision":1214915495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/225611","to":"wikipedia://en/851269","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[286,332],"revision":1214915495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/225611","to":"wikipedia://en/40379651","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[345,352],"revision":1214915495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/225611","to":"Category:Cryptography","predicate":"in-field","method":"category","confidence":"medium","span":[887,912],"revision":1214915495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/225611","to":"Category:Communications in Germany","predicate":"in-field","method":"category","confidence":"medium","span":[913,951],"revision":1214915495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33450252","to":"wikipedia://en/20646438","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[427,447],"revision":1371547347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33450252","to":"wikipedia://en/23543","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1106,1134],"revision":1371547347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33450252","to":"wikipedia://en/25685","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1140,1159],"revision":1371547347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33450252","to":"wikipedia://en/17860","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1166,1179],"revision":1371547347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33450252","to":"wikipedia://en/7003","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1216,1239],"revision":1371547347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33450252","to":"wikipedia://en/9678","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1312,1347],"revision":1371547347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33450252","to":"wikipedia://en/18837","predicate":"related","method":"link-in-text","confidence":"low","span":[10121,10131],"revision":1371547347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33450252","to":"wikipedia://en/21476","predicate":"related","method":"link-in-text","confidence":"low","span":[10139,10161],"revision":1371547347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33450252","to":"wikipedia://en/160361","predicate":"related","method":"link-in-text","confidence":"low","span":[10167,10197],"revision":1371547347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33450252","to":"wikipedia://en/2885691","predicate":"related","method":"link-in-text","confidence":"low","span":[10203,10223],"revision":1371547347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33450252","to":"wikipedia://en/10050999","predicate":"related","method":"link-in-text","confidence":"low","span":[10269,10298],"revision":1371547347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33450252","to":"Category:Continuous distributions","predicate":"in-field","method":"category","confidence":"medium","span":[12258,12295],"revision":1371547347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33450252","to":"Category:Probability distributions with non-finite variance","predicate":"kind-of","method":"category","confidence":"medium","span":[12296,12359],"revision":1371547347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51116107#W9Y3","to":"wikipedia://en/323707","predicate":"uses","method":"link-in-item","confidence":"high","span":[1363,1379],"revision":1309837504,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51116107#W9Y3","to":"wikipedia://en/691741#S9OD","predicate":"uses","method":"link-in-item","confidence":"high","span":[1601,1656],"revision":1309837504,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51116107#W9Y3","to":"wikipedia://en/385982","predicate":"uses","method":"link-in-item","confidence":"high","span":[1949,1991],"revision":1309837504,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51116107#W9Y3","to":"wikipedia://en/12695","predicate":"uses","method":"link-in-item","confidence":"high","span":[2000,2040],"revision":1309837504,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51116107#W9Y3","to":"wikipedia://en/14828","predicate":"uses","method":"link-in-item","confidence":"high","span":[2192,2206],"revision":1309837504,"by":"importer/wikipedia/1"}

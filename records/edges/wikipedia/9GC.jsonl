@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/35457783#FCQR","to":"wikipedia://en/1390288","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[48803,48817],"revision":1351541925,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35457783#FCQR","to":"wikipedia://en/44417413","predicate":"uses","method":"link-in-item","confidence":"high","span":[48908,48922],"revision":1351541925,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49395621","to":"wikipedia://en/52119","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[47,61],"revision":783493433,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49395621","to":"wikipedia://en/21538","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[65,89],"revision":783493433,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49395621","to":"wikipedia://en/6746775","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[147,180],"revision":783493433,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49395621","to":"wikipedia://en/48396","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[215,240],"revision":783493433,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49395621","to":"wikipedia://en/611964","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1318,1336],"revision":783493433,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49395621","to":"wikipedia://en/12746615","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1400,1454],"revision":783493433,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49395621","to":"wikipedia://en/2971303","predicate":"related","method":"link-in-text","confidence":"low","span":[3994,4040],"revision":783493433,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49395621","to":"wikipedia://en/17686010","predicate":"related","method":"link-in-text","confidence":"low","span":[4064,4080],"revision":783493433,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49395621","to":"wikipedia://en/42682101","predicate":"related","method":"link-in-text","confidence":"low","span":[4505,4546],"revision":783493433,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49395621","to":"Category:Compactness (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[4595,4633],"revision":783493433,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49395621","to":"Category:Convergence (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[4634,4672],"revision":783493433,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49395621","to":"Category:Functional analysis","predicate":"in-field","method":"category","confidence":"medium","span":[4673,4705],"revision":783493433,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49395621","to":"Category:General topology","predicate":"in-field","method":"category","confidence":"medium","span":[4706,4735],"revision":783493433,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49395621","to":"Category:Nonlinear functional analysis","predicate":"in-field","method":"category","confidence":"medium","span":[4736,4778],"revision":783493433,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49395621","to":"Category:Normed spaces","predicate":"in-field","method":"category","confidence":"medium","span":[4779,4805],"revision":783493433,"by":"importer/wikipedia/1"}

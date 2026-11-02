@@ -1,1 +1,6 @@
+{"id":"99J7K43T0E","mentions":["wikipedia://en/2645647#H0E9"],"kind":"unknown","name":"ML.NET","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"99JB90HR32","mentions":["wikipedia://en/21200639#QRI9"],"kind":"unknown","name":"Riemann (crater)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"99JM78S80V","mentions":["ax://paper/2610.10873#Q3XS"],"kind":"statement","msc":["62-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.3"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.3"}],"proofs":["ax://paper/2610.10873#01H3"]}
+{"id":"99JMS7ZN2T","mentions":["wikipedia://en/35718816#APU9"],"kind":"unknown","name":"Kiepert's hyperbola","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"99JP8MTR3K","mentions":["wikipedia://en/1294236#AUR0"],"kind":"unknown","name":"Fourth rotor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"99JZ3PWAKV","mentions":["wikipedia://en/80505160#0RT3"],"kind":"unknown","name":"Shih-Hsien Yu","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,0 +1,26 @@
+{"from":"wikipedia://en/241820#YVD2","to":"wikipedia://en/4146592","predicate":"listed-in","method":"list","confidence":"certain","span":[3773,3788],"revision":1375503641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48058843","to":"wikipedia://en/86368","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[950,960],"revision":1346597199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48058843","to":"wikipedia://en/2986220","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[994,1012],"revision":1346597199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48058843","to":"wikipedia://en/14563","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1022,1033],"revision":1346597199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48058843","to":"wikipedia://en/54334451","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1060,1094],"revision":1346597199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48058843","to":"wikipedia://en/18094","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1103,1113],"revision":1346597199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48058843","to":"wikipedia://en/12882","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1117,1128],"revision":1346597199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48058843","to":"wikipedia://en/4947","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1707,1729],"revision":1346597199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48058843","to":"wikipedia://en/14922","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1759,1777],"revision":1346597199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48058843","to":"wikipedia://en/12354","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1818,1845],"revision":1346597199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48058843","to":"wikipedia://en/302534","predicate":"related","method":"link-in-text","confidence":"low","span":[2991,3036],"revision":1346597199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48058843","to":"wikipedia://en/1937658","predicate":"related","method":"link-in-text","confidence":"low","span":[3243,3276],"revision":1346597199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48058843","to":"wikipedia://en/357473","predicate":"related","method":"link-in-text","confidence":"low","span":[4842,4871],"revision":1346597199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48058843","to":"wikipedia://en/878962","predicate":"related","method":"link-in-text","confidence":"low","span":[6143,6158],"revision":1346597199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48058843","to":"wikipedia://en/6556","predicate":"related","method":"link-in-text","confidence":"low","span":[6197,6209],"revision":1346597199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48058843","to":"wikipedia://en/775","predicate":"related","method":"link-in-text","confidence":"low","span":[6254,6267],"revision":1346597199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48058843","to":"wikipedia://en/7706","predicate":"related","method":"link-in-text","confidence":"low","span":[8912,8953],"revision":1346597199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48058843","to":"wikipedia://en/762954","predicate":"related","method":"link-in-text","confidence":"low","span":[10343,10400],"revision":1346597199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48058843","to":"wikipedia://en/68261023","predicate":"related","method":"see-also","confidence":"low","span":[11406,11429],"revision":1346597199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48058843","to":"wikipedia://en/14540905","predicate":"related","method":"see-also","confidence":"low","span":[11499,11521],"revision":1346597199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48058843","to":"Category:Logic puzzles","predicate":"in-field","method":"category","confidence":"medium","span":[13906,13932],"revision":1346597199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48058843","to":"Category:Mathematical problems","predicate":"kind-of","method":"category","confidence":"medium","span":[13933,13967],"revision":1346597199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48058843","to":"Category:Recreational mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[13968,14005],"revision":1346597199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82859665#JNPZ","to":"wikipedia://en/319712","predicate":"related","method":"hatnote","confidence":"medium","span":[9161,9206],"revision":1360285624,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82859665#JNPZ","to":"wikipedia://en/52387","predicate":"uses","method":"link-in-item","confidence":"medium","span":[9344,9368],"revision":1360285624,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82859665#JNPZ","to":"wikipedia://en/52553","predicate":"uses","method":"named-link","confidence":"high","span":[10739,10757],"revision":1360285624,"by":"importer/wikipedia/1"}

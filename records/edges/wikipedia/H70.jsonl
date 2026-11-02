@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/13379568#KLM8","to":"wikipedia://en/264399","predicate":"uses","method":"link-in-item","confidence":"high","span":[1068,1097],"revision":1317742638,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13379568#KLM8","to":"wikipedia://en/105979","predicate":"uses","method":"link-in-item","confidence":"high","span":[1098,1114],"revision":1317742638,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34999780","to":"wikipedia://en/347049","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[70,87],"revision":1345532650,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34999780","to":"wikipedia://en/18716923","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[91,102],"revision":1345532650,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34999780","to":"wikipedia://en/347049","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[264,281],"revision":1345532650,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34999780","to":"wikipedia://en/287364","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[287,311],"revision":1345532650,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34999780","to":"wikipedia://en/287364","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[343,367],"revision":1345532650,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34999780","to":"wikipedia://en/10789680","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[375,392],"revision":1345532650,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34999780","to":"wikipedia://en/332640","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[424,436],"revision":1345532650,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34999780","to":"wikipedia://en/347049","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[444,464],"revision":1345532650,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34999780","to":"Category:Field theory","predicate":"in-field","method":"category","confidence":"medium","span":[871,896],"revision":1345532650,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34999780","to":"Category:Commutative algebra","predicate":"in-field","method":"category","confidence":"medium","span":[897,929],"revision":1345532650,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34999780","to":"Category:Theorems in abstract algebra","predicate":"kind-of","method":"category","confidence":"medium","span":[930,971],"revision":1345532650,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45342125#1RP7","to":"wikipedia://en/19021953","predicate":"uses","method":"link-in-item","confidence":"medium","span":[8924,8949],"revision":1330367682,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45342125#1RP7","to":"wikipedia://en/4023591","predicate":"uses","method":"link-in-item","confidence":"high","span":[9204,9222],"revision":1330367682,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#JY4O","to":"wikipedia://en/37362730","predicate":"listed-in","method":"list","confidence":"certain","span":[10204,10228],"revision":1356718736,"by":"importer/wikipedia/1"}

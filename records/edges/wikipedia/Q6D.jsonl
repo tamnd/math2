@@ -1,0 +1,33 @@
+{"from":"wikipedia://en/351798","to":"wikipedia://en/4214","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[85,103],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/669675","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[159,190],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/149326","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[218,240],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/5667519","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[271,288],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/7955","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[633,640],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/23634","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[644,655],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/24511","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[656,686],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/199556","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[763,771],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/152111","predicate":"related","method":"link-in-text","confidence":"low","span":[13715,13734],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/89247","predicate":"related","method":"link-in-text","confidence":"low","span":[14376,14413],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/64189063","predicate":"related","method":"link-in-text","confidence":"low","span":[14422,14470],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/3986130","predicate":"related","method":"link-in-text","confidence":"low","span":[15457,15526],"revision":1373946134,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/1130020","predicate":"related","method":"link-in-text","confidence":"low","span":[15528,15549],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/3986130","predicate":"related","method":"link-in-text","confidence":"low","span":[15554,15623],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/6885770","predicate":"related","method":"link-in-text","confidence":"low","span":[16112,16156],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/1130020","predicate":"related","method":"link-in-text","confidence":"low","span":[16207,16228],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/140806","predicate":"related","method":"link-in-text","confidence":"low","span":[16230,16252],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/5926","predicate":"related","method":"link-in-text","confidence":"low","span":[16261,16280],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/1497569","predicate":"related","method":"link-in-text","confidence":"low","span":[17418,17470],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/355968","predicate":"related","method":"link-in-text","confidence":"low","span":[17621,17630],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/49058288","predicate":"related","method":"link-in-text","confidence":"low","span":[17635,17644],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/250001","predicate":"related","method":"link-in-text","confidence":"low","span":[17743,17773],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/64189063","predicate":"related","method":"link-in-text","confidence":"low","span":[20523,20544],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/35989789","predicate":"related","method":"link-in-text","confidence":"low","span":[21303,21331],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/7309022","predicate":"related","method":"see-also","confidence":"low","span":[21832,21859],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/355968","predicate":"related","method":"see-also","confidence":"low","span":[21861,21870],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/49058288","predicate":"related","method":"see-also","confidence":"low","span":[21875,21884],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"wikipedia://en/64189063","predicate":"related","method":"see-also","confidence":"low","span":[21886,21907],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"Category:Bioinformatics algorithms","predicate":"in-field","method":"category","confidence":"medium","span":[22879,22917],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"Category:Phylogenetics","predicate":"in-field","method":"category","confidence":"medium","span":[22918,22944],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"Category:Computational phylogenetics","predicate":"in-field","method":"category","confidence":"medium","span":[22945,22985],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351798","to":"Category:Cluster analysis algorithms","predicate":"in-field","method":"category","confidence":"medium","span":[22986,23026],"revision":1373946134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/353748#A0RB","to":"wikipedia://en/23401166","predicate":"listed-in","method":"list","confidence":"certain","span":[4054,4080],"revision":1351694216,"by":"importer/wikipedia/1"}

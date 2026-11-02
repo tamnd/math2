@@ -1,1 +1,8 @@
 {"id":"DAC361TJ8X","mentions":["ax://paper/2609.33770#MHQV"],"kind":"statement","msc":["05-XX","11-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}],"proofs":["ax://paper/2609.33770#XO6J"]}
+{"id":"DAC39PB110","mentions":["wikipedia://en/48781047#QP4K"],"kind":"definition","name":"simple","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"DAC5SNQFQA","mentions":["wikipedia://en/1843777"],"kind":"definition","name":"Brownian bridge","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"DACASY34GY","mentions":["wikipedia://en/2390225#IJ74"],"kind":"definition","name":"fiber product","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"DACDVB54J2","mentions":["wikipedia://en/973559"],"kind":"topic","name":"August Leopold Crelle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"DACFD1RW37","mentions":["wikipedia://en/658651"],"kind":"definition","name":"Polynomial hierarchy","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"DACR4YJ4B7","mentions":["wikipedia://en/38615517"],"kind":"topic","name":"Sergio Campanato","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"DACW0T9QPR","mentions":["wikipedia://en/8919339#2YE8"],"kind":"example","name":"Uses","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

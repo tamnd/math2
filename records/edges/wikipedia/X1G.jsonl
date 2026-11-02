@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/14403539#WFN1","to":"wikipedia://en/11584548","predicate":"listed-in","method":"list","confidence":"certain","span":[1561,1575],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20506374","to":"wikipedia://en/18422","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[114,132],"revision":1336271854,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20506374","to":"wikipedia://en/18420","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[144,176],"revision":1336271854,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20506374","to":"wikipedia://en/38267","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[178,221],"revision":1336271854,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20506374","to":"wikipedia://en/32370","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[227,243],"revision":1336271854,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20506374","to":"wikipedia://en/3966685","predicate":"related","method":"link-in-lead","confidence":"low","span":[631,649],"revision":1336271854,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20506374","to":"wikipedia://en/336574","predicate":"related","method":"link-in-lead","confidence":"low","span":[1111,1132],"revision":1336271854,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20506374","to":"wikipedia://en/244321","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1156,1168],"revision":1336271854,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20506374","to":"Category:Lemmas in linear algebra","predicate":"kind-of","method":"category","confidence":"medium","span":[4521,4558],"revision":1336271854,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20506374","to":"Category:Matroid theory","predicate":"in-field","method":"category","confidence":"medium","span":[4559,4586],"revision":1336271854,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20768715#20Z3","to":"wikipedia://en/3573834","predicate":"uses","method":"link-in-item","confidence":"high","span":[14670,14692],"revision":1375331489,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38309972#HV1C","to":"wikipedia://en/555768","predicate":"uses","method":"link-in-item","confidence":"high","span":[5778,5799],"revision":1326362186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38309972#HV1C","to":"wikipedia://en/38306273","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[5802,5828],"revision":1326362186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38309972#HV1C","to":"wikipedia://en/1648765","predicate":"uses","method":"link-in-item","confidence":"high","span":[6106,6125],"revision":1326362186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38309972#HV1C","to":"wikipedia://en/1028321","predicate":"uses","method":"link-in-item","confidence":"high","span":[6212,6246],"revision":1326362186,"by":"importer/wikipedia/1"}

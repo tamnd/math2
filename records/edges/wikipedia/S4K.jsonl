@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/12266333","to":"wikipedia://en/277184","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[118,143],"revision":1368318952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12266333","to":"wikipedia://en/6685329","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[157,174],"revision":1368318952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12266333","to":"wikipedia://en/39751173","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[195,213],"revision":1368318952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12266333","to":"wikipedia://en/715909","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[553,577],"revision":1368318952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12266333","to":"wikipedia://en/18306","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[582,600],"revision":1368318952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12266333","to":"wikipedia://en/18306","predicate":"related","method":"link-in-text","confidence":"low","span":[848,866],"revision":1368318952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12266333","to":"wikipedia://en/5929159","predicate":"related","method":"link-in-text","confidence":"low","span":[1029,1063],"revision":1368318952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12266333","to":"wikipedia://en/278728","predicate":"related","method":"link-in-text","confidence":"low","span":[1099,1108],"revision":1368318952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12266333","to":"wikipedia://en/1769186","predicate":"related","method":"link-in-text","confidence":"low","span":[1449,1470],"revision":1368318952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12266333","to":"wikipedia://en/1411510","predicate":"related","method":"link-in-text","confidence":"low","span":[1475,1483],"revision":1368318952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12266333","to":"wikipedia://en/277184","predicate":"related","method":"see-also","confidence":"low","span":[30934,30959],"revision":1368318952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12266333","to":"wikipedia://en/38895414","predicate":"related","method":"see-also","confidence":"low","span":[30961,31003],"revision":1368318952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12266333","to":"Category:Arabic punctuation and symbols","predicate":"in-field","method":"category","confidence":"medium","span":[31356,31421],"revision":1368318952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12266333","to":"Category:Mathematical notation","predicate":"in-field","method":"category","confidence":"medium","span":[31422,31471],"revision":1368318952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/621447#93DP","to":"wikipedia://en/30617135","predicate":"listed-in","method":"list","confidence":"certain","span":[2399,2412],"revision":1333074872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70988990#S5N7","to":"wikipedia://en/1809002","predicate":"uses","method":"link-in-item","confidence":"high","span":[19268,19277],"revision":1338020626,"by":"importer/wikipedia/1"}

@@ -1,1 +1,3 @@
-{"id":"5AMV83DD1C","mentions":["m2://rec/wikidata/Q17012383#1"],"kind":"unknown","name":"equivariant algebraic K-theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"5AMGCRMRD8","mentions":["wikipedia://en/51140705#A9Z5"],"kind":"topic","name":"Mark Stephen Handcock","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5AMV83DD1C","mentions":["m2://rec/wikidata/Q17012383#1","wikipedia://en/18887838"],"kind":"definition","name":"equivariant algebraic K-theory","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"5AMVNJ1PMA","mentions":["wikipedia://en/9407155"],"kind":"definition","name":"Minimisation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

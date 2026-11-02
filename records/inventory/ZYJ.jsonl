@@ -1,2 +1,5 @@
+{"id":"ZYJ1DSBQB7","mentions":["wikipedia://en/22830413"],"kind":"definition","name":"Solomon's knot","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZYJ7N16X2Y","mentions":["m2://rec/lebl_ra/ch-multivar-int.tex#thm-3#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"ZYJHEBWKXZ","mentions":["wikipedia://en/57242824#HE1C"],"kind":"unknown","name":"Günter Hotz","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ZYJKWK3WJR","mentions":["wikipedia://en/35457783#LR8Q"],"kind":"definition","name":"|D|","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZYJPYTZR98","mentions":["ax://paper/2609.26745#MVG7"],"kind":"problem","msc":["53-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}

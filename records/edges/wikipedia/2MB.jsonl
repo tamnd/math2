@@ -1,0 +1,8 @@
+{"from":"wikipedia://en/20643804#XE46","to":"wikipedia://en/3035194","predicate":"uses","method":"link-in-item","confidence":"medium","span":[9203,9225],"revision":1370937006,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2544318","to":"wikipedia://en/4459","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[32,78],"revision":1041112706,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2544318","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[96,112],"revision":1041112706,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2544318","to":"wikipedia://en/225192","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[124,138],"revision":1041112706,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2544318","to":"Template:Commonscat","predicate":"in-nav","method":"nav","confidence":"low","span":[2542,2556],"revision":1041112706,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2544318","to":"Category:Petri nets","predicate":"in-field","method":"category","confidence":"medium","span":[2558,2581],"revision":1041112706,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32573740#JB4V","to":"wikipedia://en/100638","predicate":"uses","method":"link-in-item","confidence":"high","span":[2002,2018],"revision":1323067282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#GDNH","to":"wikipedia://en/13433862","predicate":"listed-in","method":"list","confidence":"certain","span":[51017,51039],"revision":1373230097,"by":"importer/wikipedia/1"}

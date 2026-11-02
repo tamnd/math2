@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/33447798","to":"wikipedia://en/32370","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[154,170],"revision":1216405884,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33447798","to":"wikipedia://en/33068076","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[861,899],"revision":1216405884,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33447798","to":"wikipedia://en/408354","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[929,981],"revision":1216405884,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33447798","to":"wikipedia://en/113021","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1364,1387],"revision":1216405884,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33447798","to":"wikipedia://en/7398","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1391,1412],"revision":1216405884,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33447798","to":"wikipedia://en/3135637","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1776,1794],"revision":1216405884,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33447798","to":"wikipedia://en/21538","predicate":"related","method":"see-also","confidence":"low","span":[3362,3385],"revision":1216405884,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33447798","to":"wikipedia://en/20018","predicate":"related","method":"see-also","confidence":"low","span":[3387,3418],"revision":1216405884,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33447798","to":"wikipedia://en/408354","predicate":"related","method":"see-also","confidence":"low","span":[3420,3442],"revision":1216405884,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33447798","to":"Category:Digital geometry","predicate":"in-field","method":"category","confidence":"medium","span":[4021,4050],"revision":1216405884,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33447798","to":"Category:Metric geometry","predicate":"in-field","method":"category","confidence":"medium","span":[4051,4079],"revision":1216405884,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33447798","to":"Category:Distance","predicate":"in-field","method":"category","confidence":"medium","span":[4080,4101],"revision":1216405884,"by":"importer/wikipedia/1"}

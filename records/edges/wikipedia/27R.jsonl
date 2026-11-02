@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/2879918#67US","to":"wikipedia://en/5624964","predicate":"listed-in","method":"list","confidence":"certain","span":[20867,20899],"revision":1376131118,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2944844#NT52","to":"wikipedia://en/384955","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2988,3017],"revision":1348966410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2944844#NT52","to":"wikipedia://en/1015425","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3162,3193],"revision":1348966410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2944844#NT52","to":"wikipedia://en/1612844","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3411,3433],"revision":1348966410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2944844#NT52","to":"wikipedia://en/11231","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3459,3484],"revision":1348966410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67654959","to":"wikipedia://en/65438324","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1597,1637],"revision":1366163714,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67654959","to":"wikipedia://en/36662188","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1638,1656],"revision":1366163714,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67654959","to":"wikipedia://en/29228","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1785,1798],"revision":1366163714,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67654959","to":"wikipedia://en/41360413","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1867,1879],"revision":1366163714,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67654959","to":"wikipedia://en/19312","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1909,1917],"revision":1366163714,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67654959","to":"wikipedia://en/69225984","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1959,1972],"revision":1366163714,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67654959","to":"wikipedia://en/39733154","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2826,2849],"revision":1366163714,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67654959","to":"wikipedia://en/41729424","predicate":"related","method":"link-in-lead","confidence":"low","span":[3302,3321],"revision":1366163714,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67654959","to":"wikipedia://en/67677340","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3406,3434],"revision":1366163714,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67654959","to":"wikipedia://en/42912557","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[4068,4096],"revision":1366163714,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67654959","to":"wikipedia://en/1164","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[4126,4153],"revision":1366163714,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67654959","to":"wikipedia://en/46583121","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[4170,4282],"revision":1366163714,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67654959","to":"wikipedia://en/69225984","predicate":"related","method":"see-also","confidence":"low","span":[6219,6232],"revision":1366163714,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67654959","to":"wikipedia://en/41360413","predicate":"related","method":"see-also","confidence":"low","span":[6236,6248],"revision":1366163714,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67654959","to":"Template:Portal bar","predicate":"in-nav","method":"nav","confidence":"low","span":[6390,6504],"revision":1366163714,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67654959","to":"Category:Internet properties established in 2020","predicate":"in-field","method":"category","confidence":"medium","span":[6528,6580],"revision":1366163714,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67654959","to":"Category:Meme coins","predicate":"in-field","method":"category","confidence":"medium","span":[6581,6604],"revision":1366163714,"by":"importer/wikipedia/1"}

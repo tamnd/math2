@@ -1,3 +1,9 @@
+{"id":"4W04XAD469","mentions":["wikipedia://en/24187952#AVVB"],"kind":"statement","name":"Corollary","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4W0GC956QC","mentions":["wikipedia://en/329898#HGG8"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4W0H76YP20","mentions":["wikipedia://en/76765067#3AIH"],"kind":"definition","name":"material consequence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4W0K80ERJ0","mentions":["wikipedia://en/47738065#GRDZ"],"kind":"topic","name":"Nathan Jacob Fine","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4W0KC4215Y","mentions":["wikipedia://en/10456890#NW58"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4W0KRY6C7M","mentions":["wikipedia://en/5731754#JK3C"],"kind":"unknown","name":"Horizontal lift","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4W0M03NYYZ","mentions":["m2://rec/wikidata/Q124178356#1"],"kind":"unknown","name":"unimodal distribution","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"4W0QC9B1EH","mentions":["m2://rec/levin_dmoi/index/2.1.2/venn-diagram#1"],"kind":"concept","name":"Venn diagram","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"4W0QVRBSEB","mentions":["m2://rec/lebl_ra/index/10.6.5/convergent-power-series#1"],"kind":"concept","name":"convergent, power series","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

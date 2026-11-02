@@ -1,1 +1,7 @@
+{"id":"D280GR5NMK","mentions":["wikipedia://en/75781334"],"kind":"topic","name":"David Gruen","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"D28CFRNNEP","mentions":["wikipedia://en/1208210"],"kind":"statement","name":"Ladder paradox","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"D28E3TGPYJ","mentions":["wikipedia://en/48454798#48MJ"],"kind":"statement","name":"National identity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"D28JMD0QFQ","mentions":["wikipedia://en/183091#SPNP"],"kind":"conjecture","name":"Class number problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"D28KZP8A58","mentions":["wikipedia://en/41227#HILC"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"D28NH020JK","mentions":["ax://paper/2610.20577#A8JG"],"kind":"statement","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.2"}]}
+{"id":"D28VS7GDXP","mentions":["wikipedia://en/465001#72K3"],"kind":"unknown","name":"740 (number)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

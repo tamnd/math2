@@ -1,1 +1,5 @@
+{"id":"PG55ABP8QH","mentions":["wikipedia://en/398810#Q6PG"],"kind":"unknown","name":"Robinson projection","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"PG55S4GJWH","mentions":["wikipedia://en/211566#S8Z6"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PG563T68JT","mentions":["ax://paper/2609.39293#2ON8"],"kind":"statement","msc":["11-XX","14-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
+{"id":"PG58ZTC3C5","mentions":["wikipedia://en/666987#LTJG"],"kind":"unknown","name":"Frenet ribbon","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"PG5BZ1KQM7","mentions":["wikipedia://en/26657115"],"kind":"definition","name":"71 knot","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

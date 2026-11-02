@@ -1,1 +1,6 @@
+{"id":"P3F4Y7TECF","mentions":["wikipedia://en/310247"],"kind":"topic","name":"Robert Recorde","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"P3F571Q3ZD","mentions":["wikipedia://en/4183051#C2K1"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"P3F5G5APA9","mentions":["wikipedia://en/23547438#QA05"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"P3FCNS9J4P","mentions":["ax://paper/2609.29469#R7G4"],"kind":"statement","msc":["11-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}
+{"id":"P3FK072XGP","mentions":["wikipedia://en/898784#0N3Q"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"P3FRV3VJHM","mentions":["wikipedia://en/48720870"],"kind":"definition","name":"Quasi-exact solvability","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

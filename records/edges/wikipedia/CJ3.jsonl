@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/348470#36OS","to":"wikipedia://en/681049","predicate":"listed-in","method":"list","confidence":"certain","span":[2712,2735],"revision":1346170655,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38616928","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[60,76],"revision":1286472530,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38616928","to":"wikipedia://en/55762","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[104,126],"revision":1286472530,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38616928","to":"wikipedia://en/36513697","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[161,185],"revision":1286472530,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38616928","to":"wikipedia://en/27073288","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[358,393],"revision":1286472530,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38616928","to":"wikipedia://en/2214583","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[765,783],"revision":1286472530,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38616928","to":"wikipedia://en/23547303","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[922,944],"revision":1286472530,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38616928","to":"wikipedia://en/550137","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[949,979],"revision":1286472530,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38616928","to":"wikipedia://en/52564","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[980,1014],"revision":1286472530,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38616928","to":"wikipedia://en/23547303","predicate":"related","method":"see-also","confidence":"low","span":[1031,1053],"revision":1286472530,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38616928","to":"Category:Harmonic functions","predicate":"in-field","method":"category","confidence":"medium","span":[1716,1747],"revision":1286472530,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38616928","to":"Category:Potential theory","predicate":"in-field","method":"category","confidence":"medium","span":[1748,1777],"revision":1286472530,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38616928","to":"Category:Theorems in mathematical analysis","predicate":"kind-of","method":"category","confidence":"medium","span":[1778,1824],"revision":1286472530,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/650405#LMK1","to":"wikipedia://en/319484","predicate":"uses","method":"link-in-item","confidence":"medium","span":[21872,21925],"revision":1370877386,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/650405#LMK1","to":"wikipedia://en/3304216","predicate":"uses","method":"link-in-item","confidence":"high","span":[21943,21998],"revision":1370877386,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/650405#LMK1","to":"wikipedia://en/33642424","predicate":"related","method":"link-in-item","confidence":"low","span":[21999,22023],"revision":1370877386,"by":"importer/wikipedia/1"}

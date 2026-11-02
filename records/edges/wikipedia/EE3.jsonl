@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/17346860#AFZL","to":"wikipedia://en/1321050","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[8049,8090],"revision":1364806832,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17346860#AFZL","to":"wikipedia://en/40782000","predicate":"uses","method":"link-in-item","confidence":"high","span":[8123,8183],"revision":1364806832,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17346860#AFZL","to":"wikipedia://en/21391464","predicate":"uses","method":"link-in-item","confidence":"high","span":[8244,8259],"revision":1364806832,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17346860#AFZL","to":"wikipedia://en/39418646","predicate":"uses","method":"link-in-item","confidence":"high","span":[8460,8480],"revision":1364806832,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17346860#AFZL","to":"wikipedia://en/333835","predicate":"uses","method":"link-in-item","confidence":"high","span":[10767,10782],"revision":1364806832,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17346860#AFZL","to":"wikipedia://en/2895304","predicate":"uses","method":"link-in-item","confidence":"high","span":[11361,11379],"revision":1364806832,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71957188","to":"wikipedia://en/24116","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[750,767],"revision":1225398279,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71957188","to":"wikipedia://en/324572","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[768,790],"revision":1225398279,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71957188","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[794,809],"revision":1225398279,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71957188","to":"wikipedia://en/43504918","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[827,863],"revision":1225398279,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71957188","to":"wikipedia://en/1701961","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1537,1552],"revision":1225398279,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71957188","to":"Category:Mathematics journals","predicate":"in-field","method":"category","confidence":"medium","span":[3788,3821],"revision":1225398279,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71957188","to":"Category:Quarterly journals","predicate":"in-field","method":"category","confidence":"medium","span":[3822,3853],"revision":1225398279,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71957188","to":"Category:Dutch-language journals","predicate":"in-field","method":"category","confidence":"medium","span":[3854,3890],"revision":1225398279,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71957188","to":"Category:Academic journals established in 1875","predicate":"in-field","method":"category","confidence":"medium","span":[3891,3941],"revision":1225398279,"by":"importer/wikipedia/1"}

@@ -1,1 +1,3 @@
 {"id":"J5CH6N7B59","mentions":["m2://rec/lebl_scv/index/B/liouville-s-theorem#1"],"kind":"concept","name":"Liouville's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"J5CHA8N05W","mentions":["wikipedia://en/859283#JH4O"],"kind":"definition","name":"generalized cylinders","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"J5CZCDXE57","mentions":["wikipedia://en/223366#KFN8"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

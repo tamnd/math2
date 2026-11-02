@@ -1,1 +1,5 @@
 {"id":"BTM5H2JQ5Q","mentions":["ax://paper/2609.26701#VPSC"],"kind":"conjecture","msc":["53-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}
+{"id":"BTM7WJ9F1J","mentions":["wikipedia://en/23015#60MV"],"kind":"unknown","name":"Static semantics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"BTMJBS2H65","mentions":["wikipedia://en/14403539#L4IE"],"kind":"unknown","name":"József Solymosi","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"BTMPRR6SE7","mentions":["wikipedia://en/30764139#81D5"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"BTMYA4YFG4","mentions":["wikipedia://en/43590026#OKNF"],"kind":"statement","name":"Special cases","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,0 +1,8 @@
+{"from":"wikipedia://en/52010423","to":"wikipedia://en/12401","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[90,106],"revision":1270554235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52010423","to":"wikipedia://en/5323","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[111,131],"revision":1270554235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52010423","to":"wikipedia://en/48560","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[187,216],"revision":1270554235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52010423","to":"wikipedia://en/41795","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[607,658],"revision":1270554235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52010423","to":"wikipedia://en/43040208","predicate":"related","method":"see-also","confidence":"low","span":[2134,2161],"revision":1270554235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52010423","to":"Category:Computational problems in graph theory","predicate":"in-field","method":"category","confidence":"medium","span":[2714,2765],"revision":1270554235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#QSEA","to":"wikipedia://en/5732881","predicate":"listed-in","method":"list","confidence":"certain","span":[56158,56179],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#QSEA","to":"wikipedia://en/9417","predicate":"uses","method":"link-in-item","confidence":"high","span":[56183,56201],"revision":1373797939,"by":"importer/wikipedia/1"}

@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/198965","to":"wikipedia://en/657958","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[48,75],"revision":1364397219,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/198965","to":"wikipedia://en/1601457","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[114,134],"revision":1364397219,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/198965","to":"wikipedia://en/1135560","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[425,442],"revision":1364397219,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/198965","to":"wikipedia://en/233488","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2174,2194],"revision":1364397219,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/198965","to":"wikipedia://en/41317193","predicate":"related","method":"link-in-text","confidence":"low","span":[24640,24660],"revision":1364397219,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/198965","to":"wikipedia://en/233488","predicate":"related","method":"link-in-text","confidence":"low","span":[24684,24704],"revision":1364397219,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/198965","to":"wikipedia://en/73248112","predicate":"related","method":"link-in-text","confidence":"low","span":[28121,28146],"revision":1364397219,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/198965","to":"wikipedia://en/223369","predicate":"related","method":"link-in-text","confidence":"low","span":[29027,29044],"revision":1364397219,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/198965","to":"wikipedia://en/6885770","predicate":"related","method":"link-in-text","confidence":"low","span":[29118,29136],"revision":1364397219,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/198965","to":"wikipedia://en/2179555","predicate":"related","method":"see-also","confidence":"low","span":[29156,29175],"revision":1364397219,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/198965","to":"wikipedia://en/2529101","predicate":"related","method":"see-also","confidence":"low","span":[29178,29201],"revision":1364397219,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/198965","to":"wikipedia://en/12055540","predicate":"related","method":"see-also","confidence":"low","span":[29204,29236],"revision":1364397219,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/198965","to":"Category:Cooperative games","predicate":"in-field","method":"category","confidence":"medium","span":[29880,29910],"revision":1364397219,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/198965","to":"Category:Fair division","predicate":"in-field","method":"category","confidence":"medium","span":[29911,29937],"revision":1364397219,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/198965","to":"Category:Lloyd Shapley","predicate":"in-field","method":"category","confidence":"medium","span":[29938,29964],"revision":1364397219,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51140705#YW8E","to":"wikipedia://en/71938609","predicate":"listed-in","method":"list","confidence":"certain","span":[71261,71281],"revision":1369875693,"by":"importer/wikipedia/1"}

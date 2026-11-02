@@ -1,2 +1,6 @@
+{"id":"NQW6M93DHQ","mentions":["wikipedia://en/22946501"],"kind":"topic","name":"S. L. Hakimi","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NQW74NXA5J","mentions":["m2://rec/napkin/tex/linalg/fourier.tex#definition-2#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"NQWEHVXFEK","mentions":["m2://rec/wikidata/Q3848436#1"],"kind":"unknown","name":"alternating sign matrix","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"NQWB4522G6","mentions":["wikipedia://en/587645#10FU"],"kind":"statement","name":"Vizing's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NQWDYSQK8G","mentions":["wikipedia://en/30562#M5EF"],"kind":"definition","name":"Product topology","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NQWEHVXFEK","mentions":["m2://rec/wikidata/Q3848436#1","wikipedia://en/1740155"],"kind":"definition","name":"alternating sign matrix","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"NQWM9X5HNW","mentions":["wikipedia://en/47565351#BBP1"],"kind":"unknown","name":"Three Tuns, Pennsylvania","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

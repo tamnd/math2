@@ -1,1 +1,11 @@
+{"id":"KZY11MMGQY","mentions":["wikipedia://en/2866340"],"kind":"definition","name":"Equipotential","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"KZY3P669HF","mentions":["wikipedia://en/891150"],"kind":"definition","name":"Schrödinger method","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"KZYDRFHQR5","mentions":["wikipedia://en/45295186"],"kind":"topic","name":"Dorothy Adkins","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"KZYGMQTSC7","mentions":["wikipedia://en/47738065#DD3O"],"kind":"topic","name":"Douglas Rayner Hartree","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"KZYKZMM1ST","mentions":["wikipedia://en/43580500#AI7N"],"kind":"definition","name":"RO","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"KZYQ2EPHT1","mentions":["wikipedia://en/904056#T075"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"KZYQG3J885","mentions":["wikipedia://en/444250#RVIC"],"kind":"unknown","name":"Vorticity confinement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"KZYVEWVC8Q","mentions":["wikipedia://en/794872#E92I"],"kind":"topic","name":"Analysis of Boolean functions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"KZYWX47ZVY","mentions":["wikipedia://en/18353825"],"kind":"definition","name":"Ornstein–Uhlenbeck operator","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"KZYWZ8ABC3","mentions":["wikipedia://en/41910504#OF02"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"KZYZCJTW7N","mentions":["ax://paper/2610.06381#IZI2"],"kind":"statement","msc":["35-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.10"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}],"proofs":["ax://paper/2610.06381#VM2L"]}

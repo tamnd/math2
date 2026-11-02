@@ -1,0 +1,19 @@
+{"from":"wikipedia://en/31152478","to":"wikipedia://en/4385475","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[158,196],"revision":1299802769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31152478","to":"wikipedia://en/1503369","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[201,236],"revision":1299802769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31152478","to":"wikipedia://en/74857","predicate":"related","method":"link-in-lead","confidence":"low","span":[237,261],"revision":1299802769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31152478","to":"wikipedia://en/18717261","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[298,314],"revision":1299802769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31152478","to":"wikipedia://en/1196","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[367,383],"revision":1299802769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31152478","to":"wikipedia://en/23979","predicate":"related","method":"link-in-lead","confidence":"low","span":[571,582],"revision":1299802769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31152478","to":"wikipedia://en/30684123","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[639,688],"revision":1299802769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31152478","to":"wikipedia://en/74857","predicate":"related","method":"see-also","confidence":"low","span":[2815,2839],"revision":1299802769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31152478","to":"wikipedia://en/46117","predicate":"related","method":"see-also","confidence":"low","span":[2842,2858],"revision":1299802769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31152478","to":"wikipedia://en/87868","predicate":"related","method":"see-also","confidence":"low","span":[2861,2875],"revision":1299802769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31152478","to":"Category:Trigonometry","predicate":"in-field","method":"category","confidence":"medium","span":[3492,3517],"revision":1299802769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31152478","to":"Category:Inequalities (mathematics)","predicate":"kind-of","method":"category","confidence":"medium","span":[3518,3557],"revision":1299802769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57231329","to":"wikipedia://en/386138","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[250,280],"revision":1366847848,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57231329","to":"wikipedia://en/41453852","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[383,404],"revision":1366847848,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57231329","to":"Category:Technical drawing tools","predicate":"in-field","method":"category","confidence":"medium","span":[2124,2160],"revision":1366847848,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57231329","to":"Category:Drawing aids","predicate":"in-field","method":"category","confidence":"medium","span":[2161,2186],"revision":1366847848,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57231329","to":"Category:Stonemasonry tools","predicate":"in-field","method":"category","confidence":"medium","span":[2187,2218],"revision":1366847848,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/597998#0FHP","to":"wikipedia://en/103118","predicate":"uses","method":"link-in-item","confidence":"high","span":[2247,2272],"revision":1370488787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/597998#0FHP","to":"wikipedia://en/19222837","predicate":"uses","method":"link-in-item","confidence":"high","span":[2319,2333],"revision":1370488787,"by":"importer/wikipedia/1"}

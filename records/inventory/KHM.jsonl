@@ -1,2 +1,10 @@
 {"id":"KHM159V1BX","mentions":["m2://rec/wikidata/Q110571086#1"],"kind":"concept","name":"K-matrix","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"KHM301WS17","mentions":["wikipedia://en/351549#KF9D"],"kind":"topic","name":"Jakob Steiner","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"KHM4CQZYDN","mentions":["wikipedia://en/351549#YIZW"],"kind":"definition","name":"Irrelevant ideal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"KHM8AFYSB8","mentions":["wikipedia://en/22603618#S6MF"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"KHM9APKWDF","mentions":["wikipedia://en/537450#DVPF"],"kind":"problem","name":"N-body problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"KHMMKVDE3V","mentions":["wikipedia://en/53230626#FA6J"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"KHMN1CT6W8","mentions":["ax://paper/2609.32936#OS1C"],"kind":"statement","name":"Rank 2 quality","msc":["11-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.5.6"},"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.5.6"}],"proofs":["ax://paper/2609.32936#TKVJ"]}
+{"id":"KHMR7XMPJR","mentions":["wikipedia://en/34189212#M66U"],"kind":"definition","name":"K-homology","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"KHMVA0RXCA","mentions":["wikipedia://en/58325116#KMVZ"],"kind":"example","name":"Example 4","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"KHMZC3YN4B","mentions":["wikipedia://en/42595150"],"kind":"definition","name":"Self-tiling tile set","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

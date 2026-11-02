@@ -1,0 +1,45 @@
+{"from":"wikipedia://en/1457846#HINL","to":"wikipedia://en/58325116","predicate":"uses","method":"link-in-proof","confidence":"high","span":[3944,3960],"revision":1342058679,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1457846#HINL","to":"wikipedia://en/38128","predicate":"uses","method":"link-in-proof","confidence":"high","span":[3990,4021],"revision":1342058679,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1457846#HINL","to":"wikipedia://en/18634","predicate":"uses","method":"link-in-proof","confidence":"high","span":[4294,4323],"revision":1342058679,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20547369#QSHV","to":"wikipedia://en/51731","predicate":"listed-in","method":"list","confidence":"certain","span":[6606,6628],"revision":1336037575,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20547369#QSHV","to":"wikipedia://en/12261058","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6702,6728],"revision":1336037575,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"wikipedia://en/24116","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[992,1021],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"wikipedia://en/324572","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1022,1044],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"wikipedia://en/29954","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1104,1116],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1118,1130],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"wikipedia://en/1055992","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1204,1223],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"wikipedia://en/4691111","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1229,1260],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"wikipedia://en/420561","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1303,1315],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"wikipedia://en/591097","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1639,1670],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"wikipedia://en/537930","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1719,1740],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"wikipedia://en/58492259","predicate":"related","method":"link-in-text","confidence":"low","span":[2050,2068],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"wikipedia://en/56884970","predicate":"related","method":"link-in-text","confidence":"low","span":[2146,2163],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"wikipedia://en/976305","predicate":"related","method":"link-in-text","confidence":"low","span":[2185,2204],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"wikipedia://en/29421438","predicate":"related","method":"link-in-text","confidence":"low","span":[2234,2275],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"wikipedia://en/54634748","predicate":"related","method":"link-in-text","confidence":"low","span":[2302,2343],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"wikipedia://en/45444071","predicate":"related","method":"link-in-text","confidence":"low","span":[2373,2392],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"wikipedia://en/58153601","predicate":"related","method":"link-in-text","confidence":"low","span":[2422,2457],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"wikipedia://en/9007670","predicate":"related","method":"link-in-text","confidence":"low","span":[2470,2488],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"wikipedia://en/49182345","predicate":"related","method":"link-in-text","confidence":"low","span":[2514,2531],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"wikipedia://en/61417035","predicate":"related","method":"link-in-text","confidence":"low","span":[2557,2582],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"wikipedia://en/58927125","predicate":"related","method":"link-in-text","confidence":"low","span":[2656,2697],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"wikipedia://en/1485646","predicate":"related","method":"link-in-text","confidence":"low","span":[2855,2879],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"wikipedia://en/6852678","predicate":"related","method":"link-in-text","confidence":"low","span":[2881,2907],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"wikipedia://en/1701961","predicate":"related","method":"link-in-text","confidence":"low","span":[2913,2934],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"Template:Official website","predicate":"in-nav","method":"nav","confidence":"low","span":[2990,3071],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"Category:Geometry journals","predicate":"in-field","method":"category","confidence":"medium","span":[3073,3103],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"Category:Academic journals established in 2008","predicate":"in-field","method":"category","confidence":"medium","span":[3104,3154],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"Category:Quarterly journals","predicate":"in-field","method":"category","confidence":"medium","span":[3155,3186],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"Category:Wiley (publisher) academic journals","predicate":"in-field","method":"category","confidence":"medium","span":[3187,3235],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"Category:English-language journals","predicate":"in-field","method":"category","confidence":"medium","span":[3236,3274],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"Category:Academic journals associated with learned and professional societies of the United Kingdom","predicate":"in-field","method":"category","confidence":"medium","span":[3275,3378],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34784652","to":"Category:Topology journals","predicate":"in-field","method":"category","confidence":"medium","span":[3379,3409],"revision":1226992338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38304969","to":"wikipedia://en/239846","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[180,209],"revision":1222490283,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38304969","to":"wikipedia://en/23542","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[394,416],"revision":1222490283,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38304969","to":"wikipedia://en/31922","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[450,488],"revision":1222490283,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38304969","to":"wikipedia://en/31776","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[620,648],"revision":1222490283,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38304969","to":"wikipedia://en/8096647","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[704,744],"revision":1222490283,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38304969","to":"wikipedia://en/198822","predicate":"related","method":"link-in-lead","confidence":"low","span":[1013,1046],"revision":1222490283,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38304969","to":"Category:American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1816,1852],"revision":1222490283,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38304969","to":"Category:American probability theorists","predicate":"in-field","method":"category","confidence":"medium","span":[1853,1896],"revision":1222490283,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76918343#IHTS","to":"wikipedia://en/3783415","predicate":"listed-in","method":"list","confidence":"certain","span":[2513,2531],"revision":1368950121,"by":"importer/wikipedia/1"}

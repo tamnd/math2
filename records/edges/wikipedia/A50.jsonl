@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/25334192#M16F","to":"wikipedia://en/328684","predicate":"uses","method":"link-in-item","confidence":"high","span":[6268,6287],"revision":1350455074,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41668388","to":"wikipedia://en/363323","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[49,61],"revision":1362005226,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41668388","to":"wikipedia://en/38078","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[277,304],"revision":1362005226,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41668388","to":"wikipedia://en/1193096","predicate":"related","method":"link-in-text","confidence":"low","span":[772,802],"revision":1362005226,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41668388","to":"Category:Polish mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1998,2032],"revision":1362005226,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41668388","to":"Category:Academic staff of Jagiellonian University","predicate":"in-field","method":"category","confidence":"medium","span":[2033,2087],"revision":1362005226,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/442370#TUSD","to":"wikipedia://en/64516","predicate":"uses","method":"link-in-item","confidence":"high","span":[71602,71607],"revision":1376220107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/442370#TUSD","to":"wikipedia://en/208157","predicate":"uses","method":"link-in-item","confidence":"high","span":[71609,71614],"revision":1376220107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/442370#TUSD","to":"wikipedia://en/6412297","predicate":"uses","method":"link-in-item","confidence":"high","span":[71616,71621],"revision":1376220107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/442370#TUSD","to":"wikipedia://en/208159","predicate":"uses","method":"link-in-item","confidence":"high","span":[71623,71628],"revision":1376220107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/442370#TUSD","to":"wikipedia://en/208156","predicate":"uses","method":"link-in-item","confidence":"high","span":[71630,71648],"revision":1376220107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/442370#TUSD","to":"wikipedia://en/407354","predicate":"uses","method":"link-in-item","confidence":"medium","span":[71650,71670],"revision":1376220107,"by":"importer/wikipedia/1"}

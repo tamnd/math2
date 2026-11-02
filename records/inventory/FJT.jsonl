@@ -1,2 +1,6 @@
 {"id":"FJT2DV1BB1","mentions":["m2://rec/wikidata/Q105604472#1"],"kind":"unknown","name":"Keith Dienes","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FJT3BVNT10","mentions":["wikipedia://en/3932847#XBY1"],"kind":"definition","name":"MLwiN","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FJTCYJ117F","mentions":["wikipedia://en/255245#X74V"],"kind":"statement","name":"Failure of Tonelli's theorem for non σ-finite spaces","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"FJTR95Q7DW","mentions":["m2://rec/wikidata/Q109752514#1"],"kind":"unknown","name":"complete elliptic integral of the first kind","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FJTTNY4HD5","mentions":["wikipedia://en/191457#ETT6"],"kind":"definition","name":"Banburismus","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FJTWJFQ0MK","mentions":["wikipedia://en/3232460#E33E","wikipedia://en/346955#WO9S"],"kind":"definition","name":"Small set (combinatorics)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

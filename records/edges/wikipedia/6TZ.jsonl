@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/48781047#T19S","to":"wikipedia://en/21118494","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[42073,42090],"revision":1367087612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48781047#T19S","to":"wikipedia://en/2912468","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[42182,42202],"revision":1367087612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58200540","to":"wikipedia://en/8625","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[483,508],"revision":1372558139,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58200540","to":"wikipedia://en/22468661","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[537,560],"revision":1372558139,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58200540","to":"wikipedia://en/17670781","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[655,675],"revision":1372558139,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58200540","to":"wikipedia://en/220548","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[710,736],"revision":1372558139,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58200540","to":"wikipedia://en/1816593","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[899,950],"revision":1372558139,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58200540","to":"Category:Finnish mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2682,2717],"revision":1372558139,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58200540","to":"Category:Finnish women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2718,2759],"revision":1372558139,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58200540","to":"Category:Differential geometers","predicate":"in-field","method":"category","confidence":"medium","span":[2760,2795],"revision":1372558139,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58200540","to":"Category:Academic staff of Aalto University","predicate":"in-field","method":"category","confidence":"medium","span":[2839,2886],"revision":1372558139,"by":"importer/wikipedia/1"}

@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/14528980","to":"wikipedia://en/10390","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[170,186],"revision":1303569096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14528980","to":"wikipedia://en/26685","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[191,205],"revision":1303569096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14528980","to":"wikipedia://en/413291","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[273,309],"revision":1303569096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14528980","to":"wikipedia://en/826997","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[313,334],"revision":1303569096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14528980","to":"wikipedia://en/246074","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[359,374],"revision":1303569096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14528980","to":"wikipedia://en/8839922","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2109,2125],"revision":1303569096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14528980","to":"wikipedia://en/48758386","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2411,2432],"revision":1303569096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14528980","to":"wikipedia://en/3932847","predicate":"related","method":"link-in-text","confidence":"low","span":[14655,14679],"revision":1303569096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14528980","to":"wikipedia://en/376707","predicate":"related","method":"link-in-text","confidence":"low","span":[14734,14764],"revision":1303569096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14528980","to":"wikipedia://en/5516230","predicate":"related","method":"link-in-text","confidence":"low","span":[15040,15049],"revision":1303569096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14528980","to":"wikipedia://en/1809002","predicate":"related","method":"link-in-text","confidence":"low","span":[15055,15064],"revision":1303569096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14528980","to":"wikipedia://en/8747614","predicate":"related","method":"see-also","confidence":"low","span":[15818,15839],"revision":1303569096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14528980","to":"wikipedia://en/10543268","predicate":"related","method":"see-also","confidence":"low","span":[15842,15862],"revision":1303569096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14528980","to":"wikipedia://en/15377553","predicate":"related","method":"see-also","confidence":"low","span":[15865,15885],"revision":1303569096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14528980","to":"Template:Statistics","predicate":"in-nav","method":"nav","confidence":"low","span":[15915,15938],"revision":1303569096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14528980","to":"Category:Change detection","predicate":"in-field","method":"category","confidence":"medium","span":[15973,16002],"revision":1303569096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14528980","to":"Category:Time series","predicate":"in-field","method":"category","confidence":"medium","span":[16003,16027],"revision":1303569096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14528980","to":"Category:Panel data","predicate":"in-field","method":"category","confidence":"medium","span":[16028,16051],"revision":1303569096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14528980","to":"Category:Econometric modeling","predicate":"in-field","method":"category","confidence":"medium","span":[16052,16085],"revision":1303569096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14528980","to":"Category:Regression analysis","predicate":"in-field","method":"category","confidence":"medium","span":[16086,16118],"revision":1303569096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2205110#WCRD","to":"wikipedia://en/23692","predicate":"uses","method":"link-in-item","confidence":"medium","span":[11928,11952],"revision":1375340175,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/369981#WHEE","to":"wikipedia://en/1763396","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[6010,6028],"revision":1253691608,"by":"importer/wikipedia/1"}

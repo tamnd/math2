@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/35347828","to":"wikipedia://en/1997","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,25],"revision":1279519086,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35347828","to":"wikipedia://en/525101","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[51,67],"revision":1279519086,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35347828","to":"wikipedia://en/542465","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[154,183],"revision":1279519086,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35347828","to":"wikipedia://en/981915","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[191,249],"revision":1279519086,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35347828","to":"wikipedia://en/35326250","predicate":"related","method":"link-in-lead","confidence":"low","span":[257,316],"revision":1279519086,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35347828","to":"Category:Algebraic geometry","predicate":"in-field","method":"category","confidence":"medium","span":[1147,1178],"revision":1279519086,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/404082#W6CV","to":"wikipedia://en/397264","predicate":"uses","method":"link-in-item","confidence":"medium","span":[1942,1972],"revision":1327408300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/404082#W6CV","to":"wikipedia://en/487541","predicate":"uses","method":"link-in-item","confidence":"high","span":[2051,2085],"revision":1327408300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/404082#W6CV","to":"wikipedia://en/9067","predicate":"uses","method":"link-in-item","confidence":"high","span":[2095,2112],"revision":1327408300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/404082#W6CV","to":"wikipedia://en/1160","predicate":"uses","method":"link-in-item","confidence":"high","span":[2244,2260],"revision":1327408300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/404082#W6CV","to":"wikipedia://en/61839","predicate":"uses","method":"link-in-item","confidence":"high","span":[2295,2317],"revision":1327408300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/404082#W6CV","to":"wikipedia://en/693453","predicate":"uses","method":"named-link","confidence":"high","span":[2341,2369],"revision":1327408300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/404082#W6CV","to":"wikipedia://en/38267","predicate":"uses","method":"link-in-item","confidence":"high","span":[2378,2416],"revision":1327408300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/404082#W6CV","to":"wikipedia://en/404078","predicate":"uses","method":"link-in-item","confidence":"high","span":[2767,2783],"revision":1327408300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/404082#W6CV","to":"wikipedia://en/45239","predicate":"uses","method":"link-in-item","confidence":"high","span":[3474,3488],"revision":1327408300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/404082#W6CV","to":"wikipedia://en/2776890","predicate":"uses","method":"link-in-item","confidence":"high","span":[3682,3704],"revision":1327408300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/404082#W6CV","to":"wikipedia://en/487541","predicate":"uses","method":"link-in-item","confidence":"high","span":[3741,3759],"revision":1327408300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/404082#W6CV","to":"wikipedia://en/26549625","predicate":"uses","method":"link-in-item","confidence":"high","span":[3766,3786],"revision":1327408300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/725331#SQGX","to":"wikipedia://en/144823","predicate":"uses","method":"link-in-item","confidence":"high","span":[9886,9910],"revision":1291018558,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/725331#SQGX","to":"wikipedia://en/14563","predicate":"uses","method":"link-in-item","confidence":"high","span":[10079,10091],"revision":1291018558,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/725331#SQGX","to":"wikipedia://en/30876799","predicate":"uses","method":"link-in-item","confidence":"high","span":[10396,10423],"revision":1291018558,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/725331#SQGX","to":"wikipedia://en/243316","predicate":"uses","method":"link-in-item","confidence":"high","span":[10459,10486],"revision":1291018558,"by":"importer/wikipedia/1"}

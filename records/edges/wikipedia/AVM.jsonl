@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/100303#IS46","to":"wikipedia://en/38801","predicate":"listed-in","method":"list","confidence":"certain","span":[4904,4926],"revision":1339661902,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/323651#OMQF","to":"wikipedia://en/8006956","predicate":"uses","method":"link-in-item","confidence":"high","span":[9171,9192],"revision":1370481276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/323651#OMQF","to":"wikipedia://en/1355482","predicate":"uses","method":"link-in-item","confidence":"medium","span":[9815,9830],"revision":1370481276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/323651#OMQF","to":"wikipedia://en/10603","predicate":"uses","method":"link-in-item","confidence":"high","span":[10634,10663],"revision":1370481276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/323651#OMQF","to":"wikipedia://en/3022963","predicate":"uses","method":"link-in-item","confidence":"high","span":[10695,10753],"revision":1370481276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/323651#OMQF","to":"wikipedia://en/323631","predicate":"uses","method":"link-in-item","confidence":"medium","span":[10841,10868],"revision":1370481276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/323651#OMQF","to":"wikipedia://en/55607","predicate":"uses","method":"link-in-item","confidence":"high","span":[11157,11224],"revision":1370481276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/323651#OMQF","to":"wikipedia://en/734635","predicate":"uses","method":"link-in-item","confidence":"high","span":[11727,11745],"revision":1370481276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/323651#OMQF","to":"wikipedia://en/734635","predicate":"uses","method":"link-in-item","confidence":"high","span":[11746,11803],"revision":1370481276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/323651#OMQF","to":"wikipedia://en/18567","predicate":"uses","method":"link-in-item","confidence":"high","span":[12465,12484],"revision":1370481276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47816198","to":"wikipedia://en/26685","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,17],"revision":749421866,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47816198","to":"wikipedia://en/22747655","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[57,99],"revision":749421866,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47816198","to":"wikipedia://en/30284","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[106,126],"revision":749421866,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47816198","to":"wikipedia://en/415974","predicate":"related","method":"link-in-lead","confidence":"low","span":[220,234],"revision":749421866,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47816198","to":"Category:Statistical tests","predicate":"in-field","method":"category","confidence":"medium","span":[1428,1458],"revision":749421866,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47816198","to":"Category:Nonparametric statistics","predicate":"in-field","method":"category","confidence":"medium","span":[1459,1496],"revision":749421866,"by":"importer/wikipedia/1"}

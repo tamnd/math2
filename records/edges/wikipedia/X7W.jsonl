@@ -1,0 +1,29 @@
+{"from":"wikipedia://en/14403539#MVYQ","to":"wikipedia://en/3938162","predicate":"listed-in","method":"list","confidence":"certain","span":[48085,48105],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#06EL","to":"wikipedia://en/18669","predicate":"listed-in","method":"list","confidence":"certain","span":[41603,41622],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22679231#259N","to":"wikipedia://en/27799","predicate":"uses","method":"link-in-item","confidence":"high","span":[21957,21988],"revision":1373395009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22679231#259N","to":"wikipedia://en/47668601","predicate":"related","method":"link-in-item","confidence":"low","span":[22388,22410],"revision":1373395009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22679231#259N","to":"wikipedia://en/22679231#Y0O5","predicate":"uses","method":"anchor","confidence":"certain","span":[22712,22730],"revision":1373395009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22679231#259N","to":"wikipedia://en/25202","predicate":"uses","method":"link-in-item","confidence":"high","span":[22955,22976],"revision":1373395009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22679231#259N","to":"wikipedia://en/7455223","predicate":"uses","method":"link-in-item","confidence":"high","span":[23067,23083],"revision":1373395009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22679231#259N","to":"wikipedia://en/20598932","predicate":"uses","method":"link-in-item","confidence":"high","span":[23100,23117],"revision":1373395009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22679231#259N","to":"wikipedia://en/455961","predicate":"uses","method":"link-in-item","confidence":"high","span":[23160,23181],"revision":1373395009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22679231#259N","to":"wikipedia://en/667175","predicate":"uses","method":"link-in-item","confidence":"high","span":[23266,23294],"revision":1373395009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22679231#259N","to":"wikipedia://en/753521","predicate":"uses","method":"link-in-item","confidence":"high","span":[23370,23395],"revision":1373395009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26066467","to":"wikipedia://en/725893","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[129,142],"revision":1292653536,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26066467","to":"wikipedia://en/236975","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[149,164],"revision":1292653536,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26066467","to":"wikipedia://en/4307591","predicate":"related","method":"link-in-lead","confidence":"low","span":[286,301],"revision":1292653536,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26066467","to":"wikipedia://en/13437523","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[801,820],"revision":1292653536,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26066467","to":"Category:Sampling techniques","predicate":"in-field","method":"category","confidence":"medium","span":[2279,2311],"revision":1292653536,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/433034","to":"wikipedia://en/4122592","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[196,216],"revision":1371668577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/433034","to":"wikipedia://en/47967","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[217,235],"revision":1371668577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/433034","to":"wikipedia://en/591994","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[236,271],"revision":1371668577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/433034","to":"wikipedia://en/14539","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[315,327],"revision":1371668577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/433034","to":"wikipedia://en/196882","predicate":"related","method":"link-in-text","confidence":"low","span":[793,828],"revision":1371668577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/433034","to":"wikipedia://en/13932786","predicate":"related","method":"link-in-text","confidence":"low","span":[901,957],"revision":1371668577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/433034","to":"wikipedia://en/679079","predicate":"related","method":"see-also","confidence":"low","span":[2881,2898],"revision":1371668577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/433034","to":"wikipedia://en/16947","predicate":"related","method":"see-also","confidence":"low","span":[2900,2923],"revision":1371668577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/433034","to":"wikipedia://en/432989","predicate":"related","method":"see-also","confidence":"low","span":[2925,2957],"revision":1371668577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/433034","to":"wikipedia://en/24036569","predicate":"related","method":"see-also","confidence":"low","span":[2959,2992],"revision":1371668577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/433034","to":"wikipedia://en/433009","predicate":"related","method":"see-also","confidence":"low","span":[2994,3019],"revision":1371668577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/433034","to":"wikipedia://en/24021520","predicate":"related","method":"see-also","confidence":"low","span":[3021,3043],"revision":1371668577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/433034","to":"Category:Computer access control protocols","predicate":"in-field","method":"category","confidence":"medium","span":[3073,3119],"revision":1371668577,"by":"importer/wikipedia/1"}

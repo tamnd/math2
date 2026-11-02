@@ -1,2 +1,7 @@
+{"id":"SMR1Q1ZHK0","mentions":["wikipedia://en/356213#QK0O"],"kind":"topic","name":"William of Ockham","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"SMR4AD0VK1","mentions":["wikipedia://en/1156527#XC9I"],"kind":"statement","name":"Bayes criterion","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"SMR5N1JJ2W","mentions":["ax://paper/2609.32478#K250"],"kind":"definition","msc":["62-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.5.6"},"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.5.6"}]}
-{"id":"SMR6B47775","mentions":["m2://rec/wikidata/Q212750#1"],"kind":"unknown","name":"flatness","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"SMR6B47775","mentions":["m2://rec/wikidata/Q212750#1","wikipedia://en/2043875"],"kind":"definition","name":"flatness","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"SMRBAG46AQ","mentions":["wikipedia://en/251424#7QHD"],"kind":"definition","name":"centre","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"SMRMVM47PD","mentions":["wikipedia://en/63987005#7UFM"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"SMRWRBH0ZE","mentions":["wikipedia://en/8624261"],"kind":"topic","name":"Hajime Tanabe","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,1 +1,5 @@
-{"id":"NS7B64WHJ4","mentions":["m2://rec/wikidata/Q855112#1"],"kind":"unknown","name":"Riemann curvature tensor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"NS7B64WHJ4","mentions":["m2://rec/wikidata/Q855112#1","wikipedia://en/130526"],"kind":"definition","name":"Riemann curvature tensor","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"NS7DHYFPEG","mentions":["wikipedia://en/56030165#2VNQ"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NS7G2Z4P3Q","mentions":["wikipedia://en/47738065#9U88"],"kind":"topic","name":"R. M. Hardt","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NS7NBVPFSS","mentions":["wikipedia://en/76105060#8RWX"],"kind":"unknown","name":"Regular compound tiling","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NS7Q69BSMA","mentions":["wikipedia://en/22935957"],"kind":"conjecture","name":"Expression problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

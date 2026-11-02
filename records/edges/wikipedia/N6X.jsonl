@@ -1,0 +1,27 @@
+{"from":"wikipedia://en/17777195","to":"wikipedia://en/146806","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[143,166],"revision":1258892009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17777195","to":"wikipedia://en/4700","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[303,322],"revision":1258892009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17777195","to":"wikipedia://en/13763527","predicate":"related","method":"see-also","confidence":"low","span":[758,777],"revision":1258892009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17777195","to":"wikipedia://en/24064208","predicate":"related","method":"see-also","confidence":"low","span":[779,801],"revision":1258892009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17777195","to":"Category:Polynomials","predicate":"in-field","method":"category","confidence":"medium","span":[1283,1307],"revision":1258892009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17777195","to":"Category:Special functions","predicate":"in-field","method":"category","confidence":"medium","span":[1308,1338],"revision":1258892009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28014764","to":"wikipedia://en/26685","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[55,69],"revision":1332937173,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28014764","to":"wikipedia://en/71233125","predicate":"related","method":"link-in-lead","confidence":"low","span":[123,144],"revision":1332937173,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28014764","to":"wikipedia://en/27596","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[569,590],"revision":1332937173,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28014764","to":"wikipedia://en/33350282","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[603,636],"revision":1332937173,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28014764","to":"wikipedia://en/272134","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[808,846],"revision":1332937173,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28014764","to":"wikipedia://en/7859676","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[878,909],"revision":1332937173,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28014764","to":"wikipedia://en/26286630","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[927,1031],"revision":1332937173,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28014764","to":"Category:Sampling (statistics)","predicate":"in-field","method":"category","confidence":"medium","span":[5925,5959],"revision":1332937173,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28014764","to":"Category:Survey methodology","predicate":"in-field","method":"category","confidence":"medium","span":[5960,5991],"revision":1332937173,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28014764","to":"Category:Missing data","predicate":"in-field","method":"category","confidence":"medium","span":[5992,6017],"revision":1332937173,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6853329#JMEA","to":"wikipedia://en/55988","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5734,5754],"revision":1369786521,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6853329#JMEA","to":"wikipedia://en/8676389","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5915,5947],"revision":1369786521,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6853329#JMEA","to":"wikipedia://en/499291","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5963,5973],"revision":1369786521,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6853329#JMEA","to":"wikipedia://en/135316","predicate":"uses","method":"link-in-item","confidence":"high","span":[6591,6606],"revision":1369786521,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6853329#JMEA","to":"wikipedia://en/6511615","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6772,6800],"revision":1369786521,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6853329#JMEA","to":"wikipedia://en/6511615","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7098,7148],"revision":1369786521,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6853329#JMEA","to":"wikipedia://en/4592545","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7424,7446],"revision":1369786521,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6853329#JMEA","to":"wikipedia://en/50521","predicate":"uses","method":"link-in-item","confidence":"medium","span":[8526,8539],"revision":1369786521,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6853329#JMEA","to":"wikipedia://en/3118","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[8572,8586],"revision":1369786521,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6853329#JMEA","to":"wikipedia://en/655","predicate":"uses","method":"link-in-item","confidence":"high","span":[8709,8719],"revision":1369786521,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6853329#JMEA","to":"wikipedia://en/17910805","predicate":"uses","method":"link-in-item","confidence":"high","span":[8723,8741],"revision":1369786521,"by":"importer/wikipedia/1"}

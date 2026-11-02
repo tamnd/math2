@@ -1,0 +1,58 @@
+{"from":"wikipedia://en/3276268","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[98,113],"revision":1312099335,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3276268","to":"wikipedia://en/61563","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[154,164],"revision":1312099335,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3276268","to":"wikipedia://en/156802","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[221,232],"revision":1312099335,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3276268","to":"wikipedia://en/2161709","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[354,390],"revision":1312099335,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3276268","to":"Category:Spirals","predicate":"in-field","method":"category","confidence":"medium","span":[2635,2655],"revision":1312099335,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3276268","to":"Category:Cuboids","predicate":"in-field","method":"category","confidence":"medium","span":[2656,2676],"revision":1312099335,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40207657","to":"wikipedia://en/48396","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,28],"revision":1286472300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40207657","to":"wikipedia://en/18329570","predicate":"related","method":"link-in-lead","confidence":"low","span":[267,283],"revision":1286472300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40207657","to":"wikipedia://en/17860","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[505,524],"revision":1286472300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40207657","to":"wikipedia://en/52564","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[582,616],"revision":1286472300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40207657","to":"wikipedia://en/38489856","predicate":"related","method":"see-also","confidence":"low","span":[4488,4516],"revision":1286472300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40207657","to":"wikipedia://en/20491663","predicate":"related","method":"see-also","confidence":"low","span":[4519,4541],"revision":1286472300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40207657","to":"Category:Theorems in mathematical analysis","predicate":"kind-of","method":"category","confidence":"medium","span":[4618,4664],"revision":1286472300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40207657","to":"Category:Inequalities (mathematics)","predicate":"kind-of","method":"category","confidence":"medium","span":[4665,4704],"revision":1286472300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/537026#I2RA","to":"wikipedia://en/291453","predicate":"listed-in","method":"list","confidence":"certain","span":[2997,3015],"revision":1356078276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60567021","to":"wikipedia://en/26685","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[74,88],"revision":1322636188,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60567021","to":"wikipedia://en/826997","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[103,126],"revision":1322636188,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60567021","to":"wikipedia://en/437701","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[199,224],"revision":1322636188,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60567021","to":"wikipedia://en/1364506","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[245,264],"revision":1322636188,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60567021","to":"wikipedia://en/48758386","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[379,400],"revision":1322636188,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60567021","to":"wikipedia://en/4916857","predicate":"specializes","method":"link-in-lead","confidence":"medium","span":[462,485],"revision":1322636188,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60567021","to":"wikipedia://en/15690807","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[620,640],"revision":1322636188,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60567021","to":"wikipedia://en/226631","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[730,745],"revision":1322636188,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60567021","to":"wikipedia://en/226631","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[747,770],"revision":1322636188,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60567021","to":"wikipedia://en/1611247","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[780,796],"revision":1322636188,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60567021","to":"wikipedia://en/1611247","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[798,819],"revision":1322636188,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60567021","to":"wikipedia://en/4237572","predicate":"related","method":"link-in-text","confidence":"low","span":[1170,1196],"revision":1322636188,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60567021","to":"wikipedia://en/226631","predicate":"related","method":"link-in-text","confidence":"low","span":[2964,2979],"revision":1322636188,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60567021","to":"wikipedia://en/172068","predicate":"related","method":"link-in-text","confidence":"low","span":[2998,3010],"revision":1322636188,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60567021","to":"wikipedia://en/747122","predicate":"related","method":"link-in-text","confidence":"low","span":[3120,3149],"revision":1322636188,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60567021","to":"wikipedia://en/339174","predicate":"related","method":"link-in-text","confidence":"low","span":[3205,3227],"revision":1322636188,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60567021","to":"wikipedia://en/1611124","predicate":"related","method":"link-in-text","confidence":"low","span":[3355,3383],"revision":1322636188,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60567021","to":"wikipedia://en/48673866","predicate":"related","method":"see-also","confidence":"low","span":[3713,3733],"revision":1322636188,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60567021","to":"Category:Regression analysis","predicate":"in-field","method":"category","confidence":"medium","span":[4490,4522],"revision":1322636188,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76765067#TQUS","to":"wikipedia://en/1773596","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[97336,97359],"revision":1368301704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/875857","to":"wikipedia://en/13692155","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2102,2117],"revision":1373880268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/875857","to":"wikipedia://en/239870","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2137,2165],"revision":1373880268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/875857","to":"wikipedia://en/6880370","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2189,2215],"revision":1373880268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/875857","to":"wikipedia://en/6880483","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2217,2239],"revision":1373880268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/875857","to":"wikipedia://en/304939","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2244,2267],"revision":1373880268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/875857","to":"wikipedia://en/613052","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2620,2671],"revision":1373880268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/875857","to":"wikipedia://en/95170","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2992,3030],"revision":1373880268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/875857","to":"wikipedia://en/156992","predicate":"related","method":"link-in-text","confidence":"low","span":[3579,3602],"revision":1373880268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/875857","to":"wikipedia://en/34273","predicate":"related","method":"link-in-text","confidence":"low","span":[3616,3635],"revision":1373880268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/875857","to":"wikipedia://en/21031297","predicate":"related","method":"link-in-text","confidence":"low","span":[3644,3651],"revision":1373880268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/875857","to":"wikipedia://en/23922","predicate":"related","method":"link-in-text","confidence":"low","span":[3665,3689],"revision":1373880268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/875857","to":"wikipedia://en/205495","predicate":"related","method":"link-in-text","confidence":"low","span":[3697,3714],"revision":1373880268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/875857","to":"wikipedia://en/394272","predicate":"related","method":"link-in-text","confidence":"low","span":[3719,3742],"revision":1373880268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/875857","to":"Category:20th-century American philosophers","predicate":"in-field","method":"category","confidence":"medium","span":[9986,10033],"revision":1373880268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/875857","to":"Category:Analytic philosophers","predicate":"in-field","method":"category","confidence":"medium","span":[10034,10068],"revision":1373880268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/875857","to":"Category:American philosophers of mind","predicate":"in-field","method":"category","confidence":"medium","span":[10069,10111],"revision":1373880268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/875857","to":"Category:American philosophers of language","predicate":"in-field","method":"category","confidence":"medium","span":[10112,10158],"revision":1373880268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/875857","to":"Category:American logicians","predicate":"in-field","method":"category","confidence":"medium","span":[10309,10340],"revision":1373880268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/875857","to":"Category:21st-century American philosophers","predicate":"in-field","method":"category","confidence":"medium","span":[10341,10388],"revision":1373880268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/875857","to":"Category:Hegelian philosophers","predicate":"in-field","method":"category","confidence":"medium","span":[10414,10448],"revision":1373880268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/875857","to":"Category:Pragmatists","predicate":"in-field","method":"category","confidence":"medium","span":[10449,10473],"revision":1373880268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/875857","to":"Category:American scholars of Hegel","predicate":"in-field","method":"category","confidence":"medium","span":[10474,10513],"revision":1373880268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/875857","to":"Category:Pittsburgh school","predicate":"in-field","method":"category","confidence":"medium","span":[10514,10544],"revision":1373880268,"by":"importer/wikipedia/1"}

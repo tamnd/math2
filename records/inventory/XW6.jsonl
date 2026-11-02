@@ -1,1 +1,5 @@
 {"id":"XW61NN79PR","mentions":["ax://paper/2610.21578#SL2I"],"kind":"example","msc":["54-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.2"}]}
+{"id":"XW64SND62D","mentions":["wikipedia://en/43580500#MXOC"],"kind":"definition","name":"𝔰","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"XW6K4Z2XPN","mentions":["wikipedia://en/241820#4PKI","wikipedia://en/517370#Z6OT"],"kind":"definition","name":"Rectified tesseract","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"XW6NHB7T66","mentions":["wikipedia://en/78730954#MP02"],"kind":"unknown","name":"Production set","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"XW6Y2X5Z69","mentions":["wikipedia://en/185239#856D"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

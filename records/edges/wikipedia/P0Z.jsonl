@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/1042164#0NFA","to":"wikipedia://en/14922","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[26041,26082],"revision":1373591613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1042164#0NFA","to":"wikipedia://en/169324","predicate":"uses","method":"link-in-item","confidence":"high","span":[26139,26162],"revision":1373591613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33530087","to":"wikipedia://en/33530042","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[244,271],"revision":1370225835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33530087","to":"wikipedia://en/23087727","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[285,312],"revision":1370225835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33530087","to":"wikipedia://en/368621","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[339,358],"revision":1370225835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33530087","to":"wikipedia://en/627842","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[393,441],"revision":1370225835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33530087","to":"Category:20th-century Japanese mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[732,781],"revision":1370225835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33530087","to":"Category:21st-century Japanese mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[912,961],"revision":1370225835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#W5LW","to":"wikipedia://en/41171782","predicate":"listed-in","method":"list","confidence":"certain","span":[72448,72469],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65518692","to":"Category:Italian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2357,2392],"revision":1341786161,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65518692","to":"Category:Engineers from Turin","predicate":"in-field","method":"category","confidence":"medium","span":[2393,2426],"revision":1341786161,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65518692","to":"Category:Italian politicians","predicate":"in-field","method":"category","confidence":"medium","span":[2427,2459],"revision":1341786161,"by":"importer/wikipedia/1"}

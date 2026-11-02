@@ -1,2 +1,9 @@
+{"id":"Y540QN48D8","mentions":["wikipedia://en/14403539#8LBG"],"kind":"unknown","name":"Geoffrey K. Pullum","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Y540Y17K79","mentions":["m2://rec/levin_dmoi/ptx/sec_intro-statements.ptx#example-1#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"Y541XKTT6C","mentions":["wikipedia://en/205069#TROX"],"kind":"topic","name":"Aleksandr Khinchin","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"Y5429WZVJ7","mentions":["wikipedia://en/47738065#B1PK"],"kind":"unknown","name":"L. Tchakaloff","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"Y54544KRCE","mentions":["wikipedia://en/34189212#9DT2"],"kind":"definition","name":"Type theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"Y54ACN7429","mentions":["wikipedia://en/35326250#MTFC"],"kind":"definition","name":"coaxial","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Y54BV0B34K","mentions":["ax://paper/2310.11101#5HXB"],"kind":"statement","msc":["60-XX","81-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
+{"id":"Y54Q2RPVW2","mentions":["wikipedia://en/3932562#R2JA"],"kind":"definition","name":"Terminology","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"Y54Y9DV8PD","mentions":["wikipedia://en/444250#W2OT"],"kind":"definition","name":"Parareal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

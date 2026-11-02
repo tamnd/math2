@@ -1,0 +1,36 @@
+{"from":"wikipedia://en/140829#UF73","to":"wikipedia://en/13952817","predicate":"listed-in","method":"list","confidence":"certain","span":[15163,15209],"revision":1372044875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2839480","to":"wikipedia://en/23542","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[61,83],"revision":1327831114,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2839480","to":"wikipedia://en/39406","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[89,114],"revision":1327831114,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2839480","to":"wikipedia://en/30876902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[168,224],"revision":1327831114,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2839480","to":"wikipedia://en/50723","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[253,282],"revision":1327831114,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2839480","to":"wikipedia://en/21462","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[297,320],"revision":1327831114,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2839480","to":"wikipedia://en/274536","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[414,461],"revision":1327831114,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2839480","to":"wikipedia://en/47895","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[473,497],"revision":1327831114,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2839480","to":"wikipedia://en/9653","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[591,621],"revision":1327831114,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2839480","to":"Category:Martingale theory","predicate":"in-field","method":"category","confidence":"medium","span":[3598,3628],"revision":1327831114,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2839480","to":"Category:Central limit theorem","predicate":"in-field","method":"category","confidence":"medium","span":[3629,3663],"revision":1327831114,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309636","to":"Template:Uniform hyperbolic tiles db","predicate":"in-nav","method":"nav","confidence":"low","span":[36,106],"revision":1370423152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309636","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[110,122],"revision":1370423152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309636","to":"wikipedia://en/505253","predicate":"related","method":"link-in-lead","confidence":"low","span":[166,222],"revision":1370423152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309636","to":"wikipedia://en/241291","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[237,277],"revision":1370423152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309636","to":"wikipedia://en/489394","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[286,306],"revision":1370423152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309636","to":"wikipedia://en/43856084","predicate":"related","method":"link-in-text","confidence":"low","span":[962,977],"revision":1370423152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309636","to":"wikipedia://en/489394","predicate":"related","method":"link-in-text","confidence":"low","span":[984,1004],"revision":1370423152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309636","to":"wikipedia://en/5358554","predicate":"related","method":"link-in-text","confidence":"low","span":[1016,1035],"revision":1370423152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309636","to":"wikipedia://en/20110824","predicate":"related","method":"link-in-text","confidence":"low","span":[1088,1100],"revision":1370423152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309636","to":"Template:Commons category","predicate":"in-nav","method":"nav","confidence":"low","span":[1173,1220],"revision":1370423152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309636","to":"wikipedia://en/1548669","predicate":"related","method":"see-also","confidence":"low","span":[1222,1253],"revision":1370423152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309636","to":"wikipedia://en/2888949","predicate":"related","method":"see-also","confidence":"low","span":[1255,1289],"revision":1370423152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309636","to":"wikipedia://en/505253","predicate":"related","method":"see-also","confidence":"low","span":[1291,1320],"revision":1370423152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309636","to":"Template:Tessellation","predicate":"in-nav","method":"nav","confidence":"low","span":[2225,2241],"revision":1370423152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309636","to":"Category:Apeirogonal tilings","predicate":"in-field","method":"category","confidence":"medium","span":[2243,2275],"revision":1370423152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309636","to":"Category:Hyperbolic tilings","predicate":"in-field","method":"category","confidence":"medium","span":[2276,2307],"revision":1370423152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309636","to":"Category:Isogonal tilings","predicate":"in-field","method":"category","confidence":"medium","span":[2308,2337],"revision":1370423152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309636","to":"Category:Isohedral tilings","predicate":"in-field","method":"category","confidence":"medium","span":[2338,2368],"revision":1370423152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309636","to":"Category:Order-5 tilings","predicate":"in-field","method":"category","confidence":"medium","span":[2369,2397],"revision":1370423152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309636","to":"Category:Regular tilings","predicate":"in-field","method":"category","confidence":"medium","span":[2398,2426],"revision":1370423152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/473775#6LIC","to":"wikipedia://en/25977","predicate":"uses","method":"link-in-item","confidence":"high","span":[13561,13595],"revision":1372217072,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/473775#6LIC","to":"wikipedia://en/2974","predicate":"uses","method":"link-in-item","confidence":"high","span":[13709,13726],"revision":1372217072,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/473775#6LIC","to":"wikipedia://en/472147","predicate":"uses","method":"link-in-item","confidence":"high","span":[13835,13865],"revision":1372217072,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/473775#6LIC","to":"wikipedia://en/25039","predicate":"uses","method":"link-in-item","confidence":"high","span":[13905,13931],"revision":1372217072,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/473775#6LIC","to":"wikipedia://en/24928","predicate":"uses","method":"link-in-item","confidence":"high","span":[14455,14471],"revision":1372217072,"by":"importer/wikipedia/1"}

@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/44466777#ZYE4","to":"wikipedia://en/14563","predicate":"uses","method":"link-in-item","confidence":"high","span":[1029,1040],"revision":1351830328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9423838","to":"wikipedia://en/22921","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[110,138],"revision":1303496930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9423838","to":"wikipedia://en/39717451","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[160,193],"revision":1303496930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9423838","to":"wikipedia://en/5961","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[284,308],"revision":1303496930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9423838","to":"wikipedia://en/5626","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[327,348],"revision":1303496930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9423838","to":"wikipedia://en/32288","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[530,551],"revision":1303496930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9423838","to":"wikipedia://en/10332","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[602,628],"revision":1303496930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9423838","to":"wikipedia://en/922164","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[675,694],"revision":1303496930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9423838","to":"wikipedia://en/473317","predicate":"related","method":"see-also","confidence":"low","span":[951,971],"revision":1303496930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9423838","to":"wikipedia://en/26063832","predicate":"related","method":"see-also","confidence":"low","span":[974,1011],"revision":1303496930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9423838","to":"wikipedia://en/284283","predicate":"related","method":"see-also","confidence":"low","span":[1014,1038],"revision":1303496930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9423838","to":"Category:Psychological methodology","predicate":"in-field","method":"category","confidence":"medium","span":[2806,2844],"revision":1303496930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9423838","to":"Category:Cognitive science","predicate":"in-field","method":"category","confidence":"medium","span":[2845,2875],"revision":1303496930,"by":"importer/wikipedia/1"}

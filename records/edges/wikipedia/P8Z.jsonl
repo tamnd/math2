@@ -1,0 +1,7 @@
+{"from":"wikipedia://en/1218867#PF2D","to":"wikipedia://en/52564","predicate":"uses","method":"link-in-item","confidence":"high","span":[3647,3681],"revision":1301968566,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14884#NCAX","to":"wikipedia://en/549445","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[4965,5009],"revision":1357423587,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14884#NCAX","to":"wikipedia://en/39382","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[5581,5593],"revision":1357423587,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/601070#E4Z1","to":"wikipedia://en/4722074","predicate":"listed-in","method":"list","confidence":"certain","span":[1869,1893],"revision":1345293464,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9350286","to":"wikipedia://en/160361","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[100,130],"revision":1375295583,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9350286","to":"Category:Sampling (statistics)","predicate":"in-field","method":"category","confidence":"medium","span":[788,822],"revision":1375295583,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9350286","to":"Category:Inductive reasoning","predicate":"in-field","method":"category","confidence":"medium","span":[823,855],"revision":1375295583,"by":"importer/wikipedia/1"}

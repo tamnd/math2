@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/1487910","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[80,95],"revision":1169897681,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1487910","to":"wikipedia://en/1432589","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[163,180],"revision":1169897681,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1487910","to":"wikipedia://en/241291","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[185,208],"revision":1169897681,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1487910","to":"wikipedia://en/461942","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[222,252],"revision":1169897681,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1487910","to":"wikipedia://en/1432589","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[259,326],"revision":1169897681,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1487910","to":"wikipedia://en/14110","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[345,369],"revision":1169897681,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1487910","to":"wikipedia://en/252738","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[379,392],"revision":1169897681,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1487910","to":"wikipedia://en/287826","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[422,442],"revision":1169897681,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1487910","to":"wikipedia://en/285623","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[576,598],"revision":1169897681,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1487910","to":"wikipedia://en/61636","predicate":"related","method":"link-in-lead","confidence":"low","span":[614,630],"revision":1169897681,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1487910","to":"Category:Hyperbolic geometry","predicate":"in-field","method":"category","confidence":"medium","span":[1617,1649],"revision":1169897681,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1487910","to":"Category:Riemann surfaces","predicate":"in-field","method":"category","confidence":"medium","span":[1650,1679],"revision":1169897681,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1487910","to":"Category:Theorems in complex analysis","predicate":"kind-of","method":"category","confidence":"medium","span":[1680,1721],"revision":1169897681,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1487910","to":"Category:Theorems in differential geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[1722,1768],"revision":1169897681,"by":"importer/wikipedia/1"}

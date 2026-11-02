@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/14403539#93UY","to":"wikipedia://en/45199487","predicate":"listed-in","method":"list","confidence":"certain","span":[27765,27782],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1757814#TEEM","to":"wikipedia://en/59735","predicate":"uses","method":"link-in-item","confidence":"high","span":[18358,18372],"revision":1366536082,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1757814#TEEM","to":"wikipedia://en/6730121","predicate":"uses","method":"link-in-item","confidence":"high","span":[18411,18452],"revision":1366536082,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1757814#TEEM","to":"wikipedia://en/22679231","predicate":"uses","method":"link-in-item","confidence":"high","span":[18533,18567],"revision":1366536082,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1757814#TEEM","to":"wikipedia://en/27799","predicate":"uses","method":"link-in-item","confidence":"high","span":[18625,18688],"revision":1366536082,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1757814#TEEM","to":"wikipedia://en/33563","predicate":"uses","method":"link-in-item","confidence":"medium","span":[18827,18867],"revision":1366536082,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2272185","to":"wikipedia://en/9531","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[56,82],"revision":1298907256,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2272185","to":"wikipedia://en/9559","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[383,413],"revision":1298907256,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2272185","to":"wikipedia://en/32549","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[470,481],"revision":1298907256,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2272185","to":"wikipedia://en/270770","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[523,576],"revision":1298907256,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2272185","to":"wikipedia://en/1090216","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[597,614],"revision":1298907256,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2272185","to":"wikipedia://en/42889377","predicate":"related","method":"link-in-text","confidence":"low","span":[765,807],"revision":1298907256,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2272185","to":"wikipedia://en/235898","predicate":"related","method":"link-in-text","confidence":"low","span":[1122,1139],"revision":1298907256,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2272185","to":"wikipedia://en/9754990","predicate":"related","method":"link-in-text","confidence":"low","span":[1271,1304],"revision":1298907256,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2272185","to":"wikipedia://en/49090","predicate":"related","method":"link-in-text","confidence":"low","span":[1359,1376],"revision":1298907256,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2272185","to":"wikipedia://en/591253","predicate":"related","method":"link-in-text","confidence":"low","span":[1381,1419],"revision":1298907256,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2272185","to":"wikipedia://en/61577","predicate":"related","method":"link-in-text","confidence":"low","span":[1663,1701],"revision":1298907256,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2272185","to":"wikipedia://en/226856","predicate":"uses","method":"named-link","confidence":"high","span":[2011,2031],"revision":1298907256,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2272185","to":"wikipedia://en/749012","predicate":"related","method":"link-in-text","confidence":"low","span":[2471,2495],"revision":1298907256,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2272185","to":"wikipedia://en/735611","predicate":"related","method":"see-also","confidence":"low","span":[3098,3132],"revision":1298907256,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2272185","to":"Category:Electrical engineering","predicate":"in-field","method":"category","confidence":"medium","span":[3562,3597],"revision":1298907256,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2272185","to":"Category:Circuit theorems","predicate":"in-field","method":"category","confidence":"medium","span":[3598,3627],"revision":1298907256,"by":"importer/wikipedia/1"}

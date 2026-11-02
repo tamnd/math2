@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/587645#8GFC","to":"wikipedia://en/61190","predicate":"listed-in","method":"list","confidence":"certain","span":[34424,34451],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#8GFC","to":"wikipedia://en/5759","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[34455,34475],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68492091","to":"wikipedia://en/326471","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[235,281],"revision":1329697082,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68492091","to":"wikipedia://en/60799","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[351,382],"revision":1329697082,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68492091","to":"wikipedia://en/111967","predicate":"related","method":"link-in-text","confidence":"low","span":[448,468],"revision":1329697082,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68492091","to":"wikipedia://en/176750","predicate":"related","method":"link-in-text","confidence":"low","span":[517,546],"revision":1329697082,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68492091","to":"wikipedia://en/4781237","predicate":"related","method":"link-in-text","confidence":"low","span":[685,727],"revision":1329697082,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68492091","to":"wikipedia://en/111774","predicate":"related","method":"link-in-text","confidence":"low","span":[951,971],"revision":1329697082,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68492091","to":"wikipedia://en/60799","predicate":"related","method":"link-in-text","confidence":"low","span":[1003,1034],"revision":1329697082,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68492091","to":"wikipedia://en/1525923","predicate":"related","method":"link-in-text","confidence":"low","span":[1511,1528],"revision":1329697082,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68492091","to":"wikipedia://en/60799","predicate":"related","method":"link-in-text","confidence":"low","span":[2841,2872],"revision":1329697082,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68492091","to":"wikipedia://en/4345474","predicate":"related","method":"link-in-text","confidence":"low","span":[2957,2979],"revision":1329697082,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68492091","to":"wikipedia://en/303434","predicate":"related","method":"link-in-text","confidence":"low","span":[2985,3012],"revision":1329697082,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68492091","to":"wikipedia://en/505536","predicate":"related","method":"link-in-text","confidence":"low","span":[3057,3088],"revision":1329697082,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68492091","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[6845,6894],"revision":1329697082,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68492091","to":"Category:21st-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[6895,6944],"revision":1329697082,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68492091","to":"Category:20th-century American women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[6945,7000],"revision":1329697082,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68492091","to":"Category:21st-century American women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[7001,7056],"revision":1329697082,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68492091","to":"Category:American mathematics educators","predicate":"in-field","method":"category","confidence":"medium","span":[7057,7100],"revision":1329697082,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83288697","to":"wikipedia://en/26520106","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[460,503],"revision":1375022121,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83288697","to":"wikipedia://en/5527029","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[726,739],"revision":1375022121,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83288697","to":"Category:Lie groups","predicate":"in-field","method":"category","confidence":"medium","span":[7737,7760],"revision":1375022121,"by":"importer/wikipedia/1"}

@@ -1,1 +1,10 @@
 {"id":"PZ50XZ6PBR","mentions":["ax://paper/2609.32816#G4IH"],"kind":"definition","msc":["55-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.5.6"},"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.5.6"}]}
+{"id":"PZ56MHXV0M","mentions":["wikipedia://en/34681935"],"kind":"statement","name":"Zeeman's comparison theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"PZ577YV0C8","mentions":["wikipedia://en/4292269#ZPN8"],"kind":"definition","name":"Notation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"PZ57KKHH2H","mentions":["wikipedia://en/36014669#SYEC"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"PZ57W5282N","mentions":["wikipedia://en/25746123"],"kind":"topic","name":"George Walker","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"PZ580DE5XS","mentions":["wikipedia://en/14528017#TKC7"],"kind":"unknown","name":"Daniel Biss","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"PZ5JK4K2KX","mentions":["wikipedia://en/950777#N5AN"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"PZ5N0TZWW7","mentions":["wikipedia://en/26551602#IYYP"],"kind":"definition","name":"Notation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"PZ5T8QYYVQ","mentions":["wikipedia://en/29258614"],"kind":"topic","name":"Marc Culler","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"PZ5WAEZ6H4","mentions":["wikipedia://en/69380218#JISO"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

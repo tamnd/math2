@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/18649261#NMIU","to":"wikipedia://en/174914","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2601,2617],"revision":1321634212,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18649261#NMIU","to":"wikipedia://en/7148738","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2623,2660],"revision":1321634212,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18649261#NMIU","to":"wikipedia://en/17327","predicate":"uses","method":"link-in-item","confidence":"high","span":[2891,2909],"revision":1321634212,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18649261#NMIU","to":"wikipedia://en/20191692","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3105,3120],"revision":1321634212,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4264509#ALQ2","to":"wikipedia://en/1408000","predicate":"uses","method":"link-in-item","confidence":"high","span":[4166,4187],"revision":1373036026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4264509#ALQ2","to":"wikipedia://en/1066621","predicate":"uses","method":"link-in-item","confidence":"high","span":[5223,5264],"revision":1373036026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#LODI","to":"wikipedia://en/152428","predicate":"listed-in","method":"list","confidence":"certain","span":[50376,50394],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#LODI","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[50398,50410],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7044429","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1184114812,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7044429","to":"wikipedia://en/23000","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[22,49],"revision":1184114812,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7044429","to":"wikipedia://en/19727024","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[67,87],"revision":1184114812,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7044429","to":"wikipedia://en/188725","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[130,168],"revision":1184114812,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7044429","to":"wikipedia://en/5826","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[178,195],"revision":1184114812,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7044429","to":"wikipedia://en/5826","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1182,1201],"revision":1184114812,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7044429","to":"wikipedia://en/320468","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1684,1708],"revision":1184114812,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7044429","to":"wikipedia://en/1018","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1863,1897],"revision":1184114812,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7044429","to":"wikipedia://en/248808","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1983,2004],"revision":1184114812,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7044429","to":"wikipedia://en/19378200","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[2505,2531],"revision":1184114812,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7044429","to":"wikipedia://en/247924","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2535,2555],"revision":1184114812,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7044429","to":"wikipedia://en/3129","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2643,2664],"revision":1184114812,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7044429","to":"Category:Algebraic geometry","predicate":"in-field","method":"category","confidence":"medium","span":[4635,4666],"revision":1184114812,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7044429","to":"Category:Representation theory","predicate":"in-field","method":"category","confidence":"medium","span":[4667,4701],"revision":1184114812,"by":"importer/wikipedia/1"}

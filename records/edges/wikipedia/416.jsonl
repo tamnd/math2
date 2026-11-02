@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/1145848#T3DW","to":"wikipedia://en/42301","predicate":"uses","method":"link-in-item","confidence":"high","span":[1485,1494],"revision":1368483616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2082759","to":"wikipedia://en/386468","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[193,214],"revision":1317741518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2082759","to":"wikipedia://en/3349174","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[388,404],"revision":1317741518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2082759","to":"Category:Euclidean plane geometry","predicate":"in-field","method":"category","confidence":"medium","span":[6903,6940],"revision":1317741518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2082759","to":"Category:Theorems in discrete geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[6941,6983],"revision":1317741518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28935#YA4R","to":"wikipedia://en/20653168","predicate":"uses","method":"link-in-item","confidence":"medium","span":[25537,25554],"revision":1360735079,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28935#YA4R","to":"wikipedia://en/5762","predicate":"uses","method":"link-in-item","confidence":"medium","span":[25559,25580],"revision":1360735079,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28935#YA4R","to":"wikipedia://en/286818","predicate":"uses","method":"link-in-item","confidence":"medium","span":[26295,26308],"revision":1360735079,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28935#YA4R","to":"wikipedia://en/324949","predicate":"uses","method":"link-in-item","confidence":"medium","span":[26918,26936],"revision":1360735079,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/371255#PAYK","to":"wikipedia://en/6113","predicate":"uses","method":"link-in-item","confidence":"high","span":[20774,20788],"revision":1361189095,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/371255#PAYK","to":"wikipedia://en/2163404","predicate":"uses","method":"link-in-item","confidence":"high","span":[21216,21247],"revision":1361189095,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/371255#PAYK","to":"wikipedia://en/81863","predicate":"uses","method":"link-in-item","confidence":"high","span":[21319,21368],"revision":1361189095,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/371255#PAYK","to":"wikipedia://en/9697","predicate":"uses","method":"link-in-item","confidence":"high","span":[22254,22272],"revision":1361189095,"by":"importer/wikipedia/1"}

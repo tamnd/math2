@@ -1,0 +1,6 @@
+{"from":"wikipedia://en/2236863#NQ0W","to":"wikipedia://en/23523594","predicate":"listed-in","method":"list","confidence":"certain","span":[1316,1329],"revision":1339185872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32846052","to":"wikipedia://en/32811718","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[216,242],"revision":1230033473,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32846052","to":"wikipedia://en/32649081","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[256,272],"revision":1230033473,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32846052","to":"Category:Orthogonal polynomials","predicate":"in-field","method":"category","confidence":"medium","span":[2133,2168],"revision":1230033473,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32846052","to":"Category:Q-analogs","predicate":"in-field","method":"category","confidence":"medium","span":[2169,2191],"revision":1230033473,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32846052","to":"Category:Special hypergeometric functions","predicate":"in-field","method":"category","confidence":"medium","span":[2192,2237],"revision":1230033473,"by":"importer/wikipedia/1"}

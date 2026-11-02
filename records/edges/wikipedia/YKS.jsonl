@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/1403586#JJ7N","to":"wikipedia://en/1971730","predicate":"listed-in","method":"list","confidence":"certain","span":[37672,37697],"revision":1375861581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1403586#JJ7N","to":"wikipedia://en/284006","predicate":"uses","method":"link-in-item","confidence":"medium","span":[37749,37778],"revision":1375861581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14403539#CMPA","to":"wikipedia://en/1731976","predicate":"listed-in","method":"list","confidence":"certain","span":[3491,3511],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/346167#XMUM","to":"wikipedia://en/248076","predicate":"listed-in","method":"list","confidence":"certain","span":[9413,9447],"revision":1368371824,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6339283","to":"wikipedia://en/18934432","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[145,161],"revision":1080836103,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6339283","to":"wikipedia://en/49007","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[178,209],"revision":1080836103,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6339283","to":"wikipedia://en/775","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[210,223],"revision":1080836103,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6339283","to":"wikipedia://en/17464335","predicate":"related","method":"link-in-lead","confidence":"low","span":[237,269],"revision":1080836103,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6339283","to":"wikipedia://en/567523","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[862,893],"revision":1080836103,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6339283","to":"wikipedia://en/2287686","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[932,943],"revision":1080836103,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6339283","to":"wikipedia://en/1635837","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[959,969],"revision":1080836103,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6339283","to":"Template:Cryptography navbox","predicate":"in-nav","method":"nav","confidence":"low","span":[1100,1139],"revision":1080836103,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6339283","to":"Category:Stream ciphers","predicate":"in-field","method":"category","confidence":"medium","span":[1141,1168],"revision":1080836103,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6339283","to":"Category:Message authentication codes","predicate":"in-field","method":"category","confidence":"medium","span":[1169,1210],"revision":1080836103,"by":"importer/wikipedia/1"}

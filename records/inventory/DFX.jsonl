@@ -1,1 +1,3 @@
-{"id":"DFX2Z4F13J","mentions":["m2://rec/wikidata/Q2913954#1"],"kind":"unknown","name":"percentile","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"DFX0FQ4VMV","mentions":["wikipedia://en/29528690#XUMP"],"kind":"definition","name":"Octal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"DFX2Z4F13J","mentions":["m2://rec/wikidata/Q2913954#1","wikipedia://en/354907"],"kind":"definition","name":"percentile","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"DFXKAXQH1P","mentions":["wikipedia://en/10160091"],"kind":"definition","name":"Spin representation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

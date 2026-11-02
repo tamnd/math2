@@ -1,0 +1,31 @@
+{"from":"wikipedia://en/26005931","to":"wikipedia://en/1997","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[43,65],"revision":1331751936,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26005931","to":"wikipedia://en/194060","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[120,141],"revision":1331751936,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26005931","to":"wikipedia://en/320468","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[167,202],"revision":1331751936,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26005931","to":"wikipedia://en/10603","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[208,238],"revision":1331751936,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26005931","to":"wikipedia://en/1066621","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[251,294],"revision":1331751936,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26005931","to":"wikipedia://en/10504570","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[577,604],"revision":1331751936,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26005931","to":"wikipedia://en/603916","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[681,713],"revision":1331751936,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26005931","to":"wikipedia://en/26002282","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[863,883],"revision":1331751936,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26005931","to":"Category:Algebraic geometry","predicate":"in-field","method":"category","confidence":"medium","span":[2556,2587],"revision":1331751936,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26005931","to":"Category:Cohomology theories","predicate":"in-field","method":"category","confidence":"medium","span":[2588,2620],"revision":1331751936,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26005931","to":"Category:Homological algebra","predicate":"in-field","method":"category","confidence":"medium","span":[2621,2653],"revision":1331751936,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/594139","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[59,74],"revision":1373841311,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/594139","to":"wikipedia://en/578656","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[120,138],"revision":1373841311,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/594139","to":"wikipedia://en/150102","predicate":"related","method":"link-in-lead","confidence":"low","span":[175,193],"revision":1373841311,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/594139","to":"wikipedia://en/27838","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[203,215],"revision":1373841311,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/594139","to":"wikipedia://en/10918","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[780,802],"revision":1373841311,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/594139","to":"wikipedia://en/14573146","predicate":"related","method":"link-in-lead","confidence":"low","span":[941,994],"revision":1373841311,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/594139","to":"wikipedia://en/578656","predicate":"related","method":"link-in-lead","confidence":"low","span":[1048,1067],"revision":1373841311,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/594139","to":"wikipedia://en/734635","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1293,1311],"revision":1373841311,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/594139","to":"wikipedia://en/10237","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1913,1943],"revision":1373841311,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/594139","to":"wikipedia://en/12386","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3116,3132],"revision":1373841311,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/594139","to":"Category:Integer sequences","predicate":"kind-of","method":"category","confidence":"medium","span":[4063,4093],"revision":1373841311,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/594139","to":"Category:Addition chains","predicate":"in-field","method":"category","confidence":"medium","span":[4094,4122],"revision":1373841311,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7375449","to":"wikipedia://en/14563","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[144,155],"revision":1345440840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7375449","to":"wikipedia://en/23666","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[162,179],"revision":1345440840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7375449","to":"wikipedia://en/48167","predicate":"related","method":"link-in-text","confidence":"low","span":[471,504],"revision":1345440840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7375449","to":"wikipedia://en/500004","predicate":"related","method":"link-in-text","confidence":"low","span":[1334,1379],"revision":1345440840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7375449","to":"wikipedia://en/45376326","predicate":"related","method":"see-also","confidence":"low","span":[1847,1868],"revision":1345440840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7375449","to":"wikipedia://en/1035039","predicate":"related","method":"see-also","confidence":"low","span":[1900,1917],"revision":1345440840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7375449","to":"Template:Classes of natural numbers","predicate":"in-nav","method":"nav","confidence":"low","span":[2400,2430],"revision":1345440840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7375449","to":"Category:Integer sequences","predicate":"kind-of","method":"category","confidence":"medium","span":[2431,2461],"revision":1345440840,"by":"importer/wikipedia/1"}

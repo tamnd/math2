@@ -1,0 +1,29 @@
+{"from":"wikipedia://en/4780165","to":"wikipedia://en/31217","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1429,1446],"revision":1343515150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780165","to":"wikipedia://en/38773637","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1460,1498],"revision":1343515150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780165","to":"wikipedia://en/277184","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1545,1570],"revision":1343515150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780165","to":"wikipedia://en/673457","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1599,1629],"revision":1343515150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780165","to":"wikipedia://en/148363","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1792,1809],"revision":1343515150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780165","to":"wikipedia://en/715909","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1842,1874],"revision":1343515150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780165","to":"wikipedia://en/166697","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1878,1896],"revision":1343515150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780165","to":"wikipedia://en/25657","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2028,2046],"revision":1343515150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780165","to":"wikipedia://en/1130951","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2109,2118],"revision":1343515150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780165","to":"wikipedia://en/779807","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2213,2229],"revision":1343515150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780165","to":"wikipedia://en/19891","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2428,2457],"revision":1343515150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780165","to":"wikipedia://en/8439","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2461,2481],"revision":1343515150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780165","to":"Template:Commons category","predicate":"in-nav","method":"nav","confidence":"low","span":[20236,20267],"revision":1343515150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780165","to":"wikipedia://en/1581567","predicate":"related","method":"see-also","confidence":"low","span":[20270,20276],"revision":1343515150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780165","to":"wikipedia://en/490417","predicate":"related","method":"see-also","confidence":"low","span":[20279,20288],"revision":1343515150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780165","to":"wikipedia://en/477081","predicate":"related","method":"see-also","confidence":"low","span":[20359,20373],"revision":1343515150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780165","to":"Category:Typography","predicate":"in-field","method":"category","confidence":"medium","span":[20784,20807],"revision":1343515150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780165","to":"Category:Punctuation","predicate":"in-field","method":"category","confidence":"medium","span":[20808,20832],"revision":1343515150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780165","to":"Category:Ancient Greek punctuation","predicate":"in-field","method":"category","confidence":"medium","span":[20833,20871],"revision":1343515150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9287936#1LMD","to":"wikipedia://en/18403","predicate":"uses","method":"link-in-item","confidence":"medium","span":[21579,21601],"revision":1370515070,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/937664","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[214,229],"revision":1355044557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/937664","to":"wikipedia://en/149568","predicate":"related","method":"link-in-lead","confidence":"low","span":[277,298],"revision":1355044557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/937664","to":"wikipedia://en/20646438","predicate":"related","method":"link-in-text","confidence":"low","span":[2564,2584],"revision":1355044557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/937664","to":"wikipedia://en/15532","predicate":"related","method":"link-in-text","confidence":"low","span":[2593,2617],"revision":1355044557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/937664","to":"wikipedia://en/89489","predicate":"related","method":"link-in-text","confidence":"low","span":[2851,2890],"revision":1355044557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/937664","to":"wikipedia://en/36704617","predicate":"related","method":"see-also","confidence":"low","span":[2974,3007],"revision":1355044557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/937664","to":"wikipedia://en/937598","predicate":"related","method":"see-also","confidence":"low","span":[3010,3038],"revision":1355044557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/937664","to":"Category:Inequalities (mathematics)","predicate":"kind-of","method":"category","confidence":"medium","span":[3106,3145],"revision":1355044557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/937664","to":"Category:Sequences and series","predicate":"in-field","method":"category","confidence":"medium","span":[3146,3179],"revision":1355044557,"by":"importer/wikipedia/1"}

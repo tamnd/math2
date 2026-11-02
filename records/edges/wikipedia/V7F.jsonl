@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/140841#D88L","to":"wikipedia://en/400010","predicate":"uses","method":"link-in-item","confidence":"medium","span":[29581,29608],"revision":1366488036,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/140841#D88L","to":"wikipedia://en/435099","predicate":"uses","method":"link-in-item","confidence":"high","span":[29700,29727],"revision":1366488036,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/140841#D88L","to":"wikipedia://en/32344","predicate":"uses","method":"link-in-item","confidence":"high","span":[29826,29838],"revision":1366488036,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2976052#QAEI","to":"wikipedia://en/39904936","predicate":"uses","method":"link-in-item","confidence":"high","span":[23616,23636],"revision":1356807640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2976052#QAEI","to":"wikipedia://en/17945","predicate":"uses","method":"link-in-item","confidence":"high","span":[23642,23655],"revision":1356807640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2976052#QAEI","to":"wikipedia://en/12781","predicate":"uses","method":"link-in-item","confidence":"high","span":[23838,23869],"revision":1356807640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2976052#QAEI","to":"wikipedia://en/882902","predicate":"uses","method":"link-in-item","confidence":"high","span":[23974,23994],"revision":1356807640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2976052#QAEI","to":"wikipedia://en/310921","predicate":"uses","method":"link-in-item","confidence":"high","span":[24411,24428],"revision":1356807640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2976052#QAEI","to":"wikipedia://en/9087","predicate":"uses","method":"link-in-item","confidence":"high","span":[24923,24944],"revision":1356807640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2976052#QAEI","to":"wikipedia://en/7039","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[25083,25101],"revision":1356807640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36481031","to":"wikipedia://en/29954","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1200,1212],"revision":1355936535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36481031","to":"wikipedia://en/1098410","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1259,1279],"revision":1355936535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36481031","to":"wikipedia://en/12034472","predicate":"related","method":"link-in-lead","confidence":"low","span":[1303,1319],"revision":1355936535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36481031","to":"wikipedia://en/1236569","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1894,1934],"revision":1355936535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36481031","to":"wikipedia://en/68008035","predicate":"related","method":"link-in-lead","confidence":"low","span":[1992,2029],"revision":1355936535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36481031","to":"wikipedia://en/68496655","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2054,2084],"revision":1355936535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36481031","to":"wikipedia://en/14024197","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2407,2434],"revision":1355936535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36481031","to":"wikipedia://en/17033526","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2470,2512],"revision":1355936535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36481031","to":"Category:20th-century Japanese mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3220,3269],"revision":1355936535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36481031","to":"Category:21st-century Japanese mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3270,3319],"revision":1355936535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36481031","to":"Category:Topologists","predicate":"in-field","method":"category","confidence":"medium","span":[3320,3344],"revision":1355936535,"by":"importer/wikipedia/1"}

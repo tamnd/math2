@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/35770676","to":"wikipedia://en/1698977","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[60,86],"revision":1308710849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35770676","to":"wikipedia://en/526126","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[123,140],"revision":1308710849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35770676","to":"wikipedia://en/234861","predicate":"related","method":"link-in-text","confidence":"low","span":[973,1009],"revision":1308710849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35770676","to":"wikipedia://en/1369957","predicate":"related","method":"link-in-text","confidence":"low","span":[1048,1074],"revision":1308710849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35770676","to":"wikipedia://en/35767402","predicate":"related","method":"see-also","confidence":"low","span":[1195,1212],"revision":1308710849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35770676","to":"wikipedia://en/35768238","predicate":"related","method":"see-also","confidence":"low","span":[1214,1233],"revision":1308710849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35770676","to":"wikipedia://en/30036370","predicate":"related","method":"see-also","confidence":"low","span":[1235,1266],"revision":1308710849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35770676","to":"Category:Invariant theory","predicate":"in-field","method":"category","confidence":"medium","span":[2893,2922],"revision":1308710849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35770676","to":"Category:Algebraic surfaces","predicate":"in-field","method":"category","confidence":"medium","span":[2923,2954],"revision":1308710849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59969558#V1J4","to":"wikipedia://en/8286430","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6964,6995],"revision":1361882756,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59969558#V1J4","to":"wikipedia://en/1180641","predicate":"uses","method":"link-in-item","confidence":"high","span":[7032,7079],"revision":1361882756,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59969558#V1J4","to":"wikipedia://en/1180641","predicate":"uses","method":"link-in-item","confidence":"high","span":[7091,7138],"revision":1361882756,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59969558#V1J4","to":"wikipedia://en/1180641","predicate":"uses","method":"link-in-item","confidence":"high","span":[7144,7185],"revision":1361882756,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59969558#V1J4","to":"wikipedia://en/51650259","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7465,7474],"revision":1361882756,"by":"importer/wikipedia/1"}

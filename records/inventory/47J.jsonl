@@ -1,1 +1,6 @@
 {"id":"47J1SRYNDM","mentions":["ax://paper/2306.00212#6AOW"],"kind":"statement","msc":["49-XX","90-XX","93-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
+{"id":"47J3HB7MC1","mentions":["wikipedia://en/383703#VTR3"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"47J9PBRYQD","mentions":["wikipedia://en/463721#N72W"],"kind":"definition","name":"Orbifold notation (2D)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"47JSJ9F5BC","mentions":["wikipedia://en/34541"],"kind":"definition","name":"Zero-based numbering","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"47JWQ6VKTW","mentions":["wikipedia://en/69392163#3HDE"],"kind":"definition","name":"Notation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"47JXHCR5WH","mentions":["wikipedia://en/441935#HRGP"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

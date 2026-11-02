@@ -1,0 +1,39 @@
+{"from":"wikipedia://en/14403539#NRTW","to":"wikipedia://en/42076184","predicate":"listed-in","method":"list","confidence":"certain","span":[39795,39813],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18152714","to":"wikipedia://en/17730","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[265,274],"revision":1305501480,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18152714","to":"wikipedia://en/44941","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[337,349],"revision":1305501480,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18152714","to":"wikipedia://en/53986","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[755,766],"revision":1305501480,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18152714","to":"wikipedia://en/81094","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[782,797],"revision":1305501480,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18152714","to":"wikipedia://en/313944","predicate":"related","method":"see-also","confidence":"low","span":[7764,7786],"revision":1305501480,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18152714","to":"wikipedia://en/2636426","predicate":"related","method":"see-also","confidence":"low","span":[7789,7806],"revision":1305501480,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18152714","to":"wikipedia://en/3654105","predicate":"related","method":"see-also","confidence":"low","span":[7809,7823],"revision":1305501480,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18152714","to":"Template:Wiktionary","predicate":"in-nav","method":"nav","confidence":"low","span":[7883,7897],"revision":1305501480,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18152714","to":"Category:Authority","predicate":"in-field","method":"category","confidence":"medium","span":[8689,8711],"revision":1305501480,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18152714","to":"Category:Genetic fallacies","predicate":"in-field","method":"category","confidence":"medium","span":[8712,8742],"revision":1305501480,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18152714","to":"Category:Latin legal terminology","predicate":"in-field","method":"category","confidence":"medium","span":[8743,8779],"revision":1305501480,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18152714","to":"Category:Latin logical phrases","predicate":"in-field","method":"category","confidence":"medium","span":[8780,8814],"revision":1305501480,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18152714","to":"Category:Latin words and phrases","predicate":"in-field","method":"category","confidence":"medium","span":[8815,8851],"revision":1305501480,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18152714","to":"Category:Legal reasoning","predicate":"in-field","method":"category","confidence":"medium","span":[8852,8880],"revision":1305501480,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43825561","to":"wikipedia://en/22939","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[474,485],"revision":1362494694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43825561","to":"wikipedia://en/5791679","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[537,577],"revision":1362494694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43825561","to":"wikipedia://en/23859945","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[605,642],"revision":1362494694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43825561","to":"wikipedia://en/58014671","predicate":"related","method":"link-in-lead","confidence":"low","span":[1183,1207],"revision":1362494694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43825561","to":"wikipedia://en/579026","predicate":"related","method":"link-in-text","confidence":"low","span":[2369,2396],"revision":1362494694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43825561","to":"wikipedia://en/402504","predicate":"related","method":"link-in-text","confidence":"low","span":[2935,2953],"revision":1362494694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43825561","to":"wikipedia://en/6692326","predicate":"related","method":"link-in-text","confidence":"low","span":[3666,3692],"revision":1362494694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43825561","to":"wikipedia://en/157700","predicate":"related","method":"link-in-text","confidence":"low","span":[3913,3934],"revision":1362494694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43825561","to":"wikipedia://en/2409308","predicate":"related","method":"link-in-text","confidence":"low","span":[5104,5123],"revision":1362494694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43825561","to":"wikipedia://en/1309","predicate":"related","method":"link-in-text","confidence":"low","span":[5148,5162],"revision":1362494694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43825561","to":"wikipedia://en/18198","predicate":"related","method":"link-in-text","confidence":"low","span":[5180,5200],"revision":1362494694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43825561","to":"wikipedia://en/6172","predicate":"related","method":"link-in-text","confidence":"low","span":[7082,7096],"revision":1362494694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43825561","to":"wikipedia://en/1197531","predicate":"related","method":"link-in-text","confidence":"low","span":[7150,7172],"revision":1362494694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43825561","to":"Category:Gravity","predicate":"in-field","method":"category","confidence":"medium","span":[7773,7793],"revision":1362494694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43825561","to":"Category:Orbits","predicate":"in-field","method":"category","confidence":"medium","span":[7794,7813],"revision":1362494694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43825561","to":"Category:Classical mechanics","predicate":"in-field","method":"category","confidence":"medium","span":[7814,7846],"revision":1362494694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43825561","to":"Category:Dynamical systems","predicate":"in-field","method":"category","confidence":"medium","span":[7847,7877],"revision":1362494694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43825561","to":"Category:Conjectures that have been proved","predicate":"kind-of","method":"category","confidence":"medium","span":[7878,7924],"revision":1362494694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50416#S6MB","to":"wikipedia://en/48260","predicate":"uses","method":"link-in-item","confidence":"high","span":[16941,16977],"revision":1375872917,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5924217#W1D5","to":"wikipedia://en/9109","predicate":"uses","method":"link-in-item","confidence":"high","span":[1744,1768],"revision":1363529473,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5924217#W1D5","to":"wikipedia://en/669532","predicate":"uses","method":"link-in-item","confidence":"high","span":[2299,2327],"revision":1363529473,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5924217#W1D5","to":"wikipedia://en/35903941","predicate":"uses","method":"link-in-item","confidence":"high","span":[2398,2418],"revision":1363529473,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5924217#W1D5","to":"wikipedia://en/2914128","predicate":"uses","method":"link-in-item","confidence":"high","span":[2452,2486],"revision":1363529473,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5924217#W1D5","to":"wikipedia://en/2914126","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2745,2795],"revision":1363529473,"by":"importer/wikipedia/1"}

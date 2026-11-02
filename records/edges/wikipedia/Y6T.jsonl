@@ -1,0 +1,10 @@
+{"from":"wikipedia://en/44826301","to":"wikipedia://en/11659","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[110,130],"revision":1351137691,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44826301","to":"wikipedia://en/61532","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[167,213],"revision":1351137691,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44826301","to":"wikipedia://en/59038","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[214,232],"revision":1351137691,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44826301","to":"wikipedia://en/63185","predicate":"related","method":"link-in-lead","confidence":"low","span":[328,346],"revision":1351137691,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44826301","to":"wikipedia://en/556462","predicate":"related","method":"link-in-lead","confidence":"low","span":[351,392],"revision":1351137691,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44826301","to":"wikipedia://en/63185","predicate":"related","method":"link-in-lead","confidence":"low","span":[395,413],"revision":1351137691,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44826301","to":"wikipedia://en/27489616","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[650,691],"revision":1351137691,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44826301","to":"wikipedia://en/30749257","predicate":"related","method":"see-also","confidence":"low","span":[3891,3928],"revision":1351137691,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44826301","to":"Category:Theorems in Fourier analysis","predicate":"kind-of","method":"category","confidence":"medium","span":[3994,4035],"revision":1351137691,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51140705#8IO3","to":"wikipedia://en/3502225","predicate":"listed-in","method":"list","confidence":"certain","span":[13608,13626],"revision":1369875693,"by":"importer/wikipedia/1"}

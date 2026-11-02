@@ -1,0 +1,38 @@
+{"from":"wikipedia://en/22609470#A1XR","to":"wikipedia://en/555782","predicate":"listed-in","method":"list","confidence":"certain","span":[15763,15776],"revision":1340541119,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30774748","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[800,812],"revision":1346750331,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30774748","to":"wikipedia://en/745180","predicate":"related","method":"link-in-lead","confidence":"low","span":[863,876],"revision":1346750331,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30774748","to":"wikipedia://en/1209","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[930,938],"revision":1346750331,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30774748","to":"wikipedia://en/971691","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[966,981],"revision":1346750331,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30774748","to":"wikipedia://en/39330","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1048,1096],"revision":1346750331,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30774748","to":"wikipedia://en/6292","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1189,1210],"revision":1346750331,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30774748","to":"wikipedia://en/6292","predicate":"related","method":"link-in-text","confidence":"low","span":[1923,1944],"revision":1346750331,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30774748","to":"wikipedia://en/11956019","predicate":"uses","method":"named-link","confidence":"high","span":[1983,2013],"revision":1346750331,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30774748","to":"wikipedia://en/12056032","predicate":"related","method":"link-in-text","confidence":"low","span":[2375,2394],"revision":1346750331,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30774748","to":"wikipedia://en/1967249","predicate":"related","method":"link-in-text","confidence":"low","span":[3654,3673],"revision":1346750331,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30774748","to":"wikipedia://en/11413257","predicate":"related","method":"see-also","confidence":"low","span":[4099,4122],"revision":1346750331,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30774748","to":"wikipedia://en/588260","predicate":"related","method":"see-also","confidence":"low","span":[4234,4248],"revision":1346750331,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30774748","to":"wikipedia://en/52153555","predicate":"related","method":"see-also","confidence":"low","span":[4373,4414],"revision":1346750331,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30774748","to":"wikipedia://en/55828944","predicate":"related","method":"see-also","confidence":"low","span":[4495,4533],"revision":1346750331,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30774748","to":"Category:Discrete geometry","predicate":"in-field","method":"category","confidence":"medium","span":[7513,7543],"revision":1346750331,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30774748","to":"Category:Unsolved problems in geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[7544,7586],"revision":1346750331,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30774748","to":"Category:Recreational mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[7587,7624],"revision":1346750331,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30774748","to":"Category:Curves","predicate":"in-field","method":"category","confidence":"medium","span":[7625,7644],"revision":1346750331,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30774748","to":"Category:Area","predicate":"in-field","method":"category","confidence":"medium","span":[7645,7662],"revision":1346750331,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4321#YKAR","to":"wikipedia://en/1175028","predicate":"uses","method":"link-in-item","confidence":"medium","span":[32751,32772],"revision":1371790355,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4321#YKAR","to":"wikipedia://en/4320","predicate":"uses","method":"link-in-item","confidence":"high","span":[33054,33077],"revision":1371790355,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59072266","to":"wikipedia://en/24295969","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[89,134],"revision":1241052800,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59072266","to":"wikipedia://en/29324","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[151,172],"revision":1241052800,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59072266","to":"wikipedia://en/97922","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[177,197],"revision":1241052800,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59072266","to":"wikipedia://en/4557519","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[225,248],"revision":1241052800,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59072266","to":"wikipedia://en/16137869","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[253,266],"revision":1241052800,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59072266","to":"wikipedia://en/180763","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[294,322],"revision":1241052800,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59072266","to":"wikipedia://en/670437","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[424,449],"revision":1241052800,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59072266","to":"wikipedia://en/203565","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[547,575],"revision":1241052800,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59072266","to":"wikipedia://en/217523","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[582,606],"revision":1241052800,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59072266","to":"wikipedia://en/270977","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[611,630],"revision":1241052800,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59072266","to":"wikipedia://en/149896","predicate":"related","method":"link-in-lead","confidence":"low","span":[691,707],"revision":1241052800,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59072266","to":"wikipedia://en/30864973","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[724,755],"revision":1241052800,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59072266","to":"Category:20th-century German mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2075,2122],"revision":1241052800,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59072266","to":"Category:21st-century German women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2123,2176],"revision":1241052800,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59072266","to":"Category:Academic staff of the University of Göttingen","predicate":"in-field","method":"category","confidence":"medium","span":[2177,2236],"revision":1241052800,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59072266","to":"Category:21st-century German mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2237,2284],"revision":1241052800,"by":"importer/wikipedia/1"}

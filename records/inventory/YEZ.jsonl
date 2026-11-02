@@ -1,1 +1,4 @@
 {"id":"YEZ38K038X","mentions":["ax://paper/2308.05715#2MSL"],"kind":"definition","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
+{"id":"YEZEJYPFG8","mentions":["wikipedia://en/22156658"],"kind":"definition","name":"True arithmetic","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"YEZN9VZ20K","mentions":["wikipedia://en/72883371#4V64"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"YEZVGY10C2","mentions":["wikipedia://en/17070#OMZL"],"kind":"unknown","name":"Space-time-matter theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

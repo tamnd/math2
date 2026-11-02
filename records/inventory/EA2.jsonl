@@ -1,1 +1,3 @@
-{"id":"EA2YVF2RXV","mentions":["m2://rec/wikidata/Q877802#1"],"kind":"unknown","name":"integral transform","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"EA2KM2XA0K","mentions":["wikipedia://en/11353703#E1GF"],"kind":"unknown","name":"Eli Shamir","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"EA2NSJXBYS","mentions":["wikipedia://en/71740001#JKEA"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"EA2YVF2RXV","mentions":["m2://rec/wikidata/Q877802#1","wikipedia://en/430912"],"kind":"definition","name":"integral transform","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

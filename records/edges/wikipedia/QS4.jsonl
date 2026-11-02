@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/51140705#8GNB","to":"wikipedia://en/79827952","predicate":"listed-in","method":"list","confidence":"certain","span":[73935,73957],"revision":1369875693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54347","to":"wikipedia://en/27553","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[641,655],"revision":1355557106,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54347","to":"wikipedia://en/26691","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[683,708],"revision":1355557106,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54347","to":"wikipedia://en/682629","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[961,995],"revision":1355557106,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54347","to":"wikipedia://en/296838","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1259,1293],"revision":1355557106,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54347","to":"wikipedia://en/682629","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1355,1388],"revision":1355557106,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54347","to":"wikipedia://en/73634","predicate":"related","method":"hatnote","confidence":"medium","span":[9783,9822],"revision":1355557106,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54347","to":"wikipedia://en/18195","predicate":"related","method":"link-in-text","confidence":"low","span":[9833,9842],"revision":1355557106,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54347","to":"wikipedia://en/174815","predicate":"related","method":"link-in-text","confidence":"low","span":[10280,10293],"revision":1355557106,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54347","to":"Template:Mathematical logic","predicate":"in-nav","method":"nav","confidence":"low","span":[12435,12457],"revision":1355557106,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54347","to":"Category:Basic concepts in set theory","predicate":"in-field","method":"category","confidence":"medium","span":[12500,12541],"revision":1355557106,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54347","to":"Category:Operations on sets","predicate":"in-field","method":"category","confidence":"medium","span":[12542,12573],"revision":1355557106,"by":"importer/wikipedia/1"}

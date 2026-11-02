@@ -1,0 +1,24 @@
+{"from":"wikipedia://en/1940948","to":"wikipedia://en/11180","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[34,57],"revision":1284734658,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1940948","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[79,94],"revision":1284734658,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1940948","to":"wikipedia://en/1725128","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[120,132],"revision":1284734658,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1940948","to":"wikipedia://en/1725128","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[166,178],"revision":1284734658,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1940948","to":"wikipedia://en/1701075","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[198,227],"revision":1284734658,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1940948","to":"wikipedia://en/3460662","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[238,256],"revision":1284734658,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1940948","to":"wikipedia://en/1701075","predicate":"related","method":"link-in-text","confidence":"low","span":[523,556],"revision":1284734658,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1940948","to":"wikipedia://en/349755","predicate":"related","method":"link-in-text","confidence":"low","span":[566,583],"revision":1284734658,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1940948","to":"wikipedia://en/45194","predicate":"related","method":"link-in-text","confidence":"low","span":[664,699],"revision":1284734658,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1940948","to":"Template:Functional analysis","predicate":"in-nav","method":"nav","confidence":"low","span":[1317,1340],"revision":1284734658,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1940948","to":"Category:Topological vector spaces","predicate":"in-field","method":"category","confidence":"medium","span":[1371,1409],"revision":1284734658,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#KAIC","to":"wikipedia://en/2600152","predicate":"listed-in","method":"list","confidence":"certain","span":[42719,42736],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62036856","to":"wikipedia://en/27553","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[227,241],"revision":1346127942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62036856","to":"wikipedia://en/10989","predicate":"related","method":"link-in-lead","confidence":"low","span":[349,368],"revision":1346127942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62036856","to":"wikipedia://en/2275071","predicate":"related","method":"link-in-text","confidence":"low","span":[406,436],"revision":1346127942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62036856","to":"wikipedia://en/3785996","predicate":"related","method":"link-in-text","confidence":"low","span":[979,996],"revision":1346127942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62036856","to":"wikipedia://en/2290967","predicate":"related","method":"link-in-text","confidence":"low","span":[1001,1029],"revision":1346127942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62036856","to":"wikipedia://en/54729289","predicate":"related","method":"link-in-text","confidence":"low","span":[1330,1353],"revision":1346127942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62036856","to":"wikipedia://en/331211","predicate":"related","method":"link-in-text","confidence":"low","span":[1358,1376],"revision":1346127942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62036856","to":"wikipedia://en/66546963","predicate":"related","method":"link-in-text","confidence":"low","span":[2100,2115],"revision":1346127942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62036856","to":"Template:Portal","predicate":"in-nav","method":"nav","confidence":"low","span":[3136,3158],"revision":1346127942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62036856","to":"wikipedia://en/57923100","predicate":"related","method":"see-also","confidence":"low","span":[3161,3191],"revision":1346127942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62036856","to":"Category:Mathematics awards","predicate":"in-field","method":"category","confidence":"medium","span":[3250,3281],"revision":1346127942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62036856","to":"Category:Set theory","predicate":"in-field","method":"category","confidence":"medium","span":[3282,3305],"revision":1346127942,"by":"importer/wikipedia/1"}

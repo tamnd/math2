@@ -1,1 +1,8 @@
-{"id":"4C1YZ78YYV","mentions":["m2://rec/wikidata/Q2905588#1"],"kind":"concept","name":"Cramér's V","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4C16D7GZNR","mentions":["wikipedia://en/45049676#I104"],"kind":"unknown","name":"Carlini & Wagner attack","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4C170G28QR","mentions":["wikipedia://en/51140705#JG0O"],"kind":"unknown","name":"John M. Abowd","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4C1QB51H9K","mentions":["wikipedia://en/32883354#DS9B"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4C1T9S2GZJ","mentions":["wikipedia://en/7759194#FHQU"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4C1V1GD82Q","mentions":["wikipedia://en/2960687#59WM"],"kind":"topic","name":"Gelfand, Israel Moiseevich","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4C1X8NCKQE","mentions":["wikipedia://en/2206157"],"kind":"definition","name":"Concurrent lines","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4C1YZ78YYV","mentions":["m2://rec/wikidata/Q2905588#1","wikipedia://en/30577285"],"kind":"concept","name":"Cramér's V","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4C1Z4N17H2","mentions":["wikipedia://en/25141419#BPXC"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

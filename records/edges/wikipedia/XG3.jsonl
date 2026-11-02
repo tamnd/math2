@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/14403539#2KZD","to":"wikipedia://en/60414667","predicate":"listed-in","method":"list","confidence":"certain","span":[43390,43407],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14403539#KBID","to":"wikipedia://en/35002352","predicate":"listed-in","method":"list","confidence":"certain","span":[34163,34204],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1594239","to":"wikipedia://en/5170","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[227,244],"revision":1315363747,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1594239","to":"wikipedia://en/1588279","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1268,1315],"revision":1315363747,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1594239","to":"wikipedia://en/27553","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1869,1883],"revision":1315363747,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1594239","to":"wikipedia://en/39359","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2268,2285],"revision":1315363747,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1594239","to":"wikipedia://en/18881","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2869,2905],"revision":1315363747,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1594239","to":"wikipedia://en/1588279","predicate":"related","method":"see-also","confidence":"low","span":[6612,6639],"revision":1315363747,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1594239","to":"wikipedia://en/1594286","predicate":"related","method":"see-also","confidence":"low","span":[6641,6660],"revision":1315363747,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1594239","to":"wikipedia://en/342684","predicate":"related","method":"see-also","confidence":"low","span":[6662,6697],"revision":1315363747,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1594239","to":"Category:Combinatorics","predicate":"in-field","method":"category","confidence":"medium","span":[6698,6724],"revision":1315363747,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1594239","to":"Category:Mathematical principles","predicate":"in-field","method":"category","confidence":"medium","span":[6725,6761],"revision":1315363747,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3117016#MZ9I","to":"wikipedia://en/25975488","predicate":"uses","method":"link-in-item","confidence":"medium","span":[24451,24484],"revision":1374097521,"by":"importer/wikipedia/1"}

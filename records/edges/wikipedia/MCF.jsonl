@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/19710#K25Y","to":"wikipedia://en/3043048","predicate":"listed-in","method":"list","confidence":"certain","span":[1118,1183],"revision":1368643048,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/596600","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[122,137],"revision":1315004989,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/596600","to":"wikipedia://en/30450","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[256,277],"revision":1315004989,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/596600","to":"wikipedia://en/42309","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[307,338],"revision":1315004989,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/596600","to":"wikipedia://en/6042","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[342,367],"revision":1315004989,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/596600","to":"wikipedia://en/405512","predicate":"restates","method":"hatnote","confidence":"high","span":[2144,2168],"revision":1315004989,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/596600","to":"wikipedia://en/405512","predicate":"related","method":"link-in-text","confidence":"low","span":[2192,2220],"revision":1315004989,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/596600","to":"wikipedia://en/6746775","predicate":"related","method":"see-also","confidence":"low","span":[2434,2456],"revision":1315004989,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/596600","to":"wikipedia://en/1528346","predicate":"related","method":"see-also","confidence":"low","span":[2459,2484],"revision":1315004989,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/596600","to":"Category:Properties of topological spaces","predicate":"in-field","method":"category","confidence":"medium","span":[2845,2890],"revision":1315004989,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/596600","to":"Category:Compactness (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[2891,2929],"revision":1315004989,"by":"importer/wikipedia/1"}

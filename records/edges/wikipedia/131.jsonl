@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/22722334","to":"wikipedia://en/153008","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[50,65],"revision":1190592847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22722334","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[78,93],"revision":1190592847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22722334","to":"wikipedia://en/1161784","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[121,148],"revision":1190592847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22722334","to":"wikipedia://en/1164126","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[169,183],"revision":1190592847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22722334","to":"wikipedia://en/366808","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[189,216],"revision":1190592847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22722334","to":"wikipedia://en/61632","predicate":"related","method":"link-in-lead","confidence":"low","span":[241,256],"revision":1190592847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22722334","to":"wikipedia://en/11004","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[346,367],"revision":1190592847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22722334","to":"wikipedia://en/1350120","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[375,394],"revision":1190592847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22722334","to":"wikipedia://en/1164126","predicate":"related","method":"see-also","confidence":"low","span":[6199,6213],"revision":1190592847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22722334","to":"wikipedia://en/6013248","predicate":"related","method":"see-also","confidence":"low","span":[6216,6236],"revision":1190592847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22722334","to":"Category:Knot invariants","predicate":"in-field","method":"category","confidence":"medium","span":[8547,8575],"revision":1190592847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22722334","to":"Category:Links (knot theory)","predicate":"in-field","method":"category","confidence":"medium","span":[8576,8608],"revision":1190592847,"by":"importer/wikipedia/1"}

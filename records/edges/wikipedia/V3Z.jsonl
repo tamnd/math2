@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/47738065#BIES","to":"wikipedia://en/2070195","predicate":"listed-in","method":"list","confidence":"certain","span":[54866,54887],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/660973#7Z59","to":"wikipedia://en/644671","predicate":"listed-in","method":"list","confidence":"certain","span":[1511,1562],"revision":1356076661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7498882","to":"wikipedia://en/26685","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[149,163],"revision":1297352501,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7498882","to":"wikipedia://en/477032","predicate":"related","method":"link-in-lead","confidence":"low","span":[186,204],"revision":1297352501,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7498882","to":"wikipedia://en/1363385","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[234,265],"revision":1297352501,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7498882","to":"wikipedia://en/5225","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[324,333],"revision":1297352501,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7498882","to":"wikipedia://en/5244","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[338,349],"revision":1297352501,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7498882","to":"wikipedia://en/32087","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[365,397],"revision":1297352501,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7498882","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[403,418],"revision":1297352501,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7498882","to":"wikipedia://en/20087","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[436,458],"revision":1297352501,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7498882","to":"wikipedia://en/21527","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[469,486],"revision":1297352501,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7498882","to":"wikipedia://en/18422","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[493,511],"revision":1297352501,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7498882","to":"wikipedia://en/20556859","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[535,568],"revision":1297352501,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7498882","to":"wikipedia://en/5170","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[575,592],"revision":1297352501,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7498882","to":"wikipedia://en/26685","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[607,621],"revision":1297352501,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7498882","to":"wikipedia://en/51955","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[883,926],"revision":1297352501,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7498882","to":"wikipedia://en/157935","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1002,1016],"revision":1297352501,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7498882","to":"wikipedia://en/27701","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1113,1150],"revision":1297352501,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7498882","to":"Category:Cryptographic attacks","predicate":"in-field","method":"category","confidence":"medium","span":[1864,1898],"revision":1297352501,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7498882","to":"Category:Computational linguistics","predicate":"in-field","method":"category","confidence":"medium","span":[1899,1937],"revision":1297352501,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7498882","to":"Category:Statistical natural language processing","predicate":"in-field","method":"category","confidence":"medium","span":[1938,1990],"revision":1297352501,"by":"importer/wikipedia/1"}

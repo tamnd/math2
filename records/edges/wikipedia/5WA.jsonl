@@ -1,0 +1,28 @@
+{"from":"wikipedia://en/25198879","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[516,528],"revision":1372144265,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25198879","to":"wikipedia://en/1209","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[581,590],"revision":1372144265,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25198879","to":"wikipedia://en/329542","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[624,651],"revision":1372144265,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25198879","to":"wikipedia://en/24768","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[728,737],"revision":1372144265,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25198879","to":"wikipedia://en/2397591","predicate":"related","method":"link-in-text","confidence":"low","span":[2006,2038],"revision":1372144265,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25198879","to":"wikipedia://en/39330","predicate":"related","method":"link-in-text","confidence":"low","span":[2150,2185],"revision":1372144265,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25198879","to":"wikipedia://en/702351","predicate":"related","method":"link-in-text","confidence":"low","span":[6182,6206],"revision":1372144265,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25198879","to":"wikipedia://en/15575410","predicate":"related","method":"link-in-text","confidence":"low","span":[6503,6529],"revision":1372144265,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25198879","to":"wikipedia://en/3826308","predicate":"related","method":"see-also","confidence":"low","span":[6596,6611],"revision":1372144265,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25198879","to":"wikipedia://en/399730","predicate":"related","method":"see-also","confidence":"low","span":[6615,6647],"revision":1372144265,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25198879","to":"wikipedia://en/2038304","predicate":"related","method":"see-also","confidence":"low","span":[6682,6709],"revision":1372144265,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25198879","to":"wikipedia://en/51421","predicate":"related","method":"see-also","confidence":"low","span":[6713,6742],"revision":1372144265,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25198879","to":"wikipedia://en/14563","predicate":"related","method":"see-also","confidence":"low","span":[6746,6758],"revision":1372144265,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25198879","to":"Category:Area","predicate":"in-field","method":"category","confidence":"medium","span":[11444,11461],"revision":1372144265,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25198879","to":"Category:Theorems about circles","predicate":"kind-of","method":"category","confidence":"medium","span":[11462,11497],"revision":1372144265,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25198879","to":"Category:Pizza in popular culture","predicate":"in-field","method":"category","confidence":"medium","span":[11498,11535],"revision":1372144265,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25198879","to":"Category:Proof without words","predicate":"in-field","method":"category","confidence":"medium","span":[11536,11568],"revision":1372144265,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25198879","to":"Category:Metaphors referring to baked goods","predicate":"in-field","method":"category","confidence":"medium","span":[11569,11616],"revision":1372144265,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45625319","to":"wikipedia://en/25431","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[194,222],"revision":1353475820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45625319","to":"wikipedia://en/57642956","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[333,434],"revision":1353475820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45625319","to":"wikipedia://en/48551031","predicate":"related","method":"link-in-lead","confidence":"low","span":[453,475],"revision":1353475820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45625319","to":"wikipedia://en/374544","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[504,531],"revision":1353475820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45625319","to":"wikipedia://en/628515","predicate":"related","method":"link-in-lead","confidence":"low","span":[557,606],"revision":1353475820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45625319","to":"wikipedia://en/627842","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[746,790],"revision":1353475820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45625319","to":"Category:Soviet mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3145,3179],"revision":1353475820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45625319","to":"Category:20th-century Russian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3180,3228],"revision":1353475820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45625319","to":"Category:21st-century Russian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3229,3277],"revision":1353475820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76765067#F7YO","to":"wikipedia://en/16943184","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[84398,84414],"revision":1368301704,"by":"importer/wikipedia/1"}

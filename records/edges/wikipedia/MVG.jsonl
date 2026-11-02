@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/12830119#OZCJ","to":"wikipedia://en/11391440","predicate":"listed-in","method":"list","confidence":"certain","span":[4640,4666],"revision":1274453818,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2980541","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1261281395,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2980541","to":"wikipedia://en/253260","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[175,195],"revision":1261281395,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2980541","to":"wikipedia://en/599865","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[224,250],"revision":1261281395,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2980541","to":"Template:Algebraic curves navbox","predicate":"in-nav","method":"nav","confidence":"low","span":[5834,5861],"revision":1261281395,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2980541","to":"Category:Algebraic curves","predicate":"in-field","method":"category","confidence":"medium","span":[5863,5892],"revision":1261281395,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2980541","to":"Category:Theorems in algebraic geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[5893,5936],"revision":1261281395,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2980541","to":"Category:Unsolved problems in geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[5937,5979],"revision":1261281395,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48977562#LC4K","to":"wikipedia://en/229939","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[14844,14926],"revision":1319438253,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/757745#OPJ3","to":"wikipedia://en/1457254","predicate":"listed-in","method":"list","confidence":"certain","span":[565,588],"revision":1333755350,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8517337","to":"wikipedia://en/7330660","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[61,89],"revision":1296980085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8517337","to":"wikipedia://en/20556859","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[160,191],"revision":1296980085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8517337","to":"wikipedia://en/341015","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[197,221],"revision":1296980085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8517337","to":"wikipedia://en/6243993","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[243,263],"revision":1296980085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8517337","to":"wikipedia://en/5165246","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[280,298],"revision":1296980085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8517337","to":"wikipedia://en/374222","predicate":"related","method":"link-in-text","confidence":"low","span":[459,521],"revision":1296980085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8517337","to":"wikipedia://en/374222","predicate":"related","method":"link-in-text","confidence":"low","span":[532,570],"revision":1296980085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8517337","to":"wikipedia://en/1025794","predicate":"related","method":"link-in-text","confidence":"low","span":[1040,1068],"revision":1296980085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8517337","to":"wikipedia://en/1448821","predicate":"related","method":"link-in-text","confidence":"low","span":[1452,1481],"revision":1296980085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8517337","to":"wikipedia://en/4329521","predicate":"related","method":"link-in-text","confidence":"low","span":[1485,1494],"revision":1296980085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8517337","to":"wikipedia://en/7939066","predicate":"related","method":"link-in-text","confidence":"low","span":[3502,3514],"revision":1296980085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8517337","to":"wikipedia://en/8518192","predicate":"related","method":"see-also","confidence":"low","span":[5040,5077],"revision":1296980085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8517337","to":"Category:Numerical linear algebra","predicate":"in-field","method":"category","confidence":"medium","span":[5528,5565],"revision":1296980085,"by":"importer/wikipedia/1"}

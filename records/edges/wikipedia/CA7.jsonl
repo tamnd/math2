@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/11494014","to":"wikipedia://en/12401","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[153,169],"revision":1344966522,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11494014","to":"wikipedia://en/11492935","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[446,463],"revision":1344966522,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11494014","to":"wikipedia://en/2856852","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[634,665],"revision":1344966522,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11494014","to":"wikipedia://en/2861799","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[674,702],"revision":1344966522,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11494014","to":"wikipedia://en/4508797","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[743,759],"revision":1344966522,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11494014","to":"Category:Graph products","predicate":"in-field","method":"category","confidence":"medium","span":[13074,13101],"revision":1344966522,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/140829#RVGK","to":"wikipedia://en/19653610","predicate":"listed-in","method":"list","confidence":"certain","span":[20741,20777],"revision":1372044875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/241820#M5AB","to":"wikipedia://en/24979","predicate":"listed-in","method":"list","confidence":"certain","span":[35181,35195],"revision":1375503641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2669524#VVLI","to":"wikipedia://en/5989592","predicate":"uses","method":"link-in-item","confidence":"high","span":[1857,1918],"revision":1350652347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/347836#RA9C","to":"wikipedia://en/6523885","predicate":"listed-in","method":"list","confidence":"certain","span":[3492,3514],"revision":1356076879,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35625607#OTEI","to":"wikipedia://en/4418897","predicate":"uses","method":"link-in-item","confidence":"high","span":[3072,3092],"revision":1356868954,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565351#XBXU","to":"wikipedia://en/898066","predicate":"listed-in","method":"list","confidence":"certain","span":[40449,40465],"revision":1373350261,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#7XK4","to":"wikipedia://en/53097679","predicate":"listed-in","method":"list","confidence":"certain","span":[18620,18638],"revision":1356718736,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#7XK4","to":"wikipedia://en/15381920","predicate":"uses","method":"link-in-item","confidence":"medium","span":[18655,18700],"revision":1356718736,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#7XK4","to":"wikipedia://en/210910","predicate":"uses","method":"link-in-item","confidence":"medium","span":[18706,18720],"revision":1356718736,"by":"importer/wikipedia/1"}

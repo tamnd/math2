@@ -1,0 +1,28 @@
+{"from":"wikipedia://en/1617753","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[713,730],"revision":1372822242,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1617753","to":"wikipedia://en/1346848","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[747,759],"revision":1372822242,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1617753","to":"wikipedia://en/32616","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[766,776],"revision":1372822242,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1617753","to":"wikipedia://en/2895401","predicate":"related","method":"link-in-text","confidence":"low","span":[813,823],"revision":1372822242,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1617753","to":"wikipedia://en/1569217","predicate":"related","method":"see-also","confidence":"low","span":[2009,2029],"revision":1372822242,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1617753","to":"Category:Algebraic geometers","predicate":"in-field","method":"category","confidence":"medium","span":[3954,3986],"revision":1372822242,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1617753","to":"Category:Italian algebraic geometers","predicate":"in-field","method":"category","confidence":"medium","span":[3987,4027],"revision":1372822242,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1617753","to":"Category:20th-century Italian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4028,4076],"revision":1372822242,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1617753","to":"Category:19th-century Italian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4077,4125],"revision":1372822242,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1617753","to":"Category:Italian historians of mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[4126,4172],"revision":1372822242,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1617753","to":"Category:Academic staff of the University of Padua","predicate":"in-field","method":"category","confidence":"medium","span":[4173,4227],"revision":1372822242,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17422461","to":"wikipedia://en/239851","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[117,144],"revision":1322626161,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17422461","to":"wikipedia://en/21535996","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[152,175],"revision":1322626161,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17422461","to":"wikipedia://en/24758677","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[319,355],"revision":1322626161,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17422461","to":"wikipedia://en/340240","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[366,400],"revision":1322626161,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17422461","to":"wikipedia://en/172896","predicate":"related","method":"link-in-lead","confidence":"low","span":[461,501],"revision":1322626161,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17422461","to":"wikipedia://en/239851","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1111,1164],"revision":1322626161,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17422461","to":"wikipedia://en/15756448","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1195,1257],"revision":1322626161,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17422461","to":"wikipedia://en/48396","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1295,1329],"revision":1322626161,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17422461","to":"wikipedia://en/6122","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1353,1376],"revision":1322626161,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17422461","to":"wikipedia://en/193053","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1593,1626],"revision":1322626161,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17422461","to":"wikipedia://en/17637","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1836,1866],"revision":1322626161,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17422461","to":"wikipedia://en/5042360","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2041,2068],"revision":1322626161,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17422461","to":"wikipedia://en/3261244","predicate":"related","method":"see-also","confidence":"low","span":[2335,2363],"revision":1322626161,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17422461","to":"Category:Constructivism (philosophy of mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[3612,3667],"revision":1322626161,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#2PHL","to":"wikipedia://en/732873","predicate":"listed-in","method":"list","confidence":"certain","span":[25954,25980],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/404009#JYZ5","to":"wikipedia://en/6054681","predicate":"listed-in","method":"list","confidence":"certain","span":[760,788],"revision":1242962963,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/404009#JYZ5","to":"wikipedia://en/21506","predicate":"uses","method":"link-in-item","confidence":"high","span":[790,812],"revision":1242962963,"by":"importer/wikipedia/1"}

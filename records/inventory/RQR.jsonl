@@ -1,1 +1,6 @@
+{"id":"RQR44ZTJ4D","mentions":["wikipedia://en/56061#YGU9"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"RQR9VGYEPZ","mentions":["wikipedia://en/25971#0R70"],"kind":"unknown","name":"43,252,003,274,489,856,000","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"RQRG3BHJM8","mentions":["wikipedia://en/182890#6U4J"],"kind":"unknown","name":"Substitution tensor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RQRH87YGSZ","mentions":["ax://paper/2609.28195#H4WP"],"kind":"statement","msc":["13-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}
+{"id":"RQRT1N21N6","mentions":["wikipedia://en/30863772#E2YG"],"kind":"conjecture","name":"Double Mersenne number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"RQRWQ0S4Z6","mentions":["wikipedia://en/5491540"],"kind":"definition","name":"Lamplighter group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,1 +1,5 @@
+{"id":"5YX1JKBT92","mentions":["wikipedia://en/47658359"],"kind":"topic","name":"José Martín Espinosa de los Monteros","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5YX3778FKZ","mentions":["wikipedia://en/12545997"],"kind":"definition","name":"British Social Attitudes Survey","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5YXK3SSGAM","mentions":["wikipedia://en/10102876#U133"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5YXMCQZEAS","mentions":["ax://paper/2610.19260#WIAR"],"kind":"statement","msc":["20-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
+{"id":"5YXTPD5Z2W","mentions":["wikipedia://en/39352#9IA0"],"kind":"unknown","name":"Spoofing","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

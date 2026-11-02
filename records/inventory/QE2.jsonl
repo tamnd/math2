@@ -1,1 +1,3 @@
+{"id":"QE20RNPJS7","mentions":["wikipedia://en/87352#8U54"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QE21B8S425","mentions":["m2://rec/open_logic/content/first-order-logic/sequent-calculus/rules-and-proofs.tex#defn-1#1"],"kind":"definition","name":"Sequent","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"QE22ASYDVF","mentions":["wikipedia://en/25600925"],"kind":"topic","name":"Hervé Jacquet","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

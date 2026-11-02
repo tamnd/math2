@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/3575201#6FBQ","to":"wikipedia://en/19562","predicate":"listed-in","method":"list","confidence":"certain","span":[17360,17378],"revision":1368953294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3575201#6FBQ","to":"wikipedia://en/10913","predicate":"uses","method":"link-in-item","confidence":"high","span":[17397,17409],"revision":1368953294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5308916#06GE","to":"wikipedia://en/7832","predicate":"uses","method":"link-in-item","confidence":"high","span":[260,287],"revision":1160630683,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5308916#06GE","to":"wikipedia://en/27855","predicate":"uses","method":"link-in-item","confidence":"high","span":[288,317],"revision":1160630683,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5308916#06GE","to":"wikipedia://en/20018","predicate":"uses","method":"link-in-item","confidence":"high","span":[318,334],"revision":1160630683,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5308916#06GE","to":"wikipedia://en/29586","predicate":"uses","method":"link-in-item","confidence":"high","span":[767,800],"revision":1160630683,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5308916#06GE","to":"wikipedia://en/43327","predicate":"uses","method":"link-in-item","confidence":"high","span":[834,857],"revision":1160630683,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5308916#06GE","to":"wikipedia://en/44055","predicate":"uses","method":"link-in-item","confidence":"high","span":[959,982],"revision":1160630683,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5308916#06GE","to":"wikipedia://en/43325","predicate":"uses","method":"link-in-item","confidence":"high","span":[1006,1027],"revision":1160630683,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5308916#06GE","to":"wikipedia://en/351908","predicate":"uses","method":"link-in-item","confidence":"high","span":[1275,1292],"revision":1160630683,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66903005","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1148,1165],"revision":1372450150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66903005","to":"wikipedia://en/2154","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1185,1205],"revision":1372450150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66903005","to":"wikipedia://en/50585","predicate":"related","method":"link-in-text","confidence":"low","span":[1517,1533],"revision":1372450150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66903005","to":"wikipedia://en/1225280","predicate":"related","method":"link-in-text","confidence":"low","span":[1556,1614],"revision":1372450150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66903005","to":"wikipedia://en/166504","predicate":"related","method":"link-in-text","confidence":"low","span":[1629,1647],"revision":1372450150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66903005","to":"wikipedia://en/239930","predicate":"related","method":"link-in-text","confidence":"low","span":[1653,1674],"revision":1372450150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66903005","to":"wikipedia://en/29353","predicate":"related","method":"link-in-text","confidence":"low","span":[1811,1834],"revision":1372450150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66903005","to":"wikipedia://en/3712","predicate":"related","method":"link-in-text","confidence":"low","span":[2109,2122],"revision":1372450150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66903005","to":"wikipedia://en/8418","predicate":"related","method":"link-in-text","confidence":"low","span":[2149,2170],"revision":1372450150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66903005","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[5372,5421],"revision":1372450150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66903005","to":"Category:21st-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[5422,5471],"revision":1372450150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66903005","to":"Category:African-American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[5472,5516],"revision":1372450150,"by":"importer/wikipedia/1"}

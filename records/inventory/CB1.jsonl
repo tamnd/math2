@@ -1,3 +1,6 @@
+{"id":"CB13Q9PCMY","mentions":["wikipedia://en/241820#3P2O","wikipedia://en/468884#XGFQ"],"kind":"definition","name":"Dragon curve","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"CB17CSWV2B","mentions":["wikipedia://en/24885593#IE5Y"],"kind":"statement","name":"Building formulas from terms","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CB1BKJS0Z5","mentions":["m2://rec/ernst_ibl/MAAPressVersion/IntroToLogic.tex#thm:logical form for cases#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"CB1JFR3AH0","mentions":["wikipedia://en/26248766#9MFU"],"kind":"topic","name":"Corrado De Concini","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CB1RXGEXMP","mentions":["m2://rec/wikidata/Q141189906#1"],"kind":"unknown","name":"absolute coequalizer","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"CB1Y44GMZX","mentions":["m2://rec/wikidata/Q1154761#1"],"kind":"unknown","name":"square antiprism","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"CB1Y44GMZX","mentions":["m2://rec/wikidata/Q1154761#1","wikipedia://en/2860045"],"kind":"definition","name":"square antiprism","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

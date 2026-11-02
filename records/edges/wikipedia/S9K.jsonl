@@ -1,0 +1,26 @@
+{"from":"wikipedia://en/2827371","to":"wikipedia://en/7543","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[81,116],"revision":1274881105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2827371","to":"wikipedia://en/658518","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[173,199],"revision":1274881105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2827371","to":"wikipedia://en/502426","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[200,222],"revision":1274881105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2827371","to":"wikipedia://en/1370768","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[288,305],"revision":1274881105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2827371","to":"wikipedia://en/1370724","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[310,335],"revision":1274881105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2827371","to":"wikipedia://en/643342","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[376,392],"revision":1274881105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2827371","to":"wikipedia://en/658518","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[438,448],"revision":1274881105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2827371","to":"wikipedia://en/1145955","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[576,598],"revision":1274881105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2827371","to":"wikipedia://en/28210505","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[718,738],"revision":1274881105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2827371","to":"wikipedia://en/1811962","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1629,1689],"revision":1274881105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2827371","to":"wikipedia://en/1929955","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1819,1857],"revision":1274881105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2827371","to":"wikipedia://en/405944","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1988,2007],"revision":1274881105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2827371","to":"wikipedia://en/21562","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2051,2073],"revision":1274881105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2827371","to":"wikipedia://en/6184","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2090,2099],"revision":1274881105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2827371","to":"wikipedia://en/4734121","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2286,2296],"revision":1274881105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2827371","to":"wikipedia://en/1174919","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2386,2396],"revision":1274881105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2827371","to":"wikipedia://en/1212009","predicate":"related","method":"link-in-text","confidence":"low","span":[8807,8833],"revision":1274881105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2827371","to":"wikipedia://en/1145955","predicate":"related","method":"link-in-text","confidence":"low","span":[8853,8875],"revision":1274881105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2827371","to":"wikipedia://en/1212009","predicate":"related","method":"link-in-text","confidence":"low","span":[8880,8947],"revision":1274881105,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2827371","to":"wikipedia://en/753230","predicate":"related","method":"link-in-text","confidence":"low","span":[9009,9039],"revision":1274881105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2827371","to":"Category:Structural complexity theory","predicate":"in-field","method":"category","confidence":"medium","span":[10078,10119],"revision":1274881105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2827371","to":"Category:Mathematical theorems in theoretical computer science","predicate":"in-field","method":"category","confidence":"medium","span":[10120,10186],"revision":1274881105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55799101#XZ21","to":"wikipedia://en/11017946","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[17081,17103],"revision":1351912484,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55799101#XZ21","to":"wikipedia://en/24457573","predicate":"uses","method":"link-in-item","confidence":"high","span":[17591,17611],"revision":1351912484,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78730954#K0K6","to":"wikipedia://en/247089","predicate":"listed-in","method":"list","confidence":"certain","span":[17285,17326],"revision":1375476640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78730954#K0K6","to":"wikipedia://en/593758","predicate":"uses","method":"link-in-item","confidence":"medium","span":[17339,17364],"revision":1375476640,"by":"importer/wikipedia/1"}

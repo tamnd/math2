@@ -1,0 +1,5 @@
+{"from":"wikipedia://en/1509729","to":"wikipedia://en/26685","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,17],"revision":1357959710,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1509729","to":"wikipedia://en/368684","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[83,114],"revision":1357959710,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1509729","to":"wikipedia://en/8771473","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[120,150],"revision":1357959710,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1509729","to":"Category:Nonparametric statistics","predicate":"in-field","method":"category","confidence":"medium","span":[1040,1077],"revision":1357959710,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34532#DR3E","to":"wikipedia://en/4744575","predicate":"listed-in","method":"list","confidence":"certain","span":[1317,1361],"revision":1364976122,"by":"importer/wikipedia/1"}

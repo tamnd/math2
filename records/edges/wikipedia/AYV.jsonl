@@ -1,0 +1,5 @@
+{"from":"wikipedia://en/28214810","to":"wikipedia://en/1997","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[31,53],"revision":1136208983,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28214810","to":"wikipedia://en/276524","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[105,123],"revision":1136208983,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28214810","to":"Category:Algebraic geometry","predicate":"in-field","method":"category","confidence":"medium","span":[927,958],"revision":1136208983,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28214810","to":"Category:Vector bundles","predicate":"in-field","method":"category","confidence":"medium","span":[959,986],"revision":1136208983,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39366511#3TRP","to":"wikipedia://en/2337582","predicate":"related","method":"link-in-item","confidence":"low","span":[17419,17438],"revision":1314689100,"by":"importer/wikipedia/1"}

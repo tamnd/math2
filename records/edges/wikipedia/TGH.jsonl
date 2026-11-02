@@ -1,0 +1,9 @@
+{"from":"wikipedia://en/203876","to":"wikipedia://en/21347678","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[96,126],"revision":1371902287,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/203876","to":"wikipedia://en/22657","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[134,176],"revision":1371902287,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/203876","to":"wikipedia://en/32498","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[186,196],"revision":1371902287,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/203876","to":"Category:Orders of magnitude","predicate":"in-field","method":"category","confidence":"medium","span":[37939,37978],"revision":1371902287,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/203876","to":"Category:Orders of magnitude (volume)","predicate":"in-field","method":"category","confidence":"medium","span":[37979,38022],"revision":1371902287,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78730954#8YY8","to":"wikipedia://en/12024","predicate":"listed-in","method":"list","confidence":"certain","span":[300601,300623],"revision":1375476640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78730954#8YY8","to":"wikipedia://en/28736","predicate":"uses","method":"link-in-item","confidence":"medium","span":[300687,300705],"revision":1375476640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78730954#8YY8","to":"wikipedia://en/20431","predicate":"uses","method":"link-in-item","confidence":"high","span":[300725,300737],"revision":1375476640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78730954#8YY8","to":"wikipedia://en/3107","predicate":"uses","method":"link-in-item","confidence":"high","span":[300804,300832],"revision":1375476640,"by":"importer/wikipedia/1"}

@@ -1,0 +1,10 @@
+{"from":"wikipedia://en/11353703#DO2X","to":"wikipedia://en/1003283","predicate":"listed-in","method":"list","confidence":"certain","span":[143028,143048],"revision":1373003451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15398838","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1059494336,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15398838","to":"wikipedia://en/12746","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[39,68],"revision":1059494336,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15398838","to":"wikipedia://en/396102","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[73,100],"revision":1059494336,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15398838","to":"wikipedia://en/30330","predicate":"related","method":"link-in-text","confidence":"low","span":[6343,6361],"revision":1059494336,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15398838","to":"wikipedia://en/54347","predicate":"related","method":"link-in-text","confidence":"low","span":[6385,6423],"revision":1059494336,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15398838","to":"wikipedia://en/5744061","predicate":"related","method":"see-also","confidence":"low","span":[7033,7068],"revision":1059494336,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15398838","to":"wikipedia://en/18048054","predicate":"related","method":"see-also","confidence":"low","span":[7070,7107],"revision":1059494336,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15398838","to":"Category:Mathematical relations","predicate":"in-field","method":"category","confidence":"medium","span":[7431,7466],"revision":1059494336,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#M0EY","to":"wikipedia://en/2425410","predicate":"listed-in","method":"list","confidence":"certain","span":[31864,31887],"revision":1373230097,"by":"importer/wikipedia/1"}

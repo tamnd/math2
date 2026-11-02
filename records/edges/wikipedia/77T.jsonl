@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/37153897#VR7R","to":"wikipedia://en/17848663","predicate":"listed-in","method":"list","confidence":"certain","span":[197,219],"revision":1345397703,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/690728","to":"wikipedia://en/12401","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[506,522],"revision":1152945582,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/690728","to":"wikipedia://en/426743","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[566,585],"revision":1152945582,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/690728","to":"wikipedia://en/638899","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[660,694],"revision":1152945582,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/690728","to":"wikipedia://en/690736","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[722,743],"revision":1152945582,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/690728","to":"wikipedia://en/325806","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[887,925],"revision":1152945582,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/690728","to":"wikipedia://en/426743","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1286,1306],"revision":1152945582,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/690728","to":"wikipedia://en/325802","predicate":"related","method":"link-in-lead","confidence":"low","span":[1600,1649],"revision":1152945582,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/690728","to":"wikipedia://en/690736","predicate":"related","method":"see-also","confidence":"low","span":[1810,1831],"revision":1152945582,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/690728","to":"wikipedia://en/1609861","predicate":"related","method":"see-also","confidence":"low","span":[1834,1857],"revision":1152945582,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/690728","to":"Category:Graph coloring","predicate":"in-field","method":"category","confidence":"medium","span":[2721,2748],"revision":1152945582,"by":"importer/wikipedia/1"}

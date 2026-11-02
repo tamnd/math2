@@ -1,1 +1,6 @@
 {"id":"EB8EJV0RAF","mentions":["ax://paper/2610.02111#HB3R"],"kind":"statement","msc":["11-XX","16-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.12"}]}
+{"id":"EB8J2QJ8YJ","mentions":["wikipedia://en/1027784#BVJ7"],"kind":"unknown","name":"Simplicial object","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"EB8J42MSYE","mentions":["wikipedia://en/58693284"],"kind":"topic","name":"Ailsa Land","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"EB8K876AZA","mentions":["wikipedia://en/519271"],"kind":"definition","name":"Inverse iteration","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"EB8V0FS9WA","mentions":["wikipedia://en/47738065#X75N"],"kind":"unknown","name":"Mario Bonk","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"EB8ZPH1NFQ","mentions":["wikipedia://en/18379199"],"kind":"definition","name":"Detrended correspondence analysis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

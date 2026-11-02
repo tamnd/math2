@@ -1,0 +1,10 @@
+{"from":"wikipedia://en/17440858","to":"wikipedia://en/17440918","predicate":"related","method":"hatnote","confidence":"medium","span":[11,38],"revision":798588140,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17440858","to":"wikipedia://en/610184","predicate":"related","method":"link-in-lead","confidence":"low","span":[100,115],"revision":798588140,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17440858","to":"wikipedia://en/44968","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[181,195],"revision":798588140,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17440858","to":"wikipedia://en/666695","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[230,257],"revision":798588140,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17440858","to":"wikipedia://en/274192","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[369,388],"revision":798588140,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17440858","to":"Category:Genetic epidemiology","predicate":"in-field","method":"category","confidence":"medium","span":[984,1017],"revision":798588140,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17440858","to":"Category:Statistical genetics","predicate":"in-field","method":"category","confidence":"medium","span":[1018,1051],"revision":798588140,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17440858","to":"Category:Genetic linkage analysis","predicate":"in-field","method":"category","confidence":"medium","span":[1052,1089],"revision":798588140,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17440858","to":"Category:Statistical algorithms","predicate":"in-field","method":"category","confidence":"medium","span":[1090,1125],"revision":798588140,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565351#FNY9","to":"wikipedia://en/26055329","predicate":"listed-in","method":"list","confidence":"certain","span":[26526,26545],"revision":1373350261,"by":"importer/wikipedia/1"}

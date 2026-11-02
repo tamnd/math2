@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/1707754#3M9X","to":"wikipedia://en/236105","predicate":"listed-in","method":"list","confidence":"certain","span":[8833,8871],"revision":1369584638,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18020716#42Z3","to":"wikipedia://en/293802","predicate":"uses","method":"link-in-item","confidence":"high","span":[9509,9541],"revision":1374635956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18020716#42Z3","to":"wikipedia://en/2452154","predicate":"uses","method":"link-in-item","confidence":"high","span":[10500,10520],"revision":1374635956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2388068#GOIA","to":"wikipedia://en/22029566","predicate":"listed-in","method":"list","confidence":"certain","span":[4558,4573],"revision":1355184956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4110552#5BG6","to":"wikipedia://en/622053","predicate":"uses","method":"link-in-item","confidence":"high","span":[14095,14120],"revision":1374813862,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4110552#5BG6","to":"wikipedia://en/306706","predicate":"uses","method":"link-in-item","confidence":"high","span":[14243,14265],"revision":1374813862,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4110552#5BG6","to":"wikipedia://en/2460228","predicate":"uses","method":"link-in-item","confidence":"high","span":[14910,14932],"revision":1374813862,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4110552#5BG6","to":"wikipedia://en/102140","predicate":"uses","method":"link-in-item","confidence":"high","span":[14963,14986],"revision":1374813862,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#AN20","to":"wikipedia://en/1180916","predicate":"listed-in","method":"list","confidence":"certain","span":[39488,39508],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7807871#RLWZ","to":"wikipedia://en/43333","predicate":"uses","method":"link-in-item","confidence":"high","span":[1501,1521],"revision":1349274531,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7807871#RLWZ","to":"wikipedia://en/26703","predicate":"uses","method":"link-in-item","confidence":"high","span":[1558,1571],"revision":1349274531,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81151622","to":"wikipedia://en/59126142","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[634,661],"revision":1351687123,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81151622","to":"wikipedia://en/371299","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[679,708],"revision":1351687123,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81151622","to":"Template:Portal","predicate":"in-nav","method":"nav","confidence":"low","span":[6699,6739],"revision":1351687123,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81151622","to":"wikipedia://en/22823661","predicate":"related","method":"see-also","confidence":"low","span":[6742,6798],"revision":1351687123,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81151622","to":"Category:QDA software","predicate":"in-field","method":"category","confidence":"medium","span":[6973,6998],"revision":1351687123,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81151622","to":"Category:Free QDA software","predicate":"in-field","method":"category","confidence":"medium","span":[6999,7029],"revision":1351687123,"by":"importer/wikipedia/1"}

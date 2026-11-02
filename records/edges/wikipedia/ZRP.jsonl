@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/11391832#LWNK","to":"wikipedia://en/634","predicate":"uses","method":"link-in-item","confidence":"high","span":[6744,6768],"revision":1344081038,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11391832#LWNK","to":"wikipedia://en/6709643","predicate":"uses","method":"link-in-item","confidence":"high","span":[6816,6841],"revision":1344081038,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11391832#LWNK","to":"wikipedia://en/9653","predicate":"uses","method":"link-in-item","confidence":"high","span":[7160,7183],"revision":1344081038,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11391832#LWNK","to":"wikipedia://en/157057","predicate":"uses","method":"link-in-item","confidence":"high","span":[8486,8539],"revision":1344081038,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/476228","to":"wikipedia://en/1655450","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[170,190],"revision":1330949138,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/476228","to":"wikipedia://en/174725","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[383,437],"revision":1330949138,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/476228","to":"wikipedia://en/186028","predicate":"related","method":"link-in-text","confidence":"low","span":[560,614],"revision":1330949138,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/476228","to":"wikipedia://en/510738","predicate":"related","method":"link-in-text","confidence":"low","span":[729,761],"revision":1330949138,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/476228","to":"wikipedia://en/49072","predicate":"related","method":"link-in-text","confidence":"low","span":[1014,1032],"revision":1330949138,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/476228","to":"wikipedia://en/2636426","predicate":"related","method":"link-in-text","confidence":"low","span":[4709,4726],"revision":1330949138,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/476228","to":"Category:Causal fallacies","predicate":"in-field","method":"category","confidence":"medium","span":[6327,6356],"revision":1330949138,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/476228","to":"Category:Cognitive biases","predicate":"in-field","method":"category","confidence":"medium","span":[6357,6386],"revision":1330949138,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/476228","to":"Category:Misuse of statistics","predicate":"in-field","method":"category","confidence":"medium","span":[6387,6420],"revision":1330949138,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/476228","to":"Category:Pseudoscience","predicate":"in-field","method":"category","confidence":"medium","span":[6421,6447],"revision":1330949138,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82407252#LDR5","to":"wikipedia://en/19186304","predicate":"listed-in","method":"list","confidence":"certain","span":[1077,1103],"revision":1367769453,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82407252#LDR5","to":"wikipedia://en/1562451","predicate":"related","method":"link-in-item","confidence":"low","span":[1110,1132],"revision":1367769453,"by":"importer/wikipedia/1"}

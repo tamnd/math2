@@ -1,0 +1,19 @@
+{"from":"wikipedia://en/23629444","to":"wikipedia://en/52033","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[64,114],"revision":1084972834,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23629444","to":"wikipedia://en/1470767","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[238,272],"revision":1084972834,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23629444","to":"wikipedia://en/147460","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[284,302],"revision":1084972834,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23629444","to":"Category:Linear algebra","predicate":"in-field","method":"category","confidence":"medium","span":[727,754],"revision":1084972834,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23629444","to":"Category:Mathematical optimization","predicate":"in-field","method":"category","confidence":"medium","span":[755,793],"revision":1084972834,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/577366#V62B","to":"wikipedia://en/24910","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[53701,53721],"revision":1365835093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/577366#V62B","to":"wikipedia://en/82739","predicate":"uses","method":"link-in-proof","confidence":"high","span":[53797,53820],"revision":1365835093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/577366#V62B","to":"wikipedia://en/33662","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[54289,54308],"revision":1365835093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/660973#SRKC","to":"wikipedia://en/644448","predicate":"listed-in","method":"list","confidence":"certain","span":[4910,4930],"revision":1356076661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77414703","to":"wikipedia://en/26478","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[73,90],"revision":1365904789,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77414703","to":"wikipedia://en/5759","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[95,115],"revision":1365904789,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77414703","to":"wikipedia://en/19873","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[168,186],"revision":1365904789,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77414703","to":"wikipedia://en/20846707","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[276,298],"revision":1365904789,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77414703","to":"wikipedia://en/339396","predicate":"related","method":"link-in-lead","confidence":"low","span":[405,437],"revision":1365904789,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77414703","to":"wikipedia://en/340617","predicate":"related","method":"link-in-lead","confidence":"low","span":[439,474],"revision":1365904789,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77414703","to":"wikipedia://en/64208634","predicate":"related","method":"link-in-lead","confidence":"low","span":[479,514],"revision":1365904789,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77414703","to":"Category:Real analysis","predicate":"in-field","method":"category","confidence":"medium","span":[43002,43028],"revision":1365904789,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77414703","to":"Category:Complex analysis","predicate":"in-field","method":"category","confidence":"medium","span":[43029,43058],"revision":1365904789,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77414703","to":"Category:Glossaries of mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[43059,43123],"revision":1365904789,"by":"importer/wikipedia/1"}

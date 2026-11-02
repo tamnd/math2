@@ -1,3 +1,7 @@
 {"id":"2BB3F4H2JC","mentions":["m2://rec/lebl_ra/ch-metric.tex#example-12#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"2BB6W3M2RX","mentions":["wikipedia://en/3317988"],"kind":"definition","name":"Jónsson cardinal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2BBD4W8ZD1","mentions":["m2://rec/lebl_diffyqs/ch-fourier-and-pde.tex#exercise-35#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"2BBDR11B1D","mentions":["wikipedia://en/2374187#HLUF"],"kind":"definition","name":"Euler–Bernoulli beam equation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2BBFFSERF3","mentions":["ax://paper/2610.14154#PMUB"],"kind":"statement","msc":["60-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
+{"id":"2BBSVWJ6QN","mentions":["wikipedia://en/9501159"],"kind":"definition","name":"Well-pointed category","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"2BBXWR7YMR","mentions":["wikipedia://en/145035"],"kind":"definition","name":"SIGABA","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

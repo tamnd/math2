@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/17265646","to":"wikipedia://en/52564","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[271,305],"revision":1350174500,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17265646","to":"wikipedia://en/39615068","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1159,1180],"revision":1350174500,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17265646","to":"wikipedia://en/47738065","predicate":"related","method":"link-in-lead","confidence":"low","span":[1332,1415],"revision":1350174500,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17265646","to":"wikipedia://en/627842","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1428,1472],"revision":1350174500,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17265646","to":"wikipedia://en/18739069","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2050,2105],"revision":1350174500,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17265646","to":"Category:Academic staff of the Chinese University of Hong Kong","predicate":"in-field","method":"category","confidence":"medium","span":[2558,2624],"revision":1350174500,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17265646","to":"Category:Chinese expatriates in Canada","predicate":"in-field","method":"category","confidence":"medium","span":[2625,2667],"revision":1350174500,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17265646","to":"Category:Academic staff of the University of British Columbia","predicate":"in-field","method":"category","confidence":"medium","span":[2728,2793],"revision":1350174500,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17265646","to":"Category:Mathematicians from Hubei","predicate":"in-field","method":"category","confidence":"medium","span":[2794,2832],"revision":1350174500,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17265646","to":"Category:Educators from Hubei","predicate":"in-field","method":"category","confidence":"medium","span":[2833,2866],"revision":1350174500,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#7X1A","to":"wikipedia://en/81081712","predicate":"listed-in","method":"list","confidence":"certain","span":[101718,101741],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/833690#M7L9","to":"wikipedia://en/58666","predicate":"uses","method":"link-in-item","confidence":"medium","span":[8839,8892],"revision":1334090272,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/833690#M7L9","to":"wikipedia://en/4313931","predicate":"uses","method":"link-in-item","confidence":"medium","span":[8893,8932],"revision":1334090272,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/833690#M7L9","to":"wikipedia://en/102476","predicate":"uses","method":"link-in-item","confidence":"high","span":[10489,10515],"revision":1334090272,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/833690#M7L9","to":"wikipedia://en/105375","predicate":"uses","method":"link-in-item","confidence":"high","span":[10927,10974],"revision":1334090272,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/833690#M7L9","to":"wikipedia://en/105375","predicate":"uses","method":"link-in-item","confidence":"high","span":[11390,11437],"revision":1334090272,"by":"importer/wikipedia/1"}

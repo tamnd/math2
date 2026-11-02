@@ -1,0 +1,18 @@
+{"from":"wikipedia://en/23413137","to":"wikipedia://en/699294","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[101,122],"revision":1372969231,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23413137","to":"wikipedia://en/30654","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[201,213],"revision":1372969231,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23413137","to":"wikipedia://en/188401","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[631,658],"revision":1372969231,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23413137","to":"wikipedia://en/9417","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[672,694],"revision":1372969231,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23413137","to":"wikipedia://en/33731493","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[753,775],"revision":1372969231,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23413137","to":"wikipedia://en/30875270","predicate":"related","method":"link-in-lead","confidence":"low","span":[972,1002],"revision":1372969231,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23413137","to":"wikipedia://en/49695","predicate":"related","method":"link-in-lead","confidence":"low","span":[1007,1032],"revision":1372969231,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23413137","to":"wikipedia://en/241291","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1805,1828],"revision":1372969231,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23413137","to":"wikipedia://en/264158","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2101,2122],"revision":1372969231,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23413137","to":"wikipedia://en/570602","predicate":"related","method":"link-in-lead","confidence":"low","span":[2274,2286],"revision":1372969231,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23413137","to":"wikipedia://en/4207234","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2308,2335],"revision":1372969231,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23413137","to":"wikipedia://en/4207234","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2405,2432],"revision":1372969231,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23413137","to":"wikipedia://en/4207234","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2540,2555],"revision":1372969231,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23413137","to":"Category:Euclidean geometry","predicate":"in-field","method":"category","confidence":"medium","span":[2991,3022],"revision":1372969231,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23413137","to":"Category:Theorems about triangles","predicate":"kind-of","method":"category","confidence":"medium","span":[3023,3060],"revision":1372969231,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23413137","to":"Category:Non-Euclidean geometry","predicate":"in-field","method":"category","confidence":"medium","span":[3061,3096],"revision":1372969231,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#0E8P","to":"wikipedia://en/251591","predicate":"listed-in","method":"list","confidence":"certain","span":[17450,17510],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#0E8P","to":"wikipedia://en/18716923","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[17514,17525],"revision":1373797939,"by":"importer/wikipedia/1"}

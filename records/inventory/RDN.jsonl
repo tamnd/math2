@@ -1,2 +1,4 @@
 {"id":"RDN4JP3JKS","mentions":["m2://rec/wikidata/Q313#1"],"kind":"definition","name":"Venus","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"RDNH6KZ26T","mentions":["wikipedia://en/610752#GP5E"],"kind":"unknown","name":"IGARCH","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RDNMENQ3Z1","mentions":["m2://rec/ernst_ibl/MAAPressVersion/CompositionsInverses.tex#problem-13#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"RDNX0JAV97","mentions":["wikipedia://en/68578227#PR1R"],"kind":"definition","name":"Algorithm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

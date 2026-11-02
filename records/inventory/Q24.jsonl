@@ -1,2 +1,5 @@
 {"id":"Q245FBP5G6","mentions":["m2://rec/hott_book/index/A.2/programming#1"],"kind":"concept","name":"programming","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"Q245YB9ZTM","mentions":["wikipedia://en/14479711#YG11"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"Q247AGF04P","mentions":["wikipedia://en/2187847#NMIJ"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Q24CA88FZ1","mentions":["m2://rec/lebl_scv/scv.tex#exercise-63#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"Q24N8581J7","mentions":["wikipedia://en/408108#SXQE"],"kind":"statement","name":"Wendel's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

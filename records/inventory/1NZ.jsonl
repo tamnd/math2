@@ -1,1 +1,3 @@
+{"id":"1NZ3TE78SV","mentions":["wikipedia://en/6837784"],"kind":"topic","name":"Jan Denef","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1NZGMZKBGZ","mentions":["wikipedia://en/705014#Q53S"],"kind":"definition","name":"Regulus","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1NZGRZGXGB","mentions":["ax://paper/2610.09810#UFYC"],"kind":"statement","msc":["46-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.10"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}]}

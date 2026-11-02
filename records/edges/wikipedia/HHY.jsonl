@@ -1,0 +1,19 @@
+{"from":"wikipedia://en/19335221","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[373,385],"revision":1356815942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19335221","to":"wikipedia://en/9417","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[716,738],"revision":1356815942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19335221","to":"wikipedia://en/341810","predicate":"related","method":"link-in-lead","confidence":"low","span":[782,814],"revision":1356815942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19335221","to":"wikipedia://en/14565557","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[839,889],"revision":1356815942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19335221","to":"wikipedia://en/43958459","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1041,1069],"revision":1356815942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19335221","to":"wikipedia://en/1926432","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1083,1100],"revision":1356815942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19335221","to":"wikipedia://en/194131","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2024,2049],"revision":1356815942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19335221","to":"wikipedia://en/3837790","predicate":"related","method":"link-in-text","confidence":"low","span":[3248,3273],"revision":1356815942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19335221","to":"wikipedia://en/1926432","predicate":"related","method":"link-in-text","confidence":"low","span":[3720,3736],"revision":1356815942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19335221","to":"wikipedia://en/41702992","predicate":"related","method":"see-also","confidence":"low","span":[7381,7399],"revision":1356815942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19335221","to":"wikipedia://en/19335333","predicate":"related","method":"see-also","confidence":"low","span":[7402,7432],"revision":1356815942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19335221","to":"wikipedia://en/65448226","predicate":"related","method":"see-also","confidence":"low","span":[7435,7459],"revision":1356815942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19335221","to":"Template:Commons category","predicate":"in-nav","method":"nav","confidence":"low","span":[8692,8729],"revision":1356815942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19335221","to":"Category:Theorems about triangles and circles","predicate":"kind-of","method":"category","confidence":"medium","span":[9227,9276],"revision":1356815942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33185800#BHVU","to":"wikipedia://en/11085278","predicate":"uses","method":"link-in-item","confidence":"high","span":[1128,1155],"revision":1203792408,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44975179#A5X7","to":"wikipedia://en/30051538","predicate":"uses","method":"link-in-item","confidence":"high","span":[333,358],"revision":1278452716,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44975179#A5X7","to":"wikipedia://en/53991","predicate":"uses","method":"link-in-item","confidence":"high","span":[515,548],"revision":1278452716,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44975179#A5X7","to":"wikipedia://en/142616","predicate":"uses","method":"link-in-item","confidence":"high","span":[605,641],"revision":1278452716,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58389748#3ZWP","to":"wikipedia://en/31093","predicate":"listed-in","method":"list","confidence":"certain","span":[1110,1126],"revision":1302383484,"by":"importer/wikipedia/1"}

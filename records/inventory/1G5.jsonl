@@ -1,1 +1,6 @@
+{"id":"1G52PKC6DA","mentions":["wikipedia://en/323707#D5OO"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1G553FRC8X","mentions":["wikipedia://en/14403539#IXM0"],"kind":"unknown","name":"Rahul Mukerjee","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1G5ATVA7M6","mentions":["wikipedia://en/44632395"],"kind":"definition","name":"European Union Statistics on Income and Living Conditions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1G5F5NDE9W","mentions":["wikipedia://en/2390225#U4AZ"],"kind":"definition","name":"accessible","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1G5WYR28BH","mentions":["ax://paper/2609.39539#D7Z9"],"kind":"definition","msc":["11-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
+{"id":"1G5Y08G3ZV","mentions":["wikipedia://en/55812408"],"kind":"topic","name":"Heinrich Schotten","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

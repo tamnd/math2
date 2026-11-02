@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/11353703#RLUC","to":"wikipedia://en/6738445","predicate":"listed-in","method":"list","confidence":"certain","span":[145490,145504],"revision":1373003451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33175921","to":"wikipedia://en/10603","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[58,87],"revision":1375767856,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33175921","to":"wikipedia://en/991","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[102,142],"revision":1375767856,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33175921","to":"wikipedia://en/23476429","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[187,229],"revision":1375767856,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33175921","to":"wikipedia://en/27838","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[239,262],"revision":1375767856,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33175921","to":"wikipedia://en/160556","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[266,294],"revision":1375767856,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33175921","to":"wikipedia://en/347049","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[839,872],"revision":1375767856,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33175921","to":"wikipedia://en/264158","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1111,1150],"revision":1375767856,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33175921","to":"wikipedia://en/11180","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1151,1174],"revision":1375767856,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33175921","to":"Category:Algebra","predicate":"in-field","method":"category","confidence":"medium","span":[2290,2310],"revision":1375767856,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33175921","to":"Category:Functional analysis","predicate":"in-field","method":"category","confidence":"medium","span":[2311,2343],"revision":1375767856,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33175921","to":"Category:Field theory","predicate":"in-field","method":"category","confidence":"medium","span":[2344,2369],"revision":1375767856,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38477955#U1EN","to":"wikipedia://en/21990785","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[2536,2564],"revision":1319864980,"by":"importer/wikipedia/1"}

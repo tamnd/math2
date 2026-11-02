@@ -1,0 +1,8 @@
+{"from":"wikipedia://en/30562#V0P9","to":"wikipedia://en/1189560","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[26156,26180],"revision":1357877906,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30562#V0P9","to":"wikipedia://en/1189560","predicate":"uses","method":"link-in-item","confidence":"high","span":[26222,26246],"revision":1357877906,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30562#V0P9","to":"wikipedia://en/27072071","predicate":"uses","method":"link-in-item","confidence":"high","span":[26431,26446],"revision":1357877906,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49209348","to":"wikipedia://en/29642978","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[201,218],"revision":1375545432,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49209348","to":"wikipedia://en/1655450","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[251,271],"revision":1375545432,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49209348","to":"wikipedia://en/716896","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[314,339],"revision":1375545432,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49209348","to":"wikipedia://en/7381","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[744,804],"revision":1375545432,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49209348","to":"Category:Informal fallacies","predicate":"in-field","method":"category","confidence":"medium","span":[1149,1180],"revision":1375545432,"by":"importer/wikipedia/1"}

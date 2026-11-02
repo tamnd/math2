@@ -1,0 +1,20 @@
+{"from":"wikipedia://en/106341#4XRH","to":"wikipedia://en/472147","predicate":"uses","method":"link-in-item","confidence":"high","span":[4969,5007],"revision":1347477234,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/106341#4XRH","to":"wikipedia://en/32370","predicate":"uses","method":"link-in-item","confidence":"high","span":[5172,5188],"revision":1347477234,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2879918#9BVB","to":"wikipedia://en/332116","predicate":"listed-in","method":"list","confidence":"certain","span":[11371,11389],"revision":1376131118,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2879918#9BVB","to":"wikipedia://en/634","predicate":"uses","method":"link-in-item","confidence":"high","span":[11504,11528],"revision":1376131118,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2879918#9BVB","to":"wikipedia://en/3126406","predicate":"uses","method":"link-in-item","confidence":"high","span":[11555,11582],"revision":1376131118,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30634770#DG5H","to":"wikipedia://en/24185","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7861,7875],"revision":1310874248,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4058828","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[129,141],"revision":1366338338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4058828","to":"wikipedia://en/7576966","predicate":"related","method":"link-in-lead","confidence":"low","span":[179,199],"revision":1366338338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4058828","to":"wikipedia://en/4342970","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[206,239],"revision":1366338338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4058828","to":"wikipedia://en/1997","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[302,324],"revision":1366338338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4058828","to":"wikipedia://en/242135","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[672,692],"revision":1366338338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4058828","to":"Category:Algebraic surfaces","predicate":"in-field","method":"category","confidence":"medium","span":[1591,1622],"revision":1366338338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4058828","to":"Category:Pierre de Fermat","predicate":"in-field","method":"category","confidence":"medium","span":[1623,1652],"revision":1366338338,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73325414","to":"wikipedia://en/53759","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[154,189],"revision":1344326332,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73325414","to":"wikipedia://en/3967424","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[327,355],"revision":1344326332,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73325414","to":"wikipedia://en/25493347","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[873,910],"revision":1344326332,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73325414","to":"wikipedia://en/295917","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[931,956],"revision":1344326332,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73325414","to":"wikipedia://en/245466","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[972,1003],"revision":1344326332,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73325414","to":"Category:Category theory","predicate":"in-field","method":"category","confidence":"medium","span":[3247,3275],"revision":1344326332,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73325414","to":"Category:Noncommutative geometry","predicate":"in-field","method":"category","confidence":"medium","span":[3276,3312],"revision":1344326332,"by":"importer/wikipedia/1"}

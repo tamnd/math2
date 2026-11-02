@@ -1,0 +1,24 @@
+{"from":"wikipedia://en/47565351#00TW","to":"wikipedia://en/128061","predicate":"listed-in","method":"list","confidence":"certain","span":[39513,39544],"revision":1373350261,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57253540#K62J","to":"wikipedia://en/21708","predicate":"uses","method":"link-in-item","confidence":"high","span":[21597,21622],"revision":1294844132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57253540#K62J","to":"wikipedia://en/24910","predicate":"uses","method":"link-in-item","confidence":"high","span":[22930,22950],"revision":1294844132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62805299","to":"wikipedia://en/41188263","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[710,720],"revision":1372469296,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62805299","to":"wikipedia://en/1853980","predicate":"related","method":"link-in-text","confidence":"low","span":[919,954],"revision":1372469296,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62805299","to":"wikipedia://en/1386960","predicate":"related","method":"link-in-text","confidence":"low","span":[1476,1537],"revision":1372469296,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62805299","to":"wikipedia://en/31797","predicate":"related","method":"link-in-text","confidence":"low","span":[1551,1575],"revision":1372469296,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62805299","to":"wikipedia://en/39886390","predicate":"related","method":"link-in-text","confidence":"low","span":[1581,1604],"revision":1372469296,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62805299","to":"wikipedia://en/417261","predicate":"related","method":"link-in-text","confidence":"low","span":[1613,1639],"revision":1372469296,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62805299","to":"wikipedia://en/90168","predicate":"related","method":"link-in-text","confidence":"low","span":[1968,2004],"revision":1372469296,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62805299","to":"wikipedia://en/35544664","predicate":"related","method":"link-in-text","confidence":"low","span":[2194,2220],"revision":1372469296,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62805299","to":"wikipedia://en/17846","predicate":"related","method":"link-in-text","confidence":"low","span":[3144,3155],"revision":1372469296,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62805299","to":"wikipedia://en/539568","predicate":"related","method":"link-in-text","confidence":"low","span":[4326,4355],"revision":1372469296,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62805299","to":"wikipedia://en/30374","predicate":"related","method":"link-in-text","confidence":"low","span":[4884,4897],"revision":1372469296,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62805299","to":"wikipedia://en/65212","predicate":"related","method":"link-in-text","confidence":"low","span":[4950,4961],"revision":1372469296,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62805299","to":"Category:21st-century Spanish mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[6566,6614],"revision":1372469296,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62805299","to":"Category:Spanish LGBTQ scientists","predicate":"in-field","method":"category","confidence":"medium","span":[6615,6652],"revision":1372469296,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62805299","to":"Category:Spanish lesbians","predicate":"in-field","method":"category","confidence":"medium","span":[6653,6682],"revision":1372469296,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62805299","to":"Category:LGBTQ academics","predicate":"in-field","method":"category","confidence":"medium","span":[6735,6763],"revision":1372469296,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62805299","to":"Category:LGBTQ mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[6764,6797],"revision":1372469296,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62805299","to":"Category:Hapkido practitioners","predicate":"in-field","method":"category","confidence":"medium","span":[6798,6832],"revision":1372469296,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62805299","to":"Category:Spanish female taekwondo practitioners","predicate":"in-field","method":"category","confidence":"medium","span":[6833,6884],"revision":1372469296,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62805299","to":"Category:Academic staff of the Complutense University of Madrid","predicate":"in-field","method":"category","confidence":"medium","span":[6885,6952],"revision":1372469296,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62805299","to":"Category:Lesbian scientists","predicate":"in-field","method":"category","confidence":"medium","span":[6953,6984],"revision":1372469296,"by":"importer/wikipedia/1"}

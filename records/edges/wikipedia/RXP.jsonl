@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/251424#JBG0","to":"wikipedia://en/3100560","predicate":"uses","method":"link-in-item","confidence":"high","span":[18397,18411],"revision":1370098282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/255768#Q163","to":"wikipedia://en/210731","predicate":"listed-in","method":"list","confidence":"certain","span":[5441,5465],"revision":1158714048,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5358107","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[194,211],"revision":1304440321,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5358107","to":"wikipedia://en/21527","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[228,245],"revision":1304440321,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5358107","to":"wikipedia://en/31740","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[286,312],"revision":1304440321,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5358107","to":"wikipedia://en/605134","predicate":"related","method":"link-in-lead","confidence":"low","span":[334,361],"revision":1304440321,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5358107","to":"wikipedia://en/184179","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[405,437],"revision":1304440321,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5358107","to":"wikipedia://en/25978572","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[530,578],"revision":1304440321,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5358107","to":"wikipedia://en/31797","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[614,656],"revision":1304440321,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5358107","to":"wikipedia://en/157427","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[856,887],"revision":1304440321,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5358107","to":"wikipedia://en/198822","predicate":"related","method":"link-in-lead","confidence":"low","span":[921,954],"revision":1304440321,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5358107","to":"wikipedia://en/57181697","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[987,1064],"revision":1304440321,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5358107","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1227,1276],"revision":1304440321,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5358107","to":"Category:21st-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1277,1326],"revision":1304440321,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5358107","to":"Category:American number theorists","predicate":"in-field","method":"category","confidence":"medium","span":[1327,1365],"revision":1304440321,"by":"importer/wikipedia/1"}

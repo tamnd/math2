@@ -1,0 +1,10 @@
+{"from":"wikipedia://en/16556788","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[63,78],"revision":1296015264,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16556788","to":"wikipedia://en/20556859","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[84,115],"revision":1296015264,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16556788","to":"wikipedia://en/507553","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[249,268],"revision":1296015264,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16556788","to":"wikipedia://en/2874853","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[312,330],"revision":1296015264,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16556788","to":"wikipedia://en/143135","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[401,432],"revision":1296015264,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16556788","to":"wikipedia://en/666697","predicate":"related","method":"link-in-lead","confidence":"low","span":[502,554],"revision":1296015264,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16556788","to":"wikipedia://en/174906","predicate":"related","method":"see-also","confidence":"low","span":[984,996],"revision":1296015264,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16556788","to":"Category:Matrices (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[1021,1056],"revision":1296015264,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82407252#Z1LL","to":"wikipedia://en/45418224","predicate":"listed-in","method":"list","confidence":"certain","span":[607,646],"revision":1367769453,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82407252#Z1LL","to":"wikipedia://en/12955","predicate":"uses","method":"link-in-item","confidence":"medium","span":[653,670],"revision":1367769453,"by":"importer/wikipedia/1"}

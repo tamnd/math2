@@ -1,3 +1,8 @@
-{"id":"WAD0X67KQJ","mentions":["m2://rec/wikidata/Q638185#1"],"kind":"definition","name":"sphenic number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"WADFYFC6YD","mentions":["m2://rec/wikidata/Q816319#1"],"kind":"unknown","name":"depth-first search","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"WAD0X67KQJ","mentions":["m2://rec/wikidata/Q638185#1","wikipedia://en/245203"],"kind":"definition","name":"sphenic number","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"WADFYFC6YD","mentions":["m2://rec/wikidata/Q816319#1","wikipedia://en/97034"],"kind":"definition","name":"depth-first search","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"WADGCHGGA5","mentions":["m2://rec/lebl_ra/ch-real-nums.tex#exercise:supofsum#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"WADH1JPKC6","mentions":["wikipedia://en/12578002"],"kind":"definition","name":"AsciiMath","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"WADHZY0J8K","mentions":["wikipedia://en/140829#99XJ"],"kind":"topic","name":"Gompertz, Benjamin","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"WADQS4AKJ9","mentions":["wikipedia://en/13471652#KE9D"],"kind":"statement","name":"D'Alembert's principle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"WADYSMB0MZ","mentions":["wikipedia://en/83514313#NUIT"],"kind":"definition","name":"Implementations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"WADZFT0ZEH","mentions":["wikipedia://en/1128614#2S8R"],"kind":"definition","name":"Construction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

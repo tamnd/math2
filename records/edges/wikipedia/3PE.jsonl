@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/11944793","to":"wikipedia://en/23542","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[193,215],"revision":1332976442,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11944793","to":"wikipedia://en/772441","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[250,279],"revision":1332976442,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11944793","to":"wikipedia://en/47895","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[296,318],"revision":1332976442,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11944793","to":"wikipedia://en/1903997","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[361,376],"revision":1332976442,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11944793","to":"wikipedia://en/25685","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[467,486],"revision":1332976442,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11944793","to":"wikipedia://en/840106","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[598,618],"revision":1332976442,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11944793","to":"wikipedia://en/1062425","predicate":"related","method":"link-in-lead","confidence":"low","span":[1145,1157],"revision":1332976442,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11944793","to":"wikipedia://en/72460002","predicate":"related","method":"link-in-text","confidence":"low","span":[2189,2215],"revision":1332976442,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11944793","to":"wikipedia://en/60876","predicate":"related","method":"see-also","confidence":"low","span":[4253,4269],"revision":1332976442,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11944793","to":"wikipedia://en/1896229","predicate":"related","method":"see-also","confidence":"low","span":[4271,4310],"revision":1332976442,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11944793","to":"wikipedia://en/1903997","predicate":"related","method":"see-also","confidence":"low","span":[4312,4339],"revision":1332976442,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11944793","to":"Template:Stochastic processes","predicate":"in-nav","method":"nav","confidence":"low","span":[4371,4395],"revision":1332976442,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11944793","to":"Category:Stochastic differential equations","predicate":"in-field","method":"category","confidence":"medium","span":[4397,4443],"revision":1332976442,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37153897#5YUI","to":"wikipedia://en/333420","predicate":"listed-in","method":"list","confidence":"certain","span":[813,838],"revision":1345397703,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37532867#GANC","to":"wikipedia://en/3076848","predicate":"listed-in","method":"list","confidence":"certain","span":[37897,37912],"revision":1376357301,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37532867#GANC","to":"wikipedia://en/32339088","predicate":"uses","method":"link-in-item","confidence":"medium","span":[37988,38021],"revision":1376357301,"by":"importer/wikipedia/1"}

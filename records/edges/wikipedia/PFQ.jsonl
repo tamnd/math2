@@ -1,0 +1,25 @@
+{"from":"wikipedia://en/1243451#0ZAD","to":"wikipedia://en/20646438","predicate":"uses","method":"link-in-item","confidence":"high","span":[510,530],"revision":1310069411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1243451#0ZAD","to":"wikipedia://en/276524","predicate":"uses","method":"link-in-item","confidence":"high","span":[531,548],"revision":1310069411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1243451#0ZAD","to":"wikipedia://en/48631","predicate":"uses","method":"link-in-item","confidence":"high","span":[558,579],"revision":1310069411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1243451#0ZAD","to":"wikipedia://en/6603892","predicate":"uses","method":"link-in-item","confidence":"high","span":[628,683],"revision":1310069411,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1243451#0ZAD","to":"wikipedia://en/32370","predicate":"uses","method":"link-in-item","confidence":"high","span":[730,746],"revision":1310069411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1243451#0ZAD","to":"wikipedia://en/48880896","predicate":"uses","method":"link-in-item","confidence":"high","span":[769,786],"revision":1310069411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1243451#0ZAD","to":"wikipedia://en/55611","predicate":"uses","method":"link-in-item","confidence":"high","span":[842,872],"revision":1310069411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1243451#0ZAD","to":"wikipedia://en/1236666","predicate":"uses","method":"link-in-item","confidence":"high","span":[1296,1323],"revision":1310069411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1243451#0ZAD","to":"wikipedia://en/698010","predicate":"uses","method":"link-in-item","confidence":"high","span":[1667,1684],"revision":1310069411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1243451#0ZAD","to":"wikipedia://en/1251702","predicate":"uses","method":"link-in-item","confidence":"high","span":[1757,1793],"revision":1310069411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#T021","to":"wikipedia://en/1607785","predicate":"listed-in","method":"list","confidence":"certain","span":[28000,28030],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53411130","to":"wikipedia://en/24982","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[657,676],"revision":1372528782,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53411130","to":"wikipedia://en/20788500","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[830,854],"revision":1372528782,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53411130","to":"Category:Psychometricians","predicate":"in-field","method":"category","confidence":"medium","span":[1367,1396],"revision":1372528782,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/939333","to":"wikipedia://en/10983","predicate":"in-field","method":"infobox","confidence":"high","span":[202,221],"revision":1316812016,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/939333","to":"wikipedia://en/10983","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[477,496],"revision":1316812016,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/939333","to":"wikipedia://en/21304742","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[682,708],"revision":1316812016,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/939333","to":"wikipedia://en/252311","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[709,745],"revision":1316812016,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/939333","to":"wikipedia://en/7954712","predicate":"related","method":"link-in-text","confidence":"low","span":[977,1009],"revision":1316812016,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/939333","to":"wikipedia://en/10983","predicate":"related","method":"see-also","confidence":"low","span":[3980,4001],"revision":1316812016,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/939333","to":"wikipedia://en/228851","predicate":"related","method":"see-also","confidence":"low","span":[4003,4027],"revision":1316812016,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/939333","to":"wikipedia://en/1564194","predicate":"related","method":"see-also","confidence":"low","span":[4029,4056],"revision":1316812016,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/939333","to":"wikipedia://en/33907942","predicate":"related","method":"see-also","confidence":"low","span":[4058,4088],"revision":1316812016,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/939333","to":"Category:Rules of inference","predicate":"in-field","method":"category","confidence":"medium","span":[4120,4151],"revision":1316812016,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/939333","to":"Category:Predicate logic","predicate":"in-field","method":"category","confidence":"medium","span":[4152,4180],"revision":1316812016,"by":"importer/wikipedia/1"}

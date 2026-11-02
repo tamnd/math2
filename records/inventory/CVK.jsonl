@@ -1,3 +1,6 @@
+{"id":"CVK0C5NTDA","mentions":["wikipedia://en/2390225#8S2P"],"kind":"definition","name":"finite","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CVK1QH86RY","mentions":["m2://rec/wikidata/Q47007890#1"],"kind":"unknown","name":"bicomplete category","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"CVKB4931E7","mentions":["wikipedia://en/517370#MJIC"],"kind":"definition","name":"Rhombicosahedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CVKETF90D8","mentions":["m2://rec/hott_book/basics.tex#thm:ap-transport#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"CVKJ63G6GX","mentions":["wikipedia://en/20519590"],"kind":"topic","name":"Damiano Brigo","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CVKKWQB227","mentions":["m2://rec/hott_book/hits.tex#cor-1#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/11086228","to":"wikipedia://en/26685","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[80,94],"revision":1369846601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11086228","to":"wikipedia://en/9541","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[128,152],"revision":1369846601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11086228","to":"wikipedia://en/4481194","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[157,189],"revision":1369846601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11086228","to":"wikipedia://en/2741338","predicate":"related","method":"link-in-lead","confidence":"low","span":[202,222],"revision":1369846601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11086228","to":"wikipedia://en/25175","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[509,528],"revision":1369846601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11086228","to":"wikipedia://en/27250866","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[812,859],"revision":1369846601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11086228","to":"wikipedia://en/1827237","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2212,2232],"revision":1369846601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11086228","to":"wikipedia://en/1188184","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2241,2268],"revision":1369846601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11086228","to":"wikipedia://en/7300309","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[4278,4339],"revision":1369846601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11086228","to":"wikipedia://en/6252669","predicate":"related","method":"link-in-text","confidence":"low","span":[4721,4750],"revision":1369846601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11086228","to":"wikipedia://en/7300309","predicate":"related","method":"link-in-text","confidence":"low","span":[4991,5059],"revision":1369846601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11086228","to":"wikipedia://en/877698","predicate":"related","method":"link-in-text","confidence":"low","span":[5576,5600],"revision":1369846601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11086228","to":"Template:Statistics","predicate":"in-nav","method":"nav","confidence":"low","span":[6230,6244],"revision":1369846601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11086228","to":"Category:Design of experiments","predicate":"in-field","method":"category","confidence":"medium","span":[6281,6315],"revision":1369846601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/140829#O5BM","to":"wikipedia://en/18074411","predicate":"listed-in","method":"list","confidence":"certain","span":[10199,10265],"revision":1372044875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2684566","to":"wikipedia://en/154711","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[127,140],"revision":1334751324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2684566","to":"wikipedia://en/172291","predicate":"related","method":"see-also","confidence":"low","span":[2831,2851],"revision":1334751324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2684566","to":"wikipedia://en/4859028","predicate":"related","method":"see-also","confidence":"low","span":[2854,2884],"revision":1334751324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2684566","to":"Category:Drag (physics)","predicate":"in-field","method":"category","confidence":"medium","span":[2886,2913],"revision":1334751324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2684566","to":"Category:Equations","predicate":"kind-of","method":"category","confidence":"medium","span":[2914,2936],"revision":1334751324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2684566","to":"Category:Force","predicate":"in-field","method":"category","confidence":"medium","span":[2937,2955],"revision":1334751324,"by":"importer/wikipedia/1"}

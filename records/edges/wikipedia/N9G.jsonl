@@ -1,0 +1,20 @@
+{"from":"wikipedia://en/14403539#KRDJ","to":"wikipedia://en/1802312","predicate":"listed-in","method":"list","confidence":"certain","span":[63888,63902],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14403539#SB3C","to":"wikipedia://en/57433897","predicate":"listed-in","method":"list","confidence":"certain","span":[13443,13461],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#E1CI","to":"wikipedia://en/11938767","predicate":"listed-in","method":"list","confidence":"certain","span":[59686,59706],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24920134#UQN9","to":"wikipedia://en/238849","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[5511,5533],"revision":1310010178,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24920134#UQN9","to":"wikipedia://en/457464","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[5589,5623],"revision":1310010178,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24920134#UQN9","to":"wikipedia://en/5897031","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[6546,6587],"revision":1310010178,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43489615","to":"wikipedia://en/46174","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1329,1362],"revision":1361103292,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43489615","to":"wikipedia://en/235451","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1386,1402],"revision":1361103292,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43489615","to":"wikipedia://en/7954388","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1444,1472],"revision":1361103292,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43489615","to":"wikipedia://en/6310","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1477,1500],"revision":1361103292,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43489615","to":"wikipedia://en/19817390","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1550,1576],"revision":1361103292,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43489615","to":"wikipedia://en/44472568","predicate":"related","method":"link-in-text","confidence":"low","span":[2023,2039],"revision":1361103292,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43489615","to":"wikipedia://en/685311","predicate":"related","method":"link-in-text","confidence":"low","span":[2446,2491],"revision":1361103292,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43489615","to":"wikipedia://en/43391843","predicate":"related","method":"link-in-text","confidence":"low","span":[2847,2906],"revision":1361103292,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43489615","to":"wikipedia://en/23874316","predicate":"related","method":"link-in-text","confidence":"low","span":[3331,3362],"revision":1361103292,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43489615","to":"wikipedia://en/1945387","predicate":"related","method":"link-in-text","confidence":"low","span":[6371,6389],"revision":1361103292,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43489615","to":"wikipedia://en/538810","predicate":"related","method":"link-in-text","confidence":"low","span":[7475,7491],"revision":1361103292,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43489615","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[9709,9758],"revision":1361103292,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43489615","to":"Category:Place of birth missing","predicate":"in-field","method":"category","confidence":"medium","span":[9759,9794],"revision":1361103292,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43489615","to":"Category:21st-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[9795,9844],"revision":1361103292,"by":"importer/wikipedia/1"}

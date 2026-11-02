@@ -1,0 +1,26 @@
+{"from":"wikipedia://en/18351855","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1434,1451],"revision":1372743313,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18351855","to":"wikipedia://en/563285","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1537,1571],"revision":1372743313,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18351855","to":"wikipedia://en/146269","predicate":"related","method":"link-in-text","confidence":"low","span":[1989,2017],"revision":1372743313,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18351855","to":"wikipedia://en/563285","predicate":"related","method":"link-in-text","confidence":"low","span":[3952,3986],"revision":1372743313,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18351855","to":"wikipedia://en/157427","predicate":"related","method":"link-in-text","confidence":"low","span":[4003,4034],"revision":1372743313,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18351855","to":"wikipedia://en/21939","predicate":"related","method":"link-in-text","confidence":"low","span":[4055,4083],"revision":1372743313,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18351855","to":"wikipedia://en/14984955","predicate":"related","method":"link-in-text","confidence":"low","span":[4549,4565],"revision":1372743313,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18351855","to":"wikipedia://en/21340642","predicate":"related","method":"link-in-text","confidence":"low","span":[4664,4681],"revision":1372743313,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18351855","to":"wikipedia://en/9626230","predicate":"related","method":"link-in-text","confidence":"low","span":[5178,5376],"revision":1372743313,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18351855","to":"wikipedia://en/65434570","predicate":"related","method":"link-in-text","confidence":"low","span":[5554,5580],"revision":1372743313,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18351855","to":"wikipedia://en/198822","predicate":"related","method":"link-in-text","confidence":"low","span":[5954,5987],"revision":1372743313,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18351855","to":"Category:Group theorists","predicate":"in-field","method":"category","confidence":"medium","span":[7206,7234],"revision":1372743313,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18351855","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[7235,7284],"revision":1372743313,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18351855","to":"Category:21st-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[7285,7334],"revision":1372743313,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18351855","to":"Category:Presidents of the Mathematical Association of America","predicate":"in-field","method":"category","confidence":"medium","span":[7535,7601],"revision":1372743313,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39352","to":"wikipedia://en/37310","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[504,530],"revision":1242805152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39352","to":"Template:Portal","predicate":"in-nav","method":"nav","confidence":"low","span":[3978,4007],"revision":1242805152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39352","to":"wikipedia://en/40922","predicate":"related","method":"see-also","confidence":"low","span":[4035,4062],"revision":1242805152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39352","to":"wikipedia://en/10177943","predicate":"related","method":"see-also","confidence":"low","span":[4064,4092],"revision":1242805152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39352","to":"wikipedia://en/788203","predicate":"related","method":"see-also","confidence":"low","span":[4094,4120],"revision":1242805152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39352","to":"wikipedia://en/1467336","predicate":"related","method":"see-also","confidence":"low","span":[4122,4146],"revision":1242805152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39352","to":"wikipedia://en/2088863","predicate":"related","method":"see-also","confidence":"low","span":[4148,4168],"revision":1242805152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39352","to":"wikipedia://en/33094374","predicate":"related","method":"see-also","confidence":"low","span":[4171,4193],"revision":1242805152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39352","to":"Template:Cryptography navbox","predicate":"in-nav","method":"nav","confidence":"low","span":[5194,5217],"revision":1242805152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39352","to":"Category:Cryptography lists and comparisons","predicate":"in-field","method":"category","confidence":"medium","span":[5219,5302],"revision":1242805152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61199339#7BC3","to":"wikipedia://en/2863858","predicate":"listed-in","method":"list","confidence":"certain","span":[5329,5363],"revision":1370210902,"by":"importer/wikipedia/1"}

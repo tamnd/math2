@@ -1,0 +1,31 @@
+{"from":"wikipedia://en/31271451#QPNK","to":"wikipedia://en/155941","predicate":"uses","method":"link-in-item","confidence":"high","span":[2206,2235],"revision":1366724216,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31271451#QPNK","to":"wikipedia://en/26819","predicate":"uses","method":"link-in-item","confidence":"high","span":[2239,2252],"revision":1366724216,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31271451#QPNK","to":"wikipedia://en/4495335","predicate":"uses","method":"link-in-item","confidence":"high","span":[2373,2406],"revision":1366724216,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31271451#QPNK","to":"wikipedia://en/30977","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2411,2423],"revision":1366724216,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31271451#QPNK","to":"wikipedia://en/14511671","predicate":"uses","method":"link-in-item","confidence":"high","span":[2577,2618],"revision":1366724216,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31271451#QPNK","to":"wikipedia://en/12450","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2884,2917],"revision":1366724216,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31271451#QPNK","to":"wikipedia://en/10983","predicate":"uses","method":"link-in-item","confidence":"high","span":[2956,2977],"revision":1366724216,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43508402","to":"wikipedia://en/13692155","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[893,908],"revision":1315696784,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43508402","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[913,930],"revision":1315696784,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43508402","to":"wikipedia://en/19636","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[945,967],"revision":1315696784,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43508402","to":"wikipedia://en/24320051","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[984,997],"revision":1315696784,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43508402","to":"wikipedia://en/24320051","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1024,1042],"revision":1315696784,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43508402","to":"wikipedia://en/649879","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1089,1119],"revision":1315696784,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43508402","to":"wikipedia://en/43523988","predicate":"related","method":"link-in-lead","confidence":"low","span":[1126,1159],"revision":1315696784,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43508402","to":"wikipedia://en/649879","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1301,1331],"revision":1315696784,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43508402","to":"wikipedia://en/26977","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1447,1470],"revision":1315696784,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43508402","to":"wikipedia://en/20646803","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1471,1484],"revision":1315696784,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43508402","to":"wikipedia://en/984494","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1985,2019],"revision":1315696784,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43508402","to":"wikipedia://en/649879","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2021,2045],"revision":1315696784,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43508402","to":"wikipedia://en/13239762","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2055,2087],"revision":1315696784,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43508402","to":"wikipedia://en/183478","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[2244,2260],"revision":1315696784,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43508402","to":"wikipedia://en/13239762","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2347,2379],"revision":1315696784,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43508402","to":"wikipedia://en/391882","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2399,2440],"revision":1315696784,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43508402","to":"wikipedia://en/25640189","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2515,2525],"revision":1315696784,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43508402","to":"Category:21st-century Russian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[5900,5948],"revision":1315696784,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43508402","to":"Category:Russian logicians","predicate":"in-field","method":"category","confidence":"medium","span":[5949,5979],"revision":1315696784,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43508402","to":"Category:20th-century Russian philosophers","predicate":"in-field","method":"category","confidence":"medium","span":[5980,6026],"revision":1315696784,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43508402","to":"Category:21st-century Russian philosophers","predicate":"in-field","method":"category","confidence":"medium","span":[6027,6073],"revision":1315696784,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43508402","to":"Category:Mathematical logicians","predicate":"in-field","method":"category","confidence":"medium","span":[6074,6109],"revision":1315696784,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43508402","to":"Category:Historians of mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[6110,6148],"revision":1315696784,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43508402","to":"Category:Philosophers of mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[6215,6255],"revision":1315696784,"by":"importer/wikipedia/1"}

@@ -1,2 +1,6 @@
+{"id":"Z4K3HR5CZ3","mentions":["wikipedia://en/47565351#3O61"],"kind":"unknown","name":"Adabaria Union","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Z4K7EBYDQF","mentions":["m2://rec/napkin/tex/homology/cellular.tex#proof-3#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"Z4KEG5W033","mentions":["wikipedia://en/76765067#HO6G"],"kind":"definition","name":"deterministic Turing machine","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Z4KNBQPDNF","mentions":["ax://paper/2610.10930#67TP"],"kind":"example","msc":["18-XX","54-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.3"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.3"}]}
+{"id":"Z4KXK0V9ZK","mentions":["wikipedia://en/239112"],"kind":"definition","name":"Mathematical table","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"Z4KXWYGY2Z","mentions":["wikipedia://en/57242824#VUZ4"],"kind":"topic","name":"Lasse Rempe-Gillen","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

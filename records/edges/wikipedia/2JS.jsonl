@@ -1,0 +1,20 @@
+{"from":"wikipedia://en/205069#UFEY","to":"wikipedia://en/556462","predicate":"listed-in","method":"list","confidence":"certain","span":[2830,2871],"revision":1361796518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74155852","to":"wikipedia://en/43853690","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[80,101],"revision":1372829026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74155852","to":"wikipedia://en/377856","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1721,1752],"revision":1372829026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74155852","to":"wikipedia://en/3201941","predicate":"related","method":"link-in-text","confidence":"low","span":[1798,1818],"revision":1372829026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74155852","to":"wikipedia://en/1619787","predicate":"related","method":"link-in-text","confidence":"low","span":[1822,1830],"revision":1372829026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74155852","to":"wikipedia://en/105032","predicate":"related","method":"link-in-text","confidence":"low","span":[1833,1845],"revision":1372829026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74155852","to":"wikipedia://en/3039899","predicate":"related","method":"link-in-text","confidence":"low","span":[1877,1920],"revision":1372829026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74155852","to":"wikipedia://en/9589228","predicate":"related","method":"link-in-text","confidence":"low","span":[1927,1938],"revision":1372829026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74155852","to":"wikipedia://en/83319","predicate":"related","method":"link-in-text","confidence":"low","span":[1940,1949],"revision":1372829026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74155852","to":"wikipedia://en/72595","predicate":"related","method":"link-in-text","confidence":"low","span":[2705,2728],"revision":1372829026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74155852","to":"wikipedia://en/10172878","predicate":"related","method":"link-in-text","confidence":"low","span":[3035,3054],"revision":1372829026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74155852","to":"wikipedia://en/2337582","predicate":"related","method":"link-in-text","confidence":"low","span":[3087,3102],"revision":1372829026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74155852","to":"wikipedia://en/2412507","predicate":"related","method":"link-in-text","confidence":"low","span":[3375,3420],"revision":1372829026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74155852","to":"wikipedia://en/7175","predicate":"related","method":"link-in-text","confidence":"low","span":[3437,3464],"revision":1372829026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74155852","to":"wikipedia://en/18603746","predicate":"related","method":"link-in-text","confidence":"low","span":[3533,3544],"revision":1372829026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74155852","to":"wikipedia://en/377856","predicate":"related","method":"link-in-text","confidence":"low","span":[3712,3743],"revision":1372829026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74155852","to":"Category:Scientists from Shandong","predicate":"in-field","method":"category","confidence":"medium","span":[3952,3989],"revision":1372829026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74155852","to":"Category:Academic staff of Tsinghua University","predicate":"in-field","method":"category","confidence":"medium","span":[4030,4080],"revision":1372829026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74155852","to":"Category:20th-century Chinese scientists","predicate":"in-field","method":"category","confidence":"medium","span":[4137,4181],"revision":1372829026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74155852","to":"Category:21st-century Chinese scientists","predicate":"in-field","method":"category","confidence":"medium","span":[4182,4226],"revision":1372829026,"by":"importer/wikipedia/1"}

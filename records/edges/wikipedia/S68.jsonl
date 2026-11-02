@@ -1,0 +1,42 @@
+{"from":"wikipedia://en/4260161","to":"wikipedia://en/160202","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[533,586],"revision":1345262931,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4260161","to":"wikipedia://en/2244296","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[677,722],"revision":1345262931,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4260161","to":"wikipedia://en/47967","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[774,792],"revision":1345262931,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4260161","to":"wikipedia://en/25009","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[797,808],"revision":1345262931,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4260161","to":"wikipedia://en/2244296","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[825,853],"revision":1345262931,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4260161","to":"wikipedia://en/2244043","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1040,1056],"revision":1345262931,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4260161","to":"wikipedia://en/6988390","predicate":"related","method":"link-in-text","confidence":"low","span":[1514,1543],"revision":1345262931,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4260161","to":"wikipedia://en/567523","predicate":"related","method":"link-in-text","confidence":"low","span":[1689,1711],"revision":1345262931,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4260161","to":"wikipedia://en/160202","predicate":"related","method":"link-in-text","confidence":"low","span":[1818,1830],"revision":1345262931,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4260161","to":"wikipedia://en/567548","predicate":"related","method":"link-in-text","confidence":"low","span":[1853,1873],"revision":1345262931,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4260161","to":"wikipedia://en/7658100","predicate":"related","method":"link-in-text","confidence":"low","span":[3615,3632],"revision":1345262931,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4260161","to":"wikipedia://en/4337751","predicate":"related","method":"link-in-text","confidence":"low","span":[3634,3653],"revision":1345262931,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4260161","to":"wikipedia://en/298253","predicate":"related","method":"link-in-text","confidence":"low","span":[3659,3691],"revision":1345262931,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4260161","to":"wikipedia://en/2244296","predicate":"related","method":"see-also","confidence":"low","span":[5333,5426],"revision":1345262931,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4260161","to":"wikipedia://en/2244296","predicate":"related","method":"see-also","confidence":"low","span":[5429,5487],"revision":1345262931,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4260161","to":"wikipedia://en/2244043","predicate":"related","method":"see-also","confidence":"low","span":[5490,5502],"revision":1345262931,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4260161","to":"wikipedia://en/160202","predicate":"related","method":"see-also","confidence":"low","span":[5505,5517],"revision":1345262931,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4260161","to":"wikipedia://en/567548","predicate":"related","method":"see-also","confidence":"low","span":[5520,5540],"revision":1345262931,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4260161","to":"Template:Cryptography navbox","predicate":"in-nav","method":"nav","confidence":"low","span":[6435,6473],"revision":1345262931,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4260161","to":"Category:Block cipher modes of operation","predicate":"in-field","method":"category","confidence":"medium","span":[6475,6519],"revision":1345262931,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4260161","to":"Category:Authenticated-encryption schemes","predicate":"in-field","method":"category","confidence":"medium","span":[6520,6565],"revision":1345262931,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#TR2F","to":"wikipedia://en/28243179","predicate":"listed-in","method":"list","confidence":"certain","span":[80478,80497],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59842040#G0SU","to":"wikipedia://en/1655188","predicate":"uses","method":"link-in-item","confidence":"high","span":[13370,13391],"revision":1360690218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59842040#G0SU","to":"wikipedia://en/4939651","predicate":"related","method":"link-in-item","confidence":"low","span":[13406,13424],"revision":1360690218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59842040#G0SU","to":"wikipedia://en/85816","predicate":"uses","method":"link-in-item","confidence":"high","span":[14007,14025],"revision":1360690218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59842040#G0SU","to":"wikipedia://en/1962417","predicate":"uses","method":"link-in-item","confidence":"medium","span":[15058,15113],"revision":1360690218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77220324","to":"wikipedia://en/23542","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[254,276],"revision":1333510146,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77220324","to":"wikipedia://en/888711","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[281,308],"revision":1333510146,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77220324","to":"wikipedia://en/185793","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[319,340],"revision":1333510146,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77220324","to":"wikipedia://en/32015","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[363,388],"revision":1333510146,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77220324","to":"wikipedia://en/37765","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[427,468],"revision":1333510146,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77220324","to":"wikipedia://en/72324687","predicate":"related","method":"link-in-lead","confidence":"low","span":[590,607],"revision":1333510146,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77220324","to":"wikipedia://en/157427","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[701,732],"revision":1333510146,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77220324","to":"wikipedia://en/55881374","predicate":"related","method":"link-in-lead","confidence":"low","span":[756,774],"revision":1333510146,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77220324","to":"wikipedia://en/8096647","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[876,916],"revision":1333510146,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77220324","to":"wikipedia://en/52293","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1194,1205],"revision":1333510146,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77220324","to":"Category:American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4517,4553],"revision":1333510146,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77220324","to":"Category:American women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4554,4596],"revision":1333510146,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77220324","to":"Category:American statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[4597,4632],"revision":1333510146,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77220324","to":"Category:American women statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[4633,4674],"revision":1333510146,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77220324","to":"Category:Probability theorists","predicate":"in-field","method":"category","confidence":"medium","span":[4675,4709],"revision":1333510146,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77220324","to":"Category:United States National Science Foundation officials","predicate":"in-field","method":"category","confidence":"medium","span":[4768,4832],"revision":1333510146,"by":"importer/wikipedia/1"}

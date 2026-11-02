@@ -1,0 +1,8 @@
+{"from":"wikipedia://en/21065169","to":"wikipedia://en/139410","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,26],"revision":1190110659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21065169","to":"wikipedia://en/19745659","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[85,120],"revision":1190110659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21065169","to":"wikipedia://en/138404","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[126,143],"revision":1190110659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21065169","to":"wikipedia://en/21065169","predicate":"uses","method":"anchor","confidence":"certain","span":[173,223],"revision":1190110659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21065169","to":"wikipedia://en/362536","predicate":"related","method":"link-in-lead","confidence":"low","span":[249,265],"revision":1190110659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21065169","to":"wikipedia://en/362501","predicate":"related","method":"link-in-lead","confidence":"low","span":[270,290],"revision":1190110659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21065169","to":"wikipedia://en/10324484","predicate":"related","method":"see-also","confidence":"low","span":[2402,2419],"revision":1190110659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21065169","to":"Category:Homological algebra","predicate":"in-field","method":"category","confidence":"medium","span":[2766,2798],"revision":1190110659,"by":"importer/wikipedia/1"}

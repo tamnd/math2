@@ -1,0 +1,18 @@
+{"from":"wikipedia://en/1188115","to":"wikipedia://en/537555","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[97,149],"revision":1353461585,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1188115","to":"wikipedia://en/634765","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[156,178],"revision":1353461585,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1188115","to":"wikipedia://en/630497","predicate":"related","method":"see-also","confidence":"low","span":[1585,1629],"revision":1353461585,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1188115","to":"wikipedia://en/26508356","predicate":"related","method":"see-also","confidence":"low","span":[1632,1643],"revision":1353461585,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1188115","to":"Category:Theory of cryptography","predicate":"in-field","method":"category","confidence":"medium","span":[2402,2437],"revision":1353461585,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1188115","to":"Category:Transforms","predicate":"in-field","method":"category","confidence":"medium","span":[2438,2461],"revision":1353461585,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51140705#ORS9","to":"wikipedia://en/44562810","predicate":"listed-in","method":"list","confidence":"certain","span":[6413,6432],"revision":1369875693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51140705#X945","to":"wikipedia://en/75475276","predicate":"listed-in","method":"list","confidence":"certain","span":[68101,68131],"revision":1369875693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6961430","to":"wikipedia://en/23542","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,25],"revision":1373690497,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6961430","to":"wikipedia://en/14773","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[47,69],"revision":1373690497,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6961430","to":"wikipedia://en/427282","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[152,174],"revision":1373690497,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6961430","to":"wikipedia://en/24104134","predicate":"related","method":"link-in-text","confidence":"low","span":[4886,4913],"revision":1373690497,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6961430","to":"wikipedia://en/427282","predicate":"related","method":"see-also","confidence":"low","span":[5575,5597],"revision":1373690497,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6961430","to":"wikipedia://en/31623814","predicate":"related","method":"see-also","confidence":"low","span":[5599,5625],"revision":1373690497,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6961430","to":"wikipedia://en/6964629","predicate":"related","method":"see-also","confidence":"low","span":[5627,5654],"revision":1373690497,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6961430","to":"Category:Information theory","predicate":"in-field","method":"category","confidence":"medium","span":[7572,7603],"revision":1373690497,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6961430","to":"Category:Probability theory","predicate":"in-field","method":"category","confidence":"medium","span":[7604,7635],"revision":1373690497,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6961430","to":"Category:Covariance and correlation","predicate":"in-field","method":"category","confidence":"medium","span":[7636,7675],"revision":1373690497,"by":"importer/wikipedia/1"}

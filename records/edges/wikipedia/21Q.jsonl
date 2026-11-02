@@ -1,0 +1,38 @@
+{"from":"wikipedia://en/10220473","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[106,121],"revision":1360530276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10220473","to":"wikipedia://en/38801","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[139,161],"revision":1360530276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10220473","to":"wikipedia://en/142432","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[260,279],"revision":1360530276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10220473","to":"wikipedia://en/24910","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[285,319],"revision":1360530276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10220473","to":"wikipedia://en/4977680","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[453,488],"revision":1360530276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10220473","to":"wikipedia://en/362501","predicate":"related","method":"link-in-lead","confidence":"low","span":[492,512],"revision":1360530276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10220473","to":"wikipedia://en/19544067","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[573,590],"revision":1360530276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10220473","to":"wikipedia://en/2415863","predicate":"related","method":"link-in-text","confidence":"low","span":[4297,4329],"revision":1360530276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10220473","to":"wikipedia://en/848684","predicate":"related","method":"link-in-text","confidence":"low","span":[4983,4998],"revision":1360530276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10220473","to":"wikipedia://en/52405825","predicate":"related","method":"link-in-text","confidence":"low","span":[5792,5846],"revision":1360530276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10220473","to":"wikipedia://en/310886","predicate":"related","method":"link-in-text","confidence":"low","span":[5921,5934],"revision":1360530276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10220473","to":"wikipedia://en/2946655","predicate":"related","method":"link-in-text","confidence":"low","span":[6140,6166],"revision":1360530276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10220473","to":"wikipedia://en/918047","predicate":"related","method":"link-in-text","confidence":"low","span":[6649,6669],"revision":1360530276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10220473","to":"wikipedia://en/19544067","predicate":"related","method":"see-also","confidence":"low","span":[7002,7019],"revision":1360530276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10220473","to":"Category:Homological algebra","predicate":"in-field","method":"category","confidence":"medium","span":[8550,8582],"revision":1360530276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10220473","to":"Category:Theorems in algebraic topology","predicate":"kind-of","method":"category","confidence":"medium","span":[8583,8626],"revision":1360530276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20519569#937N","to":"wikipedia://en/907524","predicate":"uses","method":"link-in-item","confidence":"high","span":[33015,33038],"revision":1366133149,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23333947","to":"wikipedia://en/1997","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,25],"revision":1261848013,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23333947","to":"wikipedia://en/2380148","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[63,84],"revision":1261848013,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23333947","to":"wikipedia://en/526126","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[158,176],"revision":1261848013,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23333947","to":"wikipedia://en/23333699","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[181,201],"revision":1261848013,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23333947","to":"wikipedia://en/1817790","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[333,356],"revision":1261848013,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23333947","to":"Category:Complex surfaces","predicate":"in-field","method":"category","confidence":"medium","span":[706,735],"revision":1261848013,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23333947","to":"Category:Algebraic surfaces","predicate":"in-field","method":"category","confidence":"medium","span":[736,767],"revision":1261848013,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2771364","to":"wikipedia://en/21527","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[50,67],"revision":1374126910,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2771364","to":"wikipedia://en/82289","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[95,115],"revision":1374126910,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2771364","to":"wikipedia://en/23666","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[166,183],"revision":1374126910,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2771364","to":"wikipedia://en/23666","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[311,328],"revision":1374126910,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2771364","to":"wikipedia://en/1084681","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[688,725],"revision":1374126910,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2771364","to":"wikipedia://en/7723","predicate":"related","method":"see-also","confidence":"low","span":[4877,4898],"revision":1374126910,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2771364","to":"wikipedia://en/7184831","predicate":"related","method":"see-also","confidence":"low","span":[4900,4932],"revision":1374126910,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2771364","to":"wikipedia://en/1452979","predicate":"related","method":"see-also","confidence":"low","span":[4934,4953],"revision":1374126910,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2771364","to":"Template:Classes of natural numbers","predicate":"in-nav","method":"nav","confidence":"low","span":[5858,5888],"revision":1374126910,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2771364","to":"Category:Integer sequences","predicate":"kind-of","method":"category","confidence":"medium","span":[5890,5920],"revision":1374126910,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2771364","to":"Category:Unsolved problems in number theory","predicate":"kind-of","method":"category","confidence":"medium","span":[5921,5968],"revision":1374126910,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/356213#ZTPN","to":"wikipedia://en/5233980","predicate":"listed-in","method":"list","confidence":"certain","span":[5033,5050],"revision":1359895470,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#9O5U","to":"wikipedia://en/14884","predicate":"listed-in","method":"list","confidence":"certain","span":[30960,30990],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#9O5U","to":"wikipedia://en/5176","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[30994,31006],"revision":1373797939,"by":"importer/wikipedia/1"}

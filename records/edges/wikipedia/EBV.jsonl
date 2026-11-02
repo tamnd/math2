@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/3141855#K38L","to":"wikipedia://en/243316","predicate":"uses","method":"link-in-item","confidence":"high","span":[4219,4246],"revision":1345292704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3141855#K38L","to":"wikipedia://en/3364","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4377,4385],"revision":1345292704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3141855#K38L","to":"wikipedia://en/17860","predicate":"uses","method":"link-in-item","confidence":"high","span":[4469,4482],"revision":1345292704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3141855#K38L","to":"wikipedia://en/378200","predicate":"uses","method":"link-in-item","confidence":"high","span":[4584,4613],"revision":1345292704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3141855#K38L","to":"wikipedia://en/19727024","predicate":"uses","method":"link-in-item","confidence":"high","span":[4991,5010],"revision":1345292704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3141855#K38L","to":"wikipedia://en/10225","predicate":"uses","method":"link-in-item","confidence":"high","span":[5445,5463],"revision":1345292704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3820870#7SEV","to":"wikipedia://en/5592771","predicate":"listed-in","method":"list","confidence":"certain","span":[29199,29218],"revision":1373538872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6096872","to":"wikipedia://en/48113","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[120,183],"revision":1282052891,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6096872","to":"wikipedia://en/48113","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1238,1261],"revision":1282052891,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6096872","to":"wikipedia://en/18265828","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1277,1314],"revision":1282052891,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6096872","to":"wikipedia://en/567523","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1366,1397],"revision":1282052891,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6096872","to":"wikipedia://en/25385","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1860,1883],"revision":1282052891,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6096872","to":"Category:Cryptographic protocols","predicate":"in-field","method":"category","confidence":"medium","span":[2148,2184],"revision":1282052891,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6096872","to":"Category:Society for Worldwide Interbank Financial Telecommunication","predicate":"in-field","method":"category","confidence":"medium","span":[2185,2257],"revision":1282052891,"by":"importer/wikipedia/1"}

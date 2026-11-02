@@ -1,0 +1,6 @@
+{"from":"wikipedia://en/30235234","to":"wikipedia://en/30230650","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[277,317],"revision":1316181582,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30235234","to":"wikipedia://en/30235384","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[328,345],"revision":1316181582,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30235234","to":"wikipedia://en/345704","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[389,408],"revision":1316181582,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30235234","to":"Category:Russian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[775,810],"revision":1316181582,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83595939#WH4H","to":"wikipedia://en/771960","predicate":"related","method":"link-in-item","confidence":"low","span":[11194,11222],"revision":1366907477,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83595939#WH4H","to":"wikipedia://en/58899","predicate":"uses","method":"link-in-item","confidence":"high","span":[11285,11321],"revision":1366907477,"by":"importer/wikipedia/1"}

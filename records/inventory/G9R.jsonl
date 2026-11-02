@@ -1,1 +1,5 @@
+{"id":"G9R4GXF8RC","mentions":["wikipedia://en/47738065#K001"],"kind":"topic","name":"S. V. Jablonskii","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"G9R64JSD13","mentions":["wikipedia://en/241820#VK6R"],"kind":"definition","name":"Cone","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"G9R7J9BJDE","mentions":["ax://paper/2610.06747#32NK"],"kind":"definition","msc":["55-XX","57-XX","81-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.10"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}]}
+{"id":"G9RJF4F3EM","mentions":["wikipedia://en/14403539#WKSQ"],"kind":"topic","name":"Azriel Lévy","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"G9RX700T7J","mentions":["wikipedia://en/64208634#RRAT"],"kind":"definition","name":"Hahn–Banach","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

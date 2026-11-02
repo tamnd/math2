@@ -1,0 +1,9 @@
+{"from":"wikipedia://en/1403586#LJTP","to":"wikipedia://en/41073456","predicate":"listed-in","method":"list","confidence":"certain","span":[34760,34776],"revision":1375861581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1403586#LJTP","to":"wikipedia://en/19001","predicate":"uses","method":"link-in-item","confidence":"medium","span":[34808,34821],"revision":1375861581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1403586#LJTP","to":"wikipedia://en/240213","predicate":"uses","method":"link-in-item","confidence":"medium","span":[34833,34850],"revision":1375861581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52435#AWCX","to":"wikipedia://en/24511700","predicate":"uses","method":"link-in-item","confidence":"high","span":[2309,2324],"revision":1299139410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52435#AWCX","to":"wikipedia://en/24511700","predicate":"uses","method":"link-in-item","confidence":"high","span":[2644,2659],"revision":1299139410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52435#AWCX","to":"wikipedia://en/1614492","predicate":"uses","method":"link-in-item","confidence":"high","span":[2663,2697],"revision":1299139410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52435#AWCX","to":"wikipedia://en/24314","predicate":"uses","method":"link-in-item","confidence":"high","span":[2702,2725],"revision":1299139410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52435#AWCX","to":"wikipedia://en/19762817","predicate":"uses","method":"named-link","confidence":"high","span":[2733,2754],"revision":1299139410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77414703#WCTP","to":"wikipedia://en/15287","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[33863,33894],"revision":1365904789,"by":"importer/wikipedia/1"}

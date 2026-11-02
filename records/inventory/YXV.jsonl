@@ -1,2 +1,5 @@
 {"id":"YXVNE671CH","mentions":["m2://rec/lebl_diffyqs/ch-systems.tex#example-5#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"YXVPY78WAN","mentions":["wikipedia://en/73934690"],"kind":"definition","name":"Airy process","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YXVV7QFVET","mentions":["ax://paper/2609.32977#A2TF"],"kind":"statement","msc":["49-XX","90-XX","93-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.5.6"},"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.5.6"}]}
+{"id":"YXVVNQ8P9T","mentions":["wikipedia://en/37496709#PQ94"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"YXVWCSMKPS","mentions":["wikipedia://en/2702957#9RRO"],"kind":"definition","name":"Definition 2","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

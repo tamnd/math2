@@ -1,0 +1,9 @@
+{"from":"wikipedia://en/21200639#EPYN","to":"wikipedia://en/648004","predicate":"listed-in","method":"list","confidence":"certain","span":[385,405],"revision":1187516180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/331258#1ZYO","to":"wikipedia://en/6122","predicate":"uses","method":"link-in-item","confidence":"high","span":[18708,18742],"revision":1375437534,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/331258#1ZYO","to":"wikipedia://en/1543735","predicate":"uses","method":"link-in-item","confidence":"high","span":[18835,18881],"revision":1375437534,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35208721","to":"wikipedia://en/361210","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[269,290],"revision":1314360797,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35208721","to":"Template:Portal","predicate":"in-nav","method":"nav","confidence":"low","span":[7064,7086],"revision":1314360797,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35208721","to":"wikipedia://en/193748","predicate":"related","method":"see-also","confidence":"low","span":[7089,7120],"revision":1314360797,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35208721","to":"wikipedia://en/375033","predicate":"related","method":"see-also","confidence":"low","span":[7123,7153],"revision":1314360797,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35208721","to":"wikipedia://en/30342860","predicate":"related","method":"see-also","confidence":"low","span":[7156,7184],"revision":1314360797,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35208721","to":"Category:Integral calculus","predicate":"in-field","method":"category","confidence":"medium","span":[7306,7336],"revision":1314360797,"by":"importer/wikipedia/1"}

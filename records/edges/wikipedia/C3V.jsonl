@@ -1,0 +1,37 @@
+{"from":"wikipedia://en/1289913","to":"wikipedia://en/18934432","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[102,118],"revision":1272613840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1289913","to":"wikipedia://en/30402","predicate":"related","method":"link-in-lead","confidence":"low","span":[127,152],"revision":1272613840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1289913","to":"wikipedia://en/23210","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[431,481],"revision":1272613840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1289913","to":"wikipedia://en/23543","predicate":"related","method":"link-in-text","confidence":"low","span":[972,1000],"revision":1272613840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1289913","to":"wikipedia://en/7087423","predicate":"related","method":"link-in-text","confidence":"low","span":[1369,1389],"revision":1272613840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1289913","to":"wikipedia://en/197812","predicate":"related","method":"link-in-text","confidence":"low","span":[2229,2262],"revision":1272613840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1289913","to":"wikipedia://en/2052415","predicate":"related","method":"link-in-text","confidence":"low","span":[2315,2361],"revision":1272613840,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1289913","to":"wikipedia://en/405944","predicate":"related","method":"link-in-text","confidence":"low","span":[2438,2473],"revision":1272613840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1289913","to":"wikipedia://en/25199747","predicate":"related","method":"link-in-text","confidence":"low","span":[3109,3123],"revision":1272613840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1289913","to":"wikipedia://en/169319","predicate":"related","method":"link-in-text","confidence":"low","span":[3176,3199],"revision":1272613840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1289913","to":"wikipedia://en/25199747","predicate":"related","method":"link-in-text","confidence":"low","span":[3212,3226],"revision":1272613840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1289913","to":"wikipedia://en/169319","predicate":"related","method":"link-in-text","confidence":"low","span":[3262,3286],"revision":1272613840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1289913","to":"wikipedia://en/299560","predicate":"related","method":"link-in-text","confidence":"low","span":[3290,3317],"revision":1272613840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1289913","to":"wikipedia://en/249886","predicate":"related","method":"link-in-text","confidence":"low","span":[3410,3437],"revision":1272613840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1289913","to":"wikipedia://en/2052415","predicate":"related","method":"link-in-text","confidence":"low","span":[3514,3547],"revision":1272613840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1289913","to":"Category:Pseudorandom number generators","predicate":"in-field","method":"category","confidence":"medium","span":[6389,6432],"revision":1272613840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/144716#2V9S","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[30693,30708],"revision":1375402039,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/144716#2V9S","to":"wikipedia://en/18716923","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[30848,30859],"revision":1375402039,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/144716#2V9S","to":"wikipedia://en/1467948","predicate":"uses","method":"link-in-item","confidence":"medium","span":[30930,30949],"revision":1375402039,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/144716#2V9S","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[30992,31004],"revision":1375402039,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/144716#2V9S","to":"wikipedia://en/18717261","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[31009,31025],"revision":1375402039,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/144716#2V9S","to":"wikipedia://en/7593","predicate":"uses","method":"link-in-item","confidence":"high","span":[32035,32050],"revision":1375402039,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/144716#2V9S","to":"wikipedia://en/38755455","predicate":"uses","method":"link-in-item","confidence":"medium","span":[32116,32126],"revision":1375402039,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/144716#2V9S","to":"wikipedia://en/157057","predicate":"uses","method":"link-in-item","confidence":"high","span":[32734,32773],"revision":1375402039,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20928503#6VND","to":"wikipedia://en/5795043#3OO2","predicate":"listed-in","method":"list","confidence":"certain","span":[775,877],"revision":1305296233,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/286172","to":"wikipedia://en/18716923","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[152,163],"revision":1373730955,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/286172","to":"wikipedia://en/298428","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[225,260],"revision":1373730955,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/286172","to":"wikipedia://en/3948","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[279,300],"revision":1373730955,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/286172","to":"wikipedia://en/34620850","predicate":"related","method":"see-also","confidence":"low","span":[2342,2364],"revision":1373730955,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/286172","to":"wikipedia://en/469304","predicate":"related","method":"see-also","confidence":"low","span":[2367,2386],"revision":1373730955,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/286172","to":"Category:Abstract algebra","predicate":"in-field","method":"category","confidence":"medium","span":[2831,2860],"revision":1373730955,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/286172","to":"Category:Boolean algebra","predicate":"in-field","method":"category","confidence":"medium","span":[2861,2889],"revision":1373730955,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/286172","to":"Category:Theorems in propositional logic","predicate":"kind-of","method":"category","confidence":"medium","span":[2890,2934],"revision":1373730955,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/286172","to":"Category:Lattice theory","predicate":"in-field","method":"category","confidence":"medium","span":[2935,2962],"revision":1373730955,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41564#ZAPJ","to":"wikipedia://en/2722105","predicate":"uses","method":"link-in-item","confidence":"high","span":[40170,40184],"revision":1374207749,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41564#ZAPJ","to":"wikipedia://en/41130","predicate":"uses","method":"link-in-item","confidence":"medium","span":[40940,40960],"revision":1374207749,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41564#ZAPJ","to":"wikipedia://en/556970","predicate":"uses","method":"link-in-item","confidence":"medium","span":[41104,41128],"revision":1374207749,"by":"importer/wikipedia/1"}

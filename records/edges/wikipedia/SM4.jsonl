@@ -1,0 +1,35 @@
+{"from":"wikipedia://en/17538757","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[209,221],"revision":1211346212,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17538757","to":"wikipedia://en/1055365","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[281,292],"revision":1211346212,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17538757","to":"wikipedia://en/48396","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[991,1025],"revision":1211346212,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17538757","to":"wikipedia://en/56567","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1167,1206],"revision":1211346212,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17538757","to":"wikipedia://en/56567","predicate":"related","method":"see-also","confidence":"low","span":[3474,3497],"revision":1211346212,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17538757","to":"wikipedia://en/2584965","predicate":"related","method":"see-also","confidence":"low","span":[3499,3539],"revision":1211346212,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17538757","to":"wikipedia://en/13940585","predicate":"related","method":"see-also","confidence":"low","span":[3541,3587],"revision":1211346212,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17538757","to":"wikipedia://en/19491492","predicate":"related","method":"see-also","confidence":"low","span":[3590,3618],"revision":1211346212,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17538757","to":"Category:Euclidean geometry","predicate":"in-field","method":"category","confidence":"medium","span":[3851,3882],"revision":1211346212,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17538757","to":"Category:Japanese mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[3883,3916],"revision":1211346212,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17538757","to":"Category:Theorems about triangles and circles","predicate":"kind-of","method":"category","confidence":"medium","span":[3917,3966],"revision":1211346212,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17538757","to":"Category:Hyperbolic functions","predicate":"in-field","method":"category","confidence":"medium","span":[3967,4000],"revision":1211346212,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26703#EX01","to":"wikipedia://en/26691","predicate":"uses","method":"link-in-item","confidence":"high","span":[2080,2105],"revision":1364964865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26703#EX01","to":"wikipedia://en/1945387","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[2826,2890],"revision":1364964865,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26703#EX01","to":"wikipedia://en/10005756","predicate":"uses","method":"link-in-item","confidence":"high","span":[2981,2996],"revision":1364964865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26703#EX01","to":"wikipedia://en/18837","predicate":"uses","method":"link-in-item","confidence":"high","span":[2998,3015],"revision":1364964865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26703#EX01","to":"wikipedia://en/1432127","predicate":"uses","method":"link-in-item","confidence":"high","span":[3021,3054],"revision":1364964865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26703#EX01","to":"wikipedia://en/32344","predicate":"uses","method":"link-in-item","confidence":"high","span":[3057,3076],"revision":1364964865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26703#EX01","to":"wikipedia://en/27590","predicate":"uses","method":"link-in-item","confidence":"high","span":[3088,3110],"revision":1364964865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26703#EX01","to":"wikipedia://en/25184","predicate":"uses","method":"link-in-item","confidence":"high","span":[3120,3133],"revision":1364964865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26703#EX01","to":"wikipedia://en/18837","predicate":"uses","method":"link-in-item","confidence":"high","span":[3146,3156],"revision":1364964865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26703#EX01","to":"wikipedia://en/25170","predicate":"uses","method":"link-in-item","confidence":"high","span":[3164,3177],"revision":1364964865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26703#EX01","to":"wikipedia://en/354907","predicate":"uses","method":"link-in-item","confidence":"high","span":[3182,3197],"revision":1364964865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26703#EX01","to":"wikipedia://en/1416975","predicate":"uses","method":"link-in-item","confidence":"high","span":[3200,3219],"revision":1364964865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26703#EX01","to":"wikipedia://en/22474343","predicate":"uses","method":"link-in-item","confidence":"high","span":[3229,3244],"revision":1364964865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26703#EX01","to":"wikipedia://en/226680","predicate":"uses","method":"link-in-item","confidence":"high","span":[3246,3271],"revision":1364964865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26703#EX01","to":"wikipedia://en/318976","predicate":"uses","method":"link-in-item","confidence":"high","span":[3273,3295],"revision":1364964865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26703#EX01","to":"wikipedia://en/160986","predicate":"uses","method":"link-in-item","confidence":"high","span":[3298,3318],"revision":1364964865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26703#EX01","to":"wikipedia://en/368684","predicate":"uses","method":"link-in-item","confidence":"high","span":[3366,3398],"revision":1364964865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26703#EX01","to":"wikipedia://en/16848","predicate":"uses","method":"link-in-item","confidence":"high","span":[3432,3444],"revision":1364964865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26703#EX01","to":"wikipedia://en/28212","predicate":"uses","method":"link-in-item","confidence":"high","span":[3449,3461],"revision":1364964865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26703#EX01","to":"wikipedia://en/1374948","predicate":"uses","method":"link-in-item","confidence":"high","span":[3472,3512],"revision":1364964865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26703#EX01","to":"wikipedia://en/2690455","predicate":"uses","method":"link-in-item","confidence":"high","span":[3520,3555],"revision":1364964865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/339396#K739","to":"wikipedia://en/21573","predicate":"listed-in","method":"list","confidence":"certain","span":[12174,12195],"revision":1245682451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/444250#Z75C","to":"wikipedia://en/2029932","predicate":"listed-in","method":"list","confidence":"certain","span":[65473,65514],"revision":1294366452,"by":"importer/wikipedia/1"}

@@ -1,0 +1,31 @@
+{"from":"wikipedia://en/20952046","to":"wikipedia://en/3735500","predicate":"related","method":"link-in-lead","confidence":"low","span":[1326,1349],"revision":1372352316,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20952046","to":"wikipedia://en/24295969","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1417,1440],"revision":1372352316,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20952046","to":"wikipedia://en/52564","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1495,1529],"revision":1372352316,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20952046","to":"wikipedia://en/1468817","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1534,1585],"revision":1372352316,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20952046","to":"wikipedia://en/395934","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1610,1640],"revision":1372352316,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20952046","to":"wikipedia://en/1306551","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1653,1670],"revision":1372352316,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20952046","to":"wikipedia://en/490310","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1678,1703],"revision":1372352316,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20952046","to":"wikipedia://en/198822","predicate":"related","method":"link-in-lead","confidence":"low","span":[1808,1841],"revision":1372352316,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20952046","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4046,4095],"revision":1372352316,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20952046","to":"Category:21st-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4096,4145],"revision":1372352316,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20952046","to":"Category:20th-century French mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4146,4193],"revision":1372352316,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20952046","to":"Category:Mathematical analysts","predicate":"in-field","method":"category","confidence":"medium","span":[4194,4228],"revision":1372352316,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55752776","to":"wikipedia://en/18233581","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[108,135],"revision":1370898678,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55752776","to":"wikipedia://en/1424309","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[210,235],"revision":1370898678,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55752776","to":"Category:FEM elements","predicate":"in-field","method":"category","confidence":"medium","span":[805,830],"revision":1370898678,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76214241","to":"wikipedia://en/47384","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[111,123],"revision":1308245729,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76214241","to":"wikipedia://en/58528675","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[585,610],"revision":1308245729,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76214241","to":"wikipedia://en/3472390","predicate":"related","method":"link-in-text","confidence":"low","span":[1496,1520],"revision":1308245729,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76214241","to":"wikipedia://en/239914","predicate":"related","method":"link-in-text","confidence":"low","span":[1567,1589],"revision":1308245729,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76214241","to":"wikipedia://en/384695","predicate":"related","method":"link-in-text","confidence":"low","span":[1852,1895],"revision":1308245729,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76214241","to":"wikipedia://en/5441003","predicate":"related","method":"link-in-text","confidence":"low","span":[2062,2084],"revision":1308245729,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76214241","to":"wikipedia://en/60355","predicate":"related","method":"link-in-text","confidence":"low","span":[2221,2240],"revision":1308245729,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76214241","to":"wikipedia://en/197798","predicate":"related","method":"link-in-text","confidence":"low","span":[2304,2323],"revision":1308245729,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76214241","to":"wikipedia://en/1085251","predicate":"related","method":"link-in-text","confidence":"low","span":[2362,2382],"revision":1308245729,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76214241","to":"wikipedia://en/509227","predicate":"related","method":"link-in-text","confidence":"low","span":[2593,2668],"revision":1308245729,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76214241","to":"wikipedia://en/18879","predicate":"related","method":"link-in-text","confidence":"low","span":[3147,3188],"revision":1308245729,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76214241","to":"wikipedia://en/384676","predicate":"related","method":"link-in-text","confidence":"low","span":[3482,3496],"revision":1308245729,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76214241","to":"wikipedia://en/144638","predicate":"related","method":"link-in-text","confidence":"low","span":[3527,3546],"revision":1308245729,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76214241","to":"wikipedia://en/105856","predicate":"related","method":"link-in-text","confidence":"low","span":[3556,3586],"revision":1308245729,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76214241","to":"wikipedia://en/20535781","predicate":"related","method":"link-in-text","confidence":"low","span":[4741,4763],"revision":1308245729,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76214241","to":"Category:American applied mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[12846,12890],"revision":1308245729,"by":"importer/wikipedia/1"}

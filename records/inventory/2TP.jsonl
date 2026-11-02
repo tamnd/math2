@@ -1,2 +1,8 @@
+{"id":"2TP3X2C794","mentions":["wikipedia://en/27585#BNMM"],"kind":"unknown","name":"Population mean","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"2TPJTR943T","mentions":["wikipedia://en/183091#OX15"],"kind":"statement","name":"Rudin's conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"2TPM8BHN2A","mentions":["wikipedia://en/38492648#CFHQ"],"kind":"definition","name":"Algorithm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"2TPR2GRB29","mentions":["wikipedia://en/889639#GEXX"],"kind":"definition","name":"Implementations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"2TPW5YTJ18","mentions":["wikipedia://en/432213#Y31Z"],"kind":"unknown","name":"14-15 puzzle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2TPX9K7S52","mentions":["ax://paper/2609.29943#FQZI"],"kind":"conjecture","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}
-{"id":"2TPYTWZCA7","mentions":["m2://rec/wikidata/Q7623979#1"],"kind":"unknown","name":"string group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"2TPXDR7XGT","mentions":["wikipedia://en/27961040#3R01"],"kind":"unknown","name":"Australasian Journal of Logic","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"2TPYTWZCA7","mentions":["m2://rec/wikidata/Q7623979#1","wikipedia://en/28936135"],"kind":"definition","name":"string group","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

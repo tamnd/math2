@@ -1,2 +1,10 @@
-{"id":"N5A8FSG7XT","mentions":["m2://rec/wikidata/Q3303275#1"],"kind":"unknown","name":"Beltrami identity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"N5A2HYND6N","mentions":["wikipedia://en/19582093#COR3"],"kind":"unknown","name":"E6 lattice","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"N5A2WD3P88","mentions":["wikipedia://en/36780298#HZ9F"],"kind":"definition","name":"Formal definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"N5A70KT0RW","mentions":["wikipedia://en/38256214#IFFB"],"kind":"definition","name":"normal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"N5A7P3C79M","mentions":["wikipedia://en/15732228#XRK5"],"kind":"unknown","name":"Airy stress function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"N5A8FSG7XT","mentions":["m2://rec/wikidata/Q3303275#1","wikipedia://en/17181013"],"kind":"statement","name":"Beltrami identity","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"N5ABNPFEAG","mentions":["ax://paper/2610.14189#LE7T"],"kind":"statement","msc":["14-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}],"proofs":["ax://paper/2610.14189#6G2I"]}
+{"id":"N5AHTNJ6NB","mentions":["wikipedia://en/1256105#5VMB"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"N5AQ30E8NG","mentions":["wikipedia://en/1882219#ZLFM"],"kind":"unknown","name":"SFV","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"N5ARXSZQ5G","mentions":["wikipedia://en/64439436"],"kind":"definition","name":"Deficiency","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"N5AT89PAP5","mentions":["wikipedia://en/621447#GAGL"],"kind":"unknown","name":"False radiosity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

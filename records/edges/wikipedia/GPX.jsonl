@@ -1,0 +1,18 @@
+{"from":"wikipedia://en/46187545","to":"wikipedia://en/1997","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[79,101],"revision":1315996208,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46187545","to":"wikipedia://en/4282051","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[153,166],"revision":1315996208,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46187545","to":"wikipedia://en/3010057","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[174,200],"revision":1315996208,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46187545","to":"wikipedia://en/1069723","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[450,469],"revision":1315996208,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46187545","to":"wikipedia://en/294349","predicate":"related","method":"link-in-text","confidence":"low","span":[3679,3694],"revision":1315996208,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46187545","to":"wikipedia://en/25345090","predicate":"related","method":"see-also","confidence":"low","span":[9326,9342],"revision":1315996208,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46187545","to":"wikipedia://en/26155744","predicate":"related","method":"see-also","confidence":"low","span":[9344,9360],"revision":1315996208,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46187545","to":"wikipedia://en/34694574","predicate":"related","method":"see-also","confidence":"low","span":[9362,9385],"revision":1315996208,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46187545","to":"Category:Algebraic geometry","predicate":"in-field","method":"category","confidence":"medium","span":[10041,10072],"revision":1315996208,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46187545","to":"Category:Moduli theory","predicate":"in-field","method":"category","confidence":"medium","span":[10073,10099],"revision":1315996208,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46800280#RGYW","to":"wikipedia://en/7316682","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[14413,14474],"revision":1314798867,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46800280#RGYW","to":"wikipedia://en/42211842","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[14942,14967],"revision":1314798867,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46800280#RGYW","to":"wikipedia://en/26819","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[15992,16027],"revision":1314798867,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46800280#RGYW","to":"wikipedia://en/31271451","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[16032,16087],"revision":1314798867,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46800280#RGYW","to":"wikipedia://en/8529655","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[16270,16315],"revision":1314798867,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46800280#RGYW","to":"wikipedia://en/252355","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[16322,16348],"revision":1314798867,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#R6IJ","to":"wikipedia://en/9169813","predicate":"listed-in","method":"list","confidence":"certain","span":[48449,48469],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/757745#B98Y","to":"wikipedia://en/9502948","predicate":"listed-in","method":"list","confidence":"certain","span":[636,660],"revision":1333755350,"by":"importer/wikipedia/1"}

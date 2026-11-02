@@ -1,0 +1,30 @@
+{"from":"wikipedia://en/25901631","to":"wikipedia://en/621732","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[72,94],"revision":1205761646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25901631","to":"wikipedia://en/696568","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[310,330],"revision":1205761646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25901631","to":"wikipedia://en/1152311","predicate":"related","method":"link-in-lead","confidence":"low","span":[416,450],"revision":1205761646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25901631","to":"wikipedia://en/13816037","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[558,580],"revision":1205761646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25901631","to":"wikipedia://en/398699","predicate":"related","method":"link-in-lead","confidence":"low","span":[691,710],"revision":1205761646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25901631","to":"wikipedia://en/5961115","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[724,742],"revision":1205761646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25901631","to":"Category:Geometric topology","predicate":"in-field","method":"category","confidence":"medium","span":[2617,2648],"revision":1205761646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25901631","to":"Category:Surgery theory","predicate":"in-field","method":"category","confidence":"medium","span":[2649,2676],"revision":1205761646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39408400","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[66,78],"revision":1335694171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39408400","to":"wikipedia://en/1817885","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[109,128],"revision":1335694171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39408400","to":"wikipedia://en/24104095","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[156,177],"revision":1335694171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39408400","to":"wikipedia://en/8815","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[182,212],"revision":1335694171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39408400","to":"wikipedia://en/39414758","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[280,295],"revision":1335694171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39408400","to":"wikipedia://en/325806","predicate":"related","method":"link-in-text","confidence":"low","span":[9372,9395],"revision":1335694171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39408400","to":"wikipedia://en/9938559","predicate":"related","method":"link-in-text","confidence":"low","span":[9396,9424],"revision":1335694171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39408400","to":"wikipedia://en/3942","predicate":"related","method":"link-in-text","confidence":"low","span":[10029,10042],"revision":1335694171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39408400","to":"wikipedia://en/1175666","predicate":"related","method":"link-in-text","confidence":"low","span":[10104,10116],"revision":1335694171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39408400","to":"wikipedia://en/7714430","predicate":"related","method":"link-in-text","confidence":"low","span":[11038,11054],"revision":1335694171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39408400","to":"Category:Polytopes","predicate":"in-field","method":"category","confidence":"medium","span":[11637,11659],"revision":1335694171,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#3EWT","to":"wikipedia://en/61571","predicate":"listed-in","method":"list","confidence":"certain","span":[13600,13634],"revision":1356718736,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#3EWT","to":"wikipedia://en/25978572","predicate":"uses","method":"link-in-item","confidence":"medium","span":[13640,13667],"revision":1356718736,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#3EWT","to":"wikipedia://en/385154","predicate":"uses","method":"link-in-item","confidence":"high","span":[13688,13716],"revision":1356718736,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8795656","to":"wikipedia://en/18422","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[114,132],"revision":1310179907,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8795656","to":"wikipedia://en/126474","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[136,161],"revision":1310179907,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8795656","to":"wikipedia://en/3558266","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[542,557],"revision":1310179907,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8795656","to":"wikipedia://en/40326","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[656,711],"revision":1310179907,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8795656","to":"wikipedia://en/43476","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[766,789],"revision":1310179907,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8795656","to":"Template:Matrix classes","predicate":"in-nav","method":"nav","confidence":"low","span":[5102,5120],"revision":1310179907,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8795656","to":"Category:Matrices (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[5122,5157],"revision":1310179907,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8795656","to":"Category:Convex analysis","predicate":"in-field","method":"category","confidence":"medium","span":[5158,5186],"revision":1310179907,"by":"importer/wikipedia/1"}

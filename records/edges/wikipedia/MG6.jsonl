@@ -1,0 +1,10 @@
+{"from":"wikipedia://en/220782#ALJ1","to":"wikipedia://en/62641","predicate":"uses","method":"link-in-item","confidence":"high","span":[7332,7349],"revision":1357824316,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/220782#ALJ1","to":"wikipedia://en/10282799","predicate":"uses","method":"link-in-item","confidence":"high","span":[7656,7700],"revision":1357824316,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#VQ2C","to":"wikipedia://en/696568","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[48033,48045],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#VQ2C","to":"wikipedia://en/246748","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[48061,48073],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#VQ2C","to":"wikipedia://en/251478","predicate":"uses","method":"link-in-item","confidence":"high","span":[48077,48096],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83438085","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[88,103],"revision":1359165852,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83438085","to":"wikipedia://en/83409961","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[110,151],"revision":1359165852,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83438085","to":"wikipedia://en/24977","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[152,185],"revision":1359165852,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83438085","to":"wikipedia://en/508070","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[393,431],"revision":1359165852,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83438085","to":"Category:Discrete mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[3215,3248],"revision":1359165852,"by":"importer/wikipedia/1"}

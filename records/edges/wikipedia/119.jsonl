@@ -1,0 +1,18 @@
+{"from":"wikipedia://en/18900634","to":"wikipedia://en/175285","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[118,140],"revision":1353741209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18900634","to":"wikipedia://en/175769","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[168,191],"revision":1353741209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18900634","to":"wikipedia://en/93548","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[454,471],"revision":1353741209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18900634","to":"wikipedia://en/26220","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[491,511],"revision":1353741209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18900634","to":"wikipedia://en/175769","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[561,584],"revision":1353741209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18900634","to":"wikipedia://en/175285","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1270,1292],"revision":1353741209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18900634","to":"wikipedia://en/43507282","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1389,1432],"revision":1353741209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18900634","to":"wikipedia://en/6314748","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2922,2957],"revision":1353741209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18900634","to":"wikipedia://en/292239","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3107,3129],"revision":1353741209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18900634","to":"wikipedia://en/4669465","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3185,3241],"revision":1353741209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18900634","to":"wikipedia://en/2002540","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3281,3305],"revision":1353741209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18900634","to":"wikipedia://en/249904","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3314,3336],"revision":1353741209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18900634","to":"wikipedia://en/305303","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3837,3849],"revision":1353741209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18900634","to":"Category:Relational model","predicate":"in-field","method":"category","confidence":"medium","span":[5226,5255],"revision":1353741209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18900634","to":"Category:Theorems in the foundations of mathematics","predicate":"kind-of","method":"category","confidence":"medium","span":[5256,5311],"revision":1353741209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18900634","to":"Category:Database theory","predicate":"in-field","method":"category","confidence":"medium","span":[5312,5340],"revision":1353741209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18900634","to":"Category:Edgar F. Codd","predicate":"in-field","method":"category","confidence":"medium","span":[5341,5367],"revision":1353741209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/241820#A86K","to":"wikipedia://en/173285","predicate":"listed-in","method":"list","confidence":"certain","span":[12049,12064],"revision":1375503641,"by":"importer/wikipedia/1"}

@@ -1,0 +1,24 @@
+{"from":"wikipedia://en/2388068#K92I","to":"wikipedia://en/12694920","predicate":"listed-in","method":"list","confidence":"certain","span":[980,1005],"revision":1355184956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2388068#K92I","to":"wikipedia://en/8111079","predicate":"uses","method":"link-in-item","confidence":"medium","span":[1022,1045],"revision":1355184956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40878507","to":"wikipedia://en/50578","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3,22],"revision":1367337989,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40878507","to":"wikipedia://en/23542","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[61,105],"revision":1367337989,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40878507","to":"wikipedia://en/157055","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[425,449],"revision":1367337989,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40878507","to":"wikipedia://en/39406","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[454,479],"revision":1367337989,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40878507","to":"wikipedia://en/60876","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[484,501],"revision":1367337989,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40878507","to":"Category:Queueing theory","predicate":"in-field","method":"category","confidence":"medium","span":[1630,1658],"revision":1367337989,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48247312","to":"wikipedia://en/7418819","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[136,167],"revision":1371816176,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48247312","to":"wikipedia://en/4919471","predicate":"related","method":"link-in-text","confidence":"low","span":[650,670],"revision":1371816176,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48247312","to":"wikipedia://en/454848","predicate":"related","method":"link-in-text","confidence":"low","span":[699,729],"revision":1371816176,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48247312","to":"wikipedia://en/363323","predicate":"related","method":"link-in-text","confidence":"low","span":[747,763],"revision":1371816176,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48247312","to":"wikipedia://en/2626467","predicate":"related","method":"link-in-text","confidence":"low","span":[799,826],"revision":1371816176,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48247312","to":"wikipedia://en/48254929","predicate":"related","method":"link-in-text","confidence":"low","span":[833,852],"revision":1371816176,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48247312","to":"wikipedia://en/722824","predicate":"related","method":"link-in-text","confidence":"low","span":[1138,1166],"revision":1371816176,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48247312","to":"wikipedia://en/476398","predicate":"related","method":"link-in-text","confidence":"low","span":[1317,1337],"revision":1371816176,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48247312","to":"wikipedia://en/20652422","predicate":"related","method":"link-in-text","confidence":"low","span":[1490,1510],"revision":1371816176,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48247312","to":"wikipedia://en/4562875","predicate":"related","method":"link-in-text","confidence":"low","span":[1951,1970],"revision":1371816176,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48247312","to":"wikipedia://en/167394","predicate":"related","method":"link-in-text","confidence":"low","span":[2389,2418],"revision":1371816176,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48247312","to":"Category:20th-century French mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4520,4567],"revision":1371816176,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48247312","to":"Category:21st-century French mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4568,4615],"revision":1371816176,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48247312","to":"Category:Academic staff of the University of Strasbourg","predicate":"in-field","method":"category","confidence":"medium","span":[4616,4675],"revision":1371816176,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48247312","to":"Category:Academic staff of the University of Paris","predicate":"in-field","method":"category","confidence":"medium","span":[4676,4730],"revision":1371816176,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48247312","to":"Category:Nicolas Bourbaki","predicate":"in-field","method":"category","confidence":"medium","span":[4786,4815],"revision":1371816176,"by":"importer/wikipedia/1"}

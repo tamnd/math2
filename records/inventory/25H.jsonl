@@ -1,1 +1,6 @@
+{"id":"25H1C2YERX","mentions":["wikipedia://en/76765067#ZLKP"],"kind":"definition","name":"falsum","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"25HAVW1W0S","mentions":["ax://paper/2610.17518#54L3"],"kind":"statement","msc":["16-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
+{"id":"25HFE0GVFF","mentions":["wikipedia://en/35159319"],"kind":"definition","name":"Isoparametric function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"25HPXXDSZM","mentions":["wikipedia://en/4890"],"kind":"definition","name":"Bayesian probability","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"25HRSBCTPZ","mentions":["wikipedia://en/9653#SOG6"],"kind":"statement","name":"Tail-sum formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"25HV440Y9X","mentions":["wikipedia://en/23970662#4NHY"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

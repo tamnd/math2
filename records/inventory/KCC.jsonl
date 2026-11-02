@@ -1,1 +1,3 @@
+{"id":"KCCFTNN2BS","mentions":["wikipedia://en/42583036#JLZN"],"kind":"statement","name":"Theorem 1","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"KCCM3DGKPD","mentions":["wikipedia://en/916157#NGFU"],"kind":"statement","name":"Chu–Vandermonde identity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"KCCXZ70TND","mentions":["m2://rec/open_logic/content/sets-functions-relations/infinite/dedekind-algebra.tex#closureproperties#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

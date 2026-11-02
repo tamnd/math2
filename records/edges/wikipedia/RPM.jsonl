@@ -1,0 +1,19 @@
+{"from":"wikipedia://en/1529485#SKLA","to":"wikipedia://en/49172","predicate":"uses","method":"link-in-item","confidence":"high","span":[8533,8568],"revision":1363660105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1529485#SKLA","to":"wikipedia://en/287188","predicate":"uses","method":"link-in-item","confidence":"high","span":[8659,8672],"revision":1363660105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1529485#SKLA","to":"wikipedia://en/285759","predicate":"uses","method":"link-in-item","confidence":"high","span":[8927,9020],"revision":1363660105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50454123","to":"wikipedia://en/26685","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,17],"revision":1203644848,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50454123","to":"wikipedia://en/406880","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[233,247],"revision":1203644848,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50454123","to":"wikipedia://en/935515","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[274,295],"revision":1203644848,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50454123","to":"wikipedia://en/113424","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[337,365],"revision":1203644848,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50454123","to":"wikipedia://en/6885770","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[438,477],"revision":1203644848,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50454123","to":"Category:Statistical tests","predicate":"in-field","method":"category","confidence":"medium","span":[1787,1817],"revision":1203644848,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50454123","to":"Category:Statistical genetics","predicate":"in-field","method":"category","confidence":"medium","span":[1818,1851],"revision":1203644848,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5512894","to":"wikipedia://en/5562599","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[191,226],"revision":1299545163,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5512894","to":"wikipedia://en/5562599","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[231,256],"revision":1299545163,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5512894","to":"wikipedia://en/447020","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[274,299],"revision":1299545163,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5512894","to":"wikipedia://en/318450","predicate":"related","method":"link-in-lead","confidence":"low","span":[393,414],"revision":1299545163,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5512894","to":"wikipedia://en/26670524","predicate":"related","method":"see-also","confidence":"low","span":[2498,2528],"revision":1299545163,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5512894","to":"Category:Theorems in analytic number theory","predicate":"kind-of","method":"category","confidence":"medium","span":[2749,2796],"revision":1299545163,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5512894","to":"Category:Modular forms","predicate":"in-field","method":"category","confidence":"medium","span":[2797,2823],"revision":1299545163,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65309248#VN7M","to":"wikipedia://en/46379102","predicate":"listed-in","method":"list","confidence":"certain","span":[5793,5817],"revision":1360520392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76765067#3MDN","to":"wikipedia://en/59539","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[82610,82625],"revision":1368301704,"by":"importer/wikipedia/1"}

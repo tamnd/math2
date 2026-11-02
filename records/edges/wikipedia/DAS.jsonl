@@ -1,0 +1,24 @@
+{"from":"wikipedia://en/49419109","to":"wikipedia://en/23915","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1413,1447],"revision":1368528354,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49419109","to":"wikipedia://en/19305","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1532,1560],"revision":1368528354,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49419109","to":"Category:Government agencies established in 1996","predicate":"in-field","method":"category","confidence":"medium","span":[2433,2485],"revision":1368528354,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49419109","to":"Category:Government of Mozambique","predicate":"in-field","method":"category","confidence":"medium","span":[2486,2523],"revision":1368528354,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49419109","to":"Category:National statistical services","predicate":"in-field","method":"category","confidence":"medium","span":[2524,2577],"revision":1368528354,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54755877","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1118,1146],"revision":1374516218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54755877","to":"wikipedia://en/12401","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1156,1172],"revision":1374516218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54755877","to":"wikipedia://en/478065","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1407,1426],"revision":1374516218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54755877","to":"wikipedia://en/210472","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1512,1524],"revision":1374516218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54755877","to":"wikipedia://en/467731","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1549,1560],"revision":1374516218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54755877","to":"wikipedia://en/2979341","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1812,1848],"revision":1374516218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54755877","to":"wikipedia://en/85821","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2703,2720],"revision":1374516218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54755877","to":"wikipedia://en/9607933","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2817,2838],"revision":1374516218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54755877","to":"wikipedia://en/44027","predicate":"related","method":"link-in-text","confidence":"low","span":[12375,12390],"revision":1374516218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54755877","to":"wikipedia://en/85821","predicate":"related","method":"link-in-text","confidence":"low","span":[12511,12536],"revision":1374516218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54755877","to":"wikipedia://en/46043","predicate":"related","method":"link-in-text","confidence":"low","span":[12659,12671],"revision":1374516218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54755877","to":"wikipedia://en/839728","predicate":"related","method":"link-in-text","confidence":"low","span":[12673,12691],"revision":1374516218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54755877","to":"wikipedia://en/308357","predicate":"related","method":"link-in-text","confidence":"low","span":[12698,12713],"revision":1374516218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54755877","to":"Category:Parametric families of graphs","predicate":"in-field","method":"category","confidence":"medium","span":[16733,16775],"revision":1374516218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8336#YUE9","to":"wikipedia://en/10939","predicate":"uses","method":"link-in-item","confidence":"high","span":[1971,1990],"revision":1337884440,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8336#YUE9","to":"wikipedia://en/27701","predicate":"uses","method":"link-in-item","confidence":"high","span":[2217,2254],"revision":1337884440,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8336#YUE9","to":"wikipedia://en/4292269","predicate":"uses","method":"link-in-item","confidence":"high","span":[2282,2322],"revision":1337884440,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8336#YUE9","to":"wikipedia://en/207790","predicate":"uses","method":"link-in-item","confidence":"high","span":[2559,2579],"revision":1337884440,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8336#YUE9","to":"wikipedia://en/240790","predicate":"uses","method":"link-in-item","confidence":"high","span":[2782,2828],"revision":1337884440,"by":"importer/wikipedia/1"}

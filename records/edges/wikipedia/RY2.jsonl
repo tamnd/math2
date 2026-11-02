@@ -1,0 +1,44 @@
+{"from":"wikipedia://en/140829#AL1O","to":"wikipedia://en/21331886","predicate":"listed-in","method":"list","confidence":"certain","span":[35096,35134],"revision":1372044875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4542221","to":"wikipedia://en/56098","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[60,83],"revision":1195595981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4542221","to":"wikipedia://en/198608","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[150,172],"revision":1195595981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4542221","to":"wikipedia://en/28481","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[228,265],"revision":1195595981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4542221","to":"wikipedia://en/4107","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[400,426],"revision":1195595981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4542221","to":"wikipedia://en/8519857","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[586,631],"revision":1195595981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4542221","to":"wikipedia://en/60876","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[647,663],"revision":1195595981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4542221","to":"wikipedia://en/2212867","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1141,1161],"revision":1195595981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4542221","to":"wikipedia://en/292744","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1296,1311],"revision":1195595981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4542221","to":"wikipedia://en/172244","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1567,1590],"revision":1195595981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4542221","to":"wikipedia://en/20593510","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1945,1953],"revision":1195595981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4542221","to":"wikipedia://en/2320130","predicate":"related","method":"see-also","confidence":"low","span":[2448,2471],"revision":1195595981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4542221","to":"wikipedia://en/8519857","predicate":"related","method":"see-also","confidence":"low","span":[2474,2519],"revision":1195595981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4542221","to":"wikipedia://en/27353663","predicate":"related","method":"see-also","confidence":"low","span":[2522,2577],"revision":1195595981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4542221","to":"wikipedia://en/12207850","predicate":"related","method":"see-also","confidence":"low","span":[2580,2675],"revision":1195595981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4542221","to":"wikipedia://en/21717048","predicate":"related","method":"see-also","confidence":"low","span":[2678,2704],"revision":1195595981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4542221","to":"Category:Molecular modelling","predicate":"in-field","method":"category","confidence":"medium","span":[3533,3565],"revision":1195595981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4542221","to":"Category:Theoretical chemistry","predicate":"in-field","method":"category","confidence":"medium","span":[3566,3600],"revision":1195595981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4542221","to":"Category:Monte Carlo methods","predicate":"in-field","method":"category","confidence":"medium","span":[3601,3633],"revision":1195595981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4542221","to":"Category:Stochastic models","predicate":"in-field","method":"category","confidence":"medium","span":[3634,3664],"revision":1195595981,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50597374","to":"wikipedia://en/37973","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[129,152],"revision":1374738724,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50597374","to":"wikipedia://en/10390","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[165,181],"revision":1374738724,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50597374","to":"wikipedia://en/20422911","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[233,252],"revision":1374738724,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50597374","to":"wikipedia://en/62329","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[265,282],"revision":1374738724,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50597374","to":"wikipedia://en/188098","predicate":"related","method":"link-in-text","confidence":"low","span":[480,497],"revision":1374738724,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50597374","to":"wikipedia://en/573","predicate":"related","method":"link-in-text","confidence":"low","span":[1164,1192],"revision":1374738724,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50597374","to":"wikipedia://en/14627","predicate":"related","method":"link-in-text","confidence":"low","span":[1325,1341],"revision":1374738724,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50597374","to":"wikipedia://en/398628","predicate":"related","method":"link-in-text","confidence":"low","span":[1428,1440],"revision":1374738724,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50597374","to":"wikipedia://en/26571","predicate":"related","method":"link-in-text","confidence":"low","span":[1672,1689],"revision":1374738724,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50597374","to":"wikipedia://en/162729","predicate":"related","method":"link-in-text","confidence":"low","span":[2454,2481],"revision":1374738724,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50597374","to":"wikipedia://en/3556316","predicate":"related","method":"link-in-text","confidence":"low","span":[2522,2544],"revision":1374738724,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50597374","to":"wikipedia://en/27115563","predicate":"related","method":"link-in-text","confidence":"low","span":[2724,2750],"revision":1374738724,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50597374","to":"Category:Econometrics","predicate":"in-field","method":"category","confidence":"medium","span":[3394,3419],"revision":1374738724,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50597374","to":"Category:Meta-analysis","predicate":"in-field","method":"category","confidence":"medium","span":[3420,3446],"revision":1374738724,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50597374","to":"Category:Scientific method","predicate":"in-field","method":"category","confidence":"medium","span":[3447,3477],"revision":1374738724,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71457245","to":"wikipedia://en/621732","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[191,213],"revision":1300703156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71457245","to":"wikipedia://en/621774","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[218,246],"revision":1300703156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71457245","to":"wikipedia://en/166215","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[297,320],"revision":1300703156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71457245","to":"wikipedia://en/166215","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[540,563],"revision":1300703156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71457245","to":"wikipedia://en/77357454","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[587,604],"revision":1300703156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71457245","to":"wikipedia://en/18376786","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[671,688],"revision":1300703156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71457245","to":"wikipedia://en/18376786","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[696,729],"revision":1300703156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71457245","to":"Category:20th-century Japanese mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1843,1892],"revision":1300703156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71457245","to":"Category:21st-century Japanese mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1893,1942],"revision":1300703156,"by":"importer/wikipedia/1"}

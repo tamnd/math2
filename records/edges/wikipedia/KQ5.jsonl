@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/3036515#NH0P","to":"wikipedia://en/32782993","predicate":"listed-in","method":"list","confidence":"certain","span":[3072,3089],"revision":1351032879,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3036515#NH0P","to":"wikipedia://en/19585658","predicate":"uses","method":"link-in-item","confidence":"high","span":[3091,3110],"revision":1351032879,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3036515#NH0P","to":"wikipedia://en/32790688","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3118,3130],"revision":1351032879,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3036515#NH0P","to":"wikipedia://en/32779191","predicate":"uses","method":"link-in-item","confidence":"high","span":[3132,3164],"revision":1351032879,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72235587","to":"wikipedia://en/13467","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[169,180],"revision":1307080349,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72235587","to":"wikipedia://en/72235722","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[203,219],"revision":1307080349,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72235587","to":"wikipedia://en/535877","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[370,396],"revision":1307080349,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72235587","to":"Category:18th-century German Jews","predicate":"in-field","method":"category","confidence":"medium","span":[1203,1240],"revision":1307080349,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72235587","to":"Category:18th-century German mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1241,1288],"revision":1307080349,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72235587","to":"Category:Jews from Hamburg","predicate":"in-field","method":"category","confidence":"medium","span":[1289,1319],"revision":1307080349,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72235587","to":"Category:Scientists from Hamburg","predicate":"in-field","method":"category","confidence":"medium","span":[1320,1356],"revision":1307080349,"by":"importer/wikipedia/1"}

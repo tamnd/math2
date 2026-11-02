@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/18903091","to":"wikipedia://en/780886","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[62,113],"revision":1352957271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18903091","to":"wikipedia://en/54342","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[117,138],"revision":1352957271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18903091","to":"wikipedia://en/1986263","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[157,178],"revision":1352957271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18903091","to":"wikipedia://en/32407013","predicate":"related","method":"link-in-lead","confidence":"low","span":[198,218],"revision":1352957271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18903091","to":"wikipedia://en/18794778","predicate":"related","method":"link-in-lead","confidence":"low","span":[220,241],"revision":1352957271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18903091","to":"wikipedia://en/31214873","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[247,263],"revision":1352957271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18903091","to":"wikipedia://en/15470598","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1150,1165],"revision":1352957271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18903091","to":"wikipedia://en/47436","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1191,1229],"revision":1352957271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18903091","to":"wikipedia://en/14922","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1270,1288],"revision":1352957271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18903091","to":"wikipedia://en/6122","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1295,1329],"revision":1352957271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18903091","to":"wikipedia://en/352376","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1351,1370],"revision":1352957271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18903091","to":"wikipedia://en/422711","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1376,1407],"revision":1352957271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18903091","to":"wikipedia://en/27716891","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1477,1490],"revision":1352957271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18903091","to":"wikipedia://en/3333402","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1793,1813],"revision":1352957271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18903091","to":"wikipedia://en/468536","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2249,2268],"revision":1352957271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18903091","to":"wikipedia://en/30766907","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2324,2386],"revision":1352957271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18903091","to":"wikipedia://en/30766907","predicate":"related","method":"link-in-text","confidence":"low","span":[9503,9547],"revision":1352957271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18903091","to":"wikipedia://en/37698505","predicate":"related","method":"see-also","confidence":"low","span":[12228,12249],"revision":1352957271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18903091","to":"Category:Theorems in discrete mathematics","predicate":"kind-of","method":"category","confidence":"medium","span":[12325,12370],"revision":1352957271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18903091","to":"Category:Symbolic dynamics","predicate":"in-field","method":"category","confidence":"medium","span":[12411,12441],"revision":1352957271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18903091","to":"Category:Cellular automata","predicate":"in-field","method":"category","confidence":"medium","span":[12442,12472],"revision":1352957271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#STB3","to":"wikipedia://en/8284591","predicate":"listed-in","method":"list","confidence":"certain","span":[44529,44573],"revision":1374178001,"by":"importer/wikipedia/1"}

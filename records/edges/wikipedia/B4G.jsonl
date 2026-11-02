@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/1188090#2WO7","to":"wikipedia://en/6759","predicate":"listed-in","method":"list","confidence":"certain","span":[3461,3485],"revision":1368845154,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1188090#2WO7","to":"wikipedia://en/647729","predicate":"uses","method":"link-in-item","confidence":"high","span":[3530,3561],"revision":1368845154,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3088901#209K","to":"wikipedia://en/23341517","predicate":"listed-in","method":"list","confidence":"certain","span":[1819,1837],"revision":1354804023,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3141761#R5AE","to":"wikipedia://en/3028504","predicate":"uses","method":"link-in-item","confidence":"high","span":[6878,6896],"revision":1346525707,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3141761#R5AE","to":"wikipedia://en/320469","predicate":"uses","method":"link-in-item","confidence":"high","span":[6922,6946],"revision":1346525707,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3141761#R5AE","to":"wikipedia://en/897529","predicate":"uses","method":"link-in-item","confidence":"high","span":[7004,7024],"revision":1346525707,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3141761#R5AE","to":"wikipedia://en/396014","predicate":"uses","method":"link-in-item","confidence":"high","span":[7033,7057],"revision":1346525707,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3141761#R5AE","to":"wikipedia://en/3142215","predicate":"uses","method":"link-in-item","confidence":"high","span":[7083,7098],"revision":1346525707,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3141761#R5AE","to":"wikipedia://en/33569","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7100,7120],"revision":1346525707,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/356213#R0OC","to":"wikipedia://en/1586970","predicate":"listed-in","method":"list","confidence":"certain","span":[5751,5777],"revision":1359895470,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41685609#VNWB","to":"wikipedia://en/308","predicate":"listed-in","method":"list","confidence":"certain","span":[1956,1969],"revision":1365481337,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/609487","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[119,134],"revision":1351839112,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/609487","to":"wikipedia://en/30325","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[190,229],"revision":1351839112,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/609487","to":"wikipedia://en/4542389","predicate":"related","method":"link-in-text","confidence":"low","span":[323,344],"revision":1351839112,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/609487","to":"wikipedia://en/10312621","predicate":"related","method":"link-in-text","confidence":"low","span":[349,370],"revision":1351839112,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/609487","to":"wikipedia://en/886866","predicate":"related","method":"link-in-text","confidence":"low","span":[4351,4383],"revision":1351839112,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/609487","to":"wikipedia://en/1984963","predicate":"related","method":"link-in-text","confidence":"low","span":[4523,4545],"revision":1351839112,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/609487","to":"wikipedia://en/348976","predicate":"related","method":"see-also","confidence":"low","span":[4881,4916],"revision":1351839112,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/609487","to":"wikipedia://en/28751817","predicate":"related","method":"see-also","confidence":"low","span":[4919,4938],"revision":1351839112,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/609487","to":"wikipedia://en/2031353","predicate":"related","method":"see-also","confidence":"low","span":[4969,4994],"revision":1351839112,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/609487","to":"Category:Transcendental numbers","predicate":"in-field","method":"category","confidence":"medium","span":[6742,6777],"revision":1351839112,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/609487","to":"Category:Theorems in number theory","predicate":"kind-of","method":"category","confidence":"medium","span":[6778,6816],"revision":1351839112,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76765067#2JXB","to":"wikipedia://en/1606990","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[110315,110342],"revision":1368301704,"by":"importer/wikipedia/1"}

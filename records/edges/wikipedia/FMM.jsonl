@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/1098209#3F7O","to":"wikipedia://en/51218889","predicate":"listed-in","method":"list","confidence":"certain","span":[5894,5951],"revision":1364067165,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13048500","to":"wikipedia://en/21527","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,20],"revision":1354169266,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13048500","to":"wikipedia://en/23666","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[54,67],"revision":1354169266,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13048500","to":"wikipedia://en/21474","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[96,114],"revision":1354169266,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13048500","to":"wikipedia://en/23666","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[128,150],"revision":1354169266,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13048500","to":"wikipedia://en/20087","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[329,362],"revision":1354169266,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13048500","to":"wikipedia://en/23000","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[367,382],"revision":1354169266,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13048500","to":"Category:Factorial and binomial topics","predicate":"in-field","method":"category","confidence":"medium","span":[1591,1633],"revision":1354169266,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13048500","to":"Category:Modular arithmetic","predicate":"in-field","method":"category","confidence":"medium","span":[1634,1665],"revision":1354169266,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13048500","to":"Category:Theorems about prime numbers","predicate":"kind-of","method":"category","confidence":"medium","span":[1666,1707],"revision":1354169266,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2240655#YKW9","to":"wikipedia://en/2258210","predicate":"listed-in","method":"list","confidence":"certain","span":[620,652],"revision":1081117820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2310971#VT84","to":"wikipedia://en/252009","predicate":"uses","method":"link-in-item","confidence":"high","span":[12774,12797],"revision":1354460683,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2310971#VT84","to":"wikipedia://en/145126","predicate":"uses","method":"link-in-item","confidence":"high","span":[13101,13120],"revision":1354460683,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26248766#C2XR","to":"wikipedia://en/180825","predicate":"listed-in","method":"list","confidence":"certain","span":[16770,16790],"revision":1349235543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49434972#MKMU","to":"wikipedia://en/49434972","predicate":"uses","method":"anchor","confidence":"certain","span":[2543,2571],"revision":1371417209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82285#PXQV","to":"wikipedia://en/359970","predicate":"restates","method":"hatnote","confidence":"high","span":[19205,19224],"revision":1365058650,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82285#PXQV","to":"wikipedia://en/10949","predicate":"uses","method":"link-in-proof","confidence":"high","span":[19448,19470],"revision":1365058650,"by":"importer/wikipedia/1"}

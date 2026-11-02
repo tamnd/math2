@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/10030230","to":"wikipedia://en/47219631","predicate":"related","method":"link-in-lead","confidence":"low","span":[163,180],"revision":1355849009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10030230","to":"wikipedia://en/37765","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[188,229],"revision":1355849009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10030230","to":"wikipedia://en/57447797","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1074,1086],"revision":1355849009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10030230","to":"wikipedia://en/57449714","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1465,1496],"revision":1355849009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10030230","to":"Category:Statistical software","predicate":"in-field","method":"category","confidence":"medium","span":[1835,1868],"revision":1355849009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10030230","to":"Category:Proprietary software","predicate":"in-field","method":"category","confidence":"medium","span":[1869,1902],"revision":1355849009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10030230","to":"Category:Windows-only software","predicate":"in-field","method":"category","confidence":"medium","span":[1903,1937],"revision":1355849009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10030230","to":"Category:1960s software","predicate":"in-field","method":"category","confidence":"medium","span":[1938,1965],"revision":1355849009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10030230","to":"Category:Biostatistics","predicate":"in-field","method":"category","confidence":"medium","span":[1966,1992],"revision":1355849009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/352181#QP9X","to":"wikipedia://en/363628","predicate":"listed-in","method":"list","confidence":"certain","span":[5234,5252],"revision":1346165939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/92465#JJC0","to":"wikipedia://en/12316","predicate":"uses","method":"link-in-item","confidence":"high","span":[33009,33027],"revision":1375214756,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/92465#JJC0","to":"wikipedia://en/567580","predicate":"uses","method":"link-in-item","confidence":"high","span":[33077,33098],"revision":1375214756,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/92465#JJC0","to":"wikipedia://en/25120","predicate":"uses","method":"link-in-item","confidence":"high","span":[33102,33123],"revision":1375214756,"by":"importer/wikipedia/1"}

@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/191457#OHCF","to":"wikipedia://en/25099295","predicate":"listed-in","method":"list","confidence":"certain","span":[4004,4029],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21067650#ORGH","to":"wikipedia://en/176733","predicate":"uses","method":"link-in-item","confidence":"high","span":[12891,12948],"revision":1350173076,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21302#KH9L","to":"wikipedia://en/57630","predicate":"uses","method":"link-in-item","confidence":"medium","span":[46966,46977],"revision":1375324590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21302#KH9L","to":"wikipedia://en/317311","predicate":"uses","method":"link-in-item","confidence":"high","span":[47075,47110],"revision":1375324590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31150618#T8IE","to":"wikipedia://en/145343","predicate":"uses","method":"link-in-item","confidence":"high","span":[4276,4306],"revision":1358386747,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31150618#T8IE","to":"wikipedia://en/25202","predicate":"uses","method":"link-in-item","confidence":"high","span":[5161,5190],"revision":1358386747,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31150618#T8IE","to":"wikipedia://en/4899779","predicate":"uses","method":"link-in-item","confidence":"high","span":[5191,5243],"revision":1358386747,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3610251","to":"wikipedia://en/18426501","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1205,1227],"revision":1372375276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3610251","to":"wikipedia://en/1997","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1500,1522],"revision":1372375276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3610251","to":"wikipedia://en/260879","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1549,1568],"revision":1372375276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3610251","to":"wikipedia://en/3660414","predicate":"related","method":"link-in-lead","confidence":"low","span":[1618,1639],"revision":1372375276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3610251","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[5703,5752],"revision":1372375276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3610251","to":"Category:21st-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[5753,5802],"revision":1372375276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3610251","to":"Category:Algebraic geometers","predicate":"in-field","method":"category","confidence":"medium","span":[5803,5835],"revision":1372375276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54262640","to":"wikipedia://en/890891","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[89,107],"revision":1334890357,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54262640","to":"wikipedia://en/56586935","predicate":"related","method":"link-in-lead","confidence":"low","span":[472,502],"revision":1334890357,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54262640","to":"wikipedia://en/6122","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[557,577],"revision":1334890357,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54262640","to":"wikipedia://en/6891551","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[578,596],"revision":1334890357,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54262640","to":"wikipedia://en/6122","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[626,646],"revision":1334890357,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54262640","to":"wikipedia://en/6891551","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[647,665],"revision":1334890357,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54262640","to":"Template:Stochastic processes","predicate":"in-nav","method":"nav","confidence":"low","span":[2177,2201],"revision":1334890357,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54262640","to":"Category:Probability theory","predicate":"in-field","method":"category","confidence":"medium","span":[2245,2276],"revision":1334890357,"by":"importer/wikipedia/1"}

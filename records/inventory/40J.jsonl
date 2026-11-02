@@ -1,1 +1,6 @@
+{"id":"40J1EFQBWM","mentions":["wikipedia://en/30562#WA5C"],"kind":"definition","name":"Polish","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"40JGPW7BF3","mentions":["wikipedia://en/35645041"],"kind":"topic","name":"Walter Thom","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"40JN31FJBH","mentions":["wikipedia://en/39563465#Y4XE"],"kind":"definition","name":"OjAlgo","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"40JQWYWGV5","mentions":["wikipedia://en/44787301#4Y85"],"kind":"unknown","name":"Percy Alexander MacMahon","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"40JVRW3D2M","mentions":["ax://paper/2609.29274#8Q7B"],"kind":"statement","msc":["53-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}],"proofs":["ax://paper/2609.29274#5AIV"]}
+{"id":"40JYQVV2BW","mentions":["wikipedia://en/20258156"],"kind":"statement","name":"Menzerath's law","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

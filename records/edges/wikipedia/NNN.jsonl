@@ -1,0 +1,28 @@
+{"from":"wikipedia://en/170366#KIKG","to":"wikipedia://en/174080","predicate":"uses","method":"link-in-item","confidence":"high","span":[4837,4856],"revision":1361899654,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/170366#KIKG","to":"wikipedia://en/129222","predicate":"uses","method":"link-in-item","confidence":"high","span":[4875,4893],"revision":1361899654,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/183091#A0E1","to":"wikipedia://en/690702","predicate":"listed-in","method":"list","confidence":"certain","span":[79357,79386],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19622026","to":"wikipedia://en/1948218","predicate":"related","method":"link-in-lead","confidence":"low","span":[124,149],"revision":1235393000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19622026","to":"wikipedia://en/704359","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[180,200],"revision":1235393000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19622026","to":"wikipedia://en/12316","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[224,243],"revision":1235393000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19622026","to":"wikipedia://en/361184","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[401,438],"revision":1235393000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19622026","to":"wikipedia://en/2055223","predicate":"related","method":"link-in-text","confidence":"low","span":[735,762],"revision":1235393000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19622026","to":"wikipedia://en/73102","predicate":"related","method":"link-in-text","confidence":"low","span":[1142,1181],"revision":1235393000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19622026","to":"wikipedia://en/361184","predicate":"related","method":"link-in-text","confidence":"low","span":[1360,1400],"revision":1235393000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19622026","to":"wikipedia://en/2233526","predicate":"related","method":"link-in-text","confidence":"low","span":[2537,2568],"revision":1235393000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19622026","to":"Category:Special functions","predicate":"in-field","method":"category","confidence":"medium","span":[4310,4340],"revision":1235393000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19622026","to":"Category:Hypergeometric functions","predicate":"in-field","method":"category","confidence":"medium","span":[4341,4378],"revision":1235393000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76765067#RGSD","to":"wikipedia://en/174725","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[192218,192274],"revision":1368301704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/847886","to":"wikipedia://en/4460333","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[125,151],"revision":1371683786,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/847886","to":"wikipedia://en/213996","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[261,306],"revision":1371683786,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/847886","to":"wikipedia://en/213915","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[384,406],"revision":1371683786,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/847886","to":"wikipedia://en/213919","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[440,458],"revision":1371683786,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/847886","to":"wikipedia://en/504786","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[492,514],"revision":1371683786,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/847886","to":"wikipedia://en/6822584","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[573,591],"revision":1371683786,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/847886","to":"wikipedia://en/80224456","predicate":"related","method":"see-also","confidence":"low","span":[3041,3078],"revision":1371683786,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/847886","to":"wikipedia://en/41731660","predicate":"related","method":"see-also","confidence":"low","span":[3081,3106],"revision":1371683786,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/847886","to":"wikipedia://en/33569","predicate":"related","method":"see-also","confidence":"low","span":[3109,3129],"revision":1371683786,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/847886","to":"Category:Additive number theory","predicate":"in-field","method":"category","confidence":"medium","span":[4230,4265],"revision":1371683786,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/847886","to":"Category:Analytic number theory","predicate":"in-field","method":"category","confidence":"medium","span":[4266,4301],"revision":1371683786,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/847886","to":"Category:Figurate numbers","predicate":"in-field","method":"category","confidence":"medium","span":[4302,4331],"revision":1371683786,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/847886","to":"Category:Theorems in number theory","predicate":"kind-of","method":"category","confidence":"medium","span":[4332,4370],"revision":1371683786,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/847886","to":"Category:Pierre de Fermat","predicate":"in-field","method":"category","confidence":"medium","span":[4371,4400],"revision":1371683786,"by":"importer/wikipedia/1"}

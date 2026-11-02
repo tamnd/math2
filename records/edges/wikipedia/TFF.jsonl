@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/22609470#PVN4","to":"wikipedia://en/23692","predicate":"listed-in","method":"list","confidence":"certain","span":[14028,14052],"revision":1340541119,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6123904","to":"wikipedia://en/372603","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[209,224],"revision":1332596055,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6123904","to":"wikipedia://en/5166277","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[261,281],"revision":1332596055,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6123904","to":"wikipedia://en/37792049","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[286,333],"revision":1332596055,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6123904","to":"wikipedia://en/8543960","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[561,587],"revision":1332596055,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6123904","to":"wikipedia://en/4695","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[589,603],"revision":1332596055,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6123904","to":"wikipedia://en/58994258","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1057,1073],"revision":1332596055,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6123904","to":"wikipedia://en/866603","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1243,1264],"revision":1332596055,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6123904","to":"wikipedia://en/1526304","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1579,1652],"revision":1332596055,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6123904","to":"wikipedia://en/316732","predicate":"related","method":"see-also","confidence":"low","span":[1888,1911],"revision":1332596055,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6123904","to":"wikipedia://en/265089","predicate":"related","method":"see-also","confidence":"low","span":[1914,1936],"revision":1332596055,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6123904","to":"wikipedia://en/372603","predicate":"related","method":"see-also","confidence":"low","span":[1939,1954],"revision":1332596055,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6123904","to":"wikipedia://en/58994258","predicate":"related","method":"see-also","confidence":"low","span":[1957,1973],"revision":1332596055,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6123904","to":"wikipedia://en/8543960","predicate":"related","method":"see-also","confidence":"low","span":[1976,2002],"revision":1332596055,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6123904","to":"Category:Financial risk modeling","predicate":"in-field","method":"category","confidence":"medium","span":[2955,2991],"revision":1332596055,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6123904","to":"Category:Financial models","predicate":"in-field","method":"category","confidence":"medium","span":[2992,3021],"revision":1332596055,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6123904","to":"Category:Credit risk","predicate":"in-field","method":"category","confidence":"medium","span":[3022,3046],"revision":1332596055,"by":"importer/wikipedia/1"}

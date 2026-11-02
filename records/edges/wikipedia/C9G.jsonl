@@ -1,0 +1,19 @@
+{"from":"wikipedia://en/25051489","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[89,104],"revision":1357083003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25051489","to":"wikipedia://en/56530120","predicate":"related","method":"link-in-lead","confidence":"low","span":[154,167],"revision":1357083003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25051489","to":"wikipedia://en/8564","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[217,251],"revision":1357083003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25051489","to":"wikipedia://en/10459464","predicate":"related","method":"link-in-text","confidence":"low","span":[2075,2090],"revision":1357083003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25051489","to":"Category:Theorems in differential topology","predicate":"kind-of","method":"category","confidence":"medium","span":[2489,2535],"revision":1357083003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25051489","to":"Category:Singularity theory","predicate":"in-field","method":"category","confidence":"medium","span":[2536,2567],"revision":1357083003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28754333","to":"wikipedia://en/21527","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,20],"revision":1210687098,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28754333","to":"wikipedia://en/286000","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[83,100],"revision":1210687098,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28754333","to":"wikipedia://en/521837","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[321,339],"revision":1210687098,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28754333","to":"wikipedia://en/521837","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[756,775],"revision":1210687098,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28754333","to":"wikipedia://en/595708","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[828,884],"revision":1210687098,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28754333","to":"wikipedia://en/245283","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[888,902],"revision":1210687098,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28754333","to":"wikipedia://en/174724","predicate":"related","method":"link-in-lead","confidence":"low","span":[904,928],"revision":1210687098,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28754333","to":"wikipedia://en/286000","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1011,1031],"revision":1210687098,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28754333","to":"wikipedia://en/27989406","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1113,1175],"revision":1210687098,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28754333","to":"wikipedia://en/29554685","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1411,1438],"revision":1210687098,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28754333","to":"wikipedia://en/2995611","predicate":"related","method":"see-also","confidence":"low","span":[1459,1483],"revision":1210687098,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28754333","to":"Category:Modular forms","predicate":"in-field","method":"category","confidence":"medium","span":[1842,1868],"revision":1210687098,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28754333","to":"Category:Langlands program","predicate":"in-field","method":"category","confidence":"medium","span":[1869,1899],"revision":1210687098,"by":"importer/wikipedia/1"}

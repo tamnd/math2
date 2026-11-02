@@ -1,0 +1,8 @@
+{"from":"wikipedia://en/4165631","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[90,108],"revision":1369968152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4165631","to":"Template:Portal","predicate":"in-nav","method":"nav","confidence":"low","span":[13176,13198],"revision":1369968152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4165631","to":"wikipedia://en/13802295","predicate":"related","method":"see-also","confidence":"low","span":[13201,13238],"revision":1369968152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4165631","to":"wikipedia://en/2153635","predicate":"related","method":"see-also","confidence":"low","span":[13241,13269],"revision":1369968152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4165631","to":"Template:Areas of mathematics","predicate":"in-nav","method":"nav","confidence":"low","span":[14203,14227],"revision":1369968152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4165631","to":"Category:Lists of films by topic","predicate":"in-field","method":"category","confidence":"medium","span":[14229,14280],"revision":1369968152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4165631","to":"Category:Films about mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[14281,14319],"revision":1369968152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4165631","to":"Category:Works about mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[14320,14362],"revision":1369968152,"by":"importer/wikipedia/1"}

@@ -1,0 +1,27 @@
+{"from":"wikipedia://en/22616176","to":"wikipedia://en/22939","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3,14],"revision":1356708102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22616176","to":"wikipedia://en/24295969","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[19,42],"revision":1356708102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22616176","to":"wikipedia://en/436779","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[107,134],"revision":1356708102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22616176","to":"wikipedia://en/363377","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[159,190],"revision":1356708102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22616176","to":"wikipedia://en/12791220","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[219,268],"revision":1356708102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22616176","to":"wikipedia://en/330017","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[404,422],"revision":1356708102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22616176","to":"wikipedia://en/18233581","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[440,465],"revision":1356708102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22616176","to":"wikipedia://en/6054681","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[473,501],"revision":1356708102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22616176","to":"wikipedia://en/340198","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[519,565],"revision":1356708102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22616176","to":"wikipedia://en/3849994","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[570,604],"revision":1356708102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22616176","to":"wikipedia://en/712675","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[727,746],"revision":1356708102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22616176","to":"wikipedia://en/68572267","predicate":"related","method":"see-also","confidence":"low","span":[2397,2437],"revision":1356708102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22616176","to":"Category:Diffraction","predicate":"in-field","method":"category","confidence":"medium","span":[4612,4636],"revision":1356708102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22616176","to":"Category:Electromagnetism","predicate":"in-field","method":"category","confidence":"medium","span":[4637,4666],"revision":1356708102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22616176","to":"Category:Applied mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[4667,4699],"revision":1356708102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22616176","to":"Category:Computational electromagnetics","predicate":"in-field","method":"category","confidence":"medium","span":[4700,4743],"revision":1356708102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22616176","to":"Category:Fredholm theory","predicate":"in-field","method":"category","confidence":"medium","span":[4744,4772],"revision":1356708102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40770350","to":"wikipedia://en/38801","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,25],"revision":1344121362,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40770350","to":"wikipedia://en/194060","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[77,113],"revision":1344121362,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40770350","to":"wikipedia://en/435519","predicate":"related","method":"link-in-lead","confidence":"low","span":[484,510],"revision":1344121362,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40770350","to":"wikipedia://en/480335","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[541,562],"revision":1344121362,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40770350","to":"wikipedia://en/6795342","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[781,822],"revision":1344121362,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40770350","to":"wikipedia://en/782099","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1120,1148],"revision":1344121362,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40770350","to":"wikipedia://en/1033666","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1151,1172],"revision":1344121362,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40770350","to":"wikipedia://en/42245935","predicate":"related","method":"see-also","confidence":"low","span":[2364,2393],"revision":1344121362,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40770350","to":"Category:Algebraic topology","predicate":"in-field","method":"category","confidence":"medium","span":[2723,2754],"revision":1344121362,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40770350","to":"Category:Cohomology theories","predicate":"in-field","method":"category","confidence":"medium","span":[2755,2787],"revision":1344121362,"by":"importer/wikipedia/1"}

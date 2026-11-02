@@ -1,1 +1,2 @@
-{"id":"2K6TFXETQ3","mentions":["m2://rec/wikidata/Q243754#1"],"kind":"unknown","name":"binary search algorithm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"2K6EWJT6PW","mentions":["wikipedia://en/251424#Y8YR"],"kind":"definition","name":"division","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"2K6TFXETQ3","mentions":["m2://rec/wikidata/Q243754#1","wikipedia://en/4266"],"kind":"definition","name":"binary search algorithm","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

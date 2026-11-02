@@ -1,0 +1,26 @@
+{"from":"wikipedia://en/23751259","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1564,1581],"revision":1347432944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23751259","to":"wikipedia://en/1134","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1620,1632],"revision":1347432944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23751259","to":"wikipedia://en/361897","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1673,1689],"revision":1347432944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23751259","to":"wikipedia://en/890819","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1748,1773],"revision":1347432944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23751259","to":"wikipedia://en/4349459","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1775,1785],"revision":1347432944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23751259","to":"wikipedia://en/890819","predicate":"related","method":"link-in-text","confidence":"low","span":[1866,1885],"revision":1347432944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23751259","to":"wikipedia://en/4349459","predicate":"related","method":"link-in-text","confidence":"low","span":[1889,1899],"revision":1347432944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23751259","to":"wikipedia://en/1450744","predicate":"related","method":"link-in-text","confidence":"low","span":[2219,2243],"revision":1347432944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23751259","to":"wikipedia://en/56142","predicate":"related","method":"link-in-text","confidence":"low","span":[2245,2267],"revision":1347432944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23751259","to":"wikipedia://en/7955325","predicate":"related","method":"link-in-text","confidence":"low","span":[2644,2669],"revision":1347432944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23751259","to":"wikipedia://en/7954643","predicate":"related","method":"link-in-text","confidence":"low","span":[2920,2941],"revision":1347432944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23751259","to":"wikipedia://en/185793","predicate":"related","method":"link-in-text","confidence":"low","span":[3168,3180],"revision":1347432944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23751259","to":"wikipedia://en/15572327","predicate":"related","method":"link-in-text","confidence":"low","span":[3305,3338],"revision":1347432944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23751259","to":"wikipedia://en/381889","predicate":"related","method":"link-in-text","confidence":"low","span":[3862,3872],"revision":1347432944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23751259","to":"wikipedia://en/15429532","predicate":"related","method":"link-in-text","confidence":"low","span":[3880,3948],"revision":1347432944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23751259","to":"wikipedia://en/8096647","predicate":"related","method":"link-in-text","confidence":"low","span":[4141,4181],"revision":1347432944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23751259","to":"Category:Academic staff of McGill University","predicate":"in-field","method":"category","confidence":"medium","span":[6881,6929],"revision":1347432944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23751259","to":"Category:Scientists from Kerala","predicate":"in-field","method":"category","confidence":"medium","span":[7074,7109],"revision":1347432944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23751259","to":"Category:Canadian statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[7152,7187],"revision":1347432944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23751259","to":"Category:Mathematical statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[7188,7227],"revision":1347432944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23751259","to":"Category:20th-century Indian statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[7228,7274],"revision":1347432944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/316904#PRV0","to":"wikipedia://en/40634","predicate":"uses","method":"link-in-item","confidence":"high","span":[5939,5954],"revision":1360670678,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/316904#PRV0","to":"wikipedia://en/10609701","predicate":"uses","method":"link-in-item","confidence":"high","span":[6143,6163],"revision":1360670678,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565351#NW5B","to":"wikipedia://en/929162","predicate":"listed-in","method":"list","confidence":"certain","span":[19504,19515],"revision":1373350261,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#ED6U","to":"wikipedia://en/21256722","predicate":"listed-in","method":"list","confidence":"certain","span":[66636,66663],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#ED6U","to":"wikipedia://en/50578","predicate":"uses","method":"link-in-item","confidence":"high","span":[66667,66686],"revision":1373797939,"by":"importer/wikipedia/1"}

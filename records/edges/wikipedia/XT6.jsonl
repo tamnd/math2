@@ -1,0 +1,24 @@
+{"from":"wikipedia://en/2915834","to":"wikipedia://en/418101","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[106,130],"revision":1177192156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2915834","to":"wikipedia://en/219268","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[136,159],"revision":1177192156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2915834","to":"wikipedia://en/4292","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[249,263],"revision":1177192156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2915834","to":"wikipedia://en/19179706","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[514,529],"revision":1177192156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2915834","to":"wikipedia://en/7955","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[587,594],"revision":1177192156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2915834","to":"wikipedia://en/237132","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[677,689],"revision":1177192156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2915834","to":"wikipedia://en/25758","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[695,702],"revision":1177192156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2915834","to":"wikipedia://en/310599","predicate":"restates","method":"hatnote","confidence":"high","span":[1206,1223],"revision":1177192156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2915834","to":"wikipedia://en/287077","predicate":"related","method":"link-in-text","confidence":"low","span":[1242,1259],"revision":1177192156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2915834","to":"wikipedia://en/25308","predicate":"related","method":"link-in-text","confidence":"low","span":[2004,2039],"revision":1177192156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2915834","to":"wikipedia://en/41227","predicate":"related","method":"link-in-text","confidence":"low","span":[5782,5802],"revision":1177192156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2915834","to":"wikipedia://en/4668","predicate":"related","method":"link-in-text","confidence":"low","span":[6176,6200],"revision":1177192156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2915834","to":"wikipedia://en/25308","predicate":"related","method":"link-in-text","confidence":"low","span":[6906,6928],"revision":1177192156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2915834","to":"wikipedia://en/2161429","predicate":"related","method":"link-in-text","confidence":"low","span":[7180,7196],"revision":1177192156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2915834","to":"wikipedia://en/54423","predicate":"related","method":"link-in-text","confidence":"low","span":[8216,8236],"revision":1177192156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2915834","to":"wikipedia://en/25308","predicate":"related","method":"link-in-text","confidence":"low","span":[8812,8828],"revision":1177192156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2915834","to":"wikipedia://en/1960186","predicate":"related","method":"see-also","confidence":"low","span":[10923,10944],"revision":1177192156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2915834","to":"wikipedia://en/3953335","predicate":"related","method":"see-also","confidence":"low","span":[10946,10967],"revision":1177192156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2915834","to":"wikipedia://en/1669966","predicate":"related","method":"see-also","confidence":"low","span":[10969,10988],"revision":1177192156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2915834","to":"wikipedia://en/12845111","predicate":"related","method":"see-also","confidence":"low","span":[10990,11009],"revision":1177192156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2915834","to":"wikipedia://en/356200","predicate":"related","method":"see-also","confidence":"low","span":[11011,11031],"revision":1177192156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2915834","to":"Category:Evolutionary biology","predicate":"in-field","method":"category","confidence":"medium","span":[13081,13114],"revision":1177192156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2915834","to":"Category:Population genetics","predicate":"in-field","method":"category","confidence":"medium","span":[13115,13147],"revision":1177192156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2915834","to":"Category:Microbial population biology","predicate":"in-field","method":"category","confidence":"medium","span":[13148,13189],"revision":1177192156,"by":"importer/wikipedia/1"}

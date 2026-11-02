@@ -1,1 +1,4 @@
+{"id":"ABE2HHEXET","mentions":["wikipedia://en/46860#HPJ1"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ABE2XPCHTM","mentions":["ax://paper/2610.18154#LH0K"],"kind":"statement","msc":["20-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
+{"id":"ABEEVMAAVQ","mentions":["wikipedia://en/191457#81UE"],"kind":"definition","name":"Parametric family","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ABEJ1DBF3S","mentions":["wikipedia://en/10274436#1MWF"],"kind":"definition","name":"Construction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

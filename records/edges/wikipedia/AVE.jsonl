@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/1275978","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1346459203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1275978","to":"wikipedia://en/62641","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[91,107],"revision":1346459203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1275978","to":"wikipedia://en/39792","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[115,127],"revision":1346459203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1275978","to":"wikipedia://en/637024","predicate":"related","method":"link-in-lead","confidence":"low","span":[167,186],"revision":1346459203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1275978","to":"wikipedia://en/580384","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[362,380],"revision":1346459203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1275978","to":"wikipedia://en/56479709","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[423,442],"revision":1346459203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1275978","to":"wikipedia://en/143151","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[477,495],"revision":1346459203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1275978","to":"wikipedia://en/4673481","predicate":"related","method":"link-in-lead","confidence":"low","span":[544,562],"revision":1346459203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1275978","to":"wikipedia://en/1028291","predicate":"related","method":"link-in-lead","confidence":"low","span":[741,763],"revision":1346459203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1275978","to":"wikipedia://en/23762740","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1264,1304],"revision":1346459203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1275978","to":"wikipedia://en/4120135","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1312,1336],"revision":1346459203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1275978","to":"Category:Differential topology","predicate":"in-field","method":"category","confidence":"medium","span":[3996,4030],"revision":1346459203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1275978","to":"Category:Disproved conjectures","predicate":"in-field","method":"category","confidence":"medium","span":[4031,4065],"revision":1346459203,"by":"importer/wikipedia/1"}

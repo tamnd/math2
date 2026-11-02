@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/14403539#7KHV","to":"wikipedia://en/1345421","predicate":"listed-in","method":"list","confidence":"certain","span":[35938,35957],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/331258#KWDY","to":"wikipedia://en/7043631","predicate":"uses","method":"link-in-item","confidence":"high","span":[8451,8538],"revision":1375437534,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42836571","to":"wikipedia://en/477573","predicate":"related","method":"link-in-text","confidence":"low","span":[938,965],"revision":1039357392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42836571","to":"wikipedia://en/1409693","predicate":"related","method":"link-in-text","confidence":"low","span":[1074,1088],"revision":1039357392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42836571","to":"wikipedia://en/398786","predicate":"restates","method":"hatnote","confidence":"high","span":[1492,1516],"revision":1039357392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42836571","to":"wikipedia://en/8966592","predicate":"restates","method":"hatnote","confidence":"high","span":[4703,4720],"revision":1039357392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42836571","to":"wikipedia://en/221708","predicate":"restates","method":"hatnote","confidence":"high","span":[5896,5942],"revision":1039357392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42836571","to":"wikipedia://en/53932","predicate":"restates","method":"hatnote","confidence":"high","span":[6336,6354],"revision":1039357392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42836571","to":"wikipedia://en/1004743","predicate":"related","method":"see-also","confidence":"low","span":[10398,10420],"revision":1039357392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42836571","to":"wikipedia://en/68458864","predicate":"related","method":"see-also","confidence":"low","span":[10423,10440],"revision":1039357392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42836571","to":"Category:Network science","predicate":"in-field","method":"category","confidence":"medium","span":[10473,10501],"revision":1039357392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42836571","to":"Category:Network theory","predicate":"in-field","method":"category","confidence":"medium","span":[10502,10529],"revision":1039357392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42836571","to":"Category:Equivalence (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[10530,10568],"revision":1039357392,"by":"importer/wikipedia/1"}

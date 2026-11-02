@@ -1,1 +1,3 @@
-{"id":"91KG402R90","mentions":["m2://rec/wikidata/Q3847476#1"],"kind":"unknown","name":"truncation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"91KDYB383X","mentions":["wikipedia://en/1202098#MIHF"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"91KG402R90","mentions":["m2://rec/wikidata/Q3847476#1","wikipedia://en/4224429"],"kind":"object","name":"truncation","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"91KHNJ212F","mentions":["wikipedia://en/48781047#I40H"],"kind":"definition","name":"germ","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

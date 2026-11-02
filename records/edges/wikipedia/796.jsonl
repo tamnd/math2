@@ -1,0 +1,31 @@
+{"from":"wikipedia://en/19938249#L34P","to":"wikipedia://en/3878","predicate":"listed-in","method":"list","confidence":"certain","span":[681,698],"revision":1350625634,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19938249#L34P","to":"wikipedia://en/9127632","predicate":"uses","method":"link-in-item","confidence":"medium","span":[717,728],"revision":1350625634,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19938249#L34P","to":"wikipedia://en/11082896","predicate":"uses","method":"link-in-item","confidence":"high","span":[827,849],"revision":1350625634,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2040906#D35J","to":"wikipedia://en/11286809","predicate":"uses","method":"link-in-item","confidence":"high","span":[10874,10892],"revision":1374370258,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2040906#D35J","to":"wikipedia://en/1527655","predicate":"uses","method":"link-in-item","confidence":"high","span":[10911,10931],"revision":1374370258,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53394437","to":"wikipedia://en/23015","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[53,78],"revision":1332111077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53394437","to":"wikipedia://en/233488","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[83,103],"revision":1332111077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53394437","to":"wikipedia://en/498152","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[155,176],"revision":1332111077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53394437","to":"wikipedia://en/30431128","predicate":"related","method":"link-in-lead","confidence":"low","span":[809,873],"revision":1332111077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53394437","to":"wikipedia://en/498152","predicate":"related","method":"link-in-text","confidence":"low","span":[1783,1804],"revision":1332111077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53394437","to":"wikipedia://en/8880387","predicate":"related","method":"link-in-text","confidence":"low","span":[1827,1853],"revision":1332111077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53394437","to":"wikipedia://en/8912956","predicate":"related","method":"link-in-text","confidence":"low","span":[1858,1890],"revision":1332111077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53394437","to":"wikipedia://en/30431128","predicate":"related","method":"see-also","confidence":"low","span":[2984,3022],"revision":1332111077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53394437","to":"Template:Programming paradigms navbox","predicate":"in-nav","method":"nav","confidence":"low","span":[3277,3309],"revision":1332111077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53394437","to":"Category:Bayesian statistics","predicate":"in-field","method":"category","confidence":"medium","span":[3348,3392],"revision":1332111077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53394437","to":"Category:Computer programming","predicate":"in-field","method":"category","confidence":"medium","span":[3393,3426],"revision":1332111077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53394437","to":"Category:Probability interpretations","predicate":"in-field","method":"category","confidence":"medium","span":[3427,3467],"revision":1332111077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53394437","to":"Category:Philosophy of mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[3468,3506],"revision":1332111077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53394437","to":"Category:Philosophy of science","predicate":"in-field","method":"category","confidence":"medium","span":[3507,3541],"revision":1332111077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53394437","to":"Category:User interfaces","predicate":"in-field","method":"category","confidence":"medium","span":[3542,3570],"revision":1332111077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53394437","to":"Category:Programming paradigms","predicate":"in-field","method":"category","confidence":"medium","span":[3571,3605],"revision":1332111077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/985410#P36L","to":"wikipedia://en/557660","predicate":"uses","method":"link-in-item","confidence":"high","span":[2091,2109],"revision":1376009681,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/985410#P36L","to":"wikipedia://en/31689303","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2145,2169],"revision":1376009681,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/985410#P36L","to":"wikipedia://en/264399","predicate":"uses","method":"link-in-item","confidence":"high","span":[2193,2206],"revision":1376009681,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/985410#P36L","to":"wikipedia://en/68833","predicate":"uses","method":"link-in-item","confidence":"high","span":[2320,2355],"revision":1376009681,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/985410#P36L","to":"wikipedia://en/4044867","predicate":"uses","method":"link-in-item","confidence":"high","span":[2368,2412],"revision":1376009681,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/985410#P36L","to":"wikipedia://en/1013210","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2679,2737],"revision":1376009681,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/985410#P36L","to":"wikipedia://en/416129","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2797,2840],"revision":1376009681,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/985410#P36L","to":"wikipedia://en/6021","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2986,3016],"revision":1376009681,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/985410#P36L","to":"wikipedia://en/29414838","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3708,3744],"revision":1376009681,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/985410#P36L","to":"wikipedia://en/199439","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4032,4053],"revision":1376009681,"by":"importer/wikipedia/1"}

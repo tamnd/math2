@@ -1,0 +1,18 @@
+{"from":"wikipedia://en/32573740","to":"wikipedia://en/7039","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[49,67],"revision":1323067282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32573740","to":"wikipedia://en/1383899","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[120,145],"revision":1323067282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32573740","to":"wikipedia://en/546101","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[156,171],"revision":1323067282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32573740","to":"wikipedia://en/17132402","predicate":"specializes","method":"link-in-lead","confidence":"medium","span":[858,878],"revision":1323067282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32573740","to":"wikipedia://en/3719568","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[966,985],"revision":1323067282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32573740","to":"wikipedia://en/23413599","predicate":"related","method":"link-in-lead","confidence":"low","span":[1358,1378],"revision":1323067282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32573740","to":"Category:Control theory","predicate":"in-field","method":"category","confidence":"medium","span":[4501,4528],"revision":1323067282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32573740","to":"Category:Lemmas","predicate":"kind-of","method":"category","confidence":"medium","span":[4529,4548],"revision":1323067282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3366108","to":"wikipedia://en/11924","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[196,211],"revision":1373944952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3366108","to":"wikipedia://en/1601457","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[249,269],"revision":1373944952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3366108","to":"wikipedia://en/45337","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[311,331],"revision":1373944952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3366108","to":"wikipedia://en/2875272","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[374,391],"revision":1373944952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3366108","to":"wikipedia://en/45337","predicate":"related","method":"link-in-text","confidence":"low","span":[6122,6141],"revision":1373944952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3366108","to":"Category:Game theory equilibrium concepts","predicate":"in-field","method":"category","confidence":"medium","span":[8905,8950],"revision":1373944952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/339396#UZJW","to":"wikipedia://en/44055","predicate":"listed-in","method":"list","confidence":"certain","span":[5196,5219],"revision":1245682451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7149788#UO2H","to":"wikipedia://en/43487","predicate":"uses","method":"link-in-item","confidence":"high","span":[4460,4492],"revision":1331406432,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7149788#UO2H","to":"wikipedia://en/398189","predicate":"uses","method":"link-in-item","confidence":"high","span":[4536,4560],"revision":1331406432,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7149788#UO2H","to":"wikipedia://en/15832717","predicate":"uses","method":"link-in-item","confidence":"high","span":[4593,4621],"revision":1331406432,"by":"importer/wikipedia/1"}

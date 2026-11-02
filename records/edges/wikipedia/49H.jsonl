@@ -1,0 +1,37 @@
+{"from":"wikipedia://en/37532867#JB8S","to":"wikipedia://en/31730","predicate":"listed-in","method":"list","confidence":"certain","span":[35640,35664],"revision":1376357301,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37532867#JB8S","to":"wikipedia://en/33120574","predicate":"uses","method":"link-in-item","confidence":"medium","span":[35726,35809],"revision":1376357301,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/469391#HMCA","to":"wikipedia://en/880406","predicate":"listed-in","method":"list","confidence":"certain","span":[409,442],"revision":1076577561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5562599#1O7S","to":"wikipedia://en/325019","predicate":"uses","method":"link-in-item","confidence":"high","span":[4318,4335],"revision":1373873593,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5562599#1O7S","to":"wikipedia://en/2021","predicate":"related","method":"link-in-item","confidence":"low","span":[4437,4461],"revision":1373873593,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5562599#1O7S","to":"wikipedia://en/25986","predicate":"related","method":"link-in-item","confidence":"low","span":[4713,4743],"revision":1373873593,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5562599#1O7S","to":"wikipedia://en/5815383","predicate":"related","method":"link-in-item","confidence":"low","span":[4856,4876],"revision":1373873593,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76765067#RMJR","to":"wikipedia://en/1316878","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[65981,66004],"revision":1368301704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"wikipedia://en/51481","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[930,940],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"wikipedia://en/9857","predicate":"related","method":"link-in-text","confidence":"low","span":[1045,1055],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"wikipedia://en/9857","predicate":"related","method":"link-in-text","confidence":"low","span":[1057,1068],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"wikipedia://en/343234","predicate":"related","method":"link-in-text","confidence":"low","span":[1526,1569],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"wikipedia://en/152092","predicate":"related","method":"link-in-text","confidence":"low","span":[1582,1599],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"wikipedia://en/356844","predicate":"related","method":"link-in-text","confidence":"low","span":[1883,1910],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"wikipedia://en/33565249","predicate":"related","method":"link-in-text","confidence":"low","span":[1912,1966],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"wikipedia://en/340454","predicate":"related","method":"link-in-text","confidence":"low","span":[1983,2013],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"wikipedia://en/37410","predicate":"related","method":"link-in-text","confidence":"low","span":[2069,2080],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"wikipedia://en/499094","predicate":"related","method":"link-in-text","confidence":"low","span":[2194,2227],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"wikipedia://en/180763","predicate":"related","method":"link-in-text","confidence":"low","span":[2350,2378],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"wikipedia://en/44282631","predicate":"related","method":"link-in-text","confidence":"low","span":[2389,2416],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"wikipedia://en/2809117","predicate":"related","method":"link-in-text","confidence":"low","span":[2844,2877],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"wikipedia://en/42029","predicate":"related","method":"link-in-text","confidence":"low","span":[2912,2959],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"wikipedia://en/26748","predicate":"related","method":"link-in-text","confidence":"low","span":[2976,2991],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"wikipedia://en/13288","predicate":"related","method":"link-in-text","confidence":"low","span":[3018,3029],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"wikipedia://en/23307013","predicate":"related","method":"link-in-text","confidence":"low","span":[3062,3076],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"wikipedia://en/19708","predicate":"related","method":"link-in-text","confidence":"low","span":[3391,3421],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"wikipedia://en/343613","predicate":"related","method":"link-in-text","confidence":"low","span":[4027,4044],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"Category:German statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[5945,5978],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"Category:18th-century German economists","predicate":"in-field","method":"category","confidence":"medium","span":[5979,6022],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"Category:18th-century German lawyers","predicate":"in-field","method":"category","confidence":"medium","span":[6023,6063],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"Category:Academic staff of the University of Göttingen","predicate":"in-field","method":"category","confidence":"medium","span":[6182,6241],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"Category:Academic staff of Marburg University","predicate":"in-field","method":"category","confidence":"medium","span":[6242,6291],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"Category:Emigrants from the Polish–Lithuanian Commonwealth to the Holy Roman Empire","predicate":"in-field","method":"category","confidence":"medium","span":[6423,6512],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"Category:18th-century German jurists","predicate":"in-field","method":"category","confidence":"medium","span":[6513,6553],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"Category:18th-century German historians","predicate":"in-field","method":"category","confidence":"medium","span":[6554,6597],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"Category:18th-century German male non-fiction writers","predicate":"in-field","method":"category","confidence":"medium","span":[6598,6655],"revision":1372782085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/822005","to":"Category:18th-century German philosophers","predicate":"in-field","method":"category","confidence":"medium","span":[6656,6701],"revision":1372782085,"by":"importer/wikipedia/1"}

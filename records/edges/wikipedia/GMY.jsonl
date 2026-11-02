@@ -1,0 +1,28 @@
+{"from":"wikipedia://en/1598759","to":"wikipedia://en/48396","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[90,115],"revision":1369246404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1598759","to":"wikipedia://en/494308","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[166,188],"revision":1369246404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1598759","to":"wikipedia://en/1743431","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[192,224],"revision":1369246404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1598759","to":"wikipedia://en/12281","predicate":"related","method":"link-in-lead","confidence":"low","span":[337,358],"revision":1369246404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1598759","to":"wikipedia://en/3141677","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[760,780],"revision":1369246404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1598759","to":"wikipedia://en/552488","predicate":"related","method":"link-in-text","confidence":"low","span":[1530,1547],"revision":1369246404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1598759","to":"wikipedia://en/268886","predicate":"related","method":"link-in-text","confidence":"low","span":[1795,1815],"revision":1369246404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1598759","to":"wikipedia://en/494308","predicate":"related","method":"see-also","confidence":"low","span":[11034,11056],"revision":1369246404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1598759","to":"wikipedia://en/3141677","predicate":"related","method":"see-also","confidence":"low","span":[11058,11078],"revision":1369246404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1598759","to":"Template:Calculus topics","predicate":"in-nav","method":"nav","confidence":"low","span":[12483,12502],"revision":1369246404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1598759","to":"Category:Convergence tests","predicate":"in-field","method":"category","confidence":"medium","span":[12569,12599],"revision":1369246404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1598759","to":"Category:Gottfried Wilhelm Leibniz","predicate":"in-field","method":"category","confidence":"medium","span":[12600,12638],"revision":1369246404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22609470#0239","to":"wikipedia://en/30367","predicate":"listed-in","method":"list","confidence":"certain","span":[5219,5232],"revision":1340541119,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32234404#2NM3","to":"wikipedia://en/835827","predicate":"uses","method":"link-in-item","confidence":"high","span":[1470,1497],"revision":1351860527,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32234404#2NM3","to":"wikipedia://en/23189","predicate":"uses","method":"link-in-item","confidence":"medium","span":[1760,1795],"revision":1351860527,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32234404#2NM3","to":"wikipedia://en/39949298","predicate":"uses","method":"link-in-item","confidence":"high","span":[1828,1858],"revision":1351860527,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32234404#2NM3","to":"wikipedia://en/294390","predicate":"uses","method":"link-in-item","confidence":"high","span":[1876,1912],"revision":1351860527,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32234404#2NM3","to":"wikipedia://en/1335","predicate":"uses","method":"link-in-item","confidence":"high","span":[1917,1953],"revision":1351860527,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32234404#2NM3","to":"wikipedia://en/31742","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2115,2126],"revision":1351860527,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32234404#2NM3","to":"wikipedia://en/5639","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2185,2197],"revision":1351860527,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32234404#2NM3","to":"wikipedia://en/596906","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2218,2240],"revision":1351860527,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3668370","to":"wikipedia://en/470625","predicate":"related","method":"link-in-lead","confidence":"low","span":[96,138],"revision":1321322268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3668370","to":"wikipedia://en/210340","predicate":"related","method":"link-in-lead","confidence":"low","span":[141,176],"revision":1321322268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3668370","to":"wikipedia://en/54010","predicate":"related","method":"link-in-lead","confidence":"low","span":[179,197],"revision":1321322268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3668370","to":"wikipedia://en/294298","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[225,248],"revision":1321322268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3668370","to":"wikipedia://en/1543358","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[267,288],"revision":1321322268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3668370","to":"Category:Symplectic geometry","predicate":"in-field","method":"category","confidence":"medium","span":[2154,2186],"revision":1321322268,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3668370","to":"Category:Theorems in differential geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[2187,2233],"revision":1321322268,"by":"importer/wikipedia/1"}

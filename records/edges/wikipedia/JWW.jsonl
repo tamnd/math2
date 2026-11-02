@@ -1,0 +1,20 @@
+{"from":"wikipedia://en/22999498","to":"wikipedia://en/1997","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,25],"revision":1292658217,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22999498","to":"wikipedia://en/394594","predicate":"related","method":"link-in-lead","confidence":"low","span":[73,98],"revision":1292658217,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22999498","to":"wikipedia://en/581859","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[499,519],"revision":1292658217,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22999498","to":"wikipedia://en/13024295","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[525,545],"revision":1292658217,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22999498","to":"wikipedia://en/4499397","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[562,593],"revision":1292658217,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22999498","to":"wikipedia://en/22999216","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[702,733],"revision":1292658217,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22999498","to":"wikipedia://en/22999259","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[761,801],"revision":1292658217,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22999498","to":"Category:Theorems in algebraic geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[1133,1176],"revision":1292658217,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49072#FJIH","to":"wikipedia://en/35240745","predicate":"uses","method":"link-in-item","confidence":"medium","span":[37322,37344],"revision":1375902551,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49072#FJIH","to":"wikipedia://en/399460","predicate":"uses","method":"link-in-item","confidence":"medium","span":[37646,37668],"revision":1375902551,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54077383","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1354133277,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54077383","to":"wikipedia://en/61994831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[38,57],"revision":1354133277,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54077383","to":"wikipedia://en/1027784","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[102,123],"revision":1354133277,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54077383","to":"wikipedia://en/587678","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[145,207],"revision":1354133277,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54077383","to":"wikipedia://en/1752414","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[400,435],"revision":1354133277,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54077383","to":"wikipedia://en/5707590","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[565,584],"revision":1354133277,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54077383","to":"wikipedia://en/1997","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1173,1195],"revision":1354133277,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54077383","to":"wikipedia://en/17346948","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1205,1232],"revision":1354133277,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54077383","to":"Template:Topology","predicate":"in-nav","method":"nav","confidence":"low","span":[3733,3745],"revision":1354133277,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54077383","to":"Category:Homotopy theory","predicate":"in-field","method":"category","confidence":"medium","span":[3749,3777],"revision":1354133277,"by":"importer/wikipedia/1"}

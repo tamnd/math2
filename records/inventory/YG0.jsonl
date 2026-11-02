@@ -1,1 +1,3 @@
+{"id":"YG0TSCWSMZ","mentions":["wikipedia://en/71805117#2CQC"],"kind":"statement","name":"Theorem 4","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YG0XS9EREA","mentions":["ax://paper/2504.00267#BOFR"],"kind":"example","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
+{"id":"YG0Y4TQ65M","mentions":["wikipedia://en/47058944#0VQ4"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

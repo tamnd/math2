@@ -1,0 +1,10 @@
+{"from":"wikipedia://en/41452559","to":"wikipedia://en/12169694","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[92,120],"revision":1376031481,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41452559","to":"wikipedia://en/19873","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[161,197],"revision":1376031481,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41452559","to":"wikipedia://en/30807","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[233,250],"revision":1376031481,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41452559","to":"wikipedia://en/2119219","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[257,284],"revision":1376031481,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41452559","to":"wikipedia://en/2644238","predicate":"related","method":"link-in-text","confidence":"low","span":[4054,4074],"revision":1376031481,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41452559","to":"wikipedia://en/44688","predicate":"related","method":"link-in-text","confidence":"low","span":[4174,4195],"revision":1376031481,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41452559","to":"Category:Geometry","predicate":"in-field","method":"category","confidence":"medium","span":[5357,5378],"revision":1376031481,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41452559","to":"Category:Measure theory","predicate":"in-field","method":"category","confidence":"medium","span":[5379,5406],"revision":1376031481,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/535823#HRZL","to":"wikipedia://en/490135","predicate":"listed-in","method":"list","confidence":"certain","span":[388,415],"revision":1333049270,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088921#RFOW","to":"wikipedia://en/3141677","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[4127,4147],"revision":1356220777,"by":"importer/wikipedia/1"}

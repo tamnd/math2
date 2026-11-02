@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/13354070#OUAY","to":"wikipedia://en/53058","predicate":"uses","method":"link-in-item","confidence":"high","span":[442,485],"revision":1285526091,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13354070#OUAY","to":"wikipedia://en/45437","predicate":"uses","method":"link-in-item","confidence":"high","span":[634,657],"revision":1285526091,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13354070#OUAY","to":"wikipedia://en/3772816","predicate":"uses","method":"link-in-item","confidence":"high","span":[762,791],"revision":1285526091,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13354070#OUAY","to":"wikipedia://en/6122","predicate":"uses","method":"link-in-item","confidence":"high","span":[930,953],"revision":1285526091,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13354070#OUAY","to":"wikipedia://en/240790","predicate":"uses","method":"link-in-item","confidence":"high","span":[1311,1333],"revision":1285526091,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13354070#OUAY","to":"wikipedia://en/368684","predicate":"uses","method":"link-in-item","confidence":"high","span":[1396,1427],"revision":1285526091,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14403539#DNEM","to":"wikipedia://en/50030179","predicate":"listed-in","method":"list","confidence":"certain","span":[63610,63626],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/356213#8A46","to":"wikipedia://en/3889349","predicate":"listed-in","method":"list","confidence":"certain","span":[12090,12113],"revision":1359895470,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59939359","to":"wikipedia://en/12401","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[403,419],"revision":1335643020,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59939359","to":"wikipedia://en/325806","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[507,527],"revision":1335643020,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59939359","to":"wikipedia://en/638899","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[536,570],"revision":1335643020,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59939359","to":"wikipedia://en/15807","predicate":"related","method":"link-in-lead","confidence":"low","span":[866,888],"revision":1335643020,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59939359","to":"wikipedia://en/26991095","predicate":"related","method":"link-in-text","confidence":"low","span":[1719,1738],"revision":1335643020,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59939359","to":"wikipedia://en/9797288","predicate":"related","method":"link-in-text","confidence":"low","span":[2081,2113],"revision":1335643020,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59939359","to":"wikipedia://en/59958932","predicate":"related","method":"link-in-text","confidence":"low","span":[2138,2153],"revision":1335643020,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59939359","to":"wikipedia://en/896746","predicate":"related","method":"link-in-text","confidence":"low","span":[2214,2232],"revision":1335643020,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59939359","to":"wikipedia://en/5719307","predicate":"related","method":"link-in-text","confidence":"low","span":[2593,2608],"revision":1335643020,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59939359","to":"wikipedia://en/41745711","predicate":"related","method":"link-in-text","confidence":"low","span":[2627,2643],"revision":1335643020,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59939359","to":"wikipedia://en/59945606","predicate":"related","method":"link-in-text","confidence":"low","span":[2679,2718],"revision":1335643020,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59939359","to":"Category:Strongly regular graphs","predicate":"in-field","method":"category","confidence":"medium","span":[6764,6800],"revision":1335643020,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59939359","to":"Category:Unsolved problems in graph theory","predicate":"kind-of","method":"category","confidence":"medium","span":[6801,6847],"revision":1335643020,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59939359","to":"Category:John Horton Conway","predicate":"in-field","method":"category","confidence":"medium","span":[6848,6879],"revision":1335643020,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/705014#VQLE","to":"wikipedia://en/37817","predicate":"listed-in","method":"list","confidence":"certain","span":[1087,1104],"revision":1362125744,"by":"importer/wikipedia/1"}

@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/28268868","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[203,220],"revision":1261851706,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28268868","to":"wikipedia://en/28989696","predicate":"related","method":"link-in-lead","confidence":"low","span":[563,586],"revision":1261851706,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28268868","to":"wikipedia://en/37332","predicate":"related","method":"link-in-lead","confidence":"low","span":[591,608],"revision":1261851706,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28268868","to":"Category:19th-century English mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[697,745],"revision":1261851706,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28268868","to":"Category:19th-century English astronomers","predicate":"in-field","method":"category","confidence":"medium","span":[796,841],"revision":1261851706,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28268868","to":"Category:Place of birth missing","predicate":"in-field","method":"category","confidence":"medium","span":[842,877],"revision":1261851706,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56685825","to":"wikipedia://en/33452725","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[117,140],"revision":1308118821,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56685825","to":"wikipedia://en/362565","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[160,179],"revision":1308118821,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56685825","to":"wikipedia://en/330491","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[2083,2134],"revision":1308118821,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56685825","to":"wikipedia://en/36457556","predicate":"related","method":"link-in-lead","confidence":"low","span":[3109,3133],"revision":1308118821,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56685825","to":"wikipedia://en/33452725","predicate":"related","method":"link-in-text","confidence":"low","span":[3350,3386],"revision":1308118821,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56685825","to":"wikipedia://en/82972","predicate":"specializes","method":"link-in-text","confidence":"medium","span":[4630,4649],"revision":1308118821,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56685825","to":"wikipedia://en/47895","predicate":"related","method":"link-in-text","confidence":"low","span":[5765,5789],"revision":1308118821,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56685825","to":"Category:Optimal control","predicate":"in-field","method":"category","confidence":"medium","span":[7297,7325],"revision":1308118821,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6023946#2CE6","to":"wikipedia://en/1607329","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[15828,15843],"revision":1376107517,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6023946#2CE6","to":"wikipedia://en/6068","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[16492,16507],"revision":1376107517,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6023946#2CE6","to":"wikipedia://en/27404990","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[16908,16950],"revision":1376107517,"by":"importer/wikipedia/1"}

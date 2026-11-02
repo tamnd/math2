@@ -1,1 +1,4 @@
-{"id":"QKEC12C3R6","mentions":["m2://rec/wikidata/Q7239729#1"],"kind":"unknown","name":"predual","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"QKE247HT92","mentions":["wikipedia://en/39211514"],"kind":"definition","name":"Informal inferential reasoning","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QKE3ZH7PVM","mentions":["wikipedia://en/54134481"],"kind":"definition","name":"EU Social Progress Index","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QKEC12C3R6","mentions":["m2://rec/wikidata/Q7239729#1","wikipedia://en/458709"],"kind":"definition","name":"predual","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"QKECM8W1FD","mentions":["wikipedia://en/79817570"],"kind":"definition","name":"Cisinski model structure","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

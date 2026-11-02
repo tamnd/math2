@@ -1,0 +1,33 @@
+{"from":"wikipedia://en/13187475","to":"wikipedia://en/80849","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[592,605],"revision":1069188437,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13187475","to":"wikipedia://en/1641759","predicate":"related","method":"link-in-text","confidence":"low","span":[1130,1147],"revision":1069188437,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13187475","to":"wikipedia://en/179924","predicate":"related","method":"see-also","confidence":"low","span":[2051,2060],"revision":1069188437,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13187475","to":"wikipedia://en/80849","predicate":"related","method":"see-also","confidence":"low","span":[2062,2074],"revision":1069188437,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13187475","to":"wikipedia://en/61563","predicate":"related","method":"see-also","confidence":"low","span":[2076,2086],"revision":1069188437,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13187475","to":"Category:Surfaces","predicate":"in-field","method":"category","confidence":"medium","span":[3787,3808],"revision":1069188437,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15915709","to":"wikipedia://en/26685","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[48,62],"revision":1292039703,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15915709","to":"wikipedia://en/5431921","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[133,149],"revision":1292039703,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15915709","to":"wikipedia://en/6709643","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[172,211],"revision":1292039703,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15915709","to":"wikipedia://en/18707316","predicate":"related","method":"link-in-lead","confidence":"low","span":[233,258],"revision":1292039703,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15915709","to":"wikipedia://en/170353","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[791,817],"revision":1292039703,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15915709","to":"wikipedia://en/744988","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2156,2175],"revision":1292039703,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15915709","to":"wikipedia://en/170353","predicate":"related","method":"link-in-text","confidence":"low","span":[3730,3796],"revision":1292039703,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15915709","to":"wikipedia://en/13475603","predicate":"related","method":"link-in-text","confidence":"low","span":[4708,4743],"revision":1292039703,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15915709","to":"wikipedia://en/9181362","predicate":"related","method":"link-in-text","confidence":"low","span":[5040,5064],"revision":1292039703,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15915709","to":"wikipedia://en/369836","predicate":"related","method":"link-in-text","confidence":"low","span":[6272,6316],"revision":1292039703,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15915709","to":"wikipedia://en/477026","predicate":"related","method":"see-also","confidence":"low","span":[6342,6353],"revision":1292039703,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15915709","to":"wikipedia://en/1761545","predicate":"related","method":"see-also","confidence":"low","span":[6356,6385],"revision":1292039703,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15915709","to":"Category:Estimation methods","predicate":"in-field","method":"category","confidence":"medium","span":[7111,7142],"revision":1292039703,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#EE2Z","to":"wikipedia://en/1822339","predicate":"listed-in","method":"list","confidence":"certain","span":[65287,65314],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#VMYF","to":"wikipedia://en/61823036","predicate":"listed-in","method":"list","confidence":"certain","span":[74741,74760],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76433401","to":"wikipedia://en/1997","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[259,281],"revision":1351055061,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76433401","to":"wikipedia://en/14220","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[290,316],"revision":1351055061,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76433401","to":"wikipedia://en/461012","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[419,448],"revision":1351055061,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76433401","to":"wikipedia://en/259683","predicate":"related","method":"link-in-text","confidence":"low","span":[521,541],"revision":1351055061,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76433401","to":"wikipedia://en/170686","predicate":"related","method":"link-in-text","confidence":"low","span":[572,593],"revision":1351055061,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76433401","to":"wikipedia://en/34273","predicate":"related","method":"link-in-text","confidence":"low","span":[640,659],"revision":1351055061,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76433401","to":"wikipedia://en/1252550","predicate":"related","method":"link-in-text","confidence":"low","span":[2543,2568],"revision":1351055061,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76433401","to":"wikipedia://en/1179483","predicate":"related","method":"link-in-text","confidence":"low","span":[2636,2679],"revision":1351055061,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76433401","to":"wikipedia://en/1179483","predicate":"related","method":"link-in-text","confidence":"low","span":[2748,2785],"revision":1351055061,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76433401","to":"Category:American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[5212,5248],"revision":1351055061,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76433401","to":"Category:Algebraic geometers","predicate":"in-field","method":"category","confidence":"medium","span":[5249,5281],"revision":1351055061,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76433401","to":"Category:American historians of mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[5282,5329],"revision":1351055061,"by":"importer/wikipedia/1"}

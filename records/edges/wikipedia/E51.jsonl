@@ -1,0 +1,33 @@
+{"from":"wikipedia://en/1158496","to":"wikipedia://en/3393371","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[325,349],"revision":1375407000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1158496","to":"wikipedia://en/724530","predicate":"related","method":"link-in-text","confidence":"low","span":[5604,5624],"revision":1375407000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1158496","to":"wikipedia://en/22936087","predicate":"related","method":"link-in-text","confidence":"low","span":[5641,5670],"revision":1375407000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1158496","to":"wikipedia://en/41962124","predicate":"related","method":"link-in-text","confidence":"low","span":[5687,5706],"revision":1375407000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1158496","to":"wikipedia://en/60356303","predicate":"related","method":"link-in-text","confidence":"low","span":[5723,5752],"revision":1375407000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1158496","to":"wikipedia://en/847605","predicate":"related","method":"link-in-text","confidence":"low","span":[5769,5791],"revision":1375407000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1158496","to":"wikipedia://en/27759837","predicate":"related","method":"link-in-text","confidence":"low","span":[5808,5825],"revision":1375407000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1158496","to":"wikipedia://en/8382339","predicate":"related","method":"link-in-text","confidence":"low","span":[5842,5874],"revision":1375407000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1158496","to":"wikipedia://en/47717","predicate":"related","method":"link-in-text","confidence":"low","span":[5891,5914],"revision":1375407000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1158496","to":"wikipedia://en/1162889","predicate":"related","method":"link-in-text","confidence":"low","span":[5931,5962],"revision":1375407000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1158496","to":"wikipedia://en/359931","predicate":"related","method":"link-in-text","confidence":"low","span":[5979,6011],"revision":1375407000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1158496","to":"wikipedia://en/63738593","predicate":"related","method":"link-in-text","confidence":"low","span":[6027,6053],"revision":1375407000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1158496","to":"wikipedia://en/34620116","predicate":"related","method":"link-in-text","confidence":"low","span":[6070,6096],"revision":1375407000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1158496","to":"wikipedia://en/81467486","predicate":"related","method":"link-in-text","confidence":"low","span":[6111,6132],"revision":1375407000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1158496","to":"wikipedia://en/13209936","predicate":"related","method":"see-also","confidence":"low","span":[9914,9943],"revision":1375407000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1158496","to":"wikipedia://en/76196082","predicate":"related","method":"see-also","confidence":"low","span":[9945,9974],"revision":1375407000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1158496","to":"wikipedia://en/80143","predicate":"related","method":"see-also","confidence":"low","span":[9976,10002],"revision":1375407000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1158496","to":"Template:Commons category","predicate":"in-nav","method":"nav","confidence":"low","span":[10150,10196],"revision":1375407000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1158496","to":"Category:Indian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[10260,10297],"revision":1375407000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1158496","to":"Category:Lists of mathematicians by nationality","predicate":"in-field","method":"category","confidence":"medium","span":[10298,10371],"revision":1375407000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1158496","to":"Category:Lists of Indian scientists","predicate":"in-field","method":"category","confidence":"medium","span":[10372,10426],"revision":1375407000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1223019","to":"wikipedia://en/520066","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1132,1159],"revision":1064783787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1223019","to":"wikipedia://en/196223","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1497,1514],"revision":1064783787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1223019","to":"wikipedia://en/175115","predicate":"related","method":"link-in-lead","confidence":"low","span":[1527,1550],"revision":1064783787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1223019","to":"wikipedia://en/472939","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1952,1985],"revision":1064783787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1223019","to":"wikipedia://en/9256","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2475,2500],"revision":1064783787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1223019","to":"wikipedia://en/194839","predicate":"related","method":"see-also","confidence":"low","span":[2697,2721],"revision":1064783787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1223019","to":"wikipedia://en/145035","predicate":"related","method":"see-also","confidence":"low","span":[2724,2734],"revision":1064783787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1223019","to":"Template:Cryptography navbox","predicate":"in-nav","method":"nav","confidence":"low","span":[3225,3259],"revision":1064783787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1223019","to":"Category:Rotor machines","predicate":"in-field","method":"category","confidence":"medium","span":[3261,3288],"revision":1064783787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1223019","to":"Category:Cryptographic hardware","predicate":"in-field","method":"category","confidence":"medium","span":[3289,3324],"revision":1064783787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1223019","to":"Category:World War II American electronics","predicate":"in-field","method":"category","confidence":"medium","span":[3325,3371],"revision":1064783787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/660973#VXOY","to":"wikipedia://en/44370621","predicate":"listed-in","method":"list","confidence":"certain","span":[3854,3871],"revision":1356076661,"by":"importer/wikipedia/1"}

@@ -1,0 +1,30 @@
+{"from":"wikipedia://en/31986082","to":"wikipedia://en/3849994","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[629,663],"revision":1324976836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31986082","to":"wikipedia://en/370346","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[761,792],"revision":1324976836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31986082","to":"wikipedia://en/2987843","predicate":"related","method":"link-in-text","confidence":"low","span":[911,932],"revision":1324976836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31986082","to":"wikipedia://en/357657","predicate":"related","method":"link-in-text","confidence":"low","span":[1054,1068],"revision":1324976836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31986082","to":"wikipedia://en/102847","predicate":"related","method":"link-in-text","confidence":"low","span":[1088,1111],"revision":1324976836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31986082","to":"wikipedia://en/19737","predicate":"related","method":"link-in-text","confidence":"low","span":[1719,1742],"revision":1324976836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31986082","to":"wikipedia://en/52564","predicate":"related","method":"link-in-text","confidence":"low","span":[1895,1928],"revision":1324976836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31986082","to":"wikipedia://en/32742753","predicate":"related","method":"link-in-text","confidence":"low","span":[1950,1984],"revision":1324976836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31986082","to":"wikipedia://en/373986","predicate":"related","method":"link-in-text","confidence":"low","span":[2280,2300],"revision":1324976836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31986082","to":"wikipedia://en/766409","predicate":"related","method":"link-in-text","confidence":"low","span":[4629,4647],"revision":1324976836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31986082","to":"wikipedia://en/4262792","predicate":"related","method":"link-in-text","confidence":"low","span":[5614,5642],"revision":1324976836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31986082","to":"wikipedia://en/1908142","predicate":"related","method":"see-also","confidence":"low","span":[7997,8030],"revision":1324976836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31986082","to":"Category:Mathematical physics","predicate":"in-field","method":"category","confidence":"medium","span":[8905,8938],"revision":1324976836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31986082","to":"Category:Computational electromagnetics","predicate":"in-field","method":"category","confidence":"medium","span":[8939,8982],"revision":1324976836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31986082","to":"Category:Fourier analysis","predicate":"in-field","method":"category","confidence":"medium","span":[8983,9012],"revision":1324976836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31986082","to":"Category:Holography","predicate":"in-field","method":"category","confidence":"medium","span":[9013,9036],"revision":1324976836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55739608","to":"wikipedia://en/50723","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[94,121],"revision":1337479200,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55739608","to":"wikipedia://en/30284","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[240,259],"revision":1337479200,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55739608","to":"wikipedia://en/30284","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[405,431],"revision":1337479200,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55739608","to":"wikipedia://en/280911","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[589,612],"revision":1337479200,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55739608","to":"wikipedia://en/30876902","predicate":"related","method":"link-in-text","confidence":"low","span":[825,868],"revision":1337479200,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55739608","to":"wikipedia://en/23543","predicate":"related","method":"link-in-text","confidence":"low","span":[1105,1133],"revision":1337479200,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55739608","to":"wikipedia://en/1721092","predicate":"related","method":"link-in-text","confidence":"low","span":[1266,1285],"revision":1337479200,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55739608","to":"wikipedia://en/240790","predicate":"related","method":"link-in-text","confidence":"low","span":[3300,3322],"revision":1337479200,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55739608","to":"wikipedia://en/824552","predicate":"related","method":"see-also","confidence":"low","span":[6245,6261],"revision":1337479200,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55739608","to":"wikipedia://en/5915049","predicate":"related","method":"see-also","confidence":"low","span":[6263,6284],"revision":1337479200,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55739608","to":"wikipedia://en/280911","predicate":"related","method":"see-also","confidence":"low","span":[6286,6309],"revision":1337479200,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55739608","to":"wikipedia://en/30284","predicate":"related","method":"see-also","confidence":"low","span":[6311,6333],"revision":1337479200,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55739608","to":"Category:Statistical hypothesis testing","predicate":"in-field","method":"category","confidence":"medium","span":[6876,6919],"revision":1337479200,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55739608","to":"Category:Bayesian statistics","predicate":"in-field","method":"category","confidence":"medium","span":[6921,6953],"revision":1337479200,"by":"importer/wikipedia/1"}

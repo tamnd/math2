@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/1178005","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[646,658],"revision":1365150744,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1178005","to":"wikipedia://en/16034","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[727,745],"revision":1365150744,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1178005","to":"wikipedia://en/285486","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[943,969],"revision":1365150744,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1178005","to":"wikipedia://en/1131073","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[992,1014],"revision":1365150744,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1178005","to":"wikipedia://en/1131101","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1118,1155],"revision":1365150744,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1178005","to":"wikipedia://en/1133303","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1218,1261],"revision":1365150744,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1178005","to":"wikipedia://en/1133317","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1335,1378],"revision":1365150744,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1178005","to":"wikipedia://en/1133338","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1460,1500],"revision":1365150744,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1178005","to":"Category:Johnson solids","predicate":"in-field","method":"category","confidence":"medium","span":[1788,1815],"revision":1365150744,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27126857#CW9G","to":"wikipedia://en/31619812","predicate":"related","method":"hatnote","confidence":"medium","span":[12640,12672],"revision":1366549104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27126857#CW9G","to":"wikipedia://en/809314","predicate":"uses","method":"link-in-item","confidence":"high","span":[12798,12820],"revision":1366549104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27126857#CW9G","to":"wikipedia://en/396231","predicate":"uses","method":"link-in-item","confidence":"high","span":[12889,12910],"revision":1366549104,"by":"importer/wikipedia/1"}

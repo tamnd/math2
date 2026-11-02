@@ -1,0 +1,30 @@
+{"from":"wikipedia://en/69042145","to":"wikipedia://en/23542","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[185,228],"revision":1339316720,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69042145","to":"wikipedia://en/27593","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[263,310],"revision":1339316720,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69042145","to":"wikipedia://en/57691633","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[315,352],"revision":1339316720,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69042145","to":"wikipedia://en/9075610","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[364,434],"revision":1339316720,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69042145","to":"wikipedia://en/39406","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[439,465],"revision":1339316720,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69042145","to":"wikipedia://en/62643147","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[564,593],"revision":1339316720,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69042145","to":"wikipedia://en/4732720","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[709,746],"revision":1339316720,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69042145","to":"wikipedia://en/55891372","predicate":"related","method":"link-in-lead","confidence":"low","span":[813,831],"revision":1339316720,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69042145","to":"wikipedia://en/30852593","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1052,1093],"revision":1339316720,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69042145","to":"wikipedia://en/8096647","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1463,1503],"revision":1339316720,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69042145","to":"Category:21st-century French women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2684,2737],"revision":1339316720,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69042145","to":"Category:French probability theorists","predicate":"in-field","method":"category","confidence":"medium","span":[2738,2779],"revision":1339316720,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69042145","to":"Category:21st-century French statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[2899,2945],"revision":1339316720,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70550429","to":"wikipedia://en/404570","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[348,376],"revision":1329687889,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70550429","to":"wikipedia://en/719914","predicate":"related","method":"link-in-text","confidence":"low","span":[449,494],"revision":1329687889,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70550429","to":"wikipedia://en/23964683","predicate":"related","method":"link-in-text","confidence":"low","span":[555,581],"revision":1329687889,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70550429","to":"wikipedia://en/29927","predicate":"related","method":"link-in-text","confidence":"low","span":[642,666],"revision":1329687889,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70550429","to":"wikipedia://en/154521","predicate":"related","method":"link-in-text","confidence":"low","span":[704,737],"revision":1329687889,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70550429","to":"wikipedia://en/62170910","predicate":"related","method":"link-in-text","confidence":"low","span":[930,964],"revision":1329687889,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70550429","to":"wikipedia://en/9858698","predicate":"related","method":"link-in-text","confidence":"low","span":[972,1012],"revision":1329687889,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70550429","to":"Category:American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1889,1925],"revision":1329687889,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70550429","to":"Category:American women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1926,1968],"revision":1329687889,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70550429","to":"Category:Ukrainian women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1969,2012],"revision":1329687889,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70550429","to":"Category:21st-century Ukrainian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2013,2063],"revision":1329687889,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/889639#MJPF","to":"wikipedia://en/252311","predicate":"uses","method":"link-in-item","confidence":"high","span":[3071,3107],"revision":1361858572,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/889639#MJPF","to":"wikipedia://en/60459","predicate":"uses","method":"link-in-item","confidence":"high","span":[3194,3217],"revision":1361858572,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/889639#MJPF","to":"wikipedia://en/2526582","predicate":"uses","method":"link-in-item","confidence":"high","span":[3331,3382],"revision":1361858572,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/889639#MJPF","to":"wikipedia://en/64750","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3544,3565],"revision":1361858572,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/889639#MJPF","to":"wikipedia://en/23485","predicate":"uses","method":"link-in-item","confidence":"high","span":[3566,3576],"revision":1361858572,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/889639#MJPF","to":"wikipedia://en/2526537","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3765,3788],"revision":1361858572,"by":"importer/wikipedia/1"}

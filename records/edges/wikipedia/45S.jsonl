@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/4684859","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1323145648,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4684859","to":"wikipedia://en/6077963","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[106,127],"revision":1323145648,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4684859","to":"wikipedia://en/6077963","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[291,332],"revision":1323145648,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4684859","to":"wikipedia://en/14907","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[386,406],"revision":1323145648,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4684859","to":"wikipedia://en/26215","predicate":"related","method":"link-in-text","confidence":"low","span":[514,541],"revision":1323145648,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4684859","to":"wikipedia://en/629100","predicate":"related","method":"link-in-text","confidence":"low","span":[616,632],"revision":1323145648,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4684859","to":"wikipedia://en/616186","predicate":"related","method":"link-in-text","confidence":"low","span":[637,658],"revision":1323145648,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4684859","to":"wikipedia://en/1053909","predicate":"related","method":"see-also","confidence":"low","span":[8225,8243],"revision":1323145648,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4684859","to":"Category:Several complex variables","predicate":"in-field","method":"category","confidence":"medium","span":[9627,9665],"revision":1323145648,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4684859","to":"Category:Inverse functions","predicate":"in-field","method":"category","confidence":"medium","span":[9666,9696],"revision":1323145648,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56990#GJB5","to":"wikipedia://en/169945","predicate":"uses","method":"link-in-item","confidence":"high","span":[34217,34245],"revision":1375651786,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56990#GJB5","to":"wikipedia://en/44578","predicate":"uses","method":"link-in-item","confidence":"high","span":[34945,34966],"revision":1375651786,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73042728","to":"wikipedia://en/415907","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1021,1047],"revision":1365027153,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73042728","to":"wikipedia://en/9130903","predicate":"related","method":"link-in-text","confidence":"low","span":[1171,1197],"revision":1365027153,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73042728","to":"wikipedia://en/241119","predicate":"related","method":"link-in-text","confidence":"low","span":[1569,1591],"revision":1365027153,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73042728","to":"wikipedia://en/415907","predicate":"related","method":"link-in-text","confidence":"low","span":[2478,2504],"revision":1365027153,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73042728","to":"wikipedia://en/657158","predicate":"related","method":"link-in-text","confidence":"low","span":[3097,3131],"revision":1365027153,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73042728","to":"wikipedia://en/415907","predicate":"related","method":"link-in-text","confidence":"low","span":[3226,3252],"revision":1365027153,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73042728","to":"wikipedia://en/73005805","predicate":"related","method":"link-in-text","confidence":"low","span":[3290,3308],"revision":1365027153,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73042728","to":"wikipedia://en/41346517","predicate":"related","method":"link-in-text","confidence":"low","span":[3693,3713],"revision":1365027153,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73042728","to":"Category:Presidents of New College of Florida","predicate":"in-field","method":"category","confidence":"medium","span":[4889,4938],"revision":1365027153,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73042728","to":"Category:Mathematicians from Iowa","predicate":"in-field","method":"category","confidence":"medium","span":[4939,4976],"revision":1365027153,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73042728","to":"Category:21st-century American statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[4977,5025],"revision":1365027153,"by":"importer/wikipedia/1"}

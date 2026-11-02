@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/11353703#HC1X","to":"wikipedia://en/8951286","predicate":"listed-in","method":"list","confidence":"certain","span":[74184,74200],"revision":1373003451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#FFAZ","to":"wikipedia://en/35758361","predicate":"listed-in","method":"list","confidence":"certain","span":[29031,29055],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/490054#UA1K","to":"wikipedia://en/9613","predicate":"listed-in","method":"list","confidence":"certain","span":[1256,1275],"revision":1375638236,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6152185#NH6V","to":"wikipedia://en/23543","predicate":"uses","method":"link-in-item","confidence":"high","span":[1473,1501],"revision":1375000286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6152185#NH6V","to":"wikipedia://en/49172","predicate":"uses","method":"link-in-item","confidence":"high","span":[1776,1811],"revision":1375000286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6152185#NH6V","to":"wikipedia://en/9678","predicate":"uses","method":"link-in-item","confidence":"high","span":[2500,2524],"revision":1375000286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6152185#NH6V","to":"wikipedia://en/99491","predicate":"uses","method":"link-in-item","confidence":"high","span":[3234,3264],"revision":1375000286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6152185#NH6V","to":"wikipedia://en/53702","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5190,5212],"revision":1375000286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6152185#NH6V","to":"wikipedia://en/15445","predicate":"uses","method":"link-in-item","confidence":"high","span":[5333,5373],"revision":1375000286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6152185#NH6V","to":"wikipedia://en/84563","predicate":"generalizes","method":"link-in-item","confidence":"medium","span":[5812,5833],"revision":1375000286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8106467#ELHL","to":"wikipedia://en/20018","predicate":"uses","method":"link-in-item","confidence":"high","span":[2012,2025],"revision":1351038929,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8106467#ELHL","to":"wikipedia://en/4668395","predicate":"uses","method":"link-in-item","confidence":"high","span":[2161,2183],"revision":1351038929,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8106467#ELHL","to":"wikipedia://en/30450","predicate":"uses","method":"link-in-item","confidence":"high","span":[2362,2383],"revision":1351038929,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8106467#ELHL","to":"wikipedia://en/4668395","predicate":"uses","method":"link-in-item","confidence":"high","span":[2418,2438],"revision":1351038929,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9202993","to":"wikipedia://en/54685","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[155,174],"revision":1374822410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9202993","to":"wikipedia://en/8336","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[193,214],"revision":1374822410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9202993","to":"wikipedia://en/746550","predicate":"related","method":"link-in-text","confidence":"low","span":[279,311],"revision":1374822410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9202993","to":"wikipedia://en/1505641","predicate":"related","method":"link-in-text","confidence":"low","span":[13621,13658],"revision":1374822410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9202993","to":"wikipedia://en/1707754","predicate":"related","method":"see-also","confidence":"low","span":[18569,18601],"revision":1374822410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9202993","to":"Category:Mathematics-related lists","predicate":"in-field","method":"category","confidence":"medium","span":[19328,19366],"revision":1374822410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9202993","to":"Category:PSPACE-complete problems","predicate":"in-field","method":"category","confidence":"medium","span":[19367,19406],"revision":1374822410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9202993","to":"Category:Lists of problems","predicate":"in-field","method":"category","confidence":"medium","span":[19407,19437],"revision":1374822410,"by":"importer/wikipedia/1"}

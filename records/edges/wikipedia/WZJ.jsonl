@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/100303#A9O9","to":"wikipedia://en/1691490","predicate":"listed-in","method":"list","confidence":"certain","span":[2473,2492],"revision":1339661902,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1042164#6RY4","to":"wikipedia://en/1408000","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[21325,21351],"revision":1373591613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1042164#6RY4","to":"wikipedia://en/61478","predicate":"uses","method":"link-in-item","confidence":"high","span":[21511,21544],"revision":1373591613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20419621#ADMG","to":"wikipedia://en/296332","predicate":"uses","method":"link-in-item","confidence":"high","span":[8014,8028],"revision":1353983921,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74901070","to":"wikipedia://en/32031","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1006,1039],"revision":1345358920,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74901070","to":"wikipedia://en/46426065","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1074,1083],"revision":1345358920,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74901070","to":"wikipedia://en/37010","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1088,1113],"revision":1345358920,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74901070","to":"Category:21st-century American philosophers","predicate":"in-field","method":"category","confidence":"medium","span":[2640,2687],"revision":1345358920,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74901070","to":"Category:American philosophy academics","predicate":"in-field","method":"category","confidence":"medium","span":[2688,2730],"revision":1345358920,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74901070","to":"Category:American philosophers of science","predicate":"in-field","method":"category","confidence":"medium","span":[2809,2854],"revision":1345358920,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74901070","to":"Category:American logicians","predicate":"in-field","method":"category","confidence":"medium","span":[2855,2886],"revision":1345358920,"by":"importer/wikipedia/1"}

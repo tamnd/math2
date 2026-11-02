@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/43834296","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1274188218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43834296","to":"wikipedia://en/42315","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[41,63],"revision":1274188218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43834296","to":"wikipedia://en/138215","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[147,171],"revision":1274188218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43834296","to":"wikipedia://en/345807","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[771,790],"revision":1274188218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43834296","to":"wikipedia://en/138484","predicate":"related","method":"link-in-text","confidence":"low","span":[1191,1226],"revision":1274188218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43834296","to":"wikipedia://en/43854082","predicate":"related","method":"link-in-text","confidence":"low","span":[2314,2377],"revision":1274188218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43834296","to":"wikipedia://en/1651204","predicate":"related","method":"link-in-text","confidence":"low","span":[3090,3146],"revision":1274188218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43834296","to":"wikipedia://en/366136","predicate":"related","method":"link-in-text","confidence":"low","span":[3860,3899],"revision":1274188218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43834296","to":"wikipedia://en/27072071","predicate":"related","method":"link-in-text","confidence":"low","span":[4516,4531],"revision":1274188218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43834296","to":"wikipedia://en/1651204","predicate":"related","method":"link-in-text","confidence":"low","span":[5228,5283],"revision":1274188218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43834296","to":"wikipedia://en/3989","predicate":"related","method":"link-in-text","confidence":"low","span":[5643,5659],"revision":1274188218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43834296","to":"wikipedia://en/584136","predicate":"related","method":"link-in-text","confidence":"low","span":[5679,5708],"revision":1274188218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43834296","to":"Category:Topological groups","predicate":"in-field","method":"category","confidence":"medium","span":[5815,5846],"revision":1274188218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43834296","to":"Category:Topology","predicate":"in-field","method":"category","confidence":"medium","span":[5847,5868],"revision":1274188218,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76765067#7CC8","to":"wikipedia://en/663426","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[205176,205193],"revision":1368301704,"by":"importer/wikipedia/1"}

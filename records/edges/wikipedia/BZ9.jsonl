@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/3553599","to":"wikipedia://en/44027","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[68,84],"revision":1356076245,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3553599","to":"wikipedia://en/230193","predicate":"related","method":"link-in-text","confidence":"low","span":[743,764],"revision":1356076245,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3553599","to":"wikipedia://en/246320","predicate":"related","method":"link-in-text","confidence":"low","span":[791,825],"revision":1356076245,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3553599","to":"wikipedia://en/36187558","predicate":"related","method":"link-in-text","confidence":"low","span":[1086,1116],"revision":1356076245,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3553599","to":"wikipedia://en/36187558","predicate":"related","method":"link-in-text","confidence":"low","span":[1119,1147],"revision":1356076245,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3553599","to":"wikipedia://en/24634","predicate":"restates","method":"hatnote","confidence":"high","span":[1332,1349],"revision":1356076245,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3553599","to":"wikipedia://en/57275032","predicate":"related","method":"link-in-text","confidence":"low","span":[2232,2260],"revision":1356076245,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3553599","to":"wikipedia://en/1493236","predicate":"restates","method":"hatnote","confidence":"high","span":[3239,3257],"revision":1356076245,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3553599","to":"wikipedia://en/668165","predicate":"restates","method":"hatnote","confidence":"high","span":[3373,3392],"revision":1356076245,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3553599","to":"Category:Mathematics-related lists","predicate":"in-field","method":"category","confidence":"medium","span":[3550,3601],"revision":1356076245,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3553599","to":"Category:Permutations","predicate":"in-field","method":"category","confidence":"medium","span":[3602,3629],"revision":1356076245,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/449606#SR94","to":"wikipedia://en/641307","predicate":"uses","method":"link-in-item","confidence":"high","span":[10012,10030],"revision":1376263881,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#HZ7V","to":"wikipedia://en/55772423","predicate":"listed-in","method":"list","confidence":"certain","span":[7305,7357],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83721712#HF9O","to":"wikipedia://en/3210880","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2770,2786],"revision":1371648923,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83721712#HF9O","to":"wikipedia://en/53860513","predicate":"related","method":"link-in-item","confidence":"low","span":[3022,3037],"revision":1371648923,"by":"importer/wikipedia/1"}

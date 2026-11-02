@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/16986027","to":"wikipedia://en/228001","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[86,109],"revision":1334890841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16986027","to":"wikipedia://en/9653775","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[184,202],"revision":1334890841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16986027","to":"wikipedia://en/1361454","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[246,282],"revision":1334890841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16986027","to":"wikipedia://en/46324798","predicate":"related","method":"link-in-lead","confidence":"low","span":[487,514],"revision":1334890841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16986027","to":"wikipedia://en/336940","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[993,1032],"revision":1334890841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16986027","to":"wikipedia://en/252670","predicate":"related","method":"link-in-text","confidence":"low","span":[1474,1519],"revision":1334890841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16986027","to":"wikipedia://en/69623562","predicate":"related","method":"see-also","confidence":"low","span":[5851,5875],"revision":1334890841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16986027","to":"Template:Stochastic processes","predicate":"in-nav","method":"nav","confidence":"low","span":[6259,6283],"revision":1334890841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16986027","to":"Category:Martingale theory","predicate":"in-field","method":"category","confidence":"medium","span":[6326,6356],"revision":1334890841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16986027","to":"Category:Stochastic differential equations","predicate":"in-field","method":"category","confidence":"medium","span":[6357,6403],"revision":1334890841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2390225#PN30","to":"wikipedia://en/540476","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[73607,73620],"revision":1376093804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2390225#PN30","to":"wikipedia://en/366909","predicate":"uses","method":"link-in-item","confidence":"high","span":[73818,73842],"revision":1376093804,"by":"importer/wikipedia/1"}

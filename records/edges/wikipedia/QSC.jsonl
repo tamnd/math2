@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/469391#ZO8P","to":"wikipedia://en/3090256","predicate":"listed-in","method":"list","confidence":"certain","span":[119,129],"revision":1076577561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/924193","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[252,267],"revision":1257831037,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/924193","to":"wikipedia://en/484093","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[306,323],"revision":1257831037,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/924193","to":"wikipedia://en/22284647","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[330,354],"revision":1257831037,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/924193","to":"wikipedia://en/1268958","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[361,417],"revision":1257831037,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/924193","to":"wikipedia://en/330206","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[492,534],"revision":1257831037,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/924193","to":"wikipedia://en/311509","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[580,608],"revision":1257831037,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/924193","to":"wikipedia://en/26390","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[644,686],"revision":1257831037,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/924193","to":"wikipedia://en/922382","predicate":"related","method":"link-in-text","confidence":"low","span":[766,799],"revision":1257831037,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/924193","to":"wikipedia://en/922382","predicate":"related","method":"link-in-text","confidence":"low","span":[2767,2800],"revision":1257831037,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/924193","to":"wikipedia://en/18198","predicate":"related","method":"link-in-text","confidence":"low","span":[3178,3198],"revision":1257831037,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/924193","to":"wikipedia://en/26390","predicate":"uses","method":"named-link","confidence":"high","span":[3280,3361],"revision":1257831037,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/924193","to":"wikipedia://en/19468696","predicate":"related","method":"see-also","confidence":"low","span":[3836,3871],"revision":1257831037,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/924193","to":"Category:Fractals","predicate":"in-field","method":"category","confidence":"medium","span":[4613,4634],"revision":1257831037,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/924193","to":"Category:Measure theory","predicate":"in-field","method":"category","confidence":"medium","span":[4635,4662],"revision":1257831037,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/924193","to":"Category:General topology","predicate":"in-field","method":"category","confidence":"medium","span":[4663,4692],"revision":1257831037,"by":"importer/wikipedia/1"}

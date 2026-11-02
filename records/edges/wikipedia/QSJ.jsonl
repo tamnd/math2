@@ -1,0 +1,20 @@
+{"from":"wikipedia://en/28211049","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[239,256],"revision":1339377041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28211049","to":"wikipedia://en/41612950","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[261,276],"revision":1339377041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28211049","to":"wikipedia://en/56092","predicate":"related","method":"link-in-text","confidence":"low","span":[675,686],"revision":1339377041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28211049","to":"wikipedia://en/7560278","predicate":"related","method":"link-in-text","confidence":"low","span":[727,743],"revision":1339377041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28211049","to":"wikipedia://en/378253","predicate":"related","method":"link-in-text","confidence":"low","span":[781,805],"revision":1339377041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28211049","to":"wikipedia://en/18973446","predicate":"related","method":"link-in-text","confidence":"low","span":[844,856],"revision":1339377041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28211049","to":"wikipedia://en/453748","predicate":"related","method":"link-in-text","confidence":"low","span":[956,982],"revision":1339377041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28211049","to":"wikipedia://en/1997","predicate":"related","method":"link-in-text","confidence":"low","span":[1142,1164],"revision":1339377041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28211049","to":"wikipedia://en/19616384","predicate":"related","method":"link-in-text","confidence":"low","span":[1169,1189],"revision":1339377041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28211049","to":"wikipedia://en/11525","predicate":"related","method":"link-in-text","confidence":"low","span":[1209,1221],"revision":1339377041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28211049","to":"wikipedia://en/7004075","predicate":"related","method":"link-in-text","confidence":"low","span":[1270,1292],"revision":1339377041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28211049","to":"wikipedia://en/7004415","predicate":"related","method":"link-in-text","confidence":"low","span":[1391,1415],"revision":1339377041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28211049","to":"wikipedia://en/20116657","predicate":"related","method":"link-in-text","confidence":"low","span":[1460,1493],"revision":1339377041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28211049","to":"Category:20th-century Italian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1928,1976],"revision":1339377041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28211049","to":"Category:Italian anti-fascists","predicate":"in-field","method":"category","confidence":"medium","span":[1977,2011],"revision":1339377041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52095250","to":"wikipedia://en/245990","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,26],"revision":1170051577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52095250","to":"wikipedia://en/48404","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[80,107],"revision":1170051577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52095250","to":"wikipedia://en/52095463","predicate":"related","method":"see-also","confidence":"low","span":[698,720],"revision":1170051577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52095250","to":"wikipedia://en/52055632","predicate":"related","method":"see-also","confidence":"low","span":[722,748],"revision":1170051577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52095250","to":"Category:Commutative algebra","predicate":"in-field","method":"category","confidence":"medium","span":[1207,1239],"revision":1170051577,"by":"importer/wikipedia/1"}

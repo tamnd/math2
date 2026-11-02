@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/3826308","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[447,462],"revision":1372144469,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3826308","to":"wikipedia://en/6285","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[584,592],"revision":1372144469,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3826308","to":"wikipedia://en/15575410","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[629,656],"revision":1372144469,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3826308","to":"wikipedia://en/57572","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[798,806],"revision":1372144469,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3826308","to":"wikipedia://en/2038304","predicate":"related","method":"link-in-lead","confidence":"low","span":[837,864],"revision":1372144469,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3826308","to":"wikipedia://en/19737","predicate":"related","method":"link-in-text","confidence":"low","span":[3122,3145],"revision":1372144469,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3826308","to":"wikipedia://en/399730","predicate":"related","method":"see-also","confidence":"low","span":[3236,3268],"revision":1372144469,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3826308","to":"wikipedia://en/2038304","predicate":"related","method":"see-also","confidence":"low","span":[3296,3323],"revision":1372144469,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3826308","to":"wikipedia://en/25198879","predicate":"related","method":"see-also","confidence":"low","span":[3326,3343],"revision":1372144469,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3826308","to":"Template:Classes of natural numbers","predicate":"in-nav","method":"nav","confidence":"low","span":[3637,3667],"revision":1372144469,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3826308","to":"Category:Mathematical optimization","predicate":"in-field","method":"category","confidence":"medium","span":[3669,3707],"revision":1372144469,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3826308","to":"Category:Integer sequences","predicate":"kind-of","method":"category","confidence":"medium","span":[3708,3738],"revision":1372144469,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3826308","to":"Category:Cakes","predicate":"in-field","method":"category","confidence":"medium","span":[3739,3757],"revision":1372144469,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3826308","to":"Category:Metaphors referring to baked goods","predicate":"in-field","method":"category","confidence":"medium","span":[3758,3805],"revision":1372144469,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#2835","to":"wikipedia://en/62035474","predicate":"listed-in","method":"list","confidence":"certain","span":[102218,102246],"revision":1373230097,"by":"importer/wikipedia/1"}

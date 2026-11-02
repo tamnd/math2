@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/10041975#R0GK","to":"wikipedia://en/38487829","predicate":"related","method":"link-in-item","confidence":"low","span":[1073,1091],"revision":1277723673,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10041975#R0GK","to":"wikipedia://en/29954","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[1797,1814],"revision":1277723673,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45323815","to":"wikipedia://en/82058","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2144,2172],"revision":1372314581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45323815","to":"wikipedia://en/40768912","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2332,2358],"revision":1372314581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45323815","to":"wikipedia://en/55762","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2417,2438],"revision":1372314581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45323815","to":"wikipedia://en/82058","predicate":"related","method":"link-in-text","confidence":"low","span":[2522,2550],"revision":1372314581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45323815","to":"wikipedia://en/498538","predicate":"related","method":"link-in-text","confidence":"low","span":[2601,2632],"revision":1372314581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45323815","to":"wikipedia://en/284368","predicate":"related","method":"link-in-text","confidence":"low","span":[2681,2707],"revision":1372314581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45323815","to":"wikipedia://en/23962352","predicate":"related","method":"link-in-text","confidence":"low","span":[2908,2940],"revision":1372314581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45323815","to":"wikipedia://en/82058","predicate":"related","method":"link-in-text","confidence":"low","span":[3044,3072],"revision":1372314581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45323815","to":"wikipedia://en/82058","predicate":"related","method":"link-in-text","confidence":"low","span":[3293,3300],"revision":1372314581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45323815","to":"wikipedia://en/82058","predicate":"related","method":"link-in-text","confidence":"low","span":[3380,3387],"revision":1372314581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45323815","to":"wikipedia://en/58041167","predicate":"related","method":"link-in-text","confidence":"low","span":[3511,3548],"revision":1372314581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45323815","to":"wikipedia://en/198772","predicate":"related","method":"link-in-text","confidence":"low","span":[4685,4724],"revision":1372314581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45323815","to":"wikipedia://en/82058","predicate":"related","method":"link-in-text","confidence":"low","span":[5313,5341],"revision":1372314581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45323815","to":"wikipedia://en/198822","predicate":"related","method":"link-in-text","confidence":"low","span":[5391,5424],"revision":1372314581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45323815","to":"wikipedia://en/82058","predicate":"related","method":"link-in-text","confidence":"low","span":[5664,5692],"revision":1372314581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45323815","to":"wikipedia://en/9626230","predicate":"related","method":"link-in-text","confidence":"low","span":[5732,5851],"revision":1372314581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45323815","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[7494,7543],"revision":1372314581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45323815","to":"Category:21st-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[7544,7593],"revision":1372314581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#B8Q8","to":"wikipedia://en/5723289","predicate":"listed-in","method":"list","confidence":"certain","span":[70132,70159],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#B8Q8","to":"wikipedia://en/323392","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[70163,70195],"revision":1373797939,"by":"importer/wikipedia/1"}

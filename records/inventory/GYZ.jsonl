@@ -1,1 +1,5 @@
+{"id":"GYZ9XTRZ1J","mentions":["wikipedia://en/13314857#09QY"],"kind":"definition","name":"Biochemical systems theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"GYZGQP7V4W","mentions":["wikipedia://en/46487145"],"kind":"topic","name":"Robert Finn","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"GYZK1PD596","mentions":["wikipedia://en/14403539#NDC9","wikipedia://en/47738065#XU94"],"kind":"topic","name":"C. S. Seshadri","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GYZP2ZBCQR","mentions":["ax://paper/2610.20273#57KI"],"kind":"statement","msc":["11-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.2"}]}
+{"id":"GYZY0RSAGE","mentions":["wikipedia://en/25831625"],"kind":"topic","name":"James Wood","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

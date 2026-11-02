@@ -1,0 +1,31 @@
+{"from":"wikipedia://en/14403539#9GTW","to":"wikipedia://en/44770467","predicate":"listed-in","method":"list","confidence":"certain","span":[8882,8898],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65438324#YDK5","to":"wikipedia://en/50387525","predicate":"uses","method":"link-in-item","confidence":"medium","span":[16309,16339],"revision":1375683393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65438324#YDK5","to":"wikipedia://en/50414407","predicate":"uses","method":"link-in-item","confidence":"medium","span":[16398,16421],"revision":1375683393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65438324#YDK5","to":"wikipedia://en/28249265","predicate":"uses","method":"link-in-item","confidence":"high","span":[16480,16491],"revision":1375683393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65438324#YDK5","to":"wikipedia://en/59126142","predicate":"uses","method":"link-in-item","confidence":"medium","span":[16767,16794],"revision":1375683393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65438324#YDK5","to":"wikipedia://en/65814065","predicate":"uses","method":"link-in-item","confidence":"medium","span":[17402,17414],"revision":1375683393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65438324#YDK5","to":"wikipedia://en/57437562","predicate":"uses","method":"link-in-item","confidence":"medium","span":[18592,18606],"revision":1375683393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65438324#YDK5","to":"wikipedia://en/66990203","predicate":"uses","method":"link-in-item","confidence":"medium","span":[19411,19433],"revision":1375683393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65438324#YDK5","to":"wikipedia://en/78346135","predicate":"uses","method":"link-in-item","confidence":"medium","span":[19971,19993],"revision":1375683393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65438324#YDK5","to":"wikipedia://en/65962534","predicate":"uses","method":"link-in-item","confidence":"medium","span":[21282,21293],"revision":1375683393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65438324#YDK5","to":"wikipedia://en/2000600","predicate":"uses","method":"link-in-item","confidence":"medium","span":[21783,21813],"revision":1375683393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65438324#YDK5","to":"wikipedia://en/65438324","predicate":"uses","method":"anchor","confidence":"certain","span":[22567,22593],"revision":1375683393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8818888","to":"wikipedia://en/420555","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[192,222],"revision":1374682694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8818888","to":"wikipedia://en/14220429","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[265,299],"revision":1374682694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8818888","to":"wikipedia://en/31248","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[326,357],"revision":1374682694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8818888","to":"wikipedia://en/313942","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[424,468],"revision":1374682694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8818888","to":"wikipedia://en/244437","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[500,521],"revision":1374682694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8818888","to":"wikipedia://en/8818504","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[773,782],"revision":1374682694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8818888","to":"wikipedia://en/8818695","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[787,796],"revision":1374682694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8818888","to":"wikipedia://en/325802","predicate":"related","method":"link-in-lead","confidence":"low","span":[879,908],"revision":1374682694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8818888","to":"wikipedia://en/262288","predicate":"related","method":"link-in-text","confidence":"low","span":[1586,1610],"revision":1374682694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8818888","to":"wikipedia://en/638889","predicate":"related","method":"link-in-text","confidence":"low","span":[2949,2979],"revision":1374682694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8818888","to":"wikipedia://en/85821","predicate":"related","method":"link-in-text","confidence":"low","span":[3277,3302],"revision":1374682694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8818888","to":"wikipedia://en/333219","predicate":"related","method":"link-in-text","confidence":"low","span":[3627,3720],"revision":1374682694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8818888","to":"wikipedia://en/238867","predicate":"related","method":"link-in-text","confidence":"low","span":[8809,8825],"revision":1374682694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8818888","to":"wikipedia://en/3298854","predicate":"related","method":"link-in-text","confidence":"low","span":[15692,15726],"revision":1374682694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8818888","to":"wikipedia://en/405944","predicate":"related","method":"link-in-text","confidence":"low","span":[16027,16046],"revision":1374682694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8818888","to":"Category:Combinatorial optimization","predicate":"in-field","method":"category","confidence":"medium","span":[18825,18864],"revision":1374682694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8818888","to":"Category:Combinatorial algorithms","predicate":"in-field","method":"category","confidence":"medium","span":[18865,18902],"revision":1374682694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8818888","to":"Category:Heuristic algorithms","predicate":"in-field","method":"category","confidence":"medium","span":[18903,18936],"revision":1374682694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8818888","to":"Category:Travelling salesman problem","predicate":"in-field","method":"category","confidence":"medium","span":[18937,18977],"revision":1374682694,"by":"importer/wikipedia/1"}

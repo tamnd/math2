@@ -1,3 +1,6 @@
+{"id":"33803X6HAK","mentions":["wikipedia://en/31577280"],"kind":"definition","name":"Ershov number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"33859TW27D","mentions":["ax://paper/2609.37815#J7LG"],"kind":"statement","msc":["18-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
 {"id":"338979TBDD","mentions":["m2://rec/wikidata/Q122475046#1"],"kind":"statement","name":"Suslin's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"338BG0222H","mentions":["wikipedia://en/9337618#68OA"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"338WAM9536","mentions":["m2://rec/wikidata/Q4505652#1"],"kind":"unknown","name":"cylinder","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"338XJ8BYPW","mentions":["wikipedia://en/47738065#GDQM"],"kind":"unknown","name":"Alan Siegel","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

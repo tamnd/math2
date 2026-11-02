@@ -1,0 +1,43 @@
+{"from":"wikipedia://en/20373263","to":"wikipedia://en/10390","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[68,84],"revision":1289188646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20373263","to":"wikipedia://en/2499813","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[214,228],"revision":1289188646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20373263","to":"wikipedia://en/406624","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[271,291],"revision":1289188646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20373263","to":"wikipedia://en/1557627","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[296,336],"revision":1289188646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20373263","to":"wikipedia://en/826997","predicate":"related","method":"link-in-text","confidence":"low","span":[1020,1040],"revision":1289188646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20373263","to":"wikipedia://en/70780067","predicate":"related","method":"link-in-text","confidence":"low","span":[1521,1543],"revision":1289188646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20373263","to":"wikipedia://en/15740812","predicate":"related","method":"link-in-text","confidence":"low","span":[1763,1801],"revision":1289188646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20373263","to":"wikipedia://en/2369609","predicate":"related","method":"see-also","confidence":"low","span":[1864,1882],"revision":1289188646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20373263","to":"Category:Multivariate time series","predicate":"in-field","method":"category","confidence":"medium","span":[3064,3101],"revision":1289188646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20373263","to":"Category:Statistical data types","predicate":"in-field","method":"category","confidence":"medium","span":[3102,3137],"revision":1289188646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41104045","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[152,167],"revision":1333969270,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41104045","to":"wikipedia://en/19594028","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[172,195],"revision":1333969270,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41104045","to":"wikipedia://en/28305","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[208,225],"revision":1333969270,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41104045","to":"wikipedia://en/35504468","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[268,301],"revision":1333969270,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41104045","to":"wikipedia://en/2264595","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[751,780],"revision":1333969270,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41104045","to":"wikipedia://en/3492726","predicate":"related","method":"link-in-text","confidence":"low","span":[1208,1240],"revision":1333969270,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41104045","to":"wikipedia://en/27908077","predicate":"related","method":"link-in-text","confidence":"low","span":[1277,1320],"revision":1333969270,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41104045","to":"Category:Category theorists","predicate":"in-field","method":"category","confidence":"medium","span":[2700,2731],"revision":1333969270,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41104045","to":"Category:21st-century German mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2732,2779],"revision":1333969270,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41104045","to":"Category:Science bloggers","predicate":"in-field","method":"category","confidence":"medium","span":[2832,2861],"revision":1333969270,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41104045","to":"Category:21st-century science writers","predicate":"in-field","method":"category","confidence":"medium","span":[2862,2903],"revision":1333969270,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41104045","to":"Category:String theorists","predicate":"in-field","method":"category","confidence":"medium","span":[2904,2933],"revision":1333969270,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42900472#4NB3","to":"wikipedia://en/411231","predicate":"uses","method":"link-in-item","confidence":"high","span":[2442,2456],"revision":1292490823,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42900472#4NB3","to":"wikipedia://en/292864","predicate":"uses","method":"link-in-item","confidence":"high","span":[2515,2553],"revision":1292490823,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42900472#4NB3","to":"wikipedia://en/41841804","predicate":"uses","method":"link-in-item","confidence":"high","span":[2570,2601],"revision":1292490823,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69623562#5HYF","to":"wikipedia://en/336940","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5066,5105],"revision":1349017394,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69623562#5HYF","to":"wikipedia://en/45437","predicate":"uses","method":"link-in-item","confidence":"high","span":[5161,5184],"revision":1349017394,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8398#GBJM","to":"wikipedia://en/87141","predicate":"uses","method":"link-in-item","confidence":"high","span":[8339,8366],"revision":1358796777,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8398#GBJM","to":"wikipedia://en/2073470","predicate":"uses","method":"link-in-item","confidence":"high","span":[8379,8391],"revision":1358796777,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8398#GBJM","to":"wikipedia://en/1462457","predicate":"uses","method":"link-in-item","confidence":"high","span":[8447,8473],"revision":1358796777,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8398#GBJM","to":"wikipedia://en/13660","predicate":"uses","method":"link-in-item","confidence":"high","span":[8474,8490],"revision":1358796777,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8398#GBJM","to":"wikipedia://en/2119219","predicate":"uses","method":"link-in-item","confidence":"high","span":[8605,8633],"revision":1358796777,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8398#GBJM","to":"wikipedia://en/30807","predicate":"uses","method":"link-in-item","confidence":"high","span":[8678,8716],"revision":1358796777,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8398#GBJM","to":"wikipedia://en/621732","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[8735,8757],"revision":1358796777,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8398#GBJM","to":"wikipedia://en/23798","predicate":"uses","method":"link-in-item","confidence":"medium","span":[9136,9160],"revision":1358796777,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8398#GBJM","to":"wikipedia://en/20646438","predicate":"uses","method":"link-in-item","confidence":"high","span":[9694,9710],"revision":1358796777,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8398#GBJM","to":"wikipedia://en/509742","predicate":"uses","method":"link-in-item","confidence":"high","span":[9751,9772],"revision":1358796777,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8398#GBJM","to":"wikipedia://en/253251","predicate":"uses","method":"link-in-item","confidence":"high","span":[9777,9834],"revision":1358796777,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8398#GBJM","to":"wikipedia://en/5826","predicate":"uses","method":"link-in-item","confidence":"high","span":[9852,9871],"revision":1358796777,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8398#GBJM","to":"wikipedia://en/5826","predicate":"uses","method":"link-in-item","confidence":"high","span":[9926,9939],"revision":1358796777,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8398#GBJM","to":"wikipedia://en/5826","predicate":"uses","method":"link-in-item","confidence":"high","span":[9962,9980],"revision":1358796777,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8398#GBJM","to":"wikipedia://en/27859","predicate":"uses","method":"link-in-item","confidence":"high","span":[10306,10334],"revision":1358796777,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8398#GBJM","to":"wikipedia://en/30876799","predicate":"uses","method":"link-in-item","confidence":"high","span":[10375,10393],"revision":1358796777,"by":"importer/wikipedia/1"}

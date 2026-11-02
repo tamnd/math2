@@ -1,0 +1,29 @@
+{"from":"wikipedia://en/140829#NS07","to":"wikipedia://en/4900381","predicate":"listed-in","method":"list","confidence":"certain","span":[1249,1283],"revision":1372044875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/542527","to":"wikipedia://en/18934432","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[349,365],"revision":1328784132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/542527","to":"wikipedia://en/520066","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[484,545],"revision":1328784132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/542527","to":"wikipedia://en/578052","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[590,624],"revision":1328784132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/542527","to":"wikipedia://en/61263","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[975,1014],"revision":1328784132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/542527","to":"wikipedia://en/32173","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1046,1080],"revision":1328784132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/542527","to":"wikipedia://en/558559","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1108,1128],"revision":1328784132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/542527","to":"wikipedia://en/87045","predicate":"related","method":"see-also","confidence":"low","span":[1285,1310],"revision":1328784132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/542527","to":"wikipedia://en/69794","predicate":"related","method":"see-also","confidence":"low","span":[1313,1327],"revision":1328784132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/542527","to":"wikipedia://en/87047","predicate":"related","method":"see-also","confidence":"low","span":[1330,1359],"revision":1328784132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/542527","to":"Category:Cryptography journals","predicate":"in-field","method":"category","confidence":"medium","span":[1526,1560],"revision":1328784132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/542527","to":"Category:History of cryptography","predicate":"in-field","method":"category","confidence":"medium","span":[1561,1597],"revision":1328784132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/542527","to":"Category:Academic journals established in 1977","predicate":"in-field","method":"category","confidence":"medium","span":[1598,1648],"revision":1328784132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/542527","to":"Category:Rose–Hulman Institute of Technology","predicate":"in-field","method":"category","confidence":"medium","span":[1649,1699],"revision":1328784132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/542527","to":"Category:1977 establishments in Indiana","predicate":"in-field","method":"category","confidence":"medium","span":[1700,1743],"revision":1328784132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/542527","to":"Category:Bimonthly journals","predicate":"in-field","method":"category","confidence":"medium","span":[1744,1775],"revision":1328784132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9156022","to":"wikipedia://en/8562","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[205,230],"revision":1338926235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9156022","to":"wikipedia://en/18117469","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[237,269],"revision":1338926235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9156022","to":"wikipedia://en/5010838","predicate":"related","method":"link-in-text","confidence":"low","span":[527,538],"revision":1338926235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9156022","to":"wikipedia://en/3364761","predicate":"related","method":"link-in-text","confidence":"low","span":[559,573],"revision":1338926235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9156022","to":"wikipedia://en/62641","predicate":"related","method":"link-in-text","confidence":"low","span":[590,606],"revision":1338926235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9156022","to":"wikipedia://en/1267288","predicate":"uses","method":"named-link","confidence":"high","span":[878,906],"revision":1338926235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9156022","to":"wikipedia://en/148420","predicate":"related","method":"link-in-text","confidence":"low","span":[1049,1073],"revision":1338926235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9156022","to":"wikipedia://en/348560","predicate":"related","method":"link-in-text","confidence":"low","span":[1416,1432],"revision":1338926235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9156022","to":"wikipedia://en/2037563","predicate":"related","method":"link-in-text","confidence":"low","span":[1436,1454],"revision":1338926235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9156022","to":"Category:Gravitational lensing","predicate":"in-field","method":"category","confidence":"medium","span":[4921,4955],"revision":1338926235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9156022","to":"Category:Physics theorems","predicate":"in-field","method":"category","confidence":"medium","span":[4956,4985],"revision":1338926235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9156022","to":"Category:Equations of astronomy","predicate":"kind-of","method":"category","confidence":"medium","span":[4986,5021],"revision":1338926235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9156022","to":"Category:Parity (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[5022,5055],"revision":1338926235,"by":"importer/wikipedia/1"}

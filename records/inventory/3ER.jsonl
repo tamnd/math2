@@ -1,1 +1,4 @@
+{"id":"3ER3E86E4J","mentions":["wikipedia://en/44605337#RUCJ"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"3ER3JW2CXC","mentions":["wikipedia://en/70120005"],"kind":"definition","name":"Clavis mathematicae","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"3ER8BPQJJ1","mentions":["ax://paper/2609.27200#B2XL"],"kind":"statement","msc":["62-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}
+{"id":"3ERM3MQRJ1","mentions":["wikipedia://en/26233251"],"kind":"definition","name":"EL++","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

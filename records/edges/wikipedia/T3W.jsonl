@@ -1,0 +1,20 @@
+{"from":"wikipedia://en/16838651#6DWX","to":"wikipedia://en/21474","predicate":"uses","method":"link-in-item","confidence":"high","span":[1367,1386],"revision":1365609180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16838651#6DWX","to":"wikipedia://en/23666","predicate":"uses","method":"link-in-item","confidence":"high","span":[2219,2241],"revision":1365609180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16838651#6DWX","to":"wikipedia://en/248988","predicate":"uses","method":"link-in-item","confidence":"high","span":[2353,2382],"revision":1365609180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58878004","to":"wikipedia://en/52033","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[312,354],"revision":1349470453,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58878004","to":"wikipedia://en/1180641","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[411,442],"revision":1349470453,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58878004","to":"wikipedia://en/8979437","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[446,491],"revision":1349470453,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58878004","to":"wikipedia://en/5168545","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[520,541],"revision":1349470453,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58878004","to":"wikipedia://en/198608","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[571,593],"revision":1349470453,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58878004","to":"wikipedia://en/330206","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[776,818],"revision":1349470453,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58878004","to":"wikipedia://en/442137","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[819,841],"revision":1349470453,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58878004","to":"wikipedia://en/1092885","predicate":"related","method":"link-in-text","confidence":"low","span":[5491,5515],"revision":1349470453,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58878004","to":"wikipedia://en/32164063","predicate":"related","method":"link-in-text","confidence":"low","span":[5555,5582],"revision":1349470453,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58878004","to":"wikipedia://en/56107","predicate":"related","method":"link-in-text","confidence":"low","span":[6382,6437],"revision":1349470453,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58878004","to":"wikipedia://en/683561","predicate":"related","method":"link-in-text","confidence":"low","span":[8244,8263],"revision":1349470453,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58878004","to":"wikipedia://en/6292","predicate":"related","method":"link-in-text","confidence":"low","span":[8385,8406],"revision":1349470453,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58878004","to":"wikipedia://en/6934","predicate":"related","method":"link-in-text","confidence":"low","span":[8457,8477],"revision":1349470453,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58878004","to":"Category:Computational statistics","predicate":"in-field","method":"category","confidence":"medium","span":[9292,9329],"revision":1349470453,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58878004","to":"Category:Gradient methods","predicate":"in-field","method":"category","confidence":"medium","span":[9330,9359],"revision":1349470453,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58878004","to":"Category:Optimization algorithms and methods","predicate":"in-field","method":"category","confidence":"medium","span":[9360,9408],"revision":1349470453,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58878004","to":"Category:Stochastic optimization","predicate":"in-field","method":"category","confidence":"medium","span":[9409,9445],"revision":1349470453,"by":"importer/wikipedia/1"}

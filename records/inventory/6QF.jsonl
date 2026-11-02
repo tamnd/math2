@@ -1,1 +1,6 @@
+{"id":"6QFA43DTS3","mentions":["wikipedia://en/31480741#LCBV"],"kind":"statement","name":"Nishida's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"6QFBRMDV3M","mentions":["wikipedia://en/3989#BKD7"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6QFM1CWP38","mentions":["ax://paper/2610.09704#U9BX"],"kind":"statement","name":"Davis-Leary","msc":["20-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.10"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}]}
+{"id":"6QFPHCPC6N","mentions":["wikipedia://en/251424#FSPG"],"kind":"definition","name":"symmetric algebra","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"6QFWMSB4XC","mentions":["wikipedia://en/578656#S27I"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"6QFXQKCGJK","mentions":["wikipedia://en/1061511#86HY"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

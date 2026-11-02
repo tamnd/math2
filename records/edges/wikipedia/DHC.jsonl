@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/14331851#65EX","to":"wikipedia://en/14563","predicate":"uses","method":"link-in-item","confidence":"high","span":[507,518],"revision":1371605159,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14331851#65EX","to":"wikipedia://en/963042","predicate":"uses","method":"link-in-item","confidence":"high","span":[833,880],"revision":1371605159,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14331851#65EX","to":"wikipedia://en/52327","predicate":"uses","method":"link-in-item","confidence":"high","span":[933,956],"revision":1371605159,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2151745#ZGG7","to":"wikipedia://en/53759","predicate":"uses","method":"link-in-item","confidence":"high","span":[237,272],"revision":1326415680,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2151745#ZGG7","to":"wikipedia://en/26829","predicate":"uses","method":"link-in-item","confidence":"high","span":[361,381],"revision":1326415680,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2151745#ZGG7","to":"wikipedia://en/1589032","predicate":"uses","method":"link-in-item","confidence":"high","span":[705,746],"revision":1326415680,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2151745#ZGG7","to":"wikipedia://en/15069","predicate":"uses","method":"link-in-item","confidence":"medium","span":[1091,1112],"revision":1326415680,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26269427","to":"wikipedia://en/9417","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[48,80],"revision":1176646635,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26269427","to":"wikipedia://en/243849","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[85,108],"revision":1176646635,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26269427","to":"wikipedia://en/593693","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[195,222],"revision":1176646635,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26269427","to":"wikipedia://en/946975","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[235,259],"revision":1176646635,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26269427","to":"wikipedia://en/971691","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[272,287],"revision":1176646635,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26269427","to":"wikipedia://en/19008673","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[326,336],"revision":1176646635,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26269427","to":"wikipedia://en/383736","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[504,531],"revision":1176646635,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26269427","to":"wikipedia://en/3189581","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[550,563],"revision":1176646635,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26269427","to":"wikipedia://en/392586","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[629,660],"revision":1176646635,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26269427","to":"wikipedia://en/15575410","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[689,708],"revision":1176646635,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26269427","to":"wikipedia://en/1493395","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[717,759],"revision":1176646635,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26269427","to":"wikipedia://en/392586","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[968,1024],"revision":1176646635,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26269427","to":"wikipedia://en/45293075","predicate":"related","method":"see-also","confidence":"low","span":[13624,13663],"revision":1176646635,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26269427","to":"Template:Algebraic curves navbox","predicate":"in-nav","method":"nav","confidence":"low","span":[14798,14825],"revision":1176646635,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26269427","to":"Category:Conic sections","predicate":"in-field","method":"category","confidence":"medium","span":[14827,14854],"revision":1176646635,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26269427","to":"Category:Theorems in projective geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[14855,14899],"revision":1176646635,"by":"importer/wikipedia/1"}

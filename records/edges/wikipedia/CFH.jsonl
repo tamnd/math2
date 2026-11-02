@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/100303#6BOZ","to":"wikipedia://en/1634790","predicate":"listed-in","method":"list","confidence":"certain","span":[5219,5241],"revision":1339661902,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13213280","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[46,61],"revision":1253363787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13213280","to":"wikipedia://en/245568","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[118,147],"revision":1253363787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13213280","to":"wikipedia://en/3989","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[167,183],"revision":1253363787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13213280","to":"wikipedia://en/48260","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[191,225],"revision":1253363787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13213280","to":"wikipedia://en/2735727","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[233,256],"revision":1253363787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13213280","to":"Template:Functional analysis","predicate":"in-nav","method":"nav","confidence":"low","span":[1796,1819],"revision":1253363787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13213280","to":"Category:Convex analysis","predicate":"in-field","method":"category","confidence":"medium","span":[1821,1849],"revision":1253363787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13213280","to":"Category:Theorems in functional analysis","predicate":"kind-of","method":"category","confidence":"medium","span":[1850,1894],"revision":1253363787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/243709#VR7Z","to":"wikipedia://en/592151","predicate":"uses","method":"link-in-item","confidence":"high","span":[8742,8758],"revision":1375872771,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/243709#VR7Z","to":"wikipedia://en/39377","predicate":"uses","method":"link-in-item","confidence":"high","span":[8933,8969],"revision":1375872771,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/355100#337Y","to":"wikipedia://en/1774970","predicate":"uses","method":"link-in-item","confidence":"high","span":[1414,1430],"revision":1375520433,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/355100#337Y","to":"wikipedia://en/27716891","predicate":"uses","method":"link-in-item","confidence":"high","span":[1556,1568],"revision":1375520433,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/355100#337Y","to":"wikipedia://en/138484","predicate":"uses","method":"link-in-item","confidence":"high","span":[1923,1961],"revision":1375520433,"by":"importer/wikipedia/1"}

@@ -1,1 +1,5 @@
 {"id":"9VD412JNPA","mentions":["ax://paper/2609.33512#3TK0"],"kind":"statement","msc":["05-XX","94-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
+{"id":"9VD8P4WBD2","mentions":["wikipedia://en/465001#FAO2"],"kind":"unknown","name":"731 (number)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9VDA23PR9H","mentions":["wikipedia://en/39491072#KFXJ"],"kind":"definition","name":"Beltrami–Klein model","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9VDJWMJVFW","mentions":["wikipedia://en/3100140"],"kind":"definition","name":"Nil ideal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9VDMCGGB3B","mentions":["wikipedia://en/7088#2YXD"],"kind":"unknown","name":"Laurance Safford","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

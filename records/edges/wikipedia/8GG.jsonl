@@ -1,0 +1,34 @@
+{"from":"wikipedia://en/14620737","to":"wikipedia://en/11953","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[418,444],"revision":1371899769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14620737","to":"wikipedia://en/1844","predicate":"related","method":"link-in-lead","confidence":"low","span":[623,637],"revision":1371899769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14620737","to":"wikipedia://en/803","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[682,708],"revision":1371899769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14620737","to":"wikipedia://en/167417","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[735,760],"revision":1371899769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14620737","to":"wikipedia://en/148363","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[780,797],"revision":1371899769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14620737","to":"wikipedia://en/16972981","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[811,841],"revision":1371899769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14620737","to":"wikipedia://en/80463","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1938,1950],"revision":1371899769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14620737","to":"wikipedia://en/54419","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2142,2154],"revision":1371899769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14620737","to":"wikipedia://en/1804933","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2829,2867],"revision":1371899769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14620737","to":"wikipedia://en/234252","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3071,3096],"revision":1371899769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14620737","to":"wikipedia://en/898693","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3238,3272],"revision":1371899769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14620737","to":"wikipedia://en/37145","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3901,3914],"revision":1371899769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14620737","to":"wikipedia://en/2397591","predicate":"related","method":"link-in-text","confidence":"low","span":[4527,4548],"revision":1371899769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14620737","to":"wikipedia://en/246562","predicate":"related","method":"link-in-text","confidence":"low","span":[5821,5834],"revision":1371899769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14620737","to":"wikipedia://en/65467","predicate":"related","method":"link-in-text","confidence":"low","span":[5836,5854],"revision":1371899769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14620737","to":"wikipedia://en/54564748","predicate":"related","method":"link-in-text","confidence":"low","span":[5856,5875],"revision":1371899769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14620737","to":"wikipedia://en/240694","predicate":"related","method":"link-in-text","confidence":"low","span":[5881,5898],"revision":1371899769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14620737","to":"Template:Commons category","predicate":"in-nav","method":"nav","confidence":"low","span":[6966,6997],"revision":1371899769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14620737","to":"Category:Puzzles","predicate":"in-field","method":"category","confidence":"medium","span":[8123,8143],"revision":1371899769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14620737","to":"Category:Tiling puzzles","predicate":"in-field","method":"category","confidence":"medium","span":[8144,8171],"revision":1371899769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14620737","to":"Category:Works by Archimedes","predicate":"in-field","method":"category","confidence":"medium","span":[8172,8204],"revision":1371899769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14620737","to":"Category:Geometric dissection","predicate":"in-field","method":"category","confidence":"medium","span":[8205,8238],"revision":1371899769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14620737","to":"Category:Rediscovered literature","predicate":"in-field","method":"category","confidence":"medium","span":[8239,8275],"revision":1371899769,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53794712#USAB","to":"wikipedia://en/40133395","predicate":"related","method":"link-in-item","confidence":"low","span":[2987,3004],"revision":1365984419,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53794712#USAB","to":"wikipedia://en/48644256","predicate":"related","method":"link-in-item","confidence":"low","span":[3006,3029],"revision":1365984419,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53794712#USAB","to":"wikipedia://en/1724825","predicate":"related","method":"link-in-item","confidence":"low","span":[3035,3055],"revision":1365984419,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53794712#USAB","to":"wikipedia://en/48246244","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3677,3703],"revision":1365984419,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53794712#USAB","to":"wikipedia://en/198822","predicate":"related","method":"link-in-item","confidence":"low","span":[3711,3744],"revision":1365984419,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54415045#WHBY","to":"wikipedia://en/712796","predicate":"uses","method":"link-in-item","confidence":"medium","span":[19891,19902],"revision":1375691701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54415045#WHBY","to":"wikipedia://en/645042","predicate":"uses","method":"link-in-item","confidence":"medium","span":[19968,19985],"revision":1375691701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54415045#WHBY","to":"wikipedia://en/1616492","predicate":"uses","method":"link-in-item","confidence":"medium","span":[20630,20647],"revision":1375691701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54415045#WHBY","to":"wikipedia://en/4361541","predicate":"uses","method":"link-in-item","confidence":"medium","span":[20748,20763],"revision":1375691701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54415045#WHBY","to":"wikipedia://en/3815781","predicate":"uses","method":"link-in-item","confidence":"medium","span":[20768,20790],"revision":1375691701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54415045#WHBY","to":"wikipedia://en/41923028","predicate":"uses","method":"link-in-item","confidence":"medium","span":[20808,20829],"revision":1375691701,"by":"importer/wikipedia/1"}

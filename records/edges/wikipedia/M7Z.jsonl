@@ -1,0 +1,34 @@
+{"from":"wikipedia://en/32668461","to":"wikipedia://en/914","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2184,2194],"revision":1328791116,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32668461","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2196,2213],"revision":1328791116,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32668461","to":"wikipedia://en/20646803","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2219,2232],"revision":1328791116,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32668461","to":"wikipedia://en/8492","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[2257,2281],"revision":1328791116,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32668461","to":"wikipedia://en/19636","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[2283,2305],"revision":1328791116,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32668461","to":"wikipedia://en/5961","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2307,2331],"revision":1328791116,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32668461","to":"wikipedia://en/326471","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2337,2362],"revision":1328791116,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32668461","to":"wikipedia://en/534126","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2471,2492],"revision":1328791116,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32668461","to":"wikipedia://en/174216","predicate":"related","method":"link-in-text","confidence":"low","span":[2666,2693],"revision":1328791116,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32668461","to":"wikipedia://en/32127","predicate":"related","method":"link-in-text","confidence":"low","span":[2702,2727],"revision":1328791116,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32668461","to":"wikipedia://en/3149881","predicate":"related","method":"link-in-text","confidence":"low","span":[2796,2816],"revision":1328791116,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32668461","to":"wikipedia://en/61114","predicate":"related","method":"link-in-text","confidence":"low","span":[2868,2889],"revision":1328791116,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32668461","to":"wikipedia://en/340787","predicate":"related","method":"link-in-text","confidence":"low","span":[2901,2938],"revision":1328791116,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32668461","to":"wikipedia://en/51270001","predicate":"related","method":"link-in-text","confidence":"low","span":[3049,3069],"revision":1328791116,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32668461","to":"wikipedia://en/9858698","predicate":"related","method":"link-in-text","confidence":"low","span":[3079,3119],"revision":1328791116,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32668461","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[6077,6126],"revision":1328791116,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32668461","to":"Category:21st-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[6127,6176],"revision":1328791116,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32668461","to":"Category:Mathematical logicians","predicate":"in-field","method":"category","confidence":"medium","span":[6216,6251],"revision":1328791116,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32668461","to":"Category:American women logicians","predicate":"in-field","method":"category","confidence":"medium","span":[6252,6289],"revision":1328791116,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32668461","to":"Category:21st-century American women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[6290,6345],"revision":1328791116,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32668461","to":"Category:20th-century American women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[6346,6401],"revision":1328791116,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/356213#LNRU","to":"wikipedia://en/3057551","predicate":"listed-in","method":"list","confidence":"certain","span":[10067,10082],"revision":1359895470,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38360375","to":"Template:Uniform hyperbolic tiles db","predicate":"in-nav","method":"nav","confidence":"low","span":[61,135],"revision":1375920856,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38360375","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[139,151],"revision":1375920856,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38360375","to":"wikipedia://en/241291","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[218,258],"revision":1375920856,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38360375","to":"wikipedia://en/489394","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[267,287],"revision":1375920856,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38360375","to":"Template:Commonscat","predicate":"in-nav","method":"nav","confidence":"low","span":[912,951],"revision":1375920856,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38360375","to":"wikipedia://en/2863809","predicate":"related","method":"see-also","confidence":"low","span":[953,970],"revision":1375920856,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38360375","to":"wikipedia://en/18640974","predicate":"related","method":"see-also","confidence":"low","span":[972,1011],"revision":1375920856,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38360375","to":"wikipedia://en/505253","predicate":"related","method":"see-also","confidence":"low","span":[1013,1042],"revision":1375920856,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38360375","to":"Template:Tessellation","predicate":"in-nav","method":"nav","confidence":"low","span":[1949,1965],"revision":1375920856,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38360375","to":"Category:Hyperbolic tilings","predicate":"in-field","method":"category","confidence":"medium","span":[1967,1998],"revision":1375920856,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38360375","to":"Category:Isogonal tilings","predicate":"in-field","method":"category","confidence":"medium","span":[1999,2028],"revision":1375920856,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38360375","to":"Category:Snub tilings","predicate":"in-field","method":"category","confidence":"medium","span":[2029,2054],"revision":1375920856,"by":"importer/wikipedia/1"}

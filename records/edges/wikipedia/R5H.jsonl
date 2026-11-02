@@ -1,0 +1,33 @@
+{"from":"wikipedia://en/325739#Y1FU","to":"wikipedia://en/14922","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[12111,12133],"revision":1368897305,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/325739#Y1FU","to":"wikipedia://en/146806","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[12230,12253],"revision":1368897305,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/325739#Y1FU","to":"wikipedia://en/585143","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[12261,12285],"revision":1368897305,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/325739#Y1FU","to":"wikipedia://en/18881","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[12391,12427],"revision":1368897305,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/325739#Y1FU","to":"wikipedia://en/41890","predicate":"related","method":"link-in-proof","confidence":"low","span":[13260,13276],"revision":1368897305,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/325739#Y1FU","to":"wikipedia://en/493527","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[16115,16145],"revision":1368897305,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/325739#Y1FU","to":"wikipedia://en/18567#WRLU","predicate":"uses","method":"link-in-proof","confidence":"high","span":[17376,17463],"revision":1368897305,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/325739#Y1FU","to":"wikipedia://en/200091","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[17519,17543],"revision":1368897305,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/325739#Y1FU","to":"wikipedia://en/105622","predicate":"uses","method":"named-link","confidence":"high","span":[17572,17593],"revision":1368897305,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/325739#Y1FU","to":"wikipedia://en/200091","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[17695,17716],"revision":1368897305,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/325739#Y1FU","to":"wikipedia://en/97168#H5YD","predicate":"uses","method":"link-in-proof","confidence":"high","span":[18603,18709],"revision":1368897305,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/325739#Y1FU","to":"wikipedia://en/53453","predicate":"uses","method":"link-in-proof","confidence":"high","span":[18815,18842],"revision":1368897305,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/550701","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[51,66],"revision":1374183260,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/550701","to":"wikipedia://en/241291","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[96,130],"revision":1374183260,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/550701","to":"wikipedia://en/4342970","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[131,164],"revision":1374183260,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/550701","to":"wikipedia://en/19903176","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[186,205],"revision":1374183260,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/550701","to":"wikipedia://en/48082","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[863,879],"revision":1374183260,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/550701","to":"wikipedia://en/23666","predicate":"related","method":"link-in-lead","confidence":"low","span":[1070,1087],"revision":1374183260,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/550701","to":"wikipedia://en/21527","predicate":"related","method":"link-in-lead","confidence":"low","span":[1091,1108],"revision":1374183260,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/550701","to":"wikipedia://en/3001287","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1185,1212],"revision":1374183260,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/550701","to":"wikipedia://en/241291","predicate":"related","method":"link-in-text","confidence":"low","span":[2454,2474],"revision":1374183260,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/550701","to":"wikipedia://en/471365","predicate":"related","method":"link-in-text","confidence":"low","span":[2480,2498],"revision":1374183260,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/550701","to":"wikipedia://en/3680650","predicate":"related","method":"link-in-text","confidence":"low","span":[3682,3707],"revision":1374183260,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/550701","to":"wikipedia://en/3680650","predicate":"related","method":"link-in-text","confidence":"low","span":[5385,5410],"revision":1374183260,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/550701","to":"wikipedia://en/398540","predicate":"related","method":"link-in-text","confidence":"low","span":[5415,5432],"revision":1374183260,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/550701","to":"wikipedia://en/1763356","predicate":"related","method":"link-in-text","confidence":"low","span":[5728,5759],"revision":1374183260,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/550701","to":"wikipedia://en/981694","predicate":"related","method":"link-in-text","confidence":"low","span":[5863,5888],"revision":1374183260,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/550701","to":"wikipedia://en/19341371","predicate":"related","method":"see-also","confidence":"low","span":[7267,7283],"revision":1374183260,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/550701","to":"Category:Hyperbolic manifolds","predicate":"in-field","method":"category","confidence":"medium","span":[7345,7378],"revision":1374183260,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/550701","to":"Category:Geodesic (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[7379,7414],"revision":1374183260,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/550701","to":"Category:Riemann surfaces","predicate":"in-field","method":"category","confidence":"medium","span":[7415,7444],"revision":1374183260,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/550701","to":"Category:Dynamical systems","predicate":"in-field","method":"category","confidence":"medium","span":[7445,7475],"revision":1374183260,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/550701","to":"Category:Number theory","predicate":"in-field","method":"category","confidence":"medium","span":[7476,7502],"revision":1374183260,"by":"importer/wikipedia/1"}

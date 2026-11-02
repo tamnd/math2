@@ -1,0 +1,6 @@
+{"from":"wikipedia://en/71308775","to":"wikipedia://en/48396","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,28],"revision":1340381810,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71308775","to":"wikipedia://en/44055","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[199,232],"revision":1340381810,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71308775","to":"wikipedia://en/6122","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[342,365],"revision":1340381810,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71308775","to":"wikipedia://en/171882","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[666,691],"revision":1340381810,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71308775","to":"wikipedia://en/470625","predicate":"related","method":"link-in-lead","confidence":"low","span":[739,767],"revision":1340381810,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71308775","to":"Category:Calculus of variations","predicate":"in-field","method":"category","confidence":"medium","span":[3426,3461],"revision":1340381810,"by":"importer/wikipedia/1"}

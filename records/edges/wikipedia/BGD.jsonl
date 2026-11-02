@@ -1,0 +1,9 @@
+{"from":"wikipedia://en/65309248#5JXD","to":"wikipedia://en/12207392","predicate":"listed-in","method":"list","confidence":"certain","span":[11145,11176],"revision":1360520392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#17YL","to":"wikipedia://en/188946","predicate":"uses","method":"link-in-item","confidence":"high","span":[23177,23195],"revision":1376316324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#17YL","to":"wikipedia://en/22362","predicate":"uses","method":"link-in-item","confidence":"high","span":[23343,23365],"revision":1376316324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76765067#JDRZ","to":"wikipedia://en/911820","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[227760,227777],"revision":1368301704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83129347","to":"wikipedia://en/56938","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[4401,4459],"revision":1375540702,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83129347","to":"wikipedia://en/8096647","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[5895,5935],"revision":1375540702,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83129347","to":"Category:Data scientists","predicate":"in-field","method":"category","confidence":"medium","span":[7317,7345],"revision":1375540702,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83129347","to":"Category:Information theorists","predicate":"in-field","method":"category","confidence":"medium","span":[7346,7380],"revision":1375540702,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83129347","to":"Category:Japanese information theorists","predicate":"in-field","method":"category","confidence":"medium","span":[7381,7424],"revision":1375540702,"by":"importer/wikipedia/1"}

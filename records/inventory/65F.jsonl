@@ -1,1 +1,3 @@
-{"id":"65F0K8N0FS","mentions":["m2://rec/wikidata/Q1412452#1"],"kind":"unknown","name":"fractal dimension","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"65F0K8N0FS","mentions":["m2://rec/wikidata/Q1412452#1","wikipedia://en/285907"],"kind":"definition","name":"fractal dimension","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"65FKG38J6C","mentions":["wikipedia://en/276872"],"kind":"definition","name":"Critical thinking","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"65FZN6DGQ8","mentions":["wikipedia://en/7016769"],"kind":"definition","name":"Hopf surface","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

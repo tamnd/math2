@@ -1,0 +1,27 @@
+{"from":"wikipedia://en/2478058","to":"wikipedia://en/174705","predicate":"in-field","method":"infobox","confidence":"high","span":[105,132],"revision":1364925557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2478058","to":"wikipedia://en/319117","predicate":"stated-by","method":"infobox","confidence":"high","span":[152,168],"revision":1364925557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2478058","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[222,237],"revision":1364925557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2478058","to":"wikipedia://en/23666","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[323,345],"revision":1364925557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2478058","to":"wikipedia://en/150907","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[381,426],"revision":1364925557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2478058","to":"wikipedia://en/11634","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[464,492],"revision":1364925557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2478058","to":"wikipedia://en/30872462","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[557,577],"revision":1364925557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2478058","to":"wikipedia://en/6138","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[583,597],"revision":1364925557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2478058","to":"wikipedia://en/319117","predicate":"related","method":"link-in-lead","confidence":"low","span":[616,632],"revision":1364925557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2478058","to":"wikipedia://en/318450","predicate":"related","method":"link-in-lead","confidence":"low","span":[686,707],"revision":1364925557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2478058","to":"wikipedia://en/895349","predicate":"related","method":"link-in-lead","confidence":"low","span":[796,820],"revision":1364925557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2478058","to":"wikipedia://en/3378652","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[825,843],"revision":1364925557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2478058","to":"wikipedia://en/143151","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1041,1060],"revision":1364925557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2478058","to":"wikipedia://en/14563","predicate":"related","method":"link-in-text","confidence":"low","span":[1203,1215],"revision":1364925557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2478058","to":"wikipedia://en/4964","predicate":"related","method":"link-in-text","confidence":"low","span":[1558,1579],"revision":1364925557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2478058","to":"wikipedia://en/19021953","predicate":"related","method":"link-in-text","confidence":"low","span":[1867,1892],"revision":1364925557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2478058","to":"wikipedia://en/323689","predicate":"related","method":"link-in-text","confidence":"low","span":[2201,2219],"revision":1364925557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2478058","to":"wikipedia://en/323689","predicate":"related","method":"see-also","confidence":"low","span":[5073,5119],"revision":1364925557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2478058","to":"wikipedia://en/1078637","predicate":"related","method":"see-also","confidence":"low","span":[5122,5150],"revision":1364925557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2478058","to":"Category:Cyclotomic fields","predicate":"in-field","method":"category","confidence":"medium","span":[9046,9076],"revision":1364925557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2478058","to":"Category:Conjectures","predicate":"kind-of","method":"category","confidence":"medium","span":[9077,9101],"revision":1364925557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2478058","to":"Category:Unsolved problems in number theory","predicate":"kind-of","method":"category","confidence":"medium","span":[9102,9149],"revision":1364925557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2478058","to":"Category:Algebraic number theory","predicate":"in-field","method":"category","confidence":"medium","span":[9150,9186],"revision":1364925557,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5672810#6C36","to":"wikipedia://en/5902","predicate":"uses","method":"link-in-item","confidence":"medium","span":[38867,38889],"revision":1374391620,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5672810#6C36","to":"wikipedia://en/18947898","predicate":"uses","method":"link-in-item","confidence":"medium","span":[39259,39284],"revision":1374391620,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5672810#6C36","to":"wikipedia://en/21490998","predicate":"uses","method":"link-in-item","confidence":"medium","span":[39320,39331],"revision":1374391620,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5672810#6C36","to":"wikipedia://en/2649767","predicate":"uses","method":"link-in-item","confidence":"medium","span":[39382,39399],"revision":1374391620,"by":"importer/wikipedia/1"}

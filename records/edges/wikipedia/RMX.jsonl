@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/336815","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[40,57],"revision":1374892222,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/336815","to":"wikipedia://en/601284","predicate":"related","method":"link-in-lead","confidence":"low","span":[58,73],"revision":1374892222,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/336815","to":"wikipedia://en/6138","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[127,142],"revision":1374892222,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/336815","to":"wikipedia://en/601284","predicate":"related","method":"link-in-lead","confidence":"low","span":[273,322],"revision":1374892222,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/336815","to":"wikipedia://en/14353778","predicate":"related","method":"see-also","confidence":"low","span":[16028,16070],"revision":1374892222,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/336815","to":"wikipedia://en/83962937","predicate":"related","method":"see-also","confidence":"low","span":[16072,16135],"revision":1374892222,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/336815","to":"wikipedia://en/183091","predicate":"related","method":"see-also","confidence":"low","span":[16137,16181],"revision":1374892222,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/336815","to":"Category:Conjectures","predicate":"kind-of","method":"category","confidence":"medium","span":[16655,16685],"revision":1374892222,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/336815","to":"Category:Paul Erdős","predicate":"in-field","method":"category","confidence":"medium","span":[16686,16710],"revision":1374892222,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/336815","to":"Category:Mathematics-related lists","predicate":"in-field","method":"category","confidence":"medium","span":[16711,16768],"revision":1374892222,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/336815","to":"Category:Unsolved problems in mathematics","predicate":"kind-of","method":"category","confidence":"medium","span":[16769,16850],"revision":1374892222,"by":"importer/wikipedia/1"}

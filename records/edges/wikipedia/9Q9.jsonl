@@ -1,0 +1,4 @@
+{"from":"wikipedia://en/35998199#2PDV","to":"wikipedia://en/156533","predicate":"uses","method":"named-link","confidence":"high","span":[13500,13526],"revision":1315116263,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35998199#2PDV","to":"wikipedia://en/44987","predicate":"uses","method":"link-in-proof","confidence":"high","span":[13535,13561],"revision":1315116263,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/456132#IG6L","to":"wikipedia://en/199121","predicate":"listed-in","method":"list","confidence":"certain","span":[3856,3876],"revision":1250000807,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/456132#IG6L","to":"wikipedia://en/199123","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3881,3901],"revision":1250000807,"by":"importer/wikipedia/1"}

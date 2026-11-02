@@ -1,1 +1,3 @@
 {"id":"APRDE0QTBX","mentions":["m2://rec/lebl_ra/ch-multivar-int.tex#proof-1#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"APRQS9C1MG","mentions":["wikipedia://en/100303#8RPW","wikipedia://en/1005936#XV0Z"],"kind":"statement","name":"Fundamental theorem on homomorphisms","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"APRV90SCHP","mentions":["wikipedia://en/45241#CFWO"],"kind":"statement","name":"Theorem B (modules)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

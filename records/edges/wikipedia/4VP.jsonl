@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/1615479","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[126,142],"revision":1360405263,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1615479","to":"wikipedia://en/12401","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[157,173],"revision":1360405263,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1615479","to":"wikipedia://en/325806","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[226,246],"revision":1360405263,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1615479","to":"wikipedia://en/32370","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[251,268],"revision":1360405263,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1615479","to":"wikipedia://en/325802","predicate":"related","method":"link-in-lead","confidence":"low","span":[293,321],"revision":1360405263,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1615479","to":"wikipedia://en/638899","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[326,358],"revision":1360405263,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1615479","to":"wikipedia://en/18422","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[437,455],"revision":1360405263,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1615479","to":"wikipedia://en/262243","predicate":"related","method":"see-also","confidence":"low","span":[3098,3113],"revision":1360405263,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1615479","to":"wikipedia://en/2180494","predicate":"related","method":"see-also","confidence":"low","span":[3115,3128],"revision":1360405263,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1615479","to":"Category:Algebraic graph theory","predicate":"in-field","method":"category","confidence":"medium","span":[3157,3192],"revision":1360405263,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1789812#YS2F","to":"wikipedia://en/1734238","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[18659,18684],"revision":1329146615,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1789812#YS2F","to":"wikipedia://en/13660","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[19311,19328],"revision":1329146615,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1789812#YS2F","to":"wikipedia://en/226975","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[20186,20206],"revision":1329146615,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1789812#YS2F","to":"wikipedia://en/200550","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[20229,20244],"revision":1329146615,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1789812#YS2F","to":"wikipedia://en/55227","predicate":"uses","method":"named-link","confidence":"high","span":[20252,20278],"revision":1329146615,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1789812#YS2F","to":"wikipedia://en/25228","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[22283,22293],"revision":1329146615,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19938249#P68K","to":"wikipedia://en/1724836","predicate":"listed-in","method":"list","confidence":"certain","span":[4031,4058],"revision":1350625634,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38150904","to":"wikipedia://en/18716923","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[37,48],"revision":1222253822,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38150904","to":"wikipedia://en/23218956","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[103,146],"revision":1222253822,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38150904","to":"wikipedia://en/32370","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[152,168],"revision":1222253822,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38150904","to":"Category:Vector spaces","predicate":"in-field","method":"category","confidence":"medium","span":[1446,1474],"revision":1222253822,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38150904","to":"Category:Vectors (mathematics and physics)","predicate":"in-field","method":"category","confidence":"medium","span":[1475,1521],"revision":1222253822,"by":"importer/wikipedia/1"}

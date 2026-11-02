@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/25140914","to":"wikipedia://en/52564","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[124,158],"revision":1286472462,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25140914","to":"wikipedia://en/34017119","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[271,295],"revision":1286472462,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25140914","to":"wikipedia://en/52564","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[349,383],"revision":1286472462,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25140914","to":"wikipedia://en/61478","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[389,406],"revision":1286472462,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25140914","to":"wikipedia://en/263886","predicate":"related","method":"link-in-text","confidence":"low","span":[2987,3041],"revision":1286472462,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25140914","to":"wikipedia://en/2370200","predicate":"related","method":"link-in-text","confidence":"low","span":[3089,3108],"revision":1286472462,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25140914","to":"wikipedia://en/17644838","predicate":"related","method":"see-also","confidence":"low","span":[5059,5076],"revision":1286472462,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25140914","to":"Category:Partial differential equations","predicate":"in-field","method":"category","confidence":"medium","span":[5109,5152],"revision":1286472462,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25140914","to":"Category:Theorems in mathematical analysis","predicate":"kind-of","method":"category","confidence":"medium","span":[5153,5199],"revision":1286472462,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25140914","to":"Category:Uniqueness theorems","predicate":"in-field","method":"category","confidence":"medium","span":[5200,5232],"revision":1286472462,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36678177#7DNG","to":"wikipedia://en/6583420","predicate":"uses","method":"link-in-item","confidence":"high","span":[2029,2048],"revision":1306566703,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36678177#7DNG","to":"wikipedia://en/45194","predicate":"uses","method":"link-in-item","confidence":"high","span":[2212,2233],"revision":1306566703,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36678177#7DNG","to":"wikipedia://en/51731","predicate":"uses","method":"link-in-item","confidence":"high","span":[2324,2348],"revision":1306566703,"by":"importer/wikipedia/1"}

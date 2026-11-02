@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/34532#WZLD","to":"wikipedia://en/22059815","predicate":"listed-in","method":"list","confidence":"certain","span":[1506,1552],"revision":1364976122,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/621447#CZN1","to":"wikipedia://en/4990900","predicate":"listed-in","method":"list","confidence":"certain","span":[862,912],"revision":1333074872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82861141#7MUC","to":"wikipedia://en/655","predicate":"uses","method":"link-in-item","confidence":"high","span":[5413,5423],"revision":1369288254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82861141#7MUC","to":"wikipedia://en/26691","predicate":"uses","method":"link-in-item","confidence":"high","span":[5503,5528],"revision":1369288254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82861141#7MUC","to":"wikipedia://en/38579","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6653,6664],"revision":1369288254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9175375","to":"wikipedia://en/2819","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[312,328],"revision":1260188534,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9175375","to":"wikipedia://en/375900","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[412,465],"revision":1260188534,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9175375","to":"wikipedia://en/20051","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[497,543],"revision":1260188534,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9175375","to":"wikipedia://en/20051","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[586,607],"revision":1260188534,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9175375","to":"wikipedia://en/65905","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[705,718],"revision":1260188534,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9175375","to":"wikipedia://en/1949009","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1135,1196],"revision":1260188534,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9175375","to":"wikipedia://en/219144","predicate":"related","method":"see-also","confidence":"low","span":[1924,1940],"revision":1260188534,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9175375","to":"wikipedia://en/6936536","predicate":"related","method":"see-also","confidence":"low","span":[1943,1976],"revision":1260188534,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9175375","to":"Category:Aerodynamics","predicate":"in-field","method":"category","confidence":"medium","span":[2251,2276],"revision":1260188534,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9175375","to":"Category:Fluid dynamics","predicate":"in-field","method":"category","confidence":"medium","span":[2277,2304],"revision":1260188534,"by":"importer/wikipedia/1"}

@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/3235998#5LER","to":"wikipedia://en/48258","predicate":"uses","method":"link-in-item","confidence":"high","span":[2426,2449],"revision":1333819645,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3235998#5LER","to":"wikipedia://en/1408000","predicate":"uses","method":"link-in-item","confidence":"high","span":[2542,2568],"revision":1333819645,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58648815","to":"wikipedia://en/7200539","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[329,371],"revision":1376060757,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58648815","to":"wikipedia://en/387224","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[512,555],"revision":1376060757,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58648815","to":"wikipedia://en/2728914","predicate":"related","method":"link-in-text","confidence":"low","span":[2754,2776],"revision":1376060757,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58648815","to":"wikipedia://en/173285","predicate":"related","method":"link-in-text","confidence":"low","span":[2844,2868],"revision":1376060757,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58648815","to":"wikipedia://en/2696057","predicate":"related","method":"link-in-text","confidence":"low","span":[3150,3180],"revision":1376060757,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58648815","to":"wikipedia://en/133496","predicate":"related","method":"link-in-text","confidence":"low","span":[3207,3224],"revision":1376060757,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58648815","to":"Category:Geometry","predicate":"in-field","method":"category","confidence":"medium","span":[6531,6552],"revision":1376060757,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58648815","to":"Category:Triangles","predicate":"in-field","method":"category","confidence":"medium","span":[6553,6575],"revision":1376060757,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58648815","to":"Category:Incidence geometry","predicate":"in-field","method":"category","confidence":"medium","span":[6576,6607],"revision":1376060757,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58648815","to":"Category:Configurations (geometry)","predicate":"in-field","method":"category","confidence":"medium","span":[6608,6646],"revision":1376060757,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9202993#F3AF","to":"wikipedia://en/3512103","predicate":"listed-in","method":"list","confidence":"certain","span":[7477,7499],"revision":1374822410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9202993#F3AF","to":"wikipedia://en/21474","predicate":"uses","method":"link-in-item","confidence":"high","span":[7507,7526],"revision":1374822410,"by":"importer/wikipedia/1"}

@@ -1,0 +1,29 @@
+{"from":"wikipedia://en/1198956","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[54,69],"revision":1352446826,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1198956","to":"wikipedia://en/15287","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[73,104],"revision":1352446826,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1198956","to":"wikipedia://en/15532","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[108,120],"revision":1352446826,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1198956","to":"wikipedia://en/61532","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[199,243],"revision":1352446826,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1198956","to":"wikipedia://en/61532","predicate":"related","method":"see-also","confidence":"low","span":[1781,1805],"revision":1352446826,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1198956","to":"wikipedia://en/2620508","predicate":"related","method":"see-also","confidence":"low","span":[1807,1836],"revision":1352446826,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1198956","to":"Category:Series (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[1966,1999],"revision":1352446826,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1198956","to":"Category:Integral calculus","predicate":"in-field","method":"category","confidence":"medium","span":[2000,2030],"revision":1352446826,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1198956","to":"Category:Convergence (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[2031,2069],"revision":1352446826,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1198956","to":"Category:Summability theory","predicate":"in-field","method":"category","confidence":"medium","span":[2070,2101],"revision":1352446826,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14403539#D36J","to":"wikipedia://en/9169089","predicate":"listed-in","method":"list","confidence":"certain","span":[49597,49616],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16287130#7GT5","to":"wikipedia://en/12461","predicate":"uses","method":"link-in-item","confidence":"high","span":[969,981],"revision":1306571135,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16287130#7GT5","to":"wikipedia://en/24698646","predicate":"uses","method":"link-in-item","confidence":"medium","span":[1004,1033],"revision":1306571135,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16287130#7GT5","to":"wikipedia://en/3024068","predicate":"related","method":"link-in-item","confidence":"low","span":[1134,1166],"revision":1306571135,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16287130#7GT5","to":"wikipedia://en/102221","predicate":"uses","method":"link-in-item","confidence":"high","span":[1272,1286],"revision":1306571135,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16287130#7GT5","to":"wikipedia://en/650086","predicate":"uses","method":"link-in-item","confidence":"high","span":[1290,1307],"revision":1306571135,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16287130#7GT5","to":"wikipedia://en/1082841","predicate":"uses","method":"link-in-item","confidence":"high","span":[1321,1340],"revision":1306571135,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30863587#AXPF","to":"wikipedia://en/4700","predicate":"uses","method":"link-in-item","confidence":"high","span":[24483,24502],"revision":1322168300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3100586","to":"wikipedia://en/12401","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[531,547],"revision":1308502590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3100586","to":"wikipedia://en/21241","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[566,586],"revision":1308502590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3100586","to":"wikipedia://en/1643733","predicate":"related","method":"link-in-lead","confidence":"low","span":[601,617],"revision":1308502590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3100586","to":"wikipedia://en/244437","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[669,702],"revision":1308502590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3100586","to":"wikipedia://en/244437","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[781,799],"revision":1308502590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3100586","to":"wikipedia://en/1374448","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[852,885],"revision":1308502590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3100586","to":"wikipedia://en/325802","predicate":"related","method":"link-in-lead","confidence":"low","span":[898,914],"revision":1308502590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3100586","to":"wikipedia://en/638899","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[915,949],"revision":1308502590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3100586","to":"Category:Extremal graph theory","predicate":"in-field","method":"category","confidence":"medium","span":[9430,9464],"revision":1308502590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3100586","to":"Category:Theorems in graph theory","predicate":"kind-of","method":"category","confidence":"medium","span":[9465,9502],"revision":1308502590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3100586","to":"Category:Hamiltonian paths and cycles","predicate":"in-field","method":"category","confidence":"medium","span":[9543,9584],"revision":1308502590,"by":"importer/wikipedia/1"}

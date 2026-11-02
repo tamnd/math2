@@ -1,0 +1,19 @@
+{"from":"wikipedia://en/43082178#XSJW","to":"wikipedia://en/48560","predicate":"uses","method":"link-in-item","confidence":"high","span":[4633,4663],"revision":1374118628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43082178#XSJW","to":"wikipedia://en/2476311","predicate":"uses","method":"link-in-item","confidence":"high","span":[4818,4832],"revision":1374118628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43082178#XSJW","to":"wikipedia://en/12013","predicate":"uses","method":"link-in-item","confidence":"high","span":[5872,5902],"revision":1374118628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43082178#XSJW","to":"wikipedia://en/27545816","predicate":"uses","method":"link-in-item","confidence":"high","span":[6901,6941],"revision":1374118628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43082178#XSJW","to":"wikipedia://en/426743","predicate":"uses","method":"link-in-item","confidence":"high","span":[6981,7001],"revision":1374118628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43082178#XSJW","to":"wikipedia://en/1571968","predicate":"related","method":"link-in-item","confidence":"low","span":[7687,7705],"revision":1374118628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43082178#XSJW","to":"wikipedia://en/72683786","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7708,7732],"revision":1374118628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8890014","to":"wikipedia://en/21527","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[73,90],"revision":1330717713,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8890014","to":"wikipedia://en/14563","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[129,140],"revision":1330717713,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8890014","to":"wikipedia://en/53452","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[182,194],"revision":1330717713,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8890014","to":"wikipedia://en/53452","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[222,242],"revision":1330717713,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8890014","to":"wikipedia://en/3912709","predicate":"related","method":"link-in-text","confidence":"low","span":[1694,1730],"revision":1330717713,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8890014","to":"wikipedia://en/49492","predicate":"related","method":"link-in-text","confidence":"low","span":[1802,1815],"revision":1330717713,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8890014","to":"wikipedia://en/14214617","predicate":"related","method":"link-in-text","confidence":"low","span":[1826,1852],"revision":1330717713,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8890014","to":"wikipedia://en/18881","predicate":"related","method":"link-in-text","confidence":"low","span":[1900,1936],"revision":1330717713,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8890014","to":"wikipedia://en/23666","predicate":"related","method":"link-in-text","confidence":"low","span":[2174,2196],"revision":1330717713,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8890014","to":"wikipedia://en/20087","predicate":"related","method":"link-in-text","confidence":"low","span":[2508,2534],"revision":1330717713,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8890014","to":"Template:Classes of natural numbers","predicate":"in-nav","method":"nav","confidence":"low","span":[5100,5130],"revision":1330717713,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8890014","to":"Category:Integer sequences","predicate":"kind-of","method":"category","confidence":"medium","span":[5132,5162],"revision":1330717713,"by":"importer/wikipedia/1"}

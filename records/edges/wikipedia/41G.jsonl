@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/14528017#BDID","to":"wikipedia://en/1925764","predicate":"listed-in","method":"list","confidence":"certain","span":[25907,25926],"revision":1373239541,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14528017#BDID","to":"wikipedia://en/345023","predicate":"uses","method":"link-in-item","confidence":"high","span":[25949,25979],"revision":1373239541,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14528017#BDID","to":"wikipedia://en/579673","predicate":"related","method":"link-in-item","confidence":"low","span":[26029,26049],"revision":1373239541,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38559197","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1292688765,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38559197","to":"wikipedia://en/27838","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[103,116],"revision":1292688765,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38559197","to":"wikipedia://en/70908681","predicate":"related","method":"link-in-lead","confidence":"low","span":[137,174],"revision":1292688765,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38559197","to":"wikipedia://en/46340778","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[179,215],"revision":1292688765,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38559197","to":"wikipedia://en/5826","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[269,288],"revision":1292688765,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38559197","to":"wikipedia://en/4668","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[468,493],"revision":1292688765,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38559197","to":"wikipedia://en/23205","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[877,899],"revision":1292688765,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38559197","to":"Category:Inequalities (mathematics)","predicate":"kind-of","method":"category","confidence":"medium","span":[1760,1799],"revision":1292688765,"by":"importer/wikipedia/1"}

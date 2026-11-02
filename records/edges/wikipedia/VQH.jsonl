@@ -1,0 +1,24 @@
+{"from":"wikipedia://en/22035894","to":"wikipedia://en/1134","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[317,329],"revision":1374111645,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22035894","to":"wikipedia://en/11959","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[416,431],"revision":1374111645,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22035894","to":"wikipedia://en/4355558","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[446,466],"revision":1374111645,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22035894","to":"wikipedia://en/38159876","predicate":"related","method":"link-in-lead","confidence":"low","span":[489,530],"revision":1374111645,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22035894","to":"wikipedia://en/11456008","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[642,665],"revision":1374111645,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22035894","to":"wikipedia://en/3775601","predicate":"related","method":"link-in-text","confidence":"low","span":[2994,3032],"revision":1374111645,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22035894","to":"wikipedia://en/16936498","predicate":"related","method":"link-in-text","confidence":"low","span":[3236,3255],"revision":1374111645,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22035894","to":"wikipedia://en/33833","predicate":"related","method":"link-in-text","confidence":"low","span":[3461,3488],"revision":1374111645,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22035894","to":"wikipedia://en/6395956","predicate":"related","method":"link-in-text","confidence":"low","span":[3608,3644],"revision":1374111645,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22035894","to":"wikipedia://en/594486","predicate":"related","method":"link-in-text","confidence":"low","span":[3901,3919],"revision":1374111645,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22035894","to":"wikipedia://en/22954","predicate":"related","method":"link-in-text","confidence":"low","span":[3925,3934],"revision":1374111645,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22035894","to":"wikipedia://en/594486","predicate":"related","method":"link-in-text","confidence":"low","span":[3937,3971],"revision":1374111645,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22035894","to":"wikipedia://en/58863","predicate":"related","method":"see-also","confidence":"low","span":[4196,4232],"revision":1374111645,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22035894","to":"wikipedia://en/244755","predicate":"related","method":"see-also","confidence":"low","span":[4235,4258],"revision":1374111645,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22035894","to":"Category:Analysis","predicate":"in-field","method":"category","confidence":"medium","span":[5056,5077],"revision":1374111645,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22035894","to":"Category:Definition","predicate":"in-field","method":"category","confidence":"medium","span":[5078,5101],"revision":1374111645,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22035894","to":"Category:Philosophical paradoxes","predicate":"in-field","method":"category","confidence":"medium","span":[5102,5138],"revision":1374111645,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22035894","to":"Category:Analytic philosophy","predicate":"in-field","method":"category","confidence":"medium","span":[5139,5171],"revision":1374111645,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52385#UDOR","to":"wikipedia://en/10939","predicate":"uses","method":"link-in-item","confidence":"high","span":[423,442],"revision":1352543712,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52385#UDOR","to":"wikipedia://en/76174","predicate":"uses","method":"link-in-item","confidence":"high","span":[606,619],"revision":1352543712,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52385#UDOR","to":"wikipedia://en/91420","predicate":"uses","method":"link-in-item","confidence":"high","span":[655,694],"revision":1352543712,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52385#UDOR","to":"wikipedia://en/14922","predicate":"uses","method":"link-in-item","confidence":"high","span":[769,787],"revision":1352543712,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52385#UDOR","to":"wikipedia://en/90446","predicate":"uses","method":"link-in-item","confidence":"high","span":[797,819],"revision":1352543712,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52385#UDOR","to":"wikipedia://en/7962","predicate":"uses","method":"link-in-item","confidence":"high","span":[829,855],"revision":1352543712,"by":"importer/wikipedia/1"}

@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/23895065","to":"wikipedia://en/78958","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[39,57],"revision":1348519390,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23895065","to":"wikipedia://en/28420","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[99,125],"revision":1348519390,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23895065","to":"wikipedia://en/2083906","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[145,164],"revision":1348519390,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23895065","to":"wikipedia://en/54423","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[181,202],"revision":1348519390,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23895065","to":"wikipedia://en/1780425","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[208,241],"revision":1348519390,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23895065","to":"wikipedia://en/9891","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[414,425],"revision":1348519390,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23895065","to":"wikipedia://en/2083906","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[430,449],"revision":1348519390,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23895065","to":"wikipedia://en/238181","predicate":"related","method":"link-in-text","confidence":"low","span":[696,717],"revision":1348519390,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23895065","to":"wikipedia://en/20647050","predicate":"related","method":"link-in-text","confidence":"low","span":[823,838],"revision":1348519390,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23895065","to":"wikipedia://en/23619","predicate":"related","method":"link-in-text","confidence":"low","span":[843,855],"revision":1348519390,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23895065","to":"wikipedia://en/23997203","predicate":"related","method":"link-in-text","confidence":"low","span":[866,909],"revision":1348519390,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23895065","to":"wikipedia://en/238181","predicate":"related","method":"link-in-text","confidence":"low","span":[3086,3107],"revision":1348519390,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23895065","to":"wikipedia://en/78958","predicate":"related","method":"see-also","confidence":"low","span":[3246,3264],"revision":1348519390,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23895065","to":"wikipedia://en/1780425","predicate":"related","method":"see-also","confidence":"low","span":[3267,3300],"revision":1348519390,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23895065","to":"wikipedia://en/54423","predicate":"related","method":"see-also","confidence":"low","span":[3303,3323],"revision":1348519390,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23895065","to":"Category:Thermodynamic equations","predicate":"in-field","method":"category","confidence":"medium","span":[3356,3392],"revision":1348519390,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/274756#HOTQ","to":"wikipedia://en/2724287","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3317,3362],"revision":1372023959,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/274756#HOTQ","to":"wikipedia://en/1301559","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3517,3568],"revision":1372023959,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/274756#HOTQ","to":"wikipedia://en/30448","predicate":"uses","method":"link-in-item","confidence":"high","span":[3810,3827],"revision":1372023959,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/274756#HOTQ","to":"wikipedia://en/210429","predicate":"related","method":"link-in-item","confidence":"low","span":[3864,3880],"revision":1372023959,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/274756#HOTQ","to":"wikipedia://en/25978572","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3910,3958],"revision":1372023959,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/274756#HOTQ","to":"wikipedia://en/2724287","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4077,4101],"revision":1372023959,"by":"importer/wikipedia/1"}

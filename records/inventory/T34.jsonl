@@ -1,1 +1,5 @@
 {"id":"T347SZQK8N","mentions":["ax://paper/2610.18101#VCRM"],"kind":"example","msc":["16-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
+{"id":"T349MYG8WE","mentions":["wikipedia://en/35326250#ABHK"],"kind":"definition","name":"tripartite","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"T34KBZY8KC","mentions":["wikipedia://en/697459"],"kind":"definition","name":"Probability of error","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"T34QF96ETK","mentions":["wikipedia://en/69939#49D0"],"kind":"statement","name":"3rd theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"T34TDKJ9K4","mentions":["wikipedia://en/18543082"],"kind":"definition","name":"Hermite number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

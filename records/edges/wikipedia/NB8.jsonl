@@ -1,0 +1,7 @@
+{"from":"wikipedia://en/1042164#20WY","to":"wikipedia://en/22456146","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[25804,25854],"revision":1373591613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1042164#20WY","to":"wikipedia://en/22456146","predicate":"uses","method":"link-in-item","confidence":"high","span":[25953,25979],"revision":1373591613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1042164#20WY","to":"wikipedia://en/161019","predicate":"uses","method":"link-in-item","confidence":"high","span":[25995,26007],"revision":1373591613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28416496","to":"wikipedia://en/10817881","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[114,163],"revision":1375816692,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28416496","to":"wikipedia://en/3214812","predicate":"related","method":"see-also","confidence":"low","span":[506,525],"revision":1375816692,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28416496","to":"Category:Demography","predicate":"in-field","method":"category","confidence":"medium","span":[798,821],"revision":1375816692,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/353748#AV20","to":"wikipedia://en/10237","predicate":"listed-in","method":"list","confidence":"certain","span":[808,838],"revision":1351694216,"by":"importer/wikipedia/1"}

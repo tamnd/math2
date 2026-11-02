@@ -1,3 +1,6 @@
 {"id":"A4K1FGQ82Q","mentions":["m2://rec/napkin/tex/alg-NT/norm-trace.tex#exercise-2#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"A4KHBE0X47","mentions":["wikipedia://en/26613882"],"kind":"definition","name":"Meta-optimization","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"A4KJKY6J8W","mentions":["m2://rec/lebl_ra/ch-several-vars-ders.tex#exercise:intoneconvex#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"A4KQMFGTPA","mentions":["wikipedia://en/15492132"],"kind":"definition","name":"Contourlet","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"A4KSNTYQN4","mentions":["m2://rec/wikidata/Q121504301#1"],"kind":"unknown","name":"orthomodular lattice","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"A4KWGRMQ60","mentions":["wikipedia://en/65349345#5L3O"],"kind":"statement","name":"Sterbenz lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}],"proofs":["wikipedia://en/65349345#OTZE"]}

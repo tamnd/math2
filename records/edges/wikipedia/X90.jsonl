@@ -1,0 +1,9 @@
+{"from":"wikipedia://en/14403539#UOWY","to":"wikipedia://en/58472078","predicate":"listed-in","method":"list","confidence":"certain","span":[42758,42778],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5653710","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[46,61],"revision":1317800207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5653710","to":"wikipedia://en/1140981","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[146,187],"revision":1317800207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5653710","to":"wikipedia://en/6436991","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[206,223],"revision":1317800207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5653710","to":"wikipedia://en/366808","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[289,317],"revision":1317800207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5653710","to":"Category:Knot theory","predicate":"in-field","method":"category","confidence":"medium","span":[5376,5400],"revision":1317800207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5653710","to":"Category:Algebraic structures","predicate":"in-field","method":"category","confidence":"medium","span":[5401,5434],"revision":1317800207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5653710","to":"Category:Ordered algebraic structures","predicate":"in-field","method":"category","confidence":"medium","span":[5435,5476],"revision":1317800207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5653710","to":"Category:Non-associative algebra","predicate":"in-field","method":"category","confidence":"medium","span":[5477,5513],"revision":1317800207,"by":"importer/wikipedia/1"}

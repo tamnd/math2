@@ -1,2 +1,4 @@
 {"id":"9V98ANNCFV","mentions":["m2://rec/austin_ula/index/2.5.4/transition-function#1"],"kind":"concept","name":"transition function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"9V98THRA0R","mentions":["m2://rec/wikidata/Q866364#1"],"kind":"unknown","name":"bisimulation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9V98THRA0R","mentions":["m2://rec/wikidata/Q866364#1","wikipedia://en/397571"],"kind":"definition","name":"bisimulation","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9V9ES53XXX","mentions":["wikipedia://en/1764022#K5GX"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9V9QGCEZNQ","mentions":["wikipedia://en/167008#HJ47"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

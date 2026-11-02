@@ -1,0 +1,6 @@
+{"from":"wikipedia://en/20830203","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[116,128],"revision":1243036624,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20830203","to":"wikipedia://en/4157120","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[234,273],"revision":1243036624,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20830203","to":"wikipedia://en/338046","predicate":"related","method":"link-in-text","confidence":"low","span":[787,806],"revision":1243036624,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20830203","to":"Category:Dual uniform polyhedra","predicate":"in-field","method":"category","confidence":"medium","span":[1358,1393],"revision":1243036624,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78730954#8GFQ","to":"wikipedia://en/205464","predicate":"listed-in","method":"list","confidence":"certain","span":[186956,187000],"revision":1375476640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78730954#8GFQ","to":"wikipedia://en/20377","predicate":"uses","method":"link-in-item","confidence":"medium","span":[187032,187050],"revision":1375476640,"by":"importer/wikipedia/1"}

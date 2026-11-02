@@ -1,1 +1,6 @@
-{"id":"QDND4G8JFM","mentions":["m2://rec/wikidata/Q2333151#1"],"kind":"object","name":"tau","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"QDNATMG77G","mentions":["wikipedia://en/93070#P0TS"],"kind":"statement","name":"Principle of computational equivalence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QDNBJS5Y16","mentions":["wikipedia://en/13763478#E9U4"],"kind":"definition","name":"Construction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QDND4G8JFM","mentions":["m2://rec/wikidata/Q2333151#1","wikipedia://en/32341736"],"kind":"object","name":"tau","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"QDNG8A19JZ","mentions":["wikipedia://en/191457#XT7S"],"kind":"definition","name":"Optimistic knowledge gradient","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QDNQX8EF0M","mentions":["wikipedia://en/8019439"],"kind":"definition","name":"Functional response","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QDNT1G1AX6","mentions":["wikipedia://en/3736547#VA5K"],"kind":"unknown","name":"Basic room purge equation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

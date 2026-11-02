@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/47738065#I4U0","to":"wikipedia://en/26392012","predicate":"listed-in","method":"list","confidence":"certain","span":[86619,86638],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52821475#J0IJ","to":"wikipedia://en/51474451","predicate":"uses","method":"link-in-item","confidence":"high","span":[1959,1975],"revision":1339182204,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52821475#J0IJ","to":"wikipedia://en/30330","predicate":"uses","method":"link-in-item","confidence":"high","span":[2433,2474],"revision":1339182204,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52821475#J0IJ","to":"wikipedia://en/14922","predicate":"uses","method":"link-in-item","confidence":"high","span":[2494,2501],"revision":1339182204,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52821475#J0IJ","to":"wikipedia://en/48631","predicate":"uses","method":"link-in-item","confidence":"high","span":[2510,2531],"revision":1339182204,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81246649","to":"wikipedia://en/50755624","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[406,454],"revision":1324846323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81246649","to":"wikipedia://en/6889","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[473,483],"revision":1324846323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81246649","to":"wikipedia://en/34244","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[520,534],"revision":1324846323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81246649","to":"wikipedia://en/20760","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[573,587],"revision":1324846323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81246649","to":"wikipedia://en/4829","predicate":"related","method":"link-in-text","confidence":"low","span":[1006,1017],"revision":1324846323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81246649","to":"wikipedia://en/34244","predicate":"related","method":"link-in-text","confidence":"low","span":[1041,1055],"revision":1324846323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81246649","to":"wikipedia://en/29265","predicate":"related","method":"link-in-text","confidence":"low","span":[1057,1067],"revision":1324846323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81246649","to":"wikipedia://en/17391","predicate":"related","method":"link-in-text","confidence":"low","span":[1247,1257],"revision":1324846323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81246649","to":"wikipedia://en/1508951","predicate":"related","method":"see-also","confidence":"low","span":[3198,3224],"revision":1324846323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81246649","to":"wikipedia://en/2414360","predicate":"related","method":"see-also","confidence":"low","span":[3227,3260],"revision":1324846323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81246649","to":"Category:Censuses in Serbia","predicate":"in-field","method":"category","confidence":"medium","span":[3540,3571],"revision":1324846323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81246649","to":"Category:2002 censuses","predicate":"in-field","method":"category","confidence":"medium","span":[3572,3598],"revision":1324846323,"by":"importer/wikipedia/1"}

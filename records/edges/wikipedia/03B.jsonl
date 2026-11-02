@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/11353703#DSX8","to":"wikipedia://en/34376416","predicate":"listed-in","method":"list","confidence":"certain","span":[23898,23918],"revision":1373003451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12830119#U0HM","to":"wikipedia://en/2083100","predicate":"listed-in","method":"list","confidence":"certain","span":[4123,4145],"revision":1274453818,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18404411#DZNX","to":"wikipedia://en/20598932","predicate":"uses","method":"link-in-item","confidence":"high","span":[1700,1717],"revision":1265508394,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18404411#DZNX","to":"wikipedia://en/294185","predicate":"uses","method":"link-in-item","confidence":"high","span":[1730,1753],"revision":1265508394,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18404411#DZNX","to":"wikipedia://en/145661","predicate":"uses","method":"link-in-item","confidence":"high","span":[1885,1898],"revision":1265508394,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18404411#DZNX","to":"wikipedia://en/11017946","predicate":"uses","method":"link-in-item","confidence":"high","span":[2106,2128],"revision":1265508394,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18404411#DZNX","to":"wikipedia://en/454959","predicate":"uses","method":"link-in-item","confidence":"high","span":[2167,2204],"revision":1265508394,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55841783","to":"wikipedia://en/27701","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[173,221],"revision":1339933677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55841783","to":"wikipedia://en/20913490","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[250,276],"revision":1339933677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55841783","to":"wikipedia://en/64474","predicate":"related","method":"link-in-text","confidence":"low","span":[443,460],"revision":1339933677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55841783","to":"wikipedia://en/19727024","predicate":"related","method":"link-in-text","confidence":"low","span":[854,873],"revision":1339933677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55841783","to":"wikipedia://en/4088382","predicate":"related","method":"link-in-text","confidence":"low","span":[1057,1077],"revision":1339933677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55841783","to":"wikipedia://en/635533","predicate":"related","method":"link-in-text","confidence":"low","span":[1246,1259],"revision":1339933677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55841783","to":"wikipedia://en/491903","predicate":"related","method":"link-in-text","confidence":"low","span":[1409,1434],"revision":1339933677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55841783","to":"wikipedia://en/491903","predicate":"related","method":"link-in-text","confidence":"low","span":[1739,1764],"revision":1339933677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55841783","to":"wikipedia://en/18908678","predicate":"related","method":"link-in-text","confidence":"low","span":[1788,1810],"revision":1339933677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55841783","to":"Category:Combinatorics on words","predicate":"in-field","method":"category","confidence":"medium","span":[7092,7127],"revision":1339933677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55841783","to":"Category:Theorems in combinatorics","predicate":"kind-of","method":"category","confidence":"medium","span":[7128,7166],"revision":1339933677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55841783","to":"Category:Conjectures that have been proved","predicate":"kind-of","method":"category","confidence":"medium","span":[7167,7213],"revision":1339933677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64669#UO1G","to":"wikipedia://en/7962","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[13280,13295],"revision":1373030169,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64669#UO1G","to":"wikipedia://en/18152","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[13317,13352],"revision":1373030169,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64669#UO1G","to":"wikipedia://en/18152","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[13699,13718],"revision":1373030169,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64669#UO1G","to":"wikipedia://en/7962","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[14826,14865],"revision":1373030169,"by":"importer/wikipedia/1"}

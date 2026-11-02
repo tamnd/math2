@@ -1,1 +1,3 @@
-{"id":"2NRAM6DFS1","mentions":["m2://rec/wikidata/Q249748#1"],"kind":"unknown","name":"spectral radius","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"2NR0EXTCE0","mentions":["wikipedia://en/22223909#UOHT"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"2NRAM6DFS1","mentions":["m2://rec/wikidata/Q249748#1","wikipedia://en/386169"],"kind":"definition","name":"spectral radius","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"2NRCBYMNND","mentions":["wikipedia://en/191457#SZJW"],"kind":"definition","name":"Ordered logit","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

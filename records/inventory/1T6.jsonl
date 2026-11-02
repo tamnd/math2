@@ -1,1 +1,8 @@
+{"id":"1T62WS1EXS","mentions":["wikipedia://en/4587226#B0RC"],"kind":"statement","name":"Proposition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1T64J03GV2","mentions":["ax://paper/2609.24314#IXXT"],"kind":"statement","msc":["14-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}],"proofs":["ax://paper/2609.24314#6ID2"]}
+{"id":"1T67V3QKCX","mentions":["wikipedia://en/191457#VFDF"],"kind":"definition","name":"Box–Cox transformation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1T6GA5VJ6T","mentions":["wikipedia://en/29528690#NKJ7"],"kind":"definition","name":"Integer","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1T6J6YYBQ5","mentions":["wikipedia://en/32592462#64GY"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1T6Q64P202","mentions":["wikipedia://en/26994422#FCUJ"],"kind":"definition","name":"Prym variety","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1T6WD86EGZ","mentions":["wikipedia://en/36643448#9C8C"],"kind":"statement","name":"Monsky's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1T6ZNX3WK8","mentions":["wikipedia://en/38256214#C1YF"],"kind":"definition","name":"étale","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

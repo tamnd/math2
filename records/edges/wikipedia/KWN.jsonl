@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/14114496#GQWE","to":"wikipedia://en/469760","predicate":"uses","method":"link-in-item","confidence":"high","span":[2238,2253],"revision":1359313493,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14114496#GQWE","to":"wikipedia://en/6239","predicate":"uses","method":"link-in-item","confidence":"high","span":[2259,2294],"revision":1359313493,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14114496#GQWE","to":"wikipedia://en/21014764","predicate":"generalizes","method":"link-in-item","confidence":"medium","span":[2816,2875],"revision":1359313493,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50722101#RLF5","to":"wikipedia://en/248635","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[6784,6815],"revision":1282395064,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50722101#RLF5","to":"wikipedia://en/605108","predicate":"related","method":"link-in-proof","confidence":"low","span":[7102,7123],"revision":1282395064,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50722101#RLF5","to":"wikipedia://en/39190","predicate":"related","method":"link-in-proof","confidence":"low","span":[7129,7149],"revision":1282395064,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78183128","to":"wikipedia://en/8605953","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[142,172],"revision":1361137794,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78183128","to":"wikipedia://en/450541","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[177,202],"revision":1361137794,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78183128","to":"wikipedia://en/401280","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[247,268],"revision":1361137794,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78183128","to":"wikipedia://en/52029","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[317,346],"revision":1361137794,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78183128","to":"wikipedia://en/51849458","predicate":"related","method":"link-in-text","confidence":"low","span":[1473,1482],"revision":1361137794,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78183128","to":"wikipedia://en/71486762","predicate":"related","method":"link-in-text","confidence":"low","span":[1487,1503],"revision":1361137794,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78183128","to":"wikipedia://en/87043","predicate":"related","method":"link-in-text","confidence":"low","span":[2382,2436],"revision":1361137794,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78183128","to":"wikipedia://en/87043","predicate":"related","method":"link-in-text","confidence":"low","span":[2569,2623],"revision":1361137794,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78183128","to":"Category:Academics of University College London","predicate":"in-field","method":"category","confidence":"medium","span":[2868,2919],"revision":1361137794,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78183128","to":"Category:Modern cryptographers","predicate":"in-field","method":"category","confidence":"medium","span":[2920,2954],"revision":1361137794,"by":"importer/wikipedia/1"}

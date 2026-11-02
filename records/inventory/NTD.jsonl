@@ -1,2 +1,8 @@
+{"id":"NTD33N77GD","mentions":["wikipedia://en/904940#IG99"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NTD40G31BG","mentions":["wikipedia://en/9258361"],"kind":"definition","name":"Ruppeiner geometry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NTDCQA6V93","mentions":["m2://rec/hott_book/hlevels.tex#lem:hfiber_wrt_pullback#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"NTDZ1NZQ3F","mentions":["m2://rec/wikidata/Q25100123#1"],"kind":"unknown","name":"circular triangle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"NTDHS2G0S7","mentions":["wikipedia://en/234854#A502"],"kind":"statement","name":"Cavalieri's quadrature formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NTDJCPXQXM","mentions":["wikipedia://en/1403586#BYEM"],"kind":"unknown","name":"Glenn T. Seaborg","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NTDTM7YMH3","mentions":["wikipedia://en/2287686"],"kind":"definition","name":"ESTREAM","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NTDXQ0DXY1","mentions":["wikipedia://en/56014543"],"kind":"topic","name":"Tian Zheng","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NTDZ1NZQ3F","mentions":["m2://rec/wikidata/Q25100123#1","wikipedia://en/48574319"],"kind":"definition","name":"circular triangle","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

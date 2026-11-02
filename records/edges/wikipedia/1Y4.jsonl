@@ -1,0 +1,35 @@
+{"from":"wikipedia://en/140829#8JAD","to":"wikipedia://en/4291645","predicate":"listed-in","method":"list","confidence":"certain","span":[31132,31166],"revision":1372044875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/251424#FSPG","to":"wikipedia://en/654098","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[28453,28474],"revision":1370098282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/251424#FSPG","to":"wikipedia://en/52405621","predicate":"uses","method":"link-in-item","confidence":"high","span":[28673,28701],"revision":1370098282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4183051","to":"wikipedia://en/366719","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[87,110],"revision":1213447659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4183051","to":"wikipedia://en/60876","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[171,189],"revision":1213447659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4183051","to":"Template:Stochastic processes","predicate":"in-nav","method":"nav","confidence":"low","span":[2622,2646],"revision":1213447659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4183051","to":"Category:Markov processes","predicate":"in-field","method":"category","confidence":"medium","span":[2648,2677],"revision":1213447659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64453657","to":"wikipedia://en/34198","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[213,220],"revision":1363091727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64453657","to":"wikipedia://en/47772","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[221,253],"revision":1363091727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64453657","to":"wikipedia://en/19553","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[264,283],"revision":1363091727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64453657","to":"wikipedia://en/14617","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[289,298],"revision":1363091727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64453657","to":"wikipedia://en/20556859","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[319,352],"revision":1363091727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64453657","to":"wikipedia://en/1164","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[367,394],"revision":1363091727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64453657","to":"wikipedia://en/233488","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[404,424],"revision":1363091727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64453657","to":"wikipedia://en/24107400","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[719,796],"revision":1363091727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64453657","to":"wikipedia://en/654611","predicate":"related","method":"link-in-text","confidence":"low","span":[5988,5996],"revision":1363091727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64453657","to":"wikipedia://en/12323","predicate":"related","method":"link-in-text","confidence":"low","span":[7070,7101],"revision":1363091727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64453657","to":"wikipedia://en/863402","predicate":"related","method":"link-in-text","confidence":"low","span":[7720,7737],"revision":1363091727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64453657","to":"wikipedia://en/324364","predicate":"related","method":"link-in-text","confidence":"low","span":[8046,8055],"revision":1363091727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64453657","to":"wikipedia://en/21347315","predicate":"related","method":"link-in-text","confidence":"low","span":[8350,8366],"revision":1363091727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64453657","to":"wikipedia://en/22507770","predicate":"related","method":"link-in-text","confidence":"low","span":[8635,8653],"revision":1363091727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64453657","to":"wikipedia://en/8175258","predicate":"related","method":"link-in-text","confidence":"low","span":[8702,8710],"revision":1363091727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64453657","to":"Category:X86 instructions","predicate":"in-field","method":"category","confidence":"medium","span":[9302,9331],"revision":1363091727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64453657","to":"Category:SIMD computing","predicate":"in-field","method":"category","confidence":"medium","span":[9332,9359],"revision":1363091727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64453657","to":"Category:AMD technologies","predicate":"in-field","method":"category","confidence":"medium","span":[9360,9389],"revision":1363091727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64453657","to":"Category:Instruction set extensions","predicate":"in-field","method":"category","confidence":"medium","span":[9390,9429],"revision":1363091727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65907625","to":"wikipedia://en/364774","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[203,229],"revision":1327464071,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65907625","to":"wikipedia://en/2695536","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[257,298],"revision":1327464071,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65907625","to":"wikipedia://en/348029","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[433,473],"revision":1327464071,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65907625","to":"wikipedia://en/4791570","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[524,537],"revision":1327464071,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65907625","to":"wikipedia://en/54423","predicate":"related","method":"link-in-text","confidence":"low","span":[7079,7099],"revision":1327464071,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65907625","to":"wikipedia://en/20646438","predicate":"related","method":"link-in-text","confidence":"low","span":[8344,8359],"revision":1327464071,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65907625","to":"wikipedia://en/256738","predicate":"related","method":"link-in-text","confidence":"low","span":[9390,9406],"revision":1327464071,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65907625","to":"Category:Conformal field theory","predicate":"in-field","method":"category","confidence":"medium","span":[9575,9610],"revision":1327464071,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/705014#E4I3","to":"wikipedia://en/34956805","predicate":"listed-in","method":"list","confidence":"certain","span":[943,969],"revision":1362125744,"by":"importer/wikipedia/1"}

@@ -1,0 +1,19 @@
+{"from":"wikipedia://en/22965731","to":"wikipedia://en/16805291","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[949,970],"revision":1345610716,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22965731","to":"wikipedia://en/8096647","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[979,1019],"revision":1345610716,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22965731","to":"wikipedia://en/23542","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1075,1097],"revision":1345610716,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22965731","to":"wikipedia://en/14785295","predicate":"related","method":"link-in-text","confidence":"low","span":[1122,1138],"revision":1345610716,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22965731","to":"wikipedia://en/22716684","predicate":"related","method":"link-in-text","confidence":"low","span":[1158,1179],"revision":1345610716,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22965731","to":"wikipedia://en/45608368","predicate":"related","method":"link-in-text","confidence":"low","span":[1199,1223],"revision":1345610716,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22965731","to":"Category:Probability journals","predicate":"in-field","method":"category","confidence":"medium","span":[1395,1428],"revision":1345610716,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22965731","to":"Category:Academic journals established in 2004","predicate":"in-field","method":"category","confidence":"medium","span":[1429,1479],"revision":1345610716,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22965731","to":"Category:Institute of Mathematical Statistics academic journals","predicate":"in-field","method":"category","confidence":"medium","span":[1480,1547],"revision":1345610716,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/241820#9L3G","to":"wikipedia://en/2863719","predicate":"listed-in","method":"list","confidence":"certain","span":[13439,13459],"revision":1375503641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/347694#DENZ","to":"wikipedia://en/1707756","predicate":"listed-in","method":"list","confidence":"certain","span":[1749,1776],"revision":1333050089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/603782#IUIN","to":"wikipedia://en/242135","predicate":"uses","method":"link-in-item","confidence":"high","span":[1818,1838],"revision":1373926170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/603782#IUIN","to":"wikipedia://en/61346","predicate":"uses","method":"link-in-item","confidence":"high","span":[1870,1890],"revision":1373926170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/603782#IUIN","to":"wikipedia://en/35457783","predicate":"related","method":"link-in-item","confidence":"low","span":[1919,1943],"revision":1373926170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/603782#IUIN","to":"wikipedia://en/35033819","predicate":"uses","method":"link-in-item","confidence":"high","span":[2025,2049],"revision":1373926170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/603782#IUIN","to":"wikipedia://en/320468","predicate":"uses","method":"link-in-item","confidence":"high","span":[2182,2217],"revision":1373926170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/603782#IUIN","to":"wikipedia://en/56371096","predicate":"uses","method":"link-in-item","confidence":"high","span":[2313,2332],"revision":1373926170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/603782#IUIN","to":"wikipedia://en/298834","predicate":"uses","method":"link-in-item","confidence":"high","span":[2440,2455],"revision":1373926170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/876428#CXMP","to":"wikipedia://en/5380138","predicate":"related","method":"link-in-item","confidence":"low","span":[27773,27790],"revision":1377262895,"by":"importer/wikipedia/1"}

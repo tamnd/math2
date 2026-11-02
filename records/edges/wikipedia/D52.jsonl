@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/11492969","to":"wikipedia://en/186101","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,23],"revision":1166597749,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11492969","to":"wikipedia://en/509742","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[122,142],"revision":1166597749,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11492969","to":"wikipedia://en/142432","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[169,204],"revision":1166597749,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11492969","to":"wikipedia://en/2073470","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[210,245],"revision":1166597749,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11492969","to":"wikipedia://en/8562","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[249,274],"revision":1166597749,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11492969","to":"Category:Complex manifolds","predicate":"in-field","method":"category","confidence":"medium","span":[2344,2374],"revision":1166597749,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11492969","to":"Category:Several complex variables","predicate":"in-field","method":"category","confidence":"medium","span":[2375,2413],"revision":1166597749,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11492969","to":"Category:Homology theory","predicate":"in-field","method":"category","confidence":"medium","span":[2414,2442],"revision":1166597749,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29232472#GI20","to":"wikipedia://en/4083815","predicate":"listed-in","method":"list","confidence":"certain","span":[8155,8175],"revision":1365581962,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7988#5J4O","to":"wikipedia://en/13637","predicate":"uses","method":"link-in-item","confidence":"high","span":[30569,30598],"revision":1362486804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7988#5J4O","to":"wikipedia://en/45752","predicate":"uses","method":"link-in-item","confidence":"high","span":[30599,30627],"revision":1362486804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7988#5J4O","to":"wikipedia://en/53695856","predicate":"uses","method":"link-in-item","confidence":"high","span":[30733,30781],"revision":1362486804,"by":"importer/wikipedia/1"}

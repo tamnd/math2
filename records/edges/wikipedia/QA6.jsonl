@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/1761690","to":"wikipedia://en/186101","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[78,98],"revision":1332803503,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1761690","to":"wikipedia://en/186101","predicate":"related","method":"link-in-text","confidence":"low","span":[1094,1114],"revision":1332803503,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1761690","to":"wikipedia://en/5759","predicate":"related","method":"link-in-text","confidence":"low","span":[1119,1148],"revision":1332803503,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1761690","to":"wikipedia://en/245568","predicate":"related","method":"link-in-text","confidence":"low","span":[1164,1193],"revision":1332803503,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1761690","to":"wikipedia://en/185427","predicate":"related","method":"link-in-text","confidence":"low","span":[1258,1293],"revision":1332803503,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1761690","to":"wikipedia://en/3237359","predicate":"related","method":"link-in-text","confidence":"low","span":[1405,1430],"revision":1332803503,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1761690","to":"wikipedia://en/2519085","predicate":"related","method":"link-in-text","confidence":"low","span":[1439,1469],"revision":1332803503,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1761690","to":"wikipedia://en/3237201","predicate":"related","method":"link-in-text","confidence":"low","span":[1680,1699],"revision":1332803503,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1761690","to":"Category:Complex analysis","predicate":"in-field","method":"category","confidence":"medium","span":[2159,2188],"revision":1332803503,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1761690","to":"Category:Convex analysis","predicate":"in-field","method":"category","confidence":"medium","span":[2189,2217],"revision":1332803503,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/483720#KGAF","to":"wikipedia://en/23000","predicate":"uses","method":"link-in-item","confidence":"high","span":[360,375],"revision":1226046252,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/483720#KGAF","to":"wikipedia://en/146806","predicate":"uses","method":"link-in-item","confidence":"high","span":[393,416],"revision":1226046252,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/483720#KGAF","to":"wikipedia://en/32811718","predicate":"uses","method":"link-in-item","confidence":"high","span":[1112,1181],"revision":1226046252,"by":"importer/wikipedia/1"}

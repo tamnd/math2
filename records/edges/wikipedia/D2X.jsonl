@@ -1,0 +1,26 @@
+{"from":"wikipedia://en/18409802","to":"wikipedia://en/185793","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[256,287],"revision":1311520402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18409802","to":"wikipedia://en/3878","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[291,330],"revision":1311520402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18409802","to":"wikipedia://en/7954422","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[334,356],"revision":1311520402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18409802","to":"wikipedia://en/17904","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[544,567],"revision":1311520402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18409802","to":"wikipedia://en/4521038","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[572,605],"revision":1311520402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18409802","to":"wikipedia://en/6709643","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[696,770],"revision":1311520402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18409802","to":"wikipedia://en/20556859","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1112,1151],"revision":1311520402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18409802","to":"wikipedia://en/3734085","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1255,1274],"revision":1311520402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18409802","to":"wikipedia://en/14973","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1300,1320],"revision":1311520402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18409802","to":"wikipedia://en/32776","predicate":"related","method":"link-in-text","confidence":"low","span":[1346,1383],"revision":1311520402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18409802","to":"wikipedia://en/7954422","predicate":"related","method":"link-in-text","confidence":"low","span":[1456,1478],"revision":1311520402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18409802","to":"wikipedia://en/464751","predicate":"related","method":"link-in-text","confidence":"low","span":[1495,1519],"revision":1311520402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18409802","to":"wikipedia://en/23619403","predicate":"related","method":"link-in-text","confidence":"low","span":[1612,1639],"revision":1311520402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18409802","to":"wikipedia://en/7541880","predicate":"related","method":"link-in-text","confidence":"low","span":[1854,1900],"revision":1311520402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18409802","to":"wikipedia://en/8339335","predicate":"related","method":"link-in-text","confidence":"low","span":[1908,1945],"revision":1311520402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18409802","to":"wikipedia://en/341988","predicate":"related","method":"link-in-text","confidence":"low","span":[1955,1991],"revision":1311520402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18409802","to":"wikipedia://en/552664","predicate":"related","method":"link-in-text","confidence":"low","span":[2001,2030],"revision":1311520402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18409802","to":"wikipedia://en/3660773","predicate":"related","method":"link-in-text","confidence":"low","span":[2049,2081],"revision":1311520402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18409802","to":"Category:New Zealand mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[37855,37894],"revision":1311520402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18409802","to":"Category:New Zealand statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[37895,37933],"revision":1311520402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18409802","to":"Category:Biostatisticians","predicate":"in-field","method":"category","confidence":"medium","span":[37934,37963],"revision":1311520402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18409802","to":"Category:Writers from Ithaca, New York","predicate":"in-field","method":"category","confidence":"medium","span":[38075,38117],"revision":1311520402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#A4D2","to":"wikipedia://en/28733","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[67367,67384],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#2HHH","to":"wikipedia://en/60517925","predicate":"listed-in","method":"list","confidence":"certain","span":[98903,98921],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#4DCT","to":"wikipedia://en/3130668","predicate":"listed-in","method":"list","confidence":"certain","span":[11760,11805],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51140705#MWWB","to":"wikipedia://en/63376785","predicate":"listed-in","method":"list","confidence":"certain","span":[34887,34903],"revision":1369875693,"by":"importer/wikipedia/1"}

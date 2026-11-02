@@ -1,1 +1,5 @@
-{"id":"545KBHNBR7","mentions":["m2://rec/mathlib_1000/Q6957141#1","m2://rec/thousand_plus/Q6957141#1"],"kind":"statement","name":"Nachbin's theorem","msc":["30-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"5452PQ1QCH","mentions":["wikipedia://en/74122214#NGS6"],"kind":"statement","name":"Special cases","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5453K24BNY","mentions":["wikipedia://en/8838575"],"kind":"topic","name":"Nicholas Kratzer","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"545B15X6FQ","mentions":["wikipedia://en/51256429"],"kind":"topic","name":"David Arnold","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"545KBHNBR7","mentions":["m2://rec/mathlib_1000/Q6957141#1","m2://rec/thousand_plus/Q6957141#1","wikipedia://en/4081361"],"kind":"statement","name":"Nachbin's theorem","msc":["30-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"545Z87ZAQT","mentions":["wikipedia://en/1669473"],"kind":"definition","name":"Image plane","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,0 +1,7 @@
+{"from":"wikipedia://en/15234505","to":"wikipedia://en/6617","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[191,242],"revision":1247872446,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15234505","to":"wikipedia://en/148721","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[246,291],"revision":1247872446,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15234505","to":"wikipedia://en/469304","predicate":"related","method":"see-also","confidence":"low","span":[1113,1132],"revision":1247872446,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15234505","to":"wikipedia://en/24764","predicate":"related","method":"see-also","confidence":"low","span":[1135,1157],"revision":1247872446,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15234505","to":"Category:General topology","predicate":"in-field","method":"category","confidence":"medium","span":[1500,1529],"revision":1247872446,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15234505","to":"Category:Compactification (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[1530,1573],"revision":1247872446,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#SCKS","to":"wikipedia://en/2976742","predicate":"listed-in","method":"list","confidence":"certain","span":[55864,55884],"revision":1373230097,"by":"importer/wikipedia/1"}

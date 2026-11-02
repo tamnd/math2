@@ -1,1 +1,7 @@
 {"id":"S9Q2N3TGMQ","mentions":["ax://paper/2309.08900#K8ID"],"kind":"statement","msc":["46-XX","47-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.0"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.0"}]}
+{"id":"S9Q2R4JC53","mentions":["wikipedia://en/43590"],"kind":"definition","name":"Flux","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"S9Q7G239KN","mentions":["wikipedia://en/39563465#0JSW"],"kind":"unknown","name":"KIVA","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"S9Q8NDNBMP","mentions":["wikipedia://en/14699638"],"kind":"topic","name":"Karl Hessenberg","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"S9QB9RW031","mentions":["wikipedia://en/80503#JR0O"],"kind":"unknown","name":"Radix character","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"S9QMT5WPHN","mentions":["wikipedia://en/2481686"],"kind":"definition","name":"Kramers–Kronig relations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"S9QNRM6815","mentions":["wikipedia://en/3657365#4GWY"],"kind":"unknown","name":"Limit of inquiry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,1 +1,5 @@
+{"id":"1H552VEHKB","mentions":["wikipedia://en/47738065#ODPV"],"kind":"topic","name":"R. L. Graham","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1H5BMJQPMF","mentions":["wikipedia://en/11256383"],"kind":"definition","name":"Donaldson invariant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1H5EBAZKNR","mentions":["ax://paper/2609.28265#GQDS"],"kind":"example","msc":["05-XX","11-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}
+{"id":"1H5FMVDMF4","mentions":["wikipedia://en/283007#SXC0"],"kind":"statement","name":"Special cases","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1H5JDAN6W3","mentions":["wikipedia://en/51140705#9H7M"],"kind":"unknown","name":"Donald A. Berry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

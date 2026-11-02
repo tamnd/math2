@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/39378034","to":"wikipedia://en/325806","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[44,82],"revision":993195464,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39378034","to":"wikipedia://en/325806","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[133,171],"revision":993195464,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39378034","to":"wikipedia://en/3124950","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[203,241],"revision":993195464,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39378034","to":"wikipedia://en/85816","predicate":"related","method":"link-in-text","confidence":"low","span":[1853,1871],"revision":993195464,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39378034","to":"wikipedia://en/4587190","predicate":"related","method":"link-in-text","confidence":"low","span":[2067,2081],"revision":993195464,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39378034","to":"wikipedia://en/878962","predicate":"related","method":"link-in-text","confidence":"low","span":[2306,2321],"revision":993195464,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39378034","to":"wikipedia://en/7566175","predicate":"related","method":"link-in-text","confidence":"low","span":[2476,2516],"revision":993195464,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39378034","to":"Category:Algebraic graph theory","predicate":"in-field","method":"category","confidence":"medium","span":[3535,3570],"revision":993195464,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39378034","to":"Category:Graph invariants","predicate":"in-field","method":"category","confidence":"medium","span":[3571,3600],"revision":993195464,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58540359#PRMC","to":"wikipedia://en/54681","predicate":"listed-in","method":"list","confidence":"certain","span":[11095,11118],"revision":1360704274,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58540359#PRMC","to":"wikipedia://en/3269567","predicate":"uses","method":"link-in-item","confidence":"medium","span":[11180,11201],"revision":1360704274,"by":"importer/wikipedia/1"}

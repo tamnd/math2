@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/28096905","to":"wikipedia://en/2515425","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[98,143],"revision":1348688783,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28096905","to":"wikipedia://en/62844","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[151,186],"revision":1348688783,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28096905","to":"wikipedia://en/28096792","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[210,228],"revision":1348688783,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28096905","to":"wikipedia://en/29975400","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[953,997],"revision":1348688783,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28096905","to":"wikipedia://en/5290513","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1089,1110],"revision":1348688783,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28096905","to":"Category:Inequalities (mathematics)","predicate":"kind-of","method":"category","confidence":"medium","span":[3776,3815],"revision":1348688783,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62853314#2Z0B","to":"wikipedia://en/683726","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[3734,3753],"revision":1270551131,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75051208","to":"wikipedia://en/2499813","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[226,247],"revision":1341497548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75051208","to":"wikipedia://en/7859676","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[249,265],"revision":1341497548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75051208","to":"wikipedia://en/241717","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[281,300],"revision":1341497548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75051208","to":"wikipedia://en/177698","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[306,330],"revision":1341497548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75051208","to":"wikipedia://en/35281209","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[398,414],"revision":1341497548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75051208","to":"wikipedia://en/1617671","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[552,603],"revision":1341497548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75051208","to":"wikipedia://en/34273","predicate":"related","method":"link-in-text","confidence":"low","span":[669,688],"revision":1341497548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75051208","to":"wikipedia://en/493992","predicate":"related","method":"link-in-text","confidence":"low","span":[701,714],"revision":1341497548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75051208","to":"wikipedia://en/1562949","predicate":"related","method":"link-in-text","confidence":"low","span":[765,810],"revision":1341497548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75051208","to":"wikipedia://en/698042","predicate":"related","method":"link-in-text","confidence":"low","span":[1059,1092],"revision":1341497548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75051208","to":"wikipedia://en/6310","predicate":"related","method":"link-in-text","confidence":"low","span":[1157,1180],"revision":1341497548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75051208","to":"wikipedia://en/2037203","predicate":"related","method":"link-in-text","confidence":"low","span":[1283,1348],"revision":1341497548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75051208","to":"wikipedia://en/51140705","predicate":"related","method":"link-in-text","confidence":"low","span":[1884,1934],"revision":1341497548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75051208","to":"Category:American biostatisticians","predicate":"in-field","method":"category","confidence":"medium","span":[3301,3339],"revision":1341497548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75051208","to":"Category:American women statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[3340,3381],"revision":1341497548,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75051208","to":"Category:21st-century American statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[3766,3814],"revision":1341497548,"by":"importer/wikipedia/1"}

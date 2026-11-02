@@ -1,1 +1,5 @@
-{"id":"MCZJR4YVDK","mentions":["m2://rec/wikidata/Q2569069#1"],"kind":"unknown","name":"sangaku","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"MCZ87ZD0D3","mentions":["wikipedia://en/14403539#0OI1","wikipedia://en/47738065#MS6P"],"kind":"topic","name":"Jacob Lurie","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"MCZA42QQQ3","mentions":["wikipedia://en/38771161#NY6H"],"kind":"statement","name":"Generalizations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"MCZG976Y97","mentions":["wikipedia://en/40813200"],"kind":"topic","name":"Svetlana Katok","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"MCZJR4YVDK","mentions":["m2://rec/wikidata/Q2569069#1","wikipedia://en/1055365"],"kind":"definition","name":"sangaku","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"MCZXKHY3A3","mentions":["wikipedia://en/52572510"],"kind":"topic","name":"Ami Radunskaya","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

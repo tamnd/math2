@@ -1,0 +1,20 @@
+{"from":"wikipedia://en/10308785#V2VW","to":"wikipedia://en/147912","predicate":"restates","method":"hatnote","confidence":"high","span":[5324,5334],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785#V2VW","to":"wikipedia://en/4300321","predicate":"restates","method":"hatnote","confidence":"high","span":[5829,5844],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785#V2VW","to":"wikipedia://en/209128","predicate":"restates","method":"hatnote","confidence":"high","span":[6394,6407],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785#V2VW","to":"wikipedia://en/147912","predicate":"restates","method":"hatnote","confidence":"high","span":[6740,6750],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25334192","to":"wikipedia://en/276410","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[27,44],"revision":1350455074,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25334192","to":"wikipedia://en/276410","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[83,115],"revision":1350455074,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25334192","to":"wikipedia://en/70361989","predicate":"related","method":"link-in-lead","confidence":"low","span":[191,221],"revision":1350455074,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25334192","to":"wikipedia://en/251424","predicate":"related","method":"link-in-lead","confidence":"low","span":[227,254],"revision":1350455074,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25334192","to":"wikipedia://en/55799101","predicate":"related","method":"link-in-lead","confidence":"low","span":[260,297],"revision":1350455074,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25334192","to":"wikipedia://en/25334192","predicate":"uses","method":"anchor","confidence":"certain","span":[331,343],"revision":1350455074,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25334192","to":"Category:Glossaries of mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[21104,21149],"revision":1350455074,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25334192","to":"Category:Module theory","predicate":"in-field","method":"category","confidence":"medium","span":[21150,21178],"revision":1350455074,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28980648","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[49,77],"revision":1310003634,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28980648","to":"wikipedia://en/41890","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[78,94],"revision":1310003634,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28980648","to":"wikipedia://en/9667107","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[316,374],"revision":1310003634,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28980648","to":"wikipedia://en/1630483","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[392,407],"revision":1310003634,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28980648","to":"wikipedia://en/12695","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[420,459],"revision":1310003634,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28980648","to":"wikipedia://en/893516","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[465,506],"revision":1310003634,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28980648","to":"Category:Theorems in group theory","predicate":"kind-of","method":"category","confidence":"medium","span":[2470,2507],"revision":1310003634,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28980648","to":"Category:Number theory","predicate":"in-field","method":"category","confidence":"medium","span":[2508,2534],"revision":1310003634,"by":"importer/wikipedia/1"}

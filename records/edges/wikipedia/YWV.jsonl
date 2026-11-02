@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/100303#SF4H","to":"wikipedia://en/15807","predicate":"listed-in","method":"list","confidence":"certain","span":[7461,7495],"revision":1339661902,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12830119#RNHV","to":"wikipedia://en/69736905","predicate":"listed-in","method":"list","confidence":"certain","span":[5355,5383],"revision":1274453818,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2142850#Q3AK","to":"wikipedia://en/504458","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[4096,4136],"revision":1363373483,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565351#SIUD","to":"wikipedia://en/117183","predicate":"listed-in","method":"list","confidence":"certain","span":[21526,21550],"revision":1373350261,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/527369#DJ9G","to":"wikipedia://en/339396","predicate":"listed-in","method":"list","confidence":"certain","span":[3770,3802],"revision":1375679821,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61288310","to":"wikipedia://en/385510","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1406,1424],"revision":1341500081,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61288310","to":"wikipedia://en/57659","predicate":"related","method":"link-in-text","confidence":"low","span":[1719,1743],"revision":1341500081,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61288310","to":"wikipedia://en/566481","predicate":"related","method":"link-in-text","confidence":"low","span":[2223,2238],"revision":1341500081,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61288310","to":"wikipedia://en/188886","predicate":"related","method":"link-in-text","confidence":"low","span":[2317,2330],"revision":1341500081,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61288310","to":"Category:Tunisian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3537,3573],"revision":1341500081,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6583188#3DDQ","to":"wikipedia://en/579311","predicate":"uses","method":"link-in-item","confidence":"high","span":[3508,3537],"revision":1323277034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6583188#3DDQ","to":"wikipedia://en/330206","predicate":"uses","method":"link-in-item","confidence":"high","span":[3563,3589],"revision":1323277034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6583188#3DDQ","to":"wikipedia://en/18102","predicate":"uses","method":"link-in-item","confidence":"high","span":[3914,3928],"revision":1323277034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/689895#P7OH","to":"wikipedia://en/5351448","predicate":"restates","method":"hatnote","confidence":"high","span":[19267,19298],"revision":1371841995,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/689895#P7OH","to":"wikipedia://en/1488195","predicate":"uses","method":"link-in-item","confidence":"medium","span":[19679,19724],"revision":1371841995,"by":"importer/wikipedia/1"}

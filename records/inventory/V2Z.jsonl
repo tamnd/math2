@@ -1,1 +1,3 @@
 {"id":"V2Z4NFQR6Q","mentions":["m2://rec/lebl_scv/index/D/isomorphism#1"],"kind":"concept","name":"isomorphism","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"V2ZHM68BGC","mentions":["wikipedia://en/20425855"],"kind":"definition","name":"Elementary Calculus: An Infinitesimal Approach","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"V2ZSWZYQ9H","mentions":["wikipedia://en/18568#E9R2"],"kind":"unknown","name":"Euclidean distance transform","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

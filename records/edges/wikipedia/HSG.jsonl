@@ -1,0 +1,31 @@
+{"from":"wikipedia://en/19335333","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[163,175],"revision":1033128265,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19335333","to":"wikipedia://en/250820","predicate":"related","method":"link-in-lead","confidence":"low","span":[237,265],"revision":1033128265,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19335333","to":"wikipedia://en/6220","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[323,334],"revision":1033128265,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19335333","to":"wikipedia://en/55620821","predicate":"related","method":"see-also","confidence":"low","span":[1569,1626],"revision":1033128265,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19335333","to":"wikipedia://en/19334397","predicate":"related","method":"see-also","confidence":"low","span":[1629,1653],"revision":1033128265,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19335333","to":"wikipedia://en/19335221","predicate":"related","method":"see-also","confidence":"low","span":[1656,1688],"revision":1033128265,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19335333","to":"Category:Theorems about circles","predicate":"kind-of","method":"category","confidence":"medium","span":[2603,2638],"revision":1033128265,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56055774","to":"wikipedia://en/510795","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[141,176],"revision":1332362563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56055774","to":"wikipedia://en/1495641","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[267,288],"revision":1332362563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56055774","to":"wikipedia://en/56058998","predicate":"related","method":"link-in-lead","confidence":"low","span":[718,754],"revision":1332362563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56055774","to":"wikipedia://en/1835316","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[809,860],"revision":1332362563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56055774","to":"wikipedia://en/520890","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1278,1292],"revision":1332362563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56055774","to":"wikipedia://en/11920127","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1701,1769],"revision":1332362563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56055774","to":"wikipedia://en/207886","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1953,1967],"revision":1332362563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56055774","to":"Template:S-start","predicate":"in-nav","method":"nav","confidence":"low","span":[2024,2035],"revision":1332362563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56055774","to":"Template:S-aca","predicate":"in-nav","method":"nav","confidence":"low","span":[2036,2045],"revision":1332362563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56055774","to":"Template:Succession box","predicate":"in-nav","method":"nav","confidence":"low","span":[2046,2279],"revision":1332362563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56055774","to":"Template:S-end","predicate":"in-nav","method":"nav","confidence":"low","span":[2280,2289],"revision":1332362563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56055774","to":"Category:Date of birth uncertain","predicate":"in-field","method":"category","confidence":"medium","span":[2342,2378],"revision":1332362563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56055774","to":"Category:18th-century British mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2404,2452],"revision":1332362563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56055774","to":"Category:18th-century British writers","predicate":"in-field","method":"category","confidence":"medium","span":[2453,2494],"revision":1332362563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56055774","to":"Category:Rectors of the University of Aberdeen","predicate":"in-field","method":"category","confidence":"medium","span":[2495,2545],"revision":1332362563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63773348","to":"wikipedia://en/6889","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[163,173],"revision":1310365255,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63773348","to":"wikipedia://en/28222445","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[236,247],"revision":1310365255,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63773348","to":"wikipedia://en/31090617","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[251,273],"revision":1310365255,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63773348","to":"wikipedia://en/9389","predicate":"related","method":"see-also","confidence":"low","span":[779,806],"revision":1310365255,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63773348","to":"Category:Censuses in Estonia","predicate":"in-field","method":"category","confidence":"medium","span":[1019,1051],"revision":1310365255,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63773348","to":"Category:Demographics of Estonia","predicate":"in-field","method":"category","confidence":"medium","span":[1052,1088],"revision":1310365255,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63773348","to":"Category:Ethnic groups in Estonia","predicate":"in-field","method":"category","confidence":"medium","span":[1089,1126],"revision":1310365255,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63773348","to":"Category:2000 in Estonia","predicate":"in-field","method":"category","confidence":"medium","span":[1127,1155],"revision":1310365255,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63773348","to":"Category:2000 censuses","predicate":"in-field","method":"category","confidence":"medium","span":[1156,1190],"revision":1310365255,"by":"importer/wikipedia/1"}

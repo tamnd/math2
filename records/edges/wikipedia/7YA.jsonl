@@ -1,0 +1,34 @@
+{"from":"wikipedia://en/1383726","to":"wikipedia://en/308198","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[381,393],"revision":1246394203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1383726","to":"wikipedia://en/32927","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[433,449],"revision":1246394203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1383726","to":"wikipedia://en/236104","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[470,496],"revision":1246394203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1383726","to":"wikipedia://en/16851","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[679,691],"revision":1246394203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1383726","to":"wikipedia://en/22040012","predicate":"related","method":"see-also","confidence":"low","span":[1379,1404],"revision":1246394203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1383726","to":"wikipedia://en/50373","predicate":"related","method":"see-also","confidence":"low","span":[1415,1440],"revision":1246394203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1383726","to":"Template:Cryptography navbox","predicate":"in-nav","method":"nav","confidence":"low","span":[2416,2450],"revision":1246394203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1383726","to":"Template:Commonscat","predicate":"in-nav","method":"nav","confidence":"low","span":[2452,2487],"revision":1246394203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1383726","to":"Category:Encryption devices","predicate":"in-field","method":"category","confidence":"medium","span":[2488,2519],"revision":1246394203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1383726","to":"Category:World War II Japanese cryptography","predicate":"in-field","method":"category","confidence":"medium","span":[2520,2567],"revision":1246394203,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25144285#RG0O","to":"wikipedia://en/1212631","predicate":"uses","method":"link-in-item","confidence":"high","span":[2508,2521],"revision":1294408142,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/297493#JTES","to":"wikipedia://en/4276393","predicate":"uses","method":"link-in-item","confidence":"high","span":[6290,6345],"revision":1353739230,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/297493#JTES","to":"wikipedia://en/61839","predicate":"uses","method":"link-in-item","confidence":"high","span":[7199,7222],"revision":1353739230,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/297493#JTES","to":"wikipedia://en/12505519","predicate":"uses","method":"link-in-item","confidence":"high","span":[7276,7292],"revision":1353739230,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/319484","to":"wikipedia://en/18717261","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[360,376],"revision":1348492199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/319484","to":"wikipedia://en/30654","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[598,610],"revision":1348492199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/319484","to":"wikipedia://en/30367","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[895,930],"revision":1348492199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/319484","to":"wikipedia://en/113222","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1109,1125],"revision":1348492199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/319484","to":"wikipedia://en/19480890","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1133,1151],"revision":1348492199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/319484","to":"wikipedia://en/1189485","predicate":"related","method":"link-in-text","confidence":"low","span":[4785,4800],"revision":1348492199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/319484","to":"wikipedia://en/6328738","predicate":"related","method":"link-in-text","confidence":"low","span":[5088,5139],"revision":1348492199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/319484","to":"wikipedia://en/3304216","predicate":"related","method":"link-in-text","confidence":"low","span":[5320,5375],"revision":1348492199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/319484","to":"wikipedia://en/33642424","predicate":"related","method":"link-in-text","confidence":"low","span":[5376,5400],"revision":1348492199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/319484","to":"wikipedia://en/194131","predicate":"generalizes","method":"link-in-text","confidence":"medium","span":[6279,6303],"revision":1348492199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/319484","to":"wikipedia://en/113222","predicate":"related","method":"see-also","confidence":"low","span":[7029,7045],"revision":1348492199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/319484","to":"wikipedia://en/19480890","predicate":"related","method":"see-also","confidence":"low","span":[7048,7066],"revision":1348492199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/319484","to":"wikipedia://en/32376357","predicate":"related","method":"see-also","confidence":"low","span":[7069,7090],"revision":1348492199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/319484","to":"wikipedia://en/22213676","predicate":"related","method":"see-also","confidence":"low","span":[7093,7116],"revision":1348492199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/319484","to":"wikipedia://en/26563388","predicate":"related","method":"see-also","confidence":"low","span":[7119,7140],"revision":1348492199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/319484","to":"wikipedia://en/1039889","predicate":"related","method":"see-also","confidence":"low","span":[7143,7173],"revision":1348492199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/319484","to":"Category:Trigonometry","predicate":"in-field","method":"category","confidence":"medium","span":[7200,7225],"revision":1348492199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/319484","to":"Category:Theorems about triangles","predicate":"kind-of","method":"category","confidence":"medium","span":[7266,7303],"revision":1348492199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/319484","to":"Category:Angle","predicate":"in-field","method":"category","confidence":"medium","span":[7304,7322],"revision":1348492199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/601070#RZP7","to":"wikipedia://en/26975322","predicate":"listed-in","method":"list","confidence":"certain","span":[1434,1487],"revision":1345293464,"by":"importer/wikipedia/1"}

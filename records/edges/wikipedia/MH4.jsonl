@@ -1,0 +1,29 @@
+{"from":"wikipedia://en/1707754#F3EG","to":"wikipedia://en/149646","predicate":"listed-in","method":"list","confidence":"certain","span":[3103,3131],"revision":1369584638,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23609694","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[487,499],"revision":1326571301,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23609694","to":"wikipedia://en/61563","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[524,534],"revision":1326571301,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23609694","to":"wikipedia://en/12056032","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[535,554],"revision":1326571301,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23609694","to":"wikipedia://en/22634860","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[686,703],"revision":1326571301,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23609694","to":"wikipedia://en/2558751","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[734,749],"revision":1326571301,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23609694","to":"wikipedia://en/2010280","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[762,780],"revision":1326571301,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23609694","to":"wikipedia://en/1841851","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[792,806],"revision":1326571301,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23609694","to":"wikipedia://en/13140640","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[838,865],"revision":1326571301,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23609694","to":"wikipedia://en/151945","predicate":"related","method":"see-also","confidence":"low","span":[1830,1849],"revision":1326571301,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23609694","to":"Category:Ophthalmology","predicate":"in-field","method":"category","confidence":"medium","span":[2396,2422],"revision":1326571301,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23609694","to":"Category:Spirals","predicate":"in-field","method":"category","confidence":"medium","span":[2423,2443],"revision":1326571301,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23609694","to":"Category:Applied mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[2444,2476],"revision":1326571301,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3526626#RPOY","to":"wikipedia://en/6122","predicate":"uses","method":"link-in-item","confidence":"high","span":[4694,4728],"revision":1344615289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3526626#RPOY","to":"wikipedia://en/1408000","predicate":"uses","method":"link-in-item","confidence":"high","span":[4756,4785],"revision":1344615289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3526626#RPOY","to":"wikipedia://en/14563","predicate":"uses","method":"link-in-item","confidence":"high","span":[4908,4920],"revision":1344615289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3526626#RPOY","to":"wikipedia://en/4322","predicate":"uses","method":"link-in-item","confidence":"high","span":[5056,5073],"revision":1344615289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3526626#RPOY","to":"wikipedia://en/5793","predicate":"uses","method":"link-in-item","confidence":"high","span":[5105,5141],"revision":1344615289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3526626#RPOY","to":"wikipedia://en/15532","predicate":"uses","method":"link-in-item","confidence":"high","span":[5237,5249],"revision":1344615289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3526626#RPOY","to":"wikipedia://en/330491","predicate":"uses","method":"link-in-item","confidence":"high","span":[5258,5290],"revision":1344615289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74505292","to":"wikipedia://en/1848052","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[147,169],"revision":1360364180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74505292","to":"wikipedia://en/3237728","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[190,217],"revision":1360364180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74505292","to":"wikipedia://en/10020808","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[228,250],"revision":1360364180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74505292","to":"wikipedia://en/74502719","predicate":"related","method":"link-in-lead","confidence":"low","span":[395,410],"revision":1360364180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74505292","to":"wikipedia://en/10020808","predicate":"related","method":"link-in-text","confidence":"low","span":[4285,4310],"revision":1360364180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74505292","to":"wikipedia://en/15429532","predicate":"related","method":"link-in-text","confidence":"low","span":[4342,4381],"revision":1360364180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74505292","to":"wikipedia://en/30428341","predicate":"related","method":"link-in-text","confidence":"low","span":[4432,4483],"revision":1360364180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74505292","to":"Category:Indian mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[4582,4615],"revision":1360364180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74505292","to":"Category:Indian historians of mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[4616,4661],"revision":1360364180,"by":"importer/wikipedia/1"}

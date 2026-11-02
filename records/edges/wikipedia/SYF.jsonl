@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/58049400","to":"wikipedia://en/439526","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[181,212],"revision":1369667367,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58049400","to":"wikipedia://en/79235708","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[796,833],"revision":1369667367,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58049400","to":"wikipedia://en/59644","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1900,1922],"revision":1369667367,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58049400","to":"wikipedia://en/567523","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1924,1956],"revision":1369667367,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58049400","to":"wikipedia://en/45524","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1962,1996],"revision":1369667367,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58049400","to":"wikipedia://en/1638777","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2839,2850],"revision":1369667367,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58049400","to":"wikipedia://en/187813","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3132,3160],"revision":1369667367,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58049400","to":"wikipedia://en/4446998","predicate":"related","method":"see-also","confidence":"low","span":[4366,4382],"revision":1369667367,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58049400","to":"Template:Cryptography navbox","predicate":"in-nav","method":"nav","confidence":"low","span":[4384,4414],"revision":1369667367,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58049400","to":"Category:Cryptographic hash functions","predicate":"in-field","method":"category","confidence":"medium","span":[4416,4457],"revision":1369667367,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58049400","to":"Category:Checksum algorithms","predicate":"in-field","method":"category","confidence":"medium","span":[4458,4490],"revision":1369667367,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82044973#6SVJ","to":"wikipedia://en/62462437","predicate":"listed-in","method":"list","confidence":"certain","span":[48330,48356],"revision":1373087743,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82044973#6SVJ","to":"wikipedia://en/11257621","predicate":"uses","method":"link-in-item","confidence":"medium","span":[48361,48380],"revision":1373087743,"by":"importer/wikipedia/1"}

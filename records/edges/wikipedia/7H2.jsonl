@@ -1,0 +1,10 @@
+{"from":"wikipedia://en/587645#JFX6","to":"wikipedia://en/26157354","predicate":"listed-in","method":"list","confidence":"certain","span":[38923,38961],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#JFX6","to":"wikipedia://en/1997","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[38965,38987],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6814674","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[35,50],"revision":1354263894,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6814674","to":"wikipedia://en/7921","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[313,327],"revision":1354263894,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6814674","to":"wikipedia://en/837875","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[335,357],"revision":1354263894,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6814674","to":"wikipedia://en/6810363","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[427,453],"revision":1354263894,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6814674","to":"wikipedia://en/6599701","predicate":"related","method":"see-also","confidence":"low","span":[3077,3093],"revision":1354263894,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6814674","to":"Category:Generalizations of the derivative","predicate":"in-field","method":"category","confidence":"medium","span":[3123,3169],"revision":1354263894,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6814674","to":"Category:Stochastic calculus","predicate":"in-field","method":"category","confidence":"medium","span":[3170,3202],"revision":1354263894,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6814674","to":"Category:Malliavin calculus","predicate":"in-field","method":"category","confidence":"medium","span":[3203,3234],"revision":1354263894,"by":"importer/wikipedia/1"}

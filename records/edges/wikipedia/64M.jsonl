@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/3231096","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[136,151],"revision":1318601641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3231096","to":"wikipedia://en/32742753","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[252,309],"revision":1318601641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3231096","to":"wikipedia://en/32742753","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[310,345],"revision":1318601641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3231096","to":"wikipedia://en/1654076","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[851,890],"revision":1318601641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3231096","to":"wikipedia://en/1654076","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[947,986],"revision":1318601641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3231096","to":"wikipedia://en/263886","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1304,1329],"revision":1318601641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3231096","to":"wikipedia://en/1036303","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1841,1868],"revision":1318601641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3231096","to":"wikipedia://en/21474","predicate":"related","method":"link-in-text","confidence":"low","span":[2920,2954],"revision":1318601641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3231096","to":"wikipedia://en/20646438","predicate":"related","method":"link-in-text","confidence":"low","span":[3010,3038],"revision":1318601641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3231096","to":"Category:Ordinary differential equations","predicate":"in-field","method":"category","confidence":"medium","span":[5718,5762],"revision":1318601641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/469391#KC9X","to":"wikipedia://en/6851758","predicate":"listed-in","method":"list","confidence":"certain","span":[900,927],"revision":1076577561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51140705","to":"wikipedia://en/341988","predicate":"related","method":"link-in-lead","confidence":"low","span":[121,157],"revision":1369875693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51140705","to":"wikipedia://en/81174224","predicate":"related","method":"see-also","confidence":"low","span":[75501,75552],"revision":1369875693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51140705","to":"Category:Statistics-related lists","predicate":"in-field","method":"category","confidence":"medium","span":[75731,75816],"revision":1369875693,"by":"importer/wikipedia/1"}

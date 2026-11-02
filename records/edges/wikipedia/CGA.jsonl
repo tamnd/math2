@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/191457#N1QV","to":"wikipedia://en/36213065","predicate":"listed-in","method":"list","confidence":"certain","span":[66855,66877],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42600802","to":"wikipedia://en/2776890","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[62,85],"revision":1354551812,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42600802","to":"wikipedia://en/1207070","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[105,122],"revision":1354551812,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42600802","to":"wikipedia://en/39817","predicate":"related","method":"link-in-lead","confidence":"low","span":[126,152],"revision":1354551812,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42600802","to":"wikipedia://en/4166765","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[176,199],"revision":1354551812,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42600802","to":"wikipedia://en/8730871","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[204,224],"revision":1354551812,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42600802","to":"Category:Quaternions","predicate":"in-field","method":"category","confidence":"medium","span":[4850,4874],"revision":1354551812,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65309248#TFHO","to":"wikipedia://en/30749895","predicate":"listed-in","method":"list","confidence":"certain","span":[12609,12625],"revision":1360520392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65309248#TFHO","to":"wikipedia://en/303356","predicate":"uses","method":"link-in-item","confidence":"high","span":[12643,12667],"revision":1360520392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65309248#TFHO","to":"wikipedia://en/8398","predicate":"uses","method":"link-in-item","confidence":"high","span":[12669,12705],"revision":1360520392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#Z44F","to":"wikipedia://en/44283951","predicate":"listed-in","method":"list","confidence":"certain","span":[20719,20733],"revision":1356718736,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#Z44F","to":"wikipedia://en/37765","predicate":"uses","method":"link-in-item","confidence":"medium","span":[20739,20747],"revision":1356718736,"by":"importer/wikipedia/1"}

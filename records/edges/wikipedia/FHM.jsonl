@@ -1,0 +1,28 @@
+{"from":"wikipedia://en/1345771#Y5AT","to":"wikipedia://en/8625","predicate":"restates","method":"hatnote","confidence":"high","span":[6017,6038],"revision":1355170584,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1345771#Y5AT","to":"wikipedia://en/55212","predicate":"restates","method":"hatnote","confidence":"high","span":[6257,6276],"revision":1355170584,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1345771#Y5AT","to":"wikipedia://en/454450","predicate":"restates","method":"hatnote","confidence":"high","span":[6277,6297],"revision":1355170584,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1345771#Y5AT","to":"wikipedia://en/65913","predicate":"restates","method":"hatnote","confidence":"high","span":[6298,6316],"revision":1355170584,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1345771#Y5AT","to":"wikipedia://en/65913","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6327,6349],"revision":1355170584,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1345771#Y5AT","to":"wikipedia://en/1266589","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6491,6505],"revision":1355170584,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1345771#Y5AT","to":"wikipedia://en/1918292","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6791,6810],"revision":1355170584,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2374187#P11P","to":"wikipedia://en/24655281","predicate":"listed-in","method":"list","confidence":"certain","span":[3164,3197],"revision":1375804313,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43434911","to":"wikipedia://en/48598020","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[618,635],"revision":1364341144,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43434911","to":"wikipedia://en/2539764","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1245,1270],"revision":1364341144,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43434911","to":"wikipedia://en/24390","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1310,1321],"revision":1364341144,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43434911","to":"wikipedia://en/113516","predicate":"related","method":"link-in-text","confidence":"low","span":[1675,1692],"revision":1364341144,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43434911","to":"wikipedia://en/180311","predicate":"related","method":"link-in-text","confidence":"low","span":[1751,1768],"revision":1364341144,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43434911","to":"wikipedia://en/297811","predicate":"related","method":"link-in-text","confidence":"low","span":[2428,2451],"revision":1364341144,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43434911","to":"wikipedia://en/164602","predicate":"related","method":"link-in-text","confidence":"low","span":[2853,2873],"revision":1364341144,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43434911","to":"wikipedia://en/432375","predicate":"related","method":"link-in-text","confidence":"low","span":[3906,3922],"revision":1364341144,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43434911","to":"wikipedia://en/2539764","predicate":"related","method":"link-in-text","confidence":"low","span":[4907,4932],"revision":1364341144,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43434911","to":"wikipedia://en/1232419","predicate":"related","method":"link-in-text","confidence":"low","span":[7262,7289],"revision":1364341144,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43434911","to":"wikipedia://en/3162","predicate":"related","method":"link-in-text","confidence":"low","span":[7691,7704],"revision":1364341144,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43434911","to":"Category:Decision-making paradoxes","predicate":"in-field","method":"category","confidence":"medium","span":[7887,7925],"revision":1364341144,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43434911","to":"Category:Eponymous paradoxes","predicate":"in-field","method":"category","confidence":"medium","span":[7926,7958],"revision":1364341144,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43434911","to":"Category:Probability problems","predicate":"in-field","method":"category","confidence":"medium","span":[7959,7992],"revision":1364341144,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43434911","to":"Category:Probability theory paradoxes","predicate":"in-field","method":"category","confidence":"medium","span":[7993,8034],"revision":1364341144,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7820200","to":"wikipedia://en/23543","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[242,270],"revision":1312738319,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7820200","to":"wikipedia://en/21520","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[289,330],"revision":1312738319,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7820200","to":"wikipedia://en/4304500","predicate":"related","method":"see-also","confidence":"low","span":[1789,1809],"revision":1312738319,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7820200","to":"wikipedia://en/4316238","predicate":"related","method":"see-also","confidence":"low","span":[1811,1847],"revision":1312738319,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7820200","to":"Category:Types of probability distributions","predicate":"kind-of","method":"category","confidence":"medium","span":[2084,2131],"revision":1312738319,"by":"importer/wikipedia/1"}

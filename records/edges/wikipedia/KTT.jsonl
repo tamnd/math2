@@ -1,0 +1,19 @@
+{"from":"wikipedia://en/1403586#HH9L","to":"wikipedia://en/2851518","predicate":"listed-in","method":"list","confidence":"certain","span":[196838,196861],"revision":1375861581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1403586#HH9L","to":"wikipedia://en/51123","predicate":"uses","method":"link-in-item","confidence":"medium","span":[196866,196885],"revision":1375861581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15049034","to":"wikipedia://en/3932847","predicate":"related","method":"link-in-lead","confidence":"low","span":[319,370],"revision":1303885742,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15049034","to":"wikipedia://en/15051842","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[584,613],"revision":1303885742,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15049034","to":"wikipedia://en/3932847","predicate":"related","method":"see-also","confidence":"low","span":[1324,1356],"revision":1303885742,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15049034","to":"wikipedia://en/6824243","predicate":"related","method":"see-also","confidence":"low","span":[1358,1396],"revision":1303885742,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15049034","to":"Category:Proprietary software","predicate":"in-field","method":"category","confidence":"medium","span":[1914,1947],"revision":1303885742,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15049034","to":"Category:Windows-only software","predicate":"in-field","method":"category","confidence":"medium","span":[1948,1982],"revision":1303885742,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15049034","to":"Category:Regression and curve fitting software","predicate":"in-field","method":"category","confidence":"medium","span":[1983,2033],"revision":1303885742,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15049034","to":"Category:Time series software","predicate":"in-field","method":"category","confidence":"medium","span":[2034,2067],"revision":1303885742,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/299918#SPUY","to":"wikipedia://en/16094518","predicate":"listed-in","method":"list","confidence":"certain","span":[8359,8388],"revision":1300491917,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76765067#1WJ9","to":"wikipedia://en/348969","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[67992,68017],"revision":1368301704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7939066#5AZN","to":"wikipedia://en/40326","predicate":"uses","method":"link-in-item","confidence":"high","span":[4162,4216],"revision":1352445520,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7939066#5AZN","to":"wikipedia://en/7838302","predicate":"uses","method":"link-in-item","confidence":"high","span":[4570,4605],"revision":1352445520,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7939066#5AZN","to":"wikipedia://en/253260","predicate":"uses","method":"link-in-item","confidence":"high","span":[4669,4715],"revision":1352445520,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7939066#5AZN","to":"wikipedia://en/262107","predicate":"uses","method":"link-in-item","confidence":"high","span":[4772,4815],"revision":1352445520,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7939066#5AZN","to":"wikipedia://en/374222","predicate":"uses","method":"link-in-item","confidence":"high","span":[5206,5244],"revision":1352445520,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7939066#5AZN","to":"wikipedia://en/40326","predicate":"uses","method":"link-in-item","confidence":"high","span":[6369,6397],"revision":1352445520,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7939066#5AZN","to":"wikipedia://en/5262748","predicate":"uses","method":"link-in-item","confidence":"high","span":[7281,7304],"revision":1352445520,"by":"importer/wikipedia/1"}

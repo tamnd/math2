@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/30562#ZWFA","to":"wikipedia://en/59220","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[2247,2271],"revision":1357877906,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30562#ZWFA","to":"wikipedia://en/59220","predicate":"uses","method":"link-in-item","confidence":"high","span":[2310,2334],"revision":1357877906,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6968975","to":"wikipedia://en/5106450","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[73,114],"revision":1068734308,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6968975","to":"wikipedia://en/23543","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[144,181],"revision":1068734308,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6968975","to":"wikipedia://en/43487","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[524,556],"revision":1068734308,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6968975","to":"wikipedia://en/6964629","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1852,1879],"revision":1068734308,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6968975","to":"wikipedia://en/699964","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1882,1897],"revision":1068734308,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6968975","to":"wikipedia://en/325806","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2059,2097],"revision":1068734308,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6968975","to":"wikipedia://en/524466","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2114,2147],"revision":1068734308,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6968975","to":"wikipedia://en/48560","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2155,2183],"revision":1068734308,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6968975","to":"Category:Discrete distributions","predicate":"in-field","method":"category","confidence":"medium","span":[3487,3522],"revision":1068734308,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6968975","to":"Category:Statistical approximations","predicate":"in-field","method":"category","confidence":"medium","span":[3523,3562],"revision":1068734308,"by":"importer/wikipedia/1"}

@@ -1,3 +1,6 @@
 {"id":"JGX43ZMXTC","mentions":["ax://paper/2608.23797#1ZPV"],"kind":"example","msc":["55-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
-{"id":"JGXACE82EJ","mentions":["m2://rec/wikidata/Q239346#1"],"kind":"unknown","name":"90","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"JGXBMJ225T","mentions":["m2://rec/wikidata/Q2085786#1"],"kind":"definition","name":"primorial prime","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"JGXA4BJ3K4","mentions":["wikipedia://en/2934213#H5MQ"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"JGXACE82EJ","mentions":["m2://rec/wikidata/Q239346#1","wikipedia://en/343340"],"kind":"definition","name":"90","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"JGXBMJ225T","mentions":["m2://rec/wikidata/Q2085786#1","wikipedia://en/409348"],"kind":"definition","name":"primorial prime","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"JGXJMHH5NH","mentions":["wikipedia://en/57242824#BF6A"],"kind":"topic","name":"Christoph Rudolff","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"JGXRA9C3C8","mentions":["wikipedia://en/34312509#2ODM"],"kind":"statement","name":"Marr's tri-level hypothesis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

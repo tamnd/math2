@@ -1,0 +1,27 @@
+{"from":"wikipedia://en/31864145","to":"wikipedia://en/292831","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[76,106],"revision":1276862103,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31864145","to":"wikipedia://en/31861096","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[172,216],"revision":1276862103,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31864145","to":"wikipedia://en/49176","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[280,299],"revision":1276862103,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31864145","to":"wikipedia://en/14994282","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[358,394],"revision":1276862103,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31864145","to":"Category:Lie algebras","predicate":"in-field","method":"category","confidence":"medium","span":[765,790],"revision":1276862103,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31864145","to":"Category:Representation theory","predicate":"in-field","method":"category","confidence":"medium","span":[791,825],"revision":1276862103,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37099898#YMNZ","to":"wikipedia://en/23204","predicate":"uses","method":"link-in-item","confidence":"medium","span":[1506,1527],"revision":1369311487,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37099898#YMNZ","to":"wikipedia://en/2063672","predicate":"uses","method":"link-in-item","confidence":"medium","span":[1891,1913],"revision":1369311487,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37099898#YMNZ","to":"wikipedia://en/312252","predicate":"uses","method":"link-in-item","confidence":"high","span":[2144,2209],"revision":1369311487,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37099898#YMNZ","to":"wikipedia://en/87299","predicate":"uses","method":"link-in-item","confidence":"high","span":[2512,2534],"revision":1369311487,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37099898#YMNZ","to":"wikipedia://en/62844","predicate":"uses","method":"link-in-item","confidence":"high","span":[2871,2889],"revision":1369311487,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37099898#YMNZ","to":"wikipedia://en/59874","predicate":"uses","method":"link-in-item","confidence":"high","span":[3607,3632],"revision":1369311487,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37099898#YMNZ","to":"wikipedia://en/419200","predicate":"uses","method":"link-in-item","confidence":"high","span":[3792,3816],"revision":1369311487,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37099898#YMNZ","to":"wikipedia://en/901382","predicate":"uses","method":"link-in-item","confidence":"high","span":[3935,3958],"revision":1369311487,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37099898#YMNZ","to":"wikipedia://en/418156","predicate":"uses","method":"link-in-item","confidence":"high","span":[6140,6163],"revision":1369311487,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/449606#70KY","to":"wikipedia://en/89244","predicate":"uses","method":"link-in-item","confidence":"medium","span":[27431,27455],"revision":1376263881,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9755509","to":"wikipedia://en/48396","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[63,88],"revision":1305252954,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9755509","to":"wikipedia://en/1374948","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[145,185],"revision":1305252954,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9755509","to":"wikipedia://en/8546912","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[202,224],"revision":1305252954,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9755509","to":"wikipedia://en/12506030","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[229,252],"revision":1305252954,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9755509","to":"wikipedia://en/2991580","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[334,352],"revision":1305252954,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9755509","to":"wikipedia://en/33662","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[473,548],"revision":1305252954,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9755509","to":"wikipedia://en/45752","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[554,582],"revision":1305252954,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9755509","to":"wikipedia://en/50531340","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[653,672],"revision":1305252954,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9755509","to":"Category:Calculus of variations","predicate":"in-field","method":"category","confidence":"medium","span":[3381,3416],"revision":1305252954,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9755509","to":"Category:Variational analysis","predicate":"in-field","method":"category","confidence":"medium","span":[3417,3450],"revision":1305252954,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9755509","to":"Category:Convergence (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[3451,3489],"revision":1305252954,"by":"importer/wikipedia/1"}

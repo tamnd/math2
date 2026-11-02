@@ -1,3 +1,7 @@
-{"id":"99YRDT31BZ","mentions":["m2://rec/wikidata/Q1309317#1"],"kind":"definition","name":"postulates of special relativity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"99Y2KR705F","mentions":["wikipedia://en/32361#MGSI"],"kind":"definition","name":"Methods","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"99Y6QTJPGX","mentions":["wikipedia://en/43580500#27P3"],"kind":"definition","name":"add","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"99Y9E6SQBX","mentions":["wikipedia://en/628991"],"kind":"topic","name":"Adriaan van Roomen","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"99YRDT31BZ","mentions":["m2://rec/wikidata/Q1309317#1","wikipedia://en/1607648"],"kind":"definition","name":"postulates of special relativity","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"99YRPZAP5G","mentions":["wikipedia://en/47738065#9A12"],"kind":"topic","name":"John Willard Morgan","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"99YRWRFPTP","mentions":["m2://rec/levin_dmoi/ptx/exercises/gt-paths.ptx#exercise-2#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"99YSX6D3HE","mentions":["m2://rec/wikidata/Q1506584#1"],"kind":"unknown","name":"curved mirror","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

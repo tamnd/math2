@@ -1,4 +1,9 @@
 {"id":"YVQ1KASPKQ","mentions":["m2://rec/austin_ula/src/section2-6.xml#activity-linear-trans-geom#1"],"kind":"exercise","name":"Using matrix transformations to describe geometric operations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"YVQAFDAQYW","mentions":["m2://rec/wikidata/Q140092320#1"],"kind":"unknown","name":"head","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"YVQBJAHBZJ","mentions":["m2://rec/levin_dmoi/ptx/sec_intro-statements.ptx#investigation-1#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"YVQW6EX404","mentions":["m2://rec/wikidata/Q207648#1"],"kind":"definition","name":"Euclidean solid geometry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"YVQGSBN24P","mentions":["wikipedia://en/191457#9JBG"],"kind":"statement","name":"Multidimensional Chebyshev's inequality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"YVQHVFJEWP","mentions":["wikipedia://en/3025363"],"kind":"definition","name":"Negative relationship","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"YVQKQGVFBB","mentions":["wikipedia://en/9023486#CRRA"],"kind":"unknown","name":"Pitch (aviation)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"YVQVT261JN","mentions":["wikipedia://en/11353703#XLUI"],"kind":"topic","name":"Saharon Shelah","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"YVQW6EX404","mentions":["m2://rec/wikidata/Q207648#1","wikipedia://en/507960"],"kind":"definition","name":"Euclidean solid geometry","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"YVQWBYH1XA","mentions":["wikipedia://en/25334192#9EA0"],"kind":"definition","name":"projective","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

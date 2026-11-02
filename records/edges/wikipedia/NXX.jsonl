@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/35457783#8QMQ","to":"wikipedia://en/2285000","predicate":"uses","method":"link-in-item","confidence":"high","span":[56912,56933],"revision":1351541925,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4346067","to":"wikipedia://en/189373","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[55,76],"revision":1342251900,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4346067","to":"wikipedia://en/45642","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[81,95],"revision":1342251900,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4346067","to":"wikipedia://en/419259","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1167,1188],"revision":1342251900,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4346067","to":"wikipedia://en/1336960","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1211,1230],"revision":1342251900,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4346067","to":"wikipedia://en/1724836","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1239,1261],"revision":1342251900,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4346067","to":"wikipedia://en/1336960","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1284,1300],"revision":1342251900,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4346067","to":"wikipedia://en/1336960","predicate":"related","method":"link-in-text","confidence":"low","span":[3354,3373],"revision":1342251900,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4346067","to":"wikipedia://en/19453961","predicate":"related","method":"link-in-text","confidence":"low","span":[3453,3476],"revision":1342251900,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4346067","to":"wikipedia://en/1336960","predicate":"related","method":"link-in-text","confidence":"low","span":[3500,3516],"revision":1342251900,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4346067","to":"wikipedia://en/852721","predicate":"related","method":"link-in-text","confidence":"low","span":[4243,4265],"revision":1342251900,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4346067","to":"wikipedia://en/45906","predicate":"related","method":"link-in-text","confidence":"low","span":[5582,5610],"revision":1342251900,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4346067","to":"wikipedia://en/4185921","predicate":"related","method":"link-in-text","confidence":"low","span":[5741,5780],"revision":1342251900,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4346067","to":"wikipedia://en/206948","predicate":"related","method":"link-in-text","confidence":"low","span":[6259,6291],"revision":1342251900,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4346067","to":"wikipedia://en/1336960","predicate":"related","method":"see-also","confidence":"low","span":[6700,6716],"revision":1342251900,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4346067","to":"wikipedia://en/1336960","predicate":"related","method":"see-also","confidence":"low","span":[6719,6738],"revision":1342251900,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4346067","to":"wikipedia://en/3623060","predicate":"related","method":"see-also","confidence":"low","span":[6741,6768],"revision":1342251900,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4346067","to":"wikipedia://en/189373","predicate":"related","method":"see-also","confidence":"low","span":[6771,6792],"revision":1342251900,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4346067","to":"wikipedia://en/1724836","predicate":"related","method":"see-also","confidence":"low","span":[6795,6817],"revision":1342251900,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4346067","to":"wikipedia://en/18669","predicate":"related","method":"see-also","confidence":"low","span":[6820,6839],"revision":1342251900,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4346067","to":"Category:Actuarial science","predicate":"in-field","method":"category","confidence":"medium","span":[7726,7756],"revision":1342251900,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4346067","to":"Category:Demography","predicate":"in-field","method":"category","confidence":"medium","span":[7757,7780],"revision":1342251900,"by":"importer/wikipedia/1"}

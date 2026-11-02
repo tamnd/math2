@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/369981","to":"wikipedia://en/29965","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[146,156],"revision":1253691608,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/369981","to":"wikipedia://en/255059","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[159,192],"revision":1253691608,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/369981","to":"wikipedia://en/29965","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[195,250],"revision":1253691608,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/369981","to":"wikipedia://en/243946","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[301,324],"revision":1253691608,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/369981","to":"wikipedia://en/221537","predicate":"related","method":"link-in-text","confidence":"low","span":[5438,5455],"revision":1253691608,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/369981","to":"wikipedia://en/221537","predicate":"related","method":"link-in-text","confidence":"low","span":[5596,5616],"revision":1253691608,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/369981","to":"wikipedia://en/103094","predicate":"related","method":"link-in-text","confidence":"low","span":[5637,5655],"revision":1253691608,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/369981","to":"Category:Glossaries of mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[8316,8368],"revision":1253691608,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/369981","to":"Category:Tensors","predicate":"in-field","method":"category","confidence":"medium","span":[8369,8391],"revision":1253691608,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/369981","to":"Category:Multilinear algebra","predicate":"in-field","method":"category","confidence":"medium","span":[8392,8426],"revision":1253691608,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4576951#FRH6","to":"wikipedia://en/2874706","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5698,5725],"revision":1329192858,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4576951#FRH6","to":"wikipedia://en/48260","predicate":"uses","method":"link-in-item","confidence":"high","span":[5881,5921],"revision":1329192858,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55128667","to":"wikipedia://en/35263118","predicate":"related","method":"link-in-lead","confidence":"low","span":[1833,1851],"revision":1372570507,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55128667","to":"wikipedia://en/38420","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1855,1883],"revision":1372570507,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55128667","to":"wikipedia://en/31922","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2084,2122],"revision":1372570507,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55128667","to":"wikipedia://en/14617622","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2151,2189],"revision":1372570507,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55128667","to":"wikipedia://en/8564","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2776,2794],"revision":1372570507,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55128667","to":"wikipedia://en/2870010","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2824,2840],"revision":1372570507,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55128667","to":"wikipedia://en/627842","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3528,3572],"revision":1372570507,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55128667","to":"Category:21st-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3881,3930],"revision":1372570507,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55128667","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3931,3980],"revision":1372570507,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/599865#OMHC","to":"wikipedia://en/153981","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5991,6011],"revision":1344325023,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/599865#OMHC","to":"wikipedia://en/18879","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6015,6022],"revision":1344325023,"by":"importer/wikipedia/1"}

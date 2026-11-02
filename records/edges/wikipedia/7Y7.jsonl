@@ -1,0 +1,25 @@
+{"from":"wikipedia://en/47738065#2MAZ","to":"wikipedia://en/55633571","predicate":"listed-in","method":"list","confidence":"certain","span":[15713,15739],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54109664","to":"wikipedia://en/173416","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[7,31],"revision":1190318625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54109664","to":"wikipedia://en/25202","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[35,56],"revision":1190318625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54109664","to":"wikipedia://en/20598932","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[142,159],"revision":1190318625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54109664","to":"wikipedia://en/976673","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[214,247],"revision":1190318625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54109664","to":"wikipedia://en/254777","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[609,659],"revision":1190318625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54109664","to":"wikipedia://en/30844","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[668,686],"revision":1190318625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54109664","to":"wikipedia://en/7988","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[715,739],"revision":1190318625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54109664","to":"wikipedia://en/7136985","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1451,1489],"revision":1190318625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54109664","to":"wikipedia://en/62844","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1543,1563],"revision":1190318625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54109664","to":"wikipedia://en/1079106","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1628,1652],"revision":1190318625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54109664","to":"Category:Hilbert spaces","predicate":"in-field","method":"category","confidence":"medium","span":[1724,1751],"revision":1190318625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54109664","to":"Category:Linear algebra","predicate":"in-field","method":"category","confidence":"medium","span":[1752,1779],"revision":1190318625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54109664","to":"Category:Operator theory","predicate":"in-field","method":"category","confidence":"medium","span":[1780,1808],"revision":1190318625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54109664","to":"Category:Functional analysis","predicate":"in-field","method":"category","confidence":"medium","span":[1809,1841],"revision":1190318625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62117026","to":"wikipedia://en/21888","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[128,178],"revision":1360809680,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62117026","to":"wikipedia://en/40611086","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[676,695],"revision":1360809680,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62117026","to":"wikipedia://en/581195","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1861,1946],"revision":1360809680,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62117026","to":"wikipedia://en/18935551","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1974,1991],"revision":1360809680,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62117026","to":"wikipedia://en/35039652","predicate":"related","method":"link-in-text","confidence":"low","span":[3117,3130],"revision":1360809680,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62117026","to":"wikipedia://en/3852459","predicate":"related","method":"link-in-text","confidence":"low","span":[3150,3168],"revision":1360809680,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62117026","to":"Category:Cryptographically secure pseudorandom number generators","predicate":"in-field","method":"category","confidence":"medium","span":[4004,4072],"revision":1360809680,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62117026","to":"Category:National Institute of Standards and Technology","predicate":"in-field","method":"category","confidence":"medium","span":[4073,4132],"revision":1360809680,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62117026","to":"Category:National Security Agency","predicate":"in-field","method":"category","confidence":"medium","span":[4133,4170],"revision":1360809680,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62117026","to":"Category:Pseudorandom number generators","predicate":"in-field","method":"category","confidence":"medium","span":[4171,4214],"revision":1360809680,"by":"importer/wikipedia/1"}

@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/72137364","to":"wikipedia://en/888711","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[824,851],"revision":1373204158,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72137364","to":"wikipedia://en/53049","predicate":"related","method":"link-in-text","confidence":"low","span":[1349,1373],"revision":1373204158,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72137364","to":"wikipedia://en/339331","predicate":"related","method":"link-in-text","confidence":"low","span":[1420,1436],"revision":1373204158,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72137364","to":"wikipedia://en/5442007","predicate":"related","method":"link-in-text","confidence":"low","span":[1441,1458],"revision":1373204158,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72137364","to":"wikipedia://en/860138","predicate":"related","method":"link-in-text","confidence":"low","span":[1475,1494],"revision":1373204158,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72137364","to":"wikipedia://en/49908368","predicate":"related","method":"link-in-text","confidence":"low","span":[1582,1614],"revision":1373204158,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72137364","to":"wikipedia://en/3841979","predicate":"related","method":"link-in-text","confidence":"low","span":[1736,1773],"revision":1373204158,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72137364","to":"wikipedia://en/53049","predicate":"related","method":"link-in-text","confidence":"low","span":[1835,1859],"revision":1373204158,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72137364","to":"wikipedia://en/28395660","predicate":"related","method":"link-in-text","confidence":"low","span":[1895,1928],"revision":1373204158,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72137364","to":"wikipedia://en/42754","predicate":"related","method":"link-in-text","confidence":"low","span":[1964,1989],"revision":1373204158,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72137364","to":"wikipedia://en/8096647","predicate":"related","method":"link-in-text","confidence":"low","span":[2210,2250],"revision":1373204158,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72137364","to":"wikipedia://en/13159501","predicate":"related","method":"link-in-text","confidence":"low","span":[2360,2392],"revision":1373204158,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72137364","to":"wikipedia://en/30875159","predicate":"related","method":"link-in-text","confidence":"low","span":[2437,2484],"revision":1373204158,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72137364","to":"wikipedia://en/49908368","predicate":"related","method":"link-in-text","confidence":"low","span":[2530,2562],"revision":1373204158,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72137364","to":"Category:Academic staff of the University of Cologne","predicate":"in-field","method":"category","confidence":"medium","span":[7070,7126],"revision":1373204158,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72137364","to":"Category:20th-century Austrian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[7239,7288],"revision":1373204158,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72137364","to":"Category:Austrian statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[7289,7324],"revision":1373204158,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72137364","to":"Category:Academic staff of the University of Vienna","predicate":"in-field","method":"category","confidence":"medium","span":[7325,7380],"revision":1373204158,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72137364","to":"Category:Mathematical statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[7381,7420],"revision":1373204158,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72137364","to":"Category:Mathematicians from Vienna","predicate":"in-field","method":"category","confidence":"medium","span":[7421,7460],"revision":1373204158,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72137364","to":"Category:20th-century statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[7461,7500],"revision":1373204158,"by":"importer/wikipedia/1"}

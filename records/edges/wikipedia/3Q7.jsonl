@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/2645647#MDYL","to":"wikipedia://en/5619296","predicate":"listed-in","method":"list","confidence":"certain","span":[20538,20567],"revision":1350976229,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2645647#MDYL","to":"wikipedia://en/78104","predicate":"uses","method":"link-in-item","confidence":"medium","span":[20584,20592],"revision":1350976229,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2645647#MDYL","to":"wikipedia://en/23965","predicate":"uses","method":"link-in-item","confidence":"medium","span":[20597,20606],"revision":1350976229,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32086828","to":"wikipedia://en/113564","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[91,115],"revision":1299169497,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32086828","to":"wikipedia://en/382667","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[352,387],"revision":1299169497,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32086828","to":"wikipedia://en/588356","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[393,430],"revision":1299169497,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32086828","to":"wikipedia://en/242135","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[482,502],"revision":1299169497,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32086828","to":"wikipedia://en/4063117","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[530,545],"revision":1299169497,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32086828","to":"wikipedia://en/48246","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[625,647],"revision":1299169497,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32086828","to":"wikipedia://en/20671987","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[795,813],"revision":1299169497,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32086828","to":"wikipedia://en/10603","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1022,1051],"revision":1299169497,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32086828","to":"Category:Linear algebraic groups","predicate":"in-field","method":"category","confidence":"medium","span":[2728,2764],"revision":1299169497,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82575013","to":"wikipedia://en/6168957","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[715,731],"revision":1352783849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82575013","to":"wikipedia://en/49749","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[754,762],"revision":1352783849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82575013","to":"wikipedia://en/210910","predicate":"related","method":"link-in-text","confidence":"low","span":[1146,1160],"revision":1352783849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82575013","to":"wikipedia://en/82574966","predicate":"related","method":"link-in-text","confidence":"low","span":[1206,1251],"revision":1352783849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82575013","to":"wikipedia://en/1157515","predicate":"related","method":"link-in-text","confidence":"low","span":[1679,1701],"revision":1352783849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82575013","to":"wikipedia://en/220540","predicate":"related","method":"link-in-text","confidence":"low","span":[1720,1736],"revision":1352783849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82575013","to":"Category:Swiss mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2700,2733],"revision":1352783849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82575013","to":"Category:Swiss educators","predicate":"in-field","method":"category","confidence":"medium","span":[2734,2762],"revision":1352783849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82575013","to":"Category:19th-century Swiss mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2794,2840],"revision":1352783849,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82575013","to":"Category:20th-century Swiss mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2841,2887],"revision":1352783849,"by":"importer/wikipedia/1"}
