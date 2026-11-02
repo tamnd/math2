@@ -15,7 +15,7 @@ same_as:
 
 An irreducible representation is a nonzero [[group representation|WYGRXCG2RN]] with no proper nonzero [[invariant subspace|0ACX5QT8TE]].
 Irreducible representations are the building blocks of representation theory.
-For a finite group over the complex numbers, every finite-dimensional representation is a direct sum of irreducible ones, by Maschke's theorem.
+For a finite group over the complex numbers, every finite-dimensional representation is a direct sum of irreducible ones, by [[Maschke's theorem|4SBZ4EMPBZ]].
 
 ## Explanations
 

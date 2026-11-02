@@ -18,7 +18,7 @@ same_as:
 Let $p$ be a prime, let $\mathcal{A}$ be the mod $p$ [[Steenrod algebra|JWTTXSGD0E]], and write $H^*(-)$ for mod $p$ cohomology of [[spectra|1GHF4EKBXS]].
 Let $X$ be a finite CW spectrum, and let $Y$ be a bounded-below spectrum whose homotopy groups are finitely generated in each degree.
 For $n \in \Z$, let $[X, Y]_n$ be the group of maps $\Sigma^n X \to Y$ in the [[stable homotopy category|26GTNMAF7B]].
-Then there is a spectral sequence $(E_r^{s,t}, d_r)_{r \ge 2}$ with $s \ge 0$.
+Then there is a [[spectral sequence|GG8AYV847V]] $(E_r^{s,t}, d_r)_{r \ge 2}$ with $s \ge 0$.
 Its differentials are $d_r \colon E_r^{s,t} \to E_r^{s+r, t+r-1}$.
 Its second page is
 $$E_2^{s,t} = \operatorname{Ext}_{\mathcal{A}}^{s,t}\big(H^*(Y), H^*(X)\big).$$

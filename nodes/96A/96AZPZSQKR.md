@@ -15,7 +15,7 @@ Let $n \ge 2$, let $\Omega \subset \R^n$ be open, and let $K \ge 1$.
 A map $f \colon \Omega \to \R^n$ is *$K$-quasiregular* if:
 
 1. $f$ is continuous.
-2. $f$ lies in the Sobolev space $W^{1,n}_{\mathrm{loc}}(\Omega; \R^n)$, that is, its coordinates have locally $n$-th power integrable weak derivatives.
+2. $f$ lies in the [[Sobolev space|M4CEZ5K9HP]] $W^{1,n}_{\mathrm{loc}}(\Omega; \R^n)$, that is, its coordinates have locally $n$-th power integrable [[weak derivatives|C3EC148VZD]].
 3. $\norm{Df(x)}^n \le K\, J_f(x)$ for almost every $x \in \Omega$.
 
 Here $Df(x)$ is the [[Jacobian matrix|0YF0VXKXGB]] of weak derivatives, $\norm{Df(x)}$ is its operator norm, and $J_f(x) = \det Df(x)$ is the [[Jacobian determinant|0ZCSMYHTBP]].

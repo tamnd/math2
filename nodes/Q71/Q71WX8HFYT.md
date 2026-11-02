@@ -12,7 +12,7 @@ sources:
 
 ## Statement
 
-Let $A$ be a complex Banach algebra with unit $1 \ne 0$, let $a \in A$, and let $p \in \C[z]$ be a [[polynomial|0SDC934R52]].
+Let $A$ be a complex [[Banach algebra|9KYWN94QDN]] with unit $1 \ne 0$, let $a \in A$, and let $p \in \C[z]$ be a [[polynomial|0SDC934R52]].
 Let $\sigma(b)$ denote the [[spectrum|EH0CZ19RKP]] of $b \in A$.
 Then
 $$\sigma(p(a)) = p(\sigma(a)) = \set{p(\lambda) : \lambda \in \sigma(a)}.$$

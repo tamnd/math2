@@ -12,8 +12,8 @@ sources:
 ## Definition
 
 Let $(G_i)_{i \in I}$ be an inverse system of finite groups indexed by a directed set $I$, each with the discrete topology.
-Give its inverse limit $\varprojlim_{i \in I} G_i$ the subspace topology of the product $\prod_{i \in I} G_i$.
-A *profinite group* is a topological group $G$ that is isomorphic, as a topological group, to such an inverse limit.
+Give its [[inverse limit|DZB378CNCK]] $\varprojlim_{i \in I} G_i$ the subspace topology of the product $\prod_{i \in I} G_i$.
+A *profinite group* is a [[topological group|92700QAB5Y]] $G$ that is isomorphic, as a topological group, to such an inverse limit.
 
 ## Remarks
 

@@ -24,5 +24,5 @@ Unwinding the bracket, $\Omega(X, Y) = d\omega(X, Y) + [\omega(X), \omega(Y)]$.
 This is the structure equation; an equivalent form is $\Omega(X, Y) = d\omega(hX, hY)$, where $h$ is the projection of $TP$ onto the horizontal bundle $\ker \omega$.
 The form $\Omega$ vanishes on vertical vectors and satisfies $R_g^* \Omega = \mathrm{Ad}(g^{-1}) \Omega$.
 For a matrix group, $\frac12 [\omega \wedge \omega] = \omega \wedge \omega$ with the matrix [[wedge product|0GRAATMGP1]], so $\Omega = d\omega + \omega \wedge \omega$.
-Example: on $M \times G$ with $\omega$ the pullback of the Maurer–Cartan form $\theta$, the Maurer–Cartan equation $d\theta + \frac12 [\theta \wedge \theta] = 0$ gives $\Omega = 0$, so this connection is flat.
+Example: on $M \times G$ with $\omega$ the pullback of the [[Maurer–Cartan form|P1JVA39H5E]] $\theta$, the Maurer–Cartan equation $d\theta + \frac12 [\theta \wedge \theta] = 0$ gives $\Omega = 0$, so this connection is flat.
 Non-example of flatness: for $G = \mathrm{U}(1)$ the bracket vanishes and $\Omega = d\omega$; for a connection on the Hopf bundle $S^3 \to S^2$, $\Omega$ descends to a $2$-form on $S^2$ with nonzero integral, so $\Omega \ne 0$.

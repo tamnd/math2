@@ -12,7 +12,7 @@ sources:
 ## Definition
 
 For $n \ge 0$, let $\gamma_n$ be the [[universal $n$-plane bundle|1HDH716Z24]] over the [[classifying space|WSZ40H5E4T]] $BO(n)$, and let $\varepsilon$ be the trivial line bundle.
-Let $(B_n, f_n, g_n)_{n \ge 0}$ be a sequence of spaces $B_n$ with maps $f_n \colon B_n \to BO(n)$ and $g_n \colon B_n \to B_{n+1}$ such that $f_{n+1} \circ g_n$ classifies the vector bundle $\xi_n \oplus \varepsilon$, where $\xi_n = f_n^* \gamma_n$.
+Let $(B_n, f_n, g_n)_{n \ge 0}$ be a sequence of spaces $B_n$ with maps $f_n \colon B_n \to BO(n)$ and $g_n \colon B_n \to B_{n+1}$ such that $f_{n+1} \circ g_n$ classifies the [[vector bundle|P4DZM975BV]] $\xi_n \oplus \varepsilon$, where $\xi_n = f_n^* \gamma_n$.
 Write $\operatorname{Th}(\xi)$ for the [[Thom space|5MNYT3AFPH]] of a bundle $\xi$.
 The *Thom spectrum* of this sequence is the [[spectrum|1GHF4EKBXS]] $M$ with spaces $M_n = \operatorname{Th}(\xi_n)$.
 Let $\Sigma$ be the reduced [[suspension|2VD7GR64JJ]].

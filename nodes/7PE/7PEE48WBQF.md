@@ -13,7 +13,7 @@ same_as:
 ## Summary
 
 A combinatorial species is a rule that assigns to each finite set the structures of a given kind on it, see the [[definition|K9VZKJACKT]].
-The rule must be compatible with renaming the elements, which makes it a functor on finite sets and bijections.
+The rule must be compatible with renaming the elements, which makes it a [[functor|28NQ0KRHD3]] on finite sets and bijections.
 Each species has an [[exponential generating function|0JHXPVFKT0]], and operations on species match operations on these series.
 The theory was introduced by André Joyal and gives a conceptual basis for the [[symbolic method|JP11D90EJC]] for labelled structures.
 

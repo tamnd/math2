@@ -25,5 +25,5 @@ Its fixed points are the Kähler metrics of constant scalar curvature, so it is 
 A Kähler metric is a way to measure lengths on a complex manifold that fits well with the complex structure.
 The Calabi flow changes such a metric step by step, pushing it where the scalar curvature is above average and pulling it where it is below average.
 The aim is to reach a metric whose scalar curvature is the same at every point.
-The equation is of fourth order in the space variables, so it is harder to study than second-order flows such as the Ricci flow.
+The equation is of fourth order in the space variables, so it is harder to study than second-order flows such as the [[Ricci flow|CR14D9YQTY]].
 A flat metric on a complex torus does not move at all, since its scalar curvature is $0$ everywhere.

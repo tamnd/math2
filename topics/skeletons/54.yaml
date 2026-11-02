@@ -33,7 +33,7 @@ items:
   - {name: perfect set, kind: definition, wikipedia: Perfect set, wikidata: Q7168101, node: 628242KN0T}
   - {name: G-delta set, kind: definition, decl: IsGδ, wikipedia: Gδ set, wikidata: Q127244, node: V1TBNP8R3S}
   - {name: F-sigma set, kind: definition, wikipedia: Fσ set, wikidata: Q4392123, node: 8MGC7M64GW}
-  - {name: specialization preorder, kind: definition, decl: Specializes, wikipedia: Specialization preorder, wikidata: Q5569420}
+  - {name: specialization preorder, kind: definition, decl: Specializes, wikipedia: Specialization preorder, wikidata: Q5569420, node: CMYVK9CEKZ}
   # Standard examples of topologies
   - {name: discrete topology, kind: example, decl: DiscreteTopology, wikipedia: Discrete space, wikidata: Q175116, node: 0S2TEHX4E1}
   - {name: trivial topology, kind: example, wikipedia: Trivial topology, wikidata: Q1418327, node: 0XJ02JBD6S}
@@ -41,10 +41,10 @@ items:
   - {name: Sierpiński space, kind: example, decl: sierpinskiSpace, wikipedia: Sierpiński space, wikidata: Q2119470, node: NTCD3724BB}
   - {name: particular point topology, kind: example, wikipedia: Particular point topology, wikidata: Q7140510, node: 4VSZ22TX4B}
   - {name: excluded point topology, kind: example, wikipedia: Excluded point topology, wikidata: Q5419668, node: 8WX57M9ZVA}
-  - {name: Alexandrov topology, kind: definition, decl: AlexandrovDiscrete, wikipedia: Alexandrov topology, wikidata: Q3532117}
+  - {name: Alexandrov topology, kind: definition, decl: AlexandrovDiscrete, wikipedia: Alexandrov topology, wikidata: Q3532117, node: ATP1JK3V27}
   - {name: Zariski topology, kind: example, wikipedia: Zariski topology, wikidata: Q147978, node: 8SQK7RTB63}
-  - {name: order topology, kind: definition, decl: OrderTopology, wikipedia: Order topology, wikidata: Q1321469, mathlib: [mathlib-overview]}
-  - {name: Scott topology, kind: definition, wikipedia: Scott continuity, wikidata: Q895815}
+  - {name: order topology, kind: definition, decl: OrderTopology, wikipedia: Order topology, wikidata: Q1321469, mathlib: [mathlib-overview], node: RCWHDMWP1T}
+  - {name: Scott topology, kind: definition, wikipedia: Scott continuity, wikidata: Q895815, node: ZR8A03FV67}
   # Filters, nets and convergence
   - {name: filter, kind: definition, decl: Filter, wikipedia: Filter (mathematics), wikidata: Q1052692, mathlib: [mathlib-overview], node: 15PF73BKY6}
   - {name: convergence of filters, kind: definition, decl: Filter.Tendsto, wikipedia: Filters in topology, wikidata: Q104901581, mathlib: [mathlib-undergrad, mathlib-overview], node: 70M1VAPFN0}
@@ -81,9 +81,9 @@ items:
   - {name: initial topology, kind: definition, wikipedia: Initial topology, wikidata: Q13416298, node: 1NWC3710WW}
   - {name: final topology, kind: definition, wikipedia: Final topology, wikidata: Q1416138, node: 6ERJRRZK32}
   - {name: adjunction space, kind: definition, wikipedia: Adjunction space, wikidata: Q4683190, node: N6DQ3Q0HBT}
-  - {name: cone, kind: definition, wikipedia: Cone (topology), wikidata: Q1635267}
+  - {name: cone, kind: definition, wikipedia: Cone (topology), wikidata: Q1635267, node: 7TPBQPPN97}
   - {name: suspension, kind: definition, wikipedia: Suspension (topology), wikidata: Q1307987, node: Q7RFNJH76Q}
-  - {name: inverse limit, kind: definition, wikipedia: Inverse limit, wikidata: Q2634828}
+  - {name: inverse limit, kind: definition, wikipedia: Inverse limit, wikidata: Q2634828, node: DZB378CNCK}
   - {name: compact-open topology, kind: definition, decl: ContinuousMap.compactOpen, wikipedia: Compact-open topology, wikidata: Q1669863, mathlib: [mathlib-overview], node: RG15F0TWPW}
   - {name: topology of pointwise convergence, kind: definition, wikipedia: Pointwise convergence, wikidata: Q1778098, node: FVGB8ZP67B}
   - {name: topology of uniform convergence, kind: definition, wikipedia: Uniform convergence, wikidata: Q1411887, node: YW5P7NEKR4}
@@ -142,8 +142,8 @@ items:
   - {name: compactification, kind: definition, wikipedia: Compactification (mathematics), wikidata: Q546145, node: Q6XNC8JAZD}
   - {name: one-point compactification, kind: definition, decl: OnePoint, wikipedia: Alexandroff extension, wikidata: Q864919, node: 0GWN3CMRK8}
   - {name: Stone–Čech compactification, kind: definition, decl: StoneCech, wikipedia: Stone–Čech compactification, wikidata: Q2033899, mathlib: [mathlib-overview], node: D9MWP5C85W}
-  - {name: Stone space, kind: definition, decl: Profinite, wikipedia: Stone space, wikidata: Q30587585}
-  - {name: Stone's representation theorem for Boolean algebras, kind: statement, wikipedia: Stone's representation theorem for Boolean algebras, wikidata: Q1166774}
+  - {name: Stone space, kind: definition, decl: Profinite, wikipedia: Stone space, wikidata: Q30587585, node: ZV38HA5PAQ}
+  - {name: Stone's representation theorem for Boolean algebras, kind: statement, wikipedia: Stone's representation theorem for Boolean algebras, wikidata: Q1166774, node: S4QJ395PA5}
   - {name: extremally disconnected space, kind: definition, decl: ExtremallyDisconnected, wikipedia: Extremally disconnected space, wikidata: Q1385462, node: 370PJ5BF70}
   - {name: Gleason's theorem on projective compact spaces, kind: statement, decl: CompactT2.projective_iff_extremallyDisconnected, wikipedia: Extremally disconnected space, wikidata: Q1385462, node: CPZKZ2AV0G}
   # Baire category
@@ -162,7 +162,7 @@ items:
   - {name: zero-dimensional space, kind: definition, decl: ZeroDimensionalSpace, wikipedia: Zero-dimensional space, wikidata: Q1801244, node: JJ7D0CYECZ}
   - {name: hyperconnected space, kind: definition, decl: IrreducibleSpace, wikipedia: Hyperconnected space, wikidata: Q1673182, node: 38CDCK1RYB}
   - {name: Noetherian topological space, kind: definition, decl: TopologicalSpace.NoetherianSpace, wikipedia: Noetherian topological space, wikidata: Q590554, node: 2VQX2E8EAH}
-  - {name: spectral space, kind: definition, decl: SpectralSpace, wikipedia: Spectral space, wikidata: Q7575210}
+  - {name: spectral space, kind: definition, decl: SpectralSpace, wikipedia: Spectral space, wikidata: Q7575210, node: G3W2WXY2VN}
   - {name: topologist's sine curve, kind: counterexample, wikipedia: Topologist's sine curve, wikidata: Q1148367, node: 0K3T4A659R}
   - {name: comb space, kind: counterexample, wikipedia: Comb space, wikidata: Q5150587, node: A2Q4RXD162}
   # Metric spaces
@@ -234,9 +234,9 @@ items:
   - {name: Fort space, kind: counterexample, wikipedia: Fort space, wikidata: Q5472501, node: 7FYKA5F3S6}
   - {name: Hawaiian earring, kind: example, wikipedia: Hawaiian earring, wikidata: Q5684591, node: 73EBKQPP8Q}
   # Topology together with algebraic and other structures
-  - {name: topological group, kind: definition, decl: IsTopologicalGroup, wikipedia: Topological group, wikidata: Q1046291, mathlib: [mathlib-overview]}
-  - {name: Birkhoff–Kakutani theorem, kind: statement, wikipedia: Topological group, wikidata: Q1046291}
-  - {name: topological ring, kind: definition, decl: IsTopologicalRing, wikipedia: Topological ring, wikidata: Q922339, mathlib: [mathlib-overview]}
+  - {name: topological group, kind: definition, decl: IsTopologicalGroup, wikipedia: Topological group, wikidata: Q1046291, mathlib: [mathlib-overview], node: 92700QAB5Y}
+  - {name: Birkhoff–Kakutani theorem, kind: statement, wikipedia: Topological group, wikidata: Q1046291, node: MHSKT2Z4MX}
+  - {name: topological ring, kind: definition, decl: IsTopologicalRing, wikipedia: Topological ring, wikidata: Q922339, mathlib: [mathlib-overview], node: TSF8RZDD5B}
   - {name: fixed-point property, kind: definition, wikipedia: Fixed-point property, wikidata: Q5456331, node: JQDHHFXBF3}
   - {name: pointless topology, kind: concept, decl: Order.Frame, wikipedia: Pointless topology, wikidata: Q7208386, node: CYEMGH98WN}
   - {name: digital topology, kind: concept, wikipedia: Digital topology, wikidata: Q5276205, node: 456E0RCQR1}

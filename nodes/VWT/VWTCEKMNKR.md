@@ -20,7 +20,7 @@ The *restricted holonomy group* $\mathrm{Hol}^0_p(\nabla)$ is the subset given b
 ## Remarks
 
 $\mathrm{Hol}_p(\nabla)$ is a group, because $P_{\gamma \cdot \delta} = P_\delta \circ P_\gamma$ and $P_{\gamma^{-1}} = P_\gamma^{-1}$.
-It is a Lie subgroup of $\mathrm{GL}(E_p)$, and $\mathrm{Hol}^0_p(\nabla)$ is its identity component; the quotient is a quotient of $\pi_1(M, p)$.
+It is a [[Lie subgroup|NM8XCPS1Q3]] of $\mathrm{GL}(E_p)$, and $\mathrm{Hol}^0_p(\nabla)$ is its identity component; the quotient is a quotient of $\pi_1(M, p)$.
 Changing the base point along a curve $\sigma$ from $p$ to $q$ conjugates the group: $\mathrm{Hol}_q = P_\sigma \mathrm{Hol}_p P_\sigma^{-1}$.
 Example: the flat connection on $T\R^n$ has $P_\gamma = \id$ for every loop, so $\mathrm{Hol}_p$ is trivial.
 For the Levi-Civita connection of the round sphere $S^2$, $\mathrm{Hol}_p = \mathrm{SO}(2)$: the transport around a loop is the rotation by the enclosed area.

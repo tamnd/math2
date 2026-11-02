@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $G$ be a connected semisimple Lie group with finite center that is a closed [[subgroup|0X1JXT47GA]] of $\mathrm{GL}_n(\R)$.
+Let $G$ be a connected semisimple [[Lie group|7JBRGCVJRB]] with finite center that is a closed [[subgroup|0X1JXT47GA]] of $\mathrm{GL}_n(\R)$.
 Let $K$ be a maximal compact subgroup of $G$, and let $\mathfrak{g}$ be the complexified Lie algebra of $G$.
 Let $Z(\mathfrak{g})$ be the center of its universal enveloping algebra.
 It acts on smooth functions on $G$ as left-invariant differential operators.

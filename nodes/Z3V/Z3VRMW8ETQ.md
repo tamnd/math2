@@ -18,7 +18,7 @@ same_as:
 Let $(M, g)$ and $(N, h)$ be connected [[Riemannian manifolds|7CBT4SM83Y]] with [[Riemannian distances|B4QR306D8G]] $d_g$ and $d_h$.
 
 1. If $\varphi \colon M \to N$ is a surjective map with $d_h(\varphi(p), \varphi(q)) = d_g(p, q)$ for all $p, q \in M$, then $\varphi$ is smooth and is an [[isometry of Riemannian manifolds|R9YWQS15AA]].
-2. The group $\operatorname{Isom}(M, g)$ of all isometries of $(M, g)$ onto itself, with the compact-open topology, is a Lie group, and its action on $M$ is smooth.
+2. The group $\operatorname{Isom}(M, g)$ of all isometries of $(M, g)$ onto itself, with the compact-open topology, is a [[Lie group|7JBRGCVJRB]], and its action on $M$ is smooth.
 3. If $M$ is [[compact|0TVJZYB6SH]], then $\operatorname{Isom}(M, g)$ is compact.
 
 ## Remarks

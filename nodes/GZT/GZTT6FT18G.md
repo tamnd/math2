@@ -12,7 +12,7 @@ sources:
 ## Statement
 
 Let $n \ge 1$ and $1 \le p < \infty$.
-Let $W^{1,p}(\R^n)$ be the Sobolev space of functions $u \in L^p(\R^n)$ whose first weak derivatives lie in $L^p(\R^n)$.
+Let $W^{1,p}(\R^n)$ be the [[Sobolev space|M4CEZ5K9HP]] of functions $u \in L^p(\R^n)$ whose first [[weak derivatives|C3EC148VZD]] lie in $L^p(\R^n)$.
 
 1. If $p < n$, let $p^* = np/(n - p)$. There is a constant $C = C(n, p)$ such that $\norm{u}_{L^{p^*}} \le C \norm{\nabla u}_{L^p}$ for all $u \in W^{1,p}(\R^n)$. So $W^{1,p}(\R^n)$ embeds continuously in the [[Lp space|SASP14MA1Z]] $L^{p^*}(\R^n)$.
 2. If $p > n$, let $\gamma = 1 - n/p$. Each $u \in W^{1,p}(\R^n)$ agrees almost everywhere with a bounded function that is [[Hölder continuous|012PBA0FMD]] with exponent $\gamma$. Its supremum norm and Hölder constant are at most $C(n, p) \norm{u}_{W^{1,p}}$.

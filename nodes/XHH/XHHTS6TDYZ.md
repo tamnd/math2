@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $K$ be a simplicial set, with $n$-simplices $K_n$ and structure maps $\theta^* \colon K_n \to K_m$ for order-preserving $\theta \colon [m] \to [n]$.
+Let $K$ be a [[simplicial set|WW81ARB8K9]], with $n$-simplices $K_n$ and structure maps $\theta^* \colon K_n \to K_m$ for order-preserving $\theta \colon [m] \to [n]$.
 Let $\abs{\Delta^n}$ be the standard topological $n$-simplex, and let $\theta_* \colon \abs{\Delta^m} \to \abs{\Delta^n}$ be the affine map sending the vertex $e_i$ to $e_{\theta(i)}$.
 Give each set $K_n$ the discrete topology.
 The *geometric realization* of $K$ is the [[quotient space|0V8046R0P9]]

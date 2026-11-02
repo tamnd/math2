@@ -22,8 +22,8 @@ It is natural with respect to maps of pairs.
 
 ## Remarks
 
-The chain complexes form a short exact sequence $0 \to C_\bullet(A) \to C_\bullet(X) \to C_\bullet(X, A) \to 0$.
-The long exact sequence in homology of a short exact sequence of chain complexes gives the result, and its connecting map is the $\partial$ above.
+The chain complexes form a [[short exact sequence|KJKNJMGKZZ]] $0 \to C_\bullet(A) \to C_\bullet(X) \to C_\bullet(X, A) \to 0$.
+The [[long exact sequence in homology|AHKJ361FDB]] of a short exact sequence of chain complexes gives the result, and its connecting map is the $\partial$ above.
 If $A$ is nonempty, the same sequence holds with [[reduced homology|NJQMWVK3QK]] $\tilde H_n(A)$ and $\tilde H_n(X)$ in place of $H_n(A)$ and $H_n(X)$.
 
 Example: for $(D^n, S^{n-1})$ with $n \ge 1$, the disc has $\tilde H_k(D^n) = 0$ for all $k$.

@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $G$ be a Lie group and let $M$ be a [[smooth manifold|F45VQ47GPV]].
+Let $G$ be a [[Lie group|7JBRGCVJRB]] and let $M$ be a [[smooth manifold|F45VQ47GPV]].
 A *principal $G$-bundle* over $M$ is a smooth [[fiber bundle|CX4M8K61AB]] $\pi \colon P \to M$ together with a smooth right [[action|0WCY42EV9V]] $P \times G \to P$, $(u, g) \mapsto u \cdot g$, such that:
 
 1. the action preserves fibers: $\pi(u \cdot g) = \pi(u)$ for all $u \in P$ and $g \in G$;

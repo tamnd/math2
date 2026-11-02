@@ -12,7 +12,7 @@ sources:
 
 ## Statement
 
-Let $\pi \colon E \to B$ be an oriented real vector bundle of rank $n \ge 1$, let $E_0$ be the complement of its zero section, and let $\pi_0 = \pi|_{E_0} \colon E_0 \to B$.
+Let $\pi \colon E \to B$ be an oriented real [[vector bundle|P4DZM975BV]] of rank $n \ge 1$, let $E_0$ be the complement of its zero section, and let $\pi_0 = \pi|_{E_0} \colon E_0 \to B$.
 Let $e \in H^n(B; \Z)$ be its [[Euler class|BJX6QS0ANT]].
 Then there is a long [[exact sequence|JB7ZBFBA9C]] in integral [[singular cohomology|6N7BC70CX0]]
 $$\cdots \to H^i(B) \xrightarrow{\ \smile e\ } H^{i+n}(B) \xrightarrow{\ \pi_0^*\ } H^{i+n}(E_0) \to H^{i+1}(B) \xrightarrow{\ \smile e\ } H^{i+n+1}(B) \to \cdots,$$

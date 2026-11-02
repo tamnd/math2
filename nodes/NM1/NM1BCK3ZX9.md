@@ -13,7 +13,7 @@ same_as:
 ## Summary
 
 A subset of a real or complex vector space is absorbing if every vector lies in a large enough multiple of it.
-Every neighbourhood of $0$ in a topological vector space is absorbing.
+Every neighbourhood of $0$ in a [[topological vector space|T32W553W95]] is absorbing.
 The [[Minkowski functional|PAX9SHDHDW]] of an absorbing set is finite everywhere, so absorbing sets are the starting point for turning convex sets into [[seminorms|FP5GVCN8GV]].
 
 ## Explanations

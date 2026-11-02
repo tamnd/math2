@@ -173,7 +173,7 @@ items:
   - {name: Gamma-convergence derivation of plate models, kind: concept, wikipedia: Γ-convergence, wikidata: Q278549}
   - {name: tensegrity, kind: concept, wikipedia: Tensegrity, wikidata: Q1930978}
   # Homogenization and composites
-  - {name: homogenization, kind: concept, wikipedia: Asymptotic homogenization, wikidata: Q4812185}
+  - {name: homogenization, kind: concept, wikipedia: Asymptotic homogenization, wikidata: Q4812185, node: 5RSREPYN0F}
   - {name: effective medium approximations, kind: concept, wikipedia: Effective medium approximations, wikidata: Q2894695}
   - {name: Voigt and Reuss bounds, kind: statement, wikipedia: Rule of mixtures, wikidata: Q7378968}
   - {name: Hashin–Shtrikman bounds, kind: statement, wikipedia: Effective medium approximations, wikidata: Q2894695}

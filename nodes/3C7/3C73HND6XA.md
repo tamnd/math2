@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-An automorphic form is a function on a Lie group $G$ that is invariant under a discrete subgroup $\Gamma$.
+An automorphic form is a function on a [[Lie group|7JBRGCVJRB]] $G$ that is invariant under a discrete subgroup $\Gamma$.
 It must also satisfy strong finiteness and growth conditions.
 [[Modular forms|GWKN5VG78A]] and [[Maass wave forms|3R959YSNYP]] give the basic examples, for the group $\mathrm{SL}_2(\R)$ and $\Gamma = \mathrm{SL}_2(\Z)$ or a congruence subgroup.
 Automorphic forms carry deep arithmetic information, and they are one side of the correspondences predicted by the [[Langlands program|J9T2M084W5]].

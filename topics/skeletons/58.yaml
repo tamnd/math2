@@ -50,8 +50,8 @@ items:
   - {name: Anderson–Kadec theorem, kind: statement, wikipedia: Anderson–Kadec theorem, wikidata: Q60790479}
   - {name: open embedding theorem for Hilbert manifolds, kind: statement, wikipedia: Hilbert manifold, wikidata: Q3554824}
   - {name: Banach–Lie group, kind: definition, wikipedia: Lie group, wikidata: Q622679}
-  - {name: diffeomorphism group, kind: object, wikipedia: Diffeomorphism, wikidata: Q1058314}
-  - {name: loop group, kind: object, wikipedia: Loop group, wikidata: Q6675827}
+  - {name: diffeomorphism group, kind: object, wikipedia: Diffeomorphism, wikidata: Q1058314, node: WTCNKST134}
+  - {name: loop group, kind: object, wikipedia: Loop group, wikidata: Q6675827, node: 8MEDVAEERQ}
   - {name: Banach bundle, kind: definition, wikipedia: Banach bundle, wikidata: Q4853761}
   # Manifolds of mappings and moduli spaces
   - {name: manifold of smooth mappings, kind: definition, wikipedia: Banach manifold, wikidata: Q3554819}
@@ -106,7 +106,7 @@ items:
   - {name: pseudogroup, kind: definition, wikipedia: Pseudogroup, wikidata: Q4382845}
   - {name: Lie pseudogroup, kind: definition, wikipedia: Pseudogroup, wikidata: Q4382845}
   - {name: Haefliger structure, kind: definition, wikipedia: Haefliger structure, wikidata: Q5638159}
-  - {name: Lie groupoid, kind: definition, wikipedia: Lie groupoid, wikidata: Q6543824}
+  - {name: Lie groupoid, kind: definition, wikipedia: Lie groupoid, wikidata: Q6543824, node: HNVW0E732J}
   - {name: Lie algebroid, kind: definition, wikipedia: Lie algebroid, wikidata: Q6543810}
   - {name: Crainic–Fernandes integrability theorem, kind: statement, wikipedia: Lie algebroid, wikidata: Q6543810}
   - {name: Morita equivalence of Lie groupoids, kind: definition, wikipedia: Lie groupoid, wikidata: Q6543824}
@@ -159,13 +159,13 @@ items:
   - {name: Sunada's theorem, kind: statement, wikipedia: Isospectral, wikidata: Q6086323}
   - {name: Lichnerowicz–Obata eigenvalue theorem, kind: statement, wikipedia: Laplace–Beltrami operator, wikidata: Q1071846}
   - {name: Cheeger's inequality for the first eigenvalue, kind: statement, wikipedia: Cheeger constant, wikidata: Q5089259}
-  - {name: Selberg trace formula, kind: statement, wikipedia: Selberg trace formula, wikidata: Q3077649}
+  - {name: Selberg trace formula, kind: statement, wikipedia: Selberg trace formula, wikidata: Q3077649, node: BDAWKPBNQP}
   - {name: quantum ergodicity, kind: statement, wikipedia: Quantum ergodicity, wikidata: Q7269044}
   - {name: quantum unique ergodicity conjecture, kind: conjecture, wikipedia: Quantum ergodicity, wikidata: Q7269044}
   - {name: Laplacian eigenvalues of the round sphere, kind: example, wikipedia: Spherical harmonics, wikidata: Q877100}
   # Singularities of smooth maps
   - {name: singularity of a smooth map, kind: definition, wikipedia: Singularity theory, wikidata: Q4245771}
-  - {name: splitting lemma, kind: statement, wikipedia: Splitting lemma (functions), wikidata: Q7578744}
+  - {name: splitting lemma, kind: statement, wikipedia: Splitting lemma (functions), wikidata: Q7578744, node: 7ZGQKWYKQS}
   - {name: Malgrange preparation theorem, kind: statement, wikipedia: Malgrange preparation theorem, wikidata: Q6743217}
   - {name: stable map, kind: definition, wikipedia: Singularity theory, wikidata: Q4245771}
   - {name: infinitesimal stability, kind: definition, wikipedia: Singularity theory, wikidata: Q4245771}

@@ -18,7 +18,7 @@ Let $S_n(X)$ be the [[free abelian group|0WJX8MGG37]] on the singular $n$-simpli
 The boundary map $\partial_n \colon S_n(X) \to S_{n-1}(X)$ is given on generators by
 $$\partial_n \sigma = \sum_{i=0}^{n} (-1)^i \, \sigma \circ \delta^i,$$
 and $\partial_0 = 0$.
-Then $\partial_n \circ \partial_{n+1} = 0$, so $S_\bullet(X)$ is a chain complex.
+Then $\partial_n \circ \partial_{n+1} = 0$, so $S_\bullet(X)$ is a [[chain complex|WQ82C0M3QB]].
 The *$n$-th singular homology group* of $X$ is
 $$H_n(X) = \ker \partial_n / \operatorname{im} \partial_{n+1}.$$
 

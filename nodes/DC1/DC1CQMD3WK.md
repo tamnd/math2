@@ -16,7 +16,7 @@ A graph of groups is a connected graph with a group attached to each vertex and 
 Each edge group comes with injective homomorphisms into the groups of the end vertices of the edge.
 Its fundamental group glues the vertex groups along the edge groups.
 It is the central object of [[Bass–Serre theory|6M731X66RD]]: groups acting on trees are exactly fundamental groups of graphs of groups.
-The simplest cases give the amalgamated free product and the [[HNN extension|YEYERRY37K]].
+The simplest cases give the [[amalgamated free product|M848AHBRCM]] and the [[HNN extension|YEYERRY37K]].
 
 ## Explanations
 

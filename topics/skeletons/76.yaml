@@ -74,12 +74,12 @@ items:
   - {name: dispersion relation of water waves, kind: statement, wikipedia: Dispersion (water waves), wikidata: Q1229165}
   - {name: Stokes wave, kind: example, wikipedia: Stokes wave, wikidata: Q7618554}
   - {name: Stokes drift, kind: concept, wikipedia: Stokes drift, wikidata: Q961596}
-  - {name: shallow water equations, kind: definition, wikipedia: Shallow water equations, wikidata: Q4008384}
+  - {name: shallow water equations, kind: definition, wikipedia: Shallow water equations, wikidata: Q4008384, node: NT73Y95RY5}
   - {name: Boussinesq approximation for water waves, kind: concept, wikipedia: Boussinesq approximation (water waves), wikidata: Q4950395}
-  - {name: Korteweg–De Vries equation, kind: definition, wikipedia: Korteweg–De Vries equation, wikidata: Q601796}
+  - {name: Korteweg–De Vries equation, kind: definition, wikipedia: Korteweg–De Vries equation, wikidata: Q601796, node: KTT75QC72Z}
   - {name: cnoidal wave, kind: example, wikipedia: Cnoidal wave, wikidata: Q5137392}
   - {name: Camassa–Holm equation, kind: definition, wikipedia: Camassa–Holm equation, wikidata: Q5025006}
-  - {name: Kadomtsev–Petviashvili equation, kind: definition, wikipedia: Kadomtsev–Petviashvili equation, wikidata: Q6345653}
+  - {name: Kadomtsev–Petviashvili equation, kind: definition, wikipedia: Kadomtsev–Petviashvili equation, wikidata: Q6345653, node: P93R13XP0P}
   - {name: Benjamin–Feir instability, kind: statement, wikipedia: Modulational instability, wikidata: Q17104082}
   - {name: Luke's variational principle, kind: statement, wikipedia: Luke's variational principle, wikidata: Q6701750}
   - {name: Kelvin wake pattern, kind: example, wikipedia: Kelvin wake pattern, wikidata: Q53111159}
@@ -89,8 +89,8 @@ items:
   - {name: Hele-Shaw flow, kind: concept, wikipedia: Hele-Shaw flow, wikidata: Q5701708}
   - {name: Saffman–Taylor instability, kind: concept, wikipedia: Saffman–Taylor instability, wikidata: Q3027832}
   # Incompressible viscous flow
-  - {name: Navier–Stokes equations, kind: definition, wikipedia: Navier–Stokes equations, wikidata: Q201321}
-  - {name: Navier–Stokes existence and smoothness, kind: conjecture, wikipedia: Navier–Stokes existence and smoothness, wikidata: Q1098081}
+  - {name: Navier–Stokes equations, kind: definition, wikipedia: Navier–Stokes equations, wikidata: Q201321, node: 18KXZHVF4M}
+  - {name: Navier–Stokes existence and smoothness, kind: conjecture, wikipedia: Navier–Stokes existence and smoothness, wikidata: Q1098081, node: 46Z1TVS2K6}
   - {name: Leray–Hopf weak solutions, kind: statement, wikipedia: Navier–Stokes existence and smoothness, wikidata: Q1098081}
   - {name: Caffarelli–Kohn–Nirenberg partial regularity, kind: statement, wikipedia: Navier–Stokes existence and smoothness, wikidata: Q1098081}
   - {name: Ladyzhenskaya's global regularity in two dimensions, kind: statement, wikipedia: Navier–Stokes existence and smoothness, wikidata: Q1098081}
@@ -101,7 +101,7 @@ items:
   - {name: Stokes' first and second problems, kind: example, wikipedia: Stokes problem, wikidata: Q30715867}
   - {name: Jeffery–Hamel flow, kind: example, wikipedia: Jeffery–Hamel flow, wikidata: Q30596183}
   - {name: von Kármán swirling flow, kind: example, wikipedia: Von Kármán swirling flow, wikidata: Q30596026}
-  - {name: Stokes flow, kind: definition, wikipedia: Stokes flow, wikidata: Q674202}
+  - {name: Stokes flow, kind: definition, wikipedia: Stokes flow, wikidata: Q674202, node: 13CB7V2YM4}
   - {name: Stokes' law, kind: statement, wikipedia: Stokes's law, wikidata: Q824561}
   - {name: Stokeslet, kind: definition, wikipedia: Stokes flow, wikidata: Q674202}
   - {name: Lorentz reciprocal theorem for Stokes flow, kind: statement, wikipedia: Stokes flow, wikidata: Q674202}
@@ -177,11 +177,11 @@ items:
   - {name: Riemann invariants, kind: definition, wikipedia: Riemann invariant, wikidata: Q5987493}
   - {name: hodograph transformation, kind: concept, wikipedia: Hodograph, wikidata: Q1546281}
   - {name: Chaplygin's equation, kind: definition, wikipedia: Chaplygin's equation, wikidata: Q5073247}
-  - {name: Tricomi equation, kind: definition, wikipedia: Euler–Tricomi equation, wikidata: Q5409013}
+  - {name: Tricomi equation, kind: definition, wikipedia: Euler–Tricomi equation, wikidata: Q5409013, node: 21DD2334NR}
   - {name: hypersonic flow, kind: concept, wikipedia: Hypersonic speed, wikidata: Q830787}
   # Shock waves
   - {name: shock wave in gases, kind: concept, wikipedia: Shock wave, wikidata: Q190688}
-  - {name: Rankine–Hugoniot conditions, kind: statement, wikipedia: Rankine–Hugoniot conditions, wikidata: Q1192131}
+  - {name: Rankine–Hugoniot conditions, kind: statement, wikipedia: Rankine–Hugoniot conditions, wikidata: Q1192131, node: S4XMYJ3V42}
   - {name: normal shock relations, kind: statement, wikipedia: Normal shock tables, wikidata: Q7051834}
   - {name: oblique shock, kind: concept, wikipedia: Oblique shock, wikidata: Q7075180}
   - {name: Lax entropy condition, kind: statement, wikipedia: Shock wave, wikidata: Q190688}
@@ -193,7 +193,7 @@ items:
   - {name: Zeldovich–von Neumann–Döring detonation model, kind: concept, wikipedia: ZND detonation model, wikidata: Q3062380}
   # Kinetic theory and rarefied gases
   - {name: kinetic theory of gases, kind: concept, wikipedia: Kinetic theory of gases, wikidata: Q200286}
-  - {name: Boltzmann equation, kind: definition, wikipedia: Boltzmann equation, wikidata: Q891653}
+  - {name: Boltzmann equation, kind: definition, wikipedia: Boltzmann equation, wikidata: Q891653, node: MH6CSWD7F0}
   - {name: H-theorem, kind: statement, wikipedia: H-theorem, wikidata: Q899853}
   - {name: Maxwell–Boltzmann distribution, kind: definition, wikipedia: Maxwell–Boltzmann distribution, wikidata: Q634965}
   - {name: BGK collision operator, kind: definition, wikipedia: Bhatnagar–Gross–Krook operator, wikidata: Q4901423}
@@ -213,7 +213,7 @@ items:
   - {name: Taylor dispersion, kind: concept, wikipedia: Taylor dispersion, wikidata: Q4503311}
   - {name: Boussinesq approximation for buoyancy, kind: concept, wikipedia: Boussinesq approximation (buoyancy), wikidata: Q895274}
   - {name: Rayleigh number, kind: definition, wikipedia: Rayleigh number, wikidata: Q898249}
-  - {name: Darcy's law, kind: statement, wikipedia: Darcy's law, wikidata: Q392416}
+  - {name: Darcy's law, kind: statement, wikipedia: Darcy's law, wikidata: Q392416, node: DX8RV2XG6H}
   - {name: Kozeny–Carman equation, kind: statement, wikipedia: Kozeny–Carman equation, wikidata: Q1043489}
   - {name: Richards equation, kind: definition, wikipedia: Richards equation, wikidata: Q2151066}
   - {name: Buckley–Leverett equation, kind: definition, wikipedia: Buckley–Leverett equation, wikidata: Q4983377}
@@ -247,7 +247,7 @@ items:
   - {name: Cowling's antidynamo theorem, kind: statement, wikipedia: Dynamo theory, wikidata: Q1269129}
   - {name: Hartmann number, kind: definition, wikipedia: Hartmann number, wikidata: Q1587280}
   - {name: magnetic reconnection, kind: concept, wikipedia: Magnetic reconnection, wikidata: Q287506}
-  - {name: Vlasov equation, kind: definition, wikipedia: Vlasov equation, wikidata: Q2323892}
+  - {name: Vlasov equation, kind: definition, wikipedia: Vlasov equation, wikidata: Q2323892, node: SJH7M2VCTE}
   - {name: Landau damping, kind: statement, wikipedia: Landau damping, wikidata: Q675721}
   - {name: Grad–Shafranov equation, kind: definition, wikipedia: Grad–Shafranov equation, wikidata: Q4476508}
   - {name: electrohydrodynamics, kind: concept, wikipedia: Electrohydrodynamics, wikidata: Q1326902}
@@ -263,4 +263,4 @@ items:
   - {name: computational fluid dynamics, kind: concept, wikipedia: Computational fluid dynamics, wikidata: Q815820}
   - {name: projection method, kind: concept, wikipedia: Projection method (fluid dynamics), wikidata: Q7249451}
   - {name: smoothed-particle hydrodynamics, kind: concept, wikipedia: Smoothed-particle hydrodynamics, wikidata: Q733073}
-  - {name: Godunov's scheme, kind: concept, wikipedia: Godunov's scheme, wikidata: Q4291826}
+  - {name: Godunov's scheme, kind: concept, wikipedia: Godunov's scheme, wikidata: Q4291826, node: 43HZJ7DRT0}

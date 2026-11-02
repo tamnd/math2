@@ -10,10 +10,10 @@ sources:
 items:
   # Basic notions
   - {name: K-theory, kind: concept, wikipedia: K-theory, wikidata: Q15615154}
-  - {name: algebraic K-theory, kind: concept, wikipedia: Algebraic K-theory, wikidata: Q2553675}
+  - {name: algebraic K-theory, kind: concept, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: 5GVFZWMWC8}
   - {name: topological K-theory, kind: concept, wikipedia: Topological K-theory, wikidata: Q2111307}
   - {name: operator K-theory, kind: concept, wikipedia: Operator K-theory, wikidata: Q7097836}
-  - {name: Grothendieck group, kind: definition, decl: Algebra.GrothendieckGroup, wikipedia: Grothendieck group, wikidata: Q1128678}
+  - {name: Grothendieck group, kind: definition, decl: Algebra.GrothendieckGroup, wikipedia: Grothendieck group, wikidata: Q1128678, node: 5FDMY7PDYY}
   - {name: universal property of the Grothendieck group, kind: statement, decl: Algebra.GrothendieckGroup.lift, wikipedia: Grothendieck group, wikidata: Q1128678}
   - {name: group completion of a monoid, kind: definition, wikipedia: Grothendieck group, wikidata: Q1128678}
   - {name: K-group, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675}
@@ -29,7 +29,7 @@ items:
   - {name: rank of a projective module, kind: definition, wikipedia: Projective module, wikidata: Q942423}
   - {name: K0 of a local ring, kind: example, wikipedia: Algebraic K-theory, wikidata: Q2553675}
   - {name: K0 of a Dedekind domain, kind: statement, decl: ClassGroup, wikipedia: Ideal class group, wikidata: Q912083}
-  - {name: Picard group, kind: definition, decl: CommRing.Pic, wikipedia: Picard group, wikidata: Q2042963}
+  - {name: Picard group, kind: definition, decl: CommRing.Pic, wikipedia: Picard group, wikidata: Q2042963, node: 3Z9DCWYXQZ}
   - {name: invertible module, kind: definition, decl: Module.Invertible, wikipedia: Invertible sheaf, wikidata: Q2905137}
   - {name: determinant of a projective module, kind: definition, wikipedia: Determinant line bundle, wikidata: Q135648941}
   - {name: Serre–Swan theorem, kind: statement, wikipedia: Serre–Swan theorem, wikidata: Q7455422}
@@ -39,9 +39,9 @@ items:
   - {name: Bass stable range, kind: definition, wikipedia: Stable range condition, wikidata: Q18192482}
   - {name: Bass cancellation theorem, kind: statement, wikipedia: Stable range condition, wikidata: Q18192482}
   - {name: Serre's splitting theorem, kind: statement, wikipedia: Projective module, wikidata: Q942423}
-  - {name: Karoubi envelope, kind: definition, decl: CategoryTheory.Idempotents.Karoubi, wikipedia: Karoubi envelope, wikidata: Q3055409}
+  - {name: Karoubi envelope, kind: definition, decl: CategoryTheory.Idempotents.Karoubi, wikipedia: Karoubi envelope, wikidata: Q3055409, node: S2GBXQ26QM}
   - {name: Grothendieck group of an abelian category, kind: definition, wikipedia: Grothendieck group, wikidata: Q1128678}
-  - {name: exact category, kind: definition, wikipedia: Exact category, wikidata: Q5419218}
+  - {name: exact category, kind: definition, wikipedia: Exact category, wikidata: Q5419218, node: TFADSC9YPZ}
   - {name: G-theory, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675}
   - {name: resolution theorem, kind: statement, wikipedia: Algebraic K-theory, wikidata: Q2553675}
   - {name: dévissage, kind: statement, wikipedia: Dévissage, wikidata: Q5320284}
@@ -136,7 +136,7 @@ items:
   - {name: motivic spectral sequence, kind: statement, wikipedia: Motivic cohomology, wikidata: Q2981889}
   - {name: Bloch–Lichtenbaum spectral sequence, kind: statement, wikipedia: Motivic cohomology, wikidata: Q2981889}
   - {name: algebraic K-theory of spaces, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: cyclic homology, kind: definition, wikipedia: Cyclic homology, wikidata: Q939179}
+  - {name: cyclic homology, kind: definition, wikipedia: Cyclic homology, wikidata: Q939179, node: 676K167XS8}
   - {name: Dennis trace map, kind: definition, wikipedia: Cyclic homology, wikidata: Q939179}
   - {name: Goodwillie's theorem on relative K-theory, kind: statement, wikipedia: Cyclic homology, wikidata: Q939179}
   - {name: topological Hochschild homology, kind: definition, wikipedia: Topological Hochschild homology, wikidata: Q105038900}
@@ -168,12 +168,12 @@ items:
   - {name: gamma filtration, kind: definition, wikipedia: Λ-ring, wikidata: Q8083988}
   - {name: Adams operations, kind: definition, wikipedia: Adams operation, wikidata: Q4680478}
   - {name: Chern character, kind: definition, wikipedia: Chern class, wikidata: Q1069818}
-  - {name: Todd class, kind: definition, wikipedia: Todd class, wikidata: Q2438393}
+  - {name: Todd class, kind: definition, wikipedia: Todd class, wikidata: Q2438393, node: 2YDB5089FR}
   - {name: Riemann–Roch without denominators, kind: statement, wikipedia: Grothendieck–Riemann–Roch theorem, wikidata: Q1899432}
   - {name: Bloch's formula, kind: statement, wikipedia: Bloch's formula, wikidata: Q16843249}
   - {name: Gersten conjecture, kind: conjecture, wikipedia: Bloch's formula, wikidata: Q16843249}
   - {name: Gersten complex, kind: definition, wikipedia: Bloch's formula, wikidata: Q16843249}
-  - {name: Chow group, kind: definition, wikipedia: Chow group, wikidata: Q5105523}
+  - {name: Chow group, kind: definition, wikipedia: Chow group, wikidata: Q5105523, node: EBEF6PEK4N}
   - {name: motivic homotopy theory, kind: concept, wikipedia: A¹ homotopy theory, wikidata: Q4833212}
   - {name: Brown–Gersten descent, kind: statement, wikipedia: Algebraic K-theory, wikidata: Q2553675}
   # K-theory in number theory
@@ -220,7 +220,7 @@ items:
   - {name: Chern–Connes character, kind: definition, wikipedia: Noncommutative geometry, wikidata: Q2746792}
   - {name: Kadison–Kaplansky conjecture, kind: conjecture, wikipedia: Kaplansky's conjectures, wikidata: Q6366842}
   # Topological K-theory
-  - {name: vector bundle, kind: definition, decl: VectorBundle, wikipedia: Vector bundle, wikidata: Q658429, mathlib: [mathlib-overview]}
+  - {name: vector bundle, kind: definition, decl: VectorBundle, wikipedia: Vector bundle, wikidata: Q658429, mathlib: [mathlib-overview], node: P4DZM975BV}
   - {name: complex K-theory KU, kind: definition, wikipedia: Topological K-theory, wikidata: Q2111307}
   - {name: real K-theory KO, kind: definition, wikipedia: Topological K-theory, wikidata: Q2111307}
   - {name: KR-theory, kind: definition, wikipedia: KR-theory, wikidata: Q6336464}

@@ -15,7 +15,7 @@ same_as:
 ## Statement
 
 Let $K$ be an [[algebraic number field|MWBDFS2KJ5]] with ring of integers $\mathcal{O}_K$.
-Let $C$ be a smooth projective geometrically irreducible curve over $K$ of genus $g \ge 1$.
+Let $C$ be a smooth projective geometrically irreducible [[curve|XJM2MT4S3Y]] over $K$ of [[genus|6W8TDV9VVN]] $g \ge 1$.
 Let $f$ be a nonconstant rational function on $C$ defined over $K$.
 Then the set $\set{P \in C(K) : P \text{ is not a pole of } f \text{ and } f(P) \in \mathcal{O}_K}$ is finite.
 

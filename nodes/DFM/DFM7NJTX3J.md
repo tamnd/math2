@@ -24,7 +24,7 @@ Equivalent forms:
 
 1. $S$ is minimal if and only if, for every compact region $R \subset S$ and every smooth normal variation of $R$ fixed on $\partial R$, the first variation of area is zero.
 2. If $x$ is a conformal parametrization of $S$, then $S$ is minimal if and only if each coordinate function of $x$ is harmonic.
-3. The graph of a smooth function $u(x, y)$ is minimal if and only if $(1 + u_y^2) u_{xx} - 2 u_x u_y u_{xy} + (1 + u_x^2) u_{yy} = 0$, the minimal surface equation.
+3. The graph of a smooth function $u(x, y)$ is minimal if and only if $(1 + u_y^2) u_{xx} - 2 u_x u_y u_{xy} + (1 + u_x^2) u_{yy} = 0$, the [[minimal surface equation|3GV2E2YTZX]].
 
 A minimal surface need not minimize area among all surfaces with the same boundary; it is only a critical point.
 

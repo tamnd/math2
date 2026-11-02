@@ -15,7 +15,7 @@ same_as:
 The Hamilton–Jacobi–Bellman equation is a first-order partial differential equation for the value function of an optimal control problem.
 It is the continuous-time form of the principle of dynamic programming: an optimal strategy stays optimal from every later state.
 A solution gives the optimal cost from every starting point and, through a pointwise minimization, an optimal feedback control.
-In general the value function is not differentiable, and the equation is understood in the sense of viscosity solutions.
+In general the value function is not differentiable, and the equation is understood in the sense of [[viscosity solutions|H1ERJ3T75T]].
 
 ## Explanations
 

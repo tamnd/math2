@@ -12,7 +12,7 @@ sources:
 ## Definition
 
 Let $p$ be a prime and let $k$ be an [[algebraic closure|0X6AB5P3G1]] of the [[finite field|0ZXZ82FTX2]] $\F_p$.
-Let $\mathbf{G}$ be a connected reductive linear algebraic group over $k$.
+Let $\mathbf{G}$ be a connected [[reductive|2XS84PWE3S]] [[linear algebraic group|GH81SYAPPN]] over $k$.
 A Steinberg endomorphism of $\mathbf{G}$ is an endomorphism $F$ of the algebraic group $\mathbf{G}$ with the following property.
 Some power $F^m$ with $m \ge 1$ is the [[Frobenius endomorphism|0T3WVTD675]] of $\mathbf{G}$ for some structure of $\mathbf{G}$ over a finite subfield of $k$.
 A *finite group of Lie type* is a group

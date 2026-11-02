@@ -9,7 +9,7 @@ sources:
 
 ## Summary
 
-The Picard group $\operatorname{Pic}(R)$ of a [[commutative ring|0310REJJY8]] $R$ collects the isomorphism classes of rank one [[projective modules|BFFA03GE3V]] over $R$.
+The [[Picard group|3Z9DCWYXQZ]] $\operatorname{Pic}(R)$ of a [[commutative ring|0310REJJY8]] $R$ collects the isomorphism classes of rank one [[projective modules|BFFA03GE3V]] over $R$.
 Its group law is the [[tensor product|F0HQXQ0HCD]].
 It measures how far such modules are from being free.
 For an [[integral domain|0QVD7WBFGN]] it is the group of [[invertible ideals|E190TAV2S6]] modulo principal ones, and for a [[Dedekind domain|7NPY2CN5KB]] it is the [[ideal class group|WQ46BD3ARY]].

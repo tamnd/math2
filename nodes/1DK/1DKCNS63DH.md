@@ -11,7 +11,7 @@ sources:
 ## Counterexample
 
 Let $\omega_1$ be the first uncountable [[ordinal|0YSCSX5YZC]].
-The closed long ray is the set $L = \omega_1 \times [0, 1)$ with the [[lexicographic order|0B68KNPGCG]] and the order topology.
+The closed long ray is the set $L = \omega_1 \times [0, 1)$ with the [[lexicographic order|0B68KNPGCG]] and the [[order topology|RCWHDMWP1T]].
 The long line is obtained by gluing two copies of $L$ along their least point $(0, 0)$, one of them with the reversed order.
 The closed long ray $L$ is Hausdorff, [[connected|0V032VWTHD]] and [[sequentially compact|0FRMJH3CY7]], but it is not [[compact|0TVJZYB6SH]] and not [[metrizable|091GJ3FYD7]].
 

@@ -12,7 +12,7 @@ sources:
 
 ## Definition
 
-Let $\mathbb{K}$ be $\R$ or $\C$, and let $E$ be a topological vector space over $\mathbb{K}$.
+Let $\mathbb{K}$ be $\R$ or $\C$, and let $E$ be a [[topological vector space|T32W553W95]] over $\mathbb{K}$.
 The *continuous dual space* of $E$ is the set $E'$ of all [[continuous linear maps|03TM135G0N]] $f \colon E \to \mathbb{K}$, that is, of all continuous [[linear forms|07YQ1C78G0]] on $E$.
 With pointwise addition and scalar multiplication, $E'$ is a linear subspace of the algebraic [[dual space|07JBSZE0V4]] of $E$.
 

@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $A$ be a commutative complex Banach algebra with unit, and let $\Delta(A)$ be its [[character space|M7JVFJ3MMX]], a compact Hausdorff space.
+Let $A$ be a commutative complex [[Banach algebra|9KYWN94QDN]] with unit, and let $\Delta(A)$ be its [[character space|M7JVFJ3MMX]], a compact Hausdorff space.
 For $a \in A$, let $\hat a$ be its [[Gelfand transform|VWNSHKJT92]].
 A *boundary* for $A$ is a subset $F \subseteq \Delta(A)$ such that, for every $a \in A$,
 $$\max_{\varphi \in \Delta(A)} \abs{\hat a(\varphi)} = \sup_{\varphi \in F} \abs{\hat a(\varphi)}.$$

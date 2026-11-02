@@ -66,7 +66,7 @@ items:
   - {name: Coriolis force, kind: definition, wikipedia: Coriolis force, wikidata: Q169973}
   - {name: centrifugal force, kind: definition, wikipedia: Centrifugal force, wikidata: Q178733}
   - {name: Euler force, kind: definition, wikipedia: Euler force, wikidata: Q963347}
-  - {name: rotation group SO(3), kind: object, decl: Matrix.specialOrthogonalGroup, wikipedia: 3D rotation group, wikidata: Q1256500, mathlib: [mathlib-undergrad]}
+  - {name: rotation group SO(3), kind: object, decl: Matrix.specialOrthogonalGroup, wikipedia: 3D rotation group, wikidata: Q1256500, mathlib: [mathlib-undergrad], node: 263GGJFA21}
   - {name: Euler angles, kind: definition, wikipedia: Euler angles, wikidata: Q751290}
   - {name: Euler's rotation theorem, kind: statement, wikipedia: Euler's rotation theorem, wikidata: Q681406}
   - {name: Rodrigues' rotation formula, kind: statement, wikipedia: Rodrigues' rotation formula, wikidata: Q1473494}
@@ -138,7 +138,7 @@ items:
   - {name: canonical transformation, kind: definition, wikipedia: Canonical transformation, wikidata: Q1366892}
   - {name: generating function of a canonical transformation, kind: definition, wikipedia: Generating function (physics), wikidata: Q845581}
   - {name: Liouville's theorem (Hamiltonian), kind: statement, wikipedia: Liouville's theorem (Hamiltonian), wikidata: Q766722}
-  - {name: Hamilton–Jacobi equation, kind: definition, wikipedia: Hamilton–Jacobi equation, wikidata: Q1060137}
+  - {name: Hamilton–Jacobi equation, kind: definition, wikipedia: Hamilton–Jacobi equation, wikidata: Q1060137, node: 5TRXQKP7DY}
   - {name: Hamilton's principal function, kind: definition, wikipedia: Hamilton–Jacobi equation, wikidata: Q1060137}
   - {name: separation of variables in the Hamilton–Jacobi equation, kind: concept, wikipedia: Hamilton–Jacobi equation, wikidata: Q1060137}
   - {name: action-angle coordinates, kind: definition, wikipedia: Action-angle coordinates, wikidata: Q1000646}

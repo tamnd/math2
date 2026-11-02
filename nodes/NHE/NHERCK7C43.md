@@ -10,7 +10,7 @@ sources:
 
 ## Example
 
-Identify the $3$-sphere $S^3$ with the group $SU(2)$ of unit quaternions.
+Identify the $3$-sphere $S^3$ with the group [[$SU(2)$|E5P8AG6CK7]] of unit quaternions.
 The double cover $SU(2) \to SO(3)$ maps onto the rotation group of a regular icosahedron, a group of order $60$ isomorphic to $A_5$.
 Its preimage $I^*$ in $SU(2)$ is the binary icosahedral group, of order $120$.
 The Poincaré homology sphere is the quotient $P = S^3 / I^*$ of $S^3$ by the action of $I^*$ by left multiplication.

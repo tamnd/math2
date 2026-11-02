@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $(M, \omega)$ be a [[symplectic manifold|CAN490EPRT]] with a Hamiltonian action of a Lie group $G$ and a [[moment map|ZARM34FZ6Z]] $\mu \colon M \to \mathfrak{g}^*$.
+Let $(M, \omega)$ be a [[symplectic manifold|CAN490EPRT]] with a Hamiltonian action of a [[Lie group|7JBRGCVJRB]] $G$ and a [[moment map|ZARM34FZ6Z]] $\mu \colon M \to \mathfrak{g}^*$.
 Assume that $G$ acts freely and properly on the level set $Z = \mu^{-1}(0)$.
 Then $Z$ is a submanifold of $M$, the [[quotient|0BR3FY5Q8M]] $M /\!\!/ G = Z / G$ is a smooth manifold, and the quotient map $\pi \colon Z \to Z / G$ is smooth.
 Let $i \colon Z \to M$ be the inclusion.

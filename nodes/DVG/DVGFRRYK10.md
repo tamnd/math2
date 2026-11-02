@@ -14,7 +14,7 @@ same_as:
 
 The curve-shortening flow moves each point of a plane curve along its normal vector.
 The speed is the [[curvature|7JQS6VKFEZ]] of the curve at that point.
-It is the one-dimensional case of mean curvature flow and the steepest descent flow for the length of the curve.
+It is the one-dimensional case of [[mean curvature flow|2YYV01C7QQ]] and the steepest descent flow for the length of the curve.
 A heat-equation-like smoothing effect makes curves rounder over time, and embedded closed curves shrink to round points by the [[Gage–Hamilton–Grayson theorem|FVGW1381TZ]].
 
 ## Explanations

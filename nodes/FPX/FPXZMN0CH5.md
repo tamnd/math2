@@ -24,7 +24,7 @@ on which $\R$ acts by translation in $s$.
 3. For generic $J$, each set $\mathcal{M}(x, y)$ is a smooth manifold. When it has dimension $1$, let $n(x, y) \in \F_2$ be the number modulo $2$ of elements of $\mathcal{M}(x, y) / \R$. Otherwise let $n(x, y) = 0$.
 4. Let $CF(H)$ be the $\F_2$-vector space with basis $\mathcal{P}(H)$, and let $\partial \colon CF(H) \to CF(H)$ be the linear map with $\partial x = \sum_{y} n(x, y)\, y$.
 
-Then $\partial \circ \partial = 0$, so $(CF(H), \partial)$ is a chain complex.
+Then $\partial \circ \partial = 0$, so $(CF(H), \partial)$ is a [[chain complex|WQ82C0M3QB]].
 The *Floer homology* of $(H, J)$ is $HF(H, J) = \ker \partial / \im \partial$.
 
 ## Remarks

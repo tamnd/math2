@@ -11,8 +11,8 @@ sources:
 
 ## Definition
 
-Let $\mathbb{B}$ be the category whose objects are the [[finite sets|0BBTH3YSZA]] and whose morphisms are the bijections.
-A *combinatorial species* is a functor $F \colon \mathbb{B} \to \mathbb{B}$.
+Let $\mathbb{B}$ be the [[category|A2DE66937D]] whose objects are the [[finite sets|0BBTH3YSZA]] and whose morphisms are the bijections.
+A *combinatorial species* is a [[functor|28NQ0KRHD3]] $F \colon \mathbb{B} \to \mathbb{B}$.
 Thus $F$ assigns:
 
 1. to each finite set $U$ a finite set $F[U]$, whose elements are the *$F$-structures* on $U$;

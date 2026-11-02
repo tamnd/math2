@@ -11,14 +11,14 @@ sources:
 
 ## Definition
 
-Let $G$ be a [[group|G5S1M9]] and let $\Z[G]$ be its group ring.
+Let $G$ be a [[group|G5S1M9]] and let $\Z[G]$ be its [[group ring|4NMTSX0XDS]].
 A $G$-module is a left [[module|0NZ8JA25WK]] over $\Z[G]$.
 Let $\Z$ be the right $\Z[G]$-module with the trivial action $n \cdot g = n$.
 Let $P_\bullet \to \Z$ be a [[projective resolution|HK2AA1YSQ2]] of $\Z$ by right $\Z[G]$-modules.
 Let $M$ be a $G$-module and let $n \ge 0$.
 The $n$-th *homology group* of $G$ with coefficients in $M$ is
 $$H_n(G, M) = H_n(P_\bullet \otimes_{\Z[G]} M) = \mathrm{Tor}^{\Z[G]}_n(\Z, M),$$
-the homology of the chain complex obtained by the [[tensor product|F0HQXQ0HCD]] with $M$.
+the homology of the [[chain complex|WQ82C0M3QB]] obtained by the [[tensor product|F0HQXQ0HCD]] with $M$.
 
 ## Remarks
 

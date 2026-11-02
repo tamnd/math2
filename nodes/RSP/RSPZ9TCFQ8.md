@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-A spin structure on an oriented [[Riemannian manifold|7CBT4SM83Y]] lifts its bundle of oriented orthonormal frames to a principal bundle for the spin group.
+A spin structure on an oriented [[Riemannian manifold|7CBT4SM83Y]] lifts its bundle of oriented orthonormal frames to a principal bundle for the [[spin group|JJSXXJQGEH]].
 The spin group is the double cover of the special orthogonal group.
 It is the extra structure needed to define spinors and the Dirac operator on a manifold.
 An oriented manifold admits a spin structure exactly when its second Stiefel–Whitney class vanishes.

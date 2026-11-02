@@ -37,7 +37,7 @@ items:
   - {name: stellar structure, kind: concept, wikipedia: Stellar structure, wikidata: Q6495}
   - {name: hydrostatic equilibrium, kind: statement, wikipedia: Hydrostatic equilibrium, wikidata: Q208641}
   - {name: polytrope, kind: definition, wikipedia: Polytrope, wikidata: Q3110129}
-  - {name: Lane–Emden equation, kind: definition, wikipedia: Lane–Emden equation, wikidata: Q1804812}
+  - {name: Lane–Emden equation, kind: definition, wikipedia: Lane–Emden equation, wikidata: Q1804812, node: ANRZZMH2Q0}
   - {name: Emden–Chandrasekhar equation, kind: definition, wikipedia: Emden–Chandrasekhar equation, wikidata: Q30693533}
   - {name: Chandrasekhar's white dwarf equation, kind: definition, wikipedia: Chandrasekhar's white dwarf equation, wikidata: Q48773561}
   - {name: Chandrasekhar limit, kind: statement, wikipedia: Chandrasekhar limit, wikidata: Q51366}

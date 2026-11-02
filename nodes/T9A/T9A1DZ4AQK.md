@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $M$ be a smooth manifold and let $N \subset M$ be a compact smooth [[submanifold|VKFW27WXEZ]] without boundary, of codimension $k$, with normal vector bundle $\nu$.
+Let $M$ be a smooth manifold and let $N \subset M$ be a compact smooth [[submanifold|VKFW27WXEZ]] without boundary, of codimension $k$, with normal [[vector bundle|P4DZM975BV]] $\nu$.
 Choose an inner product on $\nu$ and a closed tubular neighbourhood $U$ of $N$.
 Let $e \colon D(\nu) \to U$ be a diffeomorphism from the unit disc bundle that is the identity on the zero section.
 Let $\operatorname{Th}(\nu) = D(\nu) / S(\nu)$ be the [[Thom space|5MNYT3AFPH]] of $\nu$ with base point $*$.

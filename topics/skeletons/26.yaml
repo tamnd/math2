@@ -190,7 +190,7 @@ items:
   - {name: Chebyshev polynomials, kind: object, wikipedia: Chebyshev polynomials, wikidata: Q619511, node: M6EAR1JHPP}
   - {name: Lagrange polynomial, kind: definition, decl: Lagrange.interpolate, wikipedia: Lagrange polynomial, wikidata: Q861606, mathlib: [mathlib-undergrad], node: Y7KSGE97GK}
   - {name: Hilbert's seventeenth problem, kind: problem, wikipedia: Hilbert's seventeenth problem, wikidata: Q2496877, node: J45F4F13VB}
-  - {name: Positivstellensatz, kind: statement, wikipedia: Positive polynomial, wikidata: Q7233283}
+  - {name: Positivstellensatz, kind: statement, wikipedia: Positive polynomial, wikidata: Q7233283, node: FN734RQYM6}
   # Functions of several real variables
   - {name: partial derivative, kind: definition, wikipedia: Partial derivative, wikidata: Q186475, node: 09EGC6F8PT}
   - {name: directional derivative, kind: definition, decl: lineDeriv, wikipedia: Directional derivative, wikidata: Q383851, mathlib: [mathlib-undergrad], node: 06KWGHDN2J}

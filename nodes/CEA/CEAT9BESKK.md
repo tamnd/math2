@@ -14,7 +14,7 @@ same_as:
 
 An amenable group is a group with a finitely additive, translation-invariant way to measure the size of all of its subsets, with total size $1$.
 Finite groups, abelian groups and solvable groups are amenable; groups containing a non-abelian [[free group|0KTW26C80J]] are not.
-Amenability has many equivalent forms, such as the Følner condition.
+Amenability has many equivalent forms, such as the [[Følner condition|82R5XGCART]].
 It governs the existence of paradoxical decompositions such as the one in the [[Banach–Tarski paradox|FH250K068Z]].
 
 ## Explanations

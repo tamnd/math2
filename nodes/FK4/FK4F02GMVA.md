@@ -31,4 +31,4 @@ The equation becomes $\rho'(t) g_0 = -n(n-1) g_0$, which holds for $\rho(t) = 1 
 Non-example: the family $g(t) = (1 + t) g_0$ on the flat torus fails, since the scalar curvature is $0$ but the metric changes.
 The right side is a multiple of $g$.
 So a solution has the form $g(t) = u(\cdot, t)\, g(0)$ for a positive function $u$ on $M \times [0, T)$, and it stays in the conformal class of $g(0)$.
-In dimension $2$ the Ricci curvature equals $\tfrac{1}{2} R g$, so the Yamabe flow coincides with the Ricci flow $\partial g/\partial t = -2 \operatorname{Ric}$.
+In dimension $2$ the Ricci curvature equals $\tfrac{1}{2} R g$, so the Yamabe flow coincides with the [[Ricci flow|CR14D9YQTY]] $\partial g/\partial t = -2 \operatorname{Ric}$.

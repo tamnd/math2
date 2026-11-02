@@ -13,7 +13,7 @@ same_as:
 ## Summary
 
 The disk algebra $A(\mathbb{D})$ is the algebra of continuous functions on the closed unit disc that are holomorphic inside it.
-With the supremum norm it is a commutative Banach algebra, and the polynomials are dense in it.
+With the supremum norm it is a commutative [[Banach algebra|9KYWN94QDN]], and the polynomials are dense in it.
 It is the basic example of a uniform algebra and a natural setting for boundary problems on the [[unit disc|8G5ABXRK85]].
 
 ## Explanations

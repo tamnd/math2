@@ -13,7 +13,7 @@ same_as:
 ## Summary
 
 Pointless topology studies spaces through their lattices of open sets instead of through their points.
-Its basic objects are frames, complete lattices in which finite meets distribute over arbitrary joins, and locales, which are frames viewed as generalized spaces.
+Its basic objects are [[frames|306PWGH7BF]], complete lattices in which finite meets distribute over arbitrary joins, and [[locales|G2QNFT210W]], which are frames viewed as generalized spaces.
 Every topological space gives a locale, its frame of open sets, and for [[sober spaces|4N4DNDR22Z]] no information is lost.
 Some theorems that need the axiom of choice for spaces, such as the product theorem for compact spaces, hold for locales without it.
 

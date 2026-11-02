@@ -12,14 +12,14 @@ sources:
 ## Definition
 
 Let $\overline{\Q}$ be an algebraic closure of $\Q$ and let $n \ge 1$.
-Let $P = [x_0 : \cdots : x_n] \in \mathbb{P}^n(\overline{\Q})$ be a point of projective space, and let $K$ be an [[algebraic number field|MWBDFS2KJ5]] that contains $x_0, \ldots, x_n$.
+Let $P = [x_0 : \cdots : x_n] \in \mathbb{P}^n(\overline{\Q})$ be a point of [[projective space|ZT9A6JK8QF]], and let $K$ be an [[algebraic number field|MWBDFS2KJ5]] that contains $x_0, \ldots, x_n$.
 For each [[place|BT5V3TSNY6]] $v$ of $K$, let $\abs{\cdot}_v$ be the absolute value of $v$ that extends the usual or a $p$-adic absolute value of $\Q$.
 Let $n_v = [K_v : \Q_v]$ be the local degree.
 The *absolute logarithmic height* of $P$ is
 $$h(P) = \frac{1}{[K : \Q]} \sum_{v} n_v \log \max\left(\abs{x_0}_v, \ldots, \abs{x_n}_v\right).$$
 It does not depend on the choice of $K$ or of homogeneous coordinates.
 
-More generally, let $V$ be a projective variety over $\overline{\Q}$ and let $\phi \colon V \to \mathbb{P}^n$ be a morphism.
+More generally, let $V$ be a [[projective variety|A4H4CZ2V35]] over $\overline{\Q}$ and let $\phi \colon V \to \mathbb{P}^n$ be a morphism.
 The *height function* relative to $\phi$ is $h_\phi = h \circ \phi \colon V(\overline{\Q}) \to \R$.
 The height of an [[algebraic number|0MNF0BYFQC]] $\alpha$ is $h(\alpha) = h([1 : \alpha])$.
 

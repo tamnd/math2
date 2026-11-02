@@ -16,8 +16,8 @@ same_as:
 ## Statement
 
 Let $k$ be an [[algebraically closed field|0PF6TM8TWT]], let $n \ge 1$, and let $I$ be an [[ideal|096Z9MP2ME]] of the [[polynomial ring|0SDC934R52]] $k[x_1, \ldots, x_n]$.
-Let $V(I) = \set{a \in k^n : f(a) = 0 \text{ for all } f \in I}$ be the zero set of $I$.
-Let $I(V(I)) = \set{f \in k[x_1, \ldots, x_n] : f(a) = 0 \text{ for all } a \in V(I)}$ be the ideal of polynomials vanishing on it.
+Let $V(I) = \set{a \in k^n : f(a) = 0 \text{ for all } f \in I}$ be the [[zero set|VHFMQQYSTN]] of $I$.
+Let $I(V(I)) = \set{f \in k[x_1, \ldots, x_n] : f(a) = 0 \text{ for all } a \in V(I)}$ be the [[ideal of polynomials vanishing on it|HH6VEVM6Z0]].
 Then
 $$I(V(I)) = \sqrt{I},$$
 where $\sqrt{I} = \set{f : f^m \in I \text{ for some } m \ge 1}$ is the [[radical|437YRCNYRJ]] of $I$.

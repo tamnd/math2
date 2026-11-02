@@ -26,8 +26,8 @@ the *power spectral density* of $X$, and $S(\omega) \ge 0$ for all $\omega$.
 ## Remarks
 
 The function $r$ is positive definite: for all $\tau_1, \dots, \tau_k \in \R$ and $c_1, \dots, c_k \in \C$, $\sum_{j, l} c_j \overline{c_l} \, r(\tau_j - \tau_l) = E\bigl[\abs{\sum_j c_j (X_{\tau_j} - m)}^2\bigr] \ge 0$.
-A positive definite function that is continuous at $0$ is continuous everywhere, and Bochner's theorem then gives the measure $F$.
-The density formula is Fourier inversion, see the Fourier transform.
+A positive definite function that is continuous at $0$ is continuous everywhere, and [[Bochner's theorem|ZRHAG4NXHC]] then gives the measure $F$.
+The density formula is Fourier inversion, see the [[Fourier transform|DPVM34ADZV]].
 
 For a weakly stationary sequence $(X_n)_{n \in \Z}$, the analogue is Herglotz's theorem, with a finite measure on $[-\pi, \pi)$ and no continuity assumption.
 

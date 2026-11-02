@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-An approximate identity in a Banach algebra is a [[net|4DVJQJV0DG]] of elements that behaves more and more like a unit.
+An approximate identity in a [[Banach algebra|9KYWN94QDN]] is a [[net|4DVJQJV0DG]] of elements that behaves more and more like a unit.
 Multiplying by it changes each element less and less.
 Many important algebras have no unit, such as the convolution algebra $L^1(\R)$ and the algebra of continuous functions vanishing at infinity.
 In these algebras an approximate identity often replaces the unit in proofs.

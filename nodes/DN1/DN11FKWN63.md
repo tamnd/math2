@@ -14,7 +14,7 @@ same_as:
 ## Summary
 
 The Pontryagin classes $p_i(E) \in H^{4i}(B; \Z)$ are [[characteristic classes|7HACJC0JE2]] of real vector bundles $E \to B$ with integer coefficients.
-They are defined from the Chern classes of the complexification $E \otimes \C$.
+They are defined from the [[Chern classes|PAD37GKDPD]] of the complexification $E \otimes \C$.
 Pontryagin classes of the tangent bundle of a manifold give the Pontryagin numbers, which are invariants of oriented cobordism.
 They enter the Hirzebruch signature theorem and Milnor's construction of exotic spheres.
 

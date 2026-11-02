@@ -15,7 +15,7 @@ Let $X$ be a [[locally compact|0FE2SB8WVJ]] [[Hausdorff space|0S1FJ8VEX9]] and l
 A *locally finite singular $i$-chain* on $X$ is a formal sum $c = \sum_\sigma a_\sigma \sigma$, possibly infinite, over singular $i$-simplices $\sigma \colon \Delta^i \to X$ with $a_\sigma \in A$.
 It is required that every point of $X$ has a neighbourhood that meets the image of only finitely many $\sigma$ with $a_\sigma \neq 0$.
 These chains form a group $C^{\mathrm{lf}}_i(X; A)$, and the usual boundary formula of [[singular homology|M0Q5CFJ7ZH]] defines $\partial \colon C^{\mathrm{lf}}_i(X; A) \to C^{\mathrm{lf}}_{i-1}(X; A)$ with $\partial \circ \partial = 0$.
-The *Borel–Moore homology* of $X$ is the homology of this chain complex:
+The *Borel–Moore homology* of $X$ is the homology of this [[chain complex|WQ82C0M3QB]]:
 $$H^{\mathrm{BM}}_i(X; A) = H_i(C^{\mathrm{lf}}_\bullet(X; A)).$$
 
 ## Remarks

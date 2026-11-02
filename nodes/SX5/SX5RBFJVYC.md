@@ -16,7 +16,7 @@ For $q \ge 0$, let $C^q(X; G)$ be the group of all functions $f \colon X^{q+1} \
 The coboundary $\delta \colon C^q(X; G) \to C^{q+1}(X; G)$ is
 $$(\delta f)(x_0, \ldots, x_{q+1}) = \sum_{i=0}^{q+1} (-1)^i f(x_0, \ldots, \widehat{x_i}, \ldots, x_{q+1}),$$
 where the hat means that $x_i$ is left out.
-Then $\delta \circ \delta = 0$, so $C^\bullet(X; G)$ is a cochain complex.
+Then $\delta \circ \delta = 0$, so $C^\bullet(X; G)$ is a [[cochain complex|WQ82C0M3QB]].
 
 A function $f \in C^q(X; G)$ is *locally zero* if there is an open cover $\mathcal{U}$ of $X$ with the following property.
 If the points $x_0, \ldots, x_q$ all lie in one member of $\mathcal{U}$, then $f(x_0, \ldots, x_q) = 0$.

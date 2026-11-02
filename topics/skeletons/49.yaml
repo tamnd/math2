@@ -10,7 +10,7 @@ sources:
   mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
 items:
   # Basic notions of the calculus of variations
-  - {name: calculus of variations, kind: concept, wikipedia: Calculus of variations, wikidata: Q216861}
+  - {name: calculus of variations, kind: concept, wikipedia: Calculus of variations, wikidata: Q216861, node: PQ25NHV0KS}
   - {name: functional, kind: definition, wikipedia: Functional (mathematics), wikidata: Q579600}
   - {name: integral functional with a Lagrangian density, kind: definition, wikipedia: Calculus of variations, wikidata: Q216861}
   - {name: admissible function, kind: definition, wikipedia: Calculus of variations, wikidata: Q216861}
@@ -21,7 +21,7 @@ items:
   - {name: Fermat's theorem on stationary points, kind: statement, decl: IsLocalMin.hasFDerivAt_eq_zero, wikipedia: Interior extremum theorem, wikidata: Q727102, node: 0PCVBRV9VJ}
   - {name: fundamental lemma of the calculus of variations, kind: statement, decl: ae_eq_zero_of_integral_contDiff_smul_eq_zero, wikipedia: Fundamental lemma of the calculus of variations, wikidata: Q2474925}
   - {name: du Bois-Reymond lemma, kind: statement, wikipedia: Fundamental lemma of the calculus of variations, wikidata: Q2474925}
-  - {name: Euler–Lagrange equation, kind: definition, wikipedia: Euler–Lagrange equation, wikidata: Q875744}
+  - {name: Euler–Lagrange equation, kind: definition, wikipedia: Euler–Lagrange equation, wikidata: Q875744, node: PS0VV149ET}
   - {name: Euler–Poisson equation for higher derivatives, kind: definition, wikipedia: Euler–Lagrange equation, wikidata: Q875744}
   - {name: Euler–Lagrange equations for multiple integrals, kind: definition, wikipedia: Euler–Lagrange equation, wikidata: Q875744}
   - {name: Beltrami identity, kind: statement, wikipedia: Beltrami identity, wikidata: Q3303275}
@@ -56,7 +56,7 @@ items:
   - {name: Noether's theorem, kind: statement, wikipedia: Noether's theorem, wikidata: Q578555}
   - {name: Noether's second theorem, kind: statement, wikipedia: Noether's second theorem, wikidata: Q10369454}
   # Direct methods and existence of minimizers
-  - {name: direct method in the calculus of variations, kind: concept, wikipedia: Direct method in the calculus of variations, wikidata: Q5280366}
+  - {name: direct method in the calculus of variations, kind: concept, wikipedia: Direct method in the calculus of variations, wikidata: Q5280366, node: TE379HBTY0}
   - {name: extreme value theorem, kind: statement, decl: IsCompact.exists_isMinOn, wikipedia: Extreme value theorem, wikidata: Q752375, mathlib: [mathlib-overview, mathlib-1000]}
   - {name: lower semicontinuous functional, kind: definition, decl: LowerSemicontinuous, wikipedia: Semi-continuity, wikidata: Q955072}
   - {name: weak lower semicontinuity, kind: definition, wikipedia: Direct method in the calculus of variations, wikidata: Q5280366}

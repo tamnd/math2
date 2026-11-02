@@ -13,12 +13,12 @@ sources:
 
 Let $G$ be a [[group|G5S1M9]].
 The *cohomological dimension* $\mathrm{cd}(G)$ is the smallest integer $n \ge 0$ such that $H^k(G, M) = 0$ for every $G$-module $M$ and every $k > n$.
-Here $H^k(G, M)$ is the cohomology group.
+Here $H^k(G, M)$ is the [[cohomology group|YXJXA0Q52R]].
 If there is no such integer, then $\mathrm{cd}(G) = \infty$.
 
 ## Remarks
 
-Equivalently, $\mathrm{cd}(G)$ is the smallest $n$ such that $\Z$, with trivial action, has a [[projective resolution|HK2AA1YSQ2]] of length $n$ over the group ring $\Z[G]$.
+Equivalently, $\mathrm{cd}(G)$ is the smallest $n$ such that $\Z$, with trivial action, has a [[projective resolution|HK2AA1YSQ2]] of length $n$ over the [[group ring|4NMTSX0XDS]] $\Z[G]$.
 For a subgroup $H$ of $G$, $\mathrm{cd}(H) \le \mathrm{cd}(G)$.
 The only group with $\mathrm{cd}(G) = 0$ is the trivial group.
 

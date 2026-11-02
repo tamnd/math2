@@ -13,7 +13,7 @@ same_as:
 ## Summary
 
 A moment map, also called a momentum map, packages the conserved quantities of a symmetry of a [[symplectic manifold|CAN490EPRT]] into one map.
-When a Lie group $G$ acts on $(M, \omega)$, a moment map is a map $\mu \colon M \to \mathfrak{g}^*$ whose components generate the action as [[Hamiltonian vector fields|C5EH3B4BEP]].
+When a [[Lie group|7JBRGCVJRB]] $G$ acts on $(M, \omega)$, a moment map is a map $\mu \colon M \to \mathfrak{g}^*$ whose components generate the action as [[Hamiltonian vector fields|C5EH3B4BEP]].
 It is the main tool for symplectic reduction, for convexity theorems and for toric geometry.
 
 ## Explanations

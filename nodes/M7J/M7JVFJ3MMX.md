@@ -9,7 +9,7 @@ sources:
 
 ## Summary
 
-The character space of a commutative complex Banach algebra $A$ is the set of nonzero algebra homomorphisms $A \to \C$, with the weak-* topology.
+The character space of a commutative complex [[Banach algebra|9KYWN94QDN]] $A$ is the set of nonzero algebra homomorphisms $A \to \C$, with the weak-* topology.
 It is also called the maximal ideal space or the spectrum of $A$.
 For unital $A$, the characters correspond to the [[maximal ideals|0PV74TR5FP]] of $A$.
 It is a locally compact Hausdorff space, compact when $A$ has a unit.

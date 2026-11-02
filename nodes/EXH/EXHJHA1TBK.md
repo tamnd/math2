@@ -10,14 +10,14 @@ sources:
 
 ## Definition
 
-Let $\mathcal{C}$ and $\mathcal{D}$ be model categories, and let $F \colon \mathcal{C} \rightleftarrows \mathcal{D} \colon G$ be a Quillen adjunction, with $F$ left adjoint to $G$.
+Let $\mathcal{C}$ and $\mathcal{D}$ be [[model categories|SDTZVZ6B4Q]], and let $F \colon \mathcal{C} \rightleftarrows \mathcal{D} \colon G$ be a [[Quillen adjunction|SY38F954FE]], with $F$ [[left adjoint|TZHF6ZM92S]] to $G$.
 For $X$ in $\mathcal{C}$ and $Y$ in $\mathcal{D}$, write $g^\flat \colon X \to GY$ for the adjoint of a map $g \colon FX \to Y$.
 The adjunction is a *Quillen equivalence* if the following holds for every cofibrant object $X$ of $\mathcal{C}$ and every fibrant object $Y$ of $\mathcal{D}$.
 A map $g \colon FX \to Y$ is a weak equivalence in $\mathcal{D}$ if and only if $g^\flat$ is a weak equivalence in $\mathcal{C}$.
 
 ## Remarks
 
-Equivalently, the derived adjunction $\mathbf{L}F \colon \operatorname{Ho}(\mathcal{C}) \rightleftarrows \operatorname{Ho}(\mathcal{D}) \colon \mathbf{R}G$ is an equivalence of categories.
+Equivalently, the derived adjunction $\mathbf{L}F \colon \operatorname{Ho}(\mathcal{C}) \rightleftarrows \operatorname{Ho}(\mathcal{D}) \colon \mathbf{R}G$ is an [[equivalence of categories|K7A04ZBD92]].
 
 Example: geometric realization $\abs{\cdot}$ from simplicial sets to topological spaces is left adjoint to the singular complex functor $\operatorname{Sing}$.
 It is a Quillen equivalence between the Kan–Quillen model structure and the Quillen model structure.

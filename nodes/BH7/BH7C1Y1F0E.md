@@ -14,7 +14,7 @@ sources:
 Let $S^1 = \Delta[1] / \partial \Delta[1]$ be the simplicial circle and $S^p = S^1 \wedge \cdots \wedge S^1$ ($p$ factors), with the [[symmetric group|0RJMNEN3BJ]] $\Sigma_p$ acting by permuting the factors.
 A *symmetric spectrum* $X$ consists of:
 
-1. for each $n \ge 0$, a pointed simplicial set $X_n$ with a base-point-preserving left action of $\Sigma_n$;
+1. for each $n \ge 0$, a pointed [[simplicial set|WW81ARB8K9]] $X_n$ with a base-point-preserving left action of $\Sigma_n$;
 2. for each $n \ge 0$, a pointed map $\sigma_n \colon S^1 \wedge X_n \to X_{n+1}$;
 3. such that for all $n, p \ge 0$ the iterated structure map $S^p \wedge X_n \to X_{n+p}$ is $\Sigma_p \times \Sigma_n$-equivariant, where $\Sigma_p \times \Sigma_n$ acts on $X_{n+p}$ through the inclusion $\Sigma_p \times \Sigma_n \subseteq \Sigma_{p+n}$.
 

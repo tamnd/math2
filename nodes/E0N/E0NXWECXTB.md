@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $G = SU(n)$, a compact Lie group with Lie algebra $\mathfrak{su}(n)$, and let $M$ be a closed oriented [[3-manifold|R20TB2KEQQ]].
+Let $G = SU(n)$, a compact [[Lie group|7JBRGCVJRB]] with Lie algebra $\mathfrak{su}(n)$, and let $M$ be a closed oriented [[3-manifold|R20TB2KEQQ]].
 Every [[principal $G$-bundle|8E37E74XVP]] over $M$ is trivial, so a [[connection|NJ21PN5ZGJ]] on it is given by a $\mathfrak{su}(n)$-valued [[differential $1$-form|0E3G0GRPZ6]] $A$ on $M$.
 The *Chern–Simons functional* is
 $$CS(A) = \frac{1}{8\pi^2} \int_M \tr\left(A \wedge dA + \tfrac{2}{3} A \wedge A \wedge A\right).$$

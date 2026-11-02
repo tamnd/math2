@@ -17,7 +17,7 @@ same_as:
 
 For finite [[rooted trees|0C9J6W2A8A]] $T$ and $T'$, write $u \wedge v$ for the nearest common ancestor of vertices $u, v$ of $T$.
 Say that $T$ embeds in $T'$ if some injective map $f$ from the vertices of $T$ to those of $T'$ satisfies $f(u \wedge v) = f(u) \wedge f(v)$ for all $u, v$.
-Then the finite rooted trees are well-quasi-ordered by embedding.
+Then the finite rooted trees are [[well-quasi-ordered|NH25G6GC07]] by embedding.
 That is, for every infinite sequence $T_1, T_2, T_3, \dots$ of finite rooted trees, there are indices $i < j$ such that $T_i$ embeds in $T_j$.
 
 ## Remarks

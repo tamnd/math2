@@ -14,7 +14,7 @@ same_as:
 
 A branched covering is a map that is a [[covering map|3XZRRE165N]] except over a discrete set of branch values, where several sheets come together.
 For [[Riemann surfaces|5K0N8QMV6Q]], every non-constant proper [[holomorphic map|T19P7J53A1]] is a branched covering of finite degree.
-Branched coverings of the [[Riemann sphere|0CDMXGPSES]] describe compact Riemann surfaces as the surfaces of multivalued algebraic functions, and the Riemann–Hurwitz formula computes their genus.
+Branched coverings of the [[Riemann sphere|0CDMXGPSES]] describe compact Riemann surfaces as the surfaces of multivalued algebraic functions, and the [[Riemann–Hurwitz formula|42A5ZT6AWN]] computes their genus.
 
 ## Explanations
 

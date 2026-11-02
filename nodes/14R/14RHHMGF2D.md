@@ -15,7 +15,7 @@ Let $n \ge 2$ and let $M_0$ be a compact, connected, smooth hypersurface without
 Assume that $M_0$ is uniformly convex, that is, all [[principal curvatures|FA8QE1SGP4]] of $M_0$ are positive at every point.
 Then:
 
-1. The mean curvature flow starting from $M_0$ has a unique smooth solution $(M_t)_{0 \le t < T}$ on a maximal time interval with $T < \infty$.
+1. The [[mean curvature flow|2YYV01C7QQ]] starting from $M_0$ has a unique smooth solution $(M_t)_{0 \le t < T}$ on a maximal time interval with $T < \infty$.
 2. Each $M_t$ is uniformly convex.
 3. As $t \to T$, the hypersurfaces $M_t$ shrink to a single point $p \in \R^{n+1}$.
 4. The rescaled hypersurfaces $(2n(T - t))^{-1/2}(M_t - p)$ converge smoothly to the unit sphere $S^n$ as $t \to T$.

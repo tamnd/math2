@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $G$ be a topological group.
+Let $G$ be a [[topological group|92700QAB5Y]].
 A *classifying space* of $G$ is the base space $B$ of a [[universal principal $G$-bundle|1HDH716Z24]] $E \to B$.
 It is written $BG$, and the total space is written $EG$.
 
@@ -28,4 +28,4 @@ Non-example: $\C P^1$ is not a classifying space of $S^1$.
 The bundle $S^3 \to \C P^1$ is a principal $S^1$-bundle, but its total space $S^3$ is not contractible, and $\pi_3(\C P^1) \cong \Z$ while $\pi_3(\C P^\infty) = 0$.
 
 For a discrete group $G$, a classifying space is the same as a [[classifying space of the group|WA796ZCNRX]], an Eilenberg–MacLane space $K(G, 1)$.
-Other examples: $BO(n)$ and $BU(n)$ are infinite Grassmannians, and $B\Z = S^1$.
+Other examples: $BO(n)$ and $BU(n)$ are infinite [[Grassmannians|CYPA882RB9]], and $B\Z = S^1$.

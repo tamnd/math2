@@ -14,9 +14,9 @@ same_as:
 
 An arithmetic group is a group of integer matrices cut out by polynomial equations, such as $\mathrm{SL}_n(\Z)$.
 A group that agrees with such a group up to finite index is also arithmetic.
-Arithmetic groups link number theory with the geometry of Lie groups.
-For a semisimple group, a theorem of Borel and Harish-Chandra says that the arithmetic subgroups are lattices in the real Lie group.
-The Margulis arithmeticity theorem shows that in higher rank all irreducible lattices arise this way.
+Arithmetic groups link number theory with the geometry of [[Lie groups|7JBRGCVJRB]].
+For a semisimple group, a theorem of Borel and Harish-Chandra says that the arithmetic subgroups are [[lattices|BTYF5Y5PFY]] in the real Lie group.
+The [[Margulis arithmeticity theorem|FEJK846N5X]] shows that in higher rank all irreducible lattices arise this way.
 
 ## Explanations
 

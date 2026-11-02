@@ -10,7 +10,7 @@ sources:
 
 ## Summary
 
-A Sullivan minimal model is a free graded-commutative differential graded algebra over $\Q$ with a decomposable differential.
+A Sullivan minimal model is a free graded-commutative [[differential graded algebra|GQVAXW5X09]] over $\Q$ with a decomposable differential.
 It models the rational homotopy type of a space.
 Every simply connected space of finite type has a minimal model, unique up to isomorphism.
 Its generators in degree $n$ form the dual of the rational homotopy group $\pi_n(X) \otimes \Q$, and its cohomology is the rational cohomology of $X$.

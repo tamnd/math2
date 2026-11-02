@@ -13,7 +13,7 @@ same_as:
 ## Summary
 
 A near-field is an algebraic structure like a [[division ring|0EA5BTA0CX]], except that only one of the two distributive laws is required.
-It is a near-ring with identity in which every nonzero element has a multiplicative inverse.
+It is a [[near-ring|ARAEEM8CVF]] with identity in which every nonzero element has a multiplicative inverse.
 Near-fields were first constructed by Dickson, and they coordinatize certain projective planes that are not Desarguesian.
 
 ## Explanations

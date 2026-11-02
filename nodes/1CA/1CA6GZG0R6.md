@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-Tate cohomology joins the cohomology and the [[homology|CFAG3VRXEA]] of a finite group $G$ into one sequence of groups $\hat H^n(G, M)$ indexed by all integers $n$.
+Tate [[cohomology|YXJXA0Q52R]] joins the cohomology and the [[homology|CFAG3VRXEA]] of a finite group $G$ into one sequence of groups $\hat H^n(G, M)$ indexed by all integers $n$.
 It agrees with ordinary cohomology in positive degrees and with homology in degrees at most $-2$.
 In the two middle degrees it is modified with the norm map.
 A short exact sequence of modules gives a long exact sequence infinite in both directions.

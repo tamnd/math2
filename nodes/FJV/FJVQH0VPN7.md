@@ -12,7 +12,7 @@ sources:
 ## Definition
 
 Let $(X, g)$ be an [[oriented|913WEQERBE]] [[Riemannian manifold|7CBT4SM83Y]] of dimension $4$, and let $\star$ be its [[Hodge star|1Y4WX4XQWJ]], which maps 2-forms to 2-forms.
-Let $G$ be a compact Lie group with Lie algebra $\mathfrak{g}$, and let $P \to X$ be a [[principal|8E37E74XVP]] $G$-bundle.
+Let $G$ be a compact [[Lie group|7JBRGCVJRB]] with Lie algebra $\mathfrak{g}$, and let $P \to X$ be a [[principal|8E37E74XVP]] $G$-bundle.
 Let $A$ be a [[connection|NJ21PN5ZGJ]] on $P$ with [[curvature|ZAJFW1S078]] $F_A$, a 2-form on $X$ with values in the adjoint bundle $P \times_G \mathfrak{g}$.
 The connection $A$ is an *instanton*, or anti-self-dual connection, if
 $$\star F_A = -F_A.$$

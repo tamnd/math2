@@ -19,7 +19,7 @@ Let $n \ge 1$ and consider [[Lp spaces|SASP14MA1Z]] on $\R^n$ with [[Lebesgue me
 Let $1 \le p, q, r \le \infty$ with
 $$\frac{1}{p} + \frac{1}{q} = 1 + \frac{1}{r}.$$
 Let $f \in L^p(\R^n)$ and $g \in L^q(\R^n)$.
-Then the convolution
+Then the [[convolution|2Z29JN3VES]]
 $$(f * g)(x) = \int_{\R^n} f(y) \, g(x - y) \, dy$$
 converges absolutely for almost every $x \in \R^n$, the function $f * g$ lies in $L^r(\R^n)$, and
 $$\norm{f * g}_r \le \norm{f}_p \norm{g}_q.$$

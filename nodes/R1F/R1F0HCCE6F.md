@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $R$ be a [[commutative ring|0GYGHKX834]] and let $A$ be an associative algebra over $R$.
+Let $R$ be a [[commutative ring|0GYGHKX834]] and let $A$ be an [[associative algebra|3CTW1P4HBP]] over $R$.
 A *derivation* of $A$ over $R$ is a map $D \colon A \to A$ such that:
 
 1. $D$ is $R$-[[linear|0RJF668P1T]]: $D(a + b) = D(a) + D(b)$ and $D(ra) = r D(a)$ for all $a, b \in A$ and $r \in R$.

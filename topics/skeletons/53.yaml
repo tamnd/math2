@@ -39,7 +39,7 @@ items:
   - {name: geodesic curvature, kind: definition, wikipedia: Geodesic curvature, wikidata: Q1460595, node: 550P8PFMVC}
   - {name: Gauss–Bonnet theorem, kind: statement, wikipedia: Gauss–Bonnet theorem, wikidata: Q742833, node: ESGEHKPD60}
   - {name: surface of revolution, kind: example, wikipedia: Surface of revolution, wikidata: Q849425, node: NE09EDK19V}
-  - {name: ruled surface, kind: definition, wikipedia: Ruled surface, wikidata: Q840376}
+  - {name: ruled surface, kind: definition, wikipedia: Ruled surface, wikidata: Q840376, node: 5NK10NGY13}
   - {name: developable surface, kind: definition, wikipedia: Developable surface, wikidata: Q336298, node: YKVHDB52XW}
   - {name: pseudosphere, kind: example, wikipedia: Pseudosphere, wikidata: Q1458609, node: 44WEBQSKEY}
   - {name: Hilbert's theorem on the hyperbolic plane, kind: statement, wikipedia: Hilbert's theorem (differential geometry), wikidata: Q2008549, node: XM772FD0BS}
@@ -53,8 +53,8 @@ items:
   - {name: Enneper surface, kind: example, wikipedia: Enneper surface, wikidata: Q615502, node: 73XN6AS0WX}
   - {name: Costa's minimal surface, kind: example, wikipedia: Costa's minimal surface, wikidata: Q2528773, node: EF0QMQB2J1}
   - {name: Weierstrass–Enneper parameterization, kind: statement, wikipedia: Weierstrass–Enneper parameterization, wikidata: Q7979830, node: YWV6J23AP6}
-  - {name: Plateau's problem, kind: problem, wikipedia: Plateau's problem, wikidata: Q1972021}
-  - {name: Bernstein's problem, kind: problem, wikipedia: Bernstein's problem, wikidata: Q4894564}
+  - {name: Plateau's problem, kind: problem, wikipedia: Plateau's problem, wikidata: Q1972021, node: DVYA6GD8RN}
+  - {name: Bernstein's problem, kind: problem, wikipedia: Bernstein's problem, wikidata: Q4894564, node: NP948D6FR0}
   - {name: constant-mean-curvature surface, kind: definition, wikipedia: Constant-mean-curvature surface, wikidata: Q5163611, node: RPBKZ7E9VE}
   - {name: Wente torus, kind: counterexample, wikipedia: Wente torus, wikidata: Q7982981, node: E5NNY7XM44}
   - {name: Willmore energy, kind: definition, wikipedia: Willmore energy, wikidata: Q2581692, node: R7WFJGJBV4}
@@ -67,7 +67,7 @@ items:
   - {name: diffeomorphism, kind: definition, decl: Diffeomorph, wikipedia: Diffeomorphism, wikidata: Q1058314, node: 0KZZ70ZHXP}
   - {name: partition of unity, kind: definition, decl: SmoothPartitionOfUnity, wikipedia: Partition of unity, wikidata: Q191690, node: NH739XXVXK}
   - {name: fiber bundle, kind: definition, decl: FiberBundle, wikipedia: Fiber bundle, wikidata: Q1154996, mathlib: [mathlib-overview], node: CX4M8K61AB}
-  - {name: vector bundle, kind: definition, decl: VectorBundle, wikipedia: Vector bundle, wikidata: Q658429, mathlib: [mathlib-overview]}
+  - {name: vector bundle, kind: definition, decl: VectorBundle, wikipedia: Vector bundle, wikidata: Q658429, mathlib: [mathlib-overview], node: P4DZM975BV}
   - {name: section of a vector bundle, kind: definition, decl: ContMDiffSection, wikipedia: Section (fiber bundle), wikidata: Q11703678, node: WWX7H5W1RP}
   - {name: principal bundle, kind: definition, wikipedia: Principal bundle, wikidata: Q1365548, node: 8E37E74XVP}
   - {name: frame bundle, kind: definition, wikipedia: Frame bundle, wikidata: Q5477902, node: F4HWTRNXAP}
@@ -79,7 +79,7 @@ items:
   - {name: differential form, kind: definition, wikipedia: Differential form, wikidata: Q1047080, node: 0E3G0GRPZ6}
   - {name: exterior derivative, kind: definition, decl: extDeriv, wikipedia: Exterior derivative, wikidata: Q1754547, node: 0ZHSTAG8ZY}
   - {name: Frobenius theorem, kind: statement, wikipedia: Frobenius theorem (differential topology), wikidata: Q837551, node: 5Q4BHBFXJY}
-  - {name: Lie group, kind: definition, decl: LieGroup, wikipedia: Lie group, wikidata: Q622679, mathlib: [mathlib-overview]}
+  - {name: Lie group, kind: definition, decl: LieGroup, wikipedia: Lie group, wikidata: Q622679, mathlib: [mathlib-overview], node: 7JBRGCVJRB}
   - {name: symplectic group, kind: object, decl: Matrix.symplecticGroup, wikipedia: Symplectic group, wikidata: Q936434, node: X12FS2JAP0}
   - {name: G-structure, kind: definition, wikipedia: G-structure on a manifold, wikidata: Q5511959, node: VYNQVZ8XVF}
   # Connections and curvature
@@ -152,7 +152,7 @@ items:
   - {name: Weitzenböck identity, kind: statement, wikipedia: Weitzenböck identity, wikidata: Q7980430, node: BE9GTWMN0B}
   - {name: Chern–Gauss–Bonnet theorem, kind: statement, wikipedia: Chern–Gauss–Bonnet theorem, wikidata: Q11704319, node: GG6NYPKMHX}
   - {name: Hopf conjecture, kind: conjecture, wikipedia: Hopf conjectures, wikidata: Q5900498}
-  - {name: Yamabe problem, kind: problem, wikipedia: Yamabe problem, wikidata: Q3406245}
+  - {name: Yamabe problem, kind: problem, wikipedia: Yamabe problem, wikidata: Q3406245, node: 63ZT8D3DXD}
   - {name: positive mass theorem, kind: statement, wikipedia: Positive energy theorem, wikidata: Q4179283, node: PYRPXHNQTB}
   # Analysis on Riemannian manifolds
   - {name: Hodge star operator, kind: definition, wikipedia: Hodge star operator, wikidata: Q1622692, node: 1Y4WX4XQWJ}
@@ -161,7 +161,7 @@ items:
   - {name: harmonic map, kind: definition, wikipedia: Harmonic map, wikidata: Q5659257, node: KZJYG9DS3M}
   - {name: spin structure, kind: definition, wikipedia: Spin structure, wikidata: Q7577418, node: RSPZ9TCFQ8}
   - {name: spinor bundle, kind: definition, wikipedia: Spinor bundle, wikidata: Q1049915, node: PYYQQKAZ0C}
-  - {name: Yang–Mills equations, kind: definition, wikipedia: Yang–Mills equations, wikidata: Q85816613}
+  - {name: Yang–Mills equations, kind: definition, wikipedia: Yang–Mills equations, wikidata: Q85816613, node: JJWETW5AT8}
   - {name: instanton, kind: definition, wikipedia: Instanton, wikidata: Q1192916, node: YWBTGC7MFA}
   # Metric and synthetic methods in global geometry
   - {name: Gromov–Hausdorff convergence, kind: definition, wikipedia: Gromov–Hausdorff convergence, wikidata: Q929777, node: GT56RTG9X5}
@@ -172,7 +172,7 @@ items:
   - {name: Loewner's torus inequality, kind: statement, wikipedia: Loewner's torus inequality, wikidata: Q3154012, node: 1Y9X1YW6GH}
   - {name: Gromov's systolic inequality, kind: statement, wikipedia: Gromov's systolic inequality for essential manifolds, wikidata: Q5610194, node: HB2K72PSZ6}
   # Homogeneous and symmetric spaces
-  - {name: homogeneous space, kind: definition, wikipedia: Homogeneous space, wikidata: Q1324364}
+  - {name: homogeneous space, kind: definition, wikipedia: Homogeneous space, wikidata: Q1324364, node: 85TWR6E75P}
   - {name: symmetric space, kind: definition, wikipedia: Symmetric space, wikidata: Q3058244, node: PAA93R4WYD}
   - {name: Cartan's classification of symmetric spaces, kind: statement, wikipedia: Symmetric space, wikidata: Q3058244, node: 9P8VK3H4YZ}
   # Complex, Kähler and special holonomy geometry
@@ -183,7 +183,7 @@ items:
   - {name: Kähler–Einstein metric, kind: definition, wikipedia: Kähler–Einstein metric, wikidata: Q6453393, node: 6ETEBA8827}
   - {name: Calabi conjecture, kind: statement, wikipedia: Calabi conjecture, wikidata: Q5018293, node: WJKA5YBTJ7}
   - {name: Yau–Tian–Donaldson conjecture, kind: statement, wikipedia: K-stability, wikidata: Q85772692, node: DHYSPSYSCB}
-  - {name: Calabi–Yau manifold, kind: definition, wikipedia: Calabi–Yau manifold, wikidata: Q549959}
+  - {name: Calabi–Yau manifold, kind: definition, wikipedia: Calabi–Yau manifold, wikidata: Q549959, node: STYAB4PFDW}
   - {name: hyperkähler manifold, kind: definition, wikipedia: Hyperkähler manifold, wikidata: Q3082377, node: 87AWY7NQS0}
   - {name: quaternion-Kähler manifold, kind: definition, wikipedia: Quaternion-Kähler manifold, wikidata: Q7269561, node: NAJBH8GJMM}
   - {name: G2 manifold, kind: definition, wikipedia: G2 manifold, wikidata: Q5512692, node: P1TFW9QWAD}
@@ -209,13 +209,13 @@ items:
   - {name: Gromov's non-squeezing theorem, kind: statement, wikipedia: Non-squeezing theorem, wikidata: Q3527214, node: RDX55HQ3XT}
   - {name: symplectic capacity, kind: definition, wikipedia: Non-squeezing theorem, wikidata: Q3527214, node: 8KCB5KJKNT}
   - {name: pseudoholomorphic curve, kind: definition, wikipedia: Pseudoholomorphic curve, wikidata: Q2115749, node: N469E47V75}
-  - {name: Gromov–Witten invariant, kind: definition, wikipedia: Gromov–Witten invariant, wikidata: Q1547297}
+  - {name: Gromov–Witten invariant, kind: definition, wikipedia: Gromov–Witten invariant, wikidata: Q1547297, node: XVJA0JD79P}
   - {name: Floer homology, kind: concept, wikipedia: Floer homology, wikidata: Q652525, node: NCKFPAGHXF}
   - {name: Arnold conjecture, kind: conjecture, wikipedia: Arnold conjecture, wikidata: Q115803233}
   - {name: Fukaya category, kind: definition, wikipedia: Fukaya category, wikidata: Q5507585, node: 4HS60JABC5}
   - {name: homological mirror symmetry, kind: conjecture, wikipedia: Homological mirror symmetry, wikidata: Q11338004, node: B5N9WJH5F0}
   - {name: Poisson manifold, kind: definition, wikipedia: Poisson manifold, wikidata: Q1464936, node: A2KQ49Y4NF}
-  - {name: deformation quantization, kind: concept, wikipedia: Deformation quantization, wikidata: Q131143202}
+  - {name: deformation quantization, kind: concept, wikipedia: Deformation quantization, wikidata: Q131143202, node: 3MKSJ1J04K}
   - {name: Kontsevich quantization formula, kind: statement, wikipedia: Kontsevich quantization formula, wikidata: Q6430406, node: JZEK70CH3G}
   - {name: geometric quantization, kind: concept, wikipedia: Geometric quantization, wikidata: Q630426, node: FG33N4ZHDG}
   # Contact geometry
@@ -228,16 +228,16 @@ items:
   # Geometric evolution equations
   - {name: curve-shortening flow, kind: definition, wikipedia: Curve-shortening flow, wikidata: Q18349490, node: DVGFRRYK10}
   - {name: Gage–Hamilton–Grayson theorem, kind: statement, wikipedia: Curve-shortening flow, wikidata: Q18349490, node: FVGW1381TZ}
-  - {name: mean curvature flow, kind: definition, wikipedia: Mean curvature flow, wikidata: Q6803617}
+  - {name: mean curvature flow, kind: definition, wikipedia: Mean curvature flow, wikidata: Q6803617, node: 2YYV01C7QQ}
   - {name: Huisken's theorem on convex hypersurfaces, kind: statement, wikipedia: Mean curvature flow, wikidata: Q6803617, node: 14RHHMGF2D}
   - {name: inverse mean curvature flow, kind: definition, wikipedia: Inverse mean curvature flow, wikidata: Q6060395, node: 5XVEF5DKAG}
   - {name: Riemannian Penrose inequality, kind: statement, wikipedia: Riemannian Penrose inequality, wikidata: Q7333121, node: Q5EWVTA2RW}
-  - {name: Ricci flow, kind: definition, wikipedia: Ricci flow, wikidata: Q1361396}
+  - {name: Ricci flow, kind: definition, wikipedia: Ricci flow, wikidata: Q1361396, node: CR14D9YQTY}
   - {name: Yamabe flow, kind: definition, wikipedia: Yamabe flow, wikidata: Q8047576, node: AC6WNX8F9Z}
   - {name: Calabi flow, kind: definition, wikipedia: Calabi flow, wikidata: Q5018295, node: 9FBJED00CP}
   - {name: Willmore flow, kind: definition, wikipedia: Willmore energy, wikidata: Q2581692, node: MSRAD0X7H4}
   # Applications to physics and science
-  - {name: Einstein field equations, kind: definition, wikipedia: Einstein field equations, wikidata: Q273711}
+  - {name: Einstein field equations, kind: definition, wikipedia: Einstein field equations, wikidata: Q273711, node: 3MCZ97SW6V}
   - {name: Schwarzschild metric, kind: example, wikipedia: Schwarzschild metric, wikidata: Q742969, node: 6Y50T68WKY}
   - {name: Penrose–Hawking singularity theorems, kind: statement, wikipedia: Penrose–Hawking singularity theorems, wikidata: Q1452678, node: WP4YAHJ6V4}
   - {name: information geometry, kind: concept, wikipedia: Information geometry, wikidata: Q3798604, node: F64Z9541DV}

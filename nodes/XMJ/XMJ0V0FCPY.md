@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $G$ be a topological group and let $\pi \colon P \to B$ be a [[principal $G$-bundle|8E37E74XVP]], with $G$ acting on $P$ from the right.
+Let $G$ be a [[topological group|92700QAB5Y]] and let $\pi \colon P \to B$ be a [[principal $G$-bundle|8E37E74XVP]], with $G$ acting on $P$ from the right.
 Let $F$ be a topological space with a continuous left [[action|0WCY42EV9V]] of $G$.
 On $P \times F$, with the [[product topology|0GBG8B49AA]], let $G$ act by $g \cdot (p, f) = (p g^{-1}, g f)$.
 The *associated bundle* with fiber $F$ is the [[quotient space|0BR3FY5Q8M]]

@@ -20,7 +20,7 @@ For $k \ge 0$, let $C_k$ be the $\Z/2$-vector space with basis the critical poin
 Let $p$ be a critical point of index $k$ and $q$ one of index $k - 1$.
 Let $n(p, q) \in \Z/2$ be the number, modulo $2$, of flow lines of $-\nabla f$ from $p$ to $q$, counted up to time shift; it is finite.
 Let $\partial \colon C_k \to C_{k-1}$ be the linear map with $\partial p = \sum_q n(p, q) \, q$.
-Then $\partial \circ \partial = 0$, and the *Morse homology* of $(f, g)$ is the homology of the chain complex $(C_*, \partial)$.
+Then $\partial \circ \partial = 0$, and the *Morse homology* of $(f, g)$ is the homology of the [[chain complex|WQ82C0M3QB]] $(C_*, \partial)$.
 
 ## Remarks
 

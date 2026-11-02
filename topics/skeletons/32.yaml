@@ -222,14 +222,14 @@ items:
   # Complex spaces with automorphism groups
   - {name: automorphism group of a bounded domain is a Lie group, kind: statement, wikipedia: Hermitian symmetric space, wikidata: Q5741926}
   - {name: bounded symmetric domain, kind: definition, wikipedia: Hermitian symmetric space, wikidata: Q5741926}
-  - {name: Hermitian symmetric space, kind: definition, wikipedia: Hermitian symmetric space, wikidata: Q5741926}
+  - {name: Hermitian symmetric space, kind: definition, wikipedia: Hermitian symmetric space, wikidata: Q5741926, node: NT4797Z9H8}
   - {name: Cartan's classification of bounded symmetric domains, kind: statement, wikipedia: Hermitian symmetric space, wikidata: Q5741926}
   - {name: Harish-Chandra embedding, kind: statement, wikipedia: Hermitian symmetric space, wikidata: Q5741926}
   - {name: Siegel upper half-space, kind: object, wikipedia: Siegel upper half-space, wikidata: Q2283003}
   - {name: Siegel modular form, kind: definition, wikipedia: Siegel modular form, wikidata: Q7510567}
   - {name: Baily–Borel compactification, kind: statement, wikipedia: Baily–Borel compactification, wikidata: Q4848497}
   # Non-Archimedean analytic geometry
-  - {name: rigid analytic space, kind: definition, wikipedia: Rigid analytic space, wikidata: Q7333799}
+  - {name: rigid analytic space, kind: definition, wikipedia: Rigid analytic space, wikidata: Q7333799, node: YAH6MZVG7K}
   - {name: Tate algebra, kind: definition, wikipedia: Restricted power series, wikidata: Q96401593}
   - {name: Berkovich space, kind: definition, wikipedia: Berkovich space, wikidata: Q4892205}
   - {name: adic space, kind: definition, wikipedia: Rigid analytic space, wikidata: Q7333799}

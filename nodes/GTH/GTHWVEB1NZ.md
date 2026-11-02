@@ -15,7 +15,7 @@ Let $n \ge 1$ and let $E(n)$ be the [[Euclidean group|0H3YY8CPKH]] of all [[isom
 Each element of $E(n)$ is a map $x \mapsto Ax + b$ with $A$ in the [[orthogonal group|0TKYAEJ8N7]] $O(n)$ and $b \in \R^n$, and $E(n)$ carries the topology of $O(n) \times \R^n$.
 A subgroup $\Gamma$ of $E(n)$ is a *crystallographic group* of dimension $n$ if:
 
-1. $\Gamma$ is a discrete subgroup of $E(n)$.
+1. $\Gamma$ is a [[discrete subgroup|5M7D1BSHVZ]] of $E(n)$.
 2. The quotient space $\R^n / \Gamma$ of orbits is [[compact|0TVJZYB6SH]].
 
 ## Remarks

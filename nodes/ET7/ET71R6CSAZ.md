@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $A$ be a complex Banach algebra.
+Let $A$ be a complex [[Banach algebra|9KYWN94QDN]].
 A *Banach $A$-bimodule* is a Banach space $X$ with bounded bilinear left and right actions $A \times X \to X$ and $X \times A \to X$ that make $X$ an $A$-bimodule.
 The [[dual space|4A82S5FVRT]] $X^*$ is then a Banach $A$-bimodule with $(a \cdot f)(x) = f(x \cdot a)$ and $(f \cdot a)(x) = f(a \cdot x)$ for $a \in A$, $f \in X^*$, $x \in X$.
 A bounded linear map $D \colon A \to X^*$ is a *[[derivation|3J89REV9WQ]]* if $D(ab) = a \cdot D(b) + D(a) \cdot b$ for all $a, b \in A$.

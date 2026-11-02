@@ -183,10 +183,10 @@ items:
   - {name: Milstein method, kind: statement, wikipedia: Milstein method, wikidata: Q1396217}
   - {name: Runge–Kutta method for stochastic differential equations, kind: statement, wikipedia: Runge–Kutta method (SDE), wikidata: Q7379855}
   # Time-dependent partial differential equations
-  - {name: finite difference method, kind: concept, wikipedia: Finite difference method, wikidata: Q1147751}
+  - {name: finite difference method, kind: concept, wikipedia: Finite difference method, wikidata: Q1147751, node: X7HYEBA5SA}
   - {name: Crank–Nicolson method, kind: statement, wikipedia: Crank–Nicolson method, wikidata: Q588725}
-  - {name: Courant–Friedrichs–Lewy condition, kind: statement, wikipedia: Courant–Friedrichs–Lewy condition, wikidata: Q1023483}
-  - {name: Lax equivalence theorem, kind: statement, wikipedia: Lax equivalence theorem, wikidata: Q256303}
+  - {name: Courant–Friedrichs–Lewy condition, kind: statement, wikipedia: Courant–Friedrichs–Lewy condition, wikidata: Q1023483, node: FQVVNYV6N8}
+  - {name: Lax equivalence theorem, kind: statement, wikipedia: Lax equivalence theorem, wikidata: Q256303, node: D5M7TRD3MY}
   - {name: von Neumann stability analysis, kind: statement, wikipedia: Von Neumann stability analysis, wikidata: Q458556}
   - {name: method of lines, kind: concept, wikipedia: Method of lines, wikidata: Q1826712}
   - {name: alternating-direction implicit method, kind: statement, wikipedia: Alternating-direction implicit method, wikidata: Q4736413}
@@ -203,7 +203,7 @@ items:
   - {name: level-set method, kind: concept, wikipedia: Level-set method, wikidata: Q1751397}
   - {name: fast marching method, kind: statement, wikipedia: Fast marching method, wikidata: Q5437042}
   # Boundary value problems and finite elements
-  - {name: finite element method, kind: concept, wikipedia: Finite element method, wikidata: Q220184}
+  - {name: finite element method, kind: concept, wikipedia: Finite element method, wikidata: Q220184, node: 98GZ9DVHTA}
   - {name: Galerkin method, kind: statement, wikipedia: Galerkin method, wikidata: Q1491980}
   - {name: Céa's lemma, kind: statement, wikipedia: Céa's lemma, wikidata: Q1816912}
   - {name: Bramble–Hilbert lemma, kind: statement, wikipedia: Bramble–Hilbert lemma, wikidata: Q1816909}

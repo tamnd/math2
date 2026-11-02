@@ -22,7 +22,7 @@ The field $K$ is a *topological field* if the following maps are [[continuous|0P
 
 ## Remarks
 
-Clauses 1 to 3 say that $K$ is a topological ring.
+Clauses 1 to 3 say that $K$ is a [[topological ring|TSF8RZDD5B]].
 Many authors also require the topology to be Hausdorff and not discrete.
 Example: $\R$ with the usual topology is a topological field.
 Clauses 1 to 3 are the limit rules for sums, negatives and products, and clause 4 holds because $x \mapsto 1/x$ is continuous on $\R \setminus \set{0}$.

@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $\mathbb{K}$ be $\R$ or $\C$, and let $E$ be a topological vector space over $\mathbb{K}$.
+Let $\mathbb{K}$ be $\R$ or $\C$, and let $E$ be a [[topological vector space|T32W553W95]] over $\mathbb{K}$.
 A subset $B \subseteq E$ is *von Neumann bounded*, or *bounded*, if the following holds.
 For every [[neighbourhood|0ZCY0Z80B6]] $U$ of $0$ in $E$ there is $s > 0$ such that $B \subseteq t U$ for every $t \in \mathbb{K}$ with $\abs{t} > s$.
 

@@ -11,7 +11,7 @@ sources:
 ## Summary
 
 A topological field is a [[field|04C5ZBG1WT]] with a [[topology|0CQHFPGJ45]] in which addition, multiplication, negation and inversion are continuous, see the [[definition|H4FS63VY0Y]].
-It is a field that is also a topological ring and in which taking inverses is continuous.
+It is a field that is also a [[topological ring|TSF8RZDD5B]] and in which taking inverses is continuous.
 The real numbers, the complex numbers, the [[p-adic numbers|BT6T702C28]] and every field with an absolute value are topological fields.
 The notion is the common setting for analysis over fields other than $\R$ and $\C$.
 

@@ -11,9 +11,9 @@ sources:
 
 ## Definition
 
-A *frame* is a complete lattice $L$ such that $a \wedge \bigvee_{i \in I} b_i = \bigvee_{i \in I} (a \wedge b_i)$ for every $a \in L$ and every family $(b_i)_{i \in I}$ in $L$.
+A *[[frame|306PWGH7BF]]* is a complete lattice $L$ such that $a \wedge \bigvee_{i \in I} b_i = \bigvee_{i \in I} (a \wedge b_i)$ for every $a \in L$ and every family $(b_i)_{i \in I}$ in $L$.
 A *frame homomorphism* is a map between frames that preserves finite meets, including the top element, and arbitrary joins, including the bottom element.
-The category of *locales* is the opposite of the category of frames and frame homomorphisms.
+The category of *[[locales|G2QNFT210W]]* is the opposite of the category of frames and frame homomorphisms.
 *Pointless topology* is the study of locales.
 Each topological space $X$ gives the locale $\Omega(X)$, the frame of [[open sets|02BH3MCBQB]] of $X$ ordered by inclusion.
 Each [[continuous map|0X3WGX95FE]] $f \colon X \to Y$ gives the frame homomorphism $f^{-1} \colon \Omega(Y) \to \Omega(X)$, hence a locale map $\Omega(X) \to \Omega(Y)$.

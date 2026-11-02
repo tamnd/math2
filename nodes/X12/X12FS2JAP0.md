@@ -26,7 +26,7 @@ Check: $I^T \Omega I = \Omega$; if $M^T \Omega M = \Omega$ and $N^T \Omega N = \
 The group $\operatorname{Sp}(2n, \mathbb{K})$ is the group of linear maps of $\mathbb{K}^{2n}$ that preserve the standard symplectic form $\omega(x, y) = x^T \Omega y$; see [[symplectic vector space|PQ7JJY0VPH]].
 Every symplectic matrix has determinant $1$, so $\operatorname{Sp}(2n, \mathbb{K})$ lies in the [[special linear group|0V9PMN0RBH]].
 For $n = 1$, every $2 \times 2$ matrix $M$ satisfies $M^T \Omega M = (\det M)\, \Omega$, so $\operatorname{Sp}(2, \mathbb{K}) = \operatorname{SL}(2, \mathbb{K})$.
-For $\mathbb{K} = \R$ it is a connected noncompact Lie group of dimension $n(2n + 1)$.
+For $\mathbb{K} = \R$ it is a connected noncompact [[Lie group|7JBRGCVJRB]] of dimension $n(2n + 1)$.
 The notation $\operatorname{Sp}(n)$ is also used for the compact symplectic group, the quaternionic unitary group, which is a different group.
 
 ## Explanations

@@ -12,7 +12,7 @@ sources:
 The genus of a closed orientable [[surface|VGJJVBZ1MQ]] is its number of handles.
 It is the largest number of disjoint simple closed curves along which the surface can be cut without falling apart.
 By the [[classification of surfaces|2SFM73YET0]], the genus determines a closed orientable surface up to homeomorphism, and it is related to the [[Euler characteristic|RNDDWDAFJ5]] by $\chi = 2 - 2g$.
-The same number appears as the genus of an algebraic curve and of a compact Riemann surface.
+The same number appears as the [[genus of an algebraic curve|6W8TDV9VVN]] and of a compact Riemann surface.
 
 ## Explanations
 

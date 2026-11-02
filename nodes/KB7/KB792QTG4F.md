@@ -12,14 +12,14 @@ sources:
 
 ## Statement
 
-Let $G$ be a locally compact Hausdorff topological group.
+Let $G$ be a [[locally compact|AHV05ZBCYW]] Hausdorff [[topological group|92700QAB5Y]].
 
 1. There is a nonzero [[Radon measure|HZNEQQBCW4]] $\mu$ on the Borel sets of $G$ that is left-invariant: $\mu(gA) = \mu(A)$ for every $g \in G$ and every Borel set $A \subseteq G$.
 2. If $\nu$ is another nonzero left-invariant Radon measure on $G$, then $\nu = c \mu$ for some constant $c > 0$.
 
 ## Remarks
 
-Such a measure is a left Haar measure of $G$.
+Such a measure is a left [[Haar measure|VY0HXD3GC4]] of $G$.
 One proof compares the size of a compact set $K$ with the number of translates of a small open set needed to cover it.
 These ratios have a limit point, by a compactness argument, which gives an invariant content and then a Radon measure.
 Another proof builds an invariant positive linear functional on compactly supported continuous functions and applies the [[Riesz–Markov–Kakutani representation theorem|DWFPDF8XTB]].

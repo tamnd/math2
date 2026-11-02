@@ -15,7 +15,7 @@ same_as:
 The Palais–Smale condition is a compactness hypothesis on a continuously differentiable functional on a Banach space.
 It asks that every sequence along which the functional stays bounded and its derivative tends to zero has a convergent subsequence.
 It replaces the compactness of closed bounded sets, which fails in infinite dimensions, in the search for [[critical points|0YTCMFB4HC]].
-It is the main hypothesis of the mountain pass theorem and of many other minimax results.
+It is the main hypothesis of the [[mountain pass theorem|EPXNCSP2MN]] and of many other minimax results.
 
 ## Explanations
 

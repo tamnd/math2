@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $G$ be a topological group and let $X$ be a space with a continuous left [[action|0WCY42EV9V]] of $G$.
+Let $G$ be a [[topological group|92700QAB5Y]] and let $X$ be a space with a continuous left [[action|0WCY42EV9V]] of $G$.
 Let $EG \to BG$ be a [[universal principal $G$-bundle|1HDH716Z24]]: $EG$ is a contractible space with a free right action of $G$, and $BG = EG / G$ is the [[classifying space|WSZ40H5E4T]].
 The *Borel construction* (or homotopy quotient) is
 $$X_G = EG \times_G X = (EG \times X) / \sim, \qquad (e g, x) \sim (e, g x) \text{ for } g \in G.$$

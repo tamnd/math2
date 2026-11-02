@@ -15,7 +15,7 @@ same_as:
 
 A Dirac operator is a first-order differential operator $D$ whose square $D^2$ is a Laplace-type operator.
 It is a formal square root of the [[Laplacian|0E0B6RA8K0]], made possible by coefficients in a [[Clifford algebra|A38B1QFK20]].
-Dirac introduced such an operator to write a first-order relativistic equation for the electron, the Dirac equation.
+Dirac introduced such an operator to write a first-order relativistic equation for the electron, the [[Dirac equation|XNZX7VXXR2]].
 In geometry, Dirac operators on [[spinor bundles|PYYQQKAZ0C]] are elliptic, and their indices are computed by the Atiyah–Singer index theorem.
 
 ## Explanations

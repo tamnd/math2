@@ -45,7 +45,7 @@ items:
   - {name: Woltjer's theorem, kind: statement, wikipedia: Magnetic helicity, wikidata: Q11587832}
   # Maxwell's equations
   - {name: classical electromagnetism, kind: concept, wikipedia: Classical electromagnetism, wikidata: Q377930}
-  - {name: Maxwell's equations, kind: definition, wikipedia: Maxwell's equations, wikidata: Q51501}
+  - {name: Maxwell's equations, kind: definition, wikipedia: Maxwell's equations, wikidata: Q51501, node: 9BWWD4QK8Y}
   - {name: Faraday's law of induction, kind: statement, wikipedia: Faraday's law of induction, wikidata: Q181465}
   - {name: displacement current, kind: definition, wikipedia: Displacement current density, wikidata: Q853178}
   - {name: charge conservation, kind: statement, wikipedia: Charge conservation, wikidata: Q304054}
@@ -106,7 +106,7 @@ items:
   - {name: waveguide, kind: concept, wikipedia: Waveguide (radio frequency), wikidata: Q354724}
   - {name: transverse modes, kind: definition, wikipedia: Transverse mode, wikidata: Q597069}
   - {name: cutoff frequency, kind: definition, wikipedia: Cutoff frequency, wikidata: Q1455881}
-  - {name: telegrapher's equations, kind: definition, wikipedia: Telegrapher's equations, wikidata: Q1156880}
+  - {name: telegrapher's equations, kind: definition, wikipedia: Telegrapher's equations, wikidata: Q1156880, node: 1HR9NZM8B2}
   - {name: transmission line, kind: concept, wikipedia: Transmission line, wikidata: Q693004}
   - {name: cavity resonator, kind: concept, wikipedia: Microwave cavity, wikidata: Q5759014}
   - {name: optical fiber modes, kind: concept, wikipedia: Optical fiber, wikidata: Q162}

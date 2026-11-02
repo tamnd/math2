@@ -14,7 +14,7 @@ sources:
 Let $A$ be a [[commutative ring|0310REJJY8]].
 A [[topology|0CQHFPGJ45]] on $A$ is *linear* if it satisfies both conditions:
 
-1. With this topology, $A$ is a topological ring.
+1. With this topology, $A$ is a [[topological ring|TSF8RZDD5B]].
 2. The open [[ideals|096Z9MP2ME]] of $A$ form a fundamental system of neighbourhoods of $0$: every neighbourhood of $0$ contains an open ideal.
 
 More generally, let $M$ be an [[$A$-module|0NZ8JA25WK]] and give $A$ a linear topology.

@@ -17,9 +17,9 @@ history:
 
 ## Statement
 
-Let $X$ be a compact Calabi–Yau manifold, viewed as a symplectic manifold.
-Let $\check{X}$ be a Calabi–Yau manifold that is mirror to $X$ in the sense of mirror symmetry.
-Then the derived category of coherent sheaves $D^b\mathrm{Coh}(\check{X})$ is equivalent, as a triangulated category, to the split-closed derived [[Fukaya category|4HS60JABC5]] $D^\pi \mathcal{F}(X)$.
+Let $X$ be a compact [[Calabi–Yau manifold|STYAB4PFDW]], viewed as a symplectic manifold.
+Let $\check{X}$ be a Calabi–Yau manifold that is mirror to $X$ in the sense of [[mirror symmetry|YK3DMN2NSK]].
+Then the [[derived category|5ST7NVJFSM]] of coherent sheaves $D^b\mathrm{Coh}(\check{X})$ is equivalent, as a triangulated category, to the split-closed derived [[Fukaya category|4HS60JABC5]] $D^\pi \mathcal{F}(X)$.
 The same holds with the roles of $X$ and $\check{X}$ exchanged.
 
 ## Remarks

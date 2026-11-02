@@ -20,7 +20,7 @@ For multi-indices $\alpha, \beta$ with $\abs{\alpha}, \abs{\beta} \le k$, let $A
 Assume that $A_{\alpha\beta}$ is uniformly continuous on $\Omega$ when $\abs{\alpha} = \abs{\beta} = k$.
 Assume the uniform ellipticity condition: there is $\theta > 0$ with
 $$\operatorname{Re} \sum_{\abs{\alpha} = \abs{\beta} = k} A_{\alpha\beta}(x)\xi^\alpha\xi^\beta \ge \theta\abs{\xi}^{2k} \quad \text{for all } x \in \Omega,\ \xi \in \R^n.$$
-For $u, v$ in the Sobolev space $H^k_0(\Omega)$, let
+For $u, v$ in the [[Sobolev space|M4CEZ5K9HP]] $H^k_0(\Omega)$, let
 $$B(u, v) = \sum_{\abs{\alpha}, \abs{\beta} \le k} \int_\Omega A_{\alpha\beta}(x)\, \partial^\beta u(x)\, \overline{\partial^\alpha v(x)} \, dx.$$
 Then there are constants $c > 0$ and $G \ge 0$ such that
 $$\operatorname{Re} B(u, u) \ge c\norm{u}_{H^k(\Omega)}^2 - G\norm{u}_{L^2(\Omega)}^2 \quad \text{for all } u \in H^k_0(\Omega).$$
@@ -48,6 +48,6 @@ It is the basic estimate behind the existence of weak solutions to elliptic boun
 ### L2 human
 
 Adding $G$ to the operator, the form $B(u, v) + G\ip{u}{v}$ becomes coercive on $H^k_0(\Omega)$.
-The Lax–Milgram theorem then gives a unique weak solution of $(L + \lambda)u = f$ for every $f$ and every $\lambda \ge G$.
+The [[Lax–Milgram theorem|85KK79FCN5]] then gives a unique weak solution of $(L + \lambda)u = f$ for every $f$ and every $\lambda \ge G$.
 Combined with the compact embedding of $H^k_0(\Omega)$ in $L^2(\Omega)$, this yields the Fredholm alternative and a discrete spectrum for the Dirichlet problem.
 The constant $G$ cannot in general be taken to be $0$, because $L$ may have eigenvalues with negative real part.

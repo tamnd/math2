@@ -16,7 +16,7 @@ $$\abs{\Delta^n} = \set{(t_0, \dots, t_n) \in \R^{n+1} : t_i \ge 0, \ t_0 + \cdo
 be the standard topological $n$-simplex, with vertices $e_0, \dots, e_n$.
 An order-preserving map $\theta \colon [m] \to [n]$ induces the affine map $\theta_* \colon \abs{\Delta^m} \to \abs{\Delta^n}$ with $\theta_*(e_i) = e_{\theta(i)}$.
 Let $X$ be a [[topological space|0CNQXVBHCX]].
-The *singular simplicial set* $\operatorname{Sing} X$ is the simplicial set with:
+The *singular [[simplicial set|WW81ARB8K9]]* $\operatorname{Sing} X$ is the simplicial set with:
 
 1. $(\operatorname{Sing} X)_n$ the set of [[continuous maps|0SY9ECQ19Q]] $\sigma \colon \abs{\Delta^n} \to X$, called singular $n$-simplices.
 2. For $\theta \colon [m] \to [n]$ order-preserving, the map $\theta^* \colon (\operatorname{Sing} X)_n \to (\operatorname{Sing} X)_m$ given by $\theta^*(\sigma) = \sigma \circ \theta_*$.

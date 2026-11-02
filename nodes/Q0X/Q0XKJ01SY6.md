@@ -14,8 +14,8 @@ sources:
 Let $(M, g)$ be an oriented Riemannian manifold of dimension $n \ge 2$ with a [[spin structure|RSPZ9TCFQ8]] $(P, \xi)$, where $P$ is a principal $\operatorname{Spin}(n)$-bundle.
 Let $\Sigma_n$ be a complex vector space of dimension $2^{\floor{n/2}}$ that is an irreducible module over the complexified [[Clifford algebra|A38B1QFK20]] $\mathbb{C}\ell_n$.
 Let $\kappa \colon \operatorname{Spin}(n) \to GL(\Sigma_n)$ be the restriction of this module structure to $\operatorname{Spin}(n) \subset \mathbb{C}\ell_n$.
-It is the complex spin representation of the spin group.
-The *spinor bundle* of $(M, g, P, \xi)$ is the associated complex vector bundle
+It is the complex spin representation of the [[spin group|JJSXXJQGEH]].
+The *spinor bundle* of $(M, g, P, \xi)$ is the associated complex [[vector bundle|P4DZM975BV]]
 $$S = P \times_\kappa \Sigma_n = (P \times \Sigma_n) / \sim, \qquad (p \cdot a, v) \sim (p, \kappa(a) v) \text{ for } a \in \operatorname{Spin}(n).$$
 
 ## Remarks

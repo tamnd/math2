@@ -15,7 +15,7 @@ Let $(M, \omega)$ be a [[symplectic manifold|CAN490EPRT]] of dimension $2n$ and 
 Assume the integrality condition: the [[de Rham class|GX74C07T0G]] of $\omega / (2\pi\hbar)$ lies in the image of $H^2(M; \Z) \to H^2(M; \R)$.
 Geometric quantization consists of the following data and steps.
 
-1. (Prequantization) A *prequantum line bundle* is a Hermitian complex line bundle $L \to M$, a vector bundle of rank one, with a connection $\nabla$. The connection must preserve the Hermitian metric and have curvature $-\frac{i}{\hbar}\omega$.
+1. (Prequantization) A *prequantum line bundle* is a Hermitian complex line bundle $L \to M$, a [[vector bundle|P4DZM975BV]] of rank one, with a connection $\nabla$. The connection must preserve the Hermitian metric and have curvature $-\frac{i}{\hbar}\omega$.
 The *prequantum Hilbert space* is the space of sections $s$ of $L$ with $\int_M \abs{s}^2 \, \omega^n / n! < \infty$.
 To a smooth function $f$ it assigns the operator $\hat{f} = -i\hbar \nabla_{X_f} + f$ on sections, where $X_f$ is the [[Hamiltonian vector field|C5EH3B4BEP]] of $f$.
 2. (Polarization) A *polarization* is a subbundle $P \subset TM \otimes \C$ of complex rank $n$ that is closed under the Lie bracket of vector fields. The complex-bilinear extension of $\omega$ must vanish on $P$.

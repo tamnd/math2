@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-The Brauer group of a field $K$ is the group of classes of central simple algebras over $K$ up to matrix algebras, see the [[definition|EX34J8PP61]].
+The Brauer group of a field $K$ is the group of classes of [[central simple algebras|5HRKJBAY2V]] over $K$ up to matrix algebras, see the [[definition|EX34J8PP61]].
 Its product is given by the tensor product.
 Each class contains exactly one central [[division ring|0EA5BTA0CX]] up to isomorphism, so the group classifies the division algebras with center $K$ and finite dimension.
 It is isomorphic to the Galois cohomology group $H^2(K, (K^s)^\times)$, see [[Galois cohomology|9MPCZ3EAJM]].

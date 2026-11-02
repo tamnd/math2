@@ -41,7 +41,7 @@ If knowing that some coins show heads makes $f$ larger, it also makes $g$ larger
 
 ### L2 human
 
-The Harris inequality is the case of a product measure in the FKG inequality, which allows any measure on a distributive lattice satisfying the log-supermodularity condition.
+The Harris inequality is the case of a product measure in the [[FKG inequality|DCXJGS6E6D]], which allows any measure on a distributive lattice satisfying the log-supermodularity condition.
 Both follow from the [[Ahlswede–Daykin inequality|4085B8A528]].
 For the uniform measure on subsets of a finite set, it is Kleitman's lemma: two up-sets $\mathcal{A}, \mathcal{B}$ of subsets of $\set{1, \ldots, n}$ satisfy $2^n |\mathcal{A} \cap \mathcal{B}| \ge |\mathcal{A}| \, |\mathcal{B}|$.
 It is a standard tool in percolation theory and random graphs, often together with the [[Janson inequality|J3CT5D7FSZ]], which gives a bound in the other direction.

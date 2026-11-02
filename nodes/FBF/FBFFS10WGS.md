@@ -12,7 +12,7 @@ sources:
 ## Definition
 
 Let $G$ be a Lie group with Lie algebra $\mathfrak{g}$, and let $\mathbb{K}$ be $\R$ or $\C$.
-For $k \ge 0$, let $I^k(G)$ be the space of symmetric $k$-linear maps $f : \mathfrak{g}^k \to \mathbb{K}$ that are invariant under the adjoint action: $f(\mathrm{Ad}_g X_1, \dots, \mathrm{Ad}_g X_k) = f(X_1, \dots, X_k)$ for all $g \in G$.
+For $k \ge 0$, let $I^k(G)$ be the space of symmetric $k$-linear maps $f : \mathfrak{g}^k \to \mathbb{K}$ that are invariant under the [[adjoint action|P6ZP0TE07M]]: $f(\mathrm{Ad}_g X_1, \dots, \mathrm{Ad}_g X_k) = f(X_1, \dots, X_k)$ for all $g \in G$.
 Let $\pi : P \to M$ be a principal $G$-bundle with a [[connection form|NJ21PN5ZGJ]] $\omega$ and [[curvature form|ZAJFW1S078]] $\Omega$.
 For $f \in I^k(G)$, the $2k$-form $f(\Omega, \dots, \Omega)$ on $P$ (formed with the wedge product) equals $\pi^* \alpha_f$ for a unique closed $2k$-form $\alpha_f$ on $M$.
 The *Chern–Weil homomorphism* is the map

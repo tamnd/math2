@@ -28,7 +28,7 @@ If $S$ is finite, clause 4 is equivalent to the absence of zero divisors: $ab = 
 An associative semifield is a [[division ring|0EA5BTA0CX]], and a finite associative semifield is a finite [[field|04C5ZBG1WT]] by Wedderburn's little theorem.
 
 Example: every field is a semifield, since it satisfies all four clauses and is moreover associative.
-The real octonions are a semifield in which multiplication is not associative.
+The real [[octonions|1HRMT3DSX2]] are a semifield in which multiplication is not associative.
 
 Non-example: the ring $\Z$ satisfies clauses 1, 2 and 3 but fails clause 4, because $2x = 1$ has no solution $x \in \Z$.
 

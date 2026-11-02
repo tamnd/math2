@@ -12,7 +12,7 @@ sources:
 
 The *Klein quartic* is the plane curve
 $$X = \set{ [x : y : z] \in \mathbb{P}^2(\C) : x^3 y + y^3 z + z^3 x = 0 }.$$
-It is a smooth curve of degree $4$, so it is a compact [[Riemann surface|5K0N8QMV6Q]] of genus $\frac{(4-1)(4-2)}{2} = 3$ by the genus–degree formula.
+It is a smooth curve of degree $4$, so it is a compact [[Riemann surface|5K0N8QMV6Q]] of [[genus|6W8TDV9VVN]] $\frac{(4-1)(4-2)}{2} = 3$ by the [[genus–degree formula|MQCBFACHXH]].
 
 Two automorphisms can be checked by hand.
 Let $\zeta = e^{2\pi i / 7}$.
@@ -20,7 +20,7 @@ The map $[x : y : z] \mapsto [\zeta^4 x : \zeta^2 y : \zeta z]$ preserves $X$, b
 The cyclic shift $[x : y : z] \mapsto [y : z : x]$ permutes the three monomials, so it also preserves $X$.
 
 The full group of holomorphic automorphisms of $X$ is isomorphic to $\mathrm{PSL}(2, \F_7)$, of order $168$.
-This equals the bound $84(g - 1) = 168$ of Hurwitz's automorphisms theorem for $g = 3$.
+This equals the bound $84(g - 1) = 168$ of [[Hurwitz's automorphisms theorem|3GNKSCQSCD]] for $g = 3$.
 Up to isomorphism, $X$ is the only compact Riemann surface of genus $3$ with $168$ automorphisms.
 
 ## Explanations

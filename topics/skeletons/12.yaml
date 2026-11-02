@@ -194,7 +194,7 @@ items:
   - {name: Sturm's theorem, kind: statement, decl: Polynomial.sturmSeq, wikipedia: Sturm's theorem, wikidata: Q1632301, node: R44CV0KD9T}
   - {name: Budan's theorem, kind: statement, wikipedia: Budan's theorem, wikidata: Q3527026, node: 7THS519D4A}
   - {name: Tarski–Seidenberg theorem, kind: statement, wikipedia: Tarski–Seidenberg theorem, wikidata: Q16705451, node: 3W5JGDZAN0}
-  - {name: surreal numbers, kind: object, wikipedia: Surreal number, wikidata: Q875333}
+  - {name: surreal numbers, kind: object, wikipedia: Surreal number, wikidata: Q875333, node: YVPTBY45PK}
   - {name: hyperreal numbers, kind: object, wikipedia: Hyperreal number, wikidata: Q5958543, node: 421QMTFG9T}
   - {name: Levi-Civita field, kind: object, wikipedia: Levi-Civita field, wikidata: Q6535342, node: CCT8SQKHW4}
   # Valued and topological fields
@@ -218,7 +218,7 @@ items:
   - {name: field of formal Laurent series, kind: definition, decl: LaurentSeries, wikipedia: Formal power series, wikidata: Q1003025, node: YZWYF7DXTW}
   - {name: Puiseux series, kind: definition, wikipedia: Puiseux series, wikidata: Q401319, node: SENTYNSKSF}
   - {name: Newton–Puiseux theorem, kind: statement, wikipedia: Puiseux series, wikidata: Q401319, node: ZWT5HGRFXX}
-  - {name: Hahn series, kind: definition, wikipedia: Hahn series, wikidata: Q5638887}
+  - {name: Hahn series, kind: definition, wikipedia: Hahn series, wikidata: Q5638887, node: YQP8V1KKMW}
   - {name: Ax–Kochen theorem, kind: statement, wikipedia: Ax–Kochen theorem, wikidata: Q3526976, node: PHT3TJCS90}
   # Homological methods
   - {name: Galois cohomology, kind: concept, wikipedia: Galois cohomology, wikidata: Q382839, node: 9MPCZ3EAJM}

@@ -143,7 +143,7 @@ items:
   - {name: Fourier's law of heat conduction, kind: statement, wikipedia: Thermal conduction, wikidata: Q7465774}
   - {name: thermal conductivity, kind: definition, wikipedia: Thermal conductivity and resistivity, wikidata: Q487005}
   - {name: thermal diffusivity, kind: definition, wikipedia: Thermal diffusivity, wikidata: Q3381809}
-  - {name: heat equation, kind: definition, wikipedia: Heat equation, wikidata: Q6510488}
+  - {name: heat equation, kind: definition, wikipedia: Heat equation, wikidata: Q6510488, node: VP2HN86VAG}
   - {name: heat flux, kind: definition, wikipedia: Heat flux, wikidata: Q1478382}
   - {name: steady-state heat conduction, kind: concept, wikipedia: Heat equation, wikidata: Q6510488}
   - {name: thermal resistance, kind: definition, wikipedia: Thermal conductance and resistance, wikidata: Q899628}
@@ -157,7 +157,7 @@ items:
   - {name: anisotropic heat conduction, kind: concept, wikipedia: Thermal conduction, wikidata: Q7465774}
   - {name: Cattaneo–Vernotte equation, kind: definition, wikipedia: Second sound, wikidata: Q233699}
   - {name: second sound, kind: concept, wikipedia: Second sound, wikidata: Q233699}
-  - {name: Stefan problem, kind: problem, wikipedia: Stefan problem, wikidata: Q3775789}
+  - {name: Stefan problem, kind: problem, wikipedia: Stefan problem, wikidata: Q3775789, node: 3B0HB3DHW1}
   - {name: Stefan number, kind: definition, wikipedia: Stefan number, wikidata: Q909876}
   - {name: Neumann solution of the Stefan problem, kind: statement, wikipedia: Stefan problem, wikidata: Q3775789}
   - {name: inverse heat conduction problem, kind: problem, wikipedia: Inverse problem, wikidata: Q1567213}

@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-An elliptic operator is a linear differential operator whose principal symbol does not vanish at any nonzero covector.
+An elliptic operator is a linear differential operator whose [[principal symbol|F31T650DKY]] does not vanish at any nonzero covector.
 The [[Laplacian|0E0B6RA8K0]] is the model example.
 Elliptic operators have strong regularity properties: solutions of $Lu = f$ are as smooth as the data allow.
 On compact manifolds they are Fredholm, which is the setting of index theory.

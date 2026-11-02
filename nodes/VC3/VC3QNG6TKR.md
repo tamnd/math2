@@ -15,8 +15,8 @@ same_as:
 ## Statement
 
 Let $G$ be a group, let $N$ be a [[normal subgroup|0CB0DX5BVV]] of $G$, and let $M$ be a $G$-module.
-For each $q \ge 0$, the cohomology group $H^q(N, M)$ is a module over the [[quotient group|0KYX2N69J0]] $G/N$, through the action of $G$ by conjugation.
-Then there is a first-quadrant cohomological spectral sequence
+For each $q \ge 0$, the [[cohomology group|YXJXA0Q52R]] $H^q(N, M)$ is a module over the [[quotient group|0KYX2N69J0]] $G/N$, through the action of $G$ by conjugation.
+Then there is a first-quadrant cohomological [[spectral sequence|GG8AYV847V]]
 $$E_2^{p,q} = H^p\big(G/N, H^q(N, M)\big) \Longrightarrow H^{p+q}(G, M).$$
 
 ## Remarks

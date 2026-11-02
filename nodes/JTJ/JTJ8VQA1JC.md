@@ -12,7 +12,7 @@ sources:
 ## Definition
 
 Let $\mathbb{K}$ be $\R$ or $\C$.
-A *Fréchet algebra* over $\mathbb{K}$ is an associative algebra $A$ over $\mathbb{K}$ with a topology such that:
+A *Fréchet algebra* over $\mathbb{K}$ is an [[associative algebra|3CTW1P4HBP]] $A$ over $\mathbb{K}$ with a topology such that:
 
 1. $A$ with this topology is a [[Fréchet space|3GAA614673]], that is, a complete metrizable locally convex space;
 2. the multiplication $A \times A \to A$, $(a, b) \mapsto ab$, is jointly continuous.
@@ -24,7 +24,7 @@ Then condition 2 holds if and only if for each $n$ there are $m \ge n$ and $C_n 
 
 The algebra is called *locally multiplicatively convex* (or m-convex) if the topology is given by seminorms with $p_n(ab) \le p_n(a) p_n(b)$.
 Some authors include this condition in the definition.
-Every Banach algebra is a Fréchet algebra, with the single seminorm given by the norm.
+Every [[Banach algebra|9KYWN94QDN]] is a Fréchet algebra, with the single seminorm given by the norm.
 
 Example: $A = C(\R)$, the continuous complex functions on $\R$, with $p_n(f) = \max_{\abs{x} \le n} \abs{f(x)}$.
 Each $p_n$ is a seminorm with $p_n(fg) \le p_n(f) p_n(g)$, and the sequence is increasing.

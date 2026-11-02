@@ -23,4 +23,4 @@ The Willmore energy measures how much a closed surface bends, by integrating the
 A round sphere has the least energy, $4\pi$, among all closed surfaces.
 The Willmore flow deforms a surface step by step so that this energy drops.
 A bumpy sphere tends to smooth out toward a round shape, while a round sphere does not move at all.
-Unlike mean curvature flow, the flow does not simply shrink surfaces, because the energy does not change under scaling.
+Unlike [[mean curvature flow|2YYV01C7QQ]], the flow does not simply shrink surfaces, because the energy does not change under scaling.

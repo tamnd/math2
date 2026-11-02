@@ -146,7 +146,7 @@ items:
   - {name: integro-differential equation, kind: definition, wikipedia: Integro-differential equation, wikidata: Q2380676, node: YRKW2KX2CW}
   - {name: Volterra integro-differential equation, kind: definition, wikipedia: Integro-differential equation, wikidata: Q2380676}
   - {name: integro-partial differential equation, kind: definition, wikipedia: Integro-differential equation, wikidata: Q2380676}
-  - {name: Boltzmann equation, kind: example, wikipedia: Boltzmann equation, wikidata: Q891653}
+  - {name: Boltzmann equation, kind: example, wikipedia: Boltzmann equation, wikidata: Q891653, node: MH6CSWD7F0}
   - {name: radiative transfer equation, kind: example, wikipedia: Radiative transfer, wikidata: Q1190858}
   - {name: Smoluchowski coagulation equation, kind: example, wikipedia: Smoluchowski coagulation equation, wikidata: Q971184}
   - {name: population balance equation, kind: example, wikipedia: Population balance equation, wikidata: Q7229796}
@@ -179,7 +179,7 @@ items:
   - {name: Picard's criterion for first-kind equations, kind: statement, wikipedia: Singular value decomposition, wikidata: Q420904}
   - {name: Tikhonov regularization, kind: concept, wikipedia: Ridge regression, wikidata: Q106091291}
   - {name: deconvolution, kind: problem, wikipedia: Deconvolution, wikidata: Q1183700}
-  - {name: inverse scattering transform, kind: concept, wikipedia: Inverse scattering transform, wikidata: Q17098188}
+  - {name: inverse scattering transform, kind: concept, wikipedia: Inverse scattering transform, wikidata: Q17098188, node: 6GY3X4Y8X5}
   # Random integral equations
   - {name: random integral equation, kind: definition, wikipedia: Stochastic differential equation, wikidata: Q1545585}
   - {name: stochastic Volterra equation, kind: definition, wikipedia: Stochastic differential equation, wikidata: Q1545585}

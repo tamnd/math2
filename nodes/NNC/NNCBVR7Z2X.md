@@ -18,7 +18,7 @@ Let $k$ be a field.
 Let $\pi \colon E \to B$ be a [[Serre fibration|PB9JXQ2KC3]] and let $f \colon X \to B$ be a continuous map, where $X$, $E$ and $B$ are path-connected and $B$ is simply connected.
 Assume that $H^n(X; k)$, $H^n(E; k)$ and $H^n(B; k)$ are finite-dimensional for every $n$.
 Let $E_f = X \times_B E$ be the pullback fibration over $X$.
-Then there is a second-quadrant spectral sequence that converges strongly to $H^*(E_f; k)$.
+Then there is a second-quadrant [[spectral sequence|GG8AYV847V]] that converges strongly to $H^*(E_f; k)$.
 Its second page is
 $$E_2^{-p, q} = \operatorname{Tor}^{-p, q}_{H^*(B; k)}\big(H^*(X; k), H^*(E; k)\big),$$
 the bigraded [[Tor|DDQRERAQCV]] over the [[cohomology ring|RDT4785M4D]] $H^*(B; k)$, where $p$ is the homological degree and $q$ the internal degree.

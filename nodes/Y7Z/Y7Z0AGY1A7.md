@@ -17,7 +17,7 @@ The exponential map at $p$ sends $v \in T_pM$ to the point reached at time $1$ b
 It maps a small ball around $0$ in the tangent space diffeomorphically onto a neighbourhood of $p$.
 So it gives coordinates adapted to the geometry, the [[normal coordinates|RRHKMGNKG9]].
 It is central to the study of completeness, conjugate points and the cut locus.
-For a bi-invariant metric on a Lie group, it agrees at the identity with the exponential map of the Lie group.
+For a bi-invariant metric on a Lie group, it agrees at the identity with the [[exponential map of the Lie group|H3QX1ZFC8K]].
 
 ## Explanations
 

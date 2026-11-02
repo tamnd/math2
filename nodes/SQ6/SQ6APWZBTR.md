@@ -9,7 +9,7 @@ sources:
 
 ## Summary
 
-Every topological vector space is, under addition, a commutative topological group.
+Every [[topological vector space|T32W553W95]] is, under addition, a commutative [[topological group|92700QAB5Y]].
 This additive structure is the source of many basic facts about topological vector spaces.
 Translations are homeomorphisms, so the whole topology is fixed by the neighbourhoods of $0$.
 It also gives each topological vector space a canonical uniform structure, so Cauchy nets and completeness make sense without a metric.

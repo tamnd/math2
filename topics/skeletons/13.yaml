@@ -261,7 +261,7 @@ items:
   - {name: multivariate division algorithm, kind: concept, decl: MonomialOrder.div, wikipedia: Gröbner basis, wikidata: Q1551631, node: T8EN3CAEQF}
   - {name: Gröbner basis, kind: definition, wikipedia: Gröbner basis, wikidata: Q1551631, node: C83KPT47R0}
   - {name: Buchberger's algorithm, kind: concept, wikipedia: Buchberger's algorithm, wikidata: Q997962, node: 4RH1D40WG1}
-  - {name: Dickson's lemma, kind: statement, wikipedia: Dickson's lemma, wikidata: Q5273779}
+  - {name: Dickson's lemma, kind: statement, wikipedia: Dickson's lemma, wikidata: Q5273779, node: NQD0Q9S9M7}
   - {name: elimination theory, kind: concept, wikipedia: Elimination theory, wikidata: Q3526789, node: 9PA8CVSWPD}
   - {name: regular chain, kind: definition, wikipedia: Regular chain, wikidata: Q7309593, node: 1ZA98AGKGK}
   # Special rings

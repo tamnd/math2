@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-The Abel–Jacobi map sends a point of a compact [[Riemann surface|5K0N8QMV6Q]] of genus $g \ge 1$ to its Jacobian variety, a complex torus of dimension $g$.
+The Abel–Jacobi map sends a point of a compact [[Riemann surface|5K0N8QMV6Q]] of genus $g \ge 1$ to its [[Jacobian variety|ZQ84M9D9TC]], a [[complex torus|Y7MA6KBE9M]] of dimension $g$.
 It is defined by integrating a basis of holomorphic [[Abelian differentials|P014C13K5H]] from a fixed base point.
 Abel's theorem says that it detects which divisors of degree $0$ are divisors of meromorphic functions.
 It is the basic bridge between a curve and its Jacobian.

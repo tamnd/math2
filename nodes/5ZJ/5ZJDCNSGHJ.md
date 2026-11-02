@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $X$ be a topological space, let $G$ be an [[abelian group|082GHNPJ53]], and let $C_\bullet(X)$ be the singular chain complex of $X$ with integer coefficients.
+Let $X$ be a topological space, let $G$ be an [[abelian group|082GHNPJ53]], and let $C_\bullet(X)$ be the singular [[chain complex|WQ82C0M3QB]] of $X$ with integer coefficients.
 The group of *singular $n$-cochains* is $C^n(X; G) = \Hom(C_n(X), G)$, that is, the group of all functions from singular $n$-simplices of $X$ to $G$.
 The *coboundary* $\delta \colon C^n(X; G) \to C^{n+1}(X; G)$ is $\delta \varphi = \varphi \circ \partial_{n+1}$.
 Then $\delta \circ \delta = 0$.
@@ -21,9 +21,9 @@ These are the cochains that vanish on all simplices in $A$.
 
 ## Remarks
 
-A continuous map $f \colon X \to Y$ induces $f^* \colon H^n(Y; G) \to H^n(X; G)$, so $H^n(-; G)$ is a contravariant functor; compare the Hom functor.
+A continuous map $f \colon X \to Y$ induces $f^* \colon H^n(Y; G) \to H^n(X; G)$, so $H^n(-; G)$ is a contravariant functor; compare the [[Hom functor|VJXS8AK67E]].
 Evaluation $\langle \varphi, c \rangle = \varphi(c)$ of a cochain on a chain gives the *Kronecker pairing* $H^n(X; G) \times H_n(X) \to G$.
-The universal coefficient theorem gives a split exact sequence $0 \to \operatorname{Ext}(H_{n-1}(X), G) \to H^n(X; G) \to \Hom(H_n(X), G) \to 0$, with [[Ext|4P7GBWJ4RR]] the Ext functor and $H_n$ [[singular homology|M0Q5CFJ7ZH]].
+The [[universal coefficient theorem|GTA8ZFGZ3N]] gives a split exact sequence $0 \to \operatorname{Ext}(H_{n-1}(X), G) \to H^n(X; G) \to \Hom(H_n(X), G) \to 0$, with [[Ext|4P7GBWJ4RR]] the Ext functor and $H_n$ [[singular homology|M0Q5CFJ7ZH]].
 When $G = \Z$ one writes $H^n(X)$.
 
 Example: a $0$-cochain $\varphi$ is a function from points of $X$ to $G$, and $(\delta \varphi)(\sigma) = \varphi(\sigma(1)) - \varphi(\sigma(0))$ for a path $\sigma$.
