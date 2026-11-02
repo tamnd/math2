@@ -10,13 +10,13 @@ records:
           role: author
       date: "2008-12-16"
       msc:
-        - code: 53-01
+        - code: 52-06
           from: zbmath_search
-        - code: 53A04
+        - code: 53-06
           from: zbmath_search
-        - code: 53A05
+        - code: 57-06
           from: zbmath_search
-        - code: 52B70
+        - code: 00B05
           from: zbmath_search
       expressions:
         - key: e1
@@ -25,8 +25,8 @@ records:
           date: "2008-12-16"
           ids:
             doi: 10.1090/gsm/098
-            zbl: "1158.53001"
-            zbl_id: "5486618"
+            zbl: "1177.52002"
+            zbl_id: "5654683"
           manifestations:
             - key: m1
               kind: print
@@ -46,15 +46,15 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.16 scope/1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/gsm/098
           level: work
         - source: zbmath_search
-          snapshot: blake3:928c873c1dac6852b2bf2c77184182759305f81342a4dc8ca5c0d4768bc6dd1e
-          native_id: "5486618"
+          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          native_id: "5654683"
           level: work
       history:
         - op: add

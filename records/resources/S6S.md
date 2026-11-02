@@ -25,7 +25,7 @@ records:
       scope:
         value: in
         rule: S2
-        by: m2 v0.6.16 scope/1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -50,12 +50,36 @@ records:
         - name: H. Hogbe-Nlend
           role: author
       date: "1971"
+      msc:
+        - code: 46A17
+          from: zbmath_search
+        - code: 46-02
+          from: zbmath_search
+        - code: 46A03
+          from: zbmath_search
+        - code: 46A04
+          from: zbmath_search
+        - code: 46A08
+          from: zbmath_search
+        - code: 46A20
+          from: zbmath_search
+        - code: 46A22
+          from: zbmath_search
+        - code: 46A11
+          from: zbmath_search
+        - code: 46F05
+          from: zbmath_search
+        - code: "46E10"
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: fr
           date: "1971"
           ids:
             doi: 10.1007/bfb0069416
+            zbl: "0225.46005"
+            zbl_id: "3357409"
           manifestations:
             - key: m1
               kind: print
@@ -73,12 +97,16 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.16 scope/1
+        rule: S1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0069416
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          native_id: "3357409"
           level: work
       history:
         - op: add
@@ -88,4 +116,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-02"
+          by: m2 v0.6.17 scope/1
+          note: from in to in
 ---

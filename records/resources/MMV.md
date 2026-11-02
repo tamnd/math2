@@ -7,6 +7,11 @@ records:
         - name: Vladimir Berkovich
           role: author
       date: "2012-08-02"
+      msc:
+        - code: 14G20
+          from: zbmath_search
+        - code: 32P05
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
@@ -14,6 +19,8 @@ records:
           date: "2012-08-02"
           ids:
             doi: 10.1090/surv/033
+            zbl: "0715.14013"
+            zbl_id: "47872"
           manifestations:
             - key: m1
               kind: print
@@ -31,16 +38,20 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.16 scope/1
+        rule: S1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/surv/033
           level: work
         - source: crossref_language
-          snapshot: blake3:78a08c6dff20a47d6ad06a8fc0424f997c851421644ee012bc0f425814d0a6d5
+          snapshot: blake3:99510ada1a0f54f83dbf4ed97ef48852461d1f98d338d1a350cabf222fb85948
           native_id: 10.1090/surv/033
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          native_id: "47872"
           level: work
       history:
         - op: add
@@ -50,6 +61,10 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-02"
+          by: m2 v0.6.17 scope/1
+          note: from in to in
     - id: MMVNRRE7N0
       kind: preprint
       title: An Upper Bound for the Mean Speed of Transition Fronts and Unbounded Front Widths for Fisher KPP Equations in Almost Periodic Media
@@ -81,7 +96,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.16 scope/1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -92,7 +107,7 @@ records:
           native_id: "2609.30760"
           level: work
         - source: zbmath_search
-          snapshot: blake3:928c873c1dac6852b2bf2c77184182759305f81342a4dc8ca5c0d4768bc6dd1e
+          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
           native_id: "903182943"
           level: work
       history:
@@ -114,12 +129,22 @@ records:
         - name: Jan van Neerven
           role: author
       date: "1992"
+      msc:
+        - code: 47D06
+          from: zbmath_search
+        - code: 47B65
+          from: zbmath_search
+        - code: 47-02
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1992"
           ids:
             doi: 10.1007/bfb0085008
+            zbl: "0780.47026"
+            zbl_id: "108530"
           manifestations:
             - key: m1
               kind: print
@@ -137,12 +162,16 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.16 scope/1
+        rule: S1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0085008
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          native_id: "108530"
           level: work
       history:
         - op: add
@@ -152,4 +181,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-02"
+          by: m2 v0.6.17 scope/1
+          note: from in to in
 ---

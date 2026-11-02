@@ -8,11 +8,9 @@ records:
           role: author
       date: "1991"
       msc:
-        - code: 51-02
+        - code: 51A45
           from: zbmath_search
-        - code: 05-02
-          from: zbmath_search
-        - code: 51A05
+        - code: "51E26"
           from: zbmath_search
       expressions:
         - key: e1
@@ -21,8 +19,8 @@ records:
           date: "1991"
           ids:
             doi: 10.1007/bfb0083245
-            zbl: "0744.51005"
-            zbl_id: "51542"
+            zbl: "0769.51002"
+            zbl_id: "166363"
           manifestations:
             - key: m1
               kind: print
@@ -41,15 +39,15 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.16 scope/1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0083245
           level: work
         - source: zbmath_search
-          snapshot: blake3:928c873c1dac6852b2bf2c77184182759305f81342a4dc8ca5c0d4768bc6dd1e
-          native_id: "51542"
+          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          native_id: "166363"
           level: work
       history:
         - op: add

@@ -35,10 +35,10 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.16 scope/1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: crossref_language
-          snapshot: blake3:78a08c6dff20a47d6ad06a8fc0424f997c851421644ee012bc0f425814d0a6d5
+          snapshot: blake3:99510ada1a0f54f83dbf4ed97ef48852461d1f98d338d1a350cabf222fb85948
           native_id: 10.1007/978-3-642-18231-0
           level: work
         - source: springer-series

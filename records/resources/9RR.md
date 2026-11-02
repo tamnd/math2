@@ -3,11 +3,6 @@ records:
     - id: 9RRJ20Z8G7
       kind: monograph
       title: Asymptotic Theory of Finite Dimensional Normed Spaces
-      creators:
-        - name: Milman, Vitali D.
-          role: author
-        - name: Schechtman, Gideon
-          role: author
       date: "1986"
       msc:
         - code: 46B25
@@ -45,14 +40,14 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.16 scope/1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-540-38822-7
           level: work
         - source: zbmath_search
-          snapshot: blake3:928c873c1dac6852b2bf2c77184182759305f81342a4dc8ca5c0d4768bc6dd1e
+          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
           native_id: "3979763"
           level: work
       history:
@@ -116,14 +111,14 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.16 scope/1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-662-02943-5
           level: work
         - source: zbmath_search
-          snapshot: blake3:928c873c1dac6852b2bf2c77184182759305f81342a4dc8ca5c0d4768bc6dd1e
+          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
           native_id: "488434"
           level: work
       history:

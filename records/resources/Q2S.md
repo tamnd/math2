@@ -9,6 +9,19 @@ records:
         - name: A. Saakyan
           role: author
       date: "2005-04-26"
+      msc:
+        - code: 42C05
+          from: zbmath_search
+        - code: 42-02
+          from: zbmath_search
+        - code: 42C10
+          from: zbmath_search
+        - code: 42C15
+          from: zbmath_search
+        - code: 42A38
+          from: zbmath_search
+        - code: 42A20
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
@@ -28,22 +41,33 @@ records:
                     - "9781470444891"
               access:
                 class: record
+        - key: e2
+          kind: translation
+          language: ru
+          ids:
+            doi: 10.1090/mmono/075
+            zbl: "1188.42010"
+            zbl_id: "5723533"
       relations:
         - kind: part_of
           to: BTDY0N3WC9
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.16 scope/1
+        rule: S1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/mmono/075
           level: work
         - source: crossref_language
-          snapshot: blake3:78a08c6dff20a47d6ad06a8fc0424f997c851421644ee012bc0f425814d0a6d5
+          snapshot: blake3:99510ada1a0f54f83dbf4ed97ef48852461d1f98d338d1a350cabf222fb85948
           native_id: 10.1090/mmono/075
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          native_id: "5723533"
           level: work
       history:
         - op: add
@@ -53,4 +77,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-02"
+          by: m2 v0.6.17 scope/1
+          note: from in to in
 ---

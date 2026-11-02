@@ -12,15 +12,17 @@ records:
           role: author
       date: "2016"
       msc:
-        - code: 60H15
+        - code: 60-02
+          from: zbmath_search
+        - code: 35-02
+          from: zbmath_search
+        - code: 76-02
           from: zbmath_search
         - code: 35R60
           from: zbmath_search
+        - code: 60H15
+          from: zbmath_search
         - code: 76S05
-          from: zbmath_search
-        - code: 76M35
-          from: zbmath_search
-        - code: 60-02
           from: zbmath_search
       expressions:
         - key: e1
@@ -29,8 +31,8 @@ records:
           date: "2016"
           ids:
             doi: 10.1007/978-3-319-41069-2
-            zbl: "1333.60133"
-            zbl_id: "6540210"
+            zbl: "1355.60004"
+            zbl_id: "6610105"
           manifestations:
             - key: m1
               kind: print
@@ -49,15 +51,15 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.16 scope/1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-319-41069-2
           level: work
         - source: zbmath_search
-          snapshot: blake3:928c873c1dac6852b2bf2c77184182759305f81342a4dc8ca5c0d4768bc6dd1e
-          native_id: "6540210"
+          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          native_id: "6610105"
           level: work
       history:
         - op: add

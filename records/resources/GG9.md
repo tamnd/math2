@@ -42,7 +42,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.16 scope/1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -72,19 +72,27 @@ records:
           role: editor
       date: "2000"
       msc:
-        - code: 34C15
+        - code: 37-02
           from: zbmath_search
         - code: 34-02
           from: zbmath_search
-        - code: 37B30
+        - code: 34A36
           from: zbmath_search
-        - code: 70K40
+        - code: 34A37
           from: zbmath_search
-        - code: 37D25
+        - code: 34A60
+          from: zbmath_search
+        - code: 34D08
           from: zbmath_search
         - code: 37J40
           from: zbmath_search
-        - code: 70H05
+        - code: 34C25
+          from: zbmath_search
+        - code: 37D25
+          from: zbmath_search
+        - code: 37B30
+          from: zbmath_search
+        - code: 70F40
           from: zbmath_search
       expressions:
         - key: e1
@@ -93,8 +101,8 @@ records:
           date: "2000"
           ids:
             doi: 10.1007/bfb0103843
-            zbl: "0965.34026"
-            zbl_id: "1517962"
+            zbl: "1002.37003"
+            zbl_id: "1779204"
           manifestations:
             - key: m1
               kind: print
@@ -113,15 +121,15 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.16 scope/1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0103843
           level: work
         - source: zbmath_search
-          snapshot: blake3:928c873c1dac6852b2bf2c77184182759305f81342a4dc8ca5c0d4768bc6dd1e
-          native_id: "1517962"
+          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          native_id: "1779204"
           level: work
       history:
         - op: add
@@ -161,7 +169,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.16 scope/1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055

@@ -180,6 +180,9 @@ sources:
       - url: m2 res import crossref_language
         hash: blake3:78a08c6dff20a47d6ad06a8fc0424f997c851421644ee012bc0f425814d0a6d5
         date: "2026-11-01"
+      - url: m2 res import crossref_language
+        hash: blake3:99510ada1a0f54f83dbf4ed97ef48852461d1f98d338d1a350cabf222fb85948
+        date: "2026-11-02"
   - id: ernst_ibl
     name: An Introduction to Proof via Inquiry-Based Learning
     authors:
@@ -706,3 +709,6 @@ sources:
       - url: m2 res import zbmath_search
         hash: blake3:928c873c1dac6852b2bf2c77184182759305f81342a4dc8ca5c0d4768bc6dd1e
         date: "2026-11-01"
+      - url: m2 res import zbmath_search
+        hash: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+        date: "2026-11-02"

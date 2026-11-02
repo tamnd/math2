@@ -18,21 +18,7 @@ records:
           role: editor
       date: "2020-10-14"
       msc:
-        - code: 53-06
-          from: zbmath_search
-        - code: 53B35
-          from: zbmath_search
-        - code: 53C25
-          from: zbmath_search
-        - code: 53C40
-          from: zbmath_search
-        - code: 53C42
-          from: zbmath_search
-        - code: 53C43
-          from: zbmath_search
-        - code: 00B25
-          from: zbmath_search
-        - code: 00B30
+        - code: 53B25
           from: zbmath_search
       expressions:
         - key: e1
@@ -41,8 +27,8 @@ records:
           date: "2020-10-14"
           ids:
             doi: 10.1090/conm/756
-            zbl: "1454.53006"
-            zbl_id: "7286458"
+            zbl: "1453.53023"
+            zbl_id: "7271312"
           manifestations:
             - key: m1
               kind: print
@@ -62,15 +48,15 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.16 scope/1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/conm/756
           level: work
         - source: zbmath_search
-          snapshot: blake3:928c873c1dac6852b2bf2c77184182759305f81342a4dc8ca5c0d4768bc6dd1e
-          native_id: "7286458"
+          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          native_id: "7271312"
           level: work
       history:
         - op: add

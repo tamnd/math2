@@ -7,6 +7,19 @@ records:
         - name: O. Hernández-Lerma
           role: author
       date: "1989"
+      msc:
+        - code: 90C40
+          from: zbmath_search
+        - code: 90-02
+          from: zbmath_search
+        - code: 93-02
+          from: zbmath_search
+        - code: 60Jxx
+          from: zbmath_search
+        - code: 60-02
+          from: zbmath_search
+        - code: 93C40
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
@@ -14,6 +27,8 @@ records:
           date: "1989"
           ids:
             doi: 10.1007/978-1-4419-8714-3
+            zbl: "0698.90053"
+            zbl_id: "195028"
           manifestations:
             - key: m1
               kind: print
@@ -32,15 +47,19 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.16 scope/1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: crossref_language
-          snapshot: blake3:78a08c6dff20a47d6ad06a8fc0424f997c851421644ee012bc0f425814d0a6d5
+          snapshot: blake3:99510ada1a0f54f83dbf4ed97ef48852461d1f98d338d1a350cabf222fb85948
           native_id: 10.1007/978-1-4419-8714-3
           level: work
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4419-8714-3
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          native_id: "195028"
           level: work
       history:
         - op: add

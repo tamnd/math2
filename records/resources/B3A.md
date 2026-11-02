@@ -8,39 +8,41 @@ records:
           role: author
       date: "1998-05-05"
       msc:
-        - code: 15-01
+        - code: 15-02
           from: zbmath_search
-        - code: 15A09
+        - code: 00A06
+          from: zbmath_search
+        - code: 47A56
+          from: zbmath_search
+        - code: 15A04
           from: zbmath_search
         - code: 15A18
           from: zbmath_search
-        - code: 15A21
+        - code: 34A40
           from: zbmath_search
-        - code: 15A22
+        - code: 65M99
+          from: zbmath_search
+        - code: 65N99
           from: zbmath_search
         - code: 15A24
           from: zbmath_search
-        - code: 15A42
+        - code: 15A21
           from: zbmath_search
         - code: 15A60
           from: zbmath_search
-        - code: 65-01
-          from: zbmath_search
-        - code: 65F05
+        - code: 15A42
           from: zbmath_search
         - code: 65F15
-          from: zbmath_search
-        - code: 65F35
           from: zbmath_search
       expressions:
         - key: e1
           kind: edition
-          language: ru
+          language: en
           date: "1998-05-05"
           ids:
             doi: 10.1090/mmono/175
-            zbl: "0960.15001"
-            zbl_id: "934864"
+            zbl: "0899.15004"
+            zbl_id: "1166153"
           manifestations:
             - key: m1
               kind: print
@@ -60,15 +62,15 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.16 scope/1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/mmono/175
           level: work
         - source: zbmath_search
-          snapshot: blake3:928c873c1dac6852b2bf2c77184182759305f81342a4dc8ca5c0d4768bc6dd1e
-          native_id: "934864"
+          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          native_id: "1166153"
           level: work
       history:
         - op: add
