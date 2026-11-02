@@ -29,7 +29,7 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.17 scope/1
+        by: m2 dev scope/1
       catalogue:
         - source: crossref_language
           snapshot: blake3:99510ada1a0f54f83dbf4ed97ef48852461d1f98d338d1a350cabf222fb85948

@@ -526,6 +526,21 @@ sources:
       - url: https://nptel.ac.in/courses/__data.json
         hash: blake3:89dc2ec164a0108adbecf0ec8c793929c947e196b164e762035d3fdd89a3f469
         date: "2026-10-31"
+  - id: nptel_video
+    name: NPTEL, the outlines of the course pages and the upload days of the videos on YouTube
+    kind: course-platform
+    home: https://nptel.ac.in
+    licence: LicenseRef-facts
+    class: record
+    channel: page
+    terms:
+      robots: allows all paths
+    attribution: NPTEL, https://nptel.ac.in; YouTube, https://www.youtube.com
+    adapter: nptel_video/1
+    snapshots:
+      - url: m2 res import nptel_video
+        hash: blake3:7980ec84cfbca0f71922ec2d4e56d2385fa22a44c9cd025088eefbf06b61009d
+        date: "2026-11-02"
   - id: ocw
     name: MIT OpenCourseWare
     kind: course-platform
@@ -711,4 +726,7 @@ sources:
         date: "2026-11-01"
       - url: m2 res import zbmath_search
         hash: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+        date: "2026-11-02"
+      - url: m2 res import zbmath_search
+        hash: blake3:25dd7c4358839cf7c8c9f5d07f0562e94f38728153e7db2255a7191282b967c2
         date: "2026-11-02"

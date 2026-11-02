@@ -6,12 +6,15 @@ records:
       creators:
         - name: S Dutta
           role: instructor
+      date: "2016-03-13"
       ids:
         course: 05pjsgx75:111104092
       expressions:
         - key: e1
           kind: edition
           language: en
+          date: "2016-03-13"
+          structure: W2X1GNYRC6/e1.json
           manifestations:
             - key: m1
               kind: page
@@ -20,13 +23,24 @@ records:
                 nptel: "111104092"
               access:
                 class: record
+            - key: m2
+              kind: page
+              date: "2016-03-13"
+              ids:
+                nptel: "111104092"
+              access:
+                class: record
       scope:
         value: in
         rule: S6
-        by: m2 v0.6.17 scope/1
+        by: m2 dev scope/1
       catalogue:
         - source: nptel
           snapshot: blake3:89dc2ec164a0108adbecf0ec8c793929c947e196b164e762035d3fdd89a3f469
+          native_id: "111104092"
+          level: manifestation
+        - source: nptel_video
+          snapshot: blake3:7980ec84cfbca0f71922ec2d4e56d2385fa22a44c9cd025088eefbf06b61009d
           native_id: "111104092"
           level: manifestation
       history:
@@ -84,7 +98,7 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.17 scope/1
+        by: m2 dev scope/1
       catalogue:
         - source: crossref_language
           snapshot: blake3:99510ada1a0f54f83dbf4ed97ef48852461d1f98d338d1a350cabf222fb85948

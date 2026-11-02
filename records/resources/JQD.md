@@ -6,12 +6,15 @@ records:
       creators:
         - name: Arbind Kumar Lal
           role: instructor
+      date: "2020-08-31"
       ids:
         course: 05pjsgx75:111104137
       expressions:
         - key: e1
           kind: edition
           language: en
+          date: "2020-08-31"
+          structure: JQD5MMP63F/e1.json
           manifestations:
             - key: m1
               kind: page
@@ -20,13 +23,24 @@ records:
                 nptel: "111104137"
               access:
                 class: record
+            - key: m2
+              kind: page
+              date: "2020-08-31"
+              ids:
+                nptel: "111104137"
+              access:
+                class: record
       scope:
         value: in
         rule: S6
-        by: m2 v0.6.17 scope/1
+        by: m2 dev scope/1
       catalogue:
         - source: nptel
           snapshot: blake3:89dc2ec164a0108adbecf0ec8c793929c947e196b164e762035d3fdd89a3f469
+          native_id: "111104137"
+          level: manifestation
+        - source: nptel_video
+          snapshot: blake3:7980ec84cfbca0f71922ec2d4e56d2385fa22a44c9cd025088eefbf06b61009d
           native_id: "111104137"
           level: manifestation
       history:
@@ -80,14 +94,14 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.17 scope/1
+        by: m2 dev scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-030-25443-8
           level: work
         - source: zbmath_search
-          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          snapshot: blake3:25dd7c4358839cf7c8c9f5d07f0562e94f38728153e7db2255a7191282b967c2
           native_id: "7094870"
           level: work
       history:
@@ -134,14 +148,14 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.17 scope/1
+        by: m2 dev scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0071387
           level: work
         - source: zbmath_search
-          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          snapshot: blake3:25dd7c4358839cf7c8c9f5d07f0562e94f38728153e7db2255a7191282b967c2
           native_id: "3407574"
           level: work
       history:

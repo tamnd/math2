@@ -29,7 +29,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.17 scope/1
+        by: m2 dev scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -40,7 +40,7 @@ records:
           native_id: "2610.09926"
           level: work
         - source: zbmath_search
-          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          snapshot: blake3:25dd7c4358839cf7c8c9f5d07f0562e94f38728153e7db2255a7191282b967c2
           native_id: "903202472"
           level: work
       history:
@@ -74,12 +74,24 @@ records:
         - name: Andrea D’Agnolo
           role: editor
       date: "1993"
+      msc:
+        - code: 00B25
+          from: zbmath_search
+        - code: 58-06
+          from: zbmath_search
+        - code: 17-06
+          from: zbmath_search
+        - code: 22-06
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1993"
           ids:
             doi: 10.1007/bfb0073464
+            zbl: "0782.00093"
+            zbl_id: "492409"
           manifestations:
             - key: m1
               kind: print
@@ -97,12 +109,16 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.17 scope/1
+        rule: S1
+        by: m2 dev scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0073464
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:25dd7c4358839cf7c8c9f5d07f0562e94f38728153e7db2255a7191282b967c2
+          native_id: "492409"
           level: work
       history:
         - op: add
@@ -112,4 +128,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-02"
+          by: m2 dev scope/1
+          note: from in to in
 ---

@@ -9,6 +9,13 @@ records:
         - name: Michael P. Friedlander
           role: author
       date: "2009-04-14"
+      msc:
+        - code: 94A12
+          from: zbmath_search
+        - code: 65K10
+          from: zbmath_search
+        - code: 90C25
+          from: zbmath_search
       subjects:
         - system: arxiv
           code: cs.IT
@@ -23,10 +30,12 @@ records:
           ids:
             arxiv: "0904.2051"
             doi: 10.1109/tit.2010.2043876
+            zbl: "1366.94138"
+            zbl_id: "6753980"
       scope:
         value: in
         rule: S2
-        by: m2 v0.6.17 scope/1
+        by: m2 dev scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -35,6 +44,10 @@ records:
         - source: arxiv_text
           snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
           native_id: "0904.2051"
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:25dd7c4358839cf7c8c9f5d07f0562e94f38728153e7db2255a7191282b967c2
+          native_id: "6753980"
           level: work
       history:
         - op: add

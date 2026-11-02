@@ -30,7 +30,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.17 scope/1
+        by: m2 dev scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -58,12 +58,15 @@ records:
       creators:
         - name: Shalabh
           role: instructor
+      date: "2017-06-02"
       ids:
         course: 05pjsgx75:111104100
       expressions:
         - key: e1
           kind: edition
           language: en
+          date: "2017-06-02"
+          structure: QA5N2826BW/e1.json
           manifestations:
             - key: m1
               kind: page
@@ -72,13 +75,24 @@ records:
                 nptel: "111104100"
               access:
                 class: record
+            - key: m2
+              kind: page
+              date: "2017-06-02"
+              ids:
+                nptel: "111104100"
+              access:
+                class: record
       scope:
         value: in
         rule: S6
-        by: m2 v0.6.17 scope/1
+        by: m2 dev scope/1
       catalogue:
         - source: nptel
           snapshot: blake3:89dc2ec164a0108adbecf0ec8c793929c947e196b164e762035d3fdd89a3f469
+          native_id: "111104100"
+          level: manifestation
+        - source: nptel_video
+          snapshot: blake3:7980ec84cfbca0f71922ec2d4e56d2385fa22a44c9cd025088eefbf06b61009d
           native_id: "111104100"
           level: manifestation
       history:

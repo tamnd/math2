@@ -3,6 +3,9 @@ records:
     - id: JAYEFE8ZBN
       kind: monograph
       title: Lectures on Seiberg-Witten Invariants
+      creators:
+        - name: Moore, John Douglas
+          role: author
       date: "2001"
       msc:
         - code: 57R57
@@ -38,14 +41,14 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.17 scope/1
+        by: m2 dev scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-540-40952-6
           level: work
         - source: zbmath_search
-          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          snapshot: blake3:25dd7c4358839cf7c8c9f5d07f0562e94f38728153e7db2255a7191282b967c2
           native_id: "1717959"
           level: work
       history:

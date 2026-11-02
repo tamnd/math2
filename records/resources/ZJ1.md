@@ -3,6 +3,9 @@ records:
     - id: ZJ14B48T3Z
       kind: monograph
       title: Operator-Valued Measures and Integrals for Cone-Valued Functions
+      creators:
+        - name: Roth, Walter
+          role: author
       date: "2009"
       msc:
         - code: 28-02
@@ -34,14 +37,14 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.17 scope/1
+        by: m2 dev scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-540-87565-9
           level: work
         - source: zbmath_search
-          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          snapshot: blake3:25dd7c4358839cf7c8c9f5d07f0562e94f38728153e7db2255a7191282b967c2
           native_id: "5490501"
           level: work
       history:
@@ -81,7 +84,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.17 scope/1
+        by: m2 dev scope/1
       catalogue:
         - source: kvant
           snapshot: blake3:9ef7ec326c8e38c2cc1957ddca07480f15b4e9ef49d8059191fc4a1c78c7cd39
@@ -107,14 +110,17 @@ records:
           role: editor
       date: "1975"
       msc:
-        - code: 00-XX
-          from: classify/1@2b838f8bc9d8
+        - code: 00Bxx
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: fr
           date: "1975"
           ids:
             doi: 10.1007/bfb0077395
+            zbl: "0299.00018"
+            zbl_id: "3468709"
           manifestations:
             - key: m1
               kind: print
@@ -132,12 +138,16 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.17 scope/1
+        rule: S1
+        by: m2 dev scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0077395
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:25dd7c4358839cf7c8c9f5d07f0562e94f38728153e7db2255a7191282b967c2
+          native_id: "3468709"
           level: work
       history:
         - op: add
@@ -151,4 +161,8 @@ records:
           at: "2026-11-01"
           by: m2 v0.6.13 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-02"
+          by: m2 dev scope/1
+          note: from in to in
 ---
