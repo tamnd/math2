@@ -17,17 +17,24 @@ records:
         - key: e1
           kind: version
           label: preprint
+          language: en
           date: "2021-01-14"
           ids:
             arxiv: "2101.08864"
+            zbl: "1325.33002"
+            zbl_id: "6502437"
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.16 scope/1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
           native_id: "2101.08864"
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          native_id: "6502437"
           level: work
       history:
         - op: add

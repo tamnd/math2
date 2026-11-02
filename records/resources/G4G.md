@@ -8,29 +8,17 @@ records:
           role: author
       date: "1983"
       msc:
-        - code: 17B67
-          from: zbmath_search
-        - code: 17-01
-          from: zbmath_search
-        - code: 17-02
-          from: zbmath_search
-        - code: "22E67"
+        - code: 17B65
           from: zbmath_search
         - code: 17B10
           from: zbmath_search
-        - code: 22-01
+        - code: 11F11
           from: zbmath_search
-        - code: 05A19
+        - code: 11F70
           from: zbmath_search
-        - code: 11P81
+        - code: "22E65"
           from: zbmath_search
-        - code: 11F22
-          from: zbmath_search
-        - code: 35Q53
-          from: zbmath_search
-        - code: 37K10
-          from: zbmath_search
-        - code: 37K30
+        - code: 14K25
           from: zbmath_search
       expressions:
         - key: e1
@@ -39,8 +27,8 @@ records:
           date: "1983"
           ids:
             doi: 10.1007/978-1-4757-1382-4
-            zbl: "0537.17001"
-            zbl_id: "3853316"
+            zbl: "0584.17007"
+            zbl_id: "3935268"
           manifestations:
             - key: m1
               kind: print
@@ -59,15 +47,15 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.16 scope/1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4757-1382-4
           level: work
         - source: zbmath_search
-          snapshot: blake3:928c873c1dac6852b2bf2c77184182759305f81342a4dc8ca5c0d4768bc6dd1e
-          native_id: "3853316"
+          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          native_id: "3935268"
           level: work
       history:
         - op: add

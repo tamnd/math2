@@ -8,24 +8,11 @@ records:
           role: author
       date: "1985"
       msc:
-        - code: 60Hxx
-          from: zbmath_search
-        - code: 60-01
-          from: zbmath_search
-        - code: 60G40
-          from: zbmath_search
-        - code: 60J45
-          from: zbmath_search
-        - code: 60J60
-          from: zbmath_search
-        - code: "93E11"
-          from: zbmath_search
-        - code: "93E20"
+        - code: 60H10
           from: zbmath_search
       expressions:
         - key: e1
           kind: edition
-          language: en
           date: "1985"
           ids:
             doi:
@@ -35,8 +22,8 @@ records:
                 - 10.1007/978-3-662-03185-8
                 - 10.1007/978-3-662-03620-4
                 - 10.1007/978-3-662-13050-6
-            zbl: "0567.60055"
-            zbl_id: "3905574"
+            zbl: "0612.60048"
+            zbl_id: "3990525"
           manifestations:
             - key: m1
               kind: print
@@ -105,7 +92,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.16 scope/1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
@@ -132,8 +119,8 @@ records:
           native_id: 10.1007/978-3-662-13050-6
           level: work
         - source: zbmath_search
-          snapshot: blake3:928c873c1dac6852b2bf2c77184182759305f81342a4dc8ca5c0d4768bc6dd1e
-          native_id: "3905574"
+          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          native_id: "3990525"
           level: work
       history:
         - op: add

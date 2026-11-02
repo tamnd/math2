@@ -7,12 +7,24 @@ records:
         - name: B. M. Fraeijs de Veubeke
           role: author
       date: "1979"
+      msc:
+        - code: 74-01
+          from: zbmath_search
+        - code: 74Bxx
+          from: zbmath_search
+        - code: 74K10
+          from: zbmath_search
+        - code: 74K20
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "1979"
           ids:
             doi: 10.1007/978-1-4612-6226-8
+            zbl: "0419.73001"
+            zbl_id: "3653627"
           manifestations:
             - key: m1
               kind: print
@@ -31,11 +43,15 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.16 scope/1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4612-6226-8
+          level: work
+        - source: zbmath_search
+          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          native_id: "3653627"
           level: work
       history:
         - op: add

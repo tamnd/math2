@@ -25,7 +25,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.16 scope/1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: kvant
           snapshot: blake3:9ef7ec326c8e38c2cc1957ddca07480f15b4e9ef49d8059191fc4a1c78c7cd39
@@ -50,15 +50,31 @@ records:
         - name: Antonio Caminha Muniz Neto
           role: author
       date: "2017"
+      msc:
+        - code: 97-01
+          from: zbmath_search
+        - code: 00A07
+          from: zbmath_search
+        - code: 00A35
+          from: zbmath_search
+        - code: 97I10
+          from: zbmath_search
+        - code: 97U40
+          from: zbmath_search
+        - code: 26-01
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
+          language: en
           date: "2017"
           ids:
             doi:
                 - 10.1007/978-3-319-53871-6
                 - 10.1007/978-3-319-77974-4
                 - 10.1007/978-3-319-77977-5
+            zbl: "1371.97002"
+            zbl_id: "6696129"
           manifestations:
             - key: m1
               kind: print
@@ -96,8 +112,8 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.16 scope/1
+        rule: S1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
@@ -111,6 +127,10 @@ records:
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-319-77977-5
           level: work
+        - source: zbmath_search
+          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          native_id: "6696129"
+          level: work
       history:
         - op: add
           at: "2026-10-31"
@@ -119,4 +139,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-02"
+          by: m2 v0.6.17 scope/1
+          note: from in to in
 ---

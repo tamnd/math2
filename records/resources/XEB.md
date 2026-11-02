@@ -57,14 +57,14 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.16 scope/1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
           native_id: 10.1090/coll/053
           level: work
         - source: zbmath_search
-          snapshot: blake3:928c873c1dac6852b2bf2c77184182759305f81342a4dc8ca5c0d4768bc6dd1e
+          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
           native_id: "2121181"
           level: work
       history:
@@ -87,19 +87,13 @@ records:
           role: author
       date: "2000"
       msc:
-        - code: 35-02
-          from: zbmath_search
-        - code: 35P25
-          from: zbmath_search
-        - code: 47-02
-          from: zbmath_search
-        - code: 47A40
+        - code: 35Q40
           from: zbmath_search
         - code: 81U05
           from: zbmath_search
-        - code: 81U10
+        - code: 35P25
           from: zbmath_search
-        - code: 81-02
+        - code: 35S15
           from: zbmath_search
       expressions:
         - key: e1
@@ -108,8 +102,8 @@ records:
           date: "2000"
           ids:
             doi: 10.1007/bfb0105531
-            zbl: "0951.35003"
-            zbl_id: "1478718"
+            zbl: "0996.35056"
+            zbl_id: "1655029"
           manifestations:
             - key: m1
               kind: print
@@ -128,15 +122,15 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.16 scope/1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/bfb0105531
           level: work
         - source: zbmath_search
-          snapshot: blake3:928c873c1dac6852b2bf2c77184182759305f81342a4dc8ca5c0d4768bc6dd1e
-          native_id: "1478718"
+          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          native_id: "1655029"
           level: work
       history:
         - op: add

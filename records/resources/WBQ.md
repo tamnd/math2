@@ -30,7 +30,7 @@ records:
       scope:
         value: border
         rule: border-arxiv
-        by: m2 v0.6.16 scope/1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -52,25 +52,26 @@ records:
           role: author
       date: "1982"
       msc:
-        - code: 00-01
+        - code: 00A05
+          from: zbmath_search
+        - code: 15-01
           from: zbmath_search
         - code: 20-01
           from: zbmath_search
-        - code: 16-01
+        - code: 13-01
           from: zbmath_search
-        - code: 13Cxx
-          from: zbmath_search
-        - code: 12Exx
+        - code: 12-01
           from: zbmath_search
       expressions:
         - key: e1
           kind: edition
-          language: en
+          label: 2nd edition
+          language: es
           date: "1982"
           ids:
             doi: 10.1007/978-1-4615-7286-2
-            zbl: "0482.00001"
-            zbl_id: "3756396"
+            zbl: "0516.00002"
+            zbl_id: "3815540"
           manifestations:
             - key: m1
               kind: print
@@ -89,15 +90,15 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.16 scope/1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-1-4615-7286-2
           level: work
         - source: zbmath_search
-          snapshot: blake3:928c873c1dac6852b2bf2c77184182759305f81342a4dc8ca5c0d4768bc6dd1e
-          native_id: "3756396"
+          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          native_id: "3815540"
           level: work
       history:
         - op: add

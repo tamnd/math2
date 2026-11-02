@@ -23,11 +23,10 @@ records:
           date: "2026-09-29"
           ids:
             arxiv: "2609.36904"
-            zbl_id: "903189065"
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.16 scope/1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: arxiv
           snapshot: blake3:e8374453dcab7bada88a6b850ab5bc0a0d87abd798991c12ac2d6c76ecd2c055
@@ -36,10 +35,6 @@ records:
         - source: arxiv_text
           snapshot: blake3:b523016991566b44cacf0976b2dcb4dfca52ceb7fd07e311b05971173c8f0b4d
           native_id: "2609.36904"
-          level: work
-        - source: zbmath_search
-          snapshot: blake3:928c873c1dac6852b2bf2c77184182759305f81342a4dc8ca5c0d4768bc6dd1e
-          native_id: "903189065"
           level: work
       history:
         - op: add

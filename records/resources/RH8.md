@@ -12,19 +12,11 @@ records:
           role: editor
       date: "2007-11-09"
       msc:
-        - code: 11-01
+        - code: 11-06
           from: zbmath_search
         - code: 11Txx
           from: zbmath_search
-        - code: 11T71
-          from: zbmath_search
-        - code: 05Bxx
-          from: zbmath_search
-        - code: 94Bxx
-          from: zbmath_search
-        - code: 94A60
-          from: zbmath_search
-        - code: 12-01
+        - code: 00B25
           from: zbmath_search
       expressions:
         - key: e1
@@ -35,8 +27,8 @@ records:
             doi:
                 - 10.1090/conm/461
                 - 10.1090/stml/041
-            zbl: "1128.11001"
-            zbl_id: "5219695"
+            zbl: "1141.11002"
+            zbl_id: "5303581"
           manifestations:
             - key: m1
               kind: print
@@ -71,7 +63,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.16 scope/1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: ams-series
           snapshot: blake3:caf23f13a44130cfaf0ea65e08f1b670683c2f34af9ccb44343f3bca428b1013
@@ -82,8 +74,8 @@ records:
           native_id: 10.1090/stml/041
           level: work
         - source: zbmath_search
-          snapshot: blake3:928c873c1dac6852b2bf2c77184182759305f81342a4dc8ca5c0d4768bc6dd1e
-          native_id: "5219695"
+          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          native_id: "5303581"
           level: work
       history:
         - op: add

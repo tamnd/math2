@@ -41,14 +41,14 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.16 scope/1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-642-61267-1
           level: work
         - source: zbmath_search
-          snapshot: blake3:928c873c1dac6852b2bf2c77184182759305f81342a4dc8ca5c0d4768bc6dd1e
+          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
           native_id: "47142"
           level: work
       history:
@@ -77,11 +77,13 @@ records:
           role: author
       date: "2017"
       msc:
-        - code: 53-02
+        - code: 62-06
           from: zbmath_search
-        - code: 62-02
+        - code: 94-06
           from: zbmath_search
-        - code: 53B99
+        - code: 00B30
+          from: zbmath_search
+        - code: 00B25
           from: zbmath_search
       expressions:
         - key: e1
@@ -90,8 +92,8 @@ records:
           date: "2017"
           ids:
             doi: 10.1007/978-3-319-56478-4
-            zbl: "1383.53002"
-            zbl_id: "6770983"
+            zbl: "1410.62006"
+            zbl_id: "6947029"
           manifestations:
             - key: m1
               kind: print
@@ -109,16 +111,16 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S1
-        by: m2 v0.6.16 scope/1
+        rule: S4
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-319-56478-4
           level: work
         - source: zbmath_search
-          snapshot: blake3:928c873c1dac6852b2bf2c77184182759305f81342a4dc8ca5c0d4768bc6dd1e
-          native_id: "6770983"
+          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          native_id: "6947029"
           level: work
       history:
         - op: add
@@ -131,5 +133,9 @@ records:
         - op: scope
           at: "2026-11-01"
           by: m2 v0.6.13 scope/1
+          note: from in to in
+        - op: scope
+          at: "2026-11-02"
+          by: m2 v0.6.17 scope/1
           note: from in to in
 ---

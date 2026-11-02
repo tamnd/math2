@@ -7,6 +7,15 @@ records:
         - name: Dirk van Dalen
           role: author
       date: "1980"
+      msc:
+        - code: 03-01
+          from: zbmath_search
+        - code: 03-02
+          from: zbmath_search
+        - code: 03B05
+          from: zbmath_search
+        - code: 03B10
+          from: zbmath_search
       expressions:
         - key: e1
           kind: edition
@@ -18,6 +27,8 @@ records:
                 - 10.1007/978-3-662-02382-2
                 - 10.1007/978-3-662-02962-6
                 - 10.1007/978-3-662-08402-1
+            zbl: "0434.03001"
+            zbl_id: "3675844"
           manifestations:
             - key: m1
               kind: print
@@ -65,11 +76,11 @@ records:
           source: cluster/1
       scope:
         value: in
-        rule: S4
-        by: m2 v0.6.16 scope/1
+        rule: S1
+        by: m2 v0.6.17 scope/1
       catalogue:
         - source: crossref_language
-          snapshot: blake3:78a08c6dff20a47d6ad06a8fc0424f997c851421644ee012bc0f425814d0a6d5
+          snapshot: blake3:99510ada1a0f54f83dbf4ed97ef48852461d1f98d338d1a350cabf222fb85948
           native_id: 10.1007/978-1-4471-4558-5
           level: work
         - source: springer-series
@@ -88,6 +99,10 @@ records:
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-3-662-08402-1
           level: work
+        - source: zbmath_search
+          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          native_id: "3675844"
+          level: work
       history:
         - op: add
           at: "2026-10-31"
@@ -96,4 +111,8 @@ records:
           at: "2026-10-31"
           by: m2 v0.6.2 scope/1
           note: to in
+        - op: scope
+          at: "2026-11-02"
+          by: m2 v0.6.17 scope/1
+          note: from in to in
 ---
