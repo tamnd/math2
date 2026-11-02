@@ -8,9 +8,13 @@ uses: [033WGN00BF, 0JV30XN73Z, 0CV69WDRXW]
 about: [0JV30XN73Z, 0CV69WDRXW]
 sources:
   - url: https://en.wikipedia.org/wiki/Pentagonal_number_theorem
-same_as:
-  wikidata: Q282649
-  wikipedia: Pentagonal number theorem
+close_to:
+  - system: wikipedia
+    id: Pentagonal number theorem
+    note: This node is a duplicate of node PMYDHW00KF, which holds the same_as link. The two nodes wait for a merge.
+  - system: wikidata
+    id: Q282649
+    note: This node is a duplicate of node PMYDHW00KF, which holds the same_as link. The two nodes wait for a merge.
 ---
 
 ## Statement

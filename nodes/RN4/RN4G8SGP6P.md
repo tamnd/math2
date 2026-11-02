@@ -5,9 +5,13 @@ name: Semicontinuity
 msc: [54C08, 26A15]
 sources:
   - url: https://en.wikipedia.org/wiki/Semi-continuity
-same_as:
-  wikidata: Q955072
-  wikipedia: Semi-continuity
+close_to:
+  - system: wikipedia
+    id: Semi-continuity
+    note: This node is a duplicate of node 95BSKT0S6M, which holds the same_as link. The two nodes wait for a merge.
+  - system: wikidata
+    id: Q955072
+    note: This node is a duplicate of node 95BSKT0S6M, which holds the same_as link. The two nodes wait for a merge.
 ---
 
 ## Summary

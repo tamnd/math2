@@ -6,9 +6,13 @@ msc: [41A05, 65D05]
 specializes: [SS1YMS2NPC]
 sources:
   - url: https://en.wikipedia.org/wiki/Lagrange_polynomial
-same_as:
-  wikidata: Q861606
-  wikipedia: Lagrange polynomial
+close_to:
+  - system: wikipedia
+    id: Lagrange polynomial
+    note: This node is a duplicate of node Y7KSGE97GK, which holds the same_as link. The two nodes wait for a merge.
+  - system: wikidata
+    id: Q861606
+    note: This node is a duplicate of node Y7KSGE97GK, which holds the same_as link. The two nodes wait for a merge.
 ---
 
 ## Summary
