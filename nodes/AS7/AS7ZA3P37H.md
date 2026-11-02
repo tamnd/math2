@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $A$ be a commutative complex Banach algebra.
+Let $A$ be a commutative complex [[Banach algebra|9KYWN94QDN]].
 A *character* of $A$ is a nonzero linear map $\varphi \colon A \to \C$ with $\varphi(ab) = \varphi(a) \varphi(b)$ for all $a, b \in A$.
 The *character space* $\Delta(A)$ of $A$ is the set of characters of $A$.
 Each character is continuous with $\norm{\varphi} \le 1$, so $\Delta(A)$ is a subset of the [[continuous dual space|4A82S5FVRT]] $A^*$.

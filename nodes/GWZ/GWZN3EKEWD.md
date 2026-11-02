@@ -21,7 +21,7 @@ The number of ends $e(G)$ is the supremum of this count over all such $K$.
 It does not depend on the generating set.
 Then $e(G) > 1$ if and only if one of the following holds:
 
-1. $G$ is an amalgamated free product $A *_C B$ with $C$ finite, $C \neq A$ and $C \neq B$.
+1. $G$ is an [[amalgamated free product|M848AHBRCM]] $A *_C B$ with $C$ finite, $C \neq A$ and $C \neq B$.
 2. $G$ is an [[HNN extension|YEYERRY37K]] $A *_C$ with $C$ a finite [[subgroup|0X1JXT47GA]] of $A$.
 
 ## Remarks

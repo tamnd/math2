@@ -21,4 +21,4 @@ An absorbing set $A$ contains $0$: for $x = 0$ there is $c \ne 0$ with $0 \in cA
 If $A$ is [[balanced|2TDSHJJYS4]], then $A$ is absorbing if and only if for every $x \in V$ there is $t > 0$ with $t x \in A$.
 Example: the open unit ball $A = \set{x : \norm{x} < 1}$ of a normed space is absorbing; for $x \in V$ take $r = \norm{x} + 1$, and then $\norm{x / c} < 1$ whenever $\abs{c} \ge r$.
 Non-example: in $\R^2$, the axis $A = \R \times \set{0}$ is not absorbing, because $(0, 1) \notin c A$ for every $c$.
-In a topological vector space every neighbourhood of $0$ is absorbing, since $c \mapsto c^{-1} x$ is continuous and tends to $0$.
+In a [[topological vector space|T32W553W95]] every neighbourhood of $0$ is absorbing, since $c \mapsto c^{-1} x$ is continuous and tends to $0$.

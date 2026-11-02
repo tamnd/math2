@@ -12,7 +12,7 @@ sources:
 ## Definition
 
 Consider pairs of spaces $(X, A)$ and maps of pairs, as in the [[Eilenberg–Steenrod axioms|YHK51GHK2T]], and write $X$ for $(X, \emptyset)$.
-A *generalized cohomology theory* consists of contravariant functors $h^n$, for $n \in \Z$, from pairs of spaces to [[abelian groups|082GHNPJ53]], and natural transformations $\delta \colon h^n(A) \to h^{n+1}(X, A)$, such that:
+A *generalized cohomology theory* consists of contravariant [[functors|28NQ0KRHD3]] $h^n$, for $n \in \Z$, from pairs of spaces to [[abelian groups|082GHNPJ53]], and [[natural transformations|KYCPCC57FT]] $\delta \colon h^n(A) \to h^{n+1}(X, A)$, such that:
 
 1. (Homotopy) [[Homotopic|F2F143KQ2M]] maps of pairs induce the same homomorphisms.
 2. (Exactness) For each pair, the sequence $\cdots \to h^n(X, A) \to h^n(X) \to h^n(A) \xrightarrow{\delta} h^{n+1}(X, A) \to \cdots$, with the unnamed maps induced by inclusions, is [[exact|JB7ZBFBA9C]].

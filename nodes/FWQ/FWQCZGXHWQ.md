@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $(D, \le)$ be a directed set and let $X$ be a set.
+Let $(D, \le)$ be a [[directed set|D9RY4667K6]] and let $X$ be a set.
 A *net* in $X$ indexed by $D$ is a map $D \to X$, written $(x_d)_{d \in D}$.
 Let $X$ be a [[topological space|0CQHFPGJ45]] and let $x \in X$.
 The net $(x_d)_{d \in D}$ *converges* to $x$ if for every [[neighbourhood|0ZCY0Z80B6]] $U$ of $x$ there is $d_0 \in D$ such that $x_d \in U$ for all $d \in D$ with $d \ge d_0$.

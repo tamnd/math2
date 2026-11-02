@@ -21,7 +21,7 @@ with pointwise addition and multiplication and the norm $\norm{f} = \sup_{z \in 
 
 ## Remarks
 
-$A(\mathbb{D})$ is a closed subalgebra of $C(\overline{\mathbb{D}})$, hence a commutative Banach algebra with unit.
+$A(\mathbb{D})$ is a closed subalgebra of $C(\overline{\mathbb{D}})$, hence a commutative [[Banach algebra|9KYWN94QDN]] with unit.
 By the [[maximum modulus principle|048F2P90WR]], the norm equals $\sup_{\abs{z} = 1} \abs{f(z)}$, so $A(\mathbb{D})$ may also be viewed as an algebra of functions on the circle.
 The polynomials are dense: $f(rz) \to f(z)$ uniformly as $r \to 1$, and each $f(rz)$ is the uniform limit of its Taylor polynomials on $\overline{\mathbb{D}}$.
 The maximal ideals of $A(\mathbb{D})$ are the sets $\set{f : f(a) = 0}$ for $a \in \overline{\mathbb{D}}$.

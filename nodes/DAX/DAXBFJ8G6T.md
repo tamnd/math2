@@ -12,10 +12,10 @@ sources:
 ## Definition
 
 Let $X$ be a topological space and let $A \subseteq X$ be a subspace with the [[subspace topology|0WS9P12FQR]].
-Let $C_\bullet(X)$ be the singular chain complex of $X$.
+Let $C_\bullet(X)$ be the singular [[chain complex|WQ82C0M3QB]] of $X$.
 Every singular simplex in $A$ is a singular simplex in $X$, so $C_\bullet(A)$ is a subcomplex of $C_\bullet(X)$.
 The *relative chain complex* is the quotient $C_n(X, A) = C_n(X) / C_n(A)$, with the boundary map induced by the boundary of $C_\bullet(X)$.
-The *relative homology* $H_n(X, A)$ is the homology of $C_\bullet(X, A)$ in degree $n$.
+The *relative [[homology|2J4JJJYP22]]* $H_n(X, A)$ is the homology of $C_\bullet(X, A)$ in degree $n$.
 
 ## Remarks
 

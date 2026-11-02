@@ -19,7 +19,7 @@ A set $U \subseteq V$ is open if for every $x \in U$ there are $p_1, \ldots, p_n
 
 ## Remarks
 
-With this topology $V$ is a topological vector space, each $p \in \mathcal{P}$ is continuous, and it is the coarsest topology on $V$ with these two properties.
+With this topology $V$ is a [[topological vector space|T32W553W95]], each $p \in \mathcal{P}$ is continuous, and it is the coarsest topology on $V$ with these two properties.
 A net $(x_i)$ converges to $x$ if and only if $p(x_i - x) \to 0$ for every $p \in \mathcal{P}$.
 The topology is Hausdorff if and only if $\mathcal{P}$ separates points: for each $x \ne 0$ some $p \in \mathcal{P}$ has $p(x) \ne 0$.
 Example: on $\R^X$, the space of all real functions on a set $X$, the seminorms $p_x(f) = \abs{f(x)}$ for $x \in X$ generate the topology of pointwise convergence, which is the product topology.

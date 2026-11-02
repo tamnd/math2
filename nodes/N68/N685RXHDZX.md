@@ -12,7 +12,7 @@ sources:
 
 ## Statement
 
-Let $\pi \colon E \to B$ be a real vector bundle of rank $n$ over a topological space $B$.
+Let $\pi \colon E \to B$ be a real [[vector bundle|P4DZM975BV]] of rank $n$ over a topological space $B$.
 Assume it is oriented: each fibre $F_b = \pi^{-1}(b)$ has an [[orientation|0QJJAQ6ZYZ]], given locally by trivializations.
 Let $E_0 \subseteq E$ be the complement of the zero section, and $F_{b,0} = F_b \setminus \set{0}$.
 Then, in [[singular cohomology|6N7BC70CX0]] with integer coefficients:

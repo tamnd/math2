@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-Inverse mean curvature flow is a geometric evolution of hypersurfaces.
+Inverse [[mean curvature flow|2YYV01C7QQ]] is a geometric evolution of hypersurfaces.
 Each point moves outward along the unit normal, with speed equal to the reciprocal of the [[mean curvature|PA78NFEPCF]].
 It needs a hypersurface with positive mean curvature.
 Under this flow the area of the hypersurface grows exponentially in time.

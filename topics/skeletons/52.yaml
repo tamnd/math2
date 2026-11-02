@@ -122,7 +122,7 @@ items:
   - {name: associahedron, kind: example, wikipedia: Associahedron, wikidata: Q4809117}
   - {name: Birkhoff polytope, kind: example, wikipedia: Birkhoff polytope, wikidata: Q4916482}
   - {name: Birkhoff–von Neumann theorem, kind: statement, wikipedia: Doubly stochastic matrix, wikidata: Q1243340, node: 3KY1RMEDMJ}
-  - {name: order polytope, kind: example, wikipedia: Order polytope, wikidata: Q85791185}
+  - {name: order polytope, kind: example, wikipedia: Order polytope, wikidata: Q85791185, node: N587ECTQ4X}
   - {name: polar polytope, kind: definition, wikipedia: Dual polyhedron, wikidata: Q1053857}
   - {name: f-vector, kind: definition, wikipedia: Simplicial complex, wikidata: Q994399}
   - {name: Euler's formula for polytopes, kind: statement, wikipedia: Euler characteristic, wikidata: Q852973}
@@ -140,7 +140,7 @@ items:
   - {name: Zaslavsky's theorem, kind: statement, wikipedia: Arrangement of hyperplanes, wikidata: Q4795851}
   - {name: Minkowski sum of polytopes, kind: definition, wikipedia: Minkowski addition, wikidata: Q1322294}
   - {name: normal fan, kind: definition, wikipedia: Toric variety, wikidata: Q1528306}
-  - {name: Newton polytope, kind: definition, wikipedia: Newton polygon, wikidata: Q115646}
+  - {name: Newton polytope, kind: definition, wikipedia: Newton polygon, wikidata: Q115646, node: CYTTX8KHC8}
   - {name: lattice polytope, kind: definition, wikipedia: Integral polytope, wikidata: Q5166519}
   - {name: Ehrhart polynomial, kind: definition, wikipedia: Ehrhart polynomial, wikidata: Q5348622}
   - {name: Ehrhart–Macdonald reciprocity, kind: statement, wikipedia: Ehrhart polynomial, wikidata: Q5348622}
@@ -169,9 +169,9 @@ items:
   - {name: simplex algorithm, kind: concept, wikipedia: Simplex algorithm, wikidata: Q134164}
   - {name: Fourier–Motzkin elimination, kind: concept, wikipedia: Fourier–Motzkin elimination, wikidata: Q1440012}
   - {name: polyhedral combinatorics, kind: concept, wikipedia: Polyhedral combinatorics, wikidata: Q8348314}
-  - {name: toric variety, kind: concept, wikipedia: Toric variety, wikidata: Q1528306}
+  - {name: toric variety, kind: concept, wikipedia: Toric variety, wikidata: Q1528306, node: YWB981MEF2}
   # Lattices and geometry of numbers
-  - {name: lattice, kind: definition, decl: IsZLattice, wikipedia: Lattice (group), wikidata: Q1096885}
+  - {name: lattice, kind: definition, decl: IsZLattice, wikipedia: Lattice (group), wikidata: Q1096885, node: WH4SFAACAS}
   - {name: Minkowski's theorem, kind: statement, decl: MeasureTheory.exists_ne_zero_mem_lattice_of_measure_mul_two_pow_lt_measure, wikipedia: Minkowski's theorem, wikidata: Q1097021, mathlib: [mathlib-100, mathlib-1000], node: 0K387S2PKQ}
   - {name: Minkowski's second theorem, kind: statement, wikipedia: Minkowski's second theorem, wikidata: Q6867853, node: 5H4XZVF9B9}
   - {name: successive minima, kind: definition, wikipedia: Minkowski's second theorem, wikidata: Q6867853}

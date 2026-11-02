@@ -17,7 +17,7 @@ A nuclear space is a [[locally convex space|B6GY2KJMWW]] whose seminorms can be 
 These are maps given by absolutely summable series of rank-one maps.
 Nuclear spaces were introduced by Alexander Grothendieck in his work on topological tensor products.
 They behave in many ways like finite-dimensional spaces: tensor products are well behaved, and the [[Schwartz kernel theorem|2ZKWZ0A4MT]] holds for them.
-The Schwartz space and spaces of smooth functions on open sets of $\R^n$ are nuclear, while no infinite-dimensional normed space is.
+The [[Schwartz space|CG9JEATW3Q]] and spaces of smooth functions on open sets of $\R^n$ are nuclear, while no infinite-dimensional normed space is.
 
 ## Explanations
 

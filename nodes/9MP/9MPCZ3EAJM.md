@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-Galois cohomology is the group cohomology of Galois groups, see the [[definition|EESNTXFWHZ]].
+Galois cohomology is the [[group cohomology|YXJXA0Q52R]] of Galois groups, see the [[definition|EESNTXFWHZ]].
 The main case is the [[absolute Galois group|PGKWBJDTKX]] of a field, acting continuously on a module.
 Many arithmetic invariants of a field are Galois cohomology groups.
 [[Hilbert's Theorem 90|YFF8B5A0QG]] says that $H^1$ of the multiplicative group vanishes.

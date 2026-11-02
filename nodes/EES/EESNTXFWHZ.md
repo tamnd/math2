@@ -26,7 +26,7 @@ with $C^{-1} = 0$.
 ## Remarks
 
 The group $H^0(K, M)$ is the group $M^{G_K}$ of fixed elements.
-The group $H^n(K, M)$ is also the direct limit, over finite Galois extensions $L/K$ inside $K^s$, of the group cohomology groups $H^n(\Gal(L/K), M^{\Gal(K^s/L)})$.
+The group $H^n(K, M)$ is also the direct limit, over finite Galois extensions $L/K$ inside $K^s$, of the [[group cohomology|YXJXA0Q52R]] groups $H^n(\Gal(L/K), M^{\Gal(K^s/L)})$.
 Example: $M = (K^s)^\times$ is a discrete $G_K$-module, since each element of $K^s$ lies in a finite extension of $K$, and its stabilizer contains the open subgroup fixing that extension.
 For it, $H^0(K, (K^s)^\times) = K^\times$, $H^1(K, (K^s)^\times) = 0$ by [[Hilbert's Theorem 90|YFF8B5A0QG]], and $H^2(K, (K^s)^\times)$ is the [[Brauer group|BEW48TA9WZ]] of $K$.
 For an integer $m$ not divisible by the characteristic of $K$, with $\mu_m$ the group of $m$-th roots of unity in $K^s$, [[Kummer theory|XZQENYV15Y]] gives $H^1(K, \mu_m) \cong K^\times / (K^\times)^m$.

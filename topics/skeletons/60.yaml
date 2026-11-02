@@ -56,7 +56,7 @@ items:
   - {name: probability-generating function, kind: definition, wikipedia: Probability generating function, wikidata: Q372071, node: 0EBCWQ8BVE}
   - {name: characteristic function, kind: definition, decl: MeasureTheory.charFun, wikipedia: Characteristic function (probability theory), wikidata: Q822139, mathlib: [mathlib-undergrad, mathlib-overview]}
   - {name: characteristic function determines the distribution, kind: statement, decl: MeasureTheory.Measure.ext_of_charFun, wikipedia: Characteristic function (probability theory), wikidata: Q822139, node: 0T8BYAFEXX}
-  - {name: Bochner's theorem, kind: statement, wikipedia: Bochner's theorem, wikidata: Q4936242}
+  - {name: Bochner's theorem, kind: statement, wikipedia: Bochner's theorem, wikidata: Q4936242, node: ZRHAG4NXHC}
   - {name: Cramér–Wold theorem, kind: statement, wikipedia: Cramér–Wold theorem, wikidata: Q966837, node: 3HFP9ZQ580}
   - {name: convolution of probability distributions, kind: definition, decl: MeasureTheory.Measure.conv, wikipedia: Convolution of probability distributions, wikidata: Q5166603, node: 0F8GDKM0A7}
   # Inequalities
@@ -72,7 +72,7 @@ items:
   - {name: McDiarmid's inequality, kind: statement, wikipedia: McDiarmid's inequality, wikidata: Q113127691, node: 8APFT1RPM4}
   - {name: concentration of measure, kind: concept, wikipedia: Concentration of measure, wikidata: Q5158327}
   - {name: Talagrand's concentration inequality, kind: statement, wikipedia: Talagrand's concentration inequality, wikidata: Q7678798, node: GGEAGW4RRV}
-  - {name: FKG inequality, kind: statement, wikipedia: FKG inequality, wikidata: Q1784730}
+  - {name: FKG inequality, kind: statement, wikipedia: FKG inequality, wikidata: Q1784730, node: DCXJGS6E6D}
   # Conditioning
   - {name: conditional expectation, kind: definition, decl: MeasureTheory.condExp, wikipedia: Conditional expectation, wikidata: Q772232, mathlib: [mathlib-overview], node: 0TTDGTEFMN}
   - {name: law of total expectation, kind: statement, decl: MeasureTheory.condExp_condExp_of_le, wikipedia: Law of total expectation, wikidata: Q2247110, node: 04RRB6HM00}
@@ -196,16 +196,16 @@ items:
   - {name: Girsanov theorem, kind: statement, wikipedia: Girsanov theorem, wikidata: Q830124, node: Z76HD1BZ29}
   - {name: martingale representation theorem, kind: statement, wikipedia: Martingale representation theorem, wikidata: Q6777133, node: 2E8MQXDYNV}
   - {name: Tanaka's formula, kind: statement, wikipedia: Tanaka's formula, wikidata: Q3068230, node: GEM0ERJ5ZB}
-  - {name: Feynman–Kac formula, kind: statement, wikipedia: Feynman–Kac formula, wikidata: Q1317359}
-  - {name: Fokker–Planck equation, kind: definition, wikipedia: Fokker–Planck equation, wikidata: Q891766}
+  - {name: Feynman–Kac formula, kind: statement, wikipedia: Feynman–Kac formula, wikidata: Q1317359, node: W26MGR4DA3}
+  - {name: Fokker–Planck equation, kind: definition, wikipedia: Fokker–Planck equation, wikidata: Q891766, node: FVQWR7NS00}
   - {name: Kolmogorov backward equation, kind: definition, wikipedia: Kolmogorov backward equations (diffusion), wikidata: Q3366755, node: KQMJ7M57ER}
   - {name: Langevin equation, kind: definition, wikipedia: Langevin equation, wikidata: Q584537, node: ZW2RBS9VTR}
   - {name: Euler–Maruyama method, kind: concept, wikipedia: Euler–Maruyama method, wikidata: Q761604, node: 22T0NVC56P}
   - {name: Malliavin calculus, kind: concept, wikipedia: Malliavin calculus, wikidata: Q6744166, node: 1EC7VPHFAY}
-  - {name: stochastic partial differential equation, kind: definition, wikipedia: Stochastic partial differential equation, wikidata: Q16979017}
+  - {name: stochastic partial differential equation, kind: definition, wikipedia: Stochastic partial differential equation, wikidata: Q16979017, node: PRCQG82QTK}
   # Rough analysis
   - {name: rough path, kind: definition, wikipedia: Rough path, wikidata: Q7370888, node: X6KCW4X5JA}
-  - {name: regularity structure, kind: concept, wikipedia: Regularity structure, wikidata: Q28401890}
+  - {name: regularity structure, kind: concept, wikipedia: Regularity structure, wikidata: Q28401890, node: BQ6CYHQW02}
   # Markov processes
   - {name: Markov property, kind: definition, wikipedia: Markov property, wikidata: Q176695, node: 0B77KZCQ51}
   - {name: Markov chain, kind: definition, wikipedia: Markov chain, wikidata: Q176645, node: 0G48PYM96Q}
@@ -251,7 +251,7 @@ items:
   - {name: loop-erased random walk, kind: definition, wikipedia: Loop-erased random walk, wikidata: Q6675770, node: ET73YH2T29}
   - {name: Schramm–Loewner evolution, kind: definition, wikipedia: Schramm–Loewner evolution, wikidata: Q7432797, node: AQ75M2JTB2}
   - {name: Gaussian free field, kind: definition, wikipedia: Gaussian free field, wikidata: Q5527838, node: EGCDMWYKQB}
-  - {name: Kardar–Parisi–Zhang equation, kind: definition, wikipedia: Kardar–Parisi–Zhang equation, wikidata: Q6369122}
+  - {name: Kardar–Parisi–Zhang equation, kind: definition, wikipedia: Kardar–Parisi–Zhang equation, wikidata: Q6369122, node: RQ196EHXKC}
   - {name: random matrix, kind: definition, wikipedia: Random matrix, wikidata: Q176604, node: 1HS4RT7HK5}
   - {name: Wigner semicircle distribution, kind: statement, wikipedia: Wigner semicircle distribution, wikidata: Q2246294}
   - {name: Marchenko–Pastur distribution, kind: statement, wikipedia: Marchenko–Pastur distribution, wikidata: Q6756972}

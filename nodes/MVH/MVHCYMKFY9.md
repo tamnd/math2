@@ -16,7 +16,7 @@ same_as:
 ## Statement
 
 Let $p$ be a prime and let $X$ be a space whose integral [[singular homology|M0Q5CFJ7ZH]] groups $H_n(X; \Z)$ are finitely generated for every $n$.
-Then there is a spectral sequence $(E^r_n, d^r)_{r \ge 1}$ with $d^r \colon E^r_n \to E^r_{n-1}$ such that:
+Then there is a [[spectral sequence|GG8AYV847V]] $(E^r_n, d^r)_{r \ge 1}$ with $d^r \colon E^r_n \to E^r_{n-1}$ such that:
 
 1. $E^1_n = H_n(X; \F_p)$, the [[homology with coefficients|XT7VWNTKGB]] in $\F_p$, and $d^1$ is the [[Bockstein homomorphism|H7PCM776GR]] of $0 \to \Z/p \to \Z/p^2 \to \Z/p \to 0$;
 2. $E^\infty_n = E^r_n$ for $r$ large, and $E^\infty_n \cong \big(H_n(X; \Z) / \mathrm{torsion}\big) \otimes \F_p$;

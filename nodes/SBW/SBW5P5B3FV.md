@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $\mathbb{K}$ be $\R$ or $\C$, and let $E$ be a topological vector space over $\mathbb{K}$.
+Let $\mathbb{K}$ be $\R$ or $\C$, and let $E$ be a [[topological vector space|T32W553W95]] over $\mathbb{K}$.
 $E$ is an *F-space* if there is a [[metric|063W5JMY85]] $d$ on $E$ such that:
 
 1. $d$ induces the topology of $E$.

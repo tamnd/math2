@@ -12,10 +12,10 @@ sources:
 ## Definition
 
 Let $p$ be a prime, let $q$ be a power of $p$, and let $\overline{\F}_q$ be an [[algebraic closure|0X6AB5P3G1]] of the [[finite field|0ZXZ82FTX2]] $\F_q$.
-Let $\mathbf{G}$ be a connected reductive group over $\overline{\F}_q$ with a Frobenius endomorphism $F$ for an $\F_q$-structure.
+Let $\mathbf{G}$ be a connected [[reductive group|2XS84PWE3S]] over $\overline{\F}_q$ with a Frobenius endomorphism $F$ for an $\F_q$-structure.
 Let $G = \mathbf{G}^F$ be the finite group of fixed points of $F$.
-Let $\mathbf{T}$ be an $F$-stable maximal torus of $\mathbf{G}$, and let $T = \mathbf{T}^F$.
-Let $\mathbf{B}$ be a Borel subgroup containing $\mathbf{T}$, not necessarily $F$-stable, with unipotent radical $\mathbf{U}$.
+Let $\mathbf{T}$ be an $F$-stable [[maximal torus|3JVGZVVTB0]] of $\mathbf{G}$, and let $T = \mathbf{T}^F$.
+Let $\mathbf{B}$ be a [[Borel subgroup|5JSYA1JNCC]] containing $\mathbf{T}$, not necessarily $F$-stable, with unipotent radical $\mathbf{U}$.
 The Deligne–Lusztig variety is
 $$\tilde{X} = \set{g \in \mathbf{G} : g^{-1} F(g) \in F(\mathbf{U})}.$$
 The group $G$ acts on $\tilde{X}$ by left multiplication and $T = \mathbf{T}^F$ acts by right multiplication.

@@ -15,7 +15,7 @@ Let $E \to B$ be a real vector bundle of rank $n$ over a paracompact space $B$.
 Let $E \otimes \C$ be its complexification, the complex vector bundle of rank $n$ with fibers $E_b \otimes_\R \C$.
 For $i \ge 0$, the $i$-th *Pontryagin class* of $E$ is
 $$p_i(E) = (-1)^i c_{2i}(E \otimes \C) \in H^{4i}(B; \Z),$$
-where $c_{2i}$ is the $2i$-th Chern class.
+where $c_{2i}$ is the $2i$-th [[Chern class|PAD37GKDPD]].
 The total Pontryagin class is $p(E) = 1 + p_1(E) + p_2(E) + \cdots$.
 
 ## Remarks

@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-The moduli space $M_g$ is a geometric space whose points are the isomorphism classes of smooth projective algebraic curves of genus $g$.
+The moduli space $M_g$ is a geometric space whose points are the isomorphism classes of smooth projective [[algebraic curves|XJM2MT4S3Y]] of genus $g$.
 Over $\C$ these are the compact [[Riemann surfaces|5K0N8QMV6Q]] of genus $g$, and $M_g$ is the quotient of [[Teichmüller space|ZZGC6BZNJ5]] by the [[mapping class group|JV5NYG913V]].
 For $g \ge 2$, $M_g$ is an irreducible quasi-projective variety of dimension $3g - 3$, and it has a compactification $\overline{M}_g$ by stable curves due to Deligne and Mumford.
 It is a central object of algebraic geometry, linking geometry, topology and number theory.

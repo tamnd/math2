@@ -12,10 +12,10 @@ sources:
 ## Definition
 
 Let $K$ be a [[field|04C5ZBG1WT]].
-An *elliptic curve over $K$* is a pair $(E, O)$ with two properties.
-$E$ is a smooth projective curve over $K$ of genus $1$, and $O \in E(K)$ is a point of $E$ defined over $K$.
+An *elliptic [[curve|XJM2MT4S3Y]] over $K$* is a pair $(E, O)$ with two properties.
+$E$ is a smooth projective curve over $K$ of [[genus|6W8TDV9VVN]] $1$, and $O \in E(K)$ is a point of $E$ defined over $K$.
 
-Equivalently, it is a curve in the projective plane given by a Weierstrass equation with $a_1, \ldots, a_6 \in K$:
+Equivalently, it is a curve in the [[projective plane|ZT9A6JK8QF]] given by a [[Weierstrass equation|Z3C8B6QTS6]] with $a_1, \ldots, a_6 \in K$:
 $$y^2 + a_1 xy + a_3 y = x^3 + a_2 x^2 + a_4 x + a_6.$$
 Its discriminant $\Delta$ must be nonzero, and $O = [0 : 1 : 0]$ is the point at infinity.
 If the characteristic of $K$ is not $2$ or $3$, every elliptic curve has an equation $y^2 = x^3 + ax + b$ with $a, b \in K$, and the condition $\Delta \ne 0$ becomes $4a^3 + 27b^2 \ne 0$.

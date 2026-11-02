@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $\mathbb{K}$ be $\R$ or $\C$, and let $A$ be an associative algebra over $\mathbb{K}$, with or without a unit.
+Let $\mathbb{K}$ be $\R$ or $\C$, and let $A$ be an [[associative algebra|3CTW1P4HBP]] over $\mathbb{K}$, with or without a unit.
 The *unitization* of $A$ is the vector space $A^+ = \mathbb{K} \times A$ with the product
 $$(\lambda, a)(\mu, b) = (\lambda \mu,\ \lambda b + \mu a + a b).$$
 It is an associative algebra over $\mathbb{K}$ with unit $(1, 0)$.

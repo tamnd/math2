@@ -11,7 +11,7 @@ sources:
 ## Example
 
 Let $n \ge 1$.
-For $k \ge n$, let $G_n(\R^k)$ be the Grassmannian of $n$-dimensional linear subspaces of $\R^k$.
+For $k \ge n$, let $G_n(\R^k)$ be the [[Grassmannian|CYPA882RB9]] of $n$-dimensional linear subspaces of $\R^k$.
 The inclusions $\R^k \subset \R^{k+1}$ give inclusions $G_n(\R^k) \subset G_n(\R^{k+1})$, and $G_n(\R^\infty) = \bigcup_k G_n(\R^k)$ carries the weak topology of this union.
 The tautological bundle
 $$\gamma^n = \set{(V, v) \in G_n(\R^\infty) \times \R^\infty : v \in V}$$

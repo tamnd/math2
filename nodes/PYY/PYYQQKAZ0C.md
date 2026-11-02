@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-The spinor bundle of a spin manifold is the complex vector bundle associated with its [[spin structure|RSPZ9TCFQ8]] and the spin representation of the spin group.
+The spinor bundle of a spin manifold is the complex [[vector bundle|P4DZM975BV]] associated with its [[spin structure|RSPZ9TCFQ8]] and the spin representation of the [[spin group|JJSXXJQGEH]].
 Its sections are the spinor fields.
 It carries a Hermitian metric, a connection induced by the Levi-Civita connection and a Clifford multiplication by tangent vectors, and these define the Dirac operator.
 

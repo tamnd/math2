@@ -17,7 +17,7 @@ same_as:
 
 Let $(M, g)$ be a connected complete noncompact [[Riemannian manifold|7CBT4SM83Y]] with nonnegative [[sectional curvature|1X42JAA349]].
 Then $M$ contains a compact, totally convex, totally geodesic embedded submanifold $S$ without boundary, called a *soul* of $M$.
-Moreover, $M$ is [[diffeomorphic|0KZZ70ZHXP]] to the total space of the normal vector bundle of $S$ in $M$.
+Moreover, $M$ is [[diffeomorphic|0KZZ70ZHXP]] to the total space of the normal [[vector bundle|P4DZM975BV]] of $S$ in $M$.
 
 ## Remarks
 

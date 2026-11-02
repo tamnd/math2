@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $R$ be a [[commutative ring|0310REJJY8]] and let $G$ be a group that [[acts|0WCY42EV9V]] on $R$ by ring automorphisms, written $r \mapsto g \cdot r$.
+Let $R$ be a [[commutative ring|0310REJJY8]] and let $G$ be a group that [[acts|0WCY42EV9V]] on $R$ by ring [[automorphisms|DSQ17TNW1C]], written $r \mapsto g \cdot r$.
 The *ring of invariants* of the action is
 $$R^G = \set{ r \in R : g \cdot r = r \text{ for all } g \in G }.$$
 

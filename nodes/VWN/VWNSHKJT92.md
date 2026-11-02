@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-The Gelfand transform turns each element $a$ of a commutative complex Banach algebra into a continuous function $\hat a$ on the [[character space|M7JVFJ3MMX]], by $\hat a(\varphi) = \varphi(a)$.
+The Gelfand transform turns each element $a$ of a commutative complex [[Banach algebra|9KYWN94QDN]] into a continuous function $\hat a$ on the [[character space|M7JVFJ3MMX]], by $\hat a(\varphi) = \varphi(a)$.
 It is an algebra homomorphism into the functions vanishing at infinity, and it does not increase norms.
 For a unital algebra, the range of $\hat a$ is the spectrum of $a$.
 For commutative C*-algebras it is an isometric isomorphism onto all such functions, by the [[commutative Gelfand–Naimark theorem|NT564Y315M]].

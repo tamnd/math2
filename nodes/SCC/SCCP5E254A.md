@@ -16,7 +16,7 @@ For a multi-index $\alpha = (\alpha_1, \ldots, \alpha_n)$ of nonnegative integer
 Let
 $$L = \sum_{\abs{\alpha} \le m} a_\alpha(x) \partial^\alpha$$
 be a linear differential operator of order $m$ on $\Omega$ with complex-valued continuous coefficients $a_\alpha$.
-Its principal symbol is $\sigma_L(x, \xi) = \sum_{\abs{\alpha} = m} a_\alpha(x) \xi^\alpha$.
+Its [[principal symbol|F31T650DKY]] is $\sigma_L(x, \xi) = \sum_{\abs{\alpha} = m} a_\alpha(x) \xi^\alpha$.
 The operator $L$ is *elliptic* if
 $$\sigma_L(x, \xi) \ne 0 \quad \text{for all } x \in \Omega \text{ and all } \xi \in \R^n \setminus \set{0}.$$
 

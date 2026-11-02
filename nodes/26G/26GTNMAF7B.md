@@ -12,7 +12,7 @@ sources:
 The stable homotopy category has [[spectra|1GHF4EKBXS]] as objects and homotopy classes of maps of spectra as morphisms.
 In it the stable weak equivalences are made invertible.
 In it the suspension functor is an equivalence, every morphism set is an abelian group, and cofibre sequences are also fibre sequences.
-It is a triangulated category with a symmetric monoidal smash product, and it is the setting of [[stable homotopy theory|545EV0W4CE]].
+It is a [[triangulated category|T2V7GJJ2EN]] with a symmetric monoidal smash product, and it is the setting of [[stable homotopy theory|545EV0W4CE]].
 
 ## Explanations
 

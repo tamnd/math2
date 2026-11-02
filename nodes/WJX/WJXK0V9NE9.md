@@ -9,7 +9,7 @@ sources:
 
 ## Summary
 
-The cohomology with field coefficients of a connected [[H-space|EASHTX8EG5]] of finite type is a Hopf algebra.
+The cohomology with field coefficients of a connected [[H-space|EASHTX8EG5]] of finite type is a [[Hopf algebra|7XFYP0N84H]].
 The cup product is its multiplication, and the map induced by the H-space multiplication is its comultiplication.
 Hopf discovered this structure in 1941.
 He used it to show that the rational cohomology of a compact connected Lie group is an exterior algebra on generators of odd degree.

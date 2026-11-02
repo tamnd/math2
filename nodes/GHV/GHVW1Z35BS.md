@@ -14,9 +14,9 @@ same_as:
 ## Summary
 
 A hyperbolic $3$-manifold is a [[3-manifold|R20TB2KEQQ]] with a complete Riemannian metric of constant curvature $-1$.
-Equivalently, it is a quotient of hyperbolic $3$-space $\mathbb{H}^3$ by a discrete torsion-free group of isometries, a Kleinian group in the orientable case.
+Equivalently, it is a quotient of hyperbolic $3$-space $\mathbb{H}^3$ by a discrete torsion-free group of isometries, a [[Kleinian group|27QRARKWD5]] in the orientable case.
 By the geometrization theorem, hyperbolic manifolds form the largest and richest class of $3$-manifolds.
-By Mostow rigidity, a hyperbolic metric of finite volume is determined by the fundamental group, so geometric quantities such as volume are topological invariants.
+By [[Mostow rigidity|4BEWKR0EG7]], a hyperbolic metric of finite volume is determined by the fundamental group, so geometric quantities such as volume are topological invariants.
 
 ## Explanations
 

@@ -15,16 +15,16 @@ same_as:
 
 ## Statement
 
-Let $f \colon X \to Y$ be a continuous map of topological spaces and let $\mathcal{F}$ be a sheaf of abelian groups on $X$.
-For $q \ge 0$, let $R^q f_* \mathcal{F}$ be the $q$-th higher direct image, that is, the $q$-th right derived functor of the direct image $f_*$.
+Let $f \colon X \to Y$ be a continuous map of topological spaces and let $\mathcal{F}$ be a [[sheaf|TB6TM6R4MD]] of abelian groups on $X$.
+For $q \ge 0$, let $R^q f_* \mathcal{F}$ be the $q$-th higher direct image, that is, the $q$-th right [[derived functor|NPMC3K6J2F]] of the direct image $f_*$.
 It is the sheaf on $Y$ associated with the presheaf $V \mapsto H^q(f^{-1}(V); \mathcal{F})$.
-Then there is a first-quadrant spectral sequence with
+Then there is a first-quadrant [[spectral sequence|GG8AYV847V]] with
 $$E_2^{p,q} = H^p(Y; R^q f_* \mathcal{F}) \Longrightarrow H^{p+q}(X; \mathcal{F}),$$
 where $H^*$ denotes [[sheaf cohomology|KB76923A1M]], and the differentials are $d_r \colon E_r^{p,q} \to E_r^{p+r, q-r+1}$.
 
 ## Remarks
 
-Since $\Gamma(Y, f_* \mathcal{F}) = \Gamma(X, \mathcal{F})$ and $f_*$ sends injective sheaves to flasque sheaves, which are acyclic for $\Gamma(Y, -)$, this is the Grothendieck spectral sequence of the composite functor $\Gamma(Y, -) \circ f_*$.
+Since $\Gamma(Y, f_* \mathcal{F}) = \Gamma(X, \mathcal{F})$ and $f_*$ sends injective sheaves to flasque sheaves, which are acyclic for $\Gamma(Y, -)$, this is the [[Grothendieck spectral sequence|ZV7VGE2SQ2]] of the composite functor $\Gamma(Y, -) \circ f_*$.
 
 Example: if $R^q f_* \mathcal{F} = 0$ for all $q > 0$, the spectral sequence collapses and $H^p(X; \mathcal{F}) \cong H^p(Y; f_* \mathcal{F})$ for all $p$.
 This applies when $f$ is the inclusion of a closed subspace, because then $f_*$ is exact.

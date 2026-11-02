@@ -9,8 +9,8 @@ sources:
 items:
   # Basic notions of nonassociative rings and algebras
   - {name: nonassociative algebra, kind: definition, wikipedia: Non-associative algebra, wikidata: Q4391941}
-  - {name: nonassociative ring, kind: definition, decl: NonUnitalNonAssocRing, wikipedia: Non-associative algebra, wikidata: Q4391941}
-  - {name: magma, kind: definition, wikipedia: Magma (algebra), wikidata: Q679903}
+  - {name: nonassociative ring, kind: definition, decl: NonUnitalNonAssocRing, wikipedia: Non-associative algebra, wikidata: Q4391941, node: YP5TQ6WFVN}
+  - {name: magma, kind: definition, wikipedia: Magma (algebra), wikidata: Q679903, node: 9689SFPVE9}
   - {name: algebra over a field, kind: definition, wikipedia: Algebra over a field, wikidata: Q1000660}
   - {name: structure constants, kind: concept, wikipedia: Structure constants, wikidata: Q7625098}
   - {name: associator, kind: definition, wikipedia: Associator, wikidata: Q2405805}
@@ -25,18 +25,18 @@ items:
   - {name: division algebra, kind: definition, wikipedia: Division algebra, wikidata: Q1231309}
   - {name: normed division algebra, kind: definition, wikipedia: Hurwitz's theorem (composition algebras), wikidata: Q1139430}
   - {name: anticommutative algebra, kind: definition, wikipedia: Anticommutative property, wikidata: Q639608}
-  - {name: simple algebra, kind: definition, wikipedia: Simple algebra (universal algebra), wikidata: Q1405695}
-  - {name: free algebra, kind: definition, decl: FreeAlgebra, wikipedia: Free algebra, wikidata: Q5500180, mathlib: [mathlib-overview]}
+  - {name: simple algebra, kind: definition, wikipedia: Simple algebra (universal algebra), wikidata: Q1405695, node: 9CJCXNYNK8}
+  - {name: free algebra, kind: definition, decl: FreeAlgebra, wikipedia: Free algebra, wikidata: Q5500180, mathlib: [mathlib-overview], node: 2P3Y2FRCSZ}
   - {name: identity of an algebra, kind: concept, wikipedia: Polynomial identity ring, wikidata: Q7226641}
-  - {name: variety of algebras, kind: concept, wikipedia: Variety (universal algebra), wikidata: Q3502010}
+  - {name: variety of algebras, kind: concept, wikipedia: Variety (universal algebra), wikidata: Q3502010, node: AJNZJD8442}
   - {name: Shirshov–Cohn theorem, kind: statement, wikipedia: Jordan algebra, wikidata: Q649977}
   # Composition algebras and the Cayley–Dickson construction
   - {name: composition algebra, kind: definition, wikipedia: Composition algebra, wikidata: Q2835957}
   - {name: Hurwitz's theorem on composition algebras, kind: statement, wikipedia: Hurwitz's theorem (composition algebras), wikidata: Q1139430}
   - {name: Cayley–Dickson construction, kind: definition, wikipedia: Cayley–Dickson construction, wikidata: Q1756828}
   - {name: quaternions, kind: object, decl: Quaternion, wikipedia: Quaternion, wikidata: Q173853, node: 0GE4DVQKR8}
-  - {name: quaternion algebra, kind: definition, decl: QuaternionAlgebra, wikipedia: Quaternion algebra, wikidata: Q2835967}
-  - {name: octonions, kind: object, wikipedia: Octonion, wikidata: Q743418}
+  - {name: quaternion algebra, kind: definition, decl: QuaternionAlgebra, wikipedia: Quaternion algebra, wikidata: Q2835967, node: ZWXW0T3EAC}
+  - {name: octonions, kind: object, wikipedia: Octonion, wikidata: Q743418, node: 1HRMT3DSX2}
   - {name: sedenions, kind: object, wikipedia: Sedenion, wikidata: Q79188}
   - {name: split-quaternions, kind: object, wikipedia: Split-quaternion, wikidata: Q2996919}
   - {name: split-octonions, kind: object, wikipedia: Split-octonion, wikidata: Q3348988}
@@ -132,8 +132,8 @@ items:
   - {name: representation of a Lie algebra, kind: definition, decl: LieModule, wikipedia: Lie algebra representation, wikidata: Q1136782}
   - {name: irreducible Lie module, kind: definition, decl: LieModule.IsIrreducible, wikipedia: Lie algebra representation, wikidata: Q1136782}
   - {name: Weyl's theorem on complete reducibility, kind: statement, wikipedia: Weyl's theorem on complete reducibility, wikidata: Q17037933}
-  - {name: universal enveloping algebra, kind: definition, decl: UniversalEnvelopingAlgebra, wikipedia: Universal enveloping algebra, wikidata: Q1673406}
-  - {name: Poincaré–Birkhoff–Witt theorem, kind: statement, wikipedia: Poincaré–Birkhoff–Witt theorem, wikidata: Q2270905}
+  - {name: universal enveloping algebra, kind: definition, decl: UniversalEnvelopingAlgebra, wikipedia: Universal enveloping algebra, wikidata: Q1673406, node: SCZ8PRVY00}
+  - {name: Poincaré–Birkhoff–Witt theorem, kind: statement, wikipedia: Poincaré–Birkhoff–Witt theorem, wikidata: Q2270905, node: HFEA4FKGW1}
   - {name: Casimir element, kind: definition, wikipedia: Casimir element, wikidata: Q1047475}
   - {name: Harish-Chandra isomorphism, kind: statement, wikipedia: Harish-Chandra isomorphism, wikidata: Q5657840}
   - {name: weight of a representation, kind: definition, decl: LieModule.Weight, wikipedia: Weight (representation theory), wikidata: Q7979858}
@@ -171,12 +171,12 @@ items:
   - {name: Lie algebra of a Lie group, kind: definition, wikipedia: Lie group–Lie algebra correspondence, wikidata: Q18353697}
   # Lie superalgebras and generalizations of Lie algebras
   - {name: Lie superalgebra, kind: definition, wikipedia: Lie superalgebra, wikidata: Q1133024}
-  - {name: superalgebra, kind: definition, wikipedia: Superalgebra, wikidata: Q3977654}
+  - {name: superalgebra, kind: definition, wikipedia: Superalgebra, wikidata: Q3977654, node: 6JZW4JC68Z}
   - {name: classification of simple Lie superalgebras, kind: statement, wikipedia: Lie superalgebra, wikidata: Q1133024}
   - {name: Lie bialgebra, kind: definition, wikipedia: Lie bialgebra, wikidata: Q6543812}
   - {name: Lie coalgebra, kind: definition, wikipedia: Lie coalgebra, wikidata: Q6543816}
-  - {name: quantum group, kind: definition, wikipedia: Quantum group, wikidata: Q2122223}
-  - {name: Hopf algebra, kind: definition, decl: HopfAlgebra, wikipedia: Hopf algebra, wikidata: Q1627597}
+  - {name: quantum group, kind: definition, wikipedia: Quantum group, wikidata: Q2122223, node: AP2ZDXANKC}
+  - {name: Hopf algebra, kind: definition, decl: HopfAlgebra, wikipedia: Hopf algebra, wikidata: Q1627597, node: 7XFYP0N84H}
   - {name: Yang–Baxter equation, kind: statement, wikipedia: Yang–Baxter equation, wikidata: Q4476530}
   - {name: Poisson algebra, kind: definition, wikipedia: Poisson algebra, wikidata: Q11143305}
   - {name: Leibniz algebra, kind: definition, wikipedia: Leibniz algebra, wikidata: Q844980}
@@ -192,7 +192,7 @@ items:
   - {name: Lie conformal algebra, kind: definition, wikipedia: Lie conformal algebra, wikidata: Q6543817}
   - {name: Lie operad, kind: object, wikipedia: Operad, wikidata: Q842072}
   # Jordan algebras
-  - {name: Jordan algebra, kind: definition, decl: IsCommJordan, wikipedia: Jordan algebra, wikidata: Q649977}
+  - {name: Jordan algebra, kind: definition, decl: IsCommJordan, wikipedia: Jordan algebra, wikidata: Q649977, node: 6C2MCVB8C7}
   - {name: Jordan identity, kind: statement, decl: IsJordan, wikipedia: Jordan algebra, wikidata: Q649977}
   - {name: special Jordan algebra, kind: definition, decl: SymAlg, wikipedia: Jordan algebra, wikidata: Q649977}
   - {name: exceptional Jordan algebra, kind: object, wikipedia: Albert algebra, wikidata: Q12204658}
@@ -219,7 +219,7 @@ items:
   - {name: evolution algebra, kind: definition, wikipedia: Genetic algebra, wikidata: Q5532873}
   - {name: Bernstein algebra, kind: definition, wikipedia: Genetic algebra, wikidata: Q5532873}
   - {name: Zinbiel algebra, kind: definition, wikipedia: Zinbiel algebra, wikidata: Q2835946}
-  - {name: Gerstenhaber algebra, kind: definition, wikipedia: Gerstenhaber algebra, wikidata: Q5553164}
+  - {name: Gerstenhaber algebra, kind: definition, wikipedia: Gerstenhaber algebra, wikidata: Q5553164, node: GJPPS5N213}
   - {name: Batalin–Vilkovisky algebra, kind: definition, wikipedia: Batalin–Vilkovisky formalism, wikidata: Q4868564}
   - {name: Clifford algebra, kind: definition, decl: CliffordAlgebra, wikipedia: Clifford algebra, wikidata: Q674689, mathlib: [mathlib-overview], node: A38B1QFK20}
   - {name: exterior algebra, kind: definition, decl: ExteriorAlgebra, wikipedia: Exterior algebra, wikidata: Q1196652, mathlib: [mathlib-overview], node: 0MDMZ965VE}
@@ -227,7 +227,7 @@ items:
   - {name: quasigroup, kind: definition, wikipedia: Quasigroup, wikidata: Q1503423}
   - {name: Moufang loop, kind: definition, wikipedia: Moufang loop, wikidata: Q6918890}
   - {name: Bol loop, kind: definition, wikipedia: Bol loop, wikidata: Q4938867}
-  - {name: Hurwitz quaternion order, kind: object, wikipedia: Hurwitz quaternion order, wikidata: Q16002489}
+  - {name: Hurwitz quaternion order, kind: object, wikipedia: Hurwitz quaternion order, wikidata: Q16002489, node: KM59PWHJHH}
   - {name: Coxeter's integral octonions, kind: object, wikipedia: Octonion, wikidata: Q743418}
   - {name: Kurosh problem for nonassociative algebras, kind: problem, wikipedia: Kurosh problem, wikidata: Q6446395}
   - {name: Zelmanov's solution of the restricted Burnside problem, kind: statement, wikipedia: Burnside problem, wikidata: Q852206}

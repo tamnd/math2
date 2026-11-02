@@ -14,7 +14,7 @@ sources:
 Let $k$ be a [[field|04C5ZBG1WT]] and let $(X, e, \mu)$ be a path-connected [[H-space|EASHTX8EG5]] with the homotopy type of a CW complex.
 Assume that each $H^n(X; k)$ is finite-dimensional.
 By the Künneth theorem, the cross product gives an isomorphism $H^*(X; k) \otimes_k H^*(X; k) \cong H^*(X \times X; k)$.
-The *Hopf algebra structure on cohomology* of $X$ consists of:
+The *[[Hopf algebra|7XFYP0N84H]] structure on cohomology* of $X$ consists of:
 
 1. the [[cohomology ring|RDT4785M4D]] $H^*(X; k)$, with the [[cup product|JX47MS1R1H]] as multiplication and $1$ as unit;
 2. the comultiplication $\Delta \colon H^*(X; k) \to H^*(X; k) \otimes_k H^*(X; k)$, defined as $\mu^*$ followed by the inverse of the Künneth isomorphism;

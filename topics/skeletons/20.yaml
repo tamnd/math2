@@ -135,8 +135,8 @@ items:
   # Representation theory of groups
   - {name: group representation, kind: definition, decl: Representation, wikipedia: Group representation, wikidata: Q1055807, mathlib: [mathlib-overview], node: WYGRXCG2RN}
   - {name: irreducible representation, kind: definition, wikipedia: Irreducible representation, wikidata: Q13690522, node: FX3NEFYFFN}
-  - {name: Maschke's theorem, kind: statement, wikipedia: Maschke's theorem, wikidata: Q656198}
-  - {name: Schur's lemma, kind: statement, wikipedia: Schur's lemma, wikidata: Q1816952}
+  - {name: Maschke's theorem, kind: statement, wikipedia: Maschke's theorem, wikidata: Q656198, node: 4SBZ4EMPBZ}
+  - {name: Schur's lemma, kind: statement, wikipedia: Schur's lemma, wikidata: Q1816952, node: X4M2FFKQJ6}
   - {name: character of a representation, kind: definition, wikipedia: Character theory, wikidata: Q600043, node: RMWMYBY8TC}
   - {name: Schur orthogonality relations, kind: statement, wikipedia: Schur orthogonality relations, wikidata: Q7433034, node: AY0B20QC04}
   - {name: character table, kind: definition, wikipedia: Character table, wikidata: Q11498021, node: P16AFZT3K0}
@@ -150,7 +150,7 @@ items:
   - {name: Young tableau, kind: definition, wikipedia: Young tableau, wikidata: Q2166280, node: Q6TH9PH2R7}
   - {name: Specht module, kind: definition, wikipedia: Specht module, wikidata: Q7574439, node: NTFM7X5555}
   - {name: hook length formula, kind: statement, wikipedia: Hook length formula, wikidata: Q17163411, node: VCMS1CP91N}
-  - {name: modular representation theory, kind: concept, wikipedia: Modular representation theory, wikidata: Q6889739}
+  - {name: modular representation theory, kind: concept, wikipedia: Modular representation theory, wikidata: Q6889739, node: G28W7J8G2D}
   - {name: Brauer character, kind: definition, wikipedia: Modular representation theory, wikidata: Q6889739, node: R2N3GBDBVQ}
   - {name: Brauer's main theorems, kind: statement, wikipedia: Brauer's three main theorems, wikidata: Q4958221, node: NB057FEAAE}
   - {name: McKay conjecture, kind: statement, wikipedia: McKay conjecture, wikidata: Q28401746, node: WQQTFRZFBD}
@@ -164,7 +164,7 @@ items:
   - {name: Tietze transformations, kind: concept, wikipedia: Tietze transformations, wikidata: Q7801155, node: CEZTVHC1KS}
   - {name: Nielsen–Schreier theorem, kind: statement, decl: subgroupIsFreeOfIsFree, wikipedia: Nielsen–Schreier theorem, wikidata: Q1259814, mathlib: [mathlib-1000], node: W97X7WX5G8}
   - {name: free product, kind: definition, decl: Monoid.CoprodI, wikipedia: Free product, wikidata: Q1454165, node: TM7QS7P7X9}
-  - {name: amalgamated free product, kind: definition, decl: Monoid.PushoutI, wikipedia: Free product, wikidata: Q1454165}
+  - {name: amalgamated free product, kind: definition, decl: Monoid.PushoutI, wikipedia: Free product, wikidata: Q1454165, node: M848AHBRCM}
   - {name: HNN extension, kind: definition, decl: HNNExtension, wikipedia: HNN extension, wikidata: Q3062521, node: YEYERRY37K}
   - {name: Kurosh subgroup theorem, kind: statement, wikipedia: Kurosh subgroup theorem, wikidata: Q6446396, node: RY8K5RQJSR}
   - {name: Grushko theorem, kind: statement, wikipedia: Grushko theorem, wikidata: Q17019684, node: YB8V6TQDYE}
@@ -187,7 +187,7 @@ items:
   - {name: Burnside problem, kind: problem, wikipedia: Burnside problem, wikidata: Q852206, node: XWEMJ7T2XV}
   - {name: restricted Burnside problem, kind: statement, wikipedia: Burnside problem, wikidata: Q852206, node: FQZJKY2G5Q}
   - {name: Tarski monster group, kind: object, wikipedia: Tarski monster group, wikidata: Q7686763, node: TE19BGFFF1}
-  - {name: Kaplansky's conjectures, kind: conjecture, wikipedia: Kaplansky's conjectures, wikidata: Q6366842}
+  - {name: Kaplansky's conjectures, kind: conjecture, wikipedia: Kaplansky's conjectures, wikidata: Q6366842, node: DSF8C6QPAG}
   - {name: Andrews–Curtis conjecture, kind: conjecture, wikipedia: Andrews–Curtis conjecture, wikidata: Q2409999, node: N298DRYE0W}
   # Geometric group theory
   - {name: geometric group theory, kind: concept, wikipedia: Geometric group theory, wikidata: Q2662474, node: 2T3218RXTD}
@@ -231,9 +231,9 @@ items:
   - {name: symplectic group, kind: definition, decl: Matrix.symplecticGroup, wikipedia: Symplectic group, wikidata: Q936434}
   - {name: classical group, kind: definition, wikipedia: Classical group, wikidata: Q2285809, node: 75H4HY10Z4}
   - {name: modular group, kind: example, wikipedia: Modular group, wikidata: Q1834342, node: VEKV1EM77B}
-  - {name: linear algebraic group, kind: definition, wikipedia: Linear algebraic group, wikidata: Q6553407}
-  - {name: Borel subgroup, kind: definition, wikipedia: Borel subgroup, wikidata: Q4944913}
-  - {name: reductive group, kind: definition, wikipedia: Reductive group, wikidata: Q1006450}
+  - {name: linear algebraic group, kind: definition, wikipedia: Linear algebraic group, wikidata: Q6553407, node: GA81VVQHEP}
+  - {name: Borel subgroup, kind: definition, wikipedia: Borel subgroup, wikidata: Q4944913, node: 5JSYA1JNCC}
+  - {name: reductive group, kind: definition, wikipedia: Reductive group, wikidata: Q1006450, node: 2XS84PWE3S}
   - {name: Bruhat decomposition, kind: statement, wikipedia: Bruhat decomposition, wikidata: Q4978699, node: T91E86D0RH}
   - {name: building, kind: definition, wikipedia: Building (mathematics), wikidata: Q4986445, node: 6BQJ50NEJ0}
   - {name: arithmetic group, kind: definition, wikipedia: Arithmetic group, wikidata: Q4791126, node: 4XWG6S7R4Z}
@@ -244,7 +244,7 @@ items:
   - {name: Bieberbach theorems, kind: statement, wikipedia: Space group, wikidata: Q899033, node: YE87R5CDJY}
   - {name: wallpaper group, kind: example, wikipedia: Wallpaper group, wikidata: Q906867, node: MY3CBHARYQ}
   # Homological methods
-  - {name: group cohomology, kind: definition, decl: groupCohomology, wikipedia: Group cohomology, wikidata: Q1408937}
+  - {name: group cohomology, kind: definition, decl: groupCohomology, wikipedia: Group cohomology, wikidata: Q1408937, node: YXJXA0Q52R}
   - {name: group homology, kind: definition, wikipedia: Group cohomology, wikidata: Q1408937, node: CFAG3VRXEA}
   - {name: classifying space of a group, kind: definition, wikipedia: Classifying space, wikidata: Q5128445, node: WA796ZCNRX}
   - {name: Hopf's formula, kind: statement, wikipedia: Schur multiplier, wikidata: Q3327702, node: S31M1ZYJRK}
@@ -253,7 +253,7 @@ items:
   - {name: Stallings–Swan theorem, kind: statement, wikipedia: Cohomological dimension, wikidata: Q5141396, node: B41GE4M134}
   - {name: Tate cohomology, kind: definition, wikipedia: Tate cohomology group, wikidata: Q7687974, node: 1CA6GZG0R6}
   # Groupoids, semigroups and further generalizations
-  - {name: groupoid, kind: definition, decl: CategoryTheory.Groupoid, wikipedia: Groupoid, wikidata: Q1196038}
+  - {name: groupoid, kind: definition, decl: CategoryTheory.Groupoid, wikipedia: Groupoid, wikidata: Q1196038, node: FH3C0T643F}
   - {name: monoid, kind: definition, decl: Monoid, wikipedia: Monoid, wikidata: Q208237, node: 0N6R902FG1}
   - {name: free monoid, kind: definition, decl: FreeMonoid, wikipedia: Free monoid, wikidata: Q5500266, node: CV013KHVJG}
   - {name: semigroup, kind: definition, decl: Semigroup, wikipedia: Semigroup, wikidata: Q207348, node: 0XMEM406JM}
@@ -263,7 +263,7 @@ items:
   - {name: Rees matrix semigroup, kind: definition, wikipedia: Rees matrix semigroup, wikidata: Q17099723, node: X54RV6SENQ}
   - {name: Krohn–Rhodes theory, kind: concept, wikipedia: Krohn–Rhodes theory, wikidata: Q6438788, node: 3WDZY1J002}
   - {name: transformation semigroup, kind: definition, wikipedia: Transformation semigroup, wikidata: Q3022116, node: 7ZB7MRKPQ9}
-  - {name: Grothendieck group, kind: definition, wikipedia: Grothendieck group, wikidata: Q1128678}
+  - {name: Grothendieck group, kind: definition, wikipedia: Grothendieck group, wikidata: Q1128678, node: 5FDMY7PDYY}
   - {name: quasigroup, kind: definition, wikipedia: Quasigroup, wikidata: Q1503423}
   - {name: rack and quandle, kind: definition, decl: Quandle, wikipedia: Racks and quandles, wikidata: Q7279807, node: X74VY86TSX}
   # Probabilistic and asymptotic group theory

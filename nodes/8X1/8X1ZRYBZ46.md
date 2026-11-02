@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $G$ be a locally compact group, and let $\pi$ be a unitary representation of $G$ on a [[Hilbert space|HM2HHE3J51]] $\mathcal{H}$.
+Let $G$ be a [[locally compact group|AHV05ZBCYW]], and let $\pi$ be a [[unitary representation|74BPYJNZTM]] of $G$ on a [[Hilbert space|HM2HHE3J51]] $\mathcal{H}$.
 For a [[compact|0TVJZYB6SH]] set $Q \subseteq G$ and $\varepsilon > 0$, a unit vector $\xi \in \mathcal{H}$ is *$(Q, \varepsilon)$-invariant* if $\norm{\pi(g) \xi - \xi} < \varepsilon$ for all $g \in Q$.
 A vector $\xi$ is *invariant* if $\pi(g) \xi = \xi$ for all $g \in G$.
 The group $G$ has *property (T)* if there exist a compact set $Q \subseteq G$ and $\varepsilon > 0$ with the following property.

@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-A profinite group is a topological group that is an inverse limit of finite groups.
+A profinite group is a [[topological group|92700QAB5Y]] that is an [[inverse limit|DZB378CNCK]] of finite groups.
 Equivalently, it is a compact, Hausdorff and totally disconnected topological group.
 Profinite groups record a whole compatible family of finite quotients at once.
 The main examples are the [[p-adic integers|V6TJAFZ4MD]], the profinite completion $\hat\Z$ of $\Z$, and Galois groups of infinite Galois extensions with the Krull topology.

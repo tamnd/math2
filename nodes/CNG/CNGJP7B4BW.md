@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $G$ be a topological group, let $R$ be an [[abelian group|082GHNPJ53]] and let $k \ge 0$ be an integer.
+Let $G$ be a [[topological group|92700QAB5Y]], let $R$ be an [[abelian group|082GHNPJ53]] and let $k \ge 0$ be an integer.
 Write $H^k(X; R)$ for [[singular cohomology|6N7BC70CX0]] with coefficients in $R$.
 A *characteristic class* of degree $k$ for principal $G$-bundles is a rule $c$ that assigns to each [[principal $G$-bundle|8E37E74XVP]] $P \to X$ a class $c(P) \in H^k(X; R)$, such that:
 

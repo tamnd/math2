@@ -12,7 +12,7 @@ sources:
 
 ## Statement
 
-Let $A$ be a complex Banach algebra with unit $1 \ne 0$, and let $a \in A$.
+Let $A$ be a complex [[Banach algebra|9KYWN94QDN]] with unit $1 \ne 0$, and let $a \in A$.
 Let $\sigma(a)$ be the [[spectrum|EH0CZ19RKP]] of $a$, and let $r(a) = \max \set{\abs{\lambda} : \lambda \in \sigma(a)}$ be its [[spectral radius|9V7YQA85PC]].
 Then the [[limit|05M5SWSZZD]] of $\norm{a^n}^{1/n}$ exists, and
 $$r(a) = \lim_{n \to \infty} \norm{a^n}^{1/n} = \inf_{n \ge 1} \norm{a^n}^{1/n}.$$

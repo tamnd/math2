@@ -32,7 +32,7 @@ When $\mu$ exists, it is unique.
 
 The function $\varphi$ is the characteristic functional of $\mu$, the infinite-dimensional analogue of a [[characteristic function|0V5B6D6BQH]].
 Necessity of the three conditions is direct.
-For sufficiency, Bochner's theorem on each finite-dimensional quotient gives a [[cylinder set measure|G95YDNFXQN]] on $E'$.
+For sufficiency, [[Bochner's theorem|ZRHAG4NXHC]] on each finite-dimensional quotient gives a [[cylinder set measure|G95YDNFXQN]] on $E'$.
 Nuclearity of $E$ is what makes this cylinder set measure countably additive.
 
 Example: on the Schwartz space $E = \mathcal{S}(\R^n)$, the function $\varphi(f) = \exp\left(-\frac12 \int_{\R^n} f(t)^2 \, dt\right)$ satisfies the three conditions.

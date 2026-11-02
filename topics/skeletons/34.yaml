@@ -149,7 +149,7 @@ items:
   - {name: Rössler attractor, kind: example, wikipedia: Rössler attractor, wikidata: Q720574, node: MNQXM3PX4R}
   - {name: pendulum, kind: example, wikipedia: Pendulum (mechanics), wikidata: Q829360, node: 0SHPXM2HWH}
   - {name: Kepler problem, kind: example, wikipedia: Kepler problem, wikidata: Q2564682, node: TYXD1T6FRX}
-  - {name: Hilbert's sixteenth problem, kind: problem, wikipedia: Hilbert's sixteenth problem, wikidata: Q2509489}
+  - {name: Hilbert's sixteenth problem, kind: problem, wikipedia: Hilbert's sixteenth problem, wikidata: Q2509489, node: C1XNMMKZ1J}
   - {name: Dulac's theorem on finiteness of limit cycles, kind: statement, wikipedia: Hilbert's sixteenth problem, wikidata: Q2509489, node: NEYHC1XZ14}
   - {name: Melnikov method, kind: concept, wikipedia: Melnikov distance, wikidata: Q6813255, node: A755BDRP1A}
   - {name: Hopf bifurcation, kind: concept, wikipedia: Hopf bifurcation, wikidata: Q531126, node: F5H8GW1XYS}

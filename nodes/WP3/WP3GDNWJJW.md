@@ -15,7 +15,7 @@ same_as:
 
 ## Statement
 
-The finite graphs are well-quasi-ordered by the [[minor|VYQ32ZBPEE]] relation.
+The finite graphs are [[well-quasi-ordered|NH25G6GC07]] by the [[minor|VYQ32ZBPEE]] relation.
 That is, for every infinite sequence $G_1, G_2, G_3, \dots$ of finite graphs, there are indices $i < j$ such that $G_i$ is a minor of $G_j$.
 
 ## Remarks

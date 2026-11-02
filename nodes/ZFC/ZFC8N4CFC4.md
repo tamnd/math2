@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $(M, g)$ be a [[Riemannian manifold|7CBT4SM83Y]] and let $E$ be a complex vector bundle over $M$.
+Let $(M, g)$ be a [[Riemannian manifold|7CBT4SM83Y]] and let $E$ be a complex [[vector bundle|P4DZM975BV]] over $M$.
 Let $D$ be a first-order linear differential operator acting on smooth sections of $E$.
 In a local chart $x = (x_1, \ldots, x_n)$, let $(g^{jk}(x))$ be the inverse of the matrix of the metric $g$.
 The operator $D$ is a *Dirac operator* if, in every local chart and every local trivialisation of $E$,

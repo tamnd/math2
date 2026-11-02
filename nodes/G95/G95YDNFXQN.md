@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-A cylinder set measure on a topological vector space is a consistent family of [[probability measures|059TJN0NZ1]] on its finite-dimensional images.
+A cylinder set measure on a [[topological vector space|T32W553W95]] is a consistent family of [[probability measures|059TJN0NZ1]] on its finite-dimensional images.
 It assigns a probability to every set that is described by finitely many linear coordinates.
 It need not come from a countably additive measure on the whole space.
 Cylinder set measures are the raw material for Gaussian measures and white noise in infinite dimensions.

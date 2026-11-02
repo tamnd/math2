@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $G$ be a linear algebraic group defined over $\Q$, together with a faithful representation $G \hookrightarrow \mathrm{GL}_n$ defined over $\Q$.
+Let $G$ be a [[linear algebraic group|GA81VVQHEP]] defined over $\Q$, together with a faithful representation $G \hookrightarrow \mathrm{GL}_n$ defined over $\Q$.
 Let $G(\Z) = G(\Q) \cap \mathrm{GL}_n(\Z)$.
 A [[subgroup|0X1JXT47GA]] $\Gamma$ of $G(\Q)$ is an *arithmetic subgroup* of $G$ if it is commensurable with $G(\Z)$.
 This means that $\Gamma \cap G(\Z)$ has finite [[index|0DTXBQPA2S]] both in $\Gamma$ and in $G(\Z)$.

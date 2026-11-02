@@ -22,7 +22,7 @@ Let $\eta$ be a generic self-dual $2$-form.
 The *Seiberg–Witten equations* for a pair $(A, \psi)$ with $\psi \in \Gamma(W^+)$ are
 $$D_A \psi = 0, \qquad F_A^+ = \sigma(\psi) + i\eta.$$
 2. The gauge group $\mathrm{Map}(M, S^1)$ acts by $u \cdot (A, \psi) = (A - 2u^{-1} du, u \psi)$, and the *moduli space* $\mathcal{M}(\mathfrak{s})$ is the set of solutions modulo this action.
-3. Let $c_1(L)$ be the first Chern class of $L$, $\chi(M)$ the Euler characteristic and $\sigma(M)$ the signature.
+3. Let $c_1(L)$ be the first [[Chern class|PAD37GKDPD]] of $L$, $\chi(M)$ the Euler characteristic and $\sigma(M)$ the signature.
 The moduli space is a compact smooth oriented manifold of dimension
 $$d(\mathfrak{s}) = \frac{c_1(L)^2 - 2\chi(M) - 3\sigma(M)}{4}.$$
 

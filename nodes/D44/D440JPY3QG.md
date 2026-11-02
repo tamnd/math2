@@ -11,7 +11,7 @@ sources:
 ## Counterexample
 
 Let $\omega$ be the first infinite [[ordinal|0YSCSX5YZC]] and $\omega_1$ the first uncountable ordinal.
-Give $[0, \omega_1]$ and $[0, \omega]$ the order topology, and let $T = [0, \omega_1] \times [0, \omega]$ with the [[product topology|0GBG8B49AA]].
+Give $[0, \omega_1]$ and $[0, \omega]$ the [[order topology|RCWHDMWP1T]], and let $T = [0, \omega_1] \times [0, \omega]$ with the [[product topology|0GBG8B49AA]].
 This is the Tychonoff plank.
 The deleted Tychonoff plank is the [[subspace|0WS9P12FQR]] $T_\infty = T \setminus \set{(\omega_1, \omega)}$.
 The plank $T$ is [[compact|0TVJZYB6SH]] and [[Hausdorff|0S1FJ8VEX9]], hence [[normal|0NSR9V8TED]], but the open subspace $T_\infty$ is not normal.

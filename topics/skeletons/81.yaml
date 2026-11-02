@@ -23,7 +23,7 @@ items:
   - {name: position operator, kind: definition, wikipedia: Position operator, wikidata: Q903835}
   - {name: momentum operator, kind: definition, wikipedia: Momentum operator, wikidata: Q692457}
   - {name: Hamiltonian operator, kind: definition, wikipedia: Hamiltonian (quantum mechanics), wikidata: Q660488}
-  - {name: Schrödinger equation, kind: definition, wikipedia: Schrödinger equation, wikidata: Q165498}
+  - {name: Schrödinger equation, kind: definition, wikipedia: Schrödinger equation, wikidata: Q165498, node: EPZR6H2WJN}
   - {name: stationary state, kind: definition, wikipedia: Stationary state, wikidata: Q911951}
   - {name: Heisenberg uncertainty principle, kind: statement, wikipedia: Uncertainty principle, wikidata: Q44746}
   - {name: Robertson–Schrödinger uncertainty relation, kind: statement, wikipedia: Uncertainty principle, wikidata: Q44746}
@@ -154,7 +154,7 @@ items:
   - {name: creation and annihilation operators, kind: definition, wikipedia: Creation and annihilation operators, wikidata: Q902336}
   - {name: canonical anticommutation relations, kind: definition, wikipedia: CCR and CAR algebras, wikidata: Q1022829}
   - {name: CCR algebra, kind: definition, wikipedia: CCR and CAR algebras, wikidata: Q1022829}
-  - {name: Stone–von Neumann theorem, kind: statement, wikipedia: Stone–von Neumann theorem, wikidata: Q7619449}
+  - {name: Stone–von Neumann theorem, kind: statement, wikipedia: Stone–von Neumann theorem, wikidata: Q7619449, node: Z877XDBMQ3}
   - {name: coherent state, kind: definition, wikipedia: Coherent state, wikidata: Q1032070}
   # Quantization
   - {name: canonical quantization, kind: concept, wikipedia: Canonical quantization, wikidata: Q5961083}
@@ -163,7 +163,7 @@ items:
   - {name: phase space formulation, kind: concept, wikipedia: Phase-space formulation, wikidata: Q7180966}
   - {name: Wigner quasiprobability distribution, kind: definition, wikipedia: Wigner quasiprobability distribution, wikidata: Q17119376}
   - {name: Moyal product, kind: definition, wikipedia: Moyal product, wikidata: Q6927583}
-  - {name: deformation quantization, kind: concept, wikipedia: Deformation quantization, wikidata: Q131143202}
+  - {name: deformation quantization, kind: concept, wikipedia: Deformation quantization, wikidata: Q131143202, node: 3MKSJ1J04K}
   - {name: Kontsevich quantization formula, kind: statement, wikipedia: Kontsevich quantization formula, wikidata: Q6430406, node: JZEK70CH3G}
   - {name: geometric quantization, kind: concept, wikipedia: Geometric quantization, wikidata: Q630426, node: FG33N4ZHDG}
   - {name: path integral formulation, kind: concept, wikipedia: Path-integral formulation, wikidata: Q898323}
@@ -173,7 +173,7 @@ items:
   - {name: Batalin–Vilkovisky formalism, kind: concept, wikipedia: Batalin–Vilkovisky formalism, wikidata: Q4868564}
   - {name: Faddeev–Popov ghost, kind: definition, wikipedia: Faddeev–Popov ghost, wikidata: Q1391812}
   # Relativistic wave equations
-  - {name: Dirac equation, kind: definition, wikipedia: Dirac equation, wikidata: Q272621}
+  - {name: Dirac equation, kind: definition, wikipedia: Dirac equation, wikidata: Q272621, node: XNZX7VXXR2}
   - {name: gamma matrices, kind: object, wikipedia: Gamma matrices, wikidata: Q1151645}
   - {name: Weyl equation, kind: definition, wikipedia: Weyl equation, wikidata: Q2566340}
   - {name: Klein paradox, kind: counterexample, wikipedia: Klein paradox, wikidata: Q2383018}

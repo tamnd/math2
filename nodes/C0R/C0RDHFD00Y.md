@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $(M, \omega)$ be a [[symplectic manifold|CAN490EPRT]] and let $G$ be a Lie group with Lie algebra $\mathfrak{g}$ and dual space $\mathfrak{g}^*$.
+Let $(M, \omega)$ be a [[symplectic manifold|CAN490EPRT]] and let $G$ be a [[Lie group|7JBRGCVJRB]] with Lie algebra $\mathfrak{g}$ and dual space $\mathfrak{g}^*$.
 Let $G$ [[act|0WCY42EV9V]] smoothly on $M$ by symplectomorphisms.
 For $\xi \in \mathfrak{g}$, let $\xi_M$ be the vector field $\xi_M(x) = \frac{d}{dt}\big|_{t=0} \exp(t\xi) \cdot x$.
 A *moment map* for the action is a smooth map $\mu \colon M \to \mathfrak{g}^*$ such that:

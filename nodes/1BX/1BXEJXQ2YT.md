@@ -15,7 +15,7 @@ same_as:
 
 ## Statement
 
-Let $\mathbb{K}$ be $\R$ or $\C$, and let $E$ be a topological vector space over $\mathbb{K}$ with [[continuous dual|4A82S5FVRT]] $E'$.
+Let $\mathbb{K}$ be $\R$ or $\C$, and let $E$ be a [[topological vector space|T32W553W95]] over $\mathbb{K}$ with [[continuous dual|4A82S5FVRT]] $E'$.
 Let $U$ be a [[neighbourhood|0ZCY0Z80B6]] of $0$ in $E$.
 Then the polar
 $$U^\circ = \set{f \in E' : \abs{f(x)} \le 1 \text{ for all } x \in U}$$

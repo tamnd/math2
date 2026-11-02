@@ -61,7 +61,7 @@ items:
   - {name: syntactic monoid, kind: definition, wikipedia: Syntactic monoid, wikidata: Q3321297}
   - {name: star-free language, kind: definition, wikipedia: Star-free language, wikidata: Q3217203}
   - {name: Schützenberger's theorem on star-free languages, kind: statement, wikipedia: Star-free language, wikidata: Q3217203}
-  - {name: Kleene algebra, kind: definition, decl: KleeneAlgebra, wikipedia: Kleene algebra, wikidata: Q2634506}
+  - {name: Kleene algebra, kind: definition, decl: KleeneAlgebra, wikipedia: Kleene algebra, wikidata: Q2634506, node: BK4DDS24XC}
   - {name: Mealy machine, kind: definition, wikipedia: Mealy machine, wikidata: Q1126309}
   - {name: Moore machine, kind: definition, wikipedia: Moore machine, wikidata: Q640119}
   - {name: finite-state transducer, kind: definition, wikipedia: Finite-state transducer, wikidata: Q2166395}
@@ -183,7 +183,7 @@ items:
   - {name: type safety, kind: statement, wikipedia: Type safety, wikidata: Q736866}
   - {name: Hindley–Milner type system, kind: definition, wikipedia: Hindley–Milner type system, wikidata: Q200996}
   - {name: type inference, kind: definition, wikipedia: Type inference, wikidata: Q586459}
-  - {name: unification, kind: definition, wikipedia: Unification (computer science), wikidata: Q609057}
+  - {name: unification, kind: definition, wikipedia: Unification (computer science), wikidata: Q609057, node: RJJ9D0WF53}
   - {name: System F, kind: definition, wikipedia: System F, wikidata: Q2552799}
   - {name: Girard's paradox, kind: counterexample, wikipedia: System U, wikidata: Q22909237}
   - {name: parametricity, kind: concept, wikipedia: Parametricity, wikidata: Q17144895}
@@ -227,7 +227,7 @@ items:
   - {name: insertion sort, kind: definition, decl: List.insertionSort, wikipedia: Insertion sort, wikidata: Q117241}
   - {name: quicksort, kind: definition, decl: Array.qsort, wikipedia: Quicksort, wikidata: Q486598}
   - {name: binary search, kind: definition, wikipedia: Binary search, wikidata: Q243754}
-  - {name: heap, kind: definition, decl: Batteries.BinaryHeap, wikipedia: Heap (data structure), wikidata: Q274089}
+  - {name: heap, kind: definition, decl: Batteries.BinaryHeap, wikipedia: Heap (data structure), wikidata: Q274089, node: V389A4WGH9}
   - {name: dynamic programming, kind: concept, wikipedia: Dynamic programming, wikidata: Q380679}
   - {name: greedy algorithm, kind: concept, wikipedia: Greedy algorithm, wikidata: Q504353}
   - {name: divide-and-conquer algorithm, kind: concept, wikipedia: Divide-and-conquer algorithm, wikidata: Q671298}

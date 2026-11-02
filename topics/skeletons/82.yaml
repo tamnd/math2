@@ -45,7 +45,7 @@ items:
   - {name: Fermi gas, kind: example, wikipedia: Fermi gas, wikidata: Q1072904}
   - {name: Bose gas, kind: example, wikipedia: Bose gas, wikidata: Q1143503}
   - {name: Bose–Einstein condensation, kind: statement, wikipedia: Bose–Einstein condensate, wikidata: Q46202}
-  - {name: Gross–Pitaevskii equation, kind: definition, wikipedia: Gross–Pitaevskii equation, wikidata: Q910667}
+  - {name: Gross–Pitaevskii equation, kind: definition, wikipedia: Gross–Pitaevskii equation, wikidata: Q910667, node: F5EAWFMC8A}
   - {name: Lieb–Liniger model, kind: example, wikipedia: Lieb–Liniger model, wikidata: Q6543926}
   - {name: Sommerfeld expansion, kind: statement, wikipedia: Sommerfeld expansion, wikidata: Q7560453}
   - {name: Planck's law, kind: statement, wikipedia: Planck's law, wikidata: Q212986}
@@ -147,7 +147,7 @@ items:
   - {name: self-organized criticality, kind: concept, wikipedia: Self-organized criticality, wikidata: Q1326714}
   # Kinetic theory
   - {name: kinetic theory of gases, kind: concept, wikipedia: Kinetic theory of gases, wikidata: Q200286}
-  - {name: Boltzmann equation, kind: definition, wikipedia: Boltzmann equation, wikidata: Q891653}
+  - {name: Boltzmann equation, kind: definition, wikipedia: Boltzmann equation, wikidata: Q891653, node: MH6CSWD7F0}
   - {name: H-theorem, kind: statement, wikipedia: H-theorem, wikidata: Q899853}
   - {name: Loschmidt's paradox, kind: problem, wikipedia: Loschmidt's paradox, wikidata: Q3895095}
   - {name: BBGKY hierarchy, kind: definition, wikipedia: BBGKY hierarchy, wikidata: Q653679}
@@ -176,8 +176,8 @@ items:
   - {name: Mori–Zwanzig formalism, kind: concept, wikipedia: Mori–Zwanzig formalism, wikidata: Q63966659}
   - {name: Glauber dynamics, kind: definition, wikipedia: Glauber dynamics, wikidata: Q72148753}
   - {name: totally asymmetric simple exclusion process, kind: example, wikipedia: Asymmetric simple exclusion process, wikidata: Q297612}
-  - {name: Allen–Cahn equation, kind: definition, wikipedia: Allen–Cahn equation, wikidata: Q4732089}
-  - {name: Cahn–Hilliard equation, kind: definition, wikipedia: Cahn–Hilliard equation, wikidata: Q5017440}
+  - {name: Allen–Cahn equation, kind: definition, wikipedia: Allen–Cahn equation, wikidata: Q4732089, node: 7S813PEV69}
+  - {name: Cahn–Hilliard equation, kind: definition, wikipedia: Cahn–Hilliard equation, wikidata: Q5017440, node: DKN15NVKSB}
   - {name: Lifshitz–Slyozov–Wagner theory of coarsening, kind: statement, wikipedia: Ostwald ripening, wikidata: Q903984}
   - {name: eigenstate thermalization hypothesis, kind: conjecture, wikipedia: Eigenstate thermalization hypothesis, wikidata: Q17008931}
   - {name: many-body localization, kind: concept, wikipedia: Many-body localization, wikidata: Q60791227}

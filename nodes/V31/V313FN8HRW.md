@@ -20,7 +20,7 @@ In particular, a [[homotopy equivalence|XZG6MTSWCN]] $f \colon X \to Y$ induces 
 
 The proof cuts the prism $\Delta^n \times [0, 1]$ into $(n+1)$-simplices.
 A homotopy $H \colon X \times [0,1] \to Y$ from $f$ to $g$ then gives a prism operator $P \colon C_n(X) \to C_{n+1}(Y)$ with $\partial P + P \partial = g_\# - f_\#$.
-So $f_\#$ and $g_\#$ are chain homotopic, and chain homotopic maps induce the same map on homology.
+So $f_\#$ and $g_\#$ are [[chain homotopic|4EBHAWJJ8C]], and chain homotopic maps induce the same map on homology.
 The second claim follows by applying the first to $g \circ f \simeq \id_X$ and $f \circ g \simeq \id_Y$.
 
 Example: a [[contractible space|R5WP8Z69Q8]] $X$, such as $\R^n$ or a convex set, is homotopy equivalent to a point.

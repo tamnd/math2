@@ -11,9 +11,9 @@ sources:
 
 ## Statement
 
-Let $G$ be a connected semisimple algebraic group defined over $\R$ whose real rank is at least $2$.
+Let $G$ be a connected semisimple [[algebraic group|GH81SYAPPN]] defined over $\R$ whose real rank is at least $2$.
 Assume that the identity component of $G(\R)$ has no compact factors.
-Let $\Gamma$ be an irreducible lattice in $G(\R)$.
+Let $\Gamma$ be an irreducible [[lattice|BTYF5Y5PFY]] in $G(\R)$.
 Let $H$ be a connected simple algebraic group over $\R$ with trivial center.
 Let $\rho \colon \Gamma \to H(\R)$ be a [[group homomorphism|0JYTG5K9Y4]] such that $\rho(\Gamma)$ is Zariski dense in $H$ and its closure in $H(\R)$ is not compact.
 Then there is a continuous homomorphism $\varphi \colon G(\R)^\circ \to H(\R)$, where $G(\R)^\circ$ is the identity component.
@@ -47,6 +47,6 @@ This holds for lattices in groups like $\mathrm{SL}_n(\R)$ with $n \ge 3$, but n
 
 ### L2 human
 
-Superrigidity is the main step in the proof of the Margulis arithmeticity theorem: every irreducible lattice in a group of real rank at least $2$ is an [[arithmetic group|4XWG6S7R4Z]].
-It strengthens Mostow rigidity, which concerns isomorphisms between lattices, to arbitrary homomorphisms.
+Superrigidity is the main step in the proof of the [[Margulis arithmeticity theorem|FEJK846N5X]]: every irreducible lattice in a group of real rank at least $2$ is an [[arithmetic group|4XWG6S7R4Z]].
+It strengthens [[Mostow rigidity|4BEWKR0EG7]], which concerns isomorphisms between lattices, to arbitrary homomorphisms.
 The rank one groups $\mathrm{Sp}(n, 1)$ and $F_{4(-20)}$ also satisfy superrigidity, by work of Corlette and of Gromov and Schoen.

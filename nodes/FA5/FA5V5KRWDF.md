@@ -12,7 +12,7 @@ sources:
 
 ## Statement
 
-Let $\mathbb{K}$ be $\R$ or $\C$, and let $A$ be a Banach algebra over $\mathbb{K}$ with unit $1$, so that $\norm{xy} \le \norm{x} \norm{y}$ for all $x, y \in A$.
+Let $\mathbb{K}$ be $\R$ or $\C$, and let $A$ be a [[Banach algebra|9KYWN94QDN]] over $\mathbb{K}$ with unit $1$, so that $\norm{xy} \le \norm{x} \norm{y}$ for all $x, y \in A$.
 Let $a \in A$.
 Then the [[spectrum|EH0CZ19RKP]] $\sigma(a)$ is a [[compact subset|0R6EWFKRCF]] of $\mathbb{K}$, and $\abs{\lambda} \le \norm{a}$ for every $\lambda \in \sigma(a)$.
 

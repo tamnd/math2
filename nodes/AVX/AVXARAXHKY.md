@@ -20,7 +20,7 @@ Let $\Hom_R(N, P)$ be the $R$-module of $R$-[[linear maps|0NRYHJPQG2]] $N \to P$
 Then the map
 $$\Phi \colon \Hom_R(M \otimes_R N, P) \to \Hom_R(M, \Hom_R(N, P)), \qquad \Phi(\varphi)(m)(n) = \varphi(m \otimes n),$$
 is an isomorphism of $R$-modules, natural in $M$, $N$ and $P$.
-Thus the functor $- \otimes_R N$ is left adjoint to the hom functor $\Hom_R(N, -)$.
+Thus the functor $- \otimes_R N$ is [[left adjoint|TZHF6ZM92S]] to the [[hom functor|VJXS8AK67E]] $\Hom_R(N, -)$.
 
 ## Remarks
 

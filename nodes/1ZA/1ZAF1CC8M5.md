@@ -10,8 +10,8 @@ sources:
 
 ## Definition
 
-Let $\mathbb{K}$ be $\R$ or $\C$, and let $E$ be a topological vector space over $\mathbb{K}$.
-The *topological group structure* of $E$ is the additive group $(E, +)$ together with the topology of $E$.
+Let $\mathbb{K}$ be $\R$ or $\C$, and let $E$ be a [[topological vector space|T32W553W95]] over $\mathbb{K}$.
+The *[[topological group|92700QAB5Y]] structure* of $E$ is the additive group $(E, +)$ together with the topology of $E$.
 It is a commutative topological group: the maps $(x, y) \mapsto x + y$ from $E \times E$ to $E$ and $x \mapsto -x$ from $E$ to $E$ are continuous.
 
 ## Remarks

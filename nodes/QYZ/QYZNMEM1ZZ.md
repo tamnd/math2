@@ -13,7 +13,7 @@ sources:
 
 Let $(M, g)$ be an [[oriented|913WEQERBE]] [[Riemannian manifold|7CBT4SM83Y]] of dimension $n \ge 2$.
 Let $P_{SO}(M)$ be its bundle of oriented orthonormal frames, a principal $SO(n)$-bundle (see [[frame bundle|F4HWTRNXAP]]).
-Let $\rho \colon \operatorname{Spin}(n) \to SO(n)$ be the double covering homomorphism from the spin group.
+Let $\rho \colon \operatorname{Spin}(n) \to SO(n)$ be the double covering homomorphism from the [[spin group|JJSXXJQGEH]].
 A *spin structure* on $(M, g)$ is a pair $(P, \xi)$ such that:
 
 1. $P$ is a [[principal|8E37E74XVP]] $\operatorname{Spin}(n)$-bundle over $M$.

@@ -16,7 +16,7 @@ same_as:
 A projective module is a module $P$ such that every linear map from $P$ lifts along every surjective linear map.
 Equivalently, $P$ is a direct summand of a [[free module|0DZ9DKAKZR]].
 Projective modules keep the most useful property of free modules, lifting of maps, but need not have a basis.
-They are the building blocks of projective resolutions in homological algebra, and finitely generated projective modules correspond to vector bundles in geometry.
+They are the building blocks of projective resolutions in homological algebra, and finitely generated projective modules correspond to [[vector bundles|P4DZM975BV]] in geometry.
 
 ## Explanations
 

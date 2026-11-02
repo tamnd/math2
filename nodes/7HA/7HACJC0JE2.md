@@ -14,7 +14,7 @@ same_as:
 
 A characteristic class assigns to each bundle of a given type over a space $X$ a cohomology class of $X$, compatibly with pullbacks.
 It measures how far a bundle is from being trivial: the trivial bundle has only the trivial classes.
-The main families are the [[Stiefel–Whitney classes|JQCK7A210W]], the Chern classes, the [[Pontryagin classes|DN11FKWN63]] and the [[Euler class|BJX6QS0ANT]].
+The main families are the [[Stiefel–Whitney classes|JQCK7A210W]], the [[Chern classes|PAD37GKDPD]], the [[Pontryagin classes|DN11FKWN63]] and the [[Euler class|BJX6QS0ANT]].
 Through the [[classifying space|WSZ40H5E4T]], characteristic classes of principal $G$-bundles correspond to cohomology classes of $BG$.
 
 ## Explanations

@@ -9,8 +9,8 @@ sources:
 
 ## Summary
 
-The cohomological dimension of a [[group|G5S1M9]] $G$ is the largest degree in which group cohomology of $G$ can be nonzero.
-It equals the shortest length of a projective resolution of $\Z$ over the group ring $\Z[G]$.
+The cohomological dimension of a [[group|G5S1M9]] $G$ is the largest degree in which [[group cohomology|YXJXA0Q52R]] of $G$ can be nonzero.
+It equals the shortest length of a projective resolution of $\Z$ over the [[group ring|4NMTSX0XDS]] $\Z[G]$.
 Free groups are exactly the groups of dimension at most $1$, by the [[Stallings–Swan theorem|B41GE4M134]], and $\Z^n$ has dimension $n$.
 A group of finite cohomological dimension is [[torsion-free|PEMNN32A43]].
 

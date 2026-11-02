@@ -13,7 +13,7 @@ sources:
 ## Statement
 
 Let $\mathbb{K}$ be $\R$ or $\C$, and give $\mathbb{K}^n$ its Euclidean topology.
-Let $E$ be a [[Hausdorff|0S1FJ8VEX9]] topological vector space over $\mathbb{K}$ of [[finite dimension|0ZHWKQMVX5]] $n$.
+Let $E$ be a [[Hausdorff|0S1FJ8VEX9]] [[topological vector space|T32W553W95]] over $\mathbb{K}$ of [[finite dimension|0ZHWKQMVX5]] $n$.
 Then every [[linear isomorphism|0B8T10CE7N]] $T \colon \mathbb{K}^n \to E$ is a [[homeomorphism|0QT00PB5G2]].
 In particular, a finite-dimensional vector space over $\mathbb{K}$ carries exactly one Hausdorff topology making it a topological vector space.
 

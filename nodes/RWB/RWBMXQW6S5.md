@@ -9,7 +9,7 @@ sources:
 
 ## Summary
 
-The singular simplicial set $\operatorname{Sing} X$ of a topological space $X$ is a simplicial set.
+The singular [[simplicial set|WW81ARB8K9]] $\operatorname{Sing} X$ of a topological space $X$ is a simplicial set.
 Its $n$-simplices are the continuous maps from the standard topological $n$-simplex into $X$.
 It turns a space into combinatorial data without losing its weak homotopy type.
 Its chains give singular homology, and it is a Kan complex, so its simplicial homotopy groups are the homotopy groups of $X$.

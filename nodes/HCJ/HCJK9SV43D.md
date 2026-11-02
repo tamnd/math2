@@ -26,6 +26,6 @@ On $\R$ it equals $\frac{1}{1 + x^2} + i \frac{x}{1 + x^2}$, so its imaginary pa
 Non-example: the integral is singular at $y = x$, so the principal value is needed.
 The integral $\int_\R \frac{f(y)}{x - y}\, dy$ diverges absolutely at every $x$ near which $f$ is continuous and nonzero.
 
-On the Fourier transform side, $\widehat{Hf}(\xi) = -i \sgn(\xi)\, \hat f(\xi)$ for $f \in L^2(\R)$.
+On the [[Fourier transform|DPVM34ADZV]] side, $\widehat{Hf}(\xi) = -i \sgn(\xi)\, \hat f(\xi)$ for $f \in L^2(\R)$.
 Hence $H$ is an isometry of $L^2(\R)$ with $H^2 = -\id$.
 For $1 < p < \infty$, $H$ is a bounded operator on $L^p(\R)$, a theorem of Marcel Riesz; for $p = 1$ it is only of weak type $(1, 1)$.

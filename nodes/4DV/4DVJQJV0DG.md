@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-A net in a space $X$ is a family of points of $X$ indexed by a directed set.
+A net in a space $X$ is a family of points of $X$ indexed by a [[directed set|D9RY4667K6]].
 It generalizes a sequence, which is indexed by $\N$.
 Convergence of nets is defined just as for sequences: eventually the net stays in every neighbourhood of the limit.
 In every [[topological space|0CQHFPGJ45]], nets describe closures, continuity, compactness and the Hausdorff property, which sequences do only in special spaces.

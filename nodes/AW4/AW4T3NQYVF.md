@@ -14,7 +14,7 @@ same_as:
 ## Summary
 
 A Fréchet algebra is an associative algebra that is also a [[Fréchet space|3GAA614673]], with a jointly continuous multiplication.
-It generalizes a Banach algebra: the topology comes from a countable family of [[seminorms|FP5GVCN8GV]] instead of a single norm.
+It generalizes a [[Banach algebra|9KYWN94QDN]]: the topology comes from a countable family of [[seminorms|FP5GVCN8GV]] instead of a single norm.
 Algebras of smooth functions, of holomorphic functions, and of continuous functions on the real line are Fréchet algebras but not Banach algebras.
 
 ## Explanations

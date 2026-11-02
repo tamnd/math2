@@ -12,14 +12,14 @@ sources:
 ## Definition
 
 Let $\mathbb{K}$ be $\R$ or $\C$.
-A *normed algebra* over $\mathbb{K}$ is an associative algebra $A$ over $\mathbb{K}$ with a [[norm|0V2WP9B1MF]] $\norm{\cdot}$ on the vector space $A$ such that
+A *normed algebra* over $\mathbb{K}$ is an [[associative algebra|3CTW1P4HBP]] $A$ over $\mathbb{K}$ with a [[norm|0V2WP9B1MF]] $\norm{\cdot}$ on the vector space $A$ such that
 $$\norm{x y} \le \norm{x} \norm{y} \quad \text{for all } x, y \in A.$$
 If $A$ has a unit $1$, many authors also ask $\norm{1} = 1$.
 
 ## Remarks
 
 The inequality makes the product $A \times A \to A$ continuous.
-A normed algebra that is complete as a [[normed vector space|03J5RAKB30]] is a Banach algebra.
+A normed algebra that is complete as a [[normed vector space|03J5RAKB30]] is a [[Banach algebra|9KYWN94QDN]].
 
 Example: the algebra $C([0,1])$ of continuous real functions with $\norm{f}_\infty = \sup_t \abs{f(t)}$.
 For each $t$, $\abs{f(t) g(t)} \le \norm{f}_\infty \norm{g}_\infty$, so $\norm{fg}_\infty \le \norm{f}_\infty \norm{g}_\infty$.

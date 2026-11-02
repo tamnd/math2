@@ -28,7 +28,7 @@ The three surfaces are pairwise not biholomorphic: $\hat\C$ is compact and the o
 Applied to the [[universal cover|Y1YPE6PM52]], the theorem shows that every Riemann surface $X$ is biholomorphic to a quotient $\tilde X / \Gamma$.
 Here $\tilde X$ is one of the three surfaces and $\Gamma$ is a group of automorphisms of $\tilde X$ acting freely and properly discontinuously.
 Only $\hat\C$ itself is covered by $\hat\C$, and only $\C$, $\C \setminus \set{0}$ and the tori $\C / \Lambda$ are covered by $\C$.
-Every other Riemann surface is a quotient $\mathbb{D} / \Gamma$ with $\Gamma$ a Fuchsian group.
+Every other Riemann surface is a quotient $\mathbb{D} / \Gamma$ with $\Gamma$ a [[Fuchsian group|VNJWSCVP6V]].
 For simply connected open subsets of $\C$ the theorem contains the [[Riemann mapping theorem|02WHMEG5ZR]].
 
 The theorem was proved in 1907, independently by Koebe and by Poincaré.

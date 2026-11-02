@@ -13,7 +13,7 @@ same_as:
 ## Summary
 
 A uniform algebra is a closed subalgebra of the continuous complex functions on a compact Hausdorff space that contains the constants and separates points.
-It is a commutative Banach algebra with the sup norm.
+It is a commutative [[Banach algebra|9KYWN94QDN]] with the sup norm.
 The main examples come from complex analysis, such as the disc algebra of functions holomorphic inside the disc and continuous up to the boundary.
 The [[Stone–Weierstrass theorem|1P8D3MK79H]] says the only uniform algebra on $X$ closed under complex conjugation is $C(X)$ itself.
 So the theory of uniform algebras studies the closed subalgebras that are not closed under conjugation.

@@ -13,7 +13,7 @@ same_as:
 
 ## Summary
 
-The strong dual space of a topological vector space $E$ is its [[continuous dual|4A82S5FVRT]] $E'$ with a certain topology.
+The strong dual space of a [[topological vector space|T32W553W95]] $E$ is its [[continuous dual|4A82S5FVRT]] $E'$ with a certain topology.
 It is the topology of uniform convergence on the [[bounded subsets|3BAJ8ZTVPX]] of $E$.
 For a normed space this is just the norm topology of the dual norm.
 The strong dual is the default topology on $E'$ in the theory of reflexivity.

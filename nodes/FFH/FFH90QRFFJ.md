@@ -16,8 +16,8 @@ The *cellular chain group* in degree $n$ is the [[relative homology|4BVWH0BN28]]
 Let $\partial$ be the connecting map of the pair $(X^n, X^{n-1})$, and let $j$ be induced by the inclusion of pairs.
 The *cellular boundary map* $d_n \colon C_n^{\mathrm{CW}}(X) \to C_{n-1}^{\mathrm{CW}}(X)$ is the composite
 $$H_n(X^n, X^{n-1}) \xrightarrow{\ \partial\ } H_{n-1}(X^{n-1}) \xrightarrow{\ j\ } H_{n-1}(X^{n-1}, X^{n-2}).$$
-Then $d_{n-1} \circ d_n = 0$, so these groups and maps form a chain complex.
-The *cellular homology* $H_n^{\mathrm{CW}}(X)$ is the homology of this chain complex in degree $n$.
+Then $d_{n-1} \circ d_n = 0$, so these groups and maps form a [[chain complex|WQ82C0M3QB]].
+The *cellular [[homology|2J4JJJYP22]]* $H_n^{\mathrm{CW}}(X)$ is the homology of this chain complex in degree $n$.
 
 ## Remarks
 

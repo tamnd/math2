@@ -188,7 +188,7 @@ items:
   - {name: Littlewood's Tauberian theorem, kind: statement, wikipedia: Littlewood's Tauberian theorem, wikidata: Q16249478, node: Z35TD4ZZRD}
   - {name: Hardy–Littlewood Tauberian theorem, kind: statement, wikipedia: Hardy–Littlewood Tauberian theorem, wikidata: Q5656673, node: N42JDBT0VA}
   - {name: Karamata's Tauberian theorem, kind: statement, wikipedia: Hardy–Littlewood Tauberian theorem, wikidata: Q5656673, node: DBEGF38V9H}
-  - {name: Wiener's Tauberian theorem, kind: statement, wikipedia: Wiener's Tauberian theorem, wikidata: Q3527279}
+  - {name: Wiener's Tauberian theorem, kind: statement, wikipedia: Wiener's Tauberian theorem, wikidata: Q3527279, node: V20376HXHD}
   - {name: Wiener–Ikehara theorem, kind: statement, wikipedia: Wiener–Ikehara theorem, wikidata: Q7999144, node: KQ57DC3AKM}
   - {name: Tauberian condition, kind: definition, wikipedia: Abelian and Tauberian theorems, wikidata: Q2376918, node: 6ZDP261K7R}
   - {name: slowly varying function, kind: definition, wikipedia: Slowly varying function, wikidata: Q4287804, node: EHJ7D5CRZS}

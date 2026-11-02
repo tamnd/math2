@@ -12,7 +12,7 @@ sources:
 ## Definition
 
 Let $K$ be a [[field|04C5ZBG1WT]] with [[algebraic closure|0X6AB5P3G1]] $\bar K$.
-An affine variety $V \subseteq \bar K^n$ defined over $K$ is the set of common zeros in $\bar K^n$ of a set of polynomials in $K[X_1, \dots, X_n]$.
+An affine [[variety|HV6YBS0YDH]] $V \subseteq \bar K^n$ defined over $K$ is the set of common zeros in $\bar K^n$ of a set of polynomials in $K[X_1, \dots, X_n]$.
 It is *absolutely irreducible* if it is irreducible as a variety over $\bar K$.
 This means that it is not the union of two proper closed subsets defined over $\bar K$.
 A point of $V$ is $K$-rational if all its coordinates lie in $K$.

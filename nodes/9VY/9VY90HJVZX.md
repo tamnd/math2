@@ -24,7 +24,7 @@ given by the [[cap product|N7SXBQ7WK0]], is an isomorphism from [[singular cohom
 ## Remarks
 
 The proof first shows a version with compactly supported cohomology for every $R$-oriented manifold, not only closed ones.
-It holds for open subsets of $\R^n$ that are convex, and it passes to unions by a Mayer–Vietoris argument and to increasing unions by a limit argument.
+It holds for open subsets of $\R^n$ that are convex, and it passes to unions by a [[Mayer–Vietoris|X8BWXFGK53]] argument and to increasing unions by a limit argument.
 For a closed manifold, compactly supported cohomology is ordinary cohomology.
 
 Every closed manifold is $\Z/2$-oriented, so the theorem always holds with $\Z/2$ coefficients.

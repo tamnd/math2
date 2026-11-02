@@ -26,7 +26,7 @@ For two groups it is written $G * H$.
 ## Remarks
 
 The product is well defined and associative, the empty word is the identity, and each $G_i$ embeds as the words of length at most $1$.
-Equivalently, $\mathop{\ast}_i G_i$ is the coproduct of the $G_i$ in the category of groups.
+Equivalently, $\mathop{\ast}_i G_i$ is the [[coproduct|4FJ0S71P58]] of the $G_i$ in the category of groups.
 That is, for every group $K$ and [[homomorphisms|0JYTG5K9Y4]] $\varphi_i \colon G_i \to K$, there is a unique homomorphism $\mathop{\ast}_i G_i \to K$ restricting to each $\varphi_i$.
 Example: $\Z * \Z$ is the free group of rank $2$.
 With generators $a$ of the first factor and $b$ of the second, its reduced words are the reduced words in $a^{\pm 1}, b^{\pm 1}$.

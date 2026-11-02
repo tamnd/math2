@@ -15,7 +15,7 @@ sources:
 Let $MU$ be the [[complex cobordism|5CZHFNY9F3]] spectrum, with coefficient ring $MU_* = \pi_* MU$ and $MU_* MU = \pi_*(MU \wedge MU)$.
 Then $(MU_*, MU_* MU)$ is a Hopf algebroid, and for every [[spectrum|1GHF4EKBXS]] $X$ the group $MU_* X$ is a comodule over it.
 Let $X$ be a connective spectrum.
-Then there is a spectral sequence $(E_r^{s,t}, d_r)_{r \ge 2}$.
+Then there is a [[spectral sequence|GG8AYV847V]] $(E_r^{s,t}, d_r)_{r \ge 2}$.
 Its differentials are $d_r \colon E_r^{s,t} \to E_r^{s+r, t+r-1}$, and its second page is
 $$E_2^{s,t} = \operatorname{Ext}^{s,t}_{MU_* MU}(MU_*, MU_* X),$$
 the [[Ext groups|4P7GBWJ4RR]] in the category of $MU_* MU$-comodules, and the spectral sequence converges to $\pi_{t-s}(X)$.

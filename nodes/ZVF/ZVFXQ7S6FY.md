@@ -11,7 +11,7 @@ sources:
 
 A family of [[seminorms|FP5GVCN8GV]] on a vector space defines a topology.
 In it, a net converges exactly when it converges for every seminorm of the family.
-With this topology the vector space is a topological vector space, and in fact a [[locally convex space|B6GY2KJMWW]].
+With this topology the vector space is a [[topological vector space|T32W553W95]], and in fact a [[locally convex space|B6GY2KJMWW]].
 This is the standard way to put a topology on function spaces such as spaces of smooth functions, where no single norm is suitable.
 
 ## Explanations

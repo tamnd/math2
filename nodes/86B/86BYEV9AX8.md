@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-An F-space is a topological vector space whose topology comes from a complete translation-invariant metric.
+An F-space is a [[topological vector space|T32W553W95]] whose topology comes from a complete translation-invariant metric.
 F-spaces are the natural setting of the Baire category arguments of functional analysis: the open mapping theorem and the closed graph theorem hold for F-spaces.
 Every Banach space and every [[Fréchet space|3GAA614673]] is an F-space, but F-spaces need not be locally convex.
 

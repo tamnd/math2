@@ -19,7 +19,7 @@ a nonnegative integer or $\infty$.
 ## Remarks
 
 When $H_k(X)$ is finitely generated, it is isomorphic to $\Z^{b_k} \oplus T$ with $T$ finite, so $b_k$ is the number of copies of $\Z$.
-By the universal coefficient theorem, $b_k(X) = \dim_{\Q} H_k(X; \Q)$.
+By the [[universal coefficient theorem|GTA8ZFGZ3N]], $b_k(X) = \dim_{\Q} H_k(X; \Q)$.
 Torsion is invisible to Betti numbers.
 
 Example: for the torus $T^2 = S^1 \times S^1$, $H_0 = \Z$, $H_1 = \Z^2$ and $H_2 = \Z$, so $b_0 = 1$, $b_1 = 2$, $b_2 = 1$.

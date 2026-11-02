@@ -22,7 +22,7 @@ items:
   - {name: torus, kind: object, decl: AddCircle, wikipedia: Torus, wikidata: Q12510, node: 03NM7DZXXC}
   - {name: real projective space, kind: object, wikipedia: Real projective space, wikidata: Q2597317, node: 1DDYB6VVSR}
   - {name: complex projective space, kind: object, wikipedia: Complex projective space, wikidata: Q2538404}
-  - {name: Grassmannian, kind: object, wikipedia: Grassmannian, wikidata: Q129638}
+  - {name: Grassmannian, kind: object, wikipedia: Grassmannian, wikidata: Q129638, node: CYPA882RB9}
   - {name: Stiefel manifold, kind: object, wikipedia: Stiefel manifold, wikidata: Q7616373, node: W7RCXS3CHT}
   - {name: Jordan curve theorem, kind: statement, wikipedia: Jordan curve theorem, wikidata: Q260928, node: 687RGCHBTP}
   - {name: Jordan–Brouwer separation theorem, kind: statement, wikipedia: Jordan curve theorem, wikidata: Q260928, node: 2Q008XWQDE}
@@ -100,7 +100,7 @@ items:
   - {name: characteristic class, kind: concept, wikipedia: Characteristic class, wikidata: Q1062978, node: 7HACJC0JE2}
   - {name: Stiefel–Whitney class, kind: definition, wikipedia: Stiefel–Whitney class, wikidata: Q1293273, node: JQCK7A210W}
   - {name: Pontryagin class, kind: definition, wikipedia: Pontryagin class, wikidata: Q40007, node: DN11FKWN63}
-  - {name: Chern class, kind: definition, wikipedia: Chern class, wikidata: Q1069818}
+  - {name: Chern class, kind: definition, wikipedia: Chern class, wikidata: Q1069818, node: PAD37GKDPD}
   - {name: Euler class, kind: definition, wikipedia: Euler class, wikidata: Q2193452, node: BJX6QS0ANT}
   - {name: Thom space and Thom isomorphism, kind: definition, wikipedia: Thom space, wikidata: Q2421733}
   - {name: spin structure, kind: definition, wikipedia: Spin structure, wikidata: Q7577418, node: RSPZ9TCFQ8}
@@ -154,11 +154,11 @@ items:
   - {name: Poincaré conjecture, kind: statement, wikipedia: Poincaré conjecture, wikidata: Q203586, node: 3R064KFF68}
   - {name: geometrization conjecture, kind: statement, wikipedia: Geometrization conjecture, wikidata: Q1503309, node: B27HB43K86}
   - {name: hyperbolic 3-manifold, kind: definition, wikipedia: Hyperbolic 3-manifold, wikidata: Q5957770, node: GHVW1Z35BS}
-  - {name: Mostow rigidity theorem, kind: statement, wikipedia: Mostow rigidity theorem, wikidata: Q3984063}
+  - {name: Mostow rigidity theorem, kind: statement, wikipedia: Mostow rigidity theorem, wikidata: Q3984063, node: 4BEWKR0EG7}
   - {name: hyperbolic Dehn surgery theorem, kind: statement, wikipedia: Hyperbolic Dehn surgery, wikidata: Q5957776, node: BB28P2ED5H}
   - {name: Weeks manifold, kind: example, wikipedia: Weeks manifold, wikidata: Q7979541, node: 3HDRK3QYSD}
   - {name: Seifert–Weber space, kind: example, wikipedia: Seifert–Weber space, wikidata: Q7446658, node: FBVEG8HVTP}
-  - {name: Kleinian group, kind: definition, wikipedia: Kleinian group, wikidata: Q4116484}
+  - {name: Kleinian group, kind: definition, wikipedia: Kleinian group, wikidata: Q4116484, node: 27QRARKWD5}
   - {name: tameness theorem, kind: statement, wikipedia: Tameness theorem, wikidata: Q3893473, node: DE1Z7R9T05}
   - {name: ending lamination theorem, kind: statement, wikipedia: Ending lamination theorem, wikidata: Q5376147, node: 3EVAF9NG5Z}
   - {name: virtually Haken conjecture, kind: statement, wikipedia: Virtually Haken conjecture, wikidata: Q7935203, node: GYB411M966}
@@ -229,12 +229,12 @@ items:
   # Covering spaces and transformation groups
   - {name: covering space, kind: definition, decl: IsCoveringMap, wikipedia: Covering space, wikidata: Q332648, node: 3XZRRE165N}
   - {name: branched covering, kind: definition, wikipedia: Branched covering, wikidata: Q4956410, node: YARENZRXTD}
-  - {name: properly discontinuous action, kind: definition, decl: ProperlyDiscontinuousSMul, wikipedia: Group action, wikidata: Q288465}
+  - {name: properly discontinuous action, kind: definition, decl: ProperlyDiscontinuousSMul, wikipedia: Group action, wikidata: Q288465, node: J5X5ED0B2Y}
   - {name: orbifold, kind: definition, wikipedia: Orbifold, wikidata: Q40460, node: RPAVY0W0XS}
   - {name: slice theorem, kind: statement, wikipedia: Slice theorem (differential geometry), wikidata: Q17093903, node: VQB2N60ARE}
-  - {name: Hilbert's fifth problem, kind: problem, wikipedia: Hilbert's fifth problem, wikidata: Q3893331}
-  - {name: Hilbert–Smith conjecture, kind: conjecture, wikipedia: Hilbert–Smith conjecture, wikidata: Q5761258}
-  - {name: Lie group, kind: definition, decl: LieGroup, wikipedia: Lie group, wikidata: Q622679, mathlib: [mathlib-overview]}
+  - {name: Hilbert's fifth problem, kind: problem, wikipedia: Hilbert's fifth problem, wikidata: Q3893331, node: NR70GHZ37D}
+  - {name: Hilbert–Smith conjecture, kind: conjecture, wikipedia: Hilbert–Smith conjecture, wikidata: Q5761258, node: DS2AS9TSZP}
+  - {name: Lie group, kind: definition, decl: LieGroup, wikipedia: Lie group, wikidata: Q622679, mathlib: [mathlib-overview], node: 7JBRGCVJRB}
   # Topological groups and H-spaces
   - {name: H-space, kind: definition, wikipedia: H-space, wikidata: Q1562471, node: EASHTX8EG5}
   - {name: classifying space, kind: definition, wikipedia: Classifying space, wikidata: Q5128445, node: WSZ40H5E4T}

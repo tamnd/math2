@@ -13,7 +13,7 @@ same_as:
 ## Summary
 
 An exact couple is a pair of abelian groups with three maps between them that form an exact triangle.
-From it one builds a derived exact couple, and repeating this gives a spectral sequence.
+From it one builds a derived exact couple, and repeating this gives a [[spectral sequence|GG8AYV847V]].
 Many spectral sequences of algebraic topology arise in this way.
 Examples are the spectral sequence of a filtered space, the Bockstein spectral sequence and the Adams spectral sequence.
 

@@ -13,7 +13,7 @@ sources:
 
 Let $M$ be a smooth manifold of dimension $n$, and let $F(M) \to M$ be its [[frame bundle|F4HWTRNXAP]].
 It is the [[principal bundle|8E37E74XVP]] with group $\mathrm{GL}(n, \R)$ whose fibre over $p$ is the set of ordered bases of $T_pM$.
-Let $G$ be a Lie subgroup of $\mathrm{GL}(n, \R)$.
+Let $G$ be a [[Lie subgroup|NM8XCPS1Q3]] of $\mathrm{GL}(n, \R)$.
 A *$G$-structure* on $M$ is a principal $G$-subbundle $P \subset F(M)$.
 That is, $P$ is a smooth submanifold of $F(M)$ that meets every fibre and is preserved by the right action of $G$.
 Moreover $G$ acts freely and transitively on each fibre of $P$.

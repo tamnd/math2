@@ -54,7 +54,7 @@ items:
   - {name: incidence structure, kind: definition, wikipedia: Incidence structure, wikidata: Q367329}
   - {name: incidence geometry, kind: concept, wikipedia: Incidence geometry, wikidata: Q4582901}
   - {name: projective plane, kind: definition, decl: Configuration.ProjectivePlane, wikipedia: Projective plane, wikidata: Q1475760}
-  - {name: projective space, kind: definition, decl: Projectivization, wikipedia: Projective space, wikidata: Q877775}
+  - {name: projective space, kind: definition, decl: Projectivization, wikipedia: Projective space, wikidata: Q877775, node: ZT9A6JK8QF}
   - {name: projective subspace, kind: definition, decl: Projectivization.Subspace, wikipedia: Projective space, wikidata: Q877775}
   - {name: projective geometry, kind: concept, wikipedia: Projective geometry, wikidata: Q177409}
   - {name: homogeneous coordinates, kind: definition, wikipedia: Homogeneous coordinates, wikidata: Q528525}
@@ -131,8 +131,8 @@ items:
   - {name: inversion in a circle, kind: definition, decl: EuclideanGeometry.inversion, wikipedia: Inversive geometry, wikidata: Q9267097}
   - {name: projective line over a ring, kind: definition, wikipedia: Projective line over a ring, wikidata: Q7249472}
   - {name: matroid, kind: definition, wikipedia: Matroid, wikidata: Q898572, node: PX31ZNYS3Z}
-  - {name: closure operator, kind: definition, wikipedia: Closure operator, wikidata: Q10564851}
-  - {name: geometric lattice, kind: definition, wikipedia: Geometric lattice, wikidata: Q5535493}
+  - {name: closure operator, kind: definition, wikipedia: Closure operator, wikidata: Q10564851, node: 2HJGRABSPZ}
+  - {name: geometric lattice, kind: definition, wikipedia: Geometric lattice, wikidata: Q5535493, node: VDF7CGPC0P}
   - {name: Buekenhout geometry, kind: concept, wikipedia: Buekenhout geometry, wikidata: Q4985363}
   # Metric and reflection geometry
   - {name: metric geometry, kind: concept, wikipedia: Metric space, wikidata: Q180953}

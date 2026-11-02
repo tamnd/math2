@@ -24,7 +24,7 @@ The hyperbolic structure can be checked by computer, for example with the progra
 ## Remarks
 
 Gabai, Meyerhoff and Milley proved in 2009 that $W$ has the smallest volume among all closed orientable hyperbolic $3$-manifolds.
-By Mostow rigidity, its volume is a topological invariant, so this is a statement about topology.
+By [[Mostow rigidity|4BEWKR0EG7]], its volume is a topological invariant, so this is a statement about topology.
 
 ## Explanations
 

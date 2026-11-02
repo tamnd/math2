@@ -211,19 +211,19 @@ items:
   - {name: Riemann surface, kind: definition, wikipedia: Riemann surface, wikidata: Q753035, node: 5K0N8QMV6Q}
   - {name: holomorphic map between Riemann surfaces, kind: definition, wikipedia: Riemann surface, wikidata: Q753035, node: T19P7J53A1}
   - {name: branched covering, kind: definition, wikipedia: Branched covering, wikidata: Q4956410, node: YARENZRXTD}
-  - {name: Riemann–Hurwitz formula, kind: statement, wikipedia: Riemann–Hurwitz formula, wikidata: Q494995}
+  - {name: Riemann–Hurwitz formula, kind: statement, wikipedia: Riemann–Hurwitz formula, wikidata: Q494995, node: 42A5ZT6AWN}
   - {name: uniformization theorem, kind: statement, wikipedia: Uniformization theorem, wikidata: Q2109761, node: 5EJ7SW1RCV}
-  - {name: Fuchsian group, kind: definition, wikipedia: Fuchsian group, wikidata: Q205124}
-  - {name: Kleinian group, kind: definition, wikipedia: Kleinian group, wikidata: Q4116484}
+  - {name: Fuchsian group, kind: definition, wikipedia: Fuchsian group, wikidata: Q205124, node: VNJWSCVP6V}
+  - {name: Kleinian group, kind: definition, wikipedia: Kleinian group, wikidata: Q4116484, node: 27QRARKWD5}
   - {name: Teichmüller space, kind: definition, wikipedia: Teichmüller space, wikidata: Q2400539, node: ZZGC6BZNJ5}
   - {name: moduli of algebraic curves, kind: concept, wikipedia: Moduli of algebraic curves, wikidata: Q6889798, node: NK9ATH4WB6}
   - {name: Abelian differential, kind: definition, wikipedia: Differential of the first kind, wikidata: Q5275357, node: P014C13K5H}
-  - {name: Riemann–Roch theorem, kind: statement, wikipedia: Riemann–Roch theorem, wikidata: Q379048}
+  - {name: Riemann–Roch theorem, kind: statement, wikipedia: Riemann–Roch theorem, wikidata: Q379048, node: WMVAT9MBZ1}
   - {name: Abel–Jacobi map, kind: definition, wikipedia: Abel–Jacobi map, wikidata: Q4666729, node: HE8F7KBF42}
-  - {name: Jacobian variety, kind: definition, wikipedia: Jacobian variety, wikidata: Q845729}
-  - {name: Torelli theorem, kind: statement, wikipedia: Torelli theorem, wikidata: Q7825663}
-  - {name: hyperelliptic curve, kind: example, wikipedia: Hyperelliptic curve, wikidata: Q850110}
-  - {name: Hurwitz's automorphisms theorem, kind: statement, wikipedia: Hurwitz's automorphisms theorem, wikidata: Q2226695}
+  - {name: Jacobian variety, kind: definition, wikipedia: Jacobian variety, wikidata: Q845729, node: ZQ84M9D9TC}
+  - {name: Torelli theorem, kind: statement, wikipedia: Torelli theorem, wikidata: Q7825663, node: BRKFX8BQ60}
+  - {name: hyperelliptic curve, kind: example, wikipedia: Hyperelliptic curve, wikidata: Q850110, node: 5SB8EKSQRN}
+  - {name: Hurwitz's automorphisms theorem, kind: statement, wikipedia: Hurwitz's automorphisms theorem, wikidata: Q2226695, node: 3GNKSCQSCD}
   - {name: Klein quartic, kind: object, wikipedia: Klein quartic, wikidata: Q977499, node: GXYKMAEAMG}
   - {name: Schottky group, kind: definition, wikipedia: Schottky group, wikidata: Q7432778, node: YBERRJMXT6}
   - {name: Riemann's existence theorem, kind: statement, wikipedia: Riemann's existence theorem, wikidata: Q134889667, node: NRJQP7FXFM}

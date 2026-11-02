@@ -15,7 +15,7 @@ same_as:
 
 ## Statement
 
-Let $D$ be a finite-dimensional associative algebra over the field $\R$ of [[real numbers|08J2M1JYAG]].
+Let $D$ be a finite-dimensional [[associative algebra|3CTW1P4HBP]] over the field $\R$ of [[real numbers|08J2M1JYAG]].
 Suppose $D$ is a [[division ring|0WZXK05ME7]]: it has a unit $1 \ne 0$ and every nonzero element has a two-sided inverse.
 Then $D$ is isomorphic, as an $\R$-algebra, to exactly one of $\R$, the [[complex numbers|09FTAET5Z4]] $\C$, and the [[quaternions|0GE4DVQKR8]] $\mathbb{H}$.
 

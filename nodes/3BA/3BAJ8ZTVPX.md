@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-A subset of a topological vector space is von Neumann bounded if a large enough scaling shrinks it into any given neighbourhood of $0$.
+A subset of a [[topological vector space|T32W553W95]] is von Neumann bounded if a large enough scaling shrinks it into any given neighbourhood of $0$.
 It replaces the notion of a [[bounded set|09QSZVVM26]] of a metric space.
 That notion does not suit topological vector spaces, since a metric may make the whole space bounded.
 In a normed space the von Neumann bounded sets are the sets of finite norm diameter.

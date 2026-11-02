@@ -23,7 +23,7 @@ such that the triangle is [[exact|CBDM280TDF]] at each vertex:
 
 The map $d = j \circ k \colon E \to E$ satisfies $d \circ d = j (k j) k = 0$, by clause 2.
 The *derived couple* has $D' = i(D)$ and $E' = \ker d / \im d$, with $i'$ the restriction of $i$, $j'(i(x)) = [j(x)]$ and $k'([e]) = k(e)$; it is again an exact couple.
-Iterating gives groups $E^r$ with differentials $d^r$ such that $E^{r+1}$ is the homology of $(E^r, d^r)$, that is, a spectral sequence.
+Iterating gives groups $E^r$ with differentials $d^r$ such that $E^{r+1}$ is the homology of $(E^r, d^r)$, that is, a [[spectral sequence|GG8AYV847V]].
 In practice $D$ and $E$ are bigraded, and the bidegrees of $i, j, k$ fix the bidegree of each $d^r$.
 
 Example: let $C$ be a chain complex of free abelian groups and $p$ a prime.

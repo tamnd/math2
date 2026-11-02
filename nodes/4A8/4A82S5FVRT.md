@@ -10,7 +10,7 @@ sources:
 
 ## Summary
 
-The continuous dual space of a topological vector space $E$ is the vector space $E'$ of all continuous [[linear forms|07YQ1C78G0]] on $E$.
+The continuous dual space of a [[topological vector space|T32W553W95]] $E$ is the vector space $E'$ of all continuous [[linear forms|07YQ1C78G0]] on $E$.
 It is a subspace of the algebraic [[dual space|07JBSZE0V4]], usually much smaller in infinite dimension.
 For a normed space it is a Banach space with the dual norm.
 Duality theory studies $E$ through $E'$ and the topologies on both, such as the [[weak topology|P6KHVSTPZV]] and the [[strong dual|RG52DZ1A8Y]] topology.

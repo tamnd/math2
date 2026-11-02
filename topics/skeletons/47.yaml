@@ -112,7 +112,7 @@ items:
   - {name: continuous functional calculus, kind: concept, decl: cfc, wikipedia: Continuous functional calculus, wikidata: Q1767119, node: JB7S6WPZ77}
   - {name: Borel functional calculus, kind: concept, wikipedia: Borel functional calculus, wikidata: Q829645, node: 92433H25TC}
   - {name: Rayleigh quotient, kind: definition, wikipedia: Rayleigh quotient, wikidata: Q1665115, node: 06WHP8SE98}
-  - {name: min-max theorem, kind: statement, wikipedia: Min-max theorem, wikidata: Q4454958}
+  - {name: min-max theorem, kind: statement, wikipedia: Min-max theorem, wikidata: Q4454958, node: G11NE3AT6E}
   - {name: Hilbert–Pólya conjecture, kind: conjecture, wikipedia: Hilbert–Pólya conjecture, wikidata: Q2993323, node: ECS1GDJ734}
   # Self-adjoint extensions and perturbation theory
   - {name: essentially self-adjoint operator, kind: definition, wikipedia: Self-adjoint operator, wikidata: Q6500908, node: DT49GKR9AS}
@@ -156,8 +156,8 @@ items:
   - {name: Calderón–Zygmund lemma, kind: statement, wikipedia: Calderón–Zygmund lemma, wikidata: Q1707076, node: K1YKXVPVDG}
   - {name: Fourier multiplier, kind: definition, wikipedia: Multiplier (Fourier analysis), wikidata: Q6935014}
   - {name: Wiener–Hopf method, kind: concept, wikipedia: Wiener–Hopf method, wikidata: Q2079672}
-  - {name: pseudo-differential operator, kind: definition, wikipedia: Pseudo-differential operator, wikidata: Q1644451}
-  - {name: Fourier integral operator, kind: definition, wikipedia: Fourier integral operator, wikidata: Q4262191}
+  - {name: pseudo-differential operator, kind: definition, wikipedia: Pseudo-differential operator, wikidata: Q1644451, node: FF27N0BWTP}
+  - {name: Fourier integral operator, kind: definition, wikipedia: Fourier integral operator, wikidata: Q4262191, node: EVS4JPEE45}
   # Nonlinear operators and fixed points
   - {name: contraction mapping, kind: definition, decl: ContractingWith, wikipedia: Contraction mapping, wikidata: Q515173, node: 0QN69YA357}
   - {name: Banach fixed-point theorem, kind: statement, decl: ContractingWith.fixedPoint, wikipedia: Banach fixed-point theorem, wikidata: Q220680, node: 0VK6VEH345}
@@ -169,7 +169,7 @@ items:
   - {name: Markov–Kakutani fixed-point theorem, kind: statement, wikipedia: Markov–Kakutani fixed-point theorem, wikidata: Q6771347}
   - {name: Ryll-Nardzewski fixed-point theorem, kind: statement, wikipedia: Ryll-Nardzewski fixed-point theorem, wikidata: Q1422083, node: 61B8B11Y0Y}
   - {name: Caristi fixed-point theorem, kind: statement, wikipedia: Caristi fixed-point theorem, wikidata: Q2287393, node: NXCM67XY9E}
-  - {name: Leray–Schauder degree, kind: definition, wikipedia: Leray–Schauder degree, wikidata: Q111912958}
+  - {name: Leray–Schauder degree, kind: definition, wikipedia: Leray–Schauder degree, wikidata: Q111912958, node: 3VJC5Q9MYA}
   - {name: monotone operator, kind: definition, wikipedia: Monotonic function, wikidata: Q194404, node: Y1M03JQKKR}
   - {name: Browder–Minty theorem, kind: statement, wikipedia: Browder–Minty theorem, wikidata: Q25303622, node: NWK9Z80BT2}
   - {name: coercive bilinear form, kind: definition, decl: IsCoercive, wikipedia: Coercive function, wikidata: Q1597436, node: 86KRHS6X22}
@@ -177,7 +177,7 @@ items:
   - {name: variational inequality, kind: problem, wikipedia: Variational inequality, wikidata: Q4556320, node: 6QS7X5GVMY}
   - {name: Ekeland's variational principle, kind: statement, wikipedia: Ekeland's variational principle, wikidata: Q1945203, node: MJGPW5EVB3}
   - {name: Palais–Smale compactness condition, kind: definition, wikipedia: Palais–Smale compactness condition, wikidata: Q3686430, node: 4724KRNHAT}
-  - {name: mountain pass theorem, kind: statement, wikipedia: Mountain pass theorem, wikidata: Q6925496}
+  - {name: mountain pass theorem, kind: statement, wikipedia: Mountain pass theorem, wikidata: Q6925496, node: EPXNCSP2MN}
   - {name: bifurcation theory, kind: concept, wikipedia: Bifurcation theory, wikidata: Q1154357}
   - {name: Newton–Kantorovich theorem, kind: statement, wikipedia: Kantorovich theorem, wikidata: Q2226698, node: 1YDR94WQMZ}
   - {name: proximal operator, kind: definition, wikipedia: Proximal operator, wikidata: Q28130527, node: E239APE78P}

@@ -11,12 +11,12 @@ sources:
 
 ## Definition
 
-Let $X$ be a [[topological space|0CQHFPGJ45]] and let $\mathrm{Sh}(X)$ be the category of sheaves of [[abelian groups|082GHNPJ53]] on $X$.
+Let $X$ be a [[topological space|0CQHFPGJ45]] and let $\mathrm{Sh}(X)$ be the category of [[sheaves|TB6TM6R4MD]] of [[abelian groups|082GHNPJ53]] on $X$.
 The global sections functor $\Gamma(X, -) \colon \mathrm{Sh}(X) \to \mathrm{Ab}$, $F \mapsto F(X)$, is left exact, and $\mathrm{Sh}(X)$ has enough injective objects.
-For a sheaf $F$, choose an injective resolution $0 \to F \to I^0 \to I^1 \to I^2 \to \cdots$ in $\mathrm{Sh}(X)$.
+For a sheaf $F$, choose an [[injective resolution|ZW3W6FX4PW]] $0 \to F \to I^0 \to I^1 \to I^2 \to \cdots$ in $\mathrm{Sh}(X)$.
 The *$q$-th cohomology group of $X$ with coefficients in $F$* is
 $$H^q(X, F) = H^q\big(\Gamma(X, I^0) \to \Gamma(X, I^1) \to \Gamma(X, I^2) \to \cdots\big).$$
-So $H^q(X, -)$ is the $q$-th right derived functor of $\Gamma(X, -)$; it does not depend on the choice of resolution up to canonical isomorphism.
+So $H^q(X, -)$ is the $q$-th right [[derived functor|NPMC3K6J2F]] of $\Gamma(X, -)$; it does not depend on the choice of resolution up to canonical isomorphism.
 
 ## Remarks
 

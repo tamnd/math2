@@ -9,7 +9,7 @@ sources:
 
 ## Summary
 
-The geometric realization $\abs{K}$ of a simplicial set $K$ is a topological space.
+The geometric realization $\abs{K}$ of a [[simplicial set|WW81ARB8K9]] $K$ is a topological space.
 It has one topological $n$-simplex for each $n$-simplex of $K$, glued as the face and degeneracy maps prescribe.
 It is a CW complex with one $n$-cell for each nondegenerate $n$-simplex.
 Realization is left adjoint to the [[singular simplicial set|RWBMXQW6S5]] functor, and the two functors identify the homotopy theory of simplicial sets with that of spaces.

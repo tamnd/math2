@@ -12,7 +12,7 @@ sources:
 ## Definition
 
 Let $A$ be a unital C*-algebra, and let $G$ be a discrete group.
-Let $\alpha \colon G \to \Aut(A)$ be a [[group action|0WCY42EV9V]] of $G$ on $A$ by $*$-automorphisms.
+Let $\alpha \colon G \to \Aut(A)$ be a [[group action|0WCY42EV9V]] of $G$ on $A$ by $*$-[[automorphisms|DSQ17TNW1C]].
 Let $C_c(G, A)$ be the space of finitely supported functions $f \colon G \to A$, with the product and involution
 $$(f * g)(s) = \sum_{t \in G} f(t) \, \alpha_t\big(g(t^{-1} s)\big), \qquad f^*(s) = \alpha_s\big(f(s^{-1})^*\big).$$
 Let $H$ be a [[Hilbert space|HM2HHE3J51]].
@@ -31,7 +31,7 @@ For locally compact groups, $C_c(G, A)$ is replaced by continuous compactly supp
 
 Example: take $A = \C$ and the trivial action.
 Then $C_c(G, \C)$ is the group algebra of $G$ with convolution, and the covariant representations are the unitary representations of $G$.
-So $\C \rtimes G$ is the full group C*-algebra $C^*(G)$.
+So $\C \rtimes G$ is the full [[group C*-algebra|JKANN4VBYH]] $C^*(G)$.
 
 Non-example: let $\Z$ act on $A = C(\mathbb{T})$ by an irrational rotation.
 If $\alpha$ is replaced by the identity in the formulas for the product and the involution, the result is the crossed product for the trivial action.

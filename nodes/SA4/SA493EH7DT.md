@@ -11,12 +11,12 @@ sources:
 
 ## Definition
 
-Let $X$ be a nonempty topological space with singular chain complex $C_\bullet(X)$.
+Let $X$ be a nonempty topological space with singular [[chain complex|WQ82C0M3QB]] $C_\bullet(X)$.
 The *augmentation* is the homomorphism $\varepsilon \colon C_0(X) \to \Z$ given by $\varepsilon\left(\sum_i n_i \sigma_i\right) = \sum_i n_i$.
 The *augmented chain complex* is
 $$\cdots \to C_2(X) \xrightarrow{\partial_2} C_1(X) \xrightarrow{\partial_1} C_0(X) \xrightarrow{\varepsilon} \Z \to 0,$$
 with $\Z$ placed in degree $-1$; it is a chain complex because $\varepsilon \circ \partial_1 = 0$.
-The *reduced homology* $\tilde H_n(X)$ is the homology of the augmented chain complex in degree $n$.
+The *reduced [[homology|2J4JJJYP22]]* $\tilde H_n(X)$ is the homology of the augmented chain complex in degree $n$.
 
 ## Remarks
 

@@ -68,9 +68,9 @@ items:
   - {name: van der Waerden's theorem, kind: statement, decl: Combinatorics.exists_mono_homothetic_copy, wikipedia: Van der Waerden's theorem, wikidata: Q764287, mathlib: [mathlib-overview, mathlib-1000], node: V96FRZ2ME1}
   - {name: Rokhlin lemma, kind: statement, wikipedia: Rokhlin lemma, wikidata: Q21069246}
   - {name: amenable group action, kind: concept, wikipedia: Amenable group, wikidata: Q1857002}
-  - {name: Ratner's theorems, kind: statement, wikipedia: Ratner's theorems, wikidata: Q7295875}
-  - {name: Oppenheim conjecture, kind: statement, wikipedia: Oppenheim conjecture, wikidata: Q7098547}
-  - {name: Littlewood conjecture, kind: conjecture, wikipedia: Littlewood conjecture, wikidata: Q6653177}
+  - {name: Ratner's theorems, kind: statement, wikipedia: Ratner's theorems, wikidata: Q7295875, node: 3MXR03096V}
+  - {name: Oppenheim conjecture, kind: statement, wikipedia: Oppenheim conjecture, wikidata: Q7098547, node: 4S50G4PS26}
+  - {name: Littlewood conjecture, kind: conjecture, wikipedia: Littlewood conjecture, wikidata: Q6653177, node: P8D6T5A1QD}
   - {name: Kac's lemma, kind: statement, wikipedia: Kac's lemma, wikidata: Q97032821}
   - {name: ergodic hypothesis, kind: concept, wikipedia: Ergodic hypothesis, wikidata: Q174196}
   - {name: quasi-ergodicity, kind: definition, decl: QuasiErgodic, wikipedia: Ergodicity, wikidata: Q5426803}
@@ -124,7 +124,7 @@ items:
   - {name: geodesic flow, kind: example, wikipedia: Geodesic, wikidata: Q213488}
   - {name: horocycle flow, kind: example, wikipedia: Horocycle, wikidata: Q2246795}
   - {name: Smale horseshoe, kind: example, wikipedia: Horseshoe map, wikidata: Q557781}
-  - {name: solenoid, kind: example, wikipedia: Solenoid (mathematics), wikidata: Q3489713}
+  - {name: solenoid, kind: example, wikipedia: Solenoid (mathematics), wikidata: Q3489713, node: 1PBQ6ARWND}
   - {name: Axiom A, kind: definition, wikipedia: Axiom A, wikidata: Q4059942}
   - {name: spectral decomposition, kind: statement, wikipedia: Axiom A, wikidata: Q4059942}
   - {name: Morse–Smale system, kind: definition, wikipedia: Morse–Smale system, wikidata: Q6914276}
@@ -209,7 +209,7 @@ items:
   - {name: Fermi–Pasta–Ulam–Tsingou problem, kind: problem, wikipedia: Fermi–Pasta–Ulam–Tsingou problem, wikidata: Q462254}
   - {name: Toda lattice, kind: example, wikipedia: Toda lattice, wikidata: Q572090}
   - {name: KdV equation as an integrable system, kind: example, wikipedia: Korteweg–De Vries equation, wikidata: Q601796}
-  - {name: Lax pair, kind: definition, wikipedia: Lax pair, wikidata: Q4115796}
+  - {name: Lax pair, kind: definition, wikipedia: Lax pair, wikidata: Q4115796, node: G3A4S7CSB3}
   # Random, infinite-dimensional and applied dynamics
   - {name: random dynamical system, kind: definition, wikipedia: Random dynamical system, wikidata: Q7291964}
   - {name: iterated function system, kind: definition, wikipedia: Iterated function system, wikidata: Q1502167}

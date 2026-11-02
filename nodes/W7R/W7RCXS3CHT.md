@@ -27,7 +27,7 @@ For $V_2(\R^3)$ the dimension is $6 - 3 = 3$, and indeed $(v_1, v_2) \mapsto (v_
 
 Stiefel manifolds give standard [[fiber bundles|CX4M8K61AB]].
 The map $V_k(\R^n) \to S^{n-1}$, $(v_1, \ldots, v_k) \mapsto v_1$, is a fiber bundle with fiber $V_{k-1}(\R^{n-1})$.
-The map $V_k(\R^n) \to G_k(\R^n)$ that sends a frame to the subspace it spans is a [[principal $O(k)$-bundle|8E37E74XVP]] over the Grassmannian.
+The map $V_k(\R^n) \to G_k(\R^n)$ that sends a frame to the subspace it spans is a [[principal $O(k)$-bundle|8E37E74XVP]] over the [[Grassmannian|CYPA882RB9]].
 Using these bundles one shows that $V_k(\R^n)$ is $(n - k - 1)$-connected; as $n \to \infty$, the bundle $V_k(\R^\infty) \to G_k(\R^\infty)$ becomes the [[universal bundle|1HDH716Z24]] for $O(k)$.
 
 ## Explanations

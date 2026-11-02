@@ -19,7 +19,7 @@ Check.
 $H$ is closed and bounded in $\R^2$, so it is compact.
 Each $C_n$ is path-connected and contains $0$, so $H$ is path-connected.
 Fix $n$ and let $r_n \colon H \to C_n$ be the identity on $C_n$ and send every other circle to $0$.
-This map is continuous, and it is a retraction onto $C_n$.
+This map is continuous, and it is a [[retraction|68PFSGP39B]] onto $C_n$.
 Let $\gamma_n$ be the loop that goes once around $C_n$.
 The map $r_n$ sends it to a generator of the [[fundamental group|S1XK3HXHFX]] $\pi_1(C_n) \cong \Z$, so $\gamma_n$ is not null-homotopic in $H$.
 Every neighbourhood of $0$ contains $C_n$ for all large $n$, so it contains loops at $0$ that are not null-homotopic in $H$.

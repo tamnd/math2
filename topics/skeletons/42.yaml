@@ -71,7 +71,7 @@ items:
   - {name: Khintchine inequality, kind: statement, wikipedia: Khintchine inequality, wikidata: Q6401711}
   - {name: trigonometric interpolation, kind: concept, wikipedia: Trigonometric interpolation, wikidata: Q464356}
   # Fourier transform
-  - {name: Fourier transform, kind: definition, decl: VectorFourier.fourierIntegral, wikipedia: Fourier transform, wikidata: Q6520159}
+  - {name: Fourier transform, kind: definition, decl: VectorFourier.fourierIntegral, wikipedia: Fourier transform, wikidata: Q6520159, node: DPVM34ADZV}
   - {name: inverse Fourier transform, kind: definition, wikipedia: Fourier inversion theorem, wikidata: Q3984053}
   - {name: Fourier inversion theorem, kind: statement, decl: MeasureTheory.Integrable.fourierInv_fourier_eq, wikipedia: Fourier inversion theorem, wikidata: Q3984053, mathlib: [mathlib-1000]}
   - {name: Plancherel theorem, kind: statement, decl: MeasureTheory.Lp.fourierTransformₗᵢ, wikipedia: Plancherel theorem, wikidata: Q2096184, mathlib: [mathlib-undergrad]}
@@ -80,7 +80,7 @@ items:
   - {name: differentiation and multiplication under the Fourier transform, kind: statement, decl: VectorFourier.fourierIntegral_fderiv, wikipedia: Fourier transform, wikidata: Q6520159}
   - {name: multiplication formula for the Fourier transform, kind: statement, decl: VectorFourier.integral_fourierIntegral_smul_eq_flip, wikipedia: Fourier transform, wikidata: Q6520159}
   - {name: Fourier transform on Schwartz space, kind: statement, wikipedia: Schwartz space, wikidata: Q1369621}
-  - {name: Poisson summation formula, kind: statement, decl: Real.tsum_eq_tsum_fourier, wikipedia: Poisson summation formula, wikidata: Q387743}
+  - {name: Poisson summation formula, kind: statement, decl: Real.tsum_eq_tsum_fourier, wikipedia: Poisson summation formula, wikidata: Q387743, node: GARGJYSGFG}
   - {name: Hausdorff–Young inequality, kind: statement, wikipedia: Hausdorff–Young inequality, wikidata: Q5682823}
   - {name: Babenko–Beckner inequality, kind: statement, wikipedia: Babenko–Beckner inequality, wikidata: Q4837774}
   - {name: Fourier–Stieltjes transform, kind: definition, wikipedia: Fourier transform, wikidata: Q6520159}
@@ -135,7 +135,7 @@ items:
   - {name: Calderón–Zygmund operator, kind: definition, wikipedia: Singular integral, wikidata: Q888122}
   - {name: Calderón–Zygmund theorem, kind: statement, wikipedia: Singular integral operators of convolution type, wikidata: Q7524241}
   - {name: Calderón–Zygmund decomposition, kind: statement, wikipedia: Calderón–Zygmund lemma, wikidata: Q1707076}
-  - {name: Hörmander condition, kind: definition, wikipedia: Singular integral operators of convolution type, wikidata: Q7524241}
+  - {name: Hörmander condition, kind: definition, wikipedia: Singular integral operators of convolution type, wikidata: Q7524241, node: 91RZ5YARTM}
   - {name: T(1) theorem, kind: statement, wikipedia: T(1) theorem, wikidata: Q7667741}
   - {name: Cotlar–Stein lemma, kind: statement, wikipedia: Cotlar–Stein lemma, wikidata: Q5175397}
   - {name: Cauchy integral on Lipschitz curves, kind: statement, wikipedia: Singular integral operators on closed curves, wikidata: Q7524243}
@@ -170,7 +170,7 @@ items:
   - {name: Coifman–Rochberg–Weiss commutator theorem, kind: statement, wikipedia: Bounded mean oscillation, wikidata: Q796341}
   # Function spaces in harmonic analysis
   - {name: Lorentz space, kind: definition, wikipedia: Lorentz space, wikidata: Q6680542, node: 3240RP14MT}
-  - {name: Triebel–Lizorkin space, kind: definition, wikipedia: Triebel–Lizorkin space, wikidata: Q7841428}
+  - {name: Triebel–Lizorkin space, kind: definition, wikipedia: Triebel–Lizorkin space, wikidata: Q7841428, node: TBNP6KYW4Z}
   - {name: Bessel potential space, kind: definition, wikipedia: Bessel potential, wikidata: Q4896404}
   - {name: Morrey–Campanato space, kind: definition, wikipedia: Morrey–Campanato space, wikidata: Q6913505}
   - {name: modulation space, kind: definition, wikipedia: Modulation space, wikidata: Q6889770}
@@ -179,9 +179,9 @@ items:
   - {name: mollifier, kind: definition, decl: ContDiffBump.normed, wikipedia: Mollifier, wikidata: Q2318637}
   - {name: approximation by convolution with mollifiers, kind: statement, decl: ContDiffBump.convolution_tendsto_right, wikipedia: Mollifier, wikidata: Q2318637, mathlib: [mathlib-undergrad, mathlib-overview]}
   # Harmonic analysis and PDE
-  - {name: Strichartz estimate, kind: statement, wikipedia: Strichartz estimate, wikidata: Q18393075}
+  - {name: Strichartz estimate, kind: statement, wikipedia: Strichartz estimate, wikidata: Q18393075, node: 4PDKJ8N1S9}
   - {name: dispersive estimate for the Schrödinger equation, kind: statement, wikipedia: Strichartz estimate, wikidata: Q18393075}
-  - {name: pseudo-differential operator, kind: definition, wikipedia: Pseudo-differential operator, wikidata: Q1644451}
+  - {name: pseudo-differential operator, kind: definition, wikipedia: Pseudo-differential operator, wikidata: Q1644451, node: FF27N0BWTP}
   - {name: Calderón–Vaillancourt theorem, kind: statement, wikipedia: Pseudo-differential operator, wikidata: Q1644451}
   # Almost periodic and positive definite functions
   - {name: almost periodic function, kind: definition, wikipedia: Almost periodic function, wikidata: Q1066983}
@@ -217,7 +217,7 @@ items:
   - {name: Walsh–Hadamard transform, kind: definition, wikipedia: Hadamard transform, wikidata: Q1014065}
   - {name: Haar system, kind: definition, wikipedia: Haar wavelet, wikidata: Q766198}
   # Frames and time-frequency analysis
-  - {name: frame, kind: definition, wikipedia: Frame (linear algebra), wikidata: Q194737}
+  - {name: frame, kind: definition, wikipedia: Frame (linear algebra), wikidata: Q194737, node: 306PWGH7BF}
   - {name: tight frame, kind: definition, wikipedia: Frame (linear algebra), wikidata: Q194737}
   - {name: frame operator, kind: definition, wikipedia: Frame (linear algebra), wikidata: Q194737}
   - {name: time–frequency analysis, kind: concept, wikipedia: Time–frequency analysis, wikidata: Q7806653}

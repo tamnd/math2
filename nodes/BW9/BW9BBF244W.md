@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $\mathbb{K}$ be $\R$ or $\C$, and let $E$ be a topological vector space over $\mathbb{K}$.
+Let $\mathbb{K}$ be $\R$ or $\C$, and let $E$ be a [[topological vector space|T32W553W95]] over $\mathbb{K}$.
 $E$ is *locally convex* if every [[neighbourhood|0ZCY0Z80B6]] of $0$ in $E$ contains a [[convex|02AS45T3H9]] neighbourhood of $0$.
 
 ## Remarks

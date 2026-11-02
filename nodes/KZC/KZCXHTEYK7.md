@@ -9,7 +9,7 @@ sources:
 
 ## Summary
 
-A Quillen equivalence is a Quillen adjunction between two model categories that induces an equivalence of their homotopy categories.
+A Quillen [[equivalence|K7A04ZBD92]] is a [[Quillen adjunction|SY38F954FE]] between two [[model categories|SDTZVZ6B4Q]] that induces an equivalence of their homotopy categories.
 It is the right notion of "same homotopy theory" for model categories.
 The basic example is the adjunction between simplicial sets and topological spaces given by geometric realization and the singular complex.
 It shows that both categories model the same homotopy theory of spaces.

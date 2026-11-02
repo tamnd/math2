@@ -39,6 +39,6 @@ It is like walking diagonally by taking many small steps east and north in turn.
 ### L2 human
 
 The formula is the basis of splitting methods: to solve $x' = (A + B)x$, one alternates the flows of $x' = Ax$ and $x' = Bx$, which may be easier to compute.
-In a Lie group it shows that the sum in the Lie algebra corresponds to a limit of products in the group.
+In a [[Lie group|7JBRGCVJRB]] it shows that the sum in the Lie algebra corresponds to a limit of products in the group.
 Trotter extended it to certain unbounded operators on Hilbert spaces, where it is called the Trotter product formula.
 It is a key step in the proof of the [[Golden–Thompson inequality|Z7R754JC7N]].

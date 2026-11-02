@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $K$ be a [[field|0QA8CHH8MG]] and let $\Gamma$ be a totally ordered [[abelian group|071DDFVG4J]], written additively.
+Let $K$ be a [[field|0QA8CHH8MG]] and let $\Gamma$ be a [[totally ordered|P2E8BNYC7B]] [[abelian group|071DDFVG4J]], written additively.
 Add to $\Gamma$ a symbol $\infty$ with $\gamma < \infty$ and $\gamma + \infty = \infty + \gamma = \infty + \infty = \infty$ for all $\gamma \in \Gamma$.
 A *valuation* on $K$ with values in $\Gamma$ is a map $v \colon K \to \Gamma \cup \set{\infty}$ such that:
 

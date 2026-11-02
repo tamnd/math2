@@ -24,7 +24,7 @@ $$f_1 g_1 + \cdots + f_n g_n = 1 \quad \text{on } \mathbb{D}.$$
 ## Remarks
 
 The hypothesis is necessary: if $\sum f_j g_j = 1$ with $\abs{g_j} \le C$, then $\sum \abs{f_j} \ge 1/C$ on $\mathbb{D}$.
-The theorem is equivalent to the density of $\mathbb{D}$ in the space of [[maximal ideals|09J6KGT65G]] of the Banach algebra $H^\infty$.
+The theorem is equivalent to the density of $\mathbb{D}$ in the space of [[maximal ideals|09J6KGT65G]] of the [[Banach algebra|9KYWN94QDN]] $H^\infty$.
 Here $z \in \mathbb{D}$ corresponds to the ideal of functions vanishing at $z$.
 The name comes from this picture: without the theorem, there could be a "corona" of maximal ideals away from the closure of the disc.
 

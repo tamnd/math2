@@ -11,10 +11,10 @@ sources:
 
 ## Definition
 
-Let $n \ge 1$, let $\mathcal{S}(\R^n)$ be the Schwartz space, and let $\mathcal{S}'(\R^n)$ be the space of tempered distributions.
+Let $n \ge 1$, let $\mathcal{S}(\R^n)$ be the [[Schwartz space|CG9JEATW3Q]], and let $\mathcal{S}'(\R^n)$ be the space of [[tempered distributions|AES2T5JPFP]].
 For $\varphi \in \mathcal{S}(\R^n)$, let
 $$\mathcal{F}\varphi(\xi) = \int_{\R^n} \varphi(x)\, e^{-2\pi i x \cdot \xi}\, dx$$
-be its Fourier transform.
+be its [[Fourier transform|DPVM34ADZV]].
 For $T \in \mathcal{S}'(\R^n)$, the *Fourier transform* $\mathcal{F}T$ is the tempered distribution given by
 $$\langle \mathcal{F}T, \varphi \rangle = \langle T, \mathcal{F}\varphi \rangle \quad \text{for all } \varphi \in \mathcal{S}(\R^n).$$
 

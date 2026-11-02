@@ -206,7 +206,7 @@ items:
   - {name: put–call parity, kind: statement, wikipedia: Put–call parity, wikidata: Q1183706}
   - {name: binomial options pricing model, kind: definition, wikipedia: Binomial options pricing model, wikidata: Q1138253}
   - {name: Black–Scholes model, kind: definition, wikipedia: Black–Scholes model, wikidata: Q1338307}
-  - {name: Black–Scholes equation, kind: definition, wikipedia: Black–Scholes equation, wikidata: Q17005676}
+  - {name: Black–Scholes equation, kind: definition, wikipedia: Black–Scholes equation, wikidata: Q17005676, node: ZFTNJ2YREG}
   - {name: Greeks, kind: definition, wikipedia: Greeks (finance), wikidata: Q1321169}
   - {name: implied volatility, kind: definition, wikipedia: Implied volatility, wikidata: Q1660345}
   - {name: volatility smile, kind: concept, wikipedia: Volatility smile, wikidata: Q915788}

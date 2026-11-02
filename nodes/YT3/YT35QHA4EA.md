@@ -31,4 +31,4 @@ Clause 1 holds, but every function $(s, t) \mapsto f(st) g(t)$ is constant in $s
 This property passes to linear combinations and uniform limits, so the span is not dense, and clause 2 fails.
 
 For commutative $A$, every compact quantum group is of the form $C(G)$ for a compact group $G$.
-Every compact quantum group has a unique state $h$, the Haar state, with $(h \otimes \id)\Delta(a) = (\id \otimes h)\Delta(a) = h(a) 1$ for all $a \in A$; it plays the role of the Haar measure.
+Every compact quantum group has a unique state $h$, the Haar state, with $(h \otimes \id)\Delta(a) = (\id \otimes h)\Delta(a) = h(a) 1$ for all $a \in A$; it plays the role of the [[Haar measure|VY0HXD3GC4]].

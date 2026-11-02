@@ -45,5 +45,5 @@ So questions about these manifolds can be turned into questions about polytopes.
 ### L2 human
 
 The theorem gives a dictionary: faces of the polytope correspond to orbit closures, and vertices to fixed points of the torus.
-Every symplectic toric manifold has a compatible complex structure that makes it a smooth toric variety.
+Every symplectic toric manifold has a compatible complex structure that makes it a smooth [[toric variety|YWB981MEF2]].
 Rational simple polytopes with a positive integer label on each facet correspond in the same way to toric orbifolds, by work of Lerman and Tolman.

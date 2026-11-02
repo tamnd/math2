@@ -12,7 +12,7 @@ sources:
 ## Definition
 
 Let $X$ be a topological space.
-The *fundamental groupoid* $\Pi_1(X)$ is the category in which:
+The *fundamental [[groupoid|FH3C0T643F]]* $\Pi_1(X)$ is the [[category|A2DE66937D]] in which:
 
 1. the objects are the points of $X$;
 2. a morphism from $x$ to $y$ is a [[path homotopy|CCNKA8C711]] class $[\gamma]$ of paths $\gamma \colon [0, 1] \to X$ with $\gamma(0) = x$ and $\gamma(1) = y$;

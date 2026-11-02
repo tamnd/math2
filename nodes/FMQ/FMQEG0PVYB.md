@@ -11,10 +11,10 @@ sources:
 
 ## Definition
 
-Let $X$ be a compact [[Riemann surface|5K0N8QMV6Q]] of genus $g \ge 1$.
+Let $X$ be a compact [[Riemann surface|5K0N8QMV6Q]] of [[genus|6W8TDV9VVN]] $g \ge 1$.
 Let $\omega_1, \ldots, \omega_g$ be a basis of the space of holomorphic [[Abelian differentials|P014C13K5H]] on $X$.
 Let $\Lambda \subset \C^g$ be the set of vectors $\left( \int_\gamma \omega_1, \ldots, \int_\gamma \omega_g \right)$, where $\gamma$ runs over the closed loops in $X$.
-Then $\Lambda$ is a lattice of rank $2g$ in $\C^g$, and $J(X) = \C^g / \Lambda$ is the Jacobian variety of $X$.
+Then $\Lambda$ is a lattice of rank $2g$ in $\C^g$, and $J(X) = \C^g / \Lambda$ is the [[Jacobian variety|ZQ84M9D9TC]] of $X$.
 Fix a base point $P_0 \in X$.
 The *Abel–Jacobi map* is
 $$A \colon X \to J(X), \qquad A(P) = \left( \int_{P_0}^{P} \omega_1, \ldots, \int_{P_0}^{P} \omega_g \right) \bmod \Lambda,$$
@@ -26,7 +26,7 @@ It extends to divisors by $A\left( \sum_i n_i P_i \right) = \sum_i n_i A(P_i)$.
 The map is well defined: two paths from $P_0$ to $P$ differ by a closed loop, which changes the vector of integrals by an element of $\Lambda$.
 On divisors of degree $0$ the result does not depend on $P_0$.
 
-Example: let $X = \C / \Lambda'$ be a complex torus with $g = 1$ and $\omega_1 = dz$.
+Example: let $X = \C / \Lambda'$ be a [[complex torus|Y7MA6KBE9M]] with $g = 1$ and $\omega_1 = dz$.
 The integral from $P_0$ to $P$ is $P - P_0$ modulo the periods of $dz$, which form $\Lambda'$.
 So $A(P) = P - P_0$ is an isomorphism from $X$ onto $J(X) = \C / \Lambda'$.
 

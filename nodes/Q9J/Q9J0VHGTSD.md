@@ -12,7 +12,7 @@ sources:
 ## Definition
 
 Let $\mathcal{C}$ be a modular tensor category.
-An example is the category of tilting representations of the quantum group $U_q(\mathfrak{sl}_2)$ at a root of unity $q$, modulo negligible morphisms.
+An example is the category of tilting representations of the [[quantum group|AP2ZDXANKC]] $U_q(\mathfrak{sl}_2)$ at a root of unity $q$, modulo negligible morphisms.
 The Reshetikhin–Turaev functor of $\mathcal{C}$ assigns a number $\langle L \rangle$ to each framed link $L$ in $S^3$ whose components are colored by objects of $\mathcal{C}$.
 
 The *quantum invariant* $\tau_{\mathcal{C}}(M)$ of a closed oriented [[3-manifold|R20TB2KEQQ]] $M$ is obtained as follows.

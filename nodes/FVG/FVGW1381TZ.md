@@ -12,7 +12,7 @@ sources:
 
 ## Statement
 
-Let $\gamma_0$ be a smooth embedded closed plane curve that encloses area $A_0$.
+Let $\gamma_0$ be a smooth embedded closed [[plane curve|EWS4WFTA7W]] that encloses area $A_0$.
 Then the [[curve-shortening flow|DVGFRRYK10]] with initial curve $\gamma_0$ has a unique smooth solution $(\gamma_t)_{0 \le t < T}$ with $T = A_0 / (2\pi)$, and:
 
 1. each $\gamma_t$ is embedded;

@@ -11,7 +11,7 @@ sources:
 
 Homology with coefficients in an abelian group $G$ is [[singular homology|M0Q5CFJ7ZH]] computed with chains whose coefficients lie in $G$ instead of $\Z$.
 Coefficients in a field such as $\Q$ or $\Z/p$ give vector spaces, which are easier to handle, and coefficients in $\Z/2$ remove all sign questions.
-The universal coefficient theorem recovers the homology with any coefficients from the integral homology.
+The [[universal coefficient theorem|GTA8ZFGZ3N]] recovers the homology with any coefficients from the integral homology.
 
 ## Explanations
 

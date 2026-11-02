@@ -9,7 +9,7 @@ sources:
 
 ## Summary
 
-The C* identity is the condition $\norm{a^* a} = \norm{a}^2$ on a Banach algebra with an involution.
+The C* identity is the condition $\norm{a^* a} = \norm{a}^2$ on a Banach algebra with an [[involution|GP56NBN9RY]].
 A Banach $*$-algebra whose norm satisfies it is a C*-algebra.
 This one equation ties the norm to the algebra so tightly that the algebraic structure determines the norm.
 Indeed, $\norm{a}$ is the square root of the spectral radius of $a^* a$.

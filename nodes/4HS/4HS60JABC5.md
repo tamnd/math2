@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-The Fukaya category of a symplectic manifold is an algebraic structure whose objects are [[Lagrangian submanifolds|H8ACPTMX08]] and whose morphisms are Lagrangian [[Floer|NCKFPAGHXF]] cochain complexes.
+The Fukaya [[category|A2DE66937D]] of a symplectic manifold is an algebraic structure whose objects are [[Lagrangian submanifolds|H8ACPTMX08]] and whose morphisms are Lagrangian [[Floer|NCKFPAGHXF]] cochain complexes.
 Its composition laws count [[pseudoholomorphic|N469E47V75]] polygons with boundary on the Lagrangians.
 Composition is associative only up to homotopy, so it is an $A_\infty$-category rather than an ordinary category.
 It was introduced by Kenji Fukaya and is one side of [[homological mirror symmetry|B5N9WJH5F0]].

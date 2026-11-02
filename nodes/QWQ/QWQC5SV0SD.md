@@ -12,7 +12,7 @@ sources:
 
 ## Statement
 
-Let $A$ be a Banach algebra over the [[complex numbers|09FTAET5Z4]] with unit $1 \ne 0$.
+Let $A$ be a [[Banach algebra|9KYWN94QDN]] over the [[complex numbers|09FTAET5Z4]] with unit $1 \ne 0$.
 For $a \in A$, let $\sigma(a) = \set{\lambda \in \C : a - \lambda 1 \text{ is not invertible in } A}$ be the [[spectrum|EH0CZ19RKP]] of $a$.
 Then $\sigma(a)$ is nonempty for every $a \in A$.
 

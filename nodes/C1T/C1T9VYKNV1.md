@@ -13,7 +13,7 @@ sources:
 
 Let $G$ be a discrete group.
 The *orbit category* $\mathcal{O}_G$ has as objects the left $G$-sets $G/H$ for subgroups $H \le G$, and as morphisms the $G$-equivariant maps.
-A *coefficient system* is a contravariant functor $M \colon \mathcal{O}_G \to \mathrm{Ab}$ to [[abelian groups|082GHNPJ53]].
+A *coefficient system* is a contravariant [[functor|28NQ0KRHD3]] $M \colon \mathcal{O}_G \to \mathrm{Ab}$ to [[abelian groups|082GHNPJ53]].
 
 Let $X$ be a $G$-CW complex, that is, a [[CW complex|5W95QFHXPR]] with a cellular [[action|0WCY42EV9V]] of $G$.
 It is required that each element of $G$ that maps a cell to itself fixes that cell pointwise.
@@ -23,7 +23,7 @@ A $G$-map $G/H \to G/K$ with $H \mapsto gK$ acts by $C_n(X^K) \to C_n(X^H)$, $c 
 The cellular boundary maps make $\underline{C}_\bullet(X)$ a chain complex of functors.
 The *Bredon cochain complex* is
 $$C^n_G(X; M) = \operatorname{Nat}(\underline{C}_n(X), M),$$
-the group of natural transformations, with coboundary induced by the boundary of $\underline{C}_\bullet(X)$.
+the group of [[natural transformations|KYCPCC57FT]], with coboundary induced by the boundary of $\underline{C}_\bullet(X)$.
 The *Bredon cohomology* $H^n_G(X; M)$ is the $n$-th cohomology of $C^\bullet_G(X; M)$.
 
 ## Remarks

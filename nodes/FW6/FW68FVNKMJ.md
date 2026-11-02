@@ -15,7 +15,7 @@ Let $L/K$ be a [[field extension|0WQ1A8SHTZ]], and let $G = \Aut(L/K)$ be the gr
 Let $\mathcal{S}$ be the set of subgroups of $G$ and let $\mathcal{F}$ be the set of [[intermediate fields|02NBKVQFRQ]] of $L/K$, both ordered by inclusion.
 For $H \in \mathcal{S}$, let $L^H = \set{x \in L : \sigma(x) = x \text{ for all } \sigma \in H}$ be the [[fixed field|0KMJ6919WS]] of $H$.
 For $E \in \mathcal{F}$, let $\Aut(L/E) = \set{\sigma \in G : \sigma(x) = x \text{ for all } x \in E}$.
-The *Galois connection between subgroups and subfields* of $L/K$ is the pair of maps
+The *[[Galois connection|Q5JHEPRYQ6]] between subgroups and subfields* of $L/K$ is the pair of maps
 $$\mathcal{S} \to \mathcal{F},\ H \mapsto L^H \qquad \text{and} \qquad \mathcal{F} \to \mathcal{S},\ E \mapsto \Aut(L/E).$$
 It is an antitone Galois connection: for all $H \in \mathcal{S}$ and $E \in \mathcal{F}$,
 $$E \subseteq L^H \iff H \subseteq \Aut(L/E).$$

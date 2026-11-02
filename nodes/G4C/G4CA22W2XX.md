@@ -21,7 +21,7 @@ The pair is a *Banach lattice* if the following hold.
 
 ## Remarks
 
-Clauses 1 to 3 say that $E$ is a Riesz space, and clause 4 says that the norm is a lattice norm.
+Clauses 1 to 3 say that $E$ is a [[Riesz space|99709K2NJM]], and clause 4 says that the norm is a lattice norm.
 
 Example: $C(K)$ for a compact Hausdorff space $K$, with $f \le g$ when $f(t) \le g(t)$ for all $t \in K$.
 Clauses 1 and 2 are clear, and $f \vee g$ is the pointwise maximum, which is continuous.

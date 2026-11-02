@@ -38,7 +38,7 @@ Let $C^\infty(U)[\![\hbar]\!]$ be the space of [[formal power series|033WGN00BF]
 Extend the following product $\hbar$-bilinearly to it:
 $$f \star g = \sum_{n \ge 0} \hbar^n \sum_{\Gamma \in G_n} w_\Gamma \, B_\Gamma(f, g).$$
 Then $\star$ is associative, and $f \star g = fg + \hbar \{f, g\} + O(\hbar^2)$.
-So $\star$ is a deformation quantization of $(U, \pi)$.
+So $\star$ is a [[deformation quantization|3MKSJ1J04K]] of $(U, \pi)$.
 
 ## Remarks
 

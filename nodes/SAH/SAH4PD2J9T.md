@@ -19,7 +19,7 @@ Let $G$ be a finite [[group|G5S1M9]], let $N$ be a [[normal subgroup|0CB0DX5BVV]
 Let $V$ be an [[irreducible|FX3NEFYFFN]] [[representation|WYGRXCG2RN]] of $G$ over $F$ of finite dimension.
 For a representation $W$ of $N$ and $g \in G$, the conjugate ${}^g W$ is the space $W$ with $n \in N$ acting as $g^{-1} n g$ acts on $W$.
 
-1. The restriction $V|_N$ is a semisimple representation of $N$. There are an irreducible representation $W$ of $N$, an integer $e \ge 1$ and elements $g_1, \ldots, g_t \in G$ with $V|_N \cong e \, ({}^{g_1}W \oplus \cdots \oplus {}^{g_t}W)$. The ${}^{g_i}W$ are pairwise non-isomorphic, and every $G$-conjugate of $W$ is isomorphic to one of them.
+1. The restriction $V|_N$ is a [[semisimple|N3MRHDKDGC]] representation of $N$. There are an irreducible representation $W$ of $N$, an integer $e \ge 1$ and elements $g_1, \ldots, g_t \in G$ with $V|_N \cong e \, ({}^{g_1}W \oplus \cdots \oplus {}^{g_t}W)$. The ${}^{g_i}W$ are pairwise non-isomorphic, and every $G$-conjugate of $W$ is isomorphic to one of them.
 2. Let $T = \set{g \in G : {}^g W \cong W}$, the inertia group of $W$, and let $U$ be the sum of the subrepresentations of $V|_N$ isomorphic to $W$. Then $U$ is invariant under $T$, $U$ is an irreducible representation of $T$, $t = [G : T]$, and $V \cong \operatorname{Ind}_T^G U$.
 
 ## Remarks

@@ -22,4 +22,4 @@ This node is about the first meaning.
 In a field one can add, subtract, multiply and divide by any nonzero element, and multiplication is associative and commutative.
 A semifield keeps addition, subtraction and division, and the two distributive laws, but drops the rule $(ab)c = a(bc)$.
 Every field and every division ring is a semifield.
-The octonions, an eight-dimensional algebra over the real numbers, are a semifield whose multiplication is not associative.
+The [[octonions|1HRMT3DSX2]], an eight-dimensional algebra over the real numbers, are a semifield whose multiplication is not associative.

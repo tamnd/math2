@@ -12,7 +12,7 @@ sources:
 
 ## Statement
 
-Let $\mathcal{O}$ be an [[$E_\infty$ operad|T78YG90VVT]], and let $X$ be an $\mathcal{O}$-algebra in spaces, with the homotopy type of a CW complex.
+Let $\mathcal{O}$ be an [[$E_\infty$ operad|T78YG90VVT]], and let $X$ be an [[$\mathcal{O}$-algebra|ES9YATDWA3]] in spaces, with the homotopy type of a CW complex.
 Suppose $X$ is grouplike: the monoid $\pi_0(X)$, with the product induced by any binary operation of $\mathcal{O}$, is a group.
 Then $X$ is weakly equivalent to an [[infinite loop space|A7VB2NSGJ2]].
 More precisely, there is a connective $\Omega$-spectrum $E$ with $E_0$ [[weakly equivalent|4Q3WY1RX91]] to $X$, and this equivalence is compatible with the $\mathcal{O}$-structures.
