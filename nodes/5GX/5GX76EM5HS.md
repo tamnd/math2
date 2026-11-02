@@ -1,5 +1,5 @@
 ---
-tag: ~7adb0035
+tag: 5GX76EM5HS
 kind: statement
 role: lemma
 name: Strichartz estimates in Lorentz space
