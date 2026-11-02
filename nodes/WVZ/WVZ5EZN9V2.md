@@ -28,7 +28,7 @@ The idea of the proof: both statements are first checked on $\mathbb{P}^n$, by c
 For a general coherent sheaf one uses that it has a resolution by sums of sheaves $\mathcal{O}(d)$, together with Serre's theorems on twisting and induction on dimension.
 
 Example: by part 2 applied to ideal sheaves, every closed analytic subset of $\mathbb{P}^n_\C$ is algebraic; this is Chow's theorem.
-In particular, every compact complex manifold that embeds holomorphically in $\mathbb{P}^n_\C$ is a projective algebraic variety, and every holomorphic map between projective varieties is algebraic.
+In particular, every compact [[complex manifold|JSGWAN2RJV]] that embeds holomorphically in $\mathbb{P}^n_\C$ is a projective algebraic variety, and every holomorphic map between projective varieties is algebraic.
 
 The properness of $X$ is essential.
 On $X = \mathbb{A}^1_\C$, the holomorphic function $e^z$ is a global section of $\mathcal{O}_{X^{an}}$ that is not a polynomial.

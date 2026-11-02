@@ -92,7 +92,7 @@ items:
   - {name: Gauss's test, kind: statement, wikipedia: Ratio test, wikidata: Q165638, node: A7MJXJERNY}
   - {name: Kummer's test, kind: statement, wikipedia: Ratio test, wikidata: Q165638, node: 9JQEWK5405}
   - {name: Bertrand's test, kind: statement, wikipedia: Ratio test, wikidata: Q165638, node: 6T3E3AXZT7}
-  - {name: summation by parts, kind: statement, decl: Finset.sum_range_by_parts, wikipedia: Summation by parts, wikidata: Q318754}
+  - {name: summation by parts, kind: statement, decl: Finset.sum_range_by_parts, wikipedia: Summation by parts, wikidata: Q318754, node: 9G82Z17DKA}
   - {name: Abel's summation formula, kind: statement, decl: sum_mul_eq_sub_integral_mul, wikipedia: Abel's summation formula, wikidata: Q1659643, node: V5EPT2PX9Z}
   - {name: Euler–Maclaurin formula, kind: statement, wikipedia: Euler–Maclaurin formula, wikidata: Q282023, node: 9P839VB8S7}
   - {name: Kronecker's lemma, kind: statement, wikipedia: Kronecker's lemma, wikidata: Q911141, node: HNCY0067F1}

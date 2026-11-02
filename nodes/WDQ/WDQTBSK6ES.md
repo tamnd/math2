@@ -22,4 +22,4 @@ The matrix $f(A)$ is always a polynomial in $A$, so it commutes with $A$.
 Example: $f(z) = 1/(1 - z) = \sum_k z^k$ has $R = 1$, and $N = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$ has $\rho(N) = 0$.
 Since $N^2 = 0$, $f(N) = I + N$, and indeed $(I - N)(I + N) = I - N^2 = I$.
 Non-example: for the same $f$ and $A = 2I$, $\rho(A) = 2 > 1$, and the series $\sum_k 2^k I$ diverges.
-For $f$ holomorphic near the spectrum of $A$, the Cauchy integral or the Jordan form gives a more general definition; see the holomorphic functional calculus.
+For $f$ holomorphic near the spectrum of $A$, the Cauchy integral or the Jordan form gives a more general definition; see the [[holomorphic functional calculus|YFKA3KVTGR]].

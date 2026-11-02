@@ -51,7 +51,7 @@ items:
   - {name: Ackermann's formula, kind: statement, wikipedia: Ackermann's formula, wikidata: Q42417197}
   - {name: state observer, kind: definition, wikipedia: State observer, wikidata: Q818544}
   - {name: Luenberger observer, kind: definition, wikipedia: State observer, wikidata: Q818544}
-  - {name: separation principle, kind: statement, wikipedia: Separation principle, wikidata: Q2271572}
+  - {name: separation principle, kind: statement, wikipedia: Separation principle, wikidata: Q2271572, node: TMEKPXMC7V}
   - {name: PID controller, kind: definition, wikipedia: PID controller, wikidata: Q716829}
   - {name: lead–lag compensator, kind: definition, wikipedia: Lead–lag compensator, wikidata: Q6508813}
   - {name: Smith predictor, kind: definition, wikipedia: Smith predictor, wikidata: Q7545392}
@@ -59,10 +59,10 @@ items:
   - {name: minimum phase system, kind: definition, wikipedia: Minimum phase, wikidata: Q489593}
   - {name: zeros and poles of a system, kind: definition, wikipedia: Zeros and poles, wikidata: Q899731}
   # Discrete-time, sampled and hybrid systems
-  - {name: Z-transform, kind: definition, wikipedia: Z-transform, wikidata: Q135810}
+  - {name: Z-transform, kind: definition, wikipedia: Z-transform, wikidata: Q135810, node: 5FY0JQGHYZ}
   - {name: zero-order hold, kind: definition, wikipedia: Zero-order hold, wikidata: Q2907060}
   - {name: discretization of linear systems, kind: statement, wikipedia: Discretization, wikidata: Q17007827}
-  - {name: final value theorem, kind: statement, wikipedia: Final value theorem, wikidata: Q4272645}
+  - {name: final value theorem, kind: statement, wikipedia: Final value theorem, wikidata: Q4272645, node: BDHADVMJ8G}
   - {name: hybrid system, kind: definition, wikipedia: Hybrid system, wikidata: Q2665508, node: 1EW58ZYR8Y}
   - {name: switched system, kind: definition, wikipedia: Hybrid system, wikidata: Q2665508}
   - {name: descriptor system, kind: definition, wikipedia: Differential-algebraic system of equations, wikidata: Q955889}
@@ -87,7 +87,7 @@ items:
   - {name: Routh–Hurwitz stability criterion, kind: statement, wikipedia: Routh–Hurwitz stability criterion, wikidata: Q2621270, node: KJF8Y19BNV}
   - {name: Routh–Hurwitz theorem, kind: statement, wikipedia: Routh–Hurwitz theorem, wikidata: Q4455015}
   - {name: Liénard–Chipart criterion, kind: statement, wikipedia: Liénard–Chipart criterion, wikidata: Q17098836}
-  - {name: Jury stability criterion, kind: statement, wikipedia: Jury stability criterion, wikidata: Q3697760}
+  - {name: Jury stability criterion, kind: statement, wikipedia: Jury stability criterion, wikidata: Q3697760, node: VGV9FAPCHN}
   - {name: Kharitonov's theorem, kind: statement, wikipedia: Kharitonov's theorem, wikidata: Q6400676}
   - {name: Lyapunov criterion for Hurwitz matrices, kind: statement, wikipedia: Lyapunov equation, wikidata: Q1028945}
   - {name: stability radius, kind: definition, wikipedia: Stability radius, wikidata: Q7595729}

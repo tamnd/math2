@@ -24,7 +24,7 @@ With respect to the orthonormal basis $e_n(t) = e^{int}$, $n \ge 0$, its matrix 
 If $\varphi$ is continuous and has no zeros on $\mathbb{T}$, then $T_\varphi$ is a [[Fredholm operator|8HWGKWD6ZM]] whose index is minus the winding number of $\varphi$ around $0$.
 
 Example: $\varphi(e^{it}) = e^{it}$.
-For $f \in H^2$ the product $\varphi f$ has no negative Fourier coefficients, so $P(\varphi f) = \varphi f$ and $T_\varphi$ is the shift operator $f \mapsto z f$.
+For $f \in H^2$ the product $\varphi f$ has no negative Fourier coefficients, so $P(\varphi f) = \varphi f$ and $T_\varphi$ is the [[shift operator|MBK6AE6734]] $f \mapsto z f$.
 
 Non-example: for $\varphi(e^{it}) = e^{-it}$, plain multiplication by $\varphi$ does not map $H^2$ into itself, since it sends $1$ to $e^{-it} \notin H^2$.
 So the projection $P$ in the definition cannot be omitted; the Toeplitz operator $T_\varphi$ is the backward shift.

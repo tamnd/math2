@@ -24,7 +24,7 @@ The tension field is a section of $u^* TN$ and does not depend on the coordinate
 Let $M$ be compact.
 Then $u$ is harmonic if and only if it is a critical point of the energy
 $$E(u) = \frac{1}{2} \int_M \abs{du}^2 \, dV_g, \qquad \abs{du}^2 = \sum g^{ij} h_{\alpha\beta}(u) \, \partial_i u^\alpha \, \partial_j u^\beta,$$
-which generalizes the Dirichlet energy; indeed $-\tau(u)$ is the gradient of $E$.
+which generalizes the [[Dirichlet energy|YG3W8CBB3E]]; indeed $-\tau(u)$ is the gradient of $E$.
 
 Example: let $N = \R$; then $\Gamma = 0$ and $u$ is harmonic if and only if $\Delta_g u = 0$.
 Let $M$ be an interval with its standard metric; then $\tau(u) = 0$ is the geodesic equation, so harmonic maps from an interval are constant-speed geodesics.

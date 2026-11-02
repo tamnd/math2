@@ -138,7 +138,7 @@ items:
   - {name: Anderson localization, kind: statement, wikipedia: Anderson localization, wikidata: Q491409}
   - {name: quantum chaos, kind: concept, wikipedia: Quantum chaos, wikidata: Q1502341}
   - {name: quantum ergodicity theorem, kind: statement, wikipedia: Quantum ergodicity, wikidata: Q7269044}
-  - {name: quantum unique ergodicity conjecture, kind: conjecture, wikipedia: Quantum ergodicity, wikidata: Q7269044}
+  - {name: quantum unique ergodicity conjecture, kind: conjecture, wikipedia: Quantum ergodicity, wikidata: Q7269044, node: F3EB7WZFAC}
   # Symmetries, angular momentum and identical particles
   - {name: symmetry in quantum mechanics, kind: concept, wikipedia: Symmetry in quantum mechanics, wikidata: Q16726095}
   - {name: angular momentum operator, kind: definition, wikipedia: Angular momentum operator, wikidata: Q1190143}

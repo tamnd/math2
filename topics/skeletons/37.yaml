@@ -143,7 +143,7 @@ items:
   - {name: Sinai billiard, kind: example, wikipedia: Dynamical billiards, wikidata: Q2903467, node: GX9Q2PYNZE}
   - {name: Bunimovich stadium, kind: example, wikipedia: Dynamical billiards, wikidata: Q2903467, node: YYB1JP7TWJ}
   - {name: Lorenz system, kind: example, wikipedia: Lorenz system, wikidata: Q899844, node: WYRC41CQN9}
-  - {name: Hénon map, kind: example, wikipedia: Hénon map, wikidata: Q1642961}
+  - {name: Hénon map, kind: example, wikipedia: Hénon map, wikidata: Q1642961, node: KS4FJ6H5JH}
   - {name: Smale's fourteenth problem, kind: problem, wikipedia: Lorenz system, wikidata: Q899844, node: VDVQD2HFSD}
   # Low-dimensional dynamics
   - {name: circle map, kind: definition, wikipedia: Arnold tongue, wikidata: Q2040587, node: N2SVK69S53}

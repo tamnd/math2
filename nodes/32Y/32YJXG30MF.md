@@ -15,7 +15,7 @@ same_as:
 Hodge theory studies the cohomology of smooth manifolds through harmonic differential forms.
 For complex algebraic varieties, it studies the extra structure that harmonic forms put on cohomology.
 On a compact Riemannian manifold, the [[Hodge theorem|A127WFVYKW]] identifies [[de Rham cohomology|GX74C07T0G]] with the space of harmonic forms.
-On a compact Kähler manifold, harmonic forms split by type, which gives the [[Hodge decomposition|HABCJ4Y0SR]] and a [[Hodge structure|ZSM083M97C]] on each cohomology group.
+On a compact [[Kähler manifold|X60JG9AEQJ]], harmonic forms split by type, which gives the [[Hodge decomposition|HABCJ4Y0SR]] and a [[Hodge structure|ZSM083M97C]] on each cohomology group.
 The theory gives strong topological restrictions on algebraic varieties and leads to deep open problems such as the [[Hodge conjecture|XAEEDWV3PM]].
 
 ## Explanations

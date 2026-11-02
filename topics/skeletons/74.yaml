@@ -73,9 +73,9 @@ items:
   - {name: Mooney–Rivlin solid, kind: example, wikipedia: Mooney–Rivlin solid, wikidata: Q6907763}
   - {name: Ogden hyperelastic model, kind: example, wikipedia: Ogden hyperelastic model, wikidata: Q7079901}
   - {name: Saint Venant–Kirchhoff model, kind: example, wikipedia: Hyperelastic material, wikidata: Q3801506}
-  - {name: polyconvexity, kind: definition, wikipedia: Polyconvex function, wikidata: Q7226241}
-  - {name: Ball's existence theorem in nonlinear elasticity, kind: statement, wikipedia: Polyconvex function, wikidata: Q7226241}
-  - {name: rank-one convexity, kind: definition, wikipedia: Polyconvex function, wikidata: Q7226241}
+  - {name: polyconvexity, kind: definition, wikipedia: Polyconvex function, wikidata: Q7226241, node: 8VYYWQ5CMB}
+  - {name: Ball's existence theorem in nonlinear elasticity, kind: statement, wikipedia: Polyconvex function, wikidata: Q7226241, node: 269C7M56G5}
+  - {name: rank-one convexity, kind: definition, wikipedia: Polyconvex function, wikidata: Q7226241, node: GK4P8G0PB2}
   - {name: Ericksen's problem of universal deformations, kind: problem, wikipedia: Hyperelastic material, wikidata: Q3801506}
   # Plasticity
   - {name: plasticity, kind: concept, wikipedia: Plasticity (physics), wikidata: Q472074}
@@ -132,7 +132,7 @@ items:
   - {name: Cremona diagram, kind: concept, wikipedia: Cremona diagram, wikidata: Q1139590}
   - {name: contact mechanics, kind: concept, wikipedia: Contact mechanics, wikidata: Q1783143}
   - {name: Hertzian contact stress, kind: statement, wikipedia: Contact mechanics, wikidata: Q1783143}
-  - {name: Signorini problem, kind: problem, wikipedia: Signorini problem, wikidata: Q7513012}
+  - {name: Signorini problem, kind: problem, wikipedia: Signorini problem, wikidata: Q7513012, node: QFQAB091MQ}
   - {name: Johnson–Kendall–Roberts model of adhesive contact, kind: concept, wikipedia: Contact mechanics, wikidata: Q1783143}
   # Dynamics and waves in solids
   - {name: elastodynamics, kind: concept, wikipedia: Linear elasticity, wikidata: Q3851760}
@@ -210,7 +210,7 @@ items:
   - {name: principle of minimum total potential energy, kind: statement, wikipedia: Minimum total potential energy principle, wikidata: Q6865491}
   - {name: Hu–Washizu principle, kind: statement, wikipedia: Hu–Washizu principle, wikidata: Q17027345}
   - {name: Hellinger–Reissner principle, kind: statement, wikipedia: Hu–Washizu principle, wikidata: Q17027345}
-  - {name: Rayleigh–Ritz method, kind: concept, wikipedia: Rayleigh–Ritz method, wikidata: Q852247}
+  - {name: Rayleigh–Ritz method, kind: concept, wikipedia: Rayleigh–Ritz method, wikidata: Q852247, node: 5YSP8TWD4Q}
   - {name: finite element method in structural mechanics, kind: concept, wikipedia: Finite element method in structural mechanics, wikidata: Q5450397}
   - {name: direct stiffness method, kind: concept, wikipedia: Direct stiffness method, wikidata: Q2280635}
   - {name: flexibility method, kind: concept, wikipedia: Flexibility method, wikidata: Q492260}

@@ -47,6 +47,6 @@ So a number defined by pure topology is computed by curvature-type data.
 
 The theorem shows that a certain rational combination of Pontryagin numbers is always an integer, which constrains which manifolds can exist.
 Milnor used the case $k = 2$ to show that some $7$-manifolds homeomorphic to $S^7$ are not diffeomorphic to it, the first [[exotic spheres|6WYEMXSHD9]].
-The theorem is a special case of the Atiyah–Singer index theorem applied to the signature operator.
+The theorem is a special case of the Atiyah–Singer index theorem applied to the [[signature operator|4NCYA7GME1]].
 It is also the model for the [[Hirzebruch–Riemann–Roch theorem|G3X02FKQCR]].
 In surgery theory, the signature formula is what makes the simply connected surgery obstruction in dimensions $4k$ computable.

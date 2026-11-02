@@ -13,7 +13,7 @@ same_as:
 ## Summary
 
 A Riemann surface is a connected space that looks locally like an open piece of the complex plane, with changes of coordinates that are holomorphic.
-It is a complex manifold of complex dimension one.
+It is a [[complex manifold|JSGWAN2RJV]] of complex dimension one.
 On a Riemann surface one can speak of [[holomorphic|0DG0Z72CQD]] and [[meromorphic|0NSD1TPHR0]] functions.
 This makes it the natural home of multivalued functions such as $\sqrt{z}$ and $\log z$.
 Compact Riemann surfaces are the same objects as smooth projective complex algebraic curves.

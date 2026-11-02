@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-A Calabi–Yau manifold is a compact Kähler manifold with trivial canonical bundle.
+A Calabi–Yau manifold is a compact [[Kähler manifold|X60JG9AEQJ]] with trivial canonical bundle.
 By Yau's proof of the [[Calabi conjecture|WJKA5YBTJ7]], each Kähler class on it contains a Ricci-flat Kähler metric.
 Calabi–Yau manifolds sit between Fano varieties and varieties of general type in the classification of varieties.
 They are central in string theory and in [[mirror symmetry|YK3DMN2NSK]].

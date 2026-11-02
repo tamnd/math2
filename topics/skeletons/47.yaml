@@ -42,7 +42,7 @@ items:
   - {name: spectral radius, kind: definition, decl: spectralRadius, wikipedia: Spectral radius, wikidata: Q249748, node: 9V7YQA85PC}
   - {name: spectral radius formula, kind: statement, decl: spectrum.gelfand_formula, wikipedia: Spectral radius, wikidata: Q249748, node: KX2XY7S3X6}
   - {name: Riesz projector, kind: definition, wikipedia: Riesz projector, wikidata: Q96401996, node: HNW4WRSEEX}
-  - {name: holomorphic functional calculus, kind: concept, wikipedia: Holomorphic functional calculus, wikidata: Q1625064}
+  - {name: holomorphic functional calculus, kind: concept, wikipedia: Holomorphic functional calculus, wikidata: Q1625064, node: YFKA3KVTGR}
   - {name: numerical range, kind: definition, wikipedia: Numerical range, wikidata: Q1579053, node: XWXZ0DGW3Z}
   - {name: Toeplitz–Hausdorff theorem, kind: statement, wikipedia: Numerical range, wikidata: Q1579053, node: 8TV0DJBBAY}
   # Invariant subspaces and dilations
@@ -64,7 +64,7 @@ items:
   - {name: unitary operator, kind: definition, decl: unitary, wikipedia: Unitary operator, wikidata: Q1972470, node: MM0EJ2GDE4}
   - {name: isometry, kind: definition, decl: LinearIsometry, wikipedia: Isometry, wikidata: Q740207, node: 02HPP5VCZH}
   - {name: partial isometry, kind: definition, wikipedia: Partial isometry, wikidata: Q904849, node: GGDSF85JPD}
-  - {name: shift operator, kind: example, wikipedia: Shift operator, wikidata: Q2278680}
+  - {name: shift operator, kind: example, wikipedia: Shift operator, wikidata: Q2278680, node: MBK6AE6734}
   - {name: positive operator, kind: definition, decl: ContinuousLinearMap.IsPositive, wikipedia: Positive operator, wikidata: Q2627013, node: 77020CY5ZW}
   - {name: Loewner order, kind: definition, wikipedia: Loewner order, wikidata: Q25303887, node: 9G9S92T1VJ}
   - {name: operator monotone function, kind: definition, wikipedia: Operator monotone function, wikidata: Q55627738, node: N155BSJ2DN}
@@ -79,7 +79,7 @@ items:
   - {name: composition operator, kind: definition, wikipedia: Composition operator, wikidata: Q5156798, node: CFASPSF7BB}
   - {name: Toeplitz operator, kind: definition, wikipedia: Toeplitz operator, wikidata: Q7812935, node: GQ0X3R3WM2}
   - {name: Hankel operator, kind: definition, wikipedia: Hankel matrix, wikidata: Q1575637, node: P4EKQS312D}
-  - {name: Volterra operator, kind: example, wikipedia: Volterra operator, wikidata: Q5313336}
+  - {name: Volterra operator, kind: example, wikipedia: Volterra operator, wikidata: Q5313336, node: G3WJ3XDJ7M}
   - {name: Krein–Rutman theorem, kind: statement, wikipedia: Krein–Rutman theorem, wikidata: Q6436614, node: VADXDK3TKM}
   - {name: Bishop–Phelps theorem, kind: statement, wikipedia: Bishop–Phelps theorem, wikidata: Q16842437, node: PDVJTYCK8F}
   # Compact and Fredholm operators
@@ -96,13 +96,13 @@ items:
   - {name: Calkin algebra, kind: object, wikipedia: Calkin algebra, wikidata: Q1027067, node: 6FE7JZ2VF1}
   - {name: Weyl's theorem on compact perturbations, kind: statement, wikipedia: Essential spectrum, wikidata: Q917390, node: X9XRGMDCQZ}
   - {name: Weyl–von Neumann theorem, kind: statement, wikipedia: Weyl–von Neumann theorem, wikidata: Q7990342, node: SB8PFJCJBC}
-  - {name: Hilbert–Schmidt operator, kind: definition, wikipedia: Hilbert–Schmidt operator, wikidata: Q1518047}
+  - {name: Hilbert–Schmidt operator, kind: definition, wikipedia: Hilbert–Schmidt operator, wikidata: Q1518047, node: W3BX66Y47G}
   - {name: trace class operator, kind: definition, wikipedia: Trace class, wikidata: Q977297, node: Z2CP530WDE}
   - {name: Schatten class, kind: definition, wikipedia: Schatten class operator, wikidata: Q2231600, node: 153N5DW55Z}
   - {name: nuclear operator, kind: definition, wikipedia: Nuclear operator, wikidata: Q96396744, node: XPANM7C1D3}
   - {name: Lidskii's theorem, kind: statement, wikipedia: Trace class, wikidata: Q977297, node: QD23PJR6RP}
   - {name: singular values of a compact operator, kind: definition, wikipedia: Singular value, wikidata: Q4166054, node: QSJKPKPM7H}
-  - {name: Fredholm determinant, kind: definition, wikipedia: Fredholm determinant, wikidata: Q3045336}
+  - {name: Fredholm determinant, kind: definition, wikipedia: Fredholm determinant, wikidata: Q3045336, node: PPX0AK81QV}
   # Spectral theorems and functional calculus
   - {name: spectral theorem for symmetric operators in finite dimension, kind: statement, decl: LinearMap.IsSymmetric.eigenvectorBasis, wikipedia: Spectral theorem, wikidata: Q1425077, node: 06J4PXRG22}
   - {name: spectral theorem for compact self-adjoint operators, kind: statement, wikipedia: Compact operator on Hilbert space, wikidata: Q5155314, node: A1G25R99PY}
@@ -146,16 +146,16 @@ items:
   - {name: Anderson localization, kind: concept, wikipedia: Anderson localization, wikidata: Q491409, node: MXEZM0QJ1K}
   - {name: Lieb–Thirring inequality, kind: statement, wikipedia: Lieb–Thirring inequality, wikidata: Q25303678, node: 572QKEYYKX}
   # Integral and pseudodifferential operators
-  - {name: integral operator, kind: definition, wikipedia: Integral transform, wikidata: Q877802}
-  - {name: Hilbert–Schmidt integral operator, kind: definition, wikipedia: Hilbert–Schmidt integral operator, wikidata: Q5761249}
-  - {name: Schur test, kind: statement, wikipedia: Schur test, wikidata: Q4456448}
+  - {name: integral operator, kind: definition, wikipedia: Integral transform, wikidata: Q877802, node: H8P36XFV8K}
+  - {name: Hilbert–Schmidt integral operator, kind: definition, wikipedia: Hilbert–Schmidt integral operator, wikidata: Q5761249, node: CB5G212Q03}
+  - {name: Schur test, kind: statement, wikipedia: Schur test, wikidata: Q4456448, node: 25HF1WPPKX}
   - {name: Fredholm integral equation, kind: problem, wikipedia: Fredholm integral equation, wikidata: Q2991898}
   - {name: Volterra integral equation, kind: problem, wikipedia: Volterra integral equation, wikidata: Q2632613}
   - {name: singular integral operator, kind: definition, wikipedia: Singular integral, wikidata: Q888122, node: HTMCEARGDD}
   - {name: Hilbert transform, kind: example, wikipedia: Hilbert transform, wikidata: Q685437, node: NSCEBXM7ZM}
   - {name: Calderón–Zygmund lemma, kind: statement, wikipedia: Calderón–Zygmund lemma, wikidata: Q1707076, node: K1YKXVPVDG}
   - {name: Fourier multiplier, kind: definition, wikipedia: Multiplier (Fourier analysis), wikidata: Q6935014, node: ZQEFCY61T7}
-  - {name: Wiener–Hopf method, kind: concept, wikipedia: Wiener–Hopf method, wikidata: Q2079672}
+  - {name: Wiener–Hopf method, kind: concept, wikipedia: Wiener–Hopf method, wikidata: Q2079672, node: H4NXEY6QTZ}
   - {name: pseudo-differential operator, kind: definition, wikipedia: Pseudo-differential operator, wikidata: Q1644451, node: FF27N0BWTP}
   - {name: Fourier integral operator, kind: definition, wikipedia: Fourier integral operator, wikidata: Q4262191, node: EVS4JPEE45}
   # Nonlinear operators and fixed points

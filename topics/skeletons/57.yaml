@@ -21,7 +21,7 @@ items:
   - {name: circle, kind: object, decl: Circle, wikipedia: Circle, wikidata: Q17278, node: 060W5CBZP6}
   - {name: torus, kind: object, decl: AddCircle, wikipedia: Torus, wikidata: Q12510, node: 03NM7DZXXC}
   - {name: real projective space, kind: object, wikipedia: Real projective space, wikidata: Q2597317, node: 1DDYB6VVSR}
-  - {name: complex projective space, kind: object, wikipedia: Complex projective space, wikidata: Q2538404}
+  - {name: complex projective space, kind: object, wikipedia: Complex projective space, wikidata: Q2538404, node: 7GJ4STCNNM}
   - {name: Grassmannian, kind: object, wikipedia: Grassmannian, wikidata: Q129638, node: CYPA882RB9}
   - {name: Stiefel manifold, kind: object, wikipedia: Stiefel manifold, wikidata: Q7616373, node: W7RCXS3CHT}
   - {name: Jordan curve theorem, kind: statement, wikipedia: Jordan curve theorem, wikidata: Q260928, node: 687RGCHBTP}

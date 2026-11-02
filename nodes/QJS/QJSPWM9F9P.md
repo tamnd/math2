@@ -25,7 +25,7 @@ The proof writes the long exact sequence of the pair $(E, E_0)$, replaces $H^\bu
 The composite $H^{i}(B) \to H^{i+n}(E, E_0) \to H^{i+n}(E) \cong H^{i+n}(B)$ is then the cup product with $e$.
 With $\Z/2$ coefficients the sequence holds without the orientation hypothesis, with the top Stiefel–Whitney class in place of $e$.
 
-Example: the tautological complex line bundle over complex projective space $\C P^m$ has rank $2$ as a real bundle, and its unit sphere bundle is the Hopf map $S^{2m+1} \to \C P^m$.
+Example: the tautological complex line bundle over [[complex projective space|7GJ4STCNNM]] $\C P^m$ has rank $2$ as a real bundle, and its unit sphere bundle is the Hopf map $S^{2m+1} \to \C P^m$.
 Since $H^j(S^{2m+1}) = 0$ for $0 < j < 2m+1$, the sequence shows that $\smile e \colon H^i(\C P^m) \to H^{i+2}(\C P^m)$ is an isomorphism for $0 \le i \le 2m - 2$.
 With $H^0(\C P^m) = \Z$, this gives $H^\bullet(\C P^m; \Z) \cong \Z[e]/(e^{m+1})$.
 

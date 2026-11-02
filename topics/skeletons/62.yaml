@@ -138,7 +138,7 @@ items:
   - {name: kernel density estimation, kind: concept, wikipedia: Kernel density estimation, wikidata: Q458825, node: ZV65XMJ9A4}
   - {name: kernel regression, kind: concept, wikipedia: Kernel regression, wikidata: Q1739319, node: 710VV73909}
   - {name: local regression, kind: concept, wikipedia: Local regression, wikidata: Q6664520, node: TQFFFSH0BQ}
-  - {name: smoothing spline, kind: definition, wikipedia: Smoothing spline, wikidata: Q7546460}
+  - {name: smoothing spline, kind: definition, wikipedia: Smoothing spline, wikidata: Q7546460, node: BNEXZF75QC}
   - {name: Kolmogorov–Smirnov test, kind: concept, wikipedia: Kolmogorov–Smirnov test, wikidata: Q575766, node: YZYHWC6C5F}
   - {name: Dvoretzky–Kiefer–Wolfowitz inequality, kind: statement, wikipedia: Dvoretzky–Kiefer–Wolfowitz inequality, wikidata: Q5317822, node: H5G7CNYZEB}
   - {name: Cramér–von Mises criterion, kind: concept, wikipedia: Cramér–von Mises criterion, wikidata: Q783996, node: G14XJXPKFS}

@@ -15,7 +15,7 @@ items:
   - {name: Poisson's equation in electrostatics, kind: definition, wikipedia: Poisson's equation, wikidata: Q827688}
   - {name: uniqueness theorem for Poisson's equation, kind: statement, wikipedia: Uniqueness theorem for Poisson's equation, wikidata: Q7886967}
   - {name: method of image charges, kind: concept, wikipedia: Method of image charges, wikidata: Q1372220}
-  - {name: Earnshaw's theorem, kind: statement, wikipedia: Earnshaw's theorem, wikidata: Q1064471}
+  - {name: Earnshaw's theorem, kind: statement, wikipedia: Earnshaw's theorem, wikidata: Q1064471, node: DDH18HWKZ9}
   - {name: Green's reciprocity theorem, kind: statement, wikipedia: Reciprocity (electromagnetism), wikidata: Q1747478}
   - {name: multipole expansion, kind: concept, wikipedia: Multipole expansion, wikidata: Q1027847}
   - {name: electric dipole moment, kind: definition, wikipedia: Electric dipole moment, wikidata: Q735135}
@@ -128,7 +128,7 @@ items:
   - {name: inverse scattering problem, kind: problem, wikipedia: Inverse scattering problem, wikidata: Q11639409}
   # Geometrical optics
   - {name: geometrical optics, kind: concept, wikipedia: Geometrical optics, wikidata: Q467980}
-  - {name: Fermat's principle, kind: statement, wikipedia: Fermat's principle, wikidata: Q331041}
+  - {name: Fermat's principle, kind: statement, wikipedia: Fermat's principle, wikidata: Q331041, node: RKX9XJ0RVW}
   - {name: Snell's law, kind: statement, wikipedia: Snell's law, wikidata: Q208391}
   - {name: law of reflection, kind: statement, wikipedia: Specular reflection, wikidata: Q1079524}
   - {name: refractive index, kind: definition, wikipedia: Refractive index, wikidata: Q174102}
@@ -137,7 +137,7 @@ items:
   - {name: Hamiltonian optics, kind: concept, wikipedia: Hamiltonian optics, wikidata: Q5645298}
   - {name: etendue, kind: definition, wikipedia: Etendue, wikidata: Q1370994}
   - {name: Malus–Dupin theorem, kind: statement, wikipedia: Malus–Dupin theorem, wikidata: Q3527117}
-  - {name: caustic, kind: concept, wikipedia: Caustic (optics), wikidata: Q1236244}
+  - {name: caustic, kind: concept, wikipedia: Caustic (optics), wikidata: Q1236244, node: GMRYG4S3G0}
   - {name: paraxial approximation, kind: concept, wikipedia: Paraxial approximation, wikidata: Q1071734}
   - {name: ray transfer matrix analysis, kind: concept, wikipedia: Ray transfer matrix analysis, wikidata: Q1760601}
   - {name: thin lens equation, kind: statement, wikipedia: Thin lens, wikidata: Q283724}

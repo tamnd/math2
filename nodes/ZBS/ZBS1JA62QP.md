@@ -16,7 +16,7 @@ same_as:
 ## Statement
 
 Let $f \colon (0, \infty) \to \R$.
-Call $f$ completely monotone if $f$ is infinitely differentiable and $(-1)^k f^{(k)}(x) \ge 0$ for all integers $k \ge 0$ and all $x > 0$.
+Call $f$ [[completely monotone|VJ1NCNTEHD]] if $f$ is infinitely differentiable and $(-1)^k f^{(k)}(x) \ge 0$ for all integers $k \ge 0$ and all $x > 0$.
 Then $f$ is completely monotone if and only if there is a positive Borel measure $\mu$ on $[0, \infty)$ with the following property.
 For every $x > 0$ the integral below converges and
 $$f(x) = \int_{[0, \infty)} e^{-tx} \, d\mu(t).$$
