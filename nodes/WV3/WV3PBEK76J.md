@@ -15,7 +15,7 @@ Let $\sigma$ be an algebraic signature.
 A class $V$ of finite $\sigma$-algebras is a *pseudovariety* if it satisfies these three conditions.
 
 1. If $A \in V$ and $B$ is a homomorphic image of $A$, that is, isomorphic to a [[quotient algebra|N5KE7FH6CX]] of $A$, then $B \in V$.
-2. If $A \in V$ and $B$ is a subalgebra of $A$, then $B \in V$.
+2. If $A \in V$ and $B$ is a [[subalgebra|7CHG6SD365]] of $A$, then $B \in V$.
 3. If $A_1, \ldots, A_n \in V$ with $n \ge 0$, then the [[direct product|WJ73XYBNE4]] $A_1 \times \cdots \times A_n$ is in $V$; for $n = 0$ it is the one-element algebra.
 
 ## Remarks

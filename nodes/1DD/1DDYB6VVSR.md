@@ -23,7 +23,7 @@ The map $U_i \to \R^n$ sending the class of $x$ to the $n$ ratios $x_j / x_i$ wi
 ## Remarks
 
 $\mathbb{RP}^1$ is homeomorphic to the circle $S^1$.
-$\mathbb{RP}^2$ is the real projective plane, a closed surface that cannot be embedded in $\R^3$.
+$\mathbb{RP}^2$ is the [[real projective plane|MWDB7RACWQ]], a closed surface that cannot be embedded in $\R^3$.
 $\mathbb{RP}^n$ is [[orientable|702SNFQG0W]] if and only if $n$ is odd.
 For $n \ge 2$ the quotient map $S^n \to \mathbb{RP}^n$ is the universal covering, so the fundamental group of $\mathbb{RP}^n$ has order $2$.
 $\mathbb{RP}^n$ is a CW complex with one cell in each dimension $0, 1, \ldots, n$.

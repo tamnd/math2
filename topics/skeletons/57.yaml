@@ -26,7 +26,7 @@ items:
   - {name: Stiefel manifold, kind: object, wikipedia: Stiefel manifold, wikidata: Q7616373, node: W7RCXS3CHT}
   - {name: Jordan curve theorem, kind: statement, wikipedia: Jordan curve theorem, wikidata: Q260928, node: 687RGCHBTP}
   - {name: Jordan–Brouwer separation theorem, kind: statement, wikipedia: Jordan curve theorem, wikidata: Q260928, node: 2Q008XWQDE}
-  - {name: Schoenflies problem, kind: statement, wikipedia: Schoenflies problem, wikidata: Q495412}
+  - {name: Schoenflies problem, kind: statement, wikipedia: Schoenflies problem, wikidata: Q495412, node: 3VX06XRVZG}
   - {name: Alexander horned sphere, kind: counterexample, wikipedia: Alexander horned sphere, wikidata: Q1361755, node: QQEASX79RW}
   - {name: wild knot, kind: counterexample, wikipedia: Wild knot, wikidata: Q2489408, node: QYDQ28X8MA}
   - {name: annulus theorem, kind: statement, wikipedia: Annulus theorem, wikidata: Q4769755, node: HAT8HG0RCK}
@@ -46,14 +46,14 @@ items:
   - {name: cellular approximation theorem, kind: statement, wikipedia: Cellular approximation theorem, wikidata: Q5058350, node: G003WR6SMX}
   # Simplicial complexes and piecewise-linear topology
   - {name: simplicial complex, kind: definition, decl: Geometry.SimplicialComplex, wikipedia: Simplicial complex, wikidata: Q994399, node: V8GZ0W1ZZ5}
-  - {name: abstract simplicial complex, kind: definition, decl: AbstractSimplicialComplex, wikipedia: Abstract simplicial complex, wikidata: Q4669959}
+  - {name: abstract simplicial complex, kind: definition, decl: AbstractSimplicialComplex, wikipedia: Abstract simplicial complex, wikidata: Q4669959, node: V8GZ0W1ZZ5}
   - {name: barycentric subdivision, kind: definition, wikipedia: Barycentric subdivision, wikidata: Q4078260, node: J5DZEYCEX2}
   - {name: simplicial approximation theorem, kind: statement, wikipedia: Simplicial approximation theorem, wikidata: Q3983972, node: TQFXC1A6G5}
   - {name: triangulation, kind: definition, wikipedia: Triangulation (topology), wikidata: Q7840154, node: YH170WBQ6M}
   - {name: Radó's theorem on triangulation of surfaces, kind: statement, wikipedia: Radó's theorem (Riemann surfaces), wikidata: Q3527149, node: C9X05EDS5F}
   - {name: Moise's theorem, kind: statement, wikipedia: Moise's theorem, wikidata: Q6894771, node: SV0816DJP9}
   - {name: Hauptvermutung, kind: problem, wikipedia: Hauptvermutung, wikidata: Q5682772, node: 811NW2WEJH}
-  - {name: triangulation conjecture, kind: problem, wikipedia: Triangulation (topology), wikidata: Q7840154}
+  - {name: triangulation conjecture, kind: problem, wikipedia: Triangulation (topology), wikidata: Q7840154, node: JNW9GKADDN}
   - {name: piecewise linear manifold, kind: definition, wikipedia: Piecewise linear manifold, wikidata: Q7191425, node: 15MKGRNM9K}
   - {name: simple homotopy equivalence, kind: definition, wikipedia: Simple homotopy theory, wikidata: Q113504696, node: AR8SP73SXX}
   - {name: Whitehead torsion, kind: definition, wikipedia: Whitehead torsion, wikidata: Q7996043}
@@ -75,8 +75,8 @@ items:
   - {name: Thom transversality theorem, kind: statement, wikipedia: Transversality theorem, wikidata: Q116677, node: KWNRS3RA09}
   - {name: tubular neighborhood theorem, kind: statement, wikipedia: Tubular neighborhood, wikidata: Q1141920, node: GCBY80CSC6}
   - {name: collar neighbourhood theorem, kind: statement, wikipedia: Collar neighbourhood, wikidata: Q25383585, node: A68WQ4ZAF0}
-  - {name: degree of a map, kind: definition, wikipedia: Degree of a continuous mapping, wikidata: Q306564}
-  - {name: Lefschetz fixed-point theorem, kind: statement, wikipedia: Lefschetz fixed-point theorem, wikidata: Q657469}
+  - {name: degree of a map, kind: definition, wikipedia: Degree of a continuous mapping, wikidata: Q306564, node: TMFG2P912R}
+  - {name: Lefschetz fixed-point theorem, kind: statement, wikipedia: Lefschetz fixed-point theorem, wikidata: Q657469, node: G44NQXCWT9}
   - {name: Poincaré–Hopf theorem, kind: statement, wikipedia: Poincaré–Hopf theorem, wikidata: Q1305766, node: 4XTPY82PP4}
   - {name: hairy ball theorem, kind: statement, wikipedia: Hairy ball theorem, wikidata: Q1077741, node: Z49RAKVCWG}
   - {name: parallelizable manifold, kind: definition, wikipedia: Parallelizable manifold, wikidata: Q1014612, node: 7WX14GWD4M}
@@ -102,7 +102,7 @@ items:
   - {name: Pontryagin class, kind: definition, wikipedia: Pontryagin class, wikidata: Q40007, node: DN11FKWN63}
   - {name: Chern class, kind: definition, wikipedia: Chern class, wikidata: Q1069818, node: PAD37GKDPD}
   - {name: Euler class, kind: definition, wikipedia: Euler class, wikidata: Q2193452, node: BJX6QS0ANT}
-  - {name: Thom space and Thom isomorphism, kind: definition, wikipedia: Thom space, wikidata: Q2421733}
+  - {name: Thom space and Thom isomorphism, kind: definition, wikipedia: Thom space, wikidata: Q2421733, node: 5MNYT3AFPH}
   - {name: spin structure, kind: definition, wikipedia: Spin structure, wikidata: Q7577418, node: RSPZ9TCFQ8}
   - {name: Hirzebruch signature theorem, kind: statement, wikipedia: Hirzebruch signature theorem, wikidata: Q7512855, node: TEG1ZX1AGJ}
   # Cobordism and surgery
@@ -126,14 +126,14 @@ items:
   - {name: genus, kind: definition, wikipedia: Genus (mathematics), wikidata: Q28517129, node: NJ787GZS1N}
   - {name: Möbius strip, kind: example, wikipedia: Möbius strip, wikidata: Q226843, node: 04AJE0M271}
   - {name: Klein bottle, kind: example, wikipedia: Klein bottle, wikidata: Q23638, node: 6J4C2P3ZHC}
-  - {name: real projective plane, kind: example, wikipedia: Real projective plane, wikidata: Q633815}
+  - {name: real projective plane, kind: example, wikipedia: Real projective plane, wikidata: Q633815, node: MWDB7RACWQ}
   - {name: Boy's surface, kind: example, wikipedia: Boy's surface, wikidata: Q896057, node: C7WPR8W54K}
   - {name: mapping class group, kind: definition, wikipedia: Mapping class group, wikidata: Q3845212, node: JV5NYG913V}
   - {name: Dehn twist, kind: definition, wikipedia: Dehn twist, wikidata: Q5252320, node: W890NRHGS4}
   - {name: Dehn–Lickorish theorem, kind: statement, wikipedia: Dehn twist, wikidata: Q5252320, node: BG3EH18KRE}
   - {name: Teichmüller space, kind: definition, wikipedia: Teichmüller space, wikidata: Q2400539, node: ZZGC6BZNJ5}
-  - {name: Nielsen–Thurston classification, kind: statement, wikipedia: Nielsen–Thurston classification, wikidata: Q7031628}
-  - {name: pseudo-Anosov map, kind: definition, wikipedia: Pseudo-Anosov map, wikidata: Q7254395}
+  - {name: Nielsen–Thurston classification, kind: statement, wikipedia: Nielsen–Thurston classification, wikidata: Q7031628, node: PKP7RVAZK6}
+  - {name: pseudo-Anosov map, kind: definition, wikipedia: Pseudo-Anosov map, wikidata: Q7254395, node: GYW7GYABD9}
   - {name: curve complex, kind: definition, wikipedia: Curve complex, wikidata: Q28455227, node: KHEJ0FVZXT}
   - {name: train track, kind: definition, wikipedia: Train track (mathematics), wikidata: Q7832909, node: XH6FFFR8AZ}
   # Three-manifolds
@@ -183,7 +183,7 @@ items:
   # Knot theory
   - {name: knot, kind: definition, wikipedia: Knot (mathematics), wikidata: Q1188853, node: QYEAZTYGPT}
   - {name: link, kind: definition, wikipedia: Link (knot theory), wikidata: Q1760728, node: 1A5WRCNTM3}
-  - {name: Reidemeister move, kind: statement, wikipedia: Reidemeister move, wikidata: Q1636327}
+  - {name: Reidemeister move, kind: statement, wikipedia: Reidemeister move, wikidata: Q1636327, node: T3HAGWYKK7}
   - {name: knot invariant, kind: concept, wikipedia: Knot invariant, wikidata: Q1862434, node: GZQ5ZE3X6G}
   - {name: unknot, kind: example, wikipedia: Unknot, wikidata: Q1188344, node: 1TQ06R4Q66}
   - {name: trefoil knot, kind: example, wikipedia: Trefoil knot, wikidata: Q168620, node: VYTYSVHN4A}

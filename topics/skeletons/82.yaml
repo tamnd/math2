@@ -28,7 +28,7 @@ items:
   - {name: fluctuations and the canonical ensemble, kind: statement, wikipedia: Canonical ensemble, wikidata: Q1077753}
   - {name: chemical potential, kind: definition, wikipedia: Chemical potential, wikidata: Q737004}
   # Rigorous equilibrium theory
-  - {name: Gibbs measure, kind: definition, wikipedia: Gibbs measure, wikidata: Q2510435}
+  - {name: Gibbs measure, kind: definition, wikipedia: Gibbs measure, wikidata: Q2510435, node: DG9F3W6MZM}
   - {name: Dobrushin–Lanford–Ruelle equations, kind: statement, wikipedia: Gibbs measure, wikidata: Q2510435}
   - {name: Gibbs variational principle, kind: statement, wikipedia: Gibbs measure, wikidata: Q2510435}
   - {name: Dobrushin uniqueness criterion, kind: statement, wikipedia: Gibbs measure, wikidata: Q2510435}

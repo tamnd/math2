@@ -18,7 +18,7 @@ $X$ is *triangulable* if it has a triangulation.
 
 ## Remarks
 
-Let $K$ be the simplicial complex of all proper faces of a $3$-simplex in $\R^3$, with $4$ vertices, $6$ edges and $4$ triangles.
+Let $K$ be the simplicial complex of all proper faces of a $3$-[[simplex|YX1DJK2QAG]] in $\R^3$, with $4$ vertices, $6$ edges and $4$ triangles.
 Radial projection from the barycentre onto the sphere centred there is a homeomorphism $\abs{K} \to S^2$, so $K$ with this map is a triangulation of $S^2$.
 
 The CW structure of $S^2$ with one $0$-cell and one $2$-cell is not a triangulation.

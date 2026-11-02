@@ -9,7 +9,7 @@ sources:
 
 ## Summary
 
-A retract of an [[algebra|QJGPT2W0FT]] is a subalgebra onto which the whole algebra can be mapped by a [[homomorphism|KBXSZC6BV1]] that fixes the subalgebra pointwise.
+A retract of an [[algebra|QJGPT2W0FT]] is a [[subalgebra|7CHG6SD365]] onto which the whole algebra can be mapped by a [[homomorphism|KBXSZC6BV1]] that fixes the subalgebra pointwise.
 It is the universal-algebra form of a [[section and retraction|DXJH3DGXBC]] in a category.
 Retracts are used to describe projective algebras: in a variety, the projective algebras are the retracts of free algebras.
 

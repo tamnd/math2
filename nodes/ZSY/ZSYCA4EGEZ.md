@@ -12,7 +12,7 @@ sources:
 Let $f$ be a self-map of a finite CW complex or compact polyhedron.
 Its Lefschetz number is the alternating sum of the traces of the maps that $f$ induces on rational homology.
 It depends only on the homotopy class of $f$, and for the identity map it is the Euler characteristic.
-The Lefschetz fixed-point theorem says that if it is not zero, then $f$ has a fixed point.
+The [[Lefschetz fixed-point theorem|G44NQXCWT9]] says that if it is not zero, then $f$ has a fixed point.
 
 ## Explanations
 

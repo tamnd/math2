@@ -213,7 +213,7 @@ items:
   # Partial, multi-sorted and other generalized algebras
   - {name: partial algebra, kind: definition, wikipedia: Partial algebra, wikidata: Q18386809, node: H7RX5729ZB}
   - {name: many-sorted algebra, kind: definition, wikipedia: Many-sorted logic, wikidata: Q2303607, node: WAQJJ5GX68}
-  - {name: heterogeneous algebra, kind: definition, wikipedia: Many-sorted logic, wikidata: Q2303607}
+  - {name: heterogeneous algebra, kind: definition, wikipedia: Many-sorted logic, wikidata: Q2303607, node: WAQJJ5GX68}
   - {name: abstract data type as an algebra, kind: concept, wikipedia: Abstract data type, wikidata: Q827335, node: 86144NHH59}
   - {name: initial algebra semantics, kind: concept, wikipedia: Initial algebra, wikidata: Q6034125, node: HVF403PQ4H}
   - {name: multialgebra, kind: definition, wikipedia: Hyperstructure, wikidata: Q5958653, node: 3C930MVM0T}
@@ -241,4 +241,4 @@ items:
   - {name: Jónsson–Tarski algebra, kind: example, wikipedia: Jónsson–Tarski algebra, wikidata: Q18208351, node: 70QWWYQQG9}
   - {name: Cantor algebra, kind: example, wikipedia: Cantor algebra, wikidata: Q18386550, node: VTE2H1GT4A}
   - {name: median algebra as a ternary algebra, kind: example, wikipedia: Median algebra, wikidata: Q6806108, node: S0DAGR1WN7}
-  - {name: groupoid in the sense of a magma, kind: concept, wikipedia: Magma (algebra), wikidata: Q679903}
+  - {name: groupoid in the sense of a magma, kind: concept, wikipedia: Magma (algebra), wikidata: Q679903, node: 9689SFPVE9}

@@ -12,7 +12,7 @@ sources:
 ## Definition
 
 Let $\mathbf{A}$ be an [[algebra|QJGPT2W0FT]] with universe $A$.
-A *subuniverse* of $\mathbf{A}$ is a subset of $A$ closed under all fundamental operations, as for a subalgebra.
+A *subuniverse* of $\mathbf{A}$ is a subset of $A$ closed under all fundamental operations, as for a [[subalgebra|7CHG6SD365]].
 Let $\operatorname{Sub} \mathbf{A}$ be the set of all subuniverses of $\mathbf{A}$.
 The *subalgebra lattice* of $\mathbf{A}$ is the partially ordered set $(\operatorname{Sub} \mathbf{A}, \subseteq)$.
 Its meet and join are

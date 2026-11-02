@@ -14,7 +14,7 @@ sources:
 
 A *symplectic toric manifold* is a compact connected [[symplectic manifold|CAN490EPRT]] $(M, \omega)$ of dimension $2n$ with two data.
 These are an effective action of the torus $T^n = (S^1)^n$ and a [[moment map|ZARM34FZ6Z]] $\mu \colon M \to \R^n$ for it.
-A *Delzant polytope* in $\R^n$ is a convex polytope $\Delta$ such that at each vertex $v$:
+A *Delzant polytope* in $\R^n$ is a [[convex polytope|300K6CB1KH]] $\Delta$ such that at each vertex $v$:
 
 1. exactly $n$ edges meet at $v$;
 2. the edges at $v$ have the form $v + t u_i$, $t \ge 0$, with $u_1, \ldots, u_n \in \Z^n$;

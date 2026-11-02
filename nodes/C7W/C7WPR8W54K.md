@@ -13,7 +13,7 @@ same_as:
 
 ## Example
 
-Boy's surface is an [[immersion|6RW68JGBHC]] of the real projective plane $\R P^2$ in $\R^3$.
+Boy's surface is an [[immersion|6RW68JGBHC]] of the [[real projective plane|MWDB7RACWQ]] $\R P^2$ in $\R^3$.
 That is, it is a smooth map $f \colon \R P^2 \to \R^3$ whose differential is injective at every point.
 So the image has a tangent plane everywhere and no pinch points.
 The map is not injective: its self-intersection is a closed curve made of three loops, all passing through one triple point.

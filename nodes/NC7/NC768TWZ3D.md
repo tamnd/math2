@@ -12,7 +12,7 @@ sources:
 ## Statement
 
 Let $\mathbb{T} = \set{z \in \C : \abs{z} = 1}$ be the [[circle group|04EAFVFTF7]].
-Let $f \colon \mathbb{T} \to \C$ be a function with an absolutely convergent Fourier series, that is, $f(z) = \sum_{n \in \Z} c_n z^n$ with $\sum_{n \in \Z} \abs{c_n} < \infty$.
+Let $f \colon \mathbb{T} \to \C$ be a function with an [[absolutely convergent Fourier series|HHBGB5R5S2]], that is, $f(z) = \sum_{n \in \Z} c_n z^n$ with $\sum_{n \in \Z} \abs{c_n} < \infty$.
 If $f(z) \ne 0$ for every $z \in \mathbb{T}$, then $1/f$ also has an absolutely convergent Fourier series.
 
 ## Remarks

@@ -125,7 +125,7 @@ items:
   - {name: Noetherian module, kind: definition, decl: IsNoetherian, wikipedia: Noetherian module, wikidata: Q2444982, mathlib: [mathlib-overview], node: AK1ZRCXR32}
   - {name: Artinian module, kind: definition, decl: IsArtinian, wikipedia: Artinian module, wikidata: Q2919100, node: YQNZTQGP1X}
   - {name: Hopkins–Levitzki theorem, kind: statement, wikipedia: Hopkins–Levitzki theorem, wikidata: Q17027556, node: W29AA0266Z}
-  - {name: Artinian semisimplicity of reduced rings, kind: statement, decl: IsArtinianRing.isSemisimpleRing_of_isReduced, wikipedia: Artinian ring, wikidata: Q713084}
+  - {name: Artinian semisimplicity of reduced rings, kind: statement, decl: IsArtinianRing.isSemisimpleRing_of_isReduced, wikipedia: Artinian ring, wikidata: Q713084, node: 9ZBM46J88T}
   - {name: Ore condition, kind: definition, decl: OreLocalization.OreSet, wikipedia: Ore condition, wikidata: Q986499, node: TJP4ARC2X7}
   - {name: Ore localization, kind: definition, decl: OreLocalization, wikipedia: Ore condition, wikidata: Q986499, node: SG7AQ9T8HD}
   - {name: Goldie's theorem, kind: statement, wikipedia: Goldie's theorem, wikidata: Q5580171, node: MDS8655N0Z}
@@ -138,7 +138,7 @@ items:
   - {name: Golod–Shafarevich theorem, kind: statement, wikipedia: Golod–Shafarevich theorem, wikidata: Q17018210, node: RC5A5T7YY2}
   - {name: Levitzki's theorem, kind: statement, wikipedia: Levitzky's theorem, wikidata: Q6535741, node: QHD4KJYFSA}
   - {name: Krull dimension of a noncommutative ring, kind: definition, wikipedia: Krull dimension, wikidata: Q1225713, node: PP11DV3ZMQ}
-  - {name: Lenagan's theorem, kind: statement, wikipedia: Nil ideal, wikidata: Q453275}
+  - {name: Lenagan's theorem, kind: statement, wikipedia: Nil ideal, wikidata: Q453275, node: QSK2J5HEER}
   # Polynomial identity rings
   - {name: polynomial identity ring, kind: definition, wikipedia: Polynomial identity ring, wikidata: Q7226641, node: C0EDT81EGH}
   - {name: Amitsur–Levitzki theorem, kind: statement, wikipedia: Amitsur–Levitzki theorem, wikidata: Q4746948, node: YDH60KPTWT}

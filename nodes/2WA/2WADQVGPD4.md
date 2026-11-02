@@ -15,7 +15,7 @@ Let $M$ be a finite algebra and let $\mathcal{A} = \mathbf{ISP}(M)$ be the [[qua
 An *alter ego* of $M$ is a structure $\underset{\sim}{M} = (M; G, H, R, \mathcal{T})$ on the same set, where $\mathcal{T}$ is the discrete [[topology|0CQHFPGJ45]] and:
 
 1. $G$ is a set of operations $M^n \to M$ that are [[homomorphisms|KBXSZC6BV1]] from $M^n$ to $M$;
-2. $H$ is a set of partial operations whose domains are subalgebras of powers $M^n$ and which are homomorphisms on them;
+2. $H$ is a set of partial operations whose domains are [[subalgebras|7CHG6SD365]] of powers $M^n$ and which are homomorphisms on them;
 3. $R$ is a set of relations $r \subseteq M^n$ that are subalgebras of $M^n$.
 
 For $A \in \mathcal{A}$, the set $D(A)$ of homomorphisms $A \to M$ is a closed substructure of the power $\underset{\sim}{M}^A$ with the product topology.

@@ -9,221 +9,221 @@ sources:
   mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
 items:
   # Basic notions
-  - {name: dynamical system, kind: definition, wikipedia: Dynamical system, wikidata: Q638328}
+  - {name: dynamical system, kind: definition, wikipedia: Dynamical system, wikidata: Q638328, node: BBZP1R872N}
   - {name: flow, kind: definition, decl: Flow, wikipedia: Flow (mathematics), wikidata: Q1434290, node: 06738GGWWK}
-  - {name: discrete-time dynamical system, kind: concept, wikipedia: Dynamical system, wikidata: Q638328}
+  - {name: discrete-time dynamical system, kind: concept, wikipedia: Dynamical system, wikidata: Q638328, node: 5AA9AJEARJ}
   - {name: orbit, kind: definition, wikipedia: Orbit (dynamics), wikidata: Q3884964}
-  - {name: fixed point, kind: definition, decl: Function.IsFixedPt, wikipedia: Fixed point (mathematics), wikidata: Q217608}
-  - {name: periodic point, kind: definition, decl: Function.periodicPts, wikipedia: Periodic point, wikidata: Q116301, mathlib: [mathlib-overview]}
-  - {name: minimal period, kind: definition, decl: Function.minimalPeriod, wikipedia: Periodic point, wikidata: Q116301}
+  - {name: fixed point, kind: definition, decl: Function.IsFixedPt, wikipedia: Fixed point (mathematics), wikidata: Q217608, node: R6QVS6P21N}
+  - {name: periodic point, kind: definition, decl: Function.periodicPts, wikipedia: Periodic point, wikidata: Q116301, mathlib: [mathlib-overview], node: T75CZ5H47N}
+  - {name: minimal period, kind: definition, decl: Function.minimalPeriod, wikipedia: Periodic point, wikidata: Q116301, node: VFZRVZ9SD8}
   - {name: invariant set, kind: definition, decl: IsInvariant, wikipedia: Invariant (mathematics), wikidata: Q188211, node: WWZTW11664}
-  - {name: omega-limit set, kind: definition, decl: omegaLimit, wikipedia: Limit set, wikidata: Q1825444, mathlib: [mathlib-overview]}
-  - {name: topological conjugacy, kind: definition, decl: Function.Semiconj, wikipedia: Topological conjugacy, wikidata: Q2443460}
-  - {name: semiconjugacy and factor map, kind: definition, decl: Flow.IsSemiconjugacy, wikipedia: Topological conjugacy, wikidata: Q2443460}
-  - {name: iterated function, kind: definition, wikipedia: Iterated function, wikidata: Q5254619}
-  - {name: cobweb plot, kind: concept, wikipedia: Cobweb plot, wikidata: Q5139042}
-  - {name: suspension flow, kind: definition, wikipedia: Mapping torus, wikidata: Q3532262}
+  - {name: omega-limit set, kind: definition, decl: omegaLimit, wikipedia: Limit set, wikidata: Q1825444, mathlib: [mathlib-overview], node: YF4XH2BEG5}
+  - {name: topological conjugacy, kind: definition, decl: Function.Semiconj, wikipedia: Topological conjugacy, wikidata: Q2443460, node: HNXXAPQKG3}
+  - {name: semiconjugacy and factor map, kind: definition, decl: Flow.IsSemiconjugacy, wikipedia: Topological conjugacy, wikidata: Q2443460, node: AEXJNRBASV}
+  - {name: iterated function, kind: definition, wikipedia: Iterated function, wikidata: Q5254619, node: AYVTR2ES5B}
+  - {name: cobweb plot, kind: concept, wikipedia: Cobweb plot, wikidata: Q5139042, node: B0K8MDA7CJ}
+  - {name: suspension flow, kind: definition, wikipedia: Mapping torus, wikidata: Q3532262, node: MX16DQ5Q8G}
   - {name: Poincaré map, kind: definition, wikipedia: Poincaré map, wikidata: Q339199, node: 60TDCPY4Z4}
-  - {name: attractor, kind: definition, wikipedia: Attractor, wikidata: Q507187}
-  - {name: strange attractor, kind: concept, wikipedia: Attractor, wikidata: Q507187}
-  - {name: chaos theory, kind: concept, wikipedia: Chaos theory, wikidata: Q166314}
-  - {name: butterfly effect, kind: concept, wikipedia: Butterfly effect, wikidata: Q187536}
+  - {name: attractor, kind: definition, wikipedia: Attractor, wikidata: Q507187, node: 7FWX24X5MW}
+  - {name: strange attractor, kind: concept, wikipedia: Attractor, wikidata: Q507187, node: 9WKCZGG906}
+  - {name: chaos theory, kind: concept, wikipedia: Chaos theory, wikidata: Q166314, node: DBKXCGDKTD}
+  - {name: butterfly effect, kind: concept, wikipedia: Butterfly effect, wikidata: Q187536, node: G0ZT1SDQGS}
   # Ergodic theory
-  - {name: measure-preserving dynamical system, kind: definition, decl: MeasureTheory.MeasurePreserving, wikipedia: Measure-preserving dynamical system, wikidata: Q1003225}
-  - {name: invariant measure, kind: definition, wikipedia: Invariant measure, wikidata: Q4200518}
-  - {name: Krylov–Bogolyubov theorem, kind: statement, wikipedia: Krylov–Bogolyubov theorem, wikidata: Q1121027}
+  - {name: measure-preserving dynamical system, kind: definition, decl: MeasureTheory.MeasurePreserving, wikipedia: Measure-preserving dynamical system, wikidata: Q1003225, node: 556WBDAHNP}
+  - {name: invariant measure, kind: definition, wikipedia: Invariant measure, wikidata: Q4200518, node: B232EZ1FMB}
+  - {name: Krylov–Bogolyubov theorem, kind: statement, wikipedia: Krylov–Bogolyubov theorem, wikidata: Q1121027, node: 1DHZ81S0YE}
   - {name: Poincaré recurrence theorem, kind: statement, decl: MeasureTheory.Conservative.ae_mem_imp_frequently_image_mem, wikipedia: Poincaré recurrence theorem, wikidata: Q226014, mathlib: [mathlib-1000], node: TVYJPBHD0S}
-  - {name: conservative system, kind: definition, decl: MeasureTheory.Conservative, wikipedia: Conservative system, wikidata: Q9077988}
-  - {name: ergodicity, kind: definition, decl: Ergodic, wikipedia: Ergodicity, wikidata: Q5426803}
-  - {name: Birkhoff sum and average, kind: definition, decl: birkhoffAverage, wikipedia: Ergodic theory, wikidata: Q5498822}
-  - {name: Birkhoff's ergodic theorem, kind: statement, wikipedia: Ergodic theory, wikidata: Q5498822}
-  - {name: von Neumann mean ergodic theorem, kind: statement, decl: ContinuousLinearMap.tendsto_birkhoffAverage_orthogonalProjection, wikipedia: Ergodic theory, wikidata: Q5498822}
-  - {name: maximal ergodic theorem, kind: statement, wikipedia: Maximal ergodic theorem, wikidata: Q6795637}
-  - {name: Kingman's subadditive ergodic theorem, kind: statement, wikipedia: Kingman's subadditive ergodic theorem, wikidata: Q22906153}
-  - {name: Oseledets theorem, kind: statement, wikipedia: Oseledets theorem, wikidata: Q7106480}
-  - {name: ergodic decomposition, kind: statement, decl: Ergodic.iff_mem_extremePoints, wikipedia: Ergodicity, wikidata: Q5426803}
-  - {name: unique ergodicity, kind: definition, wikipedia: Ergodicity, wikidata: Q5426803}
-  - {name: mixing, kind: definition, wikipedia: Mixing (mathematics), wikidata: Q4350572}
-  - {name: weak mixing, kind: definition, wikipedia: Mixing (mathematics), wikidata: Q4350572}
-  - {name: Kolmogorov automorphism, kind: definition, wikipedia: Kolmogorov automorphism, wikidata: Q6427427}
-  - {name: Bernoulli scheme, kind: example, wikipedia: Bernoulli scheme, wikidata: Q3042439}
+  - {name: conservative system, kind: definition, decl: MeasureTheory.Conservative, wikipedia: Conservative system, wikidata: Q9077988, node: MPE4AWEP6K}
+  - {name: ergodicity, kind: definition, decl: Ergodic, wikipedia: Ergodicity, wikidata: Q5426803, node: AZRPHS478B}
+  - {name: Birkhoff sum and average, kind: definition, decl: birkhoffAverage, wikipedia: Ergodic theory, wikidata: Q5498822, node: 8TD2KCVH5N}
+  - {name: Birkhoff's ergodic theorem, kind: statement, wikipedia: Ergodic theory, wikidata: Q5498822, node: J6NMBX3E55}
+  - {name: von Neumann mean ergodic theorem, kind: statement, decl: ContinuousLinearMap.tendsto_birkhoffAverage_orthogonalProjection, wikipedia: Ergodic theory, wikidata: Q5498822, node: PQPDQCCD02}
+  - {name: maximal ergodic theorem, kind: statement, wikipedia: Maximal ergodic theorem, wikidata: Q6795637, node: V7PA1V3N0K}
+  - {name: Kingman's subadditive ergodic theorem, kind: statement, wikipedia: Kingman's subadditive ergodic theorem, wikidata: Q22906153, node: 833XVEEZCJ}
+  - {name: Oseledets theorem, kind: statement, wikipedia: Oseledets theorem, wikidata: Q7106480, node: NJ1PDJ3S4R}
+  - {name: ergodic decomposition, kind: statement, decl: Ergodic.iff_mem_extremePoints, wikipedia: Ergodicity, wikidata: Q5426803, node: 21RJ8035KP}
+  - {name: unique ergodicity, kind: definition, wikipedia: Ergodicity, wikidata: Q5426803, node: NZZE9KCAD8}
+  - {name: mixing, kind: definition, wikipedia: Mixing (mathematics), wikidata: Q4350572, node: S3RJQ9CX2P}
+  - {name: weak mixing, kind: definition, wikipedia: Mixing (mathematics), wikidata: Q4350572, node: 2MGZFRH5PX}
+  - {name: Kolmogorov automorphism, kind: definition, wikipedia: Kolmogorov automorphism, wikidata: Q6427427, node: YRHJA7C7HS}
+  - {name: Bernoulli scheme, kind: example, wikipedia: Bernoulli scheme, wikidata: Q3042439, node: D33JK3AXRZ}
   - {name: Bernoulli process, kind: example, wikipedia: Bernoulli process, wikidata: Q518831, node: 0CQQG3DEW9}
-  - {name: irrational rotation, kind: example, wikipedia: Irrational rotation, wikidata: Q6073537}
-  - {name: Weyl's equidistribution theorem, kind: statement, wikipedia: Equidistribution theorem, wikidata: Q3984052}
-  - {name: dyadic transformation, kind: example, wikipedia: Dyadic transformation, wikidata: Q826704}
-  - {name: Gauss map, kind: example, wikipedia: Gauss–Kuzmin–Wirsing operator, wikidata: Q3354602}
-  - {name: Baker's map, kind: example, wikipedia: Baker's map, wikidata: Q1018917}
-  - {name: interval exchange transformation, kind: example, wikipedia: Interval exchange transformation, wikidata: Q17081747}
-  - {name: Kolmogorov–Sinai entropy, kind: definition, wikipedia: Measure-preserving dynamical system, wikidata: Q1003225}
-  - {name: Ornstein isomorphism theorem, kind: statement, wikipedia: Ornstein isomorphism theorem, wikidata: Q7103669}
-  - {name: Shannon–McMillan–Breiman theorem, kind: statement, wikipedia: Asymptotic equipartition property, wikidata: Q4812181}
-  - {name: Sinai's factor theorem, kind: statement, wikipedia: Measure-preserving dynamical system, wikidata: Q1003225}
-  - {name: spectral theory of dynamical systems, kind: concept, wikipedia: Koopman–von Neumann classical mechanics, wikidata: Q4455091}
-  - {name: Koopman operator, kind: definition, wikipedia: Composition operator, wikidata: Q5156798}
-  - {name: transfer operator, kind: definition, wikipedia: Transfer operator, wikidata: Q3354606}
-  - {name: Halmos–von Neumann theorem, kind: statement, wikipedia: Measure-preserving dynamical system, wikidata: Q1003225}
-  - {name: Furstenberg's multiple recurrence theorem, kind: statement, wikipedia: Szemerédi's theorem, wikidata: Q1046232}
+  - {name: irrational rotation, kind: example, wikipedia: Irrational rotation, wikidata: Q6073537, node: 2Q1J7RZ4TK}
+  - {name: Weyl's equidistribution theorem, kind: statement, wikipedia: Equidistribution theorem, wikidata: Q3984052, node: NCCGNTBEYV}
+  - {name: dyadic transformation, kind: example, wikipedia: Dyadic transformation, wikidata: Q826704, node: HTWWJNSZNQ}
+  - {name: Gauss map, kind: example, wikipedia: Gauss–Kuzmin–Wirsing operator, wikidata: Q3354602, node: MRKVM2VVNN}
+  - {name: Baker's map, kind: example, wikipedia: Baker's map, wikidata: Q1018917, node: 12V4MHVV0N}
+  - {name: interval exchange transformation, kind: example, wikipedia: Interval exchange transformation, wikidata: Q17081747, node: 19JFF3GY9F}
+  - {name: Kolmogorov–Sinai entropy, kind: definition, wikipedia: Measure-preserving dynamical system, wikidata: Q1003225, node: X1D1C7VH6P}
+  - {name: Ornstein isomorphism theorem, kind: statement, wikipedia: Ornstein isomorphism theorem, wikidata: Q7103669, node: 8H4GF58E9M}
+  - {name: Shannon–McMillan–Breiman theorem, kind: statement, wikipedia: Asymptotic equipartition property, wikidata: Q4812181, node: HK8339ECNN}
+  - {name: Sinai's factor theorem, kind: statement, wikipedia: Measure-preserving dynamical system, wikidata: Q1003225, node: ACQ7A58XY7}
+  - {name: spectral theory of dynamical systems, kind: concept, wikipedia: Koopman–von Neumann classical mechanics, wikidata: Q4455091, node: Z7GZ6SPFA5}
+  - {name: Koopman operator, kind: definition, wikipedia: Composition operator, wikidata: Q5156798, node: 37TRG5DBQC}
+  - {name: transfer operator, kind: definition, wikipedia: Transfer operator, wikidata: Q3354606, node: CNZV00JQRC}
+  - {name: Halmos–von Neumann theorem, kind: statement, wikipedia: Measure-preserving dynamical system, wikidata: Q1003225, node: AS18AWFXSB}
+  - {name: Furstenberg's multiple recurrence theorem, kind: statement, wikipedia: Szemerédi's theorem, wikidata: Q1046232, node: E459H2B2EM}
   - {name: Szemerédi's theorem, kind: statement, wikipedia: Szemerédi's theorem, wikidata: Q1046232, node: B23B0QEMN5}
   - {name: Green–Tao theorem, kind: statement, wikipedia: Green–Tao theorem, wikidata: Q922012, node: H8BAHWSEMC}
   - {name: van der Waerden's theorem, kind: statement, decl: Combinatorics.exists_mono_homothetic_copy, wikipedia: Van der Waerden's theorem, wikidata: Q764287, mathlib: [mathlib-overview, mathlib-1000], node: V96FRZ2ME1}
-  - {name: Rokhlin lemma, kind: statement, wikipedia: Rokhlin lemma, wikidata: Q21069246}
-  - {name: amenable group action, kind: concept, wikipedia: Amenable group, wikidata: Q1857002}
+  - {name: Rokhlin lemma, kind: statement, wikipedia: Rokhlin lemma, wikidata: Q21069246, node: F1CCCF4V83}
+  - {name: amenable group action, kind: concept, wikipedia: Amenable group, wikidata: Q1857002, node: ZCG4DJ7GH3}
   - {name: Ratner's theorems, kind: statement, wikipedia: Ratner's theorems, wikidata: Q7295875, node: 3MXR03096V}
   - {name: Oppenheim conjecture, kind: statement, wikipedia: Oppenheim conjecture, wikidata: Q7098547, node: 4S50G4PS26}
   - {name: Littlewood conjecture, kind: conjecture, wikipedia: Littlewood conjecture, wikidata: Q6653177, node: P8D6T5A1QD}
-  - {name: Kac's lemma, kind: statement, wikipedia: Kac's lemma, wikidata: Q97032821}
-  - {name: ergodic hypothesis, kind: concept, wikipedia: Ergodic hypothesis, wikidata: Q174196}
-  - {name: quasi-ergodicity, kind: definition, decl: QuasiErgodic, wikipedia: Ergodicity, wikidata: Q5426803}
+  - {name: Kac's lemma, kind: statement, wikipedia: Kac's lemma, wikidata: Q97032821, node: J80FB2BWNF}
+  - {name: ergodic hypothesis, kind: concept, wikipedia: Ergodic hypothesis, wikidata: Q174196, node: NKNSCK1JY2}
+  - {name: quasi-ergodicity, kind: definition, decl: QuasiErgodic, wikipedia: Ergodicity, wikidata: Q5426803, node: F43HXQD0T6}
   # Topological dynamics
-  - {name: topological dynamics, kind: concept, wikipedia: Topological dynamics, wikidata: Q7825032}
-  - {name: minimal set, kind: definition, decl: MulAction.IsMinimal, wikipedia: Topological dynamics, wikidata: Q7825032}
-  - {name: recurrent point, kind: definition, wikipedia: Recurrent point, wikidata: Q7303259}
-  - {name: wandering set, kind: definition, wikipedia: Wandering set, wikidata: Q2506703}
-  - {name: non-wandering set, kind: definition, wikipedia: Wandering set, wikidata: Q2506703}
-  - {name: chain recurrence, kind: definition, wikipedia: Conley's fundamental theorem of dynamical systems, wikidata: Q122143261}
+  - {name: topological dynamics, kind: concept, wikipedia: Topological dynamics, wikidata: Q7825032, node: 5X6E97EMFR}
+  - {name: minimal set, kind: definition, decl: MulAction.IsMinimal, wikipedia: Topological dynamics, wikidata: Q7825032, node: CRGZZKQ7Z9}
+  - {name: recurrent point, kind: definition, wikipedia: Recurrent point, wikidata: Q7303259, node: 4SQHHRPKMV}
+  - {name: wandering set, kind: definition, wikipedia: Wandering set, wikidata: Q2506703, node: VNW5FHCQ2M}
+  - {name: non-wandering set, kind: definition, wikipedia: Wandering set, wikidata: Q2506703, node: EY2W34JZA4}
+  - {name: chain recurrence, kind: definition, wikipedia: Conley's fundamental theorem of dynamical systems, wikidata: Q122143261, node: 6MX5R482KJ}
   - {name: Conley's fundamental theorem, kind: statement, wikipedia: Conley's fundamental theorem of dynamical systems, wikidata: Q122143261}
-  - {name: Conley index, kind: definition, wikipedia: Conley index theory, wikidata: Q5161242}
-  - {name: topological transitivity, kind: definition, wikipedia: Mixing (mathematics), wikidata: Q4350572}
-  - {name: topological mixing, kind: definition, wikipedia: Mixing (mathematics), wikidata: Q4350572}
-  - {name: topological entropy, kind: definition, decl: Dynamics.coverEntropy, wikipedia: Topological entropy, wikidata: Q3055355}
+  - {name: Conley index, kind: definition, wikipedia: Conley index theory, wikidata: Q5161242, node: B3AZ4W0NGT}
+  - {name: topological transitivity, kind: definition, wikipedia: Mixing (mathematics), wikidata: Q4350572, node: FR49Y9GQHR}
+  - {name: topological mixing, kind: definition, wikipedia: Mixing (mathematics), wikidata: Q4350572, node: B763QH5521}
+  - {name: topological entropy, kind: definition, decl: Dynamics.coverEntropy, wikipedia: Topological entropy, wikidata: Q3055355, node: BDZYBXBFDE}
   - {name: variational principle for entropy, kind: statement, wikipedia: Topological entropy, wikidata: Q3055355}
-  - {name: expansive homeomorphism, kind: definition, wikipedia: Expansive homeomorphism, wikidata: Q5420801}
-  - {name: shadowing lemma, kind: statement, wikipedia: Shadowing lemma, wikidata: Q7460736}
-  - {name: equicontinuous system, kind: definition, wikipedia: Equicontinuity, wikidata: Q249092}
-  - {name: Devaney chaos, kind: definition, wikipedia: Chaos theory, wikidata: Q166314}
-  - {name: Sharkovskii's theorem, kind: statement, wikipedia: Sharkovskii's theorem, wikidata: Q2226855}
-  - {name: period three implies chaos, kind: statement, wikipedia: Sharkovskii's theorem, wikidata: Q2226855}
-  - {name: Lefschetz fixed-point theorem, kind: statement, wikipedia: Lefschetz fixed-point theorem, wikidata: Q657469}
-  - {name: Brouwer fixed-point theorem, kind: statement, wikipedia: Brouwer fixed-point theorem, wikidata: Q1144897}
-  - {name: Poincaré–Birkhoff theorem, kind: statement, wikipedia: Poincaré–Birkhoff theorem, wikidata: Q3527140}
+  - {name: expansive homeomorphism, kind: definition, wikipedia: Expansive homeomorphism, wikidata: Q5420801, node: TAFJV2YWKR}
+  - {name: shadowing lemma, kind: statement, wikipedia: Shadowing lemma, wikidata: Q7460736, node: N7C06T3KCZ}
+  - {name: equicontinuous system, kind: definition, wikipedia: Equicontinuity, wikidata: Q249092, node: NSVEH6VMX8}
+  - {name: Devaney chaos, kind: definition, wikipedia: Chaos theory, wikidata: Q166314, node: 21B8AHPD4P}
+  - {name: Sharkovskii's theorem, kind: statement, wikipedia: Sharkovskii's theorem, wikidata: Q2226855, node: YBCZ9VY7SX}
+  - {name: period three implies chaos, kind: statement, wikipedia: Sharkovskii's theorem, wikidata: Q2226855, node: 93VXAB8JYS}
+  - {name: Lefschetz fixed-point theorem, kind: statement, wikipedia: Lefschetz fixed-point theorem, wikidata: Q657469, node: G44NQXCWT9}
+  - {name: Brouwer fixed-point theorem, kind: statement, wikipedia: Brouwer fixed-point theorem, wikidata: Q1144897, node: N7AAJ2MW5T}
+  - {name: Poincaré–Birkhoff theorem, kind: statement, wikipedia: Poincaré–Birkhoff theorem, wikidata: Q3527140, node: K7MR77CHP6}
   # Symbolic dynamics
-  - {name: symbolic dynamics, kind: concept, wikipedia: Symbolic dynamics, wikidata: Q1350838}
-  - {name: shift space, kind: definition, wikipedia: Shift space, wikidata: Q7496253}
-  - {name: subshift of finite type, kind: definition, wikipedia: Subshift of finite type, wikidata: Q7631990}
-  - {name: Markov partition, kind: definition, wikipedia: Markov partition, wikidata: Q15978248}
-  - {name: Curtis–Hedlund–Lyndon theorem, kind: statement, wikipedia: Curtis–Hedlund–Lyndon theorem, wikidata: Q5195996}
-  - {name: cellular automaton, kind: concept, wikipedia: Cellular automaton, wikidata: Q189156}
-  - {name: Garden of Eden theorem, kind: statement, wikipedia: Garden of Eden (cellular automaton), wikidata: Q1974793}
+  - {name: symbolic dynamics, kind: concept, wikipedia: Symbolic dynamics, wikidata: Q1350838, node: EWFWTSVY0B}
+  - {name: shift space, kind: definition, wikipedia: Shift space, wikidata: Q7496253, node: A1XE59ZHNM}
+  - {name: subshift of finite type, kind: definition, wikipedia: Subshift of finite type, wikidata: Q7631990, node: 624XDXX8FN}
+  - {name: Markov partition, kind: definition, wikipedia: Markov partition, wikidata: Q15978248, node: 4VNHVDHTNN}
+  - {name: Curtis–Hedlund–Lyndon theorem, kind: statement, wikipedia: Curtis–Hedlund–Lyndon theorem, wikidata: Q5195996, node: N35QM9G83G}
+  - {name: cellular automaton, kind: concept, wikipedia: Cellular automaton, wikidata: Q189156, node: 5QXNC6NTVN}
+  - {name: Garden of Eden theorem, kind: statement, wikipedia: Garden of Eden (cellular automaton), wikidata: Q1974793, node: 2H1XHWDACH}
   - {name: Thue–Morse sequence, kind: example, wikipedia: Thue–Morse sequence, wikidata: Q1477120, node: 7JZVT385PC}
-  - {name: Sturmian word, kind: example, wikipedia: Sturmian word, wikidata: Q3325046}
-  - {name: substitution tiling, kind: concept, wikipedia: Substitution tiling, wikidata: Q7632143}
-  - {name: Wang tile, kind: example, wikipedia: Wang tile, wikidata: Q474147}
+  - {name: Sturmian word, kind: example, wikipedia: Sturmian word, wikidata: Q3325046, node: XG4D9FF51T}
+  - {name: substitution tiling, kind: concept, wikipedia: Substitution tiling, wikidata: Q7632143, node: BAN4VASZF0}
+  - {name: Wang tile, kind: example, wikipedia: Wang tile, wikidata: Q474147, node: BBYNPDWR5R}
   - {name: Perron–Frobenius theorem, kind: statement, wikipedia: Perron–Frobenius theorem, wikidata: Q1564541, node: 62NS7PV1M9}
-  - {name: Parry measure, kind: definition, wikipedia: Subshift of finite type, wikidata: Q7631990}
+  - {name: Parry measure, kind: definition, wikipedia: Subshift of finite type, wikidata: Q7631990, node: 1C2TEAKJHJ}
   # Smooth and hyperbolic dynamics
-  - {name: smooth dynamical system, kind: concept, wikipedia: Dynamical system, wikidata: Q638328}
-  - {name: vector field flow, kind: definition, decl: IsIntegralCurve, wikipedia: Vector field, wikidata: Q186247}
+  - {name: smooth dynamical system, kind: concept, wikipedia: Dynamical system, wikidata: Q638328, node: 116TPXR5FS}
+  - {name: vector field flow, kind: definition, decl: IsIntegralCurve, wikipedia: Vector field, wikidata: Q186247, node: 06738GGWWK}
   - {name: hyperbolic fixed point, kind: definition, wikipedia: Hyperbolic equilibrium point, wikidata: Q3925833, node: 0C5PREPZWG}
   - {name: Hartman–Grobman theorem, kind: statement, wikipedia: Hartman–Grobman theorem, wikidata: Q211981, node: 0S8WX8A4V9}
   - {name: stable manifold theorem, kind: statement, wikipedia: Stable manifold theorem, wikidata: Q7595768, node: WF22KK7C3R}
-  - {name: center manifold theorem, kind: statement, wikipedia: Center manifold, wikidata: Q4504202}
-  - {name: hyperbolic set, kind: definition, wikipedia: Hyperbolic set, wikidata: Q3042004}
-  - {name: Anosov diffeomorphism, kind: definition, wikipedia: Anosov diffeomorphism, wikidata: Q56297274}
-  - {name: Anosov flow, kind: definition, wikipedia: Anosov diffeomorphism, wikidata: Q56297274}
-  - {name: Arnold's cat map, kind: example, wikipedia: Arnold's cat map, wikidata: Q2961488}
-  - {name: geodesic flow, kind: example, wikipedia: Geodesic, wikidata: Q213488}
-  - {name: horocycle flow, kind: example, wikipedia: Horocycle, wikidata: Q2246795}
-  - {name: Smale horseshoe, kind: example, wikipedia: Horseshoe map, wikidata: Q557781}
+  - {name: center manifold theorem, kind: statement, wikipedia: Center manifold, wikidata: Q4504202, node: 4DEGC6JADR}
+  - {name: hyperbolic set, kind: definition, wikipedia: Hyperbolic set, wikidata: Q3042004, node: MPFD24TYW2}
+  - {name: Anosov diffeomorphism, kind: definition, wikipedia: Anosov diffeomorphism, wikidata: Q56297274, node: RCQH8P6DPQ}
+  - {name: Anosov flow, kind: definition, wikipedia: Anosov diffeomorphism, wikidata: Q56297274, node: 8FQJXSA4DT}
+  - {name: Arnold's cat map, kind: example, wikipedia: Arnold's cat map, wikidata: Q2961488, node: BSCZN8Y1AN}
+  - {name: geodesic flow, kind: example, wikipedia: Geodesic, wikidata: Q213488, node: VF43FTDA1H}
+  - {name: horocycle flow, kind: example, wikipedia: Horocycle, wikidata: Q2246795, node: 2DC88BMQVX}
+  - {name: Smale horseshoe, kind: example, wikipedia: Horseshoe map, wikidata: Q557781, node: N63Z6EA6YS}
   - {name: solenoid, kind: example, wikipedia: Solenoid (mathematics), wikidata: Q3489713, node: 1PBQ6ARWND}
-  - {name: Axiom A, kind: definition, wikipedia: Axiom A, wikidata: Q4059942}
+  - {name: Axiom A, kind: definition, wikipedia: Axiom A, wikidata: Q4059942, node: Z26Z4XZFVA}
   - {name: spectral decomposition, kind: statement, wikipedia: Axiom A, wikidata: Q4059942}
-  - {name: Morse–Smale system, kind: definition, wikipedia: Morse–Smale system, wikidata: Q6914276}
+  - {name: Morse–Smale system, kind: definition, wikipedia: Morse–Smale system, wikidata: Q6914276, node: 7AMQ8GS78Y}
   - {name: structural stability, kind: definition, wikipedia: Structural stability, wikidata: Q1648886, node: D4MGFAHVMT}
-  - {name: stability conjecture, kind: statement, wikipedia: Structural stability, wikidata: Q1648886}
+  - {name: stability conjecture, kind: statement, wikipedia: Structural stability, wikidata: Q1648886, node: XGNX9R7Q0Y}
   - {name: Peixoto's theorem, kind: statement, wikipedia: Peixoto's theorem, wikidata: Q7160983, node: TDCY8TASCS}
-  - {name: closing lemma, kind: statement, wikipedia: Pugh's closing lemma, wikidata: Q7258945}
-  - {name: Smale's problems on dynamics, kind: problem, wikipedia: Smale's problems, wikidata: Q2664496}
+  - {name: closing lemma, kind: statement, wikipedia: Pugh's closing lemma, wikidata: Q7258945, node: E1Z444F6TV}
+  - {name: Smale's problems on dynamics, kind: problem, wikipedia: Smale's problems, wikidata: Q2664496, node: G14BVRT221}
   - {name: Lyapunov exponent, kind: definition, wikipedia: Lyapunov exponent, wikidata: Q1238630, node: NJ1FJSNK6A}
-  - {name: Pesin theory, kind: concept, wikipedia: Lyapunov exponent, wikidata: Q1238630}
-  - {name: Sinai–Ruelle–Bowen measure, kind: definition, wikipedia: Sinai–Ruelle–Bowen measure, wikidata: Q104867754}
-  - {name: Gibbs measure, kind: definition, wikipedia: Gibbs measure, wikidata: Q2510435}
-  - {name: Ruelle zeta function, kind: definition, wikipedia: Ruelle zeta function, wikidata: Q7377817}
-  - {name: Artin–Mazur zeta function, kind: definition, wikipedia: Artin–Mazur zeta function, wikidata: Q713051}
-  - {name: dynamical billiards, kind: concept, wikipedia: Dynamical billiards, wikidata: Q2903467}
-  - {name: Sinai billiard, kind: example, wikipedia: Dynamical billiards, wikidata: Q2903467}
-  - {name: Bunimovich stadium, kind: example, wikipedia: Dynamical billiards, wikidata: Q2903467}
+  - {name: Pesin theory, kind: concept, wikipedia: Lyapunov exponent, wikidata: Q1238630, node: ZHKS81A7QN}
+  - {name: Sinai–Ruelle–Bowen measure, kind: definition, wikipedia: Sinai–Ruelle–Bowen measure, wikidata: Q104867754, node: 256NP6JBEQ}
+  - {name: Gibbs measure, kind: definition, wikipedia: Gibbs measure, wikidata: Q2510435, node: DG9F3W6MZM}
+  - {name: Ruelle zeta function, kind: definition, wikipedia: Ruelle zeta function, wikidata: Q7377817, node: ENYXKW76AA}
+  - {name: Artin–Mazur zeta function, kind: definition, wikipedia: Artin–Mazur zeta function, wikidata: Q713051, node: 2A5Z21CE4P}
+  - {name: dynamical billiards, kind: concept, wikipedia: Dynamical billiards, wikidata: Q2903467, node: XWMKYE038F}
+  - {name: Sinai billiard, kind: example, wikipedia: Dynamical billiards, wikidata: Q2903467, node: GX9Q2PYNZE}
+  - {name: Bunimovich stadium, kind: example, wikipedia: Dynamical billiards, wikidata: Q2903467, node: YYB1JP7TWJ}
   - {name: Lorenz system, kind: example, wikipedia: Lorenz system, wikidata: Q899844, node: WYRC41CQN9}
   - {name: Hénon map, kind: example, wikipedia: Hénon map, wikidata: Q1642961}
-  - {name: Smale's fourteenth problem, kind: problem, wikipedia: Lorenz system, wikidata: Q899844}
+  - {name: Smale's fourteenth problem, kind: problem, wikipedia: Lorenz system, wikidata: Q899844, node: VDVQD2HFSD}
   # Low-dimensional dynamics
-  - {name: circle map, kind: definition, wikipedia: Arnold tongue, wikidata: Q2040587}
-  - {name: rotation number, kind: definition, decl: CircleDeg1Lift.translationNumber, wikipedia: Rotation number, wikidata: Q643156, mathlib: [mathlib-overview]}
-  - {name: Poincaré classification of circle homeomorphisms, kind: statement, wikipedia: Rotation number, wikidata: Q643156}
-  - {name: Denjoy theorem on rotation number, kind: statement, wikipedia: Denjoy's theorem on rotation number, wikidata: Q4454940}
-  - {name: Arnold tongue, kind: concept, wikipedia: Arnold tongue, wikidata: Q2040587}
-  - {name: logistic map, kind: example, wikipedia: Logistic map, wikidata: Q587182}
-  - {name: tent map, kind: example, wikipedia: Tent map, wikidata: Q11319849}
-  - {name: Feigenbaum constants, kind: object, wikipedia: Feigenbaum constants, wikidata: Q673184}
-  - {name: period-doubling bifurcation, kind: concept, wikipedia: Period-doubling bifurcation, wikidata: Q2181373}
-  - {name: Milnor–Thurston kneading theory, kind: statement, wikipedia: Milnor–Thurston kneading theory, wikidata: Q17103861}
+  - {name: circle map, kind: definition, wikipedia: Arnold tongue, wikidata: Q2040587, node: N2SVK69S53}
+  - {name: rotation number, kind: definition, decl: CircleDeg1Lift.translationNumber, wikipedia: Rotation number, wikidata: Q643156, mathlib: [mathlib-overview], node: DP4WWQBJJF}
+  - {name: Poincaré classification of circle homeomorphisms, kind: statement, wikipedia: Rotation number, wikidata: Q643156, node: 5N5SDY3K53}
+  - {name: Denjoy theorem on rotation number, kind: statement, wikipedia: Denjoy's theorem on rotation number, wikidata: Q4454940, node: Q7GKAMT3P9}
+  - {name: Arnold tongue, kind: concept, wikipedia: Arnold tongue, wikidata: Q2040587, node: WQF5ASXZTH}
+  - {name: logistic map, kind: example, wikipedia: Logistic map, wikidata: Q587182, node: QN9X9BNKTX}
+  - {name: tent map, kind: example, wikipedia: Tent map, wikidata: Q11319849, node: D0A22MEB1F}
+  - {name: Feigenbaum constants, kind: object, wikipedia: Feigenbaum constants, wikidata: Q673184, node: F1EHT2CPHC}
+  - {name: period-doubling bifurcation, kind: concept, wikipedia: Period-doubling bifurcation, wikidata: Q2181373, node: NQDTTZ59X8}
+  - {name: Milnor–Thurston kneading theory, kind: statement, wikipedia: Milnor–Thurston kneading theory, wikidata: Q17103861, node: 3N54R6HR05}
   - {name: Schwarzian derivative, kind: definition, wikipedia: Schwarzian derivative, wikidata: Q864589, node: 6ZPKWE0VAZ}
-  - {name: Singer's theorem, kind: statement, wikipedia: Schwarzian derivative, wikidata: Q864589}
-  - {name: Jakobson's theorem, kind: statement, wikipedia: Logistic map, wikidata: Q587182}
-  - {name: Nielsen–Thurston classification, kind: statement, wikipedia: Nielsen–Thurston classification, wikidata: Q7031628}
-  - {name: pseudo-Anosov map, kind: definition, wikipedia: Pseudo-Anosov map, wikidata: Q7254395}
-  - {name: translation surface, kind: definition, wikipedia: Translation surface, wikidata: Q2449377}
-  - {name: Masur–Veech theorem, kind: statement, wikipedia: Translation surface, wikidata: Q2449377}
+  - {name: Singer's theorem, kind: statement, wikipedia: Schwarzian derivative, wikidata: Q864589, node: Y2DKZH3CCT}
+  - {name: Jakobson's theorem, kind: statement, wikipedia: Logistic map, wikidata: Q587182, node: W49VGF1WDE}
+  - {name: Nielsen–Thurston classification, kind: statement, wikipedia: Nielsen–Thurston classification, wikidata: Q7031628, node: PKP7RVAZK6}
+  - {name: pseudo-Anosov map, kind: definition, wikipedia: Pseudo-Anosov map, wikidata: Q7254395, node: GYW7GYABD9}
+  - {name: translation surface, kind: definition, wikipedia: Translation surface, wikidata: Q2449377, node: CEHHBBD6NT}
+  - {name: Masur–Veech theorem, kind: statement, wikipedia: Translation surface, wikidata: Q2449377, node: VA8R0TZCKB}
   # Complex dynamics
-  - {name: complex dynamics, kind: concept, wikipedia: Complex dynamics, wikidata: Q264224}
-  - {name: Julia set, kind: definition, wikipedia: Julia set, wikidata: Q848427}
-  - {name: Fatou set, kind: definition, wikipedia: Julia set, wikidata: Q848427}
-  - {name: Mandelbrot set, kind: object, wikipedia: Mandelbrot set, wikidata: Q257}
+  - {name: complex dynamics, kind: concept, wikipedia: Complex dynamics, wikidata: Q264224, node: BQQZ0ZCGQF}
+  - {name: Julia set, kind: definition, wikipedia: Julia set, wikidata: Q848427, node: 5M4S7P04GR}
+  - {name: Fatou set, kind: definition, wikipedia: Julia set, wikidata: Q848427, node: C0N0XGC6GK}
+  - {name: Mandelbrot set, kind: object, wikipedia: Mandelbrot set, wikidata: Q257, node: QSWSVYRCS1}
   - {name: MLC conjecture, kind: conjecture, wikipedia: Mandelbrot set, wikidata: Q257}
   - {name: density of hyperbolicity conjecture, kind: conjecture, wikipedia: Mandelbrot set, wikidata: Q257}
-  - {name: Sullivan's no wandering domains theorem, kind: statement, wikipedia: No-wandering-domain theorem, wikidata: Q4455025}
-  - {name: classification of Fatou components, kind: statement, wikipedia: Classification of Fatou components, wikidata: Q4223035}
-  - {name: Siegel disc, kind: definition, wikipedia: Siegel disc, wikidata: Q4162128}
-  - {name: Herman ring, kind: definition, wikipedia: Herman ring, wikidata: Q4228993}
-  - {name: Koenigs linearization theorem, kind: statement, wikipedia: Koenigs function, wikidata: Q4493449}
-  - {name: Böttcher's equation, kind: statement, wikipedia: Böttcher's equation, wikidata: Q5005188}
-  - {name: Brjuno number, kind: definition, wikipedia: Brjuno number, wikidata: Q4971764}
-  - {name: external ray, kind: definition, wikipedia: External ray, wikidata: Q5422043}
-  - {name: Newton fractal, kind: example, wikipedia: Newton fractal, wikidata: Q1151001}
-  - {name: Lattès map, kind: example, wikipedia: Lattès map, wikidata: Q6497180}
-  - {name: quadratic polynomial dynamics, kind: concept, wikipedia: Complex quadratic polynomial, wikidata: Q5156597}
-  - {name: Eremenko's conjecture, kind: conjecture, wikipedia: Escaping set, wikidata: Q15924675}
+  - {name: Sullivan's no wandering domains theorem, kind: statement, wikipedia: No-wandering-domain theorem, wikidata: Q4455025, node: C9FDR4BGMG}
+  - {name: classification of Fatou components, kind: statement, wikipedia: Classification of Fatou components, wikidata: Q4223035, node: FA37X4AFFB}
+  - {name: Siegel disc, kind: definition, wikipedia: Siegel disc, wikidata: Q4162128, node: KNDYA9T8ZK}
+  - {name: Herman ring, kind: definition, wikipedia: Herman ring, wikidata: Q4228993, node: HZX6Q514X8}
+  - {name: Koenigs linearization theorem, kind: statement, wikipedia: Koenigs function, wikidata: Q4493449, node: G02NBNN6CJ}
+  - {name: Böttcher's equation, kind: statement, wikipedia: Böttcher's equation, wikidata: Q5005188, node: YBBDYHBADD}
+  - {name: Brjuno number, kind: definition, wikipedia: Brjuno number, wikidata: Q4971764, node: 5WR304YRST}
+  - {name: external ray, kind: definition, wikipedia: External ray, wikidata: Q5422043, node: CNX4KVMDJQ}
+  - {name: Newton fractal, kind: example, wikipedia: Newton fractal, wikidata: Q1151001, node: CQE378ZVY5}
+  - {name: Lattès map, kind: example, wikipedia: Lattès map, wikidata: Q6497180, node: 9PK608W8MS}
+  - {name: quadratic polynomial dynamics, kind: concept, wikipedia: Complex quadratic polynomial, wikidata: Q5156597, node: WDZFV2ACXR}
+  - {name: Eremenko's conjecture, kind: conjecture, wikipedia: Escaping set, wikidata: Q15924675, node: WWSYQJF7TZ}
   # Bifurcation theory
-  - {name: bifurcation theory, kind: concept, wikipedia: Bifurcation theory, wikidata: Q1154357}
-  - {name: bifurcation diagram, kind: concept, wikipedia: Bifurcation diagram, wikidata: Q2595915}
+  - {name: bifurcation theory, kind: concept, wikipedia: Bifurcation theory, wikidata: Q1154357, node: D9TW46P19Y}
+  - {name: bifurcation diagram, kind: concept, wikipedia: Bifurcation diagram, wikidata: Q2595915, node: 2XDRZV3GSA}
   - {name: saddle-node bifurcation, kind: concept, wikipedia: Saddle-node bifurcation, wikidata: Q740190, node: MAP5J6HK0T}
   - {name: Hopf bifurcation, kind: concept, wikipedia: Hopf bifurcation, wikidata: Q531126, node: F5H8GW1XYS}
-  - {name: homoclinic bifurcation, kind: concept, wikipedia: Bifurcation theory, wikidata: Q1154357}
-  - {name: Shilnikov theorem, kind: statement, wikipedia: Homoclinic orbit, wikidata: Q690494}
-  - {name: crisis, kind: concept, wikipedia: Crisis (dynamical systems), wikidata: Q5185947}
-  - {name: intermittency, kind: concept, wikipedia: Intermittency, wikidata: Q1666248}
-  - {name: catastrophe theory, kind: concept, wikipedia: Catastrophe theory, wikidata: Q1345659}
+  - {name: homoclinic bifurcation, kind: concept, wikipedia: Bifurcation theory, wikidata: Q1154357, node: JQYCTY3Q8V}
+  - {name: Shilnikov theorem, kind: statement, wikipedia: Homoclinic orbit, wikidata: Q690494, node: Q134D9EMAZ}
+  - {name: crisis, kind: concept, wikipedia: Crisis (dynamical systems), wikidata: Q5185947, node: N087STXZKG}
+  - {name: intermittency, kind: concept, wikipedia: Intermittency, wikidata: Q1666248, node: W2FNJ4KBYT}
+  - {name: catastrophe theory, kind: concept, wikipedia: Catastrophe theory, wikidata: Q1345659, node: 6FKJ6SXP3G}
   # Hamiltonian dynamics
   - {name: Hamiltonian system, kind: definition, wikipedia: Hamiltonian system, wikidata: Q2072471, node: 0EDKGA2FAK}
-  - {name: symplectic map, kind: definition, wikipedia: Symplectomorphism, wikidata: Q1049064}
+  - {name: symplectic map, kind: definition, wikipedia: Symplectomorphism, wikidata: Q1049064, node: A8TS2SNX9Z}
   - {name: Liouville's theorem, kind: statement, wikipedia: Liouville's theorem (Hamiltonian), wikidata: Q766722, node: 0EHKVRF4J6}
-  - {name: Liouville–Arnold theorem, kind: statement, wikipedia: Liouville–Arnold theorem, wikidata: Q14943261}
-  - {name: action-angle coordinates, kind: definition, wikipedia: Action-angle coordinates, wikidata: Q1000646}
-  - {name: integrable system, kind: concept, wikipedia: Integrable system, wikidata: Q1957758}
-  - {name: Kolmogorov–Arnold–Moser theorem, kind: statement, wikipedia: Kolmogorov–Arnold–Moser theorem, wikidata: Q587081}
-  - {name: Arnold diffusion, kind: concept, wikipedia: Arnold diffusion, wikidata: Q4795328}
-  - {name: Nekhoroshev estimates, kind: statement, wikipedia: Nekhoroshev estimates, wikidata: Q6989812}
-  - {name: Arnold conjecture, kind: conjecture, wikipedia: Arnold conjecture, wikidata: Q115803233}
-  - {name: standard map, kind: example, wikipedia: Standard map, wikidata: Q2257676}
-  - {name: three-body problem, kind: problem, wikipedia: Three-body problem, wikidata: Q607699}
-  - {name: n-body problem, kind: problem, wikipedia: N-body problem, wikidata: Q1199050}
-  - {name: Fermi–Pasta–Ulam–Tsingou problem, kind: problem, wikipedia: Fermi–Pasta–Ulam–Tsingou problem, wikidata: Q462254}
-  - {name: Toda lattice, kind: example, wikipedia: Toda lattice, wikidata: Q572090}
-  - {name: KdV equation as an integrable system, kind: example, wikipedia: Korteweg–De Vries equation, wikidata: Q601796}
+  - {name: Liouville–Arnold theorem, kind: statement, wikipedia: Liouville–Arnold theorem, wikidata: Q14943261, node: PNQCW85HTJ}
+  - {name: action-angle coordinates, kind: definition, wikipedia: Action-angle coordinates, wikidata: Q1000646, node: M3T81YNSKC}
+  - {name: integrable system, kind: concept, wikipedia: Integrable system, wikidata: Q1957758, node: N0N7CMRCMH}
+  - {name: Kolmogorov–Arnold–Moser theorem, kind: statement, wikipedia: Kolmogorov–Arnold–Moser theorem, wikidata: Q587081, node: 3ZZSXKM16Z}
+  - {name: Arnold diffusion, kind: concept, wikipedia: Arnold diffusion, wikidata: Q4795328, node: ZVY046R4XB}
+  - {name: Nekhoroshev estimates, kind: statement, wikipedia: Nekhoroshev estimates, wikidata: Q6989812, node: PYEN6SFS9P}
+  - {name: Arnold conjecture, kind: conjecture, wikipedia: Arnold conjecture, wikidata: Q115803233, node: HY7VRFBAP9}
+  - {name: standard map, kind: example, wikipedia: Standard map, wikidata: Q2257676, node: 8TEV7CSX2H}
+  - {name: three-body problem, kind: problem, wikipedia: Three-body problem, wikidata: Q607699, node: JE1Z920QKT}
+  - {name: n-body problem, kind: problem, wikipedia: N-body problem, wikidata: Q1199050, node: 62SNWC5E45}
+  - {name: Fermi–Pasta–Ulam–Tsingou problem, kind: problem, wikipedia: Fermi–Pasta–Ulam–Tsingou problem, wikidata: Q462254, node: EBXRM4PFRC}
+  - {name: Toda lattice, kind: example, wikipedia: Toda lattice, wikidata: Q572090, node: ADBEEPPKRR}
+  - {name: KdV equation as an integrable system, kind: example, wikipedia: Korteweg–De Vries equation, wikidata: Q601796, node: 7M1B0JCXSQ}
   - {name: Lax pair, kind: definition, wikipedia: Lax pair, wikidata: Q4115796, node: G3A4S7CSB3}
   # Random, infinite-dimensional and applied dynamics
-  - {name: random dynamical system, kind: definition, wikipedia: Random dynamical system, wikidata: Q7291964}
-  - {name: iterated function system, kind: definition, wikipedia: Iterated function system, wikidata: Q1502167}
-  - {name: global attractor of a dissipative system, kind: concept, wikipedia: Attractor, wikidata: Q507187}
-  - {name: inertial manifold, kind: definition, wikipedia: Inertial manifold, wikidata: Q17098174}
-  - {name: Takens's theorem, kind: statement, wikipedia: Takens's theorem, wikidata: Q11722674}
-  - {name: synchronization of chaos, kind: concept, wikipedia: Synchronization of chaos, wikidata: Q7662148}
-  - {name: Kuramoto model, kind: example, wikipedia: Kuramoto model, wikidata: Q604374}
-  - {name: coupled map lattice, kind: concept, wikipedia: Coupled map lattice, wikidata: Q5178018}
+  - {name: random dynamical system, kind: definition, wikipedia: Random dynamical system, wikidata: Q7291964, node: DMTFJY6CS0}
+  - {name: iterated function system, kind: definition, wikipedia: Iterated function system, wikidata: Q1502167, node: 75B8VHDGSA}
+  - {name: global attractor of a dissipative system, kind: concept, wikipedia: Attractor, wikidata: Q507187, node: 4SH2ZB984E}
+  - {name: inertial manifold, kind: definition, wikipedia: Inertial manifold, wikidata: Q17098174, node: W1F5C7RZ0M}
+  - {name: Takens's theorem, kind: statement, wikipedia: Takens's theorem, wikidata: Q11722674, node: 5RN835HTBD}
+  - {name: synchronization of chaos, kind: concept, wikipedia: Synchronization of chaos, wikidata: Q7662148, node: YP1PMW0HE3}
+  - {name: Kuramoto model, kind: example, wikipedia: Kuramoto model, wikidata: Q604374, node: C2V5P3G2FS}
+  - {name: coupled map lattice, kind: concept, wikipedia: Coupled map lattice, wikidata: Q5178018, node: 77JZ2QRZ4M}
   - {name: Collatz conjecture, kind: conjecture, wikipedia: Collatz conjecture, wikidata: Q837314, node: 6PCQEXEX4N}
   # Arithmetic dynamics
-  - {name: arithmetic dynamics, kind: concept, wikipedia: Arithmetic dynamics, wikidata: Q4791123}
-  - {name: canonical height, kind: definition, wikipedia: Néron–Tate height, wikidata: Q7071452}
+  - {name: arithmetic dynamics, kind: concept, wikipedia: Arithmetic dynamics, wikidata: Q4791123, node: BE4X0QG8XW}
+  - {name: canonical height, kind: definition, wikipedia: Néron–Tate height, wikidata: Q7071452, node: C55ST3TH02}
   - {name: uniform boundedness conjecture for rational points, kind: conjecture, wikipedia: Uniform boundedness conjecture for rational points, wikidata: Q105821090}
-  - {name: dynamical Mordell–Lang conjecture, kind: conjecture, wikipedia: Arithmetic dynamics, wikidata: Q4791123}
-  - {name: p-adic dynamics, kind: concept, wikipedia: P-adic analysis, wikidata: Q2845236}
-  - {name: Berkovich space dynamics, kind: concept, wikipedia: Berkovich space, wikidata: Q4892205}
+  - {name: dynamical Mordell–Lang conjecture, kind: conjecture, wikipedia: Arithmetic dynamics, wikidata: Q4791123, node: 6TV7FR553H}
+  - {name: p-adic dynamics, kind: concept, wikipedia: P-adic analysis, wikidata: Q2845236, node: B6DFK8HCB7}
+  - {name: Berkovich space dynamics, kind: concept, wikipedia: Berkovich space, wikidata: Q4892205, node: 6RM4RWWSSX}

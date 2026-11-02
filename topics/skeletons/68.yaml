@@ -18,7 +18,7 @@ items:
   - {name: probabilistic Turing machine, kind: definition, wikipedia: Probabilistic Turing machine, wikidata: Q1191836}
   - {name: random-access machine, kind: definition, wikipedia: Random-access machine, wikidata: Q2565212}
   - {name: register machine, kind: definition, wikipedia: Register machine, wikidata: Q1930388}
-  - {name: cellular automaton, kind: definition, wikipedia: Cellular automaton, wikidata: Q189156}
+  - {name: cellular automaton, kind: definition, wikipedia: Cellular automaton, wikidata: Q189156, node: 5QXNC6NTVN}
   - {name: Rule 110, kind: example, wikipedia: Rule 110, wikidata: Q1876486}
   - {name: Boolean circuit, kind: definition, wikipedia: Boolean circuit, wikidata: Q837479}
   - {name: decision tree model, kind: definition, wikipedia: Decision tree model, wikidata: Q5249246}

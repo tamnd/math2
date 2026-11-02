@@ -23,7 +23,7 @@ $$\varphi(f) = \int_{E'} e^{i x(f)} \, d\mu(x) \quad \text{for all } f \in E$$
 if and only if these three conditions hold:
 
 1. $\varphi$ is continuous.
-2. $\varphi$ is positive-definite: $\sum_{j,k=1}^n c_j \overline{c_k} \, \varphi(f_j - f_k) \ge 0$ for all $n$, all $f_1, \dots, f_n \in E$ and all $c_1, \dots, c_n \in \C$.
+2. $\varphi$ is [[positive-definite|F73VWGF637]]: $\sum_{j,k=1}^n c_j \overline{c_k} \, \varphi(f_j - f_k) \ge 0$ for all $n$, all $f_1, \dots, f_n \in E$ and all $c_1, \dots, c_n \in \C$.
 3. $\varphi(0) = 1$.
 
 When $\mu$ exists, it is unique.

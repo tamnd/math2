@@ -12,7 +12,7 @@ sources:
 ## Definition
 
 Let $n \ge 0$ and let $U$ and $V$ be [[open subsets|02BH3MCBQB]] of $\R^n$.
-A map $f \colon U \to V$ is *piecewise linear* if $U$ is a union of a locally finite family of simplices in $\R^n$ with $f$ affine on each.
+A map $f \colon U \to V$ is *piecewise linear* if $U$ is a union of a locally finite family of [[simplices|YX1DJK2QAG]] in $\R^n$ with $f$ affine on each.
 Any two simplices of the family must meet in a common face or not at all.
 Let $M$ be a [[topological manifold|QQQ9B1DK4P]] of dimension $n$.
 A *PL atlas* on $M$ is an [[atlas|J7P32JQTVE]] of dimension $n$ all of whose transition maps are piecewise linear.

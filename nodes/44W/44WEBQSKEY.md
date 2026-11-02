@@ -26,7 +26,7 @@ For a surface of revolution with profile parametrized by arc length, $K = -r''(s
 
 The surface is not complete: as $t \to 0$ it ends in a sharp circular edge of radius $1$, where the parametrization stops being regular.
 This agrees with [[Hilbert's theorem|XM772FD0BS]], which says that no complete surface of constant curvature $-1$ sits smoothly and isometrically in $\R^3$.
-Pieces of the pseudosphere are locally isometric to pieces of the hyperbolic plane, so they were used as early models of hyperbolic geometry.
+Pieces of the pseudosphere are locally isometric to pieces of the hyperbolic plane, so they were used as early models of [[hyperbolic geometry|GN4N94GQ0Z]].
 
 ## Explanations
 

@@ -164,7 +164,7 @@ items:
   - {name: Dirac delta, kind: example, wikipedia: Dirac delta function, wikidata: Q209675, node: 0KPHENZ5S7}
   - {name: weak derivative, kind: definition, wikipedia: Weak derivative, wikidata: Q2143116, node: C3EC148VZD}
   - {name: Fourier transform of tempered distributions, kind: concept, decl: SchwartzMap.fourierTransformCLM, wikipedia: Fourier transform, wikidata: Q6520159, mathlib: [mathlib-undergrad], node: 5PVSQXCTCT}
-  - {name: Plancherel theorem, kind: statement, wikipedia: Plancherel theorem, wikidata: Q2096184}
+  - {name: Plancherel theorem, kind: statement, wikipedia: Plancherel theorem, wikidata: Q2096184, node: HPZHRZ0502}
   - {name: Schwartz kernel theorem, kind: statement, wikipedia: Schwartz kernel theorem, wikidata: Q1276318, node: 2ZKWZ0A4MT}
   - {name: fundamental solution, kind: definition, wikipedia: Fundamental solution, wikidata: Q1474123, node: K2NK9A8M5F}
   - {name: Malgrange–Ehrenpreis theorem, kind: statement, wikipedia: Malgrange–Ehrenpreis theorem, wikidata: Q2226750, node: 3173Y813V7}

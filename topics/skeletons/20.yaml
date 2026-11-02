@@ -68,7 +68,7 @@ items:
   - {name: multiply transitive group action, kind: definition, wikipedia: Multiply transitive group action, wikidata: Q4596974, node: BDJ1AX4XBB}
   - {name: primitive permutation group, kind: definition, decl: MulAction.IsPreprimitive, wikipedia: Primitive permutation group, wikidata: Q7243579, node: Y10S0751KG}
   - {name: block system, kind: definition, decl: MulAction.IsBlock, wikipedia: Block (permutation group theory), wikidata: Q4927124, node: SF738NKWJ0}
-  - {name: Jordan's theorem on multiply transitive groups, kind: statement, wikipedia: Jordan's theorem (symmetric group), wikidata: Q6276298}
+  - {name: Jordan's theorem on multiply transitive groups, kind: statement, wikipedia: Jordan's theorem (symmetric group), wikidata: Q6276298, node: 78R2TV41D4}
   - {name: O'Nan–Scott theorem, kind: statement, wikipedia: O'Nan–Scott theorem, wikidata: Q17099479, node: Z4WVANZPK4}
   - {name: Frobenius group, kind: definition, wikipedia: Frobenius group, wikidata: Q1457165, node: JXS91FGFHY}
   - {name: Frobenius's theorem on Frobenius kernels, kind: statement, wikipedia: Frobenius group, wikidata: Q1457165, node: XK7H3YXBQT}

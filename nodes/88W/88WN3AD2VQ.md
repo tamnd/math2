@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-A subdirect product of a family of [[algebras|QJGPT2W0FT]] is a subalgebra of their [[direct product|WJ73XYBNE4]] that still projects onto each factor.
+A subdirect product of a family of [[algebras|QJGPT2W0FT]] is a [[subalgebra|7CHG6SD365]] of their [[direct product|WJ73XYBNE4]] that still projects onto each factor.
 It can be much smaller than the full product, yet it remembers each factor completely.
 By [[Birkhoff's subdirect representation theorem|CZF5696TPY]], every algebra is isomorphic to a subdirect product of [[subdirectly irreducible algebras|DASF939439]].
 

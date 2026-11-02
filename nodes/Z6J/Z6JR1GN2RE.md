@@ -22,7 +22,7 @@ Apply [[reduced homology|NJQMWVK3QK]] in degree $n - 1$: the identity of $\tilde
 For $n = 1$ the argument is simply that $D^1 = [-1, 1]$ is connected and $S^0 = \set{-1, 1}$ is not.
 For smooth retractions there is also a proof by Sard's theorem: the preimage of a regular value would be a compact $1$-manifold with only one boundary point.
 
-Example of use: the theorem gives the Brouwer fixed-point theorem.
+Example of use: the theorem gives the [[Brouwer fixed-point theorem|N7AAJ2MW5T]].
 If $f \colon D^n \to D^n$ had no fixed point, the ray from $f(x)$ through $x$ would meet $S^{n-1}$ in a point $r(x)$, and $r$ would be a retraction of $D^n$ onto $S^{n-1}$.
 
 The ball cannot be replaced by any space: the cylinder $S^{n-1} \times [0, 1]$ retracts onto its end $S^{n-1} \times \set{0}$ by $(x, t) \mapsto (x, 0)$.

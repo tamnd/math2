@@ -17,7 +17,7 @@ Let $S$ be a closed [[surface|VGJJVBZ1MQ]], that is, a compact connected surface
 1. $S$ is homeomorphic to exactly one surface in the following list.
    - The sphere $S^2$.
    - The [[connected sum|Y0K0K5NGWW]] of $g \ge 1$ copies of the [[torus|03NM7DZXXC]] $T^2$.
-   - The connected sum of $k \ge 1$ copies of the real projective plane $\R P^2$.
+   - The connected sum of $k \ge 1$ copies of the [[real projective plane|MWDB7RACWQ]] $\R P^2$.
 2. Two closed surfaces are homeomorphic if and only if both are [[orientable|0TD904MG06]] or both are non-orientable, and they have the same [[Euler characteristic|RNDDWDAFJ5]].
 
 The Euler characteristic of the connected sum of $g$ tori is $2 - 2g$, and that of the connected sum of $k$ projective planes is $2 - k$.

@@ -154,7 +154,7 @@ items:
   - {name: singular integral operator, kind: definition, wikipedia: Singular integral, wikidata: Q888122, node: HTMCEARGDD}
   - {name: Hilbert transform, kind: example, wikipedia: Hilbert transform, wikidata: Q685437, node: NSCEBXM7ZM}
   - {name: Calderón–Zygmund lemma, kind: statement, wikipedia: Calderón–Zygmund lemma, wikidata: Q1707076, node: K1YKXVPVDG}
-  - {name: Fourier multiplier, kind: definition, wikipedia: Multiplier (Fourier analysis), wikidata: Q6935014}
+  - {name: Fourier multiplier, kind: definition, wikipedia: Multiplier (Fourier analysis), wikidata: Q6935014, node: ZQEFCY61T7}
   - {name: Wiener–Hopf method, kind: concept, wikipedia: Wiener–Hopf method, wikidata: Q2079672}
   - {name: pseudo-differential operator, kind: definition, wikipedia: Pseudo-differential operator, wikidata: Q1644451, node: FF27N0BWTP}
   - {name: Fourier integral operator, kind: definition, wikipedia: Fourier integral operator, wikidata: Q4262191, node: EVS4JPEE45}
@@ -162,7 +162,7 @@ items:
   - {name: contraction mapping, kind: definition, decl: ContractingWith, wikipedia: Contraction mapping, wikidata: Q515173, node: 0QN69YA357}
   - {name: Banach fixed-point theorem, kind: statement, decl: ContractingWith.fixedPoint, wikipedia: Banach fixed-point theorem, wikidata: Q220680, node: 0VK6VEH345}
   - {name: nonexpansive map, kind: definition, wikipedia: Metric map, wikidata: Q2713824, node: VF6CA0VE41}
-  - {name: Brouwer fixed-point theorem, kind: statement, wikipedia: Brouwer fixed-point theorem, wikidata: Q1144897}
+  - {name: Brouwer fixed-point theorem, kind: statement, wikipedia: Brouwer fixed-point theorem, wikidata: Q1144897, node: N7AAJ2MW5T}
   - {name: Schauder fixed-point theorem, kind: statement, wikipedia: Schauder fixed-point theorem, wikidata: Q656176, node: DCPFVVZZ54}
   - {name: Schaefer's fixed point theorem, kind: statement, wikipedia: Schauder fixed-point theorem, wikidata: Q656176, node: 7H3YSSDEBK}
   - {name: Kakutani fixed-point theorem, kind: statement, wikipedia: Kakutani fixed-point theorem, wikidata: Q518524, node: 7V3HWGR32Z}
@@ -178,7 +178,7 @@ items:
   - {name: Ekeland's variational principle, kind: statement, wikipedia: Ekeland's variational principle, wikidata: Q1945203, node: MJGPW5EVB3}
   - {name: Palais–Smale compactness condition, kind: definition, wikipedia: Palais–Smale compactness condition, wikidata: Q3686430, node: 4724KRNHAT}
   - {name: mountain pass theorem, kind: statement, wikipedia: Mountain pass theorem, wikidata: Q6925496, node: EPXNCSP2MN}
-  - {name: bifurcation theory, kind: concept, wikipedia: Bifurcation theory, wikidata: Q1154357}
+  - {name: bifurcation theory, kind: concept, wikipedia: Bifurcation theory, wikidata: Q1154357, node: D9TW46P19Y}
   - {name: Newton–Kantorovich theorem, kind: statement, wikipedia: Kantorovich theorem, wikidata: Q2226698, node: 1YDR94WQMZ}
   - {name: proximal operator, kind: definition, wikipedia: Proximal operator, wikidata: Q28130527, node: E239APE78P}
   # Operator spaces and operator algebras

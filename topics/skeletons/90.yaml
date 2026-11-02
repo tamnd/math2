@@ -17,7 +17,7 @@ items:
   - {name: Lagrange multiplier rule for equality constraints, kind: statement, decl: IsLocalExtrOn.exists_multipliers_of_hasStrictFDerivAt, wikipedia: Lagrange multiplier, wikidata: Q598870}
   - {name: operations research, kind: concept, wikipedia: Operations research, wikidata: Q194292}
   # Linear programming
-  - {name: linear programming, kind: concept, wikipedia: Linear programming, wikidata: Q202843}
+  - {name: linear programming, kind: concept, wikipedia: Linear programming, wikidata: Q202843, node: VNMXB0J2KA}
   - {name: linear program in standard form, kind: definition, wikipedia: Linear programming, wikidata: Q202843}
   - {name: basic feasible solution, kind: definition, wikipedia: Basic feasible solution, wikidata: Q60790890}
   - {name: fundamental theorem of linear programming, kind: statement, wikipedia: Fundamental theorem of linear programming, wikidata: Q57498}
@@ -25,9 +25,9 @@ items:
   - {name: weak duality, kind: statement, wikipedia: Weak duality, wikidata: Q7977943}
   - {name: strong duality theorem of linear programming, kind: statement, wikipedia: Strong duality, wikidata: Q7624553}
   - {name: complementary slackness, kind: statement, wikipedia: Linear programming, wikidata: Q202843}
-  - {name: Farkas' lemma, kind: statement, decl: ProperCone.hyperplane_separation, wikipedia: Farkas' lemma, wikidata: Q606254}
-  - {name: Fourier–Motzkin elimination, kind: definition, wikipedia: Fourier–Motzkin elimination, wikidata: Q1440012}
-  - {name: simplex algorithm, kind: definition, wikipedia: Simplex algorithm, wikidata: Q134164}
+  - {name: Farkas' lemma, kind: statement, decl: ProperCone.hyperplane_separation, wikipedia: Farkas' lemma, wikidata: Q606254, node: FYZC634H2D}
+  - {name: Fourier–Motzkin elimination, kind: definition, wikipedia: Fourier–Motzkin elimination, wikidata: Q1440012, node: MJQARBFG10}
+  - {name: simplex algorithm, kind: definition, wikipedia: Simplex algorithm, wikidata: Q134164, node: MH272QHWPM}
   - {name: revised simplex method, kind: definition, wikipedia: Revised simplex method, wikidata: Q17085895}
   - {name: Bland's rule, kind: definition, wikipedia: Bland's rule, wikidata: Q4924975}
   - {name: degeneracy and cycling in the simplex method, kind: concept, wikipedia: Simplex algorithm, wikidata: Q134164}
@@ -129,7 +129,7 @@ items:
   - {name: central path, kind: definition, wikipedia: Interior-point method, wikidata: Q461992}
   # Conic, quadratic and polynomial programming
   - {name: conic optimization, kind: concept, wikipedia: Conic optimization, wikidata: Q2654791}
-  - {name: dual cone, kind: definition, decl: ProperCone.dual, wikipedia: Dual cone and polar cone, wikidata: Q2687694}
+  - {name: dual cone, kind: definition, decl: ProperCone.dual, wikipedia: Dual cone and polar cone, wikidata: Q2687694, node: QFY1JR1TK4}
   - {name: quadratic programming, kind: definition, wikipedia: Quadratic programming, wikidata: Q290117}
   - {name: second-order cone programming, kind: definition, wikipedia: Second-order cone programming, wikidata: Q7442977}
   - {name: semidefinite programming, kind: definition, wikipedia: Semidefinite programming, wikidata: Q2269096}

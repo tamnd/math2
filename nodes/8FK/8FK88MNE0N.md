@@ -11,8 +11,8 @@ sources:
 
 WZ theory, named after Herbert Wilf and Doron Zeilberger, is a method to prove identities of the form $\sum_k F(n, k) = 1$ by computer, see the [[definition|4HP429BZQ5]].
 The proof consists of one rational function, the WZ certificate.
-The certificate turns $F$ into a Wilf–Zeilberger pair, whose defining equation can be checked by algebra alone.
-It applies to sums of hypergeometric terms, such as most identities for [[binomial coefficients|0GBZM0MT0F]], and it relates to Zeilberger's algorithm and Gosper's algorithm.
+The certificate turns $F$ into a [[Wilf–Zeilberger pair|WC0QNABPZ4]], whose defining equation can be checked by algebra alone.
+It applies to sums of hypergeometric terms, such as most identities for [[binomial coefficients|0GBZM0MT0F]], and it relates to [[Zeilberger's algorithm|VA7MH05Z3B]] and [[Gosper's algorithm|NHMJQBS04M]].
 
 ## Explanations
 

@@ -15,7 +15,7 @@ same_as:
 ## Example
 
 Let $K \ge 2$ and $\alpha_1, \dots, \alpha_K > 0$, and let $\alpha_0 = \alpha_1 + \dots + \alpha_K$.
-The *Dirichlet distribution* $\operatorname{Dir}(\alpha_1, \dots, \alpha_K)$ is the law of a random vector $(X_1, \dots, X_K)$ in the open simplex $\set{x \in \R^K : x_i > 0, \ x_1 + \dots + x_K = 1}$.
+The *Dirichlet distribution* $\operatorname{Dir}(\alpha_1, \dots, \alpha_K)$ is the law of a random vector $(X_1, \dots, X_K)$ in the open [[simplex|YX1DJK2QAG]] $\set{x \in \R^K : x_i > 0, \ x_1 + \dots + x_K = 1}$.
 The vector $(X_1, \dots, X_{K-1})$ has the density
 $$f(x_1, \dots, x_{K-1}) = \frac{\Gamma(\alpha_0)}{\Gamma(\alpha_1) \cdots \Gamma(\alpha_K)} \prod_{i=1}^K x_i^{\alpha_i - 1}$$
 on the set where all $x_i > 0$ and $x_1 + \dots + x_{K-1} < 1$, with $x_K = 1 - x_1 - \dots - x_{K-1}$; here $\Gamma$ is the [[gamma function|0H5SYBSED9]].
@@ -26,7 +26,7 @@ The means are $E[X_i] = \alpha_i / \alpha_0$ and the variances are $\operatornam
 ## Remarks
 
 If all $\alpha_i = 1$, the density is constant, so the law is uniform on the simplex.
-The Dirichlet law is the conjugate prior of the multinomial law: with prior $\operatorname{Dir}(\alpha_1, \dots, \alpha_K)$ for the cell probabilities and observed counts $n_1, \dots, n_K$, the posterior is $\operatorname{Dir}(\alpha_1 + n_1, \dots, \alpha_K + n_K)$.
+The Dirichlet law is the [[conjugate prior|EHY450Q5CW]] of the multinomial law: with prior $\operatorname{Dir}(\alpha_1, \dots, \alpha_K)$ for the cell probabilities and observed counts $n_1, \dots, n_K$, the posterior is $\operatorname{Dir}(\alpha_1 + n_1, \dots, \alpha_K + n_K)$.
 It is the finite-dimensional building block of the [[Dirichlet process|XT4SWG6J7N]].
 
 ## Explanations

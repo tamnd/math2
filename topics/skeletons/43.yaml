@@ -150,7 +150,7 @@ items:
   - {name: Tannaka–Krein duality, kind: statement, wikipedia: Tannaka–Krein duality, wikidata: Q7683608, node: QGPAB6AS9F}
   - {name: harmonic analysis on SU(2), kind: example, wikipedia: Representation theory of SU(2), wikidata: Q7314224}
   - {name: spherical harmonics as representations of SO(3), kind: example, wikipedia: Spherical harmonics, wikidata: Q877100}
-  - {name: Wigner D-matrix, kind: definition, wikipedia: Wigner D-matrix, wikidata: Q3299244}
+  - {name: Wigner D-matrix, kind: definition, wikipedia: Wigner D-matrix, wikidata: Q3299244, node: QQPC9ASQHR}
   # Homogeneous spaces, Gelfand pairs and spherical functions
   - {name: homogeneous space, kind: definition, wikipedia: Homogeneous space, wikidata: Q1324364, node: 85TWR6E75P}
   - {name: harmonic analysis on homogeneous spaces, kind: concept, wikipedia: Homogeneous space, wikidata: Q1324364}
@@ -166,8 +166,8 @@ items:
   - {name: Helgason Fourier transform, kind: definition, wikipedia: Plancherel theorem for spherical functions, wikidata: Q11573495}
   - {name: Paley–Wiener theorem for symmetric spaces, kind: statement, wikipedia: Paley–Wiener theorem, wikidata: Q1119094}
   - {name: Harish-Chandra isomorphism, kind: statement, wikipedia: Harish-Chandra isomorphism, wikidata: Q5657840}
-  - {name: zonal spherical harmonics, kind: definition, wikipedia: Zonal spherical harmonics, wikidata: Q8073864}
-  - {name: addition theorem for spherical harmonics, kind: statement, wikipedia: Spherical harmonics, wikidata: Q877100}
+  - {name: zonal spherical harmonics, kind: definition, wikipedia: Zonal spherical harmonics, wikidata: Q8073864, node: Q5D54R3RGE}
+  - {name: addition theorem for spherical harmonics, kind: statement, wikipedia: Spherical harmonics, wikidata: Q877100, node: NVRR2TXQSE}
   # Automorphic and arithmetic harmonic analysis
   - {name: Selberg trace formula, kind: statement, wikipedia: Selberg trace formula, wikidata: Q3077649, node: BDAWKPBNQP}
   - {name: Arthur–Selberg trace formula, kind: statement, wikipedia: Arthur–Selberg trace formula, wikidata: Q4800826, node: BCETMS8K3X}

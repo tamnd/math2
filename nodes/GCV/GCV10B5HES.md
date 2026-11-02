@@ -46,7 +46,7 @@ This is what allows statisticians to replace an unknown parameter by an estimate
 
 ### L2 human
 
-Slutsky's theorem is used constantly in asymptotic statistics, together with the [[central limit theorem|0EPZC4Z1FC]] and the delta method.
+Slutsky's theorem is used constantly in asymptotic statistics, together with the [[central limit theorem|0EPZC4Z1FC]] and the [[delta method|DMMXBTN6M2]].
 It justifies the use of estimated standard errors in confidence intervals and test statistics such as the Student $t$ statistic for large samples.
 It follows from the [[continuous mapping theorem|CFRN0G7GDB]] applied to the pair $(X_n, Y_n)$.
 Its key point is that joint convergence comes for free when one limit is constant.

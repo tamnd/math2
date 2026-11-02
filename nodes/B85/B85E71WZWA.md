@@ -13,7 +13,7 @@ sources:
 
 Let $A$ be an [[algebra|QJGPT2W0FT]] in which every operation has arity at least $1$.
 A *fuzzy subset* of $A$ is a [[function|0EPAT51DXQ]] $\mu \colon A \to [0, 1]$; the number $\mu(a)$ is the degree of membership of $a$.
-A fuzzy subset $\mu$ is a *fuzzy subalgebra* of $A$ if
+A fuzzy subset $\mu$ is a *fuzzy [[subalgebra|7CHG6SD365]]* of $A$ if
 $$\mu(f(a_1, \dots, a_n)) \ge \min\set{\mu(a_1), \dots, \mu(a_n)}$$
 for every operation $f$ of $A$ of arity $n$ and all $a_1, \dots, a_n \in A$.
 For a [[group|G5S1M9]] $G$ with the operations $(x, y) \mapsto xy$ and $x \mapsto x^{-1}$, a fuzzy subalgebra is a *fuzzy subgroup*: $\mu(xy) \ge \min\set{\mu(x), \mu(y)}$ and $\mu(x^{-1}) \ge \mu(x)$ for all $x, y \in G$.

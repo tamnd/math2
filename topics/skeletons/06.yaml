@@ -137,7 +137,7 @@ items:
   - {name: lattice of subgroups, kind: example, wikipedia: Lattice of subgroups, wikidata: Q3538331, node: 0B8BW4YWTF}
   - {name: lattice of subspaces, kind: example, wikipedia: Projective geometry, wikidata: Q177409, node: H5G6TGRQH1}
   - {name: Grätzer–Schmidt theorem, kind: statement, wikipedia: Congruence lattice problem, wikidata: Q5160997, node: 2BZ2ZXH03B}
-  - {name: finite lattice representation problem, kind: problem, wikipedia: Lattice of subgroups, wikidata: Q3538331}
+  - {name: finite lattice representation problem, kind: problem, wikipedia: Lattice of subgroups, wikidata: Q3538331, node: W83D78WN7T}
   - {name: Davis's converse of the Knaster–Tarski theorem, kind: statement, wikipedia: Knaster–Tarski theorem, wikidata: Q609612, node: G20G1ECN56}
   - {name: formal concept analysis, kind: concept, decl: Concept, wikipedia: Formal concept analysis, wikidata: Q1437394, node: G83JY7CY7Q}
   # Complete lattices and completions
@@ -206,7 +206,7 @@ items:
   - {name: Boolean ring, kind: definition, decl: BooleanRing, wikipedia: Boolean ring, wikidata: Q2634401, node: 0RCV1ZFP8G}
   - {name: equivalence of Boolean rings and Boolean algebras, kind: statement, decl: AsBoolRing, wikipedia: Boolean ring, wikidata: Q2634401, node: PQEPV7F2RV}
   - {name: two-element Boolean algebra, kind: example, wikipedia: Two-element Boolean algebra, wikidata: Q7858706, node: 0WG43AC0EV}
-  - {name: field of sets, kind: definition, wikipedia: Field of sets, wikidata: Q246506}
+  - {name: field of sets, kind: definition, wikipedia: Field of sets, wikidata: Q246506, node: PFMGZ7988V}
   - {name: Stone's representation theorem for Boolean algebras, kind: statement, wikipedia: Stone's representation theorem for Boolean algebras, wikidata: Q1166774, node: S4QJ395PA5}
   - {name: Stone space, kind: definition, wikipedia: Stone space, wikidata: Q30587585, node: ZV38HA5PAQ}
   - {name: Stone duality, kind: statement, wikipedia: Stone duality, wikidata: Q7619060, node: B9T33D5MJK}
@@ -220,7 +220,7 @@ items:
   - {name: measure algebra, kind: definition, wikipedia: Measure algebra, wikidata: Q6804179, node: YZA1V04R96}
   - {name: Boolean algebras canonically defined, kind: concept, wikipedia: Boolean algebras canonically defined, wikidata: Q4943350, node: VY46T0A6VQ}
   - {name: Huntington's axioms, kind: definition, wikipedia: Boolean algebra (structure), wikidata: Q4973304, node: M3GFCVX549}
-  - {name: Robbins algebra, kind: statement, wikipedia: Robbins algebra, wikidata: Q7341067}
+  - {name: Robbins algebra, kind: statement, wikipedia: Robbins algebra, wikidata: Q7341067, node: X74S395RZD}
   - {name: generalized Boolean algebra, kind: definition, decl: GeneralizedBooleanAlgebra, wikipedia: Boolean algebra (structure), wikidata: Q4973304, node: ZK1MHTQGS9}
   - {name: interior algebra, kind: definition, wikipedia: Interior algebra, wikidata: Q10894825, node: BDEX7HET71}
   - {name: residuated lattice, kind: definition, wikipedia: Residuated lattice, wikidata: Q9462417, node: E337A6WVH3}
@@ -247,7 +247,7 @@ items:
   - {name: f-ring, kind: definition, wikipedia: Partially ordered ring, wikidata: Q7140405, node: VHHMZPNVEA}
   - {name: valuation and value group, kind: definition, decl: Valuation, wikipedia: Valuation (algebra), wikidata: Q852757, node: B85T5VKR3M}
   - {name: idempotent semiring, kind: definition, wikipedia: Semiring, wikidata: Q1333055, node: JCSAC9Y1CV}
-  - {name: tropical semiring, kind: example, wikipedia: Tropical semiring, wikidata: Q60790098}
+  - {name: tropical semiring, kind: example, wikipedia: Tropical semiring, wikidata: Q60790098, node: 5PNBCRH2JG}
   - {name: quantale, kind: definition, wikipedia: Quantale, wikidata: Q7268888, node: DA619M38C3}
   - {name: Kleene algebra, kind: definition, wikipedia: Kleene algebra, wikidata: Q2634506, node: BK4DDS24XC}
   - {name: surreal number, kind: object, wikipedia: Surreal number, wikidata: Q875333, node: YVPTBY45PK}

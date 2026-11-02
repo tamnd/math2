@@ -16,7 +16,7 @@ items:
   - {name: pigeonhole principle, kind: statement, decl: Finset.exists_ne_map_eq_of_card_lt_of_maps_to, wikipedia: Pigeonhole principle, wikidata: Q188276, node: 0HGVCWQGY3}
   - {name: factorial, kind: definition, decl: Nat.factorial, wikipedia: Factorial, wikidata: Q120976, node: 0XWG0JGDFW}
   - {name: permutation, kind: definition, decl: Equiv.Perm, wikipedia: Permutation, wikidata: Q161519, mathlib: [mathlib-undergrad, mathlib-overview], node: 05RWFKVTJ7}
-  - {name: falling and rising factorials, kind: definition, decl: Nat.descFactorial, wikipedia: Falling and rising factorials, wikidata: Q2339261}
+  - {name: falling and rising factorials, kind: definition, decl: Nat.descFactorial, wikipedia: Falling and rising factorials, wikidata: Q2339261, node: Y1BVY7J6AE}
   - {name: combination, kind: definition, decl: Finset.powersetCard, wikipedia: Combination, wikidata: Q202805, node: 098PHYBTV9}
   - {name: binomial coefficient, kind: definition, decl: Nat.choose, wikipedia: Binomial coefficient, wikidata: Q209875, node: 0GBZM0MT0F}
   - {name: binomial theorem, kind: statement, decl: add_pow, wikipedia: Binomial theorem, wikidata: Q26708, mathlib: [mathlib-100, mathlib-1000], node: 0EHWPWGHB2}

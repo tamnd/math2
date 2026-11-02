@@ -42,5 +42,5 @@ For a balloon pressed flat onto a table, some pair of opposite points ends up on
 ### L2 human
 
 The theorem is the starting point of the use of topology in combinatorics and geometry.
-It implies the ham sandwich theorem, the Lusternik–Schnirelmann covering theorem, and Lovász's computation of the chromatic number of Kneser graphs.
+It implies the [[ham sandwich theorem|GDXX60SNG5]], the Lusternik–Schnirelmann covering theorem, and Lovász's computation of the chromatic number of Kneser graphs.
 Its combinatorial counterpart is [[Tucker's lemma|PADZ7D9KBT]], from which it can also be proved.

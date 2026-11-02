@@ -46,6 +46,6 @@ Then some small triangle has all three colours, and in fact the number of such t
 
 ### L2 human
 
-Sperner's lemma is a discrete form of the Brouwer fixed-point theorem: applying it to finer and finer triangulations and passing to a limit gives a fixed point.
+Sperner's lemma is a discrete form of the [[Brouwer fixed-point theorem|N7AAJ2MW5T]]: applying it to finer and finer triangulations and passing to a limit gives a fixed point.
 Its constructive proof by following doors gives algorithms for approximate fixed points and for economic equilibria.
 It is also used for fair division problems, such as envy-free cake cutting.

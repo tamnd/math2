@@ -27,8 +27,8 @@ There are $196560$ of them.
 
 The Leech lattice can be constructed from the extended binary [[Golay code|SM1TJSAR75]].
 Its automorphism group $\mathrm{Co}_0$ has order $8315553613086720000$, and its quotient by $\set{\pm 1}$ is the [[Conway group|366D4ETGQH]] $\mathrm{Co}_1$.
-The $196560$ shortest vectors show that the kissing number in dimension $24$ is at least $196560$, and in fact it equals $196560$.
-The sphere packing obtained from the Leech lattice is the densest sphere packing in $\R^{24}$; this was proved by Cohn, Kumar, Miller, Radchenko and Viazovska.
+The $196560$ shortest vectors show that the [[kissing number|B408FZYXF9]] in dimension $24$ is at least $196560$, and in fact it equals $196560$.
+The [[sphere packing|HF32CBN5MA]] obtained from the Leech lattice is the densest sphere packing in $\R^{24}$; this was proved by Cohn, Kumar, Miller, Radchenko and Viazovska.
 Even unimodular lattices exist only in dimensions divisible by $8$.
 In dimension $24$ there are $24$ of them up to isometry, and the Leech lattice is the only one without vectors of norm $2$.
 

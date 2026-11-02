@@ -43,9 +43,9 @@ items:
   - {name: developable surface, kind: definition, wikipedia: Developable surface, wikidata: Q336298, node: YKVHDB52XW}
   - {name: pseudosphere, kind: example, wikipedia: Pseudosphere, wikidata: Q1458609, node: 44WEBQSKEY}
   - {name: Hilbert's theorem on the hyperbolic plane, kind: statement, wikipedia: Hilbert's theorem (differential geometry), wikidata: Q2008549, node: XM772FD0BS}
-  - {name: Minkowski problem, kind: problem, wikipedia: Minkowski problem, wikidata: Q4183831}
+  - {name: Minkowski problem, kind: problem, wikipedia: Minkowski problem, wikidata: Q4183831, node: NJP0AZ8R4K}
   - {name: affine differential geometry, kind: concept, wikipedia: Affine differential geometry, wikidata: Q4688939, node: K5C968HMSN}
-  - {name: Crofton formula, kind: statement, wikipedia: Crofton formula, wikidata: Q3077613}
+  - {name: Crofton formula, kind: statement, wikipedia: Crofton formula, wikidata: Q3077613, node: 9D5NT00H6G}
   # Minimal and constant mean curvature surfaces
   - {name: minimal surface, kind: definition, wikipedia: Minimal surface, wikidata: Q1545397, node: 41X0YW2R9N}
   - {name: catenoid, kind: example, wikipedia: Catenoid, wikidata: Q1999772, node: 6NN1HP54GB}
@@ -114,7 +114,7 @@ items:
   - {name: Killing vector field, kind: definition, wikipedia: Killing vector field, wikidata: Q1200279, node: 5AKNNW3W4Z}
   - {name: Myers–Steenrod theorem, kind: statement, wikipedia: Myers–Steenrod theorem, wikidata: Q6947443, node: Z3VRMW8ETQ}
   - {name: Nash embedding theorems, kind: statement, wikipedia: Nash embedding theorems, wikidata: Q1306092, node: 8YQJQXQHVE}
-  - {name: conformal geometry, kind: concept, wikipedia: Conformal geometry, wikidata: Q513175}
+  - {name: conformal geometry, kind: concept, wikipedia: Conformal geometry, wikidata: Q513175, node: GTVQFG2SH9}
   - {name: Weyl tensor, kind: definition, wikipedia: Weyl tensor, wikidata: Q869108, node: SBHY31HESP}
   - {name: Cotton tensor, kind: definition, wikipedia: Cotton tensor, wikidata: Q3518152, node: 10CQ5007PH}
   - {name: Finsler manifold, kind: definition, wikipedia: Finsler manifold, wikidata: Q2498782, node: 5R6QZ388BB}
@@ -151,7 +151,7 @@ items:
   - {name: Bochner's formula, kind: statement, wikipedia: Bochner's formula, wikidata: Q4936239, node: DF7KYMAGTC}
   - {name: Weitzenböck identity, kind: statement, wikipedia: Weitzenböck identity, wikidata: Q7980430, node: BE9GTWMN0B}
   - {name: Chern–Gauss–Bonnet theorem, kind: statement, wikipedia: Chern–Gauss–Bonnet theorem, wikidata: Q11704319, node: GG6NYPKMHX}
-  - {name: Hopf conjecture, kind: conjecture, wikipedia: Hopf conjectures, wikidata: Q5900498}
+  - {name: Hopf conjecture, kind: conjecture, wikipedia: Hopf conjectures, wikidata: Q5900498, node: D95SQEJJSK}
   - {name: Yamabe problem, kind: problem, wikipedia: Yamabe problem, wikidata: Q3406245, node: 63ZT8D3DXD}
   - {name: positive mass theorem, kind: statement, wikipedia: Positive energy theorem, wikidata: Q4179283, node: PYRPXHNQTB}
   # Analysis on Riemannian manifolds
@@ -200,7 +200,7 @@ items:
   - {name: Hamiltonian vector field, kind: definition, wikipedia: Hamiltonian vector field, wikidata: Q2256693, node: C5EH3B4BEP}
   - {name: Poisson bracket, kind: definition, wikipedia: Poisson bracket, wikidata: Q1052775, node: 2S0MXDT4YH}
   - {name: Liouville's theorem on phase-space volume, kind: statement, wikipedia: Liouville's theorem (Hamiltonian), wikidata: Q766722, node: 9T7D9ZRWYY}
-  - {name: Liouville–Arnold theorem, kind: statement, wikipedia: Action-angle coordinates, wikidata: Q1000646}
+  - {name: Liouville–Arnold theorem, kind: statement, wikipedia: Action-angle coordinates, wikidata: Q1000646, node: PNQCW85HTJ}
   - {name: moment map, kind: definition, wikipedia: Momentum map, wikidata: Q6897118, node: ZARM34FZ6Z}
   - {name: Marsden–Weinstein reduction, kind: concept, wikipedia: Momentum map, wikidata: Q6897118, node: SBJVATVH44}
   - {name: Atiyah–Guillemin–Sternberg convexity theorem, kind: statement, wikipedia: Momentum map, wikidata: Q6897118, node: 5CTHC6612N}
@@ -211,7 +211,7 @@ items:
   - {name: pseudoholomorphic curve, kind: definition, wikipedia: Pseudoholomorphic curve, wikidata: Q2115749, node: N469E47V75}
   - {name: Gromov–Witten invariant, kind: definition, wikipedia: Gromov–Witten invariant, wikidata: Q1547297, node: XVJA0JD79P}
   - {name: Floer homology, kind: concept, wikipedia: Floer homology, wikidata: Q652525, node: NCKFPAGHXF}
-  - {name: Arnold conjecture, kind: conjecture, wikipedia: Arnold conjecture, wikidata: Q115803233}
+  - {name: Arnold conjecture, kind: conjecture, wikipedia: Arnold conjecture, wikidata: Q115803233, node: HY7VRFBAP9}
   - {name: Fukaya category, kind: definition, wikipedia: Fukaya category, wikidata: Q5507585, node: 4HS60JABC5}
   - {name: homological mirror symmetry, kind: conjecture, wikipedia: Homological mirror symmetry, wikidata: Q11338004, node: B5N9WJH5F0}
   - {name: Poisson manifold, kind: definition, wikipedia: Poisson manifold, wikidata: Q1464936, node: A2KQ49Y4NF}

@@ -14,7 +14,7 @@ same_as:
 
 A topological space has the fixed-point property if every continuous map from the space to itself fixes at least one point.
 It is a topological invariant, so it can tell spaces apart.
-The Brouwer fixed-point theorem says that every closed ball in $\R^n$ has this property.
+The [[Brouwer fixed-point theorem|N7AAJ2MW5T]] says that every closed ball in $\R^n$ has this property.
 Fixed-point results of this kind are a main tool for proving that equations have solutions.
 
 ## Explanations

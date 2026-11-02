@@ -12,7 +12,7 @@ sources:
 ## Definition
 
 Let $X$ be a [[compact|0TVJZYB6SH]] [[Hausdorff space|0S1FJ8VEX9]], and let $C(X)$ be the algebra of [[continuous|0X3WGX95FE]] functions $X \to \C$ with the sup norm $\norm{f}_\infty = \max_{x \in X} \abs{f(x)}$.
-A *uniform algebra* on $X$ is a subalgebra $A \subseteq C(X)$ such that:
+A *uniform algebra* on $X$ is a [[subalgebra|7CHG6SD365]] $A \subseteq C(X)$ such that:
 
 1. $A$ is closed in $C(X)$ for the sup norm, that is, under [[uniform convergence|08VZ57PT26]];
 2. $A$ contains the constant functions;

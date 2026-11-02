@@ -12,7 +12,7 @@ sources:
 ## Definition
 
 Let $(\mathbf{A}_i)_{i \in I}$ be a family of [[algebras|QJGPT2W0FT]] of the same signature, and let $\pi_j$ denote the projection of the [[direct product|WJ73XYBNE4]] $\prod_{i \in I} \mathbf{A}_i$ onto $\mathbf{A}_j$.
-A *subdirect product* of the family is a subalgebra $\mathbf{B}$ of $\prod_{i \in I} \mathbf{A}_i$ such that $\pi_j$ restricted to $B$ is [[surjective|01RVCMSN5N]] onto $A_j$ for every $j \in I$.
+A *subdirect product* of the family is a [[subalgebra|7CHG6SD365]] $\mathbf{B}$ of $\prod_{i \in I} \mathbf{A}_i$ such that $\pi_j$ restricted to $B$ is [[surjective|01RVCMSN5N]] onto $A_j$ for every $j \in I$.
 An embedding $\alpha \colon \mathbf{A} \to \prod_{i \in I} \mathbf{A}_i$ is *subdirect* when $\alpha(\mathbf{A})$ is a subdirect product.
 
 ## Remarks

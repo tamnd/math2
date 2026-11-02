@@ -25,8 +25,8 @@ items:
   - {name: quasi-projective variety, kind: definition, wikipedia: Quasi-projective variety, wikidata: Q7269519, node: EQSHJPE7H8}
   - {name: algebraic variety, kind: definition, wikipedia: Algebraic variety, wikidata: Q648995, node: HV6YBS0YDH}
   - {name: dimension of an algebraic variety, kind: definition, wikipedia: Dimension of an algebraic variety, wikidata: Q5277261, node: 36X2WTHYCB}
-  - {name: tangent space, kind: definition, wikipedia: Zariski tangent space, wikidata: Q2031596}
-  - {name: singular point, kind: definition, wikipedia: Singular point of an algebraic variety, wikidata: Q7524253}
+  - {name: tangent space, kind: definition, wikipedia: Zariski tangent space, wikidata: Q2031596, node: E7A5DHFT01}
+  - {name: singular point, kind: definition, wikipedia: Singular point of an algebraic variety, wikidata: Q7524253, node: D86X15A8WS}
   - {name: rational map, kind: definition, decl: AlgebraicGeometry.Scheme.RationalMap, wikipedia: Rational mapping, wikidata: Q987226, node: 4D073CCYGV}
   - {name: birational map, kind: definition, wikipedia: Birational geometry, wikidata: Q1879333, node: KA5890R9YM}
   - {name: function field of a variety, kind: definition, decl: AlgebraicGeometry.Scheme.functionField, wikipedia: Function field of an algebraic variety, wikidata: Q5508773, node: 2D5SS6WM14}
@@ -153,7 +153,7 @@ items:
   - {name: birational geometry, kind: concept, wikipedia: Birational geometry, wikidata: Q1879333, node: 51YVV85GWB}
   - {name: rational variety, kind: definition, wikipedia: Rational variety, wikidata: Q3554829, node: XV4K9GREJ9}
   - {name: unirational variety, kind: definition, wikipedia: Rational variety, wikidata: Q3554829, node: YF1SE8WJK3}
-  - {name: Lüroth problem, kind: problem, wikipedia: Lüroth's theorem, wikidata: Q3527115}
+  - {name: Lüroth problem, kind: problem, wikipedia: Lüroth's theorem, wikidata: Q3527115, node: WGGZEKF224}
   - {name: blowing up, kind: definition, wikipedia: Blowing up, wikidata: Q1036595, node: C4KGYAFPN7}
   - {name: resolution of singularities, kind: statement, wikipedia: Resolution of singularities, wikidata: Q10942247, node: MB52NDA6WN}
   - {name: Castelnuovo's contraction theorem, kind: statement, wikipedia: Enriques–Kodaira classification, wikidata: Q2584390, node: WJ5WRGG5DE}

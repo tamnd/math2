@@ -21,7 +21,7 @@ items:
   - {name: electric dipole moment, kind: definition, wikipedia: Electric dipole moment, wikidata: Q735135}
   - {name: capacitance, kind: definition, wikipedia: Capacitance, wikidata: Q164399}
   - {name: electrostatic energy, kind: definition, wikipedia: Electric potential energy, wikidata: Q841798}
-  - {name: Thomson problem, kind: problem, wikipedia: Thomson problem, wikidata: Q7795912}
+  - {name: Thomson problem, kind: problem, wikipedia: Thomson problem, wikidata: Q7795912, node: 3C7V5X5FY8}
   - {name: Maxwell's conjecture on point charges, kind: conjecture, wikipedia: Thomson problem, wikidata: Q7795912}
   - {name: polarization density, kind: definition, wikipedia: Polarization density, wikidata: Q1050425}
   - {name: electric displacement field, kind: definition, wikipedia: Electric displacement field, wikidata: Q371907}
@@ -147,7 +147,7 @@ items:
   - {name: Herschel's condition, kind: statement, wikipedia: Herschel's condition, wikidata: Q135111526}
   - {name: optical aberration, kind: concept, wikipedia: Optical aberration, wikidata: Q639}
   - {name: Seidel aberrations, kind: definition, wikipedia: Optical aberration, wikidata: Q639}
-  - {name: Zernike polynomials, kind: definition, wikipedia: Zernike polynomials, wikidata: Q132146}
+  - {name: Zernike polynomials, kind: definition, wikipedia: Zernike polynomials, wikidata: Q132146, node: 7YW5WB3BY4}
   - {name: Petzval field curvature, kind: definition, wikipedia: Petzval field curvature, wikidata: Q7874190}
   - {name: Maxwell's fish-eye lens, kind: example, wikipedia: Gradient-index optics, wikidata: Q1541210}
   - {name: Luneburg lens, kind: example, wikipedia: Luneburg lens, wikidata: Q739536}
@@ -156,7 +156,7 @@ items:
   - {name: Keller's geometrical theory of diffraction, kind: concept, wikipedia: Uniform theory of diffraction, wikidata: Q7885118}
   - {name: nonimaging optics, kind: concept, wikipedia: Nonimaging optics, wikidata: Q1656807}
   - {name: Alhazen's problem, kind: problem, wikipedia: Alhazen's problem, wikidata: Q4724471}
-  - {name: illumination problem, kind: problem, wikipedia: Illumination problem, wikidata: Q390518}
+  - {name: illumination problem, kind: problem, wikipedia: Illumination problem, wikidata: Q390518, node: J1E6BEFAPZ}
   # Wave optics and diffraction
   - {name: physical optics, kind: concept, wikipedia: Physical optics, wikidata: Q942347}
   - {name: Huygens–Fresnel principle, kind: statement, wikipedia: Huygens–Fresnel principle, wikidata: Q188321}
@@ -164,7 +164,7 @@ items:
   - {name: Rayleigh–Sommerfeld diffraction, kind: statement, wikipedia: Kirchhoff's diffraction formula, wikidata: Q7408338}
   - {name: Fresnel diffraction, kind: concept, wikipedia: Fresnel diffraction, wikidata: Q2286895}
   - {name: Fraunhofer diffraction, kind: concept, wikipedia: Fraunhofer diffraction, wikidata: Q851014}
-  - {name: Fresnel integrals, kind: definition, wikipedia: Fresnel integral, wikidata: Q580253}
+  - {name: Fresnel integrals, kind: definition, wikipedia: Fresnel integral, wikidata: Q580253, node: D0TQ9F2ZDW}
   - {name: Cornu spiral, kind: object, wikipedia: Euler spiral, wikidata: Q755003}
   - {name: Airy disk, kind: object, wikipedia: Airy disk, wikidata: Q851016}
   - {name: Arago spot, kind: example, wikipedia: Arago spot, wikidata: Q1807778}
