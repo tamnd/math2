@@ -9,3 +9,4 @@
 {"id":"W0ZQMAYYX8","mentions":["wikipedia://en/103109#K0US"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"W0ZTMRP11X","mentions":["wikipedia://en/75882168"],"kind":"topic","name":"Ivo Schneider","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"W0ZVCZCSG4","mentions":["wikipedia://en/65754748"],"kind":"topic","name":"Irene Moroz","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"W0ZZTP874Z","mentions":["ax://paper/2609.20119#6AME"],"kind":"statement","msc":["14-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.18"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.18"}],"proofs":["ax://paper/2609.20119#SJ3Y"]}

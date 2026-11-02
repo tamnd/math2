@@ -1,3 +1,4 @@
+{"id":"ADS67ZJPF0","mentions":["ax://paper/2609.19959#CCDN"],"kind":"statement","msc":["46-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.18"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.18"}]}
 {"id":"ADS6WG6PEZ","mentions":["wikipedia://en/81388621"],"kind":"topic","name":"Michael Cohen","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ADS8WDBXFD","mentions":["wikipedia://en/31927444"],"kind":"topic","name":"Jeff Rosenthal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ADS9YH0HPQ","mentions":["wikipedia://en/26511174"],"kind":"statement","name":"Parikh's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

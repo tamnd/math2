@@ -7,4 +7,5 @@
 {"id":"H7JAD17FGE","mentions":["wikipedia://en/24808024"],"kind":"topic","name":"Bhama Srinivasan","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"H7JG5QKZR9","mentions":["wikipedia://en/51140705#ZEDH"],"kind":"topic","name":"W. Allen Wallis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"H7JQWBJ8SP","mentions":["wikipedia://en/25570260"],"kind":"topic","name":"Karl Svozil","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"H7JTHP3ZFV","mentions":["ax://paper/2609.21491#FMI2"],"kind":"statement","msc":["53-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.18"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.18"}]}
 {"id":"H7JXH391S8","mentions":["wikipedia://en/47738065#HNHT"],"kind":"topic","name":"Jürgen Gärtner","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

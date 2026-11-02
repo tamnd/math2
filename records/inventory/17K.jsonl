@@ -12,3 +12,4 @@
 {"id":"17KSNDXK1F","mentions":["m2://rec/hott_book/setmath.tex#thm:ETCS#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"17KW4C6AG9","mentions":["wikipedia://en/1523927"],"kind":"definition","name":"Matrix representation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"17KY0GVYQY","mentions":["wikipedia://en/523166#UZ82"],"kind":"unknown","name":"Equidivisible monoid","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"17KZSF81E2","mentions":["ax://paper/2609.20894#YYDI"],"kind":"definition","msc":["17-XX","81-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.18"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.18"}]}

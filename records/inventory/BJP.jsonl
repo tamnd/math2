@@ -1,3 +1,4 @@
+{"id":"BJP1H4ZEET","mentions":["ax://paper/2609.20588#9012"],"kind":"definition","msc":["53-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.18"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.18"}]}
 {"id":"BJP2VSNS2H","mentions":["wikipedia://en/56625268"],"kind":"topic","name":"Laura Person","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BJPFN726MQ","mentions":["wikipedia://en/40291381#B7RW"],"kind":"statement","name":"Symmetry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BJPFQPJ5VP","mentions":["wikipedia://en/3681279"],"kind":"definition","name":"Non-negative matrix factorization","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

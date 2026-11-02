@@ -4,4 +4,5 @@
 {"id":"NHMAJ1JXYC","mentions":["wikipedia://en/2388068#1ID3"],"kind":"unknown","name":"Nathan Rosen","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NHMB21CA25","mentions":["wikipedia://en/14331851#HITA"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NHMHZVBG0A","mentions":["wikipedia://en/75900013"],"kind":"statement","name":"Marguerite's Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NHMM8KXDZX","mentions":["ax://paper/2609.21703#2L19"],"kind":"definition","msc":["16-XX","20-XX","22-XX","81-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.18"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.18"}]}
 {"id":"NHMZTER48M","mentions":["wikipedia://en/312304#XFBQ"],"kind":"unknown","name":"Hamiltonian isotopy","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

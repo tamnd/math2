@@ -6,6 +6,7 @@
 {"id":"BJDG753SYZ","mentions":["wikipedia://en/14403539#IS62"],"kind":"unknown","name":"Roald Hoffmann","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BJDGXZHJQG","mentions":["wikipedia://en/498383#S5FE"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BJDHWRSVP1","mentions":["wikipedia://en/43730809#FNIS"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"BJDJ7RF8MQ","mentions":["ax://paper/2609.20375#HNHB"],"kind":"definition","msc":["35-XX","46-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.18"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.18"}]}
 {"id":"BJDJ8ATBHF","mentions":["wikipedia://en/35919963#DBNC"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BJDM062Z9F","mentions":["m2://rec/napkin/tex/linalg/inner-form.tex#exercise-3#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"BJDMC662C6","mentions":["wikipedia://en/19222837#C9RZ"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
