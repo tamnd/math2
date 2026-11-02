@@ -3,6 +3,7 @@ tag: RK2N3QP4FQ
 kind: concept
 name: Attainable null space
 msc: [46-XX]
+specializes: [00YC1D652K]
 sources:
   - arxiv: 2610.14906v1
     locator: Definition 3.1
@@ -19,6 +20,8 @@ uses: [FP5GVCN8GV, CG9JEATW3Q, AES2T5JPFP]
 For a continuous [[seminorm|FP5GVCN8GV]] $q$ on the [[Schwartz space|CG9JEATW3Q]] $\mathcal{S}$, the **attainable null space** $\mathcal{N}_q$ is a set of [[tempered distributions|AES2T5JPFP]].
 
 A distribution $p$ in $\mathcal{S}'$ lies in $\mathcal{N}_q$ when some sequence $(\chi_k)$ in $\mathcal{S}$ converges to $p$ in $\mathcal{S}'$ and has $q(\chi_k)\to 0$.
+
+Because $q$ is a seminorm, $\mathcal{N}_q$ is a [[linear subspace|00YC1D652K]] of $\mathcal{S}'$: sums and scalar multiples of such sequences are again such sequences.
 
 So $\mathcal{N}_q$ collects the distributions that test functions of vanishing $q$-size can approximate.
 
