@@ -76,6 +76,10 @@ rules:
     outcome: record
     reason: "a paper or a book of the record plane: the source of items, not an item (spec 9.8)"
     match: each mention of the row is a document of zbMATH Open or a paper of the arXiv metadata
+  - id: research-node
+    outcome: node
+    reason: a node of the research layer states the row (corpus arxiv AX9.2)
+    match: the row is in the research layer, a minted node names the row in its field inventory, and the node has an arxiv source with a mention of the row. m2 corpus adopt -source arxiv sets it. The target is the tag of the node
   - id: research-aligned
     outcome: aligned
     reason: a node states the result and has an aligned edge to it (corpus spec K4.4)
