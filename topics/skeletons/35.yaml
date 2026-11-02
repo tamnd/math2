@@ -27,7 +27,7 @@ items:
   - {name: Cauchy problem, kind: definition, wikipedia: Cauchy problem, wikidata: Q1412436, node: 075VBY4K4X}
   - {name: boundary value problem, kind: definition, wikipedia: Boundary value problem, wikidata: Q1332643, node: TM8VQJWGHZ}
   - {name: Dirichlet problem, kind: problem, wikipedia: Dirichlet problem, wikidata: Q1192869, node: 8D56GQ4AG8}
-  - {name: Neumann problem, kind: problem, wikipedia: Neumann boundary condition, wikidata: Q1149279}
+  - {name: Neumann problem, kind: problem, wikipedia: Neumann boundary condition, wikidata: Q1149279, node: 61VG0XSDM6}
   - {name: Robin boundary condition, kind: definition, wikipedia: Robin boundary condition, wikidata: Q748993, node: 581AGFCCRX}
   - {name: free boundary problem, kind: problem, wikipedia: Free boundary problem, wikidata: Q5500196, node: YR42E2W19Q}
   - {name: Stefan problem, kind: problem, wikipedia: Stefan problem, wikidata: Q3775789, node: 3B0HB3DHW1}
@@ -36,7 +36,7 @@ items:
   # Existence theory
   - {name: Cauchy–Kovalevskaya theorem, kind: statement, wikipedia: Cauchy–Kovalevskaya theorem, wikidata: Q1614464, node: 97HMV9BT2W}
   - {name: Holmgren's uniqueness theorem, kind: statement, wikipedia: Holmgren's uniqueness theorem, wikidata: Q5883744, node: 1VVKF0Y19B}
-  - {name: Lewy's example, kind: counterexample, wikipedia: Lewy's example, wikidata: Q814880}
+  - {name: Lewy's example, kind: counterexample, wikipedia: Lewy's example, wikidata: Q814880, node: 4NCB2ZY08G}
   - {name: Malgrange–Ehrenpreis theorem, kind: statement, wikipedia: Malgrange–Ehrenpreis theorem, wikidata: Q2226750, node: 3173Y813V7}
   - {name: fundamental solution, kind: definition, wikipedia: Fundamental solution, wikidata: Q1474123, node: K2NK9A8M5F}
   - {name: Green's function, kind: definition, wikipedia: Green's function, wikidata: Q378435, node: SH6JY9RN2E}
@@ -61,7 +61,7 @@ items:
   - {name: Besov space, kind: definition, wikipedia: Besov space, wikidata: Q526261, node: 95QBBPRJ9E}
   - {name: Triebel–Lizorkin space, kind: definition, wikipedia: Triebel–Lizorkin space, wikidata: Q7841428, node: TBNP6KYW4Z}
   - {name: fractional Sobolev space, kind: definition, wikipedia: Sobolev space, wikidata: Q1501536, node: N6NX1VT837}
-  - {name: Bessel potential, kind: definition, decl: BesselPotentialSpace, wikipedia: Bessel potential, wikidata: Q4896404}
+  - {name: Bessel potential, kind: definition, decl: BesselPotentialSpace, wikipedia: Bessel potential, wikidata: Q4896404, node: V2HG4GN7TN}
   - {name: Hardy inequality in Sobolev spaces, kind: statement, wikipedia: Hardy's inequality, wikidata: Q944228, node: 5CHFRPQ03W}
   - {name: Lax–Milgram theorem, kind: statement, decl: IsCoercive.continuousLinearEquivOfBilin, wikipedia: Babuška–Lax–Milgram theorem, wikidata: Q4838119, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000], node: 85KK79FCN5}
   - {name: Galerkin method, kind: concept, wikipedia: Galerkin method, wikidata: Q1491980, node: Y5B0PEBKE8}
@@ -73,17 +73,17 @@ items:
   - {name: Laplace operator, kind: definition, decl: Laplacian, wikipedia: Laplace operator, wikidata: Q203484, node: 0E0B6RA8K0}
   - {name: harmonic function, kind: definition, decl: InnerProductSpace.HarmonicOnNhd, wikipedia: Harmonic function, wikidata: Q599027, node: 0DEB0JMN0W}
   - {name: mean value property, kind: statement, decl: InnerProductSpace.HarmonicOnNhd.circleAverage_eq, wikipedia: Harmonic function, wikidata: Q599027, node: 0HYPR64JM2}
-  - {name: Poisson's equation, kind: definition, wikipedia: Poisson's equation, wikidata: Q827688}
+  - {name: Poisson's equation, kind: definition, wikipedia: Poisson's equation, wikidata: Q827688, node: DWK5N5SKTK}
   - {name: Poisson kernel, kind: definition, decl: poissonKernel, wikipedia: Poisson kernel, wikidata: Q2596534, node: TCYSWCTYYM}
-  - {name: Newtonian potential, kind: definition, wikipedia: Newtonian potential, wikidata: Q4328383}
+  - {name: Newtonian potential, kind: definition, wikipedia: Newtonian potential, wikidata: Q4328383, node: DCMFQ01QGS}
   - {name: maximum principle, kind: statement, wikipedia: Maximum principle, wikidata: Q1914255, node: D2JF19HF91}
   - {name: Hopf lemma, kind: statement, wikipedia: Hopf lemma, wikidata: Q17027555, node: FPWKGFZE6Q}
   - {name: Harnack's inequality, kind: statement, wikipedia: Harnack's inequality, wikidata: Q868279, node: YNH832D50W}
-  - {name: Liouville's theorem for harmonic functions, kind: statement, wikipedia: Harmonic function, wikidata: Q599027}
-  - {name: Weyl's lemma, kind: statement, wikipedia: Weyl's lemma (Laplace equation), wikidata: Q7990327}
-  - {name: Dirichlet's principle, kind: statement, wikipedia: Dirichlet's principle, wikidata: Q975727}
-  - {name: Perron method, kind: concept, wikipedia: Perron method, wikidata: Q7169664}
-  - {name: Kelvin transform, kind: definition, wikipedia: Kelvin transform, wikidata: Q4377358}
+  - {name: Liouville's theorem for harmonic functions, kind: statement, wikipedia: Harmonic function, wikidata: Q599027, node: QK1KWYZNRD}
+  - {name: Weyl's lemma, kind: statement, wikipedia: Weyl's lemma (Laplace equation), wikidata: Q7990327, node: 9CWM3F4M04}
+  - {name: Dirichlet's principle, kind: statement, wikipedia: Dirichlet's principle, wikidata: Q975727, node: RKK3XHG4MR}
+  - {name: Perron method, kind: concept, wikipedia: Perron method, wikidata: Q7169664, node: AEZ7PPCNQS}
+  - {name: Kelvin transform, kind: definition, wikipedia: Kelvin transform, wikidata: Q4377358, node: W9YR470VY2}
   - {name: Schauder estimates, kind: statement, wikipedia: Schauder estimates, wikidata: Q7430990, node: HSEKZMAH1V}
   - {name: elliptic regularity, kind: statement, wikipedia: Elliptic operator, wikidata: Q427625, node: 2PVQY9PCT4}
   - {name: Calderón–Zygmund estimates, kind: statement, wikipedia: Singular integral, wikidata: Q888122, node: RYQJH4RYB4}
@@ -167,7 +167,7 @@ items:
   - {name: Fourier transform, kind: definition, decl: VectorFourier.fourierIntegral, wikipedia: Fourier transform, wikidata: Q6520159, node: DPVM34ADZV}
   - {name: Laplace transform, kind: definition, wikipedia: Laplace transform, wikidata: Q199691, node: 0V49JEZW06}
   - {name: Duhamel's principle, kind: statement, wikipedia: Duhamel's principle, wikidata: Q4378863, node: Q28DM6ZCMF}
-  - {name: method of images, kind: concept, wikipedia: Method of images, wikidata: Q2563425}
+  - {name: method of images, kind: concept, wikipedia: Method of images, wikidata: Q2563425, node: ZSQSPGBN88}
   - {name: spherical harmonics, kind: object, wikipedia: Spherical harmonics, wikidata: Q877100, node: 3F32Y21HP4}
   - {name: similarity solution, kind: concept, wikipedia: Self-similar solution, wikidata: Q4056366, node: 579J5K9K5Z}
   - {name: traveling wave, kind: concept, wikipedia: Wave, wikidata: Q37172, node: M37M411KP7}
@@ -238,7 +238,7 @@ items:
   - {name: Dirichlet-to-Neumann operator, kind: definition, wikipedia: Poincaré–Steklov operator, wikidata: Q17099589, node: W783KDGT8E}
   - {name: Calderón problem, kind: problem, wikipedia: Electrical impedance tomography, wikidata: Q1326472, node: R8Y8DDTWBM}
   - {name: fractional Laplacian, kind: definition, wikipedia: Fractional Laplacian, wikidata: Q30694381, node: F8RSNQBMBE}
-  - {name: Riesz potential, kind: definition, wikipedia: Riesz potential, wikidata: Q7333166}
+  - {name: Riesz potential, kind: definition, wikipedia: Riesz potential, wikidata: Q7333166, node: 1V2N8MFSHC}
   # Further topics
   - {name: stochastic partial differential equation, kind: definition, wikipedia: Stochastic partial differential equation, wikidata: Q16979017, node: PRCQG82QTK}
   - {name: regularity structures, kind: concept, wikipedia: Regularity structure, wikidata: Q28401890, node: BQ6CYHQW02}

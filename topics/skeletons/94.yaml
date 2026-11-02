@@ -81,10 +81,10 @@ items:
   - {name: bandlimited signal, kind: definition, wikipedia: Bandlimiting, wikidata: Q806263}
   - {name: prolate spheroidal wave functions and Slepian's concentration problem, kind: problem, wikipedia: Prolate spheroidal wave function, wikidata: Q7249549}
   - {name: matched filter, kind: statement, wikipedia: Matched filter, wikidata: Q1759577}
-  - {name: compressed sensing, kind: concept, wikipedia: Compressed sensing, wikidata: Q2665459}
-  - {name: restricted isometry property, kind: definition, wikipedia: Restricted isometry property, wikidata: Q17099734}
+  - {name: compressed sensing, kind: concept, wikipedia: Compressed sensing, wikidata: Q2665459, node: 6V8E0AQNHA}
+  - {name: restricted isometry property, kind: definition, wikipedia: Restricted isometry property, wikidata: Q17099734, node: B0K18PWN2A}
   - {name: basis pursuit, kind: definition, wikipedia: Basis pursuit, wikidata: Q4867576}
-  - {name: matching pursuit, kind: definition, wikipedia: Matching pursuit, wikidata: Q6786281}
+  - {name: matching pursuit, kind: definition, wikipedia: Matching pursuit, wikidata: Q6786281, node: 8KJ9P9KQ5H}
   # Shift-register sequences and sequence design
   - {name: linear-feedback shift register, kind: definition, wikipedia: Linear-feedback shift register, wikidata: Q681101}
   - {name: maximum length sequence, kind: definition, wikipedia: Maximum-length sequence, wikidata: Q1417719}
@@ -180,7 +180,7 @@ items:
   - {name: locally decodable code, kind: definition, wikipedia: Locally decodable code, wikidata: Q6664678}
   - {name: locally testable code, kind: definition, wikipedia: Locally testable code, wikidata: Q6664705}
   # Electrical networks
-  - {name: electrical network, kind: definition, wikipedia: Electrical network, wikidata: Q132629}
+  - {name: electrical network, kind: definition, wikipedia: Electrical network, wikidata: Q132629, node: T7KRE7J3B4}
   - {name: Kirchhoff's circuit laws, kind: statement, wikipedia: Kirchhoff's circuit laws, wikidata: Q187672}
   - {name: Tellegen's theorem, kind: statement, wikipedia: Tellegen's theorem, wikidata: Q913327}
   - {name: superposition theorem, kind: statement, wikipedia: Superposition principle, wikidata: Q284885}

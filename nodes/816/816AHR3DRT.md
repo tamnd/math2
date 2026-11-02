@@ -21,7 +21,7 @@ is an isomorphism.
 
 ## Remarks
 
-The classical proof uses [[Hodge theory|32YJXG30MF]] on the Kähler manifold $X(\C)$.
+The classical proof uses [[Hodge theory|32YJXG30MF]] on the [[Kähler manifold|X60JG9AEQJ]] $X(\C)$.
 The operator $L$, its adjoint $\Lambda$ and the degree operator form a representation of $\mathfrak{sl}_2$ on harmonic forms, and $L^k$ is an isomorphism by the representation theory of $\mathfrak{sl}_2$.
 For $X = \mathbb{P}^n$, $H^{2i}(X, \Q) = \Q \, \omega^i$ for $0 \le i \le n$ and the odd groups vanish, so $L^k$ sends $\omega^{(n-k)/2}$ to $\omega^{(n+k)/2}$, which is a basis.
 The theorem shows that $L \colon H^j \to H^{j+2}$ is injective for $j < n$, so the Betti numbers satisfy $b_j \le b_{j+2}$ for $j < n$, and also $b_j = b_{2n-j}$.

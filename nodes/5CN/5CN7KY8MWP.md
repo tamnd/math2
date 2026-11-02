@@ -17,7 +17,7 @@ same_as:
 
 Let $a < b$ and let $(X_t)_{t \in [a, b]}$ be a real [[stochastic process|0QH5ENKZM1]] such that the map $(t, \omega) \mapsto X_t(\omega)$ is jointly measurable, $E[X_t] = 0$ and $E[X_t^2] < \infty$ for every $t$.
 Assume that the [[covariance|0KBFAWYRTE]] function $K(s, t) = E[X_s X_t]$ is continuous on $[a, b]^2$.
-Let $T_K$ be the integral operator on $L^2[a, b]$ given by $(T_K f)(s) = \int_a^b K(s, t) f(t) \, dt$.
+Let $T_K$ be the [[integral operator|H8P36XFV8K]] on $L^2[a, b]$ given by $(T_K f)(s) = \int_a^b K(s, t) f(t) \, dt$.
 Let $(\lambda_k)_{k \ge 1}$ be its non-zero [[eigenvalues|0BQAA2BK3Q]], listed with multiplicity, and let $(e_k)$ be corresponding [[orthonormal|0S9GGTR0EX]] eigenfunctions.
 Then:
 
@@ -30,7 +30,7 @@ If $X$ is moreover a Gaussian process, the $Z_k$ are independent normal random v
 
 ## Remarks
 
-The proof rests on Mercer's theorem: $K$ is continuous, symmetric and positive semidefinite, so $K(s, t) = \sum_k \lambda_k e_k(s) e_k(t)$ with uniform convergence on $[a, b]^2$.
+The proof rests on [[Mercer's theorem|PKGADWXPYH]]: $K$ is continuous, symmetric and positive semidefinite, so $K(s, t) = \sum_k \lambda_k e_k(s) e_k(t)$ with uniform convergence on $[a, b]^2$.
 Fubini's theorem gives the moments of the $Z_k$ and $E[X_t Z_k] = \lambda_k e_k(t)$.
 Expanding the square then gives
 $$E\left[\left(X_t - \sum_{k \le n} Z_k e_k(t)\right)^2\right] = K(t, t) - \sum_{k \le n} \lambda_k e_k(t)^2,$$

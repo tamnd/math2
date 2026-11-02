@@ -23,7 +23,7 @@ It is graded commutative: $ab = (-1)^{kl} ba$ for $a \in H^k$ and $b \in H^l$.
 A continuous map $f \colon X \to Y$ induces a ring homomorphism $f^* \colon H^\bullet(Y; R) \to H^\bullet(X; R)$.
 
 Example: $H^\bullet(S^n; \Z) \cong \Z[x]/(x^2)$ with $x$ of degree $n \ge 1$, since $x^2$ would lie in $H^{2n}(S^n) = 0$.
-For the complex projective space $\C P^n$, $H^\bullet(\C P^n; \Z) \cong \Z[x]/(x^{n+1})$ with $x$ of degree $2$.
+For the [[complex projective space|7GJ4STCNNM]] $\C P^n$, $H^\bullet(\C P^n; \Z) \cong \Z[x]/(x^{n+1})$ with $x$ of degree $2$.
 
 Non-example: [[singular homology|M0Q5CFJ7ZH]] $H_\bullet(X)$ is a graded group of the same shape, but in general it carries no natural product of this kind.
 The cup product needs the diagonal map $X \to X \times X$, which goes the wrong way for homology.

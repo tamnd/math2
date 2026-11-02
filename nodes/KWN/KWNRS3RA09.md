@@ -12,7 +12,7 @@ sources:
 
 ## Statement
 
-Let $X$ and $Y$ be [[smooth manifolds|F45VQ47GPV]], let $k \ge 0$, and let $J^k(X, Y)$ be the jet bundle of $k$-jets of smooth maps from $X$ to $Y$.
+Let $X$ and $Y$ be [[smooth manifolds|F45VQ47GPV]], let $k \ge 0$, and let $J^k(X, Y)$ be the [[jet bundle|HC3VBBCJQP]] of $k$-jets of smooth maps from $X$ to $Y$.
 For a smooth map $f \colon X \to Y$, let $j^k f \colon X \to J^k(X, Y)$ be its $k$-jet extension, which sends $x$ to the $k$-jet of $f$ at $x$.
 Let $W$ be an [[embedded submanifold|VKFW27WXEZ]] of $J^k(X, Y)$.
 Give $C^\infty(X, Y)$ the Whitney $C^\infty$ topology.

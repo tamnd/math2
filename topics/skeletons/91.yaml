@@ -17,7 +17,7 @@ items:
   - {name: Nash equilibrium, kind: definition, wikipedia: Nash equilibrium, wikidata: Q23389}
   - {name: Nash's existence theorem, kind: statement, wikipedia: Nash equilibrium, wikidata: Q23389}
   - {name: zero-sum game, kind: definition, wikipedia: Zero-sum game, wikidata: Q156612}
-  - {name: von Neumann's minimax theorem, kind: statement, wikipedia: Minimax theorem, wikidata: Q913849}
+  - {name: von Neumann's minimax theorem, kind: statement, wikipedia: Minimax theorem, wikidata: Q913849, node: GJ8VTBFNP2}
   - {name: Lemke–Howson algorithm, kind: definition, wikipedia: Lemke–Howson algorithm, wikidata: Q6521170}
   - {name: complexity of computing a Nash equilibrium, kind: statement, wikipedia: PPAD (complexity), wikidata: Q7120085}
   - {name: correlated equilibrium, kind: definition, wikipedia: Correlated equilibrium, wikidata: Q964667}
@@ -42,9 +42,9 @@ items:
   - {name: repeated game, kind: definition, wikipedia: Repeated game, wikidata: Q1584646}
   - {name: folk theorem, kind: statement, wikipedia: Folk theorem (game theory), wikidata: Q650738}
   - {name: stochastic game, kind: definition, wikipedia: Stochastic game, wikidata: Q1074380}
-  - {name: differential game, kind: definition, wikipedia: Differential game, wikidata: Q1973196}
+  - {name: differential game, kind: definition, wikipedia: Differential game, wikidata: Q1973196, node: THSHGNJNPS}
   - {name: pursuit–evasion, kind: problem, wikipedia: Pursuit–evasion, wikidata: Q7261573}
-  - {name: homicidal chauffeur problem, kind: problem, wikipedia: Homicidal chauffeur problem, wikidata: Q5890773}
+  - {name: homicidal chauffeur problem, kind: problem, wikipedia: Homicidal chauffeur problem, wikidata: Q5890773, node: M0B618E2P6}
   # Games of incomplete information
   - {name: Bayesian game, kind: definition, wikipedia: Bayesian game, wikidata: Q812529}
   - {name: Harsanyi's purification theorem, kind: statement, wikipedia: Purification theorem, wikidata: Q5313424}
@@ -150,7 +150,7 @@ items:
   - {name: Roy's identity, kind: statement, wikipedia: Roy's identity, wikidata: Q655196}
   - {name: Shephard's lemma, kind: statement, wikipedia: Shephard's lemma, wikidata: Q1536466}
   - {name: Hotelling's lemma, kind: statement, wikipedia: Hotelling's lemma, wikidata: Q139965}
-  - {name: envelope theorem, kind: statement, wikipedia: Envelope theorem, wikidata: Q2478371}
+  - {name: envelope theorem, kind: statement, wikipedia: Envelope theorem, wikidata: Q2478371, node: WK7MKDWRFF}
   - {name: Berge's maximum theorem, kind: statement, wikipedia: Maximum theorem, wikidata: Q6795920}
   - {name: Cobb–Douglas production function, kind: definition, wikipedia: Cobb–Douglas production function, wikidata: Q847163}
   - {name: constant elasticity of substitution, kind: definition, wikipedia: Constant elasticity of substitution, wikidata: Q520134}
@@ -197,7 +197,7 @@ items:
   - {name: capital asset pricing model, kind: definition, wikipedia: Capital asset pricing model, wikidata: Q848354}
   - {name: arbitrage pricing theory, kind: definition, wikipedia: Arbitrage pricing theory, wikidata: Q629941}
   - {name: Kelly criterion, kind: statement, wikipedia: Kelly criterion, wikidata: Q2065471}
-  - {name: Merton's portfolio problem, kind: problem, wikipedia: Merton's portfolio problem, wikidata: Q3467003}
+  - {name: Merton's portfolio problem, kind: problem, wikipedia: Merton's portfolio problem, wikidata: Q3467003, node: DZKBF576W5}
   # Arbitrage and derivative pricing
   - {name: arbitrage, kind: definition, wikipedia: Arbitrage, wikidata: Q273088}
   - {name: fundamental theorem of asset pricing, kind: statement, wikipedia: Fundamental theorem of asset pricing, wikidata: Q5508973}

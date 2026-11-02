@@ -17,7 +17,7 @@ A backward differentiation formula, or BDF method, is an implicit [[linear multi
 It differentiates the polynomial through the latest computed values and sets its slope at the new point equal to $f$.
 The $k$-step formula has order $k$, and it is zero-stable only for $k \le 6$.
 Because of their large regions of stability, BDF methods are the standard methods for [[stiff equations|RR5FCG92PN]].
-The one-step formula is the backward Euler method.
+The one-step formula is the [[backward Euler method|M7XKVNATFA]].
 
 ## Explanations
 

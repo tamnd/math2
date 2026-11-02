@@ -14,7 +14,7 @@ same_as:
 
 The Teichmüller space $T_g$ parametrises the complex structures on a fixed closed surface of genus $g$.
 Each point also carries a marking, which remembers the topology up to isotopy.
-For $g \ge 2$ it is a complex manifold of dimension $3g - 3$ and is homeomorphic to $\R^{6g - 6}$.
+For $g \ge 2$ it is a [[complex manifold|JSGWAN2RJV]] of dimension $3g - 3$ and is homeomorphic to $\R^{6g - 6}$.
 The [[mapping class group|JV5NYG913V]] acts on it properly discontinuously, and the quotient is the [[moduli space of curves|NK9ATH4WB6]] of genus $g$.
 
 ## Explanations

@@ -50,7 +50,7 @@ items:
   - {name: correlation, kind: definition, wikipedia: Correlation, wikidata: Q186290, node: 0DNN9B6Q2F}
   - {name: moment, kind: definition, decl: ProbabilityTheory.moment, wikipedia: Moment (mathematics), wikidata: Q638982, mathlib: [mathlib-undergrad, mathlib-overview], node: 01XAHPADBA}
   - {name: central moment, kind: definition, decl: ProbabilityTheory.centralMoment, wikipedia: Central moment, wikidata: Q1088747, node: 09753QQDCK}
-  - {name: moment problem, kind: problem, wikipedia: Moment problem, wikidata: Q3406268}
+  - {name: moment problem, kind: problem, wikipedia: Moment problem, wikidata: Q3406268, node: CS7TWHY7JM}
   - {name: moment-generating function, kind: definition, decl: ProbabilityTheory.mgf, wikipedia: Moment generating function, wikidata: Q535587, node: 0WQVXP7PDB}
   - {name: cumulant, kind: definition, decl: ProbabilityTheory.cgf, wikipedia: Cumulant, wikidata: Q746007, node: 9F3ZTTT9HA}
   - {name: probability-generating function, kind: definition, wikipedia: Probability generating function, wikidata: Q372071, node: 0EBCWQ8BVE}
@@ -231,7 +231,7 @@ items:
   - {name: Feller process, kind: definition, wikipedia: Feller process, wikidata: Q5442452, node: 4HS3C12472}
   - {name: infinitesimal generator of a Markov process, kind: definition, wikipedia: Infinitesimal generator (stochastic processes), wikidata: Q915487, node: VPA41PWRR1}
   - {name: diffusion process, kind: definition, wikipedia: Diffusion process, wikidata: Q5275442, node: 9HDQ094ADQ}
-  - {name: Dirichlet form, kind: definition, wikipedia: Dirichlet form, wikidata: Q5280765}
+  - {name: Dirichlet form, kind: definition, wikipedia: Dirichlet form, wikidata: Q5280765, node: MH20Q2N1AH}
   - {name: Lévy process, kind: definition, wikipedia: Lévy process, wikidata: Q1557613, node: 8NT5CFG2ZR}
   # Special processes
   - {name: point process, kind: definition, wikipedia: Point process, wikidata: Q7208287, node: DNDKBVHS3H}

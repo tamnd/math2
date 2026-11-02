@@ -12,7 +12,7 @@ sources:
 
 ## Statement
 
-Let $X$ be a compact Kähler manifold of complex dimension $n$, and let $0 \le k \le 2n$.
+Let $X$ be a compact [[Kähler manifold|X60JG9AEQJ]] of complex dimension $n$, and let $0 \le k \le 2n$.
 Let $\Omega^p_X$ be the sheaf of holomorphic $p$-forms on $X$.
 Let $H^{p,q}(X)$ be the space of classes in $H^k(X, \C)$ represented by a closed form of type $(p, q)$.
 Then:

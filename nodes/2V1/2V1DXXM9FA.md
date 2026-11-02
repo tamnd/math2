@@ -13,7 +13,7 @@ sources:
 ## Statement
 
 Let $H^2$ be the [[Hardy space|PNNNFJVF6W]] of the unit disc $\mathbb{D}$, a [[Hilbert space|HM2HHE3J51]].
-Let $S \colon H^2 \to H^2$ be the shift operator $(S f)(z) = z f(z)$.
+Let $S \colon H^2 \to H^2$ be the [[shift operator|MBK6AE6734]] $(S f)(z) = z f(z)$.
 Let $M \neq \set{0}$ be a closed subspace of $H^2$.
 Then $M$ is an [[invariant subspace|0EP59ESQ94]] of $S$, that is $S M \subseteq M$, if and only if
 $$M = \theta H^2 = \set{\theta f : f \in H^2}$$

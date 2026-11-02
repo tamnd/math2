@@ -13,7 +13,7 @@ sources:
 ## Statement
 
 Let $M = \R^d$.
-Let $T_{\mathrm{poly}}$ be the differential graded Lie algebra of polyvector fields on $M$, with zero differential and the Schouten–Nijenhuis bracket.
+Let $T_{\mathrm{poly}}$ be the differential graded Lie algebra of polyvector fields on $M$, with zero differential and the [[Schouten–Nijenhuis bracket|FJ1MDBZ680]].
 Let $D_{\mathrm{poly}}$ be the differential graded Lie algebra of polydifferential operators on $M$, with the Hochschild differential and the Gerstenhaber bracket.
 Both carry the grading in which $k$-vector fields, and polydifferential operators with $k$ arguments, have degree $k - 1$.
 

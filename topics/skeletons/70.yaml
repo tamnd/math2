@@ -27,7 +27,7 @@ items:
   - {name: center of mass, kind: definition, wikipedia: Center of mass, wikidata: Q2945123, node: 0HNK6KT05K}
   - {name: central force, kind: definition, wikipedia: Central force, wikidata: Q190663}
   - {name: Newton's law of universal gravitation, kind: statement, wikipedia: Newton's law of universal gravitation, wikidata: Q134465}
-  - {name: shell theorem, kind: statement, wikipedia: Shell theorem, wikidata: Q2222575}
+  - {name: shell theorem, kind: statement, wikipedia: Shell theorem, wikidata: Q2222575, node: 20SAJR6J3Y}
   - {name: virial theorem, kind: statement, wikipedia: Virial theorem, wikidata: Q620602}
   - {name: mechanical similarity, kind: concept, wikipedia: Mechanical similarity, wikidata: Q6804546}
   - {name: friction, kind: concept, wikipedia: Friction, wikidata: Q82580}
@@ -48,8 +48,8 @@ items:
   - {name: rheonomous constraint, kind: definition, wikipedia: Rheonomous, wikidata: Q118875876}
   - {name: generalized force, kind: definition, wikipedia: Generalized forces, wikidata: Q1153787}
   - {name: principle of virtual work, kind: statement, wikipedia: Virtual work, wikidata: Q1144923}
-  - {name: d'Alembert's principle, kind: statement, wikipedia: D'Alembert's principle, wikidata: Q753007}
-  - {name: Gauss's principle of least constraint, kind: statement, wikipedia: Gauss's principle of least constraint, wikidata: Q1477313}
+  - {name: d'Alembert's principle, kind: statement, wikipedia: D'Alembert's principle, wikidata: Q753007, node: GD776GVZSR}
+  - {name: Gauss's principle of least constraint, kind: statement, wikipedia: Gauss's principle of least constraint, wikidata: Q1477313, node: FZWAHMFZM3}
   - {name: Hertz's principle of least curvature, kind: statement, wikipedia: Gauss's principle of least constraint, wikidata: Q1477313}
   - {name: Appell's equation of motion, kind: statement, wikipedia: Appell's equation of motion, wikidata: Q1002309}
   - {name: Udwadia–Kalaba equation, kind: statement, wikipedia: Udwadia–Kalaba formulation, wikidata: Q5508956}
@@ -117,14 +117,14 @@ items:
   # Lagrangian mechanics
   - {name: Lagrangian mechanics, kind: concept, wikipedia: Lagrangian mechanics, wikidata: Q324669}
   - {name: Lagrange's equations of motion, kind: statement, wikipedia: Euler–Lagrange equation, wikidata: Q875744}
-  - {name: Hamilton's principle, kind: statement, wikipedia: Hamilton's principle, wikidata: Q1145653}
+  - {name: Hamilton's principle, kind: statement, wikipedia: Hamilton's principle, wikidata: Q1145653, node: FAQ9CH2Z76}
   - {name: principle of stationary action, kind: statement, wikipedia: Action principles, wikidata: Q722799}
   - {name: action, kind: definition, wikipedia: Action (physics), wikidata: Q846785}
-  - {name: Maupertuis's principle, kind: statement, wikipedia: Maupertuis's principle, wikidata: Q644922}
+  - {name: Maupertuis's principle, kind: statement, wikipedia: Maupertuis's principle, wikidata: Q644922, node: ZXY0AYKMXZ}
   - {name: Jacobi metric, kind: definition, wikipedia: Maupertuis's principle, wikidata: Q644922}
   - {name: cyclic coordinate, kind: definition, wikipedia: Lagrangian mechanics, wikidata: Q324669}
   - {name: Routhian mechanics, kind: concept, wikipedia: Routhian mechanics, wikidata: Q7371608}
-  - {name: Noether's theorem, kind: statement, wikipedia: Noether's theorem, wikidata: Q578555}
+  - {name: Noether's theorem, kind: statement, wikipedia: Noether's theorem, wikidata: Q578555, node: XHPDM5T2JG}
   - {name: Rayleigh dissipation function, kind: definition, wikipedia: Rayleigh dissipation function, wikidata: Q4162366}
   - {name: Lagrange multipliers for constraints, kind: concept, wikipedia: Lagrange multiplier, wikidata: Q598870}
   - {name: inverse problem for Lagrangian mechanics, kind: problem, wikipedia: Inverse problem for Lagrangian mechanics, wikidata: Q6060414}
@@ -218,7 +218,7 @@ items:
   # Variable mass systems and rockets
   - {name: variable-mass system, kind: concept, wikipedia: Variable-mass system, wikidata: Q27826761}
   - {name: Tsiolkovsky rocket equation, kind: statement, wikipedia: Tsiolkovsky rocket equation, wikidata: Q834199}
-  - {name: Goddard problem, kind: problem, wikipedia: Goddard problem, wikidata: Q5576265}
+  - {name: Goddard problem, kind: problem, wikipedia: Goddard problem, wikidata: Q5576265, node: GQCN7KRSDP}
   # Control of mechanical systems
   - {name: inverted pendulum, kind: example, wikipedia: Inverted pendulum, wikidata: Q550134}
   - {name: Furuta pendulum, kind: example, wikipedia: Furuta pendulum, wikidata: Q5509824}

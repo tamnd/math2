@@ -16,7 +16,7 @@ Let $k \ge 1$, and suppose that $y_{j-k+1}, \ldots, y_j$ are known.
 Let $P$ be the [[interpolation polynomial|SS1YMS2NPC]] of degree at most $k$ with $P(t_{j+1-i}) = y_{j+1-i}$ for $i = 0, \ldots, k$.
 The *$k$-step backward differentiation formula* determines $y_{j+1}$ by the condition
 $$P'(t_{j+1}) = f(t_{j+1}, y_{j+1}).$$
-With the backward difference operator $\nabla y_{j+1} = y_{j+1} - y_j$, this condition reads
+With the [[backward difference operator|MK5JGVDPS9]] $\nabla y_{j+1} = y_{j+1} - y_j$, this condition reads
 $$\sum_{i=1}^{k} \frac{1}{i} \nabla^i y_{j+1} = h f(t_{j+1}, y_{j+1}).$$
 
 ## Remarks

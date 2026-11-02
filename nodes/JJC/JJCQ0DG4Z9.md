@@ -19,7 +19,7 @@ The method is *explicit* if $a_{ij} = 0$ for all $j \ge i$, and *implicit* other
 
 ## Remarks
 
-The coefficients are written in the Butcher tableau with the $c_i$ in a column, the matrix $(a_{ij})$ beside it, and the $b_i$ as a bottom row.
+The coefficients are written in the [[Butcher tableau|RH8BD7PW5F]] with the $c_i$ in a column, the matrix $(a_{ij})$ beside it, and the $b_i$ as a bottom row.
 Usually $c_i = \sum_j a_{ij}$, and the method is consistent, of order at least $1$, exactly when $\sum_i b_i = 1$.
 Example: $s = 1$, $a_{11} = 0$, $b_1 = 1$, $c_1 = 0$ gives $y_{k+1} = y_k + h f(t_k, y_k)$, the [[Euler method|0JARTXX4XP]].
 The classical method has $s = 4$, $c = (0, \tfrac12, \tfrac12, 1)$, $a_{21} = a_{32} = \tfrac12$, $a_{43} = 1$, the other $a_{ij} = 0$, and $b = (\tfrac16, \tfrac13, \tfrac13, \tfrac16)$; it has order $4$.

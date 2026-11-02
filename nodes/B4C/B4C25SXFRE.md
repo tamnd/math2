@@ -15,7 +15,7 @@ same_as:
 A symplectic integrator is a numerical method for [[Hamiltonian systems|0EDKGA2FAK]] whose one-step map is a symplectic map, like the exact flow.
 Because it keeps this geometric structure, it avoids the slow drift of energy that ordinary methods show.
 Its energy error stays small over very long times.
-Examples are the symplectic Euler method, the Störmer–Verlet method or leapfrog method, and the Gauss–Legendre [[Runge–Kutta methods|7DBPJKYC6C]].
+Examples are the symplectic Euler method, the [[Störmer–Verlet method|ESWE8Y3JD4]] or [[leapfrog method|3HGJCQBWVY]], and the Gauss–Legendre [[Runge–Kutta methods|7DBPJKYC6C]].
 They are the standard tools in celestial mechanics and molecular dynamics.
 
 ## Explanations

@@ -38,7 +38,7 @@ items:
   - {name: strong dual space, kind: definition, wikipedia: Strong dual space, wikidata: Q96406607, node: RG52DZ1A8Y}
   - {name: Mackey topology, kind: definition, wikipedia: Mackey topology, wikidata: Q2226748, node: W18EY4E5TH}
   - {name: Mackey–Arens theorem, kind: statement, wikipedia: Mackey–Arens theorem, wikidata: Q104841505, node: RKKWS7CDNF}
-  - {name: polar set, kind: definition, decl: LinearMap.polar, wikipedia: Polar set, wikidata: Q2101025}
+  - {name: polar set, kind: definition, decl: LinearMap.polar, wikipedia: Polar set, wikidata: Q2101025, node: C95QJ7YH5T}
   - {name: bipolar theorem, kind: statement, wikipedia: Bipolar theorem, wikidata: Q4915488, node: FX5PWKCMBQ}
   - {name: Banach–Alaoglu theorem, kind: statement, decl: WeakDual.isCompact_polar, wikipedia: Banach–Alaoglu theorem, wikidata: Q537618, mathlib: [mathlib-1000], node: 1BXEJXQ2YT}
   - {name: Krein–Smulian theorem, kind: statement, wikipedia: Krein–Smulian theorem, wikidata: Q2226697, node: NYVHMQJP3E}
@@ -126,7 +126,7 @@ items:
   - {name: bounded mean oscillation, kind: definition, wikipedia: Bounded mean oscillation, wikidata: Q796341, node: QJYTXFT8Y4}
   - {name: Bergman space, kind: definition, wikipedia: Bergman space, wikidata: Q3058183, node: 2D619WTPYC}
   - {name: reproducing kernel Hilbert space, kind: definition, wikipedia: Reproducing kernel Hilbert space, wikidata: Q3345678, node: 4CK2GSRAGD}
-  - {name: Mercer's theorem, kind: statement, wikipedia: Mercer's theorem, wikidata: Q1716166}
+  - {name: Mercer's theorem, kind: statement, wikipedia: Mercer's theorem, wikidata: Q1716166, node: PKGADWXPYH}
   - {name: Paley–Wiener theorem, kind: statement, wikipedia: Paley–Wiener theorem, wikidata: Q1119094, node: THY12GPZ8C}
   # Interpolation of operators and spaces
   - {name: interpolation space, kind: definition, wikipedia: Interpolation space, wikidata: Q3058180, node: VX1R6FN6PS}
@@ -137,7 +137,7 @@ items:
   - {name: Hilbert space, kind: definition, wikipedia: Hilbert space, wikidata: Q190056, node: HM2HHE3J51}
   - {name: Cauchy–Schwarz inequality, kind: statement, decl: norm_inner_le_norm, wikipedia: Cauchy–Schwarz inequality, wikidata: Q190546, mathlib: [mathlib-100], node: 0RFWW56Y22}
   - {name: parallelogram law, kind: statement, decl: parallelogram_law_with_norm, wikipedia: Parallelogram law, wikidata: Q919125, node: 026HPGYGS4}
-  - {name: Jordan–von Neumann theorem, kind: statement, decl: InnerProductSpace.ofNorm, wikipedia: Polarization identity, wikidata: Q1817177}
+  - {name: Jordan–von Neumann theorem, kind: statement, decl: InnerProductSpace.ofNorm, wikipedia: Polarization identity, wikidata: Q1817177, node: 46WGVM5VS6}
   - {name: orthogonal complement, kind: definition, decl: Submodule.orthogonal, wikipedia: Orthogonal complement, wikidata: Q1780921, mathlib: [mathlib-undergrad, mathlib-overview], node: 0XJXTBCB2T}
   - {name: Hilbert projection theorem, kind: statement, decl: exists_norm_eq_iInf_of_complete_convex, wikipedia: Hilbert projection theorem, wikidata: Q3527215, mathlib: [mathlib-undergrad, mathlib-1000], node: J5YNTHQMFX}
   - {name: orthogonal projection, kind: definition, decl: Submodule.orthogonalProjection, wikipedia: Projection (linear algebra), wikidata: Q519967, node: 0B8KZRT28M}
@@ -201,7 +201,7 @@ items:
   - {name: Gelfand's spectral radius formula, kind: statement, decl: spectrum.gelfand_formula, wikipedia: Spectral radius, wikidata: Q249748, node: T4RFYT8HDN}
   - {name: Gelfand–Mazur theorem, kind: statement, decl: NormedRing.algEquivComplexOfComplete, wikipedia: Gelfand–Mazur theorem, wikidata: Q2226677, mathlib: [mathlib-1000], node: 3D6XH41A3B}
   - {name: spectral mapping theorem for polynomials, kind: statement, decl: spectrum.map_polynomial_aeval, wikipedia: Spectral theory, wikidata: Q2409122, node: Q71WX8HFYT}
-  - {name: holomorphic functional calculus, kind: concept, wikipedia: Holomorphic functional calculus, wikidata: Q1625064}
+  - {name: holomorphic functional calculus, kind: concept, wikipedia: Holomorphic functional calculus, wikidata: Q1625064, node: YFKA3KVTGR}
   - {name: approximate identity, kind: definition, decl: Filter.IsApproximateUnit, wikipedia: Approximate identity, wikidata: Q621743, node: CDYXTW3PJF}
   - {name: amenable Banach algebra, kind: definition, wikipedia: Amenable Banach algebra, wikidata: Q4742386, node: 6P9AE21Q7X}
   - {name: Fréchet algebra, kind: definition, wikipedia: Fréchet algebra, wikidata: Q5506659, node: AW4T3NQYVF}

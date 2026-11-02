@@ -161,7 +161,7 @@ items:
   - {name: Belousov–Zhabotinsky reaction, kind: example, wikipedia: Belousov–Zhabotinsky reaction, wikidata: Q816151}
   # Chemical graph theory
   - {name: chemical graph theory, kind: concept, wikipedia: Chemical graph theory, wikidata: Q381009}
-  - {name: topological index, kind: definition, wikipedia: Topological index, wikidata: Q904942}
+  - {name: topological index, kind: definition, wikipedia: Topological index, wikidata: Q904942, node: QDCD33CS21}
   - {name: Wiener index, kind: definition, wikipedia: Wiener index, wikidata: Q909065}
   - {name: Hosoya index, kind: definition, wikipedia: Hosoya index, wikidata: Q4200699}
   - {name: Randić index, kind: definition, wikipedia: Randić index, wikidata: Q4200698}

@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $X$ be a compact connected Kähler manifold of complex dimension $n$, and let $K_X$ be its [[canonical bundle|W05VYY4HBR]], the bundle of holomorphic $n$-forms.
+Let $X$ be a compact connected [[Kähler manifold|X60JG9AEQJ]] of complex dimension $n$, and let $K_X$ be its [[canonical bundle|W05VYY4HBR]], the bundle of holomorphic $n$-forms.
 The manifold $X$ is a *Calabi–Yau manifold* if $K_X$ is holomorphically trivial, that is, if $X$ has a holomorphic $n$-form that vanishes nowhere.
 
 ## Remarks

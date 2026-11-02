@@ -16,7 +16,7 @@ same_as:
 
 Let $U \subseteq \R^m$ be a nonempty set, and let $f \colon \R^n \times U \to \R^n$ and $L \colon \R^n \times U \to \R$ be continuous, with partial derivatives $\partial f / \partial x$ and $\partial L / \partial x$ that are continuous on $\R^n \times U$.
 Let $T > 0$ and $x_0, x_1 \in \R^n$ be fixed.
-Consider the optimal control problem: minimize
+Consider the [[optimal control|T3V6ZNAMDN]] problem: minimize
 $$J(u) = \int_0^T L(x(t), u(t)) \, dt$$
 over the measurable bounded controls $u \colon [0, T] \to U$ whose trajectory of the [[control system|ZPDTVZQN5K]] $x' = f(x, u)$ with $x(0) = x_0$ satisfies $x(T) = x_1$.
 For $\lambda_0 \in \R$ and $p \in \R^n$, let $H(x, u, p, \lambda_0) = p \cdot f(x, u) - \lambda_0 L(x, u)$.

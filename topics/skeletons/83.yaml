@@ -60,7 +60,7 @@ items:
   - {name: Einstein tensor, kind: definition, wikipedia: Einstein tensor, wikidata: Q550929}
   - {name: Einstein field equations, kind: statement, wikipedia: Einstein field equations, wikidata: Q273711}
   - {name: cosmological constant, kind: definition, wikipedia: Cosmological constant, wikidata: Q59151}
-  - {name: Einstein–Hilbert action, kind: definition, wikipedia: Einstein–Hilbert action, wikidata: Q239224}
+  - {name: Einstein–Hilbert action, kind: definition, wikipedia: Einstein–Hilbert action, wikidata: Q239224, node: JPE3A1SN7V}
   - {name: Palatini variation, kind: concept, wikipedia: Palatini variation, wikidata: Q17104967}
   - {name: Gibbons–Hawking–York boundary term, kind: definition, wikipedia: Gibbons–Hawking–York boundary term, wikidata: Q5558922}
   - {name: Einstein–Infeld–Hoffmann equations, kind: definition, wikipedia: Einstein–Infeld–Hoffmann equations, wikidata: Q1309251}

@@ -23,11 +23,11 @@ items:
   - {name: pointed cone, kind: definition, decl: PointedCone, wikipedia: Convex cone, wikidata: Q2256541, mathlib: [mathlib-overview], node: J9HA54ACME}
   - {name: proper cone, kind: definition, decl: ProperCone, wikipedia: Convex cone, wikidata: Q2256541, node: Z5T0SEF3XA}
   - {name: dual cone, kind: definition, wikipedia: Dual cone and polar cone, wikidata: Q2687694, node: QFY1JR1TK4}
-  - {name: polar set, kind: definition, wikipedia: Polar set, wikidata: Q2101025}
+  - {name: polar set, kind: definition, wikipedia: Polar set, wikidata: Q2101025, node: C95QJ7YH5T}
   - {name: convex function, kind: definition, decl: ConvexOn, wikipedia: Convex function, wikidata: Q319913, mathlib: [mathlib-undergrad, mathlib-overview], node: 07Q7CNM5WF}
   - {name: concave function, kind: definition, decl: ConcaveOn, wikipedia: Concave function, wikidata: Q2914302, node: 0GCM7B6PBK}
   - {name: Jensen's inequality, kind: statement, wikipedia: Jensen's inequality, wikidata: Q518131, node: 0RWMRTPC87}
-  - {name: epigraph, kind: definition, wikipedia: Epigraph (mathematics), wikidata: Q1347059}
+  - {name: epigraph, kind: definition, wikipedia: Epigraph (mathematics), wikidata: Q1347059, node: 8BJ5M76FSX}
   - {name: support function, kind: definition, wikipedia: Support function, wikidata: Q3075191, node: 1H92CYA4ZC}
   - {name: supporting hyperplane, kind: definition, wikipedia: Supporting hyperplane, wikidata: Q1134296, node: K7N565NKCV}
   - {name: supporting hyperplane theorem, kind: statement, wikipedia: Supporting hyperplane, wikidata: Q1134296, node: DR9BXFWMQB}
@@ -56,7 +56,7 @@ items:
   - {name: Farkas' lemma, kind: statement, wikipedia: Farkas' lemma, wikidata: Q606254, node: FYZC634H2D}
   - {name: Gordan's lemma, kind: statement, wikipedia: Gordan's lemma, wikidata: Q25098650, node: HEKDP2TDNZ}
   - {name: Fenchel conjugate, kind: definition, wikipedia: Convex conjugate, wikidata: Q3075186, node: T7V2VPY61S}
-  - {name: Fenchel–Moreau theorem, kind: statement, wikipedia: Fenchel–Moreau theorem, wikidata: Q5443005}
+  - {name: Fenchel–Moreau theorem, kind: statement, wikipedia: Fenchel–Moreau theorem, wikidata: Q5443005, node: XZFYB2PBPD}
   - {name: Shapley–Folkman lemma, kind: statement, wikipedia: Shapley–Folkman lemma, wikidata: Q3788045, node: CMGKQNMY77}
   - {name: Blaschke selection theorem, kind: statement, wikipedia: Blaschke selection theorem, wikidata: Q784049, node: D9C581V5HG}
   - {name: Hausdorff distance, kind: definition, wikipedia: Hausdorff distance, wikidata: Q1501997, node: F79WYYC07C}

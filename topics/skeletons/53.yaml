@@ -179,7 +179,7 @@ items:
   - {name: almost complex manifold, kind: definition, wikipedia: Almost complex manifold, wikidata: Q2995691, node: 9SYWRGVTRS}
   - {name: Newlander–Nirenberg theorem, kind: statement, wikipedia: Almost complex manifold, wikidata: Q2995691, node: VCT848WV1T}
   - {name: Hermitian manifold, kind: definition, wikipedia: Hermitian manifold, wikidata: Q5741935, node: CK1DCPC3D3}
-  - {name: Kähler manifold, kind: definition, wikipedia: Kähler manifold, wikidata: Q1353916}
+  - {name: Kähler manifold, kind: definition, wikipedia: Kähler manifold, wikidata: Q1353916, node: X60JG9AEQJ}
   - {name: Kähler–Einstein metric, kind: definition, wikipedia: Kähler–Einstein metric, wikidata: Q6453393, node: 6ETEBA8827}
   - {name: Calabi conjecture, kind: statement, wikipedia: Calabi conjecture, wikidata: Q5018293, node: WJKA5YBTJ7}
   - {name: Yau–Tian–Donaldson conjecture, kind: statement, wikipedia: K-stability, wikidata: Q85772692, node: DHYSPSYSCB}

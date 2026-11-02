@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-A *Lie supergroup* is a real supermanifold $G$ with three morphisms of supermanifolds
+A *Lie supergroup* is a real [[supermanifold|Z0SB9HQBAJ]] $G$ with three morphisms of supermanifolds
 $$m \colon G \times G \to G, \qquad i \colon G \to G, \qquad e \colon \R^{0|0} \to G,$$
 called multiplication, inverse and unit.
 These must make the following diagrams of morphisms commute:

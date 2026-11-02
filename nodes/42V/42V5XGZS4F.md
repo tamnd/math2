@@ -14,7 +14,7 @@ same_as:
 
 Singularity theory studies the points where a variety or a map fails to be smooth, and classifies them up to local changes of coordinates.
 Its objects are germs: the behaviour of a function, a map or a variety near one point.
-Main tools are invariants such as the Milnor number, and resolutions by [[blowing up|C4KGYAFPN7]].
+Main tools are invariants such as the [[Milnor number|1ZE51P7GRQ]], and resolutions by [[blowing up|C4KGYAFPN7]].
 It connects algebraic geometry with differential topology, through [[Morse functions|KPQ96640ZJ]] and catastrophe theory.
 
 ## Explanations

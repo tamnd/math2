@@ -27,7 +27,7 @@ A *Riemann surface* is a topological space $X$ with a complex structure such tha
 ## Remarks
 
 Some authors also require $X$ to be second countable; by Radó's theorem this holds automatically for every Riemann surface.
-So a Riemann surface is the same as a connected complex manifold of dimension one.
+So a Riemann surface is the same as a connected [[complex manifold|JSGWAN2RJV]] of dimension one.
 
 Example: the [[Riemann sphere|0CDMXGPSES]] $\hat\C = \C \cup \set{\infty}$ with the two charts $\varphi_1(z) = z$ on $\C$ and $\varphi_2(z) = 1/z$ on $\hat\C \setminus \set{0}$, where $\varphi_2(\infty) = 0$.
 On $\varphi_1(\C \setminus \set{0}) = \C \setminus \set{0}$ the transition map is $z \mapsto 1/z$, which is holomorphic there; its inverse is the same map.

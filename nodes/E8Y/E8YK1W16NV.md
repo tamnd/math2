@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $M$ and $N$ be [[smooth manifolds|F45VQ47GPV]], let $r \ge 1$, and let $J^r(M, N)$ be the jet bundle of $r$-jets of smooth maps $M \to N$, with projection $J^r(M, N) \to M$.
+Let $M$ and $N$ be [[smooth manifolds|F45VQ47GPV]], let $r \ge 1$, and let $J^r(M, N)$ be the [[jet bundle|HC3VBBCJQP]] of $r$-jets of smooth maps $M \to N$, with projection $J^r(M, N) \to M$.
 A *differential relation* of order $r$ is a subset $\mathcal{R} \subseteq J^r(M, N)$.
 A *formal solution* of $\mathcal{R}$ is a continuous section $F \colon M \to J^r(M, N)$ with $F(M) \subseteq \mathcal{R}$.
 A formal solution is *holonomic* if $F = j^r f$ for a smooth map $f \colon M \to N$, where $j^r f$ is the $r$-jet extension of $f$.
