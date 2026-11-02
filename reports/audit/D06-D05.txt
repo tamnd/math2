@@ -1,0 +1,4 @@
+rule  state  checked  findings
+D05   pass   148949
+D06   skip   0        no arXiv mention has the class record
+3466 files, 0 findings, nothing failed

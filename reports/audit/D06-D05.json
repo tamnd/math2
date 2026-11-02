@@ -1,0 +1,19 @@
+{
+  "files": 3466,
+  "results": [
+    {
+      "rule": "D05",
+      "state": "pass",
+      "checked": 148949,
+      "findings": 0
+    },
+    {
+      "rule": "D06",
+      "state": "skip",
+      "checked": 0,
+      "findings": 0,
+      "reason": "no arXiv mention has the class record"
+    }
+  ],
+  "findings": null
+}

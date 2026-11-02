@@ -1,1 +1,2 @@
+{"id":"F47AJ0Z69A","mentions":["ax://paper/2609.29554#EMTF"],"kind":"unknown","name":"Accuracy agrees between CPU and GPU; larger $n$ favours \\OzII","msc":["65-XX"],"layer":"research","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}
 {"id":"F47N45JYZC","mentions":["m2://rec/applied_combinatorics/source/s_graphalgorithms_exercises.ptx#exercise-2#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

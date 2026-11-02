@@ -1,3 +1,4 @@
 {"id":"Y0H29XXGH1","mentions":["ax://paper/2404.06445#4LOE"],"kind":"unknown","layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
 {"id":"Y0H570F4J6","mentions":["m2://rec/wikidata/Q3034855#1"],"kind":"unknown","name":"asymmetric graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"Y0H8BV3X4W","mentions":["ax://paper/2609.24553#UAGJ"],"kind":"example","msc":["37-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}
 {"id":"Y0HYTCJH27","mentions":["m2://rec/lebl_ra/ch-approximate.tex#cor-2#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
