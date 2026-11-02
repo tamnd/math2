@@ -9,6 +9,7 @@
 {"id":"N0QD93W8JY","mentions":["wikipedia://en/31438027"],"kind":"definition","name":"Pontryagin cohomology operation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"N0QE9AHKF8","mentions":["m2://rec/hott_book/setmath.tex#thm:wfcat#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"N0QG7M5V55","mentions":["wikipedia://en/46959#VGIE"],"kind":"definition","name":"Construction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"N0QK1RJ8K5","mentions":["ax://paper/2609.20488#3LAX"],"kind":"statement","msc":["16-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.18"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.18"}],"proofs":["ax://paper/2609.20488#Z20A"]}
 {"id":"N0QKD40PC7","mentions":["wikipedia://en/101453#0LC6"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"N0QKJVFJBD","mentions":["wikipedia://en/20251284#TGLH"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"N0QNTHRAHD","mentions":["wikipedia://en/191457#4Y7V"],"kind":"definition","name":"Static analysis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

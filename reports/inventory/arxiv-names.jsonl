@@ -1,66 +1,329 @@
-{"mention":"ax://paper/0904.3493#9RDR","row":"8FGT8XTQ53","target":"2BKAEPKTEH","name":"Splitting Lemma"}
+{"mention":"ax://paper/1209.3562#BSE7","row":"GHTKM3M6QW","target":"SX94XSNYZY","name":"Canonical Model"}
+{"mention":"ax://paper/1209.3562#XDVF","row":"SDMWYCJBKV","target":"R7B30N1BTR","name":"Ambient Isotopy"}
 {"mention":"ax://paper/1311.6044#5QJV","row":"3CDFZMYCXE","target":"PQ3S1JK2PK","name":"Uniqueness"}
 {"mention":"ax://paper/1311.6044#PGRP","row":"F3P8N9QN2E","target":"72HGRHAVWK","name":"Existence"}
+{"mention":"ax://paper/1408.1555#PZIH","row":"AMNJ9PJR94","target":"C38MFH893K","name":"pullback map"}
+{"mention":"ax://paper/1603.00857#YTGY","row":"3MKQEGC6JS","target":"S95P5CA7DS","name":"Phase Transition"}
+{"mention":"ax://paper/1711.00219#GRJ9","row":"8PZN563056","target":"KHWTAZJ2RA","name":"CBH formula"}
+{"mention":"ax://paper/2104.00162#1TWA","row":"MDR5HB8MG1","target":"GE7E57DD1V","name":"Bernoulli's Inequality"}
 {"mention":"ax://paper/2104.00162#V1UK","row":"PG2XKTQS2N","target":"F5YPM8RRM7","name":"Archimedean Property"}
+{"mention":"ax://paper/2106.11898#BVNG","row":"NTPQZADHD9","target":"G8E0JE46YX","name":"Poisson formula"}
+{"mention":"ax://paper/2110.12380#UI94","row":"S931TATBRD","target":"63VZ134N4H","name":"Negligibility"}
 {"mention":"ax://paper/2204.04317#XLL2","row":"D1QPHQC8EA","target":"72HGRHAVWK","name":"``Existence\""}
 {"mention":"ax://paper/2204.04317#ZJLB","row":"TDYQHM7B7C","target":"PQ3S1JK2PK","name":"``Uniqueness\""}
-{"mention":"ax://paper/2312.05005#IW2I","row":"WDG0R692M5","target":"VTYSQCEDHJ","name":"Node"}
+{"mention":"ax://paper/2204.09167#OXI3","row":"BK0FGGJPE0","target":"5C5M1AF4X3","name":"Differential Privacy"}
+{"mention":"ax://paper/2211.10178#0HGG","row":"22NEM1HVDZ","target":"D9B89JBZAJ","name":"Grothendieck-Riemann-Roch"}
+{"mention":"ax://paper/2302.04566#4RPU","row":"FRGG5FGF9Y","target":"JM59R1NRJT","name":"Gray"}
+{"mention":"ax://paper/2303.09207#59H3","row":"TJB2RE0YY7","target":"T73FGKEN9R","name":"Sketch"}
+{"mention":"ax://paper/2303.09207#AP04","row":"PJCJZKYS1D","target":"T73FGKEN9R","name":"Sketch"}
+{"mention":"ax://paper/2303.09207#C9IH","row":"5C69ERWES7","target":"T73FGKEN9R","name":"Sketch"}
+{"mention":"ax://paper/2303.09207#J82E","row":"6MDKBXWSM5","target":"T73FGKEN9R","name":"Sketch"}
+{"mention":"ax://paper/2303.09207#VIKL","row":"9P632E98Y0","target":"T73FGKEN9R","name":"Sketch"}
+{"mention":"ax://paper/2303.09207#Y1S1","row":"ZS7THZ6GQK","target":"T73FGKEN9R","name":"Sketch"}
+{"mention":"ax://paper/2303.14022#64YY","row":"JPASRW1WJ8","target":"E11FC2X11T","name":"Stone representation theorem"}
+{"mention":"ax://paper/2312.05005#RUNJ","row":"MSM3JZGJD1","target":"V91EH35D1H","name":"Subtree"}
+{"mention":"ax://paper/2405.14678#1Q9A","row":"QNKRW82XHR","target":"ZKNWE9BJ5G","name":"convolution algebra"}
+{"mention":"ax://paper/2405.14678#NTB8","row":"SVVMEKN77R","target":"X4ZZ2HYJF1","name":"measuring"}
+{"mention":"ax://paper/2405.14678#XGQ1","row":"S04PMEFVRE","target":"X4ZZ2HYJF1","name":"measuring"}
+{"mention":"ax://paper/2406.07116#P8OA","row":"KR08YA1DJY","target":"85AJ09V2SG","name":"change-of-variable formula"}
+{"mention":"ax://paper/2407.02022#ORMP","row":"TFHNPA2PCV","target":"ESHVVQ19P7","name":"Cartan's theorem B"}
+{"mention":"ax://paper/2409.03461#2OE9","row":"46A3DJ9RRM","target":"BV33Z9BQP4","name":"polyhedral complex"}
+{"mention":"ax://paper/2503.01567#RUGQ","row":"A7N5695J4W","target":"SW19S1MJJJ","name":"Gelfand pair"}
+{"mention":"ax://paper/2503.08018#SCZK","row":"S710PTEV06","target":"9X8D0YFZT4","name":"Lax matrix"}
+{"mention":"ax://paper/2505.04063#IIEC","row":"G03C33ZXMZ","target":"CD0V2V6XEW","name":"tensor operator"}
+{"mention":"ax://paper/2506.08233#Y6R4","row":"DR96PQ0CNV","target":"4888WFFRS7","name":"Name"}
+{"mention":"ax://paper/2507.13548#2TVV","row":"58YD275MB5","target":"MN765AKTYW","name":"Sidon set"}
+{"mention":"ax://paper/2509.21121#INLQ","row":"X45AX7EZGF","target":"CH9YM5DXBC","name":"Osgood lemma"}
+{"mention":"ax://paper/2510.05499#6C39","row":"S2QSQ27KM8","target":"8DJWF3ZWXB","name":"Transversality condition"}
+{"mention":"ax://paper/2512.08487#KHBW","row":"4PGZ51DJZC","target":"2TRKX9YK18","name":"Stationarity"}
+{"mention":"ax://paper/2512.08487#TU2P","row":"4C45D2PBQW","target":"TRRZZCEFST","name":"Gehring's Lemma"}
+{"mention":"ax://paper/2602.03909#J2XL","row":"7M505H5T3F","target":"V2R8JXKPVR","name":"Caterpillar tree"}
+{"mention":"ax://paper/2602.19452#4FZU","row":"XCKVA7X48D","target":"BDFMGMBBKE","name":"Subnormal number"}
 {"mention":"ax://paper/2606.21391#TUSQ","row":"220K3EKV73","target":"AMBFWXKVFX","name":"Minkowski"}
+{"mention":"ax://paper/2606.21391#UKH3","row":"EPWSM11SNC","target":"F1KRAHPTCY","name":"Simplices"}
+{"mention":"ax://paper/2607.25960#6W82","row":"CKAXTA8S1T","target":"4N5CQRYZYD","name":"Spectral invariants"}
+{"mention":"ax://paper/2608.16453#K4Y1","row":"APHDKWZX7S","target":"PZ7FKZA9HH","name":"Fourier slice theorem"}
+{"mention":"ax://paper/2609.19945#ZW0W","row":"CTRM8M30SC","target":"E8KBSY3WDX","name":"Gale duality"}
+{"mention":"ax://paper/2609.19988#R920","row":"YYFRSM7KJ2","target":"88A3TB4CQE","name":"Renormalization"}
+{"mention":"ax://paper/2609.20041#1328","row":"YFP50SFARG","target":"PBZECJ2AWA","name":"Asymptotic Normality"}
+{"mention":"ax://paper/2609.20041#UZRK","row":"MQPBDD5S7G","target":"SJ8VCRYXCE","name":"Uniform Law of Large Numbers"}
+{"mention":"ax://paper/2609.20351#9IBR","row":"3V9F2V8HV7","target":"S4RP1B9B88","name":"Master theorem"}
+{"mention":"ax://paper/2609.20599#9NBO","row":"GDBQFPJMFT","target":"EFNG1NK0HS","name":"Caputo fractional derivative"}
+{"mention":"ax://paper/2609.20606#YYJH","row":"4KVZ4FY2NE","target":"JEHAWTZXZJ","name":"Induced subgraph"}
+{"mention":"ax://paper/2609.20609#FKZF","row":"5J9CV12Q3D","target":"8027G745M7","name":"Representation formula"}
+{"mention":"ax://paper/2609.20609#N821","row":"YYMXPFAP2N","target":"8027G745M7","name":"Representation formula"}
+{"mention":"ax://paper/2609.20683#L6G0","row":"MXH2RYHWPT","target":"WTV02SMW0M","name":"Approximation"}
+{"mention":"ax://paper/2609.20881#05X7","row":"MJKY7JY28H","target":"3JBBS29SRP","name":"Comparability graph"}
+{"mention":"ax://paper/2609.20881#35SE","row":"QTXDTKQT3R","target":"6HE0N525M5","name":"Wheel graph"}
+{"mention":"ax://paper/2609.20998#I5PX","row":"FG46ESYCCE","target":"W34QNZZGFE","name":"KKM Lemma"}
+{"mention":"ax://paper/2609.21098#Q3KG","row":"DCJB0GVKRZ","target":"2344WYJP3N","name":"Measurable projection theorem"}
+{"mention":"ax://paper/2609.21098#U9SX","row":"9CCN786C31","target":"ZQ55J2E5KC","name":"Monotone class theorem"}
+{"mention":"ax://paper/2609.21116#36EQ","row":"547F7H14EM","target":"N3BT6P8B13","name":"Britton's Lemma"}
+{"mention":"ax://paper/2609.21534#XKFD","row":"CWY6H3CJ89","target":"NZM25C9J57","name":"Homotopy pullback"}
+{"mention":"ax://paper/2609.21645#4GNG","row":"HYT7V2AR0Y","target":"V90CYG1T51","name":"Hook Length Formula"}
+{"mention":"ax://paper/2609.21645#B6Y6","row":"M6AKH7X0TG","target":"KKZNNPXR5M","name":"Pieri's Rule"}
+{"mention":"ax://paper/2609.21670#T6GF","row":"SDMPP9WGCA","target":"BV33Z9BQP4","name":"Polyhedral fan"}
+{"mention":"ax://paper/2609.21710#7YQ1","row":"D8KBNZD016","target":"PBZECJ2AWA","name":"Asymptotic normality"}
+{"mention":"ax://paper/2609.21985#KBCI","row":"6NAHA79XWQ","target":"6QZGYKFHVR","name":"Hierarchical agglomerative clustering"}
 {"mention":"ax://paper/2609.22240#6PK0","row":"H1F5YX49N3","target":"PQ3S1JK2PK","name":"Uniqueness"}
-{"mention":"ax://paper/2609.22465#YFEN","row":"VTP2XHZEZ8","target":"WZKC7Z0MCW","name":"Muirhead's inequality"}
-{"mention":"ax://paper/2609.23106#OTX2","row":"Y0VDF3ZD4A","target":"NAPK953VDS","name":"Content"}
+{"mention":"ax://paper/2609.22240#JO1V","row":"XJ4BY28JY2","target":"2WNW00V7W2","name":"Concentration inequalities"}
 {"mention":"ax://paper/2609.23106#SZL3","row":"3421QFNWRV","target":"G14SD2ZKTT","name":"Product rule"}
-{"mention":"ax://paper/2609.23682#WSOB","row":"D3ZG63YZ33","target":"82EX3MWQFD","name":"Spectral theorem"}
+{"mention":"ax://paper/2609.23128#8NPK","row":"WR7A97G7A2","target":"52C7EX0G44","name":"Lucas' theorem"}
+{"mention":"ax://paper/2609.23350#ERYX","row":"HW22YTJSF8","target":"Z38QZVWYBG","name":"Lexicographic order"}
+{"mention":"ax://paper/2609.23350#PSXZ","row":"6Q0X73BDCM","target":"YQCV1CN24P","name":"Predictive distribution"}
+{"mention":"ax://paper/2609.23469#H43L","row":"5EMA0VMG4S","target":"65FZN6DGQ8","name":"Hopf surface"}
+{"mention":"ax://paper/2609.23810#VDT8","row":"7093N5A43F","target":"4J67P84DRR","name":"Yao's minimax principle"}
+{"mention":"ax://paper/2609.23872#FAXQ","row":"961KHATQS7","target":"Z4SZJ59JJR","name":"Reach"}
+{"mention":"ax://paper/2609.24078#07XH","row":"6RWEYGT5SV","target":"KWWB1NRJE3","name":"Newton polytope"}
+{"mention":"ax://paper/2609.24544#52QZ","row":"PWDVXRV1T2","target":"HNGA6ZKNMD","name":"Good primes"}
 {"mention":"ax://paper/2609.24777#J5HU","row":"Z9271PXMZ7","target":"KVKNFDRMZK","name":"The circle"}
 {"mention":"ax://paper/2609.24777#NLJE","row":"7G5M4VVQAZ","target":"TPPGY3VZF4","name":"The torus"}
-{"mention":"ax://paper/2609.26201#VIV7","row":"5QTBVVNE76","target":"2BKAEPKTEH","name":"Splitting Lemma"}
+{"mention":"ax://paper/2609.25026#VHHT","row":"2X8Y64FTAN","target":"W3Y6KDE5RV","name":"Abstract Wiener space"}
+{"mention":"ax://paper/2609.25111#EITR","row":"69JT0Y0HFZ","target":"XGYMF3GBA3","name":"Matrix-tree theorem"}
+{"mention":"ax://paper/2609.25188#C33B","row":"H9H0HWZ1M9","target":"P5Q3WGQ8QD","name":"Space-time diagram"}
+{"mention":"ax://paper/2609.25301#5OP0","row":"610NNQT1H3","target":"R4WMS4GZ15","name":"Helffer–Sjöstrand formula"}
+{"mention":"ax://paper/2609.25468#02XP","row":"34SJD7R8XW","target":"CFRERM5B1Y","name":"$\\delta$-hyperbolic space"}
+{"mention":"ax://paper/2609.25468#W9NG","row":"HAQE8G7X8V","target":"4RFVMFFV2J","name":"Sublinear function"}
+{"mention":"ax://paper/2609.25524#879V","row":"5YWBC65WZH","target":"GH59VM2XTT","name":"cf.\\"}
+{"mention":"ax://paper/2609.25524#NIVI","row":"GT3EDBWNKQ","target":"GH59VM2XTT","name":"cf.\\"}
+{"mention":"ax://paper/2609.25703#Q0LP","row":"E0XS2CR84Z","target":"8TACRAG858","name":"Recursion formula"}
+{"mention":"ax://paper/2609.25801#VUWC","row":"7Y0DA855D2","target":"4DPG72XDP9","name":"Bochner formula"}
+{"mention":"ax://paper/2609.25987#LINQ","row":"Z6RFEC4209","target":"A06JC8EBXC","name":"Group action"}
+{"mention":"ax://paper/2609.25987#R4YG","row":"CYV8BPDK90","target":"YPF6A6P16N","name":"Tangent cone"}
+{"mention":"ax://paper/2609.26114#EAU1","row":"RR27JR9XNN","target":"3E1TSYERAQ","name":"Conservation law"}
+{"mention":"ax://paper/2609.26262#CVQO","row":"V33FDHBGC8","target":"EFYEWEDNVX","name":"Ky Fan metric"}
+{"mention":"ax://paper/2609.26262#J99L","row":"TEC0A9F315","target":"WX1MJNEPH5","name":"Coupling"}
 {"mention":"ax://paper/2609.26265#DK7T","row":"EJFKC962JD","target":"72HGRHAVWK","name":"Existence"}
-{"mention":"ax://paper/2609.26337#AI8D","row":"SD6PKJHHM8","target":"83V9FCY2RK","name":"Cut-Elimination"}
-{"mention":"ax://paper/2609.28143#HLSM","row":"RBGA3NBQDQ","target":"1MF6T6W1R0","name":"Jensen's inequality"}
-{"mention":"ax://paper/2609.28495#S8YH","row":"1Z5QQZRQYB","target":"M74DSD3MBB","name":"Structure Sheaf"}
-{"mention":"ax://paper/2609.28552#Y0YV","row":"DNQGM3ZR1D","target":"JG5YR30CJY","name":"Cayley's formula"}
-{"mention":"ax://paper/2609.29847#F3V6","row":"597ZQYTXQJ","target":"D8D63XS7F3","name":"Maxwell's equations"}
-{"mention":"ax://paper/2609.30105#JM99","row":"JA7W2WS69W","target":"1MF6T6W1R0","name":"Jensen's Inequality"}
-{"mention":"ax://paper/2609.31269#VXG6","row":"WYVJ9N57CG","target":"2BKAEPKTEH","name":"Splitting lemma"}
+{"mention":"ax://paper/2609.26270#S8E3","row":"BJZ166H7NH","target":"CJMJBHNMT0","name":"The function space"}
+{"mention":"ax://paper/2609.26509#W20H","row":"Y1AV717R7G","target":"WCMCVZR0SC","name":"Model Existence Theorem"}
+{"mention":"ax://paper/2609.26619#SM5K","row":"33BJTTKZEY","target":"2WNW00V7W2","name":"Concentration bound"}
+{"mention":"ax://paper/2609.26645#51XE","row":"BTKVG07A1K","target":"W4KN7RHZ8F","name":"Luxemburg norm"}
+{"mention":"ax://paper/2609.26645#DP9G","row":"PG8RAX6KM2","target":"W4KN7RHZ8F","name":"Orlicz--Sobolev space"}
+{"mention":"ax://paper/2609.27181#5AB6","row":"A7EXY000FH","target":"MYBXGSV7BR","name":"Interaction"}
+{"mention":"ax://paper/2609.27241#H6IS","row":"DHV8AAB0D8","target":"VD12M8W5WG","name":"Star number"}
+{"mention":"ax://paper/2609.27414#DQ0V","row":"QGN19D4RWX","target":"5Y3NHB3M0N","name":"Solution"}
+{"mention":"ax://paper/2609.27484#O18H","row":"DA73ZPNH7C","target":"2TZ2AMXDKA","name":"Gâteaux differentiability"}
+{"mention":"ax://paper/2609.27765#3I9A","row":"4SAQATFCZX","target":"Q7W27C519R","name":"Type-II error"}
+{"mention":"ax://paper/2609.27765#DBWZ","row":"BAHFCSF71P","target":"J8DEFZE8M1","name":"Ville's inequality"}
+{"mention":"ax://paper/2609.27766#CTA6","row":"XANFXE47QT","target":"J8DEFZE8M1","name":"Ville's inequality"}
+{"mention":"ax://paper/2609.28282#27CC","row":"8ZJRHYKVHE","target":"YZVXFV3BNV","name":"Lattices"}
+{"mention":"ax://paper/2609.28454#F9Q8","row":"ZW7QQCRNNM","target":"205CY2M1MM","name":"Lorentz spaces"}
+{"mention":"ax://paper/2609.28454#WPLF","row":"VJSZ9M3CK6","target":"5Y3NHB3M0N","name":"Solution"}
+{"mention":"ax://paper/2609.28454#YCOP","row":"D3TWZMYTNX","target":"33BKJZ74JK","name":"Scattering"}
+{"mention":"ax://paper/2609.29205#EFJ4","row":"X7HDAM83FN","target":"S4AX6E61GG","name":"Mild solution"}
+{"mention":"ax://paper/2609.29393#3XEE","row":"ENWSX1KFDH","target":"83PZPG50R9","name":"Fundamental Identity"}
+{"mention":"ax://paper/2609.29393#GGU4","row":"GT8MSRDJ18","target":"1X14C5VF7A","name":"Alexandrov’s Theorem"}
+{"mention":"ax://paper/2609.29671#0P0V","row":"J6EA1MAWFB","target":"GCPH7DW2NM","name":"Dimer model"}
+{"mention":"ax://paper/2609.29712#2B2H","row":"ZFD5HAFVZE","target":"QMTWR5SEZP","name":"Singular integral operators"}
+{"mention":"ax://paper/2609.30049#U5WA","row":"2GZBCSDV2R","target":"N9PQBVBYPP","name":"$\\Gamma$-convergence"}
+{"mention":"ax://paper/2609.30302#0T0D","row":"RT9NPA6FFY","target":"ARPHXHFBVA","name":"Sprague-Grundy"}
+{"mention":"ax://paper/2609.30410#XVE9","row":"5EPV86M1X5","target":"2JHNWBFPPD","name":"Correspondence principle"}
+{"mention":"ax://paper/2609.30585#7UNK","row":"D5QZA0ZJJ9","target":"VB7FQFRKTA","name":"spectral gap"}
+{"mention":"ax://paper/2609.30637#7UM3","row":"8ACDS09TSF","target":"430RS5J000","name":"Tilting module"}
+{"mention":"ax://paper/2609.30637#ASB0","row":"5B05180GVN","target":"DMG12DATDQ","name":"Seed"}
+{"mention":"ax://paper/2609.30821#1TOU","row":"XKS4HV4GSJ","target":"6PN9JTAM11","name":"Homogenization of a polynomial"}
+{"mention":"ax://paper/2609.31336#EOZL","row":"ZC9YARAFS3","target":"KCYS5H8BMR","name":"State graph"}
+{"mention":"ax://paper/2609.31363#UPF1","row":"62VF46NJF3","target":"YWFM8WRQ8H","name":"Wasserstein distance"}
+{"mention":"ax://paper/2609.31363#VQCG","row":"GD83RJC43T","target":"S8CX5FZK3Z","name":"Cyclical monotonicity"}
+{"mention":"ax://paper/2609.31689#S5F4","row":"3T4WGGFCKT","target":"BMMD7JN5BT","name":"Spherical design"}
+{"mention":"ax://paper/2609.31919#Z3CA","row":"340KQ5874G","target":"PEAXG3WT9B","name":"Non-crossing partitions"}
+{"mention":"ax://paper/2609.32505#LI5W","row":"BFPR4F1F38","target":"T80H7EKDTD","name":"Polar decomposition"}
+{"mention":"ax://paper/2609.32585#9I3P","row":"3R9J7DDY6Z","target":"QR8GMQVS33","name":"Markov semigroup"}
+{"mention":"ax://paper/2609.32585#UZ9A","row":"RHXTGYVRGT","target":"S4AX6E61GG","name":"Mild solution"}
+{"mention":"ax://paper/2609.32599#GX61","row":"7G8W3BX2PV","target":"NRQDHW3SD9","name":"A moving lemma"}
+{"mention":"ax://paper/2609.32710#D43X","row":"CE8HMGQ247","target":"32KNHCE86X","name":"Viscosity solutions"}
+{"mention":"ax://paper/2609.32710#V72M","row":"NC5R443CFB","target":"RKKE6ZX62Q","name":"Regularization"}
 {"mention":"ax://paper/2609.32733#T35E","row":"DKQ105P9MZ","target":"TPPGY3VZF4","name":"Torus"}
+{"mention":"ax://paper/2609.32834#A15E","row":"8GP2PXQJZ7","target":"93RB8HYPC3","name":"Moore Matrix"}
 {"mention":"ax://paper/2609.33027#JMQE","row":"42PGVH31TN","target":"FCRH2HS0TQ","name":"Change of variables"}
-{"mention":"ax://paper/2609.33442#QPC2","row":"G8PK2HPCK2","target":"G8TSNDAB74","name":"Degree"}
-{"mention":"ax://paper/2609.33442#YXNN","row":"YS75CTFAX2","target":"VN8XB61PXR","name":"Concavity"}
+{"mention":"ax://paper/2609.33185#ZIRW","row":"1ZY25PFKJA","target":"A076HT70ST","name":"The genus formula"}
+{"mention":"ax://paper/2609.33590#G6WK","row":"4GN5VDFME6","target":"944PXKXV8R","name":"Law of Iterated Logarithm"}
+{"mention":"ax://paper/2609.33679#U6ED","row":"5C8FXX33G9","target":"YMKYZ8YXJ4","name":"Minimal model program"}
+{"mention":"ax://paper/2609.34845#FXW1","row":"6G7ZXVPYXV","target":"QAB530HYXA","name":"Pólya's theorem"}
+{"mention":"ax://paper/2609.34856#Y28X","row":"NPC4AYYRNH","target":"3P8Y8CGM13","name":"Commuting square"}
 {"mention":"ax://paper/2609.35030#UN46","row":"NFZM0F16T7","target":"PQ3S1JK2PK","name":"Uniqueness"}
+{"mention":"ax://paper/2609.35398#7ELC","row":"YR9YBPX2GH","target":"X4EB2YGARW","name":"Gronwall's inequality"}
+{"mention":"ax://paper/2609.35460#QTPB","row":"5N3PFNT4C1","target":"2WNW00V7W2","name":"Tail bound"}
+{"mention":"ax://paper/2609.35466#SWQU","row":"BGDNZRMSZK","target":"F7R05751BR","name":"Push-forward measure"}
+{"mention":"ax://paper/2609.36389#OQUD","row":"2ZDNEJ8JHV","target":"KCCM3DGKPD","name":"Chu--Vandermonde identity"}
+{"mention":"ax://paper/2609.36668#XA8E","row":"AYJ18H0WK4","target":"8D6V5RJ01K","name":"Strong convexity"}
+{"mention":"ax://paper/2609.36827#2KX8","row":"78PBVESR2Y","target":"V0AVEHPPYD","name":"Multiplicity formula"}
+{"mention":"ax://paper/2609.37074#F83R","row":"FW62FPY1WD","target":"SEYV1JTVBD","name":"Unital *-algebra"}
+{"mention":"ax://paper/2609.37074#K7H8","row":"VF7MC1QWJF","target":"KR0K6XFVEG","name":"Gram matrix"}
+{"mention":"ax://paper/2609.37074#LFMQ","row":"NEKH5FFRZ1","target":"DMPQXC51C4","name":"C*-algebra"}
+{"mention":"ax://paper/2609.37074#O33I","row":"FWRCHEW1SB","target":"TSPK0SFKEC","name":"Linear functional"}
 {"mention":"ax://paper/2609.37479#66DJ","row":"484265AS40","target":"PQ3S1JK2PK","name":"Uniqueness"}
-{"mention":"ax://paper/2609.38030#CK24","row":"1D2XF8FZ8X","target":"V7V6V9QHH2","name":"Euler equations"}
+{"mention":"ax://paper/2609.37489#HSG9","row":"GF83WN295R","target":"CDAS2DKR8E","name":"Quadratic Growth"}
+{"mention":"ax://paper/2609.37931#CAB2","row":"YSAT2GFK2K","target":"V7GB8Q26F7","name":"Verschiebung"}
 {"mention":"ax://paper/2609.38031#20CA","row":"1H9DC1YZYW","target":"72HGRHAVWK","name":"Existence"}
-{"mention":"ax://paper/2609.38061#I7SE","row":"9335ZVMJCK","target":"QP283EAC6F","name":"Molecule"}
+{"mention":"ax://paper/2609.38206#CTZZ","row":"E9HA03EF4R","target":"NX7PVQ175K","name":"Hamming Number"}
 {"mention":"ax://paper/2609.38220#ACY2","row":"TGVH38F9NK","target":"72HGRHAVWK","name":"Existence"}
+{"mention":"ax://paper/2609.38659#ZGJG","row":"3G125VZGQ3","target":"QGVA3MT1CR","name":"Bretagnolle--Huber inequality"}
+{"mention":"ax://paper/2609.39511#0XLH","row":"FSKB1FWY71","target":"TJ0X2DJ1E9","name":"spanning set"}
+{"mention":"ax://paper/2609.39511#4114","row":"1AKMCJJE0W","target":"TJ0X2DJ1E9","name":"spanning set"}
+{"mention":"ax://paper/2609.39845#1NX8","row":"EPKMM22T9R","target":"5P0QH2EVTR","name":"Capacity"}
+{"mention":"ax://paper/2609.39992#JJWF","row":"1E6QHZ8H6Y","target":"389EPTHVJ8","name":"Block encoding"}
+{"mention":"ax://paper/2609.40161#0BRH","row":"WNTP1K3333","target":"Q17E3B8MZ0","name":"Kakeya Conjecture"}
+{"mention":"ax://paper/2609.40207#34C9","row":"ZB2MZA81H1","target":"FH44RPFSAK","name":"dual graph"}
+{"mention":"ax://paper/2609.40207#QRNL","row":"3X0HMA51K7","target":"TFNYPHRCWZ","name":"thickness"}
+{"mention":"ax://paper/2609.40271#9LL1","row":"WJE7RVJB6A","target":"CEVCJHXPDP","name":"Contraction principle"}
+{"mention":"ax://paper/2609.40271#SDAS","row":"WB3W8FDPRT","target":"70TKBTA0XB","name":"Large deviation principle"}
+{"mention":"ax://paper/2609.40271#SU4Q","row":"290ZGGP086","target":"70TKBTA0XB","name":"Rate function"}
+{"mention":"ax://paper/2609.40282#RIO1","row":"XECT21PE3Z","target":"6518M869AB","name":"Greenberg's conjecture"}
+{"mention":"ax://paper/2610.00033#MRLA","row":"4RGCPBVS7X","target":"2TRKX9YK18","name":"Strong stationarity"}
+{"mention":"ax://paper/2610.00033#PPDR","row":"R6S16KTDR3","target":"2TRKX9YK18","name":"Weak stationarity"}
+{"mention":"ax://paper/2610.00312#2JAN","row":"EJZC9A8XKQ","target":"YHW0NB6NRH","name":"Schwarz-Pick Lemma"}
+{"mention":"ax://paper/2610.00312#U1HT","row":"GBVPG6Y8C3","target":"2TDY633C25","name":"Denjoy-Wolff Theorem"}
+{"mention":"ax://paper/2610.00525#7LOI","row":"1MKFSAPT3A","target":"GWNF43Q08Z","name":"Minimality"}
+{"mention":"ax://paper/2610.00525#8HOM","row":"S0YATHRT85","target":"C2RG1HXFEC","name":"Link"}
+{"mention":"ax://paper/2610.01240#TC7E","row":"HDHSW1TE1N","target":"275NW62SR9","name":"Parallel edges"}
+{"mention":"ax://paper/2610.01731#HJMS","row":"21WPD97Y0X","target":"QCGKVHR8WQ","name":"Excess intersection formula"}
+{"mention":"ax://paper/2610.01731#NH3O","row":"CGDMFRC6R5","target":"37T9SH0YGJ","name":"trace identity"}
 {"mention":"ax://paper/2610.01753#4JVT","row":"CDM163KTRG","target":"PQ3S1JK2PK","name":"uniqueness"}
-{"mention":"ax://paper/2610.02392#YB4U","row":"E2S3ZP1S1T","target":"R9B7AA76XW","name":"Trace"}
-{"mention":"ax://paper/2610.02963#D4F6","row":"DKECD7RWSA","target":"ZGCN26SQRZ","name":"Cauchy Condensation Test"}
-{"mention":"ax://paper/2610.03090#ORCZ","row":"EJQ548ZCCB","target":"VTYSQCEDHJ","name":"Node"}
-{"mention":"ax://paper/2610.06108#CUDK","row":"PP135EFAXX","target":"AN0RBW8KAP","name":"Generalization"}
+{"mention":"ax://paper/2610.01855#2VZ2","row":"4QS59ABN7M","target":"Y0HZPCN5ND","name":"Gaussian channel"}
+{"mention":"ax://paper/2610.01855#MG85","row":"7KXG7YJ4AB","target":"Y1Q9KMKJYS","name":"Partial trace"}
+{"mention":"ax://paper/2610.01855#NX5D","row":"XXHQ72KACN","target":"SV8PFQMW82","name":"Effective domain"}
+{"mention":"ax://paper/2610.01937#BJV4","row":"TZ6W38ZTQE","target":"XAH89DKQWT","name":"Morse Index"}
+{"mention":"ax://paper/2610.01937#NOM9","row":"8ASXYSP7CM","target":"XAH89DKQWT","name":"Morse Function"}
+{"mention":"ax://paper/2610.02550#RARN","row":"81WC3FPN67","target":"GM067A0N5E","name":"Korselt's criterion"}
+{"mention":"ax://paper/2610.02935#6LJ6","row":"FVPWS57X8B","target":"YHW0NB6NRH","name":"Schwarz--Pick Lemma"}
+{"mention":"ax://paper/2610.03126#9KOX","row":"755S52X6C5","target":"G59YT0PAE2","name":"Level Sets"}
+{"mention":"ax://paper/2610.03126#BQMO","row":"XY4C38503N","target":"5A14HBMWVW","name":"o‑minimal Structure"}
+{"mention":"ax://paper/2610.03126#LR2O","row":"WG3Q7FW7X2","target":"4XY3B3BT74","name":"Reeb graph"}
+{"mention":"ax://paper/2610.03517#NQGJ","row":"EMD8HG1T4Q","target":"3YATV37K83","name":"Azuma-Hoeffding inequality"}
+{"mention":"ax://paper/2610.03612#U880","row":"1FB2WPGNN7","target":"ESSTAQPSTR","name":"Desnanot-Jacobi Identity"}
+{"mention":"ax://paper/2610.03754#JD9E","row":"FBMH9FM6N2","target":"KJZXR0CK47","name":"Scaling law"}
+{"mention":"ax://paper/2610.04099#28Q5","row":"DFNN8V0P94","target":"NKJ9GRZKSP","name":"A binomial identity"}
+{"mention":"ax://paper/2610.04164#P1GO","row":"VFTM77KZ86","target":"JEPR71SD7B","name":"Mixing"}
+{"mention":"ax://paper/2610.04264#ARKM","row":"VS5G9B1YV2","target":"C6WX15A4P0","name":"Hilbert's projective metric"}
+{"mention":"ax://paper/2610.04870#36WJ","row":"6AREMB09EJ","target":"5Y3NHB3M0N","name":"Solution"}
+{"mention":"ax://paper/2610.04895#FRDR","row":"TXDQYEFXDX","target":"S4AX6E61GG","name":"Mild solution"}
+{"mention":"ax://paper/2610.05056#M94U","row":"BMKVMFA7BB","target":"PY8GE613SV","name":"Decreasing rearrangement"}
+{"mention":"ax://paper/2610.05164#A5WM","row":"J9Z6HMYZ7C","target":"B3DX1C2HFF","name":"Calibration"}
+{"mention":"ax://paper/2610.05391#BFLY","row":"5H86DAGFGT","target":"C963SB69V6","name":"Hille-Yosida"}
+{"mention":"ax://paper/2610.05864#D679","row":"C6BXRF4WN0","target":"3XS43FW8N5","name":"CIR model"}
+{"mention":"ax://paper/2610.05867#010K","row":"F2FPTPZPAR","target":"5C5M1AF4X3","name":"Differential Privacy"}
+{"mention":"ax://paper/2610.06321#WT05","row":"Y6E9H4ZPMK","target":"HXVW7Q7WPH","name":"Strong Markov Property"}
 {"mention":"ax://paper/2610.06521#MJ0C","row":"KHWQZ74901","target":"5D2R2EBBV3","name":"Hurwitz"}
 {"mention":"ax://paper/2610.06653#FFFT","row":"4JMPXP4SQ6","target":"NEBYPV5SCG","name":"Perron--Frobenius"}
-{"mention":"ax://paper/2610.06742#1PKB","row":"RXJCJ4JWWY","target":"4WFT3NWY82","name":"Converse"}
-{"mention":"ax://paper/2610.08091#DQPE","row":"V17SWFBJN6","target":"ECMG72PQSR","name":"Derivation"}
+{"mention":"ax://paper/2610.06755#700D","row":"2BKDAAVYK3","target":"73HG5F0BGQ","name":"Relative) Interior"}
+{"mention":"ax://paper/2610.07064#9Y1N","row":"E4M4P7JKWE","target":"P75EG9YYM6","name":"Periodic point"}
+{"mention":"ax://paper/2610.07064#D7NT","row":"G7Y15T8600","target":"EK9C549QX1","name":"Drazin inverse"}
+{"mention":"ax://paper/2610.07064#DQLC","row":"7XWS643KB4","target":"CCQX0DBEF1","name":"Basin of attraction"}
+{"mention":"ax://paper/2610.07190#N0DL","row":"3B372TDPER","target":"NKHHV1JJV8","name":"Smoothing function"}
+{"mention":"ax://paper/2610.07637#EHPY","row":"GW8K6GJ0TA","target":"Q7K226P620","name":"Campbell formula"}
+{"mention":"ax://paper/2610.07671#I9LN","row":"6DZG4H5QV7","target":"GWBS24PWD9","name":"Dyck Path"}
+{"mention":"ax://paper/2610.07905#LY1L","row":"RW4BTCDGA1","target":"4P765SR866","name":"Slopes"}
+{"mention":"ax://paper/2610.08007#39TZ","row":"ESQDFTZT7G","target":"6KETPQS1JE","name":"Difference kernel"}
+{"mention":"ax://paper/2610.08091#CYL7","row":"YZJ00TMJM1","target":"B60BNMT66K","name":"Batalin--Vilkovisky algebra"}
 {"mention":"ax://paper/2610.08145#TJ5Y","row":"DAZC7E1CXC","target":"AFMATZCNCH","name":"Taylor"}
+{"mention":"ax://paper/2610.08210#5PB7","row":"6Z86XNNP8Y","target":"3YATV37K83","name":"Azuma–Hoeffding inequality"}
+{"mention":"ax://paper/2610.08210#JWUW","row":"6SYJK8KMCA","target":"J8DEFZE8M1","name":"Ville's inequality"}
+{"mention":"ax://paper/2610.08253#29BN","row":"SHBF2P1GRT","target":"NCT25QDJ05","name":"Mazur's Theorem"}
+{"mention":"ax://paper/2610.08253#HIDQ","row":"STPJZ9VB26","target":"HSMM6Z24CW","name":"Fractional Hardy inequality"}
 {"mention":"ax://paper/2610.08484#I6IL","row":"WG1QF8RPDQ","target":"72HGRHAVWK","name":"Existence"}
+{"mention":"ax://paper/2610.08500#RJ3E","row":"97HCX39KYR","target":"XHYVP64BFR","name":"The labelled graph"}
+{"mention":"ax://paper/2610.08583#BTXW","row":"FX0X3NT2JH","target":"RXSYKVTKGP","name":"Cyclomatic number"}
+{"mention":"ax://paper/2610.08583#ZVZ7","row":"T1S4NVC02H","target":"KCYS5H8BMR","name":"State graph"}
+{"mention":"ax://paper/2610.08599#KTAR","row":"9BD2AJFBMF","target":"V0AVEHPPYD","name":"Multiplicity formula"}
 {"mention":"ax://paper/2610.08610#HE4W","row":"P0ZZVQZSRY","target":"81XSTJYXNF","name":"\\Bezout's theorem"}
-{"mention":"ax://paper/2610.08980#EYSF","row":"E57CW2A5YM","target":"2BKAEPKTEH","name":"The Splitting Lemma"}
+{"mention":"ax://paper/2610.08821#TCIL","row":"6A9HKW4S11","target":"WBN0H0NTYC","name":"Epi-convergence"}
+{"mention":"ax://paper/2610.09001#91Y4","row":"RBNWJ13NB6","target":"8027G745M7","name":"Representation formula"}
 {"mention":"ax://paper/2610.09422#QMDH","row":"ZC28PVA2AQ","target":"72HGRHAVWK","name":"Existence"}
+{"mention":"ax://paper/2610.09634#X8BZ","row":"6FFY86S4D2","target":"VVK2HC98T7","name":"Relative degree"}
+{"mention":"ax://paper/2610.09810#0QF9","row":"FG8279NVJY","target":"CX5MMWAYS3","name":"Fractional matching"}
+{"mention":"ax://paper/2610.09810#3ECM","row":"H815BAW2FN","target":"7JZB5FFNBM","name":"Anticlique"}
+{"mention":"ax://paper/2610.09912#5LJJ","row":"8P0BWS70EK","target":"ZS2AN5QQPQ","name":"Angle function"}
+{"mention":"ax://paper/2610.10080#K7DJ","row":"1ZRXM1RSX2","target":"PWS62KK6S7","name":"Kolmogorov continuity criterion"}
+{"mention":"ax://paper/2610.10167#LVB5","row":"YR6N88XS6J","target":"RVNSBV4FYB","name":"Kernel Smoothing"}
+{"mention":"ax://paper/2610.10206#5UPM","row":"DS0BPH8TFW","target":"HBRXZWND49","name":"Slice--ribbon conjecture"}
+{"mention":"ax://paper/2610.10365#68LO","row":"HCN3TFK6GH","target":"2YQ76V4YB5","name":"Kronecker's Limit Formula"}
+{"mention":"ax://paper/2610.10365#OGHR","row":"TRX9Q6XN9R","target":"S8XVBWFB68","name":"Limit formula"}
+{"mention":"ax://paper/2610.10474#CX57","row":"C24B11K44X","target":"DWWT2JDFZS","name":"State space"}
+{"mention":"ax://paper/2610.10559#IP5S","row":"3GS6W8DFH4","target":"YWFM8WRQ8H","name":"Wasserstein distance"}
+{"mention":"ax://paper/2610.10583#R4UZ","row":"RP2RFR1VNZ","target":"66WNQF21MM","name":"Error term"}
+{"mention":"ax://paper/2610.10745#GHZ6","row":"YVYG3D9VZW","target":"AT1HVABQDQ","name":"Derangements"}
+{"mention":"ax://paper/2610.10819#YR9L","row":"ANY49KW92B","target":"TTPZA20YQ2","name":"Unit in the last place"}
 {"mention":"ax://paper/2610.10821#Q162","row":"N3AYPWCZD6","target":"EXS8XSQ4SJ","name":"Branches"}
-{"mention":"ax://paper/2610.11960#AYWX","row":"PFYFXX41Q8","target":"4WFT3NWY82","name":"Converse"}
+{"mention":"ax://paper/2610.10930#8R8O","row":"PJNTJC4G3D","target":"ZXHAB773NY","name":"Strict 2-category"}
+{"mention":"ax://paper/2610.10930#JZMI","row":"P1FJB5NP14","target":"4DWQHTRHT7","name":"Finitely generated algebra"}
+{"mention":"ax://paper/2610.10930#NSTZ","row":"CYZAQDHGGH","target":"FRR1Z6G3GE","name":"Regular category"}
+{"mention":"ax://paper/2610.10930#QQYJ","row":"7MMHGDPF1R","target":"MEVDBPPP86","name":"Finitary monad"}
+{"mention":"ax://paper/2610.10964#PV9I","row":"F46Q8S7SBN","target":"FH44RPFSAK","name":"Dual graph"}
+{"mention":"ax://paper/2610.11031#BA5I","row":"2QYVSRCSDQ","target":"QYZQZM0Q75","name":"Arithmetic encoding"}
+{"mention":"ax://paper/2610.11034#51QA","row":"3NBY18VZYM","target":"E1HFE60RR6","name":"Strong maximum principle"}
+{"mention":"ax://paper/2610.11517#7BY9","row":"40AFAE4V2C","target":"GE7E57DD1V","name":"Bernoulli's inequality"}
+{"mention":"ax://paper/2610.11869#CS6E","row":"9C2H5BV72P","target":"YPF6A6P16N","name":"Tangent cone"}
+{"mention":"ax://paper/2610.11911#2GMY","row":"Y0GET2PSR6","target":"8FVP7ZG8MN","name":"Global hyperbolicity"}
+{"mention":"ax://paper/2610.11911#6S0W","row":"PK1X3XZ50T","target":"Q6Y5Y23V09","name":"Geodesics"}
+{"mention":"ax://paper/2610.11911#G5ZQ","row":"F1Z82SDHHF","target":"SJ0PD6MPCE","name":"Chern connection"}
+{"mention":"ax://paper/2610.12203#YXA4","row":"Y92CYYC3DT","target":"D0FMTMCM3S","name":"Poisson summation"}
 {"mention":"ax://paper/2610.12277#WDNC","row":"5DD8FN6HT2","target":"C4NEXYXV9A","name":"Wirtinger's inequality"}
-{"mention":"ax://paper/2610.14154#M983","row":"H0Q1RZE17J","target":"R4VHXG6HMJ","name":"Length"}
+{"mention":"ax://paper/2610.12430#9UAY","row":"44CS6KFT7Y","target":"P4W1WW222P","name":"Harnack inequalities"}
+{"mention":"ax://paper/2610.12480#HEEA","row":"NN230RV3RP","target":"3Y4BCZ6DPC","name":"Grain"}
+{"mention":"ax://paper/2610.12484#KKYE","row":"X2R5PBVDHE","target":"3YD7MQ14FQ","name":"critical pair"}
+{"mention":"ax://paper/2610.12484#Z89E","row":"6JJ8Q08XC1","target":"VPPP3A9W66","name":"$\\UP$ set"}
+{"mention":"ax://paper/2610.12489#1U5G","row":"DD9Z9900QY","target":"9B2EC7Y6Q0","name":"Superalgebra"}
+{"mention":"ax://paper/2610.12713#YUCJ","row":"CVDGWK3R89","target":"S4RP1B9B88","name":"Master theorem"}
+{"mention":"ax://paper/2610.12731#6QYA","row":"KW5KBHB201","target":"MYBXGSV7BR","name":"Interaction"}
+{"mention":"ax://paper/2610.13347#8L3E","row":"4XCPFF78K3","target":"D2GJE6JVQ0","name":"Thurston norm"}
+{"mention":"ax://paper/2610.13347#FXDF","row":"YF1Q81GFXZ","target":"KBRN5ZZR32","name":"Non-parallel"}
+{"mention":"ax://paper/2610.13658#F7O7","row":"4PCJTGNC2R","target":"EJ0825PXT2","name":"Asymptotic equivalence"}
+{"mention":"ax://paper/2610.13892#9X34","row":"QK02K3V6A1","target":"ZSC0BXHQ6Q","name":"Induced representation"}
+{"mention":"ax://paper/2610.13892#CJ5G","row":"T4E080W83M","target":"MNF91H80A4","name":"Twist"}
+{"mention":"ax://paper/2610.14154#PUCR","row":"JRDTBCRQY8","target":"6A1JM8J0TB","name":"Disjointness"}
+{"mention":"ax://paper/2610.14502#455M","row":"1EBMPPT608","target":"KKXPZN153M","name":"Second Main Theorem"}
+{"mention":"ax://paper/2610.14502#U9H5","row":"J8F83M0RQC","target":"G8KBV7036R","name":"First Main Theorem"}
+{"mention":"ax://paper/2610.14615#3T7Y","row":"Z033PYTD27","target":"47VBHYHHT5","name":"KL divergence"}
+{"mention":"ax://paper/2610.14615#60YZ","row":"Q0985BYPSW","target":"MBHXK9JF32","name":"Binary entropy"}
+{"mention":"ax://paper/2610.14615#GFJM","row":"D9RBFZS30E","target":"1SWYPTEKXX","name":"Laplace estimator"}
+{"mention":"ax://paper/2610.14616#6TL4","row":"WVDT1CFTHF","target":"2QKX772PSZ","name":"Histograms"}
+{"mention":"ax://paper/2610.14906#WH48","row":"CY62FNW4YF","target":"CXSCDKC0DD","name":"Positive-definite operator"}
 {"mention":"ax://paper/2610.15099#3BQI","row":"9Y91YX32T6","target":"72HGRHAVWK","name":"existence"}
 {"mention":"ax://paper/2610.15099#C9G0","row":"4ZPF86068H","target":"72HGRHAVWK","name":"existence"}
+{"mention":"ax://paper/2610.15217#Z6ZY","row":"R470KWERPS","target":"HPFC9BT9Z3","name":"Topological Vaught Conjecture"}
+{"mention":"ax://paper/2610.15926#C5OL","row":"GSE9WX3XRQ","target":"KTGRE0HVBP","name":"Fenchel--Nielsen coordinates"}
+{"mention":"ax://paper/2610.16094#OP9Q","row":"FBM66J6QXC","target":"EYZE22FZ3G","name":"Closed operator"}
+{"mention":"ax://paper/2610.16241#OV65","row":"PC2QAKBJC5","target":"NSB389H3KX","name":"van Kampen Lemma"}
 {"mention":"ax://paper/2610.16583#APKV","row":"ZPJHMMBCQ7","target":"75V9C3AXZ2","name":"Runge"}
+{"mention":"ax://paper/2610.17004#7ELO","row":"CABCPBHX5T","target":"Q6Y5Y23V09","name":"Geodesics"}
+{"mention":"ax://paper/2610.17004#FI32","row":"PPAM1Z5ANN","target":"W3WKMY1PKJ","name":"Jacobi field"}
+{"mention":"ax://paper/2610.17004#JGBU","row":"BRVG6DZAJ4","target":"Q8VDQWZH0A","name":"Isometries"}
+{"mention":"ax://paper/2610.17004#JYQK","row":"3CDAJV79S0","target":"FVZ1GQAWHW","name":"Local frame"}
+{"mention":"ax://paper/2610.17004#Y0RM","row":"18E1FH0NA1","target":"R72JXREXG5","name":"Local rigidity"}
+{"mention":"ax://paper/2610.17006#0HK7","row":"QJ8V196GZE","target":"V0AVEHPPYD","name":"Multiplicity formula"}
 {"mention":"ax://paper/2610.17127#UV13","row":"MVQPF0HX3K","target":"PQ3S1JK2PK","name":"Uniqueness"}
 {"mention":"ax://paper/2610.17129#VBRU","row":"4MA9BX95GW","target":"PQ3S1JK2PK","name":"Uniqueness"}
-{"mention":"ax://paper/2610.17137#GX2W","row":"C5JWEHQ94N","target":"7K2V431N0Y","name":"Ideal"}
-{"mention":"ax://paper/2610.17565#EC1E","row":"ZW5BNX01TJ","target":"1M72DYVPT0","name":"Structure Theorem"}
+{"mention":"ax://paper/2610.17441#G9LK","row":"GSYWVRNW3H","target":"DMG12DATDQ","name":"Seed"}
+{"mention":"ax://paper/2610.17547#YSF4","row":"KF323KE160","target":"KZPYR4THA0","name":"Jensen"}
+{"mention":"ax://paper/2610.17589#THXH","row":"VVXM75NXCC","target":"BD3655C9MR","name":"Thue--Siegel--Roth"}
+{"mention":"ax://paper/2610.17604#KP50","row":"3YEF7VJNXK","target":"VQWNC7DEJR","name":"Lyapunov Function"}
+{"mention":"ax://paper/2610.17815#2R49","row":"VPPFRG0J04","target":"WMR722S7MJ","name":"Wick formula"}
+{"mention":"ax://paper/2610.17909#UQEB","row":"5JT4ZE95NW","target":"D8AMZS64DM","name":"First variation formula"}
 {"mention":"ax://paper/2610.18078#L0PT","row":"6Q9ASJNXFP","target":"PQ3S1JK2PK","name":"Uniqueness"}
 {"mention":"ax://paper/2610.18154#MKHR","row":"YFVCE7XS98","target":"ZJRMRMA2BS","name":"Orthogonality"}
+{"mention":"ax://paper/2610.18154#T4QY","row":"CT1BR83QFD","target":"AWW98JV1JF","name":"Artin's theorem"}
 {"mention":"ax://paper/2610.18512#VK5M","row":"4SPG2BA91M","target":"72HGRHAVWK","name":"Existence"}
-{"mention":"ax://paper/2610.18803#C693","row":"Q23RPQVENX","target":"GHHRSFD0WY","name":"Gaussian integral"}
-{"mention":"ax://paper/2610.20489#ZRA3","row":"Q30F2RJ2YZ","target":"B3SY21H4YD","name":"The contour"}
-{"mention":"ax://paper/2610.21775#9HFM","row":"T2CGYPQTNT","target":"QFZYM9JR3G","name":"Reverse triangle inequality"}
-{"mention":"ax://paper/math/0003117#FLZM","row":"FVTPWETM8W","target":"TAA6JJYQ4M","name":"Depth"}
+{"mention":"ax://paper/2610.18544#TD8N","row":"BB9SKHK770","target":"EKJF9TBHG9","name":"Coarea formula"}
+{"mention":"ax://paper/2610.18600#8B4R","row":"GSGJ1WKV59","target":"ACTSA9E21N","name":"Saturation"}
+{"mention":"ax://paper/2610.18744#JC4I","row":"GPFE8M7CTA","target":"32KNHCE86X","name":"Viscosity solutions"}
+{"mention":"ax://paper/2610.18992#3Y5P","row":"3J2R77RCGS","target":"ZJYMVA6271","name":"Completeness property"}
+{"mention":"ax://paper/2610.19416#7620","row":"Y7NFJW5HTH","target":"E4QXWVH8T0","name":"Homogeneity"}
+{"mention":"ax://paper/2610.19416#JOJU","row":"MH8VQD5ZVZ","target":"423B9MTAV9","name":"Hausdorff metric"}
+{"mention":"ax://paper/2610.19669#BAWN","row":"JDP8DX53KE","target":"AJ08E6NT9S","name":"Clique sum"}
+{"mention":"ax://paper/2610.19861#CJ37","row":"S42RXE68JB","target":"JVG49W27QK","name":"Variation diminishing property"}
+{"mention":"ax://paper/2610.19861#IRJU","row":"J73D2ARCB0","target":"C9Z8Y7NQVV","name":"Gaussian Kernel"}
+{"mention":"ax://paper/2610.20416#F7UR","row":"GVB2DQRWJ9","target":"8D6V5RJ01K","name":"Strong convexity"}
+{"mention":"ax://paper/2610.20798#50G3","row":"JDR87E0G41","target":"YWFM8WRQ8H","name":"Wasserstein distance"}
+{"mention":"ax://paper/2610.20801#7B9W","row":"GK28YX2QYE","target":"SZJH8J842Y","name":"Square-zero extension"}
+{"mention":"ax://paper/2610.20972#DCYN","row":"6DYEBP9Q5X","target":"JQDEAXVDMY","name":"Brenier's theorem"}
+{"mention":"ax://paper/2610.21131#LL3T","row":"BRZ9QZX81Q","target":"YCRHH2QMN2","name":"Semantic Domain"}
+{"mention":"ax://paper/2610.21675#FBNU","row":"VV9YN53RFJ","target":"P2E2KV54BD","name":"Invertibility"}
+{"mention":"ax://paper/2610.21775#EXRU","row":"SHDV8WPE4R","target":"5DZJFWHQAG","name":"Gradient flow"}
+{"mention":"ax://paper/2610.22247#CPMS","row":"3JWX85STM7","target":"KK3JA429QT","name":"Normal basis theorem"}
+{"mention":"ax://paper/math/0003117#APZ6","row":"TD4JXPWXY0","target":"7EQ5GM5MKP","name":"Space-time"}
+{"mention":"ax://paper/math/0003117#BH83","row":"YCNGN1CXYY","target":"PBXFQT0F14","name":"Errors"}
+{"mention":"ax://paper/math/0003117#EJKI","row":"9MBNZP07HG","target":"WCP4B080KX","name":"Relaxation time"}
+{"mention":"ax://paper/math/0003117#R96V","row":"5J4XGQK5ZW","target":"7KN59ZR6EB","name":"Interacting particle system"}
+{"mention":"ax://paper/math/0003117#RUGJ","row":"M5Y76PNYJY","target":"5P0QH2EVTR","name":"Capacity"}
+{"mention":"ax://paper/math/0301148#3PP2","row":"K83883BASX","target":"6AVK1MRKF8","name":"Irreducibility Theorem"}

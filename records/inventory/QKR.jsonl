@@ -7,3 +7,4 @@
 {"id":"QKRPGQYWRN","mentions":["wikipedia://en/140829#OQ8F"],"kind":"unknown","name":"McCrossan, Paul","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QKRRN6WR3D","mentions":["wikipedia://en/280529#YTUX"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QKRYTQG3NM","mentions":["wikipedia://en/519979#IKMA"],"kind":"definition","name":"Edinburgh Mathematical Society","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QKRZAA0KA9","mentions":["ax://paper/2609.21305#1V0K"],"kind":"statement","msc":["03-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.18"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.18"}]}

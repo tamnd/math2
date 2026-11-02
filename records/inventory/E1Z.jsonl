@@ -8,3 +8,4 @@
 {"id":"E1ZH7J5P75","mentions":["wikipedia://en/39226840"],"kind":"definition","name":"Brownian meander","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"E1ZM2QXD37","mentions":["wikipedia://en/3219921#T142"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"E1ZQAGGVGC","mentions":["wikipedia://en/191457#76HH"],"kind":"definition","name":"Risk factor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"E1ZZN6Z449","mentions":["ax://paper/2609.21017#IIMI"],"kind":"statement","msc":["62-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.18"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.18"}]}

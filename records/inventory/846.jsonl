@@ -1,3 +1,4 @@
+{"id":"8462MZQR63","mentions":["ax://paper/2609.20656#717F"],"kind":"statement","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.18"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.18"}]}
 {"id":"84662EB7DH","mentions":["wikipedia://en/1601457#QLO5"],"kind":"unknown","name":"Forward induction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"84688GZFM1","mentions":["wikipedia://en/29004#D3X3"],"kind":"unknown","name":"Criticism of SQL","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"84694A24GW","mentions":["wikipedia://en/44012866"],"kind":"definition","name":"Real-root isolation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

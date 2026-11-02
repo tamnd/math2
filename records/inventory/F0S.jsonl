@@ -1,3 +1,4 @@
+{"id":"F0S01PVPTN","mentions":["ax://paper/2609.21034#ADLV"],"kind":"definition","msc":["14-XX","55-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.18"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.18"}]}
 {"id":"F0S33A9Y52","mentions":["wikipedia://en/78730954#CKNO"],"kind":"unknown","name":"salivating","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"F0S5X25YSJ","mentions":["wikipedia://en/55711732"],"kind":"topic","name":"Estelle Basor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"F0SAQBVSYY","mentions":["wikipedia://en/42747363#NJON"],"kind":"statement","name":"Symmetry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

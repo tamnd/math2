@@ -1,3 +1,4 @@
 {"id":"GVZ8PPG60K","mentions":["wikipedia://en/47738065#H4Q4"],"kind":"unknown","name":"Thomas W. Hawkins, Jr.","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"GVZE6M2VWZ","mentions":["ax://paper/2609.20190#6MF3"],"kind":"statement","msc":["94-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.18"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.18"}]}
 {"id":"GVZJA9A3D5","mentions":["wikipedia://en/221525#AX9M"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GVZPF4C2S0","mentions":["wikipedia://en/7088#08YC"],"kind":"unknown","name":"Moti Yung","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

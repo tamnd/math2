@@ -1,5 +1,6 @@
 {"id":"T482CHAD27","mentions":["wikipedia://en/4011785"],"kind":"definition","name":"F-score","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"T482P57F8P","mentions":["wikipedia://en/78730954#01HV"],"kind":"unknown","name":"Seizure","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"T484K2S5Q3","mentions":["ax://paper/2609.21668#P1J9"],"kind":"definition","msc":["16-XX","20-XX","22-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.18"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.18"}]}
 {"id":"T486PVEGKP","mentions":["wikipedia://en/46769#ZRWW"],"kind":"statement","name":"Walras's law","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"T488B6843S","mentions":["m2://rec/wikidata/Q845630#1"],"kind":"unknown","name":"239","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"T48D2THGKJ","mentions":["wikipedia://en/24419775"],"kind":"definition","name":"Theodore von Kármán Prize","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

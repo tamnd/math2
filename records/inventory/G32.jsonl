@@ -1,4 +1,5 @@
 {"id":"G325KQ2AEB","mentions":["wikipedia://en/45235652#RQK8"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"G327036Z9H","mentions":["ax://paper/2609.21739#HMVG"],"kind":"statement","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.18"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.18"}]}
 {"id":"G32EM7CRFC","mentions":["wikipedia://en/407249#685V"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"G32JAN29AW","mentions":["wikipedia://en/339396#Q4HB"],"kind":"definition","name":"Sequence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"G32NWJNMYW","mentions":["wikipedia://en/2364425"],"kind":"topic","name":"Paul of Venice","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -4,4 +4,5 @@
 {"id":"BX9DW50Y4A","mentions":["m2://rec/napkin/tex/alg-NT/discriminant.tex#problem-2#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"BX9FM3SM89","mentions":["wikipedia://en/51639135#PA0D"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BX9HQKTTGR","mentions":["wikipedia://en/348029#9JN1"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"BX9KFFE4RA","mentions":["ax://paper/2609.20588#TLAX"],"kind":"example","msc":["53-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.18"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.18"}]}
 {"id":"BX9YRB0WQP","mentions":["wikipedia://en/64208634#RSTY"],"kind":"definition","name":"Radon","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
