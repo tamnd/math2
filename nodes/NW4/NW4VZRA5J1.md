@@ -1,0 +1,22 @@
+---
+tag: NW4VZRA5J1
+kind: concept
+name: Pure weights
+msc: [11-XX]
+sources:
+  - arxiv: 2609.26477v1
+    locator: Definition 2.1
+    mention: ax://paper/2609.26477#0N9K
+    note: the paper that states the item (corpus arxiv AX9.2)
+history:
+  notes: The source is arXiv:2609.26477v1 (2026-09), by Tristan Ricoul. A paper also restates older results, so this is not the first statement until a person or a later pass confirms it.
+inventory: [6DXYDTGN6R]
+---
+
+## Summary
+
+A highest weight $\mu$ for $G_E$ is a family $(\mu_\tau)$ indexed by the set $S_\infty$ of infinite embeddings of the base field $E$. Each $\mu_\tau$ is a dominant weight of the diagonal torus of $\mathrm{GL}_3$, written as a triple $(m^+_\tau, m^-_\tau, v_\tau)$.
+
+The weight $\mu$ is **pure** when $v_\tau$ is the same for all $\tau$ in $S_\infty$, and $m^+_\tau = m^-_\tau$ for every $\tau$.
+
+The source paper uses this condition when it studies divisibility of automorphic periods for the base change of $\mathrm{GL}_3$ to a real quadratic field.

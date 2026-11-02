@@ -1,0 +1,42 @@
+---
+tag: 5GX76EM5HS
+kind: statement
+role: lemma
+name: Strichartz estimates in Lorentz space
+msc: [35-XX]
+sources:
+  - arxiv: 2609.28454v1
+    locator: Lemma 2.15
+    mention: ax://paper/2609.28454#BKD0
+    note: the paper that states the item (corpus arxiv AX9.2)
+history:
+  notes: The source is arXiv:2609.28454v1 (2026-09), by Zuyu Ma, Changxing Miao, Matthew Rosenzweig, Jiqiang Zheng. A paper also restates older results, so this is not the first statement until a person or a later pass confirms it.
+inventory: [4VXFZ3EVT5]
+uses: [B7X9M15Q92, 4PDKJ8N1S9, EPZR6H2WJN, DPVM34ADZV, SASP14MA1Z]
+---
+
+## Statement
+
+Let $d \ge 1$.
+For $f \in L^2(\R^d)$, let $e^{it\Delta} f$ be the solution at time $t$ of the free [[Schrödinger equation|EPZR6H2WJN]] with data $f$.
+It is given by the [[Fourier transform|DPVM34ADZV]] as $\widehat{e^{it\Delta} f}(\xi) = e^{-it\abs{\xi}^2} \hat f(\xi)$.
+
+Call a pair $(q, r)$ admissible if $2 \le q \le \infty$, $2 \le r < \infty$, $(q, r, d) \ne (2, \infty, 2)$ and
+$$\frac{2}{q} + \frac{d}{r} = \frac{d}{2}.$$
+For $1 \le s \le \infty$, let $s'$ be the conjugate exponent, with $\frac{1}{s} + \frac{1}{s'} = 1$.
+For an interval $I \subseteq \R$, let $\norm{u}_{L^q_t L^{r,2}_x(I \times \R^d)}$ be the $L^q$ norm over $t \in I$ of the function $t \mapsto \norm{u(t)}_{L^{r,2}(\R^d)}$.
+Here $L^{r,2}$ is the [[Lorentz space|B7X9M15Q92]] with Lebesgue measure, and $L^q$ is a [[Lebesgue space|SASP14MA1Z]].
+
+Then the following two estimates hold, where the implied constants depend only on $d$ and the exponents.
+
+1. Let $(q, r)$ be admissible. Then for all $f \in L^2(\R^d)$,
+$$\norm{e^{it\Delta} f}_{L^q_t L^{r,2}_x(\R \times \R^d)} \lesssim \norm{f}_{L^2(\R^d)}.$$
+
+2. Let $(q_1, r_1)$ and $(q_2, r_2)$ be admissible. Let $I \subseteq \R$ be an interval and let $t_0 \in I$. Then for all $F \in L^{q_2'}_t L^{r_2',2}_x(I \times \R^d)$,
+$$\Big\| \int_{t_0}^t e^{i(t-\tau)\Delta} F(\tau) \, d\tau \Big\|_{L^{q_1}_t L^{r_1,2}_x(I \times \R^d)} \lesssim \norm{F}_{L^{q_2'}_t L^{r_2',2}_x(I \times \R^d)}.$$
+
+## Remarks
+
+The classical [[Strichartz estimate|4PDKJ8N1S9]] is the same bound with $L^r$ in place of $L^{r,2}$.
+Since $L^{r,2}$ is contained in $L^{r,r} = L^r$ for $r \ge 2$, the first estimate is stronger than the classical one.
+The paper allows $r = \infty$ in its admissible pairs. This node requires $r < \infty$, since the linked Lorentz space needs a finite first index.
