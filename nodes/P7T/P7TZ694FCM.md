@@ -16,7 +16,7 @@ same_as:
 ## Statement
 
 Let $G$ be a [[finitely generated group|082DWWXMRJ]].
-Call $G$ *recursively presented* if it has a [[presentation|0JGEQXQ4AC]] $\langle S \mid R \rangle$ with $S$ finite and $R$ computably enumerable.
+Call $G$ *recursively presented* if it has a [[presentation|0JGEQXQ4AC]] $\langle S \mid R \rangle$ with $S$ finite and $R$ [[computably enumerable|TN9G24VABN]].
 Here $R$ is a set of words in the elements of $S$ and their inverses.
 Then $G$ is isomorphic to a [[subgroup|0X1JXT47GA]] of a [[finitely presented group|TJKANTKASZ]] if and only if $G$ is recursively presented.
 
@@ -47,7 +47,7 @@ It is a bridge between group theory and the theory of computation.
 ### L2 human
 
 The theorem shows that there is a finitely presented group that contains every finitely presented group as a subgroup.
-It also gives another route to finitely presented groups with unsolvable word problem.
+It also gives another route to finitely presented groups with unsolvable [[word problem|PBGTTAVMMT]].
 Take a computably enumerable set of integers that is not computable.
 Encode it into the relators of a recursively presented group with unsolvable word problem, and embed this group in a finitely presented group.
 The word problem of the big group cannot be solvable, since it would solve the word problem of the subgroup.

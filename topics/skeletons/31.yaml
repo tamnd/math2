@@ -99,7 +99,7 @@ items:
   - {name: equilibrium measure, kind: definition, wikipedia: Capacity of a set, wikidata: Q5034494}
   - {name: Frostman's theorem, kind: statement, wikipedia: Capacity of a set, wikidata: Q5034494}
   - {name: Gauss variational problem, kind: problem, wikipedia: Capacity of a set, wikidata: Q5034494}
-  - {name: capacity of a set, kind: definition, wikipedia: Capacity of a set, wikidata: Q5034494}
+  - {name: capacity of a set, kind: definition, wikipedia: Capacity of a set, wikidata: Q5034494, node: 4YZVFGJVSZ}
   - {name: Newtonian capacity, kind: definition, wikipedia: Capacity of a set, wikidata: Q5034494}
   - {name: Wiener capacity, kind: definition, wikipedia: Capacity of a set, wikidata: Q5034494}
   - {name: condenser capacity, kind: definition, wikipedia: Capacity of a set, wikidata: Q5034494}
@@ -117,7 +117,7 @@ items:
   - {name: quasi-everywhere, kind: definition, wikipedia: Capacity of a set, wikidata: Q5034494}
   - {name: Evans potential, kind: statement, wikipedia: Polar set (potential theory), wikidata: Q7209102}
   - {name: removable sets for bounded harmonic functions, kind: statement, wikipedia: Polar set (potential theory), wikidata: Q7209102}
-  - {name: Frostman lemma, kind: statement, wikipedia: Frostman lemma, wikidata: Q5506220}
+  - {name: Frostman lemma, kind: statement, wikipedia: Frostman lemma, wikidata: Q5506220, node: FYNFT90NT2}
   - {name: capacity and Hausdorff dimension, kind: statement, wikipedia: Frostman lemma, wikidata: Q5506220}
   - {name: maximum principle for potentials, kind: statement, wikipedia: Maximum principle, wikidata: Q1914255}
   - {name: domination principle, kind: statement, wikipedia: Potential theory, wikidata: Q1154848}

@@ -15,7 +15,7 @@ same_as:
 
 A differentially closed field is a [[differential field|GA5PTQGC6G]] in which every differential equation that can have a solution in some extension already has one.
 It is the analogue, for differential equations, of an [[algebraically closed field|0PF6TM8TWT]] for polynomial equations.
-In characteristic $0$, the differentially closed fields form an elementary class whose theory, called $\mathrm{DCF}_0$, is a central example in model theory.
+In characteristic $0$, the differentially closed fields form an elementary class whose theory, called $\mathrm{DCF}_0$, is a central example in [[model theory|HFTBG5PMXC]].
 
 ## Explanations
 

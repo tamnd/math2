@@ -9,10 +9,10 @@ sources:
 
 ## Summary
 
-A classifying space of a discrete [[group|G5S1M9]] $G$ is a path-connected space $BG$ whose fundamental group is $G$ and whose higher homotopy groups all vanish.
-It is the Eilenberg–MacLane space $K(G, 1)$, and among CW complexes it is unique up to homotopy equivalence.
+A classifying space of a discrete [[group|G5S1M9]] $G$ is a path-connected space $BG$ whose [[fundamental group|S1XK3HXHFX]] is $G$ and whose higher [[homotopy groups|P976WYEFMB]] all vanish.
+It is the [[Eilenberg–MacLane space|AJHEYJE5XY]] $K(G, 1)$, and among CW complexes it is unique up to [[homotopy equivalence|XZG6MTSWCN]].
 Through $BG$, group theory and topology meet: the [[homology of the group|CFAG3VRXEA]] is the homology of the space $BG$.
-For topological groups, the same symbol denotes a space that classifies principal $G$-bundles, see principal bundle.
+For topological groups, the same symbol denotes a space that classifies principal $G$-bundles, see [[principal bundle|8E37E74XVP]].
 
 ## Explanations
 

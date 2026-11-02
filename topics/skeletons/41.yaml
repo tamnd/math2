@@ -135,7 +135,7 @@ items:
   - {name: Gauss–Kronrod quadrature formula, kind: definition, wikipedia: Gauss–Kronrod quadrature formula, wikidata: Q5527852}
   - {name: Clenshaw–Curtis quadrature, kind: definition, wikipedia: Clenshaw–Curtis quadrature, wikidata: Q5131618}
   - {name: Romberg's method, kind: concept, wikipedia: Romberg's method, wikidata: Q1078449}
-  - {name: Richardson extrapolation, kind: concept, wikipedia: Richardson extrapolation, wikidata: Q1063089}
+  - {name: Richardson extrapolation, kind: concept, wikipedia: Richardson extrapolation, wikidata: Q1063089, node: WMTZG71K2Y}
   - {name: Peano kernel theorem, kind: statement, wikipedia: Peano kernel theorem, wikidata: Q60741336}
   - {name: sparse grid, kind: concept, wikipedia: Sparse grid, wikidata: Q7573793}
   - {name: curse of dimensionality, kind: concept, wikipedia: Curse of dimensionality, wikidata: Q1430460}
@@ -148,20 +148,20 @@ items:
   - {name: Abel–Plana formula, kind: statement, wikipedia: Abel–Plana formula, wikidata: Q4666730}
   - {name: Boole summation formula, kind: statement, wikipedia: Euler–Boole summation, wikidata: Q30676419}
   # Asymptotic approximations and expansions
-  - {name: asymptotic analysis, kind: concept, wikipedia: Asymptotic analysis, wikidata: Q752718}
-  - {name: asymptotic expansion, kind: definition, wikipedia: Asymptotic expansion, wikidata: Q752726}
+  - {name: asymptotic analysis, kind: concept, wikipedia: Asymptotic analysis, wikidata: Q752718, node: Q26QN6GYZX}
+  - {name: asymptotic expansion, kind: definition, wikipedia: Asymptotic expansion, wikidata: Q752726, node: BJQTEPEZ9G}
   - {name: asymptotic equivalence, kind: definition, decl: Asymptotics.IsEquivalent, wikipedia: Asymptotic analysis, wikidata: Q752718, node: 0QR92XBV6H}
   - {name: little-o notation, kind: definition, decl: Asymptotics.IsLittleO, wikipedia: Big O notation, wikidata: Q269878, node: 00T5EPFQB9}
   - {name: asymptotic scale, kind: definition, wikipedia: Asymptotic expansion, wikidata: Q752726}
   - {name: Poincaré asymptotic series, kind: definition, wikipedia: Asymptotic expansion, wikidata: Q752726}
   - {name: divergent asymptotic series, kind: example, wikipedia: Divergent series, wikidata: Q906520}
   - {name: optimal truncation, kind: concept, wikipedia: Asymptotic expansion, wikidata: Q752726}
-  - {name: Watson's lemma, kind: statement, wikipedia: Watson's lemma, wikidata: Q7974787}
+  - {name: Watson's lemma, kind: statement, wikipedia: Watson's lemma, wikidata: Q7974787, node: BW830VCE98}
   - {name: method of steepest descent, kind: concept, wikipedia: Method of steepest descent, wikidata: Q1997812}
   - {name: saddle point method, kind: concept, wikipedia: Method of steepest descent, wikidata: Q1997812}
   - {name: stationary phase approximation, kind: statement, wikipedia: Stationary phase approximation, wikidata: Q1936897}
   - {name: Laplace's method, kind: statement, wikipedia: Laplace's method, wikidata: Q2058297}
-  - {name: Stokes phenomenon, kind: concept, wikipedia: Stokes phenomenon, wikidata: Q7618550}
+  - {name: Stokes phenomenon, kind: concept, wikipedia: Stokes phenomenon, wikidata: Q7618550, node: TTGF8KCA8C}
   - {name: resurgence, kind: concept, wikipedia: Resurgent function, wikidata: Q108530228}
   - {name: Stirling's formula, kind: statement, decl: Stirling.factorial_isEquivalent_stirling, wikipedia: Stirling's approximation, wikidata: Q470877, node: 0KC0F51T6A}
   - {name: Euler–Maclaurin formula, kind: statement, wikipedia: Euler–Maclaurin formula, wikidata: Q282023, node: 9P839VB8S7}

@@ -41,9 +41,9 @@ items:
   - {name: Thom–Mather stratified space, kind: definition, wikipedia: Thom–Mather stratified space, wikidata: Q7825045}
   - {name: Thom–Mather isotopy lemmas, kind: statement, wikipedia: Thom–Mather stratified space, wikidata: Q7825045}
   # Infinite-dimensional manifolds
-  - {name: Banach manifold, kind: definition, wikipedia: Banach manifold, wikidata: Q3554819}
+  - {name: Banach manifold, kind: definition, wikipedia: Banach manifold, wikidata: Q3554819, node: 9K15AMGBV9}
   - {name: Hilbert manifold, kind: definition, wikipedia: Hilbert manifold, wikidata: Q3554824}
-  - {name: Fréchet manifold, kind: definition, wikipedia: Fréchet manifold, wikidata: Q3554820}
+  - {name: Fréchet manifold, kind: definition, wikipedia: Fréchet manifold, wikidata: Q3554820, node: EBMCFQT0JN}
   - {name: convenient vector space, kind: definition, wikipedia: Convenient vector space, wikidata: Q25303670}
   - {name: tame Fréchet space, kind: definition, wikipedia: Nash–Moser theorem, wikidata: Q6967039}
   - {name: Kuiper's theorem, kind: statement, wikipedia: Kuiper's theorem, wikidata: Q6442276}

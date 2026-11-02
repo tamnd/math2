@@ -203,9 +203,9 @@ items:
   - {name: moment problem, kind: problem, wikipedia: Moment problem, wikidata: Q3406268}
   - {name: determinate moment problem, kind: definition, wikipedia: Moment problem, wikidata: Q3406268}
   - {name: indeterminate moment problem, kind: definition, wikipedia: Moment problem, wikidata: Q3406268}
-  - {name: Hamburger moment problem, kind: problem, wikipedia: Hamburger moment problem, wikidata: Q5644349}
+  - {name: Hamburger moment problem, kind: problem, wikipedia: Hamburger moment problem, wikidata: Q5644349, node: TBNCFXTMMW}
   - {name: Stieltjes moment problem, kind: problem, wikipedia: Stieltjes moment problem, wikidata: Q7616380}
-  - {name: Hausdorff moment problem, kind: problem, wikipedia: Hausdorff moment problem, wikidata: Q5682821}
+  - {name: Hausdorff moment problem, kind: problem, wikipedia: Hausdorff moment problem, wikidata: Q5682821, node: G7VG61YD4J}
   - {name: positivity of Hankel matrices of moments, kind: statement, wikipedia: Hankel matrix, wikidata: Q1575637}
   - {name: Carleman's condition, kind: statement, wikipedia: Carleman's condition, wikidata: Q5041151}
   - {name: Krein's condition, kind: statement, wikipedia: Krein's condition, wikidata: Q6436610}

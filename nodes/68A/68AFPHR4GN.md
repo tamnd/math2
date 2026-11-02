@@ -16,7 +16,7 @@ same_as:
 A one-relator group is a [[group|G5S1M9]] with a [[presentation|0JGEQXQ4AC]] that has a single defining relator.
 Examples are $\Z^2$, the fundamental groups of closed surfaces, and the [[Baumslag–Solitar groups|429JJ5ZNBY]].
 They are the natural next class after [[free groups|0KTW26C80J]], and they have a rich general theory.
-Magnus proved the [[Freiheitssatz|B2TRERFWEH]] for them and showed that their word problem is solvable.
+Magnus proved the [[Freiheitssatz|B2TRERFWEH]] for them and showed that their [[word problem|PBGTTAVMMT]] is solvable.
 
 ## Explanations
 

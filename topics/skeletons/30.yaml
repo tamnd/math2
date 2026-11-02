@@ -53,7 +53,7 @@ items:
   - {name: Hurwitz's theorem, kind: statement, wikipedia: Hurwitz's theorem (complex analysis), wikidata: Q1136043, node: 0SSKBQN58M}
   - {name: Montel's theorem, kind: statement, wikipedia: Montel's theorem, wikidata: Q535366, node: ZVFVBVJMCB}
   - {name: normal family, kind: definition, wikipedia: Normal family, wikidata: Q1049280, node: JTVWRXXAKM}
-  - {name: Vitali convergence theorem, kind: statement, wikipedia: Vitali convergence theorem, wikidata: Q11352023}
+  - {name: Vitali convergence theorem, kind: statement, wikipedia: Vitali convergence theorem, wikidata: Q11352023, node: C3CKZAZ57Z}
   - {name: Osgood's lemma, kind: statement, wikipedia: Osgood's lemma, wikidata: Q7106530, node: NBFNXA2WFM}
   - {name: Schwarz reflection principle, kind: statement, wikipedia: Schwarz reflection principle, wikidata: Q4378892, node: P0R6YEGNB5}
   - {name: analytic capacity, kind: definition, wikipedia: Analytic capacity, wikidata: Q4751124, node: QGQPHRANWZ}

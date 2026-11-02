@@ -23,7 +23,7 @@ The value is $c(x) = \sum_k b_k 2^{-k}$, and it does not depend on the choice of
 The function $c \colon [0, 1] \to [0, 1]$ is [[continuous|0P27W9RW0G]] and nondecreasing, with $c(0) = 0$ and $c(1) = 1$.
 It is constant on each open interval removed in the construction of $C$, for example $c(x) = 1/2$ on $(1/3, 2/3)$.
 So $c'(x) = 0$ at every point of $[0, 1] \setminus C$.
-The Cantor set is a null set, so $c' = 0$ almost everywhere.
+The Cantor set is a [[null set|VQQM4Y550T]], so $c' = 0$ [[almost everywhere|RARTMA0ZEC]].
 But $c$ is not constant.
 
 ## Remarks

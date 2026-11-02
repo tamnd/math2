@@ -17,7 +17,7 @@ same_as:
 
 Let $a < b$ be real numbers and let $f_n \colon [a, b] \to \R$, for $n \ge 1$, be nondecreasing functions.
 Assume that the series $F(x) = \sum_{n=1}^{\infty} f_n(x)$ converges for every $x \in [a, b]$.
-Then for almost every $x \in [a, b]$, with respect to Lebesgue measure, the [[derivatives|0F1WR9C83K]] $F'(x)$ and $f_n'(x)$ exist for all $n$, and
+Then for [[almost every|RARTMA0ZEC]] $x \in [a, b]$, with respect to [[Lebesgue measure|2Z2QVWZ262]], the [[derivatives|0F1WR9C83K]] $F'(x)$ and $f_n'(x)$ exist for all $n$, and
 $$F'(x) = \sum_{n=1}^{\infty} f_n'(x).$$
 
 ## Remarks

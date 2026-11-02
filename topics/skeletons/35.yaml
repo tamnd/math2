@@ -25,10 +25,10 @@ items:
   - {name: mixed-type equation, kind: definition, wikipedia: Euler–Tricomi equation, wikidata: Q5409013}
   - {name: well-posed problem, kind: definition, wikipedia: Well-posed problem, wikidata: Q1455898}
   - {name: Cauchy problem, kind: definition, wikipedia: Cauchy problem, wikidata: Q1412436, node: 075VBY4K4X}
-  - {name: boundary value problem, kind: definition, wikipedia: Boundary value problem, wikidata: Q1332643}
+  - {name: boundary value problem, kind: definition, wikipedia: Boundary value problem, wikidata: Q1332643, node: TM8VQJWGHZ}
   - {name: Dirichlet problem, kind: problem, wikipedia: Dirichlet problem, wikidata: Q1192869, node: 8D56GQ4AG8}
   - {name: Neumann problem, kind: problem, wikipedia: Neumann boundary condition, wikidata: Q1149279}
-  - {name: Robin boundary condition, kind: definition, wikipedia: Robin boundary condition, wikidata: Q748993}
+  - {name: Robin boundary condition, kind: definition, wikipedia: Robin boundary condition, wikidata: Q748993, node: 581AGFCCRX}
   - {name: free boundary problem, kind: problem, wikipedia: Free boundary problem, wikidata: Q5500196}
   - {name: Stefan problem, kind: problem, wikipedia: Stefan problem, wikidata: Q3775789}
   - {name: obstacle problem, kind: problem, wikipedia: Obstacle problem, wikidata: Q3406250}
@@ -39,7 +39,7 @@ items:
   - {name: Lewy's example, kind: counterexample, wikipedia: Lewy's example, wikidata: Q814880}
   - {name: Malgrange–Ehrenpreis theorem, kind: statement, wikipedia: Malgrange–Ehrenpreis theorem, wikidata: Q2226750}
   - {name: fundamental solution, kind: definition, wikipedia: Fundamental solution, wikidata: Q1474123}
-  - {name: Green's function, kind: definition, wikipedia: Green's function, wikidata: Q378435}
+  - {name: Green's function, kind: definition, wikipedia: Green's function, wikidata: Q378435, node: SH6JY9RN2E}
   - {name: Hadamard's example of ill-posedness, kind: counterexample, wikipedia: Well-posed problem, wikidata: Q1455898}
   - {name: local solvability, kind: concept, wikipedia: Lewy's example, wikidata: Q814880}
   # Generalized solutions and function spaces
@@ -162,11 +162,11 @@ items:
   - {name: Godunov's scheme, kind: concept, wikipedia: Godunov's scheme, wikidata: Q4291826}
   - {name: Courant–Friedrichs–Lewy condition, kind: statement, wikipedia: Courant–Friedrichs–Lewy condition, wikidata: Q1023483}
   # Solution representations and transform methods
-  - {name: separation of variables, kind: concept, wikipedia: Separation of variables, wikidata: Q913323}
+  - {name: separation of variables, kind: concept, wikipedia: Separation of variables, wikidata: Q913323, node: 47NFRVB564}
   - {name: Fourier series method, kind: concept, decl: fourierBasis, wikipedia: Fourier series, wikidata: Q179467, mathlib: [mathlib-undergrad]}
   - {name: Fourier transform, kind: definition, decl: VectorFourier.fourierIntegral, wikipedia: Fourier transform, wikidata: Q6520159}
   - {name: Laplace transform, kind: definition, wikipedia: Laplace transform, wikidata: Q199691, node: 0V49JEZW06}
-  - {name: Duhamel's principle, kind: statement, wikipedia: Duhamel's principle, wikidata: Q4378863}
+  - {name: Duhamel's principle, kind: statement, wikipedia: Duhamel's principle, wikidata: Q4378863, node: Q28DM6ZCMF}
   - {name: method of images, kind: concept, wikipedia: Method of images, wikidata: Q2563425}
   - {name: spherical harmonics, kind: object, wikipedia: Spherical harmonics, wikidata: Q877100}
   - {name: similarity solution, kind: concept, wikipedia: Self-similar solution, wikidata: Q4056366}
@@ -180,12 +180,12 @@ items:
   - {name: Dirichlet eigenvalue, kind: definition, wikipedia: Dirichlet eigenvalue, wikidata: Q5280763}
   - {name: Rayleigh quotient, kind: definition, decl: ContinuousLinearMap.rayleighQuotient, wikipedia: Rayleigh quotient, wikidata: Q1665115, node: 06WHP8SE98}
   - {name: min-max theorem, kind: statement, wikipedia: Min-max theorem, wikidata: Q4454958}
-  - {name: Weyl's law, kind: statement, wikipedia: Weyl law, wikidata: Q7990330}
+  - {name: Weyl's law, kind: statement, wikipedia: Weyl law, wikidata: Q7990330, node: 2JK9YMZV2B}
   - {name: Faber–Krahn inequality, kind: statement, wikipedia: Rayleigh–Faber–Krahn inequality, wikidata: Q7298491}
-  - {name: hearing the shape of a drum, kind: problem, wikipedia: Hearing the shape of a drum, wikidata: Q5691670}
+  - {name: hearing the shape of a drum, kind: problem, wikipedia: Hearing the shape of a drum, wikidata: Q5691670, node: X3VH8H1XV3}
   - {name: Schiffer's conjecture, kind: conjecture, wikipedia: Pompeiu problem, wikidata: Q3406234}
   - {name: Pompeiu problem, kind: problem, wikipedia: Pompeiu problem, wikidata: Q3406234}
-  - {name: Schrödinger operator, kind: definition, wikipedia: Schrödinger equation, wikidata: Q165498}
+  - {name: Schrödinger operator, kind: definition, wikipedia: Schrödinger equation, wikidata: Q165498, node: 89AA6XJY5K}
   - {name: Steklov eigenvalue problem, kind: problem, wikipedia: Poincaré–Steklov operator, wikidata: Q17099589}
   - {name: Cheeger constant, kind: definition, wikipedia: Cheeger constant, wikidata: Q5089259, node: Y7S6W12N64}
   # Qualitative behavior and nonlinear analysis
@@ -222,7 +222,7 @@ items:
   - {name: Einstein field equations, kind: definition, wikipedia: Einstein field equations, wikidata: Q273711}
   - {name: Ginzburg–Landau equation, kind: definition, wikipedia: Ginzburg–Landau theory, wikidata: Q900905}
   - {name: Gross–Pitaevskii equation, kind: definition, wikipedia: Gross–Pitaevskii equation, wikidata: Q910667}
-  - {name: Hamilton–Jacobi–Bellman equation, kind: definition, wikipedia: Hamilton–Jacobi–Bellman equation, wikidata: Q3302775}
+  - {name: Hamilton–Jacobi–Bellman equation, kind: definition, wikipedia: Hamilton–Jacobi–Bellman equation, wikidata: Q3302775, node: SJP9HW82VX}
   - {name: mean-field game, kind: concept, wikipedia: Mean-field game theory, wikidata: Q15883550}
   - {name: Lamé equations of elasticity, kind: definition, wikipedia: Linear elasticity, wikidata: Q3851760}
   - {name: shallow water equations, kind: definition, wikipedia: Shallow water equations, wikidata: Q4008384}

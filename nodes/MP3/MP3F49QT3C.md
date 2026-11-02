@@ -30,7 +30,7 @@ The problem is solvable for some classes.
 For finitely generated abelian groups given by finite presentations, the Smith normal form of the relation matrix gives the invariant factors.
 Two such groups are isomorphic exactly when the invariants agree.
 It is also solvable for [[hyperbolic groups|JWJ8YPR7EB]].
-It is one of the three decision problems, with the word problem and the [[conjugacy problem|4AF7AF7690]], that Max Dehn posed.
+It is one of the three decision problems, with the [[word problem|PBGTTAVMMT]] and the [[conjugacy problem|4AF7AF7690]], that Max Dehn posed.
 
 For finite groups given by their multiplication tables the question is always decidable, and the interest is in the running time; this is a different, computational problem.
 

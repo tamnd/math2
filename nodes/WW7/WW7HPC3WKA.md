@@ -12,7 +12,7 @@ sources:
 ## Definition
 
 Let $(\Omega, \mathcal{F})$ be a measurable space, and let $P$ and $Q$ be [[probability measures|059TJN0NZ1]] on it.
-If $P$ is absolutely continuous with respect to $Q$, let $dP/dQ$ be the Radon–Nikodym derivative, and define
+If $P$ is [[absolutely continuous|P0P21KDV6E]] with respect to $Q$, let $dP/dQ$ be the [[Radon–Nikodym derivative|1NTKG64F7N]], and define
 $$D(P \,\|\, Q) = \int_{\Omega} \log \frac{dP}{dQ} \, dP \in [0, \infty].$$
 If $P$ is not absolutely continuous with respect to $Q$, define $D(P \,\|\, Q) = \infty$.
 The number $D(P \,\|\, Q)$ is the *Kullback–Leibler divergence* of $P$ from $Q$.

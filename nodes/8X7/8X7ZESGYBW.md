@@ -20,7 +20,7 @@ The function $F$ is *generalized absolutely continuous*, or ACG, on $[a, b]$ if 
 First, $F$ is [[continuous|0P27W9RW0G]] on $[a, b]$.
 Second, $[a, b]$ is a countable union of sets on each of which $F$ is absolutely continuous.
 Let $f \colon [a, b] \to \R$ be a function.
-It is *Khinchin integrable* if some ACG function $F$ on $[a, b]$ has [[approximate derivative|4W31MKE01V]] equal to $f(x)$ at almost every $x \in [a, b]$.
+It is *Khinchin integrable* if some ACG function $F$ on $[a, b]$ has [[approximate derivative|4W31MKE01V]] equal to $f(x)$ at [[almost every|RARTMA0ZEC]] $x \in [a, b]$.
 The *Khinchin integral* of $f$ is then $\int_a^b f = F(b) - F(a)$.
 
 ## Remarks

@@ -13,7 +13,7 @@ sources:
 
 Let $\mathbb{H} = \set{z = x + iy : y > 0}$ be the [[upper half-plane|X6XGGH5FPW]].
 Let $\Gamma$ be a [[congruence subgroup|1H6R856P3C]] of $\mathrm{SL}_2(\Z)$, acting on $\mathbb{H}$ by $\gamma z = \frac{az + b}{cz + d}$ for $\gamma = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$.
-Let $\Delta = -y^2 \left( \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} \right)$ be the hyperbolic Laplace operator.
+Let $\Delta = -y^2 \left( \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} \right)$ be the hyperbolic [[Laplace operator|F4NWZNTRMD]].
 A *Maass wave form* for $\Gamma$ is a [[smooth function|0V33BNKZ9S]] $f \colon \mathbb{H} \to \C$ such that:
 
 1. $f(\gamma z) = f(z)$ for all $\gamma \in \Gamma$ and $z \in \mathbb{H}$.

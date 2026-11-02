@@ -15,7 +15,7 @@ same_as:
 
 ## Statement
 
-For an integer $n \ge 0$, let $(q; q)_n = (1 - q)(1 - q^2) \cdots (1 - q^n)$, the q-Pochhammer symbol, with $(q; q)_0 = 1$.
+For an integer $n \ge 0$, let $(q; q)_n = (1 - q)(1 - q^2) \cdots (1 - q^n)$, the [[q-Pochhammer symbol|Y1X8ZZQ7VM]], with $(q; q)_0 = 1$.
 In the ring of [[formal power series|033WGN00BF]] $\Z[\![q]\!]$, the following two identities hold.
 
 1. $$\sum_{n=0}^{\infty} \frac{q^{n^2}}{(q; q)_n} = \prod_{n=0}^{\infty} \frac{1}{(1 - q^{5n+1})(1 - q^{5n+4})}.$$

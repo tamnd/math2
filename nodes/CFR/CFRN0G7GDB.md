@@ -17,7 +17,7 @@ same_as:
 
 Let $(S, d)$ and $(S', d')$ be [[metric spaces|0VKD1TP7F3]] with their Borel $\sigma$-algebras.
 Let $X, X_1, X_2, \dots$ be random elements of $S$.
-Let $g \colon S \to S'$ be a measurable map, and let $D_g$ be the set of points of $S$ at which $g$ is not [[continuous|0X3WGX95FE]].
+Let $g \colon S \to S'$ be a [[measurable map|YYNCJSR0PJ]], and let $D_g$ be the set of points of $S$ at which $g$ is not [[continuous|0X3WGX95FE]].
 Assume that $P(X \in D_g) = 0$.
 
 1. If $X_n \to X$ [[in distribution|0SRYJGXKR4]], then $g(X_n) \to g(X)$ in distribution.
@@ -27,7 +27,7 @@ Assume that $P(X \in D_g) = 0$.
 ## Remarks
 
 Part 3 is direct: on the event where $X_n \to X$ and $X \notin D_g$, the continuity of $g$ at $X$ gives $g(X_n) \to g(X)$, and this event has probability $1$.
-Part 1 follows from the portmanteau theorem: for a closed set $F \subseteq S'$, the closure of $g^{-1}(F)$ lies in $g^{-1}(F) \cup D_g$.
+Part 1 follows from the [[portmanteau theorem|4SSJ589G6T]]: for a closed set $F \subseteq S'$, the closure of $g^{-1}(F)$ lies in $g^{-1}(F) \cup D_g$.
 Part 2 follows from part 3 applied along subsequences, since convergence in probability holds exactly when every subsequence has a further subsequence that converges almost surely.
 
 Example: if $X_n \to Z$ in distribution with $Z$ standard normal, then $X_n^2$ converges in distribution to a chi-squared variable with one degree of freedom.

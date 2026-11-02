@@ -15,8 +15,8 @@ same_as:
 
 ## Statement
 
-Let $(S, \Sigma, \mu)$ be a measure space and let $p \in [1, \infty)$.
-Let $f, g \colon S \to \R$ be measurable functions with $\int_S \abs{f}^p \, d\mu < \infty$ and $\int_S \abs{g}^p \, d\mu < \infty$.
+Let $(S, \Sigma, \mu)$ be a [[measure space|P15VQS5DJ9]] and let $p \in [1, \infty)$.
+Let $f, g \colon S \to \R$ be [[measurable functions|YYNCJSR0PJ]] with $\int_S \abs{f}^p \, d\mu < \infty$ and $\int_S \abs{g}^p \, d\mu < \infty$.
 Then
 $$\Big( \int_S \abs{f + g}^p \, d\mu \Big)^{1/p} \le \Big( \int_S \abs{f}^p \, d\mu \Big)^{1/p} + \Big( \int_S \abs{g}^p \, d\mu \Big)^{1/p}.$$
 
@@ -27,7 +27,7 @@ For $p > 1$, first $\abs{f + g}^p \le 2^{p-1}(\abs{f}^p + \abs{g}^p)$ shows that
 Then write $\abs{f + g}^p \le \abs{f} \abs{f + g}^{p-1} + \abs{g} \abs{f + g}^{p-1}$ and apply [[Hölder's inequality|JQ9WXC729D]] to each term with $q = p / (p - 1)$.
 
 With the counting measure on $\set{1, \dots, n}$ it shows that the [[p-norm on R^n|0KNJWEVSMG]] satisfies the triangle inequality.
-In general it is the triangle inequality for the [[norm|08NYZ2FS6B]] of the Lp space $L^p(\mu)$.
+In general it is the triangle inequality for the [[norm|08NYZ2FS6B]] of the [[Lp space|SASP14MA1Z]] $L^p(\mu)$.
 
 The hypothesis $p \ge 1$ is needed.
 For $p = 1/2$ on $\R^2$ with the counting measure, take $f = (1, 0)$ and $g = (0, 1)$: the left side is $(1 + 1)^2 = 4$ and the right side is $1 + 1 = 2$.

@@ -24,7 +24,7 @@ items:
   - {name: Haar measure on the circle, kind: example, decl: AddCircle.haarAddCircle, wikipedia: Haar measure, wikidata: Q1162676}
   - {name: Lebesgue measure as Haar measure, kind: example, decl: MeasureTheory.Measure.IsAddHaarMeasure, wikipedia: Haar measure, wikidata: Q1162676}
   - {name: Haar measure on the p-adic numbers, kind: example, wikipedia: P-adic number, wikidata: Q311627}
-  - {name: quasi-invariant measure, kind: definition, wikipedia: Quasi-invariant measure, wikidata: Q7269454}
+  - {name: quasi-invariant measure, kind: definition, wikipedia: Quasi-invariant measure, wikidata: Q7269454, node: FCNQP0A60D}
   - {name: invariant measure on a homogeneous space, kind: statement, wikipedia: Haar measure, wikidata: Q1162676}
   - {name: Weil's quotient integral formula, kind: statement, wikipedia: Haar measure, wikidata: Q1162676}
   - {name: Lp spaces on groups, kind: definition, wikipedia: Lp space, wikidata: Q305936}
@@ -95,8 +95,8 @@ items:
   - {name: weakly almost periodic function, kind: definition, wikipedia: Almost periodic function, wikidata: Q1066983}
   # Amenability and invariant means
   - {name: amenable group, kind: definition, wikipedia: Amenable group, wikidata: Q1857002, node: CEAT9BESKK}
-  - {name: invariant mean, kind: definition, wikipedia: Amenable group, wikidata: Q1857002}
-  - {name: Banach limit, kind: example, wikipedia: Banach limit, wikidata: Q806060}
+  - {name: invariant mean, kind: definition, wikipedia: Amenable group, wikidata: Q1857002, node: ZYNY2VFECQ}
+  - {name: Banach limit, kind: example, wikipedia: Banach limit, wikidata: Q806060, node: SYF2ND6J97}
   - {name: Følner sequence, kind: definition, decl: IsFoelner, wikipedia: Følner sequence, wikidata: Q5511721}
   - {name: Følner condition implies amenability, kind: statement, decl: IsFoelner.amenable, wikipedia: Amenable group, wikidata: Q1857002}
   - {name: Reiter's condition, kind: statement, wikipedia: Amenable group, wikidata: Q1857002}
@@ -109,7 +109,7 @@ items:
   - {name: non-amenability of free groups, kind: statement, wikipedia: Amenable group, wikidata: Q1857002}
   - {name: paradoxical decomposition, kind: definition, wikipedia: Paradoxical set, wikidata: Q7134470}
   - {name: Tarski's theorem on paradoxical groups, kind: statement, wikipedia: Amenable group, wikidata: Q1857002}
-  - {name: Banach–Tarski paradox, kind: statement, wikipedia: Banach–Tarski paradox, wikidata: Q737851}
+  - {name: Banach–Tarski paradox, kind: statement, wikipedia: Banach–Tarski paradox, wikidata: Q737851, node: FH250K068Z}
   - {name: von Neumann conjecture, kind: conjecture, wikipedia: Von Neumann conjecture, wikidata: Q939072}
   - {name: Ol'shanskii's counterexample to the von Neumann conjecture, kind: counterexample, wikipedia: Von Neumann conjecture, wikidata: Q939072}
   - {name: amenable semigroup, kind: definition, wikipedia: Amenable group, wikidata: Q1857002}

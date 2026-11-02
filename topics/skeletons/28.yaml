@@ -12,220 +12,220 @@ sources:
 items:
   # Set systems
   - {name: sigma-algebra, kind: definition, decl: MeasurableSpace, wikipedia: Σ-algebra, wikidata: Q217357, mathlib: [mathlib-undergrad, mathlib-overview], node: 0SV8K0TDGY}
-  - {name: measurable space, kind: definition, decl: MeasurableSpace, wikipedia: Measurable space, wikidata: Q3058218, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: algebra of sets, kind: definition, wikipedia: Field of sets, wikidata: Q246506}
-  - {name: ring of sets, kind: definition, decl: MeasureTheory.IsSetRing, wikipedia: Ring of sets, wikidata: Q2064647}
-  - {name: semiring of sets, kind: definition, decl: MeasureTheory.IsSetSemiring, wikipedia: Ring of sets, wikidata: Q2064647}
-  - {name: pi-system, kind: definition, decl: IsPiSystem, wikipedia: Pi-system, wikidata: Q3962249}
-  - {name: Dynkin system, kind: definition, decl: MeasurableSpace.DynkinSystem, wikipedia: Dynkin system, wikidata: Q1935689}
+  - {name: measurable space, kind: definition, decl: MeasurableSpace, wikipedia: Measurable space, wikidata: Q3058218, mathlib: [mathlib-undergrad, mathlib-overview], node: N4KDT83V3S}
+  - {name: algebra of sets, kind: definition, wikipedia: Field of sets, wikidata: Q246506, node: PFMGZ7988V}
+  - {name: ring of sets, kind: definition, decl: MeasureTheory.IsSetRing, wikipedia: Ring of sets, wikidata: Q2064647, node: KWE1DBMN9B}
+  - {name: semiring of sets, kind: definition, decl: MeasureTheory.IsSetSemiring, wikipedia: Ring of sets, wikidata: Q2064647, node: PYH82FMXQ2}
+  - {name: pi-system, kind: definition, decl: IsPiSystem, wikipedia: Pi-system, wikidata: Q3962249, node: 4W9NM803BB}
+  - {name: Dynkin system, kind: definition, decl: MeasurableSpace.DynkinSystem, wikipedia: Dynkin system, wikidata: Q1935689, node: V5M2CKB591}
   - {name: Dynkin's pi-lambda theorem, kind: statement, decl: MeasurableSpace.induction_on_inter, wikipedia: Dynkin system, wikidata: Q1935689}
-  - {name: monotone class theorem, kind: statement, wikipedia: Monotone class theorem, wikidata: Q242045}
+  - {name: monotone class theorem, kind: statement, wikipedia: Monotone class theorem, wikidata: Q242045, node: 2T33SA540E}
   - {name: Borel set, kind: definition, decl: borel, wikipedia: Borel set, wikidata: Q21086747, node: 0WQXY32Q8D}
-  - {name: Borel hierarchy, kind: concept, wikipedia: Borel hierarchy, wikidata: Q893487}
-  - {name: analytic set, kind: definition, wikipedia: Analytic set, wikidata: Q485312}
-  - {name: universally measurable set, kind: definition, wikipedia: Universally measurable set, wikidata: Q7894192}
-  - {name: standard Borel space, kind: definition, wikipedia: Standard Borel space, wikidata: Q25378068}
+  - {name: Borel hierarchy, kind: concept, wikipedia: Borel hierarchy, wikidata: Q893487, node: 4P4Z4ZGXCY}
+  - {name: analytic set, kind: definition, wikipedia: Analytic set, wikidata: Q485312, node: 3RWWZYPAFV}
+  - {name: universally measurable set, kind: definition, wikipedia: Universally measurable set, wikidata: Q7894192, node: GSFXAV0VD7}
+  - {name: standard Borel space, kind: definition, wikipedia: Standard Borel space, wikidata: Q25378068, node: ABEFWF4JHH}
   # Measures
-  - {name: measure, kind: definition, decl: MeasureTheory.Measure, wikipedia: Measure (mathematics), wikidata: Q192276, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: measure space, kind: definition, wikipedia: Measure space, wikidata: Q3058212}
-  - {name: countable additivity, kind: definition, decl: MeasureTheory.measure_iUnion, wikipedia: Sigma-additive set function, wikidata: Q709149}
-  - {name: finitely additive measure, kind: definition, wikipedia: Content (measure theory), wikidata: Q5165061}
-  - {name: continuity of measure from below and above, kind: statement, decl: MeasureTheory.tendsto_measure_iUnion_atTop, wikipedia: Measure (mathematics), wikidata: Q192276}
-  - {name: finite measure, kind: definition, decl: MeasureTheory.IsFiniteMeasure, wikipedia: Finite measure, wikidata: Q3307145}
-  - {name: sigma-finite measure, kind: definition, decl: MeasureTheory.SigmaFinite, wikipedia: Σ-finite measure, wikidata: Q291430}
-  - {name: s-finite measure, kind: definition, wikipedia: S-finite measure, wikidata: Q47008575}
+  - {name: measure, kind: definition, decl: MeasureTheory.Measure, wikipedia: Measure (mathematics), wikidata: Q192276, mathlib: [mathlib-undergrad, mathlib-overview], node: PR11BZQQPG}
+  - {name: measure space, kind: definition, wikipedia: Measure space, wikidata: Q3058212, node: P15VQS5DJ9}
+  - {name: countable additivity, kind: definition, decl: MeasureTheory.measure_iUnion, wikipedia: Sigma-additive set function, wikidata: Q709149, node: D7KB9HFCGZ}
+  - {name: finitely additive measure, kind: definition, wikipedia: Content (measure theory), wikidata: Q5165061, node: KFWQ24D9M6}
+  - {name: continuity of measure from below and above, kind: statement, decl: MeasureTheory.tendsto_measure_iUnion_atTop, wikipedia: Measure (mathematics), wikidata: Q192276, node: HBHNB63J7R}
+  - {name: finite measure, kind: definition, decl: MeasureTheory.IsFiniteMeasure, wikipedia: Finite measure, wikidata: Q3307145, node: 63Z1Q4FS23}
+  - {name: sigma-finite measure, kind: definition, decl: MeasureTheory.SigmaFinite, wikipedia: Σ-finite measure, wikidata: Q291430, node: WEBBT18D4X}
+  - {name: s-finite measure, kind: definition, wikipedia: S-finite measure, wikidata: Q47008575, node: PA15QP0BP5}
   - {name: probability measure, kind: definition, decl: MeasureTheory.IsProbabilityMeasure, wikipedia: Probability measure, wikidata: Q355020, mathlib: [mathlib-undergrad, mathlib-overview], node: 059TJN0NZ1}
   - {name: Dirac measure, kind: example, decl: MeasureTheory.Measure.dirac, wikipedia: Dirac measure, wikidata: Q1227387, node: 0ACRGYNHSR}
-  - {name: counting measure, kind: example, decl: MeasureTheory.Measure.count, wikipedia: Counting measure, wikidata: Q247204, mathlib: [mathlib-undergrad]}
-  - {name: null set, kind: definition, wikipedia: Null set, wikidata: Q1201815}
-  - {name: almost everywhere, kind: definition, decl: MeasureTheory.ae, wikipedia: Almost everywhere, wikidata: Q1139334, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: complete measure, kind: definition, decl: MeasureTheory.Measure.IsComplete, wikipedia: Complete measure, wikidata: Q527101}
-  - {name: completion of a measure, kind: definition, decl: MeasureTheory.Measure.completion, wikipedia: Complete measure, wikidata: Q527101}
+  - {name: counting measure, kind: example, decl: MeasureTheory.Measure.count, wikipedia: Counting measure, wikidata: Q247204, mathlib: [mathlib-undergrad], node: QQMJZWDS1F}
+  - {name: null set, kind: definition, wikipedia: Null set, wikidata: Q1201815, node: VQQM4Y550T}
+  - {name: almost everywhere, kind: definition, decl: MeasureTheory.ae, wikipedia: Almost everywhere, wikidata: Q1139334, mathlib: [mathlib-undergrad, mathlib-overview], node: RARTMA0ZEC}
+  - {name: complete measure, kind: definition, decl: MeasureTheory.Measure.IsComplete, wikipedia: Complete measure, wikidata: Q527101, node: 22K8CSQTYM}
+  - {name: completion of a measure, kind: definition, decl: MeasureTheory.Measure.completion, wikipedia: Complete measure, wikidata: Q527101, node: KJNSKV75VQ}
   - {name: atom, kind: definition, wikipedia: Atom (measure theory), wikidata: Q681650}
-  - {name: non-atomic measure, kind: definition, wikipedia: Atom (measure theory), wikidata: Q681650}
-  - {name: Sierpiński's theorem on non-atomic measures, kind: statement, wikipedia: Atom (measure theory), wikidata: Q681650}
-  - {name: pushforward measure, kind: definition, decl: MeasureTheory.Measure.map, wikipedia: Pushforward measure, wikidata: Q860929}
-  - {name: restriction of a measure, kind: definition, decl: MeasureTheory.Measure.restrict, wikipedia: Restriction (mathematics), wikidata: Q1308999}
+  - {name: non-atomic measure, kind: definition, wikipedia: Atom (measure theory), wikidata: Q681650, node: SV96KN4WR9}
+  - {name: Sierpiński's theorem on non-atomic measures, kind: statement, wikipedia: Atom (measure theory), wikidata: Q681650, node: J76687HP2E}
+  - {name: pushforward measure, kind: definition, decl: MeasureTheory.Measure.map, wikipedia: Pushforward measure, wikidata: Q860929, node: 3N66TM3TSQ}
+  - {name: restriction of a measure, kind: definition, decl: MeasureTheory.Measure.restrict, wikipedia: Restriction (mathematics), wikidata: Q1308999, node: EPS9JT55MV}
   - {name: measure algebra, kind: definition, wikipedia: Measure algebra, wikidata: Q6804179}
   # Construction of measures
-  - {name: outer measure, kind: definition, decl: MeasureTheory.OuterMeasure, wikipedia: Outer measure, wikidata: Q258374}
-  - {name: Carathéodory's criterion, kind: statement, decl: MeasureTheory.OuterMeasure.IsCaratheodory, wikipedia: Carathéodory's criterion, wikidata: Q5037750}
-  - {name: Carathéodory's extension theorem, kind: statement, decl: MeasureTheory.AddContent.measureCaratheodory, wikipedia: Carathéodory's extension theorem, wikidata: Q2631152}
-  - {name: Hahn–Kolmogorov theorem, kind: statement, wikipedia: Carathéodory's extension theorem, wikidata: Q2631152}
-  - {name: premeasure, kind: definition, wikipedia: Pre-measure, wikidata: Q1393014}
-  - {name: content, kind: definition, decl: MeasureTheory.Content, wikipedia: Content (measure theory), wikidata: Q5165061}
-  - {name: Lebesgue measure, kind: object, decl: Real.volume_Icc, wikipedia: Lebesgue measure, wikidata: Q827230}
-  - {name: Lebesgue–Stieltjes measure, kind: definition, decl: StieltjesFunction.measure, wikipedia: Lebesgue–Stieltjes integration, wikidata: Q3799278, mathlib: [mathlib-overview]}
+  - {name: outer measure, kind: definition, decl: MeasureTheory.OuterMeasure, wikipedia: Outer measure, wikidata: Q258374, node: BJ314H17HC}
+  - {name: Carathéodory's criterion, kind: statement, decl: MeasureTheory.OuterMeasure.IsCaratheodory, wikipedia: Carathéodory's criterion, wikidata: Q5037750, node: JDGQ135YK2}
+  - {name: Carathéodory's extension theorem, kind: statement, decl: MeasureTheory.AddContent.measureCaratheodory, wikipedia: Carathéodory's extension theorem, wikidata: Q2631152, node: Q8EXG7EKYW}
+  - {name: Hahn–Kolmogorov theorem, kind: statement, wikipedia: Carathéodory's extension theorem, wikidata: Q2631152, node: FN2WRRF6V9}
+  - {name: premeasure, kind: definition, wikipedia: Pre-measure, wikidata: Q1393014, node: PV0XXSWFC7}
+  - {name: content, kind: definition, decl: MeasureTheory.Content, wikipedia: Content (measure theory), wikidata: Q5165061, node: PFF8SV6ENB}
+  - {name: Lebesgue measure, kind: object, decl: Real.volume_Icc, wikipedia: Lebesgue measure, wikidata: Q827230, node: 2Z2QVWZ262}
+  - {name: Lebesgue–Stieltjes measure, kind: definition, decl: StieltjesFunction.measure, wikipedia: Lebesgue–Stieltjes integration, wikidata: Q3799278, mathlib: [mathlib-overview], node: QV75XJBFCS}
   - {name: Jordan measure, kind: definition, wikipedia: Peano–Jordan measure, wikidata: Q1703597, node: 0KTGJW1ZTH}
-  - {name: inner measure, kind: definition, wikipedia: Inner measure, wikidata: Q6035652}
-  - {name: metric outer measure, kind: definition, wikipedia: Metric outer measure, wikidata: Q6824326}
-  - {name: Vitali set, kind: counterexample, wikipedia: Vitali set, wikidata: Q257387}
-  - {name: non-measurable set, kind: concept, wikipedia: Non-measurable set, wikidata: Q1055379}
+  - {name: inner measure, kind: definition, wikipedia: Inner measure, wikidata: Q6035652, node: FTE966EMW8}
+  - {name: metric outer measure, kind: definition, wikipedia: Metric outer measure, wikidata: Q6824326, node: 3T6WG315GC}
+  - {name: Vitali set, kind: counterexample, wikipedia: Vitali set, wikidata: Q257387, node: WYHGXY471C}
+  - {name: non-measurable set, kind: concept, wikipedia: Non-measurable set, wikidata: Q1055379, node: PKQ7ABPVSG}
   - {name: Banach–Tarski paradox, kind: counterexample, wikipedia: Banach–Tarski paradox, wikidata: Q737851}
-  - {name: Hausdorff paradox, kind: counterexample, wikipedia: Hausdorff paradox, wikidata: Q1959890}
-  - {name: Smith–Volterra–Cantor set, kind: example, wikipedia: Smith–Volterra–Cantor set, wikidata: Q909569}
+  - {name: Hausdorff paradox, kind: counterexample, wikipedia: Hausdorff paradox, wikidata: Q1959890, node: 9G9G8ED97D}
+  - {name: Smith–Volterra–Cantor set, kind: example, wikipedia: Smith–Volterra–Cantor set, wikidata: Q909569, node: HZTRH10Z8Y}
   - {name: Steinhaus theorem, kind: statement, wikipedia: Steinhaus theorem, wikidata: Q3527166}
-  - {name: Banach measure problem, kind: problem, wikipedia: Banach measure, wikidata: Q4853764}
-  - {name: measure problem of Lebesgue, kind: problem, wikipedia: Measurable cardinal, wikidata: Q925445}
-  - {name: Littlewood's three principles, kind: concept, wikipedia: Littlewood's three principles of real analysis, wikidata: Q6653163}
+  - {name: Banach measure problem, kind: problem, wikipedia: Banach measure, wikidata: Q4853764, node: JXK6NRDH4V}
+  - {name: measure problem of Lebesgue, kind: problem, wikipedia: Measurable cardinal, wikidata: Q925445, node: TY12G0E8KX}
+  - {name: Littlewood's three principles, kind: concept, wikipedia: Littlewood's three principles of real analysis, wikidata: Q6653163, node: JXFHBY77RN}
   # Measurable functions
-  - {name: measurable function, kind: definition, decl: Measurable, wikipedia: Measurable function, wikidata: Q516776, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: simple function, kind: definition, decl: MeasureTheory.SimpleFunc, wikipedia: Simple function, wikidata: Q913022}
+  - {name: measurable function, kind: definition, decl: Measurable, wikipedia: Measurable function, wikidata: Q516776, mathlib: [mathlib-undergrad, mathlib-overview], node: YYNCJSR0PJ}
+  - {name: simple function, kind: definition, decl: MeasureTheory.SimpleFunc, wikipedia: Simple function, wikidata: Q913022, node: 7WMBX7M4P6}
   - {name: indicator function, kind: definition, wikipedia: Indicator function, wikidata: Q371983, node: 0RCQZ36MME}
-  - {name: Egorov's theorem, kind: statement, decl: MeasureTheory.tendstoUniformlyOn_of_ae_tendsto, wikipedia: Egorov's theorem, wikidata: Q1191709, mathlib: [mathlib-1000]}
-  - {name: Lusin's theorem, kind: statement, wikipedia: Lusin's theorem, wikidata: Q1361393}
-  - {name: convergence in measure, kind: definition, decl: MeasureTheory.TendstoInMeasure, wikipedia: Convergence in measure, wikidata: Q768656, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: Riesz's subsequence theorem, kind: statement, wikipedia: Convergence in measure, wikidata: Q768656}
-  - {name: strongly measurable function, kind: definition, decl: MeasureTheory.StronglyMeasurable, wikipedia: Bochner measurable function, wikidata: Q9392172}
-  - {name: Pettis measurability theorem, kind: statement, wikipedia: Pettis integral, wikidata: Q211188}
-  - {name: essential supremum, kind: definition, wikipedia: Essential infimum and essential supremum, wikidata: Q104804789}
-  - {name: distribution function of a measurable function, kind: definition, wikipedia: Layer cake representation, wikidata: Q6505514}
-  - {name: layer cake representation, kind: statement, wikipedia: Layer cake representation, wikidata: Q6505514}
-  - {name: decreasing rearrangement, kind: definition, wikipedia: Symmetric decreasing rearrangement, wikidata: Q2502733}
+  - {name: Egorov's theorem, kind: statement, decl: MeasureTheory.tendstoUniformlyOn_of_ae_tendsto, wikipedia: Egorov's theorem, wikidata: Q1191709, mathlib: [mathlib-1000], node: 762Y2NYA7W}
+  - {name: Lusin's theorem, kind: statement, wikipedia: Lusin's theorem, wikidata: Q1361393, node: GZMAH9W2SK}
+  - {name: convergence in measure, kind: definition, decl: MeasureTheory.TendstoInMeasure, wikipedia: Convergence in measure, wikidata: Q768656, mathlib: [mathlib-undergrad, mathlib-overview], node: G5WT6QN8WR}
+  - {name: Riesz's subsequence theorem, kind: statement, wikipedia: Convergence in measure, wikidata: Q768656, node: JBWB5H8JZG}
+  - {name: strongly measurable function, kind: definition, decl: MeasureTheory.StronglyMeasurable, wikipedia: Bochner measurable function, wikidata: Q9392172, node: JDM2M1FRY6}
+  - {name: Pettis measurability theorem, kind: statement, wikipedia: Pettis integral, wikidata: Q211188, node: 1P9ZR606JN}
+  - {name: essential supremum, kind: definition, wikipedia: Essential infimum and essential supremum, wikidata: Q104804789, node: WPC2XRMB9Y}
+  - {name: distribution function of a measurable function, kind: definition, wikipedia: Layer cake representation, wikidata: Q6505514, node: HQVXKEMN5N}
+  - {name: layer cake representation, kind: statement, wikipedia: Layer cake representation, wikidata: Q6505514, node: H78RXJC1K1}
+  - {name: decreasing rearrangement, kind: definition, wikipedia: Symmetric decreasing rearrangement, wikidata: Q2502733, node: BWS042NC2P}
   # The Lebesgue integral
-  - {name: Lebesgue integral, kind: definition, decl: MeasureTheory.integral, wikipedia: Lebesgue integral, wikidata: Q853831, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: integral of a non-negative function, kind: definition, decl: MeasureTheory.lintegral, wikipedia: Lebesgue integral, wikidata: Q853831, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-100]}
-  - {name: integrable function, kind: definition, decl: MeasureTheory.Integrable, wikipedia: Lebesgue integral, wikidata: Q853831, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: monotone convergence theorem, kind: statement, decl: MeasureTheory.lintegral_iSup, wikipedia: Monotone convergence theorem, wikidata: Q1153584}
-  - {name: Fatou's lemma, kind: statement, decl: MeasureTheory.lintegral_liminf_le, wikipedia: Fatou's lemma, wikidata: Q1068118, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000]}
-  - {name: dominated convergence theorem, kind: statement, decl: MeasureTheory.tendsto_integral_of_dominated_convergence, wikipedia: Dominated convergence theorem, wikidata: Q1067156, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000]}
-  - {name: uniform integrability, kind: definition, decl: MeasureTheory.UniformIntegrable, wikipedia: Uniform integrability, wikidata: Q1530275, mathlib: [mathlib-overview]}
-  - {name: Vitali convergence theorem, kind: statement, decl: MeasureTheory.tendsto_Lp_finite_of_tendstoInMeasure, wikipedia: Vitali convergence theorem, wikidata: Q11352023}
-  - {name: Scheffé's lemma, kind: statement, wikipedia: Scheffé's lemma, wikidata: Q3229344}
-  - {name: Riemann–Lebesgue lemma, kind: statement, wikipedia: Riemann–Lebesgue lemma, wikidata: Q9363284}
-  - {name: absolute continuity of the Lebesgue integral, kind: statement, wikipedia: Absolute continuity, wikidata: Q332504}
-  - {name: Bochner integral, kind: definition, decl: MeasureTheory.integral, wikipedia: Bochner integral, wikidata: Q889019, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: Pettis integral, kind: definition, wikipedia: Pettis integral, wikidata: Q211188}
-  - {name: Daniell integral, kind: definition, wikipedia: Daniell integral, wikidata: Q2996956}
-  - {name: Lebesgue–Stieltjes integration, kind: definition, wikipedia: Lebesgue–Stieltjes integration, wikidata: Q3799278}
-  - {name: Jensen's inequality for integrals, kind: statement, decl: ConvexOn.map_integral_le, wikipedia: Jensen's inequality, wikidata: Q518131, mathlib: [mathlib-overview]}
-  - {name: Hölder's inequality for integrals, kind: statement, decl: ENNReal.lintegral_mul_le_Lp_mul_Lq, wikipedia: Hölder's inequality, wikidata: Q731894}
-  - {name: Minkowski's inequality for integrals, kind: statement, decl: ENNReal.lintegral_Lp_add_le, wikipedia: Minkowski inequality, wikidata: Q755092}
+  - {name: Lebesgue integral, kind: definition, decl: MeasureTheory.integral, wikipedia: Lebesgue integral, wikidata: Q853831, mathlib: [mathlib-undergrad, mathlib-overview], node: DWJF7ABPR1}
+  - {name: integral of a non-negative function, kind: definition, decl: MeasureTheory.lintegral, wikipedia: Lebesgue integral, wikidata: Q853831, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-100], node: DG76G5Z6XW}
+  - {name: integrable function, kind: definition, decl: MeasureTheory.Integrable, wikipedia: Lebesgue integral, wikidata: Q853831, mathlib: [mathlib-undergrad, mathlib-overview], node: X7GTF3D98F}
+  - {name: monotone convergence theorem, kind: statement, decl: MeasureTheory.lintegral_iSup, wikipedia: Monotone convergence theorem, wikidata: Q1153584, node: G2S6H789RG}
+  - {name: Fatou's lemma, kind: statement, decl: MeasureTheory.lintegral_liminf_le, wikipedia: Fatou's lemma, wikidata: Q1068118, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000], node: S95TR54TCG}
+  - {name: dominated convergence theorem, kind: statement, decl: MeasureTheory.tendsto_integral_of_dominated_convergence, wikipedia: Dominated convergence theorem, wikidata: Q1067156, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000], node: BYNV84PF86}
+  - {name: uniform integrability, kind: definition, decl: MeasureTheory.UniformIntegrable, wikipedia: Uniform integrability, wikidata: Q1530275, mathlib: [mathlib-overview], node: VRVVKMXDGV}
+  - {name: Vitali convergence theorem, kind: statement, decl: MeasureTheory.tendsto_Lp_finite_of_tendstoInMeasure, wikipedia: Vitali convergence theorem, wikidata: Q11352023, node: C3CKZAZ57Z}
+  - {name: Scheffé's lemma, kind: statement, wikipedia: Scheffé's lemma, wikidata: Q3229344, node: 44RN97ZXDZ}
+  - {name: Riemann–Lebesgue lemma, kind: statement, wikipedia: Riemann–Lebesgue lemma, wikidata: Q9363284, node: WVKDC011KP}
+  - {name: absolute continuity of the Lebesgue integral, kind: statement, wikipedia: Absolute continuity, wikidata: Q332504, node: ZXK6XM44HS}
+  - {name: Bochner integral, kind: definition, decl: MeasureTheory.integral, wikipedia: Bochner integral, wikidata: Q889019, mathlib: [mathlib-undergrad, mathlib-overview], node: MHSMQ097GP}
+  - {name: Pettis integral, kind: definition, wikipedia: Pettis integral, wikidata: Q211188, node: 9A5F3JGTC0}
+  - {name: Daniell integral, kind: definition, wikipedia: Daniell integral, wikidata: Q2996956, node: 4KCBFQS9WR}
+  - {name: Lebesgue–Stieltjes integration, kind: definition, wikipedia: Lebesgue–Stieltjes integration, wikidata: Q3799278, node: FK3QBZAZH7}
+  - {name: Jensen's inequality for integrals, kind: statement, decl: ConvexOn.map_integral_le, wikipedia: Jensen's inequality, wikidata: Q518131, mathlib: [mathlib-overview], node: JYRZ927BMQ}
+  - {name: Hölder's inequality for integrals, kind: statement, decl: ENNReal.lintegral_mul_le_Lp_mul_Lq, wikipedia: Hölder's inequality, wikidata: Q731894, node: JQ9WXC729D}
+  - {name: Minkowski's inequality for integrals, kind: statement, decl: ENNReal.lintegral_Lp_add_le, wikipedia: Minkowski inequality, wikidata: Q755092, node: N4QZS912MT}
   - {name: Chebyshev's inequality, kind: statement, wikipedia: Chebyshev's inequality, wikidata: Q249514, node: 02HZ1BK3MW}
   - {name: Markov's inequality, kind: statement, wikipedia: Markov's inequality, wikidata: Q842436, node: 05PWWHYBX5}
   # Lp spaces
-  - {name: Lp space, kind: definition, decl: MeasureTheory.Lp, wikipedia: Lp space, wikidata: Q305936, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: Riesz–Fischer theorem, kind: statement, decl: MeasureTheory.Lp.instCompleteSpace, wikipedia: Riesz–Fischer theorem, wikidata: Q643513, mathlib: [mathlib-undergrad]}
-  - {name: density of simple functions in Lp, kind: statement, decl: MeasureTheory.Lp.simpleFunc.denseRange, wikipedia: Lp space, wikidata: Q305936}
-  - {name: L-infinity space, kind: definition, wikipedia: L-infinity, wikidata: Q25109715}
-  - {name: weak Lp space, kind: definition, wikipedia: Lorentz space, wikidata: Q6680542}
-  - {name: Lorentz space, kind: definition, wikipedia: Lorentz space, wikidata: Q6680542}
-  - {name: Orlicz space, kind: definition, wikipedia: Orlicz space, wikidata: Q3058185}
-  - {name: Riesz–Thorin theorem, kind: statement, wikipedia: Riesz–Thorin theorem, wikidata: Q245902}
-  - {name: Marcinkiewicz interpolation theorem, kind: statement, wikipedia: Marcinkiewicz interpolation theorem, wikidata: Q6757284}
-  - {name: dual of Lp, kind: statement, wikipedia: Lp space, wikidata: Q305936}
-  - {name: Dunford–Pettis theorem, kind: statement, wikipedia: Dunford–Pettis property, wikidata: Q1265637}
-  - {name: Young's convolution inequality, kind: statement, wikipedia: Young's convolution inequality, wikidata: Q30752114}
+  - {name: Lp space, kind: definition, decl: MeasureTheory.Lp, wikipedia: Lp space, wikidata: Q305936, mathlib: [mathlib-undergrad, mathlib-overview], node: SASP14MA1Z}
+  - {name: Riesz–Fischer theorem, kind: statement, decl: MeasureTheory.Lp.instCompleteSpace, wikipedia: Riesz–Fischer theorem, wikidata: Q643513, mathlib: [mathlib-undergrad], node: WVV4MFB2SE}
+  - {name: density of simple functions in Lp, kind: statement, decl: MeasureTheory.Lp.simpleFunc.denseRange, wikipedia: Lp space, wikidata: Q305936, node: B6RYM7QTYZ}
+  - {name: L-infinity space, kind: definition, wikipedia: L-infinity, wikidata: Q25109715, node: ZT01G7BTSV}
+  - {name: weak Lp space, kind: definition, wikipedia: Lorentz space, wikidata: Q6680542, node: H4C888M5AZ}
+  - {name: Lorentz space, kind: definition, wikipedia: Lorentz space, wikidata: Q6680542, node: 3240RP14MT}
+  - {name: Orlicz space, kind: definition, wikipedia: Orlicz space, wikidata: Q3058185, node: WBCN9A847H}
+  - {name: Riesz–Thorin theorem, kind: statement, wikipedia: Riesz–Thorin theorem, wikidata: Q245902, node: AGRKRG1TMJ}
+  - {name: Marcinkiewicz interpolation theorem, kind: statement, wikipedia: Marcinkiewicz interpolation theorem, wikidata: Q6757284, node: R1PHMVBJ9J}
+  - {name: dual of Lp, kind: statement, wikipedia: Lp space, wikidata: Q305936, node: Q1V7ZNS332}
+  - {name: Dunford–Pettis theorem, kind: statement, wikipedia: Dunford–Pettis property, wikidata: Q1265637, node: Q3Y1HBD8NN}
+  - {name: Young's convolution inequality, kind: statement, wikipedia: Young's convolution inequality, wikidata: Q30752114, node: JXDKJCBXJ8}
   - {name: convolution, kind: definition, decl: MeasureTheory.convolution, wikipedia: Convolution, wikidata: Q210857, mathlib: [mathlib-undergrad, mathlib-overview]}
   # Product measures
-  - {name: product measure, kind: definition, decl: MeasureTheory.Measure.prod, wikipedia: Product measure, wikidata: Q1572094}
+  - {name: product measure, kind: definition, decl: MeasureTheory.Measure.prod, wikipedia: Product measure, wikidata: Q1572094, node: 77PV0ZAVXT}
   - {name: Fubini's theorem, kind: statement, decl: MeasureTheory.integral_prod, wikipedia: Fubini's theorem, wikidata: Q1149022, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000], node: 0R0T1VWH5X}
   - {name: Tonelli's theorem, kind: statement, decl: MeasureTheory.lintegral_prod, wikipedia: Fubini's theorem, wikidata: Q1149022, node: 067SYD2J4B}
-  - {name: product sigma-algebra, kind: definition, wikipedia: Σ-algebra, wikidata: Q217357}
-  - {name: infinite product measure, kind: definition, decl: MeasureTheory.Measure.infinitePi, wikipedia: Product measure, wikidata: Q1572094}
-  - {name: Kolmogorov extension theorem, kind: statement, wikipedia: Kolmogorov extension theorem, wikidata: Q3526996}
-  - {name: Ionescu-Tulcea theorem, kind: statement, decl: ProbabilityTheory.Kernel.traj, wikipedia: Ionescu-Tulcea theorem, wikidata: Q25378690, mathlib: [mathlib-1000]}
+  - {name: product sigma-algebra, kind: definition, wikipedia: Σ-algebra, wikidata: Q217357, node: 6HVCTJGB61}
+  - {name: infinite product measure, kind: definition, decl: MeasureTheory.Measure.infinitePi, wikipedia: Product measure, wikidata: Q1572094, node: 2HWVFHM13R}
+  - {name: Kolmogorov extension theorem, kind: statement, wikipedia: Kolmogorov extension theorem, wikidata: Q3526996, node: WR4X7MMTH2}
+  - {name: Ionescu-Tulcea theorem, kind: statement, decl: ProbabilityTheory.Kernel.traj, wikipedia: Ionescu-Tulcea theorem, wikidata: Q25378690, mathlib: [mathlib-1000], node: 94ASD187AQ}
   - {name: Cavalieri's principle, kind: statement, wikipedia: Cavalieri's principle, wikidata: Q586686, node: 0GTZ2F3PQY}
-  - {name: Markov kernel, kind: definition, decl: ProbabilityTheory.Kernel, wikipedia: Markov kernel, wikidata: Q6771323}
-  - {name: disintegration theorem, kind: statement, wikipedia: Disintegration theorem, wikidata: Q5282247}
+  - {name: Markov kernel, kind: definition, decl: ProbabilityTheory.Kernel, wikipedia: Markov kernel, wikidata: Q6771323, node: 2AVNDP8BJP}
+  - {name: disintegration theorem, kind: statement, wikipedia: Disintegration theorem, wikidata: Q5282247, node: N8NXNCMSK5}
   # Signed measures and differentiation of measures
-  - {name: signed measure, kind: definition, decl: MeasureTheory.SignedMeasure, wikipedia: Signed measure, wikidata: Q1764371}
-  - {name: complex measure, kind: definition, wikipedia: Complex measure, wikidata: Q1153427}
-  - {name: vector measure, kind: definition, decl: MeasureTheory.VectorMeasure, wikipedia: Vector measure, wikidata: Q219308}
-  - {name: Hahn decomposition theorem, kind: statement, decl: MeasureTheory.SignedMeasure.exists_compl_positive_negative, wikipedia: Hahn decomposition theorem, wikidata: Q1568811}
-  - {name: Jordan decomposition of a signed measure, kind: statement, decl: MeasureTheory.SignedMeasure.toJordanDecomposition, wikipedia: Hahn decomposition theorem, wikidata: Q1568811}
-  - {name: total variation of a measure, kind: definition, decl: MeasureTheory.SignedMeasure.totalVariation, wikipedia: Total variation, wikidata: Q1936288}
-  - {name: absolutely continuous measure, kind: definition, decl: MeasureTheory.Measure.AbsolutelyContinuous, wikipedia: Absolute continuity, wikidata: Q332504}
-  - {name: mutually singular measures, kind: definition, decl: MeasureTheory.Measure.MutuallySingular, wikipedia: Singular measure, wikidata: Q1824450}
-  - {name: Radon–Nikodym theorem, kind: statement, decl: MeasureTheory.Measure.absolutelyContinuous_iff_withDensity_rnDeriv_eq, wikipedia: Radon–Nikodym theorem, wikidata: Q1191319, mathlib: [mathlib-1000]}
-  - {name: Radon–Nikodym derivative, kind: definition, decl: MeasureTheory.Measure.rnDeriv, wikipedia: Radon–Nikodym theorem, wikidata: Q1191319}
-  - {name: Lebesgue decomposition theorem, kind: statement, decl: MeasureTheory.Measure.haveLebesgueDecomposition_of_sigmaFinite, wikipedia: Lebesgue's decomposition theorem, wikidata: Q191693, mathlib: [mathlib-1000]}
-  - {name: measure with density, kind: definition, decl: MeasureTheory.Measure.withDensity, wikipedia: Radon–Nikodym theorem, wikidata: Q1191319}
+  - {name: signed measure, kind: definition, decl: MeasureTheory.SignedMeasure, wikipedia: Signed measure, wikidata: Q1764371, node: VG2P7R91Z7}
+  - {name: complex measure, kind: definition, wikipedia: Complex measure, wikidata: Q1153427, node: NY6TYHRGMS}
+  - {name: vector measure, kind: definition, decl: MeasureTheory.VectorMeasure, wikipedia: Vector measure, wikidata: Q219308, node: PS28BSAJKJ}
+  - {name: Hahn decomposition theorem, kind: statement, decl: MeasureTheory.SignedMeasure.exists_compl_positive_negative, wikipedia: Hahn decomposition theorem, wikidata: Q1568811, node: 2PKHANZ8JS}
+  - {name: Jordan decomposition of a signed measure, kind: statement, decl: MeasureTheory.SignedMeasure.toJordanDecomposition, wikipedia: Hahn decomposition theorem, wikidata: Q1568811, node: WAGJVK2NWE}
+  - {name: total variation of a measure, kind: definition, decl: MeasureTheory.SignedMeasure.totalVariation, wikipedia: Total variation, wikidata: Q1936288, node: EPBND51CR5}
+  - {name: absolutely continuous measure, kind: definition, decl: MeasureTheory.Measure.AbsolutelyContinuous, wikipedia: Absolute continuity, wikidata: Q332504, node: P0P21KDV6E}
+  - {name: mutually singular measures, kind: definition, decl: MeasureTheory.Measure.MutuallySingular, wikipedia: Singular measure, wikidata: Q1824450, node: EBGECZNCV5}
+  - {name: Radon–Nikodym theorem, kind: statement, decl: MeasureTheory.Measure.absolutelyContinuous_iff_withDensity_rnDeriv_eq, wikipedia: Radon–Nikodym theorem, wikidata: Q1191319, mathlib: [mathlib-1000], node: 1ZSZS5G1Q4}
+  - {name: Radon–Nikodym derivative, kind: definition, decl: MeasureTheory.Measure.rnDeriv, wikipedia: Radon–Nikodym theorem, wikidata: Q1191319, node: 1NTKG64F7N}
+  - {name: Lebesgue decomposition theorem, kind: statement, decl: MeasureTheory.Measure.haveLebesgueDecomposition_of_sigmaFinite, wikipedia: Lebesgue's decomposition theorem, wikidata: Q191693, mathlib: [mathlib-1000], node: 74VMD07DRX}
+  - {name: measure with density, kind: definition, decl: MeasureTheory.Measure.withDensity, wikipedia: Radon–Nikodym theorem, wikidata: Q1191319, node: Y98C5T956Q}
   - {name: conditional expectation, kind: definition, decl: MeasureTheory.condExp, wikipedia: Conditional expectation, wikidata: Q772232, mathlib: [mathlib-overview], node: 0TTDGTEFMN}
-  - {name: Vitali–Hahn–Saks theorem, kind: statement, wikipedia: Vitali–Hahn–Saks theorem, wikidata: Q7936914}
-  - {name: Nikodym convergence theorem, kind: statement, wikipedia: Vitali–Hahn–Saks theorem, wikidata: Q7936914}
-  - {name: Lyapunov's convexity theorem, kind: statement, wikipedia: Vector measure, wikidata: Q219308}
-  - {name: Bartle–Dunford–Schwartz integral, kind: definition, wikipedia: Vector measure, wikidata: Q219308}
+  - {name: Vitali–Hahn–Saks theorem, kind: statement, wikipedia: Vitali–Hahn–Saks theorem, wikidata: Q7936914, node: N0K0YWPQN6}
+  - {name: Nikodym convergence theorem, kind: statement, wikipedia: Vitali–Hahn–Saks theorem, wikidata: Q7936914, node: FCAA02SN0E}
+  - {name: Lyapunov's convexity theorem, kind: statement, wikipedia: Vector measure, wikidata: Q219308, node: 2ZTQX5M0TK}
+  - {name: Bartle–Dunford–Schwartz integral, kind: definition, wikipedia: Vector measure, wikidata: Q219308, node: RMWW2X86TT}
   # Differentiation theory
-  - {name: Lebesgue differentiation theorem, kind: statement, decl: VitaliFamily.ae_tendsto_lintegral_div, wikipedia: Lebesgue differentiation theorem, wikidata: Q2275191, mathlib: [mathlib-1000]}
-  - {name: Lebesgue point, kind: definition, wikipedia: Lebesgue point, wikidata: Q388660}
-  - {name: Lebesgue's density theorem, kind: statement, decl: Besicovitch.ae_tendsto_measure_inter_div, wikipedia: Lebesgue's density theorem, wikidata: Q842953, mathlib: [mathlib-1000]}
-  - {name: Vitali covering lemma, kind: statement, decl: Vitali.exists_disjoint_covering_ae, wikipedia: Vitali covering lemma, wikidata: Q3229352, mathlib: [mathlib-1000]}
-  - {name: Besicovitch covering theorem, kind: statement, decl: Besicovitch.exists_disjoint_closedBall_covering_ae, wikipedia: Besicovitch covering theorem, wikidata: Q137164, mathlib: [mathlib-1000]}
-  - {name: Hardy–Littlewood maximal function, kind: definition, wikipedia: Hardy–Littlewood maximal function, wikidata: Q3075250}
-  - {name: doubling measure, kind: definition, decl: IsUnifLocDoublingMeasure, wikipedia: Doubling space, wikidata: Q5300173}
-  - {name: fundamental theorem of calculus for Lebesgue integrals, kind: statement, decl: AbsolutelyContinuousOnInterval.integral_deriv_eq_sub, wikipedia: Absolute continuity, wikidata: Q332504}
+  - {name: Lebesgue differentiation theorem, kind: statement, decl: VitaliFamily.ae_tendsto_lintegral_div, wikipedia: Lebesgue differentiation theorem, wikidata: Q2275191, mathlib: [mathlib-1000], node: SAZ0ESVBVP}
+  - {name: Lebesgue point, kind: definition, wikipedia: Lebesgue point, wikidata: Q388660, node: 19WRHM5NAT}
+  - {name: Lebesgue's density theorem, kind: statement, decl: Besicovitch.ae_tendsto_measure_inter_div, wikipedia: Lebesgue's density theorem, wikidata: Q842953, mathlib: [mathlib-1000], node: WSVXYSNHNX}
+  - {name: Vitali covering lemma, kind: statement, decl: Vitali.exists_disjoint_covering_ae, wikipedia: Vitali covering lemma, wikidata: Q3229352, mathlib: [mathlib-1000], node: FCA0J1X07K}
+  - {name: Besicovitch covering theorem, kind: statement, decl: Besicovitch.exists_disjoint_closedBall_covering_ae, wikipedia: Besicovitch covering theorem, wikidata: Q137164, mathlib: [mathlib-1000], node: 6ZDSVX9GAR}
+  - {name: Hardy–Littlewood maximal function, kind: definition, wikipedia: Hardy–Littlewood maximal function, wikidata: Q3075250, node: VX1A56P5KQ}
+  - {name: doubling measure, kind: definition, decl: IsUnifLocDoublingMeasure, wikipedia: Doubling space, wikidata: Q5300173, node: W1JXH6NCKX}
+  - {name: fundamental theorem of calculus for Lebesgue integrals, kind: statement, decl: AbsolutelyContinuousOnInterval.integral_deriv_eq_sub, wikipedia: Absolute continuity, wikidata: Q332504, node: RX7JSHMP8Z}
   - {name: change of variables formula, kind: statement, decl: MeasureTheory.integral_image_eq_integral_abs_det_fderiv_smul, wikipedia: Integration by substitution, wikidata: Q1071270, mathlib: [mathlib-undergrad, mathlib-overview], node: 0D37QFPEZE}
-  - {name: coarea formula, kind: statement, wikipedia: Coarea formula, wikidata: Q2591257}
+  - {name: coarea formula, kind: statement, wikipedia: Coarea formula, wikidata: Q2591257, node: QK55379SXW}
   # Measures on topological spaces
-  - {name: Borel measure, kind: definition, decl: BorelSpace, wikipedia: Borel measure, wikidata: Q892585, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: regular measure, kind: definition, decl: MeasureTheory.Measure.Regular, wikipedia: Regular measure, wikidata: Q1428110}
-  - {name: inner regular measure, kind: definition, decl: MeasureTheory.Measure.InnerRegular, wikipedia: Regular measure, wikidata: Q1428110}
-  - {name: outer regular measure, kind: definition, decl: MeasureTheory.Measure.OuterRegular, wikipedia: Radon measure, wikidata: Q2126650}
-  - {name: Radon measure, kind: definition, wikipedia: Radon measure, wikidata: Q2126650}
-  - {name: tight measure, kind: definition, decl: MeasureTheory.IsTightMeasureSet, wikipedia: Tightness of measures, wikidata: Q7801650}
-  - {name: locally finite measure, kind: definition, wikipedia: Locally finite measure, wikidata: Q2136937}
-  - {name: support of a measure, kind: definition, wikipedia: Support (measure theory), wikidata: Q2709287}
-  - {name: Riesz–Markov–Kakutani representation theorem, kind: statement, decl: RealRMK.rieszMeasure, wikipedia: Riesz–Markov–Kakutani representation theorem, wikidata: Q17098001}
-  - {name: weak convergence of measures, kind: definition, decl: MeasureTheory.ProbabilityMeasure.tendsto_iff_forall_integral_tendsto, wikipedia: Convergence of measures, wikidata: Q2105205, mathlib: [mathlib-overview]}
-  - {name: Portmanteau theorem, kind: statement, wikipedia: Convergence of measures, wikidata: Q2105205}
-  - {name: Prokhorov's theorem, kind: statement, wikipedia: Prokhorov's theorem, wikidata: Q7249519}
-  - {name: Lévy–Prokhorov metric, kind: definition, decl: MeasureTheory.LevyProkhorov, wikipedia: Lévy–Prokhorov metric, wikidata: Q421945}
-  - {name: Wasserstein metric, kind: definition, wikipedia: Wasserstein metric, wikidata: Q768993}
-  - {name: Kantorovich–Rubinstein duality, kind: statement, wikipedia: Wasserstein metric, wikidata: Q768993}
-  - {name: Choquet theory, kind: concept, wikipedia: Choquet theory, wikidata: Q1076274}
-  - {name: Polish space, kind: definition, wikipedia: Polish space, wikidata: Q1207972}
-  - {name: Gaussian measure, kind: definition, decl: ProbabilityTheory.gaussianReal, wikipedia: Gaussian measure, wikidata: Q5527840, mathlib: [mathlib-undergrad, mathlib-overview]}
-  - {name: Cameron–Martin theorem, kind: statement, wikipedia: Cameron–Martin theorem, wikidata: Q5026435}
-  - {name: abstract Wiener space, kind: definition, wikipedia: Abstract Wiener space, wikidata: Q4669933}
-  - {name: cylinder set measure, kind: definition, wikipedia: Cylinder set measure, wikidata: Q5199272}
-  - {name: Minlos theorem, kind: statement, wikipedia: Minlos's theorem, wikidata: Q6867878}
-  - {name: Feldman–Hájek theorem, kind: statement, wikipedia: Feldman–Hájek theorem, wikidata: Q60794154}
+  - {name: Borel measure, kind: definition, decl: BorelSpace, wikipedia: Borel measure, wikidata: Q892585, mathlib: [mathlib-undergrad, mathlib-overview], node: DYR1QFNGNJ}
+  - {name: regular measure, kind: definition, decl: MeasureTheory.Measure.Regular, wikipedia: Regular measure, wikidata: Q1428110, node: HQFZQ0F991}
+  - {name: inner regular measure, kind: definition, decl: MeasureTheory.Measure.InnerRegular, wikipedia: Regular measure, wikidata: Q1428110, node: 28E5Q5BM69}
+  - {name: outer regular measure, kind: definition, decl: MeasureTheory.Measure.OuterRegular, wikipedia: Radon measure, wikidata: Q2126650, node: 33C1KEK3SC}
+  - {name: Radon measure, kind: definition, wikipedia: Radon measure, wikidata: Q2126650, node: HZNEQQBCW4}
+  - {name: tight measure, kind: definition, decl: MeasureTheory.IsTightMeasureSet, wikipedia: Tightness of measures, wikidata: Q7801650, node: MNMJC8YVBS}
+  - {name: locally finite measure, kind: definition, wikipedia: Locally finite measure, wikidata: Q2136937, node: YQ5C1SRE0W}
+  - {name: support of a measure, kind: definition, wikipedia: Support (measure theory), wikidata: Q2709287, node: FQTXV6BQZG}
+  - {name: Riesz–Markov–Kakutani representation theorem, kind: statement, decl: RealRMK.rieszMeasure, wikipedia: Riesz–Markov–Kakutani representation theorem, wikidata: Q17098001, node: DWFPDF8XTB}
+  - {name: weak convergence of measures, kind: definition, decl: MeasureTheory.ProbabilityMeasure.tendsto_iff_forall_integral_tendsto, wikipedia: Convergence of measures, wikidata: Q2105205, mathlib: [mathlib-overview], node: MBW9JCGZC1}
+  - {name: Portmanteau theorem, kind: statement, wikipedia: Convergence of measures, wikidata: Q2105205, node: 4SSJ589G6T}
+  - {name: Prokhorov's theorem, kind: statement, wikipedia: Prokhorov's theorem, wikidata: Q7249519, node: D6FMEQYA76}
+  - {name: Lévy–Prokhorov metric, kind: definition, decl: MeasureTheory.LevyProkhorov, wikipedia: Lévy–Prokhorov metric, wikidata: Q421945, node: 8GZK8NC3VQ}
+  - {name: Wasserstein metric, kind: definition, wikipedia: Wasserstein metric, wikidata: Q768993, node: VEY29CS26X}
+  - {name: Kantorovich–Rubinstein duality, kind: statement, wikipedia: Wasserstein metric, wikidata: Q768993, node: SYXSZD8EFK}
+  - {name: Choquet theory, kind: concept, wikipedia: Choquet theory, wikidata: Q1076274, node: ABPK3RW5MW}
+  - {name: Polish space, kind: definition, wikipedia: Polish space, wikidata: Q1207972, node: 584GXXY73M}
+  - {name: Gaussian measure, kind: definition, decl: ProbabilityTheory.gaussianReal, wikipedia: Gaussian measure, wikidata: Q5527840, mathlib: [mathlib-undergrad, mathlib-overview], node: P0DV2TCH1N}
+  - {name: Cameron–Martin theorem, kind: statement, wikipedia: Cameron–Martin theorem, wikidata: Q5026435, node: WAE4ZGJXJ7}
+  - {name: abstract Wiener space, kind: definition, wikipedia: Abstract Wiener space, wikidata: Q4669933, node: CPA34DVD8J}
+  - {name: cylinder set measure, kind: definition, wikipedia: Cylinder set measure, wikidata: Q5199272, node: G95YDNFXQN}
+  - {name: Minlos theorem, kind: statement, wikipedia: Minlos's theorem, wikidata: Q6867878, node: S2J9CBPJ0V}
+  - {name: Feldman–Hájek theorem, kind: statement, wikipedia: Feldman–Hájek theorem, wikidata: Q60794154, node: 4TXG13F5N0}
   # Measures on groups
   - {name: Haar measure, kind: definition, decl: MeasureTheory.Measure.haar, wikipedia: Haar measure, wikidata: Q1162676}
-  - {name: existence and uniqueness of Haar measure, kind: statement, decl: MeasureTheory.Measure.haarMeasure_unique, wikipedia: Haar measure, wikidata: Q1162676}
+  - {name: existence and uniqueness of Haar measure, kind: statement, decl: MeasureTheory.Measure.haarMeasure_unique, wikipedia: Haar measure, wikidata: Q1162676, node: KB792QTG4F}
   - {name: modular function, kind: definition, wikipedia: Haar measure, wikidata: Q1162676}
   - {name: unimodular group, kind: definition, wikipedia: Haar measure, wikidata: Q1162676}
-  - {name: quasi-invariant measure, kind: definition, wikipedia: Quasi-invariant measure, wikidata: Q7269454}
+  - {name: quasi-invariant measure, kind: definition, wikipedia: Quasi-invariant measure, wikidata: Q7269454, node: FCNQP0A60D}
   - {name: Weil's converse to Haar's theorem, kind: statement, wikipedia: Haar measure, wikidata: Q1162676}
   - {name: amenable group, kind: definition, wikipedia: Amenable group, wikidata: Q1857002, node: CEAT9BESKK}
-  - {name: invariant mean, kind: definition, wikipedia: Amenable group, wikidata: Q1857002}
+  - {name: invariant mean, kind: definition, wikipedia: Amenable group, wikidata: Q1857002, node: ZYNY2VFECQ}
   # Geometric measure theory and fractal measures
-  - {name: Hausdorff measure, kind: definition, decl: MeasureTheory.Measure.hausdorffMeasure, wikipedia: Hausdorff measure, wikidata: Q1591095, mathlib: [mathlib-overview]}
-  - {name: Hausdorff dimension, kind: definition, decl: dimH, wikipedia: Hausdorff dimension, wikidata: Q565186, mathlib: [mathlib-overview]}
-  - {name: packing measure, kind: definition, wikipedia: Packing dimension, wikidata: Q5404299}
-  - {name: Minkowski content, kind: definition, wikipedia: Minkowski content, wikidata: Q17082571}
-  - {name: Minkowski–Bouligand dimension, kind: definition, wikipedia: Minkowski–Bouligand dimension, wikidata: Q2555655}
-  - {name: Frostman lemma, kind: statement, wikipedia: Frostman lemma, wikidata: Q5506220}
-  - {name: rectifiable set, kind: definition, wikipedia: Rectifiable set, wikidata: Q3038340}
-  - {name: Besicovitch–Federer projection theorem, kind: statement, wikipedia: Besicovitch covering theorem, wikidata: Q137164}
-  - {name: Kakeya set, kind: object, wikipedia: Kakeya set, wikidata: Q3054869}
+  - {name: Hausdorff measure, kind: definition, decl: MeasureTheory.Measure.hausdorffMeasure, wikipedia: Hausdorff measure, wikidata: Q1591095, mathlib: [mathlib-overview], node: Q1TGZK8RN6}
+  - {name: Hausdorff dimension, kind: definition, decl: dimH, wikipedia: Hausdorff dimension, wikidata: Q565186, mathlib: [mathlib-overview], node: SSNFTHZ6YJ}
+  - {name: packing measure, kind: definition, wikipedia: Packing dimension, wikidata: Q5404299, node: W59B3PKZPP}
+  - {name: Minkowski content, kind: definition, wikipedia: Minkowski content, wikidata: Q17082571, node: HS2NTCMZ4T}
+  - {name: Minkowski–Bouligand dimension, kind: definition, wikipedia: Minkowski–Bouligand dimension, wikidata: Q2555655, node: WYRKJ412FT}
+  - {name: Frostman lemma, kind: statement, wikipedia: Frostman lemma, wikidata: Q5506220, node: FYNFT90NT2}
+  - {name: rectifiable set, kind: definition, wikipedia: Rectifiable set, wikidata: Q3038340, node: 7N0GFMW05R}
+  - {name: Besicovitch–Federer projection theorem, kind: statement, wikipedia: Besicovitch covering theorem, wikidata: Q137164, node: 8J8AW0TG9M}
+  - {name: Kakeya set, kind: object, wikipedia: Kakeya set, wikidata: Q3054869, node: 6PEN7AKC7M}
   - {name: Kakeya conjecture, kind: conjecture, wikipedia: Kakeya set, wikidata: Q3054869}
-  - {name: current, kind: definition, wikipedia: Current (mathematics), wikidata: Q3001145}
-  - {name: varifold, kind: definition, wikipedia: Varifold, wikidata: Q7915890}
-  - {name: capacity of a set, kind: definition, wikipedia: Capacity of a set, wikidata: Q5034494}
-  - {name: Choquet capacity, kind: definition, wikipedia: Choquet theory, wikidata: Q1076274}
-  - {name: self-similar measure, kind: definition, wikipedia: Self-similarity, wikidata: Q262372}
-  - {name: Brunn–Minkowski theorem, kind: statement, wikipedia: Brunn–Minkowski theorem, wikidata: Q3915398}
-  - {name: isoperimetric inequality, kind: statement, wikipedia: Isoperimetric inequality, wikidata: Q617417}
-  - {name: Prékopa–Leindler inequality, kind: statement, wikipedia: Prékopa–Leindler inequality, wikidata: Q7253815}
-  - {name: Hausdorff content, kind: definition, wikipedia: Hausdorff dimension, wikidata: Q565186}
+  - {name: current, kind: definition, wikipedia: Current (mathematics), wikidata: Q3001145, node: 360H7MD9RD}
+  - {name: varifold, kind: definition, wikipedia: Varifold, wikidata: Q7915890, node: N3QA80M44M}
+  - {name: capacity of a set, kind: definition, wikipedia: Capacity of a set, wikidata: Q5034494, node: 4YZVFGJVSZ}
+  - {name: Choquet capacity, kind: definition, wikipedia: Choquet theory, wikidata: Q1076274, node: 25FRWWHFZV}
+  - {name: self-similar measure, kind: definition, wikipedia: Self-similarity, wikidata: Q262372, node: R8A7XTNZ1B}
+  - {name: Brunn–Minkowski theorem, kind: statement, wikipedia: Brunn–Minkowski theorem, wikidata: Q3915398, node: 9B02RPN7XD}
+  - {name: isoperimetric inequality, kind: statement, wikipedia: Isoperimetric inequality, wikidata: Q617417, node: KBX8RBZ626}
+  - {name: Prékopa–Leindler inequality, kind: statement, wikipedia: Prékopa–Leindler inequality, wikidata: Q7253815, node: J9CJX9F42Y}
+  - {name: Hausdorff content, kind: definition, wikipedia: Hausdorff dimension, wikidata: Q565186, node: VDTEARFVMB}
   # Measure-preserving maps and further topics
-  - {name: measure-preserving transformation, kind: definition, decl: MeasureTheory.MeasurePreserving, wikipedia: Measure-preserving dynamical system, wikidata: Q1003225}
-  - {name: quasi-measure-preserving map, kind: definition, decl: MeasureTheory.Measure.QuasiMeasurePreserving, wikipedia: Quasi-invariant measure, wikidata: Q7269454}
-  - {name: ergodic transformation, kind: definition, decl: Ergodic, wikipedia: Ergodicity, wikidata: Q5426803}
-  - {name: Poincaré recurrence theorem, kind: statement, decl: MeasureTheory.Conservative.ae_mem_imp_frequently_image_mem, wikipedia: Poincaré recurrence theorem, wikidata: Q226014, mathlib: [mathlib-1000]}
-  - {name: isomorphism theorem for measure algebras, kind: statement, wikipedia: Standard probability space, wikidata: Q7598372}
-  - {name: standard probability space, kind: definition, wikipedia: Standard probability space, wikidata: Q7598372}
+  - {name: measure-preserving transformation, kind: definition, decl: MeasureTheory.MeasurePreserving, wikipedia: Measure-preserving dynamical system, wikidata: Q1003225, node: 556WBDAHNP}
+  - {name: quasi-measure-preserving map, kind: definition, decl: MeasureTheory.Measure.QuasiMeasurePreserving, wikipedia: Quasi-invariant measure, wikidata: Q7269454, node: F608XX51KA}
+  - {name: ergodic transformation, kind: definition, decl: Ergodic, wikipedia: Ergodicity, wikidata: Q5426803, node: AZRPHS478B}
+  - {name: Poincaré recurrence theorem, kind: statement, decl: MeasureTheory.Conservative.ae_mem_imp_frequently_image_mem, wikipedia: Poincaré recurrence theorem, wikidata: Q226014, mathlib: [mathlib-1000], node: TVYJPBHD0S}
+  - {name: isomorphism theorem for measure algebras, kind: statement, wikipedia: Standard probability space, wikidata: Q7598372, node: YFAQGE2ATQ}
+  - {name: standard probability space, kind: definition, wikipedia: Standard probability space, wikidata: Q7598372, node: QDDRDW9PXS}
   - {name: Lebesgue space, kind: definition, wikipedia: Standard probability space, wikidata: Q7598372}
   - {name: Kolmogorov's zero–one law, kind: statement, wikipedia: Kolmogorov's zero–one law, wikidata: Q2004664, node: 073Q8Z94KG}
-  - {name: Borel–Cantelli lemma, kind: statement, decl: MeasureTheory.measure_limsup_atTop_eq_zero, wikipedia: Borel–Cantelli lemma, wikidata: Q893496, mathlib: [mathlib-undergrad]}
-  - {name: fuzzy measure, kind: definition, wikipedia: Fuzzy measure theory, wikidata: Q4455138}
-  - {name: Choquet integral, kind: definition, wikipedia: Choquet integral, wikidata: Q5104911}
-  - {name: Young measure, kind: definition, wikipedia: Young measure, wikidata: Q8058552}
-  - {name: set-valued measure, kind: definition, wikipedia: Set-valued function, wikidata: Q115988076}
-  - {name: Loeb measure, kind: definition, wikipedia: Loeb space, wikidata: Q17103336}
+  - {name: Borel–Cantelli lemma, kind: statement, decl: MeasureTheory.measure_limsup_atTop_eq_zero, wikipedia: Borel–Cantelli lemma, wikidata: Q893496, mathlib: [mathlib-undergrad], node: 0T6WS7TT77}
+  - {name: fuzzy measure, kind: definition, wikipedia: Fuzzy measure theory, wikidata: Q4455138, node: CRFQEGJDA9}
+  - {name: Choquet integral, kind: definition, wikipedia: Choquet integral, wikidata: Q5104911, node: 36TXCRZ6GC}
+  - {name: Young measure, kind: definition, wikipedia: Young measure, wikidata: Q8058552, node: 6TQSVJQDEH}
+  - {name: set-valued measure, kind: definition, wikipedia: Set-valued function, wikidata: Q115988076, node: 13F6B3BGA4}
+  - {name: Loeb measure, kind: definition, wikipedia: Loeb space, wikidata: Q17103336, node: DW5SBZXK6R}
   - {name: Gelfand–Pettis integral, kind: definition, wikipedia: Pettis integral, wikidata: Q211188}
-  - {name: Stieltjes function, kind: definition, decl: StieltjesFunction, wikipedia: Lebesgue–Stieltjes integration, wikidata: Q3799278}
-  - {name: Hausdorff moment problem, kind: problem, wikipedia: Hausdorff moment problem, wikidata: Q5682821}
-  - {name: Hamburger moment problem, kind: problem, wikipedia: Hamburger moment problem, wikidata: Q5644349}
+  - {name: Stieltjes function, kind: definition, decl: StieltjesFunction, wikipedia: Lebesgue–Stieltjes integration, wikidata: Q3799278, node: WPR0NVC9PC}
+  - {name: Hausdorff moment problem, kind: problem, wikipedia: Hausdorff moment problem, wikidata: Q5682821, node: G7VG61YD4J}
+  - {name: Hamburger moment problem, kind: problem, wikipedia: Hamburger moment problem, wikidata: Q5644349, node: TBNCFXTMMW}

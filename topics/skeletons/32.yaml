@@ -107,7 +107,7 @@ items:
   - {name: Weierstrass preparation theorem, kind: statement, wikipedia: Weierstrass preparation theorem, wikidata: Q3527219, node: 49JSD49P7X}
   - {name: Weierstrass division theorem, kind: statement, wikipedia: Weierstrass preparation theorem, wikidata: Q3527219}
   - {name: the local ring of holomorphic germs is Noetherian and factorial, kind: statement, wikipedia: Function of several complex variables, wikidata: Q2052951}
-  - {name: analytic set, kind: definition, wikipedia: Analytic set, wikidata: Q485312}
+  - {name: analytic set, kind: definition, wikipedia: Analytic set, wikidata: Q485312, node: 3RWWZYPAFV}
   - {name: complex analytic variety, kind: definition, wikipedia: Complex analytic variety, wikidata: Q3889649}
   - {name: germ of an analytic set, kind: definition, wikipedia: Analytic set, wikidata: Q485312}
   - {name: irreducible analytic germ, kind: definition, wikipedia: Analytic set, wikidata: Q485312}
@@ -156,7 +156,7 @@ items:
   - {name: Siciak extremal function, kind: definition, wikipedia: Pluripolar set, wikidata: Q7205562}
   - {name: pluricomplex Green function, kind: definition, wikipedia: Plurisubharmonic function, wikidata: Q7205565}
   - {name: Lelong class, kind: definition, wikipedia: Plurisubharmonic function, wikidata: Q7205565}
-  - {name: current, kind: definition, wikipedia: Current (mathematics), wikidata: Q3001145}
+  - {name: current, kind: definition, wikipedia: Current (mathematics), wikidata: Q3001145, node: 360H7MD9RD}
   - {name: positive current, kind: definition, wikipedia: Positive current, wikidata: Q7233260}
   - {name: Poincaré–Lelong formula, kind: statement, wikipedia: Lelong number, wikidata: Q6520938}
   - {name: multiplier ideal, kind: definition, wikipedia: Multiplier ideal, wikidata: Q17099212}

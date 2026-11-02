@@ -27,8 +27,8 @@ The Whitehead problem asks: is every Whitehead group a [[free abelian group|0WJX
 Every free abelian group is a Whitehead group, because a surjection onto a free abelian group always splits: send each basis element to any preimage.
 Every countable Whitehead group is free, so the question concerns uncountable groups.
 Shelah showed in 1974 that the problem is independent of [[ZFC|0HE5WDQ9FJ]].
-If the axiom of constructibility $V = L$ holds, then every Whitehead group is free.
-If Martin's axiom holds together with the negation of the continuum hypothesis, then there is a Whitehead group that is not free.
+If the [[axiom of constructibility|4QKRPRCSXH]] $V = L$ holds, then every Whitehead group is free.
+If [[Martin's axiom|V8KGT8MRFE]] holds together with the negation of the continuum hypothesis, then there is a Whitehead group that is not free.
 
 ## Explanations
 

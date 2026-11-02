@@ -12,7 +12,7 @@ sources:
 ## Definition
 
 Let $(\Omega, \mathcal{F}, (\mathcal{F}_t)_{t \in T}, P)$ be a probability space with a [[filtration|HNK1Y62G7V]] indexed by a totally ordered set $T$.
-Let $(S, \mathcal{S})$ be a measurable space.
+Let $(S, \mathcal{S})$ be a [[measurable|YYNCJSR0PJ]] space.
 A [[stochastic process|0QH5ENKZM1]] $X = (X_t)_{t \in T}$ with values in $S$ is *adapted* to $(\mathcal{F}_t)$ if the following holds.
 For every $t \in T$, the map $X_t \colon \Omega \to S$ is measurable with respect to $\mathcal{F}_t$ and $\mathcal{S}$.
 

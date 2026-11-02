@@ -14,7 +14,7 @@ same_as:
 ## Summary
 
 A Maass wave form is a smooth function on the [[upper half-plane|X6XGGH5FPW]] that is invariant under a [[congruence subgroup|1H6R856P3C]] of the [[modular group|VEKV1EM77B]].
-It is also an eigenfunction of the hyperbolic Laplace–Beltrami operator.
+It is also an eigenfunction of the hyperbolic [[Laplace–Beltrami operator|F4NWZNTRMD]].
 It is the non-holomorphic counterpart of a [[modular form|GWKN5VG78A]].
 Maass forms are basic examples of [[automorphic forms|3C73HND6XA]], and their eigenvalues are the subject of spectral theory and trace formulas.
 

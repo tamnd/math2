@@ -28,7 +28,7 @@ The same conclusion holds under each of these weaker conditions on a solution $f
 1. $f$ is continuous at one point;
 2. $f$ is [[monotone|0A7KV2WB7A]] on some interval;
 3. $f$ is bounded above on some interval;
-4. $f$ is measurable for Lebesgue measure.
+4. $f$ is measurable for [[Lebesgue measure|2Z2QVWZ262]].
 
 Without such a condition there are other solutions.
 Take a [[basis|0KCQ9Y3QKA]] of $\R$ as a vector space over $\Q$, which exists by the [[axiom of choice|0HTGB13FE2]].

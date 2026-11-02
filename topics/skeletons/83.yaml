@@ -116,7 +116,7 @@ items:
   - {name: exact solutions in general relativity, kind: concept, wikipedia: Exact solutions in general relativity, wikidata: Q5419229}
   - {name: vacuum solution, kind: definition, wikipedia: Vacuum solution, wikidata: Q7908077}
   - {name: electrovacuum solution, kind: definition, wikipedia: Electrovacuum solution, wikidata: Q5358583}
-  - {name: Schwarzschild metric, kind: example, wikipedia: Schwarzschild metric, wikidata: Q742969}
+  - {name: Schwarzschild metric, kind: example, wikipedia: Schwarzschild metric, wikidata: Q742969, node: 6Y50T68WKY}
   - {name: interior Schwarzschild metric, kind: example, wikipedia: Interior Schwarzschild metric, wikidata: Q25113032}
   - {name: Eddington–Finkelstein coordinates, kind: definition, wikipedia: Eddington–Finkelstein coordinates, wikidata: Q5336608}
   - {name: Kruskal–Szekeres coordinates, kind: definition, wikipedia: Kruskal–Szekeres coordinates, wikidata: Q1478885}
@@ -150,7 +150,7 @@ items:
   - {name: Penrose process, kind: statement, wikipedia: Penrose process, wikidata: Q616172}
   - {name: gravitational singularity, kind: concept, wikipedia: Gravitational singularity, wikidata: Q201721}
   - {name: Kretschmann scalar, kind: definition, wikipedia: Kretschmann scalar, wikidata: Q6436867}
-  - {name: Penrose–Hawking singularity theorems, kind: statement, wikipedia: Penrose–Hawking singularity theorems, wikidata: Q1452678}
+  - {name: Penrose–Hawking singularity theorems, kind: statement, wikipedia: Penrose–Hawking singularity theorems, wikidata: Q1452678, node: WP4YAHJ6V4}
   - {name: weak cosmic censorship conjecture, kind: conjecture, wikipedia: Cosmic censorship hypothesis, wikidata: Q1191211}
   - {name: strong cosmic censorship conjecture, kind: conjecture, wikipedia: Cosmic censorship hypothesis, wikidata: Q1191211}
   - {name: hoop conjecture, kind: conjecture, wikipedia: Hoop conjecture, wikidata: Q1673713}

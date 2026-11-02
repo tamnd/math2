@@ -10,262 +10,262 @@ sources:
   mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
 items:
   # Philosophical questions and foundational programs
-  - {name: foundations of mathematics, kind: concept, wikipedia: Foundations of mathematics, wikidata: Q833585}
-  - {name: logicism, kind: concept, wikipedia: Logicism, wikidata: Q845691}
-  - {name: formalism, kind: concept, wikipedia: Formalism (philosophy of mathematics), wikidata: Q1433067}
-  - {name: intuitionism, kind: concept, wikipedia: Intuitionism, wikidata: Q10879018}
-  - {name: Hilbert's program, kind: problem, wikipedia: Hilbert's program, wikidata: Q968548}
+  - {name: foundations of mathematics, kind: concept, wikipedia: Foundations of mathematics, wikidata: Q833585, node: EFFRJFW67Y}
+  - {name: logicism, kind: concept, wikipedia: Logicism, wikidata: Q845691, node: 5PGSQYB5Y1}
+  - {name: formalism, kind: concept, wikipedia: Formalism (philosophy of mathematics), wikidata: Q1433067, node: 46JCQ6KDA4}
+  - {name: intuitionism, kind: concept, wikipedia: Intuitionism, wikidata: Q10879018, node: XQHF63BBYF}
+  - {name: Hilbert's program, kind: problem, wikipedia: Hilbert's program, wikidata: Q968548, node: P1RW6JWX73}
   - {name: Russell's paradox, kind: counterexample, wikipedia: Russell's paradox, wikidata: Q33401}
-  - {name: Burali-Forti paradox, kind: counterexample, wikipedia: Burali-Forti paradox, wikidata: Q1010269}
-  - {name: Skolem's paradox, kind: example, wikipedia: Skolem's paradox, wikidata: Q1096353}
+  - {name: Burali-Forti paradox, kind: counterexample, wikipedia: Burali-Forti paradox, wikidata: Q1010269, node: CCNCGN3P59}
+  - {name: Skolem's paradox, kind: example, wikipedia: Skolem's paradox, wikidata: Q1096353, node: 68QZWDXAQ4}
   # Propositional logic
   - {name: propositional calculus, kind: concept, wikipedia: Propositional logic, wikidata: Q200694, node: 09K9MWD2QQ}
-  - {name: logical connective, kind: definition, wikipedia: Logical connective, wikidata: Q211790}
+  - {name: logical connective, kind: definition, wikipedia: Logical connective, wikidata: Q211790, node: QS0XVAN9BG}
   - {name: tautology, kind: definition, wikipedia: Tautology (logic), wikidata: Q209555, node: 05006AJ7DZ}
-  - {name: satisfiability, kind: definition, wikipedia: Satisfiability, wikidata: Q1350299}
-  - {name: logical consequence, kind: definition, wikipedia: Logical consequence, wikidata: Q374182}
+  - {name: satisfiability, kind: definition, wikipedia: Satisfiability, wikidata: Q1350299, node: QN7M1JCGT9}
+  - {name: logical consequence, kind: definition, wikipedia: Logical consequence, wikidata: Q374182, node: 1HK0VYWTV7}
   - {name: conjunctive normal form, kind: definition, wikipedia: Conjunctive normal form, wikidata: Q846564, node: 0B3D4C8YF2}
-  - {name: Hilbert system, kind: definition, wikipedia: Hilbert system, wikidata: Q910361}
-  - {name: natural deduction, kind: definition, wikipedia: Natural deduction, wikidata: Q1572108}
-  - {name: deduction theorem, kind: statement, wikipedia: Deduction theorem, wikidata: Q1182249}
-  - {name: soundness, kind: definition, wikipedia: Soundness, wikidata: Q693083}
-  - {name: Craig interpolation theorem, kind: statement, wikipedia: Craig interpolation, wikidata: Q1052021}
+  - {name: Hilbert system, kind: definition, wikipedia: Hilbert system, wikidata: Q910361, node: 1MGMQX43B8}
+  - {name: natural deduction, kind: definition, wikipedia: Natural deduction, wikidata: Q1572108, node: 6KT3BJZ7D1}
+  - {name: deduction theorem, kind: statement, wikipedia: Deduction theorem, wikidata: Q1182249, node: 9X08XK5RV2}
+  - {name: soundness, kind: definition, wikipedia: Soundness, wikidata: Q693083, node: 4A84VHDTHV}
+  - {name: Craig interpolation theorem, kind: statement, wikipedia: Craig interpolation, wikidata: Q1052021, node: E2CBFNAVZY}
   # First-order logic
   - {name: first-order logic, kind: concept, wikipedia: First-order logic, wikidata: Q4055684, node: 086QKPF0A6}
-  - {name: signature, kind: definition, decl: FirstOrder.Language, wikipedia: Signature (logic), wikidata: Q741810}
-  - {name: term, kind: definition, decl: FirstOrder.Language.Term, wikipedia: Term (logic), wikidata: Q1318370}
-  - {name: well-formed formula, kind: definition, decl: FirstOrder.Language.BoundedFormula, wikipedia: Well-formed formula, wikidata: Q655328}
-  - {name: sentence, kind: definition, decl: FirstOrder.Language.Sentence, wikipedia: Sentence (mathematical logic), wikidata: Q2509500}
-  - {name: prenex normal form, kind: definition, wikipedia: Prenex normal form, wikidata: Q281854}
-  - {name: Skolem normal form, kind: definition, wikipedia: Skolem normal form, wikidata: Q1090524}
-  - {name: Herbrand's theorem, kind: statement, wikipedia: Herbrand's theorem, wikidata: Q1930577}
-  - {name: Gödel's completeness theorem, kind: statement, wikipedia: Gödel's completeness theorem, wikidata: Q902052}
-  - {name: compactness theorem, kind: statement, decl: FirstOrder.Language.Theory.isSatisfiable_iff_isFinitelySatisfiable, wikipedia: Compactness theorem, wikidata: Q1149458, mathlib: [mathlib-overview, mathlib-1000]}
-  - {name: Löwenheim–Skolem theorem, kind: statement, decl: FirstOrder.Language.exists_elementarySubstructure_card_eq, wikipedia: Löwenheim–Skolem theorem, wikidata: Q1068283}
-  - {name: Lindström's theorem, kind: statement, wikipedia: Lindström's theorem, wikidata: Q2379128}
-  - {name: Church's theorem on undecidability of first-order logic, kind: statement, wikipedia: Entscheidungsproblem, wikidata: Q11030584}
-  - {name: Beth definability theorem, kind: statement, wikipedia: Beth definability theorem, wikidata: Q4897670}
-  - {name: second-order logic, kind: concept, wikipedia: Second-order logic, wikidata: Q1548746}
-  - {name: higher-order logic, kind: concept, wikipedia: Higher-order logic, wikidata: Q1644136}
-  - {name: infinitary logic, kind: concept, wikipedia: Infinitary logic, wikidata: Q6029713}
-  - {name: Ehrenfeucht–Fraïssé game, kind: definition, wikipedia: Ehrenfeucht–Fraïssé game, wikidata: Q1300013}
+  - {name: signature, kind: definition, decl: FirstOrder.Language, wikipedia: Signature (logic), wikidata: Q741810, node: WDVVEYD6AT}
+  - {name: term, kind: definition, decl: FirstOrder.Language.Term, wikipedia: Term (logic), wikidata: Q1318370, node: 6D3WA7N2W4}
+  - {name: well-formed formula, kind: definition, decl: FirstOrder.Language.BoundedFormula, wikipedia: Well-formed formula, wikidata: Q655328, node: HYJ10AF6RT}
+  - {name: sentence, kind: definition, decl: FirstOrder.Language.Sentence, wikipedia: Sentence (mathematical logic), wikidata: Q2509500, node: DKFGQTRYZE}
+  - {name: prenex normal form, kind: definition, wikipedia: Prenex normal form, wikidata: Q281854, node: CS82V969DE}
+  - {name: Skolem normal form, kind: definition, wikipedia: Skolem normal form, wikidata: Q1090524, node: GCPQGMJYEV}
+  - {name: Herbrand's theorem, kind: statement, wikipedia: Herbrand's theorem, wikidata: Q1930577, node: VZ21F10WRS}
+  - {name: Gödel's completeness theorem, kind: statement, wikipedia: Gödel's completeness theorem, wikidata: Q902052, node: WQ1ZE255SF}
+  - {name: compactness theorem, kind: statement, decl: FirstOrder.Language.Theory.isSatisfiable_iff_isFinitelySatisfiable, wikipedia: Compactness theorem, wikidata: Q1149458, mathlib: [mathlib-overview, mathlib-1000], node: 1NR3HAWG9D}
+  - {name: Löwenheim–Skolem theorem, kind: statement, decl: FirstOrder.Language.exists_elementarySubstructure_card_eq, wikipedia: Löwenheim–Skolem theorem, wikidata: Q1068283, node: 484M0TZ1S7}
+  - {name: Lindström's theorem, kind: statement, wikipedia: Lindström's theorem, wikidata: Q2379128, node: FYZ3CJGZYV}
+  - {name: Church's theorem on undecidability of first-order logic, kind: statement, wikipedia: Entscheidungsproblem, wikidata: Q11030584, node: VA6BNNY2YC}
+  - {name: Beth definability theorem, kind: statement, wikipedia: Beth definability theorem, wikidata: Q4897670, node: RJBDSA2ETP}
+  - {name: second-order logic, kind: concept, wikipedia: Second-order logic, wikidata: Q1548746, node: G6X7SZSNC5}
+  - {name: higher-order logic, kind: concept, wikipedia: Higher-order logic, wikidata: Q1644136, node: P1ABGYRQXH}
+  - {name: infinitary logic, kind: concept, wikipedia: Infinitary logic, wikidata: Q6029713, node: PQG7VAZ1R2}
+  - {name: Ehrenfeucht–Fraïssé game, kind: definition, wikipedia: Ehrenfeucht–Fraïssé game, wikidata: Q1300013, node: 2RE7YAZK8R}
   # Non-classical logics
-  - {name: modal logic, kind: concept, wikipedia: Modal logic, wikidata: Q210841}
-  - {name: Kripke semantics, kind: definition, wikipedia: Kripke semantics, wikidata: Q2462350}
-  - {name: provability logic, kind: concept, wikipedia: Provability logic, wikidata: Q260168}
-  - {name: intuitionistic logic, kind: concept, wikipedia: Intuitionistic logic, wikidata: Q176786}
-  - {name: many-valued logic, kind: concept, wikipedia: Many-valued logic, wikidata: Q185502}
-  - {name: linear logic, kind: concept, wikipedia: Linear logic, wikidata: Q841728}
-  - {name: paraconsistent logic, kind: concept, wikipedia: Paraconsistent logic, wikidata: Q426592}
+  - {name: modal logic, kind: concept, wikipedia: Modal logic, wikidata: Q210841, node: C3RZY20ETK}
+  - {name: Kripke semantics, kind: definition, wikipedia: Kripke semantics, wikidata: Q2462350, node: NGHWZ9Y7ZV}
+  - {name: provability logic, kind: concept, wikipedia: Provability logic, wikidata: Q260168, node: WJK0YA4GP2}
+  - {name: intuitionistic logic, kind: concept, wikipedia: Intuitionistic logic, wikidata: Q176786, node: Q11N8X99FK}
+  - {name: many-valued logic, kind: concept, wikipedia: Many-valued logic, wikidata: Q185502, node: DWYCKAKXZD}
+  - {name: linear logic, kind: concept, wikipedia: Linear logic, wikidata: Q841728, node: 2P2184B6HE}
+  - {name: paraconsistent logic, kind: concept, wikipedia: Paraconsistent logic, wikidata: Q426592, node: C7YWCR87QJ}
   # Model theory: basic notions
-  - {name: model theory, kind: concept, wikipedia: Model theory, wikidata: Q467606}
-  - {name: structure, kind: definition, decl: FirstOrder.Language.Structure, wikipedia: Structure (mathematical logic), wikidata: Q1851710, mathlib: [mathlib-overview]}
-  - {name: theory, kind: definition, decl: FirstOrder.Language.Theory, wikipedia: Theory (mathematical logic), wikidata: Q10859910}
-  - {name: model, kind: definition, decl: FirstOrder.Language.Theory.Model, wikipedia: Structure (mathematical logic), wikidata: Q1851710}
-  - {name: substructure, kind: definition, decl: FirstOrder.Language.Substructure, wikipedia: Substructure (mathematics), wikidata: Q859254, mathlib: [mathlib-overview]}
-  - {name: elementary equivalence, kind: definition, decl: FirstOrder.Language.ElementarilyEquivalent, wikipedia: Elementary equivalence, wikidata: Q877149}
-  - {name: elementary substructure, kind: definition, decl: FirstOrder.Language.ElementarySubstructure, wikipedia: Elementary equivalence, wikidata: Q877149}
-  - {name: elementary embedding, kind: definition, decl: FirstOrder.Language.ElementaryEmbedding, wikipedia: Elementary equivalence, wikidata: Q877149, mathlib: [mathlib-overview]}
-  - {name: Tarski–Vaught test, kind: statement, wikipedia: Elementary equivalence, wikidata: Q877149}
-  - {name: complete theory, kind: definition, decl: FirstOrder.Language.Theory.IsComplete, wikipedia: Complete theory, wikidata: Q3508260}
-  - {name: definable set, kind: definition, decl: Set.Definable, wikipedia: Definable set, wikidata: Q2895824, mathlib: [mathlib-overview]}
-  - {name: ultraproduct, kind: definition, wikipedia: Ultraproduct, wikidata: Q1535225}
-  - {name: Łoś's theorem, kind: statement, decl: FirstOrder.Language.Ultraproduct.sentence_realize, wikipedia: Ultraproduct, wikidata: Q1535225, mathlib: [mathlib-1000]}
-  - {name: amalgamation property, kind: definition, wikipedia: Amalgamation property, wikidata: Q4739384}
-  - {name: Fraïssé limit, kind: definition, decl: FirstOrder.Language.IsFraisseLimit, wikipedia: Fraïssé limit, wikidata: Q85850626}
-  - {name: Rado graph, kind: object, wikipedia: Rado graph, wikidata: Q7281501}
+  - {name: model theory, kind: concept, wikipedia: Model theory, wikidata: Q467606, node: HFTBG5PMXC}
+  - {name: structure, kind: definition, decl: FirstOrder.Language.Structure, wikipedia: Structure (mathematical logic), wikidata: Q1851710, mathlib: [mathlib-overview], node: 983GZBQYT4}
+  - {name: theory, kind: definition, decl: FirstOrder.Language.Theory, wikipedia: Theory (mathematical logic), wikidata: Q10859910, node: 92SWXST1ZM}
+  - {name: model, kind: definition, decl: FirstOrder.Language.Theory.Model, wikipedia: Structure (mathematical logic), wikidata: Q1851710, node: MVCH6N9SNW}
+  - {name: substructure, kind: definition, decl: FirstOrder.Language.Substructure, wikipedia: Substructure (mathematics), wikidata: Q859254, mathlib: [mathlib-overview], node: 676H7EGTKJ}
+  - {name: elementary equivalence, kind: definition, decl: FirstOrder.Language.ElementarilyEquivalent, wikipedia: Elementary equivalence, wikidata: Q877149, node: P3B1V182N4}
+  - {name: elementary substructure, kind: definition, decl: FirstOrder.Language.ElementarySubstructure, wikipedia: Elementary equivalence, wikidata: Q877149, node: 8WZF9SBP39}
+  - {name: elementary embedding, kind: definition, decl: FirstOrder.Language.ElementaryEmbedding, wikipedia: Elementary equivalence, wikidata: Q877149, mathlib: [mathlib-overview], node: CGH8C8EA9N}
+  - {name: Tarski–Vaught test, kind: statement, wikipedia: Elementary equivalence, wikidata: Q877149, node: 60SA99BER7}
+  - {name: complete theory, kind: definition, decl: FirstOrder.Language.Theory.IsComplete, wikipedia: Complete theory, wikidata: Q3508260, node: 655K8Y7VS8}
+  - {name: definable set, kind: definition, decl: Set.Definable, wikipedia: Definable set, wikidata: Q2895824, mathlib: [mathlib-overview], node: CY1TXHF6KQ}
+  - {name: ultraproduct, kind: definition, wikipedia: Ultraproduct, wikidata: Q1535225, node: AX9Q86GB8M}
+  - {name: Łoś's theorem, kind: statement, decl: FirstOrder.Language.Ultraproduct.sentence_realize, wikipedia: Ultraproduct, wikidata: Q1535225, mathlib: [mathlib-1000], node: AGYBSTD7BG}
+  - {name: amalgamation property, kind: definition, wikipedia: Amalgamation property, wikidata: Q4739384, node: XSCSX39GEZ}
+  - {name: Fraïssé limit, kind: definition, decl: FirstOrder.Language.IsFraisseLimit, wikipedia: Fraïssé limit, wikidata: Q85850626, node: HJVRBDQSGG}
+  - {name: Rado graph, kind: object, wikipedia: Rado graph, wikidata: Q7281501, node: RMXR0FEF54}
   # Model theory: types, categoricity, stability
-  - {name: type, kind: definition, decl: FirstOrder.Language.Theory.CompleteType, wikipedia: Type (model theory), wikidata: Q834884}
-  - {name: saturated model, kind: definition, wikipedia: Saturated model, wikidata: Q1473532}
-  - {name: omitting types theorem, kind: statement, wikipedia: Type (model theory), wikidata: Q834884}
-  - {name: prime model, kind: definition, wikipedia: Prime model, wikidata: Q7243376}
-  - {name: categorical theory, kind: definition, wikipedia: Categorical theory, wikidata: Q15830473}
-  - {name: Łoś–Vaught test, kind: statement, wikipedia: Łoś–Vaught test, wikidata: Q25303635}
-  - {name: Ryll-Nardzewski theorem, kind: statement, wikipedia: Omega-categorical theory, wikidata: Q7089964}
-  - {name: Morley's categoricity theorem, kind: statement, wikipedia: Categorical theory, wikidata: Q15830473}
-  - {name: Vaught conjecture, kind: conjecture, wikipedia: Vaught conjecture, wikidata: Q7917378}
-  - {name: quantifier elimination, kind: definition, wikipedia: Quantifier elimination, wikidata: Q1849020}
-  - {name: model complete theory, kind: definition, wikipedia: Model complete theory, wikidata: Q6888319}
-  - {name: Tarski–Seidenberg theorem, kind: statement, wikipedia: Tarski–Seidenberg theorem, wikidata: Q16705451}
-  - {name: real closed field, kind: example, wikipedia: Real closed field, wikidata: Q2068227}
-  - {name: theory of algebraically closed fields, kind: example, decl: FirstOrder.Field.ACF_isComplete, wikipedia: Algebraically closed field, wikidata: Q1047547}
-  - {name: Lefschetz principle, kind: statement, decl: FirstOrder.Field.ACF_zero_realize_iff_infinite_ACF_prime_realize, wikipedia: Algebraically closed field, wikidata: Q1047547}
-  - {name: Ax–Grothendieck theorem, kind: statement, wikipedia: Ax–Grothendieck theorem, wikidata: Q4830725}
-  - {name: dense linear order, kind: example, decl: FirstOrder.Language.aleph0_categorical_dlo, wikipedia: Dense order, wikidata: Q194699}
-  - {name: Presburger arithmetic, kind: example, wikipedia: Presburger arithmetic, wikidata: Q956059}
-  - {name: stable theory, kind: definition, wikipedia: Stable theory, wikidata: Q7595779}
-  - {name: Morley rank, kind: definition, wikipedia: Morley rank, wikidata: Q6912570}
-  - {name: strongly minimal theory, kind: definition, wikipedia: Strongly minimal theory, wikidata: Q7624689}
-  - {name: o-minimal theory, kind: definition, wikipedia: O-minimal theory, wikidata: Q7072039}
-  - {name: NIP theory, kind: definition, wikipedia: NIP (model theory), wikidata: Q17144130}
-  - {name: finite model theory, kind: concept, wikipedia: Finite model theory, wikidata: Q5450405}
-  - {name: Fagin's theorem, kind: statement, wikipedia: Fagin's theorem, wikidata: Q2226670}
+  - {name: type, kind: definition, decl: FirstOrder.Language.Theory.CompleteType, wikipedia: Type (model theory), wikidata: Q834884, node: 9V71Q3SD1G}
+  - {name: saturated model, kind: definition, wikipedia: Saturated model, wikidata: Q1473532, node: RMTZ5J64FX}
+  - {name: omitting types theorem, kind: statement, wikipedia: Type (model theory), wikidata: Q834884, node: 7MFGBVDVG9}
+  - {name: prime model, kind: definition, wikipedia: Prime model, wikidata: Q7243376, node: S8W40PYNHX}
+  - {name: categorical theory, kind: definition, wikipedia: Categorical theory, wikidata: Q15830473, node: 1JJCGNX240}
+  - {name: Łoś–Vaught test, kind: statement, wikipedia: Łoś–Vaught test, wikidata: Q25303635, node: ZR7Y5C235P}
+  - {name: Ryll-Nardzewski theorem, kind: statement, wikipedia: Omega-categorical theory, wikidata: Q7089964, node: 1513J40TKA}
+  - {name: Morley's categoricity theorem, kind: statement, wikipedia: Categorical theory, wikidata: Q15830473, node: V7N84P60SJ}
+  - {name: Vaught conjecture, kind: conjecture, wikipedia: Vaught conjecture, wikidata: Q7917378, node: YVBHE2SEE6}
+  - {name: quantifier elimination, kind: definition, wikipedia: Quantifier elimination, wikidata: Q1849020, node: 7FDDXV3JK7}
+  - {name: model complete theory, kind: definition, wikipedia: Model complete theory, wikidata: Q6888319, node: YR6HCMABTE}
+  - {name: Tarski–Seidenberg theorem, kind: statement, wikipedia: Tarski–Seidenberg theorem, wikidata: Q16705451, node: 3W5JGDZAN0}
+  - {name: real closed field, kind: example, wikipedia: Real closed field, wikidata: Q2068227, node: DDY3Q3PJ6W}
+  - {name: theory of algebraically closed fields, kind: example, decl: FirstOrder.Field.ACF_isComplete, wikipedia: Algebraically closed field, wikidata: Q1047547, node: MT8TDVPBXB}
+  - {name: Lefschetz principle, kind: statement, decl: FirstOrder.Field.ACF_zero_realize_iff_infinite_ACF_prime_realize, wikipedia: Algebraically closed field, wikidata: Q1047547, node: SKTMN14X5P}
+  - {name: Ax–Grothendieck theorem, kind: statement, wikipedia: Ax–Grothendieck theorem, wikidata: Q4830725, node: M2XAN2HGZH}
+  - {name: dense linear order, kind: example, decl: FirstOrder.Language.aleph0_categorical_dlo, wikipedia: Dense order, wikidata: Q194699, node: 2W4S2H4VYA}
+  - {name: Presburger arithmetic, kind: example, wikipedia: Presburger arithmetic, wikidata: Q956059, node: B66JYY3K58}
+  - {name: stable theory, kind: definition, wikipedia: Stable theory, wikidata: Q7595779, node: T7JW5QY6KR}
+  - {name: Morley rank, kind: definition, wikipedia: Morley rank, wikidata: Q6912570, node: WN43DRPNBX}
+  - {name: strongly minimal theory, kind: definition, wikipedia: Strongly minimal theory, wikidata: Q7624689, node: PNGY60EBDJ}
+  - {name: o-minimal theory, kind: definition, wikipedia: O-minimal theory, wikidata: Q7072039, node: DTWHAW1N0V}
+  - {name: NIP theory, kind: definition, wikipedia: NIP (model theory), wikidata: Q17144130, node: 74VCDYQDGP}
+  - {name: finite model theory, kind: concept, wikipedia: Finite model theory, wikidata: Q5450405, node: 4XRVJE0KAN}
+  - {name: Fagin's theorem, kind: statement, wikipedia: Fagin's theorem, wikidata: Q2226670, node: BG8Q0BYSQ3}
   # Computability theory
-  - {name: computability theory, kind: concept, wikipedia: Computability theory, wikidata: Q818930}
-  - {name: Turing machine, kind: definition, decl: Turing.TM0.Machine, wikipedia: Turing machine, wikidata: Q163310, mathlib: [mathlib-overview]}
-  - {name: Church–Turing thesis, kind: concept, wikipedia: Church–Turing thesis, wikidata: Q309157}
-  - {name: primitive recursive function, kind: definition, decl: Nat.Primrec, wikipedia: Primitive recursive function, wikidata: Q1570472}
-  - {name: Ackermann function, kind: example, decl: ack, wikipedia: Ackermann function, wikidata: Q341835, mathlib: [mathlib-overview]}
-  - {name: Ackermann function is not primitive recursive, kind: statement, decl: not_primrec₂_ack, wikipedia: Ackermann function, wikidata: Q341835}
-  - {name: general recursive function, kind: definition, decl: Nat.Partrec, wikipedia: General recursive function, wikidata: Q284164}
-  - {name: computable function, kind: definition, decl: Computable, wikipedia: Computable function, wikidata: Q1148456, mathlib: [mathlib-overview]}
-  - {name: Kleene's T predicate, kind: definition, wikipedia: Kleene's T predicate, wikidata: Q6420085}
-  - {name: smn theorem, kind: statement, wikipedia: Smn theorem, wikidata: Q1766814}
-  - {name: universal Turing machine, kind: object, wikipedia: Universal Turing machine, wikidata: Q2703890}
-  - {name: Kleene's recursion theorem, kind: statement, decl: Nat.Partrec.Code.fixed_point₂, wikipedia: Kleene's recursion theorem, wikidata: Q1933521, mathlib: [mathlib-1000]}
+  - {name: computability theory, kind: concept, wikipedia: Computability theory, wikidata: Q818930, node: X14Y880PN5}
+  - {name: Turing machine, kind: definition, decl: Turing.TM0.Machine, wikipedia: Turing machine, wikidata: Q163310, mathlib: [mathlib-overview], node: 758EYCN27B}
+  - {name: Church–Turing thesis, kind: concept, wikipedia: Church–Turing thesis, wikidata: Q309157, node: RWRNBS3Z7B}
+  - {name: primitive recursive function, kind: definition, decl: Nat.Primrec, wikipedia: Primitive recursive function, wikidata: Q1570472, node: 5NVA2JRHPV}
+  - {name: Ackermann function, kind: example, decl: ack, wikipedia: Ackermann function, wikidata: Q341835, mathlib: [mathlib-overview], node: N470JF7ZJX}
+  - {name: Ackermann function is not primitive recursive, kind: statement, decl: not_primrec₂_ack, wikipedia: Ackermann function, wikidata: Q341835, node: 97QF3KHSBY}
+  - {name: general recursive function, kind: definition, decl: Nat.Partrec, wikipedia: General recursive function, wikidata: Q284164, node: HBK5QHC1GC}
+  - {name: computable function, kind: definition, decl: Computable, wikipedia: Computable function, wikidata: Q1148456, mathlib: [mathlib-overview], node: KZSB5E471K}
+  - {name: Kleene's T predicate, kind: definition, wikipedia: Kleene's T predicate, wikidata: Q6420085, node: S9DK13K5PS}
+  - {name: smn theorem, kind: statement, wikipedia: Smn theorem, wikidata: Q1766814, node: YWX4FCFPAP}
+  - {name: universal Turing machine, kind: object, wikipedia: Universal Turing machine, wikidata: Q2703890, node: TC69PEHAX7}
+  - {name: Kleene's recursion theorem, kind: statement, decl: Nat.Partrec.Code.fixed_point₂, wikipedia: Kleene's recursion theorem, wikidata: Q1933521, mathlib: [mathlib-1000], node: F3Z30M606H}
   - {name: halting problem, kind: statement, decl: ComputablePred.halting_problem, wikipedia: Halting problem, wikidata: Q622849, mathlib: [mathlib-overview]}
-  - {name: Rice's theorem, kind: statement, decl: ComputablePred.rice, wikipedia: Rice's theorem, wikidata: Q1893717, mathlib: [mathlib-overview, mathlib-1000]}
-  - {name: computable set, kind: definition, wikipedia: Computable set, wikidata: Q877945}
-  - {name: computably enumerable set, kind: definition, wikipedia: Computably enumerable set, wikidata: Q676835}
-  - {name: arithmetical hierarchy, kind: definition, wikipedia: Arithmetical hierarchy, wikidata: Q669094}
-  - {name: Post's theorem, kind: statement, wikipedia: Post's theorem, wikidata: Q3007384}
-  - {name: analytical hierarchy, kind: definition, wikipedia: Analytical hierarchy, wikidata: Q2878515}
-  - {name: hyperarithmetical theory, kind: concept, wikipedia: Hyperarithmetical theory, wikidata: Q17028365}
-  - {name: many-one reduction, kind: definition, decl: ManyOneReducible, wikipedia: Many-one reduction, wikidata: Q3300648}
-  - {name: Turing reduction, kind: definition, decl: TuringReducible, wikipedia: Turing reduction, wikidata: Q4489310}
-  - {name: oracle machine, kind: definition, wikipedia: Oracle machine, wikidata: Q1143357}
-  - {name: Turing degree, kind: definition, decl: TuringDegree, wikipedia: Turing degree, wikidata: Q1527413, mathlib: [mathlib-overview]}
-  - {name: Turing jump, kind: definition, wikipedia: Turing jump, wikidata: Q6128725}
-  - {name: Post's problem, kind: problem, wikipedia: Turing degree, wikidata: Q1527413}
-  - {name: Friedberg–Muchnik theorem, kind: statement, wikipedia: Friedberg–Muchnik theorem, wikidata: Q111982312}
-  - {name: priority method, kind: concept, wikipedia: Turing degree, wikidata: Q1527413}
-  - {name: Kolmogorov complexity, kind: definition, wikipedia: Kolmogorov complexity, wikidata: Q1456811}
-  - {name: algorithmic randomness, kind: concept, wikipedia: Algorithmically random sequence, wikidata: Q612552}
-  - {name: Hilbert's tenth problem, kind: statement, wikipedia: Hilbert's tenth problem, wikidata: Q986147}
-  - {name: word problem for groups, kind: problem, wikipedia: Word problem for groups, wikidata: Q8034369}
-  - {name: reverse mathematics, kind: concept, wikipedia: Reverse mathematics, wikidata: Q2005236}
-  - {name: lambda calculus, kind: concept, wikipedia: Lambda calculus, wikidata: Q242028}
+  - {name: Rice's theorem, kind: statement, decl: ComputablePred.rice, wikipedia: Rice's theorem, wikidata: Q1893717, mathlib: [mathlib-overview, mathlib-1000], node: AKDR5YBBE2}
+  - {name: computable set, kind: definition, wikipedia: Computable set, wikidata: Q877945, node: PPGD5KW8JC}
+  - {name: computably enumerable set, kind: definition, wikipedia: Computably enumerable set, wikidata: Q676835, node: TN9G24VABN}
+  - {name: arithmetical hierarchy, kind: definition, wikipedia: Arithmetical hierarchy, wikidata: Q669094, node: 7CVJCQKY41}
+  - {name: Post's theorem, kind: statement, wikipedia: Post's theorem, wikidata: Q3007384, node: NYJX5QXX1T}
+  - {name: analytical hierarchy, kind: definition, wikipedia: Analytical hierarchy, wikidata: Q2878515, node: M6JGF4TPM6}
+  - {name: hyperarithmetical theory, kind: concept, wikipedia: Hyperarithmetical theory, wikidata: Q17028365, node: NS1HWGTD8E}
+  - {name: many-one reduction, kind: definition, decl: ManyOneReducible, wikipedia: Many-one reduction, wikidata: Q3300648, node: JTAH37JTHD}
+  - {name: Turing reduction, kind: definition, decl: TuringReducible, wikipedia: Turing reduction, wikidata: Q4489310, node: PA4PYQ1PZ0}
+  - {name: oracle machine, kind: definition, wikipedia: Oracle machine, wikidata: Q1143357, node: Z5CCVBME2V}
+  - {name: Turing degree, kind: definition, decl: TuringDegree, wikipedia: Turing degree, wikidata: Q1527413, mathlib: [mathlib-overview], node: P5N2ND3VCG}
+  - {name: Turing jump, kind: definition, wikipedia: Turing jump, wikidata: Q6128725, node: 60P2XWY5QX}
+  - {name: Post's problem, kind: problem, wikipedia: Turing degree, wikidata: Q1527413, node: 1RVF7DWG8C}
+  - {name: Friedberg–Muchnik theorem, kind: statement, wikipedia: Friedberg–Muchnik theorem, wikidata: Q111982312, node: RA358M9QCN}
+  - {name: priority method, kind: concept, wikipedia: Turing degree, wikidata: Q1527413, node: 3BZFSC5QZ2}
+  - {name: Kolmogorov complexity, kind: definition, wikipedia: Kolmogorov complexity, wikidata: Q1456811, node: 8PY3K6NCKF}
+  - {name: algorithmic randomness, kind: concept, wikipedia: Algorithmically random sequence, wikidata: Q612552, node: KW3V44GPPC}
+  - {name: Hilbert's tenth problem, kind: statement, wikipedia: Hilbert's tenth problem, wikidata: Q986147, node: X8TVJSVTD4}
+  - {name: word problem for groups, kind: problem, wikipedia: Word problem for groups, wikidata: Q8034369, node: PBGTTAVMMT}
+  - {name: reverse mathematics, kind: concept, wikipedia: Reverse mathematics, wikidata: Q2005236, node: 7SQS69T17R}
+  - {name: lambda calculus, kind: concept, wikipedia: Lambda calculus, wikidata: Q242028, node: BD756KR8FM}
   # Arithmetic and incompleteness
   - {name: Peano axioms, kind: definition, wikipedia: Peano axioms, wikidata: Q842755, node: 0QFT7Z76N5}
-  - {name: Robinson arithmetic, kind: definition, wikipedia: Robinson arithmetic, wikidata: Q928884}
-  - {name: Gödel numbering, kind: definition, decl: Encodable, wikipedia: Gödel numbering, wikidata: Q1451046}
-  - {name: diagonal lemma, kind: statement, wikipedia: Diagonal lemma, wikidata: Q2904195}
-  - {name: Gödel's incompleteness theorems, kind: statement, wikipedia: Gödel's incompleteness theorems, wikidata: Q200787}
-  - {name: Tarski's undefinability theorem, kind: statement, wikipedia: Tarski's undefinability theorem, wikidata: Q574902}
-  - {name: Löb's theorem, kind: statement, wikipedia: Löb's theorem, wikidata: Q204884}
-  - {name: non-standard model of arithmetic, kind: example, wikipedia: Non-standard model of arithmetic, wikidata: Q3318130}
-  - {name: Tennenbaum's theorem, kind: statement, wikipedia: Tennenbaum's theorem, wikidata: Q2226803}
-  - {name: Paris–Harrington theorem, kind: statement, wikipedia: Paris–Harrington theorem, wikidata: Q7137494}
-  - {name: Goodstein's theorem, kind: statement, wikipedia: Goodstein's theorem, wikidata: Q1149185}
-  - {name: second-order arithmetic, kind: definition, wikipedia: Second-order arithmetic, wikidata: Q7442973}
+  - {name: Robinson arithmetic, kind: definition, wikipedia: Robinson arithmetic, wikidata: Q928884, node: 3K1AKGXF8A}
+  - {name: Gödel numbering, kind: definition, decl: Encodable, wikipedia: Gödel numbering, wikidata: Q1451046, node: MFJXPAF0R0}
+  - {name: diagonal lemma, kind: statement, wikipedia: Diagonal lemma, wikidata: Q2904195, node: 3PRW76471J}
+  - {name: Gödel's incompleteness theorems, kind: statement, wikipedia: Gödel's incompleteness theorems, wikidata: Q200787, node: X9WYNYE29C}
+  - {name: Tarski's undefinability theorem, kind: statement, wikipedia: Tarski's undefinability theorem, wikidata: Q574902, node: YRV6SYK2BY}
+  - {name: Löb's theorem, kind: statement, wikipedia: Löb's theorem, wikidata: Q204884, node: 3HD30YG3DG}
+  - {name: non-standard model of arithmetic, kind: example, wikipedia: Non-standard model of arithmetic, wikidata: Q3318130, node: 1QWN5CV4CG}
+  - {name: Tennenbaum's theorem, kind: statement, wikipedia: Tennenbaum's theorem, wikidata: Q2226803, node: W6D5ZJAY9D}
+  - {name: Paris–Harrington theorem, kind: statement, wikipedia: Paris–Harrington theorem, wikidata: Q7137494, node: 509ZWA0R26}
+  - {name: Goodstein's theorem, kind: statement, wikipedia: Goodstein's theorem, wikidata: Q1149185, node: XQMNJF241J}
+  - {name: second-order arithmetic, kind: definition, wikipedia: Second-order arithmetic, wikidata: Q7442973, node: DC60FYCSPM}
   # Proof theory
-  - {name: proof theory, kind: concept, wikipedia: Proof theory, wikidata: Q852732}
-  - {name: sequent calculus, kind: definition, wikipedia: Sequent calculus, wikidata: Q1771121}
-  - {name: cut-elimination theorem, kind: statement, wikipedia: Cut-elimination theorem, wikidata: Q376166}
-  - {name: Gentzen's consistency proof, kind: statement, wikipedia: Gentzen's consistency proof, wikidata: Q5533794}
-  - {name: ordinal analysis, kind: concept, wikipedia: Ordinal analysis, wikidata: Q7100782}
-  - {name: proof-theoretic ordinal, kind: definition, wikipedia: Ordinal analysis, wikidata: Q7100782}
-  - {name: epsilon nought, kind: object, wikipedia: Epsilon number, wikidata: Q1403155}
-  - {name: Dialectica interpretation, kind: definition, wikipedia: Dialectica interpretation, wikidata: Q5270518}
-  - {name: realizability, kind: definition, wikipedia: Realizability, wikidata: Q3454417}
-  - {name: Curry–Howard correspondence, kind: concept, wikipedia: Curry–Howard correspondence, wikidata: Q975734}
-  - {name: proof complexity, kind: concept, wikipedia: Proof complexity, wikidata: Q7249999}
+  - {name: proof theory, kind: concept, wikipedia: Proof theory, wikidata: Q852732, node: N4EDJNMTEF}
+  - {name: sequent calculus, kind: definition, wikipedia: Sequent calculus, wikidata: Q1771121, node: W72CA3R9MP}
+  - {name: cut-elimination theorem, kind: statement, wikipedia: Cut-elimination theorem, wikidata: Q376166, node: AYRZ98Y0NW}
+  - {name: Gentzen's consistency proof, kind: statement, wikipedia: Gentzen's consistency proof, wikidata: Q5533794, node: QPV0HNP22S}
+  - {name: ordinal analysis, kind: concept, wikipedia: Ordinal analysis, wikidata: Q7100782, node: C5E5TG8PGP}
+  - {name: proof-theoretic ordinal, kind: definition, wikipedia: Ordinal analysis, wikidata: Q7100782, node: C72RBH0CDR}
+  - {name: epsilon nought, kind: object, wikipedia: Epsilon number, wikidata: Q1403155, node: KT50SMH3EC}
+  - {name: Dialectica interpretation, kind: definition, wikipedia: Dialectica interpretation, wikidata: Q5270518, node: HZ17ES9PDY}
+  - {name: realizability, kind: definition, wikipedia: Realizability, wikidata: Q3454417, node: 4H35VQ16DC}
+  - {name: Curry–Howard correspondence, kind: concept, wikipedia: Curry–Howard correspondence, wikidata: Q975734, node: A77FER1Q5H}
+  - {name: proof complexity, kind: concept, wikipedia: Proof complexity, wikidata: Q7249999, node: 1Q046J0AW2}
   # Constructive mathematics
-  - {name: constructivism, kind: concept, wikipedia: Constructivism (philosophy of mathematics), wikidata: Q1137814}
-  - {name: Brouwer–Heyting–Kolmogorov interpretation, kind: definition, wikipedia: Brouwer–Heyting–Kolmogorov interpretation, wikidata: Q3153567}
-  - {name: Heyting arithmetic, kind: definition, wikipedia: Heyting arithmetic, wikidata: Q5548813}
-  - {name: double-negation translation, kind: definition, wikipedia: Double-negation translation, wikidata: Q5299605}
+  - {name: constructivism, kind: concept, wikipedia: Constructivism (philosophy of mathematics), wikidata: Q1137814, node: G958EQ8CWW}
+  - {name: Brouwer–Heyting–Kolmogorov interpretation, kind: definition, wikipedia: Brouwer–Heyting–Kolmogorov interpretation, wikidata: Q3153567, node: 7B53ZGXXEQ}
+  - {name: Heyting arithmetic, kind: definition, wikipedia: Heyting arithmetic, wikidata: Q5548813, node: CK8ZQRN183}
+  - {name: double-negation translation, kind: definition, wikipedia: Double-negation translation, wikidata: Q5299605, node: HGJVM49PA4}
   - {name: law of excluded middle, kind: statement, decl: Classical.em, wikipedia: Law of excluded middle, wikidata: Q468422, node: 0RYYK8PG4S}
-  - {name: constructive analysis, kind: concept, wikipedia: Constructive analysis, wikidata: Q2845197}
-  - {name: intuitionistic type theory, kind: concept, wikipedia: Intuitionistic type theory, wikidata: Q6059147}
-  - {name: homotopy type theory, kind: concept, wikipedia: Homotopy type theory, wikidata: Q5891840}
-  - {name: type theory, kind: concept, wikipedia: Type theory, wikidata: Q1056428}
+  - {name: constructive analysis, kind: concept, wikipedia: Constructive analysis, wikidata: Q2845197, node: HEB1VQW0DQ}
+  - {name: intuitionistic type theory, kind: concept, wikipedia: Intuitionistic type theory, wikidata: Q6059147, node: ESVYD9CZ8C}
+  - {name: homotopy type theory, kind: concept, wikipedia: Homotopy type theory, wikidata: Q5891840, node: EPAAKD80H9}
+  - {name: type theory, kind: concept, wikipedia: Type theory, wikidata: Q1056428, node: Q48KGV33AH}
   # Set theory: axioms and basics
-  - {name: set theory, kind: concept, wikipedia: Set theory, wikidata: Q12482}
-  - {name: naive set theory, kind: concept, wikipedia: Naive set theory, wikidata: Q903783}
+  - {name: set theory, kind: concept, wikipedia: Set theory, wikidata: Q12482, node: RTHHCX84HN}
+  - {name: naive set theory, kind: concept, wikipedia: Naive set theory, wikidata: Q903783, node: XGAMQBSE1G}
   - {name: Zermelo–Fraenkel set theory, kind: definition, decl: ZFSet, wikipedia: Zermelo–Fraenkel set theory, wikidata: Q191849, mathlib: [mathlib-overview], node: 0HE5WDQ9FJ}
-  - {name: axiom schema of replacement, kind: definition, wikipedia: Axiom schema of replacement, wikidata: Q1361825}
-  - {name: axiom of regularity, kind: definition, decl: ZFSet.regularity, wikipedia: Axiom of regularity, wikidata: Q470981}
+  - {name: axiom schema of replacement, kind: definition, wikipedia: Axiom schema of replacement, wikidata: Q1361825, node: D96K8S8R61}
+  - {name: axiom of regularity, kind: definition, decl: ZFSet.regularity, wikipedia: Axiom of regularity, wikidata: Q470981, node: NFQ9FVCP31}
   - {name: axiom of choice, kind: definition, decl: Classical.choice, wikipedia: Axiom of choice, wikidata: Q179692}
   - {name: Zorn's lemma, kind: statement, decl: zorn_le, wikipedia: Zorn's lemma, wikidata: Q290810, node: 04RXTQA5ZA}
   - {name: well-ordering theorem, kind: statement, wikipedia: Well-ordering theorem, wikidata: Q1457052, node: 0N109NG5ZX}
-  - {name: von Neumann–Bernays–Gödel set theory, kind: definition, wikipedia: Von Neumann–Bernays–Gödel set theory, wikidata: Q278770}
-  - {name: class, kind: definition, decl: Class, wikipedia: Class (set theory), wikidata: Q217594}
-  - {name: von Neumann universe, kind: object, wikipedia: Von Neumann universe, wikidata: Q77887}
-  - {name: Banach–Tarski paradox, kind: statement, wikipedia: Banach–Tarski paradox, wikidata: Q737851}
-  - {name: axiom of dependent choice, kind: definition, wikipedia: Axiom of dependent choice, wikidata: Q3303153}
-  - {name: Boolean prime ideal theorem, kind: statement, wikipedia: Boolean prime ideal theorem, wikidata: Q872088}
+  - {name: von Neumann–Bernays–Gödel set theory, kind: definition, wikipedia: Von Neumann–Bernays–Gödel set theory, wikidata: Q278770, node: JTPZ1HZ9KK}
+  - {name: class, kind: definition, decl: Class, wikipedia: Class (set theory), wikidata: Q217594, node: Y48FA69563}
+  - {name: von Neumann universe, kind: object, wikipedia: Von Neumann universe, wikidata: Q77887, node: 3SZADQXVZJ}
+  - {name: Banach–Tarski paradox, kind: statement, wikipedia: Banach–Tarski paradox, wikidata: Q737851, node: FH250K068Z}
+  - {name: axiom of dependent choice, kind: definition, wikipedia: Axiom of dependent choice, wikidata: Q3303153, node: WEMJBN339R}
+  - {name: Boolean prime ideal theorem, kind: statement, wikipedia: Boolean prime ideal theorem, wikidata: Q872088, node: STPBXBKSZP}
   # Ordinals and cardinals
   - {name: well-order, kind: definition, decl: IsWellOrder, wikipedia: Well-order, wikidata: Q659746, node: 01CGSJ0GNQ}
   - {name: well-founded relation, kind: definition, decl: WellFounded, wikipedia: Well-founded relation, wikidata: Q338021, node: 0DQPNJNPYK}
   - {name: transfinite induction, kind: statement, wikipedia: Transfinite induction, wikidata: Q840810, node: 0ZHQMQ2C1N}
   - {name: ordinal number, kind: definition, decl: Ordinal, wikipedia: Ordinal number, wikidata: Q191780, mathlib: [mathlib-overview], node: 0YSCSX5YZC}
-  - {name: ordinal arithmetic, kind: definition, wikipedia: Ordinal arithmetic, wikidata: Q1142215}
-  - {name: Cantor normal form, kind: statement, decl: Ordinal.CNF, wikipedia: Ordinal arithmetic, wikidata: Q1142215, mathlib: [mathlib-overview]}
-  - {name: normal function, kind: definition, wikipedia: Normal function, wikidata: Q7051810}
-  - {name: Veblen function, kind: definition, decl: Ordinal.veblen, wikipedia: Veblen function, wikidata: Q921930}
+  - {name: ordinal arithmetic, kind: definition, wikipedia: Ordinal arithmetic, wikidata: Q1142215, node: KAEDCQ8RM6}
+  - {name: Cantor normal form, kind: statement, decl: Ordinal.CNF, wikipedia: Ordinal arithmetic, wikidata: Q1142215, mathlib: [mathlib-overview], node: 6GD30FGYDZ}
+  - {name: normal function, kind: definition, wikipedia: Normal function, wikidata: Q7051810, node: ERTAM0SFVB}
+  - {name: Veblen function, kind: definition, decl: Ordinal.veblen, wikipedia: Veblen function, wikidata: Q921930, node: JQFAE9S2F4}
   - {name: cardinal number, kind: definition, decl: Cardinal, wikipedia: Cardinal number, wikidata: Q163875, mathlib: [mathlib-overview], node: 0EBACQFAZW}
   - {name: cardinality, kind: definition, wikipedia: Cardinality, wikidata: Q4049983, node: 0G0ASKNA6Z}
   - {name: countable set, kind: definition, decl: Set.Countable, wikipedia: Countable set, wikidata: Q66707394, node: 01TQB88H4C}
   - {name: Cantor's diagonal argument, kind: statement, wikipedia: Cantor's diagonal argument, wikidata: Q729471}
   - {name: Cantor's theorem, kind: statement, decl: Cardinal.cantor, wikipedia: Cantor's theorem, wikidata: Q474881, node: 0WTEMGYV2C}
   - {name: Schröder–Bernstein theorem, kind: statement, decl: Function.Embedding.schroeder_bernstein, wikipedia: Schröder–Bernstein theorem, wikidata: Q1033910, mathlib: [mathlib-100, mathlib-1000], node: 0A9V6RKQG6}
-  - {name: aleph number, kind: definition, decl: Cardinal.aleph, wikipedia: Aleph number, wikidata: Q908627, mathlib: [mathlib-overview]}
-  - {name: beth number, kind: definition, decl: Cardinal.beth, wikipedia: Beth number, wikidata: Q831092, mathlib: [mathlib-overview]}
+  - {name: aleph number, kind: definition, decl: Cardinal.aleph, wikipedia: Aleph number, wikidata: Q908627, mathlib: [mathlib-overview], node: 6Q9Z2BM1XR}
+  - {name: beth number, kind: definition, decl: Cardinal.beth, wikipedia: Beth number, wikidata: Q831092, mathlib: [mathlib-overview], node: SS6WMEN6KX}
   - {name: cardinality of the continuum, kind: definition, decl: Cardinal.continuum, wikipedia: Cardinality of the continuum, wikidata: Q22952648}
-  - {name: cofinality, kind: definition, decl: Ordinal.cof, wikipedia: Cofinality, wikidata: Q1283623}
-  - {name: regular cardinal, kind: definition, decl: Cardinal.IsRegular, wikipedia: Regular cardinal, wikidata: Q1193137}
+  - {name: cofinality, kind: definition, decl: Ordinal.cof, wikipedia: Cofinality, wikidata: Q1283623, node: BAWHE1W6MH}
+  - {name: regular cardinal, kind: definition, decl: Cardinal.IsRegular, wikipedia: Regular cardinal, wikidata: Q1193137, node: 13ZV2F8JAR}
   - {name: König's theorem, kind: statement, decl: Cardinal.sum_lt_prod, wikipedia: Kőnig's theorem (set theory), wikidata: Q1077462, mathlib: [mathlib-1000], node: 0JP0ZF57PN}
   - {name: continuum hypothesis, kind: problem, wikipedia: Continuum hypothesis, wikidata: Q208416}
-  - {name: Easton's theorem, kind: statement, wikipedia: Easton's theorem, wikidata: Q2226644}
+  - {name: Easton's theorem, kind: statement, wikipedia: Easton's theorem, wikidata: Q2226644, node: WQ967Q2XJD}
   - {name: singular cardinals hypothesis, kind: problem, wikipedia: Singular cardinals hypothesis, wikidata: Q2289367}
-  - {name: club set, kind: definition, wikipedia: Club set, wikidata: Q310647}
-  - {name: stationary set, kind: definition, wikipedia: Stationary set, wikidata: Q1528401}
-  - {name: Fodor's lemma, kind: statement, wikipedia: Fodor's lemma, wikidata: Q1119050}
+  - {name: club set, kind: definition, wikipedia: Club set, wikidata: Q310647, node: YW8YSCFPG5}
+  - {name: stationary set, kind: definition, wikipedia: Stationary set, wikidata: Q1528401, node: YE6WZR46RQ}
+  - {name: Fodor's lemma, kind: statement, wikipedia: Fodor's lemma, wikidata: Q1119050, node: 55W1M20Q3F}
   # Combinatorial set theory
-  - {name: Δ-system lemma, kind: statement, wikipedia: Sunflower (mathematics), wikidata: Q423986}
-  - {name: Erdős–Rado theorem, kind: statement, wikipedia: Erdős–Rado theorem, wikidata: Q1366581}
-  - {name: Suslin's problem, kind: problem, wikipedia: Suslin's problem, wikidata: Q2296408}
-  - {name: diamond principle, kind: definition, wikipedia: Diamond principle, wikidata: Q1734160}
-  - {name: Aronszajn tree, kind: object, wikipedia: Aronszajn tree, wikidata: Q1192020}
-  - {name: Martin's axiom, kind: definition, wikipedia: Martin's axiom, wikidata: Q622185}
-  - {name: proper forcing axiom, kind: definition, wikipedia: Proper forcing axiom, wikidata: Q749043}
-  - {name: cardinal characteristics of the continuum, kind: concept, wikipedia: Cardinal characteristic of the continuum, wikidata: Q17113204}
+  - {name: Δ-system lemma, kind: statement, wikipedia: Sunflower (mathematics), wikidata: Q423986, node: 9GKS3RBZ8V}
+  - {name: Erdős–Rado theorem, kind: statement, wikipedia: Erdős–Rado theorem, wikidata: Q1366581, node: S1BHE358VX}
+  - {name: Suslin's problem, kind: problem, wikipedia: Suslin's problem, wikidata: Q2296408, node: D1T39KHPDN}
+  - {name: diamond principle, kind: definition, wikipedia: Diamond principle, wikidata: Q1734160, node: HFQSSB1Z23}
+  - {name: Aronszajn tree, kind: object, wikipedia: Aronszajn tree, wikidata: Q1192020, node: KKT4JYJEJJ}
+  - {name: Martin's axiom, kind: definition, wikipedia: Martin's axiom, wikidata: Q622185, node: V8KGT8MRFE}
+  - {name: proper forcing axiom, kind: definition, wikipedia: Proper forcing axiom, wikidata: Q749043, node: 35XTXNEWQ9}
+  - {name: cardinal characteristics of the continuum, kind: concept, wikipedia: Cardinal characteristic of the continuum, wikidata: Q17113204, node: 66748CE93N}
   # Inner models and forcing
-  - {name: constructible universe, kind: object, wikipedia: Constructible universe, wikidata: Q2777107}
-  - {name: axiom of constructibility, kind: definition, wikipedia: Axiom of constructibility, wikidata: Q1151112}
-  - {name: inner model, kind: definition, wikipedia: Inner model, wikidata: Q6035663}
-  - {name: Gödel's consistency of CH and AC, kind: statement, wikipedia: Constructible universe, wikidata: Q2777107}
-  - {name: forcing, kind: concept, wikipedia: Forcing (mathematics), wikidata: Q1003136}
-  - {name: generic filter, kind: definition, wikipedia: Generic filter, wikidata: Q5532675}
-  - {name: Cohen's independence of CH, kind: statement, wikipedia: Forcing (mathematics), wikidata: Q1003136}
-  - {name: Boolean-valued model, kind: definition, wikipedia: Boolean-valued model, wikidata: Q4943349}
-  - {name: core model, kind: definition, wikipedia: Core model, wikidata: Q5170200}
-  - {name: zero sharp, kind: object, wikipedia: Zero sharp, wikidata: Q8069610}
-  - {name: Jensen's covering theorem, kind: statement, wikipedia: Jensen's covering theorem, wikidata: Q6179899}
+  - {name: constructible universe, kind: object, wikipedia: Constructible universe, wikidata: Q2777107, node: 6TF2JBTPPJ}
+  - {name: axiom of constructibility, kind: definition, wikipedia: Axiom of constructibility, wikidata: Q1151112, node: 4QKRPRCSXH}
+  - {name: inner model, kind: definition, wikipedia: Inner model, wikidata: Q6035663, node: G78W36EGMB}
+  - {name: Gödel's consistency of CH and AC, kind: statement, wikipedia: Constructible universe, wikidata: Q2777107, node: Q9176JRJ5M}
+  - {name: forcing, kind: concept, wikipedia: Forcing (mathematics), wikidata: Q1003136, node: F2DTWW9HP7}
+  - {name: generic filter, kind: definition, wikipedia: Generic filter, wikidata: Q5532675, node: WEDP73Y7GK}
+  - {name: Cohen's independence of CH, kind: statement, wikipedia: Forcing (mathematics), wikidata: Q1003136, node: EMGBZ46GCD}
+  - {name: Boolean-valued model, kind: definition, wikipedia: Boolean-valued model, wikidata: Q4943349, node: FVMNKJ3DT8}
+  - {name: core model, kind: definition, wikipedia: Core model, wikidata: Q5170200, node: A6ZJ8MSCAY}
+  - {name: zero sharp, kind: object, wikipedia: Zero sharp, wikidata: Q8069610, node: HCTNBZZQ0W}
+  - {name: Jensen's covering theorem, kind: statement, wikipedia: Jensen's covering theorem, wikidata: Q6179899, node: RJE1W5NRE3}
   # Large cardinals
-  - {name: large cardinal, kind: concept, wikipedia: Large cardinal, wikidata: Q1548262}
-  - {name: inaccessible cardinal, kind: definition, decl: Cardinal.IsInaccessible, wikipedia: Inaccessible cardinal, wikidata: Q1331373}
-  - {name: Mahlo cardinal, kind: definition, wikipedia: Mahlo cardinal, wikidata: Q3277546}
-  - {name: weakly compact cardinal, kind: definition, wikipedia: Weakly compact cardinal, wikidata: Q2905392}
-  - {name: measurable cardinal, kind: definition, wikipedia: Measurable cardinal, wikidata: Q925445}
-  - {name: Woodin cardinal, kind: definition, wikipedia: Woodin cardinal, wikidata: Q2548234}
-  - {name: supercompact cardinal, kind: definition, wikipedia: Supercompact cardinal, wikidata: Q7643154}
-  - {name: Kunen's inconsistency theorem, kind: statement, wikipedia: Kunen's inconsistency theorem, wikidata: Q6444407}
-  - {name: Grothendieck universe, kind: definition, decl: Cardinal.univ, wikipedia: Grothendieck universe, wikidata: Q1465090}
+  - {name: large cardinal, kind: concept, wikipedia: Large cardinal, wikidata: Q1548262, node: X1FG7PSCTY}
+  - {name: inaccessible cardinal, kind: definition, decl: Cardinal.IsInaccessible, wikipedia: Inaccessible cardinal, wikidata: Q1331373, node: NW4DREQ5DQ}
+  - {name: Mahlo cardinal, kind: definition, wikipedia: Mahlo cardinal, wikidata: Q3277546, node: CJFEPPP9KA}
+  - {name: weakly compact cardinal, kind: definition, wikipedia: Weakly compact cardinal, wikidata: Q2905392, node: 1RHTVMH34G}
+  - {name: measurable cardinal, kind: definition, wikipedia: Measurable cardinal, wikidata: Q925445, node: AKBWT323RQ}
+  - {name: Woodin cardinal, kind: definition, wikipedia: Woodin cardinal, wikidata: Q2548234, node: CMC2C1D53W}
+  - {name: supercompact cardinal, kind: definition, wikipedia: Supercompact cardinal, wikidata: Q7643154, node: 91GE4C1BC5}
+  - {name: Kunen's inconsistency theorem, kind: statement, wikipedia: Kunen's inconsistency theorem, wikidata: Q6444407, node: 7DEZD5TWT5}
+  - {name: Grothendieck universe, kind: definition, decl: Cardinal.univ, wikipedia: Grothendieck universe, wikidata: Q1465090, node: SMMK9E0MTM}
   # Descriptive set theory
-  - {name: descriptive set theory, kind: concept, wikipedia: Descriptive set theory, wikidata: Q225869}
-  - {name: Polish space, kind: definition, wikipedia: Polish space, wikidata: Q1207972}
-  - {name: Borel hierarchy, kind: definition, wikipedia: Borel hierarchy, wikidata: Q893487}
-  - {name: analytic set, kind: definition, wikipedia: Analytic set, wikidata: Q485312}
-  - {name: projective hierarchy, kind: definition, wikipedia: Projective hierarchy, wikidata: Q219448}
-  - {name: perfect set property, kind: definition, wikipedia: Perfect set property, wikidata: Q7168098}
-  - {name: Baire property, kind: definition, wikipedia: Property of Baire, wikidata: Q803931}
-  - {name: Suslin's theorem, kind: statement, wikipedia: Analytic set, wikidata: Q485312}
-  - {name: determinacy, kind: concept, wikipedia: Determinacy, wikidata: Q1201165}
-  - {name: Borel determinacy theorem, kind: statement, wikipedia: Borel determinacy theorem, wikidata: Q4944906}
-  - {name: axiom of determinacy, kind: definition, wikipedia: Axiom of determinacy, wikidata: Q4830558}
-  - {name: projective determinacy, kind: definition, wikipedia: Projective determinacy, wikidata: Q4830557}
+  - {name: descriptive set theory, kind: concept, wikipedia: Descriptive set theory, wikidata: Q225869, node: TF8HMVXKYC}
+  - {name: Polish space, kind: definition, wikipedia: Polish space, wikidata: Q1207972, node: 584GXXY73M}
+  - {name: Borel hierarchy, kind: definition, wikipedia: Borel hierarchy, wikidata: Q893487, node: 4P4Z4ZGXCY}
+  - {name: analytic set, kind: definition, wikipedia: Analytic set, wikidata: Q485312, node: 3RWWZYPAFV}
+  - {name: projective hierarchy, kind: definition, wikipedia: Projective hierarchy, wikidata: Q219448, node: 8DZTNVTGY2}
+  - {name: perfect set property, kind: definition, wikipedia: Perfect set property, wikidata: Q7168098, node: H47ZGRR13V}
+  - {name: Baire property, kind: definition, wikipedia: Property of Baire, wikidata: Q803931, node: FZ7237VY65}
+  - {name: Suslin's theorem, kind: statement, wikipedia: Analytic set, wikidata: Q485312, node: 9418TGREZX}
+  - {name: determinacy, kind: concept, wikipedia: Determinacy, wikidata: Q1201165, node: QXECDPAYTN}
+  - {name: Borel determinacy theorem, kind: statement, wikipedia: Borel determinacy theorem, wikidata: Q4944906, node: 8FVWYEZWTK}
+  - {name: axiom of determinacy, kind: definition, wikipedia: Axiom of determinacy, wikidata: Q4830558, node: PEXTM3MJ5Z}
+  - {name: projective determinacy, kind: definition, wikipedia: Projective determinacy, wikidata: Q4830557, node: 2GY3131ZPS}
   # Algebraic logic
-  - {name: algebraic logic, kind: concept, wikipedia: Algebraic logic, wikidata: Q1005222}
-  - {name: Lindenbaum–Tarski algebra, kind: definition, wikipedia: Lindenbaum–Tarski algebra, wikidata: Q841805}
-  - {name: Heyting algebra, kind: definition, decl: HeytingAlgebra, wikipedia: Heyting algebra, wikidata: Q1617044}
-  - {name: cylindric algebra, kind: definition, wikipedia: Cylindric algebra, wikidata: Q5199278}
-  - {name: relation algebra, kind: definition, wikipedia: Relation algebra, wikidata: Q5965969}
-  - {name: MV-algebra, kind: definition, wikipedia: MV-algebra, wikidata: Q6719122}
+  - {name: algebraic logic, kind: concept, wikipedia: Algebraic logic, wikidata: Q1005222, node: Z3DE4R4RET}
+  - {name: Lindenbaum–Tarski algebra, kind: definition, wikipedia: Lindenbaum–Tarski algebra, wikidata: Q841805, node: QC9M3Q8B8Q}
+  - {name: Heyting algebra, kind: definition, decl: HeytingAlgebra, wikipedia: Heyting algebra, wikidata: Q1617044, node: NG943XNQWH}
+  - {name: cylindric algebra, kind: definition, wikipedia: Cylindric algebra, wikidata: Q5199278, node: 1MDT9BF81H}
+  - {name: relation algebra, kind: definition, wikipedia: Relation algebra, wikidata: Q5965969, node: GQK4DSA11K}
+  - {name: MV-algebra, kind: definition, wikipedia: MV-algebra, wikidata: Q6719122, node: 8T4M7RN9AC}
   # Nonstandard models and analysis
-  - {name: nonstandard analysis, kind: concept, wikipedia: Nonstandard analysis, wikidata: Q1503766}
-  - {name: hyperreal number, kind: definition, decl: Hyperreal, wikipedia: Hyperreal number, wikidata: Q5958543, mathlib: [mathlib-overview]}
-  - {name: transfer principle, kind: statement, wikipedia: Transfer principle, wikidata: Q17157202}
-  - {name: standard part function, kind: definition, wikipedia: Standard part function, wikidata: Q4439341}
-  - {name: internal set theory, kind: concept, wikipedia: Internal set theory, wikidata: Q1666284}
+  - {name: nonstandard analysis, kind: concept, wikipedia: Nonstandard analysis, wikidata: Q1503766, node: WM62GKCBWN}
+  - {name: hyperreal number, kind: definition, decl: Hyperreal, wikipedia: Hyperreal number, wikidata: Q5958543, mathlib: [mathlib-overview], node: 421QMTFG9T}
+  - {name: transfer principle, kind: statement, wikipedia: Transfer principle, wikidata: Q17157202, node: 3RT74FQYG1}
+  - {name: standard part function, kind: definition, wikipedia: Standard part function, wikidata: Q4439341, node: 1ZBY4W4E81}
+  - {name: internal set theory, kind: concept, wikipedia: Internal set theory, wikidata: Q1666284, node: V0PGBXYJ9R}

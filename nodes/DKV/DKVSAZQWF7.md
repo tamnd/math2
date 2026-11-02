@@ -13,7 +13,7 @@ same_as:
 ## Summary
 
 Clifford analysis extends complex analysis to $\R^n$ by letting functions take values in a [[Clifford algebra|A38B1QFK20]].
-Its central objects are the [[monogenic functions|646PNPT1R6]], the functions annihilated by a Dirac operator.
+Its central objects are the [[monogenic functions|646PNPT1R6]], the functions annihilated by a [[Dirac operator|3DXGJTEQZH]].
 The square of the Dirac operator is the Laplacian up to sign.
 So the theory refines harmonic analysis, as holomorphic functions refine harmonic functions in the plane.
 It has a Cauchy integral formula, Taylor and Laurent series, and links to singular integrals, spin geometry and representation theory.

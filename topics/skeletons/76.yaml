@@ -110,7 +110,7 @@ items:
   - {name: Purcell's scallop theorem, kind: statement, wikipedia: Scallop theorem, wikidata: Q7429791}
   - {name: lubrication theory, kind: concept, wikipedia: Lubrication theory, wikidata: Q2858941}
   - {name: Reynolds equation, kind: definition, wikipedia: Reynolds equation, wikidata: Q7319639}
-  - {name: boundary layer, kind: concept, wikipedia: Boundary layer, wikidata: Q752193}
+  - {name: boundary layer, kind: concept, wikipedia: Boundary layer, wikidata: Q752193, node: YCFPD0GE5G}
   - {name: Prandtl boundary layer equations, kind: definition, wikipedia: Boundary layer, wikidata: Q752193}
   - {name: Blasius boundary layer, kind: example, wikipedia: Blasius boundary layer, wikidata: Q4925317}
   - {name: Falkner–Skan boundary layer, kind: example, wikipedia: Falkner–Skan boundary layer, wikidata: Q30715267}

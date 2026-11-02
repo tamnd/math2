@@ -12,7 +12,7 @@ sources:
 Group homology attaches to a [[group|G5S1M9]] $G$ and a $G$-module $M$ a sequence of abelian groups $H_n(G, M)$, for $n \ge 0$.
 It is defined with the [[Tor functors|DDQRERAQCV]] over the group ring $\Z[G]$, and it is dual to group cohomology.
 In low degrees it has concrete meaning: $H_1(G, \Z)$ is the abelianization of $G$, and $H_2(G, \Z)$ is given by [[Hopf's formula|S31M1ZYJRK]].
-Topologically, $H_n(G, \Z)$ is the singular homology of a [[classifying space|WA796ZCNRX]] of $G$.
+Topologically, $H_n(G, \Z)$ is the [[singular homology|M0Q5CFJ7ZH]] of a [[classifying space|WA796ZCNRX]] of $G$.
 
 ## Explanations
 

@@ -16,7 +16,7 @@ same_as:
 ## Statement
 
 Let $S$ be a [[separable|0Z2P41SVDP]] [[metric space|0VKD1TP7F3]] with its Borel σ-algebra.
-Let $\mu, \mu_1, \mu_2, \dots$ be [[probability measures|059TJN0NZ1]] on $S$ such that $\mu_n$ converges weakly to $\mu$.
+Let $\mu, \mu_1, \mu_2, \dots$ be [[probability measures|059TJN0NZ1]] on $S$ such that $\mu_n$ [[converges weakly|MBW9JCGZC1]] to $\mu$.
 Then there are a probability space $(\Omega, \mathcal{F}, P)$ and random variables $X, X_1, X_2, \dots$ on it with values in $S$ with the following properties.
 The variable $X$ has law $\mu$, each $X_n$ has law $\mu_n$, and $X_n \to X$ [[almost surely|0AAXWGT5TD]].
 

@@ -16,7 +16,7 @@ items:
   - {name: admissible function, kind: definition, wikipedia: Calculus of variations, wikidata: Q216861}
   - {name: weak and strong extremum, kind: definition, wikipedia: Calculus of variations, wikidata: Q216861}
   - {name: first variation, kind: definition, wikipedia: First variation, wikidata: Q1362077}
-  - {name: Gateaux derivative, kind: definition, wikipedia: Gateaux derivative, wikidata: Q919459}
+  - {name: Gateaux derivative, kind: definition, wikipedia: Gateaux derivative, wikidata: Q919459, node: EAZF9NJW12}
   - {name: Fréchet derivative, kind: definition, decl: HasFDerivAt, wikipedia: Fréchet derivative, wikidata: Q1305350, mathlib: [mathlib-overview], node: 06EH97V2A7}
   - {name: Fermat's theorem on stationary points, kind: statement, decl: IsLocalMin.hasFDerivAt_eq_zero, wikipedia: Interior extremum theorem, wikidata: Q727102, node: 0PCVBRV9VJ}
   - {name: fundamental lemma of the calculus of variations, kind: statement, decl: ae_eq_zero_of_integral_contDiff_smul_eq_zero, wikipedia: Fundamental lemma of the calculus of variations, wikidata: Q2474925}
@@ -69,12 +69,12 @@ items:
   - {name: Morrey's lower semicontinuity theorem, kind: statement, wikipedia: Quasiconvexity (calculus of variations), wikidata: Q113635253}
   - {name: Ball's existence theorem in nonlinear elasticity, kind: statement, wikipedia: Polyconvex function, wikidata: Q7226241}
   - {name: relaxation of a variational problem, kind: concept, wikipedia: Relaxation (approximation), wikidata: Q646590}
-  - {name: Young measure, kind: definition, wikipedia: Young measure, wikidata: Q8058552}
+  - {name: Young measure, kind: definition, wikipedia: Young measure, wikidata: Q8058552, node: 6TQSVJQDEH}
   - {name: Dirichlet energy, kind: definition, wikipedia: Dirichlet energy, wikidata: Q5280760}
   - {name: Weierstrass's counterexample to the Dirichlet principle, kind: counterexample, wikipedia: Dirichlet's principle, wikidata: Q975727}
   - {name: regularity of minimizers, kind: concept, wikipedia: Hilbert's nineteenth problem, wikidata: Q5761157}
-  - {name: Ekeland's variational principle, kind: statement, wikipedia: Ekeland's variational principle, wikidata: Q1945203}
-  - {name: Caristi fixed-point theorem, kind: statement, wikipedia: Caristi fixed-point theorem, wikidata: Q2287393}
+  - {name: Ekeland's variational principle, kind: statement, wikipedia: Ekeland's variational principle, wikidata: Q1945203, node: MJGPW5EVB3}
+  - {name: Caristi fixed-point theorem, kind: statement, wikipedia: Caristi fixed-point theorem, wikidata: Q2287393, node: NXCM67XY9E}
   # Gamma-convergence and homogenization
   - {name: Γ-convergence, kind: definition, wikipedia: Γ-convergence, wikidata: Q278549}
   - {name: fundamental theorem of Γ-convergence, kind: statement, wikipedia: Γ-convergence, wikidata: Q278549}
@@ -84,7 +84,7 @@ items:
   - {name: Mumford–Shah functional, kind: example, wikipedia: Mumford–Shah functional, wikidata: Q17144601}
   - {name: total variation denoising, kind: example, wikipedia: Total variation denoising, wikidata: Q7828156}
   # Variational inequalities
-  - {name: variational inequality, kind: problem, wikipedia: Variational inequality, wikidata: Q4556320}
+  - {name: variational inequality, kind: problem, wikipedia: Variational inequality, wikidata: Q4556320, node: 6QS7X5GVMY}
   - {name: Lions–Stampacchia theorem, kind: statement, wikipedia: Variational inequality, wikidata: Q4556320}
   - {name: Signorini problem, kind: problem, wikipedia: Signorini problem, wikidata: Q7513012}
   - {name: Stefan problem as a variational inequality, kind: example, wikipedia: Stefan problem, wikidata: Q3775789}
@@ -105,7 +105,7 @@ items:
   - {name: maximum theorem, kind: statement, wikipedia: Maximum theorem, wikidata: Q6795920}
   # Optimal control: formulation and existence
   - {name: optimal control, kind: concept, wikipedia: Optimal control, wikidata: Q1971426}
-  - {name: control system, kind: definition, wikipedia: Control theory, wikidata: Q6501221}
+  - {name: control system, kind: definition, wikipedia: Control theory, wikidata: Q6501221, node: ZPDTVZQN5K}
   - {name: admissible control, kind: definition, wikipedia: Optimal control, wikidata: Q1971426}
   - {name: Bolza problem, kind: problem, wikipedia: Optimal control, wikidata: Q1971426}
   - {name: Mayer and Lagrange problems, kind: problem, wikipedia: Optimal control, wikidata: Q1971426}
@@ -117,7 +117,7 @@ items:
   - {name: shape derivative, kind: definition, wikipedia: Shape optimization, wikidata: Q7489239}
   - {name: topology optimization, kind: problem, wikipedia: Topology optimization, wikidata: Q2443456}
   # Optimality conditions in control
-  - {name: Pontryagin's maximum principle, kind: statement, wikipedia: Pontryagin's maximum principle, wikidata: Q3491629}
+  - {name: Pontryagin's maximum principle, kind: statement, wikipedia: Pontryagin's maximum principle, wikidata: Q3491629, node: 7RPV2T29CF}
   - {name: Hamiltonian of an optimal control problem, kind: definition, wikipedia: Hamiltonian (control theory), wikidata: Q5645293}
   - {name: costate equation, kind: definition, wikipedia: Costate equation, wikidata: Q5175070}
   - {name: bang-bang control, kind: concept, wikipedia: Bang–bang control, wikidata: Q1432859}
@@ -133,7 +133,7 @@ items:
   # Dynamic programming and Hamilton-Jacobi theory
   - {name: value function, kind: definition, wikipedia: Value function, wikidata: Q65929180}
   - {name: dynamic programming in continuous time, kind: concept, wikipedia: Dynamic programming, wikidata: Q380679}
-  - {name: Hamilton–Jacobi–Bellman equation, kind: definition, wikipedia: Hamilton–Jacobi–Bellman equation, wikidata: Q3302775}
+  - {name: Hamilton–Jacobi–Bellman equation, kind: definition, wikipedia: Hamilton–Jacobi–Bellman equation, wikidata: Q3302775, node: SJP9HW82VX}
   - {name: verification theorem, kind: statement, wikipedia: Hamilton–Jacobi–Bellman equation, wikidata: Q3302775}
   - {name: Hamilton–Jacobi theory of the calculus of variations, kind: concept, wikipedia: Hamilton–Jacobi equation, wikidata: Q1060137}
   - {name: viscosity solution of the Hamilton–Jacobi–Bellman equation, kind: statement, wikipedia: Viscosity solution, wikidata: Q7935676}
@@ -163,7 +163,7 @@ items:
   - {name: Pólya's conjecture on Laplacian eigenvalues, kind: conjecture, wikipedia: Weyl law, wikidata: Q7990330}
   # Geometric measure theory and optimization on manifolds
   - {name: geometric measure theory, kind: concept, wikipedia: Geometric measure theory, wikidata: Q3526918}
-  - {name: rectifiable set, kind: definition, wikipedia: Rectifiable set, wikidata: Q3038340}
+  - {name: rectifiable set, kind: definition, wikipedia: Rectifiable set, wikidata: Q3038340, node: 7N0GFMW05R}
   - {name: integral current, kind: definition, wikipedia: Current (mathematics), wikidata: Q3001145}
   - {name: flat norm, kind: definition, wikipedia: Current (mathematics), wikidata: Q3001145}
   - {name: Federer–Fleming compactness theorem, kind: statement, wikipedia: Current (mathematics), wikidata: Q3001145}
@@ -171,7 +171,7 @@ items:
   - {name: Caccioppoli set, kind: definition, wikipedia: Caccioppoli set, wikidata: Q17004137}
   - {name: perimeter of a set, kind: definition, wikipedia: Caccioppoli set, wikidata: Q17004137}
   - {name: De Giorgi's structure theorem, kind: statement, wikipedia: Caccioppoli set, wikidata: Q17004137}
-  - {name: coarea formula, kind: statement, wikipedia: Coarea formula, wikidata: Q2591257}
+  - {name: coarea formula, kind: statement, wikipedia: Coarea formula, wikidata: Q2591257, node: QK55379SXW}
   - {name: Allard regularity theorem, kind: statement, wikipedia: Varifold, wikidata: Q7915890}
   - {name: Almgren's regularity theorem, kind: statement, wikipedia: Almgren regularity theorem, wikidata: Q4733800}
   - {name: Simons cone, kind: example, wikipedia: Simons cone, wikidata: Q133933787}

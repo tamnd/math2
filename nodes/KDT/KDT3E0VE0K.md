@@ -36,4 +36,4 @@ This reduces many questions about such functions to [[monotone functions|0WFF6AZ
 With the decomposition, results about monotone functions pass to functions of bounded variation.
 By [[Lebesgue's theorem on monotone functions|1Y4N1DDQNR]], a function of bounded variation is differentiable almost everywhere.
 It also has one-sided limits at every point and at most countably many discontinuities.
-The theorem is the one-variable model of the Jordan decomposition of a signed measure.
+The theorem is the one-variable model of the [[Jordan decomposition of a signed measure|WAGJVK2NWE]].

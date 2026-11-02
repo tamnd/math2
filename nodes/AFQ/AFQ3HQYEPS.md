@@ -22,7 +22,7 @@ A point $x \in X$ is a *ramification point* of $f$ if $f$ is not injective on an
 ## Remarks
 
 Every branched covering $f$ is surjective, and its ramification points form a closed discrete set $R \subseteq X$.
-There is an integer $d \ge 1$, the degree, such that $f$ restricts to a $d$-sheeted covering map from $X \setminus f^{-1}(f(R))$ onto $Y \setminus f(R)$.
+There is an integer $d \ge 1$, the degree, such that $f$ restricts to a $d$-sheeted [[covering map|3XZRRE165N]] from $X \setminus f^{-1}(f(R))$ onto $Y \setminus f(R)$.
 Every fibre has exactly $d$ points when counted with multiplicity, where the multiplicity at $x$ is the $k$ such that $f$ looks like $z \mapsto z^k$ near $x$ in suitable charts.
 If $X$ is compact, every non-constant holomorphic map $X \to Y$ is a branched covering.
 In topology, a branched covering of surfaces is defined in the same way with continuous maps that look locally like $z \mapsto z^k$.

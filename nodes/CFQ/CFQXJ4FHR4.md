@@ -23,7 +23,7 @@ The *finite-dimensional distributions* of $X$ are the family of all these measur
 
 The family is consistent.
 Permuting the times permutes the coordinates of the measure, and $\mu_{t_1, \dots, t_k}(B \times S) = \mu_{t_1, \dots, t_{k-1}}(B)$.
-Conversely, for $S$ a Polish space, the Kolmogorov extension theorem gives a process with any prescribed consistent family.
+Conversely, for $S$ a Polish space, the [[Kolmogorov extension theorem|WR4X7MMTH2]] gives a process with any prescribed consistent family.
 
 Example: for the standard [[Wiener process|22735FGJV6]] $W$ on $T = [0, \infty)$, the law of $(W_{t_1}, \dots, W_{t_k})$ is the [[multivariate normal distribution|0XN3K7RSZY]] with mean $0$ and covariance matrix $(\min(t_i, t_j))_{i, j}$.
 

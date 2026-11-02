@@ -14,7 +14,7 @@ sources:
 Let $\mathbb{D}$ be the open [[unit disc|8G5ABXRK85]] and $\mathbb{T}$ the unit circle.
 For an arc $I \subseteq \mathbb{T}$ of length $\ell(I)$, the *Carleson box* over $I$ is
 $$S(I) = \set{r \zeta : \zeta \in I, \ 1 - \ell(I) \le r < 1}.$$
-A positive Borel measure $\mu$ on $\mathbb{D}$ is a *Carleson measure* if there is a constant $C$ such that
+A positive [[Borel measure|DYR1QFNGNJ]] $\mu$ on $\mathbb{D}$ is a *Carleson measure* if there is a constant $C$ such that
 $$\mu(S(I)) \le C \, \ell(I) \quad \text{for every arc } I \subseteq \mathbb{T}.$$
 
 ## Remarks

@@ -22,7 +22,7 @@ Removing $0_b$ leaves an open set homeomorphic to $\R$, and the same holds for $
 Every [[neighbourhood|0ZCY0Z80B6]] of $0_a$ contains the image of $(-\varepsilon, 0) \cup (0, \varepsilon)$ for some $\varepsilon > 0$, and so does every neighbourhood of $0_b$.
 So any neighbourhood of $0_a$ meets any neighbourhood of $0_b$, and the two origins cannot be separated.
 For the same reason the sequence of classes of $1/n$ [[converges|0W4CN9E2W5]] to both $0_a$ and $0_b$, so limits of sequences are not unique.
-This is why the usual definition of a topological manifold requires the Hausdorff condition: without it, this space would count as a $1$-manifold.
+This is why the usual definition of a [[topological manifold|QQQ9B1DK4P]] requires the Hausdorff condition: without it, this space would count as a $1$-manifold.
 
 ## Explanations
 

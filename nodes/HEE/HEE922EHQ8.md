@@ -16,7 +16,7 @@ same_as:
 A [[group|G5S1M9]] is residually finite if every element other than the identity survives in some finite quotient.
 So the group can be studied through its finite images, which separate all its elements.
 [[Free groups|0KTW26C80J]], finitely generated abelian groups and finitely generated subgroups of $GL(n, \C)$ are residually finite.
-A finitely generated residually finite group is [[Hopfian|PHEN4E1JPT]], and a finitely presented residually finite group has solvable word problem.
+A finitely generated residually finite group is [[Hopfian|PHEN4E1JPT]], and a finitely presented residually finite group has solvable [[word problem|PBGTTAVMMT]].
 
 ## Explanations
 

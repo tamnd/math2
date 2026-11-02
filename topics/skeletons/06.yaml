@@ -191,7 +191,7 @@ items:
   - {name: Priestley duality, kind: statement, wikipedia: Duality theory for distributive lattices, wikidata: Q5310267}
   - {name: spectral space, kind: definition, wikipedia: Spectral space, wikidata: Q7575210}
   - {name: median algebra, kind: definition, wikipedia: Median algebra, wikidata: Q6806108}
-  - {name: Heyting algebra, kind: definition, decl: HeytingAlgebra, wikipedia: Heyting algebra, wikidata: Q1617044}
+  - {name: Heyting algebra, kind: definition, decl: HeytingAlgebra, wikipedia: Heyting algebra, wikidata: Q1617044, node: NG943XNQWH}
   - {name: co-Heyting algebra, kind: definition, decl: CoheytingAlgebra, wikipedia: Heyting algebra, wikidata: Q1617044}
   - {name: Esakia space, kind: definition, wikipedia: Esakia space, wikidata: Q5396698}
   - {name: Esakia duality, kind: statement, wikipedia: Esakia duality, wikidata: Q5396694}
@@ -224,7 +224,7 @@ items:
   - {name: generalized Boolean algebra, kind: definition, decl: GeneralizedBooleanAlgebra, wikipedia: Boolean algebra (structure), wikidata: Q4973304}
   - {name: interior algebra, kind: definition, wikipedia: Interior algebra, wikidata: Q10894825}
   - {name: residuated lattice, kind: definition, wikipedia: Residuated lattice, wikidata: Q9462417}
-  - {name: MV-algebra, kind: definition, wikipedia: MV-algebra, wikidata: Q6719122}
+  - {name: MV-algebra, kind: definition, wikipedia: MV-algebra, wikidata: Q6719122, node: 8T4M7RN9AC}
   # Ordered algebraic structures
   - {name: ordered group, kind: definition, decl: IsOrderedAddMonoid, wikipedia: Partially ordered group, wikidata: Q2715875}
   - {name: linearly ordered group, kind: definition, wikipedia: Linearly ordered group, wikidata: Q10292020}

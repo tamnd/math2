@@ -24,4 +24,4 @@ Example: for $X = \R$, the open sets form a frame, because $U \cap \bigcup_i V_i
 Non-example: the lattice of subspaces of $\R^2$ is complete but not a frame; for three distinct lines $a, b, c$ through $0$, $a \wedge (b \vee c) = a$ while $(a \wedge b) \vee (a \wedge c) = 0$.
 A point of a locale $L$ is a frame homomorphism $L \to \set{0, 1}$; a locale is spatial if it is isomorphic to $\Omega(X)$ for some space $X$.
 The functor $\Omega$ restricts to an equivalence between [[sober spaces|4N4DNDR22Z]] and spatial locales.
-Every frame is a complete Heyting algebra; Mathlib calls frames `Order.Frame`.
+Every frame is a complete [[Heyting algebra|NG943XNQWH]]; Mathlib calls frames `Order.Frame`.

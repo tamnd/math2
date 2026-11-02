@@ -12,18 +12,18 @@ sources:
 ## Definition
 
 Let $G$ be a [[group|G5S1M9]], viewed as a discrete group.
-A *classifying space* of $G$ is a path-connected CW complex $X$ such that:
+A *classifying space* of $G$ is a path-connected [[CW complex|5W95QFHXPR]] $X$ such that:
 
-1. The fundamental group $\pi_1(X)$ is isomorphic to $G$.
-2. The homotopy group $\pi_n(X)$ is trivial for every $n \ge 2$.
+1. The [[fundamental group|S1XK3HXHFX]] $\pi_1(X)$ is isomorphic to $G$.
+2. The [[homotopy group|P976WYEFMB]] $\pi_n(X)$ is trivial for every $n \ge 2$.
 
 Such a space is written $BG$.
 
 ## Remarks
 
-A classifying space of $G$ is the same as an Eilenberg–MacLane space $K(G, 1)$.
-Any two classifying spaces of $G$ are homotopy equivalent.
-Equivalently, $X$ is path-connected, $\pi_1(X) \cong G$, and its universal cover is contractible; then $G$ acts freely on the universal cover and $X$ is the quotient.
+A classifying space of $G$ is the same as an [[Eilenberg–MacLane space|AJHEYJE5XY]] $K(G, 1)$.
+Any two classifying spaces of $G$ are [[homotopy equivalent|XZG6MTSWCN]].
+Equivalently, $X$ is path-connected, $\pi_1(X) \cong G$, and its [[universal cover|Y1YPE6PM52]] is [[contractible|R5WP8Z69Q8]]; then $G$ acts freely on the universal cover and $X$ is the quotient.
 
 Example: the circle $S^1$ is a classifying space of $\Z$.
 Its fundamental group is $\Z$, and its universal cover $\R$ is contractible, so $\pi_n(S^1) = 0$ for $n \ge 2$.

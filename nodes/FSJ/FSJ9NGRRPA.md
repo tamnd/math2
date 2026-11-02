@@ -12,11 +12,11 @@ sources:
 ## Statement
 
 Let $\mathcal{L} = \set{+, -, \cdot, 0, 1, <}$ be the language of ordered rings.
-Let $\mathrm{RCF}$ be the $\mathcal{L}$-theory of real closed fields with their unique field ordering.
+Let $\mathrm{RCF}$ be the $\mathcal{L}$-[[theory|92SWXST1ZM]] of [[real closed fields|DDY3Q3PJ6W]] with their unique field ordering.
 Its axioms are those of an [[ordered field|0P3VCBDEE2]], together with two more.
 One axiom says that every positive element has a square root.
 One scheme says that every polynomial of odd degree has a root.
-Then $\mathrm{RCF}$ admits quantifier elimination: for every $\mathcal{L}$-formula $\varphi(x_1, \dots, x_n)$ there is a quantifier-free $\mathcal{L}$-formula $\psi(x_1, \dots, x_n)$ such that
+Then $\mathrm{RCF}$ admits [[quantifier elimination|7FDDXV3JK7]]: for every $\mathcal{L}$-formula $\varphi(x_1, \dots, x_n)$ there is a quantifier-free $\mathcal{L}$-formula $\psi(x_1, \dots, x_n)$ such that
 $$\mathrm{RCF} \vdash \forall x_1 \cdots \forall x_n \, \bigl(\varphi(x_1, \dots, x_n) \leftrightarrow \psi(x_1, \dots, x_n)\bigr).$$
 
 ## Remarks
@@ -29,8 +29,8 @@ These conditions can be computed, for instance with Sturm sequences and the inte
 Example: for real closed fields,
 $$\exists x \, (x^2 + b x + c = 0) \quad \leftrightarrow \quad b^2 - 4c > 0 \ \lor \ b^2 - 4c = 0.$$
 
-Consequences: $\mathrm{RCF}$ is complete, so every real closed field satisfies the same first-order sentences as $\R$; and $\mathrm{RCF}$ is decidable.
-Geometrically, the projection of a semialgebraic set is semialgebraic, which is the Tarski–Seidenberg theorem.
+Consequences: $\mathrm{RCF}$ is [[complete|655K8Y7VS8]], so every real closed field satisfies the same first-order sentences as $\R$; and $\mathrm{RCF}$ is decidable.
+Geometrically, the projection of a semialgebraic set is semialgebraic, which is the [[Tarski–Seidenberg theorem|3W5JGDZAN0]].
 
 The symbol $<$ is necessary.
 In the language of rings alone, the set $\set{x \in \R : \exists y \, (x = y^2)} = [0, \infty)$ is definable, but every quantifier-free definable subset of $\R$ in that language is finite or cofinite.
@@ -50,5 +50,5 @@ Quantifier elimination is the model-theoretic core of real algebraic geometry.
 It shows that the sets definable in $\R$ with $+$, $\cdot$ and $<$ are exactly the semialgebraic sets, and that projections and images under polynomial maps stay in this class.
 It gives the completeness of the theory of real closed fields, which transfers results from $\R$ to every real closed field.
 This transfer gives a short modern proof of Artin's solution of [[Hilbert's seventeenth problem|J45F4F13VB]].
-It also shows that the theory of $\R$ is o-minimal: every definable subset of the line is a finite union of points and intervals.
+It also shows that the theory of $\R$ is [[o-minimal|DTWHAW1N0V]]: every definable subset of the line is a finite union of points and intervals.
 The analogous result for [[algebraically closed fields|MT8TDVPBXB]] uses only the language of rings.

@@ -11,7 +11,7 @@ sources:
 ## Definition
 
 Let $a < b$ be real numbers and let $f \colon [a, b] \to \R$ be a function.
-Write $\lambda$ for Lebesgue measure on $\R$.
+Write $\lambda$ for [[Lebesgue measure|2Z2QVWZ262]] on $\R$.
 The function $f$ has the *Luzin N property* if for every set $E \subseteq [a, b]$ with $\lambda(E) = 0$, the image $f(E)$ satisfies $\lambda(f(E)) = 0$.
 
 ## Remarks

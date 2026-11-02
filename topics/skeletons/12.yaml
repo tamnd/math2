@@ -114,7 +114,7 @@ items:
   - {name: quasi-algebraically closed field, kind: definition, wikipedia: Quasi-algebraically closed field, wikidata: Q283684, node: G7RM16N4PF}
   - {name: Chevalley–Warning theorem, kind: statement, decl: char_dvd_card_solutions, wikipedia: Chevalley–Warning theorem, wikidata: Q720469, mathlib: [mathlib-overview], node: 08895Q5W96}
   - {name: Tsen's theorem, kind: statement, wikipedia: Tsen's theorem, wikidata: Q7849521, node: V8HDYN3JMY}
-  - {name: Ax–Grothendieck theorem, kind: statement, decl: ax_grothendieck_univ, wikipedia: Ax–Grothendieck theorem, wikidata: Q4830725}
+  - {name: Ax–Grothendieck theorem, kind: statement, decl: ax_grothendieck_univ, wikipedia: Ax–Grothendieck theorem, wikidata: Q4830725, node: M2XAN2HGZH}
   - {name: algebraic numbers field, kind: object, wikipedia: Algebraic number, wikidata: Q168817, node: MWBDFS2KJ5}
   # Galois theory
   - {name: Galois extension, kind: definition, decl: IsGalois, wikipedia: Galois extension, wikidata: Q2020004, node: 0QMZAQ6QQ4}
@@ -193,9 +193,9 @@ items:
   - {name: Descartes' rule of signs, kind: statement, decl: Polynomial.roots_countP_pos_le_signVariations, wikipedia: Descartes's rule of signs, wikidata: Q1379344, mathlib: [mathlib-100], node: T6DQQ36JZ5}
   - {name: Sturm's theorem, kind: statement, decl: Polynomial.sturmSeq, wikipedia: Sturm's theorem, wikidata: Q1632301, node: R44CV0KD9T}
   - {name: Budan's theorem, kind: statement, wikipedia: Budan's theorem, wikidata: Q3527026, node: 7THS519D4A}
-  - {name: Tarski–Seidenberg theorem, kind: statement, wikipedia: Tarski–Seidenberg theorem, wikidata: Q16705451}
+  - {name: Tarski–Seidenberg theorem, kind: statement, wikipedia: Tarski–Seidenberg theorem, wikidata: Q16705451, node: 3W5JGDZAN0}
   - {name: surreal numbers, kind: object, wikipedia: Surreal number, wikidata: Q875333}
-  - {name: hyperreal numbers, kind: object, wikipedia: Hyperreal number, wikidata: Q5958543}
+  - {name: hyperreal numbers, kind: object, wikipedia: Hyperreal number, wikidata: Q5958543, node: 421QMTFG9T}
   - {name: Levi-Civita field, kind: object, wikipedia: Levi-Civita field, wikidata: Q6535342, node: CCT8SQKHW4}
   # Valued and topological fields
   - {name: absolute value, kind: definition, decl: AbsoluteValue, wikipedia: Absolute value (algebra), wikidata: Q4669840, node: 0FFXKTKKQC}

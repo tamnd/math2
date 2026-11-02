@@ -10,7 +10,7 @@ items:
   # Basic notions
   - {name: universal algebra, kind: concept, wikipedia: Universal algebra, wikidata: Q1636734}
   - {name: algebraic structure, kind: concept, wikipedia: Algebraic structure, wikidata: Q205464}
-  - {name: signature, kind: definition, decl: FirstOrder.Language, wikipedia: Signature (logic), wikidata: Q741810}
+  - {name: signature, kind: definition, decl: FirstOrder.Language, wikipedia: Signature (logic), wikidata: Q741810, node: WDVVEYD6AT}
   - {name: function symbols of a signature, kind: definition, decl: FirstOrder.Language.Functions, wikipedia: Signature (logic), wikidata: Q741810}
   - {name: arity, kind: definition, wikipedia: Arity, wikidata: Q1315869}
   - {name: finitary operation, kind: definition, wikipedia: Operation (mathematics), wikidata: Q3884033}
@@ -78,7 +78,7 @@ items:
   - {name: inverse limit of algebras, kind: definition, wikipedia: Inverse limit, wikidata: Q2634828}
   - {name: free product of algebras, kind: definition, decl: Monoid.Coprod, wikipedia: Free product, wikidata: Q1454165}
   - {name: amalgamated free product, kind: definition, decl: Monoid.PushoutI, wikipedia: Free product, wikidata: Q1454165}
-  - {name: amalgamation property, kind: definition, wikipedia: Amalgamation property, wikidata: Q4739384}
+  - {name: amalgamation property, kind: definition, wikipedia: Amalgamation property, wikidata: Q4739384, node: XSCSX39GEZ}
   - {name: strong amalgamation property, kind: definition, wikipedia: Amalgamation property, wikidata: Q4739384}
   - {name: injective algebra, kind: definition, wikipedia: Injective object, wikidata: Q1625040}
   - {name: projective algebra, kind: definition, wikipedia: Projective object, wikidata: Q2112502}
@@ -86,7 +86,7 @@ items:
   - {name: residually finite algebra, kind: definition, wikipedia: Residual property (mathematics), wikidata: Q16968884}
   - {name: residually small variety, kind: definition, wikipedia: Residual property (mathematics), wikidata: Q16968884}
   # Terms, identities and equational logic
-  - {name: term, kind: definition, decl: FirstOrder.Language.Term, wikipedia: Term (logic), wikidata: Q1318370}
+  - {name: term, kind: definition, decl: FirstOrder.Language.Term, wikipedia: Term (logic), wikidata: Q1318370, node: 6D3WA7N2W4}
   - {name: term evaluation, kind: definition, decl: FirstOrder.Language.Term.realize, wikipedia: Term (logic), wikidata: Q1318370}
   - {name: term algebra, kind: definition, wikipedia: Term algebra, wikidata: Q21998744}
   - {name: term operation, kind: definition, wikipedia: Clone (algebra), wikidata: Q838048}

@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $1 \le p < \infty$ and let $f \in L^p(\R)$, a function in the $L^p$ space of $\R$.
+Let $1 \le p < \infty$ and let $f \in L^p(\R)$, a function in the [[$L^p$ space|SASP14MA1Z]] of $\R$.
 The *Hilbert transform* of $f$ is the function
 $$Hf(x) = \frac{1}{\pi}\, \lim_{\varepsilon \to 0^+} \int_{\abs{x - y} > \varepsilon} \frac{f(y)}{x - y}\, dy,$$
 the [[Cauchy principal value|0SYR10HD4R]] of $\frac{1}{\pi} \int_\R \frac{f(y)}{x - y}\, dy$.

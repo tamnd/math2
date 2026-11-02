@@ -18,10 +18,10 @@ Let $p > 1$ be a real number.
 
 1. (Discrete form.) Let $a_1, a_2, \dots$ be nonnegative real numbers. Then
 $$\sum_{n=1}^{\infty} \Big( \frac{a_1 + a_2 + \dots + a_n}{n} \Big)^{p} \le \Big( \frac{p}{p - 1} \Big)^{p} \sum_{n=1}^{\infty} a_n^{p}.$$
-2. (Integral form.) Let $f \colon (0, \infty) \to [0, \infty)$ be a measurable function, and let $F(x) = \frac{1}{x} \int_0^x f(t) \, dt$ for $x > 0$. Then
+2. (Integral form.) Let $f \colon (0, \infty) \to [0, \infty)$ be a [[measurable function|YYNCJSR0PJ]], and let $F(x) = \frac{1}{x} \int_0^x f(t) \, dt$ for $x > 0$. Then
 $$\int_0^{\infty} F(x)^{p} \, dx \le \Big( \frac{p}{p - 1} \Big)^{p} \int_0^{\infty} f(x)^{p} \, dx.$$
 
-Here the [[series|0CVVKY7GY2]] and integrals take values in $[0, \infty]$.
+Here the [[series|0CVVKY7GY2]] and [[integrals|DWJF7ABPR1]] take values in $[0, \infty]$.
 
 ## Remarks
 
@@ -44,6 +44,6 @@ The loss is at most the factor $\big(\frac{p}{p-1}\big)^p$, which is $4$ for $p 
 
 ### L2 human
 
-In operator language, the averaging operator $f \mapsto F$ is bounded on the Lp space $L^p(0, \infty)$ for $1 < p < \infty$, with norm $\frac{p}{p-1}$.
+In operator language, the averaging operator $f \mapsto F$ is bounded on the [[Lp space|SASP14MA1Z]] $L^p(0, \infty)$ for $1 < p < \infty$, with norm $\frac{p}{p-1}$.
 It is a basic example of a bounded integral operator, and it is used in Sobolev-type estimates and in the theory of weighted inequalities.
 Letting $p \to \infty$ after replacing $a_n$ by $a_n^{1/p}$ leads to [[Carleman's inequality|B54HPY6C5Z]].

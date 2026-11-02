@@ -14,10 +14,10 @@ same_as:
 
 ## Statement
 
-Let $(S, \Sigma, \mu)$ be a measure space.
+Let $(S, \Sigma, \mu)$ be a [[measure space|P15VQS5DJ9]].
 Let $p, q \in (1, \infty)$ with $\frac{1}{p} + \frac{1}{q} = 1$.
-Let $f, g \colon S \to \R$ be measurable functions.
-Then, with the integrals taking values in $[0, \infty]$ and the convention $0 \cdot \infty = 0$,
+Let $f, g \colon S \to \R$ be [[measurable functions|YYNCJSR0PJ]].
+Then, with the [[integrals|DWJF7ABPR1]] taking values in $[0, \infty]$ and the convention $0 \cdot \infty = 0$,
 $$\int_S \abs{f g} \, d\mu \le \Big( \int_S \abs{f}^p \, d\mu \Big)^{1/p} \Big( \int_S \abs{g}^q \, d\mu \Big)^{1/q}.$$
 
 ## Remarks
@@ -40,6 +40,6 @@ It is the main tool for showing that a product of two functions is integrable.
 
 ### L2 human
 
-In the language of Lp spaces, it says $\norm{f g}_1 \le \norm{f}_p \norm{g}_q$.
+In the language of [[Lp spaces|SASP14MA1Z]], it says $\norm{f g}_1 \le \norm{f}_p \norm{g}_q$.
 So each $g \in L^q$ gives a bounded linear functional on $L^p$, which is the start of the duality between $L^p$ and $L^q$.
 It is also the key step in the proof of the [[Minkowski inequality|N4QZS912MT]], the triangle inequality in $L^p$.

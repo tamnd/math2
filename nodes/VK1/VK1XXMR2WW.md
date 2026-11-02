@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $G = (V, E)$ be a finite [[graph|0JD5C82QMB]] and let $\Sigma$ be a surface.
+Let $G = (V, E)$ be a finite [[graph|0JD5C82QMB]] and let $\Sigma$ be a [[surface|VGJJVBZ1MQ]].
 An embedding of $G$ in $\Sigma$ consists of a point $p_v \in \Sigma$ for each vertex $v$ and a subset $\gamma_e \subseteq \Sigma$ for each edge $e$ such that:
 
 1. The points $p_v$ are distinct.

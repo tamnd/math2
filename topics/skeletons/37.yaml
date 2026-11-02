@@ -16,14 +16,14 @@ items:
   - {name: fixed point, kind: definition, decl: Function.IsFixedPt, wikipedia: Fixed point (mathematics), wikidata: Q217608}
   - {name: periodic point, kind: definition, decl: Function.periodicPts, wikipedia: Periodic point, wikidata: Q116301, mathlib: [mathlib-overview]}
   - {name: minimal period, kind: definition, decl: Function.minimalPeriod, wikipedia: Periodic point, wikidata: Q116301}
-  - {name: invariant set, kind: definition, decl: IsInvariant, wikipedia: Invariant (mathematics), wikidata: Q188211}
+  - {name: invariant set, kind: definition, decl: IsInvariant, wikipedia: Invariant (mathematics), wikidata: Q188211, node: WWZTW11664}
   - {name: omega-limit set, kind: definition, decl: omegaLimit, wikipedia: Limit set, wikidata: Q1825444, mathlib: [mathlib-overview]}
   - {name: topological conjugacy, kind: definition, decl: Function.Semiconj, wikipedia: Topological conjugacy, wikidata: Q2443460}
   - {name: semiconjugacy and factor map, kind: definition, decl: Flow.IsSemiconjugacy, wikipedia: Topological conjugacy, wikidata: Q2443460}
   - {name: iterated function, kind: definition, wikipedia: Iterated function, wikidata: Q5254619}
   - {name: cobweb plot, kind: concept, wikipedia: Cobweb plot, wikidata: Q5139042}
   - {name: suspension flow, kind: definition, wikipedia: Mapping torus, wikidata: Q3532262}
-  - {name: Poincaré map, kind: definition, wikipedia: Poincaré map, wikidata: Q339199}
+  - {name: Poincaré map, kind: definition, wikipedia: Poincaré map, wikidata: Q339199, node: 60TDCPY4Z4}
   - {name: attractor, kind: definition, wikipedia: Attractor, wikidata: Q507187}
   - {name: strange attractor, kind: concept, wikipedia: Attractor, wikidata: Q507187}
   - {name: chaos theory, kind: concept, wikipedia: Chaos theory, wikidata: Q166314}
@@ -32,7 +32,7 @@ items:
   - {name: measure-preserving dynamical system, kind: definition, decl: MeasureTheory.MeasurePreserving, wikipedia: Measure-preserving dynamical system, wikidata: Q1003225}
   - {name: invariant measure, kind: definition, wikipedia: Invariant measure, wikidata: Q4200518}
   - {name: Krylov–Bogolyubov theorem, kind: statement, wikipedia: Krylov–Bogolyubov theorem, wikidata: Q1121027}
-  - {name: Poincaré recurrence theorem, kind: statement, decl: MeasureTheory.Conservative.ae_mem_imp_frequently_image_mem, wikipedia: Poincaré recurrence theorem, wikidata: Q226014, mathlib: [mathlib-1000]}
+  - {name: Poincaré recurrence theorem, kind: statement, decl: MeasureTheory.Conservative.ae_mem_imp_frequently_image_mem, wikipedia: Poincaré recurrence theorem, wikidata: Q226014, mathlib: [mathlib-1000], node: TVYJPBHD0S}
   - {name: conservative system, kind: definition, decl: MeasureTheory.Conservative, wikipedia: Conservative system, wikidata: Q9077988}
   - {name: ergodicity, kind: definition, decl: Ergodic, wikipedia: Ergodicity, wikidata: Q5426803}
   - {name: Birkhoff sum and average, kind: definition, decl: birkhoffAverage, wikipedia: Ergodic theory, wikidata: Q5498822}
@@ -115,7 +115,7 @@ items:
   - {name: vector field flow, kind: definition, decl: IsIntegralCurve, wikipedia: Vector field, wikidata: Q186247}
   - {name: hyperbolic fixed point, kind: definition, wikipedia: Hyperbolic equilibrium point, wikidata: Q3925833, node: 0C5PREPZWG}
   - {name: Hartman–Grobman theorem, kind: statement, wikipedia: Hartman–Grobman theorem, wikidata: Q211981, node: 0S8WX8A4V9}
-  - {name: stable manifold theorem, kind: statement, wikipedia: Stable manifold theorem, wikidata: Q7595768}
+  - {name: stable manifold theorem, kind: statement, wikipedia: Stable manifold theorem, wikidata: Q7595768, node: WF22KK7C3R}
   - {name: center manifold theorem, kind: statement, wikipedia: Center manifold, wikidata: Q4504202}
   - {name: hyperbolic set, kind: definition, wikipedia: Hyperbolic set, wikidata: Q3042004}
   - {name: Anosov diffeomorphism, kind: definition, wikipedia: Anosov diffeomorphism, wikidata: Q56297274}
@@ -128,12 +128,12 @@ items:
   - {name: Axiom A, kind: definition, wikipedia: Axiom A, wikidata: Q4059942}
   - {name: spectral decomposition, kind: statement, wikipedia: Axiom A, wikidata: Q4059942}
   - {name: Morse–Smale system, kind: definition, wikipedia: Morse–Smale system, wikidata: Q6914276}
-  - {name: structural stability, kind: definition, wikipedia: Structural stability, wikidata: Q1648886}
+  - {name: structural stability, kind: definition, wikipedia: Structural stability, wikidata: Q1648886, node: D4MGFAHVMT}
   - {name: stability conjecture, kind: statement, wikipedia: Structural stability, wikidata: Q1648886}
-  - {name: Peixoto's theorem, kind: statement, wikipedia: Peixoto's theorem, wikidata: Q7160983}
+  - {name: Peixoto's theorem, kind: statement, wikipedia: Peixoto's theorem, wikidata: Q7160983, node: TDCY8TASCS}
   - {name: closing lemma, kind: statement, wikipedia: Pugh's closing lemma, wikidata: Q7258945}
   - {name: Smale's problems on dynamics, kind: problem, wikipedia: Smale's problems, wikidata: Q2664496}
-  - {name: Lyapunov exponent, kind: definition, wikipedia: Lyapunov exponent, wikidata: Q1238630}
+  - {name: Lyapunov exponent, kind: definition, wikipedia: Lyapunov exponent, wikidata: Q1238630, node: NJ1FJSNK6A}
   - {name: Pesin theory, kind: concept, wikipedia: Lyapunov exponent, wikidata: Q1238630}
   - {name: Sinai–Ruelle–Bowen measure, kind: definition, wikipedia: Sinai–Ruelle–Bowen measure, wikidata: Q104867754}
   - {name: Gibbs measure, kind: definition, wikipedia: Gibbs measure, wikidata: Q2510435}
@@ -142,7 +142,7 @@ items:
   - {name: dynamical billiards, kind: concept, wikipedia: Dynamical billiards, wikidata: Q2903467}
   - {name: Sinai billiard, kind: example, wikipedia: Dynamical billiards, wikidata: Q2903467}
   - {name: Bunimovich stadium, kind: example, wikipedia: Dynamical billiards, wikidata: Q2903467}
-  - {name: Lorenz system, kind: example, wikipedia: Lorenz system, wikidata: Q899844}
+  - {name: Lorenz system, kind: example, wikipedia: Lorenz system, wikidata: Q899844, node: WYRC41CQN9}
   - {name: Hénon map, kind: example, wikipedia: Hénon map, wikidata: Q1642961}
   - {name: Smale's fourteenth problem, kind: problem, wikipedia: Lorenz system, wikidata: Q899844}
   # Low-dimensional dynamics
@@ -185,8 +185,8 @@ items:
   # Bifurcation theory
   - {name: bifurcation theory, kind: concept, wikipedia: Bifurcation theory, wikidata: Q1154357}
   - {name: bifurcation diagram, kind: concept, wikipedia: Bifurcation diagram, wikidata: Q2595915}
-  - {name: saddle-node bifurcation, kind: concept, wikipedia: Saddle-node bifurcation, wikidata: Q740190}
-  - {name: Hopf bifurcation, kind: concept, wikipedia: Hopf bifurcation, wikidata: Q531126}
+  - {name: saddle-node bifurcation, kind: concept, wikipedia: Saddle-node bifurcation, wikidata: Q740190, node: MAP5J6HK0T}
+  - {name: Hopf bifurcation, kind: concept, wikipedia: Hopf bifurcation, wikidata: Q531126, node: F5H8GW1XYS}
   - {name: homoclinic bifurcation, kind: concept, wikipedia: Bifurcation theory, wikidata: Q1154357}
   - {name: Shilnikov theorem, kind: statement, wikipedia: Homoclinic orbit, wikidata: Q690494}
   - {name: crisis, kind: concept, wikipedia: Crisis (dynamical systems), wikidata: Q5185947}

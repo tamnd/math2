@@ -22,6 +22,6 @@ On $\R^d$, a family $\mathcal{M}$ is tight if and only if $\sup_{\mu \in \mathca
 Example: the [[normal|05AQE0QR0D]] laws $N(m, 1)$ with $\abs{m} \le 1$ form a tight family. Given $\varepsilon$, choose $r$ with $P(\abs{Z} > r) < \varepsilon$ for $Z$ standard normal; then $K = [-1 - r, 1 + r]$ works, since $N(m, 1)(\R \setminus K) \le P(\abs{Z} > r)$.
 Non-example: the point masses $\delta_n$, $n \in \N$, on $\R$. Each compact $K$ lies in some $[-R, R]$, and then $\delta_n(\R \setminus K) = 1$ for $n > R$.
 Also non-tight: the normal laws $N(0, n)$, $n \ge 1$, whose mass spreads out.
-A single Borel probability measure on a Polish space is tight, and so is every finite family.
-On a Polish space, Prokhorov's theorem says that $\mathcal{M}$ is tight if and only if it is relatively compact for weak convergence.
+A single Borel probability measure on a [[Polish space|584GXXY73M]] is tight, and so is every finite family.
+On a Polish space, [[Prokhorov's theorem|D6FMEQYA76]] says that $\mathcal{M}$ is tight if and only if it is relatively compact for [[weak convergence|MBW9JCGZC1]].
 Every sequence of real random variables that converges in distribution is tight.

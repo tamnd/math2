@@ -23,10 +23,10 @@ items:
   - {name: Mason's gain formula, kind: statement, wikipedia: Mason's gain formula, wikidata: Q2273232}
   - {name: dissipative system, kind: concept, wikipedia: Dissipative system, wikidata: Q596577}
   # Controllability and observability
-  - {name: controllability, kind: definition, wikipedia: Controllability, wikidata: Q1331104}
+  - {name: controllability, kind: definition, wikipedia: Controllability, wikidata: Q1331104, node: A9WFM77Z4P}
   - {name: Kalman controllability rank condition, kind: statement, wikipedia: Controllability, wikidata: Q1331104}
   - {name: controllability Gramian, kind: definition, wikipedia: Controllability Gramian, wikidata: Q83587}
-  - {name: observability, kind: definition, wikipedia: Observability, wikidata: Q1369844}
+  - {name: observability, kind: definition, wikipedia: Observability, wikidata: Q1369844, node: C4HN3EAQWM}
   - {name: observability Gramian, kind: definition, wikipedia: Observability Gramian, wikidata: Q7075420}
   - {name: duality of controllability and observability, kind: statement, wikipedia: Observability, wikidata: Q1369844}
   - {name: Hautus lemma, kind: statement, wikipedia: Hautus lemma, wikidata: Q17021408}
@@ -63,7 +63,7 @@ items:
   - {name: zero-order hold, kind: definition, wikipedia: Zero-order hold, wikidata: Q2907060}
   - {name: discretization of linear systems, kind: statement, wikipedia: Discretization, wikidata: Q17007827}
   - {name: final value theorem, kind: statement, wikipedia: Final value theorem, wikidata: Q4272645}
-  - {name: hybrid system, kind: definition, wikipedia: Hybrid system, wikidata: Q2665508}
+  - {name: hybrid system, kind: definition, wikipedia: Hybrid system, wikidata: Q2665508, node: 1EW58ZYR8Y}
   - {name: switched system, kind: definition, wikipedia: Hybrid system, wikidata: Q2665508}
   - {name: descriptor system, kind: definition, wikipedia: Differential-algebraic system of equations, wikidata: Q955889}
   - {name: distributed parameter system, kind: definition, wikipedia: Distributed parameter system, wikidata: Q1482001}
@@ -81,17 +81,17 @@ items:
   - {name: describing function, kind: definition, wikipedia: Describing function, wikidata: Q1925419}
   # Stability of control systems
   - {name: BIBO stability, kind: definition, wikipedia: BIBO stability, wikidata: Q744737}
-  - {name: exponential stability, kind: definition, wikipedia: Exponential stability, wikidata: Q17011487}
+  - {name: exponential stability, kind: definition, wikipedia: Exponential stability, wikidata: Q17011487, node: VY180V8QY2}
   - {name: Hurwitz polynomial, kind: definition, wikipedia: Hurwitz polynomial, wikidata: Q1414214}
-  - {name: Hurwitz-stable matrix, kind: definition, wikipedia: Hurwitz-stable matrix, wikidata: Q131293245}
-  - {name: Routh–Hurwitz stability criterion, kind: statement, wikipedia: Routh–Hurwitz stability criterion, wikidata: Q2621270}
+  - {name: Hurwitz-stable matrix, kind: definition, wikipedia: Hurwitz-stable matrix, wikidata: Q131293245, node: 9A3TBBHRFA}
+  - {name: Routh–Hurwitz stability criterion, kind: statement, wikipedia: Routh–Hurwitz stability criterion, wikidata: Q2621270, node: KJF8Y19BNV}
   - {name: Routh–Hurwitz theorem, kind: statement, wikipedia: Routh–Hurwitz theorem, wikidata: Q4455015}
   - {name: Liénard–Chipart criterion, kind: statement, wikipedia: Liénard–Chipart criterion, wikidata: Q17098836}
   - {name: Jury stability criterion, kind: statement, wikipedia: Jury stability criterion, wikidata: Q3697760}
   - {name: Kharitonov's theorem, kind: statement, wikipedia: Kharitonov's theorem, wikidata: Q6400676}
   - {name: Lyapunov criterion for Hurwitz matrices, kind: statement, wikipedia: Lyapunov equation, wikidata: Q1028945}
   - {name: stability radius, kind: definition, wikipedia: Stability radius, wikidata: Q7595729}
-  - {name: input-to-state stability, kind: definition, wikipedia: Input-to-state stability, wikidata: Q48995800}
+  - {name: input-to-state stability, kind: definition, wikipedia: Input-to-state stability, wikidata: Q48995800, node: GRDCEGQJYQ}
   - {name: small-gain theorem, kind: statement, wikipedia: Small-gain theorem, wikidata: Q4165677}
   - {name: passivity, kind: definition, wikipedia: Passivity (engineering), wikidata: Q1045736}
   - {name: positive-real function, kind: definition, wikipedia: Positive-real function, wikidata: Q7233208}
@@ -106,10 +106,10 @@ items:
   - {name: control-Lyapunov function, kind: definition, wikipedia: Control-Lyapunov function, wikidata: Q5165805}
   - {name: Artstein's theorem, kind: statement, wikipedia: Control-Lyapunov function, wikidata: Q5165805}
   - {name: Sontag's universal formula, kind: statement, wikipedia: Control-Lyapunov function, wikidata: Q5165805}
-  - {name: Chow–Rashevskii theorem, kind: statement, wikipedia: Chow–Rashevsky theorem, wikidata: Q5105585}
+  - {name: Chow–Rashevskii theorem, kind: statement, wikipedia: Chow–Rashevsky theorem, wikidata: Q5105585, node: VQPN24VDH1}
   - {name: relative degree, kind: definition, wikipedia: Feedback linearization, wikidata: Q672139}
   - {name: zero dynamics, kind: definition, wikipedia: Zero dynamics, wikidata: Q15837116}
-  - {name: feedback linearization, kind: concept, wikipedia: Feedback linearization, wikidata: Q672139}
+  - {name: feedback linearization, kind: concept, wikipedia: Feedback linearization, wikidata: Q672139, node: 1J2KTGXB34}
   - {name: differential flatness, kind: definition, wikipedia: Flatness (systems theory), wikidata: Q1426175}
   - {name: backstepping, kind: definition, wikipedia: Backstepping, wikidata: Q4839759}
   - {name: sliding mode control, kind: definition, wikipedia: Sliding mode control, wikidata: Q6008560}

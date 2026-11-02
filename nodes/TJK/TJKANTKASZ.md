@@ -12,7 +12,7 @@ sources:
 
 A finitely presented group is a group that has a [[presentation|0JGEQXQ4AC]] with finitely many generators and finitely many relations.
 Such a group can be described by a finite amount of data, so it can be handled by algorithms and computers.
-Finitely presented groups are the natural objects of combinatorial group theory and arise as fundamental groups of compact manifolds and finite complexes.
+Finitely presented groups are the natural objects of combinatorial group theory and arise as [[fundamental groups|S1XK3HXHFX]] of compact manifolds and finite complexes.
 
 ## Explanations
 

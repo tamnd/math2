@@ -26,8 +26,8 @@ The proof is model-theoretic.
 Let $\varphi$ be a first-order sentence in the language of rings.
 Then $\varphi$ holds in $\Q_p$ for almost all primes $p$ if and only if it holds in the [[Laurent series field|YZWYF7DXTW]] $\F_p((t))$ for almost all $p$.
 Here "almost all" means all but finitely many.
-This transfer comes from ultraproducts over a nonprincipal ultrafilter on the primes.
-The ultraproducts of the fields $\Q_p$ and of the fields $\F_p((t))$ are elementarily equivalent valued fields.
+This transfer comes from [[ultraproducts|AX9Q86GB8M]] over a nonprincipal ultrafilter on the primes.
+The ultraproducts of the fields $\Q_p$ and of the fields $\F_p((t))$ are [[elementarily equivalent|P3B1V182N4]] valued fields.
 Both are Henselian with residue field of characteristic $0$, and they have the same residue field and the same value group.
 For a fixed degree $d$, the property "every form of degree $d$ in $d^2 + 1$ variables has a nontrivial zero" is one first-order sentence.
 A theorem of Lang shows that it holds in every $\F_p((t))$.
