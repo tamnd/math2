@@ -14,6 +14,7 @@ records:
         - key: e1
           kind: edition
           language: en
+          structure: 8KH04KR3FD/e1.json
           manifestations:
             - key: m1
               kind: page
@@ -25,7 +26,7 @@ records:
       scope:
         value: in
         rule: S6
-        by: m2 v0.6.17 scope/1
+        by: m2 dev scope/1
       catalogue:
         - source: nptel
           snapshot: blake3:89dc2ec164a0108adbecf0ec8c793929c947e196b164e762035d3fdd89a3f469

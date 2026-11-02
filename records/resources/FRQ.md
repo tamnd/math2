@@ -3,6 +3,13 @@ records:
     - id: FRQD43KS6Q
       kind: monograph
       title: An Introduction to Mathematical Cryptography
+      creators:
+        - name: Hoffstein, Jeffrey
+          role: author
+        - name: Pipher, Jill
+          role: author
+        - name: Silverman, Joseph H.
+          role: author
       date: "2008"
       msc:
         - code: 94-01
@@ -40,14 +47,14 @@ records:
       scope:
         value: in
         rule: S4
-        by: m2 v0.6.17 scope/1
+        by: m2 dev scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-0-387-77993-5
           level: work
         - source: zbmath_search
-          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          snapshot: blake3:25dd7c4358839cf7c8c9f5d07f0562e94f38728153e7db2255a7191282b967c2
           native_id: "5268072"
           level: work
       history:

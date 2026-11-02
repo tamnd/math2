@@ -8,6 +8,7 @@ records:
           role: instructor
         - name: Sanjeev Kumar
           role: instructor
+      date: "2017-07-03"
       ids:
         course:
             - 00582g326:111107105
@@ -16,6 +17,8 @@ records:
         - key: e1
           kind: edition
           language: en
+          date: "2017-07-03"
+          structure: ZTSZ894TQB/e1.json
           manifestations:
             - key: m1
               kind: page
@@ -31,10 +34,17 @@ records:
                 nptel: "111107107"
               access:
                 class: record
+            - key: m3
+              kind: page
+              date: "2017-07-03"
+              ids:
+                nptel: "111107105"
+              access:
+                class: record
       scope:
         value: in
         rule: S6
-        by: m2 v0.6.17 scope/1
+        by: m2 dev scope/1
       catalogue:
         - source: nptel
           snapshot: blake3:89dc2ec164a0108adbecf0ec8c793929c947e196b164e762035d3fdd89a3f469
@@ -43,6 +53,10 @@ records:
         - source: nptel
           snapshot: blake3:89dc2ec164a0108adbecf0ec8c793929c947e196b164e762035d3fdd89a3f469
           native_id: "111107107"
+          level: manifestation
+        - source: nptel_video
+          snapshot: blake3:7980ec84cfbca0f71922ec2d4e56d2385fa22a44c9cd025088eefbf06b61009d
+          native_id: "111107105"
           level: manifestation
       history:
         - op: add

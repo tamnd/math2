@@ -3,6 +3,11 @@ records:
     - id: S8TRKHGZD6
       kind: monograph
       title: Unitals in Projective Planes
+      creators:
+        - name: Barwick, Susan
+          role: author
+        - name: Ebert, Gary
+          role: author
       date: "2008"
       msc:
         - code: "51E21"
@@ -42,14 +47,14 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.17 scope/1
+        by: m2 dev scope/1
       catalogue:
         - source: springer-series
           snapshot: blake3:09492c429ae54789c72bd081d21b950751ebbf0910012c1957fb140a008b7b5e
           native_id: 10.1007/978-0-387-76366-8
           level: work
         - source: zbmath_search
-          snapshot: blake3:ba52b67aca79888bd54f4ac0d57bd446df8c82ca03dd9e92e0bc9db1402905ce
+          snapshot: blake3:25dd7c4358839cf7c8c9f5d07f0562e94f38728153e7db2255a7191282b967c2
           native_id: "5350474"
           level: work
       history:

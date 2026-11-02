@@ -20,7 +20,7 @@ records:
       scope:
         value: in
         rule: S1
-        by: m2 v0.6.17 scope/1
+        by: m2 dev scope/1
       catalogue:
         - source: imo
           snapshot: blake3:c564548c1a7c5bfe4e71cf81d61c599a9d4016d698feff8fb0bc9beb0e2f88f9
@@ -44,12 +44,15 @@ records:
       creators:
         - name: S. Baskar
           role: instructor
+      date: "2023-01-14"
       ids:
         course: 02qyf5152:111101165
       expressions:
         - key: e1
           kind: edition
           language: en
+          date: "2023-01-14"
+          structure: YK4M0KCQ4A/e1.json
           manifestations:
             - key: m1
               kind: page
@@ -58,13 +61,24 @@ records:
                 nptel: "111101165"
               access:
                 class: record
+            - key: m2
+              kind: page
+              date: "2023-01-14"
+              ids:
+                nptel: "111101165"
+              access:
+                class: record
       scope:
         value: in
         rule: S6
-        by: m2 v0.6.17 scope/1
+        by: m2 dev scope/1
       catalogue:
         - source: nptel
           snapshot: blake3:89dc2ec164a0108adbecf0ec8c793929c947e196b164e762035d3fdd89a3f469
+          native_id: "111101165"
+          level: manifestation
+        - source: nptel_video
+          snapshot: blake3:7980ec84cfbca0f71922ec2d4e56d2385fa22a44c9cd025088eefbf06b61009d
           native_id: "111101165"
           level: manifestation
       history:
