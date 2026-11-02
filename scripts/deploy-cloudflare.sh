@@ -3,6 +3,8 @@
 #
 # Run it from cron on a build server, for example every 5 minutes: */5 * * * * $HOME/math2-deploy/deploy-cloudflare.sh >> $HOME/math2-deploy/deploy.log 2>&1. The server needs git, Go, Node and flock. It fetches main of tamnd/math2 with its history, and main of tamnd/math2-agent and tamnd/wikipedia-math, and it does nothing when the three commits are the same as at the last deploy. Use -f to deploy again.
 #
+# The build keeps the rendered math in $M2_DEPLOY/cache, so that the next build renders only the new formulas.
+#
 # The file $M2_DEPLOY/cloudflare.env must set CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID. Keep it at mode 600.
 set -eu
 
@@ -48,7 +50,7 @@ fi
 echo "$(date -u +%FT%TZ) deploy math2 $content, math2-agent $toolchain, wikipedia-math $wikipedia"
 (cd "$dir/toolchain" && go build -trimpath -o "$dir/m2" ./cmd/m2)
 rm -rf "$dir/site"
-"$dir/m2" site build -content "$dir/content" -spec "$dir/toolchain/spec" -wikipedia "$dir/wikipedia" -out "$dir/site" -url "$url" -commit "$content" -date now -cloudflare
+"$dir/m2" site build -content "$dir/content" -spec "$dir/toolchain/spec" -wikipedia "$dir/wikipedia" -out "$dir/site" -url "$url" -commit "$content" -date now -cloudflare -cache "$dir/cache/math.gob.gz"
 files=$(find "$dir/site" -type f | wc -l)
 big=$(find "$dir/site" -type f -size +24M | head -1)
 if [ "$files" -gt "$limit" ] || [ -n "$big" ]; then
