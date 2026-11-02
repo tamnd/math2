@@ -1,15 +1,17 @@
 #!/bin/sh
 # Build the wiki of tamnd/math2 and publish it to Cloudflare Pages at https://math2.tamnd.com.
 #
-# Run it from cron on a build server, for example every 5 minutes: */5 * * * * $HOME/math2-deploy/deploy-cloudflare.sh >> $HOME/math2-deploy/deploy.log 2>&1. The server needs git, Go, Node and flock. It fetches main of tamnd/math2 with its history, and main of tamnd/math2-agent and tamnd/wikipedia-math, and it does nothing when the three commits are the same as at the last deploy. Use -f to deploy again.
+# Run it from cron on a build server, for example every 5 minutes: */5 * * * * $HOME/math2-deploy/deploy-cloudflare.sh >> $HOME/math2-deploy/deploy.log 2>&1. The server needs git, Go, Node, Python 3 and flock. It fetches main of tamnd/math2 with its history, and main of tamnd/math2-agent and tamnd/wikipedia-math, and it does nothing when the three commits are the same as at the last deploy. Use -f to deploy again.
 #
 # The build keeps the rendered math in $M2_DEPLOY/cache, so that the next build renders only the new formulas.
 #
 # The file $M2_DEPLOY/cloudflare.env must set CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID. Keep it at mode 600.
+# Bind the R2 bucket math2-social (or M2_SOCIAL_BUCKET) to Pages as SOCIAL_PACKS. The Pages deployment also contains the packs as a fallback.
 set -eu
 
 dir=${M2_DEPLOY:-$HOME/math2-deploy}
 project=${M2_PAGES_PROJECT:-math2}
+social_bucket=${M2_SOCIAL_BUCKET:-math2-social}
 url=${M2_SITE_URL:-https://math2.tamnd.com}
 # Cloudflare Pages takes at most 20,000 files and 25 MiB for each file in one deployment. The margin leaves room for the files that wrangler adds.
 limit=${M2_PAGES_FILES:-19500}
@@ -50,12 +52,13 @@ fi
 echo "$(date -u +%FT%TZ) deploy math2 $content, math2-agent $toolchain, wikipedia-math $wikipedia"
 (cd "$dir/toolchain" && go build -trimpath -o "$dir/m2" ./cmd/m2)
 rm -rf "$dir/site"
-"$dir/m2" site build -content "$dir/content" -spec "$dir/toolchain/spec" -wikipedia "$dir/wikipedia" -out "$dir/site" -url "$url" -commit "$content" -date now -cloudflare -cache "$dir/cache/math.gob.gz"
+"$dir/m2" site build -content "$dir/content" -spec "$dir/toolchain/spec" -wikipedia "$dir/wikipedia" -out "$dir/site" -url "$url" -commit "$content" -date now -cloudflare -cache "$dir/cache/math.gob.gz" -social-packs "$dir/social-packs"
 files=$(find "$dir/site" -type f | wc -l)
 big=$(find "$dir/site" -type f -size +24M | head -1)
 if [ "$files" -gt "$limit" ] || [ -n "$big" ]; then
 	echo "the site has $files files (the limit is $limit) or a file over 24 MB ($big). The deploy stops and the last deployment stays."
 	exit 1
 fi
+python3 "$dir/toolchain/scripts/upload_social_packs.py" "$dir/social-packs" --bucket "$social_bucket"
 npx --yes wrangler@4 pages deploy "$dir/site" --project-name "$project" --branch main --commit-hash "$content" --commit-message "math2 $content" --commit-dirty=true
 echo "$state" >"$dir/deployed"
