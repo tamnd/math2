@@ -25,7 +25,7 @@ Then $\varphi$ has a fixed point: there is $x \in S$ with $x \in \varphi(x)$.
 
 ## Remarks
 
-When each $\varphi(x)$ is a single point $f(x)$, the graph is closed exactly when $f$ is continuous, and the theorem becomes the Brouwer fixed-point theorem.
+When each $\varphi(x)$ is a single point $f(x)$, the graph is closed exactly when $f$ is continuous, and the theorem becomes the [[Brouwer fixed-point theorem|N7AAJ2MW5T]].
 The usual proof approximates $\varphi$ by continuous maps on finer and finer triangulations of a simplex containing $S$.
 It applies Brouwer's theorem to these maps and passes to a limit using the closed graph and the convex values.
 

@@ -70,7 +70,7 @@ items:
   - {name: Bernstein inequalities, kind: statement, wikipedia: Bernstein inequalities (probability theory), wikidata: Q826791, node: MX6157RAVA}
   - {name: Azuma's inequality, kind: statement, decl: ProbabilityTheory.measure_sum_ge_le_of_hasCondSubgaussianMGF, wikipedia: Azuma's inequality, wikidata: Q2410467, node: BDA5TTB1F0}
   - {name: McDiarmid's inequality, kind: statement, wikipedia: McDiarmid's inequality, wikidata: Q113127691, node: 8APFT1RPM4}
-  - {name: concentration of measure, kind: concept, wikipedia: Concentration of measure, wikidata: Q5158327}
+  - {name: concentration of measure, kind: concept, wikipedia: Concentration of measure, wikidata: Q5158327, node: CFZ1J559MK}
   - {name: Talagrand's concentration inequality, kind: statement, wikipedia: Talagrand's concentration inequality, wikidata: Q7678798, node: GGEAGW4RRV}
   - {name: FKG inequality, kind: statement, wikipedia: FKG inequality, wikidata: Q1784730, node: DCXJGS6E6D}
   # Conditioning
@@ -121,7 +121,7 @@ items:
   - {name: uniform integrability, kind: definition, decl: MeasureTheory.UniformIntegrable, wikipedia: Uniform integrability, wikidata: Q1530275, mathlib: [mathlib-overview], node: VRVVKMXDGV}
   - {name: Vitali convergence theorem, kind: statement, decl: MeasureTheory.tendstoInMeasure_iff_tendsto_Lp, wikipedia: Vitali convergence theorem, wikidata: Q11352023, mathlib: [mathlib-1000], node: C3CKZAZ57Z}
   # Limit theorems
-  - {name: Borel–Cantelli lemma, kind: statement, decl: MeasureTheory.measure_limsup_atTop_eq_zero, wikipedia: Borel–Cantelli lemma, wikidata: Q893496, mathlib: [mathlib-undergrad]}
+  - {name: Borel–Cantelli lemma, kind: statement, decl: MeasureTheory.measure_limsup_atTop_eq_zero, wikipedia: Borel–Cantelli lemma, wikidata: Q893496, mathlib: [mathlib-undergrad], node: 0T6WS7TT77}
   - {name: second Borel–Cantelli lemma, kind: statement, decl: ProbabilityTheory.measure_limsup_eq_one, wikipedia: Borel–Cantelli lemma, wikidata: Q893496, mathlib: [mathlib-undergrad], node: 0NWXRAMEE7}
   - {name: weak law of large numbers, kind: statement, wikipedia: Law of large numbers, wikidata: Q207952, node: 0BFDHF2H7N}
   - {name: strong law of large numbers, kind: statement, decl: ProbabilityTheory.strong_law_ae, wikipedia: Law of large numbers, wikidata: Q207952, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-100], node: 0DFWHQ839T}

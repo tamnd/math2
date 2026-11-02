@@ -15,7 +15,7 @@ sources:
 
 Let $n \ge 1$ and let $A$ be an $n \times n$ [[doubly stochastic matrix|JJA90EB2PS]].
 So $A$ has real nonnegative entries, and its rows and columns each sum to $1$.
-Then $A$ is a convex combination of $n \times n$ [[permutation matrices|0Q5SM60HTH]].
+Then $A$ is a [[convex combination|21SXYJYC59]] of $n \times n$ [[permutation matrices|0Q5SM60HTH]].
 That is, there are permutation matrices $P_1, \dots, P_k$ and real numbers $\theta_1, \dots, \theta_k \ge 0$ with $\theta_1 + \cdots + \theta_k = 1$ such that
 $$A = \theta_1 P_1 + \cdots + \theta_k P_k.$$
 
@@ -29,7 +29,7 @@ It is a permutation matrix $P$ supported on nonzero entries of $A$.
 If $\theta$ is the least entry of $A$ on this support and $A \ne P$, then $(A - \theta P)/(1 - \theta)$ is doubly stochastic with fewer nonzero entries.
 For example,
 $$\begin{pmatrix} 1/2 & 1/2 \\ 1/2 & 1/2 \end{pmatrix} = \frac12 \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} + \frac12 \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}.$$
-Equivalently, the set of doubly stochastic matrices, the Birkhoff polytope, is the [[convex hull|0TCHAS04WK]] of the $n!$ permutation matrices, and these are its vertices.
+Equivalently, the set of doubly stochastic matrices, the [[Birkhoff polytope|ADEXY830S8]], is the [[convex hull|0TCHAS04WK]] of the $n!$ permutation matrices, and these are its vertices.
 
 ## Explanations
 

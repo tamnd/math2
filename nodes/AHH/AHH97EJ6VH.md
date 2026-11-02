@@ -10,7 +10,7 @@ sources:
 ## Summary
 
 A semifield is an algebraic structure that satisfies all the axioms of a [[division ring|0EA5BTA0CX]] except possibly the associativity of multiplication.
-Semifields arise in finite geometry, where each semifield coordinatizes a projective plane, called a semifield plane.
+Semifields arise in finite geometry, where each semifield coordinatizes a [[projective plane|DANFNN8C4Y]], called a semifield plane.
 Finite semifields that are not fields give non-Desarguesian planes.
 In other areas, a semifield is a semiring whose nonzero elements form a group under multiplication.
 This node is about the first meaning.

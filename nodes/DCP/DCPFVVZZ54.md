@@ -21,7 +21,7 @@ Then $f$ has a fixed point: there is $x \in K$ with $f(x) = x$.
 
 ## Remarks
 
-The proof reduces to the Brouwer fixed-point theorem.
+The proof reduces to the [[Brouwer fixed-point theorem|N7AAJ2MW5T]].
 For $\varepsilon > 0$, compactness gives a finite $\varepsilon$-net $\set{y_1, \ldots, y_m}$ of $K$.
 The Schauder projection maps $K$ continuously into the convex hull of the $y_i$ and moves each point by less than $\varepsilon$.
 Brouwer's theorem gives a fixed point of the projected map on this finite-dimensional convex set, and it is an $\varepsilon$-fixed point of $f$.

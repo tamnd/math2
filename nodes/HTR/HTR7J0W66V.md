@@ -16,7 +16,7 @@ A coupling of two [[probability measures|059TJN0NZ1]] $\mu$ and $\nu$ is a joint
 In it, $X$ has law $\mu$ and $Y$ has law $\nu$.
 The two marginals are fixed, but the dependence between $X$ and $Y$ is free to choose.
 A clever choice turns a comparison of two laws into a comparison of two random variables on one space.
-Couplings are a main tool for bounds in total variation distance, for convergence of [[Markov chains|0G48PYM96Q]], for [[stochastic ordering|HJPPRZ29YE]] and in optimal transport.
+Couplings are a main tool for bounds in [[total variation distance|3SZESKX3N5]], for convergence of [[Markov chains|0G48PYM96Q]], for [[stochastic ordering|HJPPRZ29YE]] and in optimal transport.
 
 ## Explanations
 

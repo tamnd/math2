@@ -13,7 +13,7 @@ items:
   # Basic notions
   - {name: commutative ring, kind: definition, decl: CommRing, wikipedia: Commutative ring, wikidata: Q858656, node: 0310REJJY8}
   - {name: commutative algebra over a ring, kind: definition, decl: Algebra, wikipedia: Associative algebra, wikidata: Q744960, mathlib: [mathlib-undergrad, mathlib-overview], node: DPBJ04JMH8}
-  - {name: subalgebra, kind: definition, decl: Subalgebra, wikipedia: Subalgebra, wikidata: Q629933}
+  - {name: subalgebra, kind: definition, decl: Subalgebra, wikipedia: Subalgebra, wikidata: Q629933, node: 7CHG6SD365}
   - {name: ring homomorphism, kind: definition, wikipedia: Ring homomorphism, wikidata: Q1194212, node: 0VTH8KPCG2}
   - {name: ideal, kind: definition, decl: Ideal, wikipedia: Ideal (ring theory), wikidata: Q44649, mathlib: [mathlib-undergrad, mathlib-overview], node: 096Z9MP2ME}
   - {name: quotient ring, kind: definition, decl: Ideal.Quotient.mk, wikipedia: Quotient ring, wikidata: Q619436, node: 0076HWHGHQ}
@@ -181,7 +181,7 @@ items:
   - {name: valuation ring, kind: definition, decl: ValuationRing, wikipedia: Valuation ring, wikidata: Q12013681, node: QSX12D8RQM}
   - {name: valuation, kind: definition, decl: Valuation, wikipedia: Valuation (algebra), wikidata: Q852757, node: B85T5VKR3M}
   - {name: discrete valuation ring, kind: definition, decl: IsDiscreteValuationRing, wikipedia: Discrete valuation ring, wikidata: Q986694, node: MGM3CNJW9V}
-  - {name: characterizations of DVRs, kind: statement, wikipedia: Discrete valuation ring, wikidata: Q986694}
+  - {name: characterizations of DVRs, kind: statement, wikipedia: Discrete valuation ring, wikidata: Q986694, node: E7XJ3X8RG4}
   - {name: Dedekind domain, kind: definition, decl: IsDedekindDomain, wikipedia: Dedekind domain, wikidata: Q254347, node: 7NPY2CN5KB}
   - {name: unique factorization of ideals in a Dedekind domain, kind: statement, decl: Ideal.uniqueFactorizationMonoid, wikipedia: Dedekind domain, wikidata: Q254347, node: S6PHT75MEK}
   - {name: fractional ideal, kind: definition, decl: FractionalIdeal, wikipedia: Fractional ideal, wikidata: Q1497184, mathlib: [mathlib-overview], node: YB4JTB4WJN}
@@ -203,11 +203,11 @@ items:
   - {name: tensor product of modules, kind: definition, decl: TensorProduct, wikipedia: Tensor product of modules, wikidata: Q3406761, mathlib: [mathlib-overview], node: F0HQXQ0HCD}
   - {name: tensor product of algebras, kind: definition, wikipedia: Tensor product of algebras, wikidata: Q7700713, node: 1735VGRT2P}
   - {name: exact sequence, kind: definition, decl: Function.Exact, wikipedia: Exact sequence, wikidata: Q1326955, node: JB7ZBFBA9C}
-  - {name: Hom functor and tensor-hom adjunction, kind: statement, wikipedia: Tensor–hom adjunction, wikidata: Q16147769}
+  - {name: Hom functor and tensor-hom adjunction, kind: statement, wikipedia: Tensor–hom adjunction, wikidata: Q16147769, node: AVXARAXHKY}
   - {name: finitely generated projective modules over local rings are free, kind: statement, decl: Module.free_of_flat_of_isLocalRing, wikipedia: Projective module, wikidata: Q942423, node: 942FK83S09}
   - {name: Quillen–Suslin theorem, kind: statement, wikipedia: Quillen–Suslin theorem, wikidata: Q7272004, node: 7N50GA46W1}
   - {name: Serre's problem on projective modules, kind: problem, wikipedia: Quillen–Suslin theorem, wikidata: Q7272004, node: 7GG0XYHB0T}
-  - {name: structure theorem for finitely generated modules over a PID, kind: statement, decl: Module.equiv_free_prod_directSum, wikipedia: Structure theorem for finitely generated modules over a principal ideal domain, wikidata: Q7888360, mathlib: [mathlib-overview, mathlib-1000]}
+  - {name: structure theorem for finitely generated modules over a PID, kind: statement, decl: Module.equiv_free_prod_directSum, wikipedia: Structure theorem for finitely generated modules over a principal ideal domain, wikidata: Q7888360, mathlib: [mathlib-overview, mathlib-1000], node: TXMV0YDACG}
   - {name: torsion submodule, kind: definition, decl: Submodule.torsion, wikipedia: Torsion (algebra), wikidata: Q382874, node: 6PBS6KW0NC}
   - {name: Cayley–Hamilton theorem for modules, kind: statement, wikipedia: Cayley–Hamilton theorem, wikidata: Q656772, node: SH3R5VTMZH}
   - {name: determinant trick, kind: statement, decl: Submodule.exists_sub_one_mem_and_smul_eq_zero_of_fg_of_le_smul, wikipedia: Nakayama's lemma, wikidata: Q1399751, node: A8HRT9H3XA}
@@ -266,7 +266,7 @@ items:
   - {name: regular chain, kind: definition, wikipedia: Regular chain, wikidata: Q7309593, node: 1ZA98AGKGK}
   # Special rings
   - {name: von Neumann regular ring, kind: definition, wikipedia: Von Neumann regular ring, wikidata: Q2895315, node: DXX7GNY3HE}
-  - {name: Hilbert ring, kind: definition, wikipedia: Jacobson ring, wikidata: Q2620920}
+  - {name: Hilbert ring, kind: definition, wikipedia: Jacobson ring, wikidata: Q2620920, node: 7EB64ZBXAT}
   - {name: finite ring, kind: definition, wikipedia: Finite ring, wikidata: Q2354159, node: X6713ZP2NH}
   - {name: Galois ring, kind: definition, wikipedia: Finite ring, wikidata: Q2354159, node: H9S7RMBMFD}
   - {name: semiring, kind: definition, wikipedia: Semiring, wikidata: Q1333055, node: D31S3GR51T}

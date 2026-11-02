@@ -33,7 +33,7 @@ Example: for $m = 6$, the partitions with parts differing by at least $2$ are $6
 The partitions into parts from $\set{1, 4, 6, 9, \ldots}$ are $6$, $4 + 1 + 1$ and $1 + 1 + 1 + 1 + 1 + 1$.
 Both counts are $3$.
 
-A standard proof transforms the sum side and then applies the Jacobi triple product to reach the product side.
+A standard proof transforms the sum side and then applies the [[Jacobi triple product|JFP2DGMNXT]] to reach the product side.
 The identities were found by Leonard James Rogers and later found again by Srinivasa Ramanujan.
 
 ## Explanations

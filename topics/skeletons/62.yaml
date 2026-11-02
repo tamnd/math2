@@ -7,268 +7,268 @@ sources:
   wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
 items:
   # Foundations of statistics
-  - {name: mathematical statistics, kind: concept, wikipedia: Mathematical statistics, wikidata: Q745328}
-  - {name: statistical model, kind: definition, wikipedia: Statistical model, wikidata: Q3284399}
-  - {name: parametric model, kind: definition, wikipedia: Parametric model, wikidata: Q7135228}
-  - {name: identifiability, kind: definition, wikipedia: Identifiability, wikidata: Q1656753}
-  - {name: statistical inference, kind: concept, wikipedia: Statistical inference, wikidata: Q938438}
+  - {name: mathematical statistics, kind: concept, wikipedia: Mathematical statistics, wikidata: Q745328, node: XZSA2NCATS}
+  - {name: statistical model, kind: definition, wikipedia: Statistical model, wikidata: Q3284399, node: K3AMMSY8DD}
+  - {name: parametric model, kind: definition, wikipedia: Parametric model, wikidata: Q7135228, node: MSC0MR8VMH}
+  - {name: identifiability, kind: definition, wikipedia: Identifiability, wikidata: Q1656753, node: 605M5NMFD5}
+  - {name: statistical inference, kind: concept, wikipedia: Statistical inference, wikidata: Q938438, node: JZ2S01BHJJ}
   - {name: statistic, kind: definition, wikipedia: Statistic, wikidata: Q1949963, node: 0Q5CG2NEQ8}
-  - {name: sampling distribution, kind: definition, wikipedia: Sampling distribution, wikidata: Q3773214}
-  - {name: sample mean and sample covariance, kind: definition, wikipedia: Sample mean and covariance, wikidata: Q2348165}
-  - {name: order statistic, kind: definition, wikipedia: Order statistic, wikidata: Q1767128}
-  - {name: empirical distribution function, kind: definition, decl: MeasureTheory.empiricalMeasure, wikipedia: Empirical distribution function, wikidata: Q1339385}
+  - {name: sampling distribution, kind: definition, wikipedia: Sampling distribution, wikidata: Q3773214, node: 656Y8FA3RY}
+  - {name: sample mean and sample covariance, kind: definition, wikipedia: Sample mean and covariance, wikidata: Q2348165, node: ZP455BADJ3}
+  - {name: order statistic, kind: definition, wikipedia: Order statistic, wikidata: Q1767128, node: 58NHGZDSRE}
+  - {name: empirical distribution function, kind: definition, decl: MeasureTheory.empiricalMeasure, wikipedia: Empirical distribution function, wikidata: Q1339385, node: A05WR6TEK5}
   - {name: likelihood function, kind: definition, wikipedia: Likelihood function, wikidata: Q45284, node: 0VW9E4QXR6}
-  - {name: likelihood principle, kind: statement, wikipedia: Likelihood principle, wikidata: Q13200161}
-  - {name: frequentist inference, kind: concept, wikipedia: Frequentist inference, wikidata: Q2158281}
+  - {name: likelihood principle, kind: statement, wikipedia: Likelihood principle, wikidata: Q13200161, node: YR5RAT9HWZ}
+  - {name: frequentist inference, kind: concept, wikipedia: Frequentist inference, wikidata: Q2158281, node: YDSNHKM3EG}
   # Bayesian inference
   - {name: Bayesian inference, kind: concept, wikipedia: Bayesian inference, wikidata: Q812535, node: 0JWRJX2RMP}
   - {name: prior distribution, kind: definition, wikipedia: Prior probability, wikidata: Q278090, node: 00NBBSXRQS}
   - {name: posterior distribution, kind: definition, decl: ProbabilityTheory.posterior, wikipedia: Posterior probability, wikidata: Q278079, node: 0KJ7ZS8AJA}
-  - {name: conjugate prior, kind: definition, wikipedia: Conjugate prior, wikidata: Q3711784}
-  - {name: Jeffreys prior, kind: definition, wikipedia: Jeffreys prior, wikidata: Q4068240}
-  - {name: credible interval, kind: definition, wikipedia: Credible interval, wikidata: Q4439221}
-  - {name: Bayes factor, kind: definition, wikipedia: Bayes factor, wikidata: Q4165283}
-  - {name: Lindley's paradox, kind: counterexample, wikipedia: Lindley's paradox, wikidata: Q6552538}
-  - {name: Bernstein–von Mises theorem, kind: statement, wikipedia: Bernstein–von Mises theorem, wikidata: Q4894580}
-  - {name: empirical Bayes method, kind: concept, wikipedia: Empirical Bayes method, wikidata: Q5374241}
-  - {name: Bayesian hierarchical model, kind: definition, wikipedia: Bayesian hierarchical modeling, wikidata: Q17100952}
+  - {name: conjugate prior, kind: definition, wikipedia: Conjugate prior, wikidata: Q3711784, node: EHY450Q5CW}
+  - {name: Jeffreys prior, kind: definition, wikipedia: Jeffreys prior, wikidata: Q4068240, node: 18MMYZ7922}
+  - {name: credible interval, kind: definition, wikipedia: Credible interval, wikidata: Q4439221, node: 441PZ3T7F0}
+  - {name: Bayes factor, kind: definition, wikipedia: Bayes factor, wikidata: Q4165283, node: NSBYE143KS}
+  - {name: Lindley's paradox, kind: counterexample, wikipedia: Lindley's paradox, wikidata: Q6552538, node: 75P3EJPH81}
+  - {name: Bernstein–von Mises theorem, kind: statement, wikipedia: Bernstein–von Mises theorem, wikidata: Q4894580, node: 1E8QNK0Q92}
+  - {name: empirical Bayes method, kind: concept, wikipedia: Empirical Bayes method, wikidata: Q5374241, node: 8GG2Z2E61R}
+  - {name: Bayesian hierarchical model, kind: definition, wikipedia: Bayesian hierarchical modeling, wikidata: Q17100952, node: P944X6S117}
   # Sufficiency and information
-  - {name: sufficient statistic, kind: definition, wikipedia: Sufficient statistic, wikidata: Q1099110}
-  - {name: Fisher–Neyman factorization theorem, kind: statement, wikipedia: Sufficient statistic, wikidata: Q1099110}
-  - {name: minimal sufficient statistic, kind: definition, wikipedia: Sufficient statistic, wikidata: Q1099110}
-  - {name: complete statistic, kind: definition, wikipedia: Completeness (statistics), wikidata: Q2532735}
-  - {name: ancillary statistic, kind: definition, wikipedia: Ancillary statistic, wikidata: Q4753046}
-  - {name: Basu's theorem, kind: statement, wikipedia: Basu's theorem, wikidata: Q791258}
-  - {name: Rao–Blackwell theorem, kind: statement, wikipedia: Rao–Blackwell theorem, wikidata: Q579515}
-  - {name: Lehmann–Scheffé theorem, kind: statement, wikipedia: Lehmann–Scheffé theorem, wikidata: Q1129636}
-  - {name: exponential family, kind: definition, wikipedia: Exponential family, wikidata: Q1188504}
-  - {name: Pitman–Koopman–Darmois theorem, kind: statement, wikipedia: Exponential family, wikidata: Q1188504}
-  - {name: Fisher information, kind: definition, wikipedia: Fisher information, wikidata: Q1420659}
-  - {name: observed information, kind: definition, wikipedia: Observed information, wikidata: Q7075478}
-  - {name: Cramér–Rao bound, kind: statement, wikipedia: Cramér–Rao bound, wikidata: Q1138810}
-  - {name: Hellinger distance, kind: definition, wikipedia: Hellinger distance, wikidata: Q3030678}
-  - {name: total variation distance between probability measures, kind: definition, decl: MeasureTheory.tvDist, wikipedia: Total variation distance of probability measures, wikidata: Q7828155}
+  - {name: sufficient statistic, kind: definition, wikipedia: Sufficient statistic, wikidata: Q1099110, node: WP4TGXJQJG}
+  - {name: Fisher–Neyman factorization theorem, kind: statement, wikipedia: Sufficient statistic, wikidata: Q1099110, node: Z6MF9ZGCMW}
+  - {name: minimal sufficient statistic, kind: definition, wikipedia: Sufficient statistic, wikidata: Q1099110, node: RADE160VJN}
+  - {name: complete statistic, kind: definition, wikipedia: Completeness (statistics), wikidata: Q2532735, node: DED6JFAV1K}
+  - {name: ancillary statistic, kind: definition, wikipedia: Ancillary statistic, wikidata: Q4753046, node: VBW2A4H6TD}
+  - {name: Basu's theorem, kind: statement, wikipedia: Basu's theorem, wikidata: Q791258, node: 6GATRFMJYY}
+  - {name: Rao–Blackwell theorem, kind: statement, wikipedia: Rao–Blackwell theorem, wikidata: Q579515, node: Y3TX4J41TP}
+  - {name: Lehmann–Scheffé theorem, kind: statement, wikipedia: Lehmann–Scheffé theorem, wikidata: Q1129636, node: QQZPWDWS29}
+  - {name: exponential family, kind: definition, wikipedia: Exponential family, wikidata: Q1188504, node: EP9VPZ0S6G}
+  - {name: Pitman–Koopman–Darmois theorem, kind: statement, wikipedia: Exponential family, wikidata: Q1188504, node: SSFSDQX8RR}
+  - {name: Fisher information, kind: definition, wikipedia: Fisher information, wikidata: Q1420659, node: G1Z3WSTE8Q}
+  - {name: observed information, kind: definition, wikipedia: Observed information, wikidata: Q7075478, node: KJ9ZQWYBY6}
+  - {name: Cramér–Rao bound, kind: statement, wikipedia: Cramér–Rao bound, wikidata: Q1138810, node: 1JFKTEQVRX}
+  - {name: Hellinger distance, kind: definition, wikipedia: Hellinger distance, wikidata: Q3030678, node: SM0R5T87TH}
+  - {name: total variation distance between probability measures, kind: definition, decl: MeasureTheory.tvDist, wikipedia: Total variation distance of probability measures, wikidata: Q7828155, node: 3SZESKX3N5}
   # Statistical decision theory
-  - {name: statistical decision theory, kind: concept, wikipedia: Decision theory, wikidata: Q177571}
-  - {name: loss function, kind: definition, wikipedia: Loss function, wikidata: Q1036748}
-  - {name: risk function, kind: definition, decl: ProbabilityTheory.avgRisk, wikipedia: Loss function, wikidata: Q1036748}
-  - {name: Bayes estimator, kind: definition, wikipedia: Bayes estimator, wikidata: Q842217}
-  - {name: Bayes risk, kind: definition, decl: ProbabilityTheory.bayesRisk, wikipedia: Bayes estimator, wikidata: Q842217}
-  - {name: minimax estimator, kind: definition, decl: ProbabilityTheory.minimaxRisk, wikipedia: Minimax estimator, wikidata: Q6865379}
-  - {name: Bayes risk is at most minimax risk, kind: statement, decl: ProbabilityTheory.bayesRisk_le_minimaxRisk, wikipedia: Minimax estimator, wikidata: Q6865379}
-  - {name: admissible decision rule, kind: definition, wikipedia: Admissible decision rule, wikidata: Q4683801}
-  - {name: complete class theorem, kind: statement, wikipedia: Admissible decision rule, wikidata: Q4683801}
-  - {name: Stein's example, kind: counterexample, wikipedia: Stein's example, wikidata: Q3895097}
-  - {name: James–Stein estimator, kind: definition, wikipedia: James–Stein estimator, wikidata: Q6146297}
-  - {name: shrinkage estimator, kind: concept, wikipedia: Shrinkage (statistics), wikidata: Q7504144}
-  - {name: Stein's lemma, kind: statement, wikipedia: Stein's lemma, wikidata: Q7606741}
-  - {name: Stein's unbiased risk estimate, kind: statement, wikipedia: Stein's unbiased risk estimate, wikidata: Q7606742}
+  - {name: statistical decision theory, kind: concept, wikipedia: Decision theory, wikidata: Q177571, node: CPFSBBHXT5}
+  - {name: loss function, kind: definition, wikipedia: Loss function, wikidata: Q1036748, node: 3BTG6VVCGZ}
+  - {name: risk function, kind: definition, decl: ProbabilityTheory.avgRisk, wikipedia: Loss function, wikidata: Q1036748, node: N26TSVRH2S}
+  - {name: Bayes estimator, kind: definition, wikipedia: Bayes estimator, wikidata: Q842217, node: PP1A0JB47Q}
+  - {name: Bayes risk, kind: definition, decl: ProbabilityTheory.bayesRisk, wikipedia: Bayes estimator, wikidata: Q842217, node: VEBDNCJJTN}
+  - {name: minimax estimator, kind: definition, decl: ProbabilityTheory.minimaxRisk, wikipedia: Minimax estimator, wikidata: Q6865379, node: 8EG1M1WZ9C}
+  - {name: Bayes risk is at most minimax risk, kind: statement, decl: ProbabilityTheory.bayesRisk_le_minimaxRisk, wikipedia: Minimax estimator, wikidata: Q6865379, node: FB692YN0BZ}
+  - {name: admissible decision rule, kind: definition, wikipedia: Admissible decision rule, wikidata: Q4683801, node: DSTF6X8DRJ}
+  - {name: complete class theorem, kind: statement, wikipedia: Admissible decision rule, wikidata: Q4683801, node: M3PFV1BX9V}
+  - {name: Stein's example, kind: counterexample, wikipedia: Stein's example, wikidata: Q3895097, node: 7SC9E65XDN}
+  - {name: James–Stein estimator, kind: definition, wikipedia: James–Stein estimator, wikidata: Q6146297, node: 709T196XCT}
+  - {name: shrinkage estimator, kind: concept, wikipedia: Shrinkage (statistics), wikidata: Q7504144, node: GPBSS1V3SS}
+  - {name: Stein's lemma, kind: statement, wikipedia: Stein's lemma, wikidata: Q7606741, node: 6PWC83R457}
+  - {name: Stein's unbiased risk estimate, kind: statement, wikipedia: Stein's unbiased risk estimate, wikidata: Q7606742, node: 30XVCMK916}
   # Sampling theory
-  - {name: simple random sample, kind: definition, wikipedia: Simple random sample, wikidata: Q1056998}
-  - {name: stratified sampling, kind: concept, wikipedia: Stratified sampling, wikidata: Q1517706}
-  - {name: Horvitz–Thompson estimator, kind: definition, wikipedia: Horvitz–Thompson estimator, wikidata: Q17027597}
-  - {name: missing data mechanisms, kind: concept, wikipedia: Missing data, wikidata: Q6878417}
+  - {name: simple random sample, kind: definition, wikipedia: Simple random sample, wikidata: Q1056998, node: Y0PTCJBPEA}
+  - {name: stratified sampling, kind: concept, wikipedia: Stratified sampling, wikidata: Q1517706, node: PNMT15BB91}
+  - {name: Horvitz–Thompson estimator, kind: definition, wikipedia: Horvitz–Thompson estimator, wikidata: Q17027597, node: QED889GZDE}
+  - {name: missing data mechanisms, kind: concept, wikipedia: Missing data, wikidata: Q6878417, node: ES4MC30ZES}
   # Distribution theory
   - {name: Student's t-distribution, kind: definition, wikipedia: Student's t-distribution, wikidata: Q576072, node: 09RTQRK5PC}
-  - {name: F-distribution, kind: definition, wikipedia: F-distribution, wikidata: Q177144}
-  - {name: noncentral chi-squared distribution, kind: definition, wikipedia: Noncentral chi-squared distribution, wikidata: Q1052990}
-  - {name: Wishart distribution, kind: definition, wikipedia: Wishart distribution, wikidata: Q1930697}
-  - {name: Hotelling's T-squared distribution, kind: definition, wikipedia: Hotelling's T-squared distribution, wikidata: Q1393230}
-  - {name: Cochran's theorem, kind: statement, wikipedia: Cochran's theorem, wikidata: Q599876}
-  - {name: independence of sample mean and sample variance for normal samples, kind: statement, wikipedia: Cochran's theorem, wikidata: Q599876}
-  - {name: delta method, kind: statement, wikipedia: Delta method, wikidata: Q1132714}
-  - {name: Edgeworth expansion, kind: statement, wikipedia: Edgeworth series, wikidata: Q5337942}
+  - {name: F-distribution, kind: definition, wikipedia: F-distribution, wikidata: Q177144, node: PBT8VRJADK}
+  - {name: noncentral chi-squared distribution, kind: definition, wikipedia: Noncentral chi-squared distribution, wikidata: Q1052990, node: RK84ANP6BP}
+  - {name: Wishart distribution, kind: definition, wikipedia: Wishart distribution, wikidata: Q1930697, node: 8BEMNJW0B9}
+  - {name: Hotelling's T-squared distribution, kind: definition, wikipedia: Hotelling's T-squared distribution, wikidata: Q1393230, node: XS9GETCZX2}
+  - {name: Cochran's theorem, kind: statement, wikipedia: Cochran's theorem, wikidata: Q599876, node: HSBWJSBH0D}
+  - {name: independence of sample mean and sample variance for normal samples, kind: statement, wikipedia: Cochran's theorem, wikidata: Q599876, node: KR80YEKVWB}
+  - {name: delta method, kind: statement, wikipedia: Delta method, wikidata: Q1132714, node: DMMXBTN6M2}
+  - {name: Edgeworth expansion, kind: statement, wikipedia: Edgeworth series, wikidata: Q5337942, node: 9C4MPVMTA7}
   # Point estimation
   - {name: estimator, kind: definition, wikipedia: Estimator, wikidata: Q1130160, node: 0SSS6ERQ0S}
-  - {name: point estimation, kind: concept, wikipedia: Point estimation, wikidata: Q1192065}
+  - {name: point estimation, kind: concept, wikipedia: Point estimation, wikidata: Q1192065, node: ATQPY2WPTA}
   - {name: bias of an estimator, kind: definition, wikipedia: Bias of an estimator, wikidata: Q11264527, node: 0BWGTN92FG}
   - {name: mean squared error, kind: definition, wikipedia: Mean squared error, wikidata: Q1940696, node: 05NZ1HHQMV}
-  - {name: bias–variance decomposition, kind: statement, wikipedia: Bias–variance tradeoff, wikidata: Q17003119}
+  - {name: bias–variance decomposition, kind: statement, wikipedia: Bias–variance tradeoff, wikidata: Q17003119, node: CJQ8D9FTQN}
   - {name: consistent estimator, kind: definition, wikipedia: Consistent estimator, wikidata: Q1782585, node: 0AS800VAYX}
-  - {name: efficiency of an estimator, kind: definition, wikipedia: Efficiency (statistics), wikidata: Q2265984}
-  - {name: minimum-variance unbiased estimator, kind: definition, wikipedia: Minimum-variance unbiased estimator, wikidata: Q3755281}
+  - {name: efficiency of an estimator, kind: definition, wikipedia: Efficiency (statistics), wikidata: Q2265984, node: 8VDNRZG3R1}
+  - {name: minimum-variance unbiased estimator, kind: definition, wikipedia: Minimum-variance unbiased estimator, wikidata: Q3755281, node: ZCJX7THBNJ}
   - {name: method of moments, kind: concept, wikipedia: Method of moments (statistics), wikidata: Q1925212, node: 09J1H07VAH}
   - {name: maximum likelihood estimation, kind: concept, wikipedia: Maximum likelihood estimation, wikidata: Q1045555, node: 0FREPFKNS7}
-  - {name: consistency of the maximum likelihood estimator, kind: statement, wikipedia: Maximum likelihood estimation, wikidata: Q1045555}
-  - {name: asymptotic normality of the maximum likelihood estimator, kind: statement, wikipedia: Maximum likelihood estimation, wikidata: Q1045555}
-  - {name: score, kind: definition, wikipedia: Informant function, wikidata: Q3952743}
-  - {name: M-estimator, kind: definition, wikipedia: M-estimator, wikidata: Q475208}
-  - {name: estimating equations, kind: concept, wikipedia: Estimating equations, wikidata: Q5401384}
-  - {name: generalized method of moments, kind: concept, wikipedia: Generalized method of moments, wikidata: Q683131}
-  - {name: expectation–maximization algorithm, kind: concept, wikipedia: Expectation–maximization algorithm, wikidata: Q1275153}
-  - {name: Hodges' superefficient estimator, kind: counterexample, wikipedia: Hodges' estimator, wikidata: Q5876082}
-  - {name: local asymptotic normality, kind: definition, wikipedia: Local asymptotic normality, wikidata: Q6664277}
-  - {name: Hájek–Le Cam convolution theorem, kind: statement, wikipedia: Local asymptotic normality, wikidata: Q6664277}
-  - {name: contiguity of measures, kind: definition, wikipedia: Contiguity (probability theory), wikidata: Q5165214}
+  - {name: consistency of the maximum likelihood estimator, kind: statement, wikipedia: Maximum likelihood estimation, wikidata: Q1045555, node: 54387XJ9QW}
+  - {name: asymptotic normality of the maximum likelihood estimator, kind: statement, wikipedia: Maximum likelihood estimation, wikidata: Q1045555, node: 8DWRYNAMFT}
+  - {name: score, kind: definition, wikipedia: Informant function, wikidata: Q3952743, node: CP97GRVTQ0}
+  - {name: M-estimator, kind: definition, wikipedia: M-estimator, wikidata: Q475208, node: 4503R8BVF8}
+  - {name: estimating equations, kind: concept, wikipedia: Estimating equations, wikidata: Q5401384, node: WTXFYA093D}
+  - {name: generalized method of moments, kind: concept, wikipedia: Generalized method of moments, wikidata: Q683131, node: ZPVMCCDYZ5}
+  - {name: expectation–maximization algorithm, kind: concept, wikipedia: Expectation–maximization algorithm, wikidata: Q1275153, node: 11N1AXSXYK}
+  - {name: Hodges' superefficient estimator, kind: counterexample, wikipedia: Hodges' estimator, wikidata: Q5876082, node: 2E46CY6S3Z}
+  - {name: local asymptotic normality, kind: definition, wikipedia: Local asymptotic normality, wikidata: Q6664277, node: 6DMQ97EBVG}
+  - {name: Hájek–Le Cam convolution theorem, kind: statement, wikipedia: Local asymptotic normality, wikidata: Q6664277, node: E5H2GFPK42}
+  - {name: contiguity of measures, kind: definition, wikipedia: Contiguity (probability theory), wikidata: Q5165214, node: DQGJMP9WHC}
   # Interval estimation
   - {name: confidence interval, kind: definition, wikipedia: Confidence interval, wikidata: Q208498, node: 0S6T9KQNC0}
-  - {name: pivotal quantity, kind: definition, wikipedia: Pivotal quantity, wikidata: Q7199665}
-  - {name: Neyman construction, kind: concept, wikipedia: Neyman construction, wikidata: Q7021454}
-  - {name: binomial proportion confidence interval, kind: definition, wikipedia: Binomial proportion confidence interval, wikidata: Q1781424}
-  - {name: Behrens–Fisher problem, kind: problem, wikipedia: Behrens–Fisher problem, wikidata: Q814556}
+  - {name: pivotal quantity, kind: definition, wikipedia: Pivotal quantity, wikidata: Q7199665, node: PXFYDT3M52}
+  - {name: Neyman construction, kind: concept, wikipedia: Neyman construction, wikidata: Q7021454, node: EKZB41Y82N}
+  - {name: binomial proportion confidence interval, kind: definition, wikipedia: Binomial proportion confidence interval, wikidata: Q1781424, node: MG2NCWHQF2}
+  - {name: Behrens–Fisher problem, kind: problem, wikipedia: Behrens–Fisher problem, wikidata: Q814556, node: EJ3W3836VZ}
   # Hypothesis testing
   - {name: statistical hypothesis test, kind: concept, wikipedia: Statistical hypothesis test, wikidata: Q210832, node: 087P03NEND}
   - {name: null hypothesis, kind: definition, wikipedia: Statistical hypothesis test, wikidata: Q210832, node: 087P03NEND}
   - {name: type I and type II errors, kind: definition, wikipedia: Type I and type II errors, wikidata: Q989120, node: 03N8C8ZR4B}
-  - {name: power of a test, kind: definition, wikipedia: Power (statistics), wikidata: Q1199823}
+  - {name: power of a test, kind: definition, wikipedia: Power (statistics), wikidata: Q1199823, node: 4RJSN0QARD}
   - {name: p-value, kind: definition, wikipedia: P-value, wikidata: Q253255, node: 0GGKJGZF6D}
   - {name: Neyman–Pearson lemma, kind: statement, wikipedia: Neyman–Pearson lemma, wikidata: Q1375989, node: 0EE19CFEEF}
-  - {name: uniformly most powerful test, kind: definition, wikipedia: Uniformly most powerful test, wikidata: Q7885148}
-  - {name: monotone likelihood ratio, kind: definition, wikipedia: Monotone likelihood ratio, wikidata: Q6902029}
-  - {name: Karlin–Rubin theorem, kind: statement, wikipedia: Uniformly most powerful test, wikidata: Q7885148}
-  - {name: likelihood-ratio test, kind: concept, wikipedia: Likelihood-ratio test, wikidata: Q585740}
-  - {name: Wilks' theorem, kind: statement, wikipedia: Wilks' theorem, wikidata: Q56273825}
-  - {name: score test, kind: concept, wikipedia: Score test, wikidata: Q4456449}
-  - {name: Wald test, kind: concept, wikipedia: Wald test, wikidata: Q748664}
+  - {name: uniformly most powerful test, kind: definition, wikipedia: Uniformly most powerful test, wikidata: Q7885148, node: QRAPTPVH8C}
+  - {name: monotone likelihood ratio, kind: definition, wikipedia: Monotone likelihood ratio, wikidata: Q6902029, node: 4Z73AFN7WT}
+  - {name: Karlin–Rubin theorem, kind: statement, wikipedia: Uniformly most powerful test, wikidata: Q7885148, node: RCASN31FFS}
+  - {name: likelihood-ratio test, kind: concept, wikipedia: Likelihood-ratio test, wikidata: Q585740, node: YM1BNA80RC}
+  - {name: Wilks' theorem, kind: statement, wikipedia: Wilks' theorem, wikidata: Q56273825, node: WQPB6GXD0M}
+  - {name: score test, kind: concept, wikipedia: Score test, wikidata: Q4456449, node: Y5HMW0BDTP}
+  - {name: Wald test, kind: concept, wikipedia: Wald test, wikidata: Q748664, node: DPW8KNHE6P}
   - {name: Student's t-test, kind: concept, wikipedia: Student's t-test, wikidata: Q309479, node: 0HYP606RYF}
-  - {name: F-test, kind: concept, wikipedia: F-test, wikidata: Q1386253}
+  - {name: F-test, kind: concept, wikipedia: F-test, wikidata: Q1386253, node: 8MTVCMAATD}
   - {name: Pearson's chi-squared test, kind: concept, wikipedia: Pearson's chi-squared test, wikidata: Q2336256, node: 0EN0V3NY20}
-  - {name: Fisher's exact test, kind: concept, wikipedia: Fisher's exact test, wikidata: Q41492}
+  - {name: Fisher's exact test, kind: concept, wikipedia: Fisher's exact test, wikidata: Q41492, node: J6JP5CJNPX}
   - {name: multiple comparisons problem, kind: problem, wikipedia: Multiple comparisons problem, wikidata: Q1038757}
-  - {name: family-wise error rate, kind: definition, wikipedia: Family-wise error rate, wikidata: Q5433418}
-  - {name: Bonferroni correction, kind: concept, wikipedia: Bonferroni correction, wikidata: Q385989}
-  - {name: false discovery rate and the Benjamini–Hochberg procedure, kind: concept, wikipedia: False discovery rate, wikidata: Q5432696}
+  - {name: family-wise error rate, kind: definition, wikipedia: Family-wise error rate, wikidata: Q5433418, node: GQCY1N8JZT}
+  - {name: Bonferroni correction, kind: concept, wikipedia: Bonferroni correction, wikidata: Q385989, node: 8GRD2TMJRR}
+  - {name: false discovery rate and the Benjamini–Hochberg procedure, kind: concept, wikipedia: False discovery rate, wikidata: Q5432696, node: 6CHHCTGQ18}
   # Model selection
-  - {name: Akaike information criterion, kind: definition, wikipedia: Akaike information criterion, wikidata: Q1662573}
-  - {name: Bayesian information criterion, kind: definition, wikipedia: Bayesian information criterion, wikidata: Q1988242}
-  - {name: minimum description length, kind: concept, wikipedia: Minimum description length, wikidata: Q1417790}
-  - {name: cross-validation, kind: concept, wikipedia: Cross-validation (statistics), wikidata: Q541014}
+  - {name: Akaike information criterion, kind: definition, wikipedia: Akaike information criterion, wikidata: Q1662573, node: CMAX3KF9H0}
+  - {name: Bayesian information criterion, kind: definition, wikipedia: Bayesian information criterion, wikidata: Q1988242, node: GXP6H9VGRB}
+  - {name: minimum description length, kind: concept, wikipedia: Minimum description length, wikidata: Q1417790, node: 8JV9PPFRG4}
+  - {name: cross-validation, kind: concept, wikipedia: Cross-validation (statistics), wikidata: Q541014, node: HA1KJ3B9DX}
   # Nonparametric inference
-  - {name: nonparametric statistics, kind: concept, wikipedia: Nonparametric statistics, wikidata: Q1097688}
-  - {name: kernel density estimation, kind: concept, wikipedia: Kernel density estimation, wikidata: Q458825}
-  - {name: kernel regression, kind: concept, wikipedia: Kernel regression, wikidata: Q1739319}
-  - {name: local regression, kind: concept, wikipedia: Local regression, wikidata: Q6664520}
+  - {name: nonparametric statistics, kind: concept, wikipedia: Nonparametric statistics, wikidata: Q1097688, node: VFAJ1EG3X5}
+  - {name: kernel density estimation, kind: concept, wikipedia: Kernel density estimation, wikidata: Q458825, node: ZV65XMJ9A4}
+  - {name: kernel regression, kind: concept, wikipedia: Kernel regression, wikidata: Q1739319, node: 710VV73909}
+  - {name: local regression, kind: concept, wikipedia: Local regression, wikidata: Q6664520, node: TQFFFSH0BQ}
   - {name: smoothing spline, kind: definition, wikipedia: Smoothing spline, wikidata: Q7546460}
-  - {name: Kolmogorov–Smirnov test, kind: concept, wikipedia: Kolmogorov–Smirnov test, wikidata: Q575766}
-  - {name: Dvoretzky–Kiefer–Wolfowitz inequality, kind: statement, wikipedia: Dvoretzky–Kiefer–Wolfowitz inequality, wikidata: Q5317822}
-  - {name: Cramér–von Mises criterion, kind: concept, wikipedia: Cramér–von Mises criterion, wikidata: Q783996}
-  - {name: Anderson–Darling test, kind: concept, wikipedia: Anderson–Darling test, wikidata: Q491401}
-  - {name: sign test, kind: concept, wikipedia: Sign test, wikidata: Q2301904}
-  - {name: Wilcoxon signed-rank test, kind: concept, wikipedia: Wilcoxon signed-rank test, wikidata: Q1751970}
-  - {name: Mann–Whitney U test, kind: concept, wikipedia: Mann–Whitney U test, wikidata: Q1424533}
-  - {name: Kruskal–Wallis test, kind: concept, wikipedia: Kruskal–Wallis test, wikidata: Q1790302}
-  - {name: Spearman's rank correlation coefficient, kind: definition, wikipedia: Spearman's rank correlation coefficient, wikidata: Q1126730}
-  - {name: Kendall rank correlation coefficient, kind: definition, wikipedia: Kendall rank correlation coefficient, wikidata: Q3268404}
-  - {name: permutation test, kind: concept, wikipedia: Permutation test, wikidata: Q108839445}
-  - {name: bootstrap, kind: concept, wikipedia: Bootstrapping (statistics), wikidata: Q301990}
-  - {name: jackknife, kind: concept, wikipedia: Jackknife resampling, wikidata: Q847158}
-  - {name: U-statistic, kind: definition, wikipedia: U-statistic, wikidata: Q7862949}
-  - {name: L-estimator, kind: definition, wikipedia: L-estimator, wikidata: Q6456129}
-  - {name: empirical likelihood, kind: concept, wikipedia: Empirical likelihood, wikidata: Q5374245}
-  - {name: isotonic regression, kind: concept, wikipedia: Isotonic regression, wikidata: Q3455874}
-  - {name: quantile regression, kind: concept, wikipedia: Quantile regression, wikidata: Q3455889}
-  - {name: Pickands–Balkema–De Haan theorem, kind: statement, wikipedia: Pickands–Balkema–De Haan theorem, wikidata: Q7190748}
+  - {name: Kolmogorov–Smirnov test, kind: concept, wikipedia: Kolmogorov–Smirnov test, wikidata: Q575766, node: YZYHWC6C5F}
+  - {name: Dvoretzky–Kiefer–Wolfowitz inequality, kind: statement, wikipedia: Dvoretzky–Kiefer–Wolfowitz inequality, wikidata: Q5317822, node: H5G7CNYZEB}
+  - {name: Cramér–von Mises criterion, kind: concept, wikipedia: Cramér–von Mises criterion, wikidata: Q783996, node: G14XJXPKFS}
+  - {name: Anderson–Darling test, kind: concept, wikipedia: Anderson–Darling test, wikidata: Q491401, node: N9ZB0KMV0B}
+  - {name: sign test, kind: concept, wikipedia: Sign test, wikidata: Q2301904, node: NBK6G2VB7A}
+  - {name: Wilcoxon signed-rank test, kind: concept, wikipedia: Wilcoxon signed-rank test, wikidata: Q1751970, node: 38SETDT2HN}
+  - {name: Mann–Whitney U test, kind: concept, wikipedia: Mann–Whitney U test, wikidata: Q1424533, node: CKF9KDXBP7}
+  - {name: Kruskal–Wallis test, kind: concept, wikipedia: Kruskal–Wallis test, wikidata: Q1790302, node: EG4VCBXDKZ}
+  - {name: Spearman's rank correlation coefficient, kind: definition, wikipedia: Spearman's rank correlation coefficient, wikidata: Q1126730, node: DJFYTQJ3SH}
+  - {name: Kendall rank correlation coefficient, kind: definition, wikipedia: Kendall rank correlation coefficient, wikidata: Q3268404, node: DYFY16SFHZ}
+  - {name: permutation test, kind: concept, wikipedia: Permutation test, wikidata: Q108839445, node: 2ECAM46NE2}
+  - {name: bootstrap, kind: concept, wikipedia: Bootstrapping (statistics), wikidata: Q301990, node: 40ATJEVR32}
+  - {name: jackknife, kind: concept, wikipedia: Jackknife resampling, wikidata: Q847158, node: WQ8TQKDKYT}
+  - {name: U-statistic, kind: definition, wikipedia: U-statistic, wikidata: Q7862949, node: NTVQB1DC56}
+  - {name: L-estimator, kind: definition, wikipedia: L-estimator, wikidata: Q6456129, node: E3C4F0RKJY}
+  - {name: empirical likelihood, kind: concept, wikipedia: Empirical likelihood, wikidata: Q5374245, node: BFQBHBN5F5}
+  - {name: isotonic regression, kind: concept, wikipedia: Isotonic regression, wikidata: Q3455874, node: JAFPWZDM95}
+  - {name: quantile regression, kind: concept, wikipedia: Quantile regression, wikidata: Q3455889, node: 2F5C10ED1A}
+  - {name: Pickands–Balkema–De Haan theorem, kind: statement, wikipedia: Pickands–Balkema–De Haan theorem, wikidata: Q7190748, node: 62TMXRHZ76}
   # Robust statistics
-  - {name: robust statistics, kind: concept, wikipedia: Robust statistics, wikidata: Q1665389}
-  - {name: breakdown point, kind: definition, wikipedia: Robust statistics, wikidata: Q1665389}
-  - {name: influence function, kind: definition, wikipedia: Robust statistics, wikidata: Q1665389}
-  - {name: Huber loss, kind: definition, wikipedia: Huber loss, wikidata: Q17027770}
-  - {name: Hodges–Lehmann estimator, kind: definition, wikipedia: Hodges–Lehmann estimator, wikidata: Q15729148}
+  - {name: robust statistics, kind: concept, wikipedia: Robust statistics, wikidata: Q1665389, node: J7410PG2DR}
+  - {name: breakdown point, kind: definition, wikipedia: Robust statistics, wikidata: Q1665389, node: BRGGGZVQDS}
+  - {name: influence function, kind: definition, wikipedia: Robust statistics, wikidata: Q1665389, node: EB2QJQNE5Z}
+  - {name: Huber loss, kind: definition, wikipedia: Huber loss, wikidata: Q17027770, node: RATW595XR9}
+  - {name: Hodges–Lehmann estimator, kind: definition, wikipedia: Hodges–Lehmann estimator, wikidata: Q15729148, node: T6KRQAQQ15}
   # Multivariate analysis
   - {name: Pearson correlation coefficient, kind: definition, wikipedia: Pearson correlation coefficient, wikidata: Q1136628, node: 0DNN9B6Q2F}
-  - {name: partial correlation, kind: definition, wikipedia: Partial correlation, wikidata: Q2998010}
-  - {name: Mahalanobis distance, kind: definition, wikipedia: Mahalanobis distance, wikidata: Q1334846}
-  - {name: principal component analysis, kind: concept, wikipedia: Principal component analysis, wikidata: Q2873}
-  - {name: factor analysis, kind: concept, wikipedia: Factor analysis, wikidata: Q726474}
-  - {name: canonical correlation, kind: concept, wikipedia: Canonical correlation, wikidata: Q115542}
-  - {name: linear discriminant analysis, kind: concept, wikipedia: Linear discriminant analysis, wikidata: Q1228929}
-  - {name: multivariate analysis of variance, kind: concept, wikipedia: Multivariate analysis of variance, wikidata: Q929408}
-  - {name: independent component analysis, kind: concept, wikipedia: Independent component analysis, wikidata: Q1259145}
-  - {name: multidimensional scaling, kind: concept, wikipedia: Multidimensional scaling, wikidata: Q620538}
-  - {name: copula, kind: definition, wikipedia: Copula (statistics), wikidata: Q1131601}
-  - {name: Sklar's theorem, kind: statement, wikipedia: Copula (statistics), wikidata: Q1131601}
-  - {name: contingency table, kind: definition, wikipedia: Contingency table, wikidata: Q1541178}
-  - {name: Simpson's paradox, kind: counterexample, wikipedia: Simpson's paradox, wikidata: Q757290}
-  - {name: mixture model, kind: definition, wikipedia: Mixture model, wikidata: Q2260434}
-  - {name: latent variable model, kind: definition, wikipedia: Latent variable model, wikidata: Q1806885}
-  - {name: cluster analysis, kind: concept, wikipedia: Cluster analysis, wikidata: Q622825}
-  - {name: k-means clustering, kind: concept, wikipedia: K-means clustering, wikidata: Q310401}
-  - {name: graphical model, kind: concept, wikipedia: Graphical model, wikidata: Q1143367}
-  - {name: Bayesian network, kind: definition, wikipedia: Bayesian network, wikidata: Q812540}
-  - {name: Markov random field, kind: definition, wikipedia: Markov random field, wikidata: Q176827}
-  - {name: Hammersley–Clifford theorem, kind: statement, wikipedia: Hammersley–Clifford theorem, wikidata: Q5645731}
-  - {name: directional statistics, kind: concept, wikipedia: Directional statistics, wikidata: Q3497519}
-  - {name: von Mises–Fisher distribution, kind: definition, wikipedia: Von Mises–Fisher distribution, wikidata: Q7941489}
+  - {name: partial correlation, kind: definition, wikipedia: Partial correlation, wikidata: Q2998010, node: TT3BXBR4DB}
+  - {name: Mahalanobis distance, kind: definition, wikipedia: Mahalanobis distance, wikidata: Q1334846, node: P546TSFBK2}
+  - {name: principal component analysis, kind: concept, wikipedia: Principal component analysis, wikidata: Q2873, node: ABXD13M340}
+  - {name: factor analysis, kind: concept, wikipedia: Factor analysis, wikidata: Q726474, node: 4QQQP1Q886}
+  - {name: canonical correlation, kind: concept, wikipedia: Canonical correlation, wikidata: Q115542, node: E0WKQ3XBAC}
+  - {name: linear discriminant analysis, kind: concept, wikipedia: Linear discriminant analysis, wikidata: Q1228929, node: ZATS7NV9WD}
+  - {name: multivariate analysis of variance, kind: concept, wikipedia: Multivariate analysis of variance, wikidata: Q929408, node: 8J3B7N8CAT}
+  - {name: independent component analysis, kind: concept, wikipedia: Independent component analysis, wikidata: Q1259145, node: NBX8FZY516}
+  - {name: multidimensional scaling, kind: concept, wikipedia: Multidimensional scaling, wikidata: Q620538, node: EZ596QFCKY}
+  - {name: copula, kind: definition, wikipedia: Copula (statistics), wikidata: Q1131601, node: CAMJRBZANK}
+  - {name: Sklar's theorem, kind: statement, wikipedia: Copula (statistics), wikidata: Q1131601, node: ZD7V7R27R9}
+  - {name: contingency table, kind: definition, wikipedia: Contingency table, wikidata: Q1541178, node: PANSMHE0SW}
+  - {name: Simpson's paradox, kind: counterexample, wikipedia: Simpson's paradox, wikidata: Q757290, node: T060JHSH05}
+  - {name: mixture model, kind: definition, wikipedia: Mixture model, wikidata: Q2260434, node: C98DKQSTNC}
+  - {name: latent variable model, kind: definition, wikipedia: Latent variable model, wikidata: Q1806885, node: C63RVH96TF}
+  - {name: cluster analysis, kind: concept, wikipedia: Cluster analysis, wikidata: Q622825, node: D9Y3A9RH6J}
+  - {name: k-means clustering, kind: concept, wikipedia: K-means clustering, wikidata: Q310401, node: D5PN3G41D6}
+  - {name: graphical model, kind: concept, wikipedia: Graphical model, wikidata: Q1143367, node: Q3FQAD1BXG}
+  - {name: Bayesian network, kind: definition, wikipedia: Bayesian network, wikidata: Q812540, node: 21JT983G60}
+  - {name: Markov random field, kind: definition, wikipedia: Markov random field, wikidata: Q176827, node: 6W69H3A3G5}
+  - {name: Hammersley–Clifford theorem, kind: statement, wikipedia: Hammersley–Clifford theorem, wikidata: Q5645731, node: K07QH8EKD0}
+  - {name: directional statistics, kind: concept, wikipedia: Directional statistics, wikidata: Q3497519, node: 8GZJQBPBY0}
+  - {name: von Mises–Fisher distribution, kind: definition, wikipedia: Von Mises–Fisher distribution, wikidata: Q7941489, node: V8ZZ7A2FMF}
   # Linear inference and regression
-  - {name: linear regression, kind: concept, wikipedia: Linear regression, wikidata: Q10861030}
-  - {name: ordinary least squares, kind: concept, wikipedia: Ordinary least squares, wikidata: Q2912993}
-  - {name: Gauss–Markov theorem, kind: statement, wikipedia: Gauss–Markov theorem, wikidata: Q428134}
-  - {name: coefficient of determination, kind: definition, wikipedia: Coefficient of determination, wikidata: Q192830}
-  - {name: Frisch–Waugh–Lovell theorem, kind: statement, wikipedia: Frisch–Waugh–Lovell theorem, wikidata: Q1059151}
-  - {name: generalized least squares, kind: concept, wikipedia: Generalized least squares, wikidata: Q2246261}
-  - {name: weighted least squares, kind: concept, wikipedia: Weighted least squares, wikidata: Q20025290}
-  - {name: ridge regression, kind: concept, wikipedia: Ridge regression, wikidata: Q106091291}
-  - {name: lasso, kind: concept, wikipedia: Lasso (statistics), wikidata: Q20789991}
-  - {name: elastic net, kind: concept, wikipedia: Elastic net regularization, wikidata: Q5353562}
-  - {name: analysis of variance, kind: concept, wikipedia: Analysis of variance, wikidata: Q42297}
-  - {name: general linear model, kind: definition, wikipedia: General linear model, wikidata: Q1826488}
-  - {name: mixed model, kind: definition, wikipedia: Mixed model, wikidata: Q1501135}
-  - {name: generalized linear model, kind: definition, wikipedia: Generalized linear model, wikidata: Q1501882}
-  - {name: logistic regression, kind: definition, wikipedia: Logistic regression, wikidata: Q1132755}
-  - {name: Poisson regression, kind: definition, wikipedia: Poisson regression, wikidata: Q954529}
-  - {name: probit model, kind: definition, wikipedia: Probit model, wikidata: Q635217}
-  - {name: nonlinear regression, kind: concept, wikipedia: Nonlinear regression, wikidata: Q2755024}
-  - {name: errors-in-variables model, kind: definition, wikipedia: Errors-in-variables model, wikidata: Q5395728}
-  - {name: instrumental variables estimation, kind: concept, wikipedia: Instrumental variables, wikidata: Q1665305}
-  - {name: heteroscedasticity, kind: definition, wikipedia: Homoscedasticity and heteroscedasticity, wikidata: Q1063540}
+  - {name: linear regression, kind: concept, wikipedia: Linear regression, wikidata: Q10861030, node: 41FVC4P5JB}
+  - {name: ordinary least squares, kind: concept, wikipedia: Ordinary least squares, wikidata: Q2912993, node: YM708KHV2W}
+  - {name: Gauss–Markov theorem, kind: statement, wikipedia: Gauss–Markov theorem, wikidata: Q428134, node: N3YMNMWANM}
+  - {name: coefficient of determination, kind: definition, wikipedia: Coefficient of determination, wikidata: Q192830, node: B45RMKMVZ5}
+  - {name: Frisch–Waugh–Lovell theorem, kind: statement, wikipedia: Frisch–Waugh–Lovell theorem, wikidata: Q1059151, node: 6C67F22FTD}
+  - {name: generalized least squares, kind: concept, wikipedia: Generalized least squares, wikidata: Q2246261, node: P142WXJCF3}
+  - {name: weighted least squares, kind: concept, wikipedia: Weighted least squares, wikidata: Q20025290, node: H5CGZHBR58}
+  - {name: ridge regression, kind: concept, wikipedia: Ridge regression, wikidata: Q106091291, node: 3KZW2930V2}
+  - {name: lasso, kind: concept, wikipedia: Lasso (statistics), wikidata: Q20789991, node: KZ226116HW}
+  - {name: elastic net, kind: concept, wikipedia: Elastic net regularization, wikidata: Q5353562, node: TKQPE0Q05Y}
+  - {name: analysis of variance, kind: concept, wikipedia: Analysis of variance, wikidata: Q42297, node: M9AQ5HKGP4}
+  - {name: general linear model, kind: definition, wikipedia: General linear model, wikidata: Q1826488, node: A06SGFCSCE}
+  - {name: mixed model, kind: definition, wikipedia: Mixed model, wikidata: Q1501135, node: JNTTAHTPDD}
+  - {name: generalized linear model, kind: definition, wikipedia: Generalized linear model, wikidata: Q1501882, node: K6C48KMRKC}
+  - {name: logistic regression, kind: definition, wikipedia: Logistic regression, wikidata: Q1132755, node: JN1PJ5AJJS}
+  - {name: Poisson regression, kind: definition, wikipedia: Poisson regression, wikidata: Q954529, node: STHTW16717}
+  - {name: probit model, kind: definition, wikipedia: Probit model, wikidata: Q635217, node: XCR3V8SJ01}
+  - {name: nonlinear regression, kind: concept, wikipedia: Nonlinear regression, wikidata: Q2755024, node: C7E69V030F}
+  - {name: errors-in-variables model, kind: definition, wikipedia: Errors-in-variables model, wikidata: Q5395728, node: 2XX0A85WSF}
+  - {name: instrumental variables estimation, kind: concept, wikipedia: Instrumental variables, wikidata: Q1665305, node: 6ETK64HYK6}
+  - {name: heteroscedasticity, kind: definition, wikipedia: Homoscedasticity and heteroscedasticity, wikidata: Q1063540, node: D8VX6XQ3TT}
   # Design of experiments
-  - {name: design of experiments, kind: concept, wikipedia: Design of experiments, wikidata: Q2334061}
-  - {name: randomization, kind: concept, wikipedia: Randomization, wikidata: Q1363085}
-  - {name: blocking, kind: concept, wikipedia: Blocking (statistics), wikidata: Q4927286}
-  - {name: factorial experiment, kind: concept, wikipedia: Factorial experiment, wikidata: Q4116558}
-  - {name: fractional factorial design, kind: concept, wikipedia: Fractional factorial design, wikidata: Q2400745}
-  - {name: optimal experimental design, kind: concept, wikipedia: Optimal experimental design, wikidata: Q7098942}
-  - {name: Kiefer–Wolfowitz equivalence theorem, kind: statement, wikipedia: Optimal experimental design, wikidata: Q7098942}
-  - {name: response surface methodology, kind: concept, wikipedia: Response surface methodology, wikidata: Q3136137}
+  - {name: design of experiments, kind: concept, wikipedia: Design of experiments, wikidata: Q2334061, node: 2TE42ZWJ3E}
+  - {name: randomization, kind: concept, wikipedia: Randomization, wikidata: Q1363085, node: 734Q6Q51X7}
+  - {name: blocking, kind: concept, wikipedia: Blocking (statistics), wikidata: Q4927286, node: XCWKYS1DFA}
+  - {name: factorial experiment, kind: concept, wikipedia: Factorial experiment, wikidata: Q4116558, node: EHJ3R589ZX}
+  - {name: fractional factorial design, kind: concept, wikipedia: Fractional factorial design, wikidata: Q2400745, node: PBK2XY4M0A}
+  - {name: optimal experimental design, kind: concept, wikipedia: Optimal experimental design, wikidata: Q7098942, node: PM5PQX6TVP}
+  - {name: Kiefer–Wolfowitz equivalence theorem, kind: statement, wikipedia: Optimal experimental design, wikidata: Q7098942, node: 71XBFB49HE}
+  - {name: response surface methodology, kind: concept, wikipedia: Response surface methodology, wikidata: Q3136137, node: 42NZSQ65DQ}
   # Sequential statistics
-  - {name: sequential analysis, kind: concept, wikipedia: Sequential analysis, wikidata: Q195771}
-  - {name: sequential probability ratio test, kind: concept, wikipedia: Sequential probability ratio test, wikidata: Q2271882}
-  - {name: Wald–Wolfowitz optimality of the sequential probability ratio test, kind: statement, wikipedia: Sequential probability ratio test, wikidata: Q2271882}
-  - {name: Wald's equation, kind: statement, wikipedia: Wald's equation, wikidata: Q937458}
-  - {name: stochastic approximation, kind: concept, wikipedia: Stochastic approximation, wikidata: Q97663916}
-  - {name: Robbins–Monro algorithm, kind: concept, wikipedia: Stochastic approximation, wikidata: Q97663916}
-  - {name: CUSUM, kind: concept, wikipedia: CUSUM, wikidata: Q1024555}
-  - {name: change detection, kind: problem, wikipedia: Change detection, wikidata: Q25389927}
+  - {name: sequential analysis, kind: concept, wikipedia: Sequential analysis, wikidata: Q195771, node: 9CWYNB9003}
+  - {name: sequential probability ratio test, kind: concept, wikipedia: Sequential probability ratio test, wikidata: Q2271882, node: SXR93CAP1R}
+  - {name: Wald–Wolfowitz optimality of the sequential probability ratio test, kind: statement, wikipedia: Sequential probability ratio test, wikidata: Q2271882, node: 4F0N5J5QT2}
+  - {name: Wald's equation, kind: statement, wikipedia: Wald's equation, wikidata: Q937458, node: CTDG4MZC8D}
+  - {name: stochastic approximation, kind: concept, wikipedia: Stochastic approximation, wikidata: Q97663916, node: ZPCPW4W1Y9}
+  - {name: Robbins–Monro algorithm, kind: concept, wikipedia: Stochastic approximation, wikidata: Q97663916, node: CHHD44WDHJ}
+  - {name: CUSUM, kind: concept, wikipedia: CUSUM, wikidata: Q1024555, node: 1VXZHAHT6K}
+  - {name: change detection, kind: problem, wikipedia: Change detection, wikidata: Q25389927, node: Z5H8ZZHVMC}
   # Inference for stochastic processes and time series
-  - {name: time series, kind: concept, wikipedia: Time series, wikidata: Q186588}
-  - {name: autocorrelation function, kind: definition, wikipedia: Autocorrelation, wikidata: Q786970}
-  - {name: partial autocorrelation function, kind: definition, wikipedia: Partial autocorrelation function, wikidata: Q1258253}
-  - {name: autoregressive model, kind: definition, wikipedia: Autoregressive model, wikidata: Q2202883}
-  - {name: Yule–Walker equations, kind: statement, wikipedia: Autoregressive model, wikidata: Q2202883}
-  - {name: moving-average model, kind: definition, wikipedia: Moving-average model, wikidata: Q1088984}
-  - {name: autoregressive–moving-average model, kind: definition, wikipedia: Autoregressive moving-average model, wikidata: Q290467}
-  - {name: autoregressive integrated moving average, kind: definition, wikipedia: Autoregressive integrated moving average, wikidata: Q2566298}
-  - {name: Box–Jenkins method, kind: concept, wikipedia: Box–Jenkins method, wikidata: Q895497}
-  - {name: Wold's decomposition theorem, kind: statement, wikipedia: Wold's theorem, wikidata: Q2588432}
-  - {name: periodogram, kind: definition, wikipedia: Periodogram, wikidata: Q587619}
-  - {name: spectral density estimation, kind: concept, wikipedia: Spectral density estimation, wikidata: Q6555326}
-  - {name: Whittle likelihood, kind: definition, wikipedia: Whittle likelihood, wikidata: Q25304822}
-  - {name: Dickey–Fuller test, kind: concept, wikipedia: Dickey–Fuller test, wikidata: Q1209988}
-  - {name: cointegration, kind: definition, wikipedia: Cointegration, wikidata: Q1751675}
-  - {name: autoregressive conditional heteroskedasticity, kind: definition, wikipedia: Autoregressive conditional heteroskedasticity, wikidata: Q180752}
-  - {name: Baum–Welch algorithm, kind: concept, wikipedia: Baum–Welch algorithm, wikidata: Q811478}
-  - {name: particle filter, kind: concept, wikipedia: Particle filter, wikidata: Q1151499}
-  - {name: kriging, kind: concept, wikipedia: Kriging, wikidata: Q225926}
-  - {name: variogram, kind: definition, wikipedia: Variogram, wikidata: Q2269270}
+  - {name: time series, kind: concept, wikipedia: Time series, wikidata: Q186588, node: EA3MF4VTEH}
+  - {name: autocorrelation function, kind: definition, wikipedia: Autocorrelation, wikidata: Q786970, node: YCZHYY8VE5}
+  - {name: partial autocorrelation function, kind: definition, wikipedia: Partial autocorrelation function, wikidata: Q1258253, node: 11YRFWD951}
+  - {name: autoregressive model, kind: definition, wikipedia: Autoregressive model, wikidata: Q2202883, node: 2JC96FMGA1}
+  - {name: Yule–Walker equations, kind: statement, wikipedia: Autoregressive model, wikidata: Q2202883, node: GA46NC0CJZ}
+  - {name: moving-average model, kind: definition, wikipedia: Moving-average model, wikidata: Q1088984, node: PEB9DN0AHA}
+  - {name: autoregressive–moving-average model, kind: definition, wikipedia: Autoregressive moving-average model, wikidata: Q290467, node: B1HNX0YT0Z}
+  - {name: autoregressive integrated moving average, kind: definition, wikipedia: Autoregressive integrated moving average, wikidata: Q2566298, node: KTDVZP4DF2}
+  - {name: Box–Jenkins method, kind: concept, wikipedia: Box–Jenkins method, wikidata: Q895497, node: JX775JPB0N}
+  - {name: Wold's decomposition theorem, kind: statement, wikipedia: Wold's theorem, wikidata: Q2588432, node: 2ZK4CE9MF8}
+  - {name: periodogram, kind: definition, wikipedia: Periodogram, wikidata: Q587619, node: 3ZYM0HXA3E}
+  - {name: spectral density estimation, kind: concept, wikipedia: Spectral density estimation, wikidata: Q6555326, node: TTH1V4SWY6}
+  - {name: Whittle likelihood, kind: definition, wikipedia: Whittle likelihood, wikidata: Q25304822, node: W0B5CQVV8V}
+  - {name: Dickey–Fuller test, kind: concept, wikipedia: Dickey–Fuller test, wikidata: Q1209988, node: 26E0HYRDS8}
+  - {name: cointegration, kind: definition, wikipedia: Cointegration, wikidata: Q1751675, node: V1S1223G5E}
+  - {name: autoregressive conditional heteroskedasticity, kind: definition, wikipedia: Autoregressive conditional heteroskedasticity, wikidata: Q180752, node: MPN10SB26R}
+  - {name: Baum–Welch algorithm, kind: concept, wikipedia: Baum–Welch algorithm, wikidata: Q811478, node: W7P6CCSMX7}
+  - {name: particle filter, kind: concept, wikipedia: Particle filter, wikidata: Q1151499, node: BZK7HQDMT0}
+  - {name: kriging, kind: concept, wikipedia: Kriging, wikidata: Q225926, node: VP9S3PNJQ0}
+  - {name: variogram, kind: definition, wikipedia: Variogram, wikidata: Q2269270, node: ZF8AA2JVKV}
   # Survival analysis and censored data
-  - {name: survival analysis, kind: concept, wikipedia: Survival analysis, wikidata: Q543310}
-  - {name: censoring, kind: definition, wikipedia: Censoring (statistics), wikidata: Q189813}
-  - {name: survival function, kind: definition, wikipedia: Survival function, wikidata: Q2915096}
-  - {name: hazard function, kind: definition, wikipedia: Failure rate, wikidata: Q2737027}
-  - {name: Kaplan–Meier estimator, kind: definition, wikipedia: Kaplan–Meier estimator, wikidata: Q1432420}
-  - {name: Nelson–Aalen estimator, kind: definition, wikipedia: Nelson–Aalen estimator, wikidata: Q6990830}
-  - {name: proportional hazards model, kind: definition, wikipedia: Proportional hazards model, wikidata: Q223218}
-  - {name: log-rank test, kind: concept, wikipedia: Logrank test, wikidata: Q6089397}
-  - {name: accelerated failure time model, kind: definition, wikipedia: Accelerated failure time model, wikidata: Q4672282}
+  - {name: survival analysis, kind: concept, wikipedia: Survival analysis, wikidata: Q543310, node: 443ZWDX88P}
+  - {name: censoring, kind: definition, wikipedia: Censoring (statistics), wikidata: Q189813, node: MY8ZZP84NP}
+  - {name: survival function, kind: definition, wikipedia: Survival function, wikidata: Q2915096, node: QTM1HZM53Q}
+  - {name: hazard function, kind: definition, wikipedia: Failure rate, wikidata: Q2737027, node: Y959NKQ3XW}
+  - {name: Kaplan–Meier estimator, kind: definition, wikipedia: Kaplan–Meier estimator, wikidata: Q1432420, node: B7AJ8RWZRC}
+  - {name: Nelson–Aalen estimator, kind: definition, wikipedia: Nelson–Aalen estimator, wikidata: Q6990830, node: 93GK2SPBKV}
+  - {name: proportional hazards model, kind: definition, wikipedia: Proportional hazards model, wikidata: Q223218, node: N029V3JX60}
+  - {name: log-rank test, kind: concept, wikipedia: Logrank test, wikidata: Q6089397, node: F6CT1YXZ0G}
+  - {name: accelerated failure time model, kind: definition, wikipedia: Accelerated failure time model, wikidata: Q4672282, node: JP1QV1KQ0P}
   # Causal inference
-  - {name: causal inference, kind: concept, wikipedia: Causal inference, wikidata: Q5054566}
-  - {name: Rubin causal model, kind: definition, wikipedia: Rubin causal model, wikidata: Q7376137}
+  - {name: causal inference, kind: concept, wikipedia: Causal inference, wikidata: Q5054566, node: V3QJFN5800}
+  - {name: Rubin causal model, kind: definition, wikipedia: Rubin causal model, wikidata: Q7376137, node: 23ATBZMJHR}
   # Statistical learning
-  - {name: statistical learning theory, kind: concept, wikipedia: Statistical learning theory, wikidata: Q7604400}
-  - {name: empirical risk minimization, kind: concept, wikipedia: Empirical risk minimization, wikidata: Q5374254}
-  - {name: representer theorem, kind: statement, wikipedia: Representer theorem, wikidata: Q7314263}
+  - {name: statistical learning theory, kind: concept, wikipedia: Statistical learning theory, wikidata: Q7604400, node: 5MR9ZSC3CX}
+  - {name: empirical risk minimization, kind: concept, wikipedia: Empirical risk minimization, wikidata: Q5374254, node: 56NVR0SS61}
+  - {name: representer theorem, kind: statement, wikipedia: Representer theorem, wikidata: Q7314263, node: 5P6NB8P1HG}
   # Statistics on topological and algebraic structures
-  - {name: algebraic statistics, kind: concept, wikipedia: Algebraic statistics, wikidata: Q4724018}
-  - {name: topological data analysis, kind: concept, wikipedia: Topological data analysis, wikidata: Q4460773}
-  - {name: Fréchet mean, kind: definition, wikipedia: Fréchet mean, wikidata: Q5506662}
-  - {name: functional data analysis, kind: concept, wikipedia: Functional data analysis, wikidata: Q5508814}
+  - {name: algebraic statistics, kind: concept, wikipedia: Algebraic statistics, wikidata: Q4724018, node: TAYDF13B23}
+  - {name: topological data analysis, kind: concept, wikipedia: Topological data analysis, wikidata: Q4460773, node: FETY7R4X86}
+  - {name: Fréchet mean, kind: definition, wikipedia: Fréchet mean, wikidata: Q5506662, node: E3GQVC04BC}
+  - {name: functional data analysis, kind: concept, wikipedia: Functional data analysis, wikidata: Q5508814, node: KEARMKNZ1Q}

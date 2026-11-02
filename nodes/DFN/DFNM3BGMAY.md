@@ -16,7 +16,7 @@ Let $\sigma$ be an algebraic signature and let $K$ be a class of $\sigma$-algebr
 Then $K$ is a [[quasivariety|WRXEKT4NQS]] if and only if $K$ is closed under the following four constructions:
 
 1. [[isomorphic|PZMGQMDN25]] copies;
-2. subalgebras;
+2. [[subalgebras|7CHG6SD365]];
 3. [[direct products|WJ73XYBNE4]] of arbitrary families, where the product of the empty family is the one-element algebra;
 4. ultraproducts.
 

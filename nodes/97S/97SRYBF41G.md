@@ -16,7 +16,7 @@ sources:
 Let $A$ be a finite algebra and let $d \ge 2$ be an integer.
 Assume that $A$ has a [[near-unanimity term|4CRH8NNFEF]] of arity $d + 1$.
 Let $n \ge 1$ and let $f \colon A^n \to A$ be an operation.
-Then $f$ is a [[term operation|N9M2N27END]] of $A$ if and only if every subalgebra of the [[direct power|WJ73XYBNE4]] $A^d$ is closed under $f$, applied coordinatewise.
+Then $f$ is a [[term operation|N9M2N27END]] of $A$ if and only if every [[subalgebra|7CHG6SD365]] of the [[direct power|WJ73XYBNE4]] $A^d$ is closed under $f$, applied coordinatewise.
 
 ## Remarks
 

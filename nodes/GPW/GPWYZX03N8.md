@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $\mathbf{A}$ be an [[algebra|QJGPT2W0FT]] and let $\mathbf{B}$ be a subalgebra of $\mathbf{A}$ with universe $B$.
+Let $\mathbf{A}$ be an [[algebra|QJGPT2W0FT]] and let $\mathbf{B}$ be a [[subalgebra|7CHG6SD365]] of $\mathbf{A}$ with universe $B$.
 The subalgebra $\mathbf{B}$ is a *retract* of $\mathbf{A}$ when there is a [[homomorphism|KBXSZC6BV1]] $r \colon \mathbf{A} \to \mathbf{B}$ with $r(b) = b$ for all $b \in B$.
 Such a map $r$ is called a *retraction*.
 

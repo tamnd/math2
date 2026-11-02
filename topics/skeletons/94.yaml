@@ -74,8 +74,8 @@ items:
   - {name: wiretap channel and secrecy capacity, kind: statement, wikipedia: Information-theoretic security, wikidata: Q3510462}
   - {name: linear network coding theorem, kind: statement, wikipedia: Linear network coding, wikidata: Q1089578}
   # Signal theory
-  - {name: Nyquist–Shannon sampling theorem, kind: statement, wikipedia: Nyquist–Shannon sampling theorem, wikidata: Q679800}
-  - {name: Whittaker–Shannon interpolation formula, kind: statement, wikipedia: Whittaker–Shannon interpolation formula, wikidata: Q2018853}
+  - {name: Nyquist–Shannon sampling theorem, kind: statement, wikipedia: Nyquist–Shannon sampling theorem, wikidata: Q679800, node: BMXDMHRXBG}
+  - {name: Whittaker–Shannon interpolation formula, kind: statement, wikipedia: Whittaker–Shannon interpolation formula, wikidata: Q2018853, node: Z4ZFP6FNK2}
   - {name: Nyquist rate, kind: definition, wikipedia: Nyquist rate, wikidata: Q6273772}
   - {name: aliasing, kind: concept, wikipedia: Aliasing, wikidata: Q868732}
   - {name: bandlimited signal, kind: definition, wikipedia: Bandlimiting, wikidata: Q806263}

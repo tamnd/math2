@@ -22,7 +22,7 @@ The *inverse limit* $\varprojlim A_i$ of the system is the set of all $(a_i)_{i 
 
 ## Remarks
 
-The inverse limit is closed under the operations of the product, so it is a subalgebra of $\prod_i A_i$; it can be empty when the signature has no constant symbols.
+The inverse limit is closed under the operations of the product, so it is a [[subalgebra|7CHG6SD365]] of $\prod_i A_i$; it can be empty when the signature has no constant symbols.
 The projections $\pi_i \colon \varprojlim A_j \to A_i$ satisfy $\varphi_{ij} \circ \pi_j = \pi_i$.
 For every algebra $B$ with homomorphisms $\psi_i \colon B \to A_i$ satisfying $\varphi_{ij} \circ \psi_j = \psi_i$, there is a unique homomorphism $\psi \colon B \to \varprojlim A_i$ with $\pi_i \circ \psi = \psi_i$, namely $\psi(b) = (\psi_i(b))_i$.
 

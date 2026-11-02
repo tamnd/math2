@@ -128,7 +128,7 @@ items:
   - {name: Rauch–Tung–Striebel smoother, kind: definition, wikipedia: Kalman filter, wikidata: Q846780}
   - {name: extended Kalman filter, kind: definition, wikipedia: Extended Kalman filter, wikidata: Q5421817}
   - {name: unscented Kalman filter, kind: definition, wikipedia: Unscented transform, wikidata: Q7897426}
-  - {name: particle filter, kind: definition, wikipedia: Particle filter, wikidata: Q1151499}
+  - {name: particle filter, kind: definition, wikipedia: Particle filter, wikidata: Q1151499, node: BZK7HQDMT0}
   - {name: Zakai equation, kind: definition, wikipedia: Zakai equation, wikidata: Q8064995}
   - {name: Kushner equation, kind: definition, wikipedia: Kushner equation, wikidata: Q6448080}
   - {name: moving horizon estimation, kind: definition, wikipedia: Moving horizon estimation, wikidata: Q6927137}
@@ -140,7 +140,7 @@ items:
   - {name: dual control theory, kind: concept, wikipedia: Dual control theory, wikidata: Q5310194}
   - {name: adaptive control, kind: concept, wikipedia: Adaptive control, wikidata: Q235781}
   - {name: model reference adaptive control, kind: definition, wikipedia: Adaptive control, wikidata: Q235781}
-  - {name: stochastic approximation, kind: definition, wikipedia: Stochastic approximation, wikidata: Q97663916}
+  - {name: stochastic approximation, kind: definition, wikipedia: Stochastic approximation, wikidata: Q97663916, node: ZPCPW4W1Y9}
   - {name: Robbins–Monro algorithm, kind: statement, wikipedia: Stochastic approximation, wikidata: Q97663916}
   - {name: iterative learning control, kind: definition, wikipedia: Iterative learning control, wikidata: Q6094414}
   # Multi-agent and networked systems

@@ -228,7 +228,7 @@ items:
   # Integral equations
   - {name: Nyström method, kind: statement, wikipedia: Nyström method, wikidata: Q7071295}
   # Fourier and transform methods
-  - {name: discrete Fourier transform, kind: definition, wikipedia: Discrete Fourier transform, wikidata: Q2878}
+  - {name: discrete Fourier transform, kind: definition, wikipedia: Discrete Fourier transform, wikidata: Q2878, node: TST0GH66A5}
   - {name: fast Fourier transform, kind: statement, wikipedia: Fast Fourier transform, wikidata: Q623950}
   - {name: Cooley–Tukey FFT algorithm, kind: statement, wikipedia: Cooley–Tukey FFT algorithm, wikidata: Q5167446}
   - {name: non-uniform discrete Fourier transform, kind: definition, wikipedia: Non-uniform discrete Fourier transform, wikidata: Q7049066}

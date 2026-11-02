@@ -11,7 +11,7 @@ sources:
 
 A random ordinary differential equation is an [[ordinary differential equation|0NT64JV96A]] whose right side depends on a [[stochastic process|0QH5ENKZM1]] with regular sample paths.
 For each fixed outcome of the randomness it is an ordinary, non-autonomous differential equation, and it is solved path by path with classical calculus.
-Such equations generate random dynamical systems, and many [[stochastic differential equations|B219G9SHJA]] can be turned into them by a change of variables.
+Such equations generate [[random dynamical systems|DMTFJY6CS0]], and many [[stochastic differential equations|B219G9SHJA]] can be turned into them by a change of variables.
 
 ## Explanations
 

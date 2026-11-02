@@ -88,7 +88,7 @@ items:
   - {name: topology of pointwise convergence, kind: definition, wikipedia: Pointwise convergence, wikidata: Q1778098, node: FVGB8ZP67B}
   - {name: topology of uniform convergence, kind: definition, wikipedia: Uniform convergence, wikidata: Q1411887, node: YW5P7NEKR4}
   - {name: Vietoris topology, kind: definition, wikipedia: Hypertopology, wikidata: Q5958737, node: BJVRFFJTV6}
-  - {name: Hausdorff distance, kind: definition, decl: Metric.hausdorffDist, wikipedia: Hausdorff distance, wikidata: Q1501997}
+  - {name: Hausdorff distance, kind: definition, decl: Metric.hausdorffDist, wikipedia: Hausdorff distance, wikidata: Q1501997, node: F79WYYC07C}
   # Separation axioms
   - {name: separation axiom, kind: concept, wikipedia: Separation axiom, wikidata: Q1140985, node: 04J4BYB0XE}
   - {name: T0 space, kind: definition, decl: T0Space, wikipedia: Kolmogorov space, wikidata: Q1148924, node: 07SG12TQH3}

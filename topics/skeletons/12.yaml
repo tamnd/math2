@@ -137,7 +137,7 @@ items:
   - {name: finite subgroups of the multiplicative group are cyclic, kind: statement, decl: instIsCyclicUnitsOfFinite, wikipedia: Cyclic group, wikidata: Q245462, node: 0CKGBEJX6B}
   - {name: Kummer theory, kind: concept, wikipedia: Kummer theory, wikidata: Q1548483, node: XZQENYV15Y}
   - {name: Artin–Schreier theory, kind: concept, wikipedia: Artin–Schreier theory, wikidata: Q713056, node: 7YNMNRGH3T}
-  - {name: Kummer–Artin–Schreier–Witt theory, kind: concept, wikipedia: Witt vector, wikidata: Q1756171}
+  - {name: Kummer–Artin–Schreier–Witt theory, kind: concept, wikipedia: Witt vector, wikidata: Q1756171, node: R45FHBE15X}
   - {name: radical extension, kind: definition, decl: solvableByRad, wikipedia: Radical extension, wikidata: Q6588186, node: V74WMGQQ9D}
   - {name: solvable by radicals, kind: definition, wikipedia: Solution in radicals, wikidata: Q2900186, node: J7YS0DA3HQ}
   - {name: Galois' theorem on solvability, kind: statement, decl: isSolvable_gal_of_irreducible, wikipedia: Solvable group, wikidata: Q759832, node: VHCWCFA3MX}

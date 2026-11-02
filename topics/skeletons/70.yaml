@@ -72,7 +72,7 @@ items:
   - {name: Rodrigues' rotation formula, kind: statement, wikipedia: Rodrigues' rotation formula, wikidata: Q1473494}
   - {name: quaternions and spatial rotation, kind: concept, wikipedia: Quaternions and spatial rotation, wikidata: Q2634405}
   - {name: Chasles' theorem, kind: statement, wikipedia: Chasles' theorem (kinematics), wikidata: Q17004813}
-  - {name: screw theory, kind: concept, wikipedia: Screw theory, wikidata: Q7891441}
+  - {name: screw theory, kind: concept, wikipedia: Screw theory, wikidata: Q7891441, node: NVBD7Y86ES}
   - {name: instant centre of rotation, kind: definition, wikipedia: Instant centre of rotation, wikidata: Q1429043}
   - {name: Kennedy's theorem on instant centres, kind: statement, wikipedia: Instant centre of rotation, wikidata: Q1429043}
   - {name: Chebychev–Grübler–Kutzbach criterion, kind: statement, wikipedia: Chebychev–Grübler–Kutzbach criterion, wikidata: Q1322787}
@@ -87,7 +87,7 @@ items:
   - {name: mechanical equilibrium, kind: definition, wikipedia: Mechanical equilibrium, wikidata: Q716915}
   - {name: torque, kind: definition, wikipedia: Torque, wikidata: Q48103}
   - {name: couple, kind: definition, wikipedia: Couple (mechanics), wikidata: Q253897}
-  - {name: Varignon's theorem, kind: statement, wikipedia: Varignon's theorem (mechanics), wikidata: Q4454932}
+  - {name: Varignon's theorem, kind: statement, wikipedia: Varignon's theorem (mechanics), wikidata: Q4454932, node: B2ZJW0YBQ7}
   - {name: Lami's theorem, kind: statement, wikipedia: Lami's theorem, wikidata: Q1149522}
   - {name: Lagrange–Dirichlet stability theorem, kind: statement, wikipedia: Lyapunov stability, wikidata: Q1341651}
   - {name: catenary, kind: example, wikipedia: Catenary, wikidata: Q214561}
@@ -141,13 +141,13 @@ items:
   - {name: Hamilton–Jacobi equation, kind: definition, wikipedia: Hamilton–Jacobi equation, wikidata: Q1060137, node: 5TRXQKP7DY}
   - {name: Hamilton's principal function, kind: definition, wikipedia: Hamilton–Jacobi equation, wikidata: Q1060137}
   - {name: separation of variables in the Hamilton–Jacobi equation, kind: concept, wikipedia: Hamilton–Jacobi equation, wikidata: Q1060137}
-  - {name: action-angle coordinates, kind: definition, wikipedia: Action-angle coordinates, wikidata: Q1000646}
+  - {name: action-angle coordinates, kind: definition, wikipedia: Action-angle coordinates, wikidata: Q1000646, node: M3T81YNSKC}
   - {name: adiabatic invariant, kind: definition, wikipedia: Adiabatic invariant, wikidata: Q2632009}
   - {name: Dirac bracket, kind: definition, wikipedia: Dirac bracket, wikidata: Q3895805}
   - {name: first class constraint, kind: definition, wikipedia: First-class constraint, wikidata: Q5454146}
   - {name: Nambu mechanics, kind: concept, wikipedia: Nambu mechanics, wikidata: Q6273449}
   - {name: Hamiltonian perturbation theory, kind: concept, wikipedia: Perturbation theory, wikidata: Q10886678}
-  - {name: Kolmogorov–Arnold–Moser theorem, kind: statement, wikipedia: Kolmogorov–Arnold–Moser theorem, wikidata: Q587081}
+  - {name: Kolmogorov–Arnold–Moser theorem, kind: statement, wikipedia: Kolmogorov–Arnold–Moser theorem, wikidata: Q587081, node: 3ZZSXKM16Z}
   # Linear vibrations
   - {name: harmonic oscillator, kind: example, wikipedia: Harmonic oscillator, wikidata: Q190070, node: 0YG0ZJPTWG}
   - {name: simple harmonic motion, kind: definition, wikipedia: Simple harmonic motion, wikidata: Q835975}
@@ -170,7 +170,7 @@ items:
   - {name: double pendulum, kind: example, wikipedia: Double pendulum, wikidata: Q1243208}
   - {name: elastic pendulum, kind: example, wikipedia: Elastic pendulum, wikidata: Q12714444}
   - {name: Hénon–Heiles system, kind: example, wikipedia: Hénon–Heiles system, wikidata: Q5964294}
-  - {name: Arnold diffusion, kind: concept, wikipedia: Arnold diffusion, wikidata: Q4795328}
+  - {name: Arnold diffusion, kind: concept, wikipedia: Arnold diffusion, wikidata: Q4795328, node: ZVY046R4XB}
   - {name: random vibration, kind: concept, wikipedia: Random vibration, wikidata: Q7291997}
   # Particle systems and celestial mechanics
   - {name: celestial mechanics, kind: concept, wikipedia: Celestial mechanics, wikidata: Q184274}
@@ -183,8 +183,8 @@ items:
   - {name: Bertrand's theorem, kind: statement, wikipedia: Bertrand's theorem, wikidata: Q2493651}
   - {name: Binet equation, kind: definition, wikipedia: Binet equation, wikidata: Q497603}
   - {name: Newton's theorem of revolving orbits, kind: statement, wikipedia: Newton's theorem of revolving orbits, wikidata: Q8273228}
-  - {name: n-body problem, kind: problem, wikipedia: N-body problem, wikidata: Q1199050}
-  - {name: three-body problem, kind: problem, wikipedia: Three-body problem, wikidata: Q607699}
+  - {name: n-body problem, kind: problem, wikipedia: N-body problem, wikidata: Q1199050, node: 62SNWC5E45}
+  - {name: three-body problem, kind: problem, wikipedia: Three-body problem, wikidata: Q607699, node: JE1Z920QKT}
   - {name: circular restricted three-body problem, kind: problem, wikipedia: Three-body problem, wikidata: Q607699}
   - {name: Lagrange points, kind: object, wikipedia: Lagrange point, wikidata: Q190463}
   - {name: Jacobi integral, kind: definition, wikipedia: Jacobi integral, wikidata: Q3799277}

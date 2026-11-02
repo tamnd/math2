@@ -141,8 +141,8 @@ items:
   - {name: Riemann zeta function, kind: definition, decl: riemannZeta, wikipedia: Riemann zeta function, wikidata: Q187235, node: 1XWBY4N0VT}
   - {name: Euler product, kind: statement, decl: riemannZeta_eulerProduct_tprod, wikipedia: Euler product, wikidata: Q1194667, node: 0C3PN4075R}
   - {name: Basel problem, kind: statement, decl: hasSum_zeta_two, wikipedia: Basel problem, wikidata: Q810431, mathlib: [mathlib-100, mathlib-1000], node: 0DMY75D6FV}
-  - {name: functional equation of the zeta function, kind: statement, decl: riemannZeta_one_sub, wikipedia: Riemann zeta function, wikidata: Q187235}
-  - {name: non-vanishing of zeta on the line Re s = 1, kind: statement, decl: riemannZeta_ne_zero_of_one_le_re, wikipedia: Prime number theorem, wikidata: Q386292}
+  - {name: functional equation of the zeta function, kind: statement, decl: riemannZeta_one_sub, wikipedia: Riemann zeta function, wikidata: Q187235, node: NFXKNDJX9C}
+  - {name: non-vanishing of zeta on the line Re s = 1, kind: statement, decl: riemannZeta_ne_zero_of_one_le_re, wikipedia: Prime number theorem, wikidata: Q386292, node: CXES7915R7}
   - {name: Riemann hypothesis, kind: conjecture, decl: RiemannHypothesis, wikipedia: Riemann hypothesis, wikidata: Q205966, node: VCGF9YR36X}
   - {name: explicit formula, kind: statement, wikipedia: Explicit formulae for L-functions, wikidata: Q5421272, node: 72WNRWJQC1}
   - {name: Dirichlet series, kind: definition, decl: LSeries, wikipedia: Dirichlet series, wikidata: Q620595, node: 8MWTEF6462}

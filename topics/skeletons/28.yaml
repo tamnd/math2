@@ -18,7 +18,7 @@ items:
   - {name: semiring of sets, kind: definition, decl: MeasureTheory.IsSetSemiring, wikipedia: Ring of sets, wikidata: Q2064647, node: PYH82FMXQ2}
   - {name: pi-system, kind: definition, decl: IsPiSystem, wikipedia: Pi-system, wikidata: Q3962249, node: 4W9NM803BB}
   - {name: Dynkin system, kind: definition, decl: MeasurableSpace.DynkinSystem, wikipedia: Dynkin system, wikidata: Q1935689, node: V5M2CKB591}
-  - {name: Dynkin's pi-lambda theorem, kind: statement, decl: MeasurableSpace.induction_on_inter, wikipedia: Dynkin system, wikidata: Q1935689}
+  - {name: Dynkin's pi-lambda theorem, kind: statement, decl: MeasurableSpace.induction_on_inter, wikipedia: Dynkin system, wikidata: Q1935689, node: BBHM1A36M7}
   - {name: monotone class theorem, kind: statement, wikipedia: Monotone class theorem, wikidata: Q242045, node: 2T33SA540E}
   - {name: Borel set, kind: definition, decl: borel, wikipedia: Borel set, wikidata: Q21086747, node: 0WQXY32Q8D}
   - {name: Borel hierarchy, kind: concept, wikipedia: Borel hierarchy, wikidata: Q893487, node: 4P4Z4ZGXCY}
@@ -187,7 +187,7 @@ items:
   - {name: modular function, kind: definition, wikipedia: Haar measure, wikidata: Q1162676, node: 63TX60RTRQ}
   - {name: unimodular group, kind: definition, wikipedia: Haar measure, wikidata: Q1162676, node: CXG6JZGMCK}
   - {name: quasi-invariant measure, kind: definition, wikipedia: Quasi-invariant measure, wikidata: Q7269454, node: FCNQP0A60D}
-  - {name: Weil's converse to Haar's theorem, kind: statement, wikipedia: Haar measure, wikidata: Q1162676}
+  - {name: Weil's converse to Haar's theorem, kind: statement, wikipedia: Haar measure, wikidata: Q1162676, node: CMZS6KA033}
   - {name: amenable group, kind: definition, wikipedia: Amenable group, wikidata: Q1857002, node: CEAT9BESKK}
   - {name: invariant mean, kind: definition, wikipedia: Amenable group, wikidata: Q1857002, node: ZYNY2VFECQ}
   # Geometric measure theory and fractal measures
@@ -217,7 +217,7 @@ items:
   - {name: Poincaré recurrence theorem, kind: statement, decl: MeasureTheory.Conservative.ae_mem_imp_frequently_image_mem, wikipedia: Poincaré recurrence theorem, wikidata: Q226014, mathlib: [mathlib-1000], node: TVYJPBHD0S}
   - {name: isomorphism theorem for measure algebras, kind: statement, wikipedia: Standard probability space, wikidata: Q7598372, node: YFAQGE2ATQ}
   - {name: standard probability space, kind: definition, wikipedia: Standard probability space, wikidata: Q7598372, node: QDDRDW9PXS}
-  - {name: Lebesgue space, kind: definition, wikipedia: Standard probability space, wikidata: Q7598372}
+  - {name: Lebesgue space, kind: definition, wikipedia: Standard probability space, wikidata: Q7598372, node: QDDRDW9PXS}
   - {name: Kolmogorov's zero–one law, kind: statement, wikipedia: Kolmogorov's zero–one law, wikidata: Q2004664, node: 073Q8Z94KG}
   - {name: Borel–Cantelli lemma, kind: statement, decl: MeasureTheory.measure_limsup_atTop_eq_zero, wikipedia: Borel–Cantelli lemma, wikidata: Q893496, mathlib: [mathlib-undergrad], node: 0T6WS7TT77}
   - {name: fuzzy measure, kind: definition, wikipedia: Fuzzy measure theory, wikidata: Q4455138, node: CRFQEGJDA9}
@@ -225,7 +225,7 @@ items:
   - {name: Young measure, kind: definition, wikipedia: Young measure, wikidata: Q8058552, node: 6TQSVJQDEH}
   - {name: set-valued measure, kind: definition, wikipedia: Set-valued function, wikidata: Q115988076, node: 13F6B3BGA4}
   - {name: Loeb measure, kind: definition, wikipedia: Loeb space, wikidata: Q17103336, node: DW5SBZXK6R}
-  - {name: Gelfand–Pettis integral, kind: definition, wikipedia: Pettis integral, wikidata: Q211188}
+  - {name: Gelfand–Pettis integral, kind: definition, wikipedia: Pettis integral, wikidata: Q211188, node: 9A5F3JGTC0}
   - {name: Stieltjes function, kind: definition, decl: StieltjesFunction, wikipedia: Lebesgue–Stieltjes integration, wikidata: Q3799278, node: WPR0NVC9PC}
   - {name: Hausdorff moment problem, kind: problem, wikipedia: Hausdorff moment problem, wikidata: Q5682821, node: G7VG61YD4J}
   - {name: Hamburger moment problem, kind: problem, wikipedia: Hamburger moment problem, wikidata: Q5644349, node: TBNCFXTMMW}

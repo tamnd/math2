@@ -15,7 +15,7 @@ same_as:
 
 ## Statement
 
-Let $X$ be a real [[Banach space|06GZ956657]] and let $K \subseteq X$ be a closed convex cone with $K \cap (-K) = \set{0}$.
+Let $X$ be a real [[Banach space|06GZ956657]] and let $K \subseteq X$ be a closed [[convex cone|6VE4KA12VD]] with $K \cap (-K) = \set{0}$.
 Assume that $K$ is total, that is, the set $K - K = \set{u - v : u, v \in K}$ is dense in $X$.
 Let $T \colon X \to X$ be a [[compact operator|M2NEP1K5AE]] with $T(K) \subseteq K$ and with [[spectral radius|9V7YQA85PC]] $r(T) > 0$.
 Then $r(T)$ is an eigenvalue of $T$ with an [[eigenvector|0N6960W0BV]] in $K$: there is $u \in K$, $u \ne 0$, with $Tu = r(T) u$.

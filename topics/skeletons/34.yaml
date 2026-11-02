@@ -67,7 +67,7 @@ items:
   - {name: Cauchy–Euler equation, kind: example, wikipedia: Cauchy–Euler equation, wikidata: Q1196465, node: 03F7N3915D}
   - {name: Floquet theory, kind: concept, wikipedia: Floquet theory, wikidata: Q902618, node: BJVZXPB297}
   - {name: Hill differential equation, kind: example, wikipedia: Hill differential equation, wikidata: Q1169848, node: YE7H8DGDPY}
-  - {name: Mathieu function, kind: object, wikipedia: Mathieu function, wikidata: Q1908689}
+  - {name: Mathieu function, kind: object, wikipedia: Mathieu function, wikidata: Q1908689, node: 2DDZXF5EBY}
   - {name: Magnus expansion, kind: concept, wikipedia: Magnus expansion, wikidata: Q6732207, node: EBV9M9C435}
   - {name: Liouville's formula, kind: statement, wikipedia: Liouville's formula, wikidata: Q1827325, node: 09PS3S0EF6}
   - {name: Lyapunov exponent, kind: definition, wikipedia: Lyapunov exponent, wikidata: Q1238630, node: NJ1FJSNK6A}
@@ -81,9 +81,9 @@ items:
   - {name: Frobenius method, kind: concept, wikipedia: Frobenius method, wikidata: Q1340153, node: W8ZWXC2HQS}
   - {name: Fuchs' theorem, kind: statement, wikipedia: Fuchs's theorem, wikidata: Q5506929, node: 6EZ400WM94}
   - {name: Fuchsian equation, kind: definition, wikipedia: Fuchsian theory, wikidata: Q55647818, node: ZBVH2YE50B}
-  - {name: Riemann's differential equation, kind: example, wikipedia: Riemann's differential equation, wikidata: Q974071}
-  - {name: hypergeometric differential equation, kind: example, wikipedia: Hypergeometric function, wikidata: Q21028472}
-  - {name: Heun function, kind: object, wikipedia: Heun function, wikidata: Q5748204}
+  - {name: Riemann's differential equation, kind: example, wikipedia: Riemann's differential equation, wikidata: Q974071, node: RS8Z48E784}
+  - {name: hypergeometric differential equation, kind: example, wikipedia: Hypergeometric function, wikidata: Q21028472, node: W8VE25R5A7}
+  - {name: Heun function, kind: object, wikipedia: Heun function, wikidata: Q5748204, node: 87DAYKCZ5M}
   - {name: Bessel's equation, kind: example, wikipedia: Bessel function, wikidata: Q219637, node: EAV97QH9DF}
   - {name: Legendre's equation, kind: example, wikipedia: Legendre polynomials, wikidata: Q215405, node: W6VE30V10Y}
   - {name: Hermite equation, kind: example, wikipedia: Hermite polynomials, wikidata: Q658574, node: ZCDCJTTG8V}
@@ -94,11 +94,11 @@ items:
   - {name: Hilbert's twenty-first problem, kind: problem, wikipedia: Hilbert's twenty-first problem, wikidata: Q4155615, node: 7RHW0KA5RY}
   - {name: Stokes phenomenon, kind: concept, wikipedia: Stokes phenomenon, wikidata: Q7618550, node: TTGF8KCA8C}
   - {name: irregular singularity, kind: definition, wikipedia: Regular singular point, wikidata: Q3925845, node: AT1W4MMTYR}
-  - {name: Painlevé transcendents, kind: object, wikipedia: Painlevé transcendents, wikidata: Q907724}
+  - {name: Painlevé transcendents, kind: object, wikipedia: Painlevé transcendents, wikidata: Q907724, node: AZ17JCMRKB}
   - {name: Painlevé property, kind: definition, wikipedia: Painlevé transcendents, wikidata: Q907724, node: 8EV1G2Y6CC}
   - {name: isomonodromic deformation, kind: concept, wikipedia: Isomonodromic deformation, wikidata: Q6086086, node: KDZF7E66BT}
   - {name: Schwarzian derivative, kind: definition, wikipedia: Schwarzian derivative, wikidata: Q864589, node: 6ZPKWE0VAZ}
-  - {name: Lamé function, kind: object, wikipedia: Lamé function, wikidata: Q3127537}
+  - {name: Lamé function, kind: object, wikipedia: Lamé function, wikidata: Q3127537, node: KTP37HF2RZ}
   - {name: Cauchy–Kovalevskaya theorem for ODEs, kind: statement, wikipedia: Cauchy–Kovalevskaya theorem, wikidata: Q1614464, node: F4VMHVWK41}
   # Boundary value problems and Sturm–Liouville theory
   - {name: boundary value problem, kind: definition, wikipedia: Boundary value problem, wikidata: Q1332643, node: TM8VQJWGHZ}
@@ -121,7 +121,7 @@ items:
   - {name: hearing the shape of a drum, kind: problem, wikipedia: Hearing the shape of a drum, wikidata: Q5691670, node: X3VH8H1XV3}
   - {name: Rayleigh quotient, kind: definition, decl: ContinuousLinearMap.rayleighQuotient, wikipedia: Rayleigh quotient, wikidata: Q1665115, node: 06WHP8SE98}
   - {name: Weyl's law, kind: statement, wikipedia: Weyl law, wikidata: Q7990330, node: 2JK9YMZV2B}
-  - {name: Hartman–Wintner theorem, kind: statement, wikipedia: Oscillation theory, wikidata: Q289610}
+  - {name: Hartman–Wintner theorem, kind: statement, wikipedia: Oscillation theory, wikidata: Q289610, node: F2HHDD85EM}
   - {name: Hamiltonian system of ODEs, kind: definition, wikipedia: Hamiltonian system, wikidata: Q2072471, node: 0EDKGA2FAK}
   # Qualitative theory
   - {name: equilibrium point, kind: definition, wikipedia: Equilibrium point (mathematics), wikidata: Q1530271, node: 0N8NGKDZDZ}
@@ -176,20 +176,20 @@ items:
   - {name: Peixoto's theorem, kind: statement, wikipedia: Peixoto's theorem, wikidata: Q7160983, node: TDCY8TASCS}
   - {name: input-to-state stability, kind: definition, wikipedia: Input-to-state stability, wikidata: Q48995800, node: GRDCEGQJYQ}
   - {name: Barbalat's lemma, kind: statement, wikipedia: Lyapunov stability, wikidata: Q1341651, node: 4KPNX1SZYR}
-  - {name: Markus–Yamabe conjecture, kind: counterexample, wikipedia: Markus–Yamabe conjecture, wikidata: Q6771536}
-  - {name: Aizerman's conjecture, kind: counterexample, wikipedia: Aizerman's conjecture, wikidata: Q4699429}
-  - {name: Kalman's conjecture, kind: counterexample, wikipedia: Kalman's conjecture, wikidata: Q6354006}
+  - {name: Markus–Yamabe conjecture, kind: counterexample, wikipedia: Markus–Yamabe conjecture, wikidata: Q6771536, node: 8452SY027Z}
+  - {name: Aizerman's conjecture, kind: counterexample, wikipedia: Aizerman's conjecture, wikidata: Q4699429, node: A2QG6D75KR}
+  - {name: Kalman's conjecture, kind: counterexample, wikipedia: Kalman's conjecture, wikidata: Q6354006, node: 5MP7DM0V5V}
   # Asymptotic and perturbation methods
   - {name: asymptotic analysis, kind: concept, wikipedia: Asymptotic analysis, wikidata: Q752718, node: Q26QN6GYZX}
   - {name: WKB approximation, kind: concept, wikipedia: WKB approximation, wikidata: Q907306, node: YJEBN8N3G8}
-  - {name: Liouville–Green method, kind: concept, wikipedia: WKB approximation, wikidata: Q907306}
+  - {name: Liouville–Green method, kind: concept, wikipedia: WKB approximation, wikidata: Q907306, node: YJEBN8N3G8}
   - {name: singular perturbation, kind: concept, wikipedia: Singular perturbation, wikidata: Q7524249, node: G6J21TGRMM}
   - {name: method of matched asymptotic expansions, kind: concept, wikipedia: Method of matched asymptotic expansions, wikidata: Q17098224, node: QQ1YT0MV2X}
   - {name: boundary layer, kind: concept, wikipedia: Boundary layer, wikidata: Q752193, node: YCFPD0GE5G}
   - {name: Poincaré–Lindstedt method, kind: concept, wikipedia: Poincaré–Lindstedt method, wikidata: Q7207873, node: YHJHPRKQ6D}
   - {name: method of multiple scales, kind: concept, wikipedia: Multiple-scale analysis, wikidata: Q6934874, node: 2V5E1B1Q9H}
   - {name: Tikhonov's theorem on slow-fast systems, kind: statement, wikipedia: Tikhonov's theorem (dynamical systems), wikidata: Q7801912, node: 8X8Y61MGHW}
-  - {name: Levinson's theorem on asymptotic integration, kind: statement, wikipedia: Levinson's theorem, wikidata: Q25110385}
+  - {name: Levinson's theorem on asymptotic integration, kind: statement, wikipedia: Levinson's theorem, wikidata: Q25110385, node: 5ZFRRMBFV0}
   - {name: Fenichel's theorem, kind: statement, wikipedia: Slow manifold, wikidata: Q7542110, node: DZXTK64M6X}
   # Delay, functional and abstract differential equations
   - {name: delay differential equation, kind: definition, wikipedia: Delay differential equation, wikidata: Q2146125, node: 39PCDRDB01}

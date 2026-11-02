@@ -167,7 +167,7 @@ items:
   - {name: metaplectic group, kind: example, wikipedia: Metaplectic group, wikidata: Q17098877, node: 8B0JM2YDE2}
   - {name: exceptional Lie group G2, kind: example, wikipedia: G2 (mathematics), wikidata: Q869338, node: YX5FFSCR8P}
   - {name: exceptional Lie group E8, kind: example, wikipedia: E8 (mathematics), wikidata: Q1200244, node: MKT1263M0A}
-  - {name: table of Lie groups, kind: example, wikipedia: Table of Lie groups, wikidata: Q3981612}
+  - {name: table of Lie groups, kind: example, wikipedia: Table of Lie groups, wikidata: Q3981612, node: 720FQEBT68}
   - {name: list of simple Lie groups, kind: example, wikipedia: Simple Lie group, wikidata: Q1003162, node: 2EPRMNK1G2}
   # Structure of Lie groups
   - {name: semisimple Lie group, kind: definition, wikipedia: Simple Lie group, wikidata: Q1003162, node: XJS07AJ50Y}

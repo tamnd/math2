@@ -13,7 +13,7 @@ same_as:
 
 ## Description
 
-The *$E_8$ manifold* is the closed, simply connected, topological [[4-manifold|8H58Q6YJCH]] whose [[intersection form|WK8GKRKAVD]] is the form of the $E_8$ lattice.
+The *$E_8$ manifold* is the closed, simply connected, topological [[4-manifold|8H58Q6YJCH]] whose [[intersection form|WK8GKRKAVD]] is the form of the [[$E_8$ lattice|2CXH65EKY7]].
 This form is positive definite, even and unimodular, of rank $8$ and [[signature|07EZA80NEH]] $8$.
 Its existence and its uniqueness up to [[homeomorphism|0QT00PB5G2]] follow from [[Freedman's classification|HSD6FKCYRC]], since the form is even.
 One construction plumbs together eight disk bundles over the $2$-sphere with Euler number $2$, following the pattern of the $E_8$ Dynkin diagram.

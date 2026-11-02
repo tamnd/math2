@@ -152,13 +152,13 @@ items:
   - {name: homology manifold, kind: definition, wikipedia: Homology manifold, wikidata: Q5891460, node: 6TKGN8K8KT}
   - {name: homology sphere, kind: definition, wikipedia: Homology sphere, wikidata: Q1502277, node: HK8NS02NNE}
   # Fixed points and degree
-  - {name: Brouwer fixed-point theorem, kind: statement, wikipedia: Brouwer fixed-point theorem, wikidata: Q1144897}
+  - {name: Brouwer fixed-point theorem, kind: statement, wikipedia: Brouwer fixed-point theorem, wikidata: Q1144897, node: N7AAJ2MW5T}
   - {name: degree of a continuous map, kind: definition, wikipedia: Degree of a continuous mapping, wikidata: Q306564, node: TMFG2P912R}
   - {name: Hopf degree theorem, kind: statement, wikipedia: Degree of a continuous mapping, wikidata: Q306564, node: 902X7EHFSC}
   - {name: hairy ball theorem, kind: statement, wikipedia: Hairy ball theorem, wikidata: Q1077741, node: Z49RAKVCWG}
   - {name: Borsuk–Ulam theorem, kind: statement, wikipedia: Borsuk–Ulam theorem, wikidata: Q848092, node: QHJ0GBQE2E}
   - {name: Lusternik–Schnirelmann theorem, kind: statement, wikipedia: Lusternik–Schnirelmann theorem, wikidata: Q25098919, node: SYVXQQK57V}
-  - {name: Lefschetz fixed-point theorem, kind: statement, wikipedia: Lefschetz fixed-point theorem, wikidata: Q657469}
+  - {name: Lefschetz fixed-point theorem, kind: statement, wikipedia: Lefschetz fixed-point theorem, wikidata: Q657469, node: G44NQXCWT9}
   - {name: Lefschetz number, kind: definition, wikipedia: Lefschetz fixed-point theorem, wikidata: Q657469, node: ZSYCA4EGEZ}
   - {name: Nielsen fixed-point theory, kind: concept, wikipedia: Fixed-point theorem, wikidata: Q1422068, node: GHXMVWN3W5}
   - {name: Poincaré–Hopf theorem, kind: statement, wikipedia: Poincaré–Hopf theorem, wikidata: Q1305766, node: 4XTPY82PP4}
@@ -169,7 +169,7 @@ items:
   - {name: Tucker's lemma, kind: statement, wikipedia: Tucker's lemma, wikidata: Q7851042, node: PADZ7D9KBT}
   - {name: Sperner's lemma, kind: statement, wikipedia: Sperner's lemma, wikidata: Q733336, node: HQG3V5Z6MR}
   # Fibrations and bundles
-  - {name: fibration, kind: definition, wikipedia: Fibration, wikidata: Q493941}
+  - {name: fibration, kind: definition, wikipedia: Fibration, wikidata: Q493941, node: Y773B7EQA7}
   - {name: Hurewicz fibration, kind: definition, wikipedia: Fibration, wikidata: Q493941, node: Y773B7EQA7}
   - {name: Serre fibration, kind: definition, wikipedia: Fibration, wikidata: Q493941, node: PB9JXQ2KC3}
   - {name: homotopy lifting property, kind: definition, wikipedia: Homotopy lifting property, wikidata: Q3983973, node: G4QDM01P6J}

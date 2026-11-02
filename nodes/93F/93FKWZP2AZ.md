@@ -21,4 +21,4 @@ For continuous $f \colon [0, 1] \to [0, 1]$, the function $g(x) = f(x) - x$ sati
 Non-example: the [[circle|060W5CBZP6]] $S^1 \subseteq \C$ fails it, because the rotation $z \mapsto -z$ is continuous and has no fixed point.
 If $X$ has the fixed-point property and $Y$ is homeomorphic to $X$, then $Y$ has it as well.
 A [[retract|68PFSGP39B]] of a space with the fixed-point property also has it.
-The Brouwer fixed-point theorem states that the closed unit ball of $\R^n$ has the fixed-point property.
+The [[Brouwer fixed-point theorem|N7AAJ2MW5T]] states that the closed unit ball of $\R^n$ has the fixed-point property.

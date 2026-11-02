@@ -44,7 +44,7 @@ items:
   - {name: minimax approximation, kind: concept, wikipedia: Minimax approximation algorithm, wikidata: Q6865376}
   - {name: Remez algorithm, kind: concept, wikipedia: Remez algorithm, wikidata: Q2835816}
   - {name: Chebyshev polynomials, kind: definition, decl: Polynomial.Chebyshev.T, wikipedia: Chebyshev polynomials, wikidata: Q619511}
-  - {name: Chebyshev polynomials of the second kind, kind: definition, decl: Polynomial.Chebyshev.U, wikipedia: Chebyshev polynomials, wikidata: Q619511}
+  - {name: Chebyshev polynomials of the second kind, kind: definition, decl: Polynomial.Chebyshev.U, wikipedia: Chebyshev polynomials, wikidata: Q619511, node: 7CATGEN6KH}
   - {name: trigonometric definition of Chebyshev polynomials, kind: statement, decl: Polynomial.Chebyshev.T_real_cos, wikipedia: Chebyshev polynomials, wikidata: Q619511}
   - {name: minimal deviation property of Chebyshev polynomials, kind: statement, wikipedia: Chebyshev polynomials, wikidata: Q619511}
   - {name: Chebyshev nodes, kind: definition, decl: Polynomial.Chebyshev.roots_T_real, wikipedia: Chebyshev nodes, wikidata: Q1052508}
@@ -60,7 +60,7 @@ items:
   - {name: Bernstein's theorem on analytic functions, kind: statement, wikipedia: Bernstein's theorem (approximation theory), wikidata: Q4894565}
   - {name: Markov brothers' inequality, kind: statement, wikipedia: Markov brothers' inequality, wikidata: Q176674, node: EHA5MF9VKE}
   - {name: Remez inequality, kind: statement, wikipedia: Remez inequality, wikidata: Q7311758}
-  - {name: Turán's inequalities, kind: statement, wikipedia: Turán's inequalities, wikidata: Q7856594}
+  - {name: Turán's inequalities, kind: statement, wikipedia: Turán's inequalities, wikidata: Q7856594, node: 4K3D632K60}
   - {name: Favard constant, kind: definition, wikipedia: Favard constant, wikidata: Q5438429}
   - {name: Favard's theorem on trigonometric approximation, kind: statement, wikipedia: Favard constant, wikidata: Q5438429}
   - {name: Landau–Kolmogorov inequality, kind: statement, wikipedia: Landau–Kolmogorov inequality, wikidata: Q5638668, node: C3DD4Z4MD1}

@@ -34,7 +34,7 @@ Multiplying by the [[generating function for partitions|0578PA53VA]] $\prod_n (1
 $$p(m) = \sum_{k \ne 0} (-1)^{k+1}\, p\big(m - k(3k - 1)/2\big),$$
 with $p(0) = 1$ and $p(j) = 0$ for $j < 0$.
 For example, $p(5) = p(4) + p(3) - p(0) = 5 + 3 - 1 = 7$.
-The theorem is a special case of the Jacobi triple product.
+The theorem is a special case of the [[Jacobi triple product|JFP2DGMNXT]].
 
 ## Explanations
 

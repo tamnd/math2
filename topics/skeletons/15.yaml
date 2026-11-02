@@ -91,7 +91,7 @@ items:
   - {name: multiplicativity of the determinant, kind: statement, decl: Matrix.det_mul, wikipedia: Determinant, wikidata: Q178546, node: 04CPJ6AF00}
   - {name: determinant of the transpose, kind: statement, decl: Matrix.det_transpose, wikipedia: Determinant, wikidata: Q178546, node: 0ZZQ2E1MTE}
   - {name: determinant of a triangular matrix, kind: statement, decl: Matrix.det_of_upperTriangular, wikipedia: Triangular matrix, wikidata: Q506265, node: 0K1KKMFHYH}
-  - {name: determinant of a block matrix, kind: statement, decl: Matrix.det_fromBlocks₁₁, wikipedia: Block matrix, wikidata: Q884772}
+  - {name: determinant of a block matrix, kind: statement, decl: Matrix.det_fromBlocks₁₁, wikipedia: Block matrix, wikidata: Q884772, node: 0KA7A4ENVJ}
   - {name: Cauchy–Binet formula, kind: statement, wikipedia: Cauchy–Binet formula, wikidata: Q45286, node: 08WE2W7DYS}
   - {name: adjugate matrix, kind: definition, decl: Matrix.adjugate, wikipedia: Adjugate matrix, wikidata: Q225107, node: 07W9H8QF38}
   - {name: minor, kind: definition, wikipedia: Minor (linear algebra), wikidata: Q1341061, node: 0BT9BYWVRY}

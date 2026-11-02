@@ -29,9 +29,9 @@ items:
   - {name: Dirichlet problem, kind: problem, wikipedia: Dirichlet problem, wikidata: Q1192869, node: 8D56GQ4AG8}
   - {name: Neumann problem, kind: problem, wikipedia: Neumann boundary condition, wikidata: Q1149279}
   - {name: Robin boundary condition, kind: definition, wikipedia: Robin boundary condition, wikidata: Q748993, node: 581AGFCCRX}
-  - {name: free boundary problem, kind: problem, wikipedia: Free boundary problem, wikidata: Q5500196}
+  - {name: free boundary problem, kind: problem, wikipedia: Free boundary problem, wikidata: Q5500196, node: YR42E2W19Q}
   - {name: Stefan problem, kind: problem, wikipedia: Stefan problem, wikidata: Q3775789, node: 3B0HB3DHW1}
-  - {name: obstacle problem, kind: problem, wikipedia: Obstacle problem, wikidata: Q3406250}
+  - {name: obstacle problem, kind: problem, wikipedia: Obstacle problem, wikidata: Q3406250, node: GXN2NEHC8X}
   - {name: overdetermined system, kind: concept, wikipedia: Overdetermined system, wikidata: Q331348, node: QJ0P26J9BV}
   # Existence theory
   - {name: Cauchy–Kovalevskaya theorem, kind: statement, wikipedia: Cauchy–Kovalevskaya theorem, wikidata: Q1614464, node: 97HMV9BT2W}
@@ -45,7 +45,7 @@ items:
   # Generalized solutions and function spaces
   - {name: distribution, kind: definition, decl: Distribution, wikipedia: Distribution (mathematical analysis), wikidata: Q865811, mathlib: [mathlib-undergrad, mathlib-overview], node: 0DVDCMA2DK}
   - {name: Dirac delta function, kind: object, decl: Distribution.delta, wikipedia: Dirac delta function, wikidata: Q209675, node: 0KPHENZ5S7}
-  - {name: test function, kind: definition, decl: ContDiffBump, wikipedia: Bump function, wikidata: Q1143737}
+  - {name: test function, kind: definition, decl: ContDiffBump, wikipedia: Bump function, wikidata: Q1143737, node: HS65DW0HXH}
   - {name: Schwartz space, kind: definition, decl: SchwartzMap, wikipedia: Schwartz space, wikidata: Q1369621, mathlib: [mathlib-undergrad, mathlib-overview], node: CG9JEATW3Q}
   - {name: tempered distribution, kind: definition, decl: TemperedDistribution, wikipedia: Distribution (mathematical analysis), wikidata: Q865811, mathlib: [mathlib-undergrad, mathlib-overview], node: AES2T5JPFP}
   - {name: weak derivative, kind: definition, wikipedia: Weak derivative, wikidata: Q2143116, node: C3EC148VZD}
@@ -168,7 +168,7 @@ items:
   - {name: Laplace transform, kind: definition, wikipedia: Laplace transform, wikidata: Q199691, node: 0V49JEZW06}
   - {name: Duhamel's principle, kind: statement, wikipedia: Duhamel's principle, wikidata: Q4378863, node: Q28DM6ZCMF}
   - {name: method of images, kind: concept, wikipedia: Method of images, wikidata: Q2563425}
-  - {name: spherical harmonics, kind: object, wikipedia: Spherical harmonics, wikidata: Q877100}
+  - {name: spherical harmonics, kind: object, wikipedia: Spherical harmonics, wikidata: Q877100, node: 3F32Y21HP4}
   - {name: similarity solution, kind: concept, wikipedia: Self-similar solution, wikidata: Q4056366, node: 579J5K9K5Z}
   - {name: traveling wave, kind: concept, wikipedia: Wave, wikidata: Q37172, node: M37M411KP7}
   - {name: Lie group method for PDEs, kind: concept, wikipedia: Lie point symmetry, wikidata: Q6543828, node: QQ8M0T04Q9}
@@ -211,7 +211,7 @@ items:
   - {name: Kadomtsev–Petviashvili equation, kind: definition, wikipedia: Kadomtsev–Petviashvili equation, wikidata: Q6345653, node: P93R13XP0P}
   - {name: Navier–Stokes equations, kind: definition, wikipedia: Navier–Stokes equations, wikidata: Q201321, node: 18KXZHVF4M}
   - {name: Navier–Stokes existence and smoothness, kind: conjecture, wikipedia: Navier–Stokes existence and smoothness, wikidata: Q1098081, node: 46Z1TVS2K6}
-  - {name: Leray weak solution, kind: statement, wikipedia: Navier–Stokes existence and smoothness, wikidata: Q1098081}
+  - {name: Leray weak solution, kind: statement, wikipedia: Navier–Stokes existence and smoothness, wikidata: Q1098081, node: DHHR5PZZ7E}
   - {name: Euler equations, kind: definition, wikipedia: Euler equations (fluid dynamics), wikidata: Q375175, node: RW0JK9VDZE}
   - {name: Stokes flow, kind: definition, wikipedia: Stokes flow, wikidata: Q674202, node: 13CB7V2YM4}
   - {name: Boltzmann equation, kind: definition, wikipedia: Boltzmann equation, wikidata: Q891653, node: MH6CSWD7F0}
