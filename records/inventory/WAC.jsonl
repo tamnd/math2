@@ -1,1 +1,5 @@
 {"id":"WAC31T34RB","mentions":["ax://paper/2610.02061#OMDI"],"kind":"statement","msc":["14-XX","55-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.12"}]}
+{"id":"WACDN7MRG4","mentions":["wikipedia://en/967440#XC5Y"],"kind":"statement","name":"Corollary","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"WACGKVTJWK","mentions":["wikipedia://en/68011960#8Y6D"],"kind":"unknown","name":"Liquid vector space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"WACMGRADB1","mentions":["wikipedia://en/36803313#45E7"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"WACW05TB5T","mentions":["wikipedia://en/6152185"],"kind":"definition","name":"Softmax function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

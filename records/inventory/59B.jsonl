@@ -1,1 +1,4 @@
-{"id":"59BF54KZA0","mentions":["m2://rec/wikidata/Q7676457#1"],"kind":"conjecture","name":"Tait's conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"59BF54KZA0","mentions":["m2://rec/wikidata/Q7676457#1","wikipedia://en/52435"],"kind":"statement","name":"Tait's conjecture","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"59BJN4CTPQ","mentions":["wikipedia://en/191457#VAUF"],"kind":"definition","name":"Identifiability","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"59BRE7X0C9","mentions":["wikipedia://en/356213#PP9F"],"kind":"topic","name":"Plato","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"59BVM2NSVP","mentions":["wikipedia://en/11353703#Z1QE"],"kind":"topic","name":"Solomon Golomb","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

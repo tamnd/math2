@@ -1,1 +1,7 @@
+{"id":"2G67YXWQSW","mentions":["wikipedia://en/1403586#IIAR"],"kind":"unknown","name":"Klaus Stimeder","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"2G68DECY8A","mentions":["wikipedia://en/59958932"],"kind":"definition","name":"Danzer set","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"2G6BE286TC","mentions":["wikipedia://en/605671#YJN7"],"kind":"unknown","name":"Dissemination area","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2G6HEP0GZE","mentions":["ax://paper/2609.22551#CQEP"],"kind":"statement","msc":["18-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.17"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.17"}],"proofs":["ax://paper/2609.22551#0M3H"]}
+{"id":"2G6Q3SA2GK","mentions":["wikipedia://en/949189"],"kind":"definition","name":"Design matrix","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"2G6RG59KT8","mentions":["wikipedia://en/11353703#JQS3"],"kind":"topic","name":"Aviezri Fraenkel","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"2G6SYEBKBX","mentions":["wikipedia://en/78814542"],"kind":"topic","name":"David E. Joyce","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

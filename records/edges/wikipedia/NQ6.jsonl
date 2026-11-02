@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/1114931#GEGR","to":"wikipedia://en/2174184","predicate":"uses","method":"link-in-item","confidence":"high","span":[17649,17678],"revision":1367332641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1114931#GEGR","to":"wikipedia://en/2180593","predicate":"uses","method":"link-in-item","confidence":"high","span":[18867,18899],"revision":1367332641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48609934","to":"wikipedia://en/268078","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[310,346],"revision":1329687518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48609934","to":"wikipedia://en/18104802","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[417,443],"revision":1329687518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48609934","to":"wikipedia://en/663079","predicate":"related","method":"link-in-text","confidence":"low","span":[556,585],"revision":1329687518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48609934","to":"wikipedia://en/1883376","predicate":"related","method":"link-in-text","confidence":"low","span":[907,922],"revision":1329687518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48609934","to":"wikipedia://en/198822","predicate":"related","method":"link-in-text","confidence":"low","span":[1109,1142],"revision":1329687518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48609934","to":"Category:Chinese mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2358,2393],"revision":1329687518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48609934","to":"Category:Chinese women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2394,2435],"revision":1329687518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48609934","to":"Category:Academic staff of Hong Kong Polytechnic University","predicate":"in-field","method":"category","confidence":"medium","span":[2482,2545],"revision":1329687518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8269328","to":"wikipedia://en/47717","predicate":"related","method":"link-in-lead","confidence":"low","span":[54,77],"revision":1364558742,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8269328","to":"wikipedia://en/45811","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[101,111],"revision":1364558742,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8269328","to":"Category:Lists of things named after mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3428,3493],"revision":1364558742,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8269328","to":"Category:Srinivasa Ramanujan","predicate":"in-field","method":"category","confidence":"medium","span":[3494,3528],"revision":1364558742,"by":"importer/wikipedia/1"}

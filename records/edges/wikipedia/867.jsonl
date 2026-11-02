@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/1313620#5JRE","to":"wikipedia://en/146806","predicate":"uses","method":"link-in-item","confidence":"high","span":[562,585],"revision":1235927922,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1468817#1987","to":"wikipedia://en/298420","predicate":"uses","method":"link-in-item","confidence":"high","span":[4287,4312],"revision":1362355139,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1468817#1987","to":"wikipedia://en/330206","predicate":"uses","method":"link-in-item","confidence":"high","span":[4319,4346],"revision":1362355139,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1468817#1987","to":"wikipedia://en/49172","predicate":"uses","method":"link-in-item","confidence":"high","span":[4369,4388],"revision":1362355139,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1468817#1987","to":"wikipedia://en/89489","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5053,5092],"revision":1362355139,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1468817#1987","to":"wikipedia://en/20646438","predicate":"uses","method":"link-in-item","confidence":"high","span":[5122,5137],"revision":1362355139,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1468817#1987","to":"wikipedia://en/8398","predicate":"uses","method":"link-in-item","confidence":"high","span":[5166,5205],"revision":1362355139,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5745928","to":"wikipedia://en/213003","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[172,191],"revision":1352152118,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5745928","to":"wikipedia://en/44787","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[395,404],"revision":1352152118,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5745928","to":"wikipedia://en/143135","predicate":"related","method":"link-in-text","confidence":"low","span":[1183,1214],"revision":1352152118,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5745928","to":"wikipedia://en/36670","predicate":"related","method":"see-also","confidence":"low","span":[2410,2423],"revision":1352152118,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5745928","to":"wikipedia://en/5871105","predicate":"related","method":"see-also","confidence":"low","span":[2425,2440],"revision":1352152118,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5745928","to":"wikipedia://en/6381755","predicate":"related","method":"see-also","confidence":"low","span":[2442,2461],"revision":1352152118,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5745928","to":"wikipedia://en/75161560","predicate":"related","method":"see-also","confidence":"low","span":[2463,2484],"revision":1352152118,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5745928","to":"Category:Packing problems","predicate":"in-field","method":"category","confidence":"medium","span":[3224,3253],"revision":1352152118,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5745928","to":"Category:Tiling puzzles","predicate":"in-field","method":"category","confidence":"medium","span":[3254,3281],"revision":1352152118,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5745928","to":"Category:Mechanical puzzle cubes","predicate":"in-field","method":"category","confidence":"medium","span":[3282,3318],"revision":1352152118,"by":"importer/wikipedia/1"}

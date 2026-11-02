@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/12337462","to":"wikipedia://en/21527","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[260,277],"revision":1320288940,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12337462","to":"wikipedia://en/1583267","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[287,304],"revision":1320288940,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12337462","to":"wikipedia://en/1566402","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[443,464],"revision":1320288940,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12337462","to":"wikipedia://en/239508","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[466,487],"revision":1320288940,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12337462","to":"wikipedia://en/540459","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[493,530],"revision":1320288940,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12337462","to":"wikipedia://en/23666","predicate":"related","method":"see-also","confidence":"low","span":[5259,5275],"revision":1320288940,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12337462","to":"wikipedia://en/91127","predicate":"related","method":"see-also","confidence":"low","span":[5278,5296],"revision":1320288940,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12337462","to":"wikipedia://en/21527","predicate":"related","method":"see-also","confidence":"low","span":[5299,5316],"revision":1320288940,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12337462","to":"Category:Academics of Dublin City University","predicate":"in-field","method":"category","confidence":"medium","span":[5843,5891],"revision":1320288940,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12337462","to":"Category:Scientists from County Cavan","predicate":"in-field","method":"category","confidence":"medium","span":[5952,5993],"revision":1320288940,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12337462","to":"Category:20th-century Irish mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[5994,6040],"revision":1320288940,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12337462","to":"Category:21st-century Irish mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[6041,6087],"revision":1320288940,"by":"importer/wikipedia/1"}

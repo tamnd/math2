@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/32037787","to":"wikipedia://en/24295969","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[35,58],"revision":1221125284,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32037787","to":"wikipedia://en/9087","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[89,109],"revision":1221125284,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32037787","to":"wikipedia://en/9087","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[288,308],"revision":1221125284,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32037787","to":"wikipedia://en/2619735","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[314,341],"revision":1221125284,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32037787","to":"wikipedia://en/6042","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[478,503],"revision":1221125284,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32037787","to":"Category:Dynamical systems","predicate":"in-field","method":"category","confidence":"medium","span":[753,783],"revision":1221125284,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32037787","to":"Category:Applied mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[784,816],"revision":1221125284,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32037787","to":"Category:Systems theory","predicate":"in-field","method":"category","confidence":"medium","span":[817,844],"revision":1221125284,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4904667#PGX8","to":"wikipedia://en/161260","predicate":"listed-in","method":"list","confidence":"certain","span":[3125,3137],"revision":1336564817,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4904667#PGX8","to":"wikipedia://en/6220","predicate":"uses","method":"link-in-item","confidence":"high","span":[3159,3169],"revision":1336564817,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4904667#PGX8","to":"wikipedia://en/4470203","predicate":"uses","method":"link-in-item","confidence":"high","span":[3170,3200],"revision":1336564817,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4904667#PGX8","to":"wikipedia://en/31482","predicate":"uses","method":"link-in-item","confidence":"high","span":[3218,3229],"revision":1336564817,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4904667#PGX8","to":"wikipedia://en/161260","predicate":"uses","method":"link-in-item","confidence":"high","span":[3255,3275],"revision":1336564817,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4904667#PGX8","to":"wikipedia://en/1926432","predicate":"uses","method":"link-in-item","confidence":"high","span":[3501,3517],"revision":1336564817,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/660973#BRO1","to":"wikipedia://en/296079","predicate":"listed-in","method":"list","confidence":"certain","span":[2487,2531],"revision":1356076661,"by":"importer/wikipedia/1"}

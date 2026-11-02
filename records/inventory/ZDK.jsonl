@@ -1,2 +1,6 @@
+{"id":"ZDKA0CWD0H","mentions":["wikipedia://en/32304253"],"kind":"definition","name":"Θ10","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ZDKDRXREP6","mentions":["wikipedia://en/82044973#9PYQ"],"kind":"unknown","name":"Edison","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ZDKHFKGZZC","mentions":["wikipedia://en/6085#9089"],"kind":"unknown","name":"Regular Cauchy sequence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZDKMPV76FZ","mentions":["ax://paper/2610.19250#L9HB"],"kind":"statement","msc":["49-XX","90-XX","93-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
+{"id":"ZDKNVYKEM5","mentions":["wikipedia://en/7763362#UA1F"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZDKPA1MBDM","mentions":["m2://rec/wikidata/Q25304284#1"],"kind":"unknown","name":"tetracontaoctagon","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

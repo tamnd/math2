@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/2142850#QAT2","to":"wikipedia://en/504458","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[3521,3549],"revision":1363373483,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/355140#R69Z","to":"wikipedia://en/6292","predicate":"uses","method":"link-in-item","confidence":"high","span":[19998,20013],"revision":1374246101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/355140#R69Z","to":"wikipedia://en/61346","predicate":"uses","method":"link-in-item","confidence":"high","span":[20862,20882],"revision":1374246101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/355140#R69Z","to":"wikipedia://en/23087738","predicate":"uses","method":"link-in-item","confidence":"high","span":[21050,21070],"revision":1374246101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/355140#R69Z","to":"wikipedia://en/59530924","predicate":"uses","method":"link-in-item","confidence":"high","span":[22148,22205],"revision":1374246101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565351#CS09","to":"wikipedia://en/58898385","predicate":"listed-in","method":"list","confidence":"certain","span":[22019,22057],"revision":1373350261,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58684510","to":"wikipedia://en/20590","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[262,284],"revision":1357957328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58684510","to":"wikipedia://en/36417540","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[297,310],"revision":1357957328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58684510","to":"wikipedia://en/75150","predicate":"related","method":"link-in-text","confidence":"low","span":[585,614],"revision":1357957328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58684510","to":"wikipedia://en/3309927","predicate":"related","method":"link-in-text","confidence":"low","span":[682,705],"revision":1357957328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58684510","to":"wikipedia://en/418604","predicate":"related","method":"link-in-text","confidence":"low","span":[2809,2819],"revision":1357957328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58684510","to":"wikipedia://en/66618","predicate":"related","method":"link-in-text","confidence":"low","span":[2850,2874],"revision":1357957328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58684510","to":"wikipedia://en/232689","predicate":"related","method":"link-in-text","confidence":"low","span":[2892,2908],"revision":1357957328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58684510","to":"wikipedia://en/84652","predicate":"related","method":"see-also","confidence":"low","span":[4501,4518],"revision":1357957328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58684510","to":"wikipedia://en/3328588","predicate":"related","method":"see-also","confidence":"low","span":[4521,4542],"revision":1357957328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58684510","to":"wikipedia://en/1243432","predicate":"related","method":"see-also","confidence":"low","span":[4545,4563],"revision":1357957328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58684510","to":"Category:Equations","predicate":"kind-of","method":"category","confidence":"medium","span":[6422,6444],"revision":1357957328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58684510","to":"Category:Economics curves","predicate":"in-field","method":"category","confidence":"medium","span":[6445,6474],"revision":1357957328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58684510","to":"Category:Resource economics","predicate":"in-field","method":"category","confidence":"medium","span":[6475,6506],"revision":1357957328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58684510","to":"Category:Peak oil","predicate":"in-field","method":"category","confidence":"medium","span":[6507,6528],"revision":1357957328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58684510","to":"Category:Continuous distributions","predicate":"in-field","method":"category","confidence":"medium","span":[6529,6566],"revision":1357957328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58684510","to":"Category:Seneca the Younger","predicate":"in-field","method":"category","confidence":"medium","span":[6567,6598],"revision":1357957328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#GINQ","to":"wikipedia://en/5647376","predicate":"listed-in","method":"list","confidence":"certain","span":[2078,2102],"revision":1356718736,"by":"importer/wikipedia/1"}

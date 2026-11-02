@@ -1,2 +1,8 @@
+{"id":"9SC1M1Z942","mentions":["wikipedia://en/11353703#V1X5"],"kind":"unknown","name":"Rudolf Peierls","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9SC3RD60DP","mentions":["wikipedia://en/2032752#L0XL"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9SC4SK1JMP","mentions":["wikipedia://en/77227525#VN1T"],"kind":"unknown","name":"Urban wage premium","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9SCJXNS69G","mentions":["wikipedia://en/70571129"],"kind":"definition","name":"Finite sphere packing","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9SCQ3177PX","mentions":["m2://rec/wikidata/Q107914880#1"],"kind":"definition","name":"ronna","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9SCT85YS88","mentions":["wikipedia://en/3932847#XZJQ"],"kind":"unknown","name":"Genedata","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9SCWHP62C2","mentions":["wikipedia://en/385989#3A76"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9SCY4SKD42","mentions":["ax://paper/2610.12295#UTL8"],"kind":"statement","msc":["20-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}],"proofs":["ax://paper/2610.12295#DM98"]}

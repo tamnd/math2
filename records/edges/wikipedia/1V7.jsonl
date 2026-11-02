@@ -1,0 +1,18 @@
+{"from":"wikipedia://en/14403539#M4CY","to":"wikipedia://en/8933423","predicate":"listed-in","method":"list","confidence":"certain","span":[34809,34825],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28299988#WW2M","to":"wikipedia://en/10538912","predicate":"listed-in","method":"list","confidence":"certain","span":[635,652],"revision":1372077058,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3553599#YR4J","to":"wikipedia://en/28901","predicate":"listed-in","method":"list","confidence":"certain","span":[1903,1922],"revision":1356076245,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/450536","to":"wikipedia://en/18934432","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[51,67],"revision":1373004677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/450536","to":"wikipedia://en/59644","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[100,121],"revision":1373004677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/450536","to":"wikipedia://en/9439931","predicate":"related","method":"link-in-lead","confidence":"low","span":[193,227],"revision":1373004677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/450536","to":"wikipedia://en/7543","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[308,373],"revision":1373004677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/450536","to":"wikipedia://en/181334","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[385,407],"revision":1373004677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/450536","to":"wikipedia://en/59470","predicate":"related","method":"see-also","confidence":"low","span":[8853,8888],"revision":1373004677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/450536","to":"wikipedia://en/40775836","predicate":"related","method":"see-also","confidence":"low","span":[8891,8900],"revision":1373004677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/450536","to":"wikipedia://en/2033473","predicate":"related","method":"see-also","confidence":"low","span":[8903,8931],"revision":1373004677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/450536","to":"Template:Cryptography navbox","predicate":"in-nav","method":"nav","confidence":"low","span":[9139,9175],"revision":1373004677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/450536","to":"Category:Digital signature schemes","predicate":"in-field","method":"category","confidence":"medium","span":[9177,9215],"revision":1373004677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/700981#9USD","to":"wikipedia://en/7483985","predicate":"uses","method":"link-in-item","confidence":"high","span":[1333,1366],"revision":1370173785,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/700981#9USD","to":"wikipedia://en/10225","predicate":"uses","method":"link-in-item","confidence":"high","span":[1889,1907],"revision":1370173785,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/700981#9USD","to":"wikipedia://en/43604164","predicate":"uses","method":"link-in-item","confidence":"high","span":[1942,1986],"revision":1370173785,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/700981#9USD","to":"wikipedia://en/174475","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2013,2035],"revision":1370173785,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/700981#9USD","to":"wikipedia://en/35189927","predicate":"uses","method":"link-in-item","confidence":"high","span":[2552,2566],"revision":1370173785,"by":"importer/wikipedia/1"}

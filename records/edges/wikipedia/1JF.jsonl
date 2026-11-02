@@ -1,0 +1,18 @@
+{"from":"wikipedia://en/14403539#6RVN","to":"wikipedia://en/36477942","predicate":"listed-in","method":"list","confidence":"certain","span":[29252,29267],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23994987","to":"wikipedia://en/19378200","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,28],"revision":1354297001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23994987","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[42,57],"revision":1354297001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23994987","to":"wikipedia://en/277087","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[208,223],"revision":1354297001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23994987","to":"wikipedia://en/277179","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[294,335],"revision":1354297001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23994987","to":"wikipedia://en/14563","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[355,366],"revision":1354297001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23994987","to":"wikipedia://en/277087","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[386,404],"revision":1354297001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23994987","to":"wikipedia://en/5011916","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[473,499],"revision":1354297001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23994987","to":"wikipedia://en/19211790","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[562,605],"revision":1354297001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23994987","to":"wikipedia://en/385982","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[624,654],"revision":1354297001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23994987","to":"wikipedia://en/1337587","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[660,686],"revision":1354297001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23994987","to":"wikipedia://en/5011916","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[769,841],"revision":1354297001,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23994987","to":"wikipedia://en/1146292","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[899,923],"revision":1354297001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23994987","to":"Category:Representation theory","predicate":"in-field","method":"category","confidence":"medium","span":[9686,9720],"revision":1354297001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23994987","to":"Category:Representation theory of Lie algebras","predicate":"in-field","method":"category","confidence":"medium","span":[9721,9771],"revision":1354297001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23994987","to":"Category:Types of functions","predicate":"kind-of","method":"category","confidence":"medium","span":[9772,9803],"revision":1354297001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#UVO0","to":"wikipedia://en/565930","predicate":"listed-in","method":"list","confidence":"certain","span":[15996,16013],"revision":1356718736,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#UVO0","to":"wikipedia://en/59458","predicate":"uses","method":"link-in-item","confidence":"high","span":[16051,16107],"revision":1356718736,"by":"importer/wikipedia/1"}

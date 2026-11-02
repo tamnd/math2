@@ -1,2 +1,7 @@
+{"id":"WHB8FZN9BH","mentions":["wikipedia://en/12259232#SYBG"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WHB8PGEMWJ","mentions":["ax://paper/2610.05512#JJT5"],"kind":"statement","msc":["62-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.10"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}]}
+{"id":"WHBCTJT8YK","mentions":["wikipedia://en/59441634#RF3R"],"kind":"definition","name":"Implementations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"WHBH39CM76","mentions":["wikipedia://en/1029314"],"kind":"topic","name":"Andrzej Mostowski","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"WHBJJESH2K","mentions":["wikipedia://en/233497#UCJ8"],"kind":"definition","name":"Helmholtz machine","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WHBP48JRPG","mentions":["m2://rec/lebl_diffyqs/ch-higher-order-ode.tex#exercise-50#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"WHBX74456R","mentions":["wikipedia://en/146253#1SH8"],"kind":"definition","name":"Terminology","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

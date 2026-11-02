@@ -1,0 +1,20 @@
+{"from":"wikipedia://en/65738568#NT3J","to":"wikipedia://en/17395276","predicate":"restates","method":"hatnote","confidence":"high","span":[4317,4359],"revision":1322449767,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65738568#NT3J","to":"wikipedia://en/518844","predicate":"uses","method":"link-in-item","confidence":"high","span":[4487,4545],"revision":1322449767,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65738568#NT3J","to":"wikipedia://en/1733592","predicate":"uses","method":"link-in-item","confidence":"high","span":[4574,4593],"revision":1322449767,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65738568#NT3J","to":"wikipedia://en/65738568","predicate":"uses","method":"anchor","confidence":"certain","span":[4632,4671],"revision":1322449767,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65738568#NT3J","to":"wikipedia://en/200550","predicate":"uses","method":"link-in-item","confidence":"high","span":[4825,4840],"revision":1322449767,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65738568#NT3J","to":"wikipedia://en/65738568","predicate":"uses","method":"anchor","confidence":"certain","span":[4879,4918],"revision":1322449767,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65738568#NT3J","to":"wikipedia://en/64278078","predicate":"uses","method":"link-in-item","confidence":"high","span":[5129,5189],"revision":1322449767,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65738568#NT3J","to":"wikipedia://en/65738568","predicate":"uses","method":"anchor","confidence":"certain","span":[5271,5310],"revision":1322449767,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65738568#NT3J","to":"wikipedia://en/64278078","predicate":"uses","method":"link-in-item","confidence":"high","span":[5506,5566],"revision":1322449767,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/65738568#NT3J","to":"wikipedia://en/226975","predicate":"uses","method":"link-in-item","confidence":"high","span":[5657,5678],"revision":1322449767,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75571870","to":"wikipedia://en/37445","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[116,127],"revision":1285965489,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75571870","to":"wikipedia://en/31053036","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1459,1474],"revision":1285965489,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75571870","to":"wikipedia://en/457026","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1639,1653],"revision":1285965489,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75571870","to":"wikipedia://en/5377","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1659,1671],"revision":1285965489,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75571870","to":"Category:Astronomy books","predicate":"in-field","method":"category","confidence":"medium","span":[4681,4709],"revision":1285965489,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75571870","to":"Category:Indian mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[4710,4741],"revision":1285965489,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75571870","to":"Category:Hindu astronomy","predicate":"in-field","method":"category","confidence":"medium","span":[4742,4770],"revision":1285965489,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75571870","to":"Category:History of mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[4771,4806],"revision":1285965489,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75571870","to":"Category:Indian astronomy texts","predicate":"in-field","method":"category","confidence":"medium","span":[4807,4842],"revision":1285965489,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75571870","to":"Category:Kannada literature","predicate":"in-field","method":"category","confidence":"medium","span":[4843,4874],"revision":1285965489,"by":"importer/wikipedia/1"}

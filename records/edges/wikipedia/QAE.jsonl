@@ -1,0 +1,5 @@
+{"from":"wikipedia://en/35795816","to":"wikipedia://en/248808","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[48,69],"revision":1158962605,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35795816","to":"wikipedia://en/872991","predicate":"related","method":"link-in-lead","confidence":"low","span":[174,188],"revision":1158962605,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35795816","to":"wikipedia://en/3141761","predicate":"related","method":"link-in-lead","confidence":"low","span":[204,281],"revision":1158962605,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35795816","to":"Category:Diophantine geometry","predicate":"in-field","method":"category","confidence":"medium","span":[2238,2271],"revision":1158962605,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35795816","to":"Category:Algebraic varieties","predicate":"in-field","method":"category","confidence":"medium","span":[2272,2304],"revision":1158962605,"by":"importer/wikipedia/1"}

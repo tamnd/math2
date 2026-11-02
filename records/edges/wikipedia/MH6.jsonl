@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/18817598","to":"wikipedia://en/21527","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[72,89],"revision":1352187673,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18817598","to":"wikipedia://en/1035915","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[142,158],"revision":1352187673,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18817598","to":"wikipedia://en/23666","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[224,246],"revision":1352187673,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18817598","to":"wikipedia://en/2021","predicate":"related","method":"link-in-lead","confidence":"low","span":[306,322],"revision":1352187673,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18817598","to":"wikipedia://en/9704785","predicate":"related","method":"link-in-lead","confidence":"low","span":[355,375],"revision":1352187673,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18817598","to":"wikipedia://en/9338319","predicate":"related","method":"link-in-lead","confidence":"low","span":[380,398],"revision":1352187673,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18817598","to":"wikipedia://en/9704785","predicate":"related","method":"link-in-text","confidence":"low","span":[3183,3203],"revision":1352187673,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18817598","to":"wikipedia://en/9338319","predicate":"related","method":"link-in-text","confidence":"low","span":[3208,3226],"revision":1352187673,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18817598","to":"wikipedia://en/9351265","predicate":"related","method":"link-in-text","confidence":"low","span":[4154,4187],"revision":1352187673,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18817598","to":"wikipedia://en/14749965","predicate":"related","method":"link-in-text","confidence":"low","span":[4292,4307],"revision":1352187673,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18817598","to":"Category:Sieve theory","predicate":"in-field","method":"category","confidence":"medium","span":[11439,11464],"revision":1352187673,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18817598","to":"Category:Mathematical problems","predicate":"kind-of","method":"category","confidence":"medium","span":[11465,11499],"revision":1352187673,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55582061","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[68,85],"revision":1286431646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55582061","to":"wikipedia://en/12815034","predicate":"related","method":"link-in-lead","confidence":"low","span":[100,113],"revision":1286431646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55582061","to":"wikipedia://en/244107","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[141,184],"revision":1286431646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55582061","to":"wikipedia://en/13926038","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[255,282],"revision":1286431646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55582061","to":"wikipedia://en/3080","predicate":"related","method":"link-in-text","confidence":"low","span":[957,971],"revision":1286431646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55582061","to":"wikipedia://en/12815034","predicate":"related","method":"link-in-text","confidence":"low","span":[1107,1120],"revision":1286431646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55582061","to":"wikipedia://en/257242","predicate":"related","method":"link-in-text","confidence":"low","span":[1451,1485],"revision":1286431646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55582061","to":"wikipedia://en/8407","predicate":"related","method":"link-in-text","confidence":"low","span":[1536,1552],"revision":1286431646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55582061","to":"wikipedia://en/43856084","predicate":"related","method":"link-in-text","confidence":"low","span":[1557,1572],"revision":1286431646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55582061","to":"wikipedia://en/30796","predicate":"related","method":"see-also","confidence":"low","span":[2729,2746],"revision":1286431646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55582061","to":"Category:2nd-century BC Greek mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2894,2942],"revision":1286431646,"by":"importer/wikipedia/1"}

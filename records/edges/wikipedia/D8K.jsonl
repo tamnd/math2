@@ -1,0 +1,47 @@
+{"from":"wikipedia://en/19696645","to":"wikipedia://en/13692155","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[145,171],"revision":1300817030,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19696645","to":"wikipedia://en/29353","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[274,297],"revision":1300817030,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19696645","to":"wikipedia://en/145245","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[384,406],"revision":1300817030,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19696645","to":"wikipedia://en/248437","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[430,469],"revision":1300817030,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19696645","to":"wikipedia://en/48518","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[734,761],"revision":1300817030,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19696645","to":"wikipedia://en/357356","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2705,2744],"revision":1300817030,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19696645","to":"Category:21st-century American philosophers","predicate":"in-field","method":"category","confidence":"medium","span":[3079,3126],"revision":1300817030,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19696645","to":"Category:20th-century American philosophers","predicate":"in-field","method":"category","confidence":"medium","span":[3127,3174],"revision":1300817030,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23472134#Y0AZ","to":"wikipedia://en/14922","predicate":"uses","method":"link-in-item","confidence":"high","span":[452,470],"revision":1317723716,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3820870#0AP0","to":"wikipedia://en/320348","predicate":"listed-in","method":"list","confidence":"certain","span":[26988,27014],"revision":1373538872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44403623#TEYS","to":"wikipedia://en/3396069","predicate":"uses","method":"link-in-item","confidence":"high","span":[2891,2917],"revision":1371552159,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5080402","to":"wikipedia://en/163180","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[147,178],"revision":1345322801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5080402","to":"wikipedia://en/13426218","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[392,440],"revision":1345322801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5080402","to":"wikipedia://en/4116856","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[596,632],"revision":1345322801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5080402","to":"wikipedia://en/163180","predicate":"related","method":"link-in-text","confidence":"low","span":[2123,2181],"revision":1345322801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5080402","to":"wikipedia://en/4222086","predicate":"related","method":"link-in-text","confidence":"low","span":[2350,2379],"revision":1345322801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5080402","to":"wikipedia://en/394392","predicate":"related","method":"link-in-text","confidence":"low","span":[2384,2420],"revision":1345322801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5080402","to":"wikipedia://en/2940730","predicate":"related","method":"link-in-text","confidence":"low","span":[2442,2463],"revision":1345322801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5080402","to":"wikipedia://en/236850","predicate":"related","method":"link-in-text","confidence":"low","span":[4319,4344],"revision":1345322801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5080402","to":"wikipedia://en/7859676","predicate":"restates","method":"hatnote","confidence":"high","span":[4884,4896],"revision":1345322801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5080402","to":"wikipedia://en/31676015","predicate":"related","method":"link-in-text","confidence":"low","span":[5026,5047],"revision":1345322801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5080402","to":"wikipedia://en/5657877","predicate":"related","method":"link-in-text","confidence":"low","span":[5803,5849],"revision":1345322801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5080402","to":"wikipedia://en/17410813","predicate":"related","method":"link-in-text","confidence":"low","span":[7075,7141],"revision":1345322801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5080402","to":"wikipedia://en/17410813","predicate":"related","method":"see-also","confidence":"low","span":[8136,8167],"revision":1345322801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5080402","to":"wikipedia://en/9190286","predicate":"related","method":"see-also","confidence":"low","span":[8170,8201],"revision":1345322801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5080402","to":"wikipedia://en/241717","predicate":"related","method":"see-also","confidence":"low","span":[8204,8222],"revision":1345322801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5080402","to":"wikipedia://en/163180","predicate":"related","method":"see-also","confidence":"low","span":[8225,8256],"revision":1345322801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5080402","to":"Template:Portal bar","predicate":"in-nav","method":"nav","confidence":"low","span":[10579,10614],"revision":1345322801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5080402","to":"Category:Epidemiology","predicate":"in-field","method":"category","confidence":"medium","span":[10660,10685],"revision":1345322801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5080402","to":"Category:Clinical trials","predicate":"in-field","method":"category","confidence":"medium","span":[10686,10714],"revision":1345322801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5080402","to":"Category:Experiments","predicate":"in-field","method":"category","confidence":"medium","span":[10715,10739],"revision":1345322801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5080402","to":"Category:Clinical research","predicate":"in-field","method":"category","confidence":"medium","span":[10740,10770],"revision":1345322801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66193#FXFB","to":"wikipedia://en/1134659","predicate":"uses","method":"link-in-item","confidence":"high","span":[4611,4625],"revision":1362628467,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66193#FXFB","to":"wikipedia://en/4237207","predicate":"uses","method":"link-in-item","confidence":"high","span":[4654,4680],"revision":1362628467,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66193#FXFB","to":"wikipedia://en/4237207","predicate":"uses","method":"link-in-item","confidence":"high","span":[4684,4702],"revision":1362628467,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66193#FXFB","to":"wikipedia://en/44561","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4718,4733],"revision":1362628467,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66193#FXFB","to":"wikipedia://en/183928","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4766,4782],"revision":1362628467,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66193#FXFB","to":"wikipedia://en/2499","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4816,4856],"revision":1362628467,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66193#FXFB","to":"wikipedia://en/236048","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5467,5496],"revision":1362628467,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66193#FXFB","to":"wikipedia://en/13883","predicate":"uses","method":"link-in-item","confidence":"high","span":[5792,5810],"revision":1362628467,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66193#FXFB","to":"wikipedia://en/18209","predicate":"uses","method":"link-in-item","confidence":"high","span":[6147,6176],"revision":1362628467,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66193#FXFB","to":"wikipedia://en/46680","predicate":"uses","method":"link-in-item","confidence":"high","span":[6186,6206],"revision":1362628467,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66193#FXFB","to":"wikipedia://en/3364948","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6293,6311],"revision":1362628467,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66193#FXFB","to":"wikipedia://en/18935","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7159,7173],"revision":1362628467,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66193#FXFB","to":"wikipedia://en/48063","predicate":"uses","method":"link-in-item","confidence":"high","span":[7399,7419],"revision":1362628467,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66193#FXFB","to":"wikipedia://en/41687","predicate":"uses","method":"link-in-item","confidence":"high","span":[7476,7504],"revision":1362628467,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66193#FXFB","to":"wikipedia://en/41176","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7533,7558],"revision":1362628467,"by":"importer/wikipedia/1"}

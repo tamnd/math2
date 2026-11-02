@@ -1,0 +1,33 @@
+{"from":"wikipedia://en/14403539#50R7","to":"wikipedia://en/1062425","predicate":"listed-in","method":"list","confidence":"certain","span":[4082,4094],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22609470#EGJP","to":"wikipedia://en/742352","predicate":"listed-in","method":"list","confidence":"certain","span":[8130,8155],"revision":1340541119,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"wikipedia://en/769122","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[205,228],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"wikipedia://en/563689","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[233,256],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"wikipedia://en/27979","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[280,299],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"wikipedia://en/2839","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[344,364],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"wikipedia://en/43709","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[423,445],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"wikipedia://en/26903","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[655,671],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"wikipedia://en/18406","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[926,949],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"wikipedia://en/30001","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[986,1033],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"wikipedia://en/12024","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1101,1123],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"wikipedia://en/74263","predicate":"related","method":"link-in-text","confidence":"low","span":[1744,1782],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"wikipedia://en/2703","predicate":"related","method":"link-in-text","confidence":"low","span":[2180,2203],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"wikipedia://en/28736","predicate":"related","method":"link-in-text","confidence":"low","span":[2399,2417],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"wikipedia://en/1264","predicate":"related","method":"link-in-text","confidence":"low","span":[2814,2829],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"wikipedia://en/205775","predicate":"related","method":"link-in-text","confidence":"low","span":[3119,3136],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"wikipedia://en/28736","predicate":"related","method":"link-in-text","confidence":"low","span":[3362,3380],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"wikipedia://en/38454","predicate":"related","method":"link-in-text","confidence":"low","span":[3477,3503],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"wikipedia://en/26751","predicate":"related","method":"link-in-text","confidence":"low","span":[3529,3536],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"wikipedia://en/1099413","predicate":"related","method":"link-in-text","confidence":"low","span":[4299,4336],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"wikipedia://en/212124","predicate":"related","method":"link-in-text","confidence":"low","span":[5206,5224],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"wikipedia://en/20627","predicate":"related","method":"link-in-text","confidence":"low","span":[6342,6349],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"wikipedia://en/997205","predicate":"related","method":"link-in-text","confidence":"low","span":[7032,7050],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"wikipedia://en/1210","predicate":"related","method":"link-in-text","confidence":"low","span":[7061,7085],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"wikipedia://en/30391110","predicate":"related","method":"see-also","confidence":"low","span":[9171,9202],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"wikipedia://en/43709","predicate":"related","method":"see-also","confidence":"low","span":[9205,9227],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"wikipedia://en/47625","predicate":"related","method":"see-also","confidence":"low","span":[9230,9250],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"wikipedia://en/13478488","predicate":"related","method":"see-also","confidence":"low","span":[9253,9273],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"Category:Orbital perturbations","predicate":"in-field","method":"category","confidence":"medium","span":[10882,10916],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"Category:Doppler effects","predicate":"in-field","method":"category","confidence":"medium","span":[10917,10945],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"Category:Cosmic dust","predicate":"in-field","method":"category","confidence":"medium","span":[10946,10970],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"Category:Special relativity","predicate":"in-field","method":"category","confidence":"medium","span":[10971,11002],"revision":1364741494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/615108","to":"Category:Radiation effects","predicate":"in-field","method":"category","confidence":"medium","span":[11003,11033],"revision":1364741494,"by":"importer/wikipedia/1"}

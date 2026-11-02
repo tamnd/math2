@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/1403586#KAD2","to":"wikipedia://en/1830054","predicate":"listed-in","method":"list","confidence":"certain","span":[224317,224332],"revision":1375861581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25178047","to":"wikipedia://en/173416","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[198,222],"revision":1148947561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25178047","to":"wikipedia://en/22934","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[227,242],"revision":1148947561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25178047","to":"wikipedia://en/26685","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[247,261],"revision":1148947561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25178047","to":"wikipedia://en/23543","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[316,345],"revision":1148947561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25178047","to":"wikipedia://en/40400729","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[364,410],"revision":1148947561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25178047","to":"wikipedia://en/1699223","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[416,474],"revision":1148947561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25178047","to":"wikipedia://en/21462","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[483,537],"revision":1148947561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25178047","to":"wikipedia://en/1619396","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[668,680],"revision":1148947561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25178047","to":"wikipedia://en/21462","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[700,723],"revision":1148947561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25178047","to":"wikipedia://en/368684","predicate":"related","method":"link-in-text","confidence":"low","span":[2995,3027],"revision":1148947561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25178047","to":"wikipedia://en/507208","predicate":"related","method":"link-in-text","confidence":"low","span":[3365,3385],"revision":1148947561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25178047","to":"wikipedia://en/60901165","predicate":"related","method":"see-also","confidence":"low","span":[3464,3486],"revision":1148947561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25178047","to":"Category:Continuous distributions","predicate":"in-field","method":"category","confidence":"medium","span":[4914,4951],"revision":1148947561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25178047","to":"Category:Q-analogs","predicate":"in-field","method":"category","confidence":"medium","span":[4952,4974],"revision":1148947561,"by":"importer/wikipedia/1"}

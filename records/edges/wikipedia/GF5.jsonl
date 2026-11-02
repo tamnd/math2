@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/20148816","to":"wikipedia://en/243946","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[46,69],"revision":1373727569,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20148816","to":"wikipedia://en/18978398","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[183,207],"revision":1373727569,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20148816","to":"wikipedia://en/18961138","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[658,694],"revision":1373727569,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20148816","to":"wikipedia://en/18961138","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[728,757],"revision":1373727569,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20148816","to":"wikipedia://en/33895035","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[855,871],"revision":1373727569,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20148816","to":"wikipedia://en/20180314","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1011,1030],"revision":1373727569,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20148816","to":"wikipedia://en/53721144","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1328,1365],"revision":1373727569,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20148816","to":"wikipedia://en/36815255","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2119,2132],"revision":1373727569,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20148816","to":"wikipedia://en/43836601","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2137,2173],"revision":1373727569,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20148816","to":"wikipedia://en/201489","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3221,3241],"revision":1373727569,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20148816","to":"wikipedia://en/142207","predicate":"related","method":"link-in-text","confidence":"low","span":[8068,8149],"revision":1373727569,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20148816","to":"wikipedia://en/519182","predicate":"related","method":"link-in-text","confidence":"low","span":[9222,9276],"revision":1373727569,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20148816","to":"wikipedia://en/132729","predicate":"related","method":"link-in-text","confidence":"low","span":[10200,10209],"revision":1373727569,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20148816","to":"wikipedia://en/462005","predicate":"related","method":"link-in-text","confidence":"low","span":[11656,11674],"revision":1373727569,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20148816","to":"wikipedia://en/195063","predicate":"related","method":"link-in-text","confidence":"low","span":[12445,12466],"revision":1373727569,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20148816","to":"wikipedia://en/1543735","predicate":"related","method":"link-in-text","confidence":"low","span":[17877,17895],"revision":1373727569,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20148816","to":"wikipedia://en/1126536","predicate":"related","method":"link-in-text","confidence":"low","span":[17937,17961],"revision":1373727569,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20148816","to":"wikipedia://en/45194","predicate":"related","method":"link-in-text","confidence":"low","span":[27804,27824],"revision":1373727569,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20148816","to":"wikipedia://en/2885691","predicate":"related","method":"link-in-text","confidence":"low","span":[27832,27860],"revision":1373727569,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20148816","to":"wikipedia://en/18964319","predicate":"related","method":"link-in-text","confidence":"low","span":[27872,27896],"revision":1373727569,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20148816","to":"Category:Multilinear algebra","predicate":"in-field","method":"category","confidence":"medium","span":[28122,28154],"revision":1373727569,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20148816","to":"Category:Tensors","predicate":"in-field","method":"category","confidence":"medium","span":[28155,28175],"revision":1373727569,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/346955#R50O","to":"wikipedia://en/585797","predicate":"listed-in","method":"list","confidence":"certain","span":[871,900],"revision":1356077031,"by":"importer/wikipedia/1"}

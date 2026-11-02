@@ -1,2 +1,7 @@
+{"id":"JAZ0B2S6AD","mentions":["wikipedia://en/50788273"],"kind":"definition","name":"FreeOTP","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"JAZ524HHDQ","mentions":["wikipedia://en/21241712#2HZD"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"JAZ54V3SBN","mentions":["wikipedia://en/7218498#QC0N"],"kind":"definition","name":"Weyl's criterion for equidistribution","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"JAZ80J478S","mentions":["wikipedia://en/2390225#CSCU"],"kind":"definition","name":"Q","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JAZHKXQ4CJ","mentions":["m2://rec/ernst_ibl/MAAPressVersion/Topology.tex#definition-3#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"JAZRQFG0T6","mentions":["wikipedia://en/4015871"],"kind":"topic","name":"David Eppstein","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JAZV14MARD","mentions":["ax://paper/2610.03661#0Q86"],"kind":"statement","msc":["20-XX","22-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.12"}]}

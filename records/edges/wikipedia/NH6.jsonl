@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/14623383#VMJM","to":"wikipedia://en/48404","predicate":"uses","method":"link-in-item","confidence":"high","span":[673,701],"revision":1353497841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14623383#VMJM","to":"wikipedia://en/48164","predicate":"uses","method":"link-in-item","confidence":"high","span":[830,847],"revision":1353497841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14623383#VMJM","to":"wikipedia://en/314730","predicate":"uses","method":"link-in-item","confidence":"high","span":[936,956],"revision":1353497841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14623383#VMJM","to":"wikipedia://en/9927028","predicate":"uses","method":"link-in-item","confidence":"high","span":[1058,1089],"revision":1353497841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14623383#VMJM","to":"wikipedia://en/25063","predicate":"uses","method":"link-in-item","confidence":"high","span":[1235,1263],"revision":1353497841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14623383#VMJM","to":"wikipedia://en/10789680","predicate":"uses","method":"link-in-item","confidence":"high","span":[1347,1364],"revision":1353497841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14623383#VMJM","to":"wikipedia://en/363340","predicate":"uses","method":"link-in-item","confidence":"high","span":[1368,1408],"revision":1353497841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14623383#VMJM","to":"wikipedia://en/1698066","predicate":"uses","method":"link-in-item","confidence":"high","span":[1415,1457],"revision":1353497841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14623383#VMJM","to":"wikipedia://en/10603","predicate":"uses","method":"link-in-item","confidence":"high","span":[1464,1493],"revision":1353497841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14623383#VMJM","to":"wikipedia://en/347049","predicate":"uses","method":"link-in-item","confidence":"high","span":[1517,1550],"revision":1353497841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14623383#VMJM","to":"wikipedia://en/966856","predicate":"uses","method":"link-in-item","confidence":"high","span":[1597,1615],"revision":1353497841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14623383#VMJM","to":"wikipedia://en/4382697","predicate":"uses","method":"link-in-item","confidence":"high","span":[1703,1723],"revision":1353497841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54028304","to":"wikipedia://en/5205878","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[57,84],"revision":1345217883,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54028304","to":"wikipedia://en/579867","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[250,278],"revision":1345217883,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54028304","to":"wikipedia://en/21878925","predicate":"related","method":"link-in-text","confidence":"low","span":[645,665],"revision":1345217883,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54028304","to":"wikipedia://en/113087","predicate":"related","method":"link-in-text","confidence":"low","span":[902,932],"revision":1345217883,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54028304","to":"wikipedia://en/1179451","predicate":"related","method":"link-in-text","confidence":"low","span":[2622,2641],"revision":1345217883,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54028304","to":"wikipedia://en/692458","predicate":"related","method":"link-in-text","confidence":"low","span":[3204,3229],"revision":1345217883,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54028304","to":"wikipedia://en/42908722","predicate":"related","method":"see-also","confidence":"low","span":[4645,4670],"revision":1345217883,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54028304","to":"wikipedia://en/18233581","predicate":"related","method":"see-also","confidence":"low","span":[4672,4697],"revision":1345217883,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54028304","to":"wikipedia://en/372620","predicate":"related","method":"see-also","confidence":"low","span":[4699,4719],"revision":1345217883,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54028304","to":"Category:Finite element method","predicate":"in-field","method":"category","confidence":"medium","span":[4852,4886],"revision":1345217883,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54028304","to":"Category:Structural analysis","predicate":"in-field","method":"category","confidence":"medium","span":[4887,4919],"revision":1345217883,"by":"importer/wikipedia/1"}

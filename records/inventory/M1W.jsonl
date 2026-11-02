@@ -1,1 +1,4 @@
+{"id":"M1W47AKWQF","mentions":["wikipedia://en/30863772#FF65"],"kind":"definition","name":"Fibonacci sequence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"M1WDKEPQXW","mentions":["wikipedia://en/1403586#WPT6"],"kind":"unknown","name":"Joyce Appleby","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"M1WNB80SCS","mentions":["wikipedia://en/14403539#P09S"],"kind":"unknown","name":"Ileana Streinu","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"M1WT4984ZZ","mentions":["ax://paper/2610.20909#4JOP"],"kind":"statement","msc":["26-XX","35-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.2"}]}

@@ -1,0 +1,32 @@
+{"from":"wikipedia://en/55690071","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[107,122],"revision":1305190108,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55690071","to":"wikipedia://en/19378200","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[142,167],"revision":1305190108,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55690071","to":"wikipedia://en/609737","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[223,256],"revision":1305190108,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55690071","to":"wikipedia://en/880754","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[280,321],"revision":1305190108,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55690071","to":"wikipedia://en/357452","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[326,361],"revision":1305190108,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55690071","to":"wikipedia://en/341048","predicate":"related","method":"link-in-lead","confidence":"low","span":[526,555],"revision":1305190108,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55690071","to":"wikipedia://en/874400","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[577,619],"revision":1305190108,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55690071","to":"Template:Portal","predicate":"in-nav","method":"nav","confidence":"low","span":[7786,7808],"revision":1305190108,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55690071","to":"wikipedia://en/880754","predicate":"related","method":"see-also","confidence":"low","span":[7815,7844],"revision":1305190108,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55690071","to":"wikipedia://en/357452","predicate":"related","method":"see-also","confidence":"low","span":[7849,7875],"revision":1305190108,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55690071","to":"wikipedia://en/874400","predicate":"related","method":"see-also","confidence":"low","span":[7946,7988],"revision":1305190108,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55690071","to":"wikipedia://en/981694","predicate":"related","method":"see-also","confidence":"low","span":[8057,8082],"revision":1305190108,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55690071","to":"wikipedia://en/20419621","predicate":"related","method":"see-also","confidence":"low","span":[8091,8123],"revision":1305190108,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55690071","to":"Category:Representation theory of finite groups","predicate":"in-field","method":"category","confidence":"medium","span":[8975,9026],"revision":1305190108,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55690071","to":"Category:Theorems in representation theory","predicate":"kind-of","method":"category","confidence":"medium","span":[9027,9073],"revision":1305190108,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55690071","to":"Category:Adjoint functors","predicate":"in-field","method":"category","confidence":"medium","span":[9074,9103],"revision":1305190108,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/599970#5CA5","to":"wikipedia://en/25199747","predicate":"listed-in","method":"list","confidence":"certain","span":[4163,4182],"revision":1347211680,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/902872","to":"wikipedia://en/22934","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1545,1560],"revision":1311576355,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/902872","to":"wikipedia://en/732873","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1885,1909],"revision":1311576355,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/902872","to":"wikipedia://en/22934","predicate":"related","method":"link-in-text","confidence":"low","span":[2808,2823],"revision":1311576355,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/902872","to":"wikipedia://en/24104134","predicate":"related","method":"link-in-text","confidence":"low","span":[2841,2868],"revision":1311576355,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/902872","to":"wikipedia://en/440936","predicate":"related","method":"link-in-text","confidence":"low","span":[2874,2888],"revision":1311576355,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/902872","to":"wikipedia://en/44720","predicate":"related","method":"link-in-text","confidence":"low","span":[2901,2909],"revision":1311576355,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/902872","to":"wikipedia://en/8033188","predicate":"related","method":"link-in-text","confidence":"low","span":[3422,3444],"revision":1311576355,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/902872","to":"wikipedia://en/532376","predicate":"related","method":"link-in-text","confidence":"low","span":[3498,3554],"revision":1311576355,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/902872","to":"wikipedia://en/732873","predicate":"related","method":"link-in-text","confidence":"low","span":[3816,3840],"revision":1311576355,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/902872","to":"wikipedia://en/902614","predicate":"related","method":"see-also","confidence":"low","span":[5636,5666],"revision":1311576355,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/902872","to":"Template:Portal bar","predicate":"in-nav","method":"nav","confidence":"low","span":[6399,6431],"revision":1311576355,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/902872","to":"Category:California state case law","predicate":"in-field","method":"category","confidence":"medium","span":[6433,6471],"revision":1311576355,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/902872","to":"Category:Forensic statistics","predicate":"in-field","method":"category","confidence":"medium","span":[6472,6504],"revision":1311576355,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/902872","to":"Category:1968 in United States case law","predicate":"in-field","method":"category","confidence":"medium","span":[6505,6548],"revision":1311576355,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/902872","to":"Category:1968 in California","predicate":"in-field","method":"category","confidence":"medium","span":[6549,6580],"revision":1311576355,"by":"importer/wikipedia/1"}

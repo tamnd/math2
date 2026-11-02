@@ -1,0 +1,18 @@
+{"from":"wikipedia://en/31022249#I484","to":"wikipedia://en/390538","predicate":"uses","method":"link-in-item","confidence":"high","span":[1194,1212],"revision":1350923901,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31022249#I484","to":"wikipedia://en/285618","predicate":"uses","method":"link-in-item","confidence":"high","span":[1280,1313],"revision":1350923901,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31022249#I484","to":"wikipedia://en/285622","predicate":"uses","method":"link-in-item","confidence":"high","span":[1315,1342],"revision":1350923901,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31022249#I484","to":"wikipedia://en/276582","predicate":"uses","method":"link-in-item","confidence":"high","span":[1348,1368],"revision":1350923901,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3913145","to":"wikipedia://en/27553","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[107,121],"revision":1345542192,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3913145","to":"wikipedia://en/185427","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[181,217],"revision":1345542192,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3913145","to":"wikipedia://en/27553","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[246,274],"revision":1345542192,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3913145","to":"wikipedia://en/24104095","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[469,490],"revision":1345542192,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3913145","to":"wikipedia://en/9260","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[930,951],"revision":1345542192,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3913145","to":"wikipedia://en/9259","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[970,994],"revision":1345542192,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3913145","to":"wikipedia://en/27873","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1303,1317],"revision":1345542192,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3913145","to":"Category:Basic concepts in set theory","predicate":"in-field","method":"category","confidence":"medium","span":[2337,2378],"revision":1345542192,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41160090#LXOD","to":"wikipedia://en/36799559","predicate":"restates","method":"hatnote","confidence":"high","span":[6025,6044],"revision":1339582314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41160090#LXOD","to":"wikipedia://en/771562","predicate":"related","method":"link-in-item","confidence":"low","span":[6168,6209],"revision":1339582314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41160090#LXOD","to":"wikipedia://en/3172817","predicate":"uses","method":"link-in-item","confidence":"high","span":[6210,6230],"revision":1339582314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41160090#LXOD","to":"wikipedia://en/12746935","predicate":"uses","method":"link-in-item","confidence":"high","span":[6259,6304],"revision":1339582314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41160090#LXOD","to":"wikipedia://en/318742","predicate":"uses","method":"link-in-item","confidence":"high","span":[6308,6347],"revision":1339582314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76765067#HCJ5","to":"wikipedia://en/523043","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[93811,93837],"revision":1368301704,"by":"importer/wikipedia/1"}

@@ -1,0 +1,6 @@
+{"from":"wikipedia://en/351549#9MN9","to":"wikipedia://en/373810","predicate":"listed-in","method":"list","confidence":"certain","span":[4198,4214],"revision":1346728004,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55283391","to":"wikipedia://en/17825553","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3,34],"revision":1169848465,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55283391","to":"wikipedia://en/30330","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[123,139],"revision":1169848465,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55283391","to":"wikipedia://en/442137","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[149,166],"revision":1169848465,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55283391","to":"Category:Combinatorics","predicate":"in-field","method":"category","confidence":"medium","span":[572,598],"revision":1169848465,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55283391","to":"Category:Data analysis","predicate":"in-field","method":"category","confidence":"medium","span":[599,625],"revision":1169848465,"by":"importer/wikipedia/1"}

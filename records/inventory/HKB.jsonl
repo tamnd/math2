@@ -1,2 +1,5 @@
+{"id":"HKB0P86AED","mentions":["wikipedia://en/28382955"],"kind":"definition","name":"Potentially all pairwise rankings of all possible alternatives","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HKB2GGZCT1","mentions":["m2://rec/open_logic/content/incompleteness/incompleteness-provability/first-incompleteness-thm.tex#proof-2#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"HKB946B9HV","mentions":["wikipedia://en/4291061"],"kind":"topic","name":"Mario Szegedy","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"HKBGJGTP04","mentions":["wikipedia://en/599970#P27X"],"kind":"statement","name":"Dehn's lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HKBQHZ00FX","mentions":["m2://rec/austin_ula/src/section7-1.xml#prop-covariance#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

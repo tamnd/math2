@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/12739372","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[42,57],"revision":1306667673,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12739372","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[90,107],"revision":1306667673,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12739372","to":"wikipedia://en/40895609","predicate":"related","method":"link-in-lead","confidence":"low","span":[144,157],"revision":1306667673,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12739372","to":"wikipedia://en/5274013","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[638,682],"revision":1306667673,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12739372","to":"wikipedia://en/5274013","predicate":"related","method":"see-also","confidence":"low","span":[846,860],"revision":1306667673,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12739372","to":"wikipedia://en/9742","predicate":"related","method":"see-also","confidence":"low","span":[863,880],"revision":1306667673,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12739372","to":"wikipedia://en/2740708","predicate":"related","method":"see-also","confidence":"low","span":[883,897],"revision":1306667673,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12739372","to":"wikipedia://en/7349264","predicate":"related","method":"see-also","confidence":"low","span":[900,919],"revision":1306667673,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12739372","to":"Category:Higher category theory","predicate":"in-field","method":"category","confidence":"medium","span":[953,988],"revision":1306667673,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#WX0Z","to":"wikipedia://en/3255074","predicate":"listed-in","method":"list","confidence":"certain","span":[34961,34986],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2231480","to":"wikipedia://en/18934432","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[35,51],"revision":1221401525,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2231480","to":"wikipedia://en/25685","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[145,165],"revision":1221401525,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2231480","to":"wikipedia://en/6026","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[228,241],"revision":1221401525,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2231480","to":"wikipedia://en/23543","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[305,333],"revision":1221401525,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2231480","to":"wikipedia://en/1699214","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[600,657],"revision":1221401525,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2231480","to":"wikipedia://en/47895#IGUT","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[882,935],"revision":1221401525,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2231480","to":"wikipedia://en/1182348","predicate":"related","method":"see-also","confidence":"low","span":[953,974],"revision":1221401525,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2231480","to":"wikipedia://en/5187620","predicate":"related","method":"see-also","confidence":"low","span":[977,1000],"revision":1221401525,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2231480","to":"wikipedia://en/2231589","predicate":"related","method":"see-also","confidence":"low","span":[1003,1028],"revision":1221401525,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2231480","to":"wikipedia://en/1467815","predicate":"related","method":"see-also","confidence":"low","span":[1031,1069],"revision":1221401525,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2231480","to":"Category:Theory of cryptography","predicate":"in-field","method":"category","confidence":"medium","span":[1320,1355],"revision":1221401525,"by":"importer/wikipedia/1"}

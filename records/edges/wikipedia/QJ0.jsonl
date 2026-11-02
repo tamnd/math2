@@ -1,0 +1,20 @@
+{"from":"wikipedia://en/12533877","to":"wikipedia://en/5827247","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[255,273],"revision":1332022174,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12533877","to":"wikipedia://en/12079734","predicate":"related","method":"link-in-text","confidence":"low","span":[3955,3974],"revision":1332022174,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12533877","to":"wikipedia://en/1066843","predicate":"related","method":"link-in-text","confidence":"low","span":[4147,4199],"revision":1332022174,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12533877","to":"wikipedia://en/7005239","predicate":"related","method":"link-in-text","confidence":"low","span":[4579,4602],"revision":1332022174,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12533877","to":"wikipedia://en/1070832","predicate":"related","method":"link-in-text","confidence":"low","span":[6401,6420],"revision":1332022174,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12533877","to":"wikipedia://en/1699223","predicate":"related","method":"link-in-text","confidence":"low","span":[9207,9254],"revision":1332022174,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12533877","to":"wikipedia://en/7005239","predicate":"related","method":"link-in-text","confidence":"low","span":[11460,11494],"revision":1332022174,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12533877","to":"wikipedia://en/12079734","predicate":"related","method":"link-in-text","confidence":"low","span":[11692,11711],"revision":1332022174,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12533877","to":"wikipedia://en/2083759","predicate":"related","method":"link-in-text","confidence":"low","span":[12183,12204],"revision":1332022174,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12533877","to":"wikipedia://en/177700","predicate":"related","method":"link-in-text","confidence":"low","span":[12587,12616],"revision":1332022174,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12533877","to":"wikipedia://en/584438","predicate":"related","method":"link-in-text","confidence":"low","span":[12940,12958],"revision":1332022174,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12533877","to":"wikipedia://en/1070832","predicate":"related","method":"link-in-text","confidence":"low","span":[12979,12998],"revision":1332022174,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12533877","to":"Category:Auction theory","predicate":"in-field","method":"category","confidence":"medium","span":[13303,13330],"revision":1332022174,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12533877","to":"Category:Mechanism design","predicate":"in-field","method":"category","confidence":"medium","span":[13331,13360],"revision":1332022174,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/347836#5MS4","to":"wikipedia://en/45857","predicate":"listed-in","method":"list","confidence":"certain","span":[2379,2401],"revision":1356076879,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3735260#TFLS","to":"wikipedia://en/5358554","predicate":"uses","method":"link-in-item","confidence":"high","span":[21360,21379],"revision":1371079339,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3735260#TFLS","to":"wikipedia://en/6285","predicate":"uses","method":"link-in-item","confidence":"high","span":[21587,21595],"revision":1371079339,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3735260#TFLS","to":"wikipedia://en/607631","predicate":"uses","method":"link-in-item","confidence":"high","span":[21610,21634],"revision":1371079339,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51140705#JB7F","to":"wikipedia://en/71423095","predicate":"listed-in","method":"list","confidence":"certain","span":[70819,70837],"revision":1369875693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76765067#5NI5","to":"wikipedia://en/228361","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[180364,180380],"revision":1368301704,"by":"importer/wikipedia/1"}

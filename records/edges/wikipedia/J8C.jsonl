@@ -1,0 +1,27 @@
+{"from":"wikipedia://en/1568489#ZZOY","to":"wikipedia://en/2892412","predicate":"restates","method":"hatnote","confidence":"high","span":[5174,5209],"revision":1339249078,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1568489#ZZOY","to":"wikipedia://en/603780","predicate":"uses","method":"link-in-item","confidence":"high","span":[5220,5238],"revision":1339249078,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1568489#ZZOY","to":"wikipedia://en/509742","predicate":"uses","method":"link-in-item","confidence":"high","span":[5266,5286],"revision":1339249078,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1568489#ZZOY","to":"wikipedia://en/23535337","predicate":"uses","method":"link-in-item","confidence":"high","span":[5417,5453],"revision":1339249078,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1568489#ZZOY","to":"wikipedia://en/294349","predicate":"uses","method":"link-in-item","confidence":"high","span":[5603,5622],"revision":1339249078,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26248766","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[45,63],"revision":1349235543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26248766","to":"wikipedia://en/14532","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[69,78],"revision":1349235543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26248766","to":"Category:Italian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[19404,19441],"revision":1349235543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26248766","to":"Category:Lists of mathematicians by nationality","predicate":"in-field","method":"category","confidence":"medium","span":[19508,19567],"revision":1349235543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4316185#JEX0","to":"wikipedia://en/19873","predicate":"uses","method":"link-in-item","confidence":"high","span":[507,540],"revision":1262417254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4316185#JEX0","to":"wikipedia://en/43333","predicate":"uses","method":"link-in-item","confidence":"high","span":[563,583],"revision":1262417254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4316185#JEX0","to":"wikipedia://en/45270","predicate":"uses","method":"link-in-item","confidence":"high","span":[856,873],"revision":1262417254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51140705#C2GN","to":"wikipedia://en/74580336","predicate":"listed-in","method":"list","confidence":"certain","span":[64374,64394],"revision":1369875693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/669864","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1341884628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/669864","to":"wikipedia://en/19344125","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[87,109],"revision":1341884628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/669864","to":"wikipedia://en/152567","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[118,152],"revision":1341884628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/669864","to":"wikipedia://en/32328300","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[198,252],"revision":1341884628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/669864","to":"wikipedia://en/52358","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[366,384],"revision":1341884628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/669864","to":"wikipedia://en/287188","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[541,554],"revision":1341884628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/669864","to":"Category:Zeta and L-functions","predicate":"in-field","method":"category","confidence":"medium","span":[2743,2776],"revision":1341884628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/669864","to":"Category:Conjectures","predicate":"kind-of","method":"category","confidence":"medium","span":[2777,2801],"revision":1341884628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/669864","to":"Category:Unsolved problems in mathematics","predicate":"kind-of","method":"category","confidence":"medium","span":[2802,2847],"revision":1341884628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/669864","to":"Category:Bernhard Riemann","predicate":"in-field","method":"category","confidence":"medium","span":[2848,2877],"revision":1341884628,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67416519#59PQ","to":"wikipedia://en/9566","predicate":"uses","method":"link-in-item","confidence":"high","span":[12786,12799],"revision":1361725976,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67416519#59PQ","to":"wikipedia://en/27631","predicate":"uses","method":"link-in-item","confidence":"high","span":[16484,16501],"revision":1361725976,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67416519#59PQ","to":"wikipedia://en/19719","predicate":"uses","method":"link-in-item","confidence":"high","span":[16534,16580],"revision":1361725976,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67416519#59PQ","to":"wikipedia://en/330095","predicate":"uses","method":"link-in-item","confidence":"high","span":[19873,19903],"revision":1361725976,"by":"importer/wikipedia/1"}

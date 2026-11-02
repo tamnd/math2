@@ -1,0 +1,20 @@
+{"from":"wikipedia://en/23087738#LEIY","to":"wikipedia://en/30844","predicate":"uses","method":"link-in-item","confidence":"high","span":[1417,1476],"revision":1301227392,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23087738#LEIY","to":"wikipedia://en/449166","predicate":"uses","method":"link-in-item","confidence":"high","span":[1579,1624],"revision":1301227392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23087738#LEIY","to":"wikipedia://en/18420","predicate":"uses","method":"link-in-item","confidence":"high","span":[1653,1685],"revision":1301227392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23087738#LEIY","to":"wikipedia://en/44027","predicate":"uses","method":"link-in-item","confidence":"high","span":[2166,2181],"revision":1301227392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23087738#LEIY","to":"wikipedia://en/4668","predicate":"uses","method":"link-in-item","confidence":"high","span":[2463,2487],"revision":1301227392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23087738#LEIY","to":"wikipedia://en/58899","predicate":"uses","method":"link-in-item","confidence":"high","span":[2593,2635],"revision":1301227392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31979549","to":"wikipedia://en/242135","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[238,258],"revision":1366273779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31979549","to":"wikipedia://en/9067","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[362,379],"revision":1366273779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31979549","to":"wikipedia://en/10603","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[384,413],"revision":1366273779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31979549","to":"wikipedia://en/7132002","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[418,449],"revision":1366273779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31979549","to":"wikipedia://en/21092112","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[453,480],"revision":1366273779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31979549","to":"wikipedia://en/219570","predicate":"related","method":"link-in-lead","confidence":"low","span":[656,672],"revision":1366273779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31979549","to":"wikipedia://en/275015","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[715,733],"revision":1366273779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31979549","to":"wikipedia://en/247924","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[784,804],"revision":1366273779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31979549","to":"wikipedia://en/32590824","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[929,952],"revision":1366273779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31979549","to":"wikipedia://en/753521","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[969,1022],"revision":1366273779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31979549","to":"wikipedia://en/6961771","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1064,1111],"revision":1366273779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31979549","to":"wikipedia://en/907524","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1117,1145],"revision":1366273779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31979549","to":"Category:Theorems in projective geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[3481,3525],"revision":1366273779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31979549","to":"Category:Theorems in algebraic geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[3526,3569],"revision":1366273779,"by":"importer/wikipedia/1"}

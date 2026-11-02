@@ -1,1 +1,5 @@
+{"id":"QQQ39ZGXQA","mentions":["wikipedia://en/1411831"],"kind":"topic","name":"William Playfair","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QQQ84J270Y","mentions":["wikipedia://en/13987034"],"kind":"topic","name":"Morris H. DeGroot","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QQQAYCNV1G","mentions":["wikipedia://en/55704290"],"kind":"topic","name":"Ingrid C. Kildegaard","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QQQPNRCDDK","mentions":["wikipedia://en/1101069#Z5X9"],"kind":"definition","name":"L = NL problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QQQWPDDTAD","mentions":["ax://paper/2610.18673#1L4I"],"kind":"statement","msc":["35-XX","53-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}

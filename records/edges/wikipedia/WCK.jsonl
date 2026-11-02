@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/30511763","to":"wikipedia://en/19636","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[176,244],"revision":1339322781,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30511763","to":"wikipedia://en/586357","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[249,284],"revision":1339322781,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30511763","to":"wikipedia://en/405562","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[298,322],"revision":1339322781,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30511763","to":"wikipedia://en/446216","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[328,374],"revision":1339322781,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30511763","to":"wikipedia://en/4420730","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[403,420],"revision":1339322781,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30511763","to":"wikipedia://en/66294","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1167,1193],"revision":1339322781,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30511763","to":"wikipedia://en/12413580","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1554,1592],"revision":1339322781,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30511763","to":"wikipedia://en/36797","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1758,1775],"revision":1339322781,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30511763","to":"wikipedia://en/45468","predicate":"related","method":"link-in-text","confidence":"low","span":[9844,9865],"revision":1339322781,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30511763","to":"wikipedia://en/76964056","predicate":"related","method":"link-in-text","confidence":"low","span":[10518,10531],"revision":1339322781,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30511763","to":"wikipedia://en/405562","predicate":"related","method":"link-in-text","confidence":"low","span":[11677,11701],"revision":1339322781,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30511763","to":"wikipedia://en/15631055","predicate":"related","method":"link-in-text","confidence":"low","span":[11711,11747],"revision":1339322781,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30511763","to":"wikipedia://en/56098","predicate":"related","method":"link-in-text","confidence":"low","span":[12061,12095],"revision":1339322781,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30511763","to":"wikipedia://en/14313430","predicate":"related","method":"link-in-text","confidence":"low","span":[12105,12154],"revision":1339322781,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30511763","to":"wikipedia://en/33428194","predicate":"related","method":"link-in-text","confidence":"low","span":[12213,12265],"revision":1339322781,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30511763","to":"wikipedia://en/74255","predicate":"related","method":"link-in-text","confidence":"low","span":[12266,12277],"revision":1339322781,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30511763","to":"wikipedia://en/26424742","predicate":"related","method":"see-also","confidence":"low","span":[12694,12712],"revision":1339322781,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30511763","to":"Category:Optimal decisions","predicate":"in-field","method":"category","confidence":"medium","span":[13034,13064],"revision":1339322781,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30511763","to":"Category:Decision theory","predicate":"in-field","method":"category","confidence":"medium","span":[13065,13093],"revision":1339322781,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30511763","to":"Category:Machine learning","predicate":"in-field","method":"category","confidence":"medium","span":[13094,13123],"revision":1339322781,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#QJ5C","to":"wikipedia://en/1518329","predicate":"listed-in","method":"list","confidence":"certain","span":[33143,33165],"revision":1373230097,"by":"importer/wikipedia/1"}

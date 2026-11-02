@@ -1,0 +1,42 @@
+{"from":"wikipedia://en/18568#55ED","to":"wikipedia://en/1448821","predicate":"listed-in","method":"list","confidence":"certain","span":[33724,33754],"revision":1374574577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/255768#JOTQ","to":"wikipedia://en/238232","predicate":"listed-in","method":"list","confidence":"certain","span":[2035,2058],"revision":1158714048,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53230626#9Y9U","to":"wikipedia://en/18934432","predicate":"uses","method":"link-in-item","confidence":"high","span":[3743,3759],"revision":1346908491,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53230626#9Y9U","to":"wikipedia://en/21888","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3845,3895],"revision":1346908491,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53230626#9Y9U","to":"wikipedia://en/11113","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3939,3983],"revision":1346908491,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"Template:Wiktionary","predicate":"in-nav","method":"nav","confidence":"low","span":[95,109],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"wikipedia://en/9014","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[145,197],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"wikipedia://en/29113700","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[943,971],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"wikipedia://en/370785","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[982,1001],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"wikipedia://en/3557219","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1101,1117],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"wikipedia://en/466322","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1197,1214],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"wikipedia://en/291499","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1223,1275],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"wikipedia://en/465886","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1328,1360],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"wikipedia://en/50592","predicate":"related","method":"link-in-text","confidence":"low","span":[2075,2089],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"wikipedia://en/29113700","predicate":"related","method":"link-in-text","confidence":"low","span":[2694,2723],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"wikipedia://en/23666","predicate":"related","method":"link-in-text","confidence":"low","span":[6164,6181],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"wikipedia://en/3658544","predicate":"related","method":"link-in-text","confidence":"low","span":[6699,6720],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"wikipedia://en/8498","predicate":"related","method":"link-in-text","confidence":"low","span":[7762,7772],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"wikipedia://en/694777","predicate":"related","method":"link-in-text","confidence":"low","span":[7853,7913],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"wikipedia://en/2959427","predicate":"related","method":"see-also","confidence":"low","span":[9601,9614],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"wikipedia://en/533237","predicate":"related","method":"see-also","confidence":"low","span":[9617,9632],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"wikipedia://en/567292","predicate":"related","method":"see-also","confidence":"low","span":[9635,9656],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"wikipedia://en/6258906","predicate":"related","method":"see-also","confidence":"low","span":[9659,9682],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"wikipedia://en/370785","predicate":"related","method":"see-also","confidence":"low","span":[9685,9704],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"Category:Cognitive psychology","predicate":"in-field","method":"category","confidence":"medium","span":[10228,10261],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"Category:Cognitive neuroscience","predicate":"in-field","method":"category","confidence":"medium","span":[10262,10297],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"Category:Developmental psychology","predicate":"in-field","method":"category","confidence":"medium","span":[10298,10335],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"Category:Autism","predicate":"in-field","method":"category","confidence":"medium","span":[10336,10355],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"Category:Symptoms and signs: Nervous system","predicate":"in-field","method":"category","confidence":"medium","span":[10356,10403],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"Category:Neurodevelopmental disorders","predicate":"in-field","method":"category","confidence":"medium","span":[10404,10445],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"Category:Mental calculators","predicate":"in-field","method":"category","confidence":"medium","span":[10446,10477],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"Category:Temporal lobe","predicate":"in-field","method":"category","confidence":"medium","span":[10478,10504],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"Category:Parietal lobe","predicate":"in-field","method":"category","confidence":"medium","span":[10505,10531],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55536169","to":"Category:Psychology","predicate":"in-field","method":"category","confidence":"medium","span":[10532,10555],"revision":1355196089,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76723533","to":"wikipedia://en/5323","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3,23],"revision":1310985988,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76723533","to":"wikipedia://en/8336","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[98,118],"revision":1310985988,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76723533","to":"wikipedia://en/1168888","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[220,235],"revision":1310985988,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76723533","to":"wikipedia://en/15631055","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[345,380],"revision":1310985988,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76723533","to":"Category:Undecidable problems","predicate":"in-field","method":"category","confidence":"medium","span":[3470,3503],"revision":1310985988,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76723533","to":"Category:Unsolved problems in computer science","predicate":"kind-of","method":"category","confidence":"medium","span":[3504,3554],"revision":1310985988,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76723533","to":"Category:Unsolved problems in mathematics","predicate":"kind-of","method":"category","confidence":"medium","span":[3555,3600],"revision":1310985988,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76723533","to":"Category:Matrix theory","predicate":"in-field","method":"category","confidence":"medium","span":[3601,3627],"revision":1310985988,"by":"importer/wikipedia/1"}

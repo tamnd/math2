@@ -1,3 +1,7 @@
+{"id":"8PD0JKWWTY","mentions":["wikipedia://en/20457201"],"kind":"topic","name":"Hung Cheng","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"8PD7SK42YC","mentions":["wikipedia://en/47738065#TQFH"],"kind":"unknown","name":"Neeraj Kayal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"8PD7WTD5QR","mentions":["ax://paper/2610.19326#1ZDD"],"kind":"statement","msc":["65-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}],"proofs":["ax://paper/2610.19326#VKNN"]}
 {"id":"8PDAP665BW","mentions":["m2://rec/wikidata/Q37025#1"],"kind":"unknown","name":"half-plane","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"8PDNS4SVRN","mentions":["wikipedia://en/47738065#6EQB"],"kind":"unknown","name":"Victor Buchstaber","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"8PDR10Y83V","mentions":["m2://rec/wikidata/Q878723#1"],"kind":"concept","name":"9-j symbol","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"8PDR2EN4TJ","mentions":["wikipedia://en/1403586#TL8N"],"kind":"unknown","name":"Andrea Fraser","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

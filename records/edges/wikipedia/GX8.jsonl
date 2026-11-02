@@ -1,0 +1,9 @@
+{"from":"wikipedia://en/2850652","to":"wikipedia://en/8625","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[92,117],"revision":1353688866,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2850652","to":"wikipedia://en/91096","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[542,555],"revision":1353688866,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2850652","to":"wikipedia://en/174026","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[575,604],"revision":1353688866,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2850652","to":"wikipedia://en/629028","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[657,690],"revision":1353688866,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2850652","to":"wikipedia://en/13664406","predicate":"related","method":"see-also","confidence":"low","span":[3900,3945],"revision":1353688866,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2850652","to":"wikipedia://en/875509","predicate":"related","method":"see-also","confidence":"low","span":[3948,3964],"revision":1353688866,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2850652","to":"Category:Riemannian geometry","predicate":"in-field","method":"category","confidence":"medium","span":[4106,4138],"revision":1353688866,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7899870#IL6S","to":"wikipedia://en/20556859","predicate":"uses","method":"link-in-item","confidence":"high","span":[576,589],"revision":1362022254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7899870#IL6S","to":"wikipedia://en/265000","predicate":"uses","method":"link-in-item","confidence":"high","span":[641,659],"revision":1362022254,"by":"importer/wikipedia/1"}

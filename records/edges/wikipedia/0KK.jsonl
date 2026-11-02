@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/255768#3LAT","to":"wikipedia://en/18881","predicate":"listed-in","method":"list","confidence":"certain","span":[489,515],"revision":1158714048,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/255768#3LAT","to":"wikipedia://en/18881","predicate":"uses","method":"link-in-item","confidence":"high","span":[520,563],"revision":1158714048,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52582631","to":"wikipedia://en/145426","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1991,2035],"revision":1372358341,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52582631","to":"wikipedia://en/18879","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2051,2092],"revision":1372358341,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52582631","to":"wikipedia://en/74245305","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2169,2197],"revision":1372358341,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52582631","to":"wikipedia://en/34675915","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2226,2254],"revision":1372358341,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52582631","to":"wikipedia://en/9912032","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2297,2383],"revision":1372358341,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52582631","to":"wikipedia://en/5641500","predicate":"related","method":"link-in-text","confidence":"low","span":[2437,2471],"revision":1372358341,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52582631","to":"wikipedia://en/488361","predicate":"related","method":"link-in-text","confidence":"low","span":[2496,2515],"revision":1372358341,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52582631","to":"wikipedia://en/1664084","predicate":"related","method":"link-in-text","confidence":"low","span":[2844,2881],"revision":1372358341,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52582631","to":"wikipedia://en/52250","predicate":"related","method":"link-in-text","confidence":"low","span":[3102,3115],"revision":1372358341,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52582631","to":"wikipedia://en/6743781","predicate":"related","method":"link-in-text","confidence":"low","span":[3452,3480],"revision":1372358341,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52582631","to":"wikipedia://en/1554430","predicate":"related","method":"link-in-text","confidence":"low","span":[3966,3991],"revision":1372358341,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52582631","to":"wikipedia://en/211584","predicate":"related","method":"link-in-text","confidence":"low","span":[4063,4084],"revision":1372358341,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52582631","to":"wikipedia://en/18426501","predicate":"related","method":"link-in-text","confidence":"low","span":[4275,4297],"revision":1372358341,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52582631","to":"wikipedia://en/3611355","predicate":"related","method":"link-in-text","confidence":"low","span":[4348,4369],"revision":1372358341,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52582631","to":"wikipedia://en/413436","predicate":"related","method":"link-in-text","confidence":"low","span":[4468,4478],"revision":1372358341,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52582631","to":"wikipedia://en/22153","predicate":"related","method":"link-in-text","confidence":"low","span":[6629,6649],"revision":1372358341,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52582631","to":"Category:20th-century Mexican physicists","predicate":"in-field","method":"category","confidence":"medium","span":[8102,8146],"revision":1372358341,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52582631","to":"Category:20th-century Mexican mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[8147,8195],"revision":1372358341,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52582631","to":"Category:Academic staff of the National Autonomous University of Mexico","predicate":"in-field","method":"category","confidence":"medium","span":[8336,8411],"revision":1372358341,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52582631","to":"Category:National Prize for Arts and Sciences (Mexico)","predicate":"in-field","method":"category","confidence":"medium","span":[8466,8524],"revision":1372358341,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77414703#LEMI","to":"wikipedia://en/1528346","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[37533,37572],"revision":1365904789,"by":"importer/wikipedia/1"}

@@ -1,1 +1,6 @@
 {"id":"431B5JFMHQ","mentions":["ax://paper/2304.03611#NF0X"],"kind":"definition","msc":["37-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.0"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.0"}]}
+{"id":"431GH0CB4N","mentions":["wikipedia://en/13379568#1P4L"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"431H3QFMR2","mentions":["wikipedia://en/527369#DOT2"],"kind":"topic","name":"List of things named after Leonhard Euler","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"431PT4BVGJ","mentions":["wikipedia://en/39408400"],"kind":"object","name":"Hanner polytope","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"431RJHF0EB","mentions":["wikipedia://en/19783560#T6K3"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"431TT57R7B","mentions":["wikipedia://en/42138836#TU4M"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

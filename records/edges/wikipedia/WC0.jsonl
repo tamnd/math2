@@ -1,0 +1,19 @@
+{"from":"wikipedia://en/255768#0WFT","to":"wikipedia://en/1341579","predicate":"listed-in","method":"list","confidence":"certain","span":[4063,4087],"revision":1158714048,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44635680","to":"wikipedia://en/3424576","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[184,209],"revision":1369302851,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44635680","to":"wikipedia://en/20412","predicate":"related","method":"link-in-text","confidence":"low","span":[14507,14517],"revision":1369302851,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44635680","to":"Category:Machine learning algorithms","predicate":"in-field","method":"category","confidence":"medium","span":[16312,16352],"revision":1369302851,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44635680","to":"Category:Data mining","predicate":"in-field","method":"category","confidence":"medium","span":[16353,16377],"revision":1369302851,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5783978","to":"Template:Separation axioms","predicate":"in-nav","method":"nav","confidence":"low","span":[0,21],"revision":1302883932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5783978","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[111,126],"revision":1302883932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5783978","to":"wikipedia://en/29954","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[144,156],"revision":1302883932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5783978","to":"wikipedia://en/30450","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[209,230],"revision":1302883932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5783978","to":"wikipedia://en/6026","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[246,273],"revision":1302883932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5783978","to":"wikipedia://en/47279","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[297,312],"revision":1302883932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5783978","to":"wikipedia://en/11611098","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[319,363],"revision":1302883932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5783978","to":"wikipedia://en/39359","predicate":"related","method":"see-also","confidence":"low","span":[615,641],"revision":1302883932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5783978","to":"wikipedia://en/1529485","predicate":"related","method":"see-also","confidence":"low","span":[668,690],"revision":1302883932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5783978","to":"wikipedia://en/317552","predicate":"related","method":"see-also","confidence":"low","span":[773,787],"revision":1302883932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5783978","to":"wikipedia://en/317552","predicate":"related","method":"see-also","confidence":"low","span":[818,854],"revision":1302883932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5783978","to":"Template:Topology","predicate":"in-nav","method":"nav","confidence":"low","span":[1349,1361],"revision":1302883932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5783978","to":"Category:Properties of topological spaces","predicate":"in-field","method":"category","confidence":"medium","span":[1381,1426],"revision":1302883932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76765067#PR4E","to":"wikipedia://en/19513","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[132133,132163],"revision":1368301704,"by":"importer/wikipedia/1"}

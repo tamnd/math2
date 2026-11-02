@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/11118957","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[29,44],"revision":1257064488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11118957","to":"wikipedia://en/17945","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[123,137],"revision":1257064488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11118957","to":"wikipedia://en/292788","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[162,189],"revision":1257064488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11118957","to":"wikipedia://en/10995628","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[203,239],"revision":1257064488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11118957","to":"wikipedia://en/360011","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[286,312],"revision":1257064488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11118957","to":"wikipedia://en/32329601","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[632,654],"revision":1257064488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11118957","to":"wikipedia://en/11103925","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[755,790],"revision":1257064488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11118957","to":"wikipedia://en/418073","predicate":"related","method":"link-in-lead","confidence":"low","span":[792,810],"revision":1257064488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11118957","to":"Category:Representation theory of groups","predicate":"in-field","method":"category","confidence":"medium","span":[1388,1432],"revision":1257064488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1403586#5A8L","to":"wikipedia://en/10139068","predicate":"listed-in","method":"list","confidence":"certain","span":[33981,34022],"revision":1375861581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1403586#5A8L","to":"wikipedia://en/2976246","predicate":"uses","method":"link-in-item","confidence":"medium","span":[34073,34111],"revision":1375861581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14403539#A8AC","to":"wikipedia://en/26951215","predicate":"listed-in","method":"list","confidence":"certain","span":[50319,50337],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252845#336U","to":"wikipedia://en/2823","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[3028,3046],"revision":1375875409,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252845#336U","to":"wikipedia://en/15532","predicate":"uses","method":"link-in-item","confidence":"high","span":[3368,3390],"revision":1375875409,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252845#336U","to":"wikipedia://en/185427","predicate":"uses","method":"link-in-item","confidence":"high","span":[3840,3875],"revision":1375875409,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252845#336U","to":"wikipedia://en/7921","predicate":"uses","method":"link-in-item","confidence":"high","span":[3941,3955],"revision":1375875409,"by":"importer/wikipedia/1"}

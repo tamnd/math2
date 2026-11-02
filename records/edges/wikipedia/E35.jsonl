@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/191457#DOKW","to":"wikipedia://en/46096","predicate":"listed-in","method":"list","confidence":"certain","span":[72999,73020],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/353748#IMMX","to":"wikipedia://en/30403","predicate":"listed-in","method":"list","confidence":"certain","span":[2161,2179],"revision":1351694216,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47548927","to":"wikipedia://en/31740","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[142,168],"revision":1320004440,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47548927","to":"wikipedia://en/32127","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[286,311],"revision":1320004440,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47548927","to":"wikipedia://en/33109671","predicate":"related","method":"link-in-lead","confidence":"low","span":[345,368],"revision":1320004440,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47548927","to":"wikipedia://en/198822","predicate":"related","method":"link-in-lead","confidence":"low","span":[467,500],"revision":1320004440,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47548927","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[832,881],"revision":1320004440,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47548927","to":"Category:21st-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[882,931],"revision":1320004440,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54829672#D2DD","to":"wikipedia://en/771562","predicate":"related","method":"link-in-item","confidence":"low","span":[7533,7574],"revision":1360644007,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71272853#6B8K","to":"wikipedia://en/3524476","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5539,5561],"revision":1371090767,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71272853#6B8K","to":"wikipedia://en/159225","predicate":"uses","method":"link-in-item","confidence":"high","span":[5705,5733],"revision":1371090767,"by":"importer/wikipedia/1"}

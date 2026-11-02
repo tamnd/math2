@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/342038#6GMO","to":"wikipedia://en/325019","predicate":"listed-in","method":"list","confidence":"certain","span":[3267,3284],"revision":1346170872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71289#0OV3","to":"wikipedia://en/13355399","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6283,6301],"revision":1347323564,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71289#0OV3","to":"wikipedia://en/23773","predicate":"uses","method":"link-in-item","confidence":"medium","span":[8000,8040],"revision":1347323564,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71289#0OV3","to":"wikipedia://en/45459","predicate":"uses","method":"link-in-item","confidence":"high","span":[9312,9329],"revision":1347323564,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74607085","to":"wikipedia://en/9087","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[124,144],"revision":1292413145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74607085","to":"wikipedia://en/6042","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[150,175],"revision":1292413145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74607085","to":"wikipedia://en/4519252","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[176,194],"revision":1292413145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74607085","to":"wikipedia://en/352267","predicate":"related","method":"link-in-text","confidence":"low","span":[2419,2441],"revision":1292413145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74607085","to":"wikipedia://en/22755056","predicate":"related","method":"link-in-text","confidence":"low","span":[3403,3453],"revision":1292413145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74607085","to":"wikipedia://en/22756507","predicate":"related","method":"see-also","confidence":"low","span":[3664,3687],"revision":1292413145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74607085","to":"Category:Theorems in dynamical systems","predicate":"kind-of","method":"category","confidence":"medium","span":[3719,3761],"revision":1292413145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74607085","to":"Category:Differential topology","predicate":"in-field","method":"category","confidence":"medium","span":[3762,3796],"revision":1292413145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74607085","to":"Category:Topological dynamics","predicate":"in-field","method":"category","confidence":"medium","span":[3797,3830],"revision":1292413145,"by":"importer/wikipedia/1"}

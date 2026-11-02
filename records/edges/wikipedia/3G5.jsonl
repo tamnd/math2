@@ -1,0 +1,18 @@
+{"from":"wikipedia://en/79806570","to":"wikipedia://en/173525","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[115,146],"revision":1373512872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79806570","to":"wikipedia://en/285301","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[263,278],"revision":1373512872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79806570","to":"wikipedia://en/42693","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[319,345],"revision":1373512872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79806570","to":"wikipedia://en/17106358","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[477,501],"revision":1373512872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79806570","to":"wikipedia://en/6935703","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[517,534],"revision":1373512872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79806570","to":"wikipedia://en/22788078","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[536,585],"revision":1373512872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79806570","to":"Category:Theorems in probability theory","predicate":"kind-of","method":"category","confidence":"medium","span":[2776,2819],"revision":1373512872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79806570","to":"Category:Combinatorics","predicate":"in-field","method":"category","confidence":"medium","span":[2820,2846],"revision":1373512872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8233045","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[44,59],"revision":1290755938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8233045","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[114,126],"revision":1290755938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8233045","to":"wikipedia://en/8398","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[210,225],"revision":1290755938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8233045","to":"wikipedia://en/1576323","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[329,351],"revision":1290755938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8233045","to":"wikipedia://en/3434750","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[443,469],"revision":1290755938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8233045","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[470,488],"revision":1290755938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8233045","to":"wikipedia://en/35267335","predicate":"related","method":"link-in-lead","confidence":"low","span":[489,511],"revision":1290755938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8233045","to":"wikipedia://en/391794","predicate":"related","method":"link-in-lead","confidence":"low","span":[516,535],"revision":1290755938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8233045","to":"Category:Incidence geometry","predicate":"in-field","method":"category","confidence":"medium","span":[8598,8629],"revision":1290755938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8233045","to":"Category:Geometric inequalities","predicate":"in-field","method":"category","confidence":"medium","span":[8630,8665],"revision":1290755938,"by":"importer/wikipedia/1"}

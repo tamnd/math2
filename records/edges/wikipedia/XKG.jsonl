@@ -1,0 +1,24 @@
+{"from":"wikipedia://en/415847#3776","to":"wikipedia://en/23947591","predicate":"uses","method":"link-in-item","confidence":"high","span":[21947,22004],"revision":1372329214,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/415847#3776","to":"wikipedia://en/24885593","predicate":"uses","method":"link-in-item","confidence":"high","span":[22168,22215],"revision":1372329214,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/415847#3776","to":"wikipedia://en/24885593","predicate":"uses","method":"link-in-item","confidence":"high","span":[22927,22974],"revision":1372329214,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/415847#3776","to":"wikipedia://en/43915231","predicate":"uses","method":"link-in-item","confidence":"medium","span":[26207,26239],"revision":1372329214,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/415847#3776","to":"wikipedia://en/24885593","predicate":"uses","method":"link-in-item","confidence":"high","span":[26945,26992],"revision":1372329214,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/415847#3776","to":"wikipedia://en/42966879","predicate":"uses","method":"link-in-item","confidence":"high","span":[27174,27191],"revision":1372329214,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/415847#3776","to":"wikipedia://en/42973489","predicate":"uses","method":"link-in-item","confidence":"high","span":[27196,27230],"revision":1372329214,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#XIVE","to":"wikipedia://en/58181629","predicate":"listed-in","method":"list","confidence":"certain","span":[71358,71385],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82731077","to":"wikipedia://en/77657472","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[213,238],"revision":1370484094,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82731077","to":"wikipedia://en/4015155","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1387,1440],"revision":1370484094,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82731077","to":"wikipedia://en/23498666","predicate":"related","method":"link-in-text","confidence":"low","span":[2253,2289],"revision":1370484094,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82731077","to":"wikipedia://en/585984","predicate":"related","method":"link-in-text","confidence":"low","span":[7235,7265],"revision":1370484094,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82731077","to":"wikipedia://en/46174","predicate":"related","method":"link-in-text","confidence":"low","span":[8123,8160],"revision":1370484094,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82731077","to":"wikipedia://en/23498666","predicate":"related","method":"link-in-text","confidence":"low","span":[8334,8370],"revision":1370484094,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82731077","to":"wikipedia://en/40513942","predicate":"related","method":"link-in-text","confidence":"low","span":[8691,8733],"revision":1370484094,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82731077","to":"wikipedia://en/77657472","predicate":"related","method":"see-also","confidence":"low","span":[9364,9389],"revision":1370484094,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82731077","to":"wikipedia://en/467899","predicate":"related","method":"see-also","confidence":"low","span":[9392,9411],"revision":1370484094,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82731077","to":"wikipedia://en/38925137","predicate":"related","method":"see-also","confidence":"low","span":[9414,9440],"revision":1370484094,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82731077","to":"Category:British bioinformaticians","predicate":"in-field","method":"category","confidence":"medium","span":[9661,9699],"revision":1370484094,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82731077","to":"Category:British oncologists","predicate":"in-field","method":"category","confidence":"medium","span":[9700,9732],"revision":1370484094,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82731077","to":"Category:Scottish mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[9733,9769],"revision":1370484094,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82731077","to":"Category:Scottish biologists","predicate":"in-field","method":"category","confidence":"medium","span":[9770,9802],"revision":1370484094,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82731077","to":"Category:21st-century Scottish scientists","predicate":"in-field","method":"category","confidence":"medium","span":[9803,9848],"revision":1370484094,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82731077","to":"Category:Cancer researchers","predicate":"in-field","method":"category","confidence":"medium","span":[9849,9880],"revision":1370484094,"by":"importer/wikipedia/1"}

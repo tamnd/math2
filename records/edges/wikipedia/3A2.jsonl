@@ -1,0 +1,6 @@
+{"from":"wikipedia://en/1100194#XSXP","to":"wikipedia://en/9701718","predicate":"listed-in","method":"list","confidence":"certain","span":[2034,2056],"revision":1318717046,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#RWAO","to":"wikipedia://en/4046579","predicate":"listed-in","method":"list","confidence":"certain","span":[79335,79358],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34775279","to":"wikipedia://en/1997","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[53,75],"revision":1149994529,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34775279","to":"wikipedia://en/734893","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[128,147],"revision":1149994529,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34775279","to":"Category:Algebraic curves","predicate":"in-field","method":"category","confidence":"medium","span":[623,652],"revision":1149994529,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34775279","to":"Category:Theorems in algebraic geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[653,696],"revision":1149994529,"by":"importer/wikipedia/1"}

@@ -1,1 +1,6 @@
-{"id":"AVSV7PFQ9R","mentions":["m2://rec/wikidata/Q1207972#1"],"kind":"definition","name":"Polish space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"AVSGH495M7","mentions":["wikipedia://en/11353703#631U"],"kind":"unknown","name":"Roger Jowell","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"AVSHYKXHXP","mentions":["wikipedia://en/326182#LNFM"],"kind":"statement","name":"Vertex isoperimetric inequality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"AVSN30391J","mentions":["wikipedia://en/11353703#X269"],"kind":"unknown","name":"Leonid Levin","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"AVSSHH4TRY","mentions":["wikipedia://en/33086275#NW91"],"kind":"definition","name":"Fixed point","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"AVSTPBVH4W","mentions":["wikipedia://en/64226290"],"kind":"topic","name":"Saul Kaplun","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"AVSV7PFQ9R","mentions":["m2://rec/wikidata/Q1207972#1","wikipedia://en/396622"],"kind":"definition","name":"Polish space","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

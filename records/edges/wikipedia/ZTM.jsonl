@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/44417296","to":"wikipedia://en/1714536","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[232,250],"revision":1157344123,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44417296","to":"wikipedia://en/2961683","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[270,283],"revision":1157344123,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44417296","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[318,335],"revision":1157344123,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44417296","to":"wikipedia://en/101369","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[340,389],"revision":1157344123,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44417296","to":"wikipedia://en/14624091","predicate":"related","method":"link-in-lead","confidence":"low","span":[997,1025],"revision":1157344123,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44417296","to":"Category:17th-century Italian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1861,1909],"revision":1157344123,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44417296","to":"Category:Capuchins","predicate":"in-field","method":"category","confidence":"medium","span":[1910,1932],"revision":1157344123,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51140705#61LV","to":"wikipedia://en/68684290","predicate":"listed-in","method":"list","confidence":"certain","span":[59655,59675],"revision":1369875693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6054639#JGNE","to":"wikipedia://en/217628","predicate":"uses","method":"link-in-item","confidence":"high","span":[575,592],"revision":1361980835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6054639#JGNE","to":"wikipedia://en/329542","predicate":"uses","method":"link-in-item","confidence":"high","span":[636,651],"revision":1361980835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6054639#JGNE","to":"wikipedia://en/991","predicate":"uses","method":"link-in-item","confidence":"high","span":[1450,1475],"revision":1361980835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6054639#JGNE","to":"wikipedia://en/55762","predicate":"generalizes","method":"link-in-item","confidence":"medium","span":[1704,1726],"revision":1361980835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61475737#0TLU","to":"wikipedia://en/33850965","predicate":"listed-in","method":"list","confidence":"certain","span":[9495,9525],"revision":1352594530,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61475737#0TLU","to":"wikipedia://en/30865207","predicate":"uses","method":"link-in-item","confidence":"medium","span":[9529,9579],"revision":1352594530,"by":"importer/wikipedia/1"}

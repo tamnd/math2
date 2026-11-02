@@ -1,0 +1,18 @@
+{"from":"wikipedia://en/9320596#7RRS","to":"wikipedia://en/7015763","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4007,4029],"revision":1370550686,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/945503","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1351,1366],"revision":1350465731,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/945503","to":"wikipedia://en/12108","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1370,1380],"revision":1350465731,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/945503","to":"wikipedia://en/1216","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1408,1418],"revision":1350465731,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/945503","to":"wikipedia://en/969470","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2071,2104],"revision":1350465731,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/945503","to":"wikipedia://en/969470","predicate":"related","method":"see-also","confidence":"low","span":[3735,3768],"revision":1350465731,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/945503","to":"wikipedia://en/1098209","predicate":"related","method":"see-also","confidence":"low","span":[3770,3804],"revision":1350465731,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/945503","to":"Template:Official website","predicate":"in-nav","method":"nav","confidence":"low","span":[3854,3893],"revision":1350465731,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/945503","to":"Template:The European Mathematical Society","predicate":"in-nav","method":"nav","confidence":"low","span":[4479,4516],"revision":1350465731,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/945503","to":"Category:History of mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[4616,4651],"revision":1350465731,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/945503","to":"Category:Learned societies of Greece","predicate":"in-field","method":"category","confidence":"medium","span":[4652,4692],"revision":1350465731,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/945503","to":"Category:Mathematical societies","predicate":"in-field","method":"category","confidence":"medium","span":[4693,4728],"revision":1350465731,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/945503","to":"Category:1918 establishments in Greece","predicate":"in-field","method":"category","confidence":"medium","span":[4729,4771],"revision":1350465731,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9638#XDSJ","to":"wikipedia://en/19668159","predicate":"uses","method":"link-in-item","confidence":"medium","span":[1785,1843],"revision":1365441664,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9638#XDSJ","to":"wikipedia://en/9925","predicate":"related","method":"link-in-item","confidence":"low","span":[4112,4175],"revision":1365441664,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9638#XDSJ","to":"wikipedia://en/17967","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4363,4379],"revision":1365441664,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9638#XDSJ","to":"wikipedia://en/22445569","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4381,4435],"revision":1365441664,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9638#XDSJ","to":"wikipedia://en/51653","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4444,4468],"revision":1365441664,"by":"importer/wikipedia/1"}

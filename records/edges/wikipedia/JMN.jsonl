@@ -1,0 +1,35 @@
+{"from":"wikipedia://en/67981364","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[42,57],"revision":1373687592,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67981364","to":"wikipedia://en/3948","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[97,117],"revision":1373687592,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67981364","to":"wikipedia://en/18102","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[121,152],"revision":1373687592,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67981364","to":"wikipedia://en/113087","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[198,256],"revision":1373687592,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67981364","to":"wikipedia://en/22117165","predicate":"related","method":"link-in-lead","confidence":"low","span":[279,300],"revision":1373687592,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67981364","to":"wikipedia://en/622053","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[406,438],"revision":1373687592,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67981364","to":"wikipedia://en/2172915","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[609,640],"revision":1373687592,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67981364","to":"wikipedia://en/20598932","predicate":"related","method":"link-in-text","confidence":"low","span":[5833,5850],"revision":1373687592,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67981364","to":"wikipedia://en/164483","predicate":"related","method":"link-in-text","confidence":"low","span":[8179,8214],"revision":1373687592,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67981364","to":"wikipedia://en/41026","predicate":"related","method":"link-in-text","confidence":"low","span":[8429,8443],"revision":1373687592,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67981364","to":"wikipedia://en/622053","predicate":"related","method":"link-in-text","confidence":"low","span":[9384,9396],"revision":1373687592,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67981364","to":"wikipedia://en/17748296","predicate":"related","method":"link-in-text","confidence":"low","span":[12476,12527],"revision":1373687592,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67981364","to":"wikipedia://en/22939","predicate":"related","method":"link-in-text","confidence":"low","span":[14993,15004],"revision":1373687592,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67981364","to":"wikipedia://en/164483","predicate":"related","method":"link-in-text","confidence":"low","span":[15067,15081],"revision":1373687592,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67981364","to":"wikipedia://en/2925371","predicate":"related","method":"link-in-text","confidence":"low","span":[15842,15864],"revision":1373687592,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67981364","to":"wikipedia://en/29973465","predicate":"related","method":"link-in-text","confidence":"low","span":[16503,16552],"revision":1373687592,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67981364","to":"wikipedia://en/27709","predicate":"related","method":"link-in-text","confidence":"low","span":[17950,17967],"revision":1373687592,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67981364","to":"Category:Scattering theory","predicate":"in-field","method":"category","confidence":"medium","span":[19139,19187],"revision":1373687592,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67981364","to":"Category:Scattering, absorption and radiative transfer (optics)","predicate":"in-field","method":"category","confidence":"medium","span":[19188,19301],"revision":1373687592,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67981364","to":"Category:Hilbert spaces","predicate":"in-field","method":"category","confidence":"medium","span":[19302,19329],"revision":1373687592,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67981364","to":"Category:Matrices (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[19330,19365],"revision":1373687592,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67981364","to":"Category:Mathematical physics","predicate":"in-field","method":"category","confidence":"medium","span":[19366,19399],"revision":1373687592,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7750796#YV1P","to":"wikipedia://en/4299490","predicate":"uses","method":"link-in-item","confidence":"high","span":[4932,4960],"revision":1306602822,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7750796#YV1P","to":"wikipedia://en/144676","predicate":"uses","method":"link-in-item","confidence":"high","span":[5104,5132],"revision":1306602822,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7750796#YV1P","to":"wikipedia://en/30128","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5504,5516],"revision":1306602822,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7750796#YV1P","to":"wikipedia://en/2855952","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6106,6126],"revision":1306602822,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7750796#YV1P","to":"wikipedia://en/17555269","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6144,6152],"revision":1306602822,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7750796#YV1P","to":"wikipedia://en/39347779","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6256,6272],"revision":1306602822,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7750796#YV1P","to":"wikipedia://en/157265","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6698,6706],"revision":1306602822,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7750796#YV1P","to":"wikipedia://en/20624","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6707,6733],"revision":1306602822,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7750796#YV1P","to":"wikipedia://en/331195","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7256,7277],"revision":1306602822,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7750796#YV1P","to":"wikipedia://en/38213001","predicate":"uses","method":"link-in-item","confidence":"high","span":[8240,8286],"revision":1306602822,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7750796#YV1P","to":"wikipedia://en/337389","predicate":"uses","method":"link-in-item","confidence":"medium","span":[8305,8315],"revision":1306602822,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7750796#YV1P","to":"wikipedia://en/18949836","predicate":"uses","method":"link-in-item","confidence":"medium","span":[8564,8598],"revision":1306602822,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7750796#YV1P","to":"wikipedia://en/296370","predicate":"uses","method":"link-in-item","confidence":"high","span":[9474,9499],"revision":1306602822,"by":"importer/wikipedia/1"}

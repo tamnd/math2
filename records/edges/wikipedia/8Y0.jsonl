@@ -1,0 +1,18 @@
+{"from":"wikipedia://en/29613587#DZMY","to":"wikipedia://en/4917686","predicate":"uses","method":"link-in-item","confidence":"high","span":[7511,7532],"revision":1324614128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29613587#DZMY","to":"wikipedia://en/26903","predicate":"uses","method":"link-in-item","confidence":"medium","span":[8105,8121],"revision":1324614128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29613587#DZMY","to":"wikipedia://en/2127679","predicate":"uses","method":"link-in-item","confidence":"medium","span":[8176,8194],"revision":1324614128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29613587#DZMY","to":"wikipedia://en/8651","predicate":"uses","method":"link-in-item","confidence":"medium","span":[8406,8421],"revision":1324614128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29613587#DZMY","to":"wikipedia://en/1539785","predicate":"uses","method":"link-in-item","confidence":"medium","span":[9145,9165],"revision":1324614128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29613587#DZMY","to":"wikipedia://en/2589714","predicate":"uses","method":"link-in-item","confidence":"medium","span":[9177,9190],"revision":1324614128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29613587#DZMY","to":"wikipedia://en/831170","predicate":"uses","method":"link-in-item","confidence":"medium","span":[9198,9226],"revision":1324614128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55788666","to":"wikipedia://en/72528","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[147,177],"revision":1335835938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55788666","to":"wikipedia://en/645042","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[350,367],"revision":1335835938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55788666","to":"wikipedia://en/44273","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[461,515],"revision":1335835938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55788666","to":"wikipedia://en/51140705","predicate":"related","method":"link-in-lead","confidence":"low","span":[742,792],"revision":1335835938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55788666","to":"wikipedia://en/341988","predicate":"related","method":"link-in-lead","confidence":"low","span":[865,901],"revision":1335835938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55788666","to":"wikipedia://en/2537376","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1047,1078],"revision":1335835938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55788666","to":"wikipedia://en/43484","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1248,1270],"revision":1335835938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55788666","to":"Category:American statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[3044,3079],"revision":1335835938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55788666","to":"Category:Women statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[3080,3112],"revision":1335835938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#HC3J","to":"wikipedia://en/26215","predicate":"listed-in","method":"list","confidence":"certain","span":[37027,37054],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#HC3J","to":"wikipedia://en/5759","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[37058,37078],"revision":1373797939,"by":"importer/wikipedia/1"}

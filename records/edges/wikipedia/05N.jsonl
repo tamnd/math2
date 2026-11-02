@@ -1,0 +1,32 @@
+{"from":"wikipedia://en/38149596","to":"wikipedia://en/216488","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[300,319],"revision":1341457867,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38149596","to":"wikipedia://en/4813617","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[324,352],"revision":1341457867,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38149596","to":"wikipedia://en/317478","predicate":"related","method":"link-in-text","confidence":"low","span":[496,526],"revision":1341457867,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38149596","to":"wikipedia://en/566481","predicate":"related","method":"link-in-text","confidence":"low","span":[550,565],"revision":1341457867,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38149596","to":"wikipedia://en/22870422","predicate":"related","method":"link-in-text","confidence":"low","span":[661,680],"revision":1341457867,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38149596","to":"wikipedia://en/488196","predicate":"related","method":"link-in-text","confidence":"low","span":[699,718],"revision":1341457867,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38149596","to":"wikipedia://en/3165255","predicate":"related","method":"link-in-text","confidence":"low","span":[796,821],"revision":1341457867,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38149596","to":"wikipedia://en/5611046","predicate":"related","method":"link-in-text","confidence":"low","span":[835,881],"revision":1341457867,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38149596","to":"wikipedia://en/4072943","predicate":"related","method":"link-in-text","confidence":"low","span":[929,960],"revision":1341457867,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38149596","to":"wikipedia://en/32146789","predicate":"related","method":"link-in-text","confidence":"low","span":[1058,1091],"revision":1341457867,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38149596","to":"wikipedia://en/160188","predicate":"related","method":"link-in-text","confidence":"low","span":[1197,1217],"revision":1341457867,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38149596","to":"wikipedia://en/1691205","predicate":"related","method":"link-in-text","confidence":"low","span":[1372,1409],"revision":1341457867,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38149596","to":"Category:19th-century French mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4887,4934],"revision":1341457867,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38149596","to":"Category:20th-century French mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4935,4982],"revision":1341457867,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39210398","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[44,59],"revision":1215209219,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39210398","to":"wikipedia://en/1688550","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[106,130],"revision":1215209219,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39210398","to":"wikipedia://en/27631","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[148,158],"revision":1215209219,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39210398","to":"wikipedia://en/321671","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[462,497],"revision":1215209219,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39210398","to":"wikipedia://en/2176160","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[942,983],"revision":1215209219,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39210398","to":"wikipedia://en/5926","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1475,1490],"revision":1215209219,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39210398","to":"wikipedia://en/577097","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1550,1586],"revision":1215209219,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39210398","to":"wikipedia://en/2815915","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1591,1608],"revision":1215209219,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39210398","to":"wikipedia://en/55610","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1673,1717],"revision":1215209219,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39210398","to":"Category:Topology","predicate":"in-field","method":"category","confidence":"medium","span":[4791,4812],"revision":1215209219,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39210398","to":"Category:Geometry","predicate":"in-field","method":"category","confidence":"medium","span":[4813,4834],"revision":1215209219,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47348339","to":"wikipedia://en/18963910","predicate":"related","method":"link-in-text","confidence":"low","span":[1120,1133],"revision":1371972083,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47348339","to":"Category:Geographers from Austria-Hungary","predicate":"in-field","method":"category","confidence":"medium","span":[1760,1805],"revision":1371972083,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47348339","to":"Category:Mathematicians from Austria-Hungary","predicate":"in-field","method":"category","confidence":"medium","span":[1806,1854],"revision":1371972083,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47348339","to":"Category:Austrian statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[1856,1891],"revision":1371972083,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47348339","to":"Category:19th-century geographers","predicate":"in-field","method":"category","confidence":"medium","span":[1892,1929],"revision":1371972083,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47348339","to":"Category:19th-century Austrian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1930,1979],"revision":1371972083,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47348339","to":"Category:19th-century statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[1980,2019],"revision":1371972083,"by":"importer/wikipedia/1"}

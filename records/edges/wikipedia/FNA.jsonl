@@ -1,0 +1,28 @@
+{"from":"wikipedia://en/1178006","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[662,674],"revision":1330481440,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1178006","to":"wikipedia://en/16034","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[736,754],"revision":1330481440,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1178006","to":"wikipedia://en/285486","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[810,836],"revision":1330481440,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1178006","to":"wikipedia://en/1131073","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[859,881],"revision":1330481440,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1178006","to":"wikipedia://en/4709281","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[923,978],"revision":1330481440,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1178006","to":"wikipedia://en/1131111","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1219,1252],"revision":1330481440,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1178006","to":"wikipedia://en/1177997","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1320,1359],"revision":1330481440,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1178006","to":"wikipedia://en/1133367","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1437,1473],"revision":1330481440,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1178006","to":"Category:Johnson solids","predicate":"in-field","method":"category","confidence":"medium","span":[1993,2020],"revision":1330481440,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/140829#E4CB","to":"wikipedia://en/47545776","predicate":"listed-in","method":"list","confidence":"certain","span":[18872,18908],"revision":1372044875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58117270#C6WY","to":"wikipedia://en/18198","predicate":"uses","method":"link-in-item","confidence":"high","span":[3616,3636],"revision":1364068764,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82255159","to":"wikipedia://en/26685","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[64,78],"revision":1360341294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82255159","to":"wikipedia://en/30284","predicate":"specializes","method":"link-in-lead","confidence":"medium","span":[143,200],"revision":1360341294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82255159","to":"wikipedia://en/30876902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[377,477],"revision":1360341294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82255159","to":"wikipedia://en/2474821","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[547,566],"revision":1360341294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82255159","to":"wikipedia://en/60531312","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1686,1739],"revision":1360341294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82255159","to":"wikipedia://en/1115052","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3585,3646],"revision":1360341294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82255159","to":"wikipedia://en/41370976","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[4078,4171],"revision":1360341294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82255159","to":"wikipedia://en/30284","predicate":"related","method":"see-also","confidence":"low","span":[5127,5158],"revision":1360341294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82255159","to":"wikipedia://en/60531312","predicate":"related","method":"see-also","confidence":"low","span":[5161,5202],"revision":1360341294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82255159","to":"wikipedia://en/1115052","predicate":"related","method":"see-also","confidence":"low","span":[5205,5238],"revision":1360341294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82255159","to":"wikipedia://en/60016459","predicate":"related","method":"see-also","confidence":"low","span":[5241,5274],"revision":1360341294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82255159","to":"wikipedia://en/536080","predicate":"related","method":"see-also","confidence":"low","span":[5277,5297],"revision":1360341294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82255159","to":"wikipedia://en/223369","predicate":"related","method":"see-also","confidence":"low","span":[5300,5328],"revision":1360341294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82255159","to":"Category:Statistical hypothesis testing","predicate":"in-field","method":"category","confidence":"medium","span":[5377,5420],"revision":1360341294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82255159","to":"Category:Nonparametric statistics","predicate":"in-field","method":"category","confidence":"medium","span":[5421,5458],"revision":1360341294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82255159","to":"Category:Asymptotic theory (statistics)","predicate":"in-field","method":"category","confidence":"medium","span":[5459,5502],"revision":1360341294,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82255159","to":"Category:Information theory","predicate":"in-field","method":"category","confidence":"medium","span":[5503,5534],"revision":1360341294,"by":"importer/wikipedia/1"}

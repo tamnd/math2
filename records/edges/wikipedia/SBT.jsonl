@@ -1,0 +1,5 @@
+{"from":"wikipedia://en/1540333#UFE3","to":"wikipedia://en/23543","predicate":"uses","method":"link-in-item","confidence":"high","span":[53578,53606],"revision":1361983373,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2774171#0UST","to":"wikipedia://en/5685631","predicate":"restates","method":"hatnote","confidence":"high","span":[23852,23869],"revision":1373389734,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2774171#0UST","to":"wikipedia://en/3021101","predicate":"uses","method":"named-link","confidence":"high","span":[23878,23902],"revision":1373389734,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2774171#0UST","to":"wikipedia://en/581610","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[25032,25053],"revision":1373389734,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2774171#0UST","to":"wikipedia://en/2164726","predicate":"uses","method":"link-in-item","confidence":"medium","span":[25101,25130],"revision":1373389734,"by":"importer/wikipedia/1"}

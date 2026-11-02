@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/14403539#09CE","to":"wikipedia://en/46955550","predicate":"listed-in","method":"list","confidence":"certain","span":[57517,57534],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5161053","to":"wikipedia://en/4632224","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[214,250],"revision":1221400068,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5161053","to":"wikipedia://en/21888","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[253,261],"revision":1221400068,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5161053","to":"wikipedia://en/3480937","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[753,807],"revision":1221400068,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5161053","to":"wikipedia://en/59865","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[819,869],"revision":1221400068,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5161053","to":"wikipedia://en/25191344","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[967,981],"revision":1221400068,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5161053","to":"wikipedia://en/74896529","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[986,1003],"revision":1221400068,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5161053","to":"wikipedia://en/886966","predicate":"related","method":"see-also","confidence":"low","span":[1469,1512],"revision":1221400068,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5161053","to":"wikipedia://en/7223383","predicate":"related","method":"see-also","confidence":"low","span":[1522,1565],"revision":1221400068,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5161053","to":"Category:Cryptography","predicate":"in-field","method":"category","confidence":"medium","span":[1597,1622],"revision":1221400068,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5161053","to":"Category:Computer security","predicate":"in-field","method":"category","confidence":"medium","span":[1623,1653],"revision":1221400068,"by":"importer/wikipedia/1"}

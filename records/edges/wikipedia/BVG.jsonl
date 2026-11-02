@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/17314223","to":"wikipedia://en/151267","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1284,1313],"revision":1372614589,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17314223","to":"wikipedia://en/153992","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1346,1368],"revision":1372614589,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17314223","to":"wikipedia://en/205868","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1401,1423],"revision":1372614589,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17314223","to":"wikipedia://en/1289636","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1456,1494],"revision":1372614589,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17314223","to":"wikipedia://en/9032191","predicate":"related","method":"link-in-text","confidence":"low","span":[3626,3661],"revision":1372614589,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17314223","to":"Category:20th-century British mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4945,4993],"revision":1372614589,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17314223","to":"Category:21st-century British mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4994,5042],"revision":1372614589,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17314223","to":"Category:Academics of the University of Bath","predicate":"in-field","method":"category","confidence":"medium","span":[5093,5141],"revision":1372614589,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17314223","to":"Category:Vice-chancellors of the University of Kent","predicate":"in-field","method":"category","confidence":"medium","span":[5142,5197],"revision":1372614589,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/183091#H7BP","to":"wikipedia://en/19474055","predicate":"listed-in","method":"list","confidence":"certain","span":[113192,113216],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29232472#TJ6Q","to":"wikipedia://en/176917","predicate":"listed-in","method":"list","confidence":"certain","span":[13254,13311],"revision":1365581962,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29232472#TJ6Q","to":"wikipedia://en/151864","predicate":"uses","method":"link-in-item","confidence":"medium","span":[13355,13377],"revision":1365581962,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29232472#TJ6Q","to":"wikipedia://en/247288","predicate":"uses","method":"link-in-item","confidence":"high","span":[13382,13418],"revision":1365581962,"by":"importer/wikipedia/1"}

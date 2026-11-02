@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/3193758#OQE9","to":"wikipedia://en/27701","predicate":"uses","method":"link-in-item","confidence":"high","span":[1566,1590],"revision":1371230212,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3193758#OQE9","to":"wikipedia://en/2696560","predicate":"uses","method":"link-in-item","confidence":"medium","span":[1723,1737],"revision":1371230212,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32131629","to":"wikipedia://en/3784565","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[50,70],"revision":1365830943,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32131629","to":"wikipedia://en/434673","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[90,106],"revision":1365830943,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32131629","to":"wikipedia://en/23572","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[130,147],"revision":1365830943,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32131629","to":"wikipedia://en/30330","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[162,178],"revision":1365830943,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32131629","to":"Category:Order theory","predicate":"in-field","method":"category","confidence":"medium","span":[8908,8933],"revision":1365830943,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32131629","to":"Category:Circles","predicate":"in-field","method":"category","confidence":"medium","span":[8934,8954],"revision":1365830943,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/408108#MU7I","to":"wikipedia://en/10869","predicate":"listed-in","method":"list","confidence":"certain","span":[990,1015],"revision":1356076850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/444250#CRDH","to":"wikipedia://en/21878925","predicate":"listed-in","method":"list","confidence":"certain","span":[56706,56726],"revision":1294366452,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/460227#PWEL","to":"wikipedia://en/5685631","predicate":"uses","method":"link-in-item","confidence":"medium","span":[10158,10181],"revision":1321322368,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/460227#PWEL","to":"wikipedia://en/788807","predicate":"related","method":"link-in-item","confidence":"low","span":[10186,10202],"revision":1321322368,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/460227#PWEL","to":"wikipedia://en/34170016","predicate":"uses","method":"link-in-item","confidence":"high","span":[10351,10375],"revision":1321322368,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76765067#VI4N","to":"wikipedia://en/910043","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[126983,127001],"revision":1368301704,"by":"importer/wikipedia/1"}

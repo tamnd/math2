@@ -1,0 +1,27 @@
+{"from":"wikipedia://en/25456892","to":"wikipedia://en/43476","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[651,676],"revision":1317682967,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25456892","to":"wikipedia://en/23922","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[760,784],"revision":1317682967,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25456892","to":"wikipedia://en/50578","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[805,824],"revision":1317682967,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25456892","to":"wikipedia://en/57841","predicate":"related","method":"link-in-text","confidence":"low","span":[860,888],"revision":1317682967,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25456892","to":"wikipedia://en/27687","predicate":"related","method":"link-in-text","confidence":"low","span":[1226,1249],"revision":1317682967,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25456892","to":"wikipedia://en/23922","predicate":"related","method":"link-in-text","confidence":"low","span":[1314,1338],"revision":1317682967,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25456892","to":"wikipedia://en/26977","predicate":"related","method":"link-in-text","confidence":"low","span":[1415,1438],"revision":1317682967,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25456892","to":"wikipedia://en/50578","predicate":"related","method":"link-in-text","confidence":"low","span":[1465,1484],"revision":1317682967,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25456892","to":"wikipedia://en/4454126","predicate":"related","method":"link-in-text","confidence":"low","span":[1499,1516],"revision":1317682967,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25456892","to":"wikipedia://en/3712","predicate":"related","method":"link-in-text","confidence":"low","span":[1655,1676],"revision":1317682967,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25456892","to":"wikipedia://en/10324088","predicate":"related","method":"link-in-text","confidence":"low","span":[2100,2150],"revision":1317682967,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25456892","to":"wikipedia://en/381889","predicate":"related","method":"link-in-text","confidence":"low","span":[2577,2588],"revision":1317682967,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25456892","to":"wikipedia://en/44521911","predicate":"related","method":"link-in-text","confidence":"low","span":[2596,2661],"revision":1317682967,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25456892","to":"wikipedia://en/198822","predicate":"related","method":"link-in-text","confidence":"low","span":[2937,2970],"revision":1317682967,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25456892","to":"wikipedia://en/64552006","predicate":"related","method":"link-in-text","confidence":"low","span":[3282,3315],"revision":1317682967,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25456892","to":"Category:21st-century African-American academics","predicate":"in-field","method":"category","confidence":"medium","span":[3756,3808],"revision":1317682967,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25456892","to":"Category:21st-century American academics","predicate":"in-field","method":"category","confidence":"medium","span":[3809,3853],"revision":1317682967,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25456892","to":"Category:Mathematicians from Missouri","predicate":"in-field","method":"category","confidence":"medium","span":[4085,4126],"revision":1317682967,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25456892","to":"Category:Scientists from St. Louis","predicate":"in-field","method":"category","confidence":"medium","span":[4177,4215],"revision":1317682967,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25456892","to":"Category:20th-century African-American academics","predicate":"in-field","method":"category","confidence":"medium","span":[4281,4333],"revision":1317682967,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25456892","to":"Category:20th-century American academics","predicate":"in-field","method":"category","confidence":"medium","span":[4334,4378],"revision":1317682967,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/621447#N0NZ","to":"wikipedia://en/1699416","predicate":"listed-in","method":"list","confidence":"certain","span":[9240,9257],"revision":1333074872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9659484#R82X","to":"wikipedia://en/1411087","predicate":"uses","method":"link-in-item","confidence":"high","span":[2827,2857],"revision":1301263113,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9659484#R82X","to":"wikipedia://en/4322","predicate":"uses","method":"link-in-item","confidence":"high","span":[3646,3689],"revision":1301263113,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9659484#R82X","to":"wikipedia://en/33662","predicate":"uses","method":"link-in-item","confidence":"high","span":[3886,3910],"revision":1301263113,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9659484#R82X","to":"wikipedia://en/71308775","predicate":"uses","method":"link-in-item","confidence":"high","span":[4586,4612],"revision":1301263113,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9659484#R82X","to":"wikipedia://en/18198","predicate":"uses","method":"link-in-item","confidence":"high","span":[5348,5368],"revision":1301263113,"by":"importer/wikipedia/1"}

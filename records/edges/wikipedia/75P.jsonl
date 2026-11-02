@@ -1,0 +1,4 @@
+{"from":"wikipedia://en/73634#VE3G","to":"wikipedia://en/230581","predicate":"related","method":"link-in-item","confidence":"low","span":[64053,64076],"revision":1376316324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#VE3G","to":"wikipedia://en/28011","predicate":"uses","method":"link-in-item","confidence":"high","span":[64097,64109],"revision":1376316324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#VE3G","to":"wikipedia://en/19447","predicate":"uses","method":"link-in-item","confidence":"high","span":[64115,64144],"revision":1376316324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#VE3G","to":"wikipedia://en/73634","predicate":"uses","method":"anchor","confidence":"certain","span":[64241,64266],"revision":1376316324,"finding":"broken-anchor","by":"importer/wikipedia/1"}

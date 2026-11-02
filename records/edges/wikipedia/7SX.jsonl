@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/26751317","to":"wikipedia://en/11180","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,26],"revision":1351099210,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26751317","to":"wikipedia://en/8718312","predicate":"related","method":"link-in-lead","confidence":"low","span":[91,105],"revision":1351099210,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26751317","to":"wikipedia://en/1580246","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[129,154],"revision":1351099210,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26751317","to":"wikipedia://en/51955","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[205,249],"revision":1351099210,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26751317","to":"wikipedia://en/51955","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[281,307],"revision":1351099210,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26751317","to":"wikipedia://en/52247","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[466,487],"revision":1351099210,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26751317","to":"Category:Functional analysis","predicate":"in-field","method":"category","confidence":"medium","span":[2146,2178],"revision":1351099210,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35457783#D8VA","to":"wikipedia://en/15148924","predicate":"uses","method":"link-in-item","confidence":"high","span":[49909,49934],"revision":1351541925,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35457783#D8VA","to":"wikipedia://en/17887712","predicate":"uses","method":"link-in-item","confidence":"medium","span":[49940,49960],"revision":1351541925,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35457783#D8VA","to":"wikipedia://en/382733","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[49974,50003],"revision":1351541925,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/408108#57FX","to":"wikipedia://en/30876902","predicate":"listed-in","method":"list","confidence":"certain","span":[3142,3198],"revision":1356076850,"by":"importer/wikipedia/1"}

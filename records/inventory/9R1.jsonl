@@ -1,2 +1,6 @@
+{"id":"9R13ZFS4DJ","mentions":["wikipedia://en/325802#HVTF"],"kind":"definition","name":"sparse","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9R14XJ5F8T","mentions":["wikipedia://en/81198626"],"kind":"topic","name":"Anthony M. Bloch","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9R1S7CX311","mentions":["ax://paper/2609.23528#C07M"],"kind":"definition","msc":["55-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.17"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.17"}]}
+{"id":"9R1TRZMTCF","mentions":["wikipedia://en/1339097#OACE"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9R1YK55K61","mentions":["m2://rec/hott_book/homotopy.tex#lem:s1-encode-decode#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"9R1YNEMX87","mentions":["wikipedia://en/3754835#JY5L"],"kind":"statement","name":"Pythagorean-like identity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

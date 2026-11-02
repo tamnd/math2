@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/161339#QG1P","to":"wikipedia://en/214303","predicate":"listed-in","method":"list","confidence":"certain","span":[4409,4434],"revision":1370969602,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/578650","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[36,51],"revision":1286134739,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/578650","to":"wikipedia://en/6138","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[86,100],"revision":1286134739,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/578650","to":"wikipedia://en/578656","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[126,145],"revision":1286134739,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/578650","to":"wikipedia://en/33627589","predicate":"related","method":"link-in-lead","confidence":"low","span":[259,276],"revision":1286134739,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/578650","to":"wikipedia://en/22923580","predicate":"related","method":"link-in-lead","confidence":"low","span":[584,601],"revision":1286134739,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/578650","to":"wikipedia://en/82285","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[637,666],"revision":1286134739,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/578650","to":"Category:Addition chains","predicate":"in-field","method":"category","confidence":"medium","span":[4477,4505],"revision":1286134739,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/578650","to":"Category:Conjectures","predicate":"kind-of","method":"category","confidence":"medium","span":[4506,4530],"revision":1286134739,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/578650","to":"Category:Unsolved problems in number theory","predicate":"kind-of","method":"category","confidence":"medium","span":[4531,4578],"revision":1286134739,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63279985","to":"wikipedia://en/13603","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[578,609],"revision":1158043730,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63279985","to":"wikipedia://en/435035","predicate":"related","method":"link-in-text","confidence":"low","span":[933,952],"revision":1158043730,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63279985","to":"Category:20th-century American writers","predicate":"in-field","method":"category","confidence":"medium","span":[5781,5823],"revision":1158043730,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63279985","to":"Category:21st-century American writers","predicate":"in-field","method":"category","confidence":"medium","span":[5824,5866],"revision":1158043730,"by":"importer/wikipedia/1"}

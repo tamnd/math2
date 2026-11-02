@@ -1,1 +1,2 @@
-{"id":"RDXC99E34S","mentions":["m2://rec/wikidata/Q6552215#1"],"kind":"statement","name":"Lindelöf's lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"RDXC99E34S","mentions":["m2://rec/wikidata/Q6552215#1","wikipedia://en/6612077"],"kind":"statement","name":"Lindelöf's lemma","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"RDXV3KPW0A","mentions":["wikipedia://en/15882673"],"kind":"definition","name":"Plate notation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

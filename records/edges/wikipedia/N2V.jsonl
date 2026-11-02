@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/32757711","to":"wikipedia://en/235451","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1235,1251],"revision":1323455933,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32757711","to":"wikipedia://en/21474","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1259,1280],"revision":1323455933,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32757711","to":"wikipedia://en/943917","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1310,1334],"revision":1323455933,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32757711","to":"wikipedia://en/32809583","predicate":"specializes","method":"link-in-lead","confidence":"medium","span":[1417,1449],"revision":1323455933,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32757711","to":"Category:Orthogonal polynomials","predicate":"in-field","method":"category","confidence":"medium","span":[1482,1517],"revision":1323455933,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/444250#PIKC","to":"wikipedia://en/1470767","predicate":"listed-in","method":"list","confidence":"certain","span":[29108,29142],"revision":1294366452,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45337#JT2S","to":"wikipedia://en/24104095","predicate":"uses","method":"link-in-item","confidence":"high","span":[21407,21428],"revision":1364609145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45337#JT2S","to":"wikipedia://en/6292","predicate":"uses","method":"link-in-item","confidence":"high","span":[22079,22093],"revision":1364609145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45337#JT2S","to":"wikipedia://en/263321","predicate":"uses","method":"link-in-item","confidence":"high","span":[22173,22193],"revision":1364609145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45337#JT2S","to":"wikipedia://en/80644263","predicate":"uses","method":"link-in-item","confidence":"medium","span":[22247,22283],"revision":1364609145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45337#JT2S","to":"wikipedia://en/80620022","predicate":"uses","method":"link-in-item","confidence":"medium","span":[22367,22387],"revision":1364609145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45337#JT2S","to":"wikipedia://en/26421806","predicate":"related","method":"link-in-item","confidence":"low","span":[22456,22476],"revision":1364609145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#FHX2","to":"wikipedia://en/293511","predicate":"uses","method":"link-in-item","confidence":"high","span":[43500,43517],"revision":1376316324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#FHX2","to":"wikipedia://en/1717865","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[43578,43595],"revision":1376316324,"by":"importer/wikipedia/1"}

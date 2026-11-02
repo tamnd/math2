@@ -1,0 +1,25 @@
+{"from":"wikipedia://en/25264571","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[36,52],"revision":1199303489,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25264571","to":"wikipedia://en/1595681","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[62,76],"revision":1199303489,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25264571","to":"wikipedia://en/17944","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[193,208],"revision":1199303489,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25264571","to":"wikipedia://en/1336000","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[272,293],"revision":1199303489,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25264571","to":"wikipedia://en/374222","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[419,439],"revision":1199303489,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25264571","to":"wikipedia://en/1018","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[803,833],"revision":1199303489,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25264571","to":"wikipedia://en/5826","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[846,865],"revision":1199303489,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25264571","to":"wikipedia://en/1337587","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[871,898],"revision":1199303489,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25264571","to":"wikipedia://en/22385144","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1228,1247],"revision":1199303489,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25264571","to":"wikipedia://en/25262324","predicate":"related","method":"see-also","confidence":"low","span":[4447,4470],"revision":1199303489,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25264571","to":"wikipedia://en/22385144","predicate":"related","method":"see-also","confidence":"low","span":[4473,4486],"revision":1199303489,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25264571","to":"wikipedia://en/893559","predicate":"related","method":"see-also","confidence":"low","span":[4489,4513],"revision":1199303489,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25264571","to":"wikipedia://en/293609","predicate":"related","method":"see-also","confidence":"low","span":[4516,4542],"revision":1199303489,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25264571","to":"Category:Properties of Lie algebras","predicate":"in-field","method":"category","confidence":"medium","span":[5355,5394],"revision":1199303489,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33084398","to":"wikipedia://en/475847","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[546,568],"revision":1370052419,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33084398","to":"wikipedia://en/991864","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[683,700],"revision":1370052419,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33084398","to":"wikipedia://en/578052","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[729,763],"revision":1370052419,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33084398","to":"wikipedia://en/342641","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1537,1552],"revision":1370052419,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33084398","to":"wikipedia://en/32927","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1570,1586],"revision":1370052419,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33084398","to":"wikipedia://en/17711304","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1811,1848],"revision":1370052419,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33084398","to":"wikipedia://en/13699021","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1860,1878],"revision":1370052419,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33084398","to":"wikipedia://en/180997","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1883,1903],"revision":1370052419,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33084398","to":"Category:History of cryptography","predicate":"in-field","method":"category","confidence":"medium","span":[2001,2037],"revision":1370052419,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33084398","to":"Category:1931 non-fiction books","predicate":"in-field","method":"category","confidence":"medium","span":[2038,2073],"revision":1370052419,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33084398","to":"Category:History books about the United States","predicate":"in-field","method":"category","confidence":"medium","span":[2074,2124],"revision":1370052419,"by":"importer/wikipedia/1"}

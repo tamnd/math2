@@ -1,0 +1,37 @@
+{"from":"wikipedia://en/2737674","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[164,179],"revision":1374370612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2737674","to":"wikipedia://en/253260","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[212,243],"revision":1374370612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2737674","to":"wikipedia://en/379845","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[269,290],"revision":1374370612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2737674","to":"wikipedia://en/4230456","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[572,589],"revision":1374370612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2737674","to":"wikipedia://en/411325","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[597,622],"revision":1374370612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2737674","to":"wikipedia://en/3115807","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[821,846],"revision":1374370612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2737674","to":"Category:Quartic curves","predicate":"in-field","method":"category","confidence":"medium","span":[1418,1445],"revision":1374370612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2737674","to":"Category:Plane algebraic curves","predicate":"in-field","method":"category","confidence":"medium","span":[1446,1481],"revision":1374370612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/285374#6LHB","to":"wikipedia://en/3162","predicate":"uses","method":"link-in-item","confidence":"high","span":[4948,4961],"revision":1348480478,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3199591#2NBV","to":"wikipedia://en/217628","predicate":"uses","method":"link-in-item","confidence":"high","span":[4950,4967],"revision":1363730725,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3199591#2NBV","to":"wikipedia://en/3277014","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5050,5073],"revision":1363730725,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3199591#2NBV","to":"wikipedia://en/173181","predicate":"generalizes","method":"link-in-item","confidence":"medium","span":[5362,5382],"revision":1363730725,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3199591#2NBV","to":"wikipedia://en/66786706","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7141,7163],"revision":1363730725,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565351#MWFC","to":"wikipedia://en/69057863","predicate":"listed-in","method":"list","confidence":"certain","span":[26317,26352],"revision":1373350261,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075154","to":"wikipedia://en/251513","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[114,140],"revision":1321322946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075154","to":"wikipedia://en/4956669","predicate":"related","method":"link-in-lead","confidence":"low","span":[193,211],"revision":1321322946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075154","to":"wikipedia://en/1967197","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[512,535],"revision":1321322946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075154","to":"wikipedia://en/716602","predicate":"related","method":"link-in-lead","confidence":"low","span":[539,561],"revision":1321322946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075154","to":"wikipedia://en/11740178","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[973,1010],"revision":1321322946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075154","to":"wikipedia://en/23692","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1043,1067],"revision":1321322946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075154","to":"wikipedia://en/101453","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1075,1135],"revision":1321322946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075154","to":"wikipedia://en/250237","predicate":"related","method":"link-in-text","confidence":"low","span":[1769,1830],"revision":1321322946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075154","to":"wikipedia://en/23692","predicate":"related","method":"link-in-text","confidence":"low","span":[1938,1990],"revision":1321322946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075154","to":"wikipedia://en/20087","predicate":"related","method":"link-in-text","confidence":"low","span":[2123,2155],"revision":1321322946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075154","to":"wikipedia://en/47137","predicate":"related","method":"link-in-text","confidence":"low","span":[2405,2429],"revision":1321322946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075154","to":"wikipedia://en/4632596","predicate":"related","method":"see-also","confidence":"low","span":[2450,2483],"revision":1321322946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075154","to":"Category:Theorems in analytic number theory","predicate":"kind-of","method":"category","confidence":"medium","span":[2552,2599],"revision":1321322946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075154","to":"Category:Theorems about prime numbers","predicate":"kind-of","method":"category","confidence":"medium","span":[2600,2641],"revision":1321322946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#5COE","to":"wikipedia://en/5001103","predicate":"listed-in","method":"list","confidence":"certain","span":[15859,15881],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#5COE","to":"wikipedia://en/9109","predicate":"uses","method":"link-in-item","confidence":"high","span":[15885,15910],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6122#FRXT","to":"wikipedia://en/1529485","predicate":"uses","method":"link-in-item","confidence":"high","span":[14692,14734],"revision":1375871701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6122#FRXT","to":"wikipedia://en/59220","predicate":"uses","method":"link-in-item","confidence":"high","span":[15111,15154],"revision":1375871701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6122#FRXT","to":"wikipedia://en/20018","predicate":"uses","method":"link-in-item","confidence":"high","span":[15165,15184],"revision":1375871701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6122#FRXT","to":"wikipedia://en/93459","predicate":"related","method":"link-in-item","confidence":"low","span":[15187,15219],"revision":1375871701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6122#FRXT","to":"wikipedia://en/355931","predicate":"related","method":"link-in-item","confidence":"low","span":[15346,15371],"revision":1375871701,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/680258#JNDC","to":"wikipedia://en/19193249","predicate":"listed-in","method":"list","confidence":"certain","span":[1124,1140],"revision":1338580023,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9212913#8AK6","to":"wikipedia://en/192753","predicate":"listed-in","method":"list","confidence":"certain","span":[2355,2387],"revision":1278526707,"by":"importer/wikipedia/1"}

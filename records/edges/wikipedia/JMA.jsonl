@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/22843332","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1348691717,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22843332","to":"wikipedia://en/4342970","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[53,86],"revision":1348691717,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22843332","to":"wikipedia://en/2368356","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[90,130],"revision":1348691717,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22843332","to":"wikipedia://en/734893","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[145,165],"revision":1348691717,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22843332","to":"wikipedia://en/1186896","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[169,183],"revision":1348691717,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22843332","to":"wikipedia://en/1558891","predicate":"related","method":"link-in-lead","confidence":"low","span":[282,303],"revision":1348691717,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22843332","to":"Category:Algebraic surfaces","predicate":"in-field","method":"category","confidence":"medium","span":[907,938],"revision":1348691717,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22843332","to":"Category:Complex surfaces","predicate":"in-field","method":"category","confidence":"medium","span":[939,968],"revision":1348691717,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38256214#5DCE","to":"wikipedia://en/10092186","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[38846,38863],"revision":1355326396,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38256214#5DCE","to":"wikipedia://en/15462","predicate":"uses","method":"link-in-item","confidence":"high","span":[38893,38912],"revision":1355326396,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38256214#5DCE","to":"wikipedia://en/11634","predicate":"uses","method":"link-in-item","confidence":"high","span":[38939,38987],"revision":1355326396,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/444250#7Z4P","to":"wikipedia://en/594072","predicate":"listed-in","method":"list","confidence":"certain","span":[13629,13645],"revision":1294366452,"by":"importer/wikipedia/1"}

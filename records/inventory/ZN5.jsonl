@@ -1,1 +1,5 @@
 {"id":"ZN58HMJBR2","mentions":["m2://rec/open_logic/content/incompleteness/arithmetization-syntax/proofs-in-lk.tex#proof-2#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"ZN5CV0ZMQX","mentions":["wikipedia://en/23029956"],"kind":"definition","name":"Homological integration","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ZN5DWKSNPM","mentions":["wikipedia://en/2920840#STLL"],"kind":"definition","name":"Hyperplane arrangement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ZN5M145N33","mentions":["wikipedia://en/63556609#HAND"],"kind":"statement","name":"Simons' theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ZN5S44F8T2","mentions":["wikipedia://en/191457#B12M"],"kind":"definition","name":"Nuisance variable","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

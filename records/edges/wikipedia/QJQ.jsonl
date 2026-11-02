@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/449606","to":"wikipedia://en/21474","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[559,577],"revision":1376263881,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/449606","to":"wikipedia://en/6220","predicate":"related","method":"link-in-text","confidence":"low","span":[662,672],"revision":1376263881,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/449606","to":"wikipedia://en/201629","predicate":"related","method":"link-in-text","confidence":"low","span":[693,715],"revision":1376263881,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/449606","to":"wikipedia://en/442472","predicate":"related","method":"link-in-text","confidence":"low","span":[741,763],"revision":1376263881,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/449606","to":"wikipedia://en/31213087","predicate":"related","method":"link-in-text","confidence":"low","span":[767,777],"revision":1376263881,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/449606","to":"wikipedia://en/27033107","predicate":"restates","method":"hatnote","confidence":"high","span":[9298,9310],"revision":1376263881,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/449606","to":"wikipedia://en/145891","predicate":"related","method":"hatnote","confidence":"medium","span":[9325,9347],"revision":1376263881,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/449606","to":"wikipedia://en/424928","predicate":"related","method":"hatnote","confidence":"medium","span":[20628,20633],"revision":1376263881,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/449606","to":"wikipedia://en/9420449","predicate":"restates","method":"hatnote","confidence":"high","span":[28582,28594],"revision":1376263881,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/449606","to":"wikipedia://en/456140","predicate":"restates","method":"hatnote","confidence":"high","span":[28617,28629],"revision":1376263881,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/449606","to":"Category:Integers","predicate":"in-field","method":"category","confidence":"medium","span":[29232,29253],"revision":1376263881,"by":"importer/wikipedia/1"}

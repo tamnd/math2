@@ -1,1 +1,5 @@
+{"id":"TH09X4AY00","mentions":["wikipedia://en/2390225#MUQ6"],"kind":"definition","name":"monoidal category","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"TH0A5PVDM3","mentions":["wikipedia://en/184011#YFZW"],"kind":"statement","name":"Special cases","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TH0J9QT4F8","mentions":["ax://paper/2609.35361#WO9C"],"kind":"statement","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
+{"id":"TH0KY8NC51","mentions":["wikipedia://en/14403539#PEQY"],"kind":"unknown","name":"Jia Rongqing","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"TH0SJTTV90","mentions":["wikipedia://en/152547#MPXU"],"kind":"unknown","name":"Diagonal bisector","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

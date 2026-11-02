@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/34189212#9DT2","to":"wikipedia://en/40282","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[71039,71054],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39524578","to":"wikipedia://en/18934432","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[83,99],"revision":1372746518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39524578","to":"wikipedia://en/363890","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[127,155],"revision":1372746518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39524578","to":"wikipedia://en/13790","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[167,184],"revision":1372746518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39524578","to":"wikipedia://en/26691","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[265,290],"revision":1372746518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39524578","to":"wikipedia://en/18934432","predicate":"related","method":"see-also","confidence":"low","span":[18847,18863],"revision":1372746518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39524578","to":"wikipedia://en/450541","predicate":"related","method":"see-also","confidence":"low","span":[18866,18890],"revision":1372746518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39524578","to":"wikipedia://en/7903","predicate":"related","method":"see-also","confidence":"low","span":[18893,18926],"revision":1372746518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39524578","to":"Category:Cryptography","predicate":"in-field","method":"category","confidence":"medium","span":[18956,18981],"revision":1372746518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46650501#WANH","to":"wikipedia://en/701756","predicate":"uses","method":"link-in-item","confidence":"high","span":[2675,2703],"revision":1251818978,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46650501#WANH","to":"wikipedia://en/4696394","predicate":"uses","method":"link-in-item","confidence":"high","span":[3377,3396],"revision":1251818978,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46650501#WANH","to":"wikipedia://en/2403284","predicate":"uses","method":"link-in-item","confidence":"high","span":[3471,3489],"revision":1251818978,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46650501#WANH","to":"wikipedia://en/36464065","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3495,3505],"revision":1251818978,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46650501#WANH","to":"wikipedia://en/449781","predicate":"uses","method":"link-in-item","confidence":"high","span":[3539,3566],"revision":1251818978,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46650501#WANH","to":"wikipedia://en/53784","predicate":"uses","method":"link-in-item","confidence":"high","span":[3616,3638],"revision":1251818978,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46650501#WANH","to":"wikipedia://en/17112","predicate":"uses","method":"link-in-item","confidence":"high","span":[3985,4000],"revision":1251818978,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46650501#WANH","to":"wikipedia://en/586","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4621,4651],"revision":1251818978,"by":"importer/wikipedia/1"}

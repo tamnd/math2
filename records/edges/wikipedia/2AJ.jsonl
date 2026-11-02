@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/14403539#SO9A","to":"wikipedia://en/58555077","predicate":"listed-in","method":"list","confidence":"certain","span":[19287,19307],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19281610","to":"wikipedia://en/723043","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[100,115],"revision":1205201096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19281610","to":"wikipedia://en/252686","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[133,157],"revision":1205201096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19281610","to":"wikipedia://en/39781","predicate":"related","method":"link-in-text","confidence":"low","span":[1276,1287],"revision":1205201096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19281610","to":"wikipedia://en/325806","predicate":"related","method":"link-in-text","confidence":"low","span":[2032,2070],"revision":1205201096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19281610","to":"wikipedia://en/246223","predicate":"related","method":"link-in-text","confidence":"low","span":[2173,2232],"revision":1205201096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19281610","to":"wikipedia://en/29238","predicate":"related","method":"see-also","confidence":"low","span":[2598,2616],"revision":1205201096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19281610","to":"wikipedia://en/16554664","predicate":"related","method":"see-also","confidence":"low","span":[2619,2644],"revision":1205201096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19281610","to":"Category:Systems theory","predicate":"in-field","method":"category","confidence":"medium","span":[3358,3385],"revision":1205201096,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30868268#1PR9","to":"wikipedia://en/6109308","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3524,3538],"revision":1373878385,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30868268#1PR9","to":"wikipedia://en/97034","predicate":"uses","method":"link-in-item","confidence":"high","span":[4316,4338],"revision":1373878385,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30868268#1PR9","to":"wikipedia://en/7196522","predicate":"uses","method":"link-in-item","confidence":"high","span":[4446,4472],"revision":1373878385,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3932847#MGGM","to":"wikipedia://en/19480072","predicate":"listed-in","method":"list","confidence":"certain","span":[472,483],"revision":1367994626,"by":"importer/wikipedia/1"}

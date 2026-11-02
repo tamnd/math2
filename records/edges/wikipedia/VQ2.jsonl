@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/14861779","to":"wikipedia://en/185239","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[198,225],"revision":1308599170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14861779","to":"wikipedia://en/77591639","predicate":"related","method":"link-in-text","confidence":"low","span":[915,935],"revision":1308599170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14861779","to":"wikipedia://en/245568","predicate":"related","method":"link-in-text","confidence":"low","span":[2534,2560],"revision":1308599170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14861779","to":"wikipedia://en/263321","predicate":"related","method":"link-in-text","confidence":"low","span":[2770,2798],"revision":1308599170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14861779","to":"wikipedia://en/677191","predicate":"related","method":"link-in-text","confidence":"low","span":[3706,3728],"revision":1308599170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14861779","to":"wikipedia://en/1712895","predicate":"related","method":"link-in-text","confidence":"low","span":[5151,5208],"revision":1308599170,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14861779","to":"wikipedia://en/11709182","predicate":"related","method":"see-also","confidence":"low","span":[7991,8030],"revision":1308599170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14861779","to":"wikipedia://en/29760827","predicate":"related","method":"see-also","confidence":"low","span":[8121,8139],"revision":1308599170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14861779","to":"Category:Heat transfer","predicate":"in-field","method":"category","confidence":"medium","span":[8664,8690],"revision":1308599170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21067650#F4QQ","to":"wikipedia://en/47172571","predicate":"uses","method":"link-in-item","confidence":"high","span":[28104,28129],"revision":1350173076,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21067650#F4QQ","to":"wikipedia://en/14463","predicate":"uses","method":"link-in-item","confidence":"high","span":[29166,29183],"revision":1350173076,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/241820#COYO","to":"wikipedia://en/6109457","predicate":"listed-in","method":"list","confidence":"certain","span":[13476,13488],"revision":1375503641,"by":"importer/wikipedia/1"}

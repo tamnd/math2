@@ -1,0 +1,5 @@
+{"from":"wikipedia://en/3141761#2N7W","to":"wikipedia://en/2042","predicate":"related","method":"link-in-item","confidence":"low","span":[33940,33966],"revision":1346525707,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3141761#2N7W","to":"wikipedia://en/501590","predicate":"uses","method":"link-in-item","confidence":"high","span":[33988,34004],"revision":1346525707,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3141761#2N7W","to":"wikipedia://en/396231","predicate":"uses","method":"link-in-item","confidence":"high","span":[34009,34030],"revision":1346525707,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3932847#MUTT","to":"wikipedia://en/47012074","predicate":"listed-in","method":"list","confidence":"certain","span":[9285,9304],"revision":1367994626,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3932847#MUTT","to":"wikipedia://en/32472154","predicate":"uses","method":"link-in-item","confidence":"medium","span":[9320,9337],"revision":1367994626,"by":"importer/wikipedia/1"}

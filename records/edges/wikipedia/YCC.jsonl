@@ -1,0 +1,25 @@
+{"from":"wikipedia://en/19414953#6ICF","to":"wikipedia://en/313303","predicate":"uses","method":"link-in-item","confidence":"high","span":[8083,8099],"revision":1372630684,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19414953#6ICF","to":"wikipedia://en/489394","predicate":"uses","method":"link-in-item","confidence":"high","span":[8286,8307],"revision":1372630684,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19414953#6ICF","to":"wikipedia://en/6556","predicate":"uses","method":"link-in-item","confidence":"high","span":[8393,8404],"revision":1372630684,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19414953#6ICF","to":"wikipedia://en/45296926","predicate":"uses","method":"link-in-item","confidence":"high","span":[8450,8466],"revision":1372630684,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56776855","to":"wikipedia://en/48661","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1022,1038],"revision":1358563850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56776855","to":"wikipedia://en/32927","predicate":"related","method":"link-in-text","confidence":"low","span":[1418,1438],"revision":1358563850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56776855","to":"wikipedia://en/339728","predicate":"related","method":"link-in-text","confidence":"low","span":[1492,1505],"revision":1358563850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56776855","to":"wikipedia://en/3015455","predicate":"related","method":"link-in-text","confidence":"low","span":[1656,1684],"revision":1358563850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56776855","to":"wikipedia://en/181348","predicate":"related","method":"link-in-text","confidence":"low","span":[1728,1779],"revision":1358563850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56776855","to":"wikipedia://en/17867","predicate":"related","method":"link-in-text","confidence":"low","span":[2066,2076],"revision":1358563850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56776855","to":"wikipedia://en/9602","predicate":"related","method":"link-in-text","confidence":"low","span":[2101,2114],"revision":1358563850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56776855","to":"wikipedia://en/531365","predicate":"related","method":"link-in-text","confidence":"low","span":[2393,2466],"revision":1358563850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56776855","to":"wikipedia://en/36741","predicate":"related","method":"link-in-text","confidence":"low","span":[2531,2542],"revision":1358563850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56776855","to":"wikipedia://en/36614585","predicate":"related","method":"link-in-text","confidence":"low","span":[2547,2557],"revision":1358563850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56776855","to":"wikipedia://en/14903854","predicate":"related","method":"link-in-text","confidence":"low","span":[2628,2665],"revision":1358563850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56776855","to":"wikipedia://en/5069516","predicate":"related","method":"link-in-text","confidence":"low","span":[2990,3016],"revision":1358563850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56776855","to":"wikipedia://en/762779","predicate":"related","method":"link-in-text","confidence":"low","span":[4012,4054],"revision":1358563850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56776855","to":"wikipedia://en/103958","predicate":"related","method":"link-in-text","confidence":"low","span":[4382,4427],"revision":1358563850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56776855","to":"wikipedia://en/11211918","predicate":"related","method":"link-in-text","confidence":"low","span":[4459,4563],"revision":1358563850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56776855","to":"wikipedia://en/1142128","predicate":"related","method":"link-in-text","confidence":"low","span":[5049,5111],"revision":1358563850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56776855","to":"Category:British statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[5320,5354],"revision":1358563850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56776855","to":"Category:Health informaticians","predicate":"in-field","method":"category","confidence":"medium","span":[5355,5389],"revision":1358563850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56776855","to":"Category:British sexologists","predicate":"in-field","method":"category","confidence":"medium","span":[5390,5422],"revision":1358563850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56776855","to":"Category:Women statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[5423,5455],"revision":1358563850,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56776855","to":"Category:20th-century statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[5456,5495],"revision":1358563850,"by":"importer/wikipedia/1"}

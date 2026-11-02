@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/19646692#JLVK","to":"wikipedia://en/33914856","predicate":"listed-in","method":"list","confidence":"certain","span":[1707,1728],"revision":1077123040,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41452559#TGH7","to":"wikipedia://en/8625","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[308,333],"revision":1376031481,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41452559#TGH7","to":"wikipedia://en/30807","predicate":"uses","method":"link-in-item","confidence":"high","span":[367,384],"revision":1376031481,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41452559#TGH7","to":"wikipedia://en/2073470","predicate":"uses","method":"link-in-item","confidence":"high","span":[420,432],"revision":1376031481,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41452559#TGH7","to":"wikipedia://en/521933","predicate":"uses","method":"link-in-item","confidence":"high","span":[2841,2859],"revision":1376031481,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60571575","to":"wikipedia://en/277248","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[148,162],"revision":1366724115,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60571575","to":"wikipedia://en/277248","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[261,291],"revision":1366724115,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60571575","to":"wikipedia://en/11632","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[308,344],"revision":1366724115,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60571575","to":"wikipedia://en/3969853","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[438,470],"revision":1366724115,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60571575","to":"wikipedia://en/60977471","predicate":"related","method":"see-also","confidence":"low","span":[3062,3084],"revision":1366724115,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60571575","to":"Category:Design of experiments","predicate":"in-field","method":"category","confidence":"medium","span":[3245,3279],"revision":1366724115,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60571575","to":"Category:Clinical research","predicate":"in-field","method":"category","confidence":"medium","span":[3280,3310],"revision":1366724115,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60571575","to":"Category:Medical terminology","predicate":"in-field","method":"category","confidence":"medium","span":[3326,3358],"revision":1366724115,"by":"importer/wikipedia/1"}

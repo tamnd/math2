@@ -1,0 +1,25 @@
+{"from":"wikipedia://en/1192056","to":"wikipedia://en/63262","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[79,102],"revision":1309851875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1192056","to":"wikipedia://en/241232","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[175,211],"revision":1309851875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1192056","to":"wikipedia://en/227572","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[212,248],"revision":1309851875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1192056","to":"wikipedia://en/1434630","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[264,281],"revision":1309851875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1192056","to":"wikipedia://en/15368","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[657,679],"revision":1309851875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1192056","to":"wikipedia://en/1195168","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[705,721],"revision":1309851875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1192056","to":"wikipedia://en/1198764","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[726,742],"revision":1309851875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1192056","to":"wikipedia://en/211295","predicate":"related","method":"link-in-text","confidence":"low","span":[1460,1477],"revision":1309851875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1192056","to":"wikipedia://en/309452","predicate":"related","method":"link-in-text","confidence":"low","span":[1823,1862],"revision":1309851875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1192056","to":"wikipedia://en/5351448","predicate":"related","method":"see-also","confidence":"low","span":[1984,2019],"revision":1309851875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1192056","to":"Category:Economics theorems","predicate":"in-field","method":"category","confidence":"medium","span":[2090,2121],"revision":1309851875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1192056","to":"Category:Financial economics","predicate":"in-field","method":"category","confidence":"medium","span":[2122,2154],"revision":1309851875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1192056","to":"Category:1982 in economic history","predicate":"in-field","method":"category","confidence":"medium","span":[2155,2192],"revision":1309851875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/166084#PHXT","to":"wikipedia://en/375900","predicate":"uses","method":"link-in-item","confidence":"high","span":[1663,1696],"revision":1355034281,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/166084#PHXT","to":"wikipedia://en/409951","predicate":"uses","method":"link-in-item","confidence":"high","span":[1700,1714],"revision":1355034281,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/166084#PHXT","to":"wikipedia://en/8429","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2202,2213],"revision":1355034281,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/166084#PHXT","to":"wikipedia://en/65905","predicate":"uses","method":"link-in-item","confidence":"high","span":[2418,2431],"revision":1355034281,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/166084#PHXT","to":"wikipedia://en/9908","predicate":"uses","method":"link-in-item","confidence":"high","span":[2831,2852],"revision":1355034281,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/166084#PHXT","to":"wikipedia://en/206064","predicate":"uses","method":"link-in-item","confidence":"high","span":[2898,2924],"revision":1355034281,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/166084#PHXT","to":"wikipedia://en/147853","predicate":"uses","method":"link-in-item","confidence":"high","span":[3139,3157],"revision":1355034281,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/166084#PHXT","to":"wikipedia://en/19555586","predicate":"uses","method":"link-in-item","confidence":"high","span":[3172,3195],"revision":1355034281,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/166084#PHXT","to":"wikipedia://en/52565","predicate":"uses","method":"link-in-item","confidence":"high","span":[3292,3315],"revision":1355034281,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/166084#PHXT","to":"wikipedia://en/1092110","predicate":"uses","method":"link-in-item","confidence":"high","span":[3498,3514],"revision":1355034281,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/166084#PHXT","to":"wikipedia://en/9541424","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3593,3621],"revision":1355034281,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76765067#O69Q","to":"wikipedia://en/13279065","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[231208,231231],"revision":1368301704,"by":"importer/wikipedia/1"}

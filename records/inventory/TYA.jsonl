@@ -1,1 +1,6 @@
 {"id":"TYAA1CR1P2","mentions":["ax://paper/2609.23128#0K9Q"],"kind":"statement","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.17"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.17"}],"proofs":["ax://paper/2609.23128#CDWD"]}
+{"id":"TYAN0MJT65","mentions":["wikipedia://en/336349#8Z8P"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"TYARPW0Z6D","mentions":["wikipedia://en/24928#QCR3"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"TYAT5SDYPQ","mentions":["wikipedia://en/55539504"],"kind":"definition","name":"Bitcoin Gold","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"TYAYJREY7P","mentions":["wikipedia://en/71740001"],"kind":"definition","name":"Random polytope","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"TYAZ2PVWYG","mentions":["wikipedia://en/12692795#O0DH"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

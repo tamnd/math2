@@ -1,1 +1,7 @@
+{"id":"CE16W1NBD8","mentions":["wikipedia://en/351549#PFR2"],"kind":"definition","name":"Cubic surface","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"CE186BFAGG","mentions":["wikipedia://en/47565351#C41S"],"kind":"unknown","name":"Araihazar","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"CE1DAHCWP5","mentions":["wikipedia://en/54350648"],"kind":"topic","name":"John Croucher","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"CE1DWZ9DMB","mentions":["wikipedia://en/1338726"],"kind":"definition","name":"Delegated Path Discovery","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"CE1HS8E9DD","mentions":["wikipedia://en/42808649#503A"],"kind":"statement","name":"Symmetry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CE1PVR79MK","mentions":["ax://paper/2610.08334#9PLH"],"kind":"statement","msc":["14-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.10"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}],"proofs":["ax://paper/2610.08334#XZCX"]}
+{"id":"CE1X803T27","mentions":["wikipedia://en/78730954#EDCJ"],"kind":"unknown","name":"lift force","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

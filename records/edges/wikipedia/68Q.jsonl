@@ -1,0 +1,26 @@
+{"from":"wikipedia://en/21784578","to":"wikipedia://en/42253","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[49,64],"revision":1315828960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21784578","to":"wikipedia://en/437701","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[172,231],"revision":1315828960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21784578","to":"wikipedia://en/437701","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[246,307],"revision":1315828960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21784578","to":"wikipedia://en/554671","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[318,340],"revision":1315828960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21784578","to":"wikipedia://en/1159024","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[543,563],"revision":1315828960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21784578","to":"wikipedia://en/879637","predicate":"related","method":"link-in-text","confidence":"low","span":[1516,1585],"revision":1315828960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21784578","to":"wikipedia://en/49571","predicate":"related","method":"link-in-text","confidence":"low","span":[1905,1926],"revision":1315828960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21784578","to":"wikipedia://en/504458","predicate":"related","method":"link-in-text","confidence":"low","span":[1991,2063],"revision":1315828960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21784578","to":"wikipedia://en/435099","predicate":"related","method":"link-in-text","confidence":"low","span":[2119,2149],"revision":1315828960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21784578","to":"wikipedia://en/11391180","predicate":"related","method":"link-in-text","confidence":"low","span":[2176,2200],"revision":1315828960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21784578","to":"wikipedia://en/871681","predicate":"related","method":"link-in-text","confidence":"low","span":[2349,2366],"revision":1315828960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21784578","to":"wikipedia://en/506077","predicate":"related","method":"link-in-text","confidence":"low","span":[2710,2752],"revision":1315828960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21784578","to":"wikipedia://en/826997","predicate":"related","method":"link-in-text","confidence":"low","span":[3014,3054],"revision":1315828960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21784578","to":"wikipedia://en/245552","predicate":"related","method":"link-in-text","confidence":"low","span":[3398,3419],"revision":1315828960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21784578","to":"wikipedia://en/826997","predicate":"related","method":"link-in-text","confidence":"low","span":[3501,3524],"revision":1315828960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21784578","to":"wikipedia://en/4080917","predicate":"related","method":"link-in-text","confidence":"low","span":[3571,3595],"revision":1315828960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21784578","to":"wikipedia://en/21462","predicate":"related","method":"link-in-text","confidence":"low","span":[3754,3778],"revision":1315828960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21784578","to":"Category:Multivariate statistics","predicate":"in-field","method":"category","confidence":"medium","span":[6110,6146],"revision":1315828960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21784578","to":"Category:Cluster analysis algorithms","predicate":"in-field","method":"category","confidence":"medium","span":[6147,6187],"revision":1315828960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21784578","to":"Category:Estimation of densities","predicate":"in-field","method":"category","confidence":"medium","span":[6188,6224],"revision":1315828960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24083295","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[197,209],"revision":1129952195,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24083295","to":"wikipedia://en/4157363","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[265,299],"revision":1129952195,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24083295","to":"wikipedia://en/30654","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[341,390],"revision":1129952195,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24083295","to":"wikipedia://en/338046","predicate":"related","method":"link-in-text","confidence":"low","span":[726,744],"revision":1129952195,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24083295","to":"Category:Dual uniform polyhedra","predicate":"in-field","method":"category","confidence":"medium","span":[1335,1370],"revision":1129952195,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#ZGYR","to":"wikipedia://en/54594784","predicate":"listed-in","method":"list","confidence":"certain","span":[108322,108344],"revision":1373230097,"by":"importer/wikipedia/1"}

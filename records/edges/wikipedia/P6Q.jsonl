@@ -1,0 +1,6 @@
+{"from":"wikipedia://en/17216567","to":"wikipedia://en/14773","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[77,99],"revision":1369483428,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17216567","to":"wikipedia://en/5693","predicate":"related","method":"link-in-lead","confidence":"low","span":[182,200],"revision":1369483428,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17216567","to":"wikipedia://en/3504168","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[205,229],"revision":1369483428,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17216567","to":"wikipedia://en/166971","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[253,278],"revision":1369483428,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17216567","to":"Category:Theory of probability distributions","predicate":"in-field","method":"category","confidence":"medium","span":[5879,5927],"revision":1369483428,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17216567","to":"Category:Information theory","predicate":"in-field","method":"category","confidence":"medium","span":[5928,5959],"revision":1369483428,"by":"importer/wikipedia/1"}

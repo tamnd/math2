@@ -1,0 +1,7 @@
+{"from":"wikipedia://en/47738065#0JEY","to":"wikipedia://en/10201445","predicate":"listed-in","method":"list","confidence":"certain","span":[48374,48394],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48136809","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[80,92],"revision":1259998959,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48136809","to":"wikipedia://en/1975821","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[199,213],"revision":1259998959,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48136809","to":"wikipedia://en/30961758","predicate":"related","method":"link-in-lead","confidence":"low","span":[720,742],"revision":1259998959,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48136809","to":"wikipedia://en/589167","predicate":"related","method":"link-in-lead","confidence":"low","span":[836,852],"revision":1259998959,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48136809","to":"Category:Mathematical theorems","predicate":"in-field","method":"category","confidence":"medium","span":[2015,2049],"revision":1259998959,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48136809","to":"Category:Theorems in geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[2050,2083],"revision":1259998959,"by":"importer/wikipedia/1"}

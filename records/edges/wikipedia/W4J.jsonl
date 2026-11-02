@@ -1,0 +1,33 @@
+{"from":"wikipedia://en/12830119#RAZI","to":"wikipedia://en/12087798","predicate":"listed-in","method":"list","confidence":"certain","span":[4544,4563],"revision":1274453818,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44787301#CUI6","to":"wikipedia://en/34122","predicate":"listed-in","method":"list","confidence":"certain","span":[6107,6130],"revision":1373156759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5751973","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[86,98],"revision":1281465052,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5751973","to":"wikipedia://en/9417","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[138,156],"revision":1281465052,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5751973","to":"wikipedia://en/9331","predicate":"related","method":"link-in-lead","confidence":"low","span":[177,187],"revision":1281465052,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5751973","to":"wikipedia://en/9417","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[222,256],"revision":1281465052,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5751973","to":"wikipedia://en/4449765","predicate":"related","method":"link-in-lead","confidence":"low","span":[461,477],"revision":1281465052,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5751973","to":"wikipedia://en/8302","predicate":"related","method":"link-in-text","confidence":"low","span":[2774,2785],"revision":1281465052,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5751973","to":"wikipedia://en/838151","predicate":"related","method":"link-in-text","confidence":"low","span":[2808,2852],"revision":1281465052,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5751973","to":"wikipedia://en/9417","predicate":"related","method":"link-in-text","confidence":"low","span":[2856,2878],"revision":1281465052,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5751973","to":"wikipedia://en/1171759","predicate":"uses","method":"named-link","confidence":"high","span":[4174,4193],"revision":1281465052,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5751973","to":"wikipedia://en/243849","predicate":"related","method":"link-in-text","confidence":"low","span":[4498,4521],"revision":1281465052,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5751973","to":"wikipedia://en/387224","predicate":"related","method":"link-in-text","confidence":"low","span":[4889,4932],"revision":1281465052,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5751973","to":"Category:Euclidean plane geometry","predicate":"in-field","method":"category","confidence":"medium","span":[8016,8053],"revision":1281465052,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5751973","to":"Category:Foundations of geometry","predicate":"in-field","method":"category","confidence":"medium","span":[8054,8090],"revision":1281465052,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83409961","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[495,510],"revision":1359201653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83409961","to":"wikipedia://en/4283745","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[562,587],"revision":1359201653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83409961","to":"wikipedia://en/5481296","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[591,647],"revision":1359201653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83409961","to":"wikipedia://en/21474","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1280,1299],"revision":1359201653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83409961","to":"wikipedia://en/8405295","predicate":"related","method":"link-in-text","confidence":"low","span":[2280,2331],"revision":1359201653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83409961","to":"Category:Mathematical analysis","predicate":"in-field","method":"category","confidence":"medium","span":[3567,3601],"revision":1359201653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83409961","to":"Category:Discrete mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[3602,3635],"revision":1359201653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83409961","to":"Category:Series","predicate":"in-field","method":"category","confidence":"medium","span":[3636,3655],"revision":1359201653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9943932#FSLW","to":"wikipedia://en/3772116","predicate":"uses","method":"link-in-item","confidence":"high","span":[3009,3063],"revision":1350939104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9943932#FSLW","to":"wikipedia://en/3772116","predicate":"uses","method":"link-in-item","confidence":"high","span":[3153,3201],"revision":1350939104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9943932#FSLW","to":"wikipedia://en/2677220","predicate":"uses","method":"link-in-item","confidence":"high","span":[3202,3230],"revision":1350939104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9943932#FSLW","to":"wikipedia://en/489440","predicate":"uses","method":"link-in-item","confidence":"high","span":[3264,3292],"revision":1350939104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9943932#FSLW","to":"wikipedia://en/470632","predicate":"uses","method":"link-in-item","confidence":"high","span":[3300,3344],"revision":1350939104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9943932#FSLW","to":"wikipedia://en/2000736","predicate":"uses","method":"link-in-item","confidence":"high","span":[3616,3641],"revision":1350939104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9943932#FSLW","to":"wikipedia://en/49176","predicate":"uses","method":"link-in-item","confidence":"high","span":[3794,3836],"revision":1350939104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9943932#FSLW","to":"wikipedia://en/366550","predicate":"uses","method":"link-in-item","confidence":"high","span":[3879,3895],"revision":1350939104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9943932#FSLW","to":"wikipedia://en/276524","predicate":"uses","method":"link-in-item","confidence":"high","span":[3901,3918],"revision":1350939104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9943932#FSLW","to":"wikipedia://en/113564","predicate":"uses","method":"link-in-item","confidence":"high","span":[3977,4001],"revision":1350939104,"by":"importer/wikipedia/1"}

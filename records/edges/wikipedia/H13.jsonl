@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/161260#PJ9I","to":"wikipedia://en/1209","predicate":"uses","method":"link-in-item","confidence":"high","span":[8563,8571],"revision":1373073045,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/161260#PJ9I","to":"wikipedia://en/173285","predicate":"uses","method":"link-in-item","confidence":"high","span":[8841,8866],"revision":1373073045,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/161260#PJ9I","to":"wikipedia://en/161241","predicate":"uses","method":"link-in-item","confidence":"high","span":[9681,9713],"revision":1373073045,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/161260#PJ9I","to":"wikipedia://en/886617","predicate":"uses","method":"link-in-item","confidence":"high","span":[10400,10417],"revision":1373073045,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#11RH","to":"wikipedia://en/5483916","predicate":"listed-in","method":"list","confidence":"certain","span":[20588,20625],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43431900","to":"wikipedia://en/43212478","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[123,144],"revision":1325621559,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43431900","to":"wikipedia://en/3180547","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[168,185],"revision":1325621559,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43431900","to":"wikipedia://en/2260894","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[373,398],"revision":1325621559,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43431900","to":"wikipedia://en/2260894","predicate":"related","method":"link-in-text","confidence":"low","span":[449,474],"revision":1325621559,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43431900","to":"wikipedia://en/43262165","predicate":"related","method":"link-in-text","confidence":"low","span":[493,512],"revision":1325621559,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43431900","to":"wikipedia://en/632632","predicate":"related","method":"link-in-text","confidence":"low","span":[601,616],"revision":1325621559,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43431900","to":"wikipedia://en/665951","predicate":"related","method":"link-in-text","confidence":"low","span":[4398,4425],"revision":1325621559,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43431900","to":"wikipedia://en/495383","predicate":"related","method":"link-in-text","confidence":"low","span":[4554,4600],"revision":1325621559,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43431900","to":"wikipedia://en/43315766","predicate":"related","method":"link-in-text","confidence":"low","span":[4668,4697],"revision":1325621559,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43431900","to":"Category:Fair division protocols","predicate":"in-field","method":"category","confidence":"medium","span":[6135,6171],"revision":1325621559,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43431900","to":"Category:Cake-cutting","predicate":"in-field","method":"category","confidence":"medium","span":[6172,6197],"revision":1325621559,"by":"importer/wikipedia/1"}

@@ -1,0 +1,31 @@
+{"from":"wikipedia://en/13637#2HBF","to":"wikipedia://en/148911","predicate":"uses","method":"link-in-item","confidence":"high","span":[1954,1985],"revision":1351067888,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13637#2HBF","to":"wikipedia://en/91420","predicate":"uses","method":"link-in-item","confidence":"high","span":[1991,2034],"revision":1351067888,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13637#2HBF","to":"wikipedia://en/1529485","predicate":"uses","method":"link-in-item","confidence":"high","span":[2037,2079],"revision":1351067888,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13637#2HBF","to":"wikipedia://en/39359","predicate":"uses","method":"link-in-item","confidence":"high","span":[2214,2240],"revision":1351067888,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13637#2HBF","to":"wikipedia://en/40117302","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2425,2445],"revision":1351067888,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13637#2HBF","to":"wikipedia://en/14671319","predicate":"uses","method":"link-in-item","confidence":"high","span":[2720,2753],"revision":1351067888,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13637#2HBF","to":"wikipedia://en/14922","predicate":"uses","method":"link-in-item","confidence":"high","span":[2965,2983],"revision":1351067888,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13637#2HBF","to":"wikipedia://en/68121","predicate":"uses","method":"link-in-item","confidence":"high","span":[3086,3117],"revision":1351067888,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13637#2HBF","to":"wikipedia://en/68121","predicate":"uses","method":"link-in-item","confidence":"high","span":[3229,3252],"revision":1351067888,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35261707","to":"wikipedia://en/255919","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[206,222],"revision":1317132601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35261707","to":"wikipedia://en/48396","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[304,338],"revision":1317132601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35261707","to":"wikipedia://en/23542","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[340,362],"revision":1317132601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35261707","to":"wikipedia://en/25267","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[367,391],"revision":1317132601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35261707","to":"wikipedia://en/477714","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1382,1412],"revision":1317132601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35261707","to":"wikipedia://en/29080987","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1444,1464],"revision":1317132601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35261707","to":"wikipedia://en/1554430","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1514,1539],"revision":1317132601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35261707","to":"wikipedia://en/22870348","predicate":"related","method":"link-in-lead","confidence":"low","span":[1570,1588],"revision":1317132601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35261707","to":"wikipedia://en/4157","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1592,1612],"revision":1317132601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35261707","to":"Category:20th-century Argentine mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2547,2597],"revision":1317132601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35261707","to":"Category:20th-century philologists","predicate":"in-field","method":"category","confidence":"medium","span":[2598,2636],"revision":1317132601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35261707","to":"Category:Mathematical analysts","predicate":"in-field","method":"category","confidence":"medium","span":[2637,2671],"revision":1317132601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35261707","to":"Category:Academic staff of the University of Buenos Aires","predicate":"in-field","method":"category","confidence":"medium","span":[2756,2817],"revision":1317132601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35261707","to":"Category:Argentine philologists","predicate":"in-field","method":"category","confidence":"medium","span":[2970,3005],"revision":1317132601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35261707","to":"Category:Argentine translators","predicate":"in-field","method":"category","confidence":"medium","span":[3006,3040],"revision":1317132601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35261707","to":"Category:English–Spanish translators","predicate":"in-field","method":"category","confidence":"medium","span":[3041,3083],"revision":1317132601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35261707","to":"Category:French–Spanish translators","predicate":"in-field","method":"category","confidence":"medium","span":[3084,3125],"revision":1317132601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35261707","to":"Category:German–Spanish translators","predicate":"in-field","method":"category","confidence":"medium","span":[3126,3167],"revision":1317132601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35261707","to":"Category:Italian–Spanish translators","predicate":"in-field","method":"category","confidence":"medium","span":[3168,3210],"revision":1317132601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35261707","to":"Category:French-language Argentine writers","predicate":"in-field","method":"category","confidence":"medium","span":[3211,3257],"revision":1317132601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35261707","to":"Category:German-language Argentine writers","predicate":"in-field","method":"category","confidence":"medium","span":[3258,3304],"revision":1317132601,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#B0LE","to":"wikipedia://en/55990395","predicate":"listed-in","method":"list","confidence":"certain","span":[8206,8229],"revision":1373230097,"by":"importer/wikipedia/1"}

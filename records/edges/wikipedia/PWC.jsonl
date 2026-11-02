@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/14403539#9RUT","to":"wikipedia://en/22788078","predicate":"listed-in","method":"list","confidence":"certain","span":[4460,4509],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/183091#INFP","to":"wikipedia://en/8211999","predicate":"listed-in","method":"list","confidence":"certain","span":[14111,14143],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/183091#INFP","to":"wikipedia://en/9880197","predicate":"uses","method":"link-in-item","confidence":"high","span":[14158,14185],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/183091#INFP","to":"wikipedia://en/1073230","predicate":"uses","method":"link-in-item","confidence":"high","span":[14213,14242],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33005374","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[45,60],"revision":1225040996,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33005374","to":"wikipedia://en/943917","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[165,189],"revision":1225040996,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33005374","to":"wikipedia://en/160993","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[257,280],"revision":1225040996,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33005374","to":"wikipedia://en/1649947","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[604,651],"revision":1225040996,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33005374","to":"wikipedia://en/1619396","predicate":"related","method":"link-in-text","confidence":"low","span":[2888,2900],"revision":1225040996,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33005374","to":"wikipedia://en/4120642","predicate":"related","method":"link-in-text","confidence":"low","span":[3047,3064],"revision":1225040996,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33005374","to":"wikipedia://en/3921324","predicate":"related","method":"link-in-text","confidence":"low","span":[3351,3367],"revision":1225040996,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33005374","to":"Category:Polynomials","predicate":"in-field","method":"category","confidence":"medium","span":[5110,5134],"revision":1225040996,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37236195#MM4J","to":"wikipedia://en/5234885","predicate":"listed-in","method":"list","confidence":"certain","span":[382,438],"revision":1078237123,"by":"importer/wikipedia/1"}

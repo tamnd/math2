@@ -1,2 +1,6 @@
+{"id":"Q3215J47X3","mentions":["wikipedia://en/26511174#KOB5"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}],"proofs":["wikipedia://en/26511174#1QIT","wikipedia://en/26511174#P9TO"]}
 {"id":"Q322M6Y4C0","mentions":["m2://rec/napkin/tex/alg-NT/classgrp.tex#definition-1#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"Q3274NSQ6G","mentions":["wikipedia://en/14528017#KH6E"],"kind":"definition","name":"Classification of finite simple groups","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Q32DB1C18X","mentions":["m2://rec/lebl_diffyqs/ch-intro.tex#exercise-4#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"Q32M4QJ00J","mentions":["wikipedia://en/27961040#MOBY"],"kind":"unknown","name":"Mathematical Logic Quarterly","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"Q32TVDQS8M","mentions":["wikipedia://en/66221186"],"kind":"definition","name":"Representations of classical groups","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

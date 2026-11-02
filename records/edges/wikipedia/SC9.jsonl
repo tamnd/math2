@@ -1,0 +1,6 @@
+{"from":"wikipedia://en/29230765","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[446,461],"revision":1362334189,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29230765","to":"wikipedia://en/50652","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[511,548],"revision":1362334189,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29230765","to":"wikipedia://en/6122","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[568,592],"revision":1362334189,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29230765","to":"Category:Theorems in real analysis","predicate":"kind-of","method":"category","confidence":"medium","span":[6302,6340],"revision":1362334189,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29230765","to":"Category:Topology of function spaces","predicate":"in-field","method":"category","confidence":"medium","span":[6341,6381],"revision":1362334189,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/408108#4JKA","to":"wikipedia://en/2629002","predicate":"listed-in","method":"list","confidence":"certain","span":[7273,7293],"revision":1356076850,"by":"importer/wikipedia/1"}

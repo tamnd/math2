@@ -1,2 +1,8 @@
+{"id":"Y7B0884QCQ","mentions":["wikipedia://en/18587912#7YZB"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"Y7B96VY7BW","mentions":["wikipedia://en/1403586#GZB2"],"kind":"unknown","name":"Kim McLane Wardlaw","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Y7B9SM7V9V","mentions":["ax://paper/2609.38567#KNLE"],"kind":"statement","msc":["05-XX","11-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
+{"id":"Y7BFKYS27F","mentions":["wikipedia://en/18700393"],"kind":"definition","name":"Demographics of Northern Ireland","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"Y7BJWJ5S5W","mentions":["wikipedia://en/12815034#R8E1"],"kind":"unknown","name":"On Ascensions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"Y7BM8V584D","mentions":["wikipedia://en/29606216"],"kind":"topic","name":"Jeffrey Yi-Lin Forrest","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Y7BV1D2K21","mentions":["ax://paper/2609.28893#LIJI"],"kind":"unknown","msc":["05-XX"],"layer":"research","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}
+{"id":"Y7BW46SEB5","mentions":["wikipedia://en/5077439#QZQ3"],"kind":"statement","name":"Mathematical formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

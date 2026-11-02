@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/72167759","to":"wikipedia://en/1705017","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[234,278],"revision":1329675154,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72167759","to":"wikipedia://en/19817390","predicate":"related","method":"link-in-text","confidence":"low","span":[361,401],"revision":1329675154,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72167759","to":"wikipedia://en/46510","predicate":"related","method":"link-in-text","confidence":"low","span":[739,771],"revision":1329675154,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72167759","to":"wikipedia://en/51140705","predicate":"related","method":"link-in-text","confidence":"low","span":[1073,1123],"revision":1329675154,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72167759","to":"wikipedia://en/11133686","predicate":"related","method":"link-in-text","confidence":"low","span":[1180,1219],"revision":1329675154,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72167759","to":"Category:American statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[2279,2314],"revision":1329675154,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72167759","to":"Category:American women statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[2315,2356],"revision":1329675154,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77244347","to":"wikipedia://en/223129","predicate":"related","method":"link-in-lead","confidence":"low","span":[1319,1337],"revision":1360616176,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77244347","to":"wikipedia://en/1497569","predicate":"related","method":"link-in-text","confidence":"low","span":[3954,3978],"revision":1360616176,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77244347","to":"wikipedia://en/30284","predicate":"related","method":"link-in-text","confidence":"low","span":[4227,4253],"revision":1360616176,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77244347","to":"wikipedia://en/21462","predicate":"related","method":"link-in-text","confidence":"low","span":[4272,4295],"revision":1360616176,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77244347","to":"Category:Statistical tests","predicate":"in-field","method":"category","confidence":"medium","span":[8817,8847],"revision":1360616176,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77244347","to":"Category:Nonparametric statistics","predicate":"in-field","method":"category","confidence":"medium","span":[8848,8885],"revision":1360616176,"by":"importer/wikipedia/1"}

@@ -1,2 +1,10 @@
+{"id":"V693GTNQ0H","mentions":["wikipedia://en/5990317"],"kind":"definition","name":"Ignorability","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"V695D787WV","mentions":["wikipedia://en/51140705#HRGT"],"kind":"unknown","name":"Rafael A. Irizarry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"V695XVFGRQ","mentions":["ax://paper/math/0512416#HB78"],"kind":"definition","msc":["20-XX","22-XX","30-XX","32-XX","53-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
+{"id":"V69E3EMBYY","mentions":["wikipedia://en/630715"],"kind":"definition","name":"HP-41C","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"V69GGA88RD","mentions":["wikipedia://en/395885#Q6DI"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"V69GZ0R6CK","mentions":["m2://rec/wikidata/Q4291836#1"],"kind":"unknown","name":"Lagrange method","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"V69NWAD4KM","mentions":["wikipedia://en/47406694"],"kind":"topic","name":"Ester Samuel-Cahn","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"V69Q2J0SDH","mentions":["wikipedia://en/9653#COKN"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"V69Q4428Z3","mentions":["wikipedia://en/66682519"],"kind":"definition","name":"Gaṇita-sāra-saṅgraha","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"V69SQPD1WZ","mentions":["wikipedia://en/4688575"],"kind":"definition","name":"Miklós Schweitzer Competition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

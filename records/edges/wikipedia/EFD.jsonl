@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/161339#YO6B","to":"wikipedia://en/19382961","predicate":"listed-in","method":"list","confidence":"certain","span":[11926,11956],"revision":1370969602,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41730066","to":"wikipedia://en/21527","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[128,145],"revision":1364886556,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41730066","to":"wikipedia://en/6138","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[178,192],"revision":1364886556,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41730066","to":"wikipedia://en/23666","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[219,241],"revision":1364886556,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41730066","to":"wikipedia://en/49492","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[242,261],"revision":1364886556,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41730066","to":"wikipedia://en/18908","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[265,285],"revision":1364886556,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41730066","to":"wikipedia://en/1689979","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[302,323],"revision":1364886556,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41730066","to":"wikipedia://en/18908","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[697,716],"revision":1364886556,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41730066","to":"wikipedia://en/23692","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[760,784],"revision":1364886556,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41730066","to":"wikipedia://en/404404","predicate":"related","method":"link-in-lead","confidence":"low","span":[827,841],"revision":1364886556,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41730066","to":"wikipedia://en/18171362","predicate":"related","method":"link-in-lead","confidence":"low","span":[1129,1146],"revision":1364886556,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41730066","to":"wikipedia://en/8478563","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1515,1560],"revision":1364886556,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41730066","to":"Category:Conjectures","predicate":"kind-of","method":"category","confidence":"medium","span":[3997,4021],"revision":1364886556,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41730066","to":"Category:Unsolved problems in number theory","predicate":"kind-of","method":"category","confidence":"medium","span":[4022,4069],"revision":1364886556,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41730066","to":"Category:Hypotheses","predicate":"in-field","method":"category","confidence":"medium","span":[4070,4093],"revision":1364886556,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41730066","to":"Category:Mersenne primes","predicate":"in-field","method":"category","confidence":"medium","span":[4094,4122],"revision":1364886556,"by":"importer/wikipedia/1"}

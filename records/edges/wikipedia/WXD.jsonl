@@ -1,0 +1,31 @@
+{"from":"wikipedia://en/27635612","to":"wikipedia://en/4349459","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[270,280],"revision":1296883642,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27635612","to":"wikipedia://en/27502428","predicate":"related","method":"link-in-text","confidence":"low","span":[1158,1206],"revision":1296883642,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27635612","to":"wikipedia://en/32965987","predicate":"related","method":"link-in-text","confidence":"low","span":[1760,1782],"revision":1296883642,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27635612","to":"wikipedia://en/51739306","predicate":"related","method":"link-in-text","confidence":"low","span":[2216,2235],"revision":1296883642,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27635612","to":"wikipedia://en/1029559","predicate":"related","method":"link-in-text","confidence":"low","span":[2257,2304],"revision":1296883642,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27635612","to":"wikipedia://en/27743380","predicate":"related","method":"see-also","confidence":"low","span":[2537,2568],"revision":1296883642,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27635612","to":"wikipedia://en/26102011","predicate":"related","method":"see-also","confidence":"low","span":[2570,2603],"revision":1296883642,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27635612","to":"Category:Mathematical societies","predicate":"in-field","method":"category","confidence":"medium","span":[2775,2810],"revision":1296883642,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27635612","to":"Category:Kerala school of astronomy and mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[2811,2866],"revision":1296883642,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27635612","to":"Category:Organisations based in Kerala","predicate":"in-field","method":"category","confidence":"medium","span":[2867,2909],"revision":1296883642,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27635612","to":"Category:Educational organisations based in India","predicate":"in-field","method":"category","confidence":"medium","span":[2910,2963],"revision":1296883642,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27635612","to":"Category:1962 establishments in Kerala","predicate":"in-field","method":"category","confidence":"medium","span":[2964,3006],"revision":1296883642,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60311639","to":"wikipedia://en/5323","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3,23],"revision":1342296085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60311639","to":"wikipedia://en/73443","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[98,134],"revision":1342296085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60311639","to":"wikipedia://en/37673","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[138,149],"revision":1342296085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60311639","to":"wikipedia://en/4140245","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[181,232],"revision":1342296085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60311639","to":"wikipedia://en/22656","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[254,266],"revision":1342296085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60311639","to":"wikipedia://en/23015","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[528,553],"revision":1342296085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60311639","to":"wikipedia://en/18016","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[706,742],"revision":1342296085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60311639","to":"wikipedia://en/49024","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[747,782],"revision":1342296085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60311639","to":"wikipedia://en/60491","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[823,870],"revision":1342296085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60311639","to":"wikipedia://en/938708","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[874,919],"revision":1342296085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60311639","to":"wikipedia://en/29485855","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[946,970],"revision":1342296085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60311639","to":"wikipedia://en/277184","predicate":"related","method":"see-also","confidence":"low","span":[1343,1368],"revision":1342296085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60311639","to":"wikipedia://en/407860","predicate":"related","method":"see-also","confidence":"low","span":[1370,1401],"revision":1342296085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60311639","to":"wikipedia://en/5438926","predicate":"related","method":"see-also","confidence":"low","span":[1403,1441],"revision":1342296085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60311639","to":"wikipedia://en/475294","predicate":"related","method":"see-also","confidence":"low","span":[1443,1459],"revision":1342296085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60311639","to":"wikipedia://en/60311357","predicate":"related","method":"see-also","confidence":"low","span":[1461,1525],"revision":1342296085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60311639","to":"Template:Wiktionary","predicate":"in-nav","method":"nav","confidence":"low","span":[1574,1606],"revision":1342296085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60311639","to":"Category:Mathematical notation","predicate":"in-field","method":"category","confidence":"medium","span":[1812,1846],"revision":1342296085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/60311639","to":"Category:Programming constructs","predicate":"in-field","method":"category","confidence":"medium","span":[1847,1882],"revision":1342296085,"by":"importer/wikipedia/1"}

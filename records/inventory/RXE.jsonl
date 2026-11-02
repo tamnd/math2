@@ -1,2 +1,5 @@
-{"id":"RXEP800CVD","mentions":["m2://rec/wikidata/Q1192957#1"],"kind":"object","name":"Mills' constant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"RXEA3SP0C8","mentions":["wikipedia://en/1946702"],"kind":"definition","name":"Moyal product","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"RXEJ1B4VN9","mentions":["wikipedia://en/20547369#59RQ"],"kind":"definition","name":"Minimal surface","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"RXEP800CVD","mentions":["m2://rec/wikidata/Q1192957#1","wikipedia://en/1785049"],"kind":"object","name":"Mills' constant","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"RXERBGR8KR","mentions":["wikipedia://en/2142850#6C28"],"kind":"definition","name":"statistics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RXEZPAEVRR","mentions":["ax://paper/2408.03317#C49C"],"kind":"example","msc":["46-XX","47-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}

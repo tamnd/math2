@@ -1,1 +1,7 @@
 {"id":"6T4300MNVT","mentions":["ax://paper/2312.05005#AKU8"],"kind":"definition","name":"Coaugmented planar dg cooperad","msc":["55-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.0"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.0"}]}
+{"id":"6T45DM48JA","mentions":["wikipedia://en/2722105#MXLB"],"kind":"unknown","name":"CPL filter","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"6T46YJQZVR","mentions":["wikipedia://en/13677348"],"kind":"topic","name":"Brian Bowditch","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"6T48VCGCS7","mentions":["wikipedia://en/14403539#OZEH"],"kind":"topic","name":"Jan Trlifaj","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"6T4GSYPT34","mentions":["wikipedia://en/22395202#AA4U"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"6T4XSAVZ5R","mentions":["wikipedia://en/287137#1E1F"],"kind":"unknown","name":"Snub dodecahedral graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"6T4Y9ZEXJ5","mentions":["wikipedia://en/4258398#ETMZ"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

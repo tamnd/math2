@@ -1,0 +1,7 @@
+{"from":"wikipedia://en/35326250#7FCR","to":"wikipedia://en/1745067","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[29890,29908],"revision":1362286631,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42321043#IHL3","to":"wikipedia://en/297811","predicate":"uses","method":"named-link","confidence":"high","span":[1224,1247],"revision":1190604314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42321043#IHL3","to":"wikipedia://en/102476","predicate":"uses","method":"link-in-item","confidence":"high","span":[1566,1593],"revision":1190604314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45332012#62L0","to":"wikipedia://en/462499","predicate":"listed-in","method":"list","confidence":"certain","span":[9655,9674],"revision":1367088170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45332012#62L0","to":"wikipedia://en/15491","predicate":"uses","method":"link-in-item","confidence":"medium","span":[9737,9760],"revision":1367088170,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#JVJC","to":"wikipedia://en/4065365","predicate":"listed-in","method":"list","confidence":"certain","span":[34374,34395],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#JVJC","to":"wikipedia://en/5759","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[34399,34419],"revision":1373797939,"by":"importer/wikipedia/1"}

@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/4780336","to":"wikipedia://en/26685","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[106,120],"revision":1324957599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780336","to":"wikipedia://en/63185","predicate":"related","method":"link-in-lead","confidence":"low","span":[480,498],"revision":1324957599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780336","to":"wikipedia://en/40240263","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[505,524],"revision":1324957599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780336","to":"wikipedia://en/235451","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[525,551],"revision":1324957599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780336","to":"wikipedia://en/19196523","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[556,566],"revision":1324957599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780336","to":"wikipedia://en/47922","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[675,692],"revision":1324957599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780336","to":"wikipedia://en/6122","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[711,745],"revision":1324957599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780336","to":"wikipedia://en/790775","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[776,789],"revision":1324957599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780336","to":"wikipedia://en/23997203","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[835,878],"revision":1324957599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780336","to":"wikipedia://en/19196523","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[900,910],"revision":1324957599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780336","to":"wikipedia://en/21462","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[923,955],"revision":1324957599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780336","to":"wikipedia://en/149984","predicate":"related","method":"see-also","confidence":"low","span":[990,1008],"revision":1324957599,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4780336","to":"Category:Wiener process","predicate":"in-field","method":"category","confidence":"medium","span":[1040,1067],"revision":1324957599,"by":"importer/wikipedia/1"}

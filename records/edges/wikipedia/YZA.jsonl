@@ -1,0 +1,6 @@
+{"from":"wikipedia://en/19468696#I7K8","to":"wikipedia://en/19662","predicate":"uses","method":"link-in-proof","confidence":"high","span":[13683,13705],"revision":1368883841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19468696#I7K8","to":"wikipedia://en/320861","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[13749,13770],"revision":1368883841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46249104","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[432,447],"revision":1336708872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46249104","to":"wikipedia://en/43673994","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[644,663],"revision":1336708872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46249104","to":"wikipedia://en/34545553","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1035,1056],"revision":1336708872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/46249104","to":"Category:Norwegian books","predicate":"in-field","method":"category","confidence":"medium","span":[1274,1302],"revision":1336708872,"by":"importer/wikipedia/1"}

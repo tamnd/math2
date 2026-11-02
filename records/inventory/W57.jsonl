@@ -1,3 +1,10 @@
 {"id":"W577TVR8H1","mentions":["m2://rec/open_logic/content/incompleteness/theories-computability/consis-with-q.tex#cor-1#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"W57QXW8BN0","mentions":["m2://rec/mathlib_1000/Q1785872#1","m2://rec/thousand_plus/Q1785872#1"],"kind":"statement","name":"Berry–Esséen theorem","msc":["60-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"W579NYGETY","mentions":["wikipedia://en/7674499"],"kind":"topic","name":"Charles E. M. Pearce","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"W57CKT047N","mentions":["wikipedia://en/14511439"],"kind":"definition","name":"Divisia index","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"W57H8GW29P","mentions":["wikipedia://en/18568#SHM8"],"kind":"unknown","name":"Pratt parser","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"W57NX9J9GC","mentions":["wikipedia://en/3820870#8D48"],"kind":"unknown","name":"Erol Güney","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"W57QJPQ89S","mentions":["wikipedia://en/1403586#5515"],"kind":"unknown","name":"Mangalore Anantha Pai","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"W57QXW8BN0","mentions":["m2://rec/mathlib_1000/Q1785872#1","m2://rec/thousand_plus/Q1785872#1","wikipedia://en/508012"],"kind":"statement","name":"Berry–Esseen theorem","msc":["60-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"W57TD3YJM5","mentions":["m2://rec/open_logic/content/lambda-calculus/church-rosser/parallel-beta-reduction.tex#proof-1#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"W57TQM5HD2","mentions":["wikipedia://en/39563465#PZM9"],"kind":"unknown","name":"Eigen","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"W57ZET3T8F","mentions":["wikipedia://en/449606#5SRM"],"kind":"unknown","name":"441 (number)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

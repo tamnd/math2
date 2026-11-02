@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/22073#46KW","to":"wikipedia://en/61338","predicate":"uses","method":"link-in-item","confidence":"high","span":[5300,5312],"revision":1376051343,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22073#46KW","to":"wikipedia://en/4321","predicate":"uses","method":"link-in-item","confidence":"high","span":[5536,5551],"revision":1376051343,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22073#46KW","to":"wikipedia://en/18153","predicate":"uses","method":"link-in-item","confidence":"high","span":[5693,5714],"revision":1376051343,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41890595","to":"wikipedia://en/142432","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[94,113],"revision":1373944893,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41890595","to":"wikipedia://en/248808","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[126,167],"revision":1373944893,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41890595","to":"wikipedia://en/7111820","predicate":"related","method":"link-in-lead","confidence":"low","span":[188,205],"revision":1373944893,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41890595","to":"wikipedia://en/431041","predicate":"related","method":"link-in-lead","confidence":"low","span":[354,375],"revision":1373944893,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41890595","to":"wikipedia://en/364754","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[451,482],"revision":1373944893,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41890595","to":"wikipedia://en/856347","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[551,564],"revision":1373944893,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41890595","to":"Category:Algebraic geometry","predicate":"in-field","method":"category","confidence":"medium","span":[1667,1698],"revision":1373944893,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/708399#D5L8","to":"wikipedia://en/336574","predicate":"listed-in","method":"list","confidence":"certain","span":[69042,69063],"revision":1373214721,"by":"importer/wikipedia/1"}

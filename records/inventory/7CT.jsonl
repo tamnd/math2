@@ -1,1 +1,8 @@
+{"id":"7CT3W2D9CR","mentions":["wikipedia://en/19589#H5SZ"],"kind":"unknown","name":"Maximin (decision theory)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7CT4CYQGJK","mentions":["ax://paper/2610.08382#ROEX"],"kind":"statement","msc":["11-XX","14-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.10"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}],"proofs":["ax://paper/2610.08382#0XPE"]}
+{"id":"7CT9YNRFKF","mentions":["wikipedia://en/7795082#Z11G"],"kind":"definition","name":"Method","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7CTB5MYVEM","mentions":["wikipedia://en/17368856"],"kind":"definition","name":"Linear continuum","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7CTCTKKWT5","mentions":["wikipedia://en/38256214#GCMC"],"kind":"definition","name":"Cohen","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7CTGG6WVQQ","mentions":["wikipedia://en/7088#3I6Z"],"kind":"topic","name":"Gordon Welchman","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7CTKHR8CK0","mentions":["wikipedia://en/140829#ZB1K"],"kind":"unknown","name":"Panaretos, John","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7CTNPKD7GT","mentions":["wikipedia://en/954006"],"kind":"definition","name":"Classical XY model","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

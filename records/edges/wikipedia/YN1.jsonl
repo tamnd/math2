@@ -1,0 +1,8 @@
+{"from":"wikipedia://en/37687378","to":"wikipedia://en/425415","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[110,125],"revision":1315386140,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37687378","to":"wikipedia://en/539962","predicate":"related","method":"link-in-text","confidence":"low","span":[777,793],"revision":1315386140,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37687378","to":"wikipedia://en/49894","predicate":"related","method":"link-in-text","confidence":"low","span":[1589,1606],"revision":1315386140,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37687378","to":"wikipedia://en/23535306","predicate":"related","method":"link-in-text","confidence":"low","span":[1622,1670],"revision":1315386140,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37687378","to":"wikipedia://en/851","predicate":"related","method":"link-in-text","confidence":"low","span":[1684,1700],"revision":1315386140,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37687378","to":"Category:Risk analysis","predicate":"in-field","method":"category","confidence":"medium","span":[3222,3248],"revision":1315386140,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37687378","to":"Category:Welfare economics","predicate":"in-field","method":"category","confidence":"medium","span":[3249,3279],"revision":1315386140,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53456639#M2OG","to":"wikipedia://en/747122","predicate":"uses","method":"link-in-item","confidence":"high","span":[8593,8610],"revision":1316756826,"by":"importer/wikipedia/1"}

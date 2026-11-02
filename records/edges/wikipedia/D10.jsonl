@@ -1,0 +1,114 @@
+{"from":"wikipedia://en/152518","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[118,133],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/1601833","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[243,267],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/404001","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[279,322],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/303368","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[326,358],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/51203","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[384,400],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/373065","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[494,537],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/547426","predicate":"related","method":"link-in-lead","confidence":"low","span":[567,614],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/1842","predicate":"related","method":"link-in-lead","confidence":"low","span":[1093,1103],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/21573","predicate":"related","method":"link-in-lead","confidence":"low","span":[1110,1131],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/1309","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3094,3108],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/59217","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3290,3323],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/180787","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3325,3350],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/308152","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3356,3385],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/404001","predicate":"related","method":"link-in-text","confidence":"low","span":[3473,3497],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/59217","predicate":"related","method":"link-in-text","confidence":"low","span":[3535,3556],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/51320","predicate":"related","method":"link-in-text","confidence":"low","span":[3585,3614],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/180787","predicate":"related","method":"link-in-text","confidence":"low","span":[3630,3647],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/308152","predicate":"related","method":"link-in-text","confidence":"low","span":[3674,3693],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/20646438","predicate":"related","method":"link-in-text","confidence":"low","span":[3939,3963],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/51414","predicate":"related","method":"link-in-text","confidence":"low","span":[4080,4114],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/72719782","predicate":"related","method":"link-in-text","confidence":"low","span":[4186,4229],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/1601833","predicate":"related","method":"link-in-text","confidence":"low","span":[4550,4574],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/609125","predicate":"related","method":"link-in-text","confidence":"low","span":[4588,4627],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/61338","predicate":"related","method":"link-in-text","confidence":"low","span":[4699,4711],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/74141","predicate":"related","method":"link-in-text","confidence":"low","span":[4713,4728],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/20845","predicate":"related","method":"link-in-text","confidence":"low","span":[4730,4748],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/53696","predicate":"related","method":"link-in-text","confidence":"low","span":[4750,4785],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/235029","predicate":"related","method":"link-in-text","confidence":"low","span":[4791,4843],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/171992","predicate":"related","method":"link-in-text","confidence":"low","span":[5203,5229],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/303368","predicate":"related","method":"link-in-text","confidence":"low","span":[5572,5592],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/9815","predicate":"related","method":"link-in-text","confidence":"low","span":[6273,6293],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/61316","predicate":"related","method":"link-in-text","confidence":"low","span":[6326,6343],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/7878457","predicate":"related","method":"link-in-text","confidence":"low","span":[6474,6498],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/303368","predicate":"related","method":"link-in-text","confidence":"low","span":[17703,17761],"revision":1375002952,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/23000","predicate":"related","method":"link-in-text","confidence":"low","span":[17773,17809],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/188725","predicate":"related","method":"link-in-text","confidence":"low","span":[17912,17950],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/19727024","predicate":"related","method":"link-in-text","confidence":"low","span":[18095,18123],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/26426","predicate":"uses","method":"named-link","confidence":"high","span":[18171,18196],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/87793","predicate":"related","method":"link-in-text","confidence":"low","span":[18224,18249],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/44027","predicate":"related","method":"link-in-text","confidence":"low","span":[18408,18424],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/37563341","predicate":"related","method":"link-in-text","confidence":"low","span":[18441,18464],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/6125","predicate":"related","method":"link-in-text","confidence":"low","span":[19156,19180],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/736713","predicate":"related","method":"link-in-text","confidence":"low","span":[19234,19265],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/300215","predicate":"related","method":"link-in-text","confidence":"low","span":[19462,19472],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/547426","predicate":"related","method":"link-in-text","confidence":"low","span":[20147,20194],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/1842","predicate":"related","method":"link-in-text","confidence":"low","span":[20605,20630],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/180787#Z42P","predicate":"related","method":"link-in-text","confidence":"low","span":[22658,22712],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/2598825","predicate":"related","method":"link-in-text","confidence":"low","span":[24554,24573],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/395934","predicate":"related","method":"link-in-text","confidence":"low","span":[25020,25049],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/341810","predicate":"related","method":"link-in-text","confidence":"low","span":[26396,26416],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/2610953","predicate":"related","method":"link-in-text","confidence":"low","span":[26868,26886],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/32490","predicate":"related","method":"link-in-text","confidence":"low","span":[27554,27573],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/29954","predicate":"related","method":"link-in-text","confidence":"low","span":[27587,27611],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"wikipedia://en/51121181","predicate":"related","method":"link-in-text","confidence":"low","span":[28145,28174],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"Category:Galois theory","predicate":"in-field","method":"category","confidence":"medium","span":[28844,28870],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"Category:Niels Henrik Abel","predicate":"in-field","method":"category","confidence":"medium","span":[28871,28901],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"Category:Solvable groups","predicate":"in-field","method":"category","confidence":"medium","span":[28902,28930],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/152518","to":"Category:Theorems about polynomials","predicate":"kind-of","method":"category","confidence":"medium","span":[28931,28970],"revision":1375002952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19972962#2K2G","to":"wikipedia://en/20070078","predicate":"listed-in","method":"list","confidence":"certain","span":[5961,6012],"revision":1313705031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2147685#HDF3","to":"wikipedia://en/1019002","predicate":"uses","method":"link-in-item","confidence":"high","span":[10943,10960],"revision":1374741109,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2147685#HDF3","to":"wikipedia://en/351908","predicate":"uses","method":"link-in-item","confidence":"high","span":[11082,11099],"revision":1374741109,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2147685#HDF3","to":"wikipedia://en/57430168","predicate":"uses","method":"link-in-item","confidence":"high","span":[11248,11279],"revision":1374741109,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2163544","to":"wikipedia://en/5869","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3,22],"revision":1355097840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2163544","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[36,51],"revision":1355097840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2163544","to":"wikipedia://en/27716891","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[88,107],"revision":1355097840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2163544","to":"wikipedia://en/50264","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[122,134],"revision":1355097840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2163544","to":"wikipedia://en/27631","predicate":"related","method":"link-in-lead","confidence":"low","span":[190,201],"revision":1355097840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2163544","to":"wikipedia://en/39358","predicate":"related","method":"link-in-lead","confidence":"low","span":[213,225],"revision":1355097840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2163544","to":"wikipedia://en/29954","predicate":"related","method":"link-in-lead","confidence":"low","span":[229,241],"revision":1355097840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2163544","to":"wikipedia://en/12910","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[249,274],"revision":1355097840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2163544","to":"wikipedia://en/317552","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[323,338],"revision":1355097840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2163544","to":"wikipedia://en/29954","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[342,354],"revision":1355097840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2163544","to":"wikipedia://en/841689","predicate":"related","method":"link-in-text","confidence":"low","span":[2055,2074],"revision":1355097840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2163544","to":"Category:Category theory","predicate":"in-field","method":"category","confidence":"medium","span":[6116,6144],"revision":1355097840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32791724","to":"wikipedia://en/263886","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[73,108],"revision":1117726402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32791724","to":"wikipedia://en/7193","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[318,342],"revision":1117726402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32791724","to":"wikipedia://en/263886","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[343,369],"revision":1117726402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32791724","to":"wikipedia://en/23000","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[416,430],"revision":1117726402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32791724","to":"Category:Ordinary differential equations","predicate":"in-field","method":"category","confidence":"medium","span":[2225,2269],"revision":1117726402,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37039918#9XV0","to":"wikipedia://en/52327","predicate":"uses","method":"link-in-item","confidence":"high","span":[3456,3472],"revision":1336022484,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37039918#9XV0","to":"wikipedia://en/6174","predicate":"uses","method":"link-in-item","confidence":"high","span":[3581,3595],"revision":1336022484,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37039918#9XV0","to":"wikipedia://en/1780316","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3665,3674],"revision":1336022484,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37039918#9XV0","to":"wikipedia://en/39382","predicate":"uses","method":"link-in-item","confidence":"high","span":[3804,3820],"revision":1336022484,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37039918#9XV0","to":"wikipedia://en/320578","predicate":"uses","method":"named-link","confidence":"high","span":[3930,3960],"revision":1336022484,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37039918#9XV0","to":"wikipedia://en/262288","predicate":"uses","method":"link-in-item","confidence":"high","span":[4448,4472],"revision":1336022484,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37039918#9XV0","to":"wikipedia://en/1335","predicate":"uses","method":"link-in-item","confidence":"high","span":[4649,4664],"revision":1336022484,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37039918#9XV0","to":"wikipedia://en/54347","predicate":"uses","method":"link-in-item","confidence":"high","span":[4793,4811],"revision":1336022484,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37039918#9XV0","to":"wikipedia://en/3942","predicate":"uses","method":"link-in-item","confidence":"high","span":[4907,4920],"revision":1336022484,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37039918#9XV0","to":"wikipedia://en/188946","predicate":"uses","method":"link-in-item","confidence":"high","span":[5332,5350],"revision":1336022484,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37039918#9XV0","to":"wikipedia://en/24104095","predicate":"uses","method":"link-in-item","confidence":"high","span":[5603,5624],"revision":1336022484,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37039918#9XV0","to":"wikipedia://en/44218028","predicate":"uses","method":"named-link","confidence":"high","span":[6226,6259],"revision":1336022484,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62142347","to":"wikipedia://en/31922","predicate":"related","method":"link-in-text","confidence":"low","span":[324,362],"revision":1366954314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62142347","to":"wikipedia://en/31927","predicate":"related","method":"link-in-text","confidence":"low","span":[394,433],"revision":1366954314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62142347","to":"wikipedia://en/180763","predicate":"related","method":"link-in-text","confidence":"low","span":[524,552],"revision":1366954314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62142347","to":"wikipedia://en/26977","predicate":"related","method":"link-in-text","confidence":"low","span":[609,632],"revision":1366954314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62142347","to":"wikipedia://en/7954422","predicate":"related","method":"link-in-text","confidence":"low","span":[847,869],"revision":1366954314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62142347","to":"wikipedia://en/19816546","predicate":"related","method":"link-in-text","confidence":"low","span":[961,977],"revision":1366954314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62142347","to":"wikipedia://en/1617601","predicate":"related","method":"link-in-text","confidence":"low","span":[1076,1122],"revision":1366954314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62142347","to":"wikipedia://en/23536538","predicate":"related","method":"link-in-text","confidence":"low","span":[1177,1214],"revision":1366954314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62142347","to":"wikipedia://en/31924","predicate":"related","method":"link-in-text","confidence":"low","span":[1223,1258],"revision":1366954314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62142347","to":"wikipedia://en/416813","predicate":"related","method":"link-in-text","confidence":"low","span":[1294,1321],"revision":1366954314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62142347","to":"wikipedia://en/184179","predicate":"related","method":"link-in-text","confidence":"low","span":[1352,1384],"revision":1366954314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62142347","to":"wikipedia://en/37809826","predicate":"related","method":"link-in-text","confidence":"low","span":[1610,1642],"revision":1366954314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62142347","to":"wikipedia://en/50578","predicate":"related","method":"link-in-text","confidence":"low","span":[1644,1667],"revision":1366954314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62142347","to":"wikipedia://en/377202","predicate":"related","method":"link-in-text","confidence":"low","span":[1673,1696],"revision":1366954314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62142347","to":"wikipedia://en/627842","predicate":"related","method":"link-in-text","confidence":"low","span":[1848,1892],"revision":1366954314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62142347","to":"wikipedia://en/198822","predicate":"related","method":"link-in-text","confidence":"low","span":[2212,2245],"revision":1366954314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62142347","to":"wikipedia://en/46510","predicate":"related","method":"link-in-text","confidence":"low","span":[2575,2607],"revision":1366954314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62142347","to":"wikipedia://en/8096647","predicate":"related","method":"link-in-text","confidence":"low","span":[2644,2684],"revision":1366954314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62142347","to":"Category:American probability theorists","predicate":"in-field","method":"category","confidence":"medium","span":[6777,6820],"revision":1366954314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62142347","to":"Category:American mathematical statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[7162,7210],"revision":1366954314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62142347","to":"Category:20th-century American statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[7211,7259],"revision":1366954314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62142347","to":"Category:21st-century American statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[7260,7308],"revision":1366954314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/820253#Q4T4","to":"wikipedia://en/52247","predicate":"uses","method":"link-in-item","confidence":"high","span":[19636,19657],"revision":1375883124,"by":"importer/wikipedia/1"}

@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/14403539#I9TS","to":"wikipedia://en/362718","predicate":"listed-in","method":"list","confidence":"certain","span":[56697,56719],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20326689","to":"wikipedia://en/20018","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[193,236],"revision":1361690535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20326689","to":"wikipedia://en/1482083","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[242,267],"revision":1361690535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20326689","to":"wikipedia://en/45194","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[433,484],"revision":1361690535,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20326689","to":"wikipedia://en/53932","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[521,543],"revision":1361690535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20326689","to":"wikipedia://en/408354","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[571,593],"revision":1361690535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20326689","to":"wikipedia://en/193537","predicate":"related","method":"link-in-lead","confidence":"low","span":[650,671],"revision":1361690535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20326689","to":"Category:Distance","predicate":"in-field","method":"category","confidence":"medium","span":[5875,5896],"revision":1361690535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20326689","to":"Category:Hermann Minkowski","predicate":"in-field","method":"category","confidence":"medium","span":[5897,5927],"revision":1361690535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20326689","to":"Category:Metric geometry","predicate":"in-field","method":"category","confidence":"medium","span":[5928,5956],"revision":1361690535,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20326689","to":"Category:Normed spaces","predicate":"in-field","method":"category","confidence":"medium","span":[5957,5983],"revision":1361690535,"by":"importer/wikipedia/1"}

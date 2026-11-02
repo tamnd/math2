@@ -1,3 +1,7 @@
 {"id":"6HS7PQZ39H","mentions":["m2://rec/napkin/tex/alg-NT/classgrp.tex#corollary-1#1"],"kind":"statement","name":"Finiteness of class group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"6HSBW6T28Z","mentions":["m2://rec/wikidata/Q2133887#1"],"kind":"unknown","name":"subquotient","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"6HSQ069D76","mentions":["m2://rec/wikidata/Q2522978#1"],"kind":"object","name":"metabiaugmented dodecahedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"6HS7VMDEET","mentions":["wikipedia://en/33863253"],"kind":"topic","name":"John W. Pratt","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"6HSBW6T28Z","mentions":["m2://rec/wikidata/Q2133887#1","wikipedia://en/1639294"],"kind":"definition","name":"subquotient","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}],"proofs":["wikipedia://en/1639294#ESOP"]}
+{"id":"6HSD1K2RZK","mentions":["wikipedia://en/35763181#78JB"],"kind":"definition","name":"Hermitian form","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"6HSQ069D76","mentions":["m2://rec/wikidata/Q2522978#1","wikipedia://en/1177994"],"kind":"definition","name":"metabiaugmented dodecahedron","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"6HSTE9B1JN","mentions":["wikipedia://en/34057414#7W0V"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"6HSXH12RQ4","mentions":["wikipedia://en/621447#0QWP"],"kind":"unknown","name":"Dots per inch","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

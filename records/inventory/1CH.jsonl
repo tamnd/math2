@@ -1,1 +1,3 @@
-{"id":"1CHWANJN9Y","mentions":["m2://rec/mathlib_1000/Q3984056#1","m2://rec/thousand_plus/Q3984056#1"],"kind":"statement","name":"No-communication theorem","msc":["81-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"1CHQF2R91W","mentions":["wikipedia://en/62399557"],"kind":"topic","name":"Yvan Martel","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1CHWANJN9Y","mentions":["m2://rec/mathlib_1000/Q3984056#1","m2://rec/thousand_plus/Q3984056#1","wikipedia://en/1488320"],"kind":"statement","name":"No-communication theorem","msc":["81-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"1CHY0YPK3D","mentions":["wikipedia://en/14562492"],"kind":"definition","name":"Reptation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

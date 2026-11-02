@@ -1,0 +1,6 @@
+{"from":"wikipedia://en/41107722","to":"wikipedia://en/12884","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[84,131],"revision":1198697508,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41107722","to":"Category:GCHQ operations","predicate":"in-field","method":"category","confidence":"medium","span":[1072,1100],"revision":1198697508,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41107722","to":"Category:Secret government programs","predicate":"in-field","method":"category","confidence":"medium","span":[1101,1140],"revision":1198697508,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41107722","to":"Category:Surveillance","predicate":"in-field","method":"category","confidence":"medium","span":[1141,1166],"revision":1198697508,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565351#LWVJ","to":"wikipedia://en/25469368","predicate":"listed-in","method":"list","confidence":"certain","span":[23167,23183],"revision":1373350261,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/849738#9AB3","to":"wikipedia://en/489440","predicate":"uses","method":"link-in-item","confidence":"high","span":[15303,15332],"revision":1365436877,"by":"importer/wikipedia/1"}

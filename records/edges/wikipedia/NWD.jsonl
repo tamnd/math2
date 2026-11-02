@@ -1,0 +1,10 @@
+{"from":"wikipedia://en/2070635","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[85,100],"revision":1360138964,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2070635","to":"wikipedia://en/11149717","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[182,207],"revision":1360138964,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2070635","to":"wikipedia://en/19953217","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[232,266],"revision":1360138964,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2070635","to":"wikipedia://en/11149717","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1164,1187],"revision":1360138964,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2070635","to":"wikipedia://en/19953217","predicate":"related","method":"see-also","confidence":"low","span":[1205,1239],"revision":1360138964,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2070635","to":"wikipedia://en/449745","predicate":"related","method":"see-also","confidence":"low","span":[1242,1282],"revision":1360138964,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2070635","to":"wikipedia://en/2324377","predicate":"related","method":"see-also","confidence":"low","span":[1285,1313],"revision":1360138964,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2070635","to":"Category:Q-analogs","predicate":"in-field","method":"category","confidence":"medium","span":[1343,1365],"revision":1360138964,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2070635","to":"Category:Theta functions","predicate":"in-field","method":"category","confidence":"medium","span":[1366,1394],"revision":1360138964,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2070635","to":"Category:Functions with natural boundaries","predicate":"in-field","method":"category","confidence":"medium","span":[1395,1441],"revision":1360138964,"by":"importer/wikipedia/1"}

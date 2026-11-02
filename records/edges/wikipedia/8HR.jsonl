@@ -1,0 +1,19 @@
+{"from":"wikipedia://en/25271","to":"Template:Ring theory sidebar","predicate":"in-nav","method":"nav","confidence":"low","span":[101,124],"revision":1372290847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25271","to":"wikipedia://en/19616384","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[129,149],"revision":1372290847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25271","to":"wikipedia://en/15462","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[186,205],"revision":1372290847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25271","to":"wikipedia://en/10603","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[222,251],"revision":1372290847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25271","to":"wikipedia://en/52119","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[271,293],"revision":1372290847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25271","to":"wikipedia://en/14563","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[400,412],"revision":1372290847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25271","to":"wikipedia://en/19727024","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[430,450],"revision":1372290847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25271","to":"wikipedia://en/184635","predicate":"related","method":"link-in-lead","confidence":"low","span":[890,938],"revision":1372290847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25271","to":"wikipedia://en/61346","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[982,1002],"revision":1372290847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25271","to":"wikipedia://en/252216","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1076,1127],"revision":1372290847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25271","to":"wikipedia://en/3100560","predicate":"related","method":"see-also","confidence":"low","span":[8930,8947],"revision":1372290847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25271","to":"wikipedia://en/4276418","predicate":"related","method":"see-also","confidence":"low","span":[9023,9050],"revision":1372290847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25271","to":"Category:Field theory","predicate":"in-field","method":"category","confidence":"medium","span":[9082,9107],"revision":1372290847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25271","to":"Category:Commutative algebra","predicate":"in-field","method":"category","confidence":"medium","span":[9108,9140],"revision":1372290847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3144280#C8B9","to":"wikipedia://en/14110","predicate":"uses","method":"link-in-item","confidence":"high","span":[1226,1245],"revision":1263357584,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3144280#C8B9","to":"wikipedia://en/30876799","predicate":"uses","method":"link-in-item","confidence":"high","span":[1290,1317],"revision":1263357584,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3144280#C8B9","to":"wikipedia://en/314493","predicate":"uses","method":"link-in-item","confidence":"high","span":[1394,1420],"revision":1263357584,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3144280#C8B9","to":"wikipedia://en/1585922","predicate":"uses","method":"link-in-item","confidence":"high","span":[1526,1563],"revision":1263357584,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3144280#C8B9","to":"wikipedia://en/41887","predicate":"related","method":"link-in-item","confidence":"low","span":[1665,1680],"revision":1263357584,"by":"importer/wikipedia/1"}

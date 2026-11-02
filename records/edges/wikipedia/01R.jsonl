@@ -1,0 +1,41 @@
+{"from":"wikipedia://en/12667490","to":"wikipedia://en/1214","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[224,236],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"wikipedia://en/30872062","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[252,276],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"wikipedia://en/3263399","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[287,315],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"wikipedia://en/383648","predicate":"related","method":"link-in-text","confidence":"low","span":[406,422],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"wikipedia://en/14695287","predicate":"related","method":"link-in-text","confidence":"low","span":[518,537],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"wikipedia://en/11246327","predicate":"related","method":"link-in-text","confidence":"low","span":[613,630],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"wikipedia://en/11554019","predicate":"related","method":"link-in-text","confidence":"low","span":[636,671],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"wikipedia://en/1363139","predicate":"related","method":"link-in-text","confidence":"low","span":[690,727],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"wikipedia://en/128362","predicate":"related","method":"link-in-text","confidence":"low","span":[765,790],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"wikipedia://en/156992","predicate":"related","method":"link-in-text","confidence":"low","span":[812,835],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"wikipedia://en/18934432","predicate":"related","method":"link-in-text","confidence":"low","span":[875,891],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"wikipedia://en/74636643","predicate":"related","method":"link-in-text","confidence":"low","span":[897,917],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"wikipedia://en/46389","predicate":"related","method":"link-in-text","confidence":"low","span":[1049,1089],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"wikipedia://en/15925","predicate":"related","method":"link-in-text","confidence":"low","span":[1197,1220],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"wikipedia://en/3036825","predicate":"related","method":"link-in-text","confidence":"low","span":[1293,1315],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"wikipedia://en/69769","predicate":"related","method":"link-in-text","confidence":"low","span":[1317,1333],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"wikipedia://en/313800","predicate":"related","method":"link-in-text","confidence":"low","span":[1445,1466],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"wikipedia://en/6944437","predicate":"related","method":"link-in-text","confidence":"low","span":[1468,1491],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"wikipedia://en/28320355","predicate":"related","method":"link-in-text","confidence":"low","span":[1649,1710],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"wikipedia://en/13062065","predicate":"related","method":"link-in-text","confidence":"low","span":[1719,1738],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"wikipedia://en/14181080","predicate":"related","method":"link-in-text","confidence":"low","span":[1931,1973],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"wikipedia://en/56259","predicate":"related","method":"link-in-text","confidence":"low","span":[1977,2002],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"wikipedia://en/153291","predicate":"related","method":"link-in-text","confidence":"low","span":[2143,2167],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"wikipedia://en/43245","predicate":"related","method":"link-in-text","confidence":"low","span":[2273,2294],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"Template:S-start","predicate":"in-nav","method":"nav","confidence":"low","span":[2402,2413],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"Template:Succession box","predicate":"in-nav","method":"nav","confidence":"low","span":[2427,2622],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"Template:Succession box","predicate":"in-nav","method":"nav","confidence":"low","span":[2623,2789],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"Template:Succession box","predicate":"in-nav","method":"nav","confidence":"low","span":[2790,2999],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"Template:S-end","predicate":"in-nav","method":"nav","confidence":"low","span":[3000,3009],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"Category:Burials at Westminster Abbey","predicate":"in-field","method":"category","confidence":"medium","span":[3236,3277],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"Category:18th-century cryptographers","predicate":"in-field","method":"category","confidence":"medium","span":[3278,3318],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"Category:British cryptographers","predicate":"in-field","method":"category","confidence":"medium","span":[3319,3354],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"Category:Bishops of St Davids","predicate":"in-field","method":"category","confidence":"medium","span":[3355,3388],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"Category:Bishops of Bath and Wells","predicate":"in-field","method":"category","confidence":"medium","span":[3389,3427],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"Category:Deans of Lincoln","predicate":"in-field","method":"category","confidence":"medium","span":[3428,3457],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"Category:18th-century Church of England bishops","predicate":"in-field","method":"category","confidence":"medium","span":[3458,3509],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"Category:Canons of Westminster","predicate":"in-field","method":"category","confidence":"medium","span":[3510,3544],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"Category:Clergy from Warwickshire","predicate":"in-field","method":"category","confidence":"medium","span":[3545,3582],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12667490","to":"Category:18th-century Welsh Anglican bishops","predicate":"in-field","method":"category","confidence":"medium","span":[3583,3631],"revision":1216655084,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27961040#0VEN","to":"wikipedia://en/19956329","predicate":"listed-in","method":"list","confidence":"certain","span":[3387,3428],"revision":1360772304,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39482883#YVLG","to":"wikipedia://en/37007490","predicate":"listed-in","method":"list","confidence":"certain","span":[164,191],"revision":1270943474,"by":"importer/wikipedia/1"}

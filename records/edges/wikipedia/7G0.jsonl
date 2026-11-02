@@ -1,0 +1,51 @@
+{"from":"wikipedia://en/1100194#EHIH","to":"wikipedia://en/2708102","predicate":"listed-in","method":"list","confidence":"certain","span":[826,848],"revision":1318717046,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2068275","to":"wikipedia://en/101595","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[288,304],"revision":1360780677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2068275","to":"wikipedia://en/1825228","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[318,347],"revision":1360780677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2068275","to":"wikipedia://en/23385892","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[360,392],"revision":1360780677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2068275","to":"wikipedia://en/1825228","predicate":"related","method":"link-in-text","confidence":"low","span":[3733,3764],"revision":1360780677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2068275","to":"wikipedia://en/1825228","predicate":"related","method":"see-also","confidence":"low","span":[3920,3951],"revision":1360780677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2068275","to":"wikipedia://en/900804","predicate":"related","method":"see-also","confidence":"low","span":[3953,3963],"revision":1360780677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2068275","to":"wikipedia://en/1365807","predicate":"related","method":"see-also","confidence":"low","span":[3965,3975],"revision":1360780677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2068275","to":"Category:Logic puzzles","predicate":"in-field","method":"category","confidence":"medium","span":[4335,4361],"revision":1360780677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2068275","to":"Category:NP-complete problems","predicate":"in-field","method":"category","confidence":"medium","span":[4362,4395],"revision":1360780677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2068275","to":"Category:Japanese board games","predicate":"in-field","method":"category","confidence":"medium","span":[4396,4429],"revision":1360780677,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1167,1184],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"wikipedia://en/5786","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1192,1230],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"wikipedia://en/48396","predicate":"related","method":"link-in-text","confidence":"low","span":[1483,1505],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"wikipedia://en/14147","predicate":"related","method":"link-in-text","confidence":"low","span":[1507,1528],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"wikipedia://en/258986","predicate":"related","method":"link-in-text","confidence":"low","span":[1530,1548],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"wikipedia://en/16379713","predicate":"related","method":"link-in-text","confidence":"low","span":[1550,1574],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"wikipedia://en/5170","predicate":"related","method":"link-in-text","confidence":"low","span":[1576,1593],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"wikipedia://en/155414","predicate":"related","method":"link-in-text","confidence":"low","span":[1595,1619],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"wikipedia://en/19858","predicate":"related","method":"link-in-text","confidence":"low","span":[1624,1640],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"wikipedia://en/21031297","predicate":"related","method":"link-in-text","confidence":"low","span":[1662,1671],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"wikipedia://en/2291002","predicate":"related","method":"link-in-text","confidence":"low","span":[1711,1737],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"wikipedia://en/1236542","predicate":"related","method":"link-in-text","confidence":"low","span":[1768,1797],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"wikipedia://en/26547932","predicate":"related","method":"link-in-text","confidence":"low","span":[1798,1825],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"wikipedia://en/6026","predicate":"related","method":"link-in-text","confidence":"low","span":[1830,1843],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"wikipedia://en/634233","predicate":"related","method":"link-in-text","confidence":"low","span":[1844,1878],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"wikipedia://en/383540","predicate":"related","method":"link-in-text","confidence":"low","span":[2077,2105],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"wikipedia://en/69216431","predicate":"related","method":"link-in-text","confidence":"low","span":[2936,2954],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"wikipedia://en/3770438","predicate":"related","method":"link-in-text","confidence":"low","span":[3470,3484],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"wikipedia://en/31844219","predicate":"related","method":"link-in-text","confidence":"low","span":[3497,3527],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"wikipedia://en/2123692","predicate":"related","method":"link-in-text","confidence":"low","span":[3629,3660],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"wikipedia://en/198822","predicate":"related","method":"link-in-text","confidence":"low","span":[3943,3976],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"Category:American logicians","predicate":"in-field","method":"category","confidence":"medium","span":[6493,6524],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"Category:Greek logicians","predicate":"in-field","method":"category","confidence":"medium","span":[6525,6553],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"Category:20th-century Greek mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[6554,6600],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"Category:21st-century Greek mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[6601,6647],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"Category:Set theorists","predicate":"in-field","method":"category","confidence":"medium","span":[6756,6782],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2291355","to":"Category:Philosophers from California","predicate":"in-field","method":"category","confidence":"medium","span":[6841,6882],"revision":1356791799,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38893675","to":"Template:Uniform hyperbolic tiles db","predicate":"in-nav","method":"nav","confidence":"low","span":[0,75],"revision":1321480876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38893675","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[79,91],"revision":1321480876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38893675","to":"wikipedia://en/489394","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[186,206],"revision":1321480876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38893675","to":"wikipedia://en/2950777","predicate":"related","method":"link-in-text","confidence":"low","span":[508,532],"revision":1321480876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38893675","to":"wikipedia://en/18640974","predicate":"related","method":"link-in-text","confidence":"low","span":[563,618],"revision":1321480876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38893675","to":"Template:Commonscat","predicate":"in-nav","method":"nav","confidence":"low","span":[918,955],"revision":1321480876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38893675","to":"wikipedia://en/1548669","predicate":"related","method":"see-also","confidence":"low","span":[958,989],"revision":1321480876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38893675","to":"wikipedia://en/2888949","predicate":"related","method":"see-also","confidence":"low","span":[992,1026],"revision":1321480876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38893675","to":"Template:Tessellation","predicate":"in-nav","method":"nav","confidence":"low","span":[2065,2081],"revision":1321480876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38893675","to":"Category:Hyperbolic tilings","predicate":"in-field","method":"category","confidence":"medium","span":[2083,2114],"revision":1321480876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38893675","to":"Category:Isogonal tilings","predicate":"in-field","method":"category","confidence":"medium","span":[2115,2144],"revision":1321480876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38893675","to":"Category:Semiregular tilings","predicate":"in-field","method":"category","confidence":"medium","span":[2145,2177],"revision":1321480876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8269328#70C3","to":"wikipedia://en/2324711","predicate":"listed-in","method":"list","confidence":"certain","span":[1124,1157],"revision":1364558742,"by":"importer/wikipedia/1"}

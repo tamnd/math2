@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/61836469","to":"wikipedia://en/15787507","predicate":"related","method":"link-in-text","confidence":"low","span":[446,459],"revision":1344614606,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61836469","to":"wikipedia://en/1495641","predicate":"related","method":"link-in-text","confidence":"low","span":[828,849],"revision":1344614606,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61836469","to":"wikipedia://en/1627","predicate":"related","method":"link-in-text","confidence":"low","span":[853,865],"revision":1344614606,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61836469","to":"wikipedia://en/6416945","predicate":"related","method":"link-in-text","confidence":"low","span":[1006,1021],"revision":1344614606,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61836469","to":"wikipedia://en/1445301","predicate":"related","method":"link-in-text","confidence":"low","span":[1253,1305],"revision":1344614606,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61836469","to":"wikipedia://en/6237","predicate":"related","method":"link-in-text","confidence":"low","span":[1387,1400],"revision":1344614606,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61836469","to":"wikipedia://en/8050711","predicate":"related","method":"link-in-text","confidence":"low","span":[2185,2208],"revision":1344614606,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61836469","to":"wikipedia://en/7318966","predicate":"related","method":"link-in-text","confidence":"low","span":[2940,2960],"revision":1344614606,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61836469","to":"wikipedia://en/1495641","predicate":"related","method":"link-in-text","confidence":"low","span":[3024,3045],"revision":1344614606,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61836469","to":"wikipedia://en/53502696","predicate":"related","method":"link-in-text","confidence":"low","span":[3061,3099],"revision":1344614606,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61836469","to":"Category:Academics of the University of Aberdeen","predicate":"in-field","method":"category","confidence":"medium","span":[3319,3371],"revision":1344614606,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61836469","to":"Category:Scottish mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3469,3505],"revision":1344614606,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7835738#DPTG","to":"wikipedia://en/37447","predicate":"restates","method":"hatnote","confidence":"high","span":[1722,1734],"revision":1369348184,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7835738#DPTG","to":"wikipedia://en/37447","predicate":"uses","method":"link-in-item","confidence":"high","span":[1739,1755],"revision":1369348184,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7835738#DPTG","to":"wikipedia://en/1365807","predicate":"uses","method":"link-in-item","confidence":"high","span":[2258,2268],"revision":1369348184,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7835738#DPTG","to":"wikipedia://en/2912292","predicate":"restates","method":"hatnote","confidence":"high","span":[3560,3581],"revision":1369348184,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7835738#DPTG","to":"wikipedia://en/20647689","predicate":"uses","method":"link-in-item","confidence":"high","span":[5101,5133],"revision":1369348184,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7835738#DPTG","to":"wikipedia://en/292231","predicate":"related","method":"hatnote","confidence":"medium","span":[5163,5188],"revision":1369348184,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7835738#DPTG","to":"wikipedia://en/26811956","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5280,5297],"revision":1369348184,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7835738#DPTG","to":"wikipedia://en/63763","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5353,5368],"revision":1369348184,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7835738#DPTG","to":"wikipedia://en/2658308","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5535,5548],"revision":1369348184,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7835738#DPTG","to":"wikipedia://en/48556","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6154,6195],"revision":1369348184,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7835738#DPTG","to":"wikipedia://en/53659697","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6201,6219],"revision":1369348184,"by":"importer/wikipedia/1"}

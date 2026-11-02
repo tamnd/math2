@@ -1,0 +1,32 @@
+{"from":"wikipedia://en/26946267","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1756,1773],"revision":1371998064,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26946267","to":"wikipedia://en/46426065","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1778,1790],"revision":1371998064,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26946267","to":"wikipedia://en/13692155","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1813,1827],"revision":1371998064,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26946267","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1832,1847],"revision":1371998064,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26946267","to":"wikipedia://en/48093","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1851,1881],"revision":1371998064,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26946267","to":"wikipedia://en/18831","predicate":"related","method":"link-in-text","confidence":"low","span":[1913,1928],"revision":1371998064,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26946267","to":"wikipedia://en/13692155","predicate":"related","method":"link-in-text","confidence":"low","span":[1933,1947],"revision":1371998064,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26946267","to":"wikipedia://en/499094","predicate":"related","method":"link-in-text","confidence":"low","span":[1955,1980],"revision":1371998064,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26946267","to":"wikipedia://en/32127","predicate":"related","method":"link-in-text","confidence":"low","span":[1989,2014],"revision":1371998064,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26946267","to":"wikipedia://en/336574","predicate":"related","method":"link-in-text","confidence":"low","span":[2055,2076],"revision":1371998064,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26946267","to":"wikipedia://en/5869","predicate":"related","method":"link-in-text","confidence":"low","span":[2129,2148],"revision":1371998064,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26946267","to":"wikipedia://en/46426065","predicate":"related","method":"link-in-text","confidence":"low","span":[2153,2162],"revision":1371998064,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26946267","to":"wikipedia://en/46439","predicate":"related","method":"link-in-text","confidence":"low","span":[2192,2221],"revision":1371998064,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26946267","to":"wikipedia://en/33974223","predicate":"related","method":"link-in-text","confidence":"low","span":[2268,2292],"revision":1371998064,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26946267","to":"wikipedia://en/184179","predicate":"related","method":"link-in-text","confidence":"low","span":[2443,2475],"revision":1371998064,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26946267","to":"wikipedia://en/4350320","predicate":"related","method":"link-in-text","confidence":"low","span":[2830,2845],"revision":1371998064,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26946267","to":"Category:American logicians","predicate":"in-field","method":"category","confidence":"medium","span":[4963,4994],"revision":1371998064,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26946267","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4995,5044],"revision":1371998064,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26946267","to":"Category:21st-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[5045,5094],"revision":1371998064,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26946267","to":"Category:American philosophers of mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[5095,5144],"revision":1371998064,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26946267","to":"Category:Institute for Advanced Study visiting scholars","predicate":"in-field","method":"category","confidence":"medium","span":[5253,5312],"revision":1371998064,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3039388#T7LI","to":"wikipedia://en/12545981","predicate":"listed-in","method":"list","confidence":"certain","span":[2486,2520],"revision":1376191946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/708399#4TQ6","to":"wikipedia://en/13043","predicate":"listed-in","method":"list","confidence":"certain","span":[72813,72831],"revision":1373214721,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71062619#LFTD","to":"wikipedia://en/16848","predicate":"uses","method":"link-in-item","confidence":"high","span":[4946,4958],"revision":1371090795,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71062619#LFTD","to":"wikipedia://en/16848","predicate":"uses","method":"link-in-item","confidence":"high","span":[5209,5221],"revision":1371090795,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71062619#LFTD","to":"wikipedia://en/16848","predicate":"uses","method":"link-in-item","confidence":"high","span":[6037,6049],"revision":1371090795,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71062619#LFTD","to":"wikipedia://en/45906","predicate":"uses","method":"link-in-item","confidence":"high","span":[6066,6094],"revision":1371090795,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71062619#LFTD","to":"wikipedia://en/28212","predicate":"uses","method":"link-in-item","confidence":"high","span":[6180,6192],"revision":1371090795,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71062619#LFTD","to":"wikipedia://en/28212","predicate":"uses","method":"link-in-item","confidence":"high","span":[6443,6455],"revision":1371090795,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71062619#LFTD","to":"wikipedia://en/16848","predicate":"uses","method":"link-in-item","confidence":"high","span":[6790,6802],"revision":1371090795,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71062619#LFTD","to":"wikipedia://en/45906","predicate":"uses","method":"link-in-item","confidence":"high","span":[6819,6847],"revision":1371090795,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76765067#1ITC","to":"wikipedia://en/46426065","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[103609,103625],"revision":1368301704,"by":"importer/wikipedia/1"}

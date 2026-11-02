@@ -1,0 +1,27 @@
+{"from":"wikipedia://en/209074","to":"wikipedia://en/10939","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1050,1069],"revision":1374563286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209074","to":"wikipedia://en/1258607","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1121,1140],"revision":1374563286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209074","to":"wikipedia://en/1258607","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1159,1206],"revision":1374563286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209074","to":"wikipedia://en/3486002","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1257,1310],"revision":1374563286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209074","to":"wikipedia://en/5235558","predicate":"related","method":"link-in-lead","confidence":"low","span":[2188,2208],"revision":1374563286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209074","to":"wikipedia://en/5235558","predicate":"related","method":"link-in-text","confidence":"low","span":[2698,2718],"revision":1374563286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209074","to":"wikipedia://en/413746","predicate":"related","method":"link-in-text","confidence":"low","span":[2761,2775],"revision":1374563286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209074","to":"wikipedia://en/209532","predicate":"related","method":"link-in-text","confidence":"low","span":[3312,3329],"revision":1374563286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209074","to":"wikipedia://en/1047629","predicate":"related","method":"link-in-text","confidence":"low","span":[3547,3572],"revision":1374563286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209074","to":"wikipedia://en/242057","predicate":"related","method":"link-in-text","confidence":"low","span":[3586,3611],"revision":1374563286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209074","to":"wikipedia://en/4505722","predicate":"related","method":"link-in-text","confidence":"low","span":[3625,3647],"revision":1374563286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209074","to":"wikipedia://en/29386232","predicate":"related","method":"link-in-text","confidence":"low","span":[4460,4502],"revision":1374563286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209074","to":"wikipedia://en/27137205","predicate":"related","method":"link-in-text","confidence":"low","span":[4579,4613],"revision":1374563286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209074","to":"wikipedia://en/22327994","predicate":"related","method":"link-in-text","confidence":"low","span":[4626,4661],"revision":1374563286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209074","to":"wikipedia://en/638429","predicate":"related","method":"link-in-text","confidence":"low","span":[12336,12351],"revision":1374563286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209074","to":"wikipedia://en/161886","predicate":"related","method":"see-also","confidence":"low","span":[12503,12522],"revision":1374563286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209074","to":"wikipedia://en/6023946","predicate":"related","method":"see-also","confidence":"low","span":[12525,12537],"revision":1374563286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209074","to":"Template:Official website","predicate":"in-nav","method":"nav","confidence":"low","span":[12593,12638],"revision":1374563286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209074","to":"Category:Large-scale mathematical formalization projects","predicate":"in-field","method":"category","confidence":"medium","span":[12663,12723],"revision":1374563286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209074","to":"Category:Proof assistants","predicate":"in-field","method":"category","confidence":"medium","span":[12724,12753],"revision":1374563286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209074","to":"Category:Dependently typed languages","predicate":"in-field","method":"category","confidence":"medium","span":[12754,12794],"revision":1374563286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209074","to":"Category:Educational mathematical software","predicate":"in-field","method":"category","confidence":"medium","span":[12795,12841],"revision":1374563286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209074","to":"Category:Software programmed in Pascal","predicate":"in-field","method":"category","confidence":"medium","span":[12842,12884],"revision":1374563286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209074","to":"Category:Programming languages created in 1973","predicate":"in-field","method":"category","confidence":"medium","span":[12885,12935],"revision":1374563286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38040638#G0IW","to":"wikipedia://en/28053427","predicate":"listed-in","method":"list","confidence":"certain","span":[1158,1175],"revision":1361146926,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/672731#V9Y1","to":"wikipedia://en/19680272","predicate":"uses","method":"named-link","confidence":"high","span":[9637,9660],"revision":1372412224,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/672731#V9Y1","to":"wikipedia://en/5978615","predicate":"uses","method":"link-in-item","confidence":"medium","span":[9925,10015],"revision":1372412224,"by":"importer/wikipedia/1"}

@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/14272194","to":"wikipedia://en/458866","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,22],"revision":1322017339,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14272194","to":"wikipedia://en/630099","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[66,92],"revision":1322017339,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14272194","to":"wikipedia://en/523879","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[168,188],"revision":1322017339,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14272194","to":"wikipedia://en/3039253","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[216,249],"revision":1322017339,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14272194","to":"wikipedia://en/5878555","predicate":"related","method":"link-in-lead","confidence":"low","span":[525,572],"revision":1322017339,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14272194","to":"wikipedia://en/523879","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[583,603],"revision":1322017339,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14272194","to":"wikipedia://en/39382","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[894,906],"revision":1322017339,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14272194","to":"wikipedia://en/4722074","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1054,1078],"revision":1322017339,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14272194","to":"wikipedia://en/12955","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1569,1593],"revision":1322017339,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14272194","to":"wikipedia://en/991111","predicate":"related","method":"link-in-lead","confidence":"low","span":[1779,1809],"revision":1322017339,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14272194","to":"Category:Elasticity (physics)","predicate":"in-field","method":"category","confidence":"medium","span":[2073,2106],"revision":1322017339,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14272194","to":"Category:Calculus of variations","predicate":"in-field","method":"category","confidence":"medium","span":[2107,2142],"revision":1322017339,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14272194","to":"Category:Inequalities (mathematics)","predicate":"kind-of","method":"category","confidence":"medium","span":[2143,2182],"revision":1322017339,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14272194","to":"Category:Physics theorems","predicate":"in-field","method":"category","confidence":"medium","span":[2183,2212],"revision":1322017339,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#NUM5","to":"wikipedia://en/71495996","predicate":"listed-in","method":"list","confidence":"certain","span":[59766,59794],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9202993#2JQ1","to":"wikipedia://en/102360","predicate":"listed-in","method":"list","confidence":"certain","span":[1675,1689],"revision":1374822410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9202993#2JQ1","to":"wikipedia://en/64971","predicate":"uses","method":"link-in-item","confidence":"medium","span":[1695,1711],"revision":1374822410,"by":"importer/wikipedia/1"}

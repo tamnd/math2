@@ -1,0 +1,28 @@
+{"from":"wikipedia://en/16143832","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[89,104],"revision":1364806763,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16143832","to":"wikipedia://en/245990","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[120,143],"revision":1364806763,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16143832","to":"wikipedia://en/24928","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[153,169],"revision":1364806763,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16143832","to":"wikipedia://en/48404","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[244,272],"revision":1364806763,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16143832","to":"wikipedia://en/276410","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[277,309],"revision":1364806763,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16143832","to":"wikipedia://en/56079","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[326,357],"revision":1364806763,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16143832","to":"wikipedia://en/542421","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[362,397],"revision":1364806763,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16143832","to":"wikipedia://en/25977","predicate":"related","method":"see-also","confidence":"low","span":[6671,6710],"revision":1364806763,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16143832","to":"wikipedia://en/2629423","predicate":"related","method":"see-also","confidence":"low","span":[6713,6762],"revision":1364806763,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16143832","to":"Category:Commutative algebra","predicate":"in-field","method":"category","confidence":"medium","span":[7382,7414],"revision":1364806763,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16143832","to":"Category:Prime ideals","predicate":"in-field","method":"category","confidence":"medium","span":[7415,7440],"revision":1364806763,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17593652","to":"wikipedia://en/23542","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[88,110],"revision":1350459868,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17593652","to":"wikipedia://en/1547599","predicate":"related","method":"link-in-lead","confidence":"low","span":[227,257],"revision":1350459868,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17593652","to":"wikipedia://en/9653","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[503,521],"revision":1350459868,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17593652","to":"wikipedia://en/274536","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[527,573],"revision":1350459868,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17593652","to":"wikipedia://en/1202193","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[579,596],"revision":1350459868,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17593652","to":"wikipedia://en/270918","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1277,1328],"revision":1350459868,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17593652","to":"wikipedia://en/33589680","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1694,1718],"revision":1350459868,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17593652","to":"wikipedia://en/442967","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1741,1781],"revision":1350459868,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17593652","to":"Category:Theorems in probability theory","predicate":"kind-of","method":"category","confidence":"medium","span":[11229,11272],"revision":1350459868,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17593652","to":"Category:Theorems in statistics","predicate":"kind-of","method":"category","confidence":"medium","span":[11273,11308],"revision":1350459868,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17593652","to":"Category:Martingale theory","predicate":"in-field","method":"category","confidence":"medium","span":[11349,11379],"revision":1350459868,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6964629#H6K6","to":"wikipedia://en/18867510","predicate":"uses","method":"link-in-item","confidence":"high","span":[2240,2274],"revision":1341008343,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6964629#H6K6","to":"wikipedia://en/18867510","predicate":"uses","method":"link-in-item","confidence":"high","span":[3382,3416],"revision":1341008343,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6964629#H6K6","to":"wikipedia://en/22510359","predicate":"uses","method":"link-in-item","confidence":"high","span":[3522,3554],"revision":1341008343,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6964629#H6K6","to":"wikipedia://en/910967","predicate":"uses","method":"link-in-item","confidence":"high","span":[3700,3717],"revision":1341008343,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6964629#H6K6","to":"wikipedia://en/6968975","predicate":"related","method":"link-in-item","confidence":"low","span":[4089,4115],"revision":1341008343,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6964629#H6K6","to":"wikipedia://en/801135","predicate":"uses","method":"link-in-item","confidence":"high","span":[4672,4726],"revision":1341008343,"by":"importer/wikipedia/1"}

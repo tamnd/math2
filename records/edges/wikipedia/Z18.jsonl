@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/2390225#6YL0","to":"wikipedia://en/14828","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[43843,43858],"revision":1376093804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3412351","to":"wikipedia://en/41890","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,19],"revision":1315958465,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3412351","to":"wikipedia://en/99494","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[80,107],"revision":1315958465,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3412351","to":"wikipedia://en/19447","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[161,190],"revision":1315958465,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3412351","to":"wikipedia://en/1368572","predicate":"related","method":"link-in-lead","confidence":"low","span":[231,250],"revision":1315958465,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3412351","to":"wikipedia://en/59735","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[679,693],"revision":1315958465,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3412351","to":"wikipedia://en/14828","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[896,910],"revision":1315958465,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3412351","to":"wikipedia://en/4843202","predicate":"related","method":"link-in-text","confidence":"low","span":[2819,2847],"revision":1315958465,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3412351","to":"wikipedia://en/18400182","predicate":"related","method":"see-also","confidence":"low","span":[4420,4469],"revision":1315958465,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3412351","to":"wikipedia://en/7754592","predicate":"related","method":"see-also","confidence":"low","span":[4472,4529],"revision":1315958465,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3412351","to":"Category:Combinatorial group theory","predicate":"in-field","method":"category","confidence":"medium","span":[4687,4726],"revision":1315958465,"by":"importer/wikipedia/1"}

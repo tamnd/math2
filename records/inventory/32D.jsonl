@@ -1,2 +1,6 @@
-{"id":"32D9EQ9ZZJ","mentions":["m2://rec/wikidata/Q603159#1"],"kind":"unknown","name":"curve fitting","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"32D0EYWCGY","mentions":["wikipedia://en/61549561"],"kind":"topic","name":"Manfred W. Padberg","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"32D8ARGQEP","mentions":["wikipedia://en/39082282"],"kind":"statement","name":"Bony–Brezis theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"32D9EQ9ZZJ","mentions":["m2://rec/wikidata/Q603159#1","wikipedia://en/555425"],"kind":"definition","name":"curve fitting","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"32DA5QDHMZ","mentions":["wikipedia://en/4155662#TDAR"],"kind":"definition","name":"Algorithms","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"32DPB0KDZZ","mentions":["wikipedia://en/17958429#LRPK"],"kind":"statement","name":"Formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"32DY1YR4SR","mentions":["ax://paper/1711.00219#9BPI"],"kind":"statement","msc":["05-XX","46-XX","47-XX","60-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.0"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.0"}]}

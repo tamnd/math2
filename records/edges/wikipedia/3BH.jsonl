@@ -1,0 +1,55 @@
+{"from":"wikipedia://en/165146#JMSA","to":"wikipedia://en/940553","predicate":"uses","method":"link-in-item","confidence":"medium","span":[30339,30370],"revision":1372308482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/165146#JMSA","to":"wikipedia://en/4602964","predicate":"uses","method":"link-in-item","confidence":"medium","span":[31157,31187],"revision":1372308482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[95,123],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/5869","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[133,152],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/53759","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[211,246],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/5869","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[253,280],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/26691","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[285,311],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/27716891","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[328,341],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/185427","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[379,415],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/195947","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[477,526],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/800092","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[564,586],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/12396","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[593,616],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/152214","predicate":"related","method":"link-in-text","confidence":"low","span":[4094,4127],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/2113","predicate":"uses","method":"named-link","confidence":"high","span":[4191,4214],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/20696","predicate":"related","method":"link-in-text","confidence":"low","span":[4263,4281],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/53759","predicate":"related","method":"link-in-text","confidence":"low","span":[4657,4692],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/528491","predicate":"related","method":"link-in-text","confidence":"low","span":[4874,4892],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/1072144","predicate":"related","method":"link-in-text","confidence":"low","span":[5101,5127],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/332621","predicate":"related","method":"link-in-text","confidence":"low","span":[5427,5455],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/248076","predicate":"related","method":"link-in-text","confidence":"low","span":[5575,5610],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/20696","predicate":"related","method":"link-in-text","confidence":"low","span":[5996,6012],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/5869","predicate":"related","method":"link-in-text","confidence":"low","span":[6442,6461],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/6105873","predicate":"related","method":"link-in-text","confidence":"low","span":[6510,6546],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/800092","predicate":"related","method":"link-in-text","confidence":"low","span":[6961,6983],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/435051","predicate":"related","method":"link-in-text","confidence":"low","span":[6991,7025],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/435051","predicate":"related","method":"see-also","confidence":"low","span":[7046,7080],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/27553","predicate":"related","method":"see-also","confidence":"low","span":[7083,7097],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/3152855","predicate":"related","method":"see-also","confidence":"low","span":[7100,7131],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/75966255","predicate":"related","method":"see-also","confidence":"low","span":[7134,7167],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"wikipedia://en/78516937","predicate":"related","method":"see-also","confidence":"low","span":[7170,7215],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"Template:Category theory","predicate":"in-nav","method":"nav","confidence":"low","span":[9235,9254],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"Category:Foundations of mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[9256,9295],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"Category:Categories in category theory","predicate":"in-field","method":"category","confidence":"medium","span":[9296,9343],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26829","to":"Category:Basic concepts in set theory","predicate":"in-field","method":"category","confidence":"medium","span":[9344,9385],"revision":1371089254,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54661292","to":"wikipedia://en/25856","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[74,87],"revision":1349700273,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54661292","to":"wikipedia://en/679294","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[180,223],"revision":1349700273,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54661292","to":"wikipedia://en/18963843","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[260,279],"revision":1349700273,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54661292","to":"wikipedia://en/361897","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[280,298],"revision":1349700273,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54661292","to":"wikipedia://en/145319","predicate":"related","method":"link-in-lead","confidence":"low","span":[299,329],"revision":1349700273,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54661292","to":"wikipedia://en/38993","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1537,1558],"revision":1349700273,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54661292","to":"wikipedia://en/54564418","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1730,1760],"revision":1349700273,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54661292","to":"wikipedia://en/100349","predicate":"related","method":"link-in-text","confidence":"low","span":[2734,2758],"revision":1349700273,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54661292","to":"wikipedia://en/54564418","predicate":"related","method":"see-also","confidence":"low","span":[5004,5034],"revision":1349700273,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54661292","to":"Category:Special functions","predicate":"in-field","method":"category","confidence":"medium","span":[5064,5094],"revision":1349700273,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54661292","to":"Category:Integral equations","predicate":"in-field","method":"category","confidence":"medium","span":[5095,5126],"revision":1349700273,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54661292","to":"Category:Scattering","predicate":"in-field","method":"category","confidence":"medium","span":[5127,5150],"revision":1349700273,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54661292","to":"Category:Scattering, absorption and radiative transfer (optics)","predicate":"in-field","method":"category","confidence":"medium","span":[5151,5218],"revision":1349700273,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8711785","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[48,63],"revision":1373752266,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8711785","to":"wikipedia://en/51421","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[100,120],"revision":1373752266,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8711785","to":"wikipedia://en/41531","predicate":"related","method":"link-in-lead","confidence":"low","span":[148,167],"revision":1373752266,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8711785","to":"wikipedia://en/14563","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[505,516],"revision":1373752266,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8711785","to":"wikipedia://en/1156686","predicate":"related","method":"link-in-text","confidence":"low","span":[7255,7318],"revision":1373752266,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8711785","to":"wikipedia://en/8711785","predicate":"uses","method":"anchor","confidence":"certain","span":[8060,8094],"revision":1373752266,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8711785","to":"Template:Classes of natural numbers","predicate":"in-nav","method":"nav","confidence":"low","span":[12988,13035],"revision":1373752266,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8711785","to":"Category:Integer sequences","predicate":"kind-of","method":"category","confidence":"medium","span":[13064,13094],"revision":1373752266,"by":"importer/wikipedia/1"}

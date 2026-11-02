@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/15374396","to":"wikipedia://en/455987","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[96,117],"revision":1363421513,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15374396","to":"wikipedia://en/7184","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[165,179],"revision":1363421513,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15374396","to":"wikipedia://en/294185","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[185,208],"revision":1363421513,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15374396","to":"wikipedia://en/32245","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[410,432],"revision":1363421513,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15374396","to":"wikipedia://en/363551","predicate":"related","method":"see-also","confidence":"low","span":[2506,2538],"revision":1363421513,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15374396","to":"Category:C*-algebras","predicate":"in-field","method":"category","confidence":"medium","span":[2566,2590],"revision":1363421513,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22900180","to":"wikipedia://en/23964683","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[185,211],"revision":1338124980,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22900180","to":"wikipedia://en/17454","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[214,251],"revision":1338124980,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22900180","to":"wikipedia://en/80857","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[293,318],"revision":1338124980,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22900180","to":"wikipedia://en/42348022","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[324,353],"revision":1338124980,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22900180","to":"wikipedia://en/22900376","predicate":"related","method":"link-in-lead","confidence":"low","span":[379,393],"revision":1338124980,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22900180","to":"wikipedia://en/3283538","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[475,499],"revision":1338124980,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22900180","to":"wikipedia://en/1356854","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[501,512],"revision":1338124980,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47564489#C6VC","to":"wikipedia://en/376707","predicate":"uses","method":"link-in-item","confidence":"high","span":[2833,2896],"revision":1369454121,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47564489#C6VC","to":"wikipedia://en/1146638","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3185,3242],"revision":1369454121,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55799101#D5KV","to":"wikipedia://en/7455889","predicate":"uses","method":"link-in-item","confidence":"high","span":[31744,31767],"revision":1351912484,"by":"importer/wikipedia/1"}

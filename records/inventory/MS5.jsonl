@@ -1,2 +1,6 @@
+{"id":"MS54TJGAQF","mentions":["wikipedia://en/478601#WEU8"],"kind":"statement","name":"Conjecture 1","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"MS5643AVTZ","mentions":["wikipedia://en/39479320#8XXS"],"kind":"unknown","name":"Hecke algebra (disambiguation)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"MS59W02KB5","mentions":["wikipedia://en/72989628"],"kind":"topic","name":"Andrea Rotnitzky","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"MS5D0F91DB","mentions":["wikipedia://en/74890770"],"kind":"topic","name":"Christian Hennig","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MS5QKTHPZ4","mentions":["ax://paper/1002.0879#FCST"],"kind":"example","msc":["18-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
 {"id":"MS5YPA50ES","mentions":["m2://rec/lebl_ra/ch-approximate.tex#exercise:maxprinciple#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

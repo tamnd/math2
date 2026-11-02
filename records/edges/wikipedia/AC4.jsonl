@@ -1,0 +1,30 @@
+{"from":"wikipedia://en/32140327","to":"wikipedia://en/1092713","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[82,106],"revision":1279912122,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32140327","to":"wikipedia://en/9356047","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[152,194],"revision":1279912122,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32140327","to":"wikipedia://en/976516","predicate":"related","method":"link-in-lead","confidence":"low","span":[415,435],"revision":1279912122,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32140327","to":"wikipedia://en/591568","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[616,645],"revision":1279912122,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32140327","to":"wikipedia://en/76848","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[754,775],"revision":1279912122,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32140327","to":"wikipedia://en/21474","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[806,841],"revision":1279912122,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32140327","to":"wikipedia://en/591568","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[971,1000],"revision":1279912122,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32140327","to":"wikipedia://en/4005892","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1494,1546],"revision":1279912122,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32140327","to":"wikipedia://en/34149851","predicate":"related","method":"see-also","confidence":"low","span":[1564,1596],"revision":1279912122,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32140327","to":"wikipedia://en/32135416","predicate":"related","method":"see-also","confidence":"low","span":[1599,1631],"revision":1279912122,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32140327","to":"Category:Theorems in approximation theory","predicate":"kind-of","method":"category","confidence":"medium","span":[1725,1770],"revision":1279912122,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67991589","to":"wikipedia://en/45200","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[206,227],"revision":1372190623,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67991589","to":"wikipedia://en/38091","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[341,363],"revision":1372190623,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67991589","to":"wikipedia://en/5854318","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[428,449],"revision":1372190623,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67991589","to":"wikipedia://en/44283274","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[528,618],"revision":1372190623,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67991589","to":"wikipedia://en/5869","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[797,816],"revision":1372190623,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67991589","to":"wikipedia://en/61886551","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1254,1272],"revision":1372190623,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67991589","to":"wikipedia://en/407039","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1340,1423],"revision":1372190623,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67991589","to":"wikipedia://en/627842","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1912,1956],"revision":1372190623,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67991589","to":"wikipedia://en/47088","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1960,1968],"revision":1372190623,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67991589","to":"wikipedia://en/42530503","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2587,2626],"revision":1372190623,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67991589","to":"wikipedia://en/9742","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2782,2799],"revision":1372190623,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67991589","to":"wikipedia://en/29407873","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3109,3127],"revision":1372190623,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67991589","to":"wikipedia://en/80272750","predicate":"related","method":"link-in-lead","confidence":"low","span":[3132,3152],"revision":1372190623,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67991589","to":"Category:20th-century Czech mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[8881,8927],"revision":1372190623,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67991589","to":"Category:21st-century Czech mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[8928,8974],"revision":1372190623,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67991589","to":"Category:Czech mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[8975,9008],"revision":1372190623,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67991589","to":"Category:Category theorists","predicate":"in-field","method":"category","confidence":"medium","span":[9009,9040],"revision":1372190623,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67991589","to":"Category:Combinatorialists","predicate":"in-field","method":"category","confidence":"medium","span":[9041,9071],"revision":1372190623,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67991589","to":"Category:Academic staff of Charles University","predicate":"in-field","method":"category","confidence":"medium","span":[9111,9160],"revision":1372190623,"by":"importer/wikipedia/1"}

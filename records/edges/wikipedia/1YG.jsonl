@@ -1,0 +1,73 @@
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/10603","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[59,88],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/248808","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[101,122],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/14828","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[143,157],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/242135","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[163,183],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/3129","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[192,213],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/404082","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[257,284],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/605134","predicate":"related","method":"link-in-lead","confidence":"low","span":[563,581],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/404078","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[621,637],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/19008673","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[692,716],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/2776890","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[769,792],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/487541","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1206,1236],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/398578","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1412,1431],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/502205","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1558,1582],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/1111315","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1596,1617],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/505088","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1658,1675],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/382667","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1798,1825],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/253251","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1858,1894],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/138215","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2010,2034],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/247924","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2114,2134],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/87089","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2151,2178],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/404078","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2348,2364],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/1099709","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2481,2505],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/404082","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2683,2710],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/1693055","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3200,3217],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/722503","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3260,3277],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"wikipedia://en/35183882","predicate":"related","method":"see-also","confidence":"low","span":[3413,3434],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"Category:Algebraic varieties","predicate":"in-field","method":"category","confidence":"medium","span":[6311,6343],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"Category:Diophantine geometry","predicate":"in-field","method":"category","confidence":"medium","span":[6344,6377],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"Category:Homological algebra","predicate":"in-field","method":"category","confidence":"medium","span":[6378,6410],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"Category:Algebraic groups","predicate":"in-field","method":"category","confidence":"medium","span":[6411,6440],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1669368","to":"Category:Ring theory","predicate":"in-field","method":"category","confidence":"medium","span":[6441,6465],"revision":1370835653,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19176602","to":"wikipedia://en/2720954","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[503,520],"revision":1322860282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19176602","to":"wikipedia://en/13435","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[581,607],"revision":1322860282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19176602","to":"wikipedia://en/19904","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[611,641],"revision":1322860282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19176602","to":"wikipedia://en/47403","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1252,1271],"revision":1322860282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19176602","to":"wikipedia://en/13435","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1415,1431],"revision":1322860282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19176602","to":"wikipedia://en/19904","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1435,1453],"revision":1322860282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19176602","to":"wikipedia://en/26685","predicate":"related","method":"see-also","confidence":"low","span":[3242,3256],"revision":1322860282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19176602","to":"Category:Data analysis","predicate":"in-field","method":"category","confidence":"medium","span":[3394,3420],"revision":1322860282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19176602","to":"Category:Hydrology","predicate":"in-field","method":"category","confidence":"medium","span":[3421,3443],"revision":1322860282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19176602","to":"Category:Meteorological data and networks","predicate":"in-field","method":"category","confidence":"medium","span":[3444,3489],"revision":1322860282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19176602","to":"Category:Meteorological concepts","predicate":"in-field","method":"category","confidence":"medium","span":[3490,3526],"revision":1322860282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19176602","to":"Category:Statistical charts and diagrams","predicate":"in-field","method":"category","confidence":"medium","span":[3527,3571],"revision":1322860282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/193837#N2RN","to":"wikipedia://en/2906180","predicate":"listed-in","method":"list","confidence":"certain","span":[26316,26344],"revision":1337828882,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25718963","to":"wikipedia://en/26997138","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1580,1593],"revision":1351137373,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25718963","to":"wikipedia://en/23712727","predicate":"related","method":"link-in-text","confidence":"low","span":[2022,2042],"revision":1351137373,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25718963","to":"wikipedia://en/177595","predicate":"related","method":"link-in-text","confidence":"low","span":[2468,2495],"revision":1351137373,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25718963","to":"wikipedia://en/66527","predicate":"related","method":"link-in-text","confidence":"low","span":[2533,2552],"revision":1351137373,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25718963","to":"wikipedia://en/26997138","predicate":"related","method":"link-in-text","confidence":"low","span":[2703,2716],"revision":1351137373,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25718963","to":"wikipedia://en/497478","predicate":"related","method":"link-in-text","confidence":"low","span":[3175,3194],"revision":1351137373,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25718963","to":"Category:Research institutes in Maryland","predicate":"in-field","method":"category","confidence":"medium","span":[3663,3707],"revision":1351137373,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25718963","to":"Category:Mathematical institutes","predicate":"in-field","method":"category","confidence":"medium","span":[3708,3744],"revision":1351137373,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30876007#OWB3","to":"wikipedia://en/1066621","predicate":"uses","method":"link-in-item","confidence":"high","span":[3085,3128],"revision":1369003793,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30876007#OWB3","to":"wikipedia://en/493527","predicate":"uses","method":"link-in-item","confidence":"high","span":[3146,3176],"revision":1369003793,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35758319","to":"wikipedia://en/30874303","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[718,745],"revision":1373453250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35758319","to":"wikipedia://en/154839","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[759,771],"revision":1373453250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35758319","to":"wikipedia://en/341988","predicate":"related","method":"link-in-lead","confidence":"low","span":[899,935],"revision":1373453250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35758319","to":"wikipedia://en/463734","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1248,1265],"revision":1373453250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35758319","to":"wikipedia://en/27308","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1290,1306],"revision":1373453250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35758319","to":"wikipedia://en/13373","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1323,1332],"revision":1373453250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35758319","to":"wikipedia://en/25804468","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1373,1398],"revision":1373453250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35758319","to":"wikipedia://en/216361","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1410,1427],"revision":1373453250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35758319","to":"wikipedia://en/12401710","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1522,1578],"revision":1373453250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35758319","to":"wikipedia://en/188171","predicate":"related","method":"link-in-text","confidence":"low","span":[4237,4246],"revision":1373453250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35758319","to":"wikipedia://en/30118","predicate":"related","method":"link-in-text","confidence":"low","span":[4249,4261],"revision":1373453250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35758319","to":"wikipedia://en/187749","predicate":"related","method":"link-in-text","confidence":"low","span":[4661,4673],"revision":1373453250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35758319","to":"wikipedia://en/27308","predicate":"related","method":"link-in-text","confidence":"low","span":[5829,5845],"revision":1373453250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35758319","to":"wikipedia://en/27308","predicate":"related","method":"link-in-text","confidence":"low","span":[7442,7458],"revision":1373453250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35758319","to":"wikipedia://en/7515849","predicate":"related","method":"link-in-text","confidence":"low","span":[8028,8037],"revision":1373453250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35758319","to":"wikipedia://en/13373","predicate":"related","method":"link-in-text","confidence":"low","span":[8914,8923],"revision":1373453250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35758319","to":"Category:Statistical societies","predicate":"in-field","method":"category","confidence":"medium","span":[10089,10123],"revision":1373453250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35758319","to":"Category:Organizations established in 2008","predicate":"in-field","method":"category","confidence":"medium","span":[10124,10170],"revision":1373453250,"by":"importer/wikipedia/1"}

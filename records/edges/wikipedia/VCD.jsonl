@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/14403539#71KS","to":"wikipedia://en/9753326","predicate":"listed-in","method":"list","confidence":"certain","span":[28510,28521],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15008875#D4IC","to":"wikipedia://en/285773","predicate":"uses","method":"link-in-item","confidence":"high","span":[745,778],"revision":1268292360,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59642490","to":"wikipedia://en/17514","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[600,611],"revision":1351358039,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59642490","to":"wikipedia://en/217203","predicate":"related","method":"link-in-text","confidence":"low","span":[924,956],"revision":1351358039,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59642490","to":"wikipedia://en/1281090","predicate":"related","method":"link-in-text","confidence":"low","span":[960,971],"revision":1351358039,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59642490","to":"wikipedia://en/25508","predicate":"related","method":"link-in-text","confidence":"low","span":[985,993],"revision":1351358039,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59642490","to":"wikipedia://en/31750","predicate":"related","method":"link-in-text","confidence":"low","span":[1033,1044],"revision":1351358039,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59642490","to":"wikipedia://en/3048933","predicate":"related","method":"link-in-text","confidence":"low","span":[1073,1103],"revision":1351358039,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59642490","to":"wikipedia://en/586818","predicate":"related","method":"link-in-text","confidence":"low","span":[1282,1306],"revision":1351358039,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59642490","to":"wikipedia://en/271164","predicate":"related","method":"link-in-text","confidence":"low","span":[1506,1520],"revision":1351358039,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59642490","to":"wikipedia://en/37410","predicate":"related","method":"link-in-text","confidence":"low","span":[2381,2392],"revision":1351358039,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59642490","to":"wikipedia://en/19004","predicate":"related","method":"link-in-text","confidence":"low","span":[2625,2635],"revision":1351358039,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59642490","to":"wikipedia://en/4432648","predicate":"related","method":"link-in-text","confidence":"low","span":[2984,3015],"revision":1351358039,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59642490","to":"wikipedia://en/26779","predicate":"related","method":"link-in-text","confidence":"low","span":[3255,3263],"revision":1351358039,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59642490","to":"Category:20th-century Latvian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3796,3844],"revision":1351358039,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59642490","to":"Category:Latvian folklorists","predicate":"in-field","method":"category","confidence":"medium","span":[3895,3927],"revision":1351358039,"by":"importer/wikipedia/1"}

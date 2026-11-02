@@ -1,0 +1,27 @@
+{"from":"wikipedia://en/25744542","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[81,96],"revision":1315386960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25744542","to":"wikipedia://en/23659805","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[115,157],"revision":1315386960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25744542","to":"wikipedia://en/775","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[212,225],"revision":1315386960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25744542","to":"wikipedia://en/23000","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[240,255],"revision":1315386960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25744542","to":"wikipedia://en/14563","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[265,277],"revision":1315386960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25744542","to":"wikipedia://en/655893","predicate":"related","method":"link-in-lead","confidence":"low","span":[291,310],"revision":1315386960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25744542","to":"wikipedia://en/1376825","predicate":"related","method":"link-in-lead","confidence":"low","span":[315,334],"revision":1315386960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25744542","to":"wikipedia://en/2310978","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[356,403],"revision":1315386960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25744542","to":"wikipedia://en/11615","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[528,545],"revision":1315386960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25744542","to":"wikipedia://en/1633368","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[552,570],"revision":1315386960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25744542","to":"wikipedia://en/1735228","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1173,1190],"revision":1315386960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25744542","to":"wikipedia://en/6057100","predicate":"related","method":"see-also","confidence":"low","span":[1301,1326],"revision":1315386960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25744542","to":"Category:Computer algebra","predicate":"in-field","method":"category","confidence":"medium","span":[3303,3332],"revision":1315386960,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71470682","to":"wikipedia://en/775","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[47,61],"revision":1329657475,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71470682","to":"wikipedia://en/5170","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[130,169],"revision":1329657475,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71470682","to":"wikipedia://en/405944","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[237,256],"revision":1329657475,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71470682","to":"wikipedia://en/39351","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[333,353],"revision":1329657475,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71470682","to":"wikipedia://en/455770","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[549,566],"revision":1329657475,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71470682","to":"wikipedia://en/546101","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[576,591],"revision":1329657475,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71470682","to":"wikipedia://en/97034","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[615,637],"revision":1329657475,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71470682","to":"wikipedia://en/11584548","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[698,712],"revision":1329657475,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71470682","to":"wikipedia://en/67628503","predicate":"related","method":"link-in-lead","confidence":"low","span":[717,733],"revision":1329657475,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71470682","to":"wikipedia://en/11308417","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[774,804],"revision":1329657475,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71470682","to":"wikipedia://en/1817885","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[808,828],"revision":1329657475,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71470682","to":"wikipedia://en/864438","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[846,904],"revision":1329657475,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71470682","to":"Category:Search algorithms","predicate":"in-field","method":"category","confidence":"medium","span":[17234,17264],"revision":1329657475,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71470682","to":"Category:Combinatorial algorithms","predicate":"in-field","method":"category","confidence":"medium","span":[17265,17302],"revision":1329657475,"by":"importer/wikipedia/1"}

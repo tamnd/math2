@@ -1,0 +1,33 @@
+{"from":"wikipedia://en/23694557","to":"wikipedia://en/38801","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[57,79],"revision":1327164840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23694557","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[93,108],"revision":1327164840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23694557","to":"wikipedia://en/10987","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[198,210],"revision":1327164840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23694557","to":"wikipedia://en/245466","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[287,305],"revision":1327164840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23694557","to":"wikipedia://en/245466","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[311,323],"revision":1327164840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23694557","to":"wikipedia://en/30448","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[384,401],"revision":1327164840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23694557","to":"wikipedia://en/1408000","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[407,426],"revision":1327164840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23694557","to":"wikipedia://en/64493172","predicate":"related","method":"link-in-lead","confidence":"low","span":[753,808],"revision":1327164840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23694557","to":"wikipedia://en/5869","predicate":"related","method":"link-in-text","confidence":"low","span":[6011,6030],"revision":1327164840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23694557","to":"wikipedia://en/20280849","predicate":"related","method":"link-in-text","confidence":"low","span":[6142,6162],"revision":1327164840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23694557","to":"wikipedia://en/1161784","predicate":"related","method":"link-in-text","confidence":"low","span":[6166,6194],"revision":1327164840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23694557","to":"Category:Algebraic topology","predicate":"in-field","method":"category","confidence":"medium","span":[7137,7168],"revision":1327164840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23694557","to":"Category:Functors","predicate":"in-field","method":"category","confidence":"medium","span":[7169,7190],"revision":1327164840,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50654124","to":"wikipedia://en/5137502","predicate":"related","method":"link-in-text","confidence":"low","span":[864,875],"revision":1362969741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50654124","to":"wikipedia://en/41332627","predicate":"related","method":"link-in-text","confidence":"low","span":[1016,1031],"revision":1362969741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50654124","to":"wikipedia://en/38091","predicate":"related","method":"link-in-text","confidence":"low","span":[1052,1074],"revision":1362969741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50654124","to":"wikipedia://en/188886","predicate":"related","method":"link-in-text","confidence":"low","span":[1117,1148],"revision":1362969741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50654124","to":"wikipedia://en/4436275","predicate":"related","method":"link-in-text","confidence":"low","span":[1183,1197],"revision":1362969741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50654124","to":"wikipedia://en/2971095","predicate":"related","method":"link-in-text","confidence":"low","span":[1300,1315],"revision":1362969741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50654124","to":"wikipedia://en/5818602","predicate":"related","method":"link-in-text","confidence":"low","span":[1327,1338],"revision":1362969741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50654124","to":"wikipedia://en/363323","predicate":"related","method":"link-in-text","confidence":"low","span":[1412,1428],"revision":1362969741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50654124","to":"wikipedia://en/25323835","predicate":"related","method":"link-in-text","confidence":"low","span":[1466,1528],"revision":1362969741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50654124","to":"wikipedia://en/2704100","predicate":"related","method":"link-in-text","confidence":"low","span":[1919,1942],"revision":1362969741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50654124","to":"wikipedia://en/326471","predicate":"related","method":"link-in-text","confidence":"low","span":[2253,2278],"revision":1362969741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50654124","to":"wikipedia://en/2264595","predicate":"related","method":"link-in-text","confidence":"low","span":[2391,2420],"revision":1362969741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50654124","to":"wikipedia://en/9741574","predicate":"related","method":"link-in-text","confidence":"low","span":[2464,2500],"revision":1362969741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50654124","to":"wikipedia://en/627842","predicate":"related","method":"link-in-text","confidence":"low","span":[2554,2602],"revision":1362969741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50654124","to":"Category:20th-century Czech mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3239,3285],"revision":1362969741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50654124","to":"Category:Rectors of Charles University","predicate":"in-field","method":"category","confidence":"medium","span":[3325,3367],"revision":1362969741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50654124","to":"Category:Mathematicians from Austria-Hungary","predicate":"in-field","method":"category","confidence":"medium","span":[3368,3416],"revision":1362969741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50654124","to":"Category:Czechoslovak mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3417,3457],"revision":1362969741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50654124","to":"Category:Burials at Olšany Cemetery","predicate":"in-field","method":"category","confidence":"medium","span":[3458,3498],"revision":1362969741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57242824#TJAT","to":"wikipedia://en/24522165","predicate":"listed-in","method":"list","confidence":"certain","span":[2778,2800],"revision":1365520422,"by":"importer/wikipedia/1"}

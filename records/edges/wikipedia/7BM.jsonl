@@ -1,0 +1,7 @@
+{"from":"wikipedia://en/11353703#4M2H","to":"wikipedia://en/1846002","predicate":"listed-in","method":"list","confidence":"certain","span":[35920,35937],"revision":1373003451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/157055#ZFZJ","to":"wikipedia://en/91161","predicate":"related","method":"link-in-item","confidence":"low","span":[19750,19782],"revision":1365847896,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/157055#ZFZJ","to":"wikipedia://en/50723","predicate":"uses","method":"link-in-item","confidence":"high","span":[19821,19872],"revision":1365847896,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/157055#ZFZJ","to":"wikipedia://en/258986#WWY3","predicate":"specializes","method":"link-in-item","confidence":"medium","span":[20630,20691],"revision":1365847896,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/157055#ZFZJ","to":"wikipedia://en/157055#PCR4","predicate":"uses","method":"anchor","confidence":"certain","span":[21173,21281],"revision":1365847896,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3189601#LLJU","to":"wikipedia://en/1547359","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[17486,17500],"revision":1357528841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3189601#LLJU","to":"wikipedia://en/138215","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[17845,17863],"revision":1357528841,"by":"importer/wikipedia/1"}

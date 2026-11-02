@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/2542615","to":"wikipedia://en/18422","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[104,122],"revision":1375565401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2542615","to":"wikipedia://en/20556859","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[193,224],"revision":1375565401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2542615","to":"wikipedia://en/56357","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[276,295],"revision":1375565401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2542615","to":"wikipedia://en/56353","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[296,319],"revision":1375565401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2542615","to":"wikipedia://en/97848","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[327,352],"revision":1375565401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2542615","to":"wikipedia://en/2656959","predicate":"related","method":"link-in-text","confidence":"low","span":[1222,1240],"revision":1375565401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2542615","to":"wikipedia://en/101863","predicate":"related","method":"link-in-text","confidence":"low","span":[4936,4978],"revision":1375565401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2542615","to":"wikipedia://en/5975550","predicate":"related","method":"link-in-text","confidence":"low","span":[5004,5023],"revision":1375565401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2542615","to":"wikipedia://en/201611","predicate":"related","method":"link-in-text","confidence":"low","span":[5084,5105],"revision":1375565401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2542615","to":"wikipedia://en/2593852","predicate":"related","method":"link-in-text","confidence":"low","span":[5122,5143],"revision":1375565401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2542615","to":"wikipedia://en/189682","predicate":"related","method":"link-in-text","confidence":"low","span":[5148,5187],"revision":1375565401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2542615","to":"wikipedia://en/1134614","predicate":"related","method":"link-in-text","confidence":"low","span":[5191,5212],"revision":1375565401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2542615","to":"wikipedia://en/1448821","predicate":"related","method":"link-in-text","confidence":"low","span":[5309,5331],"revision":1375565401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2542615","to":"wikipedia://en/4329521","predicate":"related","method":"link-in-text","confidence":"low","span":[5375,5384],"revision":1375565401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2542615","to":"wikipedia://en/25694537","predicate":"related","method":"link-in-text","confidence":"low","span":[5417,5429],"revision":1375565401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2542615","to":"wikipedia://en/71397443","predicate":"related","method":"link-in-text","confidence":"low","span":[5557,5567],"revision":1375565401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2542615","to":"wikipedia://en/15237","predicate":"related","method":"see-also","confidence":"low","span":[5613,5633],"revision":1375565401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2542615","to":"Category:Numerical linear algebra","predicate":"in-field","method":"category","confidence":"medium","span":[7000,7037],"revision":1375565401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2542615","to":"Category:Invariant subspaces","predicate":"in-field","method":"category","confidence":"medium","span":[7038,7070],"revision":1375565401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2542615","to":"Category:Operator theory","predicate":"in-field","method":"category","confidence":"medium","span":[7071,7099],"revision":1375565401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/346167#FVE3","to":"wikipedia://en/21313650","predicate":"listed-in","method":"list","confidence":"certain","span":[3370,3391],"revision":1368371824,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39479320#8XXS","to":"wikipedia://en/32197484","predicate":"listed-in","method":"list","confidence":"certain","span":[369,403],"revision":1078260081,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/63688957#0CZO","to":"wikipedia://en/521933","predicate":"uses","method":"link-in-item","confidence":"high","span":[3382,3399],"revision":1262615920,"by":"importer/wikipedia/1"}

@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/42309332","to":"Template:Uniform hyperbolic tiles db","predicate":"in-nav","method":"nav","confidence":"low","span":[0,70],"revision":1292473393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309332","to":"wikipedia://en/241291","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[88,111],"revision":1292473393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309332","to":"wikipedia://en/505253","predicate":"related","method":"link-in-lead","confidence":"low","span":[161,217],"revision":1292473393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309332","to":"wikipedia://en/489394","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[233,253],"revision":1292473393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309332","to":"wikipedia://en/461942","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[345,374],"revision":1292473393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309332","to":"Template:Commons category","predicate":"in-nav","method":"nav","confidence":"low","span":[789,842],"revision":1292473393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309332","to":"wikipedia://en/4850275","predicate":"related","method":"see-also","confidence":"low","span":[844,865],"revision":1292473393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309332","to":"wikipedia://en/18640974","predicate":"related","method":"see-also","confidence":"low","span":[867,906],"revision":1292473393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309332","to":"wikipedia://en/505253","predicate":"related","method":"see-also","confidence":"low","span":[908,937],"revision":1292473393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309332","to":"Template:Tessellation","predicate":"in-nav","method":"nav","confidence":"low","span":[1887,1903],"revision":1292473393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309332","to":"Category:Hyperbolic tilings","predicate":"in-field","method":"category","confidence":"medium","span":[1905,1936],"revision":1292473393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309332","to":"Category:Infinite-order tilings","predicate":"in-field","method":"category","confidence":"medium","span":[1937,1972],"revision":1292473393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309332","to":"Category:Isogonal tilings","predicate":"in-field","method":"category","confidence":"medium","span":[1973,2002],"revision":1292473393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309332","to":"Category:Isohedral tilings","predicate":"in-field","method":"category","confidence":"medium","span":[2003,2033],"revision":1292473393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309332","to":"Category:Pentagonal tilings","predicate":"in-field","method":"category","confidence":"medium","span":[2034,2065],"revision":1292473393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42309332","to":"Category:Regular tilings","predicate":"in-field","method":"category","confidence":"medium","span":[2066,2094],"revision":1292473393,"by":"importer/wikipedia/1"}

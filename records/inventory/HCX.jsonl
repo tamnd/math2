@@ -1,3 +1,9 @@
 {"id":"HCX0JPZDTT","mentions":["m2://rec/hott_book/categories.tex#proof-17#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"HCX75EFF8T","mentions":["wikipedia://en/17616#N8G7"],"kind":"unknown","name":"Isometric latitude","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HCX826JZGZ","mentions":["m2://rec/wikidata/Q14396#1"],"kind":"unknown","name":"Η","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a notation: the notation register holds it (corpus spec K10.4)","rule":"symbol","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"HCX8RKQFCM","mentions":["wikipedia://en/13665#W7P9"],"kind":"statement","name":"Lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"HCXB6FTHYD","mentions":["wikipedia://en/13280227"],"kind":"definition","name":"70,000","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"HCXC1QYE8P","mentions":["wikipedia://en/25169381#4P0C"],"kind":"definition","name":"Cauchy matrix","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HCXC60C5VA","mentions":["m2://rec/wikidata/Q6134791#1"],"kind":"definition","name":"subdivision of a graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"HCXNVVHC7J","mentions":["wikipedia://en/191457#962C"],"kind":"definition","name":"Accidental sampling","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"HCXX1RGV03","mentions":["wikipedia://en/14403539#E767"],"kind":"unknown","name":"David Tannor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

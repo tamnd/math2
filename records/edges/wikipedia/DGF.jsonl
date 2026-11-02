@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/11353703#FZF7","to":"wikipedia://en/1082316","predicate":"listed-in","method":"list","confidence":"certain","span":[38990,39035],"revision":1373003451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18739942","to":"wikipedia://en/21527","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[99,116],"revision":1236079951,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18739942","to":"wikipedia://en/21474","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[201,222],"revision":1236079951,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18739942","to":"wikipedia://en/48167","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[280,334],"revision":1236079951,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18739942","to":"wikipedia://en/2021","predicate":"related","method":"link-in-lead","confidence":"low","span":[357,373],"revision":1236079951,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18739942","to":"wikipedia://en/1035915","predicate":"related","method":"link-in-text","confidence":"low","span":[417,433],"revision":1236079951,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18739942","to":"wikipedia://en/342684","predicate":"related","method":"link-in-text","confidence":"low","span":[525,560],"revision":1236079951,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18739942","to":"wikipedia://en/20961","predicate":"related","method":"link-in-text","confidence":"low","span":[598,618],"revision":1236079951,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18739942","to":"wikipedia://en/20059","predicate":"related","method":"link-in-text","confidence":"low","span":[1550,1577],"revision":1236079951,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18739942","to":"wikipedia://en/20963","predicate":"related","method":"link-in-text","confidence":"low","span":[1663,1710],"revision":1236079951,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18739942","to":"wikipedia://en/20961","predicate":"related","method":"link-in-text","confidence":"low","span":[1837,1857],"revision":1236079951,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18739942","to":"wikipedia://en/17961","predicate":"related","method":"link-in-text","confidence":"low","span":[2194,2219],"revision":1236079951,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18739942","to":"Category:Sieve theory","predicate":"in-field","method":"category","confidence":"medium","span":[4624,4649],"revision":1236079951,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/466277#MTP7","to":"wikipedia://en/1151030","predicate":"related","method":"link-in-item","confidence":"low","span":[28557,28578],"revision":1374935963,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/466277#MTP7","to":"wikipedia://en/44074687","predicate":"uses","method":"link-in-item","confidence":"medium","span":[28936,28951],"revision":1374935963,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61235389","to":"Template:Statistics","predicate":"in-nav","method":"nav","confidence":"low","span":[1527,1553],"revision":1344047665,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61235389","to":"Category:Statistical charts and diagrams","predicate":"in-field","method":"category","confidence":"medium","span":[1555,1599],"revision":1344047665,"by":"importer/wikipedia/1"}

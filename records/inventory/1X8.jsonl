@@ -1,2 +1,5 @@
 {"id":"1X80GB5ZD2","mentions":["ax://paper/2610.13680#FWJP"],"kind":"unknown","msc":["35-XX","65-XX"],"layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
-{"id":"1X8JHZ1W7H","mentions":["m2://rec/wikidata/Q6002522#1"],"kind":"concept","name":"imaginary line","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"1X85KPRSNT","mentions":["wikipedia://en/463981#7M8Y"],"kind":"unknown","name":"532 (number)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1X8GXY4NCK","mentions":["wikipedia://en/14403539#GPB4","wikipedia://en/47738065#LLFS"],"kind":"topic","name":"Christopher Skinner","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1X8H81EXQ7","mentions":["wikipedia://en/36549256"],"kind":"definition","name":"Sumario Compendioso","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1X8JHZ1W7H","mentions":["m2://rec/wikidata/Q6002522#1","wikipedia://en/8088912"],"kind":"concept","name":"imaginary line","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

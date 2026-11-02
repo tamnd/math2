@@ -1,0 +1,31 @@
+{"from":"wikipedia://en/18308428#9RZF","to":"wikipedia://en/15631055","predicate":"uses","method":"link-in-item","confidence":"medium","span":[1836,1871],"revision":1293847418,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18308428#9RZF","to":"wikipedia://en/20646438","predicate":"uses","method":"link-in-item","confidence":"high","span":[1950,1966],"revision":1293847418,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18308428#9RZF","to":"wikipedia://en/5010838","predicate":"uses","method":"link-in-item","confidence":"high","span":[2608,2616],"revision":1293847418,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18308428#9RZF","to":"wikipedia://en/5010838","predicate":"uses","method":"link-in-item","confidence":"high","span":[2620,2630],"revision":1293847418,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18308428#9RZF","to":"wikipedia://en/13463844","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2715,2739],"revision":1293847418,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3711980","to":"wikipedia://en/19792942","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[808,830],"revision":1371984752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3711980","to":"wikipedia://en/29353","predicate":"related","method":"link-in-text","confidence":"low","span":[1417,1440],"revision":1371984752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3711980","to":"wikipedia://en/10672775","predicate":"related","method":"link-in-text","confidence":"low","span":[2090,2112],"revision":1371984752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3711980","to":"wikipedia://en/161726","predicate":"related","method":"link-in-text","confidence":"low","span":[2144,2177],"revision":1371984752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3711980","to":"wikipedia://en/512315","predicate":"related","method":"link-in-text","confidence":"low","span":[2244,2309],"revision":1371984752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3711980","to":"wikipedia://en/126623","predicate":"related","method":"link-in-text","confidence":"low","span":[2313,2336],"revision":1371984752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3711980","to":"wikipedia://en/912396","predicate":"related","method":"link-in-text","confidence":"low","span":[2379,2420],"revision":1371984752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3711980","to":"wikipedia://en/198772","predicate":"related","method":"link-in-text","confidence":"low","span":[2860,2899],"revision":1371984752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3711980","to":"wikipedia://en/2606860","predicate":"related","method":"link-in-text","confidence":"low","span":[3376,3406],"revision":1371984752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3711980","to":"wikipedia://en/198822","predicate":"related","method":"link-in-text","confidence":"low","span":[3852,3885],"revision":1371984752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3711980","to":"wikipedia://en/41887","predicate":"related","method":"link-in-text","confidence":"low","span":[3975,3990],"revision":1371984752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3711980","to":"wikipedia://en/8272539","predicate":"related","method":"link-in-text","confidence":"low","span":[4069,4091],"revision":1371984752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3711980","to":"wikipedia://en/18949289","predicate":"related","method":"link-in-text","confidence":"low","span":[4279,4301],"revision":1371984752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3711980","to":"wikipedia://en/18949289","predicate":"related","method":"link-in-text","confidence":"low","span":[4306,4331],"revision":1371984752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3711980","to":"wikipedia://en/9508","predicate":"related","method":"link-in-text","confidence":"low","span":[4844,4871],"revision":1371984752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3711980","to":"wikipedia://en/44247587","predicate":"related","method":"link-in-text","confidence":"low","span":[4979,4993],"revision":1371984752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3711980","to":"wikipedia://en/198772","predicate":"related","method":"link-in-text","confidence":"low","span":[5180,5219],"revision":1371984752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3711980","to":"wikipedia://en/44247587","predicate":"related","method":"link-in-text","confidence":"low","span":[5673,5687],"revision":1371984752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3711980","to":"Template:S-start","predicate":"in-nav","method":"nav","confidence":"low","span":[11511,11522],"revision":1371984752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3711980","to":"Template:S-aca","predicate":"in-nav","method":"nav","confidence":"low","span":[11523,11532],"revision":1371984752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3711980","to":"Template:S-end","predicate":"in-nav","method":"nav","confidence":"low","span":[11753,11762],"revision":1371984752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3711980","to":"Category:American historians of mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[11923,11970],"revision":1371984752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3711980","to":"Category:19th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[11971,12020],"revision":1371984752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3711980","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[12021,12070],"revision":1371984752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3711980","to":"Category:Presidents of the Mathematical Association of America","predicate":"in-field","method":"category","confidence":"medium","span":[12223,12289],"revision":1371984752,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3711980","to":"Category:Mathematicians from New York (state)","predicate":"in-field","method":"category","confidence":"medium","span":[12386,12435],"revision":1371984752,"by":"importer/wikipedia/1"}

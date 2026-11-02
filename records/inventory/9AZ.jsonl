@@ -1,2 +1,8 @@
+{"id":"9AZ762BZ99","mentions":["wikipedia://en/11735693#650N"],"kind":"definition","name":"Notation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9AZE0Y0865","mentions":["ax://paper/2609.26769#5Y00"],"kind":"statement","msc":["81-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}],"proofs":["ax://paper/2609.26769#57C5"]}
 {"id":"9AZJ0XN720","mentions":["m2://rec/napkin/tex/calculus/p-adic.tex#proof-3#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"9AZNRFZH4R","mentions":["wikipedia://en/65332236"],"kind":"definition","name":"CEK Machine","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9AZSAXR6BE","mentions":["wikipedia://en/3506655"],"kind":"topic","name":"Stewart Nelson","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9AZVJEZ8AW","mentions":["wikipedia://en/197544#DL8R"],"kind":"definition","name":"Construction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9AZXDNJ7YG","mentions":["wikipedia://en/36557329"],"kind":"definition","name":"Risk-limiting audit","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9AZZE1RRJV","mentions":["wikipedia://en/7764195#T06Y"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

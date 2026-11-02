@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/11283#V62H","to":"wikipedia://en/857235","predicate":"uses","method":"link-in-item","confidence":"medium","span":[32080,32105],"revision":1366575487,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11283#V62H","to":"wikipedia://en/736","predicate":"related","method":"link-in-item","confidence":"low","span":[32133,32152],"revision":1366575487,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59937621","to":"wikipedia://en/66858","predicate":"related","method":"link-in-lead","confidence":"low","span":[208,230],"revision":1342407847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59937621","to":"wikipedia://en/173285","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[256,281],"revision":1342407847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59937621","to":"wikipedia://en/1926432","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[389,405],"revision":1342407847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59937621","to":"wikipedia://en/1521971","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[639,660],"revision":1342407847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59937621","to":"wikipedia://en/194131","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[665,690],"revision":1342407847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59937621","to":"Template:Commonscat","predicate":"in-nav","method":"nav","confidence":"low","span":[2007,2021],"revision":1342407847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59937621","to":"Category:Euclidean geometry","predicate":"in-field","method":"category","confidence":"medium","span":[2145,2176],"revision":1342407847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59937621","to":"Category:Theorems about triangles and circles","predicate":"kind-of","method":"category","confidence":"medium","span":[2177,2226],"revision":1342407847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59937621","to":"Category:Theorems about equilateral triangles","predicate":"kind-of","method":"category","confidence":"medium","span":[2227,2276],"revision":1342407847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72827#49C8","to":"wikipedia://en/991","predicate":"uses","method":"link-in-item","confidence":"high","span":[6212,6237],"revision":1374668374,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72827#49C8","to":"wikipedia://en/61190","predicate":"uses","method":"named-link","confidence":"high","span":[6360,6388],"revision":1374668374,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72827#49C8","to":"wikipedia://en/14110","predicate":"uses","method":"link-in-item","confidence":"high","span":[6954,6987],"revision":1374668374,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72827#49C8","to":"wikipedia://en/247288","predicate":"uses","method":"link-in-item","confidence":"high","span":[8111,8145],"revision":1374668374,"by":"importer/wikipedia/1"}

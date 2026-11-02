@@ -1,0 +1,25 @@
+{"from":"wikipedia://en/22609470#1UBO","to":"wikipedia://en/11615","predicate":"listed-in","method":"list","confidence":"certain","span":[8633,8649],"revision":1340541119,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39521876","to":"wikipedia://en/510795","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[127,162],"revision":1360980887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39521876","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[210,227],"revision":1360980887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39521876","to":"wikipedia://en/176254","predicate":"related","method":"link-in-text","confidence":"low","span":[483,497],"revision":1360980887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39521876","to":"wikipedia://en/188966","predicate":"related","method":"link-in-text","confidence":"low","span":[639,660],"revision":1360980887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39521876","to":"wikipedia://en/48713","predicate":"related","method":"link-in-text","confidence":"low","span":[710,743],"revision":1360980887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39521876","to":"wikipedia://en/207880","predicate":"related","method":"link-in-text","confidence":"low","span":[1197,1214],"revision":1360980887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39521876","to":"wikipedia://en/74636720","predicate":"related","method":"link-in-text","confidence":"low","span":[1288,1309],"revision":1360980887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39521876","to":"wikipedia://en/94132","predicate":"related","method":"link-in-text","confidence":"low","span":[1540,1556],"revision":1360980887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39521876","to":"wikipedia://en/623067","predicate":"related","method":"link-in-text","confidence":"low","span":[1737,1761],"revision":1360980887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39521876","to":"wikipedia://en/7106788","predicate":"related","method":"link-in-text","confidence":"low","span":[2671,2723],"revision":1360980887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39521876","to":"Category:19th-century English mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3462,3510],"revision":1360980887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39521876","to":"Category:20th-century British mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3511,3559],"revision":1360980887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39521876","to":"Category:Burials at Kensal Green Cemetery","predicate":"in-field","method":"category","confidence":"medium","span":[3598,3643],"revision":1360980887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83101212","to":"wikipedia://en/536249","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[514,541],"revision":1352492093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83101212","to":"wikipedia://en/3434750","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[569,586],"revision":1352492093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83101212","to":"wikipedia://en/244362","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[612,662],"revision":1352492093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83101212","to":"wikipedia://en/1200324","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[929,970],"revision":1352492093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83101212","to":"wikipedia://en/1082946","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[972,999],"revision":1352492093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83101212","to":"wikipedia://en/223992","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1004,1027],"revision":1352492093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83101212","to":"wikipedia://en/79768914","predicate":"related","method":"see-also","confidence":"low","span":[2058,2091],"revision":1352492093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83101212","to":"Category:Severe weather and convection","predicate":"in-field","method":"category","confidence":"medium","span":[2122,2164],"revision":1352492093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83101212","to":"Category:Atmospheric thermodynamics","predicate":"in-field","method":"category","confidence":"medium","span":[2165,2204],"revision":1352492093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83101212","to":"Category:Fluid dynamics","predicate":"in-field","method":"category","confidence":"medium","span":[2205,2232],"revision":1352492093,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83101212","to":"Category:Meteorological quantities","predicate":"in-field","method":"category","confidence":"medium","span":[2233,2271],"revision":1352492093,"by":"importer/wikipedia/1"}

@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/12589048#EJOY","to":"wikipedia://en/26547932","predicate":"uses","method":"link-in-item","confidence":"high","span":[743,770],"revision":1301573160,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12589048#EJOY","to":"wikipedia://en/24910","predicate":"uses","method":"link-in-item","confidence":"high","span":[1013,1033],"revision":1301573160,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55921089","to":"wikipedia://en/317443","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1117,1141],"revision":1343679625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55921089","to":"wikipedia://en/13969","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1365,1378],"revision":1343679625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55921089","to":"wikipedia://en/24420","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1379,1395],"revision":1343679625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55921089","to":"wikipedia://en/1145751","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1396,1419],"revision":1343679625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55921089","to":"wikipedia://en/627842","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1825,1869],"revision":1343679625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55921089","to":"wikipedia://en/9737","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2327,2339],"revision":1343679625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55921089","to":"wikipedia://en/33175621","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2685,2739],"revision":1343679625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55921089","to":"Category:French engineers","predicate":"in-field","method":"category","confidence":"medium","span":[5212,5241],"revision":1343679625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55921089","to":"Category:French statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[5242,5275],"revision":1343679625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55921089","to":"Category:19th-century statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[5276,5315],"revision":1343679625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55921089","to":"Category:20th-century French statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[5316,5362],"revision":1343679625,"by":"importer/wikipedia/1"}

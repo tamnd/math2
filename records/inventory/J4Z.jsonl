@@ -1,1 +1,7 @@
+{"id":"J4Z0V2WSM4","mentions":["wikipedia://en/27344508#XAUN"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"J4Z429JCT1","mentions":["wikipedia://en/2420120"],"kind":"definition","name":"All-or-nothing transform","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"J4ZDMF649H","mentions":["wikipedia://en/28382955#VV9Y"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"J4ZJGJFTC3","mentions":["wikipedia://en/2073470#GNH7"],"kind":"unknown","name":"Maximal Atlas","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"J4ZWSQDD19","mentions":["ax://paper/2609.23287#8RI3"],"kind":"statement","msc":["11-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.17"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.17"}]}
+{"id":"J4ZXZ12D6Y","mentions":["wikipedia://en/36444845"],"kind":"topic","name":"Hjalmar Magnus Eklund","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"J4ZYV711MG","mentions":["wikipedia://en/89830"],"kind":"definition","name":"Seismic wave","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

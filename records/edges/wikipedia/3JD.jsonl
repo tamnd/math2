@@ -1,0 +1,31 @@
+{"from":"wikipedia://en/24271692#AIKO","to":"wikipedia://en/294390","predicate":"uses","method":"link-in-item","confidence":"high","span":[410,425],"revision":1344817639,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24271692#AIKO","to":"wikipedia://en/191788","predicate":"uses","method":"link-in-item","confidence":"high","span":[426,451],"revision":1344817639,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24271692#AIKO","to":"wikipedia://en/1335","predicate":"uses","method":"link-in-item","confidence":"high","span":[452,467],"revision":1344817639,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24271692#AIKO","to":"wikipedia://en/3129","predicate":"uses","method":"link-in-item","confidence":"high","span":[873,894],"revision":1344817639,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24271692#AIKO","to":"wikipedia://en/7482797","predicate":"uses","method":"link-in-item","confidence":"high","span":[1187,1210],"revision":1344817639,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24271692#AIKO","to":"wikipedia://en/3022771","predicate":"uses","method":"link-in-item","confidence":"high","span":[1278,1297],"revision":1344817639,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38008439","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[104,119],"revision":1237725328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38008439","to":"wikipedia://en/56601","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[158,172],"revision":1237725328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38008439","to":"wikipedia://en/4095147","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[224,253],"revision":1237725328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38008439","to":"wikipedia://en/49172","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[261,296],"revision":1237725328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38008439","to":"wikipedia://en/682629","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[329,365],"revision":1237725328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38008439","to":"wikipedia://en/222367","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[374,413],"revision":1237725328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38008439","to":"wikipedia://en/82285","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[445,476],"revision":1237725328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38008439","to":"wikipedia://en/185427","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[706,742],"revision":1237725328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38008439","to":"wikipedia://en/56601","predicate":"related","method":"see-also","confidence":"low","span":[1624,1637],"revision":1237725328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38008439","to":"wikipedia://en/1973470","predicate":"related","method":"see-also","confidence":"low","span":[1639,1656],"revision":1237725328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38008439","to":"Category:Fuzzy logic","predicate":"in-field","method":"category","confidence":"medium","span":[1819,1843],"revision":1237725328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38008439","to":"Category:Systems of set theory","predicate":"in-field","method":"category","confidence":"medium","span":[1844,1878],"revision":1237725328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#OIIV","to":"wikipedia://en/5027843","predicate":"listed-in","method":"list","confidence":"certain","span":[88632,88650],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56768957","to":"wikipedia://en/382733","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[74,97],"revision":1371052942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56768957","to":"wikipedia://en/15148924","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[121,146],"revision":1371052942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56768957","to":"wikipedia://en/320469","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[171,193],"revision":1371052942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56768957","to":"wikipedia://en/22910728","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[214,287],"revision":1371052942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56768957","to":"wikipedia://en/734893","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[323,343],"revision":1371052942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56768957","to":"wikipedia://en/3404309","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[364,387],"revision":1371052942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56768957","to":"wikipedia://en/1186896","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[414,446],"revision":1371052942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56768957","to":"wikipedia://en/36465461","predicate":"related","method":"link-in-lead","confidence":"low","span":[732,750],"revision":1371052942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56768957","to":"Category:Algebraic geometry","predicate":"in-field","method":"category","confidence":"medium","span":[2244,2275],"revision":1371052942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56768957","to":"Category:Birational geometry","predicate":"in-field","method":"category","confidence":"medium","span":[2276,2308],"revision":1371052942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56768957","to":"Category:Unsolved problems in geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[2309,2351],"revision":1371052942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/660973#FTHL","to":"wikipedia://en/2520305","predicate":"listed-in","method":"list","confidence":"certain","span":[4388,4411],"revision":1356076661,"by":"importer/wikipedia/1"}

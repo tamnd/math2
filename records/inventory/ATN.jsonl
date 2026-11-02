@@ -1,2 +1,7 @@
 {"id":"ATN20A70K6","mentions":["m2://rec/lebl_ra/ch-multivar-int.tex#thm-2#1"],"kind":"statement","name":"Green","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"ATNN0JW79E","mentions":["m2://rec/mathlib_1000/Q3711848#1","m2://rec/thousand_plus/Q3711848#1","m2://rec/wikidata/Q3711848#1"],"kind":"statement","name":"Sobolev inequality","msc":["26-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"ATN29PE0AD","mentions":["wikipedia://en/6021605"],"kind":"topic","name":"August Adler","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ATNEGPY0WC","mentions":["wikipedia://en/183091#MZ0Q"],"kind":"conjecture","name":"Four exponentials conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ATNN0JW79E","mentions":["m2://rec/mathlib_1000/Q3711848#1","m2://rec/thousand_plus/Q3711848#1","m2://rec/wikidata/Q3711848#1","wikipedia://en/4665038"],"kind":"statement","name":"Sobolev inequality","msc":["26-XX"],"layer":"textbook","spread":4,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"ATNPCHF48P","mentions":["wikipedia://en/49700795#XBEN"],"kind":"counterexample","name":"Non-examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ATNT5R0FW3","mentions":["wikipedia://en/26248766#V5W7"],"kind":"topic","name":"Michele Cipolla","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ATNVGCQ6NZ","mentions":["wikipedia://en/341015#EF27"],"kind":"unknown","name":"Symmetric sparse matrix","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

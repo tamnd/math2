@@ -1,1 +1,6 @@
+{"id":"H0R090PBW9","mentions":["wikipedia://en/68044793#8SKA"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"H0R0NYR0JD","mentions":["wikipedia://en/58899#ORPU"],"kind":"unknown","name":"Complementary subspace","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"H0RBKTMRD5","mentions":["wikipedia://en/182890#U33M"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"H0RGSB1QF7","mentions":["wikipedia://en/351549#V3G8"],"kind":"statement","name":"Addition theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"H0RK6D2RAG","mentions":["ax://paper/2609.21994#CQ2X"],"kind":"definition","msc":["94-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.17"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.17"}]}
+{"id":"H0RWMZ86XQ","mentions":["wikipedia://en/892739"],"kind":"definition","name":"Top-down parsing language","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

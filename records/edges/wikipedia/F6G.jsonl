@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/1403586#VYQD","to":"wikipedia://en/83259983","predicate":"listed-in","method":"list","confidence":"certain","span":[28793,28810],"revision":1375861581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34299169","to":"wikipedia://en/35215341","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[764,793],"revision":1374272694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34299169","to":"wikipedia://en/547682","predicate":"related","method":"link-in-lead","confidence":"low","span":[799,816],"revision":1374272694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34299169","to":"wikipedia://en/1221919","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[904,923],"revision":1374272694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34299169","to":"Category:19th-century German mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1763,1810],"revision":1374272694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34299169","to":"Category:20th-century German mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1811,1858],"revision":1374272694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34299169","to":"Category:German geometers","predicate":"in-field","method":"category","confidence":"medium","span":[1859,1888],"revision":1374272694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34299169","to":"Category:Scientists from Wrocław","predicate":"in-field","method":"category","confidence":"medium","span":[1889,1926],"revision":1374272694,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#KRZ8","to":"wikipedia://en/5089124","predicate":"listed-in","method":"list","confidence":"certain","span":[53062,53076],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78516937","to":"wikipedia://en/928","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[145,155],"revision":1345087861,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78516937","to":"wikipedia://en/27553","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[160,174],"revision":1345087861,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78516937","to":"wikipedia://en/872760","predicate":"related","method":"link-in-lead","confidence":"low","span":[187,206],"revision":1345087861,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78516937","to":"wikipedia://en/5869","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[426,445],"revision":1345087861,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78516937","to":"wikipedia://en/78103499","predicate":"related","method":"link-in-lead","confidence":"low","span":[450,466],"revision":1345087861,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78516937","to":"wikipedia://en/78527273","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[572,597],"revision":1345087861,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78516937","to":"wikipedia://en/322623","predicate":"related","method":"see-also","confidence":"low","span":[2112,2135],"revision":1345087861,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78516937","to":"Category:Axioms of set theory","predicate":"in-field","method":"category","confidence":"medium","span":[3591,3624],"revision":1345087861,"by":"importer/wikipedia/1"}

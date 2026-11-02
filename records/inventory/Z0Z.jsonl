@@ -1,1 +1,5 @@
-{"id":"Z0ZQQT8K7H","mentions":["m2://rec/wikidata/Q1847#1"],"kind":"concept","name":"Togliatti surface","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"Z0ZE331A5N","mentions":["wikipedia://en/30562#I58T"],"kind":"definition","name":"H-closed","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"Z0ZK8Y5KH1","mentions":["wikipedia://en/187408#HCEV"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}],"proofs":["wikipedia://en/187408#JO0I"]}
+{"id":"Z0ZQMN1225","mentions":["wikipedia://en/34128#7Y7S"],"kind":"statement","name":"Misunderstandings of basic terms and principles","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"Z0ZQQT8K7H","mentions":["m2://rec/wikidata/Q1847#1","wikipedia://en/20705037"],"kind":"concept","name":"Togliatti surface","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"Z0ZVFN41BN","mentions":["wikipedia://en/51140705#QLVS"],"kind":"topic","name":"Nathan Mantel","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

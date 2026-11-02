@@ -1,2 +1,5 @@
+{"id":"GXZ39BM12N","mentions":["wikipedia://en/2406953"],"kind":"topic","name":"Arthur Geoffrey Walker","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"GXZ4YX0Y23","mentions":["wikipedia://en/11353703#RX5U"],"kind":"topic","name":"Jakow Trachtenberg","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"GXZRZQKB2Z","mentions":["wikipedia://en/73079238"],"kind":"topic","name":"Thomas A. Garrity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GXZTRZBBWZ","mentions":["ax://paper/2609.31274#EHUW"],"kind":"statement","msc":["55-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.5.6"},"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.5.6"}]}
 {"id":"GXZYHWC9CD","mentions":["m2://rec/austin_ula/src/exercises/exercises2-2.xml#exercise-5#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

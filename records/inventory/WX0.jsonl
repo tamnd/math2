@@ -1,2 +1,5 @@
-{"id":"WX0RD6MWXJ","mentions":["m2://rec/wikidata/Q570496#1"],"kind":"unknown","name":"alpha–beta pruning","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"WX01T03VWT","mentions":["wikipedia://en/191457#KXGK"],"kind":"definition","name":"Confirmatory factor analysis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"WX0KDVX1BG","mentions":["wikipedia://en/631063#CKUM"],"kind":"unknown","name":"Key management system","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"WX0RD6MWXJ","mentions":["m2://rec/wikidata/Q570496#1","wikipedia://en/159501"],"kind":"definition","name":"alpha–beta pruning","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"WX0XNPT72C","mentions":["m2://rec/applied_combinatorics/source/s_posets_exercises.ptx#exercise-18#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"WX0YQ8DSX7","mentions":["wikipedia://en/79855645"],"kind":"definition","name":"Twisted diagonal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

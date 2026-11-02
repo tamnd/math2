@@ -1,0 +1,32 @@
+{"from":"wikipedia://en/14058565","to":"wikipedia://en/32640","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3,22],"revision":1335672834,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14058565","to":"wikipedia://en/32533","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[56,85],"revision":1335672834,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14058565","to":"wikipedia://en/263886","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[86,111],"revision":1335672834,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14058565","to":"wikipedia://en/12461","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[148,160],"revision":1335672834,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14058565","to":"wikipedia://en/4342970","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[245,278],"revision":1335672834,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14058565","to":"wikipedia://en/161879","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[299,315],"revision":1335672834,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14058565","to":"wikipedia://en/173224","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[514,539],"revision":1335672834,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14058565","to":"wikipedia://en/203052","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[983,1010],"revision":1335672834,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14058565","to":"wikipedia://en/14060661","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1155,1177],"revision":1335672834,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14058565","to":"wikipedia://en/113302","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1225,1244],"revision":1335672834,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14058565","to":"wikipedia://en/1608441","predicate":"related","method":"see-also","confidence":"low","span":[1350,1372],"revision":1335672834,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14058565","to":"wikipedia://en/5155886","predicate":"related","method":"see-also","confidence":"low","span":[1374,1409],"revision":1335672834,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14058565","to":"wikipedia://en/259162","predicate":"related","method":"see-also","confidence":"low","span":[1411,1428],"revision":1335672834,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14058565","to":"wikipedia://en/51051354","predicate":"related","method":"see-also","confidence":"low","span":[1430,1450],"revision":1335672834,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14058565","to":"Category:Vector calculus","predicate":"in-field","method":"category","confidence":"medium","span":[1480,1508],"revision":1335672834,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14058565","to":"Category:Surfaces","predicate":"in-field","method":"category","confidence":"medium","span":[1509,1539],"revision":1335672834,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14058565","to":"Category:Vector physical quantities","predicate":"in-field","method":"category","confidence":"medium","span":[1540,1579],"revision":1335672834,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2701312","to":"wikipedia://en/1051442","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[70,112],"revision":1210692942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2701312","to":"wikipedia://en/24222","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[113,151],"revision":1210692942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2701312","to":"wikipedia://en/10294","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[152,166],"revision":1210692942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2701312","to":"wikipedia://en/197865","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[249,287],"revision":1210692942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2701312","to":"wikipedia://en/451286","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[322,339],"revision":1210692942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2701312","to":"wikipedia://en/960585","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[521,562],"revision":1210692942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2701312","to":"wikipedia://en/103586","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[573,601],"revision":1210692942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2701312","to":"wikipedia://en/82341","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[744,771],"revision":1210692942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2701312","to":"wikipedia://en/206753","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[863,884],"revision":1210692942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2701312","to":"wikipedia://en/18934432","predicate":"related","method":"see-also","confidence":"low","span":[1430,1446],"revision":1210692942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2701312","to":"wikipedia://en/7543","predicate":"related","method":"see-also","confidence":"low","span":[1449,1484],"revision":1210692942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2701312","to":"wikipedia://en/7503084","predicate":"related","method":"see-also","confidence":"low","span":[1487,1522],"revision":1210692942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2701312","to":"Template:Cryptography navbox","predicate":"in-nav","method":"nav","confidence":"low","span":[2572,2608],"revision":1210692942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2701312","to":"Category:Public-key encryption schemes","predicate":"in-field","method":"category","confidence":"medium","span":[2610,2652],"revision":1210692942,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/345396#HXEE","to":"wikipedia://en/12528854","predicate":"listed-in","method":"list","confidence":"certain","span":[8376,8396],"revision":1261265038,"by":"importer/wikipedia/1"}

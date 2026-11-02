@@ -1,0 +1,5 @@
+{"from":"wikipedia://en/194123#BKC0","to":"wikipedia://en/26513034","predicate":"uses","method":"named-link","confidence":"high","span":[12030,12053],"revision":1371067560,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/194123#BKC0","to":"wikipedia://en/1102297","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[12520,12545],"revision":1371067560,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/251424#WVMP","to":"wikipedia://en/56129","predicate":"uses","method":"link-in-item","confidence":"high","span":[17472,17491],"revision":1370098282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/251424#WVMP","to":"wikipedia://en/3189","predicate":"uses","method":"link-in-item","confidence":"high","span":[17517,17546],"revision":1370098282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/517370#LSM2","to":"wikipedia://en/6317514","predicate":"listed-in","method":"list","confidence":"certain","span":[29680,29696],"revision":1353185276,"by":"importer/wikipedia/1"}

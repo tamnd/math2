@@ -1,1 +1,7 @@
 {"id":"GJE5AEQZ9A","mentions":["ax://paper/2610.04046#1LYZ"],"kind":"statement","msc":["17-XX","81-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.12"}]}
+{"id":"GJE5VF8AWK","mentions":["wikipedia://en/194926#SV5F"],"kind":"definition","name":"Constructions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"GJE7GKN811","mentions":["wikipedia://en/48781047#T19S"],"kind":"definition","name":"ring spectrum","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"GJEHTXVJQP","mentions":["wikipedia://en/11353703#ANFD"],"kind":"unknown","name":"E. Morton Jellinek","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"GJEKBF6B6P","mentions":["wikipedia://en/140829#6TWV"],"kind":"topic","name":"Chuprov, Alexander Ivanovich","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"GJEMSG3N3S","mentions":["wikipedia://en/4500787#BSQT"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"GJEY1AEVEM","mentions":["wikipedia://en/35326250#ZZPI"],"kind":"definition","name":"total","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

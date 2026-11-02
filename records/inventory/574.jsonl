@@ -1,2 +1,10 @@
+{"id":"57404GNF93","mentions":["wikipedia://en/191457#72EC"],"kind":"topic","name":"Index of dispersion","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5743YG7314","mentions":["wikipedia://en/1882219#IRNJ"],"kind":"definition","name":"Dual code","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"57441SQQHZ","mentions":["wikipedia://en/10896234#2K6Z"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"574832AXWD","mentions":["wikipedia://en/31213900#CNQV"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5749XJ0GF3","mentions":["wikipedia://en/32718#HIWG"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"574EDMRBGE","mentions":["wikipedia://en/21079027"],"kind":"topic","name":"Fedor Nazarov","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"574HTTJRG9","mentions":["ax://paper/2609.30203#C1TH"],"kind":"statement","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}
+{"id":"574MM6M6ZP","mentions":["wikipedia://en/3004668#L23O"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"574VKKNXM1","mentions":["wikipedia://en/14528017#QNMR"],"kind":"topic","name":"Igor Shafarevich","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"574WPVXY9R","mentions":["m2://rec/open_logic/content/propositional-logic/syntax-and-semantics/semantic-notions.tex#defn-1#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/140829#4FPX","to":"wikipedia://en/22761479","predicate":"listed-in","method":"list","confidence":"certain","span":[28816,28848],"revision":1372044875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#TKXZ","to":"wikipedia://en/54262640","predicate":"listed-in","method":"list","confidence":"certain","span":[7508,7539],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38256214#2B6E","to":"wikipedia://en/19354654","predicate":"uses","method":"link-in-item","confidence":"high","span":[39607,39623],"revision":1355326396,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40183538#1TP0","to":"wikipedia://en/21091721","predicate":"listed-in","method":"list","confidence":"certain","span":[1871,1896],"revision":1349989228,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83028216","to":"wikipedia://en/19636","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,25],"revision":1351821693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83028216","to":"wikipedia://en/323392","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[30,62],"revision":1351821693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83028216","to":"wikipedia://en/40282","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[105,120],"revision":1351821693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83028216","to":"wikipedia://en/44554214","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[167,192],"revision":1351821693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83028216","to":"wikipedia://en/33974223","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[208,232],"revision":1351821693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83028216","to":"wikipedia://en/294056#OKDB","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[260,328],"revision":1351821693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83028216","to":"wikipedia://en/33974223","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[333,364],"revision":1351821693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83028216","to":"wikipedia://en/5085531#8MSE","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[645,707],"revision":1351821693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83028216","to":"wikipedia://en/31842262","predicate":"related","method":"link-in-lead","confidence":"low","span":[1030,1057],"revision":1351821693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83028216","to":"wikipedia://en/46250924","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1234,1250],"revision":1351821693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83028216","to":"wikipedia://en/4426773","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1257,1293],"revision":1351821693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83028216","to":"Category:Type theory","predicate":"in-field","method":"category","confidence":"medium","span":[4215,4239],"revision":1351821693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83028216","to":"Category:Systems of formal logic","predicate":"in-field","method":"category","confidence":"medium","span":[4240,4276],"revision":1351821693,"by":"importer/wikipedia/1"}

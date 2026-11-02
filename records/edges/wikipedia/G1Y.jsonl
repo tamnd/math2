@@ -1,0 +1,26 @@
+{"from":"wikipedia://en/2151199","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2121,2138],"revision":1346436974,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2151199","to":"wikipedia://en/9531","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2143,2166],"revision":1346436974,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2151199","to":"wikipedia://en/10375","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2222,2256],"revision":1346436974,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2151199","to":"wikipedia://en/21031297","predicate":"related","method":"link-in-text","confidence":"low","span":[2292,2301],"revision":1346436974,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2151199","to":"wikipedia://en/18831","predicate":"related","method":"link-in-text","confidence":"low","span":[2305,2320],"revision":1346436974,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2151199","to":"wikipedia://en/18879","predicate":"related","method":"link-in-text","confidence":"low","span":[2328,2369],"revision":1346436974,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2151199","to":"wikipedia://en/1499013","predicate":"related","method":"link-in-text","confidence":"low","span":[2397,2417],"revision":1346436974,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2151199","to":"wikipedia://en/2151050","predicate":"related","method":"link-in-text","confidence":"low","span":[2470,2488],"revision":1346436974,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2151199","to":"wikipedia://en/45600","predicate":"related","method":"link-in-text","confidence":"low","span":[2551,2607],"revision":1346436974,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2151199","to":"wikipedia://en/231522","predicate":"related","method":"link-in-text","confidence":"low","span":[2759,2807],"revision":1346436974,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2151199","to":"wikipedia://en/6429","predicate":"related","method":"link-in-text","confidence":"low","span":[2834,2850],"revision":1346436974,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2151199","to":"wikipedia://en/13210508","predicate":"related","method":"link-in-text","confidence":"low","span":[3438,3465],"revision":1346436974,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2151199","to":"wikipedia://en/16459","predicate":"related","method":"link-in-text","confidence":"low","span":[3544,3573],"revision":1346436974,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2151199","to":"wikipedia://en/92408","predicate":"related","method":"link-in-text","confidence":"low","span":[3579,3603],"revision":1346436974,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2151199","to":"wikipedia://en/25955086","predicate":"related","method":"link-in-text","confidence":"low","span":[3656,3666],"revision":1346436974,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2151199","to":"wikipedia://en/67240","predicate":"related","method":"link-in-text","confidence":"low","span":[3850,3872],"revision":1346436974,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2151199","to":"wikipedia://en/18879","predicate":"related","method":"link-in-text","confidence":"low","span":[3924,3934],"revision":1346436974,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2151199","to":"wikipedia://en/38223","predicate":"related","method":"link-in-text","confidence":"low","span":[4429,4442],"revision":1346436974,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2151199","to":"wikipedia://en/245089","predicate":"related","method":"link-in-text","confidence":"low","span":[4652,4674],"revision":1346436974,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2151199","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[5490,5539],"revision":1346436974,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2151199","to":"Category:American theoretical computer scientists","predicate":"in-field","method":"category","confidence":"medium","span":[5540,5593],"revision":1346436974,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2151199","to":"Category:American information theorists","predicate":"in-field","method":"category","confidence":"medium","span":[5594,5637],"revision":1346436974,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565351#JULU","to":"wikipedia://en/496098","predicate":"listed-in","method":"list","confidence":"certain","span":[5602,5625],"revision":1373350261,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55799101#6LZE","to":"wikipedia://en/62881966","predicate":"uses","method":"link-in-item","confidence":"high","span":[2787,2839],"revision":1351912484,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#2869","to":"wikipedia://en/35098575","predicate":"listed-in","method":"list","confidence":"certain","span":[55888,55908],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#2869","to":"wikipedia://en/386468","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[55912,55933],"revision":1373797939,"by":"importer/wikipedia/1"}

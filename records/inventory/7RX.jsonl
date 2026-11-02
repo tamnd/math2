@@ -1,1 +1,6 @@
-{"id":"7RX31ZVVNY","mentions":["m2://rec/wikidata/Q2000614#1"],"kind":"concept","name":"linking number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"7RX31ZVVNY","mentions":["m2://rec/wikidata/Q2000614#1","wikipedia://en/451999"],"kind":"concept","name":"linking number","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}],"proofs":["wikipedia://en/451999#167K"]}
+{"id":"7RXEK0DWHH","mentions":["wikipedia://en/20084600"],"kind":"definition","name":"Moderation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7RXKMHNKS1","mentions":["wikipedia://en/35457783#RBE9"],"kind":"definition","name":"tropical geometry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7RXPE6ERKC","mentions":["wikipedia://en/14403539#JUZM"],"kind":"topic","name":"W. T. Tutte","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7RXRQR0HGE","mentions":["wikipedia://en/60858453"],"kind":"topic","name":"Julia Gordon","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7RXYPK3GVM","mentions":["wikipedia://en/11953"],"kind":"definition","name":"History of geometry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

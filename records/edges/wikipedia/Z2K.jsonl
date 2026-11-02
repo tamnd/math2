@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/11353703#WSA1","to":"wikipedia://en/28255586","predicate":"listed-in","method":"list","confidence":"certain","span":[113825,113837],"revision":1373003451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18766220","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[62,90],"revision":1343953956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18766220","to":"wikipedia://en/15513875","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[104,141],"revision":1343953956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18766220","to":"wikipedia://en/285623","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[203,225],"revision":1343953956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18766220","to":"wikipedia://en/5916","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[255,272],"revision":1343953956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18766220","to":"wikipedia://en/91096","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[278,290],"revision":1343953956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18766220","to":"wikipedia://en/488196","predicate":"related","method":"link-in-lead","confidence":"low","span":[357,376],"revision":1343953956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18766220","to":"wikipedia://en/3868862","predicate":"related","method":"link-in-lead","confidence":"low","span":[378,396],"revision":1343953956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18766220","to":"wikipedia://en/139229","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[958,984],"revision":1343953956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18766220","to":"Category:Differential geometry of surfaces","predicate":"in-field","method":"category","confidence":"medium","span":[1689,1735],"revision":1343953956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18766220","to":"Category:Theorems in differential geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[1736,1782],"revision":1343953956,"by":"importer/wikipedia/1"}

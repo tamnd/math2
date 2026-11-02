@@ -1,2 +1,7 @@
+{"id":"PWJ1J6ASNE","mentions":["wikipedia://en/4781110"],"kind":"definition","name":"Regina","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PWJ1JFMHG2","mentions":["m2://rec/lebl_ra/ch-approximate.tex#defn-4#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"PWJ4CD12SJ","mentions":["wikipedia://en/29004#RE5I"],"kind":"unknown","name":"Distributed SQL processing","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PWJE0ZP0GQ","mentions":["ax://paper/2609.26496#SZF3"],"kind":"definition","msc":["46-XX","47-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}
+{"id":"PWJEH5VXCG","mentions":["wikipedia://en/938659"],"kind":"definition","name":"Vertical deflection","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"PWJF5D2GZS","mentions":["wikipedia://en/21890593"],"kind":"definition","name":"Nuisance variable","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"PWJG9FPM9E","mentions":["wikipedia://en/314366"],"kind":"definition","name":"H-infinity methods in control theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

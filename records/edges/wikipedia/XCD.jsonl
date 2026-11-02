@@ -1,0 +1,43 @@
+{"from":"wikipedia://en/2229296#8UIN","to":"wikipedia://en/10606","predicate":"uses","method":"link-in-item","confidence":"high","span":[35508,35547],"revision":1370064327,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2229296#8UIN","to":"wikipedia://en/507208#MO3B","predicate":"uses","method":"link-in-item","confidence":"medium","span":[37263,37314],"revision":1370064327,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2229296#8UIN","to":"wikipedia://en/95465","predicate":"uses","method":"link-in-item","confidence":"high","span":[37606,37626],"revision":1370064327,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2229296#8UIN","to":"wikipedia://en/4668","predicate":"uses","method":"link-in-item","confidence":"high","span":[37646,37671],"revision":1370064327,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2229296#8UIN","to":"wikipedia://en/5041744","predicate":"uses","method":"link-in-item","confidence":"high","span":[37704,37724],"revision":1370064327,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"wikipedia://en/24607","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1269,1295],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"wikipedia://en/29402","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1296,1305],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"wikipedia://en/33785915","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1991,2002],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"wikipedia://en/179645","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2004,2015],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"wikipedia://en/12025","predicate":"related","method":"link-in-text","confidence":"low","span":[2161,2177],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"wikipedia://en/638742","predicate":"related","method":"link-in-text","confidence":"low","span":[2314,2321],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"wikipedia://en/377427","predicate":"related","method":"link-in-text","confidence":"low","span":[2335,2347],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"wikipedia://en/439791","predicate":"related","method":"link-in-text","confidence":"low","span":[2539,2549],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"wikipedia://en/542300","predicate":"related","method":"link-in-text","confidence":"low","span":[2566,2580],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"wikipedia://en/2014775","predicate":"related","method":"link-in-text","confidence":"low","span":[2672,2698],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"wikipedia://en/33642424","predicate":"related","method":"link-in-text","confidence":"low","span":[2750,2771],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"wikipedia://en/8465426","predicate":"related","method":"link-in-text","confidence":"low","span":[2811,2835],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"wikipedia://en/326595","predicate":"related","method":"see-also","confidence":"low","span":[6547,6571],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"wikipedia://en/3335321","predicate":"related","method":"see-also","confidence":"low","span":[6574,6604],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"Template:Commons category","predicate":"in-nav","method":"nav","confidence":"low","span":[7909,7961],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"Template:Portal bar","predicate":"in-nav","method":"nav","confidence":"low","span":[8393,8446],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"Template:Navboxes","predicate":"in-nav","method":"nav","confidence":"low","span":[8448,8640],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"Category:Asharis","predicate":"in-field","method":"category","confidence":"medium","span":[8665,8685],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"Category:Sunni Sufis","predicate":"in-field","method":"category","confidence":"medium","span":[8686,8710],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"Category:Quranic exegesis scholars","predicate":"in-field","method":"category","confidence":"medium","span":[8711,8749],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"Category:Persian Sunni Muslim scholars of Islam","predicate":"in-field","method":"category","confidence":"medium","span":[8750,8801],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"Category:14th-century Iranian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[8802,8850],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"Category:Iranian philosophers","predicate":"in-field","method":"category","confidence":"medium","span":[8851,8884],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"Category:Writers from Nishapur","predicate":"in-field","method":"category","confidence":"medium","span":[8914,8948],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"Category:Iranian Sunni Muslims","predicate":"in-field","method":"category","confidence":"medium","span":[8949,8983],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"Category:14th-century Muslim scholars of Islam","predicate":"in-field","method":"category","confidence":"medium","span":[8984,9034],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"Category:14th-century Iranian astronomers","predicate":"in-field","method":"category","confidence":"medium","span":[9035,9080],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"Category:Astronomers of the medieval Islamic world","predicate":"in-field","method":"category","confidence":"medium","span":[9081,9135],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35767797","to":"Category:Mathematicians from Nishapur","predicate":"in-field","method":"category","confidence":"medium","span":[9136,9177],"revision":1363841128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55212#383P","to":"wikipedia://en/20431","predicate":"uses","method":"link-in-item","confidence":"high","span":[16705,16717],"revision":1375948061,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55212#383P","to":"wikipedia://en/34180753","predicate":"uses","method":"link-in-item","confidence":"high","span":[18221,18270],"revision":1375948061,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55212#383P","to":"wikipedia://en/32533","predicate":"uses","method":"link-in-item","confidence":"high","span":[19722,19782],"revision":1375948061,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55212#383P","to":"wikipedia://en/92290","predicate":"uses","method":"link-in-item","confidence":"high","span":[20056,20082],"revision":1375948061,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55212#383P","to":"wikipedia://en/452577","predicate":"uses","method":"link-in-item","confidence":"medium","span":[20409,20430],"revision":1375948061,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55212#383P","to":"wikipedia://en/38954","predicate":"uses","method":"link-in-item","confidence":"medium","span":[21074,21092],"revision":1375948061,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55212#383P","to":"wikipedia://en/1063435","predicate":"uses","method":"link-in-item","confidence":"medium","span":[21148,21179],"revision":1375948061,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55212#383P","to":"wikipedia://en/4495335","predicate":"uses","method":"link-in-item","confidence":"high","span":[21858,21889],"revision":1375948061,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55212#383P","to":"wikipedia://en/244611","predicate":"uses","method":"link-in-item","confidence":"medium","span":[22036,22077],"revision":1375948061,"by":"importer/wikipedia/1"}

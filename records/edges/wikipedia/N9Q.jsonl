@@ -1,0 +1,27 @@
+{"from":"wikipedia://en/4539673#N6KY","to":"wikipedia://en/352376","predicate":"uses","method":"link-in-item","confidence":"high","span":[10219,10235],"revision":1359999772,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4539673#N6KY","to":"wikipedia://en/19562","predicate":"related","method":"link-in-item","confidence":"low","span":[10725,10743],"revision":1359999772,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4539673#N6KY","to":"wikipedia://en/4457659","predicate":"uses","method":"link-in-item","confidence":"high","span":[10762,10781],"revision":1359999772,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4539673#N6KY","to":"wikipedia://en/56434","predicate":"uses","method":"link-in-item","confidence":"high","span":[10848,10861],"revision":1359999772,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57242824#N31R","to":"wikipedia://en/25330786","predicate":"listed-in","method":"list","confidence":"certain","span":[10093,10114],"revision":1365520422,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59338#W3TE","to":"wikipedia://en/161875","predicate":"related","method":"link-in-item","confidence":"low","span":[33107,33121],"revision":1375587762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59338#W3TE","to":"wikipedia://en/31395652","predicate":"uses","method":"link-in-item","confidence":"high","span":[33217,33268],"revision":1375587762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59338#W3TE","to":"wikipedia://en/55275","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[33294,33320],"revision":1375587762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59338#W3TE","to":"wikipedia://en/40205956","predicate":"uses","method":"link-in-item","confidence":"medium","span":[33748,33768],"revision":1375587762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59338#W3TE","to":"wikipedia://en/2052","predicate":"uses","method":"link-in-item","confidence":"medium","span":[33884,33913],"revision":1375587762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59338#W3TE","to":"wikipedia://en/49172","predicate":"uses","method":"link-in-item","confidence":"high","span":[34532,34598],"revision":1375587762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59338#W3TE","to":"wikipedia://en/54267","predicate":"uses","method":"link-in-item","confidence":"high","span":[34619,34665],"revision":1375587762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59338#W3TE","to":"wikipedia://en/8628537","predicate":"uses","method":"link-in-item","confidence":"medium","span":[34696,34718],"revision":1375587762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76029326","to":"wikipedia://en/1488752","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1364,1402],"revision":1354344711,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76029326","to":"wikipedia://en/72312205","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1803,1820],"revision":1354344711,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76029326","to":"wikipedia://en/9532802","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1844,1899],"revision":1354344711,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76029326","to":"wikipedia://en/1926783","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1911,1952],"revision":1354344711,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76029326","to":"wikipedia://en/18716923","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[2005,2026],"revision":1354344711,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76029326","to":"wikipedia://en/489674","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2733,2768],"revision":1354344711,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76029326","to":"wikipedia://en/16392","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2812,2828],"revision":1354344711,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76029326","to":"wikipedia://en/479983","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3910,3940],"revision":1354344711,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76029326","to":"wikipedia://en/30872766","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3983,4029],"revision":1354344711,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76029326","to":"wikipedia://en/3437663","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[4168,4226],"revision":1354344711,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76029326","to":"wikipedia://en/19725260","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[4234,4248],"revision":1354344711,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76029326","to":"Category:Elections in San Francisco","predicate":"in-field","method":"category","confidence":"medium","span":[4527,4566],"revision":1354344711,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76029326","to":"Category:Education in San Francisco","predicate":"in-field","method":"category","confidence":"medium","span":[4567,4606],"revision":1354344711,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76029326","to":"Category:Ballot measures in San Francisco","predicate":"in-field","method":"category","confidence":"medium","span":[4607,4652],"revision":1354344711,"by":"importer/wikipedia/1"}

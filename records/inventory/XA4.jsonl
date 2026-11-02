@@ -1,4 +1,10 @@
 {"id":"XA48MVJZ8K","mentions":["m2://rec/mathlib_overview/General algebra > Numbers > integer#1"],"kind":"unknown","name":"integer","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"XA4ACK6DNT","mentions":["wikipedia://en/27226892"],"kind":"definition","name":"NLab","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XA4PC7WDYV","mentions":["m2://rec/wikidata/Q7843541#1"],"kind":"unknown","name":"genus-three surface","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"XA4QMGXTDM","mentions":["m2://rec/wikidata/Q243972#1"],"kind":"definition","name":"Erdős number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"XA4QMGXTDM","mentions":["m2://rec/wikidata/Q243972#1","wikipedia://en/9742"],"kind":"definition","name":"Erdős number","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"XA4TS7CSVQ","mentions":["wikipedia://en/59521#4LA7"],"kind":"statement","name":"Special cases","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XA4VQ2684B","mentions":["m2://rec/lebl_ra/ch-seq-funcs.tex#exercise-41#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"XA4VS3SVGK","mentions":["wikipedia://en/52509158#E731"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"XA4WP9R1EK","mentions":["wikipedia://en/596556#SLGU"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"XA4WPG63FD","mentions":["wikipedia://en/30562#ET2Y"],"kind":"definition","name":"Limit space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"XA4XVXPT0V","mentions":["wikipedia://en/28996847"],"kind":"definition","name":"Geophysical fluid dynamics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

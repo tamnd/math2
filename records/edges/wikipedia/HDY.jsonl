@@ -1,0 +1,19 @@
+{"from":"wikipedia://en/18543655","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[59,74],"revision":1362926741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18543655","to":"wikipedia://en/4460333","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[91,117],"revision":1362926741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18543655","to":"wikipedia://en/6822584","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[256,274],"revision":1362926741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18543655","to":"wikipedia://en/152111","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[353,372],"revision":1362926741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18543655","to":"wikipedia://en/601284","predicate":"related","method":"link-in-lead","confidence":"low","span":[402,417],"revision":1362926741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18543655","to":"wikipedia://en/5397705","predicate":"related","method":"link-in-lead","confidence":"low","span":[422,458],"revision":1362926741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18543655","to":"wikipedia://en/54365238","predicate":"related","method":"see-also","confidence":"low","span":[8952,8979],"revision":1362926741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18543655","to":"wikipedia://en/31244492","predicate":"related","method":"see-also","confidence":"low","span":[9179,9227],"revision":1362926741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18543655","to":"Category:Theorems in combinatorics","predicate":"kind-of","method":"category","confidence":"medium","span":[10061,10099],"revision":1362926741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18543655","to":"Category:Theorems in number theory","predicate":"kind-of","method":"category","confidence":"medium","span":[10100,10138],"revision":1362926741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18543655","to":"Category:Paul Erdős","predicate":"in-field","method":"category","confidence":"medium","span":[10139,10177],"revision":1362926741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35200052","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[46,61],"revision":1325892944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35200052","to":"wikipedia://en/244541","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[104,146],"revision":1325892944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35200052","to":"wikipedia://en/10225","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[153,171],"revision":1325892944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35200052","to":"wikipedia://en/43604164","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[184,232],"revision":1325892944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35200052","to":"wikipedia://en/35154484","predicate":"related","method":"see-also","confidence":"low","span":[301,317],"revision":1325892944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35200052","to":"Category:Elliptic curves","predicate":"in-field","method":"category","confidence":"medium","span":[644,672],"revision":1325892944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35200052","to":"Category:Theorems in number theory","predicate":"kind-of","method":"category","confidence":"medium","span":[673,711],"revision":1325892944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76918343#Q3UZ","to":"wikipedia://en/51004775","predicate":"listed-in","method":"list","confidence":"certain","span":[2534,2552],"revision":1368950121,"by":"importer/wikipedia/1"}

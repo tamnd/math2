@@ -1,0 +1,10 @@
+{"from":"wikipedia://en/13314857#SID5","to":"wikipedia://en/2377770","predicate":"listed-in","method":"list","confidence":"certain","span":[14765,14790],"revision":1213244604,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13314857#SID5","to":"wikipedia://en/4342842","predicate":"uses","method":"link-in-item","confidence":"medium","span":[15781,15801],"revision":1213244604,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64224439","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":964336643,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64224439","to":"wikipedia://en/449477","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[87,104],"revision":964336643,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64224439","to":"wikipedia://en/20437320","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[143,196],"revision":964336643,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64224439","to":"wikipedia://en/20437320","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[221,256],"revision":964336643,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64224439","to":"wikipedia://en/20437320","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[259,295],"revision":964336643,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64224439","to":"wikipedia://en/40326","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[298,326],"revision":964336643,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64224439","to":"wikipedia://en/649616","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[329,359],"revision":964336643,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64224439","to":"Category:Quadratic forms","predicate":"in-field","method":"category","confidence":"medium","span":[396,424],"revision":964336643,"by":"importer/wikipedia/1"}

@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/1182982","to":"wikipedia://en/18422","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[48,66],"revision":1292552145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1182982","to":"wikipedia://en/32370","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[76,92],"revision":1292552145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1182982","to":"wikipedia://en/18420","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[115,147],"revision":1292552145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1182982","to":"wikipedia://en/23218956","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[166,210],"revision":1292552145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1182982","to":"wikipedia://en/393055","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[225,238],"revision":1292552145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1182982","to":"wikipedia://en/6174","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[259,274],"revision":1292552145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1182982","to":"wikipedia://en/38267","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[300,338],"revision":1292552145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1182982","to":"wikipedia://en/7988","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[440,454],"revision":1292552145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1182982","to":"wikipedia://en/1090253","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[564,587],"revision":1292552145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1182982","to":"wikipedia://en/101863","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[612,636],"revision":1292552145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1182982","to":"wikipedia://en/56353","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[662,682],"revision":1292552145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1182982","to":"wikipedia://en/14856","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1018,1035],"revision":1292552145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1182982","to":"wikipedia://en/182890","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1373,1392],"revision":1292552145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1182982","to":"wikipedia://en/157093","predicate":"related","method":"link-in-text","confidence":"low","span":[1577,1592],"revision":1292552145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1182982","to":"wikipedia://en/276410","predicate":"related","method":"link-in-text","confidence":"low","span":[4820,4851],"revision":1292552145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1182982","to":"wikipedia://en/664488","predicate":"related","method":"see-also","confidence":"low","span":[8677,8699],"revision":1292552145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1182982","to":"wikipedia://en/1089079","predicate":"related","method":"see-also","confidence":"low","span":[8702,8718],"revision":1292552145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1182982","to":"wikipedia://en/43747856","predicate":"related","method":"see-also","confidence":"low","span":[8721,8734],"revision":1292552145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1182982","to":"Category:Linear algebra","predicate":"in-field","method":"category","confidence":"medium","span":[9168,9195],"revision":1292552145,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35338559","to":"wikipedia://en/629100","predicate":"related","method":"link-in-lead","confidence":"low","span":[88,104],"revision":1221118494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35338559","to":"Category:Dynamical systems","predicate":"in-field","method":"category","confidence":"medium","span":[506,536],"revision":1221118494,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35338559","to":"Category:Conjectures","predicate":"kind-of","method":"category","confidence":"medium","span":[537,561],"revision":1221118494,"by":"importer/wikipedia/1"}

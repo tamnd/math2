@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/11353703#Y7KZ","to":"wikipedia://en/517973","predicate":"listed-in","method":"list","confidence":"certain","span":[143881,143898],"revision":1373003451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/183091#PER5","to":"wikipedia://en/2275071","predicate":"listed-in","method":"list","confidence":"certain","span":[144621,144648],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/183091#PER5","to":"wikipedia://en/13772472","predicate":"uses","method":"link-in-item","confidence":"high","span":[144649,144675],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/183091#PER5","to":"wikipedia://en/20696","predicate":"uses","method":"link-in-item","confidence":"high","span":[144691,144726],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/183091#PER5","to":"wikipedia://en/248105","predicate":"uses","method":"link-in-item","confidence":"high","span":[144730,144750],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/183091#PER5","to":"wikipedia://en/13772472","predicate":"uses","method":"link-in-item","confidence":"high","span":[144757,144769],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/183091#PER5","to":"wikipedia://en/12450","predicate":"related","method":"link-in-item","confidence":"low","span":[144795,144828],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4165631#D47I","to":"wikipedia://en/113013","predicate":"listed-in","method":"list","confidence":"certain","span":[10840,10861],"revision":1369968152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4165631#D47I","to":"wikipedia://en/184804","predicate":"uses","method":"link-in-item","confidence":"medium","span":[10915,10934],"revision":1369968152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4165631#D47I","to":"wikipedia://en/4234894","predicate":"uses","method":"link-in-item","confidence":"high","span":[11018,11061],"revision":1369968152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4165631#D47I","to":"wikipedia://en/147252","predicate":"uses","method":"link-in-item","confidence":"high","span":[11077,11150],"revision":1369968152,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41685609#OJF6","to":"wikipedia://en/13588967","predicate":"listed-in","method":"list","confidence":"certain","span":[3452,3464],"revision":1365481337,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54426201","to":"wikipedia://en/19636","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[92,114],"revision":1339662430,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54426201","to":"Category:Theorems in mathematical analysis","predicate":"kind-of","method":"category","confidence":"medium","span":[7770,7816],"revision":1339662430,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72003352","to":"wikipedia://en/13725281","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[56,82],"revision":1307802266,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72003352","to":"wikipedia://en/56601","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[86,100],"revision":1307802266,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72003352","to":"wikipedia://en/201155","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[115,133],"revision":1307802266,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72003352","to":"wikipedia://en/57824","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1068,1093],"revision":1307802266,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72003352","to":"wikipedia://en/6292","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1095,1116],"revision":1307802266,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72003352","to":"wikipedia://en/6042","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1118,1145],"revision":1307802266,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72003352","to":"Category:Dynamical systems","predicate":"in-field","method":"category","confidence":"medium","span":[3037,3067],"revision":1307802266,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72003352","to":"Category:Variational analysis","predicate":"in-field","method":"category","confidence":"medium","span":[3068,3101],"revision":1307802266,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72003352","to":"Category:Fuzzy logic","predicate":"in-field","method":"category","confidence":"medium","span":[3102,3126],"revision":1307802266,"by":"importer/wikipedia/1"}

@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/1105069","to":"wikipedia://en/51072","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[130,151],"revision":1372701612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1105069","to":"wikipedia://en/911318","predicate":"related","method":"link-in-lead","confidence":"low","span":[347,362],"revision":1372701612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1105069","to":"wikipedia://en/51072","predicate":"related","method":"see-also","confidence":"low","span":[3770,3791],"revision":1372701612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1105069","to":"wikipedia://en/254299","predicate":"related","method":"see-also","confidence":"low","span":[3794,3827],"revision":1372701612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1105069","to":"wikipedia://en/910234","predicate":"related","method":"see-also","confidence":"low","span":[3830,3857],"revision":1372701612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1105069","to":"wikipedia://en/252329","predicate":"related","method":"see-also","confidence":"low","span":[3860,3880],"revision":1372701612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1105069","to":"Category:Logic","predicate":"in-field","method":"category","confidence":"medium","span":[5187,5205],"revision":1372701612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2325953#M67Q","to":"wikipedia://en/25220","predicate":"uses","method":"link-in-item","confidence":"high","span":[1078,1099],"revision":1369620252,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2325953#M67Q","to":"wikipedia://en/18949896","predicate":"related","method":"link-in-item","confidence":"low","span":[2007,2027],"revision":1369620252,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26140398#5Z1O","to":"wikipedia://en/10083462","predicate":"uses","method":"link-in-item","confidence":"high","span":[2867,2877],"revision":1355592311,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26140398#5Z1O","to":"wikipedia://en/2192366","predicate":"uses","method":"link-in-item","confidence":"high","span":[2881,2920],"revision":1355592311,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26469#8IIN","to":"wikipedia://en/10918","predicate":"uses","method":"link-in-item","confidence":"high","span":[16202,16222],"revision":1341341223,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26469#8IIN","to":"wikipedia://en/222665","predicate":"uses","method":"link-in-item","confidence":"medium","span":[16225,16249],"revision":1341341223,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/675231#QEFT","to":"wikipedia://en/19721986","predicate":"uses","method":"link-in-item","confidence":"high","span":[22772,22791],"revision":1362295874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/675231#QEFT","to":"wikipedia://en/103127","predicate":"uses","method":"link-in-item","confidence":"medium","span":[24422,24444],"revision":1362295874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/675231#QEFT","to":"wikipedia://en/562782","predicate":"uses","method":"link-in-item","confidence":"high","span":[24736,24752],"revision":1362295874,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/675231#QEFT","to":"wikipedia://en/9607933","predicate":"uses","method":"named-link","confidence":"high","span":[25369,25390],"revision":1362295874,"by":"importer/wikipedia/1"}

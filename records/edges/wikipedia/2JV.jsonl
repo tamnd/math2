@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/13763478#E9U4","to":"wikipedia://en/13763478","predicate":"uses","method":"anchor","confidence":"certain","span":[7344,7369],"revision":1323625538,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13763478#E9U4","to":"wikipedia://en/230581","predicate":"related","method":"link-in-item","confidence":"low","span":[8333,8362],"revision":1323625538,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25830260","to":"wikipedia://en/356158","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[244,277],"revision":1352090774,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25830260","to":"wikipedia://en/13660","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[406,423],"revision":1352090774,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25830260","to":"wikipedia://en/9697","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[427,446],"revision":1352090774,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25830260","to":"Category:Geometric topology","predicate":"in-field","method":"category","confidence":"medium","span":[5725,5756],"revision":1352090774,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25830260","to":"Category:Theorems in topology","predicate":"kind-of","method":"category","confidence":"medium","span":[5757,5790],"revision":1352090774,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/759831#X9F7","to":"wikipedia://en/381323","predicate":"uses","method":"link-in-item","confidence":"high","span":[4408,4427],"revision":1293586940,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/759831#X9F7","to":"wikipedia://en/381323","predicate":"uses","method":"link-in-item","confidence":"high","span":[4432,4450],"revision":1293586940,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/759831#X9F7","to":"wikipedia://en/1434441","predicate":"uses","method":"link-in-item","confidence":"high","span":[4884,4902],"revision":1293586940,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/759831#X9F7","to":"wikipedia://en/9616","predicate":"uses","method":"link-in-item","confidence":"high","span":[5063,5097],"revision":1293586940,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/759831#X9F7","to":"wikipedia://en/2920873","predicate":"uses","method":"link-in-item","confidence":"high","span":[5187,5213],"revision":1293586940,"by":"importer/wikipedia/1"}

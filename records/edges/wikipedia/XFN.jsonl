@@ -1,0 +1,26 @@
+{"from":"wikipedia://en/14854086","to":"wikipedia://en/72038","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[750,757],"revision":1329885326,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14854086","to":"wikipedia://en/52564","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[786,820],"revision":1329885326,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14854086","to":"wikipedia://en/1359360","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1103,1113],"revision":1329885326,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14854086","to":"wikipedia://en/100649","predicate":"related","method":"link-in-text","confidence":"low","span":[1349,1374],"revision":1329885326,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14854086","to":"wikipedia://en/298971","predicate":"related","method":"link-in-text","confidence":"low","span":[1423,1449],"revision":1329885326,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14854086","to":"wikipedia://en/3492726","predicate":"related","method":"link-in-text","confidence":"low","span":[1474,1506],"revision":1329885326,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14854086","to":"wikipedia://en/170173","predicate":"related","method":"link-in-text","confidence":"low","span":[2179,2242],"revision":1329885326,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14854086","to":"wikipedia://en/1181008","predicate":"related","method":"link-in-text","confidence":"low","span":[2271,2295],"revision":1329885326,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14854086","to":"wikipedia://en/18233581","predicate":"related","method":"link-in-text","confidence":"low","span":[2339,2357],"revision":1329885326,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14854086","to":"wikipedia://en/345017","predicate":"related","method":"link-in-text","confidence":"low","span":[2362,2379],"revision":1329885326,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14854086","to":"wikipedia://en/39147","predicate":"related","method":"link-in-text","confidence":"low","span":[2403,2451],"revision":1329885326,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14854086","to":"Category:Numerical software","predicate":"in-field","method":"category","confidence":"medium","span":[3819,3850],"revision":1329885326,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14854086","to":"Category:Numerical linear algebra","predicate":"in-field","method":"category","confidence":"medium","span":[3851,3888],"revision":1329885326,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14854086","to":"Category:Scientific simulation software","predicate":"in-field","method":"category","confidence":"medium","span":[3889,3932],"revision":1329885326,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14854086","to":"Category:C++ libraries","predicate":"in-field","method":"category","confidence":"medium","span":[3933,3959],"revision":1329885326,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14854086","to":"Category:Finite element software for Linux","predicate":"in-field","method":"category","confidence":"medium","span":[3960,4006],"revision":1329885326,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14854086","to":"Category:Free software programmed in C++","predicate":"in-field","method":"category","confidence":"medium","span":[4007,4051],"revision":1329885326,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14854086","to":"Category:Software using the GNU General Public License","predicate":"in-field","method":"category","confidence":"medium","span":[4052,4110],"revision":1329885326,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3279949#V9UK","to":"wikipedia://en/26000","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7610,7648],"revision":1368921590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3279949#V9UK","to":"wikipedia://en/18567210","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7659,7680],"revision":1368921590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3279949#V9UK","to":"wikipedia://en/16234982","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7851,7872],"revision":1368921590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3279949#V9UK","to":"wikipedia://en/6596","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7888,7907],"revision":1368921590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3279949#V9UK","to":"wikipedia://en/9280064","predicate":"uses","method":"link-in-item","confidence":"high","span":[8163,8207],"revision":1368921590,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#5YXK","to":"wikipedia://en/43730","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[49422,49444],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#5YXK","to":"wikipedia://en/20590","predicate":"uses","method":"link-in-item","confidence":"high","span":[49537,49559],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#5YXK","to":"wikipedia://en/152111","predicate":"uses","method":"link-in-item","confidence":"high","span":[49598,49663],"revision":1371281804,"by":"importer/wikipedia/1"}

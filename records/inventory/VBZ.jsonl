@@ -1,1 +1,3 @@
+{"id":"VBZ553VFPT","mentions":["wikipedia://en/51140705#WXRJ"],"kind":"topic","name":"Andrea Troxel","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"VBZ96NCRWC","mentions":["ax://paper/2610.08583#KJY1"],"kind":"statement","msc":["57-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.10"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}]}
+{"id":"VBZVMZDPXH","mentions":["wikipedia://en/52297304"],"kind":"definition","name":"Convergence group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

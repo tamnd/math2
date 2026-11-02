@@ -1,0 +1,27 @@
+{"from":"wikipedia://en/2648614","to":"wikipedia://en/396102","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[38,64],"revision":1226528197,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2648614","to":"wikipedia://en/2546","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[69,108],"revision":1226528197,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2648614","to":"wikipedia://en/33522862","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[112,132],"revision":1226528197,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2648614","to":"wikipedia://en/2724082","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[198,224],"revision":1226528197,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2648614","to":"wikipedia://en/614147","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[306,371],"revision":1226528197,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2648614","to":"wikipedia://en/4638484","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[484,516],"revision":1226528197,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2648614","to":"wikipedia://en/10983","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[529,562],"revision":1226528197,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2648614","to":"wikipedia://en/83006","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[649,660],"revision":1226528197,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2648614","to":"wikipedia://en/8006711","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[689,703],"revision":1226528197,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2648614","to":"wikipedia://en/31271451","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[722,790],"revision":1226528197,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2648614","to":"wikipedia://en/23401166","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[864,881],"revision":1226528197,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2648614","to":"wikipedia://en/2546","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[962,1006],"revision":1226528197,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2648614","to":"wikipedia://en/265268","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1066,1097],"revision":1226528197,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2648614","to":"Category:Mathematical logic","predicate":"in-field","method":"category","confidence":"medium","span":[1887,1918],"revision":1226528197,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2648614","to":"Category:Logical calculi","predicate":"in-field","method":"category","confidence":"medium","span":[1919,1947],"revision":1226528197,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43580500#Y8BR","to":"wikipedia://en/22763675","predicate":"related","method":"link-in-item","confidence":"low","span":[38892,38935],"revision":1360947732,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43580500#Y8BR","to":"wikipedia://en/1679022","predicate":"uses","method":"link-in-item","confidence":"medium","span":[38955,38972],"revision":1360947732,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#A5BT","to":"wikipedia://en/14497066","predicate":"listed-in","method":"list","confidence":"certain","span":[36658,36683],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57242824#HKTS","to":"wikipedia://en/17620650","predicate":"listed-in","method":"list","confidence":"certain","span":[5200,5217],"revision":1365520422,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7630895","to":"wikipedia://en/12316","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[169,187],"revision":1374379185,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7630895","to":"wikipedia://en/151783","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[619,647],"revision":1374379185,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7630895","to":"wikipedia://en/1982776","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1535,1560],"revision":1374379185,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7630895","to":"wikipedia://en/600892","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2250,2304],"revision":1374379185,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7630895","to":"wikipedia://en/151783","predicate":"related","method":"see-also","confidence":"low","span":[3611,3639],"revision":1374379185,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7630895","to":"wikipedia://en/1982776","predicate":"related","method":"see-also","confidence":"low","span":[3642,3667],"revision":1374379185,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7630895","to":"Category:Gamma and related functions","predicate":"in-field","method":"category","confidence":"medium","span":[3697,3737],"revision":1374379185,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7630895","to":"Category:Computer arithmetic algorithms","predicate":"in-field","method":"category","confidence":"medium","span":[3738,3781],"revision":1374379185,"by":"importer/wikipedia/1"}

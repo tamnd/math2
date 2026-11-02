@@ -1,0 +1,31 @@
+{"from":"wikipedia://en/1173083","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[601,613],"revision":1351835404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1173083","to":"wikipedia://en/313303","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[684,700],"revision":1351835404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1173083","to":"wikipedia://en/11308417","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[717,747],"revision":1351835404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1173083","to":"wikipedia://en/1705121","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[792,810],"revision":1351835404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1173083","to":"wikipedia://en/11887","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[853,877],"revision":1351835404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1173083","to":"wikipedia://en/208156","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1007,1029],"revision":1351835404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1173083","to":"wikipedia://en/180253","predicate":"related","method":"link-in-text","confidence":"low","span":[2072,2118],"revision":1351835404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1173083","to":"wikipedia://en/614840","predicate":"related","method":"link-in-text","confidence":"low","span":[2132,2146],"revision":1351835404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1173083","to":"wikipedia://en/41323383","predicate":"related","method":"see-also","confidence":"low","span":[6372,6396],"revision":1351835404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1173083","to":"Template:Polygons","predicate":"in-nav","method":"nav","confidence":"low","span":[6522,6534],"revision":1351835404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1173083","to":"Category:Star polygons","predicate":"in-field","method":"category","confidence":"medium","span":[6536,6565],"revision":1351835404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1173083","to":"Category:11 (number)","predicate":"in-field","method":"category","confidence":"medium","span":[6566,6590],"revision":1351835404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67304295","to":"wikipedia://en/48661","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1292,1308],"revision":1371964835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67304295","to":"wikipedia://en/328784","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1313,1335],"revision":1371964835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67304295","to":"wikipedia://en/8096647","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1353,1393],"revision":1371964835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67304295","to":"wikipedia://en/341988","predicate":"related","method":"link-in-lead","confidence":"low","span":[1416,1452],"revision":1371964835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67304295","to":"wikipedia://en/26685","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1501,1515],"revision":1371964835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67304295","to":"wikipedia://en/241119","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1523,1545],"revision":1371964835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67304295","to":"wikipedia://en/23015","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1721,1746],"revision":1371964835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67304295","to":"wikipedia://en/376707","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1755,1785],"revision":1371964835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67304295","to":"wikipedia://en/18016","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1790,1826],"revision":1371964835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67304295","to":"wikipedia://en/25750436","predicate":"related","method":"link-in-text","confidence":"low","span":[2062,2087],"revision":1371964835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67304295","to":"wikipedia://en/38420","predicate":"related","method":"link-in-text","confidence":"low","span":[2093,2121],"revision":1371964835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67304295","to":"wikipedia://en/43476","predicate":"related","method":"link-in-text","confidence":"low","span":[2151,2174],"revision":1371964835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67304295","to":"wikipedia://en/7954422","predicate":"related","method":"link-in-text","confidence":"low","span":[2180,2202],"revision":1371964835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67304295","to":"wikipedia://en/48093","predicate":"related","method":"link-in-text","confidence":"low","span":[2269,2299],"revision":1371964835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67304295","to":"wikipedia://en/416813","predicate":"related","method":"link-in-text","confidence":"low","span":[2308,2335],"revision":1371964835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67304295","to":"wikipedia://en/31074852","predicate":"related","method":"link-in-text","confidence":"low","span":[3691,3744],"revision":1371964835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67304295","to":"Category:American statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[4670,4705],"revision":1371964835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67304295","to":"Category:American computer scientists","predicate":"in-field","method":"category","confidence":"medium","span":[4706,4747],"revision":1371964835,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67304295","to":"Category:Computational statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[5052,5092],"revision":1371964835,"by":"importer/wikipedia/1"}

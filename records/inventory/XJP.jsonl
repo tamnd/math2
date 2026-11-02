@@ -1,1 +1,7 @@
-{"id":"XJPQTWGBHF","mentions":["m2://rec/wikidata/Q149972#1"],"kind":"topic","name":"calculus","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"XJPBA3NMMW","mentions":["wikipedia://en/45592828"],"kind":"object","name":"Regular skew apeirohedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"XJPPMPA3T5","mentions":["wikipedia://en/11316994#G9TI"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"XJPQEW5XN5","mentions":["wikipedia://en/433326"],"kind":"definition","name":"Iterative deepening depth-first search","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}],"proofs":["wikipedia://en/433326#KPXT"]}
+{"id":"XJPQTWGBHF","mentions":["m2://rec/wikidata/Q149972#1","wikipedia://en/5176"],"kind":"topic","name":"calculus","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"XJPT7HCYNC","mentions":["wikipedia://en/660973#0P3Q"],"kind":"unknown","name":"Charles Thorn","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"XJPVA4CX2T","mentions":["wikipedia://en/55680780"],"kind":"topic","name":"Julia Lane","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"XJPVSG4HSW","mentions":["wikipedia://en/18568#EJWU"],"kind":"definition","name":"Key exchange","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

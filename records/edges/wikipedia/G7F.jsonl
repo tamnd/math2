@@ -1,0 +1,18 @@
+{"from":"wikipedia://en/35063489","to":"wikipedia://en/9277","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[79,90],"revision":1332519722,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35063489","to":"wikipedia://en/27033090","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[98,111],"revision":1332519722,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35063489","to":"wikipedia://en/39782","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[127,139],"revision":1332519722,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35063489","to":"wikipedia://en/2412120","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[269,291],"revision":1332519722,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35063489","to":"wikipedia://en/296077","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[529,543],"revision":1332519722,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35063489","to":"Category:Algebraic geometry","predicate":"in-field","method":"category","confidence":"medium","span":[959,990],"revision":1332519722,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/601025#C2TE","to":"wikipedia://en/19948728","predicate":"uses","method":"link-in-item","confidence":"high","span":[2852,2871],"revision":1322608882,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/601025#C2TE","to":"wikipedia://en/160556","predicate":"uses","method":"link-in-item","confidence":"high","span":[3005,3019],"revision":1322608882,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/601025#C2TE","to":"wikipedia://en/317552","predicate":"uses","method":"link-in-item","confidence":"high","span":[3084,3110],"revision":1322608882,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/601025#C2TE","to":"wikipedia://en/39359","predicate":"uses","method":"link-in-item","confidence":"high","span":[3532,3558],"revision":1322608882,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/601025#C2TE","to":"wikipedia://en/53941","predicate":"uses","method":"named-link","confidence":"high","span":[4372,4395],"revision":1322608882,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/601025#C2TE","to":"wikipedia://en/20018","predicate":"generalizes","method":"link-in-item","confidence":"medium","span":[4490,4506],"revision":1322608882,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/601025#C2TE","to":"wikipedia://en/8625","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[4546,4608],"revision":1322608882,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/601025#C2TE","to":"wikipedia://en/9697","predicate":"uses","method":"link-in-item","confidence":"high","span":[4667,4686],"revision":1322608882,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/601025#C2TE","to":"wikipedia://en/8625","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[4808,4870],"revision":1322608882,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/601025#C2TE","to":"wikipedia://en/17860","predicate":"uses","method":"link-in-item","confidence":"high","span":[5441,5454],"revision":1322608882,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/601025#C2TE","to":"wikipedia://en/9891","predicate":"related","method":"link-in-item","confidence":"low","span":[5586,5619],"revision":1322608882,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/601025#C2TE","to":"wikipedia://en/15445","predicate":"related","method":"link-in-item","confidence":"low","span":[5624,5686],"revision":1322608882,"by":"importer/wikipedia/1"}

@@ -1,0 +1,30 @@
+{"from":"wikipedia://en/15901488","to":"wikipedia://en/195243","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,26],"revision":1285450999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15901488","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[40,55],"revision":1285450999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15901488","to":"wikipedia://en/669475","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[126,152],"revision":1285450999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15901488","to":"wikipedia://en/2119219","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[154,173],"revision":1285450999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15901488","to":"wikipedia://en/144652","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[244,265],"revision":1285450999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15901488","to":"wikipedia://en/285622","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[281,301],"revision":1285450999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15901488","to":"wikipedia://en/12870493","predicate":"related","method":"link-in-lead","confidence":"low","span":[347,363],"revision":1285450999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15901488","to":"wikipedia://en/67119631","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[368,391],"revision":1285450999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15901488","to":"wikipedia://en/74800","predicate":"related","method":"link-in-text","confidence":"low","span":[846,855],"revision":1285450999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15901488","to":"wikipedia://en/15895901","predicate":"related","method":"see-also","confidence":"low","span":[1091,1129],"revision":1285450999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15901488","to":"wikipedia://en/11757994","predicate":"related","method":"see-also","confidence":"low","span":[1132,1150],"revision":1285450999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15901488","to":"Category:Riemannian geometry","predicate":"in-field","method":"category","confidence":"medium","span":[1798,1830],"revision":1285450999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15901488","to":"Category:Mathematical problems","predicate":"kind-of","method":"category","confidence":"medium","span":[1831,1865],"revision":1285450999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15901488","to":"Category:Curvature (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[1866,1919],"revision":1285450999,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/241820#7QTK","to":"wikipedia://en/2738036","predicate":"listed-in","method":"list","confidence":"certain","span":[465,485],"revision":1375503641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45194#3ZDY","to":"wikipedia://en/192022","predicate":"uses","method":"link-in-item","confidence":"medium","span":[36617,36641],"revision":1374767231,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45194#3ZDY","to":"wikipedia://en/53941","predicate":"uses","method":"link-in-item","confidence":"medium","span":[36700,36723],"revision":1374767231,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54012910","to":"wikipedia://en/2568937","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[383,396],"revision":1354572655,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54012910","to":"wikipedia://en/1647196","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[485,506],"revision":1354572655,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54012910","to":"wikipedia://en/210910","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[544,558],"revision":1354572655,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54012910","to":"wikipedia://en/37393927","predicate":"related","method":"link-in-lead","confidence":"low","span":[765,784],"revision":1354572655,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54012910","to":"wikipedia://en/26204033","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1122,1136],"revision":1354572655,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54012910","to":"wikipedia://en/2556580","predicate":"related","method":"link-in-lead","confidence":"low","span":[1145,1161],"revision":1354572655,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54012910","to":"wikipedia://en/548540","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1166,1186],"revision":1354572655,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54012910","to":"wikipedia://en/37010","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1240,1265],"revision":1354572655,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54012910","to":"wikipedia://en/18623","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1554,1566],"revision":1354572655,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54012910","to":"Category:Swiss mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2411,2444],"revision":1354572655,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54012910","to":"Category:Academic staff of ETH Zurich","predicate":"in-field","method":"category","confidence":"medium","span":[2445,2486],"revision":1354572655,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54012910","to":"Category:20th-century Swiss philosophers","predicate":"in-field","method":"category","confidence":"medium","span":[2487,2531],"revision":1354572655,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6524553#U20I","to":"wikipedia://en/47586974","predicate":"listed-in","method":"list","confidence":"certain","span":[10606,10623],"revision":1374267957,"by":"importer/wikipedia/1"}

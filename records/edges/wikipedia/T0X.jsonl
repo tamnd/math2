@@ -1,0 +1,28 @@
+{"from":"wikipedia://en/11568881","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[35,50],"revision":1247328241,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11568881","to":"wikipedia://en/91096","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[114,126],"revision":1247328241,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11568881","to":"wikipedia://en/5826","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[130,156],"revision":1247328241,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11568881","to":"wikipedia://en/1160","predicate":"related","method":"link-in-text","confidence":"low","span":[1275,1291],"revision":1247328241,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11568881","to":"Category:Hyperbolic geometry","predicate":"in-field","method":"category","confidence":"medium","span":[2346,2378],"revision":1247328241,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11568881","to":"Category:Geodesic (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[2379,2414],"revision":1247328241,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14403539#BD7H","to":"wikipedia://en/1926283","predicate":"listed-in","method":"list","confidence":"certain","span":[31729,31757],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38445971#DZIE","to":"wikipedia://en/47895","predicate":"uses","method":"link-in-item","confidence":"high","span":[1490,1524],"revision":1325137588,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38445971#DZIE","to":"wikipedia://en/7951270","predicate":"uses","method":"link-in-item","confidence":"high","span":[1569,1585],"revision":1325137588,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38445971#DZIE","to":"wikipedia://en/1025748","predicate":"uses","method":"link-in-item","confidence":"high","span":[1592,1609],"revision":1325137588,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38445971#DZIE","to":"wikipedia://en/351908","predicate":"uses","method":"link-in-item","confidence":"high","span":[1793,1810],"revision":1325137588,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38445971#DZIE","to":"wikipedia://en/22497977","predicate":"uses","method":"link-in-item","confidence":"high","span":[1931,1956],"revision":1325137588,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38445971#DZIE","to":"wikipedia://en/877315","predicate":"uses","method":"link-in-item","confidence":"high","span":[2188,2214],"revision":1325137588,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38445971#DZIE","to":"wikipedia://en/27593","predicate":"uses","method":"link-in-item","confidence":"high","span":[2419,2468],"revision":1325137588,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38445971#DZIE","to":"wikipedia://en/30862839","predicate":"uses","method":"link-in-item","confidence":"high","span":[2519,2531],"revision":1325137588,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7837041#MKLL","to":"wikipedia://en/356413","predicate":"uses","method":"link-in-item","confidence":"high","span":[2489,2529],"revision":1295902406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7837041#MKLL","to":"wikipedia://en/8625","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[2533,2558],"revision":1295902406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7837041#MKLL","to":"wikipedia://en/981793","predicate":"uses","method":"named-link","confidence":"high","span":[2637,2660],"revision":1295902406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7837041#MKLL","to":"wikipedia://en/195351","predicate":"uses","method":"link-in-item","confidence":"high","span":[2939,2958],"revision":1295902406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7837041#MKLL","to":"wikipedia://en/35033819","predicate":"uses","method":"link-in-item","confidence":"high","span":[3355,3372],"revision":1295902406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7837041#MKLL","to":"wikipedia://en/276524","predicate":"uses","method":"link-in-item","confidence":"high","span":[3484,3501],"revision":1295902406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7837041#MKLL","to":"wikipedia://en/42783108","predicate":"uses","method":"link-in-item","confidence":"high","span":[3739,3768],"revision":1295902406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7837041#MKLL","to":"wikipedia://en/11634","predicate":"uses","method":"link-in-item","confidence":"high","span":[4334,4353],"revision":1295902406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7837041#MKLL","to":"wikipedia://en/363340","predicate":"uses","method":"link-in-item","confidence":"high","span":[4385,4424],"revision":1295902406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7837041#MKLL","to":"wikipedia://en/603916","predicate":"uses","method":"link-in-item","confidence":"high","span":[4582,4607],"revision":1295902406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7837041#MKLL","to":"wikipedia://en/505088","predicate":"uses","method":"link-in-item","confidence":"high","span":[4721,4738],"revision":1295902406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7837041#MKLL","to":"wikipedia://en/11615","predicate":"uses","method":"link-in-item","confidence":"high","span":[4740,4757],"revision":1295902406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7837041#MKLL","to":"wikipedia://en/1066621","predicate":"uses","method":"link-in-item","confidence":"high","span":[4772,4815],"revision":1295902406,"by":"importer/wikipedia/1"}

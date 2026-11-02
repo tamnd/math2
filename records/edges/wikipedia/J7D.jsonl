@@ -1,0 +1,28 @@
+{"from":"wikipedia://en/1725518#24Y6","to":"wikipedia://en/41200","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6999,7029],"revision":1318810725,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1725518#24Y6","to":"wikipedia://en/1100094","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7067,7089],"revision":1318810725,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2850614#DTU7","to":"wikipedia://en/53631967","predicate":"related","method":"link-in-item","confidence":"low","span":[2187,2206],"revision":1287247986,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2850614#DTU7","to":"wikipedia://en/10282799","predicate":"uses","method":"link-in-item","confidence":"high","span":[2461,2493],"revision":1287247986,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2850614#DTU7","to":"wikipedia://en/4067918","predicate":"uses","method":"link-in-item","confidence":"high","span":[2575,2632],"revision":1287247986,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39836304","to":"wikipedia://en/49139","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1301,1335],"revision":1267718298,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39836304","to":"wikipedia://en/10294","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1337,1361],"revision":1267718298,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39836304","to":"wikipedia://en/24107","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1363,1379],"revision":1267718298,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39836304","to":"wikipedia://en/28030850","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1391,1441],"revision":1267718298,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39836304","to":"wikipedia://en/1226927","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1654,1674],"revision":1267718298,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39836304","to":"wikipedia://en/28249265","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1676,1687],"revision":1267718298,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39836304","to":"wikipedia://en/19193","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1742,1769],"revision":1267718298,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39836304","to":"wikipedia://en/91221","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2233,2248],"revision":1267718298,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39836304","to":"wikipedia://en/21939","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2266,2294],"revision":1267718298,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39836304","to":"wikipedia://en/44065971","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3067,3081],"revision":1267718298,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39836304","to":"wikipedia://en/816207","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3248,3267],"revision":1267718298,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39836304","to":"wikipedia://en/13698942","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3513,3521],"revision":1267718298,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39836304","to":"wikipedia://en/1906321","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3777,3791],"revision":1267718298,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39836304","to":"wikipedia://en/1752597","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[4176,4226],"revision":1267718298,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39836304","to":"Template:Official website","predicate":"in-nav","method":"nav","confidence":"low","span":[4927,4971],"revision":1267718298,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39836304","to":"Category:Cryptographic software","predicate":"in-field","method":"category","confidence":"medium","span":[5038,5073],"revision":1267718298,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39836304","to":"Category:Free software programmed in Python","predicate":"in-field","method":"category","confidence":"medium","span":[5074,5121],"revision":1267718298,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39836304","to":"Category:Email authentication","predicate":"in-field","method":"category","confidence":"medium","span":[5122,5155],"revision":1267718298,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39836304","to":"Category:Internet privacy software","predicate":"in-field","method":"category","confidence":"medium","span":[5156,5194],"revision":1267718298,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39836304","to":"Category:Open standards","predicate":"in-field","method":"category","confidence":"medium","span":[5195,5222],"revision":1267718298,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39836304","to":"Category:Peer-to-peer software","predicate":"in-field","method":"category","confidence":"medium","span":[5223,5257],"revision":1267718298,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39836304","to":"Category:Software using the MIT license","predicate":"in-field","method":"category","confidence":"medium","span":[5258,5301],"revision":1267718298,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39836304","to":"Category:Tor onion services","predicate":"in-field","method":"category","confidence":"medium","span":[5302,5333],"revision":1267718298,"by":"importer/wikipedia/1"}

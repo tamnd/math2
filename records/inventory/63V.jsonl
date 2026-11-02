@@ -1,1 +1,3 @@
-{"id":"63V2YG3QEJ","mentions":["m2://rec/wikidata/Q2158348#1"],"kind":"object","name":"elongated pentagonal gyrobicupola","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"63V0ZN4BQ4","mentions":["wikipedia://en/47738065#ZGMC"],"kind":"topic","name":"Peter Hintz","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"63V2YG3QEJ","mentions":["m2://rec/wikidata/Q2158348#1","wikipedia://en/1177969"],"kind":"definition","name":"elongated pentagonal gyrobicupola","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"63VZ134N4H","mentions":["wikipedia://en/8426019"],"kind":"definition","name":"Negligible function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

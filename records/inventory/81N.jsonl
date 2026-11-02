@@ -1,1 +1,7 @@
+{"id":"81N2V20Z34","mentions":["wikipedia://en/4005892#WGGQ"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"81N4WAPEZ3","mentions":["wikipedia://en/161339#CYWO"],"kind":"topic","name":"Louis Poinsot","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"81NDEG4E1K","mentions":["wikipedia://en/18178150"],"kind":"topic","name":"Dorian Shainin","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"81NGP3JK52","mentions":["ax://paper/2409.20170#J4PU"],"kind":"statement","msc":["03-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}],"proofs":["ax://paper/2409.20170#DTVM"]}
+{"id":"81NH71X0G8","mentions":["wikipedia://en/346955#L4ND"],"kind":"statement","name":"Fermat's little theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"81NS3M357R","mentions":["wikipedia://en/9553854"],"kind":"statement","name":"Artin–Rees lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"81NV27BTBR","mentions":["wikipedia://en/16868392"],"kind":"topic","name":"List of types of functions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

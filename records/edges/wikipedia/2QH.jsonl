@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/251424#XCMX","to":"wikipedia://en/60693","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[12557,12592],"revision":1370098282,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36617985","to":"wikipedia://en/24390","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[441,480],"revision":1375095322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36617985","to":"wikipedia://en/855329","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[634,652],"revision":1375095322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36617985","to":"wikipedia://en/7558","predicate":"related","method":"link-in-text","confidence":"low","span":[924,933],"revision":1375095322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36617985","to":"wikipedia://en/642101","predicate":"related","method":"link-in-text","confidence":"low","span":[2440,2452],"revision":1375095322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36617985","to":"wikipedia://en/1059530","predicate":"related","method":"link-in-text","confidence":"low","span":[5063,5081],"revision":1375095322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36617985","to":"wikipedia://en/1081538","predicate":"related","method":"link-in-text","confidence":"low","span":[5147,5174],"revision":1375095322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36617985","to":"wikipedia://en/86113","predicate":"related","method":"link-in-text","confidence":"low","span":[5287,5320],"revision":1375095322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36617985","to":"wikipedia://en/2439294","predicate":"related","method":"see-also","confidence":"low","span":[7791,7820],"revision":1375095322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36617985","to":"Category:Mathematical paradoxes","predicate":"in-field","method":"category","confidence":"medium","span":[8195,8230],"revision":1375095322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36617985","to":"Category:Rotation","predicate":"in-field","method":"category","confidence":"medium","span":[8231,8252],"revision":1375095322,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36617985","to":"Category:Circles","predicate":"in-field","method":"category","confidence":"medium","span":[8253,8273],"revision":1375095322,"by":"importer/wikipedia/1"}

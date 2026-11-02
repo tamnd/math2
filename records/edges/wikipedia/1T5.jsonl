@@ -1,0 +1,25 @@
+{"from":"wikipedia://en/11764848","to":"wikipedia://en/19594028","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,26],"revision":1292219289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11764848","to":"wikipedia://en/503378","predicate":"related","method":"link-in-lead","confidence":"low","span":[199,218],"revision":1292219289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11764848","to":"wikipedia://en/1410595","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[315,334],"revision":1292219289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11764848","to":"wikipedia://en/1055357","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[339,359],"revision":1292219289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11764848","to":"wikipedia://en/762977","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[370,398],"revision":1292219289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11764848","to":"wikipedia://en/2688710","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[441,458],"revision":1292219289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11764848","to":"wikipedia://en/349336","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[600,621],"revision":1292219289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11764848","to":"wikipedia://en/260836","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[680,698],"revision":1292219289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11764848","to":"wikipedia://en/316826","predicate":"related","method":"link-in-text","confidence":"low","span":[770,783],"revision":1292219289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11764848","to":"wikipedia://en/348085","predicate":"related","method":"link-in-text","confidence":"low","span":[942,957],"revision":1292219289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11764848","to":"wikipedia://en/230488","predicate":"related","method":"link-in-text","confidence":"low","span":[1008,1027],"revision":1292219289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11764848","to":"wikipedia://en/509742","predicate":"related","method":"link-in-text","confidence":"low","span":[1040,1060],"revision":1292219289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11764848","to":"wikipedia://en/17945","predicate":"related","method":"link-in-text","confidence":"low","span":[1342,1355],"revision":1292219289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11764848","to":"wikipedia://en/588356","predicate":"related","method":"link-in-text","confidence":"low","span":[1404,1442],"revision":1292219289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11764848","to":"wikipedia://en/9413508","predicate":"related","method":"link-in-text","confidence":"low","span":[1503,1526],"revision":1292219289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11764848","to":"wikipedia://en/3022744","predicate":"related","method":"link-in-text","confidence":"low","span":[1883,1899],"revision":1292219289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11764848","to":"wikipedia://en/5174983","predicate":"related","method":"link-in-text","confidence":"low","span":[1938,1965],"revision":1292219289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11764848","to":"wikipedia://en/15890221","predicate":"related","method":"see-also","confidence":"low","span":[4494,4520],"revision":1292219289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11764848","to":"Category:Integral geometry","predicate":"in-field","method":"category","confidence":"medium","span":[8512,8542],"revision":1292219289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11764848","to":"Category:Roger Penrose","predicate":"in-field","method":"category","confidence":"medium","span":[8543,8569],"revision":1292219289,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1177955","to":"wikipedia://en/1131073","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[722,743],"revision":1341971329,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1177955","to":"wikipedia://en/283007","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[749,768],"revision":1341971329,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1177955","to":"wikipedia://en/16034","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[790,807],"revision":1341971329,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1177955","to":"Category:Johnson solids","predicate":"in-field","method":"category","confidence":"medium","span":[3656,3683],"revision":1341971329,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#8WNH","to":"wikipedia://en/2143889","predicate":"listed-in","method":"list","confidence":"certain","span":[63467,63490],"revision":1374178001,"by":"importer/wikipedia/1"}

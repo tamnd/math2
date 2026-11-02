@@ -1,0 +1,6 @@
+{"from":"wikipedia://en/31643910","to":"wikipedia://en/29954","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,15],"revision":1351051134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31643910","to":"wikipedia://en/30450","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[77,98],"revision":1351051134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31643910","to":"wikipedia://en/49172","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[143,162],"revision":1351051134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31643910","to":"wikipedia://en/213650","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[229,247],"revision":1351051134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31643910","to":"wikipedia://en/178649","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[335,355],"revision":1351051134,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31643910","to":"Category:Topological spaces","predicate":"in-field","method":"category","confidence":"medium","span":[4918,4949],"revision":1351051134,"by":"importer/wikipedia/1"}

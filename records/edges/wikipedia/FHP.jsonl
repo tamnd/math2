@@ -1,0 +1,19 @@
+{"from":"wikipedia://en/2537958","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[121,136],"revision":1375921107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2537958","to":"wikipedia://en/166441","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[262,284],"revision":1375921107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2537958","to":"wikipedia://en/146103","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[290,320],"revision":1375921107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2537958","to":"wikipedia://en/9087","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[321,341],"revision":1375921107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2537958","to":"wikipedia://en/75401505","predicate":"related","method":"link-in-lead","confidence":"low","span":[360,398],"revision":1375921107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2537958","to":"wikipedia://en/627842","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[453,492],"revision":1375921107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2537958","to":"wikipedia://en/258986","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[565,584],"revision":1375921107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2537958","to":"wikipedia://en/18730540","predicate":"related","method":"link-in-lead","confidence":"low","span":[598,619],"revision":1375921107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2537958","to":"wikipedia://en/292831","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[837,862],"revision":1375921107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2537958","to":"wikipedia://en/3210880","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[924,940],"revision":1375921107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2537958","to":"wikipedia://en/1104948","predicate":"related","method":"link-in-lead","confidence":"low","span":[942,962],"revision":1375921107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2537958","to":"wikipedia://en/79314605","predicate":"related","method":"link-in-lead","confidence":"low","span":[964,1015],"revision":1375921107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2537958","to":"wikipedia://en/62286155","predicate":"related","method":"link-in-lead","confidence":"low","span":[1021,1045],"revision":1375921107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2537958","to":"Category:Ergodic theory","predicate":"in-field","method":"category","confidence":"medium","span":[6116,6143],"revision":1375921107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2537958","to":"Category:Theorems in dynamical systems","predicate":"kind-of","method":"category","confidence":"medium","span":[6144,6186],"revision":1375921107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34148348#53ND","to":"wikipedia://en/2749226","predicate":"uses","method":"link-in-item","confidence":"high","span":[1004,1030],"revision":1374906160,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34148348#53ND","to":"wikipedia://en/30876799","predicate":"uses","method":"link-in-item","confidence":"high","span":[1038,1064],"revision":1374906160,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34148348#53ND","to":"wikipedia://en/89246","predicate":"generalizes","method":"link-in-item","confidence":"medium","span":[1219,1235],"revision":1374906160,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34148348#53ND","to":"wikipedia://en/39358","predicate":"uses","method":"link-in-item","confidence":"high","span":[1875,1887],"revision":1374906160,"by":"importer/wikipedia/1"}

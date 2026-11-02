@@ -1,2 +1,5 @@
-{"id":"3HK43QVZEF","mentions":["m2://rec/wikidata/Q32043#1"],"kind":"unknown","name":"addition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"3HKQ3333W0","mentions":["m2://rec/wikidata/Q669613#1"],"kind":"object","name":"metabiaugmented truncated dodecahedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"3HK43QVZEF","mentions":["m2://rec/wikidata/Q32043#1","wikipedia://en/61338"],"kind":"definition","name":"addition","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"3HKBSB5V92","mentions":["wikipedia://en/34189212#3HX7"],"kind":"definition","name":"Intersection theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"3HKHXSNQ8B","mentions":["wikipedia://en/30969474#S83R"],"kind":"definition","name":"Formulation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"3HKMTD5QRT","mentions":["wikipedia://en/49172#G1IM"],"kind":"statement","name":"Generalizations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"3HKQ3333W0","mentions":["m2://rec/wikidata/Q669613#1","wikipedia://en/1233346"],"kind":"definition","name":"metabiaugmented truncated dodecahedron","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

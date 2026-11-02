@@ -1,0 +1,4 @@
+{"from":"wikipedia://en/15845985#9CBL","to":"wikipedia://en/3126358","predicate":"uses","method":"link-in-item","confidence":"high","span":[2775,2882],"revision":1344394180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83962937#EDF7","to":"wikipedia://en/41755648","predicate":"listed-in","method":"list","confidence":"certain","span":[6207,6226],"revision":1379025743,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83962937#EDF7","to":"wikipedia://en/74637995","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6236,6270],"revision":1379025743,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83962937#EDF7","to":"wikipedia://en/336815","predicate":"related","method":"link-in-item","confidence":"low","span":[6300,6354],"revision":1379025743,"by":"importer/wikipedia/1"}

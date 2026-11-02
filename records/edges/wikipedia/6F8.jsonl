@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/2995611#MAK5","to":"wikipedia://en/264158","predicate":"uses","method":"link-in-item","confidence":"high","span":[3812,3848],"revision":1373678105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2995611#MAK5","to":"wikipedia://en/8808200","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3876,3907],"revision":1373678105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2995611#MAK5","to":"wikipedia://en/31862139","predicate":"related","method":"link-in-item","confidence":"low","span":[4009,4034],"revision":1373678105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2995611#MAK5","to":"wikipedia://en/113564","predicate":"uses","method":"link-in-item","confidence":"high","span":[4119,4144],"revision":1373678105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2995611#MAK5","to":"wikipedia://en/59206289","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4288,4304],"revision":1373678105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2995611#MAK5","to":"wikipedia://en/59206289","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4417,4433],"revision":1373678105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2995611#MAK5","to":"wikipedia://en/62414012","predicate":"related","method":"link-in-item","confidence":"low","span":[4438,4465],"revision":1373678105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66786706","to":"wikipedia://en/360243","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[108,175],"revision":1350933401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66786706","to":"wikipedia://en/50652","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[228,251],"revision":1350933401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66786706","to":"wikipedia://en/14110","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[255,280],"revision":1350933401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66786706","to":"wikipedia://en/1053909","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[284,300],"revision":1350933401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66786706","to":"wikipedia://en/381978","predicate":"related","method":"link-in-lead","confidence":"low","span":[308,323],"revision":1350933401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66786706","to":"wikipedia://en/2019","predicate":"related","method":"link-in-lead","confidence":"low","span":[328,343],"revision":1350933401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66786706","to":"wikipedia://en/28132779","predicate":"related","method":"see-also","confidence":"low","span":[1479,1504],"revision":1350933401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66786706","to":"Category:Several complex variables","predicate":"in-field","method":"category","confidence":"medium","span":[3937,3975],"revision":1350933401,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66786706","to":"Category:Theorems in complex analysis","predicate":"kind-of","method":"category","confidence":"medium","span":[3976,4017],"revision":1350933401,"by":"importer/wikipedia/1"}

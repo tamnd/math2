@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/3459657","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[55,70],"revision":1362211344,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3459657","to":"wikipedia://en/1997","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[88,110],"revision":1362211344,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3459657","to":"wikipedia://en/38801","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[115,137],"revision":1362211344,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3459657","to":"wikipedia://en/248808","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[246,267],"revision":1362211344,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3459657","to":"wikipedia://en/242135","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[373,393],"revision":1362211344,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3459657","to":"wikipedia://en/3459767","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[400,422],"revision":1362211344,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3459657","to":"wikipedia://en/142432","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[434,469],"revision":1362211344,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3459657","to":"wikipedia://en/194060","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[471,485],"revision":1362211344,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3459657","to":"wikipedia://en/297506","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[491,510],"revision":1362211344,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3459657","to":"wikipedia://en/384384","predicate":"related","method":"link-in-lead","confidence":"low","span":[588,609],"revision":1362211344,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3459657","to":"wikipedia://en/50979789","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[873,898],"revision":1362211344,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3459657","to":"Category:Topological methods of algebraic geometry","predicate":"in-field","method":"category","confidence":"medium","span":[12567,12621],"revision":1362211344,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3459657","to":"Category:Morse theory","predicate":"in-field","method":"category","confidence":"medium","span":[12622,12647],"revision":1362211344,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3459657","to":"Category:Theorems in algebraic geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[12648,12691],"revision":1362211344,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3459657","to":"Category:Theorems in algebraic topology","predicate":"kind-of","method":"category","confidence":"medium","span":[12692,12735],"revision":1362211344,"by":"importer/wikipedia/1"}

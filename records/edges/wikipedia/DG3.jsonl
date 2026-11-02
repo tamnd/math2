@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/140829#6TBN","to":"wikipedia://en/1044534","predicate":"listed-in","method":"list","confidence":"certain","span":[27310,27342],"revision":1372044875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3224242","to":"wikipedia://en/48396","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[71,96],"revision":1324444951,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3224242","to":"wikipedia://en/51955","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[140,183],"revision":1324444951,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3224242","to":"Template:Wikiquote","predicate":"in-nav","method":"nav","confidence":"low","span":[5893,5906],"revision":1324444951,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3224242","to":"wikipedia://en/1461209","predicate":"related","method":"see-also","confidence":"low","span":[5909,5937],"revision":1324444951,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3224242","to":"wikipedia://en/24993240","predicate":"related","method":"see-also","confidence":"low","span":[5940,6005],"revision":1324444951,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3224242","to":"wikipedia://en/24995873","predicate":"related","method":"see-also","confidence":"low","span":[6008,6041],"revision":1324444951,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3224242","to":"Category:Mathematical analysis","predicate":"in-field","method":"category","confidence":"medium","span":[6429,6463],"revision":1324444951,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3224242","to":"Category:Generalized functions","predicate":"in-field","method":"category","confidence":"medium","span":[6464,6498],"revision":1324444951,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3224242","to":"Category:Functional analysis","predicate":"in-field","method":"category","confidence":"medium","span":[6499,6531],"revision":1324444951,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3224242","to":"Category:Schwartz distributions","predicate":"in-field","method":"category","confidence":"medium","span":[6532,6567],"revision":1324444951,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565351#XS2U","to":"wikipedia://en/28357276","predicate":"listed-in","method":"list","confidence":"certain","span":[47720,47749],"revision":1373350261,"by":"importer/wikipedia/1"}

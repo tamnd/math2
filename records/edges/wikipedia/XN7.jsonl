@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/34248077","to":"wikipedia://en/12024","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[115,137],"revision":1370192046,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34248077","to":"wikipedia://en/8625","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[142,167],"revision":1370192046,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34248077","to":"wikipedia://en/1674987","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[228,255],"revision":1370192046,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34248077","to":"wikipedia://en/1026848","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[573,588],"revision":1370192046,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34248077","to":"wikipedia://en/48651925","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1227,1265],"revision":1370192046,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34248077","to":"wikipedia://en/4601361","predicate":"related","method":"link-in-lead","confidence":"low","span":[1346,1388],"revision":1370192046,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34248077","to":"wikipedia://en/1912367","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1407,1433],"revision":1370192046,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34248077","to":"wikipedia://en/276582","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2110,2126],"revision":1370192046,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34248077","to":"wikipedia://en/2679447","predicate":"related","method":"see-also","confidence":"low","span":[2257,2278],"revision":1370192046,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34248077","to":"wikipedia://en/2403085","predicate":"related","method":"see-also","confidence":"low","span":[2281,2299],"revision":1370192046,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34248077","to":"Category:Tensors in general relativity","predicate":"in-field","method":"category","confidence":"medium","span":[2367,2409],"revision":1370192046,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34248077","to":"Category:Gravitational waves","predicate":"in-field","method":"category","confidence":"medium","span":[2410,2442],"revision":1370192046,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34248077","to":"Category:Differential geometry","predicate":"in-field","method":"category","confidence":"medium","span":[2443,2477],"revision":1370192046,"by":"importer/wikipedia/1"}

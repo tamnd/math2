@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/2567750","to":"wikipedia://en/174705","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,30],"revision":1354129512,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2567750","to":"wikipedia://en/28730822","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[66,105],"revision":1354129512,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2567750","to":"wikipedia://en/150907","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[135,150],"revision":1354129512,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2567750","to":"wikipedia://en/10603","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[236,265],"revision":1354129512,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2567750","to":"wikipedia://en/20646438","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[269,285],"revision":1354129512,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2567750","to":"wikipedia://en/150907","predicate":"related","method":"see-also","confidence":"low","span":[4570,4585],"revision":1354129512,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2567750","to":"wikipedia://en/251478","predicate":"related","method":"see-also","confidence":"low","span":[4588,4606],"revision":1354129512,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2567750","to":"Category:Algebraic number theory","predicate":"in-field","method":"category","confidence":"medium","span":[4781,4817],"revision":1354129512,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/398810#L9XM","to":"wikipedia://en/11617","predicate":"listed-in","method":"list","confidence":"certain","span":[2008,2027],"revision":1338353932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4694026#GZ6R","to":"wikipedia://en/16358346","predicate":"uses","method":"link-in-item","confidence":"high","span":[16444,16496],"revision":1374719671,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4694026#GZ6R","to":"wikipedia://en/4694026#XPBU","predicate":"uses","method":"link-in-item","confidence":"medium","span":[16751,16839],"revision":1374719671,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51140705#M83I","to":"wikipedia://en/82364891","predicate":"listed-in","method":"list","confidence":"certain","span":[16912,16931],"revision":1369875693,"by":"importer/wikipedia/1"}

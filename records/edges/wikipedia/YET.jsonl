@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/39414235","to":"wikipedia://en/211652","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[222,291],"revision":1264474617,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39414235","to":"wikipedia://en/3351916","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[317,390],"revision":1264474617,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39414235","to":"wikipedia://en/39284847","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[399,440],"revision":1264474617,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39414235","to":"wikipedia://en/1565926","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[459,483],"revision":1264474617,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39414235","to":"wikipedia://en/160951","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[562,574],"revision":1264474617,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39414235","to":"wikipedia://en/776615","predicate":"related","method":"link-in-text","confidence":"low","span":[2381,2405],"revision":1264474617,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39414235","to":"wikipedia://en/39293339","predicate":"related","method":"link-in-text","confidence":"low","span":[4714,4749],"revision":1264474617,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39414235","to":"wikipedia://en/456580","predicate":"related","method":"link-in-text","confidence":"low","span":[5178,5198],"revision":1264474617,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39414235","to":"wikipedia://en/39157279","predicate":"related","method":"link-in-text","confidence":"low","span":[5217,5240],"revision":1264474617,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39414235","to":"Category:Satisfiability problems","predicate":"in-field","method":"category","confidence":"medium","span":[8206,8242],"revision":1264474617,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39414235","to":"Category:Estimation theory","predicate":"in-field","method":"category","confidence":"medium","span":[8243,8273],"revision":1264474617,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61475737#25TX","to":"wikipedia://en/59158616","predicate":"listed-in","method":"list","confidence":"certain","span":[6736,6758],"revision":1352594530,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61475737#25TX","to":"wikipedia://en/3882239","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6773,6792],"revision":1352594530,"by":"importer/wikipedia/1"}

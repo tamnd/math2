@@ -1,0 +1,32 @@
+{"from":"wikipedia://en/19565588","to":"wikipedia://en/9417","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[200,218],"revision":1237851211,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19565588","to":"wikipedia://en/30654","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[250,262],"revision":1237851211,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19565588","to":"wikipedia://en/1209","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[289,297],"revision":1237851211,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19565588","to":"wikipedia://en/6135790","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[372,383],"revision":1237851211,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19565588","to":"wikipedia://en/71735","predicate":"related","method":"link-in-lead","confidence":"low","span":[1040,1058],"revision":1237851211,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19565588","to":"wikipedia://en/20435","predicate":"related","method":"link-in-lead","confidence":"low","span":[1391,1409],"revision":1237851211,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19565588","to":"wikipedia://en/16278","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1418,1433],"revision":1237851211,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19565588","to":"wikipedia://en/25523","predicate":"related","method":"link-in-lead","confidence":"low","span":[2531,2550],"revision":1237851211,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19565588","to":"wikipedia://en/4639094","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2757,2776],"revision":1237851211,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19565588","to":"wikipedia://en/42350645","predicate":"related","method":"link-in-lead","confidence":"low","span":[2787,2804],"revision":1237851211,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19565588","to":"Category:Objects defined for a triangle","predicate":"in-field","method":"category","confidence":"medium","span":[2939,2982],"revision":1237851211,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19565588","to":"Category:Area","predicate":"in-field","method":"category","confidence":"medium","span":[3023,3040],"revision":1237851211,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19565588","to":"Category:Affine geometry","predicate":"in-field","method":"category","confidence":"medium","span":[3041,3069],"revision":1237851211,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/517370#9LK3","to":"wikipedia://en/59733","predicate":"listed-in","method":"list","confidence":"certain","span":[2433,2444],"revision":1353185276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9897552","to":"wikipedia://en/89246","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[51,67],"revision":1327360309,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9897552","to":"wikipedia://en/5578920","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[84,101],"revision":1327360309,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9897552","to":"wikipedia://en/1408000","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[312,365],"revision":1327360309,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9897552","to":"wikipedia://en/31482","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[402,413],"revision":1327360309,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9897552","to":"wikipedia://en/4577462","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[484,506],"revision":1327360309,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9897552","to":"wikipedia://en/18567210","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[511,532],"revision":1327360309,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9897552","to":"wikipedia://en/336271","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[554,583],"revision":1327360309,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9897552","to":"wikipedia://en/457680","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[584,616],"revision":1327360309,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9897552","to":"wikipedia://en/89246","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[627,649],"revision":1327360309,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9897552","to":"wikipedia://en/542465","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[928,957],"revision":1327360309,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9897552","to":"wikipedia://en/4664","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1071,1088],"revision":1327360309,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9897552","to":"wikipedia://en/316837","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1156,1168],"revision":1327360309,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9897552","to":"wikipedia://en/2038396","predicate":"related","method":"link-in-text","confidence":"low","span":[4349,4373],"revision":1327360309,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9897552","to":"wikipedia://en/12935671","predicate":"related","method":"link-in-text","confidence":"low","span":[4382,4406],"revision":1327360309,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9897552","to":"wikipedia://en/9897552","predicate":"uses","method":"anchor","confidence":"certain","span":[6425,6447],"revision":1327360309,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9897552","to":"Category:Piecewise-circular curves","predicate":"in-field","method":"category","confidence":"medium","span":[10117,10155],"revision":1327360309,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9897552","to":"Category:Splines (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[10156,10190],"revision":1327360309,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9897552","to":"Category:Circles","predicate":"in-field","method":"category","confidence":"medium","span":[10191,10211],"revision":1327360309,"by":"importer/wikipedia/1"}

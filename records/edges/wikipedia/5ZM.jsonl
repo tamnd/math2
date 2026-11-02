@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/191457#NMUC","to":"wikipedia://en/1890727","predicate":"listed-in","method":"list","confidence":"certain","span":[24930,24955],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26248766#PGMG","to":"wikipedia://en/973594","predicate":"listed-in","method":"list","confidence":"certain","span":[2806,2824],"revision":1349235543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#5YQP","to":"wikipedia://en/1335536","predicate":"listed-in","method":"list","confidence":"certain","span":[50090,50111],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#5YQP","to":"wikipedia://en/9417","predicate":"uses","method":"link-in-item","confidence":"high","span":[50115,50137],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/740859","to":"wikipedia://en/335004","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[220,243],"revision":1353086970,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/740859","to":"wikipedia://en/21347024","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[247,266],"revision":1353086970,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/740859","to":"wikipedia://en/320248","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[307,333],"revision":1353086970,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/740859","to":"wikipedia://en/5696","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[408,429],"revision":1353086970,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/740859","to":"wikipedia://en/4466638","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[543,565],"revision":1353086970,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/740859","to":"wikipedia://en/26513","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[710,737],"revision":1353086970,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/740859","to":"wikipedia://en/54427","predicate":"related","method":"link-in-text","confidence":"low","span":[1285,1336],"revision":1353086970,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/740859","to":"wikipedia://en/60558","predicate":"related","method":"link-in-text","confidence":"low","span":[1784,1804],"revision":1353086970,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/740859","to":"wikipedia://en/32073","predicate":"related","method":"link-in-text","confidence":"low","span":[1976,1983],"revision":1353086970,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/740859","to":"wikipedia://en/26023","predicate":"related","method":"link-in-text","confidence":"low","span":[2029,2039],"revision":1353086970,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/740859","to":"wikipedia://en/15022","predicate":"related","method":"link-in-text","confidence":"low","span":[2044,2074],"revision":1353086970,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/740859","to":"wikipedia://en/18006752","predicate":"related","method":"see-also","confidence":"low","span":[2091,2132],"revision":1353086970,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/740859","to":"wikipedia://en/1026952","predicate":"related","method":"see-also","confidence":"low","span":[2134,2160],"revision":1353086970,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/740859","to":"wikipedia://en/51221648","predicate":"related","method":"see-also","confidence":"low","span":[2162,2183],"revision":1353086970,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/740859","to":"Category:Graphing calculators","predicate":"in-field","method":"category","confidence":"medium","span":[2599,2632],"revision":1353086970,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/740859","to":"Category:HP calculators","predicate":"in-field","method":"category","confidence":"medium","span":[2633,2664],"revision":1353086970,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/740859","to":"Category:Computer-related introductions in 1995","predicate":"in-field","method":"category","confidence":"medium","span":[2665,2716],"revision":1353086970,"by":"importer/wikipedia/1"}

@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/140829#NR54","to":"wikipedia://en/24723921","predicate":"listed-in","method":"list","confidence":"certain","span":[33476,33528],"revision":1372044875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23666#LL20","to":"wikipedia://en/99491","predicate":"uses","method":"link-in-item","confidence":"high","span":[29892,29910],"revision":1376022013,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23666#LL20","to":"wikipedia://en/659942","predicate":"uses","method":"link-in-item","confidence":"high","span":[30073,30100],"revision":1376022013,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23666#LL20","to":"wikipedia://en/15491","predicate":"uses","method":"link-in-item","confidence":"medium","span":[31452,31477],"revision":1376022013,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23666#LL20","to":"wikipedia://en/826617","predicate":"uses","method":"link-in-item","confidence":"medium","span":[32051,32069],"revision":1376022013,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/465001#EWKT","to":"wikipedia://en/910285","predicate":"uses","method":"link-in-item","confidence":"high","span":[18110,18148],"revision":1371670256,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5004019","to":"wikipedia://en/1569327","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[84,112],"revision":1350708406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5004019","to":"wikipedia://en/952842","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1248,1275],"revision":1350708406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5004019","to":"Category:Grammar","predicate":"in-field","method":"category","confidence":"medium","span":[2036,2056],"revision":1350708406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5004019","to":"Category:Semantics","predicate":"in-field","method":"category","confidence":"medium","span":[2057,2079],"revision":1350708406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5004019","to":"Category:Conditionals in linguistics","predicate":"in-field","method":"category","confidence":"medium","span":[2080,2120],"revision":1350708406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5004019","to":"Category:Linguistic modality","predicate":"in-field","method":"category","confidence":"medium","span":[2121,2153],"revision":1350708406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5004019","to":"Category:Grammatical construction types","predicate":"in-field","method":"category","confidence":"medium","span":[2154,2197],"revision":1350708406,"by":"importer/wikipedia/1"}

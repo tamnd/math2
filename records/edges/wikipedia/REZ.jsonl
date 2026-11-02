@@ -1,0 +1,24 @@
+{"from":"wikipedia://en/140829#NYCW","to":"wikipedia://en/865429","predicate":"listed-in","method":"list","confidence":"certain","span":[3189,3223],"revision":1372044875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/325802#4H16","to":"wikipedia://en/200463","predicate":"uses","method":"link-in-item","confidence":"high","span":[102424,102447],"revision":1373839425,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/325802#4H16","to":"wikipedia://en/292239","predicate":"uses","method":"link-in-item","confidence":"high","span":[102453,102475],"revision":1373839425,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/325802#4H16","to":"wikipedia://en/3757117","predicate":"uses","method":"link-in-item","confidence":"high","span":[102655,102679],"revision":1373839425,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/325802#4H16","to":"wikipedia://en/6978672","predicate":"uses","method":"link-in-item","confidence":"high","span":[102808,102834],"revision":1373839425,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/325802#4H16","to":"wikipedia://en/6978672","predicate":"uses","method":"link-in-item","confidence":"high","span":[102919,102943],"revision":1373839425,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43031336","to":"wikipedia://en/704160","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[72,112],"revision":1318460323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43031336","to":"wikipedia://en/5705","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[160,196],"revision":1318460323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43031336","to":"wikipedia://en/6207903","predicate":"related","method":"link-in-lead","confidence":"low","span":[216,231],"revision":1318460323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43031336","to":"wikipedia://en/5709504","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[236,253],"revision":1318460323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43031336","to":"wikipedia://en/5705","predicate":"related","method":"link-in-text","confidence":"low","span":[1129,1165],"revision":1318460323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43031336","to":"wikipedia://en/6173","predicate":"related","method":"link-in-text","confidence":"low","span":[1191,1210],"revision":1318460323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43031336","to":"wikipedia://en/19858","predicate":"related","method":"link-in-text","confidence":"low","span":[1503,1525],"revision":1318460323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43031336","to":"wikipedia://en/5705","predicate":"related","method":"link-in-text","confidence":"low","span":[1657,1681],"revision":1318460323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43031336","to":"wikipedia://en/13637","predicate":"related","method":"link-in-text","confidence":"low","span":[1806,1825],"revision":1318460323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43031336","to":"wikipedia://en/59220","predicate":"related","method":"link-in-text","confidence":"low","span":[1831,1889],"revision":1318460323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43031336","to":"Category:Trees (set theory)","predicate":"in-field","method":"category","confidence":"medium","span":[2583,2614],"revision":1318460323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43031336","to":"Category:Independence results","predicate":"in-field","method":"category","confidence":"medium","span":[2615,2648],"revision":1318460323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/491095#RDYK","to":"wikipedia://en/1116115","predicate":"restates","method":"hatnote","confidence":"high","span":[13614,13634],"revision":1372813847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/491095#RDYK","to":"wikipedia://en/103094","predicate":"uses","method":"link-in-item","confidence":"high","span":[15549,15567],"revision":1372813847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/491095#RDYK","to":"wikipedia://en/25977","predicate":"uses","method":"link-in-item","confidence":"high","span":[16976,17027],"revision":1372813847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/491095#RDYK","to":"wikipedia://en/51441","predicate":"uses","method":"link-in-item","confidence":"high","span":[17039,17056],"revision":1372813847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/491095#RDYK","to":"wikipedia://en/897658","predicate":"related","method":"hatnote","confidence":"medium","span":[18124,18157],"revision":1372813847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/491095#RDYK","to":"wikipedia://en/62641","predicate":"uses","method":"link-in-item","confidence":"high","span":[18898,18914],"revision":1372813847,"by":"importer/wikipedia/1"}

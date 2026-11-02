@@ -1,0 +1,18 @@
+{"from":"wikipedia://en/1022661","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[73,101],"revision":1369863060,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1022661","to":"wikipedia://en/21506","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[114,136],"revision":1369863060,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1022661","to":"wikipedia://en/775","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[185,198],"revision":1369863060,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1022661","to":"wikipedia://en/126474","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[274,304],"revision":1369863060,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1022661","to":"wikipedia://en/341015","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[305,322],"revision":1369863060,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1022661","to":"wikipedia://en/134433","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[341,367],"revision":1369863060,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1022661","to":"Category:Matrix decompositions","predicate":"in-field","method":"category","confidence":"medium","span":[2813,2847],"revision":1369863060,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1022661","to":"Category:Sparse matrices","predicate":"in-field","method":"category","confidence":"medium","span":[2848,2876],"revision":1369863060,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1022661","to":"Category:Numerical linear algebra","predicate":"in-field","method":"category","confidence":"medium","span":[2877,2914],"revision":1369863060,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14403539#87FR","to":"wikipedia://en/20754801","predicate":"listed-in","method":"list","confidence":"certain","span":[21159,21176],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/205069#A45D","to":"wikipedia://en/37973","predicate":"listed-in","method":"list","confidence":"certain","span":[2517,2540],"revision":1361796518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/205069#A45D","to":"wikipedia://en/9223","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2595,2608],"revision":1361796518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36496309#GCUC","to":"wikipedia://en/63452","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4024,4037],"revision":1350591495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36496309#GCUC","to":"wikipedia://en/103127","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4081,4102],"revision":1350591495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36496309#GCUC","to":"wikipedia://en/27952971","predicate":"uses","method":"link-in-item","confidence":"high","span":[4104,4127],"revision":1350591495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36496309#GCUC","to":"wikipedia://en/246074","predicate":"uses","method":"link-in-item","confidence":"high","span":[4450,4474],"revision":1350591495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36496309#GCUC","to":"wikipedia://en/36982","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4680,4694],"revision":1350591495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36496309#GCUC","to":"wikipedia://en/550392","predicate":"uses","method":"link-in-item","confidence":"high","span":[5349,5406],"revision":1350591495,"by":"importer/wikipedia/1"}

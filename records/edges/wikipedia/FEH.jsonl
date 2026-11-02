@@ -1,0 +1,25 @@
+{"from":"wikipedia://en/14884335","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[212,224],"revision":1345327587,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14884335","to":"wikipedia://en/30654","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[258,270],"revision":1345327587,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14884335","to":"wikipedia://en/8240558","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[299,338],"revision":1345327587,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14884335","to":"wikipedia://en/946975","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[342,367],"revision":1345327587,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14884335","to":"wikipedia://en/7029586","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[403,420],"revision":1345327587,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14884335","to":"wikipedia://en/14663012","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1072,1090],"revision":1345327587,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14884335","to":"wikipedia://en/14897496","predicate":"related","method":"link-in-lead","confidence":"low","span":[1190,1207],"revision":1345327587,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14884335","to":"wikipedia://en/320998","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1430,1449],"revision":1345327587,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14884335","to":"wikipedia://en/1926432","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1507,1523],"revision":1345327587,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14884335","to":"wikipedia://en/35857329","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1565,1593],"revision":1345327587,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14884335","to":"wikipedia://en/14897496","predicate":"related","method":"see-also","confidence":"low","span":[1610,1627],"revision":1345327587,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14884335","to":"wikipedia://en/7029586","predicate":"related","method":"see-also","confidence":"low","span":[1629,1647],"revision":1345327587,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14884335","to":"Category:Triangles","predicate":"in-field","method":"category","confidence":"medium","span":[1747,1769],"revision":1345327587,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14884335","to":"Category:Objects defined for a triangle","predicate":"in-field","method":"category","confidence":"medium","span":[1770,1813],"revision":1345327587,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18826#TJPA","to":"wikipedia://en/17868233","predicate":"uses","method":"link-in-item","confidence":"medium","span":[44018,44055],"revision":1364637470,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18826#TJPA","to":"wikipedia://en/3636963","predicate":"uses","method":"link-in-item","confidence":"high","span":[44058,44104],"revision":1364637470,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18826#TJPA","to":"wikipedia://en/8028323","predicate":"uses","method":"link-in-item","confidence":"high","span":[44107,44119],"revision":1364637470,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18826#TJPA","to":"wikipedia://en/28301803","predicate":"uses","method":"link-in-item","confidence":"medium","span":[44122,44134],"revision":1364637470,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18826#TJPA","to":"wikipedia://en/29870579","predicate":"uses","method":"link-in-item","confidence":"high","span":[44137,44150],"revision":1364637470,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18826#TJPA","to":"wikipedia://en/29834660","predicate":"uses","method":"link-in-item","confidence":"medium","span":[44153,44194],"revision":1364637470,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18826#TJPA","to":"wikipedia://en/438819","predicate":"uses","method":"link-in-item","confidence":"high","span":[44197,44208],"revision":1364637470,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18826#TJPA","to":"wikipedia://en/27579990","predicate":"uses","method":"link-in-item","confidence":"medium","span":[44211,44222],"revision":1364637470,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#US53","to":"wikipedia://en/75060288","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[8051,8077],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#US53","to":"wikipedia://en/3925533","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[8096,8125],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#US53","to":"wikipedia://en/160993","predicate":"uses","method":"link-in-item","confidence":"high","span":[8175,8199],"revision":1371281804,"by":"importer/wikipedia/1"}

@@ -1,2 +1,4 @@
+{"id":"69E5GNSZD8","mentions":["wikipedia://en/61475737#HAIX"],"kind":"definition","name":"Chua's circuit","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"69E5REAGDD","mentions":["m2://rec/napkin/tex/alg-NT/classgrp.tex#ques-10#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"69EECRD657","mentions":["m2://rec/wikidata/Q60790098#1"],"kind":"unknown","name":"tropical semiring","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"69EECRD657","mentions":["m2://rec/wikidata/Q60790098#1","wikipedia://en/3892336"],"kind":"definition","name":"tropical semiring","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"69EMZ09GHQ","mentions":["wikipedia://en/57242824#U0KK"],"kind":"topic","name":"David Christiani","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

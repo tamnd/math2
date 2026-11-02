@@ -1,2 +1,4 @@
-{"id":"REYGWEJ5D9","mentions":["m2://rec/wikidata/Q5161701#1"],"kind":"concept","name":"connective constant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"REYGWEJ5D9","mentions":["m2://rec/wikidata/Q5161701#1","wikipedia://en/36246682"],"kind":"concept","name":"connective constant","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"REYPDXH9EF","mentions":["wikipedia://en/31501520"],"kind":"definition","name":"Makespan","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"REYPNCWN5Z","mentions":["m2://rec/open_logic/content/sets-functions-relations/arithmetization/checking-details.tex#prob-4#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"REYRR7Y0PA","mentions":["wikipedia://en/1403586#IZXL"],"kind":"unknown","name":"William R. Johnson","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

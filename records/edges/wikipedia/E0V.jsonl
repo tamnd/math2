@@ -1,0 +1,30 @@
+{"from":"wikipedia://en/1177937","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1001,1013],"revision":1364180026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1177937","to":"wikipedia://en/16034","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1068,1086],"revision":1364180026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1177937","to":"wikipedia://en/30606","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1175,1190],"revision":1364180026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1177937","to":"wikipedia://en/2859584","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1206,1226],"revision":1364180026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1177937","to":"wikipedia://en/3307045","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1259,1289],"revision":1364180026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1177937","to":"wikipedia://en/8815","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1352,1386],"revision":1364180026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1177937","to":"Category:Johnson solids","predicate":"in-field","method":"category","confidence":"medium","span":[8001,8028],"revision":1364180026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1177937","to":"Category:Self-dual polyhedra","predicate":"in-field","method":"category","confidence":"medium","span":[8029,8061],"revision":1364180026,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13833#YQZ6","to":"wikipedia://en/374669","predicate":"uses","method":"link-in-item","confidence":"medium","span":[50076,50096],"revision":1373607323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13833#YQZ6","to":"wikipedia://en/9845","predicate":"uses","method":"link-in-item","confidence":"medium","span":[50112,50126],"revision":1373607323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13833#YQZ6","to":"wikipedia://en/555390","predicate":"uses","method":"link-in-item","confidence":"medium","span":[50321,50348],"revision":1373607323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13833#YQZ6","to":"wikipedia://en/5481447","predicate":"uses","method":"link-in-item","confidence":"medium","span":[51031,51040],"revision":1373607323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13833#YQZ6","to":"wikipedia://en/31218","predicate":"uses","method":"link-in-item","confidence":"medium","span":[51156,51190],"revision":1373607323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13833#YQZ6","to":"wikipedia://en/25039021","predicate":"uses","method":"link-in-item","confidence":"medium","span":[51600,51632],"revision":1373607323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13833#YQZ6","to":"wikipedia://en/333491","predicate":"uses","method":"link-in-item","confidence":"medium","span":[51700,51728],"revision":1373607323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13833#YQZ6","to":"wikipedia://en/15881","predicate":"uses","method":"link-in-item","confidence":"medium","span":[51940,51976],"revision":1373607323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13833#YQZ6","to":"wikipedia://en/7955681","predicate":"uses","method":"link-in-item","confidence":"medium","span":[52114,52142],"revision":1373607323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13833#YQZ6","to":"wikipedia://en/23862","predicate":"uses","method":"link-in-item","confidence":"medium","span":[52574,52614],"revision":1373607323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13833#YQZ6","to":"wikipedia://en/333491","predicate":"uses","method":"link-in-item","confidence":"medium","span":[52685,52713],"revision":1373607323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13833#YQZ6","to":"wikipedia://en/25768","predicate":"uses","method":"link-in-item","confidence":"medium","span":[53037,53073],"revision":1373607323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13833#YQZ6","to":"wikipedia://en/29414838","predicate":"uses","method":"link-in-item","confidence":"medium","span":[53621,53657],"revision":1373607323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13833#YQZ6","to":"wikipedia://en/45400268","predicate":"uses","method":"link-in-item","confidence":"medium","span":[54057,54065],"revision":1373607323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13833#YQZ6","to":"wikipedia://en/2356196","predicate":"uses","method":"link-in-item","confidence":"medium","span":[54691,54728],"revision":1373607323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13833#YQZ6","to":"wikipedia://en/208996","predicate":"uses","method":"link-in-item","confidence":"medium","span":[54733,54743],"revision":1373607323,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80505160","to":"wikipedia://en/25734","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[140,160],"revision":1366863377,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80505160","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[161,179],"revision":1366863377,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80505160","to":"wikipedia://en/80814017","predicate":"related","method":"see-also","confidence":"low","span":[6673,6705],"revision":1366863377,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80505160","to":"Template:Portal","predicate":"in-nav","method":"nav","confidence":"low","span":[6735,6770],"revision":1366863377,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80505160","to":"Category:Taiwanese mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[6884,6923],"revision":1366863377,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80505160","to":"Category:Lists of mathematicians by nationality","predicate":"in-field","method":"category","confidence":"medium","span":[6924,6985],"revision":1366863377,"by":"importer/wikipedia/1"}

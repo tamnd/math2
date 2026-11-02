@@ -1,0 +1,31 @@
+{"from":"wikipedia://en/331512","to":"wikipedia://en/30402","predicate":"related","method":"link-in-lead","confidence":"low","span":[131,156],"revision":1369655952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/331512","to":"wikipedia://en/10931","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[185,209],"revision":1369655952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/331512","to":"wikipedia://en/285512","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[265,299],"revision":1369655952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/331512","to":"wikipedia://en/353020","predicate":"related","method":"link-in-lead","confidence":"low","span":[349,366],"revision":1369655952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/331512","to":"wikipedia://en/3934722","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[453,494],"revision":1369655952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/331512","to":"wikipedia://en/1071289","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[495,522],"revision":1369655952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/331512","to":"wikipedia://en/46387557","predicate":"related","method":"link-in-text","confidence":"low","span":[632,651],"revision":1369655952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/331512","to":"wikipedia://en/187337","predicate":"related","method":"link-in-text","confidence":"low","span":[3183,3200],"revision":1369655952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/331512","to":"wikipedia://en/19721986","predicate":"related","method":"link-in-text","confidence":"low","span":[3488,3506],"revision":1369655952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/331512","to":"wikipedia://en/1627129","predicate":"related","method":"see-also","confidence":"low","span":[6235,6258],"revision":1369655952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/331512","to":"wikipedia://en/353020","predicate":"related","method":"see-also","confidence":"low","span":[6261,6278],"revision":1369655952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/331512","to":"wikipedia://en/3616221","predicate":"related","method":"see-also","confidence":"low","span":[6281,6310],"revision":1369655952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/331512","to":"wikipedia://en/7706961","predicate":"related","method":"see-also","confidence":"low","span":[6313,6336],"revision":1369655952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/331512","to":"Template:Commons category-inline","predicate":"in-nav","method":"nav","confidence":"low","span":[7485,7512],"revision":1369655952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/331512","to":"Category:Finite-state machines","predicate":"in-field","method":"category","confidence":"medium","span":[7514,7548],"revision":1369655952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/331512","to":"Category:Models of computation","predicate":"in-field","method":"category","confidence":"medium","span":[7549,7583],"revision":1369655952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55033847","to":"wikipedia://en/3637937","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[119,137],"revision":1340967754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55033847","to":"wikipedia://en/333365","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[153,168],"revision":1340967754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55033847","to":"wikipedia://en/3986852","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[490,531],"revision":1340967754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55033847","to":"wikipedia://en/780566","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[800,834],"revision":1340967754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55033847","to":"wikipedia://en/17753389","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1261,1300],"revision":1340967754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55033847","to":"wikipedia://en/1655450","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1427,1447],"revision":1340967754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55033847","to":"wikipedia://en/48046","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1466,1479],"revision":1340967754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55033847","to":"wikipedia://en/530256","predicate":"related","method":"see-also","confidence":"low","span":[6328,6418],"revision":1340967754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55033847","to":"wikipedia://en/333365","predicate":"related","method":"see-also","confidence":"low","span":[6420,6435],"revision":1340967754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55033847","to":"Category:Non-classical logic","predicate":"in-field","method":"category","confidence":"medium","span":[7596,7628],"revision":1340967754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55033847","to":"Category:Philosophical logic","predicate":"in-field","method":"category","confidence":"medium","span":[7629,7661],"revision":1340967754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55033847","to":"Category:Informal fallacies","predicate":"in-field","method":"category","confidence":"medium","span":[7662,7693],"revision":1340967754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55033847","to":"Category:Syllogistic fallacies","predicate":"in-field","method":"category","confidence":"medium","span":[7694,7738],"revision":1340967754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55033847","to":"Category:Necessity","predicate":"in-field","method":"category","confidence":"medium","span":[7739,7761],"revision":1340967754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55033847","to":"Category:Modal logic","predicate":"in-field","method":"category","confidence":"medium","span":[7762,7800],"revision":1340967754,"by":"importer/wikipedia/1"}

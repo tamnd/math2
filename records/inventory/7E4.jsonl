@@ -1,1 +1,6 @@
+{"id":"7E45F0N3FD","mentions":["wikipedia://en/29763944#RAZ0"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7E47HYD3T2","mentions":["wikipedia://en/1475381#GXHB"],"kind":"definition","name":"Veto","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7E4BV5M0VN","mentions":["m2://rec/wikidata/Q13424747#1"],"kind":"unknown","name":"isotopy","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"7E4FYVTZ8H","mentions":["wikipedia://en/78130#B186"],"kind":"statement","name":"Menger's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}],"proofs":["wikipedia://en/78130#DQBJ"]}
+{"id":"7E4NK4S76P","mentions":["wikipedia://en/34665293#4JSG"],"kind":"statement","name":"The theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7E4Z3CR32K","mentions":["wikipedia://en/8519857#RZ22"],"kind":"definition","name":"Implementation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

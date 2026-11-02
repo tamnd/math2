@@ -1,3 +1,6 @@
+{"id":"N8X6BF2VRQ","mentions":["wikipedia://en/47738065#73D7"],"kind":"unknown","name":"Richard Birkeland","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"N8XC3S7592","mentions":["m2://rec/napkin/tex/calculus/limits.tex#definition-3#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"N8XE5HSN1Z","mentions":["m2://rec/applied_combinatorics/source/s_recurrence_rigorous.ptx#proof-3#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"N8XFDJ5EE3","mentions":["ax://paper/2609.23941#7NVA"],"kind":"statement","msc":["11-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.17"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.17"}]}
+{"id":"N8XGMKZD8A","mentions":["wikipedia://en/4719864#Z9UW"],"kind":"statement","name":"Monotone class theorem for sets","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"N8XNNS8EQC","mentions":["wikipedia://en/321963#DMVE"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

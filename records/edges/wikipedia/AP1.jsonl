@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/371606","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[79,94],"revision":1170018005,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/371606","to":"wikipedia://en/367654","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[102,113],"revision":1170018005,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/371606","to":"wikipedia://en/17944","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[114,129],"revision":1170018005,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/371606","to":"wikipedia://en/1155734","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[147,170],"revision":1170018005,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/371606","to":"wikipedia://en/4365","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[229,250],"revision":1170018005,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/371606","to":"wikipedia://en/18102","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[315,330],"revision":1170018005,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/371606","to":"Category:Vector spaces","predicate":"in-field","method":"category","confidence":"medium","span":[1373,1399],"revision":1170018005,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/371606","to":"Category:Lie algebras","predicate":"in-field","method":"category","confidence":"medium","span":[1400,1425],"revision":1170018005,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54727095","to":"wikipedia://en/35458904","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[168,184],"revision":1356971935,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54727095","to":"wikipedia://en/1470657","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[198,222],"revision":1356971935,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54727095","to":"wikipedia://en/922505","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[728,765],"revision":1356971935,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54727095","to":"wikipedia://en/5599330","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[795,817],"revision":1356971935,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54727095","to":"wikipedia://en/5599330","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[830,853],"revision":1356971935,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54727095","to":"wikipedia://en/1579244","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[899,951],"revision":1356971935,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54727095","to":"Category:Mathematical modeling","predicate":"in-field","method":"category","confidence":"medium","span":[3270,3304],"revision":1356971935,"by":"importer/wikipedia/1"}

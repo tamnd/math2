@@ -1,0 +1,35 @@
+{"from":"wikipedia://en/14403539#AUDI","to":"wikipedia://en/1507538","predicate":"listed-in","method":"list","confidence":"certain","span":[24759,24777],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14403539#ZP1T","to":"wikipedia://en/5803946","predicate":"listed-in","method":"list","confidence":"certain","span":[51489,51507],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69592861","to":"wikipedia://en/9417","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[65,87],"revision":1374367533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69592861","to":"wikipedia://en/649721","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[657,678],"revision":1374367533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69592861","to":"wikipedia://en/30654","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[707,719],"revision":1374367533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69592861","to":"wikipedia://en/69374512","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[793,825],"revision":1374367533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69592861","to":"wikipedia://en/762954","predicate":"related","method":"link-in-text","confidence":"low","span":[2110,2167],"revision":1374367533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69592861","to":"wikipedia://en/3837790","predicate":"related","method":"link-in-text","confidence":"low","span":[2278,2303],"revision":1374367533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69592861","to":"wikipedia://en/3107","predicate":"related","method":"link-in-text","confidence":"low","span":[2635,2649],"revision":1374367533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69592861","to":"wikipedia://en/187926","predicate":"related","method":"link-in-text","confidence":"low","span":[2757,2769],"revision":1374367533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69592861","to":"Category:Triangle geometry","predicate":"in-field","method":"category","confidence":"medium","span":[3409,3439],"revision":1374367533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69592861","to":"Category:Curves defined for a triangle","predicate":"in-field","method":"category","confidence":"medium","span":[3440,3482],"revision":1374367533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69592861","to":"Category:Cubic curves","predicate":"in-field","method":"category","confidence":"medium","span":[3483,3508],"revision":1374367533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69592861","to":"Category:Plane algebraic curves","predicate":"in-field","method":"category","confidence":"medium","span":[3509,3544],"revision":1374367533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#ZYZG","to":"wikipedia://en/185427","predicate":"uses","method":"link-in-item","confidence":"high","span":[36982,37017],"revision":1376316324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#ZYZG","to":"wikipedia://en/50263","predicate":"uses","method":"link-in-item","confidence":"high","span":[37023,37054],"revision":1376316324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#ZYZG","to":"wikipedia://en/50264","predicate":"uses","method":"link-in-item","confidence":"high","span":[37070,37082],"revision":1376316324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#ZYZG","to":"wikipedia://en/516931","predicate":"uses","method":"link-in-item","confidence":"high","span":[37215,37241],"revision":1376316324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#ZYZG","to":"wikipedia://en/516931","predicate":"uses","method":"link-in-item","confidence":"high","span":[37333,37359],"revision":1376316324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#ZYZG","to":"wikipedia://en/13564","predicate":"uses","method":"link-in-item","confidence":"high","span":[37495,37511],"revision":1376316324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#ZYZG","to":"wikipedia://en/27716891","predicate":"uses","method":"link-in-item","confidence":"high","span":[37517,37529],"revision":1376316324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#ZYZG","to":"wikipedia://en/37531624","predicate":"uses","method":"link-in-item","confidence":"high","span":[37589,37612],"revision":1376316324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#ZYZG","to":"wikipedia://en/658808","predicate":"uses","method":"link-in-item","confidence":"high","span":[37622,37667],"revision":1376316324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#ZYZG","to":"wikipedia://en/73634","predicate":"uses","method":"anchor","confidence":"certain","span":[37751,37763],"revision":1376316324,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#ZYZG","to":"wikipedia://en/19636","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[37768,37790],"revision":1376316324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#ZYZG","to":"wikipedia://en/3728109","predicate":"uses","method":"link-in-item","confidence":"high","span":[37925,37965],"revision":1376316324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#ZYZG","to":"wikipedia://en/23218956","predicate":"uses","method":"link-in-item","confidence":"high","span":[38004,38047],"revision":1376316324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#ZYZG","to":"wikipedia://en/3588331","predicate":"uses","method":"link-in-item","confidence":"high","span":[38097,38129],"revision":1376316324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#ZYZG","to":"wikipedia://en/167224","predicate":"uses","method":"link-in-item","confidence":"medium","span":[38247,38261],"revision":1376316324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#ZYZG","to":"wikipedia://en/9417","predicate":"uses","method":"link-in-item","confidence":"high","span":[38337,38359],"revision":1376316324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#ZYZG","to":"wikipedia://en/243890","predicate":"uses","method":"link-in-item","confidence":"high","span":[38382,38401],"revision":1376316324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#ZYZG","to":"wikipedia://en/23218956","predicate":"uses","method":"link-in-item","confidence":"high","span":[38448,38491],"revision":1376316324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#ZYZG","to":"wikipedia://en/204682","predicate":"uses","method":"link-in-item","confidence":"high","span":[38578,38616],"revision":1376316324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#ZYZG","to":"wikipedia://en/516931","predicate":"uses","method":"link-in-item","confidence":"high","span":[38622,38648],"revision":1376316324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73634#ZYZG","to":"wikipedia://en/298834","predicate":"uses","method":"link-in-item","confidence":"high","span":[38736,38752],"revision":1376316324,"by":"importer/wikipedia/1"}

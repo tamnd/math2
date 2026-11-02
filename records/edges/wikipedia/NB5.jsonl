@@ -1,0 +1,7 @@
+{"from":"wikipedia://en/226424#1KMB","to":"wikipedia://en/9891","predicate":"uses","method":"link-in-item","confidence":"high","span":[38468,38479],"revision":1363055907,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/226424#1KMB","to":"wikipedia://en/41789","predicate":"uses","method":"link-in-item","confidence":"high","span":[38959,38983],"revision":1363055907,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44912857","to":"wikipedia://en/21506","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[40,62],"revision":861254754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44912857","to":"wikipedia://en/20556859","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[113,144],"revision":861254754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44912857","to":"wikipedia://en/59718","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[307,326],"revision":861254754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44912857","to":"Category:Matrix decompositions","predicate":"in-field","method":"category","confidence":"medium","span":[2438,2472],"revision":861254754,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44912857","to":"Category:Numerical linear algebra","predicate":"in-field","method":"category","confidence":"medium","span":[2473,2510],"revision":861254754,"by":"importer/wikipedia/1"}

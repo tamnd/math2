@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/20519569#RKY4","to":"wikipedia://en/3003553","predicate":"uses","method":"named-link","confidence":"high","span":[11045,11078],"revision":1366133149,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20519569#RKY4","to":"wikipedia://en/60330511","predicate":"related","method":"hatnote","confidence":"medium","span":[12630,12648],"revision":1366133149,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23340612","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[81,96],"revision":1359521036,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23340612","to":"wikipedia://en/45200","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[116,137],"revision":1359521036,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23340612","to":"wikipedia://en/19447","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[448,477],"revision":1359521036,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23340612","to":"wikipedia://en/42301","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[501,530],"revision":1359521036,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23340612","to":"wikipedia://en/3948","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[544,564],"revision":1359521036,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23340612","to":"wikipedia://en/24104095","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[930,949],"revision":1359521036,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23340612","to":"wikipedia://en/928","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[974,984],"revision":1359521036,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23340612","to":"wikipedia://en/362382","predicate":"related","method":"link-in-lead","confidence":"low","span":[1541,1559],"revision":1359521036,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23340612","to":"wikipedia://en/1388937","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1596,1649],"revision":1359521036,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23340612","to":"wikipedia://en/45200","predicate":"related","method":"see-also","confidence":"low","span":[8471,8492],"revision":1359521036,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23340612","to":"Category:Algebraic structures","predicate":"in-field","method":"category","confidence":"medium","span":[8644,8677],"revision":1359521036,"by":"importer/wikipedia/1"}

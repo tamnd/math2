@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/183091#OX15","to":"wikipedia://en/56669979","predicate":"listed-in","method":"list","confidence":"certain","span":[27986,28008],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/183091#OX15","to":"wikipedia://en/168389","predicate":"uses","method":"link-in-item","confidence":"high","span":[28044,28071],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19448392","to":"wikipedia://en/12401","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[221,237],"revision":1294068841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19448392","to":"wikipedia://en/426743","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[333,351],"revision":1294068841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19448392","to":"wikipedia://en/36619818","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1113,1158],"revision":1294068841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19448392","to":"wikipedia://en/20933302","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1881,1898],"revision":1294068841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19448392","to":"wikipedia://en/9909979","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1937,1959],"revision":1294068841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19448392","to":"wikipedia://en/25646409","predicate":"related","method":"see-also","confidence":"low","span":[4255,4283],"revision":1294068841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19448392","to":"Category:Graph coloring","predicate":"in-field","method":"category","confidence":"medium","span":[5124,5151],"revision":1294068841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19448392","to":"Category:Parametric families of graphs","predicate":"in-field","method":"category","confidence":"medium","span":[5152,5194],"revision":1294068841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19448392","to":"Category:Regular graphs","predicate":"in-field","method":"category","confidence":"medium","span":[5195,5222],"revision":1294068841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42993804#QJ9T","to":"wikipedia://en/371468","predicate":"uses","method":"link-in-item","confidence":"high","span":[526,538],"revision":1288153242,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42993804#QJ9T","to":"wikipedia://en/523166","predicate":"uses","method":"link-in-item","confidence":"high","span":[774,789],"revision":1288153242,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42993804#QJ9T","to":"wikipedia://en/381013","predicate":"uses","method":"link-in-item","confidence":"high","span":[1207,1240],"revision":1288153242,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42993804#QJ9T","to":"wikipedia://en/240790","predicate":"uses","method":"link-in-item","confidence":"high","span":[1773,1820],"revision":1288153242,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42993804#QJ9T","to":"wikipedia://en/16750","predicate":"uses","method":"link-in-item","confidence":"high","span":[1912,1937],"revision":1288153242,"by":"importer/wikipedia/1"}

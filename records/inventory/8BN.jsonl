@@ -1,2 +1,4 @@
-{"id":"8BNQQNA150","mentions":["m2://rec/wikidata/Q2029236#1"],"kind":"topic","name":"stream function","msc":["76D05"],"layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"8BNFFRGZ5B","mentions":["wikipedia://en/17071161#881W"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"8BNQQNA150","mentions":["m2://rec/wikidata/Q2029236#1","wikipedia://en/218091"],"kind":"definition","name":"stream function","msc":["76D05"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"8BNSRNHASV","mentions":["m2://rec/lebl_ra/ch-seq-funcs.tex#exercise-30#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"8BNSV23VAK","mentions":["wikipedia://en/22570355"],"kind":"topic","name":"Patrick Brosnan","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

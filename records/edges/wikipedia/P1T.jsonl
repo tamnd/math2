@@ -1,0 +1,34 @@
+{"from":"wikipedia://en/1153226","to":"wikipedia://en/502113","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[103,117],"revision":1254108487,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1153226","to":"wikipedia://en/26748","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[125,146],"revision":1254108487,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1153226","to":"wikipedia://en/267484","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[192,214],"revision":1254108487,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1153226","to":"Category:19th-century Swiss mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[785,831],"revision":1254108487,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1153226","to":"Category:Swiss schoolteachers","predicate":"in-field","method":"category","confidence":"medium","span":[832,865],"revision":1254108487,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1153226","to":"Category:Swiss Calvinist and Reformed Christians","predicate":"in-field","method":"category","confidence":"medium","span":[866,918],"revision":1254108487,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1153226","to":"Category:19th-century Swiss educators","predicate":"in-field","method":"category","confidence":"medium","span":[969,1010],"revision":1254108487,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/272065#RHQD","to":"wikipedia://en/22483","predicate":"uses","method":"link-in-item","confidence":"medium","span":[17168,17178],"revision":1374736876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/272065#RHQD","to":"wikipedia://en/25879","predicate":"related","method":"link-in-item","confidence":"low","span":[17196,17211],"revision":1374736876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/272065#RHQD","to":"wikipedia://en/23979","predicate":"related","method":"link-in-item","confidence":"low","span":[17247,17258],"revision":1374736876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/272065#RHQD","to":"wikipedia://en/1645","predicate":"related","method":"link-in-item","confidence":"low","span":[17951,17969],"revision":1374736876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/272065#RHQD","to":"wikipedia://en/94721","predicate":"related","method":"link-in-item","confidence":"low","span":[17971,17993],"revision":1374736876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/272065#RHQD","to":"wikipedia://en/22483","predicate":"uses","method":"link-in-item","confidence":"medium","span":[18291,18301],"revision":1374736876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/272065#RHQD","to":"wikipedia://en/308","predicate":"related","method":"link-in-item","confidence":"low","span":[18338,18364],"revision":1374736876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/272065#RHQD","to":"wikipedia://en/9331","predicate":"related","method":"link-in-item","confidence":"low","span":[18369,18382],"revision":1374736876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/272065#RHQD","to":"wikipedia://en/1645","predicate":"related","method":"link-in-item","confidence":"low","span":[19907,19918],"revision":1374736876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/272065#RHQD","to":"wikipedia://en/11828715","predicate":"uses","method":"link-in-item","confidence":"medium","span":[19921,19946],"revision":1374736876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/272065#RHQD","to":"wikipedia://en/48146804","predicate":"uses","method":"link-in-item","confidence":"medium","span":[19978,20006],"revision":1374736876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/272065#RHQD","to":"wikipedia://en/24877937","predicate":"uses","method":"link-in-item","confidence":"high","span":[20011,20030],"revision":1374736876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/272065#RHQD","to":"wikipedia://en/94721","predicate":"related","method":"link-in-item","confidence":"low","span":[20144,20166],"revision":1374736876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/272065#RHQD","to":"wikipedia://en/1015358","predicate":"uses","method":"link-in-item","confidence":"medium","span":[20168,20179],"revision":1374736876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/272065#RHQD","to":"wikipedia://en/3151251","predicate":"uses","method":"link-in-item","confidence":"medium","span":[20184,20210],"revision":1374736876,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38626290","to":"wikipedia://en/5924217","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[71,89],"revision":1292652952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38626290","to":"wikipedia://en/145375","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[95,110],"revision":1292652952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38626290","to":"wikipedia://en/5924217","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[218,247],"revision":1292652952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38626290","to":"wikipedia://en/36953973","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[256,280],"revision":1292652952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38626290","to":"wikipedia://en/32091871","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[629,652],"revision":1292652952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38626290","to":"wikipedia://en/29750969","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[654,698],"revision":1292652952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38626290","to":"wikipedia://en/31457610","predicate":"related","method":"link-in-text","confidence":"low","span":[1173,1200],"revision":1292652952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38626290","to":"wikipedia://en/33669897","predicate":"related","method":"see-also","confidence":"low","span":[3821,3849],"revision":1292652952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38626290","to":"Category:Algebraic number theory","predicate":"in-field","method":"category","confidence":"medium","span":[6621,6657],"revision":1292652952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/885948#ZOOZ","to":"wikipedia://en/18457137","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5974,5995],"revision":1350922911,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/885948#ZOOZ","to":"wikipedia://en/157935","predicate":"uses","method":"link-in-item","confidence":"high","span":[6292,6305],"revision":1350922911,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/885948#ZOOZ","to":"wikipedia://en/5909599","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6329,6389],"revision":1350922911,"by":"importer/wikipedia/1"}

@@ -1,0 +1,32 @@
+{"from":"wikipedia://en/48396#4Q9W","to":"wikipedia://en/19555586","predicate":"uses","method":"link-in-item","confidence":"high","span":[52025,52048],"revision":1375194892,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48396#4Q9W","to":"wikipedia://en/30001","predicate":"uses","method":"link-in-item","confidence":"high","span":[52050,52085],"revision":1375194892,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48396#4Q9W","to":"wikipedia://en/25202","predicate":"uses","method":"link-in-item","confidence":"high","span":[52091,52112],"revision":1375194892,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48396#4Q9W","to":"wikipedia://en/1424309","predicate":"uses","method":"link-in-item","confidence":"high","span":[52147,52173],"revision":1375194892,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48396#4Q9W","to":"wikipedia://en/55212","predicate":"uses","method":"link-in-item","confidence":"medium","span":[52242,52265],"revision":1375194892,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48396#4Q9W","to":"wikipedia://en/59874","predicate":"uses","method":"link-in-item","confidence":"high","span":[52271,52296],"revision":1375194892,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48396#4Q9W","to":"wikipedia://en/424540","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[52306,52334],"revision":1375194892,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48396#4Q9W","to":"wikipedia://en/11180","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[52337,52360],"revision":1375194892,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48396#4Q9W","to":"wikipedia://en/25202","predicate":"uses","method":"link-in-item","confidence":"high","span":[52387,52408],"revision":1375194892,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48396#4Q9W","to":"wikipedia://en/18994087","predicate":"uses","method":"link-in-item","confidence":"medium","span":[52470,52485],"revision":1375194892,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48396#4Q9W","to":"wikipedia://en/98132","predicate":"uses","method":"link-in-item","confidence":"medium","span":[52487,52502],"revision":1375194892,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48396#4Q9W","to":"wikipedia://en/89830","predicate":"uses","method":"link-in-item","confidence":"high","span":[52517,52534],"revision":1375194892,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48396#4Q9W","to":"wikipedia://en/251513","predicate":"uses","method":"link-in-item","confidence":"high","span":[53292,53318],"revision":1375194892,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48396#4Q9W","to":"wikipedia://en/75060288","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[53321,53347],"revision":1375194892,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48396#4Q9W","to":"wikipedia://en/23543","predicate":"uses","method":"link-in-item","confidence":"high","span":[53350,53376],"revision":1375194892,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48396#4Q9W","to":"wikipedia://en/3504168","predicate":"uses","method":"link-in-item","confidence":"high","span":[53379,53403],"revision":1375194892,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48396#4Q9W","to":"wikipedia://en/17507367","predicate":"uses","method":"link-in-item","confidence":"high","span":[53428,53450],"revision":1375194892,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48396#4Q9W","to":"wikipedia://en/8625","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[53453,53478],"revision":1375194892,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48396#4Q9W","to":"wikipedia://en/2073470","predicate":"uses","method":"link-in-item","confidence":"high","span":[53549,53562],"revision":1375194892,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48396#4Q9W","to":"wikipedia://en/2119219","predicate":"uses","method":"link-in-item","confidence":"high","span":[53650,53678],"revision":1375194892,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48396#4Q9W","to":"wikipedia://en/8562","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[53681,53706],"revision":1375194892,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48396#4Q9W","to":"wikipedia://en/52564","predicate":"uses","method":"link-in-item","confidence":"high","span":[53709,53743],"revision":1375194892,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53673584","to":"wikipedia://en/30977","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[459,483],"revision":1315967029,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53673584","to":"wikipedia://en/888711","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[501,528],"revision":1315967029,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53673584","to":"wikipedia://en/4165882","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[533,552],"revision":1315967029,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53673584","to":"wikipedia://en/49872639","predicate":"related","method":"link-in-text","confidence":"low","span":[2282,2301],"revision":1315967029,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53673584","to":"wikipedia://en/53637785","predicate":"related","method":"link-in-text","confidence":"low","span":[4433,4449],"revision":1315967029,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53673584","to":"wikipedia://en/207079","predicate":"related","method":"link-in-text","confidence":"low","span":[4929,4971],"revision":1315967029,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53673584","to":"Category:Gaussian function","predicate":"in-field","method":"category","confidence":"medium","span":[6872,6902],"revision":1315967029,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53673584","to":"Category:Geometric inequalities","predicate":"in-field","method":"category","confidence":"medium","span":[6903,6938],"revision":1315967029,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53673584","to":"Category:Probabilistic inequalities","predicate":"in-field","method":"category","confidence":"medium","span":[6939,6978],"revision":1315967029,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53673584","to":"Category:Conjectures that have been proved","predicate":"kind-of","method":"category","confidence":"medium","span":[6979,7025],"revision":1315967029,"by":"importer/wikipedia/1"}

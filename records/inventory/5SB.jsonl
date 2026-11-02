@@ -1,3 +1,6 @@
+{"id":"5SB3AZ16K2","mentions":["wikipedia://en/76554949#TIDG"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5SBA7AE77M","mentions":["m2://rec/wikidata/Q1432895#1"],"kind":"unknown","name":"Robert Schrader","layer":"textbook","spread":1,"outcome":{"value":"out_of_scope","reason":"a person, not an item of mathematics","rule":"person","by":"m2/dev"},"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"5SBBHWH4DW","mentions":["m2://rec/napkin/tex/topology/top-more.tex#definition-11#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"5SBEG5B4PC","mentions":["m2://rec/wikidata/Q1137554#1"],"kind":"unknown","name":"NP-hard","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"5SBEG5B4PC","mentions":["m2://rec/wikidata/Q1137554#1","wikipedia://en/54681"],"kind":"definition","name":"NP-hard","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"5SBQ79SHKE","mentions":["wikipedia://en/922505#IPVF"],"kind":"unknown","name":"Area under the curve (receiver operating characteristic)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5SBTBCBY6B","mentions":["wikipedia://en/1227519#U888"],"kind":"statement","name":"Generalization","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

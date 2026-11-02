@@ -1,0 +1,38 @@
+{"from":"wikipedia://en/32924592","to":"wikipedia://en/416589","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[781,810],"revision":1021682168,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32924592","to":"wikipedia://en/3461736","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[812,841],"revision":1021682168,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32924592","to":"wikipedia://en/1179950","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[847,868],"revision":1021682168,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32924592","to":"wikipedia://en/2830368","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1061,1083],"revision":1021682168,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32924592","to":"wikipedia://en/28249","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1169,1189],"revision":1021682168,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32924592","to":"wikipedia://en/21462","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1276,1299],"revision":1021682168,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32924592","to":"wikipedia://en/412544","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1449,1465],"revision":1021682168,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32924592","to":"wikipedia://en/255954","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1522,1540],"revision":1021682168,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32924592","to":"wikipedia://en/235550","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1989,2010],"revision":1021682168,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32924592","to":"wikipedia://en/325813","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2376,2392],"revision":1021682168,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32924592","to":"wikipedia://en/8525","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2731,2760],"revision":1021682168,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32924592","to":"wikipedia://en/3829034","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3195,3203],"revision":1021682168,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32924592","to":"wikipedia://en/233488","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3204,3224],"revision":1021682168,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32924592","to":"Category:Statistical charts and diagrams","predicate":"in-field","method":"category","confidence":"medium","span":[4048,4092],"revision":1021682168,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43063523","to":"wikipedia://en/12401","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[73,89],"revision":1317721186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43063523","to":"wikipedia://en/325813","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[94,111],"revision":1317721186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43063523","to":"wikipedia://en/325802","predicate":"related","method":"link-in-lead","confidence":"low","span":[147,194],"revision":1317721186,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43063523","to":"wikipedia://en/24314","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[200,223],"revision":1317721186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43063523","to":"wikipedia://en/244437","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[224,245],"revision":1317721186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43063523","to":"wikipedia://en/3987703","predicate":"related","method":"link-in-text","confidence":"low","span":[3100,3119],"revision":1317721186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43063523","to":"wikipedia://en/325813","predicate":"related","method":"link-in-text","confidence":"low","span":[3504,3521],"revision":1317721186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43063523","to":"wikipedia://en/38864413","predicate":"related","method":"link-in-text","confidence":"low","span":[3566,3590],"revision":1317721186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43063523","to":"wikipedia://en/47904387","predicate":"related","method":"link-in-text","confidence":"low","span":[3592,3618],"revision":1317721186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43063523","to":"wikipedia://en/33211287","predicate":"related","method":"link-in-text","confidence":"low","span":[3643,3668],"revision":1317721186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43063523","to":"wikipedia://en/7566175","predicate":"related","method":"link-in-text","confidence":"low","span":[3829,3869],"revision":1317721186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43063523","to":"wikipedia://en/80318201","predicate":"uses","method":"named-link","confidence":"high","span":[3888,3929],"revision":1317721186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43063523","to":"wikipedia://en/19658548","predicate":"related","method":"link-in-text","confidence":"low","span":[4320,4336],"revision":1317721186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43063523","to":"wikipedia://en/1374448","predicate":"related","method":"link-in-text","confidence":"low","span":[4711,4751],"revision":1317721186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43063523","to":"wikipedia://en/353021","predicate":"related","method":"link-in-text","confidence":"low","span":[5537,5578],"revision":1317721186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43063523","to":"Category:Graph families","predicate":"in-field","method":"category","confidence":"medium","span":[5716,5743],"revision":1317721186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43063523","to":"Category:Planar graphs","predicate":"in-field","method":"category","confidence":"medium","span":[5744,5770],"revision":1317721186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43063523","to":"Category:Hamiltonian paths and cycles","predicate":"in-field","method":"category","confidence":"medium","span":[5771,5812],"revision":1317721186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/801679#64A4","to":"wikipedia://en/45337","predicate":"uses","method":"link-in-item","confidence":"high","span":[44869,44889],"revision":1357542564,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/801679#64A4","to":"wikipedia://en/157901","predicate":"uses","method":"link-in-item","confidence":"medium","span":[44971,44993],"revision":1357542564,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/801679#64A4","to":"wikipedia://en/1556970","predicate":"uses","method":"link-in-item","confidence":"medium","span":[45055,45069],"revision":1357542564,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/801679#64A4","to":"wikipedia://en/296775","predicate":"uses","method":"link-in-item","confidence":"high","span":[47324,47343],"revision":1357542564,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/801679#64A4","to":"wikipedia://en/5399808","predicate":"uses","method":"link-in-item","confidence":"medium","span":[47350,47365],"revision":1357542564,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/801679#64A4","to":"wikipedia://en/332183","predicate":"related","method":"link-in-item","confidence":"low","span":[47457,47500],"revision":1357542564,"by":"importer/wikipedia/1"}

@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/1631920","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[129,144],"revision":1301778993,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1631920","to":"wikipedia://en/276526","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[473,496],"revision":1301778993,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1631920","to":"wikipedia://en/27865","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[521,551],"revision":1301778993,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1631920","to":"wikipedia://en/1018257","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[605,637],"revision":1301778993,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1631920","to":"wikipedia://en/2011690","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[660,694],"revision":1301778993,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1631920","to":"wikipedia://en/21034384","predicate":"related","method":"see-also","confidence":"low","span":[711,728],"revision":1301778993,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1631920","to":"Category:Geometric topology","predicate":"in-field","method":"category","confidence":"medium","span":[789,820],"revision":1301778993,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33332874","to":"wikipedia://en/33913835","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[78,104],"revision":1334896104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33332874","to":"wikipedia://en/47895","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[191,224],"revision":1334896104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33332874","to":"wikipedia://en/406624","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[225,240],"revision":1334896104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33332874","to":"wikipedia://en/1434444","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[277,302],"revision":1334896104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33332874","to":"wikipedia://en/217152","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[374,398],"revision":1334896104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33332874","to":"wikipedia://en/43405","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[431,452],"revision":1334896104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33332874","to":"wikipedia://en/10084915","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[462,492],"revision":1334896104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33332874","to":"wikipedia://en/56098","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[572,595],"revision":1334896104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33332874","to":"Template:Stochastic processes","predicate":"in-nav","method":"nav","confidence":"low","span":[2952,2976],"revision":1334896104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33332874","to":"Category:Actuarial science","predicate":"in-field","method":"category","confidence":"medium","span":[2978,3008],"revision":1334896104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33332874","to":"Category:Financial models","predicate":"in-field","method":"category","confidence":"medium","span":[3009,3038],"revision":1334896104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33332874","to":"Category:Monte Carlo methods in finance","predicate":"in-field","method":"category","confidence":"medium","span":[3039,3082],"revision":1334896104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/36799559#UGJU","to":"wikipedia://en/295907","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[21784,21807],"revision":1337586117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48781047#ZONT","to":"wikipedia://en/28662219","predicate":"uses","method":"link-in-item","confidence":"high","span":[31691,31707],"revision":1367087612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48781047#ZONT","to":"wikipedia://en/2895304","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[31799,31817],"revision":1367087612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51140705#HK7F","to":"wikipedia://en/30760578","predicate":"listed-in","method":"list","confidence":"certain","span":[38868,38887],"revision":1369875693,"by":"importer/wikipedia/1"}

@@ -1,2 +1,7 @@
-{"id":"WTKF42AAHC","mentions":["m2://rec/wikidata/Q2993300#1"],"kind":"unknown","name":"Artin L-function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"WTK6V39547","mentions":["wikipedia://en/28311992#D5HS"],"kind":"definition","name":"Wavelet","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"WTKBV0W8E7","mentions":["wikipedia://en/81244246"],"kind":"topic","name":"Jean-Michel Muller","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"WTKF42AAHC","mentions":["m2://rec/wikidata/Q2993300#1","wikipedia://en/2774171"],"kind":"definition","name":"Artin L-function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"WTKHTZRXR2","mentions":["wikipedia://en/9728405"],"kind":"topic","name":"Virginia Ragsdale","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"WTKK15C0XS","mentions":["wikipedia://en/46953393#SSQ5"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"WTKKVM5SY8","mentions":["wikipedia://en/469391#JG1F"],"kind":"definition","name":"De Boor algorithm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WTKVJZP9AX","mentions":["m2://rec/levin_dmoi/ptx/exercises/counting-addmult.ptx#exercise-2#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

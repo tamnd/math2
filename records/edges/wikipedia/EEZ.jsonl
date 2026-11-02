@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/191457#SQWW","to":"wikipedia://en/17314682","predicate":"listed-in","method":"list","confidence":"certain","span":[1621,1645],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62863192","to":"wikipedia://en/6889","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[568,596],"revision":1374162137,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62863192","to":"wikipedia://en/11471748","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[981,1033],"revision":1374162137,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62863192","to":"wikipedia://en/5222","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1048,1081],"revision":1374162137,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62863192","to":"wikipedia://en/32352899","predicate":"related","method":"link-in-text","confidence":"low","span":[3169,3184],"revision":1374162137,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62863192","to":"wikipedia://en/61514867","predicate":"related","method":"link-in-text","confidence":"low","span":[3286,3325],"revision":1374162137,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62863192","to":"wikipedia://en/549204","predicate":"related","method":"link-in-text","confidence":"low","span":[7361,7388],"revision":1374162137,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62863192","to":"Template:S-start","predicate":"in-nav","method":"nav","confidence":"low","span":[16161,16172],"revision":1374162137,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62863192","to":"Template:Succession box","predicate":"in-nav","method":"nav","confidence":"low","span":[16173,16309],"revision":1374162137,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62863192","to":"Template:S-end","predicate":"in-nav","method":"nav","confidence":"low","span":[16310,16319],"revision":1374162137,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62863192","to":"Category:2018 censuses","predicate":"in-field","method":"category","confidence":"medium","span":[16343,16374],"revision":1374162137,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62863192","to":"Category:2018 in Colombia","predicate":"in-field","method":"category","confidence":"medium","span":[16375,16404],"revision":1374162137,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62863192","to":"Category:Censuses by country","predicate":"in-field","method":"category","confidence":"medium","span":[16405,16437],"revision":1374162137,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62863192","to":"Category:Demographics of Colombia","predicate":"in-field","method":"category","confidence":"medium","span":[16438,16475],"revision":1374162137,"by":"importer/wikipedia/1"}

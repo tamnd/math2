@@ -1,1 +1,6 @@
+{"id":"YJACVW66J7","mentions":["wikipedia://en/7542417"],"kind":"topic","name":"Modal analysis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YJAE9ZTRVT","mentions":["ax://paper/2609.27788#WC2N"],"kind":"problem","name":"Caro and Mifsud","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}
+{"id":"YJAS0G7YCG","mentions":["wikipedia://en/228015#JECC"],"kind":"definition","name":"Algorithm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"YJASB1E1CR","mentions":["wikipedia://en/47738065#GWZR"],"kind":"unknown","name":"Anton Börsch","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"YJAY2N3KDK","mentions":["wikipedia://en/10296#J987"],"kind":"statement","name":"The \"Paradox\" paper","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"YJAYMP9D9F","mentions":["wikipedia://en/27250866#YVF0"],"kind":"unknown","name":"Efficiency of estimators","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

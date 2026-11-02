@@ -1,0 +1,8 @@
+{"from":"wikipedia://en/140829#ERCC","to":"wikipedia://en/3809684","predicate":"listed-in","method":"list","confidence":"certain","span":[38026,38058],"revision":1372044875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38755088#BXTA","to":"wikipedia://en/106645","predicate":"listed-in","method":"list","confidence":"certain","span":[2544,2576],"revision":1369154077,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40644951","to":"wikipedia://en/3989","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[136,153],"revision":1192164139,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40644951","to":"wikipedia://en/321995","predicate":"related","method":"link-in-lead","confidence":"low","span":[166,183],"revision":1192164139,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40644951","to":"wikipedia://en/31368502","predicate":"related","method":"link-in-lead","confidence":"low","span":[188,205],"revision":1192164139,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40644951","to":"Template:Functional analysis","predicate":"in-nav","method":"nav","confidence":"low","span":[2079,2102],"revision":1192164139,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40644951","to":"Category:Banach spaces","predicate":"in-field","method":"category","confidence":"medium","span":[2165,2191],"revision":1192164139,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40644951","to":"Category:Theorems in functional analysis","predicate":"kind-of","method":"category","confidence":"medium","span":[2192,2236],"revision":1192164139,"by":"importer/wikipedia/1"}

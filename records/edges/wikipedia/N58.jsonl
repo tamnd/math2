@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/1744868#GSB2","to":"wikipedia://en/1424309","predicate":"uses","method":"link-in-item","confidence":"high","span":[9445,9470],"revision":1360645378,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1744868#GSB2","to":"wikipedia://en/7039","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[9517,9535],"revision":1360645378,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1744868#GSB2","to":"wikipedia://en/13899","predicate":"uses","method":"link-in-item","confidence":"high","span":[9565,9588],"revision":1360645378,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1744868#GSB2","to":"wikipedia://en/53102285","predicate":"uses","method":"link-in-item","confidence":"medium","span":[10237,10265],"revision":1360645378,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1744868#GSB2","to":"wikipedia://en/229553","predicate":"uses","method":"link-in-item","confidence":"medium","span":[10314,10333],"revision":1360645378,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1744868#GSB2","to":"wikipedia://en/2321587","predicate":"uses","method":"link-in-item","confidence":"high","span":[10377,10428],"revision":1360645378,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1744868#GSB2","to":"wikipedia://en/65913","predicate":"uses","method":"link-in-item","confidence":"medium","span":[10443,10465],"revision":1360645378,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1744868#GSB2","to":"wikipedia://en/3694602","predicate":"uses","method":"link-in-item","confidence":"medium","span":[10967,10988],"revision":1360645378,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1744868#GSB2","to":"wikipedia://en/5826","predicate":"uses","method":"link-in-item","confidence":"high","span":[11426,11452],"revision":1360645378,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48611088","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[63,78],"revision":1332963110,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48611088","to":"wikipedia://en/5869","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[130,149],"revision":1332963110,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48611088","to":"wikipedia://en/26691","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[239,265],"revision":1332963110,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48611088","to":"wikipedia://en/1072144","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[335,360],"revision":1332963110,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48611088","to":"wikipedia://en/152214","predicate":"related","method":"link-in-text","confidence":"low","span":[1946,1953],"revision":1332963110,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48611088","to":"wikipedia://en/528491","predicate":"related","method":"link-in-text","confidence":"low","span":[1954,2003],"revision":1332963110,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48611088","to":"wikipedia://en/2693655","predicate":"related","method":"link-in-text","confidence":"low","span":[2004,2036],"revision":1332963110,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48611088","to":"wikipedia://en/1072144","predicate":"related","method":"link-in-text","confidence":"low","span":[2083,2108],"revision":1332963110,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48611088","to":"wikipedia://en/20696","predicate":"related","method":"link-in-text","confidence":"low","span":[2262,2278],"revision":1332963110,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48611088","to":"Template:Category theory","predicate":"in-nav","method":"nav","confidence":"low","span":[8104,8123],"revision":1332963110,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48611088","to":"Category:Higher category theory","predicate":"in-field","method":"category","confidence":"medium","span":[8125,8160],"revision":1332963110,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48611088","to":"Category:Set theory","predicate":"in-field","method":"category","confidence":"medium","span":[8161,8184],"revision":1332963110,"by":"importer/wikipedia/1"}

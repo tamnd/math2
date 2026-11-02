@@ -1,1 +1,2 @@
 {"id":"FM519FX7PK","mentions":["ax://paper/2609.21915#ZR8Q"],"kind":"statement","msc":["46-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.17"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.17"}]}
+{"id":"FM5JEB7J27","mentions":["wikipedia://en/11545#BFJO"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

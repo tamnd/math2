@@ -1,2 +1,5 @@
 {"id":"DBY5Z3RDGR","mentions":["m2://rec/lebl_ra/ch-contfunc.tex#exercise-31#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"DBY6F52YAZ","mentions":["wikipedia://en/4919653#4JMU"],"kind":"statement","name":"Propositions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"DBYA2M3HVE","mentions":null,"kind":"statement","name":"Dudley's Theorem","layer":"research","spread":1,"outcome":{"value":"merged","target":["9BXH75GRTP"],"rule":"name","by":"m2/v0.5.6"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"},{"op":"merge","at":"2026-10-31","by":"m2/v0.5.6","note":"merged into 9BXH75GRTP by an equal name"}]}
+{"id":"DBYJTJMC72","mentions":["wikipedia://en/325802#NRP9"],"kind":"definition","name":"direct successor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"DBYK7AQ8QD","mentions":["wikipedia://en/33963415"],"kind":"definition","name":"Maillet's determinant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

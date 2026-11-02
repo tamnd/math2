@@ -1,0 +1,6 @@
+{"from":"wikipedia://en/39651142","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[36,51],"revision":1347479176,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39651142","to":"wikipedia://en/21391464","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[111,120],"revision":1347479176,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39651142","to":"Category:Topos theory","predicate":"in-field","method":"category","confidence":"medium","span":[2312,2337],"revision":1347479176,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#MNZF","to":"wikipedia://en/41172240","predicate":"listed-in","method":"list","confidence":"certain","span":[66138,66154],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68726609#WHRK","to":"wikipedia://en/51436","predicate":"uses","method":"link-in-item","confidence":"high","span":[1394,1407],"revision":1339293528,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68726609#WHRK","to":"wikipedia://en/6533841","predicate":"uses","method":"link-in-item","confidence":"high","span":[1570,1597],"revision":1339293528,"by":"importer/wikipedia/1"}

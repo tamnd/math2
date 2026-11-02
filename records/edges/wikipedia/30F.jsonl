@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/20506691","to":"wikipedia://en/27553","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[58,72],"revision":1329591270,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20506691","to":"wikipedia://en/343335","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[158,184],"revision":1329591270,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20506691","to":"wikipedia://en/2462396","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[216,234],"revision":1329591270,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20506691","to":"wikipedia://en/972601","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[245,268],"revision":1329591270,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20506691","to":"wikipedia://en/1251604","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[540,563],"revision":1329591270,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20506691","to":"wikipedia://en/25129404","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[727,746],"revision":1329591270,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20506691","to":"wikipedia://en/16736","predicate":"related","method":"link-in-lead","confidence":"low","span":[1163,1178],"revision":1329591270,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20506691","to":"wikipedia://en/696472","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1201,1230],"revision":1329591270,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20506691","to":"wikipedia://en/5705","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1239,1304],"revision":1329591270,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20506691","to":"Template:Mathematical logic","predicate":"in-nav","method":"nav","confidence":"low","span":[1993,2015],"revision":1329591270,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20506691","to":"Category:Constructible universe","predicate":"in-field","method":"category","confidence":"medium","span":[2032,2067],"revision":1329591270,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20506691","to":"Category:Lemmas in set theory","predicate":"kind-of","method":"category","confidence":"medium","span":[2068,2101],"revision":1329591270,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28311992#E9IP","to":"wikipedia://en/18957","predicate":"listed-in","method":"list","confidence":"certain","span":[19626,19638],"revision":1373727496,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28311992#E9IP","to":"wikipedia://en/2368154","predicate":"uses","method":"link-in-item","confidence":"medium","span":[19640,19669],"revision":1373727496,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3832917#XTWY","to":"wikipedia://en/248988","predicate":"uses","method":"link-in-item","confidence":"high","span":[3324,3340],"revision":1348486367,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3832917#XTWY","to":"wikipedia://en/897658","predicate":"uses","method":"link-in-item","confidence":"high","span":[3530,3574],"revision":1348486367,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3832917#XTWY","to":"wikipedia://en/603916","predicate":"uses","method":"link-in-item","confidence":"high","span":[3589,3630],"revision":1348486367,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3832917#XTWY","to":"wikipedia://en/26411","predicate":"uses","method":"link-in-item","confidence":"high","span":[3712,3733],"revision":1348486367,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3832917#XTWY","to":"wikipedia://en/18102","predicate":"uses","method":"link-in-item","confidence":"high","span":[3887,3901],"revision":1348486367,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3832917#XTWY","to":"wikipedia://en/276410","predicate":"uses","method":"link-in-item","confidence":"high","span":[3906,3944],"revision":1348486367,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#H5KU","to":"wikipedia://en/321995","predicate":"listed-in","method":"list","confidence":"certain","span":[45578,45602],"revision":1373230097,"by":"importer/wikipedia/1"}

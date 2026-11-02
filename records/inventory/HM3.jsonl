@@ -1,1 +1,5 @@
-{"id":"HM39DZKZ8B","mentions":["m2://rec/wikidata/Q5283210#1"],"kind":"unknown","name":"distributive category","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"HM33WWM0CA","mentions":["wikipedia://en/46659457"],"kind":"topic","name":"Patrick Ion","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"HM39DZKZ8B","mentions":["m2://rec/wikidata/Q5283210#1","wikipedia://en/6053993"],"kind":"definition","name":"distributive category","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"HM3M810NPW","mentions":["wikipedia://en/2567750#KC9V"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"HM3TYY83B5","mentions":["wikipedia://en/76765067#KU9E"],"kind":"definition","name":"convention T","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"HM3Y3XEM82","mentions":["wikipedia://en/2142850#XDV0"],"kind":"definition","name":"population parameter","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

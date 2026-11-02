@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/1238920","to":"wikipedia://en/103356","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[65,84],"revision":1285525493,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1238920","to":"wikipedia://en/653404","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[153,187],"revision":1285525493,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1238920","to":"wikipedia://en/44027","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[216,240],"revision":1285525493,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1238920","to":"wikipedia://en/47436","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[964,1002],"revision":1285525493,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1238920","to":"wikipedia://en/10939","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1484,1503],"revision":1285525493,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1238920","to":"Category:Permutations","predicate":"in-field","method":"category","confidence":"medium","span":[3687,3712],"revision":1285525493,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1238920","to":"Category:Finite-state machines","predicate":"in-field","method":"category","confidence":"medium","span":[3713,3747],"revision":1285525493,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12830119#WT1H","to":"wikipedia://en/35857329","predicate":"listed-in","method":"list","confidence":"certain","span":[7988,8030],"revision":1274453818,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#842M","to":"wikipedia://en/747122","predicate":"listed-in","method":"list","confidence":"certain","span":[30179,30207],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/241820#C1Z6","to":"wikipedia://en/313303","predicate":"listed-in","method":"list","confidence":"certain","span":[12639,12655],"revision":1375503641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53972682#6T3J","to":"wikipedia://en/8918323","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[2475,2511],"revision":1303099112,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58899#ORPU","to":"wikipedia://en/276410","predicate":"uses","method":"link-in-item","confidence":"high","span":[10901,10914],"revision":1340697881,"by":"importer/wikipedia/1"}

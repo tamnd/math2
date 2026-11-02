@@ -1,1 +1,3 @@
-{"id":"99WE0CCPBE","mentions":["m2://rec/wikidata/Q1908689#1"],"kind":"concept","name":"Mathieu function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"99WD81SY8D","mentions":["wikipedia://en/25334192#R4UK"],"kind":"definition","name":"stably free","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"99WE0CCPBE","mentions":["m2://rec/wikidata/Q1908689#1","wikipedia://en/1724802"],"kind":"concept","name":"Mathieu function","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"99WXT2M75Y","mentions":["wikipedia://en/21870938"],"kind":"definition","name":"Inoue surface","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

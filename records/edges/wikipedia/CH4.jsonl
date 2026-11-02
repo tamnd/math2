@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/22609470#L168","to":"wikipedia://en/13046","predicate":"listed-in","method":"list","confidence":"certain","span":[8731,8749],"revision":1340541119,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/241820#CIST","to":"wikipedia://en/14810194","predicate":"listed-in","method":"list","confidence":"certain","span":[33602,33632],"revision":1375503641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48546702","to":"wikipedia://en/8625","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,28],"revision":1365510149,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48546702","to":"wikipedia://en/52119","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[67,80],"revision":1365510149,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48546702","to":"wikipedia://en/74800","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[88,97],"revision":1365510149,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48546702","to":"wikipedia://en/9697","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[121,140],"revision":1365510149,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48546702","to":"wikipedia://en/13110176","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[213,236],"revision":1365510149,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48546702","to":"wikipedia://en/44089758","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[291,316],"revision":1365510149,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48546702","to":"wikipedia://en/47541633","predicate":"related","method":"link-in-text","confidence":"low","span":[569,588],"revision":1365510149,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48546702","to":"wikipedia://en/39508202","predicate":"related","method":"link-in-text","confidence":"low","span":[1185,1204],"revision":1365510149,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48546702","to":"wikipedia://en/329549","predicate":"related","method":"link-in-text","confidence":"low","span":[2228,2253],"revision":1365510149,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48546702","to":"wikipedia://en/144652","predicate":"related","method":"link-in-text","confidence":"low","span":[2483,2504],"revision":1365510149,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48546702","to":"wikipedia://en/91096","predicate":"related","method":"link-in-text","confidence":"low","span":[2551,2564],"revision":1365510149,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48546702","to":"wikipedia://en/14884","predicate":"uses","method":"named-link","confidence":"high","span":[3088,3118],"revision":1365510149,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48546702","to":"wikipedia://en/267444","predicate":"related","method":"link-in-text","confidence":"low","span":[3261,3292],"revision":1365510149,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48546702","to":"wikipedia://en/19903176","predicate":"related","method":"link-in-text","confidence":"low","span":[3293,3312],"revision":1365510149,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48546702","to":"wikipedia://en/6993953","predicate":"related","method":"link-in-text","confidence":"low","span":[3652,3688],"revision":1365510149,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48546702","to":"wikipedia://en/48528005","predicate":"related","method":"link-in-text","confidence":"low","span":[5599,5619],"revision":1365510149,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48546702","to":"wikipedia://en/44089758","predicate":"related","method":"link-in-text","confidence":"low","span":[5969,5994],"revision":1365510149,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48546702","to":"Category:Differential geometry of surfaces","predicate":"in-field","method":"category","confidence":"medium","span":[6791,6837],"revision":1365510149,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/660973#VTSY","to":"wikipedia://en/18741841","predicate":"listed-in","method":"list","confidence":"certain","span":[3390,3406],"revision":1356076661,"by":"importer/wikipedia/1"}

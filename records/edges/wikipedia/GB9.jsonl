@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/11353703#EGPW","to":"wikipedia://en/9605580","predicate":"listed-in","method":"list","confidence":"certain","span":[150911,150927],"revision":1373003451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30608537#4WMS","to":"wikipedia://en/160993","predicate":"uses","method":"link-in-item","confidence":"high","span":[1299,1322],"revision":1292650214,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30608537#4WMS","to":"wikipedia://en/5954264","predicate":"uses","method":"link-in-item","confidence":"high","span":[1593,1614],"revision":1292650214,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30608537#4WMS","to":"wikipedia://en/1270458","predicate":"uses","method":"link-in-item","confidence":"high","span":[1674,1695],"revision":1292650214,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30608537#4WMS","to":"wikipedia://en/447020","predicate":"uses","method":"link-in-item","confidence":"high","span":[1736,1761],"revision":1292650214,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30608537#4WMS","to":"wikipedia://en/5954264","predicate":"uses","method":"link-in-item","confidence":"high","span":[1896,1917],"revision":1292650214,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30608537#4WMS","to":"wikipedia://en/325019","predicate":"uses","method":"link-in-item","confidence":"high","span":[1944,1961],"revision":1292650214,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30608537#4WMS","to":"wikipedia://en/6703729","predicate":"uses","method":"link-in-item","confidence":"high","span":[2548,2587],"revision":1292650214,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#5XZ4","to":"wikipedia://en/210731","predicate":"listed-in","method":"list","confidence":"certain","span":[61689,61713],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#5XZ4","to":"wikipedia://en/38801","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[61717,61739],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#XN47","to":"wikipedia://en/315414","predicate":"listed-in","method":"list","confidence":"certain","span":[47023,47052],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#XN47","to":"wikipedia://en/11180","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[47056,47079],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80208166","to":"wikipedia://en/719601","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1239,1252],"revision":1320648361,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80208166","to":"wikipedia://en/32490","predicate":"related","method":"link-in-lead","confidence":"low","span":[1293,1312],"revision":1320648361,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80208166","to":"wikipedia://en/19559","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1665,1678],"revision":1320648361,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80208166","to":"wikipedia://en/82285","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1793,1821],"revision":1320648361,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80208166","to":"wikipedia://en/4386419","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2991,3013],"revision":1320648361,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80208166","to":"wikipedia://en/32742753","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3055,3090],"revision":1320648361,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80208166","to":"Category:Mathematics textbooks","predicate":"in-field","method":"category","confidence":"medium","span":[3299,3333],"revision":1320648361,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80208166","to":"Category:MIT Press books","predicate":"in-field","method":"category","confidence":"medium","span":[3334,3362],"revision":1320648361,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80208166","to":"Category:Ordinary differential equations","predicate":"in-field","method":"category","confidence":"medium","span":[3363,3407],"revision":1320648361,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80208166","to":"Category:1973 non-fiction books","predicate":"in-field","method":"category","confidence":"medium","span":[3408,3443],"revision":1320648361,"by":"importer/wikipedia/1"}

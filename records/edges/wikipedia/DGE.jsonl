@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/1005936#XO00","to":"wikipedia://en/29040","predicate":"listed-in","method":"list","confidence":"certain","span":[1953,1997],"revision":1322395897,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#OOBW","to":"wikipedia://en/87339","predicate":"listed-in","method":"list","confidence":"certain","span":[5378,5405],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/241820#O4C3","to":"wikipedia://en/6440317","predicate":"listed-in","method":"list","confidence":"certain","span":[19215,19230],"revision":1375503641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#DANE","to":"wikipedia://en/650405","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[66779,66805],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#DANE","to":"wikipedia://en/174026","predicate":"uses","method":"link-in-item","confidence":"high","span":[66828,66850],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#DANE","to":"wikipedia://en/23621","predicate":"uses","method":"link-in-item","confidence":"high","span":[66864,66876],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#DANE","to":"wikipedia://en/27859","predicate":"uses","method":"link-in-item","confidence":"high","span":[66897,66907],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#DANE","to":"wikipedia://en/23621","predicate":"uses","method":"link-in-item","confidence":"high","span":[66921,66933],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#DANE","to":"wikipedia://en/30654","predicate":"uses","method":"link-in-item","confidence":"high","span":[66938,66951],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7583397","to":"wikipedia://en/1898401","predicate":"related","method":"link-in-text","confidence":"low","span":[2279,2300],"revision":1368330394,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7583397","to":"wikipedia://en/15532","predicate":"related","method":"link-in-text","confidence":"low","span":[3259,3271],"revision":1368330394,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7583397","to":"wikipedia://en/60770","predicate":"related","method":"link-in-text","confidence":"low","span":[3305,3318],"revision":1368330394,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7583397","to":"wikipedia://en/147003","predicate":"related","method":"link-in-text","confidence":"low","span":[3970,3984],"revision":1368330394,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7583397","to":"wikipedia://en/7921","predicate":"related","method":"link-in-text","confidence":"low","span":[4921,4935],"revision":1368330394,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7583397","to":"wikipedia://en/17860","predicate":"related","method":"link-in-text","confidence":"low","span":[4939,4952],"revision":1368330394,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7583397","to":"wikipedia://en/285907","predicate":"related","method":"link-in-text","confidence":"low","span":[5810,5831],"revision":1368330394,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7583397","to":"wikipedia://en/352398","predicate":"related","method":"link-in-text","confidence":"low","span":[6603,6626],"revision":1368330394,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7583397","to":"wikipedia://en/4436","predicate":"related","method":"link-in-text","confidence":"low","span":[6630,6649],"revision":1368330394,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7583397","to":"wikipedia://en/41033","predicate":"related","method":"link-in-text","confidence":"low","span":[7062,7081],"revision":1368330394,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7583397","to":"wikipedia://en/336271","predicate":"related","method":"link-in-text","confidence":"low","span":[7086,7103],"revision":1368330394,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7583397","to":"wikipedia://en/457680","predicate":"related","method":"link-in-text","confidence":"low","span":[7107,7139],"revision":1368330394,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7583397","to":"wikipedia://en/379845","predicate":"related","method":"link-in-text","confidence":"low","span":[9386,9407],"revision":1368330394,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7583397","to":"Category:Porous media","predicate":"in-field","method":"category","confidence":"medium","span":[17317,17342],"revision":1368330394,"by":"importer/wikipedia/1"}

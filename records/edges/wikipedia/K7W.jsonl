@@ -1,0 +1,25 @@
+{"from":"wikipedia://en/2047298#Y8X8","to":"wikipedia://en/48395","predicate":"uses","method":"link-in-item","confidence":"high","span":[6103,6132],"revision":1374479156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2047298#Y8X8","to":"wikipedia://en/37503542","predicate":"uses","method":"link-in-item","confidence":"high","span":[6272,6289],"revision":1374479156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2047298#Y8X8","to":"wikipedia://en/43559240","predicate":"uses","method":"link-in-item","confidence":"high","span":[6357,6380],"revision":1374479156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2047298#Y8X8","to":"wikipedia://en/436779","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6505,6528],"revision":1374479156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2047298#Y8X8","to":"wikipedia://en/75367","predicate":"uses","method":"link-in-item","confidence":"high","span":[8268,8292],"revision":1374479156,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#K4YC","to":"wikipedia://en/55864747","predicate":"listed-in","method":"list","confidence":"certain","span":[14999,15050],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67622198","to":"wikipedia://en/55866","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[105,115],"revision":1347139415,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67622198","to":"wikipedia://en/478781","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[135,146],"revision":1347139415,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67622198","to":"wikipedia://en/26779","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[265,281],"revision":1347139415,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67622198","to":"wikipedia://en/53049","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[954,978],"revision":1347139415,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67622198","to":"wikipedia://en/1075212","predicate":"related","method":"link-in-lead","confidence":"low","span":[985,1024],"revision":1347139415,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67622198","to":"wikipedia://en/576245","predicate":"related","method":"link-in-lead","confidence":"low","span":[1857,1878],"revision":1347139415,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67622198","to":"wikipedia://en/582075","predicate":"related","method":"link-in-lead","confidence":"low","span":[2228,2246],"revision":1347139415,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67622198","to":"wikipedia://en/1423381","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2320,2345],"revision":1347139415,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67622198","to":"wikipedia://en/60495654","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2644,2690],"revision":1347139415,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67622198","to":"wikipedia://en/19004","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2699,2709],"revision":1347139415,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67622198","to":"wikipedia://en/67910317","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3130,3159],"revision":1347139415,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67622198","to":"wikipedia://en/374556","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3167,3198],"revision":1347139415,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67622198","to":"wikipedia://en/4554","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3287,3298],"revision":1347139415,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67622198","to":"wikipedia://en/478781","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3345,3356],"revision":1347139415,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67622198","to":"Category:Austrian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3516,3552],"revision":1347139415,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67622198","to":"Category:Soviet mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3553,3587],"revision":1347139415,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67622198","to":"Category:Austrian emigrants to the Soviet Union","predicate":"in-field","method":"category","confidence":"medium","span":[3588,3639],"revision":1347139415,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67622198","to":"Category:Central Aerohydrodynamic Institute employees","predicate":"in-field","method":"category","confidence":"medium","span":[3681,3738],"revision":1347139415,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67622198","to":"Category:Austrian communists","predicate":"in-field","method":"category","confidence":"medium","span":[3739,3771],"revision":1347139415,"by":"importer/wikipedia/1"}

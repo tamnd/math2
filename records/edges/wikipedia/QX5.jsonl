@@ -1,0 +1,24 @@
+{"from":"wikipedia://en/11353703#5LF4","to":"wikipedia://en/4939651","predicate":"listed-in","method":"list","confidence":"certain","span":[6110,6123],"revision":1373003451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11353703#5LF4","to":"wikipedia://en/6233334","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6206,6242],"revision":1373003451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23024252","to":"wikipedia://en/990632","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,31],"revision":1359638102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23024252","to":"wikipedia://en/457210","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[44,64],"revision":1359638102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23024252","to":"wikipedia://en/2870010","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[130,151],"revision":1359638102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23024252","to":"wikipedia://en/3948604","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[178,211],"revision":1359638102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23024252","to":"wikipedia://en/2658073","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[216,245],"revision":1359638102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23024252","to":"wikipedia://en/4941621","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[246,265],"revision":1359638102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23024252","to":"wikipedia://en/5466649","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[315,341],"revision":1359638102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23024252","to":"wikipedia://en/2073470","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[355,368],"revision":1359638102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23024252","to":"wikipedia://en/2515807","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[396,440],"revision":1359638102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23024252","to":"wikipedia://en/856523","predicate":"related","method":"link-in-lead","confidence":"low","span":[545,562],"revision":1359638102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23024252","to":"wikipedia://en/348560","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[583,599],"revision":1359638102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23024252","to":"wikipedia://en/40294","predicate":"related","method":"link-in-lead","confidence":"low","span":[605,622],"revision":1359638102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23024252","to":"wikipedia://en/38801","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[680,702],"revision":1359638102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23024252","to":"Category:Dynamical systems","predicate":"in-field","method":"category","confidence":"medium","span":[4692,4722],"revision":1359638102,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34779593","to":"wikipedia://en/477578","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[158,187],"revision":1285713921,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34779593","to":"wikipedia://en/2073470","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[210,222],"revision":1285713921,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34779593","to":"wikipedia://en/12781","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[226,265],"revision":1285713921,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34779593","to":"wikipedia://en/750326","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[271,296],"revision":1285713921,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34779593","to":"wikipedia://en/17945","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[297,310],"revision":1285713921,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34779593","to":"Category:Lie groups","predicate":"in-field","method":"category","confidence":"medium","span":[1313,1336],"revision":1285713921,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34779593","to":"Category:Theorems in topology","predicate":"kind-of","method":"category","confidence":"medium","span":[1337,1370],"revision":1285713921,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6597900#4XXN","to":"wikipedia://en/1589032","predicate":"uses","method":"link-in-item","confidence":"high","span":[560,601],"revision":1209277944,"by":"importer/wikipedia/1"}

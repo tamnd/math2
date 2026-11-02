@@ -1,0 +1,10 @@
+{"from":"wikipedia://en/42563941","to":"wikipedia://en/12223876","predicate":"related","method":"link-in-lead","confidence":"low","span":[130,148],"revision":1161248066,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42563941","to":"wikipedia://en/498857","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[210,251],"revision":1161248066,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42563941","to":"wikipedia://en/210910","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[253,267],"revision":1161248066,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42563941","to":"wikipedia://en/210910","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[780,795],"revision":1161248066,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42563941","to":"Template:Official website","predicate":"in-nav","method":"nav","confidence":"low","span":[1800,1848],"revision":1161248066,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42563941","to":"Category:Applied mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[1850,1882],"revision":1161248066,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42563941","to":"Category:ETH Zurich","predicate":"in-field","method":"category","confidence":"medium","span":[1883,1906],"revision":1161248066,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565351#1JH6","to":"wikipedia://en/4787902","predicate":"listed-in","method":"list","confidence":"certain","span":[10318,10364],"revision":1373350261,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565351#JPYJ","to":"wikipedia://en/8028959","predicate":"listed-in","method":"list","confidence":"certain","span":[3117,3151],"revision":1373350261,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64208634#3SX4","to":"wikipedia://en/628962","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[1823,1849],"revision":1354505619,"by":"importer/wikipedia/1"}

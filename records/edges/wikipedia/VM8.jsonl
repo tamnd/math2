@@ -1,0 +1,8 @@
+{"from":"wikipedia://en/1403586#AJIU","to":"wikipedia://en/6060201","predicate":"listed-in","method":"list","confidence":"certain","span":[226659,226683],"revision":1375861581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3865506#NYC2","to":"wikipedia://en/5557623","predicate":"uses","method":"link-in-item","confidence":"high","span":[2050,2103],"revision":1372066841,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72773707","to":"wikipedia://en/46426065","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[95,107],"revision":1363060944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72773707","to":"wikipedia://en/303759","predicate":"related","method":"link-in-text","confidence":"low","span":[385,415],"revision":1363060944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72773707","to":"wikipedia://en/22301610","predicate":"related","method":"link-in-text","confidence":"low","span":[662,703],"revision":1363060944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72773707","to":"Category:English logicians","predicate":"in-field","method":"category","confidence":"medium","span":[1890,1920],"revision":1363060944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72773707","to":"Category:16th-century English philosophers","predicate":"in-field","method":"category","confidence":"medium","span":[1971,2017],"revision":1363060944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72773707","to":"Category:17th-century English philosophers","predicate":"in-field","method":"category","confidence":"medium","span":[2018,2064],"revision":1363060944,"by":"importer/wikipedia/1"}

@@ -1,0 +1,10 @@
+{"from":"wikipedia://en/1196309","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[648,660],"revision":1329959403,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1196309","to":"wikipedia://en/1128465","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[759,781],"revision":1329959403,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1196309","to":"wikipedia://en/2859668","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[807,826],"revision":1329959403,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1196309","to":"wikipedia://en/16034","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[901,918],"revision":1329959403,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1196309","to":"wikipedia://en/6008654","predicate":"related","method":"link-in-text","confidence":"low","span":[3729,3764],"revision":1329959403,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1196309","to":"wikipedia://en/30606","predicate":"related","method":"link-in-text","confidence":"low","span":[3770,3796],"revision":1329959403,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1196309","to":"wikipedia://en/1128455","predicate":"related","method":"link-in-text","confidence":"low","span":[3801,3820],"revision":1329959403,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1196309","to":"Category:Johnson solids","predicate":"in-field","method":"category","confidence":"medium","span":[5513,5540],"revision":1329959403,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/205069#LQ4A","to":"wikipedia://en/6607797","predicate":"listed-in","method":"list","confidence":"certain","span":[4105,4124],"revision":1361796518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22609470#KR6R","to":"wikipedia://en/56567","predicate":"listed-in","method":"list","confidence":"certain","span":[5087,5108],"revision":1340541119,"by":"importer/wikipedia/1"}

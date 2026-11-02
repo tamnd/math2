@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/1467815","to":"wikipedia://en/2230","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[99,150],"revision":1368546528,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1467815","to":"wikipedia://en/18934432","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[155,171],"revision":1368546528,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1467815","to":"wikipedia://en/2231480","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[177,228],"revision":1368546528,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1467815","to":"wikipedia://en/451286","predicate":"related","method":"link-in-text","confidence":"low","span":[2383,2400],"revision":1368546528,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1467815","to":"wikipedia://en/28676005","predicate":"related","method":"link-in-text","confidence":"low","span":[5204,5228],"revision":1368546528,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1467815","to":"Category:Algorithmic information theory","predicate":"in-field","method":"category","confidence":"medium","span":[6002,6045],"revision":1368546528,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/192266#YLRZ","to":"wikipedia://en/27855","predicate":"uses","method":"link-in-item","confidence":"high","span":[1131,1160],"revision":1354562143,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/192266#YLRZ","to":"wikipedia://en/20598932","predicate":"uses","method":"link-in-item","confidence":"high","span":[1161,1178],"revision":1354562143,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/192266#YLRZ","to":"wikipedia://en/195063","predicate":"uses","method":"link-in-item","confidence":"high","span":[1230,1251],"revision":1354562143,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/192266#YLRZ","to":"wikipedia://en/454936","predicate":"uses","method":"link-in-item","confidence":"high","span":[1283,1329],"revision":1354562143,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/192266#YLRZ","to":"wikipedia://en/455961","predicate":"uses","method":"link-in-item","confidence":"high","span":[1330,1357],"revision":1354562143,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/192266#YLRZ","to":"wikipedia://en/217548","predicate":"uses","method":"link-in-item","confidence":"high","span":[1939,1972],"revision":1354562143,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/192266#YLRZ","to":"wikipedia://en/2929701","predicate":"uses","method":"link-in-item","confidence":"high","span":[1973,2012],"revision":1354562143,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/192266#YLRZ","to":"wikipedia://en/990534","predicate":"uses","method":"link-in-item","confidence":"high","span":[2227,2254],"revision":1354562143,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/192266#YLRZ","to":"wikipedia://en/3989","predicate":"uses","method":"link-in-item","confidence":"high","span":[2378,2394],"revision":1354562143,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/192266#YLRZ","to":"wikipedia://en/43270","predicate":"uses","method":"link-in-item","confidence":"high","span":[2544,2580],"revision":1354562143,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/192266#YLRZ","to":"wikipedia://en/187408","predicate":"uses","method":"link-in-item","confidence":"high","span":[2642,2711],"revision":1354562143,"by":"importer/wikipedia/1"}

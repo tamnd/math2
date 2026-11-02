@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/1171759","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[182,194],"revision":1284692581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1171759","to":"wikipedia://en/4449765","predicate":"related","method":"link-in-lead","confidence":"low","span":[262,278],"revision":1284692581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1171759","to":"wikipedia://en/9417","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[327,345],"revision":1284692581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1171759","to":"wikipedia://en/9417","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[375,398],"revision":1284692581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1171759","to":"wikipedia://en/14597235","predicate":"related","method":"see-also","confidence":"low","span":[1919,1939],"revision":1284692581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1171759","to":"wikipedia://en/5751973","predicate":"related","method":"see-also","confidence":"low","span":[1941,1958],"revision":1284692581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1171759","to":"Category:Euclidean plane geometry","predicate":"in-field","method":"category","confidence":"medium","span":[2685,2722],"revision":1284692581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1171759","to":"Category:Foundations of geometry","predicate":"in-field","method":"category","confidence":"medium","span":[2723,2759],"revision":1284692581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1171759","to":"Category:Order theory","predicate":"in-field","method":"category","confidence":"medium","span":[2760,2785],"revision":1284692581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1171759","to":"Category:Theorems in plane geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[2786,2825],"revision":1284692581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14403539#9IP4","to":"wikipedia://en/4084582","predicate":"listed-in","method":"list","confidence":"certain","span":[13781,13798],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40117035#B9JF","to":"wikipedia://en/6690773","predicate":"uses","method":"link-in-item","confidence":"high","span":[10145,10207],"revision":1335349019,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40117035#B9JF","to":"wikipedia://en/705600","predicate":"uses","method":"link-in-item","confidence":"high","span":[10335,10352],"revision":1335349019,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40117035#B9JF","to":"wikipedia://en/8405295","predicate":"uses","method":"link-in-item","confidence":"high","span":[10510,10556],"revision":1335349019,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40117035#B9JF","to":"wikipedia://en/192266#YLRZ","predicate":"uses","method":"link-in-item","confidence":"high","span":[10976,11017],"revision":1335349019,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40117035#B9JF","to":"wikipedia://en/192266","predicate":"uses","method":"link-in-item","confidence":"high","span":[11215,11240],"revision":1335349019,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40117035#B9JF","to":"wikipedia://en/1701075","predicate":"uses","method":"link-in-item","confidence":"high","span":[11277,11314],"revision":1335349019,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40117035#B9JF","to":"wikipedia://en/40116145","predicate":"uses","method":"link-in-item","confidence":"high","span":[11864,11920],"revision":1335349019,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40117035#B9JF","to":"wikipedia://en/45194","predicate":"uses","method":"link-in-item","confidence":"high","span":[11961,12011],"revision":1335349019,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40117035#B9JF","to":"wikipedia://en/142488","predicate":"uses","method":"link-in-item","confidence":"high","span":[12447,12498],"revision":1335349019,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4268332#UIDQ","to":"wikipedia://en/1337370","predicate":"uses","method":"link-in-item","confidence":"high","span":[19720,19762],"revision":1373604619,"by":"importer/wikipedia/1"}

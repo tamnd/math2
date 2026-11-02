@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/1188090#F4FF","to":"wikipedia://en/491028","predicate":"listed-in","method":"list","confidence":"certain","span":[2116,2128],"revision":1368845154,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1888817","to":"wikipedia://en/19555586","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[193,216],"revision":1375862162,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1888817","to":"wikipedia://en/10902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[258,283],"revision":1375862162,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1888817","to":"wikipedia://en/1345771","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[711,730],"revision":1375862162,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1888817","to":"wikipedia://en/167053","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[876,891],"revision":1375862162,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1888817","to":"wikipedia://en/44158","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1123,1158],"revision":1375862162,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1888817","to":"wikipedia://en/2217599","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1162,1224],"revision":1375862162,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1888817","to":"wikipedia://en/26288711","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1441,1458],"revision":1375862162,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1888817","to":"wikipedia://en/28113360","predicate":"related","method":"see-also","confidence":"low","span":[4260,4295],"revision":1375862162,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1888817","to":"wikipedia://en/442505","predicate":"related","method":"see-also","confidence":"low","span":[4298,4347],"revision":1375862162,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1888817","to":"Category:Force","predicate":"in-field","method":"category","confidence":"medium","span":[4379,4397],"revision":1375862162,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1888817","to":"Category:Classical mechanics","predicate":"in-field","method":"category","confidence":"medium","span":[4398,4430],"revision":1375862162,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#RQM6","to":"wikipedia://en/104509","predicate":"listed-in","method":"list","confidence":"certain","span":[73686,73706],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52080279","to":"wikipedia://en/23621","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[224,235],"revision":1032017316,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52080279","to":"wikipedia://en/241291","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[430,453],"revision":1032017316,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52080279","to":"wikipedia://en/30871836","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[592,616],"revision":1032017316,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52080279","to":"wikipedia://en/1283865","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[819,842],"revision":1032017316,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52080279","to":"wikipedia://en/216328","predicate":"related","method":"link-in-lead","confidence":"low","span":[1003,1037],"revision":1032017316,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52080279","to":"wikipedia://en/297004","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1096,1113],"revision":1032017316,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52080279","to":"wikipedia://en/23905","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1226,1245],"revision":1032017316,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52080279","to":"wikipedia://en/23621","predicate":"related","method":"link-in-text","confidence":"low","span":[1527,1538],"revision":1032017316,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52080279","to":"wikipedia://en/139229","predicate":"uses","method":"named-link","confidence":"high","span":[2984,3010],"revision":1032017316,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52080279","to":"Category:Geometry","predicate":"in-field","method":"category","confidence":"medium","span":[4764,4785],"revision":1032017316,"by":"importer/wikipedia/1"}

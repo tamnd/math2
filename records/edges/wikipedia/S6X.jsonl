@@ -1,0 +1,10 @@
+{"from":"wikipedia://en/14448807","to":"wikipedia://en/669675","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[160,179],"revision":1367211283,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14448807","to":"wikipedia://en/1299404","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[444,461],"revision":1367211283,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14448807","to":"wikipedia://en/1808639","predicate":"related","method":"link-in-text","confidence":"low","span":[1169,1190],"revision":1367211283,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14448807","to":"wikipedia://en/55632","predicate":"related","method":"link-in-text","confidence":"low","span":[1721,1743],"revision":1367211283,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14448807","to":"wikipedia://en/669675","predicate":"related","method":"see-also","confidence":"low","span":[3737,3756],"revision":1367211283,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14448807","to":"wikipedia://en/2422496","predicate":"related","method":"see-also","confidence":"low","span":[3759,3779],"revision":1367211283,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14448807","to":"Category:Cluster analysis algorithms","predicate":"in-field","method":"category","confidence":"medium","span":[4159,4199],"revision":1367211283,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/297206#QQII","to":"wikipedia://en/1884241","predicate":"restates","method":"hatnote","confidence":"high","span":[27472,27491],"revision":1368685828,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/297206#QQII","to":"wikipedia://en/201826","predicate":"uses","method":"link-in-item","confidence":"high","span":[28040,28053],"revision":1368685828,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/297206#QQII","to":"wikipedia://en/1884241","predicate":"uses","method":"link-in-item","confidence":"medium","span":[28362,28416],"revision":1368685828,"by":"importer/wikipedia/1"}

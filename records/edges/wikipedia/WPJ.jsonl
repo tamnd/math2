@@ -1,0 +1,25 @@
+{"from":"wikipedia://en/42276959","to":"wikipedia://en/18716923","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,14],"revision":1136300206,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42276959","to":"wikipedia://en/325714","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[55,71],"revision":1136300206,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42276959","to":"wikipedia://en/1200537","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[102,124],"revision":1136300206,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42276959","to":"wikipedia://en/330604","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[211,252],"revision":1136300206,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42276959","to":"wikipedia://en/310886","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[387,404],"revision":1136300206,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42276959","to":"wikipedia://en/32682991","predicate":"related","method":"see-also","confidence":"low","span":[1405,1432],"revision":1136300206,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42276959","to":"Category:Hopf algebras","predicate":"in-field","method":"category","confidence":"medium","span":[1833,1859],"revision":1136300206,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#2JSY","to":"wikipedia://en/48314214","predicate":"listed-in","method":"list","confidence":"certain","span":[92647,92661],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55823843","to":"wikipedia://en/48661","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1646,1662],"revision":1342394563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55823843","to":"wikipedia://en/43476","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1664,1689],"revision":1342394563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55823843","to":"wikipedia://en/404412","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1708,1731],"revision":1342394563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55823843","to":"wikipedia://en/11632","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1754,1786],"revision":1342394563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55823843","to":"wikipedia://en/4627439","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1922,1970],"revision":1342394563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55823843","to":"wikipedia://en/3232473","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1996,2035],"revision":1342394563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55823843","to":"wikipedia://en/166826","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2051,2072],"revision":1342394563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55823843","to":"wikipedia://en/390875","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2160,2174],"revision":1342394563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55823843","to":"wikipedia://en/561499","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2218,2246],"revision":1342394563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55823843","to":"wikipedia://en/31922","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2408,2446],"revision":1342394563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55823843","to":"wikipedia://en/61548302","predicate":"related","method":"link-in-lead","confidence":"low","span":[2597,2618],"revision":1342394563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55823843","to":"wikipedia://en/268451","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2722,2754],"revision":1342394563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55823843","to":"wikipedia://en/11632","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2789,2821],"revision":1342394563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55823843","to":"wikipedia://en/51140705","predicate":"related","method":"link-in-lead","confidence":"low","span":[2911,2961],"revision":1342394563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55823843","to":"Category:American statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[5409,5444],"revision":1342394563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55823843","to":"Category:Brazilian statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[5445,5481],"revision":1342394563,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55823843","to":"Category:Women statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[5482,5514],"revision":1342394563,"by":"importer/wikipedia/1"}

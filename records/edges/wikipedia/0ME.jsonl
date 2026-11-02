@@ -1,0 +1,6 @@
+{"from":"wikipedia://en/13486743","to":"wikipedia://en/18634","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[93,122],"revision":1205190666,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13486743","to":"wikipedia://en/4050658","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[134,155],"revision":1205190666,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13486743","to":"Category:Diophantine equations","predicate":"in-field","method":"category","confidence":"medium","span":[1761,1795],"revision":1205190666,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13486743","to":"Category:Number theoretic algorithms","predicate":"in-field","method":"category","confidence":"medium","span":[1796,1836],"revision":1205190666,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13486743","to":"Category:Lemmas in algebra","predicate":"kind-of","method":"category","confidence":"medium","span":[1837,1867],"revision":1205190666,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13486743","to":"Category:Indian mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[1868,1899],"revision":1205190666,"by":"importer/wikipedia/1"}

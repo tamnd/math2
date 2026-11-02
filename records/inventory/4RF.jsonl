@@ -1,1 +1,6 @@
+{"id":"4RF2A7H7QC","mentions":["wikipedia://en/587645#GE10"],"kind":"statement","name":"Euclid's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4RF3SECZDD","mentions":["wikipedia://en/587645#CMSI"],"kind":"statement","name":"Bernstein's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4RF6R935PA","mentions":["m2://rec/hott_book/index/7/acceptance#1"],"kind":"concept","name":"acceptance","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"4RFD2CTC12","mentions":["wikipedia://en/55212#UDIG"],"kind":"statement","name":"Rotational analogues of Newton's laws","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4RFSVRJ4TW","mentions":["wikipedia://en/47759232"],"kind":"topic","name":"Martha Evens","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4RFVMFFV2J","mentions":["wikipedia://en/1750541"],"kind":"definition","name":"Sublinear function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

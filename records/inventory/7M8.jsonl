@@ -1,2 +1,4 @@
 {"id":"7M82X1XEXC","mentions":["m2://rec/wikidata/Q114704219#1"],"kind":"topic","msc":["34-XX"],"layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"7M8A7X8JNC","mentions":["m2://rec/open_logic/content/normal-modal-logic/axioms-systems/soundness.tex#thm:soundness#1"],"kind":"statement","name":"Soundness Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"7M8H7N37ZE","mentions":["wikipedia://en/22609470#6AD1"],"kind":"definition","name":"Cardinality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7M8PQJY5R4","mentions":["wikipedia://en/140829#E4CB"],"kind":"topic","name":"Greenwood, Cindy","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

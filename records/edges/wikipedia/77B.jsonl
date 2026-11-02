@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/248117","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[56,71],"revision":1373682437,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/248117","to":"wikipedia://en/6173","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[75,94],"revision":1373682437,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/248117","to":"wikipedia://en/91420","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[139,155],"revision":1373682437,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/248117","to":"wikipedia://en/972601","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[159,183],"revision":1373682437,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/248117","to":"wikipedia://en/1118686","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[247,262],"revision":1373682437,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/248117","to":"wikipedia://en/4888510","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[283,329],"revision":1373682437,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/248117","to":"wikipedia://en/27838","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[448,461],"revision":1373682437,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/248117","to":"wikipedia://en/248116","predicate":"related","method":"link-in-text","confidence":"low","span":[3686,3711],"revision":1373682437,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/248117","to":"wikipedia://en/25426123","predicate":"related","method":"link-in-text","confidence":"low","span":[4575,4608],"revision":1373682437,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/248117","to":"wikipedia://en/311017","predicate":"related","method":"link-in-text","confidence":"low","span":[4929,4947],"revision":1373682437,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/248117","to":"wikipedia://en/3096183","predicate":"related","method":"see-also","confidence":"low","span":[4987,5024],"revision":1373682437,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/248117","to":"wikipedia://en/31905690","predicate":"related","method":"see-also","confidence":"low","span":[5030,5048],"revision":1373682437,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/248117","to":"Category:Large cardinals","predicate":"in-field","method":"category","confidence":"medium","span":[6073,6101],"revision":1373682437,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27072429","to":"wikipedia://en/2885691","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[119,166],"revision":1258888015,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27072429","to":"wikipedia://en/160951","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[257,269],"revision":1258888015,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27072429","to":"wikipedia://en/2713327","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[488,509],"revision":1258888015,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27072429","to":"wikipedia://en/82359","predicate":"related","method":"link-in-text","confidence":"low","span":[564,581],"revision":1258888015,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27072429","to":"wikipedia://en/2473303","predicate":"related","method":"link-in-text","confidence":"low","span":[610,662],"revision":1258888015,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27072429","to":"wikipedia://en/461509","predicate":"related","method":"link-in-text","confidence":"low","span":[1085,1133],"revision":1258888015,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27072429","to":"wikipedia://en/437701","predicate":"related","method":"link-in-text","confidence":"low","span":[1191,1250],"revision":1258888015,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27072429","to":"Category:Robust statistics","predicate":"in-field","method":"category","confidence":"medium","span":[3818,3848],"revision":1258888015,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27072429","to":"Category:Robust regression","predicate":"in-field","method":"category","confidence":"medium","span":[3849,3879],"revision":1258888015,"by":"importer/wikipedia/1"}

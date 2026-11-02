@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/24464863","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[80,97],"revision":1260258461,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24464863","to":"wikipedia://en/101681","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[133,158],"revision":1260258461,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24464863","to":"wikipedia://en/604198","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[245,279],"revision":1260258461,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24464863","to":"wikipedia://en/24612539","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[380,399],"revision":1260258461,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24464863","to":"wikipedia://en/2223645","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[666,706],"revision":1260258461,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24464863","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1384,1433],"revision":1260258461,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24464863","to":"Category:21st-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1434,1483],"revision":1260258461,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24464863","to":"Category:Combinatorialists","predicate":"in-field","method":"category","confidence":"medium","span":[1484,1514],"revision":1260258461,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75460257","to":"wikipedia://en/12267066","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[81,101],"revision":1268134919,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75460257","to":"wikipedia://en/75463339","predicate":"related","method":"link-in-lead","confidence":"low","span":[192,237],"revision":1268134919,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75460257","to":"wikipedia://en/216488","predicate":"related","method":"see-also","confidence":"low","span":[5198,5216],"revision":1268134919,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75460257","to":"wikipedia://en/15062158","predicate":"related","method":"see-also","confidence":"low","span":[5219,5239],"revision":1268134919,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75460257","to":"Category:Polynomials","predicate":"in-field","method":"category","confidence":"medium","span":[5283,5308],"revision":1268134919,"by":"importer/wikipedia/1"}

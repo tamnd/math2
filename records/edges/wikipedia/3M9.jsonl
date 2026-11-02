@@ -1,0 +1,10 @@
+{"from":"wikipedia://en/14103660","to":"wikipedia://en/442136","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[127,144],"revision":1292734094,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14103660","to":"wikipedia://en/30403","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[173,191],"revision":1292734094,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14103660","to":"wikipedia://en/653404","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[325,359],"revision":1292734094,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14103660","to":"wikipedia://en/25723","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[415,435],"revision":1292734094,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14103660","to":"wikipedia://en/442136","predicate":"related","method":"see-also","confidence":"low","span":[5664,5681],"revision":1292734094,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14103660","to":"wikipedia://en/6263864","predicate":"related","method":"see-also","confidence":"low","span":[5684,5714],"revision":1292734094,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14103660","to":"wikipedia://en/510078","predicate":"related","method":"see-also","confidence":"low","span":[5717,5734],"revision":1292734094,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14103660","to":"wikipedia://en/14098258","predicate":"related","method":"see-also","confidence":"low","span":[5737,5756],"revision":1292734094,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14103660","to":"wikipedia://en/25220","predicate":"related","method":"see-also","confidence":"low","span":[5759,5779],"revision":1292734094,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14103660","to":"Category:Turing machine","predicate":"in-field","method":"category","confidence":"medium","span":[6024,6051],"revision":1292734094,"by":"importer/wikipedia/1"}

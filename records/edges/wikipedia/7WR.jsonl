@@ -1,0 +1,29 @@
+{"from":"wikipedia://en/1168363#AK7L","to":"wikipedia://en/2492788","predicate":"listed-in","method":"list","confidence":"certain","span":[2864,2881],"revision":1175125892,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14855633","to":"Template:Ring theory sidebar","predicate":"in-nav","method":"nav","confidence":"low","span":[140,163],"revision":1369836795,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14855633","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[167,182],"revision":1369836795,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14855633","to":"wikipedia://en/61346","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[250,270],"revision":1369836795,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14855633","to":"wikipedia://en/3405004","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[320,350],"revision":1369836795,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14855633","to":"wikipedia://en/2702039","predicate":"related","method":"see-also","confidence":"low","span":[4733,4757],"revision":1369836795,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14855633","to":"wikipedia://en/47164545","predicate":"related","method":"see-also","confidence":"low","span":[4760,4788],"revision":1369836795,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14855633","to":"wikipedia://en/14320253","predicate":"related","method":"see-also","confidence":"low","span":[4791,4812],"revision":1369836795,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14855633","to":"Category:Algebraic structures","predicate":"in-field","method":"category","confidence":"medium","span":[5162,5195],"revision":1369836795,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14855633","to":"Category:Ring theory","predicate":"in-field","method":"category","confidence":"medium","span":[5196,5220],"revision":1369836795,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1682298#ZHYH","to":"wikipedia://en/6617","predicate":"uses","method":"link-in-item","confidence":"high","span":[2502,2532],"revision":1368208137,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3213916","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1296389324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3213916","to":"wikipedia://en/3180285","predicate":"related","method":"link-in-lead","confidence":"low","span":[109,127],"revision":1296389324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3213916","to":"wikipedia://en/17185722","predicate":"related","method":"see-also","confidence":"low","span":[1443,1463],"revision":1296389324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3213916","to":"Category:Theorems in complex analysis","predicate":"kind-of","method":"category","confidence":"medium","span":[2166,2207],"revision":1296389324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3213916","to":"Category:Harmonic functions","predicate":"in-field","method":"category","confidence":"medium","span":[2208,2239],"revision":1296389324,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53629370","to":"wikipedia://en/10377","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[175,198],"revision":1330155771,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53629370","to":"wikipedia://en/338169","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[776,826],"revision":1330155771,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53629370","to":"wikipedia://en/12354","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[858,885],"revision":1330155771,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53629370","to":"wikipedia://en/4388848","predicate":"related","method":"link-in-lead","confidence":"low","span":[938,956],"revision":1330155771,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53629370","to":"wikipedia://en/6556","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1079,1116],"revision":1330155771,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53629370","to":"wikipedia://en/8095","predicate":"related","method":"link-in-lead","confidence":"low","span":[1312,1328],"revision":1330155771,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53629370","to":"wikipedia://en/148594","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1689,1720],"revision":1330155771,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53629370","to":"wikipedia://en/25809","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1750,1775],"revision":1330155771,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53629370","to":"wikipedia://en/2076831","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1802,1834],"revision":1330155771,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53629370","to":"wikipedia://en/18266692","predicate":"related","method":"see-also","confidence":"low","span":[2333,2351],"revision":1330155771,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53629370","to":"wikipedia://en/1067914","predicate":"related","method":"see-also","confidence":"low","span":[2353,2373],"revision":1330155771,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53629370","to":"Category:Mathematical constants","predicate":"kind-of","method":"category","confidence":"medium","span":[2403,2438],"revision":1330155771,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53629370","to":"Category:Analytic number theory","predicate":"in-field","method":"category","confidence":"medium","span":[2439,2474],"revision":1330155771,"by":"importer/wikipedia/1"}

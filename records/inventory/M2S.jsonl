@@ -1,2 +1,6 @@
+{"id":"M2SD2NRTZJ","mentions":["wikipedia://en/43839113#2MEZ"],"kind":"definition","name":"rational","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"M2SFJM3V0S","mentions":["wikipedia://en/2495768"],"kind":"definition","name":"Fields Institute","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"M2SJF3P4HV","mentions":["m2://rec/wikidata/Q18017999#1"],"kind":"unknown","name":"regular decagon","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"M2SZP296RB","mentions":["m2://rec/wikidata/Q4791125#1"],"kind":"unknown","name":"arithmetic genus","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"M2SPV914Y9","mentions":["wikipedia://en/469391#LHPH"],"kind":"definition","name":"Transcendental curve","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"M2SXSSSET3","mentions":["wikipedia://en/16488014"],"kind":"topic","name":"Yuri Gurevich","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"M2SZP296RB","mentions":["m2://rec/wikidata/Q4791125#1","wikipedia://en/1950390"],"kind":"definition","name":"arithmetic genus","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

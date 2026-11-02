@@ -1,0 +1,26 @@
+{"from":"wikipedia://en/1799103","to":"wikipedia://en/5323","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[49,69],"revision":1336973778,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1799103","to":"wikipedia://en/5170","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[126,143],"revision":1336973778,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1799103","to":"wikipedia://en/29090","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[154,174],"revision":1336973778,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1799103","to":"wikipedia://en/5309","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[245,257],"revision":1336973778,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1799103","to":"wikipedia://en/775","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[258,271],"revision":1336973778,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1799103","to":"wikipedia://en/36280489","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[359,375],"revision":1336973778,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1799103","to":"wikipedia://en/29090","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[435,509],"revision":1336973778,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1799103","to":"wikipedia://en/285109","predicate":"related","method":"link-in-text","confidence":"low","span":[3394,3438],"revision":1336973778,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1799103","to":"wikipedia://en/305303","predicate":"related","method":"link-in-text","confidence":"low","span":[3884,3896],"revision":1336973778,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1799103","to":"wikipedia://en/144656","predicate":"related","method":"link-in-text","confidence":"low","span":[4684,4695],"revision":1336973778,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1799103","to":"wikipedia://en/29090","predicate":"related","method":"see-also","confidence":"low","span":[6271,6291],"revision":1336973778,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1799103","to":"wikipedia://en/6139551","predicate":"related","method":"see-also","confidence":"low","span":[6294,6322],"revision":1336973778,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1799103","to":"Category:Software testing","predicate":"in-field","method":"category","confidence":"medium","span":[7174,7203],"revision":1336973778,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1799103","to":"Category:Combinatorics","predicate":"in-field","method":"category","confidence":"medium","span":[7204,7230],"revision":1336973778,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1799103","to":"Category:Design of experiments","predicate":"in-field","method":"category","confidence":"medium","span":[7231,7265],"revision":1336973778,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24006693","to":"wikipedia://en/276526","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[93,109],"revision":1306736917,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24006693","to":"wikipedia://en/276524","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[145,160],"revision":1306736917,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24006693","to":"wikipedia://en/276526","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[211,227],"revision":1306736917,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24006693","to":"wikipedia://en/276524","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[328,343],"revision":1306736917,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24006693","to":"wikipedia://en/276524","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[442,459],"revision":1306736917,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24006693","to":"wikipedia://en/6042","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[467,492],"revision":1306736917,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24006693","to":"wikipedia://en/13637","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[493,522],"revision":1306736917,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24006693","to":"Category:Differential topology","predicate":"in-field","method":"category","confidence":"medium","span":[764,798],"revision":1306736917,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24006693","to":"Category:Algebraic topology","predicate":"in-field","method":"category","confidence":"medium","span":[799,830],"revision":1306736917,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24006693","to":"Category:Vector bundles","predicate":"in-field","method":"category","confidence":"medium","span":[831,860],"revision":1306736917,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351549#1GYZ","to":"wikipedia://en/394594","predicate":"listed-in","method":"list","confidence":"certain","span":[6318,6335],"revision":1346728004,"by":"importer/wikipedia/1"}

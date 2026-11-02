@@ -1,0 +1,19 @@
+{"from":"wikipedia://en/1158496#QRNE","to":"wikipedia://en/14709171","predicate":"listed-in","method":"list","confidence":"certain","span":[7875,7894],"revision":1375407000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/596179","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[104,119],"revision":1348677807,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/596179","to":"wikipedia://en/12316","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[212,230],"revision":1348677807,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/596179","to":"wikipedia://en/447020","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[276,301],"revision":1348677807,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/596179","to":"wikipedia://en/537183","predicate":"related","method":"link-in-text","confidence":"low","span":[1394,1420],"revision":1348677807,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/596179","to":"wikipedia://en/1138222","predicate":"related","method":"link-in-text","confidence":"low","span":[1471,1501],"revision":1348677807,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/596179","to":"wikipedia://en/51423","predicate":"related","method":"link-in-text","confidence":"low","span":[1623,1641],"revision":1348677807,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/596179","to":"wikipedia://en/33869124","predicate":"related","method":"link-in-text","confidence":"low","span":[1655,1680],"revision":1348677807,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/596179","to":"wikipedia://en/33875057","predicate":"related","method":"link-in-text","confidence":"low","span":[1693,1720],"revision":1348677807,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/596179","to":"wikipedia://en/537183","predicate":"related","method":"link-in-text","confidence":"low","span":[1859,1885],"revision":1348677807,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/596179","to":"wikipedia://en/8720712","predicate":"related","method":"see-also","confidence":"low","span":[2271,2297],"revision":1348677807,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/596179","to":"Category:Theorems in number theory","predicate":"kind-of","method":"category","confidence":"medium","span":[3667,3705],"revision":1348677807,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/596179","to":"Category:Gamma and related functions","predicate":"in-field","method":"category","confidence":"medium","span":[3706,3746],"revision":1348677807,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71085#U4CA","to":"wikipedia://en/37649","predicate":"uses","method":"link-in-item","confidence":"medium","span":[14632,14649],"revision":1372077859,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/727196#OROU","to":"wikipedia://en/52327","predicate":"uses","method":"link-in-item","confidence":"high","span":[2207,2230],"revision":1370069961,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/727196#OROU","to":"wikipedia://en/193059","predicate":"uses","method":"link-in-item","confidence":"high","span":[2420,2437],"revision":1370069961,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/727196#OROU","to":"wikipedia://en/24758677","predicate":"uses","method":"link-in-item","confidence":"high","span":[2914,2955],"revision":1370069961,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/727196#OROU","to":"wikipedia://en/657430","predicate":"uses","method":"link-in-item","confidence":"high","span":[3076,3095],"revision":1370069961,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/727196#OROU","to":"wikipedia://en/59735","predicate":"uses","method":"link-in-item","confidence":"high","span":[3115,3133],"revision":1370069961,"by":"importer/wikipedia/1"}

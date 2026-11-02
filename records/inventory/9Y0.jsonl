@@ -1,2 +1,8 @@
+{"id":"9Y04AMQWHP","mentions":["wikipedia://en/2146848#PYNZ"],"kind":"statement","name":"Change of variables formula in terms of Lebesgue measure","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9Y09K6EYGZ","mentions":["m2://rec/lebl_scv/scv.tex#prop-23#1"],"kind":"statement","name":"Cauchy--Riemann equations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"9Y0H8MFHYF","mentions":["m2://rec/wikidata/Q1630568#1"],"kind":"unknown","name":"monad","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9Y09NYMM1Z","mentions":["wikipedia://en/45712685"],"kind":"definition","name":"Optimization Programming Language","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9Y0AWH0WRF","mentions":["wikipedia://en/4289501#TF4R"],"kind":"definition","name":"The Algorithm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9Y0D34G8HD","mentions":["wikipedia://en/2892513#IRFT"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9Y0GGW3TSG","mentions":["wikipedia://en/77414703#W97P"],"kind":"definition","name":"Ray","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9Y0H8MFHYF","mentions":["m2://rec/wikidata/Q1630568#1","wikipedia://en/355140"],"kind":"definition","name":"monad","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9Y0K1ET2YS","mentions":["wikipedia://en/73413255"],"kind":"topic","name":"Karoline Pershell","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

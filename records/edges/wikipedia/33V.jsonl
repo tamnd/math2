@@ -1,0 +1,29 @@
+{"from":"wikipedia://en/191457#UH5B","to":"wikipedia://en/16895496","predicate":"listed-in","method":"list","confidence":"certain","span":[10562,10582],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35189927","to":"wikipedia://en/60012","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[65,96],"revision":1360015726,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35189927","to":"wikipedia://en/14563","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[131,142],"revision":1360015726,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35189927","to":"wikipedia://en/10225","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[229,247],"revision":1360015726,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35189927","to":"wikipedia://en/21156575","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[314,332],"revision":1360015726,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35189927","to":"wikipedia://en/59958","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[379,395],"revision":1360015726,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35189927","to":"wikipedia://en/991","predicate":"related","method":"link-in-text","confidence":"low","span":[1378,1396],"revision":1360015726,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35189927","to":"wikipedia://en/5726601","predicate":"related","method":"link-in-text","confidence":"low","span":[3949,3969],"revision":1360015726,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35189927","to":"Category:Elliptic curves","predicate":"in-field","method":"category","confidence":"medium","span":[6788,6816],"revision":1360015726,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7201595","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[550,562],"revision":1349924414,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7201595","to":"wikipedia://en/3909097","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[594,633],"revision":1349924414,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7201595","to":"wikipedia://en/23471","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[639,651],"revision":1349924414,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7201595","to":"wikipedia://en/593693","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[762,788],"revision":1349924414,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7201595","to":"wikipedia://en/7186647","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[813,840],"revision":1349924414,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7201595","to":"wikipedia://en/34212179","predicate":"related","method":"link-in-lead","confidence":"low","span":[1078,1097],"revision":1349924414,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7201595","to":"wikipedia://en/5170","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1145,1176],"revision":1349924414,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7201595","to":"wikipedia://en/29954","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1181,1205],"revision":1349924414,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7201595","to":"wikipedia://en/8398","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1234,1247],"revision":1349924414,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7201595","to":"wikipedia://en/23470","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1291,1305],"revision":1349924414,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7201595","to":"wikipedia://en/169191","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1313,1329],"revision":1349924414,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7201595","to":"wikipedia://en/8398","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1334,1347],"revision":1349924414,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7201595","to":"wikipedia://en/24979","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1375,1389],"revision":1349924414,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7201595","to":"wikipedia://en/1018257","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1393,1404],"revision":1349924414,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7201595","to":"wikipedia://en/1364622","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1477,1520],"revision":1349924414,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7201595","to":"wikipedia://en/1148129","predicate":"related","method":"see-also","confidence":"low","span":[3501,3521],"revision":1349924414,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7201595","to":"Template:Commons category","predicate":"in-nav","method":"nav","confidence":"low","span":[4985,5023],"revision":1349924414,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7201595","to":"Category:Eponymous diagrams","predicate":"in-field","method":"category","confidence":"medium","span":[5393,5424],"revision":1349924414,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7201595","to":"Category:Polytopes","predicate":"in-field","method":"category","confidence":"medium","span":[5425,5447],"revision":1349924414,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7201595","to":"Category:Projective geometry","predicate":"in-field","method":"category","confidence":"medium","span":[5448,5480],"revision":1349924414,"by":"importer/wikipedia/1"}

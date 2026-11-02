@@ -1,1 +1,4 @@
 {"id":"43X2ZGHH3F","mentions":["m2://rec/napkin/tex/alg-NT/frobenius.tex#exercise-1#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"43X7E1MEZ0","mentions":["wikipedia://en/5351448"],"kind":"statement","name":"Myerson–Satterthwaite theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"43XA1HJ2FR","mentions":["wikipedia://en/69359542#VKEW"],"kind":"statement","name":"Results","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"43XY2C228P","mentions":["wikipedia://en/35326250#7YPE"],"kind":"definition","name":"osculating plane","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

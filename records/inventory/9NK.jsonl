@@ -1,1 +1,5 @@
-{"id":"9NKZQZKB1H","mentions":["m2://rec/wikidata/Q2308809#1"],"kind":"unknown","name":"coincidence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"9NK85ECA9Y","mentions":["wikipedia://en/581763"],"kind":"definition","name":"Singularity theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9NKMPX3ZVR","mentions":["wikipedia://en/1603508"],"kind":"definition","name":"Perfect Bayesian equilibrium","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9NKRF6X776","mentions":["wikipedia://en/346167#UKVJ"],"kind":"definition","name":"Elementary substructure","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9NKTCRE614","mentions":["wikipedia://en/51223601#Z4A7"],"kind":"statement","name":"Sunflower conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9NKZQZKB1H","mentions":["m2://rec/wikidata/Q2308809#1","wikipedia://en/1397857"],"kind":"definition","name":"coincidence","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

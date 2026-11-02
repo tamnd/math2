@@ -1,0 +1,8 @@
+{"from":"wikipedia://en/47565351#SOWY","to":"wikipedia://en/20492468","predicate":"listed-in","method":"list","confidence":"certain","span":[4717,4740],"revision":1373350261,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55938641","to":"wikipedia://en/26685","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[76,99],"revision":1370929551,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55938641","to":"wikipedia://en/60991","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[107,132],"revision":1370929551,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55938641","to":"wikipedia://en/160892","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1303,1333],"revision":1370929551,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55938641","to":"wikipedia://en/29997930","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1602,1623],"revision":1370929551,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55938641","to":"Category:Statisticians of the University of Bristol","predicate":"in-field","method":"category","confidence":"medium","span":[2684,2739],"revision":1370929551,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55938641","to":"Category:Mathematicians of Durham University","predicate":"in-field","method":"category","confidence":"medium","span":[2740,2788],"revision":1370929551,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55938641","to":"Category:British statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[2789,2823],"revision":1370929551,"by":"importer/wikipedia/1"}

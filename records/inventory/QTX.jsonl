@@ -1,2 +1,9 @@
+{"id":"QTX66GKXGN","mentions":["wikipedia://en/54715230"],"kind":"topic","name":"List of Iranian mathematicians","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QTX6C7N4H5","mentions":["wikipedia://en/5308916"],"kind":"definition","name":"Random compact set","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QTX6DQD241","mentions":["wikipedia://en/57242824#ABO4"],"kind":"topic","name":"Andreas Brandstädt","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QTX6TV5S4V","mentions":["wikipedia://en/52836569"],"kind":"topic","name":"Paul de Clermont","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QTX9KF0K50","mentions":["wikipedia://en/38256214#RIY5"],"kind":"definition","name":"content","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QTXM2Q9YGW","mentions":["wikipedia://en/14403539#DKS0","wikipedia://en/351549#LI61"],"kind":"topic","name":"Robin Hartshorne","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QTXVJFJ28P","mentions":["m2://rec/levin_dmoi/ptx/ch_graphtheory.ptx#example-2#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"QTXXEMQM28","mentions":["ax://paper/2609.28265#SWJA"],"kind":"statement","msc":["05-XX","11-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}
+{"id":"QTXYXSF4BJ","mentions":["wikipedia://en/276524#3RZF"],"kind":"unknown","name":"Map of vector bundles","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

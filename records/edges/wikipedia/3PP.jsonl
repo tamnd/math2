@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/42677761","to":"wikipedia://en/12401","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,19],"revision":1344401777,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42677761","to":"wikipedia://en/325802","predicate":"related","method":"link-in-lead","confidence":"low","span":[159,207],"revision":1344401777,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42677761","to":"wikipedia://en/353042","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[212,234],"revision":1344401777,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42677761","to":"wikipedia://en/24004195","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[600,630],"revision":1344401777,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42677761","to":"Category:Graph theory","predicate":"in-field","method":"category","confidence":"medium","span":[4745,4770],"revision":1344401777,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565351#IUIL","to":"wikipedia://en/174293","predicate":"listed-in","method":"list","confidence":"certain","span":[66219,66237],"revision":1373350261,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68689710","to":"wikipedia://en/153008","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[201,216],"revision":1376186864,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68689710","to":"wikipedia://en/153008","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[258,274],"revision":1376186864,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68689710","to":"wikipedia://en/44027","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[539,554],"revision":1376186864,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68689710","to":"wikipedia://en/166898","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[714,732],"revision":1376186864,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68689710","to":"wikipedia://en/23543","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1213,1242],"revision":1376186864,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68689710","to":"wikipedia://en/1493236","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1305,1327],"revision":1376186864,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68689710","to":"wikipedia://en/3526954","predicate":"related","method":"link-in-text","confidence":"low","span":[1650,1686],"revision":1376186864,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68689710","to":"wikipedia://en/727472","predicate":"related","method":"link-in-text","confidence":"low","span":[2221,2255],"revision":1376186864,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68689710","to":"wikipedia://en/449166","predicate":"related","method":"link-in-text","confidence":"low","span":[2763,2785],"revision":1376186864,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68689710","to":"wikipedia://en/166898","predicate":"related","method":"link-in-text","confidence":"low","span":[3282,3300],"revision":1376186864,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68689710","to":"Category:Knot theory","predicate":"in-field","method":"category","confidence":"medium","span":[5790,5814],"revision":1376186864,"by":"importer/wikipedia/1"}

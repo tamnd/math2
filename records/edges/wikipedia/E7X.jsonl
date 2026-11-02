@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/13835110#TYWF","to":"wikipedia://en/26561","predicate":"uses","method":"link-in-item","confidence":"high","span":[750,780],"revision":1315612483,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13835110#TYWF","to":"wikipedia://en/26561","predicate":"uses","method":"link-in-item","confidence":"high","span":[2041,2071],"revision":1315612483,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2556705","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[179,194],"revision":1324179365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2556705","to":"wikipedia://en/89489","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[207,246],"revision":1324179365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2556705","to":"wikipedia://en/617522","predicate":"related","method":"link-in-lead","confidence":"low","span":[263,278],"revision":1324179365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2556705","to":"wikipedia://en/7951270","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[305,340],"revision":1324179365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2556705","to":"wikipedia://en/20646438","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[341,357],"revision":1324179365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2556705","to":"wikipedia://en/14563","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[583,594],"revision":1324179365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2556705","to":"Category:Inequalities (mathematics)","predicate":"kind-of","method":"category","confidence":"medium","span":[3120,3159],"revision":1324179365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2556705","to":"Category:Issai Schur","predicate":"in-field","method":"category","confidence":"medium","span":[3200,3224],"revision":1324179365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30562#J9RS","to":"wikipedia://en/13660","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[18130,18147],"revision":1357877906,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30562#J9RS","to":"wikipedia://en/13660","predicate":"uses","method":"link-in-item","confidence":"high","span":[18182,18199],"revision":1357877906,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30562#J9RS","to":"wikipedia://en/3942","predicate":"uses","method":"link-in-item","confidence":"high","span":[18225,18248],"revision":1357877906,"by":"importer/wikipedia/1"}

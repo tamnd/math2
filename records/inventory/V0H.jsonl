@@ -1,2 +1,8 @@
 {"id":"V0H2G7S4F7","mentions":["m2://rec/lebl_scv/index/2.2/smooth-boundary#1"],"kind":"concept","name":"smooth boundary","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"V0H2VWJDTA","mentions":["wikipedia://en/599970#8FBI"],"kind":"statement","name":"Hensel's lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"V0H4TFCTQX","mentions":["wikipedia://en/35625607#AKKL"],"kind":"definition","name":"quantic","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"V0HJDSFD2J","mentions":["wikipedia://en/68622542"],"kind":"topic","name":"Xiangyu Zhou","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"V0HMPKEJH1","mentions":["m2://rec/wikidata/Q79726#1"],"kind":"unknown","name":"kilobyte","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"V0HN92GHK4","mentions":["wikipedia://en/43580500#V6HT"],"kind":"definition","name":"König's lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"V0HXJRFYHD","mentions":["wikipedia://en/249208"],"kind":"definition","name":"Divergence of the sum of the reciprocals of the primes","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}],"proofs":["wikipedia://en/249208#3LF0","wikipedia://en/249208#HYI9","wikipedia://en/249208#WHX6"]}
+{"id":"V0HY84GWGP","mentions":["wikipedia://en/2640559#VB8R"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

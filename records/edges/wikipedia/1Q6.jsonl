@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/14403539#QFFV","to":"wikipedia://en/8951286","predicate":"listed-in","method":"list","confidence":"certain","span":[20176,20192],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20928503#ZBNA","to":"wikipedia://en/216811","predicate":"listed-in","method":"list","confidence":"certain","span":[1327,1363],"revision":1305296233,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3547877#FLYV","to":"wikipedia://en/60167","predicate":"uses","method":"link-in-item","confidence":"high","span":[7398,7414],"revision":1369603622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3547877#FLYV","to":"wikipedia://en/16277575","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7728,7746],"revision":1369603622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3547877#FLYV","to":"wikipedia://en/302033","predicate":"uses","method":"link-in-item","confidence":"high","span":[8245,8267],"revision":1369603622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#Z66O","to":"wikipedia://en/641679","predicate":"listed-in","method":"list","confidence":"certain","span":[10636,10664],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68299438","to":"wikipedia://en/185793","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[210,231],"revision":1353042288,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68299438","to":"wikipedia://en/286083","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[256,286],"revision":1353042288,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68299438","to":"wikipedia://en/25101","predicate":"related","method":"link-in-text","confidence":"low","span":[639,653],"revision":1353042288,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68299438","to":"wikipedia://en/239870","predicate":"related","method":"link-in-text","confidence":"low","span":[751,779],"revision":1353042288,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68299438","to":"wikipedia://en/416813","predicate":"related","method":"link-in-text","confidence":"low","span":[847,874],"revision":1353042288,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68299438","to":"wikipedia://en/1561691","predicate":"related","method":"link-in-text","confidence":"low","span":[1198,1245],"revision":1353042288,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68299438","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2595,2644],"revision":1353042288,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68299438","to":"Category:21st-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2645,2694],"revision":1353042288,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68299438","to":"Category:American mathematics educators","predicate":"in-field","method":"category","confidence":"medium","span":[2695,2738],"revision":1353042288,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68299438","to":"Category:20th-century American women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2876,2931],"revision":1353042288,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68299438","to":"Category:21st-century American women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2932,2987],"revision":1353042288,"by":"importer/wikipedia/1"}

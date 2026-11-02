@@ -1,1 +1,4 @@
-{"id":"XMJTH91V09","mentions":["m2://rec/wikidata/Q10904356#1"],"kind":"unknown","name":"hendecahedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"XMJ1ESTHTV","mentions":["wikipedia://en/41038878"],"kind":"topic","name":"Ross Street","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"XMJ90HAXMR","mentions":["wikipedia://en/346167#8IX4"],"kind":"definition","name":"Proof-theoretic semantics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"XMJDCKJX58","mentions":["wikipedia://en/14403539#HCDC","wikipedia://en/47738065#NM1Z"],"kind":"topic","name":"Raghavan Narasimhan","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"XMJTH91V09","mentions":["m2://rec/wikidata/Q10904356#1","wikipedia://en/40116370"],"kind":"object","name":"hendecahedron","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/38508663","to":"wikipedia://en/48396","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[74,99],"revision":1351095142,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38508663","to":"wikipedia://en/340630","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[645,679],"revision":1351095142,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38508663","to":"wikipedia://en/38489856","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[861,891],"revision":1351095142,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38508663","to":"wikipedia://en/38500906","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[900,950],"revision":1351095142,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38508663","to":"wikipedia://en/191538","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1086,1110],"revision":1351095142,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38508663","to":"wikipedia://en/38542576","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1115,1154],"revision":1351095142,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38508663","to":"wikipedia://en/20491663","predicate":"related","method":"link-in-text","confidence":"low","span":[6848,6870],"revision":1351095142,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38508663","to":"wikipedia://en/38500906","predicate":"related","method":"link-in-text","confidence":"low","span":[6873,6923],"revision":1351095142,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38508663","to":"wikipedia://en/38489856","predicate":"related","method":"link-in-text","confidence":"low","span":[6926,6956],"revision":1351095142,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38508663","to":"wikipedia://en/8564970","predicate":"related","method":"link-in-text","confidence":"low","span":[6959,6993],"revision":1351095142,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38508663","to":"wikipedia://en/1033045","predicate":"related","method":"link-in-text","confidence":"low","span":[6996,7035],"revision":1351095142,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38508663","to":"wikipedia://en/4665038#HFD1","predicate":"related","method":"link-in-text","confidence":"low","span":[7038,7094],"revision":1351095142,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38508663","to":"wikipedia://en/967440","predicate":"related","method":"link-in-text","confidence":"low","span":[7097,7123],"revision":1351095142,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38508663","to":"wikipedia://en/38542576","predicate":"related","method":"link-in-text","confidence":"low","span":[7126,7165],"revision":1351095142,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38508663","to":"Category:Inequalities (mathematics)","predicate":"kind-of","method":"category","confidence":"medium","span":[7195,7234],"revision":1351095142,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38508663","to":"Category:Sobolev spaces","predicate":"in-field","method":"category","confidence":"medium","span":[7235,7262],"revision":1351095142,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/95170#P6HX","to":"wikipedia://en/270799","predicate":"uses","method":"link-in-item","confidence":"medium","span":[29011,29030],"revision":1375976031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/95170#P6HX","to":"wikipedia://en/333365","predicate":"uses","method":"link-in-item","confidence":"high","span":[29853,29869],"revision":1375976031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/95170#P6HX","to":"wikipedia://en/18403","predicate":"uses","method":"link-in-item","confidence":"medium","span":[30167,30189],"revision":1375976031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/95170#P6HX","to":"wikipedia://en/154322","predicate":"uses","method":"link-in-item","confidence":"medium","span":[30221,30242],"revision":1375976031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/95170#P6HX","to":"wikipedia://en/57987","predicate":"related","method":"link-in-item","confidence":"low","span":[30247,30264],"revision":1375976031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/95170#P6HX","to":"wikipedia://en/14500570","predicate":"uses","method":"link-in-item","confidence":"high","span":[30357,30376],"revision":1375976031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/95170#P6HX","to":"wikipedia://en/780852","predicate":"uses","method":"link-in-item","confidence":"medium","span":[30515,30543],"revision":1375976031,"by":"importer/wikipedia/1"}

@@ -1,0 +1,29 @@
+{"from":"wikipedia://en/1139142","to":"wikipedia://en/9169813","predicate":"related","method":"link-in-lead","confidence":"low","span":[103,123],"revision":1317559160,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1139142","to":"wikipedia://en/10172878","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[128,148],"revision":1317559160,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1139142","to":"wikipedia://en/366040","predicate":"related","method":"link-in-lead","confidence":"low","span":[156,176],"revision":1317559160,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1139142","to":"wikipedia://en/247924","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[219,239],"revision":1317559160,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1139142","to":"wikipedia://en/13035","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[330,360],"revision":1317559160,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1139142","to":"wikipedia://en/10469987","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[513,530],"revision":1317559160,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1139142","to":"wikipedia://en/385339","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[548,591],"revision":1317559160,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1139142","to":"wikipedia://en/296332","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[597,611],"revision":1317559160,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1139142","to":"wikipedia://en/1772133","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[656,691],"revision":1317559160,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1139142","to":"wikipedia://en/10469987","predicate":"related","method":"link-in-text","confidence":"low","span":[3508,3525],"revision":1317559160,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1139142","to":"wikipedia://en/3021393","predicate":"related","method":"link-in-text","confidence":"low","span":[3605,3631],"revision":1317559160,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1139142","to":"wikipedia://en/540732","predicate":"related","method":"link-in-text","confidence":"low","span":[3678,3699],"revision":1317559160,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1139142","to":"wikipedia://en/669440","predicate":"related","method":"link-in-text","confidence":"low","span":[3859,3880],"revision":1317559160,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1139142","to":"wikipedia://en/5355571","predicate":"related","method":"link-in-text","confidence":"low","span":[3906,3944],"revision":1317559160,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1139142","to":"wikipedia://en/373278","predicate":"related","method":"see-also","confidence":"low","span":[4480,4508],"revision":1317559160,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1139142","to":"wikipedia://en/32023896","predicate":"related","method":"see-also","confidence":"low","span":[4511,4537],"revision":1317559160,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1139142","to":"wikipedia://en/27038423","predicate":"related","method":"see-also","confidence":"low","span":[4603,4622],"revision":1317559160,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1139142","to":"Category:Lie groups","predicate":"in-field","method":"category","confidence":"medium","span":[4952,4975],"revision":1317559160,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1139142","to":"Category:Algebraic groups","predicate":"in-field","method":"category","confidence":"medium","span":[4976,5005],"revision":1317559160,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1139142","to":"Category:Bruhat family","predicate":"in-field","method":"category","confidence":"medium","span":[5006,5032],"revision":1317559160,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/468884#5NEA","to":"wikipedia://en/29131481","predicate":"listed-in","method":"list","confidence":"certain","span":[1176,1194],"revision":1344164290,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5997638","to":"wikipedia://en/962731","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[134,158],"revision":1308415460,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5997638","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[159,176],"revision":1308415460,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5997638","to":"wikipedia://en/20814025","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[234,260],"revision":1308415460,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5997638","to":"wikipedia://en/56601","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[394,414],"revision":1308415460,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5997638","to":"wikipedia://en/1504425","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[416,438],"revision":1308415460,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5997638","to":"wikipedia://en/16920","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[444,472],"revision":1308415460,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5997638","to":"wikipedia://en/9823717","predicate":"related","method":"see-also","confidence":"low","span":[862,948],"revision":1308415460,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5997638","to":"Category:French mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1500,1534],"revision":1308415460,"by":"importer/wikipedia/1"}

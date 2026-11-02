@@ -1,0 +1,52 @@
+{"from":"wikipedia://en/2815642","to":"wikipedia://en/25431","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1054,1082],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"wikipedia://en/324572","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1083,1107],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"wikipedia://en/1318387","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1127,1155],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"wikipedia://en/1558948","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1217,1249],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"wikipedia://en/1418949","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1550,1569],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"wikipedia://en/1558948","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2733,2765],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"wikipedia://en/2606710","predicate":"related","method":"link-in-lead","confidence":"low","span":[2804,2820],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"wikipedia://en/1485646","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2867,2891],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"wikipedia://en/1701961","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2900,2921],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"wikipedia://en/3393736","predicate":"related","method":"link-in-text","confidence":"low","span":[3061,3081],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"wikipedia://en/30436095","predicate":"related","method":"link-in-text","confidence":"low","span":[3083,3102],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"wikipedia://en/1674887","predicate":"related","method":"link-in-text","confidence":"low","span":[3104,3140],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"wikipedia://en/10591034","predicate":"related","method":"link-in-text","confidence":"low","span":[3142,3152],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"wikipedia://en/28534669","predicate":"related","method":"link-in-text","confidence":"low","span":[3202,3257],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"wikipedia://en/9137495","predicate":"related","method":"link-in-text","confidence":"low","span":[3259,3287],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"wikipedia://en/1485646","predicate":"related","method":"link-in-text","confidence":"low","span":[3305,3329],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"wikipedia://en/6852678","predicate":"related","method":"link-in-text","confidence":"low","span":[3331,3357],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"wikipedia://en/24429136","predicate":"related","method":"link-in-text","confidence":"low","span":[3359,3370],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"wikipedia://en/582311","predicate":"related","method":"link-in-text","confidence":"low","span":[3372,3382],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"wikipedia://en/4712996","predicate":"related","method":"link-in-text","confidence":"low","span":[3396,3426],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"wikipedia://en/1701961","predicate":"related","method":"link-in-text","confidence":"low","span":[3428,3449],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"wikipedia://en/9137495","predicate":"related","method":"link-in-text","confidence":"low","span":[3473,3501],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"wikipedia://en/1036865","predicate":"related","method":"link-in-text","confidence":"low","span":[3528,3545],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"Category:Algebra journals","predicate":"in-field","method":"category","confidence":"medium","span":[4029,4058],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"Category:Academic journals established in 1962","predicate":"in-field","method":"category","confidence":"medium","span":[4059,4109],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"Category:Novosibirsk State University","predicate":"in-field","method":"category","confidence":"medium","span":[4110,4151],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"Category:Magazines published in Novosibirsk","predicate":"in-field","method":"category","confidence":"medium","span":[4152,4199],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"Category:Russian-language journals","predicate":"in-field","method":"category","confidence":"medium","span":[4200,4238],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"Category:Mathematical logic journals","predicate":"in-field","method":"category","confidence":"medium","span":[4239,4279],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2815642","to":"Category:Bimonthly journals","predicate":"in-field","method":"category","confidence":"medium","span":[4280,4311],"revision":1328783616,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3421491","to":"wikipedia://en/25445","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[187,199],"revision":1334001898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3421491","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[200,217],"revision":1334001898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3421491","to":"wikipedia://en/1424309","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[237,263],"revision":1334001898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3421491","to":"wikipedia://en/410268","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[290,301],"revision":1334001898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3421491","to":"wikipedia://en/269325","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[303,320],"revision":1334001898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3421491","to":"wikipedia://en/64056587","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[408,429],"revision":1334001898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3421491","to":"wikipedia://en/312675","predicate":"related","method":"link-in-lead","confidence":"low","span":[450,470],"revision":1334001898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3421491","to":"wikipedia://en/317478","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[478,508],"revision":1334001898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3421491","to":"wikipedia://en/22989","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[512,521],"revision":1334001898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3421491","to":"wikipedia://en/21031297","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[537,546],"revision":1334001898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3421491","to":"wikipedia://en/42000","predicate":"related","method":"link-in-lead","confidence":"low","span":[654,671],"revision":1334001898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3421491","to":"wikipedia://en/666177","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[674,740],"revision":1334001898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3421491","to":"wikipedia://en/553982","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1283,1310],"revision":1334001898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3421491","to":"wikipedia://en/66772","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1337,1365],"revision":1334001898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3421491","to":"wikipedia://en/1239832","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1373,1467],"revision":1334001898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3421491","to":"wikipedia://en/39655418","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1775,1807],"revision":1334001898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3421491","to":"wikipedia://en/25126","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2144,2161],"revision":1334001898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3421491","to":"Category:Romanian expatriates in France","predicate":"in-field","method":"category","confidence":"medium","span":[3650,3693],"revision":1334001898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3421491","to":"Category:Academic staff of the University of Bucharest","predicate":"in-field","method":"category","confidence":"medium","span":[3749,3807],"revision":1334001898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3421491","to":"Category:20th-century Romanian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3808,3857],"revision":1334001898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3421491","to":"Category:Mathematical analysts","predicate":"in-field","method":"category","confidence":"medium","span":[3858,3892],"revision":1334001898,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3421491","to":"Category:Academic staff of the Bucharest Academy of Economic Studies","predicate":"in-field","method":"category","confidence":"medium","span":[3893,3965],"revision":1334001898,"by":"importer/wikipedia/1"}

@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/23234121#3YGO","to":"wikipedia://en/579311","predicate":"uses","method":"link-in-item","confidence":"high","span":[4238,4267],"revision":1365539234,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23234121#3YGO","to":"wikipedia://en/35457783","predicate":"related","method":"link-in-item","confidence":"low","span":[4457,4530],"revision":1365539234,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43278241","to":"wikipedia://en/775","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[20,33],"revision":1355366447,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43278241","to":"wikipedia://en/8095","predicate":"related","method":"link-in-lead","confidence":"low","span":[48,64],"revision":1355366447,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43278241","to":"wikipedia://en/4057707","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[83,119],"revision":1355366447,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43278241","to":"Template:Wikiquote","predicate":"in-nav","method":"nav","confidence":"low","span":[793,806],"revision":1355366447,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43278241","to":"Category:Computer arithmetic algorithms","predicate":"in-field","method":"category","confidence":"medium","span":[1088,1131],"revision":1355366447,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43278241","to":"Category:Donald Knuth","predicate":"in-field","method":"category","confidence":"medium","span":[1132,1157],"revision":1355366447,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43278241","to":"Category:Graph algorithms","predicate":"in-field","method":"category","confidence":"medium","span":[1158,1187],"revision":1355366447,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43278241","to":"Category:Mathematical logic","predicate":"in-field","method":"category","confidence":"medium","span":[1188,1219],"revision":1355366447,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43278241","to":"Category:Theoretical computer science","predicate":"in-field","method":"category","confidence":"medium","span":[1220,1261],"revision":1355366447,"by":"importer/wikipedia/1"}

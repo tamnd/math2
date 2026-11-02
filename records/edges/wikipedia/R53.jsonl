@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/22619593","to":"wikipedia://en/386991","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[133,146],"revision":1354495451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22619593","to":"wikipedia://en/51246","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[171,185],"revision":1354495451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22619593","to":"wikipedia://en/22606041","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[222,240],"revision":1354495451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22619593","to":"wikipedia://en/51246","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[273,287],"revision":1354495451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22619593","to":"wikipedia://en/22630866","predicate":"related","method":"see-also","confidence":"low","span":[304,325],"revision":1354495451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22619593","to":"Category:19th-century German mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[637,684],"revision":1354495451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22619593","to":"Category:20th-century German mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[685,732],"revision":1354495451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26248766#7VNU","to":"wikipedia://en/973594","predicate":"listed-in","method":"list","confidence":"certain","span":[4939,4957],"revision":1349235543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5176#DV7J","to":"wikipedia://en/19468696","predicate":"restates","method":"hatnote","confidence":"high","span":[21933,21964],"revision":1376334098,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5176#DV7J","to":"wikipedia://en/19468696","predicate":"uses","method":"link-in-item","confidence":"medium","span":[21972,22007],"revision":1376334098,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5176#DV7J","to":"wikipedia://en/6122","predicate":"uses","method":"link-in-item","confidence":"high","span":[22584,22618],"revision":1376334098,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5176#DV7J","to":"wikipedia://en/14627","predicate":"related","method":"link-in-item","confidence":"low","span":[23022,23045],"revision":1376334098,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5176#DV7J","to":"wikipedia://en/12281","predicate":"related","method":"link-in-item","confidence":"low","span":[23050,23079],"revision":1376334098,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5176#DV7J","to":"wikipedia://en/97805","predicate":"related","method":"link-in-item","confidence":"low","span":[23308,23324],"revision":1376334098,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5176#DV7J","to":"wikipedia://en/2823","predicate":"uses","method":"link-in-item","confidence":"high","span":[24631,24650],"revision":1376334098,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5176#DV7J","to":"wikipedia://en/1424309","predicate":"uses","method":"link-in-item","confidence":"high","span":[24689,24714],"revision":1376334098,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76765067#8LYY","to":"wikipedia://en/18881","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[152889,152915],"revision":1368301704,"by":"importer/wikipedia/1"}

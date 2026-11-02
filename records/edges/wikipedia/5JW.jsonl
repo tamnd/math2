@@ -1,0 +1,36 @@
+{"from":"wikipedia://en/25889726","to":"wikipedia://en/1997","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[212,234],"revision":1343889727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25889726","to":"wikipedia://en/10225","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[289,308],"revision":1343889727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25889726","to":"wikipedia://en/25505011","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[330,348],"revision":1343889727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25889726","to":"wikipedia://en/198983","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[363,396],"revision":1343889727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25889726","to":"wikipedia://en/58890947","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[413,434],"revision":1343889727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25889726","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1068,1085],"revision":1343889727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25889726","to":"wikipedia://en/26012311","predicate":"related","method":"link-in-lead","confidence":"low","span":[1086,1138],"revision":1343889727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25889726","to":"wikipedia://en/24222","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1173,1200],"revision":1343889727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25889726","to":"wikipedia://en/59644","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1250,1271],"revision":1343889727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25889726","to":"wikipedia://en/40775836","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1286,1295],"revision":1343889727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25889726","to":"wikipedia://en/81931","predicate":"related","method":"link-in-text","confidence":"low","span":[5912,5933],"revision":1343889727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25889726","to":"wikipedia://en/14962","predicate":"related","method":"link-in-text","confidence":"low","span":[6362,6382],"revision":1343889727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25889726","to":"wikipedia://en/298834","predicate":"related","method":"link-in-text","confidence":"low","span":[7237,7266],"revision":1343889727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25889726","to":"wikipedia://en/40775836","predicate":"related","method":"see-also","confidence":"low","span":[8971,8980],"revision":1343889727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25889726","to":"wikipedia://en/25944272","predicate":"related","method":"see-also","confidence":"low","span":[9060,9111],"revision":1343889727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25889726","to":"Category:Elliptic curves","predicate":"in-field","method":"category","confidence":"medium","span":[9958,9986],"revision":1343889727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25889726","to":"Category:Elliptic curve cryptography","predicate":"in-field","method":"category","confidence":"medium","span":[9987,10027],"revision":1343889727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25889726","to":"Category:Quartic curves","predicate":"in-field","method":"category","confidence":"medium","span":[10028,10055],"revision":1343889727,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26463161#ETYA","to":"wikipedia://en/11004","predicate":"uses","method":"link-in-item","confidence":"high","span":[1299,1320],"revision":1321322802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26463161#ETYA","to":"wikipedia://en/297506","predicate":"uses","method":"link-in-item","confidence":"high","span":[1373,1391],"revision":1321322802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26463161#ETYA","to":"wikipedia://en/45240","predicate":"uses","method":"link-in-item","confidence":"high","span":[1560,1587],"revision":1321322802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26463161#ETYA","to":"wikipedia://en/61891","predicate":"uses","method":"link-in-item","confidence":"high","span":[1631,1660],"revision":1321322802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26463161#ETYA","to":"wikipedia://en/371227","predicate":"uses","method":"link-in-item","confidence":"high","span":[1907,1920],"revision":1321322802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26463161#ETYA","to":"wikipedia://en/250323","predicate":"uses","method":"link-in-item","confidence":"high","span":[1951,1979],"revision":1321322802,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31538509#1TMZ","to":"wikipedia://en/5793","predicate":"uses","method":"link-in-item","confidence":"high","span":[1955,1991],"revision":1323290944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31538509#1TMZ","to":"wikipedia://en/21462","predicate":"uses","method":"link-in-item","confidence":"high","span":[1998,2037],"revision":1323290944,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45022#Z20L","to":"wikipedia://en/10987","predicate":"uses","method":"link-in-item","confidence":"high","span":[21821,21841],"revision":1375267552,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/45022#Z20L","to":"wikipedia://en/27716891","predicate":"uses","method":"link-in-item","confidence":"high","span":[21911,21932],"revision":1375267552,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#Y1OF","to":"wikipedia://en/34943423","predicate":"listed-in","method":"list","confidence":"certain","span":[74450,74464],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/537026#DV8H","to":"wikipedia://en/53741","predicate":"uses","method":"link-in-item","confidence":"high","span":[1213,1225],"revision":1356078276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/537026#DV8H","to":"wikipedia://en/3797203","predicate":"uses","method":"link-in-item","confidence":"high","span":[1281,1310],"revision":1356078276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/537026#DV8H","to":"wikipedia://en/701096","predicate":"uses","method":"link-in-item","confidence":"high","span":[1342,1365],"revision":1356078276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/537026#DV8H","to":"wikipedia://en/410009","predicate":"uses","method":"link-in-item","confidence":"high","span":[1368,1422],"revision":1356078276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/537026#DV8H","to":"wikipedia://en/672218","predicate":"uses","method":"link-in-item","confidence":"medium","span":[1572,1583],"revision":1356078276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#XGS2","to":"wikipedia://en/1024614","predicate":"listed-in","method":"list","confidence":"certain","span":[73541,73570],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#XGS2","to":"wikipedia://en/22939","predicate":"uses","method":"link-in-item","confidence":"high","span":[73574,73585],"revision":1373797939,"by":"importer/wikipedia/1"}

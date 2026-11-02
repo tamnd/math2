@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/11347127","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[48,63],"revision":1276077870,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11347127","to":"wikipedia://en/15532","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[117,129],"revision":1276077870,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11347127","to":"wikipedia://en/89489","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[130,169],"revision":1276077870,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11347127","to":"wikipedia://en/2400036","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[270,286],"revision":1276077870,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11347127","to":"wikipedia://en/10570298","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[417,451],"revision":1276077870,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11347127","to":"wikipedia://en/60947361","predicate":"related","method":"link-in-lead","confidence":"low","span":[692,732],"revision":1276077870,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11347127","to":"wikipedia://en/144652","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[795,819],"revision":1276077870,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11347127","to":"wikipedia://en/27859","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[832,842],"revision":1276077870,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11347127","to":"wikipedia://en/318742","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[847,867],"revision":1276077870,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11347127","to":"Category:Geometric inequalities","predicate":"in-field","method":"category","confidence":"medium","span":[3954,3989],"revision":1276077870,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11347127","to":"Category:Integral geometry","predicate":"in-field","method":"category","confidence":"medium","span":[3990,4020],"revision":1276077870,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24873145#869S","to":"wikipedia://en/11634","predicate":"uses","method":"link-in-item","confidence":"high","span":[4797,4833],"revision":1284706978,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24873145#869S","to":"wikipedia://en/48628","predicate":"uses","method":"link-in-item","confidence":"high","span":[5814,5835],"revision":1284706978,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24873145#869S","to":"wikipedia://en/52358","predicate":"uses","method":"link-in-item","confidence":"high","span":[5962,5980],"revision":1284706978,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24873145#869S","to":"wikipedia://en/10603","predicate":"uses","method":"link-in-item","confidence":"high","span":[6194,6210],"revision":1284706978,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24873145#869S","to":"wikipedia://en/26411","predicate":"uses","method":"link-in-item","confidence":"high","span":[6304,6335],"revision":1284706978,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24873145#869S","to":"wikipedia://en/14563","predicate":"uses","method":"link-in-item","confidence":"high","span":[6378,6390],"revision":1284706978,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24873145#869S","to":"wikipedia://en/20087","predicate":"uses","method":"link-in-item","confidence":"high","span":[6413,6462],"revision":1284706978,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/345396#FLDO","to":"wikipedia://en/514258","predicate":"listed-in","method":"list","confidence":"certain","span":[6632,6660],"revision":1261265038,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/876428#AKBJ","to":"wikipedia://en/10612837","predicate":"uses","method":"link-in-item","confidence":"high","span":[17768,17791],"revision":1377262895,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/876428#AKBJ","to":"wikipedia://en/30448","predicate":"uses","method":"link-in-item","confidence":"high","span":[17861,17881],"revision":1377262895,"by":"importer/wikipedia/1"}

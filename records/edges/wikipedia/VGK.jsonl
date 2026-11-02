@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/1170286","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[706,718],"revision":1359928067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1170286","to":"wikipedia://en/16034","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[751,768],"revision":1359928067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1170286","to":"wikipedia://en/2904472","predicate":"related","method":"link-in-text","confidence":"low","span":[2764,2789],"revision":1359928067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1170286","to":"wikipedia://en/31443808","predicate":"related","method":"link-in-text","confidence":"low","span":[2791,2823],"revision":1359928067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1170286","to":"wikipedia://en/8407","predicate":"related","method":"link-in-text","confidence":"low","span":[3266,3294],"revision":1359928067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1170286","to":"Category:Elementary polyhedron","predicate":"in-field","method":"category","confidence":"medium","span":[5438,5472],"revision":1359928067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1170286","to":"Category:Johnson solids","predicate":"in-field","method":"category","confidence":"medium","span":[5473,5500],"revision":1359928067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19972962#ZR6M","to":"wikipedia://en/49541050","predicate":"listed-in","method":"list","confidence":"certain","span":[6591,6608],"revision":1313705031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/241820#YL5H","to":"wikipedia://en/572813","predicate":"listed-in","method":"list","confidence":"certain","span":[6028,6041],"revision":1375503641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38256214#JINI","to":"wikipedia://en/10092186","predicate":"uses","method":"link-in-item","confidence":"high","span":[49826,49841],"revision":1355326396,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57242824#IDSB","to":"wikipedia://en/73148445","predicate":"listed-in","method":"list","confidence":"certain","span":[3618,3640],"revision":1365520422,"by":"importer/wikipedia/1"}

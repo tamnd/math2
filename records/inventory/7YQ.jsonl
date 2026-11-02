@@ -1,1 +1,5 @@
 {"id":"7YQ0NXMG5T","mentions":["ax://paper/2610.14689#IJXS"],"kind":"statement","msc":["20-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}],"proofs":["ax://paper/2610.14689#NCBE"]}
+{"id":"7YQ7BJYE9S","mentions":["wikipedia://en/37023499"],"kind":"topic","name":"Jean Chazy","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7YQMENXSGB","mentions":["wikipedia://en/47738065#8AXJ"],"kind":"topic","name":"Ernst Peschl","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7YQQY2F9DE","mentions":["wikipedia://en/44610530"],"kind":"topic","name":"Marcelo Viana","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7YQVBPV0J2","mentions":["wikipedia://en/13795874#D8S3"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

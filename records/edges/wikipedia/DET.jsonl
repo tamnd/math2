@@ -1,0 +1,32 @@
+{"from":"wikipedia://en/453395#VX1Z","to":"wikipedia://en/4321","predicate":"uses","method":"link-in-item","confidence":"high","span":[8688,8703],"revision":1373491360,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/453395#VX1Z","to":"wikipedia://en/20607","predicate":"uses","method":"link-in-item","confidence":"medium","span":[8719,8751],"revision":1373491360,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/453395#VX1Z","to":"wikipedia://en/93817","predicate":"uses","method":"link-in-item","confidence":"medium","span":[8777,8790],"revision":1373491360,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"wikipedia://en/323392","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[287,350],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"wikipedia://en/12401","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[362,378],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"wikipedia://en/196911","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[463,486],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"wikipedia://en/16816024","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[527,556],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"wikipedia://en/55904","predicate":"related","method":"link-in-text","confidence":"low","span":[621,633],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"wikipedia://en/493992","predicate":"related","method":"link-in-text","confidence":"low","span":[663,682],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"wikipedia://en/1617601","predicate":"related","method":"link-in-text","confidence":"low","span":[692,738],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"wikipedia://en/7954455","predicate":"related","method":"link-in-text","confidence":"low","span":[742,765],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"wikipedia://en/21031297","predicate":"related","method":"link-in-text","confidence":"low","span":[839,867],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"wikipedia://en/48093","predicate":"related","method":"link-in-text","confidence":"low","span":[917,947],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"wikipedia://en/48001679","predicate":"related","method":"link-in-text","confidence":"low","span":[1009,1032],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"wikipedia://en/73276","predicate":"related","method":"link-in-text","confidence":"low","span":[1153,1179],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"wikipedia://en/284368","predicate":"related","method":"link-in-text","confidence":"low","span":[1237,1263],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"wikipedia://en/16816024","predicate":"related","method":"link-in-text","confidence":"low","span":[1465,1494],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"wikipedia://en/12401","predicate":"related","method":"link-in-text","confidence":"low","span":[1549,1565],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"wikipedia://en/13552465","predicate":"related","method":"link-in-text","confidence":"low","span":[1607,1659],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"wikipedia://en/670531","predicate":"related","method":"link-in-text","confidence":"low","span":[1700,1718],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"wikipedia://en/405944","predicate":"related","method":"link-in-text","confidence":"low","span":[1722,1741],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"wikipedia://en/426743","predicate":"related","method":"link-in-text","confidence":"low","span":[1806,1824],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"Category:British mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3543,3578],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"Category:British women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3579,3620],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"Category:British computer scientists","predicate":"in-field","method":"category","confidence":"medium","span":[3621,3661],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"Category:British women computer scientists","predicate":"in-field","method":"category","confidence":"medium","span":[3662,3708],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"Category:Serbian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3709,3744],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"Category:Serbian women scientists","predicate":"in-field","method":"category","confidence":"medium","span":[3745,3782],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"Category:Serbian computer scientists","predicate":"in-field","method":"category","confidence":"medium","span":[3783,3823],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"Category:Serbian women computer scientists","predicate":"in-field","method":"category","confidence":"medium","span":[3824,3870],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"Category:Graph theorists","predicate":"in-field","method":"category","confidence":"medium","span":[3871,3899],"revision":1335986905,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/66718247","to":"Category:Academics of the University of Leeds","predicate":"in-field","method":"category","confidence":"medium","span":[4010,4059],"revision":1335986905,"by":"importer/wikipedia/1"}

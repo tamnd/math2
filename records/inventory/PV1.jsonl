@@ -1,2 +1,5 @@
+{"id":"PV143YQTNT","mentions":["wikipedia://en/69167071#31LQ"],"kind":"definition","name":"Elliptic-curve cryptography","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PV1C83KYBW","mentions":["m2://rec/wikidata/Q100194320#1"],"kind":"object","name":"Niven (or Harshad) numbers that are not divisible by 3.","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"PV1E1A3ZFS","mentions":["wikipedia://en/100303#NC3H","wikipedia://en/100303#V1FT","wikipedia://en/974084#R98E"],"kind":"definition","name":"Lie group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"PV1G6MPFFC","mentions":["wikipedia://en/502897#DHW9"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PV1TR6KEYK","mentions":["m2://rec/lebl_diffyqs/ch-systems.tex#exercise-86#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

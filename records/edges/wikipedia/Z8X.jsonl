@@ -1,0 +1,20 @@
+{"from":"wikipedia://en/287229#K7S6","to":"wikipedia://en/2735727","predicate":"uses","method":"link-in-item","confidence":"high","span":[38382,38429],"revision":1375883280,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43507260#T05D","to":"wikipedia://en/248948","predicate":"uses","method":"link-in-item","confidence":"medium","span":[23196,23212],"revision":1370503579,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43507260#T05D","to":"wikipedia://en/220089","predicate":"uses","method":"link-in-item","confidence":"high","span":[23463,23487],"revision":1370503579,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43507260#T05D","to":"wikipedia://en/1309","predicate":"uses","method":"link-in-item","confidence":"high","span":[23933,23947],"revision":1370503579,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43507260#T05D","to":"wikipedia://en/21173","predicate":"uses","method":"link-in-item","confidence":"high","span":[24168,24188],"revision":1370503579,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43507260#T05D","to":"wikipedia://en/7959499","predicate":"uses","method":"link-in-item","confidence":"high","span":[24234,24261],"revision":1370503579,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43507260#T05D","to":"wikipedia://en/64958","predicate":"uses","method":"link-in-item","confidence":"medium","span":[24343,24359],"revision":1370503579,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55811631","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1456,1473],"revision":1371982545,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55811631","to":"wikipedia://en/35160636","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1499,1530],"revision":1371982545,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55811631","to":"wikipedia://en/175744","predicate":"related","method":"link-in-text","confidence":"low","span":[1708,1715],"revision":1371982545,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55811631","to":"wikipedia://en/268040","predicate":"related","method":"link-in-text","confidence":"low","span":[1848,1871],"revision":1371982545,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55811631","to":"wikipedia://en/12341","predicate":"related","method":"link-in-text","confidence":"low","span":[1976,1985],"revision":1371982545,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55811631","to":"wikipedia://en/639553","predicate":"related","method":"link-in-text","confidence":"low","span":[2436,2479],"revision":1371982545,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55811631","to":"wikipedia://en/19178914","predicate":"related","method":"link-in-text","confidence":"low","span":[2565,2583],"revision":1371982545,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55811631","to":"wikipedia://en/35160636","predicate":"related","method":"link-in-text","confidence":"low","span":[2610,2641],"revision":1371982545,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55811631","to":"wikipedia://en/58610","predicate":"related","method":"link-in-text","confidence":"low","span":[2726,2752],"revision":1371982545,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55811631","to":"wikipedia://en/14220","predicate":"related","method":"link-in-text","confidence":"low","span":[2786,2812],"revision":1371982545,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55811631","to":"wikipedia://en/1424309","predicate":"related","method":"link-in-text","confidence":"low","span":[2851,2877],"revision":1371982545,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55811631","to":"Category:19th-century Belgian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4693,4741],"revision":1371982545,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/55811631","to":"Category:20th-century Belgian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4742,4790],"revision":1371982545,"by":"importer/wikipedia/1"}

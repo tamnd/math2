@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/527369#MWXG","to":"wikipedia://en/234998","predicate":"listed-in","method":"list","confidence":"certain","span":[19983,20028],"revision":1375679821,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77197868","to":"wikipedia://en/27698","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[82,94],"revision":1321376085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77197868","to":"wikipedia://en/3661532","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[200,238],"revision":1321376085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77197868","to":"wikipedia://en/4305817","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[592,616],"revision":1321376085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77197868","to":"wikipedia://en/297204","predicate":"related","method":"link-in-text","confidence":"low","span":[1799,1825],"revision":1321376085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77197868","to":"wikipedia://en/33342893","predicate":"related","method":"link-in-text","confidence":"low","span":[2457,2485],"revision":1321376085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77197868","to":"wikipedia://en/480509","predicate":"related","method":"link-in-text","confidence":"low","span":[2539,2555],"revision":1321376085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77197868","to":"wikipedia://en/5864214","predicate":"related","method":"link-in-text","confidence":"low","span":[3607,3625],"revision":1321376085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77197868","to":"wikipedia://en/3099132","predicate":"related","method":"link-in-text","confidence":"low","span":[3696,3742],"revision":1321376085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77197868","to":"wikipedia://en/1582926","predicate":"related","method":"link-in-text","confidence":"low","span":[8842,8857],"revision":1321376085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77197868","to":"Category:Fractions (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[11184,11220],"revision":1321376085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77197868","to":"Category:Arithmetic","predicate":"in-field","method":"category","confidence":"medium","span":[11221,11244],"revision":1321376085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77197868","to":"Category:Indian mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[11245,11276],"revision":1321376085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77197868","to":"Category:Elementary algebra","predicate":"in-field","method":"category","confidence":"medium","span":[11277,11308],"revision":1321376085,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8620449","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[106,121],"revision":1306749932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8620449","to":"wikipedia://en/38801","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[426,448],"revision":1306749932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8620449","to":"wikipedia://en/276526","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[452,469],"revision":1306749932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8620449","to":"wikipedia://en/245430","predicate":"related","method":"link-in-lead","confidence":"low","span":[489,503],"revision":1306749932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8620449","to":"wikipedia://en/51033271","predicate":"related","method":"link-in-lead","confidence":"low","span":[508,522],"revision":1306749932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8620449","to":"wikipedia://en/918047","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[624,644],"revision":1306749932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8620449","to":"wikipedia://en/5174983","predicate":"specializes","method":"link-in-lead","confidence":"medium","span":[791,818],"revision":1306749932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8620449","to":"Category:Fiber bundles","predicate":"in-field","method":"category","confidence":"medium","span":[2573,2599],"revision":1306749932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8620449","to":"Category:Theorems in algebraic topology","predicate":"kind-of","method":"category","confidence":"medium","span":[2600,2643],"revision":1306749932,"by":"importer/wikipedia/1"}

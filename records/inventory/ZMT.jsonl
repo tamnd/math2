@@ -1,1 +1,8 @@
+{"id":"ZMT1AT25Y3","mentions":["wikipedia://en/13494319"],"kind":"definition","name":"Pragmatic mapping","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZMT2SHS91M","mentions":["ax://paper/2610.05320#VJ04"],"kind":"statement","msc":["26-XX","35-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.10"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}],"proofs":["ax://paper/2610.05320#KG8C"]}
+{"id":"ZMTBPCCQDB","mentions":["wikipedia://en/83506636"],"kind":"topic","name":"Farrukh Mukhamedov","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ZMTEF60YK1","mentions":["wikipedia://en/294349#LVPU"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ZMTGZQ0BDD","mentions":["wikipedia://en/5361510"],"kind":"statement","name":"Leibniz formula for determinants","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ZMTMW9XZK1","mentions":["wikipedia://en/41129889#IOOA"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ZMTS69TYB1","mentions":["wikipedia://en/5484556"],"kind":"topic","name":"Jin Yuelin","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ZMTYG2DYW6","mentions":["wikipedia://en/286880#HOWN"],"kind":"unknown","name":"NUS Faculty of Dentistry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

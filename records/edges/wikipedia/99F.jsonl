@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/19291343","to":"wikipedia://en/30863587","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[73,95],"revision":1371070547,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19291343","to":"wikipedia://en/252075","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[575,600],"revision":1371070547,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19291343","to":"wikipedia://en/14989249","predicate":"related","method":"see-also","confidence":"low","span":[3472,3497],"revision":1371070547,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19291343","to":"Category:Inequalities (mathematics)","predicate":"kind-of","method":"category","confidence":"medium","span":[4179,4218],"revision":1371070547,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19291343","to":"Category:Special functions","predicate":"in-field","method":"category","confidence":"medium","span":[4219,4249],"revision":1371070547,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19291343","to":"Category:Orthogonal polynomials","predicate":"in-field","method":"category","confidence":"medium","span":[4250,4285],"revision":1371070547,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4276418#3V7P","to":"wikipedia://en/26691","predicate":"uses","method":"link-in-item","confidence":"high","span":[961,986],"revision":1325028629,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4276418#3V7P","to":"wikipedia://en/21653550","predicate":"uses","method":"link-in-item","confidence":"high","span":[1070,1101],"revision":1325028629,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4276418#3V7P","to":"wikipedia://en/252216","predicate":"uses","method":"link-in-item","confidence":"high","span":[1116,1151],"revision":1325028629,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/4276418#3V7P","to":"wikipedia://en/15462","predicate":"uses","method":"link-in-item","confidence":"high","span":[1287,1313],"revision":1325028629,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565351#NPZ1","to":"wikipedia://en/12667137","predicate":"listed-in","method":"list","confidence":"certain","span":[10424,10469],"revision":1373350261,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565351#NPZ1","to":"wikipedia://en/1139588","predicate":"uses","method":"link-in-item","confidence":"medium","span":[10471,10489],"revision":1373350261,"by":"importer/wikipedia/1"}

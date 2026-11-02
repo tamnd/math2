@@ -1,0 +1,24 @@
+{"from":"wikipedia://en/1803375#BPST","to":"wikipedia://en/185427","predicate":"uses","method":"link-in-item","confidence":"high","span":[1552,1582],"revision":1365316002,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23649689","to":"wikipedia://en/462030","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[489,500],"revision":1372871392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23649689","to":"wikipedia://en/4492","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[618,629],"revision":1372871392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23649689","to":"wikipedia://en/73664","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[975,989],"revision":1372871392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23649689","to":"wikipedia://en/82424","predicate":"related","method":"link-in-text","confidence":"low","span":[2049,2059],"revision":1372871392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23649689","to":"wikipedia://en/13574","predicate":"related","method":"link-in-text","confidence":"low","span":[2506,2519],"revision":1372871392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23649689","to":"wikipedia://en/42056","predicate":"related","method":"link-in-text","confidence":"low","span":[2580,2590],"revision":1372871392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23649689","to":"wikipedia://en/46883","predicate":"related","method":"link-in-text","confidence":"low","span":[2630,2645],"revision":1372871392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23649689","to":"Category:Astronomical instruments","predicate":"in-field","method":"category","confidence":"medium","span":[4610,4647],"revision":1372871392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23649689","to":"Category:History of astronomy","predicate":"in-field","method":"category","confidence":"medium","span":[4648,4681],"revision":1372871392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23649689","to":"Category:Mathematical tools","predicate":"in-field","method":"category","confidence":"medium","span":[4682,4713],"revision":1372871392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23649689","to":"Category:Theory of computation","predicate":"in-field","method":"category","confidence":"medium","span":[4714,4748],"revision":1372871392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23649689","to":"Category:Analog computers","predicate":"in-field","method":"category","confidence":"medium","span":[4749,4778],"revision":1372871392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23649689","to":"Category:9th-century inventions","predicate":"in-field","method":"category","confidence":"medium","span":[4779,4814],"revision":1372871392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23649689","to":"Category:10th-century inventions","predicate":"in-field","method":"category","confidence":"medium","span":[4815,4851],"revision":1372871392,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61475737#X54G","to":"wikipedia://en/7583","predicate":"listed-in","method":"list","confidence":"certain","span":[1120,1150],"revision":1352594530,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77414703#J1LD","to":"wikipedia://en/12288578","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3637,3666],"revision":1365904789,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8522128#RWU8","to":"wikipedia://en/274536","predicate":"uses","method":"link-in-item","confidence":"high","span":[917,1039],"revision":1361684528,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8522128#RWU8","to":"wikipedia://en/2954244","predicate":"uses","method":"link-in-item","confidence":"high","span":[1054,1098],"revision":1361684528,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8522128#RWU8","to":"wikipedia://en/45437","predicate":"uses","method":"link-in-item","confidence":"high","span":[1143,1166],"revision":1361684528,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8522128#RWU8","to":"wikipedia://en/22958","predicate":"uses","method":"link-in-item","confidence":"high","span":[1174,1190],"revision":1361684528,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8522128#RWU8","to":"wikipedia://en/9653","predicate":"uses","method":"link-in-item","confidence":"high","span":[1265,1283],"revision":1361684528,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8522128#RWU8","to":"wikipedia://en/26064288","predicate":"uses","method":"link-in-item","confidence":"high","span":[1335,1359],"revision":1361684528,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8522128#RWU8","to":"wikipedia://en/47895","predicate":"uses","method":"link-in-item","confidence":"high","span":[1542,1576],"revision":1361684528,"by":"importer/wikipedia/1"}

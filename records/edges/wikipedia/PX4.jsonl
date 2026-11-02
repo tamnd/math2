@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/191457#GVMI","to":"wikipedia://en/13793747","predicate":"listed-in","method":"list","confidence":"certain","span":[31978,32011],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25962276","to":"wikipedia://en/1514191","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[81,105],"revision":1265270924,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25962276","to":"wikipedia://en/15271","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[419,444],"revision":1265270924,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25962276","to":"wikipedia://en/37531624","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[470,513],"revision":1265270924,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25962276","to":"wikipedia://en/22837841","predicate":"related","method":"link-in-text","confidence":"low","span":[3735,3767],"revision":1265270924,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25962276","to":"wikipedia://en/3670357","predicate":"related","method":"link-in-text","confidence":"low","span":[3964,3989],"revision":1265270924,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25962276","to":"wikipedia://en/201718","predicate":"uses","method":"named-link","confidence":"high","span":[4070,4099],"revision":1265270924,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25962276","to":"wikipedia://en/60876","predicate":"related","method":"link-in-text","confidence":"low","span":[4128,4145],"revision":1265270924,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25962276","to":"wikipedia://en/10931","predicate":"related","method":"link-in-text","confidence":"low","span":[4174,4199],"revision":1265270924,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25962276","to":"wikipedia://en/49180","predicate":"related","method":"see-also","confidence":"low","span":[4219,4234],"revision":1265270924,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25962276","to":"wikipedia://en/5017608","predicate":"related","method":"see-also","confidence":"low","span":[4237,4260],"revision":1265270924,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25962276","to":"wikipedia://en/45465190","predicate":"related","method":"see-also","confidence":"low","span":[4263,4286],"revision":1265270924,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25962276","to":"wikipedia://en/3255074","predicate":"related","method":"see-also","confidence":"low","span":[4289,4314],"revision":1265270924,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25962276","to":"Category:Fuzzy logic","predicate":"in-field","method":"category","confidence":"medium","span":[4344,4368],"revision":1265270924,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25962276","to":"Category:Information retrieval techniques","predicate":"in-field","method":"category","confidence":"medium","span":[4369,4414],"revision":1265270924,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25962276","to":"Category:Inference","predicate":"in-field","method":"category","confidence":"medium","span":[4415,4437],"revision":1265270924,"by":"importer/wikipedia/1"}

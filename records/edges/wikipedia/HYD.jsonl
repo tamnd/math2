@@ -1,0 +1,19 @@
+{"from":"wikipedia://en/104790#447U","to":"wikipedia://en/17902","predicate":"related","method":"link-in-item","confidence":"low","span":[15150,15168],"revision":1371425587,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/104790#447U","to":"wikipedia://en/4658450","predicate":"uses","method":"link-in-item","confidence":"medium","span":[15403,15425],"revision":1371425587,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/104790#447U","to":"wikipedia://en/160993","predicate":"uses","method":"link-in-item","confidence":"high","span":[15770,15793],"revision":1371425587,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/104790#447U","to":"wikipedia://en/340294","predicate":"uses","method":"link-in-item","confidence":"medium","span":[16010,16039],"revision":1371425587,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2604269","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[34,49],"revision":1347482018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2604269","to":"wikipedia://en/371227","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[92,105],"revision":1347482018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2604269","to":"wikipedia://en/39792","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[113,125],"revision":1347482018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2604269","to":"wikipedia://en/20126484","predicate":"related","method":"link-in-lead","confidence":"low","span":[166,182],"revision":1347482018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2604269","to":"wikipedia://en/1251473","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[243,257],"revision":1347482018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2604269","to":"wikipedia://en/74800","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[269,278],"revision":1347482018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2604269","to":"wikipedia://en/7950934","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[284,302],"revision":1347482018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2604269","to":"wikipedia://en/525149","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[359,374],"revision":1347482018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2604269","to":"wikipedia://en/26463161","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[434,468],"revision":1347482018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2604269","to":"Category:Foliations","predicate":"in-field","method":"category","confidence":"medium","span":[1736,1759],"revision":1347482018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39400139","to":"wikipedia://en/1116842","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[138,160],"revision":1285173572,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39400139","to":"wikipedia://en/3349174","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[168,184],"revision":1285173572,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39400139","to":"Category:Discrepancy theory","predicate":"in-field","method":"category","confidence":"medium","span":[3189,3220],"revision":1285173572,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39400139","to":"Category:Theorems in combinatorics","predicate":"kind-of","method":"category","confidence":"medium","span":[3221,3259],"revision":1285173572,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/601070#P89E","to":"wikipedia://en/581124","predicate":"listed-in","method":"list","confidence":"certain","span":[6605,6633],"revision":1345293464,"by":"importer/wikipedia/1"}

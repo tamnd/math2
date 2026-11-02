@@ -1,0 +1,10 @@
+{"from":"wikipedia://en/44417523","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[56,71],"revision":1325954132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44417523","to":"wikipedia://en/3352878","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[115,138],"revision":1325954132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44417523","to":"wikipedia://en/50905","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[525,541],"revision":1325954132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44417523","to":"wikipedia://en/314780","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[841,857],"revision":1325954132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44417523","to":"wikipedia://en/22522","predicate":"related","method":"link-in-text","confidence":"low","span":[5899,5925],"revision":1325954132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44417523","to":"wikipedia://en/330320","predicate":"related","method":"link-in-text","confidence":"low","span":[5998,6019],"revision":1325954132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44417523","to":"Category:Orthogonal wavelets","predicate":"in-field","method":"category","confidence":"medium","span":[6315,6347],"revision":1325954132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44417523","to":"Category:Continuous wavelets","predicate":"in-field","method":"category","confidence":"medium","span":[6348,6380],"revision":1325954132,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#49UT","to":"wikipedia://en/350164#TPQN","predicate":"listed-in","method":"list","confidence":"certain","span":[11992,12053],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#49UT","to":"wikipedia://en/21527","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[12057,12074],"revision":1373797939,"by":"importer/wikipedia/1"}

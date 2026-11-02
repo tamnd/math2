@@ -1,1 +1,7 @@
+{"id":"PGD170SS46","mentions":["wikipedia://en/51140705#BM9O"],"kind":"topic","name":"Erling Sverdrup","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"PGD1W623JX","mentions":["wikipedia://en/35349383#041G"],"kind":"definition","name":"Cayley transform","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PGDDC345BY","mentions":["ax://paper/2610.07530#MZHP"],"kind":"statement","msc":["53-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.10"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}],"proofs":["ax://paper/2610.07530#0P19"]}
+{"id":"PGDE9A4NE6","mentions":["wikipedia://en/75993105#VFE7"],"kind":"definition","name":"Algorithm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"PGDGQKYAN5","mentions":["wikipedia://en/24105681"],"kind":"statement","name":"Carleson's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"PGDSDZ6Z28","mentions":["wikipedia://en/25334192#JSNY"],"kind":"definition","name":"index","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"PGDYWFJ4S7","mentions":["wikipedia://en/447689#4M1E"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

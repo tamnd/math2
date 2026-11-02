@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/18193964","to":"wikipedia://en/22939","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[33,44],"revision":1223585641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18193964","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[49,64],"revision":1223585641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18193964","to":"wikipedia://en/48740","predicate":"related","method":"link-in-lead","confidence":"low","span":[110,129],"revision":1223585641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18193964","to":"wikipedia://en/230487","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[155,176],"revision":1223585641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18193964","to":"wikipedia://en/325714","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[184,200],"revision":1223585641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18193964","to":"wikipedia://en/7094111","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[209,227],"revision":1223585641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18193964","to":"wikipedia://en/310889","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1205,1219],"revision":1223585641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18193964","to":"wikipedia://en/325714","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1545,1571],"revision":1223585641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18193964","to":"wikipedia://en/325714","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1580,1604],"revision":1223585641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18193964","to":"wikipedia://en/19618101","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2019,2041],"revision":1223585641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18193964","to":"Category:Hopf algebras","predicate":"in-field","method":"category","confidence":"medium","span":[2131,2157],"revision":1223585641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18193964","to":"Category:Mathematical physics","predicate":"in-field","method":"category","confidence":"medium","span":[2158,2191],"revision":1223585641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/205069#7UM9","to":"wikipedia://en/32648473","predicate":"listed-in","method":"list","confidence":"certain","span":[3395,3415],"revision":1361796518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40183538#4UTD","to":"wikipedia://en/27038423","predicate":"listed-in","method":"list","confidence":"certain","span":[735,754],"revision":1349989228,"by":"importer/wikipedia/1"}

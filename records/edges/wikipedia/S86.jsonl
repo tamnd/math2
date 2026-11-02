@@ -1,0 +1,24 @@
+{"from":"wikipedia://en/217523#O9X2","to":"wikipedia://en/44578","predicate":"uses","method":"link-in-item","confidence":"high","span":[7619,7637],"revision":1375567696,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/217523#O9X2","to":"wikipedia://en/320861","predicate":"uses","method":"link-in-item","confidence":"high","span":[8032,8053],"revision":1375567696,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/217523#O9X2","to":"wikipedia://en/19985542","predicate":"uses","method":"link-in-item","confidence":"high","span":[9187,9215],"revision":1375567696,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/217523#O9X2","to":"wikipedia://en/366723","predicate":"uses","method":"link-in-item","confidence":"high","span":[9538,9574],"revision":1375567696,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23280456","to":"wikipedia://en/29954","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[225,237],"revision":1336400853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23280456","to":"wikipedia://en/30450","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[293,314],"revision":1336400853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23280456","to":"wikipedia://en/340240","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[315,349],"revision":1336400853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23280456","to":"wikipedia://en/2073470","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[476,488],"revision":1336400853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23280456","to":"wikipedia://en/664497","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[605,637],"revision":1336400853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23280456","to":"wikipedia://en/340240","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[672,704],"revision":1336400853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23280456","to":"wikipedia://en/371227","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[833,846],"revision":1336400853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23280456","to":"wikipedia://en/1277396","predicate":"related","method":"see-also","confidence":"low","span":[3017,3046],"revision":1336400853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23280456","to":"wikipedia://en/7578186","predicate":"related","method":"see-also","confidence":"low","span":[3049,3067],"revision":1336400853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23280456","to":"Category:Topology","predicate":"in-field","method":"category","confidence":"medium","span":[3290,3311],"revision":1336400853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23280456","to":"Category:Manifolds","predicate":"in-field","method":"category","confidence":"medium","span":[3312,3334],"revision":1336400853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49808684","to":"wikipedia://en/385155","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[290,310],"revision":1236064317,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49808684","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[311,328],"revision":1236064317,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49808684","to":"wikipedia://en/18973446","predicate":"related","method":"link-in-text","confidence":"low","span":[551,563],"revision":1236064317,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49808684","to":"wikipedia://en/453828","predicate":"related","method":"link-in-text","confidence":"low","span":[584,607],"revision":1236064317,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49808684","to":"wikipedia://en/87793","predicate":"related","method":"link-in-text","confidence":"low","span":[892,917],"revision":1236064317,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49808684","to":"Category:18th-century Italian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2192,2240],"revision":1236064317,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49808684","to":"Category:Academic staff of the University of Turin","predicate":"in-field","method":"category","confidence":"medium","span":[2241,2295],"revision":1236064317,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49808684","to":"Category:Scientists from the Kingdom of Sardinia","predicate":"in-field","method":"category","confidence":"medium","span":[2296,2348],"revision":1236064317,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61475737#KRXJ","to":"wikipedia://en/53788372","predicate":"listed-in","method":"list","confidence":"certain","span":[5750,5785],"revision":1352594530,"by":"importer/wikipedia/1"}

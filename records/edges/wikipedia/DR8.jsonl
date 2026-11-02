@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/140829#KPLF","to":"wikipedia://en/73567370","predicate":"listed-in","method":"list","confidence":"certain","span":[17708,17740],"revision":1372044875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2067823#KCL0","to":"wikipedia://en/4539673","predicate":"listed-in","method":"list","confidence":"certain","span":[34547,34564],"revision":1361260199,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23404066","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1074337791,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23404066","to":"wikipedia://en/6617","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[72,117],"revision":1074337791,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23404066","to":"wikipedia://en/160556","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[120,140],"revision":1074337791,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23404066","to":"wikipedia://en/470625","predicate":"related","method":"link-in-text","confidence":"low","span":[308,336],"revision":1074337791,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23404066","to":"wikipedia://en/50627","predicate":"related","method":"link-in-text","confidence":"low","span":[374,392],"revision":1074337791,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23404066","to":"wikipedia://en/217628","predicate":"related","method":"link-in-text","confidence":"low","span":[400,417],"revision":1074337791,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23404066","to":"Category:Compactification (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[2766,2809],"revision":1074337791,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/324872#42KU","to":"wikipedia://en/331015","predicate":"uses","method":"link-in-item","confidence":"medium","span":[24976,24991],"revision":1356463250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/324872#42KU","to":"wikipedia://en/56120","predicate":"uses","method":"link-in-item","confidence":"medium","span":[25111,25123],"revision":1356463250,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/473486#DW53","to":"wikipedia://en/171878","predicate":"listed-in","method":"list","confidence":"certain","span":[877,898],"revision":1333240814,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/508022#C79R","to":"wikipedia://en/10606","predicate":"listed-in","method":"list","confidence":"certain","span":[890,903],"revision":1356078092,"by":"importer/wikipedia/1"}

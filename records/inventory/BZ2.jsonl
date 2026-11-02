@@ -1,2 +1,6 @@
+{"id":"BZ206312P7","mentions":["wikipedia://en/43839113#V93L"],"kind":"definition","name":"predicative","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BZ261HA7TY","mentions":["ax://paper/2609.35209#F4P0"],"kind":"statement","msc":["37-XX","53-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
+{"id":"BZ2JYRRW67","mentions":["wikipedia://en/3828409#ZNRR"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"BZ2KS47G7H","mentions":["wikipedia://en/140829#FUM9"],"kind":"unknown","name":"Kuczynski, Robert René","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BZ2NXAW836","mentions":["m2://rec/lebl_ra/ch-der.tex#exercise-23#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"BZ2PG5WK1X","mentions":["wikipedia://en/6299003#P7JY"],"kind":"statement","name":"Statement of the theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

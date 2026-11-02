@@ -1,2 +1,6 @@
 {"id":"7F6A22EBD6","mentions":["m2://rec/napkin/tex/alg-geom/mor-scheme.tex#problem-2#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"7F6NN1RAGT","mentions":["m2://rec/ernst_ibl/MAAPressVersion/CartesianProducts.tex#problem-13#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"7F6PY6DC6C","mentions":["wikipedia://en/39383078"],"kind":"definition","name":"Interval propagation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7F6RPFWHKJ","mentions":["wikipedia://en/6695781#DELT"],"kind":"statement","name":"Frobenius theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7F6W3JFNAW","mentions":["wikipedia://en/241820#N7KE","wikipedia://en/517370#18N2"],"kind":"definition","name":"Prismatic compound of antiprisms with rotational freedom","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7F6WNH5ZWX","mentions":["wikipedia://en/4598657"],"kind":"topic","name":"Ivan Petrovsky","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,0 +1,33 @@
+{"from":"wikipedia://en/10176765#ZOIM","to":"wikipedia://en/17867","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4783,4793],"revision":1363994200,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10176765#ZOIM","to":"wikipedia://en/850048","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4843,4869],"revision":1363994200,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10176765#ZOIM","to":"wikipedia://en/9656","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4883,4902],"revision":1363994200,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10176765#ZOIM","to":"wikipedia://en/9239","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4935,4947],"revision":1363994200,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10176765#ZOIM","to":"wikipedia://en/844","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4962,4975],"revision":1363994200,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10251864#PSGL","to":"wikipedia://en/51731","predicate":"uses","method":"link-in-item","confidence":"high","span":[46421,46483],"revision":1374016357,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10251864#PSGL","to":"wikipedia://en/26394220","predicate":"uses","method":"link-in-item","confidence":"medium","span":[48000,48026],"revision":1374016357,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10251864#PSGL","to":"wikipedia://en/734434","predicate":"uses","method":"link-in-item","confidence":"high","span":[48058,48108],"revision":1374016357,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10251864#PSGL","to":"wikipedia://en/29928965","predicate":"uses","method":"link-in-item","confidence":"medium","span":[48401,48513],"revision":1374016357,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10251864#PSGL","to":"wikipedia://en/19589","predicate":"uses","method":"link-in-item","confidence":"high","span":[48830,48841],"revision":1374016357,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51140705#BNXD","to":"wikipedia://en/59707927","predicate":"listed-in","method":"list","confidence":"certain","span":[34336,34356],"revision":1369875693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72389171","to":"wikipedia://en/145426","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[339,383],"revision":1363479758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72389171","to":"wikipedia://en/47895","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[429,453],"revision":1363479758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72389171","to":"wikipedia://en/60876","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[464,481],"revision":1363479758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72389171","to":"wikipedia://en/41597450","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[486,513],"revision":1363479758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72389171","to":"wikipedia://en/10934212","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[541,558],"revision":1363479758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72389171","to":"wikipedia://en/66599","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[560,579],"revision":1363479758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72389171","to":"wikipedia://en/5075621","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[603,616],"revision":1363479758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72389171","to":"wikipedia://en/32473","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[643,658],"revision":1363479758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72389171","to":"wikipedia://en/2938232","predicate":"related","method":"link-in-text","confidence":"low","span":[719,750],"revision":1363479758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72389171","to":"wikipedia://en/2377528","predicate":"related","method":"link-in-text","confidence":"low","span":[818,845],"revision":1363479758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72389171","to":"wikipedia://en/422461","predicate":"related","method":"link-in-text","confidence":"low","span":[911,947],"revision":1363479758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72389171","to":"wikipedia://en/422461","predicate":"related","method":"link-in-text","confidence":"low","span":[953,988],"revision":1363479758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72389171","to":"wikipedia://en/3709875","predicate":"related","method":"link-in-text","confidence":"low","span":[1315,1346],"revision":1363479758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72389171","to":"wikipedia://en/11133686","predicate":"related","method":"link-in-text","confidence":"low","span":[1386,1425],"revision":1363479758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72389171","to":"Category:Brazilian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2887,2924],"revision":1363479758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72389171","to":"Category:Brazilian women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2925,2968],"revision":1363479758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72389171","to":"Category:Brazilian statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[2969,3005],"revision":1363479758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72389171","to":"Category:Mexican mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3006,3041],"revision":1363479758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72389171","to":"Category:Mexican women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3042,3083],"revision":1363479758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72389171","to":"Category:Mexican statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[3084,3118],"revision":1363479758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72389171","to":"Category:Applied mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3119,3154],"revision":1363479758,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72389171","to":"Category:Women statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[3155,3187],"revision":1363479758,"by":"importer/wikipedia/1"}

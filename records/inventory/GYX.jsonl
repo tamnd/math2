@@ -1,1 +1,7 @@
+{"id":"GYX6HE9HGB","mentions":["wikipedia://en/2025291#ZWJW"],"kind":"statement","name":"Symmetries","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"GYX830HR9B","mentions":["wikipedia://en/22843516"],"kind":"definition","name":"Schützenberger group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GYX9M6R3EY","mentions":["ax://paper/2609.25897#38G9"],"kind":"statement","msc":["35-XX","60-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}
+{"id":"GYXKR61G9R","mentions":["wikipedia://en/41685609#JENX"],"kind":"topic","name":"Eratosthenes","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"GYXPZJ4G31","mentions":["wikipedia://en/39171284"],"kind":"definition","name":"Dirac equation in curved spacetime","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"GYXSGXNMYK","mentions":["wikipedia://en/14429995#QHQ5"],"kind":"statement","name":"Variations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"GYXVKDGQZ0","mentions":["wikipedia://en/47738065#UBIN"],"kind":"unknown","name":"Yehuda Shalom","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

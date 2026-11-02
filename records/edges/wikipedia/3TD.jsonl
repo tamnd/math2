@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/14403539#FBRT","to":"wikipedia://en/31886673","predicate":"listed-in","method":"list","confidence":"certain","span":[56439,56458],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3988777","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[87,102],"revision":1324888333,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3988777","to":"wikipedia://en/55762","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[152,174],"revision":1324888333,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3988777","to":"wikipedia://en/144652","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[180,203],"revision":1324888333,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3988777","to":"wikipedia://en/276582","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[233,252],"revision":1324888333,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3988777","to":"wikipedia://en/3434750","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[286,312],"revision":1324888333,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3988777","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[313,330],"revision":1324888333,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3988777","to":"wikipedia://en/987847","predicate":"related","method":"link-in-lead","confidence":"low","span":[331,350],"revision":1324888333,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3988777","to":"wikipedia://en/13229499","predicate":"related","method":"link-in-text","confidence":"low","span":[2188,2208],"revision":1324888333,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3988777","to":"wikipedia://en/5468083","predicate":"related","method":"link-in-text","confidence":"low","span":[2210,2235],"revision":1324888333,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3988777","to":"Category:Differential geometry","predicate":"in-field","method":"category","confidence":"medium","span":[2265,2299],"revision":1324888333,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64268157","to":"wikipedia://en/11180","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,26],"revision":1119689887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64268157","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[48,63],"revision":1119689887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64268157","to":"wikipedia://en/45752","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[100,129],"revision":1119689887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64268157","to":"wikipedia://en/1529485","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[169,211],"revision":1119689887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64268157","to":"wikipedia://en/1503224","predicate":"related","method":"link-in-text","confidence":"low","span":[1332,1351],"revision":1119689887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64268157","to":"wikipedia://en/1734238","predicate":"related","method":"link-in-text","confidence":"low","span":[1411,1436],"revision":1119689887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64268157","to":"wikipedia://en/6292","predicate":"related","method":"link-in-text","confidence":"low","span":[1529,1550],"revision":1119689887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64268157","to":"wikipedia://en/1733592","predicate":"related","method":"link-in-text","confidence":"low","span":[1683,1703],"revision":1119689887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64268157","to":"Template:Functional analysis","predicate":"in-nav","method":"nav","confidence":"low","span":[3362,3385],"revision":1119689887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64268157","to":"Category:Topological vector spaces","predicate":"in-field","method":"category","confidence":"medium","span":[3447,3485],"revision":1119689887,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64691694#NDLX","to":"wikipedia://en/30448","predicate":"uses","method":"link-in-item","confidence":"high","span":[5344,5364],"revision":1365855222,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64691694#NDLX","to":"wikipedia://en/80523191","predicate":"uses","method":"link-in-item","confidence":"high","span":[5775,5800],"revision":1365855222,"by":"importer/wikipedia/1"}

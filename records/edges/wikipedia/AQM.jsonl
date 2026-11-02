@@ -1,0 +1,24 @@
+{"from":"wikipedia://en/13949634","to":"wikipedia://en/48404","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[51,78],"revision":951160263,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13949634","to":"wikipedia://en/47432466","predicate":"related","method":"link-in-lead","confidence":"low","span":[93,110],"revision":951160263,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13949634","to":"wikipedia://en/480335","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[191,211],"revision":951160263,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13949634","to":"wikipedia://en/61346","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[308,328],"revision":951160263,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13949634","to":"wikipedia://en/26411","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[858,880],"revision":951160263,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13949634","to":"wikipedia://en/373065","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1175,1194],"revision":951160263,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13949634","to":"wikipedia://en/1033666","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1426,1447],"revision":951160263,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13949634","to":"wikipedia://en/103094","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1477,1492],"revision":951160263,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13949634","to":"Category:Algebraic topology","predicate":"in-field","method":"category","confidence":"medium","span":[2850,2881],"revision":951160263,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13949634","to":"Category:Algebraic groups","predicate":"in-field","method":"category","confidence":"medium","span":[2882,2911],"revision":951160263,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13949634","to":"Category:Algebraic number theory","predicate":"in-field","method":"category","confidence":"medium","span":[2912,2948],"revision":951160263,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2114155#A8FW","to":"wikipedia://en/1851","predicate":"uses","method":"link-in-item","confidence":"high","span":[15345,15359],"revision":1355519033,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2114155#A8FW","to":"wikipedia://en/283007","predicate":"uses","method":"link-in-item","confidence":"high","span":[15374,15401],"revision":1355519033,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2114155#A8FW","to":"wikipedia://en/24979","predicate":"uses","method":"link-in-item","confidence":"high","span":[15450,15465],"revision":1355519033,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2114155#A8FW","to":"wikipedia://en/4349117","predicate":"uses","method":"link-in-item","confidence":"high","span":[15492,15530],"revision":1355519033,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2114155#A8FW","to":"wikipedia://en/31112","predicate":"uses","method":"link-in-item","confidence":"high","span":[15676,15689],"revision":1355519033,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2114155#A8FW","to":"wikipedia://en/716422","predicate":"uses","method":"link-in-item","confidence":"high","span":[15731,15742],"revision":1355519033,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2114155#A8FW","to":"wikipedia://en/31112","predicate":"uses","method":"link-in-item","confidence":"high","span":[16150,16163],"revision":1355519033,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2114155#A8FW","to":"wikipedia://en/716422","predicate":"uses","method":"link-in-item","confidence":"high","span":[16263,16274],"revision":1355519033,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2114155#A8FW","to":"wikipedia://en/2860091","predicate":"uses","method":"link-in-item","confidence":"high","span":[16486,16511],"revision":1355519033,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2114155#A8FW","to":"wikipedia://en/4157338","predicate":"uses","method":"link-in-item","confidence":"high","span":[16516,16551],"revision":1355519033,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2114155#A8FW","to":"wikipedia://en/42287126","predicate":"uses","method":"link-in-item","confidence":"high","span":[16585,16607],"revision":1355519033,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/517370#U17S","to":"wikipedia://en/1177955","predicate":"listed-in","method":"list","confidence":"certain","span":[9887,9918],"revision":1353185276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/604268#7HYH","to":"wikipedia://en/597998","predicate":"restates","method":"hatnote","confidence":"high","span":[3051,3070],"revision":1372107225,"by":"importer/wikipedia/1"}

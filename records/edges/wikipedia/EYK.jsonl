@@ -1,0 +1,10 @@
+{"from":"wikipedia://en/11720017#4EP4","to":"wikipedia://en/48938996","predicate":"uses","method":"link-in-item","confidence":"high","span":[2282,2317],"revision":1347941107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11720017#4EP4","to":"wikipedia://en/60167","predicate":"uses","method":"link-in-item","confidence":"high","span":[2443,2451],"revision":1347941107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11720017#4EP4","to":"wikipedia://en/32344","predicate":"uses","method":"link-in-item","confidence":"high","span":[2465,2477],"revision":1347941107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1951153","to":"wikipedia://en/21527","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[120,137],"revision":1366340726,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1951153","to":"wikipedia://en/8302","predicate":"related","method":"link-in-lead","confidence":"low","span":[192,209],"revision":1366340726,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1951153","to":"wikipedia://en/188725","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[251,278],"revision":1366340726,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1951153","to":"wikipedia://en/19727024","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[322,341],"revision":1366340726,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1951153","to":"Category:Theorems in number theory","predicate":"kind-of","method":"category","confidence":"medium","span":[4587,4625],"revision":1366340726,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1951153","to":"Category:Theorems about polynomials","predicate":"kind-of","method":"category","confidence":"medium","span":[4626,4665],"revision":1366340726,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1951153","to":"Category:David Hilbert","predicate":"in-field","method":"category","confidence":"medium","span":[4666,4692],"revision":1366340726,"by":"importer/wikipedia/1"}

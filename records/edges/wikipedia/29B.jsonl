@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/177652#PO19","to":"wikipedia://en/1557627","predicate":"listed-in","method":"list","confidence":"certain","span":[2574,2599],"revision":1323550661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/294437#LRTJ","to":"wikipedia://en/81931","predicate":"uses","method":"link-in-item","confidence":"high","span":[22587,22601],"revision":1371687393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/294437#LRTJ","to":"wikipedia://en/161879","predicate":"uses","method":"link-in-item","confidence":"high","span":[22619,22635],"revision":1371687393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/294437#LRTJ","to":"wikipedia://en/314692","predicate":"uses","method":"link-in-item","confidence":"high","span":[24021,24048],"revision":1371687393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/294437#LRTJ","to":"wikipedia://en/221519","predicate":"uses","method":"link-in-item","confidence":"high","span":[24058,24079],"revision":1371687393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/294437#LRTJ","to":"wikipedia://en/249176","predicate":"uses","method":"link-in-item","confidence":"high","span":[24890,24916],"revision":1371687393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/294437#LRTJ","to":"wikipedia://en/431848","predicate":"uses","method":"link-in-item","confidence":"high","span":[24922,24946],"revision":1371687393,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32848697","to":"wikipedia://en/32811718","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[250,276],"revision":1357057715,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32848697","to":"wikipedia://en/32649081","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[290,306],"revision":1357057715,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32848697","to":"Category:Orthogonal polynomials","predicate":"in-field","method":"category","confidence":"medium","span":[3268,3303],"revision":1357057715,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32848697","to":"Category:Q-analogs","predicate":"in-field","method":"category","confidence":"medium","span":[3304,3326],"revision":1357057715,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32848697","to":"Category:Special hypergeometric functions","predicate":"in-field","method":"category","confidence":"medium","span":[3327,3372],"revision":1357057715,"by":"importer/wikipedia/1"}

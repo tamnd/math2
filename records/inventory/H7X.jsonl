@@ -1,3 +1,8 @@
+{"id":"H7X0WS4BQ7","mentions":["wikipedia://en/48781047#EBV7"],"kind":"definition","name":"excisive pair/triad","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"H7X3T8MKV8","mentions":["m2://rec/wikidata/Q117190901#1"],"kind":"unknown","name":"four-dimensional Chern–Simons theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"H7X6JPHZMF","mentions":["m2://rec/wikidata/Q599093#1"],"kind":"unknown","name":"Perrin number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"H7X6JPHZMF","mentions":["m2://rec/wikidata/Q599093#1","wikipedia://en/30863738"],"kind":"definition","name":"Perrin number","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"H7X81ASYZQ","mentions":["wikipedia://en/30367#AC8G"],"kind":"unknown","name":"Adjacent side (right triangle)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"H7XA3HS4VC","mentions":["wikipedia://en/191457#QGU9"],"kind":"definition","name":"System identification","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"H7XQM899KH","mentions":["m2://rec/levin_dmoi/ptx/exercises/intro-functions.ptx#exercise-10#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"H7XTC8VZ6Z","mentions":["wikipedia://en/28481#LL8T"],"kind":"unknown","name":"Index of statistical mechanics articles","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"H7XXYTAPA9","mentions":["wikipedia://en/12756005#8MDS"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

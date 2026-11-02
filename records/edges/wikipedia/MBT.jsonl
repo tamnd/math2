@@ -1,0 +1,7 @@
+{"from":"wikipedia://en/23388928","to":"wikipedia://en/8625","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[88,113],"revision":1356992932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23388928","to":"wikipedia://en/705158","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[157,180],"revision":1356992932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23388928","to":"wikipedia://en/526126","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[181,198],"revision":1356992932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23388928","to":"wikipedia://en/19426773","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[374,416],"revision":1356992932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23388928","to":"Category:Algebraic surfaces","predicate":"in-field","method":"category","confidence":"medium","span":[961,992],"revision":1356992932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23388928","to":"Category:Differential geometry","predicate":"in-field","method":"category","confidence":"medium","span":[993,1027],"revision":1356992932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7218498#3CXA","to":"wikipedia://en/62881966","predicate":"listed-in","method":"list","confidence":"certain","span":[199,272],"revision":1376033148,"by":"importer/wikipedia/1"}

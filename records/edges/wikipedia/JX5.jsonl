@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/64549902","to":"wikipedia://en/23542","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[246,268],"revision":1182009495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64549902","to":"wikipedia://en/1125342","predicate":"specializes","method":"link-in-lead","confidence":"medium","span":[397,431],"revision":1182009495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64549902","to":"wikipedia://en/41597450","predicate":"specializes","method":"link-in-lead","confidence":"medium","span":[458,477],"revision":1182009495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64549902","to":"wikipedia://en/21474","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[537,556],"revision":1182009495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64549902","to":"wikipedia://en/2276797","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[637,662],"revision":1182009495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64549902","to":"wikipedia://en/45906","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[725,756],"revision":1182009495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64549902","to":"Template:Stochastic processes","predicate":"in-nav","method":"nav","confidence":"low","span":[7710,7734],"revision":1182009495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64549902","to":"Category:Markov processes","predicate":"in-field","method":"category","confidence":"medium","span":[7736,7765],"revision":1182009495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64549902","to":"Category:Poisson point processes","predicate":"in-field","method":"category","confidence":"medium","span":[7766,7802],"revision":1182009495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/884352#OVK7","to":"wikipedia://en/39358","predicate":"uses","method":"link-in-item","confidence":"high","span":[750,762],"revision":1362578126,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/884352#OVK7","to":"wikipedia://en/263886","predicate":"uses","method":"link-in-item","confidence":"high","span":[832,858],"revision":1362578126,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/884352#OVK7","to":"wikipedia://en/189682","predicate":"uses","method":"link-in-item","confidence":"high","span":[1721,1751],"revision":1362578126,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/884352#OVK7","to":"wikipedia://en/5826","predicate":"uses","method":"link-in-item","confidence":"high","span":[1844,1878],"revision":1362578126,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/884352#OVK7","to":"wikipedia://en/147252","predicate":"uses","method":"link-in-item","confidence":"high","span":[1944,1968],"revision":1362578126,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/884352#OVK7","to":"wikipedia://en/550137","predicate":"uses","method":"link-in-item","confidence":"high","span":[1991,2021],"revision":1362578126,"by":"importer/wikipedia/1"}

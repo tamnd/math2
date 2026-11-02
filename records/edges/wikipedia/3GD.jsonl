@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/48754551","to":"wikipedia://en/4691250","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[171,191],"revision":1342243312,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48754551","to":"wikipedia://en/5488499","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[225,247],"revision":1342243312,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48754551","to":"wikipedia://en/49731","predicate":"related","method":"link-in-lead","confidence":"low","span":[319,336],"revision":1342243312,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48754551","to":"wikipedia://en/91343","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[533,562],"revision":1342243312,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48754551","to":"Category:Set theorists","predicate":"in-field","method":"category","confidence":"medium","span":[1542,1568],"revision":1342243312,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48754551","to":"Category:American computer scientists","predicate":"in-field","method":"category","confidence":"medium","span":[1569,1610],"revision":1342243312,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48754551","to":"Category:Year of birth missing","predicate":"in-field","method":"category","confidence":"medium","span":[1611,1645],"revision":1342243312,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48754551","to":"Category:American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1682,1718],"revision":1342243312,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53455#SHWL","to":"wikipedia://en/3333402","predicate":"uses","method":"link-in-item","confidence":"high","span":[2155,2174],"revision":1331223504,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53455#SHWL","to":"wikipedia://en/14563","predicate":"uses","method":"link-in-item","confidence":"high","span":[2220,2231],"revision":1331223504,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53455#SHWL","to":"wikipedia://en/15575410","predicate":"uses","method":"link-in-item","confidence":"high","span":[2343,2362],"revision":1331223504,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53455#SHWL","to":"wikipedia://en/1313432","predicate":"uses","method":"link-in-item","confidence":"high","span":[2383,2414],"revision":1331223504,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53455#SHWL","to":"wikipedia://en/1209","predicate":"uses","method":"link-in-item","confidence":"high","span":[2424,2432],"revision":1331223504,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53455#SHWL","to":"wikipedia://en/1042164#BV2Q","predicate":"related","method":"link-in-item","confidence":"low","span":[2529,2564],"revision":1331223504,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53455#SHWL","to":"wikipedia://en/39783","predicate":"generalizes","method":"link-in-item","confidence":"medium","span":[2840,2854],"revision":1331223504,"by":"importer/wikipedia/1"}

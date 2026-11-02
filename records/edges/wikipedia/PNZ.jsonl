@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/11353703#O3XX","to":"wikipedia://en/1591416","predicate":"listed-in","method":"list","confidence":"certain","span":[24092,24111],"revision":1373003451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16829511","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[184,199],"revision":1345207068,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16829511","to":"wikipedia://en/245990","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[253,276],"revision":1345207068,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16829511","to":"wikipedia://en/1997","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[281,303],"revision":1345207068,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16829511","to":"wikipedia://en/44887605","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[334,362],"revision":1345207068,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16829511","to":"wikipedia://en/253260","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[415,434],"revision":1345207068,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16829511","to":"wikipedia://en/44887605","predicate":"related","method":"link-in-text","confidence":"low","span":[5227,5255],"revision":1345207068,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16829511","to":"wikipedia://en/37291","predicate":"related","method":"link-in-text","confidence":"low","span":[5277,5294],"revision":1345207068,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16829511","to":"wikipedia://en/276524","predicate":"related","method":"link-in-text","confidence":"low","span":[5554,5572],"revision":1345207068,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16829511","to":"Category:Vector bundles","predicate":"in-field","method":"category","confidence":"medium","span":[8050,8077],"revision":1345207068,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16829511","to":"Category:Module theory","predicate":"in-field","method":"category","confidence":"medium","span":[8078,8104],"revision":1345207068,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16829511","to":"Category:Theorems in algebraic geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[8105,8148],"revision":1345207068,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16829511","to":"Category:Theorems in ring theory","predicate":"kind-of","method":"category","confidence":"medium","span":[8149,8185],"revision":1345207068,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/352950#5WLC","to":"wikipedia://en/338403","predicate":"listed-in","method":"list","confidence":"certain","span":[2582,2606],"revision":1331146041,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44787301#O7O7","to":"wikipedia://en/41887","predicate":"listed-in","method":"list","confidence":"certain","span":[3829,3844],"revision":1373156759,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52559539#3J2C","to":"wikipedia://en/12933953","predicate":"uses","method":"link-in-item","confidence":"high","span":[2522,2540],"revision":1313794388,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52559539#3J2C","to":"wikipedia://en/30862928","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2714,2725],"revision":1313794388,"by":"importer/wikipedia/1"}

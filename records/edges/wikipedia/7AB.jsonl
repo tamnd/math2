@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/27024678","to":"wikipedia://en/1092713","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[754,778],"revision":1371984438,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27024678","to":"wikipedia://en/3090820","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[811,833],"revision":1371984438,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27024678","to":"wikipedia://en/21506","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[861,904],"revision":1371984438,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27024678","to":"wikipedia://en/999701","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[923,946],"revision":1371984438,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27024678","to":"wikipedia://en/27838","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[950,963],"revision":1371984438,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27024678","to":"wikipedia://en/20646438","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[967,983],"revision":1371984438,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27024678","to":"wikipedia://en/69807689","predicate":"related","method":"link-in-text","confidence":"low","span":[15075,15117],"revision":1371984438,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27024678","to":"wikipedia://en/69807689","predicate":"related","method":"link-in-text","confidence":"low","span":[15413,15455],"revision":1371984438,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27024678","to":"Category:20th-century German mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[16560,16607],"revision":1371984438,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5456824#33QH","to":"wikipedia://en/258986#WWY3","predicate":"restates","method":"hatnote","confidence":"high","span":[19424,19455],"revision":1370043959,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5456824#33QH","to":"wikipedia://en/30871906","predicate":"related","method":"link-in-item","confidence":"low","span":[19615,19633],"revision":1370043959,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5456824#33QH","to":"wikipedia://en/258986#5MYM","predicate":"uses","method":"link-in-item","confidence":"medium","span":[20098,20158],"revision":1370043959,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5456824#33QH","to":"wikipedia://en/15942","predicate":"related","method":"link-in-item","confidence":"low","span":[20162,20180],"revision":1370043959,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58540359#JPPH","to":"wikipedia://en/43431900","predicate":"listed-in","method":"list","confidence":"certain","span":[6757,6778],"revision":1360704274,"by":"importer/wikipedia/1"}

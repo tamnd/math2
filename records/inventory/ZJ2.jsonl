@@ -1,2 +1,10 @@
 {"id":"ZJ221NB1GT","mentions":["ax://paper/2609.35287#S6PD"],"kind":"statement","msc":["17-XX","81-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
+{"id":"ZJ27RFART3","mentions":["wikipedia://en/37667343#S2HH"],"kind":"unknown","name":"Quadrilateral mesh","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ZJ2AKH5E57","mentions":["wikipedia://en/39818965#4V3R"],"kind":"example","name":"Uses","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ZJ2B7S24P4","mentions":["wikipedia://en/898784#33W7"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ZJ2CZES72M","mentions":["wikipedia://en/191457#GF1T"],"kind":"definition","name":"Support curve","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ZJ2M3MRPCY","mentions":["wikipedia://en/583651#JHXN"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ZJ2PYPZ6QE","mentions":["wikipedia://en/4165631#CIH4"],"kind":"unknown","name":"Good Will Hunting","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ZJ2TZ3RBVW","mentions":["wikipedia://en/6073963"],"kind":"definition","name":"Transcendental equation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ZJ2X7S4ACX","mentions":["wikipedia://en/21861#L09M"],"kind":"unknown","name":"Dengo","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZJ2XYMAEA7","mentions":["m2://rec/hott_book/index/1.4/diagram#1"],"kind":"concept","name":"diagram","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

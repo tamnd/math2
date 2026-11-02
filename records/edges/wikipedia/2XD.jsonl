@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/105622#EDGY","to":"wikipedia://en/10603","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[1693,1722],"revision":1258925281,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/105622#EDGY","to":"wikipedia://en/1066621","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[1740,1795],"revision":1258925281,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/105622#EDGY","to":"wikipedia://en/3281385","predicate":"uses","method":"link-in-proof","confidence":"high","span":[1845,1902],"revision":1258925281,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/105622#EDGY","to":"wikipedia://en/53453","predicate":"uses","method":"link-in-proof","confidence":"high","span":[2682,2709],"revision":1258925281,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/105622#EDGY","to":"wikipedia://en/227323","predicate":"uses","method":"link-in-proof","confidence":"high","span":[6029,6049],"revision":1258925281,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/105622#EDGY","to":"wikipedia://en/53453","predicate":"uses","method":"link-in-proof","confidence":"high","span":[6120,6147],"revision":1258925281,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22085817","to":"wikipedia://en/8625","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,28],"revision":1375974067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22085817","to":"wikipedia://en/173416","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[33,57],"revision":1375974067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22085817","to":"wikipedia://en/28305","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[70,87],"revision":1375974067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22085817","to":"wikipedia://en/295907","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[131,163],"revision":1375974067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22085817","to":"wikipedia://en/171882","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[164,199],"revision":1375974067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22085817","to":"wikipedia://en/4744575","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[207,279],"revision":1375974067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22085817","to":"wikipedia://en/144652","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[285,308],"revision":1375974067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22085817","to":"wikipedia://en/1238064","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[605,637],"revision":1375974067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22085817","to":"wikipedia://en/2680414","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1019,1042],"revision":1375974067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22085817","to":"wikipedia://en/2703380","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1458,1484],"revision":1375974067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22085817","to":"Category:Conformal geometry","predicate":"in-field","method":"category","confidence":"medium","span":[1646,1677],"revision":1375974067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22085817","to":"Category:Spectral theory","predicate":"in-field","method":"category","confidence":"medium","span":[1678,1706],"revision":1375974067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22085817","to":"Category:String theory","predicate":"in-field","method":"category","confidence":"medium","span":[1707,1733],"revision":1375974067,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#31J7","to":"wikipedia://en/25103155","predicate":"listed-in","method":"list","confidence":"certain","span":[67161,67198],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#31J7","to":"wikipedia://en/15287","predicate":"uses","method":"link-in-item","confidence":"high","span":[67202,67225],"revision":1373797939,"by":"importer/wikipedia/1"}

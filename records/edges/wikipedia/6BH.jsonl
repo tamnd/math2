@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/16779711#81MS","to":"wikipedia://en/18782613","predicate":"uses","method":"link-in-item","confidence":"medium","span":[25061,25118],"revision":1369717167,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16779711#81MS","to":"wikipedia://en/24711103","predicate":"uses","method":"link-in-item","confidence":"medium","span":[25230,25275],"revision":1369717167,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16779711#81MS","to":"wikipedia://en/1613344","predicate":"uses","method":"link-in-item","confidence":"medium","span":[25362,25437],"revision":1369717167,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16779711#81MS","to":"wikipedia://en/23095212","predicate":"uses","method":"link-in-item","confidence":"high","span":[25499,25548],"revision":1369717167,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16779711#81MS","to":"wikipedia://en/4311867","predicate":"uses","method":"link-in-item","confidence":"medium","span":[25708,25717],"revision":1369717167,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16779711#81MS","to":"wikipedia://en/23095212","predicate":"uses","method":"link-in-item","confidence":"high","span":[25737,25794],"revision":1369717167,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16779711#81MS","to":"wikipedia://en/24711103","predicate":"uses","method":"link-in-item","confidence":"medium","span":[26992,27038],"revision":1369717167,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16779711#81MS","to":"wikipedia://en/6821879","predicate":"uses","method":"link-in-item","confidence":"high","span":[28480,28488],"revision":1369717167,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16779711#81MS","to":"wikipedia://en/14617","predicate":"uses","method":"link-in-item","confidence":"medium","span":[28968,28995],"revision":1369717167,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16779711#81MS","to":"wikipedia://en/18782613","predicate":"uses","method":"link-in-item","confidence":"medium","span":[28999,29038],"revision":1369717167,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16779711#81MS","to":"wikipedia://en/50171156","predicate":"uses","method":"link-in-item","confidence":"medium","span":[29173,29187],"revision":1369717167,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16779711#81MS","to":"wikipedia://en/2400","predicate":"uses","method":"link-in-item","confidence":"medium","span":[29231,29261],"revision":1369717167,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16779711#81MS","to":"wikipedia://en/39591608","predicate":"uses","method":"link-in-item","confidence":"medium","span":[29265,29308],"revision":1369717167,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16779711#81MS","to":"wikipedia://en/207567","predicate":"uses","method":"link-in-item","confidence":"medium","span":[29343,29367],"revision":1369717167,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#178H","to":"wikipedia://en/18134289","predicate":"listed-in","method":"list","confidence":"certain","span":[63492,63528],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/343085","to":"wikipedia://en/21527","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[58,75],"revision":1300177480,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/343085","to":"wikipedia://en/23666","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[101,118],"revision":1300177480,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/343085","to":"wikipedia://en/41997","predicate":"related","method":"link-in-lead","confidence":"low","span":[224,239],"revision":1300177480,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/343085","to":"wikipedia://en/343116","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[288,303],"revision":1300177480,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/343085","to":"wikipedia://en/500004","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[429,437],"revision":1300177480,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/343085","to":"Template:Prime number classes","predicate":"in-nav","method":"nav","confidence":"low","span":[4457,4481],"revision":1300177480,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/343085","to":"Category:Classes of prime numbers","predicate":"kind-of","method":"category","confidence":"medium","span":[4483,4520],"revision":1300177480,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/343085","to":"Category:Unsolved problems in number theory","predicate":"kind-of","method":"category","confidence":"medium","span":[4521,4568],"revision":1300177480,"by":"importer/wikipedia/1"}

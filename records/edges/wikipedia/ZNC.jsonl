@@ -1,0 +1,19 @@
+{"from":"wikipedia://en/10195749","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[128,143],"revision":1336148053,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10195749","to":"wikipedia://en/245990","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[161,184],"revision":1336148053,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10195749","to":"wikipedia://en/1440207","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[267,292],"revision":1336148053,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10195749","to":"wikipedia://en/19727024","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[344,372],"revision":1336148053,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10195749","to":"wikipedia://en/51203","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[373,389],"revision":1336148053,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10195749","to":"wikipedia://en/14563","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[552,572],"revision":1336148053,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10195749","to":"wikipedia://en/19378200","predicate":"related","method":"see-also","confidence":"low","span":[5620,5645],"revision":1336148053,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10195749","to":"wikipedia://en/2468892","predicate":"related","method":"see-also","confidence":"low","span":[5647,5670],"revision":1336148053,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10195749","to":"Category:Homogeneous polynomials","predicate":"in-field","method":"category","confidence":"medium","span":[6116,6152],"revision":1336148053,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10195749","to":"Category:Symmetric functions","predicate":"in-field","method":"category","confidence":"medium","span":[6153,6185],"revision":1336148053,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26248766#Z3L1","to":"wikipedia://en/34947741","predicate":"listed-in","method":"list","confidence":"certain","span":[12276,12292],"revision":1349235543,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39394032","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1177,1194],"revision":1372223651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39394032","to":"wikipedia://en/32053","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1259,1284],"revision":1372223651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39394032","to":"wikipedia://en/21527","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1310,1327],"revision":1372223651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39394032","to":"wikipedia://en/19057150#RA03","predicate":"related","method":"see-also","confidence":"low","span":[1546,1632],"revision":1372223651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39394032","to":"Category:Dutch mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1821,1854],"revision":1372223651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39394032","to":"Category:Academic staff of Utrecht University","predicate":"in-field","method":"category","confidence":"medium","span":[1893,1942],"revision":1372223651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#54WG","to":"wikipedia://en/4577628","predicate":"listed-in","method":"list","confidence":"certain","span":[49665,49689],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#54WG","to":"wikipedia://en/9417","predicate":"uses","method":"link-in-item","confidence":"high","span":[49693,49711],"revision":1373797939,"by":"importer/wikipedia/1"}

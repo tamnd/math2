@@ -1,0 +1,19 @@
+{"from":"wikipedia://en/31775773","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[60,75],"revision":1369009031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31775773","to":"wikipedia://en/20647689","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[168,189],"revision":1369009031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31775773","to":"wikipedia://en/30842904","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[222,241],"revision":1369009031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31775773","to":"wikipedia://en/352714","predicate":"related","method":"link-in-text","confidence":"low","span":[2449,2477],"revision":1369009031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31775773","to":"wikipedia://en/14110","predicate":"related","method":"link-in-text","confidence":"low","span":[2481,2527],"revision":1369009031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31775773","to":"wikipedia://en/1118789","predicate":"related","method":"link-in-text","confidence":"low","span":[2580,2610],"revision":1369009031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31775773","to":"wikipedia://en/739199","predicate":"related","method":"link-in-text","confidence":"low","span":[3544,3622],"revision":1369009031,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31775773","to":"wikipedia://en/739199","predicate":"related","method":"link-in-text","confidence":"low","span":[3660,3682],"revision":1369009031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31775773","to":"wikipedia://en/589307","predicate":"related","method":"link-in-text","confidence":"low","span":[4290,4323],"revision":1369009031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31775773","to":"wikipedia://en/501532","predicate":"related","method":"link-in-text","confidence":"low","span":[4726,4745],"revision":1369009031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31775773","to":"wikipedia://en/5968488","predicate":"related","method":"see-also","confidence":"low","span":[4991,5016],"revision":1369009031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31775773","to":"wikipedia://en/62331378","predicate":"related","method":"see-also","confidence":"low","span":[5019,5038],"revision":1369009031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31775773","to":"Category:Dynamical systems","predicate":"in-field","method":"category","confidence":"medium","span":[6435,6465],"revision":1369009031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31775773","to":"Category:Number theory","predicate":"in-field","method":"category","confidence":"medium","span":[6466,6492],"revision":1369009031,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32848672","to":"wikipedia://en/32811718","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[98,124],"revision":1323599520,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32848672","to":"wikipedia://en/32649081","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[138,154],"revision":1323599520,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32848672","to":"Category:Orthogonal polynomials","predicate":"in-field","method":"category","confidence":"medium","span":[1721,1756],"revision":1323599520,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32848672","to":"Category:Q-analogs","predicate":"in-field","method":"category","confidence":"medium","span":[1757,1779],"revision":1323599520,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32848672","to":"Category:Special hypergeometric functions","predicate":"in-field","method":"category","confidence":"medium","span":[1780,1825],"revision":1323599520,"by":"importer/wikipedia/1"}

@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/10240442","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[54,69],"revision":1367449259,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10240442","to":"wikipedia://en/28730822","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[112,128],"revision":1367449259,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10240442","to":"wikipedia://en/537183","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[179,205],"revision":1367449259,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10240442","to":"wikipedia://en/174724","predicate":"related","method":"link-in-lead","confidence":"low","span":[285,309],"revision":1367449259,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10240442","to":"wikipedia://en/1077843","predicate":"related","method":"link-in-lead","confidence":"low","span":[314,342],"revision":1367449259,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10240442","to":"Category:Field theory","predicate":"in-field","method":"category","confidence":"medium","span":[5330,5355],"revision":1367449259,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10240442","to":"Category:Algebraic number theory","predicate":"in-field","method":"category","confidence":"medium","span":[5356,5392],"revision":1367449259,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10240442","to":"Category:Complex numbers","predicate":"in-field","method":"category","confidence":"medium","span":[5393,5421],"revision":1367449259,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2357705#3AP7","to":"wikipedia://en/10606","predicate":"uses","method":"link-in-item","confidence":"high","span":[20214,20228],"revision":1370871397,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2357705#3AP7","to":"wikipedia://en/14563","predicate":"uses","method":"link-in-item","confidence":"high","span":[20287,20298],"revision":1370871397,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2357705#3AP7","to":"wikipedia://en/37525778","predicate":"uses","method":"link-in-item","confidence":"high","span":[20504,20532],"revision":1370871397,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2357705#3AP7","to":"wikipedia://en/4081361","predicate":"uses","method":"link-in-item","confidence":"medium","span":[20595,20618],"revision":1370871397,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2357705#3AP7","to":"wikipedia://en/4081509","predicate":"uses","method":"link-in-item","confidence":"high","span":[20718,20738],"revision":1370871397,"by":"importer/wikipedia/1"}

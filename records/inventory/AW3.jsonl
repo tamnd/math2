@@ -1,2 +1,6 @@
+{"id":"AW331JJCW9","mentions":["wikipedia://en/6002026#JNZ5"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"AW33VWY839","mentions":["wikipedia://en/47874971"],"kind":"topic","name":"Arnold Emch","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"AW3854WYSA","mentions":["wikipedia://en/75994590#F4J3"],"kind":"definition","name":"Algorithm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"AW3CVT7QMZ","mentions":["wikipedia://en/19270266#ZCZT"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"AW3D4S17TY","mentions":["m2://rec/ernst_ibl/MAAPressVersion/Relations.tex#skeleton-2#1"],"kind":"proof","name":"Proof that a relation is symmetric","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"AW3GF2FXD5","mentions":["m2://rec/wikidata/Q8171#1"],"kind":"definition","name":"word","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

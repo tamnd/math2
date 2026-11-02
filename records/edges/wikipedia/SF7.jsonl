@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/5075766","to":"Template:Separation axioms","predicate":"in-nav","method":"nav","confidence":"low","span":[79,100],"revision":1288683791,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075766","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[105,120],"revision":1288683791,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075766","to":"wikipedia://en/29954","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[138,150],"revision":1288683791,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075766","to":"wikipedia://en/30450","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[154,175],"revision":1288683791,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075766","to":"wikipedia://en/1529485","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[235,277],"revision":1288683791,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075766","to":"wikipedia://en/13637","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[288,307],"revision":1288683791,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075766","to":"wikipedia://en/910926","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[318,339],"revision":1288683791,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075766","to":"wikipedia://en/13637","predicate":"related","method":"link-in-text","confidence":"low","span":[666,685],"revision":1288683791,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075766","to":"wikipedia://en/14194283","predicate":"related","method":"link-in-text","confidence":"low","span":[838,863],"revision":1288683791,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075766","to":"wikipedia://en/19738","predicate":"related","method":"link-in-text","confidence":"low","span":[900,947],"revision":1288683791,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075766","to":"wikipedia://en/245466","predicate":"related","method":"link-in-text","confidence":"low","span":[974,989],"revision":1288683791,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075766","to":"wikipedia://en/245466","predicate":"related","method":"link-in-text","confidence":"low","span":[998,1027],"revision":1288683791,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075766","to":"wikipedia://en/2119219","predicate":"related","method":"link-in-text","confidence":"low","span":[1061,1086],"revision":1288683791,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075766","to":"wikipedia://en/5336200","predicate":"related","method":"link-in-text","confidence":"low","span":[1174,1203],"revision":1288683791,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075766","to":"wikipedia://en/390557","predicate":"related","method":"link-in-text","confidence":"low","span":[1335,1353],"revision":1288683791,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075766","to":"Category:Separation axioms","predicate":"in-field","method":"category","confidence":"medium","span":[3303,3333],"revision":1288683791,"by":"importer/wikipedia/1"}

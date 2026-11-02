@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/140829#N7SU","to":"wikipedia://en/28282149","predicate":"listed-in","method":"list","confidence":"certain","span":[14709,14739],"revision":1372044875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6011769#AFK8","to":"wikipedia://en/37739755","predicate":"uses","method":"link-in-item","confidence":"medium","span":[4728,4752],"revision":1369799892,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6011769#AFK8","to":"wikipedia://en/2833933","predicate":"uses","method":"link-in-item","confidence":"high","span":[4986,5006],"revision":1369799892,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6011769#AFK8","to":"wikipedia://en/157057","predicate":"uses","method":"link-in-item","confidence":"high","span":[5556,5594],"revision":1369799892,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6251420#S196","to":"wikipedia://en/58863","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2751,2787],"revision":1358844128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6251420#S196","to":"wikipedia://en/12450","predicate":"uses","method":"named-link","confidence":"high","span":[3023,3077],"revision":1358844128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6251420#S196","to":"wikipedia://en/6174","predicate":"uses","method":"link-in-item","confidence":"high","span":[3452,3467],"revision":1358844128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6251420#S196","to":"wikipedia://en/4066001","predicate":"uses","method":"link-in-item","confidence":"high","span":[3781,3798],"revision":1358844128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7984958","to":"wikipedia://en/22213","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[301,336],"revision":1367347468,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7984958","to":"wikipedia://en/1026522","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[349,371],"revision":1367347468,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7984958","to":"wikipedia://en/5074413","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[383,437],"revision":1367347468,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7984958","to":"wikipedia://en/305924","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[441,473],"revision":1367347468,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7984958","to":"wikipedia://en/7431793","predicate":"related","method":"link-in-lead","confidence":"low","span":[826,870],"revision":1367347468,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7984958","to":"wikipedia://en/10288196","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[902,915],"revision":1367347468,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7984958","to":"wikipedia://en/419663","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[975,994],"revision":1367347468,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7984958","to":"Category:Statistical mechanics","predicate":"in-field","method":"category","confidence":"medium","span":[1635,1669],"revision":1367347468,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7984958","to":"Category:Computational fluid dynamics","predicate":"in-field","method":"category","confidence":"medium","span":[1670,1711],"revision":1367347468,"by":"importer/wikipedia/1"}

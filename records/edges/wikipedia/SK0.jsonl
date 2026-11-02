@@ -1,0 +1,24 @@
+{"from":"wikipedia://en/2017745","to":"wikipedia://en/1337370","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[214,263],"revision":1283452622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2017745","to":"wikipedia://en/70713","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[279,298],"revision":1283452622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2017745","to":"wikipedia://en/650086","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[305,321],"revision":1283452622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2017745","to":"wikipedia://en/586839","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1026,1056],"revision":1283452622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2017745","to":"wikipedia://en/8760462","predicate":"related","method":"see-also","confidence":"low","span":[2909,2935],"revision":1283452622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2017745","to":"Template:Commonscat","predicate":"in-nav","method":"nav","confidence":"low","span":[2984,3015],"revision":1283452622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2017745","to":"Category:Topography","predicate":"in-field","method":"category","confidence":"medium","span":[3166,3189],"revision":1283452622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2017745","to":"Category:Geometric intersection","predicate":"in-field","method":"category","confidence":"medium","span":[3190,3225],"revision":1283452622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24105681#XYQU","to":"wikipedia://en/76848","predicate":"uses","method":"link-in-item","confidence":"high","span":[1707,1728],"revision":1351137730,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24105681#XYQU","to":"wikipedia://en/59038","predicate":"uses","method":"link-in-item","confidence":"high","span":[1789,1813],"revision":1351137730,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24105681#XYQU","to":"wikipedia://en/44688","predicate":"uses","method":"link-in-item","confidence":"high","span":[1942,1958],"revision":1351137730,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24105681#XYQU","to":"wikipedia://en/52247","predicate":"uses","method":"link-in-item","confidence":"high","span":[2176,2197],"revision":1351137730,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/241820#QPM7","to":"wikipedia://en/60766","predicate":"listed-in","method":"list","confidence":"certain","span":[6104,6120],"revision":1375503641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/562999#32U3","to":"wikipedia://en/321962","predicate":"uses","method":"link-in-item","confidence":"medium","span":[8969,8987],"revision":1375275732,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/562999#32U3","to":"wikipedia://en/1372255","predicate":"uses","method":"link-in-item","confidence":"high","span":[9053,9080],"revision":1375275732,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/562999#32U3","to":"wikipedia://en/546969","predicate":"uses","method":"link-in-item","confidence":"high","span":[9252,9270],"revision":1375275732,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/562999#32U3","to":"wikipedia://en/52202","predicate":"uses","method":"link-in-item","confidence":"medium","span":[9306,9322],"revision":1375275732,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/562999#32U3","to":"wikipedia://en/10474","predicate":"uses","method":"link-in-item","confidence":"medium","span":[9327,9371],"revision":1375275732,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/562999#32U3","to":"wikipedia://en/40534077","predicate":"uses","method":"link-in-item","confidence":"high","span":[9419,9433],"revision":1375275732,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/562999#32U3","to":"wikipedia://en/13398615","predicate":"uses","method":"link-in-item","confidence":"high","span":[9600,9615],"revision":1375275732,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/562999#32U3","to":"wikipedia://en/90465","predicate":"uses","method":"link-in-item","confidence":"medium","span":[9847,9870],"revision":1375275732,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/562999#32U3","to":"wikipedia://en/234444","predicate":"uses","method":"link-in-item","confidence":"high","span":[9909,9931],"revision":1375275732,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9277#LVDA","to":"wikipedia://en/173224","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[12109,12151],"revision":1374912483,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9277#LVDA","to":"wikipedia://en/9277","predicate":"uses","method":"anchor","confidence":"certain","span":[13006,13036],"revision":1374912483,"by":"importer/wikipedia/1"}

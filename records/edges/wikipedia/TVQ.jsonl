@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/32781954","to":"wikipedia://en/32783087","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[172,192],"revision":1375890097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32781954","to":"wikipedia://en/32782764","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[197,222],"revision":1375890097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32781954","to":"wikipedia://en/2009061","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[232,279],"revision":1375890097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32781954","to":"wikipedia://en/203956","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[335,355],"revision":1375890097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32781954","to":"wikipedia://en/954328","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[422,449],"revision":1375890097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32781954","to":"wikipedia://en/191752","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1004,1025],"revision":1375890097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32781954","to":"Category:Inverse problems","predicate":"in-field","method":"category","confidence":"medium","span":[2578,2607],"revision":1375890097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32781954","to":"Category:Linear algebra","predicate":"in-field","method":"category","confidence":"medium","span":[2608,2635],"revision":1375890097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3683228","to":"wikipedia://en/3118","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[186,200],"revision":1361581193,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3683228","to":"wikipedia://en/33274","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[570,587],"revision":1361581193,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3683228","to":"Category:Elementary arithmetic","predicate":"in-field","method":"category","confidence":"medium","span":[7707,7741],"revision":1361581193,"by":"importer/wikipedia/1"}

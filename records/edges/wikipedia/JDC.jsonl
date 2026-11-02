@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/15291970#9JAJ","to":"wikipedia://en/3875858","predicate":"uses","method":"link-in-item","confidence":"high","span":[7637,7655],"revision":1366816649,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15291970#9JAJ","to":"wikipedia://en/71107101","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7923,7944],"revision":1366816649,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40153832","to":"wikipedia://en/3959","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3,50],"revision":1096649295,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40153832","to":"wikipedia://en/27631","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[169,179],"revision":1096649295,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40153832","to":"wikipedia://en/27553","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[192,206],"revision":1096649295,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40153832","to":"wikipedia://en/23572","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[223,240],"revision":1096649295,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40153832","to":"wikipedia://en/27631","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[561,571],"revision":1096649295,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40153832","to":"wikipedia://en/49492","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[613,637],"revision":1096649295,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40153832","to":"wikipedia://en/1557634","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[646,752],"revision":1096649295,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40153832","to":"wikipedia://en/658808","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[754,799],"revision":1096649295,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40153832","to":"Category:Boolean algebra","predicate":"in-field","method":"category","confidence":"medium","span":[1405,1433],"revision":1096649295,"by":"importer/wikipedia/1"}

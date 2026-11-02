@@ -1,0 +1,20 @@
+{"from":"wikipedia://en/21850245","to":"wikipedia://en/1648765","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[17,50],"revision":1334896246,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21850245","to":"wikipedia://en/129222","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[109,144],"revision":1334896246,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21850245","to":"wikipedia://en/11397","predicate":"related","method":"link-in-lead","confidence":"low","span":[159,176],"revision":1334896246,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21850245","to":"wikipedia://en/21850170","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[201,230],"revision":1334896246,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21850245","to":"wikipedia://en/40645","predicate":"related","method":"link-in-text","confidence":"low","span":[866,882],"revision":1334896246,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21850245","to":"wikipedia://en/173993","predicate":"related","method":"link-in-text","confidence":"low","span":[890,907],"revision":1334896246,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21850245","to":"wikipedia://en/43487","predicate":"related","method":"link-in-text","confidence":"low","span":[1908,1950],"revision":1334896246,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21850245","to":"wikipedia://en/63509442","predicate":"uses","method":"named-link","confidence":"high","span":[2265,2293],"revision":1334896246,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21850245","to":"wikipedia://en/18583020","predicate":"uses","method":"named-link","confidence":"high","span":[2484,2531],"revision":1334896246,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21850245","to":"wikipedia://en/22149789","predicate":"related","method":"link-in-text","confidence":"low","span":[4658,4682],"revision":1334896246,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21850245","to":"wikipedia://en/305223","predicate":"related","method":"link-in-text","confidence":"low","span":[4913,4933],"revision":1334896246,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21850245","to":"Category:Algebra of random variables","predicate":"in-field","method":"category","confidence":"medium","span":[6349,6389],"revision":1334896246,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21850245","to":"Category:Random matrices","predicate":"in-field","method":"category","confidence":"medium","span":[6390,6418],"revision":1334896246,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21850245","to":"Category:Mathematical physics","predicate":"in-field","method":"category","confidence":"medium","span":[6419,6452],"revision":1334896246,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21850245","to":"Category:Probability theory","predicate":"in-field","method":"category","confidence":"medium","span":[6453,6484],"revision":1334896246,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21850245","to":"Category:Freeman Dyson","predicate":"in-field","method":"category","confidence":"medium","span":[6485,6511],"revision":1334896246,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27801252#8F40","to":"wikipedia://en/18154","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[4553,4579],"revision":1292404312,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27801252#8F40","to":"wikipedia://en/2724082","predicate":"uses","method":"link-in-item","confidence":"high","span":[4588,4621],"revision":1292404312,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27801252#8F40","to":"wikipedia://en/4638484","predicate":"uses","method":"link-in-item","confidence":"high","span":[4672,4698],"revision":1292404312,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38274557#C1DV","to":"wikipedia://en/5050255","predicate":"listed-in","method":"list","confidence":"certain","span":[4264,4305],"revision":1376231166,"by":"importer/wikipedia/1"}

@@ -1,0 +1,9 @@
+{"from":"wikipedia://en/12772382#MKFL","to":"wikipedia://en/3989","predicate":"uses","method":"link-in-item","confidence":"high","span":[3239,3255],"revision":1304392426,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12772382#MKFL","to":"wikipedia://en/12772705","predicate":"uses","method":"link-in-item","confidence":"high","span":[3269,3329],"revision":1304392426,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71410175","to":"wikipedia://en/61994831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[94,113],"revision":1344118643,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71410175","to":"wikipedia://en/38801","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[127,149],"revision":1344118643,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71410175","to":"wikipedia://en/20897472","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[174,198],"revision":1344118643,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71410175","to":"wikipedia://en/385179","predicate":"related","method":"link-in-lead","confidence":"low","span":[232,254],"revision":1344118643,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71410175","to":"wikipedia://en/681186","predicate":"related","method":"see-also","confidence":"low","span":[351,372],"revision":1344118643,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71410175","to":"Category:Homotopy theory","predicate":"in-field","method":"category","confidence":"medium","span":[1359,1387],"revision":1344118643,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71410175","to":"Category:Equivalence (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[1388,1426],"revision":1344118643,"by":"importer/wikipedia/1"}

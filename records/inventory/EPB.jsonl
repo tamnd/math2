@@ -1,3 +1,4 @@
+{"id":"EPB1W81GF6","mentions":["wikipedia://en/15364270#FH3I"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EPBDC6GWK9","mentions":["m2://rec/active_calculus/index/1.1.4/average-velocity#1"],"kind":"concept","name":"average velocity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"EPBJBVKDC9","mentions":["m2://rec/wikidata/Q837518#1"],"kind":"unknown","name":"alphabet","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"EPBJBVKDC9","mentions":["m2://rec/wikidata/Q837518#1","wikipedia://en/4292269"],"kind":"definition","name":"alphabet","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"EPBTXBSS60","mentions":["m2://rec/napkin/tex/linalg/transpose.tex#problem-2#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

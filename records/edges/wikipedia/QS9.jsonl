@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/42148175","to":"wikipedia://en/1877646","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[710,761],"revision":1371976630,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42148175","to":"wikipedia://en/60611","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1131,1156],"revision":1371976630,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42148175","to":"wikipedia://en/15832717","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1291,1319],"revision":1371976630,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42148175","to":"wikipedia://en/3062721","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1324,1344],"revision":1371976630,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42148175","to":"wikipedia://en/5739752","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1553,1617],"revision":1371976630,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42148175","to":"wikipedia://en/35356507","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2047,2059],"revision":1371976630,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42148175","to":"Category:Biostatisticians","predicate":"in-field","method":"category","confidence":"medium","span":[2564,2593],"revision":1371976630,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42148175","to":"Category:American statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[2793,2828],"revision":1371976630,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58039179","to":"wikipedia://en/11180","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[37,60],"revision":1376192018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58039179","to":"wikipedia://en/455961","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[133,154],"revision":1376192018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58039179","to":"wikipedia://en/20598932","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[160,177],"revision":1376192018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58039179","to":"wikipedia://en/21498423","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[231,260],"revision":1376192018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58039179","to":"wikipedia://en/18102","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[261,281],"revision":1376192018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58039179","to":"Category:Bilinear forms","predicate":"in-field","method":"category","confidence":"medium","span":[2566,2593],"revision":1376192018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58039179","to":"Category:Matrices (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[2594,2629],"revision":1376192018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58039179","to":"Category:Topology","predicate":"in-field","method":"category","confidence":"medium","span":[2630,2651],"revision":1376192018,"by":"importer/wikipedia/1"}

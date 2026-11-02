@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/35326250#5GX2","to":"wikipedia://en/2605272","predicate":"uses","method":"link-in-item","confidence":"high","span":[75754,75777],"revision":1362286631,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64903506","to":"wikipedia://en/58610","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[602,628],"revision":1345294801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64903506","to":"wikipedia://en/57056318","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[683,699],"revision":1345294801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64903506","to":"wikipedia://en/198772","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[729,768],"revision":1345294801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64903506","to":"wikipedia://en/52853","predicate":"related","method":"link-in-text","confidence":"low","span":[913,949],"revision":1345294801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64903506","to":"wikipedia://en/26586083","predicate":"related","method":"link-in-text","confidence":"low","span":[1002,1019],"revision":1345294801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64903506","to":"wikipedia://en/241291","predicate":"related","method":"link-in-text","confidence":"low","span":[1121,1144],"revision":1345294801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64903506","to":"wikipedia://en/295844","predicate":"related","method":"link-in-text","confidence":"low","span":[1146,1168],"revision":1345294801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64903506","to":"wikipedia://en/243849","predicate":"related","method":"link-in-text","confidence":"low","span":[1174,1197],"revision":1345294801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64903506","to":"Category:Non-Euclidean geometry","predicate":"in-field","method":"category","confidence":"medium","span":[3424,3459],"revision":1345294801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64903506","to":"Category:Mathematics books","predicate":"in-field","method":"category","confidence":"medium","span":[3460,3490],"revision":1345294801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64903506","to":"Category:1991 non-fiction books","predicate":"in-field","method":"category","confidence":"medium","span":[3491,3526],"revision":1345294801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#R4GB","to":"wikipedia://en/905870","predicate":"listed-in","method":"list","confidence":"certain","span":[7135,7151],"revision":1356718736,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#R4GB","to":"wikipedia://en/652467","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7157,7168],"revision":1356718736,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#R4GB","to":"wikipedia://en/79926203","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7173,7210],"revision":1356718736,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#R4GB","to":"wikipedia://en/9256","predicate":"uses","method":"link-in-item","confidence":"high","span":[7229,7256],"revision":1356718736,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#R4GB","to":"wikipedia://en/18950834","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7279,7289],"revision":1356718736,"by":"importer/wikipedia/1"}

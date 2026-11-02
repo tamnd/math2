@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/191457#HCKS","to":"wikipedia://en/10818503","predicate":"listed-in","method":"list","confidence":"certain","span":[26286,26321],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25172838#KD21","to":"wikipedia://en/19450529","predicate":"listed-in","method":"list","confidence":"certain","span":[2265,2274],"revision":1354839369,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38344104","to":"wikipedia://en/943637","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[107,134],"revision":1367273518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38344104","to":"wikipedia://en/943637","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[252,279],"revision":1367273518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38344104","to":"wikipedia://en/2976052","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[296,401],"revision":1367273518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38344104","to":"wikipedia://en/1915243","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[474,492],"revision":1367273518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38344104","to":"wikipedia://en/38344104","predicate":"uses","method":"anchor","confidence":"certain","span":[510,535],"revision":1367273518,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38344104","to":"wikipedia://en/38344104","predicate":"uses","method":"anchor","confidence":"certain","span":[658,689],"revision":1367273518,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38344104","to":"wikipedia://en/29954","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[768,780],"revision":1367273518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38344104","to":"wikipedia://en/943637","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[796,829],"revision":1367273518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38344104","to":"wikipedia://en/14421547","predicate":"related","method":"see-also","confidence":"low","span":[1083,1109],"revision":1367273518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38344104","to":"Category:Metric geometry","predicate":"in-field","method":"category","confidence":"medium","span":[2426,2454],"revision":1367273518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38344104","to":"Category:Theorems in geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[2455,2488],"revision":1367273518,"by":"importer/wikipedia/1"}

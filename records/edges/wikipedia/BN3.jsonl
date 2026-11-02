@@ -1,0 +1,6 @@
+{"from":"wikipedia://en/3036515#ZZ29","to":"wikipedia://en/255236","predicate":"listed-in","method":"list","confidence":"certain","span":[1227,1241],"revision":1351032879,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3036515#ZZ29","to":"wikipedia://en/572498","predicate":"uses","method":"link-in-item","confidence":"high","span":[1243,1263],"revision":1351032879,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3754835#GAXV","to":"wikipedia://en/61532","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[53316,53349],"revision":1363867157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3754835#GAXV","to":"wikipedia://en/7204363","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[53383,53458],"revision":1363867157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3754835#GAXV","to":"wikipedia://en/3754835","predicate":"uses","method":"anchor","confidence":"certain","span":[53657,53726],"revision":1363867157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3754835#GAXV","to":"wikipedia://en/312293","predicate":"uses","method":"named-link","confidence":"high","span":[55737,55799],"revision":1363867157,"by":"importer/wikipedia/1"}

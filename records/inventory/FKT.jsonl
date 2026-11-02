@@ -1,1 +1,7 @@
+{"id":"FKT30QKNSH","mentions":["wikipedia://en/26605226#S4S4"],"kind":"unknown","name":"Code-based cryptography","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FKT47YF440","mentions":["wikipedia://en/51140705#VKUZ"],"kind":"topic","name":"Henry Lewis Rietz","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FKT99TKWZ3","mentions":["wikipedia://en/72061753"],"kind":"topic","name":"Sergey Kislitsyn","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FKTDC9C24A","mentions":["wikipedia://en/13280211#RG8D"],"kind":"unknown","name":"40320 (number)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FKTH0CZW8J","mentions":["wikipedia://en/48259346"],"kind":"topic","name":"Emanuele Foà","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"FKTHA089KN","mentions":["ax://paper/2609.28046#16KK"],"kind":"statement","msc":["35-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}],"proofs":["ax://paper/2609.28046#FGFX"]}
+{"id":"FKTS62WHPW","mentions":["wikipedia://en/22533779"],"kind":"topic","name":"John Wrench","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

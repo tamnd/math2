@@ -1,3 +1,8 @@
+{"id":"1BD1XVTDX5","mentions":["wikipedia://en/251424#JEYV"],"kind":"definition","name":"local","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1BD70QRBAB","mentions":["wikipedia://en/660973#BNYB"],"kind":"unknown","name":"Hirosi Ooguri","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1BD9T42D8P","mentions":["wikipedia://en/4135185#HMBO"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1BDCQ6AHEQ","mentions":["wikipedia://en/621447#NBIK"],"kind":"unknown","name":"Clipping (computer graphics)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1BDEM1BS3C","mentions":["ax://paper/2609.27961#A2CI"],"kind":"unknown","msc":["60-XX","62-XX"],"layer":"research","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}
 {"id":"1BDEQH1V1C","mentions":["m2://rec/napkin/tex/linalg/inner-form.tex#example-5#1"],"kind":"example","name":"The dot product is the ``only'' inner form","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"1BDRF8NHTA","mentions":["m2://rec/wikidata/Q1088210#1"],"kind":"unknown","name":"epitrochoid","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"1BDPK255VM","mentions":["wikipedia://en/60141466#FUIN"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1BDRF8NHTA","mentions":["m2://rec/wikidata/Q1088210#1","wikipedia://en/1547292"],"kind":"definition","name":"epitrochoid","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

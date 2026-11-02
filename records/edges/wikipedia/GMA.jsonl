@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/19491492#G3S3","to":"wikipedia://en/9176412","predicate":"uses","method":"link-in-item","confidence":"high","span":[11412,11440],"revision":1360926274,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19491492#G3S3","to":"wikipedia://en/161260","predicate":"uses","method":"link-in-item","confidence":"high","span":[11584,11614],"revision":1360926274,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19491492#G3S3","to":"wikipedia://en/27623148","predicate":"uses","method":"named-link","confidence":"high","span":[11659,11676],"revision":1360926274,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19491492#G3S3","to":"wikipedia://en/659939","predicate":"uses","method":"link-in-item","confidence":"high","span":[13262,13290],"revision":1360926274,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19491492#G3S3","to":"wikipedia://en/133496","predicate":"uses","method":"link-in-item","confidence":"high","span":[13358,13375],"revision":1360926274,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24229305","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[109,137],"revision":1317719733,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24229305","to":"wikipedia://en/12401","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[147,163],"revision":1317719733,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24229305","to":"wikipedia://en/325806","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[200,238],"revision":1317719733,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24229305","to":"wikipedia://en/581175","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[252,297],"revision":1317719733,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24229305","to":"wikipedia://en/584406","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[302,343],"revision":1317719733,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24229305","to":"wikipedia://en/1577896","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[353,382],"revision":1317719733,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24229305","to":"wikipedia://en/56661772","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[615,637],"revision":1317719733,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24229305","to":"wikipedia://en/12781","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[643,686],"revision":1317719733,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24229305","to":"wikipedia://en/1577896","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1005,1024],"revision":1317719733,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24229305","to":"wikipedia://en/581175","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1033,1078],"revision":1317719733,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24229305","to":"wikipedia://en/584406","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1083,1124],"revision":1317719733,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24229305","to":"wikipedia://en/24240406","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2250,2264],"revision":1317719733,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24229305","to":"Category:Graph families","predicate":"in-field","method":"category","confidence":"medium","span":[2745,2772],"revision":1317719733,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24229305","to":"Category:Algebraic graph theory","predicate":"in-field","method":"category","confidence":"medium","span":[2773,2808],"revision":1317719733,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24229305","to":"Category:Regular graphs","predicate":"in-field","method":"category","confidence":"medium","span":[2809,2836],"revision":1317719733,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/918748#KXLB","to":"wikipedia://en/799649","predicate":"listed-in","method":"list","confidence":"certain","span":[1706,1727],"revision":1305906706,"by":"importer/wikipedia/1"}

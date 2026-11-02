@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/19075646","to":"wikipedia://en/5176","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[168,180],"revision":1364060664,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19075646","to":"wikipedia://en/15532","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[613,626],"revision":1364060664,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19075646","to":"wikipedia://en/15532","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[630,652],"revision":1364060664,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19075646","to":"wikipedia://en/193748","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[719,750],"revision":1364060664,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19075646","to":"Category:Integral calculus","predicate":"in-field","method":"category","confidence":"medium","span":[4447,4477],"revision":1364060664,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#Y8A0","to":"wikipedia://en/30284","predicate":"listed-in","method":"list","confidence":"certain","span":[16852,16871],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#Y8A0","to":"wikipedia://en/30284","predicate":"uses","method":"link-in-item","confidence":"medium","span":[16901,16935],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/230488#W12H","to":"wikipedia://en/1607648","predicate":"uses","method":"link-in-item","confidence":"high","span":[32939,33014],"revision":1375447198,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/230488#W12H","to":"wikipedia://en/28758","predicate":"uses","method":"link-in-item","confidence":"high","span":[33098,33120],"revision":1375447198,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/230488#W12H","to":"wikipedia://en/251478","predicate":"uses","method":"link-in-item","confidence":"high","span":[34056,34074],"revision":1375447198,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/230488#W12H","to":"wikipedia://en/2047965","predicate":"uses","method":"named-link","confidence":"high","span":[34204,34229],"revision":1375447198,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/230488#W12H","to":"wikipedia://en/10172878","predicate":"uses","method":"link-in-item","confidence":"high","span":[35197,35264],"revision":1375447198,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#DQHM","to":"wikipedia://en/18401725","predicate":"listed-in","method":"list","confidence":"certain","span":[27950,27980],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#DQHM","to":"wikipedia://en/59735","predicate":"uses","method":"link-in-item","confidence":"high","span":[27984,27999],"revision":1373797939,"by":"importer/wikipedia/1"}

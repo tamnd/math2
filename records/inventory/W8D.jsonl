@@ -1,1 +1,4 @@
+{"id":"W8D091Y8ST","mentions":["wikipedia://en/47565351#KCB6"],"kind":"unknown","name":"Two Rivers","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"W8D1DVHH7D","mentions":["wikipedia://en/356213#DJ4H"],"kind":"unknown","name":"John Dumbleton","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"W8DHCP69VT","mentions":["wikipedia://en/43580500#MD1P"],"kind":"definition","name":"−","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"W8DVW8M0V9","mentions":["ax://paper/2609.22458#DIO5"],"kind":"definition","msc":["35-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.17"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.17"}]}

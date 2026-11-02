@@ -1,0 +1,8 @@
+{"from":"wikipedia://en/51140705#VCFK","to":"wikipedia://en/5881967","predicate":"listed-in","method":"list","confidence":"certain","span":[12334,12357],"revision":1369875693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5646030","to":"wikipedia://en/28782","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[149,181],"revision":1279883667,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5646030","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[182,211],"revision":1279883667,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5646030","to":"wikipedia://en/197544","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[236,250],"revision":1279883667,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5646030","to":"wikipedia://en/23275","predicate":"related","method":"link-in-text","confidence":"low","span":[3060,3074],"revision":1279883667,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5646030","to":"wikipedia://en/2016606","predicate":"related","method":"see-also","confidence":"low","span":[3652,3663],"revision":1279883667,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5646030","to":"Category:Fractals","predicate":"in-field","method":"category","confidence":"medium","span":[3693,3714],"revision":1279883667,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5646030","to":"Category:Golden ratio","predicate":"in-field","method":"category","confidence":"medium","span":[3715,3740],"revision":1279883667,"by":"importer/wikipedia/1"}

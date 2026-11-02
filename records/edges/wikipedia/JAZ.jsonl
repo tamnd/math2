@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/19662#HMVM","to":"wikipedia://en/14884","predicate":"uses","method":"named-link","confidence":"high","span":[22359,22389],"revision":1371804921,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38607512","to":"wikipedia://en/20018","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[463,480],"revision":1334135496,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38607512","to":"wikipedia://en/1286813","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[661,677],"revision":1334135496,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38607512","to":"wikipedia://en/26691","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[734,760],"revision":1334135496,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38607512","to":"wikipedia://en/321869","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[907,924],"revision":1334135496,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38607512","to":"wikipedia://en/563105","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[926,954],"revision":1334135496,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38607512","to":"wikipedia://en/25350","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[974,991],"revision":1334135496,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38607512","to":"wikipedia://en/33456","predicate":"related","method":"link-in-text","confidence":"low","span":[3533,3550],"revision":1334135496,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38607512","to":"wikipedia://en/30461","predicate":"related","method":"link-in-text","confidence":"low","span":[3552,3577],"revision":1334135496,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38607512","to":"wikipedia://en/13833","predicate":"related","method":"link-in-text","confidence":"low","span":[3978,3992],"revision":1334135496,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38607512","to":"wikipedia://en/405944","predicate":"related","method":"link-in-text","confidence":"low","span":[4119,4134],"revision":1334135496,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38607512","to":"wikipedia://en/6042","predicate":"related","method":"link-in-text","confidence":"low","span":[4845,4870],"revision":1334135496,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38607512","to":"wikipedia://en/47231784","predicate":"related","method":"link-in-text","confidence":"low","span":[4914,4950],"revision":1334135496,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38607512","to":"wikipedia://en/47226218","predicate":"related","method":"link-in-text","confidence":"low","span":[4964,4992],"revision":1334135496,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38607512","to":"wikipedia://en/30152339","predicate":"related","method":"link-in-text","confidence":"low","span":[5679,5734],"revision":1334135496,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38607512","to":"Category:Metric geometry","predicate":"in-field","method":"category","confidence":"medium","span":[11122,11150],"revision":1334135496,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#4A1V","to":"wikipedia://en/312675","predicate":"listed-in","method":"list","confidence":"certain","span":[13541,13561],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68846918","to":"wikipedia://en/18957","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[283,311],"revision":1358997926,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68846918","to":"wikipedia://en/56558","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[368,386],"revision":1358997926,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68846918","to":"wikipedia://en/36782","predicate":"related","method":"see-also","confidence":"low","span":[3573,3590],"revision":1358997926,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68846918","to":"Category:Medical error","predicate":"in-field","method":"category","confidence":"medium","span":[3622,3648],"revision":1358997926,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68846918","to":"Category:Quantitative research","predicate":"in-field","method":"category","confidence":"medium","span":[3649,3683],"revision":1358997926,"by":"importer/wikipedia/1"}

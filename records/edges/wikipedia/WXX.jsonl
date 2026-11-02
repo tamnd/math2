@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/1403586#HBW1","to":"wikipedia://en/46627163","predicate":"listed-in","method":"list","confidence":"certain","span":[195655,195677],"revision":1375861581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1403586#HBW1","to":"wikipedia://en/24831001","predicate":"uses","method":"link-in-item","confidence":"medium","span":[195704,195732],"revision":1375861581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21455723","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[39,54],"revision":1307748861,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21455723","to":"wikipedia://en/712675","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[67,86],"revision":1307748861,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21455723","to":"wikipedia://en/190167","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[141,160],"revision":1307748861,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21455723","to":"wikipedia://en/455961","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[180,208],"revision":1307748861,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21455723","to":"wikipedia://en/18102","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[209,228],"revision":1307748861,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21455723","to":"wikipedia://en/20598932","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[248,265],"revision":1307748861,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21455723","to":"wikipedia://en/21498423","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[856,879],"revision":1307748861,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21455723","to":"wikipedia://en/7930037","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[898,920],"revision":1307748861,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21455723","to":"wikipedia://en/7771798","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[924,948],"revision":1307748861,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21455723","to":"wikipedia://en/318598","predicate":"related","method":"link-in-lead","confidence":"low","span":[1368,1390],"revision":1307748861,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21455723","to":"wikipedia://en/577441","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1845,1873],"revision":1307748861,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21455723","to":"Category:Operator theory","predicate":"in-field","method":"category","confidence":"medium","span":[2273,2301],"revision":1307748861,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21455723","to":"Category:Linear operators","predicate":"in-field","method":"category","confidence":"medium","span":[2302,2331],"revision":1307748861,"by":"importer/wikipedia/1"}

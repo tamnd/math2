@@ -1,0 +1,9 @@
+{"from":"wikipedia://en/356213#7R7Y","to":"wikipedia://en/57528388","predicate":"listed-in","method":"list","confidence":"certain","span":[9007,9025],"revision":1359895470,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43580500#2V2W","to":"wikipedia://en/9304834","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[53546,53559],"revision":1360947732,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51517440","to":"wikipedia://en/26779","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[85,100],"revision":1322015716,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51517440","to":"wikipedia://en/3581465","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[111,132],"revision":1322015716,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51517440","to":"wikipedia://en/11274","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[194,218],"revision":1322015716,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51517440","to":"wikipedia://en/1327","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[381,397],"revision":1322015716,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51517440","to":"wikipedia://en/1182993","predicate":"related","method":"see-also","confidence":"low","span":[547,558],"revision":1322015716,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51517440","to":"Category:Scattering theory","predicate":"in-field","method":"category","confidence":"medium","span":[838,868],"revision":1322015716,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51517440","to":"Category:Physics theorems","predicate":"in-field","method":"category","confidence":"medium","span":[869,898],"revision":1322015716,"by":"importer/wikipedia/1"}

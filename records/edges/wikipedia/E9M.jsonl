@@ -1,0 +1,20 @@
+{"from":"wikipedia://en/104790#PRPO","to":"wikipedia://en/3942","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[12855,12868],"revision":1371425587,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1248299","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[149,164],"revision":1334514853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1248299","to":"wikipedia://en/1161784","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[195,222],"revision":1334514853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1248299","to":"wikipedia://en/39792","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[230,242],"revision":1334514853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1248299","to":"wikipedia://en/1350120","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[248,278],"revision":1334514853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1248299","to":"wikipedia://en/144652","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[299,320],"revision":1334514853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1248299","to":"wikipedia://en/60770","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[342,355],"revision":1334514853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1248299","to":"wikipedia://en/241291","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[368,391],"revision":1334514853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1248299","to":"wikipedia://en/6233","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[447,476],"revision":1334514853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1248299","to":"wikipedia://en/39190","predicate":"related","method":"link-in-lead","confidence":"low","span":[511,531],"revision":1334514853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1248299","to":"wikipedia://en/1165182","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[610,624],"revision":1334514853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1248299","to":"wikipedia://en/9100897","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[631,649],"revision":1334514853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1248299","to":"wikipedia://en/4450009","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[849,876],"revision":1334514853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1248299","to":"wikipedia://en/1240699","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[897,928],"revision":1334514853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1248299","to":"wikipedia://en/1237700","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[982,1008],"revision":1334514853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1248299","to":"wikipedia://en/3025251","predicate":"related","method":"see-also","confidence":"low","span":[1733,1744],"revision":1334514853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1248299","to":"wikipedia://en/8158628","predicate":"related","method":"see-also","confidence":"low","span":[1747,1775],"revision":1334514853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1248299","to":"Category:Knot theory","predicate":"in-field","method":"category","confidence":"medium","span":[2324,2348],"revision":1334514853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1248299","to":"Category:Hyperbolic knots and links","predicate":"in-field","method":"category","confidence":"medium","span":[2349,2390],"revision":1334514853,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1248299","to":"Category:3-manifolds","predicate":"in-field","method":"category","confidence":"medium","span":[2391,2415],"revision":1334514853,"by":"importer/wikipedia/1"}

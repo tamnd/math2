@@ -1,0 +1,24 @@
+{"from":"wikipedia://en/44770306","to":"wikipedia://en/20646803","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[857,870],"revision":1372279801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44770306","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[874,889],"revision":1372279801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44770306","to":"wikipedia://en/25813","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[893,912],"revision":1372279801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44770306","to":"wikipedia://en/29954","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[929,941],"revision":1372279801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44770306","to":"wikipedia://en/621774","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[954,982],"revision":1372279801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44770306","to":"wikipedia://en/153008","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[984,1029],"revision":1372279801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44770306","to":"wikipedia://en/4462283","predicate":"related","method":"link-in-text","confidence":"low","span":[1205,1233],"revision":1372279801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44770306","to":"wikipedia://en/18879","predicate":"related","method":"link-in-text","confidence":"low","span":[1287,1328],"revision":1372279801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44770306","to":"wikipedia://en/21031297","predicate":"related","method":"link-in-text","confidence":"low","span":[1347,1377],"revision":1372279801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44770306","to":"wikipedia://en/31922","predicate":"related","method":"link-in-text","confidence":"low","span":[1387,1425],"revision":1372279801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44770306","to":"wikipedia://en/157427","predicate":"related","method":"link-in-text","confidence":"low","span":[1619,1654],"revision":1372279801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44770306","to":"wikipedia://en/174216","predicate":"related","method":"link-in-text","confidence":"low","span":[1739,1766],"revision":1372279801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44770306","to":"wikipedia://en/418375","predicate":"related","method":"link-in-text","confidence":"low","span":[1804,1847],"revision":1372279801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44770306","to":"wikipedia://en/20646803","predicate":"related","method":"link-in-text","confidence":"low","span":[1869,1887],"revision":1372279801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44770306","to":"wikipedia://en/52934071","predicate":"related","method":"link-in-text","confidence":"low","span":[2231,2252],"revision":1372279801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44770306","to":"wikipedia://en/63453744","predicate":"related","method":"link-in-text","confidence":"low","span":[2477,2495],"revision":1372279801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44770306","to":"wikipedia://en/17519029","predicate":"related","method":"link-in-text","confidence":"low","span":[2548,2591],"revision":1372279801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44770306","to":"wikipedia://en/147733","predicate":"related","method":"link-in-text","confidence":"low","span":[2713,2726],"revision":1372279801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44770306","to":"wikipedia://en/1240699","predicate":"related","method":"link-in-text","confidence":"low","span":[2736,2769],"revision":1372279801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44770306","to":"wikipedia://en/198822","predicate":"related","method":"link-in-text","confidence":"low","span":[3231,3264],"revision":1372279801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44770306","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[7557,7606],"revision":1372279801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44770306","to":"Category:21st-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[7607,7656],"revision":1372279801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44770306","to":"Category:American topologists","predicate":"in-field","method":"category","confidence":"medium","span":[7657,7690],"revision":1372279801,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5092636#FMK7","to":"wikipedia://en/1448702","predicate":"uses","method":"link-in-item","confidence":"high","span":[6943,6964],"revision":1352857425,"by":"importer/wikipedia/1"}

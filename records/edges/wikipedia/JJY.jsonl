@@ -1,0 +1,8 @@
+{"from":"wikipedia://en/12821736","to":"wikipedia://en/955164","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,29],"revision":971408180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12821736","to":"wikipedia://en/353022","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[79,95],"revision":971408180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12821736","to":"wikipedia://en/99494","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[114,154],"revision":971408180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12821736","to":"wikipedia://en/19447","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[160,189],"revision":971408180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12821736","to":"wikipedia://en/99945","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[267,306],"revision":971408180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12821736","to":"wikipedia://en/12792326","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[440,468],"revision":971408180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12821736","to":"Category:Algebraic topology","predicate":"in-field","method":"category","confidence":"medium","span":[3207,3238],"revision":971408180,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12821736","to":"Category:Geometric group theory","predicate":"in-field","method":"category","confidence":"medium","span":[3239,3274],"revision":971408180,"by":"importer/wikipedia/1"}

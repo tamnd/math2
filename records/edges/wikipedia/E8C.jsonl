@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/57837484","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[861,878],"revision":1372656235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57837484","to":"wikipedia://en/455987","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[931,952],"revision":1372656235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57837484","to":"wikipedia://en/294185","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1411,1435],"revision":1372656235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57837484","to":"wikipedia://en/41007469","predicate":"related","method":"link-in-lead","confidence":"low","span":[1522,1544],"revision":1372656235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57837484","to":"wikipedia://en/9169420","predicate":"related","method":"link-in-lead","confidence":"low","span":[1627,1646],"revision":1372656235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57837484","to":"wikipedia://en/340","predicate":"related","method":"link-in-lead","confidence":"low","span":[1986,2002],"revision":1372656235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57837484","to":"wikipedia://en/2898625","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2423,2449],"revision":1372656235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57837484","to":"Category:20th-century Japanese mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2534,2583],"revision":1372656235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57837484","to":"Category:21st-century Japanese mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2584,2633],"revision":1372656235,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76697957#9W9T","to":"wikipedia://en/23475106","predicate":"related","method":"link-in-item","confidence":"low","span":[2082,2094],"revision":1374186214,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76697957#9W9T","to":"wikipedia://en/25005","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2124,2140],"revision":1374186214,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76697957#9W9T","to":"wikipedia://en/322623","predicate":"uses","method":"link-in-item","confidence":"high","span":[2453,2475],"revision":1374186214,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76697957#9W9T","to":"wikipedia://en/52386","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2507,2551],"revision":1374186214,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76697957#9W9T","to":"wikipedia://en/373137","predicate":"uses","method":"link-in-item","confidence":"high","span":[2622,2639],"revision":1374186214,"by":"importer/wikipedia/1"}

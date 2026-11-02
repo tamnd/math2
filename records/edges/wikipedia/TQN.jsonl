@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/71343520","to":"wikipedia://en/23543","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[903,968],"revision":1355561865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71343520","to":"wikipedia://en/71271638","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1004,1059],"revision":1355561865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71343520","to":"wikipedia://en/71062619","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1192,1259],"revision":1355561865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71343520","to":"wikipedia://en/199028","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1317,1340],"revision":1355561865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71343520","to":"wikipedia://en/71322459","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1365,1392],"revision":1355561865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71343520","to":"wikipedia://en/71062619","predicate":"related","method":"link-in-text","confidence":"low","span":[4643,4714],"revision":1355561865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71343520","to":"wikipedia://en/43487","predicate":"related","method":"link-in-text","confidence":"low","span":[4739,4771],"revision":1355561865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71343520","to":"wikipedia://en/5793","predicate":"related","method":"link-in-text","confidence":"low","span":[4780,4816],"revision":1355561865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71343520","to":"wikipedia://en/43487","predicate":"related","method":"link-in-text","confidence":"low","span":[5090,5122],"revision":1355561865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71343520","to":"wikipedia://en/5793","predicate":"related","method":"link-in-text","confidence":"low","span":[5131,5167],"revision":1355561865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71343520","to":"wikipedia://en/43487","predicate":"related","method":"link-in-text","confidence":"low","span":[5427,5459],"revision":1355561865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71343520","to":"wikipedia://en/5793","predicate":"related","method":"link-in-text","confidence":"low","span":[5468,5504],"revision":1355561865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71343520","to":"wikipedia://en/71062619","predicate":"related","method":"link-in-text","confidence":"low","span":[5833,5914],"revision":1355561865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71343520","to":"wikipedia://en/70596317","predicate":"related","method":"see-also","confidence":"low","span":[6150,6172],"revision":1355561865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71343520","to":"wikipedia://en/70596336","predicate":"related","method":"see-also","confidence":"low","span":[6175,6200],"revision":1355561865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71343520","to":"wikipedia://en/71322459","predicate":"related","method":"see-also","confidence":"low","span":[6203,6230],"revision":1355561865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71343520","to":"wikipedia://en/71062619","predicate":"related","method":"see-also","confidence":"low","span":[6233,6311],"revision":1355561865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71343520","to":"wikipedia://en/71272605","predicate":"related","method":"see-also","confidence":"low","span":[6314,6386],"revision":1355561865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71343520","to":"wikipedia://en/71271638","predicate":"related","method":"see-also","confidence":"low","span":[6389,6455],"revision":1355561865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71343520","to":"wikipedia://en/71231546","predicate":"related","method":"see-also","confidence":"low","span":[6459,6529],"revision":1355561865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71343520","to":"wikipedia://en/71272853","predicate":"related","method":"see-also","confidence":"low","span":[6532,6604],"revision":1355561865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71343520","to":"Category:Infinitely divisible probability distributions","predicate":"in-field","method":"category","confidence":"medium","span":[6863,6922],"revision":1355561865,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71343520","to":"Category:Exponential family distributions","predicate":"in-field","method":"category","confidence":"medium","span":[6923,6968],"revision":1355561865,"by":"importer/wikipedia/1"}

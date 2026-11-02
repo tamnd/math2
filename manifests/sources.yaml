@@ -699,6 +699,30 @@ sources:
       - url: https://query.wikidata.org/sparql
         hash: blake3:1cd3736f1d17b31845a83622a8dbb299c1fd61e251be94083e9c45841c9a3c7b
         date: "2026-10-26"
+  - id: wikipedia
+    name: The English Wikipedia, through the corpus repository tamnd/wikipedia-math
+    kind: wiki
+    home: https://en.wikipedia.org
+    licence: CC-BY-SA-4.0
+    class: open
+    licence_read:
+      at: https://en.wikipedia.org/wiki/Wikipedia:Copyrights
+      "on": "2026-11-02"
+      by: Claude Code, for tamnd
+    authored: human
+    channel: git
+    terms:
+      robots: n/a, the importer reads the git repository tamnd/wikipedia-math and not the pages of Wikipedia
+      rate: the pipeline of tamnd/wikipedia-math reads the monthly dump and the Parsoid HTML with the pacing of the Wikimedia REST API, and m2 reads only the checkout
+      ai: none stated
+    attribution: Wikipedia contributors, the English Wikipedia, https://en.wikipedia.org, CC BY-SA 4.0. Each mention gives the title, the revision and a permanent link to the history of the article
+    adapter: wikipedia/1
+    approved_by: tamnd
+    snapshots:
+      - url: https://github.com/tamnd/wikipedia-math/tree/8e3bf291504cd5ab6683538a211d520699bdcd20
+        hash: blake3:a04b3074e23e9f993b320c93ae493808b7a48eb0650216eafaeed4d1117d8577
+        date: "2026-11-02"
+        commit: 8e3bf291504cd5ab6683538a211d520699bdcd20
   - id: zbmath_search
     name: zbMATH Open, the search of documents by title, author and year
     kind: catalogue

@@ -1,0 +1,26 @@
+{"from":"wikipedia://en/1430697#BI62","to":"wikipedia://en/3588331","predicate":"uses","method":"link-in-item","confidence":"high","span":[1681,1712],"revision":1333981978,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1430697#BI62","to":"wikipedia://en/221708","predicate":"uses","method":"link-in-item","confidence":"high","span":[1736,1771],"revision":1333981978,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1430697#BI62","to":"wikipedia://en/464331","predicate":"uses","method":"link-in-item","confidence":"high","span":[1888,1913],"revision":1333981978,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565351#7VPY","to":"wikipedia://en/56234420","predicate":"listed-in","method":"list","confidence":"certain","span":[56675,56703],"revision":1373350261,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79585530","to":"wikipedia://en/316977","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1511,1535],"revision":1373197404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79585530","to":"wikipedia://en/712587","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1617,1650],"revision":1373197404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79585530","to":"wikipedia://en/2235244","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2042,2082],"revision":1373197404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79585530","to":"wikipedia://en/11729","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2087,2110],"revision":1373197404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79585530","to":"wikipedia://en/155199","predicate":"related","method":"link-in-text","confidence":"low","span":[2494,2515],"revision":1373197404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79585530","to":"wikipedia://en/181348","predicate":"related","method":"link-in-text","confidence":"low","span":[2535,2563],"revision":1373197404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79585530","to":"wikipedia://en/2598108","predicate":"related","method":"link-in-text","confidence":"low","span":[2914,2968],"revision":1373197404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79585530","to":"wikipedia://en/209935","predicate":"related","method":"link-in-text","confidence":"low","span":[3276,3304],"revision":1373197404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79585530","to":"wikipedia://en/405480","predicate":"related","method":"link-in-text","confidence":"low","span":[3417,3441],"revision":1373197404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79585530","to":"wikipedia://en/316977","predicate":"related","method":"link-in-text","confidence":"low","span":[3563,3587],"revision":1373197404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79585530","to":"wikipedia://en/38308","predicate":"related","method":"link-in-text","confidence":"low","span":[3777,3815],"revision":1373197404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79585530","to":"Template:S-start","predicate":"in-nav","method":"nav","confidence":"low","span":[4466,4477],"revision":1373197404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79585530","to":"Template:S-aca","predicate":"in-nav","method":"nav","confidence":"low","span":[4478,4487],"revision":1373197404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79585530","to":"Template:Succession box","predicate":"in-nav","method":"nav","confidence":"low","span":[4488,4639],"revision":1373197404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79585530","to":"Template:Succession box","predicate":"in-nav","method":"nav","confidence":"low","span":[4640,4821],"revision":1373197404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79585530","to":"Template:S-end","predicate":"in-nav","method":"nav","confidence":"low","span":[4822,4831],"revision":1373197404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79585530","to":"Category:Principals by university in Scotland","predicate":"in-field","method":"category","confidence":"medium","span":[5133,5182],"revision":1373197404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79585530","to":"Category:20th-century British mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[5183,5231],"revision":1373197404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79585530","to":"Category:Academics of Lancaster University","predicate":"in-field","method":"category","confidence":"medium","span":[5306,5352],"revision":1373197404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79585530","to":"Category:Academics of Manchester Metropolitan University","predicate":"in-field","method":"category","confidence":"medium","span":[5353,5413],"revision":1373197404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79585530","to":"Category:Mathematicians of the University of Birmingham","predicate":"in-field","method":"category","confidence":"medium","span":[5414,5473],"revision":1373197404,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79585530","to":"Category:Academics of the University of Dundee","predicate":"in-field","method":"category","confidence":"medium","span":[5474,5524],"revision":1373197404,"by":"importer/wikipedia/1"}

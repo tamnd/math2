@@ -1,0 +1,26 @@
+{"from":"wikipedia://en/1803375#TFBH","to":"wikipedia://en/1066621","predicate":"uses","method":"link-in-item","confidence":"high","span":[7509,7552],"revision":1365316002,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1803375#TFBH","to":"wikipedia://en/242135","predicate":"uses","method":"link-in-item","confidence":"high","span":[7760,7780],"revision":1365316002,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1803375#TFBH","to":"wikipedia://en/244373","predicate":"uses","method":"link-in-item","confidence":"high","span":[7990,8015],"revision":1365316002,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3736667#QUL0","to":"wikipedia://en/182000","predicate":"uses","method":"link-in-item","confidence":"medium","span":[17549,17561],"revision":1301578148,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69611898#FFXM","to":"wikipedia://en/69611898","predicate":"uses","method":"anchor","confidence":"certain","span":[7077,7144],"revision":1360627325,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69611898#FFXM","to":"wikipedia://en/2701329","predicate":"uses","method":"link-in-item","confidence":"high","span":[7163,7174],"revision":1360627325,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69611898#FFXM","to":"wikipedia://en/2701329","predicate":"uses","method":"link-in-item","confidence":"high","span":[7179,7227],"revision":1360627325,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69611898#FFXM","to":"wikipedia://en/42082713","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7288,7312],"revision":1360627325,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69611898#FFXM","to":"wikipedia://en/537555","predicate":"uses","method":"link-in-item","confidence":"high","span":[7997,8044],"revision":1360627325,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79972747","to":"wikipedia://en/1424309","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[136,162],"revision":1350618976,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79972747","to":"wikipedia://en/5759","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[164,184],"revision":1350618976,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79972747","to":"wikipedia://en/2819","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[190,206],"revision":1350618976,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79972747","to":"wikipedia://en/869307","predicate":"related","method":"link-in-text","confidence":"low","span":[293,302],"revision":1350618976,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79972747","to":"wikipedia://en/79967611","predicate":"related","method":"link-in-text","confidence":"low","span":[327,349],"revision":1350618976,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79972747","to":"wikipedia://en/56359","predicate":"related","method":"link-in-text","confidence":"low","span":[403,418],"revision":1350618976,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79972747","to":"wikipedia://en/715238","predicate":"related","method":"link-in-text","confidence":"low","span":[577,596],"revision":1350618976,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79972747","to":"wikipedia://en/23139461","predicate":"related","method":"link-in-text","confidence":"low","span":[782,797],"revision":1350618976,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79972747","to":"wikipedia://en/520720","predicate":"related","method":"link-in-text","confidence":"low","span":[852,890],"revision":1350618976,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79972747","to":"wikipedia://en/145186","predicate":"related","method":"link-in-text","confidence":"low","span":[973,986],"revision":1350618976,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79972747","to":"wikipedia://en/3625000","predicate":"related","method":"link-in-text","confidence":"low","span":[1094,1108],"revision":1350618976,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79972747","to":"wikipedia://en/163504","predicate":"related","method":"link-in-text","confidence":"low","span":[1254,1272],"revision":1350618976,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79972747","to":"wikipedia://en/1504450","predicate":"related","method":"link-in-text","confidence":"low","span":[1277,1295],"revision":1350618976,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79972747","to":"wikipedia://en/442153","predicate":"related","method":"link-in-text","confidence":"low","span":[1564,1597],"revision":1350618976,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79972747","to":"wikipedia://en/212094","predicate":"related","method":"link-in-text","confidence":"low","span":[1647,1661],"revision":1350618976,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79972747","to":"wikipedia://en/2621390","predicate":"related","method":"link-in-text","confidence":"low","span":[1898,1939],"revision":1350618976,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/79972747","to":"Category:Soviet rehabilitations","predicate":"in-field","method":"category","confidence":"medium","span":[3294,3329],"revision":1350618976,"by":"importer/wikipedia/1"}

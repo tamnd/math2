@@ -1,2 +1,8 @@
+{"id":"YZN3KFA4MZ","mentions":["wikipedia://en/39389708"],"kind":"topic","name":"Jacob Korevaar","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"YZNF4718N6","mentions":["wikipedia://en/30562#GHDT"],"kind":"definition","name":"Boundary","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YZNFJ0T2J9","mentions":["ax://paper/2610.16245#SAV2"],"kind":"statement","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
+{"id":"YZNFN1310Q","mentions":["wikipedia://en/16081079"],"kind":"topic","name":"Population study","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"YZNM3WAZQ1","mentions":["wikipedia://en/567390"],"kind":"topic","name":"Jakow Trachtenberg","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"YZNMJXZBA5","mentions":["wikipedia://en/53082933"],"kind":"topic","name":"Abu al-Hasan al-Ahwazi","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YZNNTVTW5S","mentions":["m2://rec/hott_book/index/4.2.5/type-dependent-pair#1"],"kind":"concept","name":"type, dependent pair","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"YZNS0TBC8M","mentions":["wikipedia://en/12830119#2GG6"],"kind":"definition","name":"Steiner circumellipse","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

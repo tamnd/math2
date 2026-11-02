@@ -1,0 +1,29 @@
+{"from":"wikipedia://en/31457610#FZCR","to":"wikipedia://en/1088270","predicate":"uses","method":"link-in-item","confidence":"high","span":[2891,2935],"revision":1370502079,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31457610#FZCR","to":"wikipedia://en/242695","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[2969,2991],"revision":1370502079,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31457610#FZCR","to":"wikipedia://en/3021036","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[3361,3413],"revision":1370502079,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39305846","to":"wikipedia://en/1997","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,25],"revision":1339171103,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39305846","to":"wikipedia://en/1088386","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[35,64],"revision":1339171103,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39305846","to":"wikipedia://en/588356","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[77,95],"revision":1339171103,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39305846","to":"wikipedia://en/2629423","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[215,240],"revision":1339171103,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39305846","to":"wikipedia://en/385339","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[255,286],"revision":1339171103,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39305846","to":"wikipedia://en/1642877","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[288,308],"revision":1339171103,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39305846","to":"wikipedia://en/737087","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[336,369],"revision":1339171103,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39305846","to":"wikipedia://en/22955212","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[461,481],"revision":1339171103,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39305846","to":"Category:Algebraic varieties","predicate":"in-field","method":"category","confidence":"medium","span":[3486,3518],"revision":1339171103,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56452622","to":"wikipedia://en/3354","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[795,805],"revision":1372010862,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56452622","to":"wikipedia://en/9420388","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[828,838],"revision":1372010862,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56452622","to":"wikipedia://en/82898265","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[890,914],"revision":1372010862,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56452622","to":"wikipedia://en/16687363","predicate":"related","method":"link-in-text","confidence":"low","span":[1107,1128],"revision":1372010862,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56452622","to":"wikipedia://en/315275","predicate":"related","method":"link-in-text","confidence":"low","span":[1136,1165],"revision":1372010862,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56452622","to":"wikipedia://en/363323","predicate":"related","method":"link-in-text","confidence":"low","span":[1231,1247],"revision":1372010862,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56452622","to":"wikipedia://en/178649","predicate":"related","method":"link-in-text","confidence":"low","span":[1612,1632],"revision":1372010862,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56452622","to":"wikipedia://en/5869","predicate":"related","method":"link-in-text","confidence":"low","span":[1637,1656],"revision":1372010862,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56452622","to":"wikipedia://en/1184716","predicate":"related","method":"link-in-text","confidence":"low","span":[1664,1688],"revision":1372010862,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56452622","to":"wikipedia://en/10989","predicate":"related","method":"link-in-text","confidence":"low","span":[1814,1833],"revision":1372010862,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56452622","to":"wikipedia://en/627842","predicate":"related","method":"link-in-text","confidence":"low","span":[2138,2182],"revision":1372010862,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56452622","to":"wikipedia://en/32706","predicate":"related","method":"link-in-text","confidence":"low","span":[2194,2207],"revision":1372010862,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56452622","to":"Category:20th-century German mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3608,3655],"revision":1372010862,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56452622","to":"Category:21st-century German mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3656,3703],"revision":1372010862,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56452622","to":"Category:Academic staff of the University of Bremen","predicate":"in-field","method":"category","confidence":"medium","span":[3750,3805],"revision":1372010862,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56452622","to":"Category:Topologists","predicate":"in-field","method":"category","confidence":"medium","span":[3856,3880],"revision":1372010862,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/56452622","to":"Category:Category theorists","predicate":"in-field","method":"category","confidence":"medium","span":[3881,3912],"revision":1372010862,"by":"importer/wikipedia/1"}

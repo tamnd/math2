@@ -1,0 +1,9 @@
+{"from":"wikipedia://en/26723418","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[7,35],"revision":1094281676,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26723418","to":"wikipedia://en/1111315","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[45,66],"revision":1094281676,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26723418","to":"wikipedia://en/245933","predicate":"related","method":"link-in-lead","confidence":"low","span":[132,171],"revision":1094281676,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26723418","to":"wikipedia://en/148420","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[190,214],"revision":1094281676,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26723418","to":"wikipedia://en/248635","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[222,242],"revision":1094281676,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26723418","to":"wikipedia://en/2996781","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[250,275],"revision":1094281676,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26723418","to":"wikipedia://en/145375","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[299,330],"revision":1094281676,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26723418","to":"Category:Algebraic number theory","predicate":"in-field","method":"category","confidence":"medium","span":[3361,3397],"revision":1094281676,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26723418","to":"Category:Galois theory","predicate":"in-field","method":"category","confidence":"medium","span":[3398,3424],"revision":1094281676,"by":"importer/wikipedia/1"}

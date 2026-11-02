@@ -1,0 +1,10 @@
+{"from":"wikipedia://en/1338726","to":"wikipedia://en/223796","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[234,260],"revision":1242803893,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1338726","to":"wikipedia://en/667970","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[274,304],"revision":1242803893,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1338726","to":"wikipedia://en/42116","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[367,396],"revision":1242803893,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1338726","to":"wikipedia://en/1338725","predicate":"related","method":"see-also","confidence":"low","span":[846,875],"revision":1242803893,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1338726","to":"wikipedia://en/5457179","predicate":"related","method":"see-also","confidence":"low","span":[878,886],"revision":1242803893,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1338726","to":"Category:Cryptographic protocols","predicate":"in-field","method":"category","confidence":"medium","span":[916,952],"revision":1242803893,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14403539#JXSS","to":"wikipedia://en/87599","predicate":"listed-in","method":"list","confidence":"certain","span":[19331,19346],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3492608#F8RQ","to":"wikipedia://en/482471","predicate":"uses","method":"link-in-item","confidence":"high","span":[800,817],"revision":1325181736,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3492608#F8RQ","to":"wikipedia://en/4964","predicate":"uses","method":"link-in-item","confidence":"high","span":[862,883],"revision":1325181736,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3492608#F8RQ","to":"wikipedia://en/482471","predicate":"uses","method":"link-in-item","confidence":"high","span":[1122,1139],"revision":1325181736,"by":"importer/wikipedia/1"}

@@ -1,0 +1,43 @@
+{"from":"wikipedia://en/241820#FF6D","to":"wikipedia://en/12267919","predicate":"listed-in","method":"list","confidence":"certain","span":[43538,43555],"revision":1375503641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35669727","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[592,609],"revision":1369298930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35669727","to":"wikipedia://en/567292","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[614,635],"revision":1369298930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35669727","to":"wikipedia://en/43476","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1752,1775],"revision":1369298930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35669727","to":"wikipedia://en/35458904","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1780,1796],"revision":1369298930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35669727","to":"wikipedia://en/567292","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1830,1852],"revision":1369298930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35669727","to":"wikipedia://en/4380391","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1853,1869],"revision":1369298930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35669727","to":"wikipedia://en/4663849","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2142,2174],"revision":1369298930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35669727","to":"wikipedia://en/100796","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2340,2366],"revision":1369298930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35669727","to":"wikipedia://en/5148922","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2368,2399],"revision":1369298930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35669727","to":"wikipedia://en/567292","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2466,2488],"revision":1369298930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35669727","to":"wikipedia://en/4663849","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2540,2572],"revision":1369298930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35669727","to":"wikipedia://en/23454982","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2735,2759],"revision":1369298930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35669727","to":"wikipedia://en/4663849","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3274,3306],"revision":1369298930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35669727","to":"wikipedia://en/220104","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3466,3490],"revision":1369298930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35669727","to":"wikipedia://en/22060649","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[4394,4421],"revision":1369298930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35669727","to":"wikipedia://en/21786641","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[4426,4436],"revision":1369298930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35669727","to":"wikipedia://en/277456","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[4779,4805],"revision":1369298930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35669727","to":"wikipedia://en/277453","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[4807,4844],"revision":1369298930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35669727","to":"wikipedia://en/239210","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[4846,4871],"revision":1369298930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35669727","to":"Category:20th-century Indian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[5482,5529],"revision":1369298930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35669727","to":"Category:Mental calculators","predicate":"in-field","method":"category","confidence":"medium","span":[5530,5561],"revision":1369298930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35669727","to":"Category:Scientists from Bengaluru","predicate":"in-field","method":"category","confidence":"medium","span":[5614,5652],"revision":1369298930,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7149681#PO6Y","to":"wikipedia://en/2974","predicate":"uses","method":"link-in-item","confidence":"high","span":[491,508],"revision":1369246107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7149681#PO6Y","to":"wikipedia://en/48246","predicate":"uses","method":"link-in-item","confidence":"high","span":[590,612],"revision":1369246107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7149681#PO6Y","to":"wikipedia://en/21918","predicate":"uses","method":"link-in-item","confidence":"high","span":[1904,1923],"revision":1369246107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7149681#PO6Y","to":"wikipedia://en/230581","predicate":"related","method":"link-in-item","confidence":"low","span":[1927,1956],"revision":1369246107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7149681#PO6Y","to":"wikipedia://en/49176","predicate":"uses","method":"link-in-item","confidence":"high","span":[2043,2064],"revision":1369246107,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78920781","to":"wikipedia://en/14147","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[255,276],"revision":1329919003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78920781","to":"wikipedia://en/52564","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[281,315],"revision":1329919003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78920781","to":"wikipedia://en/41400343","predicate":"related","method":"link-in-lead","confidence":"low","span":[347,371],"revision":1329919003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78920781","to":"wikipedia://en/319763","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[410,427],"revision":1329919003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78920781","to":"wikipedia://en/115856","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[431,450],"revision":1329919003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78920781","to":"wikipedia://en/115933","predicate":"related","method":"link-in-text","confidence":"low","span":[562,583],"revision":1329919003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78920781","to":"wikipedia://en/488840","predicate":"related","method":"link-in-text","confidence":"low","span":[626,648],"revision":1329919003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78920781","to":"wikipedia://en/59801","predicate":"related","method":"link-in-text","confidence":"low","span":[686,712],"revision":1329919003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78920781","to":"wikipedia://en/45108074","predicate":"related","method":"link-in-text","confidence":"low","span":[931,947],"revision":1329919003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78920781","to":"wikipedia://en/284368","predicate":"related","method":"link-in-text","confidence":"low","span":[993,1019],"revision":1329919003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78920781","to":"wikipedia://en/60370943","predicate":"related","method":"link-in-text","confidence":"low","span":[1526,1570],"revision":1329919003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78920781","to":"wikipedia://en/9858698","predicate":"related","method":"link-in-text","confidence":"low","span":[1578,1618],"revision":1329919003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78920781","to":"Category:American mathematical analysts","predicate":"in-field","method":"category","confidence":"medium","span":[4123,4166],"revision":1329919003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78920781","to":"Category:21st-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4167,4216],"revision":1329919003,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78920781","to":"Category:21st-century American women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4217,4272],"revision":1329919003,"by":"importer/wikipedia/1"}

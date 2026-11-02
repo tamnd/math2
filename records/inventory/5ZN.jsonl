@@ -1,2 +1,8 @@
+{"id":"5ZN33Y0TQW","mentions":["wikipedia://en/35457783#VFRS"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5ZN5MEXWFV","mentions":["ax://paper/1311.6044#J5GX"],"kind":"statement","msc":["35-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}],"proofs":["ax://paper/1311.6044#69RC"]}
+{"id":"5ZNFBM76D5","mentions":["wikipedia://en/5427586"],"kind":"definition","name":"Strahler number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5ZNFH0SAGW","mentions":["wikipedia://en/64219#YPPA"],"kind":"unknown","name":"Total pressure (fluids)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5ZNKCMHZ0B","mentions":["wikipedia://en/964177#65TA"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5ZNRGWD5ZS","mentions":["wikipedia://en/102140#Z5G8"],"kind":"unknown","name":"Shell-crossing","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5ZNV9BXG7V","mentions":["wikipedia://en/41223821"],"kind":"topic","name":"Ralf J. Spatzier","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5ZNXJ5GT42","mentions":["m2://rec/wikidata/Q1532424#1"],"kind":"unknown","name":"quotient mapping","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

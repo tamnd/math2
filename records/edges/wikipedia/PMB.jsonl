@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/211842#NQ70","to":"wikipedia://en/37956","predicate":"uses","method":"link-in-item","confidence":"high","span":[2809,2834],"revision":1277713047,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/211842#NQ70","to":"wikipedia://en/13995","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2842,2854],"revision":1277713047,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34762736","to":"wikipedia://en/277663","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[583,619],"revision":1356712748,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34762736","to":"wikipedia://en/24131","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[687,694],"revision":1356712748,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34762736","to":"wikipedia://en/19545","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[706,715],"revision":1356712748,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34762736","to":"wikipedia://en/2382172","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[772,800],"revision":1356712748,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34762736","to":"wikipedia://en/2119352","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[801,819],"revision":1356712748,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34762736","to":"wikipedia://en/33455","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[831,846],"revision":1356712748,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34762736","to":"wikipedia://en/3161187","predicate":"related","method":"link-in-text","confidence":"low","span":[1000,1020],"revision":1356712748,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34762736","to":"wikipedia://en/2262333","predicate":"related","method":"link-in-text","confidence":"low","span":[1126,1168],"revision":1356712748,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34762736","to":"wikipedia://en/605856","predicate":"related","method":"link-in-text","confidence":"low","span":[1370,1383],"revision":1356712748,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34762736","to":"wikipedia://en/323710","predicate":"related","method":"link-in-text","confidence":"low","span":[1388,1401],"revision":1356712748,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34762736","to":"wikipedia://en/294834","predicate":"related","method":"link-in-text","confidence":"low","span":[1592,1606],"revision":1356712748,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34762736","to":"wikipedia://en/24809972","predicate":"related","method":"see-also","confidence":"low","span":[2143,2163],"revision":1356712748,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34762736","to":"Template:Portal","predicate":"in-nav","method":"nav","confidence":"low","span":[2212,2252],"revision":1356712748,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34762736","to":"Template:Official website","predicate":"in-nav","method":"nav","confidence":"low","span":[2254,2307],"revision":1356712748,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34762736","to":"Category:WordPress","predicate":"in-field","method":"category","confidence":"medium","span":[2309,2331],"revision":1356712748,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34762736","to":"Category:Web analytics","predicate":"in-field","method":"category","confidence":"medium","span":[2332,2358],"revision":1356712748,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34762736","to":"Category:Web software","predicate":"in-field","method":"category","confidence":"medium","span":[2359,2384],"revision":1356712748,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34762736","to":"Category:Free web analytics software","predicate":"in-field","method":"category","confidence":"medium","span":[2385,2425],"revision":1356712748,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34762736","to":"Category:Free software programmed in PHP","predicate":"in-field","method":"category","confidence":"medium","span":[2426,2470],"revision":1356712748,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34762736","to":"Category:Software using the GNU General Public License","predicate":"in-field","method":"category","confidence":"medium","span":[2471,2529],"revision":1356712748,"by":"importer/wikipedia/1"}

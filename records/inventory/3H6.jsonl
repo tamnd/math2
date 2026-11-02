@@ -1,2 +1,5 @@
-{"id":"3H618NPXDK","mentions":["m2://rec/wikidata/Q2294516#1"],"kind":"concept","name":"dual graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"3H618NPXDK","mentions":["m2://rec/wikidata/Q2294516#1","wikipedia://en/2536864"],"kind":"concept","name":"dual graph","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"3H62DSG5SF","mentions":["wikipedia://en/1700591"],"kind":"definition","name":"School Mathematics Study Group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"3H6EXX8MCV","mentions":["m2://rec/open_logic/content/first-order-logic/natural-deduction/provability-propositional.tex#proof-2#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"3H6KGH35M4","mentions":["wikipedia://en/3820870#LIV8"],"kind":"unknown","name":"Yakov Smirnoff","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"3H6Q9QSB8F","mentions":["wikipedia://en/14259066"],"kind":"definition","name":"Dual EC DRBG","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,0 +1,28 @@
+{"from":"wikipedia://en/25002118","to":"wikipedia://en/1431342","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[43,63],"revision":1354533829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25002118","to":"wikipedia://en/55762","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[78,100],"revision":1354533829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25002118","to":"wikipedia://en/11180","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[106,129],"revision":1354533829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25002118","to":"wikipedia://en/174706","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[168,181],"revision":1354533829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25002118","to":"wikipedia://en/22213","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[187,212],"revision":1354533829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25002118","to":"wikipedia://en/45270","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[270,287],"revision":1354533829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25002118","to":"wikipedia://en/52565","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[321,344],"revision":1354533829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25002118","to":"wikipedia://en/36941","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[386,406],"revision":1354533829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25002118","to":"wikipedia://en/166415","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[411,428],"revision":1354533829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25002118","to":"wikipedia://en/2073470","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[452,465],"revision":1354533829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25002118","to":"wikipedia://en/10913","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[480,492],"revision":1354533829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25002118","to":"wikipedia://en/12461","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[564,594],"revision":1354533829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25002118","to":"wikipedia://en/55762","predicate":"related","method":"link-in-text","confidence":"low","span":[3035,3056],"revision":1354533829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25002118","to":"wikipedia://en/1240011","predicate":"related","method":"link-in-text","confidence":"low","span":[4171,4196],"revision":1354533829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25002118","to":"wikipedia://en/430912","predicate":"related","method":"link-in-text","confidence":"low","span":[4590,4609],"revision":1354533829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25002118","to":"wikipedia://en/1235977","predicate":"related","method":"link-in-text","confidence":"low","span":[5097,5120],"revision":1354533829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25002118","to":"Template:Portal bar","predicate":"in-nav","method":"nav","confidence":"low","span":[8372,8417],"revision":1354533829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25002118","to":"Category:Markov processes","predicate":"in-field","method":"category","confidence":"medium","span":[8471,8500],"revision":1354533829,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37312651","to":"wikipedia://en/17730","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1026,1035],"revision":1276338400,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37312651","to":"wikipedia://en/69939","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1111,1133],"revision":1276338400,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37312651","to":"wikipedia://en/210340","predicate":"related","method":"link-in-lead","confidence":"low","span":[1158,1186],"revision":1276338400,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37312651","to":"wikipedia://en/450004","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1423,1452],"revision":1276338400,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37312651","to":"wikipedia://en/1475657","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1461,1495],"revision":1276338400,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37312651","to":"wikipedia://en/728168","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1858,1881],"revision":1276338400,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37312651","to":"Category:Mathematics books","predicate":"in-field","method":"category","confidence":"medium","span":[3462,3492],"revision":1276338400,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37312651","to":"Category:History of mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[3493,3528],"revision":1276338400,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37312651","to":"Category:Elliptic functions","predicate":"in-field","method":"category","confidence":"medium","span":[3529,3560],"revision":1276338400,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37312651","to":"Category:19th-century books in Latin","predicate":"in-field","method":"category","confidence":"medium","span":[3561,3601],"revision":1276338400,"by":"importer/wikipedia/1"}

@@ -1,0 +1,29 @@
+{"from":"wikipedia://en/1446801","to":"wikipedia://en/219268","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[127,150],"revision":1340792009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1446801","to":"wikipedia://en/22934","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[197,214],"revision":1340792009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1446801","to":"wikipedia://en/1911","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[260,271],"revision":1340792009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1446801","to":"wikipedia://en/160361","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[316,346],"revision":1340792009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1446801","to":"wikipedia://en/1493236","predicate":"related","method":"link-in-text","confidence":"low","span":[2040,2062],"revision":1340792009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1446801","to":"wikipedia://en/4482900","predicate":"related","method":"link-in-text","confidence":"low","span":[2573,2603],"revision":1340792009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1446801","to":"wikipedia://en/4482900","predicate":"related","method":"see-also","confidence":"low","span":[2621,2662],"revision":1340792009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1446801","to":"wikipedia://en/3441831","predicate":"related","method":"see-also","confidence":"low","span":[2665,2686],"revision":1340792009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1446801","to":"wikipedia://en/635546","predicate":"related","method":"see-also","confidence":"low","span":[2689,2731],"revision":1340792009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1446801","to":"wikipedia://en/662088","predicate":"related","method":"see-also","confidence":"low","span":[2734,2752],"revision":1340792009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1446801","to":"Category:Theory of probability distributions","predicate":"in-field","method":"category","confidence":"medium","span":[3963,4011],"revision":1340792009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1446801","to":"Category:Population genetics","predicate":"in-field","method":"category","confidence":"medium","span":[4012,4044],"revision":1340792009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1446801","to":"Category:Discrete distributions","predicate":"in-field","method":"category","confidence":"medium","span":[4045,4080],"revision":1340792009,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3326106#0BNG","to":"wikipedia://en/20556859","predicate":"uses","method":"link-in-item","confidence":"high","span":[1035,1066],"revision":1195292854,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#67XS","to":"wikipedia://en/33892805","predicate":"listed-in","method":"list","confidence":"certain","span":[53779,53796],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252845","to":"wikipedia://en/5176","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[417,429],"revision":1375875409,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252845","to":"wikipedia://en/6556971","predicate":"related","method":"see-also","confidence":"low","span":[88628,88651],"revision":1375875409,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252845","to":"wikipedia://en/34189212","predicate":"related","method":"see-also","confidence":"low","span":[88654,88690],"revision":1375875409,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252845","to":"wikipedia://en/34809573","predicate":"related","method":"see-also","confidence":"low","span":[88693,88718],"revision":1375875409,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252845","to":"wikipedia://en/36675565","predicate":"related","method":"see-also","confidence":"low","span":[88721,88744],"revision":1375875409,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252845","to":"wikipedia://en/18238240","predicate":"related","method":"see-also","confidence":"low","span":[88747,88797],"revision":1375875409,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252845","to":"wikipedia://en/13849906","predicate":"related","method":"see-also","confidence":"low","span":[88800,88853],"revision":1375875409,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252845","to":"wikipedia://en/306794","predicate":"related","method":"see-also","confidence":"low","span":[88856,88879],"revision":1375875409,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252845","to":"wikipedia://en/69034766","predicate":"related","method":"see-also","confidence":"low","span":[88882,88909],"revision":1375875409,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252845","to":"wikipedia://en/36626070","predicate":"related","method":"see-also","confidence":"low","span":[88912,88935],"revision":1375875409,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252845","to":"wikipedia://en/2142850","predicate":"related","method":"see-also","confidence":"low","span":[88938,88980],"revision":1375875409,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252845","to":"Template:Calculus topics","predicate":"in-nav","method":"nav","confidence":"low","span":[90979,90998],"revision":1375875409,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252845","to":"Category:Glossaries of mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[91000,91040],"revision":1375875409,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252845","to":"Category:Calculus","predicate":"in-field","method":"category","confidence":"medium","span":[91099,91120],"revision":1375875409,"by":"importer/wikipedia/1"}

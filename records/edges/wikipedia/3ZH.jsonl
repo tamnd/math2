@@ -1,0 +1,9 @@
+{"from":"wikipedia://en/14403539#B8RD","to":"wikipedia://en/67667544","predicate":"listed-in","method":"list","confidence":"certain","span":[9854,9872],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18934758","to":"wikipedia://en/1560035","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[142,158],"revision":1285965457,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18934758","to":"wikipedia://en/1340138","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[823,833],"revision":1285965457,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18934758","to":"wikipedia://en/1068512","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1438,1448],"revision":1285965457,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18934758","to":"wikipedia://en/160524","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2186,2198],"revision":1285965457,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18934758","to":"wikipedia://en/1042273","predicate":"related","method":"see-also","confidence":"low","span":[2642,2668],"revision":1285965457,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18934758","to":"wikipedia://en/1058994","predicate":"related","method":"see-also","confidence":"low","span":[2671,2680],"revision":1285965457,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18934758","to":"Template:Cryptography navbox","predicate":"in-nav","method":"nav","confidence":"low","span":[2820,2854],"revision":1285965457,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18934758","to":"Category:National Security Agency encryption devices","predicate":"in-field","method":"category","confidence":"medium","span":[2856,2912],"revision":1285965457,"by":"importer/wikipedia/1"}

@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/22130202","to":"wikipedia://en/1240378","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[279,300],"revision":1322757117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22130202","to":"wikipedia://en/12461","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[438,450],"revision":1322757117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22130202","to":"wikipedia://en/161879","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[456,472],"revision":1322757117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22130202","to":"wikipedia://en/20556859","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[509,540],"revision":1322757117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22130202","to":"wikipedia://en/8864","predicate":"related","method":"link-in-text","confidence":"low","span":[1365,1391],"revision":1322757117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22130202","to":"wikipedia://en/10389335","predicate":"related","method":"link-in-text","confidence":"low","span":[3103,3143],"revision":1322757117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22130202","to":"wikipedia://en/19817390","predicate":"related","method":"link-in-text","confidence":"low","span":[3299,3339],"revision":1322757117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22130202","to":"wikipedia://en/30875637","predicate":"related","method":"link-in-text","confidence":"low","span":[3479,3520],"revision":1322757117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22130202","to":"wikipedia://en/50903","predicate":"related","method":"link-in-text","confidence":"low","span":[3601,3621],"revision":1322757117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22130202","to":"wikipedia://en/406624","predicate":"related","method":"link-in-text","confidence":"low","span":[3712,3727],"revision":1322757117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22130202","to":"Category:Geometric algorithms","predicate":"in-field","method":"category","confidence":"medium","span":[3901,3934],"revision":1322757117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22130202","to":"Category:Signal processing","predicate":"in-field","method":"category","confidence":"medium","span":[3935,3965],"revision":1322757117,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2374187#21LU","to":"wikipedia://en/225261","predicate":"listed-in","method":"list","confidence":"certain","span":[13097,13118],"revision":1375804313,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/347836#M7WX","to":"wikipedia://en/2122340","predicate":"listed-in","method":"list","confidence":"certain","span":[3829,3855],"revision":1356076879,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/430493#X1WN","to":"wikipedia://en/142207","predicate":"uses","method":"link-in-item","confidence":"high","span":[17379,17411],"revision":1374811889,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/430493#X1WN","to":"wikipedia://en/180855","predicate":"uses","method":"link-in-item","confidence":"high","span":[17444,17461],"revision":1374811889,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/430493#X1WN","to":"wikipedia://en/2017338","predicate":"uses","method":"link-in-item","confidence":"high","span":[17466,17493],"revision":1374811889,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/430493#X1WN","to":"wikipedia://en/576108","predicate":"uses","method":"link-in-item","confidence":"high","span":[17518,17541],"revision":1374811889,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/430493#X1WN","to":"wikipedia://en/7330660","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[17984,18012],"revision":1374811889,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/430493#X1WN","to":"wikipedia://en/1634583","predicate":"uses","method":"link-in-item","confidence":"high","span":[18017,18061],"revision":1374811889,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76765067#FZ4A","to":"wikipedia://en/1348798","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[232100,232135],"revision":1368301704,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/76918343#IO6D","to":"wikipedia://en/66693061","predicate":"listed-in","method":"list","confidence":"certain","span":[1368,1386],"revision":1368950121,"by":"importer/wikipedia/1"}

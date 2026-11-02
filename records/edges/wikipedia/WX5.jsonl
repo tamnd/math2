@@ -1,0 +1,20 @@
+{"from":"wikipedia://en/14403539#JBZW","to":"wikipedia://en/2880488","predicate":"listed-in","method":"list","confidence":"certain","span":[13589,13608],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/183091#2UJC","to":"wikipedia://en/50650284","predicate":"listed-in","method":"list","confidence":"certain","span":[171948,171987],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/183091#2UJC","to":"wikipedia://en/67038003","predicate":"uses","method":"link-in-item","confidence":"medium","span":[171989,172005],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/183091#2UJC","to":"wikipedia://en/51001800","predicate":"related","method":"link-in-item","confidence":"low","span":[172024,172043],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22946501","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[616,633],"revision":1374253385,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22946501","to":"wikipedia://en/174216","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[672,699],"revision":1374253385,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22946501","to":"wikipedia://en/9531","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[736,762],"revision":1374253385,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22946501","to":"wikipedia://en/31924","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1327,1362],"revision":1374253385,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22946501","to":"wikipedia://en/406512","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1411,1422],"revision":1374253385,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22946501","to":"wikipedia://en/1694940","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1436,1467],"revision":1374253385,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22946501","to":"wikipedia://en/384695","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1788,1834],"revision":1374253385,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22946501","to":"wikipedia://en/4205075","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1869,1891],"revision":1374253385,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22946501","to":"wikipedia://en/22947690","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1960,1976],"revision":1374253385,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22946501","to":"wikipedia://en/1374448","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2052,2094],"revision":1374253385,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22946501","to":"wikipedia://en/325806","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2098,2119],"revision":1374253385,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22946501","to":"wikipedia://en/498304","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2836,2860],"revision":1374253385,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22946501","to":"wikipedia://en/10469986","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3468,3515],"revision":1374253385,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22946501","to":"Category:Graph theorists","predicate":"in-field","method":"category","confidence":"medium","span":[6537,6565],"revision":1374253385,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22946501","to":"Category:20th-century Iranian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[6566,6614],"revision":1374253385,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22946501","to":"Category:Iranian emigrants to the United States","predicate":"in-field","method":"category","confidence":"medium","span":[6615,6666],"revision":1374253385,"by":"importer/wikipedia/1"}

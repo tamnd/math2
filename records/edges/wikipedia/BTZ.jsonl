@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/25505011","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[573,588],"revision":1373183790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25505011","to":"wikipedia://en/10225","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[631,650],"revision":1373183790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25505011","to":"wikipedia://en/26012311","predicate":"related","method":"link-in-lead","confidence":"low","span":[662,711],"revision":1373183790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25505011","to":"wikipedia://en/11615","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[757,774],"revision":1373183790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25505011","to":"wikipedia://en/9966","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[793,824],"revision":1373183790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25505011","to":"wikipedia://en/18934432","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[860,876],"revision":1373183790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25505011","to":"wikipedia://en/198983","predicate":"related","method":"link-in-lead","confidence":"low","span":[895,918],"revision":1373183790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25505011","to":"wikipedia://en/58890947","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[923,938],"revision":1373183790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25505011","to":"wikipedia://en/649721","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1033,1053],"revision":1373183790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25505011","to":"wikipedia://en/243316","predicate":"related","method":"link-in-text","confidence":"low","span":[9461,9488],"revision":1373183790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25505011","to":"wikipedia://en/9966","predicate":"related","method":"link-in-text","confidence":"low","span":[9509,9557],"revision":1373183790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25505011","to":"wikipedia://en/242135","predicate":"related","method":"link-in-text","confidence":"low","span":[9693,9736],"revision":1373183790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25505011","to":"wikipedia://en/298834","predicate":"related","method":"link-in-text","confidence":"low","span":[9845,9874],"revision":1373183790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25505011","to":"wikipedia://en/25889726","predicate":"related","method":"see-also","confidence":"low","span":[17195,17220],"revision":1373183790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25505011","to":"wikipedia://en/25944272","predicate":"related","method":"see-also","confidence":"low","span":[17298,17349],"revision":1373183790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25505011","to":"Category:Elliptic curves","predicate":"in-field","method":"category","confidence":"medium","span":[18880,18908],"revision":1373183790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25505011","to":"Category:Elliptic curve cryptography","predicate":"in-field","method":"category","confidence":"medium","span":[18909,18949],"revision":1373183790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25505011","to":"Category:Quartic curves","predicate":"in-field","method":"category","confidence":"medium","span":[18950,18977],"revision":1373183790,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/708399#DWW7","to":"wikipedia://en/840132","predicate":"listed-in","method":"list","confidence":"certain","span":[78404,78425],"revision":1373214721,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/708399#DWW7","to":"wikipedia://en/15942","predicate":"related","method":"link-in-item","confidence":"low","span":[78427,78447],"revision":1373214721,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9202993#719N","to":"wikipedia://en/2841514","predicate":"listed-in","method":"list","confidence":"certain","span":[1587,1622],"revision":1374822410,"by":"importer/wikipedia/1"}

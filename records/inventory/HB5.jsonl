@@ -1,2 +1,4 @@
 {"id":"HB52Z8SX63","mentions":["m2://rec/napkin/tex/alg-geom/proj-var.tex#definition-10#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"HB5844W2W0","mentions":["wikipedia://en/64309372"],"kind":"definition","name":"LSH","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"HB5P7NFBZ7","mentions":["wikipedia://en/57242824#KCMI"],"kind":"topic","name":"Ehrenfried Walther von Tschirnhaus","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HB5VJ38DEC","mentions":["m2://rec/hott_book/index/u1.u5/odd-order-theorem#1"],"kind":"concept","name":"odd-order theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

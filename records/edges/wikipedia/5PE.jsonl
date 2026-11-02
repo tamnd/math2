@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/1520758","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[68,96],"revision":1318899106,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1520758","to":"wikipedia://en/12401","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[106,122],"revision":1318899106,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1520758","to":"wikipedia://en/325806","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[176,206],"revision":1318899106,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1520758","to":"wikipedia://en/34513","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[207,215],"revision":1318899106,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1520758","to":"wikipedia://en/325806","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[216,254],"revision":1318899106,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1520758","to":"wikipedia://en/325802","predicate":"related","method":"see-also","confidence":"low","span":[5203,5231],"revision":1318899106,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1520758","to":"wikipedia://en/878962","predicate":"related","method":"see-also","confidence":"low","span":[5234,5249],"revision":1318899106,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1520758","to":"wikipedia://en/4587190","predicate":"related","method":"see-also","confidence":"low","span":[5252,5266],"revision":1318899106,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1520758","to":"Category:Graph families","predicate":"in-field","method":"category","confidence":"medium","span":[5570,5597],"revision":1318899106,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1520758","to":"Category:Regular graphs","predicate":"in-field","method":"category","confidence":"medium","span":[5598,5625],"revision":1318899106,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/342038#A67S","to":"wikipedia://en/1362652","predicate":"listed-in","method":"list","confidence":"certain","span":[3311,3329],"revision":1346170872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/705014#FWJ2","to":"wikipedia://en/23760380","predicate":"listed-in","method":"list","confidence":"certain","span":[2359,2384],"revision":1362125744,"by":"importer/wikipedia/1"}

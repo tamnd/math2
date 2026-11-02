@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/14403539#5U7U","to":"wikipedia://en/47689010","predicate":"listed-in","method":"list","confidence":"certain","span":[25015,25037],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26497499","to":"wikipedia://en/4460333","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[113,139],"revision":1376326412,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26497499","to":"wikipedia://en/14563","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[174,186],"revision":1376326412,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26497499","to":"wikipedia://en/23666","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[208,225],"revision":1376326412,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26497499","to":"wikipedia://en/33569","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[259,279],"revision":1376326412,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26497499","to":"wikipedia://en/44758","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[319,342],"revision":1376326412,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26497499","to":"wikipedia://en/2337582","predicate":"related","method":"link-in-lead","confidence":"low","span":[382,397],"revision":1376326412,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26497499","to":"wikipedia://en/23692","predicate":"uses","method":"named-link","confidence":"high","span":[1428,1452],"revision":1376326412,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26497499","to":"wikipedia://en/1521283","predicate":"related","method":"link-in-text","confidence":"low","span":[2475,2529],"revision":1376326412,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26497499","to":"wikipedia://en/467111","predicate":"related","method":"link-in-text","confidence":"low","span":[2534,2576],"revision":1376326412,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26497499","to":"Category:Additive number theory","predicate":"in-field","method":"category","confidence":"medium","span":[3308,3343],"revision":1376326412,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26497499","to":"Category:Conjectures about prime numbers","predicate":"kind-of","method":"category","confidence":"medium","span":[3344,3388],"revision":1376326412,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26497499","to":"Category:Unsolved problems in number theory","predicate":"kind-of","method":"category","confidence":"medium","span":[3389,3436],"revision":1376326412,"by":"importer/wikipedia/1"}

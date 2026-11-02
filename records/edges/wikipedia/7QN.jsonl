@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/1403586#UY5H","to":"wikipedia://en/13931969","predicate":"listed-in","method":"list","confidence":"certain","span":[196684,196709],"revision":1375861581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1403586#UY5H","to":"wikipedia://en/5716","predicate":"uses","method":"link-in-item","confidence":"medium","span":[196744,196755],"revision":1375861581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3095525","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[33,48],"revision":1221005334,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3095525","to":"wikipedia://en/2482337","predicate":"related","method":"link-in-lead","confidence":"low","span":[127,142],"revision":1221005334,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3095525","to":"wikipedia://en/648311","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[154,176],"revision":1221005334,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3095525","to":"wikipedia://en/2380148","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[203,223],"revision":1221005334,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3095525","to":"wikipedia://en/253260","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[267,313],"revision":1221005334,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3095525","to":"wikipedia://en/398578","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[379,398],"revision":1221005334,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3095525","to":"wikipedia://en/3212617","predicate":"related","method":"see-also","confidence":"low","span":[749,771],"revision":1221005334,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3095525","to":"wikipedia://en/3088901","predicate":"related","method":"see-also","confidence":"low","span":[773,815],"revision":1221005334,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3095525","to":"Category:Algebraic surfaces","predicate":"in-field","method":"category","confidence":"medium","span":[936,967],"revision":1221005334,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3095525","to":"Category:Theorems in algebraic geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[968,1011],"revision":1221005334,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41685609#RYM0","to":"wikipedia://en/68274","predicate":"listed-in","method":"list","confidence":"certain","span":[2488,2510],"revision":1365481337,"by":"importer/wikipedia/1"}

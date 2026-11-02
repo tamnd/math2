@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/19662#OVA2","to":"wikipedia://en/48260","predicate":"uses","method":"link-in-item","confidence":"high","span":[23432,23478],"revision":1371804921,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19662#OVA2","to":"wikipedia://en/48260","predicate":"uses","method":"link-in-item","confidence":"high","span":[24363,24394],"revision":1371804921,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/352181#MPXF","to":"wikipedia://en/443387","predicate":"listed-in","method":"list","confidence":"certain","span":[5449,5464],"revision":1346165939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/352181#MPXF","to":"wikipedia://en/404082","predicate":"uses","method":"link-in-item","confidence":"high","span":[5466,5492],"revision":1346165939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/352181#MPXF","to":"wikipedia://en/1001361","predicate":"uses","method":"link-in-item","confidence":"high","span":[5494,5513],"revision":1346165939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/352181#MPXF","to":"wikipedia://en/3876151","predicate":"uses","method":"link-in-item","confidence":"high","span":[5515,5537],"revision":1346165939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/356213#C3HS","to":"wikipedia://en/1012494","predicate":"listed-in","method":"list","confidence":"certain","span":[2946,2965],"revision":1359895470,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44311819","to":"wikipedia://en/23659805","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[114,134],"revision":1260870622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44311819","to":"wikipedia://en/3182658","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[187,204],"revision":1260870622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44311819","to":"wikipedia://en/1643733","predicate":"related","method":"link-in-lead","confidence":"low","span":[753,769],"revision":1260870622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44311819","to":"Category:Computer algebra","predicate":"in-field","method":"category","confidence":"medium","span":[1648,1677],"revision":1260870622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44311819","to":"Category:Ring theory","predicate":"in-field","method":"category","confidence":"medium","span":[1678,1702],"revision":1260870622,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#WTAM","to":"wikipedia://en/3086117","predicate":"listed-in","method":"list","confidence":"certain","span":[43120,43140],"revision":1373230097,"by":"importer/wikipedia/1"}

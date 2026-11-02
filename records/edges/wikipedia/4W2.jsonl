@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/26179254#ST1H","to":"wikipedia://en/26179254#GBJS","predicate":"generalizes","method":"link-in-item","confidence":"medium","span":[14699,14754],"revision":1376165349,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26179254#ST1H","to":"wikipedia://en/64979699","predicate":"generalizes","method":"link-in-item","confidence":"medium","span":[14887,14905],"revision":1376165349,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27301235#RDIK","to":"wikipedia://en/370648","predicate":"uses","method":"link-in-item","confidence":"medium","span":[8038,8053],"revision":1361067050,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/27301235#RDIK","to":"wikipedia://en/276702","predicate":"uses","method":"link-in-item","confidence":"medium","span":[8095,8108],"revision":1361067050,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29044559","to":"wikipedia://en/178649","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[54,74],"revision":1334026150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29044559","to":"wikipedia://en/30450","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[383,413],"revision":1334026150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29044559","to":"wikipedia://en/285301","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[421,436],"revision":1334026150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29044559","to":"wikipedia://en/15575410","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[491,517],"revision":1334026150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29044559","to":"wikipedia://en/65309248","predicate":"related","method":"see-also","confidence":"low","span":[2270,2292],"revision":1334026150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29044559","to":"wikipedia://en/338403","predicate":"related","method":"see-also","confidence":"low","span":[2295,2329],"revision":1334026150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29044559","to":"Category:General topology","predicate":"in-field","method":"category","confidence":"medium","span":[2557,2586],"revision":1334026150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29044559","to":"Category:Topological spaces","predicate":"in-field","method":"category","confidence":"medium","span":[2587,2618],"revision":1334026150,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3053436#PGRL","to":"wikipedia://en/245933","predicate":"related","method":"link-in-proof","confidence":"low","span":[4436,4475],"revision":1330875358,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3053436#PGRL","to":"wikipedia://en/98981","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[4904,4926],"revision":1330875358,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3053436#PGRL","to":"wikipedia://en/582530","predicate":"uses","method":"link-in-proof","confidence":"high","span":[5680,5713],"revision":1330875358,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/599970#SDZM","to":"wikipedia://en/15585793","predicate":"listed-in","method":"list","confidence":"certain","span":[5649,5688],"revision":1347211680,"by":"importer/wikipedia/1"}

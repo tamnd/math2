@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/236098","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[160,175],"revision":1354946118,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/236098","to":"wikipedia://en/27838","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[208,220],"revision":1354946118,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/236098","to":"wikipedia://en/23572","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[641,658],"revision":1354946118,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/236098","to":"wikipedia://en/2696560","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[946,959],"revision":1354946118,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/236098","to":"wikipedia://en/835827","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1325,1341],"revision":1354946118,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/236098","to":"wikipedia://en/553920","predicate":"related","method":"see-also","confidence":"low","span":[5931,5954],"revision":1354946118,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/236098","to":"wikipedia://en/44837","predicate":"related","method":"see-also","confidence":"low","span":[5957,5994],"revision":1354946118,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/236098","to":"wikipedia://en/4587078","predicate":"related","method":"see-also","confidence":"low","span":[5997,6031],"revision":1354946118,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/236098","to":"wikipedia://en/39293242","predicate":"related","method":"see-also","confidence":"low","span":[6034,6069],"revision":1354946118,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/236098","to":"wikipedia://en/236105","predicate":"related","method":"see-also","confidence":"low","span":[6072,6102],"revision":1354946118,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/236098","to":"Category:Elementary mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[6207,6242],"revision":1354946118,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/236098","to":"Category:Sequences and series","predicate":"in-field","method":"category","confidence":"medium","span":[6243,6276],"revision":1354946118,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565351#7KBO","to":"wikipedia://en/488636","predicate":"listed-in","method":"list","confidence":"certain","span":[1121,1151],"revision":1373350261,"by":"importer/wikipedia/1"}

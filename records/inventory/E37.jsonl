@@ -1,2 +1,6 @@
 {"id":"E371QV5RAJ","mentions":["m2://rec/lebl_diffyqs/ch-fourier-and-pde.tex#afs:steadyex#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"E3784Y7EED","mentions":["m2://rec/austin_ula/src/exercises/exercises3-5.xml#exercise-9#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"E37858XKEF","mentions":["wikipedia://en/51567965"],"kind":"definition","name":"Administrative data","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"E37EBW4PWW","mentions":["wikipedia://en/22609470#CSO8"],"kind":"definition","name":"complex numbers","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"E37JH8E6Q5","mentions":["wikipedia://en/26392#FUD6"],"kind":"unknown","name":"T.45 (standard)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"E37V1EHES4","mentions":["wikipedia://en/241820#DE7M","wikipedia://en/517370#6UHQ"],"kind":"definition","name":"Truncated alternated cubic honeycomb","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

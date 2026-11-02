@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/21922476","to":"wikipedia://en/18422","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[83,101],"revision":1285635245,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21922476","to":"wikipedia://en/126474","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[132,162],"revision":1285635245,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21922476","to":"wikipedia://en/519218","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[164,198],"revision":1285635245,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21922476","to":"wikipedia://en/20556859","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[212,245],"revision":1285635245,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21922476","to":"wikipedia://en/2161429","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[291,306],"revision":1285635245,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21922476","to":"wikipedia://en/301380","predicate":"related","method":"link-in-lead","confidence":"low","span":[519,541],"revision":1285635245,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21922476","to":"wikipedia://en/1181008","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[921,945],"revision":1285635245,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21922476","to":"wikipedia://en/7330660","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[947,975],"revision":1285635245,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21922476","to":"wikipedia://en/29324","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[981,1002],"revision":1285635245,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21922476","to":"Category:Matrices (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[1063,1098],"revision":1285635245,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21922476","to":"Category:Numerical linear algebra","predicate":"in-field","method":"category","confidence":"medium","span":[1099,1136],"revision":1285635245,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/563980","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[466,481],"revision":1351956383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/563980","to":"wikipedia://en/51421","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[522,563],"revision":1351956383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/563980","to":"wikipedia://en/15807","predicate":"related","method":"link-in-lead","confidence":"low","span":[1141,1175],"revision":1351956383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/563980","to":"wikipedia://en/26392","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2350,2373],"revision":1351956383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/563980","to":"wikipedia://en/50359643","predicate":"related","method":"see-also","confidence":"low","span":[16309,16332],"revision":1351956383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/563980","to":"wikipedia://en/18908678","predicate":"related","method":"see-also","confidence":"low","span":[16335,16357],"revision":1351956383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/563980","to":"wikipedia://en/925519","predicate":"related","method":"see-also","confidence":"low","span":[16360,16372],"revision":1351956383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/563980","to":"Category:Base-dependent integer sequences","predicate":"in-field","method":"category","confidence":"medium","span":[17188,17233],"revision":1351956383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/563980","to":"Category:Algebraic numbers","predicate":"in-field","method":"category","confidence":"medium","span":[17234,17264],"revision":1351956383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/563980","to":"Category:Irrational numbers","predicate":"in-field","method":"category","confidence":"medium","span":[17265,17296],"revision":1351956383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/563980","to":"Category:Mathematical constants","predicate":"kind-of","method":"category","confidence":"medium","span":[17297,17332],"revision":1351956383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/563980","to":"Category:John Horton Conway","predicate":"in-field","method":"category","confidence":"medium","span":[17333,17364],"revision":1351956383,"by":"importer/wikipedia/1"}

@@ -1,0 +1,18 @@
+{"from":"wikipedia://en/18568#I8UL","to":"wikipedia://en/3375856","predicate":"listed-in","method":"list","confidence":"certain","span":[17697,17713],"revision":1374574577,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29232472#PY9L","to":"wikipedia://en/771562","predicate":"listed-in","method":"list","confidence":"certain","span":[6183,6228],"revision":1365581962,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29232472#PY9L","to":"wikipedia://en/955164","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[6258,6284],"revision":1365581962,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29232472#PY9L","to":"wikipedia://en/481119","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6298,6320],"revision":1365581962,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29232472#PY9L","to":"wikipedia://en/6657292","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6333,6405],"revision":1365581962,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29232472#PY9L","to":"wikipedia://en/11197892","predicate":"uses","method":"link-in-item","confidence":"high","span":[6407,6422],"revision":1365581962,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29232472#PY9L","to":"wikipedia://en/12942590","predicate":"uses","method":"link-in-item","confidence":"high","span":[6424,6442],"revision":1365581962,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82875810","to":"wikipedia://en/320470","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[851,871],"revision":1350067979,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82875810","to":"wikipedia://en/913002","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[951,980],"revision":1350067979,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82875810","to":"wikipedia://en/381700","predicate":"related","method":"link-in-text","confidence":"low","span":[1166,1231],"revision":1350067979,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82875810","to":"wikipedia://en/79810","predicate":"related","method":"link-in-text","confidence":"low","span":[1554,1600],"revision":1350067979,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82875810","to":"wikipedia://en/14330","predicate":"related","method":"link-in-text","confidence":"low","span":[1838,1856],"revision":1350067979,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82875810","to":"wikipedia://en/863444","predicate":"related","method":"link-in-text","confidence":"low","span":[2219,2236],"revision":1350067979,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82875810","to":"wikipedia://en/38107926","predicate":"related","method":"link-in-text","confidence":"low","span":[2245,2272],"revision":1350067979,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82875810","to":"wikipedia://en/1563021","predicate":"related","method":"link-in-text","confidence":"low","span":[2697,2737],"revision":1350067979,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82875810","to":"wikipedia://en/19698110","predicate":"related","method":"link-in-text","confidence":"low","span":[3773,3783],"revision":1350067979,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82875810","to":"Category:American educators","predicate":"in-field","method":"category","confidence":"medium","span":[11713,11744],"revision":1350067979,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82875810","to":"Category:Academics from London","predicate":"in-field","method":"category","confidence":"medium","span":[11802,11836],"revision":1350067979,"by":"importer/wikipedia/1"}

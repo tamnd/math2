@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/191457#ILQS","to":"wikipedia://en/11845980","predicate":"listed-in","method":"list","confidence":"certain","span":[66404,66430],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31211#FY6R","to":"wikipedia://en/8293820","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[10193,10240],"revision":1375930971,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31211#FY6R","to":"wikipedia://en/226505","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[10872,10906],"revision":1375930971,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41257403","to":"wikipedia://en/19873","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[106,124],"revision":1373413157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41257403","to":"wikipedia://en/20018","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[140,198],"revision":1373413157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41257403","to":"wikipedia://en/26064288","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[215,260],"revision":1373413157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41257403","to":"wikipedia://en/45270","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[341,358],"revision":1373413157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41257403","to":"wikipedia://en/340198","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[392,475],"revision":1373413157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41257403","to":"wikipedia://en/291614","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1038,1055],"revision":1373413157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41257403","to":"wikipedia://en/25306204","predicate":"related","method":"link-in-text","confidence":"low","span":[1753,1771],"revision":1373413157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41257403","to":"wikipedia://en/1073126","predicate":"specializes","method":"link-in-text","confidence":"medium","span":[2174,2191],"revision":1373413157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41257403","to":"wikipedia://en/45194","predicate":"specializes","method":"link-in-text","confidence":"medium","span":[2213,2251],"revision":1373413157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41257403","to":"Category:Theorems in measure theory","predicate":"kind-of","method":"category","confidence":"medium","span":[2609,2648],"revision":1373413157,"by":"importer/wikipedia/1"}

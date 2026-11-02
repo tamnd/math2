@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/14403539#Y23O","to":"wikipedia://en/34839472","predicate":"listed-in","method":"list","confidence":"certain","span":[21101,21118],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40162275","to":"wikipedia://en/26685","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[59,73],"revision":1375712918,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40162275","to":"wikipedia://en/26703","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[100,113],"revision":1375712918,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40162275","to":"wikipedia://en/359684","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[154,166],"revision":1375712918,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40162275","to":"wikipedia://en/30876902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[226,326],"revision":1375712918,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40162275","to":"wikipedia://en/8450479","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[393,415],"revision":1375712918,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40162275","to":"wikipedia://en/10005756","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[881,896],"revision":1375712918,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40162275","to":"wikipedia://en/32344","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[979,998],"revision":1375712918,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40162275","to":"wikipedia://en/140824","predicate":"related","method":"link-in-text","confidence":"low","span":[1211,1228],"revision":1375712918,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40162275","to":"wikipedia://en/359684","predicate":"related","method":"see-also","confidence":"low","span":[2252,2264],"revision":1375712918,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40162275","to":"wikipedia://en/10043","predicate":"related","method":"see-also","confidence":"low","span":[2267,2280],"revision":1375712918,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40162275","to":"wikipedia://en/1583470","predicate":"related","method":"see-also","confidence":"low","span":[2283,2322],"revision":1375712918,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40162275","to":"wikipedia://en/2175504","predicate":"related","method":"see-also","confidence":"low","span":[2325,2359],"revision":1375712918,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40162275","to":"wikipedia://en/40149934","predicate":"related","method":"see-also","confidence":"low","span":[2362,2373],"revision":1375712918,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40162275","to":"Category:Estimation theory","predicate":"in-field","method":"category","confidence":"medium","span":[2622,2652],"revision":1375712918,"by":"importer/wikipedia/1"}

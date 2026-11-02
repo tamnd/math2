@@ -1,0 +1,28 @@
+{"from":"wikipedia://en/10283346","to":"wikipedia://en/2538775","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[135,176],"revision":1361592196,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10283346","to":"wikipedia://en/1593617","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[223,239],"revision":1361592196,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10283346","to":"wikipedia://en/416612","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[263,313],"revision":1361592196,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10283346","to":"wikipedia://en/9223","predicate":"related","method":"link-in-text","confidence":"low","span":[494,507],"revision":1361592196,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10283346","to":"wikipedia://en/11162","predicate":"related","method":"link-in-text","confidence":"low","span":[512,523],"revision":1361592196,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10283346","to":"wikipedia://en/173332","predicate":"related","method":"link-in-text","confidence":"low","span":[870,885],"revision":1361592196,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10283346","to":"wikipedia://en/1554356","predicate":"related","method":"link-in-text","confidence":"low","span":[2133,2178],"revision":1361592196,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10283346","to":"wikipedia://en/148633","predicate":"related","method":"link-in-text","confidence":"low","span":[2256,2287],"revision":1361592196,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10283346","to":"wikipedia://en/148633","predicate":"related","method":"link-in-text","confidence":"low","span":[3632,3663],"revision":1361592196,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10283346","to":"Category:Tests","predicate":"in-field","method":"category","confidence":"medium","span":[8443,8461],"revision":1361592196,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10283346","to":"Category:Technical analysis","predicate":"in-field","method":"category","confidence":"medium","span":[8462,8493],"revision":1361592196,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10283346","to":"Category:Mathematical modeling","predicate":"in-field","method":"category","confidence":"medium","span":[8494,8528],"revision":1361592196,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10283346","to":"Category:Numerical climate and weather models","predicate":"in-field","method":"category","confidence":"medium","span":[8529,8578],"revision":1361592196,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10283346","to":"Category:Statistical forecasting","predicate":"in-field","method":"category","confidence":"medium","span":[8579,8615],"revision":1361592196,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14403539#EXNW","to":"wikipedia://en/862226","predicate":"listed-in","method":"list","confidence":"certain","span":[46069,46086],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3152853","to":"wikipedia://en/157175","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[194,211],"revision":1070898512,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3152853","to":"wikipedia://en/26691","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[215,240],"revision":1070898512,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3152853","to":"wikipedia://en/21474","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[250,269],"revision":1070898512,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3152853","to":"wikipedia://en/157178","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[323,352],"revision":1070898512,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3152853","to":"wikipedia://en/168389","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[399,426],"revision":1070898512,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3152853","to":"wikipedia://en/157178","predicate":"related","method":"link-in-text","confidence":"low","span":[2033,2062],"revision":1070898512,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3152853","to":"wikipedia://en/340240","predicate":"related","method":"see-also","confidence":"low","span":[2499,2521],"revision":1070898512,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3152853","to":"Category:Basic concepts in set theory","predicate":"in-field","method":"category","confidence":"medium","span":[3019,3060],"revision":1070898512,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3152853","to":"Category:Ramsey theory","predicate":"in-field","method":"category","confidence":"medium","span":[3061,3087],"revision":1070898512,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3152853","to":"Category:Theorems in discrete mathematics","predicate":"kind-of","method":"category","confidence":"medium","span":[3088,3133],"revision":1070898512,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3614395#U188","to":"wikipedia://en/30450","predicate":"uses","method":"link-in-item","confidence":"high","span":[365,387],"revision":1328349772,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3614395#U188","to":"wikipedia://en/24910","predicate":"uses","method":"link-in-item","confidence":"high","span":[455,475],"revision":1328349772,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3614395#U188","to":"wikipedia://en/372090","predicate":"uses","method":"link-in-item","confidence":"high","span":[1250,1265],"revision":1328349772,"by":"importer/wikipedia/1"}

@@ -1,1 +1,4 @@
+{"id":"XQN8VSVYHK","mentions":["wikipedia://en/15224289#54QB"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XQNDWKYS5A","mentions":["m2://rec/hott_book/index/1.15/type-limit#1"],"kind":"concept","name":"type, limit","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"XQNQPDJ08X","mentions":["wikipedia://en/16758771#J6A9"],"kind":"unknown","name":"Koebe function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"XQNVFGMW1K","mentions":["wikipedia://en/40842906#X2OU"],"kind":"topic","name":"Szüsz, Peter","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

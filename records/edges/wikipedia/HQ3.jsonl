@@ -1,0 +1,5 @@
+{"from":"wikipedia://en/1243451#I41N","to":"wikipedia://en/44844703","predicate":"uses","method":"link-in-item","confidence":"high","span":[3384,3412],"revision":1310069411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35475314","to":"wikipedia://en/20518076","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[85,107],"revision":1281202444,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35475314","to":"Category:United States Navy","predicate":"in-field","method":"category","confidence":"medium","span":[594,625],"revision":1281202444,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35475314","to":"Category:Signals intelligence of World War I","predicate":"in-field","method":"category","confidence":"medium","span":[626,674],"revision":1281202444,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35475314","to":"Category:Military communications of the United States","predicate":"in-field","method":"category","confidence":"medium","span":[675,732],"revision":1281202444,"by":"importer/wikipedia/1"}

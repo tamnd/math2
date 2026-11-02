@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/232844#RCC8","to":"wikipedia://en/41887951","predicate":"related","method":"link-in-item","confidence":"low","span":[10711,10762],"revision":1361541509,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2390225#0GXH","to":"wikipedia://en/355140","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[51342,51372],"revision":1376093804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2390225#0GXH","to":"wikipedia://en/355140","predicate":"uses","method":"link-in-item","confidence":"high","span":[51435,51465],"revision":1376093804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2390225#0GXH","to":"wikipedia://en/355140","predicate":"uses","method":"link-in-item","confidence":"high","span":[51548,51575],"revision":1376093804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3820870#5TQJ","to":"wikipedia://en/621827","predicate":"listed-in","method":"list","confidence":"certain","span":[24563,24580],"revision":1373538872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#VCT0","to":"wikipedia://en/4081361","predicate":"listed-in","method":"list","confidence":"certain","span":[36728,36749],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#VCT0","to":"wikipedia://en/5759","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[36752,36772],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62990578","to":"wikipedia://en/906055","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[200,227],"revision":1241995740,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62990578","to":"wikipedia://en/23009144","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[338,367],"revision":1241995740,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62990578","to":"wikipedia://en/13958387","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[957,985],"revision":1241995740,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62990578","to":"wikipedia://en/144610","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1102,1152],"revision":1241995740,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62990578","to":"Category:French mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1584,1618],"revision":1241995740,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62990578","to":"Category:French women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1619,1659],"revision":1241995740,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62990578","to":"Category:French National Centre for Scientific Research scientists","predicate":"in-field","method":"category","confidence":"medium","span":[1660,1730],"revision":1241995740,"by":"importer/wikipedia/1"}

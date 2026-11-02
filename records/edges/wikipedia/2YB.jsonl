@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/1590804","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[158,186],"revision":1256140997,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1590804","to":"wikipedia://en/3925533","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[196,225],"revision":1256140997,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1590804","to":"wikipedia://en/298428","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[227,264],"revision":1256140997,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1590804","to":"wikipedia://en/1588279","predicate":"related","method":"see-also","confidence":"low","span":[5547,5575],"revision":1256140997,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1590804","to":"wikipedia://en/741875","predicate":"related","method":"see-also","confidence":"low","span":[5578,5601],"revision":1256140997,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1590804","to":"Category:Combinatorics","predicate":"in-field","method":"category","confidence":"medium","span":[5679,5705],"revision":1256140997,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1590804","to":"Category:Mathematical principles","predicate":"in-field","method":"category","confidence":"medium","span":[5706,5742],"revision":1256140997,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21353343#3782","to":"wikipedia://en/55632","predicate":"uses","method":"link-in-item","confidence":"high","span":[5206,5228],"revision":1294985057,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8233045#3LR1","to":"wikipedia://en/18198","predicate":"uses","method":"link-in-item","confidence":"high","span":[1794,1814],"revision":1290755938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8233045#3LR1","to":"wikipedia://en/9697","predicate":"uses","method":"link-in-item","confidence":"high","span":[1830,1849],"revision":1290755938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8233045#3LR1","to":"wikipedia://en/19873","predicate":"uses","method":"link-in-item","confidence":"high","span":[2466,2502],"revision":1290755938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8233045#3LR1","to":"wikipedia://en/240790","predicate":"uses","method":"link-in-item","confidence":"high","span":[2598,2620],"revision":1290755938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8233045#3LR1","to":"wikipedia://en/99862","predicate":"uses","method":"link-in-item","confidence":"high","span":[2676,2690],"revision":1290755938,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8233045#3LR1","to":"wikipedia://en/191786","predicate":"uses","method":"link-in-item","confidence":"high","span":[3403,3423],"revision":1290755938,"by":"importer/wikipedia/1"}

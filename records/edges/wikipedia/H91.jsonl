@@ -1,0 +1,49 @@
+{"from":"wikipedia://en/1716123#SGYB","to":"wikipedia://en/3593817","predicate":"uses","method":"link-in-item","confidence":"high","span":[7494,7516],"revision":1364233922,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1716123#SGYB","to":"wikipedia://en/5745198","predicate":"uses","method":"link-in-item","confidence":"high","span":[7682,7695],"revision":1364233922,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1716123#SGYB","to":"wikipedia://en/5745210","predicate":"uses","method":"link-in-item","confidence":"high","span":[7729,7742],"revision":1364233922,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1716123#SGYB","to":"wikipedia://en/1656473","predicate":"uses","method":"link-in-item","confidence":"medium","span":[7759,7822],"revision":1364233922,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1716123#SGYB","to":"wikipedia://en/48246","predicate":"uses","method":"link-in-item","confidence":"high","span":[7874,7896],"revision":1364233922,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1716123#SGYB","to":"wikipedia://en/145661","predicate":"uses","method":"link-in-item","confidence":"high","span":[7983,7999],"revision":1364233922,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1716123#SGYB","to":"wikipedia://en/145661","predicate":"uses","method":"link-in-item","confidence":"high","span":[8088,8103],"revision":1364233922,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26213761","to":"wikipedia://en/146983","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[389,415],"revision":1306381964,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26213761","to":"wikipedia://en/7085992","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[439,472],"revision":1306381964,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26213761","to":"wikipedia://en/28538","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[488,502],"revision":1306381964,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26213761","to":"wikipedia://en/164402","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[508,540],"revision":1306381964,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26213761","to":"wikipedia://en/13361521","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[576,588],"revision":1306381964,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26213761","to":"wikipedia://en/4905794","predicate":"related","method":"link-in-text","confidence":"low","span":[2201,2225],"revision":1306381964,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26213761","to":"wikipedia://en/17616","predicate":"related","method":"link-in-text","confidence":"low","span":[2302,2334],"revision":1306381964,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26213761","to":"wikipedia://en/8378","predicate":"related","method":"see-also","confidence":"low","span":[3701,3711],"revision":1306381964,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26213761","to":"wikipedia://en/255217","predicate":"related","method":"see-also","confidence":"low","span":[3714,3731],"revision":1306381964,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26213761","to":"wikipedia://en/31696675","predicate":"related","method":"see-also","confidence":"low","span":[3734,3754],"revision":1306381964,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26213761","to":"wikipedia://en/17640193","predicate":"related","method":"see-also","confidence":"low","span":[3757,3802],"revision":1306381964,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26213761","to":"wikipedia://en/20479","predicate":"related","method":"see-also","confidence":"low","span":[3812,3829],"revision":1306381964,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26213761","to":"wikipedia://en/13452154","predicate":"related","method":"see-also","confidence":"low","span":[3832,3856],"revision":1306381964,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26213761","to":"Category:Geomagnetism","predicate":"in-field","method":"category","confidence":"medium","span":[4282,4307],"revision":1306381964,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26213761","to":"Category:Magnetic field of the Earth","predicate":"in-field","method":"category","confidence":"medium","span":[4308,4348],"revision":1306381964,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26213761","to":"Category:Space physics","predicate":"in-field","method":"category","confidence":"medium","span":[4349,4375],"revision":1306381964,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52277324","to":"wikipedia://en/19594028","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[159,184],"revision":1303893640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52277324","to":"wikipedia://en/47384","predicate":"related","method":"link-in-text","confidence":"low","span":[307,326],"revision":1303893640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52277324","to":"wikipedia://en/7954422","predicate":"related","method":"link-in-text","confidence":"low","span":[662,684],"revision":1303893640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52277324","to":"wikipedia://en/25523","predicate":"related","method":"link-in-text","confidence":"low","span":[728,747],"revision":1303893640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52277324","to":"wikipedia://en/174216","predicate":"related","method":"link-in-text","confidence":"low","span":[1119,1146],"revision":1303893640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52277324","to":"wikipedia://en/184179","predicate":"related","method":"link-in-text","confidence":"low","span":[1278,1310],"revision":1303893640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52277324","to":"wikipedia://en/285292","predicate":"related","method":"link-in-text","confidence":"low","span":[1418,1453],"revision":1303893640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52277324","to":"wikipedia://en/160773","predicate":"related","method":"link-in-text","confidence":"low","span":[1541,1572],"revision":1303893640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52277324","to":"wikipedia://en/14776225","predicate":"related","method":"link-in-text","confidence":"low","span":[2929,2944],"revision":1303893640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52277324","to":"wikipedia://en/222368","predicate":"related","method":"link-in-text","confidence":"low","span":[3096,3125],"revision":1303893640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52277324","to":"wikipedia://en/243062","predicate":"related","method":"link-in-text","confidence":"low","span":[3207,3262],"revision":1303893640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52277324","to":"wikipedia://en/2606860","predicate":"related","method":"link-in-text","confidence":"low","span":[3283,3313],"revision":1303893640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52277324","to":"Category:20th-century American physicists","predicate":"in-field","method":"category","confidence":"medium","span":[7208,7253],"revision":1303893640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52277324","to":"Category:21st-century American physicists","predicate":"in-field","method":"category","confidence":"medium","span":[7254,7299],"revision":1303893640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52277324","to":"Category:American quantum physicists","predicate":"in-field","method":"category","confidence":"medium","span":[7300,7340],"revision":1303893640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52277324","to":"Category:American theoretical physicists","predicate":"in-field","method":"category","confidence":"medium","span":[7341,7385],"revision":1303893640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52277324","to":"Category:American historians of science","predicate":"in-field","method":"category","confidence":"medium","span":[7386,7429],"revision":1303893640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/52277324","to":"Category:Scientists from New York City","predicate":"in-field","method":"category","confidence":"medium","span":[7568,7610],"revision":1303893640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62471938","to":"wikipedia://en/5170","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[67,84],"revision":1315423087,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62471938","to":"wikipedia://en/12401","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[89,105],"revision":1315423087,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62471938","to":"wikipedia://en/62469111","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[577,601],"revision":1315423087,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62471938","to":"wikipedia://en/59842040","predicate":"related","method":"see-also","confidence":"low","span":[10930,10953],"revision":1315423087,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62471938","to":"Category:Lemmas","predicate":"kind-of","method":"category","confidence":"medium","span":[10985,11004],"revision":1315423087,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62471938","to":"Category:Combinatorics","predicate":"in-field","method":"category","confidence":"medium","span":[11005,11031],"revision":1315423087,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/62471938","to":"Category:Theorems in graph theory","predicate":"kind-of","method":"category","confidence":"medium","span":[11032,11069],"revision":1315423087,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/69167071#HUE6","to":"wikipedia://en/18657553","predicate":"listed-in","method":"list","confidence":"certain","span":[1579,1609],"revision":1348976878,"by":"importer/wikipedia/1"}

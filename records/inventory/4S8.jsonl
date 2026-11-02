@@ -1,1 +1,5 @@
+{"id":"4S83VVG0C1","mentions":["wikipedia://en/47565351#A4EM"],"kind":"unknown","name":"Half Moon Point","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4S87RA60C9","mentions":["wikipedia://en/3476379#59JZ"],"kind":"unknown","name":"Zero vector","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4S8B8FSA8R","mentions":["wikipedia://en/20624916"],"kind":"topic","name":"Jan H. van Schuppen","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4S8RW5MHQG","mentions":["wikipedia://en/47738065#JT0A"],"kind":"unknown","name":"Hendrik Bremekamp","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4S8VCVS1XJ","mentions":["ax://paper/2609.27689#88YZ"],"kind":"definition","msc":["60-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}

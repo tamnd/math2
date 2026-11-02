@@ -1,2 +1,4 @@
-{"id":"D4QSS87E2Z","mentions":["m2://rec/wikidata/Q17015268#1"],"kind":"statement","name":"Gale–Ryser theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"D4QRMPS3Y9","mentions":["wikipedia://en/325802#EWJA"],"kind":"definition","name":"biregular","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"D4QSS87E2Z","mentions":["m2://rec/wikidata/Q17015268#1","wikipedia://en/42442683"],"kind":"statement","name":"Gale–Ryser theorem","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"D4QY8Q9W2W","mentions":["m2://rec/lebl_diffyqs/ch-intro.tex#exercise-2#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"D4QZB6V72P","mentions":["wikipedia://en/567523#SWRQ"],"kind":"definition","name":"Terminology","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

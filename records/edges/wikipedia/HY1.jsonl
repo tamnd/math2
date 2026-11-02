@@ -1,0 +1,4 @@
+{"from":"wikipedia://en/17324351","to":"wikipedia://en/6125","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[213,237],"revision":1248272301,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17324351","to":"wikipedia://en/22145","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[245,264],"revision":1248272301,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17324351","to":"wikipedia://en/14627","predicate":"related","method":"link-in-lead","confidence":"low","span":[272,288],"revision":1248272301,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17324351","to":"Category:Numerical analysis","predicate":"in-field","method":"category","confidence":"medium","span":[801,832],"revision":1248272301,"by":"importer/wikipedia/1"}

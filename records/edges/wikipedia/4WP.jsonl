@@ -1,0 +1,30 @@
+{"from":"wikipedia://en/2035985","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[127,139],"revision":1334499822,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2035985","to":"wikipedia://en/172098","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[320,331],"revision":1334499822,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2035985","to":"wikipedia://en/706020","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[335,345],"revision":1334499822,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2035985","to":"wikipedia://en/2038396","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1286,1310],"revision":1334499822,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2035985","to":"wikipedia://en/347733","predicate":"related","method":"link-in-text","confidence":"low","span":[1781,1819],"revision":1334499822,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2035985","to":"wikipedia://en/23984289","predicate":"related","method":"see-also","confidence":"low","span":[2255,2267],"revision":1334499822,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2035985","to":"wikipedia://en/37294557","predicate":"related","method":"see-also","confidence":"low","span":[2383,2411],"revision":1334499822,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2035985","to":"Category:Geometric shapes","predicate":"in-field","method":"category","confidence":"medium","span":[3718,3747],"revision":1334499822,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2035985","to":"Category:Mathematical optimization","predicate":"in-field","method":"category","confidence":"medium","span":[3748,3786],"revision":1334499822,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44093125","to":"wikipedia://en/8625","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[88,113],"revision":1325000503,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44093125","to":"wikipedia://en/310921","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[190,208],"revision":1325000503,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44093125","to":"wikipedia://en/4290894","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[291,323],"revision":1325000503,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44093125","to":"wikipedia://en/310923","predicate":"related","method":"link-in-text","confidence":"low","span":[3975,3991],"revision":1325000503,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44093125","to":"wikipedia://en/17945","predicate":"related","method":"link-in-text","confidence":"low","span":[4062,4075],"revision":1325000503,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44093125","to":"wikipedia://en/4257207","predicate":"related","method":"link-in-text","confidence":"low","span":[4584,4625],"revision":1325000503,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44093125","to":"wikipedia://en/882902","predicate":"related","method":"link-in-text","confidence":"low","span":[4686,4709],"revision":1325000503,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44093125","to":"wikipedia://en/10109649","predicate":"related","method":"link-in-text","confidence":"low","span":[6722,6744],"revision":1325000503,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44093125","to":"wikipedia://en/891255","predicate":"related","method":"link-in-text","confidence":"low","span":[7001,7018],"revision":1325000503,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44093125","to":"Category:Symplectic geometry","predicate":"in-field","method":"category","confidence":"medium","span":[8400,8432],"revision":1325000503,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44093125","to":"Category:Differential geometry","predicate":"in-field","method":"category","confidence":"medium","span":[8433,8467],"revision":1325000503,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8094016","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[81,96],"revision":1346520886,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8094016","to":"wikipedia://en/20556859","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[167,198],"revision":1346520886,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8094016","to":"Template:Matrix classes","predicate":"in-nav","method":"nav","confidence":"low","span":[3279,3297],"revision":1346520886,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8094016","to":"Category:Matrices (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[3329,3364],"revision":1346520886,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8907443#8HEJ","to":"wikipedia://en/39358","predicate":"uses","method":"link-in-item","confidence":"high","span":[6559,6574],"revision":1322099549,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8907443#8HEJ","to":"wikipedia://en/43327","predicate":"uses","method":"link-in-item","confidence":"high","span":[6625,6638],"revision":1322099549,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8907443#8HEJ","to":"wikipedia://en/23636","predicate":"uses","method":"link-in-item","confidence":"high","span":[6646,6659],"revision":1322099549,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8907443#8HEJ","to":"wikipedia://en/240790","predicate":"uses","method":"link-in-item","confidence":"high","span":[6997,7043],"revision":1322099549,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8907443#8HEJ","to":"wikipedia://en/683561","predicate":"uses","method":"link-in-item","confidence":"high","span":[7160,7179],"revision":1322099549,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8907443#8HEJ","to":"wikipedia://en/240790","predicate":"uses","method":"link-in-item","confidence":"high","span":[7187,7233],"revision":1322099549,"by":"importer/wikipedia/1"}

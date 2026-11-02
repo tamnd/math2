@@ -1,1 +1,5 @@
+{"id":"KNW23Q0M0R","mentions":["wikipedia://en/61859557"],"kind":"topic","name":"Joanne Moldenhauer","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"KNWD82JGV0","mentions":["wikipedia://en/325802#LSQH"],"kind":"definition","name":"carving width","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"KNWD8G7Q1Q","mentions":["wikipedia://en/76765067#EWJ8"],"kind":"definition","name":"translation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"KNWGCC5TP6","mentions":["wikipedia://en/5930192"],"kind":"definition","name":"Bessel–Clifford function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"KNWRDT6463","mentions":["ax://paper/2605.24355#X5RO"],"kind":"example","msc":["94-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.6"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.6"}]}

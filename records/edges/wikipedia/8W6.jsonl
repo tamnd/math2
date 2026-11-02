@@ -1,0 +1,10 @@
+{"from":"wikipedia://en/346167#J4E7","to":"wikipedia://en/174908","predicate":"listed-in","method":"list","confidence":"certain","span":[3611,3635],"revision":1368371824,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/351549#YDR4","to":"wikipedia://en/248808","predicate":"listed-in","method":"list","confidence":"certain","span":[2119,2140],"revision":1346728004,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#0XSJ","to":"wikipedia://en/46230112","predicate":"listed-in","method":"list","confidence":"certain","span":[40648,40679],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#0XSJ","to":"wikipedia://en/52564","predicate":"uses","method":"link-in-item","confidence":"high","span":[40683,40717],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74341487","to":"wikipedia://en/22999113","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[125,146],"revision":1239736486,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74341487","to":"wikipedia://en/28300822","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[151,172],"revision":1239736486,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74341487","to":"wikipedia://en/2988093","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[258,287],"revision":1239736486,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74341487","to":"wikipedia://en/22999259","predicate":"related","method":"link-in-lead","confidence":"low","span":[404,444],"revision":1239736486,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74341487","to":"Category:Theorems in algebraic geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[6358,6401],"revision":1239736486,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/74341487","to":"Category:Theorems in complex geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[6402,6443],"revision":1239736486,"by":"importer/wikipedia/1"}

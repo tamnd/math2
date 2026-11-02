@@ -1,0 +1,24 @@
+{"from":"wikipedia://en/34351523","to":"wikipedia://en/61636","predicate":"related","method":"link-in-lead","confidence":"low","span":[100,116],"revision":1374704018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34351523","to":"wikipedia://en/393135","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[151,172],"revision":1374704018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34351523","to":"wikipedia://en/10859","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[221,238],"revision":1374704018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34351523","to":"wikipedia://en/250323","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[333,350],"revision":1374704018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34351523","to":"wikipedia://en/173181","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[443,463],"revision":1374704018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34351523","to":"wikipedia://en/144652","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[488,510],"revision":1374704018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34351523","to":"wikipedia://en/173181","predicate":"related","method":"link-in-text","confidence":"low","span":[601,628],"revision":1374704018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34351523","to":"wikipedia://en/4452009","predicate":"related","method":"link-in-text","confidence":"low","span":[644,651],"revision":1374704018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34351523","to":"wikipedia://en/144652","predicate":"related","method":"link-in-text","confidence":"low","span":[936,957],"revision":1374704018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34351523","to":"wikipedia://en/497413","predicate":"related","method":"link-in-text","confidence":"low","span":[2440,2469],"revision":1374704018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34351523","to":"wikipedia://en/148420","predicate":"related","method":"link-in-text","confidence":"low","span":[2496,2520],"revision":1374704018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34351523","to":"Category:Meromorphic functions","predicate":"in-field","method":"category","confidence":"medium","span":[7891,7927],"revision":1374704018,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70197#TWUA","to":"wikipedia://en/784781","predicate":"uses","method":"link-in-item","confidence":"medium","span":[49189,49220],"revision":1376332666,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70197#TWUA","to":"wikipedia://en/645042","predicate":"uses","method":"link-in-item","confidence":"medium","span":[49532,49558],"revision":1376332666,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70197#TWUA","to":"wikipedia://en/18110","predicate":"uses","method":"link-in-item","confidence":"medium","span":[49560,49575],"revision":1376332666,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70197#TWUA","to":"wikipedia://en/6886","predicate":"uses","method":"link-in-item","confidence":"medium","span":[49577,49588],"revision":1376332666,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70197#TWUA","to":"wikipedia://en/108956","predicate":"uses","method":"link-in-item","confidence":"medium","span":[49590,49610],"revision":1376332666,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70197#TWUA","to":"wikipedia://en/24437894","predicate":"uses","method":"link-in-item","confidence":"medium","span":[49612,49622],"revision":1376332666,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70197#TWUA","to":"wikipedia://en/49728","predicate":"uses","method":"link-in-item","confidence":"medium","span":[49624,49641],"revision":1376332666,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70197#TWUA","to":"wikipedia://en/53846","predicate":"uses","method":"link-in-item","confidence":"medium","span":[49643,49652],"revision":1376332666,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70197#TWUA","to":"wikipedia://en/50585","predicate":"uses","method":"link-in-item","confidence":"medium","span":[49654,49670],"revision":1376332666,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70197#TWUA","to":"wikipedia://en/53838","predicate":"uses","method":"link-in-item","confidence":"medium","span":[49672,49682],"revision":1376332666,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/70197#TWUA","to":"wikipedia://en/3138","predicate":"uses","method":"link-in-item","confidence":"medium","span":[49688,49699],"revision":1376332666,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7247677#IJ1S","to":"wikipedia://en/23666","predicate":"uses","method":"link-in-item","confidence":"high","span":[5887,5904],"revision":1320331638,"by":"importer/wikipedia/1"}

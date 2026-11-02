@@ -1,0 +1,20 @@
+{"from":"wikipedia://en/47738065#LR9T","to":"wikipedia://en/292169","predicate":"listed-in","method":"list","confidence":"certain","span":[72359,72385],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#CCCM","to":"wikipedia://en/51020709","predicate":"listed-in","method":"list","confidence":"certain","span":[12963,12981],"revision":1356718736,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#CCCM","to":"wikipedia://en/41568902","predicate":"uses","method":"link-in-item","confidence":"medium","span":[13025,13083],"revision":1356718736,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80767898","to":"wikipedia://en/31797","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1274,1298],"revision":1345512555,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80767898","to":"wikipedia://en/128351","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1352,1378],"revision":1345512555,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80767898","to":"wikipedia://en/25475","predicate":"related","method":"link-in-text","confidence":"low","span":[1602,1623],"revision":1345512555,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80767898","to":"wikipedia://en/1184251","predicate":"related","method":"link-in-text","confidence":"low","span":[1624,1667],"revision":1345512555,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80767898","to":"wikipedia://en/1943361","predicate":"related","method":"link-in-text","confidence":"low","span":[1672,1688],"revision":1345512555,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80767898","to":"wikipedia://en/31803","predicate":"related","method":"link-in-text","confidence":"low","span":[1983,2013],"revision":1345512555,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80767898","to":"wikipedia://en/460615","predicate":"related","method":"link-in-text","confidence":"low","span":[2023,2110],"revision":1345512555,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80767898","to":"wikipedia://en/21031297","predicate":"related","method":"link-in-text","confidence":"low","span":[2228,2256],"revision":1345512555,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80767898","to":"wikipedia://en/614956","predicate":"related","method":"link-in-text","confidence":"low","span":[2357,2376],"revision":1345512555,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80767898","to":"wikipedia://en/52029","predicate":"related","method":"link-in-text","confidence":"low","span":[2557,2587],"revision":1345512555,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80767898","to":"wikipedia://en/12431148","predicate":"related","method":"link-in-text","confidence":"low","span":[2643,2665],"revision":1345512555,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80767898","to":"wikipedia://en/628169","predicate":"related","method":"link-in-text","confidence":"low","span":[2673,2698],"revision":1345512555,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80767898","to":"wikipedia://en/128351","predicate":"related","method":"link-in-text","confidence":"low","span":[2790,2816],"revision":1345512555,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80767898","to":"wikipedia://en/31797","predicate":"related","method":"link-in-text","confidence":"low","span":[2870,2894],"revision":1345512555,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80767898","to":"Category:Academics of the University of Oxford","predicate":"in-field","method":"category","confidence":"medium","span":[3175,3225],"revision":1345512555,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80767898","to":"Category:Academics of University College London","predicate":"in-field","method":"category","confidence":"medium","span":[3226,3277],"revision":1345512555,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/80767898","to":"Category:British academics","predicate":"in-field","method":"category","confidence":"medium","span":[3328,3358],"revision":1345512555,"by":"importer/wikipedia/1"}

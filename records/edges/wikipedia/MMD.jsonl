@@ -1,0 +1,20 @@
+{"from":"wikipedia://en/14403539#OD6Y","to":"wikipedia://en/38934769","predicate":"listed-in","method":"list","confidence":"certain","span":[41555,41575],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39752021","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[979,996],"revision":1372013048,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39752021","to":"wikipedia://en/18716923","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1016,1027],"revision":1372013048,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39752021","to":"wikipedia://en/1194080","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1461,1521],"revision":1372013048,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39752021","to":"wikipedia://en/41890","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1616,1647],"revision":1372013048,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39752021","to":"wikipedia://en/41890","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1714,1747],"revision":1372013048,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39752021","to":"wikipedia://en/349223","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1774,1789],"revision":1372013048,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39752021","to":"Category:Presidents of the Indian Mathematical Society","predicate":"in-field","method":"category","confidence":"medium","span":[2974,3032],"revision":1372013048,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39752021","to":"Category:20th-century Indian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3033,3080],"revision":1372013048,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39752021","to":"Category:Indian group theorists","predicate":"in-field","method":"category","confidence":"medium","span":[3081,3116],"revision":1372013048,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39752021","to":"Category:Panjab University","predicate":"in-field","method":"category","confidence":"medium","span":[3117,3147],"revision":1372013048,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9469328","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[55,70],"revision":1369137602,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9469328","to":"wikipedia://en/7975294","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[141,157],"revision":1369137602,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9469328","to":"wikipedia://en/30764139","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[173,189],"revision":1369137602,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9469328","to":"wikipedia://en/1160","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[301,317],"revision":1369137602,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9469328","to":"wikipedia://en/30876162","predicate":"related","method":"link-in-lead","confidence":"low","span":[350,380],"revision":1369137602,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9469328","to":"wikipedia://en/1018","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[518,548],"revision":1369137602,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9469328","to":"wikipedia://en/1066621","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[552,595],"revision":1369137602,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9469328","to":"wikipedia://en/1193823","predicate":"related","method":"see-also","confidence":"low","span":[699,722],"revision":1369137602,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9469328","to":"Category:Theorems in algebraic geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[1240,1283],"revision":1369137602,"by":"importer/wikipedia/1"}

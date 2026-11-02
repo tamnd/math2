@@ -1,1 +1,7 @@
+{"id":"EG97B4T0QX","mentions":["wikipedia://en/1706965#KJ3A"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"EG9817GE8J","mentions":["wikipedia://en/76765067#6D72"],"kind":"definition","name":"ordered n-tuple","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"EG9FEDRH16","mentions":["wikipedia://en/1403586#CDFZ"],"kind":"unknown","name":"Patrick Argüello","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"EG9P63EV9M","mentions":["wikipedia://en/18992933#OLFX"],"kind":"statement","name":"Manin-Mumford conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EG9Q7RVP7A","mentions":["ax://paper/2609.38267#9DNX"],"kind":"statement","name":"Adaptive estimation","msc":["62-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
+{"id":"EG9X0WH0F8","mentions":["wikipedia://en/47738065#UVOR"],"kind":"unknown","name":"Jeong Han Kim","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"EG9YSVD5CZ","mentions":["wikipedia://en/79861357"],"kind":"topic","name":"Albert Badrikian","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

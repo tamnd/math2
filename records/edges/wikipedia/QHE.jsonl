@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/14675761#QI8Z","to":"wikipedia://en/603780","predicate":"uses","method":"link-in-item","confidence":"high","span":[3503,3538],"revision":1334969309,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47058944","to":"wikipedia://en/29954","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[240,252],"revision":1355924468,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47058944","to":"wikipedia://en/14907","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[317,345],"revision":1355924468,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47058944","to":"wikipedia://en/1251702","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[349,385],"revision":1355924468,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47058944","to":"wikipedia://en/1679700","predicate":"related","method":"link-in-text","confidence":"low","span":[2077,2102],"revision":1355924468,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47058944","to":"wikipedia://en/310889","predicate":"related","method":"link-in-text","confidence":"low","span":[2118,2132],"revision":1355924468,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47058944","to":"wikipedia://en/194060","predicate":"related","method":"link-in-text","confidence":"low","span":[2180,2194],"revision":1355924468,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47058944","to":"wikipedia://en/10987","predicate":"related","method":"link-in-text","confidence":"low","span":[2195,2207],"revision":1355924468,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47058944","to":"wikipedia://en/782162","predicate":"related","method":"see-also","confidence":"low","span":[2244,2263],"revision":1355924468,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47058944","to":"wikipedia://en/21568751","predicate":"related","method":"see-also","confidence":"low","span":[2265,2287],"revision":1355924468,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47058944","to":"wikipedia://en/3127114","predicate":"related","method":"see-also","confidence":"low","span":[2289,2308],"revision":1355924468,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47058944","to":"Category:Topology","predicate":"in-field","method":"category","confidence":"medium","span":[2550,2571],"revision":1355924468,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47058944","to":"Category:Homotopy theory","predicate":"in-field","method":"category","confidence":"medium","span":[2572,2600],"revision":1355924468,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#W6OK","to":"wikipedia://en/33963270","predicate":"listed-in","method":"list","confidence":"certain","span":[58712,58728],"revision":1373230097,"by":"importer/wikipedia/1"}

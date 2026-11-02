@@ -1,0 +1,52 @@
+{"from":"wikipedia://en/10460511#3NU8","to":"wikipedia://en/1861608","predicate":"related","method":"hatnote","confidence":"medium","span":[3186,3198],"revision":1374739433,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10460511#3NU8","to":"wikipedia://en/1861608","predicate":"uses","method":"link-in-item","confidence":"high","span":[3314,3331],"revision":1374739433,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10460511#3NU8","to":"wikipedia://en/21605719","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3341,3366],"revision":1374739433,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10460511#3NU8","to":"wikipedia://en/39781","predicate":"uses","method":"link-in-item","confidence":"high","span":[3433,3444],"revision":1374739433,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2597408#1CLQ","to":"wikipedia://en/44837","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[1723,1741],"revision":1359395708,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2597408#1CLQ","to":"wikipedia://en/44837","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[1746,1764],"revision":1359395708,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2597408#1CLQ","to":"wikipedia://en/18881","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[2001,2037],"revision":1359395708,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/356213#FMXZ","to":"wikipedia://en/355401","predicate":"listed-in","method":"list","confidence":"certain","span":[4277,4297],"revision":1359895470,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72080744","to":"wikipedia://en/7398","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1611,1646],"revision":1371645347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72080744","to":"wikipedia://en/173973","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1672,1681],"revision":1371645347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72080744","to":"wikipedia://en/521286","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1798,1825],"revision":1371645347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72080744","to":"wikipedia://en/4092830","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2183,2226],"revision":1371645347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72080744","to":"wikipedia://en/23572536","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2650,2699],"revision":1371645347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72080744","to":"wikipedia://en/13459565","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2990,3011],"revision":1371645347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72080744","to":"wikipedia://en/661174","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3381,3409],"revision":1371645347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72080744","to":"wikipedia://en/4092830","predicate":"related","method":"link-in-text","confidence":"low","span":[4601,4644],"revision":1371645347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72080744","to":"wikipedia://en/56517759","predicate":"related","method":"link-in-text","confidence":"low","span":[6061,6096],"revision":1371645347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72080744","to":"Category:Computer companies of Germany","predicate":"in-field","method":"category","confidence":"medium","span":[7482,7524],"revision":1371645347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72080744","to":"Category:Computer hardware companies","predicate":"in-field","method":"category","confidence":"medium","span":[7525,7565],"revision":1371645347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72080744","to":"Category:Companies based in North Rhine-Westphalia","predicate":"in-field","method":"category","confidence":"medium","span":[7566,7620],"revision":1371645347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72080744","to":"Category:Companies based in Essen","predicate":"in-field","method":"category","confidence":"medium","span":[7621,7658],"revision":1371645347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72080744","to":"Category:Information technology consulting firms of Germany","predicate":"in-field","method":"category","confidence":"medium","span":[7659,7722],"revision":1371645347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72080744","to":"Category:ICT service providers","predicate":"in-field","method":"category","confidence":"medium","span":[7723,7757],"revision":1371645347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72080744","to":"Category:Software companies of Germany","predicate":"in-field","method":"category","confidence":"medium","span":[7758,7800],"revision":1371645347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72080744","to":"Category:Networking hardware companies","predicate":"in-field","method":"category","confidence":"medium","span":[7801,7843],"revision":1371645347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72080744","to":"Category:Networking software companies","predicate":"in-field","method":"category","confidence":"medium","span":[7844,7886],"revision":1371645347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72080744","to":"Category:Computer security companies","predicate":"in-field","method":"category","confidence":"medium","span":[7887,7927],"revision":1371645347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72080744","to":"Category:Companies listed on the Frankfurt Stock Exchange","predicate":"in-field","method":"category","confidence":"medium","span":[7928,7989],"revision":1371645347,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7338849","to":"wikipedia://en/26685","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[229,243],"revision":1244746011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7338849","to":"wikipedia://en/826997","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[385,408],"revision":1244746011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7338849","to":"wikipedia://en/221722","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[445,476],"revision":1244746011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7338849","to":"wikipedia://en/32344","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[489,502],"revision":1244746011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7338849","to":"wikipedia://en/437701","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[506,545],"revision":1244746011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7338849","to":"wikipedia://en/51331","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1026,1038],"revision":1244746011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7338849","to":"wikipedia://en/437701","predicate":"related","method":"link-in-text","confidence":"low","span":[1326,1348],"revision":1244746011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7338849","to":"wikipedia://en/5477568","predicate":"related","method":"link-in-text","confidence":"low","span":[1354,1377],"revision":1244746011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7338849","to":"wikipedia://en/21347678","predicate":"related","method":"link-in-text","confidence":"low","span":[1433,1457],"revision":1244746011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7338849","to":"wikipedia://en/437276","predicate":"related","method":"link-in-text","confidence":"low","span":[1598,1613],"revision":1244746011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7338849","to":"wikipedia://en/29018709","predicate":"related","method":"link-in-text","confidence":"low","span":[1793,1832],"revision":1244746011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7338849","to":"wikipedia://en/21347678","predicate":"related","method":"link-in-text","confidence":"low","span":[3667,3691],"revision":1244746011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7338849","to":"wikipedia://en/51331","predicate":"related","method":"link-in-text","confidence":"low","span":[3731,3743],"revision":1244746011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7338849","to":"wikipedia://en/3105999","predicate":"related","method":"link-in-text","confidence":"low","span":[4453,4468],"revision":1244746011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7338849","to":"wikipedia://en/23773247","predicate":"related","method":"link-in-text","confidence":"low","span":[4507,4545],"revision":1244746011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7338849","to":"wikipedia://en/21462","predicate":"related","method":"link-in-text","confidence":"low","span":[4718,4742],"revision":1244746011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7338849","to":"wikipedia://en/28212","predicate":"related","method":"link-in-text","confidence":"low","span":[4755,4774],"revision":1244746011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7338849","to":"wikipedia://en/39284103","predicate":"related","method":"link-in-text","confidence":"low","span":[4776,4825],"revision":1244746011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7338849","to":"wikipedia://en/1068378","predicate":"related","method":"link-in-text","confidence":"low","span":[4829,4867],"revision":1244746011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7338849","to":"wikipedia://en/48758386","predicate":"related","method":"see-also","confidence":"low","span":[5299,5320],"revision":1244746011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7338849","to":"wikipedia://en/29018709","predicate":"related","method":"see-also","confidence":"low","span":[5322,5349],"revision":1244746011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7338849","to":"wikipedia://en/437276","predicate":"related","method":"see-also","confidence":"low","span":[5351,5366],"revision":1244746011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7338849","to":"wikipedia://en/3620926","predicate":"related","method":"see-also","confidence":"low","span":[5368,5396],"revision":1244746011,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7338849","to":"Category:Regression analysis","predicate":"in-field","method":"category","confidence":"medium","span":[6598,6630],"revision":1244746011,"by":"importer/wikipedia/1"}

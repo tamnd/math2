@@ -1,0 +1,9 @@
+{"from":"wikipedia://en/28100142","to":"wikipedia://en/8490267","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[158,201],"revision":1342335300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28100142","to":"wikipedia://en/198822","predicate":"related","method":"link-in-lead","confidence":"low","span":[219,252],"revision":1342335300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28100142","to":"wikipedia://en/234930","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[475,483],"revision":1342335300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28100142","to":"Category:Publications of the American Mathematical Society","predicate":"in-field","method":"category","confidence":"medium","span":[821,883],"revision":1342335300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28100142","to":"Category:Publications established in 1943","predicate":"in-field","method":"category","confidence":"medium","span":[884,929],"revision":1342335300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28100142","to":"Category:Monographic series","predicate":"in-field","method":"category","confidence":"medium","span":[930,961],"revision":1342335300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28100142","to":"Category:Mathematics book series","predicate":"in-field","method":"category","confidence":"medium","span":[962,998],"revision":1342335300,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/468884#0VFX","to":"wikipedia://en/178959","predicate":"listed-in","method":"list","confidence":"certain","span":[5176,5194],"revision":1344164290,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252845#S8SI","to":"wikipedia://en/229940","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[85626,85649],"revision":1375875409,"by":"importer/wikipedia/1"}

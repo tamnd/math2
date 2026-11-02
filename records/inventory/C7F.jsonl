@@ -1,1 +1,5 @@
+{"id":"C7F1F3CSSX","mentions":["wikipedia://en/43580500#BQC2"],"kind":"definition","name":"zero function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"C7F3JKJ0JY","mentions":["wikipedia://en/10072717#XZSB"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"C7FG3XNH2G","mentions":["m2://rec/lebl_ra/ch-multivar-int.tex#prop-1#1"],"kind":"statement","name":"Monotonicity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"C7FJSB23WK","mentions":["wikipedia://en/14403539#AWEI"],"kind":"unknown","name":"Israel Nathan Herstein","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"C7FTF18ZD1","mentions":["wikipedia://en/1027229"],"kind":"definition","name":"Method of analytic tableaux","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}],"proofs":["wikipedia://en/1027229#U522"]}

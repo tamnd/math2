@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/10640474","to":"wikipedia://en/712675","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[36,55],"revision":1308004406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10640474","to":"wikipedia://en/20598932","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[156,174],"revision":1308004406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10640474","to":"wikipedia://en/19447","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[190,220],"revision":1308004406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10640474","to":"wikipedia://en/10273855","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[263,291],"revision":1308004406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10640474","to":"wikipedia://en/292788","predicate":"related","method":"link-in-text","confidence":"low","span":[3061,3087],"revision":1308004406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10640474","to":"wikipedia://en/56353","predicate":"related","method":"link-in-text","confidence":"low","span":[5550,5565],"revision":1308004406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10640474","to":"Category:Operator theory","predicate":"in-field","method":"category","confidence":"medium","span":[7777,7805],"revision":1308004406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10640474","to":"Category:Representation theory of groups","predicate":"in-field","method":"category","confidence":"medium","span":[7806,7850],"revision":1308004406,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1804034","to":"wikipedia://en/774458","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[163,180],"revision":1169784345,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1804034","to":"wikipedia://en/420555","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[211,241],"revision":1169784345,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1804034","to":"wikipedia://en/89247","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[335,362],"revision":1169784345,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1804034","to":"wikipedia://en/495383","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[363,398],"revision":1169784345,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1804034","to":"wikipedia://en/313942","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[462,506],"revision":1169784345,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1804034","to":"wikipedia://en/44636079","predicate":"related","method":"see-also","confidence":"low","span":[3134,3174],"revision":1169784345,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1804034","to":"wikipedia://en/26536158","predicate":"related","method":"see-also","confidence":"low","span":[3177,3204],"revision":1169784345,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1804034","to":"wikipedia://en/313942","predicate":"related","method":"see-also","confidence":"low","span":[3207,3238],"revision":1169784345,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1804034","to":"wikipedia://en/774458","predicate":"related","method":"see-also","confidence":"low","span":[3241,3258],"revision":1169784345,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1804034","to":"wikipedia://en/172244","predicate":"related","method":"see-also","confidence":"low","span":[3261,3284],"revision":1169784345,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1804034","to":"wikipedia://en/381937","predicate":"related","method":"see-also","confidence":"low","span":[3287,3302],"revision":1169784345,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1804034","to":"Category:Combinatorial optimization","predicate":"in-field","method":"category","confidence":"medium","span":[3719,3758],"revision":1169784345,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1804034","to":"Category:Greedy algorithms","predicate":"in-field","method":"category","confidence":"medium","span":[3759,3789],"revision":1169784345,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#HOOF","to":"wikipedia://en/293504","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[57247,57275],"revision":1371281804,"by":"importer/wikipedia/1"}

@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/23994987#DTBW","to":"wikipedia://en/12630","predicate":"uses","method":"link-in-item","confidence":"high","span":[5400,5420],"revision":1354297001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23994987#DTBW","to":"wikipedia://en/60012","predicate":"uses","method":"link-in-item","confidence":"high","span":[5606,5629],"revision":1354297001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23994987#DTBW","to":"wikipedia://en/5011916#2LQU","predicate":"uses","method":"named-link","confidence":"high","span":[5637,5715],"revision":1354297001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3772744#YWCV","to":"wikipedia://en/1270458","predicate":"uses","method":"link-in-item","confidence":"high","span":[2408,2429],"revision":1070309435,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3772744#YWCV","to":"wikipedia://en/447181","predicate":"uses","method":"link-in-item","confidence":"high","span":[2457,2481],"revision":1070309435,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3772744#YWCV","to":"wikipedia://en/1231708","predicate":"uses","method":"link-in-item","confidence":"high","span":[2670,2696],"revision":1070309435,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5836134","to":"wikipedia://en/3461736","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[745,767],"revision":1365156272,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5836134","to":"wikipedia://en/164460","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[958,967],"revision":1365156272,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5836134","to":"wikipedia://en/5249586","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1114,1129],"revision":1365156272,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5836134","to":"wikipedia://en/11162","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1210,1221],"revision":1365156272,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5836134","to":"wikipedia://en/642328","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1333,1355],"revision":1365156272,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5836134","to":"Category:Charts","predicate":"in-field","method":"category","confidence":"medium","span":[3938,3957],"revision":1365156272,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5836134","to":"Category:Visualization (graphics)","predicate":"in-field","method":"category","confidence":"medium","span":[3958,3995],"revision":1365156272,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5836134","to":"Category:Management theory","predicate":"in-field","method":"category","confidence":"medium","span":[3996,4026],"revision":1365156272,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5836134","to":"Category:Metaphors referring to water","predicate":"in-field","method":"category","confidence":"medium","span":[4027,4068],"revision":1365156272,"by":"importer/wikipedia/1"}

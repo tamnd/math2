@@ -1,0 +1,10 @@
+{"from":"wikipedia://en/16703846","to":"wikipedia://en/10242665","predicate":"related","method":"link-in-lead","confidence":"low","span":[44,72],"revision":1340514143,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16703846","to":"wikipedia://en/343445","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[77,104],"revision":1340514143,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16703846","to":"wikipedia://en/2573213","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[112,144],"revision":1340514143,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16703846","to":"wikipedia://en/52564","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[145,178],"revision":1340514143,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16703846","to":"wikipedia://en/16901031","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[382,463],"revision":1340514143,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16703846","to":"Category:Nonlinear partial differential equations","predicate":"in-field","method":"category","confidence":"medium","span":[1702,1755],"revision":1340514143,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43580500#QYTL","to":"wikipedia://en/1571448","predicate":"uses","method":"link-in-item","confidence":"medium","span":[10821,10830],"revision":1360947732,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43580500#QYTL","to":"wikipedia://en/360507","predicate":"uses","method":"link-in-item","confidence":"high","span":[10849,10867],"revision":1360947732,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#P0ZA","to":"wikipedia://en/61428249","predicate":"listed-in","method":"list","confidence":"certain","span":[76263,76283],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#RUQ0","to":"wikipedia://en/47275252","predicate":"listed-in","method":"list","confidence":"certain","span":[79246,79269],"revision":1373230097,"by":"importer/wikipedia/1"}

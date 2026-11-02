@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/35457783#YKKV","to":"wikipedia://en/29750969","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[53860,53903],"revision":1351541925,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57310845","to":"wikipedia://en/18879","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[475,516],"revision":1372622508,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57310845","to":"wikipedia://en/364014","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[610,629],"revision":1372622508,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57310845","to":"wikipedia://en/109393","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[844,862],"revision":1372622508,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57310845","to":"wikipedia://en/23542","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[949,971],"revision":1372622508,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57310845","to":"wikipedia://en/3824977","predicate":"related","method":"link-in-lead","confidence":"low","span":[988,1009],"revision":1372622508,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57310845","to":"wikipedia://en/378232","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1144,1169],"revision":1372622508,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57310845","to":"wikipedia://en/503118","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1171,1199],"revision":1372622508,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57310845","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2687,2736],"revision":1372622508,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57310845","to":"Category:20th-century American women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2737,2792],"revision":1372622508,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57310845","to":"Category:African-American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2793,2837],"revision":1372622508,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57310845","to":"Category:African-American women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2838,2888],"revision":1372622508,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57310845","to":"Category:Probability theorists","predicate":"in-field","method":"category","confidence":"medium","span":[3017,3051],"revision":1372622508,"by":"importer/wikipedia/1"}

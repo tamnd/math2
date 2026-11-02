@@ -1,2 +1,6 @@
+{"id":"SR0CBQ1NE9","mentions":["wikipedia://en/28311992#U5W5"],"kind":"unknown","name":"Power electronics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"SR0CM7Q0XF","mentions":["m2://rec/levin_dmoi/ptx/exercises/seq-arithgeom.ptx#exercise-11#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"SR0D0VWY6A","mentions":["wikipedia://en/6545682#FMGP"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"SR0DAQ213J","mentions":["wikipedia://en/12830119#5SR8"],"kind":"statement","name":"Japanese theorem for concyclic polygons","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"SR0SMKZHFJ","mentions":["m2://rec/levin_dmoi/ptx/sec_intro-statements.ptx#example-9#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"SR0WFGGH2N","mentions":["wikipedia://en/1475381#VVRN"],"kind":"definition","name":"Solved game","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

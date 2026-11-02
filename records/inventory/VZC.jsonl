@@ -1,1 +1,6 @@
+{"id":"VZC3MCNH8E","mentions":["wikipedia://en/587645#DO2X"],"kind":"statement","name":"Lévy's modulus of continuity theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"VZC6WPF9B0","mentions":["wikipedia://en/42099889#DZ7Z"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"VZCEB6MK44","mentions":["wikipedia://en/63679224"],"kind":"statement","name":"Big-little-big lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"VZCEP4YR8E","mentions":["ax://paper/0809.4587#X4B0"],"kind":"statement","msc":["55-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
+{"id":"VZCNJJRNX5","mentions":["wikipedia://en/6280#XIXL"],"kind":"definition","name":"Construction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"VZCNV1Q44A","mentions":["wikipedia://en/13994215"],"kind":"topic","name":"Peter Winkler","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

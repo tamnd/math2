@@ -1,1 +1,4 @@
+{"id":"JH9626S7GD","mentions":["wikipedia://en/1403586#9OSB"],"kind":"unknown","name":"David Tao","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"JH963XD41F","mentions":["wikipedia://en/30876007#U7X3"],"kind":"definition","name":"Formulations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JH9JVF0ZHY","mentions":["ax://paper/2609.30771#QUMM"],"kind":"statement","msc":["05-XX","11-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.5.6"},"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.5.6"}]}
+{"id":"JH9ZV27XT0","mentions":["wikipedia://en/64267369#EU4A"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,0 +1,26 @@
+{"from":"wikipedia://en/191457#P60N","to":"wikipedia://en/270827","predicate":"listed-in","method":"list","confidence":"certain","span":[83323,83353],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#PICZ","to":"wikipedia://en/62142347","predicate":"listed-in","method":"list","confidence":"certain","span":[76587,76604],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78155759","to":"wikipedia://en/1098209","predicate":"related","method":"link-in-lead","confidence":"low","span":[701,725],"revision":1350978844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78155759","to":"wikipedia://en/592794","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[763,786],"revision":1350978844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78155759","to":"wikipedia://en/14868","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[963,999],"revision":1350978844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78155759","to":"wikipedia://en/477714","predicate":"related","method":"link-in-text","confidence":"low","span":[1695,1725],"revision":1350978844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78155759","to":"wikipedia://en/255919","predicate":"related","method":"link-in-text","confidence":"low","span":[1773,1789],"revision":1350978844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78155759","to":"wikipedia://en/29080987","predicate":"related","method":"link-in-text","confidence":"low","span":[1860,1880],"revision":1350978844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78155759","to":"wikipedia://en/7561080","predicate":"related","method":"link-in-text","confidence":"low","span":[1909,1926],"revision":1350978844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78155759","to":"wikipedia://en/68761","predicate":"related","method":"link-in-text","confidence":"low","span":[2180,2200],"revision":1350978844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78155759","to":"wikipedia://en/30871906","predicate":"related","method":"link-in-text","confidence":"low","span":[2409,2428],"revision":1350978844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78155759","to":"wikipedia://en/758331","predicate":"related","method":"link-in-text","confidence":"low","span":[2438,2459],"revision":1350978844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78155759","to":"wikipedia://en/317485","predicate":"related","method":"link-in-text","confidence":"low","span":[2545,2565],"revision":1350978844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78155759","to":"wikipedia://en/18036980","predicate":"related","method":"link-in-text","confidence":"low","span":[2830,2866],"revision":1350978844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78155759","to":"wikipedia://en/592803","predicate":"related","method":"link-in-text","confidence":"low","span":[2870,2919],"revision":1350978844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78155759","to":"wikipedia://en/56137220","predicate":"related","method":"link-in-text","confidence":"low","span":[3872,3888],"revision":1350978844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78155759","to":"wikipedia://en/35261707","predicate":"related","method":"link-in-text","confidence":"low","span":[4010,4042],"revision":1350978844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78155759","to":"wikipedia://en/29080987","predicate":"related","method":"link-in-text","confidence":"low","span":[4058,4078],"revision":1350978844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78155759","to":"wikipedia://en/7561080","predicate":"related","method":"link-in-text","confidence":"low","span":[4241,4279],"revision":1350978844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78155759","to":"wikipedia://en/75183185","predicate":"related","method":"link-in-text","confidence":"low","span":[4668,4688],"revision":1350978844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78155759","to":"wikipedia://en/592794","predicate":"related","method":"link-in-text","confidence":"low","span":[5139,5176],"revision":1350978844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78155759","to":"wikipedia://en/1098209","predicate":"related","method":"see-also","confidence":"low","span":[5430,5464],"revision":1350978844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78155759","to":"Category:Mathematical societies","predicate":"in-field","method":"category","confidence":"medium","span":[7895,7930],"revision":1350978844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78155759","to":"Category:Scientific organizations established in 1936","predicate":"in-field","method":"category","confidence":"medium","span":[7931,7988],"revision":1350978844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78155759","to":"Category:Scientific societies based in Argentina","predicate":"in-field","method":"category","confidence":"medium","span":[7989,8041],"revision":1350978844,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78155759","to":"Category:1936 establishments in Argentina","predicate":"in-field","method":"category","confidence":"medium","span":[8042,8087],"revision":1350978844,"by":"importer/wikipedia/1"}

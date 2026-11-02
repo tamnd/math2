@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/14403539#4MK2","to":"wikipedia://en/59395678","predicate":"listed-in","method":"list","confidence":"certain","span":[7950,7966],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/241820#VXC5","to":"wikipedia://en/18335489","predicate":"listed-in","method":"list","confidence":"certain","span":[43080,43115],"revision":1375503641,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37362184","to":"wikipedia://en/37815827","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1853,1872],"revision":1349402574,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37362184","to":"wikipedia://en/42253","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2032,2047],"revision":1349402574,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37362184","to":"wikipedia://en/11133686","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2936,2975],"revision":1349402574,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37362184","to":"wikipedia://en/14878","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3248,3284],"revision":1349402574,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37362184","to":"wikipedia://en/268042","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3295,3328],"revision":1349402574,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37362184","to":"wikipedia://en/8757407","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[4245,4261],"revision":1349402574,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37362184","to":"wikipedia://en/2178110","predicate":"related","method":"see-also","confidence":"low","span":[4324,4358],"revision":1349402574,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37362184","to":"Template:Portal bar","predicate":"in-nav","method":"nav","confidence":"low","span":[4937,5022],"revision":1349402574,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37362184","to":"Category:Statistical societies","predicate":"in-field","method":"category","confidence":"medium","span":[5024,5058],"revision":1349402574,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37362184","to":"Category:Astronomy organizations","predicate":"in-field","method":"category","confidence":"medium","span":[5059,5095],"revision":1349402574,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37362184","to":"Category:Scientific organizations established in 2012","predicate":"in-field","method":"category","confidence":"medium","span":[5096,5153],"revision":1349402574,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/444763#O747","to":"wikipedia://en/4618420","predicate":"uses","method":"link-in-item","confidence":"high","span":[35635,35653],"revision":1376337813,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#83AM","to":"wikipedia://en/62293802","predicate":"listed-in","method":"list","confidence":"certain","span":[87754,87771],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#Q14E","to":"wikipedia://en/18326967","predicate":"listed-in","method":"list","confidence":"certain","span":[48720,48740],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/825390","to":"wikipedia://en/23542","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[161,183],"revision":1372743305,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/825390","to":"wikipedia://en/172069","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[236,244],"revision":1372743305,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/825390","to":"wikipedia://en/259105","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[418,503],"revision":1372743305,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/825390","to":"wikipedia://en/2082723","predicate":"related","method":"link-in-lead","confidence":"low","span":[785,803],"revision":1372743305,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/825390","to":"wikipedia://en/259105","predicate":"related","method":"link-in-text","confidence":"low","span":[1369,1454],"revision":1372743305,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/825390","to":"Category:Decision theory","predicate":"in-field","method":"category","confidence":"medium","span":[3613,3641],"revision":1372743305,"by":"importer/wikipedia/1"}

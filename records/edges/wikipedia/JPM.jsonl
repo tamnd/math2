@@ -1,0 +1,19 @@
+{"from":"wikipedia://en/311206","to":"wikipedia://en/311188","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[100,140],"revision":1359676859,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/311206","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[200,217],"revision":1359676859,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/311206","to":"wikipedia://en/30403","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[257,297],"revision":1359676859,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/311206","to":"wikipedia://en/58863","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[312,347],"revision":1359676859,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/311206","to":"wikipedia://en/39127306","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[543,565],"revision":1359676859,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/311206","to":"wikipedia://en/39127306","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[574,610],"revision":1359676859,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/311206","to":"wikipedia://en/44673100","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1047,1067],"revision":1359676859,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/311206","to":"wikipedia://en/1164","predicate":"related","method":"see-also","confidence":"low","span":[1239,1266],"revision":1359676859,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/311206","to":"wikipedia://en/2958015","predicate":"related","method":"see-also","confidence":"low","span":[1268,1309],"revision":1359676859,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/311206","to":"Category:Philosophy papers","predicate":"in-field","method":"category","confidence":"medium","span":[1626,1656],"revision":1359676859,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/311206","to":"Category:1959 essays","predicate":"in-field","method":"category","confidence":"medium","span":[1657,1681],"revision":1359676859,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/311206","to":"Category:Works originally published in Philosophy (journal)","predicate":"in-field","method":"category","confidence":"medium","span":[1682,1745],"revision":1359676859,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/311206","to":"Category:Cognitive science literature","predicate":"in-field","method":"category","confidence":"medium","span":[1746,1787],"revision":1359676859,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38095180","to":"wikipedia://en/1693055","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[162,202],"revision":1140513127,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38095180","to":"wikipedia://en/153391","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[208,222],"revision":1140513127,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38095180","to":"wikipedia://en/2042","predicate":"related","method":"link-in-lead","confidence":"low","span":[364,403],"revision":1140513127,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38095180","to":"wikipedia://en/14709171","predicate":"related","method":"link-in-lead","confidence":"low","span":[411,430],"revision":1140513127,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38095180","to":"Category:Theorems in algebraic geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[1920,1963],"revision":1140513127,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51140705#ULRH","to":"wikipedia://en/75466546","predicate":"listed-in","method":"list","confidence":"certain","span":[68134,68144],"revision":1369875693,"by":"importer/wikipedia/1"}

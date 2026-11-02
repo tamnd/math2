@@ -1,1 +1,4 @@
 {"id":"TYY9KEGY91","mentions":["ax://paper/2610.01924#FZUD"],"kind":"statement","msc":["11-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.12"}]}
+{"id":"TYYHXH4MDX","mentions":["wikipedia://en/63944266#HEIS"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"TYYWQF9AT5","mentions":["wikipedia://en/26484#O6ET"],"kind":"unknown","name":"Christian views on religious pluralism","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"TYYZ2RQ35S","mentions":["wikipedia://en/238686#P34A"],"kind":"unknown","name":"Binary subtraction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

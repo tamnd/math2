@@ -1,1 +1,4 @@
+{"id":"TMG6R9RJHG","mentions":["wikipedia://en/27970235#OTL5"],"kind":"statement","name":"Statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TMGQF7K48Z","mentions":["ax://paper/2606.02312#IUQK"],"kind":"statement","msc":["11-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
+{"id":"TMGRFJ54E4","mentions":["wikipedia://en/8042940#96K0"],"kind":"definition","name":"Texas sharpshooter fallacy","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"TMGZCFWX4J","mentions":["wikipedia://en/59958932#OUI7"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

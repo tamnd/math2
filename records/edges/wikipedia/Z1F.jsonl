@@ -1,0 +1,10 @@
+{"from":"wikipedia://en/25975323","to":"wikipedia://en/18716923","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[410,421],"revision":1343532318,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25975323","to":"wikipedia://en/243709","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[493,529],"revision":1343532318,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25975323","to":"wikipedia://en/314730","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[545,571],"revision":1343532318,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25975323","to":"wikipedia://en/308152","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[572,618],"revision":1343532318,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25975323","to":"wikipedia://en/19211790","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1055,1138],"revision":1343532318,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25975323","to":"wikipedia://en/14922","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1139,1157],"revision":1343532318,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25975323","to":"wikipedia://en/37563341","predicate":"related","method":"see-also","confidence":"low","span":[21117,21146],"revision":1343532318,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25975323","to":"Category:Algebra","predicate":"in-field","method":"category","confidence":"medium","span":[21189,21209],"revision":1343532318,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25975323","to":"Category:Equations","predicate":"kind-of","method":"category","confidence":"medium","span":[21210,21232],"revision":1343532318,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25975323","to":"Category:Polynomials","predicate":"in-field","method":"category","confidence":"medium","span":[21233,21257],"revision":1343532318,"by":"importer/wikipedia/1"}

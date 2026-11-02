@@ -1,0 +1,43 @@
+{"from":"wikipedia://en/33085116#XETD","to":"wikipedia://en/11634","predicate":"uses","method":"link-in-item","confidence":"high","span":[1223,1242],"revision":1295724913,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33085116#XETD","to":"wikipedia://en/372240","predicate":"uses","method":"link-in-item","confidence":"high","span":[1268,1282],"revision":1295724913,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5011916#TRY6","to":"wikipedia://en/23994987","predicate":"restates","method":"hatnote","confidence":"high","span":[12096,12122],"revision":1363413194,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5011916#TRY6","to":"wikipedia://en/55632","predicate":"uses","method":"link-in-item","confidence":"high","span":[12264,12286],"revision":1363413194,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51140705#QBPG","to":"wikipedia://en/82351135","predicate":"listed-in","method":"list","confidence":"certain","span":[53216,53233],"revision":1369875693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51434698","to":"wikipedia://en/194060","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[52,73],"revision":1279518906,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51434698","to":"wikipedia://en/248808","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[78,119],"revision":1279518906,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51434698","to":"wikipedia://en/10220067","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[261,287],"revision":1279518906,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51434698","to":"wikipedia://en/396231","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[380,400],"revision":1279518906,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51434698","to":"Category:Algebraic geometry","predicate":"in-field","method":"category","confidence":"medium","span":[1772,1803],"revision":1279518906,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51434698","to":"Category:Cohomology theories","predicate":"in-field","method":"category","confidence":"medium","span":[1804,1836],"revision":1279518906,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/53024913","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[71,113],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/39781140","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[118,160],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/23470","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[186,210],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/8815","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[258,283],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/53024913","predicate":"related","method":"link-in-text","confidence":"low","span":[905,936],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/39781140","predicate":"related","method":"link-in-text","confidence":"low","span":[980,1011],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/5021705","predicate":"related","method":"link-in-text","confidence":"low","span":[1065,1102],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/43856084","predicate":"related","method":"link-in-text","confidence":"low","span":[1319,1336],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/8407","predicate":"related","method":"link-in-text","confidence":"low","span":[1425,1443],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/53024913","predicate":"related","method":"link-in-text","confidence":"low","span":[1574,1607],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/4472133","predicate":"related","method":"link-in-text","confidence":"low","span":[1769,1798],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/723196","predicate":"related","method":"link-in-text","confidence":"low","span":[7750,7778],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/31282","predicate":"related","method":"link-in-text","confidence":"low","span":[7931,7959],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/53024913","predicate":"related","method":"link-in-text","confidence":"low","span":[21060,21091],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/39781140","predicate":"related","method":"link-in-text","confidence":"low","span":[21135,21166],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/80177635","predicate":"related","method":"link-in-text","confidence":"low","span":[21441,21457],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/6285","predicate":"related","method":"link-in-text","confidence":"low","span":[21546,21556],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/53024913","predicate":"related","method":"link-in-text","confidence":"low","span":[21684,21714],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/43468103","predicate":"related","method":"link-in-text","confidence":"low","span":[21871,21892],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/722554","predicate":"related","method":"link-in-text","confidence":"low","span":[24755,24781],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/279654","predicate":"related","method":"link-in-text","confidence":"low","span":[24868,24895],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/53024913","predicate":"related","method":"link-in-text","confidence":"low","span":[26673,26704],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/39781140","predicate":"related","method":"link-in-text","confidence":"low","span":[26748,26779],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/30606","predicate":"related","method":"link-in-text","confidence":"low","span":[27053,27070],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/30606","predicate":"related","method":"link-in-text","confidence":"low","span":[27159,27176],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/722548","predicate":"related","method":"link-in-text","confidence":"low","span":[27306,27332],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/279651","predicate":"related","method":"link-in-text","confidence":"low","span":[27484,27512],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/43468103","predicate":"related","method":"link-in-text","confidence":"low","span":[27716,27745],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"wikipedia://en/43468103","predicate":"related","method":"link-in-text","confidence":"low","span":[27907,27935],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"Category:Geodesic polyhedra","predicate":"in-field","method":"category","confidence":"medium","span":[31963,31996],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"Category:Goldberg polyhedra","predicate":"in-field","method":"category","confidence":"medium","span":[31997,32030],"revision":1375048209,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53264013","to":"Category:Mathematics-related lists","predicate":"in-field","method":"category","confidence":"medium","span":[32031,32069],"revision":1375048209,"by":"importer/wikipedia/1"}

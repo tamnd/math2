@@ -1,1 +1,4 @@
+{"id":"A1ABHKK48V","mentions":["wikipedia://en/18568#NGC4"],"kind":"definition","name":"Gradient descent","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"A1AP368KAY","mentions":["wikipedia://en/28284772"],"kind":"definition","name":"Morris–Lecar model","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"A1AT3G9C33","mentions":["wikipedia://en/4700#5X6D"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"A1AZGYJNNM","mentions":["ax://paper/2610.14240#1AOE"],"kind":"definition","msc":["81-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}

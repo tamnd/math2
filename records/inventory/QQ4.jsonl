@@ -1,1 +1,4 @@
+{"id":"QQ40S66615","mentions":["wikipedia://en/3647877"],"kind":"topic","name":"Eric Priest","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QQ4CM80RKP","mentions":["ax://paper/2609.21949#OO59"],"kind":"definition","msc":["26-XX","35-XX","46-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.17"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.17"}]}
+{"id":"QQ4P2NR8M1","mentions":["wikipedia://en/24510#0CP3"],"kind":"unknown","name":"Stack automaton","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QQ4ZH9X8G3","mentions":["wikipedia://en/80143#6ZY9"],"kind":"topic","name":"List of Indian mathematicians","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

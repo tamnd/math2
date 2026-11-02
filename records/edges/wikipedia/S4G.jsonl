@@ -1,0 +1,33 @@
+{"from":"wikipedia://en/14403539#1WAO","to":"wikipedia://en/724954","predicate":"listed-in","method":"list","confidence":"certain","span":[61217,61238],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#RPXD","to":"wikipedia://en/14225958","predicate":"listed-in","method":"list","confidence":"certain","span":[63274,63288],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42579992","to":"wikipedia://en/38801","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[50,72],"revision":1371431526,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42579992","to":"wikipedia://en/276526","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[120,137],"revision":1371431526,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42579992","to":"wikipedia://en/316826","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[142,156],"revision":1371431526,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42579992","to":"wikipedia://en/31337135","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[171,188],"revision":1371431526,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42579992","to":"wikipedia://en/61633","predicate":"related","method":"link-in-lead","confidence":"low","span":[193,207],"revision":1371431526,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42579992","to":"wikipedia://en/297506","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[339,358],"revision":1371431526,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42579992","to":"wikipedia://en/34615176","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[544,599],"revision":1371431526,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42579992","to":"wikipedia://en/31336432","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[669,690],"revision":1371431526,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42579992","to":"Category:Algebraic topology","predicate":"in-field","method":"category","confidence":"medium","span":[8266,8297],"revision":1371431526,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/461770","to":"wikipedia://en/361897","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[256,272],"revision":1356784688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/461770","to":"wikipedia://en/23317","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[349,360],"revision":1356784688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/461770","to":"wikipedia://en/251399","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[368,391],"revision":1356784688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/461770","to":"wikipedia://en/2274","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[581,601],"revision":1356784688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/461770","to":"wikipedia://en/5378","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[734,756],"revision":1356784688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/461770","to":"wikipedia://en/22939","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[780,791],"revision":1356784688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/461770","to":"wikipedia://en/49295","predicate":"related","method":"link-in-text","confidence":"low","span":[848,875],"revision":1356784688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/461770","to":"wikipedia://en/5732083","predicate":"related","method":"link-in-text","confidence":"low","span":[2317,2352],"revision":1356784688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/461770","to":"wikipedia://en/31803","predicate":"related","method":"link-in-text","confidence":"low","span":[2356,2386],"revision":1356784688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/461770","to":"wikipedia://en/23317","predicate":"related","method":"link-in-text","confidence":"low","span":[2558,2569],"revision":1356784688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/461770","to":"wikipedia://en/9476","predicate":"related","method":"link-in-text","confidence":"low","span":[2609,2622],"revision":1356784688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/461770","to":"wikipedia://en/13255","predicate":"related","method":"link-in-text","confidence":"low","span":[3476,3488],"revision":1356784688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/461770","to":"wikipedia://en/12558","predicate":"related","method":"link-in-text","confidence":"low","span":[3543,3562],"revision":1356784688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/461770","to":"wikipedia://en/26808","predicate":"related","method":"link-in-text","confidence":"low","span":[3567,3576],"revision":1356784688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/461770","to":"wikipedia://en/1331039","predicate":"related","method":"see-also","confidence":"low","span":[3936,3995],"revision":1356784688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/461770","to":"wikipedia://en/276396","predicate":"related","method":"see-also","confidence":"low","span":[4000,4021],"revision":1356784688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/461770","to":"wikipedia://en/31880","predicate":"related","method":"see-also","confidence":"low","span":[4026,4038],"revision":1356784688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/461770","to":"Category:Large integers","predicate":"in-field","method":"category","confidence":"medium","span":[6696,6723],"revision":1356784688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/461770","to":"Category:Proton","predicate":"in-field","method":"category","confidence":"medium","span":[6724,6743],"revision":1356784688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/461770","to":"Category:Astrophysics","predicate":"in-field","method":"category","confidence":"medium","span":[6744,6769],"revision":1356784688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/461770","to":"Category:Physical cosmology","predicate":"in-field","method":"category","confidence":"medium","span":[6770,6801],"revision":1356784688,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565351#WLO9","to":"wikipedia://en/5707174","predicate":"listed-in","method":"list","confidence":"certain","span":[16621,16636],"revision":1373350261,"by":"importer/wikipedia/1"}

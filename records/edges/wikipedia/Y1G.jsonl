@@ -1,0 +1,19 @@
+{"from":"wikipedia://en/25172838#XWXW","to":"wikipedia://en/48606512","predicate":"listed-in","method":"list","confidence":"certain","span":[1416,1438],"revision":1354839369,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61147574","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[439,467],"revision":1194621836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61147574","to":"wikipedia://en/12401","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[477,493],"revision":1194621836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61147574","to":"wikipedia://en/980508","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[546,567],"revision":1194621836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61147574","to":"wikipedia://en/85821","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[580,605],"revision":1194621836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61147574","to":"wikipedia://en/24656270","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[607,627],"revision":1194621836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61147574","to":"wikipedia://en/244437","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[636,657],"revision":1194621836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61147574","to":"wikipedia://en/494457","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1138,1158],"revision":1194621836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61147574","to":"wikipedia://en/24511700","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2052,2067],"revision":1194621836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61147574","to":"wikipedia://en/35369474","predicate":"related","method":"link-in-lead","confidence":"low","span":[2099,2122],"revision":1194621836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61147574","to":"wikipedia://en/22816079","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2129,2151],"revision":1194621836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61147574","to":"wikipedia://en/2859659","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2299,2319],"revision":1194621836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61147574","to":"wikipedia://en/30606","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2358,2373],"revision":1194621836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61147574","to":"wikipedia://en/24674758","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2520,2546],"revision":1194621836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61147574","to":"wikipedia://en/24670148","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2555,2573],"revision":1194621836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61147574","to":"Category:Individual graphs","predicate":"in-field","method":"category","confidence":"medium","span":[2653,2683],"revision":1194621836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61147574","to":"Category:Regular graphs","predicate":"in-field","method":"category","confidence":"medium","span":[2684,2711],"revision":1194621836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61147574","to":"Category:Planar graphs","predicate":"in-field","method":"category","confidence":"medium","span":[2712,2738],"revision":1194621836,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61147574","to":"Category:Hamiltonian paths and cycles","predicate":"in-field","method":"category","confidence":"medium","span":[2739,2780],"revision":1194621836,"by":"importer/wikipedia/1"}

@@ -1,2 +1,5 @@
-{"id":"K09BP7F8AE","mentions":["m2://rec/mathlib_1000/Q523832#1","m2://rec/thousand_plus/Q523832#1"],"kind":"statement","name":"Carathéodory–Jacobi–Lie theorem","msc":["57-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"K09BP7F8AE","mentions":["m2://rec/mathlib_1000/Q523832#1","m2://rec/thousand_plus/Q523832#1","wikipedia://en/3668370"],"kind":"statement","name":"Carathéodory–Jacobi–Lie theorem","msc":["57-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"K09GBM1EE1","mentions":["m2://rec/applied_combinatorics/source/s_recurrence_rigorous.ptx#example-1#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"K09H2KSX2B","mentions":["wikipedia://en/22278053#2T87"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"K09TVVS7F3","mentions":["wikipedia://en/2680414"],"kind":"definition","name":"Curvature invariant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"K09VBSP6G9","mentions":["wikipedia://en/174412#ABHZ"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,2 +1,6 @@
+{"id":"4N19XQ3R6W","mentions":["wikipedia://en/897982"],"kind":"topic","name":"Francis John Welsh Whipple","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4N1BJ62XJ5","mentions":["ax://paper/2609.28669#MDP3"],"kind":"statement","msc":["03-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}
+{"id":"4N1N10TJ9H","mentions":["wikipedia://en/21922970#N83J"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4N1N831475","mentions":["m2://rec/napkin/tex/topology/metric-top.tex#exercise-3#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"4N1Y9AZ8TB","mentions":["wikipedia://en/58389748#1VE1"],"kind":"unknown","name":"Turing Foundation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4N1YWRACP5","mentions":["wikipedia://en/2409139"],"kind":"topic","name":"Clifford Martin Will","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

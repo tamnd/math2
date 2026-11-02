@@ -1,0 +1,45 @@
+{"from":"wikipedia://en/19538953","to":"wikipedia://en/21527","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[165,182],"revision":1371790914,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19538953","to":"wikipedia://en/251558","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[210,239],"revision":1371790914,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19538953","to":"wikipedia://en/6138","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[281,295],"revision":1371790914,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19538953","to":"wikipedia://en/426743","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1053,1074],"revision":1371790914,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19538953","to":"wikipedia://en/39783","predicate":"related","method":"link-in-text","confidence":"low","span":[4990,5003],"revision":1371790914,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19538953","to":"wikipedia://en/1568608","predicate":"related","method":"link-in-text","confidence":"low","span":[5149,5165],"revision":1371790914,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19538953","to":"wikipedia://en/160990","predicate":"related","method":"link-in-text","confidence":"low","span":[5280,5297],"revision":1371790914,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19538953","to":"wikipedia://en/12401","predicate":"related","method":"link-in-text","confidence":"low","span":[5923,5939],"revision":1371790914,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19538953","to":"wikipedia://en/246223","predicate":"related","method":"link-in-text","confidence":"low","span":[6284,6343],"revision":1371790914,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19538953","to":"wikipedia://en/20087","predicate":"related","method":"link-in-text","confidence":"low","span":[6520,6566],"revision":1371790914,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19538953","to":"wikipedia://en/19721986","predicate":"related","method":"link-in-text","confidence":"low","span":[7254,7272],"revision":1371790914,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19538953","to":"wikipedia://en/9909979","predicate":"related","method":"link-in-text","confidence":"low","span":[7291,7312],"revision":1371790914,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19538953","to":"wikipedia://en/2770230","predicate":"uses","method":"named-link","confidence":"high","span":[9284,9319],"revision":1371790914,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19538953","to":"wikipedia://en/44578","predicate":"related","method":"link-in-text","confidence":"low","span":[10589,10607],"revision":1371790914,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19538953","to":"wikipedia://en/11742","predicate":"related","method":"link-in-text","confidence":"low","span":[10893,10907],"revision":1371790914,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19538953","to":"wikipedia://en/447645","predicate":"related","method":"link-in-text","confidence":"low","span":[16658,16687],"revision":1371790914,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19538953","to":"wikipedia://en/23470","predicate":"related","method":"link-in-text","confidence":"low","span":[16809,16823],"revision":1371790914,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19538953","to":"Category:Diophantine equations","predicate":"in-field","method":"category","confidence":"medium","span":[25080,25114],"revision":1371790914,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19538953","to":"Category:Partially resolved conjectures","predicate":"in-field","method":"category","confidence":"medium","span":[25115,25158],"revision":1371790914,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19538953","to":"Category:Unsolved problems in number theory","predicate":"kind-of","method":"category","confidence":"medium","span":[25159,25206],"revision":1371790914,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41616","to":"wikipedia://en/33094374","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[170,192],"revision":1334768934,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41616","to":"wikipedia://en/50408","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[197,221],"revision":1334768934,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41616","to":"wikipedia://en/25265","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[276,308],"revision":1334768934,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41616","to":"wikipedia://en/10145584","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[360,377],"revision":1334768934,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41616","to":"wikipedia://en/25748","predicate":"related","method":"link-in-text","confidence":"low","span":[1372,1402],"revision":1334768934,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41616","to":"wikipedia://en/43734","predicate":"related","method":"link-in-text","confidence":"low","span":[1409,1452],"revision":1334768934,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41616","to":"wikipedia://en/40823","predicate":"related","method":"link-in-text","confidence":"low","span":[1636,1658],"revision":1334768934,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41616","to":"wikipedia://en/2406183","predicate":"related","method":"link-in-text","confidence":"low","span":[1713,1749],"revision":1334768934,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41616","to":"wikipedia://en/430522","predicate":"related","method":"link-in-text","confidence":"low","span":[3922,3944],"revision":1334768934,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41616","to":"wikipedia://en/30353647","predicate":"related","method":"link-in-text","confidence":"low","span":[4490,4505],"revision":1334768934,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41616","to":"wikipedia://en/1136392","predicate":"related","method":"see-also","confidence":"low","span":[5245,5264],"revision":1334768934,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41616","to":"wikipedia://en/383902","predicate":"related","method":"see-also","confidence":"low","span":[5267,5285],"revision":1334768934,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41616","to":"wikipedia://en/1123698","predicate":"related","method":"see-also","confidence":"low","span":[5288,5308],"revision":1334768934,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41616","to":"wikipedia://en/10145584","predicate":"related","method":"see-also","confidence":"low","span":[5311,5330],"revision":1334768934,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41616","to":"wikipedia://en/184920","predicate":"related","method":"see-also","confidence":"low","span":[5333,5349],"revision":1334768934,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41616","to":"wikipedia://en/10145584","predicate":"related","method":"see-also","confidence":"low","span":[5373,5390],"revision":1334768934,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41616","to":"wikipedia://en/2928109","predicate":"related","method":"see-also","confidence":"low","span":[5393,5408],"revision":1334768934,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41616","to":"wikipedia://en/20104245","predicate":"related","method":"see-also","confidence":"low","span":[5411,5431],"revision":1334768934,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41616","to":"wikipedia://en/50578","predicate":"related","method":"see-also","confidence":"low","span":[5434,5453],"revision":1334768934,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41616","to":"wikipedia://en/13576258","predicate":"related","method":"see-also","confidence":"low","span":[5456,5478],"revision":1334768934,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41616","to":"Category:Computer networks engineering","predicate":"in-field","method":"category","confidence":"medium","span":[5611,5653],"revision":1334768934,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41616","to":"Category:Telecommunications engineering","predicate":"in-field","method":"category","confidence":"medium","span":[5654,5697],"revision":1334768934,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41616","to":"Category:Computer engineering","predicate":"in-field","method":"category","confidence":"medium","span":[5698,5731],"revision":1334768934,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/41616","to":"Category:Queueing theory","predicate":"in-field","method":"category","confidence":"medium","span":[5732,5760],"revision":1334768934,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44787301#WTF9","to":"wikipedia://en/1003125","predicate":"listed-in","method":"list","confidence":"certain","span":[5950,5972],"revision":1373156759,"by":"importer/wikipedia/1"}

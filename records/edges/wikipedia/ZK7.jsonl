@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/2219011","to":"wikipedia://en/82285","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[302,325],"revision":1339524086,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2219011","to":"wikipedia://en/61338","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[349,361],"revision":1339524086,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2219011","to":"wikipedia://en/21474","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[369,388],"revision":1339524086,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2219011","to":"wikipedia://en/61338","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[484,515],"revision":1339524086,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2219011","to":"wikipedia://en/3948","predicate":"related","method":"see-also","confidence":"low","span":[4585,4605],"revision":1339524086,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2219011","to":"wikipedia://en/82285","predicate":"related","method":"see-also","confidence":"low","span":[4607,4636],"revision":1339524086,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2219011","to":"wikipedia://en/48404","predicate":"related","method":"see-also","confidence":"low","span":[4638,4664],"revision":1339524086,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2219011","to":"Category:Article proofs","predicate":"in-field","method":"category","confidence":"medium","span":[4834,4861],"revision":1339524086,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2219011","to":"Category:Abstract algebra","predicate":"in-field","method":"category","confidence":"medium","span":[4862,4891],"revision":1339524086,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2219011","to":"Category:Elementary algebra","predicate":"in-field","method":"category","confidence":"medium","span":[4892,4923],"revision":1339524086,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2219011","to":"Category:Operations on numbers","predicate":"in-field","method":"category","confidence":"medium","span":[4924,4958],"revision":1339524086,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3945884#X87B","to":"wikipedia://en/43270","predicate":"uses","method":"link-in-item","confidence":"high","span":[1184,1216],"revision":1375149866,"by":"importer/wikipedia/1"}

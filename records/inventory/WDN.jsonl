@@ -1,1 +1,4 @@
-{"id":"WDN38MWDE6","mentions":["m2://rec/wikidata/Q467980#1"],"kind":"unknown","name":"geometrical optics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"WDN32F6E3S","mentions":["wikipedia://en/28862740"],"kind":"topic","name":"David Siegmund","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"WDN38MWDE6","mentions":["m2://rec/wikidata/Q467980#1","wikipedia://en/731780"],"kind":"definition","name":"geometrical optics","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"WDNVQ0VWDR","mentions":["wikipedia://en/52956308"],"kind":"definition","name":"Fluxion","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"WDNXVFZSGK","mentions":["wikipedia://en/374222#OD9Z"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

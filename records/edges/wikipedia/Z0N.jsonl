@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/14403539#4OIQ","to":"wikipedia://en/5211205","predicate":"listed-in","method":"list","confidence":"certain","span":[27000,27017],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/603812","to":"wikipedia://en/18934432","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[102,118],"revision":1359209932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/603812","to":"wikipedia://en/459847","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[257,277],"revision":1359209932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/603812","to":"wikipedia://en/3473219","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[327,394],"revision":1359209932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/603812","to":"wikipedia://en/44732528","predicate":"restates","method":"hatnote","confidence":"high","span":[461,484],"revision":1359209932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/603812","to":"wikipedia://en/939909","predicate":"related","method":"link-in-text","confidence":"low","span":[545,562],"revision":1359209932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/603812","to":"wikipedia://en/13307577","predicate":"related","method":"link-in-text","confidence":"low","span":[580,605],"revision":1359209932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/603812","to":"wikipedia://en/49605366","predicate":"related","method":"link-in-text","confidence":"low","span":[792,818],"revision":1359209932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/603812","to":"wikipedia://en/428364","predicate":"related","method":"see-also","confidence":"low","span":[1237,1249],"revision":1359209932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/603812","to":"wikipedia://en/567523","predicate":"related","method":"see-also","confidence":"low","span":[1252,1283],"revision":1359209932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/603812","to":"wikipedia://en/1180461","predicate":"related","method":"see-also","confidence":"low","span":[1286,1310],"revision":1359209932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/603812","to":"Category:Cryptographic attacks","predicate":"in-field","method":"category","confidence":"medium","span":[1340,1374],"revision":1359209932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/603812","to":"Category:Practical jokes","predicate":"in-field","method":"category","confidence":"medium","span":[1375,1403],"revision":1359209932,"by":"importer/wikipedia/1"}

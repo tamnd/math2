@@ -1,3 +1,7 @@
+{"id":"73H3DCDD8C","mentions":["wikipedia://en/4492813"],"kind":"definition","name":"Indiana pi bill","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"73H4QB62QH","mentions":["m2://rec/napkin/tex/cats/abelian.tex#proof-1#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"73H7GRAMNS","mentions":["wikipedia://en/46332799"],"kind":"topic","name":"Lorenz Leonard Lindelöf","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"73HF4BMHRZ","mentions":["m2://rec/levin_dmoi/ptx/exercises/intro-statements.ptx#exercise-13#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"73HF5NG0A9","mentions":["ax://paper/2610.21960#BM57"],"kind":"statement","msc":["14-XX","53-XX","81-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.2"}]}
+{"id":"73HG5F0BGQ","mentions":["wikipedia://en/8612907"],"kind":"definition","name":"Relative interior","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"73HJ7CPP6H","mentions":["wikipedia://en/712430#JAUU"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

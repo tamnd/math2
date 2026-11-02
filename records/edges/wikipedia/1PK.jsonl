@@ -1,0 +1,35 @@
+{"from":"wikipedia://en/2868583#8BCZ","to":"wikipedia://en/386214","predicate":"listed-in","method":"list","confidence":"certain","span":[521,541],"revision":1336186290,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2868583#8BCZ","to":"wikipedia://en/463721","predicate":"uses","method":"link-in-item","confidence":"high","span":[549,565],"revision":1336186290,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31474975","to":"wikipedia://en/19636","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,25],"revision":1279329805,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31474975","to":"wikipedia://en/19858","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[78,94],"revision":1279329805,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31474975","to":"wikipedia://en/10983","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[148,169],"revision":1279329805,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31474975","to":"wikipedia://en/7510462","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[611,635],"revision":1279329805,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31474975","to":"wikipedia://en/912858","predicate":"related","method":"link-in-lead","confidence":"low","span":[782,797],"revision":1279329805,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31474975","to":"wikipedia://en/188401","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[810,828],"revision":1279329805,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31474975","to":"wikipedia://en/7510462","predicate":"related","method":"see-also","confidence":"low","span":[1020,1044],"revision":1279329805,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31474975","to":"wikipedia://en/2156522","predicate":"related","method":"see-also","confidence":"low","span":[1047,1081],"revision":1279329805,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31474975","to":"wikipedia://en/7869341","predicate":"related","method":"see-also","confidence":"low","span":[1084,1114],"revision":1279329805,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31474975","to":"Template:Mathematical logic","predicate":"in-nav","method":"nav","confidence":"low","span":[1344,1366],"revision":1279329805,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31474975","to":"Category:Mathematical logic","predicate":"in-field","method":"category","confidence":"medium","span":[1368,1399],"revision":1279329805,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31474975","to":"Category:Model theory","predicate":"in-field","method":"category","confidence":"medium","span":[1400,1425],"revision":1279329805,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33211287#CIVW","to":"wikipedia://en/325806","predicate":"uses","method":"link-in-item","confidence":"high","span":[17778,17798],"revision":1340618630,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33211287#CIVW","to":"wikipedia://en/5133142","predicate":"uses","method":"link-in-item","confidence":"high","span":[18020,18033],"revision":1340618630,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33211287#CIVW","to":"wikipedia://en/313845","predicate":"uses","method":"link-in-item","confidence":"high","span":[18637,18657],"revision":1340618630,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33211287#CIVW","to":"wikipedia://en/710331","predicate":"uses","method":"link-in-item","confidence":"high","span":[19538,19620],"revision":1340618630,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/768770","to":"wikipedia://en/22760983","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1056,1080],"revision":1372859482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/768770","to":"wikipedia://en/23193","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1085,1100],"revision":1372859482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/768770","to":"wikipedia://en/26685","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1113,1139],"revision":1372859482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/768770","to":"wikipedia://en/17524","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1165,1178],"revision":1372859482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/768770","to":"wikipedia://en/18426501","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1456,1478],"revision":1372859482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/768770","to":"wikipedia://en/89061","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1504,1526],"revision":1372859482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/768770","to":"wikipedia://en/308234","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1535,1559],"revision":1372859482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/768770","to":"wikipedia://en/18426501","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1699,1721],"revision":1372859482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/768770","to":"wikipedia://en/5751","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1760,1788],"revision":1372859482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/768770","to":"wikipedia://en/45642","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[1793,1809],"revision":1372859482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/768770","to":"wikipedia://en/14539","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1864,1876],"revision":1372859482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/768770","to":"wikipedia://en/390113","predicate":"related","method":"see-also","confidence":"low","span":[3568,3593],"revision":1372859482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/768770","to":"Category:American Germanists","predicate":"in-field","method":"category","confidence":"medium","span":[4276,4308],"revision":1372859482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/768770","to":"Category:Quantitative linguistics","predicate":"in-field","method":"category","confidence":"medium","span":[4309,4346],"revision":1372859482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/768770","to":"Category:Bibliometricians","predicate":"in-field","method":"category","confidence":"medium","span":[4347,4376],"revision":1372859482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/768770","to":"Category:20th-century American philologists","predicate":"in-field","method":"category","confidence":"medium","span":[4424,4471],"revision":1372859482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/768770","to":"Category:20th-century American statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[4472,4520],"revision":1372859482,"by":"importer/wikipedia/1"}

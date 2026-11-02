@@ -1,1 +1,3 @@
-{"id":"73SEN7W9V3","mentions":["m2://rec/wikidata/Q1457329#1"],"kind":"unknown","name":"strange loop","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"73SCWSM5VS","mentions":["wikipedia://en/41819221"],"kind":"topic","name":"Bogdan Suceavă","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"73SEN7W9V3","mentions":["m2://rec/wikidata/Q1457329#1","wikipedia://en/47929"],"kind":"definition","name":"strange loop","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"73SQ604RQA","mentions":["wikipedia://en/6495737"],"kind":"definition","name":"Borel–Moore homology","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

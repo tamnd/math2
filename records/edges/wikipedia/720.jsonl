@@ -1,0 +1,18 @@
+{"from":"wikipedia://en/10138003","to":"wikipedia://en/48396","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[70,95],"revision":1359273668,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10138003","to":"wikipedia://en/52564","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[177,211],"revision":1359273668,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10138003","to":"wikipedia://en/263886","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[263,289],"revision":1359273668,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10138003","to":"wikipedia://en/2649421","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[311,333],"revision":1359273668,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10138003","to":"wikipedia://en/263886","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[607,660],"revision":1359273668,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10138003","to":"wikipedia://en/6108841","predicate":"related","method":"see-also","confidence":"low","span":[3497,3520],"revision":1359273668,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10138003","to":"wikipedia://en/52247","predicate":"related","method":"see-also","confidence":"low","span":[3523,3544],"revision":1359273668,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10138003","to":"wikipedia://en/973479","predicate":"related","method":"see-also","confidence":"low","span":[3547,3578],"revision":1359273668,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10138003","to":"wikipedia://en/24995873","predicate":"related","method":"see-also","confidence":"low","span":[3581,3614],"revision":1359273668,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10138003","to":"wikipedia://en/44076398","predicate":"related","method":"see-also","confidence":"low","span":[3617,3640],"revision":1359273668,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10138003","to":"Category:Partial differential equations","predicate":"in-field","method":"category","confidence":"medium","span":[4239,4282],"revision":1359273668,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10138003","to":"Category:Microlocal analysis","predicate":"in-field","method":"category","confidence":"medium","span":[4283,4315],"revision":1359273668,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10138003","to":"Category:Fourier analysis","predicate":"in-field","method":"category","confidence":"medium","span":[4316,4345],"revision":1359273668,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10138003","to":"Category:Harmonic analysis","predicate":"in-field","method":"category","confidence":"medium","span":[4346,4376],"revision":1359273668,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11353703#EHNV","to":"wikipedia://en/9119648","predicate":"listed-in","method":"list","confidence":"certain","span":[4779,4796],"revision":1373003451,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14403539#AJIB","to":"wikipedia://en/6129609","predicate":"listed-in","method":"list","confidence":"certain","span":[47111,47126],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#2RAU","to":"wikipedia://en/4145667","predicate":"listed-in","method":"list","confidence":"certain","span":[84282,84305],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19710#QLNC","to":"wikipedia://en/28088480","predicate":"listed-in","method":"list","confidence":"certain","span":[1722,1769],"revision":1368643048,"by":"importer/wikipedia/1"}

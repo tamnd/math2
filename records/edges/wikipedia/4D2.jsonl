@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/1470603#M5CN","to":"wikipedia://en/421341","predicate":"uses","method":"link-in-item","confidence":"high","span":[6135,6149],"revision":1356221722,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209103#UDN8","to":"wikipedia://en/51436","predicate":"listed-in","method":"list","confidence":"certain","span":[56086,56099],"revision":1376383499,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26597035#FLUB","to":"wikipedia://en/24185","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2905,2919],"revision":1366836768,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26597035#FLUB","to":"wikipedia://en/22817874","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2961,2986],"revision":1366836768,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26597035#FLUB","to":"wikipedia://en/54267","predicate":"uses","method":"link-in-item","confidence":"high","span":[3395,3432],"revision":1366836768,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26597035#FLUB","to":"wikipedia://en/25407#R7DJ","predicate":"uses","method":"link-in-item","confidence":"high","span":[3658,3691],"revision":1366836768,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26597035#FLUB","to":"wikipedia://en/201154","predicate":"uses","method":"link-in-item","confidence":"high","span":[4073,4159],"revision":1366836768,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26597035#FLUB","to":"wikipedia://en/236683","predicate":"uses","method":"link-in-item","confidence":"high","span":[4531,4562],"revision":1366836768,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26597035#FLUB","to":"wikipedia://en/1052647","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6034,6061],"revision":1366836768,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/26597035#FLUB","to":"wikipedia://en/55359","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6080,6088],"revision":1366836768,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37262638","to":"wikipedia://en/17945","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[142,156],"revision":1353720625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37262638","to":"wikipedia://en/247924","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[466,486],"revision":1353720625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37262638","to":"wikipedia://en/17944","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[491,507],"revision":1353720625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37262638","to":"wikipedia://en/1088386","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[711,742],"revision":1353720625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37262638","to":"Category:Mathematics books","predicate":"in-field","method":"category","confidence":"medium","span":[2497,2527],"revision":1353720625,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37262638","to":"Category:Lie groups","predicate":"in-field","method":"category","confidence":"medium","span":[2528,2551],"revision":1353720625,"by":"importer/wikipedia/1"}

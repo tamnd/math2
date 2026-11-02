@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/12600886","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[361,389],"revision":1280930271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12600886","to":"wikipedia://en/9109","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[401,426],"revision":1280930271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12600886","to":"wikipedia://en/14563","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[450,461],"revision":1280930271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12600886","to":"wikipedia://en/3313527","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[570,596],"revision":1280930271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12600886","to":"wikipedia://en/85816","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[623,641],"revision":1280930271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12600886","to":"wikipedia://en/638899","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[647,681],"revision":1280930271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12600886","to":"wikipedia://en/3333402","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[697,736],"revision":1280930271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12600886","to":"wikipedia://en/1020021","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[784,821],"revision":1280930271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12600886","to":"wikipedia://en/601284","predicate":"related","method":"link-in-lead","confidence":"low","span":[982,997],"revision":1280930271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12600886","to":"wikipedia://en/9110","predicate":"related","method":"link-in-lead","confidence":"low","span":[1002,1030],"revision":1280930271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12600886","to":"wikipedia://en/7158665","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1202,1226],"revision":1280930271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12600886","to":"wikipedia://en/12600251","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1386,1413],"revision":1280930271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12600886","to":"Category:Paul Erdős","predicate":"in-field","method":"category","confidence":"medium","span":[3342,3384],"revision":1280930271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12600886","to":"Category:Diophantine equations","predicate":"in-field","method":"category","confidence":"medium","span":[3385,3419],"revision":1280930271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12600886","to":"Category:Algebraic geometry","predicate":"in-field","method":"category","confidence":"medium","span":[3420,3451],"revision":1280930271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12600886","to":"Category:Discrete geometry","predicate":"in-field","method":"category","confidence":"medium","span":[3452,3482],"revision":1280930271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12600886","to":"Category:Geometric graphs","predicate":"in-field","method":"category","confidence":"medium","span":[3483,3512],"revision":1280930271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12600886","to":"Category:Arithmetic problems of plane geometry","predicate":"in-field","method":"category","confidence":"medium","span":[3513,3563],"revision":1280930271,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42074715","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[48,63],"revision":1374812470,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42074715","to":"wikipedia://en/1424309","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1398,1424],"revision":1374812470,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42074715","to":"wikipedia://en/80857","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1451,1466],"revision":1374812470,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42074715","to":"Category:Ordinary differential equations","predicate":"in-field","method":"category","confidence":"medium","span":[3075,3119],"revision":1374812470,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42074715","to":"Category:Theorems in mathematical analysis","predicate":"kind-of","method":"category","confidence":"medium","span":[3120,3166],"revision":1374812470,"by":"importer/wikipedia/1"}

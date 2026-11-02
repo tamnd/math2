@@ -1,2 +1,8 @@
 {"id":"CGZ10ZEXY3","mentions":["m2://rec/open_logic/content/lambda-calculus/introduction/computable-lambda.tex#thm:computable-lambda#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"CGZ2Y0E597","mentions":["wikipedia://en/100303#R9PP"],"kind":"definition","name":"Stabilizer subgroup","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"CGZ3CSQB43","mentions":["wikipedia://en/463981#I46P"],"kind":"unknown","name":"568 (number)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"CGZMF18HZ6","mentions":["wikipedia://en/398810#XSW0"],"kind":"definition","name":"Fan chart","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"CGZV2QJ91K","mentions":["wikipedia://en/22831"],"kind":"topic","name":"Oliver Heaviside","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"CGZYCCZ8WQ","mentions":["wikipedia://en/534959#JDEZ"],"kind":"definition","name":"Level set","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"CGZYQN5DBA","mentions":["wikipedia://en/45554900"],"kind":"definition","name":"Bhargava cube","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CGZZPMY7FQ","mentions":["ax://paper/2610.05784#AJ02"],"kind":"definition","msc":["03-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.10"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}]}

@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/1403586#BWKX","to":"wikipedia://en/8580944","predicate":"listed-in","method":"list","confidence":"certain","span":[223385,223405],"revision":1375861581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#P0EJ","to":"wikipedia://en/12662478","predicate":"listed-in","method":"list","confidence":"certain","span":[70538,70570],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51140705#SSIC","to":"wikipedia://en/17350023","predicate":"listed-in","method":"list","confidence":"certain","span":[64625,64646],"revision":1369875693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51140705#ZLNA","to":"wikipedia://en/80220552","predicate":"listed-in","method":"list","confidence":"certain","span":[59164,59186],"revision":1369875693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252743","to":"wikipedia://en/989795","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1716,1741],"revision":1354538164,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252743","to":"wikipedia://en/31750","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1743,1754],"revision":1354538164,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252743","to":"wikipedia://en/2960687","predicate":"related","method":"link-in-lead","confidence":"low","span":[1761,1821],"revision":1354538164,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252743","to":"wikipedia://en/36753361","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1852,1927],"revision":1354538164,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252743","to":"wikipedia://en/1583836","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2047,2123],"revision":1354538164,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252743","to":"wikipedia://en/37571028","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2125,2171],"revision":1354538164,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252743","to":"wikipedia://en/1625631","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2176,2222],"revision":1354538164,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252743","to":"wikipedia://en/21130818","predicate":"related","method":"link-in-text","confidence":"low","span":[2443,2526],"revision":1354538164,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252743","to":"wikipedia://en/36753361","predicate":"related","method":"link-in-text","confidence":"low","span":[3645,3767],"revision":1354538164,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252743","to":"wikipedia://en/36753361","predicate":"related","method":"link-in-text","confidence":"low","span":[4077,4199],"revision":1354538164,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252743","to":"wikipedia://en/28869024","predicate":"related","method":"link-in-text","confidence":"low","span":[8014,8047],"revision":1354538164,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252743","to":"Category:20th-century Ukrainian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[8777,8827],"revision":1354538164,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53252743","to":"Category:Academic staff of National Pedagogical Dragomanov University","predicate":"in-field","method":"category","confidence":"medium","span":[8913,8986],"revision":1354538164,"by":"importer/wikipedia/1"}

@@ -1,0 +1,35 @@
+{"from":"wikipedia://en/3216387","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[45,60],"revision":1372049591,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3216387","to":"wikipedia://en/1244992","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[79,97],"revision":1372049591,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3216387","to":"wikipedia://en/10989","predicate":"related","method":"link-in-lead","confidence":"low","span":[114,133],"revision":1372049591,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3216387","to":"wikipedia://en/27838","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[193,205],"revision":1372049591,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3216387","to":"wikipedia://en/368684","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[297,329],"revision":1372049591,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3216387","to":"wikipedia://en/4322","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[383,400],"revision":1372049591,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3216387","to":"wikipedia://en/6591796","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[415,453],"revision":1372049591,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3216387","to":"wikipedia://en/49324","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[468,485],"revision":1372049591,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3216387","to":"wikipedia://en/25685","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[590,609],"revision":1372049591,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3216387","to":"wikipedia://en/49172","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[817,837],"revision":1372049591,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3216387","to":"wikipedia://en/3242790","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[854,882],"revision":1372049591,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3216387","to":"wikipedia://en/3216491","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[939,967],"revision":1372049591,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3216387","to":"wikipedia://en/146806","predicate":"related","method":"link-in-text","confidence":"low","span":[2101,2124],"revision":1372049591,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3216387","to":"wikipedia://en/4677","predicate":"uses","method":"named-link","confidence":"high","span":[2596,2616],"revision":1372049591,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3216387","to":"wikipedia://en/255245","predicate":"related","method":"link-in-text","confidence":"low","span":[2724,2744],"revision":1372049591,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3216387","to":"wikipedia://en/75668874","predicate":"related","method":"see-also","confidence":"low","span":[3095,3158],"revision":1372049591,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3216387","to":"wikipedia://en/3526626","predicate":"related","method":"see-also","confidence":"low","span":[3161,3183],"revision":1372049591,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3216387","to":"Category:Probability problems","predicate":"in-field","method":"category","confidence":"medium","span":[3707,3740],"revision":1372049591,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3216387","to":"Category:Moments (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[3741,3775],"revision":1372049591,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3216387","to":"Category:Mathematical problems","predicate":"kind-of","method":"category","confidence":"medium","span":[3776,3810],"revision":1372049591,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#6VX7","to":"wikipedia://en/1751626","predicate":"listed-in","method":"list","confidence":"certain","span":[52131,52146],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/517370#ODDM","to":"wikipedia://en/14749958","predicate":"listed-in","method":"list","confidence":"certain","span":[19752,19782],"revision":1353185276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53561047","to":"wikipedia://en/27698","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[997,1009],"revision":1172845621,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53561047","to":"wikipedia://en/3099132","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1048,1126],"revision":1172845621,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53561047","to":"wikipedia://en/2793007","predicate":"related","method":"link-in-lead","confidence":"low","span":[1127,1151],"revision":1172845621,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53561047","to":"wikipedia://en/26639238","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1385,1411],"revision":1172845621,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53561047","to":"wikipedia://en/23669656","predicate":"related","method":"link-in-text","confidence":"low","span":[1885,1900],"revision":1172845621,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53561047","to":"wikipedia://en/1848052","predicate":"related","method":"see-also","confidence":"low","span":[2130,2152],"revision":1172845621,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53561047","to":"wikipedia://en/1158496","predicate":"related","method":"see-also","confidence":"low","span":[2154,2179],"revision":1172845621,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53561047","to":"wikipedia://en/3099132","predicate":"related","method":"see-also","confidence":"low","span":[2181,2227],"revision":1172845621,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53561047","to":"Category:Hindu astronomy","predicate":"in-field","method":"category","confidence":"medium","span":[2501,2529],"revision":1172845621,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53561047","to":"Category:History of mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[2530,2565],"revision":1172845621,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53561047","to":"Category:Kerala school of astronomy and mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[2566,2621],"revision":1172845621,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53561047","to":"Category:Indian astronomy texts","predicate":"in-field","method":"category","confidence":"medium","span":[2622,2657],"revision":1172845621,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/660973#IJ3G","to":"wikipedia://en/28706519","predicate":"listed-in","method":"list","confidence":"certain","span":[4796,4813],"revision":1356076661,"by":"importer/wikipedia/1"}

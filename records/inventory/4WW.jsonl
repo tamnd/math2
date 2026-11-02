@@ -1,2 +1,5 @@
-{"id":"4WWM8YDK92","mentions":["m2://rec/wikidata/Q2520842#1"],"kind":"unknown","name":"germ","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4WWHZ37JP3","mentions":["wikipedia://en/995746#V2XT"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4WWK88Q8JW","mentions":["wikipedia://en/46271961"],"kind":"topic","name":"Svetlana Jitomirskaya","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4WWM5Z53KJ","mentions":["wikipedia://en/81079117"],"kind":"conjecture","name":"Pi prime","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4WWM8YDK92","mentions":["m2://rec/wikidata/Q2520842#1","wikipedia://en/352714"],"kind":"definition","name":"germ","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"4WWZW05FYN","mentions":["ax://paper/2610.19251#9LRP"],"kind":"statement","msc":["20-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}],"proofs":["ax://paper/2610.19251#1NLK"]}

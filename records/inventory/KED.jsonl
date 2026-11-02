@@ -1,2 +1,5 @@
+{"id":"KED26XCWDR","mentions":["wikipedia://en/72117613#L6RJ"],"kind":"statement","name":"Related results","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}],"proofs":["wikipedia://en/72117613#MBMG"]}
 {"id":"KEDDP85C7B","mentions":["m2://rec/open_logic/content/model-theory/basics/isomorphism.tex#defn:isomorphism#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"KEDGHD5THA","mentions":["wikipedia://en/332213#L7YB"],"kind":"definition","name":"Procedure","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"KEDQTWE6RP","mentions":["wikipedia://en/648614#XQVI"],"kind":"unknown","name":"Approximations for the exponential integral function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"KEDXSKJRYM","mentions":["m2://rec/hott_book/homotopy.tex#Eilenberg-Mac-Lane-Spaces#1"],"kind":"statement","name":"Eilenberg--Mac Lane Spaces","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

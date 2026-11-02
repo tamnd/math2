@@ -1,0 +1,9 @@
+{"from":"wikipedia://en/161339#4B7W","to":"wikipedia://en/362547","predicate":"listed-in","method":"list","confidence":"certain","span":[11226,11240],"revision":1370969602,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38573239","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1343429042,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38573239","to":"wikipedia://en/10016360","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[71,89],"revision":1343429042,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38573239","to":"wikipedia://en/506959","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[117,134],"revision":1343429042,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38573239","to":"wikipedia://en/515613","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[203,223],"revision":1343429042,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38573239","to":"wikipedia://en/11985661","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[354,385],"revision":1343429042,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38573239","to":"wikipedia://en/252216","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[416,456],"revision":1343429042,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38573239","to":"Category:Commutative algebra","predicate":"in-field","method":"category","confidence":"medium","span":[745,777],"revision":1343429042,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38573239","to":"Category:Ring theory","predicate":"in-field","method":"category","confidence":"medium","span":[778,802],"revision":1343429042,"by":"importer/wikipedia/1"}

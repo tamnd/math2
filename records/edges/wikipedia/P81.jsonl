@@ -1,0 +1,5 @@
+{"from":"wikipedia://en/562998","to":"wikipedia://en/21474","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[307,325],"revision":1375870455,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/562998","to":"wikipedia://en/490395","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[336,371],"revision":1375870455,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/562998","to":"wikipedia://en/562998","predicate":"uses","method":"anchor","confidence":"certain","span":[386,408],"revision":1375870455,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/562998","to":"wikipedia://en/23666","predicate":"related","method":"link-in-text","confidence":"low","span":[12629,12646],"revision":1375870455,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/562998","to":"Category:Integers","predicate":"in-field","method":"category","confidence":"medium","span":[13803,13824],"revision":1375870455,"by":"importer/wikipedia/1"}

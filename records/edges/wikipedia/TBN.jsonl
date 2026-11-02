@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/48897477#H80Z","to":"wikipedia://en/435519","predicate":"related","method":"link-in-item","confidence":"low","span":[9539,9557],"revision":1306134214,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48897477#H80Z","to":"wikipedia://en/598500","predicate":"uses","method":"link-in-item","confidence":"high","span":[9560,9582],"revision":1306134214,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48897477#H80Z","to":"wikipedia://en/10987985","predicate":"uses","method":"link-in-item","confidence":"high","span":[9599,9617],"revision":1306134214,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/48897477#H80Z","to":"wikipedia://en/138215","predicate":"uses","method":"link-in-item","confidence":"high","span":[9908,9931],"revision":1306134214,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9193185","to":"wikipedia://en/32248","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[124,155],"revision":1270235575,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9193185","to":"wikipedia://en/30330","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[156,187],"revision":1270235575,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9193185","to":"wikipedia://en/6026","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[217,244],"revision":1270235575,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9193185","to":"wikipedia://en/30330","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[250,279],"revision":1270235575,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9193185","to":"wikipedia://en/331211","predicate":"related","method":"link-in-lead","confidence":"low","span":[335,360],"revision":1270235575,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9193185","to":"wikipedia://en/6250799","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[401,429],"revision":1270235575,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9193185","to":"wikipedia://en/9211715","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[437,455],"revision":1270235575,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9193185","to":"wikipedia://en/56288965","predicate":"related","method":"link-in-lead","confidence":"low","span":[554,586],"revision":1270235575,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9193185","to":"Category:Order theory","predicate":"in-field","method":"category","confidence":"medium","span":[1278,1303],"revision":1270235575,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9193185","to":"Category:Infinity","predicate":"in-field","method":"category","confidence":"medium","span":[1304,1325],"revision":1270235575,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9193185","to":"Category:Set theory","predicate":"in-field","method":"category","confidence":"medium","span":[1326,1349],"revision":1270235575,"by":"importer/wikipedia/1"}

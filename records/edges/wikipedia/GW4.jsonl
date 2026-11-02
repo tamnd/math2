@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/463981#MYF1","to":"wikipedia://en/39529359","predicate":"uses","method":"link-in-item","confidence":"high","span":[28658,28688],"revision":1373941681,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83711131","to":"Template:Electoral systems sidebar","predicate":"in-nav","method":"nav","confidence":"low","span":[64,93],"revision":1370988761,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83711131","to":"Template:Economics sidebar","predicate":"in-nav","method":"nav","confidence":"low","span":[93,114],"revision":1370988761,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83711131","to":"wikipedia://en/446216","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[119,138],"revision":1370988761,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83711131","to":"wikipedia://en/217104","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[219,246],"revision":1370988761,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83711131","to":"wikipedia://en/24562","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[307,357],"revision":1370988761,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83711131","to":"wikipedia://en/45479","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[397,418],"revision":1370988761,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83711131","to":"wikipedia://en/30630597","predicate":"related","method":"see-also","confidence":"low","span":[2725,2745],"revision":1370988761,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83711131","to":"wikipedia://en/26898094","predicate":"related","method":"see-also","confidence":"low","span":[2748,2793],"revision":1370988761,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83711131","to":"wikipedia://en/1018347","predicate":"related","method":"see-also","confidence":"low","span":[2796,2828],"revision":1370988761,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83711131","to":"Category:Game theory","predicate":"in-field","method":"category","confidence":"medium","span":[2896,2920],"revision":1370988761,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83711131","to":"Category:Utility","predicate":"in-field","method":"category","confidence":"medium","span":[2921,2941],"revision":1370988761,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83711131","to":"Category:Rational choice theory","predicate":"in-field","method":"category","confidence":"medium","span":[2942,2977],"revision":1370988761,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/83711131","to":"Category:Decision theory","predicate":"in-field","method":"category","confidence":"medium","span":[2978,3006],"revision":1370988761,"by":"importer/wikipedia/1"}

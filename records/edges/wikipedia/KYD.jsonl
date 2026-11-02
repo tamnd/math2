@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/1543358#WKVD","to":"wikipedia://en/476398","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[8174,8236],"revision":1368835390,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1543358#WKVD","to":"wikipedia://en/73989969","predicate":"uses","method":"link-in-item","confidence":"high","span":[8318,8335],"revision":1368835390,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32400568","to":"wikipedia://en/57070","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[117,148],"revision":1334854479,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32400568","to":"wikipedia://en/725893","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[228,253],"revision":1334854479,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32400568","to":"wikipedia://en/92656","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[749,771],"revision":1334854479,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32400568","to":"wikipedia://en/36527","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[859,895],"revision":1334854479,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32400568","to":"Category:Family in the United States","predicate":"in-field","method":"category","confidence":"medium","span":[1474,1514],"revision":1334854479,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32400568","to":"Category:United States Census Bureau","predicate":"in-field","method":"category","confidence":"medium","span":[1515,1555],"revision":1334854479,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/33068704#9DFC","to":"wikipedia://en/273993","predicate":"uses","method":"link-in-item","confidence":"medium","span":[9856,9903],"revision":1298428778,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35850610#AARI","to":"wikipedia://en/7198","predicate":"uses","method":"link-in-item","confidence":"high","span":[2111,2138],"revision":1301075743,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35850610#AARI","to":"wikipedia://en/862189","predicate":"related","method":"link-in-item","confidence":"low","span":[2205,2239],"revision":1301075743,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67321416#G8KD","to":"wikipedia://en/195243","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[408,442],"revision":1353377847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67321416#G8KD","to":"wikipedia://en/144652","predicate":"uses","method":"link-in-item","confidence":"high","span":[761,784],"revision":1353377847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67321416#G8KD","to":"wikipedia://en/3094450","predicate":"uses","method":"link-in-item","confidence":"high","span":[924,950],"revision":1353377847,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/67321416#G8KD","to":"wikipedia://en/2545455","predicate":"uses","method":"link-in-item","confidence":"high","span":[1166,1209],"revision":1353377847,"by":"importer/wikipedia/1"}

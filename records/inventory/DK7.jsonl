@@ -1,1 +1,4 @@
-{"id":"DK7TYFPXBZ","mentions":["m2://rec/wikidata/Q11455#1"],"kind":"topic","name":"special relativity","msc":["83Axx"],"layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"DK7H8Q29D6","mentions":["wikipedia://en/521969#HSYB"],"kind":"definition","name":"Nonary","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"DK7MQDVQ4Z","mentions":["wikipedia://en/38256214#T5R6"],"kind":"definition","name":"derived","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"DK7TYFPXBZ","mentions":["m2://rec/wikidata/Q11455#1","wikipedia://en/26962"],"kind":"topic","name":"special relativity","msc":["83Axx"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"DK7WBQ75VJ","mentions":["wikipedia://en/25187803"],"kind":"definition","name":"Distortion","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

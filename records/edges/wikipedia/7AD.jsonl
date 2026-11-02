@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/30562#071Y","to":"wikipedia://en/43327","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[3034,3051],"revision":1357877906,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30562#071Y","to":"wikipedia://en/43327","predicate":"uses","method":"link-in-item","confidence":"high","span":[3057,3074],"revision":1357877906,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/30562#071Y","to":"wikipedia://en/29586","predicate":"uses","method":"link-in-item","confidence":"high","span":[3137,3182],"revision":1357877906,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/345396#G62M","to":"wikipedia://en/1053909","predicate":"listed-in","method":"list","confidence":"certain","span":[6612,6630],"revision":1261265038,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#S1NY","to":"wikipedia://en/19372849","predicate":"listed-in","method":"list","confidence":"certain","span":[70813,70829],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/84007440#1QH5","to":"wikipedia://en/220782","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[10897,10920],"revision":1374823173,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/84007440#1QH5","to":"wikipedia://en/494995","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[10925,10971],"revision":1374823173,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/84007440#1QH5","to":"wikipedia://en/970447","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[11033,11054],"revision":1374823173,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/901459","to":"wikipedia://en/29954","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[80,92],"revision":1355963612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/901459","to":"wikipedia://en/30450","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[179,200],"revision":1355963612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/901459","to":"wikipedia://en/6026","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[222,235],"revision":1355963612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/901459","to":"wikipedia://en/59220","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[236,260],"revision":1355963612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/901459","to":"wikipedia://en/39358","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[429,446],"revision":1355963612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/901459","to":"wikipedia://en/346611","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[697,720],"revision":1355963612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/901459","to":"wikipedia://en/372742","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[829,845],"revision":1355963612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/901459","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[857,872],"revision":1355963612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/901459","to":"wikipedia://en/9697","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[908,927],"revision":1355963612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/901459","to":"wikipedia://en/160556","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1026,1040],"revision":1355963612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/901459","to":"wikipedia://en/32248","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1044,1059],"revision":1355963612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/901459","to":"wikipedia://en/19727024","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1124,1152],"revision":1355963612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/901459","to":"Template:Topology","predicate":"in-nav","method":"nav","confidence":"low","span":[5254,5266],"revision":1355963612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/901459","to":"Category:General topology","predicate":"in-field","method":"category","confidence":"medium","span":[5268,5297],"revision":1355963612,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/901459","to":"Category:Properties of topological spaces","predicate":"in-field","method":"category","confidence":"medium","span":[5298,5343],"revision":1355963612,"by":"importer/wikipedia/1"}

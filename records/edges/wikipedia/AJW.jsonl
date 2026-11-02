@@ -1,0 +1,26 @@
+{"from":"wikipedia://en/14556621#L4J3","to":"wikipedia://en/12354","predicate":"uses","method":"link-in-item","confidence":"high","span":[1326,1357],"revision":1283811656,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/187446#43H1","to":"wikipedia://en/1248603","predicate":"uses","method":"named-link","confidence":"high","span":[13822,13842],"revision":1373878309,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/187446#43H1","to":"wikipedia://en/138215","predicate":"uses","method":"link-in-item","confidence":"high","span":[14268,14291],"revision":1373878309,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/187446#43H1","to":"wikipedia://en/1248647","predicate":"uses","method":"link-in-item","confidence":"high","span":[14295,14316],"revision":1373878309,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/444250#Y97K","to":"wikipedia://en/2189949","predicate":"listed-in","method":"list","confidence":"certain","span":[28021,28040],"revision":1294366452,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7088#YQW2","to":"wikipedia://en/51122295","predicate":"listed-in","method":"list","confidence":"certain","span":[12049,12066],"revision":1356718736,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73591067","to":"wikipedia://en/306090","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[977,1009],"revision":1373264237,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73591067","to":"wikipedia://en/23534170","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1010,1034],"revision":1373264237,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73591067","to":"wikipedia://en/20844","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1035,1085],"revision":1373264237,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73591067","to":"wikipedia://en/70822527","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1108,1129],"revision":1373264237,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73591067","to":"wikipedia://en/5042916","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1581,1591],"revision":1373264237,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73591067","to":"wikipedia://en/73276","predicate":"related","method":"link-in-text","confidence":"low","span":[1662,1688],"revision":1373264237,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73591067","to":"wikipedia://en/290622","predicate":"related","method":"link-in-text","confidence":"low","span":[3271,3285],"revision":1373264237,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73591067","to":"wikipedia://en/602401","predicate":"related","method":"link-in-text","confidence":"low","span":[3290,3338],"revision":1373264237,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73591067","to":"wikipedia://en/14318312","predicate":"related","method":"link-in-text","confidence":"low","span":[4357,4371],"revision":1373264237,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73591067","to":"wikipedia://en/1265019","predicate":"related","method":"link-in-text","confidence":"low","span":[6452,6490],"revision":1373264237,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73591067","to":"wikipedia://en/62750956","predicate":"related","method":"link-in-text","confidence":"low","span":[7269,7290],"revision":1373264237,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73591067","to":"wikipedia://en/28142658","predicate":"related","method":"link-in-text","confidence":"low","span":[7333,7369],"revision":1373264237,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73591067","to":"wikipedia://en/7546127","predicate":"related","method":"link-in-text","confidence":"low","span":[7422,7434],"revision":1373264237,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73591067","to":"Category:2011 video games","predicate":"in-field","method":"category","confidence":"medium","span":[9727,9756],"revision":1373264237,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73591067","to":"Category:Canadian educational websites","predicate":"in-field","method":"category","confidence":"medium","span":[9757,9799],"revision":1373264237,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73591067","to":"Category:Educational video games","predicate":"in-field","method":"category","confidence":"medium","span":[9800,9836],"revision":1373264237,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73591067","to":"Category:Freemium games","predicate":"in-field","method":"category","confidence":"medium","span":[9837,9864],"revision":1373264237,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73591067","to":"Category:Massively multiplayer online games","predicate":"in-field","method":"category","confidence":"medium","span":[9865,9912],"revision":1373264237,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73591067","to":"Category:Mathematical education video games","predicate":"in-field","method":"category","confidence":"medium","span":[9913,9960],"revision":1373264237,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/73591067","to":"Category:Video games developed in Canada","predicate":"in-field","method":"category","confidence":"medium","span":[9962,10006],"revision":1373264237,"by":"importer/wikipedia/1"}

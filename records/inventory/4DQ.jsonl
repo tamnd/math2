@@ -1,2 +1,5 @@
-{"id":"4DQ80Q9G1S","mentions":["m2://rec/wikidata/Q720751#1"],"kind":"statement","name":"100,000","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4DQ80Q9G1S","mentions":["m2://rec/wikidata/Q720751#1","wikipedia://en/1462080"],"kind":"definition","name":"100,000","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"4DQDXAPZ1W","mentions":["wikipedia://en/13938136#3OY2"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4DQTDVQAXS","mentions":["wikipedia://en/347694#6JUV"],"kind":"statement","name":"Seifert–van Kampen theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4DQVS4CN8D","mentions":["wikipedia://en/2390225#K86T"],"kind":"definition","name":"PROP","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4DQXC43WD7","mentions":["m2://rec/levin_dmoi/ptx/exercises/counting-advPIE.ptx#exercise-6#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

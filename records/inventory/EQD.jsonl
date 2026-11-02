@@ -1,1 +1,4 @@
-{"id":"EQDES1RK1B","mentions":["m2://rec/wikidata/Q1071239#1"],"kind":"unknown","name":"stochastic","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"EQD0GWSN2A","mentions":["wikipedia://en/47290184"],"kind":"problem","name":"Unit commitment problem in electrical power production","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"EQD252MRBE","mentions":["wikipedia://en/76765067#0G7I"],"kind":"definition","name":"induction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"EQDES1RK1B","mentions":["m2://rec/wikidata/Q1071239#1","wikipedia://en/292222"],"kind":"definition","name":"stochastic","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"EQDQD3M1JG","mentions":["wikipedia://en/19174916#WLVF"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

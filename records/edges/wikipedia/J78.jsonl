@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/13892472#QDY6","to":"wikipedia://en/973479","predicate":"uses","method":"link-in-item","confidence":"high","span":[2736,2768],"revision":1365765651,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39985827","to":"wikipedia://en/49814650","predicate":"related","method":"link-in-text","confidence":"low","span":[1483,1505],"revision":1119344613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39985827","to":"wikipedia://en/18831","predicate":"related","method":"link-in-text","confidence":"low","span":[1539,1554],"revision":1119344613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39985827","to":"wikipedia://en/52744","predicate":"related","method":"link-in-text","confidence":"low","span":[2108,2139],"revision":1119344613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39985827","to":"wikipedia://en/28743","predicate":"related","method":"link-in-text","confidence":"low","span":[2332,2347],"revision":1119344613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39985827","to":"wikipedia://en/199503","predicate":"related","method":"link-in-text","confidence":"low","span":[2468,2526],"revision":1119344613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39985827","to":"wikipedia://en/26836721","predicate":"related","method":"link-in-text","confidence":"low","span":[3165,3193],"revision":1119344613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39985827","to":"wikipedia://en/15707306","predicate":"related","method":"link-in-text","confidence":"low","span":[3367,3400],"revision":1119344613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39985827","to":"wikipedia://en/42968997","predicate":"related","method":"link-in-text","confidence":"low","span":[3790,3831],"revision":1119344613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39985827","to":"Category:18th-century French mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3927,3974],"revision":1119344613,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39985827","to":"Category:19th-century French mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3975,4022],"revision":1119344613,"by":"importer/wikipedia/1"}

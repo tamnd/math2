@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/44578#LJEP","to":"wikipedia://en/18531","predicate":"uses","method":"link-in-item","confidence":"high","span":[18062,18083],"revision":1375605201,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44578#LJEP","to":"wikipedia://en/15491","predicate":"uses","method":"link-in-item","confidence":"medium","span":[19108,19133],"revision":1375605201,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44578#LJEP","to":"wikipedia://en/8095","predicate":"related","method":"link-in-item","confidence":"low","span":[21471,21487],"revision":1375605201,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44578#LJEP","to":"wikipedia://en/44578","predicate":"uses","method":"anchor","confidence":"certain","span":[21759,21801],"revision":1375605201,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44578#LJEP","to":"wikipedia://en/5170","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[22855,22872],"revision":1375605201,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5760660","to":"wikipedia://en/397245","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[331,343],"revision":1309538073,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5760660","to":"wikipedia://en/7445605","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1125,1154],"revision":1309538073,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5760660","to":"wikipedia://en/1684304","predicate":"related","method":"see-also","confidence":"low","span":[1272,1333],"revision":1309538073,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5760660","to":"wikipedia://en/858464","predicate":"related","method":"see-also","confidence":"low","span":[1335,1348],"revision":1309538073,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5760660","to":"wikipedia://en/27438986","predicate":"related","method":"see-also","confidence":"low","span":[1350,1373],"revision":1309538073,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5760660","to":"wikipedia://en/5696420","predicate":"related","method":"see-also","confidence":"low","span":[1375,1405],"revision":1309538073,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5760660","to":"wikipedia://en/26773116","predicate":"related","method":"see-also","confidence":"low","span":[1407,1422],"revision":1309538073,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5760660","to":"Category:Education in England","predicate":"in-field","method":"category","confidence":"medium","span":[3305,3338],"revision":1309538073,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5760660","to":"Category:Education policy in the United Kingdom","predicate":"in-field","method":"category","confidence":"medium","span":[3339,3390],"revision":1309538073,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5760660","to":"Category:Mathematics education in the United Kingdom","predicate":"in-field","method":"category","confidence":"medium","span":[3391,3447],"revision":1309538073,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5760660","to":"Category:Primary education in the United Kingdom","predicate":"in-field","method":"category","confidence":"medium","span":[3448,3500],"revision":1309538073,"by":"importer/wikipedia/1"}

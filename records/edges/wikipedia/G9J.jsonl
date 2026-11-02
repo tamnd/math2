@@ -1,0 +1,30 @@
+{"from":"wikipedia://en/17243191","to":"wikipedia://en/244321","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[79,91],"revision":1353775762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17243191","to":"wikipedia://en/469304","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[96,124],"revision":1353775762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17243191","to":"wikipedia://en/11742","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[157,178],"revision":1353775762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17243191","to":"wikipedia://en/998824","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[179,212],"revision":1353775762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17243191","to":"wikipedia://en/13881586","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[213,236],"revision":1353775762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17243191","to":"wikipedia://en/244321","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[416,439],"revision":1353775762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17243191","to":"wikipedia://en/37123010","predicate":"related","method":"link-in-text","confidence":"low","span":[4405,4435],"revision":1353775762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17243191","to":"wikipedia://en/33273315","predicate":"related","method":"link-in-text","confidence":"low","span":[4674,4708],"revision":1353775762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17243191","to":"wikipedia://en/303398","predicate":"related","method":"link-in-text","confidence":"low","span":[4900,4927],"revision":1353775762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17243191","to":"wikipedia://en/23515837","predicate":"related","method":"link-in-text","confidence":"low","span":[6183,6199],"revision":1353775762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17243191","to":"wikipedia://en/54347","predicate":"related","method":"link-in-text","confidence":"low","span":[6233,6272],"revision":1353775762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17243191","to":"wikipedia://en/600618","predicate":"related","method":"link-in-text","confidence":"low","span":[6342,6381],"revision":1353775762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17243191","to":"wikipedia://en/27967069","predicate":"related","method":"link-in-text","confidence":"low","span":[6743,6762],"revision":1353775762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17243191","to":"wikipedia://en/644032","predicate":"related","method":"link-in-text","confidence":"low","span":[6826,6837],"revision":1353775762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17243191","to":"wikipedia://en/762203","predicate":"related","method":"link-in-text","confidence":"low","span":[6995,7029],"revision":1353775762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17243191","to":"wikipedia://en/36886801","predicate":"related","method":"link-in-text","confidence":"low","span":[7085,7103],"revision":1353775762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17243191","to":"wikipedia://en/36749660","predicate":"related","method":"link-in-text","confidence":"low","span":[7646,7669],"revision":1353775762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17243191","to":"wikipedia://en/753521","predicate":"related","method":"link-in-text","confidence":"low","span":[7720,7757],"revision":1353775762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17243191","to":"Category:Lattice theory","predicate":"in-field","method":"category","confidence":"medium","span":[8349,8376],"revision":1353775762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17243191","to":"Category:Matroid theory","predicate":"in-field","method":"category","confidence":"medium","span":[8377,8404],"revision":1353775762,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/240011#VEGV","to":"wikipedia://en/41509","predicate":"uses","method":"link-in-item","confidence":"medium","span":[20407,20437],"revision":1336361913,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/240011#VEGV","to":"wikipedia://en/172883","predicate":"uses","method":"link-in-item","confidence":"medium","span":[20923,20939],"revision":1336361913,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/240011#VEGV","to":"wikipedia://en/1125543","predicate":"uses","method":"link-in-item","confidence":"medium","span":[21107,21129],"revision":1336361913,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/240011#VEGV","to":"wikipedia://en/13256","predicate":"uses","method":"link-in-item","confidence":"medium","span":[21203,21213],"revision":1336361913,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/240011#VEGV","to":"wikipedia://en/1418","predicate":"uses","method":"link-in-item","confidence":"medium","span":[21236,21253],"revision":1336361913,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/240011#VEGV","to":"wikipedia://en/4474","predicate":"uses","method":"link-in-item","confidence":"high","span":[21256,21286],"revision":1336361913,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82880402","to":"wikipedia://en/9087","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[27,101],"revision":1352163286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82880402","to":"wikipedia://en/19008673","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[117,141],"revision":1352163286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82880402","to":"wikipedia://en/2412120","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[978,1008],"revision":1352163286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82880402","to":"Category:Dynamical systems","predicate":"in-field","method":"category","confidence":"medium","span":[1250,1280],"revision":1352163286,"by":"importer/wikipedia/1"}

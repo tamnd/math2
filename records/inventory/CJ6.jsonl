@@ -1,1 +1,3 @@
-{"id":"CJ6JDKJV43","mentions":["m2://rec/wikidata/Q3894437#1"],"kind":"unknown","name":"Wilson quotient","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"CJ61AHR9SQ","mentions":["wikipedia://en/1374460"],"kind":"topic","name":"Anders Hald","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"CJ63VH1YF1","mentions":["wikipedia://en/16933890"],"kind":"definition","name":"G2-structure","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"CJ6JDKJV43","mentions":["m2://rec/wikidata/Q3894437#1","wikipedia://en/1974015"],"kind":"definition","name":"Wilson quotient","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/1896229#DBNM","to":"wikipedia://en/187805","predicate":"listed-in","method":"list","confidence":"certain","span":[3561,3583],"revision":1356076695,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25620406","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[341,358],"revision":1368949328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25620406","to":"wikipedia://en/386468","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[394,420],"revision":1368949328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25620406","to":"wikipedia://en/205483","predicate":"related","method":"link-in-lead","confidence":"low","span":[530,551],"revision":1368949328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25620406","to":"wikipedia://en/1052632","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[636,680],"revision":1368949328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25620406","to":"wikipedia://en/241128","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[749,778],"revision":1368949328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25620406","to":"wikipedia://en/23964683","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[813,839],"revision":1368949328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25620406","to":"wikipedia://en/2354487","predicate":"related","method":"link-in-lead","confidence":"low","span":[860,889],"revision":1368949328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25620406","to":"Category:20th-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2036,2085],"revision":1368949328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25620406","to":"Category:21st-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2086,2135],"revision":1368949328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25620406","to":"Category:American geometers","predicate":"in-field","method":"category","confidence":"medium","span":[2136,2167],"revision":1368949328,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3039388#QR1U","to":"wikipedia://en/30562","predicate":"listed-in","method":"list","confidence":"certain","span":[2094,2115],"revision":1376191946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/856614#6XGL","to":"wikipedia://en/2783581","predicate":"uses","method":"link-in-item","confidence":"high","span":[13447,13465],"revision":1314439779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/856614#6XGL","to":"wikipedia://en/32160209","predicate":"uses","method":"link-in-item","confidence":"high","span":[15673,15687],"revision":1314439779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/856614#6XGL","to":"wikipedia://en/3017426","predicate":"uses","method":"named-link","confidence":"high","span":[15774,15793],"revision":1314439779,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/856614#6XGL","to":"wikipedia://en/23535337","predicate":"uses","method":"link-in-item","confidence":"high","span":[15820,15849],"revision":1314439779,"by":"importer/wikipedia/1"}

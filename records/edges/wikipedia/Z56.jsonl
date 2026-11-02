@@ -1,0 +1,25 @@
+{"from":"wikipedia://en/47738065#OXTM","to":"wikipedia://en/158371","predicate":"listed-in","method":"list","confidence":"certain","span":[11429,11456],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#WOCX","to":"wikipedia://en/576245","predicate":"listed-in","method":"list","confidence":"certain","span":[19665,19685],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6546620","to":"wikipedia://en/578450","predicate":"related","method":"link-in-text","confidence":"low","span":[321,348],"revision":1355945787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6546620","to":"wikipedia://en/7112923","predicate":"related","method":"link-in-text","confidence":"low","span":[352,371],"revision":1355945787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6546620","to":"wikipedia://en/13018310","predicate":"related","method":"see-also","confidence":"low","span":[1761,1778],"revision":1355945787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6546620","to":"Category:American logicians","predicate":"in-field","method":"category","confidence":"medium","span":[1929,1960],"revision":1355945787,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75536962","to":"wikipedia://en/2753587","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2236,2257],"revision":1292777248,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75536962","to":"wikipedia://en/70473326","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2293,2341],"revision":1292777248,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75536962","to":"wikipedia://en/73918016","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2934,2965],"revision":1292777248,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75536962","to":"wikipedia://en/57141082","predicate":"related","method":"link-in-text","confidence":"low","span":[3270,3292],"revision":1292777248,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75536962","to":"wikipedia://en/502693","predicate":"related","method":"link-in-text","confidence":"low","span":[3319,3328],"revision":1292777248,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75536962","to":"wikipedia://en/38890","predicate":"related","method":"link-in-text","confidence":"low","span":[3362,3381],"revision":1292777248,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75536962","to":"wikipedia://en/196029","predicate":"related","method":"link-in-text","confidence":"low","span":[3392,3421],"revision":1292777248,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75536962","to":"wikipedia://en/52564","predicate":"related","method":"link-in-text","confidence":"low","span":[3477,3511],"revision":1292777248,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75536962","to":"wikipedia://en/1795707","predicate":"related","method":"link-in-text","confidence":"low","span":[3882,3912],"revision":1292777248,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75536962","to":"wikipedia://en/4346513","predicate":"related","method":"link-in-text","confidence":"low","span":[7409,7450],"revision":1292777248,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75536962","to":"wikipedia://en/70473326","predicate":"related","method":"link-in-text","confidence":"low","span":[7490,7538],"revision":1292777248,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75536962","to":"wikipedia://en/31549074","predicate":"related","method":"link-in-text","confidence":"low","span":[8772,8833],"revision":1292777248,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75536962","to":"wikipedia://en/21618682","predicate":"related","method":"link-in-text","confidence":"low","span":[9262,9306],"revision":1292777248,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75536962","to":"wikipedia://en/4346513","predicate":"related","method":"link-in-text","confidence":"low","span":[10254,10295],"revision":1292777248,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75536962","to":"Category:South Korean scientists","predicate":"in-field","method":"category","confidence":"medium","span":[12322,12358],"revision":1292777248,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75536962","to":"Category:National Institute for Mathematical Sciences","predicate":"in-field","method":"category","confidence":"medium","span":[12405,12462],"revision":1292777248,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75536962","to":"Category:Institute for Basic Science","predicate":"in-field","method":"category","confidence":"medium","span":[12463,12503],"revision":1292777248,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75536962","to":"Category:Academic staff of Sogang University","predicate":"in-field","method":"category","confidence":"medium","span":[12504,12552],"revision":1292777248,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/75536962","to":"Category:South Korean mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[12578,12618],"revision":1292777248,"by":"importer/wikipedia/1"}

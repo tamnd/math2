@@ -1,2 +1,8 @@
 {"id":"7FB2W9KCS3","mentions":["m2://rec/napkin/tex/set-theory/CH.tex#definition-2#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"7FBF6Y5CX3","mentions":["m2://rec/wikidata/Q5323100#1"],"kind":"unknown","name":"EHP spectral sequence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"7FB410VJB8","mentions":["wikipedia://en/31950365"],"kind":"definition","name":"Circle packing in an isosceles right triangle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7FB44P41E6","mentions":["wikipedia://en/15036"],"kind":"definition","name":"Information security","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7FB5SEMSF7","mentions":["wikipedia://en/37532867#TQB9"],"kind":"unknown","name":"(Elveden #39)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7FB7KDN2KY","mentions":["wikipedia://en/12055540#MZY6"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7FBDHBBA74","mentions":["wikipedia://en/599970#GJC1"],"kind":"statement","name":"Gauss's lemma (polynomials)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7FBF6Y5CX3","mentions":["m2://rec/wikidata/Q5323100#1","wikipedia://en/13688204"],"kind":"definition","name":"EHP spectral sequence","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"7FBJZZHN6S","mentions":["wikipedia://en/221244#JF14"],"kind":"unknown","name":"SPFA","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

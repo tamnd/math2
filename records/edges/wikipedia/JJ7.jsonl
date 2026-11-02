@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/16084455#OEA0","to":"wikipedia://en/2139226","predicate":"uses","method":"link-in-item","confidence":"high","span":[914,934],"revision":1372124185,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/16084455#OEA0","to":"wikipedia://en/16124925","predicate":"uses","method":"link-in-item","confidence":"high","span":[950,970],"revision":1372124185,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31032774","to":"wikipedia://en/18716923","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[78,89],"revision":1351643760,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31032774","to":"wikipedia://en/10603","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[122,151],"revision":1351643760,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31032774","to":"wikipedia://en/36818246","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[221,242],"revision":1351643760,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31032774","to":"wikipedia://en/293802","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[473,511],"revision":1351643760,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31032774","to":"wikipedia://en/44787","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[677,698],"revision":1351643760,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31032774","to":"wikipedia://en/838151","predicate":"related","method":"link-in-text","confidence":"low","span":[2733,2753],"revision":1351643760,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31032774","to":"wikipedia://en/31046646","predicate":"related","method":"link-in-text","confidence":"low","span":[3350,3383],"revision":1351643760,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31032774","to":"wikipedia://en/361210","predicate":"related","method":"link-in-text","confidence":"low","span":[3433,3455],"revision":1351643760,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31032774","to":"wikipedia://en/4207234","predicate":"related","method":"link-in-text","confidence":"low","span":[3765,3780],"revision":1351643760,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31032774","to":"wikipedia://en/4207234","predicate":"related","method":"link-in-text","confidence":"low","span":[3794,3821],"revision":1351643760,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31032774","to":"wikipedia://en/4207234","predicate":"related","method":"link-in-text","confidence":"low","span":[3826,3853],"revision":1351643760,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/31032774","to":"Category:Field theory","predicate":"in-field","method":"category","confidence":"medium","span":[8590,8615],"revision":1351643760,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/642101#JAVI","to":"wikipedia://en/217628","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[3281,3298],"revision":1374369334,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/642101#JAVI","to":"wikipedia://en/5826","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[3552,3570],"revision":1374369334,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/642101#JAVI","to":"wikipedia://en/30367","predicate":"uses","method":"link-in-proof","confidence":"medium","span":[4581,4650],"revision":1374369334,"by":"importer/wikipedia/1"}

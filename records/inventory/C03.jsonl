@@ -1,1 +1,4 @@
-{"id":"C03W0DAHFP","mentions":["m2://rec/wikidata/Q5450412#1"],"kind":"unknown","name":"finitely generated object","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"C037GEQ5V1","mentions":["wikipedia://en/49331727#3V53"],"kind":"unknown","name":"Poincaré coordinates","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"C03HT0885T","mentions":["wikipedia://en/41685609#WB0S"],"kind":"topic","name":"Chrysippus","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"C03JQKKYCH","mentions":["wikipedia://en/14403539#AXTQ","wikipedia://en/47738065#K2TU"],"kind":"topic","name":"Alan Weinstein","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"C03W0DAHFP","mentions":["m2://rec/wikidata/Q5450412#1","wikipedia://en/38520847"],"kind":"definition","name":"finitely generated object","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

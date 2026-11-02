@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/354285#5JME","to":"wikipedia://en/3524192","predicate":"listed-in","method":"list","confidence":"certain","span":[11005,11021],"revision":1364852933,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/354285#5JME","to":"wikipedia://en/209154","predicate":"uses","method":"link-in-item","confidence":"high","span":[11023,11038],"revision":1364852933,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/354285#5JME","to":"wikipedia://en/209154","predicate":"uses","method":"link-in-item","confidence":"high","span":[11040,11070],"revision":1364852933,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/379840#UYRV","to":"wikipedia://en/49172","predicate":"uses","method":"link-in-item","confidence":"high","span":[4204,4239],"revision":1360714741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/379840#UYRV","to":"wikipedia://en/50263","predicate":"uses","method":"link-in-item","confidence":"high","span":[4265,4289],"revision":1360714741,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71611148","to":"wikipedia://en/574482","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[991,1036],"revision":1372398314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71611148","to":"wikipedia://en/1471689","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1300,1326],"revision":1372398314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71611148","to":"wikipedia://en/21068988","predicate":"related","method":"link-in-text","confidence":"low","span":[1530,1558],"revision":1372398314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71611148","to":"wikipedia://en/7974511","predicate":"related","method":"link-in-text","confidence":"low","span":[1573,1605],"revision":1372398314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71611148","to":"wikipedia://en/4682876","predicate":"related","method":"link-in-text","confidence":"low","span":[1613,1632],"revision":1372398314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71611148","to":"wikipedia://en/202639","predicate":"related","method":"link-in-text","confidence":"low","span":[1656,1686],"revision":1372398314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71611148","to":"wikipedia://en/10114129","predicate":"related","method":"link-in-text","confidence":"low","span":[1707,1742],"revision":1372398314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71611148","to":"wikipedia://en/21031297","predicate":"related","method":"link-in-text","confidence":"low","span":[1747,1756],"revision":1372398314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71611148","to":"wikipedia://en/1877646","predicate":"related","method":"link-in-text","confidence":"low","span":[1776,1827],"revision":1372398314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71611148","to":"Category:21st-century Taiwanese scientists","predicate":"in-field","method":"category","confidence":"medium","span":[4303,4349],"revision":1372398314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71611148","to":"Category:21st-century American women scientists","predicate":"in-field","method":"category","confidence":"medium","span":[4350,4401],"revision":1372398314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71611148","to":"Category:American women statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[4616,4657],"revision":1372398314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71611148","to":"Category:Taiwanese statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[4658,4694],"revision":1372398314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71611148","to":"Category:American women epidemiologists","predicate":"in-field","method":"category","confidence":"medium","span":[4695,4738],"revision":1372398314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71611148","to":"Category:American epidemiologists","predicate":"in-field","method":"category","confidence":"medium","span":[4739,4776],"revision":1372398314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71611148","to":"Category:Taiwanese epidemiologists","predicate":"in-field","method":"category","confidence":"medium","span":[4777,4815],"revision":1372398314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71611148","to":"Category:Taiwanese emigrants to the United States","predicate":"in-field","method":"category","confidence":"medium","span":[4816,4869],"revision":1372398314,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/71611148","to":"Category:Biostatisticians","predicate":"in-field","method":"category","confidence":"medium","span":[4895,4924],"revision":1372398314,"by":"importer/wikipedia/1"}

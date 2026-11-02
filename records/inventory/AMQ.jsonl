@@ -1,1 +1,5 @@
+{"id":"AMQ1WZ3N85","mentions":["wikipedia://en/11353703#EU1Y"],"kind":"topic","name":"Peter Lax","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"AMQAAZ83W0","mentions":["ax://paper/2610.15720#498U"],"kind":"definition","msc":["37-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
+{"id":"AMQBM4ZE7P","mentions":["wikipedia://en/22069816#NARD"],"kind":"statement","name":"Turnbull's identity for symmetric matrices","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"AMQMPE0F19","mentions":["wikipedia://en/149984#FTZ4"],"kind":"statement","name":"Basic properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"AMQV0RFDXG","mentions":["wikipedia://en/23670#4FKF"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

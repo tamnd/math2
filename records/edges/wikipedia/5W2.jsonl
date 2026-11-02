@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/14528017#PITW","to":"wikipedia://en/717377","predicate":"listed-in","method":"list","confidence":"certain","span":[24681,24701],"revision":1373239541,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14528017#PITW","to":"wikipedia://en/27716891","predicate":"uses","method":"link-in-item","confidence":"high","span":[24793,24806],"revision":1373239541,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/14528017#PITW","to":"wikipedia://en/21391464","predicate":"uses","method":"link-in-item","confidence":"high","span":[24860,24875],"revision":1373239541,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2920916#EMC3","to":"wikipedia://en/285274","predicate":"listed-in","method":"list","confidence":"certain","span":[1028,1047],"revision":1356076973,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39299080","to":"wikipedia://en/18716923","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,14],"revision":1256553186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39299080","to":"wikipedia://en/6533841","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[131,174],"revision":1256553186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39299080","to":"wikipedia://en/191788","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[176,208],"revision":1256553186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39299080","to":"wikipedia://en/17944","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[224,239],"revision":1256553186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39299080","to":"wikipedia://en/2112","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[318,342],"revision":1256553186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39299080","to":"wikipedia://en/39255698","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[399,417],"revision":1256553186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39299080","to":"wikipedia://en/39299327","predicate":"related","method":"see-also","confidence":"low","span":[435,464],"revision":1256553186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39299080","to":"wikipedia://en/39299698","predicate":"related","method":"see-also","confidence":"low","span":[466,495],"revision":1256553186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39299080","to":"Category:Non-associative algebra","predicate":"in-field","method":"category","confidence":"medium","span":[2082,2118],"revision":1256553186,"by":"importer/wikipedia/1"}

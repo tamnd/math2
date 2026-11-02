@@ -1,0 +1,33 @@
+{"from":"wikipedia://en/11399877#2BYX","to":"wikipedia://en/8495","predicate":"uses","method":"link-in-item","confidence":"high","span":[9251,9263],"revision":1345385039,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1227519","to":"wikipedia://en/46426065","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[49,65],"revision":1355200383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1227519","to":"wikipedia://en/8336","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[119,147],"revision":1355200383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1227519","to":"wikipedia://en/333824","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[205,221],"revision":1355200383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1227519","to":"wikipedia://en/4715","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[225,263],"revision":1355200383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1227519","to":"wikipedia://en/3115802","predicate":"related","method":"link-in-lead","confidence":"low","span":[325,340],"revision":1355200383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1227519","to":"wikipedia://en/4638484","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[602,627],"revision":1355200383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1227519","to":"wikipedia://en/7792761","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[654,694],"revision":1355200383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1227519","to":"wikipedia://en/1557634","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[824,849],"revision":1355200383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1227519","to":"wikipedia://en/18152","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[860,887],"revision":1355200383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1227519","to":"wikipedia://en/54683","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1067,1098],"revision":1355200383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1227519","to":"wikipedia://en/20768715","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1508,1549],"revision":1355200383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1227519","to":"wikipedia://en/38024","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[2039,2061],"revision":1355200383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1227519","to":"wikipedia://en/2730761","predicate":"related","method":"see-also","confidence":"low","span":[10016,10036],"revision":1355200383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1227519","to":"wikipedia://en/4715","predicate":"related","method":"see-also","confidence":"low","span":[10039,10073],"revision":1355200383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1227519","to":"wikipedia://en/497640","predicate":"related","method":"see-also","confidence":"low","span":[10076,10096],"revision":1355200383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1227519","to":"Category:Logic in computer science","predicate":"in-field","method":"category","confidence":"medium","span":[10694,10732],"revision":1355200383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1227519","to":"Category:P-complete problems","predicate":"in-field","method":"category","confidence":"medium","span":[10733,10765],"revision":1355200383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1227519","to":"Category:Satisfiability problems","predicate":"in-field","method":"category","confidence":"medium","span":[10766,10802],"revision":1355200383,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/193059","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[87,102],"revision":1373989410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/193059","to":"wikipedia://en/19447","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[151,180],"revision":1373989410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/193059","to":"wikipedia://en/12397","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[236,268],"revision":1373989410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/193059","to":"wikipedia://en/14962","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[368,388],"revision":1373989410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/193059","to":"wikipedia://en/9566","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[861,874],"revision":1373989410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/193059","to":"Template:Group navbox","predicate":"in-nav","method":"nav","confidence":"low","span":[2947,2963],"revision":1373989410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/193059","to":"Category:Finite groups","predicate":"in-field","method":"category","confidence":"medium","span":[2965,2991],"revision":1373989410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/193059","to":"Category:Individual groups","predicate":"in-field","method":"category","confidence":"medium","span":[2992,3022],"revision":1373989410,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32561183#VKO9","to":"wikipedia://en/349223","predicate":"uses","method":"link-in-item","confidence":"high","span":[3282,3296],"revision":1298843105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32561183#VKO9","to":"wikipedia://en/9569","predicate":"uses","method":"link-in-item","confidence":"high","span":[3626,3642],"revision":1298843105,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5984147#01B4","to":"wikipedia://en/23666","predicate":"uses","method":"link-in-item","confidence":"high","span":[466,482],"revision":1374739600,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5984147#01B4","to":"wikipedia://en/8214","predicate":"uses","method":"link-in-item","confidence":"high","span":[514,525],"revision":1374739600,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5984147#01B4","to":"wikipedia://en/21474","predicate":"uses","method":"link-in-item","confidence":"high","span":[873,891],"revision":1374739600,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78424066#6DIX","to":"wikipedia://en/169570","predicate":"listed-in","method":"list","confidence":"certain","span":[645,713],"revision":1357260275,"finding":"broken-anchor","by":"importer/wikipedia/1"}

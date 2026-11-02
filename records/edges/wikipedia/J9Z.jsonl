@@ -1,0 +1,6 @@
+{"from":"wikipedia://en/28191234","to":"wikipedia://en/19858","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,19],"revision":1199037275,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28191234","to":"wikipedia://en/19636","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[33,55],"revision":1199037275,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28191234","to":"Category:Model theory","predicate":"in-field","method":"category","confidence":"medium","span":[4945,4970],"revision":1199037275,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/346167#R7JT","to":"wikipedia://en/252329","predicate":"listed-in","method":"list","confidence":"certain","span":[11403,11423],"revision":1368371824,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7218498#JZN9","to":"wikipedia://en/33162584","predicate":"listed-in","method":"list","confidence":"certain","span":[1349,1366],"revision":1376033148,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7218498#JZN9","to":"wikipedia://en/577162","predicate":"uses","method":"link-in-item","confidence":"medium","span":[1370,1400],"revision":1376033148,"by":"importer/wikipedia/1"}

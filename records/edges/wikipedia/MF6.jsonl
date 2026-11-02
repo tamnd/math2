@@ -1,0 +1,63 @@
+{"from":"wikipedia://en/18124446","to":"wikipedia://en/10175073","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[114,138],"revision":1248904975,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18124446","to":"wikipedia://en/30873116","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[143,167],"revision":1248904975,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18124446","to":"wikipedia://en/23470","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[198,212],"revision":1248904975,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18124446","to":"wikipedia://en/988191","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[278,296],"revision":1248904975,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18124446","to":"wikipedia://en/30855983","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[323,370],"revision":1248904975,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18124446","to":"wikipedia://en/1647938","predicate":"related","method":"see-also","confidence":"low","span":[903,912],"revision":1248904975,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18124446","to":"wikipedia://en/222573","predicate":"related","method":"see-also","confidence":"low","span":[915,925],"revision":1248904975,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18124446","to":"wikipedia://en/232535","predicate":"related","method":"see-also","confidence":"low","span":[928,942],"revision":1248904975,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18124446","to":"wikipedia://en/698016","predicate":"related","method":"see-also","confidence":"low","span":[945,965],"revision":1248904975,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18124446","to":"Category:3D computer graphics","predicate":"in-field","method":"category","confidence":"medium","span":[1036,1069],"revision":1248904975,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18124446","to":"Category:Computer graphics data structures","predicate":"in-field","method":"category","confidence":"medium","span":[1070,1116],"revision":1248904975,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/18124446","to":"Category:Mesh generation","predicate":"in-field","method":"category","confidence":"medium","span":[1117,1145],"revision":1248904975,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/194123","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[300,312],"revision":1371067560,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/194123","to":"wikipedia://en/9194858","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[372,394],"revision":1371067560,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/194123","to":"wikipedia://en/886617","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[496,513],"revision":1371067560,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/194123","to":"wikipedia://en/68274","predicate":"related","method":"link-in-lead","confidence":"low","span":[1391,1414],"revision":1371067560,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/194123","to":"wikipedia://en/187240","predicate":"related","method":"link-in-text","confidence":"low","span":[6611,6635],"revision":1371067560,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/194123","to":"wikipedia://en/2826108","predicate":"related","method":"link-in-text","confidence":"low","span":[6788,6819],"revision":1371067560,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/194123","to":"wikipedia://en/68274","predicate":"related","method":"link-in-text","confidence":"low","span":[7350,7402],"revision":1371067560,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/194123","to":"wikipedia://en/257230","predicate":"related","method":"link-in-text","confidence":"low","span":[7804,7846],"revision":1371067560,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/194123","to":"wikipedia://en/1844","predicate":"related","method":"link-in-text","confidence":"low","span":[7862,7876],"revision":1371067560,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/194123","to":"wikipedia://en/612837","predicate":"related","method":"link-in-text","confidence":"low","span":[8407,8422],"revision":1371067560,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/194123","to":"wikipedia://en/6704014","predicate":"related","method":"link-in-text","confidence":"low","span":[8540,8582],"revision":1371067560,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/194123","to":"wikipedia://en/233807","predicate":"related","method":"link-in-text","confidence":"low","span":[15293,15337],"revision":1371067560,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/194123","to":"wikipedia://en/432450","predicate":"related","method":"link-in-text","confidence":"low","span":[15385,15404],"revision":1371067560,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/194123","to":"wikipedia://en/11376","predicate":"related","method":"link-in-text","confidence":"low","span":[15462,15491],"revision":1371067560,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/194123","to":"wikipedia://en/19985542","predicate":"related","method":"link-in-text","confidence":"low","span":[15590,15619],"revision":1371067560,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/194123","to":"wikipedia://en/1072006","predicate":"related","method":"link-in-text","confidence":"low","span":[16664,16693],"revision":1371067560,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/194123","to":"wikipedia://en/161241","predicate":"related","method":"link-in-text","confidence":"low","span":[17205,17238],"revision":1371067560,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/194123","to":"wikipedia://en/5010838","predicate":"related","method":"link-in-text","confidence":"low","span":[17912,17921],"revision":1371067560,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/194123","to":"wikipedia://en/1926432","predicate":"related","method":"link-in-text","confidence":"low","span":[18773,18789],"revision":1371067560,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/194123","to":"wikipedia://en/17863612","predicate":"related","method":"see-also","confidence":"low","span":[24240,24260],"revision":1371067560,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/194123","to":"Category:Theorems about triangles","predicate":"kind-of","method":"category","confidence":"medium","span":[25403,25440],"revision":1371067560,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/194123","to":"Category:Area","predicate":"in-field","method":"category","confidence":"medium","span":[25481,25498],"revision":1371067560,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/194123","to":"Category:Ancient Greek mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[25499,25537],"revision":1371067560,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/22950755#POKT","to":"wikipedia://en/2134946","predicate":"listed-in","method":"list","confidence":"certain","span":[5823,5841],"revision":1346023917,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29946001","to":"wikipedia://en/149923","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[173,212],"revision":1293083450,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29946001","to":"wikipedia://en/2127047","predicate":"related","method":"link-in-text","confidence":"low","span":[378,397],"revision":1293083450,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29946001","to":"wikipedia://en/197440","predicate":"related","method":"link-in-text","confidence":"low","span":[547,569],"revision":1293083450,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29946001","to":"wikipedia://en/914999","predicate":"related","method":"link-in-text","confidence":"low","span":[737,820],"revision":1293083450,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29946001","to":"wikipedia://en/35458904","predicate":"related","method":"link-in-text","confidence":"low","span":[1019,1035],"revision":1293083450,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29946001","to":"wikipedia://en/1164","predicate":"related","method":"link-in-text","confidence":"low","span":[1037,1064],"revision":1293083450,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29946001","to":"wikipedia://en/48660","predicate":"related","method":"link-in-text","confidence":"low","span":[1066,1083],"revision":1293083450,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29946001","to":"wikipedia://en/1563306","predicate":"related","method":"link-in-text","confidence":"low","span":[1089,1119],"revision":1293083450,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29946001","to":"Category:German computer scientists","predicate":"in-field","method":"category","confidence":"medium","span":[2094,2133],"revision":1293083450,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29946001","to":"Category:German mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2134,2168],"revision":1293083450,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29946001","to":"Category:Academic staff of TU Braunschweig","predicate":"in-field","method":"category","confidence":"medium","span":[2205,2251],"revision":1293083450,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/29946001","to":"Category:Academic staff of Otto von Guericke University Magdeburg","predicate":"in-field","method":"category","confidence":"medium","span":[2252,2321],"revision":1293083450,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78318716","to":"wikipedia://en/5323","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[121,141],"revision":1305699157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78318716","to":"wikipedia://en/61114","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[145,166],"revision":1305699157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78318716","to":"wikipedia://en/15036","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[192,216],"revision":1305699157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78318716","to":"wikipedia://en/18934432","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[218,234],"revision":1305699157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78318716","to":"wikipedia://en/775","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[239,263],"revision":1305699157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78318716","to":"wikipedia://en/51849458","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[720,729],"revision":1305699157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78318716","to":"wikipedia://en/428545","predicate":"related","method":"link-in-text","confidence":"low","span":[1042,1075],"revision":1305699157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78318716","to":"wikipedia://en/1561321","predicate":"related","method":"link-in-text","confidence":"low","span":[1288,1314],"revision":1305699157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78318716","to":"wikipedia://en/51849458","predicate":"related","method":"link-in-text","confidence":"low","span":[2157,2166],"revision":1305699157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78318716","to":"wikipedia://en/76762609","predicate":"related","method":"link-in-text","confidence":"low","span":[2234,2276],"revision":1305699157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78318716","to":"wikipedia://en/2928","predicate":"related","method":"link-in-text","confidence":"low","span":[2438,2481],"revision":1305699157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78318716","to":"wikipedia://en/76762609","predicate":"related","method":"link-in-text","confidence":"low","span":[2634,2676],"revision":1305699157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78318716","to":"Category:Modern cryptographers","predicate":"in-field","method":"category","confidence":"medium","span":[3186,3220],"revision":1305699157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78318716","to":"Category:Israeli cryptographers","predicate":"in-field","method":"category","confidence":"medium","span":[3221,3256],"revision":1305699157,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/918748#AQJ4","to":"wikipedia://en/11512","predicate":"listed-in","method":"list","confidence":"certain","span":[1080,1106],"revision":1305906706,"by":"importer/wikipedia/1"}

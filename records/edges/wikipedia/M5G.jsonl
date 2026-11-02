@@ -1,0 +1,7 @@
+{"from":"wikipedia://en/1655188","to":"wikipedia://en/12401","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[92,108],"revision":1252360034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1655188","to":"wikipedia://en/325806","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[141,179],"revision":1252360034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1655188","to":"wikipedia://en/27631","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[212,222],"revision":1252360034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1655188","to":"wikipedia://en/638899","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[230,264],"revision":1252360034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1655188","to":"Category:Graph operations","predicate":"in-field","method":"category","confidence":"medium","span":[4308,4337],"revision":1252360034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1655188","to":"Category:Graph theory objects","predicate":"in-field","method":"category","confidence":"medium","span":[4338,4371],"revision":1252360034,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#NPM1","to":"wikipedia://en/638305","predicate":"listed-in","method":"list","confidence":"certain","span":[27317,27332],"revision":1373230097,"by":"importer/wikipedia/1"}

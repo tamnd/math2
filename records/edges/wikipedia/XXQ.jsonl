@@ -1,0 +1,6 @@
+{"from":"wikipedia://en/2688895#5QUN","to":"wikipedia://en/4102202","predicate":"uses","method":"link-in-item","confidence":"high","span":[2421,2442],"revision":1136126286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2688895#5QUN","to":"wikipedia://en/4665","predicate":"uses","method":"link-in-item","confidence":"high","span":[2536,2555],"revision":1136126286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2688895#5QUN","to":"wikipedia://en/4102202","predicate":"specializes","method":"link-in-item","confidence":"medium","span":[2577,2598],"revision":1136126286,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#W5MD","to":"wikipedia://en/10530074","predicate":"listed-in","method":"list","confidence":"certain","span":[36580,36601],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#W5MD","to":"wikipedia://en/5759","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[36605,36625],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/660973#BNYB","to":"wikipedia://en/22823684","predicate":"listed-in","method":"list","confidence":"certain","span":[4462,4479],"revision":1356076661,"by":"importer/wikipedia/1"}

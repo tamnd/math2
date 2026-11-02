@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/140829#Q5NJ","to":"wikipedia://en/61368776","predicate":"listed-in","method":"list","confidence":"certain","span":[23434,23458],"revision":1372044875,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17597677","to":"wikipedia://en/52033","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,53],"revision":1307765661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17597677","to":"wikipedia://en/1126536","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[105,129],"revision":1307765661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17597677","to":"wikipedia://en/17702796","predicate":"specializes","method":"link-in-text","confidence":"medium","span":[860,880],"revision":1307765661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17597677","to":"wikipedia://en/52033","predicate":"related","method":"see-also","confidence":"low","span":[1231,1274],"revision":1307765661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17597677","to":"wikipedia://en/17597501","predicate":"related","method":"see-also","confidence":"low","span":[1277,1363],"revision":1307765661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17597677","to":"Category:Optimization in vector spaces","predicate":"in-field","method":"category","confidence":"medium","span":[3853,3895],"revision":1307765661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17597677","to":"Category:Approximation theory","predicate":"in-field","method":"category","confidence":"medium","span":[3896,3929],"revision":1307765661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/17597677","to":"Category:Numerical analysis","predicate":"in-field","method":"category","confidence":"medium","span":[3930,3961],"revision":1307765661,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565351#T0JO","to":"wikipedia://en/20761874","predicate":"listed-in","method":"list","confidence":"certain","span":[2798,2825],"revision":1373350261,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57242824#ABT5","to":"wikipedia://en/27535892","predicate":"listed-in","method":"list","confidence":"certain","span":[8855,8900],"revision":1365520422,"by":"importer/wikipedia/1"}

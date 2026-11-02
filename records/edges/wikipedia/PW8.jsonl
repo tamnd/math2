@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/3942941#YYZ2","to":"wikipedia://en/1408000","predicate":"uses","method":"link-in-item","confidence":"high","span":[4180,4207],"revision":1351662965,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3942941#YYZ2","to":"wikipedia://en/30448","predicate":"uses","method":"link-in-item","confidence":"high","span":[4417,4434],"revision":1351662965,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3942941#YYZ2","to":"wikipedia://en/498383","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5249,5274],"revision":1351662965,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/396622#UR6Q","to":"wikipedia://en/5338167","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5406,5424],"revision":1370815317,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/396622#UR6Q","to":"wikipedia://en/7652984","predicate":"uses","method":"link-in-item","confidence":"high","span":[5594,5608],"revision":1370815317,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/396622#UR6Q","to":"wikipedia://en/43238992","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5626,5646],"revision":1370815317,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/396622#UR6Q","to":"wikipedia://en/27855","predicate":"uses","method":"link-in-item","confidence":"high","span":[6026,6055],"revision":1370815317,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7308284","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[44,59],"revision":1292961378,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7308284","to":"wikipedia://en/47895","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[90,112],"revision":1292961378,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7308284","to":"wikipedia://en/12173319","predicate":"related","method":"see-also","confidence":"low","span":[3287,3305],"revision":1292961378,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7308284","to":"Category:Stochastic processes","predicate":"in-field","method":"category","confidence":"medium","span":[3539,3572],"revision":1292961378,"by":"importer/wikipedia/1"}

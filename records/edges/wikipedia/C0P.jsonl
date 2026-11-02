@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/13910217","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[79,94],"revision":1290428980,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13910217","to":"wikipedia://en/15769518","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[158,202],"revision":1290428980,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13910217","to":"wikipedia://en/245466","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[207,238],"revision":1290428980,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13910217","to":"wikipedia://en/381013","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[256,279],"revision":1290428980,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13910217","to":"wikipedia://en/245466","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[280,307],"revision":1290428980,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13910217","to":"wikipedia://en/2042","predicate":"related","method":"link-in-lead","confidence":"low","span":[346,388],"revision":1290428980,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13910217","to":"wikipedia://en/39560800","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[389,407],"revision":1290428980,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13910217","to":"Category:Sheaf theory","predicate":"in-field","method":"category","confidence":"medium","span":[3311,3336],"revision":1290428980,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13910217","to":"Category:Theory of continuous functions","predicate":"in-field","method":"category","confidence":"medium","span":[3337,3380],"revision":1290428980,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13910217","to":"Category:Functors","predicate":"in-field","method":"category","confidence":"medium","span":[3381,3402],"revision":1290428980,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81990926","to":"wikipedia://en/11924","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[33,48],"revision":1363294561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81990926","to":"wikipedia://en/43476","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[53,76],"revision":1363294561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81990926","to":"wikipedia://en/263036","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[132,153],"revision":1363294561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81990926","to":"wikipedia://en/1346524","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[176,215],"revision":1363294561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81990926","to":"wikipedia://en/263040","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[795,811],"revision":1363294561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81990926","to":"wikipedia://en/45337","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[853,873],"revision":1363294561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81990926","to":"wikipedia://en/11924","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[877,892],"revision":1363294561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81990926","to":"wikipedia://en/25827396","predicate":"related","method":"see-also","confidence":"low","span":[3825,3844],"revision":1363294561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81990926","to":"Category:Game theory equilibrium concepts","predicate":"in-field","method":"category","confidence":"medium","span":[3925,3970],"revision":1363294561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/81990926","to":"Category:Transport economics","predicate":"in-field","method":"category","confidence":"medium","span":[3971,4003],"revision":1363294561,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9553854#6O0C","to":"wikipedia://en/25977","predicate":"uses","method":"link-in-item","confidence":"high","span":[1282,1311],"revision":1373328574,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9553854#6O0C","to":"wikipedia://en/56129","predicate":"uses","method":"link-in-item","confidence":"high","span":[1317,1336],"revision":1373328574,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9553854#6O0C","to":"wikipedia://en/326430","predicate":"uses","method":"link-in-item","confidence":"high","span":[1359,1420],"revision":1373328574,"by":"importer/wikipedia/1"}

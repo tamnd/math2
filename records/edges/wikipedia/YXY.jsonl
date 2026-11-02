@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/19897220#QS2X","to":"wikipedia://en/19864630","predicate":"uses","method":"named-link","confidence":"high","span":[1473,1491],"revision":1245447508,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075154#OMRV","to":"wikipedia://en/1928862","predicate":"uses","method":"link-in-item","confidence":"high","span":[1288,1313],"revision":1321322946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075154#OMRV","to":"wikipedia://en/53452","predicate":"uses","method":"link-in-item","confidence":"high","span":[1356,1384],"revision":1321322946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5075154#OMRV","to":"wikipedia://en/20646438","predicate":"uses","method":"link-in-item","confidence":"high","span":[1426,1441],"revision":1321322946,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50774822","to":"wikipedia://en/166971","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[152,168],"revision":1329544186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50774822","to":"wikipedia://en/201718","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[240,272],"revision":1329544186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50774822","to":"wikipedia://en/15445","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[377,396],"revision":1329544186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50774822","to":"wikipedia://en/166971","predicate":"related","method":"link-in-text","confidence":"low","span":[660,679],"revision":1329544186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50774822","to":"wikipedia://en/28481","predicate":"related","method":"link-in-text","confidence":"low","span":[824,865],"revision":1329544186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50774822","to":"wikipedia://en/201718","predicate":"generalizes","method":"link-in-text","confidence":"medium","span":[978,1010],"revision":1329544186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50774822","to":"wikipedia://en/53153455","predicate":"related","method":"see-also","confidence":"low","span":[2181,2212],"revision":1329544186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50774822","to":"Category:Entropy and information","predicate":"in-field","method":"category","confidence":"medium","span":[3880,3916],"revision":1329544186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50774822","to":"Category:Bayesian statistics","predicate":"in-field","method":"category","confidence":"medium","span":[3917,3949],"revision":1329544186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50774822","to":"Category:Statistical principles","predicate":"in-field","method":"category","confidence":"medium","span":[3950,4001],"revision":1329544186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50774822","to":"Category:Probability assessment","predicate":"in-field","method":"category","confidence":"medium","span":[4002,4037],"revision":1329544186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/50774822","to":"Category:Mathematical principles","predicate":"in-field","method":"category","confidence":"medium","span":[4038,4090],"revision":1329544186,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/510791#QBJC","to":"wikipedia://en/903495","predicate":"listed-in","method":"list","confidence":"certain","span":[91321,91339],"revision":1375023248,"by":"importer/wikipedia/1"}

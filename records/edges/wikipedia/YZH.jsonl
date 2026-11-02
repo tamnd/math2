@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/12056032#07WP","to":"wikipedia://en/18116059","predicate":"uses","method":"link-in-item","confidence":"medium","span":[3544,3583],"revision":1369123411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12056032#07WP","to":"wikipedia://en/325813","predicate":"uses","method":"link-in-item","confidence":"high","span":[4278,4295],"revision":1369123411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12056032#07WP","to":"wikipedia://en/43176911","predicate":"uses","method":"link-in-item","confidence":"high","span":[4697,4718],"revision":1369123411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12056032#07WP","to":"wikipedia://en/37315","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5261,5296],"revision":1369123411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12056032#07WP","to":"wikipedia://en/8124425","predicate":"uses","method":"link-in-item","confidence":"high","span":[5343,5389],"revision":1369123411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12056032#07WP","to":"wikipedia://en/4664","predicate":"uses","method":"link-in-item","confidence":"high","span":[5408,5425],"revision":1369123411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12056032#07WP","to":"wikipedia://en/176927","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[5587,5613],"revision":1369123411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12056032#07WP","to":"wikipedia://en/504494","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5631,5649],"revision":1369123411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12056032#07WP","to":"wikipedia://en/20688451","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5663,5683],"revision":1369123411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12056032#07WP","to":"wikipedia://en/9597906","predicate":"uses","method":"link-in-item","confidence":"medium","span":[5688,5721],"revision":1369123411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12056032#07WP","to":"wikipedia://en/12015517","predicate":"uses","method":"link-in-item","confidence":"high","span":[5756,5779],"revision":1369123411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12056032#07WP","to":"wikipedia://en/4266","predicate":"uses","method":"link-in-item","confidence":"high","span":[5882,5899],"revision":1369123411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12056032#07WP","to":"wikipedia://en/12398","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6402,6435],"revision":1369123411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12056032#07WP","to":"wikipedia://en/6163659","predicate":"uses","method":"link-in-item","confidence":"medium","span":[6515,6577],"revision":1369123411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2839#VDU5","to":"wikipedia://en/2839","predicate":"uses","method":"anchor","confidence":"certain","span":[85282,85361],"revision":1363158474,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2839#VDU5","to":"wikipedia://en/2839","predicate":"uses","method":"anchor","confidence":"certain","span":[85452,85547],"revision":1363158474,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2839#VDU5","to":"wikipedia://en/2839","predicate":"uses","method":"anchor","confidence":"certain","span":[85953,86058],"revision":1363158474,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38955864","to":"wikipedia://en/44332","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[697,728],"revision":1354968567,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38955864","to":"wikipedia://en/13882056","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[740,763],"revision":1354968567,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38955864","to":"Category:Organisations based in Birmingham, West Midlands","predicate":"in-field","method":"category","confidence":"medium","span":[1815,1876],"revision":1354968567,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/38955864","to":"Category:Clubs and societies in the West Midlands (county)","predicate":"in-field","method":"category","confidence":"medium","span":[1877,1939],"revision":1354968567,"by":"importer/wikipedia/1"}

@@ -1,0 +1,9 @@
+{"from":"wikipedia://en/2310978#S1HD","to":"wikipedia://en/97168","predicate":"uses","method":"link-in-proof","confidence":"high","span":[2430,2467],"revision":1305585550,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2310978#S1HD","to":"wikipedia://en/105622","predicate":"uses","method":"named-link","confidence":"high","span":[4259,4280],"revision":1305585550,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/40842906#ET94","to":"wikipedia://en/6021299","predicate":"listed-in","method":"list","confidence":"certain","span":[2394,2436],"revision":1290780080,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9767177","to":"wikipedia://en/155414","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[92,116],"revision":1195082937,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9767177","to":"wikipedia://en/764405","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[120,137],"revision":1195082937,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9767177","to":"wikipedia://en/1681091","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[197,212],"revision":1195082937,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9767177","to":"wikipedia://en/1188375","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[305,328],"revision":1195082937,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9767177","to":"wikipedia://en/9767106","predicate":"related","method":"see-also","confidence":"low","span":[865,888],"revision":1195082937,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9767177","to":"Category:Computability theory","predicate":"in-field","method":"category","confidence":"medium","span":[920,953],"revision":1195082937,"by":"importer/wikipedia/1"}

@@ -1,2 +1,11 @@
+{"id":"FS80KADJ1T","mentions":["wikipedia://en/20961#YNMI"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}],"proofs":["wikipedia://en/20961#HJNV"]}
 {"id":"FS80TVQ2R7","mentions":["ax://paper/2609.40207#12PO"],"kind":"definition","msc":["11-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
-{"id":"FS8GVCR6Q0","mentions":["m2://rec/wikidata/Q567560#1"],"kind":"unknown","name":"anomaly","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FS84GE2X3Z","mentions":["wikipedia://en/380157"],"kind":"definition","name":"Crypto","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FS84J17APA","mentions":["wikipedia://en/30562#HD60"],"kind":"definition","name":"Finer topology","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FS87HTCCBV","mentions":["wikipedia://en/76765067#SYJX"],"kind":"definition","name":"sensible formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FS8B4AGXHV","mentions":["wikipedia://en/11683021"],"kind":"definition","name":"Segmented regression","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FS8EQHMM54","mentions":["wikipedia://en/80936143"],"kind":"topic","name":"Bálint Dömölki","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FS8GPMEY8Y","mentions":["wikipedia://en/9755509#6ZSJ"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FS8GVCR6Q0","mentions":["m2://rec/wikidata/Q567560#1","wikipedia://en/364731"],"kind":"definition","name":"anomaly","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FS8RWA1S11","mentions":["wikipedia://en/7624108#P8LC"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FS8ZBK3KEW","mentions":["wikipedia://en/3408427#FGHV"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

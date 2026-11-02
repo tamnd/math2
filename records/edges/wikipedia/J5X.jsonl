@@ -1,0 +1,7 @@
+{"from":"wikipedia://en/100303#BOJZ","to":"wikipedia://en/18400182","predicate":"listed-in","method":"list","confidence":"certain","span":[6965,6991],"revision":1339661902,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19710#OHJH","to":"wikipedia://en/36583162","predicate":"listed-in","method":"list","confidence":"certain","span":[678,719],"revision":1368643048,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565724","to":"wikipedia://en/27859","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[39,60],"revision":1321324365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565724","to":"wikipedia://en/450004","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[675,706],"revision":1321324365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565724","to":"wikipedia://en/250265","predicate":"related","method":"see-also","confidence":"low","span":[2766,2780],"revision":1321324365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565724","to":"Category:Spirals","predicate":"in-field","method":"category","confidence":"medium","span":[3447,3467],"revision":1321324365,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565724","to":"Category:Spherical curves","predicate":"in-field","method":"category","confidence":"medium","span":[3468,3497],"revision":1321324365,"by":"importer/wikipedia/1"}

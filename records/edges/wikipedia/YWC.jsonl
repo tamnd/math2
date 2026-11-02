@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/12182350","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1310651454,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12182350","to":"wikipedia://en/9831255","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[87,115],"revision":1310651454,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12182350","to":"wikipedia://en/42693","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[145,177],"revision":1310651454,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12182350","to":"wikipedia://en/349755","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[185,198],"revision":1310651454,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12182350","to":"wikipedia://en/23000","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[210,225],"revision":1310651454,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12182350","to":"wikipedia://en/184539","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[259,284],"revision":1310651454,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12182350","to":"Category:Theorems in mathematical analysis","predicate":"kind-of","method":"category","confidence":"medium","span":[7005,7051],"revision":1310651454,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12182350","to":"Category:Inequalities (mathematics)","predicate":"kind-of","method":"category","confidence":"medium","span":[7052,7091],"revision":1310651454,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20489385#R11C","to":"wikipedia://en/2903994","predicate":"uses","method":"link-in-item","confidence":"high","span":[9410,9424],"revision":1376400436,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23760380","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[51,63],"revision":1244444820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23760380","to":"wikipedia://en/705158","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[98,115],"revision":1244444820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23760380","to":"wikipedia://en/576108","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[129,153],"revision":1244444820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23760380","to":"wikipedia://en/23756785","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[326,342],"revision":1244444820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23760380","to":"wikipedia://en/239290","predicate":"related","method":"link-in-lead","confidence":"low","span":[388,403],"revision":1244444820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23760380","to":"wikipedia://en/2202","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[437,468],"revision":1244444820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23760380","to":"wikipedia://en/19008673","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[486,504],"revision":1244444820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23760380","to":"wikipedia://en/23787036","predicate":"related","method":"see-also","confidence":"low","span":[1135,1156],"revision":1244444820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23760380","to":"wikipedia://en/705158","predicate":"related","method":"see-also","confidence":"low","span":[1159,1176],"revision":1244444820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23760380","to":"wikipedia://en/23756785","predicate":"related","method":"see-also","confidence":"low","span":[1179,1195],"revision":1244444820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23760380","to":"Category:Surfaces","predicate":"in-field","method":"category","confidence":"medium","span":[1581,1602],"revision":1244444820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23760380","to":"Category:Geometric shapes","predicate":"in-field","method":"category","confidence":"medium","span":[1603,1632],"revision":1244444820,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/51140705#YK88","to":"wikipedia://en/55594047","predicate":"listed-in","method":"list","confidence":"certain","span":[50859,50901],"revision":1369875693,"by":"importer/wikipedia/1"}

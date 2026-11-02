@@ -1,0 +1,57 @@
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/7921","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[185,199],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/185427","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[205,240],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/5176","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[244,256],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/20646438","predicate":"related","method":"link-in-text","confidence":"low","span":[355,371],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/253456","predicate":"related","method":"link-in-text","confidence":"low","span":[509,525],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/5826","predicate":"related","method":"link-in-text","confidence":"low","span":[800,819],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/7921","predicate":"related","method":"link-in-text","confidence":"low","span":[2002,2016],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/31482","predicate":"related","method":"link-in-text","confidence":"low","span":[2069,2080],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/29368","predicate":"related","method":"link-in-text","confidence":"low","span":[2112,2121],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/31482","predicate":"related","method":"link-in-text","confidence":"low","span":[2165,2189],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/147909","predicate":"restates","method":"hatnote","confidence":"high","span":[2824,2852],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/248988","predicate":"restates","method":"hatnote","confidence":"high","span":[3621,3633],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/6113","predicate":"restates","method":"hatnote","confidence":"high","span":[4084,4094],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/148064","predicate":"restates","method":"hatnote","confidence":"high","span":[4801,4822],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/14907","predicate":"related","method":"link-in-text","confidence":"low","span":[4880,4900],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/92465","predicate":"related","method":"link-in-text","confidence":"low","span":[8368,8390],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/470327","predicate":"related","method":"link-in-text","confidence":"low","span":[8886,8912],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/17860","predicate":"related","method":"link-in-text","confidence":"low","span":[8972,8985],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/21899466","predicate":"related","method":"link-in-text","confidence":"low","span":[9133,9164],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/13146531","predicate":"restates","method":"hatnote","confidence":"high","span":[9580,9622],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/56567","predicate":"restates","method":"hatnote","confidence":"high","span":[11447,11479],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/12316","predicate":"restates","method":"hatnote","confidence":"high","span":[12525,12539],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/406935","predicate":"related","method":"link-in-text","confidence":"low","span":[12933,12953],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/25809","predicate":"restates","method":"hatnote","confidence":"high","span":[13108,13129],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/2558855","predicate":"restates","method":"hatnote","confidence":"high","span":[13534,13573],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/2558855","predicate":"related","method":"link-in-text","confidence":"low","span":[14597,14622],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/19468696","predicate":"uses","method":"named-link","confidence":"high","span":[14652,14687],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"wikipedia://en/1116115","predicate":"restates","method":"hatnote","confidence":"high","span":[15525,15545],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"Template:Calculus topics","predicate":"in-nav","method":"nav","confidence":"low","span":[17587,17606],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"Category:Differentiation rules","predicate":"in-field","method":"category","confidence":"medium","span":[17668,17704],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"Category:Differential calculus","predicate":"in-field","method":"category","confidence":"medium","span":[17705,17741],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"Category:Mathematics-related lists","predicate":"in-field","method":"category","confidence":"medium","span":[17742,17792],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"Category:Mathematical tables","predicate":"in-field","method":"category","confidence":"medium","span":[17793,17837],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"Category:Mathematical identities","predicate":"kind-of","method":"category","confidence":"medium","span":[17838,17874],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"Category:Theorems in mathematical analysis","predicate":"kind-of","method":"category","confidence":"medium","span":[17875,17921],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10308785","to":"Category:Theorems in calculus","predicate":"kind-of","method":"category","confidence":"medium","span":[17922,17955],"revision":1372702382,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/19680272#RBUF","to":"wikipedia://en/285422","predicate":"uses","method":"named-link","confidence":"high","span":[2387,2427],"revision":1354537440,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209128","to":"wikipedia://en/5176","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[103,115],"revision":1362906956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209128","to":"wikipedia://en/7921","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[168,182],"revision":1362906956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209128","to":"wikipedia://en/185427","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[188,223],"revision":1362906956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209128","to":"wikipedia://en/10308785","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1443,1485],"revision":1362906956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209128","to":"wikipedia://en/4300321","predicate":"restates","method":"hatnote","confidence":"high","span":[2628,2643],"revision":1362906956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209128","to":"wikipedia://en/6113","predicate":"related","method":"link-in-text","confidence":"low","span":[2940,2954],"revision":1362906956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209128","to":"Template:Calculus topics","predicate":"in-nav","method":"nav","confidence":"low","span":[8104,8123],"revision":1362906956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209128","to":"Category:Differentiation rules","predicate":"in-field","method":"category","confidence":"medium","span":[8165,8199],"revision":1362906956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209128","to":"Category:Theorems in mathematical analysis","predicate":"kind-of","method":"category","confidence":"medium","span":[8200,8246],"revision":1362906956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/209128","to":"Category:Theorems in calculus","predicate":"kind-of","method":"category","confidence":"medium","span":[8247,8280],"revision":1362906956,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44357173","to":"wikipedia://en/8398","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[73,86],"revision":1375036941,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44357173","to":"wikipedia://en/191094","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[93,106],"revision":1375036941,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44357173","to":"wikipedia://en/166441","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[114,136],"revision":1375036941,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44357173","to":"wikipedia://en/60055007","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1553,1575],"revision":1375036941,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44357173","to":"Category:Dimension","predicate":"in-field","method":"category","confidence":"medium","span":[3228,3250],"revision":1375036941,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44357173","to":"Category:Dynamical systems","predicate":"in-field","method":"category","confidence":"medium","span":[3251,3281],"revision":1375036941,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44357173","to":"Category:Limit sets","predicate":"in-field","method":"category","confidence":"medium","span":[3282,3305],"revision":1375036941,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/44357173","to":"Category:Conjectures","predicate":"kind-of","method":"category","confidence":"medium","span":[3306,3330],"revision":1375036941,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64508219#ERUQ","to":"wikipedia://en/3942","predicate":"uses","method":"link-in-item","confidence":"high","span":[9955,9968],"revision":1369001761,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64508219#ERUQ","to":"wikipedia://en/1155734","predicate":"uses","method":"link-in-item","confidence":"high","span":[10074,10097],"revision":1369001761,"by":"importer/wikipedia/1"}

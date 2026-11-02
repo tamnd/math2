@@ -1,0 +1,9 @@
+{"from":"wikipedia://en/51140705#7VA3","to":"wikipedia://en/1569015","predicate":"listed-in","method":"list","confidence":"certain","span":[3858,3879],"revision":1369875693,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/517370#6KR4","to":"wikipedia://en/1128465","predicate":"listed-in","method":"list","confidence":"certain","span":[12121,12142],"revision":1353185276,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8664662","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":841859426,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8664662","to":"wikipedia://en/104790","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[99,138],"revision":841859426,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8664662","to":"wikipedia://en/230193","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[221,242],"revision":841859426,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8664662","to":"wikipedia://en/3363015","predicate":"generalizes","method":"link-in-lead","confidence":"medium","span":[256,281],"revision":841859426,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8664662","to":"wikipedia://en/48396","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[443,477],"revision":841859426,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8664662","to":"Category:Gamma and related functions","predicate":"in-field","method":"category","confidence":"medium","span":[858,898],"revision":841859426,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/8664662","to":"Category:Factorial and binomial topics","predicate":"in-field","method":"category","confidence":"medium","span":[899,941],"revision":841859426,"by":"importer/wikipedia/1"}

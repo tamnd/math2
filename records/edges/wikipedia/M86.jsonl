@@ -1,0 +1,13 @@
+{"from":"wikipedia://en/28746568","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1266807740,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28746568","to":"wikipedia://en/20556859","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[53,84],"revision":1266807740,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28746568","to":"wikipedia://en/455961","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[90,117],"revision":1266807740,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28746568","to":"wikipedia://en/206136","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[160,193],"revision":1266807740,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28746568","to":"wikipedia://en/20646438","predicate":"related","method":"link-in-text","confidence":"low","span":[1177,1197],"revision":1266807740,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28746568","to":"wikipedia://en/5826","predicate":"related","method":"link-in-text","confidence":"low","span":[1201,1227],"revision":1266807740,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28746568","to":"wikipedia://en/5493795","predicate":"related","method":"link-in-text","confidence":"low","span":[1415,1435],"revision":1266807740,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28746568","to":"wikipedia://en/363360","predicate":"related","method":"link-in-text","confidence":"low","span":[1508,1537],"revision":1266807740,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28746568","to":"wikipedia://en/7039","predicate":"related","method":"link-in-text","confidence":"low","span":[2090,2108],"revision":1266807740,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28746568","to":"wikipedia://en/386169","predicate":"related","method":"see-also","confidence":"low","span":[2272,2291],"revision":1266807740,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28746568","to":"Template:Functional analysis","predicate":"in-nav","method":"nav","confidence":"low","span":[2321,2344],"revision":1266807740,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28746568","to":"Category:Spectral theory","predicate":"in-field","method":"category","confidence":"medium","span":[2399,2427],"revision":1266807740,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/28746568","to":"Category:Matrix theory","predicate":"in-field","method":"category","confidence":"medium","span":[2428,2454],"revision":1266807740,"by":"importer/wikipedia/1"}

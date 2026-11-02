@@ -1,0 +1,20 @@
+{"from":"wikipedia://en/34189212#HV40","to":"wikipedia://en/50416","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[25455,25480],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#HV40","to":"wikipedia://en/5176","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[25505,25517],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#HV40","to":"wikipedia://en/15532","predicate":"uses","method":"link-in-item","confidence":"high","span":[25532,25553],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/34189212#HV40","to":"wikipedia://en/7921","predicate":"uses","method":"link-in-item","confidence":"high","span":[25832,25847],"revision":1371281804,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#H4LW","to":"wikipedia://en/576245","predicate":"listed-in","method":"list","confidence":"certain","span":[40967,40987],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/621447#F2JY","to":"wikipedia://en/8864","predicate":"listed-in","method":"list","confidence":"certain","span":[2352,2378],"revision":1333074872,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64533141","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[361,373],"revision":1363535518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64533141","to":"wikipedia://en/30654","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[438,450],"revision":1363535518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64533141","to":"wikipedia://en/1072006","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[501,530],"revision":1363535518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64533141","to":"wikipedia://en/9194858","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[562,589],"revision":1363535518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64533141","to":"wikipedia://en/651752","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[851,869],"revision":1363535518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64533141","to":"wikipedia://en/33531848","predicate":"related","method":"see-also","confidence":"low","span":[1477,1500],"revision":1363535518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/64533141","to":"Category:Objects defined for a triangle","predicate":"in-field","method":"category","confidence":"medium","span":[1646,1689],"revision":1363535518,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9179665","to":"wikipedia://en/30977","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[268,279],"revision":1373599464,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9179665","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[283,298],"revision":1373599464,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9179665","to":"wikipedia://en/1073133","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[310,326],"revision":1373599464,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9179665","to":"wikipedia://en/1244992","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[384,421],"revision":1373599464,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9179665","to":"Template:Functional Analysis","predicate":"in-nav","method":"nav","confidence":"low","span":[7358,7381],"revision":1373599464,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9179665","to":"Category:Theorems in convex geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[7383,7423],"revision":1373599464,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/9179665","to":"Category:Theorems in functional analysis","predicate":"kind-of","method":"category","confidence":"medium","span":[7424,7468],"revision":1373599464,"by":"importer/wikipedia/1"}

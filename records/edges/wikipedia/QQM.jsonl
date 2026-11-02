@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/47565351#GH56","to":"wikipedia://en/734186","predicate":"listed-in","method":"list","confidence":"certain","span":[7747,7773],"revision":1373350261,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#5DES","to":"wikipedia://en/45041880","predicate":"listed-in","method":"list","confidence":"certain","span":[52937,52959],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/683570","to":"wikipedia://en/23542","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[242,264],"revision":1281041216,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/683570","to":"wikipedia://en/5187620","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[306,330],"revision":1281041216,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/683570","to":"wikipedia://en/23543","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[339,368],"revision":1281041216,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/683570","to":"wikipedia://en/683561","predicate":"related","method":"see-also","confidence":"low","span":[5861,5880],"revision":1281041216,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/683570","to":"wikipedia://en/16714","predicate":"related","method":"see-also","confidence":"low","span":[5882,5911],"revision":1281041216,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/683570","to":"wikipedia://en/6704603","predicate":"related","method":"see-also","confidence":"low","span":[5913,5935],"revision":1281041216,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/683570","to":"Category:Probability theory","predicate":"in-field","method":"category","confidence":"medium","span":[5965,5996],"revision":1281041216,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/683570","to":"Category:F-divergences","predicate":"in-field","method":"category","confidence":"medium","span":[5997,6023],"revision":1281041216,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78730954#KIW6","to":"wikipedia://en/53227","predicate":"listed-in","method":"list","confidence":"certain","span":[170911,170920],"revision":1375476640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78730954#KIW6","to":"wikipedia://en/13483","predicate":"uses","method":"link-in-item","confidence":"medium","span":[170979,170993],"revision":1375476640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78730954#KIW6","to":"wikipedia://en/36790","predicate":"uses","method":"link-in-item","confidence":"medium","span":[171072,171084],"revision":1375476640,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/78730954#KIW6","to":"wikipedia://en/1672020","predicate":"uses","method":"link-in-item","confidence":"medium","span":[171169,171194],"revision":1375476640,"by":"importer/wikipedia/1"}

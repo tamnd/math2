@@ -1,0 +1,43 @@
+{"from":"wikipedia://en/24456509","to":"wikipedia://en/272134","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[75,97],"revision":1281438386,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24456509","to":"wikipedia://en/324029","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[115,149],"revision":1281438386,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24456509","to":"wikipedia://en/301477","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[164,218],"revision":1281438386,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24456509","to":"wikipedia://en/725893","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[259,272],"revision":1281438386,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24456509","to":"wikipedia://en/13530298","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[309,326],"revision":1281438386,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24456509","to":"wikipedia://en/31505100","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[356,388],"revision":1281438386,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24456509","to":"wikipedia://en/179088","predicate":"related","method":"link-in-text","confidence":"low","span":[1295,1303],"revision":1281438386,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24456509","to":"wikipedia://en/44632404","predicate":"related","method":"link-in-text","confidence":"low","span":[1740,1771],"revision":1281438386,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24456509","to":"wikipedia://en/956483","predicate":"related","method":"link-in-text","confidence":"low","span":[3064,3081],"revision":1281438386,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24456509","to":"wikipedia://en/1500067","predicate":"related","method":"link-in-text","confidence":"low","span":[3689,3712],"revision":1281438386,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24456509","to":"wikipedia://en/1378125","predicate":"related","method":"link-in-text","confidence":"low","span":[3714,3735],"revision":1281438386,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24456509","to":"wikipedia://en/39011138","predicate":"related","method":"link-in-text","confidence":"low","span":[4051,4070],"revision":1281438386,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24456509","to":"Category:Demographics of the United Kingdom","predicate":"in-field","method":"category","confidence":"medium","span":[4469,4516],"revision":1281438386,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24456509","to":"Category:Expenditure","predicate":"in-field","method":"category","confidence":"medium","span":[4517,4541],"revision":1281438386,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24456509","to":"Category:Household surveys","predicate":"in-field","method":"category","confidence":"medium","span":[4542,4572],"revision":1281438386,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24456509","to":"Category:Office for National Statistics","predicate":"in-field","method":"category","confidence":"medium","span":[4573,4616],"revision":1281438386,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/24456509","to":"Category:Publications established in 2001","predicate":"in-field","method":"category","confidence":"medium","span":[4617,4662],"revision":1281438386,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3021425","to":"wikipedia://en/9417","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[173,191],"revision":1369215650,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3021425","to":"wikipedia://en/25278","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[290,307],"revision":1369215650,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3021425","to":"wikipedia://en/659939","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[365,393],"revision":1369215650,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3021425","to":"wikipedia://en/76956","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[566,582],"revision":1369215650,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3021425","to":"wikipedia://en/45005169","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[705,732],"revision":1369215650,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3021425","to":"wikipedia://en/25424704","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[3554,3582],"revision":1369215650,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3021425","to":"wikipedia://en/35762367","predicate":"related","method":"see-also","confidence":"low","span":[4156,4192],"revision":1369215650,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3021425","to":"wikipedia://en/2696215","predicate":"related","method":"see-also","confidence":"low","span":[4195,4218],"revision":1369215650,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3021425","to":"wikipedia://en/2728914","predicate":"related","method":"see-also","confidence":"low","span":[4221,4243],"revision":1369215650,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3021425","to":"wikipedia://en/35718816","predicate":"related","method":"see-also","confidence":"low","span":[4246,4265],"revision":1369215650,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3021425","to":"wikipedia://en/63906911","predicate":"related","method":"see-also","confidence":"low","span":[4268,4289],"revision":1369215650,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3021425","to":"Template:Commons category","predicate":"in-nav","method":"nav","confidence":"low","span":[4338,4378],"revision":1369215650,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3021425","to":"Category:Theorems about quadrilaterals","predicate":"kind-of","method":"category","confidence":"medium","span":[5589,5631],"revision":1369215650,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#D9U3","to":"wikipedia://en/339992","predicate":"listed-in","method":"list","confidence":"certain","span":[70962,70989],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#D9U3","to":"wikipedia://en/10939","predicate":"uses","method":"link-in-item","confidence":"high","span":[70993,71013],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68869852","to":"wikipedia://en/2720954","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[756,788],"revision":1372483495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68869852","to":"wikipedia://en/907835","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[803,832],"revision":1372483495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68869852","to":"wikipedia://en/25164846","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[867,900],"revision":1372483495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68869852","to":"wikipedia://en/61116","predicate":"related","method":"link-in-text","confidence":"low","span":[985,1012],"revision":1372483495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68869852","to":"wikipedia://en/1990771","predicate":"related","method":"link-in-text","confidence":"low","span":[1142,1180],"revision":1372483495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68869852","to":"wikipedia://en/25164846","predicate":"related","method":"link-in-text","confidence":"low","span":[1415,1448],"revision":1372483495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68869852","to":"wikipedia://en/907835","predicate":"related","method":"link-in-text","confidence":"low","span":[1478,1507],"revision":1372483495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68869852","to":"wikipedia://en/2720954","predicate":"related","method":"link-in-text","confidence":"low","span":[1578,1610],"revision":1372483495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68869852","to":"Category:Women statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[4351,4383],"revision":1372483495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68869852","to":"Category:21st-century women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4384,4430],"revision":1372483495,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/68869852","to":"Category:21st-century statisticians","predicate":"in-field","method":"category","confidence":"medium","span":[4431,4470],"revision":1372483495,"by":"importer/wikipedia/1"}

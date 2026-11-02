@@ -1,0 +1,12 @@
+{"from":"wikipedia://en/1141150","to":"Template:Complex analysis sidebar","predicate":"in-nav","method":"nav","confidence":"low","span":[131,159],"revision":1372271104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1141150","to":"wikipedia://en/32916935","predicate":"related","method":"link-in-lead","confidence":"low","span":[197,216],"revision":1372271104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1141150","to":"wikipedia://en/5826","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[243,269],"revision":1372271104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1141150","to":"wikipedia://en/185427","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[277,313],"revision":1372271104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1141150","to":"wikipedia://en/14110","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[344,380],"revision":1372271104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1141150","to":"wikipedia://en/19211790","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[696,739],"revision":1372271104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1141150","to":"wikipedia://en/267444","predicate":"uses","method":"named-link","confidence":"high","span":[2897,2921],"revision":1372271104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1141150","to":"wikipedia://en/55610","predicate":"related","method":"link-in-text","confidence":"low","span":[3003,3047],"revision":1372271104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1141150","to":"wikipedia://en/1138322","predicate":"uses","method":"named-link","confidence":"high","span":[4302,4324],"revision":1372271104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1141150","to":"wikipedia://en/4872148","predicate":"related","method":"link-in-text","confidence":"low","span":[6600,6621],"revision":1372271104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1141150","to":"Category:Theorems in complex analysis","predicate":"kind-of","method":"category","confidence":"medium","span":[11136,11177],"revision":1372271104,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/140829#Y7D3","to":"wikipedia://en/7553047","predicate":"listed-in","method":"list","confidence":"certain","span":[16809,16845],"revision":1372044875,"by":"importer/wikipedia/1"}

@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/42083782","to":"wikipedia://en/2573213","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[42,74],"revision":1009133207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42083782","to":"wikipedia://en/52564","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[99,132],"revision":1009133207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42083782","to":"wikipedia://en/16901031","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[445,507],"revision":1009133207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42083782","to":"wikipedia://en/16901031","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[548,575],"revision":1009133207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42083782","to":"wikipedia://en/294340","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1110,1129],"revision":1009133207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42083782","to":"wikipedia://en/32799114","predicate":"related","method":"link-in-text","confidence":"low","span":[1606,1627],"revision":1009133207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42083782","to":"wikipedia://en/32799114","predicate":"related","method":"link-in-text","confidence":"low","span":[1712,1752],"revision":1009133207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42083782","to":"wikipedia://en/50627","predicate":"related","method":"link-in-text","confidence":"low","span":[2365,2383],"revision":1009133207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42083782","to":"wikipedia://en/34134544","predicate":"related","method":"link-in-text","confidence":"low","span":[2816,2867],"revision":1009133207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42083782","to":"wikipedia://en/23000","predicate":"related","method":"link-in-text","confidence":"low","span":[3288,3302],"revision":1009133207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42083782","to":"Category:Nonlinear partial differential equations","predicate":"in-field","method":"category","confidence":"medium","span":[3655,3708],"revision":1009133207,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/43580500#24Q3","to":"wikipedia://en/43222035","predicate":"glossary-of","method":"glossary","confidence":"certain","span":[26998,27020],"revision":1360947732,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47565351#WZBK","to":"wikipedia://en/4758703","predicate":"listed-in","method":"list","confidence":"certain","span":[16670,16682],"revision":1373350261,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59842040#24W3","to":"wikipedia://en/69392163","predicate":"uses","method":"link-in-proof","confidence":"high","span":[8180,8197],"revision":1360690218,"by":"importer/wikipedia/1"}

@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/32387425#1RU1","to":"wikipedia://en/263886","predicate":"uses","method":"link-in-item","confidence":"high","span":[3195,3220],"revision":1358367932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32387425#1RU1","to":"wikipedia://en/14828","predicate":"uses","method":"link-in-item","confidence":"high","span":[4482,4497],"revision":1358367932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#UQER","to":"wikipedia://en/6980576","predicate":"listed-in","method":"list","confidence":"certain","span":[51161,51181],"revision":1373230097,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6921017","to":"wikipedia://en/1997","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[992,1014],"revision":1369784482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6921017","to":"wikipedia://en/254108","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1015,1027],"revision":1369784482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6921017","to":"wikipedia://en/5693379","predicate":"related","method":"link-in-lead","confidence":"low","span":[1039,1059],"revision":1369784482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6921017","to":"wikipedia://en/1418949","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1077,1096],"revision":1369784482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6921017","to":"wikipedia://en/364754","predicate":"related","method":"link-in-text","confidence":"low","span":[1230,1268],"revision":1369784482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6921017","to":"wikipedia://en/3100378","predicate":"related","method":"link-in-text","confidence":"low","span":[1274,1304],"revision":1369784482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6921017","to":"wikipedia://en/394594","predicate":"related","method":"link-in-text","confidence":"low","span":[1366,1391],"revision":1369784482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6921017","to":"wikipedia://en/1252550","predicate":"related","method":"link-in-text","confidence":"low","span":[3031,3056],"revision":1369784482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6921017","to":"wikipedia://en/248808","predicate":"related","method":"link-in-text","confidence":"low","span":[3221,3252],"revision":1369784482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6921017","to":"wikipedia://en/1018","predicate":"related","method":"link-in-text","confidence":"low","span":[3258,3289],"revision":1369784482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6921017","to":"wikipedia://en/245990","predicate":"related","method":"link-in-text","confidence":"low","span":[3340,3363],"revision":1369784482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6921017","to":"wikipedia://en/149215","predicate":"related","method":"link-in-text","confidence":"low","span":[3371,3400],"revision":1369784482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6921017","to":"wikipedia://en/8122079","predicate":"related","method":"link-in-text","confidence":"low","span":[3421,3483],"revision":1369784482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6921017","to":"Category:Graduate Texts in Mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[5302,5344],"revision":1369784482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6921017","to":"Category:1977 non-fiction books","predicate":"in-field","method":"category","confidence":"medium","span":[5345,5380],"revision":1369784482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6921017","to":"Category:Algebraic geometry","predicate":"in-field","method":"category","confidence":"medium","span":[5381,5412],"revision":1369784482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6921017","to":"Category:Mathematics textbooks","predicate":"in-field","method":"category","confidence":"medium","span":[5413,5447],"revision":1369784482,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/6921017","to":"Category:Monographs","predicate":"in-field","method":"category","confidence":"medium","span":[5448,5471],"revision":1369784482,"by":"importer/wikipedia/1"}

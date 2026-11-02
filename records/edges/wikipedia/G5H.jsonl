@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/11763650","to":"wikipedia://en/24116","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[513,542],"revision":1306888663,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11763650","to":"wikipedia://en/324572","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[543,565],"revision":1306888663,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11763650","to":"wikipedia://en/537930","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[590,611],"revision":1306888663,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11763650","to":"wikipedia://en/314204","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[726,742],"revision":1306888663,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11763650","to":"wikipedia://en/577429","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[756,775],"revision":1306888663,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11763650","to":"wikipedia://en/56054828","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[797,820],"revision":1306888663,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11763650","to":"wikipedia://en/585185","predicate":"related","method":"link-in-text","confidence":"low","span":[915,945],"revision":1306888663,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11763650","to":"wikipedia://en/582311","predicate":"related","method":"link-in-text","confidence":"low","span":[948,958],"revision":1306888663,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11763650","to":"wikipedia://en/13227429","predicate":"related","method":"link-in-text","confidence":"low","span":[961,979],"revision":1306888663,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11763650","to":"wikipedia://en/9137495","predicate":"related","method":"link-in-text","confidence":"low","span":[999,1027],"revision":1306888663,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11763650","to":"wikipedia://en/1036865","predicate":"related","method":"link-in-text","confidence":"low","span":[1054,1071],"revision":1306888663,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11763650","to":"Template:Official website","predicate":"in-nav","method":"nav","confidence":"low","span":[3177,3260],"revision":1306888663,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11763650","to":"Category:Chemistry journals","predicate":"in-field","method":"category","confidence":"medium","span":[3287,3318],"revision":1306888663,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11763650","to":"Category:Statistics journals","predicate":"in-field","method":"category","confidence":"medium","span":[3319,3351],"revision":1306888663,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11763650","to":"Category:Wiley (publisher) academic journals","predicate":"in-field","method":"category","confidence":"medium","span":[3352,3400],"revision":1306888663,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11763650","to":"Category:Academic journals established in 1987","predicate":"in-field","method":"category","confidence":"medium","span":[3401,3451],"revision":1306888663,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11763650","to":"Category:English-language journals","predicate":"in-field","method":"category","confidence":"medium","span":[3452,3490],"revision":1306888663,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11763650","to":"Category:Monthly journals","predicate":"in-field","method":"category","confidence":"medium","span":[3491,3520],"revision":1306888663,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1403586#C0YR","to":"wikipedia://en/70772348","predicate":"listed-in","method":"list","confidence":"certain","span":[35444,35461],"revision":1375861581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/15550368#NBDH","to":"wikipedia://en/18329294","predicate":"related","method":"link-in-item","confidence":"low","span":[8136,8151],"revision":1375709302,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/794872#2A94","to":"wikipedia://en/604111","predicate":"listed-in","method":"list","confidence":"certain","span":[4102,4157],"revision":1332115622,"by":"importer/wikipedia/1"}

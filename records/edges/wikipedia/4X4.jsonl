@@ -1,0 +1,23 @@
+{"from":"wikipedia://en/11615#CW50","to":"wikipedia://en/1630483","predicate":"uses","method":"link-in-item","confidence":"high","span":[7214,7229],"revision":1371416411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11615#CW50","to":"wikipedia://en/174440","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[7257,7276],"revision":1371416411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11615#CW50","to":"wikipedia://en/3832917","predicate":"uses","method":"link-in-item","confidence":"high","span":[7514,7535],"revision":1371416411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11615#CW50","to":"wikipedia://en/363340","predicate":"uses","method":"link-in-item","confidence":"high","span":[7681,7704],"revision":1371416411,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/11615#CW50","to":"wikipedia://en/11615","predicate":"uses","method":"anchor","confidence":"certain","span":[7727,7755],"revision":1371416411,"finding":"broken-anchor","by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32998830","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,18],"revision":1351408901,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32998830","to":"wikipedia://en/160993","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[408,431],"revision":1351408901,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32998830","to":"wikipedia://en/218596","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[546,566],"revision":1351408901,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32998830","to":"wikipedia://en/214124","predicate":"related","method":"see-also","confidence":"low","span":[1294,1313],"revision":1351408901,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32998830","to":"Category:Polynomials","predicate":"in-field","method":"category","confidence":"medium","span":[1345,1369],"revision":1351408901,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/39490837#EIAS","to":"wikipedia://en/970447","predicate":"listed-in","method":"list","confidence":"certain","span":[199,222],"revision":1078260549,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53597314","to":"wikipedia://en/73369","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[974,989],"revision":1340955128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53597314","to":"wikipedia://en/4876289","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1095,1123],"revision":1340955128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53597314","to":"wikipedia://en/84692","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1132,1155],"revision":1340955128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53597314","to":"wikipedia://en/24897365","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1193,1210],"revision":1340955128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53597314","to":"wikipedia://en/24295969","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1251,1274],"revision":1340955128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53597314","to":"wikipedia://en/31799","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1282,1306],"revision":1340955128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53597314","to":"wikipedia://en/40310","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1368,1392],"revision":1340955128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53597314","to":"wikipedia://en/1198","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1409,1422],"revision":1340955128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53597314","to":"Category:Scientists from Montpellier","predicate":"in-field","method":"category","confidence":"medium","span":[2211,2251],"revision":1340955128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53597314","to":"Category:French women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2337,2377],"revision":1340955128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53597314","to":"Category:Norwegian women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2378,2421],"revision":1340955128,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53597314","to":"Category:Academic staff of the University of Bergen","predicate":"in-field","method":"category","confidence":"medium","span":[2422,2477],"revision":1340955128,"by":"importer/wikipedia/1"}

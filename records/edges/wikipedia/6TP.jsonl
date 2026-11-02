@@ -1,0 +1,25 @@
+{"from":"wikipedia://en/39479277#Y4VH","to":"wikipedia://en/11141222","predicate":"listed-in","method":"list","confidence":"certain","span":[382,412],"revision":1356088665,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49461780","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[280,297],"revision":1069639533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49461780","to":"wikipedia://en/17860","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[489,504],"revision":1069639533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49461780","to":"wikipedia://en/5010838","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[515,529],"revision":1069639533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49461780","to":"wikipedia://en/31482","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[534,554],"revision":1069639533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49461780","to":"Category:Year of birth missing","predicate":"in-field","method":"category","confidence":"medium","span":[1710,1744],"revision":1069639533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/49461780","to":"Category:18th-century English mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1770,1818],"revision":1069639533,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5502984","to":"wikipedia://en/598669","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[257,268],"revision":1334238425,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5502984","to":"wikipedia://en/26586083","predicate":"related","method":"link-in-lead","confidence":"low","span":[481,498],"revision":1334238425,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5502984","to":"wikipedia://en/40594","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[504,517],"revision":1334238425,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5502984","to":"wikipedia://en/25121","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[521,533],"revision":1334238425,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5502984","to":"wikipedia://en/26586083","predicate":"related","method":"link-in-lead","confidence":"low","span":[534,562],"revision":1334238425,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5502984","to":"wikipedia://en/21690","predicate":"related","method":"link-in-text","confidence":"low","span":[987,997],"revision":1334238425,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5502984","to":"wikipedia://en/47353","predicate":"related","method":"link-in-text","confidence":"low","span":[1001,1031],"revision":1334238425,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5502984","to":"wikipedia://en/155526","predicate":"related","method":"link-in-text","confidence":"low","span":[1118,1136],"revision":1334238425,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5502984","to":"wikipedia://en/9252","predicate":"related","method":"link-in-text","confidence":"low","span":[1185,1198],"revision":1334238425,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5502984","to":"Template:Commons category","predicate":"in-nav","method":"nav","confidence":"low","span":[1284,1321],"revision":1334238425,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5502984","to":"wikipedia://en/598669","predicate":"related","method":"see-also","confidence":"low","span":[1325,1336],"revision":1334238425,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5502984","to":"wikipedia://en/10854684","predicate":"related","method":"see-also","confidence":"low","span":[1339,1355],"revision":1334238425,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5502984","to":"wikipedia://en/27553","predicate":"related","method":"see-also","confidence":"low","span":[1358,1372],"revision":1334238425,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5502984","to":"wikipedia://en/61701","predicate":"related","method":"see-also","confidence":"low","span":[1375,1391],"revision":1334238425,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5502984","to":"wikipedia://en/41355731","predicate":"related","method":"see-also","confidence":"low","span":[1394,1415],"revision":1334238425,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5502984","to":"Category:Graphical concepts in set theory","predicate":"in-field","method":"category","confidence":"medium","span":[3983,4028],"revision":1334238425,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5502984","to":"Category:Diagrams","predicate":"in-field","method":"category","confidence":"medium","span":[4029,4050],"revision":1334238425,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/5502984","to":"Category:Logical diagrams","predicate":"in-field","method":"category","confidence":"medium","span":[4051,4080],"revision":1334238425,"by":"importer/wikipedia/1"}

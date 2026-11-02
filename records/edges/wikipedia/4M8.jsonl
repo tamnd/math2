@@ -1,0 +1,14 @@
+{"from":"wikipedia://en/330994","to":"wikipedia://en/5176","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[461,473],"revision":1362987636,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/330994","to":"wikipedia://en/30977","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[768,779],"revision":1362987636,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/330994","to":"wikipedia://en/285759","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[794,823],"revision":1362987636,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/330994","to":"wikipedia://en/185427","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[829,864],"revision":1362987636,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/330994","to":"wikipedia://en/48396","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[955,980],"revision":1362987636,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/330994","to":"wikipedia://en/1844","predicate":"related","method":"link-in-lead","confidence":"low","span":[1145,1159],"revision":1362987636,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/330994","to":"wikipedia://en/48388","predicate":"related","method":"link-in-lead","confidence":"low","span":[1164,1193],"revision":1362987636,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/330994","to":"wikipedia://en/23601","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1218,1231],"revision":1362987636,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/330994","to":"wikipedia://en/6125","predicate":"related","method":"link-in-lead","confidence":"low","span":[1271,1295],"revision":1362987636,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/330994","to":"Template:Portal bar","predicate":"in-nav","method":"nav","confidence":"low","span":[11531,11557],"revision":1362987636,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/330994","to":"Category:Limits (mathematics)","predicate":"in-field","method":"category","confidence":"medium","span":[11559,11592],"revision":1362987636,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/330994","to":"Category:Functions and mappings","predicate":"in-field","method":"category","confidence":"medium","span":[11593,11628],"revision":1362987636,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/330994","to":"Category:Theorems about real number sequences","predicate":"kind-of","method":"category","confidence":"medium","span":[11669,11718],"revision":1362987636,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/57242824#J29H","to":"wikipedia://en/35216813","predicate":"listed-in","method":"list","confidence":"certain","span":[840,854],"revision":1365520422,"by":"importer/wikipedia/1"}

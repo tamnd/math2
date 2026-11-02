@@ -1,0 +1,29 @@
+{"from":"wikipedia://en/20938051","to":"wikipedia://en/151873","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[649,671],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20938051","to":"wikipedia://en/18902","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[672,689],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20938051","to":"wikipedia://en/176927","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[701,727],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20938051","to":"wikipedia://en/38801","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[732,754],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20938051","to":"wikipedia://en/38091","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[778,800],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20938051","to":"wikipedia://en/23844","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[804,814],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20938051","to":"wikipedia://en/170346","predicate":"related","method":"link-in-text","confidence":"low","span":[946,965],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20938051","to":"wikipedia://en/5854318","predicate":"related","method":"link-in-text","confidence":"low","span":[994,1015],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20938051","to":"wikipedia://en/210910","predicate":"related","method":"link-in-text","confidence":"low","span":[1379,1393],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20938051","to":"wikipedia://en/969470","predicate":"related","method":"link-in-text","confidence":"low","span":[1444,1520],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20938051","to":"wikipedia://en/45019304","predicate":"related","method":"link-in-text","confidence":"low","span":[1780,1821],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20938051","to":"wikipedia://en/627842","predicate":"related","method":"link-in-text","confidence":"low","span":[2104,2148],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20938051","to":"wikipedia://en/38801","predicate":"related","method":"link-in-text","confidence":"low","span":[2969,2991],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20938051","to":"wikipedia://en/44632347","predicate":"related","method":"link-in-text","confidence":"low","span":[3033,3069],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20938051","to":"wikipedia://en/365715","predicate":"related","method":"link-in-text","confidence":"low","span":[3327,3345],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20938051","to":"wikipedia://en/34706719","predicate":"related","method":"link-in-text","confidence":"low","span":[3647,3668],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20938051","to":"wikipedia://en/69290716","predicate":"related","method":"link-in-text","confidence":"low","span":[4818,4876],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20938051","to":"wikipedia://en/702351","predicate":"related","method":"see-also","confidence":"low","span":[9307,9331],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20938051","to":"wikipedia://en/1116842","predicate":"related","method":"see-also","confidence":"low","span":[9333,9355],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20938051","to":"wikipedia://en/2724154","predicate":"related","method":"see-also","confidence":"low","span":[9357,9373],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20938051","to":"Category:Mathematicians from Prague","predicate":"in-field","method":"category","confidence":"medium","span":[9588,9627],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20938051","to":"Category:Czech mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[9667,9700],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20938051","to":"Category:Researchers in geometric algorithms","predicate":"in-field","method":"category","confidence":"medium","span":[9701,9749],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20938051","to":"Category:Academic staff of Charles University","predicate":"in-field","method":"category","confidence":"medium","span":[9750,9799],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20938051","to":"Category:Academic staff of ETH Zurich","predicate":"in-field","method":"category","confidence":"medium","span":[9800,9841],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20938051","to":"Category:Combinatorialists","predicate":"in-field","method":"category","confidence":"medium","span":[9842,9872],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/20938051","to":"Category:Topologists","predicate":"in-field","method":"category","confidence":"medium","span":[9873,9897],"revision":1372488576,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#086J","to":"wikipedia://en/1113637","predicate":"listed-in","method":"list","confidence":"certain","span":[35431,35466],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#086J","to":"wikipedia://en/253260","predicate":"uses","method":"link-in-item","confidence":"high","span":[35470,35490],"revision":1373797939,"by":"importer/wikipedia/1"}

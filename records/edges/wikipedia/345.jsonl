@@ -1,0 +1,35 @@
+{"from":"wikipedia://en/12186373#XYDK","to":"wikipedia://en/2064935","predicate":"uses","method":"link-in-item","confidence":"high","span":[2168,2211],"revision":1341193095,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12186373#XYDK","to":"wikipedia://en/11940501","predicate":"uses","method":"link-in-item","confidence":"high","span":[3106,3126],"revision":1341193095,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12186373#XYDK","to":"wikipedia://en/37021","predicate":"uses","method":"link-in-item","confidence":"high","span":[3903,3928],"revision":1341193095,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/12186373#XYDK","to":"wikipedia://en/170939","predicate":"uses","method":"link-in-item","confidence":"high","span":[3933,3951],"revision":1341193095,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21413563","to":"wikipedia://en/28565","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[175,188],"revision":1271649351,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21413563","to":"wikipedia://en/189455","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[225,232],"revision":1271649351,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21413563","to":"wikipedia://en/161339","predicate":"related","method":"link-in-lead","confidence":"low","span":[256,268],"revision":1271649351,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21413563","to":"wikipedia://en/2695616","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[324,378],"revision":1271649351,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21413563","to":"wikipedia://en/493519","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[445,464],"revision":1271649351,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21413563","to":"wikipedia://en/30061","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[617,630],"revision":1271649351,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21413563","to":"wikipedia://en/189455","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[934,941],"revision":1271649351,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21413563","to":"wikipedia://en/30654","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1688,1700],"revision":1271649351,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21413563","to":"wikipedia://en/9489914","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1747,1762],"revision":1271649351,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21413563","to":"Category:Scientists from Stuttgart","predicate":"in-field","method":"category","confidence":"medium","span":[2567,2605],"revision":1271649351,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21413563","to":"Category:19th-century German mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[2606,2653],"revision":1271649351,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21413563","to":"Category:German geometers","predicate":"in-field","method":"category","confidence":"medium","span":[2654,2683],"revision":1271649351,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/21413563","to":"Category:German schoolteachers","predicate":"in-field","method":"category","confidence":"medium","span":[2684,2718],"revision":1271649351,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72805796","to":"wikipedia://en/6295","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[227,249],"revision":1329912255,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72805796","to":"wikipedia://en/9087","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[253,274],"revision":1329912255,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72805796","to":"wikipedia://en/33589680","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[297,321],"revision":1329912255,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72805796","to":"wikipedia://en/454870","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[388,412],"revision":1329912255,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72805796","to":"wikipedia://en/37409","predicate":"related","method":"link-in-text","confidence":"low","span":[467,478],"revision":1329912255,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72805796","to":"wikipedia://en/493992","predicate":"related","method":"link-in-text","confidence":"low","span":[533,546],"revision":1329912255,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72805796","to":"wikipedia://en/263329","predicate":"related","method":"link-in-text","confidence":"low","span":[556,581],"revision":1329912255,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72805796","to":"wikipedia://en/2708612","predicate":"related","method":"link-in-text","confidence":"low","span":[623,657],"revision":1329912255,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72805796","to":"wikipedia://en/19555586","predicate":"related","method":"link-in-text","confidence":"low","span":[750,783],"revision":1329912255,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72805796","to":"wikipedia://en/4651007","predicate":"related","method":"link-in-text","confidence":"low","span":[821,845],"revision":1329912255,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72805796","to":"wikipedia://en/420561","predicate":"related","method":"link-in-text","confidence":"low","span":[1091,1103],"revision":1329912255,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72805796","to":"wikipedia://en/61981","predicate":"related","method":"link-in-text","confidence":"low","span":[1341,1356],"revision":1329912255,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72805796","to":"Category:Italian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4671,4706],"revision":1329912255,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72805796","to":"Category:Italian women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4707,4748],"revision":1329912255,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72805796","to":"Category:Italian economists","predicate":"in-field","method":"category","confidence":"medium","span":[4749,4780],"revision":1329912255,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72805796","to":"Category:Italian women economists","predicate":"in-field","method":"category","confidence":"medium","span":[4781,4818],"revision":1329912255,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72805796","to":"Category:Mathematical economists","predicate":"in-field","method":"category","confidence":"medium","span":[4819,4855],"revision":1329912255,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/72805796","to":"Category:Academic staff of the University of Urbino","predicate":"in-field","method":"category","confidence":"medium","span":[4898,4953],"revision":1329912255,"by":"importer/wikipedia/1"}

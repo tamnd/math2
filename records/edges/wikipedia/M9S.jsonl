@@ -1,0 +1,4 @@
+{"from":"wikipedia://en/14403539#9GSV","to":"wikipedia://en/4651458","predicate":"listed-in","method":"list","confidence":"certain","span":[37940,37957],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7204992#4IFS","to":"wikipedia://en/1669368","predicate":"uses","method":"link-in-item","confidence":"high","span":[1712,1739],"revision":1354135015,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7204992#4IFS","to":"wikipedia://en/7204602","predicate":"uses","method":"link-in-item","confidence":"high","span":[1756,1773],"revision":1354135015,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/7204992#4IFS","to":"wikipedia://en/6842771","predicate":"related","method":"link-in-item","confidence":"low","span":[1835,1850],"revision":1354135015,"by":"importer/wikipedia/1"}

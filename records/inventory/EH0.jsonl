@@ -1,2 +1,9 @@
+{"id":"EH033JT5RD","mentions":["wikipedia://en/77414703#J8PJ"],"kind":"definition","name":"Nevanlinna theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"EH06T6CZD1","mentions":["wikipedia://en/28730822#XPA7"],"kind":"statement","name":"Lying over theorem and places","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"EH0AYNVM7Y","mentions":["wikipedia://en/49905706#C005"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"EH0HF3QNSA","mentions":["wikipedia://en/525095#82EP"],"kind":"definition","name":"Formal definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"EH0HWZ88FM","mentions":["wikipedia://en/13856372#130H"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EH0KVTZAY9","mentions":["m2://rec/open_logic/content/set-theory/card-arithmetic/expotough.tex#proof-2#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"EH0VG4MPYQ","mentions":["m2://rec/wikidata/Q3088276#1"],"kind":"unknown","name":"polyform","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"EH0P0Z2DQY","mentions":["wikipedia://en/18826#M5ZC"],"kind":"definition","name":"Algorithm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"EH0P33NTQ0","mentions":["wikipedia://en/1055128"],"kind":"definition","name":"KSEG","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"EH0VG4MPYQ","mentions":["m2://rec/wikidata/Q3088276#1","wikipedia://en/691765"],"kind":"definition","name":"polyform","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

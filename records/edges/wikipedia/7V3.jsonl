@@ -1,0 +1,31 @@
+{"from":"wikipedia://en/1789812#T7KH","to":"wikipedia://en/64278078","predicate":"uses","method":"link-in-item","confidence":"high","span":[13454,13504],"revision":1329146615,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1789812#T7KH","to":"wikipedia://en/518844","predicate":"uses","method":"link-in-item","confidence":"high","span":[13505,13548],"revision":1329146615,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32146789","to":"wikipedia://en/1098209","predicate":"related","method":"link-in-lead","confidence":"low","span":[138,193],"revision":1373339541,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32146789","to":"wikipedia://en/38881","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[206,217],"revision":1373339541,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32146789","to":"wikipedia://en/41801592","predicate":"related","method":"link-in-lead","confidence":"low","span":[239,286],"revision":1373339541,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32146789","to":"Template:Official website","predicate":"in-nav","method":"nav","confidence":"low","span":[4862,4968],"revision":1373339541,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32146789","to":"Category:Mathematical societies","predicate":"in-field","method":"category","confidence":"medium","span":[4993,5028],"revision":1373339541,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32146789","to":"Category:Scientific societies based in Italy","predicate":"in-field","method":"category","confidence":"medium","span":[5029,5077],"revision":1373339541,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32146789","to":"Category:Scientific organizations established in 1884","predicate":"in-field","method":"category","confidence":"medium","span":[5078,5135],"revision":1373339541,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32146789","to":"Category:Education in Palermo","predicate":"in-field","method":"category","confidence":"medium","span":[5136,5169],"revision":1373339541,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32146789","to":"Category:Mathematics journals","predicate":"in-field","method":"category","confidence":"medium","span":[5170,5203],"revision":1373339541,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32146789","to":"Category:Triannual journals","predicate":"in-field","method":"category","confidence":"medium","span":[5204,5235],"revision":1373339541,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/32146789","to":"Category:1884 establishments in Italy","predicate":"in-field","method":"category","confidence":"medium","span":[5236,5277],"revision":1373339541,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54248237","to":"wikipedia://en/239811","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[149,167],"revision":1317077659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54248237","to":"wikipedia://en/621774","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[214,242],"revision":1317077659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54248237","to":"wikipedia://en/153008","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[254,269],"revision":1317077659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54248237","to":"wikipedia://en/5869","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[274,312],"revision":1317077659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54248237","to":"wikipedia://en/166898","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[313,332],"revision":1317077659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54248237","to":"wikipedia://en/18426501","predicate":"related","method":"link-in-text","confidence":"low","span":[495,517],"revision":1317077659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54248237","to":"wikipedia://en/43476","predicate":"related","method":"link-in-text","confidence":"low","span":[621,646],"revision":1317077659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54248237","to":"wikipedia://en/26976","predicate":"related","method":"link-in-text","confidence":"low","span":[650,668],"revision":1317077659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54248237","to":"wikipedia://en/31922","predicate":"related","method":"link-in-text","confidence":"low","span":[709,747],"revision":1317077659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54248237","to":"wikipedia://en/2932424","predicate":"related","method":"link-in-text","confidence":"low","span":[829,845],"revision":1317077659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54248237","to":"wikipedia://en/5027843","predicate":"related","method":"link-in-text","confidence":"low","span":[850,868],"revision":1317077659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54248237","to":"wikipedia://en/6310","predicate":"related","method":"link-in-text","confidence":"low","span":[927,950],"revision":1317077659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54248237","to":"wikipedia://en/401367","predicate":"related","method":"link-in-text","confidence":"low","span":[959,1003],"revision":1317077659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54248237","to":"wikipedia://en/59777041","predicate":"related","method":"link-in-text","confidence":"low","span":[1399,1463],"revision":1317077659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54248237","to":"wikipedia://en/9858698","predicate":"related","method":"link-in-text","confidence":"low","span":[1489,1529],"revision":1317077659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54248237","to":"Category:21st-century American mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3086,3135],"revision":1317077659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54248237","to":"Category:American topologists","predicate":"in-field","method":"category","confidence":"medium","span":[3136,3169],"revision":1317077659,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/54248237","to":"Category:21st-century American women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[3297,3352],"revision":1317077659,"by":"importer/wikipedia/1"}

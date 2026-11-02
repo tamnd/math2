@@ -1,0 +1,11 @@
+{"from":"wikipedia://en/13353871","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[72,87],"revision":1345305818,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13353871","to":"wikipedia://en/3772909","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[144,171],"revision":1345305818,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13353871","to":"wikipedia://en/3772816","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[258,287],"revision":1345305818,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13353871","to":"wikipedia://en/30450","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[307,328],"revision":1345305818,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13353871","to":"Category:Asymptotic analysis","predicate":"in-field","method":"category","confidence":"medium","span":[2131,2163],"revision":1345305818,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13353871","to":"Category:Large deviations theory","predicate":"in-field","method":"category","confidence":"medium","span":[2164,2200],"revision":1345305818,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/13353871","to":"Category:Theorems in probability theory","predicate":"kind-of","method":"category","confidence":"medium","span":[2201,2244],"revision":1345305818,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/444763#A6LQ","to":"wikipedia://en/748422","predicate":"uses","method":"link-in-item","confidence":"high","span":[19586,19600],"revision":1376337813,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/444763#A6LQ","to":"wikipedia://en/758718","predicate":"uses","method":"link-in-item","confidence":"high","span":[19604,19620],"revision":1376337813,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/444763#A6LQ","to":"wikipedia://en/882410","predicate":"uses","method":"link-in-item","confidence":"high","span":[19684,19706],"revision":1376337813,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/444763#A6LQ","to":"wikipedia://en/2038304","predicate":"uses","method":"link-in-item","confidence":"high","span":[19734,19774],"revision":1376337813,"by":"importer/wikipedia/1"}

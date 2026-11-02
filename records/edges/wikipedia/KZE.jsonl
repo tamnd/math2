@@ -1,0 +1,32 @@
+{"from":"wikipedia://en/1158496#2OB5","to":"wikipedia://en/8950386","predicate":"listed-in","method":"list","confidence":"certain","span":[9373,9396],"revision":1375407000,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1639294#9UTD","to":"wikipedia://en/324806","predicate":"uses","method":"link-in-item","confidence":"high","span":[2214,2307],"revision":1354564502,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"wikipedia://en/37585","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[154,164],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"wikipedia://en/19883","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[168,182],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[187,202],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"wikipedia://en/10041252","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[206,221],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"wikipedia://en/3385","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[238,254],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"wikipedia://en/11867","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[267,278],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"wikipedia://en/644528","predicate":"related","method":"link-in-text","confidence":"low","span":[715,730],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"wikipedia://en/44362809","predicate":"related","method":"link-in-text","confidence":"low","span":[1089,1121],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"wikipedia://en/7794","predicate":"related","method":"link-in-text","confidence":"low","span":[1126,1145],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"wikipedia://en/53767736","predicate":"related","method":"link-in-text","confidence":"low","span":[1290,1303],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"wikipedia://en/55007051","predicate":"related","method":"link-in-text","confidence":"low","span":[1579,1600],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"wikipedia://en/25233","predicate":"related","method":"link-in-text","confidence":"low","span":[2643,2653],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"wikipedia://en/43589","predicate":"related","method":"link-in-text","confidence":"low","span":[2655,2667],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"wikipedia://en/8082","predicate":"related","method":"link-in-text","confidence":"low","span":[2672,2683],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"wikipedia://en/11867","predicate":"related","method":"link-in-text","confidence":"low","span":[2774,2785],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"wikipedia://en/26964606","predicate":"related","method":"link-in-text","confidence":"low","span":[2787,2798],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"wikipedia://en/3434750","predicate":"related","method":"link-in-text","confidence":"low","span":[2804,2821],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"wikipedia://en/5042916","predicate":"related","method":"link-in-text","confidence":"low","span":[2823,2833],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"wikipedia://en/3343","predicate":"related","method":"link-in-text","confidence":"low","span":[2835,2846],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"wikipedia://en/5843419","predicate":"related","method":"link-in-text","confidence":"low","span":[2851,2861],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"wikipedia://en/26193","predicate":"related","method":"link-in-text","confidence":"low","span":[2956,2981],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"wikipedia://en/46426065","predicate":"related","method":"link-in-text","confidence":"low","span":[2997,3006],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"wikipedia://en/5363","predicate":"related","method":"link-in-text","confidence":"low","span":[3027,3041],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"wikipedia://en/8625","predicate":"related","method":"link-in-text","confidence":"low","span":[3109,3134],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"Category:Mineralogy museums","predicate":"in-field","method":"category","confidence":"medium","span":[3590,3621],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"Category:History of mathematics","predicate":"in-field","method":"category","confidence":"medium","span":[3622,3657],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"Category:Geology museums in Germany","predicate":"in-field","method":"category","confidence":"medium","span":[3658,3697],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"Category:Science museums in Germany","predicate":"in-field","method":"category","confidence":"medium","span":[3698,3737],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"Category:2010 establishments in Germany","predicate":"in-field","method":"category","confidence":"medium","span":[3738,3781],"revision":780741101,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53776585","to":"Category:Buildings and structures in Ortenaukreis","predicate":"in-field","method":"category","confidence":"medium","span":[3782,3835],"revision":780741101,"by":"importer/wikipedia/1"}

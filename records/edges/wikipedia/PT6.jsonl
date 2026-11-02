@@ -1,0 +1,16 @@
+{"from":"wikipedia://en/1200120","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[751,763],"revision":1345938578,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1200120","to":"wikipedia://en/1128465","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[850,871],"revision":1345938578,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1200120","to":"wikipedia://en/279651","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[879,904],"revision":1345938578,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1200120","to":"wikipedia://en/16034","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[928,945],"revision":1345938578,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1200120","to":"wikipedia://en/1847","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[966,988],"revision":1345938578,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1200120","to":"wikipedia://en/279651","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1035,1060],"revision":1345938578,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1200120","to":"Category:Johnson solids","predicate":"in-field","method":"category","confidence":"medium","span":[4793,4820],"revision":1345938578,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1540333#4N82","to":"wikipedia://en/238849","predicate":"uses","method":"link-in-item","confidence":"high","span":[13394,13416],"revision":1361983373,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/183091#X9RS","to":"wikipedia://en/60141647","predicate":"listed-in","method":"list","confidence":"certain","span":[98526,98555],"revision":1376385932,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#YEZ1","to":"wikipedia://en/18982351","predicate":"listed-in","method":"list","confidence":"certain","span":[8503,8522],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2018925#RS9E","to":"wikipedia://en/666431","predicate":"uses","method":"link-in-item","confidence":"high","span":[1597,1687],"revision":1352639057,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2018925#RS9E","to":"wikipedia://en/6115","predicate":"uses","method":"link-in-item","confidence":"medium","span":[1843,1868],"revision":1352639057,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/2018925#RS9E","to":"wikipedia://en/16974","predicate":"uses","method":"link-in-item","confidence":"medium","span":[2037,2057],"revision":1352639057,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25723#UKKP","to":"wikipedia://en/4292269","predicate":"uses","method":"link-in-item","confidence":"high","span":[1539,1579],"revision":1369584581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25723#UKKP","to":"wikipedia://en/381798","predicate":"uses","method":"link-in-item","confidence":"high","span":[1717,1754],"revision":1369584581,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/25723#UKKP","to":"wikipedia://en/16750","predicate":"uses","method":"link-in-item","confidence":"high","span":[1844,1859],"revision":1369584581,"by":"importer/wikipedia/1"}

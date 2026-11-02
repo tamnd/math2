@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/42260413","to":"wikipedia://en/21527","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[607,624],"revision":1370481100,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42260413","to":"wikipedia://en/23670","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[683,709],"revision":1370481100,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42260413","to":"wikipedia://en/15287","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[738,754],"revision":1370481100,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42260413","to":"wikipedia://en/49492","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[762,774],"revision":1370481100,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42260413","to":"wikipedia://en/362201","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1248,1266],"revision":1370481100,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42260413","to":"wikipedia://en/601284","predicate":"related","method":"link-in-lead","confidence":"low","span":[1382,1397],"revision":1370481100,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42260413","to":"wikipedia://en/45046166","predicate":"related","method":"link-in-lead","confidence":"low","span":[1402,1424],"revision":1370481100,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42260413","to":"wikipedia://en/40093498","predicate":"related","method":"see-also","confidence":"low","span":[1880,1900],"revision":1370481100,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42260413","to":"Template:Classes of natural numbers","predicate":"in-nav","method":"nav","confidence":"low","span":[2029,2059],"revision":1370481100,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/42260413","to":"Category:Integer sequences","predicate":"kind-of","method":"category","confidence":"medium","span":[2060,2090],"revision":1370481100,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/468884#UTN2","to":"wikipedia://en/390976","predicate":"listed-in","method":"list","confidence":"certain","span":[2124,2141],"revision":1344164290,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/53456639#4NMA","to":"wikipedia://en/53439194","predicate":"uses","method":"link-in-item","confidence":"high","span":[6352,6377],"revision":1316756826,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59441634#RF3R","to":"wikipedia://en/18879","predicate":"uses","method":"link-in-item","confidence":"medium","span":[11412,11419],"revision":1349037385,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59441634#RF3R","to":"wikipedia://en/241128","predicate":"uses","method":"link-in-item","confidence":"medium","span":[11421,11454],"revision":1349037385,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/59441634#RF3R","to":"wikipedia://en/210910","predicate":"uses","method":"link-in-item","confidence":"medium","span":[11456,11463],"revision":1349037385,"by":"importer/wikipedia/1"}

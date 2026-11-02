@@ -1,0 +1,21 @@
+{"from":"wikipedia://en/1359360#75VY","to":"wikipedia://en/498383","predicate":"uses","method":"link-in-item","confidence":"medium","span":[1492,1525],"revision":1372647052,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1359360#75VY","to":"wikipedia://en/436779","predicate":"uses","method":"link-in-item","confidence":"medium","span":[1529,1575],"revision":1372647052,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/191457#WHC7","to":"wikipedia://en/17516","predicate":"listed-in","method":"list","confidence":"certain","span":[43092,43114],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23342300","to":"wikipedia://en/1997","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[278,300],"revision":1356992952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23342300","to":"wikipedia://en/2380148","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[333,353],"revision":1356992952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23342300","to":"wikipedia://en/23214145","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[548,565],"revision":1356992952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23342300","to":"Category:Algebraic surfaces","predicate":"in-field","method":"category","confidence":"medium","span":[1519,1550],"revision":1356992952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23342300","to":"Category:Complex surfaces","predicate":"in-field","method":"category","confidence":"medium","span":[1551,1580],"revision":1356992952,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35098575","to":"wikipedia://en/18973446","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[98,110],"revision":1348662051,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35098575","to":"wikipedia://en/659939","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[179,189],"revision":1348662051,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35098575","to":"wikipedia://en/30654","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[212,225],"revision":1348662051,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35098575","to":"wikipedia://en/36643448","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[745,763],"revision":1348662051,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35098575","to":"wikipedia://en/1179483","predicate":"related","method":"link-in-lead","confidence":"low","span":[813,846],"revision":1348662051,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35098575","to":"wikipedia://en/12673586","predicate":"related","method":"link-in-lead","confidence":"low","span":[971,986],"revision":1348662051,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35098575","to":"wikipedia://en/36643448#9C8C","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1842,1877],"revision":1348662051,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35098575","to":"wikipedia://en/36643448","predicate":"restates","method":"hatnote","confidence":"high","span":[3895,3926],"revision":1348662051,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35098575","to":"wikipedia://en/42693","predicate":"related","method":"link-in-text","confidence":"low","span":[4059,4075],"revision":1348662051,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35098575","to":"Category:Euclidean plane geometry","predicate":"in-field","method":"category","confidence":"medium","span":[6044,6081],"revision":1348662051,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35098575","to":"Category:Theorems in discrete geometry","predicate":"kind-of","method":"category","confidence":"medium","span":[6082,6124],"revision":1348662051,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/35098575","to":"Category:Geometric dissection","predicate":"in-field","method":"category","confidence":"medium","span":[6125,6158],"revision":1348662051,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/37862937#2SIZ","to":"wikipedia://en/32402755","predicate":"uses","method":"link-in-item","confidence":"high","span":[23062,23114],"revision":1373687081,"by":"importer/wikipedia/1"}

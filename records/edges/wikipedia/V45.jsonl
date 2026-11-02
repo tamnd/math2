@@ -1,0 +1,4 @@
+{"from":"wikipedia://en/14403539#MDV9","to":"wikipedia://en/44920908","predicate":"listed-in","method":"list","confidence":"certain","span":[59221,59248],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1866873#JSZF","to":"wikipedia://en/1866873","predicate":"uses","method":"anchor","confidence":"certain","span":[4731,4761],"revision":1323397618,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1866873#JSZF","to":"wikipedia://en/144652","predicate":"related","method":"link-in-item","confidence":"low","span":[5137,5161],"revision":1323397618,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1866873#JSZF","to":"wikipedia://en/195243","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[5264,5331],"revision":1323397618,"finding":"broken-anchor","by":"importer/wikipedia/1"}

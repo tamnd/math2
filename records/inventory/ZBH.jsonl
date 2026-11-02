@@ -1,3 +1,6 @@
+{"id":"ZBH9RS1WSF","mentions":["wikipedia://en/38677129"],"kind":"definition","name":"G/G/1 queue","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZBH9X24NXN","mentions":["ax://paper/2609.33679#4GOY"],"kind":"statement","msc":["14-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
 {"id":"ZBHB96M4RJ","mentions":["m2://rec/hott_book/categories.tex#ct:category#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"ZBHGEFH4AX","mentions":["wikipedia://en/102221#S6EZ"],"kind":"statement","name":"Law","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ZBHWMQ5N5E","mentions":["wikipedia://en/5582812"],"kind":"definition","name":"Schmidt decomposition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZBHZBFPQAQ","mentions":["m2://rec/lebl_diffyqs/ch-power-ser.tex#example-11#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

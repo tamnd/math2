@@ -1,0 +1,20 @@
+{"from":"wikipedia://en/191457#4BD8","to":"wikipedia://en/2451045","predicate":"listed-in","method":"list","confidence":"certain","span":[22742,22766],"revision":1374178001,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23522969","to":"wikipedia://en/26685","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[3,17],"revision":1169903912,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23522969","to":"wikipedia://en/22934","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[322,337],"revision":1169903912,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23522969","to":"wikipedia://en/7770146","predicate":"related","method":"link-in-text","confidence":"low","span":[1327,1361],"revision":1169903912,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/23522969","to":"Category:Voting","predicate":"in-field","method":"category","confidence":"medium","span":[1590,1609],"revision":1169903912,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77829729","to":"wikipedia://en/61116","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[663,690],"revision":1372549335,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77829729","to":"wikipedia://en/63473","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[701,755],"revision":1372549335,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77829729","to":"wikipedia://en/147575","predicate":"related","method":"link-in-text","confidence":"low","span":[862,873],"revision":1372549335,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77829729","to":"wikipedia://en/738094","predicate":"related","method":"link-in-text","confidence":"low","span":[903,930],"revision":1372549335,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77829729","to":"wikipedia://en/1276437","predicate":"related","method":"link-in-text","confidence":"low","span":[965,983],"revision":1372549335,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77829729","to":"wikipedia://en/31922","predicate":"related","method":"link-in-text","confidence":"low","span":[1431,1469],"revision":1372549335,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77829729","to":"wikipedia://en/41537643","predicate":"related","method":"link-in-text","confidence":"low","span":[1835,1864],"revision":1372549335,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77829729","to":"wikipedia://en/61116","predicate":"related","method":"link-in-text","confidence":"low","span":[2429,2456],"revision":1372549335,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77829729","to":"wikipedia://en/62078722","predicate":"related","method":"link-in-text","confidence":"low","span":[2970,3028],"revision":1372549335,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77829729","to":"wikipedia://en/61116","predicate":"related","method":"link-in-text","confidence":"low","span":[4047,4074],"revision":1372549335,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77829729","to":"Category:Academics of Imperial College London","predicate":"in-field","method":"category","confidence":"medium","span":[5933,5982],"revision":1372549335,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/77829729","to":"Category:Environmental engineers","predicate":"in-field","method":"category","confidence":"medium","span":[5983,6019],"revision":1372549335,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82407252#SR4Y","to":"wikipedia://en/31962097","predicate":"listed-in","method":"list","confidence":"certain","span":[2654,2698],"revision":1367769453,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82407252#SR4Y","to":"wikipedia://en/87599","predicate":"related","method":"link-in-item","confidence":"low","span":[2705,2720],"revision":1367769453,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/82407252#SR4Y","to":"wikipedia://en/529941","predicate":"related","method":"link-in-item","confidence":"low","span":[2725,2741],"revision":1367769453,"by":"importer/wikipedia/1"}

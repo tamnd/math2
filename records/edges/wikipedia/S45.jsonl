@@ -1,0 +1,20 @@
+{"from":"wikipedia://en/10050297","to":"wikipedia://en/30977","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[71,82],"revision":1334891446,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10050297","to":"wikipedia://en/258986","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[86,104],"revision":1334891446,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10050297","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[126,141],"revision":1334891446,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10050297","to":"wikipedia://en/43325","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[196,217],"revision":1334891446,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10050297","to":"wikipedia://en/398931","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[278,315],"revision":1334891446,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10050297","to":"wikipedia://en/258986","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[676,695],"revision":1334891446,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10050297","to":"Template:Stochastic processes","predicate":"in-nav","method":"nav","confidence":"low","span":[1118,1142],"revision":1334891446,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10050297","to":"Category:Theorems in probability theory","predicate":"kind-of","method":"category","confidence":"medium","span":[1144,1187],"revision":1334891446,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10050297","to":"Category:Ergodic theory","predicate":"in-field","method":"category","confidence":"medium","span":[1188,1215],"revision":1334891446,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/10050297","to":"Category:Theorems in dynamical systems","predicate":"kind-of","method":"category","confidence":"medium","span":[1216,1258],"revision":1334891446,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1560725","to":"wikipedia://en/23666","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[175,192],"revision":1243261609,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1560725","to":"wikipedia://en/18908","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[231,250],"revision":1243261609,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1560725","to":"wikipedia://en/108478","predicate":"related","method":"link-in-text","confidence":"low","span":[1241,1292],"revision":1243261609,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1560725","to":"wikipedia://en/48550","predicate":"related","method":"link-in-text","confidence":"low","span":[1554,1596],"revision":1243261609,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1560725","to":"wikipedia://en/4201521","predicate":"related","method":"link-in-text","confidence":"low","span":[2141,2155],"revision":1243261609,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1560725","to":"wikipedia://en/18908","predicate":"related","method":"link-in-text","confidence":"low","span":[2224,2243],"revision":1243261609,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1560725","to":"wikipedia://en/693495","predicate":"related","method":"link-in-text","confidence":"low","span":[2266,2289],"revision":1243261609,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1560725","to":"wikipedia://en/1335392","predicate":"related","method":"see-also","confidence":"low","span":[3135,3171],"revision":1243261609,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/1560725","to":"Category:Number theorists","predicate":"in-field","method":"category","confidence":"medium","span":[3674,3703],"revision":1243261609,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/47738065#JI89","to":"wikipedia://en/56903444","predicate":"listed-in","method":"list","confidence":"certain","span":[72847,72863],"revision":1373230097,"by":"importer/wikipedia/1"}

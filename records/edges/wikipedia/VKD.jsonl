@@ -1,0 +1,15 @@
+{"from":"wikipedia://en/22999330#ZM0D","to":"wikipedia://en/63262","predicate":"uses","method":"link-in-item","confidence":"medium","span":[8357,8380],"revision":1365474655,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3875355","to":"wikipedia://en/19636","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[147,169],"revision":1367028911,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3875355","to":"wikipedia://en/157175","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[239,256],"revision":1367028911,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3875355","to":"wikipedia://en/25005","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[329,349],"revision":1367028911,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3875355","to":"wikipedia://en/58863","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[801,842],"revision":1367028911,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3875355","to":"wikipedia://en/48039","predicate":"related","method":"link-in-lead","confidence":"low","span":[1019,1041],"revision":1367028911,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3875355","to":"wikipedia://en/4076831","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[1282,1303],"revision":1367028911,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3875355","to":"wikipedia://en/1586970","predicate":"related","method":"link-in-lead","confidence":"low","span":[1335,1355],"revision":1367028911,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3875355","to":"wikipedia://en/150062","predicate":"related","method":"see-also","confidence":"low","span":[4892,4915],"revision":1367028911,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3875355","to":"wikipedia://en/28653915","predicate":"related","method":"see-also","confidence":"low","span":[4918,4948],"revision":1367028911,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3875355","to":"wikipedia://en/3606300","predicate":"related","method":"see-also","confidence":"low","span":[4951,4977],"revision":1367028911,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3875355","to":"Category:Independence results","predicate":"in-field","method":"category","confidence":"medium","span":[6055,6088],"revision":1367028911,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/3875355","to":"Category:Theorems in the foundations of mathematics","predicate":"kind-of","method":"category","confidence":"medium","span":[6089,6144],"revision":1367028911,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#TUHJ","to":"wikipedia://en/574337","predicate":"listed-in","method":"list","confidence":"certain","span":[68120,68141],"revision":1373797939,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/587645#TUHJ","to":"wikipedia://en/26685","predicate":"in-field","method":"link-in-item","confidence":"medium","span":[68145,68159],"revision":1373797939,"by":"importer/wikipedia/1"}

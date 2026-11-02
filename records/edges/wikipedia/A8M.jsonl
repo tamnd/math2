@@ -1,0 +1,17 @@
+{"from":"wikipedia://en/14403539#HOCQ","to":"wikipedia://en/216328","predicate":"listed-in","method":"list","confidence":"certain","span":[13529,13563],"revision":1373248488,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58452763","to":"wikipedia://en/35369474","predicate":"related","method":"link-in-lead","confidence":"low","span":[222,242],"revision":1306717646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58452763","to":"wikipedia://en/72233","predicate":"related","method":"link-in-text","confidence":"low","span":[334,361],"revision":1306717646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58452763","to":"wikipedia://en/25508","predicate":"related","method":"link-in-text","confidence":"low","span":[434,442],"revision":1306717646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58452763","to":"wikipedia://en/586818","predicate":"related","method":"link-in-text","confidence":"low","span":[483,507],"revision":1306717646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58452763","to":"wikipedia://en/4271687","predicate":"related","method":"link-in-text","confidence":"low","span":[527,606],"revision":1306717646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58452763","to":"wikipedia://en/4432648","predicate":"related","method":"link-in-text","confidence":"low","span":[925,956],"revision":1306717646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58452763","to":"wikipedia://en/30450","predicate":"related","method":"link-in-text","confidence":"low","span":[1133,1155],"revision":1306717646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58452763","to":"wikipedia://en/48580898","predicate":"related","method":"link-in-text","confidence":"low","span":[1200,1220],"revision":1306717646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58452763","to":"wikipedia://en/380350","predicate":"related","method":"link-in-text","confidence":"low","span":[1531,1579],"revision":1306717646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58452763","to":"wikipedia://en/590765","predicate":"related","method":"link-in-text","confidence":"low","span":[1608,1618],"revision":1306717646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58452763","to":"wikipedia://en/26779","predicate":"related","method":"link-in-text","confidence":"low","span":[1938,1961],"revision":1306717646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58452763","to":"wikipedia://en/23454335","predicate":"related","method":"link-in-text","confidence":"low","span":[1962,1969],"revision":1306717646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58452763","to":"wikipedia://en/52066273","predicate":"related","method":"link-in-text","confidence":"low","span":[2020,2106],"revision":1306717646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58452763","to":"wikipedia://en/586818","predicate":"related","method":"link-in-text","confidence":"low","span":[2842,2893],"revision":1306717646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58452763","to":"Category:20th-century Latvian mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[4237,4285],"revision":1306717646,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/58452763","to":"Category:Latvian computer scientists","predicate":"in-field","method":"category","confidence":"medium","span":[4286,4326],"revision":1306717646,"by":"importer/wikipedia/1"}

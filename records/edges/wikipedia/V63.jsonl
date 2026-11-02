@@ -1,0 +1,22 @@
+{"from":"wikipedia://en/222004","to":"wikipedia://en/18831","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[92,107],"revision":1250404918,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/222004","to":"wikipedia://en/659942","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[213,241],"revision":1250404918,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/222004","to":"wikipedia://en/326483","predicate":"related","method":"see-also","confidence":"low","span":[7872,7908],"revision":1250404918,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/222004","to":"wikipedia://en/4982245","predicate":"related","method":"see-also","confidence":"low","span":[7932,7965],"revision":1250404918,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/222004","to":"wikipedia://en/40216580","predicate":"related","method":"see-also","confidence":"low","span":[7967,8004],"revision":1250404918,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/222004","to":"wikipedia://en/37447","predicate":"related","method":"see-also","confidence":"low","span":[8006,8022],"revision":1250404918,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/222004","to":"Category:Algebraic identities","predicate":"in-field","method":"category","confidence":"medium","span":[8447,8480],"revision":1250404918,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/222004","to":"Category:Elementary number theory","predicate":"in-field","method":"category","confidence":"medium","span":[8481,8518],"revision":1250404918,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/222004","to":"Category:Squares in number theory","predicate":"in-field","method":"category","confidence":"medium","span":[8519,8556],"revision":1250404918,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/222004","to":"Category:Leonhard Euler","predicate":"in-field","method":"category","confidence":"medium","span":[8557,8584],"revision":1250404918,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/222004","to":"Category:Quaternions","predicate":"in-field","method":"category","confidence":"medium","span":[8585,8609],"revision":1250404918,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61886633","to":"wikipedia://en/18568","predicate":"related","method":"link-in-lead","confidence":"low","span":[168,188],"revision":1329514021,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61886633","to":"wikipedia://en/15972636","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[190,211],"revision":1329514021,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61886633","to":"wikipedia://en/3925533","predicate":"in-field","method":"link-in-lead","confidence":"high","span":[231,260],"revision":1329514021,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61886633","to":"wikipedia://en/32098","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[317,343],"revision":1329514021,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61886633","to":"wikipedia://en/73276","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[397,423],"revision":1329514021,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61886633","to":"wikipedia://en/31308099","predicate":"uses","method":"link-in-lead","confidence":"medium","span":[513,533],"revision":1329514021,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61886633","to":"Category:Canadian women mathematicians","predicate":"in-field","method":"category","confidence":"medium","span":[1031,1073],"revision":1329514021,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61886633","to":"Category:Canadian women computer scientists","predicate":"in-field","method":"category","confidence":"medium","span":[1074,1121],"revision":1329514021,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61886633","to":"Category:Canadian computer scientists","predicate":"in-field","method":"category","confidence":"medium","span":[1122,1163],"revision":1329514021,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61886633","to":"Category:Graph theorists","predicate":"in-field","method":"category","confidence":"medium","span":[1164,1192],"revision":1329514021,"by":"importer/wikipedia/1"}
+{"from":"wikipedia://en/61886633","to":"Category:Academic staff of the University of Victoria","predicate":"in-field","method":"category","confidence":"medium","span":[1236,1293],"revision":1329514021,"by":"importer/wikipedia/1"}

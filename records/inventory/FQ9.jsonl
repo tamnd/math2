@@ -1,1 +1,2 @@
-{"id":"FQ93NZ7KPY","mentions":["m2://rec/mathlib_1000/Q6707093#1","m2://rec/thousand_plus/Q6707093#1"],"kind":"statement","name":"Lyapunov&ndash;Malkin theorem","msc":["35-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FQ93NZ7KPY","mentions":["m2://rec/mathlib_1000/Q6707093#1","m2://rec/thousand_plus/Q6707093#1","wikipedia://en/24738627"],"kind":"statement","name":"Lyapunov–Malkin theorem","msc":["35-XX"],"layer":"textbook","spread":3,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
+{"id":"FQ9GMH9RWC","mentions":["wikipedia://en/8890014#KRUA"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

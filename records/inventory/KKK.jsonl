@@ -1,1 +1,4 @@
 {"id":"KKK4DW7TPG","mentions":["m2://rec/ernst_ibl/MAAPressVersion/IntroToLogic.tex#cor:NegateImplication#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
+{"id":"KKKBJ41AKR","mentions":["wikipedia://en/32096509"],"kind":"topic","name":"Olaus Henrici","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"KKKHFM9P0M","mentions":["wikipedia://en/64602455#2ZD8"],"kind":"statement","name":"Lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"KKKS7F7WKR","mentions":["wikipedia://en/71176219#DU52"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
