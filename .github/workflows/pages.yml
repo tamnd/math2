@@ -1,6 +1,6 @@
 name: pages
 
-# Build the wiki with m2 site build and publish it to https://tamnd.github.io/math2.
+# Build the wiki with m2 site build and publish it to https://tamnd.github.io/math2 and, when the secrets of Cloudflare are set, to https://math2.tamnd.com.
 # The nightly run picks up changes to the toolchain and the spec in tamnd/math2-agent, and to the Wikipedia scope in tamnd/wikipedia-math.
 on:
   push:
@@ -86,3 +86,62 @@ jobs:
     steps:
       - id: deploy
         uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
+
+  # Build the wiki for https://math2.tamnd.com and publish it to Cloudflare Pages, as scripts/deploy-cloudflare.sh does on a build server. The job needs the secrets CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID. When they are not set, the job builds the site and does not publish it.
+  cloudflare:
+    name: publish the wiki to Cloudflare Pages
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      # The site reads the dates of the changes to the nodes from the history, for the page Latest.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+          path: content
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          repository: tamnd/math2-agent
+          ref: main
+          path: toolchain
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          repository: tamnd/wikipedia-math
+          ref: main
+          path: wikipedia
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
+        with:
+          go-version-file: toolchain/go.mod
+          cache-dependency-path: toolchain/go.sum
+      - name: build m2
+        working-directory: toolchain
+        run: go build -trimpath -o "$RUNNER_TEMP/m2" ./cmd/m2
+      - name: build the site
+        env:
+          COMMIT: ${{ github.sha }}
+        run: |
+          "$RUNNER_TEMP/m2" site build -content content -spec toolchain/spec -wikipedia wikipedia -out _cloudflare -url https://math2.tamnd.com -commit "$COMMIT" -date now -cloudflare
+      # Cloudflare Pages takes at most 20,000 files and 25 MiB for each file in one deployment.
+      - name: check the limits of Cloudflare Pages
+        run: |
+          files=$(find _cloudflare -type f | wc -l)
+          big=$(find _cloudflare -type f -size +24M | head -1)
+          echo "the site has $files files"
+          if [ "$files" -gt 19500 ] || [ -n "$big" ]; then
+            echo "the site has more than 19500 files or a file over 24 MB ($big)"
+            exit 1
+          fi
+      - name: publish
+        env:
+          COMMIT: ${{ github.sha }}
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo "::warning::the secrets CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID are not set, so the site is not published to Cloudflare Pages"
+            exit 0
+          fi
+          npx --yes wrangler@4 pages deploy _cloudflare --project-name math2 --branch main --commit-hash "$COMMIT" --commit-message "math2 $COMMIT" --commit-dirty=true
