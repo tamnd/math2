@@ -15,7 +15,7 @@ same_as:
 The Henstock–Kurzweil integral, also called the gauge integral, is an integral of Riemann type.
 In its sums the allowed size of a subinterval may vary from point to point.
 This one change makes it integrate every derivative, so that $\int_a^b F' = F(b) - F(a)$ holds whenever $F$ is differentiable everywhere on $[a, b]$.
-It integrates every Lebesgue integrable function with the same value, and it gives the same integral as the [[Perron integral|M077AXJACA]].
+It integrates every [[Lebesgue integrable|DWJF7ABPR1]] function with the same value, and it gives the same integral as the [[Perron integral|M077AXJACA]].
 Unlike the Lebesgue integral, it also integrates some functions whose absolute value is not integrable.
 
 ## Explanations

@@ -156,7 +156,7 @@ items:
   - {name: Euler method, kind: statement, wikipedia: Euler method, wikidata: Q868454}
   - {name: Runge–Kutta methods, kind: statement, wikipedia: Runge–Kutta methods, wikidata: Q725944}
   - {name: linear multistep method, kind: statement, wikipedia: Linear multistep method, wikidata: Q1462003}
-  - {name: stiff equation, kind: concept, wikipedia: Stiff equation, wikidata: Q29744}
+  - {name: stiff equation, kind: concept, wikipedia: Stiff equation, wikidata: Q29744, node: RR5FCG92PN}
   - {name: numerical methods for ordinary differential equations, kind: concept, wikipedia: Numerical methods for ordinary differential equations, wikidata: Q541182}
   - {name: local truncation error, kind: definition, wikipedia: Truncation error (numerical integration), wikidata: Q1868494}
   - {name: backward Euler method, kind: statement, wikipedia: Backward Euler method, wikidata: Q2736820}

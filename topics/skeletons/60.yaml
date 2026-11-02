@@ -15,7 +15,7 @@ items:
   - {name: Kolmogorov axioms, kind: definition, wikipedia: Probability axioms, wikidata: Q974605, node: 0DAX8PMAJ4}
   - {name: event, kind: definition, wikipedia: Event (probability theory), wikidata: Q10290214, node: 031TPJVS74}
   - {name: sigma-algebra, kind: definition, wikipedia: Σ-algebra, wikidata: Q217357, node: 0SV8K0TDGY}
-  - {name: pi-system, kind: definition, decl: IsPiSystem, wikipedia: Pi-system, wikidata: Q3962249}
+  - {name: pi-system, kind: definition, decl: IsPiSystem, wikipedia: Pi-system, wikidata: Q3962249, node: 4W9NM803BB}
   - {name: Dynkin's pi-lambda theorem, kind: statement, decl: MeasurableSpace.DynkinSystem, wikipedia: Dynkin system, wikidata: Q1935689}
   - {name: random variable, kind: definition, wikipedia: Random variable, wikidata: Q176623, node: 0PNRKMRC55}
   - {name: law of a random variable, kind: definition, decl: MeasureTheory.Measure.map, wikipedia: Probability distribution, wikidata: Q200726, node: 01EQPZ6RYZ}
@@ -34,9 +34,9 @@ items:
   - {name: pairwise independence, kind: definition, wikipedia: Pairwise independence, wikidata: Q17104952, node: 0ZB3M68NYQ}
   - {name: independent and identically distributed random variables, kind: definition, decl: ProbabilityTheory.IdentDistrib, wikipedia: Independent and identically distributed random variables, wikidata: Q378542, node: 00MRN0FARV}
   - {name: conditional independence, kind: definition, decl: ProbabilityTheory.CondIndep, wikipedia: Conditional independence, wikidata: Q5159264, node: 0THJ7416DX}
-  - {name: product measure, kind: definition, decl: MeasureTheory.Measure.infinitePi, wikipedia: Product measure, wikidata: Q1572094}
-  - {name: Kolmogorov extension theorem, kind: statement, decl: MeasureTheory.IsProjectiveLimit, wikipedia: Kolmogorov extension theorem, wikidata: Q3526996}
-  - {name: Ionescu-Tulcea theorem, kind: statement, decl: ProbabilityTheory.Kernel.traj, wikipedia: Ionescu-Tulcea theorem, wikidata: Q25378690, mathlib: [mathlib-1000]}
+  - {name: product measure, kind: definition, decl: MeasureTheory.Measure.infinitePi, wikipedia: Product measure, wikidata: Q1572094, node: 77PV0ZAVXT}
+  - {name: Kolmogorov extension theorem, kind: statement, decl: MeasureTheory.IsProjectiveLimit, wikipedia: Kolmogorov extension theorem, wikidata: Q3526996, node: WR4X7MMTH2}
+  - {name: Ionescu-Tulcea theorem, kind: statement, decl: ProbabilityTheory.Kernel.traj, wikipedia: Ionescu-Tulcea theorem, wikidata: Q25378690, mathlib: [mathlib-1000], node: 94ASD187AQ}
   - {name: exchangeable random variables, kind: definition, wikipedia: Exchangeable random variables, wikidata: Q4406885, node: 4MR4YJS1ZD}
   - {name: de Finetti's theorem, kind: statement, wikipedia: De Finetti's theorem, wikidata: Q4408070, node: W19129PVKQ}
   - {name: Kolmogorov's zero–one law, kind: statement, decl: ProbabilityTheory.measure_zero_or_one_of_measurableSet_limsup_atTop, wikipedia: Kolmogorov's zero–one law, wikidata: Q2004664, mathlib: [mathlib-undergrad, mathlib-overview], node: 073Q8Z94KG}
@@ -77,9 +77,9 @@ items:
   - {name: conditional expectation, kind: definition, decl: MeasureTheory.condExp, wikipedia: Conditional expectation, wikidata: Q772232, mathlib: [mathlib-overview], node: 0TTDGTEFMN}
   - {name: law of total expectation, kind: statement, decl: MeasureTheory.condExp_condExp_of_le, wikipedia: Law of total expectation, wikidata: Q2247110, node: 04RRB6HM00}
   - {name: law of total variance, kind: statement, wikipedia: Law of total variance, wikidata: Q1055879, node: 03BY5XTNA4}
-  - {name: Markov kernel, kind: definition, decl: ProbabilityTheory.IsMarkovKernel, wikipedia: Markov kernel, wikidata: Q6771323}
+  - {name: Markov kernel, kind: definition, decl: ProbabilityTheory.IsMarkovKernel, wikipedia: Markov kernel, wikidata: Q6771323, node: 2AVNDP8BJP}
   - {name: regular conditional probability, kind: definition, decl: ProbabilityTheory.condDistrib, wikipedia: Regular conditional probability, wikidata: Q7309594, node: PHHT5W3BEJ}
-  - {name: disintegration theorem, kind: statement, decl: MeasureTheory.Measure.condKernel, wikipedia: Disintegration theorem, wikidata: Q5282247}
+  - {name: disintegration theorem, kind: statement, decl: MeasureTheory.Measure.condKernel, wikipedia: Disintegration theorem, wikidata: Q5282247, node: N8NXNCMSK5}
   # Probability distributions
   - {name: Bernoulli distribution, kind: example, decl: PMF.bernoulli, wikipedia: Bernoulli distribution, wikidata: Q391371, node: 0386Y0Z7Y7}
   - {name: binomial distribution, kind: example, decl: PMF.binomial, wikipedia: Binomial distribution, wikidata: Q185547, node: 0WCWA1KT3M}
@@ -91,7 +91,7 @@ items:
   - {name: continuous uniform distribution, kind: example, wikipedia: Continuous uniform distribution, wikidata: Q274506, node: 0AREFQ9Z65}
   - {name: normal distribution, kind: example, decl: ProbabilityTheory.gaussianReal, wikipedia: Normal distribution, wikidata: Q133871, mathlib: [mathlib-undergrad, mathlib-overview], node: 05AQE0QR0D}
   - {name: multivariate normal distribution, kind: example, decl: ProbabilityTheory.multivariateGaussian, wikipedia: Multivariate normal distribution, wikidata: Q1149000, node: 0XN3K7RSZY}
-  - {name: Gaussian measure, kind: definition, decl: ProbabilityTheory.IsGaussian, wikipedia: Gaussian measure, wikidata: Q5527840, mathlib: [mathlib-overview]}
+  - {name: Gaussian measure, kind: definition, decl: ProbabilityTheory.IsGaussian, wikipedia: Gaussian measure, wikidata: Q5527840, mathlib: [mathlib-overview], node: P0DV2TCH1N}
   - {name: exponential distribution, kind: example, decl: ProbabilityTheory.expMeasure, wikipedia: Exponential distribution, wikidata: Q237193, mathlib: [mathlib-undergrad, mathlib-overview], node: 0E99F51GVB}
   - {name: gamma distribution, kind: example, decl: ProbabilityTheory.gammaMeasure, wikipedia: Gamma distribution, wikidata: Q117806, node: 0B80PAQD3C}
   - {name: beta distribution, kind: example, decl: ProbabilityTheory.betaPDF, wikipedia: Beta distribution, wikidata: Q756254, node: 0EW824Z7G2}
@@ -109,17 +109,17 @@ items:
   - {name: almost sure convergence, kind: definition, wikipedia: Convergence of random variables, wikidata: Q578985, node: 0AAXWGT5TD}
   - {name: convergence in probability, kind: definition, decl: MeasureTheory.TendstoInMeasure, wikipedia: Convergence of random variables, wikidata: Q578985, mathlib: [mathlib-undergrad, mathlib-overview], node: 0QA1HBD9Z4}
   - {name: convergence in distribution, kind: definition, decl: MeasureTheory.TendstoInDistribution, wikipedia: Convergence of random variables, wikidata: Q578985, node: 0SRYJGXKR4}
-  - {name: weak convergence of measures, kind: definition, decl: MeasureTheory.ProbabilityMeasure.tendsto_iff_forall_integral_tendsto, wikipedia: Convergence of measures, wikidata: Q2105205, mathlib: [mathlib-overview]}
-  - {name: portmanteau theorem, kind: statement, decl: MeasureTheory.tendsto_measure_of_le_liminf_measure_of_limsup_measure_le, wikipedia: Convergence of measures, wikidata: Q2105205}
-  - {name: Lévy–Prokhorov metric, kind: definition, decl: MeasureTheory.levyProkhorovDist, wikipedia: Lévy–Prokhorov metric, wikidata: Q421945}
+  - {name: weak convergence of measures, kind: definition, decl: MeasureTheory.ProbabilityMeasure.tendsto_iff_forall_integral_tendsto, wikipedia: Convergence of measures, wikidata: Q2105205, mathlib: [mathlib-overview], node: MBW9JCGZC1}
+  - {name: portmanteau theorem, kind: statement, decl: MeasureTheory.tendsto_measure_of_le_liminf_measure_of_limsup_measure_le, wikipedia: Convergence of measures, wikidata: Q2105205, node: 4SSJ589G6T}
+  - {name: Lévy–Prokhorov metric, kind: definition, decl: MeasureTheory.levyProkhorovDist, wikipedia: Lévy–Prokhorov metric, wikidata: Q421945, node: 8GZK8NC3VQ}
   - {name: tightness of measures, kind: definition, decl: MeasureTheory.IsTightMeasureSet, wikipedia: Tightness of measures, wikidata: Q7801650, node: MNMJC8YVBS}
-  - {name: Prokhorov's theorem, kind: statement, decl: isCompact_closure_of_isTightMeasureSet, wikipedia: Prokhorov's theorem, wikidata: Q7249519, mathlib: [mathlib-1000]}
+  - {name: Prokhorov's theorem, kind: statement, decl: isCompact_closure_of_isTightMeasureSet, wikipedia: Prokhorov's theorem, wikidata: Q7249519, mathlib: [mathlib-1000], node: D6FMEQYA76}
   - {name: Skorokhod's representation theorem, kind: statement, wikipedia: Skorokhod's representation theorem, wikidata: Q401905, node: JPD7Q0P4F6}
   - {name: Lévy's continuity theorem, kind: statement, decl: MeasureTheory.tendstoInDistribution_iff_tendsto_charFun, wikipedia: Lévy's continuity theorem, wikidata: Q1966978, node: 0FPWF7TTMB}
   - {name: Slutsky's theorem, kind: statement, wikipedia: Slutsky's theorem, wikidata: Q643826, node: GCV10B5HES}
   - {name: continuous mapping theorem, kind: statement, wikipedia: Continuous mapping theorem, wikidata: Q5165492, node: CFRN0G7GDB}
-  - {name: uniform integrability, kind: definition, decl: MeasureTheory.UniformIntegrable, wikipedia: Uniform integrability, wikidata: Q1530275, mathlib: [mathlib-overview]}
-  - {name: Vitali convergence theorem, kind: statement, decl: MeasureTheory.tendstoInMeasure_iff_tendsto_Lp, wikipedia: Vitali convergence theorem, wikidata: Q11352023, mathlib: [mathlib-1000]}
+  - {name: uniform integrability, kind: definition, decl: MeasureTheory.UniformIntegrable, wikipedia: Uniform integrability, wikidata: Q1530275, mathlib: [mathlib-overview], node: VRVVKMXDGV}
+  - {name: Vitali convergence theorem, kind: statement, decl: MeasureTheory.tendstoInMeasure_iff_tendsto_Lp, wikipedia: Vitali convergence theorem, wikidata: Q11352023, mathlib: [mathlib-1000], node: C3CKZAZ57Z}
   # Limit theorems
   - {name: Borel–Cantelli lemma, kind: statement, decl: MeasureTheory.measure_limsup_atTop_eq_zero, wikipedia: Borel–Cantelli lemma, wikidata: Q893496, mathlib: [mathlib-undergrad]}
   - {name: second Borel–Cantelli lemma, kind: statement, decl: ProbabilityTheory.measure_limsup_eq_one, wikipedia: Borel–Cantelli lemma, wikidata: Q893496, mathlib: [mathlib-undergrad], node: 0NWXRAMEE7}
@@ -191,7 +191,7 @@ items:
   - {name: Itô isometry, kind: statement, wikipedia: Itô isometry, wikidata: Q6095356, node: 5MDK7HSYRM}
   - {name: Itô's lemma, kind: statement, wikipedia: Itô's lemma, wikidata: Q1151100, node: 2J1RVQB0CM}
   - {name: Stratonovich integral, kind: definition, wikipedia: Stratonovich integral, wikidata: Q7622233, node: EE1QZRCFPJ}
-  - {name: stochastic differential equation, kind: definition, wikipedia: Stochastic differential equation, wikidata: Q1545585}
+  - {name: stochastic differential equation, kind: definition, wikipedia: Stochastic differential equation, wikidata: Q1545585, node: B219G9SHJA}
   - {name: Doléans-Dade exponential, kind: definition, wikipedia: Doléans-Dade exponential, wikidata: Q5289708, node: 3D88622PBQ}
   - {name: Girsanov theorem, kind: statement, wikipedia: Girsanov theorem, wikidata: Q830124, node: Z76HD1BZ29}
   - {name: martingale representation theorem, kind: statement, wikipedia: Martingale representation theorem, wikidata: Q6777133, node: 2E8MQXDYNV}

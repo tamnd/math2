@@ -121,7 +121,7 @@ items:
   - {name: Sion's minimax theorem, kind: statement, decl: Sion.exists_isSaddlePointOn, wikipedia: Minimax theorem, wikidata: Q913849}
   - {name: saddle point of a function on a product, kind: definition, decl: IsSaddlePointOn, wikipedia: Saddle point, wikidata: Q690935}
   - {name: Danskin's theorem, kind: statement, wikipedia: Danskin's theorem, wikidata: Q5221089}
-  - {name: proximal operator, kind: definition, wikipedia: Proximal operator, wikidata: Q28130527}
+  - {name: proximal operator, kind: definition, wikipedia: Proximal operator, wikidata: Q28130527, node: E239APE78P}
   - {name: Moreau envelope, kind: definition, wikipedia: Moreau envelope, wikidata: Q115978756}
   - {name: self-concordant function, kind: definition, wikipedia: Self-concordant function, wikidata: Q4406886}
   - {name: barrier function, kind: definition, wikipedia: Barrier function, wikidata: Q4863604}

@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $S$ be a closed, connected, oriented topological surface of genus $g \ge 0$.
+Let $S$ be a closed, connected, oriented topological surface of [[genus|NJ787GZS1N]] $g \ge 0$.
 A *marked Riemann surface* of type $S$ is a pair $(X, f)$, where $X$ is a [[Riemann surface|5K0N8QMV6Q]] and $f \colon S \to X$ is an orientation-preserving [[homeomorphism|05GZ11PWRY]].
 Two marked Riemann surfaces $(X, f)$ and $(Y, h)$ are *equivalent* if there is a [[biholomorphism|8AJEMCZ29B]] $\varphi \colon X \to Y$ such that $\varphi \circ f$ is isotopic to $h$.
 The *Teichmüller space* $T(S)$ is the set of equivalence classes of marked Riemann surfaces of type $S$.

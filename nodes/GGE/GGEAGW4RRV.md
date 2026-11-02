@@ -15,7 +15,7 @@ same_as:
 ## Statement
 
 Let $n \ge 1$, and for $i = 1, \dots, n$ let $(\Omega_i, P_i)$ be a finite [[probability space|0NFPJVJJHX]] in which every subset is an event.
-Let $\Omega = \Omega_1 \times \dots \times \Omega_n$ with the product measure $P = P_1 \otimes \dots \otimes P_n$.
+Let $\Omega = \Omega_1 \times \dots \times \Omega_n$ with the [[product measure|77PV0ZAVXT]] $P = P_1 \otimes \dots \otimes P_n$.
 For a nonempty set $A \subseteq \Omega$ and a point $x \in \Omega$, define the convex distance
 $$d_T(x, A) = \sup_{\alpha} \ \inf_{y \in A} \sum_{i \,:\, x_i \ne y_i} \alpha_i,$$
 where the supremum is over all $\alpha \in [0, \infty)^n$ with $\alpha_1^2 + \dots + \alpha_n^2 = 1$.

@@ -12,7 +12,7 @@ sources:
 ## Definition
 
 Let $\mathbb{D}$ be the open [[unit disc|8G5ABXRK85]].
-Let $\varphi$ be a nonnegative measurable function on the unit circle such that $\log \varphi$ is integrable with respect to Lebesgue measure.
+Let $\varphi$ be a nonnegative measurable function on the unit circle such that $\log \varphi$ is integrable with respect to [[Lebesgue measure|2Z2QVWZ262]].
 Let $c \in \C$ with $\abs{c} = 1$.
 The *outer function* with modulus $\varphi$ and constant $c$ is the function $F \colon \mathbb{D} \to \C$ given by
 $$F(z) = c \exp\left(\frac{1}{2\pi} \int_0^{2\pi} \frac{e^{it} + z}{e^{it} - z} \log \varphi(e^{it}) \, dt\right).$$
@@ -22,7 +22,7 @@ A holomorphic function on $\mathbb{D}$ is *outer* if it is of this form for some
 
 $F$ is [[holomorphic|0DG0Z72CQD]] and has no zeros, and $\log \abs{F}$ is the [[Poisson integral|TCYSWCTYYM]] of $\log \varphi$.
 Its radial limits satisfy $\abs{F^*} = \varphi$ almost everywhere.
-For $0 < p \le \infty$, $F$ lies in the Hardy space $H^p$ if and only if $\varphi \in L^p$ (Lp space).
+For $0 < p \le \infty$, $F$ lies in the Hardy space $H^p$ if and only if $\varphi \in L^p$ ([[Lp space|SASP14MA1Z]]).
 
 Example: $F(z) = 2 + z$ is outer.
 It is holomorphic and has no zeros on a neighbourhood of the closed disc, so $\log \abs{F}$ is harmonic and continuous up to the circle.

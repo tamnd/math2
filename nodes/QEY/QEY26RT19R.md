@@ -16,7 +16,7 @@ same_as:
 ## Statement
 
 Let $n, m \ge 1$, let $U \subseteq \R^n$ be an open set, and let $f \colon U \to \R^m$ be [[Lipschitz continuous|0QNVQ4VD9T]].
-Then $f$ is [[Fréchet differentiable|08EVNYZF42]] at almost every point of $U$ with respect to Lebesgue measure on $\R^n$.
+Then $f$ is [[Fréchet differentiable|08EVNYZF42]] at [[almost every|RARTMA0ZEC]] point of $U$ with respect to [[Lebesgue measure|2Z2QVWZ262]] on $\R^n$.
 
 ## Remarks
 

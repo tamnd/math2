@@ -18,11 +18,11 @@ same_as:
 Let $n, m \ge 1$, let $U \subseteq \R^n$ be open, and let $f \colon U \to \R^m$ be of class $C^k$, where $k \ge \max(n - m + 1, 1)$.
 A point $x \in U$ is a [[critical point|0YTCMFB4HC]] of $f$ if the [[Jacobian matrix|047NDTEPCV]] $Df(x)$ has rank less than $m$.
 A critical value of $f$ is the image $f(x)$ of a critical point $x$.
-Then the set of critical values of $f$ has Lebesgue measure zero in $\R^m$.
+Then the set of critical values of $f$ has [[Lebesgue measure|2Z2QVWZ262]] zero in $\R^m$.
 
 ## Remarks
 
-When $n < m$, every point is critical, and the theorem says that the image $f(U)$ of a $C^1$ map is a null set.
+When $n < m$, every point is critical, and the theorem says that the image $f(U)$ of a $C^1$ map is a [[null set|VQQM4Y550T]].
 In the case $n = m$, the idea is this.
 Near a critical point, $f$ squeezes a small cube of side $r$ into a set of volume $o(r^n)$, because $Df(x)$ is singular.
 Covering the critical set by small cubes then gives total volume as small as one wants.

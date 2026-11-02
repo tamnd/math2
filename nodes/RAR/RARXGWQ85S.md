@@ -13,8 +13,8 @@ same_as:
 
 ## Counterexample
 
-Let $S \subseteq [0, 1]$ be the Smith–Volterra–Cantor set.
-It is closed, contains no interval, and has positive Lebesgue measure.
+Let $S \subseteq [0, 1]$ be the [[Smith–Volterra–Cantor set|HZTRH10Z8Y]].
+It is closed, contains no interval, and has positive [[Lebesgue measure|2Z2QVWZ262]].
 Let $g(t) = t^2 \sin(1/t)$ for $t \ne 0$ and $g(0) = 0$.
 Then $g$ is differentiable on $\R$, with $g'(t) = 2t \sin(1/t) - \cos(1/t)$ for $t \ne 0$ and $g'(0) = 0$.
 

@@ -29,4 +29,4 @@ Non-example: $q^n$ is not a q-analog of $n$, since $q^n \to 1$ as $q \to 1$, and
 
 The definition by a limit alone does not fix a unique q-analog.
 In practice a q-analog is chosen because it keeps the structure of the original, such as a recurrence or a combinatorial meaning.
-Main examples are the [[Gaussian binomial coefficients|YS09Z1YNEK]], the q-Pochhammer symbol and the q-binomial theorem.
+Main examples are the [[Gaussian binomial coefficients|YS09Z1YNEK]], the [[q-Pochhammer symbol|Y1X8ZZQ7VM]] and the q-binomial theorem.

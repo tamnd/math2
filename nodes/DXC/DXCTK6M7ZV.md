@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $X$ be a CAT(0) space, that is, a geodesic metric space with the following property.
+Let $X$ be a [[CAT(0) space|1FAF2VNA4G]], that is, a geodesic metric space with the following property.
 For every geodesic triangle $\Delta$, let $\bar\Delta$ be a triangle in $\R^2$ with the same side lengths.
 Then $d(p, q) \le \norm{\bar p - \bar q}$ for all points $p, q$ of $\Delta$ and their comparison points $\bar p, \bar q$ in $\bar\Delta$.
 Let a group $G$ [[act|0WCY42EV9V]] on $X$ by [[isometries|02HPP5VCZH]].

@@ -13,17 +13,17 @@ sources:
 ## Statement
 
 Let $a < b$ and let $f \colon [a, b] \to \R$ be a [[monotone function|0WFF6AZPBP]].
-Then $f$ is [[differentiable|0F1WR9C83K]] at almost every point of $[a, b]$.
-That is, the set of points of $(a, b)$ where $f$ has no finite derivative is a null set.
+Then $f$ is [[differentiable|0F1WR9C83K]] at [[almost every|RARTMA0ZEC]] point of $[a, b]$.
+That is, the set of points of $(a, b)$ where $f$ has no finite derivative is a [[null set|VQQM4Y550T]].
 
 ## Remarks
 
-The standard proof uses the [[Dini derivatives|36DXKAD2RZ]] of $f$ and the Vitali covering lemma.
+The standard proof uses the [[Dini derivatives|36DXKAD2RZ]] of $f$ and the [[Vitali covering lemma|FCA0J1X07K]].
 For nondecreasing $f$, one shows that each set $\set{x : D^+ f(x) > q > p > D_- f(x)}$ with rationals $p < q$ is null.
 One also shows that the set where $D^+ f(x) = \infty$ is null.
 Together with the same argument for the other pairs of Dini derivatives, this gives a finite derivative almost everywhere.
 
-For nondecreasing $f$, the derivative $f'$ is moreover Lebesgue integrable, and $\int_a^b f'(x) \, dx \le f(b) - f(a)$ for the Lebesgue integral.
+For nondecreasing $f$, the derivative $f'$ is moreover Lebesgue integrable, and $\int_a^b f'(x) \, dx \le f(b) - f(a)$ for the [[Lebesgue integral|DWJF7ABPR1]].
 The inequality can be strict: for the [[Cantor function|NPBYYK63FE]], the left side is $0$ and the right side is $1$.
 Monotonicity cannot be replaced by continuity: the [[Weierstrass function|01A0MK1730]] is continuous and differentiable at no point.
 The theorem extends to functions of bounded variation, which are differences of monotone functions by the [[Jordan decomposition|KDT3E0VE0K]].

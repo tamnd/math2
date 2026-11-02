@@ -14,7 +14,7 @@ same_as:
 
 The finite-dimensional distributions of a [[stochastic process|0QH5ENKZM1]] $(X_t)_{t \in T}$ are the joint laws of the random vectors $(X_{t_1}, \dots, X_{t_k})$ for finitely many times $t_1, \dots, t_k$.
 They determine the law of the process on the product $\sigma$-algebra.
-By the Kolmogorov extension theorem, a consistent family of such laws comes from some process, which is the usual way to construct processes.
+By the [[Kolmogorov extension theorem|WR4X7MMTH2]], a consistent family of such laws comes from some process, which is the usual way to construct processes.
 They do not determine path properties such as continuity.
 
 ## Explanations

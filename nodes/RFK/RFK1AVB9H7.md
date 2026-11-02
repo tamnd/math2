@@ -12,7 +12,7 @@ sources:
 ## Definition
 
 Let $I \subseteq \R$ be an open interval, let $f \colon I \to \R$ be a function, and let $x \in I$.
-Write $\lambda$ for Lebesgue measure.
+Write $\lambda$ for [[Lebesgue measure|2Z2QVWZ262]].
 A measurable set $E \subseteq \R$ has *density $1$* at $x$ if
 $$\lim_{h \to 0^+} \frac{\lambda(E \cap [x - h, x + h])}{2h} = 1.$$
 The function $f$ is *approximately differentiable* at $x$, with *approximate derivative* $c \in \R$, if the following holds.

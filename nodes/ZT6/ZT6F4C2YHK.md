@@ -14,9 +14,9 @@ same_as:
 
 A real function on a closed interval is absolutely continuous when small total length of input intervals forces small total change of the output.
 It is stronger than [[uniform continuity|0Q4DR37DVE]] and stronger than [[bounded variation|A8251BHCMP]].
-The absolutely continuous functions are exactly the indefinite Lebesgue integrals.
-So they are the functions for which the fundamental theorem of calculus holds in Lebesgue's form.
-The analogous notion for measures is the absolutely continuous measure.
+The absolutely continuous functions are exactly the indefinite [[Lebesgue integrals|DWJF7ABPR1]].
+So they are the functions for which the [[fundamental theorem of calculus|RX7JSHMP8Z]] holds in Lebesgue's form.
+The analogous notion for measures is the [[absolutely continuous measure|P0P21KDV6E]].
 
 ## Explanations
 

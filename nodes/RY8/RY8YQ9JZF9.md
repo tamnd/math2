@@ -38,7 +38,7 @@ If $\kappa < 0$, it is solvable if and only if $g$ satisfies $-\kappa$ linear co
 Example: for $G = 1$ the index is $0$ and the unique solution is the Cauchy integral of $g$.
 
 The matrix problem cannot be solved by logarithms, since matrices do not commute.
-It is closely tied to Hilbert's twenty-first problem on linear differential equations with prescribed monodromy, and it underlies the Riemann–Hilbert method for integrable systems and random matrices.
+It is closely tied to [[Hilbert's twenty-first problem|7RHW0KA5RY]] on linear differential equations with prescribed monodromy, and it underlies the Riemann–Hilbert method for integrable systems and random matrices.
 
 ## Explanations
 

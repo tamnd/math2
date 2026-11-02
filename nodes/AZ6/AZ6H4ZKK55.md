@@ -22,7 +22,7 @@ Then $f$ extends to a [[homeomorphism|05GZ11PWRY]] of the [[closure|0DRKT1QJR7]]
 
 ## Remarks
 
-Such an $f$ exists by the [[Riemann mapping theorem|02WHMEG5ZR]], since $\Omega$ is simply connected by the Jordan curve theorem.
+Such an $f$ exists by the [[Riemann mapping theorem|02WHMEG5ZR]], since $\Omega$ is simply connected by the [[Jordan curve theorem|687RGCHBTP]].
 The proof rests on a length–area estimate.
 Let $\zeta$ be a point of the unit circle and let $r$ be small.
 By the Cauchy–Schwarz inequality and the finite area of $\Omega$, some arc $\set{\abs{z - \zeta} = \rho} \cap \mathbb{D}$ with $r^2 < \rho < r$ has an image of length at most $C/\sqrt{\log(1/r)}$.

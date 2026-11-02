@@ -20,7 +20,7 @@ It also appears in the change of variables formula for Lebesgue integrals and in
 
 ### L1 human
 
-A null set is a set so thin that it has length zero, such as a countable set or the [[Cantor set|0BXNDZFQME]].
+A [[null set|VQQM4Y550T]] is a set so thin that it has length zero, such as a countable set or the [[Cantor set|0BXNDZFQME]].
 A function with the N property never blows up such a thin set into a set of positive length.
 Every Lipschitz function has the property, because it stretches lengths by at most a fixed factor.
 The [[Cantor function|NPBYYK63FE]] does not: it maps the Cantor set, of length $0$, onto the whole interval $[0, 1]$.

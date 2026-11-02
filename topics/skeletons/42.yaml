@@ -15,7 +15,7 @@ items:
   - {name: Fourier analysis, kind: concept, wikipedia: Fourier analysis, wikidata: Q1365258}
   - {name: trigonometric polynomial, kind: definition, wikipedia: Trigonometric polynomial, wikidata: Q1969650}
   - {name: trigonometric series, kind: definition, wikipedia: Trigonometric series, wikidata: Q1149336}
-  - {name: Fourier series, kind: definition, wikipedia: Fourier series, wikidata: Q179467}
+  - {name: Fourier series, kind: definition, wikipedia: Fourier series, wikidata: Q179467, node: G12KXDHPPS}
   - {name: Fourier coefficient, kind: definition, decl: fourierCoeff, wikipedia: Fourier series, wikidata: Q179467, mathlib: [mathlib-100]}
   - {name: Fourier monomial on the circle, kind: definition, decl: fourier, wikipedia: Fourier series, wikidata: Q179467}
   - {name: sine and cosine series, kind: definition, wikipedia: Sine and cosine transforms, wikidata: Q1328722}
@@ -23,7 +23,7 @@ items:
   - {name: Fourier basis of L2 of the circle, kind: statement, decl: fourierBasis, wikipedia: Fourier series, wikidata: Q179467, mathlib: [mathlib-undergrad]}
   - {name: Parseval's identity, kind: statement, decl: tsum_sq_fourierCoeff, wikipedia: Parseval's identity, wikidata: Q944238, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000], node: 047RFCNVSK}
   - {name: L2 convergence of Fourier series, kind: statement, decl: hasSum_fourier_series_L2, wikipedia: Convergence of Fourier series, wikidata: Q5166386, mathlib: [mathlib-100]}
-  - {name: Riemann–Lebesgue lemma, kind: statement, decl: tendsto_integral_exp_inner_smul_cocompact, wikipedia: Riemann–Lebesgue lemma, wikidata: Q9363284, mathlib: [mathlib-overview]}
+  - {name: Riemann–Lebesgue lemma, kind: statement, decl: tendsto_integral_exp_inner_smul_cocompact, wikipedia: Riemann–Lebesgue lemma, wikidata: Q9363284, mathlib: [mathlib-overview], node: WVKDC011KP}
   - {name: decay of Fourier coefficients and smoothness, kind: statement, wikipedia: Fourier series, wikidata: Q179467}
   - {name: Fourier series of Bernoulli polynomials, kind: example, decl: hasSum_one_div_nat_pow_mul_fourier, wikipedia: Bernoulli polynomials, wikidata: Q2346201}
   - {name: Basel problem via Fourier series, kind: example, decl: hasSum_zeta_two, wikipedia: Basel problem, wikidata: Q810431, mathlib: [mathlib-100, mathlib-1000]}
@@ -49,8 +49,8 @@ items:
   - {name: Wiener algebra, kind: definition, wikipedia: Wiener algebra, wikidata: Q7999136}
   # Summability of Fourier series
   - {name: summability kernel, kind: definition, wikipedia: Dirac delta function, wikidata: Q209675}
-  - {name: Fejér kernel, kind: definition, wikipedia: Fejér kernel, wikidata: Q1402176}
-  - {name: Fejér's theorem, kind: statement, wikipedia: Fejér's theorem, wikidata: Q571154}
+  - {name: Fejér kernel, kind: definition, wikipedia: Fejér kernel, wikidata: Q1402176, node: DCCA2T9GKH}
+  - {name: Fejér's theorem, kind: statement, wikipedia: Fejér's theorem, wikidata: Q571154, node: TPJZCSXSVN}
   - {name: Cesàro means of Fourier series, kind: definition, wikipedia: Fejér's theorem, wikidata: Q571154}
   - {name: Poisson kernel, kind: definition, decl: poissonKernel, wikipedia: Poisson kernel, wikidata: Q2596534, node: TCYSWCTYYM}
   - {name: Lanczos sigma factor, kind: concept, wikipedia: Sigma approximation, wikidata: Q2858951}
@@ -149,7 +149,7 @@ items:
   - {name: Muckenhoupt's theorem, kind: statement, wikipedia: Muckenhoupt weights, wikidata: Q6931165}
   - {name: Rubio de Francia extrapolation theorem, kind: statement, wikipedia: Muckenhoupt weights, wikidata: Q6931165}
   - {name: Whitney decomposition, kind: statement, wikipedia: Whitney covering lemma, wikidata: Q7996763}
-  - {name: doubling measure, kind: definition, wikipedia: Doubling space, wikidata: Q5300173}
+  - {name: doubling measure, kind: definition, wikipedia: Doubling space, wikidata: Q5300173, node: W1JXH6NCKX}
   # Littlewood–Paley theory
   - {name: Littlewood–Paley theory, kind: concept, wikipedia: Littlewood–Paley theory, wikidata: Q6653183}
   - {name: Littlewood–Paley decomposition, kind: definition, wikipedia: Littlewood–Paley theory, wikidata: Q6653183}
@@ -169,7 +169,7 @@ items:
   - {name: Carleson embedding theorem, kind: statement, wikipedia: Carleson measure, wikidata: Q5041178}
   - {name: Coifman–Rochberg–Weiss commutator theorem, kind: statement, wikipedia: Bounded mean oscillation, wikidata: Q796341}
   # Function spaces in harmonic analysis
-  - {name: Lorentz space, kind: definition, wikipedia: Lorentz space, wikidata: Q6680542}
+  - {name: Lorentz space, kind: definition, wikipedia: Lorentz space, wikidata: Q6680542, node: 3240RP14MT}
   - {name: Triebel–Lizorkin space, kind: definition, wikipedia: Triebel–Lizorkin space, wikidata: Q7841428}
   - {name: Bessel potential space, kind: definition, wikipedia: Bessel potential, wikidata: Q4896404}
   - {name: Morrey–Campanato space, kind: definition, wikipedia: Morrey–Campanato space, wikidata: Q6913505}

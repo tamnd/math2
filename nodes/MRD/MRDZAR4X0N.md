@@ -11,9 +11,9 @@ sources:
 
 ## Definition
 
-Let $n \ge 1$ and let $f \colon \R^n \to \C$ be locally integrable for Lebesgue measure on [[Euclidean space|0XPR1E85W0]].
+Let $n \ge 1$ and let $f \colon \R^n \to \C$ be locally integrable for [[Lebesgue measure|2Z2QVWZ262]] on [[Euclidean space|0XPR1E85W0]].
 Let $Q \subseteq \R^n$ be a cube with sides parallel to the axes, and let $\abs{Q}$ be its volume.
-Let $f_Q = \frac{1}{\abs{Q}} \int_Q f \, dx$ be the mean of $f$ on $Q$, a Lebesgue integral.
+Let $f_Q = \frac{1}{\abs{Q}} \int_Q f \, dx$ be the mean of $f$ on $Q$, a [[Lebesgue integral|DWJF7ABPR1]].
 The function $f$ has *bounded mean oscillation* if
 $$\norm{f}_{\mathrm{BMO}} = \sup_Q \frac{1}{\abs{Q}} \int_Q \abs{f(x) - f_Q} \, dx < \infty,$$
 where the supremum is over all such cubes $Q$.

@@ -9,12 +9,12 @@ sources:
 
 ## Summary
 
-This part of model theory studies the first-order theory $\mathrm{ACF}$ of [[algebraically closed fields|0PF6TM8TWT]] in the language of rings.
+This part of model [[theory|92SWXST1ZM]] studies the first-order theory $\mathrm{ACF}$ of [[algebraically closed fields|0PF6TM8TWT]] in the language of rings.
 It also studies the completions $\mathrm{ACF}_p$, one for each characteristic $p$.
-The theory $\mathrm{ACF}$ admits quantifier elimination.
-Each $\mathrm{ACF}_p$ is complete and decidable, and categorical in every uncountable cardinality.
-These facts give the Lefschetz principle and short proofs of results in algebra, such as the Ax–Grothendieck theorem.
-It is also the basic example of a strongly minimal theory.
+The theory $\mathrm{ACF}$ admits [[quantifier elimination|7FDDXV3JK7]].
+Each $\mathrm{ACF}_p$ is [[complete|655K8Y7VS8]] and decidable, and categorical in every uncountable cardinality.
+These facts give the [[Lefschetz principle|SKTMN14X5P]] and short proofs of results in algebra, such as the [[Ax–Grothendieck theorem|M2XAN2HGZH]].
+It is also the basic example of a [[strongly minimal theory|PNGY60EBDJ]].
 
 ## Explanations
 

@@ -32,16 +32,16 @@ items:
   - {name: supporting hyperplane, kind: definition, wikipedia: Supporting hyperplane, wikidata: Q1134296}
   - {name: supporting hyperplane theorem, kind: statement, wikipedia: Supporting hyperplane, wikidata: Q1134296}
   - {name: hyperplane separation theorem, kind: statement, decl: geometric_hahn_banach_compact_closed, wikipedia: Hyperplane separation theorem, wikidata: Q6795830}
-  - {name: Hahn–Banach separation theorem, kind: statement, decl: geometric_hahn_banach_open, wikipedia: Hahn–Banach theorem, wikidata: Q866116}
-  - {name: Minkowski functional, kind: definition, decl: gauge, wikipedia: Minkowski functional, wikidata: Q649472}
-  - {name: extreme point, kind: definition, decl: Set.extremePoints, wikipedia: Extreme point, wikidata: Q1385465, mathlib: [mathlib-undergrad]}
+  - {name: Hahn–Banach separation theorem, kind: statement, decl: geometric_hahn_banach_open, wikipedia: Hahn–Banach theorem, wikidata: Q866116, node: 6GWMGFGFJJ}
+  - {name: Minkowski functional, kind: definition, decl: gauge, wikipedia: Minkowski functional, wikidata: Q649472, node: PAX9SHDHDW}
+  - {name: extreme point, kind: definition, decl: Set.extremePoints, wikipedia: Extreme point, wikidata: Q1385465, mathlib: [mathlib-undergrad], node: 3MSGFJM2NX}
   - {name: extreme set, kind: definition, decl: IsExtreme, wikipedia: Extreme point, wikidata: Q1385465}
   - {name: exposed point, kind: definition, decl: IsExposed, wikipedia: Exposed point, wikidata: Q21072692}
   - {name: face of a convex set, kind: definition, wikipedia: Face (geometry), wikidata: Q3064117}
-  - {name: Krein–Milman theorem, kind: statement, decl: closure_convexHull_extremePoints, wikipedia: Krein–Milman theorem, wikidata: Q642620, mathlib: [mathlib-1000]}
+  - {name: Krein–Milman theorem, kind: statement, decl: closure_convexHull_extremePoints, wikipedia: Krein–Milman theorem, wikidata: Q642620, mathlib: [mathlib-1000], node: RSRAY0Q68S}
   - {name: Minkowski–Carathéodory theorem, kind: statement, wikipedia: Krein–Milman theorem, wikidata: Q642620}
   - {name: Straszewicz's theorem, kind: statement, wikipedia: Exposed point, wikidata: Q21072692}
-  - {name: Choquet theory, kind: concept, wikipedia: Choquet theory, wikidata: Q1076274}
+  - {name: Choquet theory, kind: concept, wikipedia: Choquet theory, wikidata: Q1076274, node: ABPK3RW5MW}
   - {name: Carathéodory's theorem, kind: statement, decl: convexHull_eq_union, wikipedia: Carathéodory's theorem (convex hull), wikidata: Q2471737, mathlib: [mathlib-overview, mathlib-1000], node: 0201Q4P2B5}
   - {name: Radon's theorem, kind: statement, decl: Convex.radon_partition, wikipedia: Radon's theorem, wikidata: Q1471282, mathlib: [mathlib-1000]}
   - {name: Helly's theorem, kind: statement, decl: Convex.helly_theorem, wikipedia: Helly's theorem, wikidata: Q1632433, mathlib: [mathlib-1000]}
@@ -69,15 +69,15 @@ items:
   - {name: Hadwiger's theorem, kind: statement, wikipedia: Hadwiger's theorem, wikidata: Q5638112}
   - {name: valuation on convex bodies, kind: definition, wikipedia: Valuation (geometry), wikidata: Q85812715}
   - {name: Brunn–Minkowski inequality, kind: statement, wikipedia: Brunn–Minkowski theorem, wikidata: Q3915398}
-  - {name: Prékopa–Leindler inequality, kind: statement, wikipedia: Prékopa–Leindler inequality, wikidata: Q7253815}
+  - {name: Prékopa–Leindler inequality, kind: statement, wikipedia: Prékopa–Leindler inequality, wikidata: Q7253815, node: J9CJX9F42Y}
   - {name: Alexandrov–Fenchel inequality, kind: statement, wikipedia: Mixed volume, wikidata: Q4424496}
   - {name: Minkowski's first inequality, kind: statement, wikipedia: Mixed volume, wikidata: Q4424496}
-  - {name: isoperimetric inequality, kind: statement, wikipedia: Isoperimetric inequality, wikidata: Q617417}
+  - {name: isoperimetric inequality, kind: statement, wikipedia: Isoperimetric inequality, wikidata: Q617417, node: KBX8RBZ626}
   - {name: Blaschke–Santaló inequality, kind: statement, wikipedia: Mahler volume, wikidata: Q15864883}
   - {name: Mahler conjecture, kind: conjecture, wikipedia: Mahler volume, wikidata: Q15864883}
   - {name: John ellipsoid, kind: definition, wikipedia: John ellipsoid, wikidata: Q1699024}
   - {name: Löwner–John theorem, kind: statement, wikipedia: John ellipsoid, wikidata: Q1699024}
-  - {name: Dvoretzky's theorem, kind: statement, wikipedia: Dvoretzky's theorem, wikidata: Q5317821}
+  - {name: Dvoretzky's theorem, kind: statement, wikipedia: Dvoretzky's theorem, wikidata: Q5317821, node: NRPQP49N9F}
   - {name: Busemann–Petty problem, kind: problem, wikipedia: Busemann–Petty problem, wikidata: Q5001330}
   - {name: Kakeya problem, kind: problem, wikipedia: Kakeya set, wikidata: Q3054869}
   - {name: Steiner symmetrization, kind: definition, wikipedia: Isoperimetric inequality, wikidata: Q617417}

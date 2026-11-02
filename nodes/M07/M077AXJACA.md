@@ -12,7 +12,7 @@ sources:
 The Perron integral squeezes the integral of a function between the increments of major and minor functions.
 The lower derivatives of a major function lie above the function, and the upper derivatives of a minor function lie below it.
 It integrates every derivative, and it gives the same integrable functions and the same values as the [[Henstock–Kurzweil integral|FCGHXDGVV9]].
-It extends the Lebesgue integral.
+It extends the [[Lebesgue integral|DWJF7ABPR1]].
 
 ## Explanations
 

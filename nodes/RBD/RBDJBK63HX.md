@@ -15,7 +15,7 @@ same_as:
 
 ## Statement
 
-Let $X$ be a [[metric space|0VKD1TP7F3]], let $A \subseteq X$ be a [[closed|0ZCK8DQYN1]] subset, and let $L$ be a locally convex topological vector space over $\R$.
+Let $X$ be a [[metric space|0VKD1TP7F3]], let $A \subseteq X$ be a [[closed|0ZCK8DQYN1]] subset, and let $L$ be a [[locally convex|B6GY2KJMWW]] topological vector space over $\R$.
 Let $f \colon A \to L$ be a [[continuous|0VGFHTM75Y]] map.
 Then there is a continuous map $F \colon X \to L$ with $F(a) = f(a)$ for all $a \in A$.
 Moreover, $F$ can be chosen with $F(X)$ contained in the [[convex hull|0FQSDC2EQ2]] of $f(A)$.

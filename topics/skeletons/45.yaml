@@ -67,7 +67,7 @@ items:
   - {name: Lidskii's trace formula for integral operators, kind: statement, wikipedia: Trace class, wikidata: Q977297}
   - {name: Sturm–Liouville problem as an integral equation, kind: example, wikipedia: Sturm–Liouville theory, wikidata: Q1154082}
   # Volterra equations
-  - {name: Volterra integral equation, kind: definition, wikipedia: Volterra integral equation, wikidata: Q2632613}
+  - {name: Volterra integral equation, kind: definition, wikipedia: Volterra integral equation, wikidata: Q2632613, node: DND8CBEVXT}
   - {name: Volterra equation of the first kind, kind: definition, wikipedia: Volterra integral equation, wikidata: Q2632613}
   - {name: Volterra equation of the second kind, kind: definition, wikipedia: Volterra integral equation, wikidata: Q2632613}
   - {name: Volterra equation of convolution type, kind: definition, wikipedia: Volterra integral equation, wikidata: Q2632613}
@@ -120,7 +120,7 @@ items:
   - {name: Leray–Schauder method, kind: concept, wikipedia: Leray–Schauder degree, wikidata: Q111912958}
   - {name: monotone operator method for Hammerstein equations, kind: statement, wikipedia: Browder–Minty theorem, wikidata: Q25303622}
   - {name: bifurcation from a characteristic value, kind: concept, wikipedia: Bifurcation theory, wikidata: Q1154357}
-  - {name: Lyapunov–Schmidt reduction, kind: concept, wikipedia: Lyapunov–Schmidt reduction, wikidata: Q6707091}
+  - {name: Lyapunov–Schmidt reduction, kind: concept, wikipedia: Lyapunov–Schmidt reduction, wikidata: Q6707091, node: MAVAK2WWXK}
   - {name: Volterra series, kind: concept, wikipedia: Volterra series, wikidata: Q3957891}
   # Integral equations with special kernels
   - {name: convolution integral equation, kind: definition, wikipedia: Convolution, wikidata: Q210857}
@@ -141,9 +141,9 @@ items:
   - {name: boundary integral equation for the Dirichlet problem, kind: statement, wikipedia: Double layer potential, wikidata: Q5300057}
   - {name: boundary integral equation for the Neumann problem, kind: statement, wikipedia: Neumann boundary condition, wikidata: Q1149279}
   - {name: Symm's integral equation, kind: example, wikipedia: Newtonian potential, wikidata: Q4328383}
-  - {name: Green's function, kind: definition, wikipedia: Green's function, wikidata: Q378435}
+  - {name: Green's function, kind: definition, wikipedia: Green's function, wikidata: Q378435, node: SH6JY9RN2E}
   # Integro-differential equations
-  - {name: integro-differential equation, kind: definition, wikipedia: Integro-differential equation, wikidata: Q2380676}
+  - {name: integro-differential equation, kind: definition, wikipedia: Integro-differential equation, wikidata: Q2380676, node: YRKW2KX2CW}
   - {name: Volterra integro-differential equation, kind: definition, wikipedia: Integro-differential equation, wikidata: Q2380676}
   - {name: integro-partial differential equation, kind: definition, wikipedia: Integro-differential equation, wikidata: Q2380676}
   - {name: Boltzmann equation, kind: example, wikipedia: Boltzmann equation, wikidata: Q891653}

@@ -15,7 +15,7 @@ same_as:
 
 ## Statement
 
-Let $\Sigma$ be a Polish space, and let $M_1(\Sigma)$ be the set of [[probability measures|059TJN0NZ1]] on $\Sigma$ with the topology of weak convergence.
+Let $\Sigma$ be a [[Polish space|584GXXY73M]], and let $M_1(\Sigma)$ be the set of [[probability measures|059TJN0NZ1]] on $\Sigma$ with the topology of [[weak convergence|MBW9JCGZC1]].
 Let $X_1, X_2, \dots$ be [[i.i.d.|00MRN0FARV]] random elements of $\Sigma$ with law $\mu$.
 Let $L_n = \frac{1}{n} \sum_{k=1}^{n} \delta_{X_k}$ be the empirical measure, where $\delta_x$ is the [[Dirac measure|0ACRGYNHSR]] at $x$.
 Then the laws of $L_n$ satisfy the [[large deviation principle|MNPWBBNCAD]] on $M_1(\Sigma)$ with the good rate function $\nu \mapsto D(\nu \,\|\, \mu)$, the [[Kullback–Leibler divergence|PQBW43X5RE]] of $\nu$ from $\mu$.

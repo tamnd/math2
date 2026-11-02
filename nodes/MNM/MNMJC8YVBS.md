@@ -15,7 +15,7 @@ same_as:
 A family of [[probability measures|059TJN0NZ1]] on a topological space is tight if all of them live on one [[compact set|0R6EWFKRCF]] up to a small mass.
 The mass left out can be made as small as one likes.
 Tightness rules out mass escaping to infinity.
-By Prokhorov's theorem, on a Polish space a family is tight if and only if every sequence in it has a weakly convergent subsequence.
+By [[Prokhorov's theorem|D6FMEQYA76]], on a [[Polish space|584GXXY73M]] a family is tight if and only if every sequence in it has a [[weakly convergent|MBW9JCGZC1]] subsequence.
 So proofs of [[convergence in distribution|0SRYJGXKR4]] often have two steps: prove tightness, then identify the limit.
 
 ## Explanations

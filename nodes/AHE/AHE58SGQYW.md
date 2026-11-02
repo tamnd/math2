@@ -10,7 +10,7 @@ sources:
 
 ## Definition
 
-A *graphon* is a measurable function $W \colon [0, 1]^2 \to [0, 1]$, for the Lebesgue measure on $[0, 1]^2$, such that $W(x, y) = W(y, x)$ for all $x, y \in [0, 1]$.
+A *graphon* is a [[measurable function|YYNCJSR0PJ]] $W \colon [0, 1]^2 \to [0, 1]$, for the [[Lebesgue measure|2Z2QVWZ262]] on $[0, 1]^2$, such that $W(x, y) = W(y, x)$ for all $x, y \in [0, 1]$.
 
 ## Remarks
 

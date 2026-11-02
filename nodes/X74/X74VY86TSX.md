@@ -15,7 +15,7 @@ same_as:
 A rack is a set with a [[binary operation|0M418FE7BB]] that distributes over itself and acts on the set by bijections.
 A quandle is a rack in which every element $a$ satisfies $a \triangleleft a = a$.
 The model example is conjugation in a group, $a \triangleleft b = a b a^{-1}$, which keeps the properties of conjugation and forgets the group multiplication.
-The three quandle axioms match the three Reidemeister moves of knot diagrams, so each knot has a fundamental quandle, which is a strong knot invariant.
+The three quandle axioms match the three Reidemeister moves of [[knot|QYEAZTYGPT]] diagrams, so each knot has a fundamental quandle, which is a strong [[knot invariant|GZQ5ZE3X6G]].
 
 ## Explanations
 

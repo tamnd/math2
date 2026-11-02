@@ -15,7 +15,7 @@ same_as:
 
 ## Statement
 
-Let $X$ be a simply connected [[Riemann surface|5K0N8QMV6Q]], that is, its fundamental group is trivial.
+Let $X$ be a simply connected [[Riemann surface|5K0N8QMV6Q]], that is, its [[fundamental group|S1XK3HXHFX]] is trivial.
 Then $X$ is [[biholomorphic|8AJEMCZ29B]] to exactly one of the following three Riemann surfaces:
 
 1. the [[Riemann sphere|0CDMXGPSES]] $\hat\C$;
@@ -25,7 +25,7 @@ Then $X$ is [[biholomorphic|8AJEMCZ29B]] to exactly one of the following three R
 ## Remarks
 
 The three surfaces are pairwise not biholomorphic: $\hat\C$ is compact and the others are not, and a holomorphic map $\C \to \mathbb{D}$ is constant by Liouville's theorem.
-Applied to the universal cover, the theorem shows that every Riemann surface $X$ is biholomorphic to a quotient $\tilde X / \Gamma$.
+Applied to the [[universal cover|Y1YPE6PM52]], the theorem shows that every Riemann surface $X$ is biholomorphic to a quotient $\tilde X / \Gamma$.
 Here $\tilde X$ is one of the three surfaces and $\Gamma$ is a group of automorphisms of $\tilde X$ acting freely and properly discontinuously.
 Only $\hat\C$ itself is covered by $\hat\C$, and only $\C$, $\C \setminus \set{0}$ and the tori $\C / \Lambda$ are covered by $\C$.
 Every other Riemann surface is a quotient $\mathbb{D} / \Gamma$ with $\Gamma$ a Fuchsian group.

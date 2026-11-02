@@ -16,9 +16,9 @@ same_as:
 The braid group $B_n$ is the [[group|G5S1M9]] of braids with $n$ strands.
 Two braids are equal when one can be deformed into the other, and the product places one braid after the other.
 Artin gave its presentation with generators $\sigma_1, \ldots, \sigma_{n-1}$, the crossings of neighbouring strands, so $B_n$ is an [[Artin group|SAWBDBHE41]].
-It is also the fundamental group of the space of sets of $n$ distinct points in the plane.
+It is also the [[fundamental group|S1XK3HXHFX]] of the space of sets of $n$ distinct points in the plane.
 It is also the [[mapping class group|JV5NYG913V]] of a disk with $n$ marked points.
-Braid groups link algebra with knot theory: by Alexander's theorem, every link is the closure of a braid.
+Braid groups link algebra with knot theory: by [[Alexander's theorem|PRWP1JF486]], every link is the closure of a braid.
 
 ## Explanations
 

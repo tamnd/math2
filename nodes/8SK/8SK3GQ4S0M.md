@@ -39,6 +39,6 @@ Tauber's theorem says that the converse does hold when the terms shrink faster t
 
 ### L2 human
 
-This is the first Tauberian theorem, and it gave its name to the whole family of Abelian and Tauberian theorems.
+This is the first Tauberian theorem, and it gave its name to the whole family of [[Abelian and Tauberian theorems|D6XWK1NRY1]].
 An Abelian theorem passes from ordinary convergence to convergence of a summation method; a Tauberian theorem goes back, under an extra size condition on the terms.
 Later results of this type, such as the Hardy–Littlewood and Wiener Tauberian theorems, are central tools in analytic number theory.

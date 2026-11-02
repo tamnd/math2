@@ -169,7 +169,7 @@ items:
   - {name: Kurosh subgroup theorem, kind: statement, wikipedia: Kurosh subgroup theorem, wikidata: Q6446396, node: RY8K5RQJSR}
   - {name: Grushko theorem, kind: statement, wikipedia: Grushko theorem, wikidata: Q17019684, node: YB8V6TQDYE}
   - {name: Higman embedding theorem, kind: statement, wikipedia: Higman's embedding theorem, wikidata: Q17029787, node: P7TZ694FCM}
-  - {name: word problem for groups, kind: problem, wikipedia: Word problem for groups, wikidata: Q8034369}
+  - {name: word problem for groups, kind: problem, wikipedia: Word problem for groups, wikidata: Q8034369, node: PBGTTAVMMT}
   - {name: conjugacy problem, kind: problem, wikipedia: Conjugacy problem, wikidata: Q5161137, node: 4AF7AF7690}
   - {name: group isomorphism problem, kind: problem, wikipedia: Group isomorphism problem, wikidata: Q5611242, node: MP3F49QT3C}
   - {name: small cancellation theory, kind: concept, wikipedia: Small cancellation theory, wikidata: Q7543015, node: 3A1D37TVF6}
@@ -211,7 +211,7 @@ items:
   - {name: right-angled Artin group, kind: definition, wikipedia: Artin–Tits group, wikidata: Q3956993, node: 6D1DV09D6P}
   - {name: property (T), kind: definition, wikipedia: Kazhdan's property (T), wikidata: Q30765715, node: GTFZ277047}
   - {name: lamplighter group, kind: example, wikipedia: Lamplighter group, wikidata: Q6482453, node: 4GNPFMT7DZ}
-  - {name: Banach–Tarski paradox, kind: statement, wikipedia: Banach–Tarski paradox, wikidata: Q737851}
+  - {name: Banach–Tarski paradox, kind: statement, wikipedia: Banach–Tarski paradox, wikidata: Q737851, node: FH250K068Z}
   # Abelian groups
   - {name: structure theorem for finitely generated abelian groups, kind: statement, decl: AddCommGroup.equiv_free_prod_directSum_zmod, wikipedia: Finitely generated abelian group, wikidata: Q142140, mathlib: [mathlib-undergrad, mathlib-overview], node: 0RY0B72XAS}
   - {name: classification of finite abelian groups, kind: statement, decl: AddCommGroup.equiv_directSum_zmod_of_finite, wikipedia: Finitely generated abelian group, wikidata: Q142140, node: 07CQR9BW3R}

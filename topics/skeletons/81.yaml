@@ -123,7 +123,7 @@ items:
   - {name: bound state, kind: definition, wikipedia: Bound state, wikidata: Q908049}
   - {name: perturbation theory in quantum mechanics, kind: concept, wikipedia: Perturbation theory (quantum mechanics), wikidata: Q911364}
   - {name: variational method, kind: statement, wikipedia: Variational method (quantum mechanics), wikidata: Q164296}
-  - {name: WKB approximation, kind: concept, wikipedia: WKB approximation, wikidata: Q907306}
+  - {name: WKB approximation, kind: concept, wikipedia: WKB approximation, wikidata: Q907306, node: YJEBN8N3G8}
   - {name: Bohr–Sommerfeld quantization condition, kind: statement, wikipedia: Old quantum theory, wikidata: Q2566926}
   - {name: adiabatic theorem, kind: statement, wikipedia: Adiabatic theorem, wikidata: Q356895}
   - {name: geometric phase, kind: definition, wikipedia: Geometric phase, wikidata: Q3283}
@@ -150,7 +150,7 @@ items:
   - {name: Kramers' theorem, kind: statement, wikipedia: Kramers' theorem, wikidata: Q1786419}
   - {name: identical particles, kind: concept, wikipedia: Indistinguishable particles, wikidata: Q898351}
   - {name: Pauli exclusion principle, kind: statement, wikipedia: Pauli exclusion principle, wikidata: Q131594}
-  - {name: Fock space, kind: object, wikipedia: Fock space, wikidata: Q899044}
+  - {name: Fock space, kind: object, wikipedia: Fock space, wikidata: Q899044, node: 1TJ8TNH331}
   - {name: creation and annihilation operators, kind: definition, wikipedia: Creation and annihilation operators, wikidata: Q902336}
   - {name: canonical anticommutation relations, kind: definition, wikipedia: CCR and CAR algebras, wikidata: Q1022829}
   - {name: CCR algebra, kind: definition, wikipedia: CCR and CAR algebras, wikidata: Q1022829}
@@ -164,8 +164,8 @@ items:
   - {name: Wigner quasiprobability distribution, kind: definition, wikipedia: Wigner quasiprobability distribution, wikidata: Q17119376}
   - {name: Moyal product, kind: definition, wikipedia: Moyal product, wikidata: Q6927583}
   - {name: deformation quantization, kind: concept, wikipedia: Deformation quantization, wikidata: Q131143202}
-  - {name: Kontsevich quantization formula, kind: statement, wikipedia: Kontsevich quantization formula, wikidata: Q6430406}
-  - {name: geometric quantization, kind: concept, wikipedia: Geometric quantization, wikidata: Q630426}
+  - {name: Kontsevich quantization formula, kind: statement, wikipedia: Kontsevich quantization formula, wikidata: Q6430406, node: JZEK70CH3G}
+  - {name: geometric quantization, kind: concept, wikipedia: Geometric quantization, wikidata: Q630426, node: FG33N4ZHDG}
   - {name: path integral formulation, kind: concept, wikipedia: Path-integral formulation, wikidata: Q898323}
   - {name: Wick rotation, kind: concept, wikipedia: Wick rotation, wikidata: Q1807879}
   - {name: second quantization, kind: concept, wikipedia: Second quantization, wikidata: Q1353947}
@@ -201,7 +201,7 @@ items:
   - {name: Ward–Takahashi identity, kind: statement, wikipedia: Ward–Takahashi identity, wikidata: Q353202}
   - {name: renormalization, kind: concept, wikipedia: Renormalization, wikidata: Q1047702}
   - {name: dimensional regularization, kind: concept, wikipedia: Dimensional regularization, wikidata: Q5277275}
-  - {name: zeta function regularization, kind: concept, wikipedia: Zeta function regularization, wikidata: Q1048264}
+  - {name: zeta function regularization, kind: concept, wikipedia: Zeta function regularization, wikidata: Q1048264, node: VJCJYXGTDY}
   - {name: BPHZ theorem, kind: statement, wikipedia: Bogoliubov–Parasyuk theorem, wikidata: Q4937691}
   - {name: Callan–Symanzik equation, kind: statement, wikipedia: Callan–Symanzik equation, wikidata: Q1027148}
   - {name: beta function, kind: definition, wikipedia: Beta function (physics), wikidata: Q1750507, node: QHNWVSC6AQ}

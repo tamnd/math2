@@ -132,8 +132,8 @@ items:
   - {name: Hamiltonian mechanics, kind: concept, wikipedia: Hamiltonian mechanics, wikidata: Q477921}
   - {name: Legendre transformation, kind: definition, wikipedia: Legendre transformation, wikidata: Q908652, node: ZQYMWVT1TT}
   - {name: Hamilton's equations, kind: statement, wikipedia: Hamiltonian mechanics, wikidata: Q477921}
-  - {name: phase space, kind: definition, wikipedia: Phase space, wikidata: Q62542}
-  - {name: Poisson bracket, kind: definition, wikipedia: Poisson bracket, wikidata: Q1052775}
+  - {name: phase space, kind: definition, wikipedia: Phase space, wikidata: Q62542, node: CPEC2NW2KF}
+  - {name: Poisson bracket, kind: definition, wikipedia: Poisson bracket, wikidata: Q1052775, node: 2S0MXDT4YH}
   - {name: canonical coordinates, kind: definition, wikipedia: Canonical coordinates, wikidata: Q1501876}
   - {name: canonical transformation, kind: definition, wikipedia: Canonical transformation, wikidata: Q1366892}
   - {name: generating function of a canonical transformation, kind: definition, wikipedia: Generating function (physics), wikidata: Q845581}
@@ -152,7 +152,7 @@ items:
   - {name: harmonic oscillator, kind: example, wikipedia: Harmonic oscillator, wikidata: Q190070, node: 0YG0ZJPTWG}
   - {name: simple harmonic motion, kind: definition, wikipedia: Simple harmonic motion, wikidata: Q835975}
   - {name: damping, kind: concept, wikipedia: Damping, wikidata: Q1127660}
-  - {name: resonance, kind: concept, wikipedia: Resonance, wikidata: Q172858}
+  - {name: resonance, kind: concept, wikipedia: Resonance, wikidata: Q172858, node: 4F812GHFZK}
   - {name: Q factor, kind: definition, wikipedia: Q factor, wikidata: Q830521}
   - {name: normal mode, kind: definition, wikipedia: Normal mode, wikidata: Q900488}
   - {name: small oscillations about equilibrium, kind: concept, wikipedia: Normal mode, wikidata: Q900488}
@@ -166,7 +166,7 @@ items:
   - {name: Kapitza's pendulum, kind: example, wikipedia: Kapitza's pendulum, wikidata: Q4286430}
   # Nonlinear mechanical dynamics
   - {name: anharmonic oscillator, kind: concept, wikipedia: Anharmonicity, wikidata: Q545228}
-  - {name: Poincaré–Lindstedt method, kind: concept, wikipedia: Poincaré–Lindstedt method, wikidata: Q7207873}
+  - {name: Poincaré–Lindstedt method, kind: concept, wikipedia: Poincaré–Lindstedt method, wikidata: Q7207873, node: YHJHPRKQ6D}
   - {name: double pendulum, kind: example, wikipedia: Double pendulum, wikidata: Q1243208}
   - {name: elastic pendulum, kind: example, wikipedia: Elastic pendulum, wikidata: Q12714444}
   - {name: Hénon–Heiles system, kind: example, wikipedia: Hénon–Heiles system, wikidata: Q5964294}

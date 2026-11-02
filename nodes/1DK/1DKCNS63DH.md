@@ -24,7 +24,7 @@ So the sequence lies in the set of points up to $(\gamma + 1, 0)$, which is home
 The open sets $\set{p \in L : p < (\alpha, 0)}$ for $\alpha < \omega_1$ cover $L$, but no finitely many of them do, because $\omega_1$ has no largest element.
 A sequentially compact metrizable space is compact, so $L$ is not metrizable.
 For the same reason the long line is a connected Hausdorff space, locally homeomorphic to $\R$, that is not second-countable and not metrizable.
-So being Hausdorff and locally Euclidean does not make a space a topological manifold in the usual sense, which also asks for second countability.
+So being Hausdorff and locally Euclidean does not make a space a [[topological manifold|QQQ9B1DK4P]] in the usual sense, which also asks for second countability.
 
 ## Explanations
 

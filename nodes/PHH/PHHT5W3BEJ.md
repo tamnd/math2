@@ -15,8 +15,8 @@ same_as:
 A regular conditional probability is a version of conditional probability given a σ-algebra that is a genuine probability measure for each outcome.
 Conditional probabilities $P(A \mid \mathcal{G})$ are defined one event at a time and only up to null sets.
 So in general they need not fit together into a measure.
-A regular version is a Markov kernel that does fit them together, and it lets one compute conditional expectations as integrals.
-It exists when the underlying space is nice enough, for example a Polish space with its Borel σ-algebra.
+A regular version is a [[Markov kernel|2AVNDP8BJP]] that does fit them together, and it lets one compute conditional expectations as integrals.
+It exists when the underlying space is nice enough, for example a [[Polish space|584GXXY73M]] with its Borel σ-algebra.
 
 ## Explanations
 

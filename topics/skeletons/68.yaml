@@ -12,7 +12,7 @@ items:
   # Models of computation
   - {name: theory of computation, kind: concept, wikipedia: Theory of computation, wikidata: Q844718}
   - {name: model of computation, kind: concept, wikipedia: Model of computation, wikidata: Q2651576}
-  - {name: Turing machine, kind: definition, decl: Turing.TM0.Machine, wikipedia: Turing machine, wikidata: Q163310, mathlib: [mathlib-overview]}
+  - {name: Turing machine, kind: definition, decl: Turing.TM0.Machine, wikipedia: Turing machine, wikidata: Q163310, mathlib: [mathlib-overview], node: 758EYCN27B}
   - {name: multitape Turing machine, kind: definition, decl: Turing.TM2.Stmt, wikipedia: Multitape Turing machine, wikidata: Q1392048}
   - {name: nondeterministic Turing machine, kind: definition, wikipedia: Nondeterministic Turing machine, wikidata: Q1190223}
   - {name: probabilistic Turing machine, kind: definition, wikipedia: Probabilistic Turing machine, wikidata: Q1191836}
@@ -24,19 +24,19 @@ items:
   - {name: decision tree model, kind: definition, wikipedia: Decision tree model, wikidata: Q5249246}
   - {name: Turing completeness, kind: concept, wikipedia: Turing completeness, wikidata: Q197970}
   - {name: equivalence of Turing machines and partial recursive functions, kind: statement, decl: Turing.PartrecToTM2.tr_eval, wikipedia: Church–Turing thesis, wikidata: Q309157}
-  - {name: Church–Turing thesis, kind: concept, wikipedia: Church–Turing thesis, wikidata: Q309157}
+  - {name: Church–Turing thesis, kind: concept, wikipedia: Church–Turing thesis, wikidata: Q309157, node: RWRNBS3Z7B}
   - {name: Busy Beaver function, kind: definition, wikipedia: Busy beaver, wikidata: Q1427965}
   # Computability as used in CS
   - {name: decision problem, kind: definition, wikipedia: Decision problem, wikidata: Q3262192}
   - {name: decidable language, kind: definition, decl: ComputablePred, wikipedia: Recursive language, wikidata: Q1455907}
   - {name: recursively enumerable language, kind: definition, decl: REPred, wikipedia: Recursively enumerable language, wikidata: Q1073063}
   - {name: decidable iff recognizable and co-recognizable, kind: statement, decl: ComputablePred.computable_iff_re_compl_re, wikipedia: Recursively enumerable language, wikidata: Q1073063}
-  - {name: undecidability of the halting problem, kind: statement, decl: ComputablePred.halting_problem, wikipedia: Halting problem, wikidata: Q622849, mathlib: [mathlib-overview]}
-  - {name: Rice's theorem, kind: statement, decl: ComputablePred.rice, wikipedia: Rice's theorem, wikidata: Q1893717, mathlib: [mathlib-overview, mathlib-1000]}
+  - {name: undecidability of the halting problem, kind: statement, decl: ComputablePred.halting_problem, wikipedia: Halting problem, wikidata: Q622849, mathlib: [mathlib-overview], node: Z7TN2B35B0}
+  - {name: Rice's theorem, kind: statement, decl: ComputablePred.rice, wikipedia: Rice's theorem, wikidata: Q1893717, mathlib: [mathlib-overview, mathlib-1000], node: AKDR5YBBE2}
   - {name: Post correspondence problem, kind: problem, wikipedia: Post correspondence problem, wikidata: Q798572}
   - {name: Wang tile undecidability, kind: statement, wikipedia: Wang tile, wikidata: Q474147}
-  - {name: smn theorem, kind: statement, decl: Nat.Partrec.Code.smn, wikipedia: Smn theorem, wikidata: Q1766814, mathlib: [mathlib-1000]}
-  - {name: Kleene's recursion theorem, kind: statement, decl: Nat.Partrec.Code.fixed_point, wikipedia: Kleene's recursion theorem, wikidata: Q1933521}
+  - {name: smn theorem, kind: statement, decl: Nat.Partrec.Code.smn, wikipedia: Smn theorem, wikidata: Q1766814, mathlib: [mathlib-1000], node: YWX4FCFPAP}
+  - {name: Kleene's recursion theorem, kind: statement, decl: Nat.Partrec.Code.fixed_point, wikipedia: Kleene's recursion theorem, wikidata: Q1933521, node: F3Z30M606H}
   - {name: mapping reduction, kind: definition, wikipedia: Many-one reduction, wikidata: Q3300648}
   - {name: encoding of data, kind: definition, decl: Computability.Encoding, wikipedia: Gödel numbering, wikidata: Q1451046}
   # Automata and formal languages
@@ -161,9 +161,9 @@ items:
   - {name: Grover's algorithm, kind: statement, wikipedia: Grover's algorithm, wikidata: Q1028292}
   - {name: one-way function, kind: definition, wikipedia: One-way function, wikidata: Q720931}
   - {name: descriptive complexity theory, kind: concept, wikipedia: Descriptive complexity theory, wikidata: Q1200755}
-  - {name: Kolmogorov complexity, kind: definition, wikipedia: Kolmogorov complexity, wikidata: Q1456811}
+  - {name: Kolmogorov complexity, kind: definition, wikipedia: Kolmogorov complexity, wikidata: Q1456811, node: 8PY3K6NCKF}
   # Lambda calculus and combinatory logic
-  - {name: lambda calculus, kind: concept, wikipedia: Lambda calculus, wikidata: Q242028}
+  - {name: lambda calculus, kind: concept, wikipedia: Lambda calculus, wikidata: Q242028, node: BD756KR8FM}
   - {name: beta reduction, kind: definition, wikipedia: Lambda calculus, wikidata: Q242028}
   - {name: eta conversion, kind: definition, wikipedia: Lambda calculus, wikidata: Q242028}
   - {name: beta normal form, kind: definition, wikipedia: Beta normal form, wikidata: Q4897305}
@@ -176,7 +176,7 @@ items:
   - {name: De Bruijn index, kind: definition, wikipedia: De Bruijn index, wikidata: Q5244288}
   - {name: Lambda cube, kind: concept, wikipedia: Lambda cube, wikidata: Q2036661}
   # Type theory
-  - {name: type theory, kind: concept, wikipedia: Type theory, wikidata: Q1056428}
+  - {name: type theory, kind: concept, wikipedia: Type theory, wikidata: Q1056428, node: Q48KGV33AH}
   - {name: type system, kind: concept, wikipedia: Type system, wikidata: Q865760}
   - {name: simply typed lambda calculus, kind: definition, wikipedia: Simply typed lambda calculus, wikidata: Q855192}
   - {name: strong normalization of simply typed lambda calculus, kind: statement, wikipedia: Normal form (abstract rewriting), wikidata: Q7051809}

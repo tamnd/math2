@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-A CAT(0) group is a group that acts properly and cocompactly by isometries on a CAT(0) space.
+A CAT(0) group is a group that acts properly and cocompactly by isometries on a [[CAT(0) space|1FAF2VNA4G]].
 Such a space is a geodesic space whose triangles are at least as thin as Euclidean triangles.
 It is the group-theoretic form of nonpositive curvature.
 Examples include $\Z^n$, free groups, fundamental groups of closed nonpositively curved Riemannian manifolds, [[right-angled Artin groups|6D1DV09D6P]] and [[Coxeter groups|G6FND7X69J]].

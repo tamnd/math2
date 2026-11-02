@@ -49,7 +49,7 @@ items:
   - {name: filter, kind: definition, decl: Filter, wikipedia: Filter (mathematics), wikidata: Q1052692, mathlib: [mathlib-overview], node: 15PF73BKY6}
   - {name: convergence of filters, kind: definition, decl: Filter.Tendsto, wikipedia: Filters in topology, wikidata: Q104901581, mathlib: [mathlib-undergrad, mathlib-overview], node: 70M1VAPFN0}
   - {name: ultrafilter, kind: definition, decl: Ultrafilter, wikipedia: Ultrafilter, wikidata: Q1571831, node: J64Y3JC0RE}
-  - {name: net, kind: definition, wikipedia: Net (mathematics), wikidata: Q1191147}
+  - {name: net, kind: definition, wikipedia: Net (mathematics), wikidata: Q1191147, node: 4DVJQJV0DG}
   - {name: cluster point, kind: definition, decl: ClusterPt, wikipedia: Accumulation point, wikidata: Q858223, mathlib: [mathlib-undergrad, mathlib-overview], node: 0E3X7TXS67}
   - {name: germ, kind: definition, decl: Filter.Germ, wikipedia: Germ (mathematics), wikidata: Q2520842, node: VZXF7RNFKS}
   # Continuous maps
@@ -180,7 +180,7 @@ items:
   - {name: Banach fixed-point theorem, kind: statement, decl: ContractingWith.fixedPoint, wikipedia: Banach fixed-point theorem, wikidata: Q220680, node: 0VK6VEH345}
   - {name: Kuratowski embedding, kind: statement, wikipedia: Kuratowski embedding, wikidata: Q3984015, node: KK0B7V8DCX}
   - {name: Kirszbraun theorem, kind: statement, wikipedia: Kirszbraun theorem, wikidata: Q4454954, node: 2ZM39HSFTQ}
-  - {name: Polish space, kind: definition, decl: PolishSpace, wikipedia: Polish space, wikidata: Q1207972}
+  - {name: Polish space, kind: definition, decl: PolishSpace, wikipedia: Polish space, wikidata: Q1207972, node: 584GXXY73M}
   - {name: Gromov–Hausdorff space, kind: object, decl: GromovHausdorff.GHSpace, wikipedia: Gromov–Hausdorff convergence, wikidata: Q929777, mathlib: [mathlib-overview], node: ETRF2FHAEE}
   - {name: Urysohn universal space, kind: object, wikipedia: Urysohn universal space, wikidata: Q7901611, node: R1H00F1668}
   - {name: Hilbert cube, kind: object, wikipedia: Hilbert cube, wikidata: Q1618171, node: JKMMJ8RFC6}
@@ -218,11 +218,11 @@ items:
   - {name: Cantor space, kind: object, wikipedia: Cantor space, wikidata: Q616653, node: W9VYJRBF9N}
   - {name: Brouwer's characterization of the Cantor space, kind: statement, wikipedia: Cantor space, wikidata: Q616653, node: 3NKBCNH5JS}
   - {name: Baire space of sequences, kind: object, wikipedia: Baire space (set theory), wikidata: Q803936, node: P2WS16HKD7}
-  - {name: Smith–Volterra–Cantor set, kind: example, wikipedia: Smith–Volterra–Cantor set, wikidata: Q909569}
+  - {name: Smith–Volterra–Cantor set, kind: example, wikipedia: Smith–Volterra–Cantor set, wikidata: Q909569, node: HZTRH10Z8Y}
   # Ordered spaces and set-theoretic topology
   - {name: linear continuum, kind: definition, wikipedia: Linear continuum, wikidata: Q3688953, node: MM0QPT0GT0}
   - {name: long line, kind: counterexample, wikipedia: Long line (topology), wikidata: Q1804923, node: 1DKCNS63DH}
-  - {name: Suslin's problem, kind: problem, wikipedia: Suslin's problem, wikidata: Q2296408}
+  - {name: Suslin's problem, kind: problem, wikipedia: Suslin's problem, wikidata: Q2296408, node: D1T39KHPDN}
   - {name: Dowker space, kind: definition, wikipedia: Dowker space, wikidata: Q5302693, node: MXHTKVKB09}
   # Exotic spaces and counterexamples
   - {name: Sorgenfrey line, kind: counterexample, wikipedia: Lower limit topology, wikidata: Q1543600, node: Y4T3GVK8GV}

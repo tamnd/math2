@@ -141,7 +141,7 @@ items:
   - {name: reflection, kind: definition, decl: EuclideanGeometry.reflection, wikipedia: Reflection (mathematics), wikidata: Q426221, node: 06BRDF3F0E}
   - {name: Cartan–Dieudonné theorem, kind: statement, wikipedia: Cartan–Dieudonné theorem, wikidata: Q2540738, node: 0VMWGYY35Q}
   - {name: Bachmann's reflection geometry, kind: concept, wikipedia: Absolute geometry, wikidata: Q332430}
-  - {name: Mazur–Ulam theorem, kind: statement, wikipedia: Mazur–Ulam theorem, wikidata: Q1660147}
+  - {name: Mazur–Ulam theorem, kind: statement, wikipedia: Mazur–Ulam theorem, wikidata: Q1660147, node: 4J4EW7FXWW}
   - {name: Beckman–Quarles theorem, kind: statement, wikipedia: Beckman–Quarles theorem, wikidata: Q2226606}
   - {name: similarity transformation, kind: definition, wikipedia: Similarity (geometry), wikidata: Q254465}
   - {name: congruence, kind: definition, wikipedia: Congruence (geometry), wikidata: Q154210, node: 0TPW25CBN6}
@@ -217,7 +217,7 @@ items:
   - {name: Poncelet's closure theorem, kind: statement, wikipedia: Poncelet's closure theorem, wikidata: Q1785610}
   - {name: Miquel's theorem, kind: statement, wikipedia: Miquel's theorem, wikidata: Q2449984}
   - {name: butterfly theorem, kind: statement, wikipedia: Butterfly theorem, wikidata: Q377047}
-  - {name: isoperimetric inequality, kind: statement, wikipedia: Isoperimetric inequality, wikidata: Q617417}
+  - {name: isoperimetric inequality, kind: statement, wikipedia: Isoperimetric inequality, wikidata: Q617417, node: KBX8RBZ626}
   # Polygons, polyhedra and solid geometry
   - {name: polygon, kind: definition, wikipedia: Polygon, wikidata: Q37555}
   - {name: regular polygon, kind: definition, wikipedia: Regular polygon, wikidata: Q714886, node: 01KJJ9A400}
