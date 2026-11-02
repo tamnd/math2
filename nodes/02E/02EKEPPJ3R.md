@@ -6,9 +6,13 @@ msc: [11A51]
 sources:
   - url: https://en.wikipedia.org/wiki/Integer_factorization
     locator: lead section
-same_as:
-  wikidata: Q4846249
-  wikipedia: Integer factorization
+close_to:
+  - system: wikipedia
+    id: Integer factorization
+    note: The article is on integer factorization. Node YPE65X5HJ4 holds the same_as link.
+  - system: wikidata
+    id: Q4846249
+    note: The article is on integer factorization. Node YPE65X5HJ4 holds the same_as link.
 ---
 
 ## Summary

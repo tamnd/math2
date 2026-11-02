@@ -5,9 +5,13 @@ name: Rigidity of frameworks
 msc: [52C25, 51K99]
 sources:
   - url: https://en.wikipedia.org/wiki/Structural_rigidity
-same_as:
-  wikidata: Q7625050
-  wikipedia: Structural rigidity
+close_to:
+  - system: wikipedia
+    id: Structural rigidity
+    note: This node is a duplicate of node RHDAR5YY8S, which holds the same_as link. The two nodes wait for a merge.
+  - system: wikidata
+    id: Q7625050
+    note: This node is a duplicate of node RHDAR5YY8S, which holds the same_as link. The two nodes wait for a merge.
 ---
 
 ## Summary
