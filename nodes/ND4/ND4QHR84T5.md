@@ -13,6 +13,9 @@ uses:
 
 ## Summary
 
-Take a function $f$ and a point $a$ in its domain. Form the difference quotient $\frac{f(a+h)-f(a)}{h}$ for small nonzero $h$. If the [[limit of a function|0TXTSEMHR5]] of this quotient as $h$ tends to $0$ exists, that limit is the derivative of $f$ at $a$, written $f'(a)$.
+Take a function $f$ and a point $a$ in its domain.
+Form the difference quotient $\frac{f(a+h)-f(a)}{h}$ for small nonzero $h$.
+Suppose the [[limit of a function|0TXTSEMHR5]] of this quotient as $h$ tends to $0$ exists.
+That limit is the derivative of $f$ at $a$, written $f'(a)$.
 
 If the limit does not exist, the derivative of $f$ at $a$ is not defined.

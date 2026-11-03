@@ -54,7 +54,7 @@ items:
   - {name: Lie ideal, kind: definition, decl: LieIdeal, wikipedia: Lie algebra, wikidata: Q664495, node: JWMTXQ8A3A}
   - {name: Lie algebra homomorphism, kind: definition, decl: LieHom, wikipedia: Lie algebra, wikidata: Q664495, node: H5D71JE8TA}
   - {name: Lie algebra of an associative algebra, kind: example, decl: LieRing.ofAssociativeRing, wikipedia: Lie algebra, wikidata: Q664495, node: WCJYA7CJ83}
-  - {name: adjoint representation, kind: definition, decl: LieAlgebra.ad, wikipedia: Adjoint representation, wikidata: Q1017106}
+  - {name: adjoint representation, kind: definition, decl: LieAlgebra.ad, wikipedia: Adjoint representation, wikidata: Q1017106, node: 54XSPNAM1J}
   - {name: derivation of a Lie algebra, kind: definition, decl: LieDerivation, wikipedia: Derivation (differential algebra), wikidata: Q451323, node: 57J7MHA8CN}
   - {name: center of a Lie algebra, kind: definition, decl: LieAlgebra.center, wikipedia: Center (algebra), wikidata: Q191166, node: JJ9WQWCP9G}
   - {name: normalizer of a Lie subalgebra, kind: definition, decl: LieSubalgebra.normalizer, wikipedia: Centralizer and normalizer, wikidata: Q190629, node: KYTR9VBDHV}
@@ -195,7 +195,7 @@ items:
   - {name: Jordan algebra, kind: definition, decl: IsCommJordan, wikipedia: Jordan algebra, wikidata: Q649977, node: 6C2MCVB8C7}
   - {name: Jordan identity, kind: statement, decl: IsJordan, wikipedia: Jordan algebra, wikidata: Q649977, node: 88EQA06JD9}
   - {name: special Jordan algebra, kind: definition, decl: SymAlg, wikipedia: Jordan algebra, wikidata: Q649977, node: T4AWF1BRZB}
-  - {name: exceptional Jordan algebra, kind: object, wikipedia: Albert algebra, wikidata: Q12204658}
+  - {name: exceptional Jordan algebra, kind: object, wikipedia: Albert algebra, wikidata: Q12204658, node: 1MSMVDRAVD}
   - {name: Albert algebra, kind: object, wikipedia: Albert algebra, wikidata: Q12204658, node: 1MSMVDRAVD}
   - {name: Jordan–von Neumann–Wigner classification, kind: statement, wikipedia: Jordan algebra, wikidata: Q649977, node: AE979FBMPD}
   - {name: Euclidean Jordan algebra, kind: definition, wikipedia: Jordan algebra, wikidata: Q649977, node: N184N4TVZ2}
@@ -209,7 +209,7 @@ items:
   - {name: Tits–Kantor–Koecher construction, kind: definition, wikipedia: Kantor–Koecher–Tits construction, wikidata: Q6365576, node: FZM1A8HAHD}
   - {name: Jordan operator algebra, kind: definition, wikipedia: Jordan operator algebra, wikidata: Q17098325, node: QYES5210FJ}
   - {name: JB-algebra, kind: definition, wikipedia: Jordan operator algebra, wikidata: Q17098325, node: NXY6YN56XR}
-  - {name: Freudenthal triple system, kind: definition, wikipedia: Freudenthal magic square, wikidata: Q5503261}
+  - {name: Freudenthal triple system, kind: definition, wikipedia: Freudenthal magic square, wikidata: Q5503261, node: 4BWNHY4937}
   - {name: structurable algebra, kind: definition, wikipedia: Structurable algebra, wikidata: Q25303829, node: 8RF5HXXHNY}
   - {name: symmetric cone, kind: concept, wikipedia: Symmetric cone, wikidata: Q17107455, node: NZMXY4WTZX}
   - {name: Koecher–Vinberg theorem, kind: statement, wikipedia: Koecher–Vinberg theorem, wikidata: Q6425525, node: PXXEWA9V2S}
@@ -229,7 +229,7 @@ items:
   - {name: Bol loop, kind: definition, wikipedia: Bol loop, wikidata: Q4938867, node: S4E8XV37MS}
   - {name: Hurwitz quaternion order, kind: object, wikipedia: Hurwitz quaternion order, wikidata: Q16002489, node: KM59PWHJHH}
   - {name: Coxeter's integral octonions, kind: object, wikipedia: Octonion, wikidata: Q743418, node: E8WYXVENC6}
-  - {name: Kurosh problem for nonassociative algebras, kind: problem, wikipedia: Kurosh problem, wikidata: Q6446395}
+  - {name: Kurosh problem for nonassociative algebras, kind: problem, wikipedia: Kurosh problem, wikidata: Q6446395, node: B1Q5F5VNSK}
   - {name: Zelmanov's solution of the restricted Burnside problem, kind: statement, wikipedia: Burnside problem, wikidata: Q852206, node: FQZJKY2G5Q}
   - {name: Shirshov–Witt theorem, kind: statement, wikipedia: Free Lie algebra, wikidata: Q5499906, node: WDC8ABZWBA}
   - {name: operad, kind: definition, wikipedia: Operad, wikidata: Q842072, node: 2C5QGNNCAE}

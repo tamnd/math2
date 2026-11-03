@@ -46,7 +46,7 @@ items:
   - {name: Legendre condition, kind: statement, wikipedia: Legendre–Clebsch condition, wikidata: Q6517889, node: 4HZX2EN319}
   - {name: Legendre–Hadamard condition, kind: statement, wikipedia: Legendre–Clebsch condition, wikidata: Q6517889, node: JMVHZ6HDNZ}
   - {name: Jacobi equation, kind: definition, wikipedia: Jacobi field, wikidata: Q1677714, node: FSD6S7DR8D}
-  - {name: conjugate points and the Jacobi condition, kind: statement, wikipedia: Conjugate points, wikidata: Q5161158}
+  - {name: conjugate points and the Jacobi condition, kind: statement, wikipedia: Conjugate points, wikidata: Q5161158, node: ZRV9T8DD05}
   - {name: Weierstrass excess function, kind: definition, wikipedia: Weierstrass–Erdmann condition, wikidata: Q7979831, node: R8TWRPSPNV}
   - {name: Weierstrass–Erdmann corner conditions, kind: statement, wikipedia: Weierstrass–Erdmann condition, wikidata: Q7979831, node: 6E8KRJKXHS}
   - {name: field of extremals, kind: concept, wikipedia: Calculus of variations, wikidata: Q216861, node: K4DFT3H9BJ}
@@ -102,7 +102,7 @@ items:
   - {name: epigraph, kind: definition, decl: ConvexOn.convex_epigraph, wikipedia: Epigraph (mathematics), wikidata: Q1347059, node: 8BJ5M76FSX}
   - {name: set-valued analysis, kind: concept, wikipedia: Set-valued function, wikidata: Q115988076, node: D0R8455C26}
   - {name: envelope theorem, kind: statement, wikipedia: Envelope theorem, wikidata: Q2478371, node: WK7MKDWRFF}
-  - {name: maximum theorem, kind: statement, wikipedia: Maximum theorem, wikidata: Q6795920}
+  - {name: maximum theorem, kind: statement, wikipedia: Maximum theorem, wikidata: Q6795920, node: BQFN4DVT6E}
   # Optimal control: formulation and existence
   - {name: optimal control, kind: concept, wikipedia: Optimal control, wikidata: Q1971426, node: T3V6ZNAMDN}
   - {name: control system, kind: definition, wikipedia: Control theory, wikidata: Q6501221, node: ZPDTVZQN5K}
@@ -142,10 +142,10 @@ items:
   # Stochastic control and differential games
   - {name: stochastic optimal control, kind: concept, wikipedia: Stochastic control, wikidata: Q7617811, node: B24T6DQCDR}
   - {name: Merton's portfolio problem, kind: problem, wikipedia: Merton's portfolio problem, wikidata: Q3467003, node: DZKBF576W5}
-  - {name: optimal stopping, kind: problem, wikipedia: Optimal stopping, wikidata: Q7098950}
+  - {name: optimal stopping, kind: problem, wikipedia: Optimal stopping, wikidata: Q7098950, node: CDTBGPT0SW}
   - {name: differential game, kind: concept, wikipedia: Differential game, wikidata: Q1973196, node: THSHGNJNPS}
   - {name: Hamilton–Jacobi–Isaacs equation, kind: definition, wikipedia: Differential game, wikidata: Q1973196, node: WHTBZ3K4FB}
-  - {name: pursuit–evasion game, kind: problem, wikipedia: Pursuit–evasion, wikidata: Q7261573}
+  - {name: pursuit–evasion game, kind: problem, wikipedia: Pursuit–evasion, wikidata: Q7261573, node: JZAAZWMFK4}
   - {name: homicidal chauffeur problem, kind: problem, wikipedia: Homicidal chauffeur problem, wikidata: Q5890773, node: M0B618E2P6}
   # Numerical methods for optimal control
   - {name: indirect method by shooting, kind: concept, wikipedia: Shooting method, wikidata: Q1749769, node: RDTESNZTKQ}
@@ -183,7 +183,7 @@ items:
   - {name: Kelvin problem, kind: problem, wikipedia: Weaire–Phelan structure, wikidata: Q869539, node: CVTKSCP55A}
   - {name: Weaire–Phelan structure, kind: example, wikipedia: Weaire–Phelan structure, wikidata: Q869539, node: VH7MSMN03Y}
   - {name: honeycomb theorem, kind: statement, wikipedia: Honeycomb theorem, wikidata: Q3527261, node: 3JST9B967R}
-  - {name: isoperimetric problem in Riemannian manifolds, kind: problem, wikipedia: Isoperimetric inequality, wikidata: Q617417}
+  - {name: isoperimetric problem in Riemannian manifolds, kind: problem, wikipedia: Isoperimetric inequality, wikidata: Q617417, node: 6W06X05821}
   # Optimal transport
   - {name: Monge–Kantorovich transport problem, kind: problem, wikipedia: Transportation theory (mathematics), wikidata: Q1929885, node: K8EBASR5VG}
   - {name: Kantorovich duality, kind: statement, wikipedia: Transportation theory (mathematics), wikidata: Q1929885, node: AC5CB7RH6Z}

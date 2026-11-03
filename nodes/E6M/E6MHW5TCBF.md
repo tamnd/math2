@@ -33,6 +33,7 @@ with the same boundary conditions has one and only one solution.
 
 ## Remarks
 
-In the usual meaning of "regular", the functions $p$, $r$ are positive on $[a,b]$, $p$ is continuously differentiable, $q$ and $r$ are continuous, and neither pair $(\alpha_1,\alpha_2)$ nor $(\beta_1,\beta_2)$ is zero.
+In the usual meaning of "regular", the functions $p$, $r$ are positive on $[a,b]$, $p$ is continuously differentiable, and $q$ and $r$ are continuous.
+Also neither pair $(\alpha_1,\alpha_2)$ nor $(\beta_1,\beta_2)$ is zero.
 
 So a number $\lambda$ that is not an eigenvalue makes the forced problem uniquely solvable for all continuous forcing terms.

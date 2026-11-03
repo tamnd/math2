@@ -48,7 +48,7 @@ items:
   - {name: Grothendieck group of vector bundles, kind: definition, wikipedia: Topological K-theory, wikidata: Q2111307, node: A4393CW9G4}
   - {name: Burnside ring, kind: definition, wikipedia: Burnside ring, wikidata: Q5000158, node: HKKBGRHNMY}
   - {name: representation ring, kind: definition, wikipedia: Representation ring, wikidata: Q7314220, node: RKTX9MN7Q3}
-  - {name: Swan's induction theorem, kind: statement, wikipedia: Brauer's theorem on induced characters, wikidata: Q4958218}
+  - {name: Swan's induction theorem, kind: statement, wikipedia: Brauer's theorem on induced characters, wikidata: Q4958218, node: VBJWSC908W}
   - {name: Wall's finiteness obstruction, kind: definition, wikipedia: Wall's finiteness obstruction, wikidata: Q7962581, node: 6DNJDT9AMH}
   # K1 and Whitehead groups
   - {name: K1 of a ring, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: SXVNJY4XFY}
@@ -66,13 +66,13 @@ items:
   - {name: Dieudonné determinant, kind: definition, wikipedia: Dieudonné determinant, wikidata: Q5275226, node: Q00D66Z3ZH}
   - {name: reduced norm, kind: definition, wikipedia: Central simple algebra, wikidata: Q2428439, node: 2FATVDAN2E}
   - {name: Wang's theorem on SK1 of division algebras, kind: statement, wikipedia: Central simple algebra, wikidata: Q2428439, node: AG1C9C04K5}
-  - {name: Tannaka–Artin problem, kind: problem, wikipedia: Central simple algebra, wikidata: Q2428439}
+  - {name: Tannaka–Artin problem, kind: problem, wikipedia: Central simple algebra, wikidata: Q2428439, node: HMXVAGW2KD}
   - {name: Whitehead group, kind: definition, wikipedia: Whitehead torsion, wikidata: Q7996043, node: 8SY3AC4KW3}
   - {name: Whitehead torsion, kind: definition, wikipedia: Whitehead torsion, wikidata: Q7996043, node: 4QMDFYEK3T}
   - {name: Reidemeister torsion, kind: definition, wikipedia: Analytic torsion, wikidata: Q4751142, node: MEPXWR00K7}
   - {name: Whitehead group of a free abelian group, kind: statement, wikipedia: Whitehead torsion, wikidata: Q7996043, node: KFG1HBX1NK}
   - {name: Bass–Milnor–Serre theorem, kind: statement, wikipedia: Congruence subgroup, wikidata: Q5161000, node: PYPSVTYTZ8}
-  - {name: congruence subgroup problem, kind: problem, wikipedia: Congruence subgroup, wikidata: Q5161000}
+  - {name: congruence subgroup problem, kind: problem, wikipedia: Congruence subgroup, wikidata: Q5161000, node: SVNXZ5JP35}
   - {name: Milnor square, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: HHWW8R6F2G}
   - {name: Mayer–Vietoris sequence in K-theory, kind: statement, wikipedia: Mayer–Vietoris sequence, wikidata: Q2421905, node: C2VC3YTG2P}
   - {name: excision in algebraic K-theory, kind: statement, wikipedia: Excision theorem, wikidata: Q3526998, node: CSRSKXZRG9}
@@ -145,7 +145,7 @@ items:
   - {name: Dundas–Goodwillie–McCarthy theorem, kind: statement, wikipedia: Topological Hochschild homology, wikidata: Q105038900, node: YRXZY9A1P9}
   - {name: assembly map, kind: definition, wikipedia: Assembly map, wikidata: Q4808684, node: 2KT6XR8MCZ}
   - {name: Farrell–Jones conjecture, kind: conjecture, wikipedia: Farrell–Jones conjecture, wikidata: Q5436273, node: B2X59B7J8V}
-  - {name: Hsiang conjecture on K-theory of group rings, kind: conjecture, wikipedia: Farrell–Jones conjecture, wikidata: Q5436273}
+  - {name: Hsiang conjecture on K-theory of group rings, kind: conjecture, wikipedia: Farrell–Jones conjecture, wikidata: Q5436273, node: BJ59JJ53Z2}
   - {name: Kaplansky idempotent conjecture, kind: conjecture, wikipedia: Kaplansky's conjectures, wikidata: Q6366842, node: HXPPHQQYB0}
   - {name: Hermitian K-theory, kind: definition, wikipedia: Witt group, wikidata: Q3117708, node: CZZCPA2VQS}
   - {name: Grothendieck–Witt group, kind: definition, wikipedia: Witt group, wikidata: Q3117708, node: KG8D0N6712}

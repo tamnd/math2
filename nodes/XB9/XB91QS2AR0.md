@@ -17,7 +17,7 @@ A pseudo-spectral method is a [[spectral method|MYV657YRDW]] that imposes the eq
 It does not use integrals against the basis functions.
 Derivatives are computed in coefficient space, for example with the [[fast Fourier transform|S966EZX3ZT]], while products and other nonlinear terms are computed pointwise on the grid.
 This keeps the accuracy of spectral methods at a much lower cost for nonlinear problems.
-The price is aliasing errors from the pointwise products, which are often removed by padding or truncation.
+The price is [[aliasing|FEC9RG38X9]] errors from the pointwise products, which are often removed by padding or truncation.
 See the [[definition|T37Q055GDA]].
 
 ## Explanations

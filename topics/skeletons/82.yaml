@@ -25,7 +25,7 @@ items:
   - {name: Gibbs–Bogoliubov inequality, kind: statement, wikipedia: Helmholtz free energy, wikidata: Q865821, node: WR3RBEH4QQ}
   - {name: thermodynamic limit, kind: concept, wikipedia: Thermodynamic limit, wikidata: Q1103484, node: FPYQWE8X12}
   - {name: equivalence of ensembles, kind: statement, wikipedia: Ensemble (mathematical physics), wikidata: Q898535, node: 8N7VY25V0E}
-  - {name: fluctuations and the canonical ensemble, kind: statement, wikipedia: Canonical ensemble, wikidata: Q1077753}
+  - {name: fluctuations and the canonical ensemble, kind: statement, wikipedia: Canonical ensemble, wikidata: Q1077753, node: 47CW8WEDTK}
   - {name: chemical potential, kind: definition, wikipedia: Chemical potential, wikidata: Q737004, node: WVH4PVW64P}
   # Rigorous equilibrium theory
   - {name: Gibbs measure, kind: definition, wikipedia: Gibbs measure, wikidata: Q2510435, node: DG9F3W6MZM}
@@ -134,7 +134,7 @@ items:
   - {name: Zamolodchikov c-theorem, kind: statement, wikipedia: C-theorem, wikidata: Q5005965, node: SNAYN0P1N2}
   - {name: Coulomb gas method, kind: concept, wikipedia: Coulomb gas, wikidata: Q121590477, node: X02M521M51}
   # Percolation and random geometry
-  - {name: bond percolation, kind: definition, wikipedia: Percolation theory, wikidata: Q900918}
+  - {name: bond percolation, kind: definition, wikipedia: Percolation theory, wikidata: Q900918, node: PZZA8SEXYC}
   - {name: directed percolation, kind: example, wikipedia: Directed percolation, wikidata: Q5280413, node: TN0PA9EGV0}
   - {name: Cardy's formula, kind: statement, wikipedia: Cardy formula, wikidata: Q15302927, node: AKRJ7MDNMW}
   - {name: Smirnov's theorem on conformal invariance of percolation, kind: statement, wikipedia: Cardy formula, wikidata: Q15302927, node: ZEBG1G27TV}
@@ -153,7 +153,7 @@ items:
   - {name: BBGKY hierarchy, kind: definition, wikipedia: BBGKY hierarchy, wikidata: Q653679, node: CSEV80K9A4}
   - {name: Lanford's theorem on the Boltzmann–Grad limit, kind: statement, wikipedia: Boltzmann equation, wikidata: Q891653, node: K5RQMXS3FJ}
   - {name: Chapman–Enskog theory, kind: concept, wikipedia: Chapman–Enskog theory, wikidata: Q4133108, node: CS1VGMQAG3}
-  - {name: Bhatnagar–Gross–Krook operator, kind: definition, wikipedia: Bhatnagar–Gross–Krook operator, wikidata: Q4901423}
+  - {name: Bhatnagar–Gross–Krook operator, kind: definition, wikipedia: Bhatnagar–Gross–Krook operator, wikidata: Q4901423, node: YQRS1ZMRAC}
   - {name: Landau damping, kind: statement, wikipedia: Landau damping, wikidata: Q675721, node: 90DN4ZWDZK}
   - {name: Vlasov–Poisson system, kind: definition, wikipedia: Vlasov equation, wikidata: Q2323892, node: SB4N1BTRAQ}
   - {name: mean free path, kind: definition, wikipedia: Mean free path, wikidata: Q756307, node: M0J697D782}

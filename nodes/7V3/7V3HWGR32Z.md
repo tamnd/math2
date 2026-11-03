@@ -36,7 +36,7 @@ The graph is $[0, 1/2] \times \set{1} \cup [1/2, 1] \times \set{0}$, which is cl
 Example: consider a two-player game with mixed strategy sets $S_1$ and $S_2$, which are simplices.
 Let $B_1(x_2) \subseteq S_1$ be the set of best replies of player 1 to the strategy $x_2$ of player 2, and define $B_2(x_1) \subseteq S_2$ in the same way.
 On $S = S_1 \times S_2$, let $\varphi(x_1, x_2) = B_1(x_2) \times B_2(x_1)$.
-Its values are nonempty and convex and its graph is closed, so it has a fixed point, which is a Nash equilibrium.
+Its values are nonempty and convex and its graph is closed, so it has a fixed point, which is a [[Nash equilibrium|745WYP9YJ0]].
 
 ## Explanations
 
@@ -48,6 +48,6 @@ This is what one needs when a choice is not unique, such as the best reply to an
 
 ### L2 human
 
-Nash used the theorem in his proof of the existence of equilibria in finite games, and it is basic in general equilibrium theory in economics.
+Nash used the theorem in his proof of the existence of [[equilibria|85RY1ZGSTC]] in finite games, and it is basic in general equilibrium theory in economics.
 The closed graph condition is a form of upper hemicontinuity, which is equivalent to it when the values are closed in a compact $S$.
 The Kakutani–Glicksberg–Fan theorem extends the result to compact convex subsets of locally convex spaces, just as Schauder and Tychonoff extend Brouwer's theorem.

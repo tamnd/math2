@@ -16,7 +16,7 @@ Let the model $M_k \colon \R^n \to \R^n$ map the state at $t_k$ to the state at 
 Let the observation at $t_k$ be $y_k = H x_k + \varepsilon_k$, where $H$ is an $m \times n$ matrix.
 The noise $\varepsilon_k$ is Gaussian with mean $0$ and positive definite [[covariance matrix|0V7G6WMFK0]] $R$ of size $m \times m$.
 Fix an ensemble size $N \ge 2$.
-The *ensemble Kalman filter* carries an ensemble $x^{(1)}, \dots, x^{(N)}$ of states and repeats two steps.
+The *ensemble [[Kalman filter|DFM9YXF9AG]]* carries an ensemble $x^{(1)}, \dots, x^{(N)}$ of states and repeats two steps.
 
 1. Forecast step: replace each member by $x^{f,(i)} = M_k(x^{(i)})$, possibly plus a sample of model noise.
 2. Analysis step: compute the ensemble mean $\bar x^f = \frac{1}{N} \sum_i x^{f,(i)}$ and the sample covariance

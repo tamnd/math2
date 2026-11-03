@@ -15,6 +15,7 @@ sources:
 
 ## Summary
 
-Let $f$ be a real function and let $c$ be a number in the domain of $f$. The number $c$ is a critical number of $f$ when the [[derivative|0F1WR9C83K]] of $f$ at $c$ is equal to $0$, or when this derivative does not exist.
+Let $f$ be a real function and let $c$ be a number in the domain of $f$.
+The number $c$ is a critical number of $f$ when the [[derivative|0F1WR9C83K]] of $f$ at $c$ is $0$ or does not exist.
 
 A critical number must lie in the domain of $f$. A point outside the domain is never a critical number, even if $f'$ fails to exist there. This is the same idea as a [[critical point|0YTCMFB4HC]] of a real function.

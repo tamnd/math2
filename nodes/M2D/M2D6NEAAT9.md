@@ -23,9 +23,9 @@ Consider a regular problem of [[Sturm–Liouville theory|7WV6B2502K]] on an inte
 Pick one eigenfunction $y_n$ for each eigenvalue, and list them as $y_1, y_2, \ldots$.
 Let $f$ be a continuous, piecewise smooth function on $[a, b]$.
 
-Then there are real numbers $c_1, c_2, \ldots$, given by the weighted projection formula
-$$c_n = \frac{\int_a^b f(x)\, y_n(x)\, r(x)\, dx}{\int_a^b y_n(x)^2\, r(x)\, dx},$$
-such that the series $\sum_n c_n y_n(x)$ converges and its sum equals $f(x)$ at every $x$ with $a < x < b$.
+For each $n$, define the real number $c_n$ by the weighted projection formula
+$$c_n = \frac{\int_a^b f(x)\, y_n(x)\, r(x)\, dx}{\int_a^b y_n(x)^2\, r(x)\, dx}.$$
+Then the series $\sum_n c_n y_n(x)$ converges, and its sum equals $f(x)$ at every $x$ with $a < x < b$.
 
 ## Remarks
 

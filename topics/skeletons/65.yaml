@@ -122,7 +122,7 @@ items:
   - {name: Landweber iteration, kind: statement, wikipedia: Landweber iteration, wikidata: Q6485285, node: 87DV5ZTJ9J}
   # Interpolation, splines and geometric modeling
   - {name: polynomial interpolation, kind: concept, wikipedia: Polynomial interpolation, wikidata: Q637347, node: SS1YMS2NPC}
-  - {name: Lagrange interpolation polynomial, kind: definition, wikipedia: Lagrange polynomial, wikidata: Q861606}
+  - {name: Lagrange interpolation polynomial, kind: definition, wikipedia: Lagrange polynomial, wikidata: Q861606, node: Y7KSGE97GK}
   - {name: Runge's phenomenon, kind: example, wikipedia: Runge's phenomenon, wikidata: Q1990319, node: ZMT8JF21R6}
   - {name: Chebyshev nodes, kind: definition, wikipedia: Chebyshev nodes, wikidata: Q1052508, node: HYK8J56PSH}
   - {name: spline, kind: definition, wikipedia: Spline (mathematics), wikidata: Q735256, node: 84TJ8KQ926}

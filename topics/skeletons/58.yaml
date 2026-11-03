@@ -101,7 +101,7 @@ items:
   - {name: Sacks–Uhlenbeck bubbling, kind: statement, wikipedia: Harmonic map, wikidata: Q5659257, node: 36WNFJTRRR}
   - {name: Hartman's uniqueness theorem for harmonic maps, kind: statement, wikipedia: Harmonic map, wikidata: Q5659257, node: 3VMJGQCD7S}
   - {name: Yang–Mills functional, kind: definition, wikipedia: Yang–Mills equations, wikidata: Q85816613, node: CKGDR9P9PA}
-  - {name: Atiyah–Bott study of Yang–Mills over Riemann surfaces, kind: statement, wikipedia: Yang–Mills equations, wikidata: Q85816613}
+  - {name: Atiyah–Bott study of Yang–Mills over Riemann surfaces, kind: statement, wikipedia: Yang–Mills equations, wikidata: Q85816613, node: AV0Q1VSJ88}
   # Groupoids, pseudogroups and general structures
   - {name: pseudogroup, kind: definition, wikipedia: Pseudogroup, wikidata: Q4382845, node: 3017J7P6JD}
   - {name: Lie pseudogroup, kind: definition, wikipedia: Pseudogroup, wikidata: Q4382845, node: E3EYXM7GJN}
@@ -170,7 +170,7 @@ items:
   - {name: stable map, kind: definition, wikipedia: Singularity theory, wikidata: Q4245771, node: 1991WETZF9}
   - {name: infinitesimal stability, kind: definition, wikipedia: Singularity theory, wikidata: Q4245771, node: C3TFCVE2YK}
   - {name: Mather's stability theorem, kind: statement, wikipedia: Singularity theory, wikidata: Q4245771, node: T6BK8Q8PK8}
-  - {name: finite determinacy, kind: statement, wikipedia: Singularity theory, wikidata: Q4245771}
+  - {name: finite determinacy, kind: statement, wikipedia: Singularity theory, wikidata: Q4245771, node: EGPP69XA4F}
   - {name: codimension of a singularity, kind: definition, wikipedia: Singularity theory, wikidata: Q4245771, node: B4FRQMWQKP}
   - {name: Whitney's theorem on folds and cusps, kind: statement, wikipedia: Singularity theory, wikidata: Q4245771, node: SSWFTA4GP8}
   - {name: Whitney umbrella, kind: example, wikipedia: Whitney umbrella, wikidata: Q2640354, node: KNBQ68XG2M}

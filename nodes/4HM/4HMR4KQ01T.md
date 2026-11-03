@@ -47,6 +47,6 @@ The bottleneck of the network decides the throughput.
 
 ### L2 human
 
-The theorem is the central result about flow networks.
+The theorem is the central result about [[flow networks|ZSNXTW5E2K]].
 Its proof gives an algorithm and a certificate: a maximum flow and a minimum cut prove each other optimal.
 Many combinatorial min-max theorems, such as Menger's theorem, Kőnig's theorem and [[Hall's marriage theorem|08WCB90WND]], follow by building a suitable network with capacities $0$ and $1$.

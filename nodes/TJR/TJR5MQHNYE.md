@@ -18,7 +18,7 @@ It keeps an ellipsoid that contains the set.
 At each step it cuts the ellipsoid in half through its center and replaces it by the smallest ellipsoid containing the correct half.
 The volume shrinks by a fixed factor at each step.
 So the number of steps is polynomial in $n$ and in the input size.
-Applied to [[linear programming|VNMXB0J2KA]], it gave the first polynomial-time algorithm, a result of Khachiyan known as Khachiyan's theorem.
+Applied to [[linear programming|VNMXB0J2KA]], it gave the first polynomial-time algorithm, a result of Khachiyan known as [[Khachiyan's theorem|ZY302KCKHR]].
 
 ## Explanations
 

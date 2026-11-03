@@ -21,7 +21,7 @@ Each equation has a time derivative of the unknowns and a space integral of them
 Check: for constant inputs, a spatially constant state $(\bar u_e, \bar u_i)$ is a steady state exactly when
 $$\bar u_e = S_e\big(W_{ee} \bar u_e - W_{ei} \bar u_i + h_e\big), \qquad \bar u_i = S_i\big(W_{ie} \bar u_e - W_{ii} \bar u_i + h_i\big),$$
 where $W_{ab} = \int_{\R^d} w_{ab}(z) \, dz$, because $w * \bar u = W \bar u$ for a constant $\bar u$.
-These are the equations of the space-clamped Wilson–Cowan model.
+These are the equations of the space-clamped [[Wilson–Cowan model|98XX53BC3S]].
 
 ## Remarks
 

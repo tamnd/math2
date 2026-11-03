@@ -60,7 +60,7 @@ items:
   - {name: inversion of rational transforms by partial fractions, kind: concept, wikipedia: Partial fraction decomposition, wikidata: Q431617, node: 1P6TBEPHQH}
   - {name: Heaviside cover-up method, kind: concept, wikipedia: Heaviside cover-up method, wikidata: Q5694970, node: SRQ5P3077W}
   - {name: residue calculus for Laplace inversion, kind: concept, wikipedia: Residue theorem, wikidata: Q830513, node: E14W2V09HM}
-  - {name: numerical inversion of the Laplace transform, kind: problem, wikipedia: Inverse Laplace transform, wikidata: Q2162701}
+  - {name: numerical inversion of the Laplace transform, kind: problem, wikipedia: Inverse Laplace transform, wikidata: Q2162701, node: 41QNF4CGNY}
   - {name: ill-posedness of real Laplace inversion, kind: concept, wikipedia: Well-posed problem, wikidata: Q1455898, node: TRTN840ZB0}
   # Laplace–Stieltjes and bilateral transforms
   - {name: Laplace–Stieltjes transform, kind: definition, wikipedia: Laplace–Stieltjes transform, wikidata: Q3997728, node: KHRTBP37VD}
@@ -198,7 +198,7 @@ items:
   - {name: starred transform, kind: definition, wikipedia: Starred transform, wikidata: Q7601294, node: 4YQ8JYXBKK}
   - {name: advanced Z-transform, kind: definition, wikipedia: Advanced z-transform, wikidata: Q1970283, node: K0V6T18367}
   - {name: matched Z-transform method, kind: concept, wikipedia: Matched Z-transform method, wikidata: Q4678053, node: C45NVCD39K}
-  - {name: Laplace transform of a sampled signal, kind: concept, wikipedia: Starred transform, wikidata: Q7601294}
+  - {name: Laplace transform of a sampled signal, kind: concept, wikipedia: Starred transform, wikidata: Q7601294, node: 4YQ8JYXBKK}
   # Moment problems
   - {name: moment problem, kind: problem, wikipedia: Moment problem, wikidata: Q3406268, node: CS7TWHY7JM}
   - {name: determinate moment problem, kind: definition, wikipedia: Moment problem, wikidata: Q3406268, node: H0GY2J14CA}
@@ -210,8 +210,8 @@ items:
   - {name: Carleman's condition, kind: statement, wikipedia: Carleman's condition, wikidata: Q5041151, node: RVZ831CNYW}
   - {name: Krein's condition, kind: statement, wikipedia: Krein's condition, wikidata: Q6436610, node: Q401KCEKNZ}
   - {name: moments of the log-normal distribution, kind: counterexample, wikipedia: Log-normal distribution, wikidata: Q826116, node: P3PZ73SMPZ}
-  - {name: truncated moment problem, kind: problem, wikipedia: Moment problem, wikidata: Q3406268}
-  - {name: multivariate moment problem, kind: problem, wikipedia: Moment problem, wikidata: Q3406268}
+  - {name: truncated moment problem, kind: problem, wikipedia: Moment problem, wikidata: Q3406268, node: KHG5HSQSX3}
+  - {name: multivariate moment problem, kind: problem, wikipedia: Moment problem, wikidata: Q3406268, node: KVS235Z4HR}
   - {name: M. Riesz extension theorem, kind: statement, wikipedia: M. Riesz extension theorem, wikidata: Q3527217, node: FEXZC8XKN1}
   - {name: Chebyshev–Markov–Stieltjes inequalities, kind: statement, wikipedia: Chebyshev–Markov–Stieltjes inequalities, wikidata: Q5089020, node: YGJZCD37ZY}
   - {name: Nevanlinna parametrization of solutions, kind: statement, wikipedia: Nevanlinna function, wikidata: Q7003746, node: YRBT3ZHSV3}

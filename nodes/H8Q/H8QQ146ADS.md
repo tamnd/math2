@@ -12,7 +12,7 @@ sources:
 ## Definition
 
 Let $V$ be a finite set with distinct vertices $s, t \in V$, and let $c \colon V \times V \to [0, \infty)$ be a capacity function.
-This data is a flow network, where $(u, v)$ is an edge of the underlying [[directed graph|0KFYGSHHF5]] when $c(u, v) > 0$.
+This data is a [[flow network|ZSNXTW5E2K]], where $(u, v)$ is an edge of the underlying [[directed graph|0KFYGSHHF5]] when $c(u, v) > 0$.
 A *flow* is a map $f \colon V \times V \to \R$ with these properties:
 
 1. $f(u, v) = -f(v, u)$ for all $u, v$.

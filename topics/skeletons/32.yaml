@@ -30,7 +30,7 @@ items:
   - {name: Wirtinger derivatives, kind: definition, wikipedia: Wirtinger derivatives, wikidata: Q8027031, node: WMXDVF36ZT}
   - {name: dbar operator, kind: definition, wikipedia: Complex differential form, wikidata: Q1780913, node: M1VKCW3RFW}
   - {name: '(p,q)-form', kind: definition, wikipedia: Complex differential form, wikidata: Q1780913, node: DC81TCR98Y}
-  - {name: inhomogeneous Cauchy–Riemann equations, kind: problem, wikipedia: Dolbeault cohomology, wikidata: Q1235317}
+  - {name: inhomogeneous Cauchy–Riemann equations, kind: problem, wikipedia: Dolbeault cohomology, wikidata: Q1235317, node: N0TPG3JZ2Y}
   - {name: Bochner–Martinelli formula, kind: statement, wikipedia: Bochner–Martinelli formula, wikidata: Q4936246, node: YMHYAEJQ80}
   - {name: Cauchy–Fantappiè formula, kind: statement, wikipedia: Bochner–Martinelli formula, wikidata: Q4936246, node: R9JJ44TMQB}
   - {name: holomorphic map, kind: definition, wikipedia: Holomorphic function, wikidata: Q207476, node: 3MQTWKBBBT}
@@ -137,7 +137,7 @@ items:
   - {name: Remmert's proper mapping theorem, kind: statement, wikipedia: Proper map, wikidata: Q1090009, node: VA2JEWWB61}
   - {name: Grauert's direct image theorem, kind: statement, wikipedia: Coherent sheaf, wikidata: Q906907, node: ZNCF16AENG}
   - {name: Cartan–Serre finiteness theorem, kind: statement, wikipedia: Coherent sheaf cohomology, wikidata: Q25303633, node: MPNGD4V271}
-  - {name: Grauert–Remmert finiteness theorem, kind: statement, wikipedia: Coherent sheaf, wikidata: Q906907}
+  - {name: Grauert–Remmert finiteness theorem, kind: statement, wikipedia: Coherent sheaf, wikidata: Q906907, node: ZNCF16AENG}
   - {name: Grauert's semicontinuity theorem, kind: statement, wikipedia: Coherent sheaf cohomology, wikidata: Q25303633, node: MREZVW7JTW}
   - {name: modification of a complex space, kind: definition, wikipedia: Proper morphism, wikidata: Q7250176, node: SB3MY7XQM9}
   - {name: Hironaka's resolution for complex spaces, kind: statement, wikipedia: Resolution of singularities, wikidata: Q10942247, node: GWJWP187QE}
@@ -200,7 +200,7 @@ items:
   - {name: Frankel conjecture, kind: statement, wikipedia: Frankel conjecture, wikidata: Q104862566, node: QWXTB8VVXN}
   - {name: complex structure on the six-sphere, kind: problem, wikipedia: Almost complex manifold, wikidata: Q2995691, node: V4M2HPJQPR}
   - {name: class VII surface, kind: definition, wikipedia: Surface of class VII, wikidata: Q7645998, node: Y4NSSJT4RC}
-  - {name: global spherical shell conjecture, kind: conjecture, wikipedia: Surface of class VII, wikidata: Q7645998}
+  - {name: global spherical shell conjecture, kind: conjecture, wikipedia: Surface of class VII, wikidata: Q7645998, node: TGKMS42HA0}
   # Holomorphic fiber spaces
   - {name: holomorphic vector bundle, kind: definition, wikipedia: Holomorphic vector bundle, wikidata: Q9289328, node: TKA958Z4KZ}
   - {name: holomorphic line bundle, kind: definition, wikipedia: Holomorphic vector bundle, wikidata: Q9289328, node: QAC7BYK9KX}
@@ -235,9 +235,9 @@ items:
   - {name: adic space, kind: definition, wikipedia: Rigid analytic space, wikidata: Q7333799, node: F6VBCVP13K}
   # Complex singularities
   - {name: isolated hypersurface singularity, kind: definition, wikipedia: Milnor map, wikidata: Q6860249, node: VTGYEES3VS}
-  - {name: Milnor fibration, kind: statement, wikipedia: Milnor map, wikidata: Q6860249}
+  - {name: Milnor fibration, kind: statement, wikipedia: Milnor map, wikidata: Q6860249, node: KTFG1S2SMG}
   - {name: Milnor number, kind: definition, wikipedia: Milnor number, wikidata: Q6860251, node: 1ZE51P7GRQ}
-  - {name: Milnor fiber is a bouquet of spheres, kind: statement, wikipedia: Milnor map, wikidata: Q6860249}
+  - {name: Milnor fiber is a bouquet of spheres, kind: statement, wikipedia: Milnor map, wikidata: Q6860249, node: X5HMTTGB62}
   - {name: link of a singularity, kind: definition, wikipedia: Milnor map, wikidata: Q6860249, node: C831AN3RFM}
   - {name: Brieskorn manifold, kind: example, wikipedia: Brieskorn manifold, wikidata: Q4967112, node: 5E9E5R9RYZ}
   - {name: monodromy theorem for singularities, kind: statement, wikipedia: Milnor map, wikidata: Q6860249, node: DQP63REKEK}
@@ -247,12 +247,12 @@ items:
   - {name: Lê–Ramanujam theorem, kind: statement, wikipedia: Milnor number, wikidata: Q6860251, node: JRAEY07Y4G}
   - {name: Zariski's multiplicity conjecture, kind: conjecture, wikipedia: Singularity theory, wikidata: Q4245771, node: ZTTZVZWMK9}
   - {name: Mather–Yau theorem, kind: statement, wikipedia: Milnor number, wikidata: Q6860251, node: QMMSKHEW9S}
-  - {name: Arnold's classification of singularities, kind: statement, wikipedia: Singularity theory, wikidata: Q4245771}
+  - {name: Arnold's classification of singularities, kind: statement, wikipedia: Singularity theory, wikidata: Q4245771, node: YE5F548WMS}
   - {name: Whitney stratification, kind: definition, wikipedia: Whitney conditions, wikidata: Q7996761, node: 3F84AMVJNV}
   - {name: perverse sheaf, kind: definition, wikipedia: Perverse sheaf, wikidata: Q17086746, node: 5WHXRZDZFK}
   - {name: Riemann–Hilbert correspondence, kind: statement, wikipedia: Riemann–Hilbert correspondence, wikidata: Q5986522, node: KMAEWSVGRS}
   - {name: Bernstein–Sato polynomial, kind: definition, wikipedia: Bernstein–Sato polynomial, wikidata: Q17003059, node: 7M5P2A0BZ6}
-  - {name: monodromy conjecture, kind: conjecture, wikipedia: Bernstein–Sato polynomial, wikidata: Q17003059}
+  - {name: monodromy conjecture, kind: conjecture, wikipedia: Bernstein–Sato polynomial, wikidata: Q17003059, node: E9GXMN3HDE}
   - {name: Briançon–Skoda theorem, kind: statement, wikipedia: Multiplier ideal, wikidata: Q17099212, node: W1C0W5MCX0}
   # CR manifolds
   - {name: CR manifold, kind: definition, wikipedia: CR manifold, wikidata: Q5014001, node: ZC78JKZX9S}

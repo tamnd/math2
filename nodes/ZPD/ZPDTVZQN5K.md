@@ -11,7 +11,7 @@ sources:
 
 A control system is a dynamical system whose evolution depends on an input that can be chosen, the control.
 For systems governed by [[ordinary differential equations|0NT64JV96A]] it has the form $x' = f(x, u)$, where $x$ is the state and $u$ is the control.
-It is the basic object of control theory.
+It is the basic object of [[control theory|JXZ0GZXET1]].
 That theory asks which states can be reached, how to steer the system, and how to do so in the best way.
 
 ## Explanations

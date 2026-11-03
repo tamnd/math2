@@ -16,7 +16,7 @@ items:
   # Haar measure and measures on groups
   - {name: Haar measure, kind: definition, decl: MeasureTheory.Measure.IsHaarMeasure, wikipedia: Haar measure, wikidata: Q1162676, node: VY0HXD3GC4}
   - {name: left-invariant measure, kind: definition, decl: MeasureTheory.Measure.IsMulLeftInvariant, wikipedia: Haar measure, wikidata: Q1162676, node: JAWD14N5ES}
-  - {name: existence of Haar measure, kind: statement, decl: MeasureTheory.Measure.haarMeasure, wikipedia: Haar measure, wikidata: Q1162676, mathlib: [mathlib-overview]}
+  - {name: existence of Haar measure, kind: statement, decl: MeasureTheory.Measure.haarMeasure, wikipedia: Haar measure, wikidata: Q1162676, mathlib: [mathlib-overview], node: 4BJTFEM295}
   - {name: uniqueness of Haar measure up to scaling, kind: statement, decl: MeasureTheory.Measure.isMulLeftInvariant_eq_smul, wikipedia: Haar measure, wikidata: Q1162676, node: KB792QTG4F}
   - {name: modular function, kind: definition, decl: MeasureTheory.Measure.modularCharacter, wikipedia: Haar measure, wikidata: Q1162676, node: 63TX60RTRQ}
   - {name: unimodular group, kind: definition, wikipedia: Haar measure, wikidata: Q1162676, node: CXG6JZGMCK}
@@ -35,7 +35,7 @@ items:
   - {name: bounded approximate identity of L1(G), kind: statement, wikipedia: Approximate identity, wikidata: Q621743, node: TSVMMGZ716}
   - {name: Wendel's theorem on multipliers of L1(G), kind: statement, wikipedia: Group algebra of a locally compact group, wikidata: Q17019511, node: E1GGS48ZFE}
   - {name: group C*-algebra, kind: definition, wikipedia: Group algebra of a locally compact group, wikidata: Q17019511, node: JKANN4VBYH}
-  - {name: reduced group C*-algebra, kind: definition, wikipedia: Group algebra of a locally compact group, wikidata: Q17019511}
+  - {name: reduced group C*-algebra, kind: definition, wikipedia: Group algebra of a locally compact group, wikidata: Q17019511, node: GHQ8YPAGC8}
   - {name: group von Neumann algebra, kind: definition, wikipedia: Von Neumann algebra, wikidata: Q1970172, node: 2N7CR03Q1X}
   - {name: Fourier algebra, kind: definition, wikipedia: Fourier algebra, wikidata: Q5475787, node: 3JA4EF163Q}
   - {name: Fourier–Stieltjes algebra, kind: definition, wikipedia: Fourier algebra, wikidata: Q5475787, node: R8K5VH1E8K}

@@ -52,7 +52,7 @@ items:
   - {name: vorticity equation, kind: definition, wikipedia: Vorticity equation, wikidata: Q3730817, node: W5RHJENGWS}
   - {name: Ertel's theorem on potential vorticity, kind: statement, wikipedia: Potential vorticity, wikidata: Q1418563, node: EH6K8VP1C3}
   - {name: Arnold's geometric formulation of the Euler equations, kind: concept, wikipedia: Euler equations (fluid dynamics), wikidata: Q375175, node: 8F1W980F5G}
-  - {name: finite-time blowup for the 3D Euler equations, kind: conjecture, wikipedia: Euler equations (fluid dynamics), wikidata: Q375175}
+  - {name: finite-time blowup for the 3D Euler equations, kind: conjecture, wikipedia: Euler equations (fluid dynamics), wikidata: Q375175, node: AD8SVX0ZZ4}
   - {name: potential flow, kind: definition, wikipedia: Potential flow, wikidata: Q1543991, node: 84K7TEWZ2Z}
   - {name: complex potential, kind: definition, wikipedia: Potential flow, wikidata: Q1543991, node: Q4DVPTBHEE}
   - {name: Rankine vortex, kind: example, wikipedia: Rankine vortex, wikidata: Q7293284, node: 1JP90A94FR}

@@ -24,7 +24,7 @@ Given a finite algebra of finite signature, it decides whether the algebra is fi
 
 The problem was solved negatively by Ralph McKenzie in 1996: no such algorithm exists.
 Earlier work showed that the answer to "is every finite algebra finitely based?" is no.
-Lyndon showed that every two-element algebra of finite signature is finitely based, and he also gave a seven-element algebra that is not.
+Lyndon showed that every two-element algebra of finite signature is finitely based, and he also gave a [[seven-element algebra|W76V9BZGST]] that is not.
 Many classes of finite algebras are known to consist of finitely based algebras, among them finite groups, by the [[Oates–Powell theorem|5RFPT46DXX]], and finite lattices.
 [[Baker's finite basis theorem|35G4HQG2FN]] covers all finite algebras of finite signature that generate a congruence-distributive variety.
 The decision problem restricted to finite semigroups is still open.
