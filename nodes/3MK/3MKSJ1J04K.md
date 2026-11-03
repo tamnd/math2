@@ -16,7 +16,7 @@ same_as:
 Deformation quantization equips the smooth functions on a [[Poisson manifold|A2KQ49Y4NF]] with a noncommutative star product.
 The star product is a formal power series in a parameter $\hbar$.
 The commutator of the star product reproduces the [[Poisson bracket|2S0MXDT4YH]] at first order in $\hbar$.
-The Moyal product on $\R^{2n}$ is the first example.
+The [[Moyal product|J3A8CFHZZM]] on $\R^{2n}$ is the first example.
 [[Kontsevich's formality theorem|XXA9D45E0N]] shows that every Poisson manifold admits a star product.
 
 ## Explanations

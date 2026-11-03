@@ -17,8 +17,8 @@ same_as:
 Let $\eta = \operatorname{diag}(1, -1, -1, -1)$.
 Give $\R^4$ with coordinates $(t, x, y, z)$ the quadratic form
 $$Q(t, x, y, z) = t^2 - x^2 - y^2 - z^2,$$
-which makes it Minkowski space (in units where the speed of light is $1$).
-The *Lorentz group* is the group of Lorentz transformations, the linear maps of $\R^4$ preserving $Q$:
+which makes it [[Minkowski space|G49G4R1K04]] (in units where the speed of light is $1$).
+The *Lorentz group* is the group of [[Lorentz transformations|WEVGN4C7PQ]], the linear maps of $\R^4$ preserving $Q$:
 $$O(1, 3) = \set{\Lambda \in GL_4(\R) : \Lambda^T \eta \Lambda = \eta}.$$
 It is the [[indefinite orthogonal group|M2900DMEW6]] of signature $(1, 3)$, a [[Lie group|7JBRGCVJRB]] of dimension $6$.
 

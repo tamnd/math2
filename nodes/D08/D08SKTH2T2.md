@@ -27,7 +27,7 @@ For irrational $\alpha$, its [[spectrum|BMKATJ802A]] does not depend on $\theta$
 Aubry duality relates the operators with coupling $\lambda$ and $1/\lambda$, and $\lambda = 1$ is the critical coupling.
 For irrational $\alpha$, the Lebesgue measure of the spectrum is $\abs{4 - 4\abs{\lambda}}$; in particular it is zero at $\lambda = 1$.
 The [[ten martini problem|3X4ZQ41PXG]] asked whether the spectrum is a Cantor set for all irrational $\alpha$ and all $\lambda \ne 0$; Avila and Jitomirskaya proved that it is.
-Plotting the spectrum against $\alpha$ for $\lambda = 1$ gives Hofstadter's butterfly.
+Plotting the spectrum against $\alpha$ for $\lambda = 1$ gives [[Hofstadter's butterfly|CM2YHK9F0V]].
 
 ## Explanations
 
