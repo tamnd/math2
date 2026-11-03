@@ -125,3 +125,20 @@ One record for each decision of a person on a crosswalk edge. `m2 align accept`,
 Example: `3C53TD same_as wikidata Q505798 accepted github:octocat 2026-10-26 blake3:0123456789abcdef`
 
 The aligner does not propose an edge again after a person rejected it. Rule A02 reports a `same_as` value that an agent wrote and that no person accepted or confirmed in 90 days. Rule A03 reports a value whose record is gone or has a different hash after the decision.
+
+## formal.reg
+
+The formal outcomes of corpus spec K2.5 that the build cannot compute from the bindings and the levels: a job in the queue or a job that failed, a missing definition, and the decision of a person. A node of the kinds statement, definition, conjecture and problem can have a record. The last record of a tag is in effect. The build writes the outcome of each node to `build/formal.json`.
+
+| Field | Value |
+|---|---|
+| tag | the tag of the node |
+| outcome | `pending`, `blocked`, `out_of_reach`, or `clear` to end the record before it |
+| date | the date of the record, for example `2026-11-03` |
+| by | for `blocked`, the tag of the definition node that no library has. Otherwise `-` |
+| author | the person or the run that wrote the record, as `orcid:`, `github:`, or `m2/` and the role |
+| reason | words of lowercase letters and digits with a hyphen between them |
+
+Example: `2VQDK71A27 pending 2026-11-03 - m2/formalize the-job-is-in-the-formal-research-queue`
+
+A `pending` record clears when the node gets a binding. Clear the record then, or the build reports it.
