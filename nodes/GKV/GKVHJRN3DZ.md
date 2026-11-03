@@ -8,6 +8,8 @@ uses: [ZSNXTW5E2K, EXMR7RYRTP, 9P19SEYN1R, 4HMR4KQ01T, 0JP0ZF57PN, E6GYGZDBS7, 0
 about: [EXMR7RYRTP]
 sources:
   - url: https://en.wikipedia.org/wiki/Ford%E2%80%93Fulkerson_algorithm
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_flowapplications_intro.ptx#L6
+    locator: source/s_flowapplications_intro.ptx:6
 ---
 
 ## Statement
