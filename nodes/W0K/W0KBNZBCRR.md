@@ -12,7 +12,7 @@ sources:
 
 ## Statement
 
-Let $(Q, \cdot)$ be a quasigroup.
+Let $(Q, \cdot)$ be a [[quasigroup|ZJD31SPPFP]].
 Then $(Q, \cdot)$ is [[medial|VZHN6GA3TA]], that is, $(x \cdot y) \cdot (u \cdot v) = (x \cdot u) \cdot (y \cdot v)$ for all $x, y, u, v \in Q$, if and only if there exist:
 
 1. an [[abelian group|082GHNPJ53]] structure $(Q, +)$ on the same set;

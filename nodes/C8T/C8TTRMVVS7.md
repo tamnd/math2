@@ -17,7 +17,7 @@ history:
 
 ## Problem
 
-Let $H = \ell^2(\N)$ be the [[Hilbert space|HM2HHE3J51]] of square-summable sequences, and let $B(H)$ be the C*-algebra of bounded operators on $H$.
+Let $H = \ell^2(\N)$ be the [[Hilbert space|HM2HHE3J51]] of square-summable sequences, and let $B(H)$ be the [[C*-algebra|M2WFY1D3SZ]] of bounded operators on $H$.
 Let $D \subseteq B(H)$ be the C\*-subalgebra of diagonal operators with respect to the standard basis, which is isomorphic to $\ell^\infty(\N)$.
 A pure [[state|F7MB2WREBJ]] on a C\*-algebra is a state that is not a proper convex combination of two other states.
 Does every pure state on $D$ extend to a unique state on $B(H)$?

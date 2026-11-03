@@ -13,7 +13,7 @@ same_as:
 ## Summary
 
 The Poisson bracket is an operation $\{f, g\}$ on pairs of smooth functions on a [[symplectic manifold|CAN490EPRT]], built from their [[Hamiltonian vector fields|C5EH3B4BEP]].
-It is antisymmetric, satisfies the Jacobi identity and the Leibniz rule, so it makes the functions into a Lie algebra.
+It is antisymmetric, satisfies the Jacobi identity and the Leibniz rule, so it makes the functions into a [[Lie algebra|5JJYBJ6A8K]].
 In mechanics it gives the time derivative of an observable along the motion, and its abstract properties lead to [[Poisson manifolds|A2KQ49Y4NF]] and to quantization.
 
 ## Explanations

@@ -16,7 +16,7 @@ Its preimage $I^*$ in $SU(2)$ is the binary icosahedral group, of order $120$.
 The Poincaré homology sphere is the quotient $P = S^3 / I^*$ of $S^3$ by the action of $I^*$ by left multiplication.
 
 This action is free, so $P$ is a closed orientable [[3-manifold|R20TB2KEQQ]] with [[fundamental group|S1XK3HXHFX]] $I^*$.
-The group $I^*$ is perfect, so $H_1(P; \Z)$, the abelianization of $I^*$, is $0$.
+The group $I^*$ is [[perfect|HWPXM2JSJ9]], so $H_1(P; \Z)$, the abelianization of $I^*$, is $0$.
 By [[Poincaré duality|9VY90HJVZX]], $H_2(P; \Z) \cong H^1(P; \Z) = \Hom(H_1(P; \Z), \Z) = 0$, and $H_3(P; \Z) = \Z$.
 So $P$ has the homology of $S^3$ and is a [[homology sphere|HK8NS02NNE]].
 It is not homeomorphic to $S^3$, because its fundamental group is not trivial.

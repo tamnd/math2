@@ -18,12 +18,12 @@ For $f \in L^1(G)$ put
 $$\norm{f}_* = \sup_\pi \norm{\pi(f)},$$
 where $\pi$ runs over all unitary representations of $G$.
 The *group C\*-algebra* $C^*(G)$ is the completion of $L^1(G)$ for the norm $\norm{\cdot}_*$.
-The *reduced group C\*-algebra* $C^*_r(G)$ is the closure of $\set{\lambda(f) : f \in L^1(G)}$ in the bounded operators on $L^2(G)$, where $\lambda$ is the left regular representation.
+The *reduced group C\*-algebra* $C^*_r(G)$ is the closure of $\set{\lambda(f) : f \in L^1(G)}$ in the bounded operators on $L^2(G)$, where $\lambda$ is the [[left regular representation|PR8C073VWY]].
 
 ## Remarks
 
 The supremum is finite, since $\norm{\pi(f)} \le \norm{f}_1$, and $\norm{\cdot}_*$ is a norm on $L^1(G)$, since the left regular representation is injective on $L^1(G)$.
-Both $C^*(G)$ and $C^*_r(G)$ are C*-algebras.
+Both $C^*(G)$ and $C^*_r(G)$ are [[C*-algebras|M2WFY1D3SZ]].
 
 Example: for $G = \Z$, the Fourier transform $f \mapsto \sum_n f(n) z^n$ identifies $C^*(\Z)$ and $C^*_r(\Z)$ with the algebra $C(\mathbb{T})$ of continuous functions on the circle with the supremum norm.
 

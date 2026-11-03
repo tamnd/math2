@@ -18,7 +18,7 @@ uses: [FP5GVCN8GV, CG9JEATW3Q, AES2T5JPFP]
 
 ## Definition
 
-Let $\mathcal{S}$ be the [[Schwartz space|CG9JEATW3Q]], and let $\mathcal{S}'$ be the space of its [[tempered distributions|AES2T5JPFP]], with the topology of convergence against each element of $\mathcal{S}$.
+Let $\mathcal{S}$ be the [[Schwartz space|CG9JEATW3Q]], and let $\mathcal{S}'$ be the space of its [[tempered distributions|AES2T5JPFP]]. Give $\mathcal{S}'$ the topology of convergence against each element of $\mathcal{S}$.
 
 Let $q$ be a continuous [[seminorm|FP5GVCN8GV]] on $\mathcal{S}$.
 

@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $G$ be a Lie group with Lie algebra $\mathfrak{g}$, let $P \to M$ be a principal $G$-bundle, and let $\omega$ be a [[connection form|NJ21PN5ZGJ]] on $P$.
+Let $G$ be a Lie group with [[Lie algebra|WKVBS76432]] $\mathfrak{g}$, let $P \to M$ be a principal $G$-bundle, and let $\omega$ be a [[connection form|NJ21PN5ZGJ]] on $P$.
 For $\mathfrak{g}$-valued $1$-forms $\alpha, \beta$ on $P$, let $[\alpha \wedge \beta]$ be the $\mathfrak{g}$-valued $2$-form $[\alpha \wedge \beta](X, Y) = [\alpha(X), \beta(Y)] - [\alpha(Y), \beta(X)]$.
 The *curvature form* of $\omega$ is the $\mathfrak{g}$-valued $2$-form
 $$\Omega = d\omega + \tfrac12 [\omega \wedge \omega],$$

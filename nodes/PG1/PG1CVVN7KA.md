@@ -13,7 +13,7 @@ sources:
 ## Statement
 
 Let $G$ be a connected [[semisimple Lie group|XJS07AJ50Y]] with finite center, with an [[Iwasawa decomposition|4YDR9Q36DS]] $G = KAN$ and Lie algebra $\mathfrak{a}$ of $A$.
-Let $M = Z_K(\mathfrak{a})$ and $M' = N_K(\mathfrak{a})$ be the centralizer and the normalizer of $\mathfrak{a}$ in $K$, and let $W = M'/M$ be the restricted Weyl group.
+Let $M = Z_K(\mathfrak{a})$ and $M' = N_K(\mathfrak{a})$ be the centralizer and the normalizer of $\mathfrak{a}$ in $K$, and let $W = M'/M$ be the restricted [[Weyl group|YT1ZJ2S4EE]].
 Let $P = MAN$ be the minimal [[parabolic subgroup|Z2FEBW5MQM]].
 For $w \in W$, the double coset $P \tilde w P$ does not depend on the representative $\tilde w \in M'$ of $w$, and it is written $PwP$.
 Then $G$ is the disjoint union

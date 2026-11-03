@@ -12,7 +12,7 @@ sources:
 
 ## Definition
 
-Let $\mathfrak{g}$ be a finite-dimensional complex semisimple Lie algebra with Cartan matrix $(a_{ij})_{1 \le i, j \le n}$.
+Let $\mathfrak{g}$ be a finite-dimensional complex [[semisimple Lie algebra|EY9DN7QAX1]] with [[Cartan matrix|H59F1XBDZP]] $(a_{ij})_{1 \le i, j \le n}$.
 Let $d_1, \ldots, d_n$ be positive integers with $d_i a_{ij} = d_j a_{ji}$ for all $i, j$.
 Let $q \in \C$ be nonzero and not a [[root of unity|0S61N75H45]], and put $q_i = q^{d_i}$.
 For an integer $m \ge 0$ put $[m]_{q} = \frac{q^m - q^{-m}}{q - q^{-1}}$, $[m]_q! = [1]_q [2]_q \cdots [m]_q$, and $\left[{m \atop r}\right]_q = \frac{[m]_q!}{[r]_q!\,[m-r]_q!}$.

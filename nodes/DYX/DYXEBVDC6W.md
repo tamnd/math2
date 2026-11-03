@@ -13,7 +13,7 @@ sources:
 ## Statement
 
 Let $G$ be a connected and simply connected real [[Lie group|7JBRGCVJRB]] with Lie algebra $\mathfrak{g}$.
-Let $\mathfrak{r}$ be the radical of $\mathfrak{g}$, its largest solvable ideal, and let $R$ be the connected Lie subgroup of $G$ with Lie algebra $\mathfrak{r}$.
+Let $\mathfrak{r}$ be the [[radical|33MD21KMNP]] of $\mathfrak{g}$, its largest solvable ideal, and let $R$ be the connected Lie subgroup of $G$ with Lie algebra $\mathfrak{r}$.
 Then the following hold.
 
 1. The subgroup $R$ is closed, normal, simply connected and [[solvable|9CNSVFQ801]].
@@ -24,7 +24,7 @@ A subgroup $S$ as in 2 is a *Levi subgroup* of $G$.
 
 ## Remarks
 
-The proof starts from the Levi decomposition of the Lie algebra, $\mathfrak{g} = \mathfrak{r} \rtimes \mathfrak{s}$ with $\mathfrak{s}$ a semisimple subalgebra.
+The proof starts from the [[Levi decomposition|XMP8X1YVJ3]] of the Lie algebra, $\mathfrak{g} = \mathfrak{r} \rtimes \mathfrak{s}$ with $\mathfrak{s}$ a semisimple subalgebra.
 The quotient $G/R$ is simply connected with Lie algebra $\mathfrak{s}$, so the connected subgroup $S$ with Lie algebra $\mathfrak{s}$ maps isomorphically onto $G/R$.
 Thus $S$ is the image of a continuous section of $G \to G/R$, which gives 2.
 Part 3 comes from Malcev's theorem that two Levi subalgebras are conjugate by $\exp(\operatorname{ad} z)$ for some $z$ in $\mathfrak{r}$; then $x = \exp z$ works.

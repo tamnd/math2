@@ -13,7 +13,7 @@ Universal coalgebra is the general study of coalgebras for an endofunctor of the
 Such a coalgebra is a set of states $X$ with a map $X \to F(X)$.
 The map tells what can be observed of a state and which states come next.
 It is the dual of [[universal algebra|W82R6N0GM9]]: algebras build elements from smaller ones, coalgebras unfold states into their behaviour.
-Streams, automata, labelled transition systems and many other state-based systems are coalgebras, and the theory treats their behaviour and their bisimulations in one framework.
+Streams, automata, labelled transition systems and many other state-based systems are coalgebras, and the theory treats their behaviour and their [[bisimulations|X27BR4YP2Y]] in one framework.
 The general notion over any category is the [[F-coalgebra|6BS0300CMV]].
 
 ## Explanations

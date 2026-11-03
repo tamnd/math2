@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-A completely positive map between C*-algebras is a linear map that stays positive after tensoring with the identity on every matrix algebra $M_n(\C)$.
+A completely positive map between [[C*-algebras|M2WFY1D3SZ]] is a linear map that stays positive after tensoring with the identity on every matrix algebra $M_n(\C)$.
 These maps are the natural morphisms of operator algebras when one keeps only the order structure.
 The [[Stinespring dilation theorem|X8K0Z7484R]] describes them all as compressions of $*$-homomorphisms.
 In quantum information theory, completely positive trace-preserving maps are the quantum channels.

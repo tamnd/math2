@@ -14,7 +14,7 @@ same_as:
 
 A superalgebra is an algebra graded by $\Z/2\Z$: it splits as an even part and an odd part, and the product adds parities.
 It is the algebraic setting for supersymmetry, where even elements behave like ordinary commuting quantities and odd elements like anticommuting ones.
-The [[exterior algebra|0MDMZ965VE]] and [[Clifford algebras|A38B1QFK20]] are basic examples, and Lie superalgebras are the corresponding nonassociative notion.
+The [[exterior algebra|0MDMZ965VE]] and [[Clifford algebras|A38B1QFK20]] are basic examples, and [[Lie superalgebras|7CZ4Q5H78N]] are the corresponding nonassociative notion.
 Many constructions, such as tensor products and commutators, acquire a sign $(-1)^{\abs{a}\abs{b}}$ when two odd elements are moved past each other.
 
 ## Explanations

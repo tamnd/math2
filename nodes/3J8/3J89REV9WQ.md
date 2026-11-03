@@ -15,8 +15,8 @@ same_as:
 A derivation is a linear map on an algebra that satisfies the product rule $D(ab) = D(a) b + a D(b)$, see the [[definition|R1F0HCCE6F]].
 It is the algebraic form of the [[derivative|0V1EJCT8G6]], and it makes sense without limits.
 Derivations are basic in [[differential algebra|GA5PTQGC6G]], algebraic geometry and Lie theory.
-The derivations of a Lie algebra obey the same rule for the Lie bracket.
-The commutator of two derivations is again a derivation, so the derivations of an algebra form a Lie algebra.
+The [[derivations of a Lie algebra|57J7MHA8CN]] obey the same rule for the Lie bracket.
+The commutator of two derivations is again a derivation, so the derivations of an algebra form a [[Lie algebra|5JJYBJ6A8K]].
 
 ## Explanations
 

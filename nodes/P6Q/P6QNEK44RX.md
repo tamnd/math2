@@ -15,7 +15,7 @@ same_as:
 
 ## Statement
 
-Let $\mathfrak{g}$ be a finite-dimensional Lie algebra over $\R$.
+Let $\mathfrak{g}$ be a finite-dimensional [[Lie algebra|5JJYBJ6A8K]] over $\R$.
 Then there is a connected and simply connected real [[Lie group|7JBRGCVJRB]] $G$ whose Lie algebra is isomorphic to $\mathfrak{g}$.
 Here the Lie algebra of $G$ is the algebra of [[left-invariant vector fields|SNA3DVPK0C]] on $G$.
 Such a group $G$ is unique up to isomorphism of Lie groups.

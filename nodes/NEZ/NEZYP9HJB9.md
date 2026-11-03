@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $A$ and $B$ be C*-algebras, and let $\varphi \colon A \to B$ be a linear map.
+Let $A$ and $B$ be [[C*-algebras|M2WFY1D3SZ]], and let $\varphi \colon A \to B$ be a linear map.
 For $n \ge 1$, let $M_n(A)$ be the [[matrix ring|0FHVPRAE60]] of $n \times n$ matrices with entries in $A$, which is again a C\*-algebra.
 Let $\varphi_n \colon M_n(A) \to M_n(B)$ be the map $[a_{ij}] \mapsto [\varphi(a_{ij})]$.
 The map $\varphi$ is *$n$-positive* if $\varphi_n$ sends [[positive elements|NA8DF5X3M4]] of $M_n(A)$ to positive elements of $M_n(B)$.

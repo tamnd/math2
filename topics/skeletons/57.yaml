@@ -56,8 +56,8 @@ items:
   - {name: triangulation conjecture, kind: problem, wikipedia: Triangulation (topology), wikidata: Q7840154, node: JNW9GKADDN}
   - {name: piecewise linear manifold, kind: definition, wikipedia: Piecewise linear manifold, wikidata: Q7191425, node: 15MKGRNM9K}
   - {name: simple homotopy equivalence, kind: definition, wikipedia: Simple homotopy theory, wikidata: Q113504696, node: AR8SP73SXX}
-  - {name: Whitehead torsion, kind: definition, wikipedia: Whitehead torsion, wikidata: Q7996043}
-  - {name: Reidemeister torsion, kind: definition, wikipedia: Analytic torsion, wikidata: Q4751142}
+  - {name: Whitehead torsion, kind: definition, wikipedia: Whitehead torsion, wikidata: Q7996043, node: 4QMDFYEK3T}
+  - {name: Reidemeister torsion, kind: definition, wikipedia: Analytic torsion, wikidata: Q4751142, node: MEPXWR00K7}
   # Differential topology: smooth manifolds and maps
   - {name: smooth manifold, kind: definition, decl: IsManifold, wikipedia: Differentiable manifold, wikidata: Q3552958, mathlib: [mathlib-overview], node: F45VQ47GPV}
   - {name: smooth structure, kind: definition, wikipedia: Smooth structure, wikidata: Q7546440, node: R2TQ82PCNB}
@@ -114,7 +114,7 @@ items:
   - {name: Kervaire invariant problem, kind: problem, wikipedia: Kervaire invariant, wikidata: Q6394805, node: Z95Q7B022R}
   - {name: surgery theory, kind: concept, wikipedia: Surgery theory, wikidata: Q2963975, node: MHHN8386TG}
   - {name: surgery exact sequence, kind: statement, wikipedia: Surgery exact sequence, wikidata: Q7646195, node: Q7C480HQ9J}
-  - {name: Novikov conjecture, kind: conjecture, wikipedia: Novikov conjecture, wikidata: Q7064908}
+  - {name: Novikov conjecture, kind: conjecture, wikipedia: Novikov conjecture, wikidata: Q7064908, node: KEF3ZDF0QH}
   - {name: Borel conjecture, kind: conjecture, wikipedia: Borel conjecture, wikidata: Q4138792, node: X057MN9YY9}
   # Foliations
   - {name: foliation, kind: definition, wikipedia: Foliation, wikidata: Q684220, node: 98HTB7MSPX}

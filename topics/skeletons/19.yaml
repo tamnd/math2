@@ -9,238 +9,238 @@ sources:
   mathlib-overview: {title: "Mathlib, the overview of the library", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/overview.yaml'}
 items:
   # Basic notions
-  - {name: K-theory, kind: concept, wikipedia: K-theory, wikidata: Q15615154}
+  - {name: K-theory, kind: concept, wikipedia: K-theory, wikidata: Q15615154, node: ZT11JGCWX0}
   - {name: algebraic K-theory, kind: concept, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: 5GVFZWMWC8}
-  - {name: topological K-theory, kind: concept, wikipedia: Topological K-theory, wikidata: Q2111307}
-  - {name: operator K-theory, kind: concept, wikipedia: Operator K-theory, wikidata: Q7097836}
+  - {name: topological K-theory, kind: concept, wikipedia: Topological K-theory, wikidata: Q2111307, node: 6XCFW7YGX8}
+  - {name: operator K-theory, kind: concept, wikipedia: Operator K-theory, wikidata: Q7097836, node: DQZ8S67ZE6}
   - {name: Grothendieck group, kind: definition, decl: Algebra.GrothendieckGroup, wikipedia: Grothendieck group, wikidata: Q1128678, node: 5FDMY7PDYY}
-  - {name: universal property of the Grothendieck group, kind: statement, decl: Algebra.GrothendieckGroup.lift, wikipedia: Grothendieck group, wikidata: Q1128678}
-  - {name: group completion of a monoid, kind: definition, wikipedia: Grothendieck group, wikidata: Q1128678}
-  - {name: K-group, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: lower K-groups, kind: concept, wikipedia: Algebraic K-theory, wikidata: Q2553675}
+  - {name: universal property of the Grothendieck group, kind: statement, decl: Algebra.GrothendieckGroup.lift, wikipedia: Grothendieck group, wikidata: Q1128678, node: D68M5M0TDA}
+  - {name: group completion of a monoid, kind: definition, wikipedia: Grothendieck group, wikidata: Q1128678, node: 5FDMY7PDYY}
+  - {name: K-group, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: 5GVFZWMWC8}
+  - {name: lower K-groups, kind: concept, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: P5P2C17STA}
   # K0 and projective modules
   - {name: projective module, kind: definition, decl: Module.Projective, wikipedia: Projective module, wikidata: Q942423, node: BFFA03GE3V}
-  - {name: finitely generated projective module, kind: definition, wikipedia: Projective module, wikidata: Q942423}
+  - {name: finitely generated projective module, kind: definition, wikipedia: Projective module, wikidata: Q942423, node: HQA9YHDSH5}
   - {name: free module, kind: definition, decl: Module.Free, wikipedia: Free module, wikidata: Q1292333, node: 0DZ9DKAKZR}
-  - {name: stably free module, kind: definition, wikipedia: Stably free module, wikidata: Q7595791}
+  - {name: stably free module, kind: definition, wikipedia: Stably free module, wikidata: Q7595791, node: YMXJ4JTQPF}
   - {name: idempotent matrix, kind: definition, decl: IsIdempotentElem, wikipedia: Idempotent matrix, wikidata: Q3751720, node: 0KCE8CG86P}
-  - {name: K0 of a ring, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: reduced K0, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: rank of a projective module, kind: definition, wikipedia: Projective module, wikidata: Q942423}
-  - {name: K0 of a local ring, kind: example, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: K0 of a Dedekind domain, kind: statement, decl: ClassGroup, wikipedia: Ideal class group, wikidata: Q912083}
+  - {name: K0 of a ring, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: Q14JS2MA1C}
+  - {name: reduced K0, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: GBJ1S3M5QV}
+  - {name: rank of a projective module, kind: definition, wikipedia: Projective module, wikidata: Q942423, node: 1WTNGZ5T5A}
+  - {name: K0 of a local ring, kind: example, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: 1JXW8SA5GJ}
+  - {name: K0 of a Dedekind domain, kind: statement, decl: ClassGroup, wikipedia: Ideal class group, wikidata: Q912083, node: 1V3XBPS48D}
   - {name: Picard group, kind: definition, decl: CommRing.Pic, wikipedia: Picard group, wikidata: Q2042963, node: 3Z9DCWYXQZ}
-  - {name: invertible module, kind: definition, decl: Module.Invertible, wikipedia: Invertible sheaf, wikidata: Q2905137}
-  - {name: determinant of a projective module, kind: definition, wikipedia: Determinant line bundle, wikidata: Q135648941}
-  - {name: Serre–Swan theorem, kind: statement, wikipedia: Serre–Swan theorem, wikidata: Q7455422}
+  - {name: invertible module, kind: definition, decl: Module.Invertible, wikipedia: Invertible sheaf, wikidata: Q2905137, node: HYRK3K52ET}
+  - {name: determinant of a projective module, kind: definition, wikipedia: Determinant line bundle, wikidata: Q135648941, node: 1FJ4F9HK8S}
+  - {name: Serre–Swan theorem, kind: statement, wikipedia: Serre–Swan theorem, wikidata: Q7455422, node: B31RNWHHAY}
   - {name: Serre's problem on projective modules, kind: problem, wikipedia: Quillen–Suslin theorem, wikidata: Q7272004, node: 7GG0XYHB0T}
   - {name: Quillen–Suslin theorem, kind: statement, wikipedia: Quillen–Suslin theorem, wikidata: Q7272004, node: 7N50GA46W1}
-  - {name: Bass–Quillen conjecture, kind: conjecture, wikipedia: Bass–Quillen conjecture, wikidata: Q28455751}
-  - {name: Bass stable range, kind: definition, wikipedia: Stable range condition, wikidata: Q18192482}
-  - {name: Bass cancellation theorem, kind: statement, wikipedia: Stable range condition, wikidata: Q18192482}
-  - {name: Serre's splitting theorem, kind: statement, wikipedia: Projective module, wikidata: Q942423}
+  - {name: Bass–Quillen conjecture, kind: conjecture, wikipedia: Bass–Quillen conjecture, wikidata: Q28455751, node: 8XH5R0NXXQ}
+  - {name: Bass stable range, kind: definition, wikipedia: Stable range condition, wikidata: Q18192482, node: DZBM27VRAF}
+  - {name: Bass cancellation theorem, kind: statement, wikipedia: Stable range condition, wikidata: Q18192482, node: 2NEKYG83WZ}
+  - {name: Serre's splitting theorem, kind: statement, wikipedia: Projective module, wikidata: Q942423, node: FH0VE9PQXJ}
   - {name: Karoubi envelope, kind: definition, decl: CategoryTheory.Idempotents.Karoubi, wikipedia: Karoubi envelope, wikidata: Q3055409, node: S2GBXQ26QM}
-  - {name: Grothendieck group of an abelian category, kind: definition, wikipedia: Grothendieck group, wikidata: Q1128678}
+  - {name: Grothendieck group of an abelian category, kind: definition, wikipedia: Grothendieck group, wikidata: Q1128678, node: 2H7Y1XC93S}
   - {name: exact category, kind: definition, wikipedia: Exact category, wikidata: Q5419218, node: TFADSC9YPZ}
-  - {name: G-theory, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: resolution theorem, kind: statement, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: dévissage, kind: statement, wikipedia: Dévissage, wikidata: Q5320284}
-  - {name: Grothendieck group of vector bundles, kind: definition, wikipedia: Topological K-theory, wikidata: Q2111307}
-  - {name: Burnside ring, kind: definition, wikipedia: Burnside ring, wikidata: Q5000158}
-  - {name: representation ring, kind: definition, wikipedia: Representation ring, wikidata: Q7314220}
+  - {name: G-theory, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: YZSR4QKDQQ}
+  - {name: resolution theorem, kind: statement, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: DYV91576BQ}
+  - {name: dévissage, kind: statement, wikipedia: Dévissage, wikidata: Q5320284, node: Z60D02HYWJ}
+  - {name: Grothendieck group of vector bundles, kind: definition, wikipedia: Topological K-theory, wikidata: Q2111307, node: A4393CW9G4}
+  - {name: Burnside ring, kind: definition, wikipedia: Burnside ring, wikidata: Q5000158, node: HKKBGRHNMY}
+  - {name: representation ring, kind: definition, wikipedia: Representation ring, wikidata: Q7314220, node: RKTX9MN7Q3}
   - {name: Swan's induction theorem, kind: statement, wikipedia: Brauer's theorem on induced characters, wikidata: Q4958218}
-  - {name: Wall's finiteness obstruction, kind: definition, wikipedia: Wall's finiteness obstruction, wikidata: Q7962581}
+  - {name: Wall's finiteness obstruction, kind: definition, wikipedia: Wall's finiteness obstruction, wikidata: Q7962581, node: 6DNJDT9AMH}
   # K1 and Whitehead groups
-  - {name: K1 of a ring, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675}
+  - {name: K1 of a ring, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: SXVNJY4XFY}
   - {name: general linear group, kind: definition, decl: Matrix.GeneralLinearGroup, wikipedia: General linear group, wikidata: Q524607, mathlib: [mathlib-undergrad]}
-  - {name: stable general linear group, kind: definition, wikipedia: General linear group, wikidata: Q524607}
+  - {name: stable general linear group, kind: definition, wikipedia: General linear group, wikidata: Q524607, node: G8R9561PXT}
   - {name: special linear group, kind: definition, decl: Matrix.SpecialLinearGroup, wikipedia: Special linear group, wikidata: Q2140900, mathlib: [mathlib-undergrad]}
   - {name: elementary matrix, kind: definition, decl: Matrix.transvection, wikipedia: Elementary matrix, wikidata: Q609566, node: 01REXW3WWE}
-  - {name: elementary subgroup, kind: definition, wikipedia: Whitehead's lemma, wikidata: Q1816970}
-  - {name: Whitehead's lemma, kind: statement, wikipedia: Whitehead's lemma, wikidata: Q1816970}
-  - {name: perfect group, kind: definition, decl: Group.IsPerfect, wikipedia: Perfect group, wikidata: Q1571290}
+  - {name: elementary subgroup, kind: definition, wikipedia: Whitehead's lemma, wikidata: Q1816970, node: E5JXB0E324}
+  - {name: Whitehead's lemma, kind: statement, wikipedia: Whitehead's lemma, wikidata: Q1816970, node: NE2K5HAEFN}
+  - {name: perfect group, kind: definition, decl: Group.IsPerfect, wikipedia: Perfect group, wikidata: Q1571290, node: HWPXM2JSJ9}
   - {name: determinant, kind: definition, decl: Matrix.det, wikipedia: Determinant, wikidata: Q178546, mathlib: [mathlib-undergrad, mathlib-overview], node: 00KDZRW4C0}
-  - {name: SK1, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: K1 of a field, kind: example, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: K1 of a Euclidean domain, kind: example, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: Dieudonné determinant, kind: definition, wikipedia: Dieudonné determinant, wikidata: Q5275226}
-  - {name: reduced norm, kind: definition, wikipedia: Central simple algebra, wikidata: Q2428439}
-  - {name: Wang's theorem on SK1 of division algebras, kind: statement, wikipedia: Central simple algebra, wikidata: Q2428439}
+  - {name: SK1, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: AAB05HS00Y}
+  - {name: K1 of a field, kind: example, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: KV7FHJCE14}
+  - {name: K1 of a Euclidean domain, kind: example, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: T3Q8G4HBHV}
+  - {name: Dieudonné determinant, kind: definition, wikipedia: Dieudonné determinant, wikidata: Q5275226, node: Q00D66Z3ZH}
+  - {name: reduced norm, kind: definition, wikipedia: Central simple algebra, wikidata: Q2428439, node: 2FATVDAN2E}
+  - {name: Wang's theorem on SK1 of division algebras, kind: statement, wikipedia: Central simple algebra, wikidata: Q2428439, node: AG1C9C04K5}
   - {name: Tannaka–Artin problem, kind: problem, wikipedia: Central simple algebra, wikidata: Q2428439}
-  - {name: Whitehead group, kind: definition, wikipedia: Whitehead torsion, wikidata: Q7996043}
-  - {name: Whitehead torsion, kind: definition, wikipedia: Whitehead torsion, wikidata: Q7996043}
-  - {name: Reidemeister torsion, kind: definition, wikipedia: Analytic torsion, wikidata: Q4751142}
-  - {name: Whitehead group of a free abelian group, kind: statement, wikipedia: Whitehead torsion, wikidata: Q7996043}
-  - {name: Bass–Milnor–Serre theorem, kind: statement, wikipedia: Congruence subgroup, wikidata: Q5161000}
+  - {name: Whitehead group, kind: definition, wikipedia: Whitehead torsion, wikidata: Q7996043, node: 8SY3AC4KW3}
+  - {name: Whitehead torsion, kind: definition, wikipedia: Whitehead torsion, wikidata: Q7996043, node: 4QMDFYEK3T}
+  - {name: Reidemeister torsion, kind: definition, wikipedia: Analytic torsion, wikidata: Q4751142, node: MEPXWR00K7}
+  - {name: Whitehead group of a free abelian group, kind: statement, wikipedia: Whitehead torsion, wikidata: Q7996043, node: KFG1HBX1NK}
+  - {name: Bass–Milnor–Serre theorem, kind: statement, wikipedia: Congruence subgroup, wikidata: Q5161000, node: PYPSVTYTZ8}
   - {name: congruence subgroup problem, kind: problem, wikipedia: Congruence subgroup, wikidata: Q5161000}
-  - {name: Milnor square, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: Mayer–Vietoris sequence in K-theory, kind: statement, wikipedia: Mayer–Vietoris sequence, wikidata: Q2421905}
-  - {name: excision in algebraic K-theory, kind: statement, wikipedia: Excision theorem, wikidata: Q3526998}
-  - {name: relative K-groups, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: negative K-theory, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: Bass–Heller–Swan theorem, kind: statement, wikipedia: Fundamental theorem of algebraic K-theory, wikidata: Q17015004}
-  - {name: NK groups, kind: definition, wikipedia: Fundamental theorem of algebraic K-theory, wikidata: Q17015004}
-  - {name: fundamental theorem of algebraic K-theory, kind: statement, wikipedia: Fundamental theorem of algebraic K-theory, wikidata: Q17015004}
+  - {name: Milnor square, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: HHWW8R6F2G}
+  - {name: Mayer–Vietoris sequence in K-theory, kind: statement, wikipedia: Mayer–Vietoris sequence, wikidata: Q2421905, node: C2VC3YTG2P}
+  - {name: excision in algebraic K-theory, kind: statement, wikipedia: Excision theorem, wikidata: Q3526998, node: CSRSKXZRG9}
+  - {name: relative K-groups, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: GYK9TGKG77}
+  - {name: negative K-theory, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: 3YDPFTQTJ6}
+  - {name: Bass–Heller–Swan theorem, kind: statement, wikipedia: Fundamental theorem of algebraic K-theory, wikidata: Q17015004, node: R8FZDQT1QM}
+  - {name: NK groups, kind: definition, wikipedia: Fundamental theorem of algebraic K-theory, wikidata: Q17015004, node: TV0GX7AQWT}
+  - {name: fundamental theorem of algebraic K-theory, kind: statement, wikipedia: Fundamental theorem of algebraic K-theory, wikidata: Q17015004, node: YB37MJ90SB}
   # K2 and Steinberg groups
-  - {name: K2 of a ring, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: Steinberg group, kind: definition, wikipedia: Steinberg group (K-theory), wikidata: Q7606830}
-  - {name: Steinberg relations, kind: definition, wikipedia: Steinberg group (K-theory), wikidata: Q7606830}
-  - {name: universal central extension, kind: definition, wikipedia: Schur multiplier, wikidata: Q3327702}
-  - {name: Schur multiplier, kind: definition, wikipedia: Schur multiplier, wikidata: Q3327702}
-  - {name: Steinberg symbol, kind: definition, wikipedia: Steinberg symbol, wikidata: Q7606831}
-  - {name: Matsumoto's theorem, kind: statement, wikipedia: Matsumoto's theorem (group theory), wikidata: Q6788131}
-  - {name: K2 of a field, kind: example, wikipedia: Steinberg symbol, wikidata: Q7606831}
-  - {name: K2 of the integers, kind: example, wikipedia: Steinberg group (K-theory), wikidata: Q7606830}
-  - {name: Tate's computation of K2 of the rationals, kind: statement, wikipedia: Steinberg symbol, wikidata: Q7606831}
-  - {name: tame symbol, kind: definition, wikipedia: Symbol (number theory), wikidata: Q7051624}
+  - {name: K2 of a ring, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: W7T56A6YF8}
+  - {name: Steinberg group, kind: definition, wikipedia: Steinberg group (K-theory), wikidata: Q7606830, node: 590VZSQ83X}
+  - {name: Steinberg relations, kind: definition, wikipedia: Steinberg group (K-theory), wikidata: Q7606830, node: 5N139ECTM1}
+  - {name: universal central extension, kind: definition, wikipedia: Schur multiplier, wikidata: Q3327702, node: 91EW4GMJ5R}
+  - {name: Schur multiplier, kind: definition, wikipedia: Schur multiplier, wikidata: Q3327702, node: AZDECAWGD0}
+  - {name: Steinberg symbol, kind: definition, wikipedia: Steinberg symbol, wikidata: Q7606831, node: HRYG5D46EQ}
+  - {name: Matsumoto's theorem, kind: statement, wikipedia: Matsumoto's theorem (group theory), wikidata: Q6788131, node: E0W8X5Y5SE}
+  - {name: K2 of a field, kind: example, wikipedia: Steinberg symbol, wikidata: Q7606831, node: W7NDZNPC7D}
+  - {name: K2 of the integers, kind: example, wikipedia: Steinberg group (K-theory), wikidata: Q7606830, node: ZBVSX0FYQ0}
+  - {name: Tate's computation of K2 of the rationals, kind: statement, wikipedia: Steinberg symbol, wikidata: Q7606831, node: V13SXPPN1M}
+  - {name: tame symbol, kind: definition, wikipedia: Symbol (number theory), wikidata: Q7051624, node: NPAX5HQFFQ}
   - {name: Hilbert symbol, kind: definition, wikipedia: Hilbert symbol, wikidata: Q740060, node: WFG4YMBYVQ}
-  - {name: norm residue symbol, kind: definition, wikipedia: Symbol (number theory), wikidata: Q7051624}
-  - {name: Moore reciprocity sequence, kind: statement, wikipedia: Hilbert symbol, wikidata: Q740060}
-  - {name: Dennis–Stein symbol, kind: definition, wikipedia: Steinberg symbol, wikidata: Q7606831}
-  - {name: Merkurjev–Suslin theorem, kind: statement, wikipedia: Norm residue isomorphism theorem, wikidata: Q7051622}
+  - {name: norm residue symbol, kind: definition, wikipedia: Symbol (number theory), wikidata: Q7051624, node: GBDFSDV23C}
+  - {name: Moore reciprocity sequence, kind: statement, wikipedia: Hilbert symbol, wikidata: Q740060, node: 1GJNBMDPZV}
+  - {name: Dennis–Stein symbol, kind: definition, wikipedia: Steinberg symbol, wikidata: Q7606831, node: A575FYBCCY}
+  - {name: Merkurjev–Suslin theorem, kind: statement, wikipedia: Norm residue isomorphism theorem, wikidata: Q7051622, node: Q0JCQ7FNME}
   - {name: Milnor K-theory, kind: definition, wikipedia: Milnor K-theory, wikidata: Q6860246, node: 2YXDQ7Q445}
-  - {name: Galois symbol, kind: definition, wikipedia: Norm residue isomorphism theorem, wikidata: Q7051622}
-  - {name: Milnor conjecture, kind: statement, wikipedia: Milnor conjecture (K-theory), wikidata: Q2993329}
+  - {name: Galois symbol, kind: definition, wikipedia: Norm residue isomorphism theorem, wikidata: Q7051622, node: N4NNC0BB7A}
+  - {name: Milnor conjecture, kind: statement, wikipedia: Milnor conjecture (K-theory), wikidata: Q2993329, node: MCNA4E7FY6}
   - {name: norm residue isomorphism theorem, kind: statement, wikipedia: Norm residue isomorphism theorem, wikidata: Q7051622, node: 5Q5VN56QH4}
-  - {name: Bloch–Kato conjecture, kind: statement, wikipedia: Norm residue isomorphism theorem, wikidata: Q7051622}
-  - {name: K2 and the Brauer group, kind: statement, wikipedia: Norm residue isomorphism theorem, wikidata: Q7051622}
+  - {name: Bloch–Kato conjecture, kind: statement, wikipedia: Norm residue isomorphism theorem, wikidata: Q7051622, node: 5Q5VN56QH4}
+  - {name: K2 and the Brauer group, kind: statement, wikipedia: Norm residue isomorphism theorem, wikidata: Q7051622, node: YRZX9CNTK5}
   # Higher algebraic K-theory
-  - {name: higher algebraic K-theory, kind: concept, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: plus construction, kind: definition, wikipedia: Plus construction, wikidata: Q7205616}
-  - {name: classifying space BGL, kind: object, wikipedia: Classifying space, wikidata: Q5128445}
-  - {name: Quillen Q-construction, kind: definition, wikipedia: Q-construction, wikidata: Q17099681}
-  - {name: plus equals Q theorem, kind: statement, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: Waldhausen category, kind: definition, wikipedia: Waldhausen category, wikidata: Q7961511}
-  - {name: Waldhausen S-construction, kind: definition, wikipedia: Waldhausen category, wikidata: Q7961511}
-  - {name: additivity theorem, kind: statement, wikipedia: Waldhausen category, wikidata: Q7961511}
-  - {name: K-theory spectrum, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: K-theory of a symmetric monoidal category, kind: definition, wikipedia: Symmetric monoidal category, wikidata: Q17103860}
-  - {name: Quillen's localization theorem, kind: statement, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: Quillen's dévissage theorem, kind: statement, wikipedia: Dévissage, wikidata: Q5320284}
-  - {name: homotopy invariance of K-theory for regular rings, kind: statement, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: K-theory of finite fields, kind: statement, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: K-theory of the integers, kind: example, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: Quillen's finite generation theorem, kind: statement, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: Bass conjecture, kind: conjecture, wikipedia: Bass conjecture, wikidata: Q4867980}
-  - {name: Karoubi–Villamayor K-theory, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: homotopy K-theory, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: Thomason–Trobaugh K-theory of schemes, kind: concept, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: Thomason–Trobaugh localization theorem, kind: statement, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: K-theory with finite coefficients, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: Suslin rigidity theorem, kind: statement, wikipedia: Rigidity (K-theory), wikidata: Q97358854}
-  - {name: Gabber rigidity theorem, kind: statement, wikipedia: Rigidity (K-theory), wikidata: Q97358854}
-  - {name: étale K-theory, kind: definition, wikipedia: Quillen–Lichtenbaum conjecture, wikidata: Q7271997}
-  - {name: Thomason's étale descent theorem, kind: statement, wikipedia: Quillen–Lichtenbaum conjecture, wikidata: Q7271997}
-  - {name: Quillen–Lichtenbaum conjecture, kind: statement, wikipedia: Quillen–Lichtenbaum conjecture, wikidata: Q7271997}
-  - {name: motivic cohomology, kind: definition, wikipedia: Motivic cohomology, wikidata: Q2981889}
-  - {name: motivic spectral sequence, kind: statement, wikipedia: Motivic cohomology, wikidata: Q2981889}
-  - {name: Bloch–Lichtenbaum spectral sequence, kind: statement, wikipedia: Motivic cohomology, wikidata: Q2981889}
-  - {name: algebraic K-theory of spaces, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675}
+  - {name: higher algebraic K-theory, kind: concept, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: 5GVFZWMWC8}
+  - {name: plus construction, kind: definition, wikipedia: Plus construction, wikidata: Q7205616, node: XFGZFM8PC6}
+  - {name: classifying space BGL, kind: object, wikipedia: Classifying space, wikidata: Q5128445, node: BK3091CPGF}
+  - {name: Quillen Q-construction, kind: definition, wikipedia: Q-construction, wikidata: Q17099681, node: J9XP7CS943}
+  - {name: plus equals Q theorem, kind: statement, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: 7X0TM18WWC}
+  - {name: Waldhausen category, kind: definition, wikipedia: Waldhausen category, wikidata: Q7961511, node: X7JG1QEB9Q}
+  - {name: Waldhausen S-construction, kind: definition, wikipedia: Waldhausen category, wikidata: Q7961511, node: ZPNXVVZY1J}
+  - {name: additivity theorem, kind: statement, wikipedia: Waldhausen category, wikidata: Q7961511, node: 2TW8ZQ0GNG}
+  - {name: K-theory spectrum, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: 2C1M0NWPB0}
+  - {name: K-theory of a symmetric monoidal category, kind: definition, wikipedia: Symmetric monoidal category, wikidata: Q17103860, node: NJQY3GHY7H}
+  - {name: Quillen's localization theorem, kind: statement, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: BBNF9KH73G}
+  - {name: Quillen's dévissage theorem, kind: statement, wikipedia: Dévissage, wikidata: Q5320284, node: DFRVP07PV3}
+  - {name: homotopy invariance of K-theory for regular rings, kind: statement, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: PSEAAC4MC0}
+  - {name: K-theory of finite fields, kind: statement, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: CJSGE7JSGH}
+  - {name: K-theory of the integers, kind: example, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: 8B2EPZ8GYA}
+  - {name: Quillen's finite generation theorem, kind: statement, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: PXYP8675C2}
+  - {name: Bass conjecture, kind: conjecture, wikipedia: Bass conjecture, wikidata: Q4867980, node: Z4JV9JFQH1}
+  - {name: Karoubi–Villamayor K-theory, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: QE20P81GXX}
+  - {name: homotopy K-theory, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: 1WC029DKQ1}
+  - {name: Thomason–Trobaugh K-theory of schemes, kind: concept, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: ECFW7KP0SX}
+  - {name: Thomason–Trobaugh localization theorem, kind: statement, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: J8AN2M19DD}
+  - {name: K-theory with finite coefficients, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: ANJ5719F7F}
+  - {name: Suslin rigidity theorem, kind: statement, wikipedia: Rigidity (K-theory), wikidata: Q97358854, node: Z2Z2WAQJJN}
+  - {name: Gabber rigidity theorem, kind: statement, wikipedia: Rigidity (K-theory), wikidata: Q97358854, node: YE2EQ8R966}
+  - {name: étale K-theory, kind: definition, wikipedia: Quillen–Lichtenbaum conjecture, wikidata: Q7271997, node: CC2HWX9X2Y}
+  - {name: Thomason's étale descent theorem, kind: statement, wikipedia: Quillen–Lichtenbaum conjecture, wikidata: Q7271997, node: X13075BWW0}
+  - {name: Quillen–Lichtenbaum conjecture, kind: statement, wikipedia: Quillen–Lichtenbaum conjecture, wikidata: Q7271997, node: X3VFA5XH6B}
+  - {name: motivic cohomology, kind: definition, wikipedia: Motivic cohomology, wikidata: Q2981889, node: V1BB32NY3G}
+  - {name: motivic spectral sequence, kind: statement, wikipedia: Motivic cohomology, wikidata: Q2981889, node: 261PM5FZN8}
+  - {name: Bloch–Lichtenbaum spectral sequence, kind: statement, wikipedia: Motivic cohomology, wikidata: Q2981889, node: 6E0DCB1NF1}
+  - {name: algebraic K-theory of spaces, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: 7TNSX75XTP}
   - {name: cyclic homology, kind: definition, wikipedia: Cyclic homology, wikidata: Q939179, node: 676K167XS8}
-  - {name: Dennis trace map, kind: definition, wikipedia: Cyclic homology, wikidata: Q939179}
-  - {name: Goodwillie's theorem on relative K-theory, kind: statement, wikipedia: Cyclic homology, wikidata: Q939179}
-  - {name: topological Hochschild homology, kind: definition, wikipedia: Topological Hochschild homology, wikidata: Q105038900}
-  - {name: topological cyclic homology, kind: definition, wikipedia: Topological Hochschild homology, wikidata: Q105038900}
-  - {name: cyclotomic trace, kind: definition, wikipedia: Topological Hochschild homology, wikidata: Q105038900}
-  - {name: Dundas–Goodwillie–McCarthy theorem, kind: statement, wikipedia: Topological Hochschild homology, wikidata: Q105038900}
-  - {name: assembly map, kind: definition, wikipedia: Assembly map, wikidata: Q4808684}
-  - {name: Farrell–Jones conjecture, kind: conjecture, wikipedia: Farrell–Jones conjecture, wikidata: Q5436273}
+  - {name: Dennis trace map, kind: definition, wikipedia: Cyclic homology, wikidata: Q939179, node: 4YDCBSAJZ0}
+  - {name: Goodwillie's theorem on relative K-theory, kind: statement, wikipedia: Cyclic homology, wikidata: Q939179, node: GC9026X05J}
+  - {name: topological Hochschild homology, kind: definition, wikipedia: Topological Hochschild homology, wikidata: Q105038900, node: PFW77RAAY3}
+  - {name: topological cyclic homology, kind: definition, wikipedia: Topological Hochschild homology, wikidata: Q105038900, node: 6RQS843SE5}
+  - {name: cyclotomic trace, kind: definition, wikipedia: Topological Hochschild homology, wikidata: Q105038900, node: 5AWJ6ZEG26}
+  - {name: Dundas–Goodwillie–McCarthy theorem, kind: statement, wikipedia: Topological Hochschild homology, wikidata: Q105038900, node: YRXZY9A1P9}
+  - {name: assembly map, kind: definition, wikipedia: Assembly map, wikidata: Q4808684, node: 2KT6XR8MCZ}
+  - {name: Farrell–Jones conjecture, kind: conjecture, wikipedia: Farrell–Jones conjecture, wikidata: Q5436273, node: B2X59B7J8V}
   - {name: Hsiang conjecture on K-theory of group rings, kind: conjecture, wikipedia: Farrell–Jones conjecture, wikidata: Q5436273}
-  - {name: Kaplansky idempotent conjecture, kind: conjecture, wikipedia: Kaplansky's conjectures, wikidata: Q6366842}
-  - {name: Hermitian K-theory, kind: definition, wikipedia: Witt group, wikidata: Q3117708}
-  - {name: Grothendieck–Witt group, kind: definition, wikipedia: Witt group, wikidata: Q3117708}
+  - {name: Kaplansky idempotent conjecture, kind: conjecture, wikipedia: Kaplansky's conjectures, wikidata: Q6366842, node: HXPPHQQYB0}
+  - {name: Hermitian K-theory, kind: definition, wikipedia: Witt group, wikidata: Q3117708, node: CZZCPA2VQS}
+  - {name: Grothendieck–Witt group, kind: definition, wikipedia: Witt group, wikidata: Q3117708, node: KG8D0N6712}
   # K-theory of forms
   - {name: quadratic form, kind: definition, decl: QuadraticForm, wikipedia: Quadratic form, wikidata: Q736753, mathlib: [mathlib-undergrad, mathlib-overview], node: 0RBQS1JJCR}
   - {name: Witt group, kind: definition, wikipedia: Witt group, wikidata: Q3117708, node: KFVY0RPGF2}
-  - {name: Witt ring of a field, kind: definition, wikipedia: Witt group, wikidata: Q3117708}
-  - {name: fundamental ideal of the Witt ring, kind: definition, wikipedia: Witt group, wikidata: Q3117708}
-  - {name: Pfister form, kind: definition, wikipedia: Pfister form, wikidata: Q7179798}
-  - {name: Milnor conjecture on quadratic forms, kind: statement, wikipedia: Milnor conjecture (K-theory), wikidata: Q2993329}
-  - {name: Arason–Pfister Hauptsatz, kind: statement, wikipedia: Pfister form, wikidata: Q7179798}
-  - {name: L-theory, kind: definition, wikipedia: L-theory, wikidata: Q6456169}
-  - {name: surgery obstruction groups, kind: definition, wikipedia: L-theory, wikidata: Q6456169}
+  - {name: Witt ring of a field, kind: definition, wikipedia: Witt group, wikidata: Q3117708, node: KFVY0RPGF2}
+  - {name: fundamental ideal of the Witt ring, kind: definition, wikipedia: Witt group, wikidata: Q3117708, node: 53EK4D07PV}
+  - {name: Pfister form, kind: definition, wikipedia: Pfister form, wikidata: Q7179798, node: 7HMTK6P4W7}
+  - {name: Milnor conjecture on quadratic forms, kind: statement, wikipedia: Milnor conjecture (K-theory), wikidata: Q2993329, node: CCV814KQEX}
+  - {name: Arason–Pfister Hauptsatz, kind: statement, wikipedia: Pfister form, wikidata: Q7179798, node: CS3NER7ST4}
+  - {name: L-theory, kind: definition, wikipedia: L-theory, wikidata: Q6456169, node: P5CRN7BZV0}
+  - {name: surgery obstruction groups, kind: definition, wikipedia: L-theory, wikidata: Q6456169, node: 9Q4DJXBHPC}
   - {name: Clifford algebra, kind: definition, decl: CliffordAlgebra, wikipedia: Clifford algebra, wikidata: Q674689, mathlib: [mathlib-overview], node: A38B1QFK20}
   # K-theory in geometry
-  - {name: K-theory of a scheme, kind: concept, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: K0 of coherent sheaves, kind: definition, wikipedia: Grothendieck–Riemann–Roch theorem, wikidata: Q1899432}
-  - {name: projective bundle theorem, kind: statement, wikipedia: Projective bundle, wikidata: Q7249462}
-  - {name: lambda-ring, kind: definition, wikipedia: Λ-ring, wikidata: Q8083988}
-  - {name: gamma filtration, kind: definition, wikipedia: Λ-ring, wikidata: Q8083988}
-  - {name: Adams operations, kind: definition, wikipedia: Adams operation, wikidata: Q4680478}
-  - {name: Chern character, kind: definition, wikipedia: Chern class, wikidata: Q1069818}
+  - {name: K-theory of a scheme, kind: concept, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: Y2467453Q5}
+  - {name: K0 of coherent sheaves, kind: definition, wikipedia: Grothendieck–Riemann–Roch theorem, wikidata: Q1899432, node: YDSX9RDM1C}
+  - {name: projective bundle theorem, kind: statement, wikipedia: Projective bundle, wikidata: Q7249462, node: RJWPXT4PC3}
+  - {name: lambda-ring, kind: definition, wikipedia: Λ-ring, wikidata: Q8083988, node: E2KA3XP47F}
+  - {name: gamma filtration, kind: definition, wikipedia: Λ-ring, wikidata: Q8083988, node: EW5PMAGN8F}
+  - {name: Adams operations, kind: definition, wikipedia: Adams operation, wikidata: Q4680478, node: KQP64TH307}
+  - {name: Chern character, kind: definition, wikipedia: Chern class, wikidata: Q1069818, node: 6XRTXBPASW}
   - {name: Todd class, kind: definition, wikipedia: Todd class, wikidata: Q2438393, node: 2YDB5089FR}
-  - {name: Riemann–Roch without denominators, kind: statement, wikipedia: Grothendieck–Riemann–Roch theorem, wikidata: Q1899432}
-  - {name: Bloch's formula, kind: statement, wikipedia: Bloch's formula, wikidata: Q16843249}
-  - {name: Gersten conjecture, kind: conjecture, wikipedia: Bloch's formula, wikidata: Q16843249}
-  - {name: Gersten complex, kind: definition, wikipedia: Bloch's formula, wikidata: Q16843249}
+  - {name: Riemann–Roch without denominators, kind: statement, wikipedia: Grothendieck–Riemann–Roch theorem, wikidata: Q1899432, node: WZV02KSEPC}
+  - {name: Bloch's formula, kind: statement, wikipedia: Bloch's formula, wikidata: Q16843249, node: K72F2F3ET3}
+  - {name: Gersten conjecture, kind: conjecture, wikipedia: Bloch's formula, wikidata: Q16843249, node: N0ZTHA8YBB}
+  - {name: Gersten complex, kind: definition, wikipedia: Bloch's formula, wikidata: Q16843249, node: W4BRV4PT2F}
   - {name: Chow group, kind: definition, wikipedia: Chow group, wikidata: Q5105523, node: EBEF6PEK4N}
-  - {name: motivic homotopy theory, kind: concept, wikipedia: A¹ homotopy theory, wikidata: Q4833212}
-  - {name: Brown–Gersten descent, kind: statement, wikipedia: Algebraic K-theory, wikidata: Q2553675}
+  - {name: motivic homotopy theory, kind: concept, wikipedia: A¹ homotopy theory, wikidata: Q4833212, node: K33643SC1Y}
+  - {name: Brown–Gersten descent, kind: statement, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: N3GQA1TZ9Z}
   # K-theory in number theory
-  - {name: K-groups of rings of integers, kind: concept, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: Dirichlet's unit theorem as a K1 computation, kind: statement, decl: NumberField.Units.rank, wikipedia: Dirichlet's unit theorem, wikidata: Q1227702}
-  - {name: Borel's theorem on ranks of K-groups, kind: statement, wikipedia: Algebraic K-theory, wikidata: Q2553675}
-  - {name: Borel regulator, kind: definition, wikipedia: Beilinson regulator, wikidata: Q16999450}
-  - {name: Beilinson regulator, kind: definition, wikipedia: Beilinson regulator, wikidata: Q16999450}
-  - {name: Beilinson conjectures, kind: conjecture, wikipedia: Special values of L-functions, wikidata: Q7574878}
-  - {name: Lichtenbaum's conjecture on special values, kind: conjecture, wikipedia: Special values of L-functions, wikidata: Q7574878}
-  - {name: Birch–Tate conjecture, kind: conjecture, wikipedia: Birch–Tate conjecture, wikidata: Q4915794}
-  - {name: Vandiver's conjecture and K-theory of the integers, kind: conjecture, wikipedia: Kummer–Vandiver conjecture, wikidata: Q662049}
-  - {name: Bloch group, kind: definition, wikipedia: Bloch group, wikidata: Q4927103}
-  - {name: dilogarithm and K3, kind: statement, wikipedia: Bloch group, wikidata: Q4927103}
-  - {name: Zagier's conjecture on polylogarithms, kind: conjecture, wikipedia: Polylogarithm, wikidata: Q1238449}
+  - {name: K-groups of rings of integers, kind: concept, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: 4HXFKW55WJ}
+  - {name: Dirichlet's unit theorem as a K1 computation, kind: statement, decl: NumberField.Units.rank, wikipedia: Dirichlet's unit theorem, wikidata: Q1227702, node: EJV6313D0V}
+  - {name: Borel's theorem on ranks of K-groups, kind: statement, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: AKGV0SAD4V}
+  - {name: Borel regulator, kind: definition, wikipedia: Beilinson regulator, wikidata: Q16999450, node: D22EZ3CNAF}
+  - {name: Beilinson regulator, kind: definition, wikipedia: Beilinson regulator, wikidata: Q16999450, node: SXJWFF0WAJ}
+  - {name: Beilinson conjectures, kind: conjecture, wikipedia: Special values of L-functions, wikidata: Q7574878, node: H90117GYVM}
+  - {name: Lichtenbaum's conjecture on special values, kind: conjecture, wikipedia: Special values of L-functions, wikidata: Q7574878, node: 33AYS9Q2PB}
+  - {name: Birch–Tate conjecture, kind: conjecture, wikipedia: Birch–Tate conjecture, wikidata: Q4915794, node: S2CHWAZX4V}
+  - {name: Vandiver's conjecture and K-theory of the integers, kind: conjecture, wikipedia: Kummer–Vandiver conjecture, wikidata: Q662049, node: Y7REBETGR3}
+  - {name: Bloch group, kind: definition, wikipedia: Bloch group, wikidata: Q4927103, node: EC11MFYFYM}
+  - {name: dilogarithm and K3, kind: statement, wikipedia: Bloch group, wikidata: Q4927103, node: M1C142YAPZ}
+  - {name: Zagier's conjecture on polylogarithms, kind: conjecture, wikipedia: Polylogarithm, wikidata: Q1238449, node: 3ZAPNS8QNV}
   # Operator algebras and K-theory
-  - {name: C*-algebra, kind: definition, decl: CStarAlgebra, wikipedia: C*-algebra, wikidata: Q263809}
-  - {name: K0 of a C*-algebra, kind: definition, wikipedia: Operator K-theory, wikidata: Q7097836}
-  - {name: K1 of a C*-algebra, kind: definition, wikipedia: Operator K-theory, wikidata: Q7097836}
-  - {name: Murray–von Neumann equivalence, kind: definition, wikipedia: Operator K-theory, wikidata: Q7097836}
-  - {name: unitary element, kind: definition, decl: unitary, wikipedia: Unitary element, wikidata: Q104841236}
-  - {name: Bott periodicity for C*-algebras, kind: statement, wikipedia: Operator K-theory, wikidata: Q7097836}
-  - {name: six-term exact sequence, kind: statement, wikipedia: Operator K-theory, wikidata: Q7097836}
-  - {name: index map, kind: definition, wikipedia: Operator K-theory, wikidata: Q7097836}
-  - {name: Fredholm index in K-theory, kind: concept, decl: ContinuousLinearMap.IsFredholm, wikipedia: Fredholm operator, wikidata: Q573631}
-  - {name: Toeplitz extension, kind: example, wikipedia: Toeplitz algebra, wikidata: Q2835942}
-  - {name: Brown–Douglas–Fillmore theory, kind: concept, wikipedia: Calkin algebra, wikidata: Q1027067}
-  - {name: Pimsner–Voiculescu exact sequence, kind: statement, wikipedia: Operator K-theory, wikidata: Q7097836}
-  - {name: Connes–Thom isomorphism, kind: statement, wikipedia: Operator K-theory, wikidata: Q7097836}
-  - {name: K-theory of Cuntz algebras, kind: example, wikipedia: Cuntz algebra, wikidata: Q1144125}
-  - {name: K-theory of the noncommutative torus, kind: example, wikipedia: Noncommutative torus, wikidata: Q3532264}
-  - {name: AF algebra, kind: definition, wikipedia: Approximately finite-dimensional C*-algebra, wikidata: Q291562}
-  - {name: dimension group, kind: definition, wikipedia: Approximately finite-dimensional C*-algebra, wikidata: Q291562}
-  - {name: Elliott's classification of AF algebras, kind: statement, wikipedia: Approximately finite-dimensional C*-algebra, wikidata: Q291562}
-  - {name: Elliott classification program, kind: concept, wikipedia: Approximately finite-dimensional C*-algebra, wikidata: Q291562}
-  - {name: Kirchberg–Phillips classification theorem, kind: statement, wikipedia: Cuntz algebra, wikidata: Q1144125}
-  - {name: KK-theory, kind: concept, wikipedia: KK-theory, wikidata: Q6331703}
-  - {name: Kasparov product, kind: definition, wikipedia: KK-theory, wikidata: Q6331703}
-  - {name: E-theory, kind: concept, wikipedia: KK-theory, wikidata: Q6331703}
-  - {name: K-homology, kind: definition, wikipedia: K-homology, wikidata: Q6322838}
-  - {name: Fredholm module, kind: definition, wikipedia: Fredholm module, wikidata: Q5499350}
-  - {name: Baum–Connes conjecture, kind: conjecture, wikipedia: Baum–Connes conjecture, wikidata: Q2993305}
-  - {name: coarse Baum–Connes conjecture, kind: conjecture, wikipedia: Baum–Connes conjecture, wikidata: Q2993305}
-  - {name: Chern–Connes character, kind: definition, wikipedia: Noncommutative geometry, wikidata: Q2746792}
-  - {name: Kadison–Kaplansky conjecture, kind: conjecture, wikipedia: Kaplansky's conjectures, wikidata: Q6366842}
+  - {name: C*-algebra, kind: definition, decl: CStarAlgebra, wikipedia: C*-algebra, wikidata: Q263809, node: M2WFY1D3SZ}
+  - {name: K0 of a C*-algebra, kind: definition, wikipedia: Operator K-theory, wikidata: Q7097836, node: BP86XQRZD2}
+  - {name: K1 of a C*-algebra, kind: definition, wikipedia: Operator K-theory, wikidata: Q7097836, node: 7NTVTHC7CG}
+  - {name: Murray–von Neumann equivalence, kind: definition, wikipedia: Operator K-theory, wikidata: Q7097836, node: GT9S7APKG1}
+  - {name: unitary element, kind: definition, decl: unitary, wikipedia: Unitary element, wikidata: Q104841236, node: KK9S67F8CA}
+  - {name: Bott periodicity for C*-algebras, kind: statement, wikipedia: Operator K-theory, wikidata: Q7097836, node: 2VHFR8XFWK}
+  - {name: six-term exact sequence, kind: statement, wikipedia: Operator K-theory, wikidata: Q7097836, node: NMBY32JM60}
+  - {name: index map, kind: definition, wikipedia: Operator K-theory, wikidata: Q7097836, node: XBVMWZJ5FF}
+  - {name: Fredholm index in K-theory, kind: concept, decl: ContinuousLinearMap.IsFredholm, wikipedia: Fredholm operator, wikidata: Q573631, node: 2V9Q4KHY1T}
+  - {name: Toeplitz extension, kind: example, wikipedia: Toeplitz algebra, wikidata: Q2835942, node: V4G7QAQW89}
+  - {name: Brown–Douglas–Fillmore theory, kind: concept, wikipedia: Calkin algebra, wikidata: Q1027067, node: ZTDC9MC2Y4}
+  - {name: Pimsner–Voiculescu exact sequence, kind: statement, wikipedia: Operator K-theory, wikidata: Q7097836, node: 7747Q44GVT}
+  - {name: Connes–Thom isomorphism, kind: statement, wikipedia: Operator K-theory, wikidata: Q7097836, node: PF3ZN28M2A}
+  - {name: K-theory of Cuntz algebras, kind: example, wikipedia: Cuntz algebra, wikidata: Q1144125, node: NMNGEGFDEK}
+  - {name: K-theory of the noncommutative torus, kind: example, wikipedia: Noncommutative torus, wikidata: Q3532264, node: GVRB3EDFDH}
+  - {name: AF algebra, kind: definition, wikipedia: Approximately finite-dimensional C*-algebra, wikidata: Q291562, node: 4Y7VENNBVK}
+  - {name: dimension group, kind: definition, wikipedia: Approximately finite-dimensional C*-algebra, wikidata: Q291562, node: WSH8TY6MK9}
+  - {name: Elliott's classification of AF algebras, kind: statement, wikipedia: Approximately finite-dimensional C*-algebra, wikidata: Q291562, node: Y9KSMY8A1Q}
+  - {name: Elliott classification program, kind: concept, wikipedia: Approximately finite-dimensional C*-algebra, wikidata: Q291562, node: W488TWJN5P}
+  - {name: Kirchberg–Phillips classification theorem, kind: statement, wikipedia: Cuntz algebra, wikidata: Q1144125, node: XF19H09NC9}
+  - {name: KK-theory, kind: concept, wikipedia: KK-theory, wikidata: Q6331703, node: 1W9Q7W378J}
+  - {name: Kasparov product, kind: definition, wikipedia: KK-theory, wikidata: Q6331703, node: 57D1AGY7DJ}
+  - {name: E-theory, kind: concept, wikipedia: KK-theory, wikidata: Q6331703, node: Y989RVQ66M}
+  - {name: K-homology, kind: definition, wikipedia: K-homology, wikidata: Q6322838, node: 41XX3KF72X}
+  - {name: Fredholm module, kind: definition, wikipedia: Fredholm module, wikidata: Q5499350, node: Y30V3RBNGV}
+  - {name: Baum–Connes conjecture, kind: conjecture, wikipedia: Baum–Connes conjecture, wikidata: Q2993305, node: 14CB5N0FPW}
+  - {name: coarse Baum–Connes conjecture, kind: conjecture, wikipedia: Baum–Connes conjecture, wikidata: Q2993305, node: JZHXWBVP9S}
+  - {name: Chern–Connes character, kind: definition, wikipedia: Noncommutative geometry, wikidata: Q2746792, node: MM8TS81BAX}
+  - {name: Kadison–Kaplansky conjecture, kind: conjecture, wikipedia: Kaplansky's conjectures, wikidata: Q6366842, node: SNQVJYWYMB}
   # Topological K-theory
   - {name: vector bundle, kind: definition, decl: VectorBundle, wikipedia: Vector bundle, wikidata: Q658429, mathlib: [mathlib-overview], node: P4DZM975BV}
-  - {name: complex K-theory KU, kind: definition, wikipedia: Topological K-theory, wikidata: Q2111307}
-  - {name: real K-theory KO, kind: definition, wikipedia: Topological K-theory, wikidata: Q2111307}
-  - {name: KR-theory, kind: definition, wikipedia: KR-theory, wikidata: Q6336464}
-  - {name: reduced K-theory of a space, kind: definition, wikipedia: Topological K-theory, wikidata: Q2111307}
-  - {name: clutching construction, kind: definition, wikipedia: Clutching construction, wikidata: Q5136742}
-  - {name: Bott periodicity theorem, kind: statement, wikipedia: Bott periodicity theorem, wikidata: Q4948983}
-  - {name: K-theory of spheres, kind: example, wikipedia: Topological K-theory, wikidata: Q2111307}
-  - {name: K-theory as a generalized cohomology theory, kind: concept, wikipedia: Cohomology, wikidata: Q1198376}
-  - {name: Thom isomorphism in K-theory, kind: statement, wikipedia: Thom space, wikidata: Q2421733}
-  - {name: K-orientation, kind: definition, wikipedia: Spin structure, wikidata: Q7577418}
-  - {name: Atiyah–Bott–Shapiro construction, kind: statement, wikipedia: Clifford module, wikidata: Q7879936}
-  - {name: Atiyah–Hirzebruch spectral sequence, kind: statement, wikipedia: Atiyah–Hirzebruch spectral sequence, wikidata: Q17004665}
-  - {name: Chern character isomorphism, kind: statement, wikipedia: Chern class, wikidata: Q1069818}
-  - {name: Atiyah–Jänich theorem, kind: statement, wikipedia: Fredholm operator, wikidata: Q573631}
-  - {name: Kuiper's theorem, kind: statement, wikipedia: Kuiper's theorem, wikidata: Q6442276}
-  - {name: equivariant K-theory, kind: definition, wikipedia: Topological K-theory, wikidata: Q2111307}
-  - {name: Atiyah–Segal completion theorem, kind: statement, wikipedia: Atiyah–Segal completion theorem, wikidata: Q4815879}
-  - {name: twisted K-theory, kind: definition, wikipedia: Twisted K-theory, wikidata: Q3811882}
-  - {name: Adams conjecture, kind: statement, wikipedia: J-homomorphism, wikidata: Q6103838}
-  - {name: Atiyah–Singer index theorem, kind: statement, wikipedia: Atiyah–Singer index theorem, wikidata: Q755991}
-  - {name: families index theorem, kind: statement, wikipedia: Atiyah–Singer index theorem, wikidata: Q755991}
-  - {name: Novikov conjecture, kind: conjecture, wikipedia: Novikov conjecture, wikidata: Q7064908}
-  - {name: Morava K-theory, kind: definition, wikipedia: Morava K-theory, wikidata: Q6909307}
+  - {name: complex K-theory KU, kind: definition, wikipedia: Topological K-theory, wikidata: Q2111307, node: 9E4JE4902G}
+  - {name: real K-theory KO, kind: definition, wikipedia: Topological K-theory, wikidata: Q2111307, node: P7MN6MQV7P}
+  - {name: KR-theory, kind: definition, wikipedia: KR-theory, wikidata: Q6336464, node: 1C2K6BSHPK}
+  - {name: reduced K-theory of a space, kind: definition, wikipedia: Topological K-theory, wikidata: Q2111307, node: RASZAXBHX0}
+  - {name: clutching construction, kind: definition, wikipedia: Clutching construction, wikidata: Q5136742, node: 3M42BWTNQH}
+  - {name: Bott periodicity theorem, kind: statement, wikipedia: Bott periodicity theorem, wikidata: Q4948983, node: WN2DCBSX1C}
+  - {name: K-theory of spheres, kind: example, wikipedia: Topological K-theory, wikidata: Q2111307, node: 4NH8D0BDX0}
+  - {name: K-theory as a generalized cohomology theory, kind: concept, wikipedia: Cohomology, wikidata: Q1198376, node: 677EDH782C}
+  - {name: Thom isomorphism in K-theory, kind: statement, wikipedia: Thom space, wikidata: Q2421733, node: JBX99NRRB6}
+  - {name: K-orientation, kind: definition, wikipedia: Spin structure, wikidata: Q7577418, node: HD9ZST2640}
+  - {name: Atiyah–Bott–Shapiro construction, kind: statement, wikipedia: Clifford module, wikidata: Q7879936, node: N963WB4X84}
+  - {name: Atiyah–Hirzebruch spectral sequence, kind: statement, wikipedia: Atiyah–Hirzebruch spectral sequence, wikidata: Q17004665, node: Z74J6D5B0J}
+  - {name: Chern character isomorphism, kind: statement, wikipedia: Chern class, wikidata: Q1069818, node: W3S2GR58Y7}
+  - {name: Atiyah–Jänich theorem, kind: statement, wikipedia: Fredholm operator, wikidata: Q573631, node: H353HJA3E5}
+  - {name: Kuiper's theorem, kind: statement, wikipedia: Kuiper's theorem, wikidata: Q6442276, node: 9SJ4SC9FQX}
+  - {name: equivariant K-theory, kind: definition, wikipedia: Topological K-theory, wikidata: Q2111307, node: 4R0ZJ95BKQ}
+  - {name: Atiyah–Segal completion theorem, kind: statement, wikipedia: Atiyah–Segal completion theorem, wikidata: Q4815879, node: QKS024G8HQ}
+  - {name: twisted K-theory, kind: definition, wikipedia: Twisted K-theory, wikidata: Q3811882, node: RXSNBNQGTB}
+  - {name: Adams conjecture, kind: statement, wikipedia: J-homomorphism, wikidata: Q6103838, node: X12WG9TPQ0}
+  - {name: Atiyah–Singer index theorem, kind: statement, wikipedia: Atiyah–Singer index theorem, wikidata: Q755991, node: QK2ECEQYA5}
+  - {name: families index theorem, kind: statement, wikipedia: Atiyah–Singer index theorem, wikidata: Q755991, node: DHR34DAPNQ}
+  - {name: Novikov conjecture, kind: conjecture, wikipedia: Novikov conjecture, wikidata: Q7064908, node: KEF3ZDF0QH}
+  - {name: Morava K-theory, kind: definition, wikipedia: Morava K-theory, wikidata: Q6909307, node: 276A3N57KC}

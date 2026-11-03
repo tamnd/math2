@@ -13,11 +13,11 @@ sources:
 ## Statement
 
 Let $M = \R^d$.
-Let $T_{\mathrm{poly}}$ be the differential graded Lie algebra of polyvector fields on $M$, with zero differential and the [[Schouten–Nijenhuis bracket|FJ1MDBZ680]].
+Let $T_{\mathrm{poly}}$ be the [[differential graded Lie algebra|D5XH66A8RP]] of polyvector fields on $M$, with zero differential and the [[Schouten–Nijenhuis bracket|FJ1MDBZ680]].
 Let $D_{\mathrm{poly}}$ be the differential graded Lie algebra of polydifferential operators on $M$, with the Hochschild differential and the Gerstenhaber bracket.
 Both carry the grading in which $k$-vector fields, and polydifferential operators with $k$ arguments, have degree $k - 1$.
 
-1. There is an $L_\infty$ quasi-isomorphism $T_{\mathrm{poly}} \to D_{\mathrm{poly}}$ whose first component is the Hochschild–Kostant–Rosenberg map.
+1. There is an [[$L_\infty$|572DS8WXEH]] quasi-isomorphism $T_{\mathrm{poly}} \to D_{\mathrm{poly}}$ whose first component is the Hochschild–Kostant–Rosenberg map.
 2. As a consequence, every [[Poisson manifold|A2KQ49Y4NF]] structure on $M$ admits a [[star product|3MKSJ1J04K]].
 Moreover, equivalence classes of star products on $M$ correspond bijectively to classes of formal Poisson structures $\hbar \pi_1 + \hbar^2 \pi_2 + \cdots$ under formal diffeomorphisms.
 

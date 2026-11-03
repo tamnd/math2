@@ -13,7 +13,7 @@ sources:
 A left-invariant vector field on a [[Lie group|7JBRGCVJRB]] is a [[vector field|0299VCW1TH]] that is unchanged by every left translation.
 Such a field is fixed by its value at the identity, so left-invariant vector fields correspond to tangent vectors at the identity.
 They are closed under the [[Lie bracket of vector fields|68FGQEBD6J]].
-This makes the tangent space at the identity a Lie algebra, the Lie algebra of the group.
+This makes the tangent space at the identity a [[Lie algebra|5JJYBJ6A8K]], the Lie algebra of the group.
 
 ## Explanations
 

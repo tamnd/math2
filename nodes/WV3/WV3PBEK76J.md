@@ -28,4 +28,4 @@ The product $\Z / 2\Z \times \Z / 2\Z$ is finite but not cyclic, since each of i
 
 For each variety $W$, the finite members of $W$ form a pseudovariety, but not every pseudovariety arises this way.
 A standard pseudovariety of semigroups is the class of finite aperiodic semigroups, those with only trivial subgroups.
-By Eilenberg's variety theorem, pseudovarieties of finite monoids correspond to varieties of regular languages; aperiodic monoids correspond to star-free languages by Schützenberger's theorem.
+By Eilenberg's variety theorem, pseudovarieties of finite monoids correspond to varieties of regular languages; aperiodic monoids correspond to star-free languages by [[Schützenberger's theorem|YSXPVN8G0D]].

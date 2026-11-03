@@ -11,7 +11,7 @@ sources:
 
 The cohomology of a [[Lie group|7JBRGCVJRB]] $G$ is the [[singular cohomology|6N7BC70CX0]] of its underlying manifold, with the extra structure given by the group multiplication.
 The multiplication makes it a Hopf algebra, which strongly restricts its form.
-For a compact connected group, real cohomology can be computed from invariant differential forms, that is, from the cohomology of the Lie algebra.
+For a compact connected group, real cohomology can be computed from invariant differential forms, that is, from the [[cohomology of the Lie algebra|69NARSMQCM]].
 This turns a topological question into a question of linear algebra.
 
 ## Explanations

@@ -17,7 +17,7 @@ The group $G$ is a *nilpotent Lie group* if $C^{k} G = \set{e}$ for some $k \ge 
 
 ## Remarks
 
-A connected Lie group is nilpotent if and only if its Lie algebra $\mathfrak{g}$ is a nilpotent Lie algebra, that is, the series $\mathfrak{g} \supseteq [\mathfrak{g}, \mathfrak{g}] \supseteq [\mathfrak{g}, [\mathfrak{g}, \mathfrak{g}]] \supseteq \cdots$ reaches $0$.
+A connected Lie group is nilpotent if and only if its [[Lie algebra|WKVBS76432]] $\mathfrak{g}$ is a [[nilpotent Lie algebra|MEJ9PGMJ9H]], that is, the series $\mathfrak{g} \supseteq [\mathfrak{g}, \mathfrak{g}] \supseteq [\mathfrak{g}, [\mathfrak{g}, \mathfrak{g}]] \supseteq \cdots$ reaches $0$.
 
 Example: the group $N$ of real upper triangular $3 \times 3$ matrices with $1$ on the diagonal.
 Writing $[a, b, c]$ for the matrix with entries $a$, $b$ above the diagonal and $c$ in the corner, a direct computation shows that the commutator of $[a, b, c]$ and $[a', b', c']$ is $[0, 0, ab' - a'b]$.

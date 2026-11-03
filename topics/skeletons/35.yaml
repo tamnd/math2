@@ -233,7 +233,7 @@ items:
   - {name: symbol class, kind: definition, wikipedia: Differential operator, wikidata: Q1058681, node: AM4RNWVV4Q}
   - {name: Fourier integral operator, kind: definition, wikipedia: Fourier integral operator, wikidata: Q4262191, node: EVS4JPEE45}
   - {name: microlocal analysis, kind: concept, wikipedia: Microlocal analysis, wikidata: Q430450, node: 5B6WEQX7XK}
-  - {name: Atiyah–Singer index theorem, kind: statement, wikipedia: Atiyah–Singer index theorem, wikidata: Q755991}
+  - {name: Atiyah–Singer index theorem, kind: statement, wikipedia: Atiyah–Singer index theorem, wikidata: Q755991, node: QK2ECEQYA5}
   - {name: Calderón projector, kind: definition, wikipedia: Calderón projector, wikidata: Q25304637, node: K4XSSPWHCP}
   - {name: Dirichlet-to-Neumann operator, kind: definition, wikipedia: Poincaré–Steklov operator, wikidata: Q17099589, node: W783KDGT8E}
   - {name: Calderón problem, kind: problem, wikipedia: Electrical impedance tomography, wikidata: Q1326472, node: R8Y8DDTWBM}

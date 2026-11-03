@@ -123,7 +123,7 @@ items:
   - {name: Kronecker's theorem, kind: statement, wikipedia: Kronecker's theorem, wikidata: Q848810, node: HVT4QVHRTF}
   # Lie groups: basic notions
   - {name: Lie group, kind: definition, decl: LieGroup, wikipedia: Lie group, wikidata: Q622679, mathlib: [mathlib-overview], node: 7JBRGCVJRB}
-  - {name: Lie algebra of a Lie group, kind: definition, decl: GroupLieAlgebra, wikipedia: Lie group–Lie algebra correspondence, wikidata: Q18353697, mathlib: [mathlib-overview]}
+  - {name: Lie algebra of a Lie group, kind: definition, decl: GroupLieAlgebra, wikipedia: Lie group–Lie algebra correspondence, wikidata: Q18353697, mathlib: [mathlib-overview], node: WKVBS76432}
   - {name: left-invariant vector field, kind: definition, wikipedia: Lie group, wikidata: Q622679, node: SNA3DVPK0C}
   - {name: exponential map of a Lie group, kind: definition, wikipedia: Exponential map (Lie theory), wikidata: Q19810382, node: H3QX1ZFC8K}
   - {name: one-parameter subgroup, kind: definition, wikipedia: One-parameter group, wikidata: Q1308481, node: YHA64AP1HN}
@@ -197,7 +197,7 @@ items:
   - {name: Malcev completion, kind: concept, wikipedia: Nilmanifold, wikidata: Q4321368, node: V9GRK3QANS}
   - {name: cohomology of Lie groups, kind: concept, wikipedia: Lie algebra cohomology, wikidata: Q6543809, node: HKZABKRPN6}
   - {name: Hopf's theorem on cohomology of compact Lie groups, kind: statement, wikipedia: Hopf algebra, wikidata: Q1627597, node: DRY1HXP1W9}
-  - {name: Bott periodicity theorem, kind: statement, wikipedia: Bott periodicity theorem, wikidata: Q4948983}
+  - {name: Bott periodicity theorem, kind: statement, wikipedia: Bott periodicity theorem, wikidata: Q4948983, node: WN2DCBSX1C}
   # Representation theory of Lie groups
   - {name: representation of a Lie group, kind: definition, wikipedia: Representation of a Lie group, wikidata: Q763735, node: 7JA7WH92K0}
   - {name: representation theory of SU(2), kind: example, wikipedia: Representation theory of SU(2), wikidata: Q7314224, node: 9V6PRD1Z90}

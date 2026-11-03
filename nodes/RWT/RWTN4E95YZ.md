@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-A *noncommutative space* is a C*-algebra $A$, possibly not commutative, often with extra structure such as a dense $*$-subalgebra or a spectral triple.
+A *noncommutative space* is a [[C*-algebra|M2WFY1D3SZ]] $A$, possibly not commutative, often with extra structure such as a dense $*$-subalgebra or a spectral triple.
 *Noncommutative geometry* is the study of such algebras with the methods of topology and geometry, through the following dictionary.
 
 1. A locally compact Hausdorff space $X$ corresponds to the commutative C*-algebra $C_0(X)$ of continuous complex functions on $X$ that vanish at infinity.
@@ -23,7 +23,7 @@ A *noncommutative space* is a C*-algebra $A$, possibly not commutative, often wi
 Example: the space $X$ is compact if and only if $C_0(X)$ has a unit.
 So a unital C*-algebra is read as a "compact noncommutative space".
 Another example: vector bundles over a compact space $X$ correspond to finitely generated projective $C(X)$-modules.
-So these modules play the role of vector bundles for any unital C*-algebra, and this leads to operator K-theory.
+So these modules play the role of vector bundles for any unital C*-algebra, and this leads to [[operator K-theory|DQZ8S67ZE6]].
 
 Non-example: the notion "a point of the space" does not carry over.
 A point $x$ of $X$ gives the character $f \mapsto f(x)$ of $C_0(X)$, that is, a nonzero multiplicative linear functional.

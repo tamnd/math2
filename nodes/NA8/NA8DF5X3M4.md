@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-A positive element of a C*-algebra is a self-adjoint element whose [[spectrum|EH0CZ19RKP]] lies in $[0, \infty)$.
+A positive element of a [[C*-algebra|M2WFY1D3SZ]] is a self-adjoint element whose [[spectrum|EH0CZ19RKP]] lies in $[0, \infty)$.
 Equivalently, it has the form $b^* b$.
 Positive elements generalize nonnegative functions and [[positive semidefinite matrices|01MMVW8CKC]], and they define the order $a \le b$ on self-adjoint elements.
 They are the basis of the notions of [[states|F7MB2WREBJ]] and [[completely positive maps|CGY299QMC3]].

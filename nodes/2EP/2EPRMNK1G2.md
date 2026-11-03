@@ -29,7 +29,7 @@ Each $\tilde{G}$ is compact, connected and simply connected, and its centre is f
 
 Here $SU(n+1)$ is the [[special unitary group|CZCWFPNS4N]], $\mathrm{Spin}(m)$ is the [[spin group|JJSXXJQGEH]], and $\mathrm{Sp}(n)$ is the [[compact symplectic group|5NNPBFQA02]].
 The groups [[G2|YX5FFSCR8P]] and [[E8|MKT1263M0A]] are the smallest and the largest exceptional groups.
-The type is the type of the Dynkin diagram of the Lie algebra, and $n$ is the rank.
+The type is the type of the [[Dynkin diagram|CS73JZQS66]] of the Lie algebra, and $n$ is the rank.
 Check of one row: $SU(n+1)$ has Lie algebra of trace-zero skew-Hermitian $(n+1) \times (n+1)$ matrices, of dimension $(n+1)^2 - 1 = n(n+2)$.
 
 ## Remarks

@@ -9,7 +9,7 @@ sources:
 
 ## Summary
 
-The group C*-algebra $C^*(G)$ of a [[locally compact group|AHV05ZBCYW]] $G$ is a completion of the [[group algebra|6GD25S53ND]] $L^1(G)$.
+The group [[C*-algebra|M2WFY1D3SZ]] $C^*(G)$ of a [[locally compact group|AHV05ZBCYW]] $G$ is a completion of the [[group algebra|6GD25S53ND]] $L^1(G)$.
 It uses the largest norm coming from [[unitary representations|74BPYJNZTM]] of $G$.
 It is a C*-algebra whose nondegenerate representations correspond exactly to the unitary representations of $G$.
 The reduced group C*-algebra $C^*_r(G)$ uses the left regular representation alone.

@@ -15,9 +15,9 @@ sources:
 Let $G$ be a connected [[compact Lie group|9TFC6ADC1C]], and let $T$ be a [[maximal torus|3JVGZVVTB0]] with Lie algebra $\mathfrak{t}$.
 Let $W$ be the [[Weyl group|EZGTEK3HQN]], acting on the dual space $\mathfrak{t}^*$.
 Identify each continuous character of $T$ with the linear form $\mu \in \mathfrak{t}^*$ such that the character sends $\exp H$ to $e^{i\mu(H)}$ for $H \in \mathfrak{t}$.
-Let $\Phi \subset \mathfrak{t}^*$ be the roots of $G$, choose a set $\Phi^+$ of positive roots, and let $\rho = \frac{1}{2}\sum_{\alpha \in \Phi^+} \alpha$.
+Let $\Phi \subset \mathfrak{t}^*$ be the [[roots|AVVV93CASN]] of $G$, choose a set $\Phi^+$ of positive roots, and let $\rho = \frac{1}{2}\sum_{\alpha \in \Phi^+} \alpha$.
 For $w \in W$ let $\varepsilon(w) = \det(w) \in \set{1, -1}$.
-Let $V$ be a finite-dimensional [[irreducible|FX3NEFYFFN]] continuous representation of $G$ with highest weight $\lambda$, and let $\chi_V$ be its [[character|RMWMYBY8TC]].
+Let $V$ be a finite-dimensional [[irreducible|FX3NEFYFFN]] continuous representation of $G$ with [[highest weight|C5W8BE1DRY]] $\lambda$, and let $\chi_V$ be its [[character|RMWMYBY8TC]].
 Then for every $H \in \mathfrak{t}$ with $\prod_{\alpha \in \Phi^+} \sin(\alpha(H)/2) \ne 0$,
 $$\chi_V(\exp H) = \frac{\sum_{w \in W} \varepsilon(w)\, e^{i (w(\lambda + \rho))(H)}}{\sum_{w \in W} \varepsilon(w)\, e^{i (w\rho)(H)}}.$$
 

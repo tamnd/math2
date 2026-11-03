@@ -22,7 +22,7 @@ Reading a binary word moves the state according to the parity of the number of l
 Under this translation, a homomorphism of unary algebras is a map of states that commutes with every transition.
 A subalgebra is a set of states closed under all transitions.
 A congruence is an equivalence of states compatible with all transitions.
-A deterministic finite automaton is a finite semiautomaton with a start state and a set of accepting states added.
+A [[deterministic finite automaton|W65B6BKZRY]] is a finite semiautomaton with a start state and a set of accepting states added.
 
 ## Explanations
 

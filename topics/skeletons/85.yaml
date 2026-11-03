@@ -23,7 +23,7 @@ items:
   - {name: sunrise equation, kind: statement, wikipedia: Sunrise equation, wikidata: Q492486}
   - {name: Julian day, kind: definition, wikipedia: Julian day, wikidata: Q14267}
   - {name: axial precession, kind: concept, wikipedia: Axial precession, wikidata: Q83094}
-  - {name: nutation, kind: concept, wikipedia: Astronomical nutation, wikidata: Q190009}
+  - {name: nutation, kind: concept, wikipedia: Astronomical nutation, wikidata: Q190009, node: QP24MG6QFS}
   - {name: aberration of light, kind: statement, wikipedia: Aberration (astronomy), wikidata: Q211728}
   - {name: stellar parallax, kind: definition, wikipedia: Stellar parallax, wikidata: Q906561}
   - {name: proper motion, kind: definition, wikipedia: Proper motion, wikidata: Q193223}

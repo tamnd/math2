@@ -11,8 +11,8 @@ sources:
 
 A nonassociative ring is an abelian group with a multiplication that distributes over addition on both sides, without the requirement that it be associative.
 "Nonassociative" means "not necessarily associative", so associative rings are a special case.
-Lie algebras, [[Jordan algebras|6C2MCVB8C7]] and the [[octonions|1HRMT3DSX2]] are the main examples where associativity fails.
-A nonassociative algebra over a field is the same notion with a compatible vector space structure.
+[[Lie algebras|5JJYBJ6A8K]], [[Jordan algebras|6C2MCVB8C7]] and the [[octonions|1HRMT3DSX2]] are the main examples where associativity fails.
+A [[nonassociative algebra|60W3THKGA7]] over a field is the same notion with a compatible vector space structure.
 
 ## Explanations
 

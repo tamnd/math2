@@ -10,7 +10,7 @@ sources:
 
 ## Definition
 
-Let $A$ be a unital C*-algebra with unit $1$ and involution $a \mapsto a^*$.
+Let $A$ be a unital [[C*-algebra|M2WFY1D3SZ]] with unit $1$ and involution $a \mapsto a^*$.
 An *operator system* in $A$ is a linear subspace $S \subseteq A$ such that:
 
 1. $1 \in S$;

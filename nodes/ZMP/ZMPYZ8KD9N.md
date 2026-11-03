@@ -22,7 +22,7 @@ Its automorphism group is the [[Monster group|C9VY20TAPT]], the largest [[sporad
 Robert Griess built this algebra to construct the Monster group, which acts on it by algebra automorphisms.
 As a representation of the Monster, $B$ splits as a trivial summand of dimension $1$ and an irreducible summand of dimension $196883$.
 The number $196884$ is also the coefficient of $q$ in the expansion of the $j$-function, a coincidence that is part of [[monstrous moonshine|E0Y7Y75T6C]].
-In the moonshine module of Frenkel, Lepowsky and Meurman, a vertex operator algebra, the Griess algebra appears as the weight $2$ subspace.
+In the moonshine module of Frenkel, Lepowsky and Meurman, a [[vertex operator algebra|GHRPQAJY43]], the Griess algebra appears as the weight $2$ subspace.
 
 ## Explanations
 

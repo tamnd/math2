@@ -15,7 +15,7 @@ same_as:
 Meshfree methods solve differential equations using only a cloud of nodes, with no mesh that connects them into elements.
 Each node carries a shape function built from the positions of nearby nodes, for example by [[moving least squares|T0JZN6WP5X]] or by [[radial basis functions|ZBSXSTQM2J]].
 This avoids the cost of [[mesh generation|RTSAFF4KFJ]] and handles large deformations, fragmentation and moving boundaries with ease.
-Examples include smoothed-particle hydrodynamics, the element-free Galerkin method and radial basis function collocation.
+Examples include [[smoothed-particle hydrodynamics|S9DG3SNXCV]], the element-free Galerkin method and radial basis function collocation.
 See the [[definition|30GF7TK8YP]].
 
 ## Explanations

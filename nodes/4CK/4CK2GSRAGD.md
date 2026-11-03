@@ -16,7 +16,7 @@ same_as:
 A reproducing kernel Hilbert space is a [[Hilbert space|HM2HHE3J51]] of functions on a set $X$.
 In it, evaluation at each point is a continuous linear functional.
 By the [[Riesz representation theorem|TTC40N49M6]], evaluation at $x$ is the inner product with a function $k_x$, and $K(x, y) = k_y(x)$ is the reproducing kernel.
-The kernel is a positive-definite kernel, and by the Moore–Aronszajn theorem each positive-definite kernel comes from exactly one such space.
+The kernel is a [[positive-definite kernel|SCMS389SBG]], and by the Moore–Aronszajn theorem each positive-definite kernel comes from exactly one such space.
 These spaces appear in complex analysis, as Hardy and Bergman spaces, and in statistics and machine learning, through kernel methods.
 
 ## Explanations

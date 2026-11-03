@@ -21,7 +21,7 @@ Its involution is $\pi(T)^* = \pi(T^*)$, where $\pi \colon B(H) \to Q(H)$ is the
 
 ## Remarks
 
-Since $K(H)$ is a closed two-sided ideal of $B(H)$ that is closed under adjoints, $Q(H)$ is a unital C*-algebra.
+Since $K(H)$ is a closed two-sided ideal of $B(H)$ that is closed under adjoints, $Q(H)$ is a unital [[C*-algebra|M2WFY1D3SZ]].
 Calkin showed that for separable $H$, $K(H)$ is the only closed two-sided ideal of $B(H)$ other than $\set{0}$ and $B(H)$, so $Q(H)$ is a simple C*-algebra.
 An operator $T \in B(H)$ is Fredholm exactly when $\pi(T)$ is invertible in $Q(H)$.
 The spectrum of $\pi(T)$ in $Q(H)$ is the essential spectrum of $T$.

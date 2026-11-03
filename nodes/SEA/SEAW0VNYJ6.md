@@ -11,12 +11,12 @@ sources:
 
 ## Definition
 
-Let $\mathfrak{g}$ be a complex semisimple Lie algebra.
+Let $\mathfrak{g}$ be a complex [[semisimple Lie algebra|EY9DN7QAX1]].
 *Weyl's unitary trick* is the method of studying the finite-dimensional complex representations of $\mathfrak{g}$ through the following steps:
 
 1. choose a compact real form $\mathfrak{k}$ of $\mathfrak{g}$, that is, a real Lie subalgebra with $\mathfrak{g} = \mathfrak{k} \oplus i\mathfrak{k}$ whose Killing form is negative definite;
 2. restrict from $\mathfrak{g}$ to $\mathfrak{k}$, a bijection from complex representations of $\mathfrak{g}$ to representations of $\mathfrak{k}$ on complex spaces that keeps invariant subspaces;
-3. pass to the simply connected Lie group $K$ with Lie algebra $\mathfrak{k}$, a [[compact Lie group|9TFC6ADC1C]] to whose [[representations|WYGRXCG2RN]] those of $\mathfrak{k}$ integrate;
+3. pass to the simply connected Lie group $K$ with [[Lie algebra|WKVBS76432]] $\mathfrak{k}$, a [[compact Lie group|9TFC6ADC1C]] to whose [[representations|WYGRXCG2RN]] those of $\mathfrak{k}$ integrate;
 4. prove the desired property for representations of the compact group $K$, for example by averaging over its Haar measure, and transfer it back to $\mathfrak{g}$.
 
 ## Remarks

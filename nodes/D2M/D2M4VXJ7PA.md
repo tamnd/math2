@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-A nuclear C\*-algebra is a C*-algebra whose algebraic tensor product with any other C\*-algebra has only one C\*-norm.
+A nuclear C\*-algebra is a [[C*-algebra|M2WFY1D3SZ]] whose algebraic tensor product with any other C\*-algebra has only one C\*-norm.
 Equivalently, the identity map of the algebra can be approximated by [[completely positive maps|CGY299QMC3]] that factor through matrix algebras.
 Nuclearity is a finiteness or amenability property: for C\*-algebras it is equivalent to amenability as a Banach algebra.
 It is a standing hypothesis in the classification program for simple C\*-algebras.

@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $A$ be a unital C*-algebra and let $\rho$ be a [[state|F7MB2WREBJ]] on $A$, a positive linear functional with $\rho(1) = 1$.
+Let $A$ be a unital [[C*-algebra|M2WFY1D3SZ]] and let $\rho$ be a [[state|F7MB2WREBJ]] on $A$, a positive linear functional with $\rho(1) = 1$.
 The *GNS construction* for $\rho$ is the triple $(H_\rho, \pi_\rho, \xi_\rho)$ defined as follows.
 
 1. The set $N_\rho = \set{a \in A : \rho(a^*a) = 0}$ is a closed left ideal of $A$, and $\ip{a + N_\rho}{b + N_\rho} = \rho(b^*a)$ is an inner product on $A/N_\rho$.

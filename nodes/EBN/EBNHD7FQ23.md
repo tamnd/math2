@@ -19,7 +19,7 @@ uses: [0874138YP6, 07TXYYVYZR]
 
 A repair radius measures how far a colouring of a graph $G$ with a given profile of class sizes can be from a proper one.
 
-The radius $R_G(m)$ is the largest Hamming [[distance from a point to a set|07TXYYVYZR]], over colourings with profile $m$, to the set of [[proper colourings|0874138YP6]] with profile $m$.
+Take the Hamming [[distance from a point to a set|07TXYYVYZR]] of a colouring with profile $m$ to the set of [[proper colourings|0874138YP6]] with profile $m$. The radius $R_G(m)$ is the largest such distance.
 
 The weak radius $R^w_G(m)$ lets the nearest proper colouring have any profile.
 

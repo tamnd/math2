@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-A state on a C*-algebra is a positive linear functional of norm $1$.
+A state on a [[C*-algebra|M2WFY1D3SZ]] is a positive linear functional of norm $1$.
 On a unital C\*-algebra this means a linear functional that takes nonnegative values on [[positive elements|NA8DF5X3M4]] and the value $1$ at the unit.
 States play the role of probability measures.
 For a compact Hausdorff space $X$, the states on $C(X)$ are the integrals against regular Borel probability measures on $X$.

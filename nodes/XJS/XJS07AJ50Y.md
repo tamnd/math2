@@ -10,7 +10,7 @@ sources:
 
 ## Summary
 
-A semisimple Lie group is a connected [[Lie group|7JBRGCVJRB]] whose Lie algebra is a semisimple Lie algebra, that is, has no nonzero solvable ideals.
+A semisimple Lie group is a connected [[Lie group|7JBRGCVJRB]] whose Lie algebra is a [[semisimple Lie algebra|EY9DN7QAX1]], that is, has no nonzero solvable ideals.
 Equivalently, its Lie algebra is a direct sum of simple Lie algebras.
 So, up to a covering and a central quotient, the group is a product of simple Lie groups.
 Semisimple Lie groups have a rich structure theory, with Cartan, Iwasawa and Bruhat decompositions, and a deep representation theory.

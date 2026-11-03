@@ -15,9 +15,9 @@ same_as:
 
 ## Statement
 
-Let $G$ and $H$ be real [[Lie groups|7JBRGCVJRB]] with Lie algebras $\mathfrak{g}$ and $\mathfrak{h}$, and [[exponential maps|H3QX1ZFC8K]] $\exp$.
+Let $G$ and $H$ be real [[Lie groups|7JBRGCVJRB]] with [[Lie algebras|5JJYBJ6A8K]] $\mathfrak{g}$ and $\mathfrak{h}$, and [[exponential maps|H3QX1ZFC8K]] $\exp$.
 
-1. For every Lie group homomorphism $\varphi \colon G \to H$, the differential $d\varphi_e \colon \mathfrak{g} \to \mathfrak{h}$ is a Lie algebra homomorphism, and $\varphi(\exp X) = \exp(d\varphi_e X)$ for all $X \in \mathfrak{g}$.
+1. For every Lie group homomorphism $\varphi \colon G \to H$, the differential $d\varphi_e \colon \mathfrak{g} \to \mathfrak{h}$ is a [[Lie algebra homomorphism|H5D71JE8TA]], and $\varphi(\exp X) = \exp(d\varphi_e X)$ for all $X \in \mathfrak{g}$.
 2. If $G$ is connected, a Lie group homomorphism $\varphi \colon G \to H$ is determined by $d\varphi_e$.
 3. If $G$ is connected and simply connected, each Lie algebra homomorphism $\psi \colon \mathfrak{g} \to \mathfrak{h}$ is $d\varphi_e$ for a unique homomorphism $\varphi \colon G \to H$.
 4. The map $K \mapsto \operatorname{Lie}(K)$ is a bijection from the connected [[Lie subgroups|NM8XCPS1Q3]] $K$ of $G$ onto the Lie subalgebras of $\mathfrak{g}$.

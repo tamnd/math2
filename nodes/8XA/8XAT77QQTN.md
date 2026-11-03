@@ -27,4 +27,4 @@ For $G = S^1$ the continuous cohomology with coefficients in $\R$ vanishes in po
 
 For $k = \R$, the de Rham theorem identifies $H^*(G; \R)$ with the [[de Rham cohomology|GX74C07T0G]] of $G$.
 If $G$ is compact and connected, averaging over $G$ shows that each class has a left- and right-invariant representative.
-This gives an isomorphism $H^*(G; \R) \cong H^*(\mathfrak{g}; \R)$ with the Lie algebra cohomology of the Lie algebra $\mathfrak{g}$.
+This gives an isomorphism $H^*(G; \R) \cong H^*(\mathfrak{g}; \R)$ with the [[Lie algebra cohomology|69NARSMQCM]] of the Lie algebra $\mathfrak{g}$.

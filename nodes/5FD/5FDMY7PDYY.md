@@ -15,7 +15,7 @@ same_as:
 The Grothendieck group of a commutative [[monoid|0N6R902FG1]] is the [[abelian group|082GHNPJ53]] obtained by adding formal differences, in the universal way.
 It turns the natural numbers into the integers.
 Applied to isomorphism classes of finitely generated [[projective modules|BFFA03GE3V]] under direct sum, it gives the group $K_0$ of a ring, the start of [[algebraic K-theory|5GVFZWMWC8]].
-The same idea applies to vector bundles and to abelian categories.
+The same idea applies to vector bundles and to [[abelian categories|2H7Y1XC93S]].
 
 ## Explanations
 

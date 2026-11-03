@@ -63,9 +63,9 @@ items:
   - {name: tidal acceleration, kind: concept, wikipedia: Tidal acceleration, wikidata: Q2477230}
   # Seismology: waves and rays
   - {name: seismology, kind: concept, wikipedia: Seismology, wikidata: Q83371}
-  - {name: P wave, kind: definition, wikipedia: P wave, wikidata: Q1208908}
-  - {name: S wave, kind: definition, wikipedia: S wave, wikidata: Q2053186}
-  - {name: Stoneley wave, kind: definition, wikipedia: Stoneley wave, wikidata: Q7619265}
+  - {name: P wave, kind: definition, wikipedia: P wave, wikidata: Q1208908, node: EEPJJHC5JZ}
+  - {name: S wave, kind: definition, wikipedia: S wave, wikidata: Q2053186, node: GZ7E9GHQYB}
+  - {name: Stoneley wave, kind: definition, wikipedia: Stoneley wave, wikidata: Q7619265, node: 833VFEDN1F}
   - {name: seismic ray theory, kind: concept, wikipedia: Seismic wave, wikidata: Q186167}
   - {name: Snell's law for seismic rays, kind: statement, wikipedia: Snell's law, wikidata: Q208391}
   - {name: ray parameter, kind: definition, wikipedia: Seismic wave, wikidata: Q186167}
@@ -73,7 +73,7 @@ items:
   - {name: travel-time curve, kind: concept, wikipedia: Seismic wave, wikidata: Q186167}
   - {name: Zoeppritz equations, kind: definition, wikipedia: Zoeppritz equations, wikidata: Q8073330}
   - {name: amplitude versus offset, kind: concept, wikipedia: Amplitude versus offset, wikidata: Q4748519}
-  - {name: Cagniard–de Hoop method, kind: concept, wikipedia: Cagniard–De Hoop method, wikidata: Q5017373}
+  - {name: Cagniard–de Hoop method, kind: concept, wikipedia: Cagniard–De Hoop method, wikidata: Q5017373, node: 8Q52HFZEP1}
   - {name: seismic anisotropy, kind: concept, wikipedia: Seismic anisotropy, wikidata: Q17105691}
   - {name: shear wave splitting, kind: concept, wikipedia: Shear wave splitting, wikidata: Q7492182}
   - {name: dispersion of surface waves, kind: concept, wikipedia: Surface wave, wikidata: Q889796}
@@ -178,7 +178,7 @@ items:
   - {name: Munk's wind-driven circulation model, kind: concept, wikipedia: Ocean gyre, wikidata: Q1250263}
   - {name: Stommel box model of thermohaline circulation, kind: concept, wikipedia: Thermohaline circulation, wikidata: Q463223}
   - {name: equation of state of seawater, kind: definition, wikipedia: TEOS-10, wikidata: Q107040817}
-  - {name: Stokes drift, kind: concept, wikipedia: Stokes drift, wikidata: Q961596}
+  - {name: Stokes drift, kind: concept, wikipedia: Stokes drift, wikidata: Q961596, node: SXX1PJVS5V}
   - {name: ocean wave spectrum, kind: definition, wikipedia: Sea state, wikidata: Q1569795}
   - {name: Pierson–Moskowitz spectrum, kind: definition, wikipedia: Sea state, wikidata: Q1569795}
   - {name: Hasselmann's kinetic equation for wind waves, kind: definition, wikipedia: Wind wave model, wikidata: Q8024055}
@@ -195,7 +195,7 @@ items:
   # Hydrology and glaciology
   - {name: hydrology, kind: concept, wikipedia: Hydrology, wikidata: Q42250}
   - {name: groundwater flow equation, kind: definition, wikipedia: Groundwater flow equation, wikidata: Q523759}
-  - {name: Richards equation, kind: definition, wikipedia: Richards equation, wikidata: Q2151066}
+  - {name: Richards equation, kind: definition, wikipedia: Richards equation, wikidata: Q2151066, node: 5GA1QB5VFM}
   - {name: Theis solution, kind: statement, wikipedia: Aquifer test, wikidata: Q446124}
   - {name: Dupuit–Forchheimer assumption, kind: concept, wikipedia: Dupuit–Forchheimer assumption, wikidata: Q5316065}
   - {name: Green–Ampt infiltration model, kind: concept, wikipedia: Infiltration (hydrology), wikidata: Q1127330}

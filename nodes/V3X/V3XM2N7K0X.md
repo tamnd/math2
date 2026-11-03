@@ -17,7 +17,7 @@ The group $G$ is a *solvable Lie group* if $G^{(k)} = \set{e}$ for some $k \ge 0
 
 ## Remarks
 
-A connected Lie group is solvable if and only if its Lie algebra $\mathfrak{g}$ is a solvable Lie algebra, that is, its derived series $\mathfrak{g} \supseteq [\mathfrak{g}, \mathfrak{g}] \supseteq \cdots$ reaches $0$.
+A connected Lie group is solvable if and only if its [[Lie algebra|WKVBS76432]] $\mathfrak{g}$ is a [[solvable Lie algebra|W7A2R0GR3T]], that is, its derived series $\mathfrak{g} \supseteq [\mathfrak{g}, \mathfrak{g}] \supseteq \cdots$ reaches $0$.
 
 Example: the group $G$ of affine maps $x \mapsto a x + b$ of $\R$ with $a > 0$ and $b \in \R$, written $(a, b)$, with $(a, b)(a', b') = (a a', a b' + b)$.
 It is connected, being homeomorphic to $(0, \infty) \times \R$.

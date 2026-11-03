@@ -174,7 +174,7 @@ items:
   - {name: '(∞,1)-category', kind: definition, wikipedia: Quasi-category, wikidata: Q7269442, node: YFY1FWA1MY}
   - {name: homotopy hypothesis, kind: conjecture, wikipedia: Homotopy hypothesis, wikidata: Q16879377, node: 2E83D9ACDY}
   - {name: cobordism hypothesis, kind: statement, wikipedia: Cobordism hypothesis, wikidata: Q16910990, node: M1WQTWFNNQ}
-  - {name: operad, kind: definition, wikipedia: Operad, wikidata: Q842072}
+  - {name: operad, kind: definition, wikipedia: Operad, wikidata: Q842072, node: 2C5QGNNCAE}
   - {name: algebra over an operad, kind: definition, wikipedia: Operad algebra, wikidata: Q16827071, node: ES9YATDWA3}
   - {name: E∞-operad, kind: example, wikipedia: E∞-operad, wikidata: Q5423545, node: T78YG90VVT}
   - {name: little cubes operad, kind: example, wikipedia: Operad, wikidata: Q842072, node: FWT0003QS1}
@@ -250,7 +250,7 @@ items:
   - {name: group cohomology, kind: concept, wikipedia: Group cohomology, wikidata: Q1408937, node: YXJXA0Q52R}
   - {name: Hochschild homology, kind: concept, wikipedia: Hochschild homology, wikidata: Q1622047, node: S5H153HFWC}
   - {name: cyclic homology, kind: concept, wikipedia: Cyclic homology, wikidata: Q939179, node: 676K167XS8}
-  - {name: Lie algebra cohomology, kind: concept, wikipedia: Lie algebra cohomology, wikidata: Q6543809}
+  - {name: Lie algebra cohomology, kind: concept, wikipedia: Lie algebra cohomology, wikidata: Q6543809, node: 69NARSMQCM}
   - {name: sheaf cohomology, kind: concept, wikipedia: Sheaf cohomology, wikidata: Q1493952, node: PQ6Q143ARJ}
   - {name: Mayer–Vietoris sequence, kind: statement, wikipedia: Mayer–Vietoris sequence, wikidata: Q2421905, node: X8BWXFGK53}
   # Derived and triangulated categories

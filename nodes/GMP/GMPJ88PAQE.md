@@ -16,7 +16,7 @@ For a word $w$ over $A$, write $\bar w$ for the element of $G$ it represents.
 Let $\$$ be a new padding symbol.
 For words $u, v$ over $A$, write $u$ and $v$ one above the other and fill the end of the shorter one with $\$$.
 The result is a word over $(A \cup \set{\$})^2$, the padded pair $(u, v)^{\$}$.
-An *automatic structure* on $G$ with respect to $A$ consists of finite automata $W$ over $A$ and $M_x$ over $(A \cup \set{\$})^2$ for $x \in A \cup \set{e}$, such that:
+An *automatic structure* on $G$ with respect to $A$ consists of [[finite automata|W65B6BKZRY]] $W$ over $A$ and $M_x$ over $(A \cup \set{\$})^2$ for $x \in A \cup \set{e}$, such that:
 
 1. Every element of $G$ equals $\bar w$ for at least one word $w$ accepted by $W$.
 2. For each $x \in A \cup \set{e}$ and all words $u, v$ accepted by $W$, the automaton $M_x$ accepts $(u, v)^{\$}$ if and only if $\bar u \, x = \bar v$ in $G$.
@@ -25,7 +25,7 @@ The group $G$ is *automatic* if it has an automatic structure with respect to so
 
 ## Remarks
 
-Equivalently, $G$ is automatic if there is a regular language $L$ over $A$ mapping onto $G$ with the fellow traveller property.
+Equivalently, $G$ is automatic if there is a [[regular language|18WVBDCS38]] $L$ over $A$ mapping onto $G$ with the fellow traveller property.
 This means there is a constant $k$ such that whenever $u, v \in L$ and $\bar u^{-1} \bar v \in A \cup \set{e}$, the prefixes $u(t)$ and $v(t)$ of length $t$ satisfy $d_A(\overline{u(t)}, \overline{v(t)}) \le k$ for all $t$, in the [[word metric|VCHJVR9NGH]].
 
 Example: $G = \Z^2 = \langle a, b \rangle$ with $A = \set{a, a^{-1}, b, b^{-1}}$ and $L$ the set of words $a^m b^n$, $m, n \in \Z$, which is regular.

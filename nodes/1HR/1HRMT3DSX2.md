@@ -14,7 +14,7 @@ same_as:
 ## Description
 
 The *octonions* $\mathbb{O}$ form an $8$-dimensional real algebra.
-One construction is the Cayley–Dickson construction applied to the [[quaternions|0GE4DVQKR8]] $\mathbb{H}$.
+One construction is the [[Cayley–Dickson construction|T9XW7RBEHY]] applied to the [[quaternions|0GE4DVQKR8]] $\mathbb{H}$.
 An octonion is a pair $(a, b)$ of quaternions, with componentwise addition and the product
 $$(a, b)(c, d) = (ac - \bar{d} b,\; da + b \bar{c}),$$
 where $\bar{q}$ is the quaternion conjugate.
@@ -29,7 +29,7 @@ The product formula gives $(a, 0)\,\ell = (0, a)$ and $(a, 0)(0, d) = (0, da)$.
 Hence $(ij)\ell = k\ell = (0, k)$, while $i(j\ell) = (i, 0)(0, j) = (0, ji) = (0, -k)$, so $(ij)\ell \ne i(j\ell)$.
 $\mathbb{O}$ is alternative: $x(xy) = (xx)y$ and $(yx)x = y(xx)$ for all $x, y$, and any two elements generate an associative subalgebra.
 The norm is multiplicative, $N(xy) = N(x) N(y)$, so $\mathbb{O}$ is a normed division algebra.
-By Hurwitz's theorem, $\R$, $\C$, $\mathbb{H}$ and $\mathbb{O}$ are the only normed division algebras over $\R$ with a unit.
+By [[Hurwitz's theorem|WZ81H3S4KK]], $\R$, $\C$, $\mathbb{H}$ and $\mathbb{O}$ are the only normed division algebras over $\R$ with a unit.
 The automorphism group of $\mathbb{O}$ is the compact exceptional Lie group $G_2$.
 
 ## Explanations

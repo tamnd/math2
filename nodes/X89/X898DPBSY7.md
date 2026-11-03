@@ -15,7 +15,7 @@ same_as:
 
 ## Statement
 
-Let $G$ be a real [[Lie group|7JBRGCVJRB]] with Lie algebra $\mathfrak{g}$ and [[exponential map|H3QX1ZFC8K]] $\exp \colon \mathfrak{g} \to G$.
+Let $G$ be a real [[Lie group|7JBRGCVJRB]] with [[Lie algebra|5JJYBJ6A8K]] $\mathfrak{g}$ and [[exponential map|H3QX1ZFC8K]] $\exp \colon \mathfrak{g} \to G$.
 There is a neighbourhood $U$ of $0$ in $\mathfrak{g}$ such that for all $X, Y \in U$,
 $$\exp(X)\exp(Y) = \exp(Z(X, Y)),$$
 where $Z(X, Y)$ is the sum of a convergent series

@@ -12,7 +12,7 @@ sources:
 
 ## Statement
 
-Let $G$ be a connected [[semisimple Lie group|XJS07AJ50Y]] with finite center, with Lie algebra $\mathfrak{g}$ and Killing form $B$.
+Let $G$ be a connected [[semisimple Lie group|XJS07AJ50Y]] with finite center, with Lie algebra $\mathfrak{g}$ and [[Killing form|TWVQT18JXE]] $B$.
 Let $\theta$ be a Cartan involution of $\mathfrak{g}$: an automorphism with $\theta^2 = \id$ such that $(X, Y) \mapsto -B(X, \theta Y)$ is positive definite.
 Let $\mathfrak{k}$ and $\mathfrak{p}$ be the eigenspaces of $\theta$ for the eigenvalues $1$ and $-1$, so that $\mathfrak{g} = \mathfrak{k} \oplus \mathfrak{p}$.
 Let $K$ be the connected Lie subgroup of $G$ with Lie algebra $\mathfrak{k}$.
@@ -25,7 +25,7 @@ In particular $G = K \exp(\mathfrak{p})$.
 
 ## Remarks
 
-A Cartan involution exists and is unique up to inner automorphisms; this is the Cartan decomposition of the Lie algebra.
+A Cartan involution exists and is unique up to inner automorphisms; this is the [[Cartan decomposition of the Lie algebra|K7VVYFE9YJ]].
 The proof of 2 lets $G$ act on the symmetric space $G/K$, which has nonpositive curvature.
 Then the map $X \mapsto \exp(X) K$ is a diffeomorphism from $\mathfrak{p}$ onto $G/K$.
 

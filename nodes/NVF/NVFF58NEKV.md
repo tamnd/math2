@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $A$ be a unital C*-algebra, and let $G$ be a discrete group.
+Let $A$ be a unital [[C*-algebra|M2WFY1D3SZ]], and let $G$ be a discrete group.
 Let $\alpha \colon G \to \Aut(A)$ be a [[group action|0WCY42EV9V]] of $G$ on $A$ by $*$-[[automorphisms|DSQ17TNW1C]].
 Let $C_c(G, A)$ be the space of finitely supported functions $f \colon G \to A$, with the product and involution
 $$(f * g)(s) = \sum_{t \in G} f(t) \, \alpha_t\big(g(t^{-1} s)\big), \qquad f^*(s) = \alpha_s\big(f(s^{-1})^*\big).$$

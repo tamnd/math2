@@ -15,7 +15,7 @@ same_as:
 
 The ADE singularities, also called Du Val singularities, simple surface singularities or rational double points, are the simplest singular points of complex surfaces.
 They are the quotients $\C^2/G$ by finite subgroups $G$ of the [[special linear group|0V9PMN0RBH]] $SL(2, \C)$.
-They come in two infinite families $A_n$ and $D_n$ and three exceptional cases $E_6$, $E_7$, $E_8$, matching the simply laced Dynkin diagrams.
+They come in two infinite families $A_n$ and $D_n$ and three exceptional cases $E_6$, $E_7$, $E_8$, matching the simply laced [[Dynkin diagrams|CS73JZQS66]].
 The match is visible in the minimal resolution, whose exceptional curves meet in the pattern of the Dynkin diagram.
 
 ## Explanations

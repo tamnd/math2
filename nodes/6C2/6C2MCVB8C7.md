@@ -15,7 +15,7 @@ same_as:
 
 A Jordan algebra is a commutative [[nonassociative|YP5TQ6WFVN]] algebra whose product satisfies the Jordan identity $(xy)(xx) = x(y(xx))$.
 The model is the symmetrized product $x \circ y = \frac{1}{2}(xy + yx)$ on an associative algebra, for example on Hermitian matrices.
-Algebras obtained this way are special; the others are exceptional, and the Albert algebra of $3 \times 3$ Hermitian octonion matrices is the basic exceptional one.
+Algebras obtained this way are [[special|T4AWF1BRZB]]; the others are exceptional, and the [[Albert algebra|1MSMVDRAVD]] of $3 \times 3$ Hermitian octonion matrices is the basic exceptional one.
 Jordan algebras were introduced by Pascual Jordan to formalize observables in quantum mechanics, and they are linked to Lie algebras, symmetric spaces and projective geometry.
 
 ## Explanations

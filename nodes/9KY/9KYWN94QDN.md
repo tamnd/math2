@@ -17,7 +17,7 @@ A Banach algebra is an associative algebra over $\R$ or $\C$ with a complete nor
 It is a [[normed algebra|4DJ4V5VBSH]] that is also a [[Banach space|06GZ956657]].
 Completeness makes power series converge, so in a unital Banach algebra $1 - x$ is invertible when $\norm{x} < 1$.
 In a nonzero complex unital Banach algebra the spectrum of every element is a nonempty compact set.
-Algebras of bounded operators, continuous functions and integrable functions on groups are the main examples, and C*-algebras are the most studied special class.
+Algebras of bounded operators, continuous functions and integrable functions on groups are the main examples, and [[C*-algebras|M2WFY1D3SZ]] are the most studied special class.
 
 ## Explanations
 

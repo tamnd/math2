@@ -12,9 +12,9 @@ same_as:
 
 ## Summary
 
-An approximately finite-dimensional (AF) C\*-algebra is a C*-algebra that is the closure of an increasing sequence of finite-dimensional C\*-subalgebras.
+An approximately finite-dimensional (AF) C\*-algebra is a [[C*-algebra|M2WFY1D3SZ]] that is the closure of an increasing sequence of finite-dimensional C\*-subalgebras.
 Finite-dimensional C\*-algebras are finite direct sums of matrix algebras, so an AF algebra is built from matrices by a limit process.
-Bratteli described AF algebras by diagrams, and Elliott classified them by their ordered K_0 groups.
+Bratteli described AF algebras by diagrams, and Elliott classified them by their ordered [[K_0 groups|BP86XQRZD2]].
 Examples are the compact operators, the UHF algebras such as the CAR algebra, and $C(X)$ for the Cantor set $X$.
 
 ## Explanations

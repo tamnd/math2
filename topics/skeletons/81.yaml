@@ -105,8 +105,8 @@ items:
   - {name: Solovay–Kitaev theorem, kind: statement, wikipedia: Solovay–Kitaev theorem, wikidata: Q48999814}
   - {name: Gottesman–Knill theorem, kind: statement, wikipedia: Gottesman–Knill theorem, wikidata: Q5588002}
   - {name: quantum Fourier transform, kind: definition, wikipedia: Quantum Fourier transform, wikidata: Q1464944}
-  - {name: Shor's algorithm, kind: statement, wikipedia: Shor's algorithm, wikidata: Q940334}
-  - {name: Grover's algorithm, kind: statement, wikipedia: Grover's algorithm, wikidata: Q1028292}
+  - {name: Shor's algorithm, kind: statement, wikipedia: Shor's algorithm, wikidata: Q940334, node: 83G4EPJ3EJ}
+  - {name: Grover's algorithm, kind: statement, wikipedia: Grover's algorithm, wikidata: Q1028292, node: K9QPQH4YKY}
   - {name: quantum error correction, kind: concept, wikipedia: Quantum error correction, wikidata: Q1536431}
   - {name: Knill–Laflamme conditions, kind: statement, wikipedia: Quantum error correction, wikidata: Q1536431}
   - {name: stabilizer code, kind: definition, wikipedia: Stabilizer code, wikidata: Q2981610}
@@ -134,7 +134,7 @@ items:
   - {name: density functional theory, kind: concept, wikipedia: Density functional theory, wikidata: Q1048589}
   - {name: Hohenberg–Kohn theorems, kind: statement, wikipedia: Density functional theory, wikidata: Q1048589}
   - {name: stability of matter, kind: statement, wikipedia: Stability of matter, wikidata: Q112968598}
-  - {name: Aharonov–Bohm effect, kind: concept, wikipedia: Aharonov–Bohm effect, wikidata: Q400083}
+  - {name: Aharonov–Bohm effect, kind: concept, wikipedia: Aharonov–Bohm effect, wikidata: Q400083, node: Y4FPXY8MDM}
   - {name: Anderson localization, kind: statement, wikipedia: Anderson localization, wikidata: Q491409}
   - {name: quantum chaos, kind: concept, wikipedia: Quantum chaos, wikidata: Q1502341}
   - {name: quantum ergodicity theorem, kind: statement, wikipedia: Quantum ergodicity, wikidata: Q7269044}
@@ -143,7 +143,7 @@ items:
   - {name: symmetry in quantum mechanics, kind: concept, wikipedia: Symmetry in quantum mechanics, wikidata: Q16726095}
   - {name: angular momentum operator, kind: definition, wikipedia: Angular momentum operator, wikidata: Q1190143}
   - {name: spin, kind: concept, wikipedia: Spin (physics), wikidata: Q133673}
-  - {name: Clebsch–Gordan coefficients, kind: definition, wikipedia: Clebsch–Gordan coefficients, wikidata: Q898619}
+  - {name: Clebsch–Gordan coefficients, kind: definition, wikipedia: Clebsch–Gordan coefficients, wikidata: Q898619, node: 60Q8MJM1MF}
   - {name: Wigner 3-j symbols, kind: definition, wikipedia: 3-j symbol, wikidata: Q2570568}
   - {name: Wigner–Eckart theorem, kind: statement, wikipedia: Wigner–Eckart theorem, wikidata: Q195133}
   - {name: time reversal symmetry, kind: definition, wikipedia: Time-reversal symmetry, wikidata: Q142270}
@@ -249,8 +249,8 @@ items:
   - {name: scattering theory, kind: concept, wikipedia: Scattering, wikidata: Q210028}
   - {name: S-matrix, kind: definition, wikipedia: S-matrix, wikidata: Q581505}
   - {name: Lippmann–Schwinger equation, kind: definition, wikipedia: Lippmann–Schwinger equation, wikidata: Q902575}
-  - {name: Born approximation, kind: concept, wikipedia: Born approximation, wikidata: Q39325}
-  - {name: optical theorem, kind: statement, wikipedia: Optical theorem, wikidata: Q1136262}
+  - {name: Born approximation, kind: concept, wikipedia: Born approximation, wikidata: Q39325, node: 3Y0VBDXHJD}
+  - {name: optical theorem, kind: statement, wikipedia: Optical theorem, wikidata: Q1136262, node: ZJG1YAGANG}
   - {name: Levinson's theorem, kind: statement, wikipedia: Levinson's theorem, wikidata: Q25110385}
   - {name: Faddeev equations, kind: definition, wikipedia: Faddeev equations, wikidata: Q3777171}
   - {name: inverse scattering problem, kind: problem, wikipedia: Inverse scattering problem, wikidata: Q11639409}

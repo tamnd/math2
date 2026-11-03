@@ -16,7 +16,7 @@ Surgery is an operation that cuts out a thickened sphere $S^p \times D^q$ from a
 The result is a new manifold, [[cobordant|T8BVGPPSZP]] to the old one.
 Surgery theory uses this operation to decide whether a space is homotopy equivalent to a manifold.
 It also classifies the manifolds within a homotopy type.
-In dimensions at least $5$ it reduces these questions to homotopy theory and to algebra in the surgery obstruction groups.
+In dimensions at least $5$ it reduces these questions to homotopy theory and to algebra in the [[surgery obstruction groups|9Q4DJXBHPC]].
 
 ## Explanations
 

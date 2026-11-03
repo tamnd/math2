@@ -116,7 +116,7 @@ items:
   - {name: classification of finite simple groups, kind: statement, wikipedia: Classification of finite simple groups, wikidata: Q1340623, node: 06J6P03MG7}
   - {name: group of Lie type, kind: definition, wikipedia: Group of Lie type, wikidata: Q1406425, node: NPEBABQ49M}
   - {name: Chevalley group, kind: definition, wikipedia: Group of Lie type, wikidata: Q1406425, node: YPCH4Q0V34}
-  - {name: Steinberg group, kind: definition, wikipedia: Group of Lie type, wikidata: Q1406425}
+  - {name: Steinberg group, kind: definition, wikipedia: Group of Lie type, wikidata: Q1406425, node: 590VZSQ83X}
   - {name: Suzuki groups, kind: object, wikipedia: Suzuki groups, wikidata: Q7651367, node: 36X3GET13B}
   - {name: Ree groups, kind: object, wikipedia: Ree group, wikidata: Q7306554, node: YB62XEQJAC}
   - {name: Tits group, kind: object, wikipedia: Tits group, wikidata: Q2856369, node: WC16TBY3FN}
@@ -130,7 +130,7 @@ items:
   - {name: Leech lattice, kind: object, wikipedia: Leech lattice, wikidata: Q2510203, node: XETV3657DG}
   - {name: Griess algebra, kind: object, wikipedia: Griess algebra, wikidata: Q3514494, node: ZMPYZ8KD9N}
   - {name: projective special linear group, kind: example, wikipedia: Projective linear group, wikidata: Q2997419, node: BTDZHD9HG3}
-  - {name: Schur multiplier, kind: definition, wikipedia: Schur multiplier, wikidata: Q3327702}
+  - {name: Schur multiplier, kind: definition, wikipedia: Schur multiplier, wikidata: Q3327702, node: AZDECAWGD0}
   - {name: Brauer's height zero conjecture, kind: conjecture, wikipedia: Brauer's height zero conjecture, wikidata: Q131191617, node: 5M0HYY3RYV}
   # Representation theory of groups
   - {name: group representation, kind: definition, decl: Representation, wikipedia: Group representation, wikidata: Q1055807, mathlib: [mathlib-overview], node: WYGRXCG2RN}
@@ -155,7 +155,7 @@ items:
   - {name: Brauer's main theorems, kind: statement, wikipedia: Brauer's three main theorems, wikidata: Q4958221, node: NB057FEAAE}
   - {name: McKay conjecture, kind: statement, wikipedia: McKay conjecture, wikidata: Q28401746, node: WQQTFRZFBD}
   - {name: Deligne–Lusztig theory, kind: concept, wikipedia: Deligne–Lusztig theory, wikidata: Q5253966, node: ZH21D5B62C}
-  - {name: Burnside ring, kind: definition, wikipedia: Burnside ring, wikidata: Q5000158}
+  - {name: Burnside ring, kind: definition, wikipedia: Burnside ring, wikidata: Q5000158, node: HKKBGRHNMY}
   # Infinite groups and combinatorial group theory
   - {name: free group, kind: definition, decl: FreeGroup, wikipedia: Free group, wikidata: Q431078, mathlib: [mathlib-overview], node: 0KTW26C80J}
   - {name: free abelian group, kind: definition, decl: FreeAbelianGroup, wikipedia: Free abelian group, wikidata: Q1454111, node: 0WJX8MGG37}
@@ -264,7 +264,7 @@ items:
   - {name: Krohn–Rhodes theory, kind: concept, wikipedia: Krohn–Rhodes theory, wikidata: Q6438788, node: 3WDZY1J002}
   - {name: transformation semigroup, kind: definition, wikipedia: Transformation semigroup, wikidata: Q3022116, node: 7ZB7MRKPQ9}
   - {name: Grothendieck group, kind: definition, wikipedia: Grothendieck group, wikidata: Q1128678, node: 5FDMY7PDYY}
-  - {name: quasigroup, kind: definition, wikipedia: Quasigroup, wikidata: Q1503423}
+  - {name: quasigroup, kind: definition, wikipedia: Quasigroup, wikidata: Q1503423, node: ZJD31SPPFP}
   - {name: rack and quandle, kind: definition, decl: Quandle, wikipedia: Racks and quandles, wikidata: Q7279807, node: X74VY86TSX}
   # Probabilistic and asymptotic group theory
   - {name: random walk on a group, kind: concept, wikipedia: Random walk, wikidata: Q856741, node: WAS9EANSJJ}

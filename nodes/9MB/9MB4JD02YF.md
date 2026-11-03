@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $A$ be a C*-algebra.
+Let $A$ be a [[C*-algebra|M2WFY1D3SZ]].
 For a C\*-algebra $B$, let $A \odot B$ be the algebraic [[tensor product|1735VGRT2P]] of $A$ and $B$, a $*$-algebra with $(a \otimes b)^* = a^* \otimes b^*$.
 A *C\*-norm* on $A \odot B$ is a norm $\gamma$ with $\gamma(xy) \le \gamma(x) \gamma(y)$, $\gamma(x^*) = \gamma(x)$ and $\gamma(x^* x) = \gamma(x)^2$.
 The algebra $A$ is *nuclear* if, for every C\*-algebra $B$, there is exactly one C\*-norm on $A \odot B$.

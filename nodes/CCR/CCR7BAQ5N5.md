@@ -14,7 +14,7 @@ same_as:
 
 The oscillator representation is a unitary representation of the [[metaplectic group|8B0JM2YDE2]], the double cover of the real symplectic group, on $L^2(\R^n)$.
 It exists because symplectic linear maps preserve the canonical commutation relations, and the [[Stone–von Neumann theorem|Z877XDBMQ3]] then gives an intertwining operator for each of them.
-It is the real case of the Weil representation, and it underlies the theory of theta functions and the [[theta correspondence|ZBGT50BW0Z]].
+It is the real case of the [[Weil representation|CD20HVR9V8]], and it underlies the theory of theta functions and the [[theta correspondence|ZBGT50BW0Z]].
 Its name comes from the quantum harmonic oscillator, whose Hamiltonian generates the action of a compact one-parameter subgroup.
 
 ## Explanations

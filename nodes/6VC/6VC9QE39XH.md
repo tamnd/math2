@@ -18,7 +18,7 @@ same_as:
 Let $G$ be a [[compact group|EVHCE5VR6Y]] with normalised [[Haar measure|VY0HXD3GC4]].
 Let $\widehat{G}$ be a set of representatives of the isomorphism classes of continuous [[irreducible|FX3NEFYFFN]] [[unitary representations|74BPYJNZTM]] of $G$.
 Each $\pi \in \widehat{G}$ is finite-dimensional; let $d_\pi$ be its dimension, and let $\pi_{ij}(g)$ be its matrix entries in an orthonormal basis.
-A matrix coefficient of $\pi$ is a function $g \mapsto \ip{\pi(g)u}{v}$ for vectors $u, v$ of its space.
+A [[matrix coefficient|J85Q7QGGHS]] of $\pi$ is a function $g \mapsto \ip{\pi(g)u}{v}$ for vectors $u, v$ of its space.
 
 1. The matrix coefficients of the finite-dimensional continuous unitary representations of $G$ span a dense subspace of $C(G)$, with the supremum norm.
 2. The functions $\sqrt{d_\pi}\, \pi_{ij}$, for $\pi \in \widehat{G}$ and $1 \le i, j \le d_\pi$, form an orthonormal basis of the [[Hilbert space|HM2HHE3J51]] $L^2(G)$.

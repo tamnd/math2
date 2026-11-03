@@ -39,7 +39,7 @@ items:
   - {name: quantum statistical mechanics, kind: concept, wikipedia: Quantum statistical mechanics, wikidata: Q845260}
   # Quantum statistics and ideal gases
   - {name: Maxwell–Boltzmann statistics, kind: definition, wikipedia: Maxwell–Boltzmann statistics, wikidata: Q1206235}
-  - {name: Maxwell–Boltzmann distribution, kind: definition, wikipedia: Maxwell–Boltzmann distribution, wikidata: Q634965}
+  - {name: Maxwell–Boltzmann distribution, kind: definition, wikipedia: Maxwell–Boltzmann distribution, wikidata: Q634965, node: 3QSVWQJX11}
   - {name: Fermi–Dirac statistics, kind: definition, wikipedia: Fermi–Dirac statistics, wikidata: Q274072}
   - {name: Bose–Einstein statistics, kind: definition, wikipedia: Bose–Einstein statistics, wikidata: Q191076}
   - {name: Fermi gas, kind: example, wikipedia: Fermi gas, wikidata: Q1072904}
@@ -146,15 +146,15 @@ items:
   - {name: abelian sandpile model, kind: example, wikipedia: Abelian sandpile model, wikidata: Q4666685}
   - {name: self-organized criticality, kind: concept, wikipedia: Self-organized criticality, wikidata: Q1326714}
   # Kinetic theory
-  - {name: kinetic theory of gases, kind: concept, wikipedia: Kinetic theory of gases, wikidata: Q200286}
+  - {name: kinetic theory of gases, kind: concept, wikipedia: Kinetic theory of gases, wikidata: Q200286, node: HHTG8JVGKQ}
   - {name: Boltzmann equation, kind: definition, wikipedia: Boltzmann equation, wikidata: Q891653, node: MH6CSWD7F0}
-  - {name: H-theorem, kind: statement, wikipedia: H-theorem, wikidata: Q899853}
+  - {name: H-theorem, kind: statement, wikipedia: H-theorem, wikidata: Q899853, node: BMA7D1Z2W6}
   - {name: Loschmidt's paradox, kind: problem, wikipedia: Loschmidt's paradox, wikidata: Q3895095}
   - {name: BBGKY hierarchy, kind: definition, wikipedia: BBGKY hierarchy, wikidata: Q653679}
   - {name: Lanford's theorem on the Boltzmann–Grad limit, kind: statement, wikipedia: Boltzmann equation, wikidata: Q891653}
-  - {name: Chapman–Enskog theory, kind: concept, wikipedia: Chapman–Enskog theory, wikidata: Q4133108}
+  - {name: Chapman–Enskog theory, kind: concept, wikipedia: Chapman–Enskog theory, wikidata: Q4133108, node: CS1VGMQAG3}
   - {name: Bhatnagar–Gross–Krook operator, kind: definition, wikipedia: Bhatnagar–Gross–Krook operator, wikidata: Q4901423}
-  - {name: Landau damping, kind: statement, wikipedia: Landau damping, wikidata: Q675721}
+  - {name: Landau damping, kind: statement, wikipedia: Landau damping, wikidata: Q675721, node: 90DN4ZWDZK}
   - {name: Vlasov–Poisson system, kind: definition, wikipedia: Vlasov equation, wikidata: Q2323892}
   - {name: mean free path, kind: definition, wikipedia: Mean free path, wikidata: Q756307}
   - {name: Kac ring, kind: example, wikipedia: Kac ring, wikidata: Q121879025}

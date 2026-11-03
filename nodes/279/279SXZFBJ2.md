@@ -28,5 +28,5 @@ It is right-invariant instead.
 
 The map $X \mapsto X_e$ is a linear isomorphism from the space of left-invariant vector fields onto the [[tangent space|E7A5DHFT01]] $T_eG$; the inverse sends $v$ to the field $g \mapsto (dL_g)_e(v)$.
 The [[Lie bracket|68FGQEBD6J]] of two left-invariant vector fields is left-invariant.
-So $T_eG$ inherits a bracket, and with it becomes the Lie algebra of $G$, written $\mathfrak{g}$ or $\operatorname{Lie}(G)$.
+So $T_eG$ inherits a bracket, and with it becomes the [[Lie algebra|5JJYBJ6A8K]] of $G$, written $\mathfrak{g}$ or $\operatorname{Lie}(G)$.
 Every left-invariant vector field is complete: its integral curves are defined on all of $\R$.

@@ -14,7 +14,7 @@ sources:
 
 Let $k$ be an algebraically closed field and let $Q$ be a finite [[quiver|RE9YFFS3TS]] without loops.
 Let $B_{ij}$ be the number of edges between $i$ and $j$ in the underlying graph of $Q$, and let $C = 2I - B$.
-Let $\Delta_+$ be the set of positive roots of the Kac–Moody algebra with generalized Cartan matrix $C$.
+Let $\Delta_+$ be the set of positive roots of the [[Kac–Moody algebra|HD13X0CNBD]] with generalized Cartan matrix $C$.
 
 1. The dimension vectors of the finite-dimensional [[indecomposable|E2P29GCD9T]] [[representations|TXVWFWP6VQ]] of $Q$ over $k$ are exactly the elements of $\Delta_+$.
 In particular, this set does not depend on the orientation of $Q$.
@@ -26,7 +26,7 @@ In particular, this set does not depend on the orientation of $Q$.
 Victor Kac proved the theorem by counting representations over finite fields and passing to algebraically closed fields.
 Over a finite field with $q$ elements, count the isomorphism classes of absolutely indecomposable representations of dimension vector $\alpha$.
 This number is a polynomial in $q$ that does not depend on the orientation.
-Example: for the Kronecker quiver, the root system is of affine type $\tilde{A}_1$, and $(1, 1)$ is an imaginary root.
+Example: for the Kronecker quiver, the [[root system|AVVV93CASN]] is of affine type $\tilde{A}_1$, and $(1, 1)$ is an imaginary root.
 The representations $k \rightrightarrows k$ given by the pairs of scalars $(1, \lambda)$ are indecomposable and pairwise non-isomorphic, as part 3 predicts.
 For Dynkin quivers all roots are real and finite in number, and the theorem reduces to [[Gabriel's theorem|FC78F2E87E]].
 

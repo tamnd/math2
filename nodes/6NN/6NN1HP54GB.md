@@ -12,7 +12,7 @@ sources:
 
 For $u \in \R$ and $v \in \R$, let
 $$x(u, v) = (\cosh v \cos u, \; \cosh v \sin u, \; v).$$
-Its image, the catenoid, is the [[surface of revolution|NE09EDK19V]] obtained by rotating the catenary $r = \cosh z$ about the $z$-axis.
+Its image, the catenoid, is the [[surface of revolution|NE09EDK19V]] obtained by rotating the [[catenary|KH7BAGDK4P]] $r = \cosh z$ about the $z$-axis.
 It is a [[minimal surface|41X0YW2R9N]].
 
 Check.

@@ -172,7 +172,7 @@ items:
   - {name: zonal spherical harmonics, kind: definition, wikipedia: Zonal spherical harmonics, wikidata: Q8073864, node: Q5D54R3RGE}
   - {name: zonal spherical function, kind: definition, wikipedia: Zonal spherical function, wikidata: Q8073863, node: BKZNC76RC8}
   - {name: Wigner D-matrix, kind: definition, wikipedia: Wigner D-matrix, wikidata: Q3299244, node: QQPC9ASQHR}
-  - {name: Clebsch–Gordan coefficients, kind: definition, wikipedia: Clebsch–Gordan coefficients, wikidata: Q898619}
+  - {name: Clebsch–Gordan coefficients, kind: definition, wikipedia: Clebsch–Gordan coefficients, wikidata: Q898619, node: 60Q8MJM1MF}
   - {name: 3-j symbol, kind: definition, wikipedia: 3-j symbol, wikidata: Q2570568, node: YJRJVZ998D}
   - {name: 6-j symbol, kind: definition, wikipedia: 6-j symbol, wikidata: Q2606520, node: D17XX5N9VF}
   - {name: Jack function, kind: definition, wikipedia: Jack function, wikidata: Q6115970, node: WW7H1KNXK8}

@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $G$ be a [[Lie group|7JBRGCVJRB]] and $H$ a closed [[subgroup|NM8XCPS1Q3]] of $G$, with Lie algebras $\mathfrak{h} \subset \mathfrak{g}$.
+Let $G$ be a [[Lie group|7JBRGCVJRB]] and $H$ a closed [[subgroup|NM8XCPS1Q3]] of $G$, with [[Lie algebras|WKVBS76432]] $\mathfrak{h} \subset \mathfrak{g}$.
 Let $M$ be a smooth manifold with $\dim M = \dim G - \dim H$.
 A *Cartan connection on $M$ modelled on $(G, H)$* is a [[principal $H$-bundle|8E37E74XVP]] $\pi : P \to M$ together with a smooth $\mathfrak{g}$-valued $1$-form $\omega$ on $P$ such that:
 

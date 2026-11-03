@@ -23,7 +23,7 @@ A *Poisson manifold* is a smooth manifold with a Poisson bracket.
 
 ## Remarks
 
-Clauses 1 to 3 say that $(C^\infty(M), \{\cdot, \cdot\})$ is a Lie algebra over $\R$.
+Clauses 1 to 3 say that $(C^\infty(M), \{\cdot, \cdot\})$ is a [[Lie algebra|5JJYBJ6A8K]] over $\R$.
 By clause 4, there is a unique bivector field $\pi$, a section of $\Lambda^2 TM$, with $\{f, g\} = \pi(df, dg)$; the Jacobi identity is then the condition $[\pi, \pi] = 0$ for the Schouten bracket.
 
 Example: every [[symplectic manifold|CAN490EPRT]] with its [[Poisson bracket|2S0MXDT4YH]] is a Poisson manifold.

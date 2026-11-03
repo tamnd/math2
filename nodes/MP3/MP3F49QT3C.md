@@ -17,7 +17,7 @@ history:
 
 ## Problem
 
-The *group isomorphism problem* asks for an algorithm that takes two finite [[presentations|0JGEQXQ4AC]] of groups and decides whether the groups they define are [[isomorphic|08MG7H8JW5]].
+The *group isomorphism problem* asks for an [[algorithm|9DMSG5HAQX]] that takes two finite [[presentations|0JGEQXQ4AC]] of groups and decides whether the groups they define are [[isomorphic|08MG7H8JW5]].
 The problem may also be posed inside a class of [[finitely presented groups|TJKANTKASZ]]: the input is two presentations of groups of the class.
 
 ## Remarks

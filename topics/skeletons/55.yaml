@@ -196,7 +196,7 @@ items:
   - {name: sphere bundle, kind: definition, wikipedia: Sphere bundle, wikidata: Q51544038, node: 3VQ2V5HH3R}
   - {name: Stiefel manifold, kind: example, wikipedia: Stiefel manifold, wikidata: Q7616373, node: W7RCXS3CHT}
   - {name: Whitney sum, kind: definition, wikipedia: Vector bundle, wikidata: Q658429, node: BE9NJRVDR3}
-  - {name: Bott periodicity theorem, kind: statement, wikipedia: Bott periodicity theorem, wikidata: Q4948983}
+  - {name: Bott periodicity theorem, kind: statement, wikipedia: Bott periodicity theorem, wikidata: Q4948983, node: WN2DCBSX1C}
   - {name: vector fields on spheres, kind: statement, wikipedia: Vector fields on spheres, wikidata: Q7917824, node: 3ES79NWRS7}
   # Cohomology operations and obstruction theory
   - {name: cohomology operation, kind: definition, wikipedia: Cohomology operation, wikidata: Q5141397, node: K8T15QHN3W}
@@ -216,7 +216,7 @@ items:
   - {name: spectral sequence, kind: definition, decl: CategoryTheory.SpectralSequence, wikipedia: Spectral sequence, wikidata: Q3503315, node: GG8AYV847V}
   - {name: Serre spectral sequence, kind: statement, wikipedia: Serre spectral sequence, wikidata: Q7455410, node: AHW4B5480K}
   - {name: Leray spectral sequence, kind: statement, wikipedia: Leray spectral sequence, wikidata: Q6528749, node: 8BMQ90EJPR}
-  - {name: Atiyah–Hirzebruch spectral sequence, kind: statement, wikipedia: Atiyah–Hirzebruch spectral sequence, wikidata: Q17004665}
+  - {name: Atiyah–Hirzebruch spectral sequence, kind: statement, wikipedia: Atiyah–Hirzebruch spectral sequence, wikidata: Q17004665, node: Z74J6D5B0J}
   - {name: Adams spectral sequence, kind: statement, wikipedia: Adams spectral sequence, wikidata: Q4680481, node: DD4D0EKX74}
   - {name: Adams–Novikov spectral sequence, kind: statement, wikipedia: Adams spectral sequence, wikidata: Q4680481, node: D34QHZVPES}
   - {name: Eilenberg–Moore spectral sequence, kind: statement, wikipedia: Eilenberg–Moore spectral sequence, wikidata: Q5349492, node: NNCBVR7Z2X}
@@ -230,13 +230,13 @@ items:
   - {name: Eilenberg–MacLane spectrum, kind: object, wikipedia: Eilenberg–MacLane spectrum, wikidata: Q134310487, node: XJPYJT9Z1P}
   - {name: ring spectrum, kind: definition, wikipedia: Ring spectrum, wikidata: Q7334821, node: BAW0T68GWK}
   - {name: symmetric spectrum, kind: definition, wikipedia: Symmetric spectrum, wikidata: Q17090831, node: 1RY6DQJ1RV}
-  - {name: topological K-theory, kind: definition, wikipedia: Topological K-theory, wikidata: Q2111307}
-  - {name: Adams operations, kind: definition, wikipedia: Adams operation, wikidata: Q4680478}
+  - {name: topological K-theory, kind: definition, wikipedia: Topological K-theory, wikidata: Q2111307, node: 6XCFW7YGX8}
+  - {name: Adams operations, kind: definition, wikipedia: Adams operation, wikidata: Q4680478, node: KQP64TH307}
   - {name: cobordism ring, kind: definition, wikipedia: Cobordism ring, wikidata: Q19596423, node: C02WQY819R}
   - {name: complex cobordism, kind: definition, wikipedia: Complex cobordism, wikidata: Q5156571, node: 5CZHFNY9F3}
   - {name: Thom spectrum, kind: definition, wikipedia: Thom space, wikidata: Q2421733, node: 6H8AGEN6NY}
   - {name: Brown–Peterson cohomology, kind: definition, wikipedia: Brown–Peterson cohomology, wikidata: Q17097796, node: S8S72AA9C8}
-  - {name: Morava K-theory, kind: definition, wikipedia: Morava K-theory, wikidata: Q6909307}
+  - {name: Morava K-theory, kind: definition, wikipedia: Morava K-theory, wikidata: Q6909307, node: 276A3N57KC}
   - {name: formal group law in topology, kind: concept, wikipedia: Formal group law, wikidata: Q5469970, node: TNHP7XXYZT}
   - {name: Quillen's theorem on complex cobordism, kind: statement, wikipedia: Complex cobordism, wikidata: Q5156571, node: 4E518M24MA}
   - {name: chromatic homotopy theory, kind: concept, wikipedia: Chromatic homotopy theory, wikidata: Q16958142, node: 300V40FC1B}
@@ -263,5 +263,5 @@ items:
   - {name: triangulated category, kind: definition, wikipedia: Triangulated category, wikidata: Q7840150, node: T2V7GJJ2EN}
   - {name: homotopy hypothesis, kind: conjecture, wikipedia: Homotopy hypothesis, wikidata: Q16879377, node: 2E83D9ACDY}
   - {name: higher category theory, kind: concept, wikipedia: Higher category theory, wikidata: Q5758318, node: 3A1NMGJKJ3}
-  - {name: operad, kind: definition, wikipedia: Operad, wikidata: Q842072}
+  - {name: operad, kind: definition, wikipedia: Operad, wikidata: Q842072, node: 2C5QGNNCAE}
   - {name: homotopy type theory, kind: concept, wikipedia: Homotopy type theory, wikidata: Q5891840, node: EPAAKD80H9}

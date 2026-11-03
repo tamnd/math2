@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $A$ be a C*-algebra.
+Let $A$ be a [[C*-algebra|M2WFY1D3SZ]].
 For $a \in A$, let $\sigma(a)$ be its [[spectrum|EH0CZ19RKP]], computed in the [[unitization|7SB03M850M]] of $A$ when $A$ has no unit.
 An element $a \in A$ is *positive*, written $a \ge 0$, if
 

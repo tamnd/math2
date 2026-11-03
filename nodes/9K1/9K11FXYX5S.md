@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $A$ be a C*-algebra.
+Let $A$ be a [[C*-algebra|M2WFY1D3SZ]].
 Let $E$ be a complex vector space that is a right $A$-module, with $\lambda (x a) = (\lambda x) a = x (\lambda a)$ for $\lambda \in \C$, $x \in E$ and $a \in A$.
 An *$A$-valued inner product* on $E$ is a map $\ip{\cdot}{\cdot} \colon E \times E \to A$ such that for all $x, y, z \in E$, $a \in A$ and $\lambda \in \C$:
 
