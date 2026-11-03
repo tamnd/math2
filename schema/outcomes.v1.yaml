@@ -92,3 +92,7 @@ rules:
     outcome: deferred
     reason: the Wikipedia item of the row waits for the write role or for a person
     match: the row has a Wikipedia mention, it is open, and m2 corpus adopt cannot adopt the item. The reason of the outcome gives the cause, for example a flag, a name that is not specific, or a hold of a person (corpus wikipedia WP9.2). The date is the end of the next review period
+  - id: textbook-node
+    outcome: node
+    reason: a node names the record of the item in its sources (corpus spec K4.4)
+    match: the row is in the textbook layer, it is open or has its outcome from this rule, and a live node names the locator of a mention of the row in its sources. The curate role writes the node from the record, and the merge of the node decides it. The target is the tags of the nodes. When no node names the locator, the row is open again
