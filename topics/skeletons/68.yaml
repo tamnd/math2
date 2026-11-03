@@ -124,7 +124,7 @@ items:
   - {name: true quantified Boolean formula, kind: problem, wikipedia: True quantified Boolean formula, wikidata: Q1350285, node: WV2N01B4YV}
   - {name: EXPTIME, kind: definition, wikipedia: EXPTIME, wikidata: Q1276570, node: T9G5S33CA0}
   - {name: polynomial hierarchy, kind: definition, wikipedia: Polynomial hierarchy, wikidata: Q2103021, node: TDQ7AXGM6P}
-  - {name: oracle relativization and Baker–Gill–Solovay theorem, kind: statement, wikipedia: Oracle machine, wikidata: Q1143357}
+  - {name: oracle relativization and Baker–Gill–Solovay theorem, kind: statement, wikipedia: Oracle machine, wikidata: Q1143357, node: BST2RKE12N}
   - {name: natural proofs barrier, kind: statement, wikipedia: Natural proof, wikidata: Q6980761, node: THPBBYSDP1}
   - {name: Blum's speedup theorem, kind: statement, wikipedia: Blum's speedup theorem, wikidata: Q1751105, node: F53XQ3F2SN}
   # Randomized, circuit, counting and interactive complexity
@@ -132,13 +132,13 @@ items:
   - {name: RP, kind: definition, wikipedia: RP (complexity), wikidata: Q1190846, node: TPDMV6ZXN3}
   - {name: ZPP, kind: definition, wikipedia: ZPP (complexity), wikidata: Q136355, node: QJZ5ZY0HJ8}
   - {name: Sipser–Lautemann theorem, kind: statement, wikipedia: Sipser–Lautemann theorem, wikidata: Q7525845, node: N9CMT9AB3X}
-  - {name: derandomization and pseudorandom generators, kind: concept, wikipedia: Pseudorandom generator, wikidata: Q7255474}
+  - {name: derandomization and pseudorandom generators, kind: concept, wikipedia: Pseudorandom generator, wikidata: Q7255474, node: MD9THSA21A}
   - {name: PRIMES is in P, kind: statement, wikipedia: Agrawal–Kayal–Saxena primality test, wikidata: Q294284, node: XMHQCDWZW1}
   - {name: circuit complexity, kind: concept, wikipedia: Circuit complexity, wikidata: Q1055112, node: 4PGX7PHJCK}
   - {name: P/poly, kind: definition, wikipedia: P/poly, wikidata: Q7117817, node: P0A5DVRYDW}
   - {name: Karp–Lipton theorem, kind: statement, wikipedia: Karp–Lipton theorem, wikidata: Q6373327, node: HM7DNQ2H5D}
   - {name: AC0, kind: definition, wikipedia: AC0, wikidata: Q287954, node: N1G9S8QC68}
-  - {name: parity not in AC0, kind: statement, wikipedia: AC0, wikidata: Q287954}
+  - {name: parity not in AC0, kind: statement, wikipedia: AC0, wikidata: Q287954, node: W6T7X0QCFH}
   - {name: NC, kind: definition, wikipedia: NC (complexity), wikidata: Q1141840, node: 3QFZN6ZZNC}
   - {name: Shannon's counting argument for circuit size, kind: statement, wikipedia: Circuit complexity, wikidata: Q1055112, node: 2R30KR3Z5G}
   - {name: Razborov's monotone circuit lower bound, kind: statement, wikipedia: Circuit complexity, wikidata: Q1055112, node: 2XH5VDJ426}
@@ -216,7 +216,7 @@ items:
   - {name: analysis of algorithms, kind: concept, wikipedia: Analysis of algorithms, wikidata: Q333464, node: 2TSJFYVFS8}
   - {name: asymptotic notation, kind: definition, wikipedia: Big O notation, wikidata: Q269878, node: 0TGV80E6A4}
   - {name: master theorem, kind: statement, wikipedia: Master theorem (analysis of algorithms), wikidata: Q922367, node: 3WNSDAEMQQ}
-  - {name: Akra–Bazzi method, kind: statement, wikipedia: Akra–Bazzi method, wikidata: Q420714}
+  - {name: Akra–Bazzi method, kind: statement, wikipedia: Akra–Bazzi method, wikidata: Q420714, node: VZ1J7KM4QS}
   - {name: amortized analysis, kind: concept, wikipedia: Amortized analysis, wikidata: Q331716, node: CPK0J4X52Y}
   - {name: Euclidean algorithm, kind: definition, decl: Nat.gcd, wikipedia: Euclidean algorithm, wikidata: Q230848, node: 0TRNT4X7J0}
   - {name: extended Euclidean algorithm, kind: definition, decl: Nat.xgcd, wikipedia: Extended Euclidean algorithm, wikidata: Q1362750, mathlib: [mathlib-undergrad, mathlib-overview], node: 0964YQFSA8}

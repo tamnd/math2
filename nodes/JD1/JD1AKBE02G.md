@@ -18,7 +18,10 @@ uses:
 
 ## Statement
 
-Let $L > 0$. Let $f \colon \R \to \R$ be a [[periodic function|0ATF6Q0633]] of period $2L$ that is piecewise smooth. This means that on each period, $f$ has finitely many break points, and between them $f$ is continuously differentiable with one-sided limits of $f$ and $f'$ at the break points.
+Let $L > 0$.
+Let $f \colon \R \to \R$ be a [[periodic function|0ATF6Q0633]] of period $2L$ that is piecewise smooth.
+This means that on each period, $f$ has finitely many break points.
+Between them $f$ is continuously differentiable, and $f$ and $f'$ have one-sided limits at the break points.
 
 Let $F(t)$ be the [[Fourier series|G12KXDHPPS]] of $f$, with coefficients $a_n$ and $b_n$:
 

@@ -43,7 +43,7 @@ items:
   - {name: deflection of the vertical, kind: definition, wikipedia: Vertical deflection, wikidata: Q159914, node: Y3AWPW7AXM}
   - {name: isostasy, kind: concept, wikipedia: Isostasy, wikidata: Q188719, node: 7CJTGB6M0V}
   - {name: Airy and Pratt models of isostasy, kind: concept, wikipedia: Isostasy, wikidata: Q188719, node: 9W8W6DVCPX}
-  - {name: gravity inversion, kind: problem, wikipedia: Gravity anomaly, wikidata: Q1413914}
+  - {name: gravity inversion, kind: problem, wikipedia: Gravity anomaly, wikidata: Q1413914, node: QZ6EPBTEHT}
   - {name: non-uniqueness of potential field inversion, kind: statement, wikipedia: Inverse problem, wikidata: Q1567213, node: FE0W9KSV6S}
   # Earth rotation and tides
   - {name: Earth's rotation, kind: concept, wikipedia: Earth's rotation, wikidata: Q244743, node: EF1Q2JF8QH}

@@ -48,8 +48,8 @@ items:
   # Locally compact groups and Haar measure
   - {name: locally compact group, kind: definition, wikipedia: Locally compact group, wikidata: Q2147620, node: AHV05ZBCYW}
   - {name: Haar measure, kind: definition, decl: MeasureTheory.Measure.IsHaarMeasure, wikipedia: Haar measure, wikidata: Q1162676, node: VY0HXD3GC4}
-  - {name: existence of Haar measure, kind: statement, decl: MeasureTheory.Measure.haarMeasure, wikipedia: Haar measure, wikidata: Q1162676, mathlib: [mathlib-overview]}
-  - {name: uniqueness of Haar measure, kind: statement, decl: MeasureTheory.Measure.isMulLeftInvariant_eq_smul, wikipedia: Haar measure, wikidata: Q1162676}
+  - {name: existence of Haar measure, kind: statement, decl: MeasureTheory.Measure.haarMeasure, wikipedia: Haar measure, wikidata: Q1162676, mathlib: [mathlib-overview], node: 4BJTFEM295}
+  - {name: uniqueness of Haar measure, kind: statement, decl: MeasureTheory.Measure.isMulLeftInvariant_eq_smul, wikipedia: Haar measure, wikidata: Q1162676, node: WSW3B6KNW1}
   - {name: modular function, kind: definition, wikipedia: Haar measure, wikidata: Q1162676, node: 63TX60RTRQ}
   - {name: unimodular group, kind: definition, wikipedia: Haar measure, wikidata: Q1162676, node: CXG6JZGMCK}
   - {name: lattice in a locally compact group, kind: definition, wikipedia: Lattice (discrete subgroup), wikidata: Q6497088, node: NS2057MFWP}

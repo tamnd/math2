@@ -111,7 +111,7 @@ items:
   - {name: Hörmander–Mikhlin multiplier theorem, kind: statement, wikipedia: Multiplier (Fourier analysis), wikidata: Q6935014, node: F5V7CXW30E}
   - {name: Fefferman's ball multiplier theorem, kind: statement, wikipedia: Bochner–Riesz mean, wikidata: Q4936247, node: 4A5MJY4XPV}
   - {name: Bochner–Riesz means, kind: definition, wikipedia: Bochner–Riesz mean, wikidata: Q4936247, node: AFS2DCWCD3}
-  - {name: Bochner–Riesz conjecture, kind: conjecture, wikipedia: Bochner–Riesz mean, wikidata: Q4936247}
+  - {name: Bochner–Riesz conjecture, kind: conjecture, wikipedia: Bochner–Riesz mean, wikidata: Q4936247, node: S15TWW97ZV}
   - {name: Carleson–Sjölin theorem, kind: statement, wikipedia: Bochner–Riesz mean, wikidata: Q4936247, node: Y1E9SJC3Y0}
   # Restriction, Kakeya and oscillatory integrals
   - {name: oscillatory integral, kind: definition, wikipedia: Oscillatory integral, wikidata: Q2036580, node: D5HZKE8E1A}
@@ -122,8 +122,8 @@ items:
   - {name: Stein–Tomas restriction theorem, kind: statement, wikipedia: Restriction conjecture, wikidata: Q135423966, node: ZZVWHNFY6F}
   - {name: Kakeya set, kind: definition, wikipedia: Kakeya set, wikidata: Q3054869}
   - {name: Besicovitch set of measure zero, kind: example, wikipedia: Kakeya set, wikidata: Q3054869, node: W94NZR7AR1}
-  - {name: Kakeya conjecture, kind: conjecture, wikipedia: Kakeya set, wikidata: Q3054869}
-  - {name: Kakeya maximal function conjecture, kind: conjecture, wikipedia: Kakeya set, wikidata: Q3054869}
+  - {name: Kakeya conjecture, kind: conjecture, wikipedia: Kakeya set, wikidata: Q3054869, node: JJVKD48833}
+  - {name: Kakeya maximal function conjecture, kind: conjecture, wikipedia: Kakeya set, wikidata: Q3054869, node: MHNNV51NDS}
   # Singular integrals and Calderón–Zygmund theory
   - {name: singular integral, kind: definition, wikipedia: Singular integral, wikidata: Q888122, node: HTMCEARGDD}
   - {name: conjugate function, kind: definition, wikipedia: Harmonic conjugate, wikidata: Q5659251, node: A1H48DDW49}

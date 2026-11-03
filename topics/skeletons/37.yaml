@@ -81,12 +81,12 @@ items:
   - {name: wandering set, kind: definition, wikipedia: Wandering set, wikidata: Q2506703, node: VNW5FHCQ2M}
   - {name: non-wandering set, kind: definition, wikipedia: Wandering set, wikidata: Q2506703, node: EY2W34JZA4}
   - {name: chain recurrence, kind: definition, wikipedia: Conley's fundamental theorem of dynamical systems, wikidata: Q122143261, node: 6MX5R482KJ}
-  - {name: Conley's fundamental theorem, kind: statement, wikipedia: Conley's fundamental theorem of dynamical systems, wikidata: Q122143261}
+  - {name: Conley's fundamental theorem, kind: statement, wikipedia: Conley's fundamental theorem of dynamical systems, wikidata: Q122143261, node: D07MBM0S3V}
   - {name: Conley index, kind: definition, wikipedia: Conley index theory, wikidata: Q5161242, node: B3AZ4W0NGT}
   - {name: topological transitivity, kind: definition, wikipedia: Mixing (mathematics), wikidata: Q4350572, node: FR49Y9GQHR}
   - {name: topological mixing, kind: definition, wikipedia: Mixing (mathematics), wikidata: Q4350572, node: B763QH5521}
   - {name: topological entropy, kind: definition, decl: Dynamics.coverEntropy, wikipedia: Topological entropy, wikidata: Q3055355, node: BDZYBXBFDE}
-  - {name: variational principle for entropy, kind: statement, wikipedia: Topological entropy, wikidata: Q3055355}
+  - {name: variational principle for entropy, kind: statement, wikipedia: Topological entropy, wikidata: Q3055355, node: HHR8HP3R6G}
   - {name: expansive homeomorphism, kind: definition, wikipedia: Expansive homeomorphism, wikidata: Q5420801, node: TAFJV2YWKR}
   - {name: shadowing lemma, kind: statement, wikipedia: Shadowing lemma, wikidata: Q7460736, node: N7C06T3KCZ}
   - {name: equicontinuous system, kind: definition, wikipedia: Equicontinuity, wikidata: Q249092, node: NSVEH6VMX8}
@@ -126,7 +126,7 @@ items:
   - {name: Smale horseshoe, kind: example, wikipedia: Horseshoe map, wikidata: Q557781, node: N63Z6EA6YS}
   - {name: solenoid, kind: example, wikipedia: Solenoid (mathematics), wikidata: Q3489713, node: 1PBQ6ARWND}
   - {name: Axiom A, kind: definition, wikipedia: Axiom A, wikidata: Q4059942, node: Z26Z4XZFVA}
-  - {name: spectral decomposition, kind: statement, wikipedia: Axiom A, wikidata: Q4059942}
+  - {name: spectral decomposition, kind: statement, wikipedia: Axiom A, wikidata: Q4059942, node: 6MTVY6NYY7}
   - {name: Morse–Smale system, kind: definition, wikipedia: Morse–Smale system, wikidata: Q6914276, node: 7AMQ8GS78Y}
   - {name: structural stability, kind: definition, wikipedia: Structural stability, wikidata: Q1648886, node: D4MGFAHVMT}
   - {name: stability conjecture, kind: statement, wikipedia: Structural stability, wikidata: Q1648886, node: XGNX9R7Q0Y}
@@ -168,8 +168,8 @@ items:
   - {name: Julia set, kind: definition, wikipedia: Julia set, wikidata: Q848427, node: 5M4S7P04GR}
   - {name: Fatou set, kind: definition, wikipedia: Julia set, wikidata: Q848427, node: C0N0XGC6GK}
   - {name: Mandelbrot set, kind: object, wikipedia: Mandelbrot set, wikidata: Q257, node: QSWSVYRCS1}
-  - {name: MLC conjecture, kind: conjecture, wikipedia: Mandelbrot set, wikidata: Q257}
-  - {name: density of hyperbolicity conjecture, kind: conjecture, wikipedia: Mandelbrot set, wikidata: Q257}
+  - {name: MLC conjecture, kind: conjecture, wikipedia: Mandelbrot set, wikidata: Q257, node: WTXN79ZK76}
+  - {name: density of hyperbolicity conjecture, kind: conjecture, wikipedia: Mandelbrot set, wikidata: Q257, node: E6E6DH35Y9}
   - {name: Sullivan's no wandering domains theorem, kind: statement, wikipedia: No-wandering-domain theorem, wikidata: Q4455025, node: C9FDR4BGMG}
   - {name: classification of Fatou components, kind: statement, wikipedia: Classification of Fatou components, wikidata: Q4223035, node: FA37X4AFFB}
   - {name: Siegel disc, kind: definition, wikipedia: Siegel disc, wikidata: Q4162128, node: KNDYA9T8ZK}

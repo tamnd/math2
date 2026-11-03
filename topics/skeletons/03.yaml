@@ -113,7 +113,7 @@ items:
   - {name: smn theorem, kind: statement, wikipedia: Smn theorem, wikidata: Q1766814, node: YWX4FCFPAP}
   - {name: universal Turing machine, kind: object, wikipedia: Universal Turing machine, wikidata: Q2703890, node: TC69PEHAX7}
   - {name: Kleene's recursion theorem, kind: statement, decl: Nat.Partrec.Code.fixed_point₂, wikipedia: Kleene's recursion theorem, wikidata: Q1933521, mathlib: [mathlib-1000], node: F3Z30M606H}
-  - {name: halting problem, kind: statement, decl: ComputablePred.halting_problem, wikipedia: Halting problem, wikidata: Q622849, mathlib: [mathlib-overview]}
+  - {name: halting problem, kind: statement, decl: ComputablePred.halting_problem, wikipedia: Halting problem, wikidata: Q622849, mathlib: [mathlib-overview], node: Z7TN2B35B0}
   - {name: Rice's theorem, kind: statement, decl: ComputablePred.rice, wikipedia: Rice's theorem, wikidata: Q1893717, mathlib: [mathlib-overview, mathlib-1000], node: AKDR5YBBE2}
   - {name: computable set, kind: definition, wikipedia: Computable set, wikidata: Q877945, node: PPGD5KW8JC}
   - {name: computably enumerable set, kind: definition, wikipedia: Computably enumerable set, wikidata: Q676835, node: TN9G24VABN}

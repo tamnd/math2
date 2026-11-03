@@ -79,7 +79,7 @@ items:
   - {name: Löwner–John theorem, kind: statement, wikipedia: John ellipsoid, wikidata: Q1699024, node: TM5SYH4XHY}
   - {name: Dvoretzky's theorem, kind: statement, wikipedia: Dvoretzky's theorem, wikidata: Q5317821, node: NRPQP49N9F}
   - {name: Busemann–Petty problem, kind: problem, wikipedia: Busemann–Petty problem, wikidata: Q5001330, node: MV58A1F52E}
-  - {name: Kakeya problem, kind: problem, wikipedia: Kakeya set, wikidata: Q3054869}
+  - {name: Kakeya problem, kind: problem, wikipedia: Kakeya set, wikidata: Q3054869, node: WZ42B0SAVM}
   - {name: Steiner symmetrization, kind: definition, wikipedia: Isoperimetric inequality, wikidata: Q617417, node: 8BMM456H7G}
   - {name: intersection body, kind: definition, wikipedia: Busemann–Petty problem, wikidata: Q5001330, node: Y4ZE8FVZ8D}
   - {name: projection body, kind: definition, wikipedia: Projection body, wikidata: Q7249443, node: G7WP728SZH}
@@ -132,7 +132,7 @@ items:
   - {name: Steinitz's theorem, kind: statement, wikipedia: Steinitz's theorem, wikidata: Q7606897, node: 2PYAZX5VD4}
   - {name: Balinski's theorem, kind: statement, wikipedia: Balinski's theorem, wikidata: Q32182, node: YBNZWCG8AC}
   - {name: Hirsch conjecture, kind: counterexample, wikipedia: Hirsch conjecture, wikidata: Q2993326, node: ZBVJ4B41AX}
-  - {name: polynomial Hirsch conjecture, kind: conjecture, wikipedia: Hirsch conjecture, wikidata: Q2993326}
+  - {name: polynomial Hirsch conjecture, kind: conjecture, wikipedia: Hirsch conjecture, wikidata: Q2993326, node: JFVWWWW3Z9}
   - {name: Schlegel diagram, kind: concept, wikipedia: Schlegel diagram, wikidata: Q2004228, node: S2JE8M3FMP}
   - {name: Gale diagram, kind: concept, wikipedia: Gale diagram, wikidata: Q99675552, node: KFCXGKK288}
   - {name: oriented matroid, kind: definition, wikipedia: Oriented matroid, wikidata: Q16155113, node: R5EB9NKQ5M}
@@ -158,7 +158,7 @@ items:
   - {name: uniform polytope, kind: definition, wikipedia: Uniform polytope, wikidata: Q3887718, node: BZXHGNGQAX}
   - {name: Wythoff construction, kind: definition, wikipedia: Wythoff construction, wikidata: Q2995289, node: J4EDDYCXMR}
   - {name: abstract polytope, kind: definition, wikipedia: Abstract polytope, wikidata: Q4669958, node: WREPDZG7PF}
-  - {name: Cauchy's rigidity theorem for polytopes, kind: statement, wikipedia: Cauchy's theorem (geometry), wikidata: Q3527034}
+  - {name: Cauchy's rigidity theorem for polytopes, kind: statement, wikipedia: Cauchy's theorem (geometry), wikidata: Q3527034, node: CJ7KCDDF31}
   - {name: Alexandrov's theorem on polyhedra, kind: statement, wikipedia: Alexandrov's theorem on polyhedra, wikidata: Q17003552, node: ZCDWXVMDFN}
   - {name: Dehn invariant, kind: definition, wikipedia: Dehn invariant, wikidata: Q30587580, node: S0TGRX3ARS}
   - {name: Hilbert's third problem, kind: problem, wikipedia: Hilbert's third problem, wikidata: Q2667025, node: 81035XQ5HE}
@@ -218,7 +218,7 @@ items:
   - {name: Voronoi diagram, kind: definition, wikipedia: Voronoi diagram, wikidata: Q757267, node: QDNEBBVZ84}
   - {name: triangulation of a point set, kind: definition, wikipedia: Point-set triangulation, wikidata: Q17078161, node: V0B6C6TMWD}
   - {name: dissection problem, kind: problem, wikipedia: Dissection problem, wikidata: Q765035}
-  - {name: squaring the square, kind: problem, wikipedia: Squaring the square, wikidata: Q2994174}
+  - {name: squaring the square, kind: problem, wikipedia: Squaring the square, wikidata: Q2994174, node: 3MRX56NN16}
   - {name: Hilbert's eighteenth problem, kind: problem, wikipedia: Hilbert's eighteenth problem, wikidata: Q11059889, node: SDSGN4B6JD}
   # Discrete and combinatorial geometry
   - {name: discrete geometry, kind: concept, wikipedia: Discrete geometry, wikidata: Q906377, node: Q0RW86P85F}
@@ -233,7 +233,7 @@ items:
   - {name: Erdős–Szekeres theorem, kind: statement, wikipedia: Erdős–Szekeres theorem, wikidata: Q976607, node: 0SNJM8HSD3}
   - {name: no-three-in-line problem, kind: problem, wikipedia: No-three-in-line problem, wikidata: Q6580594, node: TS442VKWAG}
   - {name: Heilbronn triangle problem, kind: problem, wikipedia: Heilbronn triangle problem, wikidata: Q5699425, node: XT32T13KBY}
-  - {name: orchard-planting problem, kind: problem, wikipedia: Orchard-planting problem, wikidata: Q7100169}
+  - {name: orchard-planting problem, kind: problem, wikipedia: Orchard-planting problem, wikidata: Q7100169, node: VDT5VNVPCH}
   - {name: Danzer set, kind: problem, wikipedia: Danzer set, wikidata: Q65121675, node: MMHWS2TC2A}
   - {name: Erdős–Anning theorem, kind: statement, wikipedia: Erdős–Anning theorem, wikidata: Q3526982, node: G4C8V6K4VW}
   - {name: polygon triangulation, kind: concept, wikipedia: Polygon triangulation, wikidata: Q3045660, node: Q6KKBP3RRP}
@@ -242,13 +242,13 @@ items:
   - {name: inscribed square problem, kind: conjecture, wikipedia: Inscribed square problem, wikidata: Q2264221, node: J72DEZHNAW}
   - {name: Kakeya needle problem, kind: problem, wikipedia: Kakeya set, wikidata: Q3054869, node: WZ42B0SAVM}
   - {name: Borsuk–Ulam theorem in combinatorial geometry, kind: statement, wikipedia: Borsuk–Ulam theorem, wikidata: Q848092, node: QHJ0GBQE2E}
-  - {name: necklace splitting problem, kind: statement, wikipedia: Necklace splitting problem, wikidata: Q6985587}
+  - {name: necklace splitting problem, kind: statement, wikipedia: Necklace splitting problem, wikidata: Q6985587, node: WFS3PHFHA1}
   - {name: VC dimension of geometric set systems, kind: concept, wikipedia: Vapnik–Chervonenkis dimension, wikidata: Q2662236, node: KCFXR9K3GD}
-  - {name: epsilon-net, kind: definition, wikipedia: Ε-net (computational geometry), wikidata: Q8083987}
+  - {name: epsilon-net, kind: definition, wikipedia: Ε-net (computational geometry), wikidata: Q8083987, node: V2SBN1FNQV}
   - {name: geometric graph, kind: concept, wikipedia: Geometric graph theory, wikidata: Q1503271, node: HFJCAPWWD4}
   - {name: Fáry's theorem, kind: statement, wikipedia: Fáry's theorem, wikidata: Q4455031, node: JGT7T3A9PD}
   - {name: penny graph, kind: definition, wikipedia: Penny graph, wikidata: Q30592245, node: 6DG5BBQPRA}
-  - {name: rigidity theory, kind: concept, wikipedia: Structural rigidity, wikidata: Q7625050}
+  - {name: rigidity theory, kind: concept, wikipedia: Structural rigidity, wikidata: Q7625050, node: RHDAR5YY8S}
   - {name: discrete differential geometry, kind: concept, wikipedia: Discrete differential geometry, wikidata: Q958922, node: DK0A24WJKF}
   - {name: computational geometry, kind: concept, wikipedia: Computational geometry, wikidata: Q874709, node: KAT7K2NE9Z}
   - {name: convex hull algorithms, kind: concept, wikipedia: Convex hull algorithms, wikidata: Q5166520, node: R8071FWJRK}

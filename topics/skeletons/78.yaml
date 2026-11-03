@@ -98,8 +98,8 @@ items:
   - {name: dipole antenna radiation, kind: example, wikipedia: Dipole antenna, wikidata: Q1126859, node: WKGKJFB3KC}
   - {name: Hertzian dipole, kind: example, wikipedia: Dipole antenna, wikidata: Q1126859, node: K0NV8SE4QV}
   - {name: near and far field, kind: concept, wikipedia: Near and far field, wikidata: Q13405516, node: TVH1J6B1G9}
-  - {name: Lorentz reciprocity, kind: statement, wikipedia: Reciprocity (electromagnetism), wikidata: Q1747478}
-  - {name: equivalence principle of Schelkunoff, kind: statement, wikipedia: Surface equivalence principle, wikidata: Q105821516}
+  - {name: Lorentz reciprocity, kind: statement, wikipedia: Reciprocity (electromagnetism), wikidata: Q1747478, node: HXKWMFGBB3}
+  - {name: equivalence principle of Schelkunoff, kind: statement, wikipedia: Surface equivalence principle, wikidata: Q105821516, node: 3WXJ882Y4F}
   - {name: Chu–Harrington limit, kind: statement, wikipedia: Chu–Harrington limit, wikidata: Q5115112, node: 9ZZ468FN05}
   - {name: Wheeler–Feynman absorber theory, kind: concept, wikipedia: Wheeler–Feynman absorber theory, wikidata: Q3526772, node: 1GVQ2T5D0B}
   # Waveguides and resonators
@@ -111,7 +111,7 @@ items:
   - {name: cavity resonator, kind: concept, wikipedia: Microwave cavity, wikidata: Q5759014, node: Y3AYSV8AWD}
   - {name: optical fiber modes, kind: concept, wikipedia: Optical fiber, wikidata: Q162, node: QXJDCZGXGC}
   - {name: photonic crystal, kind: concept, wikipedia: Photonic crystal, wikidata: Q900150, node: 2PBQKKP2N5}
-  - {name: Bloch waves in photonic crystals, kind: statement, wikipedia: Bloch's theorem, wikidata: Q4454926}
+  - {name: Bloch waves in photonic crystals, kind: statement, wikipedia: Bloch's theorem, wikidata: Q4454926, node: JYR7Z44DST}
   - {name: whispering-gallery wave, kind: concept, wikipedia: Whispering-gallery wave, wikidata: Q7993947, node: JQYE9SWR7F}
   # Scattering
   - {name: electromagnetic scattering, kind: concept, wikipedia: Scattering, wikidata: Q210028, node: 8BQYB8H5CT}

@@ -200,7 +200,7 @@ items:
   - {name: rectifiable set, kind: definition, wikipedia: Rectifiable set, wikidata: Q3038340, node: 7N0GFMW05R}
   - {name: Besicovitch–Federer projection theorem, kind: statement, wikipedia: Besicovitch covering theorem, wikidata: Q137164, node: 8J8AW0TG9M}
   - {name: Kakeya set, kind: object, wikipedia: Kakeya set, wikidata: Q3054869, node: 6PEN7AKC7M}
-  - {name: Kakeya conjecture, kind: conjecture, wikipedia: Kakeya set, wikidata: Q3054869}
+  - {name: Kakeya conjecture, kind: conjecture, wikipedia: Kakeya set, wikidata: Q3054869, node: JJVKD48833}
   - {name: current, kind: definition, wikipedia: Current (mathematics), wikidata: Q3001145, node: 360H7MD9RD}
   - {name: varifold, kind: definition, wikipedia: Varifold, wikidata: Q7915890, node: N3QA80M44M}
   - {name: capacity of a set, kind: definition, wikipedia: Capacity of a set, wikidata: Q5034494, node: 4YZVFGJVSZ}

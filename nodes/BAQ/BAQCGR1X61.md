@@ -16,6 +16,8 @@ sources:
 
 ## Summary
 
-Take a [[continuous function|0X3WGX95FE]] $f$ on an interval and fix a base point $a$ in that interval. The integral function of $f$ with base point $a$ is the function $A$ that sends each $x$ in the interval to the [[definite integral|04TMP0XGMJ]] of $f$ from $a$ to $x$, that is $A(x) = \int_a^x f(t) \, dt$.
+Take a [[continuous function|0X3WGX95FE]] $f$ on an interval and fix a base point $a$ in that interval.
+The integral function of $f$ with base point $a$ is the function $A$ on the interval given by $A(x) = \int_a^x f(t) \, dt$.
+So $A(x)$ is the [[definite integral|04TMP0XGMJ]] of $f$ from $a$ to $x$.
 
 The upper limit $x$ is the input. The variable $t$ inside the integral is a dummy variable. The value $A(x)$ is the signed area under the graph of $f$ between $a$ and $x$.

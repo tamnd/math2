@@ -88,7 +88,7 @@ items:
   - {name: harmonic majorant, kind: definition, wikipedia: Subharmonic function, wikidata: Q753658, node: ZDHPQWWCQW}
   - {name: least harmonic majorant, kind: definition, wikipedia: Subharmonic function, wikidata: Q753658, node: G0H97JZRS9}
   - {name: Hadamard three-circle theorem for subharmonic functions, kind: statement, wikipedia: Hadamard three-circle theorem, wikidata: Q729359, node: TNMQDK0RR0}
-  - {name: Brelot–Cartan principle, kind: statement, wikipedia: Subharmonic function, wikidata: Q753658}
+  - {name: Brelot–Cartan principle, kind: statement, wikipedia: Subharmonic function, wikidata: Q753658, node: RJK6ZKNF6R}
   - {name: Phragmén–Lindelöf principle for subharmonic functions, kind: statement, wikipedia: Phragmén–Lindelöf principle, wikidata: Q4378868, node: 2GQKS3B3X0}
   - {name: Hartogs lemma for subharmonic functions, kind: statement, wikipedia: Subharmonic function, wikidata: Q753658, node: ZENZT8596D}
   - {name: superharmonic potential, kind: definition, wikipedia: Subharmonic function, wikidata: Q753658, node: AQ5RN6FFT0}
@@ -115,7 +115,7 @@ items:
   - {name: polar set, kind: definition, wikipedia: Polar set (potential theory), wikidata: Q7209102, node: C95QJ7YH5T}
   - {name: sets of capacity zero, kind: definition, wikipedia: Capacity of a set, wikidata: Q5034494, node: W9N1TR1X8P}
   - {name: quasi-everywhere, kind: definition, wikipedia: Capacity of a set, wikidata: Q5034494, node: 1X1WCNDA0J}
-  - {name: Evans potential, kind: statement, wikipedia: Polar set (potential theory), wikidata: Q7209102}
+  - {name: Evans potential, kind: statement, wikipedia: Polar set (potential theory), wikidata: Q7209102, node: 6K8GPMHWBB}
   - {name: removable sets for bounded harmonic functions, kind: statement, wikipedia: Polar set (potential theory), wikidata: Q7209102, node: QTX0GBZMT8}
   - {name: Frostman lemma, kind: statement, wikipedia: Frostman lemma, wikidata: Q5506220, node: FYNFT90NT2}
   - {name: capacity and Hausdorff dimension, kind: statement, wikipedia: Frostman lemma, wikidata: Q5506220, node: 77VNNV4VET}
@@ -150,9 +150,9 @@ items:
   - {name: Makarov's theorem on harmonic measure, kind: statement, wikipedia: Harmonic measure, wikidata: Q5659270, node: CM9BDNEA10}
   - {name: Bourgain's dimension bound for harmonic measure, kind: statement, wikipedia: Harmonic measure, wikidata: Q5659270, node: VGB11C8TTN}
   - {name: Riesz brothers theorem, kind: statement, wikipedia: F. and M. Riesz theorem, wikidata: Q3527067, node: X9V1E3V145}
-  - {name: Carleman estimate for harmonic measure, kind: statement, wikipedia: Harmonic measure, wikidata: Q5659270}
+  - {name: Carleman estimate for harmonic measure, kind: statement, wikipedia: Harmonic measure, wikidata: Q5659270, node: 2QDWHFCC4H}
   - {name: Beurling's projection theorem, kind: statement, wikipedia: Harmonic measure, wikidata: Q5659270, node: DDV6E39VSX}
-  - {name: Milloux problem, kind: problem, wikipedia: Harmonic measure, wikidata: Q5659270}
+  - {name: Milloux problem, kind: problem, wikipedia: Harmonic measure, wikidata: Q5659270, node: STBEEGVS59}
   # Planar potential theory
   - {name: harmonic conjugate, kind: definition, wikipedia: Harmonic conjugate, wikidata: Q5659251, node: 050F2FMTKF}
   - {name: real part of a holomorphic function is harmonic, kind: statement, decl: AnalyticAt.harmonicAt_re, wikipedia: Harmonic function, wikidata: Q599027, node: 031BG625Y3}
@@ -200,7 +200,7 @@ items:
   - {name: axiomatic potential theory, kind: concept, wikipedia: Potential theory, wikidata: Q1154848, node: YS7RF1PE42}
   - {name: harmonic space, kind: definition, wikipedia: Potential theory, wikidata: Q1154848, node: DWN0XEQHHK}
   - {name: Brelot space, kind: definition, wikipedia: Potential theory, wikidata: Q1154848, node: A51SQRPM5T}
-  - {name: Bauer harmonic space, kind: definition, wikipedia: Potential theory, wikidata: Q1154848}
+  - {name: Bauer harmonic space, kind: definition, wikipedia: Potential theory, wikidata: Q1154848, node: DWN0XEQHHK}
   - {name: balayage space, kind: definition, wikipedia: Balayage, wikidata: Q4850161, node: G9M1H5NNF6}
   - {name: H-cone, kind: definition, wikipedia: Potential theory, wikidata: Q1154848, node: Q5C1E10CSQ}
   # Extensions of potential theory

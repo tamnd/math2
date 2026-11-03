@@ -61,7 +61,7 @@ items:
   - {name: Willmore conjecture, kind: statement, wikipedia: Willmore conjecture, wikidata: Q17091514, node: 11MYA5W3KT}
   # Smooth manifolds and bundles
   - {name: smooth manifold, kind: definition, decl: IsManifold, wikipedia: Differentiable manifold, wikidata: Q3552958, mathlib: [mathlib-overview], node: F45VQ47GPV}
-  - {name: tangent space, kind: definition, decl: TangentSpace, wikipedia: Tangent space, wikidata: Q909601}
+  - {name: tangent space, kind: definition, decl: TangentSpace, wikipedia: Tangent space, wikidata: Q909601, node: QMM8X5Y930}
   - {name: tangent bundle, kind: definition, decl: TangentBundle, wikipedia: Tangent bundle, wikidata: Q746550, mathlib: [mathlib-overview], node: WY6K3P4YCG}
   - {name: differential of a smooth map, kind: definition, decl: mfderiv, wikipedia: Pushforward (differential), wikidata: Q1969983, node: 6P9PXQDSEN}
   - {name: diffeomorphism, kind: definition, decl: Diffeomorph, wikipedia: Diffeomorphism, wikidata: Q1058314, node: 0KZZ70ZHXP}

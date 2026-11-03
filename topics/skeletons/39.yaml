@@ -55,7 +55,7 @@ items:
   - {name: Binet's formula, kind: statement, wikipedia: Fibonacci sequence, wikidata: Q23835349, node: 0404D8TN7Y}
   - {name: Pell numbers, kind: example, wikipedia: Pell number, wikidata: Q1386491, node: JY4ZN779YG}
   - {name: Skolem–Mahler–Lech theorem, kind: statement, wikipedia: Skolem–Mahler–Lech theorem, wikidata: Q2374733, node: ZQFPVWMY4M}
-  - {name: Skolem problem, kind: problem, wikipedia: Skolem problem, wikidata: Q25304237}
+  - {name: Skolem problem, kind: problem, wikipedia: Skolem problem, wikidata: Q25304237, node: H20ESP3HCN}
   - {name: Akra–Bazzi theorem, kind: statement, decl: AkraBazziRecurrence.isTheta_asympBound, wikipedia: Akra–Bazzi method, wikidata: Q420714, node: VZ1J7KM4QS}
   # Nonlinear difference equations
   - {name: nonlinear difference equation, kind: concept, wikipedia: Recurrence relation, wikidata: Q740970, node: 7C7FBZGERM}
@@ -155,7 +155,7 @@ items:
   - {name: functional equation of the gamma function, kind: statement, decl: Real.Gamma_add_one, wikipedia: Gamma function, wikidata: Q190573, node: ZCB806EV8A}
   - {name: Euler's reflection formula, kind: statement, decl: Complex.Gamma_mul_Gamma_one_sub, wikipedia: Reflection formula, wikidata: Q4922429, node: WF7KQAQTS2}
   - {name: Legendre duplication formula, kind: statement, decl: Complex.Gamma_mul_Gamma_add_half, wikipedia: Multiplication theorem, wikidata: Q98831, node: CND4E1PY9V}
-  - {name: functional equation of the Jacobi theta function, kind: statement, decl: jacobiTheta_S_smul, wikipedia: Theta function, wikidata: Q1154787}
+  - {name: functional equation of the Jacobi theta function, kind: statement, decl: jacobiTheta_S_smul, wikipedia: Theta function, wikidata: Q1154787, node: XM695ZZ4FJ}
   - {name: dilogarithm five-term relation, kind: statement, wikipedia: Dilogarithm, wikidata: Q1290753, node: 6DHQTFAJ03}
   - {name: Poincaré's functional equation, kind: definition, wikipedia: Schröder's equation, wikidata: Q7432911, node: 3384ZV3PWM}
   # Functional inequalities and convexity

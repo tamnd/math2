@@ -25,7 +25,8 @@ Let $p_0, \dots, p_{n-1}$ and $f$ be [[continuous functions|0P27W9RW0G]] from $I
 Let $a \in I$ and let $b_0, \dots, b_{n-1}$ be real constants.
 Consider the [[linear differential equation of order n|0QQRP17Z7S]]
 $$y^{(n)} + p_{n-1}(x)\, y^{(n-1)} + \dots + p_1(x)\, y' + p_0(x)\, y = f(x).$$
-Then the [[initial value problem|075VBY4K4X]] given by this equation together with the conditions $y(a) = b_0, y'(a) = b_1, \dots, y^{(n-1)}(a) = b_{n-1}$ has one and only one [[solution|07VX34QXAV]] $y$ defined on all of $I$.
+Impose the conditions $y(a) = b_0, y'(a) = b_1, \dots, y^{(n-1)}(a) = b_{n-1}$.
+Then the [[initial value problem|075VBY4K4X]] given by this equation and these conditions has one and only one [[solution|07VX34QXAV]] $y$ defined on all of $I$.
 
 ## Remarks
 

@@ -16,7 +16,7 @@ items:
   - {name: event, kind: definition, wikipedia: Event (probability theory), wikidata: Q10290214, node: 031TPJVS74}
   - {name: sigma-algebra, kind: definition, wikipedia: Σ-algebra, wikidata: Q217357, node: 0SV8K0TDGY}
   - {name: pi-system, kind: definition, decl: IsPiSystem, wikipedia: Pi-system, wikidata: Q3962249, node: 4W9NM803BB}
-  - {name: Dynkin's pi-lambda theorem, kind: statement, decl: MeasurableSpace.DynkinSystem, wikipedia: Dynkin system, wikidata: Q1935689}
+  - {name: Dynkin's pi-lambda theorem, kind: statement, decl: MeasurableSpace.DynkinSystem, wikipedia: Dynkin system, wikidata: Q1935689, node: BBHM1A36M7}
   - {name: random variable, kind: definition, wikipedia: Random variable, wikidata: Q176623, node: 0PNRKMRC55}
   - {name: law of a random variable, kind: definition, decl: MeasureTheory.Measure.map, wikipedia: Probability distribution, wikidata: Q200726, node: 01EQPZ6RYZ}
   - {name: cumulative distribution function, kind: definition, decl: ProbabilityTheory.cdf, wikipedia: Cumulative distribution function, wikidata: Q386228, node: 0H8H7ZTHW2}
@@ -157,7 +157,7 @@ items:
   - {name: Wiener–Khinchin theorem, kind: statement, wikipedia: Wiener–Khinchin theorem, wikidata: Q2301141, node: 3ZXN26PW4G}
   - {name: self-similar process, kind: definition, wikipedia: Self-similar process, wikidata: Q7448216, node: RASDTDEKP7}
   - {name: empirical process, kind: definition, wikipedia: Empirical process, wikidata: Q5374250, node: XKFG1676CG}
-  - {name: optimal stopping, kind: problem, wikipedia: Optimal stopping, wikidata: Q7098950}
+  - {name: optimal stopping, kind: problem, wikipedia: Optimal stopping, wikidata: Q7098950, node: CDTBGPT0SW}
   - {name: secretary problem, kind: problem, wikipedia: Secretary problem, wikidata: Q1372364, node: SXE9KQ02YE}
   # Martingales
   - {name: martingale, kind: definition, decl: MeasureTheory.Martingale, wikipedia: Martingale (probability theory), wikidata: Q534112, mathlib: [mathlib-overview], node: 0D0GBNDKDH}
@@ -253,8 +253,8 @@ items:
   - {name: Gaussian free field, kind: definition, wikipedia: Gaussian free field, wikidata: Q5527838, node: EGCDMWYKQB}
   - {name: Kardar–Parisi–Zhang equation, kind: definition, wikipedia: Kardar–Parisi–Zhang equation, wikidata: Q6369122, node: RQ196EHXKC}
   - {name: random matrix, kind: definition, wikipedia: Random matrix, wikidata: Q176604, node: 1HS4RT7HK5}
-  - {name: Wigner semicircle distribution, kind: statement, wikipedia: Wigner semicircle distribution, wikidata: Q2246294}
-  - {name: Marchenko–Pastur distribution, kind: statement, wikipedia: Marchenko–Pastur distribution, wikidata: Q6756972}
+  - {name: Wigner semicircle distribution, kind: statement, wikipedia: Wigner semicircle distribution, wikidata: Q2246294, node: 3QTT95DMFH}
+  - {name: Marchenko–Pastur distribution, kind: statement, wikipedia: Marchenko–Pastur distribution, wikidata: Q6756972, node: DCK63WTY5E}
   - {name: Tracy–Widom distribution, kind: definition, wikipedia: Tracy–Widom distribution, wikidata: Q7831889, node: 89ZY5YRETE}
   - {name: Pólya urn model, kind: example, wikipedia: Pólya urn model, wikidata: Q2120628, node: DHPXDFEEMF}
   - {name: Chinese restaurant process, kind: example, wikipedia: Chinese restaurant process, wikidata: Q4407236, node: 2SEF8QTYQF}

@@ -124,7 +124,7 @@ items:
   - {name: F-test, kind: concept, wikipedia: F-test, wikidata: Q1386253, node: 8MTVCMAATD}
   - {name: Pearson's chi-squared test, kind: concept, wikipedia: Pearson's chi-squared test, wikidata: Q2336256, node: 0EN0V3NY20}
   - {name: Fisher's exact test, kind: concept, wikipedia: Fisher's exact test, wikidata: Q41492, node: J6JP5CJNPX}
-  - {name: multiple comparisons problem, kind: problem, wikipedia: Multiple comparisons problem, wikidata: Q1038757}
+  - {name: multiple comparisons problem, kind: problem, wikipedia: Multiple comparisons problem, wikidata: Q1038757, node: SHQVSQSMPM}
   - {name: family-wise error rate, kind: definition, wikipedia: Family-wise error rate, wikidata: Q5433418, node: GQCY1N8JZT}
   - {name: Bonferroni correction, kind: concept, wikipedia: Bonferroni correction, wikidata: Q385989, node: 8GRD2TMJRR}
   - {name: false discovery rate and the Benjamini–Hochberg procedure, kind: concept, wikipedia: False discovery rate, wikidata: Q5432696, node: 6CHHCTGQ18}

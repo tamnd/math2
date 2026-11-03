@@ -20,7 +20,7 @@ The number $D(P \,\|\, Q)$ is the *Kullback–Leibler divergence* of $P$ from $Q
 ## Remarks
 
 The integral is well defined: with $f = dP/dQ$, it equals $\int f \log f \, dQ$, and $f \log f \ge -1/e$, so its negative part is integrable.
-By Jensen's inequality it is non-negative, with equality exactly when $P = Q$; this is Gibbs' inequality.
+By Jensen's inequality it is non-negative, with equality exactly when $P = Q$; this is [[Gibbs' inequality|55WNT5655E]].
 
 For distributions on a countable set with [[probability mass functions|0D6J4B671D]] $p$ and $q$,
 $$D(P \,\|\, Q) = \sum_{x} p(x) \log \frac{p(x)}{q(x)},$$
@@ -36,4 +36,4 @@ These differ, so $D$ is not symmetric and is not a metric.
 Example of the infinite case: let $Q$ be the Dirac measure at $0$ and $P$ the Bernoulli law with parameter $1/2$.
 Then $P(\set{1}) > 0 = Q(\set{1})$, so $P$ is not absolutely continuous with respect to $Q$, and $D(P \,\|\, Q) = \infty$.
 
-Pinsker's inequality bounds the total variation distance by $\sqrt{D(P \,\|\, Q)/2}$.
+[[Pinsker's inequality|SWKBN9SHCF]] bounds the total variation distance by $\sqrt{D(P \,\|\, Q)/2}$.

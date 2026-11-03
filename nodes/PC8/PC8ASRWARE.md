@@ -16,11 +16,11 @@ same_as:
 
 Let $X$ be a [[random variable|0PNRKMRC55]] with values in a finite set $\mathcal{X}$ and law $p$, and let $D \ge 2$ be an integer.
 Assume that $p(x) > 0$ for every $x \in \mathcal{X}$.
-Let $H_D(X) = -\sum_{x \in \mathcal{X}} p(x) \log_D p(x)$ be its entropy in base $D$.
+Let $H_D(X) = -\sum_{x \in \mathcal{X}} p(x) \log_D p(x)$ be its [[entropy|Y86E072V0V]] in base $D$.
 For a code $C$ that maps each $x \in \mathcal{X}$ to a string $C(x)$ over a $D$-symbol alphabet, let $L(C) = \sum_{x} p(x) \abs{C(x)}$ be its [[expected|0WQNRCNY3M]] length.
 
-1. Every uniquely decodable code $C$ for $X$ satisfies $L(C) \ge H_D(X)$.
-2. There is a prefix code $C$ for $X$ with $L(C) < H_D(X) + 1$.
+1. Every [[uniquely decodable code|MWBRNBXW1Y]] $C$ for $X$ satisfies $L(C) \ge H_D(X)$.
+2. There is a [[prefix code|GNB3T6TD0M]] $C$ for $X$ with $L(C) < H_D(X) + 1$.
 3. Let $X_1, X_2, \dots$ be independent with the same law as $X$. Let $L_k^*$ be the least expected length of a uniquely decodable code for $(X_1, \dots, X_k)$. Then $L_k^* / k \to H_D(X)$ as $k \to \infty$.
 
 ## Remarks
@@ -46,7 +46,7 @@ So entropy is exactly the limit of lossless data compression.
 ### L2 human
 
 Part 1 is the converse and part 2 the achievability; together they fix the optimal compression rate as $H_D(X)$ per symbol.
-The Huffman code gives an optimal prefix code for each block, so it also achieves the bound of part 3.
+The [[Huffman code|JS11GWK9HF]] gives an optimal prefix code for each block, so it also achieves the bound of part 3.
 Shannon also stated a fixed-length version.
 Blocks of $k$ source symbols can be coded with about $k H_D(X)$ code symbols and an error probability tending to $0$.
 This fails at any rate below $H_D(X)$ code symbols per source symbol.

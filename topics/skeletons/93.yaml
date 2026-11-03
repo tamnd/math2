@@ -7,141 +7,141 @@ sources:
   wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
 items:
   # General systems theory
-  - {name: control theory, kind: concept, wikipedia: Control theory, wikidata: Q6501221}
-  - {name: systems theory, kind: concept, wikipedia: Systems theory, wikidata: Q269699}
-  - {name: dynamical system with inputs and outputs, kind: definition, wikipedia: State-space representation, wikidata: Q230945}
-  - {name: linear system, kind: definition, wikipedia: Linear system, wikidata: Q1072174}
-  - {name: linear time-invariant system, kind: definition, wikipedia: Linear time-invariant system, wikidata: Q1808960}
-  - {name: time-variant system, kind: definition, wikipedia: Time-variant system, wikidata: Q7804840}
-  - {name: causal system, kind: definition, wikipedia: Causal system, wikidata: Q1523340}
-  - {name: impulse response, kind: definition, wikipedia: Impulse response, wikidata: Q1139726}
-  - {name: transfer function, kind: definition, wikipedia: Transfer function, wikidata: Q334269}
-  - {name: state-transition matrix, kind: definition, wikipedia: State-transition matrix, wikidata: Q7602993}
-  - {name: feedback, kind: concept, wikipedia: Feedback, wikidata: Q183635}
-  - {name: closed-loop transfer function, kind: definition, wikipedia: Closed-loop transfer function, wikidata: Q1477205}
-  - {name: signal-flow graph, kind: definition, wikipedia: Signal-flow graph, wikidata: Q1786523}
-  - {name: Mason's gain formula, kind: statement, wikipedia: Mason's gain formula, wikidata: Q2273232}
-  - {name: dissipative system, kind: concept, wikipedia: Dissipative system, wikidata: Q596577}
+  - {name: control theory, kind: concept, wikipedia: Control theory, wikidata: Q6501221, node: JXZ0GZXET1}
+  - {name: systems theory, kind: concept, wikipedia: Systems theory, wikidata: Q269699, node: 3KHQ11YE4Q}
+  - {name: dynamical system with inputs and outputs, kind: definition, wikipedia: State-space representation, wikidata: Q230945, node: ZPDTVZQN5K}
+  - {name: linear system, kind: definition, wikipedia: Linear system, wikidata: Q1072174, node: 21FN2KSTJZ}
+  - {name: linear time-invariant system, kind: definition, wikipedia: Linear time-invariant system, wikidata: Q1808960, node: 6J9MPVHSMF}
+  - {name: time-variant system, kind: definition, wikipedia: Time-variant system, wikidata: Q7804840, node: S4THJVE1AJ}
+  - {name: causal system, kind: definition, wikipedia: Causal system, wikidata: Q1523340, node: NSR7N8A71M}
+  - {name: impulse response, kind: definition, wikipedia: Impulse response, wikidata: Q1139726, node: 3X3SYVM7R5}
+  - {name: transfer function, kind: definition, wikipedia: Transfer function, wikidata: Q334269, node: 86JKV3TRFD}
+  - {name: state-transition matrix, kind: definition, wikipedia: State-transition matrix, wikidata: Q7602993, node: 6Z04DG80FS}
+  - {name: feedback, kind: concept, wikipedia: Feedback, wikidata: Q183635, node: 7NYES2D0Z4}
+  - {name: closed-loop transfer function, kind: definition, wikipedia: Closed-loop transfer function, wikidata: Q1477205, node: RYTSV821V8}
+  - {name: signal-flow graph, kind: definition, wikipedia: Signal-flow graph, wikidata: Q1786523, node: 4YHZJGMGFC}
+  - {name: Mason's gain formula, kind: statement, wikipedia: Mason's gain formula, wikidata: Q2273232, node: 7RGCG5QWRB}
+  - {name: dissipative system, kind: concept, wikipedia: Dissipative system, wikidata: Q596577, node: RSZFWWYP9E}
   # Controllability and observability
   - {name: controllability, kind: definition, wikipedia: Controllability, wikidata: Q1331104, node: A9WFM77Z4P}
-  - {name: Kalman controllability rank condition, kind: statement, wikipedia: Controllability, wikidata: Q1331104}
-  - {name: controllability Gramian, kind: definition, wikipedia: Controllability Gramian, wikidata: Q83587}
+  - {name: Kalman controllability rank condition, kind: statement, wikipedia: Controllability, wikidata: Q1331104, node: 9NSCZ2KBEB}
+  - {name: controllability Gramian, kind: definition, wikipedia: Controllability Gramian, wikidata: Q83587, node: 703MCKB5SZ}
   - {name: observability, kind: definition, wikipedia: Observability, wikidata: Q1369844, node: C4HN3EAQWM}
-  - {name: observability Gramian, kind: definition, wikipedia: Observability Gramian, wikidata: Q7075420}
-  - {name: duality of controllability and observability, kind: statement, wikipedia: Observability, wikidata: Q1369844}
-  - {name: Hautus lemma, kind: statement, wikipedia: Hautus lemma, wikidata: Q17021408}
-  - {name: stabilizability, kind: definition, wikipedia: Controllability, wikidata: Q1331104}
-  - {name: detectability, kind: definition, wikipedia: Observability, wikidata: Q1369844}
-  - {name: Kalman decomposition, kind: statement, wikipedia: Kalman decomposition, wikidata: Q9205611}
-  - {name: controllable canonical form, kind: definition, wikipedia: State-space representation, wikidata: Q230945}
-  - {name: Brunovsky normal form, kind: statement, wikipedia: Controllability, wikidata: Q1331104}
-  - {name: output controllability, kind: definition, wikipedia: Controllability, wikidata: Q1331104}
+  - {name: observability Gramian, kind: definition, wikipedia: Observability Gramian, wikidata: Q7075420, node: 9YEW705KHA}
+  - {name: duality of controllability and observability, kind: statement, wikipedia: Observability, wikidata: Q1369844, node: 3RJZAP1KQG}
+  - {name: Hautus lemma, kind: statement, wikipedia: Hautus lemma, wikidata: Q17021408, node: 1ZD7GE643S}
+  - {name: stabilizability, kind: definition, wikipedia: Controllability, wikidata: Q1331104, node: C2KM20J9DZ}
+  - {name: detectability, kind: definition, wikipedia: Observability, wikidata: Q1369844, node: PE9HCFHXB5}
+  - {name: Kalman decomposition, kind: statement, wikipedia: Kalman decomposition, wikidata: Q9205611, node: EJVKSYHSMJ}
+  - {name: controllable canonical form, kind: definition, wikipedia: State-space representation, wikidata: Q230945, node: VZACRS73RY}
+  - {name: Brunovsky normal form, kind: statement, wikipedia: Controllability, wikidata: Q1331104, node: J02XAHCZ1W}
+  - {name: output controllability, kind: definition, wikipedia: Controllability, wikidata: Q1331104, node: YWAC5TXSRY}
   # Realization theory and model reduction
-  - {name: realization of a transfer function, kind: definition, wikipedia: Realization (systems), wikidata: Q6554322}
-  - {name: minimal realization, kind: statement, wikipedia: Realization (systems), wikidata: Q6554322}
-  - {name: Markov parameters and the Hankel matrix of a system, kind: definition, wikipedia: Realization (systems), wikidata: Q6554322}
-  - {name: Hankel singular value, kind: definition, wikipedia: Hankel singular value, wikidata: Q5648530}
-  - {name: balanced truncation, kind: definition, wikipedia: Model order reduction, wikidata: Q12202921}
-  - {name: model order reduction, kind: concept, wikipedia: Model order reduction, wikidata: Q12202921}
-  - {name: system identification, kind: concept, wikipedia: System identification, wikidata: Q1366192}
+  - {name: realization of a transfer function, kind: definition, wikipedia: Realization (systems), wikidata: Q6554322, node: WDVJXWV3RF}
+  - {name: minimal realization, kind: statement, wikipedia: Realization (systems), wikidata: Q6554322, node: 3SNPPX5SAZ}
+  - {name: Markov parameters and the Hankel matrix of a system, kind: definition, wikipedia: Realization (systems), wikidata: Q6554322, node: 9WC6A9VMZD}
+  - {name: Hankel singular value, kind: definition, wikipedia: Hankel singular value, wikidata: Q5648530, node: VCPQ0B99MA}
+  - {name: balanced truncation, kind: definition, wikipedia: Model order reduction, wikidata: Q12202921, node: H5H7RRQNX6}
+  - {name: model order reduction, kind: concept, wikipedia: Model order reduction, wikidata: Q12202921, node: D54SM8Q12V}
+  - {name: system identification, kind: concept, wikipedia: System identification, wikidata: Q1366192, node: EK9DDSWDS6}
   - {name: Volterra and Wiener series of nonlinear systems, kind: definition, wikipedia: Wiener series, wikidata: Q4402522}
   # Feedback design for linear systems
-  - {name: full state feedback, kind: definition, wikipedia: Full state feedback, wikidata: Q925922}
-  - {name: pole placement theorem, kind: statement, wikipedia: Full state feedback, wikidata: Q925922}
-  - {name: Ackermann's formula, kind: statement, wikipedia: Ackermann's formula, wikidata: Q42417197}
-  - {name: state observer, kind: definition, wikipedia: State observer, wikidata: Q818544}
-  - {name: Luenberger observer, kind: definition, wikipedia: State observer, wikidata: Q818544}
+  - {name: full state feedback, kind: definition, wikipedia: Full state feedback, wikidata: Q925922, node: AWDQ3ES2S3}
+  - {name: pole placement theorem, kind: statement, wikipedia: Full state feedback, wikidata: Q925922, node: SCY6X79XVP}
+  - {name: Ackermann's formula, kind: statement, wikipedia: Ackermann's formula, wikidata: Q42417197, node: JT0KWAC6P0}
+  - {name: state observer, kind: definition, wikipedia: State observer, wikidata: Q818544, node: TQ7E9S194T}
+  - {name: Luenberger observer, kind: definition, wikipedia: State observer, wikidata: Q818544, node: N1NX5VFS56}
   - {name: separation principle, kind: statement, wikipedia: Separation principle, wikidata: Q2271572, node: TMEKPXMC7V}
-  - {name: PID controller, kind: definition, wikipedia: PID controller, wikidata: Q716829}
-  - {name: lead–lag compensator, kind: definition, wikipedia: Lead–lag compensator, wikidata: Q6508813}
-  - {name: Smith predictor, kind: definition, wikipedia: Smith predictor, wikidata: Q7545392}
-  - {name: Youla–Kučera parametrization, kind: statement, wikipedia: Youla–Kucera parametrization, wikidata: Q8057774}
-  - {name: minimum phase system, kind: definition, wikipedia: Minimum phase, wikidata: Q489593}
-  - {name: zeros and poles of a system, kind: definition, wikipedia: Zeros and poles, wikidata: Q899731}
+  - {name: PID controller, kind: definition, wikipedia: PID controller, wikidata: Q716829, node: 5ZR8VVTKF6}
+  - {name: lead–lag compensator, kind: definition, wikipedia: Lead–lag compensator, wikidata: Q6508813, node: E15NAJRK3M}
+  - {name: Smith predictor, kind: definition, wikipedia: Smith predictor, wikidata: Q7545392, node: 6ZD2Z78YRM}
+  - {name: Youla–Kučera parametrization, kind: statement, wikipedia: Youla–Kucera parametrization, wikidata: Q8057774, node: 6B8HSTN543}
+  - {name: minimum phase system, kind: definition, wikipedia: Minimum phase, wikidata: Q489593, node: 7PWB4YS8PA}
+  - {name: zeros and poles of a system, kind: definition, wikipedia: Zeros and poles, wikidata: Q899731, node: NSGTEGWZY0}
   # Discrete-time, sampled and hybrid systems
   - {name: Z-transform, kind: definition, wikipedia: Z-transform, wikidata: Q135810, node: 5FY0JQGHYZ}
-  - {name: zero-order hold, kind: definition, wikipedia: Zero-order hold, wikidata: Q2907060}
-  - {name: discretization of linear systems, kind: statement, wikipedia: Discretization, wikidata: Q17007827}
+  - {name: zero-order hold, kind: definition, wikipedia: Zero-order hold, wikidata: Q2907060, node: PQ5FJ334WR}
+  - {name: discretization of linear systems, kind: statement, wikipedia: Discretization, wikidata: Q17007827, node: 3Z1Z7TDPHZ}
   - {name: final value theorem, kind: statement, wikipedia: Final value theorem, wikidata: Q4272645, node: BDHADVMJ8G}
   - {name: hybrid system, kind: definition, wikipedia: Hybrid system, wikidata: Q2665508, node: 1EW58ZYR8Y}
-  - {name: switched system, kind: definition, wikipedia: Hybrid system, wikidata: Q2665508}
-  - {name: descriptor system, kind: definition, wikipedia: Differential-algebraic system of equations, wikidata: Q955889}
-  - {name: distributed parameter system, kind: definition, wikipedia: Distributed parameter system, wikidata: Q1482001}
-  - {name: supervisory control theory of discrete event systems, kind: concept, wikipedia: Supervisory control theory, wikidata: Q7644327}
+  - {name: switched system, kind: definition, wikipedia: Hybrid system, wikidata: Q2665508, node: 7RFWKNDQ67}
+  - {name: descriptor system, kind: definition, wikipedia: Differential-algebraic system of equations, wikidata: Q955889, node: 2SD738YAEH}
+  - {name: distributed parameter system, kind: definition, wikipedia: Distributed parameter system, wikidata: Q1482001, node: G4QN6KV6EZ}
+  - {name: supervisory control theory of discrete event systems, kind: concept, wikipedia: Supervisory control theory, wikidata: Q7644327, node: NQNMXGHZDR}
   # Frequency-domain methods
-  - {name: frequency response, kind: definition, wikipedia: Frequency response, wikidata: Q1054694}
-  - {name: Bode plot, kind: definition, wikipedia: Bode plot, wikidata: Q245627}
-  - {name: Nyquist plot, kind: definition, wikipedia: Nyquist stability criterion, wikidata: Q1756793}
-  - {name: Nichols plot, kind: definition, wikipedia: Nichols plot, wikidata: Q280308}
-  - {name: Nyquist stability criterion, kind: statement, wikipedia: Nyquist stability criterion, wikidata: Q1756793}
-  - {name: root locus, kind: definition, wikipedia: Root locus analysis, wikidata: Q957693}
-  - {name: gain and phase margin, kind: definition, wikipedia: Phase margin, wikidata: Q7180955}
-  - {name: Bode's sensitivity integral, kind: statement, wikipedia: Bode's sensitivity integral, wikidata: Q4936423}
-  - {name: sensitivity and complementary sensitivity functions, kind: definition, wikipedia: Sensitivity (control systems), wikidata: Q7451068}
-  - {name: describing function, kind: definition, wikipedia: Describing function, wikidata: Q1925419}
+  - {name: frequency response, kind: definition, wikipedia: Frequency response, wikidata: Q1054694, node: BMY8QZSD9H}
+  - {name: Bode plot, kind: definition, wikipedia: Bode plot, wikidata: Q245627, node: EMVW7N54FE}
+  - {name: Nyquist plot, kind: definition, wikipedia: Nyquist stability criterion, wikidata: Q1756793, node: Z7SPHAWMDX}
+  - {name: Nichols plot, kind: definition, wikipedia: Nichols plot, wikidata: Q280308, node: V4178DP7FD}
+  - {name: Nyquist stability criterion, kind: statement, wikipedia: Nyquist stability criterion, wikidata: Q1756793, node: EZ1HMS875F}
+  - {name: root locus, kind: definition, wikipedia: Root locus analysis, wikidata: Q957693, node: 69VWJKXK74}
+  - {name: gain and phase margin, kind: definition, wikipedia: Phase margin, wikidata: Q7180955, node: J39ZSFW0YF}
+  - {name: Bode's sensitivity integral, kind: statement, wikipedia: Bode's sensitivity integral, wikidata: Q4936423, node: DQV6J5N5A4}
+  - {name: sensitivity and complementary sensitivity functions, kind: definition, wikipedia: Sensitivity (control systems), wikidata: Q7451068, node: 7J72HJX4T7}
+  - {name: describing function, kind: definition, wikipedia: Describing function, wikidata: Q1925419, node: F1Y5PYXKPS}
   # Stability of control systems
-  - {name: BIBO stability, kind: definition, wikipedia: BIBO stability, wikidata: Q744737}
+  - {name: BIBO stability, kind: definition, wikipedia: BIBO stability, wikidata: Q744737, node: DH8950CRZ3}
   - {name: exponential stability, kind: definition, wikipedia: Exponential stability, wikidata: Q17011487, node: VY180V8QY2}
-  - {name: Hurwitz polynomial, kind: definition, wikipedia: Hurwitz polynomial, wikidata: Q1414214}
+  - {name: Hurwitz polynomial, kind: definition, wikipedia: Hurwitz polynomial, wikidata: Q1414214, node: Y631JTMMT5}
   - {name: Hurwitz-stable matrix, kind: definition, wikipedia: Hurwitz-stable matrix, wikidata: Q131293245, node: 9A3TBBHRFA}
   - {name: Routh–Hurwitz stability criterion, kind: statement, wikipedia: Routh–Hurwitz stability criterion, wikidata: Q2621270, node: KJF8Y19BNV}
-  - {name: Routh–Hurwitz theorem, kind: statement, wikipedia: Routh–Hurwitz theorem, wikidata: Q4455015}
-  - {name: Liénard–Chipart criterion, kind: statement, wikipedia: Liénard–Chipart criterion, wikidata: Q17098836}
+  - {name: Routh–Hurwitz theorem, kind: statement, wikipedia: Routh–Hurwitz theorem, wikidata: Q4455015, node: 1PZKSAVTQS}
+  - {name: Liénard–Chipart criterion, kind: statement, wikipedia: Liénard–Chipart criterion, wikidata: Q17098836, node: T1KQ3DPYZF}
   - {name: Jury stability criterion, kind: statement, wikipedia: Jury stability criterion, wikidata: Q3697760, node: VGV9FAPCHN}
-  - {name: Kharitonov's theorem, kind: statement, wikipedia: Kharitonov's theorem, wikidata: Q6400676}
-  - {name: Lyapunov criterion for Hurwitz matrices, kind: statement, wikipedia: Lyapunov equation, wikidata: Q1028945}
-  - {name: stability radius, kind: definition, wikipedia: Stability radius, wikidata: Q7595729}
+  - {name: Kharitonov's theorem, kind: statement, wikipedia: Kharitonov's theorem, wikidata: Q6400676, node: M7006YV2J8}
+  - {name: Lyapunov criterion for Hurwitz matrices, kind: statement, wikipedia: Lyapunov equation, wikidata: Q1028945, node: GBV5SAA0WE}
+  - {name: stability radius, kind: definition, wikipedia: Stability radius, wikidata: Q7595729, node: XW8YWJ9TNS}
   - {name: input-to-state stability, kind: definition, wikipedia: Input-to-state stability, wikidata: Q48995800, node: GRDCEGQJYQ}
-  - {name: small-gain theorem, kind: statement, wikipedia: Small-gain theorem, wikidata: Q4165677}
-  - {name: passivity, kind: definition, wikipedia: Passivity (engineering), wikidata: Q1045736}
-  - {name: positive-real function, kind: definition, wikipedia: Positive-real function, wikidata: Q7233208}
-  - {name: Kalman–Yakubovich–Popov lemma, kind: statement, wikipedia: Kalman–Yakubovich–Popov lemma, wikidata: Q6354030}
-  - {name: absolute stability problem of Lur'e, kind: problem, wikipedia: Circle criterion, wikidata: Q5121443}
-  - {name: circle criterion, kind: statement, wikipedia: Circle criterion, wikidata: Q5121443}
-  - {name: Popov criterion, kind: statement, wikipedia: Popov criterion, wikidata: Q4241326}
-  - {name: Aizerman's conjecture, kind: counterexample, wikipedia: Aizerman's conjecture, wikidata: Q4699429}
-  - {name: linear matrix inequality, kind: definition, wikipedia: Linear matrix inequality, wikidata: Q2022760}
+  - {name: small-gain theorem, kind: statement, wikipedia: Small-gain theorem, wikidata: Q4165677, node: 1CF728E75M}
+  - {name: passivity, kind: definition, wikipedia: Passivity (engineering), wikidata: Q1045736, node: HW9JJGS944}
+  - {name: positive-real function, kind: definition, wikipedia: Positive-real function, wikidata: Q7233208, node: Y8ZT5NXZ7V}
+  - {name: Kalman–Yakubovich–Popov lemma, kind: statement, wikipedia: Kalman–Yakubovich–Popov lemma, wikidata: Q6354030, node: 4NJC7AGT5N}
+  - {name: absolute stability problem of Lur'e, kind: problem, wikipedia: Circle criterion, wikidata: Q5121443, node: Z67CH2W4W6}
+  - {name: circle criterion, kind: statement, wikipedia: Circle criterion, wikidata: Q5121443, node: 311435JD5C}
+  - {name: Popov criterion, kind: statement, wikipedia: Popov criterion, wikidata: Q4241326, node: V4WDBZ3D2K}
+  - {name: Aizerman's conjecture, kind: counterexample, wikipedia: Aizerman's conjecture, wikidata: Q4699429, node: A2QG6D75KR}
+  - {name: linear matrix inequality, kind: definition, wikipedia: Linear matrix inequality, wikidata: Q2022760, node: XHN4C927S6}
   # Nonlinear control
-  - {name: nonlinear control, kind: concept, wikipedia: Nonlinear control, wikidata: Q2707001}
-  - {name: control-Lyapunov function, kind: definition, wikipedia: Control-Lyapunov function, wikidata: Q5165805}
-  - {name: Artstein's theorem, kind: statement, wikipedia: Control-Lyapunov function, wikidata: Q5165805}
-  - {name: Sontag's universal formula, kind: statement, wikipedia: Control-Lyapunov function, wikidata: Q5165805}
+  - {name: nonlinear control, kind: concept, wikipedia: Nonlinear control, wikidata: Q2707001, node: RZ94FKGZ5Z}
+  - {name: control-Lyapunov function, kind: definition, wikipedia: Control-Lyapunov function, wikidata: Q5165805, node: 40ED6BYH7W}
+  - {name: Artstein's theorem, kind: statement, wikipedia: Control-Lyapunov function, wikidata: Q5165805, node: VH43JKVEQ1}
+  - {name: Sontag's universal formula, kind: statement, wikipedia: Control-Lyapunov function, wikidata: Q5165805, node: NZB9W7J7DH}
   - {name: Chow–Rashevskii theorem, kind: statement, wikipedia: Chow–Rashevsky theorem, wikidata: Q5105585, node: VQPN24VDH1}
-  - {name: relative degree, kind: definition, wikipedia: Feedback linearization, wikidata: Q672139}
-  - {name: zero dynamics, kind: definition, wikipedia: Zero dynamics, wikidata: Q15837116}
+  - {name: relative degree, kind: definition, wikipedia: Feedback linearization, wikidata: Q672139, node: 115PDNE89R}
+  - {name: zero dynamics, kind: definition, wikipedia: Zero dynamics, wikidata: Q15837116, node: W3N8APDEB9}
   - {name: feedback linearization, kind: concept, wikipedia: Feedback linearization, wikidata: Q672139, node: 1J2KTGXB34}
-  - {name: differential flatness, kind: definition, wikipedia: Flatness (systems theory), wikidata: Q1426175}
-  - {name: backstepping, kind: definition, wikipedia: Backstepping, wikidata: Q4839759}
-  - {name: sliding mode control, kind: definition, wikipedia: Sliding mode control, wikidata: Q6008560}
-  - {name: gain scheduling, kind: definition, wikipedia: Gain scheduling, wikidata: Q764612}
+  - {name: differential flatness, kind: definition, wikipedia: Flatness (systems theory), wikidata: Q1426175, node: 7AX68YJR8C}
+  - {name: backstepping, kind: definition, wikipedia: Backstepping, wikidata: Q4839759, node: 5AD7EM0388}
+  - {name: sliding mode control, kind: definition, wikipedia: Sliding mode control, wikidata: Q6008560, node: FRYAQABP4P}
+  - {name: gain scheduling, kind: definition, wikipedia: Gain scheduling, wikidata: Q764612, node: 2Y785XM6P5}
   # Robust control
-  - {name: robust control, kind: concept, wikipedia: Robust control, wikidata: Q915157}
-  - {name: H-infinity control, kind: problem, wikipedia: H-infinity methods in control theory, wikidata: Q1293742}
-  - {name: H-infinity norm of a system, kind: definition, wikipedia: Hardy space, wikidata: Q1585233}
-  - {name: structured singular value, kind: definition, wikipedia: Robust control, wikidata: Q915157}
-  - {name: loop-shaping, kind: definition, wikipedia: H-infinity loop-shaping, wikidata: Q5627863}
+  - {name: robust control, kind: concept, wikipedia: Robust control, wikidata: Q915157, node: 5MGHZRFCVR}
+  - {name: H-infinity control, kind: problem, wikipedia: H-infinity methods in control theory, wikidata: Q1293742, node: E3WZ90H2XQ}
+  - {name: H-infinity norm of a system, kind: definition, wikipedia: Hardy space, wikidata: Q1585233, node: QVREFP7BH7}
+  - {name: structured singular value, kind: definition, wikipedia: Robust control, wikidata: Q915157, node: 2EASHBY4TX}
+  - {name: loop-shaping, kind: definition, wikipedia: H-infinity loop-shaping, wikidata: Q5627863, node: 5TSW53EG92}
   # Estimation and filtering
-  - {name: filtering problem, kind: problem, wikipedia: Filtering problem (stochastic processes), wikidata: Q5449244}
-  - {name: Wiener filter, kind: definition, wikipedia: Wiener filter, wikidata: Q25523}
-  - {name: Kalman filter, kind: definition, wikipedia: Kalman filter, wikidata: Q846780}
-  - {name: Kalman–Bucy filter, kind: definition, wikipedia: Kalman filter, wikidata: Q846780}
-  - {name: Rauch–Tung–Striebel smoother, kind: definition, wikipedia: Kalman filter, wikidata: Q846780}
-  - {name: extended Kalman filter, kind: definition, wikipedia: Extended Kalman filter, wikidata: Q5421817}
-  - {name: unscented Kalman filter, kind: definition, wikipedia: Unscented transform, wikidata: Q7897426}
+  - {name: filtering problem, kind: problem, wikipedia: Filtering problem (stochastic processes), wikidata: Q5449244, node: T97B6NBPA8}
+  - {name: Wiener filter, kind: definition, wikipedia: Wiener filter, wikidata: Q25523, node: K1GQXRY0K9}
+  - {name: Kalman filter, kind: definition, wikipedia: Kalman filter, wikidata: Q846780, node: DFM9YXF9AG}
+  - {name: Kalman–Bucy filter, kind: definition, wikipedia: Kalman filter, wikidata: Q846780, node: P9ECW9MXYX}
+  - {name: Rauch–Tung–Striebel smoother, kind: definition, wikipedia: Kalman filter, wikidata: Q846780, node: AJCJB112YR}
+  - {name: extended Kalman filter, kind: definition, wikipedia: Extended Kalman filter, wikidata: Q5421817, node: 3E6E4VQGFJ}
+  - {name: unscented Kalman filter, kind: definition, wikipedia: Unscented transform, wikidata: Q7897426, node: H6AWC7DNNE}
   - {name: particle filter, kind: definition, wikipedia: Particle filter, wikidata: Q1151499, node: BZK7HQDMT0}
-  - {name: Zakai equation, kind: definition, wikipedia: Zakai equation, wikidata: Q8064995}
-  - {name: Kushner equation, kind: definition, wikipedia: Kushner equation, wikidata: Q6448080}
-  - {name: moving horizon estimation, kind: definition, wikipedia: Moving horizon estimation, wikidata: Q6927137}
-  - {name: recursive least squares filter, kind: definition, wikipedia: Recursive least squares filter, wikidata: Q2835868}
-  - {name: least mean squares filter, kind: definition, wikipedia: Least mean squares filter, wikidata: Q1426666}
+  - {name: Zakai equation, kind: definition, wikipedia: Zakai equation, wikidata: Q8064995, node: FQ8TVSR74H}
+  - {name: Kushner equation, kind: definition, wikipedia: Kushner equation, wikidata: Q6448080, node: FQD9YT0DRK}
+  - {name: moving horizon estimation, kind: definition, wikipedia: Moving horizon estimation, wikidata: Q6927137, node: QJ59HPYQ9D}
+  - {name: recursive least squares filter, kind: definition, wikipedia: Recursive least squares filter, wikidata: Q2835868, node: GJ21825GA8}
+  - {name: least mean squares filter, kind: definition, wikipedia: Least mean squares filter, wikidata: Q1426666, node: 17RASDZEBS}
   # Stochastic and adaptive control
-  - {name: separation principle in stochastic control, kind: statement, wikipedia: Separation principle in stochastic control, wikidata: Q60794036}
-  - {name: Witsenhausen's counterexample, kind: counterexample, wikipedia: Witsenhausen's counterexample, wikidata: Q8028527}
-  - {name: dual control theory, kind: concept, wikipedia: Dual control theory, wikidata: Q5310194}
-  - {name: adaptive control, kind: concept, wikipedia: Adaptive control, wikidata: Q235781}
-  - {name: model reference adaptive control, kind: definition, wikipedia: Adaptive control, wikidata: Q235781}
+  - {name: separation principle in stochastic control, kind: statement, wikipedia: Separation principle in stochastic control, wikidata: Q60794036, node: TMEKPXMC7V}
+  - {name: Witsenhausen's counterexample, kind: counterexample, wikipedia: Witsenhausen's counterexample, wikidata: Q8028527, node: TYHRJM0ME9}
+  - {name: dual control theory, kind: concept, wikipedia: Dual control theory, wikidata: Q5310194, node: 7R4X50J54S}
+  - {name: adaptive control, kind: concept, wikipedia: Adaptive control, wikidata: Q235781, node: F2RD2ZTZ8V}
+  - {name: model reference adaptive control, kind: definition, wikipedia: Adaptive control, wikidata: Q235781, node: 3ZZYXW53XZ}
   - {name: stochastic approximation, kind: definition, wikipedia: Stochastic approximation, wikidata: Q97663916, node: ZPCPW4W1Y9}
   - {name: Robbins–Monro algorithm, kind: statement, wikipedia: Stochastic approximation, wikidata: Q97663916}
-  - {name: iterative learning control, kind: definition, wikipedia: Iterative learning control, wikidata: Q6094414}
+  - {name: iterative learning control, kind: definition, wikipedia: Iterative learning control, wikidata: Q6094414, node: 2RKN6NED1W}
   # Multi-agent and networked systems
-  - {name: consensus dynamics on graphs, kind: statement, wikipedia: Consensus dynamics, wikidata: Q5162845}
+  - {name: consensus dynamics on graphs, kind: statement, wikipedia: Consensus dynamics, wikidata: Q5162845, node: 69YNG4T8XW}

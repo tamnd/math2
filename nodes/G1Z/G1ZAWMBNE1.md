@@ -15,8 +15,8 @@ same_as:
 
 Let $D \ge 2$ be an integer, let $\Sigma$ be an alphabet with $D$ symbols, and let $\ell_1, \dots, \ell_n$ be positive integers.
 
-1. If there is a uniquely decodable code over $\Sigma$ with $n$ codewords of lengths $\ell_1, \dots, \ell_n$, then $\sum_{i=1}^{n} D^{-\ell_i} \le 1$.
-2. If $\sum_{i=1}^{n} D^{-\ell_i} \le 1$, then there is a prefix code over $\Sigma$ with $n$ codewords of lengths $\ell_1, \dots, \ell_n$.
+1. If there is a [[uniquely decodable code|MWBRNBXW1Y]] over $\Sigma$ with $n$ codewords of lengths $\ell_1, \dots, \ell_n$, then $\sum_{i=1}^{n} D^{-\ell_i} \le 1$.
+2. If $\sum_{i=1}^{n} D^{-\ell_i} \le 1$, then there is a [[prefix code|GNB3T6TD0M]] over $\Sigma$ with $n$ codewords of lengths $\ell_1, \dots, \ell_n$.
 
 ## Remarks
 
@@ -29,7 +29,7 @@ For part 1, let $S = \sum_i D^{-\ell_i}$ and $\ell = \max_i \ell_i$.
 Expanding $S^k$ groups the terms by the total length $m$ of $k$ codewords, and unique decodability allows at most $D^m$ such sequences for each $m$.
 So $S^k \le k \ell$ for every $k$, which forces $S \le 1$.
 
-Example: the binary variable-length code $\set{0, 10, 110, 111}$ is a prefix code, and $2^{-1} + 2^{-2} + 2^{-3} + 2^{-3} = 1$.
+Example: the binary [[variable-length code|BACPE6MVPZ]] $\set{0, 10, 110, 111}$ is a prefix code, and $2^{-1} + 2^{-2} + 2^{-3} + 2^{-3} = 1$.
 Without unique decodability part 1 fails: the code $\set{0, 1, 01}$ has $2^{-1} + 2^{-1} + 2^{-2} = 5/4 > 1$, and the string $01$ can be read as one codeword or as two.
 
 ## Explanations

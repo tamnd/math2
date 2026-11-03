@@ -73,7 +73,7 @@ items:
   - {name: perfect fluid, kind: definition, wikipedia: Perfect fluid, wikidata: Q613845, node: H4FNPG6ZY1}
   - {name: Tolman–Oppenheimer–Volkoff equation, kind: statement, wikipedia: Tolman–Oppenheimer–Volkoff equation, wikidata: Q2735407, node: 2T335F8H8F}
   - {name: Buchdahl's theorem, kind: statement, wikipedia: Buchdahl's theorem, wikidata: Q18415473, node: HC0AA1J8PR}
-  - {name: Birkhoff's theorem, kind: statement, wikipedia: Birkhoff's theorem (relativity), wikidata: Q865665}
+  - {name: Birkhoff's theorem, kind: statement, wikipedia: Birkhoff's theorem (relativity), wikidata: Q865665, node: VPSPT3JS92}
   # Spacetime geometry and causal structure
   - {name: causal structure, kind: concept, wikipedia: Causal structure, wikidata: Q2364925, node: KZWG5F0TSB}
   - {name: causality conditions, kind: definition, wikipedia: Causality conditions, wikidata: Q5054576, node: EKA74X1SYS}
@@ -212,7 +212,7 @@ items:
   - {name: quantum gravity, kind: problem, wikipedia: Quantum gravity, wikidata: Q234181, node: M1VXRT5X56}
   - {name: semiclassical gravity, kind: concept, wikipedia: Semiclassical gravity, wikidata: Q3775955, node: Q0W4SSDWKB}
   - {name: Wheeler–DeWitt equation, kind: definition, wikipedia: Wheeler–DeWitt equation, wikidata: Q1368870, node: TNKMDJB5FP}
-  - {name: problem of time, kind: problem, wikipedia: Problem of time, wikidata: Q18344764}
+  - {name: problem of time, kind: problem, wikipedia: Problem of time, wikidata: Q18344764, node: QHC8XEHC08}
   - {name: Euclidean quantum gravity, kind: concept, wikipedia: Euclidean quantum gravity, wikidata: Q2246283, node: MGPT8N01FW}
   - {name: Hartle–Hawking state, kind: definition, wikipedia: Hartle–Hawking proposal, wikidata: Q958793, node: TDGEHS585Q}
   - {name: loop quantum gravity, kind: concept, wikipedia: Loop quantum gravity, wikidata: Q739962, node: 9C3ECSDRTP}

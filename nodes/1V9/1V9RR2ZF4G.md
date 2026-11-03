@@ -13,8 +13,13 @@ tag: 1V9RR2ZF4G
 
 ## Summary
 
-Take a function $f$ and a point $a$. The number $L_1$ is the left-hand limit of $f$ at $a$ when the values $f(x)$ get as near to $L_1$ as we wish, once $x$ is near enough to $a$ and lies strictly below $a$. We write $\lim_{x \to a^-} f(x) = L_1$.
+Take a function $f$ and a point $a$.
+The number $L_1$ is the left-hand limit of $f$ at $a$ when $f(x)$ gets arbitrarily near $L_1$ for all $x$ close enough to $a$.
+Here $x$ lies strictly below $a$.
+We write $\lim_{x \to a^-} f(x) = L_1$.
 
-The number $L_2$ is the right-hand limit of $f$ at $a$ when the values $f(x)$ get as near to $L_2$ as we wish, once $x$ is near enough to $a$ and lies strictly above $a$. We write $\lim_{x \to a^+} f(x) = L_2$.
+The number $L_2$ is the right-hand limit of $f$ at $a$ when $f(x)$ gets arbitrarily near $L_2$ for all $x$ close enough to $a$.
+Here $x$ lies strictly above $a$.
+We write $\lim_{x \to a^+} f(x) = L_2$.
 
 Each of these is a variant of the [[limit of a function|0PKRYB8ATM]] in which $x$ may approach $a$ from one side only.

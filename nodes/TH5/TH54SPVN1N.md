@@ -32,7 +32,7 @@ Then:
 Part 1 holds because $p^T (J^T J + \lambda I) p = \norm{J p}^2 + \lambda \norm{p}^2 > 0$ for $p \ne 0$.
 Part 2 follows: $g^T \delta = -g^T (J^T J + \lambda I)^{-1} g < 0$.
 For part 3, $\delta$ satisfies the optimality conditions of the ball-constrained problem with multiplier $\lambda \ge 0$, and the problem is convex.
-So the method is a trust region method for the Gauss–Newton model, with $\lambda$ controlling the radius.
+So the method is a [[trust region method|5DCSNQ8CXZ]] for the Gauss–Newton model, with $\lambda$ controlling the radius.
 Parts 4 and 5 show that it interpolates between Gauss–Newton steps (small $\lambda$) and short steepest descent steps (large $\lambda$).
 
 The algorithm updates $\lambda$ at each step.

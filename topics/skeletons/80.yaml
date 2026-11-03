@@ -95,7 +95,7 @@ items:
   - {name: triple point, kind: definition, wikipedia: Triple point, wikidata: Q106410, node: QENKZP7W4Y}
   - {name: critical point, kind: definition, wikipedia: Critical point (thermodynamics), wikidata: Q111059, node: 0YTCMFB4HC}
   - {name: latent heat, kind: definition, wikipedia: Latent heat, wikidata: Q207721, node: FN6Z9QKAH5}
-  - {name: Landau theory of phase transitions, kind: concept, wikipedia: Landau theory, wikidata: Q1626812}
+  - {name: Landau theory of phase transitions, kind: concept, wikipedia: Landau theory, wikidata: Q1626812, node: XJ4NRM74W6}
   - {name: lever rule, kind: statement, wikipedia: Lever rule, wikidata: Q1781829, node: BXY69X7T75}
   - {name: Raoult's law, kind: statement, wikipedia: Raoult's law, wikidata: Q241687, node: 7MR97B1NER}
   - {name: Henry's law, kind: statement, wikipedia: Henry's law, wikidata: Q285804, node: A5VFJ0X9KH}
@@ -160,7 +160,7 @@ items:
   - {name: Stefan problem, kind: problem, wikipedia: Stefan problem, wikidata: Q3775789, node: 3B0HB3DHW1}
   - {name: Stefan number, kind: definition, wikipedia: Stefan number, wikidata: Q909876, node: FGZDVJPJ5M}
   - {name: Neumann solution of the Stefan problem, kind: statement, wikipedia: Stefan problem, wikidata: Q3775789, node: W7C65418TN}
-  - {name: inverse heat conduction problem, kind: problem, wikipedia: Inverse problem, wikidata: Q1567213}
+  - {name: inverse heat conduction problem, kind: problem, wikipedia: Inverse problem, wikidata: Q1567213, node: NHV3E17HQZ}
   - {name: thermal contact conductance, kind: definition, wikipedia: Thermal contact conductance, wikidata: Q4119687, node: 1ARQTPDKN9}
   # Convective heat transfer
   - {name: convective heat transfer, kind: concept, wikipedia: Convection (heat transfer), wikidata: Q918227, node: RK24AYNG4Z}

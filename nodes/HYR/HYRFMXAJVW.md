@@ -14,7 +14,7 @@ Here $w$ is a Möbius transformation of the transform variable $s$.
 Its coefficients are the coefficients of the function in the orthonormal basis of Laguerre functions $e^{-t/2} L_n(t)$ of $L^2(0, \infty)$.
 Here $L_n$ are the [[Laguerre polynomials|WAMRHWW82R]].
 The expansion converts Laplace inversion into the computation of Taylor coefficients of an analytic function on the unit disk.
-It is the basis of Weeks' method for the numerical inversion of the Laplace transform.
+It is the basis of Weeks' method for the [[numerical inversion of the Laplace transform|41QNF4CGNY]].
 
 ## Explanations
 

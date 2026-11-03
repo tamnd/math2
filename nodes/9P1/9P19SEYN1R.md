@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-The Ford–Fulkerson algorithm computes a maximum flow from a source to a sink in a flow network.
+The Ford–Fulkerson algorithm computes a maximum flow from a source to a sink in a [[flow network|ZSNXTW5E2K]].
 It starts from the zero flow and repeatedly pushes extra flow along an augmenting path.
 This is a path from source to sink in the residual network that still has spare capacity.
 When no augmenting path is left, the flow is maximum, and this argument also proves the [[max-flow min-cut theorem|4HMR4KQ01T]].

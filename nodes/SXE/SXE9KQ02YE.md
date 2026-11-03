@@ -25,7 +25,7 @@ A rule is a [[stopping time|WND87FBAKC]] for the observed relative ranks.
 
 ## Remarks
 
-The problem is solved, and it is a standard example of optimal stopping.
+The problem is solved, and it is a standard example of [[optimal stopping|CDTBGPT0SW]].
 An optimal rule has a threshold form: reject the first $r - 1$ applicants, then accept the first applicant who is better than all earlier ones.
 For $r \ge 2$ this rule picks the best applicant with probability
 $$P_n(r) = \frac{r - 1}{n} \sum_{i=r}^{n} \frac{1}{i - 1},$$

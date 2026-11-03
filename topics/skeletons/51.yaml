@@ -24,7 +24,7 @@ items:
   - {name: betweenness, kind: definition, decl: Wbtw, wikipedia: Ordered geometry, wikidata: Q7100712, node: CE8GX6ADZS}
   - {name: Saccheri quadrilateral, kind: definition, wikipedia: Saccheri quadrilateral, wikidata: Q138224, node: 5SJVH0BHJE}
   - {name: Lambert quadrilateral, kind: definition, wikipedia: Lambert quadrilateral, wikidata: Q4117142, node: MS263NBTRR}
-  - {name: Legendre's theorem on the angle sum, kind: statement, wikipedia: Saccheri–Legendre theorem, wikidata: Q7396621}
+  - {name: Legendre's theorem on the angle sum, kind: statement, wikipedia: Saccheri–Legendre theorem, wikidata: Q7396621, node: 1Y2XK0QJDX}
   - {name: Erlangen program, kind: concept, wikipedia: Erlangen program, wikidata: Q315296, node: 9QW65PGEPW}
   - {name: synthetic geometry, kind: concept, wikipedia: Synthetic geometry, wikidata: Q249148, node: VY6ZCZY8DA}
   - {name: compass and straightedge constructions, kind: concept, wikipedia: Straightedge and compass construction, wikidata: Q115368, node: 0DAECMZVRT}
@@ -102,7 +102,7 @@ items:
   - {name: prime power conjecture for projective planes, kind: conjecture, wikipedia: Projective plane, wikidata: Q1475760}
   - {name: Bruck–Ryser–Chowla theorem, kind: statement, wikipedia: Bruck–Ryser–Chowla theorem, wikidata: Q2226624, node: R43K0GTTDS}
   - {name: nonexistence of a projective plane of order 10, kind: statement, wikipedia: Lam's problem, wikidata: Q106696246, node: KP27TDCZPJ}
-  - {name: Wedderburn's little theorem and finite Desarguesian planes, kind: statement, wikipedia: Wedderburn's little theorem, wikidata: Q943246}
+  - {name: Wedderburn's little theorem and finite Desarguesian planes, kind: statement, wikipedia: Wedderburn's little theorem, wikidata: Q943246, node: 6QBGAKFB9N}
   - {name: projective geometry over a finite field, kind: example, wikipedia: Projective space, wikidata: Q877775, node: CSMB49BDPT}
   - {name: oval, kind: definition, wikipedia: Oval (projective plane), wikidata: Q7113209, node: 7B03TB64N9}
   - {name: hyperoval, kind: definition, wikipedia: Oval (projective plane), wikidata: Q7113209, node: RNG2A8BFVZ}
@@ -169,7 +169,7 @@ items:
   - {name: Pythagorean theorem, kind: statement, decl: EuclideanGeometry.dist_sq_eq_dist_sq_add_dist_sq_iff_angle_eq_pi_div_two, wikipedia: Pythagorean theorem, wikidata: Q11518, mathlib: [mathlib-100, mathlib-1000], node: 0VP3A1290K}
   - {name: law of cosines, kind: statement, decl: EuclideanGeometry.law_cos, wikipedia: Law of cosines, wikidata: Q164321, node: 060ZVZBV3E}
   - {name: law of sines, kind: statement, decl: EuclideanGeometry.law_sin, wikipedia: Law of sines, wikidata: Q170181, node: 0PASQ34GHG}
-  - {name: congruence of triangles, kind: statement, wikipedia: Congruence (geometry), wikidata: Q154210}
+  - {name: congruence of triangles, kind: statement, wikipedia: Congruence (geometry), wikidata: Q154210, node: 5NEJPXA6N4}
   - {name: similar triangles, kind: concept, decl: EuclideanGeometry.dist_mul_of_eq_angle_of_dist_mul, wikipedia: Similarity (geometry), wikidata: Q254465, node: 0YF6QXXWB5}
   - {name: intercept theorem, kind: statement, wikipedia: Intercept theorem, wikidata: Q3757563, node: 0M1GFS6PVA}
   - {name: Heron's formula, kind: statement, wikipedia: Heron's formula, wikidata: Q182714, node: 0FRBZ2X4HJ}
@@ -211,7 +211,7 @@ items:
   - {name: radical axis, kind: definition, wikipedia: Radical axis, wikidata: Q2106473, node: BFD7T0YY42}
   - {name: cyclic quadrilateral, kind: definition, wikipedia: Cyclic quadrilateral, wikidata: Q692086, node: 0RCP929Y1M}
   - {name: Brahmagupta's formula, kind: statement, wikipedia: Brahmagupta's formula, wikidata: Q1149348, node: C0NQDQAZ2Y}
-  - {name: Apollonius problem, kind: problem, wikipedia: Problem of Apollonius, wikidata: Q619449}
+  - {name: Apollonius problem, kind: problem, wikipedia: Problem of Apollonius, wikidata: Q619449, node: F9410EB0N1}
   - {name: Descartes' theorem, kind: statement, wikipedia: Descartes's theorem, wikidata: Q1196538, node: J4Y2E05RHQ}
   - {name: Steiner chain, kind: example, wikipedia: Steiner chain, wikidata: Q1368121, node: RHFSPFGSZJ}
   - {name: Poncelet's closure theorem, kind: statement, wikipedia: Poncelet's closure theorem, wikidata: Q1785610, node: XWYXSRM5YS}
@@ -265,6 +265,6 @@ items:
   - {name: stereographic projection, kind: definition, wikipedia: Stereographic projection, wikidata: Q866099, node: AXDKKVD18N}
   # Geometry and physics
   - {name: screw theory, kind: concept, wikipedia: Screw theory, wikidata: Q7891441, node: NVBD7Y86ES}
-  - {name: Minkowski spacetime geometry, kind: concept, wikipedia: Minkowski spacetime, wikidata: Q464794}
+  - {name: Minkowski spacetime geometry, kind: concept, wikipedia: Minkowski spacetime, wikidata: Q464794, node: G49G4R1K04}
   - {name: geometric algebra, kind: concept, wikipedia: Geometric algebra, wikidata: Q1186649, node: N8H460W3E2}
   - {name: conformal geometric algebra, kind: concept, wikipedia: Conformal geometric algebra, wikidata: Q5160252, node: 4S4Z7SQ47G}

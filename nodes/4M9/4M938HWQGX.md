@@ -19,7 +19,10 @@ specializes:
 
 Take a [[continuous function|0P27W9RW0G]] $f$ on a closed interval $[a,b]$. Cut the interval into $n$ pieces of equal width $\Delta x = \frac{b-a}{n}$, with endpoints $x_i = a + i\,\Delta x$ for $i = 0, \ldots, n$. In each piece $[x_{i-1}, x_i]$ pick any sample point $x_i^*$.
 
-This gives a [[Riemann sum|0HBY48G8G1]], namely $\sum_{i=1}^{n} f(x_i^*)\,\Delta x$. The definite integral of $f$ over $[a,b]$ is the real number that these sums approach as $n \to \infty$, in the sense of a [[limit of a sequence|05M5SWSZZD]]. It is written $\int_a^b f(x)\,dx$.
+This gives a [[Riemann sum|0HBY48G8G1]], namely $\sum_{i=1}^{n} f(x_i^*)\,\Delta x$.
+The definite integral of $f$ over $[a,b]$ is the real number that these sums approach as $n \to \infty$.
+The approach is in the sense of a [[limit of a sequence|05M5SWSZZD]].
+It is written $\int_a^b f(x)\,dx$.
 
 ## Remarks
 

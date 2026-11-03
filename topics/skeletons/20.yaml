@@ -238,7 +238,7 @@ items:
   - {name: building, kind: definition, wikipedia: Building (mathematics), wikidata: Q4986445, node: 6BQJ50NEJ0}
   - {name: arithmetic group, kind: definition, wikipedia: Arithmetic group, wikidata: Q4791126, node: 4XWG6S7R4Z}
   - {name: Margulis superrigidity theorem, kind: statement, wikipedia: Superrigidity, wikidata: Q7644121, node: DSKV65NHZZ}
-  - {name: congruence subgroup problem, kind: problem, wikipedia: Congruence subgroup, wikidata: Q5161000}
+  - {name: congruence subgroup problem, kind: problem, wikipedia: Congruence subgroup, wikidata: Q5161000, node: SVNXZ5JP35}
   - {name: Jordan–Schur theorem, kind: statement, wikipedia: Jordan–Schur theorem, wikidata: Q2360531, node: XT6EEXPD4P}
   - {name: crystallographic group, kind: definition, wikipedia: Space group, wikidata: Q899033, node: 7KTJKFQT2N}
   - {name: Bieberbach theorems, kind: statement, wikipedia: Space group, wikidata: Q899033, node: YE87R5CDJY}

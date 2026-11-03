@@ -100,7 +100,7 @@ items:
   - {name: equational basis, kind: definition, wikipedia: Variety (universal algebra), wikidata: Q3502010, node: 9Q008GMZSW}
   - {name: finitely based algebra, kind: definition, wikipedia: Variety (universal algebra), wikidata: Q3502010, node: YGYZAQ12MZ}
   - {name: inherently nonfinitely based algebra, kind: definition, wikipedia: Variety (universal algebra), wikidata: Q3502010, node: Z6TKYRZ9WX}
-  - {name: Lyndon's nonfinitely based algebra, kind: counterexample, wikipedia: Variety (universal algebra), wikidata: Q3502010}
+  - {name: Lyndon's nonfinitely based algebra, kind: counterexample, wikipedia: Variety (universal algebra), wikidata: Q3502010, node: W76V9BZGST}
   - {name: Oates–Powell theorem, kind: statement, wikipedia: Variety (universal algebra), wikidata: Q3502010, node: 5RFPT46DXX}
   - {name: Baker's finite basis theorem, kind: statement, wikipedia: Congruence lattice problem, wikidata: Q5160997, node: 35G4HQG2FN}
   - {name: Tarski's finite basis problem, kind: problem, wikipedia: Variety (universal algebra), wikidata: Q3502010, node: AB22FWBQ0M}
@@ -142,8 +142,8 @@ items:
   - {name: McKenzie–Hobby tame congruence theory, kind: concept, wikipedia: Universal algebra, wikidata: Q1636734, node: DJFQWTQG9V}
   - {name: commutator theory, kind: concept, wikipedia: Universal algebra, wikidata: Q1636734, node: 6DSWPHSWQW}
   - {name: abelian algebra, kind: definition, wikipedia: Universal algebra, wikidata: Q1636734, node: EHASX3TBRQ}
-  - {name: residual bound conjecture, kind: conjecture, wikipedia: Residual property (mathematics), wikidata: Q16968884}
-  - {name: Quackenbush's problem, kind: problem, wikipedia: Residual property (mathematics), wikidata: Q16968884}
+  - {name: residual bound conjecture, kind: conjecture, wikipedia: Residual property (mathematics), wikidata: Q16968884, node: ZM2QJK2PQH}
+  - {name: Quackenbush's problem, kind: problem, wikipedia: Residual property (mathematics), wikidata: Q16968884, node: DSN6RC1ZGX}
   # Mal'cev conditions
   - {name: Mal'cev condition, kind: definition, wikipedia: Congruence-permutable algebra, wikidata: Q19596444, node: 6R0CA4JWWY}
   - {name: Mal'cev term, kind: definition, wikipedia: Congruence-permutable algebra, wikidata: Q19596444, node: Y203PPTS61}

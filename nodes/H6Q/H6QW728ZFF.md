@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-The ensemble Kalman filter is a method of [[data assimilation|TKT0QAPWW8]].
+The ensemble [[Kalman filter|DFM9YXF9AG]] is a method of [[data assimilation|TKT0QAPWW8]].
 It replaces the covariance matrix of the Kalman filter by the sample covariance of a finite ensemble of model states.
 Each member of the ensemble is run forward by the full, possibly nonlinear, model, and is then corrected with the observations by a Kalman-type update.
 It avoids storing and propagating a covariance matrix of the size of the state.

@@ -29,5 +29,5 @@ Then $\psi_\lambda(\varphi_\lambda(a)) = a$, so the completely positive approxim
 Commutative C\*-algebras and [[AF algebras|4Y7VENNBVK]] are also nuclear.
 
 Non-example: let $\mathbb{F}_2$ be the free group on two generators.
-For a discrete group $G$, the reduced group C*-algebra $C^*_r(G)$ is nuclear if and only if $G$ is amenable; since $\mathbb{F}_2$ is not amenable, $C^*_r(\mathbb{F}_2)$ is not nuclear.
+For a discrete group $G$, the [[reduced group C*-algebra|GHQ8YPAGC8]] $C^*_r(G)$ is nuclear if and only if $G$ is amenable; since $\mathbb{F}_2$ is not amenable, $C^*_r(\mathbb{F}_2)$ is not nuclear.
 The algebra $B(H)$ of all bounded operators on an infinite-dimensional Hilbert space is not nuclear either.
