@@ -1,5 +1,5 @@
 ---
-tag: ~816a0bdb
+tag: Y4WACJKC3S
 kind: definition
 name: Attainable null space
 msc: [46-XX]
