@@ -12,7 +12,7 @@ sources:
 
 ## Definition
 
-Let $\mathfrak{g}$ be a simple Lie algebra over $\C$ with Cartan subalgebra $\mathfrak{h}$ and root system $\Phi$.
+Let $\mathfrak{g}$ be a [[simple Lie algebra|XDAXWHBNSZ]] over $\C$ with Cartan subalgebra $\mathfrak{h}$ and [[root system|AVVV93CASN]] $\Phi$.
 Let $\set{h_1, \dots, h_\ell} \cup \set{e_\alpha : \alpha \in \Phi}$ be a Chevalley basis of $\mathfrak{g}$, and let $\mathfrak{g}_\Z$ be its $\Z$-span.
 Let $K$ be a field and let $\mathfrak{g}_K = \mathfrak{g}_\Z \otimes_\Z K$.
 For $\alpha \in \Phi$ and $t \in K$, let $x_\alpha(t) = \sum_{k \ge 0} t^k (\operatorname{ad} e_\alpha)^k / k!$, an automorphism of $\mathfrak{g}_K$.

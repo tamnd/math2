@@ -23,7 +23,7 @@ Then:
 
 1. $A_1$ is strongly dense in $B_1$;
 2. $(A_{sa})_1$ is strongly dense in $(B_{sa})_1$;
-3. if $A$ is a C*-algebra that contains $I$, then the [[unitary|MM0EJ2GDE4]] elements of $A$ are strongly dense in the unitary elements of $B$.
+3. if $A$ is a [[C*-algebra|M2WFY1D3SZ]] that contains $I$, then the [[unitary|MM0EJ2GDE4]] elements of $A$ are strongly dense in the unitary elements of $B$.
 
 ## Remarks
 

@@ -46,7 +46,7 @@ items:
   - {name: Fréchet manifold, kind: definition, wikipedia: Fréchet manifold, wikidata: Q3554820, node: EBMCFQT0JN}
   - {name: convenient vector space, kind: definition, wikipedia: Convenient vector space, wikidata: Q25303670, node: 46MSX1FXZT}
   - {name: tame Fréchet space, kind: definition, wikipedia: Nash–Moser theorem, wikidata: Q6967039, node: 7WPVZZ4YFC}
-  - {name: Kuiper's theorem, kind: statement, wikipedia: Kuiper's theorem, wikidata: Q6442276}
+  - {name: Kuiper's theorem, kind: statement, wikipedia: Kuiper's theorem, wikidata: Q6442276, node: 9SJ4SC9FQX}
   - {name: Anderson–Kadec theorem, kind: statement, wikipedia: Anderson–Kadec theorem, wikidata: Q60790479, node: Z5DHRKE2Q0}
   - {name: open embedding theorem for Hilbert manifolds, kind: statement, wikipedia: Hilbert manifold, wikidata: Q3554824, node: JWCDDMJE3K}
   - {name: Banach–Lie group, kind: definition, wikipedia: Lie group, wikidata: Q622679, node: MC5CGVRFJM}
@@ -107,7 +107,7 @@ items:
   - {name: Lie pseudogroup, kind: definition, wikipedia: Pseudogroup, wikidata: Q4382845, node: E3EYXM7GJN}
   - {name: Haefliger structure, kind: definition, wikipedia: Haefliger structure, wikidata: Q5638159, node: 8GYWYYBFWE}
   - {name: Lie groupoid, kind: definition, wikipedia: Lie groupoid, wikidata: Q6543824, node: HNVW0E732J}
-  - {name: Lie algebroid, kind: definition, wikipedia: Lie algebroid, wikidata: Q6543810}
+  - {name: Lie algebroid, kind: definition, wikipedia: Lie algebroid, wikidata: Q6543810, node: PS9XRYDJAW}
   - {name: Crainic–Fernandes integrability theorem, kind: statement, wikipedia: Lie algebroid, wikidata: Q6543810, node: 5ZNN348M6X}
   - {name: Morita equivalence of Lie groupoids, kind: definition, wikipedia: Lie groupoid, wikidata: Q6543824, node: FYXTVSVHT2}
   - {name: holonomy groupoid of a foliation, kind: definition, wikipedia: Lie groupoid, wikidata: Q6543824, node: HMRP135M6K}
@@ -131,7 +131,7 @@ items:
   - {name: index theory, kind: concept, wikipedia: Atiyah–Singer index theorem, wikidata: Q755991, node: 675MAXBQN6}
   - {name: analytic index, kind: definition, wikipedia: Atiyah–Singer index theorem, wikidata: Q755991, node: 44GBFZ16SG}
   - {name: topological index, kind: definition, wikipedia: Atiyah–Singer index theorem, wikidata: Q755991, node: QDCD33CS21}
-  - {name: Atiyah–Singer index theorem, kind: statement, wikipedia: Atiyah–Singer index theorem, wikidata: Q755991}
+  - {name: Atiyah–Singer index theorem, kind: statement, wikipedia: Atiyah–Singer index theorem, wikidata: Q755991, node: QK2ECEQYA5}
   - {name: Gelfand's problem on the index, kind: problem, wikipedia: Atiyah–Singer index theorem, wikidata: Q755991, node: 25G4AP9P4R}
   - {name: index of the de Rham complex, kind: example, wikipedia: Atiyah–Singer index theorem, wikidata: Q755991, node: 2DYR4C5Q5V}
   - {name: Â-genus as the index of the Dirac operator, kind: statement, wikipedia: Genus of a multiplicative sequence, wikidata: Q5533833, node: JR2M58RCW3}

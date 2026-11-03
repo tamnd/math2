@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $A$ be a C*-algebra with unit $1$, and let $a \in A$ be normal, that is, $a^* a = a a^*$.
+Let $A$ be a [[C*-algebra|M2WFY1D3SZ]] with unit $1$, and let $a \in A$ be normal, that is, $a^* a = a a^*$.
 Let $\sigma(a) \subseteq \C$ be the [[spectrum|EH0CZ19RKP]] of $a$, and let $C(\sigma(a))$ be the C\*-algebra of [[continuous|0X3WGX95FE]] functions $\sigma(a) \to \C$ with the sup norm.
 There is a unique $*$-homomorphism $\Phi_a \colon C(\sigma(a)) \to A$ with $\Phi_a(1) = 1$ and $\Phi_a(\iota) = a$, where $\iota(z) = z$ is the inclusion of $\sigma(a)$ into $\C$.
 The map $\Phi_a$ is the *continuous functional calculus* of $a$, and for $f \in C(\sigma(a))$ one writes $f(a) = \Phi_a(f)$.

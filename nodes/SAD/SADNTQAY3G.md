@@ -10,7 +10,7 @@ sources:
 
 ## Summary
 
-A real form of a complex Lie group $G_\C$ is a closed real Lie subgroup $G$.
+A [[real form|59DHW3BZTW]] of a complex Lie group $G_\C$ is a closed real Lie subgroup $G$.
 Its Lie algebra must be a real form of the Lie algebra of $G_\C$.
 So $G$ has half the real dimension of $G_\C$, and complexifying its Lie algebra gives back that of $G_\C$.
 One complex group has several real forms, for example $\mathrm{SL}_n(\R)$ and $\mathrm{SU}(n)$ in $\mathrm{SL}_n(\C)$.

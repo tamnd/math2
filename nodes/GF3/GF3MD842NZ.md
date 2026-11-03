@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $A$ be a C*-algebra.
+Let $A$ be a [[C*-algebra|M2WFY1D3SZ]].
 Then $A$ is *approximately finite-dimensional*, or *AF*, if it has finite-dimensional C\*-subalgebras $A_1 \subseteq A_2 \subseteq \cdots$ whose union is dense in $A$.
 Equivalently, $A$ is isomorphic to the C\*-algebraic [[direct limit|7SXKJG1Q9B]] of a sequence $A_1 \to A_2 \to \cdots$ of finite-dimensional C\*-algebras and $*$-homomorphisms.
 

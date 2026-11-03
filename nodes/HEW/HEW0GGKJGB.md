@@ -13,7 +13,7 @@ sources:
 Let $A$ be a complex [[Banach algebra|9KYWN94QDN]] with an [[involution|GP56NBN9RY]] $a \mapsto a^*$, that is, a map with $(a + b)^* = a^* + b^*$, $(\lambda a)^* = \overline{\lambda} a^*$, $(ab)^* = b^* a^*$ and $a^{**} = a$ for $a, b \in A$ and $\lambda \in \C$.
 The norm of $A$ satisfies the *C\* identity* if
 $$\norm{a^* a} = \norm{a}^2 \quad \text{for all } a \in A.$$
-A Banach algebra with involution whose norm satisfies the C\* identity is a C*-algebra.
+A Banach algebra with involution whose norm satisfies the C\* identity is a [[C*-algebra|M2WFY1D3SZ]].
 
 ## Remarks
 

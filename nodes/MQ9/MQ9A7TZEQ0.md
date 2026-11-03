@@ -11,8 +11,8 @@ sources:
 
 ## Definition
 
-Let $G$ be a connected real or complex [[Lie group|7JBRGCVJRB]], and let $\mathfrak{g}$ be its Lie algebra.
-The group $G$ is a *simple Lie group* if $\mathfrak{g}$ is a simple Lie algebra, that is:
+Let $G$ be a connected real or complex [[Lie group|7JBRGCVJRB]], and let $\mathfrak{g}$ be its [[Lie algebra|WKVBS76432]].
+The group $G$ is a *simple Lie group* if $\mathfrak{g}$ is a [[simple Lie algebra|XDAXWHBNSZ]], that is:
 
 1. $\mathfrak{g}$ is not abelian, and
 2. the only ideals of $\mathfrak{g}$ are $0$ and $\mathfrak{g}$.

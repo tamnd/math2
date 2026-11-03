@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-The Gelfand–Naimark–Segal (GNS) construction starts from a [[state|F7MB2WREBJ]] $\rho$ on a C*-algebra $A$.
+The Gelfand–Naimark–Segal (GNS) construction starts from a [[state|F7MB2WREBJ]] $\rho$ on a [[C*-algebra|M2WFY1D3SZ]] $A$.
 It builds a Hilbert space $H_\rho$, a representation $\pi_\rho$ of $A$ on it and a cyclic vector $\xi_\rho$ with $\rho(a) = \ip{\pi_\rho(a)\xi_\rho}{\xi_\rho}$.
 It shows that states and cyclic representations are two views of the same thing.
 Applied to enough states, it proves that every C\*-algebra is isomorphic to an algebra of operators on a Hilbert space.

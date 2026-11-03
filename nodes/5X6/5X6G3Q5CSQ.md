@@ -30,5 +30,5 @@ Non-example: on $\R^{1|1}$ the law $(t, \theta)(t', \theta') = (tt', \theta + \t
 But it has no inverse morphism: on underlying points it is multiplication of real numbers, and $0$ has no inverse.
 
 The underlying manifold of a Lie supergroup is an ordinary [[Lie group|7JBRGCVJRB]].
-The left-invariant vector fields on $G$ form a Lie superalgebra, the Lie superalgebra of $G$.
+The left-invariant vector fields on $G$ form a [[Lie superalgebra|7CZ4Q5H78N]], the Lie superalgebra of $G$.
 Ordinary Lie groups are the Lie supergroups with no odd coordinates.

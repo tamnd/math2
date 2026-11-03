@@ -139,7 +139,7 @@ items:
   - {name: Weyl law, kind: statement, wikipedia: Weyl law, wikidata: Q7990330, node: 2JK9YMZV2B}
   - {name: hearing the shape of a drum, kind: problem, wikipedia: Hearing the shape of a drum, wikidata: Q5691670, node: X3VH8H1XV3}
   - {name: Dirac operator, kind: definition, wikipedia: Dirac operator, wikidata: Q907439, node: 3DXGJTEQZH}
-  - {name: Atiyah–Singer index theorem, kind: statement, wikipedia: Atiyah–Singer index theorem, wikidata: Q755991}
+  - {name: Atiyah–Singer index theorem, kind: statement, wikipedia: Atiyah–Singer index theorem, wikidata: Q755991, node: QK2ECEQYA5}
   - {name: Floquet theory, kind: concept, wikipedia: Floquet theory, wikidata: Q902618, node: BJVZXPB297}
   - {name: almost Mathieu operator, kind: example, wikipedia: Almost Mathieu operator, wikidata: Q4733975, node: D08SKTH2T2}
   - {name: ten martini problem, kind: problem, wikipedia: Almost Mathieu operator, wikidata: Q4733975, node: 3X4ZQ41PXG}
@@ -166,7 +166,7 @@ items:
   - {name: Schauder fixed-point theorem, kind: statement, wikipedia: Schauder fixed-point theorem, wikidata: Q656176, node: DCPFVVZZ54}
   - {name: Schaefer's fixed point theorem, kind: statement, wikipedia: Schauder fixed-point theorem, wikidata: Q656176, node: 7H3YSSDEBK}
   - {name: Kakutani fixed-point theorem, kind: statement, wikipedia: Kakutani fixed-point theorem, wikidata: Q518524, node: 7V3HWGR32Z}
-  - {name: Markov–Kakutani fixed-point theorem, kind: statement, wikipedia: Markov–Kakutani fixed-point theorem, wikidata: Q6771347}
+  - {name: Markov–Kakutani fixed-point theorem, kind: statement, wikipedia: Markov–Kakutani fixed-point theorem, wikidata: Q6771347, node: H9AFGFG4RB}
   - {name: Ryll-Nardzewski fixed-point theorem, kind: statement, wikipedia: Ryll-Nardzewski fixed-point theorem, wikidata: Q1422083, node: 61B8B11Y0Y}
   - {name: Caristi fixed-point theorem, kind: statement, wikipedia: Caristi fixed-point theorem, wikidata: Q2287393, node: NXCM67XY9E}
   - {name: Leray–Schauder degree, kind: definition, wikipedia: Leray–Schauder degree, wikidata: Q111912958, node: 3VJC5Q9MYA}

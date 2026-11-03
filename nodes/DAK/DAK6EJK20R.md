@@ -38,7 +38,7 @@ Then:
 The upwind equation has the causality property: its solution $T_{ij}$ is larger than every neighbour value that enters it with a nonzero term.
 Hence a newly computed tentative value is never smaller than the last accepted value, which gives claim 2, and accepting the smallest tentative value never needs to be undone.
 The source values are arbitrary, so claim 2 is only about the nodes outside $S$.
-This is the same argument as for Dijkstra's algorithm, which the method resembles; Dijkstra's algorithm on the grid graph would measure distance along grid edges only.
+This is the same argument as for [[Dijkstra's algorithm|VZZMASEEC8]], which the method resembles; Dijkstra's algorithm on the grid graph would measure distance along grid edges only.
 Each node is inserted and updated a bounded number of times, and each heap operation costs $O(\log N)$, which gives claim 4.
 
 Example: with $F \equiv 1$ and one source with $T = 0$ at the origin, the computed $T$ approximates the Euclidean distance to the origin.

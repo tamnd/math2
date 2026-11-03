@@ -11,8 +11,8 @@ sources:
 
 ## Definition
 
-Let $G$ be a real or complex [[Lie group|7JBRGCVJRB]], and let $\mathfrak{g}$ be its Lie algebra, with centre $\mathfrak{z}(\mathfrak{g})$ and derived algebra $[\mathfrak{g}, \mathfrak{g}]$.
-The group $G$ is a *reductive Lie group* if $\mathfrak{g}$ is a reductive Lie algebra, that is:
+Let $G$ be a real or complex [[Lie group|7JBRGCVJRB]], and let $\mathfrak{g}$ be its [[Lie algebra|WKVBS76432]], with centre $\mathfrak{z}(\mathfrak{g})$ and derived algebra $[\mathfrak{g}, \mathfrak{g}]$.
+The group $G$ is a *reductive Lie group* if $\mathfrak{g}$ is a [[reductive Lie algebra|T4S70DDW0A]], that is:
 $$\mathfrak{g} = \mathfrak{z}(\mathfrak{g}) \oplus [\mathfrak{g}, \mathfrak{g}] \quad \text{and} \quad [\mathfrak{g}, \mathfrak{g}] \text{ is semisimple}.$$
 
 ## Remarks

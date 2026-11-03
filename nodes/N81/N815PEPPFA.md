@@ -12,7 +12,7 @@ sources:
 ## Definition
 
 Let $A$ be a finite set, the *alphabet*, whose elements are *letters*.
-A finite *word* over $A$ is a finite sequence $w = a_1 a_2 \cdots a_n$ of letters, also called a string; an infinite word is a sequence $(a_i)_{i \ge 1}$.
+A finite *word* over $A$ is a finite sequence $w = a_1 a_2 \cdots a_n$ of letters, also called a [[string|1P6EP01HZF]]; an infinite word is a sequence $(a_i)_{i \ge 1}$.
 The finite words form the free [[monoid|0R47MAD57S]] $A^*$ under concatenation, with the empty word as identity.
 A *factor* of $w$ is a word $u$ with $w = x u y$ for some words $x, y$.
 *Combinatorics on words* is the branch of [[combinatorics|0JKW7W7XFR]] that studies the structure of words in $A^*$ and of infinite words over $A$.

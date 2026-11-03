@@ -23,7 +23,7 @@ The system $R$ *presents* the [[equational theory|F1M51B4MDG]] $E$ if, for all t
 The system $R$ is *convergent* if:
 
 1. it is terminating: there is no infinite chain $t_0 \to_R t_1 \to_R t_2 \to_R \cdots$;
-2. it is confluent: if $t \to_R^* u$ and $t \to_R^* v$, then $u \to_R^* w$ and $v \to_R^* w$ for some term $w$.
+2. it is [[confluent|EDHK5KSGHY]]: if $t \to_R^* u$ and $t \to_R^* v$, then $u \to_R^* w$ and $v \to_R^* w$ for some term $w$.
 
 ## Remarks
 
@@ -34,4 +34,4 @@ For a finite convergent system, this decides the equational theory.
 Example: $R = \set{f(f(x)) \to x}$ is convergent: each step shortens the term, and the only overlap, in $f(f(f(x)))$, rewrites to $f(x)$ in both ways.
 So $f^m(x) \approx f^n(x)$ holds in the theory of an involution exactly when $m$ and $n$ have the same parity.
 Non-example: $R = \set{x \cdot y \to y \cdot x}$ presents the theory of a commutative operation but is not terminating, since $a \cdot b \to b \cdot a \to a \cdot b \to \cdots$.
-The Knuth–Bendix completion procedure tries to turn a set of identities into an equivalent convergent system.
+The [[Knuth–Bendix completion|4JKD5FBJCS]] procedure tries to turn a set of identities into an equivalent convergent system.

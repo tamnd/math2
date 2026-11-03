@@ -19,7 +19,7 @@ Let $G$ be a linear connected [[real reductive Lie group|42ZCE14AD2]], and fix a
 Consider the triples $(P, \sigma, \nu)$ such that:
 
 1. $P \supseteq P_0$ is a [[parabolic subgroup|Z2FEBW5MQM]] with [[Langlands decomposition|BM3TWJ0D4P]] $P = MAN$;
-2. $\sigma$ is an equivalence class of irreducible tempered representations of $M$;
+2. $\sigma$ is an equivalence class of irreducible [[tempered representations|2HM21Z7XN9]] of $M$;
 3. $\nu \in \mathfrak a^*_\C$, where $\mathfrak a$ is the Lie algebra of $A$, and $\operatorname{Re} \nu$ is strictly positive on every root of $\mathfrak a$ in the Lie algebra of $N$.
 
 For such a triple, the normalised [[induced representation|6Q7AHAZ6Q4]] $\mathrm{Ind}_P^G(\sigma \otimes e^\nu \otimes 1)$ has a unique irreducible quotient $J(P, \sigma, \nu)$, the Langlands quotient.

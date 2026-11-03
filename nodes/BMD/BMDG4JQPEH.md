@@ -14,7 +14,7 @@ Let $H$ be a complex [[Hilbert space|HM2HHE3J51]] with inner product $\ip{\cdot}
 Let $B(H)$ be the set of bounded linear operators $T \colon H \to H$, with pointwise addition and scalar multiplication, composition as product, and the [[operator norm|06EKW1AKXF]]
 $$\norm{T} = \sup \set{\norm{T x} : x \in H, \norm{x} \le 1}.$$
 The involution is the [[adjoint|6HSJBJ8TTQ]] $T \mapsto T^*$, defined by $\ip{T x}{y} = \ip{x}{T^* y}$ for all $x, y \in H$.
-With these operations $B(H)$ is a C*-algebra with unit the identity operator.
+With these operations $B(H)$ is a [[C*-algebra|M2WFY1D3SZ]] with unit the identity operator.
 
 Check: $B(H)$ is complete in the operator norm because $H$ is complete, and $\norm{S T} \le \norm{S} \norm{T}$, so it is a Banach algebra.
 The adjoint is conjugate linear, satisfies $(S T)^* = T^* S^*$ and $T^{**} = T$, and $\norm{T^*} = \norm{T}$.

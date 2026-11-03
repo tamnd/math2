@@ -7,260 +7,260 @@ sources:
   wikipedia: {title: English Wikipedia, url: 'https://en.wikipedia.org/wiki/', retrieved: '2026-10-26'}
 items:
   # Foundations and kinematics of flow
-  - {name: fluid mechanics, kind: concept, wikipedia: Fluid mechanics, wikidata: Q172145}
-  - {name: fluid dynamics, kind: concept, wikipedia: Fluid dynamics, wikidata: Q216320}
-  - {name: Lagrangian and Eulerian specification of the flow field, kind: concept, wikipedia: Lagrangian and Eulerian specification of the flow field, wikidata: Q6418927}
-  - {name: material derivative, kind: definition, wikipedia: Material derivative, wikidata: Q1801562}
-  - {name: 'streamlines, streaklines and pathlines', kind: definition, wikipedia: 'Streamlines, streaklines, and pathlines', wikidata: Q634407}
-  - {name: stream function, kind: definition, wikipedia: Stream function, wikidata: Q2029236}
-  - {name: velocity potential, kind: definition, wikipedia: Velocity potential, wikidata: Q1331126}
-  - {name: vorticity, kind: definition, wikipedia: Vorticity, wikidata: Q1143513}
-  - {name: circulation, kind: definition, wikipedia: Circulation (physics), wikidata: Q205880}
-  - {name: strain rate tensor, kind: definition, wikipedia: Strain-rate tensor, wikidata: Q7621125}
-  - {name: continuity equation, kind: statement, wikipedia: Continuity equation, wikidata: Q217219}
-  - {name: incompressible flow, kind: definition, wikipedia: Incompressible flow, wikidata: Q1663717}
-  - {name: Helmholtz decomposition of a velocity field, kind: statement, wikipedia: Helmholtz decomposition, wikidata: Q1153588}
-  - {name: dimensionless numbers in fluid mechanics, kind: concept, wikipedia: Dimensionless numbers in fluid mechanics, wikidata: Q20707835}
-  - {name: Reynolds number, kind: definition, wikipedia: Reynolds number, wikidata: Q178932}
-  - {name: Mach number, kind: definition, wikipedia: Mach number, wikidata: Q160669}
-  - {name: Froude number, kind: definition, wikipedia: Froude number, wikidata: Q273090}
-  - {name: Strouhal number, kind: definition, wikipedia: Strouhal number, wikidata: Q646627}
-  - {name: Prandtl number, kind: definition, wikipedia: Prandtl number, wikidata: Q815306}
-  - {name: Weber number, kind: definition, wikipedia: Weber number, wikidata: Q947531}
-  - {name: Rossby number, kind: definition, wikipedia: Rossby number, wikidata: Q676622}
-  - {name: Buckingham π theorem, kind: statement, wikipedia: Buckingham pi theorem, wikidata: Q999783}
-  - {name: dynamic similarity, kind: concept, wikipedia: Similitude, wikidata: Q254515}
+  - {name: fluid mechanics, kind: concept, wikipedia: Fluid mechanics, wikidata: Q172145, node: H27M44BV4M}
+  - {name: fluid dynamics, kind: concept, wikipedia: Fluid dynamics, wikidata: Q216320, node: F2JRWJNYN4}
+  - {name: Lagrangian and Eulerian specification of the flow field, kind: concept, wikipedia: Lagrangian and Eulerian specification of the flow field, wikidata: Q6418927, node: 5E6K4ATM9W}
+  - {name: material derivative, kind: definition, wikipedia: Material derivative, wikidata: Q1801562, node: CJW50K5HZB}
+  - {name: 'streamlines, streaklines and pathlines', kind: definition, wikipedia: 'Streamlines, streaklines, and pathlines', wikidata: Q634407, node: ZWF8B7T5NX}
+  - {name: stream function, kind: definition, wikipedia: Stream function, wikidata: Q2029236, node: E66111XRRA}
+  - {name: velocity potential, kind: definition, wikipedia: Velocity potential, wikidata: Q1331126, node: 470A1RJWBP}
+  - {name: vorticity, kind: definition, wikipedia: Vorticity, wikidata: Q1143513, node: B3SXT9TWFA}
+  - {name: circulation, kind: definition, wikipedia: Circulation (physics), wikidata: Q205880, node: BTHH4Y71QR}
+  - {name: strain rate tensor, kind: definition, wikipedia: Strain-rate tensor, wikidata: Q7621125, node: P1KWMQG4NZ}
+  - {name: continuity equation, kind: statement, wikipedia: Continuity equation, wikidata: Q217219, node: FD4NR553YR}
+  - {name: incompressible flow, kind: definition, wikipedia: Incompressible flow, wikidata: Q1663717, node: 2JZ0C15A9C}
+  - {name: Helmholtz decomposition of a velocity field, kind: statement, wikipedia: Helmholtz decomposition, wikidata: Q1153588, node: C75W88ZVNY}
+  - {name: dimensionless numbers in fluid mechanics, kind: concept, wikipedia: Dimensionless numbers in fluid mechanics, wikidata: Q20707835, node: T3R5FWV91P}
+  - {name: Reynolds number, kind: definition, wikipedia: Reynolds number, wikidata: Q178932, node: JH9EJ0HA0R}
+  - {name: Mach number, kind: definition, wikipedia: Mach number, wikidata: Q160669, node: GFHJ858AN1}
+  - {name: Froude number, kind: definition, wikipedia: Froude number, wikidata: Q273090, node: R2QQEFPTP8}
+  - {name: Strouhal number, kind: definition, wikipedia: Strouhal number, wikidata: Q646627, node: B7PKESV4CV}
+  - {name: Prandtl number, kind: definition, wikipedia: Prandtl number, wikidata: Q815306, node: C4KSBMR413}
+  - {name: Weber number, kind: definition, wikipedia: Weber number, wikidata: Q947531, node: ZKGDMA1WZG}
+  - {name: Rossby number, kind: definition, wikipedia: Rossby number, wikidata: Q676622, node: SCYK4FMY59}
+  - {name: Buckingham π theorem, kind: statement, wikipedia: Buckingham pi theorem, wikidata: Q999783, node: 4Q9PB2WPAY}
+  - {name: dynamic similarity, kind: concept, wikipedia: Similitude, wikidata: Q254515, node: ZX6ZEWPPSB}
   # Rheology and non-Newtonian fluids
-  - {name: viscosity, kind: definition, wikipedia: Viscosity, wikidata: Q128709}
-  - {name: Newtonian fluid, kind: definition, wikipedia: Newtonian fluid, wikidata: Q366968}
-  - {name: non-Newtonian fluid, kind: definition, wikipedia: Non-Newtonian fluid, wikidata: Q860589}
-  - {name: rheology, kind: concept, wikipedia: Rheology, wikidata: Q271707}
-  - {name: Bingham plastic, kind: example, wikipedia: Bingham plastic, wikidata: Q863789}
-  - {name: power-law fluid, kind: example, wikipedia: Power-law fluid, wikidata: Q970142}
-  - {name: Herschel–Bulkley fluid, kind: example, wikipedia: Herschel–Bulkley fluid, wikidata: Q10862968}
-  - {name: Oldroyd-B model, kind: example, wikipedia: Oldroyd-B model, wikidata: Q7085712}
-  - {name: upper-convected Maxwell model, kind: example, wikipedia: Upper-convected Maxwell model, wikidata: Q3318079}
-  - {name: upper-convected time derivative, kind: definition, wikipedia: Upper-convected time derivative, wikidata: Q7898446}
-  - {name: Weissenberg number, kind: definition, wikipedia: Weissenberg number, wikidata: Q1753014}
+  - {name: viscosity, kind: definition, wikipedia: Viscosity, wikidata: Q128709, node: NM5Q4845Z4}
+  - {name: Newtonian fluid, kind: definition, wikipedia: Newtonian fluid, wikidata: Q366968, node: T4ZV12BVHN}
+  - {name: non-Newtonian fluid, kind: definition, wikipedia: Non-Newtonian fluid, wikidata: Q860589, node: 8DT9MB9V6R}
+  - {name: rheology, kind: concept, wikipedia: Rheology, wikidata: Q271707, node: EF27XBPW3N}
+  - {name: Bingham plastic, kind: example, wikipedia: Bingham plastic, wikidata: Q863789, node: FP202DPQ3D}
+  - {name: power-law fluid, kind: example, wikipedia: Power-law fluid, wikidata: Q970142, node: C6RVY7R8S6}
+  - {name: Herschel–Bulkley fluid, kind: example, wikipedia: Herschel–Bulkley fluid, wikidata: Q10862968, node: W14BWSPKNP}
+  - {name: Oldroyd-B model, kind: example, wikipedia: Oldroyd-B model, wikidata: Q7085712, node: VPACKRZSA8}
+  - {name: upper-convected Maxwell model, kind: example, wikipedia: Upper-convected Maxwell model, wikidata: Q3318079, node: VN6MY7KWJ8}
+  - {name: upper-convected time derivative, kind: definition, wikipedia: Upper-convected time derivative, wikidata: Q7898446, node: F16YFCJRFJ}
+  - {name: Weissenberg number, kind: definition, wikipedia: Weissenberg number, wikidata: Q1753014, node: Y42Z1WX41X}
   # Ideal fluids
-  - {name: inviscid flow, kind: definition, wikipedia: Inviscid flow, wikidata: Q2247765}
-  - {name: Euler equations of fluid dynamics, kind: definition, wikipedia: Euler equations (fluid dynamics), wikidata: Q375175}
-  - {name: Bernoulli's principle, kind: statement, wikipedia: Bernoulli's principle, wikidata: Q181328}
-  - {name: Kelvin's circulation theorem, kind: statement, wikipedia: Kelvin's circulation theorem, wikidata: Q3661294}
-  - {name: Helmholtz's theorems on vortices, kind: statement, wikipedia: Helmholtz's theorems, wikidata: Q985009}
-  - {name: Crocco's theorem, kind: statement, wikipedia: Crocco's theorem, wikidata: Q580245}
-  - {name: vorticity equation, kind: definition, wikipedia: Vorticity equation, wikidata: Q3730817}
-  - {name: Ertel's theorem on potential vorticity, kind: statement, wikipedia: Potential vorticity, wikidata: Q1418563}
-  - {name: Arnold's geometric formulation of the Euler equations, kind: concept, wikipedia: Euler equations (fluid dynamics), wikidata: Q375175}
+  - {name: inviscid flow, kind: definition, wikipedia: Inviscid flow, wikidata: Q2247765, node: ZJH90RWYQ5}
+  - {name: Euler equations of fluid dynamics, kind: definition, wikipedia: Euler equations (fluid dynamics), wikidata: Q375175, node: RW0JK9VDZE}
+  - {name: Bernoulli's principle, kind: statement, wikipedia: Bernoulli's principle, wikidata: Q181328, node: 7XFWQVWPG1}
+  - {name: Kelvin's circulation theorem, kind: statement, wikipedia: Kelvin's circulation theorem, wikidata: Q3661294, node: BWMB87Q6DM}
+  - {name: Helmholtz's theorems on vortices, kind: statement, wikipedia: Helmholtz's theorems, wikidata: Q985009, node: D2KCKEP0N4}
+  - {name: Crocco's theorem, kind: statement, wikipedia: Crocco's theorem, wikidata: Q580245, node: 1JE4AC4QFF}
+  - {name: vorticity equation, kind: definition, wikipedia: Vorticity equation, wikidata: Q3730817, node: W5RHJENGWS}
+  - {name: Ertel's theorem on potential vorticity, kind: statement, wikipedia: Potential vorticity, wikidata: Q1418563, node: EH6K8VP1C3}
+  - {name: Arnold's geometric formulation of the Euler equations, kind: concept, wikipedia: Euler equations (fluid dynamics), wikidata: Q375175, node: 8F1W980F5G}
   - {name: finite-time blowup for the 3D Euler equations, kind: conjecture, wikipedia: Euler equations (fluid dynamics), wikidata: Q375175}
-  - {name: potential flow, kind: definition, wikipedia: Potential flow, wikidata: Q1543991}
-  - {name: complex potential, kind: definition, wikipedia: Potential flow, wikidata: Q1543991}
-  - {name: Rankine vortex, kind: example, wikipedia: Rankine vortex, wikidata: Q7293284}
-  - {name: Lamb–Oseen vortex, kind: example, wikipedia: Lamb–Oseen vortex, wikidata: Q6481628}
-  - {name: Burgers vortex, kind: example, wikipedia: Burgers vortex, wikidata: Q16000060}
-  - {name: Hill's spherical vortex, kind: example, wikipedia: Hill's spherical vortex, wikidata: Q108280743}
-  - {name: Kármán vortex street, kind: example, wikipedia: Kármán vortex street, wikidata: Q1044416}
-  - {name: potential flow around a circular cylinder, kind: example, wikipedia: Potential flow around a circular cylinder, wikidata: Q7234818}
-  - {name: d'Alembert's paradox, kind: counterexample, wikipedia: D'Alembert's paradox, wikidata: Q284938}
-  - {name: Blasius theorem, kind: statement, wikipedia: Blasius theorem, wikidata: Q881920}
-  - {name: Kutta–Joukowski theorem, kind: statement, wikipedia: Kutta–Joukowski theorem, wikidata: Q1752988}
-  - {name: Kutta condition, kind: definition, wikipedia: Kutta condition, wikidata: Q1154278}
+  - {name: potential flow, kind: definition, wikipedia: Potential flow, wikidata: Q1543991, node: 84K7TEWZ2Z}
+  - {name: complex potential, kind: definition, wikipedia: Potential flow, wikidata: Q1543991, node: Q4DVPTBHEE}
+  - {name: Rankine vortex, kind: example, wikipedia: Rankine vortex, wikidata: Q7293284, node: 1JP90A94FR}
+  - {name: Lamb–Oseen vortex, kind: example, wikipedia: Lamb–Oseen vortex, wikidata: Q6481628, node: J2YFR1F2NG}
+  - {name: Burgers vortex, kind: example, wikipedia: Burgers vortex, wikidata: Q16000060, node: HVSRB4QXKA}
+  - {name: Hill's spherical vortex, kind: example, wikipedia: Hill's spherical vortex, wikidata: Q108280743, node: 5QXPSV6A18}
+  - {name: Kármán vortex street, kind: example, wikipedia: Kármán vortex street, wikidata: Q1044416, node: NZKHXG3YQ0}
+  - {name: potential flow around a circular cylinder, kind: example, wikipedia: Potential flow around a circular cylinder, wikidata: Q7234818, node: XKSK2A46VS}
+  - {name: d'Alembert's paradox, kind: counterexample, wikipedia: D'Alembert's paradox, wikidata: Q284938, node: MJEX13ZQWR}
+  - {name: Blasius theorem, kind: statement, wikipedia: Blasius theorem, wikidata: Q881920, node: 2AV2N7HBV2}
+  - {name: Kutta–Joukowski theorem, kind: statement, wikipedia: Kutta–Joukowski theorem, wikidata: Q1752988, node: TZM7XNR4V0}
+  - {name: Kutta condition, kind: definition, wikipedia: Kutta condition, wikidata: Q1154278, node: DSWYGZCGM5}
   - {name: Joukowsky transform, kind: definition, wikipedia: Joukowsky transform, wikidata: Q1794703}
-  - {name: Milne-Thomson circle theorem, kind: statement, wikipedia: Milne-Thomson circle theorem, wikidata: Q6860189}
-  - {name: added mass, kind: concept, wikipedia: Added mass, wikidata: Q4681030}
+  - {name: Milne-Thomson circle theorem, kind: statement, wikipedia: Milne-Thomson circle theorem, wikidata: Q6860189, node: TY2JZPPKVB}
+  - {name: added mass, kind: concept, wikipedia: Added mass, wikidata: Q4681030, node: 2BS252PEJG}
   # Water waves and free surfaces
-  - {name: water waves, kind: concept, wikipedia: Wind wave, wikidata: Q165848}
-  - {name: Airy wave theory, kind: concept, wikipedia: Airy wave theory, wikidata: Q4699087}
-  - {name: dispersion relation of water waves, kind: statement, wikipedia: Dispersion (water waves), wikidata: Q1229165}
-  - {name: Stokes wave, kind: example, wikipedia: Stokes wave, wikidata: Q7618554}
-  - {name: Stokes drift, kind: concept, wikipedia: Stokes drift, wikidata: Q961596}
+  - {name: water waves, kind: concept, wikipedia: Wind wave, wikidata: Q165848, node: R9WC0Z7Z69}
+  - {name: Airy wave theory, kind: concept, wikipedia: Airy wave theory, wikidata: Q4699087, node: CNCGSCVQB8}
+  - {name: dispersion relation of water waves, kind: statement, wikipedia: Dispersion (water waves), wikidata: Q1229165, node: JT5EGBG2ZV}
+  - {name: Stokes wave, kind: example, wikipedia: Stokes wave, wikidata: Q7618554, node: H7CFG2495H}
+  - {name: Stokes drift, kind: concept, wikipedia: Stokes drift, wikidata: Q961596, node: SXX1PJVS5V}
   - {name: shallow water equations, kind: definition, wikipedia: Shallow water equations, wikidata: Q4008384, node: NT73Y95RY5}
-  - {name: Boussinesq approximation for water waves, kind: concept, wikipedia: Boussinesq approximation (water waves), wikidata: Q4950395}
+  - {name: Boussinesq approximation for water waves, kind: concept, wikipedia: Boussinesq approximation (water waves), wikidata: Q4950395, node: 6EPTRN9AQE}
   - {name: Korteweg–De Vries equation, kind: definition, wikipedia: Korteweg–De Vries equation, wikidata: Q601796, node: KTT75QC72Z}
-  - {name: cnoidal wave, kind: example, wikipedia: Cnoidal wave, wikidata: Q5137392}
-  - {name: Camassa–Holm equation, kind: definition, wikipedia: Camassa–Holm equation, wikidata: Q5025006}
+  - {name: cnoidal wave, kind: example, wikipedia: Cnoidal wave, wikidata: Q5137392, node: HFSMNPWZWN}
+  - {name: Camassa–Holm equation, kind: definition, wikipedia: Camassa–Holm equation, wikidata: Q5025006, node: QHSRAS0N59}
   - {name: Kadomtsev–Petviashvili equation, kind: definition, wikipedia: Kadomtsev–Petviashvili equation, wikidata: Q6345653, node: P93R13XP0P}
-  - {name: Benjamin–Feir instability, kind: statement, wikipedia: Modulational instability, wikidata: Q17104082}
-  - {name: Luke's variational principle, kind: statement, wikipedia: Luke's variational principle, wikidata: Q6701750}
-  - {name: Kelvin wake pattern, kind: example, wikipedia: Kelvin wake pattern, wikidata: Q53111159}
-  - {name: capillary wave, kind: definition, wikipedia: Capillary wave, wikidata: Q15143885}
-  - {name: Young–Laplace equation, kind: statement, wikipedia: Young–Laplace equation, wikidata: Q905258}
-  - {name: Marangoni effect, kind: concept, wikipedia: Marangoni effect, wikidata: Q1960173}
-  - {name: Hele-Shaw flow, kind: concept, wikipedia: Hele-Shaw flow, wikidata: Q5701708}
-  - {name: Saffman–Taylor instability, kind: concept, wikipedia: Saffman–Taylor instability, wikidata: Q3027832}
+  - {name: Benjamin–Feir instability, kind: statement, wikipedia: Modulational instability, wikidata: Q17104082, node: DMBRH83RX0}
+  - {name: Luke's variational principle, kind: statement, wikipedia: Luke's variational principle, wikidata: Q6701750, node: 5Z141B47T0}
+  - {name: Kelvin wake pattern, kind: example, wikipedia: Kelvin wake pattern, wikidata: Q53111159, node: FXG9ZQBDVB}
+  - {name: capillary wave, kind: definition, wikipedia: Capillary wave, wikidata: Q15143885, node: 5JNTHCYJ7K}
+  - {name: Young–Laplace equation, kind: statement, wikipedia: Young–Laplace equation, wikidata: Q905258, node: Z9TBETJAP6}
+  - {name: Marangoni effect, kind: concept, wikipedia: Marangoni effect, wikidata: Q1960173, node: 26R4JJ2MXQ}
+  - {name: Hele-Shaw flow, kind: concept, wikipedia: Hele-Shaw flow, wikidata: Q5701708, node: CM1R6CSHAA}
+  - {name: Saffman–Taylor instability, kind: concept, wikipedia: Saffman–Taylor instability, wikidata: Q3027832, node: 3Y7MA0VS2J}
   # Incompressible viscous flow
   - {name: Navier–Stokes equations, kind: definition, wikipedia: Navier–Stokes equations, wikidata: Q201321, node: 18KXZHVF4M}
   - {name: Navier–Stokes existence and smoothness, kind: conjecture, wikipedia: Navier–Stokes existence and smoothness, wikidata: Q1098081, node: 46Z1TVS2K6}
-  - {name: Leray–Hopf weak solutions, kind: statement, wikipedia: Navier–Stokes existence and smoothness, wikidata: Q1098081}
-  - {name: Caffarelli–Kohn–Nirenberg partial regularity, kind: statement, wikipedia: Navier–Stokes existence and smoothness, wikidata: Q1098081}
-  - {name: Ladyzhenskaya's global regularity in two dimensions, kind: statement, wikipedia: Navier–Stokes existence and smoothness, wikidata: Q1098081}
-  - {name: no-slip condition, kind: definition, wikipedia: No-slip condition, wikidata: Q1396948}
-  - {name: Poiseuille flow, kind: example, wikipedia: Hagen–Poiseuille equation, wikidata: Q869854}
-  - {name: Couette flow, kind: example, wikipedia: Couette flow, wikidata: Q1114429}
-  - {name: Taylor–Couette flow, kind: example, wikipedia: Taylor–Couette flow, wikidata: Q3151656}
-  - {name: Stokes' first and second problems, kind: example, wikipedia: Stokes problem, wikidata: Q30715867}
-  - {name: Jeffery–Hamel flow, kind: example, wikipedia: Jeffery–Hamel flow, wikidata: Q30596183}
-  - {name: von Kármán swirling flow, kind: example, wikipedia: Von Kármán swirling flow, wikidata: Q30596026}
+  - {name: Leray–Hopf weak solutions, kind: statement, wikipedia: Navier–Stokes existence and smoothness, wikidata: Q1098081, node: DHHR5PZZ7E}
+  - {name: Caffarelli–Kohn–Nirenberg partial regularity, kind: statement, wikipedia: Navier–Stokes existence and smoothness, wikidata: Q1098081, node: 2SP210VK9P}
+  - {name: Ladyzhenskaya's global regularity in two dimensions, kind: statement, wikipedia: Navier–Stokes existence and smoothness, wikidata: Q1098081, node: 9910P6BF51}
+  - {name: no-slip condition, kind: definition, wikipedia: No-slip condition, wikidata: Q1396948, node: DF0M8YNQ3D}
+  - {name: Poiseuille flow, kind: example, wikipedia: Hagen–Poiseuille equation, wikidata: Q869854, node: P27AH8WRRC}
+  - {name: Couette flow, kind: example, wikipedia: Couette flow, wikidata: Q1114429, node: G4JB1YWEJZ}
+  - {name: Taylor–Couette flow, kind: example, wikipedia: Taylor–Couette flow, wikidata: Q3151656, node: 6Q0X0W9F11}
+  - {name: Stokes' first and second problems, kind: example, wikipedia: Stokes problem, wikidata: Q30715867, node: 5S45NEQ2KZ}
+  - {name: Jeffery–Hamel flow, kind: example, wikipedia: Jeffery–Hamel flow, wikidata: Q30596183, node: KK33RD9TVW}
+  - {name: von Kármán swirling flow, kind: example, wikipedia: Von Kármán swirling flow, wikidata: Q30596026, node: H2EG94MRFT}
   - {name: Stokes flow, kind: definition, wikipedia: Stokes flow, wikidata: Q674202, node: 13CB7V2YM4}
-  - {name: Stokes' law, kind: statement, wikipedia: Stokes's law, wikidata: Q824561}
-  - {name: Stokeslet, kind: definition, wikipedia: Stokes flow, wikidata: Q674202}
-  - {name: Lorentz reciprocal theorem for Stokes flow, kind: statement, wikipedia: Stokes flow, wikidata: Q674202}
-  - {name: Stokes' paradox, kind: counterexample, wikipedia: Stokes' paradox, wikidata: Q17106061}
-  - {name: Oseen equations, kind: definition, wikipedia: Oseen equations, wikidata: Q2033185}
-  - {name: Purcell's scallop theorem, kind: statement, wikipedia: Scallop theorem, wikidata: Q7429791}
-  - {name: lubrication theory, kind: concept, wikipedia: Lubrication theory, wikidata: Q2858941}
-  - {name: Reynolds equation, kind: definition, wikipedia: Reynolds equation, wikidata: Q7319639}
+  - {name: Stokes' law, kind: statement, wikipedia: Stokes's law, wikidata: Q824561, node: WW2DTGE881}
+  - {name: Stokeslet, kind: definition, wikipedia: Stokes flow, wikidata: Q674202, node: QMTKCY36JE}
+  - {name: Lorentz reciprocal theorem for Stokes flow, kind: statement, wikipedia: Stokes flow, wikidata: Q674202, node: 1GX3RJ9N14}
+  - {name: Stokes' paradox, kind: counterexample, wikipedia: Stokes' paradox, wikidata: Q17106061, node: M1KHFRHCC1}
+  - {name: Oseen equations, kind: definition, wikipedia: Oseen equations, wikidata: Q2033185, node: 5632SYFZNF}
+  - {name: Purcell's scallop theorem, kind: statement, wikipedia: Scallop theorem, wikidata: Q7429791, node: 8JZ39FW28G}
+  - {name: lubrication theory, kind: concept, wikipedia: Lubrication theory, wikidata: Q2858941, node: 90FD7XNX72}
+  - {name: Reynolds equation, kind: definition, wikipedia: Reynolds equation, wikidata: Q7319639, node: K2W9427PJ2}
   - {name: boundary layer, kind: concept, wikipedia: Boundary layer, wikidata: Q752193, node: YCFPD0GE5G}
-  - {name: Prandtl boundary layer equations, kind: definition, wikipedia: Boundary layer, wikidata: Q752193}
-  - {name: Blasius boundary layer, kind: example, wikipedia: Blasius boundary layer, wikidata: Q4925317}
-  - {name: Falkner–Skan boundary layer, kind: example, wikipedia: Falkner–Skan boundary layer, wikidata: Q30715267}
-  - {name: boundary layer separation, kind: concept, wikipedia: Flow separation, wikidata: Q1545856}
-  - {name: displacement thickness, kind: definition, wikipedia: Boundary layer thickness, wikidata: Q1660471}
-  - {name: momentum integral equation, kind: statement, wikipedia: Boundary layer thickness, wikidata: Q1660471}
-  - {name: drag coefficient, kind: definition, wikipedia: Drag coefficient, wikidata: Q1778961}
+  - {name: Prandtl boundary layer equations, kind: definition, wikipedia: Boundary layer, wikidata: Q752193, node: XXDE4YP722}
+  - {name: Blasius boundary layer, kind: example, wikipedia: Blasius boundary layer, wikidata: Q4925317, node: VJ752BFSQF}
+  - {name: Falkner–Skan boundary layer, kind: example, wikipedia: Falkner–Skan boundary layer, wikidata: Q30715267, node: SYCMG26GY7}
+  - {name: boundary layer separation, kind: concept, wikipedia: Flow separation, wikidata: Q1545856, node: DMND77PFQT}
+  - {name: displacement thickness, kind: definition, wikipedia: Boundary layer thickness, wikidata: Q1660471, node: 6DZC6HPDH2}
+  - {name: momentum integral equation, kind: statement, wikipedia: Boundary layer thickness, wikidata: Q1660471, node: WCGH22X05Y}
+  - {name: drag coefficient, kind: definition, wikipedia: Drag coefficient, wikidata: Q1778961, node: NZ4E3K1J59}
   # Hydrodynamic stability
-  - {name: hydrodynamic stability, kind: concept, wikipedia: Hydrodynamic stability, wikidata: Q4138087}
-  - {name: Orr–Sommerfeld equation, kind: definition, wikipedia: Orr–Sommerfeld equation, wikidata: Q7104117}
-  - {name: Rayleigh's inflection point criterion, kind: statement, wikipedia: Rayleigh's equation (fluid dynamics), wikidata: Q28457791}
-  - {name: Squire's theorem, kind: statement, wikipedia: Squire's theorem, wikidata: Q25101661}
-  - {name: Miles–Howard theorem, kind: statement, wikipedia: Richardson number, wikidata: Q961847}
-  - {name: Kelvin–Helmholtz instability, kind: concept, wikipedia: Kelvin–Helmholtz instability, wikidata: Q1571116}
-  - {name: Rayleigh–Taylor instability, kind: concept, wikipedia: Rayleigh–Taylor instability, wikidata: Q899055}
-  - {name: Richtmyer–Meshkov instability, kind: concept, wikipedia: Richtmyer–Meshkov instability, wikidata: Q3151655}
-  - {name: Plateau–Rayleigh instability, kind: concept, wikipedia: Plateau–Rayleigh instability, wikidata: Q900862}
-  - {name: Taylor–Couette instability, kind: concept, wikipedia: Taylor–Couette flow, wikidata: Q3151656}
-  - {name: Rayleigh–Bénard convection, kind: concept, wikipedia: Rayleigh–Bénard convection, wikidata: Q1019460}
-  - {name: Tollmien–Schlichting wave, kind: concept, wikipedia: Tollmien–Schlichting wave, wikidata: Q2439370}
-  - {name: laminar–turbulent transition, kind: concept, wikipedia: Laminar–turbulent transition, wikidata: Q5366689}
+  - {name: hydrodynamic stability, kind: concept, wikipedia: Hydrodynamic stability, wikidata: Q4138087, node: H028A17Z55}
+  - {name: Orr–Sommerfeld equation, kind: definition, wikipedia: Orr–Sommerfeld equation, wikidata: Q7104117, node: G0ADVS0K99}
+  - {name: Rayleigh's inflection point criterion, kind: statement, wikipedia: Rayleigh's equation (fluid dynamics), wikidata: Q28457791, node: 25ZMP5THH9}
+  - {name: Squire's theorem, kind: statement, wikipedia: Squire's theorem, wikidata: Q25101661, node: ES63E91F6T}
+  - {name: Miles–Howard theorem, kind: statement, wikipedia: Richardson number, wikidata: Q961847, node: PAFD50PFXX}
+  - {name: Kelvin–Helmholtz instability, kind: concept, wikipedia: Kelvin–Helmholtz instability, wikidata: Q1571116, node: 7PJ97MHYTP}
+  - {name: Rayleigh–Taylor instability, kind: concept, wikipedia: Rayleigh–Taylor instability, wikidata: Q899055, node: 3ETBXHDWBM}
+  - {name: Richtmyer–Meshkov instability, kind: concept, wikipedia: Richtmyer–Meshkov instability, wikidata: Q3151655, node: YED33V9DS5}
+  - {name: Plateau–Rayleigh instability, kind: concept, wikipedia: Plateau–Rayleigh instability, wikidata: Q900862, node: XGPK6NW3B2}
+  - {name: Taylor–Couette instability, kind: concept, wikipedia: Taylor–Couette flow, wikidata: Q3151656, node: 2A3F7MSEMH}
+  - {name: Rayleigh–Bénard convection, kind: concept, wikipedia: Rayleigh–Bénard convection, wikidata: Q1019460, node: GKVRHF9E43}
+  - {name: Tollmien–Schlichting wave, kind: concept, wikipedia: Tollmien–Schlichting wave, wikidata: Q2439370, node: TQE8EN865Z}
+  - {name: laminar–turbulent transition, kind: concept, wikipedia: Laminar–turbulent transition, wikidata: Q5366689, node: 8B94DQ86SN}
   # Turbulence
-  - {name: turbulence, kind: concept, wikipedia: Turbulence, wikidata: Q190132}
-  - {name: Reynolds decomposition, kind: definition, wikipedia: Reynolds decomposition, wikidata: Q7319682}
-  - {name: Reynolds-averaged Navier–Stokes equations, kind: definition, wikipedia: Reynolds-averaged Navier–Stokes equations, wikidata: Q1536235}
-  - {name: Reynolds stress, kind: definition, wikipedia: Reynolds stress, wikidata: Q7319685}
-  - {name: turbulence closure problem, kind: problem, wikipedia: Turbulence modeling, wikidata: Q1417609}
-  - {name: Boussinesq eddy viscosity hypothesis, kind: concept, wikipedia: Eddy diffusion, wikidata: Q1283046}
-  - {name: K-epsilon turbulence model, kind: concept, wikipedia: K-epsilon turbulence model, wikidata: Q17148242}
-  - {name: large eddy simulation, kind: concept, wikipedia: Large eddy simulation, wikidata: Q1755722}
-  - {name: energy cascade, kind: concept, wikipedia: Energy cascade, wikidata: Q20020306}
-  - {name: Kolmogorov 1941 theory, kind: statement, wikipedia: Kolmogorov microscales, wikidata: Q1527018}
-  - {name: Kolmogorov four-fifths law, kind: statement, wikipedia: Turbulence, wikidata: Q190132}
-  - {name: Kolmogorov microscales, kind: definition, wikipedia: Kolmogorov microscales, wikidata: Q1527018}
-  - {name: Taylor microscale, kind: definition, wikipedia: Taylor microscale, wikidata: Q7690193}
-  - {name: intermittency in turbulence, kind: concept, wikipedia: Intermittency, wikidata: Q1666248}
-  - {name: Kraichnan's inverse cascade in two-dimensional turbulence, kind: statement, wikipedia: Energy cascade, wikidata: Q20020306}
-  - {name: law of the wall, kind: statement, wikipedia: Law of the wall, wikidata: Q6503510}
-  - {name: Kármán–Howarth equation, kind: statement, wikipedia: Kármán–Howarth equation, wikidata: Q16910971}
+  - {name: turbulence, kind: concept, wikipedia: Turbulence, wikidata: Q190132, node: VY307F8Z0S}
+  - {name: Reynolds decomposition, kind: definition, wikipedia: Reynolds decomposition, wikidata: Q7319682, node: V47TX9AFKF}
+  - {name: Reynolds-averaged Navier–Stokes equations, kind: definition, wikipedia: Reynolds-averaged Navier–Stokes equations, wikidata: Q1536235, node: 4EYAHQDA7Q}
+  - {name: Reynolds stress, kind: definition, wikipedia: Reynolds stress, wikidata: Q7319685, node: FDQE4PF63G}
+  - {name: turbulence closure problem, kind: problem, wikipedia: Turbulence modeling, wikidata: Q1417609, node: A2X0FXC6HK}
+  - {name: Boussinesq eddy viscosity hypothesis, kind: concept, wikipedia: Eddy diffusion, wikidata: Q1283046, node: 4K9W1VP58R}
+  - {name: K-epsilon turbulence model, kind: concept, wikipedia: K-epsilon turbulence model, wikidata: Q17148242, node: S7RYQN3T1H}
+  - {name: large eddy simulation, kind: concept, wikipedia: Large eddy simulation, wikidata: Q1755722, node: 1708HMRRSW}
+  - {name: energy cascade, kind: concept, wikipedia: Energy cascade, wikidata: Q20020306, node: YQ2KYDWRD0}
+  - {name: Kolmogorov 1941 theory, kind: statement, wikipedia: Kolmogorov microscales, wikidata: Q1527018, node: A3HKV3BHDR}
+  - {name: Kolmogorov four-fifths law, kind: statement, wikipedia: Turbulence, wikidata: Q190132, node: YD04KYV1YR}
+  - {name: Kolmogorov microscales, kind: definition, wikipedia: Kolmogorov microscales, wikidata: Q1527018, node: NYRS1BJKRQ}
+  - {name: Taylor microscale, kind: definition, wikipedia: Taylor microscale, wikidata: Q7690193, node: KF7QP3GF9K}
+  - {name: intermittency in turbulence, kind: concept, wikipedia: Intermittency, wikidata: Q1666248, node: Y38WBWP6K8}
+  - {name: Kraichnan's inverse cascade in two-dimensional turbulence, kind: statement, wikipedia: Energy cascade, wikidata: Q20020306, node: B32T5H7ZNP}
+  - {name: law of the wall, kind: statement, wikipedia: Law of the wall, wikidata: Q6503510, node: 7AX1EA410X}
+  - {name: Kármán–Howarth equation, kind: statement, wikipedia: Kármán–Howarth equation, wikidata: Q16910971, node: ZSP670B8RR}
   # Aerodynamics
-  - {name: aerodynamics, kind: concept, wikipedia: Aerodynamics, wikidata: Q8424}
-  - {name: thin airfoil theory, kind: concept, wikipedia: Airfoil, wikidata: Q4698744}
-  - {name: lifting-line theory, kind: concept, wikipedia: Lifting-line theory, wikidata: Q13582551}
-  - {name: Prandtl–Glauert transformation, kind: statement, wikipedia: Prandtl–Glauert transformation, wikidata: Q828112}
-  - {name: Biot–Savart law for vortex filaments, kind: statement, wikipedia: Biot–Savart law, wikidata: Q171340}
-  - {name: vortex lattice method, kind: concept, wikipedia: Vortex lattice method, wikidata: Q1089893}
+  - {name: aerodynamics, kind: concept, wikipedia: Aerodynamics, wikidata: Q8424, node: 7F3BNPCEVM}
+  - {name: thin airfoil theory, kind: concept, wikipedia: Airfoil, wikidata: Q4698744, node: EYCZ9SGBND}
+  - {name: lifting-line theory, kind: concept, wikipedia: Lifting-line theory, wikidata: Q13582551, node: YFM3DBFHWV}
+  - {name: Prandtl–Glauert transformation, kind: statement, wikipedia: Prandtl–Glauert transformation, wikidata: Q828112, node: WR0F7AJZVD}
+  - {name: Biot–Savart law for vortex filaments, kind: statement, wikipedia: Biot–Savart law, wikidata: Q171340, node: ZXKV1HSQMW}
+  - {name: vortex lattice method, kind: concept, wikipedia: Vortex lattice method, wikidata: Q1089893, node: PZ5KHM9YEM}
   # Compressible flow and gas dynamics
-  - {name: compressible flow, kind: concept, wikipedia: Compressible flow, wikidata: Q2705141}
-  - {name: speed of sound, kind: definition, wikipedia: Speed of sound, wikidata: Q124003}
-  - {name: isentropic flow, kind: concept, wikipedia: Isentropic process, wikidata: Q907271}
-  - {name: stagnation pressure, kind: definition, wikipedia: Stagnation pressure, wikidata: Q1043944}
-  - {name: de Laval nozzle, kind: example, wikipedia: De Laval nozzle, wikidata: Q902354}
-  - {name: choked flow, kind: concept, wikipedia: Choked flow, wikidata: Q3523932}
-  - {name: Fanno flow, kind: example, wikipedia: Fanno flow, wikidata: Q3746868}
-  - {name: Rayleigh flow, kind: example, wikipedia: Rayleigh flow, wikidata: Q3746869}
-  - {name: transonic flow, kind: concept, wikipedia: Transonic, wikidata: Q1579556}
-  - {name: transonic small disturbance equation, kind: definition, wikipedia: Transonic, wikidata: Q1579556}
-  - {name: Morawetz theorem on shockless airfoils, kind: statement, wikipedia: Cathleen Synge Morawetz, wikidata: Q450331}
-  - {name: supersonic flow, kind: concept, wikipedia: Supersonic speed, wikidata: Q221337}
-  - {name: Mach wave, kind: definition, wikipedia: Mach wave, wikidata: Q775708}
-  - {name: Prandtl–Meyer expansion fan, kind: example, wikipedia: Prandtl–Meyer expansion fan, wikidata: Q4456943}
-  - {name: Prandtl–Meyer function, kind: definition, wikipedia: Prandtl–Meyer function, wikidata: Q7238345}
-  - {name: method of characteristics in gas dynamics, kind: concept, wikipedia: Method of characteristics, wikidata: Q1785085}
-  - {name: Riemann invariants, kind: definition, wikipedia: Riemann invariant, wikidata: Q5987493}
-  - {name: hodograph transformation, kind: concept, wikipedia: Hodograph, wikidata: Q1546281}
-  - {name: Chaplygin's equation, kind: definition, wikipedia: Chaplygin's equation, wikidata: Q5073247}
+  - {name: compressible flow, kind: concept, wikipedia: Compressible flow, wikidata: Q2705141, node: FJC2GMVARF}
+  - {name: speed of sound, kind: definition, wikipedia: Speed of sound, wikidata: Q124003, node: SN4J6KP03C}
+  - {name: isentropic flow, kind: concept, wikipedia: Isentropic process, wikidata: Q907271, node: SH8FHGTMSE}
+  - {name: stagnation pressure, kind: definition, wikipedia: Stagnation pressure, wikidata: Q1043944, node: SYS9BF1K2N}
+  - {name: de Laval nozzle, kind: example, wikipedia: De Laval nozzle, wikidata: Q902354, node: 7QK1Z82GT3}
+  - {name: choked flow, kind: concept, wikipedia: Choked flow, wikidata: Q3523932, node: 83Z3E8HMQ1}
+  - {name: Fanno flow, kind: example, wikipedia: Fanno flow, wikidata: Q3746868, node: FSMZW0RBXH}
+  - {name: Rayleigh flow, kind: example, wikipedia: Rayleigh flow, wikidata: Q3746869, node: N0RZ8F0AYZ}
+  - {name: transonic flow, kind: concept, wikipedia: Transonic, wikidata: Q1579556, node: 20G6N8JGEH}
+  - {name: transonic small disturbance equation, kind: definition, wikipedia: Transonic, wikidata: Q1579556, node: ZHPZ1E4PXV}
+  - {name: Morawetz theorem on shockless airfoils, kind: statement, wikipedia: Cathleen Synge Morawetz, wikidata: Q450331, node: 4MWYZQC697}
+  - {name: supersonic flow, kind: concept, wikipedia: Supersonic speed, wikidata: Q221337, node: G4EN6Y0ZZ2}
+  - {name: Mach wave, kind: definition, wikipedia: Mach wave, wikidata: Q775708, node: C5QBSMGHCR}
+  - {name: Prandtl–Meyer expansion fan, kind: example, wikipedia: Prandtl–Meyer expansion fan, wikidata: Q4456943, node: D9J383MG41}
+  - {name: Prandtl–Meyer function, kind: definition, wikipedia: Prandtl–Meyer function, wikidata: Q7238345, node: 88XSF5YV97}
+  - {name: method of characteristics in gas dynamics, kind: concept, wikipedia: Method of characteristics, wikidata: Q1785085, node: 6R71SY5N3Q}
+  - {name: Riemann invariants, kind: definition, wikipedia: Riemann invariant, wikidata: Q5987493, node: GB7R2ERCTA}
+  - {name: hodograph transformation, kind: concept, wikipedia: Hodograph, wikidata: Q1546281, node: 9AR4ZZRRAM}
+  - {name: Chaplygin's equation, kind: definition, wikipedia: Chaplygin's equation, wikidata: Q5073247, node: GC17HMC8FN}
   - {name: Tricomi equation, kind: definition, wikipedia: Euler–Tricomi equation, wikidata: Q5409013, node: 21DD2334NR}
-  - {name: hypersonic flow, kind: concept, wikipedia: Hypersonic speed, wikidata: Q830787}
+  - {name: hypersonic flow, kind: concept, wikipedia: Hypersonic speed, wikidata: Q830787, node: 5WHN8Q4QC4}
   # Shock waves
-  - {name: shock wave in gases, kind: concept, wikipedia: Shock wave, wikidata: Q190688}
+  - {name: shock wave in gases, kind: concept, wikipedia: Shock wave, wikidata: Q190688, node: FRVV0NHBXT}
   - {name: Rankine–Hugoniot conditions, kind: statement, wikipedia: Rankine–Hugoniot conditions, wikidata: Q1192131, node: S4XMYJ3V42}
-  - {name: normal shock relations, kind: statement, wikipedia: Normal shock tables, wikidata: Q7051834}
-  - {name: oblique shock, kind: concept, wikipedia: Oblique shock, wikidata: Q7075180}
-  - {name: Lax entropy condition, kind: statement, wikipedia: Shock wave, wikidata: Q190688}
-  - {name: Riemann problem for gas dynamics, kind: problem, wikipedia: Riemann problem, wikidata: Q2152221}
-  - {name: shock tube problem, kind: problem, wikipedia: Sod shock tube, wikidata: Q7553155}
-  - {name: Taylor–von Neumann–Sedov blast wave, kind: example, wikipedia: Taylor–von Neumann–Sedov blast wave, wikidata: Q104868831}
-  - {name: detonation, kind: concept, wikipedia: Detonation, wikidata: Q786054}
-  - {name: Chapman–Jouguet condition, kind: statement, wikipedia: Chapman–Jouguet condition, wikidata: Q2992261}
-  - {name: Zeldovich–von Neumann–Döring detonation model, kind: concept, wikipedia: ZND detonation model, wikidata: Q3062380}
+  - {name: normal shock relations, kind: statement, wikipedia: Normal shock tables, wikidata: Q7051834, node: VK4FWH6CY0}
+  - {name: oblique shock, kind: concept, wikipedia: Oblique shock, wikidata: Q7075180, node: DSYRY5HCDD}
+  - {name: Lax entropy condition, kind: statement, wikipedia: Shock wave, wikidata: Q190688, node: DDRBG40PCA}
+  - {name: Riemann problem for gas dynamics, kind: problem, wikipedia: Riemann problem, wikidata: Q2152221, node: Z94NBKVCRY}
+  - {name: shock tube problem, kind: problem, wikipedia: Sod shock tube, wikidata: Q7553155, node: 9F314R2K5Q}
+  - {name: Taylor–von Neumann–Sedov blast wave, kind: example, wikipedia: Taylor–von Neumann–Sedov blast wave, wikidata: Q104868831, node: XDSE93QMNM}
+  - {name: detonation, kind: concept, wikipedia: Detonation, wikidata: Q786054, node: FBR0PYYJJ7}
+  - {name: Chapman–Jouguet condition, kind: statement, wikipedia: Chapman–Jouguet condition, wikidata: Q2992261, node: ZZCNP3N36B}
+  - {name: Zeldovich–von Neumann–Döring detonation model, kind: concept, wikipedia: ZND detonation model, wikidata: Q3062380, node: 8KJJKCR26M}
   # Kinetic theory and rarefied gases
-  - {name: kinetic theory of gases, kind: concept, wikipedia: Kinetic theory of gases, wikidata: Q200286}
+  - {name: kinetic theory of gases, kind: concept, wikipedia: Kinetic theory of gases, wikidata: Q200286, node: HHTG8JVGKQ}
   - {name: Boltzmann equation, kind: definition, wikipedia: Boltzmann equation, wikidata: Q891653, node: MH6CSWD7F0}
-  - {name: H-theorem, kind: statement, wikipedia: H-theorem, wikidata: Q899853}
-  - {name: Maxwell–Boltzmann distribution, kind: definition, wikipedia: Maxwell–Boltzmann distribution, wikidata: Q634965}
-  - {name: BGK collision operator, kind: definition, wikipedia: Bhatnagar–Gross–Krook operator, wikidata: Q4901423}
-  - {name: Chapman–Enskog theory, kind: concept, wikipedia: Chapman–Enskog theory, wikidata: Q4133108}
-  - {name: Hilbert's sixth problem and the hydrodynamic limit, kind: problem, wikipedia: Hilbert's sixth problem, wikidata: Q10370880}
-  - {name: DiPerna–Lions renormalized solutions of the Boltzmann equation, kind: statement, wikipedia: Boltzmann equation, wikidata: Q891653}
-  - {name: Knudsen number, kind: definition, wikipedia: Knudsen number, wikidata: Q898463}
-  - {name: lattice Boltzmann method, kind: concept, wikipedia: Lattice Boltzmann methods, wikidata: Q1807064}
-  - {name: direct simulation Monte Carlo, kind: concept, wikipedia: Direct simulation Monte Carlo, wikidata: Q4382753}
+  - {name: H-theorem, kind: statement, wikipedia: H-theorem, wikidata: Q899853, node: BMA7D1Z2W6}
+  - {name: Maxwell–Boltzmann distribution, kind: definition, wikipedia: Maxwell–Boltzmann distribution, wikidata: Q634965, node: 3QSVWQJX11}
+  - {name: BGK collision operator, kind: definition, wikipedia: Bhatnagar–Gross–Krook operator, wikidata: Q4901423, node: YQRS1ZMRAC}
+  - {name: Chapman–Enskog theory, kind: concept, wikipedia: Chapman–Enskog theory, wikidata: Q4133108, node: CS1VGMQAG3}
+  - {name: Hilbert's sixth problem and the hydrodynamic limit, kind: problem, wikipedia: Hilbert's sixth problem, wikidata: Q10370880, node: T1KAGHT39X}
+  - {name: DiPerna–Lions renormalized solutions of the Boltzmann equation, kind: statement, wikipedia: Boltzmann equation, wikidata: Q891653, node: EFGYPV0VGJ}
+  - {name: Knudsen number, kind: definition, wikipedia: Knudsen number, wikidata: Q898463, node: 22V2W7KB1D}
+  - {name: lattice Boltzmann method, kind: concept, wikipedia: Lattice Boltzmann methods, wikidata: Q1807064, node: PMGS1JJPHK}
+  - {name: direct simulation Monte Carlo, kind: concept, wikipedia: Direct simulation Monte Carlo, wikidata: Q4382753, node: HMK0W513W6}
   # Acoustics
-  - {name: acoustic wave equation, kind: definition, wikipedia: Acoustic wave equation, wikidata: Q4674723}
-  - {name: Lighthill's acoustic analogy, kind: statement, wikipedia: Lighthill's eighth power law, wikidata: Q48816584}
-  - {name: Ffowcs Williams–Hawkings equation, kind: definition, wikipedia: Aeroacoustics, wikidata: Q381331}
+  - {name: acoustic wave equation, kind: definition, wikipedia: Acoustic wave equation, wikidata: Q4674723, node: 85WZYYHZYS}
+  - {name: Lighthill's acoustic analogy, kind: statement, wikipedia: Lighthill's eighth power law, wikidata: Q48816584, node: J31W7DJ90H}
+  - {name: Ffowcs Williams–Hawkings equation, kind: definition, wikipedia: Aeroacoustics, wikidata: Q381331, node: W0ZTN95BMW}
   # Diffusion, convection and porous media
-  - {name: advection–diffusion equation, kind: definition, wikipedia: Convection–diffusion equation, wikidata: Q343279}
-  - {name: Péclet number, kind: definition, wikipedia: Péclet number, wikidata: Q899769}
-  - {name: Taylor dispersion, kind: concept, wikipedia: Taylor dispersion, wikidata: Q4503311}
-  - {name: Boussinesq approximation for buoyancy, kind: concept, wikipedia: Boussinesq approximation (buoyancy), wikidata: Q895274}
-  - {name: Rayleigh number, kind: definition, wikipedia: Rayleigh number, wikidata: Q898249}
+  - {name: advection–diffusion equation, kind: definition, wikipedia: Convection–diffusion equation, wikidata: Q343279, node: DG49VBBT91}
+  - {name: Péclet number, kind: definition, wikipedia: Péclet number, wikidata: Q899769, node: 961839PHN6}
+  - {name: Taylor dispersion, kind: concept, wikipedia: Taylor dispersion, wikidata: Q4503311, node: M18H5SF3GG}
+  - {name: Boussinesq approximation for buoyancy, kind: concept, wikipedia: Boussinesq approximation (buoyancy), wikidata: Q895274, node: TXQQQG9T2S}
+  - {name: Rayleigh number, kind: definition, wikipedia: Rayleigh number, wikidata: Q898249, node: CEKBV27MP0}
   - {name: Darcy's law, kind: statement, wikipedia: Darcy's law, wikidata: Q392416, node: DX8RV2XG6H}
-  - {name: Kozeny–Carman equation, kind: statement, wikipedia: Kozeny–Carman equation, wikidata: Q1043489}
-  - {name: Richards equation, kind: definition, wikipedia: Richards equation, wikidata: Q2151066}
-  - {name: Buckley–Leverett equation, kind: definition, wikipedia: Buckley–Leverett equation, wikidata: Q4983377}
+  - {name: Kozeny–Carman equation, kind: statement, wikipedia: Kozeny–Carman equation, wikidata: Q1043489, node: X2FXX4Z4F8}
+  - {name: Richards equation, kind: definition, wikipedia: Richards equation, wikidata: Q2151066, node: 5GA1QB5VFM}
+  - {name: Buckley–Leverett equation, kind: definition, wikipedia: Buckley–Leverett equation, wikidata: Q4983377, node: GZQJQGH7VZ}
   # Multiphase flow
-  - {name: multiphase flow, kind: concept, wikipedia: Multiphase flow, wikidata: Q1559665}
-  - {name: Rayleigh–Plesset equation, kind: definition, wikipedia: Rayleigh–Plesset equation, wikidata: Q7298492}
-  - {name: cavitation, kind: concept, wikipedia: Cavitation, wikidata: Q201666}
-  - {name: Cahn–Hilliard–Navier–Stokes diffuse interface model, kind: concept, wikipedia: Cahn–Hilliard equation, wikidata: Q5017440}
+  - {name: multiphase flow, kind: concept, wikipedia: Multiphase flow, wikidata: Q1559665, node: A3Q9SNF86Q}
+  - {name: Rayleigh–Plesset equation, kind: definition, wikipedia: Rayleigh–Plesset equation, wikidata: Q7298492, node: 7HAFBCXD5A}
+  - {name: cavitation, kind: concept, wikipedia: Cavitation, wikidata: Q201666, node: K544PYSW2A}
+  - {name: Cahn–Hilliard–Navier–Stokes diffuse interface model, kind: concept, wikipedia: Cahn–Hilliard equation, wikidata: Q5017440, node: 10WBPH9ANN}
   # Rotating and geophysical fluids
-  - {name: geophysical fluid dynamics, kind: concept, wikipedia: Geophysical fluid dynamics, wikidata: Q3041995}
-  - {name: Taylor–Proudman theorem, kind: statement, wikipedia: Taylor–Proudman theorem, wikidata: Q2600653}
-  - {name: geostrophic balance, kind: concept, wikipedia: Geostrophic wind, wikidata: Q929043}
-  - {name: Ekman layer, kind: concept, wikipedia: Ekman transport, wikidata: Q1323309}
-  - {name: Rossby wave, kind: concept, wikipedia: Rossby wave, wikidata: Q1053589}
-  - {name: quasi-geostrophic equations, kind: definition, wikipedia: Quasi-geostrophic equations, wikidata: Q7269452}
-  - {name: primitive equations, kind: definition, wikipedia: Primitive equations, wikidata: Q2386647}
-  - {name: Brunt–Väisälä frequency, kind: definition, wikipedia: Brunt–Väisälä frequency, wikidata: Q994205}
-  - {name: internal wave, kind: concept, wikipedia: Internal wave, wikidata: Q382774}
-  - {name: Richardson number, kind: definition, wikipedia: Richardson number, wikidata: Q961847}
+  - {name: geophysical fluid dynamics, kind: concept, wikipedia: Geophysical fluid dynamics, wikidata: Q3041995, node: 2MNWD70JN3}
+  - {name: Taylor–Proudman theorem, kind: statement, wikipedia: Taylor–Proudman theorem, wikidata: Q2600653, node: RQKS2ACV95}
+  - {name: geostrophic balance, kind: concept, wikipedia: Geostrophic wind, wikidata: Q929043, node: CZ1S1P465Y}
+  - {name: Ekman layer, kind: concept, wikipedia: Ekman transport, wikidata: Q1323309, node: H5GNFWEW80}
+  - {name: Rossby wave, kind: concept, wikipedia: Rossby wave, wikidata: Q1053589, node: 6N1MQMA9TM}
+  - {name: quasi-geostrophic equations, kind: definition, wikipedia: Quasi-geostrophic equations, wikidata: Q7269452, node: 8Z4QBWTWVR}
+  - {name: primitive equations, kind: definition, wikipedia: Primitive equations, wikidata: Q2386647, node: QANHETP404}
+  - {name: Brunt–Väisälä frequency, kind: definition, wikipedia: Brunt–Väisälä frequency, wikidata: Q994205, node: XQ82TE42FH}
+  - {name: internal wave, kind: concept, wikipedia: Internal wave, wikidata: Q382774, node: GPKN5XHJ1F}
+  - {name: Richardson number, kind: definition, wikipedia: Richardson number, wikidata: Q961847, node: 6CXB96Y39R}
   # Reacting flows
-  - {name: combustion theory, kind: concept, wikipedia: Combustion, wikidata: Q133235}
-  - {name: premixed flame, kind: concept, wikipedia: Premixed flame, wikidata: Q4563566}
-  - {name: Burke–Schumann flame, kind: example, wikipedia: Burke–Schumann flame, wikidata: Q30674079}
-  - {name: Darrieus–Landau instability, kind: concept, wikipedia: Darrieus–Landau instability, wikidata: Q25220484}
+  - {name: combustion theory, kind: concept, wikipedia: Combustion, wikidata: Q133235, node: SXSCYXH068}
+  - {name: premixed flame, kind: concept, wikipedia: Premixed flame, wikidata: Q4563566, node: 5P38MRV478}
+  - {name: Burke–Schumann flame, kind: example, wikipedia: Burke–Schumann flame, wikidata: Q30674079, node: TVH1P5VTSP}
+  - {name: Darrieus–Landau instability, kind: concept, wikipedia: Darrieus–Landau instability, wikidata: Q25220484, node: 6R08PSWZJH}
   # Magnetohydrodynamics and plasma
-  - {name: magnetohydrodynamics, kind: concept, wikipedia: Magnetohydrodynamics, wikidata: Q2549249}
-  - {name: ideal MHD equations, kind: definition, wikipedia: Magnetohydrodynamics, wikidata: Q2549249}
-  - {name: Alfvén's frozen-in flux theorem, kind: statement, wikipedia: Alfvén's theorem, wikidata: Q25303782}
-  - {name: Alfvén wave, kind: concept, wikipedia: Alfvén wave, wikidata: Q645813}
-  - {name: dynamo theory, kind: concept, wikipedia: Dynamo theory, wikidata: Q1269129}
-  - {name: Cowling's antidynamo theorem, kind: statement, wikipedia: Dynamo theory, wikidata: Q1269129}
-  - {name: Hartmann number, kind: definition, wikipedia: Hartmann number, wikidata: Q1587280}
-  - {name: magnetic reconnection, kind: concept, wikipedia: Magnetic reconnection, wikidata: Q287506}
+  - {name: magnetohydrodynamics, kind: concept, wikipedia: Magnetohydrodynamics, wikidata: Q2549249, node: T8JWCBK9M6}
+  - {name: ideal MHD equations, kind: definition, wikipedia: Magnetohydrodynamics, wikidata: Q2549249, node: ZSA13P8P81}
+  - {name: Alfvén's frozen-in flux theorem, kind: statement, wikipedia: Alfvén's theorem, wikidata: Q25303782, node: 3C3BXAPJQA}
+  - {name: Alfvén wave, kind: concept, wikipedia: Alfvén wave, wikidata: Q645813, node: 8CQDTE19FW}
+  - {name: dynamo theory, kind: concept, wikipedia: Dynamo theory, wikidata: Q1269129, node: AFVDBT0K5C}
+  - {name: Cowling's antidynamo theorem, kind: statement, wikipedia: Dynamo theory, wikidata: Q1269129, node: X9PZ8RJH90}
+  - {name: Hartmann number, kind: definition, wikipedia: Hartmann number, wikidata: Q1587280, node: ZP0MJ10VXV}
+  - {name: magnetic reconnection, kind: concept, wikipedia: Magnetic reconnection, wikidata: Q287506, node: YZM2H540TM}
   - {name: Vlasov equation, kind: definition, wikipedia: Vlasov equation, wikidata: Q2323892, node: SJH7M2VCTE}
-  - {name: Landau damping, kind: statement, wikipedia: Landau damping, wikidata: Q675721}
-  - {name: Grad–Shafranov equation, kind: definition, wikipedia: Grad–Shafranov equation, wikidata: Q4476508}
-  - {name: electrohydrodynamics, kind: concept, wikipedia: Electrohydrodynamics, wikidata: Q1326902}
+  - {name: Landau damping, kind: statement, wikipedia: Landau damping, wikidata: Q675721, node: 90DN4ZWDZK}
+  - {name: Grad–Shafranov equation, kind: definition, wikipedia: Grad–Shafranov equation, wikidata: Q4476508, node: 8XC0NEBJD0}
+  - {name: electrohydrodynamics, kind: concept, wikipedia: Electrohydrodynamics, wikidata: Q1326902, node: JYVW94GVS5}
   # Quantum and relativistic hydrodynamics
-  - {name: superfluidity, kind: concept, wikipedia: Superfluidity, wikidata: Q106667}
-  - {name: quantum vortex, kind: concept, wikipedia: Quantum vortex, wikidata: Q844778}
-  - {name: Madelung equations, kind: definition, wikipedia: Madelung equations, wikidata: Q1883290}
-  - {name: relativistic Euler equations, kind: definition, wikipedia: Relativistic Euler equations, wikidata: Q7310823}
+  - {name: superfluidity, kind: concept, wikipedia: Superfluidity, wikidata: Q106667, node: 4PZBRJ78X4}
+  - {name: quantum vortex, kind: concept, wikipedia: Quantum vortex, wikidata: Q844778, node: V4KQ2RVR7E}
+  - {name: Madelung equations, kind: definition, wikipedia: Madelung equations, wikidata: Q1883290, node: 2FQB3CKQH0}
+  - {name: relativistic Euler equations, kind: definition, wikipedia: Relativistic Euler equations, wikidata: Q7310823, node: A1QC5X6E47}
   # Biological fluid mechanics
-  - {name: Womersley flow, kind: example, wikipedia: Pulsatile flow, wikidata: Q7259620}
-  - {name: Murray's law, kind: statement, wikipedia: Murray's law, wikidata: Q6939074}
+  - {name: Womersley flow, kind: example, wikipedia: Pulsatile flow, wikidata: Q7259620, node: D8M6KZ1TBQ}
+  - {name: Murray's law, kind: statement, wikipedia: Murray's law, wikidata: Q6939074, node: VXEK7KC7FZ}
   # Computational fluid dynamics
-  - {name: computational fluid dynamics, kind: concept, wikipedia: Computational fluid dynamics, wikidata: Q815820}
-  - {name: projection method, kind: concept, wikipedia: Projection method (fluid dynamics), wikidata: Q7249451}
-  - {name: smoothed-particle hydrodynamics, kind: concept, wikipedia: Smoothed-particle hydrodynamics, wikidata: Q733073}
+  - {name: computational fluid dynamics, kind: concept, wikipedia: Computational fluid dynamics, wikidata: Q815820, node: T4ZFKBZRYK}
+  - {name: projection method, kind: concept, wikipedia: Projection method (fluid dynamics), wikidata: Q7249451, node: V265MVHF6M}
+  - {name: smoothed-particle hydrodynamics, kind: concept, wikipedia: Smoothed-particle hydrodynamics, wikidata: Q733073, node: S9DG3SNXCV}
   - {name: Godunov's scheme, kind: concept, wikipedia: Godunov's scheme, wikidata: Q4291826, node: 43HZJ7DRT0}

@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $A$ be a unital C*-algebra and let $A \otimes A$ denote its minimal C*-tensor product with itself.
+Let $A$ be a unital [[C*-algebra|M2WFY1D3SZ]] and let $A \otimes A$ denote its minimal C*-tensor product with itself.
 A *compact quantum group* is a pair $(A, \Delta)$ where $\Delta \colon A \to A \otimes A$ is a unital $*$-homomorphism, called the comultiplication, such that:
 
 1. $(\Delta \otimes \id) \circ \Delta = (\id \otimes \Delta) \circ \Delta$ (coassociativity);

@@ -14,7 +14,7 @@ sources:
 
 Let $K$ be a field of [[characteristic|0F6ES3BRYP]] $0$.
 Let $H$ be a [[Hopf algebra|7XFYP0N84H]] over $K$ that is cocommutative and connected, which means that $K \cdot 1$ is the only simple subcoalgebra of $H$.
-Let $P(H) = \set{x \in H : \Delta(x) = x \otimes 1 + 1 \otimes x}$ be the space of primitive elements, a Lie algebra under the commutator $[x, y] = xy - yx$.
+Let $P(H) = \set{x \in H : \Delta(x) = x \otimes 1 + 1 \otimes x}$ be the space of primitive elements, a [[Lie algebra|5JJYBJ6A8K]] under the commutator $[x, y] = xy - yx$.
 Then the inclusion $P(H) \to H$ extends to an isomorphism of Hopf algebras $U(P(H)) \to H$, where $U(P(H))$ is the [[universal enveloping algebra|SCZ8PRVY00]] of $P(H)$.
 
 ## Remarks

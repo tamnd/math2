@@ -12,7 +12,7 @@ sources:
 ## Definition
 
 Let $G$ be a [[locally compact group|AHV05ZBCYW]] with a left [[Haar measure|VY0HXD3GC4]] $\mu$.
-For $g \in G$, let $\lambda(g)$ be the unitary operator on $L^2(G, \mu)$ given by $(\lambda(g)\xi)(x) = \xi(g^{-1}x)$, the left regular representation.
+For $g \in G$, let $\lambda(g)$ be the unitary operator on $L^2(G, \mu)$ given by $(\lambda(g)\xi)(x) = \xi(g^{-1}x)$, the [[left regular representation|PR8C073VWY]].
 The *group von Neumann algebra* of $G$ is
 $$L(G) = \set{\lambda(g) : g \in G}'',$$
 the double [[commutant|1VC7EJ1ZBZ]] of the set of operators $\lambda(g)$ in the bounded operators on $L^2(G)$.

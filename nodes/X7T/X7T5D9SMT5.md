@@ -12,10 +12,10 @@ sources:
 
 ## Statement
 
-Let $G$ be a [[compact Lie group|9TFC6ADC1C]], and let $\mathfrak{g}$ be its Lie algebra, with center $\mathfrak{z}$ and Killing form $B$.
+Let $G$ be a [[compact Lie group|9TFC6ADC1C]], and let $\mathfrak{g}$ be its [[Lie algebra|WKVBS76432]], with center $\mathfrak{z}$ and [[Killing form|TWVQT18JXE]] $B$.
 Then:
 
-1. $\mathfrak{g}$ is a reductive Lie algebra: $\mathfrak{g} = \mathfrak{z} \oplus [\mathfrak{g}, \mathfrak{g}]$ as Lie algebras, and $[\mathfrak{g}, \mathfrak{g}]$ is semisimple;
+1. $\mathfrak{g}$ is a [[reductive Lie algebra|T4S70DDW0A]]: $\mathfrak{g} = \mathfrak{z} \oplus [\mathfrak{g}, \mathfrak{g}]$ as Lie algebras, and $[\mathfrak{g}, \mathfrak{g}]$ is [[semisimple|EY9DN7QAX1]];
 2. $B(X, X) \le 0$ for all $X \in \mathfrak{g}$, with equality exactly when $X \in \mathfrak{z}$.
 
 ## Remarks

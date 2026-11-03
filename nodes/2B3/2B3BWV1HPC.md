@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $G$ be a [[Lie group|7JBRGCVJRB]] with identity $e$ and Lie algebra $\mathfrak{g} = T_eG$, the [[tangent space|E7A5DHFT01]] at $e$.
+Let $G$ be a [[Lie group|7JBRGCVJRB]] with identity $e$ and [[Lie algebra|5JJYBJ6A8K]] $\mathfrak{g} = T_eG$, the [[tangent space|E7A5DHFT01]] at $e$.
 For $g \in G$, let $C_g \colon G \to G$, $C_g(h) = g h g^{-1}$, be the [[inner automorphism|0RN00NTM3S]] given by $g$.
 Since $C_g(e) = e$, its [[differential|6P9PXQDSEN]] at $e$ is a linear map $\operatorname{Ad}(g) = (dC_g)_e \colon \mathfrak{g} \to \mathfrak{g}$.
 The *adjoint representation* of $G$ is the map

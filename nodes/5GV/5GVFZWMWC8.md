@@ -14,7 +14,7 @@ same_as:
 
 Algebraic K-theory attaches to a [[ring|0B1261B5ED]] $R$ a sequence of abelian groups $K_n(R)$.
 The group $K_0(R)$ is the [[Grothendieck group|5FDMY7PDYY]] of finitely generated [[projective modules|BFFA03GE3V]], and $K_1(R)$ is the abelianization of the infinite general linear group.
-Daniel Quillen defined the higher groups by homotopy theory, for instance through the plus construction.
+Daniel Quillen defined the higher groups by homotopy theory, for instance through the [[plus construction|XFGZFM8PC6]].
 The groups encode deep arithmetic information, such as class groups, units and special values of zeta functions.
 
 ## Explanations

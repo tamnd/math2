@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $G$ be a connected and simply connected [[nilpotent Lie group|DK87YN458D]] with Lie algebra $\mathfrak g$ and [[exponential map|H3QX1ZFC8K]] $\exp \colon \mathfrak g \to G$.
+Let $G$ be a connected and simply connected [[nilpotent Lie group|DK87YN458D]] with [[Lie algebra|5JJYBJ6A8K]] $\mathfrak g$ and [[exponential map|H3QX1ZFC8K]] $\exp \colon \mathfrak g \to G$.
 Let $\mathfrak g^*$ be the [[dual space|07JBSZE0V4]] of $\mathfrak g$, with the coadjoint action $(g \cdot \ell)(X) = \ell(\mathrm{Ad}(g^{-1}) X)$, where $\mathrm{Ad}$ is the [[adjoint representation|P6ZP0TE07M]].
 For $\ell \in \mathfrak g^*$, a *polarization* at $\ell$ is a Lie subalgebra $\mathfrak h \subseteq \mathfrak g$ such that $\ell([\mathfrak h, \mathfrak h]) = 0$ and $\mathfrak h$ is a maximal subspace with this property.
 For such $\mathfrak h$, let $H = \exp \mathfrak h$ and let $\chi_\ell$ be the unitary character $\chi_\ell(\exp Y) = e^{i \ell(Y)}$ of $H$.

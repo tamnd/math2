@@ -12,7 +12,7 @@ sources:
 ## Definition
 
 Let $G$ be a [[Lie group|7JBRGCVJRB]] and let $V$ be a finite-dimensional vector space over $\R$ or $\C$.
-A *representation* of $G$ on $V$ is a continuous group homomorphism $\pi \colon G \to \mathrm{GL}(V)$, where $\mathrm{GL}(V)$ is the [[general linear group|0FCHE902D7]] of $V$.
+A *[[representation|TZAZ163QGK]]* of $G$ on $V$ is a continuous group homomorphism $\pi \colon G \to \mathrm{GL}(V)$, where $\mathrm{GL}(V)$ is the [[general linear group|0FCHE902D7]] of $V$.
 
 Let $V$ be an infinite-dimensional complex Hilbert or Banach space.
 A representation of $G$ on $V$ is a homomorphism $\pi$ from $G$ to the group of bounded invertible operators on $V$.
@@ -27,6 +27,6 @@ Non-example: let $f \colon \R \to \R$ be an additive map that is not linear, whi
 Then $\pi(t) = e^{f(t)}$ is a homomorphism $\R \to \mathrm{GL}_1(\R)$, but it is not continuous, so it is not a representation of the Lie group $\R$.
 
 A continuous homomorphism of Lie groups is automatically smooth.
-So a finite-dimensional representation $\pi$ has a differential $d\pi$ at the identity, which is a representation of the Lie algebra of $G$.
+So a finite-dimensional representation $\pi$ has a differential $d\pi$ at the identity, which is a representation of the [[Lie algebra|WKVBS76432]] of $G$.
 If $G$ is connected, $d\pi$ determines $\pi$.
 A unitary representation is one where each $\pi(g)$ preserves a fixed inner product on $V$.

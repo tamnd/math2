@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-Let $G$ be a [[real reductive Lie group|42ZCE14AD2]] with Lie algebra $\mathfrak g_0$, and let $\mathfrak g = \mathfrak g_0 \otimes_\R \C$ be its complexified Lie algebra.
+Let $G$ be a [[real reductive Lie group|42ZCE14AD2]] with [[Lie algebra|5JJYBJ6A8K]] $\mathfrak g_0$, and let $\mathfrak g = \mathfrak g_0 \otimes_\R \C$ be its complexified Lie algebra.
 Let $K$ be a [[maximal compact subgroup|T2EB8R9HEV]] of $G$, with Lie algebra $\mathfrak k_0 \subseteq \mathfrak g_0$, acting on $\mathfrak g$ by the [[adjoint representation|P6ZP0TE07M]] $\mathrm{Ad}$.
 A $(\mathfrak g, K)$-module is a complex vector space $V$ with a representation of $\mathfrak g$, written $X \cdot v$, and a representation $\pi$ of $K$, such that:
 

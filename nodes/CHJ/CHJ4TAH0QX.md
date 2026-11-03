@@ -23,7 +23,7 @@ Suppose that $M$ carries a [[Riemannian metric|7CBT4SM83Y]] whose [[scalar curva
 Let $\psi$ be a spinor with $D\psi = 0$.
 Integrating the [[Lichnerowicz formula|4WCJ49Z90S]] $D^2 = \nabla^* \nabla + \frac{R}{4}$ against $\psi$ gives $0 = \int_M \abs{\nabla \psi}^2 + \frac{1}{4} \int_M R \abs{\psi}^2$.
 Both terms are nonnegative and $R > 0$, so $\psi = 0$.
-By the Atiyah–Singer index theorem, $\hat{A}(M)$ is the [[index of the positive part of the Dirac operator|JR2M58RCW3]], $\dim \ker D^+ - \dim \ker D^-$, which is then $0$.
+By the [[Atiyah–Singer index theorem|QK2ECEQYA5]], $\hat{A}(M)$ is the [[index of the positive part of the Dirac operator|JR2M58RCW3]], $\dim \ker D^+ - \dim \ker D^-$, which is then $0$.
 The argument works as well when $R \ge 0$ everywhere and $R > 0$ at some point.
 
 Example: a K3 surface is a closed spin $4$-manifold with signature $-16$, so $\hat{A} = -\frac{\sigma}{8} = 2 \ne 0$.

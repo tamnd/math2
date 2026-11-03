@@ -13,7 +13,7 @@ sources:
 
 Let $Q$ be a finite [[quiver|RE9YFFS3TS]].
 The *underlying graph* of $Q$ is the graph with vertex set $Q_0$ and one undirected edge between $s(a)$ and $t(a)$ for each arrow $a \in Q_1$.
-The quiver $Q$ is a *Dynkin quiver* if its underlying graph is one of the simply laced Dynkin diagrams:
+The quiver $Q$ is a *Dynkin quiver* if its underlying graph is one of the simply laced [[Dynkin diagrams|CS73JZQS66]]:
 
 1. $A_n$ for $n \ge 1$, a path with $n$ vertices;
 2. $D_n$ for $n \ge 4$, a path with $n - 2$ vertices and two extra vertices joined to one end vertex;

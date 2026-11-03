@@ -11,8 +11,8 @@ sources:
 
 ## Definition
 
-Let $G$ be a connected real or complex [[Lie group|7JBRGCVJRB]], and let $\mathfrak{g}$ be its Lie algebra.
-The group $G$ is a *semisimple Lie group* if $\mathfrak{g}$ is a semisimple Lie algebra, that is, the only solvable ideal of $\mathfrak{g}$ is $0$.
+Let $G$ be a connected real or complex [[Lie group|7JBRGCVJRB]], and let $\mathfrak{g}$ be its [[Lie algebra|WKVBS76432]].
+The group $G$ is a *semisimple Lie group* if $\mathfrak{g}$ is a [[semisimple Lie algebra|EY9DN7QAX1]], that is, the only solvable ideal of $\mathfrak{g}$ is $0$.
 
 ## Remarks
 

@@ -23,13 +23,13 @@ The pointwise product and the pointwise inverse $z \mapsto \gamma(z)^{-1}$ of sm
 The identity element is the constant loop at $e$, and associativity holds pointwise.
 
 For compact $G$, $LG$ is an infinite-dimensional Lie group and a [[Fréchet manifold|EBMCFQT0JN]].
-Its Lie algebra is the loop algebra $L\mathfrak{g}$ of smooth maps $S^1 \to \mathfrak{g}$ with the pointwise bracket.
+Its Lie algebra is the [[loop algebra|YJFGP89JYD]] $L\mathfrak{g}$ of smooth maps $S^1 \to \mathfrak{g}$ with the pointwise bracket.
 
 ## Remarks
 
 The constant loops form a copy of $G$ inside $LG$.
 For $G$ the [[circle group|04EAFVFTF7]] $U(1)$, a loop $\gamma \colon S^1 \to U(1)$ has a winding number, and $LU(1)$ has one connected component for each integer.
-Central extensions of loop groups of compact Lie groups are closely tied to affine Lie algebras and their representations.
+Central extensions of loop groups of compact Lie groups are closely tied to [[affine Lie algebras|9A6RGRV056]] and their representations.
 
 ## Explanations
 

@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-An automatic group is a finitely generated group whose elements can be named by words of a regular language.
+An automatic group is a finitely generated group whose elements can be named by words of a [[regular language|18WVBDCS38]].
 The naming must allow finite automata to check when two named elements differ by a generator.
 The idea comes from the work of Cannon, Epstein, Thurston and others on computing with groups.
 Automatic groups are finitely presented, their word problem can be solved in quadratic time, and their [[Dehn function|Q4HGMRA9JQ]] is at most quadratic.

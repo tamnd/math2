@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-A compact quantum group is a unital C*-algebra with a coassociative comultiplication that satisfies a cancellation condition.
+A compact quantum group is a unital [[C*-algebra|M2WFY1D3SZ]] with a coassociative comultiplication that satisfies a cancellation condition.
 It was introduced by Stanisław Woronowicz as the noncommutative analogue of a compact group, seen through its algebra of continuous functions.
 Every compact group gives one, and there are genuinely quantum examples such as $SU_q(2)$.
 Much of the theory of compact groups survives: there is a unique Haar state, and finite-dimensional representations behave as in Peter–Weyl theory.

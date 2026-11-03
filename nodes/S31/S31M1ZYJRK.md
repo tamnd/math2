@@ -43,6 +43,6 @@ The answer is the same for every presentation, which is surprising at first sigh
 
 ### L2 human
 
-For a finite group $G$, the group $H_2(G, \Z)$ is the Schur multiplier, which controls the central extensions of $G$ and its projective representations.
+For a finite group $G$, the group $H_2(G, \Z)$ is the [[Schur multiplier|AZDECAWGD0]], which controls the central extensions of $G$ and its projective representations.
 Hopf's formula gives a purely algebraic way to compute it.
 The exact sequence in the proof is the five-term sequence of the [[Lyndon–Hochschild–Serre spectral sequence|VC3QNG6TKR]].

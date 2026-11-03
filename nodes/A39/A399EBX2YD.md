@@ -11,8 +11,8 @@ sources:
 
 ## Definition
 
-Let $G_\C$ be a complex [[Lie group|7JBRGCVJRB]] with complex Lie algebra $\mathfrak{g}_\C$.
-A *real form* of $G_\C$ is a closed real [[Lie subgroup|NM8XCPS1Q3]] $G$ of $G_\C$ whose Lie algebra $\mathfrak{g} \subseteq \mathfrak{g}_\C$ is a real form of $\mathfrak{g}_\C$.
+Let $G_\C$ be a complex [[Lie group|7JBRGCVJRB]] with complex [[Lie algebra|WKVBS76432]] $\mathfrak{g}_\C$.
+A *[[real form|59DHW3BZTW]]* of $G_\C$ is a closed real [[Lie subgroup|NM8XCPS1Q3]] $G$ of $G_\C$ whose Lie algebra $\mathfrak{g} \subseteq \mathfrak{g}_\C$ is a real form of $\mathfrak{g}_\C$.
 That is, $\mathfrak{g}_\C = \mathfrak{g} \oplus i \mathfrak{g}$ as real vector spaces.
 
 ## Remarks

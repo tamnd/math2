@@ -15,7 +15,7 @@ same_as:
 
 ## Statement
 
-Let $k$ be a [[field|04C5ZBG1WT]] and let $\mathfrak g$ be a Lie algebra over $k$.
+Let $k$ be a [[field|04C5ZBG1WT]] and let $\mathfrak g$ be a [[Lie algebra|5JJYBJ6A8K]] over $k$.
 Let $(x_i)_{i \in I}$ be a [[basis|0KCQ9Y3QKA]] of $\mathfrak g$ indexed by a totally ordered set $I$.
 Let $U(\mathfrak g)$ be the [[universal enveloping algebra|SCZ8PRVY00]] of $\mathfrak g$ with its canonical map $\iota \colon \mathfrak g \to U(\mathfrak g)$.
 Then the ordered monomials

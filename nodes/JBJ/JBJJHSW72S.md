@@ -28,7 +28,7 @@ A *hybrid system* is a system modelled by such data, or by an equivalent formali
 
 ## Remarks
 
-The discrete part alone is a finite-state machine, and the continuous part in one mode is an [[ordinary differential equation|0NT64JV96A]].
+The discrete part alone is a [[finite-state machine|NDC0E9BZ94]], and the continuous part in one mode is an [[ordinary differential equation|0NT64JV96A]].
 Example: the bouncing ball has one mode and the state $x = (h, v)$ of height and velocity.
 Its vector field is $f(h, v) = (v, -g)$ with $g > 0$, and its domain is $h \ge 0$.
 It has one edge from the mode to itself, with guard $\set{h = 0, v \le 0}$ and reset $R(0, v) = \set{(0, -c v)}$, where $0 \le c < 1$.

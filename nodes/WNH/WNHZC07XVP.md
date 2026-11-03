@@ -16,7 +16,7 @@ history:
 Let $\mathbb{B}$ be a finite [[relational structure|MJF9M19E3E]] with finitely many relations.
 The problem $\mathrm{CSP}(\mathbb{B})$ takes as input a finite structure $\mathbb{A}$ of the same signature.
 It asks whether there is a [[homomorphism|KBXSZC6BV1]] from $\mathbb{A}$ to $\mathbb{B}$.
-The conjecture states that every such constraint satisfaction problem $\mathrm{CSP}(\mathbb{B})$ is either solvable in polynomial time or NP-complete.
+The conjecture states that every such [[constraint satisfaction problem|5EHA6R2M6K]] $\mathrm{CSP}(\mathbb{B})$ is either solvable in [[polynomial time|GVT2NKN37K]] or [[NP|QQRA9GBW51]]-complete.
 
 ## Remarks
 

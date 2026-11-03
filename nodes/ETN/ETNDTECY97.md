@@ -14,7 +14,7 @@ sources:
 
 Let $G$ be a [[compact group|EVHCE5VR6Y]] with normalised [[Haar measure|VY0HXD3GC4]] $dg$, and for $\alpha, \beta \in L^2(G)$ write $\ip{\alpha}{\beta} = \int_G \alpha(g)\overline{\beta(g)} \, dg$.
 Let $\pi$ and $\sigma$ be finite-dimensional continuous [[irreducible|FX3NEFYFFN]] [[unitary representations|74BPYJNZTM]] of $G$, of dimension $d_\pi$ and $d_\sigma$.
-Let $\pi_{ij}$ and $\sigma_{kl}$ be their matrix coefficients in orthonormal bases.
+Let $\pi_{ij}$ and $\sigma_{kl}$ be their [[matrix coefficients|J85Q7QGGHS]] in orthonormal bases.
 
 1. If $\pi$ and $\sigma$ are not isomorphic, then $\ip{\pi_{ij}}{\sigma_{kl}} = 0$ for all indices.
 2. For all indices $i, j, k, l$, one has $\ip{\pi_{ij}}{\pi_{kl}} = \delta_{ik}\delta_{jl}/d_\pi$.

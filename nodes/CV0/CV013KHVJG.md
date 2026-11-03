@@ -16,7 +16,7 @@ same_as:
 The free monoid on a set $A$ is the [[monoid|0N6R902FG1]] $A^*$ of all finite words over the alphabet $A$.
 Its operation is concatenation, and its identity is the empty word.
 It is free in the sense that any map from $A$ to a monoid extends in exactly one way to a monoid homomorphism from $A^*$.
-Free monoids are the setting of formal languages and automata, and they are the monoid analogue of [[free groups|0KTW26C80J]].
+Free monoids are the setting of [[formal languages|5MFZ4VNY6D]] and automata, and they are the monoid analogue of [[free groups|0KTW26C80J]].
 
 ## Explanations
 

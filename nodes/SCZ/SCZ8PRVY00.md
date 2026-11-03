@@ -13,7 +13,7 @@ same_as:
 
 ## Summary
 
-The universal enveloping algebra $U(\mathfrak g)$ of a Lie algebra $\mathfrak g$ is the most general associative algebra containing $\mathfrak g$.
+The universal enveloping algebra $U(\mathfrak g)$ of a [[Lie algebra|5JJYBJ6A8K]] $\mathfrak g$ is the most general associative algebra containing $\mathfrak g$.
 In it the Lie bracket becomes the commutator $xy - yx$.
 Representations of $\mathfrak g$ are the same as modules over $U(\mathfrak g)$, so Lie theory can use the tools of ring theory.
 By the [[Poincaré–Birkhoff–Witt theorem|HFEA4FKGW1]], $U(\mathfrak g)$ has a basis of ordered monomials in a basis of $\mathfrak g$.

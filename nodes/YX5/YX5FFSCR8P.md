@@ -23,7 +23,7 @@ $G_2$ is a connected and simply connected [[simple Lie group|AM7YJP8AR6]] of dim
 ## Remarks
 
 $G_2$ is the smallest of the five exceptional compact simple Lie groups $G_2, F_4, E_6, E_7, E_8$.
-Its Dynkin diagram has two nodes joined by a triple edge, and its root system has $12$ roots, of two lengths whose squares have ratio $3$.
+Its [[Dynkin diagram|CS73JZQS66]] has two nodes joined by a triple edge, and its root system has $12$ roots, of two lengths whose squares have ratio $3$.
 It acts transitively on the unit sphere $S^6$ of $\operatorname{Im} \mathbb{O}$, with stabilizer isomorphic to [[SU(3)|CZCWFPNS4N]], so $G_2 / SU(3) \cong S^6$.
 The name $G_2$ also denotes the complex simple Lie group of the same type and its noncompact split real form.
 Riemannian $7$-manifolds whose holonomy group lies in $G_2$ are called $G_2$-manifolds.

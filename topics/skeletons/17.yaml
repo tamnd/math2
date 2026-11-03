@@ -8,228 +8,228 @@ sources:
   mathlib-overview: {title: "Mathlib, the overview of the library", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/overview.yaml'}
 items:
   # Basic notions of nonassociative rings and algebras
-  - {name: nonassociative algebra, kind: definition, wikipedia: Non-associative algebra, wikidata: Q4391941}
+  - {name: nonassociative algebra, kind: definition, wikipedia: Non-associative algebra, wikidata: Q4391941, node: 60W3THKGA7}
   - {name: nonassociative ring, kind: definition, decl: NonUnitalNonAssocRing, wikipedia: Non-associative algebra, wikidata: Q4391941, node: YP5TQ6WFVN}
   - {name: magma, kind: definition, wikipedia: Magma (algebra), wikidata: Q679903, node: 9689SFPVE9}
-  - {name: algebra over a field, kind: definition, wikipedia: Algebra over a field, wikidata: Q1000660}
-  - {name: structure constants, kind: concept, wikipedia: Structure constants, wikidata: Q7625098}
-  - {name: associator, kind: definition, wikipedia: Associator, wikidata: Q2405805}
-  - {name: commutator of a ring, kind: definition, wikipedia: Commutator, wikidata: Q2989763}
+  - {name: algebra over a field, kind: definition, wikipedia: Algebra over a field, wikidata: Q1000660, node: 1SENAHZW5A}
+  - {name: structure constants, kind: concept, wikipedia: Structure constants, wikidata: Q7625098, node: HFXWYNFB9A}
+  - {name: associator, kind: definition, wikipedia: Associator, wikidata: Q2405805, node: RT4YV20367}
+  - {name: commutator of a ring, kind: definition, wikipedia: Commutator, wikidata: Q2989763, node: T2HH02QC2M}
   - {name: derivation, kind: definition, decl: Derivation, wikipedia: Derivation (differential algebra), wikidata: Q451323, node: 3J89REV9WQ}
-  - {name: nucleus, kind: definition, wikipedia: Associator, wikidata: Q2405805}
-  - {name: flexible algebra, kind: definition, wikipedia: Flexible algebra, wikidata: Q259590}
-  - {name: power-associative algebra, kind: definition, wikipedia: Power associativity, wikidata: Q1822837}
-  - {name: alternative algebra, kind: definition, wikipedia: Alternative algebra, wikidata: Q2165111}
-  - {name: Artin's theorem on alternative algebras, kind: statement, wikipedia: Alternative algebra, wikidata: Q2165111}
-  - {name: Moufang identities, kind: statement, wikipedia: Moufang loop, wikidata: Q6918890}
-  - {name: division algebra, kind: definition, wikipedia: Division algebra, wikidata: Q1231309}
-  - {name: normed division algebra, kind: definition, wikipedia: Hurwitz's theorem (composition algebras), wikidata: Q1139430}
-  - {name: anticommutative algebra, kind: definition, wikipedia: Anticommutative property, wikidata: Q639608}
+  - {name: nucleus, kind: definition, wikipedia: Associator, wikidata: Q2405805, node: X1SCGN90D3}
+  - {name: flexible algebra, kind: definition, wikipedia: Flexible algebra, wikidata: Q259590, node: R1Z4P70285}
+  - {name: power-associative algebra, kind: definition, wikipedia: Power associativity, wikidata: Q1822837, node: BRFDFGC8JM}
+  - {name: alternative algebra, kind: definition, wikipedia: Alternative algebra, wikidata: Q2165111, node: N8K9SSVMRN}
+  - {name: Artin's theorem on alternative algebras, kind: statement, wikipedia: Alternative algebra, wikidata: Q2165111, node: PBRCDXKQFR}
+  - {name: Moufang identities, kind: statement, wikipedia: Moufang loop, wikidata: Q6918890, node: CZ2BZQN2EV}
+  - {name: division algebra, kind: definition, wikipedia: Division algebra, wikidata: Q1231309, node: 8H3JKHAAHE}
+  - {name: normed division algebra, kind: definition, wikipedia: Hurwitz's theorem (composition algebras), wikidata: Q1139430, node: DZ18QZHAMS}
+  - {name: anticommutative algebra, kind: definition, wikipedia: Anticommutative property, wikidata: Q639608, node: CCZ0W5WGWX}
   - {name: simple algebra, kind: definition, wikipedia: Simple algebra (universal algebra), wikidata: Q1405695, node: 9CJCXNYNK8}
   - {name: free algebra, kind: definition, decl: FreeAlgebra, wikipedia: Free algebra, wikidata: Q5500180, mathlib: [mathlib-overview], node: 2P3Y2FRCSZ}
-  - {name: identity of an algebra, kind: concept, wikipedia: Polynomial identity ring, wikidata: Q7226641}
+  - {name: identity of an algebra, kind: concept, wikipedia: Polynomial identity ring, wikidata: Q7226641, node: TM8ZXES0DJ}
   - {name: variety of algebras, kind: concept, wikipedia: Variety (universal algebra), wikidata: Q3502010, node: AJNZJD8442}
-  - {name: Shirshov–Cohn theorem, kind: statement, wikipedia: Jordan algebra, wikidata: Q649977}
+  - {name: Shirshov–Cohn theorem, kind: statement, wikipedia: Jordan algebra, wikidata: Q649977, node: H4DT2XM8GJ}
   # Composition algebras and the Cayley–Dickson construction
-  - {name: composition algebra, kind: definition, wikipedia: Composition algebra, wikidata: Q2835957}
-  - {name: Hurwitz's theorem on composition algebras, kind: statement, wikipedia: Hurwitz's theorem (composition algebras), wikidata: Q1139430}
-  - {name: Cayley–Dickson construction, kind: definition, wikipedia: Cayley–Dickson construction, wikidata: Q1756828}
+  - {name: composition algebra, kind: definition, wikipedia: Composition algebra, wikidata: Q2835957, node: 1Q9G6AST10}
+  - {name: Hurwitz's theorem on composition algebras, kind: statement, wikipedia: Hurwitz's theorem (composition algebras), wikidata: Q1139430, node: WZ81H3S4KK}
+  - {name: Cayley–Dickson construction, kind: definition, wikipedia: Cayley–Dickson construction, wikidata: Q1756828, node: T9XW7RBEHY}
   - {name: quaternions, kind: object, decl: Quaternion, wikipedia: Quaternion, wikidata: Q173853, node: 0GE4DVQKR8}
   - {name: quaternion algebra, kind: definition, decl: QuaternionAlgebra, wikipedia: Quaternion algebra, wikidata: Q2835967, node: ZWXW0T3EAC}
   - {name: octonions, kind: object, wikipedia: Octonion, wikidata: Q743418, node: 1HRMT3DSX2}
-  - {name: sedenions, kind: object, wikipedia: Sedenion, wikidata: Q79188}
-  - {name: split-quaternions, kind: object, wikipedia: Split-quaternion, wikidata: Q2996919}
-  - {name: split-octonions, kind: object, wikipedia: Split-octonion, wikidata: Q3348988}
-  - {name: octonion algebra, kind: definition, wikipedia: Octonion algebra, wikidata: Q2835924}
+  - {name: sedenions, kind: object, wikipedia: Sedenion, wikidata: Q79188, node: YADT1TBZ5A}
+  - {name: split-quaternions, kind: object, wikipedia: Split-quaternion, wikidata: Q2996919, node: C1KFHY128W}
+  - {name: split-octonions, kind: object, wikipedia: Split-octonion, wikidata: Q3348988, node: V17Y6PNA13}
+  - {name: octonion algebra, kind: definition, wikipedia: Octonion algebra, wikidata: Q2835924, node: KJ145M3CVT}
   - {name: Frobenius theorem on real division algebras, kind: statement, wikipedia: Frobenius theorem (real division algebras), wikidata: Q1361031, node: QDJ7PQE9SW}
-  - {name: Bott–Milnor–Kervaire theorem on division algebras, kind: statement, wikipedia: Division algebra, wikidata: Q1231309}
-  - {name: Okubo algebra, kind: object, wikipedia: Okubo algebra, wikidata: Q17099522}
-  - {name: Fano plane multiplication of octonions, kind: example, wikipedia: Fano plane, wikidata: Q1395814}
+  - {name: Bott–Milnor–Kervaire theorem on division algebras, kind: statement, wikipedia: Division algebra, wikidata: Q1231309, node: N1KGP57Y9D}
+  - {name: Okubo algebra, kind: object, wikipedia: Okubo algebra, wikidata: Q17099522, node: YYKQX7JX8K}
+  - {name: Fano plane multiplication of octonions, kind: example, wikipedia: Fano plane, wikidata: Q1395814, node: 1Z4EH2QQF0}
   # Lie algebras: basic notions
-  - {name: Lie algebra, kind: definition, decl: LieAlgebra, wikipedia: Lie algebra, wikidata: Q664495, mathlib: [mathlib-overview]}
-  - {name: Lie ring, kind: definition, decl: LieRing, wikipedia: Lie algebra, wikidata: Q664495}
-  - {name: Lie bracket, kind: definition, wikipedia: Lie bracket of vector fields, wikidata: Q5478310}
-  - {name: Jacobi identity, kind: statement, decl: lie_jacobi, wikipedia: Jacobi identity, wikidata: Q1151539}
-  - {name: Lie subalgebra, kind: definition, decl: LieSubalgebra, wikipedia: Lie algebra, wikidata: Q664495}
-  - {name: Lie ideal, kind: definition, decl: LieIdeal, wikipedia: Lie algebra, wikidata: Q664495}
-  - {name: Lie algebra homomorphism, kind: definition, decl: LieHom, wikipedia: Lie algebra, wikidata: Q664495}
-  - {name: Lie algebra of an associative algebra, kind: example, decl: LieRing.ofAssociativeRing, wikipedia: Lie algebra, wikidata: Q664495}
+  - {name: Lie algebra, kind: definition, decl: LieAlgebra, wikipedia: Lie algebra, wikidata: Q664495, mathlib: [mathlib-overview], node: 5JJYBJ6A8K}
+  - {name: Lie ring, kind: definition, decl: LieRing, wikipedia: Lie algebra, wikidata: Q664495, node: FZ77E3RWPN}
+  - {name: Lie bracket, kind: definition, wikipedia: Lie bracket of vector fields, wikidata: Q5478310, node: 68FGQEBD6J}
+  - {name: Jacobi identity, kind: statement, decl: lie_jacobi, wikipedia: Jacobi identity, wikidata: Q1151539, node: ZKFN197MBR}
+  - {name: Lie subalgebra, kind: definition, decl: LieSubalgebra, wikipedia: Lie algebra, wikidata: Q664495, node: WKSSTQ69AK}
+  - {name: Lie ideal, kind: definition, decl: LieIdeal, wikipedia: Lie algebra, wikidata: Q664495, node: JWMTXQ8A3A}
+  - {name: Lie algebra homomorphism, kind: definition, decl: LieHom, wikipedia: Lie algebra, wikidata: Q664495, node: H5D71JE8TA}
+  - {name: Lie algebra of an associative algebra, kind: example, decl: LieRing.ofAssociativeRing, wikipedia: Lie algebra, wikidata: Q664495, node: WCJYA7CJ83}
   - {name: adjoint representation, kind: definition, decl: LieAlgebra.ad, wikipedia: Adjoint representation, wikidata: Q1017106}
-  - {name: derivation of a Lie algebra, kind: definition, decl: LieDerivation, wikipedia: Derivation (differential algebra), wikidata: Q451323}
-  - {name: center of a Lie algebra, kind: definition, decl: LieAlgebra.center, wikipedia: Center (algebra), wikidata: Q191166}
-  - {name: normalizer of a Lie subalgebra, kind: definition, decl: LieSubalgebra.normalizer, wikipedia: Centralizer and normalizer, wikidata: Q190629}
-  - {name: abelian Lie algebra, kind: definition, decl: IsLieAbelian, wikipedia: Lie algebra, wikidata: Q664495}
-  - {name: general linear Lie algebra, kind: example, wikipedia: General linear group, wikidata: Q524607}
-  - {name: special linear Lie algebra, kind: example, decl: LieAlgebra.SpecialLinear.sl, wikipedia: Special linear Lie algebra, wikidata: Q7574831}
-  - {name: orthogonal Lie algebra, kind: example, decl: LieAlgebra.Orthogonal.so, wikipedia: Orthogonal group, wikidata: Q1783179}
-  - {name: symplectic Lie algebra, kind: example, decl: LieAlgebra.Symplectic.sp, wikipedia: Symplectic group, wikidata: Q936434}
-  - {name: Heisenberg algebra, kind: example, wikipedia: Heisenberg group, wikidata: Q1601337}
-  - {name: sl2 triple, kind: definition, decl: IsSl2Triple, wikipedia: Representation theory of SL2(R), wikidata: Q7314223}
-  - {name: classification of low-dimensional Lie algebras, kind: statement, wikipedia: Classification of low-dimensional real Lie algebras, wikidata: Q60792514}
-  - {name: Bianchi classification, kind: statement, wikipedia: Bianchi classification, wikidata: Q2976541}
-  - {name: semidirect product of Lie algebras, kind: definition, wikipedia: Lie algebra extension, wikidata: Q25303823}
-  - {name: Lie algebra extension, kind: definition, decl: LieAlgebra.Extension, wikipedia: Lie algebra extension, wikidata: Q25303823}
-  - {name: free Lie algebra, kind: definition, decl: FreeLieAlgebra, wikipedia: Free Lie algebra, wikidata: Q5499906}
-  - {name: Hall basis, kind: concept, wikipedia: Hall word, wikidata: Q104841625}
-  - {name: Lyndon basis, kind: concept, wikipedia: Lyndon word, wikidata: Q1878827}
-  - {name: Lie algebra of vector fields, kind: example, wikipedia: Vector field, wikidata: Q186247}
+  - {name: derivation of a Lie algebra, kind: definition, decl: LieDerivation, wikipedia: Derivation (differential algebra), wikidata: Q451323, node: 57J7MHA8CN}
+  - {name: center of a Lie algebra, kind: definition, decl: LieAlgebra.center, wikipedia: Center (algebra), wikidata: Q191166, node: JJ9WQWCP9G}
+  - {name: normalizer of a Lie subalgebra, kind: definition, decl: LieSubalgebra.normalizer, wikipedia: Centralizer and normalizer, wikidata: Q190629, node: KYTR9VBDHV}
+  - {name: abelian Lie algebra, kind: definition, decl: IsLieAbelian, wikipedia: Lie algebra, wikidata: Q664495, node: N43CM5H99K}
+  - {name: general linear Lie algebra, kind: example, wikipedia: General linear group, wikidata: Q524607, node: G8FEGYDSNE}
+  - {name: special linear Lie algebra, kind: example, decl: LieAlgebra.SpecialLinear.sl, wikipedia: Special linear Lie algebra, wikidata: Q7574831, node: 1ZAT1Z967A}
+  - {name: orthogonal Lie algebra, kind: example, decl: LieAlgebra.Orthogonal.so, wikipedia: Orthogonal group, wikidata: Q1783179, node: TQC9E2PE0T}
+  - {name: symplectic Lie algebra, kind: example, decl: LieAlgebra.Symplectic.sp, wikipedia: Symplectic group, wikidata: Q936434, node: ZGSAEYV8FX}
+  - {name: Heisenberg algebra, kind: example, wikipedia: Heisenberg group, wikidata: Q1601337, node: HBVZGRKCWQ}
+  - {name: sl2 triple, kind: definition, decl: IsSl2Triple, wikipedia: Representation theory of SL2(R), wikidata: Q7314223, node: P1QPWKE7ZZ}
+  - {name: classification of low-dimensional Lie algebras, kind: statement, wikipedia: Classification of low-dimensional real Lie algebras, wikidata: Q60792514, node: MH5P01A7G9}
+  - {name: Bianchi classification, kind: statement, wikipedia: Bianchi classification, wikidata: Q2976541, node: Q86TANYYX4}
+  - {name: semidirect product of Lie algebras, kind: definition, wikipedia: Lie algebra extension, wikidata: Q25303823, node: T9WAK2FH31}
+  - {name: Lie algebra extension, kind: definition, decl: LieAlgebra.Extension, wikipedia: Lie algebra extension, wikidata: Q25303823, node: 8264A9XM74}
+  - {name: free Lie algebra, kind: definition, decl: FreeLieAlgebra, wikipedia: Free Lie algebra, wikidata: Q5499906, node: NNAXK7BM3H}
+  - {name: Hall basis, kind: concept, wikipedia: Hall word, wikidata: Q104841625, node: R1VQ49E4JA}
+  - {name: Lyndon basis, kind: concept, wikipedia: Lyndon word, wikidata: Q1878827, node: EERQK96TFT}
+  - {name: Lie algebra of vector fields, kind: example, wikipedia: Vector field, wikidata: Q186247, node: A71PPKKTAR}
   # Solvable and nilpotent Lie algebras
   - {name: derived series, kind: definition, decl: LieAlgebra.derivedSeries, wikipedia: Commutator subgroup, wikidata: Q522216, node: 0Q5G5DJ4P2}
-  - {name: lower central series of a Lie algebra, kind: definition, decl: LieModule.lowerCentralSeries, wikipedia: Central series, wikidata: Q5062152}
-  - {name: solvable Lie algebra, kind: definition, decl: LieAlgebra.IsSolvable, wikipedia: Solvable Lie algebra, wikidata: Q7558992}
-  - {name: nilpotent Lie algebra, kind: definition, decl: LieRing.IsNilpotent, wikipedia: Nilpotent Lie algebra, wikidata: Q15148889}
-  - {name: Engel's theorem, kind: statement, decl: LieAlgebra.isEngelian_of_isNoetherian, wikipedia: Engel's theorem, wikidata: Q3527069}
-  - {name: Lie's theorem, kind: statement, decl: LieModule.exists_forall_lie_eq_smul, wikipedia: Lie's theorem, wikidata: Q20971632}
-  - {name: radical of a Lie algebra, kind: definition, decl: LieAlgebra.radical, wikipedia: Radical of a Lie algebra, wikidata: Q17046402}
-  - {name: nilradical of a Lie algebra, kind: definition, wikipedia: Nilradical of a Lie algebra, wikidata: Q7037183}
-  - {name: Levi decomposition, kind: statement, wikipedia: Levi decomposition, wikidata: Q6535568}
-  - {name: Ado's theorem, kind: statement, wikipedia: Ado's theorem, wikidata: Q2028341}
-  - {name: Iwasawa's theorem on Lie algebras, kind: statement, wikipedia: Ado's theorem, wikidata: Q2028341}
-  - {name: Borel subalgebra, kind: definition, wikipedia: Borel subalgebra, wikidata: Q85748295}
-  - {name: parabolic subalgebra, kind: definition, wikipedia: Parabolic Lie algebra, wikidata: Q7133722}
-  - {name: Fitting decomposition, kind: statement, decl: LieModule.posFittingComp, wikipedia: Fitting lemma, wikidata: Q3229338}
-  - {name: Engel subalgebra, kind: definition, decl: LieSubalgebra.engel, wikipedia: Cartan subalgebra, wikidata: Q2912114}
+  - {name: lower central series of a Lie algebra, kind: definition, decl: LieModule.lowerCentralSeries, wikipedia: Central series, wikidata: Q5062152, node: 3Z22XPB6H5}
+  - {name: solvable Lie algebra, kind: definition, decl: LieAlgebra.IsSolvable, wikipedia: Solvable Lie algebra, wikidata: Q7558992, node: W7A2R0GR3T}
+  - {name: nilpotent Lie algebra, kind: definition, decl: LieRing.IsNilpotent, wikipedia: Nilpotent Lie algebra, wikidata: Q15148889, node: MEJ9PGMJ9H}
+  - {name: Engel's theorem, kind: statement, decl: LieAlgebra.isEngelian_of_isNoetherian, wikipedia: Engel's theorem, wikidata: Q3527069, node: V0ZWMA3FTH}
+  - {name: Lie's theorem, kind: statement, decl: LieModule.exists_forall_lie_eq_smul, wikipedia: Lie's theorem, wikidata: Q20971632, node: 11K6SVNXMH}
+  - {name: radical of a Lie algebra, kind: definition, decl: LieAlgebra.radical, wikipedia: Radical of a Lie algebra, wikidata: Q17046402, node: 33MD21KMNP}
+  - {name: nilradical of a Lie algebra, kind: definition, wikipedia: Nilradical of a Lie algebra, wikidata: Q7037183, node: ET8Y1AR5YX}
+  - {name: Levi decomposition, kind: statement, wikipedia: Levi decomposition, wikidata: Q6535568, node: XMP8X1YVJ3}
+  - {name: Ado's theorem, kind: statement, wikipedia: Ado's theorem, wikidata: Q2028341, node: 33E7PK3Z71}
+  - {name: Iwasawa's theorem on Lie algebras, kind: statement, wikipedia: Ado's theorem, wikidata: Q2028341, node: B9F00EQ3MT}
+  - {name: Borel subalgebra, kind: definition, wikipedia: Borel subalgebra, wikidata: Q85748295, node: AP4MMD8FPR}
+  - {name: parabolic subalgebra, kind: definition, wikipedia: Parabolic Lie algebra, wikidata: Q7133722, node: TPW9B9HCWC}
+  - {name: Fitting decomposition, kind: statement, decl: LieModule.posFittingComp, wikipedia: Fitting lemma, wikidata: Q3229338, node: 7MCBYWNF32}
+  - {name: Engel subalgebra, kind: definition, decl: LieSubalgebra.engel, wikipedia: Cartan subalgebra, wikidata: Q2912114, node: PM39E26ZG6}
   # Semisimple Lie algebras
-  - {name: simple Lie algebra, kind: definition, decl: LieAlgebra.IsSimple, wikipedia: Simple Lie algebra, wikidata: Q78502771}
-  - {name: semisimple Lie algebra, kind: definition, decl: LieAlgebra.IsSemisimple, wikipedia: Semisimple Lie algebra, wikidata: Q2366896}
-  - {name: reductive Lie algebra, kind: definition, wikipedia: Reductive Lie algebra, wikidata: Q7306383}
-  - {name: Killing form, kind: definition, decl: killingForm, wikipedia: Killing form, wikidata: Q634557}
-  - {name: invariant bilinear form, kind: definition, decl: LinearMap.BilinForm.lieInvariant, wikipedia: Killing form, wikidata: Q634557}
-  - {name: Cartan's criterion, kind: statement, wikipedia: Cartan's criterion, wikidata: Q5047038}
-  - {name: Killing Lie algebra, kind: definition, decl: LieAlgebra.IsKilling, wikipedia: Killing form, wikidata: Q634557}
-  - {name: Cartan subalgebra, kind: definition, decl: LieSubalgebra.IsCartanSubalgebra, wikipedia: Cartan subalgebra, wikidata: Q2912114}
-  - {name: existence and conjugacy of Cartan subalgebras, kind: statement, decl: LieAlgebra.exists_isCartanSubalgebra_engel, wikipedia: Cartan subalgebra, wikidata: Q2912114}
+  - {name: simple Lie algebra, kind: definition, decl: LieAlgebra.IsSimple, wikipedia: Simple Lie algebra, wikidata: Q78502771, node: XDAXWHBNSZ}
+  - {name: semisimple Lie algebra, kind: definition, decl: LieAlgebra.IsSemisimple, wikipedia: Semisimple Lie algebra, wikidata: Q2366896, node: EY9DN7QAX1}
+  - {name: reductive Lie algebra, kind: definition, wikipedia: Reductive Lie algebra, wikidata: Q7306383, node: T4S70DDW0A}
+  - {name: Killing form, kind: definition, decl: killingForm, wikipedia: Killing form, wikidata: Q634557, node: TWVQT18JXE}
+  - {name: invariant bilinear form, kind: definition, decl: LinearMap.BilinForm.lieInvariant, wikipedia: Killing form, wikidata: Q634557, node: GMB9ANSTT1}
+  - {name: Cartan's criterion, kind: statement, wikipedia: Cartan's criterion, wikidata: Q5047038, node: EJT0WX8QD6}
+  - {name: Killing Lie algebra, kind: definition, decl: LieAlgebra.IsKilling, wikipedia: Killing form, wikidata: Q634557, node: X34N79F3HA}
+  - {name: Cartan subalgebra, kind: definition, decl: LieSubalgebra.IsCartanSubalgebra, wikipedia: Cartan subalgebra, wikidata: Q2912114, node: BB098JPWGA}
+  - {name: existence and conjugacy of Cartan subalgebras, kind: statement, decl: LieAlgebra.exists_isCartanSubalgebra_engel, wikipedia: Cartan subalgebra, wikidata: Q2912114, node: 6TCXJA0FF9}
   - {name: Jordan–Chevalley decomposition, kind: statement, wikipedia: Jordan–Chevalley decomposition, wikidata: Q1631086, node: 011K11VPJN}
-  - {name: root space decomposition, kind: statement, decl: LieAlgebra.rootSpace, wikipedia: Semisimple Lie algebra, wikidata: Q2366896}
-  - {name: weight space, kind: definition, decl: LieModule.genWeightSpace, wikipedia: Weight (representation theory), wikidata: Q7979858}
-  - {name: root system, kind: definition, decl: RootPairing.IsRootSystem, wikipedia: Root system, wikidata: Q534131}
-  - {name: root system of a semisimple Lie algebra, kind: statement, decl: LieAlgebra.IsKilling.rootSystem, wikipedia: Semisimple Lie algebra, wikidata: Q2366896}
-  - {name: root pairing, kind: definition, decl: RootPairing, wikipedia: Root datum, wikidata: Q7366574}
-  - {name: simple roots, kind: definition, decl: RootPairing.Base, wikipedia: Root system, wikidata: Q534131}
-  - {name: coroot, kind: definition, decl: RootPairing.coroot, wikipedia: Root system, wikidata: Q534131}
-  - {name: Weyl group, kind: definition, decl: RootPairing.weylGroup, wikipedia: Weyl group, wikidata: Q768074}
-  - {name: Weyl chamber, kind: definition, wikipedia: Weyl group, wikidata: Q768074}
-  - {name: Cartan matrix, kind: definition, decl: RootPairing.Base.cartanMatrix, wikipedia: Cartan matrix, wikidata: Q2004951}
-  - {name: Dynkin diagram, kind: definition, wikipedia: Dynkin diagram, wikidata: Q5319218}
-  - {name: classification of simple Lie algebras, kind: statement, wikipedia: Simple Lie algebra, wikidata: Q78502771}
-  - {name: Serre's theorem on semisimple Lie algebras, kind: statement, decl: Matrix.ToLieAlgebra, wikipedia: Serre's theorem on a semisimple Lie algebra, wikidata: Q97359412}
-  - {name: Chevalley basis, kind: definition, wikipedia: Chevalley basis, wikidata: Q5094304}
-  - {name: exceptional Lie algebra E8, kind: object, decl: CartanMatrix.E₈, wikipedia: E8 (mathematics), wikidata: Q1200244}
-  - {name: exceptional Lie algebra E7, kind: object, decl: CartanMatrix.E₇, wikipedia: E7 (mathematics), wikidata: Q3045793}
-  - {name: exceptional Lie algebra E6, kind: object, decl: CartanMatrix.E₆, wikipedia: E6 (mathematics), wikidata: Q1054513}
-  - {name: exceptional Lie algebra F4, kind: object, decl: CartanMatrix.F₄, wikipedia: F4 (mathematics), wikidata: Q869077}
-  - {name: exceptional Lie algebra G2, kind: object, decl: CartanMatrix.G₂, wikipedia: G2 (mathematics), wikidata: Q869338}
-  - {name: real form, kind: definition, wikipedia: Real form (Lie theory), wikidata: Q7301156}
-  - {name: compact real form, kind: definition, wikipedia: Compact Lie algebra, wikidata: Q5155287}
-  - {name: Cartan decomposition, kind: statement, wikipedia: Cartan decomposition, wikidata: Q3042798}
-  - {name: Iwasawa decomposition, kind: statement, wikipedia: Iwasawa decomposition, wikidata: Q750099}
-  - {name: Satake diagram, kind: definition, wikipedia: Satake diagram, wikidata: Q7425867}
-  - {name: Vogan diagram, kind: definition, wikipedia: Vogan diagram, wikidata: Q7939367}
-  - {name: Freudenthal magic square, kind: object, wikipedia: Freudenthal magic square, wikidata: Q5503261}
-  - {name: modular Lie algebra, kind: definition, wikipedia: Modular Lie algebra, wikidata: Q12204668}
-  - {name: restricted Lie algebra, kind: definition, wikipedia: Restricted Lie algebra, wikidata: Q7316293}
+  - {name: root space decomposition, kind: statement, decl: LieAlgebra.rootSpace, wikipedia: Semisimple Lie algebra, wikidata: Q2366896, node: KJKH7NJGGP}
+  - {name: weight space, kind: definition, decl: LieModule.genWeightSpace, wikipedia: Weight (representation theory), wikidata: Q7979858, node: KZ7RZC8XC4}
+  - {name: root system, kind: definition, decl: RootPairing.IsRootSystem, wikipedia: Root system, wikidata: Q534131, node: AVVV93CASN}
+  - {name: root system of a semisimple Lie algebra, kind: statement, decl: LieAlgebra.IsKilling.rootSystem, wikipedia: Semisimple Lie algebra, wikidata: Q2366896, node: AR0D7V1J8T}
+  - {name: root pairing, kind: definition, decl: RootPairing, wikipedia: Root datum, wikidata: Q7366574, node: FQRY6M68MZ}
+  - {name: simple roots, kind: definition, decl: RootPairing.Base, wikipedia: Root system, wikidata: Q534131, node: CSBM217V1N}
+  - {name: coroot, kind: definition, decl: RootPairing.coroot, wikipedia: Root system, wikidata: Q534131, node: XV6Q01FVAS}
+  - {name: Weyl group, kind: definition, decl: RootPairing.weylGroup, wikipedia: Weyl group, wikidata: Q768074, node: YT1ZJ2S4EE}
+  - {name: Weyl chamber, kind: definition, wikipedia: Weyl group, wikidata: Q768074, node: 1EYQZNA69W}
+  - {name: Cartan matrix, kind: definition, decl: RootPairing.Base.cartanMatrix, wikipedia: Cartan matrix, wikidata: Q2004951, node: H59F1XBDZP}
+  - {name: Dynkin diagram, kind: definition, wikipedia: Dynkin diagram, wikidata: Q5319218, node: CS73JZQS66}
+  - {name: classification of simple Lie algebras, kind: statement, wikipedia: Simple Lie algebra, wikidata: Q78502771, node: XCN6HZ2GM9}
+  - {name: Serre's theorem on semisimple Lie algebras, kind: statement, decl: Matrix.ToLieAlgebra, wikipedia: Serre's theorem on a semisimple Lie algebra, wikidata: Q97359412, node: 9YTSFBHZKG}
+  - {name: Chevalley basis, kind: definition, wikipedia: Chevalley basis, wikidata: Q5094304, node: 2JTTJ3XHH4}
+  - {name: exceptional Lie algebra E8, kind: object, decl: CartanMatrix.E₈, wikipedia: E8 (mathematics), wikidata: Q1200244, node: 9QT1JR4KNY}
+  - {name: exceptional Lie algebra E7, kind: object, decl: CartanMatrix.E₇, wikipedia: E7 (mathematics), wikidata: Q3045793, node: 9YFX87K2VY}
+  - {name: exceptional Lie algebra E6, kind: object, decl: CartanMatrix.E₆, wikipedia: E6 (mathematics), wikidata: Q1054513, node: 250J3R9W97}
+  - {name: exceptional Lie algebra F4, kind: object, decl: CartanMatrix.F₄, wikipedia: F4 (mathematics), wikidata: Q869077, node: G127K65CSX}
+  - {name: exceptional Lie algebra G2, kind: object, decl: CartanMatrix.G₂, wikipedia: G2 (mathematics), wikidata: Q869338, node: B75K1ZJ1RE}
+  - {name: real form, kind: definition, wikipedia: Real form (Lie theory), wikidata: Q7301156, node: 59DHW3BZTW}
+  - {name: compact real form, kind: definition, wikipedia: Compact Lie algebra, wikidata: Q5155287, node: 6QQF55DQ6K}
+  - {name: Cartan decomposition, kind: statement, wikipedia: Cartan decomposition, wikidata: Q3042798, node: K7VVYFE9YJ}
+  - {name: Iwasawa decomposition, kind: statement, wikipedia: Iwasawa decomposition, wikidata: Q750099, node: ZYVEVYBA41}
+  - {name: Satake diagram, kind: definition, wikipedia: Satake diagram, wikidata: Q7425867, node: KY3M36JCE8}
+  - {name: Vogan diagram, kind: definition, wikipedia: Vogan diagram, wikidata: Q7939367, node: N8J09DSEVH}
+  - {name: Freudenthal magic square, kind: object, wikipedia: Freudenthal magic square, wikidata: Q5503261, node: ANYDPD4HXZ}
+  - {name: modular Lie algebra, kind: definition, wikipedia: Modular Lie algebra, wikidata: Q12204668, node: HKYYR1SZQW}
+  - {name: restricted Lie algebra, kind: definition, wikipedia: Restricted Lie algebra, wikidata: Q7316293, node: MW1DW7182Y}
   # Representations of Lie algebras
-  - {name: representation of a Lie algebra, kind: definition, decl: LieModule, wikipedia: Lie algebra representation, wikidata: Q1136782}
-  - {name: irreducible Lie module, kind: definition, decl: LieModule.IsIrreducible, wikipedia: Lie algebra representation, wikidata: Q1136782}
-  - {name: Weyl's theorem on complete reducibility, kind: statement, wikipedia: Weyl's theorem on complete reducibility, wikidata: Q17037933}
+  - {name: representation of a Lie algebra, kind: definition, decl: LieModule, wikipedia: Lie algebra representation, wikidata: Q1136782, node: TZAZ163QGK}
+  - {name: irreducible Lie module, kind: definition, decl: LieModule.IsIrreducible, wikipedia: Lie algebra representation, wikidata: Q1136782, node: HFW8642GBK}
+  - {name: Weyl's theorem on complete reducibility, kind: statement, wikipedia: Weyl's theorem on complete reducibility, wikidata: Q17037933, node: 92EXQ237Q6}
   - {name: universal enveloping algebra, kind: definition, decl: UniversalEnvelopingAlgebra, wikipedia: Universal enveloping algebra, wikidata: Q1673406, node: SCZ8PRVY00}
   - {name: Poincaré–Birkhoff–Witt theorem, kind: statement, wikipedia: Poincaré–Birkhoff–Witt theorem, wikidata: Q2270905, node: HFEA4FKGW1}
-  - {name: Casimir element, kind: definition, wikipedia: Casimir element, wikidata: Q1047475}
-  - {name: Harish-Chandra isomorphism, kind: statement, wikipedia: Harish-Chandra isomorphism, wikidata: Q5657840}
-  - {name: weight of a representation, kind: definition, decl: LieModule.Weight, wikipedia: Weight (representation theory), wikidata: Q7979858}
-  - {name: highest weight, kind: definition, wikipedia: Weight (representation theory), wikidata: Q7979858}
-  - {name: theorem of the highest weight, kind: statement, wikipedia: Theorem of the highest weight, wikidata: Q56276831}
-  - {name: Verma module, kind: definition, wikipedia: Verma module, wikidata: Q7921510}
-  - {name: fundamental representation, kind: definition, wikipedia: Fundamental representation, wikidata: Q3427416}
-  - {name: Weyl character formula, kind: statement, wikipedia: Weyl character formula, wikidata: Q7990328}
-  - {name: Weyl dimension formula, kind: statement, wikipedia: Weyl character formula, wikidata: Q7990328}
-  - {name: Freudenthal multiplicity formula, kind: statement, wikipedia: Weyl character formula, wikidata: Q7990328}
-  - {name: Kostant partition function, kind: definition, wikipedia: Kostant partition function, wikidata: Q6433478}
-  - {name: Bernstein–Gelfand–Gelfand resolution, kind: statement, wikipedia: Verma module, wikidata: Q7921510}
-  - {name: category O, kind: definition, wikipedia: Category O, wikidata: Q5051842}
-  - {name: Kazhdan–Lusztig conjecture, kind: statement, wikipedia: Kazhdan–Lusztig polynomial, wikidata: Q6381065}
-  - {name: Littelmann path model, kind: concept, wikipedia: Littelmann path model, wikidata: Q6648763}
-  - {name: representations of sl2, kind: example, decl: LieAlgebra.Basis.sl2, wikipedia: Representation theory of semisimple Lie algebras, wikidata: Q85796605}
-  - {name: Clebsch–Gordan coefficients, kind: concept, wikipedia: Clebsch–Gordan coefficients, wikidata: Q898619}
-  - {name: Lie algebra cohomology, kind: definition, wikipedia: Lie algebra cohomology, wikidata: Q6543809}
-  - {name: Whitehead's lemmas, kind: statement, wikipedia: Whitehead's lemma (Lie algebra), wikidata: Q16934830}
-  - {name: Chevalley–Eilenberg complex, kind: definition, wikipedia: Lie algebra cohomology, wikidata: Q6543809}
+  - {name: Casimir element, kind: definition, wikipedia: Casimir element, wikidata: Q1047475, node: K6VVP66GKB}
+  - {name: Harish-Chandra isomorphism, kind: statement, wikipedia: Harish-Chandra isomorphism, wikidata: Q5657840, node: YNBQS0X9ZB}
+  - {name: weight of a representation, kind: definition, decl: LieModule.Weight, wikipedia: Weight (representation theory), wikidata: Q7979858, node: KFVNC2W720}
+  - {name: highest weight, kind: definition, wikipedia: Weight (representation theory), wikidata: Q7979858, node: C5W8BE1DRY}
+  - {name: theorem of the highest weight, kind: statement, wikipedia: Theorem of the highest weight, wikidata: Q56276831, node: J1EFY61K87}
+  - {name: Verma module, kind: definition, wikipedia: Verma module, wikidata: Q7921510, node: 809XR5G0DG}
+  - {name: fundamental representation, kind: definition, wikipedia: Fundamental representation, wikidata: Q3427416, node: 9DBH35X68Y}
+  - {name: Weyl character formula, kind: statement, wikipedia: Weyl character formula, wikidata: Q7990328, node: G2SA2YNA33}
+  - {name: Weyl dimension formula, kind: statement, wikipedia: Weyl character formula, wikidata: Q7990328, node: 6VBN872BK1}
+  - {name: Freudenthal multiplicity formula, kind: statement, wikipedia: Weyl character formula, wikidata: Q7990328, node: 4NGV71RMYP}
+  - {name: Kostant partition function, kind: definition, wikipedia: Kostant partition function, wikidata: Q6433478, node: DH720Y9NSD}
+  - {name: Bernstein–Gelfand–Gelfand resolution, kind: statement, wikipedia: Verma module, wikidata: Q7921510, node: 41KGWXZ0VM}
+  - {name: category O, kind: definition, wikipedia: Category O, wikidata: Q5051842, node: NM3KHQNYDB}
+  - {name: Kazhdan–Lusztig conjecture, kind: statement, wikipedia: Kazhdan–Lusztig polynomial, wikidata: Q6381065, node: ZPE6XR02YQ}
+  - {name: Littelmann path model, kind: concept, wikipedia: Littelmann path model, wikidata: Q6648763, node: 8MZDQR6G45}
+  - {name: representations of sl2, kind: example, decl: LieAlgebra.Basis.sl2, wikipedia: Representation theory of semisimple Lie algebras, wikidata: Q85796605, node: 8WBY6R28CR}
+  - {name: Clebsch–Gordan coefficients, kind: concept, wikipedia: Clebsch–Gordan coefficients, wikidata: Q898619, node: 60Q8MJM1MF}
+  - {name: Lie algebra cohomology, kind: definition, wikipedia: Lie algebra cohomology, wikidata: Q6543809, node: 69NARSMQCM}
+  - {name: Whitehead's lemmas, kind: statement, wikipedia: Whitehead's lemma (Lie algebra), wikidata: Q16934830, node: NE2K5HAEFN}
+  - {name: Chevalley–Eilenberg complex, kind: definition, wikipedia: Lie algebra cohomology, wikidata: Q6543809, node: 362T9VND0H}
   # Infinite-dimensional Lie algebras
-  - {name: Kac–Moody algebra, kind: definition, wikipedia: Kac–Moody algebra, wikidata: Q856666}
-  - {name: generalized Cartan matrix, kind: definition, wikipedia: Cartan matrix, wikidata: Q2004951}
-  - {name: affine Lie algebra, kind: definition, wikipedia: Affine Lie algebra, wikidata: Q632521}
-  - {name: loop algebra, kind: definition, decl: LieAlgebra.loopAlgebra, wikipedia: Loop algebra, wikidata: Q17098626}
-  - {name: Witt algebra, kind: object, wikipedia: Witt algebra, wikidata: Q444054}
-  - {name: Virasoro algebra, kind: object, wikipedia: Virasoro algebra, wikidata: Q1366201}
-  - {name: Kac–Weyl character formula, kind: statement, wikipedia: Weyl character formula, wikidata: Q7990328}
-  - {name: Macdonald identities, kind: statement, wikipedia: Macdonald identities, wikidata: Q6722996}
-  - {name: generalized Kac–Moody algebra, kind: definition, wikipedia: Generalized Kac–Moody algebra, wikidata: Q5532440}
-  - {name: monster Lie algebra, kind: object, wikipedia: Monster Lie algebra, wikidata: Q17099049}
-  - {name: vertex operator algebra, kind: definition, wikipedia: Vertex operator algebra, wikidata: Q28509}
+  - {name: Kac–Moody algebra, kind: definition, wikipedia: Kac–Moody algebra, wikidata: Q856666, node: HD13X0CNBD}
+  - {name: generalized Cartan matrix, kind: definition, wikipedia: Cartan matrix, wikidata: Q2004951, node: 38Z0HSXTCA}
+  - {name: affine Lie algebra, kind: definition, wikipedia: Affine Lie algebra, wikidata: Q632521, node: 9A6RGRV056}
+  - {name: loop algebra, kind: definition, decl: LieAlgebra.loopAlgebra, wikipedia: Loop algebra, wikidata: Q17098626, node: YJFGP89JYD}
+  - {name: Witt algebra, kind: object, wikipedia: Witt algebra, wikidata: Q444054, node: A7H11C2JMM}
+  - {name: Virasoro algebra, kind: object, wikipedia: Virasoro algebra, wikidata: Q1366201, node: R9WFXME6GC}
+  - {name: Kac–Weyl character formula, kind: statement, wikipedia: Weyl character formula, wikidata: Q7990328, node: RJKHTWHME1}
+  - {name: Macdonald identities, kind: statement, wikipedia: Macdonald identities, wikidata: Q6722996, node: DV21A4N88B}
+  - {name: generalized Kac–Moody algebra, kind: definition, wikipedia: Generalized Kac–Moody algebra, wikidata: Q5532440, node: X3770KMKRD}
+  - {name: monster Lie algebra, kind: object, wikipedia: Monster Lie algebra, wikidata: Q17099049, node: VTZX4WVWHS}
+  - {name: vertex operator algebra, kind: definition, wikipedia: Vertex operator algebra, wikidata: Q28509, node: GHRPQAJY43}
   - {name: monstrous moonshine, kind: statement, wikipedia: Monstrous moonshine, wikidata: Q392440, node: E0Y7Y75T6C}
-  - {name: current algebra, kind: definition, wikipedia: Current algebra, wikidata: Q1454725}
-  - {name: Lie algebra of a Lie group, kind: definition, wikipedia: Lie group–Lie algebra correspondence, wikidata: Q18353697}
+  - {name: current algebra, kind: definition, wikipedia: Current algebra, wikidata: Q1454725, node: Z3VCZYHPKY}
+  - {name: Lie algebra of a Lie group, kind: definition, wikipedia: Lie group–Lie algebra correspondence, wikidata: Q18353697, node: WKVBS76432}
   # Lie superalgebras and generalizations of Lie algebras
-  - {name: Lie superalgebra, kind: definition, wikipedia: Lie superalgebra, wikidata: Q1133024}
+  - {name: Lie superalgebra, kind: definition, wikipedia: Lie superalgebra, wikidata: Q1133024, node: 7CZ4Q5H78N}
   - {name: superalgebra, kind: definition, wikipedia: Superalgebra, wikidata: Q3977654, node: 6JZW4JC68Z}
-  - {name: classification of simple Lie superalgebras, kind: statement, wikipedia: Lie superalgebra, wikidata: Q1133024}
-  - {name: Lie bialgebra, kind: definition, wikipedia: Lie bialgebra, wikidata: Q6543812}
-  - {name: Lie coalgebra, kind: definition, wikipedia: Lie coalgebra, wikidata: Q6543816}
+  - {name: classification of simple Lie superalgebras, kind: statement, wikipedia: Lie superalgebra, wikidata: Q1133024, node: XV0QV5KMJQ}
+  - {name: Lie bialgebra, kind: definition, wikipedia: Lie bialgebra, wikidata: Q6543812, node: M4WGFHBKP5}
+  - {name: Lie coalgebra, kind: definition, wikipedia: Lie coalgebra, wikidata: Q6543816, node: J48KPHCC2E}
   - {name: quantum group, kind: definition, wikipedia: Quantum group, wikidata: Q2122223, node: AP2ZDXANKC}
   - {name: Hopf algebra, kind: definition, decl: HopfAlgebra, wikipedia: Hopf algebra, wikidata: Q1627597, node: 7XFYP0N84H}
   - {name: Yang–Baxter equation, kind: statement, wikipedia: Yang–Baxter equation, wikidata: Q4476530}
-  - {name: Poisson algebra, kind: definition, wikipedia: Poisson algebra, wikidata: Q11143305}
-  - {name: Leibniz algebra, kind: definition, wikipedia: Leibniz algebra, wikidata: Q844980}
-  - {name: pre-Lie algebra, kind: definition, wikipedia: Pre-Lie algebra, wikidata: Q7239170}
-  - {name: Lie-admissible algebra, kind: definition, wikipedia: Lie-admissible algebra, wikidata: Q16999447}
-  - {name: Malcev algebra, kind: definition, wikipedia: Malcev algebra, wikidata: Q2902888}
-  - {name: Akivis algebra, kind: definition, wikipedia: Akivis algebra, wikidata: Q60794796}
-  - {name: Lie triple system, kind: definition, wikipedia: Triple system, wikidata: Q11358307}
-  - {name: Lie algebroid, kind: definition, wikipedia: Lie algebroid, wikidata: Q6543810}
-  - {name: differential graded Lie algebra, kind: definition, wikipedia: Differential graded Lie algebra, wikidata: Q15241040}
-  - {name: L-infinity algebra, kind: definition, wikipedia: Homotopy Lie algebra, wikidata: Q42614797}
-  - {name: color Lie algebra, kind: definition, wikipedia: Lie superalgebra, wikidata: Q1133024}
-  - {name: Lie conformal algebra, kind: definition, wikipedia: Lie conformal algebra, wikidata: Q6543817}
-  - {name: Lie operad, kind: object, wikipedia: Operad, wikidata: Q842072}
+  - {name: Poisson algebra, kind: definition, wikipedia: Poisson algebra, wikidata: Q11143305, node: 45VKBM65QZ}
+  - {name: Leibniz algebra, kind: definition, wikipedia: Leibniz algebra, wikidata: Q844980, node: FGM1ZM3KKN}
+  - {name: pre-Lie algebra, kind: definition, wikipedia: Pre-Lie algebra, wikidata: Q7239170, node: KFD5TWA8W5}
+  - {name: Lie-admissible algebra, kind: definition, wikipedia: Lie-admissible algebra, wikidata: Q16999447, node: 6Z35W744KQ}
+  - {name: Malcev algebra, kind: definition, wikipedia: Malcev algebra, wikidata: Q2902888, node: 9G3TWHYBH9}
+  - {name: Akivis algebra, kind: definition, wikipedia: Akivis algebra, wikidata: Q60794796, node: T0RB145TH2}
+  - {name: Lie triple system, kind: definition, wikipedia: Triple system, wikidata: Q11358307, node: CGV306SBB4}
+  - {name: Lie algebroid, kind: definition, wikipedia: Lie algebroid, wikidata: Q6543810, node: PS9XRYDJAW}
+  - {name: differential graded Lie algebra, kind: definition, wikipedia: Differential graded Lie algebra, wikidata: Q15241040, node: D5XH66A8RP}
+  - {name: L-infinity algebra, kind: definition, wikipedia: Homotopy Lie algebra, wikidata: Q42614797, node: 572DS8WXEH}
+  - {name: color Lie algebra, kind: definition, wikipedia: Lie superalgebra, wikidata: Q1133024, node: TT70AS3T94}
+  - {name: Lie conformal algebra, kind: definition, wikipedia: Lie conformal algebra, wikidata: Q6543817, node: CY8T1BPMXQ}
+  - {name: Lie operad, kind: object, wikipedia: Operad, wikidata: Q842072, node: Y7S74B10EH}
   # Jordan algebras
   - {name: Jordan algebra, kind: definition, decl: IsCommJordan, wikipedia: Jordan algebra, wikidata: Q649977, node: 6C2MCVB8C7}
-  - {name: Jordan identity, kind: statement, decl: IsJordan, wikipedia: Jordan algebra, wikidata: Q649977}
-  - {name: special Jordan algebra, kind: definition, decl: SymAlg, wikipedia: Jordan algebra, wikidata: Q649977}
+  - {name: Jordan identity, kind: statement, decl: IsJordan, wikipedia: Jordan algebra, wikidata: Q649977, node: 88EQA06JD9}
+  - {name: special Jordan algebra, kind: definition, decl: SymAlg, wikipedia: Jordan algebra, wikidata: Q649977, node: T4AWF1BRZB}
   - {name: exceptional Jordan algebra, kind: object, wikipedia: Albert algebra, wikidata: Q12204658}
-  - {name: Albert algebra, kind: object, wikipedia: Albert algebra, wikidata: Q12204658}
-  - {name: Jordan–von Neumann–Wigner classification, kind: statement, wikipedia: Jordan algebra, wikidata: Q649977}
-  - {name: Euclidean Jordan algebra, kind: definition, wikipedia: Jordan algebra, wikidata: Q649977}
-  - {name: formally real Jordan algebra, kind: definition, wikipedia: Jordan algebra, wikidata: Q649977}
-  - {name: spin factor, kind: example, wikipedia: Jordan operator algebra, wikidata: Q17098325}
-  - {name: Jordan triple system, kind: definition, wikipedia: Triple system, wikidata: Q11358307}
-  - {name: Jordan pair, kind: definition, wikipedia: Triple system, wikidata: Q11358307}
-  - {name: quadratic Jordan algebra, kind: definition, wikipedia: Quadratic Jordan algebra, wikidata: Q17099687}
-  - {name: Macdonald's theorem on Jordan algebras, kind: statement, wikipedia: Jordan algebra, wikidata: Q649977}
-  - {name: Zelmanov's classification of prime Jordan algebras, kind: statement, wikipedia: Jordan algebra, wikidata: Q649977}
-  - {name: Tits–Kantor–Koecher construction, kind: definition, wikipedia: Kantor–Koecher–Tits construction, wikidata: Q6365576}
-  - {name: Jordan operator algebra, kind: definition, wikipedia: Jordan operator algebra, wikidata: Q17098325}
-  - {name: JB-algebra, kind: definition, wikipedia: Jordan operator algebra, wikidata: Q17098325}
+  - {name: Albert algebra, kind: object, wikipedia: Albert algebra, wikidata: Q12204658, node: 1MSMVDRAVD}
+  - {name: Jordan–von Neumann–Wigner classification, kind: statement, wikipedia: Jordan algebra, wikidata: Q649977, node: AE979FBMPD}
+  - {name: Euclidean Jordan algebra, kind: definition, wikipedia: Jordan algebra, wikidata: Q649977, node: N184N4TVZ2}
+  - {name: formally real Jordan algebra, kind: definition, wikipedia: Jordan algebra, wikidata: Q649977, node: WYE4E80T43}
+  - {name: spin factor, kind: example, wikipedia: Jordan operator algebra, wikidata: Q17098325, node: ZDZ6FAAGAF}
+  - {name: Jordan triple system, kind: definition, wikipedia: Triple system, wikidata: Q11358307, node: M13DZ6YXH1}
+  - {name: Jordan pair, kind: definition, wikipedia: Triple system, wikidata: Q11358307, node: CDN2B4S8YW}
+  - {name: quadratic Jordan algebra, kind: definition, wikipedia: Quadratic Jordan algebra, wikidata: Q17099687, node: 7Y1GGAHADG}
+  - {name: Macdonald's theorem on Jordan algebras, kind: statement, wikipedia: Jordan algebra, wikidata: Q649977, node: BWYX23HJMF}
+  - {name: Zelmanov's classification of prime Jordan algebras, kind: statement, wikipedia: Jordan algebra, wikidata: Q649977, node: 69Y9S30SR5}
+  - {name: Tits–Kantor–Koecher construction, kind: definition, wikipedia: Kantor–Koecher–Tits construction, wikidata: Q6365576, node: FZM1A8HAHD}
+  - {name: Jordan operator algebra, kind: definition, wikipedia: Jordan operator algebra, wikidata: Q17098325, node: QYES5210FJ}
+  - {name: JB-algebra, kind: definition, wikipedia: Jordan operator algebra, wikidata: Q17098325, node: NXY6YN56XR}
   - {name: Freudenthal triple system, kind: definition, wikipedia: Freudenthal magic square, wikidata: Q5503261}
-  - {name: structurable algebra, kind: definition, wikipedia: Structurable algebra, wikidata: Q25303829}
-  - {name: symmetric cone, kind: concept, wikipedia: Symmetric cone, wikidata: Q17107455}
-  - {name: Koecher–Vinberg theorem, kind: statement, wikipedia: Koecher–Vinberg theorem, wikidata: Q6425525}
+  - {name: structurable algebra, kind: definition, wikipedia: Structurable algebra, wikidata: Q25303829, node: 8RF5HXXHNY}
+  - {name: symmetric cone, kind: concept, wikipedia: Symmetric cone, wikidata: Q17107455, node: NZMXY4WTZX}
+  - {name: Koecher–Vinberg theorem, kind: statement, wikipedia: Koecher–Vinberg theorem, wikidata: Q6425525, node: PXXEWA9V2S}
   # Further nonassociative algebras
-  - {name: genetic algebra, kind: definition, wikipedia: Genetic algebra, wikidata: Q5532873}
-  - {name: baric algebra, kind: definition, wikipedia: Genetic algebra, wikidata: Q5532873}
-  - {name: evolution algebra, kind: definition, wikipedia: Genetic algebra, wikidata: Q5532873}
-  - {name: Bernstein algebra, kind: definition, wikipedia: Genetic algebra, wikidata: Q5532873}
-  - {name: Zinbiel algebra, kind: definition, wikipedia: Zinbiel algebra, wikidata: Q2835946}
+  - {name: genetic algebra, kind: definition, wikipedia: Genetic algebra, wikidata: Q5532873, node: S9Z7YX9D9K}
+  - {name: baric algebra, kind: definition, wikipedia: Genetic algebra, wikidata: Q5532873, node: A6HRHW6CBY}
+  - {name: evolution algebra, kind: definition, wikipedia: Genetic algebra, wikidata: Q5532873, node: DNK00D7M6F}
+  - {name: Bernstein algebra, kind: definition, wikipedia: Genetic algebra, wikidata: Q5532873, node: S8GFADSZ7M}
+  - {name: Zinbiel algebra, kind: definition, wikipedia: Zinbiel algebra, wikidata: Q2835946, node: QQKRCAKD5V}
   - {name: Gerstenhaber algebra, kind: definition, wikipedia: Gerstenhaber algebra, wikidata: Q5553164, node: GJPPS5N213}
-  - {name: Batalin–Vilkovisky algebra, kind: definition, wikipedia: Batalin–Vilkovisky formalism, wikidata: Q4868564}
+  - {name: Batalin–Vilkovisky algebra, kind: definition, wikipedia: Batalin–Vilkovisky formalism, wikidata: Q4868564, node: ARMX1P0X0S}
   - {name: Clifford algebra, kind: definition, decl: CliffordAlgebra, wikipedia: Clifford algebra, wikidata: Q674689, mathlib: [mathlib-overview], node: A38B1QFK20}
   - {name: exterior algebra, kind: definition, decl: ExteriorAlgebra, wikipedia: Exterior algebra, wikidata: Q1196652, mathlib: [mathlib-overview], node: 0MDMZ965VE}
   - {name: tensor algebra, kind: definition, decl: TensorAlgebra, wikipedia: Tensor algebra, wikidata: Q2296021, mathlib: [mathlib-overview], node: P4J5JZDW0B}
-  - {name: quasigroup, kind: definition, wikipedia: Quasigroup, wikidata: Q1503423}
-  - {name: Moufang loop, kind: definition, wikipedia: Moufang loop, wikidata: Q6918890}
-  - {name: Bol loop, kind: definition, wikipedia: Bol loop, wikidata: Q4938867}
+  - {name: quasigroup, kind: definition, wikipedia: Quasigroup, wikidata: Q1503423, node: ZJD31SPPFP}
+  - {name: Moufang loop, kind: definition, wikipedia: Moufang loop, wikidata: Q6918890, node: H0TJPNCMXD}
+  - {name: Bol loop, kind: definition, wikipedia: Bol loop, wikidata: Q4938867, node: S4E8XV37MS}
   - {name: Hurwitz quaternion order, kind: object, wikipedia: Hurwitz quaternion order, wikidata: Q16002489, node: KM59PWHJHH}
-  - {name: Coxeter's integral octonions, kind: object, wikipedia: Octonion, wikidata: Q743418}
+  - {name: Coxeter's integral octonions, kind: object, wikipedia: Octonion, wikidata: Q743418, node: E8WYXVENC6}
   - {name: Kurosh problem for nonassociative algebras, kind: problem, wikipedia: Kurosh problem, wikidata: Q6446395}
-  - {name: Zelmanov's solution of the restricted Burnside problem, kind: statement, wikipedia: Burnside problem, wikidata: Q852206}
-  - {name: Shirshov–Witt theorem, kind: statement, wikipedia: Free Lie algebra, wikidata: Q5499906}
-  - {name: operad, kind: definition, wikipedia: Operad, wikidata: Q842072}
+  - {name: Zelmanov's solution of the restricted Burnside problem, kind: statement, wikipedia: Burnside problem, wikidata: Q852206, node: FQZJKY2G5Q}
+  - {name: Shirshov–Witt theorem, kind: statement, wikipedia: Free Lie algebra, wikidata: Q5499906, node: WDC8ABZWBA}
+  - {name: operad, kind: definition, wikipedia: Operad, wikidata: Q842072, node: 2C5QGNNCAE}

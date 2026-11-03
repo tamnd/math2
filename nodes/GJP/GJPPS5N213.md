@@ -15,7 +15,7 @@ same_as:
 A Gerstenhaber algebra is a graded commutative algebra with a Lie bracket of degree $-1$ that acts on products by the Leibniz rule.
 Murray Gerstenhaber found this structure on the Hochschild cohomology of an associative algebra.
 Polyvector fields on a manifold with the [[Schouten–Nijenhuis bracket|FJ1MDBZ680]] form another basic example.
-It is the graded analogue of a Poisson algebra, with the bracket shifted by one degree.
+It is the graded analogue of a [[Poisson algebra|45VKBM65QZ]], with the bracket shifted by one degree.
 
 ## Explanations
 

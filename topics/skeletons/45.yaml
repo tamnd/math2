@@ -57,7 +57,7 @@ items:
   - {name: existence of an eigenvalue for a nonzero symmetric kernel, kind: statement, decl: LinearMap.IsSymmetric.hasEigenvalue_iSup_of_finiteDimensional, wikipedia: Hilbert–Schmidt theorem, wikidata: Q2022775, node: CH6655HZXS}
   - {name: bilinear series of a symmetric kernel, kind: statement, wikipedia: Mercer's theorem, wikidata: Q1716166, node: 5WYZPX1ZVW}
   - {name: Mercer's theorem, kind: statement, wikipedia: Mercer's theorem, wikidata: Q1716166, node: PKGADWXPYH}
-  - {name: positive-definite kernel, kind: definition, wikipedia: Positive-definite kernel, wikidata: Q7233207}
+  - {name: positive-definite kernel, kind: definition, wikipedia: Positive-definite kernel, wikidata: Q7233207, node: SCMS389SBG}
   - {name: Schmidt's singular value decomposition of a kernel, kind: statement, wikipedia: Singular value decomposition, wikidata: Q420904, node: W4E25FVXV1}
   - {name: Rayleigh quotient for symmetric kernels, kind: concept, wikipedia: Rayleigh quotient, wikidata: Q1665115, node: HRCQ3JHYY0}
   - {name: Courant–Fischer characterization of characteristic values, kind: statement, wikipedia: Min-max theorem, wikidata: Q4454958, node: A1PANCDYTG}

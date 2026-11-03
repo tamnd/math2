@@ -11,7 +11,7 @@ sources:
 ## Summary
 
 A solvable Lie group is a connected [[Lie group|7JBRGCVJRB]] that is a [[solvable group|0FXJ7YFMMX]]: its derived series reaches the trivial group after finitely many steps.
-Equivalently, its Lie algebra is a solvable Lie algebra.
+Equivalently, its Lie algebra is a [[solvable Lie algebra|W7A2R0GR3T]].
 Solvable Lie groups are the counterpart of semisimple ones.
 By the Levi decomposition, every connected Lie group is built from a solvable normal subgroup and a semisimple part.
 Typical examples are groups of invertible upper triangular matrices.

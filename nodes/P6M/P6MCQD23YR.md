@@ -14,11 +14,11 @@ sources:
 Let $X$ be a [[scheme|5A35TYZD02]], and let $\mathcal{P}(X)$ be the category of [[vector bundles|P4DZM975BV]] on $X$, that is, locally free $\mathcal{O}_X$-modules of finite rank.
 With the short exact sequences of $\mathcal{O}_X$-modules, $\mathcal{P}(X)$ is an [[exact category|TFADSC9YPZ]].
 For $n \ge 0$, the *$n$-th algebraic K-group* of $X$ is $K_n(X) = \pi_{n+1}\big(B Q \mathcal{P}(X), 0\big)$.
-This is a homotopy group of the classifying space of Quillen's Q-construction on $\mathcal{P}(X)$, at the base point given by the zero bundle.
+This is a homotopy group of the classifying space of Quillen's [[Q-construction|J9XP7CS943]] on $\mathcal{P}(X)$, at the base point given by the zero bundle.
 
 ## Remarks
 
-The group $K_0(X)$ is the Grothendieck group of vector bundles.
+The group $K_0(X)$ is the [[Grothendieck group of vector bundles|A4393CW9G4]].
 It is the quotient of the [[free abelian group|0YMSEZE1VH]] on isomorphism classes $[E]$ of vector bundles by the following relations.
 For every short exact sequence $0 \to E' \to E \to E'' \to 0$, one sets $[E] = [E'] + [E'']$.
 The tensor product makes $K_0(X)$ a commutative ring.

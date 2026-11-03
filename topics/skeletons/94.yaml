@@ -33,7 +33,7 @@ items:
   # Source coding and data compression
   - {name: asymptotic equipartition property, kind: statement, wikipedia: Asymptotic equipartition property, wikidata: Q4812181}
   - {name: typical set, kind: definition, wikipedia: Typical set, wikidata: Q7861378}
-  - {name: Shannon's source coding theorem, kind: statement, wikipedia: Shannon's source coding theorem, wikidata: Q2411312}
+  - {name: Shannon's source coding theorem, kind: statement, wikipedia: Shannon's source coding theorem, wikidata: Q2411312, node: PC8ASRWARE}
   - {name: variable-length code, kind: definition, wikipedia: Variable-length encoding, wikidata: Q2981616}
   - {name: prefix code, kind: definition, decl: InformationTheory.IsPrefixFree, wikipedia: Prefix code, wikidata: Q1278039}
   - {name: uniquely decodable code, kind: definition, decl: InformationTheory.IsUniquelyDecodable, wikipedia: Variable-length encoding, wikidata: Q2981616}

@@ -14,7 +14,7 @@ same_as:
 
 A von Neumann algebra is an algebra of bounded operators on a Hilbert space that contains the identity and is closed under taking adjoints.
 It must also be closed in the [[weak operator topology|4XM1VN1C1N]].
-It is a special kind of C*-algebra, one that is rich in projections and admits a measurable functional calculus.
+It is a special kind of [[C*-algebra|M2WFY1D3SZ]], one that is rich in projections and admits a measurable functional calculus.
 Commutative von Neumann algebras are the algebras $L^\infty$ of measure spaces, so the theory is often called noncommutative measure theory.
 John von Neumann introduced them and studied them with Francis Murray.
 They are basic objects in operator algebras, quantum physics and representation theory.

@@ -16,7 +16,7 @@ Let $R$ be a [[ring|0B1261B5ED]] with identity.
 1. $K_0(R)$ is the [[Grothendieck group|5FDMY7PDYY]] of the commutative monoid of isomorphism classes of finitely generated [[projective|BFFA03GE3V]] left $R$-modules under direct sum.
 2. Let $GL(R) = \bigcup_{n \ge 1} GL_n(R)$, where $GL_n(R)$ is the [[general linear group|0FCHE902D7]] and $GL_n(R) \subseteq GL_{n+1}(R)$ through $g \mapsto \begin{pmatrix} g & 0 \\ 0 & 1 \end{pmatrix}$.
 Then $K_1(R) = GL(R)/[GL(R), GL(R)]$.
-3. For $n \ge 1$, $K_n(R) = \pi_n(BGL(R)^+)$, the $n$-th [[homotopy group|P976WYEFMB]] of the plus construction of the [[classifying space|WA796ZCNRX]] $BGL(R)$ with respect to the commutator subgroup $[GL(R), GL(R)]$.
+3. For $n \ge 1$, $K_n(R) = \pi_n(BGL(R)^+)$, the $n$-th [[homotopy group|P976WYEFMB]] of the [[plus construction|XFGZFM8PC6]] of the [[classifying space|WA796ZCNRX]] $BGL(R)$ with respect to the commutator subgroup $[GL(R), GL(R)]$.
 
 The *algebraic K-theory* of $R$ is the sequence of abelian groups $K_n(R)$, $n \ge 0$.
 

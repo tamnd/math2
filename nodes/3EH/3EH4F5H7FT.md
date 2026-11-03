@@ -9,7 +9,7 @@ sources:
 
 ## Summary
 
-The algebraic approach studies the constraint satisfaction problem of a fixed finite structure through the [[polymorphisms|A0K9EZRM7E]] of that structure.
+The algebraic approach studies the [[constraint satisfaction problem|5EHA6R2M6K]] of a fixed finite structure through the [[polymorphisms|A0K9EZRM7E]] of that structure.
 Its basic fact is that the complexity of the problem depends only on the clone of polymorphisms.
 Polymorphisms satisfying good identities, such as [[Taylor|QEAMRNRJJD]], [[Siggers|JYW1H3J8SX]] or cyclic identities, give efficient algorithms.
 The approach led to the proof of the [[CSP dichotomy theorem|ZA4YXJ9T1P]]: every such problem is either in polynomial time or NP-complete.

@@ -21,10 +21,10 @@ That is, $t(x, \ldots, x) = x$ for all $x$.
 Also, for each position $i \le n$, $t$ satisfies an identity $t(u_1, \ldots, u_n) \approx t(v_1, \ldots, v_n)$ with each $u_j, v_j \in \set{x, y}$, $u_i = x$ and $v_i = y$.
 Then exactly one of the following holds.
 
-1. $\mathbb{C}$ has a Taylor polymorphism, and $\mathrm{CSP}(\mathbb{B})$ is solvable in polynomial time.
-2. $\mathbb{C}$ has no Taylor polymorphism, and $\mathrm{CSP}(\mathbb{B})$ is NP-complete.
+1. $\mathbb{C}$ has a Taylor polymorphism, and $\mathrm{CSP}(\mathbb{B})$ is solvable in [[polynomial time|GVT2NKN37K]].
+2. $\mathbb{C}$ has no Taylor polymorphism, and $\mathrm{CSP}(\mathbb{B})$ is [[NP|QQRA9GBW51]]-complete.
 
-In particular, each such constraint satisfaction problem is either in P or NP-complete.
+In particular, each such [[constraint satisfaction problem|5EHA6R2M6K]] is either in P or NP-complete.
 
 ## Remarks
 

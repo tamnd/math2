@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-Let $a$ be a normal element of a C*-algebra, and let $f$ be a continuous function on the [[spectrum|EH0CZ19RKP]] of $a$.
+Let $a$ be a normal element of a [[C*-algebra|M2WFY1D3SZ]], and let $f$ be a continuous function on the [[spectrum|EH0CZ19RKP]] of $a$.
 The continuous functional calculus gives a meaning to $f(a)$.
 It extends the evaluation of polynomials at $a$ to all continuous functions, and it respects sums, products, adjoints and norms.
 It is built from the [[commutative Gelfand–Naimark theorem|NT564Y315M]].

@@ -13,7 +13,7 @@ same_as:
 
 ## Summary
 
-A simple Lie group is a connected [[Lie group|7JBRGCVJRB]] whose Lie algebra is a simple Lie algebra.
+A simple Lie group is a connected [[Lie group|7JBRGCVJRB]] whose Lie algebra is a [[simple Lie algebra|XDAXWHBNSZ]].
 Such a Lie algebra is not abelian and has no ideals other than $0$ and itself.
 Simple Lie groups are the building blocks of the [[semisimple Lie groups|XJS07AJ50Y]], and through them of a large part of Lie theory.
 Up to coverings and central quotients, they are classified by the simple Lie algebras.

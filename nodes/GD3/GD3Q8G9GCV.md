@@ -11,7 +11,7 @@ sources:
 
 ## Definition
 
-A *noncommutative probability space* is a pair $(A, \varphi)$ where $A$ is a unital algebra over $\C$ and $\varphi \colon A \to \C$ is a linear functional with $\varphi(1) = 1$.
+A *noncommutative probability space* is a pair $(A, \varphi)$ where $A$ is a unital [[algebra|1SENAHZW5A]] over $\C$ and $\varphi \colon A \to \C$ is a linear functional with $\varphi(1) = 1$.
 Elements of $A$ are called noncommutative random variables.
 Let $(A_i)_{i \in I}$ be a family of unital subalgebras of $A$.
 They are *freely independent*, or *free*, if the following holds.

@@ -32,4 +32,4 @@ An invariant $\mu$ would give $\mu(W(a)) + \mu(W(a^{-1})) = 1$ and $\mu(W(b)) + 
 Equivalently, there is a left-invariant mean on $\ell^\infty(G)$, a positive linear functional $m$ with $m(1) = 1$ and $m(g \cdot f) = m(f)$.
 For a locally compact group, one asks instead for a left-invariant mean on $L^\infty(G)$; for discrete groups the two notions agree.
 For a countable group, amenability is equivalent to the [[Følner condition|82R5XGCART]].
-Subgroups, quotients and extensions of amenable groups are amenable, and abelian and solvable groups are amenable.
+Subgroups, quotients and extensions of amenable groups are amenable, and [[abelian and solvable groups are amenable|SG5K6GE0YB]].

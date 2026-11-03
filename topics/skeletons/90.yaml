@@ -34,7 +34,7 @@ items:
   - {name: criss-cross algorithm, kind: definition, wikipedia: Criss-cross algorithm, wikidata: Q17006040}
   - {name: Klee–Minty cube, kind: counterexample, wikipedia: Klee–Minty cube, wikidata: Q6420102}
   - {name: smoothed analysis of the simplex method, kind: statement, wikipedia: Smoothed analysis, wikidata: Q7546449}
-  - {name: ellipsoid method, kind: definition, wikipedia: Ellipsoid method, wikidata: Q378574}
+  - {name: ellipsoid method, kind: definition, wikipedia: Ellipsoid method, wikidata: Q378574, node: TJR5MQHNYE}
   - {name: Khachiyan's theorem that linear programming is in P, kind: statement, wikipedia: Ellipsoid method, wikidata: Q378574}
   - {name: Karmarkar's algorithm, kind: definition, wikipedia: Karmarkar's algorithm, wikidata: Q2246305}
   - {name: polynomial Hirsch conjecture, kind: conjecture, wikipedia: Hirsch conjecture, wikidata: Q2993326}
@@ -72,7 +72,7 @@ items:
   - {name: bin packing problem, kind: problem, wikipedia: Bin packing problem, wikidata: Q814581}
   - {name: cutting stock problem, kind: problem, wikipedia: Cutting stock problem, wikidata: Q1306230}
   - {name: set cover problem, kind: problem, wikipedia: Set cover problem, wikidata: Q1192100}
-  - {name: travelling salesman problem, kind: problem, wikipedia: Travelling salesman problem, wikidata: Q322212}
+  - {name: travelling salesman problem, kind: problem, wikipedia: Travelling salesman problem, wikidata: Q322212, node: XJRHJX2241}
   - {name: Held–Karp algorithm, kind: definition, wikipedia: Held–Karp algorithm, wikidata: Q20203442}
   - {name: Christofides algorithm, kind: definition, wikipedia: Christofides algorithm, wikidata: Q498144}
   - {name: vehicle routing problem, kind: problem, wikipedia: Vehicle routing problem, wikidata: Q944041}
@@ -94,7 +94,7 @@ items:
   - {name: maximum flow problem, kind: problem, wikipedia: Maximum flow problem, wikidata: Q2585642}
   - {name: max-flow min-cut theorem, kind: statement, wikipedia: Max-flow min-cut theorem, wikidata: Q608294, node: 4HMR4KQ01T}
   - {name: integral flow theorem, kind: statement, wikipedia: Ford–Fulkerson algorithm, wikidata: Q284695}
-  - {name: Ford–Fulkerson algorithm, kind: definition, wikipedia: Ford–Fulkerson algorithm, wikidata: Q284695}
+  - {name: Ford–Fulkerson algorithm, kind: definition, wikipedia: Ford–Fulkerson algorithm, wikidata: Q284695, node: 9P19SEYN1R}
   - {name: Edmonds–Karp algorithm, kind: definition, wikipedia: Edmonds–Karp algorithm, wikidata: Q1302658}
   - {name: Dinic's algorithm, kind: definition, wikipedia: Dinic's algorithm, wikidata: Q730933}
   - {name: push–relabel maximum flow algorithm, kind: definition, wikipedia: Push–relabel maximum flow algorithm, wikidata: Q583889}

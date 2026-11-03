@@ -12,7 +12,7 @@ same_as:
 
 ## Summary
 
-An operator system is a subspace of a unital C*-algebra that contains the unit and is closed under taking adjoints.
+An operator system is a subspace of a unital [[C*-algebra|M2WFY1D3SZ]] that contains the unit and is closed under taking adjoints.
 Such a subspace has enough positive elements to make sense of positive and [[completely positive maps|CGY299QMC3]] on it.
 Operator systems are the setting of the Arveson extension theorem and of much of the theory of completely positive maps.
 A closed operator system is in particular an [[operator space|VB1J9AA4WX]].
