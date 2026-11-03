@@ -10,7 +10,7 @@ sources:
 
 ## Example
 
-Consider the Lieb–Liniger model of bosons on a line with delta interaction of strength $c > 0$, in units with $\hbar = 2m = 1$.
+Consider the [[Lieb–Liniger model|YVNNZD8F4N]] of bosons on a line with delta interaction of strength $c > 0$, in units with $\hbar = 2m = 1$.
 In the thermodynamic limit its ground state is described by a density $\rho$ of quasi-momenta on an interval $[-K, K]$, with $K > 0$.
 This density solves
 $$\rho(k) = \frac{1}{2\pi} + \frac{1}{\pi} \int_{-K}^{K} \frac{c}{c^2 + (k - q)^2} \, \rho(q) \, dq, \quad -K \le k \le K.$$

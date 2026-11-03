@@ -14,7 +14,7 @@ same_as:
 ## Example
 
 Consider a classical fluid in $\R^3$ with number density $\rho$, inverse temperature $\beta$ and a pair potential $u(r)$.
-Let $g$ be the radial distribution function, $h = g - 1$, and let $c$ be the direct correlation function of the [[Ornstein–Zernike equation|29T4NC87AR]].
+Let $g$ be the [[radial distribution function|FME4G0R7FQ]], $h = g - 1$, and let $c$ be the direct correlation function of the [[Ornstein–Zernike equation|29T4NC87AR]].
 The Percus–Yevick approximation is the closure
 $$c(r) = g(r) \left(1 - e^{\beta u(r)}\right).$$
 With the cavity function $y(r) = g(r) e^{\beta u(r)}$ and the Mayer function $f(r) = e^{-\beta u(r)} - 1$ it reads $c(r) = f(r) \, y(r)$.

@@ -14,7 +14,7 @@ same_as:
 
 ## Example
 
-Let $O(1, 3)$ be the [[Lorentz group|QWK3BYVJ9W]], acting on Minkowski space $\R^{1,3} = \R^4$.
+Let $O(1, 3)$ be the [[Lorentz group|QWK3BYVJ9W]], acting on [[Minkowski space|G49G4R1K04]] $\R^{1,3} = \R^4$.
 The *Poincaré group* is the set of pairs $(\Lambda, a)$ with $\Lambda \in O(1, 3)$ and $a \in \R^4$, acting on $\R^4$ by
 $$(\Lambda, a) \cdot x = \Lambda x + a,$$
 a Lorentz transformation followed by a [[translation|087VJM5Q77]].
