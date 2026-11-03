@@ -1,0 +1,42 @@
+name: add the arXiv records
+description: Unpack the arXiv records that manifests/records-arxiv.yaml pins from tamnd/math2-records (corpus arxiv AQ11).
+
+inputs:
+  root:
+    description: The math2 tree.
+    default: .
+  m2:
+    description: An m2 with the command corpus records. With none, the action installs m2 v0.6.23, which has it. Go must be set up.
+    default: ""
+
+runs:
+  using: composite
+  steps:
+    # The mentions of arXiv, the records of understand and the rows of the research layer are in tamnd/math2-records. The checks and the site read the tree with them, as the pipeline does.
+    - name: unpack the arXiv records
+      shell: bash
+      env:
+        ROOT: ${{ inputs.root }}
+        M2: ${{ inputs.m2 }}
+      run: |
+        pin="$ROOT/manifests/records-arxiv.yaml"
+        if [ ! -f "$pin" ]; then
+          echo "no pin of the arXiv records"
+          exit 0
+        fi
+        commit=$(sed -n 's/^commit: *//p' "$pin")
+        if ! printf '%s' "$commit" | grep -Eq '^[0-9a-f]{40}$'; then
+          echo "::error file=manifests/records-arxiv.yaml::the pin of the arXiv records is not a commit: $commit"
+          exit 1
+        fi
+        out="$RUNNER_TEMP/records-arxiv"
+        git init -q "$out"
+        git -C "$out" fetch -q --depth 1 https://github.com/tamnd/math2-records "$commit"
+        git -C "$out" checkout -q FETCH_HEAD
+        if [ -z "$M2" ]; then
+          GOBIN="$RUNNER_TEMP/m2-records" go install github.com/tamnd/math2-agent/cmd/m2@v0.6.23
+          M2="$RUNNER_TEMP/m2-records/m2"
+        fi
+        "$M2" corpus records unpack -root "$ROOT" -out "$out"
+        # The unpacked directories are not changes of the tree, so m2 audit -changed does not take them as new files.
+        printf '%s\n' /records/mentions/arxiv/ /records/understand/arxiv/ >> "$(git -C "$ROOT" rev-parse --git-path info/exclude)"
