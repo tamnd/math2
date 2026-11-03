@@ -8,6 +8,8 @@ uses: [0T0F6CCS9W, 0XAP8WHNES]
 sources:
   - url: https://en.wikipedia.org/wiki/Handshaking_lemma
     locator: Definitions and statement
+  - url: https://github.com/oscarlevin/discrete-book/blob/a8e4949bc45daf100930c1182983778f56ab689f/ptx/sec_gt-intro.ptx#L945
+    locator: ptx/sec_gt-intro.ptx:945
 ---
 
 ## Statement

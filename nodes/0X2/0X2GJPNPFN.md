@@ -8,6 +8,8 @@ uses: [01T3TMGTTE, 07DVHJ8N0A, 0Z87BHAFTB]
 sources:
   - url: https://en.wikipedia.org/wiki/Hall's_marriage_theorem
     locator: Graph theoretic formulation
+  - url: https://github.com/oscarlevin/discrete-book/blob/a8e4949bc45daf100930c1182983778f56ab689f/ptx/sec_gt-matchings.ptx#L173
+    locator: ptx/sec_gt-matchings.ptx:173
 ---
 
 ## Statement
