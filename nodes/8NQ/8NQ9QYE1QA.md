@@ -1,5 +1,5 @@
 ---
-tag: ~727075d0
+tag: 8NQ9QYE1QA
 kind: statement
 role: theorem
 name: Laws of exponents for nonzero rational numbers

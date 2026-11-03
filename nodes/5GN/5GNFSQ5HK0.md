@@ -1,5 +1,5 @@
 ---
-tag: ~a6f0a041
+tag: 5GNFSQ5HK0
 kind: statement
 role: theorem
 name: Monotonic law for multiplication of natural numbers

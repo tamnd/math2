@@ -1,5 +1,5 @@
 ---
-tag: ~6ba7016b
+tag: C6Z4QQQRYN
 kind: statement
 role: lemma
 name: Addition of integer classes of pairs is well defined

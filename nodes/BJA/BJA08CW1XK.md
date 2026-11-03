@@ -7,7 +7,7 @@ role: proposition
 sources:
 - locator: source/s_background_relations.ptx:76
   url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_background_relations.ptx#L76
-tag: ~6fd58414
+tag: BJA08CW1XK
 uses:
 - 0SNQEF7Z53
 - 01VG2A0BHW

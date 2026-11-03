@@ -1,5 +1,5 @@
 ---
-tag: ~d00cfc48
+tag: ARAGG36S9N
 kind: statement
 role: theorem
 name: Sign rules for integer multiplication and subtraction

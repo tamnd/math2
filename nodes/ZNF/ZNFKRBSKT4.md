@@ -7,7 +7,7 @@ role: theorem
 sources:
 - locator: source/s_background_rationals.ptx:22
   url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_background_rationals.ptx#L22
-tag: ~6f31b509
+tag: ZNFKRBSKT4
 uses:
 - 0NCJ5WXN6Z
 ---

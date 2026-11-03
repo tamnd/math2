@@ -7,7 +7,7 @@ role: lemma
 sources:
 - locator: source/s_genfunction_binom-app.ptx:6
   url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_genfunction_binom-app.ptx#L6
-tag: ~a4ecccfb
+tag: YA93ANGVAB
 uses:
 - 0N5M924N3P
 ---

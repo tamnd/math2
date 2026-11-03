@@ -1,5 +1,5 @@
 ---
-tag: ~293f54bf
+tag: 84BPXXTN5M
 kind: statement
 role: theorem
 name: Monotonic law for addition of integers

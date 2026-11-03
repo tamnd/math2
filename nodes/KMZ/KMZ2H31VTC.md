@@ -1,5 +1,5 @@
 ---
-tag: ~b504d2af
+tag: KMZ2H31VTC
 kind: statement
 role: theorem
 name: Arithmetic laws of the rational numbers

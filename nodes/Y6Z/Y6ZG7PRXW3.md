@@ -1,5 +1,5 @@
 ---
-tag: ~552324f5
+tag: Y6ZG7PRXW3
 kind: statement
 role: corollary
 name: Convolution of central binomial coefficients

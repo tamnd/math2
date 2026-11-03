@@ -1,5 +1,5 @@
 ---
-tag: ~054c1c1f
+tag: 5F7RNB36PJ
 kind: statement
 role: theorem
 name: A product of nonzero natural numbers is nonzero

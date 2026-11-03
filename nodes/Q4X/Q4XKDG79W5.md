@@ -7,7 +7,7 @@ role: theorem
 sources:
 - locator: source/s_background_prop-integers.ptx:47
   url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_background_prop-integers.ptx#L47
-tag: ~17d03471
+tag: Q4XKDG79W5
 uses:
 - 0C4JS9RF5M
 ---

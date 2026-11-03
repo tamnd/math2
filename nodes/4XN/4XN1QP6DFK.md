@@ -1,5 +1,5 @@
 ---
-tag: ~24208506
+tag: 4XN1QP6DFK
 kind: statement
 role: theorem
 name: Generating function of the central binomial coefficients

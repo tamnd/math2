@@ -1,5 +1,5 @@
 ---
-tag: ~69eaaa44
+tag: VZD2TYZXX4
 kind: statement
 role: theorem
 name: Associativity of multiplication of natural numbers

@@ -1,5 +1,5 @@
 ---
-tag: ~23983e90
+tag: TYXYM9HAS2
 kind: statement
 role: theorem
 name: Monotonic law for multiplication of integers

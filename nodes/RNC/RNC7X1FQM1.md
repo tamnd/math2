@@ -1,5 +1,5 @@
 ---
-tag: ~d0fdb088
+tag: RNC7X1FQM1
 kind: statement
 name: Laws of exponents for nonnegative powers of a nonzero integer
 role: theorem
