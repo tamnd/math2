@@ -1,5 +1,6 @@
 {"id":"BPM01035RD","mentions":["wikipedia://en/24253774#7T1N"],"kind":"statement","name":"Formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BPM59HRPC4","mentions":["wikipedia://en/41265739"],"kind":"definition","name":"Hydrodynamica","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"BPM66PYX6X","mentions":["ax://paper/2609.19829#BCXD"],"kind":"statement","msc":["30-XX","32-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.19"},"history":[{"op":"add","at":"2026-11-03","by":"m2/v0.6.19"}]}
 {"id":"BPM9HHFVP8","mentions":["wikipedia://en/38755088#4R6W"],"kind":"unknown","name":"Kendall","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BPMK442F0S","mentions":["wikipedia://en/23616030"],"kind":"topic","name":"Janusz Brzozowski","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BPMMW0ANES","mentions":["wikipedia://en/8267#G6QI"],"kind":"unknown","name":"Orientational analysis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
