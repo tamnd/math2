@@ -12,7 +12,7 @@ items:
   - {name: dynamical system, kind: definition, wikipedia: Dynamical system, wikidata: Q638328, node: BBZP1R872N}
   - {name: flow, kind: definition, decl: Flow, wikipedia: Flow (mathematics), wikidata: Q1434290, node: 06738GGWWK}
   - {name: discrete-time dynamical system, kind: concept, wikipedia: Dynamical system, wikidata: Q638328, node: 5AA9AJEARJ}
-  - {name: orbit, kind: definition, wikipedia: Orbit (dynamics), wikidata: Q3884964}
+  - {name: orbit, kind: definition, wikipedia: Orbit (dynamics), wikidata: Q3884964, node: 0YQPZB5Q1G}
   - {name: fixed point, kind: definition, decl: Function.IsFixedPt, wikipedia: Fixed point (mathematics), wikidata: Q217608, node: R6QVS6P21N}
   - {name: periodic point, kind: definition, decl: Function.periodicPts, wikipedia: Periodic point, wikidata: Q116301, mathlib: [mathlib-overview], node: T75CZ5H47N}
   - {name: minimal period, kind: definition, decl: Function.minimalPeriod, wikipedia: Periodic point, wikidata: Q116301, node: VFZRVZ9SD8}

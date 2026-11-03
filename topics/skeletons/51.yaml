@@ -83,7 +83,7 @@ items:
   - {name: Steiner conic, kind: definition, wikipedia: Steiner conic, wikidata: Q15844090, node: J2KM2VYA3J}
   - {name: quadric, kind: definition, wikipedia: Quadric, wikidata: Q852117, node: Q3Q4FF23VG}
   - {name: polarity, kind: definition, wikipedia: Duality (projective geometry), wikidata: Q735346, node: 727TZQJ4ZA}
-  - {name: Grassmannian, kind: definition, wikipedia: Grassmannian, wikidata: Q129638}
+  - {name: Grassmannian, kind: definition, wikipedia: Grassmannian, wikidata: Q129638, node: CYPA882RB9}
   - {name: Plücker coordinates, kind: definition, wikipedia: Plücker coordinates, wikidata: Q2559456, node: B8PAMSJ81T}
   - {name: Klein quadric, kind: object, wikipedia: Klein quadric, wikidata: Q6420195, node: 6WV71T5CK1}
   - {name: polar space, kind: definition, wikipedia: Polar space, wikidata: Q3058226, node: Z7T0V2VAWJ}
@@ -137,7 +137,7 @@ items:
   # Metric and reflection geometry
   - {name: metric geometry, kind: concept, wikipedia: Metric space, wikidata: Q180953, node: 0VKD1TP7F3}
   - {name: isometry, kind: definition, decl: Isometry, wikipedia: Isometry, wikidata: Q740207, node: 02HPP5VCZH}
-  - {name: Euclidean group, kind: definition, wikipedia: Euclidean group, wikidata: Q852195}
+  - {name: Euclidean group, kind: definition, wikipedia: Euclidean group, wikidata: Q852195, node: 0H3YY8CPKH}
   - {name: reflection, kind: definition, decl: EuclideanGeometry.reflection, wikipedia: Reflection (mathematics), wikidata: Q426221, node: 06BRDF3F0E}
   - {name: Cartan–Dieudonné theorem, kind: statement, wikipedia: Cartan–Dieudonné theorem, wikidata: Q2540738, node: 0VMWGYY35Q}
   - {name: Bachmann's reflection geometry, kind: concept, wikipedia: Absolute geometry, wikidata: Q332430, node: J0K6T02FQQ}
@@ -177,7 +177,7 @@ items:
   - {name: Stewart's theorem, kind: statement, decl: EuclideanGeometry.dist_sq_mul_dist_add_dist_sq_mul_dist, wikipedia: Stewart's theorem, wikidata: Q739403, mathlib: [mathlib-1000], node: HXSK0BNBNE}
   - {name: angle bisector theorem, kind: statement, wikipedia: Angle bisector theorem, wikidata: Q925854, node: 0859R2V6ES}
   - {name: triangle inequality, kind: statement, wikipedia: Triangle inequality, wikidata: Q208216, node: 03HF5PMY5T}
-  - {name: centroid, kind: definition, decl: Affine.Simplex.centroid, wikipedia: Centroid, wikidata: Q511093}
+  - {name: centroid, kind: definition, decl: Affine.Simplex.centroid, wikipedia: Centroid, wikidata: Q511093, node: 0X7EEWES5G}
   - {name: circumcenter, kind: definition, decl: Affine.Simplex.circumcenter, wikipedia: Circumcircle, wikidata: Q2946460, node: 0F98FZK14A}
   - {name: circumsphere, kind: definition, decl: Affine.Simplex.circumsphere, wikipedia: Circumscribed sphere, wikidata: Q1414689, node: MRC4WMVTAH}
   - {name: orthocenter, kind: definition, decl: Affine.Triangle.orthocenter, wikipedia: Altitude (triangle), wikidata: Q339495, node: 0WB619CA0V}

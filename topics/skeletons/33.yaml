@@ -146,9 +146,9 @@ items:
   - {name: Legendre functions, kind: definition, wikipedia: Legendre function, wikidata: Q17098449, node: 69XMERM6KJ}
   - {name: associated Legendre polynomials, kind: definition, wikipedia: Associated Legendre polynomials, wikidata: Q228376, node: VPJCSVRY6S}
   - {name: Laplace's integral for Legendre polynomials, kind: statement, wikipedia: Legendre polynomials, wikidata: Q215405, node: YYQG5P32GX}
-  - {name: Chebyshev polynomials, kind: definition, decl: Polynomial.Chebyshev.T, wikipedia: Chebyshev polynomials, wikidata: Q619511}
+  - {name: Chebyshev polynomials, kind: definition, decl: Polynomial.Chebyshev.T, wikipedia: Chebyshev polynomials, wikidata: Q619511, node: M6EAR1JHPP}
   - {name: Chebyshev polynomials of the second kind, kind: definition, decl: Polynomial.Chebyshev.U, wikipedia: Chebyshev polynomials, wikidata: Q619511, node: 7CATGEN6KH}
-  - {name: Hermite polynomials, kind: definition, decl: Polynomial.hermite, wikipedia: Hermite polynomials, wikidata: Q658574}
+  - {name: Hermite polynomials, kind: definition, decl: Polynomial.hermite, wikipedia: Hermite polynomials, wikidata: Q658574, node: MGACY98E9H}
   - {name: Hermite functions, kind: definition, wikipedia: Hermite polynomials, wikidata: Q658574, node: 52VS07H6GK}
   - {name: Mehler kernel, kind: statement, wikipedia: Mehler kernel, wikidata: Q6809515, node: 9BF9QTCRKW}
   - {name: Laguerre polynomials, kind: definition, wikipedia: Laguerre polynomials, wikidata: Q1124546, node: WAMRHWW82R}
@@ -213,7 +213,7 @@ items:
   - {name: Jacobi elliptic functions, kind: definition, wikipedia: Jacobi elliptic functions, wikidata: Q1473526, node: P071B692JF}
   - {name: Jacobi amplitude, kind: definition, wikipedia: Jacobi elliptic functions, wikidata: Q1473526, node: WDHHJHVP7N}
   - {name: addition formulas for Jacobi elliptic functions, kind: statement, wikipedia: Jacobi elliptic functions, wikidata: Q1473526, node: QWSRBJ1G1E}
-  - {name: Weierstrass elliptic function, kind: definition, decl: PeriodPair.weierstrassP, wikipedia: Weierstrass elliptic function, wikidata: Q2343600}
+  - {name: Weierstrass elliptic function, kind: definition, decl: PeriodPair.weierstrassP, wikipedia: Weierstrass elliptic function, wikidata: Q2343600, node: 361NAK68QK}
   - {name: Weierstrass zeta and sigma functions, kind: definition, wikipedia: 'Weierstrass sigma, zeta, and eta functions', wikidata: Q3075283, node: QATW7046PD}
   - {name: lemniscate elliptic functions, kind: definition, wikipedia: Lemniscate elliptic functions, wikidata: Q6521248, node: TQDZQ964AZ}
   - {name: lemniscate constant, kind: object, wikipedia: Lemniscate constant, wikidata: Q1248689, node: V5A2S8QYQQ}

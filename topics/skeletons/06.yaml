@@ -230,7 +230,7 @@ items:
   - {name: linearly ordered group, kind: definition, wikipedia: Linearly ordered group, wikidata: Q10292020, node: P2E8BNYC7B}
   - {name: lattice-ordered group, kind: definition, wikipedia: Partially ordered group, wikidata: Q2715875, node: J0DHYQ0MDE}
   - {name: Riesz space, kind: definition, wikipedia: Riesz space, wikidata: Q2152570, node: 99709K2NJM}
-  - {name: Archimedean property, kind: definition, decl: Archimedean, wikipedia: Archimedean property, wikidata: Q634579}
+  - {name: Archimedean property, kind: definition, decl: Archimedean, wikipedia: Archimedean property, wikidata: Q634579, node: 0A74SX55QP}
   - {name: Hölder's theorem on Archimedean groups, kind: statement, decl: Archimedean.exists_orderAddMonoidHom_real_injective, wikipedia: Archimedean group, wikidata: Q4786884, node: CDM40MT3HZ}
   - {name: Archimedean equivalence classes, kind: definition, decl: ArchimedeanClass, wikipedia: Archimedean property, wikidata: Q634579, node: RQ4X0EH6NH}
   - {name: Hahn embedding theorem, kind: statement, wikipedia: Hahn embedding theorem, wikidata: Q5638886, node: FVPXXFNVQY}

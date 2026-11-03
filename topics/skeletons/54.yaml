@@ -67,8 +67,8 @@ items:
   - {name: semicontinuity, kind: definition, wikipedia: Semi-continuity, wikidata: Q955072, node: RN4G8SGP6P}
   - {name: hemicontinuity, kind: definition, wikipedia: Hemicontinuity, wikidata: Q5711478, node: XNMKX7H4FD}
   - {name: Michael selection theorem, kind: statement, wikipedia: Michael selection theorem, wikidata: Q6835566, node: 3RJ1K36A9A}
-  - {name: intermediate value theorem, kind: statement, decl: intermediate_value_Icc, wikipedia: Intermediate value theorem, wikidata: Q245098, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-100, mathlib-1000]}
-  - {name: extreme value theorem, kind: statement, decl: IsCompact.exists_isMinOn, wikipedia: Extreme value theorem, wikidata: Q752375, mathlib: [mathlib-overview, mathlib-1000]}
+  - {name: intermediate value theorem, kind: statement, decl: intermediate_value_Icc, wikipedia: Intermediate value theorem, wikidata: Q245098, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-100, mathlib-1000], node: 00KAFBR32E}
+  - {name: extreme value theorem, kind: statement, decl: IsCompact.exists_isMinOn, wikipedia: Extreme value theorem, wikidata: Q752375, mathlib: [mathlib-overview, mathlib-1000], node: 0WS1A8E2P9}
   - {name: retraction, kind: definition, wikipedia: Retraction (topology), wikidata: Q2141963, node: 05SG20AMXH}
   - {name: absolute neighborhood retract, kind: definition, wikipedia: Absolute neighborhood retract, wikidata: Q137596576, node: DK3MT3HYX5}
   - {name: Dugundji extension theorem, kind: statement, wikipedia: Dugundji extension theorem, wikidata: Q974873, node: RBDJBK63HX}
@@ -77,7 +77,7 @@ items:
   - {name: product topology, kind: definition, decl: Pi.topologicalSpace, wikipedia: Product topology, wikidata: Q1070472, node: 0GBG8B49AA}
   - {name: box topology, kind: definition, wikipedia: Box topology, wikidata: Q4951625, node: 0BWJTRE3X3}
   - {name: disjoint union topology, kind: definition, decl: instTopologicalSpaceSigma, wikipedia: Disjoint union (topology), wikidata: Q5282259, node: ZXJKSB30WF}
-  - {name: quotient space, kind: definition, wikipedia: Quotient space (topology), wikidata: Q1139111}
+  - {name: quotient space, kind: definition, wikipedia: Quotient space (topology), wikidata: Q1139111, node: 0BR3FY5Q8M}
   - {name: initial topology, kind: definition, wikipedia: Initial topology, wikidata: Q13416298, node: 1NWC3710WW}
   - {name: final topology, kind: definition, wikipedia: Final topology, wikidata: Q1416138, node: 6ERJRRZK32}
   - {name: adjunction space, kind: definition, wikipedia: Adjunction space, wikidata: Q4683190, node: N6DQ3Q0HBT}
@@ -114,7 +114,7 @@ items:
   # Compactness
   - {name: open cover, kind: definition, wikipedia: Cover (topology), wikidata: Q331481, node: 049PXYHW1T}
   - {name: compact space, kind: definition, decl: IsCompact, wikipedia: Compact space, wikidata: Q381892, mathlib: [mathlib-overview], node: 0TVJZYB6SH}
-  - {name: finite intersection property, kind: definition, wikipedia: Finite intersection property, wikidata: Q2915225}
+  - {name: finite intersection property, kind: definition, wikipedia: Finite intersection property, wikidata: Q2915225, node: 00BWV5CKCF}
   - {name: continuous image of a compact set is compact, kind: statement, decl: IsCompact.image, wikipedia: Compact space, wikidata: Q381892, node: 0K9AAJ8G51}
   - {name: compact subsets of Hausdorff spaces are closed, kind: statement, decl: IsCompact.isClosed, wikipedia: Compact space, wikidata: Q381892, node: 0MYFJVMN7M}
   - {name: compactness via ultrafilters, kind: statement, decl: isCompact_iff_ultrafilter_le_nhds, wikipedia: Ultrafilter, wikidata: Q1571831, node: DT5PH9QVQ7}

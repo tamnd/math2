@@ -85,7 +85,7 @@ items:
   - {name: simplicial approximation theorem, kind: statement, wikipedia: Simplicial approximation theorem, wikidata: Q3983972, node: TQFXC1A6G5}
   - {name: barycentric subdivision, kind: definition, wikipedia: Barycentric subdivision, wikidata: Q4078260, node: J5DZEYCEX2}
   - {name: simplicial set, kind: definition, decl: SSet, wikipedia: Simplicial set, wikidata: Q1467124, node: WW81ARB8K9}
-  - {name: simplex category, kind: definition, decl: SimplexCategory, wikipedia: Simplex category, wikidata: Q10906333}
+  - {name: simplex category, kind: definition, decl: SimplexCategory, wikipedia: Simplex category, wikidata: Q10906333, node: FRFYHJGAN3}
   - {name: Kan complex, kind: definition, decl: SSet.KanComplex, wikipedia: Kan fibration, wikidata: Q3915873, node: FDFYCM3YYC}
   - {name: horn, kind: definition, decl: SSet.horn, wikipedia: Simplicial set, wikidata: Q1467124, node: D5Z60BRP18}
   - {name: singular simplicial set, kind: definition, decl: TopCat.toSSet, wikipedia: Simplicial set, wikidata: Q1467124, node: RWBMXQW6S5}

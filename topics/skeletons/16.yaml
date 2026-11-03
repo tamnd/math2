@@ -31,7 +31,7 @@ items:
   - {name: nilpotent element, kind: definition, decl: IsNilpotent, wikipedia: Nilpotent, wikidata: Q840023, node: 0ZB2JG1M9C}
   - {name: nil ideal, kind: definition, wikipedia: Nil ideal, wikidata: Q453275, node: NZ1G9WRWFB}
   - {name: nilpotent ideal, kind: definition, wikipedia: Nilpotent ideal, wikidata: Q4321370, node: C2H26BYWHE}
-  - {name: matrix ring, kind: definition, decl: Matrix, wikipedia: Matrix ring, wikidata: Q2915729, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: matrix ring, kind: definition, decl: Matrix, wikipedia: Matrix ring, wikidata: Q2915729, mathlib: [mathlib-undergrad, mathlib-overview], node: 0FHVPRAE60}
   - {name: endomorphism ring, kind: definition, decl: Module.End, wikipedia: Endomorphism ring, wikidata: Q2896709, node: AWSBZWWMG9}
   - {name: characteristic of a ring, kind: definition, decl: ringChar, wikipedia: Characteristic (algebra), wikidata: Q836088, mathlib: [mathlib-undergrad, mathlib-overview], node: 0F6ES3BRYP}
   - {name: rng, kind: definition, decl: NonUnitalRing, wikipedia: Rng (algebra), wikidata: Q17102802, node: MBK7NFE74S}

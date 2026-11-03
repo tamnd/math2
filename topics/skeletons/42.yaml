@@ -103,7 +103,7 @@ items:
   - {name: band-limited function, kind: definition, wikipedia: Bandlimiting, wikidata: Q806263, node: P3T104G564}
   - {name: discrete Fourier transform, kind: definition, decl: ZMod.dft, wikipedia: Discrete Fourier transform, wikidata: Q2878, node: TST0GH66A5}
   - {name: discrete-time Fourier transform, kind: definition, wikipedia: Discrete-time Fourier transform, wikidata: Q1440048, node: RXFJ47VYGX}
-  - {name: circulant matrix, kind: definition, decl: Matrix.circulant, wikipedia: Circulant matrix, wikidata: Q245457}
+  - {name: circulant matrix, kind: definition, decl: Matrix.circulant, wikipedia: Circulant matrix, wikidata: Q245457, node: 07HFRH2AWY}
   # Fourier multipliers
   - {name: Fourier multiplier, kind: definition, decl: SchwartzMap.fourierMultiplierCLM, wikipedia: Multiplier (Fourier analysis), wikidata: Q6935014, node: ZQEFCY61T7}
   - {name: Lp multiplier, kind: definition, wikipedia: Multiplier (Fourier analysis), wikidata: Q6935014, node: RAGR38Q40B}
@@ -120,7 +120,7 @@ items:
   - {name: Fourier restriction problem, kind: problem, wikipedia: Restriction conjecture, wikidata: Q135423966, node: FFCH15ZNZG}
   - {name: restriction conjecture, kind: conjecture, wikipedia: Restriction conjecture, wikidata: Q135423966, node: 9CE11G48JY}
   - {name: Stein–Tomas restriction theorem, kind: statement, wikipedia: Restriction conjecture, wikidata: Q135423966, node: ZZVWHNFY6F}
-  - {name: Kakeya set, kind: definition, wikipedia: Kakeya set, wikidata: Q3054869}
+  - {name: Kakeya set, kind: definition, wikipedia: Kakeya set, wikidata: Q3054869, node: 6PEN7AKC7M}
   - {name: Besicovitch set of measure zero, kind: example, wikipedia: Kakeya set, wikidata: Q3054869, node: W94NZR7AR1}
   - {name: Kakeya conjecture, kind: conjecture, wikipedia: Kakeya set, wikidata: Q3054869, node: JJVKD48833}
   - {name: Kakeya maximal function conjecture, kind: conjecture, wikipedia: Kakeya set, wikidata: Q3054869, node: MHNNV51NDS}

@@ -233,15 +233,15 @@ items:
   - {name: metamaterial cloaking, kind: concept, wikipedia: Metamaterial cloaking, wikidata: Q6822969, node: XAKEYEGSTC}
   - {name: Veselago medium, kind: example, wikipedia: Negative-index metamaterial, wikidata: Q3300028, node: 9PAYP81JKP}
   # Radiative transfer
-  - {name: radiative transfer equation, kind: definition, wikipedia: Radiative transfer, wikidata: Q1190858}
+  - {name: radiative transfer equation, kind: definition, wikipedia: Radiative transfer, wikidata: Q1190858, node: EX9YYRMAJA}
   - {name: Beer–Lambert law, kind: statement, wikipedia: Beer–Lambert law, wikidata: Q217351, node: 2TNXJANSF9}
-  - {name: Chandrasekhar's H-function, kind: definition, wikipedia: Chandrasekhar's H-function, wikidata: Q48996454}
+  - {name: Chandrasekhar's H-function, kind: definition, wikipedia: Chandrasekhar's H-function, wikidata: Q48996454, node: 99879Z5Y1K}
   # Methods
   - {name: computational electromagnetics, kind: concept, wikipedia: Computational electromagnetics, wikidata: Q5157313, node: P0GHZ1HVSG}
   - {name: finite-difference time-domain method, kind: concept, wikipedia: Finite-difference time-domain method, wikidata: Q1417308, node: 57XRW2119C}
   - {name: Yee lattice, kind: definition, wikipedia: Finite-difference time-domain method, wikidata: Q1417308, node: 7JX95QG3CZ}
   - {name: method of moments in electromagnetics, kind: concept, wikipedia: Method of moments (electromagnetics), wikidata: Q1943821, node: YXKZYG618P}
-  - {name: electric field integral equation, kind: definition, wikipedia: Electric-field integral equation, wikidata: Q5357276}
+  - {name: electric field integral equation, kind: definition, wikipedia: Electric-field integral equation, wikidata: Q5357276, node: CPF9Q1GR10}
   - {name: fast multipole method, kind: concept, wikipedia: Fast multipole method, wikidata: Q5437040, node: 4TA4GXQP6Q}
   - {name: perfectly matched layer, kind: concept, wikipedia: Perfectly matched layer, wikidata: Q15101726, node: GFKAG6BAXX}
   - {name: beam propagation method, kind: concept, wikipedia: Beam propagation method, wikidata: Q4876189, node: 21TRP92AWH}

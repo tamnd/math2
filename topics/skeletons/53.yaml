@@ -32,7 +32,7 @@ items:
   - {name: Gaussian curvature, kind: definition, wikipedia: Gaussian curvature, wikidata: Q945953, node: SQVQ5DQT6W}
   - {name: mean curvature, kind: definition, wikipedia: Mean curvature, wikidata: Q1318998, node: PA78NFEPCF}
   - {name: umbilical point, kind: definition, wikipedia: Umbilical point, wikidata: Q3351935, node: XYJ6T5CKR6}
-  - {name: Gauss map, kind: definition, wikipedia: Gauss map, wikidata: Q575710}
+  - {name: Gauss map, kind: definition, wikipedia: Gauss map, wikidata: Q575710, node: MRKVM2VVNN}
   - {name: Euler's theorem on normal curvatures, kind: statement, wikipedia: Euler's theorem (differential geometry), wikidata: Q3526990, node: RYB4DQTAK0}
   - {name: Theorema Egregium, kind: statement, wikipedia: Theorema Egregium, wikidata: Q1048874, node: YKSA8SJ81V}
   - {name: Gauss–Codazzi equations, kind: statement, wikipedia: Gauss–Codazzi equations, wikidata: Q3589432, node: 68TVVHCQ3Z}

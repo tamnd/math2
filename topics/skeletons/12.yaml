@@ -82,7 +82,7 @@ items:
   - {name: simple extension, kind: definition, decl: IntermediateField.adjoin, wikipedia: Simple extension, wikidata: Q2628674, node: 0N681SSTHC}
   - {name: algebraic element, kind: definition, decl: IsAlgebraic, wikipedia: Algebraic element, wikidata: Q162608, mathlib: [mathlib-undergrad], node: 0H628RSGWX}
   - {name: algebraic extension, kind: definition, decl: Algebra.IsAlgebraic, wikipedia: Algebraic extension, wikidata: Q550791, mathlib: [mathlib-undergrad, mathlib-overview], node: 0PTBM7K0R2}
-  - {name: minimal polynomial, kind: definition, decl: minpoly, wikipedia: Minimal polynomial (field theory), wikidata: Q2242730, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: minimal polynomial, kind: definition, decl: minpoly, wikipedia: Minimal polynomial (field theory), wikidata: Q2242730, mathlib: [mathlib-undergrad, mathlib-overview], node: 03NDVCSHSB}
   - {name: irreducibility of the minimal polynomial, kind: statement, decl: minpoly.irreducible, wikipedia: Minimal polynomial (field theory), wikidata: Q2242730, node: 0NFEG48RDR}
   - {name: splitting field, kind: definition, decl: Polynomial.SplittingField, wikipedia: Splitting field, wikidata: Q1996100, mathlib: [mathlib-undergrad, mathlib-overview], node: 0KXQKX9P63}
   - {name: split polynomial, kind: definition, decl: Polynomial.Splits, wikipedia: Splitting field, wikidata: Q1996100, node: 0JVSNJCN68}
@@ -183,9 +183,9 @@ items:
   - {name: Steinitz's theorem on algebraically closed fields, kind: statement, wikipedia: Algebraically closed field, wikidata: Q1047547, node: CAEHMSX9RT}
   # Real fields and ordered fields
   - {name: ordered field, kind: definition, wikipedia: Ordered field, wikidata: Q909412, node: 0P3VCBDEE2}
-  - {name: Archimedean property, kind: definition, wikipedia: Archimedean property, wikidata: Q634579}
+  - {name: Archimedean property, kind: definition, wikipedia: Archimedean property, wikidata: Q634579, node: 0A74SX55QP}
   - {name: formally real field, kind: definition, decl: IsFormallyReal, wikipedia: Formally real field, wikidata: Q17097900, node: X32TSWJSYT}
-  - {name: real closed field, kind: definition, decl: IsRealClosed, wikipedia: Real closed field, wikidata: Q2068227}
+  - {name: real closed field, kind: definition, decl: IsRealClosed, wikipedia: Real closed field, wikidata: Q2068227, node: DDY3Q3PJ6W}
   - {name: real closure, kind: definition, wikipedia: Real closed field, wikidata: Q2068227, node: 778KFSM09P}
   - {name: Artin–Schreier theorem, kind: statement, wikipedia: Real closed field, wikidata: Q2068227, node: 58P0EGAFVV}
   - {name: Hilbert's seventeenth problem, kind: problem, wikipedia: Hilbert's seventeenth problem, wikidata: Q2496877, node: J45F4F13VB}

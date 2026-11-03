@@ -258,7 +258,7 @@ items:
   - {name: Jacobian conjecture, kind: conjecture, wikipedia: Jacobian conjecture, wikidata: Q2605695, node: B5JFXEQQD8}
   - {name: resultant, kind: definition, decl: Polynomial.resultant, wikipedia: Resultant, wikidata: Q1168321, node: NNPHTWF645}
   # Tropical geometry
-  - {name: tropical semiring, kind: definition, decl: Tropical, wikipedia: Tropical semiring, wikidata: Q60790098}
+  - {name: tropical semiring, kind: definition, decl: Tropical, wikipedia: Tropical semiring, wikidata: Q60790098, node: 5PNBCRH2JG}
   - {name: tropical geometry, kind: concept, wikipedia: Tropical geometry, wikidata: Q2982669, node: 7YTC3BHK60}
   - {name: tropical variety, kind: definition, wikipedia: Tropical geometry, wikidata: Q2982669, node: FT2GJEHWY5}
   - {name: Newton polytope, kind: definition, wikipedia: Newton polytope, wikidata: Q99705926, node: CYTTX8KHC8}

@@ -176,7 +176,7 @@ items:
   - {name: celestial mechanics, kind: concept, wikipedia: Celestial mechanics, wikidata: Q184274, node: RCC89W11XQ}
   - {name: two-body problem, kind: problem, wikipedia: Two-body problem, wikidata: Q232976, node: CSVPJAA75E}
   - {name: reduced mass, kind: definition, wikipedia: Reduced mass, wikidata: Q550046, node: X5G1A3A4VR}
-  - {name: Kepler problem, kind: problem, wikipedia: Kepler problem, wikidata: Q2564682}
+  - {name: Kepler problem, kind: problem, wikipedia: Kepler problem, wikidata: Q2564682, node: TYXD1T6FRX}
   - {name: Kepler's laws of planetary motion, kind: statement, wikipedia: Kepler's laws of planetary motion, wikidata: Q83219, node: M1A7XV292M}
   - {name: Kepler's equation, kind: definition, wikipedia: Kepler's equation, wikidata: Q932001, node: MSB4ZTG422}
   - {name: Laplace–Runge–Lenz vector, kind: definition, wikipedia: Laplace–Runge–Lenz vector, wikidata: Q1153324, node: 94SBY80FZS}

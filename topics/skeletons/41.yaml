@@ -43,7 +43,7 @@ items:
   - {name: Kolmogorov criterion for best approximation, kind: statement, wikipedia: Approximation theory, wikidata: Q774123, node: HKRN90DCWK}
   - {name: minimax approximation, kind: concept, wikipedia: Minimax approximation algorithm, wikidata: Q6865376, node: ASWF03X5AM}
   - {name: Remez algorithm, kind: concept, wikipedia: Remez algorithm, wikidata: Q2835816, node: H129B6DA0F}
-  - {name: Chebyshev polynomials, kind: definition, decl: Polynomial.Chebyshev.T, wikipedia: Chebyshev polynomials, wikidata: Q619511}
+  - {name: Chebyshev polynomials, kind: definition, decl: Polynomial.Chebyshev.T, wikipedia: Chebyshev polynomials, wikidata: Q619511, node: M6EAR1JHPP}
   - {name: Chebyshev polynomials of the second kind, kind: definition, decl: Polynomial.Chebyshev.U, wikipedia: Chebyshev polynomials, wikidata: Q619511, node: 7CATGEN6KH}
   - {name: trigonometric definition of Chebyshev polynomials, kind: statement, decl: Polynomial.Chebyshev.T_real_cos, wikipedia: Chebyshev polynomials, wikidata: Q619511, node: VAPNSC2JH5}
   - {name: minimal deviation property of Chebyshev polynomials, kind: statement, wikipedia: Chebyshev polynomials, wikidata: Q619511, node: BR3HD0RRA4}

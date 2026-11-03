@@ -26,7 +26,7 @@ items:
   - {name: dual operator, kind: definition, wikipedia: Transpose of a linear map, wikidata: Q2858846, node: VCHS7PH0NF}
   - {name: Hilbert space adjoint, kind: definition, decl: ContinuousLinearMap.adjoint, wikipedia: Hermitian adjoint, wikidata: Q1509647, node: 6HSJBJ8TTQ}
   - {name: adjoint of an unbounded operator, kind: definition, decl: LinearPMap.adjoint, wikipedia: Unbounded operator, wikidata: Q5108738, mathlib: [mathlib-overview], node: 86B7HF79PQ}
-  - {name: Cayley transform, kind: definition, wikipedia: Cayley transform, wikidata: Q2778065}
+  - {name: Cayley transform, kind: definition, wikipedia: Cayley transform, wikidata: Q2778065, node: 0X45ZM731G}
   # Spectral theory: foundations
   - {name: spectral theory, kind: concept, wikipedia: Spectral theory, wikidata: Q2409122, node: K5VZ67T9J8}
   - {name: spectrum of an operator, kind: definition, decl: spectrum, wikipedia: Spectrum (functional analysis), wikidata: Q1365748, node: BMKATJ802A}

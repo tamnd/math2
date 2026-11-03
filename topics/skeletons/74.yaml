@@ -34,7 +34,7 @@ items:
   - {name: principle of material frame-indifference, kind: concept, wikipedia: Objective stress rate, wikidata: Q17105043, node: EZQ0E262QV}
   - {name: objective stress rates, kind: definition, wikipedia: Objective stress rate, wikidata: Q17105043, node: ADN3TKD39T}
   - {name: Clausius–Duhem inequality, kind: statement, wikipedia: Clausius–Duhem inequality, wikidata: Q5129547, node: MKXA9E1Z2T}
-  - {name: peridynamics, kind: concept, wikipedia: Peridynamics, wikidata: Q4351291}
+  - {name: peridynamics, kind: concept, wikipedia: Peridynamics, wikidata: Q4351291, node: FZM3CTTYVV}
   # Linear elasticity
   - {name: linear elasticity, kind: concept, wikipedia: Linear elasticity, wikidata: Q3851760, node: 6W00ZECYT0}
   - {name: Hooke's law, kind: statement, wikipedia: Hooke's law, wikidata: Q170282, node: V56XAESDNE}
@@ -203,8 +203,8 @@ items:
   - {name: Ball–James theory of microstructure, kind: concept, wikipedia: Diffusionless transformation, wikidata: Q1977001, node: NJ6FR1ZA53}
   - {name: phase-field model, kind: concept, wikipedia: Phase-field model, wikidata: Q1640482, node: 8M441PD0GX}
   # Optimization in solid mechanics
-  - {name: topology optimization, kind: concept, wikipedia: Topology optimization, wikidata: Q2443456}
-  - {name: shape optimization, kind: concept, wikipedia: Shape optimization, wikidata: Q7489239}
+  - {name: topology optimization, kind: concept, wikipedia: Topology optimization, wikidata: Q2443456, node: 7YHW7PHH6H}
+  - {name: shape optimization, kind: concept, wikipedia: Shape optimization, wikidata: Q7489239, node: WWQJQXJECK}
   - {name: Michell structures, kind: example, wikipedia: Michell structures, wikidata: Q60790440, node: YRYMSJHKB9}
   # Methods
   - {name: principle of minimum total potential energy, kind: statement, wikipedia: Minimum total potential energy principle, wikidata: Q6865491, node: A5T30ZHVGH}

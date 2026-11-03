@@ -137,7 +137,7 @@ items:
   - {name: Harish-Chandra's regularity theorem, kind: statement, wikipedia: Harish-Chandra's regularity theorem, wikidata: Q5657833, node: M9X7Y3GZZD}
   - {name: Harish-Chandra's Schwartz space, kind: definition, wikipedia: Harish-Chandra's Schwartz space, wikidata: Q17021083, node: JCDV4FZ86G}
   - {name: Harish-Chandra Plancherel theorem, kind: statement, wikipedia: Plancherel theorem for spherical functions, wikidata: Q11573495, node: N137YA7RGS}
-  - {name: representation theory of SL2(R), kind: concept, wikipedia: Representation theory of SL2(R), wikidata: Q7314223}
+  - {name: representation theory of SL2(R), kind: concept, wikipedia: Representation theory of SL2(R), wikidata: Q7314223, node: 5E547TJ7PS}
   # Harmonic analysis on compact groups
   - {name: Peter–Weyl theorem, kind: statement, wikipedia: Peter–Weyl theorem, wikidata: Q1529941, node: 6VC9QE39XH}
   - {name: matrix coefficient, kind: definition, wikipedia: Matrix coefficient, wikidata: Q4356506, node: J85Q7QGGHS}
@@ -172,5 +172,5 @@ items:
   - {name: Selberg trace formula, kind: statement, wikipedia: Selberg trace formula, wikidata: Q3077649, node: BDAWKPBNQP}
   - {name: Arthur–Selberg trace formula, kind: statement, wikipedia: Arthur–Selberg trace formula, wikidata: Q4800826, node: BCETMS8K3X}
   - {name: automorphic form, kind: definition, wikipedia: Automorphic form, wikidata: Q1134435, node: 3C73HND6XA}
-  - {name: Tate's thesis, kind: statement, wikipedia: Tate's thesis, wikidata: Q7687933}
+  - {name: Tate's thesis, kind: statement, wikipedia: Tate's thesis, wikidata: Q7687933, node: QYW79XKJTP}
   - {name: harmonic analysis on the adeles, kind: concept, wikipedia: Adele ring, wikidata: Q355356, node: 74MN0W5XWM}

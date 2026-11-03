@@ -78,7 +78,7 @@ items:
   - {name: Szemerédi's theorem, kind: statement, wikipedia: Szemerédi's theorem, wikidata: Q1046232, node: B23B0QEMN5}
   - {name: Green–Tao theorem, kind: statement, wikipedia: Green–Tao theorem, wikidata: Q922012, node: H8BAHWSEMC}
   - {name: Collatz conjecture, kind: conjecture, wikipedia: Collatz conjecture, wikidata: Q837314, node: 6PCQEXEX4N}
-  - {name: Frobenius coin problem, kind: problem, decl: FrobeniusNumber, wikipedia: Coin problem, wikidata: Q2295746}
+  - {name: Frobenius coin problem, kind: problem, decl: FrobeniusNumber, wikipedia: Coin problem, wikidata: Q2295746, node: 0V11FEXK08}
   # Diophantine equations
   - {name: Diophantine equation, kind: definition, wikipedia: Diophantine equation, wikidata: Q905896, node: 08B1RTW7VZ}
   - {name: Pythagorean triple, kind: definition, decl: PythagoreanTriple.classification, wikipedia: Pythagorean triple, wikidata: Q208225, mathlib: [mathlib-100], node: 0M7ARED5Q7}
@@ -91,7 +91,7 @@ items:
   - {name: Fermat's Last Theorem for exponent four, kind: statement, decl: fermatLastTheoremFour, wikipedia: Fermat's right triangle theorem, wikidata: Q18640217, node: 0E741HSMJ1}
   - {name: Catalan's conjecture, kind: statement, wikipedia: Catalan's conjecture, wikidata: Q174955, node: JH6Y2E1ZCN}
   - {name: Thue equation, kind: definition, wikipedia: Thue equation, wikidata: Q2378270, node: 3Q6CFPQZDF}
-  - {name: Hilbert's tenth problem, kind: problem, wikipedia: Hilbert's tenth problem, wikidata: Q986147}
+  - {name: Hilbert's tenth problem, kind: problem, wikipedia: Hilbert's tenth problem, wikidata: Q986147, node: X8TVJSVTD4}
   - {name: Hasse principle, kind: concept, wikipedia: Hasse principle, wikidata: Q2115578, node: EMAR4X3W8D}
   - {name: Hasse–Minkowski theorem, kind: statement, wikipedia: Hasse–Minkowski theorem, wikidata: Q1938251, node: R8HCWA981S}
   - {name: Chevalley–Warning theorem, kind: statement, wikipedia: Chevalley–Warning theorem, wikidata: Q720469, node: 08895Q5W96}

@@ -16,8 +16,8 @@ items:
   - {name: carrying capacity, kind: definition, wikipedia: Carrying capacity, wikidata: Q866283, node: X23CRWHRCH}
   - {name: Gompertz growth model, kind: definition, wikipedia: Gompertz function, wikidata: Q1011785, node: 9VAB0KT9WA}
   - {name: Allee effect, kind: concept, wikipedia: Allee effect, wikidata: Q2301505, node: 2Z26FYJFBD}
-  - {name: Ricker model, kind: definition, wikipedia: Ricker model, wikidata: Q7331913}
-  - {name: Beverton–Holt model, kind: definition, wikipedia: Beverton–Holt model, wikidata: Q4899640}
+  - {name: Ricker model, kind: definition, wikipedia: Ricker model, wikidata: Q7331913, node: 8R4H8GW1CD}
+  - {name: Beverton–Holt model, kind: definition, wikipedia: Beverton–Holt model, wikidata: Q4899640, node: CSRSDP9PXJ}
   - {name: Mackey–Glass equation, kind: definition, wikipedia: Mackey–Glass equations, wikidata: Q104847195, node: C5E5KKWXWS}
   - {name: maximum sustainable yield, kind: statement, wikipedia: Maximum sustainable yield, wikidata: Q3425223, node: 8PMNC8F9R4}
   - {name: metapopulation model of Levins, kind: definition, wikipedia: Metapopulation, wikidata: Q954495, node: WWS7YNCZDE}
@@ -25,11 +25,11 @@ items:
   - {name: Leslie matrix, kind: definition, wikipedia: Leslie matrix, wikidata: Q943800, node: RNVHT5BTQS}
   - {name: stable age distribution, kind: statement, wikipedia: Leslie matrix, wikidata: Q943800, node: 7AZKYYGEEG}
   - {name: matrix population model, kind: concept, wikipedia: Matrix population models, wikidata: Q4284947, node: WS9M7HY0FE}
-  - {name: Euler–Lotka equation, kind: statement, wikipedia: Euler–Lotka equation, wikidata: Q5409005}
+  - {name: Euler–Lotka equation, kind: statement, wikipedia: Euler–Lotka equation, wikidata: Q5409005, node: E0YVMBPK7A}
   - {name: McKendrick–von Foerster equation, kind: definition, wikipedia: Von Foerster equation, wikidata: Q23579765, node: SV5Q8A9GNA}
   - {name: mark and recapture estimation, kind: definition, wikipedia: Mark and recapture, wikidata: Q796147, node: KDWGZRTY89}
   # Interacting species
-  - {name: Lotka–Volterra equations, kind: definition, wikipedia: Lotka–Volterra equations, wikidata: Q150052}
+  - {name: Lotka–Volterra equations, kind: definition, wikipedia: Lotka–Volterra equations, wikidata: Q150052, node: 00Y5QZ82AA}
   - {name: Volterra's principle, kind: statement, wikipedia: Lotka–Volterra equations, wikidata: Q150052, node: 5VV1H8XRJ0}
   - {name: competitive Lotka–Volterra equations, kind: definition, wikipedia: Competitive Lotka–Volterra equations, wikidata: Q5156344, node: 2ZJ3H7MNGC}
   - {name: generalized Lotka–Volterra equation, kind: definition, wikipedia: Generalized Lotka–Volterra equation, wikidata: Q5532443, node: 4SFBZ8FJF1}
@@ -128,7 +128,7 @@ items:
   - {name: BCM theory, kind: definition, wikipedia: BCM theory, wikidata: Q4835208, node: Q9RDR76XJ4}
   - {name: perceptron, kind: definition, wikipedia: Perceptron, wikidata: Q690207, node: Q2SV2SPH06}
   # Biological rhythms and physiology
-  - {name: Kuramoto model, kind: definition, wikipedia: Kuramoto model, wikidata: Q604374}
+  - {name: Kuramoto model, kind: definition, wikipedia: Kuramoto model, wikidata: Q604374, node: C2V5P3G2FS}
   - {name: phase response curve, kind: definition, wikipedia: Phase response curve, wikidata: Q7180960, node: K3DDKRWM9H}
   - {name: Windkessel model, kind: definition, wikipedia: Windkessel effect, wikidata: Q488128, node: 6PKF2XGEGQ}
   - {name: multi-compartment model in pharmacokinetics, kind: definition, wikipedia: Multi-compartment model, wikidata: Q6934435, node: GTD06WV20A}

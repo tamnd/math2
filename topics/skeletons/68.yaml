@@ -244,7 +244,7 @@ items:
   - {name: Karatsuba algorithm, kind: definition, wikipedia: Karatsuba algorithm, wikidata: Q629940, node: CD5Y77KGYA}
   - {name: Strassen algorithm, kind: definition, wikipedia: Strassen algorithm, wikidata: Q728507, node: 3CVWXDS4JQ}
   - {name: matrix multiplication exponent, kind: problem, wikipedia: Matrix multiplication algorithm, wikidata: Q17082383, node: X0G02CGQ5J}
-  - {name: fast Fourier transform, kind: definition, wikipedia: Fast Fourier transform, wikidata: Q623950}
+  - {name: fast Fourier transform, kind: definition, wikipedia: Fast Fourier transform, wikidata: Q623950, node: S966EZX3ZT}
   - {name: string-searching algorithm, kind: concept, wikipedia: String-searching algorithm, wikidata: Q374040, node: TQ3YZDGCHM}
   - {name: Knuth–Morris–Pratt algorithm, kind: definition, wikipedia: Knuth–Morris–Pratt algorithm, wikidata: Q45285, node: PM11BAWMM6}
   - {name: edit distance, kind: definition, wikipedia: Edit distance, wikidata: Q5338467, node: W6KG32T7AJ}
