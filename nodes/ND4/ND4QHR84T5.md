@@ -1,0 +1,18 @@
+---
+kind: concept
+name: Derivative of a function at a point
+msc:
+- 26A24
+sources:
+- locator: source/sec-1-3-derivative-pt.xml:117
+  url: https://github.com/active-calculus/active-calculus-single-mbx/blob/e597daa657ba5ec0953157aa8c44834dceb63eb2/source/sec-1-3-derivative-pt.xml#L117
+tag: ND4QHR84T5
+uses:
+- 0TXTSEMHR5
+---
+
+## Summary
+
+Take a function $f$ and a point $a$ in its domain. Form the difference quotient $\frac{f(a+h)-f(a)}{h}$ for small nonzero $h$. If the [[limit of a function|0TXTSEMHR5]] of this quotient as $h$ tends to $0$ exists, that limit is the derivative of $f$ at $a$, written $f'(a)$.
+
+If the limit does not exist, the derivative of $f$ at $a$ is not defined.

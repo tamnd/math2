@@ -1,0 +1,26 @@
+---
+tag: 4M938HWQGX
+kind: concept
+name: Definite integral of a continuous function as a limit of Riemann sums
+msc:
+  - 26A42
+sources:
+  - locator: source/sec-4-3-definite-integral.xml:95
+    url: https://github.com/active-calculus/active-calculus-single-mbx/blob/e597daa657ba5ec0953157aa8c44834dceb63eb2/source/sec-4-3-definite-integral.xml#L95
+uses:
+  - 0P27W9RW0G
+  - 0HBY48G8G1
+  - 05M5SWSZZD
+specializes:
+  - 04TMP0XGMJ
+---
+
+## Summary
+
+Take a [[continuous function|0P27W9RW0G]] $f$ on a closed interval $[a,b]$. Cut the interval into $n$ pieces of equal width $\Delta x = \frac{b-a}{n}$, with endpoints $x_i = a + i\,\Delta x$ for $i = 0, \ldots, n$. In each piece $[x_{i-1}, x_i]$ pick any sample point $x_i^*$.
+
+This gives a [[Riemann sum|0HBY48G8G1]], namely $\sum_{i=1}^{n} f(x_i^*)\,\Delta x$. The definite integral of $f$ over $[a,b]$ is the real number that these sums approach as $n \to \infty$, in the sense of a [[limit of a sequence|05M5SWSZZD]]. It is written $\int_a^b f(x)\,dx$.
+
+## Remarks
+
+This is a special case of the general [[definite integral|04TMP0XGMJ]], for continuous integrands and equal-width partitions.
