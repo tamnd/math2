@@ -8,6 +8,7 @@ sources:
   - arxiv: 2609.28454v1
     locator: Lemma 2.15
     mention: ax://paper/2609.28454#BKD0
+    licence: cc-by
     note: the paper that states the item (corpus arxiv AX9.2)
 history:
   notes: The source is arXiv:2609.28454v1 (2026-09), by Zuyu Ma, Changxing Miao, Matthew Rosenzweig, Jiqiang Zheng. A paper also restates older results, so this is not the first statement until a person or a later pass confirms it.
