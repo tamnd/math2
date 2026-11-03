@@ -12,6 +12,8 @@ sources:
     locator: Topological proof
   - url: https://en.wikipedia.org/wiki/Platonic_solid
     locator: History
+  - url: https://github.com/oscarlevin/discrete-book/blob/a8e4949bc45daf100930c1182983778f56ab689f/ptx/sec_gt-planar.ptx#L546
+    locator: ptx/sec_gt-planar.ptx:546
 ---
 
 ## Statement

@@ -8,6 +8,10 @@ uses: [0EWQEYRVA8, 0EP73HK4C4, 0W809K6AW0]
 sources:
   - url: https://en.wikipedia.org/wiki/Rank_(linear_algebra)
     locator: Proofs that column rank = row rank
+  - url: https://github.com/jirilebl/diffyqs/blob/658bcae9fb710f3fae2c9da4ca4524ce157453af/ap-linear-algebra.tex#L3738
+    locator: ap-linear-algebra.tex:3738
+  - url: https://github.com/jirilebl/diffyqs/blob/658bcae9fb710f3fae2c9da4ca4524ce157453af/ap-linear-algebra.tex#L4825
+    locator: ap-linear-algebra.tex:4825
 ---
 
 ## Statement
