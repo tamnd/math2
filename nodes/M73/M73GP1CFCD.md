@@ -1,0 +1,23 @@
+---
+tag: M73GP1CFCD
+kind: statement
+role: theorem
+name: Correctness of Dijkstra's algorithm
+msc: [05C85, 05C38]
+uses: [0JD5C82QMB, 0JDE56HWQ8, 0WPZ5YPAGR]
+sources:
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_graphalgorithms_shortest-paths.ptx#L251
+    locator: source/s_graphalgorithms_shortest-paths.ptx:251
+---
+
+## Statement
+
+Let $G$ be a weighted [[graph|0JD5C82QMB]] with vertex set $V$ and a chosen root vertex $r$. Run Dijkstra's algorithm on $G$ from $r$. The algorithm keeps a label $\delta(x)$ and a [[path|0JDE56HWQ8]] $P(x)$ for each vertex $x$.
+
+When the algorithm stops, the following holds for every $x \in V$. The label $\delta(x)$ equals the weighted [[distance|0WPZ5YPAGR]] from $r$ to $x$. The path $P(x)$ is a shortest path from $r$ to $x$.
+
+## Remarks
+
+The setting is the one of the algorithm: the weights of the edges are nonnegative.
+
+A proof keeps the set of vertices whose labels are final. Each time the algorithm finalizes a vertex, one shows that its label is already the true distance.

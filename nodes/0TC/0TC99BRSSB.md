@@ -8,6 +8,8 @@ uses: [0TKZCSGCCA, 090WPKFABX]
 sources:
   - url: https://en.wikipedia.org/wiki/Hamiltonian_path
     locator: Bondy–Chvátal theorem
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_graphs_eulerham.ptx#L260
+    locator: source/s_graphs_eulerham.ptx:260
 ---
 
 ## Statement

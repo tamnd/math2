@@ -8,6 +8,8 @@ uses: [0P11X5HKAX, 029JQEK15B, 030A3FHN14]
 sources:
   - url: https://en.wikipedia.org/wiki/Kuratowski's_theorem
     locator: Statement
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_graphs_planar.ptx#L120
+    locator: source/s_graphs_planar.ptx:120
 same_as:
   wikidata: Q837902
   wikipedia: Kuratowski's theorem

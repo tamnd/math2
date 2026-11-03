@@ -1,0 +1,29 @@
+---
+tag: M2H3G4T5CR
+kind: statement
+role: theorem
+name: Edge count of a spanning forest
+msc: [05C05]
+uses: [0JD5C82QMB, 0GGXWDNKBR, 01VVP10MWJ, 0MJ0JS72DZ, 0S4ZEZM7KE]
+sources:
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_graphalgorithms_min-wt-span.ptx#L32
+    locator: source/s_graphalgorithms_min-wt-span.ptx:32
+---
+
+## Statement
+
+Let $G$ be a finite [[graph|0JD5C82QMB]] with $n \ge 1$ vertices. Let $H$ be a spanning subgraph of $G$ that is a [[forest|0GGXWDNKBR]]. Write $S$ for the edge set of $H$.
+
+Then $0 \le |S| \le n - 1$.
+
+If $|S| = n - k$, then $H$ has exactly $k$ [[connected components|01VVP10MWJ]].
+
+In particular, $H$ is a [[spanning tree|0S4ZEZM7KE]] of $G$ if and only if $|S| = n - 1$.
+
+## Remarks
+
+The second claim gives the first. A forest has at least one component and at most $n$ components, so $|S| = n - k$ lies between $0$ and $n - 1$.
+
+Each component of $H$ is a [[tree|0MJ0JS72DZ]]. A tree on $m$ vertices has $m - 1$ edges. Summing over $k$ components gives $n - k$ edges.
+
+The case $k = 1$ says that a connected forest, which is a tree, has $n - 1$ edges.

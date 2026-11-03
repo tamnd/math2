@@ -7,6 +7,8 @@ role: proposition
 sources:
 - locator: ptx/sec_gt-trees.ptx:212
   url: https://github.com/oscarlevin/discrete-book/blob/a8e4949bc45daf100930c1182983778f56ab689f/ptx/sec_gt-trees.ptx#L212
+- locator: source/s_graphs_intro.ptx:301
+  url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_graphs_intro.ptx#L301
 tag: RGZK7WEN74
 uses:
 - 0MJ0JS72DZ

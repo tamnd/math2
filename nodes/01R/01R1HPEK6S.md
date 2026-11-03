@@ -8,6 +8,8 @@ uses: [07CT9RDY7Q, 07DVHJ8N0A]
 sources:
   - url: https://en.wikipedia.org/wiki/Bipartite_graph
     locator: Characterization
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_graphs_color.ptx#L74
+    locator: source/s_graphs_color.ptx:74
 ---
 
 ## Statement

@@ -1,0 +1,21 @@
+---
+tag: 7DBGPYJHW5
+kind: statement
+role: theorem
+name: Chromatic number of an interval graph
+msc: [05C15, 05C62]
+uses: [0JD5C82QMB, 0C5M7AM6FH, 0WCKRBHFFD]
+sources:
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_graphs_color.ptx#L348
+    locator: source/s_graphs_color.ptx:348
+---
+
+## Statement
+
+Let $G$ be a finite [[graph|0JD5C82QMB]] that is an interval graph. This means that the vertices of $G$ can be matched with intervals of the real line, so that two vertices are adjacent exactly when their intervals meet.
+
+Then the [[chromatic number|0C5M7AM6FH]] of $G$ equals the [[clique number|0WCKRBHFFD]] of $G$, that is, $\chi(G)=\omega(G)$.
+
+## Remarks
+
+For every graph, $\omega(G) \le \chi(G)$, since the vertices of a clique need distinct colours. The theorem says that an interval graph never needs more colours than the size of its largest clique.
