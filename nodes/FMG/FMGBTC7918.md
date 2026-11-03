@@ -1,0 +1,36 @@
+---
+kind: statement
+msc:
+- 34B24
+- 34L10
+name: Eigenfunctions of a regular Sturm–Liouville problem are orthogonal for the weight
+role: theorem
+sources:
+- locator: ch-eigenvalue-probs.tex:331
+  url: https://github.com/jirilebl/diffyqs/blob/658bcae9fb710f3fae2c9da4ca4524ce157453af/ch-eigenvalue-probs.tex#L331
+tag: FMGBTC7918
+uses:
+- 0BQAA2BK3Q
+about:
+- 7WV6B2502K
+---
+
+## Statement
+
+Take an interval $[a, b]$ and a regular problem of [[Sturm–Liouville theory|7WV6B2502K]] type.
+The equation is $(p y')' - q y + \lambda r y = 0$ on $[a, b]$.
+The boundary conditions are separated: $\alpha_1 y(a) - \alpha_2 y'(a) = 0$ at the left end and $\beta_1 y(b) + \beta_2 y'(b) = 0$ at the right end.
+Here $p$, $q$ and $r$ are the coefficient functions of the problem, and $r$ is the weight.
+
+Let $y_j$ and $y_k$ be eigenfunctions of this problem for two different [[eigenvalues|0BQAA2BK3Q]] $\lambda_j \ne \lambda_k$.
+
+Then $\int_a^b y_j(x)\, y_k(x)\, r(x)\, dx = 0$.
+
+So eigenfunctions for different eigenvalues are orthogonal in the inner product weighted by $r$.
+
+## Remarks
+
+The usual proof multiplies the equation for $y_j$ by $y_k$ and the equation for $y_k$ by $y_j$, and subtracts.
+The result is $(\lambda_j - \lambda_k) \int_a^b y_j y_k r\, dx$ equal to a boundary term.
+The separated boundary conditions make the boundary term vanish.
+Since $\lambda_j \ne \lambda_k$, the integral is zero.

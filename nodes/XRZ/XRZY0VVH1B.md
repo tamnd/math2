@@ -1,0 +1,34 @@
+---
+tag: XRZY0VVH1B
+kind: statement
+name: Existence and uniqueness for second-order linear initial value problems
+role: theorem
+msc:
+- 34A12
+- 34A30
+aliases: []
+sources:
+- url: https://github.com/jirilebl/diffyqs/blob/658bcae9fb710f3fae2c9da4ca4524ce157453af/ch-higher-order-ode.tex#L126
+  locator: ch-higher-order-ode.tex:126
+uses:
+- 0QQRP17Z7S
+- 075VBY4K4X
+- 04SW7WECS8
+- 0P27W9RW0G
+- 0Q1D85B8G6
+---
+
+## Statement
+
+Let $I$ be an [[interval|0Q1D85B8G6]] and let $p$, $q$ and $f$ be [[continuous functions|0P27W9RW0G]] on $I$. Let $a$ be a point of $I$ and let $b_0$ and $b_1$ be real constants.
+
+Consider the second-order [[linear differential equation|0QQRP17Z7S]]
+$$y'' + p(x)\,y' + q(x)\,y = f(x).$$
+
+Then the [[initial value problem|075VBY4K4X]] given by this equation and the conditions $y(a) = b_0$ and $y'(a) = b_1$ has exactly one [[solution|04SW7WECS8]] defined on all of $I$.
+
+## Remarks
+
+The solution exists on the whole interval $I$, not only near $a$. This differs from the general local theorem for nonlinear equations, where the solution may exist only for a short time. Linearity with continuous coefficients rules out blow-up.
+
+For $y'' + y = 0$ with $y(0) = 0$ and $y'(0) = 1$, the unique solution on $\mathbb{R}$ is $\sin x$.

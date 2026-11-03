@@ -1,0 +1,40 @@
+---
+tag: SEZ1P0VCJA
+kind: statement
+name: Fourier sine and cosine series of a function on an interval
+role: theorem
+msc:
+- 42A16
+- 42A20
+about:
+- Y6EPBG6S8G
+uses:
+- G12KXDHPPS
+- Y6EPBG6S8G
+- 0FP31SX5EA
+- 0ATF6Q0633
+sources:
+- url: https://github.com/jirilebl/diffyqs/blob/658bcae9fb710f3fae2c9da4ca4524ce157453af/ch-fourier-and-pde.tex#L2419
+  locator: ch-fourier-and-pde.tex:2419
+---
+
+## Statement
+
+Let $L > 0$ and let $f$ be a piecewise smooth function on $[0, L]$.
+
+Extend $f$ to $[-L, L]$ as an [[odd function|0FP31SX5EA]], and then extend it to $\R$ as a [[periodic function|0ATF6Q0633]] of period $2L$.
+The [[Fourier series|G12KXDHPPS]] of this odd periodic extension contains sines only:
+$$F_{\mathrm{odd}}(t) = \sum_{n=1}^{\infty} b_n \sin\left(\frac{n\pi t}{L}\right), \qquad b_n = \frac{2}{L} \int_0^L f(t) \sin\left(\frac{n\pi t}{L}\right) dt.$$
+
+Extend $f$ to $[-L, L]$ as an [[even function|0FP31SX5EA]] instead, and then $2L$-periodically to $\R$.
+The Fourier series of this even periodic extension contains cosines and a constant term only:
+$$F_{\mathrm{even}}(t) = \frac{a_0}{2} + \sum_{n=1}^{\infty} a_n \cos\left(\frac{n\pi t}{L}\right), \qquad a_n = \frac{2}{L} \int_0^L f(t) \cos\left(\frac{n\pi t}{L}\right) dt$$
+for $n \ge 0$.
+
+These are the [[sine and cosine series|Y6EPBG6S8G]] of $f$.
+
+## Remarks
+
+The coefficients are integrals over $[0, L]$ only. For an even integrand, the integral over $[-L, L]$ is twice the integral over $[0, L]$. The same holds for the product of the odd extension with $\sin$. This gives the factor $\frac{2}{L}$.
+
+The cosine integrals of the odd extension vanish, and so do the sine integrals of the even extension. This is why each series has one kind of term.

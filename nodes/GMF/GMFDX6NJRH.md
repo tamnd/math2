@@ -1,0 +1,29 @@
+---
+kind: statement
+name: Picard's theorem for first order equations with continuous partial derivative
+msc:
+- 34A12
+role: theorem
+sources:
+- locator: ch-first-order-ode.tex:619
+  url: https://github.com/jirilebl/diffyqs/blob/658bcae9fb710f3fae2c9da4ca4524ce157453af/ch-first-order-ode.tex#L619
+tag: GMFDX6NJRH
+uses:
+- 075VBY4K4X
+- 0P6KRD5B7A
+---
+
+## Statement
+
+Let $f(x,y)$ be a real function of two variables, and let $(x_0,y_0)$ be a point of its domain.
+Assume that $f$ is continuous on a neighbourhood of $(x_0,y_0)$.
+Assume also that the partial derivative $\partial f/\partial y$ exists and is continuous on a neighbourhood of $(x_0,y_0)$.
+Consider the [[initial value problem|075VBY4K4X]] $y' = f(x,y)$ with $y(x_0) = y_0$.
+
+Then this problem has a solution on some small open interval around $x_0$.
+This solution is unique: two solutions agree wherever both are defined near $x_0$.
+
+## Remarks
+
+This is a textbook form of the [[Picard–Lindelöf theorem|0P6KRD5B7A]]. The continuity of $\partial f/\partial y$ is a simple condition that gives a local Lipschitz bound in $y$.
+The result is local. The solution may exist only on a short interval.
