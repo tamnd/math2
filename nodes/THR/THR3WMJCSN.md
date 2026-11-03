@@ -1,0 +1,23 @@
+---
+tag: THR3WMJCSN
+kind: statement
+role: lemma
+name: Multiplication by zero
+msc: [03F30]
+uses: [0MWKJ44V5A, 06J5DE801P]
+about: [06J5DE801P]
+sources:
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_background_mult.ptx#L83
+    locator: source/s_background_mult.ptx:83
+---
+
+## Statement
+
+Let $n$ be a [[natural number|0MWKJ44V5A]], that is, a nonnegative integer.
+Then the [[product|06J5DE801P]] of $n$ and $0$ is $0$, and the product of $0$ and $n$ is $0$.
+In symbols, $n \cdot 0 = 0 \cdot n = 0$.
+
+## Remarks
+
+The equation $n \cdot 0 = 0$ holds by the definition of multiplication.
+The equation $0 \cdot n = 0$ needs an induction on $n$.

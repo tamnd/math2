@@ -1,0 +1,25 @@
+---
+kind: statement
+msc:
+- 03F30
+name: Power of a power for natural number exponents
+role: proposition
+sources:
+- locator: source/s_background_exp.ptx:24
+  url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_background_exp.ptx#L24
+tag: 6QQAVC7HQK
+uses:
+- 06J5DE801P
+---
+
+## Statement
+
+Let $m$, $n$ and $p$ be nonnegative integers, and suppose that $m \neq 0$.
+Then raising $m^n$ to the power $p$ gives the same number as raising $m$ to the power $np$.
+That is, $(m^n)^p = m^{np}$.
+
+## Remarks
+
+Here $m^n$ is the product of $n$ copies of $m$, built with the [[multiplication of natural numbers|06J5DE801P]], and an empty product is $1$.
+Both sides count the same $np$ factors equal to $m$.
+Induction on $p$ proves it.

@@ -8,6 +8,8 @@ uses: [03WKB2H474]
 sources:
   - url: https://en.wikipedia.org/wiki/Theorem_on_friends_and_strangers
     locator: Statement
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/ch_probmeth.ptx#L22
+    locator: source/ch_probmeth.ptx:22
 same_as:
   wikidata: Q837506
   wikipedia: Theorem on friends and strangers

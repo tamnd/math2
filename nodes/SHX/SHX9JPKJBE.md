@@ -8,6 +8,8 @@ uses: [05XT5AVJBK, 080RWVVSB6, FTHFSJ30WJ]
 about: [0V49JEZW06]
 sources:
   - url: https://en.wikipedia.org/wiki/Laplace_transform
+  - url: https://github.com/jirilebl/diffyqs/blob/658bcae9fb710f3fae2c9da4ca4524ce157453af/ch-laplace.tex#L217
+    locator: ch-laplace.tex:217
 ---
 
 ## Statement

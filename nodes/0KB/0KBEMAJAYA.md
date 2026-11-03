@@ -11,6 +11,8 @@ sources:
     locator: Definition
   - url: https://en.wikipedia.org/wiki/Natural_number
     locator: Relationship between addition and multiplication
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_background_mult.ptx#L12
+    locator: source/s_background_mult.ptx:12
 ---
 
 ## Statement
