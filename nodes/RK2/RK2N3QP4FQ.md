@@ -8,6 +8,7 @@ sources:
   - arxiv: 2610.14906v1
     locator: Definition 3.1
     mention: ax://paper/2610.14906#2P92
+    licence: cc-by
     note: the paper that states the item (corpus arxiv AX9.2)
 history:
   notes: The source is arXiv:2610.14906v1 (2026-10), by Michael Unser. A paper also restates older results, so this is not the first statement until a person or a later pass confirms it.

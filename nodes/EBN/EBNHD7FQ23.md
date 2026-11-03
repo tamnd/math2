@@ -7,6 +7,7 @@ sources:
   - arxiv: 2610.13556v1
     locator: Definition 2.2
     mention: ax://paper/2610.13556#L0DK
+    licence: cc-by
     note: the paper that states the item (corpus arxiv AX9.2)
 history:
   notes: The source is arXiv:2610.13556v1 (2026-10), by Jiang Jiang, Yuhan Jiang, Yiyang Li, Lujia Wang, Aitao Zhang. A paper also restates older results, so this is not the first statement until a person or a later pass confirms it.

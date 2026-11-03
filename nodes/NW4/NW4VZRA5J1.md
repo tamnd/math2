@@ -7,6 +7,7 @@ sources:
   - arxiv: 2609.26477v1
     locator: Definition 2.1
     mention: ax://paper/2609.26477#0N9K
+    licence: cc-by
     note: the paper that states the item (corpus arxiv AX9.2)
 history:
   notes: The source is arXiv:2609.26477v1 (2026-09), by Tristan Ricoul. A paper also restates older results, so this is not the first statement until a person or a later pass confirms it.
