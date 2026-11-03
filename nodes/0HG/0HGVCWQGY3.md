@@ -8,6 +8,8 @@ uses: [05099E1NMJ]
 sources:
   - url: https://en.wikipedia.org/wiki/Pigeonhole_principle
     locator: lead section
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_basics_pigeonhole.ptx#L6
+    locator: source/s_basics_pigeonhole.ptx:6
 same_as:
   wikidata: Q188276
   wikipedia: Pigeonhole principle

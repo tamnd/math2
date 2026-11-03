@@ -8,6 +8,8 @@ uses: [0BY7GN3449]
 sources:
   - url: https://en.wikipedia.org/wiki/Erdős–Szekeres_theorem
     locator: lead section
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_basics_pigeonhole.ptx#L21
+    locator: source/s_basics_pigeonhole.ptx:21
 same_as:
   wikidata: Q976607
   wikipedia: Erdős–Szekeres theorem

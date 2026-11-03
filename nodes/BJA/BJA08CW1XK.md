@@ -1,0 +1,23 @@
+---
+kind: statement
+msc:
+- "03E20"
+name: Existence of a bijection is symmetric
+role: proposition
+sources:
+- locator: source/s_background_relations.ptx:76
+  url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_background_relations.ptx#L76
+tag: BJA08CW1XK
+uses:
+- 0SNQEF7Z53
+- 01VG2A0BHW
+---
+
+## Statement
+
+Let $X$ and $Y$ be sets.
+There is a [[bijection|0SNQEF7Z53]] from $X$ to $Y$ if and only if there is a bijection from $Y$ to $X$.
+
+## Remarks
+
+If $f \colon X \to Y$ is a bijection, then its inverse $f^{-1} \colon Y \to X$ is a bijection from $Y$ to $X$. See [[bijective iff it has a two-sided inverse|01VG2A0BHW]]. Exchanging the roles of $X$ and $Y$ gives the other direction.
