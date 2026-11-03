@@ -148,7 +148,7 @@ items:
   - {name: metabolic control analysis, kind: concept, wikipedia: Metabolic control analysis, wikidata: Q502671}
   - {name: flux balance analysis, kind: definition, wikipedia: Flux balance analysis, wikidata: Q5463029}
   # Chemical kinetics and reaction networks
-  - {name: law of mass action, kind: statement, wikipedia: Law of mass action, wikidata: Q899494}
+  - {name: law of mass action, kind: statement, wikipedia: Law of mass action, wikidata: Q899494, node: PQ4D33P7EE}
   - {name: rate equation, kind: definition, wikipedia: Rate equation, wikidata: Q904041}
   - {name: Arrhenius equation, kind: statement, wikipedia: Arrhenius equation, wikidata: Q507505}
   - {name: chemical reaction network theory, kind: concept, wikipedia: Chemical reaction network theory, wikidata: Q1069192}

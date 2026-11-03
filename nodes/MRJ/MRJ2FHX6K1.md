@@ -14,7 +14,7 @@ same_as:
 ## Example
 
 Consider a classical fluid in $\R^3$ with number density $\rho$, inverse temperature $\beta$ and pair potential $u(r)$.
-Let $g$ be the radial distribution function, $h = g - 1$, and $c$ the direct correlation function of the [[Ornstein–Zernike equation|29T4NC87AR]].
+Let $g$ be the [[radial distribution function|FME4G0R7FQ]], $h = g - 1$, and $c$ the direct correlation function of the [[Ornstein–Zernike equation|29T4NC87AR]].
 The hypernetted-chain closure is
 $$g(r) = \exp\big(-\beta u(r) + h(r) - c(r)\big), \quad \text{equivalently} \quad c(r) = h(r) - \ln g(r) - \beta u(r).$$
 Together with the Ornstein–Zernike equation

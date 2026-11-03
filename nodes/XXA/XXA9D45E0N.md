@@ -26,7 +26,7 @@ Moreover, equivalence classes of star products on $M$ correspond bijectively to 
 The Hochschild–Kostant–Rosenberg map identifies the cohomology of $D_{\mathrm{poly}}$ with $T_{\mathrm{poly}}$, but it does not respect the brackets; the theorem corrects it by higher terms.
 Kontsevich built these terms from integrals over configuration spaces of points in the upper half-plane, indexed by graphs.
 Star products correspond to Maurer–Cartan elements of $\hbar D_{\mathrm{poly}}[\![\hbar]\!]$, formal Poisson structures to those of $\hbar T_{\mathrm{poly}}[\![\hbar]\!]$, and an $L_\infty$ quasi-isomorphism matches their equivalence classes.
-For a constant Poisson bivector on $\R^{2n}$, [[Kontsevich's quantization formula|JZEK70CH3G]] gives the Moyal product.
+For a constant Poisson bivector on $\R^{2n}$, [[Kontsevich's quantization formula|JZEK70CH3G]] gives the [[Moyal product|J3A8CFHZZM]].
 The result was later extended from $\R^d$ to all smooth manifolds.
 
 ## Explanations
