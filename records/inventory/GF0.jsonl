@@ -1,5 +1,4 @@
 {"id":"GF05J9H6P7","mentions":["wikipedia://en/4662632"],"kind":"definition","name":"Compactness measure","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"GF0M3CD85Y","mentions":["ax://paper/2610.08935#Q91L"],"kind":"statement","msc":["14-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.10"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}]}
 {"id":"GF0T0MZVCG","mentions":["wikipedia://en/31243775#17Y0"],"kind":"statement","name":"Statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GF0Z15K7RB","mentions":["wikipedia://en/29439255#P8NB"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GF0ZXW1C1A","mentions":["wikipedia://en/931978#E85C"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

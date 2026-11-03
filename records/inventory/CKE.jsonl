@@ -1,5 +1,4 @@
 {"id":"CKE5GWQH5D","mentions":["wikipedia://en/9002628#W05P"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"CKE7TFH37T","mentions":["ax://paper/2610.12238#Y86X"],"kind":"problem","msc":["35-XX","53-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
 {"id":"CKEF92E24G","mentions":["wikipedia://en/41685609#OTJW"],"kind":"unknown","name":"Stathis Zachos","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CKESVFC4ZZ","mentions":["m2://rec/lebl_ra/ch-multivar-int.tex#proof-5#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"CKET7W4PJJ","mentions":["wikipedia://en/152207#91J0"],"kind":"statement","name":"Robinson's principle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -4,7 +4,6 @@
 {"id":"7J7ER4K4Z5","mentions":["wikipedia://en/345396#ZBM2"],"kind":"definition","name":"Diffeomorphism","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7J7N4NBC5M","mentions":["wikipedia://en/572498#RG9M"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7J7PCDW8JH","mentions":["wikipedia://en/4470203#6BRL"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"7J7T10EJ40","mentions":["ax://paper/2610.11271#EKVN"],"kind":"statement","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.3"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.3"}]}
 {"id":"7J7T3W1A34","mentions":["wikipedia://en/47738065#WLT2"],"kind":"unknown","name":"Grigori Olshanski","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7J7YVD03HA","mentions":["wikipedia://en/2390225#RDT8"],"kind":"definition","name":"algebra for a monad","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7J7YZ2HD3X","mentions":["wikipedia://en/30325#ZQBX"],"kind":"unknown","name":"Fredholm number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

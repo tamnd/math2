@@ -2,6 +2,5 @@
 {"id":"N4TC0N7ZJ9","mentions":["wikipedia://en/3690584#OYOM"],"kind":"definition","name":"stable","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"N4TDEFVV2E","mentions":["wikipedia://en/71668426"],"kind":"topic","name":"Jennifer Hill","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"N4TKP9VSE7","mentions":["wikipedia://en/337876#X70J"],"kind":"topic","name":"Joseph Fourier","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"N4TQ7J8390","mentions":["ax://paper/2610.18101#7GJ1"],"kind":"statement","msc":["16-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}],"proofs":["ax://paper/2610.18101#0009"]}
 {"id":"N4TS2J4ES4","mentions":["wikipedia://en/47738065#A0G4"],"kind":"unknown","name":"Pio Scatizzi","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"N4TSFYNTMS","mentions":["wikipedia://en/2216061#PS7C"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

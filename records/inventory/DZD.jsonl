@@ -4,5 +4,4 @@
 {"id":"DZDGGA5MR3","mentions":["wikipedia://en/727811#1B3L"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"DZDK6BYZF9","mentions":["wikipedia://en/191457#N2L1"],"kind":"definition","name":"Censoring (clinical trials)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"DZDMQHDP8S","mentions":["m2://rec/napkin/tex/rep-theory/characters.tex#theorem-1#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"DZDN56YT73","mentions":["ax://paper/2609.40282#2CB8"],"kind":"definition","msc":["11-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
 {"id":"DZDRYEJ5JV","mentions":["wikipedia://en/17542489#CQ7M"],"kind":"definition","name":"measure","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

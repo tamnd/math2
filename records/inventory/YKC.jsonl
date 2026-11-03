@@ -1,5 +1,4 @@
 {"id":"YKCGVXQM0H","mentions":["wikipedia://en/30774458"],"kind":"statement","name":"Auslander–Buchsbaum formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YKCHSPKVC4","mentions":["wikipedia://en/1882219#PZM1"],"kind":"definition","name":"MDC-2","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"YKCQCTP0RH","mentions":["ax://paper/2208.07784#B0NV"],"kind":"statement","msc":["26-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.0"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.0"}]}
 {"id":"YKCTPH38SZ","mentions":["wikipedia://en/6026198#7W5R"],"kind":"statement","name":"Variants","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YKCW4GY7KS","mentions":["wikipedia://en/2016232#NJ6H"],"kind":"unknown","name":"Objective response rate","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

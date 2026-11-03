@@ -2,5 +2,4 @@
 {"id":"4MG4MSPNX0","mentions":["wikipedia://en/191457#7IWC"],"kind":"definition","name":"Fisher's method","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4MGBGZ7YXH","mentions":["wikipedia://en/2390225#GYBT"],"kind":"definition","name":"image","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4MGC5QZNMS","mentions":["wikipedia://en/3772816#FAVO"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"4MGTZDZ37D","mentions":["ax://paper/2610.12502#YKFZ"],"kind":"statement","msc":["30-XX","32-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
 {"id":"4MGX8PYF68","mentions":["wikipedia://en/621447#WWJE"],"kind":"unknown","name":"Device-independent pixel","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

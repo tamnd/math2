@@ -1,5 +1,4 @@
 {"id":"WJR1SV22CQ","mentions":["wikipedia://en/40842906#GAQ8"],"kind":"topic","name":"Radó, Tibor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"WJR48Q7514","mentions":["ax://paper/2610.05708#JZ77"],"kind":"statement","msc":["35-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.10"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}],"proofs":["ax://paper/2610.05708#6H32"]}
 {"id":"WJRBRZJFZP","mentions":["wikipedia://en/78854296#2S16"],"kind":"definition","name":"Method","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WJRHJ01TTX","mentions":["wikipedia://en/20556859#IJG9"],"kind":"definition","name":"Notation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WJRQM1SF6N","mentions":["wikipedia://en/4813359"],"kind":"definition","name":"Rand index","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

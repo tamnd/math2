@@ -1,4 +1,3 @@
 {"id":"CZ141SWASJ","mentions":["wikipedia://en/31847498"],"kind":"statement","name":"Lindström–Gessel–Viennot lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"CZ19FCDQD9","mentions":["ax://paper/2610.17303#5W6N"],"kind":"statement","msc":["46-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
 {"id":"CZ1TJ09XQA","mentions":["wikipedia://en/550137#X1KY"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CZ1W00WQT6","mentions":["wikipedia://en/621447#7NEH"],"kind":"unknown","name":"Lambertian reflectance","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

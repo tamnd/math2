@@ -1,4 +1,3 @@
 {"id":"8N13EV1ZD4","mentions":["wikipedia://en/2839#3YHV"],"kind":"statement","name":"Law of Areas","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"8N1F70RDF0","mentions":["ax://paper/2610.05299#NWPZ"],"kind":"example","msc":["20-XX","22-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.10"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}]}
 {"id":"8N1QNWES30","mentions":["wikipedia://en/2012564"],"kind":"problem","name":"Karp's 21 NP-complete problems","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"8N1Y7EGH61","mentions":["wikipedia://en/27321681#PYHI"],"kind":"definition","name":"Formal definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

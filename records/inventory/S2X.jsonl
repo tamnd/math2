@@ -1,6 +1,5 @@
 {"id":"S2X397Q4MR","mentions":["wikipedia://en/209074#HVPD"],"kind":"unknown","name":"Mizar Language","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"S2X4RV91AS","mentions":["wikipedia://en/40990955#WNJ3"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"S2X70GYJ34","mentions":["ax://paper/1303.4328#CEG6"],"kind":"statement","msc":["55-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}],"proofs":["ax://paper/1303.4328#G8KU"]}
 {"id":"S2XETDGE3B","mentions":["wikipedia://en/68407499"],"kind":"definition","name":"Mathematics of apportionment","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"S2XFH9BMRT","mentions":["wikipedia://en/2607912#UJCQ"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"S2XQM0GDVB","mentions":["wikipedia://en/4594#66FN"],"kind":"unknown","name":"ARX cipher","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

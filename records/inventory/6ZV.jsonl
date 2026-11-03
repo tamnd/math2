@@ -2,7 +2,6 @@
 {"id":"6ZV6FKYJWZ","mentions":["wikipedia://en/40319878"],"kind":"definition","name":"Order-4 octahedral honeycomb","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6ZV70DVFRK","mentions":["wikipedia://en/83018244#HHZ4"],"kind":"example","name":"Application","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6ZV73C2TAK","mentions":["wikipedia://en/641995#WFXO"],"kind":"example","name":"Examples of asymptotic formulas","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"6ZV9G8Y20D","mentions":["ax://paper/2609.29759#3LXS"],"kind":"definition","msc":["55-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}
 {"id":"6ZVA4F74TP","mentions":["wikipedia://en/191457#LTDF"],"kind":"definition","name":"Kendall's W","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6ZVDFTF3A4","mentions":["wikipedia://en/2142850#1ZTZ"],"kind":"definition","name":"quantile","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6ZVRC8NV8G","mentions":["wikipedia://en/717377#PIBC"],"kind":"statement","name":"2-Yoneda lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,7 +1,6 @@
 {"id":"BR40C4G27X","mentions":["wikipedia://en/34304924#XEMF"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BR40KHAQ8Q","mentions":["wikipedia://en/34484092#HUEP"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BR4BDVGV2A","mentions":["wikipedia://en/57242824#W8KG"],"kind":"topic","name":"Alfred Pringsheim","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"BR4E337VSQ","mentions":["ax://paper/2609.26537#8P1E"],"kind":"definition","name":"Fourier-Bessel disk harmonic","msc":["65-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}
 {"id":"BR4NDN5ZX2","mentions":["wikipedia://en/23899025#Q0E4"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BR4RKRK0YF","mentions":["m2://rec/lebl_scv/scv.tex#exercise-30#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"BR4THQM7DC","mentions":["wikipedia://en/51406535"],"kind":"definition","name":"Quasi-sphere","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,3 +1,2 @@
-{"id":"836593ZFFV","mentions":["ax://paper/2610.15099#5736"],"kind":"example","msc":["54-XX","55-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
 {"id":"836J92BKVV","mentions":["wikipedia://en/14537040"],"kind":"topic","name":"Wally Smith","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"836Y9X856K","mentions":["wikipedia://en/58434283"],"kind":"topic","name":"Hitoshi Kumano-Go","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

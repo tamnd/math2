@@ -1,6 +1,5 @@
 {"id":"TMW2QZF97S","mentions":["wikipedia://en/2936835#8UJC"],"kind":"unknown","name":"Tpmtool","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TMW4NQ4YSZ","mentions":["wikipedia://en/16589498#U8T7"],"kind":"statement","name":"Symmetry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"TMW9N2B347","mentions":["ax://paper/2609.20531#0DBB"],"kind":"statement","msc":["26-XX","46-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.18"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.18"}]}
 {"id":"TMWCDAGW1F","mentions":["wikipedia://en/26974141"],"kind":"statement","name":"Auerbach's lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TMWHWJVET8","mentions":["m2://rec/napkin/tex/linalg/dets.tex#proposition-1#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"TMWRVR970Y","mentions":["wikipedia://en/8269328#A57V"],"kind":"statement","name":"Hardy–Ramanujan theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

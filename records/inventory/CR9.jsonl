@@ -1,4 +1,3 @@
-{"id":"CR91Y0PTMG","mentions":["ax://paper/2403.08723#N09V"],"kind":"definition","msc":["30-XX","32-XX","46-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
 {"id":"CR9926XTXV","mentions":["wikipedia://en/318976"],"kind":"definition","name":"F-test","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CR9AJHGVY5","mentions":["wikipedia://en/340617#NK1H"],"kind":"statement","name":"Residue theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CR9C83APKE","mentions":["wikipedia://en/1251702#3S57"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

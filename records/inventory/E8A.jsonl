@@ -2,7 +2,6 @@
 {"id":"E8A3Y4E6AE","mentions":["wikipedia://en/1188090#HD6B"],"kind":"definition","name":"the page section","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"E8A5KHJ3VC","mentions":["wikipedia://en/347836#ZW1I"],"kind":"definition","name":"Polynomial long division","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"E8A8CE5W0M","mentions":["wikipedia://en/2945778#0TZO"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"E8AP5Q4YAQ","mentions":["ax://paper/2609.34845#5455"],"kind":"example","msc":["05-XX","49-XX","51-XX","52-XX","90-XX","93-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
 {"id":"E8ASB6FHX9","mentions":["wikipedia://en/1345074"],"kind":"topic","name":"René Girard","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"E8ASD5BD45","mentions":["wikipedia://en/11364552"],"kind":"topic","name":"Annie Dale Biddle Andrews","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"E8AT8YGGJA","mentions":["wikipedia://en/37896218"],"kind":"topic","name":"Joseph Dennis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

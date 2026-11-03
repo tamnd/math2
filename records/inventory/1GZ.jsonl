@@ -1,6 +1,5 @@
 {"id":"1GZ30D28DS","mentions":["wikipedia://en/42289968"],"kind":"topic","name":"Harriet Pollatsek","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1GZC8NH1S7","mentions":["wikipedia://en/299918#EKWT"],"kind":"unknown","name":"Gaussian units","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"1GZFRKPDNQ","mentions":["ax://paper/2610.01968#04VK"],"kind":"statement","msc":["35-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.12"}]}
 {"id":"1GZHKKEJ5C","mentions":["wikipedia://en/66360967"],"kind":"topic","name":"Fabio Toninelli","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1GZT0VA76K","mentions":["m2://rec/wikidata/Q2055815#1"],"kind":"definition","name":"sulfur-33","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"1GZZ3GHDYD","mentions":["m2://rec/austin_ula/src/section1-1.xml#definition-2#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

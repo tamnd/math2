@@ -1,6 +1,5 @@
 {"id":"G4S4B4JSTQ","mentions":["wikipedia://en/490054#G6IL"],"kind":"unknown","name":"Exponential tree","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"G4SBF1S5DC","mentions":["wikipedia://en/44640159#KV2N"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"G4SDTEGMSG","mentions":["ax://paper/2609.31910#Z3EI"],"kind":"example","msc":["11-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.5.6"},"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.5.6"}]}
 {"id":"G4SKX8B1ZW","mentions":["wikipedia://en/191457#08VD"],"kind":"definition","name":"Wait list control group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"G4SSQR04NS","mentions":["wikipedia://en/92290#TXM1"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"G4SZQW0P08","mentions":["m2://rec/wikidata/Q117862751#1"],"kind":"unknown","name":"percolation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

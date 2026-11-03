@@ -1,6 +1,5 @@
 {"id":"TCH0CQHKWY","mentions":["m2://rec/hott_book/homotopy.tex#proof-10#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"TCH1KKN8XK","mentions":["wikipedia://en/29528690#Z56X"],"kind":"definition","name":"Binary","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"TCH5JX57RK","mentions":["ax://paper/math/9802134#F6M2"],"kind":"definition","msc":["03-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
 {"id":"TCH7QEHRX2","mentions":["wikipedia://en/191457#U3HH"],"kind":"statement","name":"Fishburn–Shepp inequality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TCHF33QPQG","mentions":["wikipedia://en/20047065#N0W0"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TCHHJP3K6B","mentions":["wikipedia://en/463981#MYF1"],"kind":"unknown","name":"575 (number)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -2,6 +2,5 @@
 {"id":"YEC29RZ7SR","mentions":["wikipedia://en/914820#M205"],"kind":"definition","name":"Formulation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YEC7MFY5V5","mentions":["wikipedia://en/140829#NR4Q"],"kind":"unknown","name":"Duncan, David F.","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YECA63WJA5","mentions":["wikipedia://en/64862660#K05T"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"YECCHGNA8S","mentions":["ax://paper/2609.32916#L0L3"],"kind":"definition","msc":["20-XX","22-XX","46-XX","47-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.5.6"},"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.5.6"}]}
 {"id":"YECKFTKQ84","mentions":["wikipedia://en/17616#HQ83"],"kind":"unknown","name":"Rectifying latitude","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YECN5HQA68","mentions":["m2://rec/hott_book/index/5.9/span#1"],"kind":"concept","name":"span","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

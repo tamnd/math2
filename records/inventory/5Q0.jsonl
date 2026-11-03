@@ -6,8 +6,6 @@
 {"id":"5Q0JJNFZ3G","mentions":["wikipedia://en/29154766#SN23"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5Q0K59E3PD","mentions":["m2://rec/lebl_diffyqs/ch-nonlin-systems.tex#exercise-1#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"5Q0Q0QDKPQ","mentions":["wikipedia://en/1860407#E75N"],"kind":"definition","name":"Algorithms","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"5Q0Q19DPWM","mentions":["ax://paper/2609.35307#HT5W"],"kind":"unknown","layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
-{"id":"5Q0SNYY7A5","mentions":["ax://paper/2609.37846#PE2F"],"kind":"definition","msc":["60-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
 {"id":"5Q0VFCMED9","mentions":["wikipedia://en/241820#RJFQ"],"kind":"definition","name":"Order-4 24-cell honeycomb honeycomb","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5Q0W035CQV","mentions":["wikipedia://en/5440367"],"kind":"definition","name":"Baire one star function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5Q0W7FGZG5","mentions":["m2://rec/napkin/tex/alg-geom/spec-zariski.tex#example-6#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

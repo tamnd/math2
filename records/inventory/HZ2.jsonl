@@ -1,2 +1,1 @@
-{"id":"HZ28Z99Y5G","mentions":["ax://paper/2609.22657#IGCM"],"kind":"example","msc":["00-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.17"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.17"}]}
 {"id":"HZ2A2C79AN","mentions":["wikipedia://en/76253961"],"kind":"topic","name":"Allison McCoy","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

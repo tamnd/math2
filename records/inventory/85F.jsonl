@@ -1,5 +1,4 @@
 {"id":"85F4SVF95A","mentions":["wikipedia://en/38613278"],"kind":"topic","name":"Jules Drach","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"85FFBFDHFG","mentions":["ax://paper/2610.06810#91KG"],"kind":"statement","msc":["81-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.10"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}]}
 {"id":"85FG846WNP","mentions":["wikipedia://en/75040661#DIIM"],"kind":"unknown","name":"J. G. Charney","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"85FJZJPYKR","mentions":["wikipedia://en/160990#CS2S"],"kind":"unknown","name":"1/ ∞","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"85FRSQTR3R","mentions":["wikipedia://en/24131381#UBNU"],"kind":"statement","name":"Algebraic properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

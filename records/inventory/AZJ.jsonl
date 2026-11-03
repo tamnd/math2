@@ -7,4 +7,3 @@
 {"id":"AZJHPVAHYD","mentions":["wikipedia://en/48781047#YMEQ"],"kind":"definition","name":"pair","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"AZJRV7DBM4","mentions":["wikipedia://en/14403539#D33S"],"kind":"topic","name":"Charles Brenner","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"AZJW19FF84","mentions":["wikipedia://en/22719936"],"kind":"definition","name":"Baryon acoustic oscillations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"AZJXDRA71W","mentions":["ax://paper/2609.27366#C3NA"],"kind":"statement","msc":["05-XX","55-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}

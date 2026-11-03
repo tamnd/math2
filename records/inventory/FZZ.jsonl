@@ -1,5 +1,4 @@
 {"id":"FZZA6CPDCG","mentions":["wikipedia://en/1461265#EIK3"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"FZZC7ZRKH4","mentions":["wikipedia://en/3180285"],"kind":"topic","name":"Maxime Bôcher","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"FZZQMNSV5Q","mentions":["ax://paper/2609.32599#ENEK"],"kind":"definition","msc":["14-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.5.6"},"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.5.6"}]}
 {"id":"FZZT2KT60R","mentions":["m2://rec/wikidata/Q1471386#1","wikipedia://en/1586291"],"kind":"concept","name":"Fréchet filter","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"FZZZAQCWVF","mentions":["wikipedia://en/9036441"],"kind":"topic","name":"Anatoly Vershik","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

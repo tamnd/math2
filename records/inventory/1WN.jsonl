@@ -1,3 +1,2 @@
 {"id":"1WN3RJ8R8S","mentions":["wikipedia://en/23690221"],"kind":"definition","name":"Hausdorff Center for Mathematics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1WN5MBNE7Q","mentions":["wikipedia://en/3932847#FFZK"],"kind":"definition","name":"JMP","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"1WNXKJV1J4","mentions":["ax://paper/2610.15877#Z73Q"],"kind":"definition","msc":["94-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}

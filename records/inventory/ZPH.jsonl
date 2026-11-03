@@ -2,4 +2,3 @@
 {"id":"ZPH747971Q","mentions":["wikipedia://en/34049829"],"kind":"object","name":"Simplicial honeycomb","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZPH7J3G2B0","mentions":["wikipedia://en/11353703#KADS"],"kind":"unknown","name":"Abraham Niederländer","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZPHMEWFR9M","mentions":["wikipedia://en/78730954#1RNC"],"kind":"unknown","name":"Excitotoxicity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"ZPHPBZPMHS","mentions":["ax://paper/2610.22074#5GR0"],"kind":"definition","msc":["55-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.2"}]}

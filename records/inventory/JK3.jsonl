@@ -1,4 +1,3 @@
-{"id":"JK37YDF3ZH","mentions":["ax://paper/2609.37761#W56R"],"kind":"statement","msc":["20-XX","46-XX","47-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
 {"id":"JK3EQYK55H","mentions":["wikipedia://en/31978226#VCZ0"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JK3PDHMMCC","mentions":["wikipedia://en/52974038#N53C"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JK3QYXGJ2T","mentions":["wikipedia://en/191457#UBVZ"],"kind":"definition","name":"Spectral density","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -3,7 +3,6 @@
 {"id":"QK1C8GC8EM","mentions":["wikipedia://en/67332164"],"kind":"topic","name":"Nandini Kannan","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QK1DX2E1MC","mentions":["wikipedia://en/14892#7WSM"],"kind":"unknown","name":"Criticism of IQ testing","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QK1FZC4NF7","mentions":["wikipedia://en/379840"],"kind":"definition","name":"One-sided limit","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"QK1HHGMBCC","mentions":["ax://paper/2610.21033#82KI"],"kind":"statement","msc":["94-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.2"}]}
 {"id":"QK1P54TM63","mentions":["wikipedia://en/292506#YO7L"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QK1PW5W5PX","mentions":["wikipedia://en/510791#VCX6"],"kind":"unknown","name":"Google effect","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QK1SSA94SX","mentions":["wikipedia://en/346167#FQHZ"],"kind":"definition","name":"Strong cardinal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

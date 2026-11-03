@@ -1,6 +1,5 @@
 {"id":"T2618VSSZ6","mentions":["m2://rec/lebl_scv/index/E.2/convex-function#1"],"kind":"concept","name":"convex function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"T264KMRB2Y","mentions":["wikipedia://en/26255"],"kind":"topic","name":"Robert Lowth","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"T269YG0HMD","mentions":["ax://paper/2610.05512#SBRN"],"kind":"unknown","msc":["62-XX"],"layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}]}
 {"id":"T26MQ9T9CV","mentions":["wikipedia://en/14403539#75LN"],"kind":"unknown","name":"David K. Levine","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"T26N1EEGXH","mentions":["wikipedia://en/42492459"],"kind":"definition","name":"Einstein's Blackboard","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}],"proofs":["wikipedia://en/42492459#3APJ","wikipedia://en/42492459#URBX"]}
 {"id":"T26RSRBM3A","mentions":["m2://rec/open_logic/content/set-theory/card-arithmetic/opps.tex#continuumis2aleph0#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

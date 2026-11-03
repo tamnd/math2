@@ -4,4 +4,3 @@
 {"id":"ZYWCV98M1R","mentions":["wikipedia://en/621799"],"kind":"topic","name":"Kurt Heegner","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZYWGS7GGSW","mentions":["wikipedia://en/5458932#01IE"],"kind":"statement","name":"Riemann-Hurwitz formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZYWJB04A9Y","mentions":["wikipedia://en/344887#I2IP"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"ZYWZX4MMJA","mentions":["ax://paper/2004.12552#7X5T"],"kind":"example","msc":["11-XX","94-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}

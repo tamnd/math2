@@ -1,7 +1,6 @@
 {"id":"WQE42B1C83","mentions":["wikipedia://en/41685609#9QT7"],"kind":"unknown","name":"Leodamas of Thasos","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WQEA4K6NRX","mentions":["wikipedia://en/14403539#D6I1"],"kind":"topic","name":"Andrew Odlyzko","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WQEDSZBZD6","mentions":["wikipedia://en/12223917"],"kind":"topic","name":"Magnus Hestenes","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"WQEF83N312","mentions":["ax://paper/2609.37375#QI56"],"kind":"statement","name":"Cosine-power estimate","msc":["81-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
 {"id":"WQEHNH890E","mentions":["wikipedia://en/123495#SO6O"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WQEPJHCNV4","mentions":["wikipedia://en/2143056"],"kind":"definition","name":"Quasi-finite morphism","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WQEVAAME04","mentions":["wikipedia://en/191457#AITR"],"kind":"definition","name":"Landau distribution","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

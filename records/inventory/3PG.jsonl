@@ -1,7 +1,6 @@
 {"id":"3PG6K00BCK","mentions":["wikipedia://en/449606#Q5MV"],"kind":"unknown","name":"496 (Number)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"3PG71V9H7E","mentions":["wikipedia://en/55799101#R4BL"],"kind":"definition","name":"Kirillov","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"3PG95WCYX3","mentions":["wikipedia://en/361210#ZDGN"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"3PGAAAN056","mentions":["ax://paper/2610.18302#1XJ2"],"kind":"statement","msc":["16-XX","18-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}],"proofs":["ax://paper/2610.18302#6XIR"]}
 {"id":"3PGAP79Q4M","mentions":["wikipedia://en/6326483"],"kind":"topic","name":"Observational study","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"3PGP8M58WY","mentions":["wikipedia://en/26300644"],"kind":"topic","name":"R. Tyrrell Rockafellar","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"3PGXDT8Y12","mentions":["wikipedia://en/336271#C2DP"],"kind":"unknown","name":"About equal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

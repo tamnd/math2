@@ -3,4 +3,3 @@
 {"id":"S4V7DQTC3K","mentions":["wikipedia://en/31746215#U7FL"],"kind":"statement","name":"Iwasawa's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"S4VHWN0E6S","mentions":["wikipedia://en/28268868"],"kind":"topic","name":"Alexander Freeman","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"S4VJZ7XG0F","mentions":["wikipedia://en/11594341#MSRX"],"kind":"definition","name":"Implementations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"S4VSPYTW9B","mentions":["ax://paper/2610.04503#6KFD"],"kind":"example","msc":["26-XX","46-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.12"}]}

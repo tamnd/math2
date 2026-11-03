@@ -8,5 +8,4 @@
 {"id":"YSBHTST76D","mentions":["wikipedia://en/35457783#CX8W"],"kind":"definition","name":"klt","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YSBJZYXBE3","mentions":["wikipedia://en/58753466"],"kind":"statement","name":"Bendixson's inequality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YSBRJCDVDW","mentions":["wikipedia://en/353748#CSQ1"],"kind":"definition","name":"Interactive computation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"YSBW4F7T97","mentions":["ax://paper/2610.21732#W6NE"],"kind":"definition","msc":["35-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.2"}]}
 {"id":"YSBXW76DT9","mentions":["wikipedia://en/6832884#892V"],"kind":"unknown","name":"Wieferich triple","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,4 +1,3 @@
-{"id":"JDHJ7Z7P9P","mentions":["ax://paper/2610.07290#BIYJ"],"kind":"statement","msc":["49-XX","90-XX","93-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.10"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}]}
 {"id":"JDHJVF576P","mentions":["wikipedia://en/27509675"],"kind":"definition","name":"GNOME Calculator","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JDHKMDDXH8","mentions":["wikipedia://en/3997685"],"kind":"topic","name":"Stewart Shapiro","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JDHN8YYR4B","mentions":["wikipedia://en/16426096#NYOU"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

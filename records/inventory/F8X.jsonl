@@ -3,4 +3,3 @@
 {"id":"F8XFG80D4J","mentions":["wikipedia://en/293504#8UNR"],"kind":"unknown","name":"Orbifold atlas","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"F8XSE5GKVT","mentions":["wikipedia://en/191457#18MU"],"kind":"definition","name":"Standardised mortality rate","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"F8XXTPG1P8","mentions":["wikipedia://en/434428#DMZ1"],"kind":"unknown","name":"Continuous compounding","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"F8XXVPC497","mentions":["ax://paper/2610.11395#8D9L"],"kind":"example","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.3"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.3"}]}

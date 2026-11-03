@@ -2,5 +2,4 @@
 {"id":"X44PBY9XZ1","mentions":["wikipedia://en/47899740"],"kind":"definition","name":"Proportional cake-cutting","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"X44S7WTGHE","mentions":["wikipedia://en/35520327"],"kind":"definition","name":"Gibbons–Hawking space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"X44T6A8KG5","mentions":["wikipedia://en/47624922"],"kind":"topic","name":"Joseph P. LaSalle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"X44TAECNCR","mentions":["ax://paper/2610.05391#P798"],"kind":"definition","msc":["35-XX","46-XX","60-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.10"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}]}
 {"id":"X44WYH01RX","mentions":["wikipedia://en/82217851"],"kind":"topic","name":"Aleksandar Donev","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

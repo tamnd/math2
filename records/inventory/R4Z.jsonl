@@ -1,7 +1,6 @@
 {"id":"R4Z5PW8GSB","mentions":["wikipedia://en/11740178#7SX3"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"R4Z7Y3XE3P","mentions":["wikipedia://en/4900209#8GNX"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"R4ZBV1FXRX","mentions":["wikipedia://en/153130#15HE"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"R4ZBYNBXGV","mentions":["ax://paper/2609.32834#IXBP"],"kind":"statement","msc":["94-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.5.6"},"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.5.6"}],"proofs":["ax://paper/2609.32834#W50U"]}
 {"id":"R4ZCKNKZZZ","mentions":["wikipedia://en/4624421"],"kind":"definition","name":"SETAR","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"R4ZG6VAZE6","mentions":["wikipedia://en/191457#XGW1"],"kind":"definition","name":"Flood risk assessment","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"R4ZHG9ZQZW","mentions":["wikipedia://en/40093498"],"kind":"object","name":"Descartes number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

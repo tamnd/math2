@@ -1,6 +1,5 @@
 {"id":"1ZW17JZDW0","mentions":["wikipedia://en/3143411#DQP6"],"kind":"unknown","name":"Hilbertian field","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1ZWFWHR6GN","mentions":["wikipedia://en/14403539#ASJJ"],"kind":"unknown","name":"Heini Halberstam","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"1ZWQT5567Q","mentions":["ax://paper/2610.04382#UG1M"],"kind":"statement","msc":["57-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.12"}]}
 {"id":"1ZWRAECQPG","mentions":["wikipedia://en/14403539#SOSB"],"kind":"topic","name":"Miklós Csörgő","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1ZWXPCSFGD","mentions":["wikipedia://en/193837#DKHU"],"kind":"definition","name":"Wronskian","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1ZWZA61NXV","mentions":["wikipedia://en/1448859#DRIE"],"kind":"statement","name":"Chvátal's art gallery theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

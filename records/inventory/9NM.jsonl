@@ -1,3 +1,2 @@
 {"id":"9NM9MM91WY","mentions":["wikipedia://en/51140705#WY33"],"kind":"unknown","name":"Nairanjana Dasgupta","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"9NMC6MN9CR","mentions":["ax://paper/2609.26745#RUG7"],"kind":"statement","msc":["53-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}
 {"id":"9NMJ6Z2XTX","mentions":["wikipedia://en/52059041"],"kind":"topic","name":"John Brian Helliwell","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

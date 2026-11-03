@@ -1,9 +1,7 @@
 {"id":"KTG1QZGFD5","mentions":["wikipedia://en/659169#TXSP"],"kind":"topic","name":"Milü","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"KTG4PNZPAF","mentions":["ax://paper/2610.15593#1RHC"],"kind":"statement","msc":["54-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}],"proofs":["ax://paper/2610.15593#LJ53"]}
 {"id":"KTG7GGR9H9","mentions":["wikipedia://en/13111"],"kind":"topic","name":"George Dantzig","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"KTG8M7E612","mentions":["m2://rec/wikidata/Q1541178#1","wikipedia://en/935515"],"kind":"definition","name":"contingency table","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"KTGEK25B82","mentions":["wikipedia://en/20021256#1JPP"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"KTGFE7BX97","mentions":["ax://paper/math/0512416#SIPW"],"kind":"unknown","layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
 {"id":"KTGFQTHBJK","mentions":["wikipedia://en/65905#PFPT"],"kind":"statement","name":"Ideal gas law","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"KTGJAYS7GZ","mentions":["wikipedia://en/20845#VUX8"],"kind":"definition","name":"Notation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"KTGKBWTC5E","mentions":["wikipedia://en/26520106#ZPWM"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

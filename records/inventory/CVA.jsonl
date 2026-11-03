@@ -1,5 +1,4 @@
 {"id":"CVA2HSACHR","mentions":["wikipedia://en/450062"],"kind":"problem","name":"Subgraph isomorphism problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"CVA6J30WWP","mentions":["ax://paper/2406.19866#W8PC"],"kind":"definition","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
 {"id":"CVABNRR8TX","mentions":["wikipedia://en/11353703#7AQW"],"kind":"topic","name":"Salvatore Pincherle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CVACHZTA44","mentions":["wikipedia://en/233488#6HVQ"],"kind":"unknown","name":"Limitations of machine learning","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CVADXAMEHD","mentions":["wikipedia://en/28408840#6EPH"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

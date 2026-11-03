@@ -2,7 +2,6 @@
 {"id":"HB99AEPR9Y","mentions":["wikipedia://en/23093011"],"kind":"definition","name":"Strength of a graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HB9K3YYH2Q","mentions":["wikipedia://en/23918641"],"kind":"topic","name":"Rehuel Lobatto","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HB9KFXJNQ9","mentions":["m2://rec/wikidata/Q744960#1","wikipedia://en/2112"],"kind":"definition","name":"associative algebra","msc":["16-XX"],"layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"HB9NDP6S78","mentions":["ax://paper/2412.14956#L6GS"],"kind":"statement","msc":["60-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
 {"id":"HB9PH8B6D9","mentions":["wikipedia://en/37532867#JB8S"],"kind":"unknown","name":"British Armed Forces","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HB9PRA38F3","mentions":["wikipedia://en/3512103"],"kind":"definition","name":"Theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HB9S6YEVH3","mentions":["wikipedia://en/2260894#TH0V"],"kind":"statement","name":"Variants","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

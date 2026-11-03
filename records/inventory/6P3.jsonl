@@ -1,6 +1,5 @@
 {"id":"6P39XPR47V","mentions":["wikipedia://en/66478194#TN8W"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6P3H38P9D9","mentions":["wikipedia://en/191457#54W0"],"kind":"statement","name":"Null hypothesis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"6P3HHHNPM9","mentions":["ax://paper/2610.18324#GJLN"],"kind":"statement","msc":["14-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}],"proofs":["ax://paper/2610.18324#Z01W"]}
 {"id":"6P3KZG0VQC","mentions":["wikipedia://en/260914#4MGI"],"kind":"unknown","name":"1 E10","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6P3N3V7CCG","mentions":["wikipedia://en/140829#2TQ1"],"kind":"topic","name":"Ahtime, Laura","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6P3W4WP77P","mentions":["wikipedia://en/33194970"],"kind":"definition","name":"Hidden attractor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

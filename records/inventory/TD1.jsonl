@@ -3,5 +3,4 @@
 {"id":"TD1CXP0NDG","mentions":["wikipedia://en/23986673"],"kind":"statement","name":"Bonse's inequality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TD1F208W2S","mentions":["wikipedia://en/14403539#CRCV"],"kind":"unknown","name":"Anne C. Morel","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TD1JD9NYGX","mentions":["wikipedia://en/398810#A047"],"kind":"unknown","name":"Cladogram","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"TD1N3RWZ49","mentions":["ax://paper/2610.17897#A38I"],"kind":"statement","msc":["94-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
 {"id":"TD1NMPHF3G","mentions":["wikipedia://en/332264#KJ6V"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,5 +1,4 @@
 {"id":"AMS5Q1BTZ1","mentions":["wikipedia://en/45600#NF4M"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"AMS8VE62QV","mentions":["ax://paper/2610.22082#OTBY"],"kind":"statement","msc":["05-XX","55-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.0"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.0"}],"proofs":["ax://paper/2610.22082#T3SR"]}
 {"id":"AMSDQWZ2FE","mentions":["wikipedia://en/409951#8RZY"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"AMSF6R72SF","mentions":["wikipedia://en/57242824#FIPN"],"kind":"topic","name":"Wilhelm Süss","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"AMSXXHD45M","mentions":["wikipedia://en/1256105#S0W1"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

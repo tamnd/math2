@@ -1,6 +1,5 @@
 {"id":"DRF58JEE1X","mentions":["wikipedia://en/56893192"],"kind":"topic","name":"Edward Odell","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"DRF9X42AKK","mentions":["wikipedia://en/3686677#2KE9"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"DRFBMWD3KW","mentions":["ax://paper/2610.11047#XOWZ"],"kind":"statement","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.3"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.3"}],"proofs":["ax://paper/2610.11047#OMB7"]}
 {"id":"DRFF80TDM6","mentions":["wikipedia://en/5004019"],"kind":"definition","name":"Anankastic conditional","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"DRFPHMTMC2","mentions":["wikipedia://en/42746762"],"kind":"topic","name":"Anthony Hilton","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"DRFVCJAWD1","mentions":["wikipedia://en/51140705#FGON"],"kind":"topic","name":"Kathi Irvine","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

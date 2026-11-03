@@ -1,7 +1,5 @@
-{"id":"68F1EETBMT","mentions":["ax://paper/2011.11439#RSMC"],"kind":"unknown","layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
 {"id":"68F1Z7JVQR","mentions":["wikipedia://en/47565351#TJYQ"],"kind":"unknown","name":"Tetrad Islands","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"68F6FENDTF","mentions":["m2://rec/wikidata/Q138865#1"],"kind":"unknown","name":"Soma cube","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"68F7Z74ZYX","mentions":["ax://paper/2610.10930#88VL"],"kind":"definition","msc":["18-XX","54-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.3"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.3"}]}
 {"id":"68F8AR06N9","mentions":["wikipedia://en/6752269#WXIW"],"kind":"unknown","name":"Guy Silver Medal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"68FBXNFG5V","mentions":["wikipedia://en/3052668#93SV"],"kind":"statement","name":"Cartan's criterion for solvability","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"68FGVGQ0FA","mentions":["wikipedia://en/416831"],"kind":"definition","name":"Testing hypotheses suggested by the data","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

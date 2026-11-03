@@ -3,4 +3,3 @@
 {"id":"5G9GED5WYR","mentions":["wikipedia://en/333996#KQC1"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5G9J5DGZ6Z","mentions":["wikipedia://en/47738065#9LXD"],"kind":"unknown","name":"Shi Jin","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5G9X0NZ39E","mentions":["wikipedia://en/1818270#TKDU"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"5G9YWD944J","mentions":["ax://paper/2610.03477#R0XP"],"kind":"problem","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.12"}]}

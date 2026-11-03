@@ -1,5 +1,4 @@
 {"id":"DYZ6V3QDWM","mentions":["wikipedia://en/38851923"],"kind":"definition","name":"Stirling permutation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"DYZBJSXXXD","mentions":["m2://rec/hott_book/basics.tex#proof-17#1"],"kind":"proof","name":"First proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"DYZKHRV76H","mentions":["ax://paper/2609.24078#U8KH"],"kind":"definition","msc":["35-XX","53-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.17"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.17"}]}
 {"id":"DYZY944F8E","mentions":["wikipedia://en/45589823#J5AC"],"kind":"example","name":"Application","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"DYZZ732MTC","mentions":["wikipedia://en/80250225"],"kind":"topic","name":"Jacqueline Akinpelu","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

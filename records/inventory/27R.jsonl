@@ -1,3 +1,2 @@
 {"id":"27RBEK9SMP","mentions":["wikipedia://en/35458775"],"kind":"topic","name":"R. W. H. T. Hudson","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"27RN8HSGVM","mentions":["ax://paper/2610.19534#EID5"],"kind":"example","msc":["11-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
 {"id":"27RRC8NQBM","mentions":["wikipedia://en/10851027"],"kind":"topic","name":"Statistical geography","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

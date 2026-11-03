@@ -1,6 +1,5 @@
 {"id":"3FF3SGXRQ5","mentions":["wikipedia://en/15845985#9CBL"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"3FF9XH60YF","mentions":["wikipedia://en/406919"],"kind":"definition","name":"Carlson symmetric form","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"3FFG1M8H4Y","mentions":["ax://paper/2610.12054#NK4Z"],"kind":"definition","msc":["20-XX","57-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.3"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.3"}]}
 {"id":"3FFQB9320F","mentions":["wikipedia://en/17517168#XX75"],"kind":"statement","name":"Second principle: constraint","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"3FFV73SC4T","mentions":["wikipedia://en/47738065#OSV5"],"kind":"topic","name":"Manfredo P. do Carmo","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"3FFXMN9Y10","mentions":["wikipedia://en/1142911"],"kind":"topic","name":"Ernest Vessiot","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

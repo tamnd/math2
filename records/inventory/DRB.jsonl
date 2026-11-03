@@ -1,6 +1,5 @@
 {"id":"DRB0TNZPS6","mentions":["wikipedia://en/12970#4UFK"],"kind":"unknown","name":"Retrospective gambler's fallacy","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"DRBEVY0ZFR","mentions":["wikipedia://en/53341985#D7RW"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"DRBG4DMWZF","mentions":["ax://paper/2609.25188#92ZC"],"kind":"example","msc":["37-XX","81-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}
 {"id":"DRBMCDK5ZM","mentions":["wikipedia://en/18568#9HSI"],"kind":"definition","name":"Division algorithm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"DRBS8BDK0Q","mentions":["wikipedia://en/191457#6XDO"],"kind":"definition","name":"Sample space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"DRBZA0G1E7","mentions":["m2://rec/wikidata/Q118347482#1"],"kind":"unknown","name":"productive set","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

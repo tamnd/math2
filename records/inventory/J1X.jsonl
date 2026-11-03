@@ -1,7 +1,6 @@
 {"id":"J1X6ZR5H5X","mentions":["wikipedia://en/191457#6CHV"],"kind":"definition","name":"Absorbing Markov chain","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"J1X7YTQNJR","mentions":["wikipedia://en/33741859"],"kind":"definition","name":"Cryptocat","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"J1XHRD81F1","mentions":["wikipedia://en/601070#JMFX"],"kind":"statement","name":"Hermite–Hadamard inequality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"J1XJEFT9DA","mentions":["ax://paper/2408.01345#1H05"],"kind":"definition","msc":["05-XX","16-XX","17-XX","81-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
 {"id":"J1XPF9FMDP","mentions":["wikipedia://en/58255379"],"kind":"topic","name":"Baruch Lindau","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"J1XS9KEMEN","mentions":["wikipedia://en/2390225#PW0F"],"kind":"definition","name":"horizontal composition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"J1XT0PXS0V","mentions":["wikipedia://en/240991#U845"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

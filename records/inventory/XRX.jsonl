@@ -1,6 +1,5 @@
 {"id":"XRX8TYKFC9","mentions":["wikipedia://en/41390065#BJ3B"],"kind":"example","name":"Example 1","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XRXACVQW6Y","mentions":["wikipedia://en/140829#4MJW"],"kind":"unknown","name":"Chen, Jie","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"XRXCBHKSC7","mentions":["ax://paper/2610.00490#PXFF"],"kind":"statement","name":"Main theorem","msc":["14-XX","81-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
 {"id":"XRXFS6ABDH","mentions":["wikipedia://en/47738065#GHBG"],"kind":"topic","name":"Yvan Martel","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XRXGG2CVEG","mentions":["wikipedia://en/28877484#QFDK"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XRXVTEYBZD","mentions":["wikipedia://en/25129404#8FI1"],"kind":"statement","name":"Σ0=Π0=Δ0 formulas and concepts","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

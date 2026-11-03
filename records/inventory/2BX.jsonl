@@ -1,6 +1,5 @@
 {"id":"2BX3KWTK7T","mentions":["wikipedia://en/51140705#2LSY"],"kind":"unknown","name":"Polly Feigl","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2BXA5PKB7C","mentions":["wikipedia://en/708399#PO87"],"kind":"topic","name":"Kurt Gödel","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"2BXM2AFAGB","mentions":["ax://paper/2610.15674#4Q3T"],"kind":"statement","msc":["11-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
 {"id":"2BXPBS238T","mentions":["wikipedia://en/599970#J812"],"kind":"statement","name":"Siegel's lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2BXWQWQ66E","mentions":["wikipedia://en/1804457#CHTR"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2BXWTND9J8","mentions":["wikipedia://en/2596030#NS1B"],"kind":"unknown","name":"Gale–Stewart theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

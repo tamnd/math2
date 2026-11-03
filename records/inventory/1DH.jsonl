@@ -1,6 +1,5 @@
 {"id":"1DH33BXGHC","mentions":["wikipedia://en/31748"],"kind":"definition","name":"Ultra","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1DH52QSTAD","mentions":["wikipedia://en/1783069#D7TF"],"kind":"definition","name":"Notation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"1DHG7XV8P7","mentions":["ax://paper/2610.18270#73C9"],"kind":"statement","msc":["35-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}],"proofs":["ax://paper/2610.18270#GYUA"]}
 {"id":"1DHTTBT5T5","mentions":["wikipedia://en/39491072#SB37"],"kind":"definition","name":"Schottky–Klein prime form","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1DHZ3F629T","mentions":["wikipedia://en/67130162"],"kind":"definition","name":"Shadow rate","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1DHZGBVV81","mentions":["wikipedia://en/99491#6ASE"],"kind":"unknown","name":"Law of indices","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

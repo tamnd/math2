@@ -1,4 +1,3 @@
-{"id":"Y5F6RVYS96","mentions":["ax://paper/2609.20153#3SY2"],"kind":"definition","msc":["17-XX","81-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.18"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.18"}]}
 {"id":"Y5F6SM4ZXH","mentions":["wikipedia://en/76765067#8XNR"],"kind":"definition","name":"elementary equivalence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Y5F9T147SZ","mentions":["wikipedia://en/356213#50SE"],"kind":"topic","name":"David Kaplan","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Y5FDGV0DRS","mentions":["wikipedia://en/33456840#LNQU"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

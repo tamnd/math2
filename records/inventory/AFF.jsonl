@@ -1,6 +1,5 @@
 {"id":"AFF23RHP06","mentions":["wikipedia://en/173285#JL4R"],"kind":"statement","name":"Symmetry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"AFF8TT1YZ9","mentions":["wikipedia://en/663359"],"kind":"topic","name":"List of complexity classes","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"AFFA2QJBRS","mentions":["ax://paper/2610.03619#YJIR"],"kind":"statement","msc":["11-XX","37-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.12"}]}
 {"id":"AFFA8BMB8P","mentions":["wikipedia://en/7088#JB41"],"kind":"topic","name":"Adi Shamir","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"AFFJ3R5WYC","mentions":["wikipedia://en/36115409"],"kind":"statement","name":"Weyl–von Neumann theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"AFFNGAZEFM","mentions":["wikipedia://en/359586#KR1O"],"kind":"definition","name":"Examples of generating functions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

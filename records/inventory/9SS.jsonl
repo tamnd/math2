@@ -1,4 +1,3 @@
 {"id":"9SSKNAZ0HR","mentions":["wikipedia://en/10516723#HE2G"],"kind":"definition","name":"Algorithm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9SSTXXZ78T","mentions":["wikipedia://en/77414703#9OS5"],"kind":"definition","name":"Vitali covering lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9SSW5JEFMP","mentions":["wikipedia://en/54715230#4838"],"kind":"unknown","name":"Nasavi","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"9SSWR5D846","mentions":["ax://paper/2304.08149#2J8O"],"kind":"statement","msc":["11-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.6"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.6"}]}
