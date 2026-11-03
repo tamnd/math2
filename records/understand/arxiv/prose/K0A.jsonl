@@ -1,0 +1,1 @@
+{"id":"ax://paper/2210.02261#front","ref":"2210.02261v2#front","pass":"prose","by":"agent:m2-agent/understand@0.5.0","model":"claude-haiku-5-5","class":"open","prose":[{"from":5,"to":5,"line":86,"file":"paper.tex","kind":"problem","check":{"model":"gpt-6-sol","kind":"problem","complete":true}}]}
