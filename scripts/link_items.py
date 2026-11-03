@@ -2,6 +2,8 @@
 """Write the field node of each item of the seed list and the skeletons whose node exists.
 
 An item matches a node when the key of the item name is the key of the node name or of an alias of the node, and exactly one node of a kind that fits the kind of the item has the key.
+When several nodes of a fitting kind have the key, the one node whose name (not an alias) has the key matches.
+When no node of a fitting kind has the key, the one node of any kind whose name has the key matches, for example the statement Russell's paradox for a counterexample item.
 The key ignores case, accents, punctuation, the article "the", the possessive 's, a final plural s and the spellings colour/color and -ise/-ize.
 The script does not match by the Wikipedia title or the Wikidata item: many items share the article of a broader concept, for example "orthogonal Lie algebra" and "orthogonal group".
 The script changes only the lines of the items without a node. It keeps the other lines as they are.
@@ -64,6 +66,7 @@ def read_nodes():
         nodes.append({
             "tag": str(fm["tag"]),
             "kind": fm.get("kind"),
+            "name": key(str(fm.get("name", ""))),
             "slugs": {key(str(fm.get("name", "")))} | {key(str(a)) for a in fm.get("aliases") or []},
         })
     return nodes
@@ -78,14 +81,18 @@ def index(nodes):
     return ix
 
 
-def pick(cands, kind):
+def pick(cands, kind, want):
     fits = FITS.get(kind, (kind,))
+    named = [c for c in cands if c["name"] == want]
     cands = [c for c in cands if c["kind"] in fits]
     if not cands:
-        return None
+        # No node of a fitting kind: take the one node with the name.
+        return named[0]["tag"] if len(named) == 1 else None
     # Prefer the first kind of the list, for example a concept for a definition item.
     for k in fits:
         best = [c for c in cands if c["kind"] == k]
+        if len(best) > 1:
+            best = [c for c in best if c["name"] == want]
         if best:
             return best[0]["tag"] if len(best) == 1 else None
     return None
@@ -105,7 +112,7 @@ def link_file(path, by_key, dry):
         if item.get("node"):
             stats["had"] += 1
             continue
-        tag = pick(by_key.get(key(item["name"]), []), item.get("kind"))
+        tag = pick(by_key.get(key(item["name"]), []), item.get("kind"), key(item["name"]))
         if not tag:
             continue
         stats["new"] += 1

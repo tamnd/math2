@@ -65,7 +65,7 @@ items:
   - {name: Blasius theorem, kind: statement, wikipedia: Blasius theorem, wikidata: Q881920, node: 2AV2N7HBV2}
   - {name: Kutta–Joukowski theorem, kind: statement, wikipedia: Kutta–Joukowski theorem, wikidata: Q1752988, node: TZM7XNR4V0}
   - {name: Kutta condition, kind: definition, wikipedia: Kutta condition, wikidata: Q1154278, node: DSWYGZCGM5}
-  - {name: Joukowsky transform, kind: definition, wikipedia: Joukowsky transform, wikidata: Q1794703}
+  - {name: Joukowsky transform, kind: definition, wikipedia: Joukowsky transform, wikidata: Q1794703, node: 3DJ46V21KH}
   - {name: Milne-Thomson circle theorem, kind: statement, wikipedia: Milne-Thomson circle theorem, wikidata: Q6860189, node: TY2JZPPKVB}
   - {name: added mass, kind: concept, wikipedia: Added mass, wikidata: Q4681030, node: 2BS252PEJG}
   # Water waves and free surfaces

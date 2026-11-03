@@ -54,7 +54,7 @@ items:
   - {name: moment-generating function, kind: definition, decl: ProbabilityTheory.mgf, wikipedia: Moment generating function, wikidata: Q535587, node: 0WQVXP7PDB}
   - {name: cumulant, kind: definition, decl: ProbabilityTheory.cgf, wikipedia: Cumulant, wikidata: Q746007, node: 9F3ZTTT9HA}
   - {name: probability-generating function, kind: definition, wikipedia: Probability generating function, wikidata: Q372071, node: 0EBCWQ8BVE}
-  - {name: characteristic function, kind: definition, decl: MeasureTheory.charFun, wikipedia: Characteristic function (probability theory), wikidata: Q822139, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: characteristic function, kind: definition, decl: MeasureTheory.charFun, wikipedia: Characteristic function (probability theory), wikidata: Q822139, mathlib: [mathlib-undergrad, mathlib-overview], node: 0V5B6D6BQH}
   - {name: characteristic function determines the distribution, kind: statement, decl: MeasureTheory.Measure.ext_of_charFun, wikipedia: Characteristic function (probability theory), wikidata: Q822139, node: 0T8BYAFEXX}
   - {name: Bochner's theorem, kind: statement, wikipedia: Bochner's theorem, wikidata: Q4936242, node: ZRHAG4NXHC}
   - {name: Cramér–Wold theorem, kind: statement, wikipedia: Cramér–Wold theorem, wikidata: Q966837, node: 3HFP9ZQ580}
@@ -264,7 +264,7 @@ items:
   - {name: Lovász local lemma, kind: statement, wikipedia: Lovász local lemma, wikidata: Q831721, node: 35YQ94FNV1}
   - {name: Erdős–Rényi model, kind: definition, wikipedia: Erdős–Rényi model, wikidata: Q605807, node: 6E83YKANV3}
   - {name: coupon collector's problem, kind: problem, wikipedia: Coupon collector's problem, wikidata: Q1148012, node: 0MXCP7MXWJ}
-  - {name: birthday problem, kind: problem, wikipedia: Birthday problem, wikidata: Q339000}
+  - {name: birthday problem, kind: problem, wikipedia: Birthday problem, wikidata: Q339000, node: 0NMWG2PHJ0}
   - {name: Bertrand's ballot theorem, kind: statement, wikipedia: Bertrand's ballot theorem, wikidata: Q2253746, node: 0FS972T0ZH}
   - {name: Buffon's needle problem, kind: problem, wikipedia: Buffon's needle problem, wikidata: Q1753097, node: 06X5PF6YFP}
   - {name: stochastic geometry, kind: concept, wikipedia: Stochastic geometry, wikidata: Q1666739, node: 2J9GB49FHA}

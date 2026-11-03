@@ -52,7 +52,7 @@ items:
   - {name: torsion-free group, kind: definition, decl: IsMulTorsionFree, wikipedia: Torsion (algebra), wikidata: Q382874, node: PEMNN32A43}
   # Group actions and permutation groups
   - {name: group action, kind: definition, decl: MulAction, wikipedia: Group action, wikidata: Q288465, mathlib: [mathlib-undergrad, mathlib-overview], node: 0WCY42EV9V}
-  - {name: orbit, kind: definition, decl: MulAction.orbit, wikipedia: Group action, wikidata: Q288465, mathlib: [mathlib-undergrad]}
+  - {name: orbit, kind: definition, decl: MulAction.orbit, wikipedia: Group action, wikidata: Q288465, mathlib: [mathlib-undergrad], node: 0YQPZB5Q1G}
   - {name: stabilizer, kind: definition, decl: MulAction.stabilizer, wikipedia: Group action, wikidata: Q288465, mathlib: [mathlib-undergrad], node: 0AYMP41THN}
   - {name: orbit-stabilizer theorem, kind: statement, decl: MulAction.orbitEquivQuotientStabilizer, wikipedia: Group action, wikidata: Q288465, mathlib: [mathlib-undergrad, mathlib-1000], node: 0E2HSCKZ6C}
   - {name: Burnside's lemma, kind: statement, decl: MulAction.sum_card_fixedBy_eq_card_orbits_mul_card_group, wikipedia: Burnside's lemma, wikidata: Q1330377, mathlib: [mathlib-overview], node: 0Z47M1B2VS}
@@ -224,11 +224,11 @@ items:
   - {name: elementary abelian group, kind: definition, wikipedia: Elementary abelian group, wikidata: Q1017231, node: DZSZ8ZS554}
   - {name: profinite group, kind: definition, decl: ProfiniteGrp, wikipedia: Profinite group, wikidata: Q1428923, node: KA0YDB6QXE}
   # Linear and matrix groups
-  - {name: general linear group, kind: definition, decl: Matrix.GeneralLinearGroup, wikipedia: General linear group, wikidata: Q524607, mathlib: [mathlib-undergrad]}
-  - {name: special linear group, kind: definition, decl: Matrix.SpecialLinearGroup, wikipedia: Special linear group, wikidata: Q2140900, mathlib: [mathlib-undergrad]}
-  - {name: orthogonal group, kind: definition, decl: Matrix.orthogonalGroup, wikipedia: Orthogonal group, wikidata: Q1783179, mathlib: [mathlib-undergrad]}
-  - {name: unitary group, kind: definition, decl: Matrix.unitaryGroup, wikipedia: Unitary group, wikidata: Q1500617, mathlib: [mathlib-undergrad]}
-  - {name: symplectic group, kind: definition, decl: Matrix.symplecticGroup, wikipedia: Symplectic group, wikidata: Q936434}
+  - {name: general linear group, kind: definition, decl: Matrix.GeneralLinearGroup, wikipedia: General linear group, wikidata: Q524607, mathlib: [mathlib-undergrad], node: 0FCHE902D7}
+  - {name: special linear group, kind: definition, decl: Matrix.SpecialLinearGroup, wikipedia: Special linear group, wikidata: Q2140900, mathlib: [mathlib-undergrad], node: 0V9PMN0RBH}
+  - {name: orthogonal group, kind: definition, decl: Matrix.orthogonalGroup, wikipedia: Orthogonal group, wikidata: Q1783179, mathlib: [mathlib-undergrad], node: 0TKYAEJ8N7}
+  - {name: unitary group, kind: definition, decl: Matrix.unitaryGroup, wikipedia: Unitary group, wikidata: Q1500617, mathlib: [mathlib-undergrad], node: 0R9R0Y1HDK}
+  - {name: symplectic group, kind: definition, decl: Matrix.symplecticGroup, wikipedia: Symplectic group, wikidata: Q936434, node: X12FS2JAP0}
   - {name: classical group, kind: definition, wikipedia: Classical group, wikidata: Q2285809, node: 75H4HY10Z4}
   - {name: modular group, kind: example, wikipedia: Modular group, wikidata: Q1834342, node: VEKV1EM77B}
   - {name: linear algebraic group, kind: definition, wikipedia: Linear algebraic group, wikidata: Q6553407, node: GA81VVQHEP}

@@ -107,7 +107,7 @@ items:
   - {name: polyhedron, kind: definition, wikipedia: Polyhedron, wikidata: Q172937, node: 0325SGSJAR}
   - {name: Minkowski–Weyl theorem, kind: statement, wikipedia: Convex polytope, wikidata: Q4129097, node: 5DFMMGGD9Y}
   - {name: H-representation and V-representation, kind: concept, wikipedia: Convex polytope, wikidata: Q4129097, node: W8P2G5R02N}
-  - {name: face lattice, kind: definition, wikipedia: Abstract polytope, wikidata: Q4669958}
+  - {name: face lattice, kind: definition, wikipedia: Abstract polytope, wikidata: Q4669958, node: XDZQYX6AQ3}
   - {name: facet, kind: definition, wikipedia: Facet (geometry), wikidata: Q3847020, node: DPDXN2FJC4}
   - {name: vertex of a polytope, kind: definition, wikipedia: Vertex (geometry), wikidata: Q26401, node: R7V3S9V891}
   - {name: simplex, kind: definition, decl: stdSimplex, wikipedia: Simplex, wikidata: Q331350, node: YX1DJK2QAG}
@@ -210,7 +210,7 @@ items:
   - {name: Penrose tiling, kind: example, wikipedia: Penrose tiling, wikidata: Q585688, node: MBE83FTRBG}
   - {name: aperiodic set of prototiles, kind: definition, wikipedia: Aperiodic set of prototiles, wikidata: Q17002261, node: Z3FCJZF6WK}
   - {name: einstein problem, kind: statement, wikipedia: Einstein problem, wikidata: Q18204561, node: F456KQGPFV}
-  - {name: Wang tile, kind: definition, wikipedia: Wang tile, wikidata: Q474147}
+  - {name: Wang tile, kind: definition, wikipedia: Wang tile, wikidata: Q474147, node: BBYNPDWR5R}
   - {name: domino tiling, kind: concept, wikipedia: Domino tiling, wikidata: Q21042776, node: 83PJCPB9VA}
   - {name: Keller's conjecture, kind: statement, wikipedia: Keller's conjecture, wikidata: Q4802474, node: 9GQQ7TK36T}
   - {name: honeycomb, kind: definition, wikipedia: Honeycomb (geometry), wikidata: Q1189295, node: HTJ03RFKFH}

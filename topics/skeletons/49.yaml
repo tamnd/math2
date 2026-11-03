@@ -57,7 +57,7 @@ items:
   - {name: Noether's second theorem, kind: statement, wikipedia: Noether's second theorem, wikidata: Q10369454, node: PEDD2CP5PF}
   # Direct methods and existence of minimizers
   - {name: direct method in the calculus of variations, kind: concept, wikipedia: Direct method in the calculus of variations, wikidata: Q5280366, node: TE379HBTY0}
-  - {name: extreme value theorem, kind: statement, decl: IsCompact.exists_isMinOn, wikipedia: Extreme value theorem, wikidata: Q752375, mathlib: [mathlib-overview, mathlib-1000]}
+  - {name: extreme value theorem, kind: statement, decl: IsCompact.exists_isMinOn, wikipedia: Extreme value theorem, wikidata: Q752375, mathlib: [mathlib-overview, mathlib-1000], node: 0WS1A8E2P9}
   - {name: lower semicontinuous functional, kind: definition, decl: LowerSemicontinuous, wikipedia: Semi-continuity, wikidata: Q955072, node: RN4G8SGP6P}
   - {name: weak lower semicontinuity, kind: definition, wikipedia: Direct method in the calculus of variations, wikidata: Q5280366, node: H6GTJRG26G}
   - {name: coercive functional, kind: definition, wikipedia: Coercive function, wikidata: Q1597436, node: NGT5YCVAMR}

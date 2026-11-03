@@ -120,7 +120,7 @@ courses:
       - {name: minimal element, kind: definition, decl: Minimal, wikipedia: Maximal and minimal elements, wikidata: Q1475294, node: 0BXEZV83GY}
       - {name: greatest element, kind: definition, decl: IsGreatest, wikipedia: Greatest element and least element, wikidata: Q1196892, node: 0XR2QK49V6}
       - {name: least element, kind: definition, decl: IsLeast, wikipedia: Greatest element and least element, wikidata: Q1196892, node: 0AANKKNHS4}
-      - {name: upper bound, kind: definition, decl: upperBounds, wikipedia: Upper and lower bounds, wikidata: Q13222579}
+      - {name: upper bound, kind: definition, decl: upperBounds, wikipedia: Upper and lower bounds, wikidata: Q13222579, node: 0S60DVMVPN}
       - {name: chain, kind: definition, decl: IsChain, wikipedia: Total order, wikidata: Q369377, node: 0S8FE7ZMFM}
       - {name: antichain, kind: definition, decl: IsAntichain, wikipedia: Antichain, wikidata: Q431937, node: 03HF498P1J}
       - {name: monotone function, kind: definition, decl: Monotone, wikipedia: Monotonic function, wikidata: Q194404, node: 0A7KV2WB7A}
@@ -179,7 +179,7 @@ courses:
       - {name: mathematical induction, kind: concept, decl: Nat.rec, wikipedia: Mathematical induction, wikidata: Q178377, node: 0ASJVEFA9J}
       - {name: induction from an arbitrary base case, kind: statement, decl: Nat.le_induction, wikipedia: Mathematical induction, wikidata: Q178377, node: 0GF6AJEBZ0}
       - {name: strong induction, kind: statement, decl: Nat.strong_induction_on, wikipedia: Mathematical induction, wikidata: Q178377, node: 0KMVFSHFGZ}
-      - {name: well-ordering principle, kind: statement, decl: Nat.sInf_mem, wikipedia: Well-ordering principle, wikidata: Q2488476}
+      - {name: well-ordering principle, kind: statement, decl: Nat.sInf_mem, wikipedia: Well-ordering principle, wikidata: Q2488476, node: 01BX15HSRR}
       - {name: sum of the first n natural numbers, kind: statement, decl: Finset.sum_range_id_mul_two, wikipedia: Triangular number, wikidata: Q245102, node: 01QZNHQWYD}
       - {name: sum of a finite geometric progression, kind: statement, decl: geom_sum_eq, wikipedia: Geometric progression, wikidata: Q173523, node: 03X8V7D64M}
       - {name: Bernoulli's inequality, kind: statement, decl: one_add_mul_le_pow, wikipedia: Bernoulli's inequality, wikidata: Q728662, node: 0M1MX28VXK}
@@ -547,8 +547,8 @@ courses:
       - {name: Basel problem, kind: statement, decl: hasSum_zeta_two, wikipedia: Basel problem, wikidata: Q810431, mathlib: [mathlib-100, mathlib-1000], node: 0DMY75D6FV}
       - {name: sum of the reciprocals of the factorials, kind: example, wikipedia: E (mathematical constant), wikidata: Q82435, node: 0G4D3ZKTP8}
       - {name: decimal expansion as a series, kind: example, wikipedia: Decimal representation, wikidata: Q1376876, node: 0GT85FBPTS}
-      - {name: power series, kind: definition, wikipedia: Power series, wikidata: Q206925}
-      - {name: radius of convergence, kind: definition, decl: FormalMultilinearSeries.radius, wikipedia: Radius of convergence, wikidata: Q1428097, mathlib: [mathlib-undergrad]}
+      - {name: power series, kind: definition, wikipedia: Power series, wikidata: Q206925, node: 0MZB06ST2B}
+      - {name: radius of convergence, kind: definition, decl: FormalMultilinearSeries.radius, wikipedia: Radius of convergence, wikidata: Q1428097, mathlib: [mathlib-undergrad], node: 0N288P2TB5}
       - {name: Cauchy–Hadamard theorem, kind: statement, decl: FormalMultilinearSeries.radius_inv_eq_limsup, wikipedia: Cauchy–Hadamard theorem, wikidata: Q859122, mathlib: [mathlib-1000], node: 07E5MB1CA2}
       - {name: ratio formula for the radius of convergence, kind: statement, decl: FormalMultilinearSeries.ofScalars_radius_eq_inv_of_tendsto, wikipedia: Radius of convergence, wikidata: Q1428097, node: 0JBMYAA9QH}
       - {name: interval of convergence, kind: definition, wikipedia: Radius of convergence, wikidata: Q1428097, node: 0ED4HWNDGW}
@@ -566,7 +566,7 @@ courses:
       - {name: little o notation, kind: definition, decl: Asymptotics.IsLittleO, wikipedia: Big O notation, wikidata: Q269878, node: 00T5EPFQB9}
       - {name: asymptotic equivalence, kind: definition, decl: Asymptotics.IsEquivalent, wikipedia: Asymptotic analysis, wikidata: Q752718, node: 0QR92XBV6H}
       - {name: continuity at a point, kind: definition, decl: ContinuousAt, wikipedia: Continuous function, wikidata: Q170058, node: 0KRMJRDRZT}
-      - {name: continuous function, kind: definition, decl: Continuous, wikipedia: Continuous function, wikidata: Q170058, mathlib: [mathlib-undergrad, mathlib-overview]}
+      - {name: continuous function, kind: definition, decl: Continuous, wikipedia: Continuous function, wikidata: Q170058, mathlib: [mathlib-undergrad, mathlib-overview], node: 0X3WGX95FE}
       - {name: epsilon-delta definition of continuity, kind: statement, decl: Metric.continuousAt_iff, wikipedia: Continuous function, wikidata: Q170058, node: 0W8YHHGCJG}
       - {name: sequential continuity, kind: definition, decl: SeqContinuous, wikipedia: Continuous function, wikidata: Q170058, node: 055Z15H69G}
       - {name: continuity is equivalent to sequential continuity, kind: statement, decl: continuous_iff_seqContinuous, wikipedia: Continuous function, wikidata: Q170058, node: 0PAQM3H57X}
@@ -582,11 +582,11 @@ courses:
       - {name: Thomae's function, kind: example, wikipedia: Thomae's function, wikidata: Q776401, node: 0HJ28H9Y95}
       - {name: sin(1/x) has no limit at 0, kind: counterexample, wikipedia: Topologist's sine curve, wikidata: Q1148367, node: 0AFWQZ1PKF}
       - {name: x sin(1/x) is continuous at 0, kind: example, wikipedia: Topologist's sine curve, wikidata: Q1148367, node: 0EZMAY1FQD}
-      - {name: intermediate value theorem, kind: statement, decl: intermediate_value_Icc, wikipedia: Intermediate value theorem, wikidata: Q245098, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-100, mathlib-1000]}
+      - {name: intermediate value theorem, kind: statement, decl: intermediate_value_Icc, wikipedia: Intermediate value theorem, wikidata: Q245098, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-100, mathlib-1000], node: 00KAFBR32E}
       - {name: existence of nth roots by the intermediate value theorem, kind: example, wikipedia: Nth root, wikidata: Q601053, node: 0J29GM30Z7}
       - {name: continuous image of a closed interval is a closed interval, kind: statement, decl: ContinuousOn.image_Icc, wikipedia: Intermediate value theorem, wikidata: Q245098, mathlib: [mathlib-undergrad], node: 06ZARTQTQE}
       - {name: boundedness theorem, kind: statement, decl: IsCompact.bddAbove_image, wikipedia: Extreme value theorem, wikidata: Q752375, node: 0ATVXC3NCC}
-      - {name: extreme value theorem, kind: statement, decl: IsCompact.exists_isMinOn, wikipedia: Extreme value theorem, wikidata: Q752375, mathlib: [mathlib-overview, mathlib-1000]}
+      - {name: extreme value theorem, kind: statement, decl: IsCompact.exists_isMinOn, wikipedia: Extreme value theorem, wikidata: Q752375, mathlib: [mathlib-overview, mathlib-1000], node: 0WS1A8E2P9}
       - {name: uniform continuity, kind: definition, decl: UniformContinuous, wikipedia: Uniform continuity, wikidata: Q741865, node: 0M4JJT780X}
       - {name: uniform continuity on a set, kind: definition, decl: UniformContinuousOn, wikipedia: Uniform continuity, wikidata: Q741865, node: 07RB7B04HX}
       - {name: continuous functions on a closed bounded interval are uniformly continuous, kind: statement, decl: IsCompact.uniformContinuousOn_of_continuous, wikipedia: Heine–Cantor theorem, wikidata: Q765987, node: 0W0TZDRF9C}
@@ -610,7 +610,7 @@ courses:
       - {name: absolute value is continuous but not differentiable at 0, kind: counterexample, decl: not_differentiableAt_abs_zero, wikipedia: Absolute value, wikidata: Q120812, node: 0CQ9ZM383N}
       - {name: linearity of differentiation, kind: statement, decl: deriv_add, wikipedia: Linearity of differentiation, wikidata: Q4895685, node: 0M0TKFRX2A}
       - {name: constant multiple rule, kind: statement, decl: deriv_const_mul, wikipedia: Linearity of differentiation, wikidata: Q4895685, node: 0Z9JB71BS0}
-      - {name: product rule, kind: statement, decl: HasDerivAt.mul, wikipedia: Product rule, wikidata: Q466720}
+      - {name: product rule, kind: statement, decl: HasDerivAt.mul, wikipedia: Product rule, wikidata: Q466720, node: 0V9A43H7WV}
       - {name: quotient rule, kind: statement, decl: HasDerivAt.div, wikipedia: Quotient rule, wikidata: Q531392, node: 0BS0NJPKVE}
       - {name: reciprocal rule, kind: statement, decl: HasDerivAt.inv, wikipedia: Reciprocal rule, wikidata: Q1246553, node: 0QD4E5JYPT}
       - {name: chain rule, kind: statement, decl: HasDerivAt.comp, wikipedia: Chain rule, wikidata: Q207455, node: 0RXX2PT1MQ}
@@ -714,10 +714,10 @@ courses:
       - {name: Dirichlet integral, kind: example, wikipedia: Dirichlet integral, wikidata: Q778099, node: 0GZNSHMG4Q}
       - {name: gamma function, kind: definition, decl: Real.Gamma, wikipedia: Gamma function, wikidata: Q190573, node: 0H5SYBSED9}
       - {name: the gamma function extends the factorial, kind: statement, decl: Real.Gamma_nat_eq_factorial, wikipedia: Gamma function, wikidata: Q190573, node: 0FDCW77H44}
-      - {name: exponential function, kind: definition, decl: Real.exp, wikipedia: Exponential function, wikidata: Q168698, mathlib: [mathlib-undergrad, mathlib-overview]}
+      - {name: exponential function, kind: definition, decl: Real.exp, wikipedia: Exponential function, wikidata: Q168698, mathlib: [mathlib-undergrad, mathlib-overview], node: 0J0FCWV32D}
       - {name: power series of the exponential function, kind: statement, wikipedia: Exponential function, wikidata: Q168698, node: 06JZGMYTYD}
       - {name: the exponential series has infinite radius of convergence, kind: statement, decl: NormedSpace.expSeries_radius_eq_top, wikipedia: Exponential function, wikidata: Q168698, node: 0PVJRACB9H}
-      - {name: exponential of a sum, kind: statement, decl: Real.exp_add, wikipedia: Exponential function, wikidata: Q168698}
+      - {name: exponential of a sum, kind: statement, decl: Real.exp_add, wikipedia: Exponential function, wikidata: Q168698, node: 0E8HNVBCSP}
       - {name: the exponential function is its own derivative, kind: statement, decl: Real.hasDerivAt_exp, wikipedia: Exponential function, wikidata: Q168698, node: 0EX9GFJ0B3}
       - {name: the exponential function is positive, kind: statement, decl: Real.exp_pos, wikipedia: Exponential function, wikidata: Q168698, node: 0P9BNBW2W3}
       - {name: the exponential function is strictly increasing, kind: statement, decl: Real.exp_strictMono, wikipedia: Exponential function, wikidata: Q168698, node: 0KN2V7840E}
@@ -730,10 +730,10 @@ courses:
       - {name: logarithm of a product, kind: statement, decl: Real.log_mul, wikipedia: Natural logarithm, wikidata: Q204037, node: 0K2FNY6DYV}
       - {name: logarithm of a quotient, kind: statement, decl: Real.log_div, wikipedia: Natural logarithm, wikidata: Q204037, node: 0J7PHRBNNS}
       - {name: logarithm of a power, kind: statement, decl: Real.log_pow, wikipedia: Natural logarithm, wikidata: Q204037, node: 0V948DE5KA}
-      - {name: derivative of the logarithm, kind: statement, decl: Real.hasDerivAt_log, wikipedia: Natural logarithm, wikidata: Q204037}
+      - {name: derivative of the logarithm, kind: statement, decl: Real.hasDerivAt_log, wikipedia: Natural logarithm, wikidata: Q204037, node: 07X1QA6BRW}
       - {name: log x is at most x - 1, kind: statement, decl: Real.log_le_sub_one_of_pos, wikipedia: Natural logarithm, wikidata: Q204037, node: 04CBRA4JRK}
       - {name: the logarithm grows slower than any power, kind: statement, decl: Real.isLittleO_log_id_atTop, wikipedia: Natural logarithm, wikidata: Q204037, node: 00DGYY10FV}
-      - {name: Mercator series, kind: statement, decl: Real.hasSum_pow_div_log_of_abs_lt_one, wikipedia: Mercator series, wikidata: Q677568}
+      - {name: Mercator series, kind: statement, decl: Real.hasSum_pow_div_log_of_abs_lt_one, wikipedia: Mercator series, wikidata: Q677568, node: 0YZXNE3HFR}
       - {name: real exponentiation, kind: definition, decl: Real.rpow, wikipedia: Exponentiation, wikidata: Q33456, mathlib: [mathlib-undergrad], node: 091AV9YHZY}
       - {name: derivative of x^a, kind: statement, decl: Real.hasDerivAt_rpow_const, wikipedia: Power rule, wikidata: Q1190543, node: 0KY08TWDMQ}
       - {name: square root function, kind: definition, decl: Real.sqrt, wikipedia: Square root, wikidata: Q134237, node: 0E10E0NW9V}
@@ -885,7 +885,7 @@ courses:
       - {name: dimension of a direct product, kind: statement, decl: Module.finrank_prod, wikipedia: Direct sum of modules, wikidata: Q1142861, node: 06HN47VPTH}
       - {name: complementary subspaces, kind: definition, decl: IsCompl, wikipedia: Complemented subspace, wikidata: Q137454148, node: 0M83V17KHX}
       - {name: existence of a complementary subspace, kind: statement, decl: Submodule.exists_isCompl, wikipedia: Complemented subspace, wikidata: Q137454148, mathlib: [mathlib-undergrad], node: 0P9T8WHNMH}
-      - {name: quotient space, kind: definition, decl: Submodule.hasQuotient, wikipedia: Quotient space (linear algebra), wikidata: Q1393796, mathlib: [mathlib-undergrad, mathlib-overview]}
+      - {name: quotient space, kind: definition, decl: Submodule.hasQuotient, wikipedia: Quotient space (linear algebra), wikidata: Q1393796, mathlib: [mathlib-undergrad, mathlib-overview], node: 0BR3FY5Q8M}
       - {name: quotient map, kind: definition, decl: Submodule.mkQ, wikipedia: Quotient space (linear algebra), wikidata: Q1393796, node: 0N4F5FMQZW}
       - {name: dimension of a quotient space, kind: statement, decl: Submodule.finrank_quotient_add_finrank, wikipedia: Quotient space (linear algebra), wikidata: Q1393796, node: 0SXDQ6TN00}
       - {name: linear map, kind: definition, decl: LinearMap, wikipedia: Linear map, wikidata: Q207643, mathlib: [mathlib-undergrad, mathlib-overview], node: 0NRYHJPQG2}
@@ -994,7 +994,7 @@ courses:
       - {name: Gershgorin circle theorem, kind: statement, decl: eigenvalue_mem_ball, wikipedia: Gershgorin circle theorem, wikidata: Q978688, mathlib: [mathlib-1000], node: 0ETGP0XVCJ}
       - {name: polynomial of an endomorphism, kind: definition, decl: Polynomial.aeval, wikipedia: Matrix polynomial, wikidata: Q6787887, node: 0E3MV6E6MG}
       - {name: annihilating polynomial, kind: definition, decl: Polynomial.annIdeal, wikipedia: Minimal polynomial (linear algebra), wikidata: Q1163608, mathlib: [mathlib-undergrad], node: 0PBN8VEKY8}
-      - {name: minimal polynomial, kind: definition, decl: minpoly, wikipedia: Minimal polynomial (linear algebra), wikidata: Q1163608, mathlib: [mathlib-undergrad, mathlib-overview]}
+      - {name: minimal polynomial, kind: definition, decl: minpoly, wikipedia: Minimal polynomial (linear algebra), wikidata: Q1163608, mathlib: [mathlib-undergrad, mathlib-overview], node: 03NDVCSHSB}
       - {name: minimal polynomial divides every annihilating polynomial, kind: statement, decl: minpoly.dvd, wikipedia: Minimal polynomial (linear algebra), wikidata: Q1163608, node: 0VTAD25A3G}
       - {name: eigenvalues are the roots of the minimal polynomial, kind: statement, decl: Module.End.hasEigenvalue_iff_isRoot, wikipedia: Minimal polynomial (linear algebra), wikidata: Q1163608, node: 0QF4ZEFG52}
       - {name: Cayley–Hamilton theorem, kind: statement, decl: Matrix.aeval_self_charpoly, wikipedia: Cayley–Hamilton theorem, wikidata: Q656772, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-100, mathlib-1000], node: 0F765KFC2J}
@@ -1100,7 +1100,7 @@ courses:
       - {name: Sylvester's law of inertia, kind: statement, decl: QuadraticForm.equivalent_one_zero_neg_one_weighted_sum_squared, wikipedia: Sylvester's law of inertia, wikidata: Q1752621, mathlib: [mathlib-undergrad, mathlib-1000], node: 0WFED3K3DQ}
       - {name: signature of a quadratic form, kind: definition, wikipedia: Metric signature, wikidata: Q1142562, node: 07EZA80NEH}
       - {name: classification of complex quadratic forms, kind: statement, decl: QuadraticForm.equivalent_weightedSumSquares_of_isAlgClosed, wikipedia: Quadratic form, wikidata: Q736753, mathlib: [mathlib-undergrad], node: 0CEX9BRXRZ}
-      - {name: positive definite quadratic form, kind: definition, decl: QuadraticMap.PosDef, wikipedia: Definite quadratic form, wikidata: Q1182685}
+      - {name: positive definite quadratic form, kind: definition, decl: QuadraticMap.PosDef, wikipedia: Definite quadratic form, wikidata: Q1182685, node: 0RP20HFYM3}
       - {name: principal axis theorem, kind: statement, wikipedia: Principal axis theorem, wikidata: Q7245073, node: 0PR5P9Z4KM}
       - {name: tensor product of vector spaces, kind: definition, decl: TensorProduct, wikipedia: Tensor product, wikidata: Q1163016, mathlib: [mathlib-overview], node: 0BF2DE2SYK}
       - {name: universal property of the tensor product, kind: statement, decl: TensorProduct.lift, wikipedia: Tensor product, wikidata: Q1163016, node: 0YDRV01R8F}
@@ -1166,7 +1166,7 @@ courses:
       - {name: Heron's formula, kind: statement, wikipedia: Heron's formula, wikidata: Q182714, node: 0FRBZ2X4HJ}
       - {name: median of a triangle, kind: definition, decl: Affine.Simplex.median, wikipedia: Median (geometry), wikidata: Q235001, node: 0XW8HX8VEV}
       - {name: Apollonius's theorem, kind: statement, decl: EuclideanGeometry.dist_sq_add_dist_sq_eq_two_mul_dist_midpoint_sq_add_half_dist_sq, wikipedia: Apollonius's theorem, wikidata: Q877489, mathlib: [mathlib-1000], node: 0NAKHQ9XYY}
-      - {name: centroid, kind: definition, decl: Finset.centroid, wikipedia: Centroid, wikidata: Q511093}
+      - {name: centroid, kind: definition, decl: Finset.centroid, wikipedia: Centroid, wikidata: Q511093, node: 0X7EEWES5G}
       - {name: the medians meet at the centroid, kind: statement, decl: Affine.Simplex.centroid_mem_median, wikipedia: Centroid, wikidata: Q511093, node: 0GPQ67XV7N}
       - {name: perpendicular bisector, kind: definition, decl: AffineSubspace.perpBisector, wikipedia: Bisection, wikidata: Q3128632, node: 055VNYT0PB}
       - {name: circumcentre, kind: definition, decl: Affine.Simplex.circumcenter, wikipedia: Circumcircle, wikidata: Q2946460, node: 0F98FZK14A}
@@ -1529,7 +1529,7 @@ courses:
       - {name: internal direct product, kind: definition, wikipedia: Direct product of groups, wikidata: Q2725924, node: 0VBZH90R1A}
       - {name: semidirect product, kind: definition, decl: SemidirectProduct, wikipedia: Semidirect product, wikidata: Q291126, node: 0H3WZXCZNF}
       - {name: group action, kind: definition, decl: MulAction, wikipedia: Group action, wikidata: Q288465, mathlib: [mathlib-undergrad, mathlib-overview], node: 0WCY42EV9V}
-      - {name: orbit, kind: definition, decl: MulAction.orbit, wikipedia: Group action, wikidata: Q288465, mathlib: [mathlib-undergrad]}
+      - {name: orbit, kind: definition, decl: MulAction.orbit, wikipedia: Group action, wikidata: Q288465, mathlib: [mathlib-undergrad], node: 0YQPZB5Q1G}
       - {name: orbits partition the set, kind: statement, decl: MulAction.IsPartition.of_orbits, wikipedia: Group action, wikidata: Q288465, node: 0ZC7FYE0NZ}
       - {name: stabiliser, kind: definition, decl: MulAction.stabilizer, wikipedia: Group action, wikidata: Q288465, mathlib: [mathlib-undergrad], node: 0AYMP41THN}
       - {name: fixed points of an action, kind: definition, decl: MulAction.fixedPoints, wikipedia: Group action, wikidata: Q288465, node: 0RRWNMYRXC}
@@ -1879,7 +1879,7 @@ courses:
       - {name: Jacobian of spherical coordinates, kind: statement, wikipedia: Spherical coordinate system, wikidata: Q203218, node: 05WKRC7HWT}
       - {name: volume of a ball in R^n, kind: statement, decl: EuclideanSpace.volume_ball, wikipedia: Volume of an n-ball, wikidata: Q2933696, node: 00YH28R457}
       - {name: volume of a ball in R^3, kind: statement, decl: EuclideanSpace.volume_ball_fin_three, wikipedia: Ball (mathematics), wikidata: Q838611, node: 0WMDV48VSN}
-      - {name: centre of mass, kind: definition, wikipedia: Center of mass, wikidata: Q2945123}
+      - {name: centre of mass, kind: definition, wikipedia: Center of mass, wikidata: Q2945123, node: 0HNK6KT05K}
       - {name: moment of inertia, kind: definition, wikipedia: Moment of inertia, wikidata: Q165618, node: 08ANASGBXV}
       - {name: improper multiple integral, kind: concept, wikipedia: Improper integral, wikidata: Q464118, node: 0CWK2NFSEW}
       - {name: differentiation under the integral sign, kind: statement, decl: hasFDerivAt_integral_of_dominated_of_fderiv_le, wikipedia: Leibniz integral rule, wikidata: Q2996637, node: 0AR06W1E1B}
@@ -2356,7 +2356,7 @@ courses:
       - {name: random variable with a density, kind: definition, decl: MeasureTheory.HasPDF, wikipedia: Probability density function, wikidata: Q207522, mathlib: [mathlib-undergrad, mathlib-overview], node: 045D8P03E0}
       - {name: probability density function, kind: definition, decl: MeasureTheory.pdf, wikipedia: Probability density function, wikidata: Q207522, node: 0ZY9DX8FBF}
       - {name: quantile function, kind: definition, wikipedia: Quantile function, wikidata: Q3489473, node: 0X60VE98HN}
-      - {name: median, kind: definition, wikipedia: Median, wikidata: Q226995}
+      - {name: median, kind: definition, wikipedia: Median, wikidata: Q226995, node: 07Y2E7P9NP}
       - {name: discrete uniform distribution, kind: definition, decl: MeasureTheory.Measure.uniformOfFinset, wikipedia: Discrete uniform distribution, wikidata: Q3574718, node: 02MY6WZXEQ}
       - {name: Bernoulli distribution, kind: definition, decl: ProbabilityTheory.bernoulliMeasure, wikipedia: Bernoulli distribution, wikidata: Q391371, mathlib: [mathlib-undergrad, mathlib-overview], node: 0386Y0Z7Y7}
       - {name: binomial distribution, kind: definition, decl: ProbabilityTheory.binomial, wikipedia: Binomial distribution, wikidata: Q185547, mathlib: [mathlib-undergrad, mathlib-overview], node: 0WCWA1KT3M}
@@ -2414,7 +2414,7 @@ courses:
       - {name: moment-generating function of a sum of independent random variables, kind: statement, decl: ProbabilityTheory.IndepFun.mgf_add, wikipedia: Moment generating function, wikidata: Q535587, node: 0WRZ170YEH}
       - {name: moment-generating function of the normal distribution, kind: statement, decl: ProbabilityTheory.mgf_gaussianReal, wikipedia: Normal distribution, wikidata: Q133871, node: 0B1G4E21G7}
       - {name: cumulant generating function, kind: definition, decl: ProbabilityTheory.cgf, wikipedia: Cumulant, wikidata: Q746007, node: 0N2SP6K9ZC}
-      - {name: characteristic function, kind: definition, decl: MeasureTheory.charFun, wikipedia: Characteristic function (probability theory), wikidata: Q822139, mathlib: [mathlib-undergrad, mathlib-overview]}
+      - {name: characteristic function, kind: definition, decl: MeasureTheory.charFun, wikipedia: Characteristic function (probability theory), wikidata: Q822139, mathlib: [mathlib-undergrad, mathlib-overview], node: 0V5B6D6BQH}
       - {name: characteristic function of a sum of independent random variables, kind: statement, decl: ProbabilityTheory.IndepFun.charFun_map_add_eq_mul, wikipedia: Characteristic function (probability theory), wikidata: Q822139, node: 02JGYG0T7M}
       - {name: characteristic function of the normal distribution, kind: statement, decl: ProbabilityTheory.charFun_gaussianReal, wikipedia: Normal distribution, wikidata: Q133871, node: 0NS0TDA4E2}
       - {name: the characteristic function determines the distribution, kind: statement, decl: MeasureTheory.Measure.ext_of_charFun, wikipedia: Characteristic function (probability theory), wikidata: Q822139, node: 0T8BYAFEXX}
@@ -2455,7 +2455,7 @@ courses:
       - {name: gambler's ruin, kind: problem, wikipedia: Gambler's ruin, wikidata: Q660446, node: 0WFMKK7DFZ}
       - {name: Markov chain, kind: definition, wikipedia: Markov chain, wikidata: Q176645, node: 0G48PYM96Q}
       - {name: Markov property, kind: definition, wikipedia: Markov property, wikidata: Q176695, node: 0B77KZCQ51}
-      - {name: transition matrix, kind: definition, decl: Matrix.rowStochastic, wikipedia: Stochastic matrix, wikidata: Q176583}
+      - {name: transition matrix, kind: definition, decl: Matrix.rowStochastic, wikipedia: Stochastic matrix, wikidata: Q176583, node: 0F462493EA}
       - {name: Chapman–Kolmogorov equation, kind: statement, wikipedia: Chapman–Kolmogorov equation, wikidata: Q722882, node: 01APZ8GDQH}
       - {name: stationary distribution, kind: definition, decl: ProbabilityTheory.Kernel.Invariant, wikipedia: Discrete-time Markov chain, wikidata: Q16109430, node: 0KRH5157WP}
       - {name: absorbing Markov chain, kind: definition, wikipedia: Absorbing Markov chain, wikidata: Q4669888, node: 03AN9X29R7}

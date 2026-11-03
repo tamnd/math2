@@ -11,10 +11,10 @@ sources:
   mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
 items:
   # The real line
-  - {name: real number, kind: definition, decl: Real, wikipedia: Real number, wikidata: Q12916, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: real number, kind: definition, decl: Real, wikipedia: Real number, wikidata: Q12916, mathlib: [mathlib-undergrad, mathlib-overview], node: 08J2M1JYAG}
   - {name: least-upper-bound property, kind: statement, decl: Real.exists_isLUB, wikipedia: Least-upper-bound property, wikidata: Q1254734, node: 0AXWET80YW}
   - {name: Archimedean property, kind: statement, decl: Archimedean, wikipedia: Archimedean property, wikidata: Q634579, node: 0A74SX55QP}
-  - {name: extended real number line, kind: definition, decl: EReal, wikipedia: Extended real number line, wikidata: Q2039387, mathlib: [mathlib-overview]}
+  - {name: extended real number line, kind: definition, decl: EReal, wikipedia: Extended real number line, wikidata: Q2039387, mathlib: [mathlib-overview], node: 0GSZ7B0CGR}
   - {name: Dedekind cut, kind: definition, wikipedia: Dedekind cut, wikidata: Q851333, node: 0G3RRM41X9}
   - {name: Cauchy sequence, kind: definition, wikipedia: Cauchy sequence, wikidata: Q217847, node: 0PWX18FM4G}
   - {name: completeness of the real numbers, kind: statement, decl: Real.instCompleteSpace, wikipedia: Completeness of the real numbers, wikidata: Q1324487, mathlib: [mathlib-undergrad], node: E3CPZNJZNG}
@@ -29,7 +29,7 @@ items:
   # Limits and continuity
   - {name: limit of a function, kind: definition, wikipedia: Limit of a function, wikidata: Q33540, node: 0PKRYB8ATM}
   - {name: one-sided limit, kind: definition, wikipedia: One-sided limit, wikidata: Q2633817, node: 00BE2J8H05}
-  - {name: continuous function, kind: definition, decl: Continuous, wikipedia: Continuous function, wikidata: Q170058, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: continuous function, kind: definition, decl: Continuous, wikipedia: Continuous function, wikidata: Q170058, mathlib: [mathlib-undergrad, mathlib-overview], node: 0X3WGX95FE}
   - {name: classification of discontinuities, kind: concept, wikipedia: Classification of discontinuities, wikidata: Q541961, node: 04R9K5H562}
   - {name: uniform continuity, kind: definition, decl: UniformContinuous, wikipedia: Uniform continuity, wikidata: Q741865, node: 0M4JJT780X}
   - {name: Lipschitz continuity, kind: definition, decl: LipschitzWith, wikipedia: Lipschitz continuity, wikidata: Q652707, mathlib: [mathlib-undergrad, mathlib-overview], node: 0AW1E6YTJY}
@@ -37,10 +37,10 @@ items:
   - {name: modulus of continuity, kind: definition, wikipedia: Modulus of continuity, wikidata: Q1144872, node: AXCJBSQZWF}
   - {name: semi-continuity, kind: definition, decl: LowerSemicontinuous, wikipedia: Semi-continuity, wikidata: Q955072, node: 95BSKT0S6M}
   - {name: oscillation of a function, kind: definition, wikipedia: Oscillation (mathematics), wikidata: Q7106411, node: 5XW4N8KY3Y}
-  - {name: intermediate value theorem, kind: statement, decl: intermediate_value_Icc, wikipedia: Intermediate value theorem, wikidata: Q245098, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-100, mathlib-1000]}
-  - {name: extreme value theorem, kind: statement, decl: IsCompact.exists_isMaxOn, wikipedia: Extreme value theorem, wikidata: Q752375}
+  - {name: intermediate value theorem, kind: statement, decl: intermediate_value_Icc, wikipedia: Intermediate value theorem, wikidata: Q245098, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-100, mathlib-1000], node: 00KAFBR32E}
+  - {name: extreme value theorem, kind: statement, decl: IsCompact.exists_isMaxOn, wikipedia: Extreme value theorem, wikidata: Q752375, node: 0WS1A8E2P9}
   - {name: Heine–Cantor theorem, kind: statement, decl: CompactSpace.uniformContinuous_of_continuous, wikipedia: Heine–Cantor theorem, wikidata: Q765987, mathlib: [mathlib-undergrad, mathlib-overview, mathlib-1000], node: 06B8BNJCD6}
-  - {name: Dirichlet function, kind: example, wikipedia: Dirichlet function, wikidata: Q948386}
+  - {name: Dirichlet function, kind: example, wikipedia: Dirichlet function, wikidata: Q948386, node: 0T4EJ8ZJM9}
   - {name: Thomae's function, kind: example, wikipedia: Thomae's function, wikidata: Q776401, node: 0HJ28H9Y95}
   - {name: Weierstrass function, kind: counterexample, wikipedia: Weierstrass function (nowhere-differentiable function), wikidata: Q94491, node: 01A0MK1730}
   - {name: Cantor function, kind: counterexample, wikipedia: Cantor function, wikidata: Q938883, node: NPBYYK63FE}
@@ -60,8 +60,8 @@ items:
   - {name: termwise differentiation of uniformly convergent series, kind: statement, decl: hasDerivAt_of_tendstoUniformlyOn, wikipedia: Uniform convergence, wikidata: Q1411887, node: 0TJ8QBJX5K}
   - {name: Weierstrass approximation theorem, kind: statement, decl: exists_polynomial_near_continuousMap, wikipedia: Stone–Weierstrass theorem, wikidata: Q939927, node: 0JQE130DHW}
   - {name: Bernstein polynomial, kind: definition, decl: bernsteinPolynomial, wikipedia: Bernstein polynomial, wikidata: Q826841, node: 0JT92VK307}
-  - {name: power series, kind: definition, wikipedia: Power series, wikidata: Q206925}
-  - {name: radius of convergence, kind: definition, wikipedia: Radius of convergence, wikidata: Q1428097}
+  - {name: power series, kind: definition, wikipedia: Power series, wikidata: Q206925, node: 0MZB06ST2B}
+  - {name: radius of convergence, kind: definition, wikipedia: Radius of convergence, wikidata: Q1428097, node: 0N288P2TB5}
   - {name: Abel's theorem, kind: statement, wikipedia: Abel's theorem, wikidata: Q318767, node: 0S4EMDQS2F}
   - {name: Tauber's theorem, kind: statement, wikipedia: Abelian and Tauberian theorems, wikidata: Q2376918, node: 8SK3GQ4S0M}
   # Differentiation
@@ -71,7 +71,7 @@ items:
   - {name: one-sided derivative, kind: definition, decl: derivWithin, wikipedia: Semi-differentiability, wikidata: Q4370927, node: 0R9PHTGVNW}
   - {name: Dini derivative, kind: definition, wikipedia: Dini derivative, wikidata: Q831933, node: 36DXKAD2RZ}
   - {name: symmetric derivative, kind: definition, wikipedia: Symmetric derivative, wikidata: Q3773126, node: B40P5MJYYJ}
-  - {name: product rule, kind: statement, wikipedia: Product rule, wikidata: Q466720}
+  - {name: product rule, kind: statement, wikipedia: Product rule, wikidata: Q466720, node: 0V9A43H7WV}
   - {name: quotient rule, kind: statement, wikipedia: Quotient rule, wikidata: Q531392, node: 0BS0NJPKVE}
   - {name: chain rule, kind: statement, wikipedia: Chain rule, wikidata: Q207455, node: 0RXX2PT1MQ}
   - {name: inverse function rule, kind: statement, wikipedia: Inverse function rule, wikidata: Q2143416, node: 0M0RZ3HSB0}
@@ -133,7 +133,7 @@ items:
   - {name: Frullani integral, kind: statement, wikipedia: Frullani integral, wikidata: Q1470953, node: A58Z1DQ593}
   - {name: Laplace's method, kind: concept, wikipedia: Laplace's method, wikidata: Q2058297, node: 9G7K8DBT9Y}
   # Elementary and special functions of a real variable
-  - {name: exponential function, kind: definition, decl: Real.exp, wikipedia: Exponential function, wikidata: Q168698, mathlib: [mathlib-undergrad, mathlib-overview]}
+  - {name: exponential function, kind: definition, decl: Real.exp, wikipedia: Exponential function, wikidata: Q168698, mathlib: [mathlib-undergrad, mathlib-overview], node: 0J0FCWV32D}
   - {name: natural logarithm, kind: definition, decl: Real.log, wikipedia: Natural logarithm, wikidata: Q204037, mathlib: [mathlib-undergrad, mathlib-overview], node: 04DXAFN2ES}
   - {name: trigonometric functions, kind: definition, decl: Real.sin, wikipedia: Trigonometric functions, wikidata: Q93344, mathlib: [mathlib-undergrad, mathlib-overview], node: H313BRXEJS}
   - {name: inverse trigonometric functions, kind: definition, decl: Real.arctan, wikipedia: Inverse trigonometric functions, wikidata: Q674533, node: 05WEYX99X4}
@@ -213,7 +213,7 @@ items:
   - {name: generalized Stokes theorem, kind: statement, wikipedia: Generalized Stokes theorem, wikidata: Q10861254, node: 0HPHKCGEQ0}
   - {name: differential form, kind: definition, wikipedia: Differential form, wikidata: Q1047080, node: 0E3G0GRPZ6}
   - {name: Poincaré lemma, kind: statement, wikipedia: Poincaré lemma, wikidata: Q18215105, node: 05MC3HND79}
-  - {name: vector calculus identities, kind: concept, wikipedia: Vector calculus identities, wikidata: Q1066266}
+  - {name: vector calculus identities, kind: concept, wikipedia: Vector calculus identities, wikidata: Q1066266, node: 0JC5X4HWR2}
   - {name: Sard's theorem, kind: statement, wikipedia: Sard's theorem, wikidata: Q583147, node: Z7R8J71SJN}
   - {name: Kolmogorov–Arnold representation theorem, kind: statement, wikipedia: Kolmogorov–Arnold representation theorem, wikidata: Q25099402, node: VQXDB9T838}
   - {name: Whitney extension theorem, kind: statement, wikipedia: Whitney extension theorem, wikidata: Q7996766, node: RH2EZGYGAW}

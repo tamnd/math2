@@ -58,8 +58,8 @@ items:
   - {name: Lennard-Jones potential, kind: example, wikipedia: Lennard-Jones potential, wikidata: Q898493, node: 349MN3ER54}
   - {name: van der Waals equation, kind: statement, wikipedia: Van der Waals equation, wikidata: Q254329}
   - {name: radial distribution function, kind: definition, wikipedia: Radial distribution function, wikidata: Q651160, node: FME4G0R7FQ}
-  - {name: Ornstein–Zernike equation, kind: definition, wikipedia: Ornstein–Zernike equation, wikidata: Q3277494}
-  - {name: Percus–Yevick approximation, kind: concept, wikipedia: Percus–Yevick approximation, wikidata: Q3620962}
+  - {name: Ornstein–Zernike equation, kind: definition, wikipedia: Ornstein–Zernike equation, wikidata: Q3277494, node: 29T4NC87AR}
+  - {name: Percus–Yevick approximation, kind: concept, wikipedia: Percus–Yevick approximation, wikidata: Q3620962, node: K3E536PSRJ}
   # Lattice spin systems
   - {name: lattice model, kind: concept, wikipedia: Lattice model (physics), wikidata: Q4394145, node: PAEME5EQRM}
   - {name: Ising model, kind: example, wikipedia: Ising model, wikidata: Q1076349, node: R0KGM32QN6}
@@ -159,7 +159,7 @@ items:
   - {name: mean free path, kind: definition, wikipedia: Mean free path, wikidata: Q756307, node: M0J697D782}
   - {name: Kac ring, kind: example, wikipedia: Kac ring, wikidata: Q121879025, node: 4Q1M6P3D3G}
   - {name: Ehrenfest model, kind: example, wikipedia: Ehrenfest model, wikidata: Q3318105, node: D4DJXF8Q6S}
-  - {name: Smoluchowski coagulation equation, kind: definition, wikipedia: Smoluchowski coagulation equation, wikidata: Q971184}
+  - {name: Smoluchowski coagulation equation, kind: definition, wikipedia: Smoluchowski coagulation equation, wikidata: Q971184, node: 9JRNCRZ97G}
   # Nonequilibrium statistical mechanics
   - {name: master equation, kind: definition, wikipedia: Master equation, wikidata: Q722878, node: VHQA7XPMQ4}
   - {name: detailed balance, kind: definition, wikipedia: Detailed balance, wikidata: Q1201087, node: CTGN6CK1ZS}

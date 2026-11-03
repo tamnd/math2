@@ -61,7 +61,7 @@ items:
   - {name: metric outer measure, kind: definition, wikipedia: Metric outer measure, wikidata: Q6824326, node: 3T6WG315GC}
   - {name: Vitali set, kind: counterexample, wikipedia: Vitali set, wikidata: Q257387, node: WYHGXY471C}
   - {name: non-measurable set, kind: concept, wikipedia: Non-measurable set, wikidata: Q1055379, node: PKQ7ABPVSG}
-  - {name: Banach–Tarski paradox, kind: counterexample, wikipedia: Banach–Tarski paradox, wikidata: Q737851}
+  - {name: Banach–Tarski paradox, kind: counterexample, wikipedia: Banach–Tarski paradox, wikidata: Q737851, node: FH250K068Z}
   - {name: Hausdorff paradox, kind: counterexample, wikipedia: Hausdorff paradox, wikidata: Q1959890, node: 9G9G8ED97D}
   - {name: Smith–Volterra–Cantor set, kind: example, wikipedia: Smith–Volterra–Cantor set, wikidata: Q909569, node: HZTRH10Z8Y}
   - {name: Steinhaus theorem, kind: statement, wikipedia: Steinhaus theorem, wikidata: Q3527166, node: EYG946BY5G}

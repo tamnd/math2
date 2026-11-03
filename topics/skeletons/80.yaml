@@ -150,7 +150,7 @@ items:
   - {name: Biot number, kind: definition, wikipedia: Biot number, wikidata: Q864844, node: ZYJRK1RVP5}
   - {name: Fourier number, kind: definition, wikipedia: Fourier number, wikidata: Q901793, node: HYWTTMTKKM}
   - {name: lumped-element thermal model, kind: concept, wikipedia: Lumped-element model, wikidata: Q2087545, node: EB1DQP2E0K}
-  - {name: Newton's law of cooling, kind: statement, wikipedia: Newton's law of cooling, wikidata: Q2902868}
+  - {name: Newton's law of cooling, kind: statement, wikipedia: Newton's law of cooling, wikidata: Q2902868, node: 02HB5F40VR}
   - {name: Robin boundary condition for convective cooling, kind: definition, wikipedia: Robin boundary condition, wikidata: Q748993, node: XE02D2KD21}
   - {name: fin heat transfer, kind: concept, wikipedia: Fin (extended surface), wikidata: Q604165, node: XNG3CWJ934}
   - {name: Duhamel's principle for heat conduction, kind: statement, wikipedia: Duhamel's principle, wikidata: Q4378863, node: W21RZ60DV2}
@@ -204,7 +204,7 @@ items:
   - {name: method of separation of variables for heat conduction, kind: concept, wikipedia: Separation of variables, wikidata: Q913323, node: DWMTKJ07PT}
   - {name: Green's function for the heat equation, kind: definition, wikipedia: Green's function, wikidata: Q378435, node: KD404MF042}
   - {name: Laplace transform methods in heat conduction, kind: concept, wikipedia: Laplace transform, wikidata: Q199691, node: 8C42CC6XEH}
-  - {name: Crank–Nicolson method, kind: concept, wikipedia: Crank–Nicolson method, wikidata: Q588725}
+  - {name: Crank–Nicolson method, kind: concept, wikipedia: Crank–Nicolson method, wikidata: Q588725, node: M92S0Y15N1}
   - {name: FTCS scheme, kind: concept, wikipedia: FTCS scheme, wikidata: Q5427183, node: H28GYT3HHA}
   - {name: enthalpy method for phase change, kind: concept, wikipedia: Stefan problem, wikidata: Q3775789, node: QTEWT0Z0EF}
   - {name: Monte Carlo method for radiative transfer, kind: concept, wikipedia: Monte Carlo method for photon transport, wikidata: Q6904697, node: FAC4PR0NAE}

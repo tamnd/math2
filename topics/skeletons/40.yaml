@@ -68,8 +68,8 @@ items:
   - {name: Kempner series, kind: example, wikipedia: Kempner series, wikidata: Q928481, node: Q958DANJNA}
   - {name: Riemann zeta function as a series, kind: example, decl: riemannZeta, wikipedia: Riemann zeta function, wikidata: Q187235, node: 2HP4SA15DW}
   - {name: Dirichlet series, kind: definition, decl: LSeries, wikipedia: Dirichlet series, wikidata: Q620595, node: 8MWTEF6462}
-  - {name: power series, kind: definition, decl: FormalMultilinearSeries, wikipedia: Power series, wikidata: Q206925}
-  - {name: radius of convergence, kind: definition, decl: FormalMultilinearSeries.radius, wikipedia: Radius of convergence, wikidata: Q1428097, mathlib: [mathlib-undergrad]}
+  - {name: power series, kind: definition, decl: FormalMultilinearSeries, wikipedia: Power series, wikidata: Q206925, node: 0MZB06ST2B}
+  - {name: radius of convergence, kind: definition, decl: FormalMultilinearSeries.radius, wikipedia: Radius of convergence, wikidata: Q1428097, mathlib: [mathlib-undergrad], node: 0N288P2TB5}
   - {name: Cauchy–Hadamard theorem, kind: statement, wikipedia: Cauchy–Hadamard theorem, wikidata: Q859122, node: 07E5MB1CA2}
   - {name: Taylor series, kind: definition, wikipedia: Taylor series, wikidata: Q131187, node: 0Z49YH6ZWY}
   - {name: exponential series, kind: example, decl: Real.summable_pow_div_factorial, wikipedia: Exponential function, wikidata: Q168698, node: 0PVJRACB9H}

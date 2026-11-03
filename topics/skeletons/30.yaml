@@ -11,7 +11,7 @@ sources:
   mathlib-1000: {title: "Mathlib, the status of the 1000+ theorems project", url: 'https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/docs/1000.yaml'}
 items:
   # Basic notions
-  - {name: complex number, kind: definition, decl: Complex, wikipedia: Complex number, wikidata: Q11567, mathlib: [mathlib-overview]}
+  - {name: complex number, kind: definition, decl: Complex, wikipedia: Complex number, wikidata: Q11567, mathlib: [mathlib-overview], node: 09FTAET5Z4}
   - {name: complex plane, kind: concept, wikipedia: Complex plane, wikidata: Q328998, node: 0CTE7A31XQ}
   - {name: Riemann sphere, kind: object, wikipedia: Riemann sphere, wikidata: Q825857, node: 0J78KBPFZB}
   - {name: stereographic projection, kind: definition, wikipedia: Stereographic projection, wikidata: Q866099, node: AXDKKVD18N}
@@ -85,8 +85,8 @@ items:
   - {name: Sokhotski–Plemelj theorem, kind: statement, wikipedia: Sokhotski–Plemelj theorem, wikidata: Q1543149, node: RNB6QX0GCA}
   - {name: Kramers–Kronig relations, kind: statement, wikipedia: Kramers–Kronig relations, wikidata: Q1424764, node: GFS95PZ5YK}
   # Series expansions
-  - {name: power series, kind: definition, decl: HasFPowerSeriesOnBall, wikipedia: Power series, wikidata: Q206925}
-  - {name: radius of convergence, kind: definition, decl: FormalMultilinearSeries.radius, wikipedia: Radius of convergence, wikidata: Q1428097, mathlib: [mathlib-undergrad]}
+  - {name: power series, kind: definition, decl: HasFPowerSeriesOnBall, wikipedia: Power series, wikidata: Q206925, node: 0MZB06ST2B}
+  - {name: radius of convergence, kind: definition, decl: FormalMultilinearSeries.radius, wikipedia: Radius of convergence, wikidata: Q1428097, mathlib: [mathlib-undergrad], node: 0N288P2TB5}
   - {name: Cauchy–Hadamard theorem, kind: statement, wikipedia: Cauchy–Hadamard theorem, wikidata: Q859122, node: 07E5MB1CA2}
   - {name: Taylor expansion of a holomorphic function, kind: statement, decl: Complex.hasSum_taylorSeries_on_ball, wikipedia: Taylor series, wikidata: Q131187, node: 0826SGV3R0}
   - {name: analytic continuation, kind: concept, wikipedia: Analytic continuation, wikidata: Q485287, node: 0M3YQJ81NB}

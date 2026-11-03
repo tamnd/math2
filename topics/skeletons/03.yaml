@@ -15,7 +15,7 @@ items:
   - {name: formalism, kind: concept, wikipedia: Formalism (philosophy of mathematics), wikidata: Q1433067, node: 46JCQ6KDA4}
   - {name: intuitionism, kind: concept, wikipedia: Intuitionism, wikidata: Q10879018, node: XQHF63BBYF}
   - {name: Hilbert's program, kind: problem, wikipedia: Hilbert's program, wikidata: Q968548, node: P1RW6JWX73}
-  - {name: Russell's paradox, kind: counterexample, wikipedia: Russell's paradox, wikidata: Q33401}
+  - {name: Russell's paradox, kind: counterexample, wikipedia: Russell's paradox, wikidata: Q33401, node: 0HESMMSYEG}
   - {name: Burali-Forti paradox, kind: counterexample, wikipedia: Burali-Forti paradox, wikidata: Q1010269, node: CCNCGN3P59}
   - {name: Skolem's paradox, kind: example, wikipedia: Skolem's paradox, wikidata: Q1096353, node: 68QZWDXAQ4}
   # Propositional logic
@@ -176,7 +176,7 @@ items:
   - {name: Zermelo–Fraenkel set theory, kind: definition, decl: ZFSet, wikipedia: Zermelo–Fraenkel set theory, wikidata: Q191849, mathlib: [mathlib-overview], node: 0HE5WDQ9FJ}
   - {name: axiom schema of replacement, kind: definition, wikipedia: Axiom schema of replacement, wikidata: Q1361825, node: D96K8S8R61}
   - {name: axiom of regularity, kind: definition, decl: ZFSet.regularity, wikipedia: Axiom of regularity, wikidata: Q470981, node: NFQ9FVCP31}
-  - {name: axiom of choice, kind: definition, decl: Classical.choice, wikipedia: Axiom of choice, wikidata: Q179692}
+  - {name: axiom of choice, kind: definition, decl: Classical.choice, wikipedia: Axiom of choice, wikidata: Q179692, node: 0HTGB13FE2}
   - {name: Zorn's lemma, kind: statement, decl: zorn_le, wikipedia: Zorn's lemma, wikidata: Q290810, node: 04RXTQA5ZA}
   - {name: well-ordering theorem, kind: statement, wikipedia: Well-ordering theorem, wikidata: Q1457052, node: 0N109NG5ZX}
   - {name: von Neumann–Bernays–Gödel set theory, kind: definition, wikipedia: Von Neumann–Bernays–Gödel set theory, wikidata: Q278770, node: JTPZ1HZ9KK}
@@ -197,18 +197,18 @@ items:
   - {name: cardinal number, kind: definition, decl: Cardinal, wikipedia: Cardinal number, wikidata: Q163875, mathlib: [mathlib-overview], node: 0EBACQFAZW}
   - {name: cardinality, kind: definition, wikipedia: Cardinality, wikidata: Q4049983, node: 0G0ASKNA6Z}
   - {name: countable set, kind: definition, decl: Set.Countable, wikipedia: Countable set, wikidata: Q66707394, node: 01TQB88H4C}
-  - {name: Cantor's diagonal argument, kind: statement, wikipedia: Cantor's diagonal argument, wikidata: Q729471}
+  - {name: Cantor's diagonal argument, kind: statement, wikipedia: Cantor's diagonal argument, wikidata: Q729471, node: 0XCH8QVDCQ}
   - {name: Cantor's theorem, kind: statement, decl: Cardinal.cantor, wikipedia: Cantor's theorem, wikidata: Q474881, node: 0WTEMGYV2C}
   - {name: Schröder–Bernstein theorem, kind: statement, decl: Function.Embedding.schroeder_bernstein, wikipedia: Schröder–Bernstein theorem, wikidata: Q1033910, mathlib: [mathlib-100, mathlib-1000], node: 0A9V6RKQG6}
   - {name: aleph number, kind: definition, decl: Cardinal.aleph, wikipedia: Aleph number, wikidata: Q908627, mathlib: [mathlib-overview], node: 6Q9Z2BM1XR}
   - {name: beth number, kind: definition, decl: Cardinal.beth, wikipedia: Beth number, wikidata: Q831092, mathlib: [mathlib-overview], node: SS6WMEN6KX}
-  - {name: cardinality of the continuum, kind: definition, decl: Cardinal.continuum, wikipedia: Cardinality of the continuum, wikidata: Q22952648}
+  - {name: cardinality of the continuum, kind: definition, decl: Cardinal.continuum, wikipedia: Cardinality of the continuum, wikidata: Q22952648, node: 0WC28W9DNM}
   - {name: cofinality, kind: definition, decl: Ordinal.cof, wikipedia: Cofinality, wikidata: Q1283623, node: BAWHE1W6MH}
   - {name: regular cardinal, kind: definition, decl: Cardinal.IsRegular, wikipedia: Regular cardinal, wikidata: Q1193137, node: 13ZV2F8JAR}
   - {name: König's theorem, kind: statement, decl: Cardinal.sum_lt_prod, wikipedia: Kőnig's theorem (set theory), wikidata: Q1077462, mathlib: [mathlib-1000], node: 0JP0ZF57PN}
-  - {name: continuum hypothesis, kind: problem, wikipedia: Continuum hypothesis, wikidata: Q208416}
+  - {name: continuum hypothesis, kind: problem, wikipedia: Continuum hypothesis, wikidata: Q208416, node: 0MN2MER9WN}
   - {name: Easton's theorem, kind: statement, wikipedia: Easton's theorem, wikidata: Q2226644, node: WQ967Q2XJD}
-  - {name: singular cardinals hypothesis, kind: problem, wikipedia: Singular cardinals hypothesis, wikidata: Q2289367}
+  - {name: singular cardinals hypothesis, kind: problem, wikipedia: Singular cardinals hypothesis, wikidata: Q2289367, node: 8SH7WETCKY}
   - {name: club set, kind: definition, wikipedia: Club set, wikidata: Q310647, node: YW8YSCFPG5}
   - {name: stationary set, kind: definition, wikipedia: Stationary set, wikidata: Q1528401, node: YE6WZR46RQ}
   - {name: Fodor's lemma, kind: statement, wikipedia: Fodor's lemma, wikidata: Q1119050, node: 55W1M20Q3F}

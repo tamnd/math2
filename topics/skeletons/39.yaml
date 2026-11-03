@@ -51,7 +51,7 @@ items:
   - {name: holonomic sequence, kind: definition, wikipedia: Holonomic function, wikidata: Q5884209, node: NWKX329T01}
   - {name: three-term recurrence relation, kind: definition, wikipedia: Recurrence relation, wikidata: Q740970, node: NFJTRCRB9W}
   - {name: Lucas sequence, kind: example, wikipedia: Lucas sequence, wikidata: Q1759646, node: DP39F5KQ2W}
-  - {name: Fibonacci recurrence, kind: example, wikipedia: Fibonacci sequence, wikidata: Q23835349}
+  - {name: Fibonacci recurrence, kind: example, wikipedia: Fibonacci sequence, wikidata: Q23835349, node: 0D0SMQYEJA}
   - {name: Binet's formula, kind: statement, wikipedia: Fibonacci sequence, wikidata: Q23835349, node: 0404D8TN7Y}
   - {name: Pell numbers, kind: example, wikipedia: Pell number, wikidata: Q1386491, node: JY4ZN779YG}
   - {name: Skolem–Mahler–Lech theorem, kind: statement, wikipedia: Skolem–Mahler–Lech theorem, wikidata: Q2374733, node: ZQFPVWMY4M}
@@ -107,7 +107,7 @@ items:
   - {name: random walk as a difference equation, kind: example, wikipedia: Random walk, wikidata: Q856741, node: KA4MW1FRZ4}
   # Functional equations: foundations
   - {name: functional equation, kind: definition, wikipedia: Functional equation, wikidata: Q594452, node: SRAN4EKWS0}
-  - {name: Cauchy's functional equation, kind: definition, wikipedia: Cauchy's functional equation, wikidata: Q680611}
+  - {name: Cauchy's functional equation, kind: definition, wikipedia: Cauchy's functional equation, wikidata: Q680611, node: ZBMEVWN100}
   - {name: additive function, kind: definition, wikipedia: Additive map, wikidata: Q22963169, node: KF719SZD5T}
   - {name: continuous additive functions are linear, kind: statement, decl: AddMonoidHom.toRealLinearMap, wikipedia: Cauchy's functional equation, wikidata: Q680611, node: 1Z0105QF2Q}
   - {name: measurable solutions of Cauchy's equation, kind: statement, wikipedia: Cauchy's functional equation, wikidata: Q680611, node: TWANGP59RB}
@@ -138,7 +138,7 @@ items:
   - {name: Abel function, kind: definition, wikipedia: Abel equation, wikidata: Q4666644, node: 2QBWT7T02Y}
   - {name: Schröder's equation, kind: definition, wikipedia: Schröder's equation, wikidata: Q7432911, node: VTJV7JVJEA}
   - {name: Koenigs function, kind: definition, wikipedia: Koenigs function, wikidata: Q4493449, node: 529D1C4W9H}
-  - {name: Böttcher's equation, kind: definition, wikipedia: Böttcher's equation, wikidata: Q5005188}
+  - {name: Böttcher's equation, kind: definition, wikipedia: Böttcher's equation, wikidata: Q5005188, node: YBBDYHBADD}
   - {name: Böttcher's theorem, kind: statement, wikipedia: Böttcher's equation, wikidata: Q5005188, node: YBBDYHBADD}
   - {name: functional square root, kind: definition, wikipedia: Functional square root, wikidata: Q3890203, node: E7890PHMGP}
   - {name: iterative root, kind: definition, wikipedia: Functional square root, wikidata: Q3890203, node: 27C6J3YNZY}

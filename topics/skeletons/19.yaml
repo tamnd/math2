@@ -52,9 +52,9 @@ items:
   - {name: Wall's finiteness obstruction, kind: definition, wikipedia: Wall's finiteness obstruction, wikidata: Q7962581, node: 6DNJDT9AMH}
   # K1 and Whitehead groups
   - {name: K1 of a ring, kind: definition, wikipedia: Algebraic K-theory, wikidata: Q2553675, node: SXVNJY4XFY}
-  - {name: general linear group, kind: definition, decl: Matrix.GeneralLinearGroup, wikipedia: General linear group, wikidata: Q524607, mathlib: [mathlib-undergrad]}
+  - {name: general linear group, kind: definition, decl: Matrix.GeneralLinearGroup, wikipedia: General linear group, wikidata: Q524607, mathlib: [mathlib-undergrad], node: 0FCHE902D7}
   - {name: stable general linear group, kind: definition, wikipedia: General linear group, wikidata: Q524607, node: G8R9561PXT}
-  - {name: special linear group, kind: definition, decl: Matrix.SpecialLinearGroup, wikipedia: Special linear group, wikidata: Q2140900, mathlib: [mathlib-undergrad]}
+  - {name: special linear group, kind: definition, decl: Matrix.SpecialLinearGroup, wikipedia: Special linear group, wikidata: Q2140900, mathlib: [mathlib-undergrad], node: 0V9PMN0RBH}
   - {name: elementary matrix, kind: definition, decl: Matrix.transvection, wikipedia: Elementary matrix, wikidata: Q609566, node: 01REXW3WWE}
   - {name: elementary subgroup, kind: definition, wikipedia: Whitehead's lemma, wikidata: Q1816970, node: E5JXB0E324}
   - {name: Whitehead's lemma, kind: statement, wikipedia: Whitehead's lemma, wikidata: Q1816970, node: NE2K5HAEFN}

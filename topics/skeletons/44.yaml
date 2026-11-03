@@ -169,7 +169,7 @@ items:
   # Classical operational calculus
   - {name: operational calculus, kind: concept, wikipedia: Operational calculus, wikidata: Q1162633, node: 8050R3Z6HA}
   - {name: Heaviside operational calculus, kind: concept, wikipedia: Operational calculus, wikidata: Q1162633, node: QQ98C2AXZP}
-  - {name: Heaviside step function, kind: definition, wikipedia: Heaviside step function, wikidata: Q322339}
+  - {name: Heaviside step function, kind: definition, wikipedia: Heaviside step function, wikidata: Q322339, node: 09C4JP7Y0M}
   - {name: Heaviside expansion theorem, kind: statement, wikipedia: Operational calculus, wikidata: Q1162633, node: 1CW7Q8QH3N}
   - {name: differentiation operator p, kind: definition, wikipedia: Operational calculus, wikidata: Q1162633, node: BB15T3J891}
   - {name: shift operator as an exponential of differentiation, kind: statement, wikipedia: Shift operator, wikidata: Q2278680, node: MHSBP40HDC}

@@ -26,7 +26,7 @@ items:
   - {name: coordinate vector, kind: definition, wikipedia: Coordinate vector, wikidata: Q1057996, node: 04CYQHN6MC}
   - {name: change of basis, kind: concept, wikipedia: Change of basis, wikidata: Q810255, node: 0MKRHZB3WS}
   - {name: direct sum of vector spaces, kind: definition, decl: DirectSum, wikipedia: Direct sum of modules, wikidata: Q1142861, node: 0S7W6EG32V}
-  - {name: quotient space, kind: definition, wikipedia: Quotient space (linear algebra), wikidata: Q1393796}
+  - {name: quotient space, kind: definition, wikipedia: Quotient space (linear algebra), wikidata: Q1393796, node: 0BR3FY5Q8M}
   - {name: dimension of a quotient space, kind: statement, decl: Submodule.finrank_quotient_add_finrank, wikipedia: Quotient space (linear algebra), wikidata: Q1393796, node: 0SXDQ6TN00}
   - {name: Grassmann's dimension formula, kind: statement, decl: Submodule.finrank_sup_add_finrank_inf_eq, wikipedia: Dimension (vector space), wikidata: Q929302, node: 06HTJNCMPA}
   - {name: complement of a subspace, kind: definition, wikipedia: Complemented subspace, wikidata: Q137454148, node: 0M83V17KHX}
@@ -55,7 +55,7 @@ items:
   - {name: matrix-vector product, kind: definition, decl: Matrix.mulVec, wikipedia: Matrix multiplication, wikidata: Q1049914, node: 0PDVQEP0ZC}
   - {name: dot product, kind: definition, decl: dotProduct, wikipedia: Dot product, wikidata: Q181365, node: 0S52TNNTH9}
   - {name: cross product, kind: definition, decl: crossProduct, wikipedia: Cross product, wikidata: Q178192, mathlib: [mathlib-undergrad], node: 0N5N15HWZ7}
-  - {name: identity matrix, kind: definition, decl: Matrix.one, wikipedia: Identity matrix, wikidata: Q193794}
+  - {name: identity matrix, kind: definition, decl: Matrix.one, wikipedia: Identity matrix, wikidata: Q193794, node: 06DW9BAWB1}
   - {name: transpose, kind: definition, decl: Matrix.transpose, wikipedia: Transpose, wikidata: Q223683, node: 09DXWYRD43}
   - {name: conjugate transpose, kind: definition, decl: Matrix.conjTranspose, wikipedia: Conjugate transpose, wikidata: Q2051983, node: 0DXKE10PHF}
   - {name: trace, kind: definition, decl: Matrix.trace, wikipedia: Trace (linear algebra), wikidata: Q321102, node: 0XC1RDBY7A}
@@ -143,7 +143,7 @@ items:
   - {name: Smith normal form, kind: statement, decl: Module.Basis.SmithNormalForm, wikipedia: Smith normal form, wikidata: Q7545384, node: MV28Z5N9XX}
   - {name: Hermite normal form, kind: statement, wikipedia: Hermite normal form, wikidata: Q13650324, node: EHE26PR17K}
   - {name: Schur decomposition, kind: statement, wikipedia: Schur decomposition, wikidata: Q1064218, node: V1JG4C7R7B}
-  - {name: LU decomposition, kind: statement, wikipedia: LU decomposition, wikidata: Q833089}
+  - {name: LU decomposition, kind: statement, wikipedia: LU decomposition, wikidata: Q833089, node: 0RKG5YW66Y}
   - {name: QR decomposition, kind: statement, wikipedia: QR decomposition, wikidata: Q653242, node: 0ERWG4NXQ9}
   - {name: Cholesky decomposition, kind: statement, wikipedia: Cholesky decomposition, wikidata: Q515375, node: 0WKG8CYY6A}
   - {name: singular value decomposition, kind: statement, wikipedia: Singular value decomposition, wikidata: Q420904, node: 000NPTMX6J}
@@ -201,7 +201,7 @@ items:
   - {name: idempotent matrix, kind: definition, decl: IsIdempotentElem, wikipedia: Idempotent matrix, wikidata: Q3751720, node: 0KCE8CG86P}
   - {name: nilpotent matrix, kind: definition, wikipedia: Nilpotent matrix, wikidata: Q650670, node: 07BSPZPSMF}
   - {name: Vandermonde matrix, kind: definition, decl: Matrix.vandermonde, wikipedia: Vandermonde matrix, wikidata: Q579544, node: Q3JWBZ7EFY}
-  - {name: circulant matrix, kind: definition, decl: Matrix.circulant, wikipedia: Circulant matrix, wikidata: Q245457}
+  - {name: circulant matrix, kind: definition, decl: Matrix.circulant, wikipedia: Circulant matrix, wikidata: Q245457, node: 07HFRH2AWY}
   - {name: Toeplitz matrix, kind: definition, wikipedia: Toeplitz matrix, wikidata: Q849428, node: GKY2WSHE26}
   - {name: Hankel matrix, kind: definition, wikipedia: Hankel matrix, wikidata: Q1575637, node: PQ1D8FQB3E}
   - {name: Hilbert matrix, kind: example, wikipedia: Hilbert matrix, wikidata: Q612991, node: 2DTWB6F5TA}

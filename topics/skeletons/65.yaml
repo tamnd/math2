@@ -28,7 +28,7 @@ items:
   - {name: validated numerics, kind: concept, wikipedia: Validated numerics, wikidata: Q63307393, node: DW7FG506QJ}
   - {name: Wilkinson's polynomial, kind: example, wikipedia: Wilkinson's polynomial, wikidata: Q2613931, node: NDVJ9VWA71}
   # Nonlinear equations
-  - {name: Newton's method, kind: statement, wikipedia: Newton's method, wikidata: Q374195}
+  - {name: Newton's method, kind: statement, wikipedia: Newton's method, wikidata: Q374195, node: 07EXVNF9VP}
   - {name: fixed-point iteration, kind: statement, wikipedia: Fixed-point iteration, wikidata: Q1030759}
   - {name: Aitken's delta-squared process, kind: statement, wikipedia: Aitken's delta-squared process, wikidata: Q492177}
   - {name: Shanks transformation, kind: statement, wikipedia: Shanks transformation, wikidata: Q3537519}
@@ -56,8 +56,8 @@ items:
   - {name: numerical continuation, kind: concept, wikipedia: Numerical continuation, wikidata: Q7069654, node: 5V3GJ84CPQ}
   - {name: homotopy continuation for polynomial systems, kind: concept, wikipedia: Numerical algebraic geometry, wikidata: Q28325010, node: 5VR7XNNXN0}
   # Direct methods for linear systems
-  - {name: Gaussian elimination, kind: statement, wikipedia: Gaussian elimination, wikidata: Q2658}
-  - {name: LU decomposition, kind: statement, wikipedia: LU decomposition, wikidata: Q833089}
+  - {name: Gaussian elimination, kind: statement, wikipedia: Gaussian elimination, wikidata: Q2658, node: 0JVJ2WCXZH}
+  - {name: LU decomposition, kind: statement, wikipedia: LU decomposition, wikidata: Q833089, node: 0RKG5YW66Y}
   - {name: Cholesky decomposition, kind: statement, wikipedia: Cholesky decomposition, wikidata: Q515375, node: 0WKG8CYY6A}
   - {name: QR decomposition, kind: statement, wikipedia: QR decomposition, wikidata: Q653242, node: 0ERWG4NXQ9}
   - {name: pivoting, kind: concept, wikipedia: Pivot element, wikidata: Q1425280, node: 0J0BBCMJ5W}
@@ -153,7 +153,7 @@ items:
   - {name: five-point stencil, kind: definition, wikipedia: Five-point stencil, wikidata: Q5455804, node: 73WPYFAEWS}
   - {name: automatic differentiation, kind: concept, wikipedia: Automatic differentiation, wikidata: Q787371, node: BW7FEZ8WM1}
   # Ordinary differential equations
-  - {name: Euler method, kind: statement, wikipedia: Euler method, wikidata: Q868454}
+  - {name: Euler method, kind: statement, wikipedia: Euler method, wikidata: Q868454, node: 0JARTXX4XP}
   - {name: Runge–Kutta methods, kind: statement, wikipedia: Runge–Kutta methods, wikidata: Q725944}
   - {name: linear multistep method, kind: statement, wikipedia: Linear multistep method, wikidata: Q1462003}
   - {name: stiff equation, kind: concept, wikipedia: Stiff equation, wikidata: Q29744, node: RR5FCG92PN}

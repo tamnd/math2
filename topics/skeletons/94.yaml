@@ -102,8 +102,8 @@ items:
   - {name: Feistel cipher, kind: definition, wikipedia: Feistel cipher, wikidata: Q1044361, node: JWVE27832R}
   - {name: Luby–Rackoff theorem, kind: statement, wikipedia: Feistel cipher, wikidata: Q1044361, node: 698HZWHH6F}
   - {name: public-key cryptography, kind: concept, wikipedia: Public-key cryptography, wikidata: Q201339, node: 01E9MNJYEX}
-  - {name: RSA cryptosystem, kind: definition, wikipedia: RSA cryptosystem, wikidata: Q181551}
-  - {name: Diffie–Hellman key exchange, kind: definition, wikipedia: Diffie–Hellman key exchange, wikidata: Q623447}
+  - {name: RSA cryptosystem, kind: definition, wikipedia: RSA cryptosystem, wikidata: Q181551, node: 0HM584C465}
+  - {name: Diffie–Hellman key exchange, kind: definition, wikipedia: Diffie–Hellman key exchange, wikidata: Q623447, node: 01TKKESHSB}
   - {name: ElGamal encryption, kind: definition, wikipedia: ElGamal encryption, wikidata: Q1162410, node: FXBNZNG7X3}
   - {name: elliptic-curve cryptography, kind: concept, wikipedia: Elliptic-curve cryptography, wikidata: Q1048911, node: X1W8HKH73X}
   - {name: digital signature, kind: definition, wikipedia: Digital signature, wikidata: Q220849, node: 9TE67WRBWK}

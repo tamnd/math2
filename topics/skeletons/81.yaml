@@ -248,7 +248,7 @@ items:
   # Scattering theory
   - {name: scattering theory, kind: concept, wikipedia: Scattering, wikidata: Q210028, node: CSHWP5PK4P}
   - {name: S-matrix, kind: definition, wikipedia: S-matrix, wikidata: Q581505, node: YDC9XBJDE1}
-  - {name: Lippmann–Schwinger equation, kind: definition, wikipedia: Lippmann–Schwinger equation, wikidata: Q902575}
+  - {name: Lippmann–Schwinger equation, kind: definition, wikipedia: Lippmann–Schwinger equation, wikidata: Q902575, node: MW5R19P2X4}
   - {name: Born approximation, kind: concept, wikipedia: Born approximation, wikidata: Q39325, node: 3Y0VBDXHJD}
   - {name: optical theorem, kind: statement, wikipedia: Optical theorem, wikidata: Q1136262, node: ZJG1YAGANG}
   - {name: Levinson's theorem, kind: statement, wikipedia: Levinson's theorem, wikidata: Q25110385, node: AFJ4WFNKXK}
