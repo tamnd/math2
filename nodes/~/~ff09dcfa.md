@@ -1,0 +1,27 @@
+---
+kind: statement
+msc:
+- "03E10"
+name: Countability of the rationals and the failure of a surjection onto the reals
+role: theorem
+sources:
+- locator: source/s_background_finite-sets.ptx:77
+  url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_background_finite-sets.ptx#L77
+tag: ~ff09dcfa
+uses:
+- 0SEZ3JGZP7
+- 0SNQEF7Z53
+- 0X55M9XET4
+---
+
+## Statement
+
+The three sets $\mathbb{Z}_{>0}$, $\mathbb{Z}$ and $\mathbb{Q}$ are all [[countably infinite|0SEZ3JGZP7]]. So for any two of them there is a [[bijection|0SNQEF7Z53]] from one onto the other.
+
+There is an injection from $\mathbb{Q}$ into $\mathbb{R}$.
+
+There is no surjection from $\mathbb{Q}$ onto $\mathbb{R}$. This holds because $\mathbb{R}$ is [[uncountable|0X55M9XET4]].
+
+## Remarks
+
+The first part says that the positive integers, the integers and the rationals have the same size. The last part says that the reals are strictly larger than the rationals.

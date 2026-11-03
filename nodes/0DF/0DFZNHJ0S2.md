@@ -10,6 +10,8 @@ sources:
     locator: Definition
   - url: https://en.wikipedia.org/wiki/Addition
     locator: Commutativity
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_background_formal-num-sys.ptx#L144
+    locator: source/s_background_formal-num-sys.ptx:144
 ---
 
 ## Statement

@@ -11,6 +11,8 @@ sources:
     note: J. Lebl, Notes on Diffy Qs. The theorem states the result for functions of exponential order.
   - url: https://en.wikipedia.org/wiki/Laplace_transform
     locator: Properties and theorems
+  - url: https://github.com/jirilebl/diffyqs/blob/658bcae9fb710f3fae2c9da4ca4524ce157453af/ch-laplace.tex#L1307
+    locator: ch-laplace.tex:1307
 ---
 
 ## Statement

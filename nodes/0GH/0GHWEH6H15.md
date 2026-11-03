@@ -8,6 +8,8 @@ uses: [0PB7K8M7FG, 0EQZSAB9EC, 0H4KNNCHPY, 0F2VBPXNP9]
 sources:
   - url: https://en.wikipedia.org/wiki/Linear_differential_equation
     locator: Linear differential operator
+  - url: https://github.com/jirilebl/diffyqs/blob/658bcae9fb710f3fae2c9da4ca4524ce157453af/ch-higher-order-ode.tex#L2144
+    locator: ch-higher-order-ode.tex:2144
 ---
 
 ## Statement

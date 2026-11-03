@@ -7,6 +7,8 @@ role: theorem
 sources:
 - locator: ap-linear-algebra.tex:6604
   url: https://github.com/jirilebl/diffyqs/blob/658bcae9fb710f3fae2c9da4ca4524ce157453af/ap-linear-algebra.tex#L6604
+- locator: ch-systems.tex:1083
+  url: https://github.com/jirilebl/diffyqs/blob/658bcae9fb710f3fae2c9da4ca4524ce157453af/ch-systems.tex#L1083
 tag: FBSAPTP1PR
 uses:
 - 0EB9N0S33C
