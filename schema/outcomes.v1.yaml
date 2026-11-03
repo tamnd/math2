@@ -84,3 +84,11 @@ rules:
     outcome: aligned
     reason: a node states the result and has an aligned edge to it (corpus spec K4.4)
     match: the row is in the research layer, it is open or has its outcome from a research rule, and a live node has an aligned edge to a mention of the row or to its locator. The target is the tags of the nodes. When the edges are gone, the row gets its record rule again
+  - id: wikipedia-node
+    outcome: node
+    reason: a node has the text of the Wikipedia item of the row, with the attribution of corpus wikipedia WP9.3
+    match: the row has a Wikipedia mention, and a minted node names the row in its field inventory and has a wikipedia source with the mention of the row (corpus wikipedia WP9.2). The target is the tag of the node
+  - id: wikipedia-deferred
+    outcome: deferred
+    reason: the Wikipedia item of the row waits for the write role or for a person
+    match: the row has a Wikipedia mention, it is open, and m2 corpus adopt cannot adopt the item. The reason of the outcome gives the cause, for example a flag, a name that is not specific, or a hold of a person (corpus wikipedia WP9.2). The date is the end of the next review period
