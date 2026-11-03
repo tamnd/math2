@@ -8,6 +8,8 @@ uses: [0MJ0JS72DZ]
 sources:
   - url: https://en.wikipedia.org/wiki/Cayley's_formula
     locator: lead section
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_graphs_counting-trees.ptx#L45
+    locator: source/s_graphs_counting-trees.ptx:45
 same_as:
   wikidata: Q859176
   wikipedia: Cayley's formula

@@ -8,6 +8,8 @@ uses: [0404R9P9J3]
 sources:
   - url: https://en.wikipedia.org/wiki/Integer_partition
     locator: Odd parts and distinct parts
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_genfunction_partitions-integer.ptx#L46
+    locator: source/s_genfunction_partitions-integer.ptx:46
 ---
 
 ## Statement
