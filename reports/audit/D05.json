@@ -1,10 +1,10 @@
 {
-  "files": 19934,
+  "files": 19955,
   "results": [
     {
       "rule": "D05",
       "state": "pass",
-      "checked": 184437,
+      "checked": 191939,
       "findings": 0
     }
   ],
