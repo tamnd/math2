@@ -1,6 +1,6 @@
 ---
 kind: concept
-tag: "~5824990c"
+tag: "SWN0NFJ5X7"
 name: Increasing and decreasing function on an open interval
 msc:
   - 26A48

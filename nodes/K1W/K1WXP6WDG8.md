@@ -1,5 +1,5 @@
 ---
-tag: ~ce4eb3df
+tag: K1WXP6WDG8
 kind: statement
 name: Chromatic number is at least the clique number
 msc:

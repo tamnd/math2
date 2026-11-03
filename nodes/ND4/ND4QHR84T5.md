@@ -6,7 +6,7 @@ msc:
 sources:
 - locator: source/sec-1-3-derivative-pt.xml:117
   url: https://github.com/active-calculus/active-calculus-single-mbx/blob/e597daa657ba5ec0953157aa8c44834dceb63eb2/source/sec-1-3-derivative-pt.xml#L117
-tag: ~0e788408
+tag: ND4QHR84T5
 uses:
 - 0TXTSEMHR5
 ---

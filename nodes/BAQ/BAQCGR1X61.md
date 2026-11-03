@@ -1,5 +1,5 @@
 ---
-tag: ~828ab1c0
+tag: BAQCGR1X61
 kind: concept
 name: Integral function
 aliases:

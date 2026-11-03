@@ -1,5 +1,5 @@
 ---
-tag: ~20d7bab7
+tag: TNE847FXMZ
 kind: concept
 name: Critical number
 aliases:

@@ -1,5 +1,5 @@
 ---
-tag: ~facb4c24
+tag: CJ7PTCRQED
 kind: concept
 name: Second derivative as a limit of difference quotients
 msc: [26A24]

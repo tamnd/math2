@@ -6,7 +6,7 @@ name: Continuity at a point via limits
 sources:
 - locator: source/sec-1-7-lim-cont-diff.xml:251
   url: https://github.com/active-calculus/active-calculus-single-mbx/blob/e597daa657ba5ec0953157aa8c44834dceb63eb2/source/sec-1-7-lim-cont-diff.xml#L251
-tag: ~2535576d
+tag: K1TYTR59MW
 uses:
 - 0PKRYB8ATM
 ---

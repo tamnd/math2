@@ -1,5 +1,5 @@
 ---
-tag: ~0b606541
+tag: 4M938HWQGX
 kind: concept
 name: Definite integral of a continuous function as a limit of Riemann sums
 msc:

@@ -1,5 +1,5 @@
 ---
-tag: ~6ce84f2e
+tag: H366VBRK3W
 kind: concept
 name: Global maximum and global minimum of a function
 aliases: [absolute-maximum, absolute-minimum]

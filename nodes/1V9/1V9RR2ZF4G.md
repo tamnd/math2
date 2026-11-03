@@ -8,7 +8,7 @@ sources:
   url: https://github.com/active-calculus/active-calculus-single-mbx/blob/e597daa657ba5ec0953157aa8c44834dceb63eb2/source/sec-1-7-lim-cont-diff.xml#L99
 uses:
 - 0PKRYB8ATM
-tag: ~878829f8
+tag: 1V9RR2ZF4G
 ---
 
 ## Summary
