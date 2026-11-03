@@ -1,5 +1,5 @@
 ---
-tag: ~41b0a2eb
+tag: 7DBGPYJHW5
 kind: statement
 role: theorem
 name: Chromatic number of an interval graph

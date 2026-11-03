@@ -1,5 +1,5 @@
 ---
-tag: ~fe2511a5
+tag: M2H3G4T5CR
 kind: statement
 role: theorem
 name: Edge count of a spanning forest

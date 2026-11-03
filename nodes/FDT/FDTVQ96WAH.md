@@ -1,5 +1,5 @@
 ---
-tag: ~653972e6
+tag: FDTVQ96WAH
 kind: concept
 name: Generalized binomial coefficient
 msc: [05A10]

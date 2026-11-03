@@ -1,5 +1,5 @@
 ---
-tag: ~c4f7d6b1
+tag: R9QXJKR32A
 kind: statement
 role: lemma
 name: Lightest edge leaving a component of a spanning forest extends to a minimum spanning tree

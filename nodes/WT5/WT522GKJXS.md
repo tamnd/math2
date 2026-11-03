@@ -1,5 +1,5 @@
 ---
-tag: ~bb9b8945
+tag: WT522GKJXS
 kind: statement
 role: lemma
 name: Generalized binomial coefficient at minus one half

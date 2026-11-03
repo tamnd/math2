@@ -1,5 +1,5 @@
 ---
-tag: ~09ecfec0
+tag: 1WMTMMM4HJ
 kind: statement
 role: proposition
 name: Dijkstra's algorithm fixes vertices in nondecreasing order of label

@@ -7,7 +7,7 @@ role: theorem
 sources:
 - locator: source/s_graphs_planar.ptx:97
   url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_graphs_planar.ptx#L97
-tag: ~17c26a4a
+tag: CM7VXDGDCX
 uses:
 - 029JQEK15B
 ---

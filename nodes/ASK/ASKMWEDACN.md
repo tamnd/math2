@@ -1,5 +1,5 @@
 ---
-tag: ~439231b3
+tag: ASKMWEDACN
 kind: statement
 role: theorem
 name: Product of generating functions

@@ -1,5 +1,5 @@
 ---
-tag: ~af7d5a08
+tag: M73GP1CFCD
 kind: statement
 role: theorem
 name: Correctness of Dijkstra's algorithm
