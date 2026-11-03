@@ -36,6 +36,7 @@ jobs:
           persist-credentials: false
           fetch-depth: 0
       - uses: ./.github/actions/m2
+      - uses: ./.github/actions/arxiv-records
       - uses: ./.github/actions/lean
       - name: m2 build
         run: m2 build

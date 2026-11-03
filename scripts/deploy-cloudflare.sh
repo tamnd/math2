@@ -53,6 +53,16 @@ fi
 
 echo "$(date -u +%FT%TZ) deploy math2 $content, math2-agent $toolchain, wikipedia-math $wikipedia"
 (cd "$dir/toolchain" && go build -trimpath -o "$dir/m2" ./cmd/m2)
+# The arXiv records are in tamnd/math2-records at the commit of manifests/records-arxiv.yaml (corpus arxiv AQ11). The site reads the tree with them. The records of an earlier deploy go first, since unpack adds nothing to a tree that has them.
+recpin=$(sed -n 's/^commit: *//p' "$dir/content/manifests/records-arxiv.yaml" 2>/dev/null || true)
+if [ -n "$recpin" ]; then
+	git -C "$dir/content" clean -fdq records
+	git -C "$dir/content" checkout -q -- records
+	[ -d "$dir/records-arxiv/.git" ] || git init -q "$dir/records-arxiv"
+	git -C "$dir/records-arxiv" fetch -q --depth 1 https://github.com/tamnd/math2-records "$recpin"
+	git -C "$dir/records-arxiv" checkout -q -f FETCH_HEAD
+	"$dir/m2" corpus records unpack -root "$dir/content" -out "$dir/records-arxiv"
+fi
 rm -rf "$dir/site"
 GOMEMLIMIT=${M2_BUILD_MEMORY:-2GiB} "$dir/m2" site build -content "$dir/content" -spec "$dir/toolchain/spec" -wikipedia "$dir/wikipedia" -out "$dir/site" -url "$url" -commit "$content" -date now -cloudflare -cache "$dir/cache/math.gob.gz" -social-packs "$dir/social-packs"
 files=$(find "$dir/site" -type f | wc -l)

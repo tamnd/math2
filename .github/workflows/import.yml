@@ -47,10 +47,18 @@ jobs:
       - name: build m2
         working-directory: toolchain
         run: go build -trimpath -o "$RUNNER_TEMP/m2" ./cmd/m2
+      - uses: ./content/.github/actions/arxiv-records
+        with:
+          root: content
+          m2: ${{ runner.temp }}/m2
+      # The import keeps the ids of the rows of the research layer, so it runs on the tree with the arXiv records. Then only the pin stays (corpus arxiv AQ11).
       - name: m2 corpus import
         working-directory: content
         run: |
           "$RUNNER_TEMP/m2" corpus import -plan corpus/plan.yaml -root . -commit "$GITHUB_SHA" -cache "$RUNNER_TEMP/cache" -summary "$RUNNER_TEMP/summary.md"
+          if [ -f manifests/records-arxiv.yaml ]; then
+            "$RUNNER_TEMP/m2" corpus records keep -root .
+          fi
       - name: open and merge the pull request
         working-directory: content
         env:
