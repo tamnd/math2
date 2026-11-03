@@ -8,6 +8,11 @@ uses: [CX4M8K61AB, 0YTCMFB4HC, 5JSWM1HBX2, P9CM4GQ2T0]
 about: [0YTCMFB4HC]
 sources:
   - url: https://en.wikipedia.org/wiki/Milnor_map
+retired:
+  date: 2026-11-03
+  reason: duplicate
+  successor: [KTFG1S2SMG]
+  note: "The polynomial case of KTFG1S2SMG, which states the theorem for a holomorphic germ."
 ---
 
 ## Statement

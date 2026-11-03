@@ -10,6 +10,11 @@ sources:
 uses:
   - 0TXTSEMHR5
   - 0F1WR9C83K
+retired:
+  date: 2026-11-03
+  reason: duplicate
+  successor: [0QKJ6NT0R9]
+  note: "Same concept as 0QKJ6NT0R9; the definition is 027K9RMZ43."
 ---
 
 ## Summary
