@@ -1,3 +1,2 @@
-{"id":"NVE1Q3YSR4","mentions":["ax://paper/0903.1569#KLK7"],"kind":"example","msc":["46-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
 {"id":"NVE57GCHJD","mentions":["wikipedia://en/140829#V5XI"],"kind":"topic","name":"Cai, T. Tony","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NVEX6Y63H5","mentions":["wikipedia://en/20556859#61AH"],"kind":"unknown","name":"Infinite matrix","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

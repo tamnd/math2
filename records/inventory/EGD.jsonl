@@ -3,4 +3,3 @@
 {"id":"EGDC17E116","mentions":["wikipedia://en/659169#G89R"],"kind":"statement","name":"Bailey–Borwein–Plouffe formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EGDKJJZXHH","mentions":["wikipedia://en/140829#E3UI"],"kind":"topic","name":"Silverman, Bernard","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EGDR85EJ8F","mentions":["wikipedia://en/2288302"],"kind":"definition","name":"Active shape model","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"EGDTPWFPE7","mentions":["ax://paper/2210.02997#96JD"],"kind":"definition","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}

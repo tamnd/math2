@@ -1,4 +1,3 @@
 {"id":"4RV6JK75YV","mentions":["m2://rec/wikidata/Q83216#1"],"kind":"definition","name":"candela","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"4RVDZAS3PG","mentions":["ax://paper/2610.20972#XCE8"],"kind":"unknown","msc":["35-XX","49-XX","90-XX","93-XX"],"layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.2"}]}
 {"id":"4RVGNAQ49Z","mentions":["wikipedia://en/20047065#9INP"],"kind":"statement","name":"Variants","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4RVRN8PF7M","mentions":["wikipedia://en/337876#JKJ5","wikipedia://en/527369#1VYL"],"kind":"topic","name":"List of integrals of irrational functions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

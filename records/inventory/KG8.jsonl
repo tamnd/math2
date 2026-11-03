@@ -1,4 +1,3 @@
 {"id":"KG87J4HYYB","mentions":["wikipedia://en/31366779#0UYX"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"KG8BJHR601","mentions":["ax://paper/2610.14189#7SB2"],"kind":"definition","msc":["14-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
 {"id":"KG8J5X2HJ6","mentions":["wikipedia://en/794872#FG7Z"],"kind":"unknown","name":"Boolean conjunctive query","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"KG8V53P0AG","mentions":["wikipedia://en/47738065#TPAD"],"kind":"topic","name":"Semyon Alesker","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

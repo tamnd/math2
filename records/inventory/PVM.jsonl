@@ -2,7 +2,6 @@
 {"id":"PVM9J2FVTH","mentions":["wikipedia://en/241717#534B"],"kind":"unknown","name":"Placebo group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PVMC0GR1Y4","mentions":["wikipedia://en/59141520"],"kind":"topic","name":"Shirley M. Frye","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PVMFGWJREA","mentions":["wikipedia://en/9599471"],"kind":"object","name":"Higgs prime","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"PVMG99NFM1","mentions":["ax://paper/2609.19882#EVHR"],"kind":"statement","msc":["16-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.18"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.18"}]}
 {"id":"PVMHM8S0T5","mentions":["wikipedia://en/3174646#NEXR"],"kind":"statement","name":"Shirshov–Witt theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PVMK34SW4V","mentions":["wikipedia://en/17876651#8SOS"],"kind":"unknown","name":"PECE","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PVMVGHAWGH","mentions":["wikipedia://en/325802#4QSU"],"kind":"definition","name":"forcing graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

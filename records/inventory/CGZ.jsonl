@@ -5,4 +5,3 @@
 {"id":"CGZV2QJ91K","mentions":["wikipedia://en/22831"],"kind":"topic","name":"Oliver Heaviside","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CGZYCCZ8WQ","mentions":["wikipedia://en/534959#JDEZ"],"kind":"definition","name":"Level set","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CGZYQN5DBA","mentions":["wikipedia://en/45554900"],"kind":"definition","name":"Bhargava cube","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"CGZZPMY7FQ","mentions":["ax://paper/2610.05784#AJ02"],"kind":"definition","msc":["03-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.10"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}]}

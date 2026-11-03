@@ -2,4 +2,3 @@
 {"id":"26S5DWJ0VC","mentions":["wikipedia://en/337876#8BAT","wikipedia://en/339396#9670"],"kind":"definition","name":"Chain rule","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"26SEZ0F3JG","mentions":["wikipedia://en/46927724"],"kind":"definition","name":"P-adic cohomology","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"26SYC1DBXC","mentions":["wikipedia://en/55762#G062"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"26SYFY1XFC","mentions":["ax://paper/2609.28251#22QN"],"kind":"statement","msc":["35-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}

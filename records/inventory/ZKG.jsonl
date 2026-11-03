@@ -2,7 +2,6 @@
 {"id":"ZKGD8NVT0A","mentions":["wikipedia://en/17716740#6Y47"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZKGEH7HANX","mentions":["wikipedia://en/78730954#VLYU"],"kind":"unknown","name":"Snake jaws cannot unhinge","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZKGJ9KV93G","mentions":["wikipedia://en/33256286"],"kind":"definition","name":"Demographics of the world","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"ZKGN0FQXA9","mentions":["ax://paper/2610.06544#OP9T"],"kind":"statement","msc":["35-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.10"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}]}
 {"id":"ZKGRAREAG2","mentions":["wikipedia://en/34189212#DZ1N"],"kind":"definition","name":"Enumerative combinatorics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZKGVBR09PE","mentions":["wikipedia://en/2606907#WN2Y"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZKGXQP445N","mentions":["wikipedia://en/70505958"],"kind":"statement","name":"Langlands–Tunnell theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

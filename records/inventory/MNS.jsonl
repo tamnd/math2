@@ -1,6 +1,5 @@
 {"id":"MNS103H016","mentions":["wikipedia://en/2148548"],"kind":"definition","name":"Uniformization","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MNS1ER57FB","mentions":["wikipedia://en/51140705#XCX9"],"kind":"topic","name":"Weiwen Miao","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MNSA7W79Y7","mentions":["wikipedia://en/62446999"],"kind":"topic","name":"Christian Lubich","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"MNSD6D1015","mentions":["ax://paper/2610.08935#J9PZ"],"kind":"statement","msc":["14-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.10"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}],"proofs":["ax://paper/2610.08935#Y78S"]}
 {"id":"MNSRTRB1DS","mentions":["wikipedia://en/517370#S1QX"],"kind":"object","name":"Edge","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MNSXFE8FAK","mentions":["wikipedia://en/21317755"],"kind":"topic","name":"Foundations of geometry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -5,4 +5,3 @@
 {"id":"MGDA061ZC4","mentions":["wikipedia://en/47738065#3LRJ"],"kind":"topic","name":"Joseph Pérès","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MGDC1A0QX3","mentions":["wikipedia://en/31821232"],"kind":"definition","name":"E9 honeycomb","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MGDHFE9RMX","mentions":["wikipedia://en/191457#4QJQ"],"kind":"definition","name":"Cross-covariance","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"MGDZR9BEYK","mentions":["ax://paper/2405.14678#EQWD"],"kind":"example","msc":["18-XX","55-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.2"}]}

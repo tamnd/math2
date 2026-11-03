@@ -1,4 +1,3 @@
 {"id":"M485DHM4QQ","mentions":["wikipedia://en/14220#K2UV"],"kind":"unknown","name":"Medieval geometry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"M48EJ9B4YG","mentions":["ax://paper/2609.25656#XT9U"],"kind":"statement","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}
 {"id":"M48NEHKEWK","mentions":["wikipedia://en/37217701#LTDW"],"kind":"definition","name":"Construction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"M48XE85JJ1","mentions":["wikipedia://en/27581920"],"kind":"definition","name":"O*-algebra","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

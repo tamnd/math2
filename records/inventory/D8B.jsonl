@@ -5,7 +5,6 @@
 {"id":"D8BAM8M1CB","mentions":["m2://rec/mathlib_overview/Combinatorics > Graph theory > matching#1"],"kind":"unknown","name":"matching","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"D8BEHJ912E","mentions":["wikipedia://en/47738065#J7DI"],"kind":"unknown","name":"Xiaobo Liu","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"D8BF18WB0B","mentions":["wikipedia://en/6978815"],"kind":"definition","name":"Bayes estimator","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"D8BGBGMAX4","mentions":["ax://paper/2610.16941#0PZQ"],"kind":"definition","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
 {"id":"D8BK3246KR","mentions":["wikipedia://en/9412979#7C3M"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"D8BNQ51J9S","mentions":["wikipedia://en/30562#MJWQ"],"kind":"definition","name":"Discrete topology","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"D8BVY4NDDT","mentions":["wikipedia://en/241820#6Z00"],"kind":"definition","name":"H-fractal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

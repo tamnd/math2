@@ -5,7 +5,6 @@
 {"id":"SD0M2X652P","mentions":["wikipedia://en/140829#2APS"],"kind":"unknown","name":"Lindley, Dennis V.","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"SD0M73R56S","mentions":["wikipedia://en/36549170#ZUSA"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"SD0MPCCC2B","mentions":["wikipedia://en/63363213#AIN9"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"SD0Q5E9CKC","mentions":["ax://paper/2610.04993#CCWL"],"kind":"statement","msc":["11-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.12"}],"proofs":["ax://paper/2610.04993#YVTS"]}
 {"id":"SD0RSKQ4AV","mentions":["wikipedia://en/14403539#Y5E1"],"kind":"topic","name":"Thomas M. Liggett","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"SD0T09NASN","mentions":["wikipedia://en/27799#JBZG"],"kind":"unknown","name":"Factor monoid","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"SD0WV93ETV","mentions":["m2://rec/lebl_ra/ch-seq-ser.tex#ps:divergeex#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

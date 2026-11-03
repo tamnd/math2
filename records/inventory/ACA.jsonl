@@ -1,4 +1,3 @@
 {"id":"ACA0496G5N","mentions":["wikipedia://en/74890981"],"kind":"statement","name":"Kreiss matrix theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"ACA0V75PN3","mentions":["ax://paper/2609.40207#KHVW"],"kind":"definition","msc":["11-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
 {"id":"ACA4NCQQVM","mentions":["wikipedia://en/42975#PDE4"],"kind":"unknown","name":"Dimensionless Hubble constant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ACAPVFVK6T","mentions":["wikipedia://en/58389748#RPTX"],"kind":"unknown","name":"Turing scheme","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

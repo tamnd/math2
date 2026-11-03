@@ -1,5 +1,4 @@
 {"id":"CRS1VXJRXG","mentions":["wikipedia://en/3075539#I9AA"],"kind":"statement","name":"General principle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CRS3EW75VR","mentions":["wikipedia://en/25726694#4VUI"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CRSKZYF86V","mentions":["wikipedia://en/35326250#PS7P"],"kind":"definition","name":"syzygy","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"CRSWGNXSXW","mentions":["ax://paper/math/0406514#A548"],"kind":"definition","msc":["03-XX","13-XX","14-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.0"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.0"}]}
 {"id":"CRSXVFBAZV","mentions":["wikipedia://en/211602#UW57"],"kind":"statement","name":"Bell's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

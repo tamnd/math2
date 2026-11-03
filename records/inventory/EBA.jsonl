@@ -1,5 +1,4 @@
 {"id":"EBAGP6CVQ0","mentions":["wikipedia://en/89247#PLFQ"],"kind":"statement","name":"Characterizations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"EBAKXV0HJ6","mentions":["ax://paper/2609.25269#IN90"],"kind":"statement","msc":["81-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}
 {"id":"EBANXP3Q7M","mentions":["wikipedia://en/38492648"],"kind":"definition","name":"Weighted median","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EBATMEEJAJ","mentions":["wikipedia://en/81821737"],"kind":"definition","name":"Packing coloring","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EBAXKTG1NT","mentions":["wikipedia://en/3002956"],"kind":"definition","name":"Superdense coding","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

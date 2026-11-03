@@ -1,4 +1,3 @@
-{"id":"7R450DZ9V1","mentions":["ax://paper/2609.26619#N4IU"],"kind":"statement","name":"Yudin","msc":["11-XX","26-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}
 {"id":"7R460XVWGV","mentions":["wikipedia://en/14403539#R3KQ"],"kind":"unknown","name":"Gabor Herman","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7R46NZEMM9","mentions":["wikipedia://en/9409435#IKGV"],"kind":"unknown","name":"D4 lattice","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7R4DPD7FJ9","mentions":["wikipedia://en/76765067#5CK7"],"kind":"definition","name":"theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

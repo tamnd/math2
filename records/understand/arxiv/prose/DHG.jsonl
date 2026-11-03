@@ -1,1 +1,0 @@
-{"id":"ax://paper/2307.06098#sec-2","ref":"2307.06098v2#sec-2","pass":"prose","by":"agent:m2-agent/understand@0.5.0","model":"claude-haiku-5-5","class":"open","prose":[{"from":134,"to":134,"line":349,"file":"paper.tex","kind":"definition","term":"Fourier map","check":{"model":"gpt-6-sol","kind":"claim","complete":true},"queue":"prose-review"}]}

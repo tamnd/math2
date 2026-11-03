@@ -1,6 +1,5 @@
 {"id":"17BGJAW54W","mentions":["wikipedia://en/14403539#VOMN"],"kind":"topic","name":"Jeff Kahn","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"17BHZ3V8RY","mentions":["m2://rec/wikidata/Q55640922#1","wikipedia://en/57425265"],"kind":"definition","name":"Loupekine snark","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"17BJ4NMT71","mentions":["wikipedia://en/44178951"],"kind":"topic","name":"Léon-François-Antoine Aurifeuille","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"17BRMK8F8Y","mentions":["ax://paper/2610.22268#NDNE"],"kind":"statement","msc":["05-XX","20-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.0"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.0"}]}
 {"id":"17BVKM586D","mentions":["wikipedia://en/58389748#1970"],"kind":"unknown","name":"Microsoft","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"17BZ1QXP88","mentions":["m2://rec/lebl_scv/scv.tex#exercise-136#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

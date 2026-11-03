@@ -1,3 +1,2 @@
-{"id":"W8P5SZHSQG","mentions":["ax://paper/2106.06387#SK2V"],"kind":"unknown","msc":["14-XX"],"layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
 {"id":"W8P9466ASJ","mentions":["wikipedia://en/47738065#GU5C","wikipedia://en/47738065#MMN4","wikipedia://en/47738065#VLN1"],"kind":"unknown","name":"Andreas Speiser","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"W8PWQGTH1F","mentions":["m2://rec/open_logic/content/set-theory/spine/rank.tex#zfminusregularityfoundation#1"],"kind":"statement","name":"working in $\\ZFminus + \\text{Regularity}$","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

@@ -1,6 +1,5 @@
 {"id":"EFG3DAZ814","mentions":["wikipedia://en/63067144"],"kind":"definition","name":"Boltzmann sampler","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EFG5XH29S3","mentions":["wikipedia://en/6695781#MB7A"],"kind":"statement","name":"Cramer's paradox","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EFGDC8S8TQ","mentions":["wikipedia://en/325802#L4NN"],"kind":"definition","name":"vertex set","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"EFGEHQM8KM","mentions":["ax://paper/2610.16060#7DZK"],"kind":"statement","msc":["49-XX","90-XX","93-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
 {"id":"EFGHZE7VST","mentions":["wikipedia://en/579061#OA50"],"kind":"statement","name":"Verifying the monad laws","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EFGMWA7XWS","mentions":["wikipedia://en/16402429"],"kind":"topic","name":"Lateral surface","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

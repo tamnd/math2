@@ -5,4 +5,3 @@
 {"id":"TKZGPPQTRC","mentions":["wikipedia://en/490764"],"kind":"definition","name":"99 Bottles of Beer","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TKZK75638M","mentions":["wikipedia://en/456715#M4L3"],"kind":"statement","name":"Symmetries","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TKZWD2QPFY","mentions":["wikipedia://en/148633"],"kind":"definition","name":"Value at risk","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"TKZY8D2FAQ","mentions":["ax://paper/2609.24584#F5SH"],"kind":"statement","name":"Shende","msc":["14-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}

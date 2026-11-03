@@ -2,4 +2,3 @@
 {"id":"FBT2J6QCNF","mentions":["wikipedia://en/172568"],"kind":"topic","name":"William Emerson","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"FBT94GDV0C","mentions":["wikipedia://en/510791#E21S"],"kind":"unknown","name":"Tachypsychia","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"FBTHKY4GFP","mentions":["wikipedia://en/1789978#8SAR"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"FBTTB76AQ6","mentions":["ax://paper/2609.33512#LHH9"],"kind":"statement","msc":["05-XX","94-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}

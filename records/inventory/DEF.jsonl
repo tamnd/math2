@@ -2,6 +2,5 @@
 {"id":"DEF2GF2VH6","mentions":["wikipedia://en/296969"],"kind":"problem","name":"Necklace problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"DEF698DKM4","mentions":["m2://rec/lebl_scv/scv.tex#proof-39#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"DEF89Z79RS","mentions":["wikipedia://en/730770"],"kind":"definition","name":"HP-42S","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"DEFEHVX2HE","mentions":["ax://paper/2609.25004#EORH"],"kind":"statement","msc":["05-XX","20-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}],"proofs":["ax://paper/2609.25004#2E6A"]}
 {"id":"DEFN02RF4V","mentions":["wikipedia://en/31393808"],"kind":"definition","name":"Mehler kernel","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"DEFW13FH6Y","mentions":["wikipedia://en/1013550"],"kind":"definition","name":"Quantum channel","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

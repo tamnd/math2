@@ -1,4 +1,3 @@
-{"id":"6JT55T630N","mentions":["ax://paper/2601.15403#8NMH"],"kind":"statement","msc":["13-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.0"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.0"}]}
 {"id":"6JT5B2RRAK","mentions":["wikipedia://en/82053123"],"kind":"definition","name":"Pseudo-tensor category","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6JTA8MVPYN","mentions":["wikipedia://en/164501#5W7S"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6JTRK76VC8","mentions":["wikipedia://en/61475737#052A"],"kind":"unknown","name":"Planar reentry equations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

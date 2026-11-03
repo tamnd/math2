@@ -1,5 +1,4 @@
 {"id":"RMA00P89YV","mentions":["wikipedia://en/18978769#2HNQ"],"kind":"statement","name":"Ōno's lexical law (original version)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"RMAHR0G1D9","mentions":["ax://paper/2609.25168#SIHG"],"kind":"conjecture","msc":["05-XX","11-XX","17-XX","81-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}
 {"id":"RMAKRCXHCK","mentions":["wikipedia://en/10312621"],"kind":"topic","name":"Theodor Schneider","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RMAKXNWB5P","mentions":["wikipedia://en/3042715#Z3I9"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RMAWEF7GTD","mentions":["m2://rec/lebl_scv/scv.tex#defn-5#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

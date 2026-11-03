@@ -3,5 +3,4 @@
 {"id":"AXMGJXK5NX","mentions":["wikipedia://en/1882219#XMF8"],"kind":"unknown","name":"Repeat-accumulate code","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"AXMJCHF1BP","mentions":["wikipedia://en/14403539#TMSG"],"kind":"unknown","name":"Judy Goldsmith","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"AXMK23NG81","mentions":["wikipedia://en/183091#LU73"],"kind":"object","name":"De Bruijn–Newman constant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"AXMKZB744F","mentions":["ax://paper/2610.01968#DJNB"],"kind":"statement","msc":["35-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.12"}]}
 {"id":"AXMXHFPA2W","mentions":["m2://rec/hott_book/reals.tex#RC-continuous-eq#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

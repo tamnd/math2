@@ -1,9 +1,7 @@
 {"id":"1S01ZJJKFX","mentions":["wikipedia://en/1403586#BSYV"],"kind":"unknown","name":"Mwesa Isaiah Mapoma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1S04Q5FXP5","mentions":["wikipedia://en/325802#U7W8"],"kind":"definition","name":"small-world network","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"1S05MP6VR9","mentions":["ax://paper/2405.14678#1HBA"],"kind":"statement","msc":["18-XX","55-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.4.2"}]}
 {"id":"1S09J727QP","mentions":["wikipedia://en/2142850#4M24"],"kind":"definition","name":"round-off error","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1S0ASHPSQ2","mentions":["wikipedia://en/52600654"],"kind":"topic","name":"Olle Häggström","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1S0B0FVS8B","mentions":["wikipedia://en/47738065#G8HO"],"kind":"topic","name":"Kaoru Ono","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1S0Q84DM52","mentions":["wikipedia://en/577441#PQOB"],"kind":"statement","name":"Algebraic properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1S0TTR8Z47","mentions":["wikipedia://en/33695362#JY0D"],"kind":"object","name":"Pythagorean prime","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"1S0WC56EHF","mentions":["ax://paper/1712.02437#MY5D"],"kind":"unknown","layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}

@@ -1,3 +1,2 @@
 {"id":"2VH3Q56PPR","mentions":["wikipedia://en/34996531"],"kind":"topic","name":"Dagmar R. Henney","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"2VHK1MCVMS","mentions":["ax://paper/2610.02352#Z5B6"],"kind":"statement","msc":["11-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.12"}]}
 {"id":"2VHYSRGMD6","mentions":["wikipedia://en/3877474#68QU"],"kind":"unknown","name":"Euler transform","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

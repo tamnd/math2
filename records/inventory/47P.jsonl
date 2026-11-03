@@ -2,6 +2,5 @@
 {"id":"47P5ZC3W66","mentions":["wikipedia://en/2217599"],"kind":"definition","name":"Circular symmetry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"47P7SXF50A","mentions":["wikipedia://en/546415#03R3"],"kind":"definition","name":"Method","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"47PANTWPVF","mentions":["wikipedia://en/43580500#A9ZM"],"kind":"definition","name":"Mahlo","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"47PJGWXM8P","mentions":["ax://paper/2610.10221#QF3N"],"kind":"definition","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.10"},"history":[{"op":"add","at":"2026-10-29","by":"m2/v0.4.10"}]}
 {"id":"47PJJMPZHA","mentions":["m2://rec/wikidata/Q28835#1","wikipedia://en/10859"],"kind":"definition","name":"Fields medal","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"47PY2R2PVS","mentions":["wikipedia://en/49598229#7B3A"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,4 +1,3 @@
-{"id":"2EJ0RNSKW4","mentions":["ax://paper/2609.36016#7ZG7"],"kind":"statement","name":"Mixing under a small contractive perturbation","msc":["81-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}],"proofs":["ax://paper/2609.36016#PRXU"]}
 {"id":"2EJ1H362GK","mentions":["wikipedia://en/38669483"],"kind":"definition","name":"Kelly network","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2EJ8MV29SX","mentions":["wikipedia://en/567391#RQCT"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2EJBPXG3P3","mentions":["wikipedia://en/30062#6QGG"],"kind":"statement","name":"Proposition 6.N","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
@@ -6,5 +5,4 @@
 {"id":"2EJDENDZ58","mentions":["wikipedia://en/12942590"],"kind":"definition","name":"Gromov product","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2EJJ049ANC","mentions":["m2://rec/open_logic/content/normal-modal-logic/completeness/completeness-K.tex#defn-1#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"2EJNBF6GMA","mentions":["m2://rec/open_logic/content/sets-functions-relations/sets/subsets.tex#ex-1#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"2EJPE5NGKG","mentions":["ax://paper/2610.13680#PNHR"],"kind":"unknown","msc":["35-XX","65-XX"],"layer":"research","spread":1,"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
 {"id":"2EJR2H2D51","mentions":["wikipedia://en/27961040#YW2L"],"kind":"unknown","name":"Journal of Multiple-Valued Logic and Soft Computing","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

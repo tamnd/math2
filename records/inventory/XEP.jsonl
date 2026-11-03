@@ -1,5 +1,4 @@
 {"id":"XEP689KRWK","mentions":["wikipedia://en/74543296"],"kind":"topic","name":"Robert I. Jewett","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"XEPEYNS2HJ","mentions":["ax://paper/2609.21914#UUWO"],"kind":"definition","msc":["14-XX","53-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.17"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.17"}]}
 {"id":"XEPQG5T61G","mentions":["wikipedia://en/183091#HAOL"],"kind":"definition","name":"Normal number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XEPXMZM4DY","mentions":["wikipedia://en/34189212#6GBG"],"kind":"definition","name":"Euclidean differential geometry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XEPYRRTF5N","mentions":["wikipedia://en/39563465#V18T"],"kind":"unknown","name":"ASCEND","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

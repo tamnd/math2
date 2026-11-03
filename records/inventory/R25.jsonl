@@ -1,4 +1,3 @@
 {"id":"R252J2G7R1","mentions":["wikipedia://en/7783#CLD3"],"kind":"unknown","name":"Inertial circle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"R2554V8PJG","mentions":["wikipedia://en/12557622"],"kind":"definition","name":"Counternull","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"R256YRAEXB","mentions":["ax://paper/2609.25703#H6JF"],"kind":"statement","msc":["11-XX","14-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.15"},"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.15"}]}
 {"id":"R25P8HKWG8","mentions":["wikipedia://en/4153112"],"kind":"definition","name":"Micromagnetics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

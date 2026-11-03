@@ -1,3 +1,2 @@
 {"id":"6W9ASSJNS3","mentions":["wikipedia://en/1251702#4UCG"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6W9TDA11PR","mentions":["wikipedia://en/69474722"],"kind":"topic","name":"Fumiko Futamura","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"6W9Y6R0P70","mentions":["ax://paper/2609.21931#ZTHG"],"kind":"statement","msc":["26-XX","37-XX","53-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.6.17"},"history":[{"op":"add","at":"2026-11-02","by":"m2/v0.6.17"}]}

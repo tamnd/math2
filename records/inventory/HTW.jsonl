@@ -1,6 +1,5 @@
 {"id":"HTWGTFFDZC","mentions":["m2://rec/hott_book/hlevels.tex#thm:connected-pointed#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"HTWGZFKS52","mentions":["wikipedia://en/48758386#TUE2"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HTWMDVXS8X","mentions":["wikipedia://en/54608601#PN54"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"HTWNP5VQHJ","mentions":["ax://paper/2610.00116#48X5"],"kind":"definition","msc":["13-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}]}
 {"id":"HTWVRE6GBY","mentions":["wikipedia://en/1707754#YQGQ"],"kind":"definition","name":"Light Up","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HTWVYHTHJP","mentions":["wikipedia://en/31776898#OL70"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

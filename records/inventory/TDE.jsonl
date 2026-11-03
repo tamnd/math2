@@ -2,6 +2,5 @@
 {"id":"TDEBYMCC7M","mentions":["wikipedia://en/1028589#VY7V"],"kind":"unknown","name":"Completely free element","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TDECSNJN76","mentions":["wikipedia://en/73634#1Y4C"],"kind":"definition","name":"⊲","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TDEG9TVF9E","mentions":["wikipedia://en/25750436"],"kind":"definition","name":"Mathematical sciences","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"TDEH5PR6JN","mentions":["ax://paper/2609.33050#SOEH"],"kind":"statement","msc":["05-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.12"},"history":[{"op":"add","at":"2026-10-30","by":"m2/v0.4.12"}],"proofs":["ax://paper/2609.33050#NPEY"]}
 {"id":"TDEPY6B8H8","mentions":["wikipedia://en/140829#QTRP"],"kind":"topic","name":"Wood, George Henry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TDET24D8V7","mentions":["wikipedia://en/100303#6DMC"],"kind":"topic","name":"P. Hall","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

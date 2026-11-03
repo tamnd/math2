@@ -1,5 +1,4 @@
 {"id":"XXP3A6EEWV","mentions":["wikipedia://en/346167#8ADS"],"kind":"definition","name":"Systems of Logic Based on Ordinals","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XXP6F8KY8T","mentions":["wikipedia://en/325802#8XSO"],"kind":"definition","name":"anti-edge","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"XXPR2YWN83","mentions":["ax://paper/2204.01073#OO6G"],"kind":"statement","msc":["20-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.3.5"},"history":[{"op":"add","at":"2026-10-27","by":"m2/v0.3.5"}]}
 {"id":"XXPX79KHGE","mentions":["wikipedia://en/356213#MSQK"],"kind":"topic","name":"Hermann Lotze","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XXPX7FK858","mentions":["wikipedia://en/13266#ICD1"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

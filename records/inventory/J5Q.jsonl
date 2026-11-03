@@ -1,5 +1,4 @@
 {"id":"J5QHB9KK1V","mentions":["m2://rec/lebl_ra/ch-seq-ser.tex#exercise-2#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"J5QK212J97","mentions":["wikipedia://en/8559560#UTIZ"],"kind":"definition","name":"Terminology","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"J5QKBPTNJS","mentions":["ax://paper/2610.12831#YNFY"],"kind":"definition","msc":["05-XX","11-XX","26-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.4.2"},"history":[{"op":"add","at":"2026-10-28","by":"m2/v0.4.2"}]}
 {"id":"J5QNDAH2PW","mentions":["wikipedia://en/38323559#MTOL"],"kind":"statement","name":"Symmetry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"J5QQ8CR1Y5","mentions":["wikipedia://en/47738065#SGXY"],"kind":"topic","name":"Otto M. Nikodym","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

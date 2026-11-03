@@ -2,5 +2,4 @@
 {"id":"MR824ATTAR","mentions":["wikipedia://en/50352632"],"kind":"topic","name":"Juan José Nieto Roig","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MR8DNMY04Y","mentions":["wikipedia://en/26678360"],"kind":"topic","name":"Klaus Fischer","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MR8DQ32F2S","mentions":["wikipedia://en/58383744#1XAB"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"MR8NJ47CYT","mentions":["ax://paper/2609.32088#CRER"],"kind":"statement","msc":["37-XX"],"layer":"research","spread":1,"outcome":{"value":"record","reason":"an item of a paper that no node asks for yet. The record keeps its edges in the record plane (corpus arxiv AX8.6)","rule":"research-default","by":"m2/v0.5.6"},"history":[{"op":"add","at":"2026-10-31","by":"m2/v0.5.6"}]}
 {"id":"MR8TF413WN","mentions":["wikipedia://en/663347"],"kind":"definition","name":"FP","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
