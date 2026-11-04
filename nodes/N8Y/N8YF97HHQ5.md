@@ -7,7 +7,7 @@ role: lemma
 sources:
 - locator: source/s_inclusion-exclusion_derangements.ptx:42
   url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_inclusion-exclusion_derangements.ptx#L42
-tag: ~1327befe
+tag: N8YF97HHQ5
 uses:
 - 0BQMWCNS8S
 - 0TH61JR04G

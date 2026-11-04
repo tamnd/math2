@@ -7,7 +7,7 @@ role: theorem
 sources:
 - locator: source/s_inclusion-exclusion_euler-phi.ptx:43
   url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_inclusion-exclusion_euler-phi.ptx#L43
-tag: ~a4414fcc
+tag: ZCC0E1FW8P
 uses:
 - 0VV04M41AN
 - 0SN0MAEKYX

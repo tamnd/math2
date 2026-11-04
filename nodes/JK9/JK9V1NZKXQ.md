@@ -11,7 +11,7 @@ role: theorem
 sources:
 - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_kitchensink_online.ptx#L57
   locator: source/s_kitchensink_online.ptx:57
-tag: ~bd5c974b
+tag: JK9V1NZKXQ
 uses:
 - 0QV2JS9RJ3
 - 03HF498P1J

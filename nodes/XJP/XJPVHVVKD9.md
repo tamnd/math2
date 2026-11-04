@@ -1,5 +1,5 @@
 ---
-tag: ~fae80373
+tag: XJPVHVVKD9
 kind: statement
 role: theorem
 name: Inclusion–exclusion formula for elements with none of the properties

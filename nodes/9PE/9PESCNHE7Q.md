@@ -1,5 +1,5 @@
 ---
-tag: ~aa2a2eaf
+tag: 9PESCNHE7Q
 kind: statement
 role: theorem
 name: Sum of the first n odd positive integers

@@ -1,5 +1,5 @@
 ---
-tag: ~7f4a2b25
+tag: 5DFX9M41GY
 kind: statement
 role: theorem
 name: Gale–Ryser theorem

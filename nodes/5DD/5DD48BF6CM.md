@@ -1,5 +1,5 @@
 ---
-tag: ~9b9e16b5
+tag: 5DD48BF6CM
 kind: statement
 role: theorem
 name: Division theorem for positive integers

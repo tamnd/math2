@@ -9,7 +9,7 @@ role: theorem
 sources:
 - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_kitchensink_markov-chains.ptx#L41
   locator: source/s_kitchensink_markov-chains.ptx:41
-tag: ~6598c503
+tag: FA8MNEYG38
 uses:
 - 0F462493EA
 - 033TJBZDG0

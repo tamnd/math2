@@ -8,7 +8,7 @@ msc:
 sources:
   - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_polya_burnside.ptx#L9
     locator: source/s_polya_burnside.ptx:9
-tag: ~5907116f
+tag: CQTDS8B6R7
 uses:
   - G5S1M9
   - 0WCY42EV9V

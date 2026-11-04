@@ -1,5 +1,5 @@
 ---
-tag: ~4fe457e4
+tag: WTG11RMSK8
 kind: statement
 role: proposition
 name: Alternative formula for the variance of a random variable

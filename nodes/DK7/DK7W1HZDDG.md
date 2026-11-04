@@ -8,7 +8,7 @@ msc:
 sources:
 - locator: source/s_induction_recursion.ptx:270
   url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_induction_recursion.ptx#L270
-tag: ~c537eedd
+tag: DK7W1HZDDG
 uses:
 - 02WF878BH1
 - 0R9GF3JD0K

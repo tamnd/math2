@@ -7,7 +7,7 @@ role: theorem
 sources:
 - locator: source/s_induction_recursion.ptx:223
   url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_induction_recursion.ptx#L223
-tag: ~d46c800a
+tag: 9N6JTBDC0N
 uses:
 - 0C8WYW4KYQ
 - 0CHQKZFK5S

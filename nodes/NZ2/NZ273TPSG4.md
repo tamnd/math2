@@ -1,5 +1,5 @@
 ---
-tag: ~491a6e28
+tag: NZ273TPSG4
 kind: statement
 role: theorem
 name: Principle of mathematical induction for positive integers

@@ -9,7 +9,7 @@ role: theorem
 sources:
 - locator: source/s_posets_intervalorder_findrep.ptx:53
   url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_posets_intervalorder_findrep.ptx#L53
-tag: ~5b0a6411
+tag: D20HMAETQV
 uses:
 - VSNQV29KFJ
 - ETCE287E2R

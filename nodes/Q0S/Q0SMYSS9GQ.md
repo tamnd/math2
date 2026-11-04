@@ -1,5 +1,5 @@
 ---
-tag: ~4e15cdc0
+tag: Q0SMYSS9GQ
 kind: statement
 role: proposition
 name: Covering relation in the poset of partitions of an integer
