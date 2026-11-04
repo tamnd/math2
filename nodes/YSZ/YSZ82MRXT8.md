@@ -1,0 +1,21 @@
+---
+tag: YSZ82MRXT8
+kind: statement
+role: theorem
+name: Ramsey's theorem for colourings of s-subsets with several colours
+msc: [05D10]
+uses: [01DSVCRF6X]
+sources:
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_ramsey_theorem.ptx#L11
+    locator: source/s_ramsey_theorem.ptx:11
+---
+
+## Statement
+
+Let $r$ and $s$ be positive integers. Let $h_1, h_2, \dots, h_r$ be integers with $h_i \ge s$ for each $i = 1, \dots, r$.
+
+Then there is a least positive integer $R(s : h_1, \dots, h_r)$ with this property. Let $n \ge R(s : h_1, \dots, h_r)$. Colour every $s$-element subset of $\{1, \dots, n\}$ with one of $r$ colours, in any way. Then there is a colour $\alpha \in \{1, \dots, r\}$ and a set $H \subseteq \{1, \dots, n\}$ with $|H| = h_\alpha$, such that every $s$-element subset of $H$ has colour $\alpha$.
+
+## Remarks
+
+For $s = 2$ the $s$-subsets are the edges of a complete graph, and the number is a generalised [[Ramsey number|01DSVCRF6X]] for $r$ colours.

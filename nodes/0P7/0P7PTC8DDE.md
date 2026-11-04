@@ -9,6 +9,8 @@ uses: [0DCT0QZVQ1]
 sources:
   - url: https://en.wikipedia.org/wiki/Expected_value
     locator: Properties
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_probability_discrete-random-variables.ptx#L36
+    locator: source/s_probability_discrete-random-variables.ptx:36
 ---
 
 ## Statement
