@@ -7,6 +7,8 @@ defines: VZXF7RNFKS
 uses: [0CQHFPGJ45, 0ZCY0Z80B6, 0G8VEZ3WTK, 0W95W33CMP]
 sources:
   - url: https://en.wikipedia.org/wiki/Germ_(mathematics)
+  - url: https://github.com/jirilebl/scv/blob/78d7d41554695c389552c301398803d4633b9208/scv.tex#L14160
+    locator: scv.tex:14160
 ---
 
 ## Definition

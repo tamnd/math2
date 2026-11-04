@@ -7,6 +7,8 @@ defines: FX92PP3HZR
 uses: [3MQTWKBBBT, 0J2WAR83WP]
 sources:
   - url: https://en.wikipedia.org/wiki/Biholomorphism
+  - url: https://github.com/jirilebl/scv/blob/78d7d41554695c389552c301398803d4633b9208/scv.tex#L3061
+    locator: scv.tex:3061
 ---
 
 ## Definition

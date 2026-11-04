@@ -8,6 +8,8 @@ uses: [079D68S3AW, 05G2G0P224]
 sources:
   - url: https://en.wikipedia.org/wiki/Orthogonal_complement
     locator: Finite dimensions
+  - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section6-2.xml#L1184
+    locator: src/section6-2.xml:1184
 ---
 
 ## Statement

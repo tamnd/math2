@@ -7,6 +7,8 @@ defines: DJBWP7D3M8
 uses: [BH57D2FBNR, 8G5ABXRK85]
 sources:
   - url: https://en.wikipedia.org/wiki/Polydisc
+  - url: https://github.com/jirilebl/scv/blob/78d7d41554695c389552c301398803d4633b9208/scv.tex#L1251
+    locator: scv.tex:1251
 ---
 
 ## Definition

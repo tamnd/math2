@@ -7,6 +7,8 @@ defines: 7PJ8KVZZCQ
 uses: [Y98MD3WVTG, 507C34W0ZT, 0ZCY0Z80B6]
 sources:
   - url: https://en.wikipedia.org/wiki/Germ_(mathematics)
+  - url: https://github.com/jirilebl/scv/blob/78d7d41554695c389552c301398803d4633b9208/scv.tex#L14214
+    locator: scv.tex:14214
 ---
 
 ## Definition

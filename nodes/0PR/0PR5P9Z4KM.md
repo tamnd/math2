@@ -8,6 +8,8 @@ uses: [0HZNE5QZDJ, 0DGZBQWZWN]
 sources:
   - url: https://en.wikipedia.org/wiki/Principal_axis_theorem
     locator: Formal statement
+  - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section7-2.xml#L1032
+    locator: src/section7-2.xml:1032
 same_as:
   wikidata: Q7245073
   wikipedia: Principal axis theorem

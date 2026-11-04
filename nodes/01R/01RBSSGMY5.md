@@ -9,6 +9,8 @@ sources:
     locator: lead section
   - url: https://en.wikipedia.org/wiki/Definite_quadratic_form
     locator: Matrix form
+  - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section7-2.xml#L1073
+    locator: src/section7-2.xml:1073
 same_as:
   wikidata: Q1182685
   wikipedia: Definite quadratic form
