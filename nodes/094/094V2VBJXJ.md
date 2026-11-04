@@ -6,6 +6,8 @@ msc: [15A04]
 sources:
   - url: https://en.wikipedia.org/wiki/Transformation_matrix
     locator: Uses
+  - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section2-5.xml#L315
+    locator: src/section2-5.xml:315
 ---
 
 ## Summary

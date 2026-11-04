@@ -9,6 +9,8 @@ sources:
   url: https://github.com/jirilebl/diffyqs/blob/658bcae9fb710f3fae2c9da4ca4524ce157453af/ap-linear-algebra.tex#L6604
 - locator: ch-systems.tex:1083
   url: https://github.com/jirilebl/diffyqs/blob/658bcae9fb710f3fae2c9da4ca4524ce157453af/ch-systems.tex#L1083
+- locator: src/section3-4.xml:766
+  url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section3-4.xml#L766
 tag: FBSAPTP1PR
 uses:
 - 0EB9N0S33C
