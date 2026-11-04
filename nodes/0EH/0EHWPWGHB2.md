@@ -8,6 +8,8 @@ uses: [092GEF38YD]
 sources:
   - url: https://en.wikipedia.org/wiki/Binomial_theorem
     locator: Statement
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_strings_binom-thm.ptx#L6
+    locator: source/s_strings_binom-thm.ptx:6
 same_as:
   wikidata: Q26708
   wikipedia: Binomial theorem
