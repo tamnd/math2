@@ -1,6 +1,6 @@
 {"id":"TP8452QG5C","mentions":["wikipedia://en/35261957"],"kind":"topic","name":"Géza Grünwald","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TP8E51960M","mentions":["wikipedia://en/51531#HYHQ"],"kind":"definition","name":"Methods","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"TP8M6PM0VF","mentions":["wikipedia://en/348624#RXJB"],"kind":"definition","name":"Ordered field","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"TP8M6PM0VF","mentions":["wikipedia://en/348624#RXJB"],"kind":"definition","name":"Ordered field","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has its own article, page 22430","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"TP8N290DR5","mentions":["wikipedia://en/31157948#X880"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TP8PWB4JKA","mentions":["wikipedia://en/46676#L2L9"],"kind":"statement","name":"Generalizations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TP8ZP8XFMY","mentions":["wikipedia://en/11353703#1QJF"],"kind":"topic","name":"Yitzchak Ratner","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
