@@ -7,6 +7,8 @@ msc: [05C21, 90B10, 90C35]
 uses: [0R5HTV7REV]
 sources:
   - url: https://en.wikipedia.org/wiki/Max-flow_min-cut_theorem
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_networkflow_labeling-algorithm.ptx#L12
+    locator: source/s_networkflow_labeling-algorithm.ptx:12
 same_as:
   wikidata: Q608294
   wikipedia: Max-flow min-cut theorem

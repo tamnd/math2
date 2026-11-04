@@ -10,6 +10,8 @@ sources:
     locator: lead section
   - url: https://en.wikipedia.org/wiki/Mathematical_induction
     locator: Relationship to the well-ordering principle
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_induction_posintsord.ptx#L9
+    locator: source/s_induction_posintsord.ptx:9
 same_as:
   wikidata: Q2488476
   wikipedia: Well-ordering principle

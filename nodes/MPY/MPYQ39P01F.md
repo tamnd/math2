@@ -8,6 +8,8 @@ uses: [0WCY42EV9V, 0YQPZB5Q1G, 0YWDAZPRPQ]
 about: [0WCY42EV9V, 0YQPZB5Q1G]
 sources:
   - url: https://en.wikipedia.org/wiki/P%C3%B3lya_enumeration_theorem
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_polya_polya.ptx#L78
+    locator: source/s_polya_polya.ptx:78
 same_as:
   wikidata: Q1037559
   wikipedia: Pólya enumeration theorem

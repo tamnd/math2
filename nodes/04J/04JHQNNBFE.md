@@ -8,6 +8,8 @@ uses: [092GEF38YD]
 sources:
   - url: https://en.wikipedia.org/wiki/Hockey-stick_identity
     locator: Formulations
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_induction_proofs.ptx#L130
+    locator: source/s_induction_proofs.ptx:130
 same_as:
   wikidata: Q28403965
   wikipedia: Hockey-stick identity
