@@ -1,4 +1,4 @@
-{"id":"H9Q1DDAFYX","mentions":["wikipedia://en/28755276"],"kind":"topic","name":"Nati Linial","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"H9Q1DDAFYX","mentions":["wikipedia://en/28755276"],"kind":"topic","name":"Nati Linial","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"H9Q1HHYDQQ","mentions":["wikipedia://en/63906911"],"kind":"statement","name":"Bottema's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"H9Q6725302","mentions":["wikipedia://en/34287621"],"kind":"definition","name":"Quasi-split group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"H9QCS11SRS","mentions":["wikipedia://en/13545098"],"kind":"topic","name":"Petr Vaníček","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

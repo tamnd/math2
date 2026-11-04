@@ -1,4 +1,4 @@
-{"id":"QX18142J2A","mentions":["wikipedia://en/2233526#IPCG"],"kind":"statement","name":"Ramanujan's identity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QX18142J2A","mentions":["wikipedia://en/2233526#IPCG"],"kind":"statement","name":"Ramanujan's identity","layer":"textbook","spread":1,"outcome":{"value":"node","target":["W79V0GNYFW"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node W79V0GNYFW has the adopted text"}]}
 {"id":"QX18JAKR3P","mentions":["wikipedia://en/1736264#RO3K"],"kind":"unknown","name":"Product Moment of Area","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QX1AME2CMR","mentions":["wikipedia://en/301515"],"kind":"topic","name":"Mileva Marić","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QX1CDPYBDM","mentions":["wikipedia://en/33434715#GF5W"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

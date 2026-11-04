@@ -1,4 +1,4 @@
 {"id":"JKX082VZ21","mentions":["wikipedia://en/523166#BV4Y"],"kind":"unknown","name":"Continuous morphism","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JKX7GYW79N","mentions":["wikipedia://en/2904201#GJBE"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"JKXNGRGJ52","mentions":["wikipedia://en/5966396"],"kind":"definition","name":"Transpose graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"JKXNGRGJ52","mentions":["wikipedia://en/5966396"],"kind":"definition","name":"Transpose graph","layer":"textbook","spread":1,"outcome":{"value":"node","target":["N1BGGNV988"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node N1BGGNV988 has the adopted text"}]}
 {"id":"JKXVHE0B3G","mentions":["wikipedia://en/243334#EYR0"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

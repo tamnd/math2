@@ -1,7 +1,7 @@
 {"id":"1GV1NN0D5Z","mentions":["wikipedia://en/39563465#73P7"],"kind":"unknown","name":"GNU MPFR","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1GV87RBJ8H","mentions":["wikipedia://en/398810#WHL2"],"kind":"definition","name":"Mohr's circle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1GVC2A586Z","mentions":["wikipedia://en/9368110#Q0A7"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"1GVFKW4YF1","mentions":["wikipedia://en/14403539#YN2B"],"kind":"unknown","name":"Juraj Hromkovič","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1GVFKW4YF1","mentions":["wikipedia://en/14403539#YN2B"],"kind":"unknown","name":"Juraj Hromkovič","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"1GVM4MFMT0","mentions":["wikipedia://en/47738065#U4UE"],"kind":"conjecture","name":"Hilbert's problems","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1GVSWYGK0K","mentions":["wikipedia://en/5382#OYJV"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1GVY4QKXS3","mentions":["wikipedia://en/62122606#KY9J"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

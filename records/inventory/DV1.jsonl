@@ -1,5 +1,5 @@
 {"id":"DV12CZ5G94","mentions":["wikipedia://en/22609470#YDBV"],"kind":"definition","name":"Galois group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"DV1ASN9KAY","mentions":["wikipedia://en/22649423"],"kind":"definition","name":"Johnson scheme","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"DV1ASN9KAY","mentions":["wikipedia://en/22649423"],"kind":"definition","name":"Johnson scheme","layer":"textbook","spread":1,"outcome":{"value":"node","target":["HZ5CX9Y5W9"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node HZ5CX9Y5W9 has the adopted text"}]}
 {"id":"DV1FQ6AG2X","mentions":["wikipedia://en/191457#6NIH"],"kind":"definition","name":"Chapman–Robbins bound","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"DV1M034K3H","mentions":["wikipedia://en/30411190#AELT"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"DV1SARM4R6","mentions":["wikipedia://en/5092080#KZ6E"],"kind":"statement","name":"Choi's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -3,5 +3,5 @@
 {"id":"HSGC44MNJ8","mentions":["wikipedia://en/45906#PUAY"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HSGD2SXJH9","mentions":["m2://rec/wikidata/Q523#1"],"kind":"definition","name":"star","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"HSGKA2V28H","mentions":["wikipedia://en/27591226"],"kind":"definition","name":"Borchers algebra","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"HSGKZDD6X9","mentions":["wikipedia://en/14403539#HJAA"],"kind":"topic","name":"Joseph Lipman","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"HSGKZDD6X9","mentions":["wikipedia://en/14403539#HJAA"],"kind":"topic","name":"Joseph Lipman","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"a list or a glossary is not a node (WP9.1)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"HSGRRSJMDE","mentions":["wikipedia://en/47306#WON4"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,6 +1,6 @@
 {"id":"S268XHEFZ1","mentions":["wikipedia://en/32224054"],"kind":"topic","name":"Jacob Loewenberg","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"S269CWFN1D","mentions":["m2://rec/open_logic/content/sets-functions-relations/sets/basics.tex#ex-2#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"S269Q9XD6A","mentions":["wikipedia://en/33046302"],"kind":"topic","name":"Sergey Fomin","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"S269Q9XD6A","mentions":["wikipedia://en/33046302"],"kind":"topic","name":"Sergey Fomin","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"S26E9T3CJE","mentions":["wikipedia://en/3653083"],"kind":"topic","name":"Paul-André Meyer","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"S26JWD1GXT","mentions":["wikipedia://en/2807"],"kind":"definition","name":"Active Directory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"S26R2GCDGD","mentions":["wikipedia://en/2801284#ZB6N"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

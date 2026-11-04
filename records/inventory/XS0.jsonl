@@ -4,5 +4,5 @@
 {"id":"XS0JZ9EMPN","mentions":["wikipedia://en/368311#TAE0"],"kind":"statement","name":"Kepler conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XS0S8NWBXF","mentions":["wikipedia://en/9202993#VOIG"],"kind":"unknown","name":"Pebble game","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XS0TPYQDK4","mentions":["wikipedia://en/25741083#JDYK"],"kind":"statement","name":"Group law","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"XS0XFP0XW5","mentions":["wikipedia://en/296942#QBCG"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"XS0XFP0XW5","mentions":["wikipedia://en/296942#QBCG"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue heading names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"XS0YP3DM80","mentions":["wikipedia://en/20127"],"kind":"topic","name":"M. C. Escher","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

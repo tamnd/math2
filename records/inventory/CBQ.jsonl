@@ -5,4 +5,4 @@
 {"id":"CBQATQH60F","mentions":["wikipedia://en/30284#1MRS"],"kind":"unknown","name":"Alternate hypothesis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CBQG8MFT3W","mentions":["wikipedia://en/80300077"],"kind":"topic","name":"Matilde Sanchez-Kam","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CBQN0NS5SS","mentions":["wikipedia://en/2025989#9UG4"],"kind":"unknown","name":"Endomoon","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"CBQV4C6B08","mentions":["wikipedia://en/16130126#86S4"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"CBQV4C6B08","mentions":["wikipedia://en/16130126#86S4"],"kind":"problem","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue unsolved names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}

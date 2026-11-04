@@ -1,5 +1,5 @@
 {"id":"4Y6AEJMCX6","mentions":["wikipedia://en/42777911"],"kind":"definition","name":"Hénon–Heiles system","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4Y6DFTBRC3","mentions":["m2://rec/hott_book/reals.tex#defn:RC-approx#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"4Y6FVB13WZ","mentions":["wikipedia://en/64208634#C20A"],"kind":"definition","name":"Douglas","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"4Y6HHP353K","mentions":["wikipedia://en/14403539#JQXL"],"kind":"unknown","name":"David Blei","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4Y6HHP353K","mentions":["wikipedia://en/14403539#JQXL"],"kind":"unknown","name":"David Blei","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"4Y6WADAPTJ","mentions":["wikipedia://en/6672748#TKZG"],"kind":"statement","name":"Extensions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

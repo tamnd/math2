@@ -1,5 +1,5 @@
 {"id":"N6H7K6E3V2","mentions":["wikipedia://en/43203588"],"kind":"topic","name":"K. Ruben Gabriel","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"N6H96XY893","mentions":["wikipedia://en/5292366"],"kind":"topic","name":"Marlyn Meltzer","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"N6HBC9FSM0","mentions":["wikipedia://en/14403539#T981"],"kind":"unknown","name":"Zvi Bern","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"N6HBC9FSM0","mentions":["wikipedia://en/14403539#T981"],"kind":"unknown","name":"Zvi Bern","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"N6HF9M32DN","mentions":["wikipedia://en/22609470#JFUC"],"kind":"definition","name":"Inverse cosecant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"N6HJ6F9GC5","mentions":["wikipedia://en/4221033#EPBR"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

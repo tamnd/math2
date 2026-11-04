@@ -1,2 +1,2 @@
 {"id":"Q751G8H7GB","mentions":["wikipedia://en/170366#0GB5"],"kind":"statement","name":"Proposition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"Q75A3G3X5K","mentions":["wikipedia://en/183091#DA9R"],"kind":"definition","name":"Taxicab(5, 2, n)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"Q75A3G3X5K","mentions":["wikipedia://en/183091#DA9R"],"kind":"definition","name":"Taxicab(5, 2, n)","layer":"textbook","spread":1,"outcome":{"value":"node","target":["1TTQ1WCYRK"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 1TTQ1WCYRK has the adopted text"}]}

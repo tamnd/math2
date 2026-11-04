@@ -8,4 +8,4 @@
 {"id":"RKKT5PCD2J","mentions":["wikipedia://en/1986263#CAPY"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RKKWT5AKKH","mentions":["wikipedia://en/7972057"],"kind":"definition","name":"MESH","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RKKXR8XHS0","mentions":["wikipedia://en/22609470#FVBQ"],"kind":"definition","name":"dimension","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"RKKY2QAT0E","mentions":["wikipedia://en/14403539#6BCD"],"kind":"unknown","name":"Serge Belongie","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"RKKY2QAT0E","mentions":["wikipedia://en/14403539#6BCD"],"kind":"unknown","name":"Serge Belongie","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}

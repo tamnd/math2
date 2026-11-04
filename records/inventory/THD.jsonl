@@ -1,3 +1,3 @@
 {"id":"THD3DD3NKM","mentions":["wikipedia://en/57962075"],"kind":"topic","name":"Taivo Arak","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"THD8FPTZJB","mentions":["wikipedia://en/14403539#N1O9"],"kind":"unknown","name":"Greg Moore","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"THD8FPTZJB","mentions":["wikipedia://en/14403539#N1O9"],"kind":"unknown","name":"Greg Moore","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"THDH5ES8YZ","mentions":["wikipedia://en/80805735"],"kind":"topic","name":"J. W. Hopkins","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

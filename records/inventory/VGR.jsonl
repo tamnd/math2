@@ -1,4 +1,4 @@
 {"id":"VGR2K25C5X","mentions":["wikipedia://en/364996#0LWA"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"VGRAYHXQY1","mentions":["wikipedia://en/7075785#MNO0"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"VGRPXKRYS2","mentions":["wikipedia://en/1072915#EY9H"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"VGRSNHZ9VM","mentions":["wikipedia://en/19044845"],"kind":"topic","name":"Vance Faber","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"VGRSNHZ9VM","mentions":["wikipedia://en/19044845"],"kind":"topic","name":"Vance Faber","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}

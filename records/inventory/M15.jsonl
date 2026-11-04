@@ -1,6 +1,6 @@
 {"id":"M1540HJR0T","mentions":["wikipedia://en/29652#H8TU"],"kind":"definition","name":"Formal definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"M15761HM1Z","mentions":["wikipedia://en/2300947#MA40"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"M15A1265J8","mentions":["wikipedia://en/14403539#ZWMS"],"kind":"unknown","name":"Amir Pnueli","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"M15A1265J8","mentions":["wikipedia://en/14403539#ZWMS"],"kind":"unknown","name":"Amir Pnueli","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"M15AQSC25P","mentions":["wikipedia://en/42579992#KYJO"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"M15CY8PXVT","mentions":["wikipedia://en/2142850#OO2B"],"kind":"definition","name":"parameter","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"M15MS90YRD","mentions":["m2://rec/napkin/tex/alg-NT/frobenius.tex#proof-2#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

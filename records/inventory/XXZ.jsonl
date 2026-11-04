@@ -1,5 +1,5 @@
 {"id":"XXZ9RDTWM8","mentions":["wikipedia://en/79494465"],"kind":"definition","name":"Trajectoid","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XXZB93CPRA","mentions":["wikipedia://en/12830119#J0R3"],"kind":"definition","name":"Perimeter bisector of a triangle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"XXZBHDGCE5","mentions":["wikipedia://en/325802#ULF4"],"kind":"definition","name":"biconnected","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"XXZBHDGCE5","mentions":["wikipedia://en/325802#ULF4"],"kind":"definition","name":"biconnected","layer":"textbook","spread":1,"outcome":{"value":"node","target":["W66K1XJT04"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node W66K1XJT04 has the adopted text"}]}
 {"id":"XXZJHY7Q73","mentions":["wikipedia://en/455769#EIXK"],"kind":"statement","name":"Principles","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XXZVPJGSBZ","mentions":["wikipedia://en/7204363#MS8M"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

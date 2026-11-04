@@ -1,5 +1,5 @@
 {"id":"8QN016Y2H4","mentions":["wikipedia://en/21409717#8FWU"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"8QN0Q6AJXR","mentions":["wikipedia://en/191457#GH96"],"kind":"definition","name":"Moran's I","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"8QN25PB7SW","mentions":["wikipedia://en/39338633#0F02"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"8QN25PB7SW","mentions":["wikipedia://en/39338633#0F02"],"kind":"problem","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue unsolved names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"8QNG2XXN29","mentions":["wikipedia://en/3803886"],"kind":"definition","name":"BitTorrent protocol encryption","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"8QNSGYTFXQ","mentions":["m2://rec/wikidata/Q122473586#1"],"kind":"unknown","name":"surgery","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -4,4 +4,4 @@
 {"id":"9KYHE3GY55","mentions":["wikipedia://en/7519#Y465"],"kind":"definition","name":"Notation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9KYKB6Y8SQ","mentions":["wikipedia://en/35057662"],"kind":"definition","name":"Ditkin set","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9KYS34PJRB","mentions":["wikipedia://en/5078522#YPM7"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"9KYYVXVPSC","mentions":["wikipedia://en/14403539#0DS9"],"kind":"unknown","name":"Paul Vitányi","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9KYYVXVPSC","mentions":["wikipedia://en/14403539#0DS9"],"kind":"unknown","name":"Paul Vitányi","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}

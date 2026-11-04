@@ -1,5 +1,5 @@
 {"id":"B63861H5JW","mentions":["wikipedia://en/50505549"],"kind":"topic","name":"Bruno Finzi","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"B638PBR4SP","mentions":["wikipedia://en/183091#CIZD"],"kind":"unknown","name":"Leinster group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"B638PBR4SP","mentions":["wikipedia://en/183091#CIZD"],"kind":"unknown","name":"Leinster group","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"B63B0Y798E","mentions":["wikipedia://en/155624#FFYB"],"kind":"unknown","name":"Parent-offspring regression","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"B63J2VKE1P","mentions":["wikipedia://en/205069#IUQ7"],"kind":"topic","name":"Jean Bertoin","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"B63QJDX783","mentions":["wikipedia://en/57313979#0TWG"],"kind":"unknown","name":".ipynb","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

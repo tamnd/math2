@@ -2,4 +2,4 @@
 {"id":"6B258T7PTX","mentions":["wikipedia://en/11353703#H6XF"],"kind":"topic","name":"Emmy Noether","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6B2MX83SCQ","mentions":["wikipedia://en/26703#7Z7K"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6B2PTN4S9J","mentions":["wikipedia://en/74527567#NY37"],"kind":"statement","name":"Paradox","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"6B2ZMQSAED","mentions":["wikipedia://en/194926#G3K5"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"6B2ZMQSAED","mentions":["wikipedia://en/194926#G3K5"],"kind":"problem","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue unsolved names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}

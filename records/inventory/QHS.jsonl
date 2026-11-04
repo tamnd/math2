@@ -1,3 +1,3 @@
-{"id":"QHSMB95PR9","mentions":["wikipedia://en/2379792"],"kind":"definition","name":"Giant component","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QHSMB95PR9","mentions":["wikipedia://en/2379792"],"kind":"definition","name":"Giant component","layer":"textbook","spread":1,"outcome":{"value":"node","target":["EK73EZW8SH"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node EK73EZW8SH has the adopted text"}]}
 {"id":"QHSPA3G1ZZ","mentions":["wikipedia://en/191457#0T7E"],"kind":"definition","name":"Bates distribution","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QHSR5V6K3B","mentions":["wikipedia://en/337876#8LT8"],"kind":"definition","name":"Generality of algebra","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,3 +1,3 @@
-{"id":"TBA4C4FVN8","mentions":["wikipedia://en/325802#LTSN"],"kind":"definition","name":"closed","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"TBA4C4FVN8","mentions":["wikipedia://en/325802#LTSN"],"kind":"definition","name":"closed","layer":"textbook","spread":1,"outcome":{"value":"node","target":["SAFDX44ZFM"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node SAFDX44ZFM has the adopted text"}]}
 {"id":"TBA6571Z68","mentions":["wikipedia://en/44795949"],"kind":"topic","name":"Laura DeMarco","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TBAKC26F8M","mentions":["wikipedia://en/1471192#LU7P"],"kind":"statement","name":"Derivation of the direct nome cube theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,5 +1,5 @@
 {"id":"5ZN33Y0TQW","mentions":["wikipedia://en/35457783#VFRS"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"5ZNFBM76D5","mentions":["wikipedia://en/5427586"],"kind":"definition","name":"Strahler number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5ZNFBM76D5","mentions":["wikipedia://en/5427586"],"kind":"definition","name":"Strahler number","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"5ZNFH0SAGW","mentions":["wikipedia://en/64219#YPPA"],"kind":"unknown","name":"Total pressure (fluids)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5ZNKCMHZ0B","mentions":["wikipedia://en/964177#65TA"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5ZNRGWD5ZS","mentions":["wikipedia://en/102140#Z5G8"],"kind":"unknown","name":"Shell-crossing","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

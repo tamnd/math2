@@ -1,3 +1,3 @@
 {"id":"88JEAMPZMR","mentions":["wikipedia://en/106364#OULX"],"kind":"statement","name":"Equational axioms","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"88JP6PKN47","mentions":["wikipedia://en/11306#A0W2"],"kind":"statement","name":"Successor state axioms solution","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"88JPSVA1WH","mentions":["wikipedia://en/69798178"],"kind":"definition","name":"Cutwidth","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"88JPSVA1WH","mentions":["wikipedia://en/69798178"],"kind":"definition","name":"Cutwidth","layer":"textbook","spread":1,"outcome":{"value":"node","target":["C10J2S8JB0"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node C10J2S8JB0 has the adopted text"}]}

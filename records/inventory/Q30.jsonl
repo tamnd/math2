@@ -1,6 +1,6 @@
 {"id":"Q300W4R1QG","mentions":["wikipedia://en/57025458#1ZY6"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Q301GSKABC","mentions":["wikipedia://en/71672047"],"kind":"topic","name":"Jan Kohlhaase","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"Q305YAZVG7","mentions":["wikipedia://en/69680802#CS2H"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"Q305YAZVG7","mentions":["wikipedia://en/69680802#CS2H"],"kind":"example","name":"Example","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue heading names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"Q30RPVXRJP","mentions":["wikipedia://en/195351#MTNT"],"kind":"unknown","name":"Jacobian determinant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Q30TV4SAD2","mentions":["wikipedia://en/12989803"],"kind":"definition","name":"Non-positive curvature","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Q30V9A6QBY","mentions":["m2://rec/hott_book/reals.tex#proof-37#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

@@ -1,4 +1,4 @@
-{"id":"MZW2MF00J0","mentions":["wikipedia://en/325802#S08J"],"kind":"definition","name":"leaf","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"MZW2MF00J0","mentions":["wikipedia://en/325802#S08J"],"kind":"definition","name":"leaf","layer":"textbook","spread":1,"outcome":{"value":"node","target":["EA8S0JHXMP"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node EA8S0JHXMP has the adopted text"}]}
 {"id":"MZWH1V48JW","mentions":["m2://rec/lebl_scv/scv.tex#exercise-129#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"MZWKYS739K","mentions":["m2://rec/wikidata/Q3730891#1"],"kind":"concept","name":"Legendre differential equation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"MZWPK6MGX8","mentions":["wikipedia://en/26513034#XF6X"],"kind":"statement","name":"Pythagorean theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -5,4 +5,4 @@
 {"id":"CEVDV5SXM1","mentions":["wikipedia://en/1602970#UAF4"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CEVJMCGSF4","mentions":["m2://rec/lebl_ra/ch-several-vars-ders.tex#exercise-48#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"CEVQCYXP7Q","mentions":["wikipedia://en/51140705#OBZI"],"kind":"unknown","name":"C. Shane Reese","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"CEVWVZPDEV","mentions":["wikipedia://en/65674252"],"kind":"definition","name":"Base-orderable matroid","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"CEVWVZPDEV","mentions":["wikipedia://en/65674252"],"kind":"definition","name":"Base-orderable matroid","layer":"textbook","spread":1,"outcome":{"value":"node","target":["J517QKT7CQ"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node J517QKT7CQ has the adopted text"}]}

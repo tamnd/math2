@@ -1,3 +1,3 @@
 {"id":"M0P0DWCFQY","mentions":["wikipedia://en/450541#U5D0"],"kind":"statement","name":"Identity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"M0PKR5JJJ5","mentions":["m2://rec/wikidata/Q190212#1"],"kind":"unknown","name":"asterisk","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"M0PTZNPN4J","mentions":["wikipedia://en/30247317"],"kind":"definition","name":"Trémaux tree","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"M0PTZNPN4J","mentions":["wikipedia://en/30247317"],"kind":"definition","name":"Trémaux tree","layer":"textbook","spread":1,"outcome":{"value":"node","target":["6J20G0YPWH"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 6J20G0YPWH has the adopted text"}]}

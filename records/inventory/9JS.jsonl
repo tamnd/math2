@@ -1,4 +1,4 @@
 {"id":"9JSBPBX5VF","mentions":["m2://rec/hott_book/index/2.8/arity#1"],"kind":"concept","name":"arity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"9JSKRS0B6N","mentions":["wikipedia://en/47738065#GCHP"],"kind":"topic","name":"Emanuel Beke","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"9JSMCR9RFX","mentions":["wikipedia://en/325802#OS2F"],"kind":"definition","name":"cherry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9JSMCR9RFX","mentions":["wikipedia://en/325802#OS2F"],"kind":"definition","name":"cherry","layer":"textbook","spread":1,"outcome":{"value":"node","target":["MDZJVQDN5J"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node MDZJVQDN5J has the adopted text"}]}
 {"id":"9JSZ5VENJF","mentions":["wikipedia://en/234310#A0S0"],"kind":"unknown","name":"Sylvester's four point problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

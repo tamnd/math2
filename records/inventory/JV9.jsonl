@@ -1,4 +1,4 @@
-{"id":"JV95HPS9HH","mentions":["wikipedia://en/2597784"],"kind":"definition","name":"Book","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"JV95HPS9HH","mentions":["wikipedia://en/2597784"],"kind":"definition","name":"Book","layer":"textbook","spread":1,"outcome":{"value":"node","target":["3BN5FHWME7"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 3BN5FHWME7 has the adopted text"}]}
 {"id":"JV96WRGYQ9","mentions":["wikipedia://en/660973#UOC6"],"kind":"unknown","name":"Michael Green","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JV9CEC92AJ","mentions":["wikipedia://en/159974#5T2N"],"kind":"statement","name":"Statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JV9JTYE3AP","mentions":["wikipedia://en/19884227#NFTC"],"kind":"statement","name":"Abelian Final Value Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

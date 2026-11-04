@@ -1,4 +1,4 @@
-{"id":"SR148X5FTM","mentions":["wikipedia://en/14403539#LS4L"],"kind":"topic","name":"Peter J. Freyd","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"SR148X5FTM","mentions":["wikipedia://en/14403539#LS4L"],"kind":"topic","name":"Peter J. Freyd","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"a list or a glossary is not a node (WP9.1)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"SR16HZ1ZDG","mentions":["wikipedia://en/32055176"],"kind":"definition","name":"Λ-ring","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"SR1A2QZP89","mentions":["wikipedia://en/21562#FGI8"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"SR1FA1JCZZ","mentions":["wikipedia://en/16547646"],"kind":"problem","name":"German tank problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,4 +1,4 @@
-{"id":"3F021RRKVM","mentions":["wikipedia://en/14403539#HFXT"],"kind":"topic","name":"Yair Censor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"3F021RRKVM","mentions":["wikipedia://en/14403539#HFXT"],"kind":"topic","name":"Yair Censor","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"a list or a glossary is not a node (WP9.1)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"3F08T6RGNW","mentions":["m2://rec/lebl_ra/ch-approximate.tex#proof-28#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"3F0DQ4F66V","mentions":["wikipedia://en/473915"],"kind":"definition","name":"900","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"3F0R5XK2KW","mentions":["wikipedia://en/33352398"],"kind":"definition","name":"Tschuprow's T","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

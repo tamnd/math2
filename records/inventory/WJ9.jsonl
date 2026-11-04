@@ -1,4 +1,4 @@
 {"id":"WJ95QF8AJ1","mentions":["wikipedia://en/40116384#4QIH"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"WJ9BKNG2R8","mentions":["wikipedia://en/35258497"],"kind":"definition","name":"Telephone number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"WJ9BKNG2R8","mentions":["wikipedia://en/35258497"],"kind":"definition","name":"Telephone number","layer":"textbook","spread":1,"outcome":{"value":"node","target":["PS7NS1AT2H"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node PS7NS1AT2H has the adopted text"}]}
 {"id":"WJ9Q78SSTN","mentions":["m2://rec/napkin/tex/complex-ana/meromorphic.tex#dproblem-1#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"WJ9XQJQ14D","mentions":["m2://rec/wikidata/Q736383#1"],"kind":"statement","name":"Kummer's test","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,5 +1,5 @@
 {"id":"1X72J589P1","mentions":["wikipedia://en/37153897#TTY2"],"kind":"definition","name":"Archimedean copula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"1X74QYYQXK","mentions":["wikipedia://en/55972236"],"kind":"conjecture","name":"Oberwolfach problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1X74QYYQXK","mentions":["wikipedia://en/55972236"],"kind":"conjecture","name":"Oberwolfach problem","layer":"textbook","spread":1,"outcome":{"value":"node","target":["SHYRX1580S"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node SHYRX1580S has the adopted text"}]}
 {"id":"1X7K92V1Q5","mentions":["wikipedia://en/25441497#KNA4"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1X7NDY12Y5","mentions":["wikipedia://en/47738065#UPW1"],"kind":"unknown","name":"Boaz Barak","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1X7RDDC7FQ","mentions":["wikipedia://en/2374187#LW8S"],"kind":"statement","name":"Euler's four-square identity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

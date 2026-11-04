@@ -1,4 +1,4 @@
 {"id":"5Z23CBZB11","mentions":["wikipedia://en/3118600"],"kind":"definition","name":"Concept drift","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"5Z2JGG6XG6","mentions":["wikipedia://en/325802#7DFY"],"kind":"definition","name":"balanced","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5Z2JGG6XG6","mentions":["wikipedia://en/325802#7DFY"],"kind":"definition","name":"balanced","layer":"textbook","spread":1,"outcome":{"value":"node","target":["H6DDF5JNP6"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node H6DDF5JNP6 has the adopted text"}]}
 {"id":"5Z2M6BE46W","mentions":["m2://rec/austin_ula/src/exercises/exercises2-1.xml#exercise-1#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"5Z2XQ70ZVA","mentions":["wikipedia://en/73074374#ZTYF"],"kind":"statement","name":"Statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

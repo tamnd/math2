@@ -3,4 +3,4 @@
 {"id":"JCGATRADHK","mentions":["wikipedia://en/17523721#NKVV"],"kind":"statement","name":"Statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JCGE0BG43A","mentions":["m2://rec/levin_dmoi/ptx/exercises/logic-proofs.ptx#exercise-1#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"JCGNNWMV38","mentions":["wikipedia://en/2116830"],"kind":"definition","name":"Trajectory optimization","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"JCGS7X7GBP","mentions":["wikipedia://en/14982946"],"kind":"definition","name":"Turán number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"JCGS7X7GBP","mentions":["wikipedia://en/14982946"],"kind":"definition","name":"Turán number","layer":"textbook","spread":1,"outcome":{"value":"node","target":["M09T8TFVWF"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node M09T8TFVWF has the adopted text"}]}

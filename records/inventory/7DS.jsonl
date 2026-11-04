@@ -1,4 +1,4 @@
 {"id":"7DS9T8Y1RX","mentions":["wikipedia://en/398810#9R7Q"],"kind":"statement","name":"Nyquist plot","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7DSFSWY9J9","mentions":["m2://rec/lebl_diffyqs/ap-linear-algebra.tex#exercise-40#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"7DSRPZ560Y","mentions":["m2://rec/austin_ula/src/section7-4.xml#thm-four-subspaces#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"7DSTYYWS0B","mentions":["wikipedia://en/325802#QEQX"],"kind":"definition","name":"proper","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7DSTYYWS0B","mentions":["wikipedia://en/325802#QEQX"],"kind":"definition","name":"proper","layer":"textbook","spread":1,"outcome":{"value":"node","target":["JX8W4XD1VV"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node JX8W4XD1VV has the adopted text"}]}

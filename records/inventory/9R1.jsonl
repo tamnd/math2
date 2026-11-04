@@ -1,4 +1,4 @@
-{"id":"9R13ZFS4DJ","mentions":["wikipedia://en/325802#HVTF"],"kind":"definition","name":"sparse","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9R13ZFS4DJ","mentions":["wikipedia://en/325802#HVTF"],"kind":"definition","name":"sparse","layer":"textbook","spread":1,"outcome":{"value":"node","target":["7D07N8YDZ2"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 7D07N8YDZ2 has the adopted text"}]}
 {"id":"9R14XJ5F8T","mentions":["wikipedia://en/81198626"],"kind":"topic","name":"Anthony M. Bloch","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9R1TRZMTCF","mentions":["wikipedia://en/1339097#OACE"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9R1YK55K61","mentions":["m2://rec/hott_book/homotopy.tex#lem:s1-encode-decode#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

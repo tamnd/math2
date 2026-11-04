@@ -1,6 +1,6 @@
 {"id":"YBN4Q0AY24","mentions":["wikipedia://en/67432243"],"kind":"definition","name":"Convex compactification","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YBNGXRP65D","mentions":["wikipedia://en/513672#0RS0"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YBNHMK6QSA","mentions":["m2://rec/levin_dmoi/ptx/sec_gt-planar.ptx#proof-3#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"YBNNK2TAXN","mentions":["wikipedia://en/1188184#6DYR"],"kind":"unknown","name":"Biplane geometry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"YBNNK2TAXN","mentions":["wikipedia://en/1188184#6DYR"],"kind":"unknown","name":"Biplane geometry","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"YBNS0T19YJ","mentions":["wikipedia://en/76426246"],"kind":"topic","name":"Jinchi Lv","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YBNVECNPPW","mentions":["wikipedia://en/22517558"],"kind":"definition","name":"Relation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

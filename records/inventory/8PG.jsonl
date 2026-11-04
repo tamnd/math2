@@ -1,4 +1,4 @@
 {"id":"8PG42GA77R","mentions":["wikipedia://en/47565351#XOPB"],"kind":"unknown","name":"Half Dome","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"8PG8NK6RK8","mentions":["m2://rec/hott_book/setmath.tex#thm:ordunion#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"8PG99KJQ0F","mentions":["wikipedia://en/3036515#K4TB"],"kind":"topic","name":"Engel","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"8PGZ64R8KA","mentions":["wikipedia://en/508022#W821"],"kind":"object","name":"Catalan number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"8PGZ64R8KA","mentions":["wikipedia://en/508022#W821"],"kind":"object","name":"Catalan number","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is object","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}

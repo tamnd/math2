@@ -1,4 +1,4 @@
-{"id":"JSD2WNB44P","mentions":["wikipedia://en/72371129"],"kind":"topic","name":"Déborah Oliveros","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"JSD2WNB44P","mentions":["wikipedia://en/72371129"],"kind":"topic","name":"Déborah Oliveros","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"JSDHDHX5M3","mentions":["wikipedia://en/1135333#HY22"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JSDTQ7BG74","mentions":["wikipedia://en/7280493#DNTV"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JSDYWV10MB","mentions":["wikipedia://en/92210"],"kind":"topic","name":"Len Sassaman","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

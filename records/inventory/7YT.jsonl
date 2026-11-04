@@ -1,4 +1,4 @@
 {"id":"7YT8S7GEBR","mentions":["wikipedia://en/14925692"],"kind":"definition","name":"Cleaver","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"7YTB5EBYJ3","mentions":["wikipedia://en/14403539#RK04"],"kind":"unknown","name":"Moshe Vardi","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7YTB5EBYJ3","mentions":["wikipedia://en/14403539#RK04"],"kind":"unknown","name":"Moshe Vardi","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"7YTFWRR0SV","mentions":["wikipedia://en/5470579"],"kind":"topic","name":"Jan Mikusiński","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7YTH9H59PB","mentions":["wikipedia://en/75916379#BNRB"],"kind":"example","name":"Uses","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

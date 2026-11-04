@@ -1,4 +1,4 @@
 {"id":"QRTBYCP6T8","mentions":["wikipedia://en/205069#NGEF"],"kind":"topic","name":"Bálint Tóth","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QRTS5914TX","mentions":["wikipedia://en/66489065#Y9U7"],"kind":"statement","name":"Corollary","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QRTVYN07VS","mentions":["wikipedia://en/37225637"],"kind":"definition","name":"K-noid","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"QRTZEG8Y8V","mentions":["wikipedia://en/325802#9E1K"],"kind":"definition","name":"caterpillar","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QRTZEG8Y8V","mentions":["wikipedia://en/325802#9E1K"],"kind":"definition","name":"caterpillar","layer":"textbook","spread":1,"outcome":{"value":"node","target":["EXX87CYSJF"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node EXX87CYSJF has the adopted text"}]}

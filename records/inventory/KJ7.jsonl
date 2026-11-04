@@ -1,5 +1,5 @@
 {"id":"KJ724FXTXG","mentions":["wikipedia://en/660973#CE37"],"kind":"definition","name":"Orbifold","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"KJ7HWPB4HW","mentions":["wikipedia://en/3203851"],"kind":"definition","name":"Bragg plane","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"KJ7SDP35WC","mentions":["wikipedia://en/325802#XVKF"],"kind":"definition","name":"bipartite","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"KJ7SDP35WC","mentions":["wikipedia://en/325802#XVKF"],"kind":"definition","name":"bipartite","layer":"textbook","spread":1,"outcome":{"value":"node","target":["Z181SK9269"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node Z181SK9269 has the adopted text"}]}
 {"id":"KJ7V895VAC","mentions":["wikipedia://en/39905714"],"kind":"topic","name":"Richard Elman","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"KJ7XZRQ2CW","mentions":["wikipedia://en/3036515#SA9T"],"kind":"topic","name":"Issai Schur","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
