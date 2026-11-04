@@ -1,5 +1,5 @@
 {"id":"M8HCA8G0JY","mentions":["wikipedia://en/47738065#1C7N"],"kind":"unknown","name":"John Robert Ringrose","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"M8HHEK2HZR","mentions":["wikipedia://en/1536920#BYAT"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"M8HN94W1QR","mentions":["wikipedia://en/152900"],"kind":"definition","name":"Finitism","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"M8HN94W1QR","mentions":["wikipedia://en/152900"],"kind":"definition","name":"Finitism","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"M8HNVJCJZ5","mentions":["wikipedia://en/70824979#PKJG"],"kind":"statement","name":"Results","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"M8HZJTD0Q5","mentions":["wikipedia://en/7073138"],"kind":"definition","name":"Fin","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

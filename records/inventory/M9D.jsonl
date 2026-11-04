@@ -1,4 +1,4 @@
 {"id":"M9D3AKW95Y","mentions":["wikipedia://en/183091#WL4H"],"kind":"topic","name":"Berry–Tabor conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"M9DFTB52HP","mentions":["wikipedia://en/29538"],"kind":"definition","name":"Set","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"M9DFTB52HP","mentions":["wikipedia://en/29538"],"kind":"definition","name":"Set","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"M9DTKVEMCG","mentions":["wikipedia://en/3526032"],"kind":"topic","name":"Seiberg–Witten theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"M9DX8AXNVP","mentions":["wikipedia://en/14403539#5QAF"],"kind":"unknown","name":"Shang-Hua Teng","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,4 +1,4 @@
 {"id":"52N1ETNSGD","mentions":["wikipedia://en/9877288"],"kind":"definition","name":"Skew lattice","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"52NE1T1SSH","mentions":["wikipedia://en/14041933"],"kind":"definition","name":"Almost integer","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"52NE1T1SSH","mentions":["wikipedia://en/14041933"],"kind":"definition","name":"Almost integer","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"52NWB4895G","mentions":["wikipedia://en/7088#9GYP"],"kind":"topic","name":"David Chaum","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"52NXTZZEM2","mentions":["wikipedia://en/84032973"],"kind":"topic","name":"Tai Melcher","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

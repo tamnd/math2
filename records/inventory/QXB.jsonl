@@ -1,7 +1,7 @@
 {"id":"QXB437VKNR","mentions":["wikipedia://en/33915924#7FJU"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QXB6DKWCG5","mentions":["wikipedia://en/205069#Z7LD"],"kind":"topic","name":"Richard M. Dudley","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QXBAWNZ3RK","mentions":["wikipedia://en/22223909"],"kind":"definition","name":"Segre class","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"QXBBG0D2JH","mentions":["wikipedia://en/52202#DOST"],"kind":"unknown","name":"Kamea (magic)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QXBBG0D2JH","mentions":["wikipedia://en/52202#DOST"],"kind":"unknown","name":"Kamea (magic)","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"QXBDQ2CWXH","mentions":["wikipedia://en/579061#ABDF"],"kind":"unknown","name":"State monad","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QXBGY020P0","mentions":["m2://rec/hott_book/basics.tex#thm:trans-trivial#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"QXBSW4XRZP","mentions":["wikipedia://en/3061995#DZAC"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

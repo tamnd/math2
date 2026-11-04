@@ -2,7 +2,7 @@
 {"id":"QP44JQRFMA","mentions":["wikipedia://en/69832745"],"kind":"statement","name":"Zilber–Pink conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QP4C2F61VG","mentions":["wikipedia://en/7769842#PIOM"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QP4CZB1GPY","mentions":["wikipedia://en/21533030"],"kind":"statement","name":"Pasting lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"QP4J1SHYMW","mentions":["wikipedia://en/32177562"],"kind":"definition","name":"Ulam's game","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QP4J1SHYMW","mentions":["wikipedia://en/32177562"],"kind":"definition","name":"Ulam's game","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"QP4K73NSH8","mentions":["wikipedia://en/248081"],"kind":"definition","name":"Mahlo cardinal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QP4P3KHECV","mentions":["wikipedia://en/10354285#3P03"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QP4SYEMH2H","mentions":["wikipedia://en/337523"],"kind":"definition","name":"Delphi method","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
