@@ -1,4 +1,4 @@
-{"id":"F2T4JNZVCV","mentions":["wikipedia://en/76765067#KD04"],"kind":"definition","name":"limitation result","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"F2T4JNZVCV","mentions":["wikipedia://en/76765067#KD04"],"kind":"definition","name":"limitation result","layer":"textbook","spread":1,"outcome":{"value":"node","target":["ENNDSKCTY2"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node ENNDSKCTY2 has the adopted text"}]}
 {"id":"F2TH56SEXE","mentions":["wikipedia://en/47197272"],"kind":"definition","name":"Mathiness","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"F2TW87YCXM","mentions":["wikipedia://en/505253#U0VI"],"kind":"definition","name":"Medial triambic icosahedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"F2TWFF2GN3","mentions":["wikipedia://en/374222#2EF8"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

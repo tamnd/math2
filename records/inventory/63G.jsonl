@@ -1,3 +1,3 @@
 {"id":"63G5D81PFK","mentions":["wikipedia://en/1459010#A2MQ"],"kind":"example","name":"An example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"63GGC6ZZ20","mentions":["wikipedia://en/220782#WOCP"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"63GZRHWXQA","mentions":["wikipedia://en/13772472"],"kind":"definition","name":"Ω-logic","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"63GZRHWXQA","mentions":["wikipedia://en/13772472"],"kind":"definition","name":"Ω-logic","layer":"textbook","spread":1,"outcome":{"value":"node","target":["44BNWFBZ1A"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 44BNWFBZ1A has the adopted text"}]}

@@ -1,7 +1,7 @@
 {"id":"65XBRZ8HA4","mentions":["wikipedia://en/933541#61PM"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"65XDE2ZEB6","mentions":["wikipedia://en/814148#NQ6C"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"65XFEWEK0Y","mentions":["wikipedia://en/3553599#6KKP"],"kind":"unknown","name":"Shuffling","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"65XFY8RB12","mentions":["wikipedia://en/587645#4VOT"],"kind":"statement","name":"Frobenius theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"65XFY8RB12","mentions":["wikipedia://en/587645#4VOT"],"kind":"statement","name":"Frobenius theorem","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has its own article, page 3966889","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"65XH5SZA4F","mentions":["m2://rec/wikidata/Q1193090#1"],"kind":"unknown","name":"dilaton","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"65XP8711DA","mentions":["m2://rec/wikidata/Q3748374#1"],"kind":"statement","name":"Grassmann's identity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"65XVZ6XEJ6","mentions":["wikipedia://en/22609470#RO3V"],"kind":"definition","name":"curl","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

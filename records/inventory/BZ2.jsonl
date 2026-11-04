@@ -1,4 +1,4 @@
-{"id":"BZ206312P7","mentions":["wikipedia://en/43839113#V93L"],"kind":"definition","name":"predicative","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"BZ206312P7","mentions":["wikipedia://en/43839113#V93L"],"kind":"definition","name":"predicative","layer":"textbook","spread":1,"outcome":{"value":"node","target":["AWWS4VDNQX"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node AWWS4VDNQX has the adopted text"}]}
 {"id":"BZ2JYRRW67","mentions":["wikipedia://en/3828409#ZNRR"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BZ2KS47G7H","mentions":["wikipedia://en/140829#FUM9"],"kind":"unknown","name":"Kuczynski, Robert René","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BZ2NXAW836","mentions":["m2://rec/lebl_ra/ch-der.tex#exercise-23#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

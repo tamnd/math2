@@ -3,7 +3,7 @@
 {"id":"CBH8FY5DF1","mentions":["wikipedia://en/14403539#4M02"],"kind":"unknown","name":"Hannah Bast","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CBHBDSC8V5","mentions":["wikipedia://en/1244529"],"kind":"definition","name":"Algebra bundle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CBHND20PGJ","mentions":["wikipedia://en/3897244#ERB6"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"CBHNP7EFDC","mentions":["wikipedia://en/1188090#SEWJ"],"kind":"definition","name":"Logic of graphs","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"CBHNP7EFDC","mentions":["wikipedia://en/1188090#SEWJ"],"kind":"definition","name":"Logic of graphs","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has its own article, page 47857242","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"CBHRCHA61X","mentions":["wikipedia://en/73147373"],"kind":"topic","name":"Matias D. Cattaneo","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CBHWZW3BWS","mentions":["wikipedia://en/44290296"],"kind":"definition","name":"Toric stack","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CBHXZADP8M","mentions":["wikipedia://en/35326250#F5N4"],"kind":"definition","name":"tetrahedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

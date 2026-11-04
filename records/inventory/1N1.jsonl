@@ -1,5 +1,5 @@
 {"id":"1N14W7968V","mentions":["wikipedia://en/38449#HSDT"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1N1FV0VD2S","mentions":["wikipedia://en/222427"],"kind":"definition","name":"Crypto-anarchy","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1N1H7M2WMB","mentions":["wikipedia://en/67323701"],"kind":"topic","name":"Jane Pendergast","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"1N1P5XFCGZ","mentions":["wikipedia://en/356213#V1KH"],"kind":"unknown","name":"Albert of Saxony","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1N1P5XFCGZ","mentions":["wikipedia://en/356213#V1KH"],"kind":"unknown","name":"Albert of Saxony","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"1N1SM466CQ","mentions":["wikipedia://en/1139981#ZAZ6"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

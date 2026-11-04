@@ -1,5 +1,5 @@
 {"id":"RPR7N3ZNW6","mentions":["m2://rec/wikidata/Q77881363#1"],"kind":"unknown","name":"regular point","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"RPRR1JBRTS","mentions":["wikipedia://en/32917096"],"kind":"object","name":"Excavated dodecahedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RPRVJGKR4H","mentions":["wikipedia://en/47738065#BKYB"],"kind":"topic","name":"Michael Liam McQuillan","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"RPRXB7CN5Q","mentions":["wikipedia://en/326365#355U"],"kind":"unknown","name":"ACA0","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"RPRXB7CN5Q","mentions":["wikipedia://en/326365#355U"],"kind":"unknown","name":"ACA0","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"RPRZ6H9SRG","mentions":["wikipedia://en/25191344"],"kind":"definition","name":"FIPS 140-3","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

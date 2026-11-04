@@ -3,5 +3,5 @@
 {"id":"F34NEQ737G","mentions":["wikipedia://en/25202#G3X3"],"kind":"statement","name":"Uncertainty principle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"F34P5AH2EC","mentions":["wikipedia://en/181289"],"kind":"definition","name":"Empty product","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"F34VDEPZYB","mentions":["wikipedia://en/44670#K3BD"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"F34WBVZFNH","mentions":["wikipedia://en/11715384"],"kind":"topic","name":"William Craig","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"F34WBVZFNH","mentions":["wikipedia://en/11715384"],"kind":"topic","name":"William Craig","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"F34XVHPYPT","mentions":["wikipedia://en/381010#B2MH"],"kind":"unknown","name":"Reduced C*-algebra","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

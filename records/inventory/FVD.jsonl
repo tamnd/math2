@@ -1,4 +1,4 @@
 {"id":"FVD1KW34B9","mentions":["wikipedia://en/51140705#N03D"],"kind":"topic","name":"Lynda Carlson","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"FVDCVTWTA9","mentions":["m2://rec/austin_ula/src/exercises/exercises6-2.xml#exercise-6#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"FVDFJFASHT","mentions":["wikipedia://en/41000669"],"kind":"topic","name":"Dionigi Galletto","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"FVDXACK69H","mentions":["wikipedia://en/76765067#ZH5D"],"kind":"definition","name":"sense","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FVDXACK69H","mentions":["wikipedia://en/76765067#ZH5D"],"kind":"definition","name":"sense","layer":"textbook","spread":1,"outcome":{"value":"node","target":["7TNA9YN9MP"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 7TNA9YN9MP has the adopted text"}]}

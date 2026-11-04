@@ -1,6 +1,6 @@
 {"id":"NZB2GM4YQM","mentions":["wikipedia://en/79382796"],"kind":"statement","name":"Ken Brown's lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NZB57CPCQS","mentions":["wikipedia://en/2480226#XJRW"],"kind":"statement","name":"Generalizations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"NZB9RSB0YT","mentions":["wikipedia://en/764405#HXMM"],"kind":"unknown","name":"Post problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NZB9RSB0YT","mentions":["wikipedia://en/764405#HXMM"],"kind":"unknown","name":"Post problem","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"NZBA1BMW7P","mentions":["wikipedia://en/48781047#3846"],"kind":"definition","name":"Poincaré","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NZBQZNJC9J","mentions":["wikipedia://en/22885288"],"kind":"definition","name":"Pitman–Yor process","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NZBTFSJVEK","mentions":["wikipedia://en/2181360#R2J0"],"kind":"statement","name":"The axioms","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

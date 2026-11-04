@@ -4,4 +4,4 @@
 {"id":"43QMDJWQWX","mentions":["wikipedia://en/39774#DX83"],"kind":"unknown","name":"D/L nomenclature","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"43QQ8VG8D1","mentions":["wikipedia://en/35457783#NNZ1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"43QXJX44C3","mentions":["wikipedia://en/943382#6W9X"],"kind":"statement","name":"Bound for the CHSH inequality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"43QYVE4T6N","mentions":["wikipedia://en/609737#E2ZS"],"kind":"unknown","name":"Bidual","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"43QYVE4T6N","mentions":["wikipedia://en/609737#E2ZS"],"kind":"unknown","name":"Bidual","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}

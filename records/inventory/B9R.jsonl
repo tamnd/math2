@@ -3,5 +3,5 @@
 {"id":"B9RFM5FZET","mentions":["wikipedia://en/191457#8H24"],"kind":"definition","name":"Sinkov statistic","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"B9RJ4M6ABP","mentions":["wikipedia://en/47565351#BN3Y"],"kind":"unknown","name":"Três de Maio","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"B9RMP834X2","mentions":["wikipedia://en/63326139#XQLG"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"B9RQ5W4G99","mentions":["wikipedia://en/76765067#20Y5"],"kind":"definition","name":"logical monism","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"B9RQ5W4G99","mentions":["wikipedia://en/76765067#20Y5"],"kind":"definition","name":"logical monism","layer":"textbook","spread":1,"outcome":{"value":"node","target":["9EK8ETC9YX"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 9EK8ETC9YX has the adopted text"}]}
 {"id":"B9RT9NY04A","mentions":["wikipedia://en/906703"],"kind":"definition","name":"Clenshaw algorithm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

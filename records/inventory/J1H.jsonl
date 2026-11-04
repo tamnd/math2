@@ -1,5 +1,5 @@
 {"id":"J1H3S0T6AJ","mentions":["wikipedia://en/46974282"],"kind":"definition","name":"Fair item allocation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"J1HC6NR2HM","mentions":["wikipedia://en/14403539#5VR0"],"kind":"unknown","name":"Allen Shields","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"J1HG1RNMVQ","mentions":["wikipedia://en/76765067#K4FJ"],"kind":"definition","name":"demonstration","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"J1HG1RNMVQ","mentions":["wikipedia://en/76765067#K4FJ"],"kind":"definition","name":"demonstration","layer":"textbook","spread":1,"outcome":{"value":"node","target":["R0CWA5ZDFR"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node R0CWA5ZDFR has the adopted text"}]}
 {"id":"J1HJB0GD4S","mentions":["wikipedia://en/47541633"],"kind":"topic","name":"Sigurd Angenent","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"J1HZJKV62Z","mentions":["wikipedia://en/80852355"],"kind":"topic","name":"Evans Harrell","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

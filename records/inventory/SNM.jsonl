@@ -1,3 +1,3 @@
-{"id":"SNM1PSC9MY","mentions":["wikipedia://en/3096183#A0CP"],"kind":"definition","name":"λ-unfoldable","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"SNM1PSC9MY","mentions":["wikipedia://en/3096183#A0CP"],"kind":"definition","name":"λ-unfoldable","layer":"textbook","spread":1,"outcome":{"value":"node","target":["C2XNWSF19K"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node C2XNWSF19K has the adopted text"}]}
 {"id":"SNMD2W95N0","mentions":["wikipedia://en/47565351#M1FZ"],"kind":"unknown","name":"Lower Austria","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"SNMR6JVA6C","mentions":["m2://rec/lebl_ra/ch-seq-ser.tex#proof-35#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

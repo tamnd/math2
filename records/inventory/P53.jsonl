@@ -1,4 +1,4 @@
-{"id":"P53AXXT2DN","mentions":["wikipedia://en/587645"],"kind":"topic","name":"List of theorems","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"P53AXXT2DN","mentions":["wikipedia://en/587645"],"kind":"topic","name":"List of theorems","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"P53HD87T8X","mentions":["wikipedia://en/5318870"],"kind":"definition","name":"Grille","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"P53KYN2K28","mentions":["wikipedia://en/12440279"],"kind":"topic","name":"Frank Birch","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"P53MSNJN74","mentions":["m2://rec/lebl_ra/ch-contfunc.tex#exercise-70#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

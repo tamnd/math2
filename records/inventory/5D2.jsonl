@@ -2,6 +2,6 @@
 {"id":"5D23XG098Y","mentions":["wikipedia://en/83649526#C584"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5D2D27MSJ6","mentions":["wikipedia://en/1323068#0ZQW"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5D2DCJQNK3","mentions":["wikipedia://en/3279949#V9UK"],"kind":"example","name":"Uses","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"5D2E85HG2B","mentions":["wikipedia://en/52098902"],"kind":"topic","name":"Karl Schröter","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5D2E85HG2B","mentions":["wikipedia://en/52098902"],"kind":"topic","name":"Karl Schröter","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"5D2KWJPA56","mentions":["wikipedia://en/542447#6B5U"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5D2R2EBBV3","mentions":["m2://rec/lebl_scv/scv.tex#thm:onevarhurwitz#1"],"kind":"statement","name":"Hurwitz","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

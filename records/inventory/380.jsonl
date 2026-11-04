@@ -1,2 +1,2 @@
-{"id":"3805B8F1BT","mentions":["wikipedia://en/15634017"],"kind":"definition","name":"Ramified forcing","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"3805B8F1BT","mentions":["wikipedia://en/15634017"],"kind":"definition","name":"Ramified forcing","layer":"textbook","spread":1,"outcome":{"value":"node","target":["A2CE7G6RE6"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node A2CE7G6RE6 has the adopted text"}]}
 {"id":"380E66D9TT","mentions":["wikipedia://en/1290799"],"kind":"topic","name":"Charles Spearman","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

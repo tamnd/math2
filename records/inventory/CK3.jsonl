@@ -2,7 +2,7 @@
 {"id":"CK34BVJ0A1","mentions":["wikipedia://en/4833235"],"kind":"definition","name":"Levene's test","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CK353VZ5QP","mentions":["wikipedia://en/2083445#93P1"],"kind":"unknown","name":"Incomparability property (commutative algebra)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CK35DKRY54","mentions":["wikipedia://en/27129827"],"kind":"topic","name":"Bálint Virág","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"CK3BAT2NT8","mentions":["wikipedia://en/43580500#HA1U"],"kind":"definition","name":"hereditarily","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"CK3BAT2NT8","mentions":["wikipedia://en/43580500#HA1U"],"kind":"definition","name":"hereditarily","layer":"textbook","spread":1,"outcome":{"value":"node","target":["BJWNDECQQ4"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node BJWNDECQQ4 has the adopted text"}]}
 {"id":"CK3QM7N2W2","mentions":["wikipedia://en/15164481"],"kind":"definition","name":"Souček space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CK3S5Z9K6W","mentions":["m2://rec/wikidata/Q39045406#1"],"kind":"topic","name":"categorical algebra","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"CK3YZB7JPT","mentions":["m2://rec/wikidata/Q78484790#1"],"kind":"unknown","name":"compact symplectic group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

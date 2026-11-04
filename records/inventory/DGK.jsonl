@@ -1,3 +1,3 @@
 {"id":"DGKAYYWRV2","mentions":["wikipedia://en/47738065#4EE9"],"kind":"unknown","name":"Jill Adler","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"DGKKG2WK29","mentions":["wikipedia://en/76765067#9BRX"],"kind":"definition","name":"empty concept","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"DGKKG2WK29","mentions":["wikipedia://en/76765067#9BRX"],"kind":"definition","name":"empty concept","layer":"textbook","spread":1,"outcome":{"value":"node","target":["M7FY407HRW"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node M7FY407HRW has the adopted text"}]}
 {"id":"DGKN4BS8EG","mentions":["wikipedia://en/621447#K8YF"],"kind":"unknown","name":"Normal mapping","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

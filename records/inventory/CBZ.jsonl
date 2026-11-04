@@ -1,3 +1,3 @@
 {"id":"CBZ1H47HHM","mentions":["wikipedia://en/621447#0WPV"],"kind":"unknown","name":"Parallax occlusion mapping","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"CBZDX91BRF","mentions":["wikipedia://en/209103#MN3P"],"kind":"unknown","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"CBZDX91BRF","mentions":["wikipedia://en/209103#MN3P"],"kind":"unknown","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"CBZS9DNW4Q","mentions":["wikipedia://en/11353703#1LAM"],"kind":"topic","name":"Selig Brodetsky","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,4 +1,4 @@
 {"id":"H5AA43RKH8","mentions":["wikipedia://en/517370#QHAI"],"kind":"object","name":"Snub icosidodecadodecahedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"H5AEA4QE01","mentions":["wikipedia://en/43839113#2XBZ"],"kind":"definition","name":"Scott","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"H5AEA4QE01","mentions":["wikipedia://en/43839113#2XBZ"],"kind":"definition","name":"Scott","layer":"textbook","spread":1,"outcome":{"value":"node","target":["A92RNGM102"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node A92RNGM102 has the adopted text"}]}
 {"id":"H5AR1SF6EH","mentions":["wikipedia://en/1701650#8UFV"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"H5AX02PA46","mentions":["wikipedia://en/469391#5DT9"],"kind":"statement","name":"Sato–Tate conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,4 +1,4 @@
 {"id":"PWQFRGYNCE","mentions":["wikipedia://en/17925746#EZSI"],"kind":"unknown","name":"Uniform 9-honeycomb","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PWQM1HQCY9","mentions":["wikipedia://en/11283#V62H"],"kind":"statement","name":"Equivalence principle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PWQM9J2W0G","mentions":["wikipedia://en/241820#TTKR"],"kind":"definition","name":"Conic section","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"PWQZTE8ZQ8","mentions":["wikipedia://en/76765067#8VNH"],"kind":"definition","name":"Euclidean","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"PWQZTE8ZQ8","mentions":["wikipedia://en/76765067#8VNH"],"kind":"definition","name":"Euclidean","layer":"textbook","spread":1,"outcome":{"value":"node","target":["JDE7CN1C48"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node JDE7CN1C48 has the adopted text"}]}

@@ -1,5 +1,5 @@
 {"id":"5ZB0RCS22B","mentions":["wikipedia://en/61718116"],"kind":"topic","name":"Doris Stockton","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"5ZB1XECKFE","mentions":["wikipedia://en/76765067#4PBU"],"kind":"definition","name":"chronological logic","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5ZB1XECKFE","mentions":["wikipedia://en/76765067#4PBU"],"kind":"definition","name":"chronological logic","layer":"textbook","spread":1,"outcome":{"value":"node","target":["K962YV8Q6Q"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node K962YV8Q6Q has the adopted text"}]}
 {"id":"5ZB4DM3Y0B","mentions":["wikipedia://en/191457#BBGU"],"kind":"definition","name":"Semivariance","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5ZBQY4ZNGM","mentions":["wikipedia://en/1652672"],"kind":"definition","name":"Symbolic integration","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5ZBW5QMSG1","mentions":["wikipedia://en/66489065#TNSE"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

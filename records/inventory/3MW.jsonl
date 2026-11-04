@@ -1,4 +1,4 @@
 {"id":"3MW48BWV0T","mentions":["wikipedia://en/822778"],"kind":"definition","name":"Baum–Welch algorithm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"3MWQ1PJEZC","mentions":["wikipedia://en/601070#GXQW"],"kind":"statement","name":"Mashreghi–Ransford inequality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"3MWQTSYZQX","mentions":["wikipedia://en/73634#CM7E"],"kind":"definition","name":"because","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"3MWQTSYZQX","mentions":["wikipedia://en/73634#CM7E"],"kind":"definition","name":"because","layer":"textbook","spread":1,"outcome":{"value":"node","target":["20AHZRBJ0R"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 20AHZRBJ0R has the adopted text"}]}
 {"id":"3MWWVQKT6P","mentions":["wikipedia://en/49821#KOC7"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

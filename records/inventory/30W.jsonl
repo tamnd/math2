@@ -1,5 +1,5 @@
 {"id":"30W5XP3112","mentions":["wikipedia://en/47738065#VSM5"],"kind":"unknown","name":"Dan Barbasch","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"30W8SPKMVY","mentions":["m2://rec/hott_book/setmath.tex#card:exp#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"30WH7Y7QF1","mentions":["m2://rec/napkin/tex/topology/metric-top.tex#proof-1#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"30WKAA83NJ","mentions":["wikipedia://en/21986#ZRMJ"],"kind":"statement","name":"Axioms used in the book","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"30WKAA83NJ","mentions":["wikipedia://en/21986#ZRMJ"],"kind":"statement","name":"Axioms used in the book","layer":"textbook","spread":1,"outcome":{"value":"node","target":["ZA3R1MSMFY"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node ZA3R1MSMFY has the adopted text"}]}
 {"id":"30WXFXF8NR","mentions":["wikipedia://en/14994282#ORRG"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

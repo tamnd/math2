@@ -1,6 +1,6 @@
 {"id":"W261GVBPRZ","mentions":["wikipedia://en/2470414#3KKS"],"kind":"example","name":"Application","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"W264C15D9K","mentions":["wikipedia://en/346955#B71V"],"kind":"conjecture","name":"Wagstaff prime","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"W26CSAFBVG","mentions":["wikipedia://en/22928014#M6CF"],"kind":"unknown","name":"Rule 222","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"W26CSAFBVG","mentions":["wikipedia://en/22928014#M6CF"],"kind":"unknown","name":"Rule 222","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"W26EZ7R9WJ","mentions":["wikipedia://en/13760785#D8L1"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"W26MHTBD5V","mentions":["wikipedia://en/66860#G1RC"],"kind":"unknown","name":"Leibnitz","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"W26PVXZX0K","mentions":["wikipedia://en/1804899#SMNV"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

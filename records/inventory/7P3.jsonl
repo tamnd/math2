@@ -1,2 +1,2 @@
 {"id":"7P36PPZY2C","mentions":["wikipedia://en/2850640#415U"],"kind":"statement","name":"THEOREM","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"7P392RZVNC","mentions":["wikipedia://en/76765067#5RQA"],"kind":"definition","name":"ancestral","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7P392RZVNC","mentions":["wikipedia://en/76765067#5RQA"],"kind":"definition","name":"ancestral","layer":"textbook","spread":1,"outcome":{"value":"node","target":["VT2Q5BZEGH"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node VT2Q5BZEGH has the adopted text"}]}

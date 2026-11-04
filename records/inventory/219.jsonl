@@ -1,4 +1,4 @@
-{"id":"21958AHGYT","mentions":["wikipedia://en/18926594"],"kind":"definition","name":"Hrushovski construction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"21958AHGYT","mentions":["wikipedia://en/18926594"],"kind":"definition","name":"Hrushovski construction","layer":"textbook","spread":1,"outcome":{"value":"node","target":["B3XW32T6EH"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node B3XW32T6EH has the adopted text"}]}
 {"id":"21996FCTR2","mentions":["wikipedia://en/47738065#3GDZ"],"kind":"unknown","name":"Thomas Nikolaus","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"219AS1CYCX","mentions":["wikipedia://en/59917885"],"kind":"topic","name":"Nick Patterson","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"219EFDYXVZ","mentions":["wikipedia://en/56567#ITPB"],"kind":"statement","name":"Product formulas","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

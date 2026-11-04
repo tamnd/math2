@@ -1,5 +1,5 @@
 {"id":"A6W03HDBHE","mentions":["wikipedia://en/37697003"],"kind":"definition","name":"Random indexing","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"A6W87163F9","mentions":["wikipedia://en/41500245"],"kind":"topic","name":"Tord Hall","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"A6WCWB43YN","mentions":["wikipedia://en/356213#7ZH9"],"kind":"topic","name":"Jean Buridan","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"A6WCWB43YN","mentions":["wikipedia://en/356213#7ZH9"],"kind":"topic","name":"Jean Buridan","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"a list or a glossary is not a node (WP9.1)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"A6WRS0K8N8","mentions":["wikipedia://en/52284032"],"kind":"topic","name":"Ravindra Bapat","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"A6WTA4NBPR","mentions":["wikipedia://en/193837#INAU"],"kind":"definition","name":"Degree matrix","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

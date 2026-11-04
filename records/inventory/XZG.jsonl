@@ -1,5 +1,5 @@
 {"id":"XZG6TGJ3Q3","mentions":["wikipedia://en/15315059#1EV7"],"kind":"topic","name":"Jon A. Wellner","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"XZGA0FYQ3J","mentions":["wikipedia://en/76765067#5OXS"],"kind":"definition","name":"strong inductive argument","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"XZGA0FYQ3J","mentions":["wikipedia://en/76765067#5OXS"],"kind":"definition","name":"strong inductive argument","layer":"textbook","spread":1,"outcome":{"value":"node","target":["BKQEM35XMY"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node BKQEM35XMY has the adopted text"}]}
 {"id":"XZGE2KMZPB","mentions":["wikipedia://en/1725128#KZZO"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XZGVWM3CCK","mentions":["wikipedia://en/2388068#S4L8"],"kind":"unknown","name":"Alfonso Romero","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XZGX5B88JP","mentions":["m2://rec/wikidata/Q3115490#1"],"kind":"unknown","name":"Gosset graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

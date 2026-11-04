@@ -4,4 +4,4 @@
 {"id":"12GNM5ZKSK","mentions":["wikipedia://en/14415338#BDDI"],"kind":"unknown","name":"24-cell prism","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"12GQS1PJ49","mentions":["wikipedia://en/2388068#ONR3"],"kind":"unknown","name":"George Yuri Rainich","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"12GSEV1EKM","mentions":["wikipedia://en/42806211#LDP6"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"12GTXW0QVW","mentions":["wikipedia://en/2961091"],"kind":"definition","name":"Fluent calculus","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"12GTXW0QVW","mentions":["wikipedia://en/2961091"],"kind":"definition","name":"Fluent calculus","layer":"textbook","spread":1,"outcome":{"value":"node","target":["SBGXED586X"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node SBGXED586X has the adopted text"}]}

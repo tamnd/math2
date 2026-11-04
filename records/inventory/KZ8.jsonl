@@ -1,4 +1,4 @@
 {"id":"KZ886WSY7V","mentions":["wikipedia://en/168609#UTD3"],"kind":"definition","name":"Algorithm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"KZ8HG9AYW4","mentions":["m2://rec/lebl_scv/scv.tex#exercise-195#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"KZ8QND8Y29","mentions":["wikipedia://en/17145259"],"kind":"topic","name":"Sy Friedman","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"KZ8QND8Y29","mentions":["wikipedia://en/17145259"],"kind":"topic","name":"Sy Friedman","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"KZ8SQJE7HA","mentions":["wikipedia://en/14007418"],"kind":"topic","name":"Rudolf Wille","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

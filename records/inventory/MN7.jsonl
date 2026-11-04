@@ -2,4 +2,4 @@
 {"id":"MN7K21V0Y8","mentions":["wikipedia://en/40183538#4UTD"],"kind":"definition","name":"Cluster algebra","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MN7P450WGM","mentions":["m2://rec/ernst_ibl/MAAPressVersion/ModularArithmetic.tex#problem-6#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"MN7R3KCN78","mentions":["m2://rec/napkin/tex/calculus/limits.tex#proof-3#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"MN7Z6YDR2N","mentions":["wikipedia://en/73634#ZF7T"],"kind":"definition","name":"equal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"MN7Z6YDR2N","mentions":["wikipedia://en/73634#ZF7T"],"kind":"definition","name":"equal","layer":"textbook","spread":1,"outcome":{"value":"node","target":["RVY03H36GK"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node RVY03H36GK has the adopted text"}]}

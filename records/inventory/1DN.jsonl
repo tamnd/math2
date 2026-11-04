@@ -2,5 +2,5 @@
 {"id":"1DN7BZKTG8","mentions":["wikipedia://en/56835844#N5ZI"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1DNA0A83B9","mentions":["wikipedia://en/13660#YVJM"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1DNM1YRBA2","mentions":["wikipedia://en/66113656"],"kind":"definition","name":"Branched flow","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"1DNXXDWXCK","mentions":["wikipedia://en/341428#EFUC"],"kind":"unknown","name":"SO (complexity)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1DNXXDWXCK","mentions":["wikipedia://en/341428#EFUC"],"kind":"unknown","name":"SO (complexity)","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"1DNZY5HZ9H","mentions":["m2://rec/lebl_ra/ch-seq-ser.tex#prop-10#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

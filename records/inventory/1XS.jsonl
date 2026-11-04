@@ -1,6 +1,6 @@
 {"id":"1XS80QXHF5","mentions":["m2://rec/lebl_diffyqs/ch-laplace.tex#exercise-23#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"1XSHMBFF1T","mentions":["wikipedia://en/57242824#4IG8"],"kind":"topic","name":"Ernst Witt","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"1XSKHN6JZ6","mentions":["wikipedia://en/2977119#XZW6"],"kind":"unknown","name":"Call by macro expansion","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1XSKHN6JZ6","mentions":["wikipedia://en/2977119#XZW6"],"kind":"unknown","name":"Call by macro expansion","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"1XSNKW0XR8","mentions":["wikipedia://en/47738065#SHOU"],"kind":"topic","name":"Sophie Morel","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1XSPDVYGA2","mentions":["wikipedia://en/562999#SX53"],"kind":"unknown","name":"4100","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1XSQ76T2TQ","mentions":["wikipedia://en/8566626"],"kind":"definition","name":"M6","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

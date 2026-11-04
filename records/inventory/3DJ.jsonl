@@ -1,3 +1,3 @@
 {"id":"3DJFX3W5HT","mentions":["wikipedia://en/51140705#GKCX"],"kind":"topic","name":"Prasanta Chandra Mahalanobis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"3DJM2HC122","mentions":["wikipedia://en/74584293"],"kind":"topic","name":"Marco Antei","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"3DJY288JJQ","mentions":["wikipedia://en/24140211"],"kind":"definition","name":"Intersection type","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"3DJY288JJQ","mentions":["wikipedia://en/24140211"],"kind":"definition","name":"Intersection type","layer":"textbook","spread":1,"outcome":{"value":"node","target":["R4PQ6VXER6"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node R4PQ6VXER6 has the adopted text"}]}

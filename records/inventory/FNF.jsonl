@@ -1,3 +1,3 @@
 {"id":"FNF5JDTB88","mentions":["wikipedia://en/11474616"],"kind":"definition","name":"TPL Tables","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"FNF5NYQKAB","mentions":["wikipedia://en/25827396#Y06V"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"FNFD1R6R4W","mentions":["wikipedia://en/3893531"],"kind":"definition","name":"Difference hierarchy","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FNFD1R6R4W","mentions":["wikipedia://en/3893531"],"kind":"definition","name":"Difference hierarchy","layer":"textbook","spread":1,"outcome":{"value":"node","target":["3385N1A51V"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 3385N1A51V has the adopted text"}]}

@@ -1,4 +1,4 @@
-{"id":"QCZCS49XN9","mentions":["wikipedia://en/75602409"],"kind":"statement","name":"Second continuum hypothesis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QCZCS49XN9","mentions":["wikipedia://en/75602409"],"kind":"statement","name":"Second continuum hypothesis","layer":"textbook","spread":1,"outcome":{"value":"node","target":["VR1AGNPR34"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node VR1AGNPR34 has the adopted text"}]}
 {"id":"QCZF6ECQQZ","mentions":["wikipedia://en/181334#A0ZX"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QCZGS6WCV1","mentions":["wikipedia://en/23659805#UDBB"],"kind":"definition","name":"Terminology","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QCZKQDD2EZ","mentions":["wikipedia://en/37236195#OI2F"],"kind":"statement","name":"Cantor–Dedekind axiom","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

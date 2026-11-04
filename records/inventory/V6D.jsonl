@@ -1,6 +1,6 @@
 {"id":"V6D8B2QRZ3","mentions":["wikipedia://en/51140705#C9VK"],"kind":"unknown","name":"Yoonkyung Lee","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"V6DE785EWM","mentions":["wikipedia://en/4165631#1XCC"],"kind":"unknown","name":"Proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"V6DMCG2MKE","mentions":["wikipedia://en/886000"],"kind":"definition","name":"Open-question argument","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"V6DMCG2MKE","mentions":["wikipedia://en/886000"],"kind":"definition","name":"Open-question argument","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"V6DSP3QX92","mentions":["wikipedia://en/55752077"],"kind":"topic","name":"Gertrude Bancroft","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"V6DSYX60M1","mentions":["wikipedia://en/140829#WX6G"],"kind":"unknown","name":"Goulden, Cyril","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"V6DT9WHG38","mentions":["wikipedia://en/383501"],"kind":"topic","name":"Erich Kähler","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

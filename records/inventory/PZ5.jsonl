@@ -2,7 +2,7 @@
 {"id":"PZ577YV0C8","mentions":["wikipedia://en/4292269#ZPN8"],"kind":"definition","name":"Notation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PZ57KKHH2H","mentions":["wikipedia://en/36014669#SYEC"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PZ57W5282N","mentions":["wikipedia://en/25746123"],"kind":"topic","name":"George Walker","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"PZ580DE5XS","mentions":["wikipedia://en/14528017#TKC7"],"kind":"unknown","name":"Daniel Biss","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"PZ580DE5XS","mentions":["wikipedia://en/14528017#TKC7"],"kind":"unknown","name":"Daniel Biss","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"PZ5JK4K2KX","mentions":["wikipedia://en/950777#N5AN"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PZ5N0TZWW7","mentions":["wikipedia://en/26551602#IYYP"],"kind":"definition","name":"Notation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PZ5T8QYYVQ","mentions":["wikipedia://en/29258614"],"kind":"topic","name":"Marc Culler","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

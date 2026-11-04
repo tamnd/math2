@@ -1,3 +1,3 @@
 {"id":"HEE56WK08F","mentions":["wikipedia://en/34494899#ULGZ"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"HEENKMPV6F","mentions":["wikipedia://en/6563"],"kind":"definition","name":"Conjunction introduction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"HEENKMPV6F","mentions":["wikipedia://en/6563"],"kind":"definition","name":"Conjunction introduction","layer":"textbook","spread":1,"outcome":{"value":"node","target":["FJN3XDRXAR"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node FJN3XDRXAR has the adopted text"}]}
 {"id":"HEEZW5RF6A","mentions":["wikipedia://en/161339#SA6K"],"kind":"topic","name":"Karl Wilhelm Feuerbach","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

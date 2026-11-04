@@ -3,4 +3,4 @@
 {"id":"HME48ZFKFB","mentions":["wikipedia://en/10406190#AY7C"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HMECP1XGDE","mentions":["wikipedia://en/175285#R637"],"kind":"unknown","name":"Rename (relational algebra)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"HMEHXWF8JT","mentions":["wikipedia://en/48325437"],"kind":"topic","name":"Harald Garcke","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"HMEM125EQE","mentions":["wikipedia://en/31103500#OCYH"],"kind":"statement","name":"Theorem provers","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"HMEM125EQE","mentions":["wikipedia://en/31103500#OCYH"],"kind":"statement","name":"Theorem provers","layer":"textbook","spread":1,"outcome":{"value":"node","target":["ZMMYNZAF2N"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node ZMMYNZAF2N has the adopted text"}]}

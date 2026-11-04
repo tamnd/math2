@@ -1,2 +1,2 @@
-{"id":"WKN5NX0Y5M","mentions":["wikipedia://en/76765067#0B92"],"kind":"definition","name":"mood","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"WKN5NX0Y5M","mentions":["wikipedia://en/76765067#0B92"],"kind":"definition","name":"mood","layer":"textbook","spread":1,"outcome":{"value":"node","target":["FNJ1N12GDD"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node FNJ1N12GDD has the adopted text"}]}
 {"id":"WKNGPQKCVB","mentions":["wikipedia://en/13035#FVPH"],"kind":"statement","name":"Generalizations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

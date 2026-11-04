@@ -2,5 +2,5 @@
 {"id":"2RV6B97GYD","mentions":["wikipedia://en/53357095#49J8"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2RV7X49N3T","mentions":["wikipedia://en/11353703#HC1X"],"kind":"topic","name":"Peter Hilton","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2RVF11WNHA","mentions":["wikipedia://en/3615367"],"kind":"topic","name":"Oskar Schlömilch","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"2RVQHVB3PJ","mentions":["wikipedia://en/8169758#O1YU"],"kind":"unknown","name":"Order-sorted logic","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"2RVQHVB3PJ","mentions":["wikipedia://en/8169758#O1YU"],"kind":"unknown","name":"Order-sorted logic","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"2RVVRQQ388","mentions":["wikipedia://en/16947"],"kind":"definition","name":"Kerberos","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

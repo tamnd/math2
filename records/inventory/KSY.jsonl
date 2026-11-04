@@ -1,1 +1,1 @@
-{"id":"KSY9WTZQ57","mentions":["wikipedia://en/73634#EET1"],"kind":"definition","name":"oint","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"KSY9WTZQ57","mentions":["wikipedia://en/73634#EET1"],"kind":"definition","name":"oint","layer":"textbook","spread":1,"outcome":{"value":"node","target":["61CXN2YTNF"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 61CXN2YTNF has the adopted text"}]}

@@ -1,4 +1,4 @@
-{"id":"NX01KYJ2PY","mentions":["wikipedia://en/37143"],"kind":"topic","name":"Chrysippus","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NX01KYJ2PY","mentions":["wikipedia://en/37143"],"kind":"topic","name":"Chrysippus","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"NX01MV60SM","mentions":["wikipedia://en/59939359"],"kind":"conjecture","name":"Conway's 99-graph problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NX03PERV38","mentions":["wikipedia://en/2932361#U88O"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NX0KW999SN","mentions":["wikipedia://en/746550"],"kind":"definition","name":"Generalized game","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

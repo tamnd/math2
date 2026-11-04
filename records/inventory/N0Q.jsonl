@@ -9,5 +9,5 @@
 {"id":"N0QKD40PC7","mentions":["wikipedia://en/101453#0LC6"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"N0QKJVFJBD","mentions":["wikipedia://en/20251284#TGLH"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"N0QNTHRAHD","mentions":["wikipedia://en/191457#4Y7V"],"kind":"definition","name":"Static analysis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"N0QVPHD538","mentions":["wikipedia://en/74034409"],"kind":"definition","name":"Argüman","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"N0QVPHD538","mentions":["wikipedia://en/74034409"],"kind":"definition","name":"Argüman","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"N0QZ7Q1MK5","mentions":["wikipedia://en/6571387#G7CP"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

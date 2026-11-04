@@ -1,6 +1,6 @@
 {"id":"5CB3725NAE","mentions":["m2://rec/lebl_scv/scv.tex#exercise-258#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"5CB5G8ZRDN","mentions":["wikipedia://en/7042478#KYNJ"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5CBC409R5C","mentions":["wikipedia://en/51140705#C2NU"],"kind":"topic","name":"Bhramar Mukherjee","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"5CBS4DY1TK","mentions":["wikipedia://en/546039"],"kind":"definition","name":"Syntax","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5CBS4DY1TK","mentions":["wikipedia://en/546039"],"kind":"definition","name":"Syntax","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"5CBTD2YPZC","mentions":["wikipedia://en/1567335#PA4Z"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5CBXGFK46G","mentions":["wikipedia://en/708399#KAL9"],"kind":"topic","name":"Gerolamo Cardano","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

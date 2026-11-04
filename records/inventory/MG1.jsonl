@@ -4,4 +4,4 @@
 {"id":"MG1D7A88XD","mentions":["wikipedia://en/191457#CK1N"],"kind":"definition","name":"Mittag–Leffler distribution","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MG1DZJ8D42","mentions":["wikipedia://en/47738065#JJD6"],"kind":"unknown","name":"Ricardo Horatio Nochetto","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MG1GVMCHF3","mentions":["wikipedia://en/16773207#UV1J"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"MG1QZ4NM1A","mentions":["wikipedia://en/42158532"],"kind":"definition","name":"Redundant proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"MG1QZ4NM1A","mentions":["wikipedia://en/42158532"],"kind":"definition","name":"Redundant proof","layer":"textbook","spread":1,"outcome":{"value":"node","target":["FFH6M3M077"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node FFH6M3M077 has the adopted text"}]}

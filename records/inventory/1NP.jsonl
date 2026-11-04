@@ -1,3 +1,3 @@
-{"id":"1NPFPR5NAN","mentions":["wikipedia://en/43839113#RD1I"],"kind":"definition","name":"continuous","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1NPFPR5NAN","mentions":["wikipedia://en/43839113#RD1I"],"kind":"definition","name":"continuous","layer":"textbook","spread":1,"outcome":{"value":"node","target":["M90Z2FA8NN"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node M90Z2FA8NN has the adopted text"}]}
 {"id":"1NPHV7HPVX","mentions":["wikipedia://en/2390225#899I"],"kind":"definition","name":"fibrant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1NPZY19T4B","mentions":["wikipedia://en/63556609#77NS"],"kind":"statement","name":"Robinson–Ursescu theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

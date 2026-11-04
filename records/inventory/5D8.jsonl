@@ -1,4 +1,4 @@
 {"id":"5D83XQPA1B","mentions":["m2://rec/hott_book/index/8.3/predecessor#1"],"kind":"concept","name":"predecessor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"5D88AXT2M0","mentions":["wikipedia://en/67554287"],"kind":"definition","name":"Oblique lattice","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5D8FH035NH","mentions":["m2://rec/wikidata/Q18883174#1"],"kind":"definition","name":"gold-197","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"5D8QBGANYP","mentions":["wikipedia://en/81395508#LWH8"],"kind":"statement","name":"Axiom systems","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5D8QBGANYP","mentions":["wikipedia://en/81395508#LWH8"],"kind":"statement","name":"Axiom systems","layer":"textbook","spread":1,"outcome":{"value":"node","target":["AAVBSD1CXQ"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node AAVBSD1CXQ has the adopted text"}]}

@@ -1,6 +1,6 @@
 {"id":"43YCTBGTKA","mentions":["wikipedia://en/54429046"],"kind":"topic","name":"Jean Du Breuil","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"43YE0BR86T","mentions":["wikipedia://en/62456800"],"kind":"topic","name":"Leyla Mohadjer","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"43YM6PG74J","mentions":["wikipedia://en/3146632#FR1Q"],"kind":"example","name":"Application","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"43YN27ZMPR","mentions":["wikipedia://en/28167114#XEQY"],"kind":"statement","name":"Lemma 4","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"43YN27ZMPR","mentions":["wikipedia://en/28167114#XEQY"],"kind":"statement","name":"Lemma 4","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has no name of its own, and the write role names it","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"43YT1RF0F8","mentions":["wikipedia://en/28084120"],"kind":"topic","name":"Karl Becker","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"43YXXWF95K","mentions":["wikipedia://en/924193"],"kind":"definition","name":"Volterra's function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

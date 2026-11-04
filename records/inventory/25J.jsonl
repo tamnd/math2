@@ -1,1 +1,1 @@
-{"id":"25JN49DFTE","mentions":["wikipedia://en/43580500#7OST"],"kind":"definition","name":"second","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"25JN49DFTE","mentions":["wikipedia://en/43580500#7OST"],"kind":"definition","name":"second","layer":"textbook","spread":1,"outcome":{"value":"node","target":["4N7H08TX9R"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 4N7H08TX9R has the adopted text"}]}

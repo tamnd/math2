@@ -1,4 +1,4 @@
 {"id":"J0P4J3NFTK","mentions":["wikipedia://en/48781047#JYW9"],"kind":"definition","name":"exact","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"J0P7MZZ02W","mentions":["wikipedia://en/161339#KKTT"],"kind":"topic","name":"Ernst Witt","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"J0PEK0YSE7","mentions":["wikipedia://en/2637941"],"kind":"topic","name":"John Perry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"J0PEK0YSE7","mentions":["wikipedia://en/2637941"],"kind":"topic","name":"John Perry","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"J0PT8QT2Q7","mentions":["wikipedia://en/47565351#AUWX"],"kind":"unknown","name":"Thebais Prima","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

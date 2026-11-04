@@ -1,4 +1,4 @@
-{"id":"Q4Z14DMEAD","mentions":["wikipedia://en/76765067#0MN6"],"kind":"definition","name":"Boolean negation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"Q4Z14DMEAD","mentions":["wikipedia://en/76765067#0MN6"],"kind":"definition","name":"Boolean negation","layer":"textbook","spread":1,"outcome":{"value":"node","target":["NSXR6G7AP8"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node NSXR6G7AP8 has the adopted text"}]}
 {"id":"Q4Z2ZYNRJ7","mentions":["wikipedia://en/59290524"],"kind":"definition","name":"Visual metaphor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Q4Z4YB4890","mentions":["m2://rec/napkin/tex/cats/categories.tex#example-7#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"Q4Z80BKRZX","mentions":["wikipedia://en/351549#XZ7A"],"kind":"topic","name":"Birational geometry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

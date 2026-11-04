@@ -1,4 +1,4 @@
 {"id":"MX476ZSHE0","mentions":["wikipedia://en/247622"],"kind":"statement","name":"Reciprocity law","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"MX47FRXAEM","mentions":["wikipedia://en/76765067#50UG"],"kind":"definition","name":"explosion","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"MX47FRXAEM","mentions":["wikipedia://en/76765067#50UG"],"kind":"definition","name":"explosion","layer":"textbook","spread":1,"outcome":{"value":"node","target":["TTKZGJEEK7"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node TTKZGJEEK7 has the adopted text"}]}
 {"id":"MX4GJK96SZ","mentions":["wikipedia://en/68445647#VHTE"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MX4REJD4EJ","mentions":["wikipedia://en/10387769#12KF"],"kind":"definition","name":"Computations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

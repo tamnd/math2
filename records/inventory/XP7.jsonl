@@ -1,4 +1,4 @@
-{"id":"XP7F9PVNE2","mentions":["wikipedia://en/54476844#AWON"],"kind":"statement","name":"Monotone laws","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"XP7F9PVNE2","mentions":["wikipedia://en/54476844#AWON"],"kind":"statement","name":"Monotone laws","layer":"textbook","spread":1,"outcome":{"value":"node","target":["KNV4RSGS8N"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node KNV4RSGS8N has the adopted text"}]}
 {"id":"XP7JJQ652Y","mentions":["wikipedia://en/14403539#GD5L"],"kind":"topic","name":"Abigail Thompson","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XP7RQ7BZ2T","mentions":["wikipedia://en/50248508#F5PQ"],"kind":"unknown","name":"Paul Tseng","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XP7X8EDBC9","mentions":["wikipedia://en/39378034"],"kind":"definition","name":"Minimum rank of a graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

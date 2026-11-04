@@ -1,4 +1,4 @@
 {"id":"1W913R52Z6","mentions":["wikipedia://en/49666935#T4BN"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1W93XN5PJR","mentions":["wikipedia://en/34189212#1B88"],"kind":"definition","name":"Category theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1W9768MFSA","mentions":["wikipedia://en/55823152"],"kind":"definition","name":"Diffeomorphometry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"1W9VJE9M4M","mentions":["wikipedia://en/12219849"],"kind":"definition","name":"Extension by definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1W9VJE9M4M","mentions":["wikipedia://en/12219849"],"kind":"definition","name":"Extension by definition","layer":"textbook","spread":1,"outcome":{"value":"node","target":["GCK0NN60E4"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node GCK0NN60E4 has the adopted text"}]}

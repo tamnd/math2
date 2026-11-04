@@ -1,3 +1,3 @@
 {"id":"PYFA38E4W6","mentions":["wikipedia://en/21754732"],"kind":"definition","name":"Tracy–Widom distribution","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"PYFM1BC498","mentions":["wikipedia://en/209103#YPH9"],"kind":"unknown","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"PYFM1BC498","mentions":["wikipedia://en/209103#YPH9"],"kind":"unknown","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"PYFNC4P2GP","mentions":["wikipedia://en/54493#RNPX"],"kind":"statement","name":"Related results","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

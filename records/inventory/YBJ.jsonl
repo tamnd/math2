@@ -1,2 +1,2 @@
 {"id":"YBJ7B3N2AJ","mentions":["wikipedia://en/578656"],"kind":"definition","name":"Addition chain","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"YBJCMDSKN0","mentions":["wikipedia://en/76765067#4UDI"],"kind":"definition","name":"derivable rule","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"YBJCMDSKN0","mentions":["wikipedia://en/76765067#4UDI"],"kind":"definition","name":"derivable rule","layer":"textbook","spread":1,"outcome":{"value":"node","target":["Z8E2JHECRC"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node Z8E2JHECRC has the adopted text"}]}

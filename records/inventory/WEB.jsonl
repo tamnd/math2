@@ -1,4 +1,4 @@
-{"id":"WEB0YJ0ABM","mentions":["wikipedia://en/76765067#NO93"],"kind":"definition","name":"rigid designator","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"WEB0YJ0ABM","mentions":["wikipedia://en/76765067#NO93"],"kind":"definition","name":"rigid designator","layer":"textbook","spread":1,"outcome":{"value":"node","target":["HGR6C3KA34"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node HGR6C3KA34 has the adopted text"}]}
 {"id":"WEBCCCCXKQ","mentions":["wikipedia://en/45199#UU04"],"kind":"statement","name":"Identity elements","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WEBNWB1V0D","mentions":["wikipedia://en/28377703"],"kind":"definition","name":"Bite force quotient","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WEBWC6KYJZ","mentions":["wikipedia://en/57479201"],"kind":"definition","name":"Leftist grammar","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

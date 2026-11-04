@@ -1,5 +1,5 @@
 {"id":"ENS2GWJN6Q","mentions":["wikipedia://en/3820870#SQQL"],"kind":"unknown","name":"Lenny Krayzelburg","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ENS4AH9BJH","mentions":["wikipedia://en/32195081#WRO3"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"ENS8E13FPN","mentions":["wikipedia://en/70649628"],"kind":"definition","name":"Modal collapse","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ENS8E13FPN","mentions":["wikipedia://en/70649628"],"kind":"definition","name":"Modal collapse","layer":"textbook","spread":1,"outcome":{"value":"node","target":["3YBZG77528"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 3YBZG77528 has the adopted text"}]}
 {"id":"ENSCB41RV5","mentions":["wikipedia://en/849412"],"kind":"definition","name":"Ramanujan graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ENSEWD8YS7","mentions":["m2://rec/wikidata/Q3890103#1","wikipedia://en/2069325"],"kind":"concept","name":"Schwarz triangle","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

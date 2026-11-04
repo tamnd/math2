@@ -1,4 +1,4 @@
 {"id":"76A7EZA9DZ","mentions":["wikipedia://en/31548039"],"kind":"statement","name":"Ravenel's conjectures","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"76A9NREDF5","mentions":["wikipedia://en/46706590"],"kind":"definition","name":"Loewner order","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"76AGFZ28JT","mentions":["wikipedia://en/23756#X6QZ"],"kind":"statement","name":"Muchnik's Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"76AGFZ28JT","mentions":["wikipedia://en/23756#X6QZ"],"kind":"statement","name":"Muchnik's Theorem","layer":"textbook","spread":1,"outcome":{"value":"node","target":["718DQ1KH8W"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 718DQ1KH8W has the adopted text"}]}
 {"id":"76AHXQJR2M","mentions":["wikipedia://en/68028866"],"kind":"topic","name":"Alexandr Mishchenko","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

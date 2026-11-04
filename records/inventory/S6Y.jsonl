@@ -1,4 +1,4 @@
-{"id":"S6Y0J38KB9","mentions":["wikipedia://en/43580500#R1IN"],"kind":"definition","name":"separative","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"S6Y0J38KB9","mentions":["wikipedia://en/43580500#R1IN"],"kind":"definition","name":"separative","layer":"textbook","spread":1,"outcome":{"value":"node","target":["QRC7AMV5FR"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node QRC7AMV5FR has the adopted text"}]}
 {"id":"S6Y1CVX875","mentions":["wikipedia://en/14403539#OI6U"],"kind":"unknown","name":"Ronnie Kosloff","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"S6YBDE3R2N","mentions":["wikipedia://en/48781047#6SJ4"],"kind":"definition","name":"Freudenthal suspension theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"S6YC8NA8NJ","mentions":["wikipedia://en/23187923#4B7L"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

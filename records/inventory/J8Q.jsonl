@@ -1,2 +1,2 @@
-{"id":"J8QPJN9QGA","mentions":["wikipedia://en/76765067#OU7X"],"kind":"definition","name":"holism","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"J8QPJN9QGA","mentions":["wikipedia://en/76765067#OU7X"],"kind":"definition","name":"holism","layer":"textbook","spread":1,"outcome":{"value":"node","target":["DQ40NZSV1D"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node DQ40NZSV1D has the adopted text"}]}
 {"id":"J8QTRDBNTC","mentions":["wikipedia://en/291644#32FG"],"kind":"definition","name":"Prime field","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

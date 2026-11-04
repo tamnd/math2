@@ -1,3 +1,3 @@
 {"id":"AV0CV5FDE2","mentions":["wikipedia://en/51140705#AZJW"],"kind":"unknown","name":"Glen A. Satten","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"AV0G3TKQ7N","mentions":["wikipedia://en/76765067#60EA"],"kind":"definition","name":"single turnstile","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"AV0G3TKQ7N","mentions":["wikipedia://en/76765067#60EA"],"kind":"definition","name":"single turnstile","layer":"textbook","spread":1,"outcome":{"value":"node","target":["NA9Z0NPYQB"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node NA9Z0NPYQB has the adopted text"}]}
 {"id":"AV0RP91DBY","mentions":["wikipedia://en/24675586"],"kind":"definition","name":"Homonoia","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

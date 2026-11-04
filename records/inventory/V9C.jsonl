@@ -1,4 +1,4 @@
 {"id":"V9C5C31VVM","mentions":["wikipedia://en/44135401#PQQP"],"kind":"statement","name":"Lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}],"proofs":["wikipedia://en/44135401#1FQZ"]}
 {"id":"V9CGXZMZNB","mentions":["wikipedia://en/27808303"],"kind":"object","name":"Rectified 7-simplexes","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"V9CKWBRJ9W","mentions":["wikipedia://en/76765067#S1WR"],"kind":"definition","name":"gap","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"V9CKWBRJ9W","mentions":["wikipedia://en/76765067#S1WR"],"kind":"definition","name":"gap","layer":"textbook","spread":1,"outcome":{"value":"node","target":["DFEE43TS1J"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node DFEE43TS1J has the adopted text"}]}
 {"id":"V9CNVSHZF3","mentions":["wikipedia://en/433875#901C"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
