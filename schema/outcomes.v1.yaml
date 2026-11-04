@@ -32,6 +32,10 @@ rules:
     outcome: merged
     reason: the row has a mention of the research layer whose whole name is the name of a mention of an older row, of the same kind block and in the same MSC block
     match: the name pass of the clustering found that a research mention and a mention of another source have equal name keys, the name has a result word (theorem, lemma, inequality, ...) and gives no other group, and it kept the older row (corpus arxiv AX8.2, AX8.4)
+  - id: attached
+    outcome: merged
+    reason: each mention of the row is attached to an item of another row, a proof to what it proves or a claim to the proof that holds it
+    match: an import before corpus arxiv AX5.2 gave an attached mention a row of its own. The clustering now lists it in the row of its target, so it merged the old row into that row
   - id: formal-human
     outcome: node
     reason: a mention from a human source is in the same row as the declaration (corpus spec K4.5)
