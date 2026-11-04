@@ -1,0 +1,32 @@
+---
+kind: statement
+name: Dimension of the null space of a real matrix
+role: proposition
+msc:
+- 15A03
+- 15A06
+tag: 5NKND0CPKP
+sources:
+- url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section3-5.xml#L1144
+  locator: src/section3-5.xml:1144
+uses:
+- 0PHDYNR24D
+- 0ZC9YTXZRY
+- 00YC1D652K
+- 03GSZ8RTZJ
+about:
+- 0PHDYNR24D
+- 0ZC9YTXZRY
+---
+
+## Statement
+
+Let $A$ be a real matrix with $m$ rows and $n$ columns.
+Then the [[null space|0PHDYNR24D]] of $A$ is a [[linear subspace|00YC1D652K]] of $\mathbb{R}^n$.
+Its [[dimension|03GSZ8RTZJ]] is $n$ minus the [[rank|0ZC9YTXZRY]] of $A$:
+$$\dim \operatorname{Null}(A) = n - \operatorname{rank}(A).$$
+
+## Remarks
+
+The number of free variables in the system $Ax = 0$ is $n - \operatorname{rank}(A)$.
+Each free variable gives one basis vector of the null space.

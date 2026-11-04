@@ -1,0 +1,30 @@
+---
+kind: statement
+msc:
+- 15A21
+- 15A18
+name: A real 2x2 matrix with a nonreal eigenvalue is similar to a rotation-scaling matrix
+role: proposition
+sources:
+- locator: src/section4-3.xml:1270
+  url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section4-3.xml#L1270
+tag: KKJAZTB1EB
+uses:
+- 0ZND7NQ970
+- 0E89HQATM8
+---
+
+## Statement
+
+Let $A$ be a real $2 \times 2$ matrix. Suppose $A$ has an [[eigenvalue|0ZND7NQ970]] $\lambda = a + bi$ with $a, b \in \mathbb{R}$ and $b \neq 0$.
+
+Then $A$ is [[similar|0E89HQATM8]] to the matrix
+$$C = \begin{pmatrix} a & -b \\ b & a \end{pmatrix}.$$
+
+That is, there is an invertible real matrix $P$ with $A = P C P^{-1}$.
+
+## Remarks
+
+The matrix $C$ scales by $\sqrt{a^2 + b^2}$ and rotates by the argument of $\lambda$. So $A$ acts, in a suitable basis, as a rotation combined with a scaling.
+
+The condition $b \neq 0$ means the eigenvalue is not real. The conjugate $a - bi$ is also an eigenvalue of $A$.

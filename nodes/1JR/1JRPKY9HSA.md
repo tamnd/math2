@@ -1,0 +1,25 @@
+---
+tag: 1JRPKY9HSA
+kind: statement
+role: lemma
+name: Gaussian kernel integrals recover a CR function on a graph
+msc: [32V10]
+uses: []
+about: []
+sources:
+  - url: https://github.com/jirilebl/scv/blob/78d7d41554695c389552c301398803d4633b9208/scv.tex#L10588
+    locator: scv.tex:10588
+---
+
+## Statement
+
+This is a step in the proof of the approximation of CR functions by entire functions. It is stated in the setting of that proof. The real hypersurface is a graph over $x \in \mathbb{R}^n$ with a real parameter vector $y'$. The graph is given by a real function $\varphi(x,y')$, and $\psi$ is a real function in the same variables. The function $f$ is continuous, the function $g$ is a cutoff in $x$, and $K'$ is a compact set of pairs $(\tilde{x}, y')$. The radius $r > 0$ and the number $d > 0$ are fixed.
+
+Define the integral
+$$I_\ell(\tilde{x}, y') = \left(\frac{\ell}{\pi}\right)^{n/2} \int_{\mathbb{R}^n} e^{-\ell\,[\tilde{x} + i\varphi(\tilde{x},y') - x - i\varphi(x,y')]^2}\, g(x)\, f(x,y')\, dx_1 \wedge \cdots \wedge dx_{n-1} \wedge \bigl(dx_n + i\, d_x\psi(x,y')\bigr).$$
+
+Then $I_\ell(\tilde{x}, y') \to f(\tilde{x}, y')$ as $\ell \to \infty$, and the convergence is uniform in $(\tilde{x}, y') \in K'$.
+
+## Remarks
+
+The kernel is a complex Gaussian of width about $\ell^{-1/2}$. It acts like an approximate identity. The mass of the kernel concentrates at $x = \tilde{x}$, and the cutoff $g$ equals $1$ near the points of interest, so the integral returns the value of $f$ there.

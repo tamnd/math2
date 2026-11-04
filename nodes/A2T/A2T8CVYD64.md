@@ -1,0 +1,19 @@
+---
+tag: A2T8CVYD64
+kind: concept
+name: Real-analytic function of several real variables
+msc: ["26E05"]
+aliases: [real-analytic-on-open-set, c-omega]
+uses: [R3QTCPTJK7, 081WKEDK6C]
+sources:
+  - url: https://github.com/jirilebl/scv/blob/78d7d41554695c389552c301398803d4633b9208/scv.tex#L8969
+    locator: scv.tex:8969
+---
+
+## Summary
+
+Let $U \subset \mathbb{R}^n$ be an open set. A function $f \colon U \to \mathbb{C}$ is real-analytic if it is given near every point of $U$ by a convergent [[power series in several variables|R3QTCPTJK7]].
+
+More precisely, for each $p \in U$ there is a neighborhood of $p$ on which $f(x)$ equals the sum of a power series in the coordinates of $x - p$, and the series converges absolutely there.
+
+This extends the one-variable notion of an [[analytic function|081WKEDK6C]] to several real variables and complex values. When the context is clear, one says only that $f$ is analytic. The class of such functions is often written $C^\omega(U)$.

@@ -1,0 +1,32 @@
+---
+tag: TTK1RPVRVW
+kind: statement
+role: lemma
+name: Gaussian convolution integral over the truncated region tends to zero
+msc: [32V10, "32E30"]
+uses: [JFKYYK2CEB, 08VZ57PT26]
+about: [JFKYYK2CEB]
+sources:
+  - url: https://github.com/jirilebl/scv/blob/78d7d41554695c389552c301398803d4633b9208/scv.tex#L10422
+    locator: scv.tex:10422
+---
+
+## Statement
+
+This claim belongs to the proof of the approximation theorem for [[CR functions|JFKYYK2CEB]] by Gaussian convolution. It uses the notation of that proof: a parametrisation $(x,s) \mapsto z(x,s)$ of a piece of the manifold, a function $f(x,s)$ built from the given CR function, a form $dg(x)$, a compact set $K$ of points $w$, and a region $D$ of parameters $(x,s)$ that depends on a parameter $y'$.
+
+For each $\ell > 0$, let $\alpha_\ell$ be the form whose differential is given by
+
+$$d\alpha_\ell(x,s) = \left(\frac{\ell}{\pi}\right)^{n/2} e^{-\ell\,[w - z(x,s)]^2}\, f(x,s)\, dg(x) \wedge dz(x,s),$$
+
+where $[w - z]^2$ is the sum of the squares of the coordinates of $w - z$.
+
+Then, for all small enough $r > 0$ and $d > 0$, the integral of this form over $D$ tends to $0$ as $\ell \to \infty$:
+
+$$\lim_{\ell\to\infty} \left(\frac{\ell}{\pi}\right)^{n/2} \int_{(x,s)\in D} e^{-\ell\,[w - z(x,s)]^2}\, f(x,s)\, dg(x) \wedge dz(x,s) = 0.$$
+
+The convergence is [[uniform|08VZ57PT26]] in the pair $(w, y')$, with $w \in K$ and $y'$ in the ball $B_d(0)$. Here $D$ is the region that depends on $y'$.
+
+## Remarks
+
+The claim says that the part of the Gaussian integral taken over $D$ does not contribute in the limit. The other part of the integral is the one that produces the approximation.
