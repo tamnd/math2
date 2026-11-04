@@ -9,6 +9,8 @@ uses: [05PWWHYBX5, 007QED3E0Y, 0VTN5RKNC5]
 sources:
   - url: https://en.wikipedia.org/wiki/Chebyshev's_inequality
     locator: Probabilistic statement
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_probability_central-tendency.ptx#L106
+    locator: source/s_probability_central-tendency.ptx:106
 same_as:
   wikidata: Q249514
   wikipedia: Chebyshev's inequality

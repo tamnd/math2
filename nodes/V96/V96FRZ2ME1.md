@@ -7,6 +7,8 @@ msc: [05D10, 11B25]
 about: [G5TWXV565S]
 sources:
   - url: https://en.wikipedia.org/wiki/Van_der_Waerden's_theorem
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_kitchensink_arithmetic-combinatorics.ptx#L9
+    locator: source/s_kitchensink_arithmetic-combinatorics.ptx:9
 same_as:
   wikidata: Q764287
   wikipedia: Van der Waerden's theorem

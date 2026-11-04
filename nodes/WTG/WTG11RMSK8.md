@@ -1,0 +1,16 @@
+---
+tag: WTG11RMSK8
+kind: statement
+role: proposition
+name: Alternative formula for the variance of a random variable
+msc: [60A05]
+uses: [007QED3E0Y, 0DCT0QZVQ1, 0DKRR22AEQ]
+sources:
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_probability_central-tendency.ptx#L85
+    locator: source/s_probability_central-tendency.ptx:85
+---
+
+## Statement
+
+Let $X$ be a [[random variable|0DKRR22AEQ]] on a probability space $(S,P)$. Then the [[variance|007QED3E0Y]] of $X$ is the [[expected value|0DCT0QZVQ1]] of $X^2$ minus the square of the expected value of $X$:
+$$\operatorname{Var}(X) = E(X^2) - E(X)^2.$$

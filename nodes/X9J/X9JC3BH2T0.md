@@ -1,0 +1,23 @@
+---
+tag: X9JC3BH2T0
+kind: statement
+role: theorem
+name: Formula for the number of surjections between finite sets
+msc: [05A05, 05A19]
+uses: [01RVCMSN5N, 0GBZM0MT0F]
+sources:
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_inclusion-exclusion_surjections.ptx#L29
+    locator: source/s_inclusion-exclusion_surjections.ptx:29
+---
+
+## Statement
+
+Let $S(n,m)$ be the number of [[surjective functions|01RVCMSN5N]] from the set $[n] = \{1, \dots, n\}$ onto the set $[m] = \{1, \dots, m\}$.
+Then
+$$S(n,m) = \sum_{k=0}^{m} (-1)^k \binom{m}{k} (m-k)^n,$$
+where $\binom{m}{k}$ is a [[binomial coefficient|0GBZM0MT0F]].
+
+## Remarks
+
+The term $(m-k)^n$ is the number of all functions from $[n]$ to a fixed set of $m-k$ elements.
+The sum comes from the inclusion-exclusion principle: count all functions, then correct for the functions that miss some chosen set of $k$ values of $[m]$.

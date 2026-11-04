@@ -8,6 +8,8 @@ uses: [0DCT0QZVQ1, 0464Z0JP2E]
 sources:
   - url: https://en.wikipedia.org/wiki/Markov's_inequality
     locator: Statement
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_probability_central-tendency.ptx#L23
+    locator: source/s_probability_central-tendency.ptx:23
 same_as:
   wikidata: Q842436
   wikipedia: Markov's inequality

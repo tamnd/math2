@@ -10,6 +10,8 @@ sources:
     locator: Formula
   - url: https://en.wikipedia.org/wiki/Mathematical_induction
     locator: Sum of consecutive natural numbers
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_induction_proofs.ptx#L6
+    locator: source/s_induction_proofs.ptx:6
 ---
 
 ## Statement

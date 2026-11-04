@@ -8,6 +8,8 @@ uses: [0QV2JS9RJ3, 0S8FE7ZMFM, 03HF498P1J, MPR6MH4YSQ]
 about: [0S8FE7ZMFM, 03HF498P1J, MPR6MH4YSQ]
 sources:
   - url: https://en.wikipedia.org/wiki/Mirsky's_theorem
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_posets_dilworth.ptx#L25
+    locator: source/s_posets_dilworth.ptx:25
 same_as:
   wikidata: Q6874717
   wikipedia: Mirsky's theorem

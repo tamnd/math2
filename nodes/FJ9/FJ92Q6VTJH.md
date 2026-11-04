@@ -8,6 +8,8 @@ uses: [0C21Q694AG, 0GBZM0MT0F]
 about: [0C21Q694AG]
 sources:
   - url: https://en.wikipedia.org/wiki/Erdős–Ko–Rado_theorem
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_kitchensink_extremal-set-theory.ptx#L33
+    locator: source/s_kitchensink_extremal-set-theory.ptx:33
 same_as:
   wikidata: Q718875
   wikipedia: Erdős–Ko–Rado theorem

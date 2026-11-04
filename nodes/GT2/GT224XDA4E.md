@@ -8,6 +8,8 @@ uses: [0QV2JS9RJ3, 0S8FE7ZMFM, 03HF498P1J, 0JP0ZF57PN]
 about: [0S8FE7ZMFM, 03HF498P1J]
 sources:
   - url: https://en.wikipedia.org/wiki/Dilworth%27s_theorem
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_posets_dilworth.ptx#L9
+    locator: source/s_posets_dilworth.ptx:9
 same_as:
   wikidata: Q1134776
   wikipedia: Dilworth's theorem
