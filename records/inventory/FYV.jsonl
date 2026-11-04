@@ -1,6 +1,6 @@
 {"id":"FYV06CF3YQ","mentions":["wikipedia://en/29601593"],"kind":"definition","name":"Strictly singular operator","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"FYV1NN0FT8","mentions":["m2://rec/napkin/tex/homology/long-exact.tex#sproblem-1#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"FYV2XARRKP","mentions":["wikipedia://en/1509729"],"kind":"definition","name":"Order of a kernel","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"FYV7609WFE","mentions":["wikipedia://en/325802#Y3D4"],"kind":"definition","name":"canonization","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FYV7609WFE","mentions":["wikipedia://en/325802#Y3D4"],"kind":"definition","name":"canonization","layer":"textbook","spread":1,"outcome":{"value":"node","target":["9WQQXPN0N5"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 9WQQXPN0N5 has the adopted text"}]}
 {"id":"FYVS7YN8S2","mentions":["wikipedia://en/2628576#BUZX"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"FYVZK9ZHHB","mentions":["wikipedia://en/14709171"],"kind":"topic","name":"C. P. Ramanujam","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

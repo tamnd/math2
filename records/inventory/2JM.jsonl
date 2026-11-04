@@ -1,3 +1,3 @@
 {"id":"2JM0D64D52","mentions":["wikipedia://en/3683228"],"kind":"definition","name":"Alligation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"2JM6MHSTR3","mentions":["wikipedia://en/67980941"],"kind":"definition","name":"Coordination sequence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"2JM6MHSTR3","mentions":["wikipedia://en/67980941"],"kind":"definition","name":"Coordination sequence","layer":"textbook","spread":1,"outcome":{"value":"node","target":["CWPRX0R5ET"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node CWPRX0R5ET has the adopted text"}]}
 {"id":"2JMVWRSGN7","mentions":["wikipedia://en/3989#WIAI"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

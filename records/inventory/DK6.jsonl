@@ -1,5 +1,5 @@
 {"id":"DK6764SCCS","mentions":["wikipedia://en/191457#555A"],"kind":"statement","name":"Cochran's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"DK67XZ0ZQR","mentions":["wikipedia://en/325802#QCN6"],"kind":"definition","name":"augmenting","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"DK67XZ0ZQR","mentions":["wikipedia://en/325802#QCN6"],"kind":"definition","name":"augmenting","layer":"textbook","spread":1,"outcome":{"value":"node","target":["FKEYVK9KAJ"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node FKEYVK9KAJ has the adopted text"}]}
 {"id":"DK6A1CVBYG","mentions":["m2://rec/lebl_diffyqs/index/5.7/wave-equation#1"],"kind":"concept","name":"wave equation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"DK6CP7ZJ5C","mentions":["wikipedia://en/11353703#G2A4"],"kind":"topic","name":"Guido Castelnuovo","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"DK6DC7TCC2","mentions":["wikipedia://en/54397952"],"kind":"topic","name":"Henk Lombaers","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

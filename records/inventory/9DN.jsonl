@@ -1,5 +1,5 @@
 {"id":"9DN34W3R57","mentions":["wikipedia://en/35347828"],"kind":"definition","name":"Steinerian","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9DNDS34SDR","mentions":["wikipedia://en/833506#26UV"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"9DNHWEDM2C","mentions":["wikipedia://en/325802#2B6L"],"kind":"definition","name":"claw","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9DNHWEDM2C","mentions":["wikipedia://en/325802#2B6L"],"kind":"definition","name":"claw","layer":"textbook","spread":1,"outcome":{"value":"node","target":["HBV4MHZTZ5"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node HBV4MHZTZ5 has the adopted text"}]}
 {"id":"9DNN8SDXTC","mentions":["wikipedia://en/41887951"],"kind":"topic","name":"Margherita Piazzola Beloch","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9DNQ951GQ7","mentions":["wikipedia://en/39479110#YZ3V"],"kind":"statement","name":"Artin–Zorn theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

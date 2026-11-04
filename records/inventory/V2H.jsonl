@@ -1,4 +1,4 @@
 {"id":"V2HGHB3F65","mentions":["wikipedia://en/1363880#0TYO"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"V2HGP788K1","mentions":["wikipedia://en/47738065#67FF"],"kind":"topic","name":"Bálint Virág","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"V2HKKV9ERY","mentions":["wikipedia://en/71787156"],"kind":"topic","name":"Lorna Stewart","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"V2HMNJ9XKX","mentions":["wikipedia://en/7196522"],"kind":"definition","name":"Lowest common ancestor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"V2HMNJ9XKX","mentions":["wikipedia://en/7196522"],"kind":"definition","name":"Lowest common ancestor","layer":"textbook","spread":1,"outcome":{"value":"node","target":["AB5CY2E7BK"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node AB5CY2E7BK has the adopted text"}]}

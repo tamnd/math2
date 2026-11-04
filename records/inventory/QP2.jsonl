@@ -1,6 +1,6 @@
 {"id":"QP20S29T0P","mentions":["wikipedia://en/59442874"],"kind":"topic","name":"Marie Wann","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QP257BBCV0","mentions":["wikipedia://en/2792579"],"kind":"topic","name":"George Alfred Barnard","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QP283EAC6F","mentions":["m2://rec/wikidata/Q11369#1"],"kind":"definition","name":"molecule","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"QP2H2XRMPK","mentions":["wikipedia://en/39400139"],"kind":"statement","name":"Beck–Fiala theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QP2H2XRMPK","mentions":["wikipedia://en/39400139"],"kind":"statement","name":"Beck–Fiala theorem","layer":"textbook","spread":1,"outcome":{"value":"node","target":["R72C36E7M0"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node R72C36E7M0 has the adopted text"}]}
 {"id":"QP2PQQ94XA","mentions":["wikipedia://en/244705#P1K6"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QP2W0Z5N0X","mentions":["wikipedia://en/17201042#DMWQ"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

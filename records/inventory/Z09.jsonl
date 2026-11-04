@@ -1,3 +1,3 @@
 {"id":"Z098N5XMPV","mentions":["wikipedia://en/58126837"],"kind":"topic","name":"Yael Tauman Kalai","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Z09MRQ3F5M","mentions":["wikipedia://en/43975548#KCHK"],"kind":"definition","name":"Construction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"Z09SB1S0GB","mentions":["wikipedia://en/325802#5PKI"],"kind":"definition","name":"card","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"Z09SB1S0GB","mentions":["wikipedia://en/325802#5PKI"],"kind":"definition","name":"card","layer":"textbook","spread":1,"outcome":{"value":"node","target":["PWYTPNJVT9"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node PWYTPNJVT9 has the adopted text"}]}

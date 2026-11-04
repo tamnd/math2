@@ -1,3 +1,3 @@
-{"id":"M2D3NSKM3K","mentions":["wikipedia://en/32498620"],"kind":"definition","name":"Dense subgraph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"M2D3NSKM3K","mentions":["wikipedia://en/32498620"],"kind":"definition","name":"Dense subgraph","layer":"textbook","spread":1,"outcome":{"value":"node","target":["MRDXC2T6YP"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node MRDXC2T6YP has the adopted text"}]}
 {"id":"M2D8PJ4SDS","mentions":["wikipedia://en/4291871"],"kind":"definition","name":"Lefschetz manifold","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"M2DK4XAXR1","mentions":["wikipedia://en/8393831#YH6O"],"kind":"statement","name":"General theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

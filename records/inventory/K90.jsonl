@@ -1,4 +1,4 @@
 {"id":"K9019NJ5ZZ","mentions":["wikipedia://en/33641902"],"kind":"definition","name":"Inverted bell curve","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"K9084M13EB","mentions":["wikipedia://en/54434626"],"kind":"topic","name":"June Huh","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"K9084M13EB","mentions":["wikipedia://en/54434626"],"kind":"topic","name":"June Huh","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"K90FE8NGCA","mentions":["wikipedia://en/8610998"],"kind":"topic","name":"Charlotte Scott","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"K90J4AZDQH","mentions":["wikipedia://en/55831372"],"kind":"topic","name":"Sally Elizabeth Carlson","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

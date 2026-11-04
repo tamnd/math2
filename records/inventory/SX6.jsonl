@@ -1,6 +1,6 @@
 {"id":"SX64DA1RSF","mentions":["wikipedia://en/534959#TCRO"],"kind":"definition","name":"Differential form","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"SX6AVJFE8N","mentions":["wikipedia://en/51544080#NEQZ"],"kind":"statement","name":"Havelock's law","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"SX6HFZ1ZES","mentions":["wikipedia://en/325802#ZZW8"],"kind":"definition","name":"arrow","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"SX6HFZ1ZES","mentions":["wikipedia://en/325802#ZZW8"],"kind":"definition","name":"arrow","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has its own article, page 4912832","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"SX6JHTQSP0","mentions":["wikipedia://en/1403586#I0XJ"],"kind":"unknown","name":"Larry Pressler","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"SX6NVHNGVN","mentions":["wikipedia://en/69619764#L20W"],"kind":"statement","name":"Results","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"SX6PS0MNB7","mentions":["wikipedia://en/34458555#BPLM"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,5 +1,5 @@
 {"id":"NSV24ZE81P","mentions":["wikipedia://en/74547906"],"kind":"topic","name":"Dilip Madan","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NSV6X67Y82","mentions":["wikipedia://en/6091657#78LV"],"kind":"definition","name":"Construction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"NSVF70GTDK","mentions":["wikipedia://en/14403539#AJJG"],"kind":"unknown","name":"Gustav Herglotz","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NSVF70GTDK","mentions":["wikipedia://en/14403539#AJJG"],"kind":"unknown","name":"Gustav Herglotz","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"NSVQ94GJ5V","mentions":["wikipedia://en/47565351#9RZE"],"kind":"unknown","name":"Carrowdore","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NSVVJD19ST","mentions":["wikipedia://en/449606#XPCI"],"kind":"unknown","name":"416 (number)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,5 +1,5 @@
 {"id":"WYP3FQQ69X","mentions":["wikipedia://en/1614128"],"kind":"definition","name":"Life table","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WYP7Y0DV8K","mentions":["wikipedia://en/51140705#3Q25"],"kind":"topic","name":"Susan S. Ellenberg","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"WYPBQ5F93G","mentions":["wikipedia://en/14403539#MNO8"],"kind":"topic","name":"Dorothy Maharam","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"WYPBQ5F93G","mentions":["wikipedia://en/14403539#MNO8"],"kind":"topic","name":"Dorothy Maharam","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"a list or a glossary is not a node (WP9.1)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"WYPFGRNFHQ","mentions":["wikipedia://en/6466838#W56L"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WYPT49E2Q4","mentions":["wikipedia://en/1151048"],"kind":"definition","name":"FL","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

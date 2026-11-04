@@ -2,6 +2,6 @@
 {"id":"GF54NKRA5Z","mentions":["wikipedia://en/78072564"],"kind":"topic","name":"Elisabeth Walther-Bense","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GF5MM2E47S","mentions":["wikipedia://en/49202721"],"kind":"topic","name":"Edward Carey Francis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GF5QWF08D5","mentions":["wikipedia://en/1285375#F7UQ"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"GF5RSNKT13","mentions":["wikipedia://en/14403539#6G37"],"kind":"unknown","name":"Jaroslav Hájek","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"GF5RSNKT13","mentions":["wikipedia://en/14403539#6G37"],"kind":"unknown","name":"Jaroslav Hájek","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"GF5VQ0NHPK","mentions":["wikipedia://en/855653"],"kind":"topic","name":"Benedetto Castelli","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GF5WRGHF6B","mentions":["wikipedia://en/62354528"],"kind":"topic","name":"Brian H. Murdoch","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

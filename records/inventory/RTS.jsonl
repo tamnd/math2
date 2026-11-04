@@ -5,4 +5,4 @@
 {"id":"RTSGFMN8ZE","mentions":["wikipedia://en/27119036"],"kind":"definition","name":"HP 10s","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RTSHSN573J","mentions":["wikipedia://en/468884#W5QW"],"kind":"definition","name":"Line","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RTSJWWQFJR","mentions":["wikipedia://en/62641#PTBK"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"RTSKMPJHD0","mentions":["wikipedia://en/14403539#N4BY"],"kind":"unknown","name":"Charles Cantor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"RTSKMPJHD0","mentions":["wikipedia://en/14403539#N4BY"],"kind":"unknown","name":"Charles Cantor","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}

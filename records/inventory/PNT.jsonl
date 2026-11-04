@@ -1,6 +1,6 @@
 {"id":"PNT0F0JSRW","mentions":["wikipedia://en/71667739"],"kind":"definition","name":"McShane integral","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PNT3FTS9HF","mentions":["wikipedia://en/203876#ED7H"],"kind":"unknown","name":"Submicroscopic","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"PNT5AS8QXN","mentions":["wikipedia://en/65615982"],"kind":"definition","name":"D-interval hypergraph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"PNT5AS8QXN","mentions":["wikipedia://en/65615982"],"kind":"definition","name":"D-interval hypergraph","layer":"textbook","spread":1,"outcome":{"value":"node","target":["36XXAY0WXK"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 36XXAY0WXK has the adopted text"}]}
 {"id":"PNTAD871N3","mentions":["wikipedia://en/50652823#F869"],"kind":"statement","name":"Symmetry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PNTF0EJHB0","mentions":["wikipedia://en/47565351#9XZ4"],"kind":"unknown","name":"Municipality of Two Borders","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PNTHG3HNC4","mentions":["wikipedia://en/9202993#BQ0Y"],"kind":"definition","name":"Hex","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

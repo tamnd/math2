@@ -1,4 +1,4 @@
 {"id":"XFV84FA5SM","mentions":["wikipedia://en/511379#0FWB"],"kind":"unknown","name":"RSA-490","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"XFVD9P1NCV","mentions":["wikipedia://en/325802#N2AJ"],"kind":"definition","name":"multiple adjacency","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"XFVD9P1NCV","mentions":["wikipedia://en/325802#N2AJ"],"kind":"definition","name":"multiple adjacency","layer":"textbook","spread":1,"outcome":{"value":"node","target":["GNN44XXRY6"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node GNN44XXRY6 has the adopted text"}]}
 {"id":"XFVDFGS651","mentions":["wikipedia://en/407249#J4QK"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XFVXZ24JMY","mentions":["wikipedia://en/26140463#QJ2L"],"kind":"unknown","name":"Birectified 5-cube","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -2,4 +2,4 @@
 {"id":"ZVX1HFR7NN","mentions":["wikipedia://en/16572515#MMOC"],"kind":"unknown","name":"Rule 102","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZVXC7CM6KF","mentions":["wikipedia://en/3504442#562R"],"kind":"statement","name":"Symmetry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZVXFFCFXNC","mentions":["wikipedia://en/191457#XG5W"],"kind":"definition","name":"Mode (statistics)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"ZVXYWFBT5B","mentions":["wikipedia://en/43402512#BB5A"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ZVXYWFBT5B","mentions":["wikipedia://en/43402512#BB5A"],"kind":"problem","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue unsolved names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}

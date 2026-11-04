@@ -1,5 +1,5 @@
 {"id":"SC20YEWY7D","mentions":["wikipedia://en/38256214#EXMG"],"kind":"definition","name":"reduction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"SC23D5JXDZ","mentions":["wikipedia://en/52859617#2ZQO"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"SC285V2NA3","mentions":["wikipedia://en/64550992"],"kind":"statement","name":"Ryser's conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"SC285V2NA3","mentions":["wikipedia://en/64550992"],"kind":"statement","name":"Ryser's conjecture","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"SC2KJXHAT6","mentions":["wikipedia://en/367654"],"kind":"definition","name":"Anyon","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"SC2PGF1R3Q","mentions":["wikipedia://en/42000"],"kind":"topic","name":"Émile Picard","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,4 +1,4 @@
 {"id":"RVY9C2WXF0","mentions":["wikipedia://en/81560#VULG"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RVYM5Q9ZXP","mentions":["wikipedia://en/1229416"],"kind":"definition","name":"Hyperbolic motion","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RVYVWQWM4Q","mentions":["wikipedia://en/140829#PCTW"],"kind":"topic","name":"Galton, Francis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"RVYYB8BP8Z","mentions":["wikipedia://en/72418335"],"kind":"definition","name":"Dijoin","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"RVYYB8BP8Z","mentions":["wikipedia://en/72418335"],"kind":"definition","name":"Dijoin","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}

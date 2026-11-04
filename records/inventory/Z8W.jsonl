@@ -3,5 +3,5 @@
 {"id":"Z8WE5VFQZS","mentions":["wikipedia://en/8336#YXM8"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Z8WG1G2SBB","mentions":["wikipedia://en/70774878"],"kind":"topic","name":"Marie-Odette Dubois-Violette","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Z8WK3DENXE","mentions":["wikipedia://en/5006843"],"kind":"conjecture","name":"Hopf conjectures","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"Z8WKE9S7XK","mentions":["wikipedia://en/43927242"],"kind":"definition","name":"Hierarchical closeness","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"Z8WKE9S7XK","mentions":["wikipedia://en/43927242"],"kind":"definition","name":"Hierarchical closeness","layer":"textbook","spread":1,"outcome":{"value":"node","target":["MZN80C2A8V"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node MZN80C2A8V has the adopted text"}]}
 {"id":"Z8WNFS4B2X","mentions":["wikipedia://en/4795751#2GGK"],"kind":"statement","name":"Paley-Wiener criterion","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

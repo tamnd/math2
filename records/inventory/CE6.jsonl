@@ -1,5 +1,5 @@
 {"id":"CE60WM9AQP","mentions":["wikipedia://en/3375352#L0EH"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"CE618GFM3N","mentions":["wikipedia://en/63928998"],"kind":"topic","name":"Per Hage","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"CE618GFM3N","mentions":["wikipedia://en/63928998"],"kind":"topic","name":"Per Hage","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"CE6CTQX2FV","mentions":["wikipedia://en/5646277#MPO9"],"kind":"definition","name":"Stirling's approximation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CE6FT3G3TE","mentions":["wikipedia://en/51140705#RTC6"],"kind":"topic","name":"Jun S. Liu","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CE6GQART3M","mentions":["wikipedia://en/54966254"],"kind":"topic","name":"Erich Bessel-Hagen","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

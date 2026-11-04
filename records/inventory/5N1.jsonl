@@ -1,2 +1,2 @@
 {"id":"5N14N3HKME","mentions":["wikipedia://en/25334192#LY1M"],"kind":"definition","name":"Smith","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"5N1NFMFHDF","mentions":["wikipedia://en/9909979#VGVR"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5N1NFMFHDF","mentions":["wikipedia://en/9909979#VGVR"],"kind":"problem","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue unsolved names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}

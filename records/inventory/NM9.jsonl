@@ -2,5 +2,5 @@
 {"id":"NM9H41TNAQ","mentions":["wikipedia://en/19571780#QBRU"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NM9JMPB3Y8","mentions":["wikipedia://en/85747#IQP7"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NM9P32KKYT","mentions":["m2://rec/wikidata/Q3928107#1"],"kind":"unknown","name":"R-symmetry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"NM9X8K2YWM","mentions":["wikipedia://en/33245450"],"kind":"definition","name":"Angular resolution","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NM9X8K2YWM","mentions":["wikipedia://en/33245450"],"kind":"definition","name":"Angular resolution","layer":"textbook","spread":1,"outcome":{"value":"node","target":["VEPW2NVBPA"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node VEPW2NVBPA has the adopted text"}]}
 {"id":"NM9ZH6ZV0D","mentions":["m2://rec/wikidata/Q130342312#1"],"kind":"definition","name":"vertex-labeled graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

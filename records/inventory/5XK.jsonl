@@ -1,5 +1,5 @@
 {"id":"5XK4Q63Y77","mentions":["wikipedia://en/3932847#UPI1"],"kind":"unknown","name":"JASP","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"5XK732B96R","mentions":["wikipedia://en/325802#B9UL"],"kind":"definition","name":"indifference","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5XK732B96R","mentions":["wikipedia://en/325802#B9UL"],"kind":"definition","name":"indifference","layer":"textbook","spread":1,"outcome":{"value":"node","target":["6QXJAADCWK"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 6QXJAADCWK has the adopted text"}]}
 {"id":"5XKE1X5PE9","mentions":["wikipedia://en/865138#T4OP"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5XKFSNB6QG","mentions":["wikipedia://en/627501#HDIY"],"kind":"statement","name":"The p-adic Littlewood conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5XKNQ19PPR","mentions":["wikipedia://en/58884863#KJ1Q"],"kind":"statement","name":"Global Gan–Gross–Prasad conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,5 +1,5 @@
 {"id":"CGR924Y11P","mentions":["wikipedia://en/247392#KLX8"],"kind":"statement","name":"Corollary","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}],"proofs":["wikipedia://en/247392#55VH"]}
-{"id":"CGRCC3ZPPY","mentions":["wikipedia://en/43402512"],"kind":"definition","name":"Bondage number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"CGRCC3ZPPY","mentions":["wikipedia://en/43402512"],"kind":"definition","name":"Bondage number","layer":"textbook","spread":1,"outcome":{"value":"node","target":["HW8ZAHHA2W"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node HW8ZAHHA2W has the adopted text"}]}
 {"id":"CGRH9Q5QCM","mentions":["wikipedia://en/621447#3UR1"],"kind":"unknown","name":"Gaussian splatting","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CGRMK0WY77","mentions":["wikipedia://en/4519119#Y90L"],"kind":"unknown","name":"Efron's dice","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CGRXQYNSR8","mentions":["wikipedia://en/61563#XZZS"],"kind":"example","name":"Example 1","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,4 +1,4 @@
 {"id":"MGSB6NXXBT","mentions":["wikipedia://en/48942413"],"kind":"topic","name":"Peter J. Olver","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MGSF8Q76XF","mentions":["wikipedia://en/43406511"],"kind":"topic","name":"Wing Hung Wong","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MGSXKX8C3H","mentions":["wikipedia://en/40807599"],"kind":"topic","name":"Susanne Brenner","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"MGSY3AMHBP","mentions":["wikipedia://en/80318202#9NVW"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"MGSY3AMHBP","mentions":["wikipedia://en/80318202#9NVW"],"kind":"problem","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue unsolved names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}

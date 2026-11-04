@@ -1,6 +1,6 @@
 {"id":"AXH184R81W","mentions":["wikipedia://en/79731386"],"kind":"topic","name":"Domenico Chelucci","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"AXHCBP2YP5","mentions":["wikipedia://en/10573305"],"kind":"definition","name":"K-mer","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"AXHD5F6JWF","mentions":["wikipedia://en/14403539#WKMY"],"kind":"unknown","name":"Michael Saunders","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"AXHD5F6JWF","mentions":["wikipedia://en/14403539#WKMY"],"kind":"unknown","name":"Michael Saunders","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"AXHS8HQCA3","mentions":["wikipedia://en/78735907#NBHM"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"AXHYF1D0XT","mentions":["m2://rec/wikidata/Q77982958#1"],"kind":"unknown","name":"contravariant tensor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"AXHYPGY9AQ","mentions":["wikipedia://en/369981#F9XB"],"kind":"definition","name":"Spin group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,4 +1,4 @@
 {"id":"7Q989EMCN1","mentions":["wikipedia://en/47738065#5P0I"],"kind":"topic","name":"Petr Mandl","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7Q9AMDY6H3","mentions":["wikipedia://en/23551012#YFK7"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7Q9PB29CSA","mentions":["wikipedia://en/59998083#TT9L"],"kind":"problem","name":"Problem 1","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"7Q9TSJTKY5","mentions":["wikipedia://en/20199287#HI5G"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7Q9TSJTKY5","mentions":["wikipedia://en/20199287#HI5G"],"kind":"problem","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue unsolved names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}

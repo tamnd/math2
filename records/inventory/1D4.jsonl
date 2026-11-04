@@ -1,5 +1,5 @@
 {"id":"1D42X0N09F","mentions":["wikipedia://en/140829#OEIM"],"kind":"topic","name":"Bowman, Kimiko O.","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"1D4710DF5D","mentions":["wikipedia://en/44757206"],"kind":"topic","name":"Jesús A. De Loera","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1D4710DF5D","mentions":["wikipedia://en/44757206"],"kind":"topic","name":"Jesús A. De Loera","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"1D473G2GV1","mentions":["wikipedia://en/66388708"],"kind":"topic","name":"Rebecca Walo Omana","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1D4AQEMCST","mentions":["wikipedia://en/634#1M16"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1D4QE79K42","mentions":["wikipedia://en/37725473"],"kind":"topic","name":"William Payne","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,4 +1,4 @@
-{"id":"MBY033K9NB","mentions":["wikipedia://en/1369521"],"kind":"definition","name":"Magic cube classes","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"MBY033K9NB","mentions":["wikipedia://en/1369521"],"kind":"definition","name":"Magic cube classes","layer":"textbook","spread":1,"outcome":{"value":"node","target":["27S0KFYYQ2"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 27S0KFYYQ2 has the adopted text"}]}
 {"id":"MBY65YSN4H","mentions":["wikipedia://en/277087#3SBZ"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MBYMBEHQSA","mentions":["m2://rec/lebl_scv/scv.tex#exercise-216#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"MBYZJ3CF5Q","mentions":["m2://rec/lebl_diffyqs/ch-eigenvalue-probs.tex#exercise-24#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

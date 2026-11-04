@@ -1,5 +1,5 @@
 {"id":"FY4227F7WH","mentions":["wikipedia://en/26872956"],"kind":"definition","name":"Trope","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"FY473TSD0N","mentions":["m2://rec/wikidata/Q1296241#1"],"kind":"concept","name":"rectangle squaring","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"FY4PRV8HV2","mentions":["wikipedia://en/28475136"],"kind":"definition","name":"Collider","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"FY4W70FDG6","mentions":["wikipedia://en/57433897"],"kind":"topic","name":"Sylvie Corteel","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FY4W70FDG6","mentions":["wikipedia://en/57433897"],"kind":"topic","name":"Sylvie Corteel","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"FY4WSBMRSE","mentions":["wikipedia://en/63459680"],"kind":"topic","name":"Elena Celledoni","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

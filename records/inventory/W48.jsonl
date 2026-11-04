@@ -1,4 +1,4 @@
 {"id":"W483V0Z7WT","mentions":["wikipedia://en/51140705#7WSZ"],"kind":"unknown","name":"Edward M. Hartwell","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"W489K3VP67","mentions":["wikipedia://en/1058833#0KOG"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"W48CD9BYHD","mentions":["wikipedia://en/1476440"],"kind":"definition","name":"Cobweb model","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"W48E8EN983","mentions":["wikipedia://en/59842050"],"kind":"problem","name":"Ruzsa–Szemerédi problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"W48E8EN983","mentions":["wikipedia://en/59842050"],"kind":"problem","name":"Ruzsa–Szemerédi problem","layer":"textbook","spread":1,"outcome":{"value":"node","target":["J94HMG0SG6"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node J94HMG0SG6 has the adopted text"}]}

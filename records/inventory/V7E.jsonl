@@ -1,4 +1,4 @@
 {"id":"V7ED15MZH7","mentions":["wikipedia://en/48781047#2N35"],"kind":"definition","name":"loop space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"V7EM340VZE","mentions":["wikipedia://en/20547369#16GO"],"kind":"unknown","name":"Abért","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"V7EM340VZE","mentions":["wikipedia://en/20547369#16GO"],"kind":"unknown","name":"Abért","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"V7EVRXFXRH","mentions":["m2://rec/wikidata/Q91432807#1"],"kind":"definition","name":"zero object","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"V7EXKKW6SX","mentions":["wikipedia://en/4039291"],"kind":"definition","name":"Whipple's index","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

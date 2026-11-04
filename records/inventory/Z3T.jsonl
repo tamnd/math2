@@ -1,5 +1,5 @@
 {"id":"Z3T0HC91AK","mentions":["wikipedia://en/928060#89WL"],"kind":"unknown","name":"Jet manifold","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Z3T8T79FE8","mentions":["wikipedia://en/80396842"],"kind":"topic","name":"Patrick Dorey","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Z3TP6WFZDM","mentions":["wikipedia://en/10294"],"kind":"definition","name":"Encryption","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"Z3TQVGSGMZ","mentions":["wikipedia://en/24394535#PM0C"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"Z3TQVGSGMZ","mentions":["wikipedia://en/24394535#PM0C"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue heading names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"Z3TWK7RKEZ","mentions":["wikipedia://en/69329051"],"kind":"topic","name":"Maria Cibrario","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

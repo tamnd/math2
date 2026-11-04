@@ -4,4 +4,4 @@
 {"id":"F0EFHW8YYD","mentions":["m2://rec/lebl_ra/ch-riemann.tex#example-5#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"F0EHZX90Z8","mentions":["wikipedia://en/36686293"],"kind":"definition","name":"Kenya National Bureau of Statistics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"F0EKEWBBB4","mentions":["wikipedia://en/986651"],"kind":"definition","name":"Repeatability","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"F0EVVSN741","mentions":["wikipedia://en/63214506"],"kind":"definition","name":"Euler's Gem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"F0EVVSN741","mentions":["wikipedia://en/63214506"],"kind":"definition","name":"Euler's Gem","layer":"textbook","spread":1,"outcome":{"value":"node","target":["7SJ0P285WQ"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 7SJ0P285WQ has the adopted text"}]}

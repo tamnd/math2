@@ -1,4 +1,4 @@
 {"id":"NBEMHDTYGP","mentions":["wikipedia://en/42175302"],"kind":"topic","name":"Ruth Gregory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"NBENVGDRHX","mentions":["wikipedia://en/14403539#2YRP"],"kind":"unknown","name":"Tsit Yuen Lam","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NBENVGDRHX","mentions":["wikipedia://en/14403539#2YRP"],"kind":"unknown","name":"Tsit Yuen Lam","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"NBER1WBYVD","mentions":["wikipedia://en/52823070#JZYS"],"kind":"statement","name":"Statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NBER74F4TD","mentions":["wikipedia://en/15301061"],"kind":"topic","name":"William Esson","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,3 +1,3 @@
 {"id":"2GVAR5Z359","mentions":["wikipedia://en/1312654#0K8C"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"2GVJ73KJ2N","mentions":["wikipedia://en/325802#VV2P"],"kind":"definition","name":"well-colored","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"2GVJ73KJ2N","mentions":["wikipedia://en/325802#VV2P"],"kind":"definition","name":"well-colored","layer":"textbook","spread":1,"outcome":{"value":"node","target":["HWH6EYCZJ2"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node HWH6EYCZJ2 has the adopted text"}]}
 {"id":"2GVX1ETY2H","mentions":["wikipedia://en/9806491"],"kind":"definition","name":"World Maths Day","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

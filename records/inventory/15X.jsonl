@@ -2,4 +2,4 @@
 {"id":"15X5TFT9R6","mentions":["wikipedia://en/3946232#GXTC"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"15XB3ZGE2V","mentions":["wikipedia://en/523533"],"kind":"topic","name":"Charles-Eugène Delaunay","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"15XHGP08RX","mentions":["wikipedia://en/3141761#JE64"],"kind":"definition","name":"Arakelov class group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"15XZ2WEA4H","mentions":["wikipedia://en/48496573"],"kind":"definition","name":"Bhargava factorial","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"15XZ2WEA4H","mentions":["wikipedia://en/48496573"],"kind":"definition","name":"Bhargava factorial","layer":"textbook","spread":1,"outcome":{"value":"node","target":["9AFZ46MBJ0"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 9AFZ46MBJ0 has the adopted text"}]}

@@ -1,6 +1,6 @@
 {"id":"YN2072QHB4","mentions":["m2://rec/wikidata/Q122695876#1"],"kind":"object","name":"2-adic valuation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"YN227YGRMT","mentions":["wikipedia://en/48459352"],"kind":"topic","name":"Juanita Moody","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"YN26SWV7JJ","mentions":["wikipedia://en/14403539#ODRR"],"kind":"unknown","name":"Gábor Halász","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"YN26SWV7JJ","mentions":["wikipedia://en/14403539#ODRR"],"kind":"unknown","name":"Gábor Halász","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"YN2AECT8YY","mentions":["wikipedia://en/70908681"],"kind":"topic","name":"Javad Mashreghi","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YN2AMVP49S","mentions":["wikipedia://en/444250#0P5D"],"kind":"definition","name":"Birkhoff interpolation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YN2PA0A5F9","mentions":["wikipedia://en/3038470"],"kind":"topic","name":"Massive gravity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

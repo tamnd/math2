@@ -1,5 +1,5 @@
 {"id":"FFA1S2YE7G","mentions":["wikipedia://en/285773#5TD5"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"FFA4QMK68V","mentions":["wikipedia://en/14403539#3B3E"],"kind":"unknown","name":"Joseph Sifakis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FFA4QMK68V","mentions":["wikipedia://en/14403539#3B3E"],"kind":"unknown","name":"Joseph Sifakis","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"FFA52BPQ6V","mentions":["m2://rec/lebl_scv/scv.tex#exercise-97#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"FFA73685NC","mentions":["wikipedia://en/64208634#SWFJ"],"kind":"definition","name":"*","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"FFAKCF99J5","mentions":["wikipedia://en/191457#E8HN"],"kind":"definition","name":"Operational sex ratio","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
