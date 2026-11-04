@@ -1,0 +1,28 @@
+---
+kind: statement
+msc:
+- 15A04
+name: Columns of a matrix transformation are the images of the standard basis vectors
+role: proposition
+sources:
+- locator: src/section2-5.xml:633
+  url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section2-5.xml#L633
+tag: PFEYWQJDK1
+uses:
+- 0AJ0KP1B31
+- 0CCQV3884B
+---
+
+## Statement
+
+Let $A$ be an $m \times n$ real matrix. Let $T \colon \mathbb{R}^n \to \mathbb{R}^m$ be the [[map given by multiplication by a matrix|0AJ0KP1B31]], so that $T(x) = Ax$ for every $x$ in $\mathbb{R}^n$.
+
+For $j = 1, \dots, n$, let $e_j$ be the vector of $\mathbb{R}^n$ with entry $1$ in place $j$ and entry $0$ elsewhere.
+
+Then column $j$ of $A$ is the vector $T(e_j)$ for each $j$. In other words, $A$ is the matrix whose columns are $T(e_1), T(e_2), \dots, T(e_n)$, in this order.
+
+## Remarks
+
+The reason is that the [[matrix-vector product|0CCQV3884B]] $Ae_j$ picks out the $j$-th column of $A$.
+
+The statement shows that a matrix transformation determines its matrix.

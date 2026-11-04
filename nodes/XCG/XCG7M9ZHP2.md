@@ -1,0 +1,25 @@
+---
+kind: statement
+name: A linearly independent set in R^m has at most m vectors
+msc:
+- 15A03
+role: proposition
+sources:
+- locator: src/section2-4.xml:777
+  url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section2-4.xml#L777
+tag: XCG7M9ZHP2
+uses:
+- 0CRMGPAH83
+- 08ZDRN6H41
+---
+
+## Statement
+
+Let $m$ be a positive integer.
+Suppose a set of vectors in $\mathbb{R}^m$ is [[linearly independent|0CRMGPAH83]].
+Then the set has at most $m$ elements.
+
+## Remarks
+
+Equivalently, any set of more than $m$ vectors in $\mathbb{R}^m$ is linearly dependent.
+This is a special case of the [[Steinitz exchange lemma|08ZDRN6H41]], since the $m$ standard unit vectors span $\mathbb{R}^m$.
