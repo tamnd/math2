@@ -6,6 +6,8 @@ msc: [15A06]
 sources:
   - url: https://en.wikipedia.org/wiki/System_of_linear_equations
     locator: lead section
+  - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section1-1.xml#L783
+    locator: src/section1-1.xml:783
 same_as:
   wikidata: Q11203
   wikipedia: System of linear equations

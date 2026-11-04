@@ -1,0 +1,30 @@
+---
+kind: statement
+msc:
+- 15A09
+name: Properties of invertible matrices
+role: proposition
+sources:
+- locator: src/section3-1.xml:806
+  url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section3-1.xml#L806
+tag: KAJZSCZQ5C
+uses:
+- 0EB9N0S33C
+- 006BHFWMAP
+- 0WF5AQYTW6
+---
+
+## Statement
+
+Let $A$ be an $n \times n$ matrix. The following four facts hold.
+
+1. The matrix $A$ is [[invertible|0EB9N0S33C]] if and only if $A$ is [[row equivalent|006BHFWMAP]] to the identity matrix $I$.
+2. If $A$ is invertible, then for each vector $\mathbf b$ the equation $A\mathbf x = \mathbf b$ has the solution $\mathbf x = A^{-1}\mathbf b$.
+3. If $A$ is invertible, then row reducing the augmented matrix $[A \mid I]$ gives its [[reduced row echelon form|0WF5AQYTW6]] $[I \mid A^{-1}]$. This is a way to compute $A^{-1}$.
+4. If $A$ and $B$ are invertible $n \times n$ matrices, then $AB$ is invertible and $(AB)^{-1} = B^{-1}A^{-1}$.
+
+## Remarks
+
+Fact 2 follows by multiplying both sides of $A\mathbf x = \mathbf b$ on the left by $A^{-1}$.
+
+Fact 4 is checked by the product $(AB)(B^{-1}A^{-1}) = I$.

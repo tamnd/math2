@@ -8,6 +8,8 @@ uses: [0F27PBRWD7]
 sources:
   - url: https://en.wikipedia.org/wiki/Pivot_element
     locator: lead section
+  - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section1-4.xml#L30
+    locator: src/section1-4.xml:30
 ---
 
 ## Definition

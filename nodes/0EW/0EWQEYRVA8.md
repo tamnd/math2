@@ -8,6 +8,8 @@ uses: [0F0RPPJ2TT, 05G2G0P224]
 sources:
   - url: https://en.wikipedia.org/wiki/Rank_(linear_algebra)
     locator: lead section
+  - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section3-5.xml#L848
+    locator: src/section3-5.xml:848
 inventory: [5AH385RGHD]
 ---
 

@@ -8,6 +8,8 @@ specializes: [0VYCDGMJJJ]
 sources:
   - url: https://en.wikipedia.org/wiki/Row_echelon_form
     locator: Reduced row echelon form
+  - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section1-2.xml#L1072
+    locator: src/section1-2.xml:1072
 ---
 
 ## Summary

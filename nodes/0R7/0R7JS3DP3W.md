@@ -8,6 +8,8 @@ uses: [092GEF38YD]
 sources:
   - url: https://en.wikipedia.org/wiki/Binomial_coefficient
     locator: Factorial formula
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_strings_combinations.ptx#L35
+    locator: source/s_strings_combinations.ptx:35
 ---
 
 ## Statement

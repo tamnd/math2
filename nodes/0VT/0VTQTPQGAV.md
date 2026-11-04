@@ -8,6 +8,10 @@ uses: [0EVHJFTG9Z, 0BJKVF90Z6]
 sources:
   - url: https://en.wikipedia.org/wiki/Basis_(linear_algebra)
     locator: Definition
+  - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section3-2.xml#L220
+    locator: src/section3-2.xml:220
+  - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section3-5.xml#L516
+    locator: src/section3-5.xml:516
 ---
 
 ## Definition

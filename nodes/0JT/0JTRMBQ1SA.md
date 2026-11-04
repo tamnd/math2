@@ -8,6 +8,10 @@ uses: [0DNNT7DBFM]
 sources:
   - url: https://en.wikipedia.org/wiki/System_of_linear_equations
     locator: lead section
+  - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section1-1.xml#L821
+    locator: src/section1-1.xml:821
+  - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section1-1.xml#L849
+    locator: src/section1-1.xml:849
 inventory: [J6QQKN30M4]
 ---
 

@@ -7,6 +7,8 @@ defines: GTG8MJGDKC
 uses: [0B1261B5ED, 0JXZKX526R, 0N4XY7Z3NN, 00J3KZP8Y0]
 sources:
   - url: https://en.wikipedia.org/wiki/Triangular_matrix
+  - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section3-1.xml#L878
+    locator: src/section3-1.xml:878
 ---
 
 ## Definition

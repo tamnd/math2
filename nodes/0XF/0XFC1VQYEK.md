@@ -8,6 +8,8 @@ uses: [00K0RF9BFY]
 sources:
   - url: https://en.wikipedia.org/wiki/Multinomial_theorem
     locator: Theorem
+  - url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_strings_multinom.ptx#L59
+    locator: source/s_strings_multinom.ptx:59
 same_as:
   wikidata: Q619985
   wikipedia: Multinomial theorem

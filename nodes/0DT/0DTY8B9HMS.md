@@ -7,6 +7,8 @@ specializes: [00YC1D652K]
 sources:
   - url: https://en.wikipedia.org/wiki/Linear_span
     locator: Definition
+  - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section2-3.xml#L253
+    locator: src/section2-3.xml:253
 same_as:
   wikidata: Q209812
   wikipedia: Linear span
