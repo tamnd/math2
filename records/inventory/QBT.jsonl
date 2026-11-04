@@ -1,7 +1,7 @@
 {"id":"QBT4YPSB7E","mentions":["wikipedia://en/11353703#10P3"],"kind":"topic","name":"Boris Trakhtenbrot","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QBT8PR1BEV","mentions":["wikipedia://en/57242824#F629"],"kind":"unknown","name":"Michael Pfannkuche","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QBTC3HJ08S","mentions":["wikipedia://en/8680492"],"kind":"definition","name":"Zodiac","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"QBTGW9FD92","mentions":["wikipedia://en/1395200"],"kind":"definition","name":"Dual lattice","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QBTGW9FD92","mentions":["wikipedia://en/1395200"],"kind":"definition","name":"Dual lattice","layer":"textbook","spread":1,"outcome":{"value":"node","target":["ZTKRD55ABZ"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node ZTKRD55ABZ has the adopted text"}]}
 {"id":"QBTHDZF033","mentions":["wikipedia://en/161244#YA8A"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QBTJKYMXR3","mentions":["wikipedia://en/181334#T04W"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QBTMQVZJAE","mentions":["wikipedia://en/537026#2DZV"],"kind":"unknown","name":"Measurement in quantum mechanics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,5 +1,5 @@
 {"id":"43Q8SH2G14","mentions":["m2://rec/hott_book/reals.tex#analysis-bw-lpo#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"43QHSZFWQT","mentions":["wikipedia://en/49172#7857"],"kind":"unknown","name":"Integer interval","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"43QHSZFWQT","mentions":["wikipedia://en/49172#7857"],"kind":"unknown","name":"Integer interval","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag citation-needed (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"43QKQKKFX0","mentions":["wikipedia://en/30963930"],"kind":"topic","name":"Jan de Leeuw","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"43QMDJWQWX","mentions":["wikipedia://en/39774#DX83"],"kind":"unknown","name":"D/L nomenclature","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"43QQ8VG8D1","mentions":["wikipedia://en/35457783#NNZ1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

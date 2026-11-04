@@ -1,1 +1,1 @@
-{"id":"FK504Q0SP0","mentions":["wikipedia://en/27131455"],"kind":"definition","name":"Multitree","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FK504Q0SP0","mentions":["wikipedia://en/27131455"],"kind":"definition","name":"Multitree","layer":"textbook","spread":1,"outcome":{"value":"node","target":["4N9JBQVG8V"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 4N9JBQVG8V has the adopted text"}]}
