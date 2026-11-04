@@ -1,5 +1,5 @@
 {"id":"TCH0CQHKWY","mentions":["m2://rec/hott_book/homotopy.tex#proof-10#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"TCH1KKN8XK","mentions":["wikipedia://en/29528690#Z56X"],"kind":"definition","name":"Binary","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"TCH1KKN8XK","mentions":["wikipedia://en/29528690#Z56X"],"kind":"definition","name":"Binary","layer":"textbook","spread":1,"outcome":{"value":"node","target":["QBJGHRFTRD"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node QBJGHRFTRD has the adopted text"}]}
 {"id":"TCH7QEHRX2","mentions":["wikipedia://en/191457#U3HH"],"kind":"statement","name":"Fishburn–Shepp inequality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TCHF33QPQG","mentions":["wikipedia://en/20047065#N0W0"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TCHHJP3K6B","mentions":["wikipedia://en/463981#MYF1"],"kind":"unknown","name":"575 (number)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

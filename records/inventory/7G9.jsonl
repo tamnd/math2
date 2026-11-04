@@ -2,5 +2,5 @@
 {"id":"7G98B3FDY7","mentions":["wikipedia://en/236841#SL9W"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7G9BWFHN5V","mentions":["wikipedia://en/2137509#K6SV"],"kind":"definition","name":"Formulation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7G9JQ4JXYC","mentions":["wikipedia://en/6709643#GX4A"],"kind":"example","name":"Simple example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"7G9MP24FFR","mentions":["wikipedia://en/4966802"],"kind":"definition","name":"Absolutely simple group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7G9MP24FFR","mentions":["wikipedia://en/4966802"],"kind":"definition","name":"Absolutely simple group","layer":"textbook","spread":1,"outcome":{"value":"node","target":["N2KNP4292N"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node N2KNP4292N has the adopted text"}]}
 {"id":"7G9XHRTZ04","mentions":["wikipedia://en/10976022"],"kind":"definition","name":"Euclidean shortest path","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

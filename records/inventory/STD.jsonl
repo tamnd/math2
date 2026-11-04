@@ -1,4 +1,4 @@
-{"id":"STD32W3FRG","mentions":["wikipedia://en/62221494"],"kind":"topic","name":"Pekka Tukia","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"STD32W3FRG","mentions":["wikipedia://en/62221494"],"kind":"topic","name":"Pekka Tukia","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"STDF0TDT8C","mentions":["wikipedia://en/56244281#BXKL"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"STDGAG8JD9","mentions":["wikipedia://en/51140705#T3TD"],"kind":"topic","name":"Damla Şentürk","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"STDRQ1JASF","mentions":["wikipedia://en/444250#LO7H"],"kind":"statement","name":"Entropy maximization","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

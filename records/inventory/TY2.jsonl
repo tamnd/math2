@@ -1,5 +1,5 @@
 {"id":"TY20FTA1KN","mentions":["wikipedia://en/26248766#R5DL"],"kind":"topic","name":"Giuseppe Bruno","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"TY23YJDKCJ","mentions":["wikipedia://en/1786#B7MF"],"kind":"unknown","name":"Ghubār Numerals","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"TY23YJDKCJ","mentions":["wikipedia://en/1786#B7MF"],"kind":"unknown","name":"Ghubār Numerals","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"TY28WWHHKH","mentions":["wikipedia://en/26213#HOZ5"],"kind":"definition","name":"Construction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TY2ER622ZZ","mentions":["wikipedia://en/909422#KHBR"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TY2GD4031P","mentions":["wikipedia://en/58540359#7LEQ"],"kind":"problem","name":"Partition problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

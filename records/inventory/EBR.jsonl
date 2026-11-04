@@ -1,5 +1,5 @@
 {"id":"EBR6402SV6","mentions":["wikipedia://en/43580500#X47S"],"kind":"definition","name":"NCF","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"EBRJE5CKSQ","mentions":["wikipedia://en/82044973#I5PD"],"kind":"unknown","name":"André","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"EBRJE5CKSQ","mentions":["wikipedia://en/82044973#I5PD"],"kind":"unknown","name":"André","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"EBRKJX8VFA","mentions":["wikipedia://en/263886#270I"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EBRMXFRG6X","mentions":["wikipedia://en/5678101#VK69"],"kind":"statement","name":"First Ray–Knight theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EBRPH8RPE4","mentions":["wikipedia://en/58896714"],"kind":"topic","name":"Alexandra M. Schmidt","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

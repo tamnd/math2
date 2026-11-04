@@ -1,6 +1,6 @@
 {"id":"5M621TA6SB","mentions":["wikipedia://en/39164736#XIOL"],"kind":"definition","name":"Pattern Blocks","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5M62SHJWSW","mentions":["wikipedia://en/321895#EG1K"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"5M6A70S6J0","mentions":["wikipedia://en/2600152"],"kind":"topic","name":"Graham Higman","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5M6A70S6J0","mentions":["wikipedia://en/2600152"],"kind":"topic","name":"Graham Higman","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"5M6RKRCHR5","mentions":["wikipedia://en/46592334#IH78"],"kind":"statement","name":"Statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5M6TXH67B7","mentions":["wikipedia://en/13035709#1FEH"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5M6VDCHXR4","mentions":["wikipedia://en/346955#HMZ8"],"kind":"conjecture","name":"Covering system","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

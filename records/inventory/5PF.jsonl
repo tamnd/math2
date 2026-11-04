@@ -2,5 +2,5 @@
 {"id":"5PF7N2Q4EZ","mentions":["wikipedia://en/2374187#5WFD"],"kind":"conjecture","name":"Euler's constant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5PF8JZE0S7","mentions":["wikipedia://en/297374"],"kind":"definition","name":"Schwinger model","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5PFD5ND9XR","mentions":["wikipedia://en/14747415"],"kind":"definition","name":"Bland's rule","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"5PFGA9FW8B","mentions":["wikipedia://en/100303#XY9O"],"kind":"topic","name":"W. Magnus","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5PFGA9FW8B","mentions":["wikipedia://en/100303#XY9O"],"kind":"topic","name":"W. Magnus","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"a list or a glossary is not a node (WP9.1)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"5PFXQ3J830","mentions":["wikipedia://en/31696461"],"kind":"topic","name":"D. S. Malik","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

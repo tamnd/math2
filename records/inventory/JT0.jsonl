@@ -1,5 +1,5 @@
 {"id":"JT00HRPXPF","mentions":["wikipedia://en/17920455#HY7G"],"kind":"example","name":"Uses","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JT0EM75ZD0","mentions":["m2://rec/lebl_ra/ch-contfunc.tex#prop-1#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"JT0EQ8HTGY","mentions":["wikipedia://en/51140705#I7I5"],"kind":"unknown","name":"Stanley Wasserman","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"JT0KSJXRWX","mentions":["wikipedia://en/12756944"],"kind":"definition","name":"Freiheitssatz","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"JT0KSJXRWX","mentions":["wikipedia://en/12756944"],"kind":"definition","name":"Freiheitssatz","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"JT0QG0XSP8","mentions":["wikipedia://en/35326250#GY4S"],"kind":"definition","name":"quantic","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

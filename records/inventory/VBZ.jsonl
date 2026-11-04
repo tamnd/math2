@@ -1,2 +1,2 @@
 {"id":"VBZ553VFPT","mentions":["wikipedia://en/51140705#WXRJ"],"kind":"topic","name":"Andrea Troxel","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"VBZVMZDPXH","mentions":["wikipedia://en/52297304"],"kind":"definition","name":"Convergence group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"VBZVMZDPXH","mentions":["wikipedia://en/52297304"],"kind":"definition","name":"Convergence group","layer":"textbook","spread":1,"outcome":{"value":"node","target":["NZ6HANMCHR"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node NZ6HANMCHR has the adopted text"}]}

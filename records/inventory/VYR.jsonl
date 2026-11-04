@@ -1,5 +1,5 @@
 {"id":"VYR541AB7Z","mentions":["m2://rec/hott_book/reals.tex#proof-38#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"VYR5H21SA1","mentions":["wikipedia://en/11275293"],"kind":"topic","name":"Brian Hartley","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"VYR5H21SA1","mentions":["wikipedia://en/11275293"],"kind":"topic","name":"Brian Hartley","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"VYRDJSK2F8","mentions":["wikipedia://en/4777875"],"kind":"definition","name":"Clifford theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"VYRNVSSPCM","mentions":["wikipedia://en/140829#56VI"],"kind":"topic","name":"Broze, Laurence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"VYRY99A7PS","mentions":["wikipedia://en/2397362#04WS"],"kind":"statement","name":"Generalizations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

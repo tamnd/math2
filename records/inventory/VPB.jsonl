@@ -1,6 +1,6 @@
 {"id":"VPB6VE8GWS","mentions":["wikipedia://en/60958267#MFKV"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"VPB791YBV4","mentions":["wikipedia://en/511379#G218"],"kind":"unknown","name":"RSA-210","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"VPB8P50STN","mentions":["wikipedia://en/40842906#NZWT"],"kind":"topic","name":"Péter, Rózsa","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"VPBBDF05AG","mentions":["wikipedia://en/29528690#PHOZ"],"kind":"definition","name":"Definable number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"VPBBDF05AG","mentions":["wikipedia://en/29528690#PHOZ"],"kind":"definition","name":"Definable number","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has its own article, page 8361","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"VPBK4DXH6X","mentions":["wikipedia://en/5445272"],"kind":"definition","name":"24","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"VPBKKH8SZA","mentions":["wikipedia://en/1863612"],"kind":"definition","name":"Normal-form game","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

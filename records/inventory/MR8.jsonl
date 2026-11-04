@@ -1,5 +1,5 @@
 {"id":"MR8158M570","mentions":["wikipedia://en/26949772"],"kind":"topic","name":"Vyacheslav Lebedev","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MR824ATTAR","mentions":["wikipedia://en/50352632"],"kind":"topic","name":"Juan José Nieto Roig","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"MR8DNMY04Y","mentions":["wikipedia://en/26678360"],"kind":"topic","name":"Klaus Fischer","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"MR8DNMY04Y","mentions":["wikipedia://en/26678360"],"kind":"topic","name":"Klaus Fischer","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"MR8DQ32F2S","mentions":["wikipedia://en/58383744#1XAB"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MR8TF413WN","mentions":["wikipedia://en/663347"],"kind":"definition","name":"FP","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

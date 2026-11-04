@@ -1,4 +1,4 @@
 {"id":"E9T2TAN8N7","mentions":["wikipedia://en/587645#JLIY"],"kind":"statement","name":"Four functions theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"E9T8BY8Q8K","mentions":["wikipedia://en/209103#HPX6"],"kind":"unknown","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"E9TJ1Y7K75","mentions":["wikipedia://en/1641166"],"kind":"topic","name":"Simon P. Norton","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"E9TJ1Y7K75","mentions":["wikipedia://en/1641166"],"kind":"topic","name":"Simon P. Norton","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"E9TM8KTZHR","mentions":["wikipedia://en/26962#ESQD"],"kind":"statement","name":"Twin paradox","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

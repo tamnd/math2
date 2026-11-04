@@ -1,6 +1,6 @@
 {"id":"S5C0WTC48H","mentions":["wikipedia://en/37994723"],"kind":"definition","name":"Rodger's method","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"S5C7S1QCPD","mentions":["wikipedia://en/3511290#Q26D"],"kind":"unknown","name":"Apparent dip","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"S5CQVGM5DA","mentions":["wikipedia://en/69732690"],"kind":"definition","name":"Quasimorphism","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"S5CQVGM5DA","mentions":["wikipedia://en/69732690"],"kind":"definition","name":"Quasimorphism","layer":"textbook","spread":1,"outcome":{"value":"node","target":["81A0AD379V"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 81A0AD379V has the adopted text"}]}
 {"id":"S5CR6P2P2R","mentions":["wikipedia://en/58501352"],"kind":"topic","name":"Vyacheslav Feodoritov","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"S5CWCWMXV3","mentions":["wikipedia://en/2016033#LLIC"],"kind":"definition","name":"Tricolorability","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"S5CWP29VND","mentions":["m2://rec/wikidata/Q846862#1","wikipedia://en/293450"],"kind":"definition","name":"involution","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

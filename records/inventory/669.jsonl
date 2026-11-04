@@ -1,6 +1,6 @@
 {"id":"6695DMB0DS","mentions":["wikipedia://en/603026#CPBY"],"kind":"unknown","name":"XP (class)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"66988V1TST","mentions":["wikipedia://en/41144473#2MKP"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"669D20CHBC","mentions":["wikipedia://en/1240011#SWZJ"],"kind":"statement","name":"Formal statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"669GSRFFYQ","mentions":["wikipedia://en/100303#WGCV"],"kind":"topic","name":"Ø. Ore","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"669GSRFFYQ","mentions":["wikipedia://en/100303#WGCV"],"kind":"topic","name":"Ø. Ore","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"a list or a glossary is not a node (WP9.1)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"669JYS7FR6","mentions":["wikipedia://en/38755088#CG56"],"kind":"unknown","name":"Paterson","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"669ZQYC0YV","mentions":["wikipedia://en/27195050#8KM6"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

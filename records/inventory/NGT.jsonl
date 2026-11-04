@@ -1,7 +1,7 @@
 {"id":"NGT1MA9RP5","mentions":["wikipedia://en/78108233"],"kind":"topic","name":"Trevor Evans","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NGT85119YN","mentions":["wikipedia://en/31320716#NYKT"],"kind":"definition","name":"Methods","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NGT8TXGR4N","mentions":["wikipedia://en/38274557#ONO0"],"kind":"unknown","name":"Forum Research","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"NGTBJ1HQJ0","mentions":["wikipedia://en/43066470#ZK2J"],"kind":"unknown","name":"Remark","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NGTBJ1HQJ0","mentions":["wikipedia://en/43066470#ZK2J"],"kind":"unknown","name":"Remark","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"NGTC4CFK2V","mentions":["wikipedia://en/41419738#HG44"],"kind":"definition","name":"Formulation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NGTGVHTZ6R","mentions":["wikipedia://en/36053570#WT6Q"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NGTKBTCSNH","mentions":["m2://rec/lebl_ra/ch-contfunc.tex#defn-6#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

@@ -1,4 +1,4 @@
 {"id":"1EN2QMWF4G","mentions":["wikipedia://en/51628519"],"kind":"definition","name":"CECPQ1","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1ENGA74V5D","mentions":["m2://rec/wikidata/Q17338668#1"],"kind":"unknown","name":"AGT correspondence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"1ENHR03J6Z","mentions":["wikipedia://en/70636825"],"kind":"statement","name":"Thomas–Yau conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"1ENWA7AGVK","mentions":["wikipedia://en/635483#5HRT"],"kind":"statement","name":"The gap conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1ENWA7AGVK","mentions":["wikipedia://en/635483#5HRT"],"kind":"statement","name":"The gap conjecture","layer":"textbook","spread":1,"outcome":{"value":"node","target":["2MAGH9YK32"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 2MAGH9YK32 has the adopted text"}]}

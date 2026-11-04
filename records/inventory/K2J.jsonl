@@ -1,6 +1,6 @@
 {"id":"K2JACRG3YQ","mentions":["wikipedia://en/21562#XONO"],"kind":"definition","name":"Formal definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"K2JB4HN2D7","mentions":["wikipedia://en/51783272"],"kind":"statement","name":"No–no paradox","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"K2JC01KY3T","mentions":["wikipedia://en/60435774"],"kind":"topic","name":"Bettina Eick","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"K2JC01KY3T","mentions":["wikipedia://en/60435774"],"kind":"topic","name":"Bettina Eick","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"K2JHRM3CJ5","mentions":["wikipedia://en/77657472"],"kind":"definition","name":"Mathematical oncology","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"K2JWSGKH99","mentions":["wikipedia://en/24083295"],"kind":"object","name":"Great triakis octahedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"K2JWWW6KW9","mentions":["wikipedia://en/61889118"],"kind":"topic","name":"Bertram John Walsh","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

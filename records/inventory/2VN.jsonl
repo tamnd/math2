@@ -1,5 +1,5 @@
 {"id":"2VNANRERT0","mentions":["wikipedia://en/36857142"],"kind":"topic","name":"Hà Huy Khoái","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2VNG3090RX","mentions":["wikipedia://en/140829#8JAD"],"kind":"topic","name":"Parzen, Emanuel","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2VNJAEA02A","mentions":["wikipedia://en/7393195#4YEU"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"2VNJHFVYZY","mentions":["wikipedia://en/547426"],"kind":"topic","name":"Paolo Ruffini","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"2VNJHFVYZY","mentions":["wikipedia://en/547426"],"kind":"topic","name":"Paolo Ruffini","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"2VNME802B6","mentions":["m2://rec/wikidata/Q12352263#1"],"kind":"unknown","name":"Zaslavskii map","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

@@ -1,7 +1,7 @@
 {"id":"YJG50Z7WE6","mentions":["wikipedia://en/7218498#IJX1"],"kind":"statement","name":"Weyl's tube formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YJGA29YY0Y","mentions":["wikipedia://en/391832#P152"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YJGCJAV7A3","mentions":["wikipedia://en/207580"],"kind":"topic","name":"Richard Whately","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"YJGD3VEW9R","mentions":["wikipedia://en/15200706"],"kind":"object","name":"Mathieu group M24","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"YJGD3VEW9R","mentions":["wikipedia://en/15200706"],"kind":"object","name":"Mathieu group M24","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"YJGDJ1PCSH","mentions":["wikipedia://en/16829511#JUPG"],"kind":"statement","name":"The theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YJGGGHDHQM","mentions":["wikipedia://en/11353703#U947"],"kind":"topic","name":"Naum Meiman","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YJGHPKYVYA","mentions":["wikipedia://en/78507457"],"kind":"definition","name":"Bayes space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
