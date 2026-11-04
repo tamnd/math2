@@ -3,4 +3,4 @@
 {"id":"EQ8K83QPDR","mentions":["wikipedia://en/31667930#SGBO"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EQ8NCTTB3G","mentions":["wikipedia://en/13609399#DX9A"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EQ8WVXV6P3","mentions":["wikipedia://en/3036515#DHND"],"kind":"topic","name":"Leonhard Euler","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"EQ8X6PTKA2","mentions":["wikipedia://en/655#0ISA"],"kind":"unknown","name":"Bead frame","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"EQ8X6PTKA2","mentions":["wikipedia://en/655#0ISA"],"kind":"unknown","name":"Bead frame","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}

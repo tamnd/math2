@@ -1,5 +1,5 @@
 {"id":"36YC71TT1B","mentions":["wikipedia://en/69720399#0CBZ"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"36YJMKT3FK","mentions":["wikipedia://en/78730954#PHLQ"],"kind":"unknown","name":"Diamonds","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"36YRD56TGS","mentions":["wikipedia://en/54772"],"kind":"definition","name":"ZPP","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"36YTTE6Y3A","mentions":["wikipedia://en/34260812"],"kind":"definition","name":"Superpartient ratio","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"36YTTE6Y3A","mentions":["wikipedia://en/34260812"],"kind":"definition","name":"Superpartient ratio","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"36YVRZM18J","mentions":["m2://rec/lebl_ra/ch-seq-ser.tex#exercise-3#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

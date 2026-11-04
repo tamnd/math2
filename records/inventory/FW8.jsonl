@@ -1,4 +1,4 @@
-{"id":"FW80V1V7RF","mentions":["wikipedia://en/30654226#84JM"],"kind":"topic","name":"Kefeng Liu","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FW80V1V7RF","mentions":["wikipedia://en/30654226#84JM"],"kind":"topic","name":"Kefeng Liu","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"a list or a glossary is not a node (WP9.1)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"FW893B31KE","mentions":["wikipedia://en/58462623"],"kind":"topic","name":"Roger Millsap","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"FW8KR1NKGJ","mentions":["wikipedia://en/2964127#3SVE"],"kind":"statement","name":"Statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"FW8VGDCGSJ","mentions":["wikipedia://en/55999875"],"kind":"topic","name":"Therese Biedl","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

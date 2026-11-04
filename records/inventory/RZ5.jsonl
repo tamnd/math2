@@ -1,5 +1,5 @@
 {"id":"RZ500RGXVS","mentions":["wikipedia://en/25330786"],"kind":"topic","name":"Erich Schönhardt","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"RZ51HBGY4G","mentions":["wikipedia://en/307975"],"kind":"topic","name":"Moritz Cantor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"RZ51HBGY4G","mentions":["wikipedia://en/307975"],"kind":"topic","name":"Moritz Cantor","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"RZ5F67GZE8","mentions":["wikipedia://en/47738065#8U6A"],"kind":"unknown","name":"Georges Tiercy","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RZ5G05EXA4","mentions":["wikipedia://en/37532867#AVS2"],"kind":"unknown","name":"The Sun","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RZ5G684C62","mentions":["wikipedia://en/68051547"],"kind":"topic","name":"Otto Forster","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

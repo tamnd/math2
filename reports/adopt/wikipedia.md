@@ -4,59 +4,44 @@ date: 2026-11-04
 items: 6
 adopted: 0
 drafted: 0
-linked: 22
+linked: 21
 waiting: 6
 deferred: 0
 ---
 
 # The adoption of Wikipedia text
 
-This report gives the items of the Wikipedia articles that m2 corpus adopt read on 2026-11-04 (corpus wikipedia WP9.2). The run adopted 0 items, 0 items wait for m2 mint, and it set the outcome node on 22 rows. 6 items wait for the write role or for a person, and the run deferred 0 of their rows.
+This report gives the items of the Wikipedia articles that m2 corpus adopt read on 2026-11-04 (corpus wikipedia WP9.2). The run adopted 0 items, 0 items wait for m2 mint, and it set the outcome node on 21 rows. 6 items wait for the write role or for a person, and the run deferred 0 of their rows.
 
 ## Why items wait
 
 | Reason | Items |
 |---|---|
-| the statement that the proof proves has no node | 5 |
-| the proof is attached to an item that is not a statement | 1 |
+| the statement that the proof proves has no node | 6 |
 
-## Nim
+## Heron's formula
 
-Page 21885.
-
-| Mention | Kind | Cue | Name | State | Node or reason |
-|---|---|---|---|---|---|
-| wikipedia://en/21885#PTKG | proof | heading | Proof of the winning formula | waiting | the statement that the proof proves has no node |
-
-## Conway chained arrow notation
-
-Page 305456.
+Page 194123.
 
 | Mention | Kind | Cue | Name | State | Node or reason |
 |---|---|---|---|---|---|
-| wikipedia://en/305456#X6HG | proof | inline-head | Proof | waiting | the proof is attached to an item that is not a statement |
+| wikipedia://en/194123#BKC0 | proof | named-heading | Algebraic proof using the Pythagorean theorem | waiting | the statement that the proof proves has no node |
+| wikipedia://en/194123#CFDM | proof | heading | Proofs | waiting | the statement that the proof proves has no node |
+| wikipedia://en/194123#E57U | proof | named-heading | Trigonometric proof using the law of cotangents | waiting | the statement that the proof proves has no node |
+| wikipedia://en/194123#Q1SK | proof | named-heading | Trigonometric proof using the law of cosines | waiting | the statement that the proof proves has no node |
 
-## Hackenbush
+## Archimedes' quadruplets
 
-Page 1613052.
-
-| Mention | Kind | Cue | Name | State | Node or reason |
-|---|---|---|---|---|---|
-| wikipedia://en/1613052#EH32 | proof | heading | Proof of Colon Principle | waiting | the statement that the proof proves has no node |
-
-## Proizvolov's identity
-
-Page 2646392.
+Page 16907491.
 
 | Mention | Kind | Cue | Name | State | Node or reason |
 |---|---|---|---|---|---|
-| wikipedia://en/2646392#H10B | proof | heading | Proof | waiting | the statement that the proof proves has no node |
+| wikipedia://en/16907491#TTL5 | proof | heading | Proof of congruency | waiting | the statement that the proof proves has no node |
 
-## Mathematical beauty
+## Cantor's first set theory article
 
-Page 18974136.
+Page 22697171.
 
 | Mention | Kind | Cue | Name | State | Node or reason |
 |---|---|---|---|---|---|
-| wikipedia://en/18974136#RDL0 | proof | heading | Proofs | waiting | the statement that the proof proves has no node |
-| wikipedia://en/18974136#Y4K2 | proof | heading | Proofs | waiting | the statement that the proof proves has no node |
+| wikipedia://en/22697171#EUUY | proof | heading | The proofs | waiting | the statement that the proof proves has no node |

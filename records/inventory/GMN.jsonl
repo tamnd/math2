@@ -1,6 +1,6 @@
 {"id":"GMN1PW6EZX","mentions":["m2://rec/wikidata/Q11651#1"],"kind":"definition","name":"electric current","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"GMN2G53ENS","mentions":["wikipedia://en/150159#SHHJ"],"kind":"statement","name":"Informal statement of the theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GMN3TBKPQH","mentions":["wikipedia://en/1561870"],"kind":"topic","name":"Dallas Willard","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"GMNR3Z87K5","mentions":["wikipedia://en/9098286"],"kind":"definition","name":"Hekat","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"GMNR3Z87K5","mentions":["wikipedia://en/9098286"],"kind":"definition","name":"Hekat","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"GMNSKF1GAB","mentions":["wikipedia://en/174412"],"kind":"definition","name":"Birefringence","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GMNWB1JDNG","mentions":["wikipedia://en/1399856#7F6P"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

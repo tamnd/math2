@@ -2,5 +2,5 @@
 {"id":"SSJHM3J09V","mentions":["wikipedia://en/3219921#I2K0"],"kind":"statement","name":"Generalizations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"SSJN5DYMP5","mentions":["m2://rec/wikidata/Q94250127#1"],"kind":"unknown","name":"oriented graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"SSJT13MPP4","mentions":["wikipedia://en/155624"],"kind":"definition","name":"Heritability","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"SSJV6KX84A","mentions":["wikipedia://en/35625607#PYVU"],"kind":"definition","name":"Clebsch invariant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"SSJV6KX84A","mentions":["wikipedia://en/35625607#PYVU"],"kind":"definition","name":"Clebsch invariant","layer":"textbook","spread":1,"outcome":{"value":"node","target":["X6Z40XYXG4"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node X6Z40XYXG4 has the adopted text"}]}
 {"id":"SSJZYVM443","mentions":["wikipedia://en/47565351#COCQ"],"kind":"unknown","name":"90 Degrees East","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

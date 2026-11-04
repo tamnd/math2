@@ -1,6 +1,6 @@
 {"id":"FY34HXAEEW","mentions":["wikipedia://en/79482529"],"kind":"topic","name":"Steven Sperber","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"FY3779V8MR","mentions":["wikipedia://en/41999"],"kind":"topic","name":"Franz Mertens","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"FY37DMYAZ3","mentions":["wikipedia://en/22950755"],"kind":"topic","name":"List of actuaries","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"FY38654C49","mentions":["wikipedia://en/826363"],"kind":"topic","name":"Morris Kline","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FY38654C49","mentions":["wikipedia://en/826363"],"kind":"topic","name":"Morris Kline","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"FY3DG5KAPD","mentions":["wikipedia://en/1403586#HW91"],"kind":"unknown","name":"Sarah Tolbert","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"FY3FH190W0","mentions":["m2://rec/wikidata/Q152415#1"],"kind":"definition","name":"sine","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

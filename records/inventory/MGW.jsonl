@@ -1,4 +1,4 @@
 {"id":"MGW37AK3NY","mentions":["wikipedia://en/26248766#347X"],"kind":"unknown","name":"Antonio Signorini","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"MGWSE8XZ3H","mentions":["wikipedia://en/35625607#TRGY"],"kind":"definition","name":"Salmon invariant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"MGWSE8XZ3H","mentions":["wikipedia://en/35625607#TRGY"],"kind":"definition","name":"Salmon invariant","layer":"textbook","spread":1,"outcome":{"value":"node","target":["MTK5SZCM4B"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node MTK5SZCM4B has the adopted text"}]}
 {"id":"MGWSX3YZQC","mentions":["wikipedia://en/53835306"],"kind":"topic","name":"Natalia Berloff","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MGWZBH9KSG","mentions":["wikipedia://en/140829#7BLQ"],"kind":"unknown","name":"Kennedy, Joseph C. G.","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,4 +1,4 @@
 {"id":"ZBQ4SJB6BC","mentions":["wikipedia://en/17756053"],"kind":"definition","name":"Qlik","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"ZBQ7Y5J73C","mentions":["wikipedia://en/35625607#2VTG"],"kind":"definition","name":"Bezoutic","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ZBQ7Y5J73C","mentions":["wikipedia://en/35625607#2VTG"],"kind":"definition","name":"Bezoutic","layer":"textbook","spread":1,"outcome":{"value":"node","target":["XBJ16G5Z2B"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node XBJ16G5Z2B has the adopted text"}]}
 {"id":"ZBQCZC8SDD","mentions":["wikipedia://en/6939387#JWT3"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZBQF22Y762","mentions":["wikipedia://en/33695362#3A9M"],"kind":"unknown","name":"Pythagorean cup","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

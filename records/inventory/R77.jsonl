@@ -1,4 +1,4 @@
-{"id":"R77BZQHY5E","mentions":["wikipedia://en/35625607#ELTL"],"kind":"definition","name":"Bezoutiod","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"R77BZQHY5E","mentions":["wikipedia://en/35625607#ELTL"],"kind":"definition","name":"Bezoutiod","layer":"textbook","spread":1,"outcome":{"value":"node","target":["5MVR60ZBKP"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 5MVR60ZBKP has the adopted text"}]}
 {"id":"R77CFBPRMQ","mentions":["wikipedia://en/64050069"],"kind":"definition","name":"The Geometry of Musical Rhythm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"R77G7AM0M0","mentions":["wikipedia://en/53252845#SC8X"],"kind":"definition","name":"toroid","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"R77HHFKEHZ","mentions":["wikipedia://en/1882219#TG55"],"kind":"definition","name":"Casting out nines","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
