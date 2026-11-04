@@ -1,3 +1,3 @@
 {"id":"AA02RB3JRV","mentions":["wikipedia://en/5658261#UKXK"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"AA03QBVBTE","mentions":["wikipedia://en/51140705#G0CZ"],"kind":"unknown","name":"Roger Peng","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"AA0GGVMANR","mentions":["wikipedia://en/55799101#VXOF"],"kind":"definition","name":"Artin","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"AA0GGVMANR","mentions":["wikipedia://en/55799101#VXOF"],"kind":"definition","name":"Artin","layer":"textbook","spread":1,"outcome":{"value":"node","target":["1AM149X0QF"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 1AM149X0QF has the adopted text"}]}

@@ -1,5 +1,5 @@
 {"id":"5TSCVC4GBC","mentions":["wikipedia://en/3615216"],"kind":"topic","name":"Albert Girard","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5TSKN7QSV5","mentions":["wikipedia://en/26991991#3BMQ"],"kind":"unknown","name":"Cadae","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"5TSM9T7TKT","mentions":["wikipedia://en/19652#6O5Z"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5TSM9T7TKT","mentions":["wikipedia://en/19652#6O5Z"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue heading names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"5TSS4M6E3M","mentions":["wikipedia://en/58462358"],"kind":"topic","name":"Hitoshi Ishii","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5TSX8Y34N9","mentions":["wikipedia://en/54495610"],"kind":"statement","name":"Ky Fan inequality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
