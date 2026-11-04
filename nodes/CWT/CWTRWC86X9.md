@@ -1,0 +1,27 @@
+---
+kind: concept
+msc:
+- 54A20
+name: Germ of a set
+sources:
+- url: https://github.com/jirilebl/scv/blob/78d7d41554695c389552c301398803d4633b9208/scv.tex#L14271
+  locator: scv.tex:14271
+tag: CWTRWC86X9
+uses:
+- 0CQHFPGJ45
+- 0ZCY0Z80B6
+- 0G8VEZ3WTK
+- 0W95W33CMP
+---
+
+## Summary
+
+Let $X$ be a [[topological space|0CQHFPGJ45]] and let $p \in X$.
+
+Two subsets $A, B \subseteq X$ are *equivalent at $p$* if some [[neighbourhood|0ZCY0Z80B6]] $W$ of $p$ satisfies $A \cap W = B \cap W$.
+
+This is an [[equivalence relation|0G8VEZ3WTK]] on the subsets of $X$.
+
+The *germ of a set* $A$ at $p$ is the [[equivalence class|0W95W33CMP]] of $A$. It is written $(A, p)$, or just $A$ when the point is clear from the context.
+
+Only the part of $A$ near $p$ matters. Two sets with the same germ at $p$ may differ far from $p$.

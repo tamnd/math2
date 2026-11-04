@@ -1,0 +1,18 @@
+---
+tag: "NHTP37R0B5"
+kind: concept
+name: Positive matrix (some power entrywise positive)
+msc: [15B48, 60J10]
+uses: [0F462493EA]
+sources:
+  - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section4-5.xml#L645
+    locator: src/section4-5.xml:645
+---
+
+## Summary
+
+A square matrix $A$ is called positive when some power $A^k$, with $k \ge 1$, has every entry strictly greater than zero.
+The case $k = 1$ is allowed, so a matrix whose own entries are all strictly positive is positive.
+This is the notion used for the long-run behaviour of a [[stochastic matrix|0F462493EA]] of a Markov chain.
+For example, $\begin{pmatrix} 0 & 1 \\ 1 & 1 \end{pmatrix}$ is positive, because its square has no zero entry.
+The matrix $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ is not positive, because its powers alternate between itself and the identity.

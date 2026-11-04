@@ -8,6 +8,8 @@ uses: [0HR573CHNM, 0N1MY1T0W9]
 sources:
   - url: https://en.wikipedia.org/wiki/Row_and_column_spaces
     locator: lead section
+  - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section3-5.xml#L622
+    locator: src/section3-5.xml:622
 inventory: [6C8HH5VHGP]
 ---
 

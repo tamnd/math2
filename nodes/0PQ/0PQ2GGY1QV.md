@@ -8,6 +8,8 @@ uses: [02YFME3RGW, 0N1MY1T0W9]
 sources:
   - url: https://en.wikipedia.org/wiki/Kernel_(linear_algebra)
     locator: lead section
+  - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section3-5.xml#L894
+    locator: src/section3-5.xml:894
 ---
 
 ## Definition

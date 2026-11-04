@@ -7,6 +7,8 @@ uses: [JSGWAN2RJV, W6FTSF57T1, 507C34W0ZT, QAC7BYK9KX]
 about: [W6FTSF57T1]
 sources:
   - url: https://en.wikipedia.org/wiki/Cousin_problems
+  - url: https://github.com/jirilebl/scv/blob/78d7d41554695c389552c301398803d4633b9208/scv.tex#L13128
+    locator: scv.tex:13128
 history:
   posed_by: "Pierre Cousin"
   first_stated: "1895"

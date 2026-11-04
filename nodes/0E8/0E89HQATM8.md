@@ -7,6 +7,8 @@ msc: [15A21]
 sources:
   - url: https://en.wikipedia.org/wiki/Matrix_similarity
     locator: lead section
+  - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section4-3.xml#L1057
+    locator: src/section4-3.xml:1057
 same_as:
   wikidata: Q254491
   wikipedia: Matrix similarity

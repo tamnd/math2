@@ -1,0 +1,23 @@
+---
+tag: 4VZDEZNK88
+kind: statement
+role: proposition
+name: Eigenvalue criterion for critical points
+msc: [26B12]
+uses: [0SCSQWXRA4, 04CPG9K1C4, 0TCBZMEYGN]
+sources:
+  - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section7-2.xml#L1657
+    locator: src/section7-2.xml:1657
+---
+
+## Statement
+
+Let $f$ be a real function of several variables that is of [[class C^2|0TCBZMEYGN]] near a critical point $p$. Let $H$ be the [[Hessian matrix|0SCSQWXRA4]] of $f$ at $p$. The eigenvalues of $H$ are real, since $H$ is symmetric.
+
+1. If every eigenvalue of $H$ is positive, then $p$ is a [[local minimum|04CPG9K1C4]] of $f$.
+2. If every eigenvalue of $H$ is negative, then $p$ is a local maximum of $f$.
+3. If $H$ has an eigenvalue that is positive and one that is negative, then $p$ is neither a local maximum nor a local minimum of $f$.
+
+## Remarks
+
+The signs of the eigenvalues of $H$ show how $f$ curves along the principal directions at $p$. This is the second derivative test written with eigenvalues.

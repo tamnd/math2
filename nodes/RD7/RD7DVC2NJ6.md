@@ -7,6 +7,8 @@ defines: SDCKNWSWNM
 uses: [EVPZ7ZG1HB, 0C3QBCR46M]
 sources:
   - url: https://en.wikipedia.org/wiki/Weierstrass_preparation_theorem
+  - url: https://github.com/jirilebl/scv/blob/78d7d41554695c389552c301398803d4633b9208/scv.tex#L14364
+    locator: scv.tex:14364
 ---
 
 ## Definition

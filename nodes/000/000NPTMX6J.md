@@ -8,6 +8,8 @@ uses: [0K2TX12X58, 0D6RMJ10M9]
 sources:
   - url: https://en.wikipedia.org/wiki/Singular_value_decomposition
     locator: lead section
+  - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section7-4.xml#L1216
+    locator: src/section7-4.xml:1216
 same_as:
   wikidata: Q420904
   wikipedia: Singular value decomposition

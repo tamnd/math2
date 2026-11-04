@@ -5,6 +5,8 @@ name: Holomorphically convex domain
 msc: ["32E05", 32T05]
 sources:
   - url: https://en.wikipedia.org/wiki/Function_of_several_complex_variables
+  - url: https://github.com/jirilebl/scv/blob/78d7d41554695c389552c301398803d4633b9208/scv.tex#L8565
+    locator: scv.tex:8565
 ---
 
 ## Summary

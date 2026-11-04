@@ -8,6 +8,8 @@ uses: [0ZC9YTXZRY, 0PHDYNR24D, 0APCFW7639]
 sources:
   - url: https://github.com/jirilebl/diffyqs/blob/658bcae9fb710f3fae2c9da4ca4524ce157453af/ap-linear-algebra.tex#L4974
     locator: ap-linear-algebra.tex:4974
+  - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section3-5.xml#L1162
+    locator: src/section3-5.xml:1162
 ---
 
 ## Statement

@@ -1,0 +1,21 @@
+---
+tag: 3G5HKX1Y0B
+kind: concept
+name: Subvariety of an open set in complex n-space
+msc: [32B15, 32C25]
+aliases: [complex-subvariety, proper-subvariety]
+uses: [0NAHXR1FRH]
+sources:
+  - url: https://github.com/jirilebl/scv/blob/78d7d41554695c389552c301398803d4633b9208/scv.tex#L15389
+    locator: scv.tex:15389
+---
+
+## Summary
+
+Let $U$ be an open subset of $\C^n$. A subset $X \subset U$ is a complex subvariety of $U$ if it is locally cut out by [[holomorphic functions|0NAHXR1FRH]].
+
+This means the following. Every point $p \in U$ has a neighbourhood $W$ and a family $\mathcal{F}$ of holomorphic functions on $W$, possibly infinite, such that $X \cap W$ is exactly the set of points of $W$ where every function of $\mathcal{F}$ vanishes.
+
+Such a set is also called a complex variety, a complex-analytic variety, or an analytic set.
+
+The subvariety $X$ is called proper if it is nonempty and not equal to all of $U$.

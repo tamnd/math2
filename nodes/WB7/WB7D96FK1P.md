@@ -1,0 +1,14 @@
+---
+tag: WB7D96FK1P
+kind: concept
+name: Orthogonal vectors in R^n
+msc: [15A63]
+sources:
+  - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section6-1.xml#L613
+    locator: src/section6-1.xml:613
+uses: [0S52TNNTH9]
+---
+
+## Summary
+
+Two vectors $v$ and $w$ of $\R^n$ are orthogonal when their [[dot product|0S52TNNTH9]] is zero, that is, when $v \cdot w = 0$.

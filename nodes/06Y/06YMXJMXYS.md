@@ -8,6 +8,8 @@ uses: [09S3PFBEPM, 052SDEPZH7, 053E86NWVK]
 sources:
   - url: https://en.wikipedia.org/wiki/Unique_factorization_domain
     locator: Definition
+  - url: https://github.com/jirilebl/scv/blob/78d7d41554695c389552c301398803d4633b9208/scv.tex#L19093
+    locator: scv.tex:19093
 ---
 
 ## Definition

@@ -12,6 +12,10 @@ sources:
     locator: ap-linear-algebra.tex:3738
   - url: https://github.com/jirilebl/diffyqs/blob/658bcae9fb710f3fae2c9da4ca4524ce157453af/ap-linear-algebra.tex#L4825
     locator: ap-linear-algebra.tex:4825
+  - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section6-2.xml#L1144
+    locator: src/section6-2.xml:1144
+  - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section7-4.xml#L1628
+    locator: src/section7-4.xml:1628
 ---
 
 ## Statement

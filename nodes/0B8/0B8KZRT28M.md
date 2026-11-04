@@ -7,6 +7,8 @@ specializes: [033DA1WE8Y]
 sources:
   - url: https://en.wikipedia.org/wiki/Projection_(linear_algebra)
     locator: Orthogonal projections
+  - url: https://github.com/davidaustinm/ula/blob/b6ea263ef23703072b7007485bb7a2d89c5f399b/src/section6-3.xml#L749
+    locator: src/section6-3.xml:749
 ---
 
 ## Summary
