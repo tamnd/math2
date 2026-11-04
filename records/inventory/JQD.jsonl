@@ -3,4 +3,4 @@
 {"id":"JQDEAXVDMY","mentions":["wikipedia://en/83163288"],"kind":"statement","name":"Brenier's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JQDEVB92Y9","mentions":["wikipedia://en/38949699"],"kind":"topic","name":"William Herrick Macaulay","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JQDG7SXGNX","mentions":["wikipedia://en/138215#CIRP"],"kind":"statement","name":"Weaving lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"JQDN32JB7F","mentions":["wikipedia://en/455964"],"kind":"definition","name":"Bicommutant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"JQDN32JB7F","mentions":["wikipedia://en/455964"],"kind":"definition","name":"Bicommutant","layer":"textbook","spread":1,"outcome":{"value":"node","target":["NMB6AXJCZ4"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node NMB6AXJCZ4 has the adopted text"}]}

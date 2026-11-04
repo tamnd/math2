@@ -3,7 +3,7 @@
 {"id":"ZC23BNGCDW","mentions":["wikipedia://en/972601#BX8K"],"kind":"unknown","name":"Elementary embedding","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZC28CKH6YR","mentions":["wikipedia://en/27428429#RSW3"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZC2BTV8CMH","mentions":["wikipedia://en/1692819"],"kind":"definition","name":"Topics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"ZC2C46SMVS","mentions":["wikipedia://en/11105238"],"kind":"definition","name":"SL2(R)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ZC2C46SMVS","mentions":["wikipedia://en/11105238"],"kind":"definition","name":"SL2(R)","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"ZC2DBK3ETJ","mentions":["m2://rec/wikidata/Q947015#1","wikipedia://en/46895"],"kind":"definition","name":"Euler number","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"ZC2KY0TX1D","mentions":["wikipedia://en/32869192#1U73"],"kind":"definition","name":"Lefschetz duality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZC2QDRKP6Z","mentions":["wikipedia://en/7066791#XO5T"],"kind":"unknown","name":"OTFE","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,6 +1,6 @@
 {"id":"JQP4NKP4Z5","mentions":["wikipedia://en/2575958"],"kind":"topic","name":"Esther Szekeres","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JQP72JTER6","mentions":["wikipedia://en/462005#QVJH"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"JQP9T4XKJ2","mentions":["wikipedia://en/5662011"],"kind":"definition","name":"Thompson subgroup","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"JQP9T4XKJ2","mentions":["wikipedia://en/5662011"],"kind":"definition","name":"Thompson subgroup","layer":"textbook","spread":1,"outcome":{"value":"node","target":["6MF2ZQJ7KQ"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 6MF2ZQJ7KQ has the adopted text"}]}
 {"id":"JQPG2XP2EV","mentions":["wikipedia://en/161339#JJLR"],"kind":"topic","name":"Blaise Pascal","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JQPMB3KV8R","mentions":["wikipedia://en/659169#I1LE"],"kind":"unknown","name":"Pimania","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JQPMXB997M","mentions":["wikipedia://en/964034#ZK8R"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

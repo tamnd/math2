@@ -1,6 +1,6 @@
 {"id":"R4Z5PW8GSB","mentions":["wikipedia://en/11740178#7SX3"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"R4Z7Y3XE3P","mentions":["wikipedia://en/4900209#8GNX"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"R4ZBV1FXRX","mentions":["wikipedia://en/153130#15HE"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"R4ZBV1FXRX","mentions":["wikipedia://en/153130#15HE"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue heading names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"R4ZCKNKZZZ","mentions":["wikipedia://en/4624421"],"kind":"definition","name":"SETAR","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"R4ZG6VAZE6","mentions":["wikipedia://en/191457#XGW1"],"kind":"definition","name":"Flood risk assessment","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"R4ZHG9ZQZW","mentions":["wikipedia://en/40093498"],"kind":"object","name":"Descartes number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

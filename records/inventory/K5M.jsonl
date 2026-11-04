@@ -5,4 +5,4 @@
 {"id":"K5MAEGCFBR","mentions":["wikipedia://en/50510967"],"kind":"topic","name":"Daniel Bump","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"K5MJCEPK3D","mentions":["wikipedia://en/42962760"],"kind":"topic","name":"Hans Robert Müller","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"K5MQKN9G94","mentions":["wikipedia://en/719460#2T44"],"kind":"statement","name":"Noether's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"K5MQXQHPBK","mentions":["wikipedia://en/29528690#QMBZ"],"kind":"definition","name":"Quaternary","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"K5MQXQHPBK","mentions":["wikipedia://en/29528690#QMBZ"],"kind":"definition","name":"Quaternary","layer":"textbook","spread":1,"outcome":{"value":"node","target":["V36D9MV923"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node V36D9MV923 has the adopted text"}]}

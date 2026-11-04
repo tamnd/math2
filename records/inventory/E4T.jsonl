@@ -2,4 +2,4 @@
 {"id":"E4TF8YZJE1","mentions":["wikipedia://en/64208634#N06W"],"kind":"definition","name":"Montel","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"E4TK2R4X95","mentions":["wikipedia://en/4141406"],"kind":"definition","name":"Solar dynamo","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"E4TNRMAHCM","mentions":["wikipedia://en/17381118"],"kind":"definition","name":"Comb space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"E4TPH0WS00","mentions":["wikipedia://en/24903646"],"kind":"topic","name":"Qaiser Mushtaq","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"E4TPH0WS00","mentions":["wikipedia://en/24903646"],"kind":"topic","name":"Qaiser Mushtaq","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}

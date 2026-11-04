@@ -1,5 +1,5 @@
 {"id":"GN66NA43YV","mentions":["wikipedia://en/47565724#A72O"],"kind":"definition","name":"Formulation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"GN66Y7K0GC","mentions":["wikipedia://en/82044973#VRV1"],"kind":"unknown","name":"Adam","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"GN66Y7K0GC","mentions":["wikipedia://en/82044973#VRV1"],"kind":"unknown","name":"Adam","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"GN6AP77ZN8","mentions":["wikipedia://en/82780726"],"kind":"definition","name":"Normal cone","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GN6C6YDX9Z","mentions":["wikipedia://en/50792386"],"kind":"topic","name":"Günter Harder","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GN6PA03AQN","mentions":["wikipedia://en/744802#VKXB"],"kind":"statement","name":"Generalizations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

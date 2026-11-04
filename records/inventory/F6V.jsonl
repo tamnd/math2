@@ -1,2 +1,2 @@
-{"id":"F6V5G6PCHX","mentions":["wikipedia://en/41983973#C1M4"],"kind":"statement","name":"Rees' theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"F6V5G6PCHX","mentions":["wikipedia://en/41983973#C1M4"],"kind":"statement","name":"Rees' theorem","layer":"textbook","spread":1,"outcome":{"value":"node","target":["CRGPCYJVE7"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node CRGPCYJVE7 has the adopted text"}]}
 {"id":"F6VZ5SFJTY","mentions":["wikipedia://en/723105#OIT5"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,5 +1,5 @@
 {"id":"FG81KPR3M7","mentions":["m2://rec/wikidata/Q168182#1"],"kind":"definition","name":"noon","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"FG8CD48XXG","mentions":["wikipedia://en/31705824#4FHB"],"kind":"statement","name":"Hamilton's principle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"FG8GMNXS7J","mentions":["wikipedia://en/10377468"],"kind":"definition","name":"Free-by-cyclic group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FG8GMNXS7J","mentions":["wikipedia://en/10377468"],"kind":"definition","name":"Free-by-cyclic group","layer":"textbook","spread":1,"outcome":{"value":"node","target":["TXYS4HF8JM"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node TXYS4HF8JM has the adopted text"}]}
 {"id":"FG8JM1H02Z","mentions":["wikipedia://en/51033271"],"kind":"topic","name":"Guy Hirsch","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"FG8VHJ82MQ","mentions":["wikipedia://en/19646692#9NDV"],"kind":"unknown","name":"Journal of Applied Probability","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,6 +1,6 @@
 {"id":"DBZ8T2QWHF","mentions":["wikipedia://en/66708690"],"kind":"definition","name":"Metalog distribution","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"DBZATQ8H21","mentions":["wikipedia://en/40775836#L67T"],"kind":"unknown","name":"Ed448","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"DBZPW2Y0QZ","mentions":["wikipedia://en/22033605"],"kind":"topic","name":"Jack Cole","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"DBZR71SZAF","mentions":["wikipedia://en/100303#GJPN"],"kind":"unknown","name":"G.A. Miller","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"DBZR71SZAF","mentions":["wikipedia://en/100303#GJPN"],"kind":"unknown","name":"G.A. Miller","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"DBZSVKFZD2","mentions":["wikipedia://en/510791#BBK8"],"kind":"unknown","name":"Actor-observer bias","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"DBZWX028PC","mentions":["wikipedia://en/14403539#ZQP7"],"kind":"topic","name":"William T. Trotter","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

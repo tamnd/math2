@@ -1,5 +1,5 @@
 {"id":"5S617SV6FE","mentions":["wikipedia://en/77414703#ABUE"],"kind":"definition","name":"Dedekind","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5S64Y78AXM","mentions":["wikipedia://en/10614602#NZKO"],"kind":"statement","name":"Statement of the inequality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"5S664XPX4M","mentions":["wikipedia://en/82044973#RFGH"],"kind":"unknown","name":"Ebbe","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5S664XPX4M","mentions":["wikipedia://en/82044973#RFGH"],"kind":"unknown","name":"Ebbe","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"5S677AQM1D","mentions":["wikipedia://en/36782#QT27"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5S6V14NH1J","mentions":["wikipedia://en/72121454"],"kind":"topic","name":"Norbert Ryska","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

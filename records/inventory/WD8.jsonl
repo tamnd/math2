@@ -1,3 +1,3 @@
-{"id":"WD85BAEN1J","mentions":["wikipedia://en/585271#FYZB"],"kind":"statement","name":"Ore's conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"WD85BAEN1J","mentions":["wikipedia://en/585271#FYZB"],"kind":"statement","name":"Ore's conjecture","layer":"textbook","spread":1,"outcome":{"value":"node","target":["XFAXZ3ER55"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node XFAXZ3ER55 has the adopted text"}]}
 {"id":"WD89C4SKRE","mentions":["wikipedia://en/1693055#6BD7"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WD8BVR22SQ","mentions":["wikipedia://en/140829#0QRT"],"kind":"unknown","name":"Abramovitz, Moses","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

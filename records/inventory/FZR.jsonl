@@ -1,3 +1,3 @@
 {"id":"FZRFA45KGD","mentions":["wikipedia://en/47738065#9Z5B"],"kind":"unknown","name":"Keiji Oguiso","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"FZRKTCD77F","mentions":["wikipedia://en/1757814#Y3L9"],"kind":"unknown","name":"Inverse category","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"FZRKTCD77F","mentions":["wikipedia://en/1757814#Y3L9"],"kind":"unknown","name":"Inverse category","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"FZRX5AZZTE","mentions":["wikipedia://en/22073#0BBB"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
