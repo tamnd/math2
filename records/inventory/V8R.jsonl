@@ -2,6 +2,6 @@
 {"id":"V8R0M22D2G","mentions":["wikipedia://en/205069#T17B"],"kind":"topic","name":"Paul Malliavin","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"V8R1S7X60M","mentions":["wikipedia://en/55536642"],"kind":"topic","name":"Mary Ellen Bock","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"V8R7K3CY33","mentions":["m2://rec/hott_book/basics.tex#lem:map#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"V8RBHMQWWA","mentions":["wikipedia://en/30774748#AT8P"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"V8RBHMQWWA","mentions":["wikipedia://en/30774748#AT8P"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue heading names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"V8RFJN2YY8","mentions":["wikipedia://en/155760#KCSF"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"V8RR3PVV34","mentions":["wikipedia://en/7961420"],"kind":"definition","name":"Streamline diffusion","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

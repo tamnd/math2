@@ -1,4 +1,4 @@
 {"id":"6ZGCZ5MS5R","mentions":["wikipedia://en/66786706#104F"],"kind":"statement","name":"Statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6ZGDVMQXVS","mentions":["wikipedia://en/56098#M30Y"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"6ZGMVSMH2J","mentions":["wikipedia://en/37035#0EE7"],"kind":"unknown","name":"NaiveLife","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"6ZGMVSMH2J","mentions":["wikipedia://en/37035#0EE7"],"kind":"unknown","name":"NaiveLife","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"6ZGQBW408K","mentions":["wikipedia://en/467339"],"kind":"topic","name":"Robert Adrain","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

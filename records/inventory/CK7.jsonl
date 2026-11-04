@@ -1,3 +1,3 @@
 {"id":"CK71WDSKV3","mentions":["wikipedia://en/239851#3M1T"],"kind":"statement","name":"Variations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"CK7FYA06BN","mentions":["wikipedia://en/15036487"],"kind":"definition","name":"Subcountability","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"CK7FYA06BN","mentions":["wikipedia://en/15036487"],"kind":"definition","name":"Subcountability","layer":"textbook","spread":1,"outcome":{"value":"node","target":["KCWGZS2AKQ"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node KCWGZS2AKQ has the adopted text"}]}
 {"id":"CK7S8DGJNK","mentions":["wikipedia://en/4628222"],"kind":"definition","name":"Computational resource","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

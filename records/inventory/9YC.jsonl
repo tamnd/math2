@@ -1,4 +1,4 @@
-{"id":"9YC4H70R74","mentions":["wikipedia://en/79984801"],"kind":"topic","name":"George Berzsenyi","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9YC4H70R74","mentions":["wikipedia://en/79984801"],"kind":"topic","name":"George Berzsenyi","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"9YC52NQ8MT","mentions":["wikipedia://en/38274557#FD5K"],"kind":"unknown","name":"Survation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9YC88RNCYM","mentions":["wikipedia://en/81515860"],"kind":"topic","name":"Ronghui Xu","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9YC97WM2YX","mentions":["wikipedia://en/4080#06YE"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
