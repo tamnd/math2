@@ -1,4 +1,4 @@
-{"id":"WJZ74WPV9H","mentions":["wikipedia://en/1974007#0XFD"],"kind":"statement","name":"Formula level","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"WJZ74WPV9H","mentions":["wikipedia://en/1974007#0XFD"],"kind":"statement","name":"Formula level","layer":"textbook","spread":1,"outcome":{"value":"node","target":["N2003KQAPM"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node N2003KQAPM has the adopted text"}]}
 {"id":"WJZ8J2TN2S","mentions":["wikipedia://en/7221237#Y0ZO"],"kind":"statement","name":"Extensions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WJZ8XRQ7XA","mentions":["wikipedia://en/53396858#DMPX"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WJZHC66KYB","mentions":["wikipedia://en/1403586#8M05"],"kind":"unknown","name":"Jim Matheson","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

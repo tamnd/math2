@@ -4,4 +4,4 @@
 {"id":"NV74STV32X","mentions":["wikipedia://en/42276959"],"kind":"definition","name":"Pareigis Hopf algebra","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NV7D1YF7GS","mentions":["wikipedia://en/191457#BKCI"],"kind":"definition","name":"Simultaneous equations model","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NV7WY39NG8","mentions":["wikipedia://en/2581136#V6OR"],"kind":"example","name":"Example 2","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"NV7Z7XZ8S8","mentions":["wikipedia://en/7639504"],"kind":"definition","name":"BIT predicate","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NV7Z7XZ8S8","mentions":["wikipedia://en/7639504"],"kind":"definition","name":"BIT predicate","layer":"textbook","spread":1,"outcome":{"value":"node","target":["1VFCE6G5KA"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 1VFCE6G5KA has the adopted text"}]}

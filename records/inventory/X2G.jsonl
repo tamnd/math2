@@ -1,7 +1,7 @@
 {"id":"X2G6NK2QRJ","mentions":["m2://rec/applied_combinatorics/source/s_probability_intro.ptx#example-2#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"X2G803BP19","mentions":["m2://rec/lebl_ra/index/10.3.1/liminf#1"],"kind":"concept","name":"liminf","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"X2GAZG3R9S","mentions":["wikipedia://en/55600074"],"kind":"topic","name":"Kimiko O. Bowman","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"X2GEDVW6QH","mentions":["wikipedia://en/2818935"],"kind":"definition","name":"AD+","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"X2GEDVW6QH","mentions":["wikipedia://en/2818935"],"kind":"definition","name":"AD+","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"X2GMNFKQQ7","mentions":["wikipedia://en/30059562"],"kind":"topic","name":"Edward Sang","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"X2GNYCWWCQ","mentions":["m2://rec/wikidata/Q25272#1"],"kind":"definition","name":"ampere","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"X2GPJ9D7HT","mentions":["m2://rec/napkin/tex/calculus/integrate.tex#definition-2#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

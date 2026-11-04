@@ -1,5 +1,5 @@
 {"id":"RY48CQXK9J","mentions":["wikipedia://en/38755088#2GOZ"],"kind":"unknown","name":"Drexel-Alvernon","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RY49VDGK5Y","mentions":["wikipedia://en/365026#9R89"],"kind":"statement","name":"Corollary","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"RY4C4WWW3Y","mentions":["wikipedia://en/1048680"],"kind":"definition","name":"Algebraic normal form","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"RY4C4WWW3Y","mentions":["wikipedia://en/1048680"],"kind":"definition","name":"Algebraic normal form","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"RY4F5Y4X37","mentions":["wikipedia://en/258986#C057"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RY4W28MJMX","mentions":["wikipedia://en/4079"],"kind":"definition","name":"BPP","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

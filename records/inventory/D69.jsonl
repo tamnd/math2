@@ -1,6 +1,6 @@
 {"id":"D6918SB640","mentions":["wikipedia://en/39563465#VMJW"],"kind":"unknown","name":"Cantera","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"D693TJM982","mentions":["wikipedia://en/621447#9064"],"kind":"unknown","name":"K-d tree","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"D694XGDY31","mentions":["wikipedia://en/26279594"],"kind":"definition","name":"Interpretation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"D694XGDY31","mentions":["wikipedia://en/26279594"],"kind":"definition","name":"Interpretation","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"D696AGFHWW","mentions":["wikipedia://en/9439931"],"kind":"topic","name":"Claus P. Schnorr","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"D697ADA4EJ","mentions":["wikipedia://en/31821456"],"kind":"topic","name":"Kurt Leichtweiss","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"D69C8PZQTH","mentions":["wikipedia://en/47738065#PQGA"],"kind":"topic","name":"Rémi Abgrall","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

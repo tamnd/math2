@@ -1,4 +1,4 @@
-{"id":"WCMCVZR0SC","mentions":["wikipedia://en/12450#2V6I"],"kind":"statement","name":"Model existence theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"WCMCVZR0SC","mentions":["wikipedia://en/12450#2V6I"],"kind":"statement","name":"Model existence theorem","layer":"textbook","spread":1,"outcome":{"value":"node","target":["G0DTR159RN"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node G0DTR159RN has the adopted text"}]}
 {"id":"WCMFW49FE9","mentions":["wikipedia://en/35326250#S6XL"],"kind":"definition","name":"tritangent","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WCMHKKVASK","mentions":["wikipedia://en/20167028"],"kind":"definition","name":"Policy capturing","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WCMSW6K1Q3","mentions":["wikipedia://en/518844#SQ92"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

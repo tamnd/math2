@@ -1,4 +1,4 @@
 {"id":"JKF0AW89VA","mentions":["wikipedia://en/22846993#OC0X"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JKF26Z9PZP","mentions":["wikipedia://en/2161429#DUUU"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"JKFAHH8DJA","mentions":["wikipedia://en/64137227"],"kind":"definition","name":"Claim","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"JKFAHH8DJA","mentions":["wikipedia://en/64137227"],"kind":"definition","name":"Claim","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"JKFKHZTDJE","mentions":["wikipedia://en/2645647#RRTU"],"kind":"unknown","name":"Scilab","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

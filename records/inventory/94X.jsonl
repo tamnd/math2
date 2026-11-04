@@ -1,4 +1,4 @@
-{"id":"94X8WXK1YC","mentions":["wikipedia://en/249033#43KB"],"kind":"unknown","name":"⁢","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"94X8WXK1YC","mentions":["wikipedia://en/249033#43KB"],"kind":"unknown","name":"⁢","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"94XG7555Y0","mentions":["wikipedia://en/1042164#TBRM"],"kind":"definition","name":"vanish","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"94XSBPDVYR","mentions":["wikipedia://en/1403586#HLUR"],"kind":"unknown","name":"Frieda Rapoport Caplan","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"94XTK8DPZQ","mentions":["wikipedia://en/37532867#R4AH"],"kind":"unknown","name":"(Weeting #22)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

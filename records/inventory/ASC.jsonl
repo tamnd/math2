@@ -1,5 +1,5 @@
 {"id":"ASCCPN9D9W","mentions":["wikipedia://en/57800035"],"kind":"topic","name":"Eileen Brooke","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"ASCCWRKDNZ","mentions":["wikipedia://en/41169104"],"kind":"topic","name":"François Fages","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ASCCWRKDNZ","mentions":["wikipedia://en/41169104"],"kind":"topic","name":"François Fages","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"ASCDSE0E1X","mentions":["wikipedia://en/38548751"],"kind":"topic","name":"Malay Ghosh","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ASCHE392JJ","mentions":["wikipedia://en/4517642"],"kind":"definition","name":"Sunrise equation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ASCXMT0BCR","mentions":["wikipedia://en/62480458"],"kind":"statement","name":"Sidorenko's conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

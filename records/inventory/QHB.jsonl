@@ -1,4 +1,4 @@
-{"id":"QHB0D19XHX","mentions":["wikipedia://en/76765067#E1YY"],"kind":"definition","name":"minimization","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QHB0D19XHX","mentions":["wikipedia://en/76765067#E1YY"],"kind":"definition","name":"minimization","layer":"textbook","spread":1,"outcome":{"value":"node","target":["HKWWAEZJF4"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node HKWWAEZJF4 has the adopted text"}]}
 {"id":"QHB0VCJBME","mentions":["m2://rec/levin_dmoi/ptx/sec_seq-arithgeom.ptx#example-5#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"QHB4QTYAB0","mentions":["wikipedia://en/40342115"],"kind":"topic","name":"Rhonda Hughes","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QHBC9KNNDZ","mentions":["wikipedia://en/487859#JT42"],"kind":"unknown","name":"Normal derivative","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,6 +1,6 @@
 {"id":"QNQ0QNF4DD","mentions":["wikipedia://en/31277#C8E0"],"kind":"unknown","name":"Cognitive elite","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QNQ90EZ9CP","mentions":["wikipedia://en/2757224#9AV5"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"QNQGYD7RFF","mentions":["wikipedia://en/346167#936B"],"kind":"definition","name":"Cardinality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QNQGYD7RFF","mentions":["wikipedia://en/346167#936B"],"kind":"definition","name":"Cardinality","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has its own article, page 6174","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"QNQKTYGVN0","mentions":["wikipedia://en/45470428"],"kind":"topic","name":"Heinz Engl","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QNQNGMSC6R","mentions":["m2://rec/lebl_diffyqs/ch-laplace.tex#example-3#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"QNQPTQ267K","mentions":["wikipedia://en/183091#JH2B"],"kind":"statement","name":"Egan conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

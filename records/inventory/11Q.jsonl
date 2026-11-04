@@ -1,2 +1,2 @@
-{"id":"11QBC0DBG5","mentions":["wikipedia://en/58928004"],"kind":"definition","name":"Waiter–Client game","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"11QBC0DBG5","mentions":["wikipedia://en/58928004"],"kind":"definition","name":"Waiter–Client game","layer":"textbook","spread":1,"outcome":{"value":"node","target":["7KSBATJZZG"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 7KSBATJZZG has the adopted text"}]}
 {"id":"11QPK3AYNH","mentions":["m2://rec/hott_book/logic.tex#ex:impred-brck#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

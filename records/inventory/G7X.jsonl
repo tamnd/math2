@@ -1,5 +1,5 @@
 {"id":"G7X8PX0J3K","mentions":["wikipedia://en/2070045"],"kind":"definition","name":"Heun function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"G7XEBSDAZX","mentions":["wikipedia://en/42381742"],"kind":"statement","name":"Hsu–Robbins–Erdős theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"G7XH6MR18A","mentions":["wikipedia://en/15895296"],"kind":"definition","name":"Equisatisfiability","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"G7XH6MR18A","mentions":["wikipedia://en/15895296"],"kind":"definition","name":"Equisatisfiability","layer":"textbook","spread":1,"outcome":{"value":"node","target":["B37TYWXS74"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node B37TYWXS74 has the adopted text"}]}
 {"id":"G7XRS5H2WF","mentions":["wikipedia://en/17286442#4X7P"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"G7XW52DTTC","mentions":["wikipedia://en/1158496#D6ZB"],"kind":"unknown","name":"Prahalad Chunnilal Vaidya","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

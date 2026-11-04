@@ -1,6 +1,6 @@
 {"id":"MGQ1DNR095","mentions":["wikipedia://en/22950755#JQK2"],"kind":"unknown","name":"Emory McClintock","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MGQ3HEMK32","mentions":["wikipedia://en/34087660"],"kind":"statement","name":"Danish pile-driving formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"MGQ5E9MF3G","mentions":["wikipedia://en/43580500#KUHN"],"kind":"definition","name":"empty set axiom","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"MGQ5E9MF3G","mentions":["wikipedia://en/43580500#KUHN"],"kind":"definition","name":"empty set axiom","layer":"textbook","spread":1,"outcome":{"value":"node","target":["WWR7D24BPQ"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node WWR7D24BPQ has the adopted text"}]}
 {"id":"MGQR85V98V","mentions":["wikipedia://en/6243993#7W74"],"kind":"definition","name":"recurrence algorithms","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MGQRW25QE8","mentions":["wikipedia://en/28046776#KL5E"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MGQVZ9XEN1","mentions":["wikipedia://en/45177#0Y9U"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

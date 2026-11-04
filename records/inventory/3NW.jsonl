@@ -1,4 +1,4 @@
-{"id":"3NW0EMK79W","mentions":["wikipedia://en/76765067#IU2G"],"kind":"definition","name":"barbara","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"3NW0EMK79W","mentions":["wikipedia://en/76765067#IU2G"],"kind":"definition","name":"barbara","layer":"textbook","spread":1,"outcome":{"value":"node","target":["AC6XQ4KRNT"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node AC6XQ4KRNT has the adopted text"}]}
 {"id":"3NW1G6YFMF","mentions":["wikipedia://en/400296"],"kind":"definition","name":"Additive Schwarz method","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"3NWGPJFXG1","mentions":["wikipedia://en/59747277#M4HE"],"kind":"definition","name":"Construction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"3NWPW5Z9K9","mentions":["wikipedia://en/14562926"],"kind":"topic","name":"Herman Otto Hartley","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

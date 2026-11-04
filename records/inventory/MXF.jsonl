@@ -1,4 +1,4 @@
 {"id":"MXF59P3CC5","mentions":["wikipedia://en/320468#EG8P"],"kind":"statement","name":"Serre's theorem on affineness","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"MXFCVM16NJ","mentions":["wikipedia://en/76765067#KWJY"],"kind":"definition","name":"borderline case","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"MXFCVM16NJ","mentions":["wikipedia://en/76765067#KWJY"],"kind":"definition","name":"borderline case","layer":"textbook","spread":1,"outcome":{"value":"node","target":["DQ393JE6PS"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node DQ393JE6PS has the adopted text"}]}
 {"id":"MXFKKR9H15","mentions":["m2://rec/wikidata/Q124416742#1"],"kind":"unknown","name":"canonicity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"MXFQART0NS","mentions":["wikipedia://en/66468324#SOGZ"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,4 +1,4 @@
 {"id":"RSE4GRX04T","mentions":["wikipedia://en/63989962#16P5"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"RSEC2VH1AQ","mentions":["wikipedia://en/76765067#DIGZ"],"kind":"definition","name":"epistemic constraint","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"RSEC2VH1AQ","mentions":["wikipedia://en/76765067#DIGZ"],"kind":"definition","name":"epistemic constraint","layer":"textbook","spread":1,"outcome":{"value":"node","target":["X4X06W3GDE"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node X4X06W3GDE has the adopted text"}]}
 {"id":"RSEHGP4BE3","mentions":["wikipedia://en/38256214#7S2P"],"kind":"definition","name":"exact zero divisor","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RSENJNVGNS","mentions":["wikipedia://en/191457#A3PP"],"kind":"definition","name":"Simon model","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

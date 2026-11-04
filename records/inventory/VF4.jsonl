@@ -3,4 +3,4 @@
 {"id":"VF4F1YCAC9","mentions":["wikipedia://en/47738065#IR57"],"kind":"topic","name":"Natasha Dobrinen","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"VF4HSRPD8C","mentions":["wikipedia://en/59632528#VYSQ"],"kind":"statement","name":"Statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"VF4KEH8V15","mentions":["m2://rec/lebl_diffyqs/ch-first-order-ode.tex#exercise-73#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"VF4QQQ1XDW","mentions":["wikipedia://en/9419642"],"kind":"definition","name":"Implication graph","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"VF4QQQ1XDW","mentions":["wikipedia://en/9419642"],"kind":"definition","name":"Implication graph","layer":"textbook","spread":1,"outcome":{"value":"node","target":["Z1BRWWR5QR"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node Z1BRWWR5QR has the adopted text"}]}

@@ -1,4 +1,4 @@
 {"id":"RMS0G1B4DJ","mentions":["wikipedia://en/502042#EWH6"],"kind":"statement","name":"Selberg trace formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RMS53EMEDY","mentions":["wikipedia://en/2000736#HYUT"],"kind":"unknown","name":"Poincaré gauge","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RMS5HPR5VX","mentions":["wikipedia://en/38731341#56QG"],"kind":"statement","name":"Symmetry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"RMSSEW99NH","mentions":["wikipedia://en/76765067#S2NM"],"kind":"definition","name":"contextualism","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"RMSSEW99NH","mentions":["wikipedia://en/76765067#S2NM"],"kind":"definition","name":"contextualism","layer":"textbook","spread":1,"outcome":{"value":"node","target":["YXMCSM8H9Q"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node YXMCSM8H9Q has the adopted text"}]}

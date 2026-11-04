@@ -1,2 +1,2 @@
 {"id":"HSF54MP096","mentions":["m2://rec/lebl_ra/ch-approximate.tex#proof-23#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"HSFSK36D6Y","mentions":["wikipedia://en/30977#ZNUT"],"kind":"statement","name":"Theorems in logic","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"HSFSK36D6Y","mentions":["wikipedia://en/30977#ZNUT"],"kind":"statement","name":"Theorems in logic","layer":"textbook","spread":1,"outcome":{"value":"node","target":["2MXQJX37DD"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 2MXQJX37DD has the adopted text"}]}

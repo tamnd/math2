@@ -4,5 +4,5 @@
 {"id":"AB8J8W5GEX","mentions":["wikipedia://en/191457#4VW3"],"kind":"definition","name":"Data set","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"AB8JFXEVXJ","mentions":["m2://rec/hott_book/index/u1.u7/excluded-middle#1"],"kind":"concept","name":"excluded middle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"AB8RX1GG44","mentions":["wikipedia://en/169823#KI31"],"kind":"definition","name":"Trischiliagon","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"AB8THS9G4H","mentions":["wikipedia://en/83795911"],"kind":"statement","name":"Kamp's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"AB8THS9G4H","mentions":["wikipedia://en/83795911"],"kind":"statement","name":"Kamp's theorem","layer":"textbook","spread":1,"outcome":{"value":"node","target":["CQ0QCQK5JT"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node CQ0QCQK5JT has the adopted text"}]}
 {"id":"AB8TTXMPPS","mentions":["wikipedia://en/3383619"],"kind":"definition","name":"Discrete-time Markov chain","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

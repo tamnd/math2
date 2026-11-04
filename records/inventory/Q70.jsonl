@@ -2,4 +2,4 @@
 {"id":"Q705TB89VN","mentions":["wikipedia://en/182249#1ZCE"],"kind":"unknown","name":"DUHK","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Q70EEZ9HY1","mentions":["wikipedia://en/630017#LQDG"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Q70TNEHF6S","mentions":["wikipedia://en/1745325#EPA4"],"kind":"statement","name":"Business law","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"Q70TP5173F","mentions":["wikipedia://en/43580500#ANNU"],"kind":"definition","name":"additively","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"Q70TP5173F","mentions":["wikipedia://en/43580500#ANNU"],"kind":"definition","name":"additively","layer":"textbook","spread":1,"outcome":{"value":"node","target":["VSBQ20KQPM"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node VSBQ20KQPM has the adopted text"}]}

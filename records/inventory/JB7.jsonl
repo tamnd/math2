@@ -1,4 +1,4 @@
 {"id":"JB73V9RZ0F","mentions":["m2://rec/napkin/tex/topology/top-more.tex#ques-4#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"JB74FQ17Z1","mentions":["wikipedia://en/73634#FH5I"],"kind":"definition","name":"iiint","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"JB74FQ17Z1","mentions":["wikipedia://en/73634#FH5I"],"kind":"definition","name":"iiint","layer":"textbook","spread":1,"outcome":{"value":"node","target":["KGPNRJWGT6"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node KGPNRJWGT6 has the adopted text"}]}
 {"id":"JB78PEPTT3","mentions":["wikipedia://en/3143089#1DRL"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"JB7NSHHCV3","mentions":["wikipedia://en/51140705#DNZN"],"kind":"topic","name":"Cristina Parel","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

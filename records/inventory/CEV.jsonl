@@ -1,4 +1,4 @@
-{"id":"CEV0CPA86D","mentions":["wikipedia://en/51442#QMNS"],"kind":"unknown","name":"Remark","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"CEV0CPA86D","mentions":["wikipedia://en/51442#QMNS"],"kind":"unknown","name":"Remark","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"CEV6PPPSA0","mentions":["wikipedia://en/530786"],"kind":"definition","name":"Codebook","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CEVCJHXPDP","mentions":["wikipedia://en/13463690"],"kind":"statement","name":"Contraction principle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CEVD719ESM","mentions":["wikipedia://en/6809151#ODBV"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

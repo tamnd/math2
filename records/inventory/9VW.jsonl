@@ -1,5 +1,5 @@
 {"id":"9VW1FX2J24","mentions":["wikipedia://en/41559308"],"kind":"definition","name":"Sampling in order","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9VWCSHXRR6","mentions":["wikipedia://en/47565351#NNL0"],"kind":"unknown","name":"Kowloon","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9VWFW5BM2Z","mentions":["wikipedia://en/71096378"],"kind":"topic","name":"Ted Hurley","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"9VWHSCKPFF","mentions":["wikipedia://en/1974007"],"kind":"definition","name":"Independence-friendly logic","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9VWHSCKPFF","mentions":["wikipedia://en/1974007"],"kind":"definition","name":"Independence-friendly logic","layer":"textbook","spread":1,"outcome":{"value":"node","target":["DPMKT2KRB8"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node DPMKT2KRB8 has the adopted text"}]}
 {"id":"9VWQFZ721M","mentions":["wikipedia://en/1638777"],"kind":"definition","name":"SHA-2","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

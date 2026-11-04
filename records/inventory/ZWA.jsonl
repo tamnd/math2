@@ -1,3 +1,3 @@
-{"id":"ZWA2YXE8KA","mentions":["wikipedia://en/7750539"],"kind":"definition","name":"Deductive closure","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ZWA2YXE8KA","mentions":["wikipedia://en/7750539"],"kind":"definition","name":"Deductive closure","layer":"textbook","spread":1,"outcome":{"value":"node","target":["CT4FZ84V45"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node CT4FZ84V45 has the adopted text"}]}
 {"id":"ZWA75EW4KE","mentions":["wikipedia://en/16796426#QAII"],"kind":"example","name":"Uses","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZWAC1JYVA5","mentions":["m2://rec/wikidata/Q357268#1"],"kind":"unknown","name":"hyperbolic paraboloid","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

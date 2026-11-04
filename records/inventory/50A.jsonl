@@ -1,4 +1,4 @@
-{"id":"50A7CX3ZTC","mentions":["wikipedia://en/1618182"],"kind":"definition","name":"Dilemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"50A7CX3ZTC","mentions":["wikipedia://en/1618182"],"kind":"definition","name":"Dilemma","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"50APY9DZ29","mentions":["m2://rec/hott_book/reals.tex#proof-32#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"50APYQ8STT","mentions":["wikipedia://en/56345189"],"kind":"topic","name":"Lyle Jones","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"50AR0MXQWB","mentions":["wikipedia://en/44030009#ZSD9"],"kind":"example","name":"An example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

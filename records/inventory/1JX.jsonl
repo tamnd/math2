@@ -1,4 +1,4 @@
-{"id":"1JXBF8B77N","mentions":["wikipedia://en/691790#X125"],"kind":"definition","name":"0#","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"1JXBF8B77N","mentions":["wikipedia://en/691790#X125"],"kind":"definition","name":"0#","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has its own article, page 10175953","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"1JXHQEZR28","mentions":["wikipedia://en/1012687#QTRL"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1JXJ5Y7B3R","mentions":["wikipedia://en/7324284#UJF4"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"1JXQDFPBB3","mentions":["wikipedia://en/481582#X3UE"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

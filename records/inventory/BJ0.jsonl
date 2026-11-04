@@ -1,5 +1,5 @@
 {"id":"BJ02A4BWPZ","mentions":["wikipedia://en/3420188#PQHE"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"BJ02JGEZF8","mentions":["wikipedia://en/1134"],"kind":"definition","name":"Analysis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"BJ02JGEZF8","mentions":["wikipedia://en/1134"],"kind":"definition","name":"Analysis","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"BJ0BWD3B94","mentions":["wikipedia://en/14306166"],"kind":"definition","name":"Biplot","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BJ0XB3QB16","mentions":["wikipedia://en/47565351#7B3O"],"kind":"unknown","name":"Primeira Cruz","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BJ0XS1Q2A2","mentions":["wikipedia://en/21572326#BO3F"],"kind":"unknown","name":"GraphPad Prism","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,5 +1,5 @@
 {"id":"V0Z2VCYA2T","mentions":["wikipedia://en/470632#OEOT"],"kind":"definition","name":"Formal definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"V0Z38H27HR","mentions":["wikipedia://en/10175953"],"kind":"definition","name":"0†","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"V0Z38H27HR","mentions":["wikipedia://en/10175953"],"kind":"definition","name":"0†","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"V0Z6VDYQ9T","mentions":["wikipedia://en/1158496#4Z6R"],"kind":"unknown","name":"Baudhayana sutras","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"V0ZKTXA70A","mentions":["wikipedia://en/715707#D7XW"],"kind":"example","name":"Application","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"V0ZNEBAHK2","mentions":["wikipedia://en/42622216"],"kind":"topic","name":"Lê Dũng Tráng","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

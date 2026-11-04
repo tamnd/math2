@@ -1,7 +1,7 @@
 {"id":"NC72H3TX7K","mentions":["m2://rec/hott_book/index/5.13/path-n#1"],"kind":"concept","name":"path, $n$-","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"NC7AAD4WSS","mentions":["wikipedia://en/74074951"],"kind":"topic","name":"Christof Paar","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NC7EXC7YEY","mentions":["wikipedia://en/35326250#2ZDU"],"kind":"definition","name":"cissoid","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"NC7SN21SPD","mentions":["wikipedia://en/63059684"],"kind":"topic","name":"Katrin Tent","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NC7SN21SPD","mentions":["wikipedia://en/63059684"],"kind":"topic","name":"Katrin Tent","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"NC7SW9A57S","mentions":["wikipedia://en/34189212#I58W"],"kind":"definition","name":"Inconsistent mathematics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NC7VP418Z6","mentions":["wikipedia://en/48578727#UMTY"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NC7ZZS8MNN","mentions":["wikipedia://en/15315059#8TY6"],"kind":"topic","name":"Alison Etheridge","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,2 +1,2 @@
-{"id":"C0TJKGJAYY","mentions":["wikipedia://en/76765067#FH55"],"kind":"definition","name":"exchange","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"C0TJKGJAYY","mentions":["wikipedia://en/76765067#FH55"],"kind":"definition","name":"exchange","layer":"textbook","spread":1,"outcome":{"value":"node","target":["YAFD18WYJ8"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node YAFD18WYJ8 has the adopted text"}]}
 {"id":"C0TW5QB7A5","mentions":["wikipedia://en/24172#KTA9"],"kind":"statement","name":"Generalizations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

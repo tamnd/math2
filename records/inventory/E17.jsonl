@@ -1,4 +1,4 @@
-{"id":"E1729KKBQD","mentions":["wikipedia://en/77662984#9PYN"],"kind":"statement","name":"Geometric laws","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"E1729KKBQD","mentions":["wikipedia://en/77662984#9PYN"],"kind":"statement","name":"Geometric laws","layer":"textbook","spread":1,"outcome":{"value":"node","target":["94PRHSDPPC"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 94PRHSDPPC has the adopted text"}]}
 {"id":"E172JR8EMF","mentions":["wikipedia://en/19088928"],"kind":"definition","name":"Helly metric","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"E176GKYD0H","mentions":["wikipedia://en/52692456"],"kind":"topic","name":"Ramdas L. Bhirud","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"E176YEF6TB","mentions":["wikipedia://en/51251595"],"kind":"definition","name":"Korovkin approximation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -2,4 +2,4 @@
 {"id":"BFZF9BJ74W","mentions":["wikipedia://en/14403539#P0GY"],"kind":"topic","name":"Robert Zimmer","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BFZGY92GM9","mentions":["wikipedia://en/23349325"],"kind":"topic","name":"Alexis Hocquenghem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BFZSP64XAQ","mentions":["wikipedia://en/41730066#3V4O"],"kind":"statement","name":"Results","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"BFZV4WTRQ1","mentions":["wikipedia://en/43580500#ONSJ"],"kind":"definition","name":"continuum problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"BFZV4WTRQ1","mentions":["wikipedia://en/43580500#ONSJ"],"kind":"definition","name":"continuum problem","layer":"textbook","spread":1,"outcome":{"value":"node","target":["7GQF2BCKEE"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 7GQF2BCKEE has the adopted text"}]}

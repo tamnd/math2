@@ -1,4 +1,4 @@
 {"id":"16TBC1DKSZ","mentions":["wikipedia://en/48781047#GMZO"],"kind":"definition","name":"genus","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"16TN8Q4D58","mentions":["m2://rec/wikidata/Q20479#1"],"kind":"unknown","name":"Agda","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"16TRXC7W4J","mentions":["wikipedia://en/76765067#1XER"],"kind":"definition","name":"denotation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"16TRXC7W4J","mentions":["wikipedia://en/76765067#1XER"],"kind":"definition","name":"denotation","layer":"textbook","spread":1,"outcome":{"value":"node","target":["R8CGBVEKD5"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node R8CGBVEKD5 has the adopted text"}]}
 {"id":"16TXRQ7FVA","mentions":["wikipedia://en/237213#VRHH"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

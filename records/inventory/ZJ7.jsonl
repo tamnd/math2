@@ -1,4 +1,4 @@
-{"id":"ZJ765GTSR2","mentions":["wikipedia://en/43580500#S3W1"],"kind":"definition","name":"first","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ZJ765GTSR2","mentions":["wikipedia://en/43580500#S3W1"],"kind":"definition","name":"first","layer":"textbook","spread":1,"outcome":{"value":"node","target":["T07RRJ3AHF"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node T07RRJ3AHF has the adopted text"}]}
 {"id":"ZJ779S4AE1","mentions":["wikipedia://en/5195676#EGFH"],"kind":"statement","name":"Extension","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZJ7VV5Q9EP","mentions":["wikipedia://en/47738065#L6Q9"],"kind":"unknown","name":"Charles Smart","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"ZJ7X1HV9ZJ","mentions":["wikipedia://en/30315403#IIQR"],"kind":"unknown","name":"Weierstrass (crater)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

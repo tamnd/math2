@@ -1,5 +1,5 @@
 {"id":"YBK0TKZ6Y7","mentions":["wikipedia://en/64773222"],"kind":"topic","name":"Maria Deijfen","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"YBK72J66AE","mentions":["wikipedia://en/43580500#F25H"],"kind":"definition","name":"supercompact","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"YBK72J66AE","mentions":["wikipedia://en/43580500#F25H"],"kind":"definition","name":"supercompact","layer":"textbook","spread":1,"outcome":{"value":"node","target":["WMS8APTDYF"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node WMS8APTDYF has the adopted text"}]}
 {"id":"YBKJZZYYG5","mentions":["wikipedia://en/3466784"],"kind":"topic","name":"Carl B. Allendoerfer","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YBKKQNFDTT","mentions":["wikipedia://en/2608111#O6ZH"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YBKNDQM799","mentions":["wikipedia://en/3226011#1AAB"],"kind":"unknown","name":"Coadjoint orbit","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

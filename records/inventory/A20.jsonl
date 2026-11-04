@@ -1,4 +1,4 @@
 {"id":"A201QZBK4A","mentions":["wikipedia://en/73475847#UF7H"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"A2058H5B9X","mentions":["wikipedia://en/897558#55PD"],"kind":"statement","name":"Special cases","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"A206G7DXG4","mentions":["wikipedia://en/2390225#0KLD"],"kind":"definition","name":"small","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"A20QZ7ZHD3","mentions":["wikipedia://en/27666612"],"kind":"definition","name":"Meertens number","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"A20QZ7ZHD3","mentions":["wikipedia://en/27666612"],"kind":"definition","name":"Meertens number","layer":"textbook","spread":1,"outcome":{"value":"node","target":["BE52AENGZM"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node BE52AENGZM has the adopted text"}]}

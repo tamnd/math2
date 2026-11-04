@@ -3,4 +3,4 @@
 {"id":"PK7HS9402S","mentions":["m2://rec/napkin/tex/alg-geom/mor-scheme.tex#proof-2#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"PK7P1YE29C","mentions":["wikipedia://en/55799101#6TEV"],"kind":"definition","name":"Brauer","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PK7XWJRTRE","mentions":["wikipedia://en/1594239"],"kind":"statement","name":"Addition principle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"PK7YW03TX0","mentions":["wikipedia://en/73634#LOSR"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"PK7YW03TX0","mentions":["wikipedia://en/73634#LOSR"],"kind":"definition","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has no name of its own, and the write role names it","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}

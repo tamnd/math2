@@ -1,4 +1,4 @@
 {"id":"6NGA5CRPPA","mentions":["wikipedia://en/7837041#R6HH"],"kind":"unknown","name":"Smooth base change","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6NGH2ASY9W","mentions":["wikipedia://en/13200604"],"kind":"definition","name":"Derivator","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"6NGKJJRPDK","mentions":["wikipedia://en/76765067#352S"],"kind":"definition","name":"designated value","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"6NGKJJRPDK","mentions":["wikipedia://en/76765067#352S"],"kind":"definition","name":"designated value","layer":"textbook","spread":1,"outcome":{"value":"node","target":["K6CVH3D7R8"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node K6CVH3D7R8 has the adopted text"}]}
 {"id":"6NGPQZ8JGQ","mentions":["wikipedia://en/329898#7PI6"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

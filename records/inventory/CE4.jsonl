@@ -3,4 +3,4 @@
 {"id":"CE4J51J77V","mentions":["m2://rec/napkin/tex/set-theory/CH.tex#definition-3#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"CE4P4RTVPZ","mentions":["wikipedia://en/41331720"],"kind":"definition","name":"Weyr canonical form","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CE4X9VTNJS","mentions":["m2://rec/wikidata/Q3064117#1","wikipedia://en/149926"],"kind":"definition","name":"face","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"CE4XHG7AFC","mentions":["wikipedia://en/76765067#QWMY"],"kind":"definition","name":"monism","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"CE4XHG7AFC","mentions":["wikipedia://en/76765067#QWMY"],"kind":"definition","name":"monism","layer":"textbook","spread":1,"outcome":{"value":"node","target":["722SJRTN60"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 722SJRTN60 has the adopted text"}]}

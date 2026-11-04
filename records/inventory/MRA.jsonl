@@ -1,2 +1,2 @@
-{"id":"MRADHVQZM9","mentions":["wikipedia://en/43580500#0RHT"],"kind":"definition","name":"regular","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"MRADHVQZM9","mentions":["wikipedia://en/43580500#0RHT"],"kind":"definition","name":"regular","layer":"textbook","spread":1,"outcome":{"value":"node","target":["Q63R275HMY"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node Q63R275HMY has the adopted text"}]}
 {"id":"MRAN7NFP7H","mentions":["wikipedia://en/1042164#97VG"],"kind":"definition","name":"by example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

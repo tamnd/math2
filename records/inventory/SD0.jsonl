@@ -1,4 +1,4 @@
-{"id":"SD02RJE67B","mentions":["wikipedia://en/76765067#L41K"],"kind":"definition","name":"impossibility","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"SD02RJE67B","mentions":["wikipedia://en/76765067#L41K"],"kind":"definition","name":"impossibility","layer":"textbook","spread":1,"outcome":{"value":"node","target":["T2KDPVVYR7"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node T2KDPVVYR7 has the adopted text"}]}
 {"id":"SD04G9BGGB","mentions":["wikipedia://en/45332012#FAEN"],"kind":"definition","name":"Powers of 2","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"SD0A1Y41ZE","mentions":["wikipedia://en/58389748#4BX4"],"kind":"unknown","name":"Alan Turing law","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"SD0KT5QZF7","mentions":["wikipedia://en/9256#YL16"],"kind":"unknown","name":"Enigma Reflector","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

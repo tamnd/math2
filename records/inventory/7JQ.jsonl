@@ -1,3 +1,3 @@
 {"id":"7JQ18NBMC9","mentions":["wikipedia://en/41886487"],"kind":"topic","name":"Eleanor Jones","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"7JQK9JGS4R","mentions":["wikipedia://en/73634#ZU7D"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7JQK9JGS4R","mentions":["wikipedia://en/73634#ZU7D"],"kind":"definition","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has no name of its own, and the write role names it","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"7JQQJ983ZT","mentions":["wikipedia://en/81293264"],"kind":"topic","name":"I. Richard Savage","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

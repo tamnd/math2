@@ -1,4 +1,4 @@
 {"id":"59215JJ56P","mentions":["wikipedia://en/37051625#XOS0"],"kind":"unknown","name":"26950 Legendre","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5928Q536QJ","mentions":["wikipedia://en/47724"],"kind":"topic","name":"Dicaearchus","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"592EDFRX7P","mentions":["wikipedia://en/2960213#YHPZ"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"592QVX0D9Z","mentions":["wikipedia://en/76765067#RIB3"],"kind":"definition","name":"dense","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"592QVX0D9Z","mentions":["wikipedia://en/76765067#RIB3"],"kind":"definition","name":"dense","layer":"textbook","spread":1,"outcome":{"value":"node","target":["9EY7202YHK"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 9EY7202YHK has the adopted text"}]}

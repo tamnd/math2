@@ -1,5 +1,5 @@
 {"id":"CKE5GWQH5D","mentions":["wikipedia://en/9002628#W05P"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CKEF92E24G","mentions":["wikipedia://en/41685609#OTJW"],"kind":"unknown","name":"Stathis Zachos","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"CKESVFC4ZZ","mentions":["m2://rec/lebl_ra/ch-multivar-int.tex#proof-5#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"CKET7W4PJJ","mentions":["wikipedia://en/152207#91J0"],"kind":"statement","name":"Robinson's principle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"CKET7W4PJJ","mentions":["wikipedia://en/152207#91J0"],"kind":"statement","name":"Robinson's principle","layer":"textbook","spread":1,"outcome":{"value":"node","target":["Y5C37JR9RR"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node Y5C37JR9RR has the adopted text"}]}
 {"id":"CKETSEFNJ6","mentions":["wikipedia://en/62908345"],"kind":"topic","name":"Enno Dirksen","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

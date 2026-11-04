@@ -1,4 +1,4 @@
-{"id":"TJC7S6CFPD","mentions":["wikipedia://en/73634#T7I6"],"kind":"definition","name":"bb","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"TJC7S6CFPD","mentions":["wikipedia://en/73634#T7I6"],"kind":"definition","name":"bb","layer":"textbook","spread":1,"outcome":{"value":"node","target":["BS30V2F2JD"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node BS30V2F2JD has the adopted text"}]}
 {"id":"TJCD7NB8YP","mentions":["m2://rec/napkin/tex/set-theory/cardinal.tex#definition-2#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"TJCK22HW9Q","mentions":["wikipedia://en/12087300"],"kind":"definition","name":"Minimum bounding box","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TJCSSNMHRN","mentions":["m2://rec/wikidata/Q3177942#1"],"kind":"unknown","name":"partisan game","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

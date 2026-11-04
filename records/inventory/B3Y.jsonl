@@ -1,5 +1,5 @@
 {"id":"B3Y01XBNW7","mentions":["wikipedia://en/5165246#2KX1"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"B3Y14YNWKN","mentions":["wikipedia://en/7472170#H9F6"],"kind":"unknown","name":"Schröder rules","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"B3Y14YNWKN","mentions":["wikipedia://en/7472170#H9F6"],"kind":"unknown","name":"Schröder rules","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"B3Y17HZS90","mentions":["wikipedia://en/41390065#59QW"],"kind":"example","name":"Example 2","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"B3Y322MVGW","mentions":["wikipedia://en/456050#Z3F1"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"B3YBZF8CBZ","mentions":["wikipedia://en/11395056#9N3Y"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

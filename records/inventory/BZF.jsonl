@@ -1,4 +1,4 @@
 {"id":"BZF0G4XSXS","mentions":["wikipedia://en/30968962"],"kind":"topic","name":"Yadolah Dodge","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BZFA03K05F","mentions":["wikipedia://en/47565351#YNUB"],"kind":"unknown","name":"Five Forks, South Carolina","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"BZFA0N8BR2","mentions":["wikipedia://en/76765067#ZHHG"],"kind":"definition","name":"minimalism","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"BZFA0N8BR2","mentions":["wikipedia://en/76765067#ZHHG"],"kind":"definition","name":"minimalism","layer":"textbook","spread":1,"outcome":{"value":"node","target":["YMMCSB5T88"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node YMMCSB5T88 has the adopted text"}]}
 {"id":"BZFYXXSYG5","mentions":["wikipedia://en/47565351#Q779"],"kind":"unknown","name":"Second Garrotte","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

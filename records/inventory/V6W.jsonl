@@ -3,4 +3,4 @@
 {"id":"V6W4M90S1S","mentions":["wikipedia://en/2771364#U5C4"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"V6WJQAEH3C","mentions":["wikipedia://en/140829#OLRY"],"kind":"unknown","name":"Masuyama, Motosaburo","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"V6WT52EQBV","mentions":["m2://rec/wikidata/Q218341#1"],"kind":"unknown","name":"checksum","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"V6WVK28PRF","mentions":["wikipedia://en/757745#T4XQ"],"kind":"unknown","name":"Network flow","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"V6WVK28PRF","mentions":["wikipedia://en/757745#T4XQ"],"kind":"unknown","name":"Network flow","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}

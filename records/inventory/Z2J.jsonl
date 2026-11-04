@@ -3,4 +3,4 @@
 {"id":"Z2J9SKW6M3","mentions":["wikipedia://en/81850321#6SQE"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Z2JM04QJ7K","mentions":["m2://rec/levin_dmoi/index/5.2.2/root#1"],"kind":"concept","name":"root","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"Z2JP3N2PFH","mentions":["wikipedia://en/740859"],"kind":"definition","name":"HP 38G","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"Z2JWYF3VWR","mentions":["wikipedia://en/76765067#3YLU"],"kind":"definition","name":"dagger","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"Z2JWYF3VWR","mentions":["wikipedia://en/76765067#3YLU"],"kind":"definition","name":"dagger","layer":"textbook","spread":1,"outcome":{"value":"node","target":["K428F8QFF7"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node K428F8QFF7 has the adopted text"}]}

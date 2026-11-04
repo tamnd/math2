@@ -1,4 +1,4 @@
-{"id":"4888WFFRS7","mentions":["wikipedia://en/164226"],"kind":"definition","name":"Name","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4888WFFRS7","mentions":["wikipedia://en/164226"],"kind":"definition","name":"Name","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"488AGY5PNC","mentions":["wikipedia://en/22395202#H2OK"],"kind":"unknown","name":"M-semiring","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"488ER6D4HT","mentions":["wikipedia://en/226505#TV87"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"488KY95RDB","mentions":["wikipedia://en/17354218"],"kind":"topic","name":"Ravindra Khattree","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,4 +1,4 @@
 {"id":"VC11RKNQ4C","mentions":["wikipedia://en/885651#AQA9"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"VC1EXNE43Q","mentions":["wikipedia://en/51507024"],"kind":"topic","name":"Zuhair Nashed","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"VC1MC2E5XH","mentions":["wikipedia://en/57518938"],"kind":"topic","name":"Alexey Leontiev","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"VC1MHTESES","mentions":["wikipedia://en/356213#XHB4"],"kind":"topic","name":"Sergei Adian","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"VC1MHTESES","mentions":["wikipedia://en/356213#XHB4"],"kind":"topic","name":"Sergei Adian","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"a list or a glossary is not a node (WP9.1)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}

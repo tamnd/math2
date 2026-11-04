@@ -1,7 +1,7 @@
 {"id":"A4Y0DTWJJ7","mentions":["wikipedia://en/10092186"],"kind":"definition","name":"Nagata ring","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"A4Y1XVC8KD","mentions":["m2://rec/wikidata/Q54561312#1"],"kind":"concept","name":"well-ordered set","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"A4Y4MZNPAA","mentions":["m2://rec/hott_book/index/7/homotopy-group#1"],"kind":"concept","name":"homotopy, group","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"A4YB0EP26Q","mentions":["wikipedia://en/25438007"],"kind":"definition","name":"Double turnstile","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"A4YB0EP26Q","mentions":["wikipedia://en/25438007"],"kind":"definition","name":"Double turnstile","layer":"textbook","spread":1,"outcome":{"value":"node","target":["GR1M6B5J9C"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node GR1M6B5J9C has the adopted text"}]}
 {"id":"A4YBE8NYDS","mentions":["m2://rec/levin_dmoi/ptx/exercises/intro-sets.ptx#exercise-3#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"A4YQYHNV6M","mentions":["wikipedia://en/38256214#3HZO"],"kind":"definition","name":"Jacobian","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"A4YXPY6946","mentions":["wikipedia://en/59958932#9D30"],"kind":"statement","name":"Variations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

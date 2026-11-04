@@ -1,1 +1,1 @@
-{"id":"5YNE29BYF0","mentions":["wikipedia://en/76765067#NDW3"],"kind":"definition","name":"language","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5YNE29BYF0","mentions":["wikipedia://en/76765067#NDW3"],"kind":"definition","name":"language","layer":"textbook","spread":1,"outcome":{"value":"node","target":["JW9GJVXDKE"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node JW9GJVXDKE has the adopted text"}]}

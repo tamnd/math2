@@ -2,5 +2,5 @@
 {"id":"SHF35DA0SX","mentions":["wikipedia://en/18801624#AN4I"],"kind":"statement","name":"Symmetry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"SHF3FFKEMG","mentions":["wikipedia://en/73342#DNA7"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"SHF4Z1JNW7","mentions":["wikipedia://en/21094724"],"kind":"definition","name":"Top","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"SHFHX965HN","mentions":["wikipedia://en/7859407#XNQR"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"SHFHX965HN","mentions":["wikipedia://en/7859407#XNQR"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue heading names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"SHFX06Z2QB","mentions":["wikipedia://en/14403539#YW3V"],"kind":"unknown","name":"Abdus Salam","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

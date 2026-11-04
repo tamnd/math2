@@ -1,4 +1,4 @@
-{"id":"XE88BGV5X2","mentions":["wikipedia://en/76765067#L8XL"],"kind":"definition","name":"categorical","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"XE88BGV5X2","mentions":["wikipedia://en/76765067#L8XL"],"kind":"definition","name":"categorical","layer":"textbook","spread":1,"outcome":{"value":"node","target":["EGV524BFEF"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node EGV524BFEF has the adopted text"}]}
 {"id":"XE8F4KGFCN","mentions":["wikipedia://en/40611086#QAN1"],"kind":"unknown","name":"HMAC DRBG","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XE8J43ANPM","mentions":["m2://rec/napkin/tex/alg-NT/pell.tex#example-3#1"],"kind":"example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"XE8S5QZEQH","mentions":["wikipedia://en/183091#ELPF"],"kind":"problem","name":"Disk covering problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

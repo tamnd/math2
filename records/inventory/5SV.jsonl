@@ -1,7 +1,7 @@
 {"id":"5SV4KM16B9","mentions":["wikipedia://en/1168363#WKZ4"],"kind":"definition","name":"Square knot (mathematics)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5SV89CVJNC","mentions":["m2://rec/lebl_scv/scv.tex#exercise-155#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"5SVH8K09K2","mentions":["wikipedia://en/22590101#KBKW"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"5SVJH1H6F9","mentions":["wikipedia://en/76765067#IWKG"],"kind":"definition","name":"tonk","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5SVJH1H6F9","mentions":["wikipedia://en/76765067#IWKG"],"kind":"definition","name":"tonk","layer":"textbook","spread":1,"outcome":{"value":"node","target":["QSVQ1KPNBX"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node QSVQ1KPNBX has the adopted text"}]}
 {"id":"5SVQZ30CQJ","mentions":["wikipedia://en/39330817"],"kind":"statement","name":"Weyl's theorem on complete reducibility","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5SVTGA9YVT","mentions":["wikipedia://en/73015882"],"kind":"topic","name":"Margaret Sullivan Pepe","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5SVZWXRP9R","mentions":["wikipedia://en/1926607"],"kind":"definition","name":"Goldman equation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
