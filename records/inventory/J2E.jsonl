@@ -2,6 +2,6 @@
 {"id":"J2E30FBVT5","mentions":["wikipedia://en/30718#S8KC"],"kind":"unknown","name":"Lunar tide","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"J2E7GJDFPD","mentions":["wikipedia://en/1383726"],"kind":"definition","name":"JADE","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"J2EAYXQVQ0","mentions":["wikipedia://en/69075483"],"kind":"topic","name":"Lydia Bieri","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"J2EE004X8T","mentions":["wikipedia://en/74473135"],"kind":"topic","name":"Takao Hayashi","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"J2EE004X8T","mentions":["wikipedia://en/74473135"],"kind":"topic","name":"Takao Hayashi","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag citation-needed (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"J2EE9KPY6K","mentions":["wikipedia://en/1590868"],"kind":"definition","name":"Uniformly connected space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"J2ER7SRPCZ","mentions":["wikipedia://en/78730954#HVX1"],"kind":"unknown","name":"Sahara","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

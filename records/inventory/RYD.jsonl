@@ -1,5 +1,5 @@
 {"id":"RYD1YR65AW","mentions":["wikipedia://en/4870290#LZ5L"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RYD57PSMAK","mentions":["wikipedia://en/2901035"],"kind":"topic","name":"Thomas Galloway","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RYD8NKK2SN","mentions":["wikipedia://en/13890643#YC11"],"kind":"statement","name":"Principle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"RYDN5X875T","mentions":["wikipedia://en/8965926"],"kind":"definition","name":"Sand table","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"RYDN5X875T","mentions":["wikipedia://en/8965926"],"kind":"definition","name":"Sand table","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"RYDYWGYFX9","mentions":["wikipedia://en/12978962"],"kind":"definition","name":"Plane table","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

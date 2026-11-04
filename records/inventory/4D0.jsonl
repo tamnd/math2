@@ -1,2 +1,2 @@
-{"id":"4D0EQZW1VY","mentions":["wikipedia://en/35625607#VVUJ"],"kind":"definition","name":"Gordan","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4D0EQZW1VY","mentions":["wikipedia://en/35625607#VVUJ"],"kind":"definition","name":"Gordan","layer":"textbook","spread":1,"outcome":{"value":"node","target":["6K4B1YPTNW"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 6K4B1YPTNW has the adopted text"}]}
 {"id":"4D0P67CSDQ","mentions":["wikipedia://en/47738065#0XDQ"],"kind":"topic","name":"Stephen W. Semmes","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

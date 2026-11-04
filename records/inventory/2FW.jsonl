@@ -3,7 +3,7 @@
 {"id":"2FWN220JXC","mentions":["wikipedia://en/80495088"],"kind":"topic","name":"Emma Zhang","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2FWN9FHWF1","mentions":["wikipedia://en/62416742"],"kind":"topic","name":"Vladas Sidoravicius","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2FWRDG7A98","mentions":["wikipedia://en/72003352#PKQJ"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"2FWRN6EVFP","mentions":["wikipedia://en/76433728"],"kind":"topic","name":"Deborah Kent","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"2FWRN6EVFP","mentions":["wikipedia://en/76433728"],"kind":"topic","name":"Deborah Kent","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"2FWSJFA2EN","mentions":["wikipedia://en/32743917"],"kind":"topic","name":"Paul Meier","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2FWTQSD7CS","mentions":["wikipedia://en/35367651#O3RD"],"kind":"object","name":"Great icosahedron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"2FWZ1K31C1","mentions":["wikipedia://en/140829#TFZ2"],"kind":"unknown","name":"Roberts, Harry V.","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

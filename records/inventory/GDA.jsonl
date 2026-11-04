@@ -5,5 +5,5 @@
 {"id":"GDAFPD8YEB","mentions":["wikipedia://en/7716518"],"kind":"topic","name":"Richard D. Gill","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GDAJ206JSQ","mentions":["wikipedia://en/73634#HWDF"],"kind":"definition","name":"⟨⟩","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GDAW5ES1ZQ","mentions":["wikipedia://en/52173672"],"kind":"topic","name":"Al-Mubashshir ibn Fatik","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"GDAXZF1CY8","mentions":["wikipedia://en/56546646"],"kind":"topic","name":"Bettye Anne Case","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"GDAXZF1CY8","mentions":["wikipedia://en/56546646"],"kind":"topic","name":"Bettye Anne Case","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"GDAZEZ9WET","mentions":["wikipedia://en/55762#ST26"],"kind":"statement","name":"Liouville's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

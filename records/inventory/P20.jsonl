@@ -1,5 +1,5 @@
 {"id":"P206H4SNKN","mentions":["wikipedia://en/382445#69B7"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"P208SR4PTB","mentions":["wikipedia://en/43075724"],"kind":"topic","name":"Stephanie B. Alexander","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"P2096TAT68","mentions":["wikipedia://en/23705786"],"kind":"topic","name":"Tim Pedley","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"P20D2Y7282","mentions":["wikipedia://en/44787301#FDLE"],"kind":"topic","name":"Axel Thue","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"P20D2Y7282","mentions":["wikipedia://en/44787301#FDLE"],"kind":"topic","name":"Axel Thue","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"a list or a glossary is not a node (WP9.1)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"P20EAC3HZD","mentions":["wikipedia://en/723043#Z0U8"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

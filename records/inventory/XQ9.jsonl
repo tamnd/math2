@@ -2,4 +2,4 @@
 {"id":"XQ94V9BW30","mentions":["wikipedia://en/1068378#5HEV"],"kind":"definition","name":"Terminology","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XQ9NTRPNB2","mentions":["wikipedia://en/411231#GMMG"],"kind":"unknown","name":"Spin(3,1)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XQ9S09ET8M","mentions":["wikipedia://en/591703#D4CJ"],"kind":"statement","name":"Statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"XQ9WDJB795","mentions":["wikipedia://en/35625607#QKDK"],"kind":"definition","name":"Scorza covariant","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"XQ9WDJB795","mentions":["wikipedia://en/35625607#QKDK"],"kind":"definition","name":"Scorza covariant","layer":"textbook","spread":1,"outcome":{"value":"node","target":["8YK3HZ5NAK"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"node 8YK3HZ5NAK has the adopted text"}]}

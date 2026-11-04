@@ -1,4 +1,4 @@
-{"id":"B152SBA3Z9","mentions":["wikipedia://en/30654226#LDAS"],"kind":"unknown","name":"Wu Wenjun","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"B152SBA3Z9","mentions":["wikipedia://en/30654226#LDAS"],"kind":"unknown","name":"Wu Wenjun","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"B15CJQR58H","mentions":["wikipedia://en/7206425"],"kind":"definition","name":"Itô isometry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"B15MBF9WGQ","mentions":["wikipedia://en/18826#4RS0"],"kind":"unknown","name":"MD5 attack","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"B15VKPZKT0","mentions":["wikipedia://en/1339736"],"kind":"topic","name":"Peter Borwein","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
