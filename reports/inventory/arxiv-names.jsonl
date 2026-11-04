@@ -12,6 +12,7 @@
 {"mention":"ax://paper/2204.04317#XLL2","row":"D1QPHQC8EA","target":"72HGRHAVWK","name":"``Existence\""}
 {"mention":"ax://paper/2204.04317#ZJLB","row":"TDYQHM7B7C","target":"PQ3S1JK2PK","name":"``Uniqueness\""}
 {"mention":"ax://paper/2204.09167#OXI3","row":"BK0FGGJPE0","target":"5C5M1AF4X3","name":"Differential Privacy"}
+{"mention":"ax://paper/2204.11187#9UBS","row":"AQ2HWN9J70","target":"A5MKVGRWYT","name":"Liouville's"}
 {"mention":"ax://paper/2211.10178#0HGG","row":"22NEM1HVDZ","target":"D9B89JBZAJ","name":"Grothendieck-Riemann-Roch"}
 {"mention":"ax://paper/2302.04566#4RPU","row":"FRGG5FGF9Y","target":"JM59R1NRJT","name":"Gray"}
 {"mention":"ax://paper/2303.09207#59H3","row":"TJB2RE0YY7","target":"T73FGKEN9R","name":"Sketch"}
@@ -43,6 +44,15 @@
 {"mention":"ax://paper/2606.21391#UKH3","row":"EPWSM11SNC","target":"F1KRAHPTCY","name":"Simplices"}
 {"mention":"ax://paper/2607.25960#6W82","row":"CKAXTA8S1T","target":"4N5CQRYZYD","name":"Spectral invariants"}
 {"mention":"ax://paper/2608.16453#K4Y1","row":"APHDKWZX7S","target":"PZ7FKZA9HH","name":"Fourier slice theorem"}
+{"mention":"ax://paper/2609.14102#WJPH","row":"BNR8K6638G","target":"7VPVTBX5WP","name":"Intersection"}
+{"mention":"ax://paper/2609.14186#GHHN","row":"1ACPJQKAMG","target":"EV9W3K38KD","name":"Persistent Homology"}
+{"mention":"ax://paper/2609.14186#V034","row":"DRHV0CCJKK","target":"WQQRJNDX88","name":"Inclusion Map"}
+{"mention":"ax://paper/2609.14281#BDFX","row":"VPZ3XN14D1","target":"PQV5G5RQWS","name":"Projection lemma"}
+{"mention":"ax://paper/2609.14485#3F4X","row":"XTHXJ0KG71","target":"41WDQ3SBW8","name":"Hanson--Wright Inequality"}
+{"mention":"ax://paper/2609.14688#FZAG","row":"99BRHWSSN1","target":"205CY2M1MM","name":"Lorentz Spaces"}
+{"mention":"ax://paper/2609.15155#P02L","row":"CSQADN6SSF","target":"CPQF2QAHR3","name":"trichotomy"}
+{"mention":"ax://paper/2609.15200#0S8J","row":"J9876ZHNV1","target":"WWPA78XGFN","name":"Characteristic value"}
+{"mention":"ax://paper/2609.15501#AZ5X","row":"3EEW5X18E7","target":"32KNHCE86X","name":"Viscosity solutions"}
 {"mention":"ax://paper/2609.15901#WRTK","row":"7BB8NHQ27E","target":"5TMDMHGK4G","name":"Subgame-Perfect Nash Equilibrium"}
 {"mention":"ax://paper/2609.15937#IQJ7","row":"BDD299YPDS","target":"3TB6MFTAAS","name":"Harmonic average"}
 {"mention":"ax://paper/2609.15937#K2AH","row":"MVJPX27R7G","target":"P9TBKWNGEG","name":"Petersson trace formula"}
