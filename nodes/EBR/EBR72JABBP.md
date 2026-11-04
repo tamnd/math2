@@ -1,5 +1,5 @@
 ---
-tag: ~e57ed637
+tag: EBR72JABBP
 kind: statement
 role: lemma
 name: Solutions of a nonhomogeneous polynomial operator equation

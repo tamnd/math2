@@ -7,7 +7,7 @@ role: theorem
 sources:
 - locator: source/s_recurrence_rigorous.ptx:103
   url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_recurrence_rigorous.ptx#L103
-tag: ~53411bdc
+tag: X2YNES3X3K
 uses:
 - 0BWDJGQYST
 - 0ZV2YKKZ58

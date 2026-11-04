@@ -7,7 +7,7 @@ role: lemma
 sources:
 - locator: source/s_recurrence_rigorous.ptx:152
   url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_recurrence_rigorous.ptx#L152
-tag: ~8d363a98
+tag: AGXA4Q7E5J
 uses:
 - 91QMF4R1CY
 - 0BWDJGQYST

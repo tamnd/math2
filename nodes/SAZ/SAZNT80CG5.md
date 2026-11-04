@@ -1,5 +1,5 @@
 ---
-tag: ~32a4801a
+tag: SAZNT80CG5
 kind: statement
 role: theorem
 name: Probabilistic lower bound for diagonal Ramsey numbers

@@ -7,7 +7,7 @@ role: lemma
 sources:
 - locator: source/s_recurrence_rubots.ptx:40
   url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_recurrence_rubots.ptx#L40
-tag: ~5d6ce47e
+tag: 2WXZAJSBKV
 uses:
 - 01WHD9T0V6
 - 0SJNCJCCQG

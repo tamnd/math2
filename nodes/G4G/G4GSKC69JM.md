@@ -8,7 +8,7 @@ role: theorem
 sources:
 - locator: source/s_recurrence_rubots.ptx:64
   url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_recurrence_rubots.ptx#L64
-tag: ~bded895a
+tag: G4GSKC69JM
 uses:
 - 0PHAC833JF
 - 092DRBFKMG

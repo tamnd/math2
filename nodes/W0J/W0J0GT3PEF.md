@@ -7,7 +7,7 @@ role: theorem
 sources:
 - locator: source/s_strings_permutations.ptx:60
   url: https://github.com/mitchkeller/applied-combinatorics/blob/ebd95d6bd59e23c633c65cf560bcb93efa912aae/source/s_strings_permutations.ptx#L60
-tag: ~a5f50767
+tag: W0J0GT3PEF
 uses:
 - 0N5M924N3P
 - 0X0N833FF8

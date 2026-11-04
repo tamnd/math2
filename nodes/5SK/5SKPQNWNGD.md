@@ -1,5 +1,5 @@
 ---
-tag: ~78470242
+tag: 5SKPQNWNGD
 kind: statement
 role: theorem
 name: Erdős theorem on graphs of large girth and large chromatic number

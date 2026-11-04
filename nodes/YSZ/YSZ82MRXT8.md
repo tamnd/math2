@@ -1,5 +1,5 @@
 ---
-tag: ~56917be3
+tag: YSZ82MRXT8
 kind: statement
 role: theorem
 name: Ramsey's theorem for colourings of s-subsets with several colours
