@@ -388,6 +388,25 @@ sources:
         date: "2026-10-31"
         commit: a8e4949bc45daf100930c1182983778f56ab689f
     resource: Y91XFCEVHQ
+  - id: loc-marc
+    name: Library of Congress, the MARC records of MDSConnect
+    kind: catalogue
+    home: https://www.loc.gov/cds/products/marcDist.php
+    licence: LicenseRef-us-government
+    class: record
+    licence_read:
+      at: https://www.loc.gov/cds/products/marcDist.php
+      "on": "2026-11-04"
+      by: Claude Code, for tamnd
+    authored: human
+    channel: dump
+    attribution: Library of Congress, MDSConnect, https://www.loc.gov/cds/
+    adapter: loc-marc/1
+    approved_by: tamnd
+    snapshots:
+      - url: https://www.loc.gov/cds/products/MDSConnect-books_all.html
+        hash: blake3:ddb373309750dd558c307c1127a0a9d9aa7b548a860796077823180042c4b110
+        date: "2026-11-04"
   - id: mathlib_100
     name: Mathlib, 100 theorems
     kind: curriculum
@@ -561,6 +580,27 @@ sources:
       - url: https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/18.06-spring-2010.zip
         hash: blake3:ab57e74d727dbbb8cc6f30102b1562b267a6d76a54ffa725885e5e4ddfbb57b8
         date: "2026-10-31"
+  - id: openlibrary
+    name: Open Library
+    kind: catalogue
+    home: https://openlibrary.org
+    licence: LicenseRef-unknown
+    class: record
+    licence_read:
+      at: https://openlibrary.org/developers/dumps
+      "on": "2026-11-04"
+      by: Claude Code, for tamnd
+    authored: human
+    channel: dump
+    attribution: Open Library, the Internet Archive, https://openlibrary.org
+    adapter: openlibrary/1
+    approved_by: tamnd
+    snapshots:
+      - url: https://openlibrary.org/data/ol_dump_works_latest.txt.gz
+        hash: blake3:2e8accdda5246337d43efe7bec8a2bfbaffafefda65b3dbf752578d01d9a2935
+        date: "2026-11-04"
+    lineage:
+      - loc-marc
   - id: open_logic
     name: The Open Logic Project
     authors:
@@ -723,6 +763,27 @@ sources:
         hash: blake3:a04b3074e23e9f993b320c93ae493808b7a48eb0650216eafaeed4d1117d8577
         date: "2026-11-02"
         commit: 8e3bf291504cd5ab6683538a211d520699bdcd20
+  - id: zbmath-kg
+    name: zbMATH Open Knowledge Graph
+    kind: catalogue
+    home: https://github.com/zbMATHOpen/zbmath-open-kg
+    licence: CC-BY-SA-4.0
+    class: open
+    licence_read:
+      at: https://zenodo.org/records/21497976
+      "on": "2026-11-04"
+      by: Claude Code, for tamnd
+    authored: human
+    channel: dump
+    attribution: zbMATH Open Knowledge Graph, FIZ Karlsruhe, https://doi.org/10.5281/zenodo.21497975, CC BY-SA 4.0
+    adapter: zbmath-kg/1
+    approved_by: tamnd
+    snapshots:
+      - url: https://zenodo.org/api/records/21497976/files/zbmath-kg-ttl-2026.tar.gz/content
+        hash: blake3:4743f3d271796d6e42ab868f6ebb167774c78503c6f92863f4ffb6243c57fed6
+        date: "2026-11-04"
+    lineage:
+      - zbmath
   - id: zbmath_search
     name: zbMATH Open, the search of documents by title, author and year
     kind: catalogue
@@ -738,6 +799,8 @@ sources:
     attribution: zbMATH Open, FIZ Karlsruhe, https://zbmath.org, CC BY-SA 4.0
     adapter: zbmath_search/1
     approved_by: tamnd
+    lineage:
+      - zbmath
     snapshots:
       - url: m2 res import zbmath_search
         hash: blake3:a8e1c9c763cc4a7cf0816f17b1654f8f6ec07d6faeb609dc93b9b617c8b4e7e4
