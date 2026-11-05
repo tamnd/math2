@@ -1,4 +1,4 @@
-{"id":"TAH2K3V4R6","mentions":["wikipedia://en/542994#DOCJ"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"TAH2K3V4R6","mentions":["wikipedia://en/542994#DOCJ"],"kind":"problem","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue unsolved names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"TAHAPD3R4M","mentions":["wikipedia://en/2297929#8ZK3"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TAHCXYHKZ4","mentions":["wikipedia://en/13328208"],"kind":"definition","name":"Chicago school","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TAHHDPF6NE","mentions":["wikipedia://en/27118759#ZH2T"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

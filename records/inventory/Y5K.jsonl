@@ -1,5 +1,5 @@
 {"id":"Y5K18T1YAR","mentions":["wikipedia://en/26248766#92WU"],"kind":"unknown","name":"Giuseppe Colombo","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Y5K24FAF3N","mentions":["wikipedia://en/53252845#TS4Y"],"kind":"definition","name":"curve sketching","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"Y5K2JR4SFS","mentions":["wikipedia://en/1349294"],"kind":"definition","name":"Bell series","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"Y5K2JR4SFS","mentions":["wikipedia://en/1349294"],"kind":"definition","name":"Bell series","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"Y5KC44RDAD","mentions":["wikipedia://en/6821879#TM2E"],"kind":"unknown","name":"SSE 4.1","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Y5KEF2F3TK","mentions":["wikipedia://en/58753634"],"kind":"definition","name":"Grafana","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

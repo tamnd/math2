@@ -2,6 +2,6 @@
 {"id":"DHWBTT4HSP","mentions":["wikipedia://en/286880#XMVZ"],"kind":"unknown","name":"NUS Business School","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"DHWCKKS8EZ","mentions":["wikipedia://en/47738065#EWVA"],"kind":"unknown","name":"František Rádl","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"DHWDAXCNZJ","mentions":["wikipedia://en/390113#3I3J"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"DHWDMF0863","mentions":["wikipedia://en/509009#ZJI9"],"kind":"statement","name":"Golomb's formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"DHWDMF0863","mentions":["wikipedia://en/509009#ZJI9"],"kind":"statement","name":"Golomb's formula","layer":"textbook","spread":1,"outcome":{"value":"node","target":["M4V5SZTWBY"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"node M4V5SZTWBY has the adopted text"}]}
 {"id":"DHWR1QC7SS","mentions":["wikipedia://en/151013"],"kind":"definition","name":"Time-reversal symmetry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"DHWVCV8ZGY","mentions":["wikipedia://en/5965076"],"kind":"topic","name":"Floyd Williams","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

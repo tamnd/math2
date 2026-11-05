@@ -1,5 +1,5 @@
 {"id":"9JM0N1D821","mentions":["wikipedia://en/1976032"],"kind":"topic","name":"David Kelly","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"9JM2MCX8R8","mentions":["wikipedia://en/35892029"],"kind":"definition","name":"Zimmert set","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9JM2MCX8R8","mentions":["wikipedia://en/35892029"],"kind":"definition","name":"Zimmert set","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"9JMM7PYAWV","mentions":["wikipedia://en/24235330#3AWY"],"kind":"unknown","name":"History of behavioural genetics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9JMQ12NS4C","mentions":["wikipedia://en/14538202"],"kind":"definition","name":"Meronomy","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9JMXTFKZWK","mentions":["wikipedia://en/845318"],"kind":"definition","name":"DRYAD","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

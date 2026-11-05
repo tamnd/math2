@@ -1,4 +1,4 @@
-{"id":"PD4AQHRFGK","mentions":["wikipedia://en/565214#3L05"],"kind":"unknown","name":"7100","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"PD4AQHRFGK","mentions":["wikipedia://en/565214#3L05"],"kind":"unknown","name":"7100","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"PD4HK1HYQN","mentions":["wikipedia://en/9444220"],"kind":"problem","name":"Multiple comparisons problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PD4RF44HCK","mentions":["m2://rec/lebl_ra/ch-seq-ser.tex#exercise-9#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"PD4YHYE1AE","mentions":["wikipedia://en/46343729"],"kind":"topic","name":"C. William Gear","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

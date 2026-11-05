@@ -1,4 +1,4 @@
-{"id":"QMY6ZGCAXE","mentions":["wikipedia://en/490395"],"kind":"definition","name":"2000","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"QMY6ZGCAXE","mentions":["wikipedia://en/490395"],"kind":"definition","name":"2000","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"QMY8X83P0S","mentions":["m2://rec/wikidata/Q101667#1"],"kind":"unknown","name":"hadron","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"QMYD6KBA76","mentions":["wikipedia://en/37532867#HR37"],"kind":"unknown","name":"The Sun","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"QMYPV50TGK","mentions":["wikipedia://en/61387167"],"kind":"definition","name":"Ind-completion","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

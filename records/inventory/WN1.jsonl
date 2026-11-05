@@ -1,4 +1,4 @@
-{"id":"WN1AT05DPD","mentions":["wikipedia://en/49619144"],"kind":"definition","name":"Harmonic Maass form","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"WN1AT05DPD","mentions":["wikipedia://en/49619144"],"kind":"definition","name":"Harmonic Maass form","layer":"textbook","spread":1,"outcome":{"value":"node","target":["98S8GSW682"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"node 98S8GSW682 has the adopted text"}]}
 {"id":"WN1BC9NQW9","mentions":["wikipedia://en/34308675"],"kind":"definition","name":"Common-method variance","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WN1MJVR47S","mentions":["wikipedia://en/47738065#9MJF"],"kind":"topic","name":"Joyce R. McLaughlin","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"WN1ZVQYX17","mentions":["wikipedia://en/58285#6UTK"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

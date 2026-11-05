@@ -1,5 +1,5 @@
 {"id":"TYK015HNWE","mentions":["wikipedia://en/41287104#BRQ3"],"kind":"definition","name":"Constructions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TYK33DTTQJ","mentions":["wikipedia://en/8834492#1IHN"],"kind":"unknown","name":"7-3 rhombille tiling","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TYK4Y9TQM7","mentions":["wikipedia://en/191457#GOHE"],"kind":"definition","name":"Multivariate statistics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"TYK8QNGDQX","mentions":["wikipedia://en/40932180"],"kind":"topic","name":"Hee Oh","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"TYK8QNGDQX","mentions":["wikipedia://en/40932180"],"kind":"topic","name":"Hee Oh","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"TYKH30KQDQ","mentions":["wikipedia://en/54685#XAXG"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

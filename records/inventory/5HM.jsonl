@@ -1,5 +1,5 @@
 {"id":"5HM14ACX76","mentions":["wikipedia://en/3320228"],"kind":"definition","name":"Cipher disk","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"5HM1KBJ202","mentions":["wikipedia://en/449606#07C6"],"kind":"unknown","name":"444 (number)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5HM1KBJ202","mentions":["wikipedia://en/449606#07C6"],"kind":"unknown","name":"444 (number)","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"5HM6771XNQ","mentions":["wikipedia://en/2879918#WESN"],"kind":"definition","name":"Exponential distribution","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5HMS3MPG1A","mentions":["wikipedia://en/76544307#HXJB"],"kind":"statement","name":"Results","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5HMVM0MY49","mentions":["wikipedia://en/74645271"],"kind":"topic","name":"Harry J. Khamis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

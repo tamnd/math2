@@ -1,5 +1,5 @@
 {"id":"EE228XQGRK","mentions":["wikipedia://en/61144542#JPFL"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"EE23JQ2BG3","mentions":["wikipedia://en/449606#DY8V"],"kind":"unknown","name":"422 (number)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"EE23JQ2BG3","mentions":["wikipedia://en/449606#DY8V"],"kind":"unknown","name":"422 (number)","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"EE26HBMTT6","mentions":["wikipedia://en/28795896"],"kind":"definition","name":"Structured derivations","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EE2BW34GYP","mentions":["wikipedia://en/1001490#0ZUD"],"kind":"unknown","name":"Biconjugate","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EE2G4DVRGX","mentions":["wikipedia://en/16540252"],"kind":"topic","name":"Wolfgang Doeblin","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,5 +1,5 @@
 {"id":"Y3K1GTKD5Z","mentions":["wikipedia://en/51140705#J431"],"kind":"topic","name":"Philip Hauser","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"Y3K4V834XH","mentions":["wikipedia://en/463981#0GT8"],"kind":"unknown","name":"544 (number)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"Y3K4V834XH","mentions":["wikipedia://en/463981#0GT8"],"kind":"unknown","name":"544 (number)","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"Y3K8TDWG7R","mentions":["wikipedia://en/1403586#0LA1"],"kind":"unknown","name":"Corey Pavin","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Y3KCKN860V","mentions":["wikipedia://en/77414703#6QB2"],"kind":"definition","name":"primitive","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"Y3KFVABATM","mentions":["wikipedia://en/47738065#U9AM"],"kind":"topic","name":"Hiraku Nakajima","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

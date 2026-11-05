@@ -1,4 +1,4 @@
-{"id":"6Z36ER7RHC","mentions":["wikipedia://en/562998#BY5Q"],"kind":"unknown","name":"3700","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"6Z36ER7RHC","mentions":["wikipedia://en/562998#BY5Q"],"kind":"unknown","name":"3700","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"6Z3BZ7ZF1E","mentions":["wikipedia://en/53018744"],"kind":"topic","name":"Josephine Burns Glasgow","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6Z3KTNAEHD","mentions":["wikipedia://en/23441140#8SXO"],"kind":"unknown","name":"Neuristique","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"6Z3TCZRJNG","mentions":["wikipedia://en/11484689#B9B9"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

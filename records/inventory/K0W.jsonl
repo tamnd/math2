@@ -1,5 +1,5 @@
 {"id":"K0W2720Q4F","mentions":["wikipedia://en/299918#YOOI"],"kind":"unknown","name":"Gaussian","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"K0WB2HW312","mentions":["wikipedia://en/449606#EEP9"],"kind":"unknown","name":"413 (number)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"K0WB2HW312","mentions":["wikipedia://en/449606#EEP9"],"kind":"unknown","name":"413 (number)","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"K0WM84W16J","mentions":["wikipedia://en/47738065#76EV"],"kind":"topic","name":"Deborah Hughes Hallett","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"K0WRMD3YDM","mentions":["wikipedia://en/7903#O8T3"],"kind":"unknown","name":"X3DH","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"K0WSKF088S","mentions":["wikipedia://en/2214847#LNA2"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

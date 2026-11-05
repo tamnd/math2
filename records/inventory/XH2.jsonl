@@ -1,4 +1,4 @@
-{"id":"XH29044DCP","mentions":["wikipedia://en/80262208"],"kind":"definition","name":"Golden field","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"XH29044DCP","mentions":["wikipedia://en/80262208"],"kind":"definition","name":"Golden field","layer":"textbook","spread":1,"outcome":{"value":"node","target":["KNN8QK9CP4"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"node KNN8QK9CP4 has the adopted text"}]}
 {"id":"XH2TW1TPJC","mentions":["wikipedia://en/3269639"],"kind":"problem","name":"Carpenter's rule problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XH2X9THA8A","mentions":["wikipedia://en/2142850#RXHR"],"kind":"definition","name":"bar chart","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XH2Y78H55A","mentions":["m2://rec/napkin/tex/calculus/differentiate.tex#definition-2#1"],"kind":"definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

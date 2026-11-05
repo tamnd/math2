@@ -2,4 +2,4 @@
 {"id":"19PGMBFVJ6","mentions":["wikipedia://en/63664151"],"kind":"topic","name":"Norman Routledge","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"19PRXDV1AW","mentions":["wikipedia://en/197253"],"kind":"definition","name":"Borůvka's algorithm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"19PV2F4YMB","mentions":["wikipedia://en/59038#TV9R"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"19PXF5JEZP","mentions":["wikipedia://en/72520168"],"kind":"definition","name":"Hooley's delta function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"19PXF5JEZP","mentions":["wikipedia://en/72520168"],"kind":"definition","name":"Hooley's delta function","layer":"textbook","spread":1,"outcome":{"value":"node","target":["QVS9S3JNRS"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"node QVS9S3JNRS has the adopted text"}]}

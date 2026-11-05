@@ -1,4 +1,4 @@
-{"id":"SJCVX3AK6Q","mentions":["wikipedia://en/463981#A3W6"],"kind":"unknown","name":"576 (number)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"SJCVX3AK6Q","mentions":["wikipedia://en/463981#A3W6"],"kind":"unknown","name":"576 (number)","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"SJCW0JWW4R","mentions":["wikipedia://en/67856304#3Y5U"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"SJCX23NBK2","mentions":["wikipedia://en/50248508#RWU3"],"kind":"unknown","name":"GRADELA","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"SJCZYBS116","mentions":["wikipedia://en/621447#R61J"],"kind":"unknown","name":"Z-order","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

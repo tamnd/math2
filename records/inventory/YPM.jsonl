@@ -1,6 +1,6 @@
 {"id":"YPM1E7HV7M","mentions":["wikipedia://en/20768715"],"kind":"statement","name":"True quantified Boolean formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YPM6QJ2XE0","mentions":["wikipedia://en/12910#DU8L"],"kind":"unknown","name":"Morphism of sites","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"YPMG9MKYG8","mentions":["wikipedia://en/13259237"],"kind":"definition","name":"Parity of zero","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"YPMG9MKYG8","mentions":["wikipedia://en/13259237"],"kind":"definition","name":"Parity of zero","layer":"textbook","spread":1,"outcome":{"value":"node","target":["HFFN6YCTAB"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"node HFFN6YCTAB has the adopted text"}]}
 {"id":"YPMGHP76QR","mentions":["m2://rec/wikidata/Q7837500#1"],"kind":"unknown","name":"tree-depth","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"YPMJE8D9EF","mentions":["m2://rec/hott_book/hlevels.tex#ex:acnm#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"YPMNE57ETX","mentions":["wikipedia://en/2865024"],"kind":"definition","name":"Linearized gravity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

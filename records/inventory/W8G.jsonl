@@ -3,5 +3,5 @@
 {"id":"W8G5XDZGHZ","mentions":["wikipedia://en/47738065#IQZR"],"kind":"unknown","name":"Robert Bartnik","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"W8GFHZ2TN4","mentions":["wikipedia://en/191457#F1QZ"],"kind":"definition","name":"White test","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"W8GH8T2RG6","mentions":["wikipedia://en/56167324"],"kind":"topic","name":"Eugene P. Northrop","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"W8GNV83DWY","mentions":["wikipedia://en/64749132"],"kind":"topic","name":"Samit Dasgupta","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"W8GNV83DWY","mentions":["wikipedia://en/64749132"],"kind":"topic","name":"Samit Dasgupta","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"W8GQ3EBMJ4","mentions":["wikipedia://en/1117315#86V9"],"kind":"example","name":"Use","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

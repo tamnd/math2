@@ -1,3 +1,3 @@
-{"id":"5B7C5CW2MQ","mentions":["wikipedia://en/39177096"],"kind":"conjecture","name":"Mahler's 3/2 problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5B7C5CW2MQ","mentions":["wikipedia://en/39177096"],"kind":"conjecture","name":"Mahler's 3/2 problem","layer":"textbook","spread":1,"outcome":{"value":"node","target":["A13PHJ1PD8"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"node A13PHJ1PD8 has the adopted text"}]}
 {"id":"5B7P7343SR","mentions":["wikipedia://en/7593"],"kind":"definition","name":"Calculator","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5B7Q3AKKQD","mentions":["wikipedia://en/67667544"],"kind":"topic","name":"Laurel Beckett","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -4,7 +4,7 @@
 {"id":"RKKBXXQJSY","mentions":["wikipedia://en/47738065#F0N8"],"kind":"topic","name":"Maxime Bôcher","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RKKE6ZX62Q","mentions":["wikipedia://en/2009061"],"kind":"definition","name":"Regularization","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RKKNFGV1R9","mentions":["wikipedia://en/47738065#DFW8"],"kind":"unknown","name":"Georges Skandalis","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"RKKSS6ATP8","mentions":["wikipedia://en/8547944#P1Q0"],"kind":"definition","name":"Algorithm","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"RKKSS6ATP8","mentions":["wikipedia://en/8547944#P1Q0"],"kind":"definition","name":"Algorithm","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue heading names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"RKKT5PCD2J","mentions":["wikipedia://en/1986263#CAPY"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RKKWT5AKKH","mentions":["wikipedia://en/7972057"],"kind":"definition","name":"MESH","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"RKKXR8XHS0","mentions":["wikipedia://en/22609470#FVBQ"],"kind":"definition","name":"dimension","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

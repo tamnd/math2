@@ -1,5 +1,5 @@
 {"id":"8FD0C73DCX","mentions":["wikipedia://en/140829#CXTJ"],"kind":"topic","name":"Chaloner, Kathryn","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"8FD0H56RV4","mentions":["wikipedia://en/1421250"],"kind":"topic","name":"Roger Apéry","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"8FD0H56RV4","mentions":["wikipedia://en/1421250"],"kind":"topic","name":"Roger Apéry","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"a list or a glossary is not a node (WP9.1)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"8FD70QPTSF","mentions":["wikipedia://en/303274#ECSC"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"8FDSFG9BNR","mentions":["m2://rec/lebl_scv/scv.tex#exercise-233#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"8FDWTZABDY","mentions":["m2://rec/wikidata/Q402#1"],"kind":"unknown","name":"Higgs boson","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
