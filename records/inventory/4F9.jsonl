@@ -3,7 +3,7 @@
 {"id":"4F9AJCZTF5","mentions":["wikipedia://en/934837#0AH5"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4F9C7V1DBX","mentions":["wikipedia://en/340772"],"kind":"definition","name":"Bernstein v. United States","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4F9HB0DBJ6","mentions":["m2://rec/wikidata/Q1340800#1","wikipedia://en/9569"],"kind":"definition","name":"endomorphism","layer":"textbook","spread":2,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"4F9HGM6G69","mentions":["wikipedia://en/27210822"],"kind":"topic","name":"Michel Broué","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4F9HGM6G69","mentions":["wikipedia://en/27210822"],"kind":"topic","name":"Michel Broué","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-04","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"4F9QFZYHES","mentions":["wikipedia://en/79730469"],"kind":"topic","name":"Valerio Lucarini","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4F9QMYKM5M","mentions":["wikipedia://en/511379#E812"],"kind":"unknown","name":"RSA-100","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4F9XGGF3TK","mentions":["wikipedia://en/7088#JVVC"],"kind":"topic","name":"Oded Regev","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
