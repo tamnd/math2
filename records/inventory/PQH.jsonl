@@ -1,5 +1,5 @@
 {"id":"PQH7YDJVJ3","mentions":["m2://rec/wikidata/Q124247078#1"],"kind":"definition","name":"vertex set","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
-{"id":"PQH98CF8GD","mentions":["wikipedia://en/54434627"],"kind":"topic","name":"Eric Katz","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"PQH98CF8GD","mentions":["wikipedia://en/54434627"],"kind":"topic","name":"Eric Katz","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"PQHEZQQFEV","mentions":["wikipedia://en/225192#4YLY"],"kind":"definition","name":"Definition 4","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PQHPEA5RJP","mentions":["wikipedia://en/182249#818Z"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PQHS7SBKZH","mentions":["wikipedia://en/10375#V2E5"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

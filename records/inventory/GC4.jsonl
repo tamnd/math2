@@ -3,4 +3,4 @@
 {"id":"GC4GE3RPDV","mentions":["wikipedia://en/52828819"],"kind":"topic","name":"Ledger","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"GC4M1PJFDH","mentions":["m2://rec/wikidata/Q11570#1"],"kind":"definition","name":"kilogram","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"GC4QPR8F2C","mentions":["wikipedia://en/63828316"],"kind":"topic","name":"Sherry Towers","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"GC4XH5GT0B","mentions":["wikipedia://en/7204992#4IFS"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"GC4XH5GT0B","mentions":["wikipedia://en/7204992#4IFS"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue heading names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}

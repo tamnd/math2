@@ -1,5 +1,5 @@
 {"id":"4913C0DTZZ","mentions":["m2://rec/lebl_scv/scv.tex#exercise-116#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"491D8D08MJ","mentions":["wikipedia://en/23560713#P3J1"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"491D8D08MJ","mentions":["wikipedia://en/23560713#P3J1"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue heading names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"491ESB3FCM","mentions":["wikipedia://en/9390507"],"kind":"definition","name":"Windkessel effect","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"491HAZZMB0","mentions":["wikipedia://en/33328430"],"kind":"definition","name":"Duality gap","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"491RZV4F5T","mentions":["wikipedia://en/44112540"],"kind":"topic","name":"Rachel Kuske","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
