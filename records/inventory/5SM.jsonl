@@ -1,5 +1,5 @@
 {"id":"5SM0SFATQN","mentions":["wikipedia://en/48334698"],"kind":"topic","name":"Antti Kupiainen","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5SM6RG8WE5","mentions":["wikipedia://en/62481104"],"kind":"topic","name":"Casey Mann","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5SM8F9C5Z9","mentions":["wikipedia://en/56497556"],"kind":"topic","name":"Sergei Stepanov","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"5SMK8RFE53","mentions":["wikipedia://en/69611898#Y0K0"],"kind":"statement","name":"Variants","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5SMK8RFE53","mentions":["wikipedia://en/69611898#Y0K0"],"kind":"statement","name":"Variants","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue heading names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"5SMQ5AN6MF","mentions":["m2://rec/wikidata/Q1963352#1"],"kind":"unknown","name":"Lucas cubic","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

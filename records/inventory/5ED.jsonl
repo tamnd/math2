@@ -1,6 +1,6 @@
 {"id":"5ED633GNZA","mentions":["wikipedia://en/24609727#6B0U"],"kind":"statement","name":"Formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5ED6TP1EHA","mentions":["wikipedia://en/25608560"],"kind":"definition","name":"QIP","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"5ED8WKRS72","mentions":["wikipedia://en/14263#D943"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5ED8WKRS72","mentions":["wikipedia://en/14263#D943"],"kind":"example","name":"Example","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue heading names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"5EDD6S3PKS","mentions":["wikipedia://en/427826#RA8D"],"kind":"unknown","name":"Watershed transform","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5EDEP815MV","mentions":["wikipedia://en/83450328"],"kind":"definition","name":"Gelbach decomposition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5EDKZ2TCA5","mentions":["m2://rec/austin_ula/src/section6-3.xml#activity-2#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

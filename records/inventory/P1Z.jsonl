@@ -1,6 +1,6 @@
 {"id":"P1ZHCK61DG","mentions":["wikipedia://en/59858545"],"kind":"topic","name":"Harold Weitzner","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"P1ZK8PYX1Y","mentions":["wikipedia://en/47565351#3ZUG"],"kind":"unknown","name":"Bithynia Prima","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"P1ZMS0CDYA","mentions":["wikipedia://en/144652#EJ08"],"kind":"statement","name":"Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"P1ZP1YFQYB","mentions":["wikipedia://en/59217#MSS7"],"kind":"unknown","name":"Citardauq","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"P1ZP1YFQYB","mentions":["wikipedia://en/59217#MSS7"],"kind":"unknown","name":"Citardauq","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"P1ZS2347JZ","mentions":["wikipedia://en/11195740"],"kind":"definition","name":"Census in Egypt","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"P1ZZ8YC6SN","mentions":["wikipedia://en/41575363"],"kind":"definition","name":"Spherical contact distribution function","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
