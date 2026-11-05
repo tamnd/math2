@@ -2,7 +2,7 @@
 {"id":"BRA523AS3Z","mentions":["wikipedia://en/1191101#1TLO"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BRA55KGYA9","mentions":["wikipedia://en/47436#4M5R"],"kind":"unknown","name":"Chart (topology)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BRA68B00HT","mentions":["wikipedia://en/57242824#RKDT"],"kind":"unknown","name":"Franz Woepcke","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"BRA6VFF96Z","mentions":["wikipedia://en/38256214#HUFL"],"kind":"definition","name":"coprime","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"BRA6VFF96Z","mentions":["wikipedia://en/38256214#HUFL"],"kind":"definition","name":"coprime","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has its own article, page 6556","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"BRA74JVQQ0","mentions":["wikipedia://en/491578#5NF3"],"kind":"unknown","name":"Fake past","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BRAFMMMR49","mentions":["wikipedia://en/41717785#5GXY"],"kind":"statement","name":"Open Mapping Theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"BRAYDRNT5Z","mentions":["wikipedia://en/59328485#KTT6"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

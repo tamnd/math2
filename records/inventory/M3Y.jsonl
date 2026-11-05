@@ -1,3 +1,3 @@
 {"id":"M3YGRGFPCT","mentions":["m2://rec/lebl_scv/scv.tex#thm-34#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"M3YKVTD20Q","mentions":["wikipedia://en/38256214#N1SA"],"kind":"definition","name":"Pic","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"M3YKVTD20Q","mentions":["wikipedia://en/38256214#N1SA"],"kind":"definition","name":"Pic","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the block of the item has no text","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"M3YVB74855","mentions":["wikipedia://en/293432#N7YY"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
