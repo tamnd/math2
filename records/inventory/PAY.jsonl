@@ -1,4 +1,4 @@
-{"id":"PAY2V30SNC","mentions":["wikipedia://en/2380117"],"kind":"definition","name":"Rational normal curve","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"PAY2V30SNC","mentions":["wikipedia://en/2380117"],"kind":"definition","name":"Rational normal curve","layer":"textbook","spread":1,"outcome":{"value":"node","target":["KN8M19JKPG"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"node KN8M19JKPG has the adopted text"}]}
 {"id":"PAYBXDJ1TY","mentions":["wikipedia://en/2515349#5C3E"],"kind":"definition","name":"Formulation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PAYC4D814J","mentions":["wikipedia://en/12830119#95N0"],"kind":"definition","name":"Cleaver (geometry)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"PAYCP11FE5","mentions":["wikipedia://en/4023286"],"kind":"definition","name":"Rectified tesseract","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

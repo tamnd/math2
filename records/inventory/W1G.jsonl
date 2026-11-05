@@ -1,7 +1,7 @@
 {"id":"W1G8VVWP6G","mentions":["m2://rec/wikidata/Q87524447#1"],"kind":"unknown","name":"∓","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"W1GCF053GD","mentions":["m2://rec/lebl_ra/ch-seq-ser.tex#exercise-63#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"W1GJCP2GXP","mentions":["wikipedia://en/77413388"],"kind":"definition","name":"Department of Economic Planning and Statistics","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"W1GKFDFHS5","mentions":["wikipedia://en/35457783#IE4K"],"kind":"definition","name":"artinian","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"W1GKFDFHS5","mentions":["wikipedia://en/35457783#IE4K"],"kind":"definition","name":"artinian","layer":"textbook","spread":1,"outcome":{"value":"node","target":["VJVW7N2QJ1"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"node VJVW7N2QJ1 has the adopted text"}]}
 {"id":"W1GVM7KZ68","mentions":["wikipedia://en/1403586#Y7IQ"],"kind":"unknown","name":"Tommy Prothro","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"W1GWA8H3YA","mentions":["wikipedia://en/51140705#L4ML"],"kind":"unknown","name":"Henri Theil","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"W1GZ4YYZAG","mentions":["wikipedia://en/47738065#QW2J"],"kind":"topic","name":"A. A. Karacuba","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

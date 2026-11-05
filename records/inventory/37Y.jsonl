@@ -1,6 +1,6 @@
 {"id":"37Y2FYNKFW","mentions":["wikipedia://en/35632225#FE0L"],"kind":"definition","name":"Almagest","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"37Y2PPNS7Z","mentions":["wikipedia://en/171882#APRI"],"kind":"statement","name":"Beltrami's identity","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"37YBMCSWQR","mentions":["wikipedia://en/51140705#VM1Q"],"kind":"topic","name":"Karl G. Jöreskog","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"37YCTY547V","mentions":["wikipedia://en/37291#3O35"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"37YCTY547V","mentions":["wikipedia://en/37291#3O35"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue heading names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"37YJGK6QJ8","mentions":["wikipedia://en/1699626#IJKW"],"kind":"statement","name":"Facts","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"37YST6HRDD","mentions":["wikipedia://en/47738065#9VMK"],"kind":"topic","name":"Richard Karp","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -2,5 +2,5 @@
 {"id":"W2F1YY81PD","mentions":["wikipedia://en/698010#IALR"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"W2F98Z02WM","mentions":["wikipedia://en/60771035"],"kind":"object","name":"3-4-3-12 tiling","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"W2FE9CPF2V","mentions":["m2://rec/lebl_ra/ch-approximate.tex#exercise-53#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"W2FQH41YVJ","mentions":["wikipedia://en/5204204#MF7F"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"W2FQH41YVJ","mentions":["wikipedia://en/5204204#MF7F"],"kind":"example","name":"Example","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue heading names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"W2FW6MCYR4","mentions":["m2://rec/lebl_scv/scv.tex#exercise-174#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

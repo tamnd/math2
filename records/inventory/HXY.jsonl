@@ -1,2 +1,2 @@
-{"id":"HXYA1FSYPA","mentions":["wikipedia://en/35326250#XPGL"],"kind":"definition","name":"unipartite","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"HXYA1FSYPA","mentions":["wikipedia://en/35326250#XPGL"],"kind":"definition","name":"unipartite","layer":"textbook","spread":1,"outcome":{"value":"node","target":["F2BNWS5HBJ"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"node F2BNWS5HBJ has the adopted text"}]}
 {"id":"HXYMQ8796N","mentions":["m2://rec/wikidata/Q9128#1"],"kind":"unknown","name":"light","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

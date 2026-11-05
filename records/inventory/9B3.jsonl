@@ -1,5 +1,5 @@
 {"id":"9B38MNEGBN","mentions":["wikipedia://en/63928099"],"kind":"topic","name":"Lori E. Dodd","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9B3EDGCAPP","mentions":["wikipedia://en/7469547#5COQ"],"kind":"statement","name":"Extensions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"9B3F7B4HB6","mentions":["wikipedia://en/26392#T1P5"],"kind":"statement","name":"Variants","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"9B3HR8PMAY","mentions":["wikipedia://en/35326250#MHSB"],"kind":"definition","name":"self-conjugate","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"9B3HR8PMAY","mentions":["wikipedia://en/35326250#MHSB"],"kind":"definition","name":"self-conjugate","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the block of the item has no text","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"9B3YD07574","mentions":["m2://rec/hott_book/logic.tex#thm:not-lem#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

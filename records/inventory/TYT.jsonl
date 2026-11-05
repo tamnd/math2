@@ -1,4 +1,4 @@
-{"id":"TYT21BVMT9","mentions":["wikipedia://en/41139312"],"kind":"definition","name":"GIT quotient","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"TYT21BVMT9","mentions":["wikipedia://en/41139312"],"kind":"definition","name":"GIT quotient","layer":"textbook","spread":1,"outcome":{"value":"node","target":["G8VV73KFX3"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"node G8VV73KFX3 has the adopted text"}]}
 {"id":"TYT9CBZDNN","mentions":["wikipedia://en/57242824#ZJ0J"],"kind":"topic","name":"Eduard Heine","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TYT9RP6M24","mentions":["wikipedia://en/70611641"],"kind":"topic","name":"Cohl Furey","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TYTQQ7J8F0","mentions":["wikipedia://en/179924#BVSX"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

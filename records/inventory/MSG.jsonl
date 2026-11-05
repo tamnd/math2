@@ -1,6 +1,6 @@
 {"id":"MSG1RP7VPZ","mentions":["m2://rec/levin_dmoi/ptx/sec_gt-trees.ptx#proof-1#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"MSG6WFE8H8","mentions":["wikipedia://en/523879#XHAC"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"MSGF5ZYBX2","mentions":["wikipedia://en/23214145"],"kind":"definition","name":"Conic bundle","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"MSGF5ZYBX2","mentions":["wikipedia://en/23214145"],"kind":"definition","name":"Conic bundle","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"MSGSM9GZ2E","mentions":["wikipedia://en/47738065#9O8I"],"kind":"topic","name":"A. Huber","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MSGT9F801G","mentions":["wikipedia://en/17517168#JZCN"],"kind":"statement","name":"Third principle: coupling","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"MSGVAMQH0T","mentions":["m2://rec/hott_book/hits.tex#proof-15#1"],"kind":"proof","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

@@ -1,2 +1,2 @@
-{"id":"ZFG4ZE3W8E","mentions":["wikipedia://en/35326250#UPC2"],"kind":"definition","name":"valency","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"ZFG4ZE3W8E","mentions":["wikipedia://en/35326250#UPC2"],"kind":"definition","name":"valency","layer":"textbook","spread":1,"outcome":{"value":"node","target":["AMEV069DGV"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"node AMEV069DGV has the adopted text"}]}
 {"id":"ZFGF01W7HY","mentions":["wikipedia://en/75503397#102I"],"kind":"unknown","name":"Blog","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

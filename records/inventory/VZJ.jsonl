@@ -1,4 +1,4 @@
 {"id":"VZJ70GA07C","mentions":["wikipedia://en/2741037#YDYU"],"kind":"statement","name":"Yoneda's lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"VZJCFB2H3N","mentions":["wikipedia://en/40964822"],"kind":"topic","name":"Peter McMullen","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"VZJHF88WRH","mentions":["wikipedia://en/1403586#ON5M"],"kind":"unknown","name":"Valerie Matsumoto","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"VZJSDCB931","mentions":["wikipedia://en/50534018"],"kind":"definition","name":"Chow group of a stack","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"VZJSDCB931","mentions":["wikipedia://en/50534018"],"kind":"definition","name":"Chow group of a stack","layer":"textbook","spread":1,"outcome":{"value":"node","target":["T0JH87HKAM"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"node T0JH87HKAM has the adopted text"}]}
