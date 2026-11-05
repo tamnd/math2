@@ -1,6 +1,6 @@
 {"id":"4AS4MF40S4","mentions":["wikipedia://en/685158#LN1A"],"kind":"statement","name":"Discovery of the lemma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4AS9WJH8W3","mentions":["wikipedia://en/1617601#UKPX"],"kind":"unknown","name":"CSplash","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"4ASFFTS9T3","mentions":["wikipedia://en/350164#6LBM"],"kind":"unknown","name":"Farey sunburst","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"4ASFFTS9T3","mentions":["wikipedia://en/350164#6LBM"],"kind":"unknown","name":"Farey sunburst","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"4ASG8B6JBW","mentions":["wikipedia://en/10166261"],"kind":"topic","name":"Daya-Nand Verma","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4ASK8BYKB7","mentions":["wikipedia://en/4415208#GP0S"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"4ASZDNXGF4","mentions":["wikipedia://en/3734008"],"kind":"topic","name":"Giuseppe Lauricella","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

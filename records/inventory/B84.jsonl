@@ -1,5 +1,5 @@
 {"id":"B84E5J6YDC","mentions":["wikipedia://en/77414703#YPHM"],"kind":"definition","name":"integrable","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"B84G2W7DVR","mentions":["wikipedia://en/73488171#0JOO"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"B84GCGPT3N","mentions":["wikipedia://en/24628685"],"kind":"definition","name":"Connection","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"B84ME0EGPH","mentions":["wikipedia://en/11301521#O3WS"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"B84ME0EGPH","mentions":["wikipedia://en/11301521#O3WS"],"kind":"problem","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue unsolved names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"B84RRJRVWT","mentions":["wikipedia://en/18863206#5LPC"],"kind":"definition","name":"Notation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

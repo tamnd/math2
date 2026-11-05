@@ -2,4 +2,4 @@
 {"id":"NYA8PR9YBG","mentions":["wikipedia://en/3793084#QYN3"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NYA9763B4D","mentions":["wikipedia://en/34935909"],"kind":"topic","name":"Aldo Andreotti","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NYAPD1MC9B","mentions":["m2://rec/lebl_ra/ch-approximate.tex#exercise:trigpolydense#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
-{"id":"NYAPNAFYT7","mentions":["wikipedia://en/1967197#O20Z"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NYAPNAFYT7","mentions":["wikipedia://en/1967197#O20Z"],"kind":"problem","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue unsolved names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}

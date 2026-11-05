@@ -1,4 +1,4 @@
-{"id":"X4RB6GHFNC","mentions":["wikipedia://en/52460702"],"kind":"topic","name":"Xinwen Zhu","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"X4RB6GHFNC","mentions":["wikipedia://en/52460702"],"kind":"topic","name":"Xinwen Zhu","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"X4RH0H01WM","mentions":["wikipedia://en/41062485"],"kind":"topic","name":"Ramón Verea","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"X4RND9CR7T","mentions":["m2://rec/hott_book/index/6.2/set#1"],"kind":"concept","name":"set","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"X4RRHKB2QV","mentions":["wikipedia://en/365026#I193"],"kind":"example","name":"Applications","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

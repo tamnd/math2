@@ -1,4 +1,4 @@
-{"id":"YJZ039V0GB","mentions":["wikipedia://en/1158496#D4ED"],"kind":"topic","name":"Pranab K. Sen","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"YJZ039V0GB","mentions":["wikipedia://en/1158496#D4ED"],"kind":"topic","name":"Pranab K. Sen","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"a list or a glossary is not a node (WP9.1)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"YJZ1P4TVQ1","mentions":["wikipedia://en/51068997"],"kind":"topic","name":"Mimi Kim","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YJZ546H06G","mentions":["wikipedia://en/39352#W9ZW"],"kind":"unknown","name":"KSD-64","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YJZDZEPMZR","mentions":["wikipedia://en/329549#YAKF"],"kind":"statement","name":"Area formula","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,6 +1,6 @@
 {"id":"XJ37K8QEHQ","mentions":["wikipedia://en/8738566"],"kind":"statement","name":"Etemadi's inequality","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XJ3FRKTDWZ","mentions":["wikipedia://en/16305705"],"kind":"definition","name":"Milnor–Thurston kneading theory","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"XJ3P0PH7B1","mentions":["wikipedia://en/6006062#NN8Q"],"kind":"statement","name":"Cassels' conjecture","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"XJ3P0PH7B1","mentions":["wikipedia://en/6006062#NN8Q"],"kind":"statement","name":"Cassels' conjecture","layer":"textbook","spread":1,"outcome":{"value":"node","target":["BQ7VJH7AA8"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"node BQ7VJH7AA8 has the adopted text"}]}
 {"id":"XJ3TGNZ8ET","mentions":["m2://rec/napkin/tex/calculus/integrate.tex#problem-1#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"XJ3VTF7G80","mentions":["wikipedia://en/31143787"],"kind":"topic","name":"S. G. Dani","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"XJ3YYKXQQY","mentions":["wikipedia://en/47738065#PFXZ"],"kind":"topic","name":"Fujiwara Matsusaburo","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -2,4 +2,4 @@
 {"id":"7TN3GPNJQ7","mentions":["wikipedia://en/6239"],"kind":"definition","name":"Contraction mapping","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7TNENVF9Q3","mentions":["m2://rec/lebl_diffyqs/ch-power-ser.tex#exercise-28#1"],"kind":"exercise","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}
 {"id":"7TNNEHWQPE","mentions":["wikipedia://en/250436"],"kind":"definition","name":"Simultaneous equations model","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"7TNTHZYGRK","mentions":["wikipedia://en/323651#E398"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7TNTHZYGRK","mentions":["wikipedia://en/323651#E398"],"kind":"problem","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue unsolved names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}

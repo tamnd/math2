@@ -1,4 +1,4 @@
-{"id":"5MQ8JNX0GN","mentions":["wikipedia://en/473915#CS8L"],"kind":"unknown","name":"921 (number)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"5MQ8JNX0GN","mentions":["wikipedia://en/473915#CS8L"],"kind":"unknown","name":"921 (number)","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"5MQG7JY022","mentions":["m2://rec/wikidata/Q7512415#1"],"kind":"unknown","name":"sigma model","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}
 {"id":"5MQNDWEP94","mentions":["wikipedia://en/42287126#069D"],"kind":"definition","name":"Construction","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"5MQTTJ73BB","mentions":["m2://rec/lebl_scv/scv.tex#thm-33#1"],"kind":"statement","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-01","by":"m2/v0.6.13"}]}

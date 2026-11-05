@@ -1,4 +1,4 @@
 {"id":"N613GSZTPA","mentions":["wikipedia://en/709375"],"kind":"topic","name":"Lars Knudsen","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"N617QES5JC","mentions":["wikipedia://en/17174687"],"kind":"definition","name":"ABC@Home","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"N617QES5JC","mentions":["wikipedia://en/17174687"],"kind":"definition","name":"ABC@Home","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"N617TP0WPJ","mentions":["wikipedia://en/50955704"],"kind":"topic","name":"Daniel Lightwing","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"N61W937NKJ","mentions":["wikipedia://en/339396#TTBR"],"kind":"definition","name":"Interval","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

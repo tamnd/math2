@@ -1,5 +1,5 @@
 {"id":"YKT53WB8NB","mentions":["wikipedia://en/47738065#F1C5"],"kind":"topic","name":"Wolfgang Haken","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YKTBMZXEMP","mentions":["wikipedia://en/9986270#GQU3"],"kind":"unknown","name":"W5 clock","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"YKTGW4KH1M","mentions":["wikipedia://en/77416429#ZZWL"],"kind":"definition","name":"Dedekind","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"YKTGW4KH1M","mentions":["wikipedia://en/77416429#ZZWL"],"kind":"definition","name":"Dedekind","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has its own article, page 23475106","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"YKTTV52AFS","mentions":["wikipedia://en/2740708#8EJ8"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"YKTYFN3PWN","mentions":["wikipedia://en/11353703#PV85"],"kind":"topic","name":"Zvi Arad","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

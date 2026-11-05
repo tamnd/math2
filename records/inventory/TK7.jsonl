@@ -1,4 +1,4 @@
 {"id":"TK71R0TFDT","mentions":["wikipedia://en/3696313#IUF1"],"kind":"definition","name":"Formulation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"TK77012N8S","mentions":["wikipedia://en/27254464"],"kind":"topic","name":"Jens Franke","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"TK77012N8S","mentions":["wikipedia://en/27254464"],"kind":"topic","name":"Jens Franke","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"TK7CN9HWRT","mentions":["wikipedia://en/502022"],"kind":"definition","name":"Rejection sampling","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"TK7JKC73CW","mentions":["wikipedia://en/63698698"],"kind":"topic","name":"Ewa Damek","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

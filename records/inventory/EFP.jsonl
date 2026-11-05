@@ -1,5 +1,5 @@
 {"id":"EFPBD4Z9NC","mentions":["wikipedia://en/293606"],"kind":"definition","name":"Graph paper","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EFPD4C84MA","mentions":["wikipedia://en/8378107"],"kind":"definition","name":"Simon model","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"EFPD7PW3PE","mentions":["wikipedia://en/505225#QDIJ"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"EFPKHADD6N","mentions":["wikipedia://en/39227817"],"kind":"definition","name":"Quaternionic structure","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"EFPKHADD6N","mentions":["wikipedia://en/39227817"],"kind":"definition","name":"Quaternionic structure","layer":"textbook","spread":1,"outcome":{"value":"node","target":["N8WJH8SQTR"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"node N8WJH8SQTR has the adopted text"}]}
 {"id":"EFPTB84XM2","mentions":["wikipedia://en/79735921#LMJ9"],"kind":"example","name":"Example","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,4 +1,4 @@
 {"id":"NBYAN07Z35","mentions":["wikipedia://en/191457#5H3U"],"kind":"statement","name":"Lotka's law","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"NBYE3T9EZ0","mentions":["wikipedia://en/62769759#K023"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"NBYE3T9EZ0","mentions":["wikipedia://en/62769759#K023"],"kind":"problem","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue unsolved names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"NBYSN4TE02","mentions":["wikipedia://en/47565351#H1EG"],"kind":"unknown","name":"Pumsaint","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"NBYT5D4SKM","mentions":["wikipedia://en/48781047#T9TI"],"kind":"definition","name":"Hopf","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

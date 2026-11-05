@@ -1,6 +1,6 @@
 {"id":"T9M3KJ46SW","mentions":["wikipedia://en/47565351#KK37"],"kind":"unknown","name":"Three Sisters Point","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"T9M7ZKMWKM","mentions":["wikipedia://en/3117270#MA7D"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"T9MGJDF2ZR","mentions":["wikipedia://en/56629969"],"kind":"topic","name":"Ionica Smeets","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"T9MGJDF2ZR","mentions":["wikipedia://en/56629969"],"kind":"topic","name":"Ionica Smeets","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"T9MK83W296","mentions":["wikipedia://en/8810651#01HI"],"kind":"unknown","name":"Quasiregular honeycomb","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"T9MPX0FVAV","mentions":["wikipedia://en/55987536"],"kind":"topic","name":"Onorato Nicoletti","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"T9MTNMQBEA","mentions":["wikipedia://en/26811956"],"kind":"conjecture","name":"Solving chess","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

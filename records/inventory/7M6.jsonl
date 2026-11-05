@@ -1,5 +1,5 @@
 {"id":"7M64MESS43","mentions":["wikipedia://en/33647361#KCY1"],"kind":"unknown","name":"British Tunny","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7M6DKV6M03","mentions":["wikipedia://en/83096325"],"kind":"topic","name":"Marilyn Carlson","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"7M6JB268GK","mentions":["wikipedia://en/39479320#0J6M"],"kind":"unknown","name":"Hecke ring","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7M6JB268GK","mentions":["wikipedia://en/39479320#0J6M"],"kind":"unknown","name":"Hecke ring","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"7M6QAP2T59","mentions":["wikipedia://en/35331883#Q6KT"],"kind":"statement","name":"Properties","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7M6REFR83G","mentions":["m2://rec/wikidata/Q1303223#1"],"kind":"unknown","name":"eigenspace","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

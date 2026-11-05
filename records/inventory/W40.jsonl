@@ -1,3 +1,3 @@
 {"id":"W405R7VERG","mentions":["wikipedia://en/16794199#YC2V"],"kind":"definition","name":"Formulation","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"W40CHMQQW1","mentions":["wikipedia://en/232526#P0Y0"],"kind":"statement","name":"Sylvester's theorem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"W40CHMQQW1","mentions":["wikipedia://en/232526#P0Y0"],"kind":"statement","name":"Sylvester's theorem","layer":"textbook","spread":1,"outcome":{"value":"node","target":["920M6ZWE06"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"node 920M6ZWE06 has the adopted text"}]}
 {"id":"W40VA2R8XY","mentions":["wikipedia://en/7335429#KTSP"],"kind":"definition","name":"Definition","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

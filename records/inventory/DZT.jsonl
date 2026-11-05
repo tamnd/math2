@@ -1,4 +1,4 @@
 {"id":"DZTHV9ERM4","mentions":["wikipedia://en/263886#Y07V"],"kind":"unknown","name":"Bidifferential operator","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"DZTTNGFJZE","mentions":["wikipedia://en/51472565"],"kind":"topic","name":"Barnabé Brisson","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"DZTWZEG6F4","mentions":["wikipedia://en/31431018"],"kind":"topic","name":"Giovanni Battista Rizza","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"DZTYQG1R2Q","mentions":["wikipedia://en/18805747"],"kind":"definition","name":"4,294,967,295","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"DZTYQG1R2Q","mentions":["wikipedia://en/18805747"],"kind":"definition","name":"4,294,967,295","layer":"textbook","spread":1,"outcome":{"value":"node","target":["GDE4QMR6WZ"],"rule":"wikipedia-node","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"node GDE4QMR6WZ has the adopted text"}]}

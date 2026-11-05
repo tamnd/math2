@@ -1,3 +1,3 @@
-{"id":"7BB5HW905H","mentions":["wikipedia://en/491570"],"kind":"topic","name":"John Pell","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"7BB5HW905H","mentions":["wikipedia://en/491570"],"kind":"topic","name":"John Pell","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the item has the flag informal (WP9.2)","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"7BBCT3W5M6","mentions":["wikipedia://en/38256214#RF96"],"kind":"definition","name":"analytically","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"7BBSXH1P92","mentions":["m2://rec/wikidata/Q54264955#1"],"kind":"unknown","name":"addend","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-10-26","by":"m2/dev"}]}

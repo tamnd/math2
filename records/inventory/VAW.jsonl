@@ -1,5 +1,5 @@
 {"id":"VAW4ACVYEH","mentions":["wikipedia://en/352950#4N56"],"kind":"definition","name":"Regular space","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
-{"id":"VAW4M0BEZP","mentions":["wikipedia://en/54365238#LHZF"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"VAW4M0BEZP","mentions":["wikipedia://en/54365238#LHZF"],"kind":"problem","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue unsolved names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"VAW7VPKZBP","mentions":["wikipedia://en/51140705#TFU2"],"kind":"topic","name":"Kiros Berhane","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"VAW89G0KSP","mentions":["wikipedia://en/31213900#4Q0B"],"kind":"example","name":"Examples","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"VAWC13JPMH","mentions":["wikipedia://en/3820870#X19U"],"kind":"unknown","name":"Yossele Rosenblatt","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

@@ -1,4 +1,4 @@
-{"id":"3N572B2SXD","mentions":["wikipedia://en/23670#K1M1"],"kind":"problem","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"3N572B2SXD","mentions":["wikipedia://en/23670#K1M1"],"kind":"problem","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the cue unsolved names a section and not one item","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"3N5FYWDD1A","mentions":["wikipedia://en/26549625#UR5R"],"kind":"definition","name":"Definitions","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"3N5RM6EF25","mentions":["wikipedia://en/53724600"],"kind":"topic","name":"Jinde Cao","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"3N5X5T5M1T","mentions":["wikipedia://en/5280990#SL54"],"kind":"definition","name":"Method","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}

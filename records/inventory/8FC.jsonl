@@ -1,4 +1,4 @@
-{"id":"8FC53V3QH3","mentions":["wikipedia://en/463981#UV86"],"kind":"unknown","name":"528 (number)","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
+{"id":"8FC53V3QH3","mentions":["wikipedia://en/463981#UV86"],"kind":"unknown","name":"528 (number)","layer":"textbook","spread":1,"outcome":{"value":"deferred","reason":"the kind of the item is unknown","rule":"wikipedia-deferred","until":"2027-05-01","by":"m2 corpus adopt"},"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"},{"op":"outcome","at":"2026-11-05","by":"m2 corpus adopt","note":"deferred until 2027-05-01"}]}
 {"id":"8FC7J8506Z","mentions":["wikipedia://en/285622#DKY7"],"kind":"definition","name":"n-spheres","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"8FC9Y4TFFX","mentions":["wikipedia://en/44533341"],"kind":"definition","name":"∞-topos","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
 {"id":"8FCACK8DKG","mentions":["wikipedia://en/47565351#L7WR"],"kind":"unknown","name":"Zevenhoven","layer":"textbook","spread":1,"history":[{"op":"add","at":"2026-11-02","by":"m2/dev"}]}
